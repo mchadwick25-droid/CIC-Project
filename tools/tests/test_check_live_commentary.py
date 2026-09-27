@@ -1041,6 +1041,228 @@ def test_real_editorial_numbered_labels_not_flagged_as_headers():
 
 
 # ---------------------------------------------------------------------------
+# worlds/ Phase 3b checker-gap follow-up: SOURCE_REGISTRY_REF widened to a
+# bare "Registry" word (proximity-bound), the REGISTRY.yaml exclusion, the
+# iso-date table-cell exemption (Source_Registry.md-scoped), the
+# generalized structured-date kwarg, three more tail-heading synonyms, the
+# per-section header-field block, and the review-doc/build-ledger
+# additions.
+# ---------------------------------------------------------------------------
+
+def test_bare_registry_word_near_r_number_keeps(tmp_path):
+    # witt_Doc_09_Story_Inventory.md's own real citation convention: no
+    # literal "Source Registry" phrase, just "Registry" close to the
+    # R-number. Body text placed after a `---` divider so it isn't itself
+    # swept up by the top-of-file header-field scan.
+    text = (
+        "# Doc_09 -- Story Inventory\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 1. Body\n"
+        "**Registry cross-reference:** R31, Native, Primary.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/witt/witt_Doc_09_Story_Inventory.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line.get(6, "KEEP") == "KEEP"
+
+
+def test_registry_word_far_from_r_number_still_rewrites(tmp_path):
+    # The literal "Source Registry" phrase stays unconditional (no
+    # proximity bound, matching the original established behavior) - the
+    # proximity bound applies only to the newly-added bare "Registry" word
+    # case. Build/reference/method/CiC_Record_Native_World_Build_Process_
+    # V1.9.md:627's actual shape: a bare "Registry" mention in an earlier,
+    # unrelated sentence, and a genuine ruling number appearing well past
+    # fifty characters later - the two must not be treated as connected.
+    text = (
+        "The Registry list for that other entry does not include this one, "
+        "and this sentence pads well past fifty characters of separation "
+        "from the ruling. "
+        "Holdings dispositions (R11): before Doc_02's review, run the check.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/reference/method/Some_Method_Doc.md")
+    assert hits[0].category == "REWRITE"
+
+
+def test_registry_yaml_filename_does_not_suppress_nearby_ruling(tmp_path):
+    # cic/texts/REGISTRY.yaml is a different registry (vendored-source
+    # rights/apparatus) than a world's own Source Registry - a ruling
+    # number coincidentally near a REGISTRY.yaml mention must still
+    # rewrite.
+    text = "Fixes go in cic/texts/REGISTRY.yaml, never per-record exceptions (R33).\n"
+    hits = _hits_for(text, tmp_path, "Build/reference/method/Some_Method_Doc.md")
+    assert hits[0].category == "REWRITE"
+
+
+def test_source_registry_table_cell_bare_date_keeps(tmp_path):
+    text = (
+        "# Source Registry\n"
+        "\n"
+        "---\n"
+        "\n"
+        "| Row | Title | Boundary | Confidence | Added | Discovery |\n"
+        "| 14 | Some Work | Native | Confidence B | 2026-07-14 | web search, 2026-07-14 |\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/witt/witt_Source_Registry.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line.get(6, "KEEP") == "KEEP"
+
+
+def test_bare_date_table_cell_outside_source_registry_still_rewrites(tmp_path):
+    # The same short "channel, date" cell shape in a DIFFERENT file
+    # (DOWNLOAD-QUEUE.md tracks an ongoing, still-changing verification
+    # pass, not Source_Registry.md's own permanent first-vendored record)
+    # is real REWRITE-worthy content, not structural provenance - the
+    # table-cell exemption must not apply outside a *Source_Registry.md
+    # file.
+    text = "| Some Work | An Author | `syr` | https://example.org | pd-us-by-date | direct WebSearch verification, 2026-09-02 |\n"
+    hits = _hits_for(text, tmp_path, "Build/worlds/_cross-world/DOWNLOAD-QUEUE.md")
+    assert hits[0].category == "REWRITE"
+
+
+def test_structured_date_kwarg_generalized_beyond_deadline(tmp_path):
+    text = 'problems = enforce.hygiene_problems(by_world, today="2026-09-15")\n'
+    hits = _hits_for(text, tmp_path, "engine/m9/tests/test_enforce.py")
+    assert hits == [] or hits[0].category == "KEEP"
+
+
+def test_structured_date_kwarg_does_not_swallow_narrative_string_value(tmp_path):
+    # A kwarg whose value is a longer string that merely CONTAINS a date
+    # still rewrites - only a bare, quote-wrapped date value is structured
+    # data.
+    text = 'divergence_note="Reworded 2026-09-15 to fix wording"\n'
+    hits = _hits_for(text, tmp_path, "Build/worlds/lpc/scripts/wb_lpc_s21.py")
+    assert hits[0].category == "REWRITE"
+
+
+def test_doc_tail_heading_three_more_synonyms_protected(tmp_path):
+    text = (
+        "# Doc_08 -- Forces Document\n"
+        "## Some World\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## Revision Log\n"
+        "Per Mark's ruling, R26, Round 3 fixed this.\n"
+        "\n"
+        "## Document Status\n"
+        "Per Mark's ruling, R27, still pending.\n"
+        "\n"
+        "## 9. Doc_08 Completion Certification\n"
+        "Per Mark's ruling, R28, this section is complete.\n"
+        "\n"
+        "## 12. Coverage limits (dated 2026-09-16)\n"
+        "Per Mark's ruling, R29, this is the coverage note.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/alx/Doc_08_Forces_Document.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[7] == "PROTECTED"    # under Revision Log
+    assert by_line[10] == "PROTECTED"   # under Document Status
+    assert by_line[13] == "PROTECTED"   # under Completion Certification
+    assert by_line[16] == "PROTECTED"   # under Coverage limits
+
+
+def test_post_heading_header_field_block_protected(tmp_path):
+    # witt_Doc_08_Forces_Document.md's own real shape: a per-section
+    # metadata block (2+ consecutive header fields) well past the
+    # document's own top header, which the top-of-file-only scan misses.
+    text = (
+        "# Doc_08 -- Forces Document\n"
+        "\n"
+        "**Status: APPROVED TO PROCEED**\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 1. Section 1 -- World Identification\n"
+        "\n"
+        "**World name:** Example World.\n"
+        "\n"
+        "**World code:** `ex`.\n"
+        "\n"
+        "**Doc_08 completion date:** PENDING -- drafted 2026-09-16, now Revision 3.\n"
+        "\n"
+        "**Builder:** the build thread's drafting agent, project lead Mark Chadwick.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/witt/witt_Doc_08_Forces_Document.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[13] == "PROTECTED"  # Doc_08 completion date, well past the top header
+
+
+def test_isolated_bold_lead_not_swept_into_post_heading_block(tmp_path):
+    # A single inline bold lead sentence mid-prose ("**What it is not:**")
+    # must not be treated as a per-section metadata block just because it
+    # matches the narrow field-label shape - a real block is never just
+    # one field, and this one isn't even right after a heading.
+    text = (
+        "# Doc_08 -- Forces Document\n"
+        "\n"
+        "**Status: APPROVED TO PROCEED**\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 0. What this document is\n"
+        "\n"
+        "**What it is.** Some description.\n"
+        "**What it is not:** per Mark's ruling, R26, this is real narrative.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/witt/witt_Doc_08_Forces_Document.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[10] != "PROTECTED"
+
+
+def test_review_doc_new_keywords_covered(tmp_path):
+    text = "Round 1 review Finding S5: per Mark, R26\n"
+    for rel in (
+        "Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md",
+        "Build/worlds/pahc/Phase6_FacilitationBrief_SectionA_B7_Verification_Round2.md",
+        "Build/worlds/gallic/gallic_B1a_B1b_Coverage_Check.md",
+        "Build/worlds/pahc/PhaseD_LiveDeepInterview_2026-09-13_Transcripts_Round1.md",
+        "Build/worlds/ijc/Step10_Phase5_Boundary_Testing_Record.md",
+        "Build/worlds/pahc/CiC_W1_Phase5_BoundaryTesting_Independent_Verification_Round1.md",
+        "Build/worlds/hal/hal_Phase5_LiveTest_Scoring_Round1.md",
+        "Build/worlds/desert/CiC_W3_Doc09c_Validation_Documentation.md",
+    ):
+        hits = _hits_for(text, tmp_path, rel)
+        assert hits[0].category == "PROTECTED", rel
+
+
+def test_review_doc_finding_keyword_not_added(tmp_path):
+    # A bare "finding" keyword and a blanket Analysis/ directory rule were
+    # tried and dropped - the hand-labelled sample carries real,
+    # still-open construction-thread narrative under both, so neither is
+    # a review-doc signal on its own.
+    text = "Per Mark's ruling, R26, Round 3 is required before disposition.\n"
+    for rel in (
+        "Build/worlds/ijc/Post_Admission_Source_Finding_Example_2026-09-09.md",
+        "Build/worlds/alx/Analysis/Some_Finding_2026-09-09.md",
+    ):
+        hits = _hits_for(text, tmp_path, rel)
+        assert hits[0].category != "PROTECTED", rel
+
+
+def test_build_ledger_files_protected(tmp_path):
+    text = "Per Mark's ruling, R26, this entry records what was withdrawn.\n"
+    for rel in (
+        "Build/worlds/_cross-world/NEEDS-RULING.md",
+        "Build/worlds/lpc/Doc_04_Superseded_Claims.md",
+    ):
+        hits = _hits_for(text, tmp_path, rel)
+        assert hits[0].category == "PROTECTED", rel
+
+
+def test_generic_build_ledger_suffix_not_added(tmp_path):
+    # A generic `*_LEDGER.md` suffix rule was tried for
+    # CAPPADOCIAN_BUILD_LEDGER.md and dropped - the hand-labelled sample
+    # carries a real, still-open verification note inside it
+    # (CAPPADOCIAN_BUILD_LEDGER.md:463), so this file cannot be
+    # blanket-exempted the way NEEDS-RULING.md/Superseded-Claims can.
+    text = "Per Mark's ruling, R26, Round 3 caught this problem.\n"
+    hits = _hits_for(text, tmp_path, "Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md")
+    assert hits[0].category != "PROTECTED"
+
+
+# ---------------------------------------------------------------------------
 # Hand-labelled sample: precision/recall (PR A's own required measurement)
 # ---------------------------------------------------------------------------
 
