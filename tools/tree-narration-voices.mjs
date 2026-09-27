@@ -13,16 +13,20 @@
  * dashboard. Leave a value '' to keep using the default narrator for that
  * movement in the meantime.
  */
+// Movement id -> registry-verified Representative name, cross-checked
+// against records/worlds/<code>.yaml and each world's own registry log
+// (2026-09-27). Comment only, for readability; the empty string is what
+// the script actually reads until a voice id is chosen.
 export const voiceOverrides = {
-  'post-apostolic-house-church': '',
-  'alexandria-catechetical': '',
-  'desert-monasticism': '',
-  'syriac-edessa-nisibis': '',
-  'cappadocian-nicene-pastoral-monastic-tradition': '',
-  'hieronymian-ascetic-literary': '',
-  'gallic-monastic-ascetic-christianity': '',
-  donatism: '',
-  'lutheran-wittenberg-and-its-congregations': '',
-  'the-reformed-cities-zurich-and-geneva': '',
-  'imperial-juridical-christianity': '',
+  'post-apostolic-house-church': '', // Chloe (pahc)
+  'alexandria-catechetical': '', // Theon (alx)
+  'desert-monasticism': '', // Papnoute (desert)
+  'syriac-edessa-nisibis': '', // Mar Yausep (syr)
+  'cappadocian-nicene-pastoral-monastic-tradition': '', // Chilo (cappadocian)
+  'hieronymian-ascetic-literary': '', // Albina (hal)
+  'gallic-monastic-ascetic-christianity': '', // Renatus (gallic)
+  donatism: '', // Fidelis (don)
+  'lutheran-wittenberg-and-its-congregations': '', // Nikolaus (witt)
+  'the-reformed-cities-zurich-and-geneva': '', // Theophilus (rzg)
+  'imperial-juridical-christianity': '', // Marius (ijc)
 };
