@@ -326,6 +326,7 @@ Build/worlds/gallic/Lexicon-Chunks/galliclex079_commonitory-peregrinus.md: L4-Te
 Build/worlds/gallic/Lexicon-Chunks/galliclex080_theotocos.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/gallic/Lexicon-Chunks/galliclex081_catechumen.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/gallic/Open_Gaps_Tracking.md: packages/gallic/2026-09-13T16-06-19Z
+Build/worlds/gallic/Open_Gaps_Tracking.md: packages/gallic/2026-09-25T18-01-08Z
 Build/worlds/gallic/Story-Chunks/gallicstory001_the-cloak-at-amiens.md: L4-Templates/Story_Repository_Chunk_Template.md
 Build/worlds/gallic/Story-Chunks/gallicstory002_discharge-before-caesar.md: L4-Templates/Story_Repository_Chunk_Template.md
 Build/worlds/gallic/Story-Chunks/gallicstory003_raising-of-the-catechumen.md: L4-Templates/Story_Repository_Chunk_Template.md
