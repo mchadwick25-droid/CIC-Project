@@ -86,7 +86,7 @@ Confidence cells above carry the leading band only where a chunk declares more t
 
 ## 5. Absent Stories Check
 
-**Doc_09 §7 answers the required question with five enumerated absences, in 1122 words.** Not a placeholder.
+**Doc_09 §7 answers the required question with five enumerated absences, in 1124 words.** Not a placeholder.
 
 | # | Absence named |
 |---|---|

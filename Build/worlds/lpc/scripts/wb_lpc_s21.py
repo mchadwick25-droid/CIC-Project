@@ -350,7 +350,7 @@ SCHEMA_VERSION = 2
 # ---------------------------------------------------------------- rights ---
 RIGHTS_VENDORED_VERIFIED = (
     "public-domain; vendored in cic/texts/, and the specific content this row licenses was "
-    "directly read and verified -- either across Doc_01's own nine-round review history, or "
+    "directly read and verified -- either across Doc_01's own nine adversarial review rounds, or "
     "by this build session's own direct archive.org fetch-and-verify pass "
     "(Source_Acquisition_Manifest.md SS1). Not re-opened for a rights re-check by this "
     "compilation pass."
