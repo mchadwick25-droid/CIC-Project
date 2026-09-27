@@ -1152,15 +1152,34 @@ def test_doc_tail_heading_three_more_synonyms_protected(tmp_path):
         "## 9. Doc_08 Completion Certification\n"
         "Per Mark's ruling, R28, this section is complete.\n"
         "\n"
-        "## 12. Coverage limits (dated 2026-09-16)\n"
-        "Per Mark's ruling, R29, this is the coverage note.\n"
+        "## 12. Open Questions and Revision Triggers\n"
+        "Per Mark's ruling, R29, this is the open-questions note.\n"
     )
     hits = _hits_for(text, tmp_path, "Build/worlds/alx/Doc_08_Forces_Document.md")
     by_line = {h.line: h.category for h in hits}
     assert by_line[7] == "PROTECTED"    # under Revision Log
     assert by_line[10] == "PROTECTED"   # under Document Status
     assert by_line[13] == "PROTECTED"   # under Completion Certification
-    assert by_line[16] == "PROTECTED"   # under Coverage limits
+    assert by_line[16] == "PROTECTED"   # under Open Questions and Revision Triggers
+
+
+def test_doc_tail_heading_coverage_limits_not_added(tmp_path):
+    # "Coverage limits" was tried and dropped - witt_Doc_03_Lexicon_
+    # Candidate_List.md's own "## 12. Coverage limits" section is real,
+    # load-bearing audit-finding content woven into the document's own
+    # argument, not administrative tail-tracking, and must stay scanned.
+    text = (
+        "# Doc_03 -- Lexicon Candidate List\n"
+        "## Some World\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 12. Coverage limits (dated 2026-09-16)\n"
+        "The audit found this item making an overclaim, per Mark's ruling R26.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/alx/Doc_03_Lexicon_Candidate_List.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[7] != "PROTECTED"
 
 
 def test_post_heading_header_field_block_protected(tmp_path):

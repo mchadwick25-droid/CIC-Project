@@ -346,11 +346,15 @@ _BARE_DATE_HEADER_LINE = re.compile(
 # is structured data by construction, the same reasoning `deadline=...`
 # already had - the specific name was never the load-bearing part of the
 # original rule, the shape was (an assignment target holding exactly a
-# date, nothing else). Confirmed live in Build/worlds/*/scripts/*.py's own
-# per-row source-provenance dict literals. A kwarg whose value is a longer
-# string that merely CONTAINS a date ("divergence_note='Reworded 2026-09-15
-# to fix wording'") still does not match - only a bare, quote-wrapped date
-# and nothing else as the value.
+# date, nothing else). Confirmed live in engine/'s own test fixtures and
+# seed literals (`today="2026-09-15"`, `SEALED_AT = "2026-08-20"`) - no
+# `Build/worlds/*/scripts/*.py` file happens to use exactly this bare
+# kwarg=date shape today (their own per-row provenance dict fields carry
+# a longer descriptive string alongside the date, which this rule
+# correctly leaves alone; see `divergence_note` below). A kwarg whose
+# value is a longer string that merely CONTAINS a date
+# ("divergence_note='Reworded 2026-09-15 to fix wording'") still does not
+# match - only a bare, quote-wrapped date and nothing else as the value.
 _STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d-\d\d-\d\d[\"']")
 
 # A markdown table row (2+ `|` cells) whose every ISO-date occurrence sits
@@ -373,12 +377,16 @@ _STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d
 # than Source_Registry.md's own permanent, never-revised "when this source
 # was first vendored" record - the same distinction between a source
 # record's own permanent `discovery_channel` field and a status field that
-# can go stale. Confirmed live: witt/lpc/don's own Source_Registry.md
-# "Added"/"Discovery channel/date" columns account for the large majority
-# of each file's remaining iso-date hits before this exemption; a
-# genuinely narrative table cell (e.g. Doc_03's own multi-hundred-word
-# evidentiary cells) is never this short, so it is never wrongly swept in
-# by this check even within a Source_Registry.md file itself.
+# can go stale. Confirmed live: witt_Source_Registry.md's own "Added"/
+# "Discovery channel/date" columns account for the large majority of that
+# file's remaining iso-date hits before this exemption; a genuinely
+# narrative table cell (e.g. Doc_03's own multi-hundred-word evidentiary
+# cells) is never this short, so it is never wrongly swept in by this
+# check even within a Source_Registry.md file itself. lpc/don/cappadocian
+# write the date FIRST in their own provenance cells ("2026-09-02, `lpc`
+# build thread") rather than last, which this regex does not match - those
+# stay flagged (errs safe, not a false negative) rather than silently
+# assumed covered.
 # The leading-text group is optional: a cell can be the bare date alone
 # ("2026-07-14", no leading text at all), not only "text, then a date" -
 # an earlier version of this regex required at least one leading character
@@ -935,32 +943,42 @@ _DOC_HEADER_FIELD_NARRATIVE_LABEL_RE = re.compile(
 # is not itself a tail section, and hid real body narrative underneath it
 # ("Correction made during revision after Round 1 review..." in syr's
 # case).
-# Four more synonyms found once the survey above widened past its original
-# alx/don/ijc/lpc/rzg/syr sample, each individually confirmed real by
-# reading the file, not guessed from the name alone: "Revision Log"
-# (witt/hal, cappadocian, syr, lpc's Representative Phase docs and
+# Three more synonyms found once the survey above widened past its
+# original alx/don/ijc/lpc/rzg/syr sample, each individually confirmed
+# real by reading the file, not guessed from the name alone: "Revision
+# Log" (witt/hal, cappadocian, syr, lpc's Representative Phase docs and
 # lpc_World_Profile's own "World Profile Completion Status" heading -
 # the same disagreement-log/escalation content "Document Log" already
 # names, under this world-family's own preferred wording instead),
 # "Document Status" (hal's own Facilitation Brief), "Completion
 # Certification"/"Completion Status" (witt Doc_08's "Doc_08 Completion
-# Certification", lpc's "World Profile Completion Status"), "Coverage
-# limits" (witt Doc_03's own dated coverage-limits section), "Open
+# Certification", lpc's "World Profile Completion Status"), "Open
 # Questions" (a third variant alongside "Open Items"/"Open Issues"), and
 # "Revision Triggers" as a closing phrase (cappadocian/desert's "Open
 # Questions, Revision Triggers, and Decisions Requiring the Project Lead").
+#
+# "Coverage limits" was tried (witt_Doc_03_Lexicon_Candidate_List.md's own
+# "## 12. Coverage limits" heading) and dropped: unlike the headings above,
+# that section is not administrative tail-tracking at all - it is real,
+# load-bearing audit-finding content woven into the document's own
+# argument ("The audit found the Papacy at Rome item and four more items
+# making the same 'in full' overclaim..." at line 732), the same genre as
+# a Doc_08 "Discipline N" section, which this checker never protects. A
+# batch review's own framing ("witt Doc_03's own dated coverage-limits
+# section... a checker gap") assumed this without reading the section;
+# reading it shows the opposite.
 _HEADING_NUMBERING_PREFIX_RE = re.compile(
     r"(?i)^(?:\d+(?:\.\d+)*\.?\s+|section\s+\d+\s*[-—:]\s*|part\s+\d+\s*[-—:]\s*)"
 )
 _DOC_TAIL_HEADING_START_RE = re.compile(
     r"(?i)^(?:overall\s+|final\s+|general\s+)?(?:open items?|open issues?|open questions?|"
     r"handoff|document log|document status|disposition|review and disposition|"
-    r"revision log|completion status|completion certification|coverage limits?)\b"
+    r"revision log|completion status|completion certification)\b"
 )
 _DOC_TAIL_HEADING_END_RE = re.compile(
     r"(?i)(?:open items?|open issues?|open questions?|handoff|document log|document status|"
     r"disposition|revision log|completion status|completion certification|"
-    r"coverage limits?|revision triggers)$"
+    r"revision triggers)$"
 )
 
 
