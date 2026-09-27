@@ -1761,3 +1761,47 @@ cleanup). `py_compile` clean on every touched script. All work merged via three 
 branches plus direct commits to the shared branch, verified conflict-free (`git merge --no-ff`, no
 conflicts in any of the three merges — the five batches' file scopes were fully disjoint by
 design), pushed to `claude/gallant-archimedes-jafyg8` at `45aa23332`.
+
+**Checker-gap follow-up, closed the same day (`bc6225b93` → `97e42c337` → `5f24af2a1`).** Every one
+of the five Phase 3b batches independently flagged the same categories of checker false positive/gap
+(documented above), matching the F1–F3 precedent's own discipline: SOURCE_REGISTRY_REF widened to a
+bare "Registry" word (proximity-bound, with a `cic/texts/REGISTRY.yaml` exclusion — that file is a
+*different* registry than a world's own Source Registry, and a coincidental nearby mention must not
+suppress a real ruling citation); a new iso-date table-cell exemption scoped to `*Source_Registry.md`
+files specifically (`DOWNLOAD-QUEUE.md`'s structurally identical "channel, date" cell is real,
+hand-labelled REWRITE content — the exemption does not generalize to any table anywhere);
+`_STRUCTURED_DATE_KWARG` generalized from `deadline` to any identifier; three more Doc_0X
+tail-heading synonyms (Revision Log, Document Status, Completion Status/Certification, Open
+Questions, Revision Triggers); a new per-section header-field block check; six new `_is_review_doc`
+keywords; a new `_is_build_ledger` for `NEEDS-RULING.md`/`*_Superseded_Claims.md`. Three proposed
+additions (a blanket `Analysis/` directory rule, a bare "finding" keyword, a generic `*_LEDGER.md`
+suffix) were tried and dropped when the existing hand-labelled precision/recall test caught them as
+real regressions (recall fell to 0.80) — `alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`
+and `ijc/Post_Admission_Source_Finding_...md` both carry real, still-open construction-thread
+narrative, and `CAPPADOCIAN_BUILD_LEDGER.md` mixes real verification narrative in with its ledger
+entries — none of the three could be blanket-exempted.
+
+The Opus review gate on this fix (matching F1–F3's own review discipline) caught one real
+regression before push: `_post_heading_header_field_lines` protected *any* run of 2+ bold-label
+fields right after a heading, but the fleet uses that same shape for analytical content too (Doc_07
+lens subsections, World Profile Tensions/Honest Limits, Construction Notes fields) — 44 of 71 newly
+protected lines were content, not metadata, including real leaked process narration the cleanup
+should still see (`ijc_World_Profile.md:227`'s "CONFIRMED by the project lead ... in session,
+2026-09-20"). Fixed (`97e42c337`) by narrowing the rule to an explicit identification/provenance
+label allowlist (world name/code, Representative name, builder, branch, produced, template/date
+version), independently re-verified against the same fleet-wide (path, line) diff the review used:
+0 non-actionable-to-actionable regressions, all 44 content lines restored, all 27 genuine metadata
+lines (including `witt_Doc_08_Forces_Document.md:47/51/53`) still protected. A second, lower-severity
+finding from the same review — "Coverage limits" (added as a tail-heading synonym) turned out to
+protect `witt_Doc_03_Lexicon_Candidate_List.md`'s own real audit-finding section, not administrative
+tracking — was fixed separately (`5f24af2a1`), along with two inaccurate evidence claims in the
+commit's own docstrings (an overstated "witt/lpc/don" claim narrowed to witt only; a
+"Build/worlds/*/scripts/*.py" claim corrected to the actual confirmed-live examples, engine/'s own
+test fixtures).
+
+Final fleet-wide effect (verified zero regressions against `8e7db5279` at every step):
+worlds/ REWRITE+ROUTE 3792 → 3283; engine/ REWRITE 184 → 171. `tools/tests/test_check_live_
+commentary.py` — 157 passed, 16 new across the three commits (141 → 157), each covering one fix
+and, for the three dropped proposals, pinning them as dropped so a future change can't quietly
+re-introduce them. `tools/check_paths.py --baseline` — 0 new unresolved, 0 retired. Pushed to
+`claude/gallant-archimedes-jafyg8` at `5f24af2a1`.
