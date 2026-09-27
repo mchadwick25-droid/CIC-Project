@@ -162,3 +162,9 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Representative construction and live testing complete for this build stage.** This world remains explicitly not eligible for Freeze (Doc_09c updated accordingly) — full Encounter Testing and External Scholarly Review remain outstanding and are outside this build thread's scope/authority.
 - **Milestone: World #9's full pre-deployment build sequence (Docs 01-09, Representative construction, and live adversarial testing) is now complete.**
 
+### 2026-09-27 — M3 sealed live-admission battery, run against the current M2-compiled package
+- **Context:** `Build/Ministry/Operations/Audits/CiC_M2_Migration_Validation_Gap_Audit_2026-09-27.md` found hal's own prior M3 sealed-battery reports all predate the 2026-09-26 fleet-wide M2 rebuild, leaving the current pin unconfirmed against the real 28-probe live-admission battery. Mark's "kick off" authorization (2026-09-27) directed closing this gap fleet-wide.
+- **Method:** `engine.m2.cli staleness-check` confirmed hal's pin (`packages/hal/2026-09-26T20-12-57Z`) clean immediately beforehand. `engine.m3.live_admission_run` run in one batch invocation covering hal, ijc, pahc, syr, and witt.
+- **Result: 28/28 probes pass.** Real cost $0.46871775. Full report: `engine/m3/reports/live-admission-report-batch2-2026-09-27.json`. See `Open_Gaps_Tracking.md` OG-11 for the full entry.
+- **Disposition:** Investigation only — no fix was needed, and none was attempted. No `records/`, `packages/`, or registry file touched.
+
