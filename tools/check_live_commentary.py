@@ -969,28 +969,50 @@ def _is_doc_tail_heading(heading_text: str) -> bool:
     return bool(_DOC_TAIL_HEADING_START_RE.match(stripped) or _DOC_TAIL_HEADING_END_RE.search(stripped))
 
 
-def _post_heading_header_field_lines(lines: list[str]) -> set[int]:
-    """A per-section metadata block: 2+ consecutive `_DOC_HEADER_FIELD_RE`
-    lines (tolerating one blank line between siblings, matching this
-    repo's own convention of one blank line between fields) starting right
-    after a heading (## or deeper) - the same header-field convention
-    `_doc_construction_protected_lines`'s own top-of-file scan already
-    protects, repeated after a LATER section heading rather than only at
-    the document's very top. Confirmed live: witt_Doc_08_Forces_Document.md's
-    "## 1. Section 1 — World Identification" heading, immediately followed
-    by seven metadata fields (World name/World code/Representative name/
-    Doc_08 completion date/Builder/Doc_02 version/Doc_04 version) - none of
-    which sit in the document's own top header block, whose first `---`
-    closes at line 13, long before Section 1 begins at line 39.
+# The labels a per-section identification block carries, read off every
+# such block in the fleet (Doc_07's "Section 1 — Document Identity and
+# Confirmed Inputs", Doc_08/Doc_09's "Section 1 — World Identification",
+# the World Profile's "Section 1 — World Identity", a Phase 6 brief's own
+# header block): the world's name and code, the Representative's name, the
+# builder or branch, when it was produced, and any date or upstream-
+# document version ("Doc_08 completion date", "Date of World Profile
+# completion", "Doc_02 (Source Ecology) version this analysis draws
+# from"). Nothing else. Templates across the fleet use the same bold-label
+# shape for analytical content fields too - "Temporal scope", "Primary
+# sources of authority", "Register derivation", "Strand attribution",
+# "What external scholarly review should focus on", a lexicon entry's
+# "Ecological Function", a story's "Tier justification" - often two or
+# more in a row straight after a heading. Those are the document's
+# substance, not its metadata, and stay scanned like any other prose.
+_SECTION_METADATA_LABEL_RE = re.compile(
+    r"(?i)^(?:world name\b|world code$|representative name$|builder$|branch$|produced$|"
+    r"template version$|.*\b(?:date|version)\b)"
+)
 
-    Deliberately requires at least 2 matching lines close together, unlike
-    the top-of-file scan (which protects even a single field there): a
-    single bold lead sentence mid-prose ("**What it is not:**", witt Doc_08
-    §0) must not be swept in just because it happens to match the same
-    narrow shape - a real per-section metadata block is never just one
-    field, and this rule only ever starts scanning immediately after a
-    heading line in the first place, which an inline mid-paragraph bold
-    lead never is."""
+
+def _post_heading_header_field_lines(lines: list[str]) -> set[int]:
+    """A per-section metadata block: a run of `_DOC_HEADER_FIELD_RE` lines
+    (tolerating one blank line between siblings, matching this repo's own
+    convention of one blank line between fields) starting right after a
+    heading (## or deeper), carrying at least 2 fields whose label is
+    identification/provenance metadata (`_SECTION_METADATA_LABEL_RE`) -
+    the same header-field convention `_doc_construction_protected_lines`'s
+    own top-of-file scan already protects, repeated after a LATER section
+    heading rather than only at the document's very top. Example:
+    witt_Doc_08_Forces_Document.md's "## 1. Section 1 — World
+    Identification", followed by World name/World code/Representative
+    name/Doc_08 completion date/Builder/Doc_02 version/Doc_04 version,
+    well past the top header's first `---`.
+
+    Only the metadata-labelled lines in the run are protected; a content
+    field sitting in the same run (a World Profile's "Temporal scope" or
+    "Community character" between its "World code" and "Builder") is not.
+    A run is walked past such content fields, not stopped at them, since
+    the World Profile template puts its Builder/Date fields after them.
+
+    At least 2 metadata fields are required: a single field-shaped bold
+    lead ("**What it is not:**", "**Registry cross-reference:**") is never
+    a metadata block on its own."""
     heading_re = re.compile(r"^(#{2,})\s+(.*)$")
     protected: set[int] = set()
     n = len(lines)
@@ -998,7 +1020,7 @@ def _post_heading_header_field_lines(lines: list[str]) -> set[int]:
         if not heading_re.match(line):
             continue
         j = i + 1
-        run: list[int] = []
+        metadata_run: list[int] = []
         blanks_in_a_row = 0
         while j < n and blanks_in_a_row <= 1:
             stripped = lines[j].strip()
@@ -1008,13 +1030,14 @@ def _post_heading_header_field_lines(lines: list[str]) -> set[int]:
                 continue
             field_match = _DOC_HEADER_FIELD_RE.match(lines[j])
             if field_match and not _DOC_HEADER_FIELD_NARRATIVE_LABEL_RE.match(field_match.group(1)):
-                run.append(j)
+                if _SECTION_METADATA_LABEL_RE.match(field_match.group(1).strip()):
+                    metadata_run.append(j)
                 blanks_in_a_row = 0
                 j += 1
                 continue
             break
-        if len(run) >= 2:
-            protected.update(idx + 1 for idx in run)
+        if len(metadata_run) >= 2:
+            protected.update(idx + 1 for idx in metadata_run)
     return protected
 
 

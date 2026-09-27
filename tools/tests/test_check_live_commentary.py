@@ -1189,6 +1189,47 @@ def test_post_heading_header_field_block_protected(tmp_path):
     assert by_line[13] == "PROTECTED"  # Doc_08 completion date, well past the top header
 
 
+def test_post_heading_content_fields_not_swept_into_metadata_block(tmp_path):
+    # Templates use the same bold-label shape for analytical content
+    # fields, often several in a row right after a heading (syr Doc_07's
+    # "### 2C — Authority Structures", pahc Doc_07's "## Section 6 — Gaps
+    # and Limits"). Those are the document's substance and stay scanned. In
+    # a World Profile "Section 1 — World Identity" run, only the
+    # identification/provenance fields are protected - a content field in
+    # the same run ("Temporal scope") is not.
+    text = (
+        "# Doc_07 -- Integrated Ecology Analysis\n"
+        "\n"
+        "---\n"
+        "\n"
+        "### 2C — Authority Structures [REQUIRED]\n"
+        "\n"
+        "**What this lens reveals for this world:** Three channels of standing.\n"
+        "\n"
+        "**Sites of contestation:** the succession question is still unresolved here.\n"
+        "\n"
+        "**What external scholarly review should focus on:** per Mark's ruling, R26, the dating split.\n"
+        "\n"
+        "## Section 1 — World Identity\n"
+        "\n"
+        "**World name (as the world would name itself):** Example.\n"
+        "\n"
+        "**World code:** `ex`.\n"
+        "\n"
+        "**Temporal scope:** c. 312–451, a period its actors saw as unresolved.\n"
+        "\n"
+        "**Builder:** the build thread.\n"
+        "\n"
+        "**Date of World Profile completion:** DRAFT, 2026-09-16\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/syr/Doc_07_Integrated_Ecology_Analysis.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[9] == "ROUTE"      # Sites of contestation - content field
+    assert by_line[11] == "REWRITE"   # external-review content field
+    assert by_line[19] == "ROUTE"     # Temporal scope - content field inside an identity run
+    assert by_line[23] == "PROTECTED"  # Date of World Profile completion - metadata
+
+
 def test_isolated_bold_lead_not_swept_into_post_heading_block(tmp_path):
     # A single inline bold lead sentence mid-prose ("**What it is not:**")
     # must not be treated as a per-section metadata block just because it
