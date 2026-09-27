@@ -120,7 +120,7 @@ FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "dist
 # grounding_fooling_measure.py), and the retrieval-negatives-structured
 # gate (engine/m1/gates.py) all import it from here rather than keeping
 # their own copies that could drift apart.
-GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not")
+GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not", "never attribute")
 
 
 def is_guard_marker_line(text: str) -> bool:
