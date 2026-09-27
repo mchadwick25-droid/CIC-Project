@@ -227,6 +227,12 @@ services:
         value: /data/cic_api_usage.db
       - key: CIC_ENFORCE_ADMISSION
         value: "0"
+      # Read-aloud step 1/2 (Ministry/Technology/CiC_ReadAloud_Step1_Design_
+      # Note.md), staging only, for a real-browser listen-through - cic-engine
+      # (prod) does not set this. Free browser speechSynthesis, no new
+      # backend, no recurring cost either way.
+      - key: VITE_READ_ALOUD
+        value: "on"
       # Same pin, same reason, as cic-engine's own CIC_API_SAFETY_MODEL_
       # PATTERN comment above (Stage 0d, Build-Plan.md) - staging validates
       # against the same tallied model production runs, not a floating
