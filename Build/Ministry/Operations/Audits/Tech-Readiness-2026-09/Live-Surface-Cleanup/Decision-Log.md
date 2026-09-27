@@ -1670,3 +1670,94 @@ own call") citing commit `d4512b64`, and repointing the staging file's header at
 of the dossier. The four per-row notes already said "(see this file's own header note)" and needed
 no separate edit. `corpus_map_merge.py` re-run after the fix: bucket files unchanged (the header is
 a `#` comment, not a merged data field; the row notes' pointer text was already correct).
+
+## Entry 19 — `Build/worlds/`, the fleet-wide Phase 3b continuation (F1–F4, then a 5-batch pass across all 15 worlds)
+
+Picks up where Entry 5 left this surface: dropped, then later resumed as its own dedicated effort
+(task-tracked as "Scope worlds/ pass"). This entry covers everything from the prior Opus review
+gate's fix commit (`61475727`) through this phase's own close (`45aa23332`).
+
+**F1–F4 (checker precision fixes and one governance fix, `61475727` → `e65a81a87`), continuing
+from that review gate's own findings:** F1–F3 were already fixed and pushed before this entry's
+window opened (anchored tail-heading regex, header-field narrative-label exclusion, the
+`ZellFinalCheck` naming variant — see the prior entry's own commit). **F4**, closed here: the
+review found two cross-world scoping rulings (`grkap`/`latap`'s `Step0_Movement_Scope_
+Confirmation.md`, both dated 2026-09-10 — Tertullian's inclusion in `latap`, Justin's co-ownership
+between PAHC and `grkap`) had lost their explicit "Mark's ruling" attribution during an earlier
+cleanup batch, leaving only "prepared at the project lead's direct request" (who commissioned the
+document, not who ruled). Per the review's own suggested fix, this was not restored inline — both
+documents are pre-Step-0 candidates with no build thread and no per-world decision log yet — but
+recorded in `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md` instead (entry
+dated 2026-09-26), the same log already used for the Doc_0X review-status exemption decision.
+
+**The 5-batch pass (`412c2a9d1` → `d5778dec6`):** fleet-wide REWRITE+ROUTE hits across
+`Build/worlds/` stood at 4,232 before this pass. Five agents ran in parallel — one per world-group
+(lpc alone; witt+hal; don+grkap+latap; cappadocian+syr+desert; `_cross-world`+alx+pahc+ijc+rzg+
+gallic) — each reading every flagged line in real file context rather than trusting the checker's
+label alone, per this program's own standing discipline. Two of the five hit a real environment
+problem, not a content one: their isolated git worktrees were twice snapshotted from a stale,
+pre-`Build/`-reorg commit (`ca5edbdc5`) instead of the actual branch tip. One agent caught this
+before editing anything and stopped cleanly; a second did not check first and had started editing
+before being caught and killed mid-turn (no commit had been made, so nothing was lost — the
+corrupted worktree was simply discarded). Both were relaunched directly in the shared main
+checkout instead of an isolated worktree, with an explicit "verify HEAD before touching anything"
+guard added to every subsequent prompt. Final hit counts, before → after: lpc 1075→747, witt
+776→776 (see below), don 574→457, cappadocian 343→342, syr 282→261, desert 85→83,
+`_cross-world` 217→217, alx 209→203, pahc 176→176, ijc 167→167, rzg 146→146, gallic 145→141, hal
+30→30, grkap 4→4, latap 3→3. Fleet-wide total: 4,232 → 3,753.
+
+The modest drop relative to the hit count is not under-delivery — every batch independently
+converged on the same finding, cross-confirmed across agents that couldn't see each other's work:
+most of what remains flagged is either (a) a world's own Source-Registry/dossier row citations
+(`R##`, `[R38]`) and per-row provenance-table dates colliding with the checker's `ruling-number`/
+`iso-date` patterns, (b) genuine designed disclosure content this program's own build-cycle
+discipline requires (Representative-identity decision records, "known error classes carried as a
+checklist," OUTSTANDING-item certifications with stated reasons), or (c) real checker gaps —
+Doc_0X tail-heading and status-header conventions the exemption logic doesn't yet recognize
+(a "Revision Log" heading instead of "Document Log," a second header block after an early `---`,
+a comma inside a header field's value, review/audit/finding/coverage-check documents under naming
+conventions `_is_review_doc`/`_is_gaps_ledger` doesn't match: `Analysis/`, `Phase N`, `Doc09c`,
+"Audit," "Finding"). None of these were patched mid-batch — flagged instead, per instruction not to
+invent exemption logic under time pressure; a follow-up checker-precision pass (same shape as
+F1–F3) is the natural next step, not folded into this one.
+
+Genuine narrative was found and cleaned in every batch: dated one-off "this was X, now Y, per the
+round-N review" wrappers around still-true facts, migrated where the substance needed a durable
+home rather than deleted (`don_Decision_Log.md`, `lpc_Decision_Log.md`'s new recall-test entry,
+`Open_Gaps_Tracking.md` entries `cappadocian` OG-15, `lpc` OG-20, `alx` OG-1/OG-3 pointed at rather
+than duplicated inline). Two agents caught and self-corrected their own mistakes before or via
+commit rather than leaving them: the lpc batch found an automated find/replace pass had bled into
+several PROTECTED header/tail sections and reverted those touches (one already-committed instance
+fixed as an explicit fix-up commit, `7aabc5d8c`, not silently amended); the `don` batch fixed two
+facts that had gone stale mid-edit (a companion brief's disposition status, a probe-rerun
+precondition) after verifying the current state directly rather than assuming.
+
+**Opus review gate (`45aa23332`):** found the batch sound overall — the safety-critical `don` Phase
+6 rewrite held up under a full code-path/quote/filename cross-check — but caught real regressions
+concentrated in the lpc batch specifically: one script constant (`wb_lpc_s21.py`'s
+`RIGHTS_VENDORED_VERIFIED`, the literal source string for 41 compiled `records/lpc/source/*.md`
+files' `rights_status` field) had been reworded along with its surrounding docstring, breaking the
+generator's own reproduction of its output; an uncommitted automated find/replace pass had left
+several sentence fragments grammatically broken (dangling clauses in Doc_01/03/08); several
+citations and project-lead ruling locators had been cut rather than trimmed (Divjak/Dolbeau
+discovery dates, a pinned commit hash, a Decision-Log locator reopening a citation-trail defect
+Doc_08 Round 1 had already fixed, four ruling-pointer degradations); `lpc_Story_Index.md` had gone
+out of sync with `Doc_09`'s own edited word count; and the new `lpc_Decision_Log.md` entry had been
+filed under the date of the rounds it records rather than the date it was written. All fixed in a
+single follow-up commit (`45aa23332`) — each fix a revert or a minimal, targeted repair, re-verified
+independently (not just re-trusting the review's own claims) before push: `git show` read directly
+on a sample of the fix's own hunks, `RIGHTS_VENDORED_VERIFIED`'s restored wording confirmed against
+the compiled records, `lpc_Story_Index.md`'s regenerated 1124-word count confirmed present.
+Two low-severity findings were reported but left unfixed as genuinely optional (a few "see the
+fuller record" Decision-Log pointers reduced to file names only, one `gallic_Source_Registry.md`
+row's slight paraphrase drift) — noted here for a possible future pass, not escalated.
+
+**Validation, final state:** `tools/tests/test_check_live_commentary.py` — 141 passed, no stale
+`HAND_LABELS` entries. `tools/check_paths.py --baseline` — 0 new unresolved citations, 0 retired
+paths (one pre-existing, out-of-scope drift item noted independently by three separate agents:
+`Build/worlds/gallic/Open_Gaps_Tracking.md`'s `packages/gallic/2026-09-25T18-01-08Z` repin citation
+predates this phase and belongs to whoever next touches gallic's own package-pin history, not this
+cleanup). `py_compile` clean on every touched script. All work merged via three isolated-worktree
+branches plus direct commits to the shared branch, verified conflict-free (`git merge --no-ff`, no
+conflicts in any of the three merges — the five batches' file scopes were fully disjoint by
+design), pushed to `claude/gallant-archimedes-jafyg8` at `45aa23332`.
