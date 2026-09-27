@@ -1431,7 +1431,14 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "PROTECTED"),
-    ("Build/worlds/pahc/CiC_W1_World_Profile.md", 81, "REWRITE"),
+    # Refreshed 2026-09-27 (pahc hoarder-house narrative cleanup): the
+    # original pahc World_Profile.md:81 example ("Supporting (reclassified
+    # down from an initial Primary candidacy during Doc_04 construction,
+    # round 1)") was cleaned by that pass - the round-number wrapper was
+    # cut since the same cell's own Cross-Check flag column already states
+    # the substantive reason. Re-pinned to a stable Build/reference/
+    # example not yet touched by any cleanup pass.
+    ("Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md", 24, "REWRITE"),
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
     # cic/corpus-map samples in this block were cleaned by that PR's own
