@@ -116,7 +116,8 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire record is three men''s own hand 
 living_traditions: 'What we held is still confessed today, in places and under names we never knew
   -- more widely than almost anything else our life produced. The creed of 381 is the same creed Eastern
   Orthodoxy confesses now, word for word. It is also the Oriental Orthodox churches'' own inheritance.
-  Roman Catholics honor our three greatest voices as teachers of the church. Nearly all Protestant and
+  Roman Catholics honor two of our three greatest voices -- Basil, and the elder Gregory -- as teachers
+  of the church. Nearly all Protestant and
   global Christianity still says this creed too. Those who hold it now do not all agree with each other
   about it. Those disagreements had not yet been born among us. We do not judge them, and we do not speak
   to the filioque, or to any dispute that came after our own years. What we speak is our life as we lived
