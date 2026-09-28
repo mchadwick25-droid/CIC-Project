@@ -3794,3 +3794,60 @@ before the real generation batch runs; `ELEVENLABS_API_KEY` +
 `ELEVENLABS_VOICE_ID` need adding to this cloud environment. Separately,
 whenever a thread has capacity: the stale Eumathios-named files flagged
 above are a real, small doc-hygiene cleanup, not urgent.
+
+---
+
+## 2026-09-28 — Real ElevenLabs narration proven end-to-end on one
+unbuilt movement (Josh, the default narrator)
+
+**Origin.** Mark found Josh's public voice ID (`TxGEqnHWrfWFTfGW9XjX`,
+verified via WebSearch against third-party ElevenLabs API references,
+elevenlabs.io itself unreachable from this sandbox), set
+`ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID=TxGEqnHWrfWFTfGW9XjX` on
+this cloud environment, and asked for a real test against one unbuilt
+movement before committing to the full 292-movement batch.
+
+**First attempt blocked, correctly diagnosed as a network-policy gap, not
+a code or credentials problem:** `api.elevenlabs.io` was not on this
+environment's egress allowlist (403 `Host not in allowlist`). Fixed by
+Mark switching the environment's Network access to **Custom** and adding
+`api.elevenlabs.io` as an allowed domain (the "also include default
+list" box kept the existing package-manager/GitHub access) - no fresh
+session needed, network policy applies to the running session.
+
+**Real, verified end-to-end pass, `greek-apologists-second-century`
+(chosen as a small, cheap, unbuilt movement - not one of the 11 with a
+live Representative):**
+- `--dry-run` first confirmed the plan (no `[distinct voice]` tag, as
+  expected for a non-built movement).
+- The real API call succeeded: a 1.3MB file, valid ID3v2.4/MPEG Layer
+  III header - genuine synthesized audio, not a stub.
+- `generate_tree_pages.mjs` regenerated all 292 pages; the diff touched
+  exactly one file, exactly the 7-line narration block
+  (`greek-apologists-second-century.html`) - proof the presence-check
+  gating works as designed and nothing else moves when one audio file
+  appears.
+- Loaded live in a real Chromium browser (Playwright, global install at
+  `/opt/node22/lib/node_modules/playwright`, against a local static
+  server): the audio element resolved to a real 80.9-second duration on
+  `loadedmetadata`, the disclosure line rendered correctly, zero page
+  errors traceable to the narration feature (the one console error was
+  the sandbox's own cert-authority issue on an unrelated external
+  request, the same known artifact noted in earlier entries).
+
+**Test artifacts deliberately not kept - Mark's call.** Asked directly
+whether to keep this file as the real first narrated movement or clean
+up before the real batch; Mark chose cleanup. The storage-strategy
+question for ~292 audio files (git-committed like portraits vs. object
+storage) is still open and shouldn't be decided as a side effect of a
+test file sitting in the tree. Reverted: deleted the test MP3, `git
+checkout --` on the one regenerated page. Working tree is clean.
+
+### Next action
+
+Storage-strategy decision for ~292 audio files, still Mark's; the 11
+per-Representative distinct voice picks, still Mark's, in
+`tools/tree-narration-voices.mjs`. Once both are settled, the real batch
+run is `node tools/generate_tree_narration.mjs` (no `--only`), which is
+now proven correct end-to-end - this entry is that proof, not a
+placeholder.
