@@ -2231,3 +2231,30 @@ Found 2026-09-28, while `witt_Phase7_Encounter_Ecology_Mapping_DRAFT.md`'s own R
 **Not done here, and named plainly rather than smoothed over.** No new live-engine probes were run (reserved for the project lead). No Facilitator boundary-disclosure turn type was designed or implied (reserved for the project lead; OG-24 remains open). No document was marked "Approved to proceed" or any other disposition; all three await the separate Round 3 independent review the project lead's own decision named as the next step. The Article 31 external scholarly review remains outstanding (OG-21, OG-24) and is unaffected by this revision.
 
 **Status: awaiting Round 3 independent review.**
+
+## OG-45. **Round 3 targeted recheck (Opus, independent) of the OG-44 revision of Phase Five, Six and Seven, 2026-09-28. Verdict SUBSTANTIAL on all three; none has cleared review. Also found: a project-lead-confirmed living-tradition runtime handling that is not in the deployed prompt.**
+
+**What happened.** A separate Opus review agent, working from fresh context, rechecked the OG-44 revision. It checked the diff (`7b37c68b6..c5685e29d`) against every Round 2 finding: S-1 to S-10, P6-S1 to P6-S9, and P7-S1 to P7-S4. It did not re-review from scratch. Review files: `witt_Phase5_Review_Round3_Opus_Independent.md`, `witt_Phase6_Review_Round3_Opus_Independent.md`, `witt_Phase7_Review_Round3_Opus_Independent.md`. Cosmetic and propagation fixes were applied directly to the three documents: status lines, cross-document statements, `.txt`-as-deployed residue, and exact punctuation of quotations. Each fix is listed in its review file. No status line was changed.
+
+**Outcome, per document.**
+- **Phase Five.** Resolved: S-1 (with propagation fixes), S-2 in substance, S-5, S-6, S-8, S-9, and S-7 as Round 2 asked it. Still open:
+  - **S-3, partly.** The Turn 2 correction misquotes the sanctioned "I am a representative…" line as "We are…". It also answers a question FG V3.6 §12 routes to the Facilitator. `engine/m5/routing.py`'s `_SYSTEM_NATURE_SHAPE` was verified not to match Turn 2's phrasing, so that phrasing reaches the voice: a real classifier-miss gap.
+  - **S-4, partly and regressed.** The battery still has no single evidentiary status, and the revision deleted Open Item 6's "All probes and responses were authored" disclosure. SE-2 and Phase Seven §2 still cite it.
+  - **S-10, not resolved.** The document now calls itself the Part Nine "revision … and retesting". It revised no construction element and retested nothing. The exit criterion is unmet. Part of the remedy is within this world's own records: the deployed records carry "We do not have either text to quote from" (`witt.dw.what-we-have-never-settled`) and "barely appear in what we hold" (three records).
+  - **New: CL-1 should be FAIL, not AMBIGUOUS.** The observed live output has VI-1 and a narrated limit, which the document scores FAIL when the same thing appears in authored text. The illustrative text's "was he right" sentence is itself the decontextualization failure. The content boundary held and should be recorded as held.
+  - **New, a Round 2 error: RS-1's live evidence is a different, more explicit crisis message.** The handoff mechanism is live-verified. RS-1's own phrasing is not.
+- **Phase Six.** P6-S1 to P6-S8 are resolved. Section A was verified with `engine.m1.fk`: FK 6.27 / FRE 73.25. The FK below the 8 floor is reported, not failed, per the NorthStar decision. Still open: **P6-S9 was a Round 2 error.** The "They have their own voice" paragraph B7 now attributes to "the deployed prompt" exists only in the `.txt` design artifact. The deployed prompt answers a question about a church today with "we cannot answer that from our own record."
+- **Phase Seven.** P7-S1 is resolved and verified. P7-S3 is resolved with propagation fixes; its conclusion was verified on the deployed "What we keep returning to". Still open:
+  - **P7-S2, partly.** §3 calls all six World Profile §8 domains "thin-but-real" while quoting Doc_09 naming women's own account as absent. Material culture is also absent. The §9 table was not separated.
+  - **P7-S4, partly.** §3's AN-3 bullet still says "held at SECOND LOOK", but Phase Five now scores AN-3 FAIL. "Actual Phase Five probe output" and "confirmed directly" remain.
+
+**New gap, for the project lead (not fixed here).** Doc_10 §6 records "Version A runtime handling" as part of the Living Tradition Status Confirmation the project lead confirmed. Version A is the closing paragraph saying present-day communities "have their own voice and their own account of themselves". That paragraph is not in the deployed `compiled/prompt.txt` or `capsule.md` for the current pin (`2026-09-26T20-13-54Z`). A text search for its wording and for "living tradition" finds nothing in either. `records/witt/world_core/witt.core.witt.md`'s LIVING_TRADITIONS note also still reads "Article 29 confirmation … is PENDING", which is stale against Doc_10 §6's CONFIRMED. This touches a project-lead-confirmed Article 29 determination. Whether the fix is witt-specific or fleet-level (the compile path may carry no living-tradition paragraph for any world) has not been checked.
+
+**Escalation, stated plainly.**
+1. **Phase Five S-10 is an unresolved tension the pipeline cannot close on its own.** Phase Five's exit criterion is unmet. Proceeding past it, or authorizing a within-world record revision plus a live retest, is the project lead's decision. A clean next round of wording fixes cannot close it.
+2. **The already-pending decision on a Facilitator boundary-disclosure turn (OG-24) is now more urgent, for safety reasons.** "Was he right to write it?" about the 1543 treatise has no correct in-voice answer and no Facilitator path.
+3. **The Version A living-tradition gap above.**
+
+Everything else is an ordinary revision item. A next revision would be round 2 of the three-round cap.
+
+**Status.** Phase Five, Six and Seven: not cleared review, not eligible for "Approved to proceed". Awaiting the project lead's direction on items 1–3, then a second revision round in the order Five, Six, Seven. Not Frozen.
