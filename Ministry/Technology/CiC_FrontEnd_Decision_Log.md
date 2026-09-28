@@ -3851,3 +3851,41 @@ per-Representative distinct voice picks, still Mark's, in
 run is `node tools/generate_tree_narration.mjs` (no `--only`), which is
 now proven correct end-to-end - this entry is that proof, not a
 placeholder.
+
+---
+
+## 2026-09-28 (later) — Storage decided: plain git-committed audio, same
+as the portraits, with the real size named before confirming
+
+**Origin.** Mark's first answer: "git-committed like the portraits, keep
+it simple." The portrait precedent is real but small - 11 files, ~11MB
+total, plain PNG/JPG, no Git LFS - a materially different scale from 292
+audio files. Named the real number before treating it as settled: the
+one proven test clip (1.3MB for 1,103 characters) scales to roughly
+320-340MB added to the repo across all 292 movements'
+`longDescription` text, on top of `.git`'s current 562MB - a cost every
+future clone pays, not a one-time build artifact.
+
+**Mark's ruling, informed by that number: git-committed anyway.** Kept as
+his own recommended option over the alternative offered (Git LFS - same
+day-to-day workflow, but stores the audio bytes outside normal repo
+history so clones don't pay the full weight by default; would have been
+this repo's first LFS usage, a real new piece of infrastructure). No
+infrastructure change needed on either side - `cic-website/audio/tree/`
+is not gitignored, confirmed directly (`git check-ignore` returns
+nothing), so `node tools/generate_tree_narration.mjs`'s real output
+lands exactly where the audio player already expects it and commits with
+an ordinary `git add`.
+
+**Consequence for the batch run:** no script or config change required.
+Only remaining gate before running the real batch: the 11
+per-Representative distinct voice picks in
+`tools/tree-narration-voices.mjs`, still Mark's.
+
+### Next action
+
+Mark: pick the 11 distinct ElevenLabs voices (built worlds) and fill
+`tools/tree-narration-voices.mjs`. Once filled, the real batch run is
+`node tools/generate_tree_narration.mjs` (no flags), committing the
+resulting `cic-website/audio/tree/*.mp3` files and the regenerated tree
+pages together.
