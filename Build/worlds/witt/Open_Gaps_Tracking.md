@@ -2297,6 +2297,8 @@ Everything else is an ordinary revision item. A next revision would be round 2 o
 
 **Fleet-wide verification.** `python3 -m engine.m2.cli staleness-check` passed clean for all twelve worlds, including witt (`"stale": false"` for every one) — the schema/compiler change did not stale any other world's pinned package, confirming it really was backward-compatible as designed. `python3 -m engine.m9.cli check` reports "library access gate: clean - every finding is waived, every waiver is live and current," exit code 0 — the new field's one readability-floor report is the only new line in the fleet-wide output, and it is report-only by the gate's own design.
 
+**Status.** Closed. The Version A living-tradition paragraph Doc_10 §6 confirmed on 2026-09-19 now actually reaches the deployed system prompt, verified directly in `packages/witt/2026-09-28T17-57-17Z/compiled/prompt.txt`, not inferred from the schema/compiler change alone.
+
 ## OG-50. Phase Five/Six/Seven, revision round 2, 2026-09-28: Round 3 Opus Independent Review findings addressed, plus OG-46/OG-47/OG-48/OG-49 applied. Still not cleared review; still not eligible for "Approved to proceed."
 
 **What this closes.** Round 3's targeted recheck (`witt_Phase5_Review_Round3_Opus_Independent.md`, `witt_Phase6_Review_Round3_Opus_Independent.md`, `witt_Phase7_Review_Round3_Opus_Independent.md`) found a mix of resolved findings, partial residuals, and two new items across the three documents. This entry records revision round 2 (round 1 was the revision that produced the `3e6785ff1`/`d68543fc0`/`ade63af88` commits Round 3 rechecked), applied directly against those findings and against the project lead's three rulings, OG-46 through OG-49, logged above.
@@ -2323,4 +2325,33 @@ Everything else is an ordinary revision item. A next revision would be round 2 o
 
 **Status.** Phase Five, Six and Seven are each revision round 2 of the `cic-build-cycle` skill's three-round cap. None is cleared review; none is eligible for "Approved to proceed." Each awaits a separate, independent Round 4 review, in the same order the project lead directed (Phase Five, then Phase Six, then Phase Seven). Not Frozen.
 
-**Status.** Closed. The Version A living-tradition paragraph Doc_10 §6 confirmed on 2026-09-19 now actually reaches the deployed system prompt, verified directly in `packages/witt/2026-09-28T17-57-17Z/compiled/prompt.txt`, not inferred from the schema/compiler change alone.
+## OG-51. **Round 4 targeted recheck (Opus, independent) of revision round 2 of Phase Five, Six and Seven, 2026-09-28. Phase Five: SUBSTANTIAL, narrowly, on one finding (R4-1). Phase Six: cleared review. Phase Seven: cleared review, after four propagation fixes. None is marked Approved to proceed here.**
+
+**What happened.** A separate Opus review agent, working from fresh context and with no prior involvement in these documents, rechecked revision round 2. It checked the diff `3535bfc2a..5eacb3b59` against every Round 3 residual and against OG-46 to OG-49. It did not re-review from scratch. Review files: `witt_Phase5_Review_Round4_Opus_Independent.md`, `witt_Phase6_Review_Round4_Opus_Independent.md`, `witt_Phase7_Review_Round4_Opus_Independent.md`. It independently verified:
+- CL-1 FAIL, against all three live results.
+- RS-1's evidence correction, against GoLive line 298.
+- The two template quotations, compared by program.
+- The new pin, the one-section diff between pins, and the byte-identical `capsule.md`.
+- Phase Six B7's Living traditions quotation, word for word against the deployed `compiled/prompt.txt`.
+- Phase Seven's Doc_09 §5 quotations.
+- Every place Phase Six and Phase Seven cite a Phase Five score.
+
+Cosmetic and propagation fixes were applied directly: five in Phase Five, three in Phase Six, four in Phase Seven. Each is listed in its review file. No status line was changed.
+
+**The one substantial finding: Phase Five R4-1 (R3-1 not resolved).** The Turn 2 probe was reworded until it matched `engine/m5/routing.py`'s `_SYSTEM_NATURE_SHAPE`. It matches only because of the added clause "is this just a program". The document then says, in six places, that this "closes" the classifier-miss gap and that Turn 2 now "correctly routes". Both claims are wrong:
+- The gap is in the engine. Ordinary sincere phrasings still miss, verified by running the pattern: the original Turn 2 wording, "What kind of thing am I actually talking to?", and "Is a computer writing this?".
+- The regex can only block routing, never trigger it. Routing also needs the reader model's classification, which the code's own comment records as unreliable on witt. Nothing was run live.
+- The claim contradicts OG-46, which carries the Turn 2 routing miss as accepted, not fixed.
+
+The document also says no in-voice fallback "should exist". That contradicts RCF V3.2 Part Eight's Self-Referential standard and the deployed Pronoun and [self-reference] rules, which sanction "I am a representative of Lutheran Wittenberg and its congregations" for exactly this case. The remedy is wording only, with no engine work and no live spend: restore the phrasing that missed, report the gap as OG-46's accepted-open item, and remove the "closes"/"correctly routes" claims. Phase Six B7 should get one matching sentence in the same round.
+
+**Round count, stated plainly.** A revision for R4-1 would be **round 3 of the three-round cap**. It is narrow and precise, so one round should close it. If it does not, the next step is mandatory escalation, not a fourth round.
+
+**Items recorded here, not fixed (append-only entries, or outside these documents):**
+1. **OG-47's status line is inaccurate.** It says Phase Five stays at "cleared review [Round 3]". Round 3 returned SUBSTANTIAL and did not clear it.
+2. **OG-50 overstates one source.** It says both evidence-absent domains are named "per Doc_09 §5's own direct naming". Doc_09 §5 does not name material culture. Phase Seven's own text correctly sources that domain to World Profile §8.
+3. **OG-50 was inserted inside OG-49.** It had separated OG-49 from its own closing "Status. Closed." line. That line was moved back under OG-49. No entry number changed.
+4. **New, for the project lead.** OG-49's Living traditions section is now deployed at `compiled/prompt.txt` line 89. It says in voice that "a confessional family … still teaches a catechism like our own … today" and "went on for centuries past that point". The same prompt still carries `witt.dw.one-holy-church-forever` (line 565): "A church today you could visit that's ours -- we cannot answer that from our own record". The Pronoun rule (line 13) also forbids "narrating what happened after them the way a historian looking back would". A participant asking about a church today could get either answer. The content is the project-lead-confirmed Version A (Article 29), so reconciling it is the project lead's decision. It is not a Phase Five/Six/Seven defect.
+5. **Disposition ceiling.** Under OG-47, Phase Five is not eligible for Approved to proceed while its exit criterion is accepted as unmet. Clearing review will not change that on its own; the project lead has to decide explicitly. Phase Six and Seven have cleared review, but they sit behind Phase Five in the directed sequence. Whether they proceed first is a sequencing question for the project lead. All three still carry inline "corrected … Round N" narration, and it must be stripped before any disposition.
+
+**Status.** Phase Five: not cleared (R4-1). Phase Six: cleared review. Phase Seven: cleared review. None is Approved to proceed. Not Frozen.
