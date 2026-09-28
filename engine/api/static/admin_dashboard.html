@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>CiC usage dashboard</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --gridline: #e1e0d9;
+    --border: rgba(11, 11, 11, 0.10);
+    --accent: #2a78d6;
+    --warning: #fab219;
+    --critical: #d03b3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted: #898781;
+      --gridline: #2c2c2a;
+      --border: rgba(255, 255, 255, 0.10);
+      --accent: #3987e5;
+      --warning: #fab219;
+      --critical: #e66767;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  h1 { font-size: 20px; font-weight: 600; margin: 0; }
+  .subtitle { color: var(--text-secondary); font-size: 13px; margin-top: 4px; }
+  .toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  select, button, input {
+    font: inherit;
+    font-size: 13px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--text-primary);
+  }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  section { margin-bottom: 32px; }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+  .tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .tile .label { font-size: 13px; color: var(--text-secondary); }
+  .tile .value { font-size: 28px; font-weight: 600; margin-top: 6px; line-height: 1.1; }
+  .tile .value.hero { font-size: 40px; }
+  .tile .caveat { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  th, td { text-align: left; padding: 10px 12px; font-size: 13px; border-bottom: 1px solid var(--gridline); }
+  th { color: var(--text-muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.03em; }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .muted { color: var(--text-muted); }
+  .empty { color: var(--text-muted); font-size: 13px; padding: 16px; text-align: center; }
+  .banner {
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--warning);
+    background: var(--surface-1);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+  .banner.error { border-left-color: var(--critical); }
+  .gate {
+    max-width: 360px;
+    margin: 80px auto;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+  }
+  .gate p { color: var(--text-secondary); font-size: 13px; }
+  .gate input { width: 100%; margin: 12px 0; }
+  .hidden { display: none; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div id="gate" class="gate">
+    <h1>CiC usage dashboard</h1>
+    <p>Operator token required. Held only in this tab's session storage, never sent anywhere but this service's own <code>/api/admin/*</code> routes.</p>
+    <input id="token-input" type="password" placeholder="Admin bearer token" autocomplete="off" />
+    <button id="token-submit">View dashboard</button>
+    <p id="gate-error" class="hidden" style="color: var(--critical);"></p>
+  </div>
+
+  <div id="app" class="wrap hidden">
+    <header>
+      <div>
+        <h1>CiC usage dashboard</h1>
+        <div class="subtitle" id="range-label">All sessions ever logged</div>
+      </div>
+      <div class="toolbar">
+        <select id="since-select">
+          <option value="">All time</option>
+          <option value="7">Last 7 days</option>
+          <option value="30">Last 30 days</option>
+          <option value="90">Last 90 days</option>
+        </select>
+        <button id="refresh">Refresh</button>
+        <button id="sign-out">Sign out</button>
+      </div>
+    </header>
+
+    <div id="banners"></div>
+
+    <section>
+      <h2>People and time — the headline numbers</h2>
+      <div class="tiles">
+        <div class="tile">
+          <div class="label">Unique visitors</div>
+          <div class="value hero" id="t-unique-visitors">—</div>
+          <div class="caveat">Pseudonymous cookie, not an account. One person on two devices counts twice.</div>
+        </div>
+        <div class="tile">
+          <div class="label">Median session length</div>
+          <div class="value hero" id="t-median-session">—</div>
+          <div class="caveat">Average <span id="t-average-session">—</span></div>
+        </div>
+        <div class="tile">
+          <div class="label">Median time per visitor</div>
+          <div class="value hero" id="t-median-visitor-total">—</div>
+          <div class="caveat">Summed across a visitor's own sessions that day. Average <span id="t-average-visitor-total">—</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sessions</h2>
+      <div class="tiles">
+        <div class="tile">
+          <div class="label">Total sessions</div>
+          <div class="value" id="t-total-sessions">—</div>
+        </div>
+        <div class="tile">
+          <div class="label">Open sessions</div>
+          <div class="value" id="t-open-sessions">—</div>
+        </div>
+        <div class="tile">
+          <div class="label">Sessions with a visitor id</div>
+          <div class="value" id="t-attributed-sessions">—</div>
+          <div class="caveat" id="t-attribution-caveat"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cost and tokens by world</h2>
+      <div id="world-table-wrap"></div>
+      <div class="caveat" id="price-source-note" style="margin-top: 8px;"></div>
+    </section>
+
+    <section>
+      <h2>Questions people ask</h2>
+      <div class="caveat" id="asks-freshness" style="margin-bottom: 8px;"></div>
+      <div id="asks-table-wrap"></div>
+    </section>
+  </div>
+
+<script>
+(function () {
+  "use strict";
+  const TOKEN_KEY = "cic_admin_token";
+  const gate = document.getElementById("gate");
+  const app = document.getElementById("app");
+  const tokenInput = document.getElementById("token-input");
+  const gateError = document.getElementById("gate-error");
+
+  function getToken() {
+    try { return sessionStorage.getItem(TOKEN_KEY); } catch (e) { return null; }
+  }
+  function setToken(t) {
+    try { sessionStorage.setItem(TOKEN_KEY, t); } catch (e) { /* private mode - token just won't persist across reload */ }
+  }
+  function clearToken() {
+    try { sessionStorage.removeItem(TOKEN_KEY); } catch (e) {}
+  }
+
+  async function fetchJSON(path, token) {
+    const resp = await fetch(path, { headers: { Authorization: "Bearer " + token } });
+    if (resp.status === 404) throw new Error("Token rejected, or the admin route isn't configured on this deploy.");
+    if (!resp.ok) throw new Error(path + " returned " + resp.status);
+    return resp.json();
+  }
+
+  function fmtNumber(n) {
+    if (n === null || n === undefined) return "—";
+    return n.toLocaleString();
+  }
+  function fmtCompact(n) {
+    if (n === null || n === undefined) return "—";
+    return Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 }).format(n);
+  }
+  function fmtDuration(seconds) {
+    if (seconds === null || seconds === undefined) return "—";
+    if (seconds < 60) return Math.round(seconds) + "s";
+    if (seconds < 3600) return Math.round(seconds / 60) + "m";
+    return (seconds / 3600).toFixed(1) + "h";
+  }
+  function fmtDollars(n) {
+    if (n === null || n === undefined) return "—";
+    return "$" + n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 4 });
+  }
+  function el(tag, attrs, children) {
+    const e = document.createElement(tag);
+    Object.entries(attrs || {}).forEach(([k, v]) => {
+      if (k === "text") e.textContent = v; else e.setAttribute(k, v);
+    });
+    (children || []).forEach((c) => e.appendChild(c));
+    return e;
+  }
+  function banner(message, isError) {
+    return el("div", { class: "banner" + (isError ? " error" : ""), text: message });
+  }
+
+  function renderWorldTable(byWorld) {
+    const wrap = document.getElementById("world-table-wrap");
+    wrap.innerHTML = "";
+    if (!byWorld || byWorld.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "No usage recorded yet in this range." }));
+      return;
+    }
+    const table = el("table", {});
+    const thead = el("tr", {}, [
+      el("th", { text: "World" }),
+      el("th", { class: "num", text: "Calls" }),
+      el("th", { class: "num", text: "Input tokens" }),
+      el("th", { class: "num", text: "Output tokens" }),
+      el("th", { class: "num", text: "Cost" }),
+    ]);
+    table.appendChild(el("thead", {}, [thead]));
+    const tbody = el("tbody", {});
+    byWorld.forEach((w) => {
+      const label = w.world_key === "_unattributed" ? "Not attributed to a world" : w.world_key;
+      const costCell = w.priced_dollars > 0
+        ? fmtDollars(w.priced_dollars) + (w.unpriced_calls > 0 ? " *" : "")
+        : (w.unpriced_calls > 0 ? "unpriced" : "$0.00");
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: label }),
+        el("td", { class: "num", text: fmtNumber(w.calls) }),
+        el("td", { class: "num", text: fmtNumber(w.input_tokens) }),
+        el("td", { class: "num", text: fmtNumber(w.output_tokens) }),
+        el("td", { class: "num", text: costCell }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  function renderAsksTable(topAsks) {
+    const wrap = document.getElementById("asks-table-wrap");
+    wrap.innerHTML = "";
+    if (!topAsks || topAsks.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "No recurring questions yet, or the daily rollup hasn't run." }));
+      return;
+    }
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, [
+      el("th", { text: "Question (normalized)" }),
+      el("th", { class: "num", text: "Times asked" }),
+      el("th", { class: "num", text: "Sessions" }),
+    ])]));
+    const tbody = el("tbody", {});
+    topAsks.slice(0, 25).forEach((a) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: a.ask }),
+        el("td", { class: "num", text: fmtNumber(a.count) }),
+        el("td", { class: "num", text: fmtNumber(a.session_ids.length) }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  async function load() {
+    const token = getToken();
+    if (!token) return;
+    const banners = document.getElementById("banners");
+    banners.innerHTML = "";
+    const sinceDays = document.getElementById("since-select").value;
+    let since = "";
+    let rangeLabel = "All sessions ever logged";
+    if (sinceDays) {
+      const d = new Date(Date.now() - Number(sinceDays) * 86400000);
+      since = d.toISOString().slice(0, 10);
+      rangeLabel = "Since " + since + " (unique visitors and duration only — cost/world totals below are always all-time, see caveat)";
+    }
+    document.getElementById("range-label").textContent = rangeLabel;
+    const qs = since ? "?since=" + encodeURIComponent(since) : "";
+
+    let usage, pilot;
+    try {
+      [usage, pilot] = await Promise.all([
+        fetchJSON("/api/admin/usage-summary" + qs, token),
+        fetchJSON("/api/admin/pilot-summary" + qs, token),
+      ]);
+    } catch (err) {
+      banners.appendChild(banner(String(err.message || err), true));
+      return;
+    }
+
+    const v = usage.visitors;
+    document.getElementById("t-unique-visitors").textContent = fmtNumber(v.unique_visitors);
+    document.getElementById("t-median-session").textContent = fmtDuration(v.median_session_seconds);
+    document.getElementById("t-average-session").textContent = fmtDuration(v.average_session_seconds);
+    document.getElementById("t-median-visitor-total").textContent = fmtDuration(v.median_visitor_total_seconds);
+    document.getElementById("t-average-visitor-total").textContent = fmtDuration(v.average_visitor_total_seconds);
+
+    document.getElementById("t-total-sessions").textContent = fmtNumber(pilot.total_sessions);
+    document.getElementById("t-open-sessions").textContent = fmtNumber(pilot.open_sessions);
+    document.getElementById("t-attributed-sessions").textContent = fmtNumber(v.sessions_with_visitor_id);
+    const pct = pilot.total_sessions > 0 ? Math.round((v.sessions_with_visitor_id / pilot.total_sessions) * 100) : null;
+    document.getElementById("t-attribution-caveat").textContent = pct === null
+      ? "No sessions yet."
+      : pct + "% of sessions carry a visitor id (anon_cap must be on for a session to get one).";
+
+    renderWorldTable(usage.by_world);
+    const priceNote = document.getElementById("price-source-note");
+    if (usage.price_table_source) {
+      const anyUnpriced = usage.by_world.some((w) => w.unpriced_calls > 0);
+      priceNote.textContent = "Priced against: " + usage.price_table_source + (anyUnpriced ? ". * some calls in that row aren't reflected in the total (unrecognized call kind)." : "") + " Cost/world totals cover all time regardless of the range above.";
+    } else {
+      priceNote.textContent = "No calls could be priced yet.";
+    }
+
+    renderAsksTable(usage.top_asks);
+    const freshness = document.getElementById("asks-freshness");
+    freshness.textContent = usage.asks_as_of_run
+      ? "From the daily rollup run at " + usage.asks_as_of_run + " (generated " + (usage.asks_generated_at || "unknown") + ") — not live, updates once a day."
+      : "No daily rollup has produced output yet.";
+  }
+
+  document.getElementById("token-submit").addEventListener("click", () => {
+    const t = tokenInput.value.trim();
+    if (!t) return;
+    setToken(t);
+    gateError.classList.add("hidden");
+    showApp();
+  });
+  tokenInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") document.getElementById("token-submit").click();
+  });
+  document.getElementById("sign-out").addEventListener("click", () => {
+    clearToken();
+    app.classList.add("hidden");
+    gate.classList.remove("hidden");
+  });
+  document.getElementById("refresh").addEventListener("click", load);
+  document.getElementById("since-select").addEventListener("change", load);
+
+  function showApp() {
+    gate.classList.add("hidden");
+    app.classList.remove("hidden");
+    load().catch((err) => {
+      gate.classList.remove("hidden");
+      app.classList.add("hidden");
+      gateError.textContent = String(err.message || err);
+      gateError.classList.remove("hidden");
+    });
+  }
+
+  if (getToken()) showApp();
+})();
+</script>
+</body>
+</html>

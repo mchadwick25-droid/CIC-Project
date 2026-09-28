@@ -444,6 +444,26 @@ def test_canon_asks_are_normalized_participant_text(tmp_path):
     assert "what about zebra quills" in asks
 
 
+def test_read_session_lifts_visitor_id_off_session_started(tmp_path):
+    """The usage dashboard's identity signal (Mark, 2026-09-28 scoping
+    doc): a session_started carrying visitor_id folds it onto
+    AuditSession, same as world_keys - and its absence (every session
+    before this field existed, or anon_cap disabled) folds to None, not
+    an error."""
+    store = Store(tmp_path / "events.db")
+    with_visitor, without_visitor = str(uuid.uuid4()), str(uuid.uuid4())
+    _append(store, with_visitor, "session_started", {
+        "mode": "interview", "frame": None, "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x", "visitor_id": "visitor-a",
+    })
+    _append(store, without_visitor, "session_started", {
+        "mode": "interview", "frame": None, "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x",
+    })
+    assert read_session(store, with_visitor).visitor_id == "visitor-a"
+    assert read_session(store, without_visitor).visitor_id is None
+
+
 def test_register_metrics_score_long_turns_and_mark_short_unscored(tmp_path):
     store, _, t_sid = _sessions(tmp_path)
     a = run_all(read_session(store, t_sid))
