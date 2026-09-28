@@ -465,14 +465,29 @@ pairing - the same honest scope the syr pilot's own `pairing_guidance`
 claimed for itself, applied here to a world with no B5-equivalent document
 to check that framing against at all.
 
-`cautions`: the Brictio item is grounded directly in
-`gallic.gravity.authority-ambivalence`'s own body note and in
-`gallic.front.gallic-monastic-ascetic-christianity`'s own explicit
-"THE SAFETY-SENSITIVE MATERIAL NAMED IN THE TASK" section, which states
-that this exact material "is voiced directly... not softened, moved to a
-footnote, or allowed to drop out of the retelling" in the participant-
-facing front record - this caution exists so a facilitator knows that same
-material sits inside this world's own build and may surface in a session.
+`cautions`: the Brictio item's own two facts - the enslaved children
+("boys bought from beyond the frontier and girls chosen for their
+looks") and Martin's own reasoning ("If Christ bore with Judas, why
+should not I bear with Brictio?") - are grounded directly in
+`gallic.story.brictio-in-the-courtyard`'s own body and its two quote
+records, `gallic.quote.brictio-horses-and-slaves` and
+`gallic.quote.martin-if-christ-bore-with-judas`, both verified against
+`Dialogues III.15` at the story's own cited locus. **Correction to this
+record's own earlier grounding note, made in the same pass that
+verified it:** an earlier draft of this note cited
+`gallic.gravity.authority-ambivalence`'s "own body note" for this
+material; that gravity record's own description covers the office as
+temptation and the Trier/Ithacian episode, and does not mention Brictio,
+the enslaved children, or the Judas line anywhere in its own text - the
+caution's own content was always correct, but this provenance line
+named the wrong record. Fixed here to name the record that actually
+carries it. `gallic.front.gallic-monastic-ascetic-christianity`'s own
+explicit "THE SAFETY-SENSITIVE MATERIAL NAMED IN THE TASK" section,
+which states that this exact material "is voiced directly... not
+softened, moved to a footnote, or allowed to drop out of the retelling"
+in the participant-facing front record, is the caution's second ground
+- this caution exists so a facilitator knows that same material sits
+inside this world's own build and may surface in a session.
 The semi-Pelagian/Massilian-label item is grounded in
 `gallic.contested.massilian-label` directly (quoted almost verbatim: "No
 one at Marseilles or Lerins called himself either") and in
