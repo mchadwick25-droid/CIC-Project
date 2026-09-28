@@ -68,6 +68,7 @@ def open_session(
     world_keys: list[str] | None = None,
     package_manifest_hashes: dict[str, str] | None = None,
     package_locations: dict[str, str] | None = None,
+    visitor_id: str | None = None,
 ) -> int:
     """One sealed writer, two mode shapes (Artifact-7 SS1): an interview
     passes world_key/package_manifest_hash, a table passes world_keys/
@@ -88,7 +89,16 @@ def open_session(
     the wrong directory almost always carries the wrong hash too, so a
     live in-flight conversation refuses (PackageRefused -> 503) on the
     very next turn. Old packages are never deleted (Artifact-2 SS2), so
-    pinning the directory here is sufficient - it will still be there."""
+    pinning the directory here is sufficient - it will still be there.
+
+    visitor_id: the anon_cap visitor cookie's id (engine.api.anon_cap),
+    optional and outside both mode shapes above - the usage dashboard's
+    unique-visitor count (Mark, 2026-09-28) reads it back via
+    engine.m7.session_reader.AuditSession.visitor_id. None whenever
+    anon_cap is disabled, for a non-HTTP caller (the CLI battery
+    harnesses), or for any session_started event written before this
+    field existed - all three fold the same way as an absent
+    package_location above, not as an error."""
     existing = store.read_events(session_id)
     if any(e.event_type == SESSION_STARTED_EVENT_TYPE for e in existing):
         raise SecondWriterError(
@@ -108,6 +118,8 @@ def open_session(
         payload["package_manifest_hashes"] = package_manifest_hashes
     if package_locations is not None:
         payload["package_locations"] = package_locations
+    if visitor_id is not None:
+        payload["visitor_id"] = visitor_id
     events.validate(SESSION_STARTED_EVENT_TYPE, payload)
     return store.append(
         session_id=session_id, event_uuid=event_uuid, event_type=SESSION_STARTED_EVENT_TYPE, payload=payload

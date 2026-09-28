@@ -81,13 +81,13 @@ class Settings:
     # already follows above, so duplicating those fields here would just
     # be a second place for them to drift.
     package_cache_dir: Path
-    # Anonymous per-visitor daily cap - OFF by default everywhere,
-    # including a real deploy that hasn't opted in yet. See
-    # engine.api.anon_cap's own module docstring:
-    # the mechanism and the two numbers below are the PROPOSED default from
-    # that package's report, not yet a decision Mark has made. Flipping
-    # this on with no secret set is a hard failure (below), not a silent
-    # skip - same "never guess" posture as region/admin_token above.
+    # Anonymous per-visitor daily cap - code default OFF (a fresh/local/
+    # test app opts in explicitly), but both real deploys turn it on
+    # (render.yaml). See engine.api.anon_cap's own module docstring: the
+    # cap numbers below are still the PROPOSED default, not independently
+    # re-tuned as part of Mark's on/off decision. Flipping this on with no
+    # secret set is a hard failure (below), not a silent skip - same
+    # "never guess" posture as region/admin_token above.
     anon_cap_enabled: bool
     anon_visitor_secret: str | None
     anon_daily_session_limit: int
