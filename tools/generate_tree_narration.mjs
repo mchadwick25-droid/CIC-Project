@@ -23,11 +23,18 @@
  * has no override in tree-narration-voices.mjs.
  *
  * Options:
- *   --dry-run       Report what would be generated; no API calls, no files written.
- *   --only <id>     Generate (or dry-run) a single movement by its census id.
- *   --limit <n>     Cap the number of NEW clips generated this run (already-narrated
- *                   movements don't count against it). Omit to run the whole batch.
- *   --force         Regenerate even for a movement that already has an audio file.
+ *   --dry-run          Report what would be generated; no API calls, no files written.
+ *   --only <id>        Generate (or dry-run) a single movement by its census id.
+ *   --limit <n>        Cap the number of NEW clips generated this run (already-narrated
+ *                      movements don't count against it). Omit to run the whole batch.
+ *   --char-budget <n>  Stop adding movements to this run once their combined
+ *                      longDescription length would exceed n characters - for
+ *                      splitting a batch across a metered quota (e.g. an
+ *                      ElevenLabs plan with n characters left before renewal)
+ *                      without guessing a movement count. Never starts a
+ *                      movement that would push the running total over budget;
+ *                      applied after --limit, so the tighter of the two binds.
+ *   --force            Regenerate even for a movement that already has an audio file.
  */
 import fs from 'fs';
 import path from 'path';
@@ -42,17 +49,21 @@ export const audioDir = path.join(rootDir, 'cic-website/audio/tree');
 const ELEVENLABS_TTS_URL = (voiceId) => `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, only: null, limit: null, force: false };
+  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
     else if (arg === '--force') opts.force = true;
     else if (arg === '--only') opts.only = argv[++i];
     else if (arg === '--limit') opts.limit = Number(argv[++i]);
+    else if (arg === '--char-budget') opts.charBudget = Number(argv[++i]);
     else throw new Error(`unrecognized argument: ${arg}`);
   }
   if (opts.limit !== null && (!Number.isInteger(opts.limit) || opts.limit < 0)) {
     throw new Error(`--limit must be a non-negative integer, got ${opts.limit}`);
+  }
+  if (opts.charBudget !== null && (!Number.isInteger(opts.charBudget) || opts.charBudget < 0)) {
+    throw new Error(`--char-budget must be a non-negative integer, got ${opts.charBudget}`);
   }
   return opts;
 }
@@ -66,7 +77,7 @@ export function audioPathFor(movementId) {
  * (declared) order - never a claim about which ones already have one,
  * only which ones this run should act on given the options passed.
  */
-export function planNarration(movements, { only, force, limit, existsFn = fs.existsSync }) {
+export function planNarration(movements, { only, force, limit, charBudget = null, existsFn = fs.existsSync }) {
   let candidates = movements.filter((m) => m.longDescription && m.longDescription.trim());
   const skippedNoText = movements.length - candidates.length;
 
@@ -86,7 +97,21 @@ export function planNarration(movements, { only, force, limit, existsFn = fs.exi
 
   if (limit !== null) toGenerate = toGenerate.slice(0, limit);
 
-  return { toGenerate, alreadyNarrated, skippedNoText };
+  let skippedBudget = 0;
+  if (charBudget !== null) {
+    const withinBudget = [];
+    let total = 0;
+    for (const m of toGenerate) {
+      const len = m.longDescription.length;
+      if (total + len > charBudget) break;
+      total += len;
+      withinBudget.push(m);
+    }
+    skippedBudget = toGenerate.length - withinBudget.length;
+    toGenerate = withinBudget;
+  }
+
+  return { toGenerate, alreadyNarrated, skippedNoText, skippedBudget };
 }
 
 /**
@@ -128,13 +153,17 @@ export async function synthesize(text, { apiKey, voiceId, fetchImpl = fetch }) {
 async function run() {
   const opts = parseArgs(process.argv.slice(2));
   const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
-  const { toGenerate, alreadyNarrated, skippedNoText } = planNarration(census.movements, opts);
+  const { toGenerate, alreadyNarrated, skippedNoText, skippedBudget } = planNarration(census.movements, opts);
+  const totalChars = toGenerate.reduce((sum, m) => sum + m.longDescription.length, 0);
 
   console.log(`=== Tree narration ${opts.dryRun ? '(dry run)' : ''} ===`);
   console.log(`${census.movements.length} movements total`);
   console.log(`${skippedNoText} skipped - no longDescription to narrate`);
   console.log(`${alreadyNarrated.length} already narrated (use --force to regenerate)`);
-  console.log(`${toGenerate.length} to generate this run${opts.limit !== null ? ` (--limit ${opts.limit})` : ''}`);
+  console.log(`${toGenerate.length} to generate this run${opts.limit !== null ? ` (--limit ${opts.limit})` : ''}, ${totalChars} characters total`);
+  if (opts.charBudget !== null) {
+    console.log(`${skippedBudget} left for a later run - would exceed the ${opts.charBudget}-character budget`);
+  }
 
   if (toGenerate.length === 0) {
     console.log('\nNothing to do.');

@@ -8,14 +8,15 @@ function movement(id, overrides = {}) {
 }
 
 test('parseArgs: defaults with no flags', () => {
-  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, force: false });
+  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false });
 });
 
 test('parseArgs: recognizes every flag', () => {
-  assert.deepEqual(parseArgs(['--dry-run', '--only', 'alx', '--limit', '5', '--force']), {
+  assert.deepEqual(parseArgs(['--dry-run', '--only', 'alx', '--limit', '5', '--char-budget', '20000', '--force']), {
     dryRun: true,
     only: 'alx',
     limit: 5,
+    charBudget: 20000,
     force: true,
   });
 });
@@ -27,6 +28,11 @@ test('parseArgs: rejects an unrecognized argument', () => {
 test('parseArgs: rejects a negative or non-numeric --limit', () => {
   assert.throws(() => parseArgs(['--limit', '-1']), /--limit must be a non-negative integer/);
   assert.throws(() => parseArgs(['--limit', 'nope']), /--limit must be a non-negative integer/);
+});
+
+test('parseArgs: rejects a negative or non-numeric --char-budget', () => {
+  assert.throws(() => parseArgs(['--char-budget', '-1']), /--char-budget must be a non-negative integer/);
+  assert.throws(() => parseArgs(['--char-budget', 'nope']), /--char-budget must be a non-negative integer/);
 });
 
 test('audioPathFor: one file per movement id under cic-website/audio/tree', () => {
@@ -56,6 +62,58 @@ test('planNarration: --only narrows to a single movement by id', () => {
   const movements = [movement('a'), movement('b'), movement('c')];
   const { toGenerate } = planNarration(movements, { only: 'b', force: false, limit: null, existsFn: () => false });
   assert.deepEqual(toGenerate.map((m) => m.id), ['b']);
+});
+
+test('planNarration: --char-budget stops before the running total would exceed it, in order', () => {
+  const movements = [
+    movement('a', { longDescription: 'x'.repeat(1000) }),
+    movement('b', { longDescription: 'x'.repeat(1000) }),
+    movement('c', { longDescription: 'x'.repeat(1000) }),
+  ];
+  const { toGenerate, skippedBudget } = planNarration(movements, {
+    only: null,
+    force: false,
+    limit: null,
+    charBudget: 2500,
+    existsFn: () => false,
+  });
+  assert.deepEqual(toGenerate.map((m) => m.id), ['a', 'b']);
+  assert.equal(skippedBudget, 1);
+});
+
+test('planNarration: --char-budget does not skip ahead to a smaller movement that would fit', () => {
+  const movements = [
+    movement('big', { longDescription: 'x'.repeat(2000) }),
+    movement('small', { longDescription: 'x'.repeat(100) }),
+  ];
+  const { toGenerate, skippedBudget } = planNarration(movements, {
+    only: null,
+    force: false,
+    limit: null,
+    charBudget: 1000,
+    existsFn: () => false,
+  });
+  assert.deepEqual(toGenerate, []);
+  assert.equal(skippedBudget, 2);
+});
+
+test('planNarration: --char-budget combines with already-narrated and --limit filtering', () => {
+  const movements = [
+    movement('narrated', { longDescription: 'x'.repeat(1000) }),
+    movement('a', { longDescription: 'x'.repeat(1000) }),
+    movement('b', { longDescription: 'x'.repeat(1000) }),
+  ];
+  const exists = (p) => p.endsWith('narrated.mp3');
+  const { toGenerate, alreadyNarrated, skippedBudget } = planNarration(movements, {
+    only: null,
+    force: false,
+    limit: null,
+    charBudget: 1000,
+    existsFn: exists,
+  });
+  assert.deepEqual(alreadyNarrated, ['narrated']);
+  assert.deepEqual(toGenerate.map((m) => m.id), ['a']);
+  assert.equal(skippedBudget, 1);
 });
 
 test('planNarration: --limit caps only the NEW work, not what is already narrated', () => {
