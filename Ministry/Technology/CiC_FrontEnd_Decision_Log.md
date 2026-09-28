@@ -3889,3 +3889,48 @@ Mark: pick the 11 distinct ElevenLabs voices (built worlds) and fill
 `node tools/generate_tree_narration.mjs` (no flags), committing the
 resulting `cic-website/audio/tree/*.mp3` files and the regenerated tree
 pages together.
+
+---
+
+## 2026-09-28 (later still) — The 11 built-world movements narrated live,
+on Josh, ahead of the distinct-voice pass
+
+**Origin.** Mark: "run the 11 built worlds through ElevenLabs dashboard
+now." `tools/tree-narration-voices.mjs` still has every built-world
+override blank, so running as-is would narrate all 11 with the single
+default narrator - not the distinct voices decided two entries up.
+Flagged that directly rather than silently deciding it either way
+(picking a Representative's voice identity solo isn't this thread's
+call, and elevenlabs.io is unreachable from this sandbox to audition
+anything myself). **Mark's choice: run all 11 with Josh today; distinct
+voices are a later re-run pass**, not a blocker on getting real audio
+live now.
+
+**Run: all 11 succeeded, first attempt, real cost (~22,430 characters of
+`longDescription` text, all 11 built worlds' movement stories).**
+`post-apostolic-house-church`, `alexandria-catechetical`,
+`desert-monasticism`, `syriac-edessa-nisibis`,
+`cappadocian-nicene-pastoral-monastic-tradition`,
+`hieronymian-ascetic-literary`, `gallic-monastic-ascetic-christianity`,
+`donatism`, `lutheran-wittenberg-and-its-congregations`,
+`the-reformed-cities-zurich-and-geneva`,
+`imperial-juridical-christianity`. Verified before committing, not
+assumed: every file is a real MP3 (ID3v2.4/MPEG Layer III, confirmed via
+`file`, ~1-3.7MB each, ~25MB total); `generate_tree_pages.mjs`'s diff
+touched exactly the 11 expected pages, each by exactly the same 7-line
+narration block, nothing else; two pages spot-checked live in a real
+Chromium browser (Playwright) - real durations on `loadedmetadata`
+(3:05 and 1:00), disclosure line present, zero page errors.
+
+**Committed and pushed** (`a3ee3e172`), per the storage ruling two
+entries up - plain git-committed, same as the portraits, no new
+infrastructure.
+
+### Next action
+
+The 281 remaining movements are still unnarrated - a further batch,
+Mark's to authorize. The 11 built-world files just committed will need
+a `--force` re-run once Mark picks distinct voices and fills
+`tools/tree-narration-voices.mjs` - today's Josh audio is real,
+participant-facing narration in the meantime, not a placeholder to be
+silently thrown away.
