@@ -3934,3 +3934,62 @@ a `--force` re-run once Mark picks distinct voices and fills
 `tools/tree-narration-voices.mjs` - today's Josh audio is real,
 participant-facing narration in the meantime, not a placeholder to be
 silently thrown away.
+
+---
+
+## 2026-09-28 (later still) — ElevenLabs Starter-plan cost surfaced
+honestly; batch split across the renewal, 19 more movements narrated
+
+**Origin.** Mark asked what a world costs to build (answered from real
+build-cost artifacts, not invented - see two entries up in the funding
+thread's own log for the fuller build-cost finding), then asked the
+ElevenLabs-specific question: what does the Tree narration actually
+cost, and should he upgrade his plan or pay overages to finish it.
+
+**Real numbers, not vibes:** Mark's Starter plan showed 40,000 total
+credits, 23,547 remaining. Measured against this session's own actual
+API sends (23,533 characters: 22,430 across the 11 built worlds plus
+1,103 for the earlier deleted test clip), the implied usage (16,453
+credits) didn't match a clean 1-char-to-1-credit assumption - named
+directly rather than smoothed over, since the true ratio for his account
+is still unconfirmed. WebSearch (elevenlabs.io itself unreachable from
+this sandbox, as in every earlier pricing check this thread has done)
+found ElevenLabs does not auto-bill overages on the lower tiers -
+generation simply halts at quota, which directly answered his "pay
+overages" question: that isn't really available as a passive option.
+Recommended Pro for one month ($99, 600K credits) as the simple,
+predictable choice if he wanted the full remaining ~267,000-character
+batch done in one pass.
+
+**Mark's call: split it across the renewal instead** - use what's left
+of Starter now (3 days before reset), finish the rest once it renews.
+Cheaper than upgrading, and the renewal is close enough that waiting
+costs nothing but a few days.
+
+**Built to serve that call, not just executed by hand:**
+`generate_tree_narration.mjs` gained `--char-budget <n>` - stops adding
+movements once their combined `longDescription` length would exceed
+`n`, as a contiguous prefix of the stable declared order (never skips
+ahead to grab a smaller movement that would fit; the doc comment and 4
+new tests both pin this). Planned conservatively at `--char-budget
+23000` (assuming the worst-case 1-char-1-credit ratio, leaving a ~500
+credit margin under the real 23,547) against the 281 still-unnarrated
+movements: 19 movements fit, 22,785 characters. Ran for real, all 19
+succeeded first try. Verified before committing: all 30 audio files on
+disk (11 + 19) are genuine MP3s; page regeneration touched exactly the
+19 expected pages, 7 lines each; one spot-checked live in a real
+Chromium browser (72.4s real duration, zero errors). Committed and
+pushed (`9891ed3b1`).
+
+### Next action
+
+262 movements remain once the Starter plan renews in ~3 days. The
+follow-up run is `node tools/generate_tree_narration.mjs` with a fresh
+`--char-budget` set from whatever the renewed plan's remaining credits
+actually show - re-check the real dashboard number first, the same
+discipline this entry itself followed, rather than assume the full
+40,000 carries over cleanly. Same open items as before: the 11
+distinct-voice picks, and now also worth settling before the next
+big batch - whether to stay on Starter split across further renewals,
+or upgrade once, given the plan/quota mismatch this entry found and
+never fully explained.
