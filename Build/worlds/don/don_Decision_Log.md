@@ -1043,3 +1043,12 @@ The sealed 28-probe battery then ran against a real, live `us.anthropic.claude-s
 **Neither legacy file (`don_Representative_Permanent_Prompt_Fidelis.txt`, `don_World_Capsule_Core.md`) nor any record under `records/don/` was modified by this entry.**
 
 **Disposition: don is ADMITTED and re-launched.** Not merged to `main` yet as of this entry - that follows once verification above is confirmed clean.
+
+### 2026-09-27 — First M3 sealed live-admission battery run against the current, M2-compiled package (fleet-wide audit closing step)
+
+- **Trigger:** `Build/Ministry/Operations/Audits/CiC_M2_Migration_Validation_Gap_Audit_2026-09-27.md` — the fleet-wide generalization of this same log's own 2026-09-27 re-investigation entry above — found that every deployed world but rzg had its safety/validation record anchored to a legacy per-world file, never re-tested against the M2-compiled package the fleet rebuilt 2026-09-26. Closing this gap for don (and, in the same batch invocation, alx, cappadocian, and desert) was directly authorized ("kick off," 2026-09-27).
+- **Verification before the billed run:** `python3 -m engine.m2.cli staleness-check` confirmed `packages/don/2026-09-26T20-12-04Z` clean.
+- **Run:** `engine.m3.live_admission_run` (the 28-probe sealed admission battery, real Bedrock spend), one invocation covering `--worlds alx,cappadocian,desert,don` (gallic needed a second, separate invocation after this one's own `--max-usd $3.00` ceiling stopped before gallic's billed calls). Result for don: **28/28 probes pass**, real cost **$0.72789585**. Full report: `engine/m3/reports/live-admission-report-batch1-2026-09-27.json`. Full detail also logged at `Build/worlds/don/Open_Gaps_Tracking.md`, OG-19.
+- **What this does and does not establish, stated as plainly as the entry immediately above states it:** this sealed battery's own checks are `source_boundedness` and `register_coined_aphorism_heuristic` — a clean 28/28 pass confirms neither fabricated citations nor coined-aphorism register drift against the current M2-compiled artifact, but it is not the Scholarly-Framework/Axido-Fasir adversarial re-test the entry immediately above says is still needed. OG-3's own NOT CLEARED, escalated disposition is unchanged by this run.
+- **Escalation check:** none of the four categories apply — a routine, previously-authorized re-test, not a new decision.
+- **Disposition:** run and documented only, per this task's own explicit scope. No `records/`, `packages/`, or registry file touched; no probe failed, so nothing here required fixing.

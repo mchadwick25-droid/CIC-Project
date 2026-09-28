@@ -180,3 +180,13 @@ nothing rewritten, nothing dropped.
 - **Escalation check:** performed; no standing escalation category applies. Not a Representative identity decision, portfolio/cross-world decision, or governance/methodology change - this registers a new, independently-verified public-domain source using this build's own established source-registration conventions.
 - **Disposition:** **Approved to proceed**, applied by the build thread. Verified with the full M1 gate battery (15/15 gates, 190 records, 0 findings, including a clean reciprocity check on the new cross-reference to `desert.source.nepheros-archive`). Committed to `claude/desert-admission-fix`. Not Frozen; nothing here is a project-lead sign-off.
 - **Open item for Mark, not blocking:** the seven-file `texts_registry.py` backlog named above; and whether this new Pageus/Hathor material (a dated 334 CE document tying a Melitian community directly to the anti-Athanasian conciliar politics of that year) is worth a future step's attention for a quote or doctrinal_witness record - flagged as a genuine opportunity, not queued as required work.
+
+---
+
+## 2026-09-27 — First M3 sealed live-admission battery run against the current, M2-compiled package
+
+- **Trigger:** `Build/Ministry/Operations/Audits/CiC_M2_Migration_Validation_Gap_Audit_2026-09-27.md` found that every deployed world but rzg had its safety/validation record anchored to a legacy per-world file, never re-tested against the M2-compiled package the fleet rebuilt 2026-09-26. Closing this gap for desert (and, in the same batch invocation, alx, cappadocian, and don) was authorized directly ("kick off," 2026-09-27).
+- **Verification before the billed run:** `python3 -m engine.m2.cli staleness-check` confirmed `packages/desert/2026-09-26T20-11-45Z` clean.
+- **Run:** `engine.m3.live_admission_run` (the 28-probe sealed admission battery, real Bedrock spend), one invocation covering `--worlds alx,cappadocian,desert,don` (gallic needed a second, separate invocation after this one's own `--max-usd $3.00` ceiling stopped before gallic's billed calls). Result for desert: **28/28 probes pass**, real cost **$0.5162604**. One non-blocking ADVISORY finding on `f4-p-probe-01`'s `register_coined_aphorism_heuristic` check, which does not fail the probe. Full report: `engine/m3/reports/live-admission-report-batch1-2026-09-27.json`. Full detail also logged at `Build/worlds/desert/Open_Gaps_Tracking.md`, OG-18.
+- **Escalation check:** none of the four categories apply — a routine, previously-authorized re-test, not a new decision.
+- **Disposition:** run and documented only, per this task's own explicit scope. No `records/`, `packages/`, or registry file touched; the advisory finding is not fixed here.

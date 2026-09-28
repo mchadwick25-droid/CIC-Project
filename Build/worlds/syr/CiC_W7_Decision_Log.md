@@ -319,3 +319,10 @@ With Phase Six, Phase Seven, and the World Profile all closed and cleared, `Open
 - **Package rebuild:** `packages/syr/` rebuilt from the corrected records per CLAUDE.md's own default action ("Package rebuild after a `records/` edit → Just do it").
 - **Escalation check:** this is the direct exercise of the Representative identity/anchor escalation category itself — not a build-thread decision.
 - **Disposition:** RULED, Persian-only. Disposes `Open_Gaps_Tracking.md` item 12 — see that file's own disposing entry (item 16) for full detail.
+
+## 2026-09-27 — M3 sealed live-admission battery, run against the current M2-compiled package
+
+- **Context:** `Build/Ministry/Operations/Audits/CiC_M2_Migration_Validation_Gap_Audit_2026-09-27.md` found syr's own prior M3 sealed-battery reports all predate both the 2026-09-26 fleet-wide M2 rebuild and this world's own later repin from the Persian-only ruling above. Mark's "kick off" authorization (2026-09-27) directed closing this gap fleet-wide.
+- **Method:** `engine.m2.cli staleness-check` confirmed syr's current pin (`packages/syr/2026-09-27T13-40-50Z`, per `records/worlds/syr.yaml`) clean immediately beforehand. `engine.m3.live_admission_run` run in one batch invocation covering hal, ijc, pahc, syr, and witt.
+- **Result: 28/28 probes pass.** Real cost $0.4448394. Full report: `engine/m3/reports/live-admission-report-batch2-2026-09-27.json`. See `Open_Gaps_Tracking.md` item 17 for the full entry.
+- **Disposition:** Investigation only — no fix was needed, and none was attempted. No `records/`, `packages/`, or registry file touched.
