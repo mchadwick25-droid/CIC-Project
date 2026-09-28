@@ -350,6 +350,23 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "formation_logic": {"type": "string"},
         "thinness": {"type": "string"},
         "cautions": {"type": "string"},
+        # Optional, additive: whether and how this world's formation
+        # corresponds to a living tradition still practiced today
+        # (Constitution Article 29) - spoken in the same first-person
+        # register as horizon/formation_logic/thinness/cautions above, and
+        # compiled into build_prompt() the same way (see that function's own
+        # comment). Root-caused and added per Open_Gaps_Tracking.md OG-45/
+        # OG-48: witt's own world_core record authored this content honestly
+        # in its body, disclosing at authoring time that no such field
+        # existed yet ("pending a future schema change-order... the same way
+        # thin_topics was added structurally after thinness/cautions already
+        # existed in prose") - so the M2 compiler had no code path to read
+        # it, and a project-lead-confirmed Article 29 determination never
+        # reached the deployed prompt. Left unset, a world_core record has
+        # nothing to say here (most do not yet have a confirmed Article 29
+        # determination at all). Not yet in COMPLETION_REQUIRED - existing
+        # world_core records validate unchanged without it.
+        "living_traditions": {"type": "string"},
         # Optional, additive: a structured index
         # over the same ground `thinness`/`cautions` already state in prose,
         # so a gate can cross-check a claim against a world's own named gaps
