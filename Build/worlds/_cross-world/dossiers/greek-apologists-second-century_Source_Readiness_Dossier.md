@@ -13,14 +13,14 @@ are restated to the library as it stands: the corpus-map shelf (17 works),
 the original-language witnesses added to `cic/texts/`, the Apologists
 window slate and the Tatian ruling in
 `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (four entries of that
-date), and the revised Step 0. The refresh corrects four statements of the
+date, one of which corrects a sentence of another), and the revised Step 0. The refresh corrects four statements of the
 first version: the Dialogue word count credited to Step 0 (Step 0 states
 no word counts), the claim that Step 0 recounted the roster
 "independently", the "Revision 7" label (Step 0 carries no revision
 number), and Routh's *Reliquiae sacrae* vol. V as a Melito lead (it holds
 Archelaus and creeds; Melito is in vol. I, which is vendored).
 **Corpus-map / `cic/texts/` state as of:** 2026-09-29, the working tree on
-top of commit `d1140c9f`. The first version was checked against `main` @
+top of commit `9452a7d7`. The first version was checked against `main` @
 `820550b`.
 
 This candidate already carries five rounds of independent adversarial
@@ -47,7 +47,7 @@ rows. Method: parse the shelf; distinct `work` titles = 17; rows = 39. Each
 work has one row for its English ANF witness (17 rows). The other 22 rows
 are original-language witnesses: 6 rows point to clean primary originals and
 16 to second witnesses. Seventeen files under `cic/corpus-map/_staging/`
-feed the shelf. Roles: 37 rows `tradition`, 2 rows `context`.
+feed the shelf. Roles: 36 rows `tradition`, 3 rows `context` (both *Hortatory Address* rows and the Ambrose row).
 
 "Scale" is `whole` or `fragments`. No word count is asserted here.
 
@@ -105,14 +105,9 @@ the page image is checked.
 The Ambrose *hypomnemata* has no original-language row; only the ANF English
 translation of the Syriac is vendored.
 
-**Shelf items for the Library thread, named and not decided here.** The
-Otto 1879 row for the *Hortatory Address* is `role: tradition` while the
-English row is `context`. The shelf note on Tatian's *Address* says
-"Provisional because he was also later branded an Encratite", but the row is
-`confidence: assigned`. The Aristides English row states "c. 125, Athens, to
-Hadrian per the Introduction", one side of a Contested date. The *Diognetus*
-note names only the late side of its date range. Step 0 §4 item 8 lists the
-same four.
+Four shelf notes were corrected in the corpus map (the *Hortatory Address* Otto
+row, the Tatian note, the Aristides note and the *Diognetus* note); Step 0 §4 item 8
+records them. None is open.
 
 **Note on what Step 0 already covers and this dossier doesn't re-derive:**
 Step 0 §3 B1 checks this roster against the vendored files and finds a
@@ -174,7 +169,7 @@ texts. They are recorded as missing in §5, not as searched and absent.
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
 | Melito of Sardis, *Peri Pascha* (On the Pascha) | Step 0 §3 B1 names this directly: the census's own `voices` field credits Melito with "a Paschal homily recovered in the twentieth century," and the vendored ANF fragment predates and is not that text | Checked against `archive.org` (title and creator search, 2026-09-21): no public-domain edition exists. The work was recovered from Papyrus Bodmer XIII, first published by Campbell Bonner in 1940; the standard critical editions (Perler 1966, Hall 1979 Oxford) are 20th-century and still in copyright. There is no 19th-century translation to find, because the text wasn't known when ANF/NPNF were made. Nothing to acquire by this route; the gap Step 0 names is real and durable, not a research gap. |
-| Commodian, *Carmen Apologeticum* | Latin's own dossier work (see the sibling `latin-apologists` dossier) names this as the one Commodian work explicitly not vendored; checked here too since Commodian's dating question touches this candidate's own era-1/era-3 boundary indirectly | Checked against `archive.org` (title search, 2026-09-21): zero results. What surfaces under "Commodianus" is the already-vendored *Instructiones* in other 19th-century editions (e.g. the 1869 Oldham/Pusey Tertullian-and-Victorinus-and-Commodianus set, ANCL vol. 18, 1870) — the same text already in `cic/texts/`, not the *Carmen*. No public-domain English translation of the *Carmen apologeticum* was found. |
+| Commodian, *Carmen Apologeticum* | Latin's own dossier work (see the sibling `latin-apologists` dossier) named the *Carmen* as the one Commodian work not vendored; its Latin has since been vendored (`commodian_carmen-apologeticum-lat_dombart1887-csel-tei.txt`), and what is missing is an English translation; checked here too since Commodian's dating question touches this candidate's own era-1/era-3 boundary indirectly | Checked against `archive.org` (title search, 2026-09-21) for an English translation: zero results. What surfaces under "Commodianus" is the already-vendored *Instructiones* in other 19th-century editions (e.g. the 1869 Oldham/Pusey Tertullian-and-Victorinus-and-Commodianus set, ANCL vol. 18, 1870) — the same text already in `cic/texts/`, not the *Carmen*. No public-domain English translation of the *Carmen apologeticum* was found. |
 | Routh, *Reliquiae sacrae*, vol. V (`reliquiaesacraes05rout`) | Named in the first version of this dossier as a second-witness candidate for Melito | Holds Archelaus and creeds, not the apologists (`cic/texts/README.md`, Routh vol. I entry, from the vendoring pass; not re-fetched in this refresh). Not vendored. Melito's Routh fragments are in vol. I, already vendored. |
 
 ## 5. Open cross-world questions
@@ -195,16 +190,20 @@ texts. They are recorded as missing in §5, not as searched and absent.
   break with the Church, Dominant Modern Reconstruction; against Justin's
   death, Contested) and the Encratite disclosure (Step 0 §4 item 3). The
   Syriac source record's sentence "written before the events Eusebius
-  describes" holds for the break with the Church and not for Justin's death;
-  the record is not edited by this build.
+  describes" sits in its Encratite-charge paragraph and refers to the
+  Encratite events; so read it is supported as a Dominant Modern
+  Reconstruction, not as Documented, and the record says nothing about
+  Justin's death (Step 0 §2 A2). Its accuser ("Eusebius accuses him") is the
+  later source; the earlier is Irenaeus. Neither Syriac record is edited by
+  this build, and the log entry "Correction: the Syriac Tatian record's clause
+  is about the Encratite charge, not Justin's death" records the reading.
 - **Cross-build flags.** `records/pahc/figure/pahc.figure.justin.md` and
   `records/alx/figure/alx.figure.antony.md` already carry cross-build flags
   of the kind the log's entry on cross-world ownership excludes from new records.
   Whether they reach what a Representative says has not been checked; the
   log flags the question to Mark and edits neither record.
-- **Slate items on the shelf.** The four shelf items listed in §1 belong to
-  the Library thread. This candidate has no `Open_Gaps_Tracking.md` yet
-  because it has no world file-code.
+- **No `Open_Gaps_Tracking.md` yet.** This candidate has no world file-code,
+  so any further gap belongs there once it does.
 - **Clean Greek is missing for Theophilus, Tatian, Melito and Aristides.**
   Only OCR second witnesses are vendored (§1). The Quadratus, Aristo,
   Apollinaris and pseudo-Justin texts are in the same position. This
