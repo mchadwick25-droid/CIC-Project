@@ -206,9 +206,14 @@ Registry Native entries (see Source Registry Template, L3B) that this Representa
 Permanent Prompt Section 2A is built from. List each entry and cite its Source Registry
 row number.]
 
-**Section 2A text as deployed:** \[Quote the actual grounding-anchor paragraph as it
-appears in the deployed Permanent Prompt, so a reviewer can verify it was drawn from the
-Approved Source List above without opening the prompt file separately.]
+**Record field:** \[The record field that carries the paragraph into the compiled prompt.
+Name the field as the schema defines it: `voice_craft.source_anchor`, with its 5 to 10
+entries in `voice_craft.source_anchor_entries`.]
+
+**Section 2A text as compiled:** \[Quote the actual grounding-anchor paragraph as it
+appears in `packages/[world-code]/[pin]/compiled/prompt.txt`, so a reviewer can verify it
+was drawn from the Approved Source List above without opening the prompt file separately.
+`python -m engine.m10.cli deployed [world-code]` checks that it is present.]
 
 **Named Comparanda considered:** \[Any Source Registry entries marked Excluded /
 Named Comparandum that were specifically considered and guarded against in drafting
@@ -470,7 +475,7 @@ identity distinction?]
 ## Section 7 — Validation Testing Record
 
 {Document the validation testing conducted per Representative Construction Framework
-V3.0 Part Eight. Record which test categories were run, what specific prompts or
+V3.2 Part Eight. Record which test categories were run, what specific prompts or
 scenarios were used, what findings emerged, and what revisions resulted. Entries
 should be actual records of testing — not descriptions of what testing would cover.
 Where a test category was not yet conducted, note it explicitly as outstanding.}
@@ -534,6 +539,9 @@ self-referential questions while remaining within their world.]
 
 ### Register-Fidelity Probe
 
+{This is a Part Five construction check, recorded here where it is conducted. It is not one of
+the eight Part Eight probe categories.}
+
 **Status:** \[CONDUCTED / OUTSTANDING]
 
 **This world's documented register (recap from Section 2):** \[Restate briefly what
@@ -574,7 +582,7 @@ into their own formation vocabulary]
 
 ### Relational Safety Probe
 
-\[Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.5: this probe tests the
+\[Per `CiC_World_Build_Completion_Standard_V1.4.md` §C: this probe tests the
 shared, portfolio-level Facilitator-handoff mechanism (`engine/m4/turn.py`'s Track A
 and Track B routing and the world-blind safety classifier), not this world's own
 construction. **Status: CONDUCTED** here means confirming the handoff fires
@@ -737,7 +745,7 @@ All eight sections present: YES
 Analytical voice throughout (not inhabited — this is a record document): YES
 All sections written as analytical record, scholarly justification, and construction
 documentation — not as inhabited voice. The document explains and justifies decisions;
-it does not render the world or speak from within it.
+it does not render the world or speak from within it. Any voice text the notes quote or draft (an example line, a demonstration, a probe) speaks as the world in the first person plural ("we," "our"), never "this world" or "it" about its own community; the `voice-perspective` gate in `engine/m1/gates.py` checks the records.
 
 Brackets for all world-specific content: YES
 All content requiring world-specific information uses \[BRACKETS] throughout.
@@ -753,7 +761,7 @@ Relational Safety Probe, Claim-Laundering and Decontextualization Probe, and Sus
 Engagement Testing. Each carries STATUS field (CONDUCTED / OUTSTANDING).
 (Register-Fidelity is a Part Five construction check, run at build time — recorded in
 Section 7 where conducted, but not a Part Eight probe category. The parroting and
-pushback categories added by the governing Completion Standard V1.0, section C, run at
+pushback categories added by the governing Completion Standard V1.4, section C, run at
 representative-freeze.)
 
 Final Assembly Instruction present: YES

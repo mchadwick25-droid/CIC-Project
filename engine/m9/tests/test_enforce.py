@@ -62,6 +62,60 @@ def test_waiver_naming_a_non_grandfathered_world_is_red(monkeypatch):
     assert any("not grandfathered" in p for p in problems)
 
 
+def test_grandfathered_set_is_fixed():
+    assert enforce.GRANDFATHERED_WORLDS == frozenset(
+        {"alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "syr", "rzg", "witt"}
+    )
+
+
+def test_every_waiver_on_a_new_world_carries_an_owner_and_the_project_leads_approval():
+    """No entry in the real registry may name a world outside the fixed set
+    unless it carries both an owning finding and approved_by naming the lead."""
+    offenders = []
+    for key, waiver in enforce.ACCEPTED_OPEN.items():
+        world_key = key.rsplit("/", 1)[1]
+        if world_key in enforce.GRANDFATHERED_WORLDS or world_key == enforce.FLEET_PSEUDO_WORLD:
+            continue
+        if enforce.new_world_waiver_problem(waiver) is not None:
+            offenders.append(key)
+    assert offenders == [], f"waivers on new worlds without an owner and approved_by: {offenders}"
+
+
+def test_new_world_waiver_without_approved_by_is_red(monkeypatch):
+    monkeypatch.setattr(enforce, "ACCEPTED_OPEN", {
+        "m9:source-kind/zzz": enforce.Waiver(count=1, deadline="2099-01-01", owner="a finding and its thread"),
+    })
+    by_world = {"zzz": {"m9:source-kind": ["a finding"]}}
+    problems = enforce.hygiene_problems(by_world, today="2026-09-15")
+    assert any("approved_by" in p for p in problems)
+
+
+def test_new_world_waiver_without_owner_is_red(monkeypatch):
+    monkeypatch.setattr(enforce, "ACCEPTED_OPEN", {
+        "m9:source-kind/zzz": enforce.Waiver(count=1, deadline="2099-01-01", owner=" ", approved_by=enforce.PROJECT_LEAD),
+    })
+    by_world = {"zzz": {"m9:source-kind": ["a finding"]}}
+    problems = enforce.hygiene_problems(by_world, today="2026-09-15")
+    assert any("owning finding" in p for p in problems)
+
+
+def test_new_world_waiver_naming_someone_else_as_approver_is_red(monkeypatch):
+    monkeypatch.setattr(enforce, "ACCEPTED_OPEN", {
+        "m9:source-kind/zzz": enforce.Waiver(count=1, deadline="2099-01-01", owner="a finding", approved_by="a build thread"),
+    })
+    by_world = {"zzz": {"m9:source-kind": ["a finding"]}}
+    problems = enforce.hygiene_problems(by_world, today="2026-09-15")
+    assert any("approved_by" in p for p in problems)
+
+
+def test_new_world_waiver_with_owner_and_lead_approval_is_accepted(monkeypatch):
+    monkeypatch.setattr(enforce, "ACCEPTED_OPEN", {
+        "m9:source-kind/zzz": enforce.Waiver(count=1, deadline="2099-01-01", owner="a finding and its thread", approved_by=enforce.PROJECT_LEAD),
+    })
+    by_world = {"zzz": {"m9:source-kind": ["a finding"]}}
+    assert enforce.hygiene_problems(by_world, today="2026-09-15") == []
+
+
 def test_fixture_is_never_grandfathered_no_special_case_needed(monkeypatch):
     """fix must be 100% clean by construction - if it ever isn't, that is
     exactly the drift this gate exists to catch, with no carve-out for it."""
