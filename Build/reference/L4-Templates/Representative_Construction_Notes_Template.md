@@ -207,8 +207,8 @@ Permanent Prompt Section 2A is built from. List each entry and cite its Source R
 row number.]
 
 **Record field:** \[The record field that carries the paragraph into the compiled prompt.
-Name the field as the schema defines it. If the schema has no such field yet, write "field
-not yet defined" and cite the open engineering item in Build Process V2.0, Section 13.]
+Name the field as the schema defines it: `voice_craft.source_anchor`, with its 5 to 10
+entries in `voice_craft.source_anchor_entries`.]
 
 **Section 2A text as compiled:** \[Quote the actual grounding-anchor paragraph as it
 appears in `packages/[world-code]/[pin]/compiled/prompt.txt`, so a reviewer can verify it

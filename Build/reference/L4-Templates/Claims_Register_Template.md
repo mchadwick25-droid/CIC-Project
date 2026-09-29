@@ -9,6 +9,8 @@
 
 One row for every absence or exclusivity claim the world's deliverables and record files make about the record: "no source says", "the only", "never", "no other", "the sole", "is not attested", "is silent on", "nowhere", "exclusively", "absent from". The command derives the claims. It does not decide whether any of them is true.
 
+The command finds claims with a closed set of fourteen text patterns. The set is conservative: it finds the shapes listed above and misses an absence claim worded another way, so a clean run does not show the documents hold no other. A row for a claim the patterns do not derive is stale and fails the run. The reviewer reads for what the patterns miss.
+
 The command reads the world's `Doc_NN` files, its chunk folders (`*-Chunks/`), its World Profile and Capsule Core files, and the prose fields and bodies of its record files. It skips review files, superseded material, this register, the gaps ledger and the decision log.
 
 ## Columns

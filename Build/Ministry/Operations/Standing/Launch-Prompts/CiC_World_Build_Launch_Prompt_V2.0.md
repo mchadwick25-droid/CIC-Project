@@ -102,18 +102,14 @@ Run each command before Opus sees the work. Fix every failure first.
   checks that the approved-source anchoring paragraph is in the compiled
   prompt.
 - `python -m engine.m10.cli probes <code>` before and after every probe
-  run.
+  run. It fails a results file whose tested pin is not the current pin.
 - `python -m engine.m10.cli validation <code>` after the probe results
   are in. It also checks that all eight Part Eight categories were run, that
   the Deep Interview carries its encounter-success grading, and that
   validation ran on the current package pin.
 - `python -m engine.m10.cli wiring <code>` at the Representative freeze.
 - `python -m engine.m10.cli integrity <code>` at freeze.
-- `python -m engine.m2.cli profile <code>` to generate the World Profile.
-
-`claims`, `integrity`, `profile` and the added coverage inside `deployed`
-and `validation` are built by the pilot start (Process V2.0, Section 13).
-Never report one as run until it exists.
+- `python -m engine.m2.cli profile <code>` to generate the World Profile on demand. It is not part of the package, and no check covers it.
 
 A new world gets no waivers. Any exception needs an owning finding and
 Mark's approval.

@@ -1,7 +1,7 @@
 # WORLD PROFILE TEMPLATE
 ## Church in Conversation — V7
 
-A new world's profile is generated from its records by `python -m engine.m2.cli profile [world-code]` (Build Process V2.0, Section 5). The generator is an open engineering item (Section 13). This template shows what the profile holds.
+A new world's profile is generated from its records by `python -m engine.m2.cli profile [world-code]` (Build Process V2.0, Section 5). The profile is produced on demand and is not part of the compiled package. This template shows what the profile holds.
 ### Per-World Canonical Description
 
 **File naming convention:** [world-code]_World_Profile.md  

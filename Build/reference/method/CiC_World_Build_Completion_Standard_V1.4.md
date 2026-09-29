@@ -20,7 +20,7 @@ words.
 
 | Record type | Required at freeze | Notes |
 |---|---|---|
-| `world_core` | `time_window`, `horizon`, `formation_logic`, `thinness` and `cautions` populated (the fields the gates require today). The world's gravity records exist and resolve by `world_id` | The always-present world's-own-ground segment and the per-seated-world anachronism check read this record. An unpopulated core is freeze-blocking, not a silent gap. The integrative observation has no field yet. Adding it is an open engineering item in the build process, named "world_core integrative observation field" (Build Process V2.0, Section 13). |
+| `world_core` | `time_window`, `horizon`, `formation_logic`, `thinness` and `cautions` populated (the fields the gates require today). The world's gravity records exist and resolve by `world_id` | The always-present world's-own-ground segment and the per-seated-world anachronism check read this record. An unpopulated core is freeze-blocking, not a silent gap. The optional `integrative_observation` field carries the Doc_07 finding for the World Profile. It is never compiled into the prompt. |
 | `source` | Envelope and Tier-1 fields populated; `attribution_status` on every P-row; `discovery_channel` on every row; the world's `search_record` complete on the STARLITE headings; field-bibliography sweep run and dispositioned; saturation statement present with the last unproductive searches named | Tier-2 fields (external ids, transmission path, rights) populate forward. **Rights become blocking at public-repository ship.** The repository ships fail-closed meanwhile: unset rights render as metadata and attribution only, never text. |
 | `term` | Tier 1/2: `plain_meaning`, `world_word`, all four `senses` (informational, evidential, personal, translational), `quick_meaning`, `distortion_risk`, at least one directional entry in `relations[]`, a typed retrieval block, licensed sources. Tier 3: `quick_meaning` and sources at minimum | `prior_sense: none-attested` is an answer, not a blank. `register: emic-unavailable` is likewise an answer, not a blank or a defect. It is an expected value for a term whose headword names something this world's own idiom had no settled word for, or names it only through a later editorial or etic label (doc 13's `Apophthegma`, "a word," is the case). `plain_meaning` is authored to the reading floor. A contested claim that rides the term has its own `contested_claim` record. |
 | `story` | `narrative_tier` with `narrative_tier_justification`; `text`; `tellable_as`; `modern_contrast`; every element sourced in `sources[]` | The composite-owner convention holds: a Tier-4 composite is owned by the community figure, never the persona. The record body and Doc_09 carry the owner, the attested occasion and the gravity links until the schema has fields for them. |
@@ -42,7 +42,7 @@ Build Process V2.0 (its Section 5). Freeze checks each by its own rule:
 
 - **Generated from records.** The World Profile (a view over `world_core`,
   `gravity`, `force`, `contested_claim`, `honest_limit` and `term`, built by
-  `python -m engine.m2.cli profile <code>`, an open engineering item) and the
+  `python -m engine.m2.cli profile <code>`, on demand and not part of the compiled package) and the
   Capsule Core (`compiled/capsule.md`, built by `build_capsule` in
   `engine/m2/builders.py`). The generated output renders without error and
   matches its records. There is no hand-written copy to check.
@@ -117,9 +117,11 @@ folder.
 The approved-source anchoring read is recorded at freeze. The deployed prompt
 carries one paragraph built from 5 to 10 of the Source Registry's Native
 entries, and `deployed` checks that it is present in `compiled/prompt.txt`.
-The record field that carries it is an open engineering item (Build Process
-V2.0, Section 13). Until the field exists, a freeze declaration states this
-criterion as not met.
+Two optional `voice_craft` fields carry it: `source_anchor` (the paragraph,
+compiled as its own section) and `source_anchor_entries` (the 5 to 10 short
+names, each named verbatim in the paragraph, not compiled). A world without the
+paragraph fails `deployed`, and its freeze declaration states this criterion as
+not met.
 
 ## C. Representative-freeze: after world-freeze
 
