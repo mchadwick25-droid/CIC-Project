@@ -1,10 +1,7 @@
-# Representative Naming & Role Discipline (2026-09-08)
+# Representative Naming & Role Discipline
 
-**Origin.** Stated by Mark, live, while working the Donatism build thread's
-own Representative naming question, then generalized here as standing
-doctrine for every world build — this is not Donatism-specific guidance,
-it is the bar G2 applies everywhere. Mark's own words, quoted rather than
-paraphrased, since the precision matters:
+**The standard, in Mark's words.** It is the bar M1 applies to every world
+build. The words are quoted, not paraphrased, because the precision matters:
 
 > "we want a real name, but not one that would be mistaken for a
 > significant figure in this world or a close world. it needs to connect
@@ -18,15 +15,14 @@ paraphrased, since the precision matters:
 > that as a possible name, but only if it would be a consistent
 > representation of the movement"
 
-**This governs G2 in every launch prompt (V2 and V3 alike).** G2 was
-already a real stop, never self-disposed — this document states the
-criteria a build thread must actually test candidate options against
-before presenting them, so "grounded options, one recommendation each" has
-a real, consistent bar behind it rather than being reinvented per world.
+**This governs M1 in every launch prompt.** M1 is a real stop and is never
+self-disposed. This document states the criteria a build thread must test
+candidate options against before presenting them, so "grounded options, one
+recommendation each" has one consistent bar and is not reinvented per world.
 
 ## The five tests
 
-Every NAME + ROLE option a build thread presents at G2 must be checked
+Every NAME + ROLE option a build thread presents at M1 must be checked
 against all five before it reaches Mark. A candidate that fails any one is
 not presented as a live option — note why it was dropped, don't bring it
 forward hoping he'll overlook the failure.
@@ -44,8 +40,8 @@ forward hoping he'll overlook the failure.
    recall, not so long or unfamiliar that it becomes friction between the
    reader and the voice. This is a genuine usability test, not a
    secondary nicety — a name a reader has to re-read or avoid saying
-   fails it the same way a G3 sentence a reader has to re-read fails the
-   bar.
+   fails it the same way a sentence a reader has to re-read fails the
+   Register Bar.
 
 3. **The role spans the whole movement, not a moment in it.** The role
    must position the voice to plausibly speak for the world's entire
@@ -82,7 +78,7 @@ forward hoping he'll overlook the failure.
    test applied to one more candidate class, checked with the same rigor
    as every other.
 
-## What a G2 presentation looks like under this discipline
+## What an M1 presentation looks like under this discipline
 
 For each candidate NAME + ROLE pairing: the name, the role, which of the
 five tests it was checked against and how, one honest trade-off, and (for

@@ -69,6 +69,29 @@ def cmd_staleness_check(args: argparse.Namespace) -> int:
     return 0 if overall_pass else 1
 
 
+def cmd_profile(args: argparse.Namespace) -> int:
+    from engine.m1.loader import load_world_records
+    from engine.m1.registry import get_world
+
+    from .profile import build_profile
+
+    try:
+        entry = get_world(args.world_key)
+        records = load_world_records(args.world_key)
+    except (KeyError, FileNotFoundError) as exc:
+        print(f"profile: {exc}", file=sys.stderr)
+        return 1
+    if not records:
+        print(f"profile: no records for {args.world_key!r}", file=sys.stderr)
+        return 1
+    text = build_profile(records, entry, args.world_key)
+    if args.out:
+        Path(args.out).write_text(text, encoding="utf-8")
+    else:
+        sys.stdout.write(text)
+    return 0
+
+
 def cmd_upload(args: argparse.Namespace) -> int:
     """Pushes an already-built package to object
     storage, so a deploy running the OLD image can still serve it -
@@ -133,6 +156,11 @@ def main(argv: list[str] | None = None) -> int:
 
     stale = sub.add_parser("staleness-check", help="recompile every built/admitted/open world, check against its manifest")
     stale.set_defaults(func=cmd_staleness_check)
+
+    profile = sub.add_parser("profile", help="render the World Profile, a view over the world's records (not part of the package)")
+    profile.add_argument("world_key")
+    profile.add_argument("--out", help="write the profile to this path instead of printing it")
+    profile.set_defaults(func=cmd_profile)
 
     upload = sub.add_parser("upload", help="push an already-built package to object storage (WO-1), so a running deploy can fetch it without a redeploy")
     upload.add_argument("world_key")
