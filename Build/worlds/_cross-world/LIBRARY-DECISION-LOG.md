@@ -13,6 +13,49 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — Non-Western worlds may proceed on an honestly lopsided ecology, Ottoman Orthodoxy first; a protected English translation points to a public-domain original
+
+**Ruling, Mark's own words, two messages in one session.** On the source
+search: "remember to look for other language sources that are public
+domain, so if there is an english translation version that is protected
+that will most certanly come from another language source we can access".
+On whether a non-Western candidate may go forward when its public-domain
+ecology is strong in some genres and thin in others: "yes, allow it for
+Ottoman Orthodoxy first".
+
+**Context.** A four-candidate probe of non-Western entries in eras 6 and 7
+(`ethiopian-christianity-gragn-to-fasilides`, the St. Thomas Christians
+under Portuguese pressure, `orthodoxy-under-the-ottomans-parish-millet-and-n`,
+`hesychasm-and-the-palamite-synthesis`) found none READY. All four were THIN
+BUT VIABLE, with strong chronicles and outside witnesses and weak inside
+doctrine and prayer. Mark's test for the probe was that the ecology must be
+broad enough to build a full world from.
+
+**What this rules.**
+- Where an in-copyright English translation exists, the source search looks
+  for the public-domain original-language edition behind it (Greek, Latin,
+  Ge'ez, Church Slavonic, Malayalam, Portuguese, Italian and the rest), and
+  for a clean text of it. A clean original is primary under the 2026-09-25
+  ruling below, and the English is rendered from it. A garbled scan stays a
+  second witness.
+- `orthodoxy-under-the-ottomans-parish-millet-and-n` (VI.17) may proceed
+  first, on a lopsided ecology. Each missing genre is recorded as an absence
+  in the world's own gap tracking, and a Representative never fills it.
+
+**What this does not rule.** The other three candidates are not approved;
+they wait for more acquisition. Two related questions were put to Mark and
+are still open: whether a public-domain scholarly translation (Conti Rossini's
+French and Latin versions of Ge'ez chronicles) may stand in for a garbled
+original or is a cross-check only, and whether the Beta Masaheft
+Galawdewos file (CC BY-SA 4.0, based on a 2016 critical edition) may be
+vendored. This entry does not answer either.
+
+**Changed.** Nothing in `cic/texts/INTAKE.md`'s rules; its 2026-09-25 text
+already covers original-language primary evidence. The Ottoman Orthodoxy
+world is a build candidate, subject to its own Step 0 through Doc_02 review.
+
+---
+
 ## 2026-09-25 — Non-English originals can be primary evidence; language is not the test
 
 **Ruling, Mark's own words:** "non english sources are treated as primary
