@@ -847,3 +847,7 @@ surfaced-but-undecided items of varying weight — none blocking, all real. Per 
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
 alone.*
+
+### OG-21. don's `[self-reference]` note added to meet the V2.0 `deployed` check, 2026-09-29.
+
+`engine.m10.cli deployed don` failed because the compiled prompt had no `[self-reference]` note. don's identity said "we, our, among us" but carried no sanctioned "I" line and none of the four self-narration rules from cappadocian OG-18. `records/don/voice_craft/don.craft.fidelis-voice.md` now has a `self-reference` note carrying the four rules in the exact wording the check requires. The sanctioned line is "I am a representative of the Church of the Martyrs." Mark chose it on 2026-09-29 from two options; the second was "the African communion of Carthage, Numidia, and Cirta." "Donatist" was not offered as a self-name, because how the record treats that word was not checked. The record totals 758 of 900 words. The package was rebuilt and repinned (`packages/don/2026-09-29T23-28-20Z`). `deployed don`, `determinism-check` and `engine.m9.cli check` pass. The wording has not been tested for live behavior, and the alx sample at cappadocian OG-27 found no clear effect.
