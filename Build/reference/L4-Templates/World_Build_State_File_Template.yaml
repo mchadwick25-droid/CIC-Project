@@ -1,5 +1,6 @@
 world_code:
 process_version: V2.0
+completion_standard_version:
 started:
 pilot_world: false
 current_step:

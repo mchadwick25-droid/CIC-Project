@@ -1,6 +1,7 @@
 # Cost ledger: world `<code>`
 
 Process version: 
+Completion Standard version: 
 Pilot world: yes / no
 
 ## Ledger 1: weekly allowance
@@ -16,19 +17,25 @@ Percent figures are read from `/usage` and noted by Mark.
 
 ### Per document
 
-| Document | Sonnet 5.5 tokens | Fable 5.1 tokens | Opus 5.5 tokens | Review rounds | Hours | Ledger date |
-|---|---|---|---|---|---|---|
-| Doc_03 | | | | | | |
-| Doc_04 | | | | | | |
-| Doc_05 | | | | | | |
-| Doc_06 | | | | | | |
-| Doc_07 | | | | | | |
-| Doc_08 | | | | | | |
-| Doc_09 | | | | | | |
-| Doc_10 | | | | | | |
-| Validation | | | | | | |
-| Freeze package | | | | | | |
-| Total | | | | | | |
+| Document | Drafter model | Draft effort | Sonnet 5.5 tokens | Fable 5.1 tokens | Opus 5.5 tokens | Review rounds | Hours | /usage before | /usage after | Ledger date |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Doc_03 | | | | | | | | | | |
+| Doc_04 | | | | | | | | | | |
+| Doc_05 | | | | | | | | | | |
+| Doc_06 | | | | | | | | | | |
+| Doc_07 | | | | | | | | | | |
+| Doc_08 | | | | | | | | | | |
+| Doc_09 | | | | | | | | | | |
+| Doc_10 | | | | | | | | | | |
+| Validation | | | | | | | | | | |
+| Freeze package | | | | | | | | | | |
+| Total | | | | | | | | | | |
+
+### Per review round
+
+| Document | Round | Reviewer model | Effort level | /usage before | /usage after |
+|---|---|---|---|---|---|
+| | | | | | |
 
 ### Split
 

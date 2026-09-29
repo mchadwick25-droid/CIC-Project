@@ -44,7 +44,7 @@ Produce exactly one document, the next in the confirmed sequence. Ground it in t
 
 - Address this world's known open issues in the document. Do not defer them silently.
 - Check whether the step is one of the Forces Framework's six integration points (Steps 1, 2, 4, 5, 7, 8: Doc_01, 02, 04, 05, 07, 08). Read the Forces Framework's Section 4 entry for the step before drafting.
-- Before drafting or revising, check whether this exact document already exists in the canonical folder marked "Approved to proceed" or "Frozen." If it does, and there is no linked review file plus an explicit Mark disposition you can point to, stop. Flag the conflict and wait.
+- Before drafting or revising, check whether this exact document already exists in the canonical folder marked "Approved to proceed" or "Frozen." If it does, and there is no linked review file plus a disposition log entry (for Frozen, Mark's own recorded decision), stop. Flag the conflict and wait.
 - All output goes in the world's canonical folder, `Build/worlds/<code>/`. Never write to a thread-local or scratch path. If output landed elsewhere, move it before continuing.
 - Doc_04 follows the template at `Build/reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md`.
 - Use the M4 lens spine (Completion Standard section F) in Doc_05 and Doc_07.
@@ -136,7 +136,7 @@ A coach thread checks in across a batch of already-disposed work, not per docume
 
 Editing authority over non-world files (Construction Framework, Representative Construction Framework, build process and completion standard, change-order register, L3B and L4 templates) belongs to a coach thread. A build thread writes only inside its own world's folder.
 
-A coach may make small technical corrections inside a world file (a citation misattribution, a broken cross-reference, a propagation fix) if the correction changes no claim, finding, or decision and carries a dated inline note. Anything touching substance stays with the build thread or goes through escalation.
+A coach may make small technical corrections inside a world file (a citation misattribution, a broken cross-reference, a propagation fix) if the correction changes no claim, finding, or decision and is logged with its date in the Build/Ministry decision log, never as a note inside the world file. Anything touching substance stays with the build thread or goes through escalation.
 
 ## If something does not fit
 

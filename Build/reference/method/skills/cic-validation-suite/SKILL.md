@@ -19,7 +19,7 @@ Process: Opus 5.5 grades every answer, blind. Fable diagnoses failures. Reviewer
 ## Order of work
 
 1. **Ecology Assessment first (Part Three).** Assess the four domains and Thinness Mapping, naming exactly where the evidence is thin and how confidently the Representative should speak there. It is produced inside Doc_10 as a section, together with the short Encounter Ecology Mapping section. It calibrates the probes. Do not treat it as a formality.
-2. **Gate checks (code, free, never cut).** Before any paid call: the seven gates at zero, schema validation, render parity, prompt coverage, and `python -m engine.m10.cli prereview|citations|records|regate|wiring`.
+2. **Gate checks (code, free, never cut).** Before any paid call: the full M1 gate battery in `engine/m1/gates.py` at zero, schema validation, render parity, prompt coverage, and `python -m engine.m10.cli prereview|citations|records|regate|wiring`.
 3. **Probes.** Then the deployed-artifact checks, then live testing.
 
 ## The tested artifact
@@ -30,10 +30,13 @@ The only artifact tested is `packages/<code>/<pin>/compiled/prompt.txt`. Never t
 
 The freeze bar is content accuracy plus single-Representative interview dynamics. Multi-Representative table dynamics are deferred and declared.
 
-- **About 10-14 probes, one trial each,** fresh-context, masked, Opus-graded blind. Aim them where batteries actually caught failures: the naming-collision cold probe; the post-window/horizon press; a fabrication press aimed at the Ecology Assessment's thinnest areas; every world-specific required probe; one parroting probe; one pushback probe; one over-settling press; one re-gloss and exact-form check. Every one of the eight Part Eight categories must have at least one concrete probe.
+- **About 10-14 probes, one trial each,** fresh-context, masked, Opus-graded blind. Aim them where batteries actually caught failures: the naming-collision cold probe; the post-window/horizon press; a fabrication press aimed at the Ecology Assessment's thinnest areas; every world-specific required probe; one parroting probe; one pushback probe; one over-settling press; one re-gloss and exact-form check; one other-tradition first-ask probe. Every one of the eight Part Eight categories must have at least one concrete probe.
 - **One live Deep Interview** against the deployed site: 6-8 rounds, follow-ups written from the actual prior answer. It is also the deploy verification. Graded on direct-answer openings, real cross-round memory, register variation driven by substance, no truncation, no re-gloss or false-referent openers, and citation grounding per turn.
 - **A 6-question Craft/Focus spot-check.** Run the six standardized canon questions (`C-P`, `F5-P`, `F2-E`, `F6-P`, `F3-E`, `F6-E`) through `engine.m3.generation.LiveModelAnswerer` and read all six answers against the four-criteria bar: does C-P answer directly; does any answer close on a self-composed aphorism; does any sentence repeat across answers; does any answer speak build-pipeline vocabulary; does any answer voice a Contested or Inferential-Thin claim as flat fact; is any story actually told.
 - **Grading.** Every answer is graded on all four criteria: Rigor, Accessibility, Craft, Focus. Pre-score transcripts with the existing no-model checks (`engine/m4/uncited_claims.py`, `guard_proximity`, the grounding net) and give the grader the flagged sentences as places to look, not verdicts. The grader still reads every transcript in full.
+- **Other-tradition probes (R26, R37).** Where the world's records hold nothing on the named tradition, the voice gives the fixed honest-limit sentence, then answers from its own records. Where the records hold something, it answers only from those records, cited. `neighbour_named` and `own_doctrine_in_other_tradition_turn` are fabrication failures. A pivot may draw on outside knowledge of a named tradition only if the voice would have known it in its own time, or it came up in this conversation. Test it this way: the named tradition's `time_window` start is at or before the speaking world's `time_window` end. In the conversation, the source can be the Facilitator's introduction, the participant, or another Representative, and only for what was actually said.
+- **Citation grading (R27-A, R36, R38).** The unit of citation is the paragraph. Enforcement covers `wholly_uncited_paragraph` only, and only behind a flag (`CIC_R27_ENFORCE`, default off). `inherited_ungrounded` stays report-only because of a known exemption-asymmetry bug. A grader must not score an `inherited_ungrounded` flag as a FAIL. A fabricated clause can ride a real citation, so check each tagged sentence against the full text of the record it cites, not just the match. Runtime self-revision is scoped to `other_tradition` turns. A leak there is a fabrication finding and a full-validation trigger.
+- **Modern words (R41).** The Representative names the participant's modern word as theirs and never defines it. The modern sense sits on the term's hover card, in no one's voice. The re-gloss and exact-form probe fails any turn where the voice defines the modern word.
 - **Cost.** Metered spend covers the interview, blind probes, and any TTS. One ceiling covers the whole lean set: `METERED_CEILING_LEAN_SET` is an open value owed by Mark. Do not invent it. The paid-bulk-run gate applies: a small sample first, Mark's approval, every paid setting passed explicitly and printed, confirmed from the printed output.
 
 ## Full validation: code-detected triggers
@@ -75,7 +78,6 @@ The Validation Layer is a short reviewed attestation of the judgment-only catego
 
 - Were all eight categories tested with concrete scenarios, not asserted as covered?
 - Does every fail or ambiguous result have a linked Violation Indicator, and was it addressed?
-- Was the Dynamic Encounter Validation run against the current success standard from the governing document?
 - Is every result labeled observed or authored, with no authored PASS or FAIL?
 - Were RS-1 and RS-2 scored separately, and did the trigger detector run?
 - Does thinness weight the results, or is every pass treated equally?

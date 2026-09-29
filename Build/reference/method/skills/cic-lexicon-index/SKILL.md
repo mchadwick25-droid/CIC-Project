@@ -23,6 +23,8 @@ Follow the Deployment Lexicon Chunk Template exactly.
 - **CT Contest Type.** Only if the CT tag applies. If it applies, the section is not optional: state which of the four contest types applies and describe the actual contest.
 - **Reported-Experience Status.** Only where the meaning is historically uncertain but formationally central.
 
+Every term on a record's `anachronistic_term_ids` needs a modern-sense gloss for its hover card (R41). The Representative never defines the modern word in a spoken turn. Name another tradition in a record only where this world's own sources do.
+
 Run the alias-safety preflight (Rules A/B) when aliases are first authored, so no retrofit is needed later. Any modern-English rendering is authored by Opus 5.5 and checked in a separate Opus pass.
 
 ## The index bar: lookup without opening every file

@@ -19,7 +19,7 @@ The structural template is `Build/reference/L3B-World-Build-Methodology/Doc_04_G
 
 ## Build the candidate list and testing from evidence
 
-- Generate candidates only from elements recurring across several Doc_02 evidence streams, or from documented patterns of attention-presence and attention-absence. Never from general familiarity.
+- Generate candidates only from elements recurring across several Doc_02 and/or Doc_03 evidence streams, or from documented patterns of attention-presence and attention-absence. Never from general familiarity.
 - Flag any candidate visible mainly in one stream, or proposed by one major voice, as an Author Gravity risk at generation, not after testing.
 - Record candidates considered and not advanced, with reasons. This section is required even if empty.
 - Run all six tests on every candidate. Interaction means the relationship to every other candidate is specifically named as reinforcing, competing, or reshaping, not "coexists." Where the world has confirmed strands, score per strand where results diverge.

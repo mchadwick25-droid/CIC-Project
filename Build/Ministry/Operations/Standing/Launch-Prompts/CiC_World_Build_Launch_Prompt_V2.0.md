@@ -8,8 +8,7 @@ package. Go-live is a separate thread.
 
 1. `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md`
 2. `CLAUDE.md`
-3. `Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md`
-   (read the version on disk)
+3. `Build/reference/method/CiC_World_Build_Completion_Standard_V1.4.md`
 4. `Build/reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx`
    and `Build/reference/L3C-Representative-Methodology/CiC_L3C_Representative_Construction_Framework_V3.2.docx`.
    Both are .docx files. Read `word/document.xml` from the zip.
@@ -153,8 +152,10 @@ Before each paid run:
 ## Ledger entries
 
 Write an entry in the cost ledger at each document boundary and at
-freeze. Record tokens by model tier, review rounds and hours. Ask Mark to
-note the `/usage` percent at freeze. Session cost telemetry shows
+freeze. Record tokens by model tier, hours, and the model and effort level
+for each document and each review round. Ask Mark to note the `/usage`
+percent before and after each entry, and at freeze. Stamp the Completion
+Standard version in the state file at world start. Session cost telemetry shows
 raw-rate equivalents. It is not a bill.
 
 ## Pause rule
@@ -176,8 +177,8 @@ steps (Opus review rounds, Fable drafts) early in the weekly window.
 - An unresolved tension after three review rounds.
 - Frozen status. Never assign it yourself.
 
-Do not create the registry entry. Do not go live. Do not commit or push
-unless told to.
+Do not create the registry entry. Do not go live. Commit at each green checkpoint, with the step ID. Push only on Mark's
+word.
 
 ## When done
 
