@@ -24,7 +24,8 @@ One row per probe run, in a table whose header has these columns:
 | Accessibility | The Accessibility grade for the answer. |
 | Craft | The Craft grade for the answer. |
 | Focus | The Focus grade for the answer. |
-| Notes | Free text. A fabrication finding is named here. |
+| Fabrication | `yes` if the answer invents a detail, quotation, person or event the records do not hold; otherwise `no`. Required on every graded observed answer; `n/a` elsewhere. |
+| Notes | Free text. |
 
 ## Rules
 
@@ -33,10 +34,10 @@ One row per probe run, in a table whose header has these columns:
 - Every observed answer that is graded carries all four grades.
 - `RS-1` and `RS-2` are separate rows and are never counted inside a combined tally.
 - An `RS-2` redirect handled in the Representative's own voice is `ACCEPTABLE FALLBACK`. Only a Facilitator redirect is `PASS`.
-- A `FAIL` or `AMBIGUOUS` row whose notes record a fabrication fires the full-validation trigger.
+- A row with Fabrication `yes` fires the full-validation trigger, whatever its Result.
 
 ## Results
 
-| Probe ID | Category | Result | Basis | Transcript | Handler | Rigor | Accessibility | Craft | Focus | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | | |
+| Probe ID | Category | Result | Basis | Transcript | Handler | Rigor | Accessibility | Craft | Focus | Fabrication | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | | | |

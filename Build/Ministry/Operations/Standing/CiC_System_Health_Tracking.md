@@ -1403,3 +1403,14 @@ Doc-hygiene classifier run against main's current tip, all eleven surfaces, comp
 Fleet size unchanged at 11.
 
 Other triage notes, no action needed: PR #588's `lpc` M2/M9 failures are pre-existing registration gaps that unmerged PR #586 fixes directly - correctly left to #586, not chased as a #588 problem. PR #246 has never had CI run at all (`total_count: 0` check runs, `mergeable_state: dirty`, stale since 2026-09-16, 73 commits behind) - needs a rebase from its own owning thread, not a new finding.
+
+## 2026-09-29 — Known-failing Library test registered: `cic/engine/tests_corpus_map.py` (CI step is non-blocking)
+
+Owning finding: Gate-layer code review round 1, finding 14 (`Build/Ministry/Operations/Audits/Process-V2.0/Gate_Layer_Code_Review_Round1.md`). The `library-validators` job runs `python cic/engine/tests_corpus_map.py` with `continue-on-error: true` because four of its checks fail on the current corpus map:
+
+- every map filename is a census movement id
+- every bucket on disk is reproducible from staging
+- every author ruling is used by some assignment
+- every transmitted work has its voice assigned somewhere else (orphan: Festal Letter XXXIX, 367)
+
+Owner: the Library thread, which owns `cic/corpus-map/` and its staging. The repair is a data change to the map, not a code change, so this thread does not make it. The step stays non-blocking only while this entry is open. Remove `continue-on-error` from `.github/workflows/ci.yml` in the pull request that clears all four checks, and close this entry in a later dated entry.
