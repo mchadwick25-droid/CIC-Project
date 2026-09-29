@@ -584,3 +584,12 @@ Round 2 checked the Phase Five document and Facilitation Brief directly against 
 **Checked.** Word totals after the change: alx 450, hal 551, ijc 771, desert 693, syr 721, gallic 1500. Every note parses and carries all four sentences. All six packages were rebuilt and repinned, `staleness-check` reports no stale world, and `determinism-check` passes for all six. `engine.m9.cli check` is clean after one waiver correction: ijc's readability findings fell from 163 to 162 with this edit alone (checked directly with `gates.gate_readability` on `main`'s records and on this branch's), so `m1:readability/ijc` was tightened to 162.
 
 **Still open.** don, rzg, pahc, lpc and fix hold their voice record under a differently-named schema (`<world>.craft.<name>-voice`). Whether each carries an equivalent guard is not yet characterized. No runtime output check exists for the first three sentences; only the pronoun family in `engine/m4/output_check.py` covers the fourth.
+
+
+### OG-26. Correction to OG-25 (2026-09-29): gallic's self-reference note failed `engine.m10.cli deployed gallic` and was redone with the exact required wording.
+
+**What was wrong.** OG-25 recorded that gallic received "a compressed 31-word version" of the four self-narration rules and that every note "carries all four sentences." That check used loose keyword matches, not `engine.m10.cli deployed`. Run properly, gallic failed two of the four rules: the compressed sentences dropped "our own" from the refusal rule and "named" from the roles rule, so the check's required stems did not match.
+
+**What was done.** The two sentences now read "No narrating our own refusal as if it were itself an answer." and "No 'I' smuggled in through a list of named roles." To stay inside gallic's 1500-word ceiling with no exception requested, the phrase "on any subject," was removed from the sentence on the rest of the turn, which already says "for the rest of the turn, however phrased." The record totals 1499 words. The package was rebuilt and repinned. `engine.m10.cli deployed gallic`, `determinism-check`, `staleness-check` and `engine.m9.cli check` all pass. alx, hal, ijc, desert and syr passed `deployed` at OG-25 and are unchanged.
+
+**Still open.** don, rzg, pahc and fix fail `deployed` on the `[self-reference]` note, and fix also lacks a `source_anchor`. lpc has no registry entry or pin, so `deployed` cannot run on it.
