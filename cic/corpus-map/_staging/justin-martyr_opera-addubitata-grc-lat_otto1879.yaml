@@ -27,7 +27,6 @@ assignments:
     author: justin_martyr
     locus: "file line 4293 (heading 'COHORTATIO AD GENTILES.' (first body occurrence, after the prolegomena))"
     atlas_ids:
-      - greek-apologists-second-century
       - post-apostolic-house-church
     role: tradition
     confidence: provisional
@@ -41,6 +40,23 @@ assignments:
       apologetarum vol. III, editio tertia, Justin Tomus II (Jena, 1879), whose prolegomena treat
       these works as not Justin's. Mirrors the English twin's role and confidence exactly.
 
+  - work: "Hortatory Address to the Greeks"
+    author: justin_martyr
+    locus: "file line 4293 (heading 'COHORTATIO AD GENTILES.' (first body occurrence, after the prolegomena))"
+    atlas_ids:
+      - greek-apologists-second-century
+    role: context
+    confidence: provisional
+    note: >
+      Ruled 2026-09-29 (Mark approved the Apologists window slate; see LIBRARY-DECISION-LOG.md): held here as context, mirroring the English twin's Greek Apologists row.
+            Latin translation (Otto) second witness of the ALREADY-PRESENT English entry for this work
+      (source_file anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the OCR
+      of this scan holds zero Greek-script characters: every Greek passage is Latin-letter noise.
+      Only Otto's Latin translation, prolegomena and apparatus are real text. Not to be quoted as
+      the original until a clean witness is vendored or the page image is checked. Otto, Corpus
+      apologetarum vol. III, editio tertia, Justin Tomus II (Jena, 1879), whose prolegomena treat
+      these works as not Justin's. Mirrors the English twin's role and confidence exactly.
   - work: "On the Sole Government of God"
     author: justin_martyr
     locus: "file line 12565 (heading 'DE MONARCHIA.' (first body occurrence, after the prolegomena))"

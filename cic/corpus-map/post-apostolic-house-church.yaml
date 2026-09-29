@@ -111,11 +111,13 @@ works:
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   role: tradition
   confidence: assigned
-  note: The earliest apology surviving whole (c. 125, Athens, to Hadrian per the Introduction).
-    Athens is outside pahc's named regions, but the era and church-world are pahc's — same
-    treatment as Quadratus in anf08. Its Syriac preservation is a transmission fact, not an
-    Edessene assignment. greek-apologists-second-century holds this work for the era's outward-facing
-    writing; pahc is kept because the era and church-world are genuinely its.
+  note: 'The earliest apology surviving whole (Hadrian, c. 125, per the ANF Introduction;
+    the Syriac superscription names Antoninus Pius, 138-161, which Harris 1893 and Harnack
+    1897 prefer: Contested, both inside the entry''s window). Athens is outside pahc''s named
+    regions, but the era and church-world are pahc''s — same treatment as Quadratus in anf08.
+    Its Syriac preservation is a transmission fact, not an Edessene assignment. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: The Apology of Aristides the Philosopher
   author: aristides
@@ -746,11 +748,13 @@ works:
   locus: div2 3.2 under div1 'MATHETES'
   role: tradition
   confidence: assigned
-  note: Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
-    for the Greek apologists as such; placed with the era-1 mainstream entry the volume's
-    other works belong to. Doubt is the date - some put it after the entry's 200 CE close.
-    greek-apologists-second-century holds this work for the era's outward-facing writing;
-    pahc is kept because the era and church-world are genuinely its.
+  note: 'Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
+    for the Greek apologists as such; placed with the era-1 mainstream entry the volume''s
+    other works belong to. Doubt is the date: ANF gives c. 130 and ''not later than the beginning
+    of the second century'', while Harnack 1897 and Puech put it at the end of the 2nd or
+    in the 3rd century (Contested; the range falls on both sides of the entry''s 124-200 window).
+    greek-apologists-second-century holds this work for the era''s outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Epistle to Diognetus
   author: mathetes
@@ -1056,10 +1060,12 @@ works:
   confidence: assigned
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
-    which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite. greek-apologists-second-century holds this work
-    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
-    church-world are genuinely its.'
+    which the syr world already reaches through his Diatessaron in anf09. The row is `assigned`:
+    the Address is inside this entry''s window on every dating read (c. 150-172, Contested);
+    his later Encratite turn is reported by Irenaeus (Adv. haer. I.28.1) and is a disclosure
+    duty, not a reason to hold the row provisional. greek-apologists-second-century holds
+    this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
+    the era and church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Address to the Greeks
   author: tatian
