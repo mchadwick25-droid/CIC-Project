@@ -1317,7 +1317,7 @@ def _gate_vocabulary_category(rel: Path, line: str, matched: list[str], category
 # provenance attributions are untouched and still flagged.
 # ---------------------------------------------------------------------------
 _METHOD_DOC = re.compile(
-    r"^Build/reference/(?:method/(?:CiC_Record_Native_World_Build_Process_V[\d.]+|CiC_World_Build_Completion_Standard_V[\d.]+)\.md"
+    r"^Build/reference/(?:method/(?:CiC_Record_Native_World_Build_Process_V[\d.]+|CiC_World_Build_Completion_Standard_V[\d.]+|CiC_Adversarial_Review_Standard_Practice)\.md"
     r"|method/skills/[^/]+/SKILL\.md|L4-Templates/[^/]+\.md)$"
 )
 _METHOD_VOCAB = {

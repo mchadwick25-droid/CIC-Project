@@ -745,7 +745,7 @@ All eight sections present: YES
 Analytical voice throughout (not inhabited — this is a record document): YES
 All sections written as analytical record, scholarly justification, and construction
 documentation — not as inhabited voice. The document explains and justifies decisions;
-it does not render the world or speak from within it.
+it does not render the world or speak from within it. Any voice text the notes quote or draft (an example line, a demonstration, a probe) speaks as the world in the first person plural ("we," "our"), never "this world" or "it" about its own community; the `voice-perspective` gate in `engine/m1/gates.py` checks the records.
 
 Brackets for all world-specific content: YES
 All content requiring world-specific information uses \[BRACKETS] throughout.

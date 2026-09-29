@@ -5746,3 +5746,38 @@ Round 3 left findings for the project lead; they are listed under "Awaiting conf
   assessment is open; the heading no longer carries the status.
 - Transparency Engine thread: `inherited_ungrounded` stays report-only because of a known
   exemption-asymmetry bug; it needs a tracking entry there.
+
+---
+
+## 2026-09-29 — Build Process V2.0: round-3 decisions resolved, two principles added
+
+The project lead ruled on the items left open in the addendum above.
+
+**Resolved**
+
+1. Construction Framework V7.4: the freeze-paragraph edit is approved, and one sentence is added to the
+   Validation Protocol Rigor scope: for a Representative freeze the lean default applies; the protocol
+   binds full validation and any report of "confirmed", "clean" or "closed". A lean result may not be
+   reported as confirmed or clean in the Framework's sense. The docx differs from its prior text by that
+   one sentence only.
+2. Probe parity is a single trial on the lean path and two trials on full validation. It is stated once
+   in V2.0 (B-8) and matches the Standard and the validation skill.
+3. Bare ruling numbers are dropped from the governing method documents, skills and templates. Each rule
+   stays fully stated in place, and one directory pointer to
+   `Build/Ministry/Features/Conversation-Transparency-Engine/` carries provenance.
+4. The narrow classifier rule in `tools/check_live_commentary.py` is kept and now also covers the
+   Adversarial Review practice document; the practice keeps its own terms ("adversarial review",
+   "reviewer") because they are the project's vocabulary, not commentary. `--enforce --base` exits 0.
+
+**Two principles stated by the project lead, now in V2.0 section 0 and in the places they bind**
+
+- We speak only from the world's perspective: the Representative speaks as the world, first person
+  plural, never "this world" or "it". The `voice-perspective` gate in `engine/m1/gates.py` enforces it.
+- Right answers first: validation grades the first generated answer. A regenerated, retried or revised
+  answer never counts as a pass, and a runtime revision earns no credit for the world's answer quality.
+  A defect found in testing is fixed at its source (the record, the prompt, the guard, the retrieval),
+  never patched by a later rewriting step.
+
+**Still owed by the project lead before the pilot:** the metered-spend ceiling for one world's lean
+validation set; the two pilot worlds; and the `/usage` reading at the start of each world. The
+Athanasius of Alexandria assessment in the Facilitator Brief backlog is still open.

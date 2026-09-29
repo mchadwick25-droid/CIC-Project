@@ -1,4 +1,4 @@
-# Representative Naming & Role Discipline (2026-09-08)
+# Representative Naming & Role Discipline
 
 **The standard, in Mark's words.** It is the bar M1 applies to every world
 build. The words are quoted, not paraphrased, because the precision matters:

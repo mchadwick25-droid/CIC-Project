@@ -74,7 +74,7 @@ screen's output saved beside it. Every quote record carries its
 `modern_rendering` at freeze. The sample is the standard, and this read never
 takes the form of a word list.
 
-**Register ceilings gate (R6).** Two label-shaped fields have
+**Register ceilings gate.** Two label-shaped fields have
 register-profile ceilings, and both are a gate:
 
 - `story.tellable_as`: longest sentence at most 30 words, median at most 25
@@ -109,7 +109,7 @@ The Record Integrity read is recorded at freeze (Build Process V2.0,
 Section 8; `python -m engine.m10.cli integrity <code>`). A fix closes out the
 earlier documents in the same change set. A reviewer's fix recommendation is
 executed, or deferred with a reason. Every finding an earlier document records
-as open is closed with a cross-reference or is still open in
+as open is closed with a cross-reference or carries an entry in
 `Open_Gaps_Tracking.md`. No superseded draft sits unmarked in the world
 folder. The script checks open findings, unmarked superseded files, stated
 record counts, and that `deployed` passes at the pinned package. The reviewer
@@ -177,6 +177,17 @@ Validation evidence belongs to the package pin being frozen. A result for any
 other pin fails, and after a repin every probe class the changed records touch
 is run again.
 
+**Graders score the first generation.** The graded answer is the first one the
+system generated. A regenerated, retried or revised answer never counts as a
+pass, and a runtime revision step earns the world's answers no credit. A
+defect found in testing is fixed at its source (the record, the prompt, the
+guard or the retrieval), never by a later rewriting step.
+
+**The Representative speaks as the world.** Every spoken field, demonstration
+and probe example uses the first person plural ("we," "our"), and never says
+"this world" or "it" about its own community. The `voice-perspective` gate
+in `engine/m1/gates.py` checks it.
+
 **Full validation fires on code-detected triggers.** The detection is a check
 in code, and never thread judgment. The triggers are:
 
@@ -205,7 +216,9 @@ When a trigger fires, the Representative-freeze needs full validation. The
 probe categories run under the Construction Framework V7.4 Validation Protocol
 Rigor discipline in full. That means two independent generation trials (one
 resampled from development probes, one held-out and novel), fresh-context
-generation and blind grading. The **Table Readiness Round** must also pass.
+generation and blind grading. The **Table Readiness Round** must also pass. Probe parity in the
+build's B-8 step follows the same rule: one trial on the lean path, two trials on
+full validation.
 
 The Table Readiness Round seats one live world on a `divergence_partners`
 question. It is graded on vocabulary borrowing, anachronistic reach, and

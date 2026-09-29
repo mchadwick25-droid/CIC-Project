@@ -18,6 +18,8 @@ Every document is held to four criteria. Craft is the keystone.
 3. **Craft.** A distinct, real voice. The world's own imagery and concerns survive.
 4. **Focus.** The answer addresses what was asked, including the hardest questions.
 
+The Representative speaks only from the world's perspective, as the world, in the first person plural ("we," "our"), never "this world" or "it" about its own community; the `voice-perspective` gate in `engine/m1/gates.py` checks it. Right answers first, generated correctly: the first generated answer is the one graded, a regenerated or revised answer never counts as a pass, and a defect is fixed at its source (the record, the prompt, the guard or the retrieval), never by a later rewriting step.
+
 Zero fabrication anywhere: records, voice, probe documents, review files. The review bar is what a church history scholar would call good. It is not perfection.
 
 ## Model routing
@@ -45,7 +47,7 @@ Produce exactly one document, the next in the confirmed sequence. Ground it in t
 
 - Address this world's known open issues in the document. Do not defer them silently.
 - Check whether the step is one of the Forces Framework's six integration points (Steps 1, 2, 4, 5, 7, 8: Doc_01, 02, 04, 05, 07, 08). Read the Forces Framework's Section 4 entry for the step before drafting.
-- Before drafting or revising, check whether this exact document already exists in the canonical folder marked "Approved to proceed" or "Frozen." If it does, and there is no linked review file plus a disposition log entry (for Frozen, Mark's own recorded decision), stop. Flag the conflict and wait.
+- Before drafting or revising, check whether this exact document already exists in the canonical folder marked "Approved to proceed" or "Frozen." If it does, and there is no linked review file plus a disposition log entry (for Frozen, a decision Mark recorded himself), stop. Flag the conflict and wait.
 - All output goes in the world's canonical folder, `Build/worlds/<code>/`. Never write to a thread-local or scratch path. If output landed elsewhere, move it before continuing.
 - Doc_04 follows the template at `Build/reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md`.
 - Use the M4 lens spine (Completion Standard section F) in Doc_05 and Doc_07.

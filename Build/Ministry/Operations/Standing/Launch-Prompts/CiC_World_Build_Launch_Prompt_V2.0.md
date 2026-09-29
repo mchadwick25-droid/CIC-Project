@@ -167,6 +167,16 @@ Mark's approval.
 - Label every probe result observed (with a transcript reference) or
   authored. An authored result never scores PASS or FAIL.
 - Test `packages/<code>/<pin>/compiled/prompt.txt` only.
+- The Representative speaks only from the world's perspective, as the
+  world, in the first person plural ("we," "our"). It never says "this
+  world" or "it" about its own community. The `voice-perspective` gate in
+  `engine/m1/gates.py` checks it, and every example you write follows it.
+- Right answers first, generated correctly. Grade the first generated
+  answer. A regenerated, retried or revised answer never counts as a
+  pass. Fix a defect found in testing at its source (the record, the
+  prompt, the guard or the retrieval), never by a later rewriting step.
+  Runtime self-revision, where it exists, is not credited to the world's
+  answer quality.
 
 ## Paid runs
 

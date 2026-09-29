@@ -91,10 +91,10 @@ file checked — not a general impression:
    re-discovering the same dead end (the discipline `download-queue-seed.yaml`
    already keeps for closed rows, applied here before a world exists to have
    its own manifest).
-6. **Open cross-world questions.** Anything that touches a sibling world's
-   own territory or an unresolved mapping decision — named and left
-   unresolved here, the same way this directory's own `NEEDS-RULING.md`
-   holds a question rather than deciding it.
+6. **Cross-world questions.** Anything that touches a sibling world's
+   own territory or a mapping decision this dossier cannot make — named
+   here and passed on undecided, the way this directory's own
+   `NEEDS-RULING.md` holds a question rather than deciding it.
 
 ## How the dossier is used
 
@@ -102,7 +102,7 @@ The source-research thread accounts for all of it in Doc_02. Doc_02's
 Source Registry gives every item in the package a line: every §1 assigned
 work, §2 cross-link and §3 acquisition lead is used, deferred with a
 reason, or out of scope with a reason (a lead not yet vendored is marked
-for acquisition); every §5 open question is named and carried forward,
+for acquisition); every §5 cross-world question is named and carried forward,
 not decided; every piece of rendered source material is used or set
 aside with a reason. The Doc_02 review checks that nothing is missing.
 Accounting for every item is not citing every item: a source can be out

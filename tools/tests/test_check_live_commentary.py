@@ -1605,6 +1605,7 @@ def test_precision_and_recall_on_hand_labelled_sample():
 
 _METHOD_PATHS = [
     "Build/reference/method/CiC_Record_Native_World_Build_Process_V9.9.md",
+    "Build/reference/method/CiC_Adversarial_Review_Standard_Practice.md",
     "Build/reference/method/skills/cic-x/SKILL.md",
     "Build/reference/L4-Templates/Some_Template.md",
 ]
