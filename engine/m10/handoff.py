@@ -16,11 +16,10 @@ from .common import PLACEHOLDER, REPO_ROOT, Finding, Report, markdown_tables, re
 from .gaps import LEDGER_NAME
 from .matching import matched, split_chunks
 from .quotes import check_quotes
+from .rebaseline import CHECK_ID, Declaration, accepted_reason, declaration_path, doc_label, document_path, load_declaration
 from .rounds import ROUND_CAP, review_files
+from .verdicts import has_clearance
 
-_VERDICT_LABEL = r"(?:(?:document\s+|recommended\s+)?(?:verdict|disposition|status)|recommendation)\s*:\s*(?:cleared review\s*[-\u2013\u2014]+\s*)?"
-POSITIVE_VERDICT = re.compile(rf"^(?:{_VERDICT_LABEL})?approved to proceed\b", re.IGNORECASE)
-NEGATIVE_VERDICT = re.compile(rf"^(?:{_VERDICT_LABEL})?not\b[^.\n]{{0,60}}?approved to proceed", re.IGNORECASE)
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history|superseded", re.IGNORECASE)
 _DATE = re.compile(r"\b\d{4}-\d{2}-\d{2}\b")
 DOSSIER_SECTIONS = (
@@ -155,20 +154,6 @@ def _file_mentioned(filename: str, text: str) -> bool:
     return filename in text or stem in text or bool(re.search(rf"\b{re.escape(prefix)}\b", text))
 
 
-def _verdict_lines(text: str) -> list[str]:
-    return [re.sub(r"[*_`]", "", ln).lstrip("> -#\t ").strip() for ln in text.splitlines()]
-
-
-def _has_clearance(review_paths: list[Path]) -> bool:
-    """True when a verdict line reads 'Approved to proceed' (alone or after a
-    Verdict, Disposition or Status label) and no verdict line in any of the
-    round's files reads 'Not approved to proceed'."""
-    lines = [ln for p in review_paths for ln in _verdict_lines(read_text(p))]
-    if any(NEGATIVE_VERDICT.match(ln) for ln in lines):
-        return False
-    return any(POSITIVE_VERDICT.match(ln) for ln in lines)
-
-
 def _check_01(w: World) -> list[Finding]:
     path = f"records/worlds/{w.code}.yaml"
     if w.entry is None:
@@ -210,7 +195,7 @@ def _check_step(w: World, step: int, docs: dict[int, Path | None], check_id: str
     if len(reviews) > ROUND_CAP:
         out.append(Finding(rel(doc, w.root), check_id, f"{label} took {len(reviews)} review rounds; the cap is {ROUND_CAP}"))
     latest = reviews[max(reviews)]
-    if not _has_clearance(latest):
+    if not has_clearance(latest):
         out.append(Finding(rel(latest[0], w.root), check_id, f"latest review round {max(reviews)} of {label} does not say 'Approved to proceed'"))
     return out
 
@@ -455,4 +440,34 @@ def run_handoff(code: str, deps: Deps | None = None, *, quotes: bool = True) -> 
     add("handoff-10-ledger", _check_10(w))
     add("handoff-11-narration", _check_11(w, docs, deps))
     add("handoff-12-manifest", _check_12(w, docs))
+    declaration, problems = load_declaration(code, root)
+    if declaration is not None or problems:
+        reports.append(_apply_declaration(w, reports, declaration, problems))
     return reports
+
+
+_STEP_CHECK_IDS = {0: "handoff-02-step0", 1: "handoff-03-step1", 2: "handoff-04-step2"}
+
+
+def _apply_declaration(w: World, reports: list[Report], declaration: Declaration | None, problems: list[Finding]) -> Report:
+    """Move the failures a valid declaration accepts out of their reports and
+    onto the report's accepted list; return the declaration's own report."""
+    own = Report(CHECK_ID, list(problems))
+    if declaration is None:
+        return own
+    by_name = {r.name: r for r in reports}
+    for row in declaration.rows:
+        reason = accepted_reason(w.code, row, w.root, STEP_LABELS.get(row.doc))
+        doc = document_path(w.code, row.doc, w.root)
+        tag = f"ACCEPTED (project lead declaration {declaration.date})"
+        report = by_name.get(_STEP_CHECK_IDS.get(row.doc, ""))
+        if report is None:
+            own.accepted.append(f"{tag}: {rel(doc, w.root)}: {CHECK_ID}: {reason}")
+            continue
+        hit = next((f for f in report.findings if reason in f.reason), None)
+        if hit is None:
+            own.findings.append(Finding(rel(declaration_path(w.code, w.root), w.root), CHECK_ID, f"{doc_label(row.doc)}: {row.check} matches no current failure of {report.name}"))
+            continue
+        report.findings.remove(hit)
+        report.accepted.append(f"{tag}: {hit.line()}")
+    return own
