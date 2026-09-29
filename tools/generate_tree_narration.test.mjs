@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, planNarration, synthesize, audioPathFor, audioDir, resolveVoiceId } from './generate_tree_narration.mjs';
+import { parseArgs, planNarration, synthesize, audioPathFor, audioDir, resolveVoiceId, narrationTextFor } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
@@ -122,6 +122,55 @@ test('planNarration: --limit caps only the NEW work, not what is already narrate
   const { toGenerate, alreadyNarrated } = planNarration(movements, { only: null, force: false, limit: 2, existsFn: exists });
   assert.deepEqual(alreadyNarrated, ['a']);
   assert.deepEqual(toGenerate.map((m) => m.id), ['b', 'c']);
+});
+
+test('narrationTextFor: falls back to longDescription when no worlds-data file exists', () => {
+  const m = movement('unbuilt-movement');
+  const text = narrationTextFor(m, { existsFn: () => false });
+  assert.equal(text, m.longDescription);
+});
+
+test('narrationTextFor: uses a built world\'s orientation.story, joined, when the data file exists', () => {
+  const m = movement('built-movement', { longDescription: 'The stale census summary.' });
+  const fakeData = { orientation: { story: [{ text: 'Paragraph one.' }, { text: 'Paragraph two.' }] } };
+  const text = narrationTextFor(m, {
+    existsFn: () => true,
+    readFn: () => JSON.stringify(fakeData),
+  });
+  assert.equal(text, 'Paragraph one.\n\nParagraph two.');
+});
+
+test('narrationTextFor: falls back to longDescription when the data file has no orientation.story', () => {
+  const m = movement('data-without-story');
+  const text = narrationTextFor(m, {
+    existsFn: () => true,
+    readFn: () => JSON.stringify({ orientation: { glossary: [] } }),
+  });
+  assert.equal(text, m.longDescription);
+});
+
+test('narrationTextFor: falls back to longDescription when orientation.story is an empty array', () => {
+  const m = movement('data-with-empty-story');
+  const text = narrationTextFor(m, {
+    existsFn: () => true,
+    readFn: () => JSON.stringify({ orientation: { story: [] } }),
+  });
+  assert.equal(text, m.longDescription);
+});
+
+test('planNarration: --char-budget uses the resolved narration text length, not always longDescription', () => {
+  const movements = [movement('built-a', { longDescription: 'short' })];
+  const textForFn = () => 'x'.repeat(500);
+  const { toGenerate, skippedBudget } = planNarration(movements, {
+    only: null,
+    force: false,
+    limit: null,
+    charBudget: 400,
+    existsFn: () => false,
+    textForFn,
+  });
+  assert.deepEqual(toGenerate, []);
+  assert.equal(skippedBudget, 1);
 });
 
 test('synthesize: posts the text to the right voice endpoint and returns audio bytes', async () => {

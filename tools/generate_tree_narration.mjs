@@ -1,14 +1,21 @@
 #!/usr/bin/env node
 /**
  * Generate one-time ElevenLabs narration audio for each movement's own
- * longDescription (the "About This Movement" story on its tree/<id>.html
- * page) - Church Family Tree's narration step. Third-person historical
- * narration matching how longDescription is actually written (never a
- * Representative speaking in character - that's a separate, already-built
- * feature). One consistent narrator voice for most movements, with distinct
- * per-movement overrides for the ones that already have a live built
- * Representative - see tree-narration-voices.mjs. Atlas narration only;
- * live-conversation voice is untouched by this script.
+ * story - Church Family Tree's narration step. Third-person historical
+ * narration (never a Representative speaking in character - that's a
+ * separate, already-built feature). One consistent narrator voice for most
+ * movements, with distinct per-movement overrides for the ones that already
+ * have a live built Representative - see tree-narration-voices.mjs. Atlas
+ * narration only; live-conversation voice is untouched by this script.
+ *
+ * Text source, per movement (see `narrationTextFor`): a built world with a
+ * compiled cic-website/data/worlds/<id>.json carrying `orientation.story`
+ * (paragraph array, each grounded in a real record) uses that - the same
+ * text the real Church Family Tree (atlas-v3.html) shows for built worlds,
+ * and the more rigorous, more current text once a world's full build
+ * lands. Every other movement uses world-census.json's own
+ * `longDescription` - the only prose that exists for it, and what
+ * atlas-v3.html itself shows for every non-built movement.
  *
  * Output: cic-website/audio/tree/<id>.mp3, one per movement that has a
  * longDescription. Idempotent - a movement already carrying an audio file
@@ -45,6 +52,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
 export const audioDir = path.join(rootDir, 'cic-website/audio/tree');
+export const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
 
 const ELEVENLABS_TTS_URL = (voiceId) => `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
 
@@ -73,11 +81,30 @@ export function audioPathFor(movementId) {
 }
 
 /**
+ * The text to narrate for a movement: a built world's own compiled
+ * `orientation.story` (paragraph array, each grounded in a real record)
+ * when one exists, else the census `longDescription`. `existsFn`/`readFn`
+ * are injected so tests never touch the real, still-growing worlds-data
+ * directory.
+ */
+export function narrationTextFor(movement, { dataDir = worldsDataDir, existsFn = fs.existsSync, readFn = fs.readFileSync } = {}) {
+  const dataPath = path.join(dataDir, `${movement.id}.json`);
+  if (existsFn(dataPath)) {
+    const data = JSON.parse(readFn(dataPath, 'utf-8'));
+    const story = data?.orientation?.story;
+    if (Array.isArray(story) && story.length > 0) {
+      return story.map((p) => p.text).join('\n\n');
+    }
+  }
+  return movement.longDescription;
+}
+
+/**
  * Movements that need a narration clip generated this run, in stable
  * (declared) order - never a claim about which ones already have one,
  * only which ones this run should act on given the options passed.
  */
-export function planNarration(movements, { only, force, limit, charBudget = null, existsFn = fs.existsSync }) {
+export function planNarration(movements, { only, force, limit, charBudget = null, existsFn = fs.existsSync, textForFn = narrationTextFor }) {
   let candidates = movements.filter((m) => m.longDescription && m.longDescription.trim());
   const skippedNoText = movements.length - candidates.length;
 
@@ -102,7 +129,7 @@ export function planNarration(movements, { only, force, limit, charBudget = null
     const withinBudget = [];
     let total = 0;
     for (const m of toGenerate) {
-      const len = m.longDescription.length;
+      const len = textForFn(m).length;
       if (total + len > charBudget) break;
       total += len;
       withinBudget.push(m);
@@ -154,7 +181,7 @@ async function run() {
   const opts = parseArgs(process.argv.slice(2));
   const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
   const { toGenerate, alreadyNarrated, skippedNoText, skippedBudget } = planNarration(census.movements, opts);
-  const totalChars = toGenerate.reduce((sum, m) => sum + m.longDescription.length, 0);
+  const totalChars = toGenerate.reduce((sum, m) => sum + narrationTextFor(m).length, 0);
 
   console.log(`=== Tree narration ${opts.dryRun ? '(dry run)' : ''} ===`);
   console.log(`${census.movements.length} movements total`);
@@ -177,7 +204,9 @@ async function run() {
     toGenerate.forEach((m) => {
       const voiceId = resolveVoiceId(m.id, { defaultVoiceId });
       const distinct = voiceId !== defaultVoiceId ? ' [distinct voice]' : '';
-      console.log(`  would generate: ${m.id} (${m.longDescription.length} chars)${distinct}`);
+      const text = narrationTextFor(m);
+      const source = text === m.longDescription ? '' : ' [orientation.story]';
+      console.log(`  would generate: ${m.id} (${text.length} chars)${distinct}${source}`);
     });
     return;
   }
@@ -192,7 +221,7 @@ async function run() {
   for (const movement of toGenerate) {
     try {
       const voiceId = resolveVoiceId(movement.id, { defaultVoiceId });
-      const audio = await synthesize(movement.longDescription, { apiKey, voiceId });
+      const audio = await synthesize(narrationTextFor(movement), { apiKey, voiceId });
       fs.writeFileSync(audioPathFor(movement.id), audio);
       succeeded++;
       console.log(`  ok: ${movement.id}`);
