@@ -22,28 +22,37 @@ words.
 |---|---|---|
 | `world_core` | `time_window`, `horizon`, `formation_logic`, `thinness` and `cautions` populated (the fields the gates require today). The world's gravity records exist and resolve by `world_id` | The always-present world's-own-ground segment and the per-seated-world anachronism check read this record. An unpopulated core is freeze-blocking, not a silent gap. The integrative observation has no field yet. Adding it is an open engineering item in the build process, named "world_core integrative observation field" (Build Process V2.0, Section 13). |
 | `source` | Envelope and Tier-1 fields populated; `attribution_status` on every P-row; `discovery_channel` on every row; the world's `search_record` complete on the STARLITE headings; field-bibliography sweep run and dispositioned; saturation statement present with the last unproductive searches named | Tier-2 fields (external ids, transmission path, rights) populate forward. **Rights become blocking at public-repository ship.** The repository ships fail-closed meanwhile: unset rights render as metadata and attribution only, never text. |
-| `term` | Tier 1/2: all four sense fields, `quick_meaning`, `voice_surface`, `semantic_domain`, at least one directional `field_relation`, typed retrieval block, licensed sources. Tier 3: `quick_meaning` and sources at minimum | `prior_sense: none-attested` is an answer, not a blank. `register: emic-unavailable` is likewise an answer, not a blank or a defect. It is an expected value for a term whose headword names something this world's own idiom had no settled word for, or names it only through a later editorial or etic label (doc 13's `Apophthegma`, "a word," is the case). `plain_explanation` is authored to the reading floor per CO-P2-12: it is Level 2's content source, machine-checked at the gate. `contested_claim_ids` populated where a claim rides the term. |
-| `story` | Tier with justification; `owner_figure_id` (composite-owner convention per CO-P2-06: a Tier-4 composite is owned by the community figure, never the persona); `attested_occasion`; `tellable_as`; every element sourced; `gravity_links[]` typed (CO-P2-04) | |
-| `quote` | Locus, translation used, license, `modern_rendering` | |
-| `gravity` / `force` | Six tests recorded per candidate including not-advanced (named keys per CO-P2-02); `interaction[]` and `connections[]` typed and reciprocity-checked; every force carries Layer 4 (`elaboration` or explicit `stasis`); every force carries `sources[]` | A force whose evidence lives in a different world's own registry (a pre-window inheritance force, for example) still needs `sources[]` populated, or left honestly empty with the reason stated in the record's own body. An undocumented empty is the defect, not the possibility of a real empty. |
+| `term` | Tier 1/2: `plain_meaning`, `world_word`, all four `senses` (informational, evidential, personal, translational), `quick_meaning`, `distortion_risk`, at least one directional entry in `relations[]`, a typed retrieval block, licensed sources. Tier 3: `quick_meaning` and sources at minimum | `prior_sense: none-attested` is an answer, not a blank. `register: emic-unavailable` is likewise an answer, not a blank or a defect. It is an expected value for a term whose headword names something this world's own idiom had no settled word for, or names it only through a later editorial or etic label (doc 13's `Apophthegma`, "a word," is the case). `plain_meaning` is authored to the reading floor. A contested claim that rides the term has its own `contested_claim` record. |
+| `story` | `narrative_tier` with `narrative_tier_justification`; `text`; `tellable_as`; `modern_contrast`; every element sourced in `sources[]` | The composite-owner convention holds: a Tier-4 composite is owned by the community figure, never the persona. The record body and Doc_09 carry the owner, the attested occasion and the gravity links until the schema has fields for them. |
+| `quote` | `text`, `speaker_or_author`, `license`, `modern_lens_note`, `modern_rendering`, and a `sources[]` entry with its `locus` | The translation used is named in the source record's `edition`. |
+| `gravity` / `force` | Gravity: `name`, `description`, `classification`. Force: `name`, `description`, `matrix_cell`. Doc_04 records the six tests for every candidate, including those not advanced. Doc_08 gives every force Layer 4 (`elaboration` or explicit `stasis`). Links between records are typed in `relations[]` and reciprocity-checked. Every force carries `sources[]` | The interaction matrix, the force connections, the six-test results and Layer 4 live in Doc_04, Doc_08 and the record body until the schema has fields for them. A force whose evidence lives in a different world's own registry (a pre-window inheritance force, for example) still needs `sources[]` populated, or left honestly empty with the reason stated in the record's own body. An undocumented empty is the defect, not the possibility of a real empty. |
 | `figure` | Every figure named in any voice-bearing record exists, with `narratable` set | Includes figures the lexicon leans on. |
 | `contested_claim` | At minimum, the world's Primary-gravity claims: held, conceded, pressure response, divergence partners mapped against live worlds | Feeds the Table Readiness question bank and the held-position metrics. |
-| `voice_craft` and `demonstration` | Profile complete with register evidence and trait rubric; demonstrations diversity-reviewed against the parroting warning | Norms checked against every probe category. |
+| `voice_craft` and `demonstration` | `identity`, `flavor_notes`, `characteristic_concerns` and `guard` complete; demonstrations diversity-reviewed against the parroting warning | The construction notes carry the register evidence and the trait rubric until the schema has fields for them. Norms are checked against every probe category. |
 | `world_front`, `facilitator_brief`, site JSON | Built for every new world. Required, never waived. `facilitator_brief.pairing_guidance` populated | The participant-facing records and the compiled site data. Each passes the readability gate (FK grade 8–10, FRE 60 or above) on every public-facing field. |
 | Views | All views render without error; the Facilitation Brief renders complete (its human-judgment records authored during the build, not at the end); the repository view renders with rights resolved or fail-closed | A world that cannot render cannot freeze. |
+
+The schema does not yet define some fields that earlier versions of this
+standard named. Build Process V2.0, Section 13, lists each as an open
+engineering item. Until a field exists, review checks the content where the
+table above says it lives.
 
 **Hybrid-deliverable completeness.** Deliverables split three ways, per the
 Build Process V2.0 (its Section 5). Freeze checks each by its own rule:
 
 - **Generated from records.** The World Profile (a view over `world_core`,
-  `gravity`, `force`, `contested_claim`, `honest_limit` and `term`) and the
+  `gravity`, `force`, `contested_claim`, `honest_limit` and `term`, built by
+  `python -m engine.m2.cli profile <code>`, an open engineering item) and the
   Capsule Core (`compiled/capsule.md`, built by `build_capsule` in
   `engine/m2/builders.py`). The generated output renders without error and
   matches its records. There is no hand-written copy to check.
-- **Short reviewed documents.** The Validation Layer, a thin attestation of
-  the judgment-only categories (Historical Plausibility, Anachronism, Author
-  Dominance, Living Tradition, and what cannot yet be tested) that points to
-  the gates report for the rest. Encounter Ecology Mapping, present as a short
+- **Short reviewed documents.** The Validation Layer, a thin attestation made
+  from `Build/reference/L4-Templates/Validation_Layer_Attestation_Template.md`.
+  It covers the judgment-only categories: Historical Plausibility,
+  Anachronism, Author Dominance, Living Tradition, Ecological Integrity
+  (Balance, Reduction, Complexity, Emergence, Worship Integration) and
+  Differentiation. It names what cannot yet be tested and which freeze
+  criteria are not met, and it points to the gates report for the rest. Encounter Ecology Mapping, present as a short
   section of the Doc_10 Ecology Assessment. Each is approved to proceed.
 - **Dropped from the build path.** Voice Configuration, which serves audio
   only. It is revived only if audio ships.
@@ -97,11 +106,28 @@ log, then recompiled. Record bodies are never part of this read: they hold
 durable scholarship only and never compile. Build notes live in
 `Build/worlds/<code>/build/` and `Build/Ministry/`.
 
+The Record Integrity read is recorded at freeze (Build Process V2.0,
+Section 8; `python -m engine.m10.cli integrity <code>`). A fix closes out the
+earlier documents in the same change set. A reviewer's fix recommendation is
+executed, or deferred with a reason. Every finding an earlier document records
+as open is closed with a cross-reference or is still open in
+`Open_Gaps_Tracking.md`. No superseded draft sits unmarked in the world
+folder.
+
+The approved-source anchoring read is recorded at freeze. The deployed prompt
+carries one paragraph built from 5 to 10 of the Source Registry's Native
+entries, and `deployed` checks that it is present in `compiled/prompt.txt`.
+The record field that carries it is an open engineering item (Build Process
+V2.0, Section 13). Until the field exists, a freeze declaration states this
+criterion as not met.
+
 ## C. Representative-freeze: after world-freeze
 
 RCF Part Eight has eight probe categories in V3.2, plus the parroting and
 pushback categories. Register-Fidelity is a Part Five construction check, not
-a probe category. The Self-Referential pass criterion is the validated
+a probe category. The lean set holds at least one concrete probe in each of
+the eight, and `python -m engine.m10.cli validation <code>` fails a set with a
+category that has no row. The Self-Referential pass criterion is the validated
 standard: in-voice acknowledgment of speaking from a formed tradition, never a
 persona-claim, never AI or project awareness. Relational Safety (Probe 11) is
 a portfolio-level mechanism check, not a per-world register test.
@@ -123,7 +149,11 @@ unless a trigger below fires. A Representative-freeze needs:
 - about 10–14 single-trial blind probes, graded by Opus 5.5 on Rigor,
   Accessibility, Craft and Focus, with every result labeled observed or
   authored
-- one live Deep Interview of 6–8 rounds against the deployed site
+- one live Deep Interview of 6–8 rounds on `cic-engine-staging`, against the
+  candidate package deployed there, graded on Article 6's four
+  encounter-success conditions as well as the interview dynamics: the voice
+  stays itself, the participant keeps authorship, tensions are held, and
+  nothing is steered or tilted
 - a 6-question Craft/Focus spot-check
 - the facilitator handoff wiring check above
 - continuity regression against the prior version where one exists
@@ -135,6 +165,10 @@ Validation Protocol Rigor is the full-validation requirement below. The lean fre
 does not require the Table Readiness Round. That round is part of full
 validation.
 
+Validation evidence belongs to the package pin being frozen. A result for any
+other pin fails, and after a repin every probe class the changed records touch
+is run again.
+
 **Full validation fires on code-detected triggers.** The detection is a check
 in code, and never thread judgment. The triggers are:
 
@@ -143,7 +177,10 @@ in code, and never thread judgment. The triggers are:
 - a safety-adjacent Representative
 - any fabrication found in testing
 
-The definitions of these triggers are in Build Process V2.0, Section 8.
+The definitions of these triggers are in Build Process V2.0, Section 8. A
+trigger the code cannot evaluate gives the verdict `undetermined`, never
+`lean`. A thread may recommend full validation to the project lead, with the
+reason and the cost. It can raise what the code triggers and never lower it.
 
 When a trigger fires, the Representative-freeze needs full validation. The
 probe categories run under the Construction Framework V7.4 Validation Protocol

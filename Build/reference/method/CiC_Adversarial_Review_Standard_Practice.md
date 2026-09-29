@@ -30,4 +30,4 @@ None of these were visible from a read-for-tone pass. All four were caught by th
 
 ## Model tier
 
-Opus for the review pass itself (deep, source-checking work). See the model-tier allocation policy (personal memory `cic-model-tier-allocation-policy`, not yet a standing project doc): Sonnet for live conversation and compiling, Opus for deeper research/design-evaluation passes including these reviews, Fable reserved for the largest comprehensive passes and capped at 2/week — which is the whole reason a document gets an Opus adversarial pass *before* the Fable pass it's headed for, not after.
+Opus 5.5 runs every review pass, and the reviewer is never the drafter. Sonnet 5.5 and Fable 5.1 draft as Build Process V2.0, Section 2, routes them. A document gets its Opus adversarial pass before any capped, expensive pass it is headed for, and not after.

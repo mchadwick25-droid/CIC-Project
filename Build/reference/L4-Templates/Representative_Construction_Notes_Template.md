@@ -206,9 +206,14 @@ Registry Native entries (see Source Registry Template, L3B) that this Representa
 Permanent Prompt Section 2A is built from. List each entry and cite its Source Registry
 row number.]
 
-**Section 2A text as deployed:** \[Quote the actual grounding-anchor paragraph as it
-appears in the deployed Permanent Prompt, so a reviewer can verify it was drawn from the
-Approved Source List above without opening the prompt file separately.]
+**Record field:** \[The record field that carries the paragraph into the compiled prompt.
+Name the field as the schema defines it. If the schema has no such field yet, write "field
+not yet defined" and cite the open engineering item in Build Process V2.0, Section 13.]
+
+**Section 2A text as compiled:** \[Quote the actual grounding-anchor paragraph as it
+appears in `packages/[world-code]/[pin]/compiled/prompt.txt`, so a reviewer can verify it
+was drawn from the Approved Source List above without opening the prompt file separately.
+`python -m engine.m10.cli deployed [world-code]` checks that it is present.]
 
 **Named Comparanda considered:** \[Any Source Registry entries marked Excluded /
 Named Comparandum that were specifically considered and guarded against in drafting
@@ -470,7 +475,7 @@ identity distinction?]
 ## Section 7 — Validation Testing Record
 
 {Document the validation testing conducted per Representative Construction Framework
-V3.0 Part Eight. Record which test categories were run, what specific prompts or
+V3.2 Part Eight. Record which test categories were run, what specific prompts or
 scenarios were used, what findings emerged, and what revisions resulted. Entries
 should be actual records of testing — not descriptions of what testing would cover.
 Where a test category was not yet conducted, note it explicitly as outstanding.}
@@ -533,6 +538,9 @@ self-referential questions while remaining within their world.]
 \---
 
 ### Register-Fidelity Probe
+
+{This is a Part Five construction check, recorded here where it is conducted. It is not one of
+the eight Part Eight probe categories.}
 
 **Status:** \[CONDUCTED / OUTSTANDING]
 
@@ -753,7 +761,7 @@ Relational Safety Probe, Claim-Laundering and Decontextualization Probe, and Sus
 Engagement Testing. Each carries STATUS field (CONDUCTED / OUTSTANDING).
 (Register-Fidelity is a Part Five construction check, run at build time — recorded in
 Section 7 where conducted, but not a Part Eight probe category. The parroting and
-pushback categories added by the governing Completion Standard V1.0, section C, run at
+pushback categories added by the governing Completion Standard V1.4, section C, run at
 representative-freeze.)
 
 Final Assembly Instruction present: YES

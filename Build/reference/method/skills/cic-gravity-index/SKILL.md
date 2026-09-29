@@ -13,7 +13,7 @@ This is a many-to-many structure. Every candidate stands in a stated relationshi
 
 ## Process and routing
 
-Doc_04 is one of the two documents Fable drafts (the other is Doc_10). Opus 5.5 reviews, never the drafter: high effort in round 1, medium targeted rechecks in rounds 2 and 3, then escalate to Mark. No fourth round. Read the `cic-build-cycle` skill for the full cycle, and run the gate layer before review: `python -m engine.m10.cli prereview`, `citations`, `gaps`, `records`, `regate`. Use "Approved to proceed" only.
+Doc_04 is one of the two documents Fable drafts (the other is Doc_10). Opus 5.5 reviews, never the drafter: high effort in round 1, medium targeted rechecks in rounds 2 and 3, then escalate to Mark. No fourth round. Read the `cic-build-cycle` skill for the full cycle, and run the gate layer before review: `python -m engine.m10.cli prereview`, `citations`, `claims`, `gaps`, `records`, `regate`. Use "Approved to proceed" only.
 
 The structural template is `Build/reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md`. Follow it. It fixes where each required check lives, not what the answer is. Before drafting, reread the current Construction Framework Part III directly (test names, classification thresholds) and the Forces Framework Step 4 entry. Do not work from a remembered version.
 
@@ -30,7 +30,7 @@ The structural template is `Build/reference/L3B-World-Build-Methodology/Doc_04_G
 
 ## The index bar: check without rereading
 
-No workbook. Build these inside Doc_04 as tables, and in the record store as `gravity` records with generated views.
+No workbook. Build these inside Doc_04 as tables, and in the record store as `gravity` records with generated views. The record store has no interaction or connection field, so the interaction matrix and the six-test results live in Doc_04 (Process V2.0, Section 13).
 
 - **Classification Summary table** (required by the template), one row per tested candidate: Candidate, Six-Test verdict, Cross-Check result, Cross-Strand (or substitute) status, Classification.
 - **Candidate table:** ID and name; Source Ecology streams; Author Gravity flag; result on each test per strand; evidential confidence level; cross-strand status; final classification (Primary, Supporting, Tensional, did not reach gravity status); Cross-Check outcome; forces-connection notation.

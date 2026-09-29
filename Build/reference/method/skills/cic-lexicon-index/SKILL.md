@@ -9,11 +9,11 @@ Each term in a world's lexicon is one `term` record, and its deployment chunk is
 
 That structure is good. The job of this skill is to make questions like "which CT terms have their Contest Type filled in" and "which terms cite only one dominant source" answerable without opening every file.
 
-Read `CiC_Record_Native_World_Build_Process_V2.0` and the `cic-build-cycle` skill first. Drafting is Sonnet 5.5. Review is Opus 5.5, never the drafter, at high effort in round 1 and medium targeted rechecks after, with a hard cap of three rounds of substantial revision and then escalation to Mark. Gate-layer commands run before review: `python -m engine.m10.cli prereview`, `citations`, `gaps`, `records`, `regate`. Say "Approved to proceed," never any other closing word. Zero fabrication.
+Read `CiC_Record_Native_World_Build_Process_V2.0` and the `cic-build-cycle` skill first. Drafting is Sonnet 5.5. Review is Opus 5.5, never the drafter, at high effort in round 1 and medium targeted rechecks after, with a hard cap of three rounds of substantial revision and then escalation to Mark. Gate-layer commands run before review: `python -m engine.m10.cli prereview`, `citations`, `claims`, `gaps`, `records`, `regate`. Say "Approved to proceed," never any other closing word. Zero fabrication.
 
 ## Build each term faithfully to the template
 
-Follow the Deployment Lexicon Chunk Template exactly.
+Follow the Deployment Lexicon Chunk Template exactly. Candidate terms come from the Source Registry's Native rows, never from raw Doc_02, because Doc_02 can still name excluded sources.
 
 - **Quick Meaning.** One runtime-facing sentence.
 - **World Meaning.** Level 2 depth, written from inside the world's own ecology. No analytical-distance markers such as "scholars believe" or "the sources indicate."

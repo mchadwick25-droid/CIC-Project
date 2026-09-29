@@ -161,7 +161,9 @@ to 4 named candidates, each with trade-offs. The package holds:
   memorability
 - ONE recommendation for each
 - the image choice, packaged with the identity choice and never asked as a
-  second interruption
+  second interruption. Check the image option before it goes to Mark against
+  the fleet's existing portraits and against the object and silhouette rules
+  recorded in `Build/Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`.
 
 The options render as an Artifact for Mark to review. Once he decides, the
 decision is saved in the world's folder as
@@ -198,6 +200,8 @@ freeze.
 - a cross-world or portfolio decision
 - a governance or methodology change not already decided in this document
 - an unresolved tension after three review rounds (Section 10)
+- a missing input the build cannot supply or derive itself
+- a budget number that would thin the work (Section 9)
 - Frozen status (M3)
 
 Route a framework or template gap as a flagged finding in the world's
@@ -269,8 +273,15 @@ true is the reviewer's main job.
 
 The commands are subcommands of `python -m engine.m10.cli <subcommand>`. The
 subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
-`citations`, `deployed`, `probes`, `validation`, `wiring`, `records` and
-`regate`.
+`citations`, `claims`, `integrity`, `deployed`, `probes`, `validation`,
+`wiring`, `records` and `regate`. The World Profile generator is
+`python -m engine.m2.cli profile <code>`.
+
+Two subcommands (`claims` and `integrity`), the World Profile generator and
+added coverage inside `deployed` and `validation` are requirements this
+document states before the code exists. Each is marked "built by the pilot
+start" in the table and listed in Section 13. Until the code exists, never
+report one of them as run.
 
 | Check | What it is | When it runs | Command |
 |---|---|---|---|
@@ -278,16 +289,19 @@ subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 | Handoff quote check | Re-verifies every Step 0–2 quotation against the vendored text in `cic/texts/`, speaker included. | Same run. | `handoff <code>` |
 | Pre-review bundle | One command that runs `engine.m2.cli build`, `engine.m1.bar_screen`, `engine.m1.cross_world` and `engine.m9.cli holdings`, and saves the output for the review brief. | Before every review round. | `prereview <code> <document>` |
 | Citation resolver | Every record id and citation in a document or probe file resolves and is the right record type. | On every document and every probe file, before review. | `citations <code>` |
-| Round counter | Counts substantial-revision review files per document. Blocks a fourth review file and routes the document to Mark. | Before every review file is written. | `roundcount <code> <document>` |
+| Round counter | Counts every review file with a round number for a document (a review, a spot-check or a recheck), whatever its verdict. Blocks a fourth review file and routes the document to Mark. | Before every review file is written. | `roundcount <code> <document>` |
+| Claims-register check | Derives every absence or exclusivity claim ("no source says...", "only this world...") from a document's deliverables and compares it with the claims register. Halts on a claim that is not registered and on a register entry no claim supports. Built by the pilot start. | Before every review round on a document that carries claims (Section 4). | `claims <code>` |
 | Review-file check | The reviewer is not the drafter. The model is Opus 5.5. The first line carries the simulated-review label. A two-method truncation check is recorded. | On every review file, before it counts. | `reviewfile <path>` |
 | Open-gaps check | Every open item in a review or phase document has an `Open_Gaps_Tracking.md` entry. | After every review file. | `gaps <code>` |
 | Process-narration block | The CI job `live-commentary` runs `tools/check_live_commentary.py --base origin/<base> --enforce`. A pull request that leaves process narration in a live or canonical file it edits fails. Files it does not edit are not scanned. | On every pull request. | CI |
 | Re-gate after edit | Re-runs readability and the word budget on every changed field and every public-facing field. Confirms a new world carries no waivers and grandfathering stays closed. Any exception needs an owning finding and Mark's approval. | After any edit. | `regate <code>` |
 | Required-records check | The record types a new world requires are built, never waived: `world_front`, `facilitator_brief` and the site JSON, with the rest of the Completion Standard's Section A. | After every records edit, and at freeze. | `records <code>` |
-| Deployed-artifact check | The compiled prompt contains every item Mark confirmed (living traditions, telos, self-reference hardening) and every rule count matches the records (for example, the count of `[quotation]` rules). | After each package build or deploy. | `deployed <code>` |
+| Deployed-artifact check | The compiled prompt contains every item Mark confirmed (living traditions, telos, self-reference hardening) and every rule count matches the records (for example, the count of `[quotation]` rules). It also checks that the approved-source anchoring paragraph (Section 6, B-7) is present in `compiled/prompt.txt`. The anchoring check is built by the pilot start. | After each package build or deploy. | `deployed <code>` |
 | Probe-runner guard | The probe runner refuses the legacy Permanent Prompt file and tests only `packages/<code>/<pin>/compiled/prompt.txt`. | Before and after every probe run. | `probes <code>` |
 | Result-label check | Every probe result is labeled observed (with a transcript reference) or authored. An authored result cannot score PASS or FAIL. | Before and after every probe run. | `probes <code>` |
-| Grading check and trigger detector | Every answer is graded on all four criteria. RS-1 and RS-2 are scored separately. Detects the full-validation triggers (Section 8). | After the probe results are in. | `validation <code>` |
+| Grading check and trigger detector | Every answer is graded on all four criteria. RS-1 and RS-2 are scored separately. Detects the full-validation triggers (Section 8). A trigger the code cannot evaluate gives the verdict `undetermined` and a non-zero exit, never `lean`. It also checks that all eight Part Eight categories were run, that the Deep Interview carries its encounter-success grading, and that the results were run on the current package pin (a result for any other pin fails). The category, encounter-success and pin checks are built by the pilot start. | After the probe results are in. | `validation <code>` |
+| Record Integrity check | Reads the world at freeze against the Construction Framework's Record Integrity Principle (Section 8). Built by the pilot start. | At freeze, before the freeze package goes to Mark. | `integrity <code>` |
+| World Profile generator | Builds the World Profile as a view over the world's records (Section 5). Built by the pilot start. | After every records edit that changes a source view, and at freeze. | `python -m engine.m2.cli profile <code>` |
 | Facilitator handoff wiring check | Both the acute-distress route and the harmful-dynamic route fire, and the voice is never called on either. | At the Representative freeze. | `wiring <code>` |
 | Library validators | The CI job `library-validators` runs `cic/engine/corpus_map_merge.py --check`, `corpus_index.py --build`, `works_registry.py --check`, `author_ids.py --check` and `texts_registry.py`. | On a pull request that touches `cic/` or `engine/`. | CI |
 | World gates on drafts | The CI job `world-gates` runs `records` and `regate` for every world a pull request changes in `records/`. The `engine-tests` job also runs on a draft pull request that touches records, packages, engine or world build documents. | On every pull request, draft or not. | CI |
@@ -404,7 +418,11 @@ thread stops and sends the world back to the source-research thread.
 
 1. **The world's identity is fixed.** Its registry entry at
    `records/worlds/<code>.yaml` exists, with one `world_id`, before any of the
-   world's records reach `main`. Every later file uses that `world_id`.
+   world's records reach `main`. Every later file uses that `world_id`. Before
+   this check, fetch `origin/main` and read the current repository state.
+   Then look for a prior partial build of this world: unmerged branches,
+   `Archive/`, and older folders such as `Build/World-Builds/`. If one exists,
+   recover it and audit it. Do not start fresh over it.
 2. **Step 0 is approved to proceed.** It cleared independent Opus review
    within the round cap, and the movement's own status in
    `cic-website/data/world-census.json` was checked.
@@ -441,12 +459,19 @@ cites the package's own sources wherever the package holds them. Anything the
 build finds missing goes back to the source-research thread, so the next
 world gets it too.
 
+**Neighbour re-confirmation.** When Doc_01 names a built neighbour world, log
+an `Open_Gaps_Tracking.md` item on that neighbour. It asks the neighbour to
+re-confirm the shared boundary from its own side, now that both worlds exist.
+
 ### The world build: Doc_03 to Doc_10
 
 The build starts at Step 3 from the library's handoff package. Every document
 draws on that package. Doc_03 and Doc_06, Doc_04, Doc_08 and Doc_09 search the
 world's shelf with `corpus_index`, and their reviews check that claims cite
 the package's own sources wherever it holds them, and not summaries of them.
+The shelf also holds context and antecedent works that are not Native to the
+world. Only Native rows in the Source Registry license a claim about what the
+world itself said.
 
 One world is built at a time. Each document runs the cycle: draft, gate layer
 (Section 3), Opus review, revision, disposition. Do not start the next
@@ -454,7 +479,7 @@ document until the current one is approved to proceed.
 
 | Step | Document | Drafted by | Notes and per-step quality bars |
 |---|---|---|---|
-| 3 | `Doc_03` Lexicon Candidate List | Sonnet 5.5 | Term front matter per the lexicon-index discipline (Tier, AS/SC/DR/TC/RT/PV/CT tags). Run the alias-safety preflight now (Section 6, B-2), so aliases are authored against Rules A and B from birth. |
+| 3 | `Doc_03` Lexicon Candidate List | Sonnet 5.5 | Candidate terms come from the Source Registry's Native rows, never from raw Doc_02, because Doc_02 can still name excluded sources. Term front matter per the lexicon-index discipline (Tier, AS/SC/DR/TC/RT/PV/CT tags). Run the alias-safety preflight now (Section 6, B-2), so aliases are authored to pass the alias-safety gate from birth. |
 | 4 | `Doc_04` Gravity Discovery | Fable 5.1 | Built on the Doc_04 template named above. Six-test assessment per gravity. Confidence/Gravity Cross-Check on every Primary. Forces-connection notation per gravity. The gravity-index discipline is the review bar. |
 | 5 | `Doc_05` Ecological Reconstruction | Sonnet 5.5 | Asks all of Smart's seven dimensions as the fixed spine (lens spine M4, Completion Standard Section F). A thin dimension is a finding, not a coverage failure. Material Culture and an ethical/legal lens are required. |
 | 6 | `Doc_06` Full Lexicon Development | Sonnet 5.5 | CT Contest Type completion audit before clearing review. |
@@ -462,19 +487,37 @@ document until the current one is approved to proceed.
 | 8 | `Doc_08` Forces Document | Sonnet 5.5 | Six-cell matrix, three layers per force, Section 4 cross-cell connections, Section 5 forces-and-gravities synthesis. Connections must be lookupable, not discoverable only by re-reading the whole document (forces-index bar). |
 | 9 | `Doc_09` Story Inventory (+ 09a–c as needed) | Sonnet 5.5 | Four-tier rule (no Tier 5, no invented narrative). The Absent Stories question answered explicitly. Per-story tier justification. |
 | — | **M1 stop: Representative identity** (Section 1) | | |
-| 10 | `Doc_10` Representative Construction Notes and Permanent Prompt | Fable 5.1 (both Sonnet 5.5 and Fable in pilot worlds) | Built after M1, on the decided identity. Voice, registers, demonstrations. Holds the RCF Part Three Ecology Assessment (four domains plus Thinness Mapping), which calibrates the Phase D probes, and the short Encounter Ecology section (Section 5). Craft/Focus bar below. |
+| 10 | `Doc_10` Representative Construction Notes and Permanent Prompt | Fable 5.1 (both Sonnet 5.5 and Fable in pilot worlds) | Built after M1, on the decided identity. Voice, registers, demonstrations. Holds the RCF Part Three Ecology Assessment (four domains plus Thinness Mapping), which calibrates the Phase D probes, and the short Encounter Ecology section (Section 5). It also holds the approved-source anchoring design (Section 6, B-7). Craft/Focus bar below. |
 
-**Claim register control.** Each phase document that makes claims other
+**Claim register control.** Every document that makes a claim other
 documents rely on keeps a claims register, on the pattern of
-`Build/worlds/lpc/Doc09_Claims_Register.md`. A claim that changes in one
-document is changed in the register, and every document that carries it is
-checked.
+`Build/worlds/lpc/Doc09_Claims_Register.md`. The same rule covers any
+document that restates claims from several sources. Every absence or
+exclusivity claim ("no source says...", "only this world...") goes in the
+register, with its confidence level, its source and whether it has been
+verified. Two things hold it. Registration is the control: the `claims`
+command derives those claims from the deliverables and halts on one that is
+not registered, and on a register entry no claim supports. Verification is
+separate work: the register shows which claims a reviewer has checked
+against source. A claim that changes in one document is changed in the
+register, and every document that carries it is checked.
 
 **Cross-document fact consistency.** Before each review, run the
 cross-document consistency check the build-cycle discipline requires. A fact
 that appears in more than one document reads the same in each, with the same
-confidence level. Confirm each cited locus with a scoped `corpus_index`
-search.
+confidence level. Three rules make the check hold.
+
+- **Confirm a locus by its marker.** Confirm each cited locus by its
+  structural marker in the vendored file: a `div` title or a chapter heading.
+  A single search hit, including a scoped `corpus_index` hit, is a lead and
+  never a confirmation. A hit can come from the wrong work.
+- **Verify a correction independently.** A correction that changes a claim
+  is verified by a separate agent, against the source, before the document
+  proceeds. That agent sweeps outward from every site the correction names,
+  through every copy of the claim in every document, and not only the named
+  sites.
+- **Hold one state during review.** Make no structural change to a tree while
+  a review of that tree is running. A review reads one state.
 
 **Doc_10 Craft/Focus bar (checked in review, not by a script).**
 
@@ -527,9 +570,9 @@ and stops hand-writing what the records already hold.
 
 | Deliverable | Status | How it is made |
 |---|---|---|
-| World Profile | Generated | A view over the `world_core`, `gravity`, `force`, `contested_claim`, `honest_limit` and `term` records. No hand-written profile document. The integrative observation has no field yet. Adding it is an open engineering item in this process: "world_core integrative observation field" (Section 13). |
+| World Profile | Generated | A view over the `world_core`, `gravity`, `force`, `contested_claim`, `honest_limit` and `term` records, built by `python -m engine.m2.cli profile <code>`. No hand-written profile document. It feeds the Validation Layer, the Ecology Assessment and the Facilitator. The generator does not exist yet, and neither does a field for the integrative observation. Both are open engineering items: "World Profile generator" and "world_core integrative observation field" (Section 13). |
 | World Capsule Core | Generated | `compiled/capsule.md`, built by `build_capsule` in `engine/m2/builders.py`. It carries what that function writes today: the display name, Representative, time window, place, thinness and cautions. The inhabited-voice text has no field yet. Adding one belongs to the same open item (Section 13). |
-| Validation Layer | Short reviewed document | A thin attestation of the judgment-only categories: Historical Plausibility, Anachronism, Author Dominance, Living Tradition, and what cannot yet be tested. It points to the gates report for everything else. It reviews in one round, as a rule. |
+| Validation Layer | Short reviewed document | A thin attestation, made from `Build/reference/L4-Templates/Validation_Layer_Attestation_Template.md` and saved as `Build/worlds/<code>/<code>_Validation_Layer.md`. It covers what no gate can judge: Historical Plausibility, Anachronism, Author Dominance, Living Tradition, Ecological Integrity and Differentiation. Ecological Integrity has five sub-tests: Balance, Reduction, Complexity, Emergence and Worship Integration. The attestation cites Doc_01, Doc_04 and Doc_07 for them. It also names what cannot yet be tested and which freeze criteria are not met. It points to the gates report for everything else. It reviews in one round, as a rule. |
 | Encounter Ecology Mapping | Section inside Doc_10 | A short section in the Doc_10 Ecology Assessment, about 3,500 words at most (the size of `Build/worlds/lpc`'s version). One review round is the model. |
 | Voice Configuration | Dropped from the build path | It serves audio only. The template stays at `Build/reference/L4-Templates/Voice_Configuration_Template.md`. Revive it only if audio ships. |
 | `world_front`, `facilitator_brief`, site JSON | Required, built, never waived | Required record types for a new world. A new world ships all three. |
@@ -761,16 +804,17 @@ Attach the output to the review brief and fix what it finds first.
 
 | Step | What | Bars built in |
 |---|---|---|
-| B-1 | Source rows from Doc_02's registry and the `<code>core001` `world_core` record | Mechanical if the registry followed the template. Every source record carries its corpus-map `shelf_row` (and so its role) at birth. Registry caveats carried verbatim as row licenses. `language` on every row (the schema requires it; declare judgment calls in the docstring). Article-29 status carried provisional for M2. |
+| B-1 | Source rows from Doc_02's registry and the `<code>core001` `world_core` record | Mechanical if the registry followed the template. Every source record carries its corpus-map `shelf_row` (and so its role) at birth. Registry caveats carried verbatim as row licenses. The source's original language is stated in the row's `edition` field, because the schema has no `language` field (Section 13). Article-29 status carried provisional for M2. |
 | B-1a | Discovery sweep | Read every planned citation surface. Row every genuine miss with real discovery data. Declared non-rows carry reasons. A `src<CODE>search001` sweep record holds a saturation statement and coverage limits. |
 | B-1b | Relative recall and PRESS | Ten-item independent recall test (fleet range 6/10 to 9/10; PAHC's 9/10 with zero miss rows is a clean sweep). The PRESS question is asked verbatim. Namings route to the pre-freeze re-sweep. |
-| B-2 | Mechanical lexicon split into term records | Born at alias_safety zero. Aliases are authored the way the alias-safety gate reads them. Rule-A generics are resolved at birth (gloss-route, drop, or a documented `alias_generic_override_note`, for the bare-Christ and Prayer class only). Rule-B collisions are picked per term. Coverage assertion: every source sentence lands in exactly one record. |
-| B-3 | Term authoring: senses, confidence, voice, typed relations | Confidence is extracted from the document's own confidence blocks, never re-judged. Relations are fully reciprocal (the gate enforces it: presupposes and presupposed-by are inverse; tension, associated, competing and reshaping are symmetric; back-edges are authored elsewhere). Schema enums are real; see Appendix B before authoring. **`gloss_forms`:** each term record lists its word forms in `gloss_forms`. A form is `ordinary` if it is a common English word or phrase that could appear in a participant's or the voice's own sentence with no connection to the term. Otherwise it is `technical`. An ordinary form shows its gloss only when the sentence cites the term. A technical form shows it on sight. The term records are the world's gloss list, and there is no separate gloss file. |
+| B-2 | Mechanical lexicon split into term records | Born at alias_safety zero. The live gate (`gate_alias_safety`) fails a `false_friend` that exactly matches another term's `world_word`. Author aliases so none does. A generic alias (a common word that would light up in ordinary speech) is resolved at birth: route it to a gloss, or drop it. The gate reads exact collisions only, so the reviewer reads for generics too. A documented exception goes in the record body, because the schema has no field for it (Section 13). Coverage assertion: every source sentence lands in exactly one record. |
+| B-3 | Term authoring: senses, confidence, voice, typed relations | Confidence is extracted from the document's own confidence blocks, never re-judged. Relations live in `relations[]` and use the live types. `presupposes` and `presupposed-by`, `precondition-for` and `enabled-by`, and `illustrated-by` and `illustrates` are inverse pairs. `tension-with` and `associated-with` are symmetric. The reciprocity gate enforces this, and each back-edge is authored on the other record. Schema enums are real; see Appendix B before authoring. **`gloss_forms`:** each term record lists its word forms in `gloss_forms`. A form is `ordinary` if it is a common English word or phrase that could appear in a participant's or the voice's own sentence with no connection to the term. Otherwise it is `technical`. An ordinary form shows its gloss only when the sentence cites the term. A technical form shows it on sight. The term records are the world's gloss list, and there is no separate gloss file. |
 | B-4 | Story and figure records | Tier justifications verbatim. Composites carry their own element-to-source tables. Outsider witnesses own their accounts. Boundary figures are declared (no-story, preserver-only, no-figure skips). FECs are parked verbatim for B-5. **Quote verification state:** the verbatim gate checks only quotes whose `verification_state` is `verified-direct`. A quote is born either at `verified-direct` (and passes the gate) or at a lower state (`verified-via-authority`, `named-not-rechecked`, `unverified`) with its `divergence_note` saying why it could not be checked directly. A quote is never set below `verified-direct` just to get past the gate. Fixes are general mechanisms, such as an edition's `apparatus` entry in `cic/texts/REGISTRY.yaml`, never per-record exceptions (R33). |
-| B-5 | Gravity and force records | Doc_04 and Doc_08 reasoning carried in full, not summarized. Interaction matrices mirrored exactly, including no-relationship pairs. FEC-to-`gravity_links` only where the chunk's own words support it, never force-fit. A wording variance is flagged upstream, not silently converted. |
-| B-6 | Contested-claim records | Primary-gravity minimum. CT parkings absorbed. Divergence partners mapped live against the frozen fleet's claims (`partner_claim_id` set). Non-claims declared with reasons. |
-| B-7 | Voice record and demonstrations | The register position is warranted by the world's own genre evidence (the fleet holds six distinct positions; a new world earns its own or inherits none). `native_measure` is measured from real generations, not designed (PAHC's designed 70 words against a measured 246–272 is the cautionary case). Demonstrations are grep-clean against the record store. **`identity`, `guard`, `flavor_notes` and `characteristic_concerns` combined stay at or under 900 words, and each field stays at or under FK grade 10** (`gate_readability` and `gate_voice_craft_prompt_budget` in `engine/m1/gates.py`; run them directly during this step). This is a hard conversion, not a copy. The Permanent Prompt Template's own Final Assembly check 5d keeps its museum-guide backstop paragraphs unedited in the deployed prompt file. That mandate governs the prompt artifact alone. It never extends to `voice_craft`'s compiled fields, which condense the same material to the budget, in the fleet's established style (short declarative sentences, every named fact kept, redundant framing cut; `alx.voice.craft` is the exemplar). Carrying Section 1's paragraphs into `guard` or `flavor_notes` near-verbatim is the specific, repeated cautionary case. **Distress-comparison guard (R19):** `voice_craft.guard` carries the world's own version of the prohibition on comparing or minimizing a participant's disclosed distress against the world's historical suffering. The wording is the world's own idiom, not a shared sentence. The guard stays inside the world's voice and period. It never points the participant to outside help, because that is the Facilitator's job alone. `observe_outside_help_guard` is a keyword scan and only shows what is there. The B-7 review confirms the clause is present and in the world's voice. The inhabited-voice text for the generated Capsule Core has no field yet (Section 5, Section 13). |
-| B-7a | Facilitation guidance | `facilitator_brief.pairing_guidance` carries the pairings. They ride live partner claims with built-in cautions (ending-not-read-back both ways; contemporaries-not-stages; the handoff containment class). `world_core.cautions` carries the runtime cautions. `world_core.living_traditions` carries the Article 29 status (provisional for M2). Telos (provisional, Article 31) has no schema field yet, so the world's construction notes hold it. Adding a field is an open engineering item (Section 13). |
+| B-5 | Gravity and force records | Doc_04 and Doc_08 reasoning carried in full, not summarized. Interaction matrices and force connections stay in those documents as tables, mirrored exactly, including no-relationship pairs. The live gravity and force schemas have no `interaction[]` or `connections[]` field, and the story schema has no `gravity_links` field (Section 13). A link between records goes in `relations[]` only where a live relation type fits and the chunk's own words support it. Never force-fit. A wording variance is flagged upstream, not silently converted. |
+| B-6 | Contested-claim records | Primary-gravity minimum. CT parkings absorbed. Divergence partners mapped live against the frozen fleet's claims (`contested_claim.divergence_partners` set). Non-claims declared with reasons. |
+| B-7 | Voice record and demonstrations | The register position is warranted by the world's own genre evidence (the fleet holds six distinct positions; a new world earns its own or inherits none). The world's native answer length is measured from real generations, not designed (PAHC's designed 70 words against a measured 246–272 is the cautionary case). The schema has no field for the measure, so the construction notes record it (Section 13). Demonstrations are grep-clean against the record store. **`identity`, `guard`, `flavor_notes` and `characteristic_concerns` combined stay at or under 900 words, and each field stays at or under FK grade 10** (`gate_readability` and `gate_voice_craft_prompt_budget` in `engine/m1/gates.py`; run them directly during this step). This is a hard conversion, not a copy. The Permanent Prompt Template's own Final Assembly check 5d keeps its museum-guide backstop paragraphs unedited in the deployed prompt file. That mandate governs the prompt artifact alone. It never extends to `voice_craft`'s compiled fields, which condense the same material to the budget, in the fleet's established style (short declarative sentences, every named fact kept, redundant framing cut; `alx.voice.craft` is the exemplar). Carrying Section 1's paragraphs into `guard` or `flavor_notes` near-verbatim is the specific, repeated cautionary case. **Distress-comparison guard (R19):** `voice_craft.guard` carries the world's own version of the prohibition on comparing or minimizing a participant's disclosed distress against the world's historical suffering. The wording is the world's own idiom, not a shared sentence. The guard stays inside the world's voice and period. It never points the participant to outside help, because that is the Facilitator's job alone. `observe_outside_help_guard` is a keyword scan and only shows what is there. The B-7 review confirms the clause is present and in the world's voice. The inhabited-voice text for the generated Capsule Core has no field yet (Section 5, Section 13). **Approved-source anchoring.** The deployed prompt carries one paragraph built from 5 to 10 of the Source Registry's Native entries. The construction notes list each entry with its Registry row number, and quote the paragraph as compiled. The paragraph is the generation-time guard against reaching for another world's more vivid source. It rides a record field, so it compiles into `compiled/prompt.txt`, and `deployed` checks that it is there. No such field exists yet. Section 13 names the proposed field and lists it as an open engineering item. |
+| B-7a | Facilitation guidance | `facilitator_brief.pairing_guidance` carries the pairings. They ride live partner claims with built-in cautions (ending-not-read-back both ways; contemporaries-not-stages; the handoff containment class). `world_core.cautions` carries the runtime cautions. `world_core.living_traditions` carries the Article 29 status (provisional for M2). Telos (provisional, Article 31) has no schema field yet, so the world's construction notes hold it. Adding a field is an open engineering item (Section 13). `facilitator_brief.formation_limitations` names whose voices the sources structurally omit, drawn from Doc_02's absences and Doc_09's Absent Stories answer (Constitution Article 20). |
+| B-7b | Answer-the-Canon pass | Runs after B-7a and before B-8. Read every blank cell of the canon and close it with a grounded record, or with an `honest_limit` record where silence is the true answer. `gate_canon_coverage` enforces the outcome. Running the pass here keeps B-8 from meeting blank cells. |
 | B-8 | Generated views and four parities | Chunk views are generated from records. Render parity (0 unclassified defects). Retrieval parity against the committed production baseline (**verdict rule:** reproducing a result in an isolation harness is diagnosis only; the production eval against the committed baseline is the verdict). Prompt coverage (zero GAPs). Probe parity (held-out probes, blind. Two trials when the world is on full validation. One trial on the lean path, as Section 8 sets; deployed-side true positives become record-derived guard candidates). **Golden set:** the retrieval golden set the Completion Standard requires (12–20 questions) is committed at `engine/m4/reports/bench/<code>.json` before any retrieval tuning touches the world. Its baseline goes into `engine/m4/reports/retrieval_bench.py`'s history. |
 | B-9 | Change-order decisions and chunk swap | The swap makes the record store drive this world's production. After the swap: render identity, full production eval metric-identical, baseline saved. Prompt guards are added only when record-derived, deployment-copy-only and cold-verified. |
 
@@ -900,6 +944,21 @@ self-reference hardening) must appear in the compiled prompt, and rule counts
 (for example, the `[quotation]` count) must match the records. The `deployed`
 command checks both.
 
+**Read the compiled prompt before probing.** Read
+`packages/<code>/<pin>/compiled/prompt.txt` in full at the current pin before
+writing any probe. Note any stale count, any missing confirmed item and any
+build vocabulary in it. `deployed` checks the mechanical items. The read
+catches the rest, and it finds defects before a paid probe spends money on
+them.
+
+**Validation belongs to the pin.** Probe results, the Deep Interview and the
+spot-check are evidence for the package pin they ran on. A result file whose
+tested pin differs from the current pin fails `validation`. It is never a
+note. After a repin, re-run every probe class the changed records touch. If
+the compiled prompt changed, re-run the Deep Interview too. A record fix made
+in a loop-until-dry cycle repins the package, so its cold re-probe runs on the
+new pin.
+
 **The lean validation set:**
 
 1. **About 10–14 single-trial blind probes.** One trial each, fresh context,
@@ -911,6 +970,24 @@ command checks both.
      probe the build accumulated.
    - Interview-dynamics probes: one parroting probe, one pushback probe, one
      over-settling press, and one re-gloss and exact-form check.
+   - **Part Eight coverage.** The set holds at least one concrete probe in
+     each of the eight Part Eight categories of the Representative
+     Construction Framework: Source-Awareness, Anachronism,
+     Confidence-under-Thinness, Self-Referential, Scholarly-Framework,
+     Relational Safety, Claim-Laundering and Decontextualization, and
+     Sustained Engagement. The Source-Awareness probe tests what the voice
+     knows of its own sources and their limits. The Self-Referential probe
+     presses the voice to narrate itself under direct pressure, and it passes
+     only on the Completion Standard's Section C criterion. The
+     Scholarly-Framework probe asks for the world through a modern scholarly
+     frame. The Claim-Laundering probe tries to move a claim out of its
+     source's context. One probe can serve more than one class, so this fits
+     inside the count. Anachronism is met by the post-window press,
+     Confidence-under-Thinness by the fabrication press and Sustained
+     Engagement by the Deep Interview. Relational Safety is met by the wiring
+     check and the RS-1 and RS-2 rows. Parroting and pushback come on top, and
+     so does one other-tradition first-ask probe. The `validation` command
+     fails a set in which any category has no row.
    - The Ecology Assessment's thinness calibrates weight. Clean passes in
      known hard-to-detect domains stay provisional, not clean.
 2. **One live Deep Interview on `cic-engine-staging`.** The build thread
@@ -925,7 +1002,15 @@ command checks both.
    genuine cross-round memory (late rounds concretely reuse early material and
    do not re-explain it); register variation driven by substance; no
    truncation and clean length-ceiling behavior; no re-gloss or false-referent
-   openers; and citation grounding inspected per turn. It doubles as the
+   openers; and citation grounding inspected per turn. Every answer is also
+   graded on the four criteria. A fifth check reads the whole transcript
+   against the four Encounter-Success conditions of Constitution Article 6:
+   the voice stays itself; the participant keeps authorship of their own
+   direction; tensions are held as the world held them; nothing is steered or
+   tilted by cumulative persuasion. It is one more reading of the same
+   transcript. It has no separate battery and adds no spend. Each condition is
+   recorded as met or not met, with the transcript reference (Probe Result
+   Record Template). It doubles as the
    live smoke test of the deploy: a real session, a real message, citations
    inspected. Freeze runs validate the build environment. Only a live
    conversation validates the deploy. That is one spend and two checks.
@@ -974,6 +1059,17 @@ before the pilot starts.
 - Thin evidence: defined by: project lead, before the pilot
 - Contested Primary claim: defined by: project lead, before the pilot
 - Safety-adjacent Representative: defined by: project lead, before the pilot
+
+**An unevaluable trigger never yields lean.** If the code cannot evaluate a
+trigger (a definition is still a placeholder, or the records hold no data for
+it), the `validation` verdict is `undetermined` and the command exits
+non-zero. Validation stops until the project lead settles the definition. A
+trigger the code cannot evaluate never counts as not fired.
+
+**A thread may raise the level and never lower it.** If the build judges lean
+too thin for this world's risks, it recommends full validation to the project
+lead, with the reason and the cost in allowance and dollars. The project lead
+decides. A thread can raise what the code triggers. It never lowers it.
 
 Full validation is the Construction Framework's Validation Protocol Rigor in
 full: two independent generation trials per probe (one resampled from
@@ -1024,12 +1120,34 @@ restart. Watch metered spend during any generation-heavy session (Section 9).
 - the probe results and the Deep Interview transcript, each labeled observed
   or authored
 - the Craft/Focus spot-check reading
+- the Validation Layer attestation (Section 5), with the freeze criteria it
+  names as not met
+- the Record Integrity read (below)
 - the residue read and bar screen artifacts
 - both ledgers (Section 9)
 - the open items, each with its `Open_Gaps_Tracking.md` entry
 - the fleet sweep green: records validate, matrix clean, all gates zero,
   selftest green, retrieval metric-identical to baseline
 - the world-boundary completion summary for M3
+
+**The Record Integrity read** (`integrity <code>`) applies the Construction
+Framework's Record Integrity Principle. A fix closes out the earlier
+documents in the same change set. A reviewer's fix recommendation is
+executed, or deferred with a reason. "Applied" means found in the deployed
+artifact. Every finding an earlier document records as open is closed there
+with a cross-reference, or is still open in `Open_Gaps_Tracking.md`. No
+superseded draft sits unmarked in the world folder. Superseded files go to
+`Archive/` at once.
+
+**The Framework's freeze criteria, and where this process meets each.**
+
+| Framework freeze criterion | Where it is met |
+|---|---|
+| Ecological Integrity testing (Balance, Reduction, Complexity, Emergence, Worship Integration) | The Validation Layer attestation (Section 5) |
+| Differentiation established | The Validation Layer attestation, and the neighbour re-confirmation (Section 4) |
+| Record Integrity | The Record Integrity read above, and `integrity` |
+| Approved-source anchoring verified in the deployed prompt | B-7 and `deployed`. The record field is an open engineering item (Section 13) |
+| Validation Protocol Rigor | Lean by default. Two trials under full validation |
 
 A document that is approved to proceed does not close anything. Nothing
 closes until both Phase Five boundary testing and full-system review are
@@ -1076,6 +1194,12 @@ anything charged per item or character):
    files match each other proves nothing about what produced them.
 4. Record the dollars in Ledger 2.
 
+**Halt, never thin.** Budget targets plan the work. They never thin it. If
+staying inside a number would mean shipping work below the bar, stop at the
+last green checkpoint. Put the choice to Mark in allowance percent and
+dollars. Running out of allowance or dollars is never a licence to rush a
+document, skip a review round or cut a probe class.
+
 **Start-of-world check.** Before a world starts, read `/usage`. Start only if
 the remaining build allocation covers a typical world (as the pilot measures
 it) plus a reserve. If it does not, stop and report.
@@ -1108,7 +1232,11 @@ boundary and resume after the Friday reset.
 These rules apply to every session on a world build. They are restated here, so
 no other file is needed to follow them.
 
-1. **Read the state file first,** and resume from its resume point.
+1. **Fetch, then read the state file.** Fetch `origin/main` and read the
+    current repository state before judging what exists. Then read the state
+    file and resume from its resume point. Run one live thread per world. A
+    thread on a stale checkout can duplicate a merged phase and overwrite a
+    real review file.
 2. **Re-run the previous checkpoint before new work.** For a script or a gate,
     re-run it and expect the same result. For a checkpoint that rests on a
     sample, a probe set, a blind grading or a review, re-running means
@@ -1126,7 +1254,10 @@ no other file is needed to follow them.
     its checkpoint artifact exists, is committed, and re-runs green. It is not
     done when the session says so. The checkpoint is defined before the
     session runs, and the session never moves its own goalposts.
-6. **In-world autonomy.** Every decision is recorded. Stop only at M1, M2, M3, the escalation list in Section 1, and the world boundary.
+6. **In-world autonomy.** Every decision is recorded with the real
+    alternatives considered and the reason the chosen one is the most
+    defensible, and not only the conclusion. Stop only at M1, M2, M3, the
+    escalation list in Section 1, and the world boundary.
 7. **Defects go to the world's `Open_Gaps_Tracking.md`,** never silently
     patched. Upstream wording problems are referred, not rewritten.
 8. **End every session deployable.** Partial work commits at the last green
@@ -1145,10 +1276,11 @@ no other file is needed to follow them.
     applied directly, without a new round. A finding that a document could be
     stronger, with nothing in it wrong, unsupported or misleading, is not
     substantial and does not start a new round. If a document has not cleared
-    review after the third substantial revision, that is an unresolved tension
-    the pipeline cannot close on its own. Stop, and send it to Mark. Never
-    start a fourth round. The `roundcount` command blocks a fourth review
-    file.
+    review after its third review round, that is an unresolved tension the
+    pipeline cannot close on its own. Stop, and send it to Mark with the
+    third round's findings. Never start a fourth round. A revision made after
+    the third round is not reviewed by a fourth file. The `roundcount` command
+    counts review files, whatever their verdict, and blocks a fourth.
 12. **Who reviews.** Opus 5.5 reviews every round. Round 1 runs at high effort.
     Rounds 2 and 3 are targeted rechecks at medium effort: only what changed,
     against the prior findings. The reviewer is never the drafter.
@@ -1158,7 +1290,7 @@ no other file is needed to follow them.
     its first record. The `world_id` is identical across the registry entry
     and every record.
 15. **Simulated-review label.** Every review file an agent writes begins with
-    the literal line "Simulated review - informational only, not an Article 31
+    the literal line "Simulated review — informational only, not an Article 31
     substitute." An agent-run review never stands in for Article 31's external
     scholarly accountability.
 16. **Truncation check.** Every review round verifies the document's
@@ -1186,6 +1318,15 @@ no other file is needed to follow them.
     instruction.
 21. **Change orders.** Once something is frozen or otherwise settled, a real
     change to it is a named, reasoned change order, and never a quiet edit.
+22. **One state during review.** Make no structural edit to a tree while a
+    review of that tree is running.
+23. **One story.** The state file, the commits and the checkpoint artifacts
+    tell the same story. A mismatch between them is filed in
+    `Open_Gaps_Tracking.md`.
+24. **A returning defect class is escalated.** If the same class of defect
+    comes back across review rounds, name the class in the review file and
+    escalate it as an unresolved tension. Do not chase it one instance at a
+    time.
 
 ---
 
@@ -1205,7 +1346,12 @@ names them, or the source-research thread proposes them.
 - the Doc_10 Sonnet-versus-Fable grading recorded (Section 2)
 
 After the pilot, builds run steady at one world at a time. A cost-and-quality
-review follows after every five worlds.
+review follows after every five worlds. It includes a coach verification:
+review files exist and support what cites them; escalation triggers were not
+missed; the decision log matches what is on disk; and decisions match the
+governing designs. The coach thread reports to Mark and drafts or revises no
+world document. A coach verification also runs across any batch of disposed
+work that Mark names.
 
 ---
 
@@ -1221,19 +1367,74 @@ version in force when its build began.
 
 ## 13. Open items
 
-These items are open. Each must be settled before the step that depends on it.
+These items are open. Each must be settled before the step that depends on
+it. Every engineering item below has this status on 2026-09-29: open, not
+built. A check or field listed here is a requirement, and no document may
+report it as run or present until the code exists.
+
+**Owed by Mark**
 
 - **Lean validation metered ceiling.** The number is owed by Mark (Section 9).
 - **The two pilot worlds.** Mark names them, or the source-research thread
   proposes them (Section 11).
 - **Full-validation trigger definitions.** The project lead defines three of
   the four (Section 8).
+
+**Engineering items: checks and generators (built by the pilot start)**
+
+- **`claims` command.** `python -m engine.m10.cli claims <code>` derives every
+  absence or exclusivity claim from a world's deliverables and halts on an
+  unregistered claim or a stale register entry (Sections 3 and 4).
+- **`integrity` command.** `python -m engine.m10.cli integrity <code>` runs the
+  Record Integrity check (Section 8).
+- **`validation` coverage.** The `validation` command also checks that all
+  eight Part Eight categories have a probe row, that the Deep Interview carries
+  its encounter-success grading, and that results were run on the current
+  package pin. It returns `undetermined` and a non-zero exit for a trigger it
+  cannot evaluate, and never `lean` (Section 8).
+- **`deployed` anchoring check.** The `deployed` command also checks that the
+  approved-source anchoring paragraph is present in `compiled/prompt.txt`
+  (Section 6, B-7).
+- **World Profile generator.** `python -m engine.m2.cli profile <code>` builds
+  the World Profile as a view over the world's records (Section 5). No
+  generator exists in `engine/m2` today.
+
+**Engineering items: record fields (schema changes)**
+
+- **Approved-source anchoring field.** The schema has no field that carries the
+  anchoring paragraph into the compiled prompt. The proposed field is an
+  optional string, `voice_craft.source_anchor`. The name is a proposal, and it
+  is not in `engine/m1/schemas.py`. `build_prompt` in `engine/m2/builders.py`
+  would compile it into `compiled/prompt.txt`. The change also settles how the
+  paragraph counts against the voice-craft word budget. Until the field
+  exists, a world cannot meet the Construction Framework's freeze criterion
+  for anchoring, and its freeze declaration states that criterion as not met.
 - **world_core integrative observation field.** Adding this field to the
   `world_core` schema is an open engineering item in this process. The
   inhabited-voice text for the Capsule Core needs a field as well, and belongs
   to the same item.
 - **Telos field.** The schema has no telos field, so the world's construction
   notes hold the telos until an engineering item adds one.
+- **Fields named by earlier method documents that the live schema lacks.**
+  The process and the Completion Standard cite only fields the schema
+  defines. Earlier versions named these fields, and none exists:
+  - a source `language` field;
+  - `interaction[]` and `connections[]` on gravity and force records, and
+    `gravity_links` on story records, with the relation types `reinforcing`,
+    `competing` and `reshaping` (the schema's `relations[]` types are listed in
+    Appendix B);
+  - the six-test result keys on gravity records, and Layer 4 (`elaboration` or
+    `stasis`) on force records;
+  - `owner_figure_id` and `attested_occasion` on story records;
+  - `voice_surface`, `semantic_domain` and a directional `field_relation` on
+    term records;
+  - a translation-used field on quote records;
+  - a trait rubric, an avoid-traits list, register evidence and a native
+    answer-length measure on the voice record;
+  - a documented alias exception on term records.
+
+  Until a field exists, the content lives in the Doc_04, Doc_08 and Doc_10
+  tables and in record bodies, and the review checks it there.
 
 ---
 
@@ -1243,7 +1444,8 @@ These items are open. Each must be settled before the step that depends on it.
 |---|---|---|
 | The record store and schemas | `engine/m1/schemas.py`, `records/<code>/` | One source of truth; drift is impossible by construction |
 | The M1 gate battery and selftest | `engine/m1/gates.py`, `engine/m1/selftest.py` | The zero-violation floor on every frozen world |
-| Alias-safety Rules A/B/C and the override mechanism | `gate_alias_safety` in `engine/m1/gates.py` | Over-broad live highlighting (Syriac's bare `truth`, `mystery`, `symbol`); Hieronymian was born clean under it |
+| The alias-safety gate | `gate_alias_safety` in `engine/m1/gates.py` | Alias collisions between terms; Hieronymian was born clean under it |
+| Claims register and its check | `Build/worlds/lpc/Doc09_Claims_Register.md`, `Build/worlds/lpc/scripts/check_claims.py`, `claims` | Absence and exclusivity claims that no reviewer happened to check |
 | Term gloss list and `gloss_forms` | Term records; `engine/m4/term_glosses.py` | The gloss allowlist is the world's own term records |
 | Compiler, packages and determinism | `engine/m2/`, `packages/<code>/<pin>/` | Byte-identical rebuilds; staleness checks |
 | The four-parity release gate (render, retrieval, prompt coverage, probe) | B-8 above | Real catches at nearly every world's B-8 |
@@ -1254,13 +1456,24 @@ These items are open. Each must be settled before the step that depends on it.
 | The Table Readiness Round (cost-capped, cap 3) | Section 8; `Build/reference/method/Pass2-decisions/S6.2_M_table_cap_and_trr_cost.md` | Cross-world disciplines pressed live |
 | Article 29 at-freeze confirmation; Article 31 year-two ruling | Freeze declarations; `Build/reference/method/Pass2-decisions/` | Every built world carries a settled Article 29 state |
 
-## Appendix B: Schema-enum collisions to author around
+## Appendix B: Schema enums to author around
 
-Authoring hits these enums. Declare, and do not invent. `grounding_criterion`
-is enum low/standard/high (free text goes to `conceptual_distance_note`).
-`field_relations` has no `reinforcing` type (use mechanism-behind plus an
-associated-with mirror). `evidentiary_weight` has no `qualified`.
-`trait_rubric` entries require `trait`, with intensities as an array.
-`avoid_traits` are plain strings. A gravity's `interaction` is a typed edge
-array (reinforcing, competing, reshaping). Force connections need reciprocity
-back-edges. Source records require `language`.
+Authoring hits these enums. Declare, and do not invent. The schema is the field
+list (`engine/m1/schemas.py`).
+
+- `relations[]` types are `presupposes`, `presupposed-by`,
+  `precondition-for`, `enabled-by`, `tension-with`, `illustrated-by`,
+  `illustrates` and `associated-with`. There is no `reinforcing`, `competing`
+  or `reshaping` type. Doc_04 states those relationships in its interaction
+  matrix, and the record store does not carry them (Section 13).
+- Every relation needs its reciprocal back-edge on the other record.
+- `confidence.evidentiary_weight` is `load-bearing`, `corroborating`,
+  `illustrative` or `contested`. It has no `qualified`.
+- `confidence.verification_state` is `verified-direct`,
+  `verified-via-authority`, `named-not-rechecked` or `unverified`.
+- `source.kind` is `vendored`, `unvendored` or `absence`. A source record has
+  no `language` field.
+- `term.distortion_risk` is `low`, `medium` or `high`.
+- `gravity.classification` is `primary`, `supporting` or `tensional`.
+- `force.matrix_cell` is one of `1A`, `1B`, `2A`, `2B`, `3A` or `3B`.
+- `quote.license` is `verbatim`, `paraphrase-only` or `do-not-voice`.

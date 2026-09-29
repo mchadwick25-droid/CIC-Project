@@ -9,7 +9,7 @@ Doc_09 classifies every story a world can tell into one of four tiers, with a ha
 
 Before building, reread the current Blueprint and Construction Framework Doc_09 section. Do not rely on a remembered tier list.
 
-Process: Sonnet 5.5 drafts. Opus 5.5 reviews, never the drafter, at high effort in round 1 and medium targeted rechecks after. Three rounds of substantial revision at most, then escalate to Mark. Run the gate layer before review: `python -m engine.m10.cli prereview`, `citations`, `gaps`, `records`, `regate`. See the `cic-build-cycle` skill. Use "Approved to proceed" only. Doc_09 sits before the Representative identity decision; that decision goes to Mark in the grounded-options format.
+Process: Sonnet 5.5 drafts. Opus 5.5 reviews, never the drafter, at high effort in round 1 and medium targeted rechecks after. Three rounds of substantial revision at most, then escalate to Mark. Run the gate layer before review: `python -m engine.m10.cli prereview`, `citations`, `claims`, `gaps`, `records`, `regate`. See the `cic-build-cycle` skill. Use "Approved to proceed" only. Doc_09 sits before the Representative identity decision; that decision goes to Mark in the grounded-options format.
 
 ## Build each story faithfully to its tier
 
@@ -29,7 +29,7 @@ No workbook. Build these as tables in the document and as generated views over t
 - **By Tier.** Every Tier 4 (Historically Grounded Reconstruction) story together. These carry the most inferential weight and deserve the most scrutiny.
 - **No-Tier-5 audit.** Every story checked against the four permitted tiers. Anything that does not clearly fit is flagged, not left unclassified.
 - **Source cross-reference.** Each story's source checked against the world's Source Registry, confirming it is Native to this world and not borrowed from a neighboring tradition.
-- **Absent Stories check.** The required question answered with something substantive. This is the item most likely skipped under deadline pressure, because it is the one that adds no content. Every unresolved item goes into `Open_Gaps_Tracking.md`.
+- **Absent Stories check.** The required question answered with something substantive. This is the item most likely skipped under deadline pressure, because it is the one that adds no content. Every unresolved item goes into `Open_Gaps_Tracking.md`. The answer also feeds `facilitator_brief.formation_limitations`, which names whose voices the sources structurally omit (Constitution Article 20).
 
 ## What an independent review must check
 

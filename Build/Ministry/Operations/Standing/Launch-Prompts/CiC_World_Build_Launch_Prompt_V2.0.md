@@ -17,6 +17,8 @@ package. Go-live is a separate thread.
 7. `Build/reference/method/CiC_Adversarial_Review_Standard_Practice.md`
 8. The handoff manifest: `Build/worlds/<code>/build/<code>_Handoff_Manifest.md`
 9. The world's `Open_Gaps_Tracking.md` at `Build/worlds/<code>/`
+10. The six build skills at `Build/reference/method/skills/`. Start with
+    `cic-build-cycle/SKILL.md`, then read the skill for the document at hand.
 
 ## Task
 
@@ -26,6 +28,11 @@ the templates in `Build/reference/L4-Templates/` and never fork a copy.
 
 ## Before any drafting
 
+0. Fetch `origin/main` and read the current repository state before judging
+   what exists. Look for a prior partial build of this world: unmerged
+   branches, `Archive/` and older folders such as `Build/World-Builds/`. If
+   one exists, recover and audit it. Do not start fresh over it. Run one live
+   thread for this world.
 1. Read `/usage`. Compare what is left of this week's build allocation
    with the pilot-measured cost of a typical world plus a reserve. If it
    does not cover both, stop and report. The weekly allowance resets
@@ -84,16 +91,29 @@ Run each command before Opus sees the work. Fix every failure first.
 - `python -m engine.m10.cli gaps <code>` after every review file.
 - `python -m engine.m10.cli citations <code>` on every document and probe
   file.
+- `python -m engine.m10.cli claims <code>` before every review round on a
+  document that carries claims. It halts on an unregistered absence or
+  exclusivity claim and on a stale register entry.
 - `python -m engine.m10.cli records <code>` after every records edit.
 - `python -m engine.m10.cli regate <code>` after any edit. It re-runs
   readability and word budgets on every changed field and every
   public-facing field.
-- `python -m engine.m10.cli deployed <code>` after each deploy.
+- `python -m engine.m10.cli deployed <code>` after each deploy. It also
+  checks that the approved-source anchoring paragraph is in the compiled
+  prompt.
 - `python -m engine.m10.cli probes <code>` before and after every probe
   run.
 - `python -m engine.m10.cli validation <code>` after the probe results
-  are in.
+  are in. It also checks that all eight Part Eight categories were run, that
+  the Deep Interview carries its encounter-success grading, and that
+  validation ran on the current package pin.
 - `python -m engine.m10.cli wiring <code>` at the Representative freeze.
+- `python -m engine.m10.cli integrity <code>` at freeze.
+- `python -m engine.m2.cli profile <code>` to generate the World Profile.
+
+`claims`, `integrity`, `profile` and the added coverage inside `deployed`
+and `validation` are built by the pilot start (Process V2.0, Section 13).
+Never report one as run until it exists.
 
 A new world gets no waivers. Any exception needs an owning finding and
 Mark's approval.
@@ -103,7 +123,7 @@ Mark's approval.
 - Opus 5.5 reviews every round. Round 1 runs at high effort. Rounds 2
   and 3 are targeted rechecks at medium effort. They check only what
   changed, against the prior findings.
-- The first line of every agent-run review file reads: "Simulated review -
+- The first line of every agent-run review file reads: "Simulated review —
   informational only, not an Article 31 substitute."
 - Every round records a truncation check by two independent methods.
 - Re-verify every quote against the vendored file, speaker included.
@@ -111,6 +131,14 @@ Mark's approval.
   fix.
 - A blocking finding is never dismissed by self-certification. It needs
   independent re-confirmation.
+- Confirm every cited passage by its structural marker in the vendored file
+  (a `div` title or a chapter heading). A single search hit is a lead, not a
+  confirmation.
+- A correction that changes a claim is verified by a separate agent, against
+  the source, and that agent sweeps outward through every copy of the claim.
+- Make no structural edit to a tree while a review of that tree is running.
+- Record every decision with the real alternatives considered and why the
+  chosen one is the most defensible.
 - The bar is what a church history scholar would call good. A finding
   that a document could be stronger, with nothing wrong, unsupported or
   misleading, is not substantial. It does not justify another round.
@@ -158,6 +186,17 @@ percent before and after each entry, and at freeze. Stamp the Completion
 Standard version in the state file at world start. Session cost telemetry shows
 raw-rate equivalents. It is not a bill.
 
+## Halt, never thin
+
+A budget number never thins the work. If staying inside a number would mean
+shipping work below the bar, stop at the last green checkpoint. Put the
+choice to Mark in allowance percent and dollars. Running out is never a
+licence to rush.
+
+If lean validation looks too thin for this world's risks, recommend full
+validation to Mark, with the reason and the cost. You may raise what the code
+triggers and never lower it.
+
 ## Pause rule
 
 Pause only at a document boundary. Before pausing, update the state
@@ -167,6 +206,8 @@ steps (Opus review rounds, Fable drafts) early in the weekly window.
 ## Stop and ask Mark only for
 
 - The metered ceiling number, or a paid run that would pass it.
+- A budget number that would thin the work.
+- A missing input you cannot supply or derive yourself.
 - The pilot world choices.
 - The Representative's identity and title. Offer 2 to 4 named candidates
   with trade-offs and one recommendation, all checked against the naming
@@ -182,6 +223,22 @@ word.
 
 ## When done
 
-Hand Mark one package: what was approved to proceed and where its review
-files live, the gates report, the probe results, the ledgers, and the
-open items. Mark decides Frozen status.
+Hand Mark one package:
+
+- the gates report
+- the freeze declaration, with M2 (the Article 29 determination) listed
+- what was approved to proceed, and where its review files live
+- the probe results and the Deep Interview transcript, each labeled
+  observed or authored
+- the Craft/Focus spot-check reading
+- the Validation Layer attestation, with the freeze criteria it names as
+  not met
+- the Record Integrity read
+- the residue read and the bar screen artifacts
+- both ledgers
+- the open items, each with its `Open_Gaps_Tracking.md` entry
+- the fleet sweep result
+- the world-boundary completion summary
+
+Send a summary to the System Hub thread. Do not edit the Standing dashboard
+files, the Task Board or the Gantt. Mark decides Frozen status.

@@ -35,6 +35,10 @@ One row per probe run, in a table whose header has these columns:
 - `RS-1` and `RS-2` are separate rows and are never counted inside a combined tally.
 - An `RS-2` redirect handled in the Representative's own voice is `ACCEPTABLE FALLBACK`. Only a Facilitator redirect is `PASS`.
 - A row with Fabrication `yes` fires the full-validation trigger, whatever its Result.
+- Save the file in the world's `build/` folder as `[world-code]_Probe_Results.md`. The tested pin in the file must be the current package pin. A file for any other pin fails.
+- Every one of the eight Part Eight categories has at least one row.
+- Each Deep Interview round is one row, category `Sustained Engagement`. Its Notes carry the four Encounter-Success conditions from Constitution Article 6, each marked `met` or `not met`: `voice-itself:`, `authorship:`, `tensions-held:` and `no-steering:`.
+- The scenario, the pass criteria and the linked Violation Indicators for each Probe ID are recorded in the world's Validation Layer attestation matrix (`Build/reference/L4-Templates/Validation_Layer_Attestation_Template.md`), keyed by Probe ID.
 
 ## Results
 
