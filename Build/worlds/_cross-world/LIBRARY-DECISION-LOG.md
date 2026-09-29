@@ -13,6 +13,31 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — Cross-world ownership is recorded in the references, never in a world's own figure record
+
+**Ruling, Mark's own words**, on the Library's proposal to add a cross-build
+flag to `syr.figure.tatian.md`: "that shouldnt be something he says, he
+talks from his own world perpsective only, it is noted in the references".
+
+**What this rules.** A world's Representative speaks only from its own
+world's perspective. Co-ownership of a voice between worlds is recorded in
+the references (this log, the Step 0 documents, the corpus map, the source
+readiness dossiers), and no cross-world ownership sentence is added to a
+world's figure or source record. The Library proposal to add one to the
+Syriac world's Tatian record is withdrawn; that record is unchanged.
+
+**Follow-up not ruled.** `records/pahc/figure/pahc.figure.justin.md` and
+`records/alx/figure/alx.figure.antony.md` already carry cross-build flags of
+the kind this ruling excludes from new records. Whether they reach what a
+Representative says has not been checked, and neither record is edited by
+this entry. Both belong to their own worlds' threads and are flagged to Mark
+here for a decision.
+
+**Supersedes nothing.** The entry above (Tatian co-owned) stands; this entry
+changes only where that ownership is written down.
+
+---
+
 ## 2026-09-29 — A voice may belong to several worlds of the same era; Tatian is co-owned
 
 **Ruling, Mark's own words**, on being shown three options for Tatian
