@@ -1013,5 +1013,12 @@
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1402
+ },
+ "military-religious-orders-templars-hospitallers-0": {
+  "hash": "7e59480fa871f451",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1346
  }
 }
