@@ -3274,3 +3274,15 @@
     "faluation" for "salvation") - a disclosed artifact of this specific
     scan, not corrected. Partial closure only: does not supply Beza's own
     letters or the Tabula praedestinationis (1555), which remain unacquired.
+- filename: fixture-synthetic_later-summary.txt
+  supplied_by: This project's own stage-0.6 fixture world (the `fix` records)
+  date_added: '2026-09-29'
+  notes: >-
+    Synthetic text written directly for the fixture world, CC0. Not a real
+    edition. Never cite it for any real world.
+- filename: fixture-synthetic_witness-scroll.txt
+  supplied_by: This project's own stage-0.6 fixture world (the `fix` records)
+  date_added: '2026-09-29'
+  notes: >-
+    Synthetic text written directly for the fixture world, CC0. Not a real
+    edition. Never cite it for any real world.

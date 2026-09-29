@@ -34,6 +34,7 @@ Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: records/wo
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/engine/corpus_index.files_for_entry
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/engine/corpus_map.load
+Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/texts/INDEX.sqlite
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: records/worlds.yaml
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: Sandbox/D3-Converged-Design.md
@@ -897,6 +898,7 @@ Build/worlds/witt/witt_PhaseC_Scoping_Note.md: Build/reference/method/CiC_Record
 Build/worlds/witt/witt_PhaseC_Scoping_Note.md: cic-poc/backend
 Build/worlds/witt/witt_PhaseC_Scoping_Note.md: records/worlds.yaml
 Build/worlds/witt/witt_World_Profile.md: World-Builds/Lutheran-Wittenberg
+cic/corpus-map/README.md: cic/texts/INDEX.sqlite
 engine/BASELINES.md: packages/alx/2026-08-24T00-43-33Z
 engine/BASELINES.md: packages/desert/2026-08-24T00-43-34Z
 engine/BASELINES.md: packages/fix/2026-08-24T00-43-37Z
