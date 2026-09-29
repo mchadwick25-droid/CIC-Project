@@ -21,7 +21,8 @@ Substantial revision required. The layer is well built and its test suite is gre
 - `python tools/check_live_commentary.py --help`: prints usage with `--base` and `--enforce`; runs with every third-party import blocked (the CI job installs nothing, which is correct).
 - `python tools/check_live_commentary.py --base 7521c09a --enforce`: exit 1, 273 REWRITE/ROUTE lines (see finding 8).
 - `records <code>` on every world: `fix` and `_fleet` fail, `lpc` fails for lack of a registry entry, the rest pass (see finding 7).
-- `engine/api` tests could not run here (fastapi is not installed locally); the loader guard's effect on them is argued from code in finding 11.
+- `python -m pytest engine/m4 engine/m2 -q`, run to test the loader guard for regressions: 649 passed and 7 failed. All 7 failures are environmental. The compiled package files are not restored in this checkout; CI runs `engine.m2.cli restore` first. Six `test_world_loader.py` tests get past `assert_compiled_target` and then stop on "manifest lists 'compiled/capsule.md' but it is missing on disk". `test_restore.py` finds nothing to strip. The guard caused no failure.
+- The `engine/api` tests could not run here, because fastapi is not installed locally. Finding 11 argues the loader guard's effect on them from the code.
 
 ## Findings
 
