@@ -1308,6 +1308,47 @@ def _gate_vocabulary_category(rel: Path, line: str, matched: list[str], category
     return category
 
 
+# ---------------------------------------------------------------------------
+# The governing method files describe the review process, so words such as
+# reviewer, round, route and era gate are their subject, not narration. In
+# those files (and only there) a REWRITE or ROUTE hit is KEEP when every
+# matched pattern is process vocabulary and the line has neither a history
+# shape nor a status cue. Dates, ruling numbers, decision-log pointers and
+# provenance attributions are untouched and still flagged.
+# ---------------------------------------------------------------------------
+_METHOD_DOC = re.compile(
+    r"^Build/reference/(?:method/(?:CiC_Record_Native_World_Build_Process_V[\d.]+|CiC_World_Build_Completion_Standard_V[\d.]+)\.md"
+    r"|method/skills/[^/]+/SKILL\.md|L4-Templates/[^/]+\.md)$"
+)
+_METHOD_VOCAB = {
+    "reviewer", "review-round", "era-gate", "route-cue", "change-history-cue", "change-history-block", "marks-word",
+}
+_METHOD_HISTORY = re.compile(
+    r"^\s*[-*]?\s*\**Round\s+\d+\**\s*[:(]"
+    r"|\bround\s+\d+\s+(?:found|caught|flagged|named)\b"
+    r"|\b(?:previously|formerly|no longer|used to|was changed|were changed|earlier (?:draft|version)s?)\b",
+    re.I,
+)
+_METHOD_STATUS = re.compile(
+    r"\b(?:TODO|FIXME|not yet (?:resolved|fixed|answered|acquired)|still (?:pending|open)"
+    r"|known (?:gap|issue|defect)|has not yet (?:been|done))\b",
+    re.I,
+)
+_MARKS_ROLE = re.compile(r"\bMark'?s\s+(?:word|call)\b", re.I)
+
+
+def _method_vocabulary_category(rel: Path, line: str, matched: list[str], category: str) -> str:
+    if category not in BLOCKING_CATEGORIES or not _METHOD_DOC.match(rel.as_posix()):
+        return category
+    if not set(matched) <= _METHOD_VOCAB:
+        return category
+    if "marks-word" in matched and not _MARKS_ROLE.search(line):
+        return category
+    if _METHOD_HISTORY.search(line) or _METHOD_STATUS.search(line):
+        return category
+    return "KEEP"
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
     try:
@@ -1366,6 +1407,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         else:
             category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file)
             category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
+            category = _method_vocabulary_category(rel, line, matched, category)
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
 
