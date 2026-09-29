@@ -15,6 +15,7 @@ Usage:
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -90,9 +91,27 @@ def scan() -> set[str]:
     return broken
 
 
+PACKAGE_FILE = re.compile(r"^packages/([^/]+)/([^/]+)/(.+)$")
+
+
+def in_package_manifest(tok: str) -> bool:
+    """A compiled package is derived output: .gitignore keeps only its manifest.json, so a clean
+    checkout never holds the files inside. The manifest lists every file the package contains,
+    which makes a citation of one verifiable without the derived file being present."""
+    m = PACKAGE_FILE.match(tok.rstrip("/"))
+    if not m:
+        return False
+    manifest = REPO / "packages" / m.group(1) / m.group(2) / "manifest.json"
+    try:
+        files = json.loads(manifest.read_text(encoding="utf-8")).get("files", {})
+    except (OSError, ValueError):
+        return False
+    return m.group(3) in files
+
+
 def resolves(tok: str) -> bool:
     target = REPO / tok.rstrip("/")
-    if target.exists():
+    if target.exists() or in_package_manifest(tok):
         return True
     # A filename wrapped across lines ("anf01_apostolic-fathers-justin-") or cited
     # by its stem ("cic/texts/anf01") resolves if exactly one entry carries that prefix.
