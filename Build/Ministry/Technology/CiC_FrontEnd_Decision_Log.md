@@ -4525,3 +4525,50 @@ Unchanged and still Mark's decision: **Daniel is the chosen voice.** The
    and now runs under the gate added to CLAUDE.md the same day: a small
    sample Mark approves by ear first, and the voice id passed on the command
    and printed in the run's output.
+
+---
+
+## 2026-09-29 (later still) — Daniel re-narration redone with the right voice;
+Eleven v4 tried and not adopted
+
+**The redo.** All 282 non-built movements re-narrated with Daniel
+(`onwK4e9ZLuTAKqWW03F9`) on `eleven_multilingual_v2`, at the E settings,
+under the paid-bulk-run gate added to CLAUDE.md earlier the same day. The
+voice, model and settings were required command-line arguments and were
+printed by the run itself. A three-movement identity gate ran first: the
+outputs came within 0.1-1.2% of the file sizes of the Daniel-on-v2 clips
+Mark had approved by ear, and 3.6-8.4% away from the old-voice clips. Then
+the remaining 279. All 279 request lines show Daniel on v2, with no other
+voice or model in the log and no failures. The 10 built worlds were not
+touched. Across all 282 files the new size is a median 5% above the old
+voice's, the same direction the gate showed.
+
+**Cost.** 128,567 credits for the 279, plus 1,453 for the gate: 130,020
+credits (the API's `character-cost` headers). This is in addition to the
+268,144-character run in the correction entry above, which used the wrong
+voice.
+
+**Eleven v4, tried and not adopted.** Mark raised a launch offer for v4
+(reported as 1.2M free credits). It could not be confirmed from here: the
+only offer found in searches was extra v4 use in the web and mobile apps,
+and the official page could not be fetched. What was measured: on this API
+key `eleven_v4` cost 28 credits against 102 for `eleven_multilingual_v2`
+on the same 210-character line, about 3.6 times cheaper per character; the
+cause (promo or list price) is unknown. By ear, Mark found v4 fuller but
+with a thicker accent, and v2 more neutral. Three attempts to loosen the
+accent on v4 (similarity 0.40, a plain-language accent tag, both) were
+generated on one movement; Mark still preferred v2. A BBC-style alternative
+voice on v4 was not tested, because the API key here cannot list voices.
+
+**Limits of what could be checked.** The key cannot read voices, models,
+usage or history, so the voice used cannot be confirmed from ElevenLabs'
+side. It rests on the voice id in the request, the size comparison, and
+Mark's ear on the live file.
+
+### Next action
+
+1. Merge the re-narrated files, then Mark listens to a live file in a
+   private window to confirm the voice by ear.
+2. Open, unchanged: the 10 built worlds' voices, and the readability and
+   archaic-English findings. The v4 question can be reopened if a
+   BBC-style voice is found.
