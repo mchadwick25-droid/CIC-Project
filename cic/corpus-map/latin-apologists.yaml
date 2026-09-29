@@ -23,12 +23,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid, CSEL 4 (Vienna, 1875), a critical edition with commentary. The
-    Latin OCR is readable running text, so this file is ready to quote once each quote is
-    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
-    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid,
+    CSEL 4 (Vienna, 1875), a critical edition with commentary. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: arnobius_adversus-nationes-lat_reifferscheid-csel4.txt
@@ -39,13 +38,13 @@ works:
   confidence: assigned
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-
-    arnobius.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s
-    2026-09-25 ruling): Reifferscheid, CSEL 4 (1875), in the University of Leipzig''s machine-
-    corrected TEI (OCR corrected by the project, not a fresh human edition). Ready to quote
-    once each quote is verified verbatim against this file (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s role and confidence exactly.
+    arnobius.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid,
+    CSEL 4 (1875), in the University of Leipzig''s machine- corrected TEI (OCR corrected by
+    the project, not a fresh human edition). Ready to quote once each quote is verified verbatim
+    against this file (INTAKE section 6); the English a Representative speaks is rendered
+    from it, with the vendored English as a cross-check. CC BY-SA 4.0, so attribution and
+    share-alike travel with any quotation. Mirrors the English twin''s role and confidence
+    exactly.
 
     '
   source_file: arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt
@@ -59,10 +58,9 @@ works:
     human edition). NO English twin is vendored (ANF04 carries only the Instructions), so
     this is a new work entry in latin-apologists, matched to the Instructiones in role and
     confidence (tradition, provisional; the date is disputed). PRIMARY ORIGINAL per cic/texts/INTAKE.md
-    (Mark''s 2026-09-25 ruling); ready to quote once each quote is verified verbatim against
-    this file, with the raw CSEL 15 scan (commodian_carmina-lat_dombart-csel15.txt) as the
-    check on the printed page. CC BY-SA 4.0, so attribution and share-alike travel with any
-    quotation.
+    ; ready to quote once each quote is verified verbatim against this file, with the raw
+    CSEL 15 scan (commodian_carmina-lat_dombart-csel15.txt) as the check on the printed page.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
 
     '
   source_file: commodian_carmen-apologeticum-lat_dombart1887-csel-tei.txt
@@ -75,9 +73,9 @@ works:
     twin is vendored (ANF04 carries only the Instructions), so this is a new work entry in
     latin- apologists, given the same role and confidence as the Instructiones (tradition,
     provisional) because both stand on the same disputed date (mid-3rd century on Dombart''s
-    view; later dates have been argued). PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s
-    2026-09-25 ruling): Dombart, CSEL 15 (1887), a critical edition; the Latin OCR is readable,
-    so ready to quote once each quote is verified verbatim against this file.
+    view; later dates have been argued). PRIMARY ORIGINAL per cic/texts/INTAKE.md: Dombart,
+    CSEL 15 (1887), a critical edition; the Latin OCR is readable, so ready to quote once
+    each quote is verified verbatim against this file.
 
     '
   source_file: commodian_carmina-lat_dombart-csel15.txt
@@ -101,12 +99,11 @@ works:
   role: tradition
   confidence: provisional
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Dombart, CSEL 15 (Vienna, 1887), a critical edition with commentary. The Latin
-    OCR is readable running text, so this file is ready to quote once each quote is verified
-    verbatim against it (INTAKE section 6); the English a Representative speaks is rendered
-    from it, with the vendored English as a cross-check. Mirrors the English twin''s role
-    and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Dombart, CSEL 15
+    (Vienna, 1887), a critical edition with commentary. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: commodian_carmina-lat_dombart-csel15.txt
@@ -117,13 +114,12 @@ works:
   confidence: provisional
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Dombart, CSEL 15 (1887), in the University of Leipzig''s machine-corrected TEI
-    (OCR corrected by the project, not a fresh human edition). Ready to quote once each quote
-    is verified verbatim against this file (INTAKE section 6); the English a Representative
-    speaks is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0,
-    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Dombart, CSEL 15
+    (1887), in the University of Leipzig''s machine-corrected TEI (OCR corrected by the project,
+    not a fresh human edition). Ready to quote once each quote is verified verbatim against
+    this file (INTAKE section 6); the English a Representative speaks is rendered from it,
+    with the vendored English as a cross-check. CC BY-SA 4.0, so attribution and share-alike
+    travel with any quotation. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: commodian_instructiones-lat_dombart1887-csel-tei.txt
@@ -148,11 +144,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf05_hippolytus-cyprian-caius-novatian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Hartel, CSEL 3 part 1 (Vienna, 1868), already vendored. The Latin OCR is readable
-    running text, so this file is ready to quote once each quote is verified verbatim against
-    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
-    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel, CSEL 3
+    part 1 (Vienna, 1868), already vendored. The Latin OCR is readable running text, so this
+    file is ready to quote once each quote is verified verbatim against it (INTAKE section
+    6); the English a Representative speaks is rendered from it, with the vendored English
+    as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
@@ -176,11 +172,11 @@ works:
   role: transmission
   confidence: provisional
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf05_hippolytus-cyprian-caius-novatian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Hartel, CSEL 3 part 1 (Vienna, 1868), already vendored. The Latin OCR is readable
-    running text, so this file is ready to quote once each quote is verified verbatim against
-    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
-    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel, CSEL 3
+    part 1 (Vienna, 1868), already vendored. The Latin OCR is readable running text, so this
+    file is ready to quote once each quote is verified verbatim against it (INTAKE section
+    6); the English a Representative speaks is rendered from it, with the vendored English
+    as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
@@ -206,12 +202,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Boenig, Teubner (Leipzig, 1903), a critical text with preface and apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Boenig, Teubner
+    (Leipzig, 1903), a critical text with preface and apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: minucius-felix_octavius-lat_boenig1903.txt
@@ -222,13 +217,13 @@ works:
   confidence: assigned
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Halm, CSEL 2 (1867), in the University of Leipzig''s machine-corrected TEI (OCR
-    corrected by the project, not a fresh human edition); the only CSEL 2 witness vendored.
-    Ready to quote once each quote is verified verbatim against this file (INTAKE section
-    6); the English a Representative speaks is rendered from it, with the vendored English
-    as a cross-check. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
-    Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Halm, CSEL 2 (1867),
+    in the University of Leipzig''s machine-corrected TEI (OCR corrected by the project, not
+    a fresh human edition); the only CSEL 2 witness vendored. Ready to quote once each quote
+    is verified verbatim against this file (INTAKE section 6); the English a Representative
+    speaks is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0,
+    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: minucius-felix_octavius-lat_halm1867-csel2-tei.txt
@@ -239,12 +234,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Waltzing, Teubner (Leipzig, 1912), a critical text with commentary and apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Waltzing, Teubner
+    (Leipzig, 1912), a critical text with commentary and apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: minucius-felix_octavius-lat_waltzing1912.txt
@@ -266,12 +260,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Brandt, CSEL 27 part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena
-    and apparatus. The Latin OCR is readable running text, so this file is ready to quote
-    once each quote is verified verbatim against it (INTAKE section 6); the English a Representative
-    speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
-    twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27
+    part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
@@ -293,12 +287,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Brandt, CSEL 27 part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena
-    and apparatus. The Latin OCR is readable running text, so this file is ready to quote
-    once each quote is verified verbatim against it (INTAKE section 6); the English a Representative
-    speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
-    twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27
+    part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
@@ -320,12 +314,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Brandt, CSEL 27 part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena
-    and apparatus. The Latin OCR is readable running text, so this file is ready to quote
-    once each quote is verified verbatim against it (INTAKE section 6); the English a Representative
-    speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
-    twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27
+    part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
@@ -353,12 +347,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Brandt, CSEL 19 (Vienna, 1890), a critical edition with prolegomena and apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 19
+    (Vienna, 1890), a critical edition with prolegomena and apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: lactantius_divinae-institutiones-epitome-lat_brandt-csel19.txt
@@ -369,13 +362,12 @@ works:
   confidence: assigned
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Brandt, CSEL 19 (1890), in the University of Leipzig''s machine-corrected TEI
-    (OCR corrected by the project, not a fresh human edition). Ready to quote once each quote
-    is verified verbatim against this file (INTAKE section 6); the English a Representative
-    speaks is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0,
-    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 19
+    (1890), in the University of Leipzig''s machine-corrected TEI (OCR corrected by the project,
+    not a fresh human edition). Ready to quote once each quote is verified verbatim against
+    this file (INTAKE section 6); the English a Representative speaks is rendered from it,
+    with the vendored English as a cross-check. CC BY-SA 4.0, so attribution and share-alike
+    travel with any quotation. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt
@@ -426,12 +418,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -442,12 +433,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -467,14 +458,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -493,12 +483,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -519,12 +508,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Kroymann, CSEL 47 (Vienna, 1906), a critical edition with apparatus. The Latin
-    OCR is readable running text, so this file is ready to quote once each quote is verified
-    verbatim against it (INTAKE section 6); the English a Representative speaks is rendered
-    from it, with the vendored English as a cross-check. Mirrors the English twin''s role
-    and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
@@ -534,12 +522,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -557,12 +545,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Kroymann, CSEL 47 (Vienna, 1906), a critical edition with apparatus. The Latin
-    OCR is readable running text, so this file is ready to quote once each quote is verified
-    verbatim against it (INTAKE section 6); the English a Representative speaks is rendered
-    from it, with the vendored English as a cross-check. Mirrors the English twin''s role
-    and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
@@ -572,12 +559,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -597,12 +584,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Kroymann, CSEL 47 (Vienna, 1906), a critical edition with apparatus. The Latin
-    OCR is readable running text, so this file is ready to quote once each quote is verified
-    verbatim against it (INTAKE section 6); the English a Representative speaks is rendered
-    from it, with the vendored English as a cross-check. Mirrors the English twin''s role
-    and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
@@ -612,12 +598,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -638,14 +624,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -666,14 +651,14 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. The Apologeticum is the principal reason
-    this file was vendored. Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. The Apologeticum is the principal reason this file was vendored.
+    Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -714,14 +699,13 @@ works:
   role: tradition
   confidence: provisional
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -740,12 +724,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -766,14 +749,13 @@ works:
   role: tradition
   confidence: provisional
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -793,12 +775,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -817,12 +798,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -843,12 +823,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -870,14 +849,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -896,12 +874,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Kroymann, CSEL 47 (Vienna, 1906), a critical edition with apparatus. The Latin
-    OCR is readable running text, so this file is ready to quote once each quote is verified
-    verbatim against it (INTAKE section 6); the English a Representative speaks is rendered
-    from it, with the vendored English as a cross-check. Mirrors the English twin''s role
-    and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
@@ -920,12 +897,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -944,14 +920,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -970,14 +945,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -996,14 +970,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -1023,14 +996,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -1050,12 +1022,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Kroymann, CSEL 47 (Vienna, 1906), a critical edition with apparatus. The Latin
-    OCR is readable running text, so this file is ready to quote once each quote is verified
-    verbatim against it (INTAKE section 6); the English a Representative speaks is rendered
-    from it, with the vendored English as a cross-check. Mirrors the English twin''s role
-    and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
@@ -1065,12 +1036,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -1091,14 +1062,13 @@ works:
   role: tradition
   confidence: provisional
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -1117,12 +1087,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -1141,14 +1110,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -1168,12 +1136,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Kroymann, CSEL 47 (Vienna, 1906), a critical edition with apparatus. The Latin
-    OCR is readable running text, so this file is ready to quote once each quote is verified
-    verbatim against it (INTAKE section 6); the English a Representative speaks is rendered
-    from it, with the vendored English as a cross-check. Mirrors the English twin''s role
-    and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
@@ -1183,12 +1150,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -1208,14 +1175,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
@@ -1234,12 +1200,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -1258,12 +1223,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Reifferscheid and Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus.
-    The Latin OCR is readable running text, so this file is ready to quote once each quote
-    is verified verbatim against it (INTAKE section 6); the English a Representative speaks
-    is rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
@@ -1284,14 +1248,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
@@ -1310,14 +1273,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel, 1853), an older critical
-    recension than CSEL. The Latin OCR is readable running text, so this file is ready to
-    quote once each quote is verified verbatim against it (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    It is the only public-domain Latin witness in the directory for this work, since the later
-    CSEL volumes that carry it are in copyright. Mirrors the English twin''s role and confidence
-    exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
 
     '
   source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt

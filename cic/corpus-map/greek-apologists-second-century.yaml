@@ -8,21 +8,20 @@ works:
   locus: div2 9.18
   role: context
   confidence: provisional
-  note: 'Ruled 2026-09-29 (Mark approved the Apologists window slate; see LIBRARY-DECISION-LOG.md):
-    this work leaves the Greek Apologists'' own roster. Public-domain scholarship reads it
-    as a Syriac reworking of the pseudo-Justin Discourse, a 3rd-century Greek revision at
-    earliest (Harnack 1897), not Origen''s patron Ambrose, and so outside this entry''s window
-    (124-200) and inside syriac-edessa-nisibis''s. It stays here only as context, which also
+  note: this work leaves the Greek Apologists' own roster. Public-domain scholarship reads
+    it as a Syriac reworking of the pseudo-Justin Discourse, a 3rd-century Greek revision
+    at earliest (Harnack 1897), not Origen's patron Ambrose, and so outside this entry's window
+    (124-200) and inside syriac-edessa-nisibis's. It stays here only as context, which also
     keeps its Syriac transmission row homed (every transmitted work needs its voice assigned
     somewhere). Earlier note follows. Syriac form of a Greek apology (parallel to the pseudo-Justin
-    Discourse to the Greeks, per the volume''s endnote). It is Christian apologetic, not Edessene
+    Discourse to the Greeks, per the volume's endnote). It is Christian apologetic, not Edessene
     as such; syr marks only where the Syriac transmission preserved it. This is Greek apologetic
-    that survives only in Syriac - the volume''s own headnote says the original was Greek,
+    that survives only in Syriac - the volume's own headnote says the original was Greek,
     because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
     to the Greeks. So greek-apologists-second-century is where the argument belongs, and syriac-edessa-nisibis
     is kept, which is how it reached us. `provisional` because the APOLOGIST half is a date
-    question - the entry''s window is 124-200 and this piece is undated - not because the
-    Syriac half is in doubt.'
+    question - the entry's window is 124-200 and this piece is undated - not because the Syriac
+    half is in doubt.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Apology of Aristides the Philosopher
   author: aristides
@@ -135,12 +134,12 @@ works:
   confidence: assigned
   note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf02_hermas-
     tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named here. PRIMARY
-    ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25 ruling): Otto, Athenagorae opera
-    (Corpus apologetarum vol. 7, Jena, 1857), hand-keyed in the Perseus / Open Greek and Latin
-    TEI. Ready to quote once each quote is verified verbatim against this file (INTAKE section
-    6); the English a Representative speaks is rendered from it, with the vendored English
-    as a cross-check. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
-    Mirrors the English twin''s role and confidence exactly.
+    ORIGINAL per cic/texts/INTAKE.md: Otto, Athenagorae opera (Corpus apologetarum vol. 7,
+    Jena, 1857), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready to quote once
+    each quote is verified verbatim against this file (INTAKE section 6); the English a Representative
+    speaks is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0,
+    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: athenagoras_legatio-grc_otto1857.txt
@@ -160,12 +159,12 @@ works:
   confidence: assigned
   note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf02_hermas-
     tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named here. PRIMARY
-    ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25 ruling): Otto, Athenagorae opera
-    (Corpus apologetarum vol. 7, Jena, 1857), hand-keyed in the Perseus / Open Greek and Latin
-    TEI. Ready to quote once each quote is verified verbatim against this file (INTAKE section
-    6); the English a Representative speaks is rendered from it, with the vendored English
-    as a cross-check. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
-    Mirrors the English twin''s role and confidence exactly.
+    ORIGINAL per cic/texts/INTAKE.md: Otto, Athenagorae opera (Corpus apologetarum vol. 7,
+    Jena, 1857), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready to quote once
+    each quote is verified verbatim against this file (INTAKE section 6); the English a Representative
+    speaks is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0,
+    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
+    role and confidence exactly.
 
     '
   source_file: athenagoras_de-resurrectione-grc_otto1857.txt
@@ -234,13 +233,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Archambault, Dialogue avec Tryphon (Paris, Picard, 1909), hand-keyed in the Perseus
-    / Open Greek and Latin TEI (Greek only; the French translation of the printed edition
-    is not in the file). Ready to quote once each quote is verified verbatim against this
-    file (INTAKE section 6); the English a Representative speaks is rendered from it, with
-    the vendored English as a cross-check. CC BY-SA 4.0, so attribution and share-alike travel
-    with any quotation. Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Archambault, Dialogue
+    avec Tryphon (Paris, Picard, 1909), hand-keyed in the Perseus / Open Greek and Latin TEI
+    (Greek only; the French translation of the printed edition is not in the file). Ready
+    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
+    English a Representative speaks is rendered from it, with the vendored English as a cross-check.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s role and confidence exactly.
 
     '
   source_file: justin-martyr_dialogue-with-trypho-grc_archambault1909.txt
@@ -249,11 +248,10 @@ works:
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   role: context
   confidence: provisional
-  note: Ruled 2026-09-29 (Mark approved the Apologists window slate; see LIBRARY-DECISION-LOG.md).
-    Not Justin's (Widely Accepted). Harnack 1904 dates it 221-302, probably the later half,
-    and other public-domain scholars put it at the end of the 2nd or early 3rd century, so
-    it lies mostly outside this entry's window (124-200). Kept here as context, not as the
-    world's own voice; the date dispute is Contested.
+  note: Not Justin's (Widely Accepted). Harnack 1904 dates it 221-302, probably the later
+    half, and other public-domain scholars put it at the end of the 2nd or early 3rd century,
+    so it lies mostly outside this entry's window (124-200). Kept here as context, not as
+    the world's own voice; the date dispute is Contested.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Hortatory Address to the Greeks
   author: justin_martyr
@@ -261,8 +259,7 @@ works:
     prolegomena))
   role: context
   confidence: provisional
-  note: "Ruled 2026-09-29 (Mark approved the Apologists window slate; see LIBRARY-DECISION-LOG.md):\
-    \ held here as context, mirroring the English twin's Greek Apologists row.\n      Latin\
+  note: "Held here as context, mirroring the English twin's Greek Apologists row.\n      Latin\
     \ translation (Otto) second witness of the ALREADY-PRESENT English entry for this work\n\
     (source_file anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named here.\
     \ SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6):\
@@ -341,12 +338,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Rauschen, S. Iustini Apologiae duae (Bonn, 1911), hand-keyed in the Perseus /
-    Open Greek and Latin TEI. Ready to quote once each quote is verified verbatim against
-    this file (INTAKE section 6); the English a Representative speaks is rendered from it,
-    with the vendored English as a cross-check. CC BY-SA 4.0, so attribution and share-alike
-    travel with any quotation. Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Rauschen, S. Iustini
+    Apologiae duae (Bonn, 1911), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready
+    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
+    English a Representative speaks is rendered from it, with the vendored English as a cross-check.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s role and confidence exactly.
 
     '
   source_file: justin-martyr_first-apology-grc_rauschen1911.txt
@@ -365,12 +362,12 @@ works:
   role: tradition
   confidence: assigned
   note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Rauschen, S. Iustini Apologiae duae (Bonn, 1911), hand-keyed in the Perseus /
-    Open Greek and Latin TEI. Ready to quote once each quote is verified verbatim against
-    this file (INTAKE section 6); the English a Representative speaks is rendered from it,
-    with the vendored English as a cross-check. CC BY-SA 4.0, so attribution and share-alike
-    travel with any quotation. Mirrors the English twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Rauschen, S. Iustini
+    Apologiae duae (Bonn, 1911), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready
+    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
+    English a Representative speaks is rendered from it, with the vendored English as a cross-check.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s role and confidence exactly.
 
     '
   source_file: justin-martyr_second-apology-grc_rauschen1911.txt
@@ -411,13 +408,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark''s 2026-09-25
-    ruling): Lake, The Apostolic Fathers vol. 2 (Loeb, 1917), hand-keyed in the Perseus /
-    Open Greek and Latin TEI (Greek only; the facing English is not in the file). Ready to
-    quote once each quote is verified verbatim against this file (INTAKE section 6); the English
-    a Representative speaks is rendered from it, with the vendored English as a cross-check.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s role and confidence exactly.
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Lake, The Apostolic
+    Fathers vol. 2 (Loeb, 1917), hand-keyed in the Perseus / Open Greek and Latin TEI (Greek
+    only; the facing English is not in the file). Ready to quote once each quote is verified
+    verbatim against this file (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0, so attribution
+    and share-alike travel with any quotation. Mirrors the English twin''s role and confidence
+    exactly.
 
     '
   source_file: pseudo-justin_epistle-to-diognetus-grc_lake1917.txt

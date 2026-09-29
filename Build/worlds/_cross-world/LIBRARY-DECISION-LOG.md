@@ -13,6 +13,32 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — Correction: the Syriac Tatian record's clause is about the Encratite charge, not Justin's death
+
+**What is corrected.** The entry below (window slate approved) says the
+Syriac world's statement that Tatian's *Address* was "written before the
+events Eusebius describes" is over-broad because it fails for Justin's
+death. That characterization was wrong. Round 6's independent review
+(`Build/worlds/grkap/Review-Artifacts/Step0_Round6_Review.md`, R38) checked
+the record: in `records/syr/source/syr.source.tatian-address-to-greeks.md`
+the clause sits inside the paragraph headed "The Encratite charge, handled
+honestly", so "the events Eusebius describes" are the Encratite events of
+HE IV.29, and nothing in `records/syr/` speaks of Justin's death. The
+evidence supports the clause for that reading: the *Address* precedes
+Tatian's break with the Church (Dominant Modern Reconstruction).
+
+**What the Syriac record does get wrong, on the review's reading.** It says
+"Eusebius accuses him", where Eusebius reports the charge from Irenaeus
+(Adv. haer. I.28.1), the earlier source, and its source record carries
+`formation_confidence: Documented` for a dating that is inferred. Neither
+record is edited by this entry. The Greek Apologists' Step 0 states these
+points without altering the Syriac records.
+
+**Supersedes.** Only that one sentence of the slate entry; the slate itself
+is unchanged.
+
+---
+
 ## 2026-09-29 — Window slate for the Greek and Latin Apologists approved
 
 **Ruling, Mark's own words**, on the work-by-work slate shown to him: "yes,

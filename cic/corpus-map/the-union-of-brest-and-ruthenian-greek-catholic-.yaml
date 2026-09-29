@@ -9,8 +9,7 @@ works:
     Pars tertia (Charity) at 28672
   role: context
   confidence: provisional
-  note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md).
-    Same placement and reasoning as the English version of the same confession.
+  note: Same placement and reasoning as the English version of the same confession.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
 - work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
@@ -19,8 +18,7 @@ works:
     5444; Robertson's notice (line 107) and Overbeck's preface (line 145) are editorial
   role: context
   confidence: provisional
-  note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md).
-    Written in the Orthodox Kyivan church that the Union of Brest (1596) divided. Placed on
-    the entry's window and place; the file's own text was not checked for its treatment of
-    the union, so the fit is provisional.
+  note: Written in the Orthodox Kyivan church that the Union of Brest (1596) divided. Placed
+    on the entry's window and place; the file's own text was not checked for its treatment
+    of the union, so the fit is provisional.
   source_file: mogila_orthodox-confession_overbeck1898.txt

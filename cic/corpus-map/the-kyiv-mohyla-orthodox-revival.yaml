@@ -9,9 +9,9 @@ works:
     Pars tertia (Charity) at 28672
   role: tradition
   confidence: assigned
-  note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md).
-    Greek and Latin text of Mogila's Confession, the original-language witness for the entry's
-    own charter. Second witness for exact Greek wording because of the scan's two-column layout.
+  note: Greek and Latin text of Mogila's Confession, the original-language witness for the
+    entry's own charter. Second witness for exact Greek wording because of the scan's two-column
+    layout.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
 - work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
@@ -20,8 +20,7 @@ works:
     5444; Robertson's notice (line 107) and Overbeck's preface (line 145) are editorial
   role: tradition
   confidence: assigned
-  note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md).
-    Peter Mogila was Metropolitan of Kyiv and this confession is the revival's own doctrinal
+  note: Peter Mogila was Metropolitan of Kyiv and this confession is the revival's own doctrinal
     charter (approved at Iasi 1642). English version only, lightly modernised; the exact wording
     is in Kimmel's Greek and Latin.
   source_file: mogila_orthodox-confession_overbeck1898.txt

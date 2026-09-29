@@ -9,11 +9,10 @@ works:
     texts under running heads 'Responsum ad primum' (for example from line 23148)
   role: tradition
   confidence: provisional
-  note: 'Cross-world placement, Mark''s instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md).
-    Lutheran voice: the Tubingen theologians'' letters and their defence of the Augsburg Confession
-    to the Patriarch of Constantinople, 1573-81. They are Tubingen theologians (Andreae, Crusius
-    and others), not Wittenberg''s faculty, and the volume was printed at Wittenberg in 1584;
-    so the fit to this entry is provisional. Latin only in this file.'
+  note: 'Lutheran voice: the Tubingen theologians'' letters and their defence of the Augsburg
+    Confession to the Patriarch of Constantinople, 1573-81. They are Tubingen theologians
+    (Andreae, Crusius and others), not Wittenberg''s faculty, and the volume was printed at
+    Wittenberg in 1584; so the fit to this entry is provisional. Latin only in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
 - work: Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession,
     1576-1581 (Latin translation)
@@ -22,9 +21,8 @@ works:
     from 31218, 'Tertium' from 51252
   role: context
   confidence: provisional
-  note: 'Cross-world placement, Mark''s instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md).
-    The view of Lutheranism from outside: the Patriarch''s three answers to the Lutheran theologians.
-    Latin only; the Greek columns are not recovered in this file.'
+  note: 'The view of Lutheranism from outside: the Patriarch''s three answers to the Lutheran
+    theologians. Latin only; the Greek columns are not recovered in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
 - work: A Brief Explanation of the Ten Commandments, the Creed, and the Lord's Prayer
   author: luther

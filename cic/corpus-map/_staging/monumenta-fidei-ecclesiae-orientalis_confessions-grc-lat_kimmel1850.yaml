@@ -63,7 +63,7 @@ assignments:
     - the-kyiv-mohyla-orthodox-revival
     role: tradition
     confidence: assigned
-    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Greek and
+    note: Greek and
       Latin text of Mogila's Confession, the original-language witness for the entry's own charter. Second
       witness for exact Greek wording because of the scan's two-column layout.
   - work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
@@ -74,7 +74,7 @@ assignments:
     - the-union-of-brest-and-ruthenian-greek-catholic-
     role: context
     confidence: provisional
-    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Same placement
+    note: Same placement
       and reasoning as the English version of the same confession.
   - work: Confession of Cyril Lucaris (Greek with Latin)
     author: lucaris
@@ -83,7 +83,7 @@ assignments:
     - the-reformed-cities-zurich-and-geneva
     role: context
     confidence: provisional
-    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Lucaris's
+    note: Lucaris's
       Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine; whether Lucaris himself
       was a Calvinist is disputed, and the Orthodox synods of 1638-72 condemned it as Calvinist. Placed
       as the view from an Orthodox patriarch's confession that overlaps Reformed teaching, never as the
@@ -95,6 +95,6 @@ assignments:
     - orthodoxy-under-the-ottomans-1650-1821
     role: tradition
     confidence: assigned
-    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Placed on
+    note: Placed on
       the entry's window (1650-1821). Greek and Latin text of the 1672 Synod; second witness for exact Greek
       because of scan layout.
