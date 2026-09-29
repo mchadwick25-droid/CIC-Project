@@ -95,8 +95,10 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import io
 import subprocess
 import sys
+import tokenize
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -1248,6 +1250,64 @@ def classify_line(
     return "KEEP"
 
 
+# ---------------------------------------------------------------------------
+# The build gates (engine/m10) name the process vocabulary they detect, and
+# the review-file header fixes the field names "Reviewer model" and "Drafter
+# model". Those code lines and header fields are the subject of the code, not
+# narration. The rule is narrow: only these three cases, nothing broader.
+# ---------------------------------------------------------------------------
+_GATE_MODULE = re.compile(r"^engine/m10/[^/]+\.py$")
+_GATE_TEST_MODULE = re.compile(r"^engine/m10/tests/[^/]+\.py$")
+_GATE_KEEP_PATTERNS = {"reviewer", "route-cue"}
+_REVIEW_HEADER_FIELD = re.compile(r"^\s*(?:Reviewer|Drafter) (?:model|agent)\s*:")
+
+
+def _python_code_lines(text: str) -> set[int]:
+    """Line numbers that hold code: a token other than a comment or a bare
+    string statement (a docstring), and no comment on the line."""
+    code: set[int] = set()
+    commented: set[int] = set()
+    previous = tokenize.NEWLINE
+    tokens = []
+    try:
+        tokens = list(tokenize.generate_tokens(io.StringIO(text).readline))
+    except (tokenize.TokenError, IndentationError, SyntaxError):
+        return set()
+    structural = {tokenize.NEWLINE, tokenize.NL, tokenize.INDENT, tokenize.DEDENT, tokenize.ENDMARKER}
+    for index, tok in enumerate(tokens):
+        if tok.type == tokenize.COMMENT:
+            commented.add(tok.start[0])
+        elif tok.type in structural:
+            pass
+        else:
+            following = next((t for t in tokens[index + 1 :] if t.type not in (tokenize.COMMENT, tokenize.NL)), None)
+            bare_string = (
+                tok.type == tokenize.STRING
+                and previous in (tokenize.NEWLINE, tokenize.INDENT, tokenize.DEDENT, tokenize.NL)
+                and following is not None
+                and following.type in (tokenize.NEWLINE, tokenize.ENDMARKER)
+            )
+            if not bare_string:
+                code.update(range(tok.start[0], tok.end[0] + 1))
+        if tok.type not in (tokenize.COMMENT, tokenize.NL):
+            previous = tok.type
+    return code - commented
+
+
+def _gate_vocabulary_category(rel: Path, line: str, matched: list[str], category: str, code_lines: set[int], line_no: int) -> str:
+    rel_s = rel.as_posix()
+    if category not in BLOCKING_CATEGORIES:
+        return category
+    if rel.suffix == ".md" and _REVIEW_HEADER_FIELD.match(line):
+        return "KEEP"
+    if line_no in code_lines:
+        if _GATE_MODULE.match(rel_s) and set(matched) <= _GATE_KEEP_PATTERNS:
+            return "KEEP"
+        if _GATE_TEST_MODULE.match(rel_s):
+            return "PROTECTED"
+    return category
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
     try:
@@ -1289,6 +1349,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             else:
                 change_history_block_lines.update(_paragraph_lines(raw_lines, i))
 
+    code_lines = _python_code_lines(text) if path.suffix == ".py" else set()
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
@@ -1304,6 +1365,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             category = "PROTECTED"
         else:
             category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file)
+            category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
 

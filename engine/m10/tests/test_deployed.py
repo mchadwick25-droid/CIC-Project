@@ -68,6 +68,38 @@ def test_guard_refuses_other_shapes_and_accepts_only_the_package_prompt():
     assert assert_compiled_target(ok) == ok.resolve()
 
 
+def test_guard_accepts_the_default_local_package_cache_layout():
+    fetched = REPO_ROOT / "packages" / "packages" / "gallic" / "2026-01-01T00-00-00Z" / "compiled" / "prompt.txt"
+    assert assert_compiled_target(fetched) == fetched.resolve()
+
+
+def test_guard_still_refuses_what_is_not_a_package_prompt_even_under_a_packages_directory():
+    stray = REPO_ROOT / "packages" / "gallic" / "compiled" / "prompt.txt"
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(stray)
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(REPO_ROOT / "Build" / "packages" / "gallic" / "2026-01-01T00-00-00Z" / "compiled" / "prompt.txt")
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(REPO_ROOT / "Archive" / "packages" / "gallic" / "2026-01-01T00-00-00Z" / "compiled" / "prompt.txt")
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(REPO_ROOT / "packages" / "gallic" / "2026-01-01T00-00-00Z" / "compiled" / "Permanent_Prompt.txt")
+
+
+def test_guard_refuses_a_symlink_from_a_package_path_to_a_legacy_file(tmp_path):
+    legacy = tmp_path / "x_Representative_Permanent_Prompt_Y.txt"
+    legacy.write_text("legacy")
+    link = tmp_path / "packages" / "zz" / "p1" / "compiled" / "prompt.txt"
+    link.parent.mkdir(parents=True)
+    link.symlink_to(legacy)
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(link)
+
+
+def test_guard_refuses_a_relative_path_that_climbs_out_of_packages(tmp_path):
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(REPO_ROOT / "packages" / ".." / "Build" / "worlds" / "gallic" / "compiled" / "prompt.txt")
+
+
 def test_guard_accepts_a_compiled_prompt_outside_the_repository(tmp_path):
     target = tmp_path / "pin" / "compiled" / "prompt.txt"
     assert assert_compiled_target(target) == target.resolve()
@@ -92,10 +124,20 @@ def test_confirmed_living_traditions_missing_from_prompt_fails():
     assert _ids(findings) == ["k:living-traditions"]
 
 
-def test_registry_living_flag_without_text_is_a_note_not_a_failure():
-    findings, notes = check_prompt_content("w", _prompt(), _records(), {"living_tradition_flag": True}, "p")
+def test_registry_living_flag_without_text_is_a_note_for_a_grandfathered_world():
+    findings, notes = check_prompt_content("syr", _prompt(), _records(), {"living_tradition_flag": True}, "p")
     assert findings == []
     assert any(n.startswith("living_traditions") for n in notes)
+
+
+def test_registry_living_flag_without_text_fails_a_world_that_is_not_grandfathered():
+    findings, notes = check_prompt_content("w", _prompt(), _records(), {"living_tradition_flag": True}, "p")
+    assert _ids(findings) == ["k:living-traditions"]
+    assert not any(n.startswith("living_traditions") for n in notes)
+
+
+def test_registry_without_the_living_flag_needs_no_living_traditions_text():
+    assert check_prompt_content("w", _prompt(), _records(), {"living_tradition_flag": False}, "p")[0] == []
 
 
 def test_missing_self_reference_hardening_names_each_absent_rule():
@@ -260,3 +302,54 @@ def test_probe_result_discovery_skips_reviews_and_templates(tmp_path):
     (world / "w_Phase5_Review_Round1.md").write_text("x")
     (world / "Probe_Result_Record_Template.md").write_text("x")
     assert [p.name for p in deployed.probe_result_files("w", root)] == ["w_Phase5_Validation.md"]
+
+
+def test_citations_with_no_files_checks_the_worlds_build_documents_and_result_files(tmp_path):
+    root = _probe_root(tmp_path, "Tested pin 2026-09-29T00-00-00Z\n")
+    world = root / "Build" / "worlds" / "w"
+    (world / "Doc_01_Identity.md").write_text("x")
+    (world / "Doc_01_Review_Round1.md").write_text("x")
+    names = [p.name for p in deployed.citation_files("w", root)]
+    assert names == ["Doc_01_Identity.md", "w_Phase5_Validation.md"]
+
+
+def test_the_citations_command_runs_with_only_a_world_code(capsys):
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    sub = parser.add_subparsers(dest="command", required=True)
+    deployed.add_parser(sub)
+    args = parser.parse_args(["citations", "no-such-world"])
+    assert args.files == []
+    assert deployed.run(args) == 1
+    assert "d:no-documents" in capsys.readouterr().out
+
+
+def test_the_probes_command_also_runs_the_result_label_check(tmp_path, capsys, monkeypatch):
+    import argparse
+
+    root = _probe_root(tmp_path, "Tested pin 2026-09-29T00-00-00Z\n\n| Probe ID | Result | Basis | Transcript |\n|---|---|---|---|\n| SA-1 | PASS | authored | - |\n")
+    real = deployed.probe_result_files
+    monkeypatch.setattr(deployed, "check_probe_pins", lambda code: check_probe_pins(code, root))
+    monkeypatch.setattr(deployed, "probe_result_files", lambda code, base=root: real(code, base))
+    parser = argparse.ArgumentParser()
+    sub = parser.add_subparsers(dest="command", required=True)
+    deployed.add_parser(sub)
+    assert deployed.run(parser.parse_args(["probes", "w"])) == 1
+    assert "m:authored-scored" in capsys.readouterr().out
+
+
+def test_the_loader_gets_past_the_guard_for_a_package_fetched_into_the_default_cache(tmp_path, monkeypatch):
+    from engine.m2.loader_stub import PackageRefused
+    from engine.m4.world_loader import LazyWorldLoader
+
+    monkeypatch.setattr(deployed, "REPO_ROOT", tmp_path)
+    package = tmp_path / "packages" / "packages" / "zz" / "2026-09-26T20-12-08Z"
+    (package / "compiled").mkdir(parents=True)
+    with pytest.raises(PackageRefused) as raised:
+        LazyWorldLoader().load("zz", package_dir=package, expected_manifest_hash="sha256:0")
+    assert not isinstance(raised.value, ProbeTargetRefused) and "no manifest.json" in str(raised.value)
+    stray = tmp_path / "Build" / "packages" / "zz" / "2026-09-26T20-12-08Z"
+    (stray / "compiled").mkdir(parents=True)
+    with pytest.raises(ProbeTargetRefused):
+        LazyWorldLoader().load("zz", package_dir=stray, expected_manifest_hash="sha256:0")

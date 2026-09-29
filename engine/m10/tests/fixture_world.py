@@ -30,6 +30,8 @@ def review_text(round_number: int = 1, *, cleared: bool = True) -> str:
     fields = {
         "Reviewer model": "claude-opus-5-5",
         "Drafter model": "claude-sonnet-5-5",
+        "Reviewer agent": "review-session-1",
+        "Drafter agent": "draft-session-1",
         "Round": str(round_number),
         "Truncation check, method 1": "final line of every section read",
         "Truncation check, method 2": "section count against the table of contents",
@@ -41,7 +43,7 @@ def review_text(round_number: int = 1, *, cleared: bool = True) -> str:
 
 
 def build_world(root: Path) -> Path:
-    write(root, f"records/worlds/{CODE}.yaml", f"kind: formation\nworld_id: fx-world\ncensus_id: {SLUG}\n")
+    write(root, f"records/worlds/{CODE}.yaml", f"kind: formation\nworld_id: fx-world\ncensus_id: {SLUG}\nsafety_adjacent: false\n")
     write(root, "cic-website/data/world-census.json", json.dumps({"movements": [{"id": SLUG, "status": "Possible Future World"}]}))
     write(root, f"cic/texts/{TEXT_FILE}", TEXT)
     write(root, "cic/texts/REGISTRY.yaml", f"- filename: {TEXT_FILE}\n  supplied_by: Mark\n  date_added: '2026-09-01'\n")

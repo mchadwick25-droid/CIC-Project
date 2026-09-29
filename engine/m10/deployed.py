@@ -71,7 +71,8 @@ def assert_compiled_target(path) -> Path:
     """Return the resolved path when it is a compiled package prompt; raise
     ProbeTargetRefused for a legacy Permanent Prompt or Capsule file, for
     anything under Build/ or Archive/, and for any other shape. Inside the
-    repository only packages/<code>/<pin>/compiled/prompt.txt is accepted."""
+    repository only <code>/<pin>/compiled/prompt.txt under a directory named
+    packages is accepted: packages/ itself, or a package cache kept there."""
     target = Path(path).resolve()
     if _LEGACY_NAME.search(str(target.name)) or any(_LEGACY_NAME.search(part) for part in target.parts[-4:]):
         raise ProbeTargetRefused(f"{target}: a legacy prompt or capsule file is never a test target")
@@ -81,10 +82,10 @@ def assert_compiled_target(path) -> Path:
         inside = target.relative_to(REPO_ROOT).parts
     except ValueError:
         return target
-    if inside[0] in _LEGACY_TREES:
-        raise ProbeTargetRefused(f"{target}: files under {inside[0]}/ are never a test target")
-    if not (len(inside) == 5 and inside[0] == "packages" and inside[3:] == ("compiled", "prompt.txt")):
-        raise ProbeTargetRefused(f"{target}: only packages/<code>/<pin>/compiled/prompt.txt is a test target")
+    if any(part in _LEGACY_TREES for part in inside):
+        raise ProbeTargetRefused(f"{target}: files under {next(p for p in inside if p in _LEGACY_TREES)}/ are never a test target")
+    if not (len(inside) >= 5 and inside[-5] == "packages"):
+        raise ProbeTargetRefused(f"{target}: only <code>/<pin>/compiled/prompt.txt under packages/ is a test target")
     return target
 
 
@@ -207,6 +208,12 @@ def _num(token: str) -> int:
     return sum(_NUM_WORDS[p] for p in parts)
 
 
+def _grandfathered() -> frozenset[str]:
+    from engine.m9.enforce import GRANDFATHERED_WORLDS
+
+    return GRANDFATHERED_WORLDS
+
+
 def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry: dict, where: str) -> tuple[list[Finding], list[str]]:
     findings: list[Finding] = []
     notes: list[str] = []
@@ -221,7 +228,11 @@ def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry
         elif name == "telos":
             notes.append("telos: world_core has no telos field and the schema defines none, so nothing can be checked")
         elif entry.get("living_tradition_flag"):
-            notes.append("living_traditions: the registry flags a living tradition but world_core has no living_traditions text; a confirmed Article 29 determination would be missing from the prompt")
+            reason = "the registry flags a living tradition but world_core has no living_traditions text, so the confirmed determination is missing from the prompt"
+            if code in _grandfathered():
+                notes.append(f"living_traditions: {reason}")
+            else:
+                findings.append(Finding(where, "k:living-traditions", reason))
 
     bullet = next((ln for ln in prompt.splitlines() if ln.lstrip().startswith("- [self-reference]")), None)
     if bullet is None:
@@ -389,6 +400,14 @@ def probe_result_files(code: str, root: Path = REPO_ROOT) -> list[Path]:
     )
 
 
+def citation_files(code: str, root: Path = REPO_ROOT) -> list[Path]:
+    """The world's build documents (its top-level markdown files, review files
+    aside) and every probe-results file."""
+    base = root / "Build" / "worlds" / code
+    documents = [p for p in sorted(base.glob("*.md")) if not _NOT_RESULT_NAME.search(p.name)] if base.is_dir() else []
+    return sorted({*documents, *probe_result_files(code, root)})
+
+
 def check_probe_pins(code: str, root: Path = REPO_ROOT) -> Report:
     report = Report("probes")
     package_root = root / "packages" / code
@@ -461,7 +480,7 @@ def add_parser(subparsers) -> None:
 
     p = subparsers.add_parser("citations", help="every record id and cic/texts path in the named files resolves and has the right type")
     p.add_argument("world_code")
-    p.add_argument("files", nargs="+")
+    p.add_argument("files", nargs="*", help="files to check (default: the world's build documents and every probe-results file)")
     _json_flag(p)
 
     p = subparsers.add_parser("probes", help="the runner tests only compiled/prompt.txt; every saved probe-results file names its pin")
@@ -475,10 +494,12 @@ def run(args) -> int:
     if args.command == "deployed":
         reports = [check_deployed(code, check_stale=not args.no_stale)]
     elif args.command == "citations":
-        files = [Path(f) if Path(f).is_absolute() else Path.cwd() / f for f in args.files]
-        reports = [check_citations(code, files)]
+        files = [Path(f) if Path(f).is_absolute() else Path.cwd() / f for f in args.files] or citation_files(code)
+        reports = [check_citations(code, files) if files else Report("citations", [Finding(f"Build/worlds/{code}", "d:no-documents", "no build documents or probe-results files to check")])]
     elif args.command == "probes":
-        reports = [check_probe_pins(code)]
+        from .validation import check_result_labels
+
+        reports = [check_probe_pins(code), check_result_labels(probe_result_files(code))]
         if args.runner_dry_run:
             reports.append(runner_dry_run(code))
     else:

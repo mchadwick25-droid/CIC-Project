@@ -62,3 +62,16 @@ def formation_world_keys(registry: dict | None = None) -> list[str]:
     need the fixture ask for it by name."""
     registry = registry if registry is not None else load_registry()
     return sorted(k for k, v in registry.items() if not is_fixture(v))
+
+
+# The project lead sets this yes/no field on a world's registry entry at the
+# Library handoff: True when the Representative's material sits near
+# self-harm, abuse, or another safety-sensitive subject. The full-validation
+# trigger reads it. Only a YAML boolean counts.
+SAFETY_ADJACENT_KEY = "safety_adjacent"
+
+
+def safety_adjacent(entry: dict | None) -> bool | None:
+    """The entry's safety_adjacent value, or None when it is absent or not a boolean."""
+    value = (entry or {}).get(SAFETY_ADJACENT_KEY)
+    return value if isinstance(value, bool) else None

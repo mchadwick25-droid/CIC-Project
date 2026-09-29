@@ -12,13 +12,15 @@ from typing import Callable
 
 import yaml
 
-from .common import PLACEHOLDER, REPO_ROOT, Finding, Report, markdown_tables, read_text, registry_entry, rel, world_dir
+from .common import PLACEHOLDER, REPO_ROOT, Finding, Report, markdown_tables, read_text, registry_entry, rel, safety_adjacent_status, world_dir
 from .gaps import LEDGER_NAME
 from .matching import matched, split_chunks
 from .quotes import check_quotes
 from .rounds import ROUND_CAP, review_files
 
-CLEARED = re.compile(r"approved to proceed", re.IGNORECASE)
+_VERDICT_LABEL = r"(?:(?:document\s+|recommended\s+)?(?:verdict|disposition|status)|recommendation)\s*:\s*(?:cleared review\s*[-\u2013\u2014]+\s*)?"
+POSITIVE_VERDICT = re.compile(rf"^(?:{_VERDICT_LABEL})?approved to proceed\b", re.IGNORECASE)
+NEGATIVE_VERDICT = re.compile(rf"^(?:{_VERDICT_LABEL})?not\b[^.\n]{{0,60}}?approved to proceed", re.IGNORECASE)
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history|superseded", re.IGNORECASE)
 _DATE = re.compile(r"\b\d{4}-\d{2}-\d{2}\b")
 DOSSIER_SECTIONS = (
@@ -153,8 +155,18 @@ def _file_mentioned(filename: str, text: str) -> bool:
     return filename in text or stem in text or bool(re.search(rf"\b{re.escape(prefix)}\b", text))
 
 
+def _verdict_lines(text: str) -> list[str]:
+    return [re.sub(r"[*_`]", "", ln).lstrip("> -#\t ").strip() for ln in text.splitlines()]
+
+
 def _has_clearance(review_paths: list[Path]) -> bool:
-    return any(CLEARED.search(read_text(p)) for p in review_paths)
+    """True when a verdict line reads 'Approved to proceed' (alone or after a
+    Verdict, Disposition or Status label) and no verdict line in any of the
+    round's files reads 'Not approved to proceed'."""
+    lines = [ln for p in review_paths for ln in _verdict_lines(read_text(p))]
+    if any(NEGATIVE_VERDICT.match(ln) for ln in lines):
+        return False
+    return any(POSITIVE_VERDICT.match(ln) for ln in lines)
 
 
 def _check_01(w: World) -> list[Finding]:
@@ -165,6 +177,11 @@ def _check_01(w: World) -> list[Finding]:
     if not world_id:
         return [Finding(path, "handoff-01-identity", "registry entry has no world_id")]
     out = []
+    from engine.m9.enforce import GRANDFATHERED_WORLDS
+
+    value, reason = safety_adjacent_status(w.code, w.entry)
+    if value is None and w.code not in GRANDFATHERED_WORLDS:
+        out.append(Finding(path, "handoff-01-identity", reason))
     records = w.root / "records" / w.code
     if records.is_dir():
         bad = []
@@ -410,7 +427,7 @@ def _check_12(w: World, docs: dict[int, Path | None]) -> list[Finding]:
     return out
 
 
-def run_handoff(code: str, deps: Deps | None = None, *, quotes: bool = True, verbose: bool = False) -> list[Report]:
+def run_handoff(code: str, deps: Deps | None = None, *, quotes: bool = True) -> list[Report]:
     deps = deps or Deps()
     root = deps.root
     entry = registry_entry(code, root)
@@ -430,10 +447,10 @@ def run_handoff(code: str, deps: Deps | None = None, *, quotes: bool = True, ver
     add("handoff-06-corpus-map", _check_06(w, deps))
     add("handoff-07-texts", _check_07(w, deps))
     if quotes:
-        q_findings, q_notes = check_quotes(code, [p for p in docs.values() if p] + source_registry_files(code, root), root, slug=slug, verbose=verbose)
+        q_findings, q_notes = check_quotes(code, [p for p in docs.values() if p] + source_registry_files(code, root), root, slug=slug)
         add("handoff-08-quotes", q_findings, q_notes)
     else:
-        reports.append(Report("handoff-08-quotes", notes=["skipped by --skip-quotes"], skipped=True))
+        reports.append(Report("handoff-08-quotes", notes=["skipped by --skip-quotes; the handoff is incomplete until check 8 has run"], skipped=True, incomplete=True))
     add("handoff-09-open-questions", _check_09(w))
     add("handoff-10-ledger", _check_10(w))
     add("handoff-11-narration", _check_11(w, docs, deps))

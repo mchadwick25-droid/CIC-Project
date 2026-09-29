@@ -9,8 +9,8 @@ can notice that five worlds answer a question one way and the sixth answers
 it another. This module is that missing view.
 
 The line it polices is the one the fleet's own cross-system consistency
-audit drew (Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_
-2026-08-26.md): a world may differ from its siblings in SUBSTANCE - how many
+audit drew (the CiC_Cross_System_Consistency_Audit document in
+Build/worlds/_cross-world/): a world may differ from its siblings in SUBSTANCE - how many
 terms it holds, how rich its quote corpus is, which cells it can only answer
 with an honest limit - and may never differ in the SHAPE the pipeline moves
 that substance through. Six different historical records are supposed to look
@@ -102,7 +102,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     # invisible to load_registry() and everything downstream of it, gates
     # and checks alike. Belongs to lpc's own build thread; remove this
     # entry once lpc is registered.
-    "unregistered-world-dir/lpc": "2026-09-25 CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
+    "unregistered-world-dir/lpc": "CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
     #
     # required-record-type/witt/* and required-site-json/witt:
     # check_required_record_types_and_site_json's own findings, keyed per
@@ -112,16 +112,21 @@ ACCEPTED_OPEN: dict[str, str] = {
     # has no compiled cic-website/data/worlds/lutheran-wittenberg-and-
     # its-congregations.json - the Website V2 migration has not reached
     # witt yet. Belongs to witt's own build thread.
-    "required-record-type/witt/world_front": "2026-09-25 CI/tooling audit - witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-record-type/witt/facilitator_brief": "2026-09-25 CI/tooling audit - witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-site-json/witt": "2026-09-25 CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
+    "required-record-type/witt/world_front": "CI/tooling audit - witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-record-type/witt/facilitator_brief": "CI/tooling audit - witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-site-json/witt": "CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
     # required-record-type/rzg/search_record: rzg (admitted) carries a
     # world_front and a facilitator_brief record and its site JSON is
     # compiled and committed, but it has zero search_record records - the
     # Search feature's own migration has not reached rzg yet. Belongs to
     # rzg's own build thread.
-    "required-record-type/rzg/search_record": "2026-09-25 CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
+    "required-record-type/rzg/search_record": "CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
 }
+
+# A waiver above on a world outside engine.m9.enforce.GRANDFATHERED_WORLDS is
+# allowed only with an entry here, keyed the same way, naming the project lead
+# who approved it (the reason string is then its owning finding).
+ACCEPTED_OPEN_APPROVED_BY: dict[str, str] = {}
 
 
 # FIRST-PASS coverage ranges, asserted here to be checked and corrected, not derived.
@@ -615,6 +620,7 @@ def check_census_registry_state(*, registry, worlds, **_) -> list[Finding]:
 # fifteen-gate battery (which never mentions Website V2's own record
 # types at all) and reach 'admitted' with no front page ever compiled.
 _REQUIRED_ADMITTED_RECORD_TYPES = ("world_front", "facilitator_brief", "search_record")
+REQUIRED_TYPES_STATES = ("admitted", "open")
 
 
 def check_required_record_types_and_site_json(*, registry, records, worlds, **_) -> list[Finding]:
@@ -626,7 +632,7 @@ def check_required_record_types_and_site_json(*, registry, records, worlds, **_)
     compiled and committed."""
     findings = []
     for w in worlds:
-        if registry[w].get("state") not in ("admitted", "open"):
+        if registry[w].get("state") not in REQUIRED_TYPES_STATES:
             continue
         present = {r.get("record_type") for r in records[w].values()}
         for record_type in _REQUIRED_ADMITTED_RECORD_TYPES:

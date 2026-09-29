@@ -53,10 +53,10 @@ def test_file_can_be_cited_by_volume_prefix(tmp_path):
     assert findings == []
 
 
-def test_quotation_of_a_project_document_is_exempt_and_visible_in_verbose(tmp_path):
+def test_quotation_of_a_project_document_is_exempt_and_always_reported(tmp_path):
     root = build_world(tmp_path)
     body = 'The dossier asks "whether the northern collection belongs to a sibling world" openly.\n'
-    findings, notes = _run(root, body, verbose=True)
+    findings, notes = _run(root, body)
     assert findings == []
     assert any("project document" in n for n in notes)
 
@@ -87,3 +87,23 @@ def test_screen_never_accepts_what_the_matcher_rejects(tmp_path):
     assert store.verify("alpha beta gamma delta epsilon zeta", "a_x.txt").verified
     result = store.verify("alpha beta gamma theta eta epsilon", "a_x.txt")
     assert result is None or not result.verified
+
+
+INVENTED = "the presbyters of the northern hills burned every copy of the letter in the square"
+
+
+def test_an_invented_quotation_repeated_in_a_second_step_document_is_not_exempt(tmp_path):
+    root = build_world(tmp_path)
+    body = f'They record that "{INVENTED}" without a source.\n'
+    doc1 = _doc(root, body)
+    doc2 = write(root, f"Build/worlds/{CODE}/Doc_02_Source_Ecology.md", body)
+    findings, _ = check_quotes(CODE, [doc1, doc2], root, slug=SLUG)
+    assert [f.check for f in findings] == ["quotes-unverified", "quotes-unverified"]
+
+
+def test_an_invented_quotation_copied_into_the_source_registry_or_the_dossier_is_not_exempt(tmp_path):
+    root = build_world(tmp_path)
+    write(root, f"Build/worlds/{CODE}/Source_Registry.md", f'# Source Registry\n\nNote: "{INVENTED}".\n')
+    write(root, f"Build/worlds/_cross-world/dossiers/{SLUG}_Source_Readiness_Dossier.md", f'# Dossier\n\n"{INVENTED}".\n')
+    findings, _ = _run(root, f'They record that "{INVENTED}".\n')
+    assert [f.check for f in findings] == ["quotes-unverified"]

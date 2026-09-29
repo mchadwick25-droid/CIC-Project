@@ -36,7 +36,7 @@ def _load_optional() -> list:
 
 
 def cmd_handoff(args: argparse.Namespace) -> int:
-    reports = run_handoff(args.world_code, Deps(root=args.root), quotes=not args.skip_quotes, verbose=args.verbose)
+    reports = run_handoff(args.world_code, Deps(root=args.root), quotes=not args.skip_quotes)
     return emit(reports, as_json=args.json)
 
 
@@ -83,8 +83,7 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("handoff", help="the twelve handoff checks, including quote re-verification")
     p.add_argument("world_code")
-    p.add_argument("--skip-quotes", action="store_true", help="skip check 8, the quote re-verification (it is listed as skipped)")
-    p.add_argument("--verbose", action="store_true", help="list quotations taken from project documents")
+    p.add_argument("--skip-quotes", action="store_true", help="skip check 8, the quote re-verification; the run then exits non-zero as incomplete (local iteration only)")
     _common_flags(p)
     p.set_defaults(func=cmd_handoff)
 

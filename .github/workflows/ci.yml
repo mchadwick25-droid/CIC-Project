@@ -352,8 +352,10 @@ jobs:
       - run: python cic/engine/texts_registry.py
       - run: python cic/engine/tests_corpus_index.py
       - run: python cic/engine/tests_corpus_structure.py
-      # tests_corpus_map.py reports failures on the current corpus map; the
-      # step is visible but does not block until the map is repaired.
+      # tests_corpus_map.py fails four checks on the current corpus map. The
+      # step is visible but does not block until the map is repaired; the
+      # entry dated 2026-09-29 in Build/Ministry/Operations/Standing/
+      # CiC_System_Health_Tracking.md owns the defect.
       - run: python cic/engine/tests_corpus_map.py
         continue-on-error: true
 

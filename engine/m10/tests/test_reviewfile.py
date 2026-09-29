@@ -42,9 +42,29 @@ def test_reviewer_must_be_opus_5_5(tmp_path):
     assert "reviewfile-reviewer" in _ids(_check(tmp_path, text))
 
 
-def test_reviewer_and_drafter_must_differ(tmp_path):
-    text = review_text().replace("Drafter model: claude-sonnet-5-5", "Drafter model: claude-opus-5-5")
+def test_reviewer_and_drafter_agents_must_differ(tmp_path):
+    text = review_text().replace("Drafter agent: draft-session-1", "Drafter agent: Review-Session 1")
     assert "reviewfile-independence" in _ids(_check(tmp_path, text))
+
+
+def test_the_same_model_is_allowed_when_the_agents_differ(tmp_path):
+    text = review_text().replace("Drafter model: claude-sonnet-5-5", "Drafter model: Opus 5.5")
+    assert _check(tmp_path, text) == []
+
+
+def test_the_same_model_with_the_same_agent_fails_however_the_model_is_spelled(tmp_path):
+    text = review_text().replace("Drafter model: claude-sonnet-5-5", "Drafter model: Claude Opus 5.5").replace("draft-session-1", "review-session-1")
+    assert "reviewfile-independence" in _ids(_check(tmp_path, text))
+
+
+def test_a_drafter_model_that_is_not_a_model_name_is_rejected(tmp_path):
+    text = review_text().replace("Drafter model: claude-sonnet-5-5", "Drafter model: some assistant")
+    assert "reviewfile-drafter" in _ids(_check(tmp_path, text))
+
+
+def test_reviewer_model_spelling_is_normalized(tmp_path):
+    assert _check(tmp_path, review_text().replace("Reviewer model: claude-opus-5-5", "Reviewer model: Claude Opus 5.5")) == []
+    assert "reviewfile-reviewer" in _ids(_check(tmp_path, review_text().replace("Reviewer model: claude-opus-5-5", "Reviewer model: Opus 4.5")))
 
 
 def test_truncation_methods_must_be_two_and_independent(tmp_path):

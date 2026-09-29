@@ -180,3 +180,55 @@ def test_12_manifest_missing_wrong_path_or_missing_round(tmp_path):
     assert "handoff-12-manifest" in _failing(_run(root))
     write(root, f"Build/worlds/{CODE}/{CODE}_Handoff_Manifest.md", text)
     assert "handoff-12-manifest" in _failing(_run(root)), "the manifest lives in build/"
+
+
+def test_a_not_approved_verdict_is_not_clearance(tmp_path):
+    for verdict in ("Verdict: Not Approved to proceed.", "**Not Approved to Proceed.** Nine substantial findings.", "> **Disposition:** Not approved to proceed - bounded."):
+        root = build_world(tmp_path / str(abs(hash(verdict))))
+        write(root, f"Build/worlds/{CODE}/Doc_01_Review_Round1.md", review_text(cleared=False).replace("Substantial revision required.", verdict))
+        assert "handoff-03-step1" in _failing(_run(root)), verdict
+
+
+def test_a_positive_verdict_line_clears_in_the_labelled_forms_the_fleet_uses(tmp_path):
+    for verdict in ("Verdict: Approved to proceed.", "**Disposition: Approved to proceed.**", "> **Status:** **Approved to proceed** (self-disposed)", "Document status: Cleared review \u2014 Approved to proceed, self-disposed"):
+        root = build_world(tmp_path / str(abs(hash(verdict))))
+        write(root, f"Build/worlds/{CODE}/Doc_01_Review_Round1.md", review_text(cleared=False).replace("Substantial revision required.", verdict))
+        assert "handoff-03-step1" not in _failing(_run(root)), verdict
+
+
+def test_the_phrase_inside_running_prose_is_not_clearance(tmp_path):
+    root = build_world(tmp_path)
+    prose = 'Substantial revision required. The earlier "Approved to proceed" claim in section 3 is withdrawn.'
+    write(root, f"Build/worlds/{CODE}/Doc_01_Review_Round1.md", review_text(cleared=False).replace("Substantial revision required.", prose))
+    assert "handoff-03-step1" in _failing(_run(root))
+
+
+def test_skipping_the_quote_check_is_an_incomplete_run_not_a_pass(tmp_path):
+    from engine.m10.common import emit
+
+    root = build_world(tmp_path)
+    write(root, f"Build/worlds/{CODE}/Doc_01_World_Identification.md", '# Doc 1\n\nThey say "the presbyters of the northern hills burned every copy of the letter in the square".\n')
+    assert emit(run_handoff(CODE, quiet_deps(root), quotes=True), as_json=True) == 1
+    assert emit(run_handoff(CODE, quiet_deps(root), quotes=False), as_json=True) == 1
+    clean = build_world(tmp_path / "clean")
+    assert emit(run_handoff(CODE, quiet_deps(clean), quotes=True), as_json=True) == 0
+    assert emit(run_handoff(CODE, quiet_deps(clean), quotes=False), as_json=True) == 1
+
+
+def test_01_a_new_world_must_set_safety_adjacent_to_true_or_false(tmp_path):
+    for entry in ("kind: formation\nworld_id: fx-world\ncensus_id: fx-tradition\n", "kind: formation\nworld_id: fx-world\ncensus_id: fx-tradition\nsafety_adjacent: maybe\n"):
+        root = build_world(tmp_path / str(len(entry)))
+        write(root, f"records/worlds/{CODE}.yaml", entry)
+        reports = _run(root)
+        assert any("safety_adjacent" in f.reason for f in reports["handoff-01-identity"].findings)
+    for value in ("true", "false"):
+        root = build_world(tmp_path / value)
+        write(root, f"records/worlds/{CODE}.yaml", f"kind: formation\nworld_id: fx-world\ncensus_id: fx-tradition\nsafety_adjacent: {value}\n")
+        assert "handoff-01-identity" not in _failing(_run(root))
+
+
+def test_01_a_grandfathered_world_without_the_field_is_not_a_handoff_failure(tmp_path):
+    from engine.m10.common import safety_adjacent_status
+
+    value, reason = safety_adjacent_status("syr", {"world_id": "x"})
+    assert value is None and "grandfathered" in reason

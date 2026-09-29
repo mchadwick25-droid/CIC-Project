@@ -1,9 +1,12 @@
 """After-edit gates: `records` and `regate`.
 
-`records <code>` fails when a world lacks a record type the site and the
-facilitator need (world_front, facilitator_brief, search_record), lacks its
-compiled site JSON, or cannot produce its capsule. A world outside the
-grandfathered set may not carry a waiver for any of these.
+`records <code> [--freeze]` fails when a world lacks a record type the site
+and the facilitator need (world_front, facilitator_brief, search_record) or
+its compiled site JSON, at the states the M1 cross-world gate requires them
+(admitted, open) or with --freeze, and whenever it cannot produce its
+capsule. A world outside the grandfathered set may not carry a waiver for
+those types, and may carry any other waiver only with an owning finding and
+the project lead's approval. `regate` applies the same waiver rule.
 
 `regate <code> [--base REF]` re-runs the readability gate (FK 10 and FRE 60
 hard, FK 8 reported) and the voice-craft budget over the records changed
@@ -22,7 +25,8 @@ from pathlib import Path
 from engine.m1 import cross_world, gates, schemas
 from engine.m1.fk import fk_grade
 from engine.m1.loader import load_world_records, parse_record_text
-from engine.m9.enforce import GRANDFATHERED_WORLDS
+from engine.m9.enforce import ACCEPTED_OPEN as M9_ACCEPTED_OPEN
+from engine.m9.enforce import GRANDFATHERED_WORLDS, PROJECT_LEAD, new_world_waiver_problem
 
 from .common import REPO_ROOT, Finding, Report, emit, registry_entry
 
@@ -163,13 +167,15 @@ def base_records(root: Path, code: str, merge_base: str) -> dict[str, dict]:
 
 def compare_world(head: dict[str, dict], base: dict[str, dict], changed_paths: set[str]) -> tuple[list[Finding], list[str]]:
     findings: list[Finding] = []
-    base_texts = {(f.rid, f.label): f.text for f in public_fields(base)}
+    base_texts: dict[str, set[str]] = {}
+    for f in public_fields(base):
+        base_texts.setdefault(f.rid, set()).add(f.text)
     fields = public_fields(head)
     graded = edited = carried_over = below_floor = 0
     for item in fields:
         if gates.grade_text(item.text) is not None:
             graded += 1
-        is_edited = base_texts.get((item.rid, item.label)) != item.text
+        is_edited = item.text not in base_texts.get(item.rid, set())
         reasons = readability_failures(item)
         if is_edited:
             edited += 1
@@ -209,8 +215,12 @@ def run_regate(code: str, base: str | None = None, root: Path = REPO_ROOT) -> Re
         return report
     findings, notes = compare_world(load_world_records(code), before, changed)
     report.findings.extend(findings)
+    report.findings.extend(new_world_waiver_findings(code))
     report.notes.extend([f"{len(changed)} record file(s) changed since {merge_base[:10]}", *notes])
     return report
+
+
+REQUIRED_WAIVER_PREFIXES = ("required-record-type/", "required-site-json/")
 
 
 def required_type_waivers(code: str) -> list[str]:
@@ -218,7 +228,33 @@ def required_type_waivers(code: str) -> list[str]:
     return sorted(k for k in cross_world.ACCEPTED_OPEN if k.startswith(prefixes))
 
 
-def run_records(code: str, root: Path = REPO_ROOT) -> Report:
+def new_world_waiver_findings(code: str) -> list[Finding]:
+    """Waivers on a world outside the grandfathered set, in both waiver
+    registries. A required-record-type or site-JSON waiver is never allowed.
+    Any other waiver needs an owning finding and the project lead's approval."""
+    if code in GRANDFATHERED_WORLDS:
+        return []
+    path = f"records/{code}"
+    out: list[Finding] = []
+    for key in sorted(cross_world.ACCEPTED_OPEN):
+        if code not in key.split("/")[1:]:
+            continue
+        if key.startswith(REQUIRED_WAIVER_PREFIXES):
+            out.append(Finding(path, "waiver-not-allowed", f"{key}: a world outside the grandfathered set cannot waive a required record type"))
+        elif not str(cross_world.ACCEPTED_OPEN[key]).strip():
+            out.append(Finding(path, "waiver-not-allowed", f"{key}: a waiver on a world outside the grandfathered set names no owning finding"))
+        elif cross_world.ACCEPTED_OPEN_APPROVED_BY.get(key, "").strip() != PROJECT_LEAD:
+            out.append(Finding(path, "waiver-not-allowed", f"{key}: a waiver on a world outside the grandfathered set lacks approved_by: {PROJECT_LEAD!r}"))
+    for key in sorted(M9_ACCEPTED_OPEN):
+        if key.rsplit("/", 1)[-1] != code:
+            continue
+        problem = new_world_waiver_problem(M9_ACCEPTED_OPEN[key])
+        if problem is not None:
+            out.append(Finding(path, "waiver-not-allowed", f"{key}: a waiver on a world outside the grandfathered set is not allowed: {problem}"))
+    return out
+
+
+def run_records(code: str, root: Path = REPO_ROOT, *, freeze: bool = False) -> Report:
     report = Report(f"records {code}")
     entry = registry_entry(code, root)
     if entry is None:
@@ -229,6 +265,8 @@ def run_records(code: str, root: Path = REPO_ROOT) -> Report:
     grandfathered = code in GRANDFATHERED_WORLDS
     waivers = set(required_type_waivers(code))
     path = f"records/{code}"
+    state = entry.get("state")
+    required_now = freeze or state in cross_world.REQUIRED_TYPES_STATES
 
     def missing(key: str, reason: str) -> None:
         if key in waivers and grandfathered:
@@ -236,16 +274,17 @@ def run_records(code: str, root: Path = REPO_ROOT) -> Report:
         else:
             report.findings.append(Finding(path, "required-record-type" if key.startswith("required-record") else "required-site-json", reason))
 
-    for record_type in cross_world._REQUIRED_ADMITTED_RECORD_TYPES:
-        if record_type not in present:
-            missing(f"required-record-type/{code}/{record_type}", f"no {record_type} record")
-    census_id = entry.get("census_id")
-    site_json = SITE_DATA_DIR / f"{census_id}.json" if census_id else None
-    if site_json is None or not site_json.is_file():
-        missing(f"required-site-json/{code}", f"no compiled site JSON at cic-website/data/worlds/{census_id or '<no census_id>'}.json")
-    if not grandfathered:
-        for key in sorted(waivers):
-            report.findings.append(Finding(path, "waiver-not-allowed", f"{key}: a world outside the grandfathered set cannot waive a required record type"))
+    if required_now:
+        for record_type in cross_world._REQUIRED_ADMITTED_RECORD_TYPES:
+            if record_type not in present:
+                missing(f"required-record-type/{code}/{record_type}", f"no {record_type} record")
+        census_id = entry.get("census_id")
+        site_json = SITE_DATA_DIR / f"{census_id}.json" if census_id else None
+        if site_json is None or not site_json.is_file():
+            missing(f"required-site-json/{code}", f"no compiled site JSON at cic-website/data/worlds/{census_id or '<no census_id>'}.json")
+    else:
+        report.notes.append(f"state {state!r}: required record types and the site JSON are checked from {'/'.join(cross_world.REQUIRED_TYPES_STATES)} or with --freeze")
+    report.findings.extend(new_world_waiver_findings(code))
     try:
         from engine.m2 import builders
 
@@ -257,8 +296,9 @@ def run_records(code: str, root: Path = REPO_ROOT) -> Report:
 
 
 def add_parser(subparsers) -> None:
-    p = subparsers.add_parser("records", help="the world carries every required record type and its site JSON, has no waiver for them, and can build its capsule")
+    p = subparsers.add_parser("records", help="the world carries every required record type and its site JSON (from admitted, or with --freeze), has no waiver for them, and can build its capsule")
     p.add_argument("world_code")
+    p.add_argument("--freeze", action="store_true", help="require the record types and site JSON whatever the world's state")
     p.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
     p = subparsers.add_parser("regate", help="readability and the voice-craft budget on every new or edited public-facing field since the base ref")
     p.add_argument("world_code")
@@ -268,5 +308,5 @@ def add_parser(subparsers) -> None:
 
 def run(args) -> int:
     if args.command == "records":
-        return emit([run_records(args.world_code)], as_json=args.json)
+        return emit([run_records(args.world_code, freeze=args.freeze)], as_json=args.json)
     return emit([run_regate(args.world_code, args.base)], as_json=args.json)

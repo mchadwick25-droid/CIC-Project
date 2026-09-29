@@ -195,10 +195,10 @@ def test_records_builds_the_capsule(monkeypatch):
     assert any(f.check == "capsule" and "broken" in f.reason for f in report.findings)
 
 
-def _stub_world(monkeypatch, code, types, census_id="zzz-census"):
+def _stub_world(monkeypatch, code, types, census_id="zzz-census", state="admitted"):
     records = {f"{code}.{t}.a": {"id": f"{code}.{t}.a", "record_type": t} for t in types}
     monkeypatch.setattr(regate, "load_world_records", lambda c: records)
-    monkeypatch.setattr(regate, "registry_entry", lambda c, root=REPO_ROOT: {"census_id": census_id})
+    monkeypatch.setattr(regate, "registry_entry", lambda c, root=REPO_ROOT: {"census_id": census_id, "state": state})
     from engine.m2 import builders
 
     monkeypatch.setattr(builders, "build_capsule", lambda r, e: b"capsule")
@@ -234,3 +234,71 @@ def test_the_subcommands_register_and_dispatch():
     assert regate.run(parser.parse_args(["regate", "syr", "--base", "HEAD"])) == 0
     assert regate.run(parser.parse_args(["records", "syr"])) == 0
     assert regate.run(parser.parse_args(["records", "zzz-not-a-world"])) == 1
+
+
+def test_a_world_before_admission_is_not_failed_for_record_types_it_is_not_yet_required_to_have(monkeypatch):
+    _stub_world(monkeypatch, "zzz", [], state="built")
+    report = regate.run_records("zzz")
+    assert report.ok and any("state 'built'" in n for n in report.notes)
+
+
+def test_freeze_requires_the_record_types_whatever_the_state(monkeypatch):
+    _stub_world(monkeypatch, "zzz", [], state="built")
+    report = regate.run_records("zzz", freeze=True)
+    assert {f.check for f in report.findings} == {"required-record-type", "required-site-json"}
+
+
+def test_the_stage_rule_is_the_one_the_m1_gate_uses():
+    assert cross_world.REQUIRED_TYPES_STATES == ("admitted", "open")
+
+
+def test_records_freeze_flag_is_wired_to_the_command(monkeypatch):
+    _stub_world(monkeypatch, "zzz", [], state="built")
+    parser = argparse.ArgumentParser()
+    sub = parser.add_subparsers(dest="command", required=True)
+    regate.add_parser(sub)
+    assert regate.run(parser.parse_args(["records", "zzz"])) == 0
+    assert regate.run(parser.parse_args(["records", "zzz", "--freeze"])) == 1
+
+
+def test_an_m1_cross_world_waiver_on_a_new_world_fails_records_and_regate(monkeypatch):
+    _stub_world(monkeypatch, "zzz", ["world_front", "facilitator_brief", "search_record"], state="built")
+    monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, "figure-dates-keys/zzz": "F-04 - owner named"})
+    monkeypatch.setattr(regate, "SITE_DATA_DIR", REPO_ROOT / "cic-website" / "data" / "worlds")
+    records_report = regate.run_records("zzz")
+    assert [f.check for f in records_report.findings] == ["waiver-not-allowed"] and "lacks approved_by" in records_report.findings[0].reason
+    regate_report = regate.run_regate("zzz", "HEAD")
+    assert [f.check for f in regate_report.findings] == ["waiver-not-allowed"]
+
+
+def test_an_m1_waiver_with_an_owner_and_the_project_leads_approval_is_allowed_for_a_new_world_but_a_required_type_never_is(monkeypatch):
+    waivers = {"figure-dates-keys/zzz": "F-04 - owner named", "required-record-type/zzz/world_front": "F-01 - owner named"}
+    monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", waivers)
+    monkeypatch.setattr(cross_world, "ACCEPTED_OPEN_APPROVED_BY", {key: "project lead" for key in waivers})
+    findings = regate.new_world_waiver_findings("zzz")
+    assert [f.reason.split(":")[0] for f in findings] == ["required-record-type/zzz/world_front"]
+
+
+def test_an_m9_waiver_on_a_new_world_needs_an_owner_and_the_project_leads_approval(monkeypatch):
+    from engine.m9.enforce import Waiver
+
+    monkeypatch.setattr(regate, "M9_ACCEPTED_OPEN", {"m9:shelf-row/zzz": Waiver(1, "2027-01-01", "owner finding"), "m9:shelf-row/yyy": Waiver(1, "2027-01-01", "")})
+    assert len(regate.new_world_waiver_findings("zzz")) == 1
+    monkeypatch.setattr(regate, "M9_ACCEPTED_OPEN", {"m9:shelf-row/zzz": Waiver(1, "2027-01-01", "owner finding", "project lead")})
+    assert regate.new_world_waiver_findings("zzz") == []
+
+
+def test_a_grandfathered_world_keeps_its_waivers():
+    assert regate.new_world_waiver_findings("witt") == []
+
+
+def test_inserting_a_list_item_does_not_make_an_untouched_failing_item_fail():
+    def voice(*concerns):
+        rec = _voice(1)
+        rec["characteristic_concerns"] = list(concerns)
+        return {rec["id"]: rec}
+
+    findings, notes = regate.compare_world(voice(CLEAR, DENSE), voice(DENSE), set())
+    assert findings == []
+    assert any("already failed at the base" in n for n in notes)
+    assert regate.compare_world(voice(CLEAR, DENSE + " Again."), voice(DENSE), set())[0] != []

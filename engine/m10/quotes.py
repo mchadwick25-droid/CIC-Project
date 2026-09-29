@@ -155,17 +155,25 @@ def _norm(text: str) -> str:
     return _NORM.sub(" ", text).lower().strip()
 
 
-def _project_texts(code: str, root: Path, exclude: Path) -> dict[str, str]:
-    """Documents a quotation may legitimately quote instead of a source."""
+def _project_texts(code: str, root: Path, slug: str | None = None) -> dict[str, str]:
+    """Documents a quotation may legitimately quote instead of a source: the
+    fleet-level documents and method library. Nothing from the world under
+    check is included (its Step 0-2 documents, Source Registry and later build
+    documents all come from the same drafter, so one invented quotation
+    repeated across them would exempt itself), nor is its dossier."""
+    own = world_dir(code, root).resolve()
+    dossier = (root / "Build" / "worlds" / "_cross-world" / "dossiers" / f"{slug}_Source_Readiness_Dossier.md").resolve() if slug else None
     files: list[Path] = []
-    for directory in (root / "Build" / "worlds" / "_cross-world", world_dir(code, root), root / "Build" / "reference"):
+    for directory in (root / "Build" / "worlds" / "_cross-world", root / "Build" / "reference"):
         if directory.is_dir():
             files += [p for p in sorted(directory.rglob("*.md")) if not _REVIEWISH.search(p.name) and "Review-Artifacts" not in p.parts]
     files += [p for p in (root / "CLAUDE.md", root / "cic-website" / "data" / "world-census.json") if p.is_file()]
     out = {}
     for p in files:
-        if p != exclude:
-            out[rel(p, root)] = _norm(read_text(p))
+        resolved = p.resolve()
+        if own in resolved.parents or resolved == dossier:
+            continue
+        out[rel(p, root)] = _norm(read_text(p))
     return out
 
 
@@ -182,7 +190,7 @@ def _speaker_tokens(value: str) -> set[str]:
     return {t for t in re.split(r"[^a-z]+", str(value).lower()) if len(t) > 3}
 
 
-def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, slug: str | None = None, verbose: bool = False) -> tuple[list[Finding], list[str]]:
+def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, slug: str | None = None) -> tuple[list[Finding], list[str]]:
     store = TextStore(root / "cic" / "texts")
     rows = _bucket_rows(slug, root)
     files_by_name: dict[str, list[dict]] = {}
@@ -221,13 +229,12 @@ def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, sl
                         break
                 if hit is None:
                     if project is None:
-                        project = _project_texts(code, root, doc)
+                        project = _project_texts(code, root, slug)
                     needle = _norm(span)
                     source = next((p for p, body in project.items() if needle in body), None)
                     if source:
                         exempt += 1
-                        if verbose:
-                            notes.append(f"{where}: quotation is from project document {source}: {span[:60]!r}")
+                        notes.append(f"{where}: quotation is from project document {source}: {span[:60]!r}")
                         continue
                     where_tried = f"the {len(tried)} cited or assigned cic/texts file(s)" if tried else "any cic/texts file (none cited or assigned)"
                     findings.append(Finding(where, "quotes-unverified", f"not found word for word in {where_tried}: {span[:90]!r}"))

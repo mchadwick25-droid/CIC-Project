@@ -29,23 +29,30 @@ class Report:
     findings: list[Finding] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)
     skipped: bool = False
+    incomplete: bool = False
 
     @property
     def ok(self) -> bool:
         return not self.findings
+
+    @property
+    def passed(self) -> bool:
+        """Clean and, when the check is required, actually run."""
+        return self.ok and not self.incomplete
 
     def to_dict(self) -> dict:
         return {
             "check": self.name,
             "pass": self.ok,
             "skipped": self.skipped,
+            "incomplete": self.incomplete,
             "findings": [asdict(f) for f in self.findings],
             "notes": self.notes,
         }
 
 
 def emit(reports: list[Report], *, as_json: bool) -> int:
-    ok = all(r.ok for r in reports)
+    ok = all(r.passed for r in reports)
     if as_json:
         print(json.dumps({"pass": ok, "reports": [r.to_dict() for r in reports]}, indent=2))
         return 0 if ok else 1
@@ -56,7 +63,7 @@ def emit(reports: list[Report], *, as_json: bool) -> int:
         for n in r.notes:
             print(f"note: {r.name}: {n}")
     for r in reports:
-        status = "SKIPPED" if r.skipped else "PASS" if r.ok else f"FAIL ({len(r.findings)} finding(s))"
+        status = "INCOMPLETE (a required check did not run)" if r.incomplete else "SKIPPED" if r.skipped else "PASS" if r.ok else f"FAIL ({len(r.findings)} finding(s))"
         print(f"{r.name}: {status}")
     return 0 if ok else 1
 
@@ -77,6 +84,26 @@ def registry_entry(code: str, root: Path = REPO_ROOT) -> dict | None:
     if not path.is_file():
         return None
     return yaml.safe_load(read_text(path)) or {}
+
+
+def safety_adjacent_status(code: str, entry: dict | None) -> tuple[bool | None, str]:
+    """(value, reason). The value is True or False when the registry entry sets
+    safety_adjacent; None, with the reason, when the trigger cannot be
+    evaluated. A grandfathered world without the field is reported as
+    undetermined; a world outside that set must carry it."""
+    from engine.m1.registry import SAFETY_ADJACENT_KEY, safety_adjacent
+    from engine.m9.enforce import GRANDFATHERED_WORLDS
+
+    if entry is None:
+        return None, f"no registry entry records/worlds/{code}.yaml"
+    value = safety_adjacent(entry)
+    if value is not None:
+        return value, ""
+    if SAFETY_ADJACENT_KEY in entry:
+        return None, f"{SAFETY_ADJACENT_KEY} in records/worlds/{code}.yaml must be true or false, found {entry[SAFETY_ADJACENT_KEY]!r}"
+    if code in GRANDFATHERED_WORLDS:
+        return None, f"records/worlds/{code}.yaml has no {SAFETY_ADJACENT_KEY} field (grandfathered world: reported until the project lead sets it)"
+    return None, f"records/worlds/{code}.yaml has no {SAFETY_ADJACENT_KEY} field; the project lead sets it to true or false at handoff"
 
 
 def world_dir(code: str, root: Path = REPO_ROOT) -> Path:

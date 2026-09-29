@@ -1,11 +1,11 @@
 """Hermetic tests for engine.m10.validation: fixtures live under tmp_path."""
 from types import SimpleNamespace
 
-from engine.m10.validation import check_results, check_wiring, detect_triggers, run_validation
+from engine.m10.validation import check_results, check_wiring, detect_triggers, run_validation, trigger_verdict
 from engine.m4.world_loader import LoadedWorld
 
-HEADER = "| Probe ID | Category | Result | Basis | Transcript | Handler | Rigor | Accessibility | Craft | Focus |\n|---|---|---|---|---|---|---|---|---|---|\n"
-GOOD = "| {id} | Cat | {result} | {basis} | {transcript} | {handler} | 4 | 4 | 4 | 4 |\n"
+HEADER = "| Probe ID | Category | Result | Basis | Transcript | Handler | Rigor | Accessibility | Craft | Focus | Fabrication |\n|---|---|---|---|---|---|---|---|---|---|---|\n"
+GOOD = "| {id} | Cat | {result} | {basis} | {transcript} | {handler} | 4 | 4 | 4 | 4 | {fabrication} |\n"
 
 
 def _file(tmp_path, *rows, name="results.md"):
@@ -15,8 +15,8 @@ def _file(tmp_path, *rows, name="results.md"):
     return path
 
 
-def _row(id="SA-1", result="PASS", basis="observed", transcript="t.md", handler="n/a"):
-    return GOOD.format(id=id, result=result, basis=basis, transcript=transcript, handler=handler)
+def _row(id="SA-1", result="PASS", basis="observed", transcript="t.md", handler="n/a", fabrication="no"):
+    return GOOD.format(id=id, result=result, basis=basis, transcript=transcript, handler=handler, fabrication=fabrication)
 
 
 def _checks(report):
@@ -61,7 +61,7 @@ def test_unlabeled_result_fails(tmp_path):
 
 def test_a_graded_answer_needs_all_four_criteria(tmp_path):
     (tmp_path / "t.md").write_text("transcript")
-    row = "| SA-1 | Cat | PASS | observed | t.md | n/a | 4 | 4 |  | 4 |\n"
+    row = "| SA-1 | Cat | PASS | observed | t.md | n/a | 4 | 4 |  | 4 | no |\n"
     report, _ = check_results([_file(tmp_path, row, _rs_rows())], tmp_path)
     assert [f.reason for f in report.findings] == ["SA-1: no Craft grade"]
 
@@ -110,44 +110,180 @@ def _index(*records):
     return {r["id"]: r for r in records}
 
 
-def test_no_trigger_is_lean_and_names_the_safety_gap():
-    reasons, undetermined = detect_triggers(_index(_gravity("a", "primary")), [])
-    assert reasons == [] and "safety-adjacent" in undetermined[0]
+SAFE = {"safety_adjacent": False}
+CLEAN_ROWS = [{"file": "r.md", "id": "CT-1", "result": "PASS", "basis": "observed", "fabrication": "no"}]
 
 
-def test_thin_evidence_gravity_fires():
-    reasons, _ = detect_triggers(_index(_gravity("a", "supporting", "Inferential-Thin")), [])
-    assert reasons == ["thin-evidence gravity: w.gravity.a (supporting) is Inferential-Thin"]
+def _detect(records, rows=CLEAN_ROWS, entry=SAFE, code="zzz"):
+    return detect_triggers(records, rows, entry, code)
 
 
-def test_contested_claim_tied_to_a_primary_gravity_fires_but_not_to_a_supporting_one():
-    records = _index(_gravity("p", "primary"), _gravity("s", "supporting"), _contested("c1", "w.gravity.p"), _contested("c2", "w.gravity.s"))
-    reasons, _ = detect_triggers(records, [])
-    assert len(reasons) == 1 and "w.contested.c1" in reasons[0]
+def test_all_four_triggers_read_and_none_fired_is_lean():
+    reasons, undetermined = _detect(_index(_gravity("a", "primary")))
+    assert reasons == [] and undetermined == [] and trigger_verdict(reasons, undetermined) == "lean"
+
+
+def test_a_trigger_that_cannot_be_evaluated_is_never_lean():
+    reasons, undetermined = detect_triggers({}, [], None, "zzz")
+    assert reasons == [] and undetermined
+    assert trigger_verdict(reasons, undetermined) == "undetermined"
+
+
+def test_thin_evidence_is_a_primary_gravity_that_is_inferential_thin():
+    reasons, _ = _detect(_index(_gravity("a", "primary", "Inferential-Thin")))
+    assert reasons == ["thin-evidence gravity: primary gravity w.gravity.a is Inferential-Thin"]
+
+
+def test_a_thin_supporting_or_tensional_gravity_or_world_core_does_not_fire():
+    core = {"id": "w.core.a", "record_type": "world_core", "confidence": {"formation_confidence": "Inferential-Thin"}}
+    records = _index(_gravity("p", "primary"), _gravity("s", "supporting", "Inferential-Thin"), _gravity("t", "tensional", "Inferential-Thin"), core)
+    assert _detect(records)[0] == []
 
 
 def test_a_primary_gravity_that_is_itself_contested_fires():
-    reasons, _ = detect_triggers(_index(_gravity("p", "primary", "Contested")), [])
+    reasons, _ = _detect(_index(_gravity("p", "primary", "Contested")))
     assert reasons == ["Contested Primary claim: primary gravity w.gravity.p is Contested"]
 
 
-def test_fabrication_recorded_in_a_failed_result_fires():
-    rows = [{"file": "r.md", "id": "CT-1", "result": "FAIL", "notes": "invented a bishop: fabrication"}, {"file": "r.md", "id": "CT-2", "result": "PASS", "notes": "no fabrication"}]
-    reasons, _ = detect_triggers({}, rows)
-    assert reasons == ["fabrication finding: CT-1 in r.md"]
+def test_a_contested_claim_record_attached_to_a_primary_gravity_does_not_fire():
+    records = _index(_gravity("p", "primary"), _gravity("s", "supporting", "Contested"), _contested("c1", "w.gravity.p"))
+    assert _detect(records)[0] == []
 
 
-def test_run_validation_reports_lean_or_full(tmp_path):
+def test_a_primary_gravity_without_a_confidence_is_undetermined_not_lean():
+    bare = {"id": "w.gravity.p", "record_type": "gravity", "classification": "primary"}
+    reasons, undetermined = _detect(_index(bare))
+    assert reasons == [] and trigger_verdict(reasons, undetermined) == "undetermined"
+
+
+def test_safety_adjacent_true_fires_and_false_does_not():
+    records = _index(_gravity("p", "primary"))
+    assert _detect(records, entry={"safety_adjacent": True})[0] == ["safety-adjacent Representative: records/worlds/zzz.yaml sets safety_adjacent: true"]
+    assert _detect(records, entry={"safety_adjacent": False}) == ([], [])
+
+
+def test_a_missing_or_non_boolean_safety_field_is_undetermined():
+    records = _index(_gravity("p", "primary"))
+    for entry in ({}, {"safety_adjacent": "yes"}, None):
+        reasons, undetermined = _detect(records, entry=entry)
+        assert reasons == [] and trigger_verdict(reasons, undetermined) == "undetermined", entry
+
+
+def test_a_grandfathered_world_without_the_field_is_reported_as_undetermined():
+    reasons, undetermined = _detect(_index(_gravity("p", "primary")), entry={}, code="syr")
+    assert reasons == [] and "grandfathered" in undetermined[0]
+
+
+def test_a_fired_trigger_settles_the_verdict_even_when_another_is_undetermined():
+    reasons, undetermined = _detect(_index(_gravity("p", "primary", "Contested")), entry={})
+    assert undetermined and trigger_verdict(reasons, undetermined) == "full"
+
+
+def test_fabrication_is_the_structured_column_not_a_word_in_the_notes():
+    rows = [
+        {"file": "r.md", "id": "CT-1", "result": "FAIL", "basis": "observed", "fabrication": "yes", "notes": ""},
+        {"file": "r.md", "id": "CT-2", "result": "PASS", "basis": "observed", "fabrication": "no", "notes": "no fabrication, checked for fabricated names"},
+        {"file": "r.md", "id": "CT-3", "result": "PASS", "basis": "observed", "fabrication": "yes", "notes": ""},
+    ]
+    reasons, _ = _detect(_index(_gravity("p", "primary")), rows)
+    assert reasons == ["fabrication finding: CT-1 in r.md", "fabrication finding: CT-3 in r.md"]
+
+
+def test_a_graded_row_without_a_fabrication_value_is_undetermined_and_a_finding(tmp_path):
+    rows = [{"file": "r.md", "id": "CT-1", "result": "PASS", "basis": "observed", "fabrication": ""}]
+    reasons, undetermined = _detect(_index(_gravity("p", "primary")), rows)
+    assert trigger_verdict(reasons, undetermined) == "undetermined"
+    (tmp_path / "t.md").write_text("transcript")
+    path = _file(tmp_path, _row(fabrication=""), _rs_rows())
+    report, _ = check_results([path], tmp_path)
+    assert "n:fabrication" in _checks(report)
+
+
+def test_a_table_without_the_fabrication_column_fails(tmp_path):
+    path = tmp_path / "old.md"
+    path.write_text("| Probe ID | Category | Result | Basis | Transcript | Rigor | Accessibility | Craft | Focus |\n|---|---|---|---|---|---|---|---|---|\n| RS-1 | c | NOT TESTED | authored | - |  |  |  |  |\n| RS-2 | c | NOT TESTED | authored | - |  |  |  |  |\n")
+    report, _ = check_results([path], tmp_path)
+    assert any("Fabrication".lower() in f.reason for f in report.findings if f.check == "n:columns")
+
+
+def _records_world(tmp_path, *, gravity_confidence="Documented", entry="safety_adjacent: false\n", code="w"):
+    (tmp_path / "records" / code / "gravity").mkdir(parents=True)
+    (tmp_path / "records" / code / "gravity" / f"{code}.gravity.a.md").write_text(
+        f"---\nid: {code}.gravity.a\nrecord_type: gravity\nclassification: primary\nconfidence:\n  formation_confidence: {gravity_confidence}\n---\n"
+    )
+    (tmp_path / "records" / "worlds").mkdir(parents=True, exist_ok=True)
+    (tmp_path / "records" / "worlds" / f"{code}.yaml").write_text("kind: formation\n" + entry)
+
+
+def test_run_validation_reports_lean_full_or_undetermined(tmp_path):
     (tmp_path / "t.md").write_text("transcript")
     path = _file(tmp_path, _row(), _rs_rows())
-    (tmp_path / "records" / "w" / "gravity").mkdir(parents=True)
-    (tmp_path / "records" / "w" / "gravity" / "w.gravity.a.md").write_text(
-        "---\nid: w.gravity.a\nrecord_type: gravity\nclassification: primary\nconfidence:\n  formation_confidence: Inferential-Thin\n---\n"
-    )
+    _records_world(tmp_path, gravity_confidence="Inferential-Thin")
     reports, trigger = run_validation("w", [path], tmp_path)
     assert all(r.ok for r in reports) and trigger["verdict"] == "full"
-    (tmp_path / "records" / "w" / "gravity" / "w.gravity.a.md").unlink()
+    _world_file = tmp_path / "records" / "w" / "gravity" / "w.gravity.a.md"
+    _world_file.write_text(_world_file.read_text().replace("Inferential-Thin", "Documented"))
     assert run_validation("w", [path], tmp_path)[1]["verdict"] == "lean"
+    (tmp_path / "records" / "worlds" / "w.yaml").write_text("kind: formation\n")
+    assert run_validation("w", [path], tmp_path)[1]["verdict"] == "undetermined"
+
+
+def test_the_command_exits_nonzero_and_prints_undetermined_when_a_trigger_cannot_be_read(tmp_path, capsys, monkeypatch):
+    from engine.m10 import validation
+
+    (tmp_path / "t.md").write_text("transcript")
+    path = _file(tmp_path, _row(), _rs_rows())
+    _records_world(tmp_path, entry="")
+    monkeypatch.setattr(validation, "run_validation", lambda code, files=None: run_validation(code, files, tmp_path))
+    args = SimpleNamespace(world_code="w", command="validation", results=[str(path)], json=False)
+    assert validation.run(args) == 1
+    out = capsys.readouterr().out.splitlines()
+    assert out[0] == "undetermined" and any(line.startswith("undetermined: safety-adjacent trigger") for line in out)
+
+
+TURN_OK = "We kept the meal together. Each of us brought bread. We sang a psalm. Then we prayed for the sick. We gave to the poor. This was our way."
+TURN_BAD = "The eschatological dimensions of sacramental pneumatology necessitated an institutionalized hierarchical differentiation of ecclesiastical responsibilities throughout the Mesopotamian communities."
+
+
+def _transcript(tmp_path, *turns, name="t.md"):
+    body = "\n\n".join(f"**Turn {i} response:** {t}" for i, t in enumerate(turns, 1))
+    (tmp_path / name).write_text(f"# Transcript\n\n{body}\n")
+
+
+def test_an_emitted_turn_over_the_readability_ceiling_is_reported(tmp_path):
+    _transcript(tmp_path, TURN_OK, TURN_BAD)
+    path = tmp_path / "results.md"
+    path.write_text(HEADER + _row() + _rs_rows())
+    report, _ = check_results([path], tmp_path)
+    turn_findings = [f for f in report.findings if f.check == "r:turn-readability"]
+    assert len(turn_findings) == 1 and turn_findings[0].path == "t.md" and turn_findings[0].reason.startswith("turn 2:")
+
+
+def test_readable_turns_pass_and_short_turns_are_noted_not_failed(tmp_path):
+    _transcript(tmp_path, TURN_OK, "Yes.")
+    path = tmp_path / "results.md"
+    path.write_text(HEADER + _row() + _rs_rows())
+    report, _ = check_results([path], tmp_path)
+    assert report.findings == [] and any("too short to grade" in n for n in report.notes)
+
+
+def test_json_transcripts_are_read_by_speaker(tmp_path):
+    import json
+
+    (tmp_path / "t.md").write_text("x")
+    (tmp_path / "t.json").write_text(json.dumps({"transcript": [{"speaker": "participant", "text": TURN_BAD}, {"speaker": "representative", "text": TURN_BAD}]}))
+    path = tmp_path / "results.md"
+    path.write_text(HEADER + _row(transcript="t.json") + _rs_rows().replace("t.md", "t.md"))
+    report, _ = check_results([path], tmp_path)
+    assert [f.check for f in report.findings] == ["r:turn-readability"]
+
+
+def test_a_turn_inside_the_result_file_itself_is_checked(tmp_path):
+    (tmp_path / "t.md").write_text("x")
+    path = tmp_path / "results.md"
+    path.write_text(f"**Turn 1 response:** {TURN_BAD}\n\n" + HEADER + _row() + _rs_rows())
+    report, _ = check_results([path], tmp_path)
+    assert [f.check for f in report.findings] == ["r:turn-readability"]
 
 
 def test_no_results_files_is_a_finding(tmp_path):
