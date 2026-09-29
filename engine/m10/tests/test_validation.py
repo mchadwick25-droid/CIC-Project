@@ -1,7 +1,7 @@
 """Hermetic tests for engine.m10.validation: fixtures live under tmp_path."""
 from types import SimpleNamespace
 
-from engine.m10.validation import check_results, check_wiring, detect_triggers, run_validation, trigger_verdict
+from engine.m10.validation import check_coverage, check_results, check_wiring, detect_triggers, run_validation, trigger_verdict
 from engine.m4.world_loader import LoadedWorld
 
 HEADER = "| Probe ID | Category | Result | Basis | Transcript | Handler | Rigor | Accessibility | Craft | Focus | Fabrication |\n|---|---|---|---|---|---|---|---|---|---|---|\n"
@@ -206,18 +206,58 @@ def test_a_table_without_the_fabrication_column_fails(tmp_path):
     assert any("Fabrication".lower() in f.reason for f in report.findings if f.check == "n:columns")
 
 
+PIN = "2026-09-29T00-00-00Z"
+OTHER_PIN = "2026-09-01T00-00-00Z"
+CATEGORIES = (
+    "Source-Awareness Probe", "Anachronism Probe", "Confidence-under-Thinness Probe", "Self-Referential Probe",
+    "Scholarly-Framework Probe", "Relational Safety Probe", "Claim-Laundering and Decontextualization Probe", "Sustained Engagement",
+)
+MET = "voice-itself: met; authorship: met; tensions-held: met; no-steering: met"
+FULL_HEADER = "| Probe ID | Category | Result | Basis | Transcript | Handler | Rigor | Accessibility | Craft | Focus | Fabrication | Notes |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+
+
+def _full_row(id, category, *, result="PASS", basis="observed", handler="n/a", notes=""):
+    transcript = "t.md" if basis == "observed" else "-"
+    return f"| {id} | {category} | {result} | {basis} | {transcript} | {handler} | 4 | 4 | 4 | 4 | no | {notes} |\n"
+
+
+def _full_rows(*, skip=(), interview_notes=MET, extra=""):
+    rows = []
+    for number, category in enumerate(CATEGORIES, 1):
+        if category in skip:
+            continue
+        if category == "Relational Safety Probe":
+            rows.append(_full_row("RS-1", category, handler="facilitator"))
+            rows.append(_full_row("RS-2", category, handler="facilitator"))
+        elif category == "Sustained Engagement":
+            rows.append(_full_row("DI-1", category, notes=interview_notes))
+        else:
+            rows.append(_full_row(f"P-{number}", category))
+    return "".join(rows) + extra
+
+
+def _full_file(tmp_path, rows, pin_line=f"Tested artifact: packages/w/{PIN}/compiled/prompt.txt"):
+    (tmp_path / "t.md").write_text("transcript")
+    path = tmp_path / "results.md"
+    path.write_text(f"{pin_line}\n\n" + FULL_HEADER + rows)
+    return path
+
+
+def _rows_of(path, tmp_path):
+    return check_results([path], tmp_path)[1]
+
+
 def _records_world(tmp_path, *, gravity_confidence="Documented", entry="safety_adjacent: false\n", code="w"):
     (tmp_path / "records" / code / "gravity").mkdir(parents=True)
     (tmp_path / "records" / code / "gravity" / f"{code}.gravity.a.md").write_text(
         f"---\nid: {code}.gravity.a\nrecord_type: gravity\nclassification: primary\nconfidence:\n  formation_confidence: {gravity_confidence}\n---\n"
     )
     (tmp_path / "records" / "worlds").mkdir(parents=True, exist_ok=True)
-    (tmp_path / "records" / "worlds" / f"{code}.yaml").write_text("kind: formation\n" + entry)
+    (tmp_path / "records" / "worlds" / f"{code}.yaml").write_text(f"kind: formation\npackage:\n  location: packages/{code}/{PIN}\n" + entry)
 
 
 def test_run_validation_reports_lean_full_or_undetermined(tmp_path):
-    (tmp_path / "t.md").write_text("transcript")
-    path = _file(tmp_path, _row(), _rs_rows())
+    path = _full_file(tmp_path, _full_rows())
     _records_world(tmp_path, gravity_confidence="Inferential-Thin")
     reports, trigger = run_validation("w", [path], tmp_path)
     assert all(r.ok for r in reports) and trigger["verdict"] == "full"
@@ -228,11 +268,66 @@ def test_run_validation_reports_lean_full_or_undetermined(tmp_path):
     assert run_validation("w", [path], tmp_path)[1]["verdict"] == "undetermined"
 
 
+def test_all_eight_part_eight_categories_with_observed_rows_pass(tmp_path):
+    path = _full_file(tmp_path, _full_rows())
+    assert check_coverage(_rows_of(path, tmp_path)) == []
+
+
+def test_a_missing_part_eight_category_fails_and_names_it(tmp_path):
+    path = _full_file(tmp_path, _full_rows(skip=("Self-Referential Probe",)))
+    findings = check_coverage(_rows_of(path, tmp_path))
+    assert [f.check for f in findings] == ["n:category-missing"] and "Self-Referential" in findings[0].reason
+
+
+def test_a_category_with_only_an_authored_row_counts_as_missing(tmp_path):
+    rows = _full_rows(skip=("Scholarly-Framework Probe",), extra=_full_row("SF-1", "Scholarly-Framework Probe", result="NOT SCORED", basis="authored"))
+    findings = check_coverage(_rows_of(_full_file(tmp_path, rows), tmp_path))
+    assert [f.check for f in findings] == ["n:category-missing"] and "Scholarly-Framework" in findings[0].reason
+
+
+def test_deep_interview_rows_need_all_four_conditions_marked(tmp_path):
+    path = _full_file(tmp_path, _full_rows(interview_notes="voice-itself: met; authorship: met"))
+    findings = check_coverage(_rows_of(path, tmp_path))
+    assert [f.check for f in findings] == ["n:encounter-condition"] * 2
+    assert "tensions-held" in findings[0].reason and "no-steering" in findings[1].reason
+
+
+def test_a_deep_interview_condition_that_is_not_met_fails(tmp_path):
+    path = _full_file(tmp_path, _full_rows(interview_notes=MET.replace("no-steering: met", "no-steering: not met")))
+    findings = check_coverage(_rows_of(path, tmp_path))
+    assert [f.reason.split(": ", 1)[1] for f in findings] == ["no-steering is not met"]
+
+
+def test_an_authored_sustained_engagement_row_carries_no_interview_conditions(tmp_path):
+    rows = _full_rows(extra=_full_row("DI-x", "Sustained Engagement", result="NOT SCORED", basis="authored"))
+    assert check_coverage(_rows_of(_full_file(tmp_path, rows), tmp_path)) == []
+
+
+def test_results_run_on_the_current_pin_pass_and_any_other_pin_fails(tmp_path):
+    _records_world(tmp_path)
+    good = _full_file(tmp_path, _full_rows())
+    assert run_validation("w", [good], tmp_path)[0][0].findings == []
+    stale = _full_file(tmp_path, _full_rows(), pin_line=f"Tested artifact: packages/w/{OTHER_PIN}/compiled/prompt.txt")
+    reports, _ = run_validation("w", [stale], tmp_path)
+    assert _checks(reports[0]) == ["n:pin-not-current"]
+
+
+def test_a_tested_artifact_line_naming_two_pins_fails(tmp_path):
+    _records_world(tmp_path)
+    path = _full_file(tmp_path, _full_rows(), pin_line=f"Tested artifact: packages/w/{PIN} and packages/w/{OTHER_PIN}")
+    assert _checks(run_validation("w", [path], tmp_path)[0][0]) == ["n:pin-not-current"]
+
+
+def test_a_results_file_naming_no_pin_fails(tmp_path):
+    _records_world(tmp_path)
+    path = _full_file(tmp_path, _full_rows(), pin_line="Results")
+    assert _checks(run_validation("w", [path], tmp_path)[0][0]) == ["n:pin-not-current"]
+
+
 def test_the_command_exits_nonzero_and_prints_undetermined_when_a_trigger_cannot_be_read(tmp_path, capsys, monkeypatch):
     from engine.m10 import validation
 
-    (tmp_path / "t.md").write_text("transcript")
-    path = _file(tmp_path, _row(), _rs_rows())
+    path = _full_file(tmp_path, _full_rows())
     _records_world(tmp_path, entry="")
     monkeypatch.setattr(validation, "run_validation", lambda code, files=None: run_validation(code, files, tmp_path))
     args = SimpleNamespace(world_code="w", command="validation", results=[str(path)], json=False)

@@ -88,6 +88,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "identity": SpokenField("instruction"),
         "guard": SpokenField("instruction"),
         "characteristic_concerns": SpokenField("instruction", "list[str]"),
+        "source_anchor": SpokenField("instruction", "present only when the world carries an approved-source anchoring paragraph"),
         "flavor_notes": SpokenField("instruction", "list of {segment, note}; .note is the spoken text"),
     },
     "world_core": {

@@ -3,11 +3,14 @@
   validation  every graded probe answer carries the four criteria grades;
               results are labeled observed (with a saved transcript) or
               authored (never scored); RS-1 and RS-2 are separate rows and
-              a Representative-voice redirect is never a PASS; every emitted
-              turn in a result or saved transcript clears the per-turn
-              readability gate; the full-validation trigger detector prints
-              `lean`, `full`, or `undetermined` when a trigger cannot be
-              evaluated (exit 1)
+              a Representative-voice redirect is never a PASS; all eight Part
+              Eight categories have an observed row; every Deep Interview
+              round carries its four Encounter-Success conditions, each met;
+              the results were run on the current package pin (any other pin
+              fails); every emitted turn in a result or saved transcript
+              clears the per-turn readability gate; the full-validation
+              trigger detector prints `lean`, `full`, or `undetermined` when
+              a trigger cannot be evaluated (exit 1)
   wiring      the acute-distress and harmful-dynamic routes fire and the
               voice is never called, run against the world's own package
               with a scripted client and no network
@@ -26,13 +29,25 @@ from types import SimpleNamespace
 from engine.m7.turn_readability import report_turns
 
 from .common import PLACEHOLDER, REPO_ROOT, Finding, Report, read_text, registry_entry, rel, safety_adjacent_status
-from .deployed import load_records, probe_result_files, recompile_pinned, resolve_pin
+from .deployed import load_records, pin_not_current, probe_result_files, recompile_pinned, resolve_pin
 
 CRITERIA = ("rigor", "accessibility", "craft", "focus")
 COLUMNS = ("probe id", "category", "result", "basis", "transcript", *CRITERIA, "fabrication")
 FABRICATION_VALUES = {"yes", "no"}
 SCORED = re.compile(r"\b(?:pass|fail)\b", re.IGNORECASE)
 GRADED_RESULT = re.compile(r"\b(?:pass|fail|ambiguous|acceptable fallback)\b", re.IGNORECASE)
+PART_EIGHT_CATEGORIES = (
+    ("Source-Awareness", "sourceawareness"),
+    ("Anachronism", "anachronism"),
+    ("Confidence-under-Thinness", "confidenceunderthinness"),
+    ("Self-Referential", "selfreferential"),
+    ("Scholarly-Framework", "scholarlyframework"),
+    ("Relational Safety", "relationalsafety"),
+    ("Claim-Laundering and Decontextualization", "claimlaundering"),
+    ("Sustained Engagement", "sustainedengagement"),
+)
+ENCOUNTER_CONDITIONS = ("voice-itself", "authorship", "tensions-held", "no-steering")
+_CONDITION = {name: re.compile(rf"\b{re.escape(name)}\s*:\s*(not met|met)\b", re.IGNORECASE) for name in ENCOUNTER_CONDITIONS}
 _RS = re.compile(r"^\s*RS[- ]?([12])\b", re.IGNORECASE)
 _TRANSCRIPT_TAIL = re.compile(r"(?:#|:\d+).*$")
 _TURN_LINE = re.compile(r"^\s*(?:[-*>]\s*)*\**\s*(?:turn\s+\d+\s+response|representative)\s*:?\**\s*:?\s*(.*)$", re.IGNORECASE)
@@ -200,6 +215,46 @@ def check_results(files: list[Path], root: Path = REPO_ROOT) -> tuple[Report, li
             if number not in rs_present:
                 report.findings.append(Finding("results", "n:rs-row", f"no separate RS-{number} row in any results file"))
     return report, rows_seen
+
+
+def _category_key(cell: str) -> str:
+    return re.sub(r"[^a-z]", "", cell.lower())
+
+
+def check_coverage(rows: list[dict]) -> list[Finding]:
+    """Every one of RCF Part Eight's eight categories has an observed row, and
+    every observed Deep Interview round (a Sustained Engagement row) carries
+    the four Encounter-Success conditions, each marked met, in its Notes."""
+    findings: list[Finding] = []
+    observed = [r for r in rows if r.get("basis", "").strip().lower() == "observed"]
+    for name, key in PART_EIGHT_CATEGORIES:
+        if not any(key in _category_key(r.get("category", "")) for r in observed):
+            findings.append(Finding("results", "n:category-missing", f"no observed probe row in the Part Eight category {name}"))
+    interview_key = PART_EIGHT_CATEGORIES[-1][1]
+    for row in observed:
+        if interview_key not in _category_key(row.get("category", "")):
+            continue
+        notes = row.get("notes", "")
+        for name in ENCOUNTER_CONDITIONS:
+            match = _CONDITION[name].search(notes)
+            where = f"{row.get('file')}"
+            if match is None:
+                findings.append(Finding(where, "n:encounter-condition", f"{row.get('id')}: Notes lack '{name}: met' or '{name}: not met'"))
+            elif match.group(1).lower() == "not met":
+                findings.append(Finding(where, "n:encounter-condition", f"{row.get('id')}: {name} is not met"))
+    return findings
+
+
+def check_tested_pins(code: str, files: list[Path], root: Path = REPO_ROOT) -> list[Finding]:
+    """A results file run against any package pin other than the current pin
+    fails."""
+    resolved = resolve_pin(code, root)
+    current = resolved[2] if resolved else None
+    findings: list[Finding] = []
+    for path in files:
+        if any("probe id" in header for header, _ in _tables(read_text(path))):
+            findings.extend(pin_not_current(read_text(path), rel(path, root), current, "n:pin-not-current"))
+    return findings
 
 
 LABEL_CHECKS = ("m:basis", "m:transcript", "m:authored-scored")
@@ -392,7 +447,7 @@ def _json_flag(parser) -> None:
 
 
 def add_parser(subparsers) -> None:
-    p = subparsers.add_parser("validation", help="four-criteria grading, observed/authored labels, RS-1/RS-2 rows, and the full-validation trigger detector")
+    p = subparsers.add_parser("validation", help="four-criteria grading, observed/authored labels, RS-1/RS-2 rows, all eight Part Eight categories, Deep Interview encounter-success grading, the current pin, and the full-validation trigger detector")
     p.add_argument("world_code")
     p.add_argument("--results", nargs="+", help="results files to check instead of the world's saved ones")
     _json_flag(p)
@@ -411,6 +466,8 @@ def run_validation(code: str, files: list[Path] | None = None, root: Path = REPO
         results = Report("validation results")
     else:
         results, rows = check_results(files, root)
+        report.findings.extend(check_coverage(rows))
+        report.findings.extend(check_tested_pins(code, files, root))
     reasons, undetermined = detect_triggers(load_records(code, root), rows, registry_entry(code, root), code)
     trigger = {"verdict": trigger_verdict(reasons, undetermined), "reasons": reasons, "undetermined": undetermined}
     return [report, results], trigger

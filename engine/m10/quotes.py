@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import itertools
 import re
+import sys
 from pathlib import Path
 
 import yaml
@@ -27,6 +28,10 @@ _STRAIGHT = re.compile(r'"([^"]+)"')
 _CURLY = re.compile(r"“([^”]+)”")
 _PATH = re.compile(r"cic/texts/([\w.\-]+\.(?:txt|xml))")
 _FILENAME = re.compile(r"\b([\w\-]+_[\w.\-]+\.(?:txt|xml))\b")
+_ADDRESS = re.compile(r"cic:(?P<file>[\w.\-]+?\.(?:txt|xml)):(?P<locus>[^\s`'\",;)\]>]+)")
+_DIV_OPEN = re.compile(r'<div(?P<level>[1-3])\b(?P<attrs>[^>]*)>')
+_ID = re.compile(r'\bid="([^"]*)"')
+_TITLE = re.compile(r'\btitle="([^"]*)"')
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history", re.IGNORECASE)
 _NORM = re.compile(r"\s+")
 
@@ -68,6 +73,7 @@ class TextStore:
         self._plain: dict[str, str] = {}
         self._search: dict[str, str] = {}
         self._processed: dict[str, str] = {}
+        self._unit_cache: dict[str, list[dict]] = {}
         self.prefixes: dict[str, list[str]] = {}
         if texts_dir.is_dir():
             for p in sorted(texts_dir.iterdir()):
@@ -143,6 +149,49 @@ class TextStore:
             return result
         return verify_quote_against_notes(span, raw) or result
 
+    def _units(self, name: str) -> list[dict]:
+        if name not in self._unit_cache:
+            engine_dir = str(REPO_ROOT / "cic" / "engine")
+            sys.path.insert(0, engine_dir)
+            try:
+                from corpus_index import passage_units
+
+                self._unit_cache[name] = passage_units(self.texts_dir / name)
+            finally:
+                sys.path.remove(engine_dir)
+        return self._unit_cache[name]
+
+    def locus_text(self, name: str, locus: str) -> str | None:
+        """The text of the division `locus` names in file `name`: a div whose
+        id or title is `locus`, with everything beneath it, or, in a plain-text
+        file, the passage unit at that address. None when the file has no such
+        division."""
+        loaded = self._load(name)
+        if loaded is None:
+            return None
+        raw = loaded[0]
+        wanted = " ".join(locus.lower().split())
+        marks = [(m.start(), m.end(), int(m.group("level")), m.group("attrs")) for m in _DIV_OPEN.finditer(raw)]
+        if marks:
+            pieces = []
+            for index, (start, end, level, attrs) in enumerate(marks):
+                ident = _ID.search(attrs)
+                title = _TITLE.search(attrs)
+                if (ident and ident.group(1) == locus) or (title and " ".join(title.group(1).lower().split()) == wanted):
+                    stop = next((m[0] for m in marks[index + 1 :] if m[2] <= level), len(raw))
+                    pieces.append(strip_xml_markup(raw[end:stop]))
+            return "\n".join(pieces) if pieces else None
+        pieces = [u["text"] for u in self._units(name) if u["locus"] == locus or " ".join(u.get("title", "").lower().split()) == wanted]
+        return "\n".join(pieces) if pieces else None
+
+    def verify_in(self, span: str, text: str) -> bool:
+        """Whether the quotation is found word for word inside `text`, a
+        division's own text."""
+        if verify_quote_text(span, text, source_is_xml=False).verified:
+            return True
+        cleaned = normalize_archaic_letterforms(strip_apparatus(collapse_linewrap_hyphens(text)))[0]
+        return verify_quote_text(normalize_archaic_letterforms(span)[0], cleaned, source_is_xml=False, apply_letterform_normalization=False).verified
+
     def cited_in(self, text: str) -> list[str]:
         names = list(_PATH.findall(text)) + list(_FILENAME.findall(text))
         for token in set(re.findall(r"\b[a-z]+\d+[a-z]?\b", text)):
@@ -190,6 +239,26 @@ def _speaker_tokens(value: str) -> set[str]:
     return {t for t in re.split(r"[^a-z]+", str(value).lower()) if len(t) > 3}
 
 
+def confirm_locus(store: TextStore, span: str, paragraph: str) -> tuple[bool | None, list[Finding]]:
+    """(confirmed, problems) for a quotation whose paragraph cites canonical
+    addresses (cic:<file>:<locus>). The quotation must sit inside the division
+    one of the addresses names, found by its div id or title, and not merely
+    somewhere in the file. None when the paragraph cites no address."""
+    addresses = [(m.group("file"), m.group("locus").rstrip(".,;:")) for m in _ADDRESS.finditer(paragraph)]
+    if not addresses:
+        return None, []
+    problems: list[Finding] = []
+    for name, locus in dict.fromkeys(addresses):
+        text = store.locus_text(name, locus)
+        if text is None:
+            problems.append(Finding("", "quotes-locus-unknown", f"cic:{name}:{locus} does not name a division of {name}"))
+        elif store.verify_in(span, text):
+            return True, []
+        else:
+            problems.append(Finding("", "quotes-locus", f"found in the file but not inside cic:{name}:{locus}: {span[:70]!r}"))
+    return False, problems
+
+
 def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, slug: str | None = None) -> tuple[list[Finding], list[str]]:
     store = TextStore(root / "cic" / "texts")
     rows = _bucket_rows(slug, root)
@@ -200,7 +269,7 @@ def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, sl
 
     findings: list[Finding] = []
     notes: list[str] = []
-    checked = exempt = 0
+    checked = exempt = located = unlocated = 0
     for doc in documents:
         where = rel(doc, root)
         text = read_text(doc)
@@ -239,6 +308,13 @@ def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, sl
                     where_tried = f"the {len(tried)} cited or assigned cic/texts file(s)" if tried else "any cic/texts file (none cited or assigned)"
                     findings.append(Finding(where, "quotes-unverified", f"not found word for word in {where_tried}: {span[:90]!r}"))
                     continue
+                confirmed, problems = confirm_locus(store, span, para)
+                if confirmed:
+                    located += 1
+                elif confirmed is None:
+                    unlocated += 1
+                else:
+                    findings.extend(Finding(where, p.check, p.reason) for p in problems)
                 file_rows = files_by_name.get(hit, [])
                 mixed = [r for r in file_rows if r.get("voice_of")]
                 if mixed:
@@ -248,4 +324,5 @@ def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, sl
                     if not (named & _speaker_tokens(para)):
                         findings.append(Finding(where, "quotes-speaker", f"{hit} mixes voices (voice_of {mixed[0]['voice_of']!r}); the paragraph does not name the speaker of: {span[:70]!r}"))
     notes.insert(0, f"{checked} quotation(s) of {MIN_WORDS}+ words checked, {exempt} taken from project documents")
+    notes.insert(1, f"{located} confirmed inside a cited cic:<file>:<locus> division, {unlocated} found in a file with no address cited in their paragraph")
     return findings, notes

@@ -35,6 +35,7 @@ SELF_REFERENCE_STEMS = (
     ("no 'I' smuggled in through a list of named roles", re.compile(r"smuggled in through a list of named roles", re.I)),
 )
 CONFIRMED_WORLD_CORE_FIELDS = ("living_traditions", "telos")
+SOURCE_ANCHOR_BOUNDS = (5, 10)
 
 _NUM_WORDS = {
     "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
@@ -214,6 +215,39 @@ def _grandfathered() -> frozenset[str]:
     return GRANDFATHERED_WORLDS
 
 
+def check_source_anchor(code: str, prompt: str, records: dict[str, dict], where: str) -> tuple[list[Finding], list[str]]:
+    """The approved-source anchoring paragraph: voice_craft.source_anchor is
+    set, it stands as its own section of the compiled prompt, and it is drawn
+    from 5 to 10 entries (voice_craft.source_anchor_entries), each named in
+    it. A grandfathered world without the paragraph gets a note; any other
+    world fails."""
+    from engine.m2.builders import SOURCE_ANCHOR_HEADER
+
+    findings: list[Finding] = []
+    notes: list[str] = []
+    craft = next(iter(_by_type(records, "voice_craft")), None)
+    anchor = (craft or {}).get("source_anchor")
+    if not (isinstance(anchor, str) and anchor.strip()):
+        reason = "voice_craft has no source_anchor, so the compiled prompt carries no approved-source anchoring paragraph"
+        if code in _grandfathered():
+            notes.append(f"source_anchor: {reason} (grandfathered world)")
+        else:
+            findings.append(Finding(where, "k:source-anchor", reason))
+        return findings, notes
+    section = _section(prompt, SOURCE_ANCHOR_HEADER)
+    if section is None or _norm(section) != _norm(anchor):
+        findings.append(Finding(where, "k:source-anchor", f"voice_craft.source_anchor is in the records but the compiled prompt has no '{SOURCE_ANCHOR_HEADER}' section holding it verbatim"))
+    entries = [e for e in (craft.get("source_anchor_entries") or []) if isinstance(e, str) and e.strip()]
+    low, high = SOURCE_ANCHOR_BOUNDS
+    distinct = {_norm(e) for e in entries}
+    if not low <= len(distinct) <= high:
+        findings.append(Finding(where, "k:source-anchor-entries", f"source_anchor_entries names {len(distinct)} distinct entries; the anchoring paragraph is drawn from {low} to {high} Native Source Registry entries"))
+    for entry in entries:
+        if _norm(entry) not in _norm(anchor):
+            findings.append(Finding(where, "k:source-anchor-entries", f"entry {entry!r} is not named in source_anchor"))
+    return findings, notes
+
+
 def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry: dict, where: str) -> tuple[list[Finding], list[str]]:
     findings: list[Finding] = []
     notes: list[str] = []
@@ -233,6 +267,10 @@ def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry
                 notes.append(f"living_traditions: {reason}")
             else:
                 findings.append(Finding(where, "k:living-traditions", reason))
+
+    anchor_findings, anchor_notes = check_source_anchor(code, prompt, records, where)
+    findings.extend(anchor_findings)
+    notes.extend(anchor_notes)
 
     bullet = next((ln for ln in prompt.splitlines() if ln.lstrip().startswith("- [self-reference]")), None)
     if bullet is None:
@@ -408,6 +446,32 @@ def citation_files(code: str, root: Path = REPO_ROOT) -> list[Path]:
     return sorted({*documents, *probe_result_files(code, root)})
 
 
+_TESTED_ARTIFACT = re.compile(r"^[\s>*_-]*tested artifact\b.*$", re.IGNORECASE | re.MULTILINE)
+
+
+def tested_pins(text: str) -> tuple[set[str], bool]:
+    """(pins, from_line): the pins on the file's `Tested artifact` line or
+    lines, or, when it has none, every pin the file names."""
+    lines = _TESTED_ARTIFACT.findall(text)
+    if lines:
+        return {pin for line in lines for pin in PIN_RE.findall(line)}, True
+    return set(PIN_RE.findall(text)), False
+
+
+def pin_not_current(text: str, where: str, current: str | None, check: str) -> list[Finding]:
+    """A finding when the tested pin is not the world's current package pin.
+    A `Tested artifact` line must name the current pin and no other; a file
+    without one must at least name it."""
+    if current is None:
+        return [Finding(where, check, "the world has no current package pin to compare the tested pin with")]
+    pins, from_line = tested_pins(text)
+    if from_line and pins != {current}:
+        return [Finding(where, check, f"tested artifact names pin {', '.join(sorted(pins)) or 'none'}; the current pin is {current}")]
+    if not from_line and current not in pins:
+        return [Finding(where, check, f"the file names pin {', '.join(sorted(pins)) or 'none'}, not the current pin {current}")]
+    return []
+
+
 def check_probe_pins(code: str, root: Path = REPO_ROOT) -> Report:
     report = Report("probes")
     package_root = root / "packages" / code
@@ -426,8 +490,8 @@ def check_probe_pins(code: str, root: Path = REPO_ROOT) -> Report:
         unknown = sorted(cited - pins)
         if unknown and not (cited & pins):
             report.findings.append(Finding(where, "l:pin-unknown", f"names pin {unknown[0]}, which is not a package of {code}"))
-        elif current and current not in cited:
-            report.notes.append(f"{where}: tested pin {sorted(cited & pins)[-1]}, current pin is {current}")
+        else:
+            report.findings.extend(pin_not_current(read_text(path), where, current, "l:pin-not-current"))
     return report
 
 

@@ -26,8 +26,17 @@ def _record(code, rtype, slug, **fields):
     return {"id": f"{code}.{rtype}.{slug}", "record_type": rtype, **fields}
 
 
-def _records(quotes=3, living=None):
+ENTRIES = ["the Demonstrations", "the Didascalia", "the Acts of Thomas", "the Odes", "the Book of Steps", "the Liber Graduum"]
+ANCHOR = (
+    "Our images come from " + ", ".join(ENTRIES) + ". "
+    "When a fitting image does not come from what formed us, we fall back to the plain shape of our own life."
+)
+
+
+def _records(quotes=3, living=None, anchor=ANCHOR, entries=tuple(ENTRIES)):
     records = {}
+    craft = _record("w", "voice_craft", "craft", **({"source_anchor": anchor, "source_anchor_entries": list(entries)} if anchor else {}))
+    records[craft["id"]] = craft
     for i in range(quotes):
         r = _record("w", "quote", f"q{i}")
         records[r["id"]] = r
@@ -38,8 +47,8 @@ def _records(quotes=3, living=None):
     return records
 
 
-def _prompt(quotes=3, living=None, self_reference=HARDENING, quotation="Every record listed under Quotes we hold qualifies."):
-    parts = ["## How we word things", f"- [self-reference] Strict we-voice. {self_reference}", f"- [quotation] {quotation}", "",
+def _prompt(quotes=3, living=None, self_reference=HARDENING, quotation="Every record listed under Quotes we hold qualifies.", anchor=ANCHOR):
+    parts = ([f"## Where our images come from\n\n{anchor}\n"] if anchor else []) + ["## How we word things", f"- [self-reference] Strict we-voice. {self_reference}", f"- [quotation] {quotation}", "",
              "## Gravities (cite as [[w.core.w]])", "- [[w.gravity.g1]] Name", ""]
     if living:
         parts += ["## Living traditions (cite as [[w.core.w]])", "", living, ""]
@@ -282,11 +291,19 @@ def test_probe_results_naming_an_unknown_pin_fail(tmp_path):
     assert _ids(check_probe_pins("w", root).findings) == ["l:pin-unknown"]
 
 
-def test_an_older_pin_is_noted_not_failed(tmp_path):
+def test_an_older_pin_fails(tmp_path):
     root = _probe_root(tmp_path, "Tested pin 2026-09-01T00-00-00Z\n", pins=("2026-09-29T00-00-00Z", "2026-09-01T00-00-00Z"))
     report = check_probe_pins("w", root)
-    assert report.findings == []
-    assert any("current pin is 2026-09-29T00-00-00Z" in n for n in report.notes)
+    assert _ids(report.findings) == ["l:pin-not-current"]
+    assert "2026-09-29T00-00-00Z" in report.findings[0].reason
+
+
+def test_a_tested_artifact_line_must_name_only_the_current_pin(tmp_path):
+    pins = ("2026-09-29T00-00-00Z", "2026-09-01T00-00-00Z")
+    root = _probe_root(tmp_path, "Tested artifact: packages/w/2026-09-29T00-00-00Z/compiled/prompt.txt\nEarlier run on 2026-09-01T00-00-00Z.\n", pins=pins)
+    assert check_probe_pins("w", root).findings == []
+    root = _probe_root(tmp_path / "b", "Tested artifact: packages/w/2026-09-01T00-00-00Z/compiled/prompt.txt\n", pins=pins)
+    assert _ids(check_probe_pins("w", root).findings) == ["l:pin-not-current"]
 
 
 def test_runner_dry_run_offers_legacy_files_to_the_guard(tmp_path):
@@ -353,3 +370,43 @@ def test_the_loader_gets_past_the_guard_for_a_package_fetched_into_the_default_c
     (stray / "compiled").mkdir(parents=True)
     with pytest.raises(ProbeTargetRefused):
         LazyWorldLoader().load("zz", package_dir=stray, expected_manifest_hash="sha256:0")
+
+
+def test_a_world_with_the_anchoring_paragraph_in_records_and_prompt_passes():
+    assert check_prompt_content("w", _prompt(), _records(), {}, "p")[0] == []
+
+
+def test_a_world_that_is_not_grandfathered_fails_without_the_anchoring_paragraph():
+    findings, _ = check_prompt_content("w", _prompt(anchor=None), _records(anchor=None), {}, "p")
+    assert _ids(findings) == ["k:source-anchor"]
+
+
+def test_a_grandfathered_world_without_the_anchoring_paragraph_gets_a_note():
+    findings, notes = check_prompt_content("syr", _prompt(anchor=None), _records(anchor=None), {}, "p")
+    assert findings == [] and any(n.startswith("source_anchor") for n in notes)
+
+
+def test_the_anchoring_paragraph_in_records_but_missing_from_the_prompt_fails():
+    findings, _ = check_prompt_content("w", _prompt(anchor=None), _records(), {}, "p")
+    assert _ids(findings) == ["k:source-anchor"]
+
+
+def test_the_anchoring_paragraph_must_be_its_own_section_verbatim():
+    changed = ANCHOR.replace("plain shape", "plain form")
+    findings, _ = check_prompt_content("w", _prompt(anchor=changed), _records(), {}, "p")
+    assert _ids(findings) == ["k:source-anchor"]
+
+
+def test_the_anchoring_paragraph_needs_five_to_ten_entries():
+    for entries in (ENTRIES[:4], ENTRIES + ["the Cave of Treasures", "the Doctrine of Addai", "the Chronicle of Edessa", "the Hymns", "the Letters"]):
+        anchor = "Our images come from " + ", ".join(entries) + ". We fall back to the plain shape of our own life."
+        findings, _ = check_prompt_content("w", _prompt(anchor=anchor), _records(anchor=anchor, entries=entries), {}, "p")
+        assert _ids(findings) == ["k:source-anchor-entries"], entries
+    edge = ENTRIES[:5]
+    anchor = "Our images come from " + ", ".join(edge) + ". We fall back to the plain shape of our own life."
+    assert check_prompt_content("w", _prompt(anchor=anchor), _records(anchor=anchor, entries=edge), {}, "p")[0] == []
+
+
+def test_every_anchor_entry_must_be_named_in_the_paragraph():
+    findings, _ = check_prompt_content("w", _prompt(), _records(entries=tuple(ENTRIES[:5]) + ("the Cave of Treasures",)), {}, "p")
+    assert _ids(findings) == ["k:source-anchor-entries"]

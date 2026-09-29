@@ -688,11 +688,12 @@ VOICE_CRAFT_WORD_CEILING_BY_WORLD = {
 
 
 def voice_craft_prompt_parts(rec: dict) -> list[str]:
-    """The four voice_craft fields that compile into every turn's prompt,
-    as the texts the word budget counts."""
+    """The voice_craft fields that compile into every turn's prompt, as the
+    texts the word budget counts."""
     parts = [rec.get("identity") or "", rec.get("guard") or ""]
     parts += [n.get("note", "") for n in (rec.get("flavor_notes") or [])]
     parts += list(rec.get("characteristic_concerns") or [])
+    parts.append(rec.get("source_anchor") or "")
     return parts
 
 

@@ -107,3 +107,50 @@ def test_an_invented_quotation_copied_into_the_source_registry_or_the_dossier_is
     write(root, f"Build/worlds/_cross-world/dossiers/{SLUG}_Source_Readiness_Dossier.md", f'# Dossier\n\n"{INVENTED}".\n')
     findings, _ = _run(root, f'They record that "{INVENTED}".\n')
     assert [f.check for f in findings] == ["quotes-unverified"]
+
+
+LETTERS = "fxvol02_letters.xml"
+FIRST = "the bishop gathered his monks at dawn and read them the whole letter aloud"
+SECOND = "the abbot sent the brothers away before the winter came down on the road"
+
+
+def _letters_world(tmp_path):
+    root = build_world(tmp_path)
+    write(root, f"cic/texts/{LETTERS}", f'<div1 id="i" title="Letter I"><p>{FIRST}.</p></div1>\n<div1 id="ii" title="Letter II"><p>{SECOND}.</p><div2 id="ii.a" title="Letter II, part a"><p>a later paragraph here.</p></div2></div1>\n')
+    write(root, "cic/texts/REGISTRY.yaml", f"- filename: {TEXT_FILE}\n  supplied_by: Mark\n  date_added: '2026-09-01'\n- filename: {LETTERS}\n  supplied_by: Mark\n  date_added: '2026-09-01'\n")
+    return root
+
+
+def _cite(root, locus, quote=SECOND):
+    return _run(root, f'The letter at `cic:{LETTERS}:{locus}` says "{quote}".\n')
+
+
+def test_a_quotation_inside_the_division_its_address_names_is_confirmed(tmp_path):
+    root = _letters_world(tmp_path)
+    findings, notes = _cite(root, "ii")
+    assert findings == [] and "1 confirmed inside a cited" in notes[1]
+
+
+def test_a_division_holds_the_text_of_its_children(tmp_path):
+    root = _letters_world(tmp_path)
+    assert _cite(root, "ii", quote="a later paragraph here")[0] == []
+    assert _cite(root, "ii.a", quote="a later paragraph here")[0] == []
+    assert [f.check for f in _cite(root, "ii.a")[0]] == ["quotes-locus"]
+
+
+def test_a_quotation_found_in_the_file_but_outside_the_cited_division_fails(tmp_path):
+    root = _letters_world(tmp_path)
+    findings, _ = _cite(root, "i")
+    assert [f.check for f in findings] == ["quotes-locus"]
+
+
+def test_an_address_naming_no_division_of_the_file_fails(tmp_path):
+    root = _letters_world(tmp_path)
+    findings, _ = _cite(root, "iii")
+    assert [f.check for f in findings] == ["quotes-locus-unknown"]
+
+
+def test_a_quotation_with_no_address_cited_is_counted_not_failed(tmp_path):
+    root = _letters_world(tmp_path)
+    findings, notes = _run(root, f'See `cic/texts/{LETTERS}`: "{SECOND}"\n')
+    assert findings == [] and "1 found in a file with no address" in notes[1]

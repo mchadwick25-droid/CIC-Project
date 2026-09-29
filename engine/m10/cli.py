@@ -21,6 +21,8 @@ OPTIONAL_MODULES = (
     "engine.m10.deployed",
     "engine.m10.validation",
     "engine.m10.regate",
+    "engine.m10.claims",
+    "engine.m10.integrity",
 )
 
 
