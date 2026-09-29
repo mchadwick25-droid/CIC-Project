@@ -46,18 +46,22 @@ works:
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
 - work: Contra (Adversus) Fulgentium Donatistam
   author: augustine
-  locus: Pars III, short item
+  locus: Pars III (CSEL 53), Appendix II; file line 78988 (heading 'LIBELLVS ADVERSVS FVLGENTIVM
+    DONATISTAM')
   role: tradition
   confidence: provisional
-  note: 'A short, otherwise-unvendored reply to a Donatist named Fulgentius about whom little
-    else survives in this corpus — provisional pending a check on how substantial and independently
-    attested this exchange actually is before it supports a specific claim.
+  note: 'A short reply to a Donatist named Fulgentius, printed in Petschenig''s Appendix among
+    the two opuscula he prints as spurious, not Augustine''s (the Appendix''s own Praefatio,
+    file lines 60845-60860). The manuscript title is "Libellus adversus Fulgentium Donatistam".
+    The author slug is augustine because no other slug exists for the work; the ascription
+    does not hold in the edition itself, so the confidence is provisional.
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: Contra Cresconium (libri quattuor)
   author: augustine
-  locus: Pars III, following Pars I without a second title page in this scan
+  locus: Pars II (CSEL 52); file line 41781 (heading 'CONTRA CRESCONIVM GRAMMATICVM ET DONATISTAM
+    LIBRI IIII')
   role: tradition
   confidence: assigned
   note: 'No English translation vendored anywhere in this corpus — primary content, not a
@@ -72,7 +76,7 @@ works:
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: Contra Epistulam Parmeniani (libri tres)
   author: augustine
-  locus: Pars I
+  locus: Pars I (CSEL 51); file line 2089 (heading 'CONTRA EPISTULAM PARMENIANI LIBRI III')
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of Augustine''s reply to Parmenian''s own letter —
@@ -86,7 +90,7 @@ works:
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: De Baptismo (libri septem)
   author: augustine
-  locus: Pars I
+  locus: Pars I (CSEL 51); file line 8477 (heading 'DE BAPTISMO LIBRI VII')
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of the same work already vendored in English as "On
@@ -100,7 +104,7 @@ works:
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: De Unico Baptismo contra Petilianum
   author: augustine
-  locus: Pars III
+  locus: Pars III (CSEL 53); file line 60952 (heading 'DE VNICO BAPTISMO')
   role: tradition
   confidence: assigned
   note: 'No English translation vendored anywhere in this corpus. Companion to the already-vendored
@@ -172,7 +176,8 @@ works:
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
 - work: Psalmus contra Partem Donati
   author: augustine
-  locus: Pars I, opening item
+  locus: Pars I (CSEL 51); file line 1257 (heading 'PSALMUS', followed by 'CONTRA PARTEM DONATI'
+    at 1258)
   role: tradition
   confidence: assigned
   note: 'Augustine''s own abecedarian song against the Donatists, written for ordinary Catholic

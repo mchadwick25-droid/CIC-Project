@@ -1,0 +1,5586 @@
+Title: Augustin De catechizandis rudibus (Sammlung ausgewaehlter kirchen- und dogmengeschichtlicher Quellenschriften, Viertes Heft), herausgegeben von Adolf Wolfhard, zweite, vollstaendig neubearbeitete Ausgabe von G. Krueger
+Creator: Augustine of Hippo (354-430); Adolf Wolfhard (editor of the first edition); Gustav Krueger (editor of this second, wholly revised edition)
+Publisher: Freiburg i. B. and Leipzig: Akademische Verlagsbuchhandlung von J. C. B. Mohr (Paul Siebeck)
+Publication Date: 1893
+Rights: Public Domain (pre-1930 publication)
+Language: lat (Latin text with German introduction and German notes)
+Source: archive.org item augustindecatech00augu, full-text OCR file augustindecatech00augu_djvu.txt, fetched directly from https://archive.org/download/augustindecatech00augu/augustindecatech00augu_djvu.txt by the library/source-research thread (Claude), 2026-09-29. Scan digitized by the Internet Archive in 2017 with funding from University of Illinois Urbana-Champaign.
+Provenance note: Header prepended by the library thread; the item's OCR text follows byte-for-byte unchanged after the '---' line (nothing stripped, normalized or corrected, including the scan's own library front matter and the host's digitization notices). Rights basis: the printed date on the title page (1893); the host record carries no rights field.
+Content note: The Latin text of Augustine's De catechizandis rudibus with the editor's German Vorwort, Einleitung and notes. The OCR renders the German umlauts and sharp s as plain letters (u, s) in the German passages, and the Latin text carries the edition's printed line numbers in the margin.
+
+---
+
+Digitized  by  the  Internet  Archive 
+in  2017  with  funding  from 
+
+University  of  Illinois  Urbana-Champaign  Alternates 
+
+
+https://archive.org/details/augustindecatechOOaugu 
+
+
+Ivirclien-  und  dogmengeschichtliche 
+Quellenschriften. 
+
+
+IV. 
+
+
+Sammlung  ausgewahlter  kirchen-  und  dogmengeschichtlicher 
+Quellenschriften 
+
+ais  Grundlage  fur  Seminariibungen  herausgegeben  unter  Leitung 
+von  Professor  D.  G.  Kriiger. 
+
+Yiertes  Heft. 
+
+
+Augustin 
+
+De  catechizandis  rudibus. 
+
+Herausgegeben 
+
+von 
+
+Adolf  Wolfhard. 
+
+
+Zweite,  vollstandig  neubearbeitete  Ausgabe 
+von 
+
+Gr.  Kruger. 
+
+
+Freiburg  i.  B.  und  Leipzig  1893. 
+
+Akademische  Verlagsbuchhandlung  von  J.  C.  B.  Mohr. 
+
+(Paul  Siebeck.) 
+
+
+. 
+
+
+V 
+
+
+3  3 
+
+
+Yorwort 
+
+
+JJie  erste  Ausgabe  dieses  Heftes  hat  den  Unwillen  der 
+Kritiker  erregt.  Mit  Recht:  Wolfhards  Arbeit  kann  aucli 
+den  bescheidensten  Ansprtichen  nicht  genugen.  Da  ich  ais 
+Leiter  der  Sammlung  fur  den  Schaden  mit  verantwortlich 
+gemacht  werden  mufste,  der  dem  Unternelimen  aus  diesem 
+Mifserfolg  erwachsen  konnte ,  so  war  es  meine  Pflicht,  den 
+Folgen  nach  Moglichkeit  vorzubeugen.  Mit  Herr*n  Wolf- 
+hard  konnte  ich  mich  leider  nicht  ins  Einvernehmen  setzen : 
+er  hat  mir  auf  keinerlei  Anfrage,  auch  nicht  auf  ein- 
+geschri ebene ,  geantwortet,  trotzdem  ich  mich  iiber  seine 
+jetzige  Adresse  genau  unterrichtet  habe.  Somit  sah  ich 
+mich  gezwungen,  Arbeit  und  Kosten  selbst  zu  tibernehmen. 
+Das  Heft  ist  ganz  neu  gedruckt  worden.  Nur  die  Ein- 
+«  leitung  ist  auf  den  ersten  Seiten  wesentlich  unverandert 
+i  geblieben.  Von  den  Maurinern  habe  ich  die  Kapitelein- 
+teilung  ubernommen,  dagegen  aus  praktischen  Griinden 
+innerhalb  der  Kapitel  selbstandig  paragraphiert.  Die  Ab- 
+;  satze  entsprechen  denen  der  Mauriner.  Einige  Schriftstellen, 
+
+•  die  unter  dem  Text  fehlen,  sind  in  das  Register  noch  auf- 
+genommen  worden. 
+
+
+VI 
+
+
+Vorwort. 
+
+
+Unter  den  Kritikern  mufs  ich  besonders  Herrn  Prof. 
+Dr.  Juli ch er  (Theol.  Lit.  Ztg.  1893,  Nr.  4,  Sp.  106—108) 
+Dank  sagen.  Auch  von  den  S.  XV  gemachten  Vorschlagen 
+kommen  die  meisten  auf  seine  Rechnung. 
+
+Noch  eine  Bemerkung  wolle  man  mir  gestatten.  Im 
+Theol.  Jahresbericht  fiir  1891  (S.  150)  schreibt  Herr  Prof. 
+Ltidemann:  „Die  Sammlung  von  Quellenschriften  zu  Se- 
+minarzwecken,  welche  Kr  iiger  veranstaltet ,  ist  gewifs  sehr 
+willkommen  zu  heifsen.  In  Bern  sind  wir  freilieh  bei  Be- 
+grtindung  des  kirchenhistorischen  Seminars  1886  sofort  von 
+der  V oraussetzung  ausgegangen,  dafs  das  V orhandensein  der 
+wichtigsten  Quellenschriften  in  einer  hinreichendenAn- 
+zahl  von  Exemplaren  in  der  Bibliothek  des  Seminars 
+selbst  ganz  unentbehrlich  sei,  wenn  bei  Durchnahme  von 
+kirchenhistorischen  Fragen  ein  gemeinsames  Nachlesen  wich- 
+tiger  Quellenstellen  ermoglicht  werden  soli.  Die  Munificenz 
+unserer  Regierung  hat  das  bisher  schon  bis  zu  einem  sehr 
+erfreulichen  Grade  gestattet.“  Diese  Worte  zeigen,  dafs  Herr 
+Prof.  Ltidemann  den  Zweck  der  Sammlung  nicht  verstanden 
+hat.  Ich  habe  in  dem  Vorwort  zur  Ausgabe  des  Justin 
+geschrieben:  „Es  ist  dringend  zu  wiinschen,  nicht  die  Se- 
+minarbibliotheken  durch  Ankauf  einer  Anzahl  von  Exem¬ 
+plaren  [dieser  Sammlung]  zu  bereichern,  sondern  den  ein- 
+zelnen  Studenten  zur  Anschaffung  zu  veranlassen. 
+Es  wird  keinem  schaden,  auch  in  spateren  Jahren  eine 
+solche  Schrift  hin  und  wieder  in  die  Hand  zu  nehmen.“ 
+Dafs,  um  kirchenhistorische  Fragen  durchzunehmen ,  eine 
+geniigende  Anzahl  von  Exemplaren  z.  B.  des  Eusebius  oder 
+Tertullian  oder  Irenaus  vorhanden  sein  mufs,  ist  selbstver- 
+standlich.  In  welchem  Seminar  fanden  sie  sich  nicht?  Eine 
+sonderbare  Regierung  ware  es,  die  dafiir  nicht  die  geniigen- 
+den  Mittel  zur  Verfiigung  stellte.  Aber  um  einzelne  Schriften, 
+
+
+Vorwort. 
+
+
+VII 
+
+
+und  zwar  verschiedenster  Autoren,  mit  den  Studenten  zu 
+lesen,  sind  praktisch  eingerichtete  Einzelausgaben  notwendig. 
+Den  Hauptwert  lege  ich  aber  auf  die  Anschaffung  durch 
+den  Einzelnen.  Wenn  wir  die  Studenten  nicht  immer  wieder 
+und  nachdriicklich  auf  Biicheranschaffungen  verweisen,  so 
+konnte  die  Zeit  kommen ,  wo  die  ganze  Bibliothek  eines 
+Pfarrers  in  einem  Novum  Testamentum  billigsten  Zuschnitts, 
+dem  einen  oder  andern  Lehrbuch  und  einer  Predigtsamm- 
+lung  fur  alie  Sonntage  des  Jahres  besteht!  Ich  wiederhole 
+daher  meine  Bitte  an  die  Herren  Fachgenossen,  Hefte  dieser 
+Sammlung  nicht  fur  Seminarbibliotheken  anzuschaffen.  Auch 
+dem  Verleger  wtirde  man  sonst  die  Fortsetzung  des  all- 
+gemein  ais  ntitzlich  bezeichneten  Unternehmens  verleiden. 
+
+Giefsen,  am  12.  Juli  1898. 
+
+
+G.  Kriiger. 
+
+
+Einleitung 
+
+
+JL/er  Einflufs  Augustins  ist  nicht  in  stiller  Gelehrten- 
+arbeit,  auch  nicht  im  rein  aufserlichen  Handeln  eines  Kirchen- 
+fiirsten  begrtindet,  sondern  in  der  Macht  seiner  einzigartigen, 
+charakteryollen  Personlichkeit,  welche  Grundlage  all  seines 
+Wirkens  ist;  nnd  diesen  Charakter  hat  er  sich  erworben 
+durch  ein  Leben  —  „in  dem  Strom  der  Welt“  —  im 
+engsten  Zusammenhang  mit  den  grofsen  Bewegungen 
+seiner  Zeit. 
+
+Augustin,  geb’  354  zn  Tagaste,  war  Sohn  des  heid- 
+nischen  Offiziers  Patricius,  eines  rechtschaffenen ,  aber  hef- 
+tigen  Mannes,  und  der  einfachen,  christlich-frommen  Monika. 
+Nach  Besuch  der  Schulen  zu  Tagaste  und  Madaura  bezog 
+er  siebzehnjahrig  die  Rhetor enschule  zu  Karthago.  Bis 
+dahin  zeigt  sich  in  ihm  noch  kein  besonaeres  Streben;  der 
+Ehrgeiz  ist  ein  vaterliches  Erbteil,  der  sittliche  Einflufs  von 
+dieser  Seite  nicht  derart,  ihn  von  den  Stinden  seiner  Zeit 
+abzuhalten.  Eine  christliche  Erziehung  erhalt  er  von  seiner 
+Mutter,  deren  Erfolg  ein  Zug  in  seiner  Seele  ist,  dafs  nur 
+bei  Christo  die  Wahrheit  sei;  doch  nicht  stark  genug,  um 
+Leben  zu  werden. 
+
+Der  ehrgeizige  Jiingling  wirft  sich  in  Karthago  in  den 
+Strudel  des  Studentenlebens ;  er  ist  nicht  besser,  ais  die 
+
+
+X 
+
+
+Einleitung. 
+
+
+librigen,  aber  auch  nicht  besonders  schlecht;  vom  Treiben 
+der  „Wtistlinge“  halt  er  sich  fern.  Zu  ernsterem  Streben 
+fiihrt  ihn  Ciceros  Hortensius,  eine  fur  uns  verlorene  Schrift, 
+die  zum  Suchen  der  Wahrheit  mahnte.  Aber  der  lediglich 
+moralistische  Einflufs  Ciceros  kann  ihn  nicht  lange  be- 
+ruhigen :  373  wendet  er  sich  dem  Manichaismus  zu,  dem  er 
+etwa  zehn  Jahre  ais  Katechumene  angehort.  Die  Manichaer 
+versprechen  ihm  einheitliche  Erklarung  des  Weltratsels, 
+Freiheit  der  Forschung;  sie  zeigten  einen  heiligen  Charakter 
+und  wiesen  Christus  eine  hohe  Stelle  an.  Doch  lange  ist 
+seine  Ruhe  hier  auch  nicht ;  Aristoteles  belehrt  ihn  liber  das 
+Mythologische  der  manichaischen  Grundlehre,  dafs  gut  und 
+bos  nur  die  Fortsetzung  des  einen,  die  ganze  Natur  durch- 
+ziehenden  Gegensatzes  sei ;  auch  liber  das  reine  Leben 
+der  Sekte  wird  er  enttauscht  und  iiberwindet  so  den 
+Manichaismus  innerlich  lange,  bevor  die  aufserliche  Tren- 
+nung  erfolgt. 
+
+Jetzt  arbeitet  er  ais  Lehrer  mit  grofser  Berufstreue. 
+So  weit  hat  ihn  sein  neues  sittliches  Streben  gebracht, 
+nicht  aber  zur  Aufgabe  des  Verhaltnisses  mit  seiner  Ge- 
+liebten.  Doch  innerlich  ist  er  zerrissen:  der  Manichaismus 
+hat  ihn  getauscht  ;  Aristoteles  gewahrt  ihm  keine  positive 
+Lebensanschauung ;  die  Kirche,  welche  Glauben  und  Wissen 
+nicht  zu  vereinigen  vermag  (Hauptanstofs  ist  das  A.  Test.), 
+hat  die  Wahrheit  auch  nicht;  es  giebt  also  keine  Wahrheit; 
+er  iiberlafst  sich  der  Skepsis.  In  dieser  Stimmung  kommt  er 
+nach  Rom,  bald  darauf  nach  Mailand  (383). 
+
+Hier  ist  aus  dem  Weltmanne  der  asketische  Christ, 
+aus  dem  Skeptiker  der  Anhanger  der  kirchlichen  Autoritat 
+geworden.  Bestimmend  war  ftir  ihn  vor  allem  der  impo- 
+sante  Eindruck,  den  Christentum  und  Kirche  in  Ambro¬ 
+sius  auf  ihn  machen.  Er  beginnt  die  paulinischen  Briefe 
+
+
+Einleitung. 
+
+
+XI 
+
+
+zu  studieren.  Der  Neuplatonismus  vermittelt  ihm  einen 
+geistigen  Gottesbegriff  und  hilft  ihm  damit  die  Skepsis  tiber- 
+winden.  Des  Irrens  miide,  mangelt  ihm  die  alte  Scharfe 
+der  Kritik;  es  gewahrt  ihm  Beruhigung,  dafs  er  sich 
+mit  dem  Christentum  an  eine  Philosophie  anlehnen  kann; 
+und  so  geht  er  vom  Neuplatonismus  zur  vollen  Anerkennung 
+der  kirchlichen  Autoritat  liber.  Es  bedarf  nur  noch  eines 
+praktischen  Antriebes,  um  den  Willen  umzustimmen.  Die 
+Erzahlung  von  der  Bekehrung  vornehmer  Romer  erschiittert 
+ihn ;  sein  Wille  ist  gebrochen,  und  der  stolze  Skeptiker  folgt 
+im  Garten  der  Kinderstimme :  „Nimm  und  lies“  !  Die  auf- 
+geschlagene  Stelle  (Rom.  13,  13)  zeigt  ihm  sein  bisheriges 
+Leben  und  das,  was  ihm  fehlt;  —  Ostern  387  wird  er  ge- 
+tauft.  Nur  wenige  Jahre  kann  er  ein  zuriickgezogenes 
+Leben  fiihren  •  wider  seinen  Willen  in  Hippo  zum  Presbyter 
+geweiht,  wird  er  395  Mitbischof,  dann  Bischof-,  430  ist  er 
+hier,  kurz  vor  Eroberung  der  Stadt  durch  die  Vandalen, 
+gestorben. 
+
+Er  entfaltet  eine  grofsartige  Thatigkeit  durch  seinen 
+geistigen  *  Einflufs  auf  die  Kirche  *,  ais  Bischof  in  engeren 
+Grenzen,  iiber  einen  weiteren  Kreis  besonders  durch  seine 
+Schriften.  Diese  Schriftstellerei  giebt  uns  ein  deutliches 
+Bild  seiner  Thatigkeit,  aber  auch  einen  Spiegel  seiner  Zeit; 
+denn  wie  er  einerseits  nicht  aus  Liebhaberei,  sondern  nur 
+aus  praktischen  Anlassen  geschrieben  hat,  so  liefs  er  an- 
+dererseits  auch  keine  wichtige  Zeitfrage  in  seinen  Biichern 
+unbeantwortet. 
+
+Nachdem  er  in  Karthago  Poetisches  und  Asthetisches 
+veroffentlicht,  beschaftigt  er  sich  386 — 88  in  seinen  Schriften 
+mit  religionsphilosophischen  Fragen  und  sucht  darin  des 
+Skeptizismus  Herr  zu  werden. 
+
+
+XII 
+
+
+Einleitung. 
+
+
+Contra  acaclemicos.  —  de  vita  beata.  —  de  ordine.  — 
+soliloquia.  —  de  immortalitate  animae.  —  de  quantitate 
+animae.  —  de  magistro.  —  de  musica.  — 
+
+Christ  geworden ,  will  er  sich  vor  allem  uber  den 
+Manichaismus  erheben,  zugleich  im  Interesse  der  Kirche 
+gegen  diese  gefahrliche  Zeitstromung  Front  machen.  Die 
+einschlagigen  Streitschriften  fallen  in  die  Jahre  388—405  : 
+
+De  moribus  ecclesiae  catholicae  et  de  moribus  Manichaeo¬ 
+rum.  —  de  libero  arbitrio.  —  de  utilitate  credendi.  —  contra 
+Faustum.  —  de  natura  boni.  —  contra  Secundinum.  — 
+
+Ais  Verteidiger  des  Kircbentums  tritt  er  im  dona- 
+tistischen  Streite  auf.  400 — 420 : 
+
+Contra  Parmeniani  epistolam  ad  Tychicum.  —  de  baptismo 
+contra  Donatistas.  —  contra  litteras  Petiliani.  —  de  unico 
+baptismo  contra  Petilianum.  —  breviculus  collationis  cum 
+Donatistis.  —  contra  Gaudentium.  — 
+
+und  entwickelt  im  pelagianischen  Streit  seine  Gedanken 
+uber  Erbsiinde,  Siinde,  Gnade,  Willensfreiheit  und  Pradesti- 
+nation.  Der  ersten  Phase  dieses  Streits  (bis  418)  gehoren 
+folgende  Schriften  an: 
+
+De  peccatorum  meritis  et  remissione  deque  baptismo  parvu¬ 
+lorum  ...  —  de  spiritu  et  littera.  —  de  perfectione  iusti- 
+tiae  hominis.  —  de  natura  et  gratia.  —  de  gestis  Pelagii.  — 
+de  gratia  Christi  et  peccato  originali.  — 
+
+Dann  setzt  Augustin  die  Polemik  gegen  J  u  1  i  a  n  von 
+Eclanum,  den  bedeutendsten  (philosophischen)  Gegner  der 
+Erbsttndenlehre,  fort.  Seine  letzte  antipelagianische  Schrift 
+blieb  unvollendet;  die  Feder  entsank  der  muden  Hand. 
+
+De  nuptiis  et  concupiscentia.  —  contra  duas  epistolas 
+Pelagianorum.  —  contra  Iulianum.  —  opus  imperfectum.  — 
+
+Die  Verteidigung  seiner  Pradestinationslehre 
+gegen  ihre  Uberspannung  durch  Monche  zu  Hadrumetum 
+(seit  427)  veranlafst  die  Schriften: 
+
+De  gratia  et  libero  arbitrio.  —  de  correptione  et  gratia.  — 
+
+
+Einleitung. 
+
+
+XIII 
+
+
+Auch  in  den  semipelagianischen  Streit  hat  A. 
+noch  eingreifen  konnen: 
+
+De  praedestinatione  sanctorum.  —  de  dono  perseverantiae.  — 
+
+Aus  den  apologetischen  Schriften  Augustins  ragen 
+die  22  Bticher  „de  civitate  dei“  (412—26)  hervor,  in  denen 
+der  Untergang  der  romischen  Kultur  und  Religion  und  die 
+Entwicklung  des  Reiches  Gottes  den  Vorwurf  einer  grofs- 
+artigen  geschichtsphilosophischen  Betrachtung  bilden.  Seine 
+positiven  dogmatischen,  ethischen  und  praktisch- 
+theologischen  Abhandlungen  sind  Gelegenheitsschriften. 
+
+De  vera  religione.  —  de  fide  et  symbolo.  —  de  agone 
+christiano.  —  de  fide  et  operibus.  —  de  trinitate.  —  de  fide, 
+spe  et  caritate.  —  de  doctrina  christiana.  —  speculum.  — 
+de  mendacio.  —  de  opere  monachorum.  —  de  bono  coniu- 
+gali.  —  de  sancta  virginitate.  —  de  patientia.  —  de  bono 
+viduitatis.  —  de  catechizandis  rudibus.  — 
+
+Aufserdem  hat  A.  viele  exegetische  Schriften,  Pre- 
+d  i  g  t  e  n  und  B  r  i  e  f  e  hinterlassen. 
+
+Sein  gelesenstes  Buch  sind  die  Konfessionen,  deren 
+neun  erste  Biicher  eine  psychologisch  tiefe,  religios  warme, 
+wenn  auch  manchmal  forcierte  Geschichte  seines  Lebens 
+bis  387  geben*,  die  vier  letzten  Bticher  enthalten  fremd- 
+artigen  StofF.  Gegen  Ende  seines  Lebens  hat  er  in  den 
+Retractationen  seine  Werke  mit  richterlicher  Strenge 
+einer  Revision  unterzogen  und  mit  dem  Griffel  des  Censors 
+alles  gestrichen,  was  ihm  mifsfiel. 
+
+Augustin  ist  der  grofste  Kirchenvater  des  Abendlandes. 
+Wenn  man  die  Eigenttimlichkeit  dieser  Kirche  im  Uber- 
+wiegen  des  praktischen  liber  das  spekulative  Interesse,  der 
+Hervorhebung  von  Stinde  und  Gnade,  dem  Hervortreten 
+von  Kirchentum  und  Hierarchie  findet,  so  sind  diese  Merk- 
+male  alie  in  Augustin  ausgebildet  oder  begrtindet.  Anderer- 
+seits  erschopft  sich  auch  sein  Einflufs  im  Abendland. 
+
+
+XIV 
+
+
+Einleitung. 
+
+
+Er  hat  das  Christentum  wieder  zur  personlichen  Reli- 
+gion  gemacht,  indem  er  vor  allem  das  Problem  von  Siinde 
+und  Gnade  in  seiner  Tiefe  erfafste.  Darin  ist  seine  Be- 
+deutung  fiir  alie  Zeiten  begrlindet.  Mit  dieser  Lehre  blieb 
+er  ein  Lebensmoment  im  Katholizismus ,  das  dieser  fort- 
+schreitend  abzustofsen  suchte.  Auf  ihm  fufsen  die  oppo- 
+sitionellen  Gegenstromungen ;  aber  von  der  reformatorischen 
+Grundanschauung  trennen  ihn  doch  wichtige  Elemente  seiner 
+Frommigkeit ,  und  in  seiner  Moral  wie  in  seiner  Anschau- 
+ung  von  der  Kirche  ais  alleiniger  Heilanstalt  bleibt  er  der 
+Mann  der  romischen  Kirche. 
+
+Ausgaben:  Amerbach,  Basel,  1506,  11  Bele.  fol.  (voll- 
+standig  Paris  1515).  —  Erasmus,  Basel  1529,  10  Bde.  fol.  — 
+Lowener,  Antwerpen  1577,  10  Bde.  fol.  —  Mauriner,  Paris 
+1679 — 1700,  11  Bde.  fol.  —  Migne,  Patrologia  Latina,  Bd.  32 
+bis  47,  Paris  1841-49. 
+
+Litteratur:  C.  Bindemann,  Der  hl.  A.  3  Bde.  Berlin 
+1844 — 69.  —  A.  Dor  ner,  Aug.,  sein  tlieologisches  System  und 
+seine  rel.-philos.  Anschauung,  Berlin  1873.  —  B  oliringer,  Aurei. 
+Aug.  2.  A.  Stuttg.  1877.78  (D.  Kirche  Chr.  u.  ihre  Zeugen.  Bd.  11). 
+—  H.  K  eu  ter,  August.  Studien.  Gotha  1887.  —  A.  Harnack, 
+A.’s  Konfessionen.  Giefsen  1888.  —  Ders. ,  LB.  d.  Dogmen- 
+gesch.  Bd.  III,  Freiburg  1890,  S.  54  —  215.  Ebenda  genauere 
+Litteraturangaben.  —  Von  neueren  katholischen  Werken: 
+F.  Worter,  D.  Geistesentw.  d.  hl.  A.  A.  bis  zu  s.  Taufe. 
+Paderborn  1892.  —  Th.  Specht,  D.  Lehre  y.  d.  Kirche  nach 
+d.  hl.  A.  Paderborn  1892. 
+
+Die  Schrift  de  catechizandis  rudibus  (um  400) 
+ist  veranlafst  durch  die  Bitte  des  Diakons  Deogratias  in 
+Karthago  um  Anweisungen  iiber  fruchtbaren  Katechumenen- 
+unterricht.  Sie  zerfallt  •  in  einen  theoretischen  Teii  (Kap.  1 
+bis  14)  und  in  einen  praktischen,  der  eine  liingere  und  eine 
+kiirzere  Musterkatechese  enthalt  (Kap.  15 — 27). 
+
+Schon  Cyrill  von  Jerusalem  und  Gregor  von  Nyssa 
+haben  ahnliche  Schriften  geschrieben ;  auch  sie  verfolgen 
+
+
+Einleitung. 
+
+
+XV 
+
+
+die  damals  allgemein  gebrauchliche  akroamatische  Methode. 
+Dennoch  zeigt  ein  Vergleich  der  griechischen  Autoren  mit 
+dem  lateinischen  tiefgehende  Verschiedenheiten  in  der  Auf- 
+fassung  und  Entwicklung  der  christlichen  Wahrheiten. 
+Durch  das  lebensvolle  Zeitbild,  das  sie  entrollt,  ist  unsere 
+Schrift  von  grofsem  allgemeinen  kirchengeschichtlichen 
+Interesse.  Wir  bewundern  in  ihr  den  praktischen  Geist 
+Augustins  und  erhalten  interessante  Blicke  in  seine  Eigen- 
+art.  Die  beiden  Katechesen  geben  im  kleinen  jene  Ge- 
+schichte  des  Reiches  Gottes,  die  in  Mde  civitate  dei“  weiter 
+ausgefuhrt  ist. 
+
+Diesem  Neudruck  liegt  die  Maurinerausgabe  (Opp.  VI, 
+1685,  Sp.  263 — 296)  zu  Grunde.  Nur  an  drei  Stellen  ist 
+von  ihr  abgewichen  worden: 
+
+S.  4,  28  Ezrae  st.  Esdrae. 
+
+S.  12,  3  narrationis  st.  rationis. 
+
+8.  44,  17  castitate  st.  caritate. 
+
+Mit  einem  Fragezeichen  diirfte  die  Lesart  an  folgenden 
+Stellen  zu  versehen  sein: 
+
+8.  2,  17  motus  st.  notus.  Vgl.  auch  14,  1.  27,  13.  29,  15. 
+
+S.  2,  22  ista  st.  illa.  Doch  siehe  51,  15.  16.  58,  24.  25. 
+
+S.  42,  4  et  eas  ? 
+
+S.  51,  8  ultimus  ? 
+
+S.  55,  30  quid  significet  et  sermo  ille  quem  audivit,  quid  etc. 
+
+Das  et  gehort  wohl  vor  das  zweite  quid. 
+
+Deutsche  Ubersetzungen  von  Tli.  Ficker,  Leipzig  1863, 
+
+und  von  J.  Molzberger,  Kempten  1877  (mit  guten  An- 
+
+merkungen). 
+
+
+DE  CATECHIZANDIS  RUDIBUS. 
+
+
+1  i  Petisti  me,  frater  Deogratias,  ut  aliquid  ad  te  de 
+catechizandis  rudibus,  quod  tibi  usui  esset,  scriberem.  Dixisti 
+enim,  quod  saepe  apud  Carthaginem,  ubi  diaconus  es,  ad  te 
+adducuntur  qui  fide  christiana  primitus  imbuendi  sunt,  eo 
+quod  existimeris  habere  catechizandi  uberem  facultatem,  et 
+doctrina  fidei  et  suavitate  sermonis:  te  autem  pene  semper 
+angustias  pati,  idipsum  quod  credendo  Christiani  sumus,  quo 
+pacto  commode  intimandum  sit;  unde  exordienda,  quo  us¬ 
+que  sit  perducenda  narratio;  utrum  exhortationem  aliquam 
+terminata  narratione  adhibere  debeamus,  an  praecepta  sola, 
+quibus  observandis  cui  loquimur  noverit  christianam  vitam 
+professionemque  retineri.  2  Saepe  autem  tibi  accidisse  con¬ 
+fessus  atque  conquestus  es,  ut  in  sermone  longo  et  tepido 
+tibi  ipse  vilesceres  essesque  fastidio,  nedum  illi  quem  loquen¬ 
+do  imbuebas ,  et  ceteris  qui  audientes  aderant :  eaque  te 
+necessitate  fuisse  compulsum,  ut  ea  me  quam  tibi  debeo 
+caritate  compelleres,  ne  gravarer  inter  occupationes  meas 
+tibi  de  hac  re  aliquid  scribere. 
+
+3  Ego  vero  non  ea  tantum  quam  familiariter  tibi,  sed 
+etiam  quam  matri  ecclesiae  universaliter  debeo,  caritate  ac 
+servitute  compellor,  si  quid  per  operam  meam,  quam  domini 
+
+Augustinus.  2.  Ausg.  1 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+
+2  De  Catechizandis  Rudibus.  1,  3  —  2,  5. 
+
+i 
+
+nostri  largitate  possum  exhibere,  idem  eos  dominus  quos 
+mihi  fratres  fecit,  adiuvari  iubet,  nullo  modo  recusare,  sed 
+potius  prompta  et  devota  voluntate  suscipere.  4  Quanto 
+enim  cupio  latius  erogari  pecuniam  dominicam,  tanto  magis 
+5  me  oportet,  si  quam  dispensatores  conservos  meos  difficul¬ 
+tatem  in  erogando  sentire  cognosco ,  agere  quantum  in  me 
+est,  ut  facile  atque  expedite  possint,  quod  impigre  ac  stu¬ 
+diose  volunt. 
+
+2  i  Sed  quod  ad  tuam  proprie  considerationem  per- 
+10  tinet,  nolim  te  moveri  ex  eo  quod  saepe  tibi  abiectum  ser¬ 
+monem  fastidiosumque  habere  visus  es.  Fieri  enim  potest, 
+ut  ei  quem  instruebas,  non  ita  sit  visum,  sed  quia  tu  ali¬ 
+quid  melius  audiri  desiderabas,  eo  tibi  quod  dicebas  videre¬ 
+tur  indignum  auribus  aliorum.  2  Nam  et  mihi  prope  semper 
+15  sermo  meus  displicet.  Melioris  enim  avidus  sum,  quo  saepe 
+fruor  interius,  antequam  eum  explicare  verbis  sonantibus 
+coepero :  quod  ubi  minus  quam  mihi  notus  est  evaluero, 
+contristor  linguam  meam  cordi  meo  non  potuisse  sufficere. 
+
+3  Totum  enim  quod  intelligo,  volo  ut  qui  me  audit  in- 
+20  telligat;  et  sentio  me  non  ita  loqui,  ut  hoc  efficiam:  maxime 
+
+quia  ille  intellectus  quasi  rapida  coruscatione  perfundit 
+animum,  illa  autem  locutio  tarda  et  longa  est,  longeque  dis¬ 
+similis,  et  dum  ista  volvitur,  iam  se  ille  in  secreta  sua  con¬ 
+didit  ;  tamen ,  quia  vestigia  quaedam  miro  modo  impressit 
+25  memoriae,  perdurant  illa  cum  syllabarum  morulis;  4  atque 
+ex  eisdem  vestigiis  sonantia  signa  peragimus,  quae  lingua 
+dicitur  vel  latina,  vel  graeca,  vel  hebraea,  vel  alia  quae¬ 
+libet,  sive  cogitentur  haec  signa  sive  etiam  voce  proferantur; 
+cum  illa  vestigia  nec  latina,  nec  graeca  vel  hebraea,  nec 
+30  cuiusque  alterius  gentis  sint  propria,  sed  ita  efficiantur  in 
+animo,  ut  vultus  in  corpore.  5  Aliter  enim  latine  ira  dicitur, 
+aliter  graece,  aliter  atque  aliter  aliarum  diversitate  linguarum : 
+
+
+De  Catechizandis  Rudibus.  2,  5  —  10.  3 
+
+non  autem  latinus  aut  graecus  est  vultus  irati.  Non  ita¬ 
+que  omnes  gentes  intelligunt,  cum  quisque  dicit:  iratus  sum, 
+sed  latini  tantum;  at  si  affectus  excandescentis  animi  exeat 
+in  faciem  vultumque  faciat,  omnes  sentiunt  qui  intuentur 
+iratum.  6  Sed  neque  ita  licet  educere  et  quasi  exporrigere 
+in  sensum  audientium  per  sonum  vocis  illa  vestigia,  quae 
+imprimit  intellectus  memoriae,  sicut  apertus  et  manifestus 
+est  vultus :  illa  enim  sunt  intus  in  animo ,  iste  foris  in  cor¬ 
+pore.  Quapropter  coniiciendum  est,  quantum  distet  sonus 
+oris  nostri  ab  illo  ictu  intelligentiae,  quando  ne  ipsi  quidem 
+impressioni  memoriae  similis  est.  i  Nos  autem  plerumque 
+in  auditoris  utilitatem  vehementer  ardentes  ita  loqui  volu¬ 
+mus,  quemadmodum  tunc  intelligimus,  cum  per  ipsam  inten¬ 
+tionem  loqui  non  possumus;  et  quia  non  succedit  angimur 
+et  velut  frustra  operam  insumamus,  taedio  marcescimus,  at¬ 
+que  ex  ipso  taedio  languidior  fit  idem  sermo  et  hebetior 
+quam  erat,  unde  perduxit  at  taedium. 
+
+8  Sed  mihi  saepe  indicat  eorum  studium  qui  me  audire 
+cupiunt,  non  ita  esse  frigidum  eloquium  meum,  ut  videtur 
+mihi ;  et  eos  inde  aliquid  utile  capere,  ex  eorum  delectatione 
+cognosco,  mecumque  ago  sedulo,  ut  huic  exhibendo  mini¬ 
+sterio  non  desim,  in  quo  illos  video  bene  accipere  quod  ex¬ 
+hibetur.  9  Sic  et  tu,  eo  ipso  quod  ad  te  saepius  adducun¬ 
+tur  qui  fide  imbuendi  sunt,  debes  intelligere  non  ita  dis¬ 
+plicere  aliis  sermonem  tuum  ut  displicet  tibi,  nec  infructuo¬ 
+sum  te  debes  putare,  quod  ea  quae  cernis  non  explicas  ita 
+ut  cupis ;  quando  forte  ut  cupis  nec  cernere  valeas,  io  Quis 
+enim  in  hac  vita  nisi  in  aenigmate  et  per  speculum  videt? 
+Nec  ipse  amor  tantus  est,  ut  carnis  disrupta  caligine  pene¬ 
+tret  in  aeternum  serenum,  unde  utcumque  fulgent  etiam  ista 
+
+
+5 
+
+io 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+28  1.  Cor.  13,  12. 
+
+
+1 
+
+
+4  De  Cactehizandis  Rudibus.  2,  10  —  3,  2. 
+
+quae  transeunt,  n  Sed  quia  boni  proliciunt  de  die  in  diem 
+ad  videndum  diem  sine  volumine  caeli  et  sine  noctis  incursu, 
+quem  oculus  non  videt,  nec  auris  audivit,  nec  in  cor  homi¬ 
+nis  adscendit:  nulla  maior  causa  est,  cur  nobis  in  imbuendis 
+5  rudibus  noster  sermo  vilescat,  nisi  quia  libet  inusitate  cer¬ 
+nere  et  taedet  usitate  proloqui.  12  Et  re  quidem  vera  multo 
+gratius  audimur,  cum  et  nos  eodem  opere  delectamur:  affici¬ 
+tur  enim  filum  locutionis  nostrae  ipso  nostro  gaudio,  et  exit 
+facilius  atque  acceptius.  13  Quapropter  non  arduum  est  ne- 
+10  gotium ,  ea  quae  credenda  insinuantur  praecipere ,  unde  et 
+quo  usque  narranda  sint ;  nec  quomodo  sit  varianda  narratio,. 
+•  ut  aliquando  brevior,  aliquando  longior,  semper  tamen  plena 
+atque  perfecta  sit;  et  quando  breviore,  et  quando  longiore 
+sit  utendum:  sed  quibus  modis  faciendum  sit,  ut  gaudens 
+15  quisque  catechizet,  (tanto  enim  suavior  erit,  quanto  magis 
+id  potuerit,)  ea  cura  maxima  est.  14  Et  praeceptum  quidem 
+rei  huius  in  promtu  est.  Si  enim  in  pecunia  corporali, 
+quanto  magis  in  spiritali  hilarem  datorem  diligit  deus  ?  Sed 
+haec  hilaritas  ad  horam  ut  adsit,  eius  est  misericordiae  qui 
+20  ista  praecepit.  15  Itaque  prius  de  modo  narrationis  quod 
+te  velle  cognovi,  tum  de  praecipiendo  atque  cohortando, 
+postea  de  hac  hilaritate  comparanda,  quae  deus  suggesserit, 
+disseremus. 
+
+3  1  Narratio  plena  est,  cum  quisque  primo  catechizatur 
+25  ab  eo  quod  scriptum  est:  In  principio  fecit  deus  caelum 
+et  terram,  usque  ad  praesentia  tempora  ecclesiae.  2  Non 
+tamen  proptera  debemus  totum  pentateuchum,  totosque  iudi- 
+cum  et  regnorum  et  Ezrae  libros,  totumque  evangelium  et 
+
+
+3  f.  1.  Cor.  2,  9.  18  2.  Cor.  9,  7.  20  Vgl.  Cap.  3-6. 
+
+21  Cap.  7-9.  21  f.  Cap.  10—14.  25  f.  Gen.  1,  1. 
+
+
+De  Catechizandis  Rudibus.  3,  2  —  6. 
+
+
+5 
+
+
+actus  apostolorum,  vel,  si  ad  verbum  edidicimus,  memoriter 
+reddere,  vel  nostris  verbis  omnia  quae  his  continentur  volu¬ 
+minibus  narrando  evolvere  et  explicare;  quod  nec  tempus 
+capit,  nec  ulla  necessitas  postulat:  sed  cuncta  summatim 
+generatimque  complecti,  ita  ut  eligantur  quaedam  mirabiliora,  5 
+quae  suavius  audiuntur  atque  in  ipsis  articulis  constituta 
+isunt,  ut  ea  tamquam  in  involucris  ostendere  statimque  a  con¬ 
+spectu  abripere  non  oporteat,  sed  aliquantum  immorando 
+quasi  resolvere  atque  expandere,  et  inspicienda  atque  mi¬ 
+randa  offerre  animis  auditorum:  cetera  vero  celeri  percur-  io 
+sione  inserendo  contexere.  3  Ita  et  illa  quae  maxime  com¬ 
+mendari  volumus  aliorum  submissione  magis  eminent;  nec 
+ad  ea  fatigatus  pervenit  quem  narrando  volumus  excitare, 
+nec  illius  memoria  confunditur  quem  docendo  debemus  in¬ 
+struere.  15 
+
+4  In  omnibus  sane  non  tantum  nos  oportet  intueri  prae¬ 
+cepti  finem,  quod  est  caritas  de  corde  puro  et  conscientia 
+bona  et  fide  non  ficta,  quo  ea  quae  loquimur  cuncta  refera¬ 
+mus:  sed  etiam  illius  quem  loquendo  instruimus,  ad  id  mo¬ 
+vendus  atque  illuc  dirigendus  adspectus  est.  5  Neque  enim  20 
+ob  aliud  ante  adventum  domini  scripta  sunt  omnia  quae  in 
+sanctis  scripturis  legimus,  nisi  ut  illius  commendaretur  ad¬ 
+ventus  et  futura  praesignaretur  ecclesia,  id  est,  populus 
+dei  per  omnes  gentes,  quod  est  corpus  eius;  adiunctis  at¬ 
+que  annumeratis  omnibus  sanctis,  qui  etiam  ante  adventum  25 
+eius  in  hoc  saeculo  vixerunt,  ita  eum  credentes  venturum 
+esse,  sicut  nos  venisse.  6  Sicut  enim  Jacob  manum  prius 
+dum  nasceretur  emisit  ex  utero,  qua  etiam  pedem  praena- 
+scentis  fratris  tenebat,  deinde  utique  secutum  est  caput,  tum 
+demum  necessario  membra  cetera:  (sed  tamen  caput  non  30 
+
+
+16  ff.  1.  Tim.  1,  5. 
+
+
+24  Coi.  1,  18.  27  ff.  Vgl.  Gen.  25,  25. 
+
+
+(j  De  Catechizandis  Rudibus.  3,  6  —  10. 
+
+tantum  ea  membra  quae  secuta  sunt,  sed  etiam  ipsam  manum 
+quae  in  nascendo  praecessit,  dignitate  ac  potestate  praecedit, 
+et  quamvis  non  tempore  apparendi,  tamen  naturae  ordine 
+prius  est:)  7  ita  et  dominus  Jesus  Christus,  etsi  antequam 
+5  appareret  in  carne  et  quodam  modo  ex  utero  secreti  sui  ad 
+hominum  oculos  mediator  dei  et  hominum  homo  procederet, 
+qui  est  super  omnes  deus  benedictus  in  saecula,  praemisit 
+in  sanctis  patriarchis  et  prophetis  quamdam  partem  cor¬ 
+poris  sui,  qua  velut  manu  se  nasciturum  esse  praenuntians, 
+io  etiam  populum  praecedentem  superbe,  vinculis  legis  tam¬ 
+quam  digitis  quinque  supplantavit:  8  (quia  et  per  quinque 
+temporum  articulos  praenuntiari  venturus  prophetarique  non 
+destitit;  et  huic  rei  consonans  per  quem  lex  data  est,  quin¬ 
+que  libros  conscripsit ;  et  superbi  carnaliter  sentientes  et 
+15  suam  iustitiam  volentes  constituere,  non  aperta  manu  Christi 
+repleti  sunt  benedictione,  sed  constricta  atque  conclusa  re¬ 
+tenti  sunt :  itaque  illis  obligati  sunt  pedes  et  ceciderunt, 
+nos  autem  surreximus  et  erecti  sumus :)  9  quamvis  ergo,  ut 
+dixi,  praemiserit  dominus  Christus  quamdam  partem  corporis 
+20  sui  in  sanctis,  qui  eum  nascendi  tempore  praeierunt:  tamen 
+ipse  est  caput  corporis  ecclesiae,  illique  omnes  eidem  cor¬ 
+pori  cuius  ille  caput  est  cohaeserunt,  credendo  in  eum  quem 
+praenuntiabant.  Non  enim  praecurrendo  divulsi  sunt,  sed 
+adiuncti  potius  obsequendo.  Nam  etsi  manus  a  capite  prae- 
+25  mitti  potest,  connexio  tamen  eius  sub  capite  est.  10  Qua¬ 
+propter  omnia  quae  ante  scripta  sunt,  ut  nos  doceremur 
+scripta  sunt,  et  figurae  nostrae  fuerunt;  et  in  figura  con¬ 
+tingebant  in  eis:  scripta  sunt  autem  propter  nos,  in  quos 
+finis  saeculorum  obvenit. 
+
+
+6  1.  Tim.  2,  5.  7  Rom.  9,  5. 
+
+26  f.  Roin.  15,  4.  27  ff.  1.  Cor.  10,  11. 
+
+
+21  Coi.  1,  18. 
+
+
+De  Catechizandis  Rudibus.  4,  1  —  4. 
+
+
+7 
+
+
+4  i  Quae  autem  major  causa  est  adventus  domini, 
+nisi  ut  ostenderet  deus  dilectionem  suam  in  nobis,  commen¬ 
+dans  eam  vehementer:  quia  cum  adhuc  inimici  essemus, 
+Christus  pro  nobis  mortuus  est.  Hoc  autem  ideo,  quia  finis 
+praecepti  et  plenitudo  legis  caritas  est,  ut  et  nos  invicem 
+diligamus,  et  quemadmodum  ille  pro  nobis  animam  suam 
+posuit,  sic  et  nos  pro  fratribus  animam  ponamus,  et  ipsum 
+deum,  quoniam  prior  dilexit  nos,  et  filio  suo  unico  non 
+pepercit,  sed  pro  nobis  omnibus  tradidit  eum,  si  amare  pige¬ 
+bat,  saltem  nunc  redamare  non  pigeat.  2  Nulla  est  enim 
+maior  ad  amorem  invitatio  quam  praevenire  amando;  et 
+nimis  durus  est  animus,  qui  dilectionem  si  nolebat  impen¬ 
+dere,  nolit  rependere.  3  Quodsi  in  ipsis  flagitiosis  et  sordi¬ 
+dis  amoribus  videmus,  nihil  aliud  eos  agere  qui  amari  vi- 
+cissim  volunt,  nisi  ut  documentis  quibus  valent  aperiant  et 
+ostendant  quantum  ament,  eamque  imaginem  iustitiae  prae¬ 
+tendere  affectant,  ut  vicem  sibi  reddi  quodam  modo  flagi¬ 
+tent  ab  eis  animis,  quos  illecebrare  moliuntur,  ipsique  ar¬ 
+dentius  aestuant,  cum  iam  moveri  eodem  igne  etiam  illas 
+mentes  quas  appetunt  sentiunt;  si  ergo  et  animus  qui  torpe¬ 
+bat,  cum  se  amari  senserit  excitatur,  et  qui  iam  fervebat, 
+cum  se  redamari  didicerit,  magis  accenditur:  manifestum  est 
+nullam  esse  maiorem  causam,  qua  vel  inchoetur  vel  augeatur 
+amor,  quam  cum  amari  se  cognoscit  qui  nondum  amat  aut 
+redamari  se  vel  posse  sperat,  vel  iam  probat,  qui  prior 
+amat.  4  Et  si  hoc  etiam  in  turpibus  amoribus,  quanto  plus 
+in  amicitia?  Quid  enim  aliud  cavemus  in  offensione  ami¬ 
+citiae,  nisi  ne  amicus  arbitretur  quod  eum  vel  non  diligimus, 
+vel  minus  diligimus  quam  ipse  nos  diligit?  Quod  si  credi- 
+
+3  f.  Rom.  5,  8.  9.  5  Rom.  13,  10.  5  f.  1.  Joh.  4,  11.  Vgl. 
+
+Joh.  13,  34  f.  6  f.  1.  Joh.  3,  16.  8  1.  Joh.  4,  10.  19. 
+
+8  f.  Rom.  8,  32. 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+8 
+
+
+De  Catechizandis  Rudibus.  4,  4  —  8. 
+
+
+derit,  frigidior  erit  in  eo  amore  quo  invicem  homines  mutua 
+familiaritate  perfruuntur ;  et  si  non  ita  est  infirmus,  ut  haec 
+illum  offensio  faciat  ab  omni  dilectione  frigescere,  in  ea  se 
+tenet,  qua  non  ut  fruatur,  sed  ut  consulat  diligit. 
+
+5  5  Operae  pretium  est  autem  animadvertere,  quomodo, 
+
+quamquam  et  superiores  velint  se  ah  inferioribus  diligi 
+eorumque  in  se  studioso  delectentur  obsequio,  et  quanto 
+magis  id  senserint,  tanto  magis  eos  diligant,  tamen  quanto 
+amore  exardescat  inferior,  cum  a  superiore  se  diligi  senserit, 
+io  e  Ibi  enim  gratior  amor  est,  ubi  non  aestuat  indigentiae 
+siccitate,  sed  ubertate  beneficentiae  profluit.  Ille  namque 
+amor  ex  miseria  est,  iste  ex  misericordia.  Iam  vero  si 
+etiam  se  amari  posse  a  superiore  desperabat  inferior,  in- 
+effabiliter  commovebitur  in  amorem ,  si  ultro  ille  fuerit 
+15  dignatus  ostendere,  quantum  diligat  eum,  qui  nequaquam 
+sibi  tantum  bonum  promittere  auderet.  7  Quid  autem 
+superius  deo  iudicante,  et  quid  desperatius  homine  peccante  ? 
+qui  se  tanto  magis  tuendum  et  subiugandum  superbis 
+potestatibus  addixerat  quae  beatificare  non  possunt,  quanto 
+20  magis  desperaverat  posse  sui  curam  geri  ab  ea  potestate, 
+quae  non  malitia  sublimis  esse  vult,  sed  bonitate  subli¬ 
+mis  est. 
+
+8  Si  ergo  maxime  propterea  Christus  advenit,  ut 
+cognosceret  homo  quantum  eum  diligat  deus,  et  ideo 
+25  cognosceret,  ut  in  eius  dilectionem  a  quo  prior  dilectus  est 
+inardesceret,  proximumque  illo  iubente  et  demonstrante  dili¬ 
+geret,  qui  non  proximum,  sed  longe  peregrinantem  diligendo 
+factus  est  proximus;  omnisque  scriptura  divina  quae  ante 
+scripta  est,  ad  praenuntiandum  adventum  domini  scripta 
+30  est,  et  quidquid  postea  mandatum  est  litteris  et  divina 
+
+
+25  1.  Joh.  4,  10.  19. 
+
+
+De  Catechizandis  Rudibus.  4,  8  —  5,  2. 
+
+
+9 
+
+
+auctoritate  firmatum,  Christum  narrat  et  dilectionem  monet: 
+manifestum  est,  non  tantum  totam  legem  et  prophetas  in 
+illis  duobus  pendere  praeceptis  dilectionis  dei  et  proximi, 
+quae  adhuc  sola  scriptura  sancta  erat,  cum  hoc  dominus 
+diceret,  sed  etiam  quaecumque  posterius  salubriter  con¬ 
+scripta  sunt  memoriaeque  mandata  divinarum  volumina  litte¬ 
+rarum.  9  Quapropter  in  veteri  testamento  est  occultatio 
+novi,  in  novo  testamento  est  manifestatio  veteris.  Secundum 
+illam  occultationem  carnaliter  intelligentes  carnales,  et  tunc 
+et  nunc,  poenali  timore  subiugati  sunt.  Secundum  hanc  au¬ 
+tem  manifestationem  spiritales,  et  tunc  quibus  pie  pulsantibus 
+etiam  occulta  patuerunt,  et  nunc  qui  non  superbe  quaerunt, 
+ne  etiam  aperta  claudantur,  spiritaliter  intelligentes  donata 
+caritate  liberati  sunt,  io  Quia  ergo  caritati  nihil  adversius 
+quam  invidentia,  mater  autem  invidentiae  superbia  est:  idem 
+dominus  Iesus  Christus,  deus  homo,  et  divinae  in  nos 
+dilectionis  indicium  est  et  humanae  apud  nos  humilitatis 
+exemplum,  ut  magnus  tumor  noster  maiore  contraria  medi¬ 
+cina  sanaretur.  Magna  est  enim  miseria  superbus  homo, 
+sed  maior  misericordia  humilis  deus. 
+
+n  Hac  ergo  dilectione  tibi  tamquam  fine  proposito,  quo 
+referas  omnia  quae  dicis,  quidquid  narras  ita  narra,  ut  ille 
+cui  loqueris  audiendo  credat,  credendo  speret,  sperando  amet. 
+
+5  i  De  ipsa  etiam  severitate  dei,  qua  corda  mortalium 
+saluberrimo  terrore  quatiuntur,  caritas  aedificanda  est,  ut 
+ab  eo  quem  timet  amari  se  gaudens,  eum  redamare  audeat 
+eiusque  in  se  dilectioni,  etiamsi  impune  posset,  tamen 
+displicere  vereatur.  2  Rarissime  quippe  accidit,  immo  vero 
+numquam,  ut  quisquam  veniat  volens  fieri  Christianus,  qui 
+non  sit  aliquo  dei  timore  perculsus.  Si  enim  aliquod  com- 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+2  f.  Matth.  22,  40. 
+
+
+9  ff.  Rom.  8,  5.  23  Vgl.  1.  Cor.  13,  13. 
+
+
+10 
+
+
+De  Catechizandis  Rudibus.  5,  2  —  7. 
+
+
+modum  exspectando  ab  hominibus,  quibus  se  aliter  placi¬ 
+turum  non  putat,  aut  aliquod  ab  hominibus  incommodum 
+devitando,  quorum  offensionem  aut  inimicitias  reformidat, 
+vult  fieri  Christianus :  non  fieri  vult  potius  quam  fingere. 
+5  Fides  enim  non  res  est  salutantis  corporis,  sed  credentis 
+animi.  3  Sed  plane  saepe  adest  misericordia  dei  per  mini¬ 
+sterium  catechizantis ,  ut  sermone  commotus  iam  fieri  velit, 
+quod  decreverat  fingere ;  quod  cum  velle  coeperit,  tunc  eum 
+venisse  deputemus.  4  Et  occultum  quidem  nobis  est,  quando 
+10  veniat  animo  quem  iam  corpore  praesentem  videmus ;  sed 
+tamen  sic  cum  eo  debemus  agere,  ut  fiat  in  illo  haec 
+voluntas,  etiamsi  non  est:  nihil  enim  deperit,  quando  si 
+est,  utique  tali  nostra  actione  firmatur,  quamvis  quo  tem¬ 
+pore,  vel  qua  hora  coeperit,  ignoremus.  5  Utile  est  sane, 
+15  ut  praemoneamur  antea,  si  fieri  potest,  ab  iis  qui  eum 
+norunt,  in  quo  statu  animi  sit,  vel  quibus  causis  commotus 
+ad  suscipiendam  religionem  venerit.  Quodsi  defuerit  alius 
+a  quo  id  noverimus,  etiam  ipse  interrogandus  est,  ut  ex  eo 
+quod  responderit  ducamus  sermonis  exordium.  6  Sed  si 
+20  ficto  pectore  accessit,  humana  commoda  cupiens  vel  incom¬ 
+moda  fugiens,  utique  mentiturus  est:  tamen  ex  eo  ipso  quod 
+mentitur  capiendum  est  principium,  non  ut  refellatur  eius 
+mendacium,  quasi  tibi  certum  sit,  sed  ut  si  dixerit  eo  pro¬ 
+posito  se  venisse,  (quod  vere  approbandum  est,  sive  ille  verum 
+25  sive  falsum  dicat,)  tale  tamen  propositum  quali  se  venisse 
+respondit  approbantes  atque  laudantes,  faciamus  eum  de¬ 
+lectari  esse  se  talem,  qualem  videri  cupit.  7  Si  autem  aliud 
+dixerit  quam  oportet  esse  in  animo  eius,  qui  christiana 
+fide  imbuendus  est  blandius  et  lenius  reprehendendo  tam- 
+30  quam  rudem  et  ignarum ,  et  Christianae  doctrinae  finem 
+verissimum  demonstrando  atque  laudando  breviter  et  gra¬ 
+viter,  ne  aut  tempora  futurae  narrationis  occupes  aut  eam 
+
+
+De  Catechizandis  Rudibus.  5,  7  —  6,  6. 
+
+
+11 
+
+
+non  prius  collocato  animo  audeas  imponere,  facias  eum 
+velle  quod  aut  per  errorem  aut  per  simulationem  nondum 
+volebat. 
+
+6  i  Quodsi  forte  se  divinitus  admonitum  vel  territum 
+esse  responderit,  ut  fieret  Christianus,  laetissimum  nobis  ex-  5 
+ordiendi  aditum  praebet,  quanta  deo  sit  cura  pro  nobis. 
+
+2  Sane  ab  huiusmodi  miraculorum  sive  somniorum  ad  scriptu¬ 
+rarum  solidiorem  viam  et  oracula  certiora  transferenda  est 
+eius  intentio,  ut  et  illa  admonitio  quam  misericorditer  ei 
+praerogata  sit,  noverit,  antequam  scripturis  sanctis  inhaereret.  n> 
+
+3  Et  utique  demonstrandum  est  ei,  quod  ipse  dominus  non 
+eum  admoneret  aut  compelleret  fieri  Christianum  et  incorpo¬ 
+rari  ecclesiae,  seu  talibus  signis  aut  revelationibus  erudiret, 
+nisi  iam  praeparatum  iter  in  scripturis  sanctis,  ubi  non 
+quaereret  visibilia  miracula,  sed  invisibilia  sperare  con-  15 
+suesceret,  neque  dormiens,  sed  vigilans  moneretur,  eum  se¬ 
+curius  et  tutius  carpere  voluisset.  4  Inde  iam  exordienda 
+narratio  est,  ab  eo  quod  fecit  deus  omnia  bona  valde,  et 
+perducenda,  ut  diximus,  usque  ad  praesentia  tempora  eccle¬ 
+siae,  ita  ut  singularum  rerum  atque  gestorum  quae  narra-  20 
+mus  causae  rationesque  reddantur,  quibus  ea  referamus  ad 
+illum  finem  dilectionis,  unde  neque  agentis  aliquid  neque 
+loquentis  oculus  avertendus  est.  5  Si  enim  fictas  poetarum 
+fabulas  et  ad  voluptatem  excogitatas  animorum,  quorum 
+cibus  nugae  sunt,  tamen  boni  qui  habentur  atque  appellan-  25 
+tur  grammatici,  ad  aliquam  utilitatem  referre  conantur, 
+quamquam  et  ipsam  vanam  et  avidam  saginae  saecularis  : 
+quanto  nos  decet  esse  cautiores,  ne  illa  quae  vera  narramus, 
+sine  'suarum  causarum  redditione  digesta,  aut  inani  suavi¬ 
+tate  aut  etiam  perniciosa  cupiditate  credantur.  6  Non  tamen  30 
+
+
+18  Gen.  1,  31. 
+
+
+19  Ygl.  Cap.  3,  1. 
+
+
+22  Ygl.  1.  Tim.  1,  5. 
+
+
+12  De  Catechiz andis  Rudibus.  6,  6  —  7,  3. 
+
+sic  asseramus  has  causas ,  ut  relicto  narrationis  tractu  cor 
+nostrum  et  lingua  in  nodos  difficilioris  disputationis  excurrat, 
+sed  ipsa  veritas  adhibitae  narrationis  quasi  aurum  sit  gem¬ 
+marum  ordinem  ligans,  non  tamen  ornamenti  seriem  ulla 
+5  immoderatione  perturbans. 
+
+7  i  Narratione  finita  spes  resurrectionis  intimanda  est, 
+et  pro  capacitate  ac  viribus  audientis,  proque  ipsius  temporis 
+modulo,  adversus  vanas  irrisiones  infidelium  de  corporis 
+resurrectione  tractandum  et  futuri  ultimi  iudicii  bonitate  in 
+io  bonos,  severitate  in  malos,  veritate  in  omnes;  commemora- 
+tisque  cum  detestatione  et  horrore  poenis  impiorum,  regnum 
+iustorum  atque  fidelium  et  superna  illa  civitas  eiusque  gau¬ 
+dium  cum  desiderio  praedicandum  est.  2  Tum  vero  instru¬ 
+enda  et  animanda  est  infirmitas  hominis  adversus  tentationes 
+15  et  scandala,  sive  foris  sive  in  ipsa  intus  ecclesia:  foris  ad¬ 
+versus  gentiles  vel  Iudaeos  vel  haereticos,  intus  autem  ad¬ 
+versus  areae  dominicae  paleam.  Non  ut  contra  singula 
+perversorum  genera  disputetur  omnesque  illorum  pravae 
+opiniones  propositis  quaestionibus  refellantur:  sed  pro  tem- 
+20  pore  brevi  demonstrandum  est,  ita  esse  praedictum,  et  quae 
+sit  utilitas  tentationum  erudiendis  fidelibus,  et  quae  medi¬ 
+cina  in  exemplo  patientiae  dei,  qui  statuit  usque  in  finem 
+ista  permittere. 
+
+3  Cum  vero  adversus  eos  instruitur,  quorum  perversae 
+25  turbae  corporaliter  implent  ecclesias,  simul  etiam  praecepta 
+breviter  et  decenter  commemorentur  christianae  atque 
+honestae  conversationis,  ne  ab  ebriosis,  avaris,  fraudatoribus, 
+aleatoribus,  adulteris,  fornicatoribus,  spectaculorum  amatori¬ 
+bus,  remediorum  sacrilegorum  alligatoribus,  praecantatoribus, 
+30  mathematicis,  vel  quarumlibet  artium  vanarum  et  malarum 
+divinatoribus ,  atque  huiusmodi  ceteris  ita  facile  seducatur 
+
+
+De  Catechizandis  Rudibus.  7,  3  —  8,  1.  1$ 
+
+et  impunitum  sibi  fore  arbitretur,  quia  videt  multos  qui 
+Christiani  appellantur,  haec  amare  et  agere  et  defendere 
+et  suadere  et  persuadere.  4  Quis  enim  finis  praestitutus  sit 
+in  tali  vita  perseverantibus,  et  quam  sint  in  ipsa  ecclesia 
+tolerandi,  ex  qua  in  fine  separandi  sunt,  divinorum  librorum  r> 
+testimoniis  edocendum  est.  Praenuntiandum  est  etiam  in¬ 
+venturum  eum  in  ecclesia  multos  Christianos  bonos,  verissi¬ 
+mos  cives  caelestis  Ierusalem ,  si  esse  ipse  coeperit.  5  Ad 
+extremum  ne  spes  eius  in  homine  ponatur,  sedulo  monendus 
+est:  quia  neque  facile  ab  homine  iudicari  potest  quis  homo  10 
+sit  iustus,  et  si  facile  posset,  non  ideo  nobis  proponi  exempla 
+iustorum,  ut  ab  eis  iustificemur,  sed  ut  eos  imitantes  ab 
+eorum  iustificatore  nos  quoque  iustificari  sciamus.  6  Hinc 
+enim  fiet  quod  maxime  commendandum  est,  ut  cum  ille  qui 
+nos  audit,  immo  per  nos  audit  deum,  moribus  et  scientia  15. 
+proficere  coeperit  et  viam  Christi  alacriter  ingredi ,  nec 
+nobis  id  audeat  assignare  nec  sibi;  sed  et  seipsum  et  nos 
+et  quoscunque  alios  diligit  amicos,  in  illo  et  propter  illum 
+diligat  qui  eum  dilexit  inimicum,  ut  iustificans  faceret  ami¬ 
+cum.  7  Hic  iam  non  te  puto  praeceptore  indigere,  ut  cum  20 
+occupata  sunt  tempora,  vel  tua,  vel  eorum  qui  te  audiunt, 
+breviter  agas;  cum  autem  largiora,  largius  eloquaris;  hoc 
+enim  nullo  admonente  ipsa  necessitas  praecipit. 
+
+8  1  Sed  illud  plane  non  praetereundum  est,  ut  si  ad 
+
+te  quisquam  catechizandus  venerit  liberalibus  doctrinis  ex-  25. 
+cultus,  qui  iam  decreverit  esse  Christianus,  et  ideo  venerit 
+ut  fiat,  difficillimum  omnino  est,  ut  non  multa  nostrarum 
+scripturarum  litterarumque  cognoverit,  quibus  iam  instructus 
+ad  sacramentorum  participationem  tantummodo  venerit. 
+Tales  enim  non  eadem  hora  qua  Christiani  fiunt,  sed  ante  30 
+
+
+8  Hebr.  12,  22. 
+
+
+19  f.  Rbm.  5,  10.  9. 
+
+
+14 
+
+
+De  Catechizandis  Rudibus.  8,  1  —  7. 
+
+
+solent  omnia  diligenter  inquirere,  et  motus  animi  sui,  cum 
+quibus  possunt,  communicare  atque  discutere.  2  Cum  his 
+itaque  breviter  agendum  est,  et  non  odiose  inculcando  quae 
+norunt,  sed  modeste  perstringendo,  ita  ut  dicamus  nos 
+5  credere,  quod  iam  noverint  illud  atque  illud;  atque  hoc 
+modo  cursim  enumerare  omnia  quae  rudibus  indoctisque  in¬ 
+culcanda  sunt,  ut  etsi  quid  novit  eruditus  iste,  non  tamquam 
+a  doctore  audiat,  et  si  quid  adhuc  ignorat,  dum  ea  comme¬ 
+moramus  quae  illum  nosse  iam  credimus,  discat.  3  Nec  ipse 
+10  sane  inutiliter  interrogatur,  quibus  rebus  motus  sit,  ut  velit 
+esse  Christianus :  ut  si  libris  ei  persuasum  esse  videris,  sive 
+canonicis  sive  utilium  tractatorum,  de  his  aliquid  in  prin¬ 
+cipio  loquaris,  collaudans  eos  pro  diversitate  meritorum  ca¬ 
+nonicae  auctoritatis  et  exponentium  sollertissimae  diligentiae, 
+15  maximeque  commendans  in  scripturis  canonicis  admirandae 
+altitudinis  saluberrimam  humilitatem,  in  illis  autem  pro  sua 
+cuiusque  facultate  aptum  superbioribus  et  per  hoc  infirmio¬ 
+ribus  animis  stilum  sonantioris  et  quasi  tornatioris  eloquii. 
+
+4  Sane  etiam  exprimendum  de  illo  est,  ut  indicet  quem 
+20  maxime  legerit,  et  quibus  libris  familiarius  inhaeserit,  unde 
+illi  persuasum  est,  ut  sociari  vellet  ecclesiae.  5  Quod  cum 
+dixerit,  tum  si  nobis  noti  sunt  illi  libri,  aut  ecclesiastica 
+fama  saltem  accepimus  a  catholico  aliquo  memorabili  viro 
+esse  conscriptos,  laeti  approbemus.  6  Si  autem  in  alicuius 
+25  haeretici  volumina  incurrit  et  nesciens  forte  quod  vera  fides 
+improbat,  tenuit  animo  et  catholicum  esse  arbitratur:  sedulo 
+edocendus  est,  praelata  auctoritate  universalis  ecclesiae 
+aliorumque  doctissimorum  hominum  et  disputationibus  et 
+scriptionibus  in  eius  veritate  florentium.  7  Quamquam  et 
+30  illi  qui  catholici  ex  hac  vita  emigrarunt  et  aliquid  litterarum 
+Christianarum  posteris  reliquerunt,  in  quibusdam  locis  opuscu¬ 
+lorum  suorum,  vel  non  intellecti,  vel  sicuti  est  humana  in- 
+
+
+Dk  Catechizandis  Rudibus.  8,  7  —  9,  3. 
+
+
+15 
+
+
+firmitas,  minus  valentes  acie  mentis  abditiora  penetrare,  et 
+veri  similitudine  aberrantes  a  veritate,  praesumtoribus  et 
+audacibus  fuerunt  occasioni  ad  aliquam  haeresim  moliendam 
+atque  gignendam.  8  Quod  mirum  non  est,  cum  de  ipsis 
+canonicis  litteris,  ubi  omnia  sanissime  dicta  sunt,  non  qui-  5 
+dem  aliter  accipiendo  quaedam  quam  vel  scriptor  sensit, 
+vel  seipsa  veritas  habet,  (nam  si  hoc  solum  esset,  quis  non 
+humanae  infirmitati  ad  corrigendum  paratae  libenter  igno¬ 
+sceret?)  sed  id  quod  perverse  ac  prave  opinati  sunt,  animositate 
+acerrima  et  pervicaci  arrogantia  defensitantes,  multi  multa  10 
+perniciosa  dogmata  concisa  communionis  unitate  pepererunt. 
+
+9  Haec  omnia  cum  illo  qui  ad  societatem  populi 
+christiani,  non  idiota,  ut  aiunt,  sed  doctorum  libris  expo¬ 
+litus  atque  excultus  accedit,  modesta  collatione  tractanda 
+sunt:  tantum  assum ta  praecipiendi  auctoritate,  (ut  caveat  15 
+praesumtionis  errores,)  quantum  eius  humilitas  quae  illum 
+adduxit,  iam  sentitur  admittere.  10  Cetera  vero  secundum 
+regulas  doctrinae  salutaris,  sive  de  fide,  quaecumque  narranda 
+vel  disserenda  sunt,  sive  de  moribus,  sive  de  tentationibus, 
+eo  modo  percurrendo  quo  dixi,  ad  illam  supereminentiorem  20 
+viam  omnia  referenda  sunt. 
+
+9  1  Sunt  item  quidam  de  scholis  usitatissimis  gram¬ 
+
+maticorum  oratorumque  venientes,  quos  neque  inter  idiotas 
+numerare  audeas,  neque  inter  illos  doctissimos,  quorum 
+mens  magnarum  rerum  est  exercitata  quaestionibus.  2  His  25 
+ergo  qui  loquendi  arte  ceteris  hominibus  excellere  videntur, 
+cum  veniunt,  ut  Christiani  fiant,  hoc  amplius  quam  illis 
+illitteratis  impertire  debemus,  quod  sedulo  monendi  sunt, 
+ut  humilitate  induti  christiana  discant  non  contemnere, 
+quos  cognoverint  morum  vitia  quam  verborum  amplius  30 
+devitare,  et  cordi  casto  linguam  exercitatam  nec  conferre 
+audeant  quam  etiam  praeferre  consueverant.  3  Maxime 
+
+
+16  De  Catechiz andis  Rudibus.  9,  3  —  10,  1 
+
+autem  isti  docendi  sunt  scripturas  audire  divinas,  ne  sordeat 
+eis  solidum  eloquium,  quia  non  est  inflatum,  neque  arbi¬ 
+trentur  carnalibus  integumentis  involuta  atque  operta  dicta 
+vel  facta  hominum,  quae  in  illis  libris  leguntur,  non  evol- 
+5  venda  atque  aperienda  ut  intelligantur ,  sed  sic  accipienda 
+ut  litterae  sonant;  deque  ipsa  utilitate  secreti,  unde  etiam 
+mysteria  vocantur,  quid  valeant  aenigmatum  latebrae  ad 
+amorem  veritatis  acuendum,  decutiendumque  fastidii  torpo¬ 
+rem,  ipsa  experientia  probandum  est  talibus,  cum  aliquid  eis 
+io  quod  in  promtu  positum  non  ita  movebat,  enodatione  alle¬ 
+goriae  alicuius  eruitur.  4  His  enim  maxime  utile  est  nosse, 
+ita  esse  praeponendas  verbis  sententias ,  ut  praeponitur 
+animus  corpori.  Ex  quo  fit,  ut  ita  malle  debeant  veriores 
+quam  disertiores  audire  sermones,  sicut  malle  debent  pru- 
+15  dentiores  quam  formosiores  habere  amicos. 
+
+5  Noverint  etiam  non  esse  vocem  ad  aures  dei  nisi 
+animi  affectum :  ita  enim  non  irridebunt,  si  aliquos  antistites 
+et  ministros  ecclesiae  forte  animadverterint  vel  cum  barba¬ 
+rismis  et  soloecismis  deum  invocare,  vel  eadem  verba  quae 
+20  pronuntiant  non  intelligere  perturbateque  distinguere.  6  Non 
+quia  ista  minime  corrigenda  sunt,  (ut  populus  ad  id  quod 
+plane  intelligit,  dicat  amen,)  sed  tamen  pie  toleranda  sunt 
+ab  eis  qui  didicerint,  ut  sono  in  foro  sic  voto  in  ecclesia 
+benedici.  Itaque  forensis  illa  nonnumquam  forte  bona  dictio, 
+25  numquam  tamen  benedictio  dici  potest. 
+
+7  De  sacramento  autem  quod  accepturi  sunt,  sufficit 
+prudentioribus  audire  quid  res  illa  significet ;  cum  tardioribus 
+autem  aliquanto  pluribus  verbis  et  similitudinibus  agendum 
+est,  ne  contemnant  quod  vident. 
+
+3p  10  i  Hic  tu  fortasse  exemplum  aliquod  sermonis  desi¬ 
+deras  ,  ut  ipso  tibi  opere  ostendam ,  quomodo  facienda  sint 
+
+
+De  Catechizandis  Rudibus.  10,  1  —  5. 
+
+
+17 
+
+
+ista  quae  monui.  Quod  quidem  faciam,  quantum  domino 
+adiuvante  potuero :  sed  prius  de  illa  hilaritate  comparanda, 
+
+
+quod  pollicitus  sum  dicere  debeo.  2  Iam  enim  de  ipsis 
+
+
+praeceptis  explicandi  sermonis,  in  catechizando  eo  qui  sic 
+venit  ut  Christianus  fiat,  quantum  satis  visum  est,  quod  5 
+promiseram  exsolvi.  Indebitum  quippe  est,  ut  etiam  ipse 
+faciam  in  hoc  volumine,  quod  fieri  oportere  praecipio.  Si 
+ergo  fecero,  ad  cumulum  valebit :  cumulus  autem  quo  pacto 
+a  me  superfundi  potest,  antequam  mensuram  debiti  ex¬ 
+plevero?  10 
+
+3  Neque  enim  te  maxime  conqueri  audivi,  nisi  quod 
+tibi  sermo  tuus  vilis  abiectusque  videretur,  cum  aliquem 
+christiano  nomine  imbueres.  Hoc  autem  scio,  non  tam 
+rerum  quae  dicendae  sunt,  quibus  te  satis  novi  paratum  et 
+instructum,  neque  ipsius  locutionis  inopia,  sed  animi  taedio  15 
+fieri:  4  vel  illa  causa  quam  dixi,  quia  magis  nos  delectat 
+et  tenet  quod  in  silentio  mente  cernimus,  nec  inde  volumus 
+avocari  ad  verborum  longe  disparem  strepitum;  vel  quia 
+etiam  cum  sermo  iucundus  est,  magis  nos  libet  audire  aut 
+legere  quae  melius  dicta  sunt  et  quae  sine  nostra  cura  et  20 
+sollicitudine  promuntur,  quam  ad  alienum  sensum  repentina 
+verba  coaptare  incerto  exitu,  sive  utrum  occurrant  pro  sen¬ 
+tentia,  sive  utrum  accipiantur  utiliter;  vel  quia  illa  quae 
+rudibus  insinuantur,  eo  quod  nobis  notissima  sunt  et  pro¬ 
+vectui  nostro  iam  non  necessaria ,  piget  ad  ea  saepissime  25 
+redire,  nec  in  eis  tam  usitatis  et  tanquam  infantilibus  cum 
+aliqua  voluptate  iam  grandiusculus  animus  graditur. 
+
+
+5  Facit  etiam  loquendi  taedium  auditor  immobilis:  [vel  quia 
+
+
+non  movetur  affectu,  vel  quia  nullo  motu  corporis  indicat 
+
+
+se  intelligere  vel  sibi  placere  quae  dicuntur:]  non  quia  hu-  30 
+
+
+3  Vgl.  Cap.  2,  15. 
+
+Augustinus.  2.  Ausg. 
+
+
+16  Vgl.  Cap.  2,  3  ff. 
+
+
+2 
+
+
+18 
+
+
+De  Catechizandis  Rudibus.  10,  5  —  9. 
+
+
+manae  laudis  nos  esse  avidos  decet,  sed  quia  ea  quae  mi¬ 
+nistramus  dei  sunt;  et  quanto  magis  diligimus  eos  quibus 
+loquimur,  tanto  magis  eis  cupimus,  ut  placeant  quae  ad 
+eorum  porriguntur  salutem:  quod  si  non  succedit,  con- 
+5  tristamur  et  in  ipso  cursu  debilitamur  et  frangimur,  quasi 
+frustra  operam  conteramus.  6  Nonnumquam  etiam,  cum 
+avertimur  ab  aliqua  re,  quam  desideramus  agere,  et  cuius 
+actio  aut  delectabat  nos  aut  magis  nobis  necessaria  vide¬ 
+batur,  et  cogimur  aut  iussu  eius  quem  offendere  nolumus, 
+io  aut  aliquorum  inevitabili  instantia  catechizare  aliquem,  iam 
+conturbati  accedimus  ad  negotium,  cui  magna  tranquillitate 
+opus  est,  dolentes,  quod  neque  ordinem  actionum  nobis  con¬ 
+ceditur  tenere  quem  volumus,  nec  sufficere  omnibus  possu¬ 
+mus  ;  atque  ita  ex  ipsa  tristitia  sermo  procedens  minus 
+is  gratus  est,  quia  de  ariditate  maestitiae  minus  exuberat. 
+7  Aliquando  item  ex  aliquo  scandalo  maeror  pectus  obsedit, 
+et  tunc  nobis  dicitur:  Veni,  loquere  huic,  Christianus  vult 
+fieri.  Dicitur  enim  ab  ignorantibus,  quid  nos  clausum  intus 
+exurat  quibus  si  affectum  nostrum  aperire  non  oportet, 
+-20  suscipimus  ingratius  quod  volunt:  et  profecto  languidus  et 
+insuavis  ille  sermo  erit  per  venam  cordis  aestuantem  fuman- 
+temque  traiectus.  8  Tot  igitur  ex  causis,  quaelibet  earum 
+serenitatem  nostrae  mentis  obnubilet,  secundum  deum  sunt 
+quaerenda  remedia,  quibus  relaxetur  illa  contractio,  et  fer- 
+•25  vore  spiritus  exsultemus  et  iucundemur  in  tranquillitate  boni 
+operis.  Hilarem  enim  datorem  diligit  deus. 
+
+9  Si  enim  causa  illa  contristat,  quod  intellectum  nostrum 
+auditor  non  capit,  a  cuius  cacumine  quodam  modo  des¬ 
+cendentes  cogimur  in  syllabarum  longe  infra  distantium  tardi- 
+30  tate  demorari ,  et  curam  gerimus  quemadmodum  longis  et 
+
+
+26  2.  Cor.  9,  7. 
+
+
+De  Catechizandis  Rudibus.  10,  9  —  13. 
+
+
+19 
+
+
+perplexis  amfractibus  procedat  ex  ore  carnis  quod  celerrimo 
+haustu  mentis  imbibitur,  et  quia  multum  dissimiliter  exit, 
+taedet  loqui,  et  libet  tacere:  cogitemus  quid  nobis  praero¬ 
+gatum  sit  ab  illo  qui  demonstravit  nobis  exemplum,  ut  se¬ 
+quamur  vestigia  eius,  io  Quantumvis  enim  differat  arti¬ 
+culata  vox  nostra  ab  intelligentiae  nostrae  vivacitate,  longe 
+differentior  est  mortalitas  carnis  ab  aequalitate  dei.  Et 
+tamen  cum  in  eadem  forma  esset,  semetipsum  exinanivit 
+formam  servi  accipiens  etc.  usque  ad :  mortem  crucis. 
+Quam  ob  causam,  nisi  quia  factus  est  infirmis  infirmus,  ut 
+infirmos  lucrificaret?  n  Audi  eius  imitatorem  alibi  etiam 
+dicentem :  Sive  enim  mente  excessimus ,  deo :  sive  tempe¬ 
+rantes  sumus,  vobis.  Caritas  enim  Christi  compellit  nos 
+iudicantes  hoc,  quia  unus  pro  omnibus  mortuus  est.  Quo¬ 
+modo  enim  paratus  esset  impendi  pro  animabus  eorum,  si 
+eum  pigeret  inclinari  ad  aures  eorum?  12  Hinc  ergo  factus 
+•est  parvulus  in  medio  nostrum,  tamquam  nutrix  fovens  filios 
+suos.  Num  enim  delectat,  nisi  amor  invitet,  decurtata  et 
+mutilata  verba  immurmurare?  Et  tamen  optant  homines 
+habere  infantes,  quibus  id  exhibeant:  et  suavius  est  matri 
+minuta  mansa  inspuere  parvulo  filio  quam  ipsam  mandere 
+ac  devorare  grandiora.  13  Non  ergo  recedat  de  pectore  etiam 
+cogitatio  gallinae  illius,  quae  languidulis  plumis  teneros  fetus 
+operit  et  susurrantes  pullos  confracta  voce  advocat;  cuius 
+blandas  alas  refugientes  superbi  praeda  fiunt  alitibus.  Si 
+enim  intellectus  delectat  in  penetralibus  sincerissimis ,  hoc 
+etiam  intelligere  delectet,  quomodo  caritas,  quanto  officiosius 
+descendit  in  infima,  tanto  robustius  recurrit  in  intima  per 
+bonam  conscientiam  nihil  quaerendi  ab  eis  ad  quos  descen¬ 
+dit,  praeter  eorum  sempiternam  salutem. 
+
+4  f.  1.  Petr.  2,  21.  8  f.  Phil.  2,  6—8.  10  f  1.  Cor.  9,  22. 
+
+12  ff.  2.  Cor.  5,  13.  14.  15  2.  Cor.  12,  15.  16  ff.  1.  Thess.  2,  7. 
+
+2  * 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+20  De  Catechizandis  Rudibus.  11,  1  —  4. 
+
+11  1  Si  autem  magis  appetimus  ea  quae  iam  parata 
+
+sunt  et  melius  dicta  legere  vel  audire,  et  ideo  piget  incerto 
+exitu  ad  tempus  coaptare  quae  loquimur :  tantum  a  veritato 
+rerum  non  aberret  animus,  facile  est,  ut  si  in  verbis  audi- 
+5  torem  aliquid  offenderit,  ex  ipsa  occasione  discat,  quam  sit 
+re  intellecta  contemnendum,  si  minus  integre,  aut  si  minus 
+proprie  sonare  potuit,  quod  ideo  sonabat  ut  res  intelli- 
+geretur.  2  Quodsi  humanae  infirmitatis  intentio  etiam  ab 
+ipsa  rerum  veritate  aberraverit,  (quamquam  in  catechizandis 
+10  rudibus,  ubi  via  tritissima  tenenda  est,  difficile  potest  acci¬ 
+dere,)  tamen  ne  forte  accidat,  ut  etiam  hinc  offendatur  audi¬ 
+tor,  non  aliunde  nobis  debet  videri  accidisse,  nisi  quia  deus 
+experiri  nos  voluit,  utrum  cum  mentis  placiditate  corrigamur,, 
+ne  in  defensionem  nostri  erroris  maiore  praecipitemur  errore. 
+15  Quodsi  nemo  nobis  dixerit,  nosque  et  illos  qui  audierunt 
+omnino  latuerit,  nullus  dolor  est,  si  non  fiat  iterum.  3  Ple¬ 
+rumque  autem  nos  ipsi  recolentes  quae  dixerimus,  reprehen¬ 
+dimus  aliquid,  et  ignoramus  quomodo  cum  diceretur  accep¬ 
+tum  sit;  magisque  dolemus,  quando  in  nobis  fervet  caritas,. 
+20  si  cum  falsum  esset,  libenter  acceptum  est.  Ideoque  oppor¬ 
+tunitate  reperta,  sicut  nos  ipsos  in  silentio  reprehendimus, 
+ita  curandum  est,  ut  etiam  illi  sensim  corrigantur,  qui  non 
+dei  verbis,  sed  plane  nostris  in  aliquam  lapsi  sunt  falsi- 
+tatem.  4  Si  vero  aliqui  livore  vesano  caeci  errasse  nos  gaudent, 
+25  susurrones,  detractores,  deo  odibiles:  praebeant  nobis  mate¬ 
+riam  exercendae  patientiae  cum  misericordia,  quia  et  pa¬ 
+tientia  dei  ad  poenitentiam  eos  adducit.  Quid  enim  est 
+detestabilius,  et  quod  magis  thesaurizet  iram  in  die  irae  et 
+revelationis  iusti  iudicii  dei,  quam  de  malo  alterius  mala 
+30  diaboli  similitudine  atque  imitatione  laetari? 
+
+
+25  Rom.  1,  29  f. 
+
+
+27  ff.  Rom.  2,  4.  5. 
+
+
+De  Catechizandis  Rudibus.  11,  5  —  9. 
+
+
+21 
+
+
+5  Nonnumquam  etiam,  cum  recte  omnia  vereque  dicantur, 
+aut  non  intellectum  aliquid,  aut  contra  opinionem  et  consue¬ 
+tudinem  veteris  erroris  ipsa  novitate  asperum  offendit  et 
+perturbat  audientem.  Quod  si  apparuerit  sanabilemque  se 
+praebet,  auctoritatum  rationumque  copia  sine  ulla  dilatione 
+sanandus  est.  6  Si  autem  tacita  et  occulta  offensio  est,  dei 
+medicina  opitulari  potest.  At  si  resiluerit  et  curari  recusa¬ 
+verit,  consoletur  nos  dominicum  illud  exemplum,  qui  offensis 
+hominibus  ex  verbo  suo  et  tamquam  durum  refugientibus, 
+etiam  iis  qui  remanserant  ait:  Numquid  et  vos  vultis 
+ire?  7  Satis  enim  fixum  atque  immobile  debet  corde  re¬ 
+tineri,  Ierusalem  captivam  ab  huius  saeculi  Babylonia  de¬ 
+cursis  temporibus  liberari,  nullumque  ex  illa  esse  periturum : 
+quia  qui  perierit,  non  ex  illa  erat.  Firmum  enim  funda¬ 
+mentum  dei  stat,  habens  signaculum  hoc:  novit 
+dominus  qui  sunt  eius,  et  recedat  ab  iniquitate 
+omnis  qui  nominat  nomen  domini. 
+
+8  Ista  cogitantes  et  invocantes  dominum  in  cor  nostrum, 
+minus  timebimus  incertos  exitus  sermonis  nostri  propter 
+incertos  motus  auditorum,  delectabitque  nos  etiam  ipsa  per¬ 
+pessio  molestiarum  pro  misericordi  opere,  si  non  in  eo 
+nostram  gloriam  requiramus.  Tunc  enim  est  vere  opus  bo¬ 
+num,  cum  a  caritate  iaculatur  agentis  intentio,  et  tamquam 
+ad  locum  suum  rediens ,  rursus  in  caritate  requiescit. 
+9  Lectio  vero,  quae  nos  delectat,  aut  aliqua  auditio  melioris 
+nloquii,  ut  eam  promendo  sermoni  nostro  praeponere  volen¬ 
+tes,  cum  pigritia  vel  taedio  loquamur,  alacriores  nos  susci¬ 
+piet,  iucundiorque  praestabitur  post  laborem;  et  maiore 
+fiducia  deprecabimur,  ut  loquatur  nobis  deus  quomodo  vo¬ 
+lumus,  si  suscipiamus  hilariter,  ut  loquatur  per  nos  quo- 
+
+
+10  f.  Joh.  6,  68.  14  ff.  2.  Tim.  2,  19.  22  Vgl.  Joh.  7,  18. 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+22 
+
+
+De  Catechizandis  Rudibus.  11,  9  —  12,  5. 
+
+
+modo  possumus :  ita  iit,  ut  diligentibus  deum  omnia  con¬ 
+currant  in  bonum. 
+
+12  i  Iam  vero  si  usitata  et  parvulis  congruentia  saepe 
+repetere  fastidimus:  congruamus  eis  per  fraternum,  pater- 
+5  num,  maternumque  amorem,  et  copulatis  cordi  eorum  etiam 
+nobis  nova  videbuntur.  Tantum  enim  valet  animi  compa¬ 
+ti  entis  affectus,  ut  cum  illi  afficiuntur  nobis  loquentibus,  et 
+nos  illis  discentibus,  habitemus  in  invicem;  atque  ita  et  illi 
+quae  audiunt  quasi  loquantur  in  nobis,  et  nos  in  illis  disca- 
+10  mus  quodam  modo  quae  docemus.  2  Nonne  accidere  hoc 
+solet,  cum  loca  quaedam  ampla  et  pulchra,  vel  urbium  vel 
+agrorum,  quae  iam  nos  saepe  videndo  sine  aliqua  voluptate 
+praeteribamus,  ostendimus  eis  qui  antea  numquam  viderant,, 
+ut  nostra  delectatio  in  eorum  novitatis  delectatione  renovetur? 
+15  Et  tanto  magis ,  quanto  sunt  amiciores :  quia  per  amoris 
+vinculum  in  quantum  in  illis  sumus,  in  tantum  et  nobis 
+nova  fiunt  quae  vetera  fuerunt.  3  Sed  si  in  rebus  contem¬ 
+plandis  aliquantum  profecimus,  non  volumus  eos  quos  dili¬ 
+gimus  laetari  et  stupere,  cum  intuentur  opera  manuum  ho- 
+20  minum :  sed  volumus  eos  in  ipsam  artem  consiliumve 
+institutoris  adtollere,  atque  inde  exsurgere  in  admirationem 
+laudemque  omnicreantis  dei,  ubi  amoris  fructuosissimus  finis 
+est.  4  Quanto  ergo  magis  delectari  nos  oportet,  cum  ipsum 
+deum  iam  discere  homines  accedunt,  propter  quem  discenda 
+25  sunt  quaecumque  discenda  sunt;  et  in  eorum  novitate  inno¬ 
+vari,  ut  si  frigidior  est  solita  nostra  praedicatio,  insolita 
+eorum  auditione  fervescat.  5  Huc  accedit  ad  comparandum 
+laetitiam,  quod  cogitamus  et  consideramus,  de  qua  erroris 
+morte  in  vitam  fidei  transeat  homo.  Et  si  vicos  usitatissi- 
+30  mos  cum  benefica  hilaritate  transimus,  quando  alicui  forte 
+
+
+1  f.  Rom.  8,  28. 
+
+
+De  Catechizandis  Rudibus.  12,  5  —  13,  4. 
+
+
+23 
+
+
+qui  errando  laboraverat,  demonstramus  viam,  quanto  alacrius 
+et  cum  gaudio  maiore  in  doctrina  salutari,  etiam  illa  quae 
+propter  nos  retexere  non  opus  est,  perambulare  debemus, 
+cum  animam  miserandam  et  erroribus  saeculi  fatigatam  per 
+itinera  pacis,  ipso  qui  nobis  eam  praestitit  iubente,  dedu-  r> 
+cimus  ? 
+
+13  i  Sed  re  vera  multum  est  perdurare  in  loquendo 
+usque  ad  terminum  praestitutum,  cum  moveri  non  videmus 
+audientem:  quod  sive  non  audeat,  religionis  timore  con¬ 
+strictus,  voce  aut  aliquo  motu  corporis  significare  appro-  io 
+bationem  suam,  sive  humana  verecundia  reprimatur;  sive 
+dicta  non  intelligat,  sive  contemnat:  quando  quidem  nobis 
+non  cernentibus  animum  eius  incertum  est,  omnia  sermone 
+tentanda  sunt,  quae  ad  eum  excitandum  et  tamquam  de 
+latebris  eruendum  possint  valere.  2  Nam  et  timor  nimius  at-  ir> 
+que  impediens  declarationem  iudicii  eius  blanda  exhortatione 
+pellendus  est,  et  insinuando  fraternam  societatem  verecundia 
+temperanda,  et  interrogatione  quaerendum  utrum  intelligat, 
+et  danda  fiducia,  ut  si  quid  ei  contradicendum  videtur, 
+libere  proferat.  3  Quaerendum  etiam  de  illo,  utrum  haec  20 
+aliquando  iam  audierit,  et  fortassis  eum  tamquam  nota  et 
+pervulgata  non  moveant;  et  agendum  pro  eius  responsione, 
+ut  aut  planius  et  enodatius  loquamur,  aut  opinionem  contra¬ 
+riam  refellamus,  aut  ea  quae  illi  nota  sunt  non  explicemus 
+latius,  sed  breviter  complicemus,  eligamusque  aliqua  ex  his  25 
+quae  mystice  dicta  sunt  in  sanctis  libris,  et  maxime  in  ipsa 
+narratione,  quae  aperiendo  et  revelando  noster  sermo  dulce¬ 
+scat.  4  Quodsi  nimis  tardus  est  et  ab  omni  tali  suavitate 
+absurdus  et  aversus,  misericorditer  sufferendus  est,  breviter- 
+que  decursis  ceteris,  ea  quae  maxime  necessaria  sunt,  de  30 
+unitate  catholicae,  de  tentationibus,  de  christiana  conver¬ 
+satione  propter  futurum  iudicium  terribiliter  inculcanda  sunt, 
+
+
+24 
+
+
+De  Catechiz andis  Rudibus.  13,  4  —  8. 
+
+
+magisque  pro  illo  ad  deum  quam  illi  de  deo  multa  di¬ 
+cenda. 
+
+5  Saepe  etiam  fit,  ut,  qui  primo  libenter  audiebat,  vel 
+audiendo  vel  stando  fatigatus,  non  iam  laudans,  sed  osci- 
+5  tans  labia  diducat,  et  se  abire  velle  etiam  invitus  ostendat. 
+6  Quod  ubi  senserimus,  aut  renovare  oportet  eius  animum, 
+dicendo  aliquid  honesta  hilaritate  conditum  et  aptum  rei 
+quae  agitur,  vel  aliquid  valde  mirandum  et  stupendum,  vel 
+etiam  dolendum  atque  plangendum*,  et  magis  de  ipso,  ut 
+io  propria  cura  punctus  evigilet,  quod  tamen  non  offendat 
+eius  verecundiam  asperitate  aliqua,  sed  potius  familiaritate 
+conciliet:  aut  oblata  sessione  succurrere;  quamquam  sine 
+dubitatione  melius  fiat,  ubi  decenter  fieri  potest,  ut  a  prin¬ 
+cipio  sedens  audiat,  longeque  consultius  in  quibusdam  eccle- 
+15  siis  transmarinis  non  solum  antistites  sedentes  loquuntur  ad 
+populum,  sed  ipsi  etiam  populo  sedilia  subiacent,  ne  quis¬ 
+quam  infirmior  stando  lassatus  a  saluberrima  intentione 
+avertatur,  aut  etiam  cogatur  abscedere.  7  Et  tamen  multum 
+interest,  si  se  quisquam  de  magna  multitudine  subtrahat  ad 
+20  reparandas  vires,  qui  iam  sacramentorum  societate  devinc¬ 
+tus  est;  et  si  ille  discedat,  (quod  plerumque  inevitabiliter 
+urgetur,  ne  interiore  defectu  victus  etiam  cadat,)  qui  primis 
+sacramentis  imbuendus  est:  et  pudore  enim  non  dicit  cur 
+eat,  et  imbecillitate  stare  non  sinitur.  Expertus  haec  dico : 
+25  nam  fecit  hoc  quidam,  cum  eum  catechizarem,  homo  rusti¬ 
+canus,  unde  magnopere  praecavendum  esse  didici.  8  Quis 
+enim  ferat  arrogantiam  nostram,  cum  viros  fratres  nostros, 
+vel  etiam  quod  maiore  sollicitudine  curandum  est,  ut  sint 
+fratres  nostri,  coram  nobis  sedere  non  facimus :  et  ipsum  do- 
+30  minum  nostrum,  cui  assistunt  angeli,  sedens  mulier  audiebat? 
+
+
+30  Vgl.  Mare.  1,  13.  30  Vgl.  Lue.  10,  39. 
+
+
+De  Catechizandis  Rudibus.  13,  9  —  14,  3, 
+
+
+25 
+
+
+9  Sane  si  aut  brevis  sermo  futurus  est,  aut  consessui  locus 
+non  est  aptus,  stantes  audiant:  sed  cum  multi  audiunt,  et 
+non  tunc  initiandi,  io  Nam  cum  unus,  aut  duo,  aut  pauci, 
+qui  propterea  venerunt,  ut  Christiani  fiant,  periculose  loqui¬ 
+mur  stantibus.  Tamen  si  iam  sic  coepimus,  saltem  animad¬ 
+verso  auditoris  taedio,  et  offerenda  sessio  est,  immo  vero 
+prorsus  urgendus  ut  sedeat,  et  dicendum  aliquid  quo  reno¬ 
+vetur,  quo  etiam  cura,  si  qua  forte  irruens  eum  avocare 
+coeperat,  fugiat  ex  animo,  n  Cum  enim  causae-  incertae 
+sint,  cur  iam  tacitus  recuset  audire,  iam  sedenti  aliquid 
+adversus  incidentes  cogitationes  saecularium  negotiorum  dica¬ 
+tur,  aut  hilari,  ut  dixi,  aut  tristi  modo:  ut  si  ipsae  sunt 
+quae  mentem  occupaverant,  cedant  quasi  nominatim  accu¬ 
+satae;  si  autem  ipsae  non  sunt,  et  audiendo  fatigatus  est, 
+cum  de  illis  tamquam  ipsae  sint,  (quando  quidem  ignoramus,) 
+inopinatum  aliquid  et  extraordinarium,  eo  modo  quo  dixi, 
+loquimur,  a  taedio  renovatur  intentio.  12  Sed  et  breve  sit, 
+maxime  quia  extra  ordinem  inseritur,  ne  morbum  fastidii 
+cui  subvenire  volumus,  etiam  augeat  ipsa  medicina:  et  ac¬ 
+celeranda  sunt  cetera,  et  promittendus  atque  exhibendus 
+finis  propinquior. 
+
+14  1  Si  autem  confregit  animum  tuum  alterius  actionis, 
+cui  tamquam  magis  necessariae  iam  suspensus  eras,  omissio, 
+et  propterea  tristis  insuaviter  catechizas :  cogitare  debes,  (ex¬ 
+cepto  quod  scimus  misericorditer  nobis  agendum  esse  quid¬ 
+quid  cum  hominibus  agimus,  et  ex  officio  sincerissimae  cari¬ 
+tatis;  hoc  ergo  excepto,)  incertum  esse  quid  utilius  agamus, 
+et  quid  opportunius  aut  intermittamus,  aut  omnino  omitta¬ 
+mus.  2  Quia  enim  merita  hominum  pro  quibus  agimus, 
+qualia  sint  apud  deum  non  novimus,  quid  eis  ad  tempus 
+expediat  aut  nulla  aut  tenuissima  et  incertissima  coniectura 
+suspicamur  potius  quam  comprehendimus.  3  Quapropter  res 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+26 
+
+
+De  Catechiz  andis  Rudibus.  14,  3  —  8. 
+
+
+quidem  agendas  pro  nostro  captu  ordinare  debemus:  quas 
+eo  modo  quo  statuimus,  si  peragere  potuerimus,  non  ideo 
+gaudeamus  quia  nobis,  sed  quia  deo  sic  eas  agi  placuit;  si 
+autem  aliqua  inciderit  necessitas,  qua  noster  ille  ordo  tur- 
+5  betur :  flectamur  facile,  ne  frangamur ;  ut  quem  deus  nostro 
+praeposuit,  ipse  sit  noster.  4  Aequius  est  enim,  ut  nos  eius 
+quam  ut  ille  nostram  voluntatem  sequatur.  Quia  et  ordo 
+agendarum  rerum,  quem  nostro  arbitrio  tenere  volumus, 
+ille  utique  approbandus  est,  ubi  potiora  praecedunt.  5  Cur 
+10  ergo  nos  dolemus  homines  a  domino  deo  tanto  potiore 
+praecedi,  ut  eo  ipso  quo  nostrum  amamus  ordinem,  inordi¬ 
+nati  esse  cupiamus?  Nemo  enim  melius  ordinat  quid  agat, 
+nisi  qui  paratior  est  non  agere  quod  divina  potestate  pro¬ 
+hibetur,  quam  cupidior  agere  quod  humana  cogitatione  me¬ 
+is  ditatur.  6  Quia  multae  cogitationes  sunt  in  corde 
+viri,  consilium  autem  domini  manet  in  ae¬ 
+ternum. 
+
+7  Si  vero  ex  aliquo  scandalo  perturbatus  animus  non 
+valet  edere  serenum  iucundumque  sermonem,  tantam  esse 
+20  caritatem  oportet  in  eos  pro  quibus  Christus  mortuus  est, 
+volens  eos  pretio  sanguinis  sui  ab  errorum  saecularium  morte 
+redimere,  ut  hoc  ipsum,  quod  nobis  tristibus  nuntiatur,  praesto 
+esse  aliquem,  qui  desideret  fieri  Christianus,  ad  consolatio¬ 
+nem  illius  resolutionemque  tristitiae  valere  debeat,  sicut  so- 
+25  lent  lucrorum  gaudia  dolorem  lenire  damnorum.  Non  enim 
+scandalum  nos  contristat  alicuius,  nisi  quem  perire  aut  per 
+quem  perire  infirmum  vel  credimus  vel  videmus.  8  Ille  igitur, 
+qui  initiandus  advenit,  dum  speratur  posse  proficere,  dolo¬ 
+rem  deficientis  abstergat.  Quia  et  si  timor  ille  suggeritur, 
+30  ne  fiat  proselytus  filius  gehennae,  dum  multi  tales  versantur 
+
+
+15ff.Ps.33, 11.  Spr.  19,  21.  21f.  l.Petr.  1, 18 f.  30  Matth.  23,  15. 
+
+
+De  Catechizandis  Rudibus.  14,  8  —  13. 
+
+
+27 
+
+
+ante  oculos,  ex  quibus  oriuntur  ea  quibus  urimur  scandala, 
+non  ad  retardandos  nos  pertinere  debet,  sed  magis  ad  exci¬ 
+tandos  et  acuendos;  9  quatenus  quem  imbuimus  moneamus, 
+ut  caveat  imitationem  eorum  qui  non  ipsa  veritate,  sed  solo 
+nomine  Christiani  sunt ;  nec  eorum  turba  commotus ,  aut  5. 
+sectari  velit  eos,  aut  Christum  nolit  sectari  propter  eos;  et 
+aut  nolit  esse  in  ecclesia  dei  ubi  illi  sunt,  aut  talis  ibi  velit 
+esse  quales  illi  sunt.  10  Et  nescio  quomodo  in  huiusmodi 
+monitis  ardentior  sermo  est,  cui  fomitem  subministrat  prae¬ 
+sens  dolor:  ut  non  solum  pigriores  non  simus,  sed  eo  ipso  10 
+dicamus  accensius  atque  vehementius,  quod  securiores  frigi¬ 
+dius  et  lentius  diceremus;  gaudeamusque  nobis  occasionem 
+dari,  ubi  motus  animi  nostri  sine  fructificatione  non  transeat. 
+
+11  Si  autem  de  aliquo  errato  nostro  vel  peccato  nos 
+maestitudo  comprehendit,  non  tantum  meminerimus  sacri-  is 
+ficium  deo  spiritum  esse  contribulatum,  sed  etiam  illud: 
+Quia  sicut  aqua  ignem,  sic  eleemosyna  exstin¬ 
+guit  peccatum.  Et:  Quia  misericordiam,  inquit, 
+volo  quam  sacrificium.  12  Sicut  ergo  si  periclitaremur 
+incendio,  ad  aquam  utique  curreremus,  quo  posset  exstingui,  20 
+et  gratularemur  si  quis  eam  de  proximo  offerret:  ita  si  de 
+nostro  foeno  aliqua  peccati  flamma  surrexit,  et  propterea 
+conturbamur,  data  occasione  misericordissimi  operis,  tam¬ 
+quam  de  oblato  fonte  gaudeamus,  ut  inde  illud  quod  exar¬ 
+serat  opprimatur.  Nisi  forte  tam  stulti  sumus,  ut  alacrius  25 
+arbitremur  cum  pane  currendum,  quo  ventrem  esurientis 
+impleamus,  quam  cum  verbo  dei,  quo  mentem  istud  edentis 
+instruamus,  is  Huc  accedit,  quia  si  tantummodo  prodesset 
+hoc  facere,  non  facere  autem  nihil  obesset:  infeliciter  in 
+
+
+15  f.  Ps.  51,  19.  17  f.  Sir.  3,  33.  18  f.  Hos.  6,  6.  22  Vgl. 
+
+Jes.  40,  6.  26  ff.  Vgl.  Dent.  8,  3.  Matth.  4,  4. 
+
+
+28 
+
+
+De  Catechizandis  Rudibus.  14,  13  —  15,  2. 
+
+
+periculo  salutis,  non  iam  proximi,  sed  nostrae,  oblatum 
+remedium  sperneremus.  i4  Cum  vero  ex  ore  domini  tam 
+minaciter  sonet :  Serve  nequam  et  piger,  dares  pe¬ 
+cuniam  meam  nummulariis:  quae  tandem  dementia 
+«  est,  quoniam  peccatum  nostrum  nos  angit,  ideo  rursus  velle 
+peccare,  non  dando  pecuniam  dominicam  volenti  et  petenti? 
+
+15  His  atque  huiusmodi  cogitationibus  et  considerationi¬ 
+bus  depulsa  caligine  taediorum,  ad  catechizandum  aptatur 
+intentio,  ut  suaviter  imbibatur,  quod  impigre  atque  hilariter 
+io  de  caritatis  ubertate  prorumpit.  i6  Haec  enim  non  tam  ego 
+tibi,  quam  omnibus  nobis  dicit  ipsa  dilectio,  quae  diffusa 
+est  in  cordibus  nostris  per  spiritum  sanctum,  qui  datus 
+est  nobis. 
+
+15  i  Sed  nunc  etiam  illud,  quod  priusquam  promitterem 
+15  non  debebam,  iam  fortasse  debitum  flagitas,  ut  aliquod  ser¬ 
+monis  exemplum,  tamquam  si  ego  aliquem  catechizem,  non 
+me  pigeat  explicare  et  intuendum  tibi  proponere.  2  Quod 
+priusquam  faciam,  volo  cogites  aliam  esse  intentionem  dic¬ 
+tantis,  cum  lector  futurus  cogitatur;  et  aliam  loquentis,  cum 
+20  praesens  auditor  adtenditur:  et  in  eo  ipso  aliam  in  secreto 
+monentis,  dum  nullus  alius  qui  de  nobis  iudicet  praesto  est; 
+aliam  palam  docentis  aliquid,  cum  dissimiliter  opinantium 
+circumstat  auditus :  et  in  hoc  genere  aliam,  cum  docetur  unus, 
+ceteri  autem  tamquam  iudicantes  aut  adtestantes  quae  sibi 
+25  nota  sunt,  audiunt;  aliam  cum  omnes  communiter  quid  ad 
+eos  proferamus  exspectant:  et  rursus  in  hoc  ipso  aliam,  cum 
+quasi  privatim  consedetur,  ut  sermocinatio  conseratur;  aliam, 
+cum  populus  tacens  unum  de  loco  superiore  dicturum  sus¬ 
+pensus  intuetur:  multumque  interest,  et  cum  ita  dicimus, 
+
+
+3  f.  Matth.  25,  26.  27. 
+
+
+11  ff.  Rom.  5,  5. 
+
+
+14  Vgl.  Cap.  10,  1. 
+
+
+De  Catechizandis  Rudibus.  15,  2  —  7. 
+
+
+29 
+
+
+utrum  pauci  adsint  an  multi;  docti  an  indocti  an  ex  utroque 
+genere  mixti ;  urbani  an  rustici  an  hi  et  illi  simul ;  an  po¬ 
+pulus  ex  omni  hominum  genere  temperatus  sit.  3  Fieri 
+enim  non  potest,  nisi  aliter  atque  aliter  afficiant  locuturum 
+atque  dicturum,  et  ut  sermo  qui  profertur,  affectionis  animi  5. 
+a  quo  profertur,  quemdam  quasi  vultum  gerat,  et  pro  eadem 
+diversitate  diverse  afficiat  auditores,  cum  et  ipsi  se  ipsos 
+diverse  afficiant  invicem  praesentia  sua.  4  Sed  quia  de  rudi¬ 
+bus  imbuendis  nunc  agimus,  de  me  ipso  tibi  testis  sum, 
+aliter  atque  aliter  me  moveri,  cum  ante  me  catechizandum  10 
+video  eruditum,  inertem,  civem,  peregrinum,  divitem,  pau¬ 
+perem,  privatum,  honoratum,  in  potestate  aliqua  constitu¬ 
+tum,  illius  aut  illius  gentis  hominem,  illius  aut  illius  aetatis 
+aut  sexus,  ex  illa  aut  illa  secta,  ex  illo  aut  illo  vulgari  errore 
+venientem :  ac  pro  diversitate  motus  mei  sermo  ipse  et  pro-  15 
+cedit  et  progreditur  et  finitur.  5  Et  quia  cum  eadem  om¬ 
+nibus  debeatur  caritas,  non  eadem  est  omnibus  adhibenda 
+medicina :  ipsa  item  caritas  alios  parturit,  cum  aliis  infirma¬ 
+tur;  alios  curat  aedificare,  alios  contremiscit  offendere;  ad 
+alios  se  inclinat,  ad  alios  se  erigit;  aliis  blanda,  aliis  severa,  20 
+nulli  inimica,  omnibus  mater.  6  Et  qui  non  expertus  est 
+eadem  caritate  quod  dico,  cum  videt  nos,  quia  facultas 
+aliqua  nobis  donata  delectat  laudabiliter  innotescere  in  ore 
+multitudinis,  inde  nos  beatos  putat:  deus  autem,  in  cuius 
+conspectum  intrat  gemitus  compeditorum,  videat  humili-  25 
+tatem  nostram  et  laborem  nostrum,  et  dimittat  omnia  peccata 
+nostra.  7  Quamobrem  si  quid  tibi  in  nobis  placuit,  ut  ali¬ 
+quam  observationem  sermonis  tui  a  nobis  audire  quaereres, 
+melius  videndo  et  audiendo  nos  cum  haec  agimus,  quam 
+legendo  cum  haec  dictamus,  edisceres.  30 
+
+18  Gal.  4,  19. 
+
+25  f.  Ps.  25,  18. 
+
+
+18  f.  1.  Cor.  9,  22. 
+
+
+24  f.  Ps.  79,  11. 
+
+
+30 
+
+
+De  Catechizandis  Rudibus.  16,  1  —  6. 
+
+
+16  i  Sed  tamen  faciamus  aliquem  venisse  ad  nos,  qui 
+vult  esse  Christianus,  et  de  genere  quidem  idiotarum,  non 
+tamen  rusticanorum,  sed  urbanorum,  quales  apud  Cartha¬ 
+ginem  plures  experiri  te  necesse  est:  interrogatum  etiam, 
+s  utrum  propter  vitae  praesentis  aliquod  commodum  an  propter 
+requiem,  quae  post  hanc  vitam  speratur,  Christianus  esse 
+desiderat,  propter  futuram  requiem  respondisse:  tali  for¬ 
+tasse  a  nobis  instrueretur  alloquio. 
+
+2  Deo  gratias,  frater:  valde  tibi  gratulor  et  gaudeo  de 
+io  te,  quod  in  tantis  ac  tam  periculosis  huius  saeculi  tempesta- 
+tibus  de  aliqua  vera  et  certa  securitate  cogitasti.  3  Nam  et 
+in  hac  vita  homines  magnis  laboribus  requiem  quaerunt  et 
+securitatem,  sed  pravis  cupiditatibus  non  inveniunt.  Volunt 
+enim  requiescere  in  rebus  inquietis  et  non  permanentibus: 
+i5  et  quia  illae  tempore  subtrahuntur  et  transeunt,  timoribus 
+et  doloribus  eos  agitant,  nec. quietos  esse  permittunt.  4  Sive 
+enim  in  divitiis  velit  homo  requiescere,  magis  superbus  effi¬ 
+citur  quam  securus.  An  non  videmus,  quam  multi  eas 
+subito  perdiderint,  multi  etiam  propter  illas  perierint,  aut 
+20  cum  eas  habere  cupiunt,  aut  cum  eis  oppressis  a  cupidiori¬ 
+bus  auferuntur?  Quae  si  etiam  per  totam  vitam  cum  ho¬ 
+mine  permanerent  et  non  desererent  dilectorem  suum,  ipse 
+illas  sua  morte  desereret.  5  Quanta  est  enim  vita  hominis, 
+etiamsi  senescat?  Aut  cum  sibi  homines  optant  senectutem, 
+25  quid  aliud  optant  nisi  longam  infirmitatem?  Sic  et  honores 
+huius  saeculi,  quid  sunt  nisi  typhus  et  inanitas  et  ruinae 
+periculum?  Quia  sic  scriptura  sancta  dicit:  Omnis  caro 
+foenum,  et  claritas  hominis  ut  flos  foeni.  Foe- 
+num  aruit,  flos  decidit:  verbum  autem  domini 
+30  manet  in  aeternum.  6  Ideo  qui  veram  requiem  et  veram 
+
+
+23  f.  Vgl.  Ps.  90,  10.  27  ff.  1.  Petr.  1,  24.  25.  Vgl.  Jes.  40,  6.  8. 
+
+
+De  Catechizandis  Rudibus.  16,  6  —  10. 
+
+
+31 
+
+
+felicitatem  desiderat,  debet  tollere  spem  suam  de  rebus 
+mortalibus  et  praetereuntibus ,  et  eam  collocare  in  verbo 
+domini,  ut  haerens  ei  quod  manet  in  aeternum,  etiam  ipse 
+cum  illo  maneat  in  aeternum. 
+
+7  Sunt  etiam  homines,  qui  nec  divites  quaerunt  esse 
+nec  ad  vanas  honorum  pompas  ambiunt  pervenire,  sed 
+gaudere  et  requiescere  volunt  in  popinis  et  in  fornicationi¬ 
+bus  et  in  theatris  atque  spectaculis  nugacitatis,  quae  in 
+magnis  civitatibus  gratis  habent.  8  Sed  sic  etiam  ipsi  aut 
+consumunt  per  luxuriam  paupertatem  suam,  et  ab  egestate 
+postea  in  furta  et  effracturas  et  aliquando  etiam  in  latro¬ 
+cinia  prosiliunt,  et  subito  multis  et  magnis  timoribus  im¬ 
+plentur;  et  qui  in  popina  paulo  ante  cantabant,  iam  planctus 
+carceris  somniant.  9  Studiis  autem  spectaculorum  fiunt 
+daemonibus  similes,  clamoribus  suis  incitando  homines,  ut 
+se  invicem  caedant,  secumque  habeant  contentiosa  certamina 
+qui  se  non  laeserunt,  dum  placere  insano  populo  cupiunt: 
+quos  si  animadverterint  esse  concordes,  tunc  eos  oderunt  et 
+persequuntur,  et  tamquam  collusores  ut  fustibus  verberentur 
+exclamant,  et  hanc  iniquitatem  facere  etiam  vindicem  iniqui¬ 
+tatum  iudicem  cogunt ;  si  autem  horrendas  adversus  invicem 
+inimicitias  eos  exercere  cognoverint,  (sive  sintae  qui  appellan¬ 
+tur,  sive  scenici  et  thymelici,  sive  aurigae,  sive  venatores, 
+quos  miseros  non  solum  homines  cum  hominibus,  sed  etiam 
+homines  cum  bestiis  in  certamen  pugnamque  committunt,) 
+quo  maiore  adversus  invicem  discordia  furere  senserint,  eo 
+magis  amant  et  delectantur,  et  incitatis  favent  et  faventes 
+incitant,  plus  adversus  se  ipsos  insanientes  ipsi  spectatores 
+alter  pro  altero,  quam  illi  quorum  insaniam  insani  provo¬ 
+cant,  sed  insaniendo  spectare  desiderant.  10  Quomodo  ergo 
+sanitatem  pacis  tenere  animus  potest,  qui  discordiis  et  certa¬ 
+minibus  pascitur?  Qualis  enim  cibus  sumitur,  talis  vale- 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+32  De  Catechizandis  Rudibus.  16,  10  —  17,  3. 
+
+tudo  consequitur,  n  Postremo  quamvis  insana  gaudia  non 
+sint  gaudia,  tamen  qualiacumque  sint,  et  quantumlibet  de¬ 
+lectet  iactantia  divitiarum,  et  tumor  honorum,  vorago  popi¬ 
+narum,  et  bella  theatrorum,  et  immunditia  fornicationum, 
+5  et  prurigo  thermarum,  aufert  omnia  ista  una  febricula,  et 
+adhuc  viventibus  totam  falsam  beatitudinem  subtrahit:  re¬ 
+manet  inanis  et  saucia  conscientia  deum  sensura  iudicem, 
+quem  noluit  habere  custodem;  et  inventura  asperum  domi¬ 
+num,  quem  dulcem  patrem  quaerere  et  amare  contemsit. 
+io  12  Tu  autem  quia  veram  requiem  quae  post  hanc  vitam 
+Christianis  promittitur,  quaeris,  etiam  hic  eam  inter  amarissi¬ 
+mas  vitae  huius  molestias  suavem  iucundamque  gustabis,  si 
+eius  qui  eam  promisit,  praecepta  dilexeris.  Cito  enim  senties 
+dulciores  esse  iustitiae  fructus  quam  iniquitatis,  et  verius 
+15  atque  iucundius  gaudere  hominem  de  bona  conscientia  inter 
+molestias,  quam  de  mala  inter  delicias :  quia  non  sic  venisti 
+coni  ungi  ecclesiae  dei,  ut  ex  ea  temporalem  aliquam  utili¬ 
+tatem  requiras. 
+
+17  i  Sunt  enim  qui  propterea  volunt  esse  Christiani, 
+20  ut  aut  promereantur  homines  a  quibus  temporalia  commoda 
+exspectant,  aut  quia  offendere  nolunt  quos  timent.  2  Sed 
+isti  reprobi  sunt:  et  si  ad  tempus  eos  portat  ecclesia,  sicut 
+area  usque  ad  tempus  ventilationis  paleam  sustinet;  si  non 
+se  correxerint  et  propter  futuram  sempiternam  requiem 
+25  Christiani  esse  coeperint,  in  fine  separabuntur.  Nec  sibi 
+blandiantur ,  quod  in  area  possunt  esse  cum  frumento  dei : 
+quia  in  horreo  cum  illo  non  erunt ,  sed  igni  debito  desti¬ 
+nantur.  3  Sunt  etiam  alii  meliore  quidem  spe,  sed  tamen  non 
+minore  periculo ,  qui  iam  deum  timent  et  non  irrident 
+30  christianum  nomen,  nec  simulato  corde  intrant  ecclesiam 
+
+
+10  f.  Vgl.  Hebr.  4,  10.  Apoc.  14,  13.  26  ff.  Vgl.  Mattii.  3,  12. 
+
+
+De  Catechizandis  Rudibus.  17,  3  —  7. 
+
+
+33 
+
+
+dei,  sed  in  ista  vita  exspectant  felicitatem,  ut  feliciores  sint 
+in  rebus  terrenis  quam  illi  qui  non  colunt  deum:  ideoque 
+cum  viderint  quosdam  sceleratos  et  impios  ista  saeculi 
+prosperitate  pollere  et  excellere,  se  autem  vel  minus  habere 
+ista  vel  amittere,  perturbantur,  tamquam  sine  causa  deum 
+colant,  et  facile  a  fide  deficiunt. 
+
+4  Qui  autem  propter  beatitudinem  sempiternam  et  per¬ 
+petuam  requiem  quae  post  hanc  vitam  sanctis  futura  pro¬ 
+mittitur,  vult  fieri  Christianus,  ut  non  eat  in  ignem  aeter¬ 
+num  cum  diabolo ,  sed  in  regnum  aeternum  intret  cum 
+Christo,  vere  ipse  Christianus  est;  cautus  in  omni  tentatione, 
+ne  prosperis  rebus  corrumpatur,  et  ne  frangatur  adversis, 
+et  in  abundantia  bonorum  terrenorum  modestus  et  temperans, 
+et  in  tribulationibus  fortis  et  patiens.  5  Qui  etiam  profi¬ 
+ciendo  perveniet  ad  talem  animum,  ut  plus  amet  deum 
+quam  timeat  gehennam:  ut  etiamsi  dicat  illi  deus:  Utere 
+deliciis  carnalibus  sempiternis,  et  quantum  potes  pecca,  nec 
+morieris,  nec  in  gehennam  mitteris,  sed  mecum  tantummodo 
+non  eris;  exhorrescat  et  omnino  non  peccet,  non  iam  ut  in 
+illud  quod  timebat,  non  incidat,  sed  ne  illum  quem  sic  amat, 
+offendat:  in  quo  uno  est  requies,  quam  oculus  non  vidit, 
+nec  auris  audivit,  nec  in  cor  hominis  adscendit,  quam  prae¬ 
+paravit  deus  diligentibus  eum. 
+
+6  De  qua  requie  significat  scriptura,  et  non  tacet  quod 
+ab  initio  mundi  ex  quo  fecit  deus  caelum  et  terram  et 
+omnia  quae  in  eis  sunt,  sex  diebus  operatus  est,  et  septimo 
+die  requievit.  7  Poterat  enim  omnipotens  et  uno  momento 
+temporis  omnia  facere.  Non  autem  laboraverat,  ut  re¬ 
+quiesceret,  quando:  Dixit,  et  facta  sunt:  mandavit, 
+
+8  f.  Vgl.  Hebr.  4,  10.  Apoc.  14,  13.  9f.  Matth.  25,  41. 
+
+10  f.  Matth.  25,  34.  14  Rom.  12,  12.  21  ff.  1.  Cor.  2,  9.  24  Vgl. 
+
+Gen.  1  und  2.  29  f.  Ps.  33,  9.  148,  5. 
+
+Augustinus.  2.  Ausg. 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+3 
+
+
+34 
+
+
+De  Catechizandis  Rudibus.  17,  7  —  18,  1, 
+
+
+et  creata  sunt;  sed  ut  significaret,  quia  post  sex  aetates 
+mundi  huius,  septima  aetate  tamquam  septimo  die  requieturus 
+est  in  sanctis  suis:  quia  ipsi  in  illo  requiescent  post  omnia 
+bona  opera,  in  quibus  ei  servierunt,  quae  ipse  in  illis  ope- 
+5  ratur  qui  vocat  et  praecipit  et  delicta  praeterita  dimittit 
+et  iustificat  eum  qui  prius  erat  impius.  8  Sicut  autem  cum 
+illi  ex  dono  eius  bene  operantur,  recte  dicitur  ipse  operari : 
+sic,  cum  in  illo  requiescunt,  recte  dicitur  ipse  requiescere. 
+Nam  quod  ad  ipsum  adtinet,  pausationem  non  quaerit,  quia 
+io  laborem  non  sentit.  9  Fecit  autem  omnia  per  verbum  suum: 
+et  verbum  eius  ipse  Christus,  in  quo  requiescunt  angeli  et 
+omnes  caelestes  mundissimi  spiritus  in  sancto  silentio. 
+10  Homo  autem  peccato  lapsus  perdidit  requiem,  quam  habe¬ 
+bat  in  eius  divinitate,  et  recipit  eam  in  eius  humanitate: 
+15  ideoque  opportuno  tempore,  quo  ipse  sciebat  oportere  fieri, 
+homo  factus  et  de  femina  natus  est.  A  carne  quippe  conta¬ 
+minari  non  poterat,  ipse  carnem  potius  mundaturus.  11  Ipsum 
+antiqui  sancti  venturum  in  revelatione  spiritus  cognoverunt 
+et  prophetaverunt:  et  sic  salvi  facti  sunt  credendo,  quia  ve- 
+20  niet,  sicut  nos  salvi  efficimur  credendo,  quia  venit:  ut  dili¬ 
+geremus  deum,  qui  sic  nos  dilexit,  ut  unicum  filium  suum 
+mitteret,  qui  humilitate  nostrae  mortalitatis  indutus  et  a 
+peccatoribus  et  pro  peccatoribus  moreretur.  12  Iam  enim 
+olim  ab  ineuntibus  saeculis  mysterii  huius  altitudo  prae- 
+25  figurari  praenuntiarique  non  cessat. 
+
+18  1  Quoniam  deus  omnipotens,  et  bonus  et  iustus  et 
+
+misericors,  qui  fecit  omnia  bona,  sive  magna  sive  parva,  sive 
+summa  sive  infima ;  sive  quae  videntur,  sicuti  sunt  caelum  et 
+
+
+3  u.  8  Hebr.  4,  10.  Apoc.  14,  13.  10  Joh.  1,  3.  Coi.  1,  16. 
+
+16  G-al.  4,  4.  19  Vgl.  1.  Petr.  1,  10.  21  f.  Joh.  3,  16.  Vgl. 
+
+1.  Joh.  4,  10.  22  Vgl.  Phil.  2,  7.  8.  27  ff.  Vgl.  Gen.  1. 
+
+
+De  Catechizandis  Rudibus.  18,  1  —  6. 
+
+
+35 
+
+
+terra  et  mare,  et  in  caelo  sol  et  luna,  et  cetera  sidera,  in  terra 
+autem  et  mari  arbores  et  frutices  et  animalia  suae  cuiusque 
+naturae,  et  omnia  corpora  vel  caelestia  vel  terrestria:  sive 
+quae  non  videntur,  sicuti  sunt  spiritus  quibus  corpora  vege¬ 
+tantur  et  vivificantur;  2  fecit  et  hominem  ad  imaginem 
+suam:  ut  quemadmodum  ipse  per  omnipotentiam  suam 
+praeest  universae  creaturae ,  sic  homo  per  intelligentiam 
+suam,  qua  etiam  creatorem  suum  cognoscit  et  colit,  prae- 
+esset  omnibus  terrenis  animalibus.  3  Fecit  illi  etiam  adiu- 
+torium  feminam:  non  ad  carnalem  concupiscentiam,  quando 
+quidem  nec  corruptibilia  corpora  tunc  habeant,  antequam 
+eos  mortalitas  invaderet  poena  peccati,  sed  ut  haberet  et 
+vir  gloriam  de  femina,  cum  ei  praeiret  ad  deum,  seque 
+illi  praeberet  imitandum  in  sanctitate  atque  pietate;  sicut 
+ipse  esset  gloria  dei,  cum  eius  sapientiam  sequeretur. 
+
+4  Itaque  constituit  eos  in  quodam  loco  perpetuae  beati- 
+tudinis,  quem  appellat  scriptura  paradisum;  praeceptumque 
+illis  dedit,  quod  si  non  transgrederentur,  in  illa  semper 
+immortalitatis  beatitudine  permanerent :  si  autem  trans¬ 
+grederentur,  supplicia  mortalitatis  expenderent.  5  Praescie¬ 
+bat  autem  deus  eos  transgressuros:  sed  tamen,  quia  conditor 
+est  et  effector  omnis  boni,  magis  eos  fecit,  quando  fecit  et 
+bestias,  ut  impleret  terram  bonis  terrenis.  Et  utique  melior 
+est  homo  etiam  peccator  quam  bestia.  6  Et  praeceptum 
+quod  non  erant  servaturi,  magis  dedit,  ut  essent  inexcusa¬ 
+biles,  cum  in  eos  vindicare  coepisset.  Quidquid  enim  homo 
+fecerit,  laudabilem  in  suis  factis  invenit  deum:  si  recte 
+egerit,  laudabilem  invenit  per  iustitiam  praemiorum ;  si  pecca¬ 
+verit,  laudabilem  invenit  per  iustitiam  suppliciorum;  si  pec- 
+
+
+9  f .  Vgl.  G-en.  2,  18.  13  ff.  1.  Cor.  11,  7.  17  Gen.  2,  8. 
+
+17  ff.  Vgl.  Gen.  2,  16.  17.  25  f.  Vgl.  Rom.  1,  20. 
+
+Q  * 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+36 
+
+
+De  Catechizandis  Rudibus.  18,  6  —  11. 
+
+
+cata  confessus  ad  recte  vivendum  redierit,  laudabilem  in¬ 
+venit  per  misericordiam  indulgentiarum.  7  Cur  ergo  non 
+faceret  deus  hominem,  quamvis  eum  peccaturum  praenosceret,, 
+cum  et  stantem  coronaret,  et  cadentem  ordinaret  et  surgen- 
+5  tem  adiuvaret,  semper  et  ubique  ipse  gloriosus  bonitate, 
+iustitia,  clementia?  maxime  quia  et  illud  praesciebat,  de 
+propagine  mortalitatis  eius  futuros  sanctos ,  qui  non  sibi 
+quaererent,  sed  creatori  suo  gloriam  darent,  et  eum  colendo 
+ab  omni  corruptione  liberati,  cum  angelis  sanctis  semper 
+10  vivere  et  beate  vivere  mererentur?  8  Qui  enim  hominibus 
+dedit  liberum  arbitrium,  ut  non  servili  necessitate,  sed  in¬ 
+genua  voluntate  deum  colerent,  dedit  etiam  angelis :  et  idea 
+nec  angelus,  qui  cum  spiritibus  aliis  satellitibus  suis  super¬ 
+biendo  deseruit  oboedientiam  dei  et  diabolus  factus  est,  ali- 
+15  quid  nocuit  deo,  sed  sibi.  9  Novit  enim  deus  ordinare  de¬ 
+serentes  se  animas ,  et  ex  earum  iusta  miseria  inferiores 
+partes  creaturae  suae  convenientissimis  et  congruentissimis 
+legibus  admirandae  dispensationis  ornare.  10  Itaque  nec 
+diabolus  deo  nocuit,  quia  vel  ipse  lapsus  est,  vel  hominem 
+20  seduxit  ad  mortem*  nec  ipse  homo  in  aliquo  minuit  veri¬ 
+tatem  aut  potestatem  aut  beatitatem  conditoris  sui,  quia 
+coniugi  suae  seductae  a  diabolo ,  ad  id  quod  deus  prohi¬ 
+buerat,  propria  voluntate  consensit.  11  Iustissimis  enim  dei 
+legibus  omnes  damnati  sunt,  deo  glorioso  per  aequitatem 
+25  vindictae,  ipsi  ignominiosi  per  turpitudinem  poenae:  ut  et 
+homo  a  suo  creatore  aversus  victus  diabolo  subderetur,  et 
+diabolus  homini  ad  creatorem  suum  converso  vincendus 
+proponeretur;  ut  quicunque  diabolo  usque  in  finem  consen- 
+
+
+7  f.  Joh.  7,  18.  15  Ygl.  Retractationes  II,  14:  „Convenientius 
+
+diceretur,  deserentes  se  spiritus,  quoniam  de  angelis  agebatur.  “ 
+19  ff.  Ygl.  Gen.  3,  1  ff.  28  f.  Ygl.  Matth.  25,  41. 
+
+
+De  Catechizandis  Rudibus.  18,  11  —  19,  6. 
+
+
+37 
+
+
+tirent,  cum  illo  irent  in  aeterna  supplicia,  quicunque  autem 
+humiliarent  se  deo  et  per  eius  gratiam  diabolum  vincerent 
+aeterna  praemia  mererentur. 
+
+19  i  Neque  hoc  nos  movere  debet,  quia  multi  diabolo 
+consentiunt ,  et  pauci  deum  sequuntur :  quia  et  frumentum  5 
+in  comparatione  palearum  valde  pauciorem  habet  numerum. 
+Sed  sicut  agricola  novit  quid  faciat  de  ingenti  acervo  paleae, 
+sic  nihil  est  deo  multitudo  peccatorum,  qui  novit  quid  de 
+illis  agat,  ut  administratio  regni  eius  ex  nulla  parte  turbe¬ 
+tur  atque  turpetur.  Nec  ideo  putandus  est  vicisse  diabolus,  10 
+quia  secum  plures,  cum  quibus  a  paucis  vinceretur,  ad- 
+traxit.  2  Duae  itaque  civitates,  una  iniquorum,  altera  sancto¬ 
+rum,  ab  initio  generis  humani  usque  in  finem  saeculi  perdu- 
+€untur ,  nunc  permixtae  corporibus ,  sed  voluntatibus  se¬ 
+paratae,  in  die  vero  iudicii  etiam  corpore  separandae.  15 
+3  Omnes  enim  homines  amantes  superbiam  et  temporalem 
+dominationem  cum  vano  typho  et  pompa  arrogantiae,  omnes- 
+que  spiritus  qui  talia  diligunt,  et  gloriam  suam  subiectione 
+hominum  quaerunt,  simul  una  societate  devincti  sunt;  sed 
+et  si  saepe  adversum  se  pro  his  rebus  dimicant,  pari  tamen  20 
+pondere  cupiditatis  in  eamdem  profunditatem  praecipitantur, 
+et  sibi  morum  et  meritorum  similitudine  coniunguntur.  4  Et 
+rursus  omnes  homines  et  omnes  spiritus  humiliter  dei  glo¬ 
+riam  quaerentes,  non  suam,  et  eum  pietate  sectantes,  ad 
+unam  pertinent  societatem.  5  Et  tamen  deus  misericordissi-  25 
+mus,  et  super  impios  homines  patiens  est,  et  praebet  eis 
+paenitentiae  atque  correctionis  locum. 
+
+6  Nam  et  quod  omnes  diluvio  delevit,  excepto  uno  iusto 
+cum  suis ,  quos  in  arca  servari  voluit ,  noverat  quidem, 
+quod  non  se  correcturi  essent:  verumtamen,  cum  per  cen-  30 
+
+
+24  Joh.  7,  18.  27  ff.  Vgl.  Gen.  6. 
+
+
+38 
+
+
+De  Catechizandis  Rudibus.  19,  6  —  11. 
+
+
+tum  annos  arca  fabricata  est,  praedicabatur  utique  eis  ira 
+dei  ventura  super  eos:  et  si  converterentur  ad  deum,  par¬ 
+ceret  eis ;  sicut  pepercit  postea  Ninive  civitati  agenti  paeni- 
+tentiam,  cum  ei  per  prophetam  futurum  interitum  prae- 
+5  nuntiasset.  7  Hoc  autem  facit  deus,  etiam  illis  quos  novit 
+in  malitia  perseveraturos  dans  paenitendi  spatium ,  ut 
+nostram  patientiam  exerceat  et  informet  exemplo  suo:  quo 
+noverimus,  quantum  nos  oporteat  tolerabiliter  malos  sustinere, 
+cum  ignoremus,  quales  postea  futuri  sunt,  quando  ille  parcit 
+io  et  sinit  eos  vivere,  quem  nihil  futurorum  latet.  8  Praenuntia¬ 
+batur  tamen  etiam  diluvii  sacramento,  quo  per  lignum  iusti 
+liberati  sunt,  futura  ecclesia,  quam  rex  eius  et  deus  Christus 
+mysterio  suae  crucis  ab  huius  saeculi  submersione  suspendit. 
+9  Neque  enim  deus  ignorabat,  quod  etiam  ex  illis  qui  fuerant 
+15  in  arca  servati,  nasci  turi  erant  mali,  qui  faciem  terrae 
+iniquitatibus  iterum  implerent:  sed  tamen  et  exemplum  fu¬ 
+turi  iudicii  dedit,  et  sanctorum  liberationem  ligni  mysterio 
+praenuntiavit,  io  Nam  et  post  haec  non  cessavit  repullulare 
+malitia  per  superbiam  et  libidines  et  illicitas  impietates,  cum 
+20  homines,  deserto  creatore  suo,  non  solum  ad  creaturam 
+quam  deus  condidit,  lapsi  sunt,  ut  pro  deo  colerent  quod 
+fecit  deus:  sed  etiam  ad  opera  manuum  hominum  et  ad 
+fabrorum  artificia  curvaverunt  animas  suas ,  ubi  de  illis 
+turpius  diabolus  et  daemonia  triumpharent ;  quae  se  in  tali- 
+25  bus  figmentis  adorari  venerarique  laetantur,  dum  errores 
+suos  humanis  erroribus  pascunt. 
+
+n  Neque  tunc  sane  defuerunt  iusti,  qui  deum  pie  quae¬ 
+rerent,  et  superbiam  diaboli  vincerent,  cives  illius  sanctae 
+civitatis,  quos  regis  sui  Christi  ventura  humilitas  per  spiri- 
+
+
+lf.  Ygl.  Hebr.  11,  7.  2.  Petr.  2,  5.  3ff.  Ygl.  Jon.  3,  10.  4. 
+11  Ygl.  Gal.  3,  13.  20  ff.  Ygl.  Rom.  1,  25.  AG.  17,  29. 
+
+
+De  Catkchizandis  Rudibus.  19,  11  —  17. 
+
+
+39 
+
+
+tum  revelata  sanavit.  Ex  quibus  Abraham  pius  et  fidelis 
+dei  servus  electus  est ,  cui  demonstraretur  sacramentum 
+filii  dei,  ut  propter  imitationem  fidei  omnes  fideles  omnium 
+gentium  filii  eius  futuri  dicerentur. 
+
+12  Ex  illo  natus  est  populus,  a  quo  unus  deus  verus 
+coleretur,  qui  fecit  caelum  et  terram;  cum  ceterae  gentes 
+simulacris  et  daemoniis  servirent,  ia  In  eo  plane  populo 
+multo  evidentius  futura  ecclesia  figurata  est.  Erat  enim 
+ibi  multitudo  carnalis,  quae  propter  visibilia  beneficia  cole¬ 
+bat  deum.  Erant  ibi  autem  pauci  futuram  requiem  cogi¬ 
+tantes  et  caelestem  patriam  requirentes,  quibus  prophetando 
+revelabatur  futura  humilitas  dei,  regis,  et  domini  nostri 
+Iesu  Christi,  ut  per  eam  fidem  ab  omni  superbia  et  tumore 
+sanarentur.  i4  Horum  sanctorum  qui  praecesserunt  tem¬ 
+pore  nativitatem  domini,  non  solum  sermo,  sed  etiam  vita 
+et  coniugia  et  filii  et  facta  prophetia  fuit  huius  temporis, 
+quo  per  fidem  passionis  Christi  ex  gentibus  congregatur 
+ecclesia.  15  Per  illos  sanctos  patriarchas  et  prophetas  carnali 
+populo  Israel,  qui  postea  etiam  Iudaei  appellati  sunt,  et 
+visibilia  beneficia  ministrabantur  quae  carnaliter  a  domino 
+desiderabant,  et  coercitiones  poenarum  corporalium,  quibus 
+pro  tempore  terrerentur,  sicut  eorum  duritiae  congruebat. 
+
+16  Et  in  his  tamen  omnibus  mysteria  spiritalia  significabantur, 
+quae  ad  Christum  et  ecclesiam  pertinerent:  cuius  ecclesiae 
+membra  erant  etiam  illi  sancti,  quamvis  in  hac  vita  fuerint, 
+antequam  secundum  carnem  Christus  dominus  nasceretur. 
+
+17  Ipse  enim  unigenitus  dei  filius,  verbum  patris,  aequale  et 
+coaeternum  patri,  per  quod  facta  sunt  omnia,  homo  propter 
+
+If.  Vgl.  Gen.  18,  3.  1  ff.  Vgl.  Gen.  12,  1  ff.  2f.  Eph.  1,  9. 
+
+4  Gal.  3,  7.  5  Joh.  17,  3.  6  Ps.  124,  8.  15  f.  Vgl.  Hos.  1,  2  ff. 
+
+Jes.  8,  1  ff.  27  Joh.  3,  16.  27  Joh.  1,  1.  28  Joh.  1,  3. 
+
+Coi.  1,  16. 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+40  De  Catechizandis  Rudibus.  19,  17  —  20,  4. 
+
+nos  factus  est,  ut  totius  ecclesiae  tamquam  totius  corporis 
+caput  esset,  is  Sed  velut  totus  homo  dum  nascitur,  etiamsi 
+manum  in  nascendo  praemittat,  tamen  universo  corpori  sub 
+capite  coniuncta  atque  compacta  est,  quemadmodum  etiam 
+5  nonnulli  in  ipsis  patriarchis  ad  huius  ipsius  rei  signum 
+manu  praemissa  nati  sunt:  ita  omnes  sancti  qui  ante  domini 
+nostri  Iesu  Christi  nativitatem  in  terris  fuerunt,  quamvis 
+ante  nati  sunt,  tamen  universo  corpori,  cuius  ille  caput  est, 
+sub  capite  cohaeserunt. 
+
+io  20  i  Populus  ergo  ille  delatus  in  Aegyptum,  servivit 
+regi  durissimo ,  et  gravissimis  laboribus  eruditus  quaesivit 
+liberatorem  deum:  et  missus  est  eis  unus  de  ipso  populo, 
+sanctus  dei  servus  Moyses,  qui  in  virtute  dei  magnis  mira¬ 
+culis  terrens  tunc  impiam  gentem  Aegyptiorum,  eduxit  inde 
+15  populum  dei  per  mare  rubrum;  ubi  discedens  aqua  viam 
+praebuit  transeuntibus :  Aegyptii  autem ,  cum  eos  perse¬ 
+querentur,  redeuntibus  in  se  fluctibus  demersi  exstincti  sunt. 
+2  Ita  quemadmodum  per  diluvium  aquis  terra  purgata  est  a 
+nequitia  peccatorum,  qui  tunc  in  illa  inundatione  deleti  sunt, 
+20  et  iusti  evaserunt  per  lignum :  sic  ex  Aegypto  exiens  popu¬ 
+lus  dei,,  per  aquas  iter  invenit,  quibus  ipsorum  hostes  con- 
+sumti  sunt.  3  Nec  ibi  defuit  ligni  sacramentum.  Nam 
+virga  percussit  Moyses,  ut  illud  miraculum  fieret.  Utrumque 
+signum  est  sancti  baptismi,  per  quod  fideles  in  novam  vitam 
+25  transeunt,  peccata  vero  eorum  tamquam  inimici  delentur 
+atque  moriuntur.  4  Apertius  autem  Christi  passio  in  illo 
+populo  figurata  est,  cum  iussi  sunt  ovem  occidere  et 
+manducare,  et  de  sanguine  eius  postes  suos  signare,  et  hoc 
+celebrare  omni  anno,  et  appellare  pascha  domini.  Mani- 
+
+
+1  f.  Coi.  1,  18.  3  f.  Vgl.  1.  Cor.  12,  12.  10  f.  Vgl.  Exod.  1,  8  ff. 
+
+12  ff.  Vgl.  Exod.  7,  1  ff.  14  ff.  Vgl.  Exod.  14,  18  ff.  27  ff.  Vgl. 
+Exod.  12,  3  ff. 
+
+
+De  Catechizandis  Rudibus.  20,  4  —  8.  41 
+
+festissime  quippe  prophetia  de  domino  Iesu  Christo  dicit, 
+quia  tamquam  ovis  ad  immolandum  ductus  est. 
+Cuius  passionis  et  crucis  signo  in  fronte  hodie  tamquam  in 
+poste  signandus  es,  omnesque  Christiani  signantur. 
+
+5  Inde  per  desertum  populus  ille  ductus  est  per  quadra¬ 
+ginta  annos:  accepit  etiam  legem  digito  dei  scriptam,  quo 
+nomine  significatur  spiritus  sanctus,  sicut  in  evangelio  mani¬ 
+festissime  declaratur.  6  Neque  enim  deus  forma  corporis 
+definitus  est,  nec  sic  in  illo  membra  et  digiti  cogitandi  sunt, 
+quemadmodum  videmus  in  nobis:  sed  quia  per  spiritum 
+sanctum  dona  dei  sanctis  dividuntur,  ut  cum  diversa  pos¬ 
+sunt,  non  tamen  discedant  a  concordia  caritatis,  in  digitis 
+autem  maxime  apparet  quaedam  divisio,  nec  tamen  ab  uni¬ 
+tate  praecisio,  sive  propterea,  sive  propter  aliam  quam- 
+cumque  causam  spiritus  sanctus  appellatus  est  digitus  dei, 
+non  tamen  cum  hoc  audimus,  humani  corporis  forma  cogi¬ 
+tanda  est.  7  Accepit  ergo  ille  populus  legem  digito  dei 
+scriptam  in  tabulis  sane  lapideis,  ad  significandam  duritiam 
+cordis  illorum,  quod  legem  non  erant  impleturi.  Corpo¬ 
+ralia  quippe  dona  desiderantes  a  domino,  magis  carnali 
+timore  quam  spiritali  caritate  tenebantur:  legem  autem  non 
+implet  nisi  caritas,  s  Ideo  multis  sacramentis  visibilibus 
+onerati  sunt,  quo  servili  iugo  premerentur,  in  observatio¬ 
+nibus  ciborum  et  in  sacrificiis  animalium  et  in  aliis  innu¬ 
+merabilibus  :  quae  tamen  signa  erant  rerum  spiritalium  ad 
+dominum  Iesum  Christum  et  ad  ecclesiam  pertinentium ; 
+quae  tunc  a  paucis  sanctis  et  intelligebantur  ad  fructum 
+salutis  et  observabantur  ad  congruentiam  temporis ,  a 
+
+
+2  Jes.  53,  7.  5f.  Vgl.  Exod.  16,  35.  6  Vgl.  Exod.  31,  18. 
+
+7  Luc.  11,  20.  Matth.  12,  28.  18  f.  Matth.  19,  8.  21  f.  Rom.  13,  10. 
+
+23  Gal.  5,  1. 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+42 
+
+
+De  Catechizandis  Rudibus.  20,  8  —  21,  1. 
+
+
+multitudine  vero  carnalium  tantummodo  observabantur,  non 
+intelligebantur. 
+
+9  Per  multa  itaque  et  varia  signa  rerum  futurarum, 
+quas  longum  est  omnes  commemorare,  et  eas  nunc  in 
+o  ecclesia  videmus  impleri,  perductus  est  ille  populus  ad  terram 
+promissionis,  ubi  temporaliter  carnaliterque  regnaret  pro 
+modo  desiderii  sui:  quod  tamen  regnum  terrenum  regni 
+spiritalis  imaginem  gessit,  io  Ibi  Ierusalem  condita  est  famo¬ 
+sissima  civitas  dei,  serviens  in  signo  liberae  civitatis,  quae 
+io  caelestis  Ierusalem  dicitur,  quod  verbum  est  hebraeum,  et 
+interpretatur  visio  pacis.  Cuius  cives  sunt  omnes  sanctifi- 
+cati  homines  qui  fuerunt,  et  qui  sunt,  et  qui  futuri  sunt;  et 
+omnes  sanctificati  spiritus,  etiam  quicumque  in  excelsis  cae¬ 
+lorum  partibus  pia  devotione  obtemperant  deo,  nec  imitan- 
+15  tur  impiam  diaboli  superbiam  et  angelorum  eius,  n  Huius 
+civitatis  rex  est  dominus  Iesus  Christus,  verbum  dei  quo 
+reguntur  summi  angeli,  et  verbum  hominem  assumens,  ut 
+eo  regerentur  et  homines,  qui  simul  omnes  cum  illo  in 
+aeterna  pace  regnabunt.  12  Ad  huius  regis  praefigurationem 
+20  in  illo  terreno  regno  populi  Israel  maxime  eminuit  rex 
+David,  de  cuius  semine  secundum  carnem  veniret  verissi¬ 
+mus  rex  noster  dominus  Iesus  Christus,  qui  est  super  omnia 
+deus  benedictus  in  saecula.  Multa  in  illa  terra  promissionis 
+gesta  sunt  in  figuram  venturi  Christi  et  ecclesiae,  quae  in 
+25  sanctis  libris  paulatim  discere  poteris. 
+
+21  1  Post  aliquot  tamen  generationes  ostendit  alium 
+
+typum  ad  rem  maxime  pertinentem.  Nam  captivata  est 
+illa  civitas,  et  multa  pars  eius  educta  in  Babyloniam.  Sicut 
+autem  Ierusalem  significat  civitatem  societatemque  sanctorum, 
+
+
+10  Hebr.  12,  22. 
+22  f.  Rom.  9,  5. 
+
+
+17  Vgl.  Joh.  1,  14. 
+
+
+21  Rom.  1,  3. 
+
+
+De  Catechizandis  Rudibus.  21,  1  —  8.  4S 
+
+sic  Babylonia  significat  civitatem  societatemque  iniquorum,, 
+quoniam  dicitur  interpretari  confusio,  2  De  quibus  duabus 
+civitatibus,  ab  exordio  generis  humani  usque  in  finem  sae¬ 
+culi  permixte  temporum  varietate  currentibus  et  ultimo 
+iudicio  separandis,  paulo  ante  iam  diximus.  3  Illa  ergo  5. 
+captivitas  Ierusalem  civitatis,  et  ille  populus  in  Babyloniam 
+ductus  ad  servitutem  ire  iubetur  a  domino  per  Ieremiam  illius 
+temporis  prophetam.  4  Et  exstiterunt  reges  Babyloniae,  sub 
+quibus  illi  serviebant,  qui  ex  eorum  occasione  commoti  quibus¬ 
+dam  miraculis  cognoscerent  et  colerent  et  coli  iuberent  unum  10 
+verum  deum,  qui  condidit  universam  creaturam.  5  Iussi  sunt 
+autem  et  orare  pro  eis,  a  quibus  captivi  tenebantur,  et  in 
+eorum  pace  pacem  sperare,  ad  gignendos  filios  et  domos 
+aedificandas  et  plantandos  hortos  et  vineas.  Post  septua¬ 
+ginta  autem  annos  promittitur  eis  ab  illa  captivitate  15. 
+liberatio. 
+
+6  Hoc  autem  totum  figurate  significabat  ecclesiam 
+Christi  in  omnibus  sanctis  eius,  qui  sunt  cives  Ierusalem 
+caelestis,  servituram  fuisse  sub  regibus  huius  saeculi.  7  Dicit 
+enim  et  apostolica  doctrina,  ut  omnis  anima  subii  - 20 
+mioribus  potestatibus  subdita  sit:  et  ut  reddan¬ 
+tur  omnibus  omnia,  cui  tributum  tributum,  cui 
+vectigal  vectigal;  et  cetera  quae  salvo  dei  nostri  cultu 
+constitutionis  humanae  principibus  reddimus:  quando  et  ipse 
+dominus,  ut  nobis  huius  sanae  doctrinae  praeberet  exemplum,  25- 
+pro  capite  hominis  quo  erat  indutus,  tributum  solvere  non 
+dedignatus  est.  8  Iubentur  autem  etiam  servi  christiani  et 
+boni  fideles  dominis  suis  temporalibus  aequanimiter  fide- 
+
+2  Gen.  11,  9.  7  Ygl.  Jerem.  27.  8  ff.  Ygl.  Dan.  2,  46  ff. 
+
+3,  28  ff.  4,  34.  6,  26  f.  13  f.  Ygl.  Jerem.  29,  7.  5.  6.  14  ff.  Ygl. 
+Jerem.  29,  10.  20  f.  Rom.  13,  1.  21  ff.  Rom.  13,  7.  24  ff.  Ygl. 
+Mattii.  17,  24  ff.  27  ff.  Coi.  3,  22.  Eph.  6,  5  f . 
+
+
+44 
+
+
+De  Catechizandis  Rcdibus.  21,  8  —  14. 
+
+
+literque  servire:  quos  iudicaturi  sunt,  si  usque  in  finem 
+iniquos  invenerint,  aut  cum  quibus  aequaliter  regnaturi 
+sunt,  si  et  illi  ad  verum  deum  conversi  fuerint.  9  Omnibus 
+tamen  praecipitur  servire  humanis  potestatibus  atque  terrenis, 
+5  quo  usque  post  tempus  praefinitum,  quod  significant  septua¬ 
+ginta  anni,  ab  istius  saeculi  confusione  tamquam  de  captivi¬ 
+tate  Babyloniae,  sicut  Ierusalem  liberetur  ecclesia.  10  Ex 
+cuius  captivitatis  occasione  ipsi  etiam  terreni  reges  desertis 
+idolis,  pro  quibus  persequebantur  Christianos,  unum  verum 
+10  deum  et  Christum  dominum  cognoverunt  et  colunt,  pro 
+quibus  apostolus  Paulus  iubet  orari,  etiam  cum  perseque¬ 
+rentur  ecclesiam.  11  Sic  enim  dicit:  Obsecro  itaque 
+primum  fieri  deprecationes,  adorationes,  inter¬ 
+pellationes,  gratiarum  actiones  pro  regibus, 
+15  pro  omnibus  hominibus,  et  omnibus,  qui  in  sub¬ 
+limitate  sunt,  ut  securam  et  tranquillam  vitam 
+agamus  cum  omni  pietate  etcastitate.  12  Itaque  per 
+ipsos  data  pax  est  ecclesiae,  quamvis  temporalis,  tranquillitas 
+temporalis  ad  aedificandas  spiritaliter  domos  et  plantandos 
+20  hortos  et  vineas.  Nam  et  ecce  te  modo  per  istum  sermonem 
+aedificamus  atque  plantamus.  Et  hoc  fit  per  totum  orbem 
+terrarum  cum  pace  regum  Christianorum,  sicut  item  dicit 
+apostolus:  Dei  agricultura,  dei  aedificatio  estis. 
+
+13  Et  post  annos  quidem  septuaginta,  quos  mystice  pro- 
+25  phetaverat  Ieremias,  ut  finem  temporum  praefiguraret,  tamen 
+ut  ipsa  figura  integraretur,  facta  est  in  Ierusalem  restitutio 
+aedificationis  templi  dei:  sed  quia  totum  figurate  agebatur, 
+non  erat  firma  pax  ac  libertas  reddita  Iudaeis.  Itaque 
+postea  a  Romanis  victi  sunt,  et  tributarii  facti.  14  Ex  illo 
+
+
+12  ff.  1.  Timoth.  2,  1.  2.  19  f.  Vgl.  Jerem.  29,  5.  28  1,  Cor.  3,  9. 
+
+19  f.  u.  25  Vgl.  Jerem.  29,  10. 
+
+
+45 
+
+
+De  Catechizandis  Rudibus.  21,  14  —  22,  3. 
+
+sane  tempore  ex  quo  terram  promissionis  acceperunt,  et 
+reges  habere  coeperunt,  ne  in  aliquo  regum  suorum  com¬ 
+pletum  esse  arbitrarentur,  quod  eis  liberator  Christus  pro¬ 
+mittebatur,  apertius  per  multas  prophetias  prophetatus  est 
+Christus,  non  solum  ab  ipso  David  in  libro  psalmorum,  sed  5 
+etiam  a  ceteris  et  magnis  et  sanctis  prophetis,  usque  ad  tempus 
+captivitatis  in  Babyloniam :  et  in  ipsa  captivitate  fuerunt 
+prophetae,  qui  venturum  dominum  Iesum  Christum  libera¬ 
+torem  omnium  prophetarent.  15  Et  postea  quam  templum 
+transactis  septuaginta  annis  restitutum  est,  tantas  pressuras  10 
+et  calamitates  a  regibus  gentium  Iudaei  perpessi  sunt,  ut 
+intelligerent  nondum  venisse  liberatorem,  quem  non  spirita¬ 
+liter  liberaturum  intelligebant ,  sed  pro  liberatione  carnali 
+desiderabant. 
+
+22  1  Peractis  ergo  quinque  aetatibus  saeculi,  quarum  15 
+
+prima  est  ab  initio  generis  humani,  id  est,  ab  Adam,  qui 
+primus  homo  factus  est,  usque  ad  Noe,  qui  fecit  arcam  in 
+diluvio,  inde  secunda  est  usque  ad  Abraham,  qui  pater 
+dictus  est  omnium  quidem  gentium,  quae  fidem  ipsius  imi¬ 
+tarentur;  sed  tamen  ex  propagine  carnis  suae  futuri  populi  20 
+Iudaeorum:  qui  ante  fidem  christianam  gentium  unus  inter 
+omnes  omnium  terrarum  populus  unum  verum  deum  coluit, 
+ex  quo  populo  salvator  Christus  secundum  carnem  veniret. 
+
+2  Isti  enim  articuli  duarum  aetatum  eminent  in  veteribus 
+libris :  reliquarum  autem  trium  in  evangelio  etiam  declaran-  25 
+tur,  cum  carnalis  origo  domini  Iesu  Christi  commemoratur. 
+Nam  tertia  est  ab  Abraham  usque  ad  David  regem :  quarta 
+a  David  usque  ad  illam  captivitatem,  qua  populus  dei  in 
+Babyloniam  transmigravit:  quinta  ab  illa  transmigratione 
+usque  ad  adventum  domini  nostri  Iesu  Christi ;  3  ex  cuius  30 
+
+
+18  f.  Ygl.  Gen.  17,  5f.  20  Ygl.  Gal.  3,  7.  25  ff.  Ygl.  Matth.  1,  17. 
+
+
+46 
+
+
+De  Catechizandis  Rudibus.  22,  3  —  7. 
+
+
+adventu  sexta  aetas  agitur:  ut  iam  spiritalis  gratia ,  quae 
+paucis  tunc  patriarchis  et  prophetis  nota  erat,  manifestaretur 
+omnibus  gentibus:  ne  quisquam  deum  nisi  gratis  coleret, 
+non  visibilia  praemia  servitutis  suae  et  praesentis  vitae  felici- 
+5  tatem,  sed  solam  vitam  aeternam,  in  qua  ipso  deo  frueretur, 
+ab  illo  desiderans;  ut  hac  sexta  aetate  mens  humana  reno¬ 
+vetur  ad  imaginem  dei,  sicut  sexta  die  homo  factus  est  ad 
+imaginem  dei.  4  Tunc  enim  et  lex  impletur,  dum  non 
+cupiditate  rerum  temporalium,  sed  caritate  illius  qui  prae- 
+io  cepit,  fiunt  quaecunque  praecepit.  Quis  autem  non  reda¬ 
+mare  affectet  iustissimum  et  misericordissimum  deum,  qui 
+prior  sic  amavit  iniustissimos  et  superbissimos  homines,  ut 
+propter  eos  mitteret  uniGum  filium,  per  quem  fecit  omnia, 
+qui  non  sui  mutatione,  sed  hominis  assumtione  homo  factus, 
+is  non  solum  cum  eis  vivere,  sed  etiam  pro  eis  et  ab  eis 
+posset  occidi? 
+
+5  Itaque  novum  testamentum  hereditatis  sempiternae 
+manifestans,  in  quo  renovatus  homo  per  gratiam  dei  ageret 
+novam  vitam,  hoc  est  vitam  spiritalem;  ut  vetus  ostenderet 
+20  primum,  in  quo  carnalis  populus  agens  veterem  hominem, 
+exceptis  paucis  intelligentibus  patriarchis  et  prophetis  et 
+nonnullis  latentibus  sanctis,  carnaliter  vivens  carnalia  praemia 
+desiderabat  a  domino  deo,  et  in  figura  spiritalium  bonorum 
+accipiebat :  6  omnia  ergo  bona  terrena  contemsit  homo 
+25  factus  dominus  Christus,  ut  contemnenda  monstraret;  et 
+omnia  terrena  sustinuit  mala,  quae  sustinenda  praecipiebat : 
+ut  neque  in  illis  quaereretur  felicitas,  neque  in  istis  infeli¬ 
+citas  timeretur,  i  Natus  enim  de  matre,  quae  quamvis  a 
+viro  intacta  conceperit  semperque  intacta  permanserit,  virgo 
+
+7  f.  Vgl.  Gfen.  1,  26.  27.  8ff.  Rom.  13,  10.  12  1.  Joh.  4,  19. 
+13  1.  Joh.  4,  9  f.  Vgl.  Joh.  3,  16.  13  f.  Joh.  1,  3.  14  f.  Ygl. 
+
+Phil.  2.  6  f.  19  Ygl.  Rom.  6,  4.  29  ff.  Ygl.  Matth.  1,  18. 
+
+
+De  Catechizandis  Rudibus.  22,  7  —  28,  2. 
+
+
+47 
+
+
+concipiens,  virgo  pariens,  virgo  moriens,  tamen  fabro  despon¬ 
+sata  erat ,  omnem  typhum  carnalis  nobilitatis  exstinxit, 
+s  Natus  etiam  in  civitate  Bethleem,  quae  inter  omnes  Iudaeae 
+civitates  ita  erat  exigua,  ut  hodieque  villa  appelletur,  noluit 
+quemquam  de  cuiusquam  terrenae  civitatis  sublimitate 
+gloriari.  9  Pauper  etiam  factus  est  cuius  sunt  omnia,  et 
+per  quem  creata  sunt  omnia:  ne  quisquam,  cum  in  eum 
+crederet,  de  terrenis  divitiis  auderet  extolli.  Noluit  rex 
+ab  hominibus  fieri,  quia  humilitatis  ostendebat  viam  miseris, 
+quos  ab  eo  superbia  separaverat:  quamvis  sempiternum  eius 
+regnum  universa  creatura  testetur.  10  Esurivit  qui  omnes 
+pascit,  sitivit  per  quem  creatur  omnis  potus,  et  qui  spiritaliter 
+panis  est  esurientium  fonsque  sitientium :  ab  itinere  terrestri 
+fatigatus  est,  qui  se  ipsum  nobis  viam  fecit  in  caelum :  velut 
+obmutuit  et  obsurduit  coram  conviciantibus,  per  quem  mutus 
+locutus  est  et  surdus  audivit:  vinctus  est,  qui  de  infirmita¬ 
+tum  vinculis  solvit:  flagellatus  est,  qui  omnium  dolorum 
+flagella  de  hominum  corporibus  expulit:  crucifixus  est,  qui 
+cruciatus  nostros  finivit:  mortuus  est,  qui  mortuos  suscitavit. 
+Sed  et  resurrexit  numquam  moriturus,  ne  ab  illo  quisquam 
+sic  disceret  mortem  contemnere,  quasi  numquam  victurus. 
+
+23  1  Inde  confirmatis  discipulis,  conversatus  cum  eis 
+
+quadraginta  diebus,  eisdem  spectantibus  adscendit  in  caelum ; 
+et  completis  a  resurrectione  quinquaginta  diebus  misit  eis 
+spiritum  sanctum,  (promiserat  enim,)  per  quem  diffusa  cari¬ 
+tate  in  cordibus  eorum,  non  solum  sine  onere,  sed  etiam 
+cum  iucunditate  legem  possent  implere.  2  Quae  data  est 
+Iudaeis  in  decem  praeceptis,  quod  appellant  decalogum. 
+
+4  Ygl.  Micha  5,  2.  6  2.  Cor.  8,  9.  7  Coi.  1,  16. 
+
+13  Vgl.  Joh.  6,  51.  4,  10  ff.  14  Joh.  14,  6.  15  Ygl.  Jes.  53,  7. 
+17  f.  Ygl.  Jes.  53,  4.  22  Ygl.  AD.  1,  3.  23  Vgl.  AG.  1,  9. 
+
+24  Vgl.  AG.  2,  1.  25  Vgl.  AG.  1,  8.  25  f.  Rom.  5,  5. 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+48 
+
+
+De  Catechizandis  Rudibus.  23,  2  —  5. 
+
+
+Quae  rursus  ad  duo  rediguntur,  ut  diligamus  deum  ex  toto 
+corde,  ex  tota  anima,  ex  tota  mente  ;  et  diligamus  proximum 
+sicut  nos  ipsos.  Nam  in  his  duobus  praeceptis  totam  legem 
+prophetasque  pendere,  ipse  dominus  et  dixit  in  evangelio 
+5  et  suo  manifestavit  exemplo.  3  Nam  et  populus  Israel  ex 
+die  quo  primum  pascha  in  imagine  celebrarunt,  ovem  occi¬ 
+dentes  et  manducantes,  cuius  sanguine  postes  eorum  ad  sa¬ 
+lutis  tutelam  signati  sunt;  ex  ipso  ergo  die  quinquagesimus 
+dies  impletus  est,  et  legem  acceperunt  scriptam  digito  dei, 
+10  quo  nomine  iam  diximus  significari  spiritum  sanctum:  sicut 
+post  domini  passionem  et  resurrectionem,  quod  est  verum 
+pascha,  quinquagesimo  die  ipse  spiritus  sanctus  discipulis 
+missus  est:  non  iam  lapideis  tabulis  corda  dura  significans; 
+4  sed  cum  essent  unum  in  locum  congregati  in  ipsa  Ieru- 
+15  salem,  factus  est  subito  de  caelo  sonus,  quasi  ferretur  flatus 
+vehemens,  et  visae  sunt  illis  linguae  divisae  quasi  ignis,  et 
+coeperunt  linguis  loqui,  ita  ut  omnes,  qui  ad  illos  venerant, 
+suam  linguam  quisque  cognosceret:  (ad  illam  enim  civitatem 
+ex  omni  terra  conveniebant  Iudaei ,  quacumque  dispersi 
+20  erant,  et  diversas  linguas  gentium  diversarum  didicerant:) 
+deinde  cum  tota  fiducia  Christum  praedicantes,  in  eius  no¬ 
+mine  multa  signa  faciebant ,  ita  ut  quendam  mortuum 
+transeunte  Petro  umbra  eius  tetigerit,  et  resurrexerit. 
+
+5  Sed  cum  viderent  Iudaei  tanta  signa  fieri  in  eius 
+25  nomine,  quem  partim  per  invidiam,  partim  per  errorem 
+crucifixerunt,  alii  irritati  sunt  ad  persequendos  praedicatores 
+eius  apostolos,  alii  vero  id  ipsum  amplius  admirantes,  quod 
+in  eius  nomine,  quem  veluti  a  se  oppressum  et  victum 
+
+1  ff.  Mattii.  22,  37  ff.  3  f.  Matth.  22,  40.  5  ff.  Vgl.  Exod.  12,  1  ff. 
+8  f.  Vgl.  Exod.  12,  3.  19,  1.  9  Vgl.  Exod.  31,  18.  10  Cap.  20,  5  f. 
+11  f.  Vgl.  1.  Cor.  5,  7.  14  ff.  Vgl.  AG.  2,  1  ff.  22  Vgl.  AC.  2,  43. 
+
+23  Vgl.  AG.  5,  15. 
+
+
+De  Catechizandis  Rudibus.  23,  5  —  10. 
+
+
+49 
+
+
+riserant ,  tanta  miracula  fierent,  paeni tendo  conversi  credi¬ 
+derunt  in  eum  millia  Iudaeorum.  6  Non  erant  iam  illi 
+temporalia  beneficia  terrenumque  regnum  desiderantes  a 
+deo,  nec  promissum  regem  Christum  carnaliter  exspectantes : 
+sed  immortaliter  intelligentes  et  diligentes  eum  qui  pro  5 
+ipsis  ab  ipsis  tanta  mortaliter  pertulit,  et  eis  usque  ad  sui 
+sanguinis  peccata  donavit,  et  immortalitatem  a  se  sperandam 
+et  desiderandam  exemplo  suae  resurrectionis  ostendit.  7  Ita¬ 
+que  iam  veteris  hominis  terrena  desideria  mortificantes,  et 
+spiritalis  vitae,  novitate  flagrantes,  sicut  praeceperat  in  10 
+evangelio  dominus,  vendebant  omnia  quae  habebant  et 
+pretia  rerum  suarum  ante  pedes  apostolorum  ponebant,  ut 
+ipsi  distribuerent  unicuique,  sicut  cuique  opus  erat;  viven- 
+tesque  in  christiana  dilectione  concorditer,  non  dicebant 
+aliquid  suum,  sed  erant  illis  omnia  communia,  et  anima  et  15 
+cor  unum  in  deum.  8  Deinde  etiam  ipsi  a  Iudaeis  carna¬ 
+libus  civibus  carnis  suae  persecutionem  passi  atque  dispersi 
+sunt,  ut  latius  Christus  eorum  dispersione  praedicaretur, 
+et  imitarentur  etiam  ipsi  patientiam  domini  sui:  quia,  qui 
+eos  mansuetus  passus  fuerat,  mansuefactos  pro  se  pati  20 
+iubebat. 
+
+9  Ex  ipsis  sanctorum  persecutoribus  fuerat  etiam  aposto¬ 
+lus  Paulus,  et  in  Christianos  maxime  saeviebat:  sed  postea 
+credens  et  apostolus  factus,  missus  est,  ut  gentibus  evangelium 
+praedicaret,  graviora  perpessus  pro  nomine  Christi,  quam  25 
+fecerat  contra  nomen  Christi.  10  Ecclesias  autem  constituens 
+per  omnes  gentes  qua  evangelium  seminabat,  impense  prae¬ 
+cipiebat,  ut  quoniam  ipsi  ex  idolorum  cultu  venientes,  et  ad 
+
+1  f.  Vgl.  AG.  2,  41.  4,  4.  11  Matth.  19,  21.  Vgl.  Luc.  18,  22. 
+
+12,  33.  11  ff.  Vgl.  AG.  2,  45.  14  f.  Ygl.  AG.  2,  42.  44.  15  f.  Ygl. 
+AG.  4,  32.  17  f.  Ygl.  AG.  8,  4.  22  f.  Ygl.  AG.  8,  3.  9,  1. 
+
+24  f.  Vgl.  AG.  9,  3  ff.  13,  2f. 
+
+Augustinus.  2.  Ausg. 
+
+
+4 
+
+
+50  Catechizandis  Rudibus.  23,  10  —  24,  4. 
+
+unum  deum  colendum  rudes,  non  facile  poterant  rebus  suis 
+venditis  et  distributis  servire  deo,  oblationes  facerent  in 
+pauperes  sanctorum,  qui  erant  in  ecclesiis  Iudaeae  quae 
+Christo  crediderant :  ii  ita  illos  tamquam  milites,  illos  autem 
+5  tamquam  stipendiarios  provinciales  apostolica  doctrina  con¬ 
+stituit  ;  inserens  eis  Christum  velut  lapidem  angularem,  sicut 
+per  prophetam  praenuntiatus  erat,  in  quo  ambo  quasi  parietes 
+de  diverso  venientes,  de  ludaeis  videlicet  atque  gentibus, 
+germana  caritate  copularentur.  12  Sed  postea  graviores  et 
+10  crebriores  persecutiones  ex  incredulis  gentibus  adversus 
+Christi  ecclesiam  surrexerunt,  et  implebatur  in  dies  singulos 
+verbum  domini  praedicentis:  Ecce  ego  mitto  vos  velut 
+oves  in  medio  luporum. 
+
+24  1  Sed  illa  vitis  quae  per  orbem  terrarum,  sicut  de  illa 
+15  prophetatum  et  ab  ipso  domino  praenuntiatum  erat,  fructu¬ 
+osos  palmites  diffundebat,  tanto  pullulabat  amplius,  quanto 
+uberiore  martyrum  sanguine  rigabatur.  2  Quibus  per  omnes 
+terras  innumerabiliter  pro  fidei  veritate  morientibus ,  etiam 
+ipsa  persequentia  regna  cesserunt  et  ad  Christum  cognoscen- 
+20  dum  atque  venerandum  fracta  superbiae  cervice  conversa 
+sunt.  3  Oportebat  autem,  ut  eadem  vitis,  sicut  a  domino 
+idemtidem  praedictum  erat,  putaretur  et  ex  ea  praecideren¬ 
+tur  infructuosa  sarmenta,  quibus  haereses  et  schismata  per 
+loca  facta  sunt,  sub  Christi  nomine,  non  ipsius  gloriam, 
+25  sed  suam  quaerentium,  per  quorum  adversitates  magis  magis¬ 
+que  exerceretur  ecclesia  et  probaretur  atque  illustraretur  et 
+doctrina  eius  et  patientia.  4  Omnia  ergo  haec,  sicut  tanto 
+ante  praedicta  legimus,  sic  et  facta  cognoscimus:  et  quem¬ 
+admodum  primi  Christiani ,  quia  nondum  ista  provenisse 
+
+
+2  f.  Ygl.  AGr.  24,  17.  1.  Cor.  16.  2.  Cor.  8.  9.  6f.  Jes.  28,  16. 
+
+12  f.  Matth.  10,  16.  Luc.  10,  3.  14  ff.  Ygl.  Joh.  15,  1  ff.  24  f.  Joh.  7,  18. 
+
+
+De  Catechizandis  Rudibus.  24,  4  —  25,  2. 
+
+
+51 
+
+
+videbant,  miraculis  movebantur,  ut  crederent;  sic  nos  quia 
+omnia  ista  ita  completa  sunt,  sicut  ea  in  libris  legimus,  qui 
+longe  ante  quam  haec  implerentur  conscripti  sunt,  ubi 
+omnia  futura  dicebantur,  et  praesentia  iam  videntur,  aedi¬ 
+ficamur  ad  fidem,  ut  etiam  illa,  quae  restant,  sustinentes 
+et  perseverantes  in  domino,  sine  dubitatione  ventura  creda¬ 
+mus.  5  Siquidem  adhuc  tribulationes  futurae  in  eisdem 
+scripturis  leguntur,  et  ipse  ultimus  iudicii  dies ,  ubi  omnes 
+cives  ambarum  illarum  civitatum  receptis  corporibus  surrec- 
+turi  sunt  et  rationem  vitae  suae  ante  tribunal  Christi  iudicis 
+reddituri.  6  Veniet  enim  in  claritate  potestatis  qui  prius 
+in  humilitate  humanitatis  venire  dignatus  est;  et  omnes  pios 
+ab  impiis  segregabit:  non  tantum  eis,  qui  in  eum  credere 
+omnino  noluerunt,  sed  etiam  eis  qui  frustra  et  infructuose 
+crediderunt  in  eum:  illis  daturus  regnum  secum  aeternum, 
+illis  autem  poenam  aeternam  cum  diabolo.  7  Sed  sicut 
+nullum  gaudium  rerum  temporalium  ex  aliqua  parte  simile 
+potest  inveniri  gaudio  vitae  aeternae,  quam  sancti  accepturi 
+sunt:  ita  nullus  cruciatus  poenarum  temporalium  potest 
+sempiternis  iniquorum  cruciatibus  comparari. 
+
+25  i  Itaque  frater  confirma  te  ipsum  in  eius  nomine 
+atque  adiutorio  cui  credis,  adversus  linguas  eorum  qui  fidem 
+nostram  irrident,  de  quibus  diabolus  seductoria  verba  lo¬ 
+quitur,  maxime  volens  irridere  fidem  resurrectionis.  2  Sed 
+ex  te  ipso  crede  futurum  te  esse  cum  fueris,  quando  cum 
+ante  non  fueris,  nunc  esse  te  vides.  Ubi  enim  erat  ista 
+moles  corporis  tui  et  ista  forma  membrorumque  compago 
+ante  paucos  annos,  priusquam  natus,  vel  etiam  priusquam 
+in  matris  utero  conceptus  esses,  ubi  erat  haec  moles  et  haec 
+statura  corporis  tui?  Nonne  de  occultis  huius  creaturae 
+
+
+4f.  Vgl.  Jud.  20.  10  ff.  Matth.  25,  31  ff.  Vgl.  Matth.  16,  27. 
+
+4* 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+52 
+
+
+De  Catechizandis  Rudibus.  25,  2  —  7. 
+
+
+secretis,  domino  deo  invisibiliter  formante,  processit  in  lucem, 
+certisque  aetatum  incrementis  in  istam  magnitudinem  for¬ 
+mamque  surrexit?  3  Numquid  ergo  difficile  est  deo,  qui 
+etiam  aggeres  nubium  ex  occulto  in  momento  contrahit,  et 
+5  contegit  caelum  in  ictu  temporis,  reddere  istam  quantitatem 
+corporis  tui  sicut  erat,  qui  eam  facere  potuit  sicut  non  erat? 
+4  Crede  ergo  fortiter  et  inconcusse,  quia  omnia  quae  viden¬ 
+tur  quasi  pereundo  humanis  oculis  subtrahi,  salva  et  integra 
+sunt  omnipotentiae  dei:  qui  ea,  cum  voluerit,  sine  ulla 
+10  mora  et  difficultate  reparabit,  ea  dumtaxat  quae  iustitia 
+eius  reparanda  esse  iudicat:  ut  in  his  corporibus  reddant 
+homines  factorum  suorum  rationem,  in  quibus  ea  fecerunt; 
+et  in  his  mereantur  aut  commutationem  caelestis  incorrup- 
+tionis  pro  meritis  pietatis,  aut  corruptibilem  corporis  con- 
+15  ditionem  pro  meritis  iniquitatis,  non  quae  morte  solvatur, 
+sed  quae  materiam  sempiternis  doloribus  praebeat. 
+
+3  Fuge  ergo  per  immobilem  fidem  et  mores  bonos,  fuge 
+frater  illa  tormenta,  ubi  nec  tortores  deficiunt,  nec  torti 
+moriuntur;  quibus  sine  fine  mors  est,  non  posse  in  crucia- 
+■20  tibus  mori.  6  Et  exardesce  amore  atque  desiderio  sempi¬ 
+ternae  vitae  sanctorum,  ubi  nec  operosa  erit  actio,  nec  re¬ 
+quies  desidiosa:  laus  erit  dei  sine  fastidio,  sine  defectu: 
+nullum  in  animo  taedium,  nullus  labor  in  corpore ;  nulla  in¬ 
+digentia,  nec  tua  cui  subveniri  desideres,  nec  proximi  cui 
+•25  subvenire  festines.  Omnes  deliciae  deus  erit  et  satietas 
+sanctae  civitatis  in  illo  et  de  illo  sapienter  beateque  viventis. 
+
+7  Efficiemur  enim,  sicut  ab  illo  promissum  speramus  et  ex¬ 
+spectamus,  aequales  angelis  dei,  et  cum  eis  pariter  illa 
+trinitate  perfruemur  iam  per  speciem,  in  qua  nunc  per  fidem 
+
+
+27  f.  Matth.  22,  30.  Mare.  12,  25.  Luc.  20,  36.  29  2.  Cor.  5,  7. 
+
+
+De  Catechizandis  Rudibus.  25,  7  —  13. 
+
+
+58 
+
+
+ambulamus.  Credimus  enim  quod  non  videmus,  ut  ipsis 
+meritis  fidei  etiam  videre  quod  credimus,  et  inhaerere 
+mereamur:  ut  aequalitatem  patris  et  filii  et  spiritus  sancti, 
+et  ipsius  trinitatis  unitatem,  quomodo  sint  haec  tria  unus 
+deus,  non  iam  verbis  fidei  et  strepentibus  syllabis  persone- 
+mus,  sed  contemplatione  purissima  et  ardentissima  in  illo 
+silentio  sorbeamus. 
+
+s  Haec  tene  fixa  in  corde  tuo,  et  invoca  deum  cui 
+credis,  ut  tueatur  te  adversus  tentationes  diaboli:  et  esto 
+cautus,  ne  tibi  aliunde  hostis  ille  subrepat,  qui  ad  solatium 
+malevolentissimum  damnationis  suae,  cum  quibus  damnetur 
+inquirit.  9  Non  enim  per  eos  solos  qui  christianum  nomen 
+oderunt,  et  dolent  eo  nomine  occupatum  esse  orbem  terra¬ 
+rum,  et  adhuc  simulacris  et  daemoniorum  curiositatibus  ser¬ 
+vire  desiderant,  audet  ille  tentare  Christianos:  sed  etiam 
+per  eos  quos  paulo  ante  commemoravimus,  de  unitate  eccle¬ 
+siae,  velut  putata  vite,  praecisos,  qui  haeretici  vel  schisma¬ 
+tici  dicuntur,  conatur  etiam  id  quidem  interdum,  io  Sed 
+tamen  id  etiam  aliquando  conatur  et  per  Iudaeos  tentare, 
+atque  seducere,  n  Sed  maxime  cavendum  est,  ne  per  homi¬ 
+nes  qui  sunt  in  ipsa  catholica  ecclesia,  quos  velut  paleam 
+usque  ad  tempus  ventilationis  suae  sustinet,  unusquisque 
+tentetur  et  decipiatur.  12  Propterea  enim  deus  patiens  est 
+in  illos,  ut  et  suorum  electorum  fidem  atque  prudentiam 
+per  illorum  perversitatem  exercendo  confirmet;  et  quia  de 
+numero  eorum  multi  proficiunt,  et  ad  placendum  deo  miserati 
+animas  suas  magno  impetu  convertuntur.  13  Non  enim 
+omnes  sibi  per  patientiam  dei  thesaurizant  iram  in  die  irae 
+iusti  iudicii  eius:  sed  multos  eadem  omnipotentis  patientia 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+1  Vgl.  Joh.  20,  29.  16  Vgl.  Cap.  24,  3.  28  f.  Rom.  2,  4.  5. 
+
+
+54 
+
+
+De  Catechizandis  Rudibus.  25,  13  —  19. 
+
+
+perducit  ad  saluberrimum  paenitentiae  dolorem.  Quod 
+donec  fiat,  exercetur  per  eos  illorum  qui  iam  rectam  viam 
+tenent,  non  solum  tolerantia,  sed  etiam  misericordia.  i4  Mul¬ 
+tos  ergo  visurus  es  ebriosos,  avaros,  fraudatores,  aleatores, 
+5  adulteros,  fornicatores ,  remedia  sacrilega  sibi  alligantes, 
+praecantatoribus  et  mathematicis  vel  quarumlibet  impiarum 
+artium  divinatoribus  deditos.  Animadversurus  etiam  quod 
+illae  turbae  impleant  ecclesias  per  dies  festos  Christianorum, 
+quae  implent  et  theatra  per  dies  sollemnes  paganorum;  et 
+io  haec  videndo  ad  imitandum  tentaberis.  15  Et  quid  dicam, 
+videbis,  quod  etiam  nunc  iam  utique  nosti:  non  enim 
+nescis  multos  qui  appellantur  Christiani,  haec  omnia  mala 
+operari,  quae  breviter  commemoravi.  Et  aliquando  fortasse 
+graviora  facere  homines  non  ignoras,  quos  nosti  appellari 
+15  Christianos.  16  Sed  si  hoc  animo  venisti,  ut  quasi  securus 
+talia  facias,  multum  erras;  nec  tibi  proderit  nomen  Christi, 
+cum  coeperit  ille  severissime  iudicare,  qui  prius  dignatus 
+est  misericordissime  subvenire.  17  Praedixit  enim  ista,  et 
+ait  in  evangelio :  Non  omnis,  qui  dicit  mihi,  domine, 
+20  domine,  intrabit  in  regnum  caelorum,  sed  is,  qui 
+facit  voluntatem  patris  mei.  Multi  dicent  mihi 
+in  illa  die,  domine,  domine,  in  nomine  tuo  man¬ 
+ducavimus  et  bibimus.  Omnibus  ergo ,  qui  in  talibus 
+operibus  perseverant,  damnatio  finis  est.  is  Cum  ergo  vi- 
+25  deris  multos  non  solum  haec  facere,  sed  etiam  defendere 
+atque  suadere,  tene  te  ad  legem  dei,  et  non  sequaris  prae¬ 
+varicatores  eius.  Non  enim  secundum  illorum  sensum,  sed 
+secundum  illius  veritatem  iudicaberis. 
+
+19  Coniungere  bonis,  quos  vides  amare  tecum  regem 
+30  tuum.  Multos  enim  inventurus  es,  si  et  tu  talis  esse 
+
+
+1  Ygl.  2.  Cor.  7,  10. 
+
+
+19  ff.  Matth.  7,  21  f.  Vgl.  Luc.  13,  26. 
+
+
+De  Catechizandis  Rudibus.  25,  19  —  26,  2.  55 
+
+coeperis.  Nam  si  in  spectaculis  cum  illis  esse  cupiebas  et 
+eis  inhaerere,  qui  tecum  vel  aurigam,  vel  venatorem,  vel 
+aliquem  histrionem  simul  amabant:  quanto  magis  te  delectare 
+debet  eorum  coniunctio  qui  tecum  amant  deum,  de  quo 
+numquam  erubescet  amator  eius,  quia  non  solum  ipse  non 
+potest  vinci,  sed  etiam  dilectores  suos  reddet  invictos.  20  Nec 
+tamen  etiam  in  ipsis  bonis,  qui  te  vel  praecedunt  vel  tibi 
+comitantur  ad  deum,  spem  tuam  collocare  debes,  quia  nec 
+in  te  ipso  debes,  quantumcumque  profeceris,  sed  in  illo  qui 
+eos  et  te  iustificando  tales  facit.  Securus  es  enim  de  deo, 
+quia  non  mutatur:  de  homine  autem  nemo  prudenter  se¬ 
+curus  est.  2i  Sed  si  illos  qui  nondum  iusti  sunt,  amare 
+debemus,  ut  sint:  quanto  ardentius  qui  iam  sunt,  amandi 
+sunt.  Sed  aliud  est  diligere  hominem,  aliud  spem  ponere 
+in  homine:  tantumque  interest,  ut  illud  deus  iubeat,  hoc 
+prohibeat.  22  Si  autem  aliquas  vel  insultationes  vel  tribu¬ 
+lationes  pro  nomine  Christi  passus  non  defeceris  a  fide,  nec 
+a  bona  via  deviaveris,  maiorem  mercedem  accepturus  es: 
+qui  autem  in  his  diabolo  cesserint,  etiam  minorem  perdunt. 
+5  Sed  humilis  esto  deo,  ut  non  te  permittat  tentari  ultra 
+vires  tuas. 
+
+26  1  His  dictis  interrogandus  est,  an  haec  credat,  at¬ 
+
+que  observare  desideret.  Quod  cum  responderit,  sollem¬ 
+niter  utique  signandus  est  et  ecclesiae  more  tractandus. 
+
+2  De  sacramento  sane  quod  accipit,  cum  ei  bene  com¬ 
+mendatum  fuerit,  signacula  quidem  rerum  divinarum  esse 
+visibilia,  sed  res  ipsas  invisibiles  in  eis  honorari;  nec  sic 
+habendam  esse  illam  speciem  benedictione  sanctificatam, 
+quemadmodum  habetur  in  usu  quolibet:  dicendum  etiam 
+quid  significet  et  sermo  ille  quem  audivit,  quid  in  illo  con- 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+30 
+
+
+20  f.  1.  Cor.  10,  13. 
+
+
+56 
+
+
+De  Catechizandis  Rudibus.  26,  2  —  7. 
+
+
+diat,  cuius  illa  res  similitudinem  gerit.  3  Deinde  monendus 
+est  ex  hac  occasione,  ut  si  quid  etiam  in  scripturis  audiat, 
+quod  carnaliter  sonet,  etiamsi  non  intelligit,  credat  tamen 
+spiritale  aliquid  significari,  quod  ad  sanctos  mores  futuram- 
+5  que  vitam  pertineat.  Hoc  autem  ita  breviter  discit,  ut 
+quidquid  audierit  ex  libris  canonicis,  quod  ad  dilectionem 
+aeternitatis  et  veritatis  et  sanctitatis,  et  ad  dilectionem 
+proximi  referre  non  possit,  figurate  dictum  vel  gestum  esse 
+credat;  atque  ita  conetur  intelligere,  ut  ad  illam  geminam 
+10  referat  dilectionem.  4  Ita  sane  ut  proximum  non  carna¬ 
+liter  intelligat,  sed  omnem  qui  cum  eo  in  illa  sancta  civi¬ 
+tate  potest  esse,  sive  iam,  sive  nondum  appareat:  et  ut  de 
+nullius  hominis  correctione  desperet,  quem  patientia  dei  videt 
+vivere,  non  ob  aliud,  sicut  apostolus  ait,  nisi  ut  adducatur 
+15  ad  paenitentiam. 
+
+5  Si  longus  tibi  videtur  iste  sermo,  quo  tamquam 
+praesentem  rudem  hominem  instruxi,  licet  ea  tibi  dicere 
+brevius,  longiorem  tamen  esse  debere  non  puto :  quamquam 
+multum  interest,  quid  res  ipsa  cum  agitur  moneat,  et  quid 
+20  auditorum  praesentia  non  solum  ferre,  sed  etiam  desiderare 
+se  ostendat.  Cum  autem  celeritate  opus  est,  vide  quam 
+facile  explicari  tota  res  possit.  6  Fac  rursus  adesse  aliquem 
+qui  velit  esse  Christianus:  ergo  et  interrogatum,  illud  quod 
+superior  respondisse:  quia  et  si  non  hoc  respondet,  hoc 
+25  eum  respondere  debuisse  dicendum  est.  Deinde  hoc  modo 
+et  cetera  contexenda. 
+
+7  Vere,  frater,  illa  magna  et  vera  beatitudo  est,  quae 
+in  futuro  saeculo  sanctis  promittitur.  Omnia  vero  visibilia 
+transeunt,  et  omnis  huius  saeculi  pompa  et  deliciae  et  cu- 
+30  riositas  interibunt,  et  secum  ad  interitum  trahunt  amatores 
+
+
+8  Vgl.  Matth.  22,  40.  14  f.  Rom.  2,  4.  29  f.  Vgl.  1.  Joh.  2,  16  f. 
+
+
+De  Catechizandis  Rudibus.  26,  8  —  27,  4. 
+
+
+57 
+
+
+suos.  8  A  quo  interitu,  hoc  est,  poenis  sempiternis  deus 
+misericors  volens  homines  liberare,  si  sibi  ipsi  non  sint  ini¬ 
+mici,  et  non  resistant  misericordiae  creatoris  sui,  misit  uni¬ 
+genitum  filium  suum,  hoc  est,  verbum  suum  aequale  sibi, 
+per  quod  condidit  omnia.  9  Et  manens  quidem  in  divini¬ 
+tate  sua,  et  non  recedens  a  patre,  nec  in  aliquo  mutatus, 
+assumendo  tamen  hominem,  et  in  carne  mortali  hominibus 
+apparendo  venit  ad  homines:  ut,  quemadmodum  per  unum 
+hominem  qui  primus  factus  est,  id  est  Adam,  mors  intravit 
+in  genus  humanum,  quia  consensit  mulieri  suae  seductae  a 
+diabolo,  ut  praeceptum  dei  transgrederentur:  sic  per  unum 
+hominem,  qui  etiam  deus  est  dei  filius,  Iesum  Christum, 
+deletis  omnibus  peccatis  praeteritis,  credentes  in  eum  omnes 
+in  aeternam  vitam  ingrederentur. 
+
+27  1  Omnia  enim  quae  nunc  vides  in  ecclesia  dei  et  sub 
+Christi  nomine  per  totum  orbem  terrarum  geri ,  ante 
+saecula  iam  praedicta  sunt,  et  sicut  ea  legimus,  ita  et 
+videmus;  et  inde  aedificamur  in  fidem.  2  Factum  est  ali¬ 
+quando  diluvium  per  totam  terram,  ut  peccatores  dele¬ 
+rentur:  et  tamen  illi  qui  evaserunt  in  arca,  sacramentum 
+futurae  ecclesiae  demonstrabant,  quae  nunc  in  fluctibus 
+saeculi  natat,  et  per  lignum  crucis  Christi  a  submersione 
+liberatur.  3  Praedictum  est  Abrahae  fideli  servo  dei,  uni 
+homini,  quod  de  illo  esset  populus  nasciturus,  qui  coleret 
+unum  deum  inter  ceteras  gentes  quae  idola  colebant:  et 
+omnia  quae  illi  populo  ventura  praedicta  sunt,  sic  evenerunt, 
+ut  praedicta  sunt.  4  Prophetatus  est  in  illo  populo  etiam 
+Christus  rex  omnium  sanctorum  et  deus  venturus  ex  semine 
+
+
+3  f.  1.  Joh.  4,  9.  5  Joh.  1,  3.  7  f .  Phil.  2,  6f.  8  ff.  Rom.  5,  12. 
+10  f.  Vgl.  Gen.  3,  6.  11  f.  Rom.  5,  17  f.  18  Vgl.  Jud.  20. 
+
+23  f.  Vgl.  Gen.  12,  2  f. 
+
+
+5 
+
+io 
+
+15 
+
+20 
+
+25 
+
+
+58 
+
+
+De  Catechizandis  Rudibus.  27,  4  —  9. 
+
+
+ipsius  Abraham  secundum  carnem  quam  assumsit,  ut 
+omnes  etiam  filii  essent  Abrahae,  qui  fidem  eius  imitarentur ; 
+et  sic  est  factum :  natus  est  Christus  de  Maria  virgine,  quae 
+ex  illo  genere  fuit.  5  Praedictum  est  per  prophetas,  quod 
+5  in  cruce  passurus  esset  ab  eodem  populo  Iudaeorum,  de 
+cuius  genere  secundum  carnem  veniebat;  et  sic  est  factum, 
+e  Praedictum  est,  quod  resurrecturus  esset:  resurrexit,  et  se¬ 
+cundum  ipsa  praedicta  prophetarum  adscendit  in  caelum,  et 
+discipulis  suis  spiritum  sanctum  misit.  7  Praedictum  est  non 
+10  solum  a  prophetis,  sed  etiam  ab  ipso  domino  Iesu  Christo, 
+quod  ecclesia  eius  per  universum  orbem  terrarum  esset 
+futura,  per  sanctorum  martyria  passionesque  disseminata; 
+et  tunc  praedictum ,  quando  adhuc  nomen  eius  et  latebat 
+gentes,  et  ubi  notum  erat  irridebatur:  et  tamen  in  virtutibus 
+15  miraculorum  eius,  sive  quae  per  se  ipse,  sive  quae  per 
+servos  suos  fecit,  dum  annuntiantur  haec  et  creduntur,  iam 
+videmus,  quod  praedictum  est  esse  completum,  regesque  ipsos 
+terrae,  qui  antea  persequebantur  Christianos,  iam  Christi 
+nomini  subiugatos.  8  Praedictum  est  etiam,  quod  schismata 
+20  et  haereses  ex  eius  ecclesia  essent  exiturae,  et  sub  eius  no¬ 
+mine  per  loca  ubi  possent,  suam,  non  Christi,  gloriam 
+quaesiturae;  et  ista  completa  sunt. 
+
+9  Numquid  ergo  illa  quae  restant  non  sunt  ventura? 
+Manifestum  est,  quia  sicut  ista  praedicta  venerunt,  sic  etiam 
+25  illa  ventura  sunt,  quaecumque  tribulationes  iustorum  adhuc 
+restant :  et  iudicii  dies,  qui  separabit  omnes  impios  a  iustis 
+in  resurrectione  mortuorum;  et  non  solum  eos  qui  sunt 
+extra  ecclesiam,  sed  etiam  ipsius  ecclesiae  paleas,  quas 
+
+
+2  Vgl.  Gal.  3,  7.  4f.  Vgl.  Jes.  53,  4ff.  Sacli.  12,  10. 
+
+8  f.  Vgl.  Joel  3,  1.  9  ff.  Vgl.  Jes.  2,  1  ff.  Midi.  4,  1  ff.  Matth.  24,  14. 
+
+21  f.  Joh.  7,  18.  28  ff.  Vgl.  Matth.  3,  12. 
+
+
+De  Catechizandis  Rudibus.  27,  9  —  13. 
+
+
+59 
+
+
+oportet  usque  ad  novissimam  ventilationem  patientissime 
+sufferat,  ad  ignem  debitum  segregabit,  io  Qui  autem  irri¬ 
+dent  resurrectionem,  putantes  quod  caro  ista  quia  putrescit, 
+resurgere  non  potest,  ad  poenas  in  ea  resurrecturi  sunt: 
+et  ostendet  eis  deus,  quia  qui  potuit  haec  corpora  facere 
+antequam  essent,  potest  ea  in  momento  restituere  sicut 
+erant,  u  Omnes  autem  fideles  regnaturi  cum  Christo,  ita 
+resurgent  in  eodem  corpore,  ut  etiam  commutari  mereantur 
+ad  incorruptionem  angelicam:  ut  fiant  aequales  angelis  dei, 
+sicut  dominus  ipse  promisit,  et  laudent  eum  sine  aliquo  de¬ 
+fectu  et  sine  aliquo  fastidio,  semper  viventes  in  illo  et  de 
+illo,  cum  tali  gaudio  et  beatitudine,  quali  nec  dici  nec  cogi¬ 
+tari  ab  homine  potest. 
+
+12  Tu  itaque  credens  ista,  c^e  tentationes:  (quia  dia¬ 
+bolus  quaerit,  qui  secum  pereant:)  ut  non  solum  per  eos 
+qui  extra  ecclesiam  sunt,  sive  pagani,  sive  Iudaei,  sive 
+haeretici,  non  te  hostis  ille  seducat,  sed  etiam  quos  in  ipsa 
+ecclesia  catholica  videris  male  viventes,  aut  immoderatos 
+voluptatibus  ventris  et  gutturis,  aut  impudicos,  aut  vanis 
+curiositatibus  vel  illicitis  deditos,  sive  spectaculorum,  sive 
+remediorum  aut  divinationum  diabolicarum,  sive  in  pompa 
+et  typho  avaritiae  atque  superbiae,  sive  in  aliqua  vita  quam 
+lex  damnat  et  punit,  non  eos  imiteris :  sed  potius  coniungaris 
+bonis,  quos  inventurus  es  facile,  si  et  tu  talis  fueris;  ut 
+simul  colatis  et  diligatis  deum  gratis :  quia  totum  praemium 
+nostrum  ipse  erit,  ut  in  illa  vita  bonitate  eius  et  pulchri¬ 
+tudine  perfruamur.  13  Sed  amandus  est,  non  sicut  aliquid 
+quod  videtur  oculis,  sed  sicut  amatur  sapientia,  et  veritas 
+et  sanctitas  et  iustitia  et  caritas,  et  si  quid  aliud  tale  dici- 
+
+
+2  ff.  Vgl.  1.  Cor.  15,  35.  7  Vgl.  1.  Cor.  15,  51  ff.  9  f.  Matth.  22,  30. 
+Mare.  12,  25.  Lue.  20,  36.  14  f.  Vgl.  1.  Petr.  5,  8. 
+
+
+5 
+
+10 
+
+15 
+
+20 
+
+25 
+
+
+60  Catechizandis  Rudibus.  27,  13  —  17. 
+
+tur:  non  quemadmodum  sunt  ista  in  hominibus,  sed  quem¬ 
+admodum  sunt  in  ipso  fonte  incorruptibilis  et  incommutabilis 
+sapientiae.  Quoscunque  ergo  videris  haec  amare,  illis  con- 
+iungere,  ut  per  Christum  qui  homo  factus  est,  ut  esset 
+s  mediator  dei  et  hominum,  reconcilieris  deo.  14  Homines 
+autem  perversos,  etiamsi  intrent  parietes  ecclesiae,  non  eos 
+arbitreris  intraturos  in  regnum  caelorum :  quia  non  tempore 
+separabuntur,  si  se  in  melius  non  commutaverint.  15  Ho¬ 
+mines  ergo  bonos  imitare,  malos  tolera,  omnes  ama:  quo- 
+io  niam  nescis,  quid  cras  futurus  sit,  qui  hodie  malus  est.  Nec 
+eorum  ames  iniustitiam,  sed  ipsos  ideo  ama,  ut  apprehen¬ 
+dant  iustitiam:  quia  non  solum  dilectio  dei  nobis  praecepta 
+est,  sed  etiam  dilectio  proximi,  in  quibus  duobus  praeceptis 
+tota  lex  pendet  et  prophetae.  i6  Quam  non  implet,  nisi  qui 
+15  donum  acceperit  spiritum  sanctum,  patri  et  filio  utique 
+aequalem :  quia  ipsa  trinitas  deus  est :  in  quo  deo  spes 
+omnis  ponenda  est.  In  homine  non  est  ponenda,  qualis- 
+cumque  ille  fuerit.  Aliud  est  enim  ille  a  quo  iustificamur, 
+aliud  illi  cum  quibus  iustificamur.  17  Non  autem  solum 
+20  per  cupiditates  diabolus  tentat,  sed  etiam  per  terrores  in¬ 
+sultationum  et  dolorum  et  ipsius  mortis.  Quidquid  autem 
+homo  passus  fuerit  pro  nomine  Christi,  et  pro  spe  vitae 
+aeternae,  et  permanens  toleraverit,  maior  ei  merces  dabitur : 
+quod  si  cesserit  diabolo,  cum  illo  damnabitur.  Sed  opera 
+25  misericordiae  cum  pia  humilitate  impetrant  a  domino,  ut  non 
+permittat  servos  suos  tentari  plus  quam  possunt  sustinere. 
+
+
+4  f.  1.  Tim.  2,  5.  12  ff.  Matth.  22,  37—40.  26  1.  Cor.  10,  13. 
+
+
+Verzeichnis  der  Bibelstellen.  (31 
+
+
+Verzeichnis  der  Bibelstellen. 
+
+Die  Zalilen  bezeichnen  die  Seiten  und  Zeilen. 
+Ais  Citat  eingefiihrte  Stellen  sind  fett  gedruckt. 
+
+
+Gen.  (1)  .  .  .  . 
+
+33, 
+
+24.  34, 
+
+27 
+
+Jes.  (2,  1  ff.)  .  .  .  . 
+
+.  58,  9 
+
+1,  i  ...  . 
+
+•  4, 
+
+25 
+
+(8,  1  ff ) . 
+
+.  39,  15 
+
+(1,  26.  27)  .  . 
+
+.  46, 
+
+7 
+
+28,  16 . 
+
+.  50,  6 
+
+1,  31  ...  . 
+
+•  11, 
+
+18 
+
+(40,  6) . 
+
+.  27,  22 
+
+(2) . 
+
+.  33, 
+
+24 
+
+(40,  6.  8) . 
+
+.  30,  27 
+
+2,  8  .... 
+
+.  35, 
+
+17 
+
+(53,  4) . 
+
+.  47,  17 
+
+(2,  16.  17)  .  . 
+
+.  35, 
+
+17 
+
+(53,  4  ff.) . 
+
+.  58,  4 
+
+(2,  18)  ... 
+
+.  35, 
+
+9 
+
+53,  7 . 
+
+.  41,  2 
+
+(3,  1  ff.)  .  .  . 
+
+.  36, 
+
+19 
+
+(53,  7) . 
+
+.  47,  15 
+
+(3,  6)  ...  . 
+
+.  57, 
+
+10 
+
+Jerern.  (27) . 
+
+.  43,  7 
+
+(6) . 
+
+.  37, 
+
+27 
+
+(29,  5) ....  43, 
+
+13.  44,  19 
+
+11,  9  ...  . 
+
+.  43, 
+
+2 
+
+(29,  6.  7)  .  .  .  . 
+
+.  43,  13 
+
+(12,  1  fF.) .  .  . 
+
+1 
+
+(29,  10)  .  .  43,  14. 
+
+44,  19.  25 
+
+(12,  2.  3)  .  . 
+
+. 
+
+.  57, 
+
+23 
+
+Dan.  (2,  46  ff.)  .  .  .  . 
+
+.  43,  8 
+
+(17,  5.  6)  .  . 
+
+.  45, 
+
+18 
+
+(3,  28  ff.) . 
+
+.  43,  8 
+
+(18,  3) . 
+
+.  39, 
+
+1 
+
+(4,  34) . 
+
+.  43,  8 
+
+(25,  25)  .  .  . 
+
+27.  40, 
+
+3 
+
+(6,  26.  27)  ...  . 
+
+.  43,  8 
+
+Exod.  (1,  8ff.)  .  . 
+
+.  40, 
+
+10 
+
+Hos.  (1,  2  ff.)  .  .  .  . 
+
+.  39,  15 
+
+(7,  1  ff.)  .  .  . 
+
+.  40, 
+
+12 
+
+6,  6 . 
+
+.  27,  18 
+
+(12,  1  ff.) .  .  . 
+
+.  48, 
+
+5 
+
+Joel  (3,  1) . 
+
+.  58,  8 
+
+(12,  3)  .  .  . 
+
+.  . 
+
+.  48, 
+
+8 
+
+Jon.  (3,  4) . 
+
+.  38,  3 
+
+(12,  3 E).  .  . 
+
+.  40, 
+
+27 
+
+(3,  10) . 
+
+.  38,  3 
+
+(14,  18  ff.)  .  . 
+
+. 
+
+.  40, 
+
+14 
+
+Mich.  (4,  1  ff.)  .  .  .  . 
+
+.  58,  9 
+
+(16,  35)  .  .  . 
+
+.  41, 
+
+5 
+
+(5,  2) . 
+
+.  47,  4 
+
+(19,  1).  .  .  . 
+
+.  48, 
+
+8 
+
+Sach.  (12,  10)  ...  . 
+
+.  58,  4 
+
+(31,  18)  .  .  . 
+
+.  44 
+
+,  6.  48, 
+
+9 
+
+Sir.  3,  33 . 
+
+.  27,  17 
+
+Deut  (8,  3)  .  .  . 
+
+.  27, 
+
+26 
+
+Matth.  (1,  17)  ...  . 
+
+.  45,  25 
+
+Ps.  24  (25),  18  .  . 
+
+.  29, 
+
+25 
+
+(1,  18) . 
+
+.  46,  29 
+
+32  (33),  0  .  . 
+
+.  33, 
+
+29 
+
+(3. 12 . 12, 17.  32, 26.  (53, 21).  (58, 28) 
+
+32  (33),  11  . 
+
+.  26, 
+
+15 
+
+4,  4 . 
+
+.  27,  26 
+
+50  (51),  19  .  . 
+
+.  27, 
+
+15 
+
+7,  21  f. . 
+
+.  54,  19 
+
+78  (79',  11  .  . 
+
+.  29, 
+
+24 
+
+10,  1G . 
+
+.  50,  12 
+
+(89  [90],  10)  . 
+
+.  30, 
+
+23 
+
+12,  28 . 
+
+.  41,  7 
+
+123  (124),  8  . 
+
+.  39, 
+
+6 
+
+(16,  27) . 
+
+.  51,  10 
+
+148,  5  .  .  . 
+
+.  33, 
+
+29 
+
+(17,  24  ff.)  .  .  .  . 
+
+.  43,  24 
+
+Spr.  19,  21  .  .  . 
+
+.  26, 
+
+15 
+
+19,  8  .  (39,  22).  41, 
+
+18.  (48,  13) 
+
+62 
+
+
+Verzeiclinis  der  Bibelstellen. 
+
+
+Matth.  19,  21  . 
+
+....  49,  11 
+
+22,  30  .  . 
+
+.  52,  27.  59,  9 
+
+22,  37  ff..  . 
+
+.  48,  1.  60,  12 
+
+22,  40  .  . 
+
+9,  2.  48,  3.  (56,  8) 
+
+23,  15.  .  . 
+
+....  26,  30 
+
+24,  14.  .  . 
+
+....  58,  9 
+
+25,  26.  27  . 
+
+....  28,  3 
+
+(25,  31  ff.)  . 
+
+....  51,  10 
+
+25,  34  .  . 
+
+....  33,  10 
+
+25,  41  .  . 
+
+.  .  33,  9  (36,  28) 
+
+Mare.  (1,  13) . 24,  30 
+
+12,  25  ....  52,  27.  59,  7 
+
+
+Luc.  10,  3  .  . 
+
+....  50,  12 
+
+(10,  39)  .  . 
+
+....  24,  30 
+
+11,  20  .  . 
+
+....  41,  7 
+
+(12,  33)  .  . 
+
+....  49,  11 
+
+(13,  26)  .  . 
+
+....  54,  18 
+
+(18,  22)  .  . 
+
+....  49,  11 
+
+20,  36  .  . 
+
+.  .  52,  27.  59,  7 
+
+Joh.  1,1 . 39,  27 
+
+1,  33.34,10.  39,28.  46,13.  57,5 
+
+(1,  14) . 42,  17 
+
+3,  16  .  34,  21.  39,  27  (46,  13) 
+
+(4,  10  ff.) . 47,  13 
+
+(6,  51) . 47,  13 
+
+6,  68 . 21,  10 
+
+7,  18  .  .  (21,  22)  36,  7.  37,  24 
+
+50,  25.  58,  21 
+
+
+(13,  34.  35) . 
+
+.  .  7,  5 
+
+14,  6 . 
+
+.  .  47,  14 
+
+(15,  1  ff.) .  .  .  . 
+
+.  .  50,  14 
+
+17,  3 . 
+
+.  .  39,  5 
+
+(18,  36.  37)  .  .  . 
+
+.  .  47,  8 
+
+20,  29  .  .  .  . 
+
+.  .  53,  1 
+
+AGr.  (1,  3)  ...  . 
+
+.  .  47,  22 
+
+(1,  3)  . 
+
+.  .  47,  25 
+
+(1,  9) . 
+
+.  .  47,  23 
+
+(2,  1) . 
+
+.  .  47,  24 
+
+(2,  1  ff.)  .  .  .  . 
+
+.  .  48,  14 
+
+(2,  41)  .  .  .  . 
+
+.  .  49,  1 
+
+(2,  42.  44)  .  .  . 
+
+.  .  49,  14 
+
+(2,43)  .  .  .  . 
+
+.  .  48,  22 
+
+AG.  (2,  45)  . 
+
+. 49,  11 
+
+(4,  4)  .  . 
+
+. 49,  1 
+
+(4,  32)  . 
+
+. 49,  15 
+
+4,  35  .  . 
+
+.....  49,  22 
+
+(5,  15)  . 
+
+. 48,  23 
+
+(8,  3)  .  . 
+
+. 49,  22 
+
+(8,  4)  .  . 
+
+.  49,  17 
+
+(9,  1)  .  . 
+
+. 49,  22 
+
+(9,  3  ff.)  . 
+
+. 49,  24 
+
+(13,  2)  . 
+
+. 49,  24 
+
+(17,  29)  . 
+
+. 38,  20 
+
+(24,  17)  . 
+
+. 50,  2 
+
+Bom.  1,  3  . 
+
+. 42,  21 
+
+(1,  20)  . 
+
+. 35,  25 
+
+(1,  25)  . 
+
+. 38,  20 
+
+1,  29.  30 
+
+. 20,  25 
+
+2,  4  .  . 
+
+. 56,  14 
+
+2,  4.  5  . 
+
+.  .  20,  27.  53,  28 
+
+5,  5  .  . 
+
+.  .  28,  11.  47,  25 
+
+5,  8.  9  . 
+
+...  7,  3.  34,  23 
+
+5,  10.  9  . 
+
+. 13,  19 
+
+5,  12  .  . 
+
+.  .  (35,  12).  57,  8 
+
+5,  17.  18 
+
+. 57,  12 
+
+(6,  4)  .  . 
+
+. 46,  19 
+
+(6,  6)  .  . 
+
+. 46,  20 
+
+(8,  5  ff)  . 
+
+...  6,  14.  9,  9 
+
+00 
+
+to 
+
+00 
+
+. 22,  1 
+
+8,  32  .  . 
+
+. 7,  8 
+
+9,  5  .  . 
+
+...  6,  7.  42,  22 
+
+10,  3  .  . 
+
+. 6,  15 
+
+12,  12  . 
+
+. 33,  14 
+
+18,  1  .  . 
+
+. 43,  20 
+
+18,  7  .  . 
+
+. 43,  21 
+
+13,  10  . 
+
+7,  5.  41,  21.  46,  8 
+
+15,  4  .  . 
+
+. 6,  26 
+
+1.  Cor.  2,  9 
+
+...  4,  3.  33,  21 
+
+8,  9  .  . 
+
+. 44,  23 
+
+(5,  7)  .  . 
+
+. 48,  11 
+
+9,  22  .  . 
+
+.  .  19,  10.  29,  18 
+
+10,  11  . 
+
+. 6,  27 
+
+10,  13  . 
+
+.  .  55,  20.  60,  26 
+
+11,  7  .  . 
+
+. 35,  13 
+
+Namen-  und  Sachregister. 
+
+
+63 
+
+
+1.  Cor.  12,  12 . 40,  3 
+
+13,  12 . 3,  28 
+
+(13,  13) . 9,  23 
+
+(15,  35) .  59,  2 
+
+(15,  51  ff.) . 59,  7 
+
+(15,  58) . 21,  11 
+
+(16) . 50,  2 
+
+2.  Cor.  5,  7 . 52,  29 
+
+5,  13.  14 . 19,  12 
+
+(7,  10) . 54,  1 
+
+(8,  9) . 50,  2 
+
+8,  9 . 47,  6 
+
+9,  7  ...  .  4,  18.  18,  26 
+
+12,  15 . 19,  15 
+
+Gal.  3,  7  .  39,  4.  (45,  20).  58,  2 
+
+(3,  13) . 38,  11 
+
+4,  4 . y  .  34,  16 
+
+4,  19 . 29,  18 
+
+5,  1 . 41,  23 
+
+Eph.  1,  9 . 39,  2 
+
+6,  5 . 43,  27 
+
+Phil.  2,  6.  7  .  .  46,  14.  57,  7 
+
+2,  6  ff . .  .  19,  8 
+
+(2,  7.  8) . 34,  22 
+
+Coi.  1,  16  .  34,  10.  39,  28.  47,  7 
+1,  18  .  5,  24.  6,  21.  40,  1.  8 
+
+3,  22  .  43,  27 
+
+
+1.  Tim.  1,  5  .5,  16.  7,  4.  (11,  22) 
+
+(1,  10)  .  15,  18.  23,  2.  43,  25 
+
+2,  1.  2 . 44,  12 
+
+2,  5 . 6,  6.  60,  4 
+
+2.  Tim.  2,  19 . 21,  14 
+
+(4,  3) .  .  15,  18.  23,  2.  43,  25 
+
+Tit.  (1,  9.  2,  1)  .  15,  18.  23,  2.  43,  25 
+Hebr.  (4,  10) .  32, 10.  33,  8.  34,  3.  8 
+(11,  7) . 38,  1 
+
+11,  16 . 39,  11 
+
+12,  22  .  13,.  8.  42,  10.  43,  18 
+
+1.  Petr.  (1,  10)  ....  34,  18 
+
+1,  18.  19 . 26,  21 
+
+1,  24.  25  ....  .  30,  27 
+
+2,  21 . 19,  4 
+
+(5,  8) . 59,  14 
+
+2.  Petr.  (2,  5) . 38,  1 
+
+1.  Joh.  (2,  16.  17)  .  .  .  56,  29 
+
+3,  16 . 7,  6 
+
+4,  9 . 57,  3 
+
+4,  9.  10 . 46,  13 
+
+(4,  10) . 34,  21 
+
+4,  10.  19  ...  7,  8.  8,, 25 
+
+4,  11 . 7,  5 
+
+4,  19 . 46,  12 
+
+Jud.  (20)  ....  51,  4.  57,  18 
+
+Apoc.  (14, 13) .  32, 10. 33,  8.  34,  3. 8 
+
+
+Namen-  und  Sachregister. 
+
+Schriftcitate  sind  nur  ausnahmsweise  (in  Klammern)  beriicksichtigt. 
+
+
+Abiectus  2,  10.  17,  12. 
+
+Abraham  (39,  1).  45,  18.  27.  (57,  23). 
+58,  1.  2. 
+
+Actus  apostolorum  5,  1. 
+
+Adam  45,  16. 
+
+adiutorium  (Christi)  51,  22. 
+adiuvare  17,  2.  36,  5. 
+admiratio  (dei)  22,  21. 
+adorare  38,  25. 
+
+
+I  adscendere  in  caelum  47,  23.  58,  8. 
+adulter  12,  28.  54,  5. 
+advenire  (Chr.)  8,  23. 
+adventus  (Christi)  5,  21.  22.  25. 
+
+7,  1.  8,  29.  45,  30.  46,  1. 
+aedificare  9,  25.  29,  19.  44,  21. 
+
+(51,  4).  (57,  18). 
+
+Aegyptii  40,  14.  16. 
+
+Aegyptus  40,  10.  20. 
+
+
+64 
+
+
+Namen-  unci  Sachregister. 
+
+
+aenigmata  16,  7. 
+
+aequale  (verbum  deo)  39,  27.  57,  4. 
+aequalis  (sp.  s.  patri  et  filio)  60,  16. 
+aequalitas  (dei)  19,  7.  (patris  et  fil. 
+
+et  sp.  s.)  53,  3. 
+aequitas  vindictae  36,  24. 
+aetas,  aetates  34, 1.  45,15.24.  46, 1.6. 
+aeternitas  56,  7. 
+
+aeternus  3,  30.  31,  3.  4.  37,  1.  3. 
+42,  19. 
+
+affectio  29,  5. 
+
+affectus  3,  3.  16,  17.  17,  29.  18,  19. 
+
+22,  7. 
+
+aleator  12,  28.  54,  4. 
+allegoria  16,  10. 
+
+alligare  (remedia  sacrilega)  54,  5. 
+alligator  (remediorum  sacr.)  12,  29. 
+altitudo  34,  24. 
+
+amare  (Christum)  54,  29.  (deum) 
+7,  9.  33,  15.  20.  55,  4.  59,  27. 
+amator  dei  55,  5.  (saeculi)  56,  30. 
+
+(spectaculorum)  12,  28. 
+amen  16,  22. 
+amfractus  19,  1. 
+
+amor  3,  29.  7,  11.  24.  8,  1.  9.  10. 
+12.  14.  19,  18.  22,  5.  22.  52,  20. 
+(veritatis  16,  8. 
+
+amores  flagitiosi  7, 14.  (turpes)  7,  26. 
+angelicus  59,  9. 
+
+angelus  34,  11.  36,  12.  (52,  28). 
+(59,  9).  (sancti)  36,  9.  (summi) 
+42,  17.  (scii,  diabolus)  36,  13. 
+(-i  diaboli)  42,  15. 
+anima  23,  4.  38,  23.  53,  27.  (-ae  = 
+spiritus)  36,  16. 
+animare  12,  14. 
+
+animus  2,  22.  31.  3,  3.  8.  5,  10. 
+7,  12.  18.  20.  10,  6.  10.  16.  28. 
+11,  1.  24.  14,  1.  18.  26.  16,  13. 
+17.  17,  15.  27.  20,  4.  22,  6. 
+
+23,  13.  24,  6.  25,  9.  22.  26,  18. 
+
+
+27,13.  29,5.  31,31.  33,15. 
+52,  23.  54,  15. 
+antistes  16,  17.  24,  15. 
+apertus  9,  13.  45,  4. 
+apostolicus  43,  20.  50,  5. 
+apostolus  44,  11.  23.  48,  27.  (49, 
+12).  56,  14. 
+apparere  (Chr.)  6,  5. 
+arbitrium  26,  8.  (liberum)  36,  11. 
+arca  37,  29.  38,  1.  15.  45,  17. 
+
+57,  20. 
+
+artes  vanae  et  malae  12,  30. 
+articuli  5,  6.  (temporum)  6,  12.  (ae¬ 
+tatum)  45,  24. 
+assignare  13,  17. 
+
+assumere  hominem  42,  17.  57,  7. 
+assumtio  hominis  46,  14. 
+auctoritas  (canonica)  14, 14.  (divina) 
+9,  1.  (ecclesiae)  14,  27.  (praeci¬ 
+piendi)  15,  15. 
+
+audiens,  -tes  1,  15.  12,  7.  21,  4. 
+23,  9. 
+
+auditio  21,  25.  22,  27. 
+auditor  3,  12.  5,  10.  17,  28.  18,  28. 
+20,  4.  11.  21,  20.  25,  6.  28,  20. 
+29,  7.  56,  20. 
+aures  dei  16,  16. 
+auriga  31,  23.  55,  2. 
+avaritia  59,  22. 
+avarus  12,  27.  54,  4. 
+
+Babylonia  21,  12.  42,  28.  43,  1. 
+
+6.  8.  44,  7.  45,  7.  29. 
+baptismus  40,  24. 
+barbarismus  16,  8. 
+beatificare  8,  19. 
+beatitas  36,  21. 
+
+beatitudo  32,  6.  33,  7.  35,  16.  19. 
+56,  27.  59,  12. 
+
+beatus  29,  24.  36,  10.  52,  26. 
+benedictio  6,  16.  16,  25.  55,  28. 
+
+
+Namen-  und  Sachregister. 
+
+
+65 
+
+
+beneficia  (temporalia)  49,  3.  (visi- 1 
+bilia)  39,  9.  20. 
+
+Bethleem  47,  3. 
+
+bonitas  (dei)  8,  21.  36,  5.  59,  26.  | 
+(ultimi  iudicii)  12,  9. 
+bonum  8,  16.  35,  22.  (-a  spiritalia) 
+46,  23.  (terrena)  33,  13.  35,  23. 
+
+46,  24. 
+
+bonus  12,  10.  43,  28.  54,  29.  55, 
+7.  18.  59,  24.  (deus)  34,  26. 
+
+I 
+
+caelestis  (Ierusalem  13,  8.  42,  10. 
+43, 19).  (incorruptio)  52, 13.  (patria) 
+39,  11.  (-es  spiritus)  34,  12.  (-ia 
+corpora)  35,  3. 
+
+caelum  4,  2.  34,  28.  (39,  6).  42, 
+13.  53,  8. 
+
+caligo  taediorum  28,  8. 
+canonica  auctoritas  14,  i3.  (-ae 
+litterae)  56,  6.  (scripturae)  14,  15. 
+(-i  libri)  14,  12. 
+
+caritas  1,  17.  20.  (5,  17.  7,  5).  9,  i 
+14.25.  19,27.  20,19.  21,23. 
+
+24.  25,  26.  26,  20.  28,  10.  29, 
+17.  22.  41,  12.  21.  (22).  (46,  9. 
+
+47,  25).  50,  9.  59,  29.  (Christi 
+19,  13). 
+
+carnalis  9,  9.  16,  3.  33,  17.  35,  10. 
+39,  9.  18.  20.  41,  20.  42,  1.  6.  45, 
+13.  26.  46,  20.  22.  47,  2.  49,  4. 
+
+16.  56,  3.  10. 
+
+caro  3,  29.  6,  5.  19,  1.  7.  34,  16. 
+
+17.  39,  26.  (42,  21).  45,  23.  49,  17. 
+57,  7.  58,  6.  (59,  3). 
+
+Carthago  1,  3.  30,  3. 
+castus  15,  31. 
+
+catechizare  1,  2.  5.  4,  15.  24.  10,  7. 
+13,  25.  17,  4.  18,  10.  20,  9.  24, 
+
+25.  25,  24.  28,  8.  16.  29,  10. 
+catholicus  14,  23.  26.  30.  (-a  scii,  ec¬ 
+clesia)  23,31.  (ecclesia)53, 21. 59,  18. 
+
+Augustinus,  2.  Ausg. 
+
+
+Christianus  1,  7.  9,  29.  10,  4.  11, 
+5.  12.  13,  2.  7.  26.  30.  14,  11. 
+
+15,  27.  17,  5.  18,  17.  25,  4.  26, 
+
+23.  27,  5.  30,  2.  6.  32,  11.  19. 
+
+25.  33,  9.  11.  41,  4.  44,  9.  49, 
+
+23.  50,  29.  53,  15.  54,  8.  12.  15. 
+
+56,  23.  58,  18. 
+
+christianus  1,  4.  11.  10,  28.  30.  12, 
+
+26.  14,  31.  15,  13.  29.  17,  13. 
+
+23,  31.  32,  30.  43,  27.  44,  22. 
+
+49,  14.  53,  12. 
+
+Christus  6,  4.  15.  19.  8,  23.  9,  1. 
+
+16.  13,  16.  26,  20.  27,6..  33,  11. 
+
+34,  11.  38,  12.  29.  39,  13.  17.  24. 
+
+26.  40,  7.  26.  41,  1.  26.  42,  16. 
+
+22.  24.  43,  18.  44,  10.  45,  3.  5.  8. 
+
+23.  26.  30.  46,  25.  49,  4.  18.  25. 
+26.  50,  4.  6.  11.  19.  24.  51,  10. 
+54,  16.  55,  17.  57,  12.  16.  22.  28. 
+
+58,  3.  10.  18.  21.  59,  7.  60,  4.  22. 
+cives  13,  8.  38,  28.  42,  11.  43,  18. 
+
+51,  9.  (carnales)  49,  17. 
+civitas  31,  9.  38,  3.  43,  6.  47,  3.  4. 
+48,  18.  (dei)  42,  9.  16.  (iniquo¬ 
+rum)  43,  1.  (libera)  42,  28.  (sancta, 
+-orum)  38,  29.  42,  28.  52,  26. 
+
+56,  11.  (superna)  12,  12.  (terrena) 
+
+I  47,  5.  (-es  duae)  37,  12.  43,  3. 
+
+I  51,  9.. 
+
+I  clementia  (dei)  36,  6. 
+coaeternum  (verbum  p.)  39,  28. 
+cognoscere  (Christum)  50, 19.  (deum) 
+
+35,  8.  43,  10.  44,  10. 
+
+colere  deum  33,  2.  6.  35,  8.  36,  8. 
+12.  38,  21.  39,  6.  9.  43,  10.  44, 
+10.  45,  22.  46,  3.  50,  1.  57,  24. 
+
+59,  25.  (idola)  57,  25. 
+collatio  15,  14. 
+commendare  14,  15. 
+commovere  8,  14.  10,  7.  16.  27,  20. 
+communicare  14,  2. 
+
+
+66 
+
+
+Namen-  und  Sachregister. 
+
+
+communio  15,  11. 
+
+commutare  59,  8. 
+
+commutatio  52,  13. 
+
+comparare  (hilaritatem)  4,  22.  17,  2. 
+
+(laetitiam)  22,  27. 
+compatiens  22,  6. 
+concipere  (Maria)  46,  29. 
+concordia  (caritatis)  41,  12. 
+concupiscentia  35,  10. 
+condere  55,  30.  (deus)  38,21.  43, 11. 
+conditor  (deus)  35,  21.  36,  21. 
+confiteri  1,  12.  36,  1. 
+
+confusio  (i.  e.  Babylonia)  43, 2.  44.  6. 
+conscientia  (bona)  (5,  17).  19,  29. 
+
+32, 15.  (mala)  32, 16.  (saucia)  32,  7. 
+conservus  2,  5. 
+consolari  21,  8. 
+consolatio  26,  23. 
+constitutio  (humana)  43,  24. 
+contaminare  34,  16. 
+contemnere  15,  29.  16,  29.  20,  6. 
+
+23,  12.  32,  9. 
+contemplatio  53,  6. 
+conversatio  12,  27.  23,  31. 
+convertere  38,  2.  44,  3.  49,  1.  50, 
+
+20.  53,  27. 
+
+cor  9,  24.  12,  1.  15,  31.  18,  21. 
+
+21,  11.  18.  22,  5.  32,  30.  53,  8. 
+corporalis  12,  25.  41,  19. 
+corpus  (6,  21).  10,  5.  10.  12,  8.  16, 
+
+13.  17,  29.  23,  10.  35,  3.  4.  11. 
+
+37,  14.  15.  (40,  3.  8.)  41,  16.  51, 
+
+9.  27.  30.  52,  6.  11.  14.  23.  59, 
+
+5.  8.  (Christi)  (5,  24).  6,  8.  19. 
+correctio  56,  13. 
+
+corrigere  15,  8.  16,  21.  37,  30. 
+
+corruptibilis  35,  11.  52,  14. 
+
+corruptio  36,  9. 
+
+coruscatio  2,  21. 
+
+creare  (47,  7).  47,  12. 
+
+creator  35, 8.  36, 8.  26. 27. 38, 20.  57, 3. 
+
+
+creatura  35,  7.  36,  17.  38,  20.  43 
+11.  47,  11.  51,  30. 
+credere  1,  7.  4,  10.  5,  26.  6,  22. 
+7,  29.  9,  23.  10,  5.  11,  30.  14, 
+5.  9.  26,  27.  34,  19.  20.  47,  8. 
+49,  1.  24.  50,  4.  51,  1.  6.  13.  15. 
+
+22.  25.  52,  7.  53,  1.  2.  9.  55,  22. 
+56,  3.  9.  57,  13.  58,  16.  59,  14. 
+cruciatus  47,  19.  51,  19.  20.  52,  19. 
+crucifigere  47,  18.  48,  26. 
+crux  38,  13.  41,  3.  57,  22.  58,  5. 
+cultus  (dei)  43,  23.  (idolorum)  49,  28. 
+cupiditas  11,  30.  30,  13.  37,  21.  46, 
+9.  60,  20. 
+
+curiositas  (saeculi)  56,  29.  (-es  dae¬ 
+moniorum)  53,  14.  (vanae)  59,  20. 
+
+daemon  31,  15. 
+
+daemonia  38,  24.  39.  7.  53,  14. 
+damnare  36,  24.  53,  11.  60,  24. 
+damnatio  53,  11.  54,  24. 
+
+David  (42,  21).  45,  5.  27.  28. 
+decalogus  47,  28. 
+defensitare  15,  10. 
+deliciae  (deus)  52,  25. 
+
+Deogratias  1,  1. 
+deprecari  21,  29. 
+desideria  (terrena)  49,  9. 
+desperare  8,  13.  20. 
+desperatus  8,  17.  56,  13. 
+destinatio  12,  11. 
+
+deus  (=  Christus)  38,  12.  57,  12. 28. 
+deus  homo  9,  16. 
+devotio  42,  14. 
+diabolicus  59,  21. 
+
+diabolus  20,  30.  (33,  10).  36,  14. 
+19.  22.  26.  27.  (28).  37,  2.  4.  10. 
+38,  24.  28.  42,  15.  (51,  16).  23. 
+53,  9.  55,  19.  57,  11.  (59,  14). 
+60,  20.  24. 
+diaconus  1,  3. 
+
+
+Nam  en-  und  Sachregister. 
+
+
+67 
+
+
+dictio  16,  24. 
+
+dies  festi  54,  8.  (irae  20,  28.  53,  28). 
+(iudicii)  37,  15.  58,  26.  (sollemnes 
+paganorum)  54,  9. 
+dilectio  7,  2.  12.  8,  3.  25.  9,  (3). 
+17.  21.  27.  (11,  22).  49,  14.  56, 
+6.  (60,  12). 
+
+dilector  30,  22,  55,  6. 
+diluvium  37,  28.  38,  11.  40,  18. 
+
+45,  18.  57,  19. 
+
+discipuli  (Christi)  47,  22.  48,  12.  58,9. 
+dispensatio  36,  18. 
+dispensator  2,  5. 
+disputare  12,  18. 
+disputatio  12,  2.  14,  28. 
+divinationes  diabolicae  59,  21. 
+divinatores  (artium  vanarum,  mala¬ 
+rum,  impiarum)  12,  31.  54,  7. 
+divinitas  (Chr.)  34,  14.  57,  5. 
+divinitus  11,  4. 
+
+divinus  8,  28.  30.  9,  6.  16.  13,  5. 
+
+16,  1.  26,  13.  55,  26. 
+doctor  14,  8.  15,  13. 
+
+doctrina  (apostolica)  43,  20.  50,  5. 
+(christiana)  10,  30.  (ecclesiae)  50, 
+
+27.  (fidei)  1,  6.  (liberalis)  13,  25. 
+
+(salutaris  15,  18.  23,  2).  (sana 
+
+43,  25). 
+
+doctus  (homo)  14,  28.  15,  24.  29,  1. 
+documentum  7,  15. 
+dogma  15,  11. 
+dolores  sempiterni  52,  16. 
+dominicus  2,  4.  12,  17,  21,  8.  28,  6. 
+dominus  1,  21.  2,  1.  5,  21,  6,  4. 
+
+19.  7,1.  8,29.  9,4.16.  11,11. 
+
+17,  1.  21,  18.  24,  29.  26,  10. 
+
+28,  2.  31,  3.  32,  8.  39,  12.  15. 
+
+20.  40,  6.  29.  41,  1.  26.  42,  16. 
+
+22.  43,  7.  25.  44,  10.  45,  26.  30. 
+
+46,  23.  25.  48,  4.  11.  49,  11.  19. 
+
+50,  12.  15.  21.  51,  6.  52,  1.  58, 
+
+
+10.  59,  10.  60,  25.  (-i  tempo¬ 
+rales)  43,  28. 
+donum  dei  41,  11. 
+dubitatio  51,  6. 
+
+ebriosus  12,  27.  54,'  4. 
+ecclesia  4,  26.  5,  23.  11,  13.  19.  12, 
+15.  13,  4.  7.  14,  21.  16,  18.  23. 
+32,  22.  38,  12.  39,  8.  18.  24.  40,  1. 
+44,  7.  12.  18.  50,  26.  53,  16.  55, 
+
+24.  57,  21.  58,  28.  59,  16.  60, 
+
+6.  (catholica)  53,  21.  59,  18. 
+
+(Christi)  43,  17.  50,41.  58,11.20. 
+(dei)  27,  7.  32,17.30.  57,15. 
+
+(mater)  1,  20.  (-ae)  12,  25.  24,  14. 
+49,  26.  54,  8.  (-ae  Iudaeae)  50,  3. 
+
+ecclesiasticus  14,  22. 
+
+edocere  14,  27. 
+
+effector  35,  22. 
+
+effractura  31,  11. 
+
+electi  53,  24. 
+
+enodate  23,  23. 
+
+enodatio  (allegoriae)  16,  10. 
+
+errare  20,  24.  23,  1.  54,  16. 
+
+erratum  27,  14. 
+
+error  11,  2.  15,  16.  20,  14.  21,  3, 
+
+22,  28.  23,  4.  26,  21.  29,  14.  38, 
+
+25.  26.  48,  25. 
+
+erudire  11,  13.  12,  21.  40,  11. 
+eruditus  14,  7.  29,  11. 
+evangelium  4,  28.  41,  7.  45,  25.  48,  4. 
+
+49,  11.  24.  27.  54,  19. 
+excandescere  3,  3. 
+excultus  13,  25.  15,  14. 
+exemplum  9,  18.  12,  22.  13,  11.  16, 
+30.  21,  8.  28,  16.  38,  7.  16.  43, 
+25.  48,  5.  49,  8. 
+exordiri  1,  8. 
+
+exordium  (sermonis)  10,  19. 
+explicare  2,  16.  3,  26.  5,  3.  17,  4. 
+
+23,  24.  28,  17. 
+
+
+5 
+
+
+68 
+
+
+Namen-  und  Sacliregister. 
+
+
+expolitus  15,  13. 
+exponere  14,  14. 
+exporrigere  3,  5. 
+
+fabula  11,  24. 
+fama  (ecclesiastica)  14,  23. 
+fastidiosus  2,  11. 
+fastidire  22,  4. 
+
+fastidium  1,  14.  16,  8.  25,  18. 
+felicitas  31,  1.  33,  1.  46,  4.  27. 
+fidelis  12,  12.  21.  39,  1.  3.  40,  24. 
+
+43,  28.  57,  23.  59,  7. 
+fides  1,  4.  6.  *3,  24.  10,5.29.  14, 
+25.  15,  18.  22,  29.  33,  6.  39,  3. 
+13.  17.  45,  19.  21.  50, 18.  (51,  5). 
+22.  24.  52,  17.  (29).  53,  2.  5.  24. 
+55,  17.  (57,  18).  58,  2. 
+fiducia  21,  29.  23,  19.  48,  21. 
+figura  (6,  27).  42,  24.  44,  26.  46,  23. 
+figurare  39,  8.  40,  27. 
+figurate  43,  17.  44,  27.  56,  8. 
+filius  (dei)  (7,  8).  (34,  21).  39,  3.  27. 
+
+(46,  13).  53,  3.  57,  (4).  12.  60,  15. 
+fingere  10,  4.  8.  20.  11,  23. 
+finis  12,  22.  13,  3.  5.  32,  25.  36, 
+28.  44,  1.  54,  24.  (amoris)  22,  22. 
+(doctrinae  christianae)  10, 30.  (sae¬ 
+culi)  37,  13.  43,  3.  (-orum  6,  29). 
+(temporum)  44,  25. 
+fomes  27,  9. 
+
+fons  (deus  sapientiae)  60,  2. 
+forensis  16,  24. 
+foris  12,  15. 
+
+forma  corporis  (deus  non  definitus — ) 
+41,  8. 
+
+formare  52,  1. 
+fornicatio  31,  7.  32,  4. 
+fornicator  12,  27.  54,  5. 
+forum  16,  23. 
+fraternus  22,  4.  23,  17. 
+fraudator  12,  27.  54,  4. 
+
+
+frons  41,  3. 
+
+fructus  (salutis)  41,  27. 
+
+frui  (deo)  46,  5. 
+
+• 
+
+gehenna  33,  16.  18. 
+gemmae  12,  3. 
+
+gens,  -tes  2,  30.  3,  2.  5,  24. 
+
+29,  13.  39,  4.  17.  40,  14.  45,  11. 
+19.  21.  46,  3.  48,  20.  49,  24.  27. 
+50,  8.  10.  57,  25.  58,  14. 
+gentiles  12,  16. 
+
+genus  humanum  37,  13.  43,  3.  45,  16. 
+gloriosus  (deus)  36,  5.  24. 
+graecus  2,  27.  29.  32.  3,  1. 
+grammaticus  11,  26.  15,  22. 
+grandiusculus  17,  27. 
+gratia  (dei)  37,  2.  46,  18.  (spiritalis) 
+46,  1. 
+
+gratis  46,  3.  59,  25. 
+
+liaeresis  15,  3.  50,  23.  58,  20. 
+haereticus  12, 16. 14, 25.  53, 17. 59, 17. 
+hebraeus  2,  27.  29.  42,  10. 
+hereditas  sempiterna  46,  17. 
+hilaritas  4,  19.  22.  17,  2.  24,  7. 
+homo  (Christus)  34,  16.  39,  28.  42, 
+17.  43,  26.  46,  14.  24.  57,  7. 
+
+60,  4.  (vetus)  (46,  20).  49,  9. 
+honorari  55,  27. 
+
+hostis  (=  diabolus)  53,  10.  59,  17. 
+humanitas  (dei  verbi)  34,  14.  51,  12. 
+humanus  9,  17.  10,  20.  14,  32.  15,  8. 
+17,  30.  20,  8.  23,  11.  26,  14.  37, 
+13.  38,  26.  41,  16.  43,  3.  45,  16. 
+
+46,  6.  52,  8. 
+humilis  (deus)  9,  20. 
+
+humilitas  9,  17.  14,  16.  15,  16.  29. 
+29,  25.  34,  22.  38,  29.  39,  12. 
+
+47,  9.  51,  12.  60,  25. 
+
+ictus  (intelligentiae)  3,  10. 
+idiota  15,  13.  23.  30,  2. 
+
+
+Namen-  und  Sachregister. 
+
+
+69 
+
+
+idola  44,  9.  49,  28.  57,  25. 
+Ierusalem  21,  12.  42,  8.  43,  6.  44, 
+7. 26.  (caelestis  13, 8.  42, 10.  43, 18). 
+Iesus  6,  4.  9,  16.  39,  13.  40,  7.  41, 
+1.  26.  42,  16.  22.  45,  8.  26.  30. 
+57,  12.  58,  10. 
+illecebrare  7,  18. 
+illitteratus  15,  28. 
+imago  (dei)  46,  7.  8.  (rerum  spiri¬ 
+talium)  42,  8.  48,  6. 
+imbuere  1,  4.  15.  3,  24.  4,  4.  10, 
+29.  17,  13.  27,  3.  29,  9.  (sacra¬ 
+mentis)  24,  23. 
+
+imitari  13,  12.  35,  14.  45,  19.  49, 
+
+19.  58,  2.  59,  23.  60,  9. 
+imitatio  20,  30.  27,  4.  39,  3. 
+imitator  (Christi)  19,  11.  (diaboli) 
+
+20,  30. 
+
+immoderatio  12,  5. 
+immortalis  49,  5. 
+immortalitas  35,  19.  49,  7. 
+immunditia  32,  4. 
+impertire  15,  28. 
+
+impius  12,  11.  33,  3.  34,  6.  37,  26. 
+
+40, 14.  42, 15.  51, 13.  54, 6.  58,  26. 
+implere  (legem)  41,  19.  (22).  46,  8. 
+47,  27.  60,  14.  (signa)  42,  5. 
+
+(verbum  domini)  50,  11. 
+impressio  3,  11. 
+imprimere  2,  24.  3,  7. 
+inanitas  30,  26. 
+incommutabilis  60,  2. 
+incorporari  (ecclesiae)  11,  12. 
+incorruptibilis  60,  2. 
+incorruptio  (angelica)  59,  9.  (cae¬ 
+lestis)  52,  13. 
+incredulus  50,  10. 
+inculcare  14,  3.  6.  23,  32. 
+incursus  (noctis)  4,  2. 
+indoctus  14,  6.  29,  1. 
+indulgentiae  36,  2. 
+
+
+induere  (Chr.  hominem)  43,  26. 
+iners  29,  11. 
+infantilis  17,  26. 
+infelicitas  46,  27. 
+infidelis  12,  8. 
+
+infirmitas  12,  14.  14,  32.  15,  8.  20,  8. 
+30,  25. 
+
+infirmus  8,  2.  14,  17.  24,  17.  26,  27. 
+inflatus  16,  2. 
+
+inhaerere  14,  20.  53,  2.  55,  2.  (scrip¬ 
+turis  sanctis)  11,  10. 
+iniquitas  31,  20.  32, 14.  38, 16.  52, 15. 
+iniquus  37,  12.  43,  1.  44,  2.  51,  20. 
+initiare  25,  3.  26,  28. 
+iniustitia  60,  11. 
+innotescere  29,  23. 
+instantia  18,  10. 
+
+insinuare  4,  10.  17,  24.  23,  17. 
+institutor  22,  21. 
+
+instruere  2,  12.  5,  14.  12,  13.  24. 
+
+13,  28.  17,  15.  27,  28. 
+intacta  (Maria)  46,  29. 
+intellectus  2,  21.  3,  7.  18,  27.  19,  26. 
+intelligentia  3,  10.  19,  6.  35,  7. 
+intelligere  17,  30.  19,  27.  20,  6.  7. 
+
+21,  2.  46,  21.  49,  5.  56,  3.  9.  11. 
+intentio  3,  13.  11,  9.  20,  8.  21,  23. 
+
+24,  17.  25.  17.  28,  9.  18. 
+interrogare  10,  18.  14,  10.  30,  4. 
+
+55,  22.  56,  23. 
+interrogatio  23,  18. 
+intimare  1,  8.  12,  6. 
+
+invidia  48,  25. 
+invisibiles  52,  1.  55,  27. 
+invocare  (deum)  16,  19.  53,  8.  (do¬ 
+minum)  21,  18. 
+involucris  5,  7. 
+
+irridere  16,  17.  (fidem)  51,  23.  24. 
+
+(christianum  nomen)  32,  29.  58, 14. 
+irrisiones  (infidelium)  12,  8. 
+
+Israel  39,  19.  42,  20.  48,  5. 
+
+
+70 
+
+
+Namen-  und  Sachregister. 
+
+
+Iudaea  47,  3.  50,  3. 
+
+Iudaei  12,  16.  39,  19.  44,  28.  45, 
+11.  21.  47,  28.  (48,  19).  24.  49, 
+2.  16.  50,  8.  53,  19.  58,  5.  59,  16. 
+iudex  31,  21.  32,  7.  (Christus)  51, 10. 
+iudicare  8,  17.  13,  10.  28,  21.  24. 
+
+44,  1.  52,  11.  54,  17.  28. 
+indicium  (ultimum)  12,  9.  23, 32.  37, 
+
+15.  38,  17.  43,  5.  51,  8.  58,  26. 
+iudicum  libri  4,  27. 
+
+iustificare  13,  12.  13.  19.  34,  6.  55, 
+10.  60,  18.  19. 
+iustificator  13,  13. 
+iustitia  7,  16.  32,  14.  35,  28.  29. 
+
+36,  6.  52,  10.  59,  29.  60,  12. 
+iustus  12,  12.  13,  11.  12.  37,  28. 
+
+38,  11.  27.  40,  20.  55,  12.  58,  25. 
+26.  (dei  leges)  36,  23.  (deus)  34, 
+26.  36,  16.  46,  11. 
+
+largitas  (domini)  2,  1. 
+latebrae  (aenigmatum)  16,  7. 
+latentes  (sancti)  46,  22. 
+latinus  2,  27.  29.  31.  3,  1.  3. 
+laudabilis  (deus)  35,  27.  28.  29.  36,  1. 
+laus  (dei)  22,  22.  52,  22. 
+lectio  21,  25. 
+
+lex  6,  10.  13.  (7,  5).  (9,  2).  41,  6. 
+17.  19.  21.  (46,  8).  47,  27.  48,  9. 
+54,  26.  (leges  dei)  36,  18.  24. 
+liber,  libri  6, 14.  14, 11. 20. 22.  15, 13. 
+
+16,  4.  51,  2.  (canonici)  14,  11. 
+
+56,  6.  (divini)  13,  5.  (iudicum  et 
+regnorum  et  Ezrae)  4,  28.  (psal¬ 
+morum)  45,  5.  (sancti)  23,  26.  42, 
+25.  (veteres)  45,  25. 
+
+liber  23,  20.  36,  11. 
+liberalis  13,  25. 
+
+liberare  9,  14.  21,  13.  38,  12.  44,  7. 
+
+45,  13.  57,  2.  23. 
+
+liberatio  38,  17.  43,  16.  45,  13. 
+
+
+liberator  (Christus)  45, 3.  8. 12.  (deus) 
+
+40,  12. 
+
+liberatus  36,  9. 
+libertas  44,  28. 
+libido  38,  19. 
+
+lignum  38,  11.  17.  40,  20.  22.  57,  22. * 
+litterae  8,  30.  13,  28.  16,  6.  (ca¬ 
+nonicae)  15,  5.  (christianae)  14, 30. 
+(divinae)  9,  6. 
+
+locutio  2,  22.  4,  8.  17,  15. 
+luxuria  31,  10. 
+
+• 
+
+maeror  18,  16. 
+maestitia  18,  15. 
+maestitudo  27,  15. 
+malitia  8,  21.  38,  6.  19. 
+malum  20,  29.  54,  12.  (-a  terrena) 
+46,  26. 
+
+malus  12,  10.  32,  16.  38,  8.  15. 
+mandare  8,  30.  9,  6. 
+manifestare  46,  2.  18.  48,  5. 
+manifestatio  9,  8.  11. 
+manifestus  3,  7.  7,  22.  9,  2.  40,  29. 
+
+41,  7.  58,  24. 
+marcescere  3,  15. 
+
+Maria  58,  3. 
+martyr  50,  17. 
+martyrium  58,  12. 
+
+mater  (caritas)  29, 21.  (Christi)  46, 28. 
+
+(ecclesia)  1,  20.  9,  15. 
+maternus  22,  5. 
+mathematicus  12,  30.  54,  6. 
+medicina  9,  18.  12,  21.  25,  19.  29, 
+18.  (dei)  21,  7. 
+
+membrum  (dei)41, 9.  (ecclesiae)  39, 25. 
+memoria  2,  25.  3,  7.  11.  5,  14.  9,  6. 
+memoriter  5,  1. 
+merces  55,  18. 
+
+mereri  36,  10.  52,  13.  53,  3.  59,  8. 
+meritum  25,  29.  37,  22.  53,  2.  (pieta¬ 
+tis)  52,  14.  (iniquitatis)  52,  15. 
+
+
+Namen-  und  Sachregister. 
+
+
+71 
+
+
+minister  (ecclesiae)  16,  18. 
+ministerium  3,  21.  10,  6. 
+
+ministrare  18,  1.  39,  20. 
+miraculum  11,  7.  15.  40,  13.  23.  43, 
+10.  49,  1.  51,  1.  58,  15. 
+miser  31,  24.  47,  9. 
+miserandus  23,  4. 
+miseria  8,  12.  9,  19.  36,  16. 
+misericordia  8,  12.  9,  20.  20,  26. 
+54,  3.  60,  25.  (dei)  10,  6.  36,  2. 
+57,  3. 
+
+misericors  11,  9.  21,  21.  23,  29.  25, 
+25.  27,  23.  (deus)  34,  27.  37,  25. 
+
+46,  11.  57,  2, 
+modulus  (temporis)  12,  8. 
+momentum  (temporis)  33,  27. 
+monere  11,  16.  13,  9.  15,  28.  17,  1. 
+
+27,  3.  28,  21.  56,  1. 
+mori  (Christus)  26,  20.  34,  23.  47, 
+
+19.  20.  (pro  fide)  50,  18. 
+
+mors  22,  29.  26,  21.  30,  23.  36,  20. 
+
+47,  21.  52,  15.  19.  60,  21. 
+mortalis  9,  24.  31,  2.  49,  6.  57,  7. 
+mortalitas  19,  7.  34,  22.  35,  12. 
+
+20.  36,  7. 
+mortificare  49,  9. 
+morulax  2,  25. 
+
+mos,  -res  13,  15.  15,  19.  30.  37,  22. 
+
+52,17.  55,24.  56,4. 
+motus  14,  1.  27,  13.  29,  15. 
+movere  5,  19.  7,  19.  16,  10.  17, 
+29.  23,  8.  22.  29,  10. 
+
+Moyses  40,  13.  23. 
+mundus  (spiritus)  34,  12. 
+mutare  (non  m.  deus)  55,  11.  (ver¬ 
+bum)  57,  6. 
+mutatio  46,  14. 
+
+mysterium  16,  7.  34,  24.  38,  13.  17. 
+39,  23. 
+
+mystice  23,  26.  44,  24. 
+
+
+narrare  4,  11.  5,  3.  13.  9,  1.  22. 
+
+11,  20.  28.  15,  18. 
+narratio  1,  9.  10.  4,  11.  20.  24.  10, 
+32.  11,  18.  12,  1.  3.  6.  23,  27. 
+nasci  (Christus)  6,  9.  20.  (34,  16). 
+
+39,  26.  46,  28.  47,  3.  58,  3. 
+nativitas  (domini)  39,  15.  (Iesu 
+Christi)  40,  7. 
+necessitas  (servilis)  36,  11. 
+
+Ninive  38,  3. 
+nobilitas  (carnalis)  47,  2. 
+nocere  (deo)  36,  15.  19. 
+
+Noe  45,  17. 
+
+nomen  (Christi)  54,  16.  58,  13.  19. 
+20.  (christianum)  53,  12.  13.  (in 
+n.  Christi)  48,  21.  25.  28.  (pro 
+n_  Chr.)  49,  25.  55,  17.  60,  22. 
+(sub  n.  Chr.)  50,  24.  57,  16. 
+notus  2,  17  (?). 
+nugacitas  31,  8. 
+nugae  11,  25. 
+
+oboedientia  (dei)  36,  14. 
+observare  41,  28.  42,  1.  55,  23. 
+observationes  (ciborum)  41,  23. 
+occultatio  9,  7.  9. 
+occultus  9,  12.  10,  9.  21,  6. 
+offendere  (deum)  33,  21. 
+offensio  21,  6. 
+omnicreans  (deus)  22,  22. 
+omnipotens  (deus)  33,  27.  34,  26. 
+
+53,  29. 
+
+omnipotentia  (dei)  35,  6.  52,  9. 
+operari  (deus)  34,  4.  7. 
+opus  (bonum)  18,  26.  21,  22.  34,  4. 
+(misericors)  21,  21.  27,  23.  (opp. 
+misericordiae)  60,  24. 
+oraculum  11,  8. 
+orare  43,  12.  44,  11. 
+orator  15,  23. 
+
+ordinare  26,  1.  11.  12.  36,  15. 
+
+
+72 
+
+
+Namen-  und  Sachregister. 
+
+
+ordo  (narrationis)  25,  18.  26,  4.  7. 11. 
+origo  (carnalis  Chr.)  45,  25, 
+
+paenitentia  87,  27.  88,  8.  54,  1. 
+
+(56,  15). 
+
+paenitere  88,  6.  49,  1. 
+paganus  54,  9.  59,  16. 
+parere  (Maria)  47,  1. 
+participatio  (sacramentorum)  13,  29. 
+pascha  (domini)  40,  29.  (Iudaeorum) j 
+48,  6.  (verum)  48,  12. 
+passio  (Christi)  39,  17.  40,  26.  41, 
+3.  48,  11.  (sanctorum)  58,  12.  j 
+pater  (Abraham)  45,  18.  (deus)  32,  9. 
+
+39,  27.  28.  53,  3.  57,  6.  60,  15. ! 
+paternus  22,  4. 
+
+pati  (Christus)  49,  20.  58,  5.  (pro 
+nom.  Chr.)  49,  25.  55,  17.  60,  22. 
+patiens  (deus)  37,  26.  53,  23.  (ec¬ 
+clesia)  59,  1. 
+
+patientia  20,  26.  38,  7.  (dei)  12,  22. 
+53,  (28).  29.  56,  13.  (domini)  49, 
+19.  (ecclesiae)  50,  27. 
+patriarcha  6,  8.  39,  18.  40,  5.  46, 
+2.  21. 
+
+Paulus  44,  11.  49,  23. 
+pax  23,  5.  31,  31.  (42,  11).  19.  (43, 
+13).  44,  18.  22.  28. 
+peccare  8,  17.  28,  6.  33,  17.  19. 
+35,  28.  36,  3. 
+
+peccator  (34,23).  35,24.  40, 19.  57, 19. 
+peccatum  27,  14.  22.  28,  5.  (29, 
+
+26).  34,  13.  (35,  12).  29.  40,  25. 
+(49,  7).  57,  13. 
+
+pecunia  (corporalis)  4,  17.  (dominica 
+2,  4.  28,  3.  6). 
+penetralia  19,  26. 
+pentateuchus  4,  27. 
+peregrinus  29,  11. 
+perfrui  (bonitate  et  pulchr.  dei)  59, 
+27.  (trinitate)  52,  29. 
+
+
+permittere  12,  23. 
+perniciosus  11,  30.  15,  11. 
+perpessio  21,  20. 
+perpetuus  33,  7.  35,  16. 
+persecutio  49,  17.  50,  10. 
+persequi  44,  9. 
+
+perseverare  13,  4.  38,  6.  51,  6. 
+perturbare  12,  5.  21,  4.  26,  18. 
+perversus  12,  18.  24.  15,  9. 
+
+Petrus  (48,  23). 
+
+pietas  35,  14.  37,  24. 
+
+pius  9,  11.  16,  22.  38,  27.  39,  1. 
+
+42,  14.  51,  12.  60,  25. 
+poena  (peccati)  35,  12.  (-ae  corpo¬ 
+rales)  39,  21.  (impiorum)  12,  11. 
+(sempiternae)  57,  1.  (temporales) 
+51,  19. 
+
+poenalis  9,  10. 
+
+pompa  31,  6.  37,  17.  56,  29.  59,  21. 
+popina  31,  7.  13.  32,  3. 
+populus  (carnalis)  46,  20.  (christia- 
+nus)  15,  12.  16,  21.  24,  16.  28, 
+28.  29,  2.  (dei)  5,  23.  40,  15.  20. 
+(Israel)  39,  19.  42,  20.  48,  5. 
+(Iudaeorum)  39,  5.  7.  40,  10.  12. 
+27.  41,  5.  17.  42,  5.  43,  6.  45, 
+20.  22.  23.  57,  24.  26.  58,  5. 
+portare  32,  22. 
+potestas  (dei)  36,  21. 
+praecantator  12,  29.  54,  6. 
+
+praeceptor  13,  20. 
+praeceptum  1,  10.  4,  16.  12,  25. 
+
+17,  4.  (-ti)  32,  13.  (dei)  57,  11. 
+j  praecipere  4,  21.  13,  23.  (deus)  34,  5. 
+
+46,  10.  26.  49,  10.  27. 
+praedicare  12,  13.  38,  1.  49,  18.  25. 
+praedicatio  22,  26. 
+praedicator  48,  26. 
+praedicere  12,  20.  50,  12.  22.  28. 
+
+54,  18.  57,  17.  23.  26.  58,  4.  6. 
+
+I  7.  13.  19.  24. 
+
+
+Namen-  und  Sachregister. 
+
+
+73 
+
+
+praedictum  58,  8. 
+
+praefigurare  34,  24.  44,  25. 
+
+praefiguratio  42,  19. 
+
+praemia  35,  28.  (aeterna)  37,  3. 
+
+(carnalia)  46,  22.  (visibilia)  46,  4. 
+praenuntiare  6,  9.  12.  23.  8,  29. 
+
+13,6.  34,25.  38,4. 10.  18.  50,7.15. 
+praesignare  5,  23. 
+praesumptio  15,  16. 
+praesumptor  15,  2. 
+praevaricator  54,  26. 
+pravus  12,  18.  15,  9.  30,  13. 
+professio  1,  12. 
+profunditas  37,  21. 
+proficere  13,  16. 
+
+promittere  8,  16.  25,  20.  28,  14. 
+32,  11.  13  33,  8.  43,  15.  45,  3. 
+47,  25.  49,  4.  52,  27.  56, 28.  59, 10. 
+propago  36,  7.  45,  20. 
+propheta  6,  8.  38,  4.  39,  18.  43,  8. 
+45,  6.  8.  46,  2.  21.  50,  7.  58, 
+4.  8.  10. 
+
+prophetare  6,  12.  34,  19.  39,  11. 
+
+44,  24.  45,  4.  9.  50,  15.  57,  27. 
+prophetia  39,  16.  41,  1.  45,  4. 
+prosperitas  33,  4. 
+provectus  17,  24. 
+prurigo  32,  5. 
+psalmorum  liber  45,  5. 
+pudor  24,  23. 
+pulchritudo  (dei)  59,  26. 
+putrescere  59,  3. 
+
+quaestio  12,  19.  15,  25. 
+
+ratio  (~nem  vitae  reddere)  51,  10. 
+52,  12. 
+
+refellere  10,  22.  12,  19. 
+regnare  44,  2.  (cum  Christo)  59,  7. 
+regnorum  libri  4,  28. 
+regnum  (aeternum  33,  10.  51,  15). 
+
+
+(caelorum)  60,  7.  (Christi)  47,  11. 
+(iustorum)  12,  11.  (spiritale)  42,  7. 
+(terrenum)  42,  7.  20.  49,  3. 
+regula  (doctrinae)  15,  18. 
+religio  10,  17.  23,  9. 
+remedia  (sacrilega)  12,  29.  54,  5. 
+
+renovatus  (homo)  46,  18. 
+reprobus  32,  22. 
+
+requies  30,  6.  7.  30.  32,  (10).  24. 
+
+(33,  24).  34,  13.  39,  10.  52,  21. 
+requiescere  30,  14.  17.  31,  7.  (34, 
+2.  3.  8).  34,  11. 
+
+res  (divinae)  55, 26.  (spiritales)  41, 25. 
+respondere  10,  19.  26.  11,  5.  30,  7. 
+
+55,  23.  56,  24.  25. 
+resurgere  47,  20.  58,  7.  59,  4.  8. 
+
+resurrectio  12,  6.  9.  47,  24.  48,  11. 
+
+49,  8.  51,  24.  58,  27.  59,  3. 
+revelare  23,  27.  39,  1.  12. 
+revelatio  11,  13.  34,  18. 
+rex  (Christus)  38,  12.  29.  39,  12. 
+
+42,  16.  19.  22.  (47,  8).  49,  4.  54, 
+29.  57,  28. 
+
+Romanus  44,  29. 
+
+rudis  1,  2.  4,  5.  10,  30.  14,  6.  17, 
+24.  20,  10.  29,  8.  50,  1.  56,  17. 
+ruina  30,  26. 
+rusticanus  24,  25.  30,  3. 
+rusticus  29,  2. 
+
+Sacramentum  (diluvii)  38,  11.  (ec¬ 
+clesiae)  57,  20.  (filii  dei)  39,  2. 
+ligni)  40,  22.  [salis]  16,  26.  55,  25. 
+(-a)  13,  29.  24,  20.  23.  (visibilia) 
+41,  22. 
+
+sacrificium  41,  24. 
+sacrilegus  12,  29.  54,  5. 
+saecularis  11,  27.  25,  11.  26,  21. 
+saeculum  (futurum)  56,  28.  (hoc)  5, 
+26.  21,  12.  23,  4.  30,  10.  26. 
+33,  3.  38,  13.  43,  19.  56,  29. 
+
+5** 
+
+
+74 
+
+
+Namen-  und  Sachregister. 
+
+
+(istud)  44,  6.  (-a  6,  7).  34,  24. 
+
+(-i  finis)  37,  13.  43,  3.  (-orum 
+
+finis)  6,  29. 
+
+sagina  (saecularis)  11,  27. 
+saluber  9,  5.  25.  14, 16.  24, 17.  54, 1. 
+salus  18, 4.  19,  30.  28, 1.  41,  28.  48,7. 
+salutare  10,  5. 
+salutaris  15,  18.  23,  2. 
+salvator  45,  23. 
+salvus  34,  19.  20. 
+sancti  5,  25.  6,  20.  33,  8.  34,  3. 
+18.  36,  7.  37,  12.  38,  17.  39, 
+14.  25.  40,  6.  41,  11.  27.  42,  29. 
+43,  18.  46,  22.  49,  22.  50,  3. 
+
+51,  18.  52,  21.  57,  28.  58,  12. 
+sanctificare  42,  11.  13.  55,  28. 
+sanctitas  35,  14.  56,  7.  59,  29. 
+sanctus  (Adj.)  5,  22.  6,8.  9,4.  11, 
+
+10.  14.  23,  26.  30,  27.  34,  12. 
+
+36,  9.  38,  28.  39,  18.  40,  13.  24. 
+41,  7.  11.  15.  42,  25.  45,  6.  47, 
+
+25.  48,  10.  12.  52,  26.  53,  3.  56, 
+4.  8.  11.  58,  9.  60,  15. 
+
+sanguis  (martyrum)  50,  17. 
+sanitas  31,  31. 
+sapientia  (dei)  35,  15. 
+satelles  36,  13. 
+
+scandalum  12,  15.  18,  16.  26,  18. 
+
+26.  27,  1. 
+scenicus  31,  23. 
+schisma  50,  23.  58,  19. 
+schismaticus  53,  17. 
+schola  15,  22. 
+scientia  13,  15. 
+scriptio  14,  29. 
+scriptor  15,  6. 
+
+scriptura  33,  24.  35,  17.  (divina) 
+
+.8,  28.  (sancta)  9,  4.  30,  27.  (-ae) 
+
+11,  7.  13,  28.  51,  8.  56,  2.  (ca¬ 
+nonicae)  14,  15.  (divinae)  16,  1. 
+.(sanctae)  5,  22.  11,  10.  14. 
+
+
+secretum  16,  6.  (-a)  52,  1. 
+
+secta  29,  14. 
+securitas  30,  11.  13. 
+securus  30,  18. 
+
+seducere  12,  31.  36,  20.  22.  53,  20. 
+57,  10.  59,  17. 
+
+sedulus  3,  21.  13,  9.  14,  26.  15,  28 
+sempiternus  19,  30.  32,  24.  33,  7 
+17.  46,  17.  47,  10.  51,  20.  52 
+16.  20.  57,  1. 
+
+sententia  17,  22.  (-ae)  16,  12. 
+separare  13,  5.  32,  25. 
+sermo  1,  6.  13.  2,  10.  15.  3,  25. 
+4,  5.  10,  7.  19.  16,  14.  30.  17, 
+4.  12.  19.  18,  14.  21.  21,  19.  26. 
+23,  13.  27.  25,  1.  26,  19.  27,  9. 
+28,  15.  29,  5.  15.  28.  44,  20. 
+
+30.  56,  16. 
+sermocinatio  28,  27. 
+servilis  36,  11.  41,  23. 
+servire  (deo)  34,  10.  50,  2.  (simu¬ 
+lacris)  39,  7.  53,  14. 
+servi  (Christi)  58,  16.  (christian. 
+
+43,  27.  57,  23.  (dei)  60,  26, 
+servitus  1,  21.  43,  7.  46,  4. 
+§everitas  (dei)  9,  24.  (iudicii  ultimi) 
+12,  10. 
+
+
+signacula  55,  26. 
+signa  11,  13.  (facere)  48,  22.  24. 
+signare  41,  4.  55,  24. 
+significare  16,  27.  39,  23.  41,  18. 
+42,  28.  43,  1.  17.  44,  5.  48,  10. 
+55,  30.  56,  4. 
+
+
+signum  40,  5.  (baptismi)  40,  24. 
+(crucis)  41,  3.  (liberae  civitatis) 
+42,  9.  (-a  rerum  futurarum)  42,  3. 
+(spiritalium)  41,  25. 
+silentium  53,  7.  (sanctum)  34,  12. 
+similitudo  16,  28.  20,  30.  56,  1. 
+simulacrum  39,  7.  53,  14. 
+simulare  32,  30. 
+
+
+Namen-  und  Sachregister. 
+
+
+75 
+
+
+simulatio  11,  2. 
+sincerus  19,  26.  25,  26. 
+sinta  31,  22. 
+
+sociari  (ecclesiae)  14,  21. 
+societas  15,  12.  23.  17.  37,  19.  25. 
+42, 29. 43, 1.  (sacramentorum) 24,20. 
+olatium  53,  10. 
+olidus  16,  2. 
+ollers  14,  14. 
+
+•llicitudo  24,  28. 
+
+,  loecismus  16,  19. 
+
+.omnia  11,  7. 
+sordere  16,  1. 
+
+spectaculum  12,  28.  31,  8. 14.  55,  1. 
+59,  20. 
+
+sperare  7,  25.  9,  23.  11,  15.  26, 
+28.  43,  13.  49,  7.  52,  27. 
+spes  12,  6.  13,  9.  31,  1.  32,  28. 
+
+55,  8.  14.  60,  16.  22. 
+spiritalis  9,  11.  13.  39,  23.  41,  21. 
+25.  42,  8.  44,  19.  45,  12.  46,  1. 
+23.  47,  12.  56,  4. 
+piritus  18,  25.  (28,  12).  (sanctus)  34, 
+18.  38,  29.  41,  7.  10.  15.  47,  25. 
+48,  10.  12.  53,  3.  58,  9.  60,  15. 
+(-us)  34,  12.  35,  4.  36,  13.  37, 
+18.  23.  42,  13. 
+statuere  (deus)  12,  22. 
+stilus  14,  18. 
+
+stipendiarius  (provincialis)  50,  5. 
+studium  31,  14. 
+
+superbia  9,  15.  37,  16.  38,  19.  28. 
+
+39, 13.  42, 15.  47, 10.  50, 20.  59, 22. 
+superbior  (animus)  14,  17. 
+superbire  36,  13. 
+supereminens  15,  20. 
+superior  (locus)  28,  28. 
+supernus  12,  12. 
+supplicia  35,  29.  (37,  1). 
+surrigere  51,  9. 
+
+.  uscipere  (religionem)  10,  17. 
+
+
+taedium  3,  15.  16.  17.  17,  15.  28. 
+
+21,  27.  25,  6.  17.  28,  8. 
+
+templum  44,  27.  45,  9. 
+tempora  (praesentia  ecclesiae)  4,  26. 
+
+11,  19.  (decursis  t.)  21,  13. 
+tentare  53,  15.19.23.  54,10.  60,26. 
+tentatio  12,  14.  21.  15,  19.  23,  31. 
+
+33,  11.  53,  9.  59,  14. 
+terra  (promissionis)  42,  6.  23.  45,  1. 
+terrenus  33,  2.  13.  35,  9.  23.  44, 
+
+4.  8.  47,  5.  8.  49,  9. 
+terrestris  35,  3.  47,  13. 
+testamentum  (novum)  9,  8.  46,  17. 
+
+(vetus)  9,  7.  46,  19. 
+testimonia  (divinorum  libr.)  13,  6. 
+theatrum  31,  8.  32,  4.  54,  9. 
+thermae  32,  5. 
+thymelicus  31,  23. 
+timere  (deum)  9,  26.  32,  29.  (ge¬ 
+hennam)  33,  16. 
+
+timor  23,  15.  26,  29.  30,  15.  (car¬ 
+nalis)  41,  21.  (dei)  9,  30.  (poe¬ 
+nalis)  9,  10.  (religionis)  23,  9. 
+tolerabilis  38,  8. 
+tolerantia  54,  3. 
+tolerare  13,  5.  16,  22. 
+tormenta  52,  18. 
+tornare  14,  18. 
+torpere  7,  20. 
+torpor  16,  8. 
+tractatum  14,  12. 
+tranquillitas  (temporalis)  44,  18. 
+transgredi  (praeceptum)  35,  18.  21. 
+57,  11. 
+
+transmarinus  24,  15. 
+tribulationes  51,  7.  55,  16.  58,  25. 
+tribunal  (Christi)  51,  10. 
+trinitas  52,  29.  60,  16.  (trinitatis 
+unitas)  53,  4. 
+tumor  39,  13. 
+
+turba  12,  25.  27,  5.  54,  8. 
+
+
+76 
+
+
+Namen-  und  Sachregister. 
+
+
+typhus  30,  26.  37,17.  47,2.  59,22. 
+typus  42,  27. 
+
+libertas  (beneficentiae)  8,  11.  (cari¬ 
+tatis)  28,  10. 
+
+unitas  41,  13.  (catholicae)  23,  31. 
+(communionis)  15,  11.  (ecclesiae) 
+53,  16.  (trinitatis)  53,  4. 
+uterus  (secreti  sui)  6,  5. 
+universalis  14,  27. 
+urbanus  29,  2.  30,  3. 
+
+vanus  11,  27.  12,  8.  30.  31,  6.  37, 17. 
+vegetare  35,  4. 
+venator  31,  23.  55,  2. 
+venerari  38,  25.  50,  20. 
+ventilatio  32,  23. 
+
+verbum  5, 1.  2.  15,  30.  16,  12.  20, 
+23.  51,  23.  (Christi)  21,  9.  (dei) 
+27,  27.  (domini)  31,  2.  50,  12. 
+(=  Logos)  39, 27.  42, 16. 17.  57,  4. 
+verecundia  23,  11.  17.  24,  11. 
+veritas  12,  3.  10.  14,  29.  15,  2.  7. 
+16,  8.  20,  3.  9.  27,  4.  36,  20. 
+
+50,  18.  54,  28.  56,  7.  59,  28. 
+verus  4,  6.  10,  24.  14,  25.  15,  2. 
+16,  13.  21,  1.  23,  7.  30,  11.  30. 
+32,  10.  39,  5.  43,  11.  44,  3.  9. 
+45,  22.  56,  27. 
+
+
+vesanus  20,  24. 
+
+via  15,  21.  20,  10.  23,  1.  54,  2. 
+
+55,  18.  (Christi)  13,  16.  (humili¬ 
+tatis)  47,  9.  (scripturarum)  11,  8. 
+vinculum  (amoris)  22,  16.  (-a  legis) 
+6,  10. 
+
+vindicare  35,  26. 
+vindicta  36,  25. 
+
+virgo  (Maria)  46,  29.  47,  1.  58.  3. 
+virtus  (dei)  40, 13.  (-es  Christi) 58, 14. 
+visibilis  41,  22.  46, 4.  55,  27.  56, 28. 
+vita  3,  28.  13,  4.  14,  30.  30,  5. 
+6.  12.  32,  10.  12.  33,  1.  8.  39,  25. 
+46,  4.  51,  10.  59,  22.  (aeterna) 
+46,  5.  51,  18.  57,  14.  60,  22. 
+
+(christiana)  1,  11.  (fidei)  22,  29. 
+(futura)  56,  5.  (nova)  40,  24,  46, 19. 
+(sempiterna)  52,  21.  (spiritalis)  46, 
+19.  49,  10. 
+vitium  15,  30. 
+
+vivere  (carnaliter)  46, 22.  (recte)  36, 1. 
+vivificare  35,  5. 
+vocare  (deus)  34,  5. 
+volumen  5,  2.  17,  7.  (caeli)  4,  2. 
+(-a  divinarum  litterarum)  9,  6. 
+(haeretici)  14,  25. 
+
+voluntas  2,  3.  10,  12.  26,  7.  36, 
+12.  23.  37,  14. 
+vorago  32,  3. 
+votum  16,  23. 
+
+
+Pierer’sche  Hofbuchdruckerei.  Stephan  Geibel  &  Co.  in  Altenburg. 
+
+

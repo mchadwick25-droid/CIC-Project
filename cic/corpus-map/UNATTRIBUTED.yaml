@@ -635,6 +635,14 @@ authors:
 
       '
     from_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
+  guelferbytanus-tractatus-novem:
+    kind: anonymous
+    evidence: 'The volume''s own title page names ''SS. Optati Milevitani, Quodvultdei Carthaginiensis
+      episcoporum aliorumque ex Augustini schola tractatus novem'' as a group of nine tractatus
+      from one codex, with no author given per tractatus; the slug names the work group.
+
+      '
+    from_file: augustine_sermones-guelferbytani-lat_morin1917.txt
   hegesippus:
     kind: metadata-omission
     evidence: div2 10.6 'Hegesippus' names the author.
@@ -891,6 +899,22 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  passion-of-marianus-and-jacobus:
+    kind: anonymous
+    evidence: 'Collection no. 15 is headed ''Martyrium des Marianus und Jakobus'' in the volume''s
+      own table of contents and body; the Latin account has no named author. The slug names
+      the work.
+
+      '
+    from_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
+  passion-of-montanus-and-lucius:
+    kind: anonymous
+    evidence: 'Collection no. 16 is headed ''Martyrium des Montanus und Lucius'' in the volume''s
+      own table of contents and body; the Latin account has no named author. The slug names
+      the work.
+
+      '
+    from_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
   passion-of-scillitan-martyrs:
     kind: anonymous
     evidence: 'div1 14: Latin court acta of the martyrs of Scilli (Carthage, 180 CE); no author

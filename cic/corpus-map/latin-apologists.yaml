@@ -403,6 +403,40 @@ works:
 
     '
   source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
+- work: The Passion of the Holy Martyrs Perpetua and Felicitas, Latin (Gebhardt 1902, no.
+    VII)
+  author: passion_of_perpetua
+  locus: file line 3489 ('Passio SS. Perpetuae et Felicitatis.'); collection no. VII
+  role: tradition
+  confidence: assigned
+  note: 'Latin second witness for the ALREADY-PRESENT English entry in latin-apologists.yaml
+    (source_file anf03_tertullian.xml) and for the Latin/Greek entry (source_file perpetua-scillitan-martyrs-lat-
+    grc_robinson1891.txt). Gebhardt''s collection (Berlin, 1902): the Latin acts are readable
+    OCR with occasional C/O letter misreads (for example ''Oypriano'' for ''Cypriano''), the
+    German apparatus is real text, and the Greek acts are not recoverable from this scan.
+    Readable running text, so each quote is verified verbatim against the file and against
+    the page image where a letter is doubtful (INTAKE section 6) before it is used. Mirrors
+    the existing entries'' role and confidence exactly.
+
+    '
+  source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
+- work: The Passion of the Holy Martyrs Perpetua and Felicitas, Latin (Knopf-Krueger 1929,
+    no. 8)
+  author: passion_of_perpetua
+  locus: file line 2910 ('PASSIO SS. FELICITATIS ET PERPETVAE'); collection no. 8 heading
+    at file line 2909
+  role: tradition
+  confidence: assigned
+  note: 'Latin second witness for the ALREADY-PRESENT English entry in latin-apologists.yaml
+    (source_file anf03_tertullian.xml) and for the Latin/Greek entry (source_file perpetua-scillitan-martyrs-lat-
+    grc_robinson1891.txt). Knopf''s collection in Krueger''s third edition (Tuebingen, 1929):
+    the Latin text is clean running OCR (a test passage, the Acta Cypriani, reads without
+    visible misreads), the German headnotes and apparatus are real text, and the Greek acts
+    are not recoverable from this scan. Each quote is verified verbatim against the file (INTAKE
+    section 6) before it is used. Mirrors the existing entries'' role and confidence exactly.
+
+    '
+  source_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
 - work: A Treatise on the Soul (De Anima)
   author: tertullian
   locus: div2 4.11 under div1 'Apologetic.'

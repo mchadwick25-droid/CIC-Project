@@ -1,0 +1,15 @@
+# Adhemar d'Ales's 1922 study of Cyprian's theology.
+source_file: dales_theologie-de-saint-cyprien-fra_1922.txt
+
+assignments:
+  - work: "La Theologie de saint Cyprien (d'Ales, 1922)"
+    author: dales
+    locus: "whole file; title page at file line 88"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1922) French scholarship, role context, not tradition. Not a primary source and not a
+      witness to any ancient text. A French monograph on Cyprian's theology, by the author of the
+      earlier studies on Tertullian and on the Edict of Callistus.

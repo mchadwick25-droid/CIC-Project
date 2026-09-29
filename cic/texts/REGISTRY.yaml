@@ -1278,8 +1278,8 @@
   supplied_by: Mark
   date_added: '2026-09-01'
   notes: >-
-    Michael Petschenig (ed.), Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53
-    (Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910) - Donatism world-build
+    Michael Petschenig (ed.), Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51, 52 and 53
+    (Vienna: Tempsky / Leipzig: Freytag, 1908, 1909 and 1910) - Donatism world-build
     Source_Acquisition_Manifest.md §1 request G5 (Source_Registry.md rows 17, 18, 39). Manually
     downloaded by Mark from archive.org and supplied as a DOCX file attachment - the same
     acquisition channel used for G1-G4. Converted mechanically via a zip/XML text extraction
@@ -1289,7 +1289,8 @@
     baptismo), but the OCR text continues well past that title page's own stated contents into
     further distinct works confirmed by their own internal Explicit/Incipit markers - Contra
     Cresconium (four books, explicitly named in the text), De unico baptismo, and the short Contra
-    Fulgentium Donatistam - with no second title page captured in this OCR to announce them.
+    Fulgentium Donatistam. Pars II and Pars III each have their own title page in the OCR (file lines
+    24196 and 60483), after the archive.org line 'Full text of ...' at file lines 24159 and 60439.
     UPDATE 2026-09-08 (sibling research session, session_01WLxhNbVhjkf1R2SAh8dxxT): this file
     ALSO contains the complete text of Augustine's Contra Gaudentium Donatistarum Episcopum,
     Libri II (c. 420) - both books, running roughly 12,000 lines - previously unnoticed and
@@ -1299,12 +1300,16 @@
     'uerba epistulae'"), making it a further significant repository of preserved Donatist voice
     alongside the Petilian material already relied on at rows 4/12. See Source_Registry.md row 56
     for the specific citation. The
-    consolidated errata section at the very end resolves this: it explicitly corrects both 'VOL. LI'
-    and 'VOL. LIII' by name (CSEL's own numbers for Pars I and Pars III), confirming this is a
-    library binding of Pars I AND Pars III together - Pars III's own title page evidently did not
-    survive this scan's OCR. Pars II (CSEL 52, Contra litteras Petiliani) is confirmed absent -
-    checked directly, found only as a cross-reference abbreviation ('Petil. = Contra litteras
-    Petiliani'), never as body text. This directly satisfies G5's actual purpose: both Contra
+    consolidated errata section at the very end corrects 'VOL. LI', 'VOL. LII' and 'VOL. LIII' by
+    name (CSEL's own numbers for Pars I, II and III): the file is a binding of Pars I, Pars II and
+    Pars III in that order. Pars II (CSEL 52: Contra litteras Petiliani libri III, Epistula ad
+    catholicos de secta Donatistarum, Contra Cresconium libri IV) starts at file line 24159, with
+    Contra litteras Petiliani at 24752, the Epistula ad catholicos at 36701 and Contra Cresconium
+    at 41781. Pars III (CSEL 53) holds De unico baptismo (60952), the Breviculus collationis
+    (62773), Contra partem Donati post gesta (66511), the Sermo ad Caesariensis (71499), Gesta cum
+    Emerito (72784), Contra Gaudentium (73265) and an Appendix (78734) of two works the editor
+    prints as spurious, the Sermo de Rusticiano subdiacono (78744) and the Libellus adversus
+    Fulgentium Donatistam (78988). This directly satisfies G5's actual purpose: both Contra
     Cresconium (row 17) and Contra epistulam Parmeniani (row 18) are present in this single file,
     corrected from this build thread's own earlier (mistaken) guidance to Mark that these two works
     sat in different, separately-acquired CSEL volumes. RIGHTS: 1908-1910 publication dates alone.
@@ -3761,3 +3766,416 @@
   notes: >-
     Synthetic text written directly for the fixture world, CC0. Not a real
     edition. Never cite it for any real world.
+- filename: augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0040/stoa041/stoa0040.stoa041.opp-lat1.xml (master
+    branch as fetched); CTS urn urn:cts:latinLit:stoa0040.stoa041.opp-lat1. Identity read from the
+    file's own TEI, not from any list: title 'De Fide et Operibus', author Augustine, editor Joseph
+    Zycha, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1900, series Corpus
+    scriptorum ecclesiasticorum Latinorum vol. 41, and a printed heading 'II.' matching the volume's
+    own Conspectus (On Faith and Works, printed pp. 33-97). Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed CSEL 41 is public
+    domain by date (title page MDCCCC, read in the scan augustine_opera-sect-v-pars-iii-
+    lat_zycha1900-csel41). Machine-corrected transcription (Jouve's OCR, corrected and encoded by the
+    Leipzig project), with the printed footnote apparatus in 134 <note> elements. Quality sample: word
+    forms of the body text found in a vocabulary built from the other csel-dev Augustine files, 0.955,
+    which is the rate of clean Latin (the raw scans score 0.5 to 0.9). Primary original (clean): ready
+    to quote after verbatim verification. The scan of the whole volume is vendored beside it as the
+    print check. Not a translation; not the printed page (page and line numbers are <lb/> elements).
+- filename: augustine_de-opere-monachorum-lat_zycha1900-csel41-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0040/stoa055/stoa0040.stoa055.opp-lat1.xml (master
+    branch as fetched); CTS urn urn:cts:latinLit:stoa0040.stoa055.opp-lat1. Identity read from the
+    file's own TEI, not from any list: title 'De Opere Monachorum', author Augustine, editor Joseph
+    Zycha, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1900, series Corpus
+    scriptorum ecclesiasticorum Latinorum vol. 41, and a printed heading 'XI.' matching the volume's
+    own Conspectus (Of the Work of Monks, printed pp. 529-596). Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed CSEL 41 is public
+    domain by date (title page MDCCCC, read in the scan augustine_opera-sect-v-pars-iii-
+    lat_zycha1900-csel41). Machine-corrected transcription (Jouve's OCR, corrected and encoded by the
+    Leipzig project), with the printed footnote apparatus in 141 <note> elements. Quality sample: word
+    forms of the body text found in a vocabulary built from the other csel-dev Augustine files, 0.933,
+    which is the rate of clean Latin (the raw scans score 0.5 to 0.9). Primary original (clean): ready
+    to quote after verbatim verification. The scan of the whole volume is vendored beside it as the
+    print check. Not a translation; not the printed page (page and line numbers are <lb/> elements).
+- filename: augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0040/stoa032/stoa0040.stoa032.opp-lat1.xml (master
+    branch as fetched); CTS urn urn:cts:latinLit:stoa0040.stoa032.opp-lat1. Identity read from the
+    file's own TEI, not from any list: title 'De agone christiano', author Augustine, editor Joseph
+    Zycha, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1900, series Corpus
+    scriptorum ecclesiasticorum Latinorum vol. 41, and a printed heading 'III.' matching the volume's
+    own Conspectus (On the Christian Combat, printed pp. 99-138). Licence element CC BY-SA 4.0,
+    carried verbatim in the header with the University of Leipzig attribution; the printed CSEL 41 is
+    public domain by date (title page MDCCCC, read in the scan augustine_opera-sect-v-pars-iii-
+    lat_zycha1900-csel41). Machine-corrected transcription (Jouve's OCR, corrected and encoded by the
+    Leipzig project), with the printed footnote apparatus in 79 <note> elements. Quality sample: word
+    forms of the body text found in a vocabulary built from the other csel-dev Augustine files, 0.964,
+    which is the rate of clean Latin (the raw scans score 0.5 to 0.9). Primary original (clean): ready
+    to quote after verbatim verification. The scan of the whole volume is vendored beside it as the
+    print check. Not a translation; not the printed page (page and line numbers are <lb/> elements).
+- filename: augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0040/stoa060/stoa0040.stoa060.opp-lat1.xml (master
+    branch as fetched); CTS urn urn:cts:latinLit:stoa0040.stoa060.opp-lat1. Identity read from the
+    file's own TEI, not from any list: title 'De Sancta Virginitate', author Augustine, editor Joseph
+    Zycha, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1900, series Corpus
+    scriptorum ecclesiasticorum Latinorum vol. 41, and a printed heading 'VI.' matching the volume's
+    own Conspectus (Of Holy Virginity, printed pp. 233-302). Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed CSEL 41 is public
+    domain by date (title page MDCCCC, read in the scan augustine_opera-sect-v-pars-iii-
+    lat_zycha1900-csel41). Machine-corrected transcription (Jouve's OCR, corrected and encoded by the
+    Leipzig project), with the printed footnote apparatus in 138 <note> elements. Quality sample: word
+    forms of the body text found in a vocabulary built from the other csel-dev Augustine files, 0.947,
+    which is the rate of clean Latin (the raw scans score 0.5 to 0.9). Primary original (clean): ready
+    to quote after verbatim verification. The scan of the whole volume is vendored beside it as the
+    print check. Not a translation; not the printed page (page and line numbers are <lb/> elements).
+- filename: augustine_de-bono-coniugali-lat_zycha1900-csel41-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0040/stoa035/stoa0040.stoa035.opp-lat1.xml (master
+    branch as fetched); CTS urn urn:cts:latinLit:stoa0040.stoa035.opp-lat1. Identity read from the
+    file's own TEI, not from any list: title 'De bono coniugali', author Augustine, editor Joseph
+    Zycha, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1900, series Corpus
+    scriptorum ecclesiasticorum Latinorum vol. 41, and a printed heading 'V.' matching the volume's
+    own Conspectus (On the Good of Marriage, printed pp. 185-231). Licence element CC BY-SA 4.0,
+    carried verbatim in the header with the University of Leipzig attribution; the printed CSEL 41 is
+    public domain by date (title page MDCCCC, read in the scan augustine_opera-sect-v-pars-iii-
+    lat_zycha1900-csel41). Machine-corrected transcription (Jouve's OCR, corrected and encoded by the
+    Leipzig project), with the printed footnote apparatus in 90 <note> elements. Quality sample: word
+    forms of the body text found in a vocabulary built from the other csel-dev Augustine files, 0.945,
+    which is the rate of clean Latin (the raw scans score 0.5 to 0.9). Primary original (clean): ready
+    to quote after verbatim verification. The scan of the whole volume is vendored beside it as the
+    print check. Not a translation; not the printed page (page and line numbers are <lb/> elements).
+- filename: augustine_de-mendacio-lat_zycha1900-csel41-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0040/stoa050/stoa0040.stoa050.opp-lat1.xml (master
+    branch as fetched); CTS urn urn:cts:latinLit:stoa0040.stoa050.opp-lat1. Identity read from the
+    file's own TEI, not from any list: title 'De Mendacio', author Augustine, editor Joseph Zycha,
+    imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1900, series Corpus scriptorum
+    ecclesiasticorum Latinorum vol. 41, and a printed heading 'VIIII.' matching the volume's own
+    Conspectus (On Lying, printed pp. 411-466). Licence element CC BY-SA 4.0, carried verbatim in the
+    header with the University of Leipzig attribution; the printed CSEL 41 is public domain by date
+    (title page MDCCCC, read in the scan augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41).
+    Machine-corrected transcription (Jouve's OCR, corrected and encoded by the Leipzig project), with
+    the printed footnote apparatus in 97 <note> elements. Quality sample: word forms of the body text
+    found in a vocabulary built from the other csel-dev Augustine files, 0.955, which is the rate of
+    clean Latin (the raw scans score 0.5 to 0.9). Primary original (clean): ready to quote after
+    verbatim verification. The scan of the whole volume is vendored beside it as the print check. Not
+    a translation; not the printed page (page and line numbers are <lb/> elements).
+- filename: augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0040/stoa029/stoa0040.stoa029.opp-lat1.xml (master
+    branch as fetched); CTS urn urn:cts:latinLit:stoa0040.stoa029.opp-lat1. Identity read from the
+    file's own TEI, not from any list: title 'Contra Mendacium', author Augustine, editor Joseph
+    Zycha, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1900, series Corpus
+    scriptorum ecclesiasticorum Latinorum vol. 41, and a printed heading 'X.' matching the volume's
+    own Conspectus (Against Lying, to Consentius, printed pp. 467-528). Licence element CC BY-SA 4.0,
+    carried verbatim in the header with the University of Leipzig attribution; the printed CSEL 41 is
+    public domain by date (title page MDCCCC, read in the scan augustine_opera-sect-v-pars-iii-
+    lat_zycha1900-csel41). Machine-corrected transcription (Jouve's OCR, corrected and encoded by the
+    Leipzig project), with the printed footnote apparatus in 105 <note> elements. Quality sample: word
+    forms of the body text found in a vocabulary built from the other csel-dev Augustine files, 0.942,
+    which is the rate of clean Latin (the raw scans score 0.5 to 0.9). Primary original (clean): ready
+    to quote after verbatim verification. The scan of the whole volume is vendored beside it as the
+    print check. Not a translation; not the printed page (page and line numbers are <lb/> elements).
+- filename: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item corpusscriptoru18wiengoog (Google scan, Harvard College Library copy;
+    possible-copyright-status NOT_IN_COPYRIGHT; no rights field). CSEL vol. XXXXI (Sect. V Pars III),
+    Sancti Aureli Augustini De fide et symbolo ... De patientia, ex recensione Iosephi Zycha, Prague,
+    Vienna, Leipzig, F. Tempsky / G. Freytag, MDCCCC (title page read in the OCR; the host's date
+    field says 1866, which is wrong for this volume). It is the scan the csel-dev TEI files cite as
+    their printed source. Quality sample: 40,000 characters from the middle, garbage-symbol rate
+    0.0044; word forms found in a Latin vocabulary built from clean csel-dev Augustine files 0.87,
+    0.80 and 0.87 at 20, 50 and 80 percent of the text (clean Latin scores 0.93 to 0.96; the gap is
+    apparatus and manuscript sigla); 99 percent of the word forms of each of the seven TEI works are
+    found in this scan. Readable Latin with the apparatus criticus interleaved. For the seven works
+    with a TEI file it is the print check and second witness; for De fide et symbolo, De continentia,
+    De bono viduitatis, De adulterinis coniugiis, De divinatione daemonum, De cura pro mortuis gerenda
+    and De patientia it is the only Latin witness vendored, primary once quotes are verified against
+    the file. Not a translation; not the csel-dev TEI.
+- filename: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item augustindecatech00augu (University of Illinois Urbana-Champaign copy; no
+    rights field). Title page read in the OCR: Augustin De catechizandis rudibus, herausgegeben von
+    Adolf Wolfhard, zweite, vollstaendig neubearbeitete Ausgabe von G. Krueger, Freiburg i. B. und
+    Leipzig 1893, Akademische Verlagsbuchhandlung von J. C. B. Mohr (Sammlung ausgewaehlter kirchen-
+    und dogmengeschichtlicher Quellenschriften, Viertes Heft). Quality sample: garbage-symbol rate
+    0.0020; word forms found in the Latin vocabulary 0.87, 0.88 and 0.80 at 20, 50 and 80 percent (the
+    gap from clean Latin is the German notes and the printed line numbers); the Latin lines read as
+    running text. Primary original once quotes are verified against the file. Alternates checked and
+    not vendored: liberdecatechiza00augu (Fausset, Methuen, third edition 1915, Latin with English
+    notes, clean OCR, a school text), decatechizandisr0000augu and saureliaugustini00augu_0
+    (Christopher, Catholic University of America Patristic Studies 8, 1926; translation with
+    introduction and commentary, not a Latin edition). Krueger's was chosen as the scholarly edition
+    of the three Latin candidates: its Vorwort describes a wholly new working of the text. Not a
+    modern critical edition; not a translation.
+- filename: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item sanctiaureliia05augu (University of Toronto, pimslibrary collection copy; no
+    rights field). Opera omnia of Augustine, Maurist text, editio novissima accurante J.-P. Migne,
+    Tomus quintus (Sermones), Paris, Petit-Montrouge; host date 1841, the volume's preface is dated
+    1841, and the title-page year is garbled in the OCR (read as '18VI'). Contents by the volume's
+    Elenchus: sermon classes I to IV plus the Classis V sermones dubii (Classis I at file line 699,
+    Classis IV at 106615, Classis V at 117124). Quality sample: 40,000 characters mid-text, garbage-
+    symbol rate 0.0013, but word forms found in the Latin vocabulary only 0.57, 0.62 and 0.53 at 20,
+    50 and 80 percent (clean Latin 0.93 to 0.96): systematic misreads such as 'Aposlolum', 'Pelruin',
+    'Vcntum', 'cst'. Second witness only until a passage is checked against the page image. Not a
+    modern critical edition; not a translation. The file is about 9.4 MB.
+- filename: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item p2sanctiaureliiau03augu (University of Toronto, pimslibrary collection copy;
+    no rights field). Patrologiae cursus completus, series Latina, Tomus XXXV, S. Aurelius Augustinus,
+    Tomus tertius pars altera, Paris, Garnier Freres and J.-P. Migne successors, 1902 (title page read
+    in the OCR; the host's date field says 1841, the date of Migne's first printing, not of this
+    copy). Holds Quaestionum Evangeliorum, In Ioannis Evangelium tractatus CXXIV (file line 4549), In
+    Epistolam Ioannis ad Parthos tractatus X (46895), the Pauline expositions and the appendix.
+    Quality sample: garbage-symbol rate 0.0011; word forms found in the Latin vocabulary 0.75, 0.73
+    and 0.70 at 20, 50 and 80 percent (clean Latin 0.93 to 0.96): scattered misreads about one word in
+    ten. Second witness only until a passage is checked against the page image. Not a modern critical
+    edition; not a translation. The file is about 4.4 MB.
+- filename: augustine_sermones-guelferbytani-lat_morin1917.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item MN41725ucmf_2 (University of Chicago microfilm copy; no rights field). Title
+    page read in the OCR: Sancti Aureli Augustini Tractatus sive Sermones inediti ex codice
+    Guelferbytano 4096 detexit ... primus edidit Germanus Morin O.S.B., accedunt SS. Optati
+    Milevitani, Quodvultdei Carthaginiensis episcoporum aliorumque ex Augustini schola tractatus
+    novem, Kempten and Munich, Koesel, MCMXVII (the imprimatur is dated 19 September MCMXVII). Quality
+    sample: garbage-symbol rate 0.0020; word forms found in the Latin vocabulary 0.88, 0.87 and 0.83
+    at 20, 50 and 80 percent; the Latin runs as readable text. The item's host page count (32 images)
+    is a microfilm catalogue figure, not the length of the text (about 630,000 characters). Primary
+    original once quotes are verified against the file: the only witness of these sermons vendored.
+    Ascription of individual sermons is Morin's to argue. Not a translation.
+- filename: augustine_sermones-inediti-lat_caillau1842.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item bub_gb_smqVbL56i0oC (Google Books scan; licence URL the Public Domain Mark
+    1.0, supporting evidence only; no rights field). Title page read in the OCR: Sancti Aurelii
+    Augustini, Hipponensis episcopi, Sermones inediti, cura et studio D. A. B. Caillau, Parisiis, apud
+    Paul Mellier, the year reading '184S' (host date 1842). Quality sample: garbage-symbol rate
+    0.0050, word forms found in the Latin vocabulary 0.65, 0.55 and 0.44 at 20, 50 and 80 percent
+    (clean Latin 0.93 to 0.96): the Latin runs as text but about one word in five or six is misread.
+    Read as running text, so vendored, but second witness only until a passage is checked against the
+    page image. Not a modern critical edition; several sermons are of doubtful authorship, and this
+    file does not decide any of them. Not a translation.
+- filename: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item ausgewahltemarty0000drud (Graduate Theological Union copy, lending-library
+    scan; text layer open; no rights field). Title page read in the OCR: Sammlung ausgewaehlter
+    kirchen- und dogmengeschichtlicher Quellenschriften, Neue Folge 3, Ausgewaehlte Maertyrerakten,
+    herausgegeben von D. Rudolf Knopf, dritte, neubearbeitete Auflage von D. Dr. Gustav Krueger,
+    Tuebingen, J. C. B. Mohr, 1929. The printed year 1929 is inside the 1930-or-earlier rule. Thirty-
+    one acts (the contents list). Quality sample: garbage-symbol rate 0.0017; the Latin acts read
+    without visible misreads (the opening of the Acta Cypriani, file lines 4820 to 4850, read line by
+    line); zero Greek-script characters in the whole OCR, so the Greek acts are Latin-letter noise.
+    Primary original for the Latin acts once quotes are verified; second witness at best for anything
+    Greek, which is not recoverable here. Not a translation.
+- filename: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item actamartyrumsele0000gebh (Claremont School of Theology copy, lending-library
+    scan; text layer open; no rights field). Title page read in the OCR: Acta martyrum selecta,
+    Ausgewaehlte Maertyreracten und andere Urkunden aus der Verfolgungszeit der christlichen Kirche,
+    herausgegeben von Oscar von Gebhardt, Berlin, Alexander Duncker, 1902. Quality sample: garbage-
+    symbol rate 0.0028; the Latin acts are readable with occasional C/O misreads ('Oypriano'); zero
+    Greek-script characters in the whole OCR, so the Greek acts are Latin-letter noise. Primary
+    original for the Latin acts once quotes are verified against the file and the page image; the same
+    acts are in the Knopf-Krueger 1929 file, which reads cleaner. Not a translation.
+- filename: koch_cyprianische-untersuchungen-deu_1926.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item cyprianischeunte0000hugo (lending-library scan; text layer open; no rights
+    field unless stated). Title page read in the OCR: Hugo Koch, Cyprianische Untersuchungen (Arbeiten
+    zur Kirchengeschichte, hg. von Karl Holl und Hans Lietzmann, 4), Bonn, A. Marcus und E. Weber's
+    Verlag, 1926 (title page; the imprint carries 'Copyright 1926', which is inside the 1930-or-
+    earlier rule). Quality sample: 40,000 characters from the middle of the text, garbage-symbol rate
+    0.0053, and the running text reads cleanly. The OCR opens with library noise before the title
+    page. Second-order scholarship, not a primary source and not a witness to any ancient text; rights
+    rest on the printed date, not on any host statement. Not a translation.
+- filename: koch_cyprian-und-der-roemische-primat-deu_1910.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item cyprianunderrm00koch (University of Toronto copy; no rights field unless
+    stated). Title page read in the OCR: Hugo Koch, Cyprian und der roemische Primat, Texte und
+    Untersuchungen 35.1, Leipzig, J. C. Hinrichs'sche Buchhandlung, 1910 (title page). Quality sample:
+    40,000 characters from the middle of the text, garbage-symbol rate 0.0005, and the running text
+    reads cleanly. Second-order scholarship, not a primary source and not a witness to any ancient
+    text; rights rest on the printed date, not on any host statement. Not a translation.
+- filename: koch_cathedra-petri-deu_1930.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item cathedrapetrineu0011koch (lending-library scan; text layer open; no rights
+    field unless stated). Title page read in the OCR: Hugo Koch, Cathedra Petri: Neue Untersuchungen
+    ueber die Anfaenge der Primatslehre, Beihefte zur ZNW 11, Giessen, Alfred Toepelmann, 1930 (title
+    page reads 1930, the last year inside the 1930-or-earlier rule). Quality sample: 40,000 characters
+    from the middle of the text, garbage-symbol rate 0.0005, and the running text reads cleanly.
+    Second-order scholarship, not a primary source and not a witness to any ancient text; rights rest
+    on the printed date, not on any host statement. Not a translation.
+- filename: poschmann_abendlaendische-kirchenbusse-deu_1928.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item dieabendlandisch0000drbe (lending-library scan; text layer open; no rights
+    field unless stated). Title page read in the OCR: Bernhard Poschmann, Die abendlaendische
+    Kirchenbusse im Ausgang des christlichen Altertums, Muenchener Studien zur historischen Theologie,
+    Heft 7, Munich, Kosel and Pustet, 1928 (title page and 'Copyright 1928'). The author's
+    continuation announced in the preface is not this file and was not fetched. Quality sample: 40,000
+    characters from the middle of the text, garbage-symbol rate 0.0010, and the running text reads
+    cleanly. Second-order scholarship, not a primary source and not a witness to any ancient text;
+    rights rest on the printed date, not on any host statement. Not a translation.
+- filename: dales_theologie-de-saint-cyprien-fra_1922.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item latheologiedesai0000adal (lending-library scan; text layer open; the host
+    lists the language as English, the text is French; no rights field unless stated). Title page read
+    in the OCR: A. d'Ales, La Theologie de saint Cyprien, Bibliotheque de Theologie historique, Paris,
+    Gabriel Beauchesne, 1922 (title page). Quality sample: 40,000 characters from the middle of the
+    text, garbage-symbol rate 0.0006, and the running text reads cleanly. Second-order scholarship,
+    not a primary source and not a witness to any ancient text; rights rest on the printed date, not
+    on any host statement. Not a translation.
+- filename: benson_cyprian-his-life-his-times-his-work_1897.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item cyprianhislifehi00bensuoft (University of Toronto copy from Trinity College;
+    possible-copyright-status NOT_IN_COPYRIGHT; no rights field unless stated). Title page read in the
+    OCR: Edward White Benson, Cyprian: His Life, His Times, His Work, London, Macmillan, 1897 (title
+    page). Quality sample: 40,000 characters from the middle of the text, garbage-symbol rate 0.0003,
+    and the running text reads cleanly. The OCR opens with a lending-library rules leaf before the
+    title page. Second-order scholarship, not a primary source and not a witness to any ancient text;
+    rights rest on the printed date, not on any host statement. Not a translation.
+- filename: mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item lafriquechrtienn00mesn (University of Toronto copy (Robarts); no rights
+    field unless stated). Title page read in the OCR: J. Mesnage, L'Afrique chretienne: eveches et
+    ruines antiques, d'apres les manuscrits de Mgr Toulotte, Paris, Ernest Leroux, 1912 (title page).
+    Quality sample: 40,000 characters from the middle of the text, garbage-symbol rate 0.0012, and the
+    running text reads cleanly. Second-order scholarship, not a primary source and not a witness to
+    any ancient text; rights rest on the printed date, not on any host statement. Not a translation.
+- filename: toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item geographiedelaf03toulgoog (Google scan; possible-copyright-status
+    NOT_IN_COPYRIGHT; the host labels it volume 2; no rights field unless stated). Title page read in
+    the OCR: Anatole Toulotte, Geographie de l'Afrique chretienne, Numidie, Rennes-Paris, Typographie
+    Oberthur, 1894 (title page; the volume is the Numidian one, with the running head 'L'Afrique
+    chretienne / Numidie'). The other provincial volumes were not fetched. Quality sample: 40,000
+    characters from the middle of the text, garbage-symbol rate 0.0052, and the running text reads
+    cleanly. The Google digitization notices remain in the text. Second-order scholarship, not a
+    primary source and not a witness to any ancient text; rights rest on the printed date, not on any
+    host statement. Not a translation.
+- filename: audollent_carthage-romaine-fra_1901.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item carthageromaine184audo (Getty Research Institute copy; no rights field
+    unless stated). Title page read in the OCR: Auguste Audollent, Carthage romaine, 146 avant Jesus-
+    Christ - 698 apres Jesus-Christ, Bibliotheque des Ecoles francaises d'Athenes et de Rome, fasc.
+    84, Paris, Albert Fontemoing, 1901 (title page). Quality sample: 40,000 characters from the middle
+    of the text, garbage-symbol rate 0.0002, and the running text reads cleanly. Second-order
+    scholarship, not a primary source and not a witness to any ancient text; rights rest on the
+    printed date, not on any host statement. Not a translation.
+- filename: vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Slice of the Internet Archive item quellenundforsch12deutuoft (University of Toronto, Robarts
+    copy; possible-copyright-status NOT_IN_COPYRIGHT), Quellen und Forschungen aus italienischen
+    Archiven und Bibliotheken, Band XII. The title page in the OCR reads 'ROM, VERLAG VON LOESCHER &
+    C. (W. REGENBERG) 1909'; the host's date field says 1898, which is a catalogue error, and the
+    title page's 1909 matches the vendored von Soden Prosopographie header. The volume's table of
+    contents lists 'H. v. Soden, Der Ketzertaufstreit zwischen Stephanus von Rom und Cyprian von
+    Karthago, 1-42'; the printed article heading is 'Der Streit zwischen Rom und Karthago ueber die
+    Ketzertaufe', with the running head 'Der Ketzertaufstreit'. Sliced by the same mechanical method
+    as vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt: from the article heading through
+    its last sentence ('... nicht zuteil werden wuerde.', the last line of printed page 42), before
+    'TOSCANISCHE STUDIEN VON FEDOR SCHNEIDER' begins page 43; runs of two or more spaces collapsed to
+    one and trailing spaces removed line by line, nothing else altered. The Prosopographie article
+    states that it is the third part of this work. OCR sample: garbage-symbol rate about 0.001; the
+    German reads cleanly with occasional OCR noise (for example 'di(^'). Second-order scholarship, not
+    a primary source. Not a translation.
