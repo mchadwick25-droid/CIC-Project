@@ -4115,4 +4115,52 @@ effectively exhausted (129 credits - not enough for any real movement).
 Next real progress needs either the plan's renewal or Mark's earlier
 standing option (a one-month Pro upgrade) - his call, not assumed here.
 Same standing open items: the 11 distinct-voice picks, and the
+
+---
+
+## 2026-09-29 (final) — Church Family Tree narration complete: all 292
+movements, one run
+
+**Origin.** Mark upgraded - not to the Pro plan floated earlier, but to
+ElevenLabs' Creator tier: 121,129 credits, fully unused. Checked the
+real remaining scope before spending anything: 227 movements,
+208,464 characters. At the now-confirmed 0.40 credits/char rate, that
+needs ~83,386 credits - comfortably inside the 121,129 available, with
+~37,743 to spare. For the first time this thread didn't need to split
+the batch or guess a `--char-budget` at all - ran
+`node tools/generate_tree_narration.mjs` with no flags, the full
+remaining set in one call.
+
+**Result: 227/227 generated, first attempt, zero failures.** The
+confirmed rate held exactly as predicted. Verified the same way every
+prior batch was, at full scale: all 292 audio files on disk are real
+MP3s (checked for any undersized/truncated file - none found); page
+regeneration touched exactly the 227 expected pages, 7 lines each,
+nothing else; three pages spanning early/mid/late in the batch
+spot-checked live in a real Chromium browser (real durations 60-79s
+each, zero page errors). Committed and pushed as one commit
+(`454f89069`, 454 files) - 321MB total added to the repo, landing
+exactly inside the size range the earlier storage-ruling entry
+projected (320-340MB) before Mark chose plain git-committed storage
+over Git LFS.
+
+**Every one of the census's 292 movements now has real narration audio
+on its tree page.** The Church Family Tree narration pass this whole
+thread has been running - dry-run tooling, `--char-budget` splitting,
+five separately-authorized spend rounds tracking a moving credit ratio
+down to an exact confirmed rate - is done.
+
+### Next action
+
+Two real items remain, both already on record and neither blocking what
+just shipped: (1) the 11 built-world movements are still narrated on
+the single default voice (Josh) - the distinct per-Representative
+voice pass is still Mark's to start, picking 11 voices in ElevenLabs'
+own dashboard and filling `tools/tree-narration-voices.mjs`, then a
+`--force` re-run of just those 11; (2) the listening page
+(`https://claude.ai/artifact/5X7Uve379MFSzhRRwwjMs9`) still shows only
+the first 65 - due for a refresh whenever Mark wants to hear the full
+292, not urgent on its own. Eras/rivers narration remains its own
+separate, not-yet-scoped follow-on (new prose would need to be written
+first, per the original scoping decision).
 listening page refresh whenever Mark wants to hear the latest 65.
