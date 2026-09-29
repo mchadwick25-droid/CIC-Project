@@ -91,46 +91,28 @@ def scan() -> set[str]:
     return broken
 
 
-PACKAGE_CITATION = re.compile(r"packages/([^/]+)/([^/]+)/(.+)")
+PACKAGE_FILE = re.compile(r"^packages/([^/]+)/([^/]+)/(.+)$")
 
 
-def current_pin_dir(code: str) -> Path | None:
-    """A world's live package: the registry's own pin, else the newest directory."""
-    entry = REPO / "records" / "worlds" / f"{code}.yaml"
-    if entry.exists():
-        m = re.search(r"^\s*location:\s*[\"']?(packages/[^\s\"']+)", entry.read_text(encoding="utf-8"), re.M)
-        if m and (REPO / m.group(1)).is_dir():
-            return REPO / m.group(1)
-    world_dir = REPO / "packages" / code
-    pins = sorted(p for p in world_dir.glob("*") if p.is_dir()) if world_dir.is_dir() else []
-    return pins[-1] if pins else None
-
-
-def package_file_resolves(code: str, pin: str, rest: str) -> bool:
-    """Compiled package output is not checked in; only each pin's manifest.json is. A citation
-    into packages/<code>/<pin>/<rest> therefore resolves when <rest> is a file (or folder) the
-    manifest lists. A cited pin that repinning has since replaced is read against the live pin,
-    so the timestamp segment can churn without breaking the citation."""
-    pin_dir = REPO / "packages" / code / pin
-    if not pin_dir.is_dir():
-        pin_dir = current_pin_dir(code)
-    manifest = pin_dir / "manifest.json" if pin_dir else None
-    if manifest is None or not manifest.is_file():
+def in_package_manifest(tok: str) -> bool:
+    """A compiled package is derived output: .gitignore keeps only its manifest.json, so a clean
+    checkout never holds the files inside. The manifest lists every file the package contains,
+    which makes a citation of one verifiable without the derived file being present."""
+    m = PACKAGE_FILE.match(tok.rstrip("/"))
+    if not m:
         return False
-    rest = rest.rstrip("/")
-    if rest == "manifest.json":
-        return True
-    listed = json.loads(manifest.read_text(encoding="utf-8")).get("files", {})
-    return rest in listed or any(name.startswith(rest + "/") for name in listed)
+    manifest = REPO / "packages" / m.group(1) / m.group(2) / "manifest.json"
+    try:
+        files = json.loads(manifest.read_text(encoding="utf-8")).get("files", {})
+    except (OSError, ValueError):
+        return False
+    return m.group(3) in files
 
 
 def resolves(tok: str) -> bool:
     target = REPO / tok.rstrip("/")
-    if target.exists():
+    if target.exists() or in_package_manifest(tok):
         return True
-    pkg = PACKAGE_CITATION.fullmatch(tok.rstrip("/"))
-    if pkg:
-        return package_file_resolves(*pkg.groups())
     # A filename wrapped across lines ("anf01_apostolic-fathers-justin-") or cited
     # by its stem ("cic/texts/anf01") resolves if exactly one entry carries that prefix.
     parent, stem = target.parent, target.name.rstrip("-_")

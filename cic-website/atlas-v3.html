@@ -41427,7 +41427,7 @@ function openPanelStory(s){
     <p class="meta">${esc(String(s.year))} · ${esc(s.region||'')}</p>
     <span class="statuspill">${esc(s.confidence)} · a story, not a movement</span>`;
   if(s.teaser)h+=`<p class="teaser">${esc(s.teaser)}</p>`;
-  if(s.text)h+=`<h3>The Story</h3><p>${esc(s.text)}</p>`;
+  if(s.text)h+=`<h3>The Story</h3><div class="narration"><audio controls preload="none"><source src="audio/stories/${esc(s.id)}.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>${esc(s.text)}</p>`;
   if(s.caveat)h+=`<h3>What's solid, what's retold</h3><p>${esc(s.caveat)}</p>`;
   if(hasContent(s.relationsSummary))h+=`<h3>How it connects</h3><p><i>${esc(s.relationsSummary)}</i></p>`;
   const related=(s.relatedIds||[]).map(id=>byId[id]).filter(Boolean);
