@@ -1,7 +1,8 @@
 """Deployed-artifact gates.
 
-  deployed   the compiled prompt carries every confirmed item and its rule
-             counts equal the records; the pinned package is not stale
+  deployed   the compiled prompt carries every confirmed item and the
+             approved-source anchoring paragraph, and its rule counts equal
+             the records; the pinned package is not stale
   citations  every record id and cic/texts path a document names resolves,
              and is the right record type for how it is cited
   probes     the probe runner tests only packages/<code>/<pin>/compiled/

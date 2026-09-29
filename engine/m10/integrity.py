@@ -1,17 +1,18 @@
 """Record Integrity read.
 
   integrity  the Construction Framework's Record Integrity Principle, checked
-             at freeze in four parts: every open item an earlier document
-             lists has an Open_Gaps_Tracking.md entry; no superseded file or
-             second live version of a document sits unmarked in the world
-             folder; no Construction Notes file states a record count the
-             records contradict; the deployed artifact is checked directly,
-             so a fix described as applied is found there or is a finding
+             at freeze in four parts: every finding an earlier document
+             records as open has an Open_Gaps_Tracking.md entry; no
+             superseded file or second live version of a document sits
+             unmarked in the world folder; no Construction Notes file states
+             a record count the records contradict; the deployed artifact is
+             checked directly, so a fix described as applied is found there
+             or is a finding
 
 Three parts of the Principle cannot be checked by a script and are left out:
 that a fix closes the earlier documents in the same change set, that a fix
 recommendation is executed or deferred with a stated reason, and that
-Construction Notes describe a defect as open only while it is. The open-items
+Construction Notes describe a defect as open only while it is. The first
 part covers the deferred half of the second. A person reads the rest.
 """
 from __future__ import annotations
