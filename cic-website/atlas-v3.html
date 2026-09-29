@@ -211,10 +211,12 @@ svg#world{display:block;overflow:visible}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
-#panel .narration{margin:.3rem 0 .8rem}
-#panel .narration audio{width:100%;max-width:100%}
+#panel .story-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;flex-wrap:wrap}
+#panel .story-row h3{margin:1rem 0 0}
+#panel .narration{flex:0 1 auto;min-width:0;margin:1rem 0 0}
+#panel .narration audio{display:block;height:1.9rem;max-width:180px;width:180px}
 #panel .narration-disclosure{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
-  color:var(--ink-faded);margin:.4rem 0 0}
+  color:var(--ink-faded);margin:.3rem 0 .8rem}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
@@ -41317,9 +41319,9 @@ function openPanel(m){
   // narration is deliberately not wired in here yet, since their audio
   // still narrates the superseded longDescription text rather than their
   // real, current orientation.story (see tools/generate_tree_narration.mjs).
-  if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'
-    +'<div class="narration"><audio controls preload="none"><source src="audio/tree/'+esc(m.id)+'.mp3" type="audio/mpeg"></audio>'
-    +'<p class="narration-disclosure">Read by a synthesized voice — not a recording, not a re-enactment.</p></div>'
+  if(!isBuiltWorld&&m.longDescription)h+='<div class="story-row"><h3>The Story</h3>'
+    +'<div class="narration"><audio controls preload="none"><source src="audio/tree/'+esc(m.id)+'.mp3" type="audio/mpeg"></audio></div></div>'
+    +'<p class="narration-disclosure">Read by a synthesized voice — not a recording, not a re-enactment.</p>'
     +m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
