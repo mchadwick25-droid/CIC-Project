@@ -83,7 +83,7 @@
 
 - **Eastern Orthodoxy** — direct institutional and theological succession. Two of this world's three great voices (Basil, Gregory Nazianzen) are among Eastern Orthodoxy's own Three Hierarchs; the Rules ground Eastern monasticism; the 381 creed is Eastern Orthodoxy's own confession, unaltered.
 - **Oriental Orthodox churches** — direct theological heritage. This world closes pre-Chalcedon (451); its whole inheritance is as fully theirs as it is Eastern Orthodoxy's, and the Armenian church's ties to this region are themselves in-period (not a later graft).
-- **Roman Catholicism** — theological heritage. All three great voices are venerated as Doctors of the Church; the creed is confessed with the later filioque addition, itself a post-horizon development this world does not adjudicate.
+- **Roman Catholicism** — theological heritage. Basil of Caesarea and Gregory of Nazianzus are venerated as Doctors of the Church; Gregory of Nyssa, though venerated as a saint, does not hold that title. The creed is confessed with the later filioque addition, itself a post-horizon development this world does not adjudicate.
 - **Nearly all Protestant and global Christianity** — confessional/symbolic ancestry, mediated through the Nicene-Constantinopolitan Creed's status as the ecumenical confession most Western and global churches still recite.
 
 ### Documented Divergences

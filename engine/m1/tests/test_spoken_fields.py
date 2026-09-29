@@ -32,7 +32,7 @@ from engine.m1.spoken_fields import SPOKEN_FIELDS, fields_with_role
 def test_attribution_fields_relocated_unchanged():
     assert gates._ATTRIBUTION_FIELDS == {
         "voice_craft": ["identity", "guard"],
-        "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
+        "world_core": ["horizon", "formation_logic", "thinness", "cautions", "living_traditions"],
         "term": ["plain_meaning", "quick_meaning", "world_word"],
         "doctrinal_witness": ["text"],
         "honest_limit": ["statement"],
@@ -90,7 +90,7 @@ def test_cross_world_participant_fields_are_all_declared():
 # six fields).
 _BUILD_PROMPT_READS = {
     "voice_craft": ["identity", "guard", "characteristic_concerns", "flavor_notes"],
-    "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
+    "world_core": ["horizon", "formation_logic", "thinness", "cautions", "living_traditions"],
     "term": ["plain_meaning", "quick_meaning", "world_word"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
