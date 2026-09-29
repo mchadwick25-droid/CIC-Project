@@ -3254,3 +3254,33 @@
     prefatory matter and critical apparatus - real content, but scholarly
     apparatus about Romanos, not his own voice. LATIN APPARATUS ONLY, no
     English; never citable as a Representative's evidence.
+- filename: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+  supplied_by: >-
+    Claude (library/source-research thread: located the edition from the download queue, fetched the full-text OCR directly from archive.org, verified the title page and the host's own NOT_IN_COPYRIGHT tag before vendoring)
+  date_added: '2026-09-29'
+  notes: >-
+    Neale and Littledale's translations of six rites (Mark, James, Clement, Chrysostom, Basil, Malabar), Griffith Farran, [187-?]. Internet Archive identifier liturgiesofssmar00neal (UCLA copy). The queue row gave 1859 (2nd ed. 1868/69), which is Neale's first publication; this scan carries no year and the host catalogues it [187-?], so the file name says 1870s, not 1859. Page order in the OCR: Mark about line 2259, James about 3064, Clement about 4820, Chrysostom about 5500-7300, Basil 7358-7820, Malabar from about 8150. Neale's introduction and notes are 19th-century Anglican commentary, not the liturgies' voice. The Byzantine Chrysostom and Basil texts are later redactions; the saint attributions are traditional, not documented.
+- filename: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
+  supplied_by: >-
+    Claude (library/source-research thread: located the edition from the download queue, fetched the full-text OCR directly from archive.org, verified the title page and the host's own NOT_IN_COPYRIGHT tag before vendoring)
+  date_added: '2026-09-29'
+  notes: >-
+    Egeria (Etheria), Pilgrimage, trans. M. L. McClure and C. L. Feltoe, SPCK/Macmillan, 1919. Internet Archive identifier pilgrimageofethe00mccliala. English only; no Latin witness of the Itinerarium is vendored. Editors' introduction runs first; the translation follows.
+- filename: palladius_dialogue-life-of-chrysostom_moore1921.txt
+  supplied_by: >-
+    Claude (library/source-research thread: located the edition from the download queue, fetched the full-text OCR directly from archive.org, verified the title page and the host's own NOT_IN_COPYRIGHT tag before vendoring)
+  date_added: '2026-09-29'
+  notes: >-
+    Palladius, Dialogue on the Life of Chrysostom, trans. Herbert Moore, SPCK, 1921. Internet Archive identifier thedialogueofpal00mooruoft (first fetch returned a server error; the retry succeeded). Greek OCR is garbled; the English is readable. Moore identifies the author as the Palladius of the Lausiac History; the file does not adjudicate that.
+- filename: augustine_epistulae-praefatio-indices-lat_goldbacher-csel58.txt
+  supplied_by: >-
+    Claude (library/source-research thread: located the edition from the download queue, fetched the full-text OCR directly from archive.org, verified the title page and the host's own NOT_IN_COPYRIGHT tag before vendoring)
+  date_added: '2026-09-29'
+  notes: >-
+    Goldbacher, CSEL 58 (1923): praefatio and Indices I-VI for the letters, no letter text. Internet Archive identifier corpusscriptorum58auguuoft (Trinity College Toronto copy). Closes the last open volume of lpc's G4 (CSEL 34/1, 34/2, 44, 57 are already vendored). A finding aid, never a source of Augustine's own words; index tables OCR poorly.
+- filename: suetonius_lives-of-the-caesars-loeb_rolfe1914.txt
+  supplied_by: >-
+    Claude (library/source-research thread: located the edition from the download queue, fetched the full-text OCR directly from archive.org, verified the title page and the passages before vendoring)
+  date_added: '2026-09-29'
+  notes: >-
+    Suetonius, Lives of the Caesars, Latin and English (J. C. Rolfe, Loeb, 1914), both volumes. Internet Archive identifier suetonius-loeb. The host gives no date or rights field, so the 1914 title page is the whole rights basis. Second witness beside the already-vendored Thomson-Forester 1909 English (suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt) that closed pahc's need; this adds the Latin of Claudius 25.4 and Nero 16.2 and a more literal English. Latin and English interleave in the OCR.

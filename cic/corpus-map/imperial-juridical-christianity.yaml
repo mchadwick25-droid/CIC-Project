@@ -573,6 +573,18 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: Dialogue Concerning the Life of Chrysostom
+  author: palladius
+  locus: Theophilus of Alexandria, the Tall Brothers and the Origenist quarrel, file lines
+    230-620 and 4114-4700
+  role: context
+  confidence: needs-ruling
+  note: 'Chrysostom''s deposition is a case of imperial power deciding a church quarrel, which
+    is what this entry studies, but the entry''s own window and focus have not been checked
+    against this work. Flagged, not forced.
+
+    '
+  source_file: palladius_dialogue-life-of-chrysostom_moore1921.txt
 - work: Vita Ambrosii (Life of Ambrose)
   author: paulinus-milan
   locus: whole work (single-work volume); the infancy/bee-swarm legend at Chapter II (file

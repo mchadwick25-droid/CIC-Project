@@ -525,6 +525,19 @@ works:
 
     '
   source_file: julian_letters-1-73_wright1923.txt
+- work: Liturgy of S. Basil (Byzantine form)
+  author: liturgy-of-st-basil
+  locus: file lines 7358-7820 (the Basil section, pp. 129-139 in the printed pagination)
+  role: context
+  confidence: assigned
+  note: 'The download queue row that prompted this vendoring. English text of the rite that
+    tradition attributes to Basil of Caesarea. `role: context`, not `tradition`: the Byzantine
+    form is a later redaction, so the words are not shown to be Basil''s own; a Representative
+    may point to it as the liturgy that carries his name, never quote it as his voice. Read
+    with the vendored ascetic works for what Basil himself wrote.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
 - work: The Philocalia of Origen
   author: origen
   locus: whole work, as above

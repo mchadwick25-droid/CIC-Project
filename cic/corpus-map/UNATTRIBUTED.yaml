@@ -700,6 +700,29 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  liturgy-of-malabar:
+    kind: anonymous
+    evidence: 'The title names "the Church of Malabar"; the rite is the East-Syriac (Chaldean)
+      liturgy as used by the St. Thomas Christians, with no author claimed. Neale''s own notes
+      describe it as a translation made for this volume ("entirely new").
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+  liturgy-of-st-basil:
+    kind: pseudonymous
+    evidence: 'Neale''s introduction places the Liturgy of S. Basil beside Chrysostom''s as
+      an attributed rite; the Byzantine form is a later redaction of a Cappadocian-era core.
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+  liturgy-of-st-clement:
+    kind: pseudonymous
+    evidence: 'The volume''s own title names "S. Clement" as the liturgy''s attribution; the
+      rite is the eighth book of the Apostolic Constitutions liturgy, placed under Clement
+      of Rome''s name by that compilation, not by any first-century author.
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
   liturgy-of-st-james:
     kind: pseudonymous
     evidence: 'div2 12.2 title "The Divine Liturgy of James the Holy Apostle and Brother of
@@ -708,6 +731,14 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  liturgy-of-st-john-chrysostom:
+    kind: pseudonymous
+    evidence: 'Neale''s own introduction calls the Liturgy of S. Chrysostom the normal liturgy
+      of the Eastern Church; the tradition ascribes it to John Chrysostom, and the Byzantine
+      text is a later redaction, so the slug records an attribution, not an author.
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
   liturgy-of-st-mark:
     kind: pseudonymous
     evidence: 'div2 12.3 title "The Divine Liturgy of the Holy Apostle and Evangelist Mark";

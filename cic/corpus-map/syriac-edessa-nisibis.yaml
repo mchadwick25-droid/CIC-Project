@@ -229,6 +229,17 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
+  author: egeria
+  locus: Edessa, Haran and the Abgar correspondence, file lines 3329-3522; the shrine of Thecla
+    at Seleucia, about line 3806
+  role: context
+  confidence: assigned
+  note: 'An outside witness to Edessa''s own traditions: the bishop shows her the Abgar correspondence
+    and the martyrion of Thomas. She is a Latin-speaking visitor, not a member of that church.
+
+    '
+  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
 - work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
   locus: Vol. II, heading "AGAINST BARDAISAN." - "A DISCOURSE AGAINST BARDAISAN"

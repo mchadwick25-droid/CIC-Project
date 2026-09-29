@@ -53,7 +53,9 @@ queue:
     url: "https://archive.org/details/vitasanctiambros00paul"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed)"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "paulinus-milan_vita-ambrosii_kaniecka1928.txt"
+    vendored_note: "vendored 2026-09-13 by the ijc thread from the sibling archive.org item vitasanctiambros0000paul; this seed row's identifier never resolved to the file used"
 
   - title: "The Liturgies of SS. Mark, James, Clement, Chrysostom, and Basil"
     author: "attrib. Basil of Caesarea (the Basil liturgy specifically)"
@@ -68,7 +70,9 @@ queue:
     url: "https://archive.org/details/liturgiesofssmar00neal"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review, 2026-09-02"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt"
+    vendored_note: "vendored 2026-09-29; the host catalogues this scan [187-?], not 1859"
 
   - title: "Res Gestae, Book 27.3"
     author: "Ammianus Marcellinus"
@@ -82,7 +86,9 @@ queue:
     url: "https://www.gutenberg.org/files/28587/28587-h/28587-h.htm"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "ammianus-marcellinus_roman-history_yonge1862.txt"
+    vendored_note: "vendored earlier from a different source than this Gutenberg row; whole Yonge Res Gestae, Book 27.3 present"
 
   - title: "Lives of the Twelve Caesars (Claudius 25.4, Nero 16)"
     author: "Suetonius"
@@ -96,7 +102,9 @@ queue:
     url: "https://archive.org/details/suetonius-loeb"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+    vendored_note: "vendored 2026-09-29 as a second witness; Thomson-Forester 1909 (suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt) had already closed pahc's need"
 
   - title: "The Odes and Psalms of Solomon, Published from the Syriac Version"
     author: "Anonymous (the Odes of Solomon, 42 odes)"
@@ -109,7 +117,9 @@ queue:
     url: "https://archive.org/details/TheOdesAndPsalmsOfSolomon"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "harris_odes-and-psalms-of-solomon_harris1911.txt"
+    vendored_note: "already vendored before this pass; seed status was stale"
 
   - title: "S. Thasci Caecili Cypriani opera omnia"
     author: "Cyprian of Carthage"
@@ -210,7 +220,9 @@ queue:
     url: "https://archive.org/details/corpusscriptorum58auguuoft"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 58 only)"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "augustine_epistulae-praefatio-indices-lat_goldbacher-csel58.txt"
+    vendored_note: "vendored 2026-09-29; the volume holds the praefatio and indices only, no letter text"
 
   - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars I-II (Epistulae I-CXXIII), CSEL 34/1-2"
     author: "Augustine of Hippo"
@@ -521,7 +533,9 @@ queue:
     url: "https://archive.org/details/pilgrimageofethe00mccliala"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, editors, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt"
+    vendored_note: "vendored 2026-09-29"
 
   - title: "The Dialogue of Palladius Concerning the Life of Chrysostom"
     author: "Palladius, Bishop of Aspuna"
@@ -543,7 +557,9 @@ queue:
     url: "https://archive.org/details/thedialogueofpal00mooruoft"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, translator, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "palladius_dialogue-life-of-chrysostom_moore1921.txt"
+    vendored_note: "vendored 2026-09-29"
 
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
@@ -579,6 +595,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
     status: not-yet-downloaded
+    hold_note: "Held 2026-09-29, not vendored. Easton 1934 is a Cambridge University Press (UK) edition (copyright notice: Copyright 1934, Cambridge University Press; reprinted 1962). Gutenberg lists it as public domain in the US, but that is the host's own clearance, not a licence, and INTAKE.md treats foreign-published 1931+ translations as presumed URAA-restored. Needs a ruling from Mark, or a renewal/URAA check."
 
   - title: "Institutes of the Christian Religion, 3 vols."
     author: "John Calvin"

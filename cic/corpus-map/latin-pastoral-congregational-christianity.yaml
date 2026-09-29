@@ -688,6 +688,20 @@ works:
 
     '
   source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
+- work: 'S. Aureli Augustini Epistulae: Praefatio et Indices (CSEL 58)'
+  author: augustine
+  locus: Praefatio, file line 96 onward; Indices I-VI at lines 5194, 5676, 7719, 10760, 23675
+    and 47576
+  role: tradition
+  confidence: assigned
+  note: 'Apparatus for the Latin letters already assigned to this entry from CSEL 34/1, 34/2,
+    44 and 57: the praefatio on how the letters were collected, and the indices, including
+    the ordering of the letters before the Maurist edition, which helps settle letter-numbering
+    questions between editions. It holds no letter text of its own, so it is a finding aid,
+    never a source for a Representative''s quotation. OCR of the index tables is poor.
+
+    '
+  source_file: augustine_epistulae-praefatio-indices-lat_goldbacher-csel58.txt
 - work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
   author: augustine
   locus: div1 7 — Sermons on Selected Lessons of the New Testament; a series of ~97 sermons

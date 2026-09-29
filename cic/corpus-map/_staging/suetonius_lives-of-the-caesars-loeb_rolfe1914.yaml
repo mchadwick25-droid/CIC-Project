@@ -1,0 +1,16 @@
+# Rolfe's Loeb Suetonius, Latin and English, vendored 2026-09-29 as a second witness.
+source_file: suetonius_lives-of-the-caesars-loeb_rolfe1914.txt
+
+assignments:
+  - work: "Life of Claudius 25.4 and Life of Nero 16.2 (the Chrestus expulsion and the Christians under Nero)"
+    author: suetonius
+    locus: "Claudius 25.4, English at file line about 25896; Nero 16.2, Latin at about 28447 and English at about 28512"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: context
+    confidence: assigned
+    note: >
+      Second witness for the two outside notices pahc already draws from the vendored
+      Thomson-Forester translation, which closed that world's need. This edition adds the
+      Latin and a more literal English. A pagan Roman biographer writing from outside the
+      church, so context, not tradition. Latin and English pages interleave in the OCR.
