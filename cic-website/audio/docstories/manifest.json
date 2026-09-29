@@ -1,0 +1,23 @@
+{
+ "antiochene-exegetical-christianity-chrysostom-ce-0": {
+  "hash": "67f7cf6eaff1018a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1228
+ },
+ "cathars-albigensians-1": {
+  "hash": "b1cefcc1c6251d9f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1434
+ },
+ "taiping-heavenly-kingdom-0": {
+  "hash": "2b2005a6bbb24ef6",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1444
+ }
+}

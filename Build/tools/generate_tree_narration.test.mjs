@@ -1,23 +1,25 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, planNarration, synthesize, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings } from './generate_tree_narration.mjs';
+import { parseArgs, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
 }
 
 test('parseArgs: defaults with no flags', () => {
-  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false });
+  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null });
 });
 
 test('parseArgs: recognizes every flag', () => {
-  assert.deepEqual(parseArgs(['--dry-run', '--only', 'alx', '--limit', '5', '--char-budget', '20000', '--force']), {
+  assert.deepEqual(parseArgs(['--dry-run', '--only', 'alx', '--limit', '5', '--char-budget', '20000', '--force', '--voice-id', 'v1', '--model', 'm1']), {
     dryRun: true,
     only: 'alx',
     limit: 5,
     charBudget: 20000,
     force: true,
+    voiceId: 'v1',
+    model: 'm1',
   });
 });
 
@@ -184,12 +186,13 @@ test('synthesize: posts the text to the right voice endpoint and returns audio b
     };
   };
 
-  const result = await synthesize('Once, in Antioch...', { apiKey: 'test-key', voiceId: 'voice-123', fetchImpl: fakeFetch });
+  const result = await synthesize('Once, in Antioch...', { apiKey: 'test-key', voiceId: 'voice-123', modelId: 'model-x', fetchImpl: fakeFetch });
 
   assert.equal(capturedUrl, 'https://api.elevenlabs.io/v1/text-to-speech/voice-123');
   assert.equal(capturedInit.headers['xi-api-key'], 'test-key');
   assert.equal(JSON.parse(capturedInit.body).text, 'Once, in Antioch...');
   assert.deepEqual(JSON.parse(capturedInit.body).voice_settings, defaultVoiceSettings);
+  assert.equal(JSON.parse(capturedInit.body).model_id, 'model-x');
   assert.ok(Buffer.isBuffer(result));
   assert.equal(result.toString(), 'fake-mp3-bytes');
 });
@@ -202,7 +205,7 @@ test('synthesize: an explicit voiceSettings overrides the default', async () => 
   };
   const custom = { stability: 0.1, similarity_boost: 0.5, style: 0.5, use_speaker_boost: false };
 
-  await synthesize('text', { apiKey: 'k', voiceId: 'v', voiceSettings: custom, fetchImpl: fakeFetch });
+  await synthesize('text', { apiKey: 'k', voiceId: 'v', modelId: 'm', voiceSettings: custom, fetchImpl: fakeFetch });
 
   assert.deepEqual(JSON.parse(capturedInit.body).voice_settings, custom);
 });
@@ -231,7 +234,36 @@ test('synthesize: throws with the response detail when ElevenLabs rejects the re
   });
 
   await assert.rejects(
-    () => synthesize('text', { apiKey: 'bad-key', voiceId: 'v', fetchImpl: fakeFetch }),
+    () => synthesize('text', { apiKey: 'bad-key', voiceId: 'v', modelId: 'm', fetchImpl: fakeFetch }),
     /ElevenLabs TTS failed \(401\): invalid_api_key/
   );
+});
+
+test('synthesize: refuses to run without a modelId', async () => {
+  await assert.rejects(() => synthesize('t', { apiKey: 'k', voiceId: 'v', fetchImpl: async () => ({ ok: true }) }), /modelId is required/);
+});
+
+test('synthesizeWithCost: sends output_format and returns the character-cost header', async () => {
+  let capturedUrl;
+  const fakeFetch = async (url) => {
+    capturedUrl = url;
+    return { ok: true, headers: { get: (h) => (h === 'character-cost' ? '134' : null) }, arrayBuffer: async () => new ArrayBuffer(2) };
+  };
+  const { audio, cost } = await synthesizeWithCost('t', { apiKey: 'k', voiceId: 'v', modelId: 'm', outputFormat: 'mp3_44100_64', fetchImpl: fakeFetch });
+  assert.equal(capturedUrl, 'https://api.elevenlabs.io/v1/text-to-speech/v?output_format=mp3_44100_64');
+  assert.equal(cost, 134);
+  assert.equal(audio.length, 2);
+});
+
+test('requirePaidSettings: refuses a missing voice or model, never reads the environment', () => {
+  const saved = process.env.ELEVENLABS_VOICE_ID;
+  process.env.ELEVENLABS_VOICE_ID = 'from-env';
+  try {
+    assert.throws(() => requirePaidSettings({ voiceId: null, model: 'm' }), /--voice-id is required/);
+    assert.throws(() => requirePaidSettings({ voiceId: 'v', model: null }), /--model is required/);
+    assert.throws(() => requirePaidSettings({ voiceId: '--model', model: 'm' }), /--voice-id is required/);
+    requirePaidSettings({ voiceId: 'v', model: 'm' });
+  } finally {
+    if (saved === undefined) delete process.env.ELEVENLABS_VOICE_ID; else process.env.ELEVENLABS_VOICE_ID = saved;
+  }
 });

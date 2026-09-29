@@ -30,12 +30,17 @@
  * movement picks them up.
  *
  * Usage:
- *   ELEVENLABS_API_KEY=... ELEVENLABS_VOICE_ID=... node tools/generate_tree_narration.mjs [options]
+ *   ELEVENLABS_API_KEY=... node Build/tools/generate_tree_narration.mjs --voice-id <id> --model <model_id> [options]
  *
- * ELEVENLABS_VOICE_ID is the default narrator used for every movement that
- * has no override in tree-narration-voices.mjs.
+ * --voice-id is the default narrator used for every movement that has no
+ * override in tree-narration-voices.mjs. --voice-id and --model are required
+ * and are never read from the environment; a run prints the voice, model and
+ * settings it actually sends, and one line per request with the credits
+ * ElevenLabs charged.
  *
  * Options:
+ *   --voice-id <id>    Required (except --dry-run). Default narrator voice.
+ *   --model <id>       Required (except --dry-run). ElevenLabs model id.
  *   --dry-run          Report what would be generated; no API calls, no files written.
  *   --only <id>        Generate (or dry-run) a single movement by its census id.
  *   --limit <n>        Cap the number of NEW clips generated this run (already-narrated
@@ -71,12 +76,14 @@ const ELEVENLABS_TTS_URL = (voiceId) => `https://api.elevenlabs.io/v1/text-to-sp
 export const defaultVoiceSettings = { stability: 0.95, similarity_boost: 0.68, style: 0.0, use_speaker_boost: true };
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false };
+  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
     else if (arg === '--force') opts.force = true;
     else if (arg === '--only') opts.only = argv[++i];
+    else if (arg === '--voice-id') opts.voiceId = argv[++i];
+    else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--limit') opts.limit = Number(argv[++i]);
     else if (arg === '--char-budget') opts.charBudget = Number(argv[++i]);
     else throw new Error(`unrecognized argument: ${arg}`);
@@ -88,6 +95,18 @@ export function parseArgs(argv) {
     throw new Error(`--char-budget must be a non-negative integer, got ${opts.charBudget}`);
   }
   return opts;
+}
+
+/**
+ * Paid settings are never inherited from the environment: a run that does
+ * not name its voice and model on the command refuses to start.
+ */
+export function requirePaidSettings({ voiceId, model }) {
+  for (const [flag, value] of [['--voice-id', voiceId], ['--model', model]]) {
+    if (!value || value.startsWith('--')) {
+      throw new Error(`${flag} is required and is never read from the environment.`);
+    }
+  }
 }
 
 export function audioPathFor(movementId) {
@@ -169,9 +188,14 @@ export function resolveVoiceId(movementId, { voiceMap = voiceOverrides, defaultV
 /**
  * One ElevenLabs TTS call. `fetchImpl` is injected so tests never make a
  * real network call - production always passes the real global fetch.
+ * `modelId` is required (never defaulted). `outputFormat`, when given, is
+ * sent as ElevenLabs' `output_format` query parameter (e.g. mp3_44100_64).
+ * Returns the audio and the credits ElevenLabs reports charging.
  */
-export async function synthesize(text, { apiKey, voiceId, voiceSettings = defaultVoiceSettings, fetchImpl = fetch }) {
-  const response = await fetchImpl(ELEVENLABS_TTS_URL(voiceId), {
+export async function synthesizeWithCost(text, { apiKey, voiceId, modelId, outputFormat = null, voiceSettings = defaultVoiceSettings, fetchImpl = fetch }) {
+  if (!modelId) throw new Error('synthesize: modelId is required');
+  const url = ELEVENLABS_TTS_URL(voiceId) + (outputFormat ? `?output_format=${encodeURIComponent(outputFormat)}` : '');
+  const response = await fetchImpl(url, {
     method: 'POST',
     headers: {
       'xi-api-key': apiKey,
@@ -180,7 +204,7 @@ export async function synthesize(text, { apiKey, voiceId, voiceSettings = defaul
     },
     body: JSON.stringify({
       text,
-      model_id: 'eleven_multilingual_v2',
+      model_id: modelId,
       voice_settings: voiceSettings,
     }),
   });
@@ -189,7 +213,12 @@ export async function synthesize(text, { apiKey, voiceId, voiceSettings = defaul
     throw new Error(`ElevenLabs TTS failed (${response.status}): ${detail.slice(0, 300)}`);
   }
   const arrayBuffer = await response.arrayBuffer();
-  return Buffer.from(arrayBuffer);
+  const cost = Number(response.headers?.get?.('character-cost') || 0);
+  return { audio: Buffer.from(arrayBuffer), cost };
+}
+
+export async function synthesize(text, options) {
+  return (await synthesizeWithCost(text, options)).audio;
 }
 
 async function run() {
@@ -212,8 +241,8 @@ async function run() {
     return;
   }
 
-  const defaultVoiceId = process.env.ELEVENLABS_VOICE_ID;
-  if (!defaultVoiceId) throw new Error('ELEVENLABS_VOICE_ID is not set - pick a default narrator voice in ElevenLabs\' dashboard first.');
+  const defaultVoiceId = opts.voiceId;
+  if (!opts.dryRun) requirePaidSettings(opts);
 
   if (opts.dryRun) {
     toGenerate.forEach((m) => {
@@ -231,22 +260,32 @@ async function run() {
 
   fs.mkdirSync(audioDir, { recursive: true });
 
+  console.log('=== PAID RUN, settings as actually used ===');
+  console.log(`default voice id : ${defaultVoiceId}`);
+  console.log(`model            : ${opts.model}`);
+  console.log(`settings         : ${JSON.stringify(defaultVoiceSettings)}`);
+  console.log(`items            : ${toGenerate.length}   characters: ${totalChars}`);
+  console.log('===========================================');
+
   let succeeded = 0;
+  let credits = 0;
   const failed = [];
   for (const movement of toGenerate) {
     try {
       const voiceId = resolveVoiceId(movement.id, { defaultVoiceId });
-      const audio = await synthesize(narrationTextFor(movement), { apiKey, voiceId });
+      const text = narrationTextFor(movement);
+      const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model });
       fs.writeFileSync(audioPathFor(movement.id), audio);
       succeeded++;
-      console.log(`  ok: ${movement.id}`);
+      credits += cost;
+      console.log(`  ok: ${movement.id} voice=${voiceId} model=${opts.model} chars=${text.length} cost=${cost}`);
     } catch (err) {
       failed.push({ id: movement.id, error: err.message });
       console.log(`  FAILED: ${movement.id} - ${err.message}`);
     }
   }
 
-  console.log(`\n${succeeded}/${toGenerate.length} generated.`);
+  console.log(`\n${succeeded}/${toGenerate.length} generated. credits charged (character-cost headers): ${credits}`);
   if (failed.length > 0) {
     console.log(`${failed.length} failed - re-run (this script skips what already succeeded) to retry just these:`);
     failed.forEach(({ id, error }) => console.log(`  - ${id}: ${error}`));
