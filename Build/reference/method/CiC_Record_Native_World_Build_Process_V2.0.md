@@ -1,12 +1,11 @@
 # CiC Record-Native World Build Process — V2.0
 
 **What this document is:** the single end-to-end process for building a new
-formation world, from receipt of the Library's handoff package (after Step 2)
-through a drafted freeze package. A world built under this document is born
-record-native: it is authored directly into the schema-validated record store
-under the live gates, and the deployed prompt, chunks and site data are
-generated from the records. There is no separate migration pass, because the
-authoring is the migration.
+formation world. It runs from the Library's handoff package (after Step 2) to
+a drafted freeze package. A new world is born record-native. It is authored
+straight into the schema-validated record store, under the live gates. The
+deployed prompt, chunks and site data are generated from those records. There
+is no separate migration pass, because the authoring is the migration.
 
 **Scope.** The Library (the source-research thread) owns pre-Step 0, Step 0,
 Step 1 and Step 2. This document starts at the handoff. Go-live is a separate
@@ -21,6 +20,10 @@ fills the gaps between them. It replaces none of them.
    `Build/reference/method/Pass2-decisions/S6.1_M_construction_framework_v74_promotion.md`).
    It carries the Table Readiness Round, the Record Integrity Principle, the
    Source Registry freeze gate and the Validation Protocol Rigor discipline.
+   Its Freeze Criteria defer the freeze requirements to the Completion
+   Standard (item 3). Section 8 follows that deferral: lean validation is the
+   default freeze, and the Framework's two-trial Validation Protocol Rigor is
+   the full-validation requirement.
 2. `Build/reference/L3C-Representative-Methodology/CiC_L3C_Representative_Construction_Framework_V3.2.docx`
    — the Representative Construction Framework (Part Three Ecology
    Assessment, Part Eight Validation Testing, Phase Eight Table Readiness
@@ -41,6 +44,10 @@ The Doc_10 template is
 `Build/reference/L4-Templates/Representative_Construction_Notes_Template.md`.
 Use the templates in `Build/reference/L4-Templates/` as they stand. Never fork
 a copy.
+
+The build-cycle, lexicon-index, gravity-index, forces-index, story-repository
+and validation-suite disciplines this document names are vendored at
+`Build/reference/method/skills/`. Every thread reads them there.
 
 **Vision framing (standing, Mark).** Purpose statements and any
 participant-facing copy produced in a build lead with making experiential
@@ -78,10 +85,10 @@ criteria are the depth rubric. Reviewers and blind graders score against them.
 4. **Focus.** The answer addresses what was asked, including the hardest and
    most personal questions in the Question Canon, and not only the easy ones.
 
-**Conversation depth** means the Representative can draw on the Library's
-resources to give a quality answer that actually answers the question. A
-shallow, flat or evasive answer fails depth even when every fact in it is
-true.
+**Conversation depth** is the Representative's power to draw on the
+Library's resources. It gives an answer of real quality that answers the
+question asked. A shallow, flat or evasive answer fails depth, even when every
+fact in it is true.
 
 **Craft is the keystone.** A fleet measurement (66 real generated turns, all
 11 worlds, the same standardized questions, checked claim by claim against the
@@ -176,8 +183,7 @@ a project-lead act under Constitution Article 29. The build thread drafts the
 determination with its full history and its own recommendation. It carries the
 status as `provisional` until Mark confirms. It lists the determination in the
 freeze declaration's RESOLVED-AT-THE-FREEZE section for his explicit word.
-Article 31 telos review is not a stop. It stays provisional until year two, by
-Mark's standing ruling of 2026-07-31.
+Article 31 telos review is not a stop. It stays provisional until year two.
 
 **M3: The freeze itself.** Only the project lead assigns Frozen. The thread
 never assigns it to itself. It completes everything, drafts the freeze
@@ -275,7 +281,7 @@ subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 | Round counter | Counts substantial-revision review files per document. Blocks a fourth review file and routes the document to Mark. | Before every review file is written. | `roundcount <code> <document>` |
 | Review-file check | The reviewer is not the drafter. The model is Opus 5.5. The first line carries the simulated-review label. A two-method truncation check is recorded. | On every review file, before it counts. | `reviewfile <path>` |
 | Open-gaps check | Every open item in a review or phase document has an `Open_Gaps_Tracking.md` entry. | After every review file. | `gaps <code>` |
-| Process-narration block | Process narration in a live or canonical file blocks the pull request that edits it. | On every pull request that touches a live file. | `python tools/check_live_commentary.py` |
+| Process-narration block | The CI job `live-commentary` runs `tools/check_live_commentary.py --base origin/<base> --enforce`. A pull request that leaves process narration in a live or canonical file it edits fails. Files it does not edit are not scanned. | On every pull request. | CI |
 | Re-gate after edit | Re-runs readability and the word budget on every changed field and every public-facing field. Confirms a new world carries no waivers and grandfathering stays closed. Any exception needs an owning finding and Mark's approval. | After any edit. | `regate <code>` |
 | Required-records check | The record types a new world requires are built, never waived: `world_front`, `facilitator_brief` and the site JSON, with the rest of the Completion Standard's Section A. | After every records edit, and at freeze. | `records <code>` |
 | Deployed-artifact check | The compiled prompt contains every item Mark confirmed (living traditions, telos, self-reference hardening) and every rule count matches the records (for example, the count of `[quotation]` rules). | After each package build or deploy. | `deployed <code>` |
@@ -283,11 +289,11 @@ subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 | Result-label check | Every probe result is labeled observed (with a transcript reference) or authored. An authored result cannot score PASS or FAIL. | Before and after every probe run. | `probes <code>` |
 | Grading check and trigger detector | Every answer is graded on all four criteria. RS-1 and RS-2 are scored separately. Detects the full-validation triggers (Section 8). | After the probe results are in. | `validation <code>` |
 | Facilitator handoff wiring check | Both the acute-distress route and the harmful-dynamic route fire, and the voice is never called on either. | At the Representative freeze. | `wiring <code>` |
-| Library validators | `corpus_map_merge.py --check`, `corpus_index.py --build`, `works_registry.py --check`, `author_ids.py --check` and the texts-registry check. | In CI, on every pull request. | CI |
-| World gates on drafts | The M1 gate battery runs on draft pull requests, not only on merge. | In CI, on every draft pull request. | CI |
+| Library validators | The CI job `library-validators` runs `cic/engine/corpus_map_merge.py --check`, `corpus_index.py --build`, `works_registry.py --check`, `author_ids.py --check` and `texts_registry.py`. | On a pull request that touches `cic/` or `engine/`. | CI |
+| World gates on drafts | The CI job `world-gates` runs `records` and `regate` for every world a pull request changes in `records/`. The `engine-tests` job also runs on a draft pull request that touches records, packages, engine or world build documents. | On every pull request, draft or not. | CI |
 
-`python tools/check_paths.py` runs in CI as well. A document that adds an
-unresolved path citation does not clear.
+The CI job `check-paths` runs `python tools/check_paths.py`. It reports path
+citations that do not resolve.
 
 Fix what a check finds before the round starts. If a check and a reviewer
 disagree, the reviewer reads the source and the disagreement is recorded in
@@ -521,8 +527,8 @@ and stops hand-writing what the records already hold.
 
 | Deliverable | Status | How it is made |
 |---|---|---|
-| World Profile | Generated | A view over the `world_core`, `gravity`, `force`, `contested_claim`, `honest_limit` and `term` records. The integrative observation lives in `world_core`. No hand-written profile document. |
-| World Capsule Core | Generated | `compiled/capsule.md`, built by `build_capsule` in `engine/m2/builders.py`. The inhabited-voice text has its home in `voice_craft` and `world_core`. |
+| World Profile | Generated | A view over the `world_core`, `gravity`, `force`, `contested_claim`, `honest_limit` and `term` records. No hand-written profile document. The integrative observation has no field yet. Adding it is an open engineering item in this process: "world_core integrative observation field" (Section 13). |
+| World Capsule Core | Generated | `compiled/capsule.md`, built by `build_capsule` in `engine/m2/builders.py`. It carries what that function writes today: the display name, Representative, time window, place, thinness and cautions. The inhabited-voice text has no field yet. Adding one belongs to the same open item (Section 13). |
 | Validation Layer | Short reviewed document | A thin attestation of the judgment-only categories: Historical Plausibility, Anachronism, Author Dominance, Living Tradition, and what cannot yet be tested. It points to the gates report for everything else. It reviews in one round, as a rule. |
 | Encounter Ecology Mapping | Section inside Doc_10 | A short section in the Doc_10 Ecology Assessment, about 3,500 words at most (the size of `Build/worlds/lpc`'s version). One review round is the model. |
 | Voice Configuration | Dropped from the build path | It serves audio only. The template stays at `Build/reference/L4-Templates/Voice_Configuration_Template.md`. Revive it only if audio ships. |
@@ -532,8 +538,8 @@ The Step 9 items map the same way. The World Profile is generated. The
 Validation Layer is the thin document above. Encounter Ecology sits inside
 Doc_10.
 
-A generated deliverable is checked by checking its records. If the generated
-view reads wrong, the fix is in the record, and the view is regenerated.
+To check a generated deliverable, check its records. If the view reads wrong,
+fix the record and regenerate the view.
 
 ---
 
@@ -631,7 +637,7 @@ holds it. Concretely:
   (whitespace, case, punctuation, ellipsis, bracket, verse number, apparatus)
   and that edition's own closed apparatus entry in `cic/texts/REGISTRY.yaml`,
   if one exists. It is not a repair pass run over records after the fact.
-  Mark's ruling R35: "this is about the build quality, not fix on fix." B-4
+  The gate exists for build quality, not for fixing records after the fact. B-4
   sets which quotes the gate checks and how a quote that cannot be checked
   directly is born. Every quote is re-verified verbatim against the vendored
   source before a record passes review. A record marked "quotes verified" is a
@@ -708,7 +714,7 @@ throughout. Concretely:
 **File discipline is a birth condition.** Everything in its place, nothing
 else, from the first record. Two opposite failures are both real and both
 prohibited: build language littering operative fields (measured fleet-wide at
-about 250 shipped instances before the compiler fix), and stripping durable
+about 250 shipped instances), and stripping durable
 scholarly reasoning out of a record body. Concretely:
 
 - An operative frontmatter field carries only what it exists to carry: no
@@ -719,8 +725,10 @@ scholarly reasoning out of a record body. Concretely:
   A record body below the closing fence keeps durable scholarship only: why a
   claim is scoped as it is, which source verifies it, what was checked and
   found absent. Record bodies are never compiled.
-- The process-narration scan (`tools/check_live_commentary.py`) runs on every
-  pull request that edits a live file. A new world's records are held to it.
+- The CI job `live-commentary` runs the process-narration scan
+  (`tools/check_live_commentary.py`) on every pull request and fails a pull
+  request that leaves narration in a file it edits. A new world's records are
+  held to it.
 - Provenance-by-design fields (`search_record` fields,
   `why_sources_cannot_answer`, `modern_lens_note`, `discovery_channel`,
   `narrative_tier_justification`) are written fully and honestly. The compiler
@@ -761,9 +769,9 @@ Attach the output to the review brief and fix what it finds first.
 | B-4 | Story and figure records | Tier justifications verbatim. Composites carry their own element-to-source tables. Outsider witnesses own their accounts. Boundary figures are declared (no-story, preserver-only, no-figure skips). FECs are parked verbatim for B-5. **Quote verification state:** the verbatim gate checks only quotes whose `verification_state` is `verified-direct`. A quote is born either at `verified-direct` (and passes the gate) or at a lower state (`verified-via-authority`, `named-not-rechecked`, `unverified`) with its `divergence_note` saying why it could not be checked directly. A quote is never set below `verified-direct` just to get past the gate. Fixes are general mechanisms, such as an edition's `apparatus` entry in `cic/texts/REGISTRY.yaml`, never per-record exceptions (R33). |
 | B-5 | Gravity and force records | Doc_04 and Doc_08 reasoning carried in full, not summarized. Interaction matrices mirrored exactly, including no-relationship pairs. FEC-to-`gravity_links` only where the chunk's own words support it, never force-fit. A wording variance is flagged upstream, not silently converted. |
 | B-6 | Contested-claim records | Primary-gravity minimum. CT parkings absorbed. Divergence partners mapped live against the frozen fleet's claims (`partner_claim_id` set). Non-claims declared with reasons. |
-| B-7 | Voice record and demonstrations | The register position is warranted by the world's own genre evidence (the fleet holds six distinct positions; a new world earns its own or inherits none). `native_measure` is measured from real generations, not designed (PAHC's designed 70 words against a measured 246–272 is the cautionary case). Demonstrations are grep-clean against the record store. **`identity`, `guard`, `flavor_notes` and `characteristic_concerns` combined stay at or under 900 words, and each field stays at or under FK grade 10** (`gate_readability` and `gate_voice_craft_prompt_budget` in `engine/m1/gates.py`; run them directly during this step). This is a hard conversion, not a copy. The Permanent Prompt Template's own Final Assembly check 5d keeps its museum-guide backstop paragraphs unedited in the deployed prompt file. That mandate governs the prompt artifact alone. It never extends to `voice_craft`'s compiled fields, which condense the same material to the budget, in the fleet's established style (short declarative sentences, every named fact kept, redundant framing cut; `alx.voice.craft` is the exemplar). Carrying Section 1's paragraphs into `guard` or `flavor_notes` near-verbatim is the specific, repeated cautionary case. **Distress-comparison guard (R19):** `voice_craft.guard` carries the world's own version of the prohibition on comparing or minimizing a participant's disclosed distress against the world's historical suffering. The wording is the world's own idiom, not a shared sentence. The guard stays inside the world's voice and period. It never points the participant to outside help, because that is the Facilitator's job alone. `observe_outside_help_guard` is a keyword scan and only shows what is there. The B-7 review confirms the clause is present and in the world's voice. The inhabited-voice text that feeds the generated Capsule Core has its home in `voice_craft` and `world_core` (Section 5). |
-| B-7a | Facilitation guidance onto `world_core` | Pairings ride live partner claims with built-in cautions (ending-not-read-back both ways; contemporaries-not-stages; the handoff containment class). Telos (provisional, Article 31). `living_traditions` (provisional for M2). |
-| B-8 | Generated views and four parities | Chunk views are generated from records. Render parity (0 unclassified defects). Retrieval parity against the committed production baseline (**verdict rule:** reproducing a result in an isolation harness is diagnosis only; the production eval against the committed baseline is the verdict). Prompt coverage (zero GAPs). Probe parity (held-out probes, blind; deployed-side true positives become record-derived guard candidates). **Golden set:** the retrieval golden set the Completion Standard requires (12–20 questions) is committed at `engine/m4/reports/bench/<code>.json` before any retrieval tuning touches the world. Its baseline goes into `engine/m4/reports/retrieval_bench.py`'s history. |
+| B-7 | Voice record and demonstrations | The register position is warranted by the world's own genre evidence (the fleet holds six distinct positions; a new world earns its own or inherits none). `native_measure` is measured from real generations, not designed (PAHC's designed 70 words against a measured 246–272 is the cautionary case). Demonstrations are grep-clean against the record store. **`identity`, `guard`, `flavor_notes` and `characteristic_concerns` combined stay at or under 900 words, and each field stays at or under FK grade 10** (`gate_readability` and `gate_voice_craft_prompt_budget` in `engine/m1/gates.py`; run them directly during this step). This is a hard conversion, not a copy. The Permanent Prompt Template's own Final Assembly check 5d keeps its museum-guide backstop paragraphs unedited in the deployed prompt file. That mandate governs the prompt artifact alone. It never extends to `voice_craft`'s compiled fields, which condense the same material to the budget, in the fleet's established style (short declarative sentences, every named fact kept, redundant framing cut; `alx.voice.craft` is the exemplar). Carrying Section 1's paragraphs into `guard` or `flavor_notes` near-verbatim is the specific, repeated cautionary case. **Distress-comparison guard (R19):** `voice_craft.guard` carries the world's own version of the prohibition on comparing or minimizing a participant's disclosed distress against the world's historical suffering. The wording is the world's own idiom, not a shared sentence. The guard stays inside the world's voice and period. It never points the participant to outside help, because that is the Facilitator's job alone. `observe_outside_help_guard` is a keyword scan and only shows what is there. The B-7 review confirms the clause is present and in the world's voice. The inhabited-voice text for the generated Capsule Core has no field yet (Section 5, Section 13). |
+| B-7a | Facilitation guidance | `facilitator_brief.pairing_guidance` carries the pairings. They ride live partner claims with built-in cautions (ending-not-read-back both ways; contemporaries-not-stages; the handoff containment class). `world_core.cautions` carries the runtime cautions. `world_core.living_traditions` carries the Article 29 status (provisional for M2). Telos (provisional, Article 31) has no schema field yet, so the world's construction notes hold it. Adding a field is an open engineering item (Section 13). |
+| B-8 | Generated views and four parities | Chunk views are generated from records. Render parity (0 unclassified defects). Retrieval parity against the committed production baseline (**verdict rule:** reproducing a result in an isolation harness is diagnosis only; the production eval against the committed baseline is the verdict). Prompt coverage (zero GAPs). Probe parity (held-out probes, blind. Two trials when the world is on full validation. One trial on the lean path, as Section 8 sets; deployed-side true positives become record-derived guard candidates). **Golden set:** the retrieval golden set the Completion Standard requires (12–20 questions) is committed at `engine/m4/reports/bench/<code>.json` before any retrieval tuning touches the world. Its baseline goes into `engine/m4/reports/retrieval_bench.py`'s history. |
 | B-9 | Change-order decisions and chunk swap | The swap makes the record store drive this world's production. After the swap: render identity, full production eval metric-identical, baseline saved. Prompt guards are added only when record-derived, deployment-copy-only and cold-verified. |
 
 **B-3, B-4, B-6: guards and redirects (R11).** A claim the record must never
@@ -778,12 +786,11 @@ the claims a reader could actually be misled by, not every claim that could be
 made up.
 
 **B-3, B-4: register-profile ceilings (R6).** Register ceilings are a gate.
-R6 (Mark, ruled 2026-09-21) sets the ceilings for the two label-shaped fields:
+Two label-shaped fields have ceilings:
 
 - `story.tellable_as`: longest sentence at most 30 words, median at most 25
 - `term.quick_meaning`: longest sentence at most 20 words, median at most 16
 
-R6 ran these advisory for one build cycle and then promoted them to a gate.
 `observe_register_profile` (`engine/m1/cross_world.py`) reports them. A new
 world over a ceiling does not clear. The approved sample is still the
 standard of register, and no word list gates anything.
@@ -800,11 +807,11 @@ They shape what the records must carry.
 
 | Ruling | What it means for a record |
 |---|---|
-| R26 (2026-09-22) | The Representative knows its own sources, unless it would have known another tradition's in its own time. On a first ask about a tradition its records do not hold, it says its record does not mention that tradition, then answers the rest from its own records. |
+| R26 | The Representative knows its own sources, unless it would have known another tradition's in its own time. On a first ask about a tradition its records do not hold, it says its record does not mention that tradition, then answers the rest from its own records. |
 | R27 and R42 | Every declarative claim in a voice turn carries a citation, except honest-limit sentences, questions back to the participant, and first-person framing with no claim. Enforcement is off; the check reports. Author records so each claim has a record to cite. |
-| R31-C (2026-09-24) | A `doctrinal_witness` record is a general reference, listed at the end of the reply, and carries no inline mark. |
+| R31-C | A `doctrinal_witness` record is a general reference, listed at the end of the reply, and carries no inline mark. |
 | R37 | A Representative may draw on outside knowledge of a named-but-uncovered tradition only if it would have known it in its own time, or was told it in the conversation. |
-| R41 (2026-09-23) | The Representative acknowledges the participant's own modern word and answers from its record only. It never defines the modern word. The Facilitator explains the modern sense. |
+| R41 | The Representative acknowledges the participant's own modern word and answers from its record only. It never defines the modern word. The Facilitator explains the modern sense. |
 
 **The re-proof rule.** Any prompt fix proven in an isolated harness must be
 re-proven under the deployed runtime (RAG plus capsule dilution) before it
@@ -847,19 +854,22 @@ Required before admission:
 Mark admits. A world's census status is set only by the m6 sync
 (`python -m engine.m6.cli sync`) once the world is admitted or open, never by
 hand. `cic-engine-staging` runs with admission enforcement off, so a built
-world can be tried there before Mark admits it. Only Mark uses it.
+world can be tried there before Mark admits it. Staging is not open to
+participants.
 
-Before Mark tries a world in staging, the build thread confirms:
+For Phase D, the build thread deploys the pinned candidate package to
+`cic-engine-staging`. This is a trial deploy. It does not admit the world,
+and go-live stays a separate thread. Before that deploy, the build thread
+confirms:
 
 1. Every file the engine reads at runtime is present in the image built from
    `engine/Dockerfile`. A file the app imports at runtime must be verified
    present in the image.
 2. Vector indices and compiled packages are built at image-build time, never
    at runtime startup.
-3. A live smoke test against the real deployed site runs after the deploy: a
-   real session, a real message, citations inspected. Freeze runs validate
-   the build environment. Only a live conversation validates the deploy.
-   Phase D's Deep Interview is that live conversation.
+
+The live smoke test is part of Phase D. It runs after the staging deploy, and
+the Deep Interview is that test (Section 8).
 
 ---
 
@@ -867,8 +877,14 @@ Before Mark tries a world in staging, the build thread confirms:
 
 **Lean validation is the default.** The freeze bar is content accuracy ("the
 right things said") plus single-Representative interview dynamics. The solo
-Deep Interview is the product on limited-table footing, and its dynamics are
-not optional. Deferred by default is multi-Representative table dynamics.
+Deep Interview is the product with a limited table, and its dynamics are not
+optional. Multi-Representative table dynamics are deferred by default.
+
+The Construction Framework defers freeze requirements to the Completion
+Standard. The Standard's Section C sets lean validation as the default.
+The Framework's Validation Protocol Rigor is the full-validation
+requirement below. It asks for two independent generation trials. It applies
+in full when a trigger fires. A lean result is a single-trial result.
 
 **What costs nothing and is never cut (the content-accuracy floor):** the
 gates at zero; schema validation fleet-green; render parity and prompt
@@ -897,9 +913,12 @@ command checks both.
      over-settling press, and one re-gloss and exact-form check.
    - The Ecology Assessment's thinness calibrates weight. Clean passes in
      known hard-to-detect domains stay provisional, not clean.
-2. **One live Deep Interview against the real deployed site.** Six to eight
-   genuine rounds, with follow-ups written off the actual prior answer. It is
-   long enough to test sustained-length dynamics, which is where interview
+2. **One live Deep Interview on `cic-engine-staging`.** The build thread
+   runs it itself, against the candidate package it deployed there (Section
+   7), through the site's own chat path. Mark's approval of the paid-run
+   sample comes first (Section 9), and Mark reads the transcript in the freeze
+   package. Six to eight genuine rounds, with follow-ups written off the
+   actual prior answer. It is long enough to test sustained-length dynamics, which is where interview
    dynamics fail (false-referent openers and dilution failures surface only
    under sustained context). About $3–4 at current pricing is the estimate for
    this one item. It is graded on: a direct-answer opening every round;
@@ -907,7 +926,9 @@ command checks both.
    do not re-explain it); register variation driven by substance; no
    truncation and clean length-ceiling behavior; no re-gloss or false-referent
    openers; and citation grounding inspected per turn. It doubles as the
-   deploy verification (Phase C, step 3): one spend, two checks.
+   live smoke test of the deploy: a real session, a real message, citations
+   inspected. Freeze runs validate the build environment. Only a live
+   conversation validates the deploy. That is one spend and two checks.
 3. **A 6-question Craft/Focus spot-check.** Run the six standardized canon
    questions (`C-P`, `F5-P`, `F2-E`, `F6-P`, `F3-E`, `F6-E`; the exact wording
    is in the System Hub Decision Log's entry for the 2026-09-26 fleet
@@ -938,19 +959,26 @@ gets the flagged sentences as places to look, not verdicts. Most flags are
 supported but untagged. The grader still reads every transcript in full.
 
 **Full validation fires on code-detected triggers.** The `validation` command
-detects them. They are checks in code, not thread judgment. Any one starts
-full validation:
+is the code that detects them. They are checks in code, not thread judgment.
+Any one starts full validation:
 
-- a thin-evidence gravity (a gravity whose evidence the Ecology Assessment
-  maps as thin)
+- a thin-evidence gravity
 - a Contested Primary claim
 - a safety-adjacent Representative
 - any fabrication found in testing
 
-Full validation is two independent generation trials per probe (one resampled
-from development probes, one held-out and novel), fresh-context generation
-and blind grading, per the Construction Framework's Validation Protocol
-Rigor, plus the Table Readiness Round in its cost-capped form. That form:
+Trigger definitions for thin evidence, contested Primary claim and
+safety-adjacent Representative are set by the project lead and recorded here
+before the pilot starts.
+
+- Thin evidence: defined by: project lead, before the pilot
+- Contested Primary claim: defined by: project lead, before the pilot
+- Safety-adjacent Representative: defined by: project lead, before the pilot
+
+Full validation is the Construction Framework's Validation Protocol Rigor in
+full: two independent generation trials per probe (one resampled from
+development probes, one held-out and novel), fresh-context generation and
+blind grading. It also includes probe parity (B-8) run as two trials, plus the Table Readiness Round in its cost-capped form. That form:
 Representatives hard-capped at 3, the two or three sharpest B-7a pairings
 sampled and never one table per frozen world, and grading on the available
 evidence if spend is interrupted, as a declared limit and never a silent gap.
@@ -959,8 +987,8 @@ record layer and fix it there. Do not patch around it.
 
 **What lean validation gives up, declared in every freeze package:**
 
-1. The second independent trial. With single trials, generation-variance
-   issues can slip. The standing mitigation is a cheap live re-probe the
+1. The second independent trial, which the Framework's Validation Protocol
+   Rigor requires. With single trials, generation-variance issues can slip. The standing mitigation is a cheap live re-probe the
    moment any report lands.
 2. Live-pressed multi-Representative table dynamics: dominance, convergence
    and ending-not-read-back under real cross-world pressure. Interview
@@ -1077,67 +1105,86 @@ boundary and resume after the Friday reset.
 
 ## 10. Session rules
 
-These rules apply to every session on a world build. They are restated here in
-full, so no other file is needed to follow them.
+These rules apply to every session on a world build. They are restated here, so
+no other file is needed to follow them.
 
 1. **Read the state file first,** and resume from its resume point.
-2. **Re-run the previous checkpoint before new work.** For a document, that is
-   its last gate run. For records, it is the last green `prereview`.
-3. **One declared step at a time,** with a `Touches:` line naming the files it
-   changes.
-4. **Gate-integrity rule.** Never edit a gate in the session that must pass it.
-5. **In-world autonomy.** Every decision is recorded. Stop only at M1, M2, M3,
-   the escalation list in Section 1, and the world boundary.
-6. **Defects go to the world's `Open_Gaps_Tracking.md`,** never silently
-   patched. Upstream wording problems are referred, not rewritten.
-7. **End every session deployable.** Partial work commits at the last green
-   checkpoint.
-8. **Commits carry step IDs. Push only on Mark's word.**
-9. **Safety-regression and retrieval-regression rules.** Any step that touches
-   the intercept chain or retrieval ends with the full rerun and diff against
-   the committed baseline.
-10. **Round cap.** A document gets at most three rounds of substantial
+2. **Re-run the previous checkpoint before new work.** For a script or a gate,
+    re-run it and expect the same result. For a checkpoint that rests on a
+    sample, a probe set, a blind grading or a review, re-running means
+    re-checking the committed sample IDs, probe list or transcripts against
+    the records and code. It does not mean drawing a fresh sample or grading
+    again with different material. So a committed artifact lists those IDs. If
+    the previous checkpoint no longer passes, stop and file the regression. Do
+    not start new work.
+3. **One declared step at a time,** with a `Touches:` line naming every file
+    it may change. The tooling does not stop a change outside that list. The
+    reviewer's first structural check is the diff against the declared
+    `Touches:` set.
+4. **Gate-integrity rule.** Never edit a gate or checkpoint script in the session that must pass it. A session that needs a gate changed files a flag and stops.
+5. **Done means a committed artifact that re-runs green.** A step is done when
+    its checkpoint artifact exists, is committed, and re-runs green. It is not
+    done when the session says so. The checkpoint is defined before the
+    session runs, and the session never moves its own goalposts.
+6. **In-world autonomy.** Every decision is recorded. Stop only at M1, M2, M3, the escalation list in Section 1, and the world boundary.
+7. **Defects go to the world's `Open_Gaps_Tracking.md`,** never silently
+    patched. Upstream wording problems are referred, not rewritten.
+8. **End every session deployable.** Partial work commits at the last green
+    checkpoint. A session that runs out of room marks the step `in-progress` in
+    the state file, with a note on exactly where it stopped. The next session
+    restarts from the last green checkpoint, not from a description of partial
+    work.
+9. **Commits carry step IDs. Push only on Mark's word.**
+10. **Safety-regression and retrieval-regression rules.** Any step that touches
+    the intercept chain or retrieval ends with the full rerun and diff against
+    the committed baseline.
+11. **Round cap.** A document gets at most three rounds of substantial
     revision. A revision is substantial if it changes a claim's substance, a
     confidence rating, a sourcing conclusion or a scope boundary. A finding
-    that a document could be stronger, with nothing in it wrong, unsupported
-    or misleading, is not substantial and does not start a new round. If a
-    document has not cleared review after the third substantial revision, that
-    is an unresolved tension the pipeline cannot close on its own. Stop, and
-    send it to Mark. Never start a fourth round. The `roundcount` command
-    blocks a fourth review file.
-11. **Who reviews.** Opus 5.5 reviews every round. Round 1 runs at high effort.
+    that is wording, tone, format or a typo only is cosmetic. It may be
+    applied directly, without a new round. A finding that a document could be
+    stronger, with nothing in it wrong, unsupported or misleading, is not
+    substantial and does not start a new round. If a document has not cleared
+    review after the third substantial revision, that is an unresolved tension
+    the pipeline cannot close on its own. Stop, and send it to Mark. Never
+    start a fourth round. The `roundcount` command blocks a fourth review
+    file.
+12. **Who reviews.** Opus 5.5 reviews every round. Round 1 runs at high effort.
     Rounds 2 and 3 are targeted rechecks at medium effort: only what changed,
     against the prior findings. The reviewer is never the drafter.
-12. **Record status (R16).** See Section 6.
-13. **Registry first.** A world's registry entry (`records/worlds/<code>.yaml`)
+13. **Record status (R16).** See Section 6.
+14. **Registry first.** A world's registry entry (`records/worlds/<code>.yaml`)
     exists before any of its records reach `main`, so CI sees the world from
     its first record. The `world_id` is identical across the registry entry
     and every record.
-14. **Simulated-review label.** Every review file an agent writes begins with
+15. **Simulated-review label.** Every review file an agent writes begins with
     the literal line "Simulated review - informational only, not an Article 31
     substitute." An agent-run review never stands in for Article 31's external
     scholarly accountability.
-15. **Truncation check.** Every review round verifies the document's
-    completeness by two independent methods, such as a direct file read and an
-    independent count or grep. Both are recorded in the review file.
-16. **No self-certified dismissal of a blocking finding.** A drafter-side
+16. **Truncation check.** Every review round verifies the document's
+    completeness by two independent methods: a direct file read, and an
+    independent bash-level count or grep. Both are recorded in the review file
+    with raw evidence. If the two disagree, the direct file read is
+    authoritative. A dismissal of that disagreement needs independent
+    confirmation before it counts as resolved.
+17. **No self-certified dismissal of a blocking finding.** A drafter-side
     investigation that dismisses a blocking finding needs independent
     re-confirmation by a fresh Opus review at high effort. Re-verify every high
     finding against source yourself before you apply a fix.
-17. **Vocabulary.** Say "Approved to proceed." Never say "finalized." A
+18. **Vocabulary.** Say "Approved to proceed." Never say "finalized." A
     document that is approved to proceed has not closed anything (Section 8).
-18. **Open items.** Every open item in a review or phase document has an
+19. **Open items.** Every open item in a review or phase document has an
     `Open_Gaps_Tracking.md` entry. Entries are append-only and numbered. A
     merged entry's number never changes, and cross-references cite subject and
     date, never a bare number. Every known fleet-level defect that is not being
     fixed now is registered as an `ACCEPTED_OPEN` waiver with an owning
     finding. A stale waiver for something already fixed fails the run, so
     remove it.
-19. **Decision logs.** Decisions, audit trails, review rounds and status
+20. **Decision logs.** Decisions, audit trails, review rounds and status
     reports go in `Build/Ministry/`, never into a live or canonical file.
     Superseded material goes to `Archive/`. Nothing is deleted without
     instruction.
-20. **Change orders.** Once something is frozen or otherwise settled, a real
+21. **Change orders.** Once something is frozen or otherwise settled, a real
     change to it is a named, reasoned change order, and never a quiet edit.
 
 ---
@@ -1169,6 +1216,24 @@ version is frozen at pilot start. A change to this process after the pilot
 starts is a named change order with a reason, and it never lands as a quiet
 edit. A world freezes against the process version and Completion Standard
 version in force when its build began.
+
+---
+
+## 13. Open items
+
+These items are open. Each must be settled before the step that depends on it.
+
+- **Lean validation metered ceiling.** The number is owed by Mark (Section 9).
+- **The two pilot worlds.** Mark names them, or the source-research thread
+  proposes them (Section 11).
+- **Full-validation trigger definitions.** The project lead defines three of
+  the four (Section 8).
+- **world_core integrative observation field.** Adding this field to the
+  `world_core` schema is an open engineering item in this process. The
+  inhabited-voice text for the Capsule Core needs a field as well, and belongs
+  to the same item.
+- **Telos field.** The schema has no telos field, so the world's construction
+  notes hold the telos until an engineering item adds one.
 
 ---
 
