@@ -1,7 +1,7 @@
 Title: Sancti Aurelii Augustini Sermones (Sermones 1-340), Patrologiae Cursus Completus, Series Latina, Tomus XXXVIII
 Creator: Augustine of Hippo; Benedictine Maurist fathers (17th-c. recension); Jacques-Paul Migne (Editor/Publisher, Patrologia Latina)
 Publisher: Parisiis (Paris): apud J.-P. Migne editorem. Patrologiae Cursus Completus, Series Latina, Tomus XXXVIII (S. Aurelii Augustini Tomus Quintus, Pars Prior)
-Publication Date: 1845 (archive.org catalogue date; the OCR title page carries no imprint year)
+Publication Date: 1845 (the title page prints 1845 at file line 177)
 Rights: Public Domain (pre-1930 publication)
 Language: lat
 Source: archive.org item patrologiae_cursus_completus_lat_vol_038 (a Google Books scan; archive.org lists it under a Public Domain Mark 1.0 licence URL), full text at https://archive.org/download/patrologiae_cursus_completus_lat_vol_038/patrologiae_cursus_completus_lat_vol_038_djvu.txt. Fetched and opened directly 2026-09-29 by the lpc library sweep.

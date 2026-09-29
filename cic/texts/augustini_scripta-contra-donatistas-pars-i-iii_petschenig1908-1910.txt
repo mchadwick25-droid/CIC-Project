@@ -22,9 +22,8 @@
                   Michael Petschenig (Editor)
      Print Basis: Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL),
                   Vol. LI (Pars I, 1908), Vol. LII (Pars II, 1909) and
-                  Vol. LIII (Pars III, 1910, per the errata section's
-                  own citation; Pars III's own title page was not
-                  captured in this OCR). Vienna: F. Tempsky; Leipzig:
+                  Vol. LIII (Pars III, MDCCCCX, title page at file
+                  lines 60474-60500). Vienna: F. Tempsky; Leipzig:
                   G. Freytag.
           Rights: Public Domain
         Language: lat
@@ -41,16 +40,16 @@ Source Collection: Internet Archive, FULL TEXT (OCR). Supplied
                   vendoring); everything after that is unedited raw
                   OCR output.
       Contents map (by internal heading; line numbers are file lines):
-                  Pars I: Psalmus contra partem Donati (2065),
-                  Contra epistulam Parmeniani (8441), De baptismo
-                  (8477). Pars II: Contra litteras Petiliani (24752),
-                  Epistula ad catholicos (36701), Contra Cresconium
-                  (41781). Pars III: De unico baptismo (60952),
-                  Breviculus collationis (62773), Contra partem
-                  Donati post gesta (66511), Sermo ad Caesariensis
-                  (71499), Gesta cum Emerito (72784), Contra
-                  Gaudentium (78580), Appendix with Adversus
-                  Fulgentium (78734).
+                  Pars I: Psalmus contra partem Donati (title 1254),
+                  Contra epistulam Parmeniani (title 2086), De baptismo
+                  (8474). Pars II: Contra litteras Petiliani (24749),
+                  Epistula ad catholicos (36698), Contra Cresconium
+                  (41778). Pars III: De unico baptismo (60949),
+                  Breviculus collationis (62770), Contra partem
+                  Donati post gesta (66508), Sermo ad Caesariensis
+                  (71496), Gesta cum Emerito (title 72034), Contra
+                  Gaudentium (title 73262), Appendix with Adversus
+                  Fulgentium (78731).
      OCR quality: Raw, uncorrected OCR of a dense Latin critical
                   edition with an extensive apparatus criticus. Expect
                   the same range of OCR artifacts as elsewhere in this
