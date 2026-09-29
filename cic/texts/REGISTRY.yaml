@@ -3277,12 +3277,6 @@
   date_added: '2026-09-29'
   notes: >-
     Palladius, Dialogue on the Life of Chrysostom, trans. Herbert Moore, SPCK, 1921. Internet Archive identifier thedialogueofpal00mooruoft (first fetch returned a server error; the retry succeeded). Greek OCR is garbled; the English is readable. Moore identifies the author as the Palladius of the Lausiac History; the file does not adjudicate that.
-- filename: augustine_epistulae-praefatio-indices-lat_goldbacher-csel58.txt
-  supplied_by: >-
-    Claude (library/source-research thread: located the edition from the download queue, fetched the full-text OCR directly from archive.org, verified the title page and the host's own NOT_IN_COPYRIGHT tag before vendoring)
-  date_added: '2026-09-29'
-  notes: >-
-    Goldbacher, CSEL 58 (1923): praefatio and Indices I-VI for the letters, no letter text. Internet Archive identifier corpusscriptorum58auguuoft (Trinity College Toronto copy). Closes the last open volume of lpc's G4 (CSEL 34/1, 34/2, 44, 57 are already vendored). A finding aid, never a source of Augustine's own words; index tables OCR poorly.
 - filename: suetonius_lives-of-the-caesars-loeb_rolfe1914.txt
   supplied_by: >-
     Claude (library/source-research thread: located the edition from the download queue, fetched the full-text OCR directly from archive.org, verified the title page and the passages before vendoring)
