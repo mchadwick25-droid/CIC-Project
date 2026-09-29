@@ -4572,3 +4572,34 @@ Mark's ear on the live file.
 2. Open, unchanged: the 10 built worlds' voices, and the readability and
    archaic-English findings. The v4 question can be reopened if a
    BBC-style voice is found.
+
+## 2026-09-29 — Gap stories narrated (62), voice B on Eleven v4
+
+**Decision.** The Church Family Tree's 62 gap stories (the open-book marks
+between worlds) are narrated in a female storytelling voice, story text only,
+never the caveat. Mark heard two candidates on the same two stories
+(Perpetua and Felicity; Ntsikana's Great Hymn) and chose voice B, then said
+to use it for all 62.
+
+**Settings, as printed by the run.** Voice `onegjDE2z0mQtp1g0HK7`, model
+`eleven_v4`, stability 0.95, similarity 0.68, style 0, speaker boost on.
+Candidate A (`HXOwtW4XU7Ne6iOiDHTl`) was not chosen.
+
+**Cost.** Sample: 287 credits per voice (two stories, 2,151 characters).
+Run: 60 stories, 68,981 characters, 9,195 credits; the two sample clips of
+voice B were reused. All 60 request lines carried the chosen voice and
+model; no failures. Clip sizes sit in a tight 1,029–1,190 bytes per
+character, so none is truncated. Whether the launch promotion covers API use
+is not established from the API; it reports only the charge.
+
+**Limits of what could be checked.** Voice gender, accent and age cannot be
+read with this API key. The voice rests on the voice id in each request and
+Mark's ear.
+
+**Wired.** `cic-website/audio/stories/<story-id>.mp3`, played from the story
+panel in `atlas-v3.html` under "The Story", with the synthesized-voice note.
+
+### Next action
+
+1. Merge, then Mark listens to a live story clip.
+2. The Unfolding Story on the home page, then the built-world stories.
