@@ -14,7 +14,11 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: null
-sources: []
+sources:
+- source_id: rzg.source.calvin-institutes-book4
+  locus: 'IV.3.8: ''seniors selected from the people to unite with the bishops in pronouncing censures''
+    - the general doctrine, Confidence A'
+  license: public-domain
 relations:
 - type: tension-with
   target: rzg.term.consistory
