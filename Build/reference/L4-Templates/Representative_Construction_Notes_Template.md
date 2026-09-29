@@ -574,7 +574,7 @@ into their own formation vocabulary]
 
 ### Relational Safety Probe
 
-\[Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.5: this probe tests the
+\[Per `CiC_World_Build_Completion_Standard_V1.4.md` §C: this probe tests the
 shared, portfolio-level Facilitator-handoff mechanism (`engine/m4/turn.py`'s Track A
 and Track B routing and the world-blind safety classifier), not this world's own
 construction. **Status: CONDUCTED** here means confirming the handoff fires

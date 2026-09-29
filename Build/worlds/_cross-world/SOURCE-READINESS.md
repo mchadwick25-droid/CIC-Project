@@ -11,7 +11,7 @@ to proceed. The world build starts at Step 3, and only when the handoff
 package is complete; it never redoes Steps 0–2 or the library search. If
 the package is incomplete, the build thread **stops** and asks for what
 is missing. The full rule is in
-`Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md`, §2.
+`Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md`, §4.
 
 ## Why this exists
 

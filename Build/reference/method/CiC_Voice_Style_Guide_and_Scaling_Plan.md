@@ -985,7 +985,7 @@ The line, in one sentence:
 That line is not invented here. It is the repo's existing FLAG discipline:
 *"Defects → `FLAGS.md`, never silently patched. Upstream wording problems
 are referred, not rewritten (the FLAG-029 discipline)"*
-(`CiC_Record_Native_World_Build_Process_V1.9.md`). And
+(`Archive/Superseded-Method/CiC_Record_Native_World_Build_Process_V1.9.md`). And
 `pahc.craft.chloe-voice.md` shows it in use inside a record: a Grapte
 attribution was corrected against the vendored text, while the fact that
 the *upstream approved decision document* is now wrong was **"FLAGGED, not
@@ -1230,7 +1230,7 @@ Concretely:
 **There is a written, adopted verdict on Fable in this repo, and it is
 specific about where Fable does and does not pay.**
 
-`Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md`
+`Archive/Superseded-Method/CiC_Record_Native_World_Build_Process_V1.9.md`
 (§ "Model routing (Mark's policy, 2026-08-01 — pinned, not per-thread
 discretion)"):
 
