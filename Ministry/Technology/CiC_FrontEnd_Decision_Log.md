@@ -3993,3 +3993,52 @@ distinct-voice picks, and now also worth settling before the next
 big batch - whether to stay on Starter split across further renewals,
 or upgrade once, given the plan/quota mismatch this entry found and
 never fully explained.
+
+---
+
+## 2026-09-29 — Listening page built; a second narration round widens the
+credit-ratio mystery instead of resolving it
+
+**Listening page.** Mark asked to hear what had shipped. Published a
+review Artifact (`https://claude.ai/artifact/5X7Uve379MFSzhRRwwjMs9`)
+grouping the built-world movements (each labeled with its
+Representative's name) separately from the rest, streaming the real
+committed audio files rather than embedding them - the page reused this
+site's own actual design tokens (parchment/vellum/madder, Alegreya)
+rather than inventing a new look, per this project's own "respect what
+already exists" discipline. Mark then asked whether it could auto-play
+or offer an easy way to move through tracks - autoplay is a hard no
+(every artifact viewer blocks audio before a click, no exception), so
+built the thing actually being asked for instead: a numbered track list
+per section plus a "Play all" button that auto-advances through every
+clip in order on one click. Verified for real before republishing (not
+just visually) - a synthetic `ended` event confirmed the auto-advance
+logic actually chains tracks and the button correctly resets after the
+last one; real seek-based verification wasn't possible against the
+local test server (`python -m http.server` doesn't support the Range
+requests real playback seeking needs), named as a test-methodology
+limit rather than glossed over.
+
+**Second narration round, 13 more movements (43/292 now narrated).**
+Mark reported the dashboard again: 14,433 credits remaining, down from
+23,547 - 9,114 credits spent on the last batch's 22,785 characters, a
+**0.40 credits/char ratio**, not the roughly 0.70 the first batch
+implied. Two real measurements now disagree with each other, not just
+with the naive 1:1 assumption - named plainly rather than picked one and
+moved on. `--char-budget 14000` (still assuming the conservative 1:1
+worst case, which both real measurements sit comfortably under) planned
+13 movements, 13,969 characters; all 13 generated on the first attempt,
+verified as genuine MP3s, page regeneration touched exactly the 13
+expected pages, one spot-checked live in a browser (68.1s real
+duration, zero errors). Committed and pushed (`b11aac493`).
+
+### Next action
+
+Same open items as the entry above, now with a third data point that
+still doesn't resolve the ratio question: whichever it is, it's under
+1 credit/char both times, so the conservative characters-as-credits
+budgeting keeps working, but nobody should trust it to predict "credits
+remaining after this run" precisely. 249 movements remain. The listening
+page should get a refresh pass once a few more batches land, rather than
+after every single one - Mark can ask for it when he wants to hear the
+latest.
