@@ -418,5 +418,600 @@
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1354
+ },
+ "armenian-christianity-after-avarayr-1": {
+  "hash": "bb564708d5f53a19",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1392
+ },
+ "chalcedonian-monasticism-judean-desert-and-gaza-0": {
+  "hash": "40f9d25870da159a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1392
+ },
+ "chalcedonian-monasticism-judean-desert-and-gaza-1": {
+  "hash": "dc08b68d876ae64f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1425
+ },
+ "chalcedonian-monasticism-judean-desert-and-gaza-2": {
+  "hash": "b4eb68351b9c5ec8",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1291
+ },
+ "early-benedictine-italian-monasticism-0": {
+  "hash": "4e67466b4961b075",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1279
+ },
+ "early-benedictine-italian-monasticism-1": {
+  "hash": "8a8a7a0851aaef08",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1320
+ },
+ "roman-church-gregorian-0": {
+  "hash": "1720d3d630cb9d22",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1350
+ },
+ "roman-church-gregorian-1": {
+  "hash": "0ba3aab1dc627b66",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1377
+ },
+ "roman-church-gregorian-2": {
+  "hash": "66e1c0baed9a3109",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1365
+ },
+ "merovingian-gallic-christianity-0": {
+  "hash": "e2d7dc18ff5bdc02",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1396
+ },
+ "merovingian-gallic-christianity-1": {
+  "hash": "4c2f81c01278671f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1331
+ },
+ "merovingian-gallic-christianity-2": {
+  "hash": "50eaaf8ce7923234",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1406
+ },
+ "insular-irish-monastic-christianity-0": {
+  "hash": "aaa7f5b46f455684",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1347
+ },
+ "insular-irish-monastic-christianity-1": {
+  "hash": "028e4b1f2243579f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1352
+ },
+ "insular-irish-monastic-christianity-2": {
+  "hash": "17c09b4e923d870f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1328
+ },
+ "aksumite-christianity-0": {
+  "hash": "0e805facc68c86d7",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1370
+ },
+ "aksumite-christianity-1": {
+  "hash": "26f7c4b1b3c734d6",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1478
+ },
+ "georgian-christianity-0": {
+  "hash": "69f9777415689dd2",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1390
+ },
+ "georgian-christianity-1": {
+  "hash": "4ace7707506ce1ac",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1466
+ },
+ "nubian-christianity-0": {
+  "hash": "905d95fce83ff9f3",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1269
+ },
+ "gothic-and-vandal-homoian-christianity-0": {
+  "hash": "a89ef67c13f784f0",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1333
+ },
+ "gothic-and-vandal-homoian-christianity-1": {
+  "hash": "b4046f746b552e8d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1463
+ },
+ "byzantine-imperial-church-justinianic-0": {
+  "hash": "b5eb28a59fd0f075",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1296
+ },
+ "byzantine-imperial-church-justinianic-1": {
+  "hash": "f81e510916556e74",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1436
+ },
+ "church-of-caucasian-albania-0": {
+  "hash": "a736c46e715b91b4",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1435
+ },
+ "latin-africa-under-byzantium-0": {
+  "hash": "cba21da573b1b6e5",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1488
+ },
+ "nicene-visigothic-iberia-0": {
+  "hash": "39da80262f7e23b0",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1394
+ },
+ "nicene-visigothic-iberia-1": {
+  "hash": "bed92e4c2b0db218",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1402
+ },
+ "british-welsh-christianity-0": {
+  "hash": "841410963a676593",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1274
+ },
+ "british-welsh-christianity-1": {
+  "hash": "d6f6fe8b07be3e0d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1310
+ },
+ "the-church-of-the-east-on-the-silk-road-0": {
+  "hash": "cd60b41fc9c4ca43",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1379
+ },
+ "the-church-of-the-east-on-the-silk-road-1": {
+  "hash": "43176f5b8d716d19",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1346
+ },
+ "melkite-arabic-christianity-0": {
+  "hash": "45d5677999edd5aa",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1365
+ },
+ "melkite-arabic-christianity-1": {
+  "hash": "1cb853f7408ba215",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1460
+ },
+ "coptic-christianity-under-early-islam-0": {
+  "hash": "a0061d8e05e8f4ef",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1461
+ },
+ "coptic-christianity-under-early-islam-1": {
+  "hash": "4fe536ff8e3d03ff",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1458
+ },
+ "anglo-saxon-christianity-0": {
+  "hash": "12fb66197bb4b38d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1309
+ },
+ "anglo-saxon-christianity-1": {
+  "hash": "e96af89ee30adb8e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1291
+ },
+ "anglo-saxon-christianity-2": {
+  "hash": "76fa72db8f78b316",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1239
+ },
+ "carolingian-reform-christianity-0": {
+  "hash": "7745139c89afdeeb",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1258
+ },
+ "carolingian-reform-christianity-1": {
+  "hash": "463aa27927c8a4a5",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1333
+ },
+ "iconophile-byzantine-monasticism-0": {
+  "hash": "f9a2fafc615f49fd",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1376
+ },
+ "iconophile-byzantine-monasticism-1": {
+  "hash": "2ed1e53d144999fc",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1383
+ },
+ "cyrillo-methodian-slavic-christianity-0": {
+  "hash": "eddb330e11e798cd",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1328
+ },
+ "cyrillo-methodian-slavic-christianity-1": {
+  "hash": "0e82e06268a89e3d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1409
+ },
+ "kievan-rus-christianity-0": {
+  "hash": "5b93df1d04f22ed0",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1413
+ },
+ "kievan-rus-christianity-1": {
+  "hash": "48d7217e34855b8e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1347
+ },
+ "mozarabic-christianity-0": {
+  "hash": "a9e62d48f92d571e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1433
+ },
+ "mozarabic-christianity-1": {
+  "hash": "78ad6ef6dc92a9c9",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1429
+ },
+ "cluniac-reform-monasticism-0": {
+  "hash": "27d4e8b7fe30939d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1307
+ },
+ "cluniac-reform-monasticism-1": {
+  "hash": "154ee816d364c862",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1270
+ },
+ "st-thomas-christians-of-india-0": {
+  "hash": "e4be27e38ab0d294",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1535
+ },
+ "paulicians-0": {
+  "hash": "0c9ce44c60e949c1",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1439
+ },
+ "scandinavian-conversion-christianity-0": {
+  "hash": "b26d119dd2c0ef5f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1444
+ },
+ "scandinavian-conversion-christianity-1": {
+  "hash": "a1130c3ab0873d75",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1303
+ },
+ "byzantine-imperial-church-heraclian-iconoclast-0": {
+  "hash": "b3a7ea38473a2875",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1350
+ },
+ "byzantine-imperial-church-heraclian-iconoclast-1": {
+  "hash": "db598593d05584eb",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1319
+ },
+ "byzantine-imperial-church-macedonian-0": {
+  "hash": "b987bf0db804df8b",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1361
+ },
+ "byzantine-imperial-church-macedonian-1": {
+  "hash": "640d4a8bd4563e4c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1363
+ },
+ "bagratid-armenian-christianity-0": {
+  "hash": "aac60287c09489ea",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1400
+ },
+ "bagratid-armenian-christianity-1": {
+  "hash": "93f008511802b0b2",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1204
+ },
+ "syriac-orthodox-under-islam-0": {
+  "hash": "6c36c494fb42fc48",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1353
+ },
+ "syriac-orthodox-under-islam-1": {
+  "hash": "097536d3dd5b67d2",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1424
+ },
+ "makurian-nubian-christianity-0": {
+  "hash": "81d063c944f82860",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1464
+ },
+ "makurian-nubian-christianity-1": {
+  "hash": "dcf90bd78d2d17d7",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1378
+ },
+ "late-anglo-saxon-christianity-0": {
+  "hash": "8eafad5181707e72",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1262
+ },
+ "late-anglo-saxon-christianity-1": {
+  "hash": "0dc39f377da03a14",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1356
+ },
+ "georgian-revival-tao-klarjeti-0": {
+  "hash": "1b904cef048e498b",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1373
+ },
+ "georgian-revival-tao-klarjeti-1": {
+  "hash": "54a3b32d885e7dfd",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1378
+ },
+ "cistercian-monasticism-0": {
+  "hash": "173cc52b2a711cbc",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1466
+ },
+ "cistercian-monasticism-1": {
+  "hash": "6010d6970bcc3a1c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1419
+ },
+ "carthusian-life-0": {
+  "hash": "8e14fa6cffd0463f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1355
+ },
+ "carthusian-life-1": {
+  "hash": "96505992174460c6",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1406
+ },
+ "canons-regular-victorine-school-0": {
+  "hash": "81302f868a04810e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1447
+ },
+ "the-franciscan-movement-0": {
+  "hash": "b9af56ae1644e47d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1299
+ },
+ "the-franciscan-movement-1": {
+  "hash": "cd1a75cae20afa7a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1384
+ },
+ "the-franciscan-movement-2": {
+  "hash": "01aec46786bd7520",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1447
+ },
+ "the-dominican-order-0": {
+  "hash": "222bb3038c963f74",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1448
+ },
+ "the-dominican-order-1": {
+  "hash": "da910efcb538272a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1405
+ },
+ "athonite-and-comnenian-byzantine-monasticism-0": {
+  "hash": "007f835eb9c6a71e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1389
+ },
+ "athonite-and-comnenian-byzantine-monasticism-1": {
+  "hash": "f38da0e9ca9a3af0",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1411
+ },
+ "the-beguines-0": {
+  "hash": "5ca714c709bcca2a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1305
+ },
+ "the-beguines-1": {
+  "hash": "20f96681278a3b13",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1197
+ },
+ "the-waldensians-0": {
+  "hash": "5582f109ef8240ac",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1232
+ },
+ "maronite-christianity-0": {
+  "hash": "0207ccd75c6b4680",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1402
  }
 }
