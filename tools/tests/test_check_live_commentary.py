@@ -1518,7 +1518,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/reference/Redesign-Spec/World-Cards.md", 139, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
-    ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 366, "KEEP"),
+    ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this "Date drafted:" header line was hand-labelled KEEP
     # under the old bare-date rule alone; it is now PROTECTED, the more
