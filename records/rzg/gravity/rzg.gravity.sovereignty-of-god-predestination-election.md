@@ -13,7 +13,19 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: null
-sources: []
+sources:
+- source_id: rzg.source.zwingli-selected-works
+  locus: the 1527 Refutation of the Tricks of the Baptists, 'On Election' section, lines approx. 9591-9762
+    - working through Romans 8-9 to argue election precedes and grounds calling, faith, and blessedness
+  license: public-domain
+- source_id: rzg.source.second-helvetic-confession
+  locus: 'Chapter X, lines 653-701, esp. 684-685: ''Let... Christ be the mirror in which we behold [our]
+    predestination'' (source''s own OCR-garbled ''onr'' corrected to ''our'')'
+  license: public-domain
+- source_id: rzg.source.calvin-institutes-books2-3
+  locus: Books II-III - the fullest systematized treatment, per this record's own description substantially
+    Calvin/Beza-concentrated relative to the cross-strand core conviction
+  license: public-domain
 relations:
 - type: tension-with
   target: rzg.term.predestination-election
