@@ -4082,3 +4082,37 @@ characters at the ~0.35-0.40 band) before the Starter plan needs to
 renew or be topped up again. Same standing open items: the 11
 distinct-voice picks, and the listening page refresh whenever Mark asks
 for it next.
+
+---
+
+## 2026-09-29 (later still) — Fifth round runs the quota out; the exact
+rate is now confirmed, not estimated
+
+**Origin.** Mark: "run it now," against the 2,912 credits just reported.
+Planned `--char-budget 7000` (6 movements, 6,023 characters), same
+trust-the-repeated-ratio approach as the round before.
+
+**Ran into the wall the risk-acceptance in the last entry named
+directly:** 5 of 6 succeeded; the 6th
+(`coptic-christianity-under-early-islam`) failed on a real
+`quota_exceeded` response - "129 credits remaining, 382 required."
+Exactly the soft-stop the script's resumable design was built for:
+nothing lost, the 5 successes verified and committed
+(`f8ff53049`; 65/292 now narrated), the 6th simply waits for next time.
+
+**The real payoff of the failure: it resolved the open ratio
+question.** 382 credits for 955 characters is exactly 0.40 - matching
+two of the last three batches precisely, this time from ElevenLabs'
+own error message rather than a before/after dashboard subtraction.
+**0.40 credits/char is this account's real fixed rate**, confirmed, not
+estimated. The original first batch's ~0.70 reading stays unexplained
+but is now clearly the outlier, not the rule.
+
+### Next action
+
+227 movements remain (232 minus this round's 5). Starter quota is
+effectively exhausted (129 credits - not enough for any real movement).
+Next real progress needs either the plan's renewal or Mark's earlier
+standing option (a one-month Pro upgrade) - his call, not assumed here.
+Same standing open items: the 11 distinct-voice picks, and the
+listening page refresh whenever Mark wants to hear the latest 65.
