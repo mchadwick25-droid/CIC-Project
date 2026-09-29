@@ -4163,4 +4163,56 @@ the first 65 - due for a refresh whenever Mark wants to hear the full
 292, not urgent on its own. Eras/rivers narration remains its own
 separate, not-yet-scoped follow-on (new prose would need to be written
 first, per the original scoping decision).
-listening page refresh whenever Mark wants to hear the latest 65.
+
+---
+
+## 2026-09-29 (later) — Listening page refreshed with all 292; split
+across two linked pages, the full audio set exceeds one artifact's cap
+
+**Origin.** Mark: "refresh the listening page with all 292," closing the
+item left open two entries up.
+
+**Real platform constraint found before building, not after:** the full
+audio set is 319.6MB. The Artifact platform caps a single artifact
+version at 256MB across all its published files - literally impossible
+to fit all 292 clips into the one existing page regardless of how many
+separate publish calls carry them there (that cap applies to the
+version's total, not per-call). Named this directly rather than
+force-fitting a subset silently or quietly dropping movements from the
+"complete" claim.
+
+**Solution: two linked artifacts, not one page pretending to be
+complete.** Split by cumulative byte size (not a round movement count),
+built worlds kept together with the first chunk: **Part 1**
+(`https://claude.ai/artifact/5X7Uve379MFSzhRRwwjMs9`, updated in place)
+- the 11 built worlds + 194 more, 205 movements, 229MB; **Part 2**
+(`https://claude.ai/artifact/VBi8GR28FKRmtU9WraUGuz`, new) - the
+remaining 87 movements, 90MB. Each page links to the other; both carry
+the same progress header (292/292, complete), numbered track lists, and
+the "Play all" auto-advance built for the first version. Published Part
+2 first (new artifact, no forward link needed), then rebuilt Part 1 with
+Part 2's now-known real URL - avoided a placeholder link that would have
+needed a second correction pass.
+
+**Per-call size limits meant per-page uploads still needed batching:**
+a single publish caps at 64MB, so Part 1's 229MB went up as 5 batches
+(~55MB each) and Part 2's 90MB as 2, all to the same two URLs via
+`url`-targeted publishes that add files rather than replace the version.
+**Verified by listing published files on both artifacts afterward, not
+assumed from the upload log:** Part 1 shows exactly 205 audio files +
+its page; Part 2 shows exactly 87 + its page - 292 total, matching the
+real committed set exactly. Read back Part 1's actual rendered HTML
+(not just the upload confirmations) to confirm real titles, dates,
+Representative names, and the live cross-link to Part 2 all render
+correctly.
+
+### Next action
+
+Both pages are complete and correct for the full 292. Only remaining
+open item: the 11 built-world movements still narrate on the single
+default voice (Josh) - once Mark picks distinct per-Representative
+voices in ElevenLabs' dashboard and fills
+`tools/tree-narration-voices.mjs`, a `--force` re-run of those 11 would
+also need republishing just their clips to Part 1 (they're all within
+Part 1's byte range). Eras/rivers narration remains its own unscoped
+follow-on, unchanged from every prior entry.
