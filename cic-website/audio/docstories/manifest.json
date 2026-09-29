@@ -19,5 +19,404 @@
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1444
+ },
+ "greek-apologists-second-century-0": {
+  "hash": "cdef42124b699fa7",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1243
+ },
+ "greek-apologists-second-century-1": {
+  "hash": "d673d65407b012ed",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1275
+ },
+ "latin-apologists-0": {
+  "hash": "58fda945f5cd5c91",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1308
+ },
+ "apocryphal-and-pseudepigraphal-literature-0": {
+  "hash": "159c5a727a14cba6",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1236
+ },
+ "apocryphal-and-pseudepigraphal-literature-1": {
+  "hash": "d76c214eff676087",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1137
+ },
+ "latin-pastoral-congregational-christianity-0": {
+  "hash": "732ae76fa3f48c19",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1359
+ },
+ "latin-pastoral-congregational-christianity-1": {
+  "hash": "42e2c5a1c86bebf8",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1366
+ },
+ "latin-pastoral-congregational-christianity-2": {
+  "hash": "ac02221472e222b1",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1299
+ },
+ "tertullian-s-voice-0": {
+  "hash": "f9f9cf8eea93dcdc",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1345
+ },
+ "tertullian-s-voice-1": {
+  "hash": "b49cdffc8ed40a93",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1254
+ },
+ "marcion-marcionism-0": {
+  "hash": "299a01b8866b708f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1413
+ },
+ "manichaeism-0": {
+  "hash": "f3b22b6678f022b7",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1424
+ },
+ "montanism-the-new-prophecy-0": {
+  "hash": "02ef412e5fc5831a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1331
+ },
+ "montanism-the-new-prophecy-1": {
+  "hash": "48094703a43b4128",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1386
+ },
+ "novatianism-0": {
+  "hash": "a724b5967dcdc826",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1324
+ },
+ "novatianism-1": {
+  "hash": "818cd742e75ca197",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1381
+ },
+ "anatolian-church-third-century-0": {
+  "hash": "08385a889a80f376",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1470
+ },
+ "antiochene-church-third-century-0": {
+  "hash": "8e99b346ac6f6c26",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1378
+ },
+ "palestinian-church-pre-constantinian-0": {
+  "hash": "eb4f673f6a75b3f5",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1326
+ },
+ "palestinian-church-pre-constantinian-1": {
+  "hash": "ef34b2c0f3568b97",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1388
+ },
+ "palestinian-church-pre-constantinian-2": {
+  "hash": "23dd03700d369462",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1316
+ },
+ "roman-church-third-century-0": {
+  "hash": "fd62ff7a53c149ec",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1478
+ },
+ "roman-church-third-century-1": {
+  "hash": "d214a5fbc1a11a07",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1404
+ },
+ "danubian-latin-christianity-0": {
+  "hash": "cb701ad8fdf1d527",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1464
+ },
+ "palestinian-ascetic-monasticism-early-0": {
+  "hash": "0f71492042d5cb2b",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1338
+ },
+ "armenian-christianity-conversion-era-0": {
+  "hash": "66cf36f8bdb0a5e5",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1415
+ },
+ "armenian-christianity-conversion-era-1": {
+  "hash": "79926df9cdba8149",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1323
+ },
+ "aksumite-christianity-conversion-era-0": {
+  "hash": "b82463e1b9469559",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1424
+ },
+ "persian-church-of-the-east-early-0": {
+  "hash": "0d1821e073c64912",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1263
+ },
+ "persian-church-of-the-east-early-1": {
+  "hash": "6dc1510f53009add",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1412
+ },
+ "antiochene-exegetical-christianity-chrysostom-ce-1": {
+  "hash": "b0ffca0727ab3b3a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1414
+ },
+ "cyrilline-miaphysite-egyptian-tradition-0": {
+  "hash": "d60e1ca3329c94a8",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1550
+ },
+ "cyrilline-miaphysite-egyptian-tradition-1": {
+  "hash": "ffa60a281541ab45",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1484
+ },
+ "cyrilline-miaphysite-egyptian-tradition-2": {
+  "hash": "1ba43a52068ca241",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1438
+ },
+ "jerusalem-liturgical-pilgrimage-christianity-0": {
+  "hash": "4a6684b88cf7a053",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1191
+ },
+ "jerusalem-liturgical-pilgrimage-christianity-1": {
+  "hash": "5f9d39467f167388",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1446
+ },
+ "ambrosian-milan-standalone-0": {
+  "hash": "f9e1990a998c5a85",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1389
+ },
+ "aquileian-christianity-0": {
+  "hash": "8a0ea3d5eade766c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1343
+ },
+ "gallic-nicene-episcopate-0": {
+  "hash": "f6b1b9e6a7898bb7",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1439
+ },
+ "priscillianist-asceticism-0": {
+  "hash": "701fd97cc4d08c4e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1400
+ },
+ "pelagianism-0": {
+  "hash": "a20e8a4999734655",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1364
+ },
+ "homoian-arian-christianity-0": {
+  "hash": "5c00590ba00c01e9",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1466
+ },
+ "homoian-arian-christianity-1": {
+  "hash": "ea6234895510f20d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1410
+ },
+ "anomoean-eunomian-christianity-0": {
+  "hash": "89e9277f6f8633c2",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1365
+ },
+ "pneumatomachian-current-0": {
+  "hash": "7ca0acede20095da",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1431
+ },
+ "apollinarian-christianity-0": {
+  "hash": "e4693cce7af55b59",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1417
+ },
+ "apollinarian-christianity-1": {
+  "hash": "ce96df5528890e8d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1457
+ },
+ "modalist-monarchianism-0": {
+  "hash": "5c63297782ee0391",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1375
+ },
+ "bardaisanite-current-0": {
+  "hash": "a663e25211107243",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1386
+ },
+ "cyrilline-miaphysite-egyptian-christianity-0": {
+  "hash": "a0b264c6e2e607a4",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1343
+ },
+ "cyrilline-miaphysite-egyptian-christianity-1": {
+  "hash": "5c633e76b98450d3",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1442
+ },
+ "cyrilline-miaphysite-egyptian-christianity-2": {
+  "hash": "f461ef236edaf0aa",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1450
+ },
+ "syriac-orthodox-west-syriac-christianity-0": {
+  "hash": "4f4b0f8ef06371f2",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1428
+ },
+ "syriac-orthodox-west-syriac-christianity-1": {
+  "hash": "b3eab33fe552d716",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1440
+ },
+ "the-church-of-the-east-under-persia-0": {
+  "hash": "5780b3f0f67eba12",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1368
+ },
+ "the-church-of-the-east-under-persia-1": {
+  "hash": "9f0716e48e765e3e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1484
+ },
+ "armenian-christianity-after-avarayr-0": {
+  "hash": "d47f8cff969a1ba8",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 1354
  }
 }
