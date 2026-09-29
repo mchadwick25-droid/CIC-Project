@@ -4257,3 +4257,102 @@ own call, not forgotten, just not now. When this branch merges and
 deploys, the "narration player isn't live yet" caveat on both listening
 pages becomes stale and should be removed in the same pass that merges
 it. Eras/rivers narration remains its own unscoped follow-on.
+
+---
+
+## 2026-09-29 (later still) — Real gap found: narration lived on a
+secondary page, not the actual Church Family Tree; built-worlds' text
+mismatch confirmed and paused; a readability finding surfaces; spend
+frozen; the real fix ships for the 281
+
+**Origin.** Mark asked where the play button actually is and how it's
+described - answered with a real screenshot of `tree/<id>.html` - then
+asked what file got narrated, since he expected "the story on the
+church family tree click page" specifically. That question uncovered
+something this whole narration effort had missed.
+
+**Finding 1 - two different pages, only one of them narrated.** The
+actual Church Family Tree is `atlas-v3.html` - clicking a node opens an
+inline panel on the map itself, with its own "The Story" heading. The
+separate `tree/<id>.html` pages (everything narrated so far) are a
+secondary page, one more click away via a "…in the Family Tree" link.
+**The real click experience had zero narration audio** until this
+session's fix - narrating `tree/<id>.html` alone never reached where
+people actually click.
+
+**Finding 2 - the built worlds' displayed text and narrated text
+disagree, confirmed in atlas-v3.html's own code.** For 10 of the 11
+built worlds, the panel's real "Story" section renders
+`orientation.story` - a richer, per-paragraph-cited text from each
+world's own compiled `cic-website/data/worlds/<id>.json` - not the
+census `longDescription` this thread narrated. Verified directly
+against `churchinconversation.com` (live) before concluding anything.
+Mark's own read after a side-by-side (`orientation.story` vs
+`longDescription`, same movement): **"that is old material, we did a
+full revision"** - confirming `orientation.story` is the current,
+correct text and `longDescription` is stale for these 10 specifically.
+Wittenberg is the 11th and is unaffected - it has no `orientation.story`
+data at all, and the real Atlas code already falls back to
+`longDescription` for it.
+
+**Finding 3 - the same archaic-English defect recurs, and readability
+is off-target project-wide.** Mark's own instinct ("we don't want old
+English quotes") was checked, not assumed: `longDescription` carries a
+King-James-style quote ("if thou wouldest be perfect…") in
+desert-monasticism; `orientation.story` has none anywhere in the 10
+built worlds. Checking further, unprompted: the same archaic-English
+pattern recurs in **5 more of the 281 non-built movements**
+(`roman-church-gregorian`, `canons-regular-victorine-school`,
+`muscovite-monastic-christianity`, `byzantine-church-palaiologan`,
+`the-ukrainian-greek-catholic-underground`). Separately, a rough
+Flesch-Kincaid pass across all 281 `longDescription` texts found an
+**average grade of ~14.3** (median ~14.0) against this project's own
+stated 8-10 target - 95% of the set reads above grade 10.5. Flagged
+as a real, substantial gap against the project's own accessibility
+standard, with the measurement's own approximate nature named plainly
+rather than overclaimed to the decimal.
+
+**Mark's ruling, given directly: "stop, do not spend money until i
+tell you to and we have an exact plan."** No further ElevenLabs spend
+happened after this - only dry-runs and code work were in flight
+already. Named as the moment that mattered: spending ahead of a settled
+plan is exactly how the built-worlds mismatch happened in the first
+place.
+
+**Then, narrower and converged: "the story is the latest, so we can
+keep that and find a way to make the voice alive on the church family
+tree."** Read as: `longDescription` for the 281 non-built movements is
+confirmed correct and current (unlike the 10 built worlds) - keep it,
+readability finding noted but not blocking - and get the already-narrated
+audio onto the *actual* Church Family Tree page, not just the secondary
+one. This needed zero new spend - every file used already exists.
+
+**Built, same day.** `atlas-v3.html`'s own panel-rendering code now
+plays the narration audio directly under its real "The Story" heading,
+for all 281 non-built movements - the audio and the displayed text are
+the same text, confirmed. Built worlds are deliberately excluded from
+this pass: adding a player there now would play the *wrong* story
+(stale `longDescription` audio) under the *correct* heading
+(`orientation.story` text) - worse than no player, not better.
+Verified live in a real Chromium browser via the page's own `?world=`
+deep link: Pelagianism (non-built) plays real audio, 68.1s, correct
+disclosure text; Desert Monasticism (built) shows its Story heading
+with no player, confirming the exclusion holds. Committed and pushed
+(`94c8ceff6`).
+
+### Next action
+
+Real, unresolved items, none touched further without Mark's own
+go-ahead per his own ruling above:
+1. **Readability of `longDescription`** (avg grade ~14.3 vs. target
+   8-10) - a real, separate, larger question than the built-worlds text
+   swap: does this get rewritten, and if so, how, across up to 281
+   files, is Mark's call, not something to start unilaterally.
+2. **6 archaic-English instances** (1 built, 5 non-built) - same open
+   question, smaller in scope, possibly folded into whatever the
+   readability decision becomes.
+3. **The 10 built worlds** - re-narrate on `orientation.story` once
+   voices are picked, then wire their own player into `atlas-v3.html`
+   the same way, then refresh the two listening-page Artifacts (their
+   built-world clips are still the old, wrong-text audio).
+4. Eras/rivers narration remains its own unscoped follow-on, unchanged.
