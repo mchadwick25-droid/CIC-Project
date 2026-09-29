@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/the-remonstrants-and-dort.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>The Dutch Reformed minister Jacobus Arminius had doubts about how strictly predestination should be taught, and after his death in 1609 his supporters set them out in five articles — the Remonstrance of 1610. Asking the government to allow their view. The quarrel that followed swallowed the young Dutch Republic, mixing theology with politics until it ended on a scaffold. The statesman Johan van Oldenbarnevelt, the Remonstrants&#039; protector, was executed in 1619. The Synod of Dort, meeting through the winter of 1618-19 with delegates from Reformed churches across Europe, condemned the Remonstrance and answered it with five canons of its own. Some two hundred ministers were deposed and their leaders driven into exile — until toleration returned in the 1630s and they came home to build a church of their own.</p></div>
   </section>
 

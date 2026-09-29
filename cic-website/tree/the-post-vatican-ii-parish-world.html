@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/the-post-vatican-ii-parish-world.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>The Second Vatican Council opened in 1962, and what it changed most was the ordinary Sunday. Sacrosanctum Concilium, the constitution on the liturgy, was promulgated on 4 December 1963; Lumen Gentium on the church followed on 21 November 1964; Dei Verbum and Gaudium et Spes came in 1965; the revised Missal of Paul VI appeared in 1969 and 1970. In parishes this meant Mass in the language people spoke, readers and ministers of communion drawn from the pews, and parish councils. In 1972 the Rite of Christian Initiation of Adults restored the ancient catechumenate — a first-century pattern coming back after fifteen centuries. Not everyone welcomed it: Archbishop Lefebvre published a declaration in 1974, and the argument over the older rite is documented in the church&#039;s own successive rulings, Ecclesia Dei in 1988, Summorum Pontificum in 2007 and Traditionis Custodes in 2021.</p></div>
   </section>
 

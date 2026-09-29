@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/ethiopian-christianity-gragn-to-fasilides.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>Ethiopian Christianity nearly ended in this period and then reasserted itself twice over. From 1529 the armies of Ahmad ibn Ibrahim al-Ghazi — remembered as Gragn, the left-handed — swept through the highlands, burning churches and monasteries and destroying manuscripts on a scale that still limits what can be known about earlier Ethiopian history. The invasion was broken only at the battle of Wayna Daga in 1543, with Portuguese help. That help brought Jesuits, and after decades of argument Emperor Susenyos converted to Catholicism and tried to impose it, provoking a revolt so fierce that he abdicated in 1632. His son Fasilides expelled the Jesuits, restored the ancient church, and built a new capital at Gondar.</p></div>
   </section>
 

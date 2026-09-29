@@ -24,6 +24,7 @@ const rootDir = path.resolve(__dirname, '..', '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
 const treeDir = path.join(rootDir, 'cic-website/tree');
 const websiteDir = path.join(rootDir, 'cic-website');
+const audioDir = path.join(rootDir, 'cic-website/audio/tree');
 
 // Read census data
 const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
@@ -160,8 +161,29 @@ function buildLineageHtml(movementId, movement) {
   return html;
 }
 
+const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
+
+// A built world with its own compiled orientation.story (cic-website/data/worlds/<id>.json)
+// has superseded its census longDescription - see tools/generate_tree_narration.mjs's own
+// narrationTextFor(). The committed audio for these still narrates the old longDescription
+// text, not narrationTextFor()'s current text, so the page here shows no narration for them
+// until they're re-narrated on the correct text - a mismatched player is worse than none.
+function hasMismatchedNarration(movementId) {
+  const dataPath = path.join(worldsDataDir, `${movementId}.json`);
+  if (!fs.existsSync(dataPath)) return false;
+  const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  const story = data?.orientation?.story;
+  return Array.isArray(story) && story.length > 0;
+}
+
+function hasNarration(movementId) {
+  if (hasMismatchedNarration(movementId)) return false;
+  return fs.existsSync(path.join(audioDir, `${movementId}.mp3`));
+}
+
 function generatePageHtml(movement) {
   const isBuilt = builtWorlds.has(movement.id);
+  const narrated = hasNarration(movement.id);
 
   // Get description for meta tag - use sourcing as fallback
   const metaDesc = truncateDescription(
@@ -249,6 +271,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -305,6 +330,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    ${narrated ? `
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/${movement.id}.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    ` : ''}
     ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}
   </section>
 
