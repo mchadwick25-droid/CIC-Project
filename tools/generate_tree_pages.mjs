@@ -161,7 +161,23 @@ function buildLineageHtml(movementId, movement) {
   return html;
 }
 
+const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
+
+// A built world with its own compiled orientation.story (cic-website/data/worlds/<id>.json)
+// has superseded its census longDescription - see tools/generate_tree_narration.mjs's own
+// narrationTextFor(). The committed audio for these still narrates the old longDescription
+// text, not narrationTextFor()'s current text, so the page here shows no narration for them
+// until they're re-narrated on the correct text - a mismatched player is worse than none.
+function hasMismatchedNarration(movementId) {
+  const dataPath = path.join(worldsDataDir, `${movementId}.json`);
+  if (!fs.existsSync(dataPath)) return false;
+  const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  const story = data?.orientation?.story;
+  return Array.isArray(story) && story.length > 0;
+}
+
 function hasNarration(movementId) {
+  if (hasMismatchedNarration(movementId)) return false;
   return fs.existsSync(path.join(audioDir, `${movementId}.mp3`));
 }
 
