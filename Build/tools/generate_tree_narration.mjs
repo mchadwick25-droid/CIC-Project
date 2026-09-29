@@ -207,6 +207,7 @@ export async function synthesizeWithCost(text, { apiKey, voiceId, modelId, outpu
       model_id: modelId,
       voice_settings: voiceSettings,
     }),
+    signal: AbortSignal.timeout(180000),
   });
   if (!response.ok) {
     const detail = await response.text().catch(() => '');
