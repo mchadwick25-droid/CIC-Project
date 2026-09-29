@@ -4442,3 +4442,52 @@ the voice and the settings, not two separate expensive passes.
    criterion, are Mark's to bring back before any candidate gets tested.
 3. The two remaining prior open items (readability, archaic English)
    remain exactly as listed above, untouched.
+
+---
+
+## 2026-09-29 (later) — Voice decided: Daniel replaces the current
+narrator; all 282 non-built movements re-narrated
+
+Mark reviewed ElevenLabs' Voice Library himself (browsing access this
+thread doesn't have - the API key here is scoped to text-to-speech only,
+not `voices_read`) and landed on **Daniel** ("radio news host",
+British-accented), one of a small set of candidates suggested as a
+starting search for a less regionally-marked read. ID verified live with
+a one-line synthesis call before spending anything further:
+`onwK4e9ZLuTAKqWW03F9`, HTTP 200, real audio returned.
+
+Tested properly before committing to a full re-narration: the same
+three-movement, three-era set from the settings round, this time current
+voice vs. Daniel with every other variable held constant - same text,
+same converged E (Reflective) settings, so the voice itself was the only
+thing that could differ. Mark's verdict: **"daniel is better, more
+international and what i want, lets use this to replace the current
+voice."**
+
+**Full re-narration run**, same day, after Mark confirmed he'd upgraded
+his ElevenLabs plan specifically to cover it ("i upgraded again to 99 so
+we have space to get things done"): all 282 non-built movements
+re-synthesized with Daniel's voice id and the existing
+`defaultVoiceSettings` (unchanged from the settings round -
+`Build/tools/generate_tree_narration.mjs` already applies these
+automatically; only the voice id passed at invocation changed). 268,144
+characters total. **282/282 succeeded, zero failures**, run in the
+background and verified against its own log before treating it as done.
+
+**The 10 built worlds were deliberately excluded from this pass** and
+their existing audio files (from the earlier, still-unresolved
+built-world narration) were left untouched - confirmed present (10/10)
+before the run started and not overwritten. Built-world voice choice is
+its own separate, still-open decision (distinct per-Representative
+voices, not the shared default), and folding it into this run would have
+spent real money narrating content likely to be redone once that
+decision lands.
+
+### Next action
+
+1. **Commit and push the 282 regenerated audio files** (~320MB) - real
+   ElevenLabs spend just landed on disk; getting it into git and onto the
+   live site is the immediate next step, not a separate decision.
+2. **The 10 built worlds** - re-narrate on `orientation.story` with their
+   own distinct voices once those are chosen; still not started.
+3. Readability and archaic-English findings remain open, unchanged.
