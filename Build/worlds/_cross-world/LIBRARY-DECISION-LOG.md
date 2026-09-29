@@ -13,6 +13,34 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — The three-round cap counts from significant new material
+
+**Ruling, Mark's own words**, on how the cic-build-cycle cap of three rounds
+of substantial revision applies to a document that cleared review and then
+took on new material: "Option 1, count from the new material, significant
+new material".
+
+**What this rules.** When a document that has cleared independent review is
+later changed by significant new material (new sources, new rulings, a
+merged candidate), the count of substantial-revision rounds starts again at
+that material. It does not carry forward the rounds that led to the earlier
+clearance. Minor edits do not restart the count.
+
+**Applied to.** The Step 0 documents of `greek-apologists-second-century`
+and `latin-apologists`: each cleared at Round 5, then took significant new
+material (the original-language witnesses, the Tatian ruling, the approved
+window slate, and for the Latin Apologists the Tertullian merger). Round 6
+is the first review of that material; the Round 6 fixes are the first
+substantial revision; Round 7 is the recheck. Two further substantial
+revisions would be allowed under this ruling; the build thread stops and
+escalates after the third.
+
+**Why it is recorded here.** It is a reading of the cap that the Library
+thread had applied before asking. It is a governance clarification and is
+Mark's to make; it changes no rule text in the skill.
+
+---
+
 ## 2026-09-29 — Correction: the Syriac Tatian record's clause is about the Encratite charge, not Justin's death
 
 **What is corrected.** The entry below (window slate approved) says the
