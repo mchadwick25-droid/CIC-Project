@@ -522,9 +522,8 @@ works:
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. greek-apologists-second-century
-    holds this work for the era''s outward-facing writing; pahc is kept because the era and
-    church-world are genuinely its.'
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. pahc is
+    kept because the era and church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Hortatory Address to the Greeks
   author: justin_martyr

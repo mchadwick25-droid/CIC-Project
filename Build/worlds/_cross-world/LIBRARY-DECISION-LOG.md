@@ -13,6 +13,41 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — Window slate for the Greek and Latin Apologists approved
+
+**Ruling, Mark's own words**, on the work-by-work slate shown to him: "yes,
+approve the slate and proceed".
+
+**Slate approved** (evidence, with citations and confidence tags, is in the
+revised Step 0 documents of `greek-apologists-second-century` and
+`latin-apologists`; the rule: a work whose plausible date range overlaps its
+world's window stays, tagged Contested, with the dispute stated where the
+work is used; a work wholly or mostly outside the window that already has a
+better home leaves the roster):
+- Greek Apologists: stay: Tatian's *Address*, Aristides, Quadratus, Melito,
+  Aristo of Pella (in all three entries he already holds), *Diognetus*, the
+  pseudo-Justin *Discourse* and *Sole Government*. The pseudo-Justin
+  *Hortatory Address* (probably 221-302) is kept as `context`, not the world's
+  own voice. The Ambrose *hypomnemata* (3rd century at earliest) leaves the
+  roster and stays in Syriac as transmission; its Greek Apologists row is
+  `context`, because the corpus map requires a transmitted work's voice to be
+  homed somewhere.
+- Latin Apologists: stay: Minucius Felix (Contested, 160-192 or 200-250;
+  the Roman church entry I.33 makes no claim on him, so nothing moves),
+  Commodian (Contested, with the minority 5th-century thesis disclosed),
+  Arnobius, Lactantius, Tertullian's Montanist-era works, Perpetua. Doc_01
+  must not say Tertullian's 197 *Apology* "opens" the Latin case.
+
+**Changed.** Corpus-map staging in `anf01` (the *Hortatory Address* split
+into a pahc row and a Greek Apologists `context` row) and `anf08` (the
+Ambrose Greek Apologists row set to `context`). The Syriac world's source
+record for Tatian's *Address* is not edited; its statement "written before
+the events Eusebius describes" is over-broad (it holds for the break with
+the Church, not for Justin's death), and that finding is recorded in the
+Greek Apologists' Step 0.
+
+---
+
 ## 2026-09-29 — Cross-world ownership is recorded in the references, never in a world's own figure record
 
 **Ruling, Mark's own words**, on the Library's proposal to add a cross-build

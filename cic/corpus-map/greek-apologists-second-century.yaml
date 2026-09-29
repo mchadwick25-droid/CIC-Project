@@ -6,17 +6,23 @@ works:
 - work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
-  role: tradition
+  role: context
   confidence: provisional
-  note: Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
-    per the volume's endnote). It is Christian apologetic, not Edessene as such; syr marks
-    only where the Syriac transmission preserved it. This is Greek apologetic that survives
-    only in Syriac - the volume's own headnote says the original was Greek, because the Syriac
-    mistranslates it in places, and pairs it with the pseudo-Justin Discourse to the Greeks.
-    So greek-apologists-second-century is where the argument belongs, and syriac-edessa-nisibis
+  note: 'Ruled 2026-09-29 (Mark approved the Apologists window slate; see LIBRARY-DECISION-LOG.md):
+    this work leaves the Greek Apologists'' own roster. Public-domain scholarship reads it
+    as a Syriac reworking of the pseudo-Justin Discourse, a 3rd-century Greek revision at
+    earliest (Harnack 1897), not Origen''s patron Ambrose, and so outside this entry''s window
+    (124-200) and inside syriac-edessa-nisibis''s. It stays here only as context, which also
+    keeps its Syriac transmission row homed (every transmitted work needs its voice assigned
+    somewhere). Earlier note follows. Syriac form of a Greek apology (parallel to the pseudo-Justin
+    Discourse to the Greeks, per the volume''s endnote). It is Christian apologetic, not Edessene
+    as such; syr marks only where the Syriac transmission preserved it. This is Greek apologetic
+    that survives only in Syriac - the volume''s own headnote says the original was Greek,
+    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
+    to the Greeks. So greek-apologists-second-century is where the argument belongs, and syriac-edessa-nisibis
     is kept, which is how it reached us. `provisional` because the APOLOGIST half is a date
-    question - the entry's window is 124-200 and this piece is undated - not because the Syriac
-    half is in doubt.
+    question - the entry''s window is 124-200 and this piece is undated - not because the
+    Syriac half is in doubt.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Apology of Aristides the Philosopher
   author: aristides
@@ -239,11 +245,13 @@ works:
 - work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
-  role: tradition
+  role: context
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. greek-apologists-second-century
-    holds this work for the era''s outward-facing writing; pahc is kept because the era and
-    church-world are genuinely its.'
+  note: Ruled 2026-09-29 (Mark approved the Apologists window slate; see LIBRARY-DECISION-LOG.md).
+    Not Justin's (Widely Accepted). Harnack 1904 dates it 221-302, probably the later half,
+    and other public-domain scholars put it at the end of the 2nd or early 3rd century, so
+    it lies mostly outside this entry's window (124-200). Kept here as context, not as the
+    world's own voice; the date dispute is Contested.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Hortatory Address to the Greeks
   author: justin_martyr
