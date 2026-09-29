@@ -114,9 +114,22 @@
 <body>
   <div id="gate" class="gate">
     <h1>CiC usage dashboard</h1>
-    <p>Operator token required. Held only in this tab's session storage, never sent anywhere but this service's own <code>/api/admin/*</code> routes.</p>
-    <input id="token-input" type="password" placeholder="Admin bearer token" autocomplete="off" />
-    <button id="token-submit">View dashboard</button>
+
+    <div id="setup-form" class="hidden">
+      <p>First time setup: enter the admin token once (Render → this service → Environment → <code>CIC_API_ADMIN_TOKEN</code>), then choose a password you'll actually remember.</p>
+      <input id="setup-token" type="password" placeholder="Admin token (one-time)" autocomplete="off" />
+      <input id="setup-password" type="password" placeholder="New password" autocomplete="new-password" />
+      <p class="caveat" style="text-align: left; margin: -6px 0 12px;">12–20 characters, at least one capital letter, one number, one symbol.</p>
+      <button id="setup-submit">Set password &amp; log in</button>
+    </div>
+
+    <div id="login-form" class="hidden">
+      <p>Enter your dashboard password.</p>
+      <input id="login-password" type="password" placeholder="Password" autocomplete="current-password" />
+      <button id="login-submit">Log in</button>
+      <p style="margin-top: 14px;"><a href="#" id="show-setup">Forgot it, or want to set a new one?</a></p>
+    </div>
+
     <p id="gate-error" class="hidden" style="color: var(--critical);"></p>
   </div>
 
@@ -196,25 +209,26 @@
 <script>
 (function () {
   "use strict";
-  const TOKEN_KEY = "cic_admin_token";
   const gate = document.getElementById("gate");
   const app = document.getElementById("app");
-  const tokenInput = document.getElementById("token-input");
+  const setupForm = document.getElementById("setup-form");
+  const loginForm = document.getElementById("login-form");
   const gateError = document.getElementById("gate-error");
 
-  function getToken() {
-    try { return sessionStorage.getItem(TOKEN_KEY); } catch (e) { return null; }
+  function showError(message) {
+    gateError.textContent = message;
+    gateError.classList.remove("hidden");
   }
-  function setToken(t) {
-    try { sessionStorage.setItem(TOKEN_KEY, t); } catch (e) { /* private mode - token just won't persist across reload */ }
-  }
-  function clearToken() {
-    try { sessionStorage.removeItem(TOKEN_KEY); } catch (e) {}
+  function clearError() {
+    gateError.classList.add("hidden");
   }
 
-  async function fetchJSON(path, token) {
-    const resp = await fetch(path, { headers: { Authorization: "Bearer " + token } });
-    if (resp.status === 404) throw new Error("Token rejected, or the admin route isn't configured on this deploy.");
+  // The session (a cookie set by /api/admin/login) rides on every
+  // same-origin fetch automatically - nothing client-side to store or
+  // attach by hand, unlike the old bearer-token-in-sessionStorage design.
+  async function fetchJSON(path) {
+    const resp = await fetch(path, { credentials: "same-origin" });
+    if (resp.status === 404) throw new Error("Not logged in, or the admin route isn't configured on this deploy.");
     if (!resp.ok) throw new Error(path + " returned " + resp.status);
     return resp.json();
   }
@@ -309,8 +323,6 @@
   }
 
   async function load() {
-    const token = getToken();
-    if (!token) return;
     const banners = document.getElementById("banners");
     banners.innerHTML = "";
     const sinceDays = document.getElementById("since-select").value;
@@ -324,16 +336,10 @@
     document.getElementById("range-label").textContent = rangeLabel;
     const qs = since ? "?since=" + encodeURIComponent(since) : "";
 
-    let usage, pilot;
-    try {
-      [usage, pilot] = await Promise.all([
-        fetchJSON("/api/admin/usage-summary" + qs, token),
-        fetchJSON("/api/admin/pilot-summary" + qs, token),
-      ]);
-    } catch (err) {
-      banners.appendChild(banner(String(err.message || err), true));
-      return;
-    }
+    const [usage, pilot] = await Promise.all([
+      fetchJSON("/api/admin/usage-summary" + qs),
+      fetchJSON("/api/admin/pilot-summary" + qs),
+    ]);
 
     const v = usage.visitors;
     document.getElementById("t-unique-visitors").textContent = fmtNumber(v.unique_visitors);
@@ -366,36 +372,131 @@
       : "No daily rollup has produced output yet.";
   }
 
-  document.getElementById("token-submit").addEventListener("click", () => {
-    const t = tokenInput.value.trim();
-    if (!t) return;
-    setToken(t);
-    gateError.classList.add("hidden");
-    showApp();
-  });
-  tokenInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") document.getElementById("token-submit").click();
-  });
-  document.getElementById("sign-out").addEventListener("click", () => {
-    clearToken();
-    app.classList.add("hidden");
-    gate.classList.remove("hidden");
-  });
-  document.getElementById("refresh").addEventListener("click", load);
-  document.getElementById("since-select").addEventListener("change", load);
-
-  function showApp() {
-    gate.classList.add("hidden");
-    app.classList.remove("hidden");
-    load().catch((err) => {
-      gate.classList.remove("hidden");
-      app.classList.add("hidden");
-      gateError.textContent = String(err.message || err);
-      gateError.classList.remove("hidden");
-    });
+  function validatePasswordPolicy(pw) {
+    if (pw.length < 12 || pw.length > 20) return "Password must be 12-20 characters.";
+    if (!/[A-Z]/.test(pw)) return "Password must contain at least one capital letter.";
+    if (!/[0-9]/.test(pw)) return "Password must contain at least one number.";
+    if (!/[^A-Za-z0-9]/.test(pw)) return "Password must contain at least one symbol.";
+    return null;
   }
 
-  if (getToken()) showApp();
+  function showSetupForm() {
+    clearError();
+    loginForm.classList.add("hidden");
+    setupForm.classList.remove("hidden");
+  }
+  function showLoginForm() {
+    clearError();
+    setupForm.classList.add("hidden");
+    loginForm.classList.remove("hidden");
+  }
+
+  async function checkAuthStatus() {
+    try {
+      const resp = await fetch("/api/admin/auth-status", { credentials: "same-origin" });
+      if (resp.status === 404) {
+        showError("The admin dashboard isn't configured on this deploy (no admin token set).");
+        return;
+      }
+      const status = await resp.json();
+      status.password_set ? showLoginForm() : showSetupForm();
+    } catch (err) {
+      showError("Couldn't reach the server: " + String(err.message || err));
+    }
+  }
+
+  // load() populates the (currently hidden) app DOM and throws on
+  // failure WITHOUT touching visibility - callers decide what to show
+  // once they know whether it succeeded, so neither view flashes.
+  async function revealApp() {
+    await load();
+    gate.classList.add("hidden");
+    app.classList.remove("hidden");
+  }
+
+  // Explicit action (login click, refresh, since-select change) - loud on
+  // failure, since the person just did something and expects a result.
+  async function showApp() {
+    try {
+      await revealApp();
+    } catch (err) {
+      showError(String(err.message || err));
+      await checkAuthStatus();
+    }
+  }
+
+  // First page load only - a valid session cookie from a previous visit
+  // just works with no flash of the gate; no session yet is the normal
+  // case here, not an error, so this fails silently into checkAuthStatus.
+  async function tryResumeSession() {
+    try {
+      await revealApp();
+    } catch (err) {
+      await checkAuthStatus();
+    }
+  }
+
+  document.getElementById("login-submit").addEventListener("click", async () => {
+    clearError();
+    const password = document.getElementById("login-password").value;
+    if (!password) return;
+    try {
+      const resp = await fetch("/api/admin/login", {
+        method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (resp.status === 429) return showError("Too many attempts - wait 15 minutes and try again.");
+      if (!resp.ok) return showError("Incorrect password.");
+      showApp();
+    } catch (err) {
+      showError("Couldn't reach the server: " + String(err.message || err));
+    }
+  });
+  document.getElementById("login-password").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") document.getElementById("login-submit").click();
+  });
+  document.getElementById("show-setup").addEventListener("click", (e) => {
+    e.preventDefault();
+    showSetupForm();
+  });
+
+  document.getElementById("setup-submit").addEventListener("click", async () => {
+    clearError();
+    const token = document.getElementById("setup-token").value.trim();
+    const password = document.getElementById("setup-password").value;
+    if (!token) return showError("Enter the admin token.");
+    const policyError = validatePasswordPolicy(password);
+    if (policyError) return showError(policyError);
+    try {
+      const setResp = await fetch("/api/admin/set-password", {
+        method: "POST", credentials: "same-origin",
+        headers: { "Content-Type": "application/json", Authorization: "Bearer " + token },
+        body: JSON.stringify({ password }),
+      });
+      if (setResp.status === 404) return showError("That admin token was rejected.");
+      if (setResp.status === 400) return showError((await setResp.json()).detail || "Password rejected.");
+      if (!setResp.ok) return showError("Couldn't set the password (" + setResp.status + ").");
+      const loginResp = await fetch("/api/admin/login", {
+        method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (!loginResp.ok) return showError("Password was set, but logging in with it failed - try logging in directly.");
+      showApp();
+    } catch (err) {
+      showError("Couldn't reach the server: " + String(err.message || err));
+    }
+  });
+
+  document.getElementById("sign-out").addEventListener("click", async () => {
+    try { await fetch("/api/admin/logout", { method: "POST", credentials: "same-origin" }); } catch (e) {}
+    app.classList.add("hidden");
+    gate.classList.remove("hidden");
+    checkAuthStatus();
+  });
+  document.getElementById("refresh").addEventListener("click", () => { showApp(); });
+  document.getElementById("since-select").addEventListener("change", () => { showApp(); });
+
+  tryResumeSession();
 })();
 </script>
 </body>

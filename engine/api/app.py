@@ -16,11 +16,11 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import anon_cap, db_backup, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
@@ -71,6 +71,12 @@ class Deps:
     # scheduler running, nothing to read) - the endpoint degrades to
     # omitting that section rather than erroring.
     m7_audit_root: Path | None = None
+    # The dashboard's password login (engine.api.admin_auth, Mark
+    # 2026-09-28) - None when admin_token itself is unset, since a
+    # password login with no admin_token to bootstrap it or sign its
+    # sessions makes no sense (same "the whole feature is off" posture
+    # admin_token's own absence already gives pilot-summary).
+    admin_auth_store: admin_auth.AdminAuthStore | None = None
 
 
 class SessionCreateRequest(BaseModel):
@@ -149,6 +155,18 @@ class RoundCloseReasonsResponse(BaseModel):
     session or a table session with no round closed yet."""
     session_id: str
     rounds: list[dict]
+
+
+class AdminSetPasswordRequest(BaseModel):
+    password: str
+
+
+class AdminLoginRequest(BaseModel):
+    password: str
+
+
+class AdminAuthStatusResponse(BaseModel):
+    password_set: bool
 
 
 class PilotSummaryResponse(BaseModel):
@@ -248,15 +266,29 @@ def _authenticate(store: Store, session_id: str, authorization: str | None):
 _ADMIN_AUTH_PREFIX = "Bearer "
 
 
-def _authenticate_admin(configured_token: str | None, authorization: str | None) -> None:
+def _authenticate_admin(configured_token: str | None, authorization: str | None, *, session_token: str | None = None) -> None:
     """A separate credential from _authenticate above: that one proves
     'this caller holds THIS session's own code' (a participant, legitimately);
     this one proves 'this caller is an operator,' answering across every
     session at once. Unconfigured, missing, and wrong all return the
     identical 404 - unlike a session id (which a real participant already
     knows exists), this route shouldn't confirm its own existence to
-    anyone who lacks the token, config-not-set included."""
-    if not configured_token or not authorization or not authorization.startswith(_ADMIN_AUTH_PREFIX):
+    anyone who lacks the token, config-not-set included.
+
+    session_token (Mark, 2026-09-28): the dashboard's password-login
+    cookie (engine.api.admin_auth) is a second, equally valid way in -
+    checked first since it's the common case for the browser dashboard,
+    falling through to the original Bearer-token check unchanged so a
+    direct API caller (a script hitting pilot-summary) is unaffected.
+    configured_token doubles as the session-signing secret
+    (admin_auth.verify_session_token) - unconfigured admin_token means no
+    valid session can exist either, the same single off-switch as
+    before."""
+    if not configured_token:
+        raise HTTPException(status_code=404)
+    if session_token and admin_auth.verify_session_token(session_token, configured_token):
+        return
+    if not authorization or not authorization.startswith(_ADMIN_AUTH_PREFIX):
         raise HTTPException(status_code=404)
     candidate = authorization[len(_ADMIN_AUTH_PREFIX) :].strip()
     if not candidate or not hmac.compare_digest(candidate, configured_token):
@@ -285,6 +317,7 @@ def create_app(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     m7_audit_root: Path | None = None,
+    admin_auth_store: admin_auth.AdminAuthStore | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -338,6 +371,7 @@ def create_app(
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
         m7_audit_root=m7_audit_root,
+        admin_auth_store=admin_auth_store,
     )
 
     @app.get("/health")
@@ -528,7 +562,7 @@ def create_app(
         Store.list_session_ids already defines - unset means every
         session ever logged."""
         deps: Deps = request.app.state.deps
-        _authenticate_admin(deps.admin_token, authorization)
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
         summary = wiring.get_pilot_summary(deps.store, since=since)
         return PilotSummaryResponse(**asdict(summary))
 
@@ -542,9 +576,69 @@ def create_app(
         docstring for exactly what each covers and the one disclosed scope
         gap (cost/per-world doesn't respect `since` yet)."""
         deps: Deps = request.app.state.deps
-        _authenticate_admin(deps.admin_token, authorization)
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
         summary = wiring.get_usage_summary(deps.store, deps.usage_store, since=since, m7_audit_root=deps.m7_audit_root)
         return UsageSummaryResponse(**asdict(summary))
+
+    @app.get("/api/admin/auth-status", response_model=AdminAuthStatusResponse)
+    def get_admin_auth_status(request: Request):
+        """Unauthenticated on purpose - the dashboard calls this BEFORE it
+        has any credential at all, to decide which form to show: 'set up
+        your password' (password_set: false) or 'log in' (true). Reveals
+        only a boolean, never whether admin_token itself is configured -
+        that stays 404-everywhere like every other /api/admin/* route
+        when it's unset, via the same admin_auth_store being None."""
+        deps: Deps = request.app.state.deps
+        if deps.admin_auth_store is None:
+            raise HTTPException(status_code=404)
+        return AdminAuthStatusResponse(password_set=deps.admin_auth_store.read_password_hash() is not None)
+
+    @app.post("/api/admin/set-password", status_code=204)
+    def set_admin_password(req: AdminSetPasswordRequest, request: Request, authorization: str | None = Header(default=None)):
+        """Bootstraps or changes the dashboard's password - gated on the
+        ORIGINAL admin_token (Bearer), never a session, since this is the
+        one action that creates the credential a session would otherwise
+        prove. Mark, 2026-09-28: the raw token from Render is needed here
+        exactly once (or again, to change the password later), never
+        afterward for ordinary dashboard use."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization)
+        if deps.admin_auth_store is None:
+            raise HTTPException(status_code=404)
+        try:
+            admin_auth.validate_password_policy(req.password)
+        except admin_auth.PasswordPolicyError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
+        deps.admin_auth_store.write_password_hash(admin_auth.hash_password(req.password))
+
+    @app.post("/api/admin/login")
+    def admin_login(req: AdminLoginRequest, request: Request):
+        """Rate-limited to 5 attempts/15min per IP (engine.api.ratelimit.
+        ADMIN_LOGIN_LIMIT) - that lockout, not the password's own length,
+        is what makes a 12-20 character password (engine.api.admin_auth.
+        PASSWORD_MIN_LENGTH/MAX_LENGTH) safe here. Wrong password and
+        no-password-set-yet return the identical 401 - the dashboard asks
+        auth-status separately to tell those apart, this route never
+        leaks it on a failed attempt."""
+        deps: Deps = request.app.state.deps
+        if deps.admin_auth_store is None:
+            raise HTTPException(status_code=404)
+        stored_hash = deps.admin_auth_store.read_password_hash()
+        if not stored_hash or not admin_auth.verify_password(req.password, stored_hash):
+            raise HTTPException(status_code=401, detail="incorrect password")
+        token = admin_auth.issue_session_token(deps.admin_token)
+        response = JSONResponse({"status": "ok"})
+        response.set_cookie(
+            admin_auth.SESSION_COOKIE_NAME, token, max_age=admin_auth.DEFAULT_SESSION_TTL_SECONDS,
+            httponly=True, samesite="lax", secure=True, path="/api/admin",
+        )
+        return response
+
+    @app.post("/api/admin/logout")
+    def admin_logout():
+        response = JSONResponse({"status": "ok"})
+        response.delete_cookie(admin_auth.SESSION_COOKIE_NAME, path="/api/admin")
+        return response
 
     _ADMIN_DASHBOARD_PATH = Path(__file__).resolve().parent / "static" / "admin_dashboard.html"
 
@@ -553,9 +647,11 @@ def create_app(
         """The visual half of the usage dashboard (Mark, 2026-09-28
         scoping doc) - a static page, unauthenticated to SERVE (same
         posture as cic-poc/frontend below: no page here carries data of
-        its own), that prompts for the admin bearer token client-side and
-        calls /api/admin/usage-summary + /api/admin/pilot-summary with it.
-        Registered BEFORE the SPA catch-all below so it isn't swallowed by
+        its own), that logs in with a password (engine.api.admin_auth,
+        Mark, 2026-09-28 revision - the original bearer-token-in-a-box
+        login was the wrong credential for a human) and calls
+        /api/admin/usage-summary + /api/admin/pilot-summary with the
+        resulting session cookie. Registered BEFORE the SPA catch-all below so it isn't swallowed by
         that route's index.html fallback."""
         return FileResponse(_ADMIN_DASHBOARD_PATH)
 
@@ -657,6 +753,15 @@ def _build_real_app() -> FastAPI:
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).
         m7_audit_root=Path(settings.events_db_path).parent / "m7-audits",
+        # Same persistent disk as events.db/usage.db/m7-audits above - one
+        # small file, only ever constructed when admin_token itself is
+        # set (None otherwise disables the whole password-login feature,
+        # same posture admin_token's own absence already gives every
+        # other /api/admin/* route).
+        admin_auth_store=(
+            admin_auth.AdminAuthStore(Path(settings.events_db_path).parent / "admin_auth.json")
+            if settings.admin_token else None
+        ),
     )
 
 
