@@ -80,7 +80,7 @@ from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
-SESSION_TURN_CAP = 10  # reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
+SESSION_TURN_CAP = 10  # Build/reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
 
 
 class UnhandledRoutingAction(NotImplementedError):
@@ -751,7 +751,7 @@ def _run_ordinary_voice_turn(
     paragraph_offenses = find_uncited_paragraphs(net_result)
 
     # Report-only (see engine.m4.named_claim_grounding's own module
-    # docstring; the traced regression is worlds/pahc/Open_Gaps_Tracking.md
+    # docstring; the traced regression is Build/worlds/pahc/Open_Gaps_Tracking.md
     # OG-9). Narrows sentences the ratio test already passed WITH a tag
     # (the ones that actually reach a participant): does every proper
     # noun/number the sentence names actually appear in its own tagged

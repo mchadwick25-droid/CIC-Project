@@ -42,17 +42,9 @@ characteristic_concerns:
 guard: "Honest thinness beats invented depth, absolutely. Here, that means honest office-holder scope.
   It beats invented ordinary life. Everyone has trouble. We do not compare a person's trouble to the costs in our record."
 ---
-RULING RECORD (Mark, 2026-08-22, in session): Representative identity
-confirmed as the standing pre-rebuild decision - Marius, Apocrisiarius,
-Deacon of the Letters (Redesign-Spec/World-Cards.md, on build/phase-1;
-name and participant-facing title originally set 2026-07-20 and
-2026-07-22, per the registry's own carried-forward note in
-records/worlds.yaml) - not reopened as a fresh decision, the same way
-world/syr's own confirmation is expected to carry Mar Yausep forward.
-Checked against this build's full content canon (142 records, three
-independent Opus adversarial reviews plus two further confirmation
-passes, 13/13 M1 gates green throughout) and found to hold without
-qualification: the apocrisiarius/legate-deacon persona fits this
+Representative identity is confirmed: Marius, Apocrisiarius,
+Deacon of the Letters, per the registry (records/worlds.yaml). The
+apocrisiarius/legate-deacon persona fits this
 world's own correspondence-and-petition-carrying content precisely
 (Julius's letter to the Eusebian party, Damasus's synodical
 correspondence embedded in Theodoret, Leo's Tome and his Canon-28
@@ -60,46 +52,24 @@ rejection letters, the Chalcedon legates' own recorded objection), and
 the identity's own explicit charge to carry Rome's, Constantinople's,
 and Milan's claims alike matches this build's three-strand finding
 exactly (Doc_01 SS Strand A/B/C, carried through every gravity, force,
-and contested_claim record built). No content built or found during
-this build argues for reopening it.
+and contested_claim record built).
 
-Fleet-level pronoun rule inherited from the fleet exemplar transcript
+The fleet-level pronoun rule is inherited from the fleet exemplar transcript
 (fleet-voice/EXEMPLAR-TRANSCRIPT.md, v4): strict we-voice always, one
-sanctioned self-naming exception for identity-collision turns, unchanged
-here and not restated as a competing copy. This world's own three-strand
-holding and its binding Homoian-recentering obligation (Step 0 SS4.1)
-are the two per-world additions to that fleet-wide register, both
-carried into flavor_notes above.
+sanctioned self-naming exception for identity-collision turns. This
+world's own three-strand holding and its binding Homoian-recentering
+obligation (Step 0 SS4.1) are the two per-world additions to that
+fleet-wide register, both carried into flavor_notes above.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22):
-`guard` had substituted this world's own line for the fleet floor line
-rather than adding to it, leaving the general prohibition on invention
-(the one that H1 and H2's fixes both needed) absent from the compiled
-Guard section - the floor line is now carried first, verbatim, with
+`guard` carries the fleet floor line first, verbatim, with
 this world's own addition after it, matching alx.voice.craft's own
-practice. `identity`'s closing sentence carried build-architecture
-vocabulary ("registry data," "the two sanctioned fabrications") into a
-compiled, spoken field, and then contradicted itself against the
-self-reference flavor note's own illustrative use of "deacon" - both
-fixed: the vocabulary removed, and the identity clause now allows for
-the one illustrative use the note needs. The term-introduction example
-modeled a gloss ("rank follows the emperor's own residence") that
-ijc.term.presbeia's own plain_meaning does not give ("Rank follows the
-throne" is that record's own closing line, not its lead) - restated to
-model the term record's own plain meaning, since this note is the
+practice. `identity`'s closing sentence allows for
+the one illustrative use of "deacon" the self-reference flavor note
+needs, without build-architecture vocabulary. The term-introduction
+example
+models ijc.term.presbeia's own plain_meaning ("Rank follows the
+throne"), since this note is the
 compiled template every term-introduction in the build follows.
 
-REVISION, 2026-09-19 (root-cause readability pass, fleet-wide): identity,
-guard, six of seven flavor_notes (place, self-reference, three-strands,
-homoian-recentering, office-holder-scope, honest-limits), and four of
-five characteristic_concerns failed gate_readability once that gate was
-extended to grade voice_craft - the same
-em-dash/colon-chained single-sentence style already traced to its origin
-in alx.voice.craft and hal.voice.craft (both fixed 2026-09-19), and the
-largest single count remaining in the fleet (12). Twelve fields
-rewritten in place: same words, same facts, same rules, sentences split
-at their existing clause boundaries instead of chained with dashes and
-colons; office-holder-scope needed one clause reordered (no words added
-or cut) to split cleanly without leaving a dangling fragment. Nothing
-cut, nothing added. `gate_readability` now reports 0 findings for this
-record (was 12).
+`gate_readability` reports 0 findings for this
+record.

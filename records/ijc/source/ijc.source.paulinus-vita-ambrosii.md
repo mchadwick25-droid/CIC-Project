@@ -28,16 +28,13 @@ full): a genuine insider (Ambrose's own secretary) with an obvious
 stake in his subject's posthumous reputation, writing to edify, with
 legendary material (the bees) not marked off from documented biography
 inside the text itself. Everything drawn from it in this build is Tier
-3 (attributed tradition) at most; the dating (c. 412-413, not "shortly
-after" Ambrose's death) carries the legacy build's own Round 2
-correction.
+3 (attributed tradition) at most; the dating is c. 412-413, not "shortly
+after" Ambrose's death.
 
-VENDORED 2026-09-13: no patristic-text host this build's sandbox could
-reach carried a copy as of step 2 (2026-08-21); the fleet's own cross-
-world research thread independently found and verified the edition on
+No patristic-text host this build's sandbox can
+reach carries a copy; the edition is vendored from
 the Internet Archive (reachable from this sandbox even where
-ccel.org/newadvent.org/tertullian.org are not) and handed the lead to
-this thread, which fetched, verified, and vendored it directly (see
+ccel.org/newadvent.org/tertullian.org are not; see
 cic/engine/texts_registry.py's own ENTRIES note). The bee-swarm passage
 is confirmed present and its wording checked. Nothing here is quoted
 verbatim, and that choice is now made for design reasons alone, not

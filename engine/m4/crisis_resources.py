@@ -8,13 +8,13 @@ ACUTE_DISTRESS_RESOURCES.text below is approved,
 participant-facing text, replacing the earlier placeholder that named 988
 and the Crisis Text Line by number. That placeholder was never actually
 correct against this project's own standing decision
-(`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
+(`Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
 CO-022): the Facilitator's crisis redirect names no specific
 organization, hotline, or number ("Option A" of
-`reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md`) - a
+`Build/reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md`) - a
 portfolio-level decision this module's text simply hadn't inherited yet.
 The text below is Option A-compliant, drafted from
-`reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` SS5.1's
+`Build/reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` SS5.1's
 own A1 script.
 
 The `{representative_name}` slot is filled at call time by engine.m4.turn
@@ -51,20 +51,15 @@ continuation line below is generic on purpose; flagging this rather than
 silently dropping the bracket unremarked, since it is a real simplification
 of the approved draft, not just a formatting choice.
 
-FIXED (Opus adversarial review finding D5, narrow content fix
-only - the already_fired-always-wins SELECTION rule above is untouched and
-remains open, not decided here): the prior
-ACUTE_DISTRESS_CONTINUATION text read in full as "I'm still right here
-with you. The offer I made a moment ago still stands, whenever you're
-ready for it." - warm, but containing no actual redirect at all. Read
-literally, that meant every Track A turn in a session after the first
-carried zero redirect language, including the turn where risk might
-genuinely be rising. Fixed by restoring the same redirect sentence
-ACUTE_DISTRESS_RESOURCES and ACUTE_DISTRESS_A2 both already carry, so a
-continuation turn is never redirect-free - while deliberately not
-touching whether already_fired should keep overriding a rising acute_level
-reading, which is a real, separate governance question this file's own
-mechanism does not decide and should not decide silently.
+ACUTE_DISTRESS_CONTINUATION always includes the same redirect sentence
+ACUTE_DISTRESS_RESOURCES and ACUTE_DISTRESS_A2 both carry, so a
+continuation turn is never redirect-free. A warm-sounding continuation
+with no actual redirect sentence would leave every Track A turn in a
+session after the first carrying zero redirect language, including the
+turn where risk might genuinely be rising. This is deliberately narrow: it
+does not touch whether already_fired should keep overriding a rising
+acute_level reading, which is a real, separate governance question this
+file's own mechanism does not decide and should not decide silently.
 """
 from dataclasses import dataclass
 

@@ -13,9 +13,9 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: The historical fact that this world's preachers denounced hoarding and usury by name
     during real famine conditions is Widely Accepted. The specific homilies this content is drawn from
-    have no open-license translation vendored anywhere in this project (Source Registry row 16, corrected
-    2026-08-31); citations here rest on general scholarly knowledge of theme and occasion, not a checkable
-    primary text -- the same caveat that record itself now carries.
+    have no open-license translation vendored anywhere in this project (Source Registry row 16);
+    citations here rest on general scholarly knowledge of theme and occasion, not a checkable
+    primary text -- the same caveat that record itself carries.
 sources:
 - source_id: cappadocian.source.basil-moral-famine-homilies
   locus: the rich-fool and usury preaching (text unverified)

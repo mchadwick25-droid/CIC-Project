@@ -52,4 +52,4 @@ itself preserved (the dream, Fabiola's penance and reception) rather than
 in any modern reassurance. The would-Jesus-want-me question routes here
 and to hal.dw.marriage-ending.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

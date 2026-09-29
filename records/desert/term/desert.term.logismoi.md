@@ -17,7 +17,7 @@ sources:
   locus: "the combat narratives (SS5-10, SS23; the general theme)"
   license: public-domain
 - source_id: desert.source.evagrius-praktikos
-  locus: "Praktikos ch. 6, VENDORED as of 2026-08-27 (cic/texts/evagrius_praktikos_dysinger.txt) - the eight-fold taxonomy in Evagrius's own words, with its governing clause that whether a thought arrives is not up to us but whether it lingers is; see desert.quote.the-eight-generic-thoughts, and ch. 12 on acedia at desert.quote.the-noonday-demon. The Antirrhetikos remains unvendored and consult-only"
+  locus: "Praktikos ch. 6 (cic/texts/evagrius_praktikos_dysinger.txt) - the eight-fold taxonomy in Evagrius's own words, with its governing clause that whether a thought arrives is not up to us but whether it lingers is; see desert.quote.the-eight-generic-thoughts, and ch. 12 on acedia at desert.quote.the-noonday-demon. The Antirrhetikos remains unvendored and consult-only"
   license: cc-by-4.0
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim (disclosure of thoughts to an elder)"
@@ -61,12 +61,9 @@ senses:
 quick_meaning: "The unwanted thoughts a person battles - our real battlefield."
 distortion_risk: medium
 ---
-Re-derived from Doc_06 SS1.4 (Tier 1; tags AS TC RT PV DR - the [DR]
-added at that document's own Round 1, carried). The [PV] discipline is
-load-bearing: the eight-fold taxonomy is Evagrian/Strand C
+Re-derived from Doc_06 SS1.4 (Tier 1; tags AS TC RT PV DR). The [PV]
+discipline is load-bearing: the eight-fold taxonomy is Evagrian/Strand C
 (gravity 9), the lived experience is cross-strand (gravity 2) - the
-two registers are stated separately in every sense above, per the
-prior build's carefully-corrected distinction.
-
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop the record-self-reference "this record keeps distinct."
+two registers are stated separately in every sense above. The
+evidential sense states this in plain in-world evidence talk, with no
+record self-reference.

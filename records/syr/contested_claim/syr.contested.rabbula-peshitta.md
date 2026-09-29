@@ -33,10 +33,8 @@ concedes: 'The displacement itself is real and well-dated at the level that matt
   and Rabbula''s episcopate is when the shift becomes visible. Only the personal causal claim is contested.'
 divergence_partners: []
 ---
-Carried from Doc_01 SS4 (the Round 3 cosmetic fix that flagged
-Rabbula's role Contested rather than settled). canon_cells
-deliberately EMPTY: this claim concerns what happens after the
-world's own horizon closes - no participant-facing canon question is
-grounded by it (the in-window scriptural culture is served by the
-term and gravity records). Leaving it cell-less is correct, not a
-gap.
+Rabbula's role is Contested, not settled. canon_cells is deliberately
+empty: this claim concerns what happens after this world's own horizon
+closes - no participant-facing canon question is grounded by it (the
+in-window scriptural culture is served by the term and gravity
+records). Leaving it cell-less is correct, not a gap.

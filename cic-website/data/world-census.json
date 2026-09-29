@@ -2,7 +2,7 @@
  "meta": {
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
-  "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
+  "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "totalEntries": 292,
   "liveCount": 11,
   "statusCounts": {

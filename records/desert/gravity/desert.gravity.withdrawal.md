@@ -90,64 +90,29 @@ with candidate 8 (economic embeddedness) is Doc_04's own finding, not
 smoothed here: the settlements' real village trade ties qualify, but
 do not eliminate, withdrawal's own rhetoric of total separation.
 
-Step3b Review Round 1, Finding M1: the body's own Cross-Check answer
-named the Pachomian corpus as one of the two attesting streams
-independent of Antony's own characterization, but the corpus was not
-registered in sources[] - added. Finding M6: the third manifestation
-claimed Palladius provides "settlement descriptions" at Nitria, Kellia,
-AND Scetis; read in full, ch. XVIII names Cellia and Scete only as
-locations, not settlement descriptions - Nitria (ch. VII) is the one
-genuine description. Corrected to distinguish the two. Finding S8: no
-forces-connection notation was stated in this record's own text, though
-the index asserted one on its behalf - added.
+The Pachomian corpus is registered in sources[] as one of the two
+attesting streams independent of Antony's own characterization. The
+third manifestation distinguishes Palladius's genuine settlement
+description of Nitria (ch. VII) from ch. XVIII, which names Cellia and
+Scete only as locations. The description lists all six of this record's
+registered sources rather than claiming exhaustiveness while naming
+fewer. Both of the Nepheros record's mandatory standing cautions -
+representativeness for the mainstream strands is an unverified working
+assumption, and its organization does not map cleanly onto any of the
+three strands - are stated in full wherever the description cites
+Nepheros as an independent stream, not compressed to a label.
 
-Step3b Review Round 2, Finding S5: the second manifestation offered the
-Apophthegmata's own structure as evidence without the compiler caveat
-Round 1 added to elder-authority and spiritual-combat on the identical
-move - added here too. Finding M6: the Nepheros locus carried only the
-first of that source's two mandatory standing cautions (Melitian
-identity); the second (organizationally intermediary, no clean fit to
-this world's three strands) was carried nowhere on this record - added.
-
-Step3b Review Round 3, Finding C4: the description claimed attestation
-"across every independent evidence stream this world has" while
-listing only four of the record's six registered sources - reworded to
-list all six rather than claim exhaustiveness and fall short of it.
-
-Step3b Review Round 4, Finding S1: that fix moved the Nepheros archive
-into this description's headline attestation claim - "independent
-evidence streams... across all three strands" - without either of the
-two standing cautions its source record requires on every use, one of
-which says its representativeness for the mainstream strands is
-UNVERIFIED and the other that it does not map cleanly onto any of the
-three strands the same sentence claims attestation across. Round 3's
-own M3 had exempted this record because Nepheros appeared in no
-substantive field of it; this fix put it there without the cautions.
-Corrected inline.
-
-Step3b Review Round 5, Finding M1: the inline parenthesis carried
-caution (2) in full but compressed caution (1) to "Melitian-caveated" -
-a label, not the substance (representativeness for the mainstream
-strands is an UNVERIFIED working assumption), in the one sentence
-where that substance is the operative qualification on the word
-"independent." Expanded to match.
-
-Step3c, contested-claim and figure wiring: this record's own Cross-Check
-paragraph above and Nepheros parenthetical are the generating basis for
-desert.contested.antony-literacy and desert.contested.strand-porousness
-respectively, both now full records - reciprocal associated-with
-relations added. desert.figure.antony is likewise added: this gravity
-is patterned on, not merely illustrated by, his own staged career.
-
-Doc_08: desert.force.martyrdom-unavailable (the generating force this
-description already names in its own closing sentence) and
+The Cross-Check paragraph above and the Nepheros parenthetical are the
+generating basis for desert.contested.antony-literacy and
+desert.contested.strand-porousness respectively, both full records with
+reciprocal associated-with relations. desert.figure.antony is likewise
+added: this gravity is patterned on, not merely illustrated by, his own
+staged career. desert.force.martyrdom-unavailable (the generating force
+this description names in its own closing sentence) and
 desert.force.village-ascetic-culture (the inherited substrate this
-gravity intensifies) added as reciprocal relations, now that both are
-full force records.
+gravity intensifies) are both declared as reciprocal relations.
 
-World_front pilot (2026-09-19): reciprocal illustrated-by relation
-added to desert.story.antony-secret-burial, a new story record on
-Antony's final withdrawal (to the inner mountain, shortly before death)
-and his burial instructions, read as this world's own final instance of
-withdrawal as "a lifelong deepening, not a single decisive act" - see
-that story record's own body note.
+desert.story.antony-secret-burial, on Antony's final withdrawal to the
+inner mountain shortly before death and his burial instructions, is
+this world's own final instance of withdrawal as "a lifelong deepening,
+not a single decisive act" - see that story record's own body note.

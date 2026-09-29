@@ -80,9 +80,4 @@ discipline: "one eucharist" belongs to Philadelphians 4, NOT Smyrnaeans
 Smyrnaeans 7's flesh-language and 8's bishop-validation are separate
 instructions.
 
-CENTER-CELL MAPPING (2026-08-30, Mark's pilot read: the center cells
-had no story or term to offer - "i don't see the full 3 level
-transparency with glossary terms, stories and quotes"; his approved
-scope: one story and one term per center cell where they genuinely
-belong, not everything that could fit). Added to C-I: the same pilot conversation's first answer already described giving thanks over the cup in its own words - the term whose plain meaning is that thanksgiving belongs where the question about Jesus is actually asked. Content unchanged;
-this note and the added cell are the whole edit.
+This world's center-cell material adds to C-I: the same pilot conversation's first answer already described giving thanks over the cup in its own words - the term whose plain meaning is that thanksgiving belongs where the question about Jesus is actually asked.

@@ -39,7 +39,7 @@ relations:
 - type: associated-with
   target: hal.limit.f5-material-remains
 ---
-Opened 2026-08-27 for F5-E, which hal.limit.f5-material-remains served alone. The limit cites
+Opened for F5-E, which hal.limit.f5-material-remains served alone. The limit cites
 this letter for "the buildings named; the burial by the church" and had no quote.
 
 A limit record keeps its job here: what a dig would find is still not something this world can

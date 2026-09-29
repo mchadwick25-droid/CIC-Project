@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CiC Acceleration Jul-Dec 2026" company="Church in Conversation" webLink="" view-date="2026-07-13" view-index="0" gantt-divider-location="440" resource-divider-location="300" version="3.2.3247" locale="en">
+    <description><![CDATA[Master schedule from CiC_Acceleration_Plan_Jul-Dec_2026_V0_1_DRAFT (Build/Ministry/Funding).
+Milestones marked with GATE are the funding/launch gates. Keep in sync with Build/Ministry/Operations/CiC_Task_Board_2026.md.
+Update rule: mark tasks complete here (percent), then refresh the task board's DO NOW list from whatever has all predecessors done.
+2026-07-22: tasks 439-452 (the TR-* Hosted Tour feature) deferred to Phase 2+ per Mark's direct descope
+decision -- not in the current build cycle. Done tasks (439, 441, 442) kept complete=100, renamed
+[DONE - shelved, Phase 2] rather than deleted. Not-yet-started tasks (440, 443-452) renamed [DEFERRED -
+Phase 2] and pushed to placeholder date 2027-01-04 (out of the Jul-Dec 2026 window). See Task Board's
+Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full reasoning.
+2026-08-01: task 603's Entity ID/Transaction # and date were wrong (carried the 2026-07-21 filing
+attempt that never actually completed) -- corrected to the real filing, Entity ID 20261918758,
+2026-07-27. See the System Hub Decision Log, 2026-07-27.
+2026-08-01: tasks 424-427 (RM-7..RM-10, Representative Modes' 4-lane rollout) renamed [PAUSED] --
+Mark's direct scope call, 2026-07-24/25: general voice ships instead, no role selection, until real
+pilot feedback from professors/academics specifically reopens it. Not renumbered/rescheduled since
+the pause is a hold, not a cancellation -- re-baseline dates once the trigger fires. See Task Board
+(DO NOW, the DECIDED 2026-07-24/25 entry) and the System Hub Decision Log, 2026-07-24 (later
+entries).
+2026-08-01: Mark reports 6 of 9 Ancient-world (Eras 1-2, first 4 centuries) builds now complete --
+tasks 202/203 (Ancient world 5, 6) marked done and pulled back to late July; tasks 204-206 (world
+7-9) slid forward into the calendar slots that freed up, now starting 2026-08-03 instead of
+2026-08-19. Which specific worlds fill which numbered slot isn't tracked per-task here (Task Board's
+own READY NEXT section already flagged this numbering as informal, e.g. Alexandria likely filling
+"world 5" ahead of its nominal start) -- see the Fable/Pass2 fleet's own real per-world freeze dates
+in the System Hub Decision Log for that detail. Deliberately NOT re-cascaded: task 208 onward
+(Reformation worlds, and every cross-track dependent in Validation/Funding/Engineering) stays on its
+original dates -- world-building is now running ahead of them, which just means real slack exists
+downstream, not a broken schedule. Pulling the rest of the calendar forward to use that slack is a
+real pacing decision, not a data-entry one -- left for Mark, not decided here.
+2026-08-01 (later): the S6.2 record-store migration is COMPLETE -- all 6 live worlds (Desert,
+Alexandria, Syriac, Hieronymian, PAHC, Imperial-Juridical) now run production from a
+schema-validated record store instead of hand-authored files, each migrated/frozen/live-tested
+in turn, Imperial-Juridical last (2026-08-01). This is a distinct axis from the "Ancient worlds
+5-9" track above -- it upgrades the 6 worlds already built, it does not build new ones -- so it's
+tracked as its own new task (219) under World Building rather than folded into 202-206. Synced
+from a handoff report the Pass2/Fable thread prepared for System Hub; full account: System Hub
+Decision Log, 2026-08-01 (later still).
+2026-08-02: Atlas v3 Pass 2 converged (real Kaner-model divergent/groan-zone/convergent
+session with Mark, independently re-verified before this note was written) -- task 463's
+"Tier A merge" framing is superseded, not deleted (see its own note). The real Atlas v3
+program is now the Mark-approved 17-increment Build Blueprint (two tracks: Data &
+Methodology -- per-era Step 0 runs, ~1 era/session, the long pole; Product -- box/icon/
+hover/click templates through a single unified atlas page). Deliberately NOT added here
+as dated Gantt rows: the Blueprint's own pacing is session-based, not calendar-dated, and
+inventing fixed dates for an 8-session research program would be a fabricated precision
+this file doesn't actually have. Track progress via
+Build/Ministry/Features/Atlas-World-Map/CiC_Atlas_V3_Build_Blueprint_V1_0.md's own status
+column (explicitly the build's ground truth) and the Task Board's SH-4/SH-6 Pass 2 entry.]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="240" order="0"/>
+        <field id="tpd4" name="Begin date" width="90" order="1"/>
+        <field id="tpd5" name="End date" width="90" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+    </view>
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="100" name="A - PROTOTYPES AND USERS" color="#8cb6ce" meeting="false" start="2026-07-17" duration="111" complete="0" expand="true">
+            <task id="101" name="Direct-API hosting (Render) - LIVE 2026-07-23, Atlas + cic-poc both up, verified end-to-end" color="#8cb6ce" meeting="false" start="2026-07-20" duration="5" complete="100" expand="true">
+                <depend id="102" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="102" name="Prototype 1 runs (15-25 testers, both modes)" color="#8cb6ce" meeting="false" start="2026-07-30" duration="11" complete="0" expand="true">
+                <depend id="103" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="103" name="P1 analysis: actuals, tester quotes, one story" color="#8cb6ce" meeting="false" start="2026-08-11" duration="3" complete="0" expand="true">
+                <depend id="104" type="2" difference="0" hardness="Strong"/>
+                <depend id="403" type="2" difference="0" hardness="Strong"/>
+                <depend id="501" type="2" difference="0" hardness="Strong"/>
+                <depend id="701" type="2" difference="0" hardness="Strong"/>
+                <depend id="702" type="2" difference="0" hardness="Strong"/>
+                <depend id="703" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="104" name="P2 cohort (~100 users)" color="#8cb6ce" meeting="false" start="2026-09-15" duration="34" complete="0" expand="true">
+                <depend id="105" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="105" name="Early Access ramp 300 to 500 users" color="#8cb6ce" meeting="false" start="2026-11-03" duration="34" complete="0" expand="true">
+                <depend id="106" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="106" name="GATE: Lane A confirmed - 500 users" color="#dd0000" meeting="true" start="2026-12-18" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="200" name="B - WORLD BUILDING" color="#00cc44" meeting="false" start="2026-08-03" duration="100" complete="0" expand="true">
+            <task id="201" name="Guided starter question sets (4 live worlds)" color="#00cc44" meeting="false" start="2026-08-03" duration="9" complete="75" expand="true">
+                <depend id="402" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="202" name="DONE — Ancient world 5: build + battery + deploy gates (Mark's report, 2026-08-01; exact world/date not individually tracked here, see Decision Log)" color="#00cc44" meeting="false" start="2026-07-24" duration="6" complete="100" expand="true">
+                <depend id="203" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="203" name="DONE — Ancient world 6: build + battery + deploy gates (Mark's report, 2026-08-01; exact world/date not individually tracked here, see Decision Log)" color="#00cc44" meeting="false" start="2026-07-31" duration="1" complete="100" expand="true">
+                <depend id="204" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="204" name="Ancient world 7: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-03" duration="6" complete="0" expand="true">
+                <depend id="205" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="205" name="Ancient world 8: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-11" duration="6" complete="0" expand="true">
+                <depend id="206" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="206" name="Ancient world 9: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-19" duration="6" complete="0" expand="true">
+                <depend id="207" type="2" difference="0" hardness="Strong"/>
+                <depend id="208" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="207" name="MILESTONE: 9 ancient worlds complete" color="#dd0000" meeting="true" start="2026-08-26" duration="0" complete="0" expand="true"/>
+            <task id="208" name="Reformation selection + Living Tradition confirmations" color="#00cc44" meeting="false" start="2026-09-14" duration="8" complete="0" expand="true">
+                <depend id="209" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="209" name="Reformation world 1: build + battery + LT gate" color="#00cc44" meeting="false" start="2026-09-24" duration="6" complete="0" expand="true">
+                <depend id="210" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="210" name="Reformation world 2: build + battery + LT gate" color="#00cc44" meeting="false" start="2026-10-02" duration="6" complete="0" expand="true">
+                <depend id="211" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="211" name="Reformation world 3: build + battery + LT gate" color="#00cc44" meeting="false" start="2026-10-12" duration="6" complete="0" expand="true">
+                <depend id="212" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="212" name="Reformation world 4: build + battery + LT gate" color="#00cc44" meeting="false" start="2026-10-20" duration="6" complete="0" expand="true">
+                <depend id="213" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="213" name="Reformation world 5: build + battery + LT gate" color="#00cc44" meeting="false" start="2026-10-28" duration="6" complete="0" expand="true">
+                <depend id="214" type="2" difference="0" hardness="Strong"/>
+                <depend id="308" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="214" name="Reformation world 6: build + battery + LT gate" color="#00cc44" meeting="false" start="2026-11-05" duration="6" complete="0" expand="true">
+                <depend id="215" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="215" name="Reformation world 7: build + battery + LT gate" color="#00cc44" meeting="false" start="2026-11-13" duration="6" complete="0" expand="true">
+                <depend id="216" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="216" name="MILESTONE: all 16 worlds built (stretch 8-10 only if ahead)" color="#dd0000" meeting="true" start="2026-11-20" duration="0" complete="0" expand="true">
+                <depend id="217" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="217" name="Build freeze + final upgrade pass" color="#00cc44" meeting="false" start="2026-12-01" duration="4" complete="0" expand="true"/>
+            <task id="218" name="Weekly quality-upgrade batches (ongoing)" color="#ccffcc" meeting="false" start="2026-08-03" duration="99" complete="0" expand="true"/>
+            <task id="219" name="DONE — S6.2 record-store migration: all 6 live worlds (Desert, Alexandria, Syriac, Hieronymian, PAHC, Imperial-Juridical) migrated, frozen, and live-tested against the deployed site" color="#00cc44" meeting="false" start="2026-08-01" duration="1" complete="100" expand="true"/>
+        </task>
+        <task id="300" name="C - VALIDATION (Article 31)" color="#ff9933" meeting="false" start="2026-07-17" duration="109" complete="0" expand="true">
+            <task id="301" name="Reviewer brief (one page) - MOST TIME-CRITICAL" color="#ff9933" meeting="false" start="2026-07-17" duration="2" complete="75" expand="true">
+                <depend id="302" type="2" difference="0" hardness="Strong"/>
+                <depend id="303" type="2" difference="0" hardness="Strong"/>
+                <depend id="306" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="302" name="TEDS professor outreach to signed engagement" color="#ff9933" meeting="false" start="2026-07-21" duration="25" complete="0" expand="true">
+                <depend id="304" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="303" name="Second reviewer outreach (Fairbairn or Laing)" color="#ff9933" meeting="false" start="2026-08-17" duration="12" complete="0" expand="true">
+                <depend id="304" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="304" name="GATE: two reviewers engaged (Sept 1)" color="#dd0000" meeting="true" start="2026-09-02" duration="0" complete="0" expand="true">
+                <depend id="305" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="305" name="Round 1 holistic review (9 ancient worlds)" color="#ff9933" meeting="false" start="2026-09-07" duration="34" complete="0" expand="true">
+                <depend id="307" type="2" difference="0" hardness="Strong"/>
+                <depend id="708" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="306" name="Reformation-era reviewer engaged (by Oct 15)" color="#ff9933" meeting="false" start="2026-10-01" duration="11" complete="0" expand="true">
+                <depend id="308" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="307" name="Round 1 revisions applied" color="#ff9933" meeting="false" start="2026-10-26" duration="10" complete="0" expand="true"/>
+            <task id="308" name="Round 2 review (Reformation + methodology ext.)" color="#ff9933" meeting="false" start="2026-11-09" duration="25" complete="0" expand="true">
+                <depend id="309" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="309" name="Launch honesty language finalized" color="#ff9933" meeting="false" start="2026-12-14" duration="3" complete="0" expand="true">
+                <depend id="407" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="400" name="D - PLATFORM AND ENGINEERING" color="#9966cc" meeting="false" start="2026-07-17" duration="108" complete="0" expand="true">
+            <task id="401" name="Session caps + Render deploy verified live (message_cap.py, cic-poc.onrender.com)" color="#9966cc" meeting="false" start="2026-07-20" duration="2" complete="100" expand="true"/>
+            <task id="464" name="Fix + test transcript-logging gap (frame-breaker/relational-safety turns not captured)" color="#9966cc" meeting="false" start="2026-07-18" duration="2" complete="0" expand="true"/>
+            <task id="460" name="Increment 1: Front-end budget compliance (citation inline migration + table-bar consolidation)" color="#9966cc" meeting="false" start="2026-08-17" duration="5" complete="0" expand="true">
+                <depend id="427" type="2" difference="0" hardness="Strong"/>
+                <depend id="451" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="402" name="Increment 3: Post-table question serving (role-served walks, Curriculum V1.0 JSON) - shipped in UI" color="#9966cc" meeting="false" start="2026-08-26" duration="5" complete="0" expand="true">
+                <depend id="104" type="2" difference="0" hardness="Rubber"/>
+                <depend id="463" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="463" name="Increment 4: World Map Tier A merge (front-end thread; never before/during Prototype 1) [SUPERSEDED 2026-08-02: Pass 2 converged on 'one atlas, done right' - Tier A/B split and the old Tier A merge concept are moot. Real program is now the approved 17-increment Blueprint (2 tracks: Data &amp; Methodology, Product) - see CiC_Atlas_V3_Build_Blueprint_V1_0.md, whose own status column is the ground truth; not duplicated here since per-era Step 0 pacing (~1 era/session) doesn't map to fixed calendar dates yet. Left at complete=0/unscheduled rather than given invented dates.]" color="#9966cc" meeting="false" start="2026-09-02" duration="5" complete="0" expand="true">
+                <depend id="429" type="2" difference="0" hardness="Strong"/>
+                <depend id="452" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="403" name="Engagement One: 500-user infra + Tier-1 caching" color="#9966cc" meeting="false" start="2026-09-21" duration="20" complete="0" expand="true">
+                <depend id="105" type="2" difference="0" hardness="Strong"/>
+                <depend id="404" type="2" difference="0" hardness="Strong"/>
+                <depend id="406" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="404" name="Engagement Two: pre-public audit" color="#9966cc" meeting="false" start="2026-11-16" duration="18" complete="0" expand="true">
+                <depend id="407" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="406" name="Audit mechanism (invisible register) + minor-caution mechanism" color="#9966cc" meeting="false" start="2026-11-02" duration="29" complete="0" expand="true">
+                <depend id="407" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="407" name="GATE: Lane B public flip go/no-go" color="#dd0000" meeting="true" start="2026-12-15" duration="0" complete="0" expand="true"/>
+            <task id="420" name="Representative Modes: design, prompt architecture, exploration branch build, verification, validation plan, integration assessment (RM-1..RM-6)" color="#9966cc" meeting="false" start="2026-07-16" duration="1" complete="100" expand="true"/>
+            <task id="424" name="[PAUSED - see 2026-07-24/25] RM-7: Mark reviews Design Spec S6 demonstration artifact" color="#9966cc" meeting="false" start="2026-07-18" duration="1" complete="0" expand="true">
+                <depend id="425" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="425" name="[PAUSED - see 2026-07-24/25] RM-8: Validation run - Battery A - RAN 2026-07-22, FAILED, fixed same day + spot-verified; formal re-run still owed" color="#9966cc" meeting="false" start="2026-07-21" duration="2" complete="70" expand="true">
+                <depend id="426" type="2" difference="0" hardness="Strong"/>
+                <depend id="427" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="426" name="[PAUSED - see 2026-07-24/25] RM-9: Validation run - Batteries B-D (drift, overclaiming, adversarial)" color="#9966cc" meeting="false" start="2026-07-23" duration="3" complete="0" expand="true"/>
+            <task id="427" name="[PAUSED - see 2026-07-24/25] RM-10 / Increment 2: Role selection UI + Representative Modes merge decision (front-end thread; never before/during Prototype 1; blocked on the 4-lane pause's re-entry trigger -- real pilot feedback from professors/academics -- not just Battery A)" color="#9966cc" meeting="false" start="2026-08-24" duration="2" complete="0" expand="true">
+                <depend id="402" type="2" difference="0" hardness="Strong"/>
+                <depend id="428" type="2" difference="0" hardness="Rubber"/>
+                <depend id="429" type="2" difference="0" hardness="Strong"/>
+                <depend id="451" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="428" name="[PAUSED - see 2026-07-24/25] RM-11: Onboarding copy - mention role selection" color="#9966cc" meeting="false" start="2026-08-26" duration="1" complete="0" expand="true"/>
+            <task id="429" name="[PAUSED - see 2026-07-24/25] RM-12: role=/worlds=/mode= URL parse-site reconciliation (waits on whichever of Representative Modes or World Map merges second)" color="#9966cc" meeting="false" start="2026-09-08" duration="1" complete="0" expand="true"/>
+            <task id="430" name="RM-13: Tier B - role-default transparency mode (blocked on Mode One/Two toggle)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
+            <task id="431" name="RM-14: Tier C - closing-resources register by role (blocked on closing resources)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
+            <task id="432" name="RM-15: Tier D - role-aware safety classifiers (deliberately not designed, not scoped)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
+            <task id="439" name="[DONE - shelved, Phase 2] TR-1..TR-3: Tour strategy, evidentiary analysis, Chloe demo build + recordings, decision log" color="#9966cc" meeting="false" start="2026-07-16" duration="1" complete="100" expand="true"/>
+            <task id="440" name="[DEFERRED - Phase 2] TR-confirm: Mark confirms voice-only interpretation + evidentiary-absence commitment" color="#c8c2d9" meeting="false" start="2027-01-04" duration="1" complete="0" expand="true">
+                <depend id="446" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="441" name="[DONE - shelved, Phase 2] TR-4: L4 Tour Manifest Template + review-cycle definition" color="#9966cc" meeting="false" start="2026-07-18" duration="2" complete="100" expand="true">
+                <depend id="444" type="2" difference="0" hardness="Strong"/>
+                <depend id="445" type="2" difference="0" hardness="Strong"/>
+                <depend id="446" type="2" difference="0" hardness="Strong"/>
+                <depend id="448" type="2" difference="0" hardness="Strong"/>
+                <depend id="449" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="442" name="[DONE - shelved, Phase 2] TR-5: Tour Eligibility Gate as a repeatable per-world checklist" color="#9966cc" meeting="false" start="2026-07-18" duration="2" complete="100" expand="true"/>
+            <task id="443" name="[DEFERRED - Phase 2] TR-6: Asset-sourcing sub-pipeline (documented + tooled)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true">
+                <depend id="447" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="450" name="[DEFERRED - Phase 2] TR-8: Recording pipeline confirmed reusable per world" color="#c8c2d9" meeting="false" start="2027-01-04" duration="1" complete="0" expand="true"/>
+            <task id="444" name="[DEFERRED - Phase 2] TR-7: Templated tour renderer (world supplies manifest + assets)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true">
+                <depend id="452" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="445" name="[DEFERRED - Phase 2] TR-9: Scene-narration validation probe category (validation-suite thread)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="2" complete="0" expand="true"/>
+            <task id="446" name="[DEFERRED - Phase 2] TR-10: House-Churches/Chloe - formalize demo into reviewed Tour Manifest" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true"/>
+            <task id="447" name="[DEFERRED - Phase 2] TR-11: Syriac/Mar Yausep - manifest for syrstory009 (needs pronunciation pass)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="4" complete="0" expand="true">
+                <depend id="448" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="448" name="[DEFERRED - Phase 2] TR-12: Desert/Papnoute - manifest for desertstory008 (no worship-service tour)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true">
+                <depend id="449" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="449" name="[DEFERRED - Phase 2] TR-13: Bethlehem Circle/Albina - manifest for hal_story10 (produce last, no liturgical tour)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true"/>
+            <task id="451" name="[DEFERRED - Phase 2] TR-14: cic-poc integration (tour_manifest.py, mode-overlay, invitation card, tour view) - behind Increment 1 + role selection; never before/during P1" color="#c8c2d9" meeting="false" start="2027-01-04" duration="10" complete="0" expand="true">
+                <depend id="452" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="452" name="[DEFERRED - Phase 2] TR-15: World Map 'Take a tour' handoff (needs TR-7, TR-14, and the map itself merged; distinct from the World Map's own already-shipped 'Watch the flow' walkthrough, which is unaffected)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="500" name="E - FUNDING" color="#cc3333" meeting="false" start="2026-07-17" duration="120" complete="0" expand="true">
+            <task id="510" name="Church-designated fund agreed (pastor conversation)" color="#cc3333" meeting="false" start="2026-07-17" duration="5" complete="0" expand="true">
+                <depend id="501" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="501" name="Ring 1 ask: refreshed Letter to 15-20 names" color="#cc3333" meeting="false" start="2026-08-17" duration="12" complete="0" expand="true">
+                <depend id="502" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="502" name="GATE: $7,500 raised (Sept 1)" color="#dd0000" meeting="true" start="2026-09-02" duration="0" complete="0" expand="true">
+                <depend id="403" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="503" name="World sponsorship asks ($3,500 x 3-5 churches)" color="#cc3333" meeting="false" start="2026-09-07" duration="40" complete="0" expand="true">
+                <depend id="504" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="504" name="GATE: ~$25,000 cumulative (Nov 1)" color="#dd0000" meeting="true" start="2026-11-02" duration="0" complete="0" expand="true">
+                <depend id="404" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="505" name="Paying pilots: 3-5 churches/classrooms (fork-decider)" color="#cc3333" meeting="false" start="2026-10-05" duration="35" complete="0" expand="true"/>
+            <task id="506" name="NCF / DAF year-end asks" color="#cc3333" meeting="false" start="2026-11-16" duration="20" complete="0" expand="true"/>
+            <task id="507" name="Public year-end appeal (post-CCSA)" color="#cc3333" meeting="false" start="2026-12-01" duration="22" complete="0" expand="true"/>
+        </task>
+        <task id="600" name="F - FAITHWAYS STUDIO PBC FORMATION (pivoted from nonprofit, 2026-07-21)" color="#3366cc" meeting="false" start="2026-07-17" duration="118" complete="0" expand="true">
+            <task id="601" name="Praxis interest form (5 minutes)" color="#3366cc" meeting="false" start="2026-07-17" duration="1" complete="0" expand="true"/>
+            <task id="602" name="Entity prep: Faithways Studio PBC — Articles, Bylaws, IP Assignment, Shareholder Agreement (drafted + 3 independent review rounds)" color="#3366cc" meeting="false" start="2026-08-03" duration="25" complete="95" expand="true">
+                <depend id="603" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="603" name="DONE — Filed CO Articles of Incorporation (Faithways Studio, Inc., PBC). CORRECTED 2026-08-01: real filing is 2026-07-27, Entity ID 20261918758 -- the 2026-07-21 date below never actually completed (on-screen only, no receipt), refiled from scratch. Chart date kept at 07-21 so 624/625/621 below don't appear to predate their predecessor; the real sequencing question this raises (those 3 were signed 07-21, before the entity legally existed) is flagged to Mark/Susan, not resolved here -- see Decision Log 2026-07-27" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="624" type="2" difference="0" hardness="Strong"/>
+                <depend id="623" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="624" name="DONE — EIN obtained from the IRS" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="625" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="625" name="DONE — Organizational Resolutions executed (Bylaws adopted, officers elected, share issuance + bank account authorized)" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="620" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="620" name="Open corporate bank account + fund $40 founder capital ($20 each)" color="#3366cc" meeting="false" start="2026-07-25" duration="3" complete="0" expand="true">
+                <depend id="621" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="621" name="DONE — IP Assignment Agreement and Shareholder Buy-Sell Agreement executed, copies given to Susan" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="622" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="622" name="Issue Notice of Uncertificated Shares to Mark and Susan (C.R.S. § 7-106-207 / § 7-101-505)" color="#3366cc" meeting="false" start="2026-07-30" duration="1" complete="0" expand="true"/>
+            <task id="623" name="File 'Church in Conversation' Colorado trade name (DBA)" color="#3366cc" meeting="false" start="2026-07-23" duration="1" complete="0" expand="true"/>
+            <task id="604" name="[SUPERSEDED — nonprofit path, not applicable to PBC] 1023-EZ filed" color="#99aacc" meeting="false" start="2026-09-21" duration="8" complete="0" expand="true">
+                <depend id="609" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="609" name="[SUPERSEDED — nonprofit path, not applicable to PBC] IRS determination (typical wait)" color="#99bbee" meeting="false" start="2026-10-01" duration="40" complete="0" expand="true">
+                <depend id="611" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="611" name="[SUPERSEDED — nonprofit path, not applicable to PBC] TechSoup / AWS nonprofit credits applications" color="#99aacc" meeting="false" start="2026-11-30" duration="8" complete="0" expand="true"/>
+            <task id="605" name="[SUPERSEDED — nonprofit path, not applicable to PBC] Board recruitment: 3 clean independents (+ &lt;=1 family)" color="#99aacc" meeting="false" start="2026-08-17" duration="60" complete="0" expand="true">
+                <depend id="608" type="2" difference="0" hardness="Strong"/>
+                <depend id="610" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="606" name="[SUPERSEDED — nonprofit path, not applicable to PBC] CCSA charitable solicitation registration" color="#99aacc" meeting="false" start="2026-10-19" duration="20" complete="0" expand="true">
+                <depend id="612" type="2" difference="0" hardness="Strong"/>
+                <depend id="507" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="607" name="[SUPERSEDED — covered by #620 above] Bank account + bookkeeping setup" color="#99aacc" meeting="false" start="2026-10-05" duration="8" complete="0" expand="true"/>
+            <task id="610" name="[SUPERSEDED — nonprofit path, not applicable to PBC] D and O insurance quote + bind" color="#99aacc" meeting="false" start="2026-11-09" duration="8" complete="0" expand="true"/>
+            <task id="608" name="[SUPERSEDED — nonprofit path, not applicable to PBC] First board meeting: bylaws, covenant, conflict + compensation policy, 2027 budget" color="#99aacc" meeting="false" start="2026-11-16" duration="3" complete="0" expand="true">
+                <depend id="612" type="2" difference="0" hardness="Strong"/>
+                <depend id="613" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="613" name="[SUPERSEDED — nonprofit path, not applicable to PBC] MILESTONE: stipend trigger policy adopted" color="#99aacc" meeting="true" start="2026-11-19" duration="0" complete="0" expand="true"/>
+            <task id="612" name="[SUPERSEDED — nonprofit path, not applicable to PBC] GATE: nonprofit fully established (board, policies, CCSA)" color="#99aacc" meeting="true" start="2026-12-01" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="700" name="G - MINISTRY GROWTH AND COMMUNICATION" color="#cc9900" meeting="false" start="2026-08-11" duration="103" complete="0" expand="true">
+            <task id="701" name="Packet V0.2 = presentable business plan (P1 actuals in)" color="#cc9900" meeting="false" start="2026-08-11" duration="8" complete="0" expand="true">
+                <depend id="503" type="2" difference="0" hardness="Strong"/>
+                <depend id="505" type="2" difference="0" hardness="Strong"/>
+                <depend id="706" type="2" difference="0" hardness="Strong"/>
+                <depend id="707" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="702" name="Letter to Friends + FAQ refresh (4-world reality, counts fixed)" color="#cc9900" meeting="false" start="2026-08-11" duration="4" complete="0" expand="true">
+                <depend id="501" type="2" difference="0" hardness="Strong"/>
+                <depend id="704" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="703" name="Demo polish: 20-minute guided Table" color="#cc9900" meeting="false" start="2026-09-01" duration="8" complete="0" expand="true">
+                <depend id="503" type="2" difference="0" hardness="Rubber"/>
+                <depend id="706" type="2" difference="0" hardness="Strong"/>
+                <depend id="707" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="704" name="Landing page + interest list live" color="#cc9900" meeting="false" start="2026-08-24" duration="8" complete="0" expand="true"/>
+            <task id="705" name="Acadia Divinity peer call (Maxwell / Robbins)" color="#cc9900" meeting="false" start="2026-08-17" duration="5" complete="0" expand="true"/>
+            <task id="706" name="Wheaton conversation (anchor cultivation + Wabash one-pager)" color="#cc9900" meeting="false" start="2026-10-05" duration="20" complete="0" expand="true">
+                <depend id="708" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="707" name="Tom Beck: demonstration-first note + 30 minutes" color="#cc9900" meeting="false" start="2026-10-12" duration="10" complete="0" expand="true"/>
+            <task id="708" name="Lilly-wave positioning with anchor partner" color="#cc9900" meeting="false" start="2026-12-01" duration="14" complete="0" expand="true"/>
+            <task id="709" name="Praxis application prep (April 2027 window)" color="#cc9900" meeting="false" start="2026-12-14" duration="12" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

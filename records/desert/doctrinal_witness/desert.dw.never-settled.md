@@ -36,23 +36,12 @@ body note (itself drawing on Doc_07 SS3) for the second - "the founder
 of the office-based pole is himself remembered partly in the
 person-based idiom of the opposite pole."
 
-Step4, Round 1 review Finding S9: this record's second position and
-its text previously read "was remembered, once he had died, in the
-older, personal terms," attributed to "that gravity record's own
-description" - which contains no such claim, and "once he had died"
-appears in neither that record's description nor its body nor Doc_07
-SS3, which reads "remembered... in terms that borrow directly from
-elder-authority vocabulary (a father whose personal example, not merely
-his Rule, forms his community)." Corrected above to the actual source
-(the gravity record's body note, drawing on Doc_07 SS3), with "partly"
-and "not merely his Rule" restored and "once he had died" removed as
-unsupported.
-
-Step4, Round 2 review Finding S5: the Apophthegmata locus asserted the
-collection's own "recurring emphasis on personal obedience to a
-specific elder" as this record's own independent finding - an
-un-vendored collection this record cannot itself check, per that
-source's own unconditional Inferential/Thin bound. Corrected above to
-attribute the emphasis to desert.gravity.elder-authority's own already-
-registered basis rather than claim a fresh, independent verification;
-the bound is stated in divergence_note.
+The second position matches Doc_07 SS3's own wording: Pachomius is
+"remembered... in terms that borrow directly from elder-authority
+vocabulary (a father whose personal example, not merely his Rule,
+forms his community)." The Apophthegmata locus attributes the
+collection's own emphasis on personal obedience to
+desert.gravity.elder-authority's own already-registered basis, since
+this is an un-vendored collection this record cannot itself check, per
+that source's own unconditional Inferential-Thin bound, stated in
+divergence_note.

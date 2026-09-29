@@ -75,8 +75,8 @@ temporally and evidentially distant from Jesus's own life in a way its own
 demonstration turns (C-I, C-T) do not need to dwell on but this cell,
 asking specifically "how did it reach you," must name honestly.
 
-The third tension was added 2026-09-09, when cappadocian.quote.macrina-the-elder-taught-me
-was authored against this cell. Basil's Epistle 204 §6 names a real chain of memory
+The third tension reflects cappadocian.quote.macrina-the-elder-taught-me,
+authored against this cell. Basil's Epistle 204 §6 names a real chain of memory
 (his grandmother Macrina the Elder, carrying Gregory Thaumaturgus' own teaching) and,
 two clauses later in the same sentence, describes searching out teachers of his own.
 The second half cuts against this record's own unqualified `positions` line, "not a

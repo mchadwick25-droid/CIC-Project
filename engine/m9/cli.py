@@ -185,7 +185,7 @@ def cmd_shelf(args: argparse.Namespace) -> int:
     if args.stdout:
         print(text)
         return 0
-    target_dir = REPO_ROOT / "worlds" / args.world_key
+    target_dir = REPO_ROOT / "Build" / "worlds" / args.world_key
     if not target_dir.is_dir():
         print(f"{args.world_key}: no {target_dir.relative_to(REPO_ROOT)}/ yet - printing instead", file=sys.stderr)
         print(text)
@@ -222,7 +222,7 @@ def main(argv: list[str] | None = None) -> int:
 
     shelf = sub.add_parser("shelf", help="render one world's SHELF.md table from its real, computed shelf")
     shelf.add_argument("world_key")
-    shelf.add_argument("--stdout", action="store_true", help="print instead of writing worlds/<code>/SHELF.md")
+    shelf.add_argument("--stdout", action="store_true", help="print instead of writing Build/worlds/<code>/SHELF.md")
     shelf.set_defaults(func=cmd_shelf)
 
     holdings_p = sub.add_parser("holdings", help="one row per vendored file for a world: in_scope, named_in_records, drawn_on, disposition (Stage 2d, Build-Plan.md; report-only)")

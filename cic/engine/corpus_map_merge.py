@@ -147,7 +147,7 @@ def merge(write: bool = True, write_only: list[str] | None = None) -> tuple[dict
     both, correctly - it just skips writing any bucket that the matching
     staging file(s) don't themselves reference, and skips pruning
     entirely, because a scoped run only ever has a partial view of which
-    buckets are truly orphaned. Built 2026-09-03 for exactly the case a
+    buckets are truly orphaned. This exists for exactly the case a
     single build thread's own intake work needs: land its own world's
     assignment without touching (or risking pruning) another world's
     still-in-progress staging file, mid-flight in a different thread at

@@ -92,18 +92,18 @@ thin_topics:
 Draft world_core for source-ecology and answer-canon purposes, step 2 of
 the per-world build (spec 4.3). Identity and scope restate the approved
 Doc_01 (World-Builds/Imperial-Juridical-Christianity/
-Doc_01_World_Identification_Boundaries_Orientation.md, Approved to
-proceed, Round 2 cosmetic only) and the Step 0 confirmation (2026-07-19)
-- settled ground this build does not reopen. The three-strand finding,
+Doc_01_World_Identification_Boundaries_Orientation.md) and the Step 0
+confirmation - settled ground this build does not reopen. The
+three-strand finding,
 the 312/451 boundary reasoning, the Homoian-recentering obligation
 (Step 0 SS4.1), and the elite/literate/male/urban skew disclosure
 (Step 0 SS4.2) are all carried from those documents.
 
-Living Tradition Status: CONFIRMED 2026-09-20 by Mark - "Multiple
+Living Tradition Status: CONFIRMED - "Multiple
 traditions, partial claims" (Roman Catholic and Eastern Orthodoxy, each a
 partial and contested heir). See ijc_World_Profile.md SS9 and
 worlds/ijc/Open_Gaps_Tracking.md for the full ruling; living_tradition_flag
-now true as a confirmed determination, not a pending default.
+is true as a confirmed determination, not a pending default.
 
 ABSENT STORIES (the required Doc_09 question, answered specifically and
 carried forward from the reviewed legacy Doc_09_Story_Inventory SS5, with

@@ -43,11 +43,11 @@ relations:
 - type: associated-with
   target: syr.limit.marriage
 ---
-Opened 2026-08-27 for F5-T, which the rewritten classifier moved out of LIMIT-ONLY: syr.limit.marriage
-cites Demonstration VI specifically, so the limit can be voiced by the passage it points at.
+This quote serves F5-T: syr.limit.marriage cites Demonstration VI specifically, so the limit can be
+voiced by the passage it points at.
 
 Chosen because it does the limit's work twice over - it IS the ascetic vantage the limit names, and it
 is also the only concrete detail about an actual wedding anywhere in the vendored corpus. A reader who
 wants to know what a wedding was like gets seven days and a put-down, which is the honest answer.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.

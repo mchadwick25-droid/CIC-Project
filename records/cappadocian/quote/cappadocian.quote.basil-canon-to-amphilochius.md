@@ -57,7 +57,7 @@ modern_rendering: >-
   are still withheld from the oblation. Finally, they may be admitted to the communion of
   the good gift.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter CXCIX, headed in the file
 itself "Canonica Secunda" / "To Amphilochius, concerning the Canons",
 Canon XXII, lines 36326-36343, id="ix.cc-p21", grep -n -i "canon" and a
@@ -83,7 +83,4 @@ citation note; this canon was chosen instead because its graded, staged
 penalty is the sharper, most literal match to the dw's own three-part
 claim.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

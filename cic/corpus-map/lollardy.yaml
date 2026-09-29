@@ -13,12 +13,12 @@ works:
     of the Twelve Conclusions of the Lollards (1395) under the heading "Conclusiones Lollardorum
     porrectae pleno parliamento," plus the heresies extracted from Purvey''s own heretical
     book and his confession/recantation, and William Sautre''s own articles and examination
-    record - an independent Latin leg of the hostile-trial-record gap this world''s Step0
-    Revision 2 flagged as unfilled. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
-    this Latin text can be primary evidence directly, verified against the vendored file,
-    since it is primary to the movement regardless of language; the scan is clean, not flagged
-    under Mark''s OCR ruling "a."
+    record - an independent Latin leg of the hostile-trial-record gap this world''s source
+    ecology otherwise leaves unfilled. Per the Library''s non-English-primary-evidence rule
+    (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text is primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged as garbled under the Library''s own OCR-quality
+    rule.
 
     '
   source_file: fasciculi-zizaniorum_shirley1858.txt
@@ -31,10 +31,9 @@ works:
   note: 'Hostile-yet-preserving trial-record material: Thorpe''s own 1407 Examination "penned
     with his own hand," Sautre''s, Badby''s, and Brute''s own recorded words under examination,
     and Oldcastle''s history. Fills this world''s own Step0-flagged gap - the hostile-trial-record
-    leg of the corpus had no accessible PD source before this. Vendored 2026-09-25 as part
-    of a post-Step0-Revision-2 PD source-acquisition pass. This volume was confirmed by direct
-    full-text search to contain Lollard-era content specifically; it was not checked for Hus/Bohemian
-    content, so it is assigned only here, not to the-hussite-and-bohemian-brethren-movement.
+    leg of the corpus had no accessible PD source before this. This volume was confirmed by
+    direct full-text search to contain Lollard-era content specifically; it was not checked
+    for Hus/Bohemian content, so it is assigned only here, not to the-hussite-and-bohemian-brethren-movement.
 
     '
   source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
@@ -46,11 +45,11 @@ works:
   note: 'Wyclif''s own core argument for scripture''s supreme authority over church tradition,
     ed. Buddensieg (1907, Wyclif Society Latin Works vol. 21) - directly relevant to the movement''s
     central claim that scripture should be available and authoritative in the vernacular.
-    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass, from
-    the full 33-volume Wyclif Society Latin series on archive.org. Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
-    directly, verified against the vendored file, since it is primary to the movement regardless
-    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+    Drawn from the full 33-volume Wyclif Society Latin series on archive.org. Per the Library''s
+    non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text is primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged as
+    garbled under the Library''s own OCR-quality rule.
 
     '
   source_file: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt
@@ -62,7 +61,7 @@ works:
   note: 'Wyclif''s own Latin polemical works, ed. Rudolf Buddensieg (1883, Wyclif Society)
     - Latin original, not a second witness to an English translation, since these are separate
     Latin-only works. Confirms this world''s own Source Readiness Dossier §3 lead is real
-    and PD. Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition pass for lollardy.
+    and PD.
 
     '
   source_file: wyclif_polemical-works-lat-v2_buddensieg1883.txt
@@ -74,8 +73,7 @@ works:
   confidence: assigned
   note: 'Wyclif''s own Middle English sermons on the Sunday and festival Gospels, ed. Thomas
     Arnold (1869) - real PD substitute for the in-copyright modern editions the census named,
-    per this world''s own Source Readiness Dossier §3. Vendored 2026-09-25 as part of a pre-Doc_02
-    source-acquisition pass for lollardy.
+    per this world''s own Source Readiness Dossier §3.
 
     '
   source_file: wyclif_select-english-works-v1_arnold1869.txt
@@ -85,8 +83,7 @@ works:
   role: tradition
   confidence: assigned
   note: 'Continuation of Wyclif''s own Middle English Gospel sermons, ed. Thomas Arnold (1871).
-    Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition pass for lollardy, completing
-    the three-volume Arnold set alongside Vols. I and III.
+    This completes the three-volume Arnold set alongside Vols. I and III.
 
     '
   source_file: wyclif_select-english-works-v2_arnold1871.txt
@@ -96,9 +93,8 @@ works:
   role: tradition
   confidence: assigned
   note: 'Wyclif''s own miscellaneous Middle English works, ed. Thomas Arnold (1871) - the
-    specific lead this world''s own Source Readiness Dossier §3 originally named. Vendored
-    2026-09-25 as part of a pre-Doc_02 source-acquisition pass for lollardy, alongside Vols.
-    I and II (located separately this session to complete the set).
+    specific lead this world''s own Source Readiness Dossier §3 originally named. This completes
+    the set alongside Vols. I and II.
 
     '
   source_file: wyclif_select-english-works-v3_arnold1871.txt
@@ -109,8 +105,7 @@ works:
   confidence: assigned
   note: 'A further body of Wyclif''s own Middle English writings not covered by Arnold''s
     three-volume Select English Works, ed. F. D. Matthew (1880), per this world''s own Source
-    Readiness Dossier §3. Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition pass
-    for lollardy.
+    Readiness Dossier §3.
 
     '
   source_file: wyclif_english-works-hitherto-unprinted_matthew1880.txt
@@ -121,12 +116,12 @@ works:
   confidence: assigned
   note: 'Wyclif''s own core ecclesiology treatise, ed. Loserth (1886, Wyclif Society Latin
     Works vol. 10). Directly relevant to the movement''s central dissent on church authority.
-    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass, from
-    the full 33-volume Wyclif Society Latin series on archive.org (only vol. 2, the already-vendored
-    Buddensieg Polemical Works, had been checked before this pass). Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
-    directly, verified against the vendored file, since it is primary to the movement regardless
-    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+    Drawn from the full 33-volume Wyclif Society Latin series on archive.org (only vol. 2,
+    the already-vendored Buddensieg Polemical Works, had been checked before this file). Per
+    the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text is primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged as
+    garbled under the Library''s own OCR-quality rule.
 
     '
   source_file: wyclif_de-ecclesia-lat_loserth1886.txt
@@ -142,8 +137,7 @@ works:
     the Buddensieg edition among this session''s vendored texts belongs; the Arnold (Clarendon
     Press, 1869-71) and Matthew (EETS, 1880) editions predate the Wyclif Society''s founding
     and are not its editions either). An additional PD lead this world''s own Source Readiness
-    Dossier §3 identified beyond the census''s own named sources. Vendored 2026-09-25 as part
-    of a pre-Doc_02 source-acquisition pass for lollardy.
+    Dossier §3 identified beyond the census''s own named sources.
 
     '
   source_file: wyclif_tracts-and-treatises_vaughan1845.txt
@@ -158,8 +152,7 @@ works:
     of translators over time, not Wyclif''s own personal composition. Around 250 manuscripts
     of this translation survive, more than of any other Middle English text (per this world''s
     own census entry). Confirms this world''s own Source Readiness Dossier §3 lead is genuinely
-    accessible, not just bibliographically real. Vendored 2026-09-25 as part of a pre-Doc_02
-    source-acquisition pass for lollardy. A very large file; word-count not yet extracted.
+    accessible, not just bibliographically real. A very large file; word-count not yet extracted.
 
     '
   source_file: wycliffite-bible_forshall-madden1850.txt

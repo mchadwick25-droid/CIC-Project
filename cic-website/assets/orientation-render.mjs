@@ -10,7 +10,7 @@
  * questions/glossary/pull_quotes) turn into HTML, so the Atlas panel
  * (cic-website/atlas-v3.html, fetched at runtime for the 8 built worlds)
  * and each static tradition page (cic-website/traditions/<slug>.html,
- * generated once by tools/generate_tradition_pages.py, which runs this
+ * generated once by Build/tools/generate_tradition_pages.py, which runs this
  * same file through Node) can never quietly drift apart into two
  * independently-maintained templates - the exact anti-pattern this
  * design exists to retire.
@@ -257,7 +257,7 @@ export function renderPullQuotes(compiled) {
 }
 
 // Every render function this module exports, keyed by name - the single
-// list a Node CLI wrapper (tools/render_orientation_cli.mjs) and the Atlas
+// list a Node CLI wrapper (Build/tools/render_orientation_cli.mjs) and the Atlas
 // panel's own runtime import both iterate/select from, so a new section
 // added here needs no separate registration anywhere else.
 export const RENDERERS = {

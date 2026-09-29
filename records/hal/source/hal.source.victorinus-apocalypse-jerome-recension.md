@@ -25,7 +25,7 @@ attribution_status: "Victorinus' work, edited by Jerome; the seam between them i
 discovery_channel: "the corpus map carries this work with role `transmission` on this entry, added 2026-08-27 when danubian-latin-christianity was minted to hold Victorinus' own voice"
 external_ids: {ccel_volume: "anf07"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain).
 
 WHY A WORLD ABOUT JEROME HOLDS ANOTHER MAN'S COMMENTARY. Because of what

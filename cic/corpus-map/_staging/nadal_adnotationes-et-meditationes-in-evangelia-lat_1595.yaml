@@ -11,12 +11,9 @@ assignments:
     note: >
       Jeronimo Nadal's own Gospel annotations and meditations, Latin
       original (1595) - a major first-generation Jesuit theological
-      voice. Correction (2026-09-25): this note previously called the file
-      PRIMARY content on the grounds that no PD English translation
-      exists. Under Mark's 2026-09-25 ruling
-      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), an original's
-      language no longer decides this - scan quality does, and this
-      1595 print is flagged under Mark's OCR ruling "a" as garbled. It
+      voice. This 1595 print is flagged as garbled under the Library's
+      own OCR-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md). It
       stays second witness for that reason until a cleaner edition is
-      vendored - still closing the real gap an earlier dossier pass
-      flagged, just not yet quotable verbatim.
+      vendored. It closes an identified source gap for this world,
+      though it is not yet quotable verbatim.

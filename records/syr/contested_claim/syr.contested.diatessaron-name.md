@@ -37,8 +37,7 @@ concedes: The harmony's normative use inside the window is Documented and does n
   later designation and says so.
 divergence_partners: []
 ---
-Carried from Doc_03/Doc_06 (the syrlex006 CT contest, corrected in
-Doc_03 Round 1 from an overstated attestation). canon_cells
-deliberately EMPTY: a naming-dating contest about the build's own
-vocabulary, not something lived by participants - the F2-I cell is
-served by the term and gravity records themselves.
+canon_cells is deliberately empty: this is a naming-dating contest
+about this world's own vocabulary, not something lived by participants
+directly - the F2-I cell is served by the term and gravity records
+themselves.

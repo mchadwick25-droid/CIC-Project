@@ -26,7 +26,7 @@ attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; npnf211 was one of the volumes this world had never opened"
 external_ids: {ccel_volume: "npnf211"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Loci verified directly: the Sacred History opens at line 6915,
 Priscillian first appears at 11463, and the Martin passage quoted in
 this world's records is at 11649.

@@ -88,8 +88,8 @@ def _app(
 
 
 def test_burst_limiter_runs_first_a_429_from_it_never_touches_the_daily_bucket(store, usage_store, world_loader, registry):
-    """Middleware ordering (2026-09-21 review finding): ratelimit's cheap
-    per-IP burst check must run BEFORE anon_cap's daily-quota accounting,
+    """Middleware ordering: ratelimit's cheap per-IP burst check must run
+    BEFORE anon_cap's daily-quota accounting,
     so a request the burst limiter was always going to reject doesn't
     also burn a chunk of the participant's daily allowance - a flaky
     connection retrying past the burst limit shouldn't cost them their
@@ -174,11 +174,11 @@ def test_a_forged_or_tampered_cookie_is_treated_as_no_cookie_at_all(store, usage
 
 
 def test_a_rejected_request_is_never_issued_a_fresh_token(store, usage_store, world_loader, registry):
-    """The bug a 2026-09-21 adversarial review found: minting happened on
-    EVERY request, including the ones the cap itself just refused with a
-    429 - so an attacker never had to succeed even once to harvest an
-    unlimited supply of fresh, empty-bucket tokens. A 429 must never carry
-    a new Set-Cookie for a visitor who didn't already have a valid one."""
+    """Minting must never happen on a request the cap itself just refused
+    with a 429 - otherwise an attacker never has to succeed even once to
+    harvest an unlimited supply of fresh, empty-bucket tokens. A 429 must
+    never carry a new Set-Cookie for a visitor who didn't already have a
+    valid one."""
     client = _app(
         anon_cap_enabled=True, secret="s3cret", daily_session_limit=1, store=store, usage_store=usage_store, world_loader=world_loader,
         registry=registry,

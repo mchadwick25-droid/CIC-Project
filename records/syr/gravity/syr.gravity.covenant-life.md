@@ -52,12 +52,10 @@ manifestations:
   personal leadership of it is not)
 classification: primary
 ---
-Re-derived from Doc_04 C2 (Primary, cleanly earned after the Round 2
-narrowing removed the 6th-century Ephrem-choir claim from the
-evidentiary basis - the exact 'resolved by upgrading' pattern the
-Framework prohibits, caught by review). Cross-check clean: every
-remaining stream independently Documented; Author Gravity LOW.
-Forces-connection (Doc_04): HELD - no evidence located of this
+Classification (Doc_04 C2): Primary, on the evidentiary basis set out
+above, which excludes the 6th-century Ephrem-choir claim. Cross-check:
+every remaining stream is independently Documented; Author Gravity is
+LOW. Forces-connection (Doc_04): HELD - no evidence located of this
 gravity shifting under external pressure in-window, and none
 manufactured. Interaction: reshapes the authority ambiguity (the
 covenant's charismatic standing is one of the two legitimation

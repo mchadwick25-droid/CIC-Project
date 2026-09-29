@@ -256,7 +256,7 @@ svg#world{display:block;overflow:visible}
    built worlds' own fetched Orientation content (#orient-fetch-slot,
    populated by loadBuiltWorldOrientation() from cic-website/assets/
    orientation-render.mjs's shared markup - the same markup
-   tools/generate_tradition_pages.py renders into each world's own static
+   Build/tools/generate_tradition_pages.py renders into each world's own static
    tradition page). Scoped under the #orient-fetch-slot id specifically
    (higher specificity than the .docstories-row/.docstory-item rules just
    above) so it never touches those rules' own effect on the 284 non-built
@@ -413,7 +413,7 @@ const DATA = {
  "meta": {
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
-  "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
+  "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "totalEntries": 292,
   "liveCount": 11,
   "statusCounts": {
@@ -40273,8 +40273,8 @@ laneKeys.forEach(k=>{if(k!==0&&laneParent[k]==null&&LANE_PARENT_FROM_RECORD[k]!=
 // Four lanes are left with no parent at all -- checked, not skipped, and each
 // stays a plain spring for a different, specific reason its own record gives:
 //  - Latin West (Tertullian's Voice): the record itself calls him "a dropped
-//    voice... where he belongs is an open question for a future pass." No
-//    invented certainty where the project's own record has none.
+//    voice" whose lane is not settled. No invented certainty where the
+//    project's own record has none.
 //  - The Latin/Prot bridge (Taize & Iona): "heirs of monastic lines" (plural,
 //    unspecific) -- real, but not one traceable source to draw a line from.
 //  - Global Revival & Pentecostal (the 1904-07 Revival Family): its record
@@ -41218,7 +41218,7 @@ function sectionSources(list){
 // sourcing) is fetched at panel-open
 // time from cic-website/data/worlds/<census_id>.json (engine.m2.
 // site_compiler's own output, Part 1) and rendered through the exact same
-// functions tools/generate_tradition_pages.py runs (via Node) to build
+// functions Build/tools/generate_tradition_pages.py runs (via Node) to build
 // each world's own static tradition page, so the two surfaces can never
 // quietly drift apart into two independently-maintained templates - see
 // cic-website/assets/orientation-render.mjs, imported as
@@ -41858,7 +41858,7 @@ centerView();
 </script>
 <!-- Website V2 world_front design, site cutover Part 3: the shared
      renderer both this panel and each built world's own static tradition
-     page (tools/generate_tradition_pages.py, run through Node) render
+     page (Build/tools/generate_tradition_pages.py, run through Node) render
      from - one function per surface, not two independently-maintained
      templates. A module script (not the classic script above) so it can
      `import` a plain ES module with no build step; it only needs to run

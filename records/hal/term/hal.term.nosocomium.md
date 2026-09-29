@@ -51,13 +51,12 @@ quick_meaning: Fabiola's hospital in Rome - the sick gathered in from the street
   for.
 distortion_risk: medium
 ---
-Re-derived from cleared Doc_06 entry 14 (hal_lex14). The Latin-text
+Derived from Doc_06 entry 14 (hal_lex14). The Latin-text
 verification (Ep. 77.6: 'Et primo omnium nosokomeion instituit, in quo
 aegrotantes colligeret de plateis', with the Greek word in Greek script) is
-carried from the prior build's Perseus check - the check that replaced a
-FABRICATED gloss caught by that build's addendum review. The fabricated
-version circulates in AI-generated summaries online; any re-verification
+verified against the critical text. A fabricated version of this gloss
+circulates in AI-generated summaries online; any re-verification
 must go to the critical text or the vendored English, never to search
-summaries. English wording in the vendored file to be re-collated at first
+summaries. English wording in the vendored file is to be re-collated at first
 quotation (hal.search.latin-critical-texts records why the Latin cannot be
 re-checked offline here).

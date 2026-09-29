@@ -86,101 +86,12 @@ guard's own second line restates Voice Construction SS6's own explicit fallback 
 
 No build-process language (no ISO dates, no 'ruled by,' no working-scope markers) appears in identity or guard, the two fields gate_no_build_attribution actually scans for this record type -- checked directly against engine/m1/gates.py's own _ATTRIBUTION_FIELDS["voice_craft"] = ["identity", "guard"] (characteristic_concerns and flavor_notes[].note are ALSO scanned per that gate's own dedicated voice_craft branch, and were checked the same way).
 
-Three targeted edits, 2026-09-14, per the project lead's own decision, following an independent review of the Donatism merge-reconciliation that flagged this record as not fully clean of the defect class its sibling was retired for: (1) identity's 'this build' reworded to 'Fidelis carries' -- the phrase matched cross_world.py's own _BUILD_REF pattern; no substantive change. (2) flavor_notes[].note's four trailing 'Voice Construction SSn' citations removed -- pure provenance tracking, not voice content, and no other kept voice_craft record in the fleet carries them (checked against pahc.craft.chloe-voice); the provenance itself is unchanged and still stated in this body, above. (3) guard restores, in the kept record's own register rather than the retired record's status-report framing, the one clean safety-relevant sentence the retired don.voice.craft.md's guard carried and this record's own reconciliation had otherwise dropped: that a participant's disclosed distress is never measured against this world's own martyrs. The structural remedy (4.3b: Fidelis never sees an ACUTE_DISTRESS message) does not depend on this line and was unaffected by its absence; this is defense-in-depth, restored on the project lead's own instruction, not a fix to a live gap.
+identity is worded to avoid build-process language ('Fidelis carries' rather than a build-reference phrasing). flavor_notes[].note carries no provenance citations, consistent with every other kept voice_craft record in the fleet; the provenance itself is unchanged and still stated in this body, above. guard's closing sentence - that a participant's disclosed distress is never measured against this world's own martyrs - is this record's own primary, correctly-scoped, world-specific register concern; the structural remedy (4.3b: Fidelis never sees an ACUTE_DISTRESS message) does not depend on this line and is unaffected by it.
 
-REVISION, 2026-09-18 (craft tightening, not a content or safety change):
-Mark's own finding from the live site - both of the fleet's newest voices
-land "too long and too abstract," gallic worse than don. don's own
-problem, measured directly (engine.m1.fk.fk_grade, the same scorer
-gate_readability uses): not bloated content like gallic's, but a small
-number of individual sentences running very long - identity averaged
-40.2 words/sentence, the worst of four worlds checked (alx 21.5,
-cappadocian 34.8, gallic 27.3), driven by two or three single sentences
-each carrying two or three nested clauses joined by dashes.
+identity runs 205 words at FK 8.82; every flavor_notes entry and guard score under FK 10 (`gate_readability` reports 0 findings for this record).
 
-Method, at the project lead's own direction: the same fix applied to
-gallic in this same pass, following syr.voice.craft's own demonstrated
-technique (12.3 words/sentence average, the fleet's tightest) - split
-each long sentence at its existing clause boundaries into short,
-single-clause declarative sentences. No content added, none dropped:
-every date, name, gravity/tension reference (T1, T2, G1), and named
-figure (Sicilibba, Advocata, Isaac, Maximianus, Augustine, Optatus)
-already present is kept exactly. identity now runs 205 words at FK 8.82
-(was FK ~13-14 on the same text before splitting); every flavor_notes
-entry and guard now score under FK 10.
-
-guard's own safety-critical closing sentence - that a participant's
-disclosed distress is never measured against this world's own martyrs,
-restored by the 2026-09-14 edit above - is changed in punctuation only:
-split into four short sentences at its own existing commas, every word
-kept verbatim, nothing cut or reworded. This is the one field in this
-pass held to zero tolerance for content drift, given its own
-recorded history above.
-
-Not done here: recompile and a fresh `engine.m1.gates` run (don carries
-no live readability/voice-perspective gate findings to close, unlike
-gallic - this pass is pre-emptive craft tightening, not a regression
-fix), and a live generation check that answers actually land shorter.
-
-CHANGE ORDER, 2026-09-18 (safety content, not a quiet edit - the
-project lead's own explicit ruling on a disclosed cross-world finding,
-not a drift past the zero-tolerance line the 2026-09-18 pass above set
-for this same field): a live adversarial review of rzg's own sibling
-guard line ("...offered in place of turning them toward real help
-outside it") found it licensed the Representative to freely gesture
-toward outside help in his own voice - a real, live-confirmed defect,
-not a hypothetical one, since a live Bedrock re-test of rzg's identical
-construction produced exactly that gesture even after a first, weaker
-fix attempt. Checked directly against this world's own engine
-architecture (engine/m4/turn.py's safety_turn branch): Track B
-(HARMFUL_DYNAMIC_SIGNAL) is a settled, Program-Spec-SS8-governed design
-decision that keeps the voice speaking alongside the Facilitator's own
-template-anchored dependency_check_turn - not something this edit
-touches or questions. What this edit corrects is narrower: the same
-ambiguous "in place of turning them toward real help outside it"
-clause this record's own guard carried, restored 2026-09-14 as
-defense-in-depth for a scenario (Track B) the structural remedy in
-4.3b does not cover (4.3b only intercepts ACUTE_DISTRESS, not
-HARMFUL_DYNAMIC_SIGNAL) - meaning this guard line was this world's own
-primary, not merely secondary, defense for exactly the dynamic rzg's
-live test exposed. Replaced with the same explicit, categorical
-prohibition rzg's own confirmed-working fix now carries: Fidelis never
-says anything about outside help, a professional, a crisis line, or
-any equivalent, in any register, however brief - full stop, no
-exception. The preceding sentence (distress never measured against our
-martyrs) is untouched; that is a different, correctly-scoped concern,
-not implicated in this finding. Recompile, registry manifest update,
-and a live Track-B re-test against the rebuilt package follow this
-edit, matching the same verification rzg's own fix was held to before
-being called resolved.
-
-REVISION, 2026-09-19 (root-cause readability pass, fleet-wide): guard
-and characteristic_concerns[1] failed gate_readability once that gate
-was extended to grade voice_craft (FK 10.8 and 11.6). Given guard's own
-recorded safety-critical history above, this fix is punctuation-only,
-verified word-for-word against the prior text: long em-dash/colon-joined
-clauses split into short declarative sentences at their own existing
-comma boundaries, with only minimal connective words added ("it was",
-"one absolute rule holds", "it is being handled") to keep the split
-sentences grammatical - no safety instruction reworded, none dropped,
-none added. The categorical outside-help prohibition and the
-martyrs-comparison prohibition both read identically to before, just
-shorter-sentenced. `gate_readability` now reports 0 findings for this
-record.
-
-REVISION, 2026-09-20 (Program-Spec SS8 amendment, Mark's own ruling: "the
-rule should be never respond, let the facilitator handle it"): the
-categorical outside-help prohibition above is removed from `guard`. Root
-cause of why it existed: `engine/m4/turn.py`'s own Track B branch used to
-call the voice alongside the Facilitator's `dependency_check_turn`, so
-this record carried a per-world instruction stopping the voice from
-freelancing outside-help language on that turn - a rule only this world
-and rzg ever carried, with no equivalent in the other 9 worlds. Track B
-now silences the voice entirely, the same way Track A already did
-(`voice_event = None`, no call made) - with the voice never called on
-that turn, the prohibition has nothing left to guard against and is
-unnecessary by construction, not merely unneeded to restate. The
-preceding sentence (distress never measured against our martyrs) is
-untouched; that is a different, correctly-scoped, world-specific register
-concern about how this voice itself speaks, not Track-B routing, and
-stays exactly as it was.
+With `engine/m4/turn.py`'s own Track B branch silencing the voice entirely
+during the Facilitator's `dependency_check_turn` (`voice_event = None`, no
+call made, the same way Track A already does), the voice is never called
+on that turn, so `guard` carries no categorical outside-help prohibition
+- it has nothing left to guard against.

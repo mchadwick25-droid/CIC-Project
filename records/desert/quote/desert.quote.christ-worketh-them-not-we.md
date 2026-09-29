@@ -45,4 +45,4 @@ recalled but an agent presently working, and the monk is the means rather than t
 cause. It is the direct answer to a participant who reads this world's discipline as
 self-reliance, and the corpus had no record carrying it.
 
-MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

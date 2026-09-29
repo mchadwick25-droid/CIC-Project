@@ -1,6 +1,6 @@
 """Regression coverage for the DOOR/TABLE_DOOR world-name slot (Built-World
-Voice Alignment, 2026-09-17, Mark's ruling: "the words of the facilitator
-should align with the text the world has"). Callers must feed card_name,
+Voice Alignment): the words of the facilitator must align with the text
+the world has. Callers must feed card_name,
 not display_name - see door_turn's own docstring - and every admitted
 formation world must actually carry a card_name to feed it, or the
 fallback silently reintroduces the exact scholarly-name mismatch this
@@ -46,12 +46,11 @@ def test_every_admitted_formation_world_has_a_card_name():
     assert missing == []
 
 
-"""SYSTEM_NATURE's own words are participant-facing honesty text, ruled
-directly by Mark (R18, Decision-Log.md Entry 29, corrected wording ruled
-2026-09-22) - not free for a future edit to drift back toward
+"""SYSTEM_NATURE's own words are participant-facing honesty text - not
+free for a future edit to drift back toward
 overclaiming ("checked against the record it came from") without
-noticing. Pins the ruled middle sentences exactly; PR #383 shipped an
-earlier reword with no such pin, which is how the wording needed a
+noticing. Pins the exact middle sentences; an earlier reword shipped
+with no such pin, which is how the wording needed a
 second correction the same week."""
 
 
@@ -67,14 +66,14 @@ def test_system_nature_states_the_ruled_verification_sentences():
 
 
 def test_system_nature_does_not_overclaim_truth_verification():
-    """The R18 defect PR #383 first fixed: wording that reads as verifying
+    """The defect this guards against: wording that reads as verifying
     the underlying history, not just the record's own wording."""
     assert "checked against the record it came from" not in SYSTEM_NATURE.text
     assert "every specific claim in it is checked against the record" not in SYSTEM_NATURE.text
 
 
 def test_table_seat_correction_turn_names_the_seat_and_carries_its_own_kind():
-    """The seat-identity guard's fallback line (Decision-Log.md Entry 47) -
+    """The seat-identity guard's fallback line -
     pinned so a future edit can't silently drop the seat's own name or
     drift its kind back onto an existing one ("safety" is a different,
     unrelated situation - TABLE_DEPENDENCY_CHECK's own)."""
@@ -85,9 +84,9 @@ def test_table_seat_correction_turn_names_the_seat_and_carries_its_own_kind():
 
 
 def test_voice_rejected_turn_names_the_representative_and_carries_its_own_kind():
-    """R27 build item 5's own interview-mode fallback (Decision-Log.md
-    Entry 56/Rulings-Pending.md R36) - Option A, Mark's own word, chosen
-    directly 2026-09-23. Pinned so a future edit can't silently drop the
+    """The uncited-claims enforcement's own interview-mode fallback -
+    Option A, chosen for a single-voice interview. Pinned so a future
+    edit can't silently drop the
     representative's own name, reuse "seat_correction" (a different,
     identity-impersonation-specific situation), or reintroduce Table-only
     language ("the Table is still open") that makes no sense with one

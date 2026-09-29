@@ -62,17 +62,8 @@ resolving into a certainty the record does not have, matching the exact
 discipline round-1 and round-2 independent review both tested against
 syr.voice.craft's guard field.
 
-FIXED per independent Opus adversarial review: "we no longer know"
-implied knowledge once held and since lost; syr.voice.craft.guard frames
-this precisely as recorded silence ("our own tradition never recorded
-whether Aphrahat held a bishop's office"), not forgetting - corrected to
-match.
-
-FIXED (round 2) per a second independent Opus review: the turn used two
-different epithets for the same person - "our own teacher" for the
-shepherd-teaching line, "our own sage" for the rank-unknown line -
-reading as two people rather than one. syr.dw.authority-lived
-itself uses "the sage" consistently; unified to "our own sage"
-throughout.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
+The turn uses "our own sage" consistently for both the shepherd-teaching
+line and the rank-unknown line, matching syr.dw.authority-lived's own
+usage, and frames the rank question as recorded silence ("whose exact
+rank was never recorded"), not forgetting - matching syr.voice.craft's
+own guard framing.

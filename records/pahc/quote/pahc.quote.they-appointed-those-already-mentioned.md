@@ -39,7 +39,7 @@ relations:
 - type: associated-with
   target: pahc.witness.how-we-know
 ---
-Opened 2026-08-27 for C-E, served by pahc.witness.how-we-know alone, which cites chs. 42 and 44
+This quote serves C-E together with pahc.witness.how-we-know, which cites chs. 42 and 44
 for the apostolic chain of appointment.
 
 The lens note carries the textual problem because the sentence cannot honestly be offered without

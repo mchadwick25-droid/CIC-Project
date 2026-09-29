@@ -38,7 +38,7 @@ relations:
 - type: associated-with
   target: desert.dw.judgment-and-resurrection
 ---
-Verified verbatim 2026-08-22 against the vendored file, from the
+Verified verbatim against the vendored file, from the
 extended discourse (traditional SSSS16-43) Athanasius attributes to
 Antony teaching the gathered brothers. The "Apostle" cited within the
 quotation is Paul (1 Corinthians 15:31, per the vendored file's own
@@ -46,27 +46,20 @@ endnote); this record does not resolve that citation further, matching
 this build's own practice of not over-annotating a quoted passage
 beyond what the Representative would need.
 
-Step4, Round 1 review Finding S5: this text silently elided two
-sentences from SS19 without marking either omission - between "let us
-not be careless" and "to avoid being heedless" the vendored text has "For
-in it the Lord is our fellow-worker, as it is written, 'to all that
-choose the good, God worketh with them for good'"; between "we shall
-not sin" and "our life is naturally uncertain" it has "And the meaning
-of that saying is, that as we rise day by day we should think that we
-shall not abide till evening; and again, when about to lie down to
-sleep, we should think that we shall not rise up." Both omissions are
-now marked with an ellipsis, matching this step's own existing
-convention (desert.quote.arsenius-flee-tace-quiesce).
+The text field marks two internal elisions from SS19 with ellipses:
+between "let us not be careless" and "to avoid being heedless" the
+vendored text has "For in it the Lord is our fellow-worker, as it is
+written, 'to all that choose the good, God worketh with them for
+good'"; between "we shall not sin" and "our life is naturally uncertain"
+it has "And the meaning of that saying is, that as we rise day by day
+we should think that we shall not abide till evening; and again, when
+about to lie down to sleep, we should think that we shall not rise up."
+The excerpt's own opening also marks the vendored text's vocative
+"Wherefore, children," with a leading ellipsis - the vendored sentence
+is "Wherefore, children, let us hold fast our discipline..." - matching
+the convention this record uses for its two internal elisions
+(desert.quote.arsenius-flee-tace-quiesce).
 
-Step4, Round 2 review recommendation (a character-by-character
-re-check of every verbatim quote, applied proactively to this record
-though not itself named in a Round 2 finding): the excerpt's own
-opening also dropped the vendored text's vocative "Wherefore,
-children," unmarked - the vendored sentence is "Wherefore, children,
-let us hold fast our discipline..." - corrected above with a leading
-ellipsis, matching the convention this record already uses for its two
-internal elisions.
-
-Quote-verbatim gate fix (2026-09-22): the nested quotation around "I die daily" used single quote
-marks (apostrophe class); the source uses double quote marks (a distinct class) with its own space
-before the closing period ("daily ."). Corrected to match the source's actual mark and spacing.
+The nested quotation around "I die daily" uses double quote marks,
+matching the source's own mark and its own space before the closing
+period ("daily .").

@@ -40,11 +40,11 @@ relations:
 - {type: illustrates, target: ijc.story.emperor-penance}
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 ---
-Text verified verbatim against the vendored file 2026-08-21. The
+Text verified verbatim against the vendored file. The
 exclusion after Thessalonica, in the letter's own words - written, as
 its next line says, in Ambrose's own hand for the emperor's eyes alone.
 Not a public excommunication decree but a pastoral ultimatum with the
 altar as its whole leverage: the sharpest documented exercise of
 sacramental authority over positional power in the world's record.
 
-MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+The spoken form is a modern-English translation, not a summary; the original wording stays as this record's text, shown at Level 3. It is rendered from this record's own text field only - nothing added from the source beyond it.

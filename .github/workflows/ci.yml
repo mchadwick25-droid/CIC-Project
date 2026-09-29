@@ -181,14 +181,14 @@ jobs:
               - 'records/**'
               - 'engine/**'
               - '.github/workflows/**'
-            # gen_needs_ruling.py's own test suite (worlds/_cross-world/
+            # gen_needs_ruling.py's own test suite (Build/worlds/_cross-world/
             # tests_gen_needs_ruling.py) previously ran nowhere in CI - a
             # change to the generator or to its hand-maintained-tail
             # preservation could regress without any check catching it.
             # Also fires on a corpus-map change, since the generator's
             # end-to-end test runs against the real cic/corpus-map/ data.
             crossworld:
-              - 'worlds/_cross-world/**'
+              - 'Build/worlds/_cross-world/**'
               - 'cic/corpus-map/**'
               - '.github/workflows/**'
             # tools/check_live_commentary.py's own test suite
@@ -243,7 +243,7 @@ jobs:
           node-version: "20"
       - run: node tools/validate-census.mjs cic-website/data/world-census.json
 
-  # Added by the Repo Structure Cleanup thread (Ministry/Operations/Standing/
+  # Added by the Repo Structure Cleanup thread (Build/Ministry/Operations/Standing/
   # CiC_Repo_Structure_Tracking.md, 2026-09-14). Fails when a repo-relative path
   # cited in a current Markdown document no longer resolves, or when a
   # directory retired by the reorganization reappears (tools/retired_paths.txt)
@@ -264,7 +264,7 @@ jobs:
           python-version: "3.11"
       - run: python tools/check_paths.py --baseline tools/check_paths_baseline.txt
 
-  # Live-Surface-Cleanup program, Step 1 PR A (Ministry/Operations/Audits/
+  # Live-Surface-Cleanup program, Step 1 PR A (Build/Ministry/Operations/Audits/
   # Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md). Report-only:
   # classifies review/decision commentary that has leaked into a
   # live/canonical surface (CLAUDE.md, "Keep the live/canonical surfaces
@@ -275,7 +275,7 @@ jobs:
   # separate, reviewed step (PR C/D) - this job exists to make the count
   # visible on every push, not to gate anything yet. Not gated on the
   # `changes` filter: it reads text across surfaces `changes` doesn't track
-  # (reference/, worlds/, cic-website/), costs about ten seconds, and a
+  # (Build/reference/, Build/worlds/, cic-website/), costs about ten seconds, and a
   # docs-only or records-only commit is exactly the kind that moves these
   # counts.
   live-commentary-scan:
@@ -455,7 +455,7 @@ jobs:
       - run: python -m engine.m2.cli staleness-check
 
       # M9 confinement (compiled shelf; M1+M9 findings vs waivers).
-      # Library Access Gate D3 (Ministry/Features/Library-Access-Gate/
+      # Library Access Gate D3 (Build/Ministry/Features/Library-Access-Gate/
       # D3-Converged-Design.md) increment 4 (Q3), blocking: pytest covers
       # the confinement battery's own tests, the M9 selftest (mirrors
       # engine/m1/selftest.py's own contract) and enforce.py's
@@ -471,14 +471,14 @@ jobs:
       - run: python -m pytest engine/m9/tests -q
       - run: python -m engine.m9.cli check
 
-  # gen_needs_ruling.py generates worlds/_cross-world/NEEDS-RULING.md from
+  # gen_needs_ruling.py generates Build/worlds/_cross-world/NEEDS-RULING.md from
   # cic/corpus-map/; its hand-maintained-tail preservation (everything below
   # HAND_MAINTAINED_MARKER survives a regeneration verbatim, and a run
   # refuses to write if an existing file has lost the marker) is proven by
-  # worlds/_cross-world/tests_gen_needs_ruling.py, which had nowhere in this
+  # Build/worlds/_cross-world/tests_gen_needs_ruling.py, which had nowhere in this
   # workflow that collected it. NOT folded into engine-tests: that job's
   # requirements install anthropic/boto3/jsonschema this suite doesn't need,
-  # and its `engine`-only path filter wouldn't fire on a worlds/_cross-world/
+  # and its `engine`-only path filter wouldn't fire on a Build/worlds/_cross-world/
   # or cic/corpus-map/-only change anyway.
   cross-world-tests:
     needs: changes
@@ -492,7 +492,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install pyyaml pytest
-      - run: python -m pytest worlds/_cross-world/tests_gen_needs_ruling.py -q
+      - run: python -m pytest Build/worlds/_cross-world/tests_gen_needs_ruling.py -q
 
   # tools/check_live_commentary.py's own test suite (tools/tests/
   # test_check_live_commentary.py: the 60+ hand-labelled sample, its

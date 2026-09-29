@@ -47,11 +47,9 @@ none of us reaches for the word Trinity is scoped to "none of the six of us
 whose own writing survives," matching pahc.witness.jesus-as-god's own actual
 claim.
 
-CENTER-CELL OPENING (2026-08-30, Mark's ruling after four live probes:
-"make the record edit"): the spoken opening no longer hard-binds the
-first-mention introduction formula ("One of us, Ignatius,") to the
-answer - the plain name speaks, and introducing the figure is the
-system's job (the name-bridge mark for a first meeting, the
-already-introduced signal for later ones). Probes showed the compiled
-exemplar answering its own canon question verbatim, formula included,
-on every later mention. Only the opening words changed.
+The spoken opening does not hard-bind the first-mention
+introduction formula ("One of us, Ignatius,") to the answer - the
+plain name speaks, and introducing the figure is the system's job (the
+name-bridge mark for a first meeting, the already-introduced signal
+for later ones). The compiled exemplar answers its own canon question
+verbatim, formula included, on every later mention.

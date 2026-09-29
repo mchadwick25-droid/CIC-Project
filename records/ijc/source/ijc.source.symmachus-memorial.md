@@ -28,7 +28,7 @@ discovery_channel: "located at review (Opus canon-structure pass, 2026-08-21) wh
   happens to be printed in the same volume as Ambrose's replies to it"
 external_ids: {ccel_volume: "npnf210"}
 ---
-Rights verified 2026-08-21: same file, same DC.Rights header (Public
+Rights verified: same file, same DC.Rights header (Public
 Domain), already checked for the Ambrose material in this volume. Work
 presence verified: "Memorial of Symmachus, the Prefect of the City" at
 file line 40354, a separate division from Ambrose's own Epistles XVII

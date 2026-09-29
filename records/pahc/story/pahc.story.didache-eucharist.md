@@ -82,9 +82,4 @@ is specifically in the diversity-first discipline it carries, per
 Doc_02's own established rule never to merge this order with Story 006
 or Story 011 into one composite "the" eucharist.
 
-CENTER-CELL MAPPING (2026-08-30, Mark's pilot read: the center cells
-had no story or term to offer - "i don't see the full 3 level
-transparency with glossary terms, stories and quotes"; his approved
-scope: one story and one term per center cell where they genuinely
-belong, not everything that could fit). Added to C-I: "Who was Jesus, to you and your people?" - this world's own thanksgiving names him as the one through whom the vine, the life, and the knowledge were made known; what Jesus was to them is spoken at their own table. Content unchanged;
-this note and the added cell are the whole edit.
+This world's center-cell material adds to C-I: "Who was Jesus, to you and your people?" - this world's own thanksgiving names him as the one through whom the vine, the life, and the knowledge were made known; what Jesus was to them is spoken at their own table.

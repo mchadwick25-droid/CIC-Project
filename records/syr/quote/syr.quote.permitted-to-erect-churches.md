@@ -39,9 +39,9 @@ relations:
 - type: associated-with
   target: syr.dw.decides
 ---
-Opened 2026-08-27 for F1-E, served by syr.dw.decides alone, which cites "VII.8 (the synod's door
-opened at the close)" for its central admission - that no settled machinery stood over the whole world
-until the very end - and could not show it.
+This quote serves F1-E; syr.dw.decides alone grounds that cell, citing "VII.8 (the synod's door opened
+at the close)" for its central admission - that no settled machinery stood over the whole world until
+the very end. This quote shows that passage directly.
 
 Registered ETIC to match syr.source.socrates-historia-ecclesiastica: this is a Greek historian's notice
 about a Persian church, and the world's own voice is not in it. That is part of what the cell has to

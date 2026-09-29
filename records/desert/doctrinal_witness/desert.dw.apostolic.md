@@ -46,12 +46,9 @@ apostolic-continuity question honestly by declining the claim it is
 actually asked ("back to the apostles") and offering the more modest,
 better-supported claim this corpus can actually make.
 
-Step4, Round 1 review Finding M3: "went first, to learn what could be
-learned" exceeded both the Vita ("imitated him in piety") and
-desert.force.village-ascetic-culture's own "sought out and modeled
-himself on" - corrected to that force record's own wording. Finding M9
-(tensions field): "this world's own record" replaced with first-person
-phrasing, matching the fix applied across the other affected
-doctrinal_witness records.
+The text matches both the Vita ("imitated him in piety") and
+desert.force.village-ascetic-culture's own wording ("sought out and
+modeled himself on"). The tensions field uses first-person phrasing,
+matching the register used across doctrinal_witness records.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

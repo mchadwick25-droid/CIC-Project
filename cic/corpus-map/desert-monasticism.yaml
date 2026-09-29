@@ -72,11 +72,10 @@ works:
     an actual eastern-desert monastic community (Hathor, upper Cynopolite nome, 330s-340s)
     — its own legal and personal papers, not later commentary about it, so `role: tradition`
     on the same footing this build gives its other papyrus-archive evidence. `confidence:
-    provisional` because the source record''s own divergence_note flags real, unresolved doubt
-    the corpus-map inherits rather than resolves: the community is Melitian (schismatic),
-    not Nicene-communion, and whether it is representative of this world''s mainstream ascetic
-    strands is an explicitly unverified working assumption (Doc_01 open item 1) — not yet
-    cited by any quote, story, or doctrinal_witness record, only registered as available.
+    provisional`: the community is Melitian (schismatic), not Nicene-communion, and whether
+    it is representative of this world''s mainstream ascetic strands is not established (see
+    Doc_01, open item 1, and this world''s own Open_Gaps_Tracking.md). Not yet cited by any
+    quote, story, or doctrinal_witness record - registered as available only.
 
     '
   source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
@@ -316,9 +315,8 @@ works:
     authentic enough for all practical purposes". Quote it as Pachomian-foundation legislation
     in the Ethiopic recension, never as Pachomius'' own words.
 
-    A CORRECTION THIS FILE FORCES: the angel and the iron tablet are inside the rule document
-    itself, not merely in Palladius'' and Sozomen''s framing of it. Records describing the
-    frame as belonging to the reports rather than to the text were wrong.
+    The angel and the iron tablet are inside the rule document itself, not merely in Palladius''
+    and Sozomen''s framing of it.
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt

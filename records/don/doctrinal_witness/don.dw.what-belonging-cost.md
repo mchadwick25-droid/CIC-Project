@@ -19,13 +19,11 @@ confidence:
     actually asks about - family, friends, standing in a household - are not documented anywhere, and
     the record says so instead of transposing the legal record into a personal one. What held us together
     across distance is inferred from three documented practices (councils, letters between bishops, fixed
-    commemorative days) rather than from any statement of ours about connection. Corrected 2026-09-14: this
-    record previously said nobody among us wrote the personal cost down at all. That overstated the gap.
-    Our own commemorative sermon, read every twelfth of March, does describe kin searching the dead for
+    commemorative days) rather than from any statement of ours about connection. Our own commemorative
+    sermon, read every twelfth of March, does describe kin searching the dead for
     each other after the Carthage massacre - not a household split by the schism, which remains genuinely
-    undocumented, but real family-level grief this world's own voice does record. The correction is narrow
-    and does not restore the broader claim the original text refused. This one addition sits at a lower
-    confidence than the rest of the record and is carried at that lower level, not smoothed up to match:
+    undocumented, but real family-level grief this world's own voice does record. This addition sits at a
+    lower confidence than the rest of the record and is carried at that lower level, not smoothed up to match:
     it survives only in the same sermon's raw, uncorrected, column-interleaved Latin OCR
     (`don.source.passio-donati-sermon`'s own confidence is Contested, not Widely Accepted), and the English
     here is this record's own close rendering, not a certified translation - no published English edition
@@ -146,18 +144,11 @@ The personal-cost refusal is important and is not softened - transposing
 the legal record into a record of broken families would be exactly the
 move `don.core.donatism`'s second `thin_topics` entry forbids.
 
-**Revised 2026-09-14, `donatism-ordinary-believer` build thread; caveat
-strengthened after independent review.** A fleet-wide source-fidelity
-audit found this record's own "nobody among us wrote that down" claim
-overstated: `don.story.passio-donati-sermon` chapter XIII (`cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`
-lines 653-662, independently re-verified) names kin searching the dead
-for each other after the Carthage massacre. Added narrowly, preserving
-the original claim's real scope (a household split by the schism itself
-remains genuinely undocumented). Review caught two further problems in
-the first draft: the OCR/translation caveat this sermon already carries
-elsewhere in this world's build (`don.story.passio-donati-sermon`'s own
-`Contested` confidence) had not been carried into this record's own
-`confidence.divergence_note`, so it read as more settled than the source
-supports - fixed above. And *pietas* had been rendered "love," losing the
-word's actual sense here (kin-duty, family devotion) - the exact point
-the citation exists to make - corrected in the text.
+`don.story.passio-donati-sermon` chapter XIII (`cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`
+lines 653-662) names kin searching the dead for each other after the Carthage massacre, added narrowly,
+preserving the original claim's real scope (a household split by the schism itself remains genuinely
+undocumented). The OCR/translation caveat this sermon already carries elsewhere in this world's build
+(`don.story.passio-donati-sermon`'s own `Contested` confidence) is carried into this record's own
+`confidence.divergence_note`, so it does not read as more settled than the source supports. *pietas* is
+rendered to keep the word's actual sense here (kin-duty, family devotion), the exact point the citation
+exists to make.

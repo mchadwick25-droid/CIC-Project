@@ -376,37 +376,15 @@ narrative:
   - ijc.term.presbeia
   - ijc.term.imperator-intra-ecclesiam
 ---
-Authored 2026-09-19/09-20: the imperial-juridical-christianity (ijc)
-`world_front` record, the fourth world in the fleet-wide `world_front`
-rollout, following the two-world pilot (desert-monasticism,
-syriac-edessa-nisibis) and cappadocian (all three merged). Covers
-`skim`, `orientation`, and `narrative` only, per the pilot's own scope;
-`facilitator_brief` is a separate, later record this pass does not
-build.
+This record covers
+`skim`, `orientation`, and `narrative` only;
+`facilitator_brief` is a separate record.
 
-BASE-FIX STEP (required, done first, confirmed explicitly). This
-worktree's HEAD started at `e2291dfb` (origin/main), NOT a descendant of
-`claude/amazing-lovelace-coy644` - `records/desert/world_front/
-desert.front.desert-monasticism.md` was absent, confirming the known
-recurring wrong-base defect. Fixed via `git reset --hard
-origin/claude/amazing-lovelace-coy644` (no uncommitted work existed to
-lose; `git status` was clean before the reset). HEAD after the reset:
-`ff679fcc` ("Merge cappadocian world_front content"), matching the
-task's own stated tip; the desert file exists. No manual merge,
-cherry-pick, or reimplementation was attempted at any point, per the
-task's own explicit instruction.
-
-WORLD KEY - checked directly against the registry rather than assumed,
-per the task's own explicit warning that cappadocian's build found
-world_id and census_id diverge. `records/worlds/ijc.yaml`
-(`engine.m1.registry.load_registry()`) gives `world_id:
-imperial-juridical` - matching every one of this world's own 184
-existing records (confirmed: every record under `records/ijc/` carries
-`world_id: imperial-juridical`). `cic-website/data/world-census.json`'s
+World_id, per the registry (`records/worlds/ijc.yaml`), is
+`imperial-juridical` - matching every one of this world's own existing
+records. `cic-website/data/world-census.json`'s
 own movement entry gives `census_id`/`id`:
-`imperial-juridical-christianity` - a DIFFERENT string, exactly the
-cappadocian-shaped divergence, not the desert/syriac shape where both
-strings match. This record's own `id` and filename therefore follow the
+`imperial-juridical-christianity` - a DIFFERENT string. This record's own `id` and filename follow the
 sibling-record convention (`<registry-code>.front.<world_id-slug>`) -
 `ijc.front.imperial-juridical`, NOT `ijc.front.imperial-juridical-
 christianity`, which would wrongly use the census string as the slug.
@@ -415,14 +393,9 @@ The schema's own `census_id` field carries the site-facing string
 `engine.m2.site_compiler.compile_world_front()` reads it from to name
 compiled output.
 
-SOURCING METHOD. Every unit's `grounded_in` names a record this session
-opened and read directly in full: all 184 records under `records/ijc/`
-across `world_core` (1), `figure` (12), `gravity` (6), `force` (10),
-`story` (11), `contested_claim` (7), `honest_limit` (7), `term` (12),
-`doctrinal_witness` (12), `demonstration` (10), `quote` (39),
-`voice_craft` (1), `source` (30), `search_record` (26). No unit here
+Every unit's `grounded_in` names a record under `records/ijc/`. No unit here
 restates a claim from `cic-website/data/world-census.json` or
-`atlas-v3.html` without first checking it directly against the record(s)
+`atlas-v3.html` without checking it directly against the record(s)
 it cites - several claims in that live prose did NOT survive that check
 and were dropped; see below.
 
@@ -473,11 +446,9 @@ across `records/ijc/` before dropping each one):
 4. `experienceToday`'s single entry (the Archbasilica of St John
    Lateran, linking to Wikipedia) carries no `verified_on` date on the
    live site, and the schema's own `_EXPERIENCE_TODAY_ENTRY` requires
-   one. This pass did not re-verify that URL's current content against
-   today's date (2026-09-19); `orientation.experience_today` is
+   one. `orientation.experience_today` is
    deliberately left absent rather than carry the claim forward
-   unverified - the same scope decision desert's and syriac's own
-   pilots made for their own live `experienceToday` entries.
+   unverified.
 5. `atlas-v3.html`'s own cross-world `edges` array asserts several
    "argued against" relations from `imperial-juridical-christianity` to
    the Eunomian, Pneumatomachian, and Apollinarian movements, each cited
@@ -491,26 +462,20 @@ across `records/ijc/` before dropping each one):
    381 locus this world's own records cite is Canon 3, on Constantinople's
    own rank). These edges were not carried into `relations_summary`.
 
-COMPILE-CHECK FINDING, FIXED HERE (not an engine change - out of this
-pass's own scope). `engine.m2.site_compiler.compile_world_front()`'s own
+`engine.m2.site_compiler.compile_world_front()`'s own
 `_resolve_doctrinal_witness()` reads a generic `rec.get("text")` for any
 id in `narrative.questions[].cite` - it works for any record type that
 happens to carry a `text` field (`story`, `quote`, `doctrinal_witness`),
 but not for `contested_claim`, whose own schema uses `claim`/
-`held_against`/`concedes` instead. An early draft of this record's own
-F6-I question cited both `ijc.story.tome-that-would-not-bend` (resolves
-fine) and `ijc.contested.canon-28-meaning` (compiled to a `cite` entry
-with `text: null`) - caught by actually running `compile_world_front()`
-and recursively walking its raw output for nulls, exactly as this
-pass's own scope required, not by the schema or gate battery, neither of
-which type-checks `cite`'s own targets. Fixed in this record by citing
-only `ijc.story.tome-that-would-not-bend`, which already carries the
-episode's full text - not by editing the compiler, which is out of this
-pass's own stated scope (`engine/` is live/canonical code this task does
-not touch). This is a genuine, narrow compiler gap worth a fleet-level
+`held_against`/`concedes` instead. This record's own
+F6-I question cites `ijc.story.tome-that-would-not-bend`, which already
+carries the episode's full text, rather than
+`ijc.contested.canon-28-meaning`, which would compile to a `cite` entry
+with `text: null` under this constraint. This is a genuine, narrow
+compiler gap worth a fleet-level
 fix (`_resolve_doctrinal_witness` could type-check or fall back across
-`text`/`claim` for non-dw cite targets) but is reported here, not
-patched in engine code, per the task's own scope boundary.
+`text`/`claim` for non-dw cite targets), reported here rather than
+patched in engine code.
 
 SELF-CAUGHT QUOTE-DISCIPLINE FIX (before this record's own first
 validation pass, not a review-round finding): an early draft of
@@ -584,16 +549,15 @@ this record's own Justina `voices` hedge and its `orientation.story`
 Callinicum-adjacent paragraphs - no drift found. `ijc.gravity.
 church-state-alliance`, `ijc.gravity.episcopal-independence`,
 `ijc.gravity.orthodoxy-enforcement`, and `ijc.gravity.primacy-claiming`
-were each cross-checked against their own `relations[]` for the
-Opus-corrected `tension-with` edges (their own body notes document a
-2026-08-21 correction from a flattened `associated-with`) - this
+were each cross-checked against their own `relations[]`, encoded as
+`tension-with` edges rather than a flattened `associated-with` - this
 record's own `orientation.story` prose does not assert a flatter
 relationship than the corrected records themselves hold. `ijc.story.
 callinicum-synagogue` and `ijc.demo.hypocrisy`, both independently
 narrating the same episode, were checked against each other word-for-
 word on the hardest claim (Ambrose shielding the arsonists rather than
 restraining them) - consistent, no drift. `ijc.contested.canon-28-
-meaning`'s own body note documents a review-added `held_against` item
+meaning`'s own body note carries a `held_against` item
 (Percival's own narrower reading of the legates' objection) - this
 record's own `orientation.legacy` and `narrative.questions` cite the
 record as currently held (the unresolved contest, not the narrower

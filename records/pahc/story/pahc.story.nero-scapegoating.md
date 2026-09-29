@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted as basically authentic to Tacitus's own text; Contested is the live scholarly dispute (Shaw/Jones) over whether a discrete, fire-linked, named-group persecution of Christians actually occurred in 64 CE, or whether this reflects a later, more general memory retrojected onto the fire. Tacitus is NOW VENDORED (2026-08-27, cic/texts/tacitus_annals-15-44_church-brodribb1876.txt) and pahc.quote.tacitus-hatred-against-mankind carries the passage verbatim. This record is still TOLD in paraphrase, which is what a story record does, but the paraphrase is now checkable against the text rather than resting on report - and a participant who asks what Tacitus actually wrote can be given the words."
+  divergence_note: "Widely Accepted as basically authentic to Tacitus's own text; Contested is the live scholarly dispute (Shaw/Jones) over whether a discrete, fire-linked, named-group persecution of Christians actually occurred in 64 CE, or whether this reflects a later, more general memory retrojected onto the fire. Tacitus is vendored (cic/texts/tacitus_annals-15-44_church-brodribb1876.txt) and pahc.quote.tacitus-hatred-against-mankind carries the passage verbatim. This record is told in paraphrase, which is what a story record does, but the paraphrase is checkable against the text rather than resting on report - and a participant who asks what Tacitus actually wrote can be given the words."
 sources:
 - source_id: pahc.source.tacitus-annals
   locus: "Annals 15.44"
@@ -89,4 +89,4 @@ more direct gravity edges would overstate what this specific,
 entirely-outside-voice story establishes on its own. Same disclosed-
 discipline pattern already used in pahc.story.mutual-aid-prisoner.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

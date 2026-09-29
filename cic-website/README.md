@@ -2,7 +2,7 @@
 
 A plain static site (no build step, no framework) for churchinconversation.com
 (primary) and churchinconversation.org (kept registered, redirects to .com).
-Brand system: `Ministry/Communication/Brand-Assets/`
+Brand system: `Build/Ministry/Communication/Brand-Assets/`
 and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 ## Pages
@@ -11,7 +11,7 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
 - `support.html` — "Get Involved," rewritten with real cost figures; see its own
   header comment and the funding-strategy decision record under
-  `Ministry/Features/Funding-Strategy/` for the full derivation. Currently
+  `Build/Ministry/Features/Funding-Strategy/` for the full derivation. Currently
   unlinked from the site nav — needs a content refresh; the homepage's own
   "Keep the Door Open" section carries the real Stripe give links directly,
   so giving still works with this page unlinked. Names one fund,
@@ -25,7 +25,7 @@ Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
 Corporation, Entity ID 20261918758; not a nonprofit, no 501(c)(3),
 contributions are not tax-deductible). The Support page's giving mechanics
 (see the Pages section above) are built around the monetization ladder in
-`Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`, not charitable-deductibility
+`Build/Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`, not charitable-deductibility
 framing — see that file before changing the ask copy or amounts.
 
 ## Deploying (Cloudflare Pages — free tier, recommended)

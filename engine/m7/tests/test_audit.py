@@ -444,6 +444,26 @@ def test_canon_asks_are_normalized_participant_text(tmp_path):
     assert "what about zebra quills" in asks
 
 
+def test_read_session_lifts_visitor_id_off_session_started(tmp_path):
+    """The usage dashboard's identity signal (Mark, 2026-09-28 scoping
+    doc): a session_started carrying visitor_id folds it onto
+    AuditSession, same as world_keys - and its absence (every session
+    before this field existed, or anon_cap disabled) folds to None, not
+    an error."""
+    store = Store(tmp_path / "events.db")
+    with_visitor, without_visitor = str(uuid.uuid4()), str(uuid.uuid4())
+    _append(store, with_visitor, "session_started", {
+        "mode": "interview", "frame": None, "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x", "visitor_id": "visitor-a",
+    })
+    _append(store, without_visitor, "session_started", {
+        "mode": "interview", "frame": None, "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x",
+    })
+    assert read_session(store, with_visitor).visitor_id == "visitor-a"
+    assert read_session(store, without_visitor).visitor_id is None
+
+
 def test_register_metrics_score_long_turns_and_mark_short_unscored(tmp_path):
     store, _, t_sid = _sessions(tmp_path)
     a = run_all(read_session(store, t_sid))
@@ -451,9 +471,9 @@ def test_register_metrics_score_long_turns_and_mark_short_unscored(tmp_path):
     assert scored, "the long table answers must score"
     assert all("fk_grade" in m and "fre" in m for m in scored)
     assert any("first_sentence_first_ask_overlap" in m for m in a["register_metrics"])
-    # Cadence rides alongside, measured never gated (register-translation
-    # pass, 2026-08-29): every turn with words carries the em-dash density
-    # and fragment ratio, and both are info-layer numbers, not findings.
+    # Cadence rides alongside, measured never gated: every turn with words
+    # carries the em-dash density and fragment ratio, and both are
+    # info-layer numbers, not findings.
     assert all("dash_per_100w" in m and "fragment_ratio" in m for m in scored)
     assert all(0 <= m["fragment_ratio"] <= 1 for m in scored)
 

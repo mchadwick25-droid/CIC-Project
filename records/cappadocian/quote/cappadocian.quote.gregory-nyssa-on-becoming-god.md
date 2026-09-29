@@ -77,7 +77,7 @@ modern_rendering: >-
   return from death becomes, for our mortal race, the beginning of our own return to
   immortal life.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf205_gregory-nyssa-dogmatic-treatises.txt. Located via `grep -n -i
 "Great Catechism\|Catechetical\|On Perfection\|Against Apollinaris"`:
 line 433 lists "385. The Great Catechism." in this volume's own table of
@@ -123,6 +123,4 @@ an equating of creature with Creator. The chapter's own closing sentence
 our return to the immortal life" - ties the same passage to the dw's
 resurrection claim as well, without needing a second citation.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
-English translation, never the archaic original; the original stays as
-the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

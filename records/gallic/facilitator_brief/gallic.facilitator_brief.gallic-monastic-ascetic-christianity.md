@@ -296,15 +296,14 @@ redirect_notes:
   - gallic.contested.beginning-of-good-will
   - gallic.contested.massilian-label
 ---
-Authored 2026-09-19, one of several parallel builds of the facilitator_brief
-record type following the syr pilot
-(`records/syr/facilitator_brief/syr.facilitator_brief.syriac-edessa-nisibis.md`).
-Unlike syr and the alx/cappadocian/desert/hal/pahc migrations in this same
-batch, no hand-authored World Facilitation Brief exists for this world to
-migrate from - gallic never had a Phase Six Facilitator Coordination
-document written for it. Every field below is therefore authored directly
-and originally from this world's own real M1 records, read in full by this
-session: all ten `records/gallic/gravity/` records, all twenty-two
+This facilitator_brief record follows the shape
+`records/syr/facilitator_brief/syr.facilitator_brief.syriac-edessa-nisibis.md`
+established. Unlike syr and the alx/cappadocian/desert/hal/pahc
+facilitator_brief records, no hand-authored World Facilitation Brief
+exists for this world to migrate from - gallic never had a Phase Six
+Facilitator Coordination document written for it. Every field below is
+therefore authored directly and originally from this world's own real
+M1 records: all ten `records/gallic/gravity/` records, all twenty-two
 `records/gallic/force/` records (read as name/classification plus full text
 for the two not otherwise covered), both `records/gallic/honest_limit/`
 records, all five `records/gallic/contested_claim/` records, all five

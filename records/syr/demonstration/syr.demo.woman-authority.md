@@ -84,34 +84,15 @@ answer is the collective, public, liturgical role of the daughters of
 the covenant, offered plainly as what is actually attested, with the
 individual-voice silence named as its own, separate, total absence.
 
-FIXED per independent Opus adversarial review: the canon question asks
-two things - could a woman carry authority, and what did it cost her -
-and the first draft answered only the first, redirecting "what did it
-cost her" to the cost of the archival silence rather than the attested
-cost of the vow itself (marriage forgone for good - syr.term.qyama,
-syr.limit.marriage). That attested cost is now stated plainly,
-before the turn moves to the genuinely unattested interior cost ("what
-the cost felt like from the inside"), which remains honestly declined.
-Also fixed: "stood at the front of every congregation" claimed
-unattested precedence/position imagery beyond what syr.limit.f5-women-
-own-words actually supports ("sang in every church"); restored to the
-attested claim.
-
-FIXED (round 2) per a second independent Opus review: "gave up marriage
-and a household entirely" added an unattested "household" claim that
-sat against the same sentence's own "living... in their own town among
-their own kin" - syr.term.qyama attests celibacy, not leaving domestic
-life; narrowed to "meant giving up marriage for good," which is what
-the cited records actually support. The turn's order also had the cost
-arrive before the standing it was the cost of, collapsing the canon
-question's own two-part order; restructured so office-absence, then
-the attested standing (the choirs), then the attested cost, then the
-declined interior cost, each arrive in that sequence. "no ordained
-teacher" presupposed an office category ("ordained") this world's own
-record never establishes for anyone, man or woman - the corpus's own
-exemplar teacher's rank is precisely what is never recorded
-(syr.demo.authority); reworded to "no teacher whose word held the
-way our own sage's did," matching that record's own language instead
-of quietly settling a question this whole build holds open.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
+The turn answers both halves of the canon question - could a woman
+carry authority, and what did it cost her - in sequence: office-absence,
+then the attested standing (the choirs), then the attested cost
+(marriage forgone for good - syr.term.qyama, syr.limit.marriage), then
+the genuinely unattested interior cost ("what the cost felt like from
+the inside"), which stays honestly declined. It states only that the
+choirs "sang in every church," matching syr.limit.f5-women-own-words
+exactly, and it does not claim "no ordained teacher": this world's own
+record never establishes an "ordained" office category for anyone, man
+or woman, so the turn says "no teacher whose word held the way our own
+sage's did," matching syr.demo.authority's own language for the same
+open question.

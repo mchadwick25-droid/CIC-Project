@@ -25,11 +25,10 @@ attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21) as the vendorable anchor for the Nag Hammadi contested claim; volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf204"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
-Domain). Letter 39's division located and verified at file line 68714
-(Step2 Review Round 1, Finding 6 closed the earlier 'not yet pinpointed'
-gap; the previously-cited line 7291 was a Prolegomena chronology entry,
-not the corpus). The surviving Letter 39 is itself a fragment preserved
+Rights verified from the file's own DC.Rights header (Public
+Domain). Letter 39's division is located and verified at file line
+68714 - not at line 7291, a Prolegomena chronology entry, not the
+corpus. The surviving Letter 39 is itself a fragment preserved
 in Greek/Coptic excerpts; what the vendored volume prints must still be
 read against that transmission fact at first quotation.
 

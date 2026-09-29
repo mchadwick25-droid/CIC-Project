@@ -34,10 +34,10 @@ retrieval:
   - "participant asks whether they were ever attacked, and by whom"
   - "participant asks what a doctrinal quarrel cost them in practice"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 139, div
+Verified verbatim against the vendored npnf206 (Ep. 139, div
 v.CXXXIX; the file's editorial gloss identifying 'our house' as the
 Bethlehem establishment elided from the quoted text). The old man's own
 summary of the attack's aftermath - loss stated without self-pity, the one
 place his notices of the disaster rise to testimony. Serves F6-P.
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

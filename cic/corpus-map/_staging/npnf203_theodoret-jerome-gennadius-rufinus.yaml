@@ -157,9 +157,9 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: context
   confidence: assigned
-  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored), whose own
-    verification_state was `named-not-rechecked` - "file present since 2026-08-15, not re-verified
-    this session against the specific entries Doc_02 cites." That review is done here. The record''s
+  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored,
+    verification_state: named-not-rechecked): this file had not yet been re-verified
+    against the specific entries Doc_02 cites. That review is done here. The record''s
     own framing ("the earliest external catalogue of what circulated under Basil, both Gregorys,
     and Amphilochius'' names") is confirmed directly: all four named figures have their own DVI
     chapters, independently located and read - ch. CXVI on "Basil... bishop of Caesarea in Cappadocia,

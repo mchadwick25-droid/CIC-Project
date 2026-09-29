@@ -87,8 +87,7 @@ modern_contrast: >-
   his hearers would have read as the point: he says he saved two lives, and puts hers second, but
   he puts it in.
 ---
-Registered 2026-08-27, on this world opening
-cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
+This record draws on cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
 
 WHY THIS AND NOT A LONGER, BETTER-ATTESTED CHAPTER. Melania the Great's
 chapter is longer and firmer, and desert.quote.melania-to-the-governor
@@ -104,4 +103,4 @@ than smoothing it, because a story this world tells with a known error
 inside it, marked, is worth more than one it tells cleanly and cannot
 defend.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

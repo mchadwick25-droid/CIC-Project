@@ -1,10 +1,14 @@
 """Per-visitor daily cap on session creation and conversation turns
 (Tech-Readiness P1-Security item 3 — OWASP LLM Top 10 "unbounded
-consumption"). Feature-flagged OFF by default (CIC_API_ANON_CAP_ENABLED) —
-this module is inert dead code in every deployment until Mark turns it on,
-and the cap mechanism/numbers below are the PROPOSED default, not a decided
-one; see Ministry/Operations/Audits/Tech-Readiness-2026-09/P1-Security/
-Report.md for the 2-3 options this was chosen from and why.
+consumption"). Feature-flagged via CIC_API_ANON_CAP_ENABLED — the code
+default stays off (a fresh/local/test app opts in explicitly), but both
+real deployments turn it on (render.yaml, Mark, 2026-09-28: turning the
+whole feature on, cap and visitor cookie together, was the simpler of the
+two options weighed against decoupling them). The cap mechanism/numbers
+below are still the PROPOSED default, not independently re-tuned as part
+of that decision; see Build/Ministry/Operations/Audits/Tech-Readiness-
+2026-09/P1-Security/Report.md for the 2-3 options this was chosen from
+and why.
 
 Why a second, per-visitor mechanism on top of engine/api/ratelimit.py's
 per-IP sliding window: that limiter already bounds *burst* rate (6
@@ -16,18 +20,29 @@ shared/NAT'd address into one bucket the way a pure-IP daily limit would.
 
 Mechanism: a random, server-issued, HMAC-signed opaque token in an
 HttpOnly cookie. No accounts, no email, no name, no device fingerprint —
-the token is a bare random id, unlinkable to a real identity, and this
-module never persists it anywhere but the signature verifies it wasn't
-handed back tampered with. Cookie only (no frontend change needed):
-cic-poc/frontend is same-origin with engine/api (render.yaml's own
-"ONE service" design), so the browser sends it automatically.
+the token is a bare random id, unlinkable to a real identity, and the
+signature verifies it wasn't handed back tampered with. Cookie only (no
+frontend change needed): cic-poc/frontend is same-origin with engine/api
+(render.yaml's own "ONE service" design), so the browser sends it
+automatically.
 
-In-memory, per-instance, day-bucketed — the same architectural precedent
-ratelimit.py already established and justified (one instance serves all
-traffic today; the SQLite session store already pins this service there).
-A restart resets every visitor's count to zero; that's an acceptable
+Daily-cap bookkeeping (DailyVisitorLimiter, below) is in-memory, per-
+instance, day-bucketed — the same architectural precedent ratelimit.py
+already established and justified (one instance serves all traffic
+today; the SQLite session store already pins this service there). A
+restart resets every visitor's count to zero; that's an acceptable
 false-negative for a soft abuse deterrent, not a hard security boundary,
 and matches the existing limiter's own accepted tradeoff.
+
+The visitor id itself is a second thing entirely (Mark, 2026-09-28):
+install() below also hands the verified-or-freshly-minted id to the
+request as `request.state.visitor_id`, BEFORE the route handler runs, so
+engine.api.wiring.create_session can write it onto that session's own
+session_started event (engine/m4/entrance.py) — the one place a
+session's identity is actually persisted. That event write is what makes
+the id durable across restarts and usable for the usage dashboard's
+unique-visitor count; this module itself still keeps no record of who
+visited, only the daily counters.
 """
 import hmac
 import secrets
@@ -51,6 +66,18 @@ _SEPARATOR = "."
 # 2-3 option comparison these numbers came from.
 DEFAULT_DAILY_SESSION_LIMIT = 5
 DEFAULT_DAILY_TURN_LIMIT = 150
+
+# The cookie's own lifetime — independent of the daily caps above, which
+# reset on their own every UTC day regardless of how long the cookie
+# lives. 400 days is the practical ceiling, not a round-number guess:
+# Chrome (and Chromium-based browsers) caps any Set-Cookie Max-Age at 400
+# days and silently clamps a longer one, so asking for more would just be
+# asking for the same 400 with extra steps. Needs to be long because the
+# usage dashboard's unique-visitor count (Mark, 2026-09-28) depends on
+# this cookie surviving from one visit to the next across a pilot that
+# may run for months — the old 2-day value was sized only for the daily
+# cap's own bucket, never for recognizing a returning visitor.
+VISITOR_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 400
 
 CAP_DETAIL = "You've reached today's limit for new conversations - please come back tomorrow, or reach out if this doesn't seem right."
 TURN_CAP_DETAIL = "You've reached today's limit for messages - please come back tomorrow, or reach out if this doesn't seem right."
@@ -140,11 +167,11 @@ class DailyVisitorLimiter:
 
     def mint_seeded_token(self, ip: str, secret: str) -> str:
         """Mint a fresh visitor token, seeded from the ip: bucket's CURRENT
-        count rather than starting at zero (2026-09-21, closing a review
-        finding: minting a pristine, zero-count bucket on every cookie-less
-        request let an attacker who never returns a cookie harvest an
-        effectively unlimited supply of fresh daily allowances - delete
-        the cookie, get a new empty-bucket token, repeat). Seeding from the
+        count rather than starting at zero: minting a pristine, zero-count
+        bucket on every cookie-less request would let an attacker who
+        never returns a cookie harvest an effectively unlimited supply of
+        fresh daily allowances - delete the cookie, get a new empty-bucket
+        token, repeat. Seeding from the
         ip bucket bounds the exploit instead of eliminating the mint: an
         attacker who harvests N tokens before the ip: bucket itself caps
         out can still redeem some leftover headroom on each one (the
@@ -191,7 +218,15 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
     succeed) and is seeded from the ip: bucket's current count rather than
     starting at zero (DailyVisitorLimiter.mint_seeded_token's own
     docstring has the full reasoning and the accepted, bounded residual
-    this still leaves)."""
+    this still leaves).
+
+    The mint (when needed) now happens BEFORE call_next rather than after
+    - still strictly inside the ALLOWED branch, so the "never mint on a
+    429" guarantee above is unchanged - so that request.state.visitor_id
+    is set before the route handler runs and create_session_endpoint can
+    read it. Reordering relative to call_next doesn't change what
+    mint_seeded_token sees: it reads the ip: bucket's count, and nothing
+    call_next does touches that bucket."""
     limiter = DailyVisitorLimiter(daily_session_limit, daily_turn_limit)
 
     @app.middleware("http")
@@ -213,11 +248,21 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
         if not allowed:
             return JSONResponse(status_code=429, content={"detail": CAP_DETAIL if is_create else TURN_CAP_DETAIL})
 
-        response = await call_next(request)
+        new_token: str | None = None
         if needs_new_token:
-            token = limiter.mint_seeded_token(ip, secret)
+            new_token = limiter.mint_seeded_token(ip, secret)
+            visitor_id = new_token.split(_SEPARATOR, 1)[0]
+        # Only session-create/turn requests reach here (the is_create/
+        # is_turn guard above), and only create_session_endpoint reads
+        # this today - a turn request's own visitor_id is set too, at no
+        # extra cost, since the same cookie identifies the same visitor
+        # either way.
+        request.state.visitor_id = visitor_id
+
+        response = await call_next(request)
+        if new_token is not None:
             response.set_cookie(
-                COOKIE_NAME, token, max_age=60 * 60 * 24 * 2, httponly=True, samesite="lax", secure=True, path="/api",
+                COOKIE_NAME, new_token, max_age=VISITOR_COOKIE_MAX_AGE_SECONDS, httponly=True, samesite="lax", secure=True, path="/api",
             )
         return response
 

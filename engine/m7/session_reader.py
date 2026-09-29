@@ -51,6 +51,14 @@ class AuditSession:
     event_count: int = 0
     first_at: str | None = None
     last_at: str | None = None
+    # The anon_cap visitor cookie's id (engine.api.anon_cap), lifted off
+    # session_started.visitor_id same as world_keys above - None for
+    # anon_cap-disabled deploys, non-HTTP callers, and every session_started
+    # written before this field existed (engine.m4.entrance.open_session's
+    # own docstring). Pseudonymous, not participant text, so it's fine in
+    # an aggregate rollup unlike participant_messages/gate_decisions above -
+    # see wiring.get_usage_summary, the one place this is actually read.
+    visitor_id: str | None = None
 
 
 def read_session(store: Store, session_id: str) -> AuditSession | None:
@@ -67,6 +75,7 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
             world_keys = list(p.get("world_keys") or ([p["world_key"]] if p.get("world_key") else []))
             session = AuditSession(session_id=session_id, mode=mode, world_keys=world_keys, closed=False, close_reason=None)
             session.first_at = ev.created_at
+            session.visitor_id = p.get("visitor_id")
         if session is None:
             # A log that doesn't start with session_started is itself a
             # finding; collect it as a bare session so nothing is dropped.
@@ -75,8 +84,8 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
         session.event_count += 1
         session.last_at = ev.created_at
         if session.closed and session.close_reason == "idle" and ev.event_type != "session_closed":
-            # Mirrors engine.m4.projection._fold's identical reopen rule
-            # (2026-09-06): an idle close is reporting-only, and real
+            # Mirrors engine.m4.projection._fold's identical reopen rule:
+            # an idle close is reporting-only, and real
             # activity after one un-marks it - this reader must agree with
             # that fold, or a resumed session would read "closed (idle)"
             # here (engine.api.wiring.get_pilot_summary's own source) while

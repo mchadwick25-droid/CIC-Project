@@ -59,34 +59,16 @@ kind: ongoing maps Doc_08's own Cell 2A (ongoing/external); the cell
 code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 1 review Finding M10: the description's superlative ("the
-one force this corpus can document least confidently... at the level of
-this world's own preserved voice") is falsified by
-desert.force.centralization-trend and desert.force.oral-to-written-shift,
-both less documentable at that level - corrected to Doc_08's own
-original scope, "at Layer 2 specifically," among forces that have a
-Layer 2 account to give at all. Finding M8: the description's "sayings
-tradition" clause registered no source for it -
-desert.source.apophthegmata-patrum added above, with that source's own
-compiler screen carried in its locus. Finding M14: divergence_note and
-manifestations[1] now carry both of desert.source.nepheros-archive's
-own standing cautions, not caution (1) alone.
-
-Doc08, Round 2 review Finding M4: the M8 fix registered
-apophthegmata-patrum for "the sayings tradition" half of the
-description's "literary self-presentation (Athanasius, the sayings
-tradition)" clause but left "Athanasius" registered nowhere -
-desert.source.athanasius-vita-antonii added above, already registered
-by four sibling force records in this same step.
-
-Doc08, Round 3 review Finding M6: the new Athanasius locus stated
-"silent on economic entanglement" as an absolute, when this force's own
-sibling desert.gravity.manual-labor registers the same source for
-Antony's own hand-work (Vita SS3) as one of four independent evidence
-streams for manual labor - the Vita is not silent about *work*, only
+The description's scope is Layer 2 specifically, among forces that have
+a Layer 2 account to give at all - desert.force.centralization-trend
+and desert.force.oral-to-written-shift are both less documentable at
+that level. desert.source.apophthegmata-patrum is registered for the
+description's "sayings tradition" clause, with that source's own
+compiler screen carried in its locus. divergence_note and
+manifestations[1] carry both of desert.source.nepheros-archive's own
+standing cautions. desert.source.athanasius-vita-antonii's Vita locus
+names the hand-work passages (SS3, SS50, SS53) explicitly rather than
+asserting a blanket silence: the Vita is not silent about work, only
 about the wider economic ties (trade, provincial administration) this
-force documents. Corrected above to name the hand-work passages
-explicitly rather than assert a blanket silence this corpus's own
-sibling record contradicts; this record's own `description` already
-carried the accurate, hedged form ("does not, in its own preserved
-words, dwell on the economic entanglement") and is unaffected.
+force documents, matching desert.gravity.manual-labor's own citation of
+the same source for the same passages.

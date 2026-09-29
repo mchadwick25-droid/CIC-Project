@@ -28,17 +28,13 @@ attribution_status: "attributed; Greek transmission partly pseudonymous (Chapter
 discovery_channel: "carried from the prior Desert build's cleared Doc_02 SS1.4 (srcDES004), including its Round-2-corrected pseudonymity scope; PD-English absence re-searched 2026-08-21 (not_found) and re-audited 2026-08-27 (desert.search.evagrius-dysinger-pd), which found the licensed rather than expired route; the Praktikos supplied by Mark 2026-08-27 with the Guide's Credits page text, this build's own network access to that page being blocked"
 external_ids: {}
 ---
-The prior build's review history matters here: its Doc_02 Round 2
-narrowed the pseudonymity claim (the Praktikos anchors Guillaumont's
-edition under Evagrius's own name; it is Chapters on Prayer that rides
-under 'Nilus') and its Doc_03 Round 1 caught a fabricated
-transmission claim about the Antirrhetikos ("survives only via Sogdian"
-- false; it survives chiefly in Syriac and Armenian). Both corrections
-are carried forward here deliberately so neither error re-enters this
-corpus. Evagrius's teaching also reaches the West unnamed through
-Cassian (vendored) - a transmission channel, not an independent witness.
+The Praktikos anchors Guillaumont's edition under Evagrius's own name;
+it is Chapters on Prayer that rides under 'Nilus'. The Antirrhetikos
+survives chiefly in Syriac and Armenian, not only via Sogdian. Evagrius's
+teaching also reaches the West unnamed through Cassian (vendored) - a
+transmission channel, not an independent witness.
 
-VENDORED 2026-08-27, and the acquisition changes a corpus-wide invariant
+Vendored, and the acquisition changes a corpus-wide invariant
 rather than just adding a file. Every other text under cic/texts/ is out
 of copyright by age; this one is in copyright and held under an open
 licence. The difference is an obligation: CC BY grants redistribution on
@@ -48,7 +44,7 @@ This corpus meets that as a matter of course - every quote record names
 its translator and edition - but it is now a licence term rather than a
 scholarly courtesy, and it is stated here so nobody has to reconstruct it.
 
-The route taken matters for the record. The 2026-08-21 search asked for a
+The route taken matters for the record. The search asked for a
 public-domain English translation, which in practice means a pre-1929
 imprint, and correctly found none. That was the wrong question. Public
 domain is reachable by expiry OR by dedication, and open licensing is a

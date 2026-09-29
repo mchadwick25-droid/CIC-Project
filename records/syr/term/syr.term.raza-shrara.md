@@ -69,18 +69,14 @@ quick_meaning: A raza is a symbol that is bound to the truth it shows, and carri
   It is not a stand-in chosen at will.
 distortion_risk: high
 ---
-Re-derived from the approved legacy lexicon (Doc_03/Doc_06, syrlex001,
-Tier 1, tags AS/TC/RT/DR/PV) and Doc_04's C1 Primary gravity. The
-named-scholar attribution stays out of compiled prose per the Doc_06
-Round 1 fix; Brock's authorship of the 'hidden power' (hayla kasya)
-synthesis is stated in the evidential sense and in the source refs.
-PV note carried: Ephrem builds a whole method on the pair; Aphrahat's
-cognate usage is real but plainer - never present the two as co-equal
-theoretical attestation. kasyutha/hayla kasya deliberately folded in
-here, not a separate term (Doc_03 SS3.3).
+A Tier 1 entry (tags AS/TC/RT/DR/PV), grounding the C1 Primary gravity.
+The named-scholar attribution stays out of compiled prose; Brock's
+authorship of the 'hidden power' (hayla kasya) synthesis is stated in
+the evidential sense and in the source refs. Ephrem builds a whole
+method on the pair; Aphrahat's cognate usage is real but plainer -
+never presented as co-equal theoretical attestation. kasyutha/hayla
+kasya is folded in here, not a separate term.
 
-CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
-and the five world read"; V1.2 birth condition applied to the existing
-fleet - one story and one term per center cell where they genuinely
-belong, honest empties recorded). Added to C-T: "Was Jesus God?" - symbol-and-truth is how this world holds divine truth at all; its was-he-God answer speaks in razas, not definitions. Content unchanged; the added
-cell and this note are the whole edit.
+canon_cells includes C-T ("Was Jesus God?"): symbol-and-truth is how
+this world holds divine truth at all; its was-he-God answer speaks in
+razas, not definitions.

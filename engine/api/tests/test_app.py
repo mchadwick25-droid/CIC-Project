@@ -47,10 +47,9 @@ def test_list_worlds(store, usage_store, world_loader, registry):
 
 
 def test_create_session_with_no_world_is_refused(store, usage_store, world_loader, registry):
-    """The 2026-08-28 foundation audit's fixture hole: POST {} used to
-    seat a session on default_world_key - which production configured as
-    the synthetic fixture world the registry says must never be
-    participant-reachable. A session now names its world or doesn't
+    """POST {} must not seat a session on default_world_key - production
+    configures that as the synthetic fixture world the registry says must
+    never be participant-reachable. A session names its world or doesn't
     open."""
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.post("/api/session", json={})
@@ -93,12 +92,10 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
 
 
 def test_message_over_the_length_cap_is_refused_before_any_provider_call(store, usage_store, world_loader, registry):
-    """2026-09-21, closing adversarial review: participant text had no
-    length bound anywhere in the request path - unbounded input forwarded
-    to Bedrock twice per turn (safety gate + voice) is exactly what OWASP
-    LLM Top 10 calls unbounded consumption. Pydantic's own validation
-    rejects an over-length body before the route handler (and so before
-    any provider call) ever runs."""
+    """Participant text has a length bound in the request path: unbounded
+    input would be forwarded to Bedrock twice per turn (safety gate +
+    voice). Pydantic's own validation rejects an over-length body before
+    the route handler (and so before any provider call) ever runs."""
     from engine.api.app import _MAX_MESSAGE_LENGTH
 
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
@@ -322,15 +319,14 @@ def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, 
 
 
 def test_r27_enforce_hands_a_twice_rejected_turn_to_the_facilitator_end_to_end(store, usage_store, world_loader, registry):
-    """R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
-    2026-09-23), full wiring: create_app(r27_enforce=True) through
+    """Full wiring: create_app(r27_enforce=True) through
     wiring.handle_message, not the unit-level engine.m4.turn test - the
     voice's raw answer hard-fails (a real wholly_uncited_paragraph
     offense - "Even a broken priest could not block his grace." carries
     no proper noun, so it reaches verdict "ok" with no tag), the one
     allowed regeneration fails the same way, and the Facilitator's own
-    new interview-mode line (voice_rejected_turn, Mark's own word) is
-    what the response actually carries."""
+    interview-mode line (voice_rejected_turn) is what the response
+    actually carries."""
     client = FakeBedrockClient(
         safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
         stream_scripts=[

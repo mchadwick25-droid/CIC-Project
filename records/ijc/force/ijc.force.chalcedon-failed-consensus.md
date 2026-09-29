@@ -40,11 +40,10 @@ manifestations:
   scholarship, not this edition's extracts)
 - the conciliar mechanism's own trusted finality failing in the very act of its fullest use
 ---
-Rebuilt from the reviewed Doc_08 Force 3A-1 (with its Round 2
-correction intact: the "primacy-claiming collision" is 3B-1's territory
+Derived from Doc_08 Force 3A-1: the "primacy-claiming collision" is 3B-1's territory
 - Canon 28 and Leo's rejection - NOT this force, whose content is the
 miaphysite rejection; this force connects to no gravity directly and is
-3B-1's external trigger only). A boundary-condition force per the
+3B-1's external trigger only. A boundary-condition force per the
 Proportionality Principle. canon_cells: F3-T (did you have
 denominations - how did you handle other communities who called on
 Christ differently: the honest answer's endpoint is this fracture's

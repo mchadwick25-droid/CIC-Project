@@ -356,9 +356,8 @@ narrative:
   - rzg.term.consistory
   - rzg.term.disputation
 ---
-Authored 2026-09-20, the tenth world_front record built in this fleet-wide
-rollout (Website V2 world_front design, approved to proceed 2026-09-19),
-closing the one remaining gap: rzg was the only fully admitted, fully
+The tenth world_front record built in this fleet-wide rollout (a Website V2
+world_front design), closing the one remaining gap: rzg was the only fully admitted, fully
 built formation world under `records/` missing both `world_front` and
 `facilitator_brief`. Built following the exact discipline
 `records/alx/world_front/alx.front.alexandria-catechetical.md` establishes

@@ -75,7 +75,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "rendering-fidelity-report-2026-09-23.json"
 
 MODEL_PATTERN = "us.anthropic.claude-haiku-4-5"
-# V1.8's own two-grader rule (CiC_Record_Native_World_Build_Process_V1.8.md,
+# V1.8's own two-grader rule (CiC_Record_Native_World_Build_Process_V1.9.md,
 # "The rendering-fidelity gate is a birth condition"): Haiku 4.5 and Sonnet
 # 4.6, each run twice - a flag from either grader on either run counts;
 # "translation" means every run from both graders read "translation".

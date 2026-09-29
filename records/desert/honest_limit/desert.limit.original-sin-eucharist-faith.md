@@ -19,7 +19,7 @@ sources:
   locus: "the whole Vita, checked by full-text search: zero occurrences of Adam, eucharist, sacrament, baptism, body and blood, faith alone, original sin, or born again anywhere in the text"
   license: public-domain
 - source_id: desert.source.cassian-conferences
-  locus: "the whole vendored volume, checked by full-text search 2026-08-27: zero occurrences of 'original sin', 'sin of Adam', or any transubstantiation language, which is why those two claims survive - but Conference XIII is entirely on grace and human effort, which is why the faith-and-works claim did not"
+  locus: "the whole vendored volume, checked by full-text search: zero occurrences of 'original sin', 'sin of Adam', or any transubstantiation language, which is why those two claims survive - but Conference XIII is entirely on grace and human effort, which is why the faith-and-works claim did not"
   license: public-domain
 statement: >-
   Were people born already guilty, carrying Adam's sin? Was the bread and cup
@@ -50,52 +50,22 @@ relations:
 - type: associated-with
   target: desert.dw.writings
 ---
-Built per Step 4 Round 1 review Finding S8: `desert.quote.antony-arians-
-serpents` had carried `canon_cells: [F1-T]` alongside its genuine F3-T
-claim, but its text ("He drove them from the mountain, saying that
-their words were worse than the poison of serpents") answers none of
-F1-T's three fleet questions (original sin, the eucharist, faith versus
-works) - that claim was removed from the quote record at the same S8/S2
-fix pass that corrected its F1-T-adjacent problems. F1-T then stood
-genuinely blank rather than falsely "covered." This record replaces the
-false coverage with an honest one: the corpus has nothing on any of the
-three questions in the Vita (verified by full-text search), and says so
-plainly rather than stretching an unrelated saying to close the cell.
+F1-T's three fleet questions are original sin, the eucharist, and faith
+versus works. desert.quote.antony-arians-serpents carries only a
+genuine F3-T claim ("He drove them from the mountain, saying that
+their words were worse than the poison of serpents"), which answers
+none of F1-T's questions, so this record answers F1-T honestly: the
+corpus has nothing on original sin or the eucharist in the Vita
+(verified by full-text search) or in the whole vendored Cassian either
+(zero occurrences of "original sin", "sin of Adam", or any
+transubstantiation language). The Apophthegmata source is cited only
+for what can honestly be said (no vendored edition, so no verification
+possible), with the unconditional Inferential-Thin bound stated in
+divergence_note.
 
-Step4, Round 2 review Finding S5: the Apophthegmata locus originally
-asserted "no saying addressing original sin, the eucharist, or faith
-versus works as such" - an exhaustiveness claim about a collection with
-no vendored edition, which cannot be checked by anyone and which this
-build's own durable control (DECISION-LOG.md, Doc_08 closure) forbids
-writing without an actual count performed at the point of writing. No
-count is possible against an un-vendored source. Corrected above: the
-Apophthegmata source is now cited only for what can honestly be said
-(no vendored edition, so no verification possible), the unconditional
-Inferential/Thin bound is stated in divergence_note, and the compiled
-`statement` no longer claims "no saying" - only what the Vita's own
-full-text search actually supports.
-
-NARROWED 2026-08-27. This record claimed silence on three questions and
-was entitled to two of them. Its own search had been run against the
-Vita and against the Apophthegmata (where no vendored edition exists, a
-bound it stated honestly). It was never run against
-desert.source.cassian-conferences - a volume this world already had on
-disk and already drew fifteen records from - whose Conference XIII is
-the desert tradition's own extended treatment of grace and human
-effort. Saying "we have no answer to give" about a question the corpus
-answers at chapter length is not honest thinness. It is an unsearched
-file.
-
-The original-sin and eucharist halves survive, and now survive a wider
-check: zero occurrences of "original sin", "sin of Adam", or any
-transubstantiation language across the whole vendored Cassian either.
-The faith-and-works half is withdrawn and answered by
-desert.dw.grace-and-effort, which carries its own heavy bound - that
-Conference is Cassian writing in Gaul inside a Western controversy, and
-the position it takes was condemned within a generation.
-
-The general lesson, since this is the second instance in one session
-(see desert.dw.jesus, whose C-I claim rested on two loci of a source
-holding far more): a limit record's search must name every vendored
-file the world opens, not the one file its author happened to be
-reading.
+The faith-and-works question is answered instead by
+desert.dw.grace-and-effort, drawn from desert.source.cassian-conferences's
+Conference XIII, the desert tradition's own extended treatment of grace
+and human effort - which carries its own heavy bound: that Conference
+is Cassian writing in Gaul inside a Western controversy, and the
+position it takes was condemned within a generation.

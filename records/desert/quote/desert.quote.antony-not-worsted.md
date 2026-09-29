@@ -38,36 +38,25 @@ relations:
 - type: associated-with
   target: desert.figure.antony
 ---
-Verified verbatim 2026-08-22 against the vendored file
+Verified verbatim against the vendored file
 (npnf204_athanasius-select-works-letters.xml), the same passage
 desert.story.antony-tomb-combat narrates in paraphrase. This record
 carries the direct words themselves for a Representative who needs the
-line quoted rather than told.
+line quoted rather than told. This record declares a relation to
+desert.figure.antony, matching speaker_or_author and both sibling
+Antony quotes.
 
-Step4, Round 1 review Finding M16: no relation to desert.figure.antony
-had been declared despite speaker_or_author naming that record and both
-sibling Antony quotes declaring it - added above.
+The text field carries the clause "and a proof of your weakness is
+that you take the shapes of brute beasts" in full, keeping the
+vendored text's colon at that join. Athanasius's narrative interjection
+"And again with boldness he said" is marked with an ellipsis, matching
+the convention desert.quote.arsenius-flee-tace-quiesce uses for a
+similar elision. Punctuation elsewhere matches the vendored text
+character for character ("come, but since" and "by numbers: and a
+proof").
 
-Step4, Round 1 review Finding S5: this text had silently spliced two
-distinct sentences from SS9 into one, dropping the clause "and a proof
-of your weakness is that you take the shapes of brute beasts" entirely
-and converting the vendored text's colon to a full stop at the join,
-between "And again with boldness he said" (a narrative interjection,
-not Antony's own words). The dropped clause is restored above; the
-narrative interjection is marked with an ellipsis, matching the
-convention desert.quote.arsenius-flee-tace-quiesce already uses for an
-elision within the same step.
-
-Step4, Round 2 review Finding M1: two further unmarked punctuation
-alterations survived that fix - "come; but since" for the vendored
-"come, but since," and "by numbers, and a proof" for the vendored "by
-numbers: and a proof." Character-compared against the file directly
-this pass and corrected above.
-
-Step4, Round 1 review Finding C1 (naming note, not a content fix): this
-record's own id ("not-worsted") echoes SS10's own vision-voice line
-("since thou hast endured, and hast not been worsted, I will ever be a
-succour to thee"), not a phrase inside this record's own SS9 quotation
-- the id names the episode's own outcome, not this quotation's own
-wording. Left as is; renaming would break existing cross-references for
-a cosmetic mismatch only.
+This record's own id ("not-worsted") echoes SS10's own vision-voice
+line ("since thou hast endured, and hast not been worsted, I will ever
+be a succour to thee"), not a phrase inside this record's own SS9
+quotation - the id names the episode's own outcome, not this
+quotation's own wording.

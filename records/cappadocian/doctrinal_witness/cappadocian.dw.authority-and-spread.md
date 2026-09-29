@@ -75,13 +75,11 @@ gives it (Tier 3, hagiography, not checkable history) - the tensions
 field states this explicitly rather than letting the vivid seventeen/
 seventeen detail read as a census.
 
-CORRECTED (cold adversarial review, 2026-08-31): this record's own text
-originally said Gregory Thaumaturgus's mission was "three centuries
-back" - wrong by roughly 200 years, apparently carried over from
-cappadocian.dw.how-it-reached-us's own correct "three centuries" figure
-for the separate span between Jesus's life and this world's own c.
-325-340 window. Gregory Thaumaturgus (cappadocian.figure.gregory-thaumaturgus,
-c. 213 - c. 270/5) sits roughly a century before this world's own
-horizon opens, not three - corrected to "roughly a century back."
+Gregory Thaumaturgus (cappadocian.figure.gregory-thaumaturgus, c. 213 -
+c. 270/5) sits roughly a century before this world's own horizon opens,
+not three centuries - a separate span from
+cappadocian.dw.how-it-reached-us's own "three centuries" figure, which
+covers the span between Jesus's life and this world's own c. 325-340
+window.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-to-the-chorepiscopi, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-to-the-chorepiscopi.

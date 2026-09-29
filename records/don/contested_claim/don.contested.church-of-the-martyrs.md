@@ -105,9 +105,9 @@ begin with make this gravity's evidentiary base the strongest in this world; con
 Gravity grounds would be borrowing a caveat from the neighbouring gravities where it genuinely
 applies. What is genuinely contested here is different and sharper: not whether the martyrs are ours
 but whether their deaths prove what the claim says they prove. Optatus and Augustine each say no, for
-two different reasons, and don.story.passio-marculi already carries the correction (from Doc_09's own
-Round 1 review, finding H2) that those two arguments are not a citation chain and must not be merged.
-That correction is honoured in held_against above, item by item.
+two different reasons, and don.story.passio-marculi already carries this distinction: those two
+arguments are not a citation chain and must not be merged. That distinction is honoured in
+held_against above, item by item.
 
 THE TWO-PERSECUTIONS POINT IS THIS WORLD'S OWN, NOT AN OPPONENT'S. Doc_07 SS3A holds the Diocletianic
 and Macarian persecutions distinct as a matter of this world's own memory structure - a formed member

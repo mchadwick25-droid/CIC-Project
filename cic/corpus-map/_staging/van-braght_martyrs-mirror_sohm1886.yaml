@@ -12,8 +12,7 @@ assignments:
       Thieleman J. van Braght's 1660 martyrological compilation, trans.
       Joseph F. Sohm (1886 English edition) - embeds named primary
       documents including Michael Sattler's trial record and Anneken
-      Jans's prison testament. Vendored 2026-09-24 as part of a
-      pre-Doc_02 source-acquisition pass for this candidate. Assigned as
+      Jans's prison testament. Assigned as
       one body per the corpus's own large-volume granularity rule; a
       future pass may want to split out the specific named martyr
       accounts as separate works once a build thread reaches this

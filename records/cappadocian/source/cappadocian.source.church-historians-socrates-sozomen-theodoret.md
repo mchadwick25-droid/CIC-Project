@@ -29,4 +29,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 62; a specific n
 external_ids:
   cappadocian_source_registry_row: 62
 ---
-Constantinople 360 (via Socrates HE 2.41, SS2); the Homoian-establishment reconstruction; the Julian-persecution episode (row 62). Files present since 2026-08-15, not re-verified against the specific loci Doc_02 cites this session. Correction carried forward: the funeral-crowd claim (Jews and pagans mourning Basil) is Doc_02 SS8's own attribution to Oration 43 (row 34), not to the church historians.
+Constantinople 360 (via Socrates HE 2.41, SS2); the Homoian-establishment reconstruction; the Julian-persecution episode (row 62). These files have not been individually re-verified against the specific loci Doc_02 cites. The funeral-crowd claim (Jews and pagans mourning Basil) is Doc_02 SS8's own attribution to Oration 43 (row 34), not to the church historians.
