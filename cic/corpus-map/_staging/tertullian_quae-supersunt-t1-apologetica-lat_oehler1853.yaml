@@ -1,0 +1,248 @@
+# Latin original (Oehler 1853, Tomus I) of twelve Tertullian works that no public-domain CSEL volume
+# carries, each assigned to the same atlas entries, role and confidence as its English twin
+# (ANF03/ANF04). Headings are OCR-variable in this scan, so each locus names what grep found (a
+# heading or the first running head). Works also in CSEL 20 or 47 (Oehler's Tomus I holds them too)
+# are deliberately not re-assigned here: the CSEL text is the better base.
+source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
+
+assignments:
+  - work: "Ad Martyras"
+    author: tertullian
+    locus: "file line 1289 (opening words of the treatise; the OCR'd heading 'AD / M A R T Y R A S' sits a few lines above)"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md
+      (Mark's 2026-09-25 ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - work: "Apology (Apologeticus)"
+    author: tertullian
+    locus: "file line 12027 (heading 'APOLOGETICUM.')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md
+      (Mark's 2026-09-25 ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. The Apologeticum is the
+      principal reason this file was vendored. Mirrors the English twin's role and confidence
+      exactly.
+
+  - work: "Apology (Apologeticus)"
+    author: tertullian
+    locus: "file line 12027 (heading 'APOLOGETICUM.')"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md
+      (Mark's 2026-09-25 ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. The Apologeticum is the
+      principal reason this file was vendored. Mirrors the English twin's role and confidence
+      exactly.
+
+  - work: "The Chaplet (De Corona)"
+    author: tertullian
+    locus: "file line 41061 (heading 'DE CORONA.')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md
+      (Mark's 2026-09-25 ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - work: "De Fuga in Persecutione (Flight in Persecution)"
+    author: tertullian
+    locus: "file line 45082 (heading 'FUGA IN PERSECUTIONE.' (the 'DE' is on the line above))"
+    atlas_ids:
+      - latin-apologists
+      - montanism-the-new-prophecy
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Oehler, Tertulliani
+      quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+      Latin OCR is readable running text, so this file is ready to quote once each quote is
+      verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+      rendered from it, with the vendored English as a cross-check. It is the only public-domain
+      Latin witness in the directory for this work, since the later CSEL volumes that carry it are
+      in copyright. Mirrors the English twin's role and confidence exactly.
+
+  - work: "To Scapula"
+    author: tertullian
+    locus: "file line 51161 (heading 'SCAPULAM.' (the 'AD' is on the line above))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md
+      (Mark's 2026-09-25 ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - work: "On Repentance"
+    author: tertullian
+    locus: "file line 59791 (heading 'PAENITENTIA.' (the 'DE' is on the line above))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md
+      (Mark's 2026-09-25 ruling): Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - work: "To His Wife (Ad Uxorem)"
+    author: tertullian
+    locus: "file line 62943 (first running head 'AD UXOREM LIB. 1.' (the OCR lost the treatise heading))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Oehler, Tertulliani
+      quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+      Latin OCR is readable running text, so this file is ready to quote once each quote is
+      verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+      rendered from it, with the vendored English as a cross-check. It is the only public-domain
+      Latin witness in the directory for this work, since the later CSEL volumes that carry it are
+      in copyright. Mirrors the English twin's role and confidence exactly.
+
+  - work: "On the Apparel of Women (De Cultu Feminarum)"
+    author: tertullian
+    locus: "file line 64376 (heading 'CULTU FEMINARUM LIBRI DVO' (the 'DE' is on the line above))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Oehler, Tertulliani
+      quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+      Latin OCR is readable running text, so this file is ready to quote once each quote is
+      verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+      rendered from it, with the vendored English as a cross-check. It is the only public-domain
+      Latin witness in the directory for this work, since the later CSEL volumes that carry it are
+      in copyright. Mirrors the English twin's role and confidence exactly.
+
+  - work: "On Exhortation to Chastity (De Exhortatione Castitatis)"
+    author: tertullian
+    locus: "file line 67376 (heading 'EXHORTATIONE CASTITATIS.' (the 'DE' is on the line above))"
+    atlas_ids:
+      - latin-apologists
+      - montanism-the-new-prophecy
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Oehler, Tertulliani
+      quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+      Latin OCR is readable running text, so this file is ready to quote once each quote is
+      verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+      rendered from it, with the vendored English as a cross-check. It is the only public-domain
+      Latin witness in the directory for this work, since the later CSEL volumes that carry it are
+      in copyright. Mirrors the English twin's role and confidence exactly.
+
+  - work: "On Monogamy (De Monogamia)"
+    author: tertullian
+    locus: "file line 69315 (first running head 'DE MONOGAMIA. 769' (the OCR lost the treatise heading))"
+    atlas_ids:
+      - latin-apologists
+      - montanism-the-new-prophecy
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Oehler, Tertulliani
+      quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+      Latin OCR is readable running text, so this file is ready to quote once each quote is
+      verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+      rendered from it, with the vendored English as a cross-check. It is the only public-domain
+      Latin witness in the directory for this work, since the later CSEL volumes that carry it are
+      in copyright. Mirrors the English twin's role and confidence exactly.
+
+  - work: "On the Veiling of Virgins (De Virginibus Velandis)"
+    author: tertullian
+    locus: "file line 78139 (heading 'VIRGINIBUS VELANDIS.' (the 'DE' is on the line above))"
+    atlas_ids:
+      - latin-apologists
+      - montanism-the-new-prophecy
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Oehler, Tertulliani
+      quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+      Latin OCR is readable running text, so this file is ready to quote once each quote is
+      verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+      rendered from it, with the vendored English as a cross-check. It is the only public-domain
+      Latin witness in the directory for this work, since the later CSEL volumes that carry it are
+      in copyright. Mirrors the English twin's role and confidence exactly.
+
+  - work: "On the Pallium (De Pallio)"
+    author: tertullian
+    locus: "file line 83174 (first heading-like line 'OE PALLIO.' (OCR of 'DE PALLIO.'))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Oehler, Tertulliani
+      quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+      Latin OCR is readable running text, so this file is ready to quote once each quote is
+      verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+      rendered from it, with the vendored English as a cross-check. It is the only public-domain
+      Latin witness in the directory for this work, since the later CSEL volumes that carry it are
+      in copyright. Mirrors the English twin's role and confidence exactly.
+

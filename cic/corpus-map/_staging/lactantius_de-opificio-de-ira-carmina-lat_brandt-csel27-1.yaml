@@ -1,0 +1,57 @@
+# Latin original (CSEL 27 Pars II fasc. I, ed. Brandt, 1893) of De opificio Dei, De ira Dei and the
+# fragments of Lactantius, each already assigned to latin-apologists from ANF07. De mortibus
+# persecutorum is in fasc. II and is not vendored.
+source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
+
+assignments:
+  - work: "On the Workmanship of God"
+    author: lactantius
+    locus: "file line 3523 (heading 'DE OPIFICIO DEI' (OCR 'BEI'), following the prolegomena)"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf07_lactantius-apostolic-constitutions-didache-liturgies.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Brandt, CSEL 27 part 2
+      fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The Latin OCR is
+      readable running text, so this file is ready to quote once each quote is verified verbatim
+      against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
+      the vendored English as a cross-check. Mirrors the English twin's role and confidence
+      exactly.
+
+  - work: "A Treatise on the Anger of God"
+    author: lactantius
+    locus: "file line 6768 (heading 'DE IRA DEI')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf07_lactantius-apostolic-constitutions-didache-liturgies.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Brandt, CSEL 27 part 2
+      fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The Latin OCR is
+      readable running text, so this file is ready to quote once each quote is verified verbatim
+      against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
+      the vendored English as a cross-check. Mirrors the English twin's role and confidence
+      exactly.
+
+  - work: "Fragments of Lactantius"
+    author: lactantius
+    locus: "file line 11021 (heading 'LIBRORVM PERDITORVM FRAGMENTA.', the fragments of lost works; the poems (Carmina) begin earlier at line 10119 and have no English twin here)"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf07_lactantius-apostolic-constitutions-didache-liturgies.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Brandt, CSEL 27 part 2
+      fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The Latin OCR is
+      readable running text, so this file is ready to quote once each quote is verified verbatim
+      against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
+      the vendored English as a cross-check. Mirrors the English twin's role and confidence
+      exactly.
+

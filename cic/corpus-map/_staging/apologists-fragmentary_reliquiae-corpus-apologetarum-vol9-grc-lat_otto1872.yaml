@@ -1,0 +1,104 @@
+# Otto's 1872 collection of the fragmentary second-century apologists, Greek with Latin translation, a
+# second witness (noisy Greek OCR) for the Greek and a readable Latin rendering. Assigned to the same
+# atlas entries, role and confidence as the English (ANF08) fragments of Quadratus, Aristo of Pella,
+# Melito and Claudius Apollinaris. Aristides is deliberately not assigned: Otto's Aristides section
+# holds testimonia only (the martyrology notices), not the Apology, which was found later. Miltiades
+# and Hermias, also in the volume, have no English twin in the buckets and are not assigned.
+source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+
+assignments:
+  - work: "Fragments of Quadratus"
+    author: quadratus
+    locus: "file line 17465 (heading 'QUADRATUS.', the Fragmentum Apologiae Quadrati with Otto's Latin translation follows)"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer of this Google scan is OCR at a measured accuracy of roughly three in four Greek
+      tokens on a comparable Otto volume, with accent, breathing and letter errors, and no page-
+      image check has been made. Not to be quoted as the original until a clean witness is
+      vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena, 1872), the
+      fragments with Otto's Latin translation and commentary. Mirrors the English twin's role and
+      confidence exactly.
+
+  - work: "Fragments of Aristo of Pella"
+    author: aristo-of-pella
+    locus: "file line 18145 (heading 'ARISTO.' (the Aristo section of the Reliquiae))"
+    atlas_ids:
+      - ebionite-nazoraean-current
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer of this Google scan is OCR at a measured accuracy of roughly three in four Greek
+      tokens on a comparable Otto volume, with accent, breathing and letter errors, and no page-
+      image check has been made. Not to be quoted as the original until a clean witness is
+      vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena, 1872), the
+      fragments with Otto's Latin translation and commentary. Mirrors the English twin's role and
+      confidence exactly.
+
+  - work: "Fragments of Melito of Sardis"
+    author: melito-of-sardis
+    locus: "file line 20990 (heading 'FRAGMENTA MELITONIS.')"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer of this Google scan is OCR at a measured accuracy of roughly three in four Greek
+      tokens on a comparable Otto volume, with accent, breathing and letter errors, and no page-
+      image check has been made. Not to be quoted as the original until a clean witness is
+      vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena, 1872), the
+      fragments with Otto's Latin translation and commentary. Mirrors the English twin's role and
+      confidence exactly.
+
+  - work: "Fragments of Claudius Apollinaris"
+    author: claudius-apollinaris
+    locus: "file line 24699 (heading 'FRAGMENTA APOLLINARIS.')"
+    atlas_ids:
+      - montanism-the-new-prophecy
+    role: context
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer of this Google scan is OCR at a measured accuracy of roughly three in four Greek
+      tokens on a comparable Otto volume, with accent, breathing and letter errors, and no page-
+      image check has been made. Not to be quoted as the original until a clean witness is
+      vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena, 1872), the
+      fragments with Otto's Latin translation and commentary. Mirrors the English twin's role and
+      confidence exactly.
+
+  - work: "Fragments of Claudius Apollinaris"
+    author: claudius-apollinaris
+    locus: "file line 24699 (heading 'FRAGMENTA APOLLINARIS.')"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer of this Google scan is OCR at a measured accuracy of roughly three in four Greek
+      tokens on a comparable Otto volume, with accent, breathing and letter errors, and no page-
+      image check has been made. Not to be quoted as the original until a clean witness is
+      vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena, 1872), the
+      fragments with Otto's Latin translation and commentary. Mirrors the English twin's role and
+      confidence exactly.
+

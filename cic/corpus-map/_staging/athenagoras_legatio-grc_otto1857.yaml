@@ -1,0 +1,23 @@
+# Greek original (Otto 1857, Perseus / First1KGreek TEI) of Athenagoras's Plea for the Christians,
+# already assigned to greek-apologists-second-century and post-apostolic-house-church from ANF02.
+source_file: athenagoras_legatio-grc_otto1857.txt
+
+assignments:
+  - work: "A Plea for the Christians"
+    author: athenagoras
+    locus: "file line 69 (TEI <head> of the Plea, Greek opener follows)"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek original of the ALREADY-PRESENT English entry for this work (source_file anf02_hermas-
+      tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named here. PRIMARY
+      ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Otto, Athenagorae opera (Corpus
+      apologetarum vol. 7, Jena, 1857), hand-keyed in the Perseus / Open Greek and Latin TEI.
+      Ready to quote once each quote is verified verbatim against this file (INTAKE section 6);
+      the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors
+      the English twin's role and confidence exactly.
+

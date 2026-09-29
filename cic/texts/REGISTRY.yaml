@@ -3386,3 +3386,346 @@
   date_added: '2026-09-29'
   notes: >-
     Doukas, Historia byzantina, ed. Immanuel Bekker, Bonn, Weber, 1834, with Boulliau's Latin translation and the old Italian version. Internet Archive identifier bub_gb_fNQFAAAAQAAJ (Oxford University copy, Google scan; host licence Public Domain Mark 1.0). About one quarter Greek by letter count. Context for 1453, not church voice. Second witness for the Greek wording until checked against page images.
+- filename: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item quintiseptimiflo20tert (Getty Research Institute copy). CSEL 20,
+    Tertulliani Opera Pars I, ed. Reifferscheid and Wissowa, Vienna/Prague/Leipzig, Tempsky and
+    Freytag, 1890 (title page read in the OCR). Contains De spectaculis, De idololatria, Ad
+    nationes, De testimonio animae, Scorpiace, De oratione, De baptismo, De pudicitia, De ieiunio,
+    De anima; NOT the Apologeticum or the other works (later CSEL volumes are in copyright, not
+    vendored). Latin OCR is readable running text with apparatus interleaved and stray letters
+    inside some words. Primary original for the Latin, ready to quote once each quote is verified
+    against this file. Host record carries no rights field; rights rest on the 1890 date. Not a
+    translation.
+- filename: tertullian_opera-pars3-lat_kroymann-csel47.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item quintiseptimiflo47tertuoft (Robarts, University of Toronto;
+    NOT_IN_COPYRIGHT on the host). CSEL 47, Tertulliani Opera Pars III, ed. Emil Kroymann,
+    Vienna/Leipzig, Tempsky and Freytag, 1906. Contains De patientia, De carnis resurrectione,
+    Adversus Hermogenem, Adversus Valentinianos, Adversus omnes haereses, Adversus Praxean, Adversus
+    Marcionem. Two other archive.org copies of the same volume (quintiseptimiflo47tert,
+    quintiseptimiflo0000tert_r1u5) were seen and not used. Latin OCR readable with apparatus
+    interleaved. Primary original once quotes are verified against the file. Not CSEL 69/70 (in
+    copyright).
+- filename: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item quintiseptimiif04tertgoog (Google scan, University of Lausanne copy;
+    NOT_IN_COPYRIGHT). Oehler, Tertulliani quae supersunt omnia, Tomus I, Leipzig, Weigel, 1853.
+    Carries the Apologeticum, Ad martyras, De corona, De fuga, Ad Scapulam, De paenitentia, Ad
+    uxorem, De cultu feminarum, De exhortatione castitatis, De monogamia, De virginibus velandis, De
+    pallio and others that no public-domain CSEL volume carries. Older recension than CSEL; where a
+    work is in CSEL 20 or 47 use CSEL. Latin OCR readable with footnote apparatus and superscript
+    siglae interleaved. Primary original for the works CSEL lacks, once quotes are verified against
+    the file; the edition's textual choices are older than Kroymann's. Large file (about 3.8 MB).
+- filename: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item quaesupersuntom00oehlgoog (Google scan, Harvard copy; NOT_IN_COPYRIGHT).
+    Oehler, Tertulliani quae supersunt omnia, Tomus II, libros polemicos et dogmaticos, Leipzig,
+    Weigel, 1853 (year numerals garbled in the OCR; the record's date is 1853). Carries De
+    praescriptione haereticorum, Adversus Marcionem, Adversus Hermogenem, Adversus Valentinianos, De
+    carne Christi, De resurrectione carnis, De anima, Adversus Praxean, Adversus Iudaeos. Wanted
+    mainly for De praescriptione, De carne Christi and Adversus Iudaeos, which no public-domain CSEL
+    volume carries; the rest duplicates CSEL 47 and 20 in an older recension. Latin OCR readable
+    with apparatus interleaved; the scan has no clean title page for the tome inside the text, so
+    the tome number rests on the half-title and the item description. Large file (about 4 MB).
+- filename: arnobius_adversus-nationes-lat_reifferscheid-csel4.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item arnobiiadversvs00reifgoog (Google scan, Harvard copy; NOT_IN_COPYRIGHT).
+    CSEL 4, Arnobii adversus nationes libri VII, ed. A. Reifferscheid, Vienna, Gerold, 1875 (title
+    page read in the OCR). Latin OCR readable with critical commentary interleaved. Primary original
+    once quotes are verified against the file; a machine-corrected TEI transcription of the same
+    edition is vendored beside it. Not a translation.
+- filename: lactantius_divinae-institutiones-epitome-lat_brandt-csel19.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item operaomniaacced00laubgoog (Google scan, unknown library;
+    NOT_IN_COPYRIGHT). CSEL 19, Lactanti Opera omnia Pars I: Divinae institutiones et Epitome,
+    recensuit Samuel Brandt, Vienna, Tempsky, 1890 (title page read in the OCR). Latin OCR readable
+    with the prolegomena and apparatus. Two other archive.org copies (s1operaomniaacce01lact,
+    s2operaomniaacce01lact) are Johnson Reprint facsimiles and were not used. Primary original once
+    quotes are verified against the file; the TEI transcription of the Divinae institutiones is
+    vendored beside it. Not De opificio or De ira (next file).
+- filename: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item operaomniaacced02laubgoog (Google scan, unknown library; NOT_IN_COPYRIGHT;
+    the record dates it 1893). CSEL 27 Pars II fasc. I, ed. Samuel Brandt: De opificio Dei, De ira
+    Dei, Carmina, Fragmenta, Vetera de Lactantio testimonia (title page read in the OCR,
+    MDCCCLXXXXIII). Latin OCR readable; the OCR degrades in the prolegomena with common Google-scan
+    character errors. Primary original once quotes are verified against the file. Not De mortibus
+    persecutorum (fasc. II, 1897, item operaomniaacced01laubgoog, seen and not vendored: it has no
+    twin in latin-apologists).
+- filename: commodian_carmina-lat_dombart-csel15.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item commodianicarmin15comm (Getty Research Institute copy; no rights field on
+    the host). CSEL 15, Commodiani Carmina, ed. Bernhard Dombart, Vienna, Gerold, 1887 (title page
+    read in the OCR). Both poems, the Instructiones and the Carmen apologeticum, with Dombart's
+    preface and commentary. Latin OCR readable with a noisy front matter. Primary original once
+    quotes are verified against the file; TEI transcriptions of the two poems are vendored beside
+    it. Commodian's date is disputed and the file states none.
+- filename: minucius-felix_octavius-lat_boenig1903.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item mminuciifelicis00feligoog (Google scan, Harvard copy; NOT_IN_COPYRIGHT).
+    M. Minucii Felicis Octavius, recensuit et praefatus est Herm. Boenig, Leipzig, Teubner, 1903
+    (title page read in the OCR; the preface is dated January 1903). Latin OCR readable. Primary
+    original once quotes are verified against the file.
+- filename: minucius-felix_octavius-lat_waltzing1912.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item mminuciifeliciso00minu_0 (Boston College copy; no rights field on the
+    host). M. Minucii Felicis Octavius, recognovit Ioh. P. Waltzing, Leipzig, Teubner, 1912 (title
+    page read in the OCR). Clean Latin OCR with the apparatus set below the text. Primary original
+    once quotes are verified against the file. Another item mminuciifeliciso00minu (a Rome volume,
+    date not verifiable) was seen and not vendored.
+- filename: arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, data/stoa0034/stoa001/stoa0034.stoa001.opp-lat1.xml (master
+    branch as fetched). Machine-corrected TEI/EpiDoc of CSEL 4 (Reifferscheid 1875), University of
+    Leipzig 2014, CC BY-SA 4.0 (licence element quoted in the file's header); Jouve credited with
+    OCR, correction and encoding. The header records that this is a corrected OCR by the project,
+    not a fresh human edition. Cleaner than the raw scan (arnobius_adversus-nationes-
+    lat_reifferscheid-csel4.txt) and to be preferred for quoting, with the scan as the check on the
+    printed page. Attribution and share-alike carry with any quotation. XML stored byte-for-byte
+    after the header.
+- filename: commodian_instructiones-lat_dombart1887-csel-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, data/stoa0096/stoa003/stoa0096.stoa003.opp-lat2.xml (master
+    branch as fetched). Machine-corrected TEI/EpiDoc of the Instructiones from CSEL 15 (Dombart,
+    1887), University of Leipzig 2014, CC BY-SA 4.0 (licence element quoted in the file's header).
+    Preferred for quoting, with commodian_carmina-lat_dombart-csel15.txt as the check on the printed
+    page. XML stored byte-for-byte after the header.
+- filename: commodian_carmen-apologeticum-lat_dombart1887-csel-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, data/stoa0096/stoa004/stoa0096.stoa004.opp-lat2.xml (master
+    branch as fetched). Machine-corrected TEI/EpiDoc of the Carmen apologeticum from CSEL 15
+    (Dombart, 1887), University of Leipzig 2014, CC BY-SA 4.0 (licence element quoted in the file's
+    header). Preferred for quoting, with commodian_carmina-lat_dombart-csel15.txt as the check on
+    the printed page. XML stored byte-for-byte after the header.
+- filename: lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, data/stoa0171/stoa009/stoa0171.stoa009.opp-lat1.xml (master
+    branch as fetched). Machine-corrected TEI/EpiDoc of the Divinae institutiones from CSEL 19
+    (Brandt, 1890), University of Leipzig 2014, CC BY-SA 4.0 (licence element quoted in the file's
+    header). About 3 MB with the apparatus in note elements (which quote Greek). Does not contain
+    the Epitome. Preferred for quoting, with the scan as the check on the printed page. XML stored
+    byte-for-byte after the header.
+- filename: minucius-felix_octavius-lat_halm1867-csel2-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, data/stoa0203/stoa001/stoa0203.stoa001.opp-lat2.xml (master
+    branch as fetched). Machine-corrected TEI/EpiDoc of the Octavius from CSEL 2 (Halm, Vienna,
+    1867), University of Leipzig 2014, CC BY-SA 4.0 (licence element quoted in the file's header).
+    The only CSEL 2 witness in the directory (no scan of that volume was found on archive.org by
+    title search; the TEI's own reference points to corpusscriptoru12wissgoog). Octavius only, not
+    Firmicus. Primary original once quotes are verified. XML stored byte-for-byte after the header.
+- filename: justin-martyr_first-apology-grc_rauschen1911.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/First1KGreek, data/tlg0645/tlg001/tlg0645.tlg001.1st1K-grc1.xml (master
+    branch as fetched). TEI/EpiDoc of Justin's First Apology (Greek only, chapters 1-68) from
+    Rauschen, S. Iustini Apologiae duae, Bonn, Hanstein, 1911; Perseus Project / Trustees of Tufts
+    University, CC BY-SA 4.0 (licence element quoted in the file's header). Hand-keyed Greek, not
+    OCR: clean, primary original ready to quote once verified. Attribution and share-alike carry
+    with any quotation. XML stored byte-for-byte after the header.
+- filename: justin-martyr_second-apology-grc_rauschen1911.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/First1KGreek, data/tlg0645/tlg002/tlg0645.tlg002.perseus-grc2.xml
+    (master branch as fetched). TEI/EpiDoc of Justin's Second Apology (Greek only, chapters 1-15)
+    from Rauschen 1911; Perseus Project, CC BY-SA 4.0 (licence element quoted in the file's header).
+    Clean primary original. XML stored byte-for-byte after the header.
+- filename: justin-martyr_dialogue-with-trypho-grc_archambault1909.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/First1KGreek, data/tlg0645/tlg003/tlg0645.tlg003.perseus-grc2.xml
+    (master branch as fetched). TEI/EpiDoc of the Greek of the Dialogue with Trypho (chapters 1-142)
+    from Archambault, Dialogue avec Tryphon, Paris, Picard, 1909; Perseus Project, CC BY-SA 4.0
+    (licence element quoted in the file's header). Hand-keyed Greek, clean; about 1 percent of Greek
+    tokens carry a stray Latin letter. The French translation of the printed edition is not in this
+    file. Primary original. XML stored byte-for-byte after the header.
+- filename: pseudo-justin_epistle-to-diognetus-grc_lake1917.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/First1KGreek, data/tlg0646/tlg004/tlg0646.tlg004.1st1K-grc1.xml (master
+    branch as fetched). TEI/EpiDoc of the Greek of the Epistle to Diognetus (chapters 1-12) from
+    Kirsopp Lake, The Apostolic Fathers vol. 2, Loeb, London and New York, 1917; Perseus Project, CC
+    BY-SA 4.0 (licence element quoted in the file's header). Clean primary original for the letter.
+    The facing Loeb English is not in the file. XML stored byte-for-byte after the header.
+- filename: athenagoras_legatio-grc_otto1857.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/First1KGreek, data/tlg1205/tlg001/tlg1205.tlg001.perseus-grc1.xml
+    (master branch as fetched). TEI/EpiDoc of Athenagoras's Plea for the Christians (Greek only,
+    opener and chapters 1-37), transcribed from Otto, Corpus apologetarum vol. 7, Jena, Mauke, 1857;
+    Perseus Project, CC BY-SA 4.0 (licence element quoted in the file's header). A second edition of
+    the same work by March (perseus-grc2) exists in the repository and was not fetched. Clean
+    primary original. XML stored byte-for-byte after the header.
+- filename: athenagoras_de-resurrectione-grc_otto1857.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/First1KGreek, data/tlg1205/tlg002/tlg1205.tlg002.perseus-grc1.xml
+    (master branch as fetched). TEI/EpiDoc of Athenagoras, On the Resurrection of the Dead (Greek
+    only, chapters 1-25), transcribed from Otto 1857; Perseus Project, CC BY-SA 4.0 (licence element
+    quoted in the file's header). Clean primary original. XML stored byte-for-byte after the header.
+- filename: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item corpusapologeta02moragoog (Google scan, University of Michigan copy;
+    NOT_IN_COPYRIGHT). Otto, Corpus apologetarum Christianorum saeculi secundi vol. IX, Jena, Mauke
+    (Dufft), 1872 (title-page year OCR-garbled; 1872 or 1871). The host lists 1969 and Wiesbaden,
+    Saendig: that is a reprint's catalogue entry, the scanned title page is the Jena original.
+    Carries Hermias, Quadratus, Aristides, Aristo of Pella, Miltiades, Melito, Apollinaris fragments
+    with Otto's Latin translation and commentary. Greek layer present (about 97,000 Greek
+    characters) but noisy: about 3 in 4 tokens matched in a test on the same series' Athenagoras
+    volume against the clean Perseus text. Second witness, to be page-checked before any Greek is
+    quoted. Not a translation.
+- filename: tatian_oratio-ad-graecos-grc-lat_otto1851.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item corpusapologeta03moragoog (Google scan, University of Michigan copy;
+    NOT_IN_COPYRIGHT). Otto, Corpus apologetarum vol. VI (numeral OCR'd as Vi), Tatianus Assyrius,
+    Oratio ad Graecos, Jena, Mauke, 1851 (numerals read as MDCCCLI). The host lists 1969 and
+    Wiesbaden, Saendig, a reprint's catalogue entry; the scanned title page is the Jena original.
+    Greek layer present (about 309,000 Greek characters) with the same noise level as the other Otto
+    scans. A second Google copy of the same volume (corpusapologeta01unkngoog) has no Greek layer
+    and was not used. Second witness until the Greek is page-checked; Otto's Latin translation is
+    real text.
+- filename: theophilus_ad-autolycum-grc-lat_otto1861.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item corpusapologeta00unkngoog (Google scan, New York Public Library copy;
+    NOT_IN_COPYRIGHT; the record's date 1851 is wrong for this volume). Otto, Corpus apologetarum
+    vol. VIII, Theophilus Antiochenus, Ad Autolycum libri tres, Jena, Mauke, 1861 (title page read
+    in the OCR). Zero Greek-script characters: the Greek is Latin-letter noise. The Latin
+    translation and Latin notes are real text. Second witness only, for Otto's Latin and apparatus;
+    no clean Greek Theophilus is vendored. A second copy (corpusapologeta01moragoog) has the same
+    defect and was not used.
+- filename: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item corpusapologeta00moragoog (Google scan, University of Michigan copy;
+    NOT_IN_COPYRIGHT). Otto, Corpus apologetarum vol. III (editio tertia, Justin Tomus II), Iustini
+    opera addubitata, fragmenta, Acta martyrii, Jena, Fischer (olim Mauke), 1879. The host lists
+    1969 and Wiesbaden, Saendig, a reprint's catalogue entry; the scanned title page is the Jena
+    original. Contains the pseudo-Justinian Oratio ad Gentiles, Cohortatio ad Gentiles, De
+    monarchia, Epistula ad Diognetum and De resurrectione with Otto's Latin translation and
+    prolegomena. Zero Greek-script characters: the Greek is Latin-letter noise; the Latin is real
+    text. Second witness only. Vol. I of this edition (genuine Justin) not found on archive.org by
+    title search except the 1848 first-edition part (siustiniphilosop12just, also without a Greek
+    layer; not vendored).
+- filename: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item reliquiaesacraes01rout (Robarts, University of Toronto copy; no rights
+    field on the host). Routh, Reliquiae sacrae, editio altera, vol. I, Oxford, Academic Press, 1846
+    (title page read in the OCR). Carries Quadratus and Aristides, Aristo of Pella, Melito,
+    Apollinaris, Dionysius of Corinth, Hegesippus, with Routh's Latin notes. Greek layer present
+    (about 129,000 Greek characters) but the two columns interleave and accents and letters are
+    noisy; the front matter is scan noise. Second witness, to be page-checked. Vol. V
+    (reliquiaesacraes05rout) was checked and holds Archelaus and creeds, not the apologists; not
+    vendored. Other volumes of the set were not fetched.
+- filename: goodspeed_aeltesten-apologeten-grc-lat-deu_1914.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item diealtestenapolo0000edga (Internet Archive lending-library scan; no rights
+    field on the host). Goodspeed, Die aeltesten Apologeten, Goettingen, Vandenhoeck and Ruprecht,
+    1914 (title page read in the OCR). Zero Greek-script characters: the Greek is Latin-letter
+    noise. The German introductions, apparatus and Goodspeed's Latin rendering of the Syriac
+    Aristides are real text. Second witness only. Rights rest on the 1914 German publication date,
+    not on any host statement.
+- filename: aristides_apology-syriac-grc-eng_harris-robinson1893.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
+    stated)
+  date_added: '2026-09-29'
+  notes: >-
+    Internet Archive item apologyofaristid00arisrich (University of California Libraries copy;
+    NOT_IN_COPYRIGHT). Texts and Studies I.1, The Apology of Aristides, second edition, ed. J.
+    Rendel Harris with Robinson's appendix on the Greek text of Barlaam and Josaphat, Cambridge
+    University Press, 1893. Zero Syriac-script and zero Greek-script characters in the OCR: the
+    Syriac is lost from the text layer and the Greek comes out as Latin-letter approximations. What
+    is real text: Harris's English translation and English scholarship. Second witness only, and the
+    English is a nineteenth-century translation, so use it for the edition's apparatus and
+    collation, never as an original-language witness. Other archive.org copies
+    (apologyaristide00harrgoog, apologyaristide01harrgoog, apologyaristide00robigoog) not checked.

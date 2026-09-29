@@ -1,0 +1,24 @@
+# Greek original (Archambault 1909, Perseus / First1KGreek TEI) of Justin's Dialogue with Trypho,
+# already assigned to greek-apologists-second-century and post-apostolic-house-church from ANF01.
+source_file: justin-martyr_dialogue-with-trypho-grc_archambault1909.txt
+
+assignments:
+  - work: "Dialogue with Trypho"
+    author: justin_martyr
+    locus: "file line 69 (TEI <head> of the Dialogue, Greek chapter 1 follows)"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek original of the ALREADY-PRESENT English entry for this work (source_file
+      anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named here. PRIMARY ORIGINAL
+      per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Archambault, Dialogue avec Tryphon
+      (Paris, Picard, 1909), hand-keyed in the Perseus / Open Greek and Latin TEI (Greek only; the
+      French translation of the printed edition is not in the file). Ready to quote once each
+      quote is verified verbatim against this file (INTAKE section 6); the English a
+      Representative speaks is rendered from it, with the vendored English as a cross-check. CC
+      BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+      twin's role and confidence exactly.
+

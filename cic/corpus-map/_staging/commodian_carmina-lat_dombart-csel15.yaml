@@ -1,0 +1,38 @@
+# Latin original (CSEL 15, ed. Dombart, 1887) of Commodian's Instructiones (already assigned to latin-
+# apologists from ANF04) and, as a new work with no English twin in the bucket, the Carmen
+# apologeticum. TEI transcriptions of both poems are staged separately.
+source_file: commodian_carmina-lat_dombart-csel15.txt
+
+assignments:
+  - work: "The Instructions of Commodianus (Instructiones)"
+    author: commodian
+    locus: "file line 1368 (heading 'COMMODIANI INSTRVCTIONES')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Dombart, CSEL 15
+      (Vienna, 1887), a critical edition with commentary. The Latin OCR is readable running text,
+      so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+      section 6); the English a Representative speaks is rendered from it, with the vendored
+      English as a cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - work: "Carmen apologeticum (Commodian)"
+    author: commodian
+    locus: "file line 8557 (heading 'CARMEN APOLOGETICVM.')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: provisional
+    note: >
+      Commodian's second poem, in the same CSEL 15 volume as the Instructiones; NO English twin is
+      vendored (ANF04 carries only the Instructions), so this is a new work entry in latin-
+      apologists, given the same role and confidence as the Instructiones (tradition, provisional)
+      because both stand on the same disputed date (mid-3rd century on Dombart's view; later dates
+      have been argued). PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling):
+      Dombart, CSEL 15 (1887), a critical edition; the Latin OCR is readable, so ready to quote
+      once each quote is verified verbatim against this file.
+

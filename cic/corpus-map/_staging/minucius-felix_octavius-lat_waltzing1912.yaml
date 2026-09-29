@@ -1,0 +1,21 @@
+# Latin original (Teubner, ed. Waltzing, 1912) of the Octavius, the work already assigned to latin-
+# apologists from ANF04.
+source_file: minucius-felix_octavius-lat_waltzing1912.txt
+
+assignments:
+  - work: "The Octavius of Minucius Felix"
+    author: felix
+    locus: "file line 126 (title page 'M. MINUCII FELICIS OCTAVIUS'; the text begins after Waltzing's preface)"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf04_tertullian4-minucius-felix-commodian-origen1-2.xml) in the bucket(s) named here.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md (Mark's 2026-09-25 ruling): Waltzing, Teubner
+      (Leipzig, 1912), a critical text with commentary and apparatus. The Latin OCR is readable
+      running text, so this file is ready to quote once each quote is verified verbatim against it
+      (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+      vendored English as a cross-check. Mirrors the English twin's role and confidence exactly.
+
