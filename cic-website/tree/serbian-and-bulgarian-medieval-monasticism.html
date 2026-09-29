@@ -69,9 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
-.narration{margin:1.5rem 0}
-.narration audio{width:100%;max-width:100%}
-.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:.5rem 0 0}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -127,7 +127,7 @@ li{margin-bottom:.5rem}
       <audio controls preload="none">
         <source src="../audio/tree/serbian-and-bulgarian-medieval-monasticism.mp3" type="audio/mpeg">
       </audio>
-      <p class="narration-disclosure">Read by a synthesized voice — not a recording, not a re-enactment.</p>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
     </div>
     
     <div class="reading"><p>When the Serbian ruler Stefan Nemanja abdicated in 1196 and became a monk, and his youngest son Rastko — already a monk on Mount Athos under the name Sava — joined him there, the two founded Hilandar, a Serbian house on the Holy Mountain. From it the shape of Serbian church life was set: Athonite charters adapted for Serbian monasteries, and a ruling family that produced its own saints and then wrote their lives. Sava secured an autocephalous Serbian church in 1219 and became its first archbishop. In Bulgaria the restored patriarchate at Tarnovo did something comparable, gathering a literary school around it and the cult of hermits like John of Rila. Both churches were the road by which hesychast prayer travelled out of Greek and into Slavonic, and from there eventually to Russia. And Bulgaria was overrun by the Ottoman advance at the end of the fourteenth century, with Serbia following within two generations.</p></div>
