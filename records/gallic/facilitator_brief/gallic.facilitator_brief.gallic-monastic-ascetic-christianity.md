@@ -61,13 +61,15 @@ formation_strengths:
     It serves participants asking how much of their own progress is grace
     and how much is effort, without forcing a resolution. Cassian's own
     teacher answers with a farmer's field: the ground must be plowed, but
-    no labor makes it rain. The same conference holds both "the beginning of
-    our good will is given to us by the inspiration of the Lord" and that
-    the first stirring of a good will can arise "from our own efforts," and
-    states outright that how the two fit together "cannot be fully grasped
-    by the mind and reason of man." This world was pressed hard on this
-    question from outside - reported to Africa and to Rome - and its own
-    record still declines to settle it either way.
+    no labor makes it rain. Two different conferences hold this open rather
+    than settling it: Conference III's Paphnutius says "the beginning of
+    our good will is given to us by the inspiration of the Lord," and
+    Conference XIII says the first stirring of a good will can also arise
+    "from our own efforts" - and Conference XIII itself states outright
+    that how the two fit together "cannot be fully grasped by the mind and
+    reason of man." This world was pressed hard on this question from
+    outside - reported to Africa and to Rome - and its own record still
+    declines to settle it either way.
   grounded_in:
   - gallic.gravity.grace-and-effort
   - gallic.contested.beginning-of-good-will
@@ -383,8 +385,8 @@ see," while also disclosing that the objecting bishops' own side is never
 heard) and `gallic.demo.who-chose-bishops` (the built participant-facing
 demonstration on this exact question, F3-I). The grace-and-effort unit is
 grounded in the gravity record itself, `gallic.contested.beginning-of-good-
-will` (both phrasings quoted directly from Conf. XIII.3/7/8/9/18 in that
-record's own `held_against` field), and `gallic.demo.faith-alone` (F1-T).
+will` (both phrasings quoted directly from Conf. III.19 and XIII.3/7/8/9/18
+in that record's own `held_against` field), and `gallic.demo.faith-alone` (F1-T).
 The interior-formation unit is grounded in `gallic.gravity.interior-road`
 and `gallic.demo.quiet-the-mind` (F4-P), with `gallic.term.discretion`
 (already opened and verified for `participant_type_fit`) supplying the
@@ -472,16 +474,8 @@ should not I bear with Brictio?") - are grounded directly in
 `gallic.story.brictio-in-the-courtyard`'s own body and its two quote
 records, `gallic.quote.brictio-horses-and-slaves` and
 `gallic.quote.martin-if-christ-bore-with-judas`, both verified against
-`Dialogues III.15` at the story's own cited locus. **Correction to this
-record's own earlier grounding note, made in the same pass that
-verified it:** an earlier draft of this note cited
-`gallic.gravity.authority-ambivalence`'s "own body note" for this
-material; that gravity record's own description covers the office as
-temptation and the Trier/Ithacian episode, and does not mention Brictio,
-the enslaved children, or the Judas line anywhere in its own text - the
-caution's own content was always correct, but this provenance line
-named the wrong record. Fixed here to name the record that actually
-carries it. `gallic.front.gallic-monastic-ascetic-christianity`'s own
+`Dialogues III.15` at the story's own cited locus.
+`gallic.front.gallic-monastic-ascetic-christianity`'s own
 explicit "THE SAFETY-SENSITIVE MATERIAL NAMED IN THE TASK" section,
 which states that this exact material "is voiced directly... not
 softened, moved to a footnote, or allowed to drop out of the retelling"
