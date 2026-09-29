@@ -23,6 +23,12 @@
  * process, a paced multi-day batch) can always resume from where it left
  * off without re-spending on movements already narrated.
  *
+ * Voice delivery: every call sends `defaultVoiceSettings` (see below) unless
+ * a caller overrides it. Mark's own A/B listen-through (2026-09-29) found
+ * the untuned voice default read as over-dramatic/preachy; these settings
+ * are the converged fix - a --force re-run is how any already-narrated
+ * movement picks them up.
+ *
  * Usage:
  *   ELEVENLABS_API_KEY=... ELEVENLABS_VOICE_ID=... node tools/generate_tree_narration.mjs [options]
  *
@@ -55,6 +61,14 @@ export const audioDir = path.join(rootDir, 'cic-website/audio/tree');
 export const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
 
 const ELEVENLABS_TTS_URL = (voiceId) => `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
+
+/**
+ * The narration delivery Mark converged on after an A/B round against the
+ * untuned voice default (2026-09-29): higher stability and similarity_boost
+ * pulled down slightly to soften the character, aiming for a reflective,
+ * considered read rather than the performed, over-dramatic default.
+ */
+export const defaultVoiceSettings = { stability: 0.95, similarity_boost: 0.68, style: 0.0, use_speaker_boost: true };
 
 export function parseArgs(argv) {
   const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false };
@@ -156,7 +170,7 @@ export function resolveVoiceId(movementId, { voiceMap = voiceOverrides, defaultV
  * One ElevenLabs TTS call. `fetchImpl` is injected so tests never make a
  * real network call - production always passes the real global fetch.
  */
-export async function synthesize(text, { apiKey, voiceId, fetchImpl = fetch }) {
+export async function synthesize(text, { apiKey, voiceId, voiceSettings = defaultVoiceSettings, fetchImpl = fetch }) {
   const response = await fetchImpl(ELEVENLABS_TTS_URL(voiceId), {
     method: 'POST',
     headers: {
@@ -167,6 +181,7 @@ export async function synthesize(text, { apiKey, voiceId, fetchImpl = fetch }) {
     body: JSON.stringify({
       text,
       model_id: 'eleven_multilingual_v2',
+      voice_settings: voiceSettings,
     }),
   });
   if (!response.ok) {

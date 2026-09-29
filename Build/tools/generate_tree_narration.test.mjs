@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, planNarration, synthesize, audioPathFor, audioDir, resolveVoiceId, narrationTextFor } from './generate_tree_narration.mjs';
+import { parseArgs, planNarration, synthesize, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
@@ -189,8 +189,22 @@ test('synthesize: posts the text to the right voice endpoint and returns audio b
   assert.equal(capturedUrl, 'https://api.elevenlabs.io/v1/text-to-speech/voice-123');
   assert.equal(capturedInit.headers['xi-api-key'], 'test-key');
   assert.equal(JSON.parse(capturedInit.body).text, 'Once, in Antioch...');
+  assert.deepEqual(JSON.parse(capturedInit.body).voice_settings, defaultVoiceSettings);
   assert.ok(Buffer.isBuffer(result));
   assert.equal(result.toString(), 'fake-mp3-bytes');
+});
+
+test('synthesize: an explicit voiceSettings overrides the default', async () => {
+  let capturedInit;
+  const fakeFetch = async (url, init) => {
+    capturedInit = init;
+    return { ok: true, arrayBuffer: async () => new ArrayBuffer(0) };
+  };
+  const custom = { stability: 0.1, similarity_boost: 0.5, style: 0.5, use_speaker_boost: false };
+
+  await synthesize('text', { apiKey: 'k', voiceId: 'v', voiceSettings: custom, fetchImpl: fakeFetch });
+
+  assert.deepEqual(JSON.parse(capturedInit.body).voice_settings, custom);
 });
 
 test('resolveVoiceId: falls back to the default narrator when a movement has no override', () => {
