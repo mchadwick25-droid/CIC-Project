@@ -13,6 +13,36 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — A voice may belong to several worlds of the same era; Tatian is co-owned
+
+**Ruling, Mark's own words**, on being shown three options for Tatian
+(co-owned on the Antony model, a declared outside voice, or excluded):
+"if a voice influcences three worlds in the same era that is something
+they have in common. it doesn't have to be just one."
+
+**Reading recorded here.** The Library reads this as (1) choosing the
+co-ownership option for Tatian in the Greek Apologists' Step 0 (§4 item 2),
+on the same footing as the Justin ruling, and (2) a general rule: a voice
+that shaped several worlds of one era is a shared feature of those worlds
+and is not forced into a single owner. It was stated back to Mark in the
+session for correction and is not a ruling on anything beyond Tatian and
+figures that share Tatian's shape.
+
+**Context.** Tatian's *Address to the Greeks* is load-bearing in the built
+Syriac world (`syr.source.tatian-address-to-greeks`), whose figure record
+for him is lighter (`corroborating`, `narratable: false`, "boundary-adjacent
+... without adopting him as a founding teacher"). The Greek Apologists'
+Step 0 had held the question open, binding on Doc_01.
+
+**Changes.** Step 0 of the Greek Apologists records Tatian as co-owned with
+Syriac. No record of the built Syriac world is edited by this entry; the
+cross-build flag its figure record would carry is a separate step, and is
+put to Mark on its own. What still stands open on Tatian: a cited dating
+judgment for the *Address* and the Encratite disclosure, both research and
+drafting work for Doc_01 and Doc_02.
+
+---
+
 ## 2026-09-29 — Cross-world placements for the Ottoman Orthodoxy sources are made now, by the Library
 
 **Ruling, Mark's own words:** "do the cross-world now, i don't think the
