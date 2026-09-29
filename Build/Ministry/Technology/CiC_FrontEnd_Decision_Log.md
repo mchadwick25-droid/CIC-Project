@@ -4491,3 +4491,37 @@ decision lands.
 2. **The 10 built worlds** - re-narrate on `orientation.story` with their
    own distinct voices once those are chosen; still not started.
 3. Readability and archaic-English findings remain open, unchanged.
+
+---
+
+## 2026-09-29 (correction) — The Daniel re-narration above used the old
+voice, not Daniel; the entry above is wrong on that point
+
+The "Voice decided" entry and PR #637 state that all 282 non-built movements
+were re-narrated with Daniel (`onwK4e9ZLuTAKqWW03F9`). That is false. The
+driver read the voice id from `ELEVENLABS_VOICE_ID`, which in that
+environment was still the old narrator's id (`TxGEqnHWrfWFTfGW9XjX`), and
+the new id was never passed. What went live in PR #637 is the **old voice
+with the new E (Reflective) settings** on 282 movements. The "Daniel voice"
+text in the run's log was hard-coded, not read from the id used.
+
+How it was found: after deploy, Mark listened to the live file in a private
+window and heard the old voice. The check made before that, live file size
+equal to local file size, showed only that deployment worked. It did not
+identify the voice. File sizes did show it afterward: the deployed files
+sat within about 1-2% of the old-voice test clips and 3-5% below the Daniel
+test clips for the same text.
+
+Cost: one wasted full run, 268,144 characters of paid ElevenLabs
+text-to-speech (282 requests, 12:17-13:10 UTC). Mark has asked
+ElevenLabs and Anthropic for reimbursement; neither outcome is known.
+
+Unchanged and still Mark's decision: **Daniel is the chosen voice.** The
+10 built worlds were not touched by the run.
+
+### Next action
+
+1. Re-narration with Daniel is not started. It waits on Mark's go-ahead,
+   and now runs under the gate added to CLAUDE.md the same day: a small
+   sample Mark approves by ear first, and the voice id passed on the command
+   and printed in the run's output.

@@ -53,3 +53,22 @@ Misattributed and mis-transcribed quotes have been a real, recurring
 defect here — a record's own "quotes verified" flag has been wrong before,
 which is why the rule treats it as a claim to re-check rather than a fact
 to trust.
+
+## Paid-bulk-run gate — why a sample comes first, and why settings are never inherited
+
+Backs: "Usage/credit discipline" → "Paid bulk runs are gated," CLAUDE.md.
+
+On 2026-09-29 a full re-narration of 282 Church Family Tree movements
+(268,144 characters of paid ElevenLabs text-to-speech) ran with the wrong
+voice. The script read the voice id from an environment variable, the
+new id was never passed, and the run used the old voice. The run's own log
+said "Daniel voice" only because that text was hard-coded. The run was
+called verified on evidence that showed the deployed files matched the
+local files, which said nothing about which voice made them. Mark found it
+by listening to the live result, after the money was spent. An earlier
+narration run had also spent before checking that the audio matched the
+text the site displays. Both were bulk spends made before a cheap human
+check, and both were declared done on evidence that did not test the thing
+paid for. The rule puts the sample and Mark's ear before the spend, makes
+paid settings explicit and printed, and requires the check to test what was
+paid for.
