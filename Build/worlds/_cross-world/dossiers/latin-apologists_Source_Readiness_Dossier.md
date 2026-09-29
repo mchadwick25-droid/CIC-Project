@@ -29,9 +29,9 @@ through `Step0_Round5_Review.md`), followed by a ruling pass, at the Step 0
 (Movement-Scope Confirmation) stage:
 `Build/worlds/latap/Step0_Movement_Scope_Confirmation.md`. The Step 0
 did extensive, source-verified work on sourcing (B1), ecology (B2), and
-built-world uniqueness (B3). Its word count of 1,194,575 was derived for
+built-world uniqueness (B3). Its word count was first derived for
 40 works, the original seven, Tertullian's 32 and the English Passion of
-Perpetua; §1 says which works it does not cover. The Step 0 was revised
+Perpetua; §1 gives the recount of 2026-09-29 and says which works it does not cover. The Step 0 was revised
 on 2026-09-29, and that revision has not yet been independently reviewed.
 This dossier does not repeat the Step 0's work. It adds the one thing the
 Step 0 does not do: a corpus-wide sweep for vendored material the Step 0
@@ -48,9 +48,9 @@ Commodian 2; Cyprian 2; Arnobius 1; Minucius Felix 1; the Passion of
 Perpetua and Felicitas 1 (anonymous, transmitted with Tertullian's
 corpus). Six works are `provisional` on every row and 37 are `assigned`.
 Ninety-four rows have the role `tradition` and two have `transmission`.
-Word counts are Step 0's own directly-recounted figures (§3 B1,
-div2-boundary text extraction from the vendored ANF XML) where it states
-them. A dash means Step 0 states no separate figure for that work.
+Word counts are Step 0's recount of 2026-09-29 (§3 B1, div2-boundary
+text extraction from the vendored ANF XML). A dash means the work is not
+counted.
 
 | work | author | role | confidence | approx. scale | source file (key below) |
 |---|---|---|---|---|---|
@@ -60,43 +60,43 @@ them. A dash means Step 0 states no separate figure for that work.
 | An Address to Demetrianus (Ad Demetrianum) | cyprian | tradition | assigned | — (not separately recounted) | ANF05; Hartel CSEL 3 |
 | On the Vanity of Idols (Quod Idola Dii Non Sint) | cyprian | transmission | provisional (authorship disputed: compiles Tertullian and Minucius Felix) | — (not separately recounted) | ANF05; Hartel CSEL 3 |
 | The Octavius of Minucius Felix | felix (Minucius Felix) | tradition | assigned | 23,819 words | ANF04; Boenig; CSEL 2 TEI; Waltzing |
-| A Treatise on the Anger of God | lactantius | tradition | assigned | 20,382 words | ANF07; CSEL 27 scan |
+| A Treatise on the Anger of God | lactantius | tradition | assigned | 20,397 words | ANF07; CSEL 27 scan |
 | Fragments of Lactantius | lactantius | tradition | assigned | 3,932 words | ANF07; CSEL 27 scan |
-| On the Workmanship of God | lactantius | tradition | assigned | 18,840 words | ANF07; CSEL 27 scan |
-| The Divine Institutes | lactantius | tradition | assigned | 241,990 words | ANF07; CSEL 19 scan; CSEL 19 TEI |
-| The Passion of the Holy Martyrs Perpetua and Felicitas | passion_of_perpetua | tradition | assigned | 7,299 words | ANF03; Robinson |
-| A Treatise on the Soul (De Anima) | tertullian | tradition | assigned | 49,399 words | ANF03; CSEL 20 scan; Oehler II |
-| Ad Martyras | tertullian | tradition | assigned | 2,700 words | ANF03; Oehler I |
-| Ad Nationes | tertullian | tradition | assigned | 34,840 words | ANF03; CSEL 20 scan |
-| Against Hermogenes | tertullian | tradition | assigned | 22,941 words | ANF03; CSEL 47 scan; Oehler II |
-| Against Praxeas | tertullian | tradition | assigned | 31,174 words | ANF03; CSEL 47 scan; Oehler II |
-| Against the Valentinians | tertullian | tradition | assigned | — | ANF03; CSEL 47 scan; Oehler II |
-| An Answer to the Jews | tertullian | tradition | assigned | 21,645 words | ANF03; Oehler II |
-| Apology (Apologeticus) | tertullian | tradition | assigned | 38,392 words | ANF03; Oehler I |
-| Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment; Five Books in Reply to Marcion) | tertullian | tradition | assigned | 31,817 words | ANF04 |
-| De Fuga in Persecutione (Flight in Persecution) | tertullian | tradition | provisional (Montanist marker weak) | — | ANF04; Oehler I |
-| On Baptism | tertullian | tradition | assigned | — | ANF03; CSEL 20 scan |
-| On Exhortation to Chastity (De Exhortatione Castitatis) | tertullian | tradition | provisional | — | ANF04; Oehler I |
-| On Fasting, in Opposition to the Psychics (De Jejunio) | tertullian | tradition | assigned | — | ANF04; CSEL 20 scan |
-| On Idolatry | tertullian | tradition | assigned | — | ANF03; CSEL 20 scan |
-| On Modesty (De Pudicitia) | tertullian | tradition | assigned | 25,582 words | ANF04; CSEL 20 scan |
-| On Monogamy (De Monogamia) | tertullian | tradition | assigned | 13,554 words | ANF04; Oehler I |
-| On Patience | tertullian | tradition | assigned | — | ANF03; CSEL 47 scan |
-| On Prayer | tertullian | tradition | assigned | — | ANF03; CSEL 20 scan |
-| On Repentance | tertullian | tradition | assigned | — | ANF03; Oehler I |
-| On the Apparel of Women (De Cultu Feminarum) | tertullian | tradition | assigned | — | ANF04; Oehler I |
-| On the Flesh of Christ | tertullian | tradition | assigned | 20,055 words | ANF03; Oehler II |
-| On the Pallium (De Pallio) | tertullian | tradition | assigned | — | ANF04; Oehler I |
-| On the Resurrection of the Flesh | tertullian | tradition | assigned | 45,592 words | ANF03; CSEL 47 scan; Oehler II |
-| On the Veiling of Virgins (De Virginibus Velandis) | tertullian | tradition | provisional | — | ANF04; Oehler I |
-| Scorpiace | tertullian | tradition | assigned | — | ANF03; CSEL 20 scan |
-| The Chaplet (De Corona) | tertullian | tradition | assigned | — | ANF03; Oehler I |
-| The Five Books Against Marcion | tertullian | tradition | assigned | 183,788 words (his largest work) | ANF03; CSEL 47 scan; Oehler II |
-| The Prescription Against Heretics | tertullian | tradition | assigned | 20,653 words | ANF03; Oehler II |
-| The Shows (De Spectaculis) | tertullian | tradition | assigned | — | ANF03; CSEL 20 scan |
-| The Soul's Testimony | tertullian | tradition | assigned | — | ANF03; CSEL 20 scan |
-| To His Wife (Ad Uxorem) | tertullian | tradition | assigned | — | ANF04; Oehler I |
-| To Scapula | tertullian | tradition | assigned | — | ANF03; Oehler I |
+| On the Workmanship of God | lactantius | tradition | assigned | 18,853 words | ANF07; CSEL 27 scan |
+| The Divine Institutes | lactantius | tradition | assigned | 242,005 words | ANF07; CSEL 19 scan; CSEL 19 TEI |
+| The Passion of the Holy Martyrs Perpetua and Felicitas | passion_of_perpetua | tradition | assigned | 7,325 words | ANF03; Robinson |
+| A Treatise on the Soul (De Anima) | tertullian | tradition | assigned | 49,425 words | ANF03; CSEL 20 scan; Oehler II |
+| Ad Martyras | tertullian | tradition | assigned | 2,677 words | ANF03; Oehler I |
+| Ad Nationes | tertullian | tradition | assigned | 34,919 words | ANF03; CSEL 20 scan |
+| Against Hermogenes | tertullian | tradition | assigned | 23,066 words | ANF03; CSEL 47 scan; Oehler II |
+| Against Praxeas | tertullian | tradition | assigned | 31,933 words | ANF03; CSEL 47 scan; Oehler II |
+| Against the Valentinians | tertullian | tradition | assigned | 15,014 words | ANF03; CSEL 47 scan; Oehler II |
+| An Answer to the Jews | tertullian | tradition | assigned | 22,346 words | ANF03; Oehler II |
+| Apology (Apologeticus) | tertullian | tradition | assigned | 38,163 words | ANF03; Oehler I |
+| Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment; Five Books in Reply to Marcion) | tertullian | tradition | assigned | 32,001 words (his largest work) | ANF04 |
+| De Fuga in Persecutione (Flight in Persecution) | tertullian | tradition | provisional (Montanist marker weak) | 9,879 words | ANF04; Oehler I |
+| On Baptism | tertullian | tradition | assigned | 9,747 words | ANF03; CSEL 20 scan |
+| On Exhortation to Chastity (De Exhortatione Castitatis) | tertullian | tradition | provisional | 7,814 words | ANF04; Oehler I |
+| On Fasting, in Opposition to the Psychics (De Jejunio) | tertullian | tradition | assigned | 12,108 words | ANF04; CSEL 20 scan |
+| On Idolatry | tertullian | tradition | assigned | 15,121 words | ANF03; CSEL 20 scan |
+| On Modesty (De Pudicitia) | tertullian | tradition | assigned | 26,183 words | ANF04; CSEL 20 scan |
+| On Monogamy (De Monogamia) | tertullian | tradition | assigned | 13,766 words | ANF04; Oehler I |
+| On Patience | tertullian | tradition | assigned | 10,281 words | ANF03; CSEL 47 scan |
+| On Prayer | tertullian | tradition | assigned | 9,989 words | ANF03; CSEL 20 scan |
+| On Repentance | tertullian | tradition | assigned | 9,597 words | ANF03; Oehler I |
+| On the Apparel of Women (De Cultu Feminarum) | tertullian | tradition | assigned | 10,875 words | ANF04; Oehler I |
+| On the Flesh of Christ | tertullian | tradition | assigned | 20,148 words | ANF03; Oehler II |
+| On the Pallium (De Pallio) | tertullian | tradition | assigned | 7,818 words | ANF04; Oehler I |
+| On the Resurrection of the Flesh | tertullian | tradition | assigned | 46,242 words | ANF03; CSEL 47 scan; Oehler II |
+| On the Veiling of Virgins (De Virginibus Velandis) | tertullian | tradition | provisional | 10,828 words | ANF04; Oehler I |
+| Scorpiace | tertullian | tradition | assigned | 14,532 words | ANF03; CSEL 20 scan |
+| The Chaplet (De Corona) | tertullian | tradition | assigned | 10,228 words | ANF03; Oehler I |
+| The Five Books Against Marcion | tertullian | tradition | assigned | 187,134 words (his largest work) | ANF03; CSEL 47 scan; Oehler II |
+| The Prescription Against Heretics | tertullian | tradition | assigned | 20,936 words | ANF03; Oehler II |
+| The Shows (De Spectaculis) | tertullian | tradition | assigned | 11,515 words | ANF03; CSEL 20 scan |
+| The Soul's Testimony | tertullian | tradition | assigned | 4,519 words | ANF03; CSEL 20 scan |
+| To His Wife (Ad Uxorem) | tertullian | tradition | assigned | 9,734 words | ANF04; Oehler I |
+| To Scapula | tertullian | tradition | assigned | 3,080 words | ANF03; Oehler I |
 
 **Source-file key.** ANF03 = `anf03_tertullian.xml`; ANF04 =
 `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml`; ANF05 =
@@ -106,15 +106,21 @@ ANF07 = `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`.
 The other names are the original-language files in `cic/texts/`, listed
 under **Original-language witnesses** below.
 
-**What the 1,194,575 figure covers.** Step 0's total (464,797 for the
-original seven works plus 729,778 for Tertullian's 32 works and the
-English Passion) is a count of the ANF English text of 40 works. It does
-not count three works now on the shelf: Cyprian's *Address to Demetrianus*
-and *On the Vanity of Idols* (English in ANF05, Latin in Hartel's CSEL 3),
-and Commodian's *Carmen apologeticum* (Latin only). It counts no Latin
-file. This dossier states no new total and no new count. The words of
-the 40 works were derived once, in Step 0, by extraction from the ANF XML,
-and this dossier did not re-derive them.
+**What the 1,203,783 figure covers.** Step 0 §3 B1 recounted the ANF
+English text of 40 works on 2026-09-29: the original seven works (464,840
+words), Tertullian's 32 (731,618) and the English Passion (7,325). The
+figures in the table are that recount. The method is written out in Step 0
+§3 B1. For each work it takes the text from the work's opening `<div2>` tag
+to the next `<div2 `, `<div1 ` or `</div1>` tag, replaces every tag with a
+space, splits on whitespace and counts the tokens. It counts headings,
+editorial footnotes and brackets as well as the author's text. It does not
+count three works now on the shelf: Cyprian's *Address to Demetrianus* and
+*On the Vanity of Idols* (English in ANF05, Latin in Hartel's CSEL 3), and
+Commodian's *Carmen apologeticum* (Latin only). It counts no Latin file.
+This dossier states no count of its own beyond that recount; a corrected
+total would need the same extraction run on the two Cyprian works, and a
+Latin word count for the *Carmen*. The corpus map's note on *Against
+Marcion*, "187k words here", agrees with the recount (187,134).
 
 **Original-language witnesses.** Header status is as each file's own
 header and the `cic/texts/README.md` row state it. Under the rule in
@@ -196,13 +202,13 @@ directory listing, not just the volumes Step 0 already used.**
   whole-volume row and to this shelf for two works, *Ad Demetrianum* and
   *Quod idola*. It is the Latin original of the English ANF05 rows for
   both. Tier: same time-place, already vendored. Named here, not decided.
-- **Monceaux, *Histoire littéraire de l'Afrique chrétienne*, volumes I and
-  III** (`monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt`
-  and `...tome3_1905.txt`) are vendored and assigned to LPC's map, not this
-  shelf. They are the one vendored secondary source that reports the
-  dating debates on Minucius Felix (volume I), and on Commodian and
-  Arnobius (volume III), and Step 0 §4 cites them by line. Tier: same
-  time-place. Named here, not decided.
+- **Monceaux, *Histoire littéraire de l'Afrique chrétienne*, all six
+  volumes** (`monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt`
+  through `...tome6_1922.txt`) are vendored. Volumes I to III are on LPC's
+  map and IV to VI on Donatism's; none is on this shelf. Volume I reports
+  the dating debate on Minucius Felix and volume III those on Commodian
+  and Arnobius, and Step 0 §4 cites both by line. Tier: same time-place.
+  Named here, not decided.
 - **CIL8 (Corpus Inscriptionum Latinarum VIII), Supplementum: Inscriptiones
   Provinciae Numidiae (Cagnat/Schmidt, 1894) is vendored and assigned to
   `donatism` only (role `context`, `provisional`), not to this candidate —
@@ -263,9 +269,13 @@ for what cannot be acquired.
   decided.
 - **Stale references elsewhere.** LPC's `world_core` record still names
   `tertullian-s-voice` as the home of the Passion's Perpetua portion. The
-  census's I.43 wording says Tertullian "opened the whole enterprise in
-  197" and the edge note says his *Apology* "opens the Latin case," which
-  the approved slate rules Doc_01 must not say. IJC's source record for
+  census's wording that Tertullian "opened" the Latin case, which the
+  approved slate rules Doc_01 must not say, appears in six places (listed
+  in Step 0 §4 item 1, rule (a)): I.43 `voices`, `why`, `relationsSummary`
+  and `longDescription`, I.17 `relationsSummary`, and the edge from I.17 to
+  I.43, whose confidence is tagged `Documented`. I.43 `sourcing` also
+  attaches "just under half a million words" to Lactantius alone (285,187
+  in the ANF text). IJC's source record for
   *De mortibus* gives the author's dates as c. 250–325 without naming the
   authorship dispute (Step 0 §4 item 6). None is edited here; each belongs
   to its own document's owner.
