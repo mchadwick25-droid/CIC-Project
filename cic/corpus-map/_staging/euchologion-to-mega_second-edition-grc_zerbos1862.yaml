@@ -1,0 +1,15 @@
+source_file: euchologion-to-mega_second-edition-grc_zerbos1862.txt
+
+assignments:
+  - work: "Euchologion to mega (the Great Euchologion), Venice second edition, Greek"
+    author: euchologion-to-mega
+    locus: "title page at about file line 623-655 (Zerbos's edition, Venice 1862); the rites follow"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: provisional
+    note: >
+      The Great Euchologion as printed in Venice in 1862: the services of the seven mysteries,
+      the orders of ordination and other services. A late printed witness to rites that were
+      in use across the Ottoman period, not a text of the world's own century. Second witness:
+      accents partly garbled.

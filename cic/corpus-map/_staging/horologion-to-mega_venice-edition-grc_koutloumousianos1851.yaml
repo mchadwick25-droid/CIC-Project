@@ -1,0 +1,15 @@
+source_file: horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt
+
+assignments:
+  - work: "Horologion to mega (the Great Horologion), Venice edition, Greek"
+    author: horologion-to-mega
+    locus: "title page about file lines 166-190; Koutloumousianos's notice to readers at line 207; the Patriarch's reply at about line 763"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: provisional
+    note: >
+      The Great Horologion as printed at Venice (catalogued 1851), the daily offices of the
+      Eastern church and its monasteries. A late printed witness to office books in use across
+      the Ottoman period. RIGHTS FLAG: the printed year is not legible in the OCR; see the
+      registry row. Second witness: accents partly garbled.

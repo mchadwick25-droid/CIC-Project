@@ -1,0 +1,14 @@
+source_file: doukas_historia-byzantina-grc-lat_bekker1834.txt
+
+assignments:
+  - work: "Historia Byzantina of Doukas (Ducas), Greek with Latin"
+    author: doukas
+    locus: "Bekker's preface at file line 244; Boulliau's epistle at 292; the history from about line 554"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      A Byzantine history running to the fall of Constantinople, vendored as context for 1453.
+      About one quarter Greek by letter count; second witness for the Greek wording until
+      checked against page images.

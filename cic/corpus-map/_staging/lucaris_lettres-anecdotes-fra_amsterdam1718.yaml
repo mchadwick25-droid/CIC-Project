@@ -1,0 +1,15 @@
+source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
+
+assignments:
+  - work: "Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques (Amsterdam, 1718)"
+    author: lucaris
+    locus: "table of contents at file line 55; the first letter at 903; the volume runs to about line 42439"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      An 18th-century Western editor's collection of Lucaris's letters with his Confession,
+      the acts of the Synod of Jerusalem and long remarks: an outside frame, not the Greek
+      church's voice. The editor is not named on the title page. French, Latin and Italian in
+      parallel columns in places; long s read as f. Second witness.

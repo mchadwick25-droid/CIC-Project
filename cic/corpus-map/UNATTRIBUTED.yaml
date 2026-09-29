@@ -89,6 +89,14 @@ authors:
     evidence: div2 title 'From the Iambics of St. Amphilochius the Bishop to Seleucus'; npnf214
       carries no DC.Creator at all, so every author in it is a metadata omission.
     from_file: npnf214_seven-ecumenical-councils.xml
+  anagnostes:
+    kind: metadata-omission
+    evidence: 'The title page names ''Ioannes Anagnostes'' among the chroniclers in this volume;
+      the file''s leading name slug joins all three, so each author is supplied here from
+      the title page.
+
+      '
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
   anastasius_rome:
     kind: metadata-omission
     evidence: 'div2 5.10 title "The Letter of Anastasius, Bishop of the Church of Rome to
@@ -256,6 +264,14 @@ authors:
 
       '
     from_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+  cananus:
+    kind: metadata-omission
+    evidence: 'The title page names ''Ioannes Cananus'' among the chroniclers in this volume;
+      the file''s leading name slug joins all three, so each author is supplied here from
+      the title page.
+
+      '
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
   canonical-epistles-fathers:
     kind: anonymous
     evidence: 'div1 17 gathers, per its title, "Canons and Rulings not having Conciliar Origin
@@ -554,6 +570,15 @@ authors:
 
       '
     from_file: lucian_works-vol4-peregrine_fowler1905.txt
+  gennadius-scholarius:
+    kind: metadata-omission
+    evidence: 'The volume''s own title page names ''Gennadii Confessiones I. II.'' among its
+      contents; the file''s leading name slug is the editor''s work title, so the author of
+      these two confessions is supplied here from the title page rather than from the file
+      name.
+
+      '
+    from_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
   gennadius_constantinople:
     kind: metadata-omission
     evidence: div2 title 'The Encyclical Letter of Gennadius, Patriarch of Constantinople'.
@@ -669,6 +694,15 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  jeremias-ii:
+    kind: metadata-omission
+    evidence: 'The title page names ''Patriarchae Constantinopolitani D. Hieremiae'' among
+      the correspondents and the host catalogue lists Jeremias II; the file''s leading name
+      slug is the volume''s work title, so the author of the replies is supplied here from
+      the title page.
+
+      '
+    from_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
   justin_martyr:
     kind: metadata-omission
     evidence: 'div1 8 title "JUSTIN MARTYR" over the apologies, the Dialogue and the shorter
@@ -992,6 +1026,14 @@ authors:
 
       '
     from_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+  sphrantzes:
+    kind: metadata-omission
+    evidence: 'The title page names ''Georgius Phrantzes'' first among the three chroniclers
+      in this volume; the file''s leading name slug joins all three, so each author is supplied
+      here from the title page.
+
+      '
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
   sulpiciusseverus:
     kind: metadata-omission
     evidence: 'div1 title "The Works of Sulpitius Severus."; npnf211 DC.Creator already lists
@@ -1035,6 +1077,15 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  synodal-censures-of-lucaris:
+    kind: anonymous
+    evidence: 'The title page calls these ''gemina ejusdem Confessionis Censura Synodalis''
+      promulgated by two Patriarchs of Constantinople, Cyril of Berrhoea and Parthenius: synodal
+      acts under two patriarchs'' names, not the personal work of one author, so the slug
+      names the work.
+
+      '
+    from_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
   teaching-of-simon-cephas:
     kind: anonymous
     evidence: 'div2 9.8 ''The Teaching of Simon Cephas in the City of Rome'' — a Syriac doctrina
