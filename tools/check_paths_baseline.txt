@@ -10,6 +10,7 @@ Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Map_Integration_Assessm
 Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Map_Integration_Assessment_V0_1.md: cic-poc/frontend/src/components/WorldSelector.tsx
 Build/Ministry/Features/Atlas-World-Map/Integration-Notes.md: Build/Ministry/Technology/CiC_Website_Alexandria_Status_Fix_Thread_Launch_2026-07-20.md
 Build/Ministry/Features/Conversation-Transparency-Engine/Adjusted-Design.md: engine/m5/reports/safety-script-run-1..8.json
+Build/Ministry/Features/Conversation-Transparency-Engine/Rulings-Pending.md: Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md
 Build/Ministry/Features/Full-UX-Design/Design/CiC_Logo_and_Motion_Brief_V1_0.md: Build/Ministry/Communication/CiC_Logo_Motion_Study_V0_1.html
 Build/Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Archive/Ministry-Early-Days-2026-07/Communication/CiC_Logo_Motion_Study_V0_1.html
 Build/Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Build/Ministry/Technology/CiC_FrontEnd_Brand_Alignment_Review_V0_1.md
@@ -33,7 +34,6 @@ Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: records/wo
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/engine/corpus_index.files_for_entry
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/engine/corpus_map.load
-Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/texts/INDEX.sqlite
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: records/worlds.yaml
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: Sandbox/D3-Converged-Design.md
@@ -224,6 +224,7 @@ Build/worlds/desert/build/reviews/Step2_Review_Round2.md: cic-poc/backend/wrs/re
 Build/worlds/desert/build/reviews/Step2_Review_Round2.md: records/worlds.yaml
 Build/worlds/desert/build/reviews/Step5_Review_Round1.md: records/worlds.yaml
 Build/worlds/don/Doc_01_World_Identification_Boundaries_Orientation.md: worlds/history
+Build/worlds/don/Open_Gaps_Tracking.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/don/Open_Gaps_Tracking.md: records/worlds.yaml
 Build/worlds/don/Review-Artifacts/Doc02_Round3_Review.md: cic/texts/npnf102_...xml
 Build/worlds/don/Review-Artifacts/Doc05_Round1_Review.md: Ministry/Formation
@@ -236,14 +237,17 @@ Build/worlds/don/Review-Artifacts/Phase5_Probe11_Retest_Round1_Review.md: record
 Build/worlds/don/Review-Artifacts/Phase5_Probe11_Retest_Round2_Review.md: Build/Ministry/Technology/Pass2/FLAGS.md
 Build/worlds/don/Review-Artifacts/Phase5_Probe11_Retest_Round2_Review.md: engine/api/wiring.handle_message
 Build/worlds/don/Review-Artifacts/ScholarlyFramework_Fix_Round3_Review.md: packages/don/2026-09-10T03-45-40Z
+Build/worlds/don/Review-Artifacts/ValidationLayer_Round2_Review.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/don/don_Decision_Log.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md
 Build/worlds/don/don_Decision_Log.md: Build/Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md
 Build/worlds/don/don_Decision_Log.md: Build/Ministry/Technology/Pass2/FLAGS.md
 Build/worlds/don/don_Decision_Log.md: Build/Ministry/Technology/Pass2/trr/S6.2_DON_TRR_ijc.jsonl
+Build/worlds/don/don_Decision_Log.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/don/don_Decision_Log.md: cic-poc/backend/wrs
 Build/worlds/don/don_Decision_Log.md: packages/don/2026-09-10T03-45-40Z
 Build/worlds/don/don_Decision_Log.md: packages/don/2026-09-15T15-15-17Z
 Build/worlds/don/don_Decision_Log.md: records/worlds.yaml
+Build/worlds/don/don_Validation_Layer.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/gallic/Lexicon-Chunks/galliclex001_monk-solitary.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/gallic/Lexicon-Chunks/galliclex002_soldier-of-christ.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/gallic/Lexicon-Chunks/galliclex003_example-imitation.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
@@ -429,6 +433,7 @@ Build/worlds/lpc/Lexicon-Chunks/lpclex016_compel-them-to-come-in.md: L4-Template
 Build/worlds/lpc/Lexicon-Chunks/lpclex017_libelli.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Lexicon-Chunks/lpclex018_libellatici-sacrificati.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
+Build/worlds/lpc/Open_Gaps_Tracking.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc
 Build/worlds/lpc/Representative/lpc_Rep_Phase6_Facilitator_Coordination_Round1.md: L4-Templates/World_Facilitation_Brief_Template.md
 Build/worlds/lpc/Review-Artifacts/Article3_Gapped_Formation_Ruling_Prepared_2026-09-16.md: L1-Foundation/CiC_L1_Constitution_V2_2.docx
@@ -637,12 +642,14 @@ Build/worlds/lpc/Review-Artifacts/Doc06_Round1_Review.md: L4-Templates/Deploymen
 Build/worlds/lpc/Review-Artifacts/Doc06_Round1_Review.md: World-Builds/Imperial-Juridical-Christianity/Lexicon_Deployment_Index.md
 Build/worlds/lpc/Review-Artifacts/Doc06_Round2_Review.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Review-Artifacts/Doc06_Round3_Review.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
+Build/worlds/lpc/Review-Artifacts/Doc07_Round1_Review.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/Review-Artifacts/Doc07_Round1_Review.md: L1-Foundation/CiC_L1_Constitution_V2_2.docx
 Build/worlds/lpc/Review-Artifacts/Doc07_Round1_Review.md: L3A-Shared-Methodology/CiC_L3A_Forces_Framework_V1.1.docx
 Build/worlds/lpc/Review-Artifacts/Doc07_Round1_Review.md: L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx
 Build/worlds/lpc/Review-Artifacts/Doc07_Round1_Review.md: L4-Templates/Integrated_Ecology_Analysis_Template.md
 Build/worlds/lpc/Review-Artifacts/Doc07_Round1_Review.md: World-Builds/Donatism/Doc_07_Integrated_Ecology_Analysis.md
 Build/worlds/lpc/Review-Artifacts/Doc07_Round1_Review.md: World-Builds/Imperial-Juridical-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md
+Build/worlds/lpc/Review-Artifacts/Doc07_Round2_Review.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/Review-Artifacts/Doc07_Round2_Review.md: L4-Templates/Integrated_Ecology_Analysis_Template.md
 Build/worlds/lpc/Review-Artifacts/Doc07_Round2_Review.md: World-Builds/Donatism/Doc_07_Integrated_Ecology_Analysis.md
 Build/worlds/lpc/Review-Artifacts/Doc07_Round2_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_07_Integrated_Ecology_Analysis.md
@@ -662,6 +669,7 @@ Build/worlds/lpc/Review-Artifacts/Doc08_Round5_Review.md: World-Builds/Latin-Pas
 Build/worlds/lpc/Review-Artifacts/Doc08_Round6_Review.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md
 Build/worlds/lpc/Review-Artifacts/Doc08_Round6_Review.md: Build/Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/Review-Artifacts/Doc08_Round6_Review.md: Build/reference/method/CiC_Record_Native_World_Build_Process_V1_3.md
+Build/worlds/lpc/Review-Artifacts/Doc08_Round6_Review.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/Review-Artifacts/Doc08_Round6_Review.md: World-Builds/Donatism/scripts
 Build/worlds/lpc/Review-Artifacts/Doc09_Round3_Review.md: L4-Templates/Story_Repository_Chunk_Template.md
 Build/worlds/lpc/Review-Artifacts/Doc09_Round4_Review.md: L4-Templates/Story_Repository_Chunk_Template.md
@@ -712,6 +720,7 @@ Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quo
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.take-up-and-read.md
 Build/worlds/lpc/lpc_Decision_Log.md: Archive/Microsoft
 Build/worlds/lpc/lpc_Decision_Log.md: Build/Ministry/Communication/Brand-Assets/Representative-Portraits/Datus_Portrait.png
+Build/worlds/lpc/lpc_Decision_Log.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/lpc_Decision_Log.md: L3B-World-Build-Methodology/Cross_World_Source_Registry.md
 Build/worlds/lpc/lpc_Decision_Log.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/lpc_Decision_Log.md: L4-Templates/Representative_Construction_Notes_Template.md
@@ -806,8 +815,10 @@ Build/worlds/rzg/Review-Artifacts/Doc07_Round1_Review.md: World-Builds/Donatism/
 Build/worlds/rzg/Review-Artifacts/Doc07_Round2_Review.md: World-Builds/Reformed-Zurich-and-Geneva
 Build/worlds/rzg/Review-Artifacts/Doc08_Round1_Review.md: World-Builds/Donatism/Doc_08_Forces_Document.md
 Build/worlds/rzg/Review-Artifacts/Doc09_Round1_Review.md: World-Builds/Donatism/Doc_09_Story_Inventory.md
+Build/worlds/rzg/Review-Artifacts/ValidationLayer_Round1_Review.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/rzg/Review-Artifacts/ValidationLayer_Round1_Review.md: World-Builds/Donatism/don_Validation_Layer.md
 Build/worlds/rzg/Review-Artifacts/ValidationLayer_Round1_Review.md: World-Builds/Reformed-Zurich-and-Geneva
+Build/worlds/rzg/Review-Artifacts/ValidationLayer_Round2_Review.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/rzg/Review-Artifacts/ValidationLayer_Round2_Review.md: World-Builds/Donatism/don_Decision_Log.md
 Build/worlds/rzg/Review-Artifacts/ValidationLayer_Round2_Review.md: World-Builds/Donatism/don_Validation_Layer.md
 Build/worlds/rzg/Review-Artifacts/WorldProfile_Round1_Review.md: World-Builds/Donatism/don_World_Profile.md
@@ -817,6 +828,7 @@ Build/worlds/rzg/rzg_Decision_Log.md: packages/rzg/2026-09-19T16-36-24Z
 Build/worlds/rzg/rzg_Representative_Construction_Notes_Theophilus.md: cic-poc/backend/wrs/parameters.yaml
 Build/worlds/rzg/rzg_Representative_Phase6_Facilitator_Coordination.md: World-Builds/Donatism/Representative/don_Rep_Phase6_Facilitator_Coordination_Round1.md
 Build/worlds/rzg/rzg_Representative_Phase6_Facilitator_Coordination.md: World-Builds/Reformed-Zurich-and-Geneva
+Build/worlds/rzg/rzg_Validation_Layer.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/syr/CiC_W7_Decision_Log.md: Archive/Step10_Phase1_Ecology_Assessment_DRAFT_SUPERSEDED.md
 Build/worlds/syr/Open_Gaps_Tracking.md: Archive/Step10_Phase1_Ecology_Assessment_DRAFT_SUPERSEDED.md
 Build/worlds/syr/Review-Artifacts/Doc_05_Round2_Review.md: reference/citation-hygiene
@@ -864,7 +876,6 @@ Build/worlds/witt/witt_PhaseC_Scoping_Note.md: Build/reference/method/CiC_Record
 Build/worlds/witt/witt_PhaseC_Scoping_Note.md: cic-poc/backend
 Build/worlds/witt/witt_PhaseC_Scoping_Note.md: records/worlds.yaml
 Build/worlds/witt/witt_World_Profile.md: World-Builds/Lutheran-Wittenberg
-cic/corpus-map/README.md: cic/texts/INDEX.sqlite
 engine/BASELINES.md: packages/alx/2026-08-24T00-43-33Z
 engine/BASELINES.md: packages/desert/2026-08-24T00-43-34Z
 engine/BASELINES.md: packages/fix/2026-08-24T00-43-37Z

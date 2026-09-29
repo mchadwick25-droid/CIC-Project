@@ -77,7 +77,7 @@ GRANDFATHERED_WORLDS = frozenset(
 FLEET_PSEUDO_WORLD = "_fleet"
 
 
-PROJECT_LEAD = "Mark Chadwick"
+PROJECT_LEAD = "project lead"
 
 
 @dataclass(frozen=True)
