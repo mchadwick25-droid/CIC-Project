@@ -4356,3 +4356,89 @@ go-ahead per his own ruling above:
    the same way, then refresh the two listening-page Artifacts (their
    built-world clips are still the old, wrong-text audio).
 4. Eras/rivers narration remains its own unscoped follow-on, unchanged.
+
+---
+
+## 2026-09-29 — PR #634 merged; the real conflict was a concurrent repo
+restructuring, not a platform glitch; voice tuned after Mark's own
+listen-through flagged it as overdramatic
+
+**The merge.** GitHub's merge API rejected PR #634 as conflicted while a
+local three-way `git merge` showed clean - a real discrepancy, not a
+platform flake as first assumed. Root cause: `main` had landed
+`501ebb4b5` ("Phase 2 repo cleanup: separate Live from everything else
+under `Build/`") after this branch diverged, moving
+`tools/generate_tree_pages.mjs` and
+`Ministry/Technology/CiC_FrontEnd_Decision_Log.md` (this file) to
+`Build/`. Git's own rename-detection resolved this correctly and
+silently on a local merge; GitHub's server-side check did not. Verified
+byte-for-byte before touching anything: the auto-merged
+`Build/tools/generate_tree_pages.mjs` differed from this branch's
+version by exactly one line (`rootDir` now resolves up two directories,
+matching the new depth); `Build/Ministry/Technology/CiC_FrontEnd_Decision_Log.md`
+was byte-identical to this branch's copy, since main hadn't touched the
+file's content, only its location.
+
+Resolved on the PR branch itself (not by pushing a merge commit straight
+to `main`, which the session's own safety guardrail correctly declined
+without Mark's direct hand on it): merged `main` in, relocated the three
+new narration files (`generate_tree_narration.mjs`, its test,
+`tree-narration-voices.mjs`) into `Build/tools/` alongside their sibling
+for the same reason it moved, applied the identical one-line `rootDir`
+fix, reran all 23 tests clean, committed, pushed. CI went green for the
+first time (the conflict had blocked it from running at all until then),
+and PR #634 merged into `main` - which is `cic-website`'s live
+production deploy, confirmed once more by the real site updating.
+
+**The voice finding.** Listening across more movements than the handful
+used to pick the narrator originally, Mark's read: "a little too
+over-dramatic for the material... it sounded ok for the worlds we
+picked, but as I have listened to more I am feeling it feels overdone."
+Root-caused before spending anything: `synthesize()` sent ElevenLabs no
+`voice_settings` at all, so every clip ran on the voice's own baked-in
+defaults - a model-level default, not a deliberate choice.
+
+A/B/C/D/E tested cheaply against the same voice rather than assuming a
+new voice was needed (which would mean re-narrating all 292 movements
+for real money): three non-built movements spanning eras 1, 5, and 9,
+each variant a re-synthesis of the same `longDescription` text.
+- A (stability 0.75, style 0.2) vs. B (stability 0.9, style 0.0): too
+  close for Mark to distinguish on first listen.
+- Added C (baseline - no `voice_settings`, i.e. exactly what was live)
+  and D (stability 1.0, style 0.0, extreme) alongside A/B in the same
+  page rather than asking Mark to compare against memory of the live
+  site. Mark heard the difference clearly on the Catholic Apostolic
+  Church (Irvingites) clip specifically: B was better, "more stable."
+- E (stability 0.95, similarity_boost 0.68, style 0.0) pushed further in
+  B's direction per Mark's own steer - "a little more subtle or
+  reflective than preachy." Verdict: "e is better, more reflective, use
+  that direction."
+
+**Converged setting**, now `defaultVoiceSettings` in
+`Build/tools/generate_tree_narration.mjs`, applied automatically to
+every future `synthesize()` call: `{ stability: 0.95, similarity_boost:
+0.68, style: 0.0, use_speaker_boost: true }`. Tests updated (24 passing)
+to confirm the default is sent and that an explicit override still
+works. This is a code-only change, zero spend, and does not itself
+re-narrate anything - the 292 already-live clips still carry the old,
+untuned read.
+
+**Voice choice itself still open.** Mark separately raised whether the
+current narrator voice is right at all - "a more internationally
+acceptable voice" - given a full re-narration is needed regardless once
+the new settings roll out. Not yet scoped: whether that means accent
+neutrality or multi-language support, and no replacement voice has been
+chosen. If it happens, it happens as one re-narration pass covering both
+the voice and the settings, not two separate expensive passes.
+
+### Next action
+
+1. **Re-narrating the 292 already-live movements on the new settings**
+   is real ElevenLabs spend (roughly the same character count as the
+   original full run) - scope, pacing, and go-ahead are Mark's call, not
+   started.
+2. **Voice choice** - candidate voice IDs from ElevenLabs' Voice Library
+   (filtered for accent), and clarity on accent vs. language as the real
+   criterion, are Mark's to bring back before any candidate gets tested.
+3. The two remaining prior open items (readability, archaic English)
+   remain exactly as listed above, untouched.
