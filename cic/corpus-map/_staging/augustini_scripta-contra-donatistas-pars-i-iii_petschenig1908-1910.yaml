@@ -4,8 +4,9 @@
 # Petiliani 24752, Epistula ad catholicos 36701, Contra Cresconium 41781 (Pars II); De unico
 # baptismo 60952, Breviculus collationis 62773, Contra partem Donati post gesta 66511, Sermo ad
 # Caesariensis 71499, Gesta cum Emerito 72784, Contra Gaudentium 73265, and the Appendix 78734 with
-# the Sermo de Rusticiano 78744 and the Libellus adversus Fulgentium 78988 (Pars III). The six works
-# assigned below are the ones with a row in this file.
+# the Sermo de Rusticiano 78744 and the Libellus adversus Fulgentium 78988 (Pars III). The works
+# assigned below are the ones with a row in this file; the Sermo de Rusticiano, which the editor
+# prints as spurious, has no row.
 #
 # Four of the six are also assigned to latin-pastoral-congregational-christianity as a second
 # `tradition` row. De Baptismo and De Unico Baptismo contra Petilianum are the Latin original of
@@ -119,3 +120,165 @@ assignments:
       title is "Libellus adversus Fulgentium Donatistam". The author slug is
       augustine because no other slug exists for the work; the ascription
       does not hold in the edition itself, so the confidence is provisional.
+
+  - work: "Contra Litteras Petiliani (libri tres)"
+    author: augustine
+    locus: "Pars II (CSEL 52); file line 24752 (heading 'CONTRA LITTERAS PETILIANI', 'LIBRI TRES.' at 24753)"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's reply to the Donatist bishop Petilian of Cirta, whose letters on baptism and the
+      true church accused the Catholics of being traitors and persecutors. Book I is Augustine's
+      short letter to Catholics answering the first part of Petilian's letter, book II answers the
+      whole letter point by point, and book III answers Petilian's angry second letter (the editor's
+      Praefatio). The Latin original of \"Answer to the Letters of Petilian\" in the vendored
+      npnf104, so a cross-check on that English. Petilian's own words survive quoted inside
+      Augustine's replies: embedded voice, the work itself is Augustine's. PRIMARY ORIGINAL per
+      cic/texts/INTAKE.md: Petschenig's critical text (CSEL 52, Vienna, 1909). The scan is raw,
+      uncorrected OCR of a dense critical edition with the apparatus interleaved (the file's own
+      header and registry notes say so; about 88 to 90 percent of its word forms match the
+      vocabulary of the clean TEI files, against 93 to 97 percent for those). So this row is primary
+      for authorship and content, and a second witness for exact wording: each quote is checked
+      against the printed page or a clean witness before it is used, and the English a
+      Representative speaks is rendered from the verified Latin.
+
+  - work: "Epistula ad Catholicos de Secta Donatistarum"
+    author: augustine
+    locus: "Pars II (CSEL 52); file line 36701 (heading 'EPISTVLA AD CATHOLICOS', 'DE SECTA DONATISTARVM.' at 36702)"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A pastoral letter to Catholic congregations on where the true church is, taught from the law,
+      the prophets, the psalms, the gospel and the apostles; the editor takes it as an appendix to
+      book II of the reply to Petilian. Older editions title it 'De unitate ecclesiae'. No English
+      translation is vendored, so this is new primary content for both entries. Authorship: the
+      Maurists doubted that it is Augustine's; Petschenig answers their arguments in his Praefatio
+      and finds nothing against it, and notes that Augustine's Retractationes do not mention it.
+      Assigned on the editor's judgment, and the doubt is recorded here so a later quote record
+      carries it. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig's critical text (CSEL 52,
+      Vienna, 1909). The scan is raw, uncorrected OCR of a dense critical edition with the apparatus
+      interleaved (the file's own header and registry notes say so; about 88 to 90 percent of its
+      word forms match the vocabulary of the clean TEI files, against 93 to 97 percent for those).
+      So this row is primary for authorship and content, and a second witness for exact wording:
+      each quote is checked against the printed page or a clean witness before it is used, and the
+      English a Representative speaks is rendered from the verified Latin.
+
+  - work: "Breviculus Collationis cum Donatistis"
+    author: augustine
+    locus: "Pars III (CSEL 53); file line 62773 (heading 'BREVICVLVS', 'COLLATIONIS CVM DONATISTIS' at 62774)"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's summary of the three-day Conference of Carthage of 411, held on the emperor
+      Honorius's order between Catholic and Donatist bishops, cut down from the very long acts and
+      numbered to match their parts. It gives this world the Catholic side's own short account of
+      the conference at which the Donatist bishops were judged defeated. No English translation is
+      vendored. The editor writes that no manuscript has been found since the Amerbach edition, so
+      the text rests on the printed editions. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig's
+      critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR of a dense critical
+      edition with the apparatus interleaved (the file's own header and registry notes say so; about
+      88 to 90 percent of its word forms match the vocabulary of the clean TEI files, against 93 to
+      97 percent for those). So this row is primary for authorship and content, and a second witness
+      for exact wording: each quote is checked against the printed page or a clean witness before it
+      is used, and the English a Representative speaks is rendered from the verified Latin.
+
+  - work: "Contra Partem Donati post Gesta"
+    author: augustine
+    locus: "Pars III (CSEL 53); file line 66511 (heading 'CONTRA PARTEM DONATI', 'POST GESTA' at 66512)"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's address, soon after the 411 conference, to the Donatist laity, warning them not to
+      be led on by their bishops. It answers the charge that the judge Marcellinus had been bribed,
+      and argues that the Donatist bishops had themselves brought scripture testimonies against
+      their own side. The editor keeps the title 'Contra partem Donati post gesta' and notes that
+      the Retractationes (II 66) word it differently. Five manuscripts, all French, from one old
+      exemplar with gaps. No English translation is vendored. PRIMARY ORIGINAL per
+      cic/texts/INTAKE.md: Petschenig's critical text (CSEL 53, Vienna, 1910). The scan is raw,
+      uncorrected OCR of a dense critical edition with the apparatus interleaved (the file's own
+      header and registry notes say so; about 88 to 90 percent of its word forms match the
+      vocabulary of the clean TEI files, against 93 to 97 percent for those). So this row is primary
+      for authorship and content, and a second witness for exact wording: each quote is checked
+      against the printed page or a clean witness before it is used, and the English a
+      Representative speaks is rendered from the verified Latin.
+
+  - work: "Sermo ad Caesariensis Ecclesiae Plebem"
+    author: augustine
+    locus: "Pars III (CSEL 53); file line 71499 (heading 'SERMO' at 71497, 'AD CAESARIENSIS ECCLESIAE PLEBEM.' at 71499)"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's sermon to the congregation of Caesarea in Mauretania in 418, given with the
+      Donatist bishop Emeritus present, to persuade him to become Catholic (the editor's Praefatio).
+      It gives this world a pastoral sermon in the middle of the dispute, on the Maximianist schism
+      inside Donatism (the Gesta cum Emerito say it dealt with the Maximianists only). The editor
+      remarks that by style alone one would hardly take it for Augustine's and still prints it as
+      his own. One late manuscript, which the editor calls of little value and which he shares with
+      the Gesta cum Emerito, so the text is less secure than the others here. No English translation
+      is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig's critical text (CSEL 53,
+      Vienna, 1910). The scan is raw, uncorrected OCR of a dense critical edition with the apparatus
+      interleaved (the file's own header and registry notes say so; about 88 to 90 percent of its
+      word forms match the vocabulary of the clean TEI files, against 93 to 97 percent for those).
+      So this row is primary for authorship and content, and a second witness for exact wording:
+      each quote is checked against the printed page or a clean witness before it is used, and the
+      English a Representative speaks is rendered from the verified Latin.
+
+  - work: "Gesta cum Emerito Donatista"
+    author: augustine
+    locus: "Pars III (CSEL 53); file line 72784 (heading 'GESTA CUM EMERITO DONATISTA, LIBER UNUS.')"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The record of the 418 debate at Caesarea in Mauretania between Augustine and the Donatist
+      bishop Emeritus, before the bishops of the province and the congregation, with Augustine's own
+      introduction. The editor cites the Retractationes (II 77) for it, and notes that its opening
+      words differ between the Retractationes and the manuscript, which he follows; the one late
+      manuscript is the same as for the Sermo. It gives this world a face-to-face exchange with a
+      Donatist bishop, as far as the Catholic side reports it. No English translation is vendored.
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig's critical text (CSEL 53, Vienna, 1910).
+      The scan is raw, uncorrected OCR of a dense critical edition with the apparatus interleaved
+      (the file's own header and registry notes say so; about 88 to 90 percent of its word forms
+      match the vocabulary of the clean TEI files, against 93 to 97 percent for those). So this row
+      is primary for authorship and content, and a second witness for exact wording: each quote is
+      checked against the printed page or a clean witness before it is used, and the English a
+      Representative speaks is rendered from the verified Latin.
+
+  - work: "Contra Gaudentium Donatistarum Episcopum (libri II)"
+    author: augustine
+    locus: "Pars III (CSEL 53); file line 73265 (heading 'CONTRA GAVDENTIVM DONATISTARVM EPISCOPVM', 'LIBRI II' at 73267)"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's reply, about 420, to Gaudentius, the Donatist bishop of Thamugadi, who threatened
+      to burn himself and his congregation in their church rather than yield to the tribune
+      Dulcitius. Book I answers his two letters sentence by sentence, quoting them; book II answers
+      his reply. Gaudentius's words survive quoted inside it: embedded voice, the work itself is
+      Augustine's. One manuscript survives, with a large gap in book I (chapters 20 to 36). No
+      English translation is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig's
+      critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR of a dense critical
+      edition with the apparatus interleaved (the file's own header and registry notes say so; about
+      88 to 90 percent of its word forms match the vocabulary of the clean TEI files, against 93 to
+      97 percent for those). So this row is primary for authorship and content, and a second witness
+      for exact wording: each quote is checked against the printed page or a clean witness before it
+      is used, and the English a Representative speaks is rendered from the verified Latin.

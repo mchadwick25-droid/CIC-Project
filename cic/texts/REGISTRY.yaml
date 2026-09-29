@@ -4173,3 +4173,376 @@
     states that it is the third part of this work. OCR sample: garbage-symbol rate about 0.001; the
     German reads cleanly with occasional OCR noise (for example 'di(^'). Second-order scholarship, not
     a primary source. Not a translation.
+- filename: cyprian_ad-donatum-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa001/stoa0104a.stoa001.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa001.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'Ad Donatum', editor Wilhelm von Hartel,
+    imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum vol.
+    3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 14 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 66-585): the
+    same printed edition; the TEI opens at the scan's 'Bene admones, Donate carissime' and closes
+    with 'sit nobis spiritalis auditio, prolectet aures religiosa mulcedo.', both found in the scan.
+    Quality sample: word forms of the body text found in a vocabulary built from the other csel-dev
+    files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify each quote
+    against the printed apparatus in the scan. Not the apparatus: the manuscript sigla lists printed
+    before the text are absent and the variant readings are not aligned to the lines. Not a
+    translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa002/stoa0104a.stoa002.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa002.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'Ad Demetrianum', editor Wilhelm von Hartel,
+    imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum vol.
+    3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 37 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 12664-13428):
+    the same printed edition; the TEI opens at the scan's 'Oblatrantem te et aduersus Deum' and
+    closes with 'cum morti fuisset obnoxius, factus est inmortalitate securus.', both found in the
+    scan. Quality sample: word forms of the body text found in a vocabulary built from the other
+    csel-dev files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify
+    each quote against the printed apparatus in the scan. Not the apparatus: the manuscript sigla
+    lists printed before the text are absent and the variant readings are not aligned to the lines.
+    Not a translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: cyprian_de-bono-patientiae-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa003/stoa0104a.stoa003.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa003.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Bono Patientiae', editor Wilhelm von
+    Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum
+    vol. 3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 36 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 14305-15007):
+    the same printed edition; the TEI opens at the scan's 'De patientia locuturus, fratres
+    dilectissimi' and closes with 'puniamur, sed cum iustis et Deum timentibus honoremur.', both
+    found in the scan. Quality sample: word forms of the body text found in a vocabulary built from
+    the other csel-dev files, 1.000. Primary original in a machine-corrected TEI: quote from it and
+    verify each quote against the printed apparatus in the scan. Not the apparatus: the manuscript
+    sigla lists printed before the text are absent and the variant readings are not aligned to the
+    lines. Not a translation; not the printed page (page numbers are <pb/> elements, line numbers
+    <lb/> elements).
+- filename: cyprian_de-disciplina-et-habitu-virginum-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa004/stoa0104a.stoa004.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa004.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Disciplina et Habitu Virginum Liber',
+    editor Wilhelm von Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum
+    Ecclesiasticorum Latinorum vol. 3.1, and the edition's own opening and closing words. Licence
+    element CC BY-SA 4.0, carried verbatim in the header with the University of Leipzig attribution;
+    the printed edition is public domain by date (1868). Machine-corrected transcription (Jouve's
+    OCR, corrected and encoded by the Leipzig project), with 35 <note> elements holding the printed
+    footnotes as unaligned text. Corresponds to
+    cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 6970-7672): the same printed
+    edition; the TEI opens at the scan's 'Disciplina custos spei, retinaculum fidei' and closes with
+    'tunc nostri, cum incipiet in uobis uirginitas honorari.', both found in the scan. Quality
+    sample: word forms of the body text found in a vocabulary built from the other csel-dev files,
+    1.000. Primary original in a machine-corrected TEI: quote from it and verify each quote against
+    the printed apparatus in the scan. Not the apparatus: the manuscript sigla lists printed before
+    the text are absent and the variant readings are not aligned to the lines. Not a translation;
+    not the printed page (page numbers are <pb/> elements, line numbers <lb/> elements).
+- filename: cyprian_de-exhortatione-martyrii-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa005/stoa0104a.stoa005.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa005.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Exhortatione Martyrii', editor Wilhelm von
+    Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum
+    vol. 3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 62 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 11482-12643):
+    the same printed edition; the TEI opens at the scan's 'Desiderasti, Fortunate carissime' and
+    closes with 'redditur: in persecutione militia, in pace conscientia coronatur.', both found in
+    the scan. Quality sample: word forms of the body text found in a vocabulary built from the other
+    csel-dev files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify
+    each quote against the printed apparatus in the scan. Not the apparatus: the manuscript sigla
+    lists printed before the text are absent and the variant readings are not aligned to the lines.
+    Not a translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: cyprian_quod-idola-dii-non-sint-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa006/stoa0104a.stoa006.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa006.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'Quod Idola Dii non sint', editor Wilhelm von
+    Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum
+    vol. 3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 15 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 598-1118): the
+    same printed edition; the TEI opens at the scan's 'Deos non esse, quos colit uulgus' and closes
+    with 'est Christus, erimus [christiani], si Christum fuerimus secuti.', both found in the scan.
+    Quality sample: word forms of the body text found in a vocabulary built from the other csel-dev
+    files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify each quote
+    against the printed apparatus in the scan. Not the apparatus: the manuscript sigla lists printed
+    before the text are absent and the variant readings are not aligned to the lines. Not a
+    translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa007/stoa0104a.stoa007.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa007.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Lapsis', editor Wilhelm von Hartel,
+    imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum vol.
+    3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 53 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 8650-9708): the
+    same printed edition; the TEI opens at the scan's 'Pax ecce, dilectissimi fratres' and closes
+    with 'nec solam iam Dei ueniam merebitur sed coronam.', both found in the scan. Quality sample:
+    word forms of the body text found in a vocabulary built from the other csel-dev files, 1.000.
+    Primary original in a machine-corrected TEI: quote from it and verify each quote against the
+    printed apparatus in the scan. Not the apparatus: the manuscript sigla lists printed before the
+    text are absent and the variant readings are not aligned to the lines. Not a translation; not
+    the printed page (page numbers are <pb/> elements, line numbers <lb/> elements).
+- filename: cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa008/stoa0104a.stoa008.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa008.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Mortalite', editor Wilhelm von Hartel,
+    imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum vol.
+    3.1, and the edition's own opening and closing words. The TEI title reads 'De Mortalite'; the
+    printed heading and the body read DE MORTALITATE. Licence element CC BY-SA 4.0, carried verbatim
+    in the header with the University of Leipzig attribution; the printed edition is public domain
+    by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by the
+    Leipzig project), with 33 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 10794-11462):
+    the same printed edition; the TEI opens at the scan's 'Etsi aput plurimos uestrum' and closes
+    with 'ampliora praemia quorum circa se fuerint desideria maiora.', both found in the scan.
+    Quality sample: word forms of the body text found in a vocabulary built from the other csel-dev
+    files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify each quote
+    against the printed apparatus in the scan. Not the apparatus: the manuscript sigla lists printed
+    before the text are absent and the variant readings are not aligned to the lines. Not a
+    translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: cyprian_de-opere-et-eleemosynis-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa009/stoa0104a.stoa009.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa009.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Opere et Eleemosynis', editor Wilhelm von
+    Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum
+    vol. 3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 43 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 13449-14288):
+    the same printed edition; the TEI opens at the scan's 'Multa et magna sunt, fratres carissimi'
+    and closes with 'operibus dabit, in persecutione purpuream pro passione geminabit.', both found
+    in the scan. Quality sample: word forms of the body text found in a vocabulary built from the
+    other csel-dev files, 1.000. Primary original in a machine-corrected TEI: quote from it and
+    verify each quote against the printed apparatus in the scan. Not the apparatus: the manuscript
+    sigla lists printed before the text are absent and the variant readings are not aligned to the
+    lines. Not a translation; not the printed page (page numbers are <pb/> elements, line numbers
+    <lb/> elements).
+- filename: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa010/stoa0104a.stoa010.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa010.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Unitate Ecclesiae Catholicae Liber',
+    editor Wilhelm von Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum
+    Ecclesiasticorum Latinorum vol. 3.1, and the edition's own opening and closing words. Licence
+    element CC BY-SA 4.0, carried verbatim in the header with the University of Leipzig attribution;
+    the printed edition is public domain by date (1868). Machine-corrected transcription (Jouve's
+    OCR, corrected and encoded by the Leipzig project), with 55 <note> elements holding the printed
+    footnotes as unaligned text. Corresponds to
+    cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 7685-8633): the same printed
+    edition; the TEI opens at the scan's 'Cum moneat Dominus et dicat' and closes with 'fallente non
+    possumus, serui uigiles Christo dominante regnabimus.', both found in the scan. Quality sample:
+    word forms of the body text found in a vocabulary built from the other csel-dev files, 1.000.
+    Primary original in a machine-corrected TEI: quote from it and verify each quote against the
+    printed apparatus in the scan. Not the apparatus: the manuscript sigla lists printed before the
+    text are absent and the variant readings are not aligned to the lines. Not a translation; not
+    the printed page (page numbers are <pb/> elements, line numbers <lb/> elements).
+- filename: cyprian_de-zelo-et-livore-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa011/stoa0104a.stoa011.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa011.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Zelo et Livore', editor Wilhelm von
+    Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum
+    vol. 3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 25 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 15025-15539):
+    the same printed edition; the TEI opens at the scan's 'Zelare quod bonum uideas' and closes with
+    'semper in regno in hoc mundo ante placeamus.', both found in the scan. Quality sample: word
+    forms of the body text found in a vocabulary built from the other csel-dev files, 1.000. Primary
+    original in a machine-corrected TEI: quote from it and verify each quote against the printed
+    apparatus in the scan. Not the apparatus: the manuscript sigla lists printed before the text are
+    absent and the variant readings are not aligned to the lines. Not a translation; not the printed
+    page (page numbers are <pb/> elements, line numbers <lb/> elements).
+- filename: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa012/stoa0104a.stoa012.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa012.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'Epistulae', editor Wilhelm von Hartel,
+    imprint Gerold (Vienna), date 1871, series Corpus Scriptorum Ecclesiasticorum Latinorum vol.
+    3.2, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1871). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 691 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 16500-30929):
+    the same printed edition; the TEI opens at the scan's 'Grauiter conmoti sumus ego et collegae
+    mei' and closes with 'in ecclesia sua permanere faciat et conseruare dignetur.', both found in
+    the scan. Quality sample: word forms of the body text found in a vocabulary built from the other
+    csel-dev files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify
+    each quote against the printed apparatus in the scan. Not the apparatus: the manuscript sigla
+    lists printed before the text are absent and the variant readings are not aligned to the lines.
+    Not a translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa013/stoa0104a.stoa013.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa013.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'Sententiae Episcoporum', editor Wilhelm von
+    Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum
+    vol. 3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 46 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 15567-16433):
+    the same printed edition; the TEI opens at the scan's 'Cum in unum Cartaginem conuenissent' and
+    closes with 'amici, de antichristis christiani. TVPIS CAROLI GEROLD FILII.', both found in the
+    scan. Quality sample: word forms of the body text found in a vocabulary built from the other
+    csel-dev files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify
+    each quote against the printed apparatus in the scan. Not the apparatus: the manuscript sigla
+    lists printed before the text are absent and the variant readings are not aligned to the lines.
+    Not a translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa014/stoa0104a.stoa014.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa014.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'Testimoniorum Libri Tres adversus Judaeos',
+    editor Wilhelm von Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum
+    Ecclesiasticorum Latinorum vol. 3.1, and the edition's own opening and closing words. Licence
+    element CC BY-SA 4.0, carried verbatim in the header with the University of Leipzig attribution;
+    the printed edition is public domain by date (1868). Machine-corrected transcription (Jouve's
+    OCR, corrected and encoded by the Leipzig project), with 316 <note> elements holding the printed
+    footnotes as unaligned text. Corresponds to
+    cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 1155-6948): the same printed
+    edition; the TEI opens at the scan's 'Obtemperandum fuit, fili carissime' and closes with 'et in
+    lege eius meditabitur die ac nocte.', both found in the scan. Quality sample: word forms of the
+    body text found in a vocabulary built from the other csel-dev files, 1.000. Primary original in
+    a machine-corrected TEI: quote from it and verify each quote against the printed apparatus in
+    the scan. Not the apparatus: the manuscript sigla lists printed before the text are absent and
+    the variant readings are not aligned to the lines. Not a translation; not the printed page (page
+    numbers are <pb/> elements, line numbers <lb/> elements).
+- filename: cyprian_de-dominica-oratione-lat_hartel1868-csel3-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0104a/stoa015/stoa0104a.stoa015.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0104a.stoa015.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'De Dominica Oratione', editor Wilhelm von
+    Hartel, imprint Gerold (Vienna), date 1868, series Corpus Scriptorum Ecclesiasticorum Latinorum
+    vol. 3.1, and the edition's own opening and closing words. Licence element CC BY-SA 4.0, carried
+    verbatim in the header with the University of Leipzig attribution; the printed edition is public
+    domain by date (1868). Machine-corrected transcription (Jouve's OCR, corrected and encoded by
+    the Leipzig project), with 59 <note> elements holding the printed footnotes as unaligned text.
+    Corresponds to cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 9721-10777):
+    the same printed edition; the TEI opens at the scan's 'Euangelica praecepta, fratres
+    dilectissimi' and closes with 'hic quoque orare et gratias agere non desinamus.', both found in
+    the scan. Quality sample: word forms of the body text found in a vocabulary built from the other
+    csel-dev files, 1.000. Primary original in a machine-corrected TEI: quote from it and verify
+    each quote against the printed apparatus in the scan. Not the apparatus: the manuscript sigla
+    lists printed before the text are absent and the variant readings are not aligned to the lines.
+    Not a translation; not the printed page (page numbers are <pb/> elements, line numbers <lb/>
+    elements).
+- filename: optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0215a/stoa001/stoa0215a.stoa001.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0215a.stoa001.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'S. Optati Milevitani libri VII', editor Karl
+    Ziwsa, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1893, series Corpus
+    Scriptorum Ecclesiasticorum Latinorum vol. 26, and the edition's own opening and closing words.
+    Licence element CC BY-SA 4.0, carried verbatim in the header with the University of Leipzig
+    attribution; the printed edition is public domain by date (1893). Machine-corrected
+    transcription (Jouve's OCR, corrected and encoded by the Leipzig project), with 345 <note>
+    elements holding the printed footnotes as unaligned text. Corresponds to
+    optatus_libri-vii-critical_ziwsa1893.txt (scan lines 2229-13189): the same printed edition; the
+    TEI opens at the scan's 'Cunctos nos christianos' and closes with 'accusatum esse Macarium,
+    nostrum non potestis damnare iudicium.', both found in the scan. Quality sample: word forms of
+    the body text found in a vocabulary built from the other csel-dev files, 1.000. Primary original
+    in a machine-corrected TEI: quote from it and verify each quote against the printed apparatus in
+    the scan. Not the apparatus: the manuscript sigla lists printed before the text are absent and
+    the variant readings are not aligned to the lines. Not a translation; not the printed page (page
+    numbers are <pb/> elements, line numbers <lb/> elements).
+- filename: optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei.txt
+  supplied_by: >-
+    Claude library/source-research thread, fetched directly from GitHub raw
+  date_added: '2026-09-29'
+  notes: >-
+    GitHub OpenGreekAndLatin/csel-dev, raw data/stoa0215a/stoa002/stoa0215a.stoa002.opp-lat1.xml
+    (master branch as fetched); CTS urn urn:cts:latinLit:stoa0215a.stoa002.opp-lat1. Identity read
+    from the file's own TEI, not from any list: title 'Appendix Decem Monumentorum Veterum', editor
+    Karl Ziwsa, imprint F. Tempsky / G. Freytag (Prague, Vienna, Leipzig), date 1893, series Corpus
+    Scriptorum Ecclesiasticorum Latinorum vol. 26, and the edition's own opening and closing words.
+    Licence element CC BY-SA 4.0, carried verbatim in the header with the University of Leipzig
+    attribution; the printed edition is public domain by date (1893). Machine-corrected
+    transcription (Jouve's OCR, corrected and encoded by the Leipzig project), with 52 <note>
+    elements holding the printed footnotes as unaligned text. Corresponds to
+    optatus_libri-vii-critical_ziwsa1893.txt (scan lines 13206-15283): the same printed edition; the
+    TEI opens at the scan's 'Appendix decem monumentorum ueterum' and closes with 'rectum limitem
+    dirigamus I data Non. Februar. Serdica.', both found in the scan. Quality sample: word forms of
+    the body text found in a vocabulary built from the other csel-dev files, 1.000. Primary original
+    in a machine-corrected TEI: quote from it and verify each quote against the printed apparatus in
+    the scan. Not the apparatus: the manuscript sigla lists printed before the text are absent and
+    the variant readings are not aligned to the lines. Not a translation; not the printed page (page
+    numbers are <pb/> elements, line numbers <lb/> elements).

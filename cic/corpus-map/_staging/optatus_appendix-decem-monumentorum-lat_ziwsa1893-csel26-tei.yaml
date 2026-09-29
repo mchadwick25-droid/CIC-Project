@@ -1,0 +1,25 @@
+# Ziwsa's CSEL 26 (1893) text of Optatus, in the Open Greek and Latin project's machine-corrected TEI. The same printed volume is vendored as a raw OCR scan
+# (optatus_libri-vii-critical_ziwsa1893.txt), staged separately. Each row copies the atlas entries, role and confidence of its scan row.
+source_file: optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei.txt
+
+assignments:
+  - work: "Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's appendix, TEI)"
+    author: anti-donatist-dossier
+    locus: "file line 107 (heading 'Appendix decem monumentorum ueterum ad Donatistarum historiam pertinentium'); urn:cts:latinLit:stoa0215a.stoa002.opp-lat1; scan twin optatus_libri-vii-critical_ziwsa1893.txt lines 13206-15283"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: provisional
+    note: >
+      Ziwsa's own ten-document appendix of official acts and imperial letters on the Donatist
+      schism: Gesta apud Zenophilum, Acta purgationis Felicis, letters of Constantine, the letter of
+      the Council of Arles to Silvester. PRIMARY ORIGINAL per cic/texts/INTAKE.md: CSEL 26 (Vienna,
+      1893) in the University of Leipzig's machine-corrected TEI (the project's OCR correction of
+      the printed edition, not a fresh human edition). Verify each quote against the printed
+      apparatus in the scan optatus_libri-vii-critical_ziwsa1893.txt (scan lines 13206-15283), which
+      carries the manuscript sigla and the variant readings in place on the printed page; this file
+      keeps the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike
+      travel with any quotation. Provisional as the scan row: the ten documents are related in kind
+      to, but not confirmed identical in content with, the sixteen-item appendix mapped from the
+      English Optatus volume (optatus_against-the-donatists.txt), until the two sets are compared.
+

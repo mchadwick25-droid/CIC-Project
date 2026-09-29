@@ -1,0 +1,24 @@
+# Ziwsa's CSEL 26 (1893) text of Optatus, in the Open Greek and Latin project's machine-corrected TEI. The same printed volume is vendored as a raw OCR scan
+# (optatus_libri-vii-critical_ziwsa1893.txt), staged separately. Each row copies the atlas entries, role and confidence of its scan row.
+source_file: optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt
+
+assignments:
+  - work: "S. Optati Milevitani Libri VII (critical Latin text, TEI)"
+    author: optatus
+    locus: "file line 111 (first text of the TEI body, opening 'Cunctos nos christianos'); urn:cts:latinLit:stoa0215a.stoa001.opp-lat1; scan twin optatus_libri-vii-critical_ziwsa1893.txt lines 2229-13189"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      Optatus' seven books on the Donatist schism: the fullest surviving account of its origins,
+      written from the Catholic side. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Ziwsa's critical
+      text (CSEL 26, Vienna, 1893), in the University of Leipzig's machine-corrected TEI (the
+      project's OCR correction of the printed edition, not a fresh human edition). Machine-corrected
+      TEI: verify each quote against the printed apparatus in the scan
+      optatus_libri-vii-critical_ziwsa1893.txt (scan lines 2229-13189), which carries the manuscript
+      sigla and the variant readings in place on the printed page; this file keeps the footnotes
+      only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel with any
+      quotation. Same entry and role as the scan row: context for donatism, since Optatus describes
+      the Donatists rather than speaking as one; usable for Donatism only etically.
+
