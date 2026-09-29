@@ -4216,3 +4216,44 @@ voices in ElevenLabs' dashboard and fills
 also need republishing just their clips to Part 1 (they're all within
 Part 1's byte range). Eras/rivers narration remains its own unscoped
 follow-on, unchanged from every prior entry.
+
+---
+
+## 2026-09-29 (final) — Listening page rows link to their real tree
+pages; distinct built-world voices deferred, Mark's own call
+
+**Origin.** Mark: hold off on the 11 built-world distinct voices for
+now; do the listening-page rows link out to their real Church Family
+Tree pages? They didn't - each row was audio-plus-metadata only, no
+way to jump from a review clip to the actual participant-facing page it
+narrates.
+
+**Verified the live site directly before linking to it, not assumed:**
+`churchinconversation.com` (named in `cic-website/robots.txt`'s sitemap
+line) is real and live - fetched `tree/desert-monasticism.html`
+directly, confirmed it loads with the right title. Confirmed the
+honest caveat before shipping it: **the live site has no narration
+player yet** - this thread's audio and page-template changes are all
+on the unmerged `claude/streaming-read-aloud` branch, so a participant
+visiting churchinconversation.com right now sees the pre-narration page,
+not what these Artifact pages preview. Said so directly on both pages'
+own lede text rather than let a visitor discover the gap themselves.
+
+**Built:** every row's title is now a real link to
+`https://churchinconversation.com/tree/<id>.html`, opening in a new
+tab. Verified before republishing - counted the link pattern in both
+generated files: 205 on Part 1, 87 on Part 2, matching every row
+exactly, not a sample.
+
+**Republished both** (`5X7Uve379MFSzhRRwwjMs9` version 8,
+`VBi8GR28FKRmtU9WraUGuz` version 3) - HTML only, no audio re-upload
+needed since the files already published to each artifact stayed
+unchanged.
+
+### Next action
+
+The 11 built-world distinct-voice pass stays explicitly parked - Mark's
+own call, not forgotten, just not now. When this branch merges and
+deploys, the "narration player isn't live yet" caveat on both listening
+pages becomes stale and should be removed in the same pass that merges
+it. Eras/rivers narration remains its own unscoped follow-on.
