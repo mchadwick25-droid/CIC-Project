@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/catholic-church-ancien-regime.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>This was the Catholic Church at the height of its establishment and on the edge of its worst crisis: enormously wealthy, woven into the monarchies of Europe, and increasingly unable to control them. Rome&#039;s condemnation of Jansenism in the bull Unigenitus (1713) turned into a fifty-year political crisis in France, with parlements and bishops fighting over it. Then the Catholic monarchies turned on the church&#039;s most effective order, expelling the Jesuits from Portugal, France, Spain and Naples and forcing the pope to suppress the Society altogether in 1773. Then came the Revolution: church property nationalized, clergy required to swear to a Civil Constitution that split them into jurors and refractories, thousands killed or driven abroad, and Pope Pius VI carried off to die a French prisoner in 1799. His successor signed a concordat with Napoleon in 1801, was imprisoned by him in turn, outlived him, and restored the Jesuits in 1814.</p></div>
   </section>
 

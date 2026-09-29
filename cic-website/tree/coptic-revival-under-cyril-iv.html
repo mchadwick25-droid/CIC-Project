@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/coptic-revival-under-cyril-iv.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>The Coptic Orthodox Church entered the nineteenth century poor, largely untaught, and reduced in the eyes of most outsiders to a survival. And then in 1854 a young patriarch took office and spent seven years changing that. Cyril IV founded schools, including one for girls at a time when that was nearly unheard of in Egypt, brought in a printing press, built a library, and set about educating clergy who had mostly learned the liturgy by ear. He died suddenly in 1861, not yet fifty, in circumstances still argued about. What he started did not stop. An elected lay communal council from 1874, a Coptic press and newspapers from the 1870s, and the schools that would eventually produce the twentieth-century Sunday School movement out of which the modern Coptic renaissance came.</p></div>
   </section>
 

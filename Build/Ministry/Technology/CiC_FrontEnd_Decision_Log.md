@@ -3684,3 +3684,844 @@ clean on the touched files.
 Table specifically - and, separately, whatever real device coverage looks
 like in practice (this design's honest fallback is a real limitation, not
 a hidden one, on any device with only one system voice installed).
+
+---
+
+## 2026-09-27 (later still) — PR #626 merged; Mark's own live-audio check, both conversation modes: done
+
+PR #626 merged to `main` (commit `b6839b9e7`); `cic-engine-staging`
+(`https://cic-engine-staging.onrender.com`) auto-deployed with
+`VITE_READ_ALOUD=on`. Mark opened the real deployment in his own browser
+and did the listen-through the design note's own gate required - not the
+sandbox's `espeak-ng` stand-in, a real system voice.
+
+**Verdict, Mark's own words: "rough but understandable... very computer
+generated."** Two things named specifically:
+
+- **"read" pronounced present tense, not past** - a real, structural
+  limitation of browser text-to-speech, not a bug in this code. The word
+  is spelled identically in both tenses; the Web Speech API takes plain
+  text only, with no phonetic or tense hint mechanism, so the engine
+  guesses from context and gets it wrong. Any world whose Representative
+  talks about reading Scripture - most of them - will hit this.
+- General synthesized-voice quality, i.e. the free tier's own known
+  ceiling, confirmed by real listening rather than assumed.
+
+**Ruling, given directly: keep free voices for now; live with the rough
+edges.** Not revisited today. The tradeoff is on record, named plainly, not
+quietly accepted: a paid composite voice (ElevenLabs/Chirp) would fix both
+findings (proper text normalization, no plain-text-only ceiling) at the
+cost of a recurring per-conversation spend this ruling explicitly declines
+for now.
+
+**This closes Mark's own stated condition** ("hold on Church Family Tree
+until the two conversation pieces are in place") - both the single
+conversation and the Table now have real code, real tests, and Mark's own
+verified listen, not just an automated check.
+
+---
+
+## 2026-09-27 (later still) — Church Family Tree narration: 11 built worlds
+get their own distinct voice, Atlas narration only
+
+**Origin.** With both conversation pieces closed (entry above), scoping
+moved to Church Family Tree per Mark's own sequencing. Prior convergence
+in this thread (not yet logged): narrate movement stories now (each
+movement's `longDescription`, the only field with enough real prose;
+eras/rivers deferred - they'd need new writing, not narration of existing
+text); one consistent narrator voice as the default. Built:
+`tools/generate_tree_narration.mjs` (idempotent ElevenLabs TTS batch
+script, resumable, `--dry-run`/`--only`/`--limit`/`--force`), wired into
+`tools/generate_tree_pages.mjs`'s per-movement page template with a
+disclosure line ("Read by a synthesized voice - not a recording, not a
+re-enactment").
+
+**Mark's question, this session:** should the 11 movements with a live
+built Representative (Chloe, Theon, Papnoute, Mar Yausep, Chilo, Albina,
+Renatus, Fidelis, Nikolaus, Theophilus, Marius) get their own distinct
+voice for their Atlas narration, matching the built world, rather than
+sharing the single consistent narrator with the remaining 281?
+
+**Two considerations surfaced before asking, not assumed away:** (1)
+there is no existing "Chloe voice" today to match - live-conversation
+voices are free browser `speechSynthesis`, not a fixed ElevenLabs voice,
+so this creates a new voice identity, it doesn't match one that already
+exists; (2) `longDescription` is third-person documentary narration
+*about* the movement, never the Representative speaking in character -
+a register a distinct voice alone doesn't resolve into "this is Chloe
+telling her own story."
+
+**Mark's answer: give the 11 built worlds their own distinct voices now.**
+Follow-up asked as its own single question per this project's
+one-question-at-a-time discipline: should that new voice also become the
+Representative's live-conversation voice, reopening the free-vs-paid
+question settled in the prior entry? **Mark's answer: no - Atlas
+narration only.** Live conversations keep the free browser voice
+unchanged; the 11 Representatives now have two separate voice identities
+by design (a live free voice for conversation, a future ElevenLabs voice
+for their Atlas story), not a conflict to resolve later.
+
+**Built, this session:** `tools/tree-narration-voices.mjs` - a per-movement
+voice-override map, one entry per built-world movement id, each still
+blank (falls back to the single default narrator) until Mark auditions
+and picks a distinct voice per Representative in ElevenLabs' own
+dashboard. `generate_tree_narration.mjs`'s `resolveVoiceId()` reads a
+movement's own override when set, else the default narrator - the
+remaining 281 movements are entirely unaffected, always the default.
+17 tests total, all passing; `--dry-run` output now marks which
+movements would use a distinct voice.
+
+**Names verified, not assumed** - a dedicated pass cross-checked all 11
+movement-id -> Representative mappings directly against
+`records/worlds/<code>.yaml` and each world's own registry log; the
+working list from earlier session research was entirely correct, zero
+mismatches. One unrelated doc-hygiene flag surfaced in the same pass,
+deliberately not touched here (not this thread's own content, per this
+file's own default-action table): `cappadocian`'s Representative was
+renamed Eumathios -> Chilo on 2026-09-01, but
+`cappadocian_Representative_Construction_Notes_Eumathios.md` and its
+paired Permanent Prompt file still carry the old name in their filenames
+- superseded content never renamed/archived.
+
+### Next action
+
+Mark: pick a distinct ElevenLabs voice per Representative in the
+dashboard (11 picks) plus the one default narrator for everything else
+(12 total), fill the corresponding voice id into
+`tools/tree-narration-voices.mjs`. Still open from the prior scoping:
+storage strategy for ~292 audio files (git-committed vs. object storage)
+before the real generation batch runs; `ELEVENLABS_API_KEY` +
+`ELEVENLABS_VOICE_ID` need adding to this cloud environment. Separately,
+whenever a thread has capacity: the stale Eumathios-named files flagged
+above are a real, small doc-hygiene cleanup, not urgent.
+
+---
+
+## 2026-09-28 — Real ElevenLabs narration proven end-to-end on one
+unbuilt movement (Josh, the default narrator)
+
+**Origin.** Mark found Josh's public voice ID (`TxGEqnHWrfWFTfGW9XjX`,
+verified via WebSearch against third-party ElevenLabs API references,
+elevenlabs.io itself unreachable from this sandbox), set
+`ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID=TxGEqnHWrfWFTfGW9XjX` on
+this cloud environment, and asked for a real test against one unbuilt
+movement before committing to the full 292-movement batch.
+
+**First attempt blocked, correctly diagnosed as a network-policy gap, not
+a code or credentials problem:** `api.elevenlabs.io` was not on this
+environment's egress allowlist (403 `Host not in allowlist`). Fixed by
+Mark switching the environment's Network access to **Custom** and adding
+`api.elevenlabs.io` as an allowed domain (the "also include default
+list" box kept the existing package-manager/GitHub access) - no fresh
+session needed, network policy applies to the running session.
+
+**Real, verified end-to-end pass, `greek-apologists-second-century`
+(chosen as a small, cheap, unbuilt movement - not one of the 11 with a
+live Representative):**
+- `--dry-run` first confirmed the plan (no `[distinct voice]` tag, as
+  expected for a non-built movement).
+- The real API call succeeded: a 1.3MB file, valid ID3v2.4/MPEG Layer
+  III header - genuine synthesized audio, not a stub.
+- `generate_tree_pages.mjs` regenerated all 292 pages; the diff touched
+  exactly one file, exactly the 7-line narration block
+  (`greek-apologists-second-century.html`) - proof the presence-check
+  gating works as designed and nothing else moves when one audio file
+  appears.
+- Loaded live in a real Chromium browser (Playwright, global install at
+  `/opt/node22/lib/node_modules/playwright`, against a local static
+  server): the audio element resolved to a real 80.9-second duration on
+  `loadedmetadata`, the disclosure line rendered correctly, zero page
+  errors traceable to the narration feature (the one console error was
+  the sandbox's own cert-authority issue on an unrelated external
+  request, the same known artifact noted in earlier entries).
+
+**Test artifacts deliberately not kept - Mark's call.** Asked directly
+whether to keep this file as the real first narrated movement or clean
+up before the real batch; Mark chose cleanup. The storage-strategy
+question for ~292 audio files (git-committed like portraits vs. object
+storage) is still open and shouldn't be decided as a side effect of a
+test file sitting in the tree. Reverted: deleted the test MP3, `git
+checkout --` on the one regenerated page. Working tree is clean.
+
+### Next action
+
+Storage-strategy decision for ~292 audio files, still Mark's; the 11
+per-Representative distinct voice picks, still Mark's, in
+`tools/tree-narration-voices.mjs`. Once both are settled, the real batch
+run is `node tools/generate_tree_narration.mjs` (no `--only`), which is
+now proven correct end-to-end - this entry is that proof, not a
+placeholder.
+
+---
+
+## 2026-09-28 (later) — Storage decided: plain git-committed audio, same
+as the portraits, with the real size named before confirming
+
+**Origin.** Mark's first answer: "git-committed like the portraits, keep
+it simple." The portrait precedent is real but small - 11 files, ~11MB
+total, plain PNG/JPG, no Git LFS - a materially different scale from 292
+audio files. Named the real number before treating it as settled: the
+one proven test clip (1.3MB for 1,103 characters) scales to roughly
+320-340MB added to the repo across all 292 movements'
+`longDescription` text, on top of `.git`'s current 562MB - a cost every
+future clone pays, not a one-time build artifact.
+
+**Mark's ruling, informed by that number: git-committed anyway.** Kept as
+his own recommended option over the alternative offered (Git LFS - same
+day-to-day workflow, but stores the audio bytes outside normal repo
+history so clones don't pay the full weight by default; would have been
+this repo's first LFS usage, a real new piece of infrastructure). No
+infrastructure change needed on either side - `cic-website/audio/tree/`
+is not gitignored, confirmed directly (`git check-ignore` returns
+nothing), so `node tools/generate_tree_narration.mjs`'s real output
+lands exactly where the audio player already expects it and commits with
+an ordinary `git add`.
+
+**Consequence for the batch run:** no script or config change required.
+Only remaining gate before running the real batch: the 11
+per-Representative distinct voice picks in
+`tools/tree-narration-voices.mjs`, still Mark's.
+
+### Next action
+
+Mark: pick the 11 distinct ElevenLabs voices (built worlds) and fill
+`tools/tree-narration-voices.mjs`. Once filled, the real batch run is
+`node tools/generate_tree_narration.mjs` (no flags), committing the
+resulting `cic-website/audio/tree/*.mp3` files and the regenerated tree
+pages together.
+
+---
+
+## 2026-09-28 (later still) — The 11 built-world movements narrated live,
+on Josh, ahead of the distinct-voice pass
+
+**Origin.** Mark: "run the 11 built worlds through ElevenLabs dashboard
+now." `tools/tree-narration-voices.mjs` still has every built-world
+override blank, so running as-is would narrate all 11 with the single
+default narrator - not the distinct voices decided two entries up.
+Flagged that directly rather than silently deciding it either way
+(picking a Representative's voice identity solo isn't this thread's
+call, and elevenlabs.io is unreachable from this sandbox to audition
+anything myself). **Mark's choice: run all 11 with Josh today; distinct
+voices are a later re-run pass**, not a blocker on getting real audio
+live now.
+
+**Run: all 11 succeeded, first attempt, real cost (~22,430 characters of
+`longDescription` text, all 11 built worlds' movement stories).**
+`post-apostolic-house-church`, `alexandria-catechetical`,
+`desert-monasticism`, `syriac-edessa-nisibis`,
+`cappadocian-nicene-pastoral-monastic-tradition`,
+`hieronymian-ascetic-literary`, `gallic-monastic-ascetic-christianity`,
+`donatism`, `lutheran-wittenberg-and-its-congregations`,
+`the-reformed-cities-zurich-and-geneva`,
+`imperial-juridical-christianity`. Verified before committing, not
+assumed: every file is a real MP3 (ID3v2.4/MPEG Layer III, confirmed via
+`file`, ~1-3.7MB each, ~25MB total); `generate_tree_pages.mjs`'s diff
+touched exactly the 11 expected pages, each by exactly the same 7-line
+narration block, nothing else; two pages spot-checked live in a real
+Chromium browser (Playwright) - real durations on `loadedmetadata`
+(3:05 and 1:00), disclosure line present, zero page errors.
+
+**Committed and pushed** (`a3ee3e172`), per the storage ruling two
+entries up - plain git-committed, same as the portraits, no new
+infrastructure.
+
+### Next action
+
+The 281 remaining movements are still unnarrated - a further batch,
+Mark's to authorize. The 11 built-world files just committed will need
+a `--force` re-run once Mark picks distinct voices and fills
+`tools/tree-narration-voices.mjs` - today's Josh audio is real,
+participant-facing narration in the meantime, not a placeholder to be
+silently thrown away.
+
+---
+
+## 2026-09-28 (later still) — ElevenLabs Starter-plan cost surfaced
+honestly; batch split across the renewal, 19 more movements narrated
+
+**Origin.** Mark asked what a world costs to build (answered from real
+build-cost artifacts, not invented - see two entries up in the funding
+thread's own log for the fuller build-cost finding), then asked the
+ElevenLabs-specific question: what does the Tree narration actually
+cost, and should he upgrade his plan or pay overages to finish it.
+
+**Real numbers, not vibes:** Mark's Starter plan showed 40,000 total
+credits, 23,547 remaining. Measured against this session's own actual
+API sends (23,533 characters: 22,430 across the 11 built worlds plus
+1,103 for the earlier deleted test clip), the implied usage (16,453
+credits) didn't match a clean 1-char-to-1-credit assumption - named
+directly rather than smoothed over, since the true ratio for his account
+is still unconfirmed. WebSearch (elevenlabs.io itself unreachable from
+this sandbox, as in every earlier pricing check this thread has done)
+found ElevenLabs does not auto-bill overages on the lower tiers -
+generation simply halts at quota, which directly answered his "pay
+overages" question: that isn't really available as a passive option.
+Recommended Pro for one month ($99, 600K credits) as the simple,
+predictable choice if he wanted the full remaining ~267,000-character
+batch done in one pass.
+
+**Mark's call: split it across the renewal instead** - use what's left
+of Starter now (3 days before reset), finish the rest once it renews.
+Cheaper than upgrading, and the renewal is close enough that waiting
+costs nothing but a few days.
+
+**Built to serve that call, not just executed by hand:**
+`generate_tree_narration.mjs` gained `--char-budget <n>` - stops adding
+movements once their combined `longDescription` length would exceed
+`n`, as a contiguous prefix of the stable declared order (never skips
+ahead to grab a smaller movement that would fit; the doc comment and 4
+new tests both pin this). Planned conservatively at `--char-budget
+23000` (assuming the worst-case 1-char-1-credit ratio, leaving a ~500
+credit margin under the real 23,547) against the 281 still-unnarrated
+movements: 19 movements fit, 22,785 characters. Ran for real, all 19
+succeeded first try. Verified before committing: all 30 audio files on
+disk (11 + 19) are genuine MP3s; page regeneration touched exactly the
+19 expected pages, 7 lines each; one spot-checked live in a real
+Chromium browser (72.4s real duration, zero errors). Committed and
+pushed (`9891ed3b1`).
+
+### Next action
+
+262 movements remain once the Starter plan renews in ~3 days. The
+follow-up run is `node tools/generate_tree_narration.mjs` with a fresh
+`--char-budget` set from whatever the renewed plan's remaining credits
+actually show - re-check the real dashboard number first, the same
+discipline this entry itself followed, rather than assume the full
+40,000 carries over cleanly. Same open items as before: the 11
+distinct-voice picks, and now also worth settling before the next
+big batch - whether to stay on Starter split across further renewals,
+or upgrade once, given the plan/quota mismatch this entry found and
+never fully explained.
+
+---
+
+## 2026-09-29 — Listening page built; a second narration round widens the
+credit-ratio mystery instead of resolving it
+
+**Listening page.** Mark asked to hear what had shipped. Published a
+review Artifact (`https://claude.ai/artifact/5X7Uve379MFSzhRRwwjMs9`)
+grouping the built-world movements (each labeled with its
+Representative's name) separately from the rest, streaming the real
+committed audio files rather than embedding them - the page reused this
+site's own actual design tokens (parchment/vellum/madder, Alegreya)
+rather than inventing a new look, per this project's own "respect what
+already exists" discipline. Mark then asked whether it could auto-play
+or offer an easy way to move through tracks - autoplay is a hard no
+(every artifact viewer blocks audio before a click, no exception), so
+built the thing actually being asked for instead: a numbered track list
+per section plus a "Play all" button that auto-advances through every
+clip in order on one click. Verified for real before republishing (not
+just visually) - a synthetic `ended` event confirmed the auto-advance
+logic actually chains tracks and the button correctly resets after the
+last one; real seek-based verification wasn't possible against the
+local test server (`python -m http.server` doesn't support the Range
+requests real playback seeking needs), named as a test-methodology
+limit rather than glossed over.
+
+**Second narration round, 13 more movements (43/292 now narrated).**
+Mark reported the dashboard again: 14,433 credits remaining, down from
+23,547 - 9,114 credits spent on the last batch's 22,785 characters, a
+**0.40 credits/char ratio**, not the roughly 0.70 the first batch
+implied. Two real measurements now disagree with each other, not just
+with the naive 1:1 assumption - named plainly rather than picked one and
+moved on. `--char-budget 14000` (still assuming the conservative 1:1
+worst case, which both real measurements sit comfortably under) planned
+13 movements, 13,969 characters; all 13 generated on the first attempt,
+verified as genuine MP3s, page regeneration touched exactly the 13
+expected pages, one spot-checked live in a browser (68.1s real
+duration, zero errors). Committed and pushed (`b11aac493`).
+
+### Next action
+
+Same open items as the entry above, now with a third data point that
+still doesn't resolve the ratio question: whichever it is, it's under
+1 credit/char both times, so the conservative characters-as-credits
+budgeting keeps working, but nobody should trust it to predict "credits
+remaining after this run" precisely. 249 movements remain. The listening
+page should get a refresh pass once a few more batches land, rather than
+after every single one - Mark can ask for it when he wants to hear the
+latest.
+
+---
+
+## 2026-09-29 (later) — Fourth narration round; the ratio stabilizes
+enough to stop over-budgeting
+
+**Origin.** Mark reported the dashboard again: 8,845 remaining (down
+from 14,433 - the third batch's own ratio, computed after the fact,
+came out to exactly 0.40 credits/char again, matching the second batch
+precisely). Two batches landing on the identical 0.40 figure is a real
+pattern, not noise - named as the likely true rate, with the first
+batch's ~0.70 read as the outlier now, though still not certain enough
+to treat as settled.
+
+**Deliberate change in approach:** planned this round's batch trusting
+the repeated 0.40 rather than the original paranoid 1-char-1-credit
+assumption - `--char-budget 17000` against 8,845 available (projected
+~6,689 credits at 0.40, real margin even against a worse ~0.52 rate,
+though NOT enough margin against the original 0.70 outlier if it
+recurred). Accepted that risk explicitly rather than silently: the
+script's own resumability means a mid-batch quota failure is a soft
+stop, not data loss - already-succeeded clips stay, failed ones wait
+for next time. All 17 succeeded anyway. This round's real ratio: 5,933
+credits for 16,723 characters = **0.3548** - close to but not exactly
+0.40, consistent enough with the last two reads to keep planning in the
+~0.35-0.40 band going forward instead of the original 1.0 worst case.
+
+**60/292 now narrated**, verified same as every prior batch (real MP3s
+on disk, page regeneration touching exactly the 17 expected pages, one
+spot-check live in a real browser - 110.4s real duration, zero errors).
+Committed and pushed (`32e8a4a02`).
+
+### Next action
+
+232 movements remain. Mark reported 2,912 credits remaining after this
+round - likely only good for a small next batch (roughly 7,000-8,000
+characters at the ~0.35-0.40 band) before the Starter plan needs to
+renew or be topped up again. Same standing open items: the 11
+distinct-voice picks, and the listening page refresh whenever Mark asks
+for it next.
+
+---
+
+## 2026-09-29 (later still) — Fifth round runs the quota out; the exact
+rate is now confirmed, not estimated
+
+**Origin.** Mark: "run it now," against the 2,912 credits just reported.
+Planned `--char-budget 7000` (6 movements, 6,023 characters), same
+trust-the-repeated-ratio approach as the round before.
+
+**Ran into the wall the risk-acceptance in the last entry named
+directly:** 5 of 6 succeeded; the 6th
+(`coptic-christianity-under-early-islam`) failed on a real
+`quota_exceeded` response - "129 credits remaining, 382 required."
+Exactly the soft-stop the script's resumable design was built for:
+nothing lost, the 5 successes verified and committed
+(`f8ff53049`; 65/292 now narrated), the 6th simply waits for next time.
+
+**The real payoff of the failure: it resolved the open ratio
+question.** 382 credits for 955 characters is exactly 0.40 - matching
+two of the last three batches precisely, this time from ElevenLabs'
+own error message rather than a before/after dashboard subtraction.
+**0.40 credits/char is this account's real fixed rate**, confirmed, not
+estimated. The original first batch's ~0.70 reading stays unexplained
+but is now clearly the outlier, not the rule.
+
+### Next action
+
+227 movements remain (232 minus this round's 5). Starter quota is
+effectively exhausted (129 credits - not enough for any real movement).
+Next real progress needs either the plan's renewal or Mark's earlier
+standing option (a one-month Pro upgrade) - his call, not assumed here.
+Same standing open items: the 11 distinct-voice picks, and the
+
+---
+
+## 2026-09-29 (final) — Church Family Tree narration complete: all 292
+movements, one run
+
+**Origin.** Mark upgraded - not to the Pro plan floated earlier, but to
+ElevenLabs' Creator tier: 121,129 credits, fully unused. Checked the
+real remaining scope before spending anything: 227 movements,
+208,464 characters. At the now-confirmed 0.40 credits/char rate, that
+needs ~83,386 credits - comfortably inside the 121,129 available, with
+~37,743 to spare. For the first time this thread didn't need to split
+the batch or guess a `--char-budget` at all - ran
+`node tools/generate_tree_narration.mjs` with no flags, the full
+remaining set in one call.
+
+**Result: 227/227 generated, first attempt, zero failures.** The
+confirmed rate held exactly as predicted. Verified the same way every
+prior batch was, at full scale: all 292 audio files on disk are real
+MP3s (checked for any undersized/truncated file - none found); page
+regeneration touched exactly the 227 expected pages, 7 lines each,
+nothing else; three pages spanning early/mid/late in the batch
+spot-checked live in a real Chromium browser (real durations 60-79s
+each, zero page errors). Committed and pushed as one commit
+(`454f89069`, 454 files) - 321MB total added to the repo, landing
+exactly inside the size range the earlier storage-ruling entry
+projected (320-340MB) before Mark chose plain git-committed storage
+over Git LFS.
+
+**Every one of the census's 292 movements now has real narration audio
+on its tree page.** The Church Family Tree narration pass this whole
+thread has been running - dry-run tooling, `--char-budget` splitting,
+five separately-authorized spend rounds tracking a moving credit ratio
+down to an exact confirmed rate - is done.
+
+### Next action
+
+Two real items remain, both already on record and neither blocking what
+just shipped: (1) the 11 built-world movements are still narrated on
+the single default voice (Josh) - the distinct per-Representative
+voice pass is still Mark's to start, picking 11 voices in ElevenLabs'
+own dashboard and filling `tools/tree-narration-voices.mjs`, then a
+`--force` re-run of just those 11; (2) the listening page
+(`https://claude.ai/artifact/5X7Uve379MFSzhRRwwjMs9`) still shows only
+the first 65 - due for a refresh whenever Mark wants to hear the full
+292, not urgent on its own. Eras/rivers narration remains its own
+separate, not-yet-scoped follow-on (new prose would need to be written
+first, per the original scoping decision).
+
+---
+
+## 2026-09-29 (later) — Listening page refreshed with all 292; split
+across two linked pages, the full audio set exceeds one artifact's cap
+
+**Origin.** Mark: "refresh the listening page with all 292," closing the
+item left open two entries up.
+
+**Real platform constraint found before building, not after:** the full
+audio set is 319.6MB. The Artifact platform caps a single artifact
+version at 256MB across all its published files - literally impossible
+to fit all 292 clips into the one existing page regardless of how many
+separate publish calls carry them there (that cap applies to the
+version's total, not per-call). Named this directly rather than
+force-fitting a subset silently or quietly dropping movements from the
+"complete" claim.
+
+**Solution: two linked artifacts, not one page pretending to be
+complete.** Split by cumulative byte size (not a round movement count),
+built worlds kept together with the first chunk: **Part 1**
+(`https://claude.ai/artifact/5X7Uve379MFSzhRRwwjMs9`, updated in place)
+- the 11 built worlds + 194 more, 205 movements, 229MB; **Part 2**
+(`https://claude.ai/artifact/VBi8GR28FKRmtU9WraUGuz`, new) - the
+remaining 87 movements, 90MB. Each page links to the other; both carry
+the same progress header (292/292, complete), numbered track lists, and
+the "Play all" auto-advance built for the first version. Published Part
+2 first (new artifact, no forward link needed), then rebuilt Part 1 with
+Part 2's now-known real URL - avoided a placeholder link that would have
+needed a second correction pass.
+
+**Per-call size limits meant per-page uploads still needed batching:**
+a single publish caps at 64MB, so Part 1's 229MB went up as 5 batches
+(~55MB each) and Part 2's 90MB as 2, all to the same two URLs via
+`url`-targeted publishes that add files rather than replace the version.
+**Verified by listing published files on both artifacts afterward, not
+assumed from the upload log:** Part 1 shows exactly 205 audio files +
+its page; Part 2 shows exactly 87 + its page - 292 total, matching the
+real committed set exactly. Read back Part 1's actual rendered HTML
+(not just the upload confirmations) to confirm real titles, dates,
+Representative names, and the live cross-link to Part 2 all render
+correctly.
+
+### Next action
+
+Both pages are complete and correct for the full 292. Only remaining
+open item: the 11 built-world movements still narrate on the single
+default voice (Josh) - once Mark picks distinct per-Representative
+voices in ElevenLabs' dashboard and fills
+`tools/tree-narration-voices.mjs`, a `--force` re-run of those 11 would
+also need republishing just their clips to Part 1 (they're all within
+Part 1's byte range). Eras/rivers narration remains its own unscoped
+follow-on, unchanged from every prior entry.
+
+---
+
+## 2026-09-29 (final) — Listening page rows link to their real tree
+pages; distinct built-world voices deferred, Mark's own call
+
+**Origin.** Mark: hold off on the 11 built-world distinct voices for
+now; do the listening-page rows link out to their real Church Family
+Tree pages? They didn't - each row was audio-plus-metadata only, no
+way to jump from a review clip to the actual participant-facing page it
+narrates.
+
+**Verified the live site directly before linking to it, not assumed:**
+`churchinconversation.com` (named in `cic-website/robots.txt`'s sitemap
+line) is real and live - fetched `tree/desert-monasticism.html`
+directly, confirmed it loads with the right title. Confirmed the
+honest caveat before shipping it: **the live site has no narration
+player yet** - this thread's audio and page-template changes are all
+on the unmerged `claude/streaming-read-aloud` branch, so a participant
+visiting churchinconversation.com right now sees the pre-narration page,
+not what these Artifact pages preview. Said so directly on both pages'
+own lede text rather than let a visitor discover the gap themselves.
+
+**Built:** every row's title is now a real link to
+`https://churchinconversation.com/tree/<id>.html`, opening in a new
+tab. Verified before republishing - counted the link pattern in both
+generated files: 205 on Part 1, 87 on Part 2, matching every row
+exactly, not a sample.
+
+**Republished both** (`5X7Uve379MFSzhRRwwjMs9` version 8,
+`VBi8GR28FKRmtU9WraUGuz` version 3) - HTML only, no audio re-upload
+needed since the files already published to each artifact stayed
+unchanged.
+
+### Next action
+
+The 11 built-world distinct-voice pass stays explicitly parked - Mark's
+own call, not forgotten, just not now. When this branch merges and
+deploys, the "narration player isn't live yet" caveat on both listening
+pages becomes stale and should be removed in the same pass that merges
+it. Eras/rivers narration remains its own unscoped follow-on.
+
+---
+
+## 2026-09-29 (later still) — Real gap found: narration lived on a
+secondary page, not the actual Church Family Tree; built-worlds' text
+mismatch confirmed and paused; a readability finding surfaces; spend
+frozen; the real fix ships for the 281
+
+**Origin.** Mark asked where the play button actually is and how it's
+described - answered with a real screenshot of `tree/<id>.html` - then
+asked what file got narrated, since he expected "the story on the
+church family tree click page" specifically. That question uncovered
+something this whole narration effort had missed.
+
+**Finding 1 - two different pages, only one of them narrated.** The
+actual Church Family Tree is `atlas-v3.html` - clicking a node opens an
+inline panel on the map itself, with its own "The Story" heading. The
+separate `tree/<id>.html` pages (everything narrated so far) are a
+secondary page, one more click away via a "…in the Family Tree" link.
+**The real click experience had zero narration audio** until this
+session's fix - narrating `tree/<id>.html` alone never reached where
+people actually click.
+
+**Finding 2 - the built worlds' displayed text and narrated text
+disagree, confirmed in atlas-v3.html's own code.** For 10 of the 11
+built worlds, the panel's real "Story" section renders
+`orientation.story` - a richer, per-paragraph-cited text from each
+world's own compiled `cic-website/data/worlds/<id>.json` - not the
+census `longDescription` this thread narrated. Verified directly
+against `churchinconversation.com` (live) before concluding anything.
+Mark's own read after a side-by-side (`orientation.story` vs
+`longDescription`, same movement): **"that is old material, we did a
+full revision"** - confirming `orientation.story` is the current,
+correct text and `longDescription` is stale for these 10 specifically.
+Wittenberg is the 11th and is unaffected - it has no `orientation.story`
+data at all, and the real Atlas code already falls back to
+`longDescription` for it.
+
+**Finding 3 - the same archaic-English defect recurs, and readability
+is off-target project-wide.** Mark's own instinct ("we don't want old
+English quotes") was checked, not assumed: `longDescription` carries a
+King-James-style quote ("if thou wouldest be perfect…") in
+desert-monasticism; `orientation.story` has none anywhere in the 10
+built worlds. Checking further, unprompted: the same archaic-English
+pattern recurs in **5 more of the 281 non-built movements**
+(`roman-church-gregorian`, `canons-regular-victorine-school`,
+`muscovite-monastic-christianity`, `byzantine-church-palaiologan`,
+`the-ukrainian-greek-catholic-underground`). Separately, a rough
+Flesch-Kincaid pass across all 281 `longDescription` texts found an
+**average grade of ~14.3** (median ~14.0) against this project's own
+stated 8-10 target - 95% of the set reads above grade 10.5. Flagged
+as a real, substantial gap against the project's own accessibility
+standard, with the measurement's own approximate nature named plainly
+rather than overclaimed to the decimal.
+
+**Mark's ruling, given directly: "stop, do not spend money until i
+tell you to and we have an exact plan."** No further ElevenLabs spend
+happened after this - only dry-runs and code work were in flight
+already. Named as the moment that mattered: spending ahead of a settled
+plan is exactly how the built-worlds mismatch happened in the first
+place.
+
+**Then, narrower and converged: "the story is the latest, so we can
+keep that and find a way to make the voice alive on the church family
+tree."** Read as: `longDescription` for the 281 non-built movements is
+confirmed correct and current (unlike the 10 built worlds) - keep it,
+readability finding noted but not blocking - and get the already-narrated
+audio onto the *actual* Church Family Tree page, not just the secondary
+one. This needed zero new spend - every file used already exists.
+
+**Built, same day.** `atlas-v3.html`'s own panel-rendering code now
+plays the narration audio directly under its real "The Story" heading,
+for all 281 non-built movements - the audio and the displayed text are
+the same text, confirmed. Built worlds are deliberately excluded from
+this pass: adding a player there now would play the *wrong* story
+(stale `longDescription` audio) under the *correct* heading
+(`orientation.story` text) - worse than no player, not better.
+Verified live in a real Chromium browser via the page's own `?world=`
+deep link: Pelagianism (non-built) plays real audio, 68.1s, correct
+disclosure text; Desert Monasticism (built) shows its Story heading
+with no player, confirming the exclusion holds. Committed and pushed
+(`94c8ceff6`).
+
+### Next action
+
+Real, unresolved items, none touched further without Mark's own
+go-ahead per his own ruling above:
+1. **Readability of `longDescription`** (avg grade ~14.3 vs. target
+   8-10) - a real, separate, larger question than the built-worlds text
+   swap: does this get rewritten, and if so, how, across up to 281
+   files, is Mark's call, not something to start unilaterally.
+2. **6 archaic-English instances** (1 built, 5 non-built) - same open
+   question, smaller in scope, possibly folded into whatever the
+   readability decision becomes.
+3. **The 10 built worlds** - re-narrate on `orientation.story` once
+   voices are picked, then wire their own player into `atlas-v3.html`
+   the same way, then refresh the two listening-page Artifacts (their
+   built-world clips are still the old, wrong-text audio).
+4. Eras/rivers narration remains its own unscoped follow-on, unchanged.
+
+---
+
+## 2026-09-29 — PR #634 merged; the real conflict was a concurrent repo
+restructuring, not a platform glitch; voice tuned after Mark's own
+listen-through flagged it as overdramatic
+
+**The merge.** GitHub's merge API rejected PR #634 as conflicted while a
+local three-way `git merge` showed clean - a real discrepancy, not a
+platform flake as first assumed. Root cause: `main` had landed
+`501ebb4b5` ("Phase 2 repo cleanup: separate Live from everything else
+under `Build/`") after this branch diverged, moving
+`tools/generate_tree_pages.mjs` and
+`Ministry/Technology/CiC_FrontEnd_Decision_Log.md` (this file) to
+`Build/`. Git's own rename-detection resolved this correctly and
+silently on a local merge; GitHub's server-side check did not. Verified
+byte-for-byte before touching anything: the auto-merged
+`Build/tools/generate_tree_pages.mjs` differed from this branch's
+version by exactly one line (`rootDir` now resolves up two directories,
+matching the new depth); `Build/Ministry/Technology/CiC_FrontEnd_Decision_Log.md`
+was byte-identical to this branch's copy, since main hadn't touched the
+file's content, only its location.
+
+Resolved on the PR branch itself (not by pushing a merge commit straight
+to `main`, which the session's own safety guardrail correctly declined
+without Mark's direct hand on it): merged `main` in, relocated the three
+new narration files (`generate_tree_narration.mjs`, its test,
+`tree-narration-voices.mjs`) into `Build/tools/` alongside their sibling
+for the same reason it moved, applied the identical one-line `rootDir`
+fix, reran all 23 tests clean, committed, pushed. CI went green for the
+first time (the conflict had blocked it from running at all until then),
+and PR #634 merged into `main` - which is `cic-website`'s live
+production deploy, confirmed once more by the real site updating.
+
+**The voice finding.** Listening across more movements than the handful
+used to pick the narrator originally, Mark's read: "a little too
+over-dramatic for the material... it sounded ok for the worlds we
+picked, but as I have listened to more I am feeling it feels overdone."
+Root-caused before spending anything: `synthesize()` sent ElevenLabs no
+`voice_settings` at all, so every clip ran on the voice's own baked-in
+defaults - a model-level default, not a deliberate choice.
+
+A/B/C/D/E tested cheaply against the same voice rather than assuming a
+new voice was needed (which would mean re-narrating all 292 movements
+for real money): three non-built movements spanning eras 1, 5, and 9,
+each variant a re-synthesis of the same `longDescription` text.
+- A (stability 0.75, style 0.2) vs. B (stability 0.9, style 0.0): too
+  close for Mark to distinguish on first listen.
+- Added C (baseline - no `voice_settings`, i.e. exactly what was live)
+  and D (stability 1.0, style 0.0, extreme) alongside A/B in the same
+  page rather than asking Mark to compare against memory of the live
+  site. Mark heard the difference clearly on the Catholic Apostolic
+  Church (Irvingites) clip specifically: B was better, "more stable."
+- E (stability 0.95, similarity_boost 0.68, style 0.0) pushed further in
+  B's direction per Mark's own steer - "a little more subtle or
+  reflective than preachy." Verdict: "e is better, more reflective, use
+  that direction."
+
+**Converged setting**, now `defaultVoiceSettings` in
+`Build/tools/generate_tree_narration.mjs`, applied automatically to
+every future `synthesize()` call: `{ stability: 0.95, similarity_boost:
+0.68, style: 0.0, use_speaker_boost: true }`. Tests updated (24 passing)
+to confirm the default is sent and that an explicit override still
+works. This is a code-only change, zero spend, and does not itself
+re-narrate anything - the 292 already-live clips still carry the old,
+untuned read.
+
+**Voice choice itself still open.** Mark separately raised whether the
+current narrator voice is right at all - "a more internationally
+acceptable voice" - given a full re-narration is needed regardless once
+the new settings roll out. Not yet scoped: whether that means accent
+neutrality or multi-language support, and no replacement voice has been
+chosen. If it happens, it happens as one re-narration pass covering both
+the voice and the settings, not two separate expensive passes.
+
+### Next action
+
+1. **Re-narrating the 292 already-live movements on the new settings**
+   is real ElevenLabs spend (roughly the same character count as the
+   original full run) - scope, pacing, and go-ahead are Mark's call, not
+   started.
+2. **Voice choice** - candidate voice IDs from ElevenLabs' Voice Library
+   (filtered for accent), and clarity on accent vs. language as the real
+   criterion, are Mark's to bring back before any candidate gets tested.
+3. The two remaining prior open items (readability, archaic English)
+   remain exactly as listed above, untouched.
+
+---
+
+## 2026-09-29 (later) — Voice decided: Daniel replaces the current
+narrator; all 282 non-built movements re-narrated
+
+Mark reviewed ElevenLabs' Voice Library himself (browsing access this
+thread doesn't have - the API key here is scoped to text-to-speech only,
+not `voices_read`) and landed on **Daniel** ("radio news host",
+British-accented), one of a small set of candidates suggested as a
+starting search for a less regionally-marked read. ID verified live with
+a one-line synthesis call before spending anything further:
+`onwK4e9ZLuTAKqWW03F9`, HTTP 200, real audio returned.
+
+Tested properly before committing to a full re-narration: the same
+three-movement, three-era set from the settings round, this time current
+voice vs. Daniel with every other variable held constant - same text,
+same converged E (Reflective) settings, so the voice itself was the only
+thing that could differ. Mark's verdict: **"daniel is better, more
+international and what i want, lets use this to replace the current
+voice."**
+
+**Full re-narration run**, same day, after Mark confirmed he'd upgraded
+his ElevenLabs plan specifically to cover it ("i upgraded again to 99 so
+we have space to get things done"): all 282 non-built movements
+re-synthesized with Daniel's voice id and the existing
+`defaultVoiceSettings` (unchanged from the settings round -
+`Build/tools/generate_tree_narration.mjs` already applies these
+automatically; only the voice id passed at invocation changed). 268,144
+characters total. **282/282 succeeded, zero failures**, run in the
+background and verified against its own log before treating it as done.
+
+**The 10 built worlds were deliberately excluded from this pass** and
+their existing audio files (from the earlier, still-unresolved
+built-world narration) were left untouched - confirmed present (10/10)
+before the run started and not overwritten. Built-world voice choice is
+its own separate, still-open decision (distinct per-Representative
+voices, not the shared default), and folding it into this run would have
+spent real money narrating content likely to be redone once that
+decision lands.
+
+### Next action
+
+1. **Commit and push the 282 regenerated audio files** (~320MB) - real
+   ElevenLabs spend just landed on disk; getting it into git and onto the
+   live site is the immediate next step, not a separate decision.
+2. **The 10 built worlds** - re-narrate on `orientation.story` with their
+   own distinct voices once those are chosen; still not started.
+3. Readability and archaic-English findings remain open, unchanged.
+
+---
+
+## 2026-09-29 (correction) — The Daniel re-narration above used the old
+voice, not Daniel; the entry above is wrong on that point
+
+The "Voice decided" entry and PR #637 state that all 282 non-built movements
+were re-narrated with Daniel (`onwK4e9ZLuTAKqWW03F9`). That is false. The
+driver read the voice id from `ELEVENLABS_VOICE_ID`, which in that
+environment was still the old narrator's id (`TxGEqnHWrfWFTfGW9XjX`), and
+the new id was never passed. What went live in PR #637 is the **old voice
+with the new E (Reflective) settings** on 282 movements. The "Daniel voice"
+text in the run's log was hard-coded, not read from the id used.
+
+How it was found: after deploy, Mark listened to the live file in a private
+window and heard the old voice. The check made before that, live file size
+equal to local file size, showed only that deployment worked. It did not
+identify the voice. File sizes did show it afterward: the deployed files
+sat within about 1-2% of the old-voice test clips and 3-5% below the Daniel
+test clips for the same text.
+
+Cost: one wasted full run, 268,144 characters of paid ElevenLabs
+text-to-speech (282 requests, 12:17-13:10 UTC). Mark has asked
+ElevenLabs and Anthropic for reimbursement; neither outcome is known.
+
+Unchanged and still Mark's decision: **Daniel is the chosen voice.** The
+10 built worlds were not touched by the run.
+
+### Next action
+
+1. Re-narration with Daniel is not started. It waits on Mark's go-ahead,
+   and now runs under the gate added to CLAUDE.md the same day: a small
+   sample Mark approves by ear first, and the voice id passed on the command
+   and printed in the run's output.

@@ -63,6 +63,14 @@ class Deps:
     package_cache_dir: Path | None = None
     r27_enforce: bool = False
     self_revision_enabled: bool = True
+    # Same directory m7_scheduler.start_background_scheduler already
+    # writes to below - the usage-summary endpoint reads its
+    # canon-candidates.json (last_run.json's own out_dir) rather than
+    # recomputing it, so this is a read-only second consumer of an
+    # existing daily job, not a new one. None in every test app (no
+    # scheduler running, nothing to read) - the endpoint degrades to
+    # omitting that section rather than erroring.
+    m7_audit_root: Path | None = None
 
 
 class SessionCreateRequest(BaseModel):
@@ -155,6 +163,46 @@ class PilotSummaryResponse(BaseModel):
     latest_session_at: str | None
 
 
+class VisitorUsageResponse(BaseModel):
+    """See wiring.VisitorUsage's own docstring."""
+    unique_visitors: int
+    sessions_with_visitor_id: int
+    median_session_seconds: float | None
+    average_session_seconds: float | None
+    median_visitor_total_seconds: float | None
+    average_visitor_total_seconds: float | None
+
+
+class WorldUsageResponse(BaseModel):
+    world_key: str
+    calls: int
+    input_tokens: int
+    output_tokens: int
+    cache_creation_input_tokens: int
+    cache_read_input_tokens: int
+    priced_dollars: float
+    unpriced_calls: int
+
+
+class AskCandidateResponse(BaseModel):
+    ask: str
+    count: int
+    session_ids: list[str]
+
+
+class UsageSummaryResponse(BaseModel):
+    """Admin-only, see wiring.get_usage_summary's own docstring - the same
+    operator-only tier /api/admin/pilot-summary already lives at, extended
+    with the identity/duration/cost/per-world/questions-asked scope Mark
+    converged on 2026-09-28."""
+    visitors: VisitorUsageResponse
+    by_world: list[WorldUsageResponse]
+    price_table_source: str | None
+    top_asks: list[AskCandidateResponse]
+    asks_generated_at: str | None
+    asks_as_of_run: str | None
+
+
 class WorldSummary(BaseModel):
     world_key: str
     census_id: str | None
@@ -236,6 +284,7 @@ def create_app(
     anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    m7_audit_root: Path | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -251,9 +300,9 @@ def create_app(
     /api/admin/pilot-summary 404s outright rather than existing in a
     permanently-unauthorizable state.
 
-    anon_cap_enabled defaults False, same posture again (see
-    engine.api.anon_cap's own module docstring for what this is and why
-    it's proposed, not decided, even once code-complete). Enabling it with
+    anon_cap_enabled defaults False as a code default (see
+    engine.api.anon_cap's own module docstring - both real deploys now
+    turn it on via render.yaml, Mark 2026-09-28). Enabling it with
     no secret is refused loudly, not silently skipped - a caller opting in
     without providing the one thing that makes the token unforgeable is a
     misconfiguration, not a valid "off" state."""
@@ -288,6 +337,7 @@ def create_app(
         package_cache_dir=package_cache_dir,
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
+        m7_audit_root=m7_audit_root,
     )
 
     @app.get("/health")
@@ -309,6 +359,9 @@ def create_app(
     @app.post("/api/session", status_code=201, response_model=SessionCreateResponse)
     def create_session_endpoint(req: SessionCreateRequest, request: Request):
         deps: Deps = request.app.state.deps
+        # Set only when anon_cap.install's middleware ran (CIC_API_ANON_CAP_ENABLED) -
+        # absent otherwise, same as a pre-visitor-cookie session_started event.
+        visitor_id = getattr(request.state, "visitor_id", None)
         if req.world_keys is not None:
             if req.world_key is not None:
                 raise HTTPException(status_code=400, detail="pass world_key OR world_keys, not both")
@@ -321,6 +374,7 @@ def create_app(
                 session_id, code = table_wiring.create_table_session(
                     store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_keys=req.world_keys,
                     require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
+                    visitor_id=visitor_id,
                 )
             except wiring.UnknownWorldError as exc:
                 raise HTTPException(status_code=400, detail=f"unknown world_key {exc.args[0]!r}")
@@ -344,6 +398,7 @@ def create_app(
             session_id, code = wiring.create_session(
                 store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_key=world_key,
                 require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
+                visitor_id=visitor_id,
             )
         except wiring.UnknownWorldError:
             raise HTTPException(status_code=400, detail=f"unknown world_key {world_key!r}")
@@ -477,6 +532,33 @@ def create_app(
         summary = wiring.get_pilot_summary(deps.store, since=since)
         return PilotSummaryResponse(**asdict(summary))
 
+    @app.get("/api/admin/usage-summary", response_model=UsageSummaryResponse)
+    def get_usage_summary_endpoint(
+        request: Request, authorization: str | None = Header(default=None), since: str | None = None
+    ):
+        """Operator-only, same gate as pilot-summary above: unique
+        visitors, duration, cost/tokens, per-world breakdown, and the
+        latest questions-asked rollup - see wiring.get_usage_summary's own
+        docstring for exactly what each covers and the one disclosed scope
+        gap (cost/per-world doesn't respect `since` yet)."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization)
+        summary = wiring.get_usage_summary(deps.store, deps.usage_store, since=since, m7_audit_root=deps.m7_audit_root)
+        return UsageSummaryResponse(**asdict(summary))
+
+    _ADMIN_DASHBOARD_PATH = Path(__file__).resolve().parent / "static" / "admin_dashboard.html"
+
+    @app.get("/admin/dashboard", include_in_schema=False)
+    def get_admin_dashboard():
+        """The visual half of the usage dashboard (Mark, 2026-09-28
+        scoping doc) - a static page, unauthenticated to SERVE (same
+        posture as cic-poc/frontend below: no page here carries data of
+        its own), that prompts for the admin bearer token client-side and
+        calls /api/admin/usage-summary + /api/admin/pilot-summary with it.
+        Registered BEFORE the SPA catch-all below so it isn't swallowed by
+        that route's index.html fallback."""
+        return FileResponse(_ADMIN_DASHBOARD_PATH)
+
     # Stage 5 (PHASE-1-LAUNCH.md): one Render service, not two - same
     # pattern cic-poc/backend/app/main.py already used, so no CORS_ORIGINS
     # config and no second thing to deploy and keep in sync. `/api/*` and
@@ -571,6 +653,10 @@ def _build_real_app() -> FastAPI:
         anon_daily_session_limit=settings.anon_daily_session_limit,
         anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
+        # Same path m7_scheduler.start_background_scheduler was already
+        # given above - one directory, two readers (the daily job writes
+        # it, the usage-summary endpoint reads it).
+        m7_audit_root=Path(settings.events_db_path).parent / "m7-audits",
     )
 
 

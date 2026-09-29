@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/church-of-the-east-chaldean-consolidation.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>The Church of the East — the church that once sent bishops from Baghdad as far as China — entered this century reduced to the mountains and plains of the Ottoman-Persian borderland and divided between rival patriarchal lines, one in communion with Rome and one not. In 1830 Rome confirmed John Hormizd as patriarch of Babylon, consolidating the Chaldean Catholic Church as a single body. The line that stayed independent kept its seat in the mountain village of Qudshanis in Hakkari, its patriarchate passing from uncle to nephew, and its people came to be known as the Assyrian Church of the East. Both then found themselves courted by outsiders. American Congregationalist missionaries settled at Urmia in the 1830s and gave the region a printing press and schools in the spoken Syriac of the day. From 1886 the Archbishop of Canterbury sent a mission expressly instructed to strengthen the ancient church rather than convert its members.</p></div>
   </section>
 

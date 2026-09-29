@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/russian-church-synodal-century.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>For this whole century the Russian Orthodox Church had no patriarch. It was governed by a Holy Synod whose chief lay officer, the ober-procurator, answered to the tsar — an arrangement that produced both an immense institution and a cramped one. Metropolitan Filaret of Moscow gave Russia its standard catechism and pressed for decades for a Bible in modern Russian, finished in 1876 over long resistance. Missions went out to the Altai peoples, to Alaska and to Japan. Monasteries and their elders drew crowds, and a parish priest, John of Kronstadt, became the most sought-after confessor in the empire. But under Konstantin Pobedonostsev, ober-procurator for a quarter-century, the church was also the instrument of a policy of religious uniformity that pressed hard on Old Believers, Eastern Catholics and evangelicals alike. When toleration was finally decreed in 1905, the church immediately began preparing the council that would give it back its own head.</p></div>
   </section>
 
