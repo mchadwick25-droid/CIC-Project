@@ -1,0 +1,272 @@
+"""After-edit gates: `records` and `regate`.
+
+`records <code>` fails when a world lacks a record type the site and the
+facilitator need (world_front, facilitator_brief, search_record), lacks its
+compiled site JSON, or cannot produce its capsule. A world outside the
+grandfathered set may not carry a waiver for any of these.
+
+`regate <code> [--base REF]` re-runs the readability gate (FK 10 and FRE 60
+hard, FK 8 reported) and the voice-craft budget over the records changed
+since the merge-base with REF, and reports the same fields of the whole
+world. The scorer is the M1 gate's own (engine.m1.gates.grade_text); this
+module holds no thresholds of its own. A field fails when its text is new
+or edited and does not clear the gates. A public field left as it was at the
+base is reported, not failed: it cannot have regressed.
+"""
+from __future__ import annotations
+
+import subprocess
+from dataclasses import dataclass
+from pathlib import Path
+
+from engine.m1 import cross_world, gates, schemas
+from engine.m1.fk import fk_grade
+from engine.m1.loader import load_world_records, parse_record_text
+from engine.m9.enforce import GRANDFATHERED_WORLDS
+
+from .common import REPO_ROOT, Finding, Report, emit, registry_entry
+
+DEFAULT_BASES = ("origin/main", "main", "HEAD")
+FRONT_TYPES = ("world_front", "facilitator_brief")
+FRONT_PROSE_KEYS = frozenset({"text", "teaser", "note", "hedge"})
+FRONT_PROSE_LISTS = frozenset({"cautions"})
+SITE_DATA_DIR = REPO_ROOT / "cic-website" / "data" / "worlds"
+
+
+@dataclass(frozen=True)
+class PublicField:
+    rid: str
+    record_type: str
+    label: str
+    text: str
+    path: str = ""
+
+
+def front_prose_checks(rec: dict) -> list[tuple[str, str]]:
+    """(label, text) for each authored prose string in a world_front or
+    facilitator_brief record. Bare record ids (mode 2), grounding ids, urls,
+    dates and titles are not prose and are skipped; mode 2 text is graded as
+    the field of the record it renders."""
+    found: list[tuple[str, str]] = []
+
+    def walk(node, path: str, key: str | None) -> None:
+        if isinstance(node, dict):
+            for k, v in node.items():
+                walk(v, f"{path}.{k}" if path else k, k)
+        elif isinstance(node, list):
+            for i, v in enumerate(node):
+                walk(v, f"{path}[{i}]", key)
+        elif isinstance(node, str) and node.strip():
+            if key in FRONT_PROSE_KEYS or key in FRONT_PROSE_LISTS:
+                found.append((path, node))
+
+    for field in schemas.TYPE_PROPERTIES.get(rec.get("record_type"), {}):
+        if field in rec:
+            walk(rec[field], field, field)
+    return found
+
+
+def public_fields(records: dict[str, dict]) -> list[PublicField]:
+    """Every field of the world a participant, the model or a facilitator
+    reads as prose: the M1 gate's spoken fields, and the front and brief."""
+    out: list[PublicField] = []
+    for rid, rec in sorted(records.items()):
+        record_type = rec.get("record_type")
+        pairs = gates._readability_checks(record_type, rec)
+        if record_type in FRONT_TYPES:
+            pairs = pairs + front_prose_checks(rec)
+        seen: dict[str, int] = {}
+        for label, text in pairs:
+            seen[label] = seen.get(label, 0) + 1
+            unique = label if seen[label] == 1 else f"{label}#{seen[label]}"
+            out.append(PublicField(rid, record_type, unique, text, rec.get("_path", "")))
+    return out
+
+
+def readability_failures(item: PublicField) -> list[str]:
+    graded = gates.grade_text(item.text)
+    if graded is None:
+        return []
+    reasons = []
+    if graded["fk"] > gates.FK_CEILING:
+        reasons.append(f"FK grade {graded['fk']:.1f}, above the ceiling of {gates.FK_CEILING}")
+    if graded["fre"] < gates.FRE_FLOOR:
+        reasons.append(f"FRE {graded['fre']:.1f}, below the floor of {gates.FRE_FLOOR}")
+    return reasons
+
+
+def below_band_floor(item: PublicField) -> bool:
+    graded = gates.grade_text(item.text)
+    return graded is not None and graded["fk"] < gates.FK_FLOOR
+
+
+def voice_budget(rec: dict) -> dict:
+    """{"words", "ceiling", "fk"} for a voice_craft record's prompt text."""
+    parts = gates.voice_craft_prompt_parts(rec)
+    return {
+        "words": sum(len(p.split()) for p in parts),
+        "ceiling": gates.voice_craft_word_ceiling(rec),
+        "fk": fk_grade(" ".join(p for p in parts if p)),
+    }
+
+
+def voice_budget_failures(head: dict, base: dict | None) -> list[str]:
+    """Reasons a voice_craft record fails the budget. Words above the ceiling
+    and FK above the ceiling each fail when the record is new, was within the
+    limit at the base, or is worse than it was at the base."""
+    now = voice_budget(head)
+    then = voice_budget(base) if base is not None else None
+    reasons = []
+    if now["words"] > now["ceiling"] and (then is None or then["words"] <= then["ceiling"] or now["words"] > then["words"]):
+        reasons.append(f"identity+guard+flavor_notes+characteristic_concerns total {now['words']} words, above the ceiling of {now['ceiling']}")
+    if now["fk"] > gates.FK_CEILING and (then is None or then["fk"] <= gates.FK_CEILING or now["fk"] > then["fk"]):
+        reasons.append(f"identity+guard+flavor_notes+characteristic_concerns read at FK grade {now['fk']:.1f}, above the ceiling of {gates.FK_CEILING}")
+    return reasons
+
+
+def _git(root: Path, *args: str) -> str:
+    return subprocess.run(["git", *args], cwd=root, check=True, capture_output=True, text=True).stdout
+
+
+def resolve_merge_base(root: Path, base: str | None) -> str:
+    candidates = (base,) if base else DEFAULT_BASES
+    last_error = ""
+    for ref in candidates:
+        try:
+            return _git(root, "merge-base", ref, "HEAD").strip()
+        except subprocess.CalledProcessError as exc:
+            last_error = (exc.stderr or "").strip()
+    raise ValueError(f"cannot resolve a base ref from {', '.join(candidates)}: {last_error}")
+
+
+def changed_record_paths(root: Path, code: str, merge_base: str) -> set[str]:
+    prefix = f"records/{code}/"
+    names = _git(root, "diff", "--name-only", "--diff-filter=ACMR", merge_base, "--", prefix).splitlines()
+    names += _git(root, "ls-files", "--others", "--exclude-standard", "--", prefix).splitlines()
+    return {n for n in names if n.endswith(".md")}
+
+
+def base_records(root: Path, code: str, merge_base: str) -> dict[str, dict]:
+    """The world's records as they stood at the merge-base."""
+    out: dict[str, dict] = {}
+    for name in _git(root, "ls-tree", "-r", "--name-only", merge_base, "--", f"records/{code}/").splitlines():
+        if not name.endswith(".md") or name.count("/") != 3:
+            continue
+        try:
+            rec = parse_record_text(_git(root, "show", f"{merge_base}:{name}"), f"{merge_base}:{name}")
+        except ValueError:
+            continue
+        if rec.get("id"):
+            out[rec["id"]] = rec
+    return out
+
+
+def compare_world(head: dict[str, dict], base: dict[str, dict], changed_paths: set[str]) -> tuple[list[Finding], list[str]]:
+    findings: list[Finding] = []
+    base_texts = {(f.rid, f.label): f.text for f in public_fields(base)}
+    fields = public_fields(head)
+    graded = edited = carried_over = below_floor = 0
+    for item in fields:
+        if gates.grade_text(item.text) is not None:
+            graded += 1
+        is_edited = base_texts.get((item.rid, item.label)) != item.text
+        reasons = readability_failures(item)
+        if is_edited:
+            edited += 1
+            if below_band_floor(item):
+                below_floor += 1
+            for reason in reasons:
+                findings.append(Finding(item.path or item.rid, "readability", f"{item.rid}: {item.label}: {reason}"))
+        elif reasons:
+            carried_over += 1
+    for rid, rec in sorted(head.items()):
+        if rec.get("record_type") != "voice_craft":
+            continue
+        if rec.get("_path") in changed_paths or rid not in base:
+            for reason in voice_budget_failures(rec, base.get(rid)):
+                findings.append(Finding(rec.get("_path", rid), "voice-budget", f"{rid}: {reason}"))
+    notes = [
+        f"{len(fields)} public-facing fields checked, {graded} long enough to grade, {edited} new or edited",
+    ]
+    if below_floor:
+        notes.append(f"{below_floor} edited field(s) below FK {gates.FK_FLOOR} (reported, not failed)")
+    if carried_over:
+        notes.append(f"{carried_over} unchanged field(s) already failed at the base; not a regression")
+    return findings, notes
+
+
+def run_regate(code: str, base: str | None = None, root: Path = REPO_ROOT) -> Report:
+    report = Report(f"regate {code}")
+    if registry_entry(code, root) is None:
+        report.findings.append(Finding(f"records/worlds/{code}.yaml", "registry", "no registry entry for this world code"))
+        return report
+    try:
+        merge_base = resolve_merge_base(root, base)
+        changed = changed_record_paths(root, code, merge_base)
+        before = base_records(root, code, merge_base)
+    except (ValueError, subprocess.CalledProcessError) as exc:
+        report.findings.append(Finding(f"records/{code}", "base", str(exc)))
+        return report
+    findings, notes = compare_world(load_world_records(code), before, changed)
+    report.findings.extend(findings)
+    report.notes.extend([f"{len(changed)} record file(s) changed since {merge_base[:10]}", *notes])
+    return report
+
+
+def required_type_waivers(code: str) -> list[str]:
+    prefixes = (f"required-record-type/{code}/", f"required-site-json/{code}")
+    return sorted(k for k in cross_world.ACCEPTED_OPEN if k.startswith(prefixes))
+
+
+def run_records(code: str, root: Path = REPO_ROOT) -> Report:
+    report = Report(f"records {code}")
+    entry = registry_entry(code, root)
+    if entry is None:
+        report.findings.append(Finding(f"records/worlds/{code}.yaml", "registry", "no registry entry for this world code"))
+        return report
+    records = load_world_records(code)
+    present = {r.get("record_type") for r in records.values()}
+    grandfathered = code in GRANDFATHERED_WORLDS
+    waivers = set(required_type_waivers(code))
+    path = f"records/{code}"
+
+    def missing(key: str, reason: str) -> None:
+        if key in waivers and grandfathered:
+            report.notes.append(f"{key}: waived for a grandfathered world ({reason})")
+        else:
+            report.findings.append(Finding(path, "required-record-type" if key.startswith("required-record") else "required-site-json", reason))
+
+    for record_type in cross_world._REQUIRED_ADMITTED_RECORD_TYPES:
+        if record_type not in present:
+            missing(f"required-record-type/{code}/{record_type}", f"no {record_type} record")
+    census_id = entry.get("census_id")
+    site_json = SITE_DATA_DIR / f"{census_id}.json" if census_id else None
+    if site_json is None or not site_json.is_file():
+        missing(f"required-site-json/{code}", f"no compiled site JSON at cic-website/data/worlds/{census_id or '<no census_id>'}.json")
+    if not grandfathered:
+        for key in sorted(waivers):
+            report.findings.append(Finding(path, "waiver-not-allowed", f"{key}: a world outside the grandfathered set cannot waive a required record type"))
+    try:
+        from engine.m2 import builders
+
+        if not builders.build_capsule(records, entry):
+            report.findings.append(Finding(path, "capsule", "the capsule builds empty"))
+    except Exception as exc:  # any build failure means the capsule is not producible
+        report.findings.append(Finding(path, "capsule", f"the capsule cannot be built: {type(exc).__name__}: {exc}"))
+    return report
+
+
+def add_parser(subparsers) -> None:
+    p = subparsers.add_parser("records", help="the world carries every required record type and its site JSON, has no waiver for them, and can build its capsule")
+    p.add_argument("world_code")
+    p.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
+    p = subparsers.add_parser("regate", help="readability and the voice-craft budget on every new or edited public-facing field since the base ref")
+    p.add_argument("world_code")
+    p.add_argument("--base", default=None, help="git ref to compare against (default: origin/main, then main, then HEAD)")
+    p.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
+
+
+def run(args) -> int:
+    if args.command == "records":
+        return emit([run_records(args.world_code)], as_json=args.json)
+    return emit([run_regate(args.world_code, args.base)], as_json=args.json)

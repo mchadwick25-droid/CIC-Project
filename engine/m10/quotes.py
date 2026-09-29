@@ -1,0 +1,244 @@
+"""Re-verification of every quotation in the Step 0-2 documents (handoff check 8)."""
+from __future__ import annotations
+
+import itertools
+import re
+from pathlib import Path
+
+import yaml
+
+from engine.m1.quote_verbatim import (
+    collapse_linewrap_hyphens,
+    normalize_archaic_letterforms,
+    strip_apparatus,
+    strip_edition_apparatus,
+    strip_xml_markup,
+    verify_quote_against_notes,
+    verify_quote_text,
+)
+
+from .common import REPO_ROOT, Finding, read_text, rel, world_dir
+
+MIN_WORDS = 5
+FAST_HITS = 20
+WINDOW_SHARE = 0.5
+_ELLIPSIS = re.compile(r"\.\.\.|…")
+_STRAIGHT = re.compile(r'"([^"]+)"')
+_CURLY = re.compile(r"“([^”]+)”")
+_PATH = re.compile(r"cic/texts/([\w.\-]+\.(?:txt|xml))")
+_FILENAME = re.compile(r"\b([\w\-]+_[\w.\-]+\.(?:txt|xml))\b")
+_REVIEWISH = re.compile(r"review|spotcheck|round|verification|history", re.IGNORECASE)
+_NORM = re.compile(r"\s+")
+
+
+def _squash(text: str) -> str:
+    return " ".join(re.sub(r"[\W_]+", " ", text.lower()).split())
+
+
+def paragraphs(text: str) -> list[str]:
+    out, current = [], []
+    for line in text.splitlines():
+        if not line.strip():
+            if current:
+                out.append(" ".join(current))
+                current = []
+            continue
+        current.append(re.sub(r"^\s*>\s?", "", line).strip())
+    if current:
+        out.append(" ".join(current))
+    return out
+
+
+def extract_quotations(paragraph: str) -> tuple[list[str], bool]:
+    """Quoted spans of MIN_WORDS words or more, and whether the straight
+    quotation marks could be paired."""
+    balanced = paragraph.count('"') % 2 == 0
+    spans = []
+    if balanced:
+        spans += _STRAIGHT.findall(paragraph)
+    spans += _CURLY.findall(paragraph)
+    spans = [re.sub(r"[*`]", "", s).strip().strip(".,;:!?").strip() for s in spans]
+    return [s for s in spans if len(s.split()) >= MIN_WORDS], balanced
+
+
+class TextStore:
+    def __init__(self, texts_dir: Path):
+        self.texts_dir = texts_dir
+        self._raw: dict[str, str | None] = {}
+        self._plain: dict[str, str] = {}
+        self._search: dict[str, str] = {}
+        self._processed: dict[str, str] = {}
+        self.prefixes: dict[str, list[str]] = {}
+        if texts_dir.is_dir():
+            for p in sorted(texts_dir.iterdir()):
+                if p.suffix in (".txt", ".xml"):
+                    self.prefixes.setdefault(p.stem.split("_")[0], []).append(p.name)
+
+    def exists(self, name: str) -> bool:
+        return (self.texts_dir / name).is_file()
+
+    def _load(self, name: str) -> tuple[str, str] | None:
+        if name not in self._raw:
+            path = self.texts_dir / name
+            if not path.is_file():
+                self._raw[name] = None
+            else:
+                raw = strip_edition_apparatus(path.read_text(encoding="utf-8", errors="replace"), name)
+                self._raw[name] = raw
+                self._plain[name] = strip_xml_markup(raw) if path.suffix == ".xml" else raw
+        raw = self._raw[name]
+        return None if raw is None else (raw, self._plain[name])
+
+    def _proc(self, name: str) -> str:
+        if name not in self._processed:
+            plain = self._plain[name]
+            self._processed[name] = normalize_archaic_letterforms(strip_apparatus(collapse_linewrap_hyphens(plain)))[0]
+        return self._processed[name]
+
+    def may_contain(self, span: str, name: str) -> bool:
+        """Cheap screen before the exact matcher: at least WINDOW_SHARE of the
+        quotation's three-word runs must occur in the file once case and
+        punctuation are set aside. It only ever rules a file out; the exact
+        matcher alone accepts a quotation."""
+        if self._load(name) is None:
+            return False
+        if name not in self._search:
+            self._search[name] = _squash(self._proc(name))
+        words = _squash(normalize_archaic_letterforms(span)[0]).split()
+        if len(words) < 4:
+            return True
+        windows = [" ".join(words[i : i + 3]) for i in range(len(words) - 2)]
+        found = sum(1 for w in windows if w in self._search[name])
+        return found / len(windows) >= WINDOW_SHARE
+
+    def _fast(self, span: str, name: str):
+        """The exact matcher, run on a slice of the file around each place the
+        quotation's first three words occur. A match inside a slice is a match
+        in the file; a miss here settles nothing, and the full pass follows."""
+        if _ELLIPSIS.search(span):
+            return None
+        normalized = normalize_archaic_letterforms(span)[0]
+        opening = re.findall(r"\w+", normalized)[:3]
+        if len(opening) < 3:
+            return None
+        text = self._proc(name)
+        anchor = re.compile(r"\W+".join(re.escape(t) for t in opening), re.IGNORECASE)
+        for hit in itertools.islice(anchor.finditer(text), FAST_HITS):
+            piece = text[max(0, hit.start() - 200) : hit.start() + 3 * len(normalized) + 400]
+            result = verify_quote_text(normalized, piece, source_is_xml=False, apply_letterform_normalization=False)
+            if result.verified:
+                return result
+        return None
+
+    def verify(self, span: str, name: str):
+        loaded = self._load(name)
+        if loaded is None or not self.may_contain(span, name):
+            return None
+        fast = self._fast(span, name)
+        if fast is not None:
+            return fast
+        raw, plain = loaded
+        result = verify_quote_text(span, plain, source_is_xml=False)
+        if result.verified:
+            return result
+        return verify_quote_against_notes(span, raw) or result
+
+    def cited_in(self, text: str) -> list[str]:
+        names = list(_PATH.findall(text)) + list(_FILENAME.findall(text))
+        for token in set(re.findall(r"\b[a-z]+\d+[a-z]?\b", text)):
+            names += self.prefixes.get(token, [])
+        return [n for n in dict.fromkeys(names) if self.exists(n)]
+
+
+def _norm(text: str) -> str:
+    text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
+    return _NORM.sub(" ", text).lower().strip()
+
+
+def _project_texts(code: str, root: Path, exclude: Path) -> dict[str, str]:
+    """Documents a quotation may legitimately quote instead of a source."""
+    files: list[Path] = []
+    for directory in (root / "Build" / "worlds" / "_cross-world", world_dir(code, root), root / "Build" / "reference"):
+        if directory.is_dir():
+            files += [p for p in sorted(directory.rglob("*.md")) if not _REVIEWISH.search(p.name) and "Review-Artifacts" not in p.parts]
+    files += [p for p in (root / "CLAUDE.md", root / "cic-website" / "data" / "world-census.json") if p.is_file()]
+    out = {}
+    for p in files:
+        if p != exclude:
+            out[rel(p, root)] = _norm(read_text(p))
+    return out
+
+
+def _bucket_rows(slug: str | None, root: Path) -> list[dict]:
+    if not slug:
+        return []
+    path = root / "cic" / "corpus-map" / f"{slug}.yaml"
+    if not path.is_file():
+        return []
+    return list((yaml.safe_load(read_text(path)) or {}).get("works") or [])
+
+
+def _speaker_tokens(value: str) -> set[str]:
+    return {t for t in re.split(r"[^a-z]+", str(value).lower()) if len(t) > 3}
+
+
+def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, slug: str | None = None, verbose: bool = False) -> tuple[list[Finding], list[str]]:
+    store = TextStore(root / "cic" / "texts")
+    rows = _bucket_rows(slug, root)
+    files_by_name: dict[str, list[dict]] = {}
+    for row in rows:
+        files_by_name.setdefault(row.get("source_file", ""), []).append(row)
+    bucket_files = [n for n in files_by_name if store.exists(n)]
+
+    findings: list[Finding] = []
+    notes: list[str] = []
+    checked = exempt = 0
+    for doc in documents:
+        where = rel(doc, root)
+        text = read_text(doc)
+        doc_cited = store.cited_in(text)
+        project: dict[str, str] | None = None
+        for para in paragraphs(text):
+            spans, balanced = extract_quotations(para)
+            if not balanced:
+                findings.append(Finding(where, "quotes-unbalanced", f"cannot pair the quotation marks in this paragraph, so its quotations are unchecked: {para[:70]!r}"))
+            para_cited = store.cited_in(para)
+            for span in spans:
+                checked += 1
+                tiers = [para_cited, doc_cited, bucket_files]
+                hit = None
+                tried: list[str] = []
+                for tier in tiers:
+                    for name in tier:
+                        if name in tried:
+                            continue
+                        tried.append(name)
+                        result = store.verify(span, name)
+                        if result is not None and result.verified:
+                            hit = name
+                            break
+                    if hit:
+                        break
+                if hit is None:
+                    if project is None:
+                        project = _project_texts(code, root, doc)
+                    needle = _norm(span)
+                    source = next((p for p, body in project.items() if needle in body), None)
+                    if source:
+                        exempt += 1
+                        if verbose:
+                            notes.append(f"{where}: quotation is from project document {source}: {span[:60]!r}")
+                        continue
+                    where_tried = f"the {len(tried)} cited or assigned cic/texts file(s)" if tried else "any cic/texts file (none cited or assigned)"
+                    findings.append(Finding(where, "quotes-unverified", f"not found word for word in {where_tried}: {span[:90]!r}"))
+                    continue
+                file_rows = files_by_name.get(hit, [])
+                mixed = [r for r in file_rows if r.get("voice_of")]
+                if mixed:
+                    named: set[str] = set()
+                    for r in file_rows:
+                        named |= _speaker_tokens(r.get("author", "")) | _speaker_tokens(r.get("voice_of") or "")
+                    if not (named & _speaker_tokens(para)):
+                        findings.append(Finding(where, "quotes-speaker", f"{hit} mixes voices (voice_of {mixed[0]['voice_of']!r}); the paragraph does not name the speaker of: {span[:70]!r}"))
+    notes.insert(0, f"{checked} quotation(s) of {MIN_WORDS}+ words checked, {exempt} taken from project documents")
+    return findings, notes

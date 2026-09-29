@@ -532,6 +532,15 @@ def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
     return checks
 
 
+def grade_text(text: str) -> dict | None:
+    """The one place a field's FK grade and FRE are taken for the readability
+    gate: {"fk", "fre"}, or None when the text is under
+    MIN_WORDS_FOR_READABILITY_CHECK words and so is not graded at all."""
+    if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
+        return None
+    return {"fk": fk_grade(text), "fre": fre_score(text)}
+
+
 def _grade_records(items) -> list[str]:
     # FK grade is a paragraph-level heuristic (this module's own header:
     # "good enough to gate obviously dense prose, not lexicographic
@@ -552,14 +561,13 @@ def _grade_records(items) -> list[str]:
     findings = []
     for rid, rec in items:
         for field, text in _readability_checks(rec.get("record_type"), rec):
-            if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
+            graded = grade_text(text)
+            if graded is None:
                 continue
-            grade = fk_grade(text)
-            if grade > FK_CEILING:
-                findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, above the ceiling of {FK_CEILING}")
-            fre = fre_score(text)
-            if fre < FRE_FLOOR:
-                findings.append(f"{rid}: {field} scores FRE {fre:.1f}, below the floor of {FRE_FLOOR}")
+            if graded["fk"] > FK_CEILING:
+                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, above the ceiling of {FK_CEILING}")
+            if graded["fre"] < FRE_FLOOR:
+                findings.append(f"{rid}: {field} scores FRE {graded['fre']:.1f}, below the floor of {FRE_FLOOR}")
     return findings
 
 
@@ -610,11 +618,9 @@ def _floor_observations(items) -> list[str]:
     findings = []
     for rid, rec in items:
         for field, text in _readability_checks(rec.get("record_type"), rec):
-            if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
-                continue
-            grade = fk_grade(text)
-            if grade < FK_FLOOR:
-                findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
+            graded = grade_text(text)
+            if graded is not None and graded["fk"] < FK_FLOOR:
+                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
     return findings
 
 
@@ -681,6 +687,19 @@ VOICE_CRAFT_WORD_CEILING_BY_WORLD = {
 }
 
 
+def voice_craft_prompt_parts(rec: dict) -> list[str]:
+    """The four voice_craft fields that compile into every turn's prompt,
+    as the texts the word budget counts."""
+    parts = [rec.get("identity") or "", rec.get("guard") or ""]
+    parts += [n.get("note", "") for n in (rec.get("flavor_notes") or [])]
+    parts += list(rec.get("characteristic_concerns") or [])
+    return parts
+
+
+def voice_craft_word_ceiling(rec: dict) -> int:
+    return VOICE_CRAFT_WORD_CEILING_BY_WORLD.get(rec.get("world_id"), VOICE_CRAFT_WORD_CEILING)
+
+
 def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
     """The four voice_craft fields compile into every turn's own prompt
     (engine/m2/builders.py build_prompt(), "Who we are"/"How we speak") -
@@ -698,11 +717,8 @@ def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
     for rid, rec in records.items():
         if rec.get("record_type") != "voice_craft":
             continue
-        parts = [rec.get("identity") or "", rec.get("guard") or ""]
-        parts += [n.get("note", "") for n in (rec.get("flavor_notes") or [])]
-        parts += list(rec.get("characteristic_concerns") or [])
-        total_words = sum(len(p.split()) for p in parts)
-        ceiling = VOICE_CRAFT_WORD_CEILING_BY_WORLD.get(rec.get("world_id"), VOICE_CRAFT_WORD_CEILING)
+        total_words = sum(len(p.split()) for p in voice_craft_prompt_parts(rec))
+        ceiling = voice_craft_word_ceiling(rec)
         if total_words > ceiling:
             findings.append(
                 f"{rid}: identity+guard+flavor_notes+characteristic_concerns total "
@@ -764,7 +780,7 @@ _ATTRIBUTION_FIELDS = ATTRIBUTION_FIELDS
 #     here is still worth a human's eyes before treating it as confirmed,
 #     same as any other gate finding in this battery.
 #   - _STALE_STATUS: e.g. "WORKING SCOPE, NOT A RULING: world identity is
-#     still open; this record is draft until that decision and revises
+#     undecided; this record is draft until that decision and revises
 #     with it" - the one leak shape with no ISO date in it at all, so it
 #     needed its own pattern (the pattern matches the literal phrase
 #     "NOT A RULING", the marker a record author would actually type).

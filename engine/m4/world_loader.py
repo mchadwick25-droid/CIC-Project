@@ -25,6 +25,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from engine.m2.loader_stub import PackageRefused, verify_package_dict
+from engine.m10.deployed import assert_compiled_target
 
 __all__ = ["LoadedWorld", "LoadTiming", "LazyWorldLoader", "PackageRefused"]
 
@@ -110,6 +111,7 @@ class LazyWorldLoader:
             self._last_accessed[cache_key] = time.monotonic()
             return cached, LoadTiming(world_key=world_key, cache_hit=True, seconds=time.perf_counter() - start)
 
+        assert_compiled_target(package_dir / "compiled" / "prompt.txt")
         manifest_path = package_dir / "manifest.json"
         if not manifest_path.exists():
             raise PackageRefused(f"no manifest.json under {package_dir}")

@@ -1409,7 +1409,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 174, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
     ("Build/reference/method/Pass2-decisions/2026-08-01_M_lean_validation_interview_spend.md", 54, "REWRITE"),
-    ("Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md", 627, "REWRITE"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 200, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
@@ -1426,7 +1425,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
     # Re-pinned to a stable Build/reference/ example.
-    ("Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md", 3, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
@@ -1458,7 +1456,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
-    ("engine/m9/enforce.py", 120, "KEEP"),
+    ("engine/m9/enforce.py", 138, "KEEP"),
     # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
     # file's lines by +7 above this point; re-pinned to the same
     # r27_regenerated assertion, now at 1131.

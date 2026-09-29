@@ -84,15 +84,18 @@ Usage:
                                             JSON (used by the test suite and
                                             by PR C/D to enumerate work)
 
-Exit code: always 0. This is a report, not a gate - see the module-level
-CI job (.github/workflows/ci.yml, "Live-surface commentary scan") that
-runs it on every push and never fails the run.
+Exit code: 0 by default, a report. With `--base REF --enforce` the scan is
+limited to files a change adds or edits relative to the merge-base with REF,
+and the exit code is 1 when any of those files still carries a REWRITE or
+ROUTE line: a change that edits a live file also removes the commentary
+already in it. KEEP and PROTECTED lines never fail the run.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import re
+import subprocess
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -1332,21 +1335,69 @@ def run(repo: Path, surfaces: list[str]) -> list[Hit]:
     return hits
 
 
+def surface_of(rel: Path) -> str | None:
+    """The scan surface a repo-relative path belongs to, if any."""
+    rel_s = rel.as_posix()
+    for surface, roots in SURFACES.items():
+        if any(rel_s == root or rel_s.startswith(root + "/") for root in roots):
+            return surface
+    return None
+
+
+def changed_files(repo: Path, base: str) -> list[Path]:
+    """Files added or modified since the merge-base with `base`, working
+    tree included, plus untracked files. Deleted files carry no commentary."""
+    def git(*args: str) -> str:
+        return subprocess.run(["git", *args], cwd=repo, check=True, capture_output=True, text=True).stdout
+
+    merge_base = git("merge-base", base, "HEAD").strip()
+    names = git("diff", "--name-only", "--diff-filter=ACMR", merge_base).splitlines()
+    names += git("ls-files", "--others", "--exclude-standard").splitlines()
+    return sorted({repo / n for n in names if n})
+
+
+def run_changed(repo: Path, files: list[Path]) -> list[Hit]:
+    hits: list[Hit] = []
+    for path in files:
+        rel = path.relative_to(repo)
+        surface = surface_of(rel)
+        if surface is None or not path.is_file():
+            continue
+        if any(part in SKIP_DIR_NAMES for part in rel.parts):
+            continue
+        if path.suffix in SKIP_SUFFIXES or path.suffix not in TEXT_SUFFIXES:
+            continue
+        hits.extend(scan_file(repo, path, surface))
+    return hits
+
+
+BLOCKING_CATEGORIES = ("REWRITE", "ROUTE")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--surface", choices=sorted(SURFACES), default=None)
     parser.add_argument("--json", type=Path, default=None)
+    parser.add_argument("--base", default=None, help="scan only files changed since the merge-base with this git ref")
+    parser.add_argument("--enforce", action="store_true", help="exit 1 when a scanned file carries REWRITE or ROUTE lines (needs --base)")
     args = parser.parse_args(argv)
+    if args.enforce and not args.base:
+        parser.error("--enforce needs --base: the rule is scoped to the files a change edits")
 
-    surfaces = [args.surface] if args.surface else sorted(SURFACES)
-    hits = run(REPO, surfaces)
+    if args.base:
+        surfaces = [args.surface] if args.surface else sorted(SURFACES)
+        hits = [h for h in run_changed(REPO, changed_files(REPO, args.base)) if h.surface in surfaces]
+    else:
+        surfaces = [args.surface] if args.surface else sorted(SURFACES)
+        hits = run(REPO, surfaces)
 
     counts: dict[str, dict[str, int]] = {}
     for hit in hits:
         counts.setdefault(hit.surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
         counts[hit.surface][hit.category] += 1
 
-    print("Live-surface commentary scan (report-only; see tools/check_live_commentary.py)\n")
+    scope = f"files changed since the merge-base with {args.base}" if args.base else "whole tree"
+    print(f"Live-surface commentary scan ({scope}; see tools/check_live_commentary.py)\n")
     for surface in surfaces:
         c = counts.get(surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
         total = sum(c.values())
@@ -1361,6 +1412,14 @@ def main(argv: list[str] | None = None) -> int:
             json.dumps([hit.__dict__ for hit in hits], indent=2) + "\n", encoding="utf-8"
         )
 
+    blocking = [h for h in hits if h.category in BLOCKING_CATEGORIES]
+    if args.enforce and blocking:
+        print(f"\n{len(blocking)} REWRITE/ROUTE line(s) in files this change edits: remove the commentary "
+              "(rewrite the reason in plain present tense; move provenance to Build/Ministry, open items to "
+              "Open_Gaps_Tracking.md).", file=sys.stderr)
+        for hit in blocking:
+            print(f"  {hit.row()}", file=sys.stderr)
+        return 1
     return 0
 
 

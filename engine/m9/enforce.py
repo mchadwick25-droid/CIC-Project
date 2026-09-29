@@ -9,13 +9,16 @@ ACCEPTED_OPEN here is a *different* registry from engine/m1/cross_world.py's
 own ACCEPTED_OPEN (RF-10): that one is `dict[str, str]`, a finding key to a
 one-line reason; this one is `dict[str, Waiver]`, because a library-access
 waiver additionally carries a deadline and an owner (SS4.2) - the same
-spirit ("a known defect stays visible, not suppressed"), a different shape,
+spirit (a defect stays visible, not suppressed), a different shape,
 because these are different scopes. A key here is `<layer>:<check>/<world>`,
 e.g. `"m1:reciprocity/don"`, `"m9:voicing-pair/don"`.
 
 GRANDFATHERED_WORLDS is the fixed set of worlds built before this gate
 existed - it only ever shrinks, never grows (SS4.2). A waiver naming a
-world outside it is itself a hygiene failure: grandfathering is closed.
+world outside it is itself a hygiene failure: grandfathering is closed. The
+one way through is an exception the project lead has approved: the waiver
+then carries both an owning finding (`owner`) and `approved_by` naming
+PROJECT_LEAD, and without both it stays a failure.
 `fix` is deliberately absent from that set and gets no special-case code
 to keep it out of enforcement - the fixture world must already be 100%
 clean, so if it ever isn't, that is exactly the kind of drift this gate
@@ -74,11 +77,26 @@ GRANDFATHERED_WORLDS = frozenset(
 FLEET_PSEUDO_WORLD = "_fleet"
 
 
+PROJECT_LEAD = "Mark Chadwick"
+
+
 @dataclass(frozen=True)
 class Waiver:
     count: int
     deadline: str  # ISO "YYYY-MM-DD" - the day this waiver must be gone
     owner: str  # the finding and thread that own the repair
+    approved_by: str = ""  # required, and must name PROJECT_LEAD, for any world outside GRANDFATHERED_WORLDS
+
+
+def new_world_waiver_problem(waiver: Waiver) -> str | None:
+    """Why a waiver on a world outside GRANDFATHERED_WORLDS is not allowed,
+    or None when it carries both an owning finding and the project lead's
+    own approval."""
+    if not waiver.owner.strip():
+        return "it names no owning finding"
+    if waiver.approved_by.strip() != PROJECT_LEAD:
+        return f"it lacks approved_by: {PROJECT_LEAD!r}"
+    return None
 
 
 # Populated from the first real run against the fleet, not from D3 SS4.3's
@@ -233,8 +251,10 @@ def hygiene_problems(by_world: dict[str, dict[str, list[str]]], *, today: str | 
             problems.append(f"{key}: {count} unwaived finding(s) - new, undocumented drift")
             continue
         if world_key not in GRANDFATHERED_WORLDS and world_key != FLEET_PSEUDO_WORLD:
-            problems.append(f"{key}: waived, but {world_key!r} is not grandfathered - grandfathering is closed")
-            continue
+            reason = new_world_waiver_problem(waiver)
+            if reason is not None:
+                problems.append(f"{key}: waived, but {world_key!r} is not grandfathered - grandfathering is closed, and {reason}")
+                continue
         if waiver.count != count:
             direction = "the waiver is stale - tighten it" if waiver.count > count else "new drift beyond the waiver"
             problems.append(f"{key}: waiver says {waiver.count}, this run found {count} - {direction}")
