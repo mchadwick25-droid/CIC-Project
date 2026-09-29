@@ -12,3 +12,13 @@ assignments:
       An English diplomat's outside account of the Greek and Armenian churches. Second witness
       only: the OCR is uneven (about 78 percent of text lines are mostly real words) and the
       opening pages are noise. Check any quotation against page images.
+  - work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
+    author: rycaut
+    locus: title pages at about file lines 185-195 and 16607; the chapters from line 1297
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Placed on
+      the entry's window (1650-1821). An English diplomat's outside account of 1678; about 78% of the OCR
+      lines are readable words.

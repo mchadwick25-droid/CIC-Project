@@ -15,3 +15,22 @@ assignments:
       1453-1650); this edition is a late witness to practice and law, so its place here is a
       provisional shelf assignment for the world's builders to confirm. Second witness only:
       the Greek OCR is heavily garbled in accents and vowels.
+  - work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
+    author: nikodemos-hagiorite
+    locus: whole volume; the March entries from about file line 3401
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: provisional
+    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Placed on
+      the entry's window (1650-1821). Same reasoning as volume 1; second witness only.
+  - work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
+    author: nikodemos-hagiorite
+    locus: whole volume; the March entries from about file line 3401
+    atlas_ids:
+    - the-kollyvades-and-greek-renewal
+    role: tradition
+    confidence: provisional
+    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Nikodemos
+      the Hagiorite is a leading figure of the Kollyvades renewal (this placement rests on that historical
+      identification, not on the file's own text). Garbled 1900 scan, second witness only.

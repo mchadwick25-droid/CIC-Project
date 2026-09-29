@@ -13,3 +13,13 @@ assignments:
       the orders of ordination and other services. A late printed witness to rites that were
       in use across the Ottoman period, not a text of the world's own century. Second witness:
       accents partly garbled.
+  - work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
+    author: euchologion-to-mega
+    locus: title page at about file line 623-655 (Zerbos's edition, Venice 1862); the rites follow
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: provisional
+    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Placed on
+      the entry's window (1650-1821). A Greek liturgical book printed in 1862; provisional because its date
+      is later than the window and its Ottoman-era text tradition is not shown.

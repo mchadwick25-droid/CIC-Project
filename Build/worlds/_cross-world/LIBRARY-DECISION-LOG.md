@@ -13,6 +13,53 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — Cross-world placements for the Ottoman Orthodoxy sources are made now, by the Library
+
+**Ruling, Mark's own words:** "do the cross-world now, i don't think the
+build is a rigorous as you are and they may miss it".
+
+**Context.** The 17 sources vendored for
+`orthodoxy-under-the-ottomans-parish-millet-and-n` were first assigned only
+to that entry, and the cross-world homes were put to Mark as a question
+because cross-world placement is an "Always ask" category. He answered that
+the Library should place them itself.
+
+**What was placed** (all rows are in `cic/corpus-map/_staging/`; the reasoning
+is in each row's own note):
+- `the-kyiv-mohyla-orthodox-revival`: Mogila's Confession, in Overbeck's
+  English and in Kimmel's Greek and Latin (tradition, assigned).
+- `the-union-of-brest-and-ruthenian-greek-catholic-`: the same two Mogila
+  rows (context, provisional; the file text was not checked for its treatment
+  of the union).
+- `the-reformed-cities-zurich-and-geneva`: Lucaris's Confession in three
+  editions (context, provisional; whether Lucaris was a Calvinist is disputed)
+  and Aymon's edition of Lucaris's letters (context, assigned: the first letter
+  is addressed to the Republic of Geneva and the second to Diodati at Geneva,
+  verified against the file's table of contents).
+- `lutheran-wittenberg-and-its-congregations`: the 1584 Acta, the Tubingen
+  theologians' letters (tradition, provisional, since they are Tubingen and
+  not Wittenberg theologians) and the Patriarch's answers (context,
+  provisional).
+- `orthodoxy-under-the-ottomans-1650-1821`: Dositheus and the 1672 Synod in
+  English and Greek, Georgirenes, Rycaut, Smith, and the later Greek books
+  (Pedalion, Synaxaristes, Euchologion, Horologion, all provisional).
+- `the-kollyvades-and-greek-renewal`: Nikodemos's Pedalion and Synaxaristes
+  (tradition, provisional; the placement rests on Nikodemos's historical
+  identification as a Kollyvade, not on the files' own text).
+- `byzantine-church-palaiologan`: Sphrantzes, Cananus, Anagnostes and Doukas
+  (context, provisional).
+
+**Not placed.** `russian-church-stoglav-to-nikon`: Mogila's Confession reached
+Moscow only after the window's mid-century, and no file text supports the
+fit. It waits for that entry's own build.
+
+**Changed.** Two new corpus-map buckets
+(`byzantine-church-palaiologan`, `orthodoxy-under-the-ottomans-1650-1821`)
+and added rows in six existing ones. Nothing in any built world's records or
+package: the corpus map is outside the compile path.
+
+---
+
 ## 2026-09-29 — Non-Western worlds may proceed on an honestly lopsided ecology, Ottoman Orthodoxy first; a protected English translation points to a public-domain original
 
 **Ruling, Mark's own words, two messages in one session.** On the source

@@ -13,3 +13,14 @@ assignments:
       Eastern church and its monasteries. A late printed witness to office books in use across
       the Ottoman period. RIGHTS FLAG: the printed year is not legible in the OCR; see the
       registry row. Second witness: accents partly garbled.
+  - work: Horologion to mega (the Great Horologion), Venice edition, Greek
+    author: horologion-to-mega
+    locus: title page about file lines 166-190; Koutloumousianos's notice to readers at line 207; the Patriarch's
+      reply at about line 763
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: provisional
+    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Placed on
+      the entry's window (1650-1821). Greek liturgical book; its year rests on the host catalogue (front
+      matter suggests the 1830s), so provisional.

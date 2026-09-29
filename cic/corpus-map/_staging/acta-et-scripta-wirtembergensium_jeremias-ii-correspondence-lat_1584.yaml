@@ -34,3 +34,28 @@ assignments:
       A Lutheran party's letters and rejoinders: the view from outside the Greek church, and
       the party that printed the Patriarch's replies in its own Latin. Latin usable; long-s
       and column-layout errors.
+  - work: The Wirtemberg theologians' letters, Augsburg Confession and answering texts (Latin)
+    author: acta-et-scripta-wirtembergensium
+    locus: prefaces, letters and the Augsburg Confession from about file line 432 to 9670; answering texts
+      under running heads 'Responsum ad primum' (for example from line 23148)
+    atlas_ids:
+    - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: 'Cross-world placement, Mark''s instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Lutheran
+      voice: the Tubingen theologians'' letters and their defence of the Augsburg Confession to the Patriarch
+      of Constantinople, 1573-81. They are Tubingen theologians (Andreae, Crusius and others), not Wittenberg''s
+      faculty, and the volume was printed at Wittenberg in 1584; so the fit to this entry is provisional.
+      Latin only in this file.'
+  - work: Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession, 1576-1581
+      (Latin translation)
+    author: jeremias-ii
+    locus: running heads 'Primum Patriarchae Responsum' from about file line 9677, 'Secundum' from 31218,
+      'Tertium' from 51252
+    atlas_ids:
+    - lutheran-wittenberg-and-its-congregations
+    role: context
+    confidence: provisional
+    note: 'Cross-world placement, Mark''s instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). The view
+      of Lutheranism from outside: the Patriarch''s three answers to the Lutheran theologians. Latin only;
+      the Greek columns are not recovered in this file.'

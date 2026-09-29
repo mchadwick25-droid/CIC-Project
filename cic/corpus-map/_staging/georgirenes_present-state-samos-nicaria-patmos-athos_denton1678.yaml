@@ -14,3 +14,14 @@ assignments:
       translator (the catalogue names Henry Denton). In-church author speaking through a
       translator; the English wording is the translator's, so second witness for Georgirenes's
       own phrasing.
+  - work: A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos
+    author: georgirenes
+    locus: title page at file lines 70-135; the whole text follows
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: assigned
+    note: Cross-world placement, Mark's instruction 2026-09-29 (see LIBRARY-DECISION-LOG.md). Placed on
+      the entry's window (1650-1821). Georgirenes was a Greek archbishop writing in 1678 for an English
+      audience, in a translator's English; the translator's identity is the host catalogue's attribution,
+      not the title page's.
