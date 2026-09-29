@@ -13,6 +13,38 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — Step 0 of the Greek and Latin Apologists: Approved to proceed
+
+**Disposition, by the Library thread (no escalation category applies).**
+Both Step 0 documents are Approved to proceed, for the Step 0 document only.
+Approved to proceed unblocks Doc_01 and nothing more. Neither is Frozen, which
+only the project lead assigns.
+
+| document | review outcome | substantial revisions after Round 5 | review artifacts | disposition |
+|---|---|---|---|---|
+| `Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md` (I.35) | Round 5: no substantial revision (earlier text). Round 6: substantial revision required (MODERATE R36-R38, LOW R39-R44). Round 7: no substantial revision required (LOW R56, applied as a wording correction) | 1 | `Build/worlds/grkap/Review-Artifacts/Step0_Round6_Review.md`, `Step0_Round7_Review.md` (identical copies in `latap/Review-Artifacts/`) | Approved to proceed |
+| `Build/worlds/latap/Step0_Movement_Scope_Confirmation.md` (I.43) | Round 5: no substantial revision (earlier text). Round 6: substantial revision required (MODERATE R45-R48, LOW R49-R55). Round 7: no substantial revision required (LOW R57, applied to the dossier) | 1 | same files | Approved to proceed |
+
+**Cap count.** Counted from the significant new material, per the ruling
+above: the Round 6 fixes were the first substantial revision of each
+document; two more would have been allowed.
+
+**Not conditions of the disposition; routed to the project lead** (Round 7,
+Escalations): whether the cross-build flags already in
+`records/pahc/figure/pahc.figure.justin.md` and
+`records/alx/figure/alx.figure.antony.md` reach the voice (the Library found
+they do not, from the compiler's code); the census phrases the two documents
+list for correction (including that the census says Tertullian's *Apology*
+"opens the Latin case", against the approved slate's wording rule); the
+Syriac records' two defects ("Eusebius accuses"; a `Documented` tag on an
+inferred date); the IJC Lactantius wording.
+
+**Doc_01 obligations carried.** Greek Apologists: §4 items 3 and 4. Latin
+Apologists: the wording rules at §4 item 1 (the *Apology* does not "open" the
+Latin case; Minucius and Commodian carry Contested dates).
+
+---
+
 ## 2026-09-29 — The three-round cap counts from significant new material
 
 **Ruling, Mark's own words**, on how the cic-build-cycle cap of three rounds

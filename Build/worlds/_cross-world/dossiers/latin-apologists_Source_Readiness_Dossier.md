@@ -73,7 +73,7 @@ counted.
 | Against the Valentinians | tertullian | tradition | assigned | 15,014 words | ANF03; CSEL 47 scan; Oehler II |
 | An Answer to the Jews | tertullian | tradition | assigned | 22,346 words | ANF03; Oehler II |
 | Apology (Apologeticus) | tertullian | tradition | assigned | 38,163 words | ANF03; Oehler I |
-| Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment; Five Books in Reply to Marcion) | tertullian | tradition | assigned | 32,001 words (his largest work) | ANF04 |
+| Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment; Five Books in Reply to Marcion) | tertullian | tradition | assigned | 32,001 words | ANF04 |
 | De Fuga in Persecutione (Flight in Persecution) | tertullian | tradition | provisional (Montanist marker weak) | 9,879 words | ANF04; Oehler I |
 | On Baptism | tertullian | tradition | assigned | 9,747 words | ANF03; CSEL 20 scan |
 | On Exhortation to Chastity (De Exhortatione Castitatis) | tertullian | tradition | provisional | 7,814 words | ANF04; Oehler I |

@@ -8,7 +8,7 @@ why it exists.
 **Time window:** c. 124–200 CE
 **Region(s):** Athens, Rome, Sardis, Antioch
 **Dossier author / date:** source-acquisition research thread, 2026-09-21.
-**Refresh, 2026-09-29:** not yet independently reviewed. Sections 1 to 5
+**Refresh, 2026-09-29:** reviewed with its Step 0 in Rounds 6 and 7. Sections 1 to 5
 are restated to the library as it stands: the corpus-map shelf (17 works),
 the original-language witnesses added to `cic/texts/`, the Apologists
 window slate and the Tatian ruling in
@@ -27,7 +27,7 @@ This candidate already carries five rounds of independent adversarial
 review of its Step 0 (Movement-Scope Confirmation),
 `Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md`
 (`Review-Artifacts/Step0_Round1_Review.md` through `Step0_Round5_Review.md`),
-and a later revision that awaits its next independent review. Step 0 did
+and a later revision reviewed in Rounds 6 and 7 (`Step0_Round6_Review.md`, `Step0_Round7_Review.md`). Step 0 did
 extensive, source-verified work on sourcing (B1), ecology (B2), and
 built-world uniqueness (B3). This dossier does not repeat that work. It
 adds what Step 0 doesn't do: a corpus-wide sweep for vendored material
