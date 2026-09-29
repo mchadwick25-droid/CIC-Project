@@ -296,7 +296,7 @@ subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 
 | Check | What it is | When it runs | Command |
 |---|---|---|---|
-| Handoff verifier | Runs the 12 handoff checks of Section 4 and confirms Steps 0–2 exist and cleared review. | Start of the world, before Step 3. | `handoff <code>` |
+| Handoff verifier | Runs the 12 handoff checks of Section 4 and confirms Steps 0–2 exist and cleared review. For a world built before this process, it reads the project lead's re-baseline declaration and reports the accepted round-cap and verdict-wording items separately. | Start of the world, before Step 3. | `handoff <code>` |
 | Handoff quote check | Re-verifies every Step 0–2 quotation against the vendored text in `cic/texts/`, speaker included. It also runs the locus check (`quotes-locus`): a quotation whose paragraph carries a `cic:<file>:<locus>` address must lie inside the division that address names, and a locus that names no division is a finding. A quotation in a paragraph with no address is not checked for locus. | Same run. | `handoff <code>` |
 | Pre-review bundle | One command that runs `engine.m2.cli build`, `engine.m1.bar_screen`, `engine.m1.cross_world` and `engine.m9.cli holdings`, and saves the output for the review brief. | Before every review round. `--doc N` names the document by its number and only checks that its file exists. | `prereview <code> --doc N` |
 | Citation resolver | Every record id and citation in a document or probe file resolves and is the right record type. | On every document and every probe file, before review. | `citations <code>` |
@@ -469,6 +469,19 @@ thread stops and sends the world back to the source-research thread.
     each step cleared in, and the date. It lives at
     `Build/worlds/<code>/build/<code>_Handoff_Manifest.md`. The build thread
     reads it first.
+
+**A world built before this process may carry a re-baseline declaration.**
+The project lead accepts the approvals such a world already holds, so the
+handoff checks only what was left open. The declaration is one file,
+`Build/worlds/<code>/build/<code>_Rebaseline_Declaration.md`, in the format of
+`Build/reference/L4-Templates/Handoff_Rebaseline_Declaration_Template.md`.
+It can accept only two approval-history failures: a document with more than
+three review rounds, and a latest verdict worded "CLEARED" instead of
+"Approved to proceed". It records the review-file count on disk, so a review
+file added later voids the acceptance. The gate reports each accepted item as
+`ACCEPTED (project lead declaration <date>)` and never accepts any other
+check. A world built under this process cannot use it.
+`handoff <code> --draft-declaration` prints a draft from the files on disk.
 
 **Mark signs off each handoff and launches each world build.** The build
 starts at Step 3. It never redoes Steps 0–2 or the library search, and it

@@ -14,6 +14,7 @@ from .common import REPO_ROOT, Report, emit
 from .gaps import check_gaps
 from .handoff import Deps, run_handoff
 from .prereview import run_prereview
+from .rebaseline import draft_declaration
 from .reviewfile import check_review_file
 from .rounds import ROUTE_MESSAGE, check_rounds
 
@@ -38,6 +39,9 @@ def _load_optional() -> list:
 
 
 def cmd_handoff(args: argparse.Namespace) -> int:
+    if args.draft_declaration:
+        print(draft_declaration(args.world_code, args.root), end="")
+        return 0
     reports = run_handoff(args.world_code, Deps(root=args.root), quotes=not args.skip_quotes)
     return emit(reports, as_json=args.json)
 
@@ -86,6 +90,7 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("handoff", help="the twelve handoff checks, including quote re-verification")
     p.add_argument("world_code")
     p.add_argument("--skip-quotes", action="store_true", help="skip check 8, the quote re-verification; the run then exits non-zero as incomplete (local iteration only)")
+    p.add_argument("--draft-declaration", action="store_true", help="print a pre-filled re-baseline declaration from the current disk state, without running the checks or writing a file")
     _common_flags(p)
     p.set_defaults(func=cmd_handoff)
 

@@ -1441,3 +1441,23 @@ is a standing tooling gap in build apparatus rather than in any deployed artifac
 none is blocking in the sense CO-022 uses that word. Per CLAUDE.md's own rule, entries in this
 file are append-only and numbered; a merged entry's number does not change, and any future
 cross-reference should cite subject and date, not a bare OG-number alone.*
+
+### OG-21. Present state of `lpc` at the V2.0 re-baseline, 2026-09-29: records exist, Datus's identity is decided, no registry entry, and the numbering of the canon-closure entries collides.
+
+Logged 2026-09-29 by the V2.0 re-baseline thread, from the files on disk. This entry states the present truth; it does not edit any earlier entry.
+
+- **Records exist.** 310 record files sit under `records/lpc/` (14 record types). Earlier entries that describe the records as not yet built are out of date.
+- **Identity decided.** Datus, Bishop of the Kept Flock, is recorded as the Representative in `lpc_Decision_Log.md` and the System Hub Decision Log. No identity-options file exists; whether one is required is a question for the project lead (stop point 1 of the launch prompt).
+- **No registry entry, no `build/` folder before today.** `records/worlds/lpc.yaml` does not exist, so handoff checks 1, 2, 4, 5 and 6 fail until it does. Only the project lead creates it and sets `safety_adjacent`. The `build/` folder, state file, cost ledger and re-baseline declaration were created on 2026-09-29.
+- **Numbering collisions.** OG-14 to OG-17 (PR #557) and the entry renumbered to OG-18 (PR #562) were numbered on two branches off the same base. OG-18 sits after OG-19 in file order. Noted, not renumbered; cite by subject and date.
+- **OG-4** attributes "relied on for nothing" to the Doc_04 appendix, which says the opposite (Doc_04 relies on Gesta act 158). See the Doc_04 independent check of 2026-09-29.
+
+### OG-22. Independent checks of what was left open, Phase L0, 2026-09-29: five review files, findings carried here so none lives only in a thread.
+
+Each check is an independent Opus 5.5 re-confirmation, not a revision round. Files are in `Build/worlds/lpc/Review-Artifacts/`. Findings below are the reviewers' own; each is to be verified against source before any fix.
+
+- **Doc_04** (`Doc04_Independent_Check_2026-09-29.md`). No open finding changes a gravity, a classification or an Interaction Matrix relation; candidate 5 is Supporting at every site. Still open: Round 11 M1, M2, M4, M6 and most LOW/COSMETIC items; Round 8 H1(d). New N1 (stale pointers to closed Open Items 6 and 8 in Doc_04, Docs 05, 07, 08 and the G5 record, needing one named change order), N2 (Lancel source record still lists act 158 as a speech), N3 (Lancel source record `rights_status: public-domain` for an in-copyright edition; the 411-Gesta limit record repeats it), N4 to N7 (LOW).
+- **Doc_08** (`Doc08_Round9_Targeted_Check_2026-09-29.md`). Forces analysis and Index values correct; generator reproduces the Index byte for byte. Two HIGH: the verdict parser takes the first verdict word in a review file, and any mention of "approved to proceed" reads as approval. Doc_08's Disposition claims both fixed. Four MEDIUM, six LOW, two COSMETIC. Round 8 H2 remains open, so OG-3 is partly stale.
+- **Doc_02 and `Source_Registry.md`** (`Doc02_Returned_Review_Independent_Check_2026-09-29.md`). Eight location claims from 2026-09-13 resolved. Open: 6 P1, 6 P2. Row 44's Confidence letter; act-158 fix to row 65 not applied; Doc_02 lines 93 and 97 still say CIL VIII and the Codex Theodosianus are not vendored; corpus count false (map holds 104 raw, 94 tradition, 92 titles; four CSEL 51 to 53 entries lack a row); rows 14 and 213 changed by PR #557 round 3 without review; Possidius passages out of date against Doc_01 §5.
+- **Docs 03, 05, 06, 07** (`L0_Docs03-05-06-07_Carried_Open_Check_2026-09-29.md`). Correction: Doc_07 is on the seven-dimension lens spine (§2A to §2G); OG-9's Doc_07 bullet recorded a defect in the old Doc_07 template. Doc_05 is the document that does not carry the spine (Completion Standard V1.4, section F, against Construction Framework V7.4 Step 5). Other open items: Doc_07 §2F overstates an absence (Possidius Vita ch. V); Doc_07 Round 2 NEW-L2, L4, L5, C2 not applied; lexicon terms `lpclex017` and `lpclex018` and records `lpc.term.libelli` and `lpc.term.libellatici-sacrificati` deny attestation that Cyprian's Epistle LI carries; no lexicon-index generator exists though the index claims one; Doc_05 §11 items and Doc_03 tagging question undisposed; statuses out of date on the 411 Gesta.
+- **Routing.** All five reach a project-lead decision on how to close (rounds against the cap, change orders, waivers). See the stop point 1 package.

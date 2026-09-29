@@ -30,6 +30,7 @@ class Report:
     notes: list[str] = field(default_factory=list)
     skipped: bool = False
     incomplete: bool = False
+    accepted: list[str] = field(default_factory=list)
 
     @property
     def ok(self) -> bool:
@@ -41,7 +42,7 @@ class Report:
         return self.ok and not self.incomplete
 
     def to_dict(self) -> dict:
-        return {
+        out = {
             "check": self.name,
             "pass": self.ok,
             "skipped": self.skipped,
@@ -49,22 +50,33 @@ class Report:
             "findings": [asdict(f) for f in self.findings],
             "notes": self.notes,
         }
+        if self.accepted:
+            out["accepted"] = self.accepted
+        return out
 
 
 def emit(reports: list[Report], *, as_json: bool) -> int:
     ok = all(r.passed for r in reports)
+    accepted = sum(len(r.accepted) for r in reports)
     if as_json:
-        print(json.dumps({"pass": ok, "reports": [r.to_dict() for r in reports]}, indent=2))
+        doc = {"pass": ok, "reports": [r.to_dict() for r in reports]}
+        if accepted:
+            doc["accepted"] = accepted
+        print(json.dumps(doc, indent=2))
         return 0 if ok else 1
     for r in reports:
         for f in r.findings:
             print(f.line())
+        for a in r.accepted:
+            print(a)
     for r in reports:
         for n in r.notes:
             print(f"note: {r.name}: {n}")
     for r in reports:
         status = "INCOMPLETE (a required check did not run)" if r.incomplete else "SKIPPED" if r.skipped else "PASS" if r.ok else f"FAIL ({len(r.findings)} finding(s))"
-        print(f"{r.name}: {status}")
+        print(f"{r.name}: {status}" + (f" ({len(r.accepted)} accepted)" if r.accepted else ""))
+    if accepted:
+        print(f"accepted by project lead declaration: {accepted}")
     return 0 if ok else 1
 
 

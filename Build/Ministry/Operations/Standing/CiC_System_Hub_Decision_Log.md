@@ -5781,3 +5781,50 @@ The project lead ruled on the items left open in the addendum above.
 **Still owed by the project lead before the pilot:** the metered-spend ceiling for one world's lean
 validation set; the two pilot worlds; and the `/usage` reading at the start of each world. The
 Athanasius of Alexandria assessment in the Facilitator Brief backlog is still open.
+
+---
+
+## 2026-09-29 — `lpc` re-baseline: accept the approvals it holds, check what was left open, build the rest to V2.0
+
+The project lead asked that `lpc` be finished in a separate thread to Process V2.0 standards. A read-only
+assessment (handoff and gate checks run against the world without changing it) found `lpc` far ahead of a
+fresh world in content and far behind V2.0 on paperwork. Steps 0 to 9 and the old Representative phases 1
+to 7 are approved to proceed (self-disposed, or by the project lead's direct instruction, some after more
+than three review rounds). About 309 records are authored. There is no registry entry, no `build/` folder,
+no Doc_10, and no observed validation: the old phase 5 battery was simulated. Handoff failed 8 of 12
+checks, and six documents (Steps 0, 1, 2 and Docs 04, 08, 09) exceed the three-round cap.
+
+**Alternatives considered**
+
+- A. Accept every existing approval and check nothing further. Cheapest; leaves carried-open findings
+  unchecked by anyone independent.
+- B. Re-baseline everything: re-review the older documents under V2.0, Doc_04 redrafted by Fable.
+  Strongest and most expensive; risks reopening rounds beyond the cap and destabilising Docs 05 to 09
+  and the records that cite Doc_04.
+- C. Accept the approvals, check what was left open, build everything from the records stage onward to
+  V2.0. Chosen.
+
+**Ruling (project lead, 2026-09-29): C.** Approvals stand. Targeted independent Opus 5.5 checks cover only
+what was left open: the Doc_04 findings carried from rounds 5 to 11 and its ruled classification of
+candidate 5; the Doc_08 generator findings; the Doc_02 and Source Registry review that never returned;
+the carried-open findings in Docs 03, 05, 06 and 07, including Doc_07's missing lens spine. These are
+independent re-confirmations, not new revision cycles. Doc_10 is drafted fresh. Old review files are not
+re-headed.
+
+**Change order: the handoff gate.** V2.0 blocks any world whose handoff fails, and `lpc` is not one of the
+eleven grandfathered worlds. To carry ruling C, `engine.m10.cli handoff` accepts a project-lead
+re-baseline declaration at `Build/worlds/<code>/build/<code>_Rebaseline_Declaration.md`. The declaration
+accepts only two pre-V2.0 approval-history checks (the review-round cap, and older approval wording such as
+"CLEARED"), only for a world built before V2.0, and only while the recorded counts still match the files on
+disk. Each accepted item is printed as `ACCEPTED (project lead declaration <date>)`. It never accepts a
+missing registry entry, an unset `safety_adjacent`, unverified quotes, a missing manifest, or process
+narration. Template: `Build/reference/L4-Templates/Handoff_Rebaseline_Declaration_Template.md`.
+
+**Open, to bring to the project lead at the end of the thread's first phase:** the registry entry
+(`census_id`, `state`, `safety_adjacent`), including the conflict between Article 29's confirmed living
+tradition (`true`, 2026-09-16) and the census entry (`living: false`); the Tier-3 question on `lpcstory006`;
+whether the Decision Log entry suffices for Datus's identity or an options file must exist; the
+metered-spend ceiling; whether `lpc` is a pilot world (Doc_10 drafted by both Sonnet and Fable); and whether
+`lpc_Decision_Log.md` (679 KB) moves to `Build/Ministry/`.
+
+Launch prompt: `Build/Ministry/Operations/Standing/Launch-Prompts/CiC_lpc_Build_Launch_Prompt_V2.0_2026-09-29.md`.
