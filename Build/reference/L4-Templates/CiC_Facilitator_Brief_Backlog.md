@@ -51,7 +51,7 @@ Entries in this category don't need to reference any other figure to make sense 
 
 **Sources to attach when built:** *Confessions*; sermons to the Hippo congregation; correspondence re: the Donatist controversy; the *Acts* of the 411 Council of Carthage; Possidius' *Life of Augustine* (the one meaningful outside-ish witness, though friendly rather than independent).
 
-### Entry 2 — Athanasius of Alexandria (needs assessment, not yet resolved)
+### Entry 2 — Athanasius of Alexandria
 
 Athanasius is a plausible candidate for this same profile, but it isn't settled. His significance rests partly on the Arian controversy (excluded territory, doctrinal-debate-centered) and partly on his 45-year Alexandrian episcopate and five exiles, which do have some independent documentation (imperial correspondence, conciliar records, opponents' accounts) — more than Augustine has. Whether he resolves by inclusion (if Alexandria's world scope extends late enough to cover his episcopate, or if an imperial-court world is built) or needs his own "singular voice" entry depends on decisions not yet made. Flag for revisit once Alexandria's and the imperial-court world's actual scopes are finalized.
 

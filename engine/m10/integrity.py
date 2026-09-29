@@ -5,9 +5,10 @@
              records as open has an Open_Gaps_Tracking.md entry; no
              superseded file or second live version of a document sits
              unmarked in the world folder; no Construction Notes file states
-             a record count the records contradict; the deployed artifact is
-             checked directly, so a fix described as applied is found there
-             or is a finding
+             a record count the records contradict; `deployed` passes at the
+             pinned package (confirmed items, rule counts, source anchor).
+             Whether each fix a document calls applied is present in the
+             artifact is a reviewer check
 
 Three parts of the Principle cannot be checked by a script and are left out:
 that a fix closes the earlier documents in the same change set, that a fix
@@ -114,7 +115,7 @@ def check_integrity(code: str, root: Path = REPO_ROOT, *, check_stale: bool = Fa
 
 
 def add_parser(subparsers) -> None:
-    p = subparsers.add_parser("integrity", help="the Record Integrity read at freeze: open items logged, no unmarked superseded files, stated counts match, the deployed artifact holds what was applied")
+    p = subparsers.add_parser("integrity", help="the Record Integrity read at freeze: open items logged, no unmarked superseded files, stated counts match, `deployed` passes at the pinned package")
     p.add_argument("world_code")
     p.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
     p.add_argument("--root", type=Path, default=REPO_ROOT, help="repository root to check (default: this repository)")

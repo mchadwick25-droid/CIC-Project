@@ -1034,8 +1034,8 @@ new pin.
    conversation validates the deploy. That is one spend and two checks.
 3. **A 6-question Craft/Focus spot-check.** Run the six standardized canon
    questions (`C-P`, `F5-P`, `F2-E`, `F6-P`, `F3-E`, `F6-E`; the exact wording
-   is in the System Hub Decision Log's entry for the 2026-09-26 fleet
-   measurement, `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`)
+   is in the fleet-measurement entry of
+   `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`)
    through `engine.m3.generation.LiveModelAnswerer` against this world. A
    person reads all six answers against Section 0. Does C-P answer directly
    and not lead with a composite-voice disclaimer? Does any answer close on a

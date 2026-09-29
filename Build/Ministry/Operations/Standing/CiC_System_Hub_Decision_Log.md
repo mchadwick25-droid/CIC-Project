@@ -5682,3 +5682,67 @@ moved while worlds were being built. Almost all of the bar was prose with no cod
   accepted in the path-check baseline and left as written.
 
 Reviews of this work are saved in `Build/Ministry/Operations/Audits/Process-V2.0/`.
+
+---
+
+## 2026-09-29 — Build Process V2.0 addendum: rulings given, review rounds closed, change orders awaiting confirmation
+
+Addendum to the entry "Build Process V2.0: one world at a time, lean validation by default, mechanical
+gate layer" above. Where that entry lists an item as open, this addendum gives its present state.
+
+**Rulings the project lead gave in the design thread**
+
+- Full-validation triggers accepted as proposed: thin evidence is a Primary gravity tagged
+  Inferential-Thin; contested is a Primary gravity whose own confidence tag is Contested; safety-adjacent
+  is the yes/no field `safety_adjacent` on the registry entry, set by the project lead at handoff;
+  fabrication is the structured `Fabrication` column in probe and interview result rows. An
+  unevaluable trigger reports `undetermined` and stops.
+- Validation Layer attestation adds Ecological Integrity (Balance, Reduction, Complexity, Emergence,
+  Worship Integration) and Differentiation to the four judgment categories already listed.
+- Encounter success: the four Article 6 conditions (the voice stays itself, the participant keeps
+  authorship, tensions are held, nothing is steered) are graded in the Deep Interview as a fifth check.
+  No separate battery, no added spend.
+- Every strength the preservation audit rated worth restoring is restored. The audit
+  (`Build/Ministry/Operations/Audits/Process-V2.0/Preservation_Audit_Round1.md`) counted 146 items:
+  105 carried, 16 replaced by decision, 18 weakened, 7 lost.
+- The World Profile generated view is now built (`python -m engine.m2.cli profile <code>`, on demand,
+  outside the compiled package). It reads INCOMPLETE while section 4 is not carried by records.
+
+**Review rounds.** Round 1 (documents, launch prompt and skills, gate code, preservation audit), round 2
+and round 3 are saved in `Build/Ministry/Operations/Audits/Process-V2.0/`. The three-round cap is reached.
+Round 3 left findings for the project lead; they are listed under "Awaiting confirmation" below.
+
+**Change orders awaiting confirmation** (made or proposed; the project lead has not yet answered)
+
+1. Construction Framework V7.4 freeze paragraph edited so it states the lean default and the full
+   validation requirement, matching Completion Standard V1.4 section C. The Framework's Validation
+   Protocol Rigor section still says a round cannot count toward a Freeze Criterion without two trials.
+   Proposed change: add one sentence to that section's scope, that for a Representative freeze the lean
+   default applies and the protocol binds full validation and any report of "confirmed", "clean" or
+   "closed".
+2. Probe parity (B-8) is a single trial on the lean path and two trials on full validation. It follows
+   from the lean-by-default ruling; confirm it as the rule.
+3. Ruling numbers in the process documents: 17 bare ruling numbers (for example R27, R41) remain in the
+   governing method documents and are the main remainder of the blocking commentary check. Proposed:
+   drop the bare numbers where the rule is already stated in place, and reword 11 further lines. Not yet
+   done.
+4. Adopted without waiting, as a mechanical CI change that keeps the rule as strict as before: the narrow
+   classifier rule in `tools/check_live_commentary.py` that stops flagging process vocabulary (reviewer,
+   round, route) in the process documents, the vendored skills and the L4 templates, and still flags
+   history narration, dates and provenance. It passes all labelled tests. Reverse it if the project lead
+   prefers.
+5. Whether a lean result may be reported as "confirmed" or "clean" in the Framework's sense is still
+   open; it is tied to item 1.
+
+**Flagged for other threads (not touched here)**
+
+- `Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` belongs to the website thread. It
+  cites the retired V1.9 process path at line 1233; the path check accepts that in its baseline. It also
+  carries about 58 lines of real commentary. Options for that thread: move it to `Build/Ministry/`, or
+  clean it in place.
+- `Build/reference/method/CiC_Register_Bar_2026-08-29.md` carries real commentary (dated headings and
+  provenance notes); minimal rewrites are in section 3 of `Round3_Recheck.md`.
+- `Build/reference/L4-Templates/CiC_Facilitator_Brief_Backlog.md`, Entry 2 (Athanasius of Alexandria): the
+  assessment is open; the heading no longer carries the status.
+- Transparency Engine thread: `inherited_ungrounded` stays report-only because of a known
+  exemption-asymmetry bug; it needs a tracking entry there.
