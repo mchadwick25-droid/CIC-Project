@@ -4042,3 +4042,43 @@ remaining after this run" precisely. 249 movements remain. The listening
 page should get a refresh pass once a few more batches land, rather than
 after every single one - Mark can ask for it when he wants to hear the
 latest.
+
+---
+
+## 2026-09-29 (later) — Fourth narration round; the ratio stabilizes
+enough to stop over-budgeting
+
+**Origin.** Mark reported the dashboard again: 8,845 remaining (down
+from 14,433 - the third batch's own ratio, computed after the fact,
+came out to exactly 0.40 credits/char again, matching the second batch
+precisely). Two batches landing on the identical 0.40 figure is a real
+pattern, not noise - named as the likely true rate, with the first
+batch's ~0.70 read as the outlier now, though still not certain enough
+to treat as settled.
+
+**Deliberate change in approach:** planned this round's batch trusting
+the repeated 0.40 rather than the original paranoid 1-char-1-credit
+assumption - `--char-budget 17000` against 8,845 available (projected
+~6,689 credits at 0.40, real margin even against a worse ~0.52 rate,
+though NOT enough margin against the original 0.70 outlier if it
+recurred). Accepted that risk explicitly rather than silently: the
+script's own resumability means a mid-batch quota failure is a soft
+stop, not data loss - already-succeeded clips stay, failed ones wait
+for next time. All 17 succeeded anyway. This round's real ratio: 5,933
+credits for 16,723 characters = **0.3548** - close to but not exactly
+0.40, consistent enough with the last two reads to keep planning in the
+~0.35-0.40 band going forward instead of the original 1.0 worst case.
+
+**60/292 now narrated**, verified same as every prior batch (real MP3s
+on disk, page regeneration touching exactly the 17 expected pages, one
+spot-check live in a real browser - 110.4s real duration, zero errors).
+Committed and pushed (`32e8a4a02`).
+
+### Next action
+
+232 movements remain. Mark reported 2,912 credits remaining after this
+round - likely only good for a small next batch (roughly 7,000-8,000
+characters at the ~0.35-0.40 band) before the Starter plan needs to
+renew or be topped up again. Same standing open items: the 11
+distinct-voice picks, and the listening page refresh whenever Mark asks
+for it next.
