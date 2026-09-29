@@ -788,3 +788,232 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch against the archive.org details page, 2026-09-21 - page states NOT_IN_COPYRIGHT; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same 1919 McClure/Feltoe translation, independently carrying a Public Domain Mark 1.0 license"
     status: not-yet-downloaded
+
+  - title: "Sancti Aureli Augustini opera, CSEL 41 (De fide et symbolo; De fide et operibus; De agone christiano; De continentia; De bono coniugali; De sancta virginitate; De bono viduitatis; De adulterinis coniugiis; De mendacio; Contra mendacium; De opere monachorum; De divinatione daemonum; De cura pro mortuis gerenda; De patientia)"
+    author: "Augustine of Hippo"
+    translator: "Joseph Zycha (ed.)"
+    year: 1900
+    world: "lpc"
+    why: >
+      Latin critical text of the shorter catechetical and pastoral works that
+      lpc holds only in NPNF translation (Registry rows 15, 18, 25 group
+      them). Found by the field-bibliography sweep: the CSEL Augustine volumes
+      on archive.org carry only series-level metadata, so the volume was
+      identified by opening its title page.
+    url: "https://archive.org/details/sanctiaureliaugu41augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch and title-page check, 2026-09-29 (VOL. XXXXI, Sect. V Pars III, Zycha, MDCCCC)"
+    status: downloaded
+
+  - title: "Sermones 1-340, Migne PL 38"
+    author: "Augustine of Hippo"
+    translator: "Benedictine Maurist fathers; J.-P. Migne (ed.)"
+    year: "19th century (archive.org catalogue date 1845)"
+    world: "lpc"
+    why: >
+      Latin of Augustine's sermons to the congregation; lpc holds only the
+      NPNF6 selection (about 97 sermons).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_038"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; archive.org licence URL is Public Domain Mark 1.0; OCR title page reads 'Tomus Quintus (Pars Prior)', 'Patrologiae Tomus XXXVIII'"
+    status: downloaded
+
+  - title: "Sermones 341-396 and Appendix, Migne PL 39"
+    author: "Augustine of Hippo"
+    translator: "Benedictine Maurist fathers; J.-P. Migne (ed.)"
+    year: "19th century (archive.org catalogue date 1865)"
+    world: "lpc"
+    why: >
+      Second half of the Maurist sermon corpus, with the Maurist Appendix of
+      doubtful sermons.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_039"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; Public Domain Mark 1.0; OCR title page reads 'Tomus Quintus, Pars Altera'; Sermo CCCXCVI and the Appendix confirmed present"
+    status: downloaded
+
+  - title: "Opera minora, Migne PL 40 (incl. De catechizandis rudibus, De symbolo ad catechumenos)"
+    author: "Augustine of Hippo"
+    translator: "Benedictine Maurist fathers; J.-P. Migne (ed.)"
+    year: "19th century (archive.org catalogue date 1845)"
+    world: "lpc"
+    why: >
+      Latin of De catechizandis rudibus and other works held only in NPNF
+      translation (Registry row 15).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_040"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; Public Domain Mark 1.0; contents list opened"
+    status: downloaded
+
+  - title: "Sancti Augustini Sermones post Maurinos reperti (Miscellanea Agostiniana I)"
+    author: "Augustine of Hippo"
+    translator: "Germain Morin (ed.)"
+    year: 1930
+    world: "lpc"
+    why: >
+      The post-Maurist sermons of accepted authority, in one collected
+      critical edition. Registry rows 50, 189 name Morin and Dolbeau only as
+      consultation items; this 1930 volume is inside the pd-us-by-date window
+      as of 2026.
+    url: "https://archive.org/details/bwb_W9-DJJ-981_1"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page and imprimatur (Rome, 28 August 1930) checked, 2026-09-29; item carries no rights tag, rights rest on the 1930 publication date"
+    status: downloaded
+
+  - title: "De catechizandis rudibus (Latin text, Wolfhard-Kruger second edition)"
+    author: "Augustine of Hippo"
+    translator: "Gustav Kruger (ed.)"
+    year: 1893
+    world: "lpc"
+    why: >
+      Latin text of the work Registry row 15 holds only in NPNF translation.
+    url: "https://archive.org/details/augustindecatech00augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch and title-page check, 2026-09-29"
+    status: downloaded
+
+  - title: "De catechizandis rudibus liber unus (Latin and English, with commentary; CUA Patristic Studies 8)"
+    author: "Augustine of Hippo"
+    translator: "Joseph Patrick Christopher"
+    year: 1926
+    world: "lpc"
+    why: >
+      Bilingual edition with commentary of the same work.
+    url: "https://archive.org/details/decatechizandisr0000augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch and title-page check, 2026-09-29; item carries no rights tag, rights rest on the 1926 publication date"
+    status: downloaded
+
+  - title: "Acta martyrum selecta (Ausgewahlte Martyrerakten)"
+    author: "various (2nd-4th c.)"
+    translator: "Oscar von Gebhardt (ed.)"
+    year: 1902
+    world: "lpc / donatism"
+    why: >
+      Latin critical texts of the Acta Cypriani, Passio Mariani et Iacobi and
+      Passio Montani et Lucii, which no vendored file holds in the original.
+    url: "https://archive.org/details/actamartyrumsel00gebhgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; archive.org tags it NOT_IN_COPYRIGHT; table of contents opened"
+    status: downloaded
+
+  - title: "Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8, first half)"
+    author: "various (4th c.)"
+    translator: "J.-P. Migne (ed.)"
+    year: 1844
+    world: "donatism / lpc"
+    why: >
+      The first half of the Monumenta Vetera block, of which
+      cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt holds only the
+      part from 340; includes the acts of Saturninus, Felix, Dativus and the
+      others (304).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_008"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; Public Domain Mark 1.0; section headings opened"
+    status: downloaded
+
+  - title: "Der Streit zwischen Rom und Karthago uber die Ketzertaufe (pp. 1-42 of Quellen und Forschungen XII)"
+    author: "Hans von Soden"
+    translator: ""
+    year: 1909
+    world: "lpc"
+    why: >
+      Companion article to the vendored Prosopographie, flagged for a later
+      round in that file's header and in Source_Acquisition_Manifest G8.
+    url: "https://archive.org/details/quellenundforsch12deutuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch of the same item already used for row 211, 2026-09-29; table of contents and article boundaries checked"
+    status: downloaded
+
+  - title: "Cyprianische Untersuchungen (Arbeiten zur Kirchengeschichte 4)"
+    author: "Hugo Koch"
+    translator: ""
+    year: 1926
+    world: "lpc"
+    why: >
+      Twentieth-century study of the dating and authorship of the Cyprianic
+      treatises; bears on Registry rows 2, 3, 5, 6.
+    url: "https://archive.org/details/cyprianischeunte0000hugo"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page and contents checked, 2026-09-29; no rights tag, rights rest on the 1926 publication date; imprint page not confirmed"
+    status: downloaded
+
+  - title: "Cyprian: His Life, His Times, His Work"
+    author: "Edward White Benson"
+    translator: ""
+    year: 1897
+    world: "lpc"
+    why: >
+      Standard English-language biography of Cyprian from before the modern
+      critical work.
+    url: "https://archive.org/details/hislifehicyprian00bensrich"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page and contents checked, 2026-09-29; archive.org tags it NOT_IN_COPYRIGHT"
+    status: downloaded
+
+  - title: "Inscriptions latines de l'Algerie, Tome I: Inscriptions de la Proconsulaire"
+    author: "Stephane Gsell"
+    translator: ""
+    year: 1922
+    world: "lpc"
+    why: >
+      Doc_02 section 5 and section 9 item 2 flag the epigraphic evidence for
+      Hippo and Carthage's region as unverified. This is the 1922 corpus of
+      the Proconsular region, including Hippone.
+    url: "https://archive.org/details/inscriptionslati00gseluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page (1922) and the Hippone section located, 2026-09-29"
+    status: downloaded
+
+  - title: "Sancti Aureli Augustini opera, CSEL 42 (De perfectione iustitiae hominis; De gestis Pelagii; De gratia Christi et de peccato originali; De nuptiis et concupiscentia)"
+    author: "Augustine of Hippo"
+    translator: "Karl F. Urba and Joseph Zycha (eds.)"
+    year: 1902
+    world: "lpc"
+    why: >
+      Latin of anti-Pelagian works lpc holds only in NPNF5 (Registry row 23).
+      Not fetched this pass: judged lower priority than the pastoral and
+      congregational works.
+    url: "https://archive.org/details/sanctiaureliaugu0042augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (range fetch), 2026-09-29: VOL. XXXXII, Sect. VIII Pars II, MDCCCCII"
+    status: not-yet-downloaded
+
+  - title: "Sancti Aureli Augustini opera, CSEL 25 Pars I (De utilitate credendi; De duabus animabus; Contra Fortunatum; Contra Adimantum; Contra epistulam fundamenti; Contra Faustum)"
+    author: "Augustine of Hippo"
+    translator: "Joseph Zycha (ed.)"
+    year: 1891
+    world: "lpc"
+    why: >
+      Latin of anti-Manichaean works lpc holds only in NPNF4 (Registry row
+      22). Not fetched this pass: lower priority.
+    url: "https://archive.org/details/sanctiaureliaugu251augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (range fetch), 2026-09-29: VOL. XXV (Sect. VI Pars I), MDCCCLXXXXI"
+    status: not-yet-downloaded
+
+  - title: "Sancti Aureli Augustini opera, CSEL 43 (De consensu evangelistarum)"
+    author: "Augustine of Hippo"
+    translator: "Franz Weihrich (ed.)"
+    year: 1904
+    world: "lpc"
+    why: >
+      Latin of the Harmony of the Gospels, held only in NPNF6. Not fetched
+      this pass: lower priority.
+    url: "https://archive.org/details/sanctiaureliaugu43augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (range fetch), 2026-09-29: VOL. XXXXIII, Sect. III Pars 4, MDCCCCIIII"
+    status: not-yet-downloaded
+
+  - title: "Carthage romaine, 146 avant Jesus-Christ - 698 apres Jesus-Christ"
+    author: "Auguste Audollent"
+    translator: ""
+    year: 1901
+    world: "lpc"
+    why: >
+      Doctoral thesis and standard early history of Roman Carthage, including
+      the Christian city; context for Cyprian's Carthage. Not fetched this
+      pass: a general secondary work, lower priority.
+    url: "https://archive.org/details/carthageromaine100audo"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (2.5 MB djvu text listed), 2026-09-29; item's catalogue date 1901"
+    status: not-yet-downloaded

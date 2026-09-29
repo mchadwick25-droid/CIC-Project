@@ -3286,3 +3286,101 @@
   notes: >-
     Synthetic text written directly for the fixture world, CC0. Not a real
     edition. Never cite it for any real world.
+- filename: acta-martyrum-selecta_gebhardt1902.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Gebhardt's 1902 Acta martyrum selecta (Greek and Latin critical texts). For lpc: the Acta S.
+    Cypriani, Passio SS. Mariani et Iacobi and Passio SS. Montani et Lucii, African martyr texts of
+    Cyprian's decade not otherwise held in the original. Fetched directly (curl) from Internet
+    Archive item actamartyrumsel00gebhgoog. RIGHTS: pd-us-by-date, 1902; archive.org tags it
+    NOT_IN_COPYRIGHT.
+- filename: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Christopher's 1926 Catholic University of America Patristic Studies vol. VIII: Latin text with
+    English translation and commentary of De catechizandis rudibus. Fetched directly (curl) from
+    Internet Archive item decatechizandisr0000augu. RIGHTS: pd-us-by-date, 1926 (95-year rule); the
+    item carries no rights tag.
+- filename: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Kruger's 1893 second edition of the Latin text of De catechizandis rudibus. Fetched directly
+    (curl) from Internet Archive item augustindecatech00augu. RIGHTS: pd-us-by-date, 1893.
+- filename: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Zycha's CSEL 41 (1900): fourteen shorter Augustinian works including De fide et symbolo, De fide
+    et operibus, De opere monachorum, De cura pro mortuis gerenda. Fetched directly (curl) from
+    Internet Archive item sanctiaureliaugu41augu; title page checked. RIGHTS: pd-us-by-date, 1900.
+- filename: augustine_opera-minora-catechetica-lat_migne-pl40.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Migne PL 40 (Maurist Tomus Sextus): shorter doctrinal and catechetical works, including De
+    catechizandis rudibus and De symbolo ad catechumenos. Fetched directly (curl) from Internet
+    Archive item patrologiae_cursus_completus_lat_vol_040. RIGHTS: public domain by date (Migne,
+    19th century); archive.org Public Domain Mark 1.0.
+- filename: augustine_sermones-1-340-lat_migne-pl38.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Migne PL 38 (Maurist Tomus Quintus, Pars Prior): Augustine's Sermones 1-340 in Latin. Fetched
+    directly (curl) from Internet Archive item patrologiae_cursus_completus_lat_vol_038. RIGHTS:
+    public domain by date (Migne, 19th century); archive.org Public Domain Mark 1.0.
+- filename: augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Migne PL 39 (Maurist Tomus Quintus, Pars Altera): Sermones 341-396 and the Appendix of doubtful
+    sermons. Fetched directly (curl) from Internet Archive item
+    patrologiae_cursus_completus_lat_vol_039. RIGHTS: public domain by date (Migne, 19th century);
+    archive.org Public Domain Mark 1.0.
+- filename: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Morin's 1930 Sermones post Maurinos reperti (Miscellanea Agostiniana I, Vatican Polyglot Press).
+    Fetched directly (curl) from Internet Archive item bwb_W9-DJJ-981_1. RIGHTS: pd-us-by-date,
+    published 1930 (95 years elapsed 2026-01-01); the item carries no rights tag.
+- filename: benson_cyprian-his-life-his-times-his-work_1897.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Benson's 1897 biography Cyprian: His Life, His Times, His Work (secondary literature). Fetched
+    directly (curl) from Internet Archive item hislifehicyprian00bensrich. RIGHTS: pd-us-by-date,
+    1897; archive.org tags it NOT_IN_COPYRIGHT.
+- filename: gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Gsell's 1922 Inscriptions latines de l'Algerie, Tome I (Proconsulaire; includes Hippo Regius).
+    Fetched directly (curl) from Internet Archive item inscriptionslati00gseluoft. RIGHTS: pd-us-by-
+    date, 1922.
+- filename: koch_cyprianische-untersuchungen-deu_1926.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Koch's 1926 Cyprianische Untersuchungen (secondary literature). Fetched directly (curl) from
+    Internet Archive item cyprianischeunte0000hugo. RIGHTS: pd-us-by-date, 1926 (95-year rule); the
+    item carries no rights tag; imprint page not independently confirmed.
+- filename: monumenta-vetera-donatistarum-303-340_migne-pl8.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Slice of Migne PL 8, Monumenta Vetera ad Donatistarum historiam pertinentia from 303 to the
+    start of the already-vendored 340 excerpt (Acta Felicis, Acta Saturnini and others, Gesta
+    purgationis, Cirta acts). Fetched directly (curl) from Internet Archive item
+    patrologiae_cursus_completus_lat_vol_008. RIGHTS: public domain by date (Migne, 1844);
+    archive.org Public Domain Mark 1.0.
+- filename: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Von Soden's 1909 article on the Rome-Carthage baptism controversy, pp. 1-42 of Quellen und
+    Forschungen XII (secondary literature); the companion article flagged in the header of
+    vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt. Fetched directly (curl) from
+    Internet Archive item quellenundforsch12deutuoft. RIGHTS: pd-us-by-date, 1909.
