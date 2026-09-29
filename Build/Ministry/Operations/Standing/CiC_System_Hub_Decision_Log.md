@@ -5593,3 +5593,92 @@ Both documents themselves still carry their full reasoning and consequences (cor
 census reassignment, the rewritten sections) — only the explicit "this was Mark's ruling, on this
 date" framing is recorded here rather than restored inline, consistent with keeping the documents'
 own prose to the ruling's substance rather than its provenance narrative.
+
+---
+
+## 2026-09-29 — Build Process V2.0: one world at a time, lean validation by default, mechanical gate layer
+
+Converged with the project lead in a design thread on why the last builds (gallic, cappadocian, witt,
+with lighter passes on don, pahc, syr) missed the current bar, and on what the process needs so a run
+of many worlds builds to that bar. "Converged, auto mode" given 2026-09-29. The Library thread owns
+pre-0, Step 0, Step 1 and Step 2; this thread owns source checking on receipt and Step 3 to freeze;
+go-live is a separate thread.
+
+**Why the last builds missed the bar** (three read-only surveys of the repo; counts as the surveys
+reported them). The tested artifact was the legacy prompt file, not `compiled/prompt.txt` (11 of 12
+worlds, per the 2026-09-27 M2 audit). Confirmed content never reached the compiled prompt
+(living traditions in witt and cappadocian; the `[quotation]` rule named 3 quotes in gallic when 102
+existed and 4 in cappadocian when 21 existed). Same-session reviews passed work that fresh Opus
+reviews failed (7 to 12 further defects per pass). The round cap was not enforced (witt Doc_03 ran 11
+rounds). Fixes caused new readability failures. Required pieces were missing or late. The standard
+moved while worlds were being built. Almost all of the bar was prose with no code behind it.
+
+**Decisions**
+
+1. Shape: Process V2.0 plus a mechanical gate layer (`python -m engine.m10.cli`) that runs before any
+   Opus review. Considered and not taken: a prose-only rewrite; a per-world orchestration layer.
+2. Bar: the four criteria in V1.9 section 0 (Rigor, Accessibility, Craft, Focus; Craft the keystone) are
+   the depth rubric. Depth means drawing on the Library's resources to answer the question that was
+   asked. Zero fabrication anywhere. The review bar is what a church history scholar would call good.
+   Opus 5.5 reviews everything; three rounds of substantial revision, then the document goes to the
+   project lead. Public-facing text must read easily and carry no AI tells: readability is a gate,
+   AI tells are a judgment read against the approved sample, and the Register Bar keeps no word list.
+3. Validation: lean by default (about 10 to 14 blind probes, one live Deep Interview, the 6-question
+   Craft/Focus spot-check), full (two independent trials plus the Table Readiness Round) on
+   code-detected triggers. The trigger definitions are open, see below.
+4. Models: Sonnet 5.5 drafts everything except Doc_04 and Doc_10, which Fable drafts; Opus 5.5
+   reviews everything and authors `modern_rendering`. The pilot drafts Doc_10 with both Sonnet and
+   Fable, Opus grades them blind on the four criteria, and Fable drops out of the process if Sonnet
+   meets the Craft bar.
+5. Deliverables: World Profile and Capsule Core are generated from records; the Validation Layer is a
+   thin attestation of the judgment-only categories; Encounter Ecology Mapping is a short section of
+   the Doc_10 Ecology Assessment; Voice Configuration leaves the build path until audio ships.
+   `world_front`, `facilitator_brief` and the site JSON are built, never waived, for new worlds.
+6. Ten contradictions resolved: Framework V7.4 is the governing Framework; the Framework and RCF cite
+   Completion Standard V1.4; gate labels are M1/M2/M3; the guard-coverage read is retired in favour of
+   the spot-check; the Doc_04 template is cited; the CO-022 label is retired; dead paths are repointed
+   and the session rules restated inside V2.0; the six build skills are rewritten and vendored at
+   `Build/reference/method/skills/`; the register ceiling is a gate (ruling R6); V1.9's Deep Interview
+   figures stand and one ceiling covers the lean set.
+7. Pace and cost: one world at a time by default (CLAUDE.md revised). The plan is Max 20x, the weekly
+   allowance resets Friday at 2:00 pm, and at least half of it goes to building. Two ledgers per
+   world, kept apart: allowance share and metered spend in dollars. Target 3 to 5 worlds a week means
+   about 16 percent (3) or 10 percent (5) of a week's allowance per world; the pilot measures the real
+   number and the pace is not promised. Two pilot worlds first, one well-sourced and one thin-evidence.
+
+**Open (recorded, not decided)**
+
+- Metered-spend ceiling for one world's lean validation set: the project lead sets the number before
+  the pilot.
+- The two pilot worlds.
+- Trigger definitions for full validation. Proposed to the project lead, not yet answered: thin
+  evidence is a Primary gravity tagged Inferential-Thin; contested is a Primary gravity whose own
+  confidence tag is Contested (a contested claim merely attached to a Primary gravity fires on nearly
+  every world); safety-adjacent is a yes/no field on the registry entry set by the project lead at
+  handoff; fabrication is a structured finding column. Needs a small schema addition on the registry.
+- Whether a lean result may be reported as "confirmed" or "clean" in the Framework's sense. A drafter
+  wrote a rule that it may not; it was removed because the project lead had not decided it.
+- `world_core` needs a field for the integrative observation (and the Capsule's inhabited-voice text);
+  the schema has no `telos` field. Both are engineering items listed in V2.0.
+- The World Profile generated view is not built.
+- Branch protection: the CI job formerly named for the commentary scan is now `live-commentary` and is
+  blocking on pull requests, scoped to changed files. Any required-checks setting that names the old
+  job needs updating.
+
+**Found while building the gate layer (reported, not fixed here)**
+
+- `cic/corpus-map` test `tests_corpus_map.py` fails on main (4 checks); its CI step is set to
+  continue-on-error until the Library thread fixes it.
+- `cic/texts/REGISTRY.yaml` lacked rows for the two synthetic fixture texts; rows added so the registry
+  check passes. Library thread to confirm.
+- Prose in `world_front` and `facilitator_brief` records was never graded by the readability gate; on
+  the records sampled most fields fail FK 10 or FRE 60 (syr 32 of 49 fields, don 58 of 58). New worlds
+  are held to the gate; existing worlds are reported by `regate` only where a field changes.
+- gallic: the `[self-reference]` note lacks the four hardening rules (the known gap in six worlds);
+  `Open_Gaps_Tracking.md` names `gallic.quote.chaeremon-on-grace-and-free-will`, which is not a record;
+  two Phase D interview files name no package pin; the legacy validation matrices have no four-criteria
+  columns. For the gallic thread to log and fix.
+- 13 historical review and log documents cite the retired path of Completion Standard V1.3; they are
+  accepted in the path-check baseline and left as written.
+
+Reviews of this work are saved in `Build/Ministry/Operations/Audits/Process-V2.0/`.
