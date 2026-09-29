@@ -1,0 +1,74 @@
+{
+ "post-apostolic-house-church": {
+  "story": {
+   "file": "post-apostolic-house-church/story.mp3",
+   "chars": 5303,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "post-apostolic-house-church/docstory-0.mp3",
+   "chars": 1482,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "post-apostolic-house-church/docstory-1.mp3",
+   "chars": 1118,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "post-apostolic-house-church/docstory-2.mp3",
+   "chars": 1204,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "post-apostolic-house-church/legacy.mp3",
+   "chars": 1071,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  }
+ }
+}

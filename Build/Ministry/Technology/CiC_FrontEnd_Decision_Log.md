@@ -4644,3 +4644,37 @@ Mark's ear.
 
 1. Merge PR #644; Mark listens to a live documented story.
 2. Built worlds' stories (compiled world data, separate renderer) remain.
+
+## 2026-09-29 — Chloe's pieces narrated in her tour voice (house-church world)
+
+**Decision.** The house-church world's own long-form text is narrated in the
+voice Mark confirmed for Chloe on 2026-09-01 (Eleni, SoulVoice, Greek-accented
+English, Professional Voice Clone): the world story, its three documented
+stories and the legacy piece. The four voice bios and the tree description are
+not narrated. Mark heard a two-piece sample, found it slow, and chose a
+1.15x speed-up over the approved audition pace (about 134-147 words per minute).
+
+**Settings, as printed by the run.** Voice `1gkXJMvrzBWAwt0XqBaa`, model
+`eleven_v3`, stability 0.35, similarity 0.93, style 0, speaker boost on, speed
+1.12 sent to the API, then a 1.15x pitch-preserving tempo change after
+synthesis (ffmpeg), 128 kbps. The 2026-09-01 record gave the voice by name
+only; the id comes from the link Mark supplied on 2026-09-29.
+
+**Cost.** Sample 1,335 credits; run 4,936 credits for 10,178 characters
+(v3 costs about 3.6 times v4 per character). The world story exceeds the
+model's per-request limit, so it went in two parts joined into one file.
+
+**Wired.** `cic-website/audio/worlds/<census-id>/` with `manifest.json`;
+players in the Atlas panel and on the tradition page, shown only for worlds
+in the manifest. Shared renderer takes the audio URLs as an option.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear. The tradition-page generator's render CLI had a broken import path
+from the folder move; fixed. Regenerating the page also brought two pull quotes
+up to the current compiled text.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Other built worlds' stories still need their voices chosen.
