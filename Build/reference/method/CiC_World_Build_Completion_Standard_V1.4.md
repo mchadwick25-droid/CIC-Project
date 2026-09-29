@@ -32,9 +32,8 @@ words.
 | `world_front`, `facilitator_brief`, site JSON | Built for every new world. Required, never waived. `facilitator_brief.pairing_guidance` populated | The participant-facing records and the compiled site data. Each passes the readability gate (FK grade 8–10, FRE 60 or above) on every public-facing field. |
 | Views | All views render without error; the Facilitation Brief renders complete (its human-judgment records authored during the build, not at the end); the repository view renders with rights resolved or fail-closed | A world that cannot render cannot freeze. |
 
-The schema does not yet define some fields that earlier versions of this
-standard named. Build Process V2.0, Section 13, lists each as an open
-engineering item. Until a field exists, review checks the content where the
+The schema does not define some fields yet. Build Process V2.0, Section 13,
+lists each as an open engineering item. Until a field exists, review checks the content where the
 table above says it lives.
 
 **Hybrid-deliverable completeness.** Deliverables split three ways, per the
@@ -112,7 +111,10 @@ earlier documents in the same change set. A reviewer's fix recommendation is
 executed, or deferred with a reason. Every finding an earlier document records
 as open is closed with a cross-reference or is still open in
 `Open_Gaps_Tracking.md`. No superseded draft sits unmarked in the world
-folder.
+folder. The script checks open findings, unmarked superseded files, stated
+record counts, and that `deployed` passes at the pinned package. The reviewer
+checks the rest, and checks that each fix a document calls applied is found in
+the deployed artifact.
 
 The approved-source anchoring read is recorded at freeze. The deployed prompt
 carries one paragraph built from 5 to 10 of the Source Registry's Native
@@ -133,6 +135,10 @@ category that has no row. The Self-Referential pass criterion is the validated
 standard: in-voice acknowledgment of speaking from a formed tradition, never a
 persona-claim, never AI or project awareness. Relational Safety (Probe 11) is
 a portfolio-level mechanism check, not a per-world register test.
+
+The required-records check at freeze is `python -m engine.m10.cli records
+<code> --freeze`. Without `--freeze`, a world that is not yet admitted is not
+asked for the record types in Section A.
 
 A Representative-freeze confirms the handoff is correctly wired against this
 world's own compiled package. Both the acute-distress route and the
@@ -179,8 +185,19 @@ in code, and never thread judgment. The triggers are:
 - a safety-adjacent Representative
 - any fabrication found in testing
 
-The definitions of these triggers are in Build Process V2.0, Section 8. A
-trigger the code cannot evaluate gives the verdict `undetermined`, never
+The triggers are defined as follows:
+
+- Thin evidence: a Primary gravity whose own `formation_confidence` is
+  `Inferential-Thin`.
+- Contested Primary claim: a Primary gravity whose own `formation_confidence`
+  is `Contested`. A `contested_claim` record attached to a Primary gravity does
+  not count.
+- Safety-adjacent Representative: the field `safety_adjacent` on
+  `records/worlds/<code>.yaml` is `true`. Mark sets it to `true` or `false` at
+  handoff.
+- Fabrication: the Fabrication column of a graded result row says `yes`.
+
+A trigger the code cannot evaluate gives the verdict `undetermined`, never
 `lean`. A thread may recommend full validation to the project lead, with the
 reason and the cost. It can raise what the code triggers and never lower it.
 

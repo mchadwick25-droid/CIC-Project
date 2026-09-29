@@ -2,7 +2,7 @@
 
 **Status:** Living backlog. Not yet built into the runtime Facilitator system — this document exists so that content and reasoning developed during design conversations isn't lost before the Facilitator Brief architecture is actually built. When that work begins, entries here are the starting material, not an exhaustive spec.
 
-**Why this exists:** During Phase One world-selection work (2026-07-04), a real, anticipated participant need surfaced — people will ask for things the architecture doesn't provide in the form they expect (e.g., "let me talk to Augustine," or "why isn't there an Augustine world the way there's an Alexandria world"). These moments need an honest, prepared response, not an improvised one. This backlog captures those moments as they're identified, in a reusable two-part format.
+**Why this exists:** Participants will ask for things the architecture doesn't provide in the form they expect (e.g., "let me talk to Augustine," or "why isn't there an Augustine world the way there's an Alexandria world"). These moments need an honest, prepared response, not an improvised one. This backlog captures those moments as they're identified, in a reusable two-part format.
 
 ---
 

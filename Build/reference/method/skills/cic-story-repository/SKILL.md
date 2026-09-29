@@ -9,7 +9,7 @@ Doc_09 classifies every story a world can tell into one of four tiers, with a ha
 
 Before building, reread the current Blueprint and Construction Framework Doc_09 section. Do not rely on a remembered tier list.
 
-Process: Sonnet 5.5 drafts. Opus 5.5 reviews, never the drafter, at high effort in round 1 and medium targeted rechecks after. Three rounds of substantial revision at most, then escalate to Mark. Run the gate layer before review: `python -m engine.m10.cli prereview`, `citations`, `claims`, `gaps`, `records`, `regate`. See the `cic-build-cycle` skill. Use "Approved to proceed" only. Doc_09 sits before the Representative identity decision; that decision goes to Mark in the grounded-options format.
+Process: Sonnet 5.5 drafts. Opus 5.5 reviews, never the drafter, at high effort in round 1 and medium targeted rechecks after. Three rounds of substantial revision at most, then escalate to Mark. Run the gate layer before review: `python -m engine.m10.cli prereview <code> --doc N`, then `citations`, `claims`, `gaps`, `records` and `regate` on the world code, and `roundcount <code> N --check-new` before any new review file is written. See the `cic-build-cycle` skill. Use "Approved to proceed" only. Doc_09 sits before the Representative identity decision; that decision goes to Mark in the grounded-options format.
 
 ## Build each story faithfully to its tier
 

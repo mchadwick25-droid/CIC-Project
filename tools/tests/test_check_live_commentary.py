@@ -1405,7 +1405,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # pass, to keep this table stable and at >=60 real, currently-
     # matching lines.
     ("Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", 1301, "REWRITE"),
-    ("Build/reference/method/CiC_Representative_Naming_Role_Discipline_2026-09-08.md", 6, "REWRITE"),
     ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 174, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
     ("Build/reference/method/Pass2-decisions/2026-08-01_M_lean_validation_interview_spend.md", 54, "REWRITE"),
@@ -1482,7 +1481,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
     # was cleaned as part of that effort. Re-pinned to a stable
     # Build/reference/ example.
-    ("Build/reference/method/CiC_Adversarial_Review_Standard_Practice.md", 25, "REWRITE"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR): the original
     # fix.craft.vera-voice.md:29 "REVISED 2026-09-19" line was itself
     # cleaned as part of that PR (the file's `guard` field was rewritten
@@ -1519,6 +1517,8 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
+    ("engine/api/anon_cap.py", 5, "REWRITE"),
+    ("engine/api/anon_cap.py", 37, "REWRITE"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this "Date drafted:" header line was hand-labelled KEEP
     # under the old bare-date rule alone; it is now PROTECTED, the more

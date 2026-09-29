@@ -4,6 +4,7 @@
 |---|---|
 | World code | |
 | World id | |
+| `safety_adjacent` (`true` or `false`, set by Mark at handoff) | |
 | Slug | |
 | Handoff date | |
 | Prepared by | |
@@ -36,7 +37,7 @@
 
 | # | Check | Result | Evidence |
 |---|---|---|---|
-| 1 | The world's identity is fixed. Its registry entry at `records/worlds/<code>.yaml` exists, with one `world_id`, before any of the world's records reach `main`. Every later file uses that same `world_id`. | | |
+| 1 | The world's identity is fixed. Its registry entry at `records/worlds/<code>.yaml` exists, with one `world_id`, before any of the world's records reach `main`. Every later file uses that same `world_id`. The entry carries `safety_adjacent: true` or `false`, set by Mark. A new world fails this check until it is set. | | |
 | 2 | Step 0, Movement-Scope Confirmation, is approved to proceed. It cleared independent Opus review within the round cap, and the movement's own status in `cic-website/data/world-census.json` was checked. | | |
 | 3 | Step 1, World Identification, is approved to proceed, under the same review rule. | | |
 | 4 | Step 2, Source Ecology, is approved to proceed. Its Source Registry gives every item in the library package a line, and no dossier item, corpus-map entry or holdings-report file is missing one. | | |

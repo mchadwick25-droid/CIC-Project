@@ -57,18 +57,21 @@ Produce exactly one document, the next in the confirmed sequence. Ground it in t
 Run these before Opus sees the work. Fix every failure first.
 
 ```
-python -m engine.m10.cli prereview   # build, bar screen, cross-world, holdings
-python -m engine.m10.cli citations   # every record id and citation resolves, right type
-python -m engine.m10.cli claims      # every absence or exclusivity claim registered; no stale entry
-python -m engine.m10.cli gaps        # every open item has an Open_Gaps_Tracking.md entry
-python -m engine.m10.cli roundcount  # blocks a 4th review file, routes to Mark
+python -m engine.m10.cli prereview <code> --doc N    # build, bar screen, cross-world, holdings
+python -m engine.m10.cli citations <code>   # every record id and citation resolves, right type
+python -m engine.m10.cli claims <code>      # every absence or exclusivity claim registered; no stale entry
+python -m engine.m10.cli gaps <code>        # every open item has an Open_Gaps_Tracking.md entry
+python -m engine.m10.cli roundcount <code> N --check-new   # before any new review file is written;
+                                                           # a 4th file makes it exit non-zero, routes to Mark
 python -m engine.m10.cli reviewfile  # reviewer differs from drafter, model is Opus 5.5,
                                      # simulated-review label, two-method truncation check
-python -m engine.m10.cli records     # required record types built, not waived
-python -m engine.m10.cli regate      # after any edit: readability and word budget re-run
+python -m engine.m10.cli records <code>     # required record types built, not waived
+python -m engine.m10.cli regate <code>      # after any edit: readability and word budget re-run
 ```
 
-At handoff, `python -m engine.m10.cli handoff` runs the 12 handoff checks and confirms Steps 0-2 exist and cleared review. At freeze, `python -m engine.m10.cli integrity` runs the Record Integrity check. At the deployed stage, `deployed` and `probes` check the compiled prompt (see the validation skill).
+`N` is the document number (`0` for Step 0). Without `--check-new`, `roundcount` fails only once a fourth file exists, so run it with `--check-new` first.
+
+At handoff, `python -m engine.m10.cli handoff <code>` runs the 12 handoff checks and confirms Steps 0-2 exist and cleared review. Check 1 fails a new world until `safety_adjacent` on its registry entry is `true` or `false`. Mark sets it at handoff. At freeze, `python -m engine.m10.cli records <code> --freeze` requires the record types whatever the world's state. `python -m engine.m10.cli integrity <code>` checks open items, unmarked superseded files, stated record counts, and that `deployed` passes at the pinned package. The reviewer checks the three parts no script reads, and that each fix a document calls applied is found in the deployed artifact. At the deployed stage, `deployed` and `probes` check the compiled prompt (see the validation skill).
 
 Readability (FK 8-10, FRE 60 or higher) is a mechanical gate on every public-facing field, re-run on every edited field. AI tells are a judgment read in the Opus review, against the approved sample record `records/syr/demonstration/syr.demo.room-for-doubt.md`. There is no banned-word list. Do not add one.
 
@@ -89,7 +92,7 @@ An adversarial review, specific to the document, runs in an isolated session. It
 A revision is **substantial** if it changes a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary. It is **not substantial** if it is wording, tone, formatting, or a typo.
 
 - If substantial: revise, then review again. **At most three rounds of substantial revision per document.** A finding that the document could be stronger, with nothing wrong, unsupported, or misleading, is not substantial and starts no new round.
-- If the document has not cleared after the third round, that is an unresolved tension the pipeline cannot close alone. Stop and escalate to Mark with the third round's findings. Never start a fourth round. A revision made after the third round is not reviewed by a fourth file. `python -m engine.m10.cli roundcount` counts review files, whatever their verdict, and blocks a fourth.
+- If the document has not cleared after the third round, that is an unresolved tension the pipeline cannot close alone. Stop and escalate to Mark with the third round's findings. Never start a fourth round. A revision made after the third round is not reviewed by a fourth file. `python -m engine.m10.cli roundcount <code> N --check-new` counts review files, whatever their verdict, and exits non-zero when a fourth would be written.
 - Rounds 2 and 3 are targeted rechecks of the prior findings and the diff, at medium effort.
 - If cosmetic only: apply it, note that it was applied, and move on.
 - If two reviews of the same document disagree, log the disagreement. Do not quietly side with the later one.

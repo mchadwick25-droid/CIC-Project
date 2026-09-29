@@ -19,7 +19,7 @@ Process: Opus 5.5 grades every answer, blind. Fable diagnoses failures. Reviewer
 ## Order of work
 
 1. **Ecology Assessment first (Part Three).** Assess the four domains and Thinness Mapping, naming exactly where the evidence is thin and how confidently the Representative should speak there. It is produced inside Doc_10 as a section, together with the short Encounter Ecology Mapping section. It calibrates the probes. Do not treat it as a formality.
-2. **Gate checks (code, free, never cut).** Before any paid call: the full M1 gate battery in `engine/m1/gates.py` at zero, schema validation, render parity, prompt coverage, and `python -m engine.m10.cli prereview|citations|records|regate|wiring`.
+2. **Gate checks (code, free, never cut).** Before any paid call: the full M1 gate battery in `engine/m1/gates.py` at zero, schema validation, render parity, prompt coverage, and `python -m engine.m10.cli prereview|citations|records|regate|wiring` on the world code (`records <code> --freeze` at freeze).
 3. **Probes.** Then the deployed-artifact checks, then live testing.
 
 ## The tested artifact
@@ -47,12 +47,12 @@ The freeze bar is content accuracy plus single-Representative interview dynamics
 
 Full validation adds a second independent trial and the Table Readiness Round. It runs when code detects any of these:
 
-- a thin-evidence gravity,
-- a Contested Primary claim,
-- a safety-adjacent Representative,
-- any fabrication found in testing.
+- thin evidence: a Primary gravity whose own `formation_confidence` is `Inferential-Thin`,
+- a Contested Primary claim: a Primary gravity whose own `formation_confidence` is `Contested` (a `contested_claim` record attached to a Primary gravity does not count),
+- a safety-adjacent Representative: `safety_adjacent` is `true` on `records/worlds/<code>.yaml`, set by Mark at handoff,
+- fabrication: the Fabrication column of a graded result row says `yes`.
 
-The trigger detector is a check in code, run by `python -m engine.m10.cli validation`. Thread judgment does not decide it. A trigger the code cannot evaluate gives the verdict `undetermined` and a non-zero exit, never `lean`, and validation stops until the project lead settles it. A thread may recommend full validation to the project lead, with the reason and the cost in allowance and dollars. It can raise what the code triggers and never lower it. Table Readiness Round, when it runs, caps Representatives at 3 and samples the 2-3 sharpest pairings.
+The trigger detector is a check in code, run by `python -m engine.m10.cli validation`. Thread judgment does not decide it. A trigger the code cannot evaluate gives the verdict `undetermined` and a non-zero exit, never `lean`, and validation stops until the missing value is supplied. A thread may recommend full validation to the project lead, with the reason and the cost in allowance and dollars. It can raise what the code triggers and never lower it. Table Readiness Round, when it runs, caps Representatives at 3 and samples the 2-3 sharpest pairings.
 
 ## Results and scoring
 

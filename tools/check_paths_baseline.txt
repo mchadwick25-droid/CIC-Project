@@ -93,7 +93,6 @@ Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md: Build/reference/
 Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md: Build/reference/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.4.docx
 Build/reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md: cic-poc/backend/app/prompts/facilitator_prompts.py
 Build/reference/L3D-Encounter-Methodology/CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md: cic-poc/backend/app/main.py
-Build/reference/L4-Templates/World_Facilitation_Brief_Template.md: cic-poc/backend/wrs/views/facilitation_brief.py
 Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: Build/Ministry/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx
 Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: cic-poc/backend/data
 Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: worlds/Alexandria
@@ -107,7 +106,7 @@ Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md: cic-poc/backend
 Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md: records/worlds.yaml
 Build/reference/Redesign-Spec/World-Cards.md: cic-poc/backend/app/world_manifest.py
 Build/reference/Redesign-Spec/World-Cards.md: records/worlds.yaml
-Build/reference/method/CiC_Adversarial_Review_Standard_Practice.md: Build/Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/11_...md
+Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md: Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md
 Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md: engine/records
 Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md: records/worlds.yaml
 Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md: worlds/Desert-Christianity

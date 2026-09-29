@@ -47,7 +47,9 @@ the templates in `Build/reference/L4-Templates/` and never fork a copy.
 5. Run the handoff gate:
    `python -m engine.m10.cli handoff <code>`
    If any check fails, stop. Send the world back to the source-research
-   thread.
+   thread. Check 1 fails until `records/worlds/<code>.yaml` carries
+   `safety_adjacent: true` or `safety_adjacent: false`. Mark sets it at
+   handoff, and a world cannot start without it. Never set it yourself.
 6. If the metered ceiling for this world is still a placeholder, do not
    start any paid run. Log it as an open item and ask Mark for the number
    when the first paid run is due.
@@ -83,10 +85,12 @@ the current one is approved to proceed.
 Run each command before Opus sees the work. Fix every failure first.
 
 - `python -m engine.m10.cli handoff <code>` at the start of the world.
-- `python -m engine.m10.cli prereview <code> <document>` before every
-  review round.
-- `python -m engine.m10.cli roundcount <code> <document>` before every
-  review file. It blocks a fourth round.
+- `python -m engine.m10.cli prereview <code> --doc N` before every review
+  round. `N` is the document number.
+- `python -m engine.m10.cli roundcount <code> N --check-new` before any new
+  review file is written (`N` is `0` for Step 0). With three review files on
+  record it exits non-zero, and the document goes to Mark. Without
+  `--check-new` it fails only once a fourth file exists.
 - `python -m engine.m10.cli reviewfile <path>` on every review file.
 - `python -m engine.m10.cli gaps <code>` after every review file.
 - `python -m engine.m10.cli citations <code>` on every document and probe
@@ -94,7 +98,8 @@ Run each command before Opus sees the work. Fix every failure first.
 - `python -m engine.m10.cli claims <code>` before every review round on a
   document that carries claims. It halts on an unregistered absence or
   exclusivity claim and on a stale register entry.
-- `python -m engine.m10.cli records <code>` after every records edit.
+- `python -m engine.m10.cli records <code>` after every records edit, and
+  `records <code> --freeze` at freeze.
 - `python -m engine.m10.cli regate <code>` after any edit. It re-runs
   readability and word budgets on every changed field and every
   public-facing field.
@@ -108,7 +113,9 @@ Run each command before Opus sees the work. Fix every failure first.
   the Deep Interview carries its encounter-success grading, and that
   validation ran on the current package pin.
 - `python -m engine.m10.cli wiring <code>` at the Representative freeze.
-- `python -m engine.m10.cli integrity <code>` at freeze.
+- `python -m engine.m10.cli integrity <code>` at freeze. It checks open
+  items, unmarked superseded files, stated record counts, and that `deployed`
+  passes at the pinned package. The reviewer reads the rest.
 - `python -m engine.m2.cli profile <code>` to generate the World Profile on demand. It is not part of the package, and no check covers it.
 
 A new world gets no waivers. Any exception needs an owning finding and
