@@ -1,0 +1,27 @@
+# Closes (partially) Source Acquisition Manifest item G4 - Theodore
+# Beza's own direct voice, previously entirely unvendored for this world.
+# Rights independently verified this session against archive.org item
+# jobexpth00bzet (1589 imprint, unambiguously public domain).
+source_file: beza_job-expounded_legatt1589.txt
+
+assignments:
+  - work: "Job Expounded by Theodore Beza: Partly in Manner of a Commentary,
+      Partly in Manner of a Paraphrase; Faithfully Translated out of Latine
+      into English"
+    author: beza
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Theodore Beza's own direct voice - a commentary/paraphrase on the
+      Book of Job, opening with his own dedicatory epistle to Queen
+      Elizabeth I, in a 1589 English translation (translator not named on
+      this edition's own title page). A partial closure of Manifest G4:
+      does not itself supply Beza's own letters or the Tabula
+      praedestinationis (1555), which remain unacquired. This edition's
+      OCR consistently misreads the period's long s as "f" (e.g.
+      "faluation" for "salvation") - a disclosed artifact of this specific
+      scan, not corrected in the vendored file per this corpus's standing
+      practice for raw OCR.
