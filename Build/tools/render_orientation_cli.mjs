@@ -13,11 +13,14 @@
  * per exported renderer in orientation-render.mjs plus "questions" (which
  * needs the slug/representative-name context the other renderers don't).
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 import {
   RENDERERS,
+  narrationUrls,
   renderQuestions,
-} from "../cic-website/assets/orientation-render.mjs";
+} from "../../cic-website/assets/orientation-render.mjs";
 
 const [, , jsonPath, slug, representativeName] = process.argv;
 if (!jsonPath || !slug || !representativeName) {
@@ -34,12 +37,23 @@ const compiled = JSON.parse(readFileSync(jsonPath, "utf-8"));
 // directly in the browser and calls renderVoices(compiled) with no opts,
 // which still defaults to showHedge: true. This CLI is the tradition-page
 // path only, so this is the one place that default gets overridden.
+// Narration players: only for worlds listed in audio/worlds/manifest.json.
+// Tradition pages sit one directory below cic-website/, so the audio path
+// is ../audio/worlds/.
+const manifestPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "cic-website", "audio", "worlds", "manifest.json");
+const worldManifest = existsSync(manifestPath) ? JSON.parse(readFileSync(manifestPath, "utf-8")) : {};
+const censusId = path.basename(jsonPath, ".json");
+const narration = narrationUrls(worldManifest[censusId], "../audio/worlds/");
+const nopts = narration ? { narration } : {};
+
 const out = {};
 for (const [name, fn] of Object.entries(RENDERERS)) {
   if (name === "documented_stories") {
-    out[name] = fn(compiled, { idPrefix: `${slug}-story` });
+    out[name] = fn(compiled, { idPrefix: `${slug}-story`, ...nopts });
   } else if (name === "voices") {
     out[name] = fn(compiled, { showHedge: false });
+  } else if (name === "story" || name === "legacy") {
+    out[name] = fn(compiled, nopts);
   } else {
     out[name] = fn(compiled);
   }
