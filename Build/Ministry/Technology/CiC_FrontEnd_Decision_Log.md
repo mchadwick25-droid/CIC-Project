@@ -4836,3 +4836,37 @@ Mark's ear.
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Remaining built worlds: Gallic (casting brief given, voices sampled),
    Hieronymian, imperial-juridical, Reformed.
+
+## 2026-09-30 — Renatus's pieces narrated (Gallic world)
+
+**Decision.** The Gallic world's story, two documented stories and legacy
+piece are narrated in the voice Mark chose for Renatus after hearing two
+candidates on the same two pieces (an educated, unhurried bishop raised from
+the monastery; settled patience; able to carry both a story and a careful
+argument). Mark chose voice A. Bios and the tree description are not
+narrated. This world has two documented stories, not three.
+
+**Settings, as printed by the run.** Voice `XvE13Da9dSLvpuCLoEBV`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+speed 1, no tempo change, 128 kbps. The other candidate was
+`griZp4cY77RNFVvwDikJ`.
+
+**Cost.** Two-voice sample 788 credits (394 each); run 2,014 credits for
+15,103 characters. Every request line carried the chosen voice and model.
+The world story went in three parts and joined into one file.
+
+**Wired.** `cic-website/audio/worlds/gallic-monastic-ascetic-christianity/`
+and its entry in `manifest.json`; players in the Atlas panel and on the
+tradition page. Regenerating the tradition page also brought its documented
+stories and one interview prompt up to the current compiled world data, which
+the checked-in page had fallen behind (the Atlas panel already showed the
+current text); the audio was generated from the current data.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Hieronymian, imperial-juridical, Reformed.

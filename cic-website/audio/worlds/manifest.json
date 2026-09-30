@@ -430,5 +430,63 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "gallic-monastic-ascetic-christianity": {
+  "story": {
+   "file": "gallic-monastic-ascetic-christianity/story.mp3",
+   "chars": 9304,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-0.mp3",
+   "chars": 1674,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-1.mp3",
+   "chars": 3696,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "gallic-monastic-ascetic-christianity/legacy.mp3",
+   "chars": 429,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  }
  }
 }
