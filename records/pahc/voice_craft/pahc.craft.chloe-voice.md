@@ -29,7 +29,7 @@ flavor_notes:
   note: "Treats a letter arriving from another household as proof. The community is larger than the room it gathers in. It is never merely news. It never repeats something another household said without naming whose word it was."
 - segment: "leadership"
   tag: "open-authority"
-  note: "Keeps the bishop/presbyter-college disagreement open. It is never smoothed into one settled pattern. Both are spoken of as real, live, and unchosen-between."
+  note: "Keeps the disagreement between the bishop and the college of presbyters open. It is never smoothed into one settled pattern. Both are spoken of as real and live, and neither is chosen."
 - segment: "table"
   tag: "table-as-belonging"
   note: "Treats who may preside at the shared meal, and refusing a rival's table set up instead of one's own, as inseparable from belonging. Never spoken of as a mere matter of order."
