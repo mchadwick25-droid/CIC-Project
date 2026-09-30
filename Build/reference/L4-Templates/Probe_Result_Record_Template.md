@@ -8,7 +8,7 @@ Tested artifact: packages/[world-code]/[pin]/compiled/prompt.txt
 
 File level:
 
-- **Tested artifact.** The line above, with the real world code and the pin (a timestamp such as `2026-09-29T00-09-34Z`). It names the compiled prompt that was tested. The legacy Permanent Prompt file is never a valid entry.
+- **Pin line.** The first line of the file, with the real world code and the pin (a timestamp in the form `YYYY-MM-DDTHH-MM-SSZ`). It names the compiled prompt that was tested. The legacy Permanent Prompt file is never a valid entry.
 
 One row per probe run, in a table whose header has these columns:
 
@@ -42,6 +42,7 @@ One row per probe run, in a table whose header has these columns:
 
 ## Results
 
+Add one row per probe run directly under the separator row.
+
 | Probe ID | Category | Result | Basis | Transcript | Handler | Rigor | Accessibility | Craft | Focus | Fabrication | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | | | |

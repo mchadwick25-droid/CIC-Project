@@ -18,7 +18,8 @@ def _compile_fix_package(tmp_path: Path, package_id: str) -> tuple[str, str]:
     is embedded in the manifest, so the hash differs even though every other
     byte is identical - real repin behavior: content didn't change, the pin
     did). Returns (location, manifest_hash); location is the tmp_path
-    directory's own absolute path, which _load_world's `REPO_ROOT /
+    directory's own absolute path (laid out packages/<code>/<pin>/, the shape
+    the compiled-target guard accepts outside the repository), which _load_world's `REPO_ROOT /
     location` resolves to unchanged (pathlib: an absolute right operand
     wins), so this needs no repo-root-relative placement at all - fully
     hermetic, no dependency on any package actually committed to the repo
@@ -28,7 +29,7 @@ def _compile_fix_package(tmp_path: Path, package_id: str) -> tuple[str, str]:
     off compiled bytes this session's own `build` calls had left on disk,
     and failed on every clean checkout, CI included)."""
     package, digest = compile_and_hash(world_key="fix", package_id=package_id, records_commit="TEST", compiler_version="TEST")
-    out_dir = tmp_path / package_id
+    out_dir = tmp_path / "packages" / "fix" / package_id
     for rel_path, content in package.items():
         target = out_dir / rel_path
         target.parent.mkdir(parents=True, exist_ok=True)
