@@ -508,3 +508,272 @@ A search of Augustine's Latin sermons, Enarrationes, Guelferbytani, Caillau and 
 ## Note on a VERIFIED row
 
 6516f231 holds in the Registry's own sense of "licenses". But Audollent (row 241, vendored and in this world's corpus map) does print a conversion for this exact collection: "100.000 sesterces (environ 25.000 francs)" at `cic/texts/audollent_carthage-romaine-fra_1901.txt`, line 29034. The claim_guards entry "no source of ours licenses one" is true. It would be clearer if it said that an unlicensed 1901 figure exists and is not to be used.
+
+---
+
+## Second pass: the reworded claims (after the change order)
+
+Findings from the two Opus checks of the claims the change order reworded. Same rules: nothing here has been applied.
+
+### Batch 1
+
+# Claims round 2, batch 1 (lpc): findings on claims not marked
+
+Ten of the 29 claims could not be marked VERIFIED or JUDGEMENT. Five are P1 and five are P2. There is no P0. Line numbers are those of the file as it stands on 2026-09-30. ANF05 means `cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml`, and NPNF105 means `cic/texts/npnf105_augustine-anti-pelagian-writings.xml`.
+
+---
+
+## `1c6a0280` (P1, overstated: defect D again)
+
+- **File and line:** Doc_03_Lexicon_Candidate_List.md, line 63 (the "grace" row).
+- **Claim, the part at issue:** "Both halves of that second refusal — minister's-purity and unaided-will — belong to Augustine; neither belongs to Cyprian."
+- **What the source shows:**
+  - **The minister's-purity half is correct.** Cyprian is the rigorist on rebaptism.
+  - **The unaided-will half is contradicted inside this world's own Native rows.**
+    - Cyprian, Ad Donatum 4: "Dei est, inquam, Dei omne, quod possumus" (`cic/texts/cyprian_ad-donatum-lat_hartel1868-csel3-tei.txt`, line 256).
+    - Ad Quirinum III.4, heading: "In nullo gloriandum, quando nostrum nihil sit" (`cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt`, line 3300).
+    - Augustine enlists Cyprian against the Pelagians in row 23, the corpus this entry itself cites. NPNF105 lines 18089-18104 have the chapter "Further Appeals to Cyprian's Teaching", which reads: "if the blessed Cyprian thought that our own will was sufficient for not committing these crimes, he would not ..."
+    - "Cyprian" occurs 116 times in NPNF105, mostly between lines 18000 and 23000.
+  - **What holds.** The controversy is Augustine's. The refusal of unaided will is not his alone.
+  - **Status elsewhere.** OG-29 defect D and the OG-30 ruling ("Cyprian states it; Augustine carries it forward") already record this. This Doc_03 sentence was not brought into line.
+- **Proposed true wording:** "Both controversies in that second refusal, over minister's purity and over unaided will, are Augustine's; neither is Cyprian's. Cyprian was the rigorist on the first. On the second he states the theme ('It is of God, I say, of God, all that we can do', Ad Donatum 4; Ad Quirinum III.4), and Augustine cites him for it against the Pelagians (row 23), but no controversy over it arises in his phase."
+
+## `72fd7e89` (P1, overstated)
+
+- **File and line:** Doc_08_Forces_Document.md, line 302. The same text is at lpc_Force_Index.md line 91. "Attested twice" also appears at Doc_08 line 191 (2B-4 Layer 3) and at `records/lpc/force/lpc.force.augustine-engagement-cyprian-conciliar-acts.md` line 54.
+- **Claim, the part at issue:** "Its crossing is textual and is attested twice (the second, Possidius quoting Cyprian, is not a force in this matrix)".
+- **What the source shows:**
+  - **"The only force in this matrix" holds.** Only 2B-4 is registered as crossing 3B-2. 2B-5's row names a transmission effect, not formation logic carried across.
+  - **The oratory clause is accurate.** Confessions V.8 is at npnf101 line 8104.
+  - **"Attested twice" is false.** Cyprian's texts crossing the gap into Augustine's phase are attested many times in rows the build has read.
+    - Augustine quotes Cyprian's Ad Quirinum, On the Lord's Prayer and On Patience as authority in the anti-Pelagian corpus (row 23; NPNF105 lines 18086-18105 and following).
+    - Doc_02 section 2 itself records Augustine arguing with Cyprian at length in On Baptism.
+    - Augustine's sermons for Cyprian's feast are held in row 227 (unread, per OG-30).
+  - **The mechanism has many instances.** The textual mechanism is real, but it is attested far more than twice, and Possidius is not the only other instance.
+- **Proposed true wording:** "2B-4 is the only force in this matrix that carries formation logic across the 133-year silence recorded at 3B-2. Its crossing is textual. The same textual reception appears outside the matrix as well: Augustine quotes Cyprian's treatises as authority against the Pelagians (row 23), and Possidius quotes Cyprian's De Mortalitate. A separate, non-textual continuity, the oratory in memory of Cyprian at Carthage that Confessions V.8 records, is not assessed in this matrix." Line 191 and the force record need the same change.
+
+## `47c2d86c` (P1, scope dropped: defect C / batch 4 Group A again)
+
+- **File and line:** Doc_08_Forces_Document.md, line 264 (3B-2 Layer 1).
+- **Claim, the part at issue:** "...Doc02 §7 records that ... from them to Augustine's ordination no source supplies a bishop's ordinary pastoral or congregational voice, or a congregation's voice, that continues Cyprian's."
+- **What the source shows:**
+  - **The claim misreports its authority.** Doc_02 section 7 (line 120) reads "no source in the Registry supplies ...", but the sentence drops "in the Registry".
+  - **The flat version is not supported.** The row 229 file (`cic/texts/augustine_sermones-guelferbytani-lat_morin1917.txt`) prints nine tractatus. Morin gives one of them to Optatus of Milevis (lines 1701-1703). It is a congregational sermon by an in-gap Catholic bishop, and it is unassessed, with no Registry row.
+  - **The rest of the sentence checks.** This covers the Doc_01 section 6 asymmetry and the sequence clause (Life 11, ANF05 line 28003; Harnack, lines 376-378 and 4361).
+- **Proposed true wording:** Replace "no source supplies" with "no source in the Registry supplies", and leave the rest unchanged.
+
+## `f1019fa1` (P1, false on the gestures limb)
+
+- **File and line:** Doc_05_Ecological_Reconstruction.md, line 151 (construction note).
+- **Claim, the part at issue:** "the setting, gestures and full order of the rites at Carthage or at Hippo are not attested in anything this build has verified".
+- **What the source shows:** Gestures of the Carthage rite are attested in row 1, and this build's own catechesis chunk carries them.
+  - **Imposition of hands.** Cyprian, Epistle LXXII to Jubaianus (ANF05 line 38620), writes that the baptized "by our prayers and by the imposition of hands obtain the Holy Spirit, and are perfected with the Lord's seal".
+  - **Anointing.** Epistle LXIX (ANF05 lines 38069-38076) says the baptized must be "anointed ... with the oil sanctified on the altar".
+  - **The build carries both.** `Build/worlds/lpc/lpcctx003_what-the-water-seals.md` (lines 27-29 and 39) renders the anointing and the laying on of hands, and it records them as attested "in your own words".
+  - **Signing and salt.** These are carried at lpcctx001, though the source there is Thagaste (Confessions I.11).
+  - **What holds.** "Setting" and "full order" still hold. The note's added sentence on the attested interrogation and the creed-before-prayer order is correct.
+- **Proposed true wording:** "The catechetical sequence rendered here is what rows 5, 15 and 18 presuppose and what Doc_02 §5 names. Some parts of the rites are attested and are not supplied here: the wording of the baptismal interrogation in Cyprian's church (Epistle LXIX; lpcctx002), the anointing and laying on of hands after baptism there (Epistles LXIX and LXXII; lpcctx003), and the creed-before-prayer order in Augustine's sermons to the candidates (lpcctx001). The setting and the full order of the rites at Carthage or at Hippo are not attested in anything this build has verified, and none of it is supplied."
+
+## `80762ed5` (P1, overstated: an exclusivity count that misses one)
+
+- **File and line:** Doc_04_Gravity_Discovery.md, line 14 (section 1).
+- **Claim, the part at issue:** "Most candidates below are generated from elements recurring across multiple Doc02 evidence streams ... Two are not: Candidate 5 ... and Candidate 7 ..."
+- **What the source shows:** A third candidate is not multi-stream either, by the document's own flag. At line 141, Candidate 8's Author Gravity flag reads: "the evidence base is essentially one Registry row (1) read through one lexicon entry". "Most" still holds, since five of eight candidates are multi-stream, but "Two are not" is false.
+- **Proposed true wording:** "Most candidates below are generated from elements recurring across multiple Doc_02 evidence streams (not one source's own emphasis). Three are not: Candidate 5, whose two poles are each voiced chiefly by one bishop (in Cyprian's phase Firmilian, in Epistle LXXIV, also contests Stephen), the Augustine pole reaching this document through Doc_01 §4 and Doc_03 rather than through Doc_02; Candidate 7, whose evidence, as this document drew on it, is one voice within one stream; and Candidate 8, whose evidence base is essentially one Registry row (1) read through one lexicon entry. The Author Gravity risk for each is flagged at its heading in §3." Keep the rest as it is.
+
+---
+
+## `ee13f4b7` (P2, stale status)
+
+- **File and line:** Doc_03_Lexicon_Candidate_List.md, line 46 (the "bishop of bishops" row).
+- **Claim, the part at issue:** "the egalitarian pole of this world's own still-open conciliar-authority question" and "directly tied to this world's own single most consequential open question".
+- **What the source shows:**
+  - **The quotations are verbatim** at ANF05 line 56872 and following: "set himself up as a bishop of bishops", "by tyrannical terror" and "proper right of judgment". The paraphrase "answerable to no other bishop's judgment but Christ's own" is fair to "can no more be judged by another ... let us all wait for the judgment of our Lord Jesus Christ".
+  - **Doc_01 is reported accurately.** Doc_01 section 5 (line 92) uses "the closest call", and section 8 item 10 (line 180) says "not yet closed".
+  - **But the question is no longer open.** Doc_04 section 5 (line 173) records "Doc_01 §5's strand-singular determination is reaffirmed on the evidence this document surfaces". OG-30 ruling (1) says this "answers Doc_01 section 8 item 10's condition".
+  - **Same defect as H.** This is the closed-called-open defect OG-29 H records for Doc_07 and Doc_09.
+- **Proposed true wording:** "... the egalitarian pole of this world's conciliar-authority question, which Doc01 §8 item 10 held open and Doc04 §5 has since answered by reaffirming the strand-singular finding ..." and "High, and directly tied to the axis Doc01 §5 calls 'the closest call' in the strand-singular finding. Doc01 §8 item 10 left that finding open to reopening if Doc04 surfaced new evidence, and Doc04 §5 surfaced such evidence and reaffirmed it."
+
+## `c714d9cd` (P2, wording)
+
+- **File and line:** Doc_03_Lexicon_Candidate_List.md, line 30 (the "suffrage" row).
+- **Claim, the part at issue:** "This is the direct Augustine-side counterpart to Pontius's account of Cyprian's own election, on the same non-episcopal-witness footing".
+- **What the source shows:**
+  - **Verified quotations.** Every quotation was re-checked verbatim:
+    - Epistle XXXIX: ANF05 lines 32372-32373.
+    - Pontius, Life 5: line 27818.
+    - Letter XXXI section 4: npnf101 line 25856.
+    - Possidius, Vita IV and VIII: `cic/texts/possidius_vita-augustini_weiskotten1919.txt`, lines 1805-1822 and 2125-2145.
+    - Also correct: the three "as he told us" attributions, the fact that Doc_01 section 2 supports the recurrence, and the absence of "suffrage" from Vita IV.
+  - **The footing is not the same.**
+    - Pontius was a deacon.
+    - Possidius wrote the Vita as bishop of Calama, and for the seizure he reports Augustine's own later telling ("as he told us").
+    - Doc_02 line 58 itself says Possidius "Represents a bishop's own retrospective account of a fellow bishop" and that "The two are not simply parallel peer/subordinate cases".
+- **Proposed true wording:** "This is the Augustine-side counterpart to Pontius's account of Cyprian's own election. Both are accounts by someone other than the man elected, though Pontius wrote as a deacon and Possidius as a fellow bishop relaying what Augustine told him: real, first-person-adjacent testimony on three specific points, but not a first-person narration of the seizure itself." Keep the rest as it is.
+
+## `7ae3895d` (P2, not updated for Doc_04's revised Formation finding)
+
+- **File and line:** Doc_08_Forces_Document.md, line 330 (G5).
+- **Claim, the part at issue:** "the other two forces touching G5 (2A-3, 2B-4) reach it through the citation and reading of a text rather than through a pressure on the world's own practice".
+- **What the source shows:**
+  - **Verified parts.** The 1B-1 correction is right: the 256 preface (ANF05 lines 56850-56854) records clergy and people present. The Forces Framework quotation matches Doc_04 line 97.
+  - **What Doc_04 now records.** Doc_04's Formation bullet (line 92) says that, under the Donatist pressure 2A-3, Augustine "did put the wider question of who judges a bishop to ordinary hearers":
+    - En. in Ps. 36, sermo 2, preached to the congregation: Latin at `cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt` lines 28495-28600, row 201.
+    - The Psalmus contra partem Donati, written for "humillimi uulgi": row 273.
+  - **So 2A-3 reaches G5 through preaching too.** Preaching is the world's own practice (G4), not only the reading of a text.
+  - **The closing limb holds.** No evidence shows ordinary formation.
+- **Proposed true wording:** "The connection here is real but indirect: 1B-1 supplies only the conciliar setting, in which Cyprian's formula was spoken before presbyters, deacons and a considerable part of the congregation. 2B-4 reaches G5 through the reading of a text. 2A-3 reaches it chiefly through the Donatists' citation of Cyprian, and also through Augustine's putting the wider question of who judges a bishop to ordinary hearers (En. in Ps. 36; the Psalmus contra partem Donati, row 273). No source shows how they took it, which is consistent with Doc04's finding that no evidence shows the question formed ordinary believers."
+
+## `fa03fb2a` (P2, overstated)
+
+- **File and line:** Doc_07_Integrated_Ecology_Analysis.md, line 62.
+- **Claim, the part at issue:** "the interior life of an ordinary believer in this world is Inferential/Thin and is narrated nowhere in this build."
+- **What the source shows:**
+  - **What holds.** The first half holds: a deacon and two lay confessors write, and no ordinary congregant does. The anonymous companion who narrates the Marianus and Jacobus act (row 231, Knopf file line 5166 and following) is of unstated rank.
+  - **"Narrated nowhere in this build" overstates.** Doc_05 renders ordinary believers' inner stance in two places.
+    - **Section 10 (lines 332-344).** A Tier 4 composite in the second person: "You are somebody's. That is the first thing ... You fail, or you are told you never really began".
+    - **Section 2 (line 90).** It voices the Hippo congregation's reasoning in the first person plural: "We did not think a word given to a rich man's family outweighed a church's need". It is marked Inferential/Thin and bounded to Augustine's concessions in Letter CXXVI.
+  - **How the build renders it.** Both passages are disclosed reconstructions, not documented narration, but they narrate it all the same.
+- **Proposed true wording:** "What is missing is not the un-hostile record but the ordinary one: a deacon and two lay confessors do write in their own voices, but no ordinary congregant does. The interior life of an ordinary believer in this world is Inferential/Thin. The build renders it only as disclosed reconstruction (Doc_05 §10's Tier 4 composite, and the one bounded Letter CXXVI trace at Doc_05 §2), never as documented."
+
+## `6dd77ca9` (P2, overstated)
+
+- **File and line:** Doc_08_Forces_Document.md, line 371.
+- **Claim:** "This world's record is not hostile at all — and is silent on the ordinary congregant."
+- **What the source shows:**
+  - **The record is not silent on ordinary congregants.** It speaks about them constantly:
+    - De Lapsis narrates ordinary lapsed believers by case.
+    - Cyprian's letters address and discuss the plebs.
+    - Letter CXXVI records the Hippo crowd's acts (Doc_05 line 88).
+    - Letter CCXIII minutes the people's acclamations.
+  - **The document's own paragraph agrees.** The paragraph just before, at line 369, says the ordinary believer "appears as addressee and almost never as author". What is missing is their own voice, which the next sentence at line 371 states correctly.
+- **Proposed true wording:** "This world's record is not hostile at all — and it almost never carries the ordinary congregant's own voice."
+
+---
+
+## Note outside the batch
+
+Doc_04 line 94 (Persistence) says "clergy and people are attested present only at the 256 council". It sits in the same bullet as `4c4daa0c`, but it is a separate sentence and not in this batch. The sentence is about presence at councils, so it can be read as true. Even so, it sits uneasily with the Formation bullet's own record that Augustine put the question to ordinary hearers in En. in Ps. 36 and in the Psalmus. It is worth checking when Doc_04 is next touched.
+
+### Batch 2
+
+# Claims round 2, batch 2: findings (claims not marked)
+
+Ten of the 28 claims could not be marked. There are no P0s, six P1s and four P2s. Line numbers are those of the files as they stand on 2026-09-30. "Bruns" means `cic/texts/codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt` (Registry row 202, Native, Confidence A).
+
+---
+
+## Group A: the 258 to 391 silence as the corrected records now word it (aeffea9d, d663d795, 375ba809, cd16e5e6), P1
+
+| id | file and line | claim (the part at issue) |
+|---|---|---|
+| `aeffea9d` | records/lpc/world_core/lpc.core.latin-pastoral-congregational-christianity.md, line 273 | "After them, no source in this world's Registry supplies a bishop's ordinary pastoral or congregational voice, or a congregation's voice, that continues Cyprian's." |
+| `d663d795` | records/lpc/force/lpc.force.transmission-asymmetric-span-133-year-silence.md, line 50 (description) | "After them, none of the sources we have assessed carries on Cyprian's voice." |
+| `375ba809` | same file, line 100 (manifestations) | "...and after which no source in the Registry supplies a bishop's ordinary pastoral or congregational voice, or a congregation's voice, that continues Cyprian's; ... the council canons ... are licensed for other claims (Doc02 §7)..." |
+| `cd16e5e6` | records/lpc/honest_limit/lpc.limit.the-silent-century.md, line 37 | "From them to 391, no source in the Registry supplies a bishop's ordinary pastoral or congregational voice, or a congregation's voice, that continues Cyprian's." |
+
+**What was checked and holds.**
+- **Scope.** The Registry scope and the Guelferbytanus caveat (row 229) are now stated in three of the four records. The core record (`aeffea9d`) still states neither the caveat nor any exception.
+- **Morin.** "ascribed elsewhere ... not unlikely" is exact. Morin's preface reads "unus (6) Optato Mileuitano episcopo ... haud sine aliqua ueri similitudine alibi adscribitur" (augustine_sermones-guelferbytani-lat_morin1917.txt lines 1701-1703). The other manuscript is Orléans 154 (line 10850).
+- **Optatus and the appendix.** No claim draws on Optatus or on the appendix. A grep of records/lpc and the Docs found them only in Registry and silence text.
+
+**What the source shows.** Doc_02 §7 sets the canons aside in one sentence: "conciliar canons and documents of the Donatist dispute are not that". The Gratus council in row 202 is not bare canons. It is minuted speech by a bishop of Carthage, in his own first person, on pastoral care, dated inside the gap (c. 345-348). It also deals with Cyprian's own pastoral questions.
+
+- **The bishop speaks for himself.** In Bruns, canon I (lines 7942-7944) reads: "tamen et ego unus ex vobis et qui parem vobiscum sollicitudinem gero propter ecclesiasticum ordinem illud insinuare curabo". It echoes the 256 preface's "neither does any of us set himself up as a bishop of bishops".
+- **He names ordinary preaching.** Canon IV (line 8007) reads: "unusquisque nostrum tractatu assiduo et commonitione frequenti ... poterit populos invitare". This refers to the bishops' ordinary preaching to their congregations.
+- **Rebaptism (canon I).** Gratus asks whether one baptised "in trinitate" may be questioned and dipped again. All the bishops answer "Absit, absit". This is Cyprian's 256 question, now decided against him.
+- **Virgins and widows living with men (canons III and IV).** This is Cyprian's Ep. IV (Pomponius) problem. The penalty for laity who ignore a warning is separation from communion (lines 7996-8000).
+- **The honour of martyrs (canon II, line 7948).** Laity who defame it are to be brought to penance.
+- **The Genethlius council is not relied on here.** Doc_02 §7 places a council under Genethlius (387 or 390) in the gap, from row 26. But Bruns heads his "Concilium Carthaginense secundum" (line 8267) "circa tempora Coelestini papae". Its minutes give some speeches to Aurelius (for example line 8394, on a presbyter reconciling a dying penitent), with Geneclius as a variant. So its date and speakers need their own check before it is used either way.
+
+**Why this matters.** Whether a council's first-person minutes count as "a bishop's ordinary pastoral voice ... that continues Cyprian's" is a reading. As worded, these four claims (formation_confidence Documented) state a flat negative that row 202 contradicts. The core record goes further and tells the Representative "Do not supply one". That would lead the voice to deny that any bishop of Carthage speaks in the record between 258 and 391, which Gratus does.
+
+**Severity.** P1: overstated against a Native, Confidence A Registry row. It is not P0, because Doc_02 §7 names the canons as licensed exceptions and a defensible narrower claim stands.
+
+**Proposed true wording (adapt per site).** "From them to 391, no treatise, letter or sermon in the Registry gives a bishop's pastoral voice or a congregation's voice that continues Cyprian's. The nearest are the minutes of the Carthage council under Gratus (c. 345-348; rows 26, 59 and 202). There a bishop of Carthage speaks in his own person on questions Cyprian also handled (rebaptism, which the council forbids; virgins living with men; the honour of the martyrs). They are conciliar minutes, drawn on for no claim here, and not a record of congregational life. One Guelferbytanus tractatus, ascribed elsewhere to Optatus of Milevis, is held but not assessed (row 229)."
+- **For `d663d795`:** "After them, none of the sources we have assessed carries on Cyprian's voice in a treatise, letter or sermon. The nearest is a bishop of Carthage, Gratus, speaking in council about 345 on pastoral discipline Cyprian also dealt with. His council forbids the rebaptism Cyprian had required."
+- **For `aeffea9d`:** add the row 229 caveat and the Gratus exception, and replace "Do not supply one" with "Do not invent one; the council minutes of Gratus may be named for what they are".
+
+---
+
+## `3a30f145`, P1
+
+- **File and line:** records/lpc/honest_limit/lpc.limit.the-silent-century.md, line 49 (why_sources_cannot_answer)
+- **Claim:** "This world's congregational record is silent across it.' That sentence holds within the Registry's assessed sources."
+- **What the source shows.**
+  - **Confessions (row 9, Native, licensed).** It is an assessed Registry source, and it records the congregational practice of an ordinary African Catholic laywoman inside the gap:
+    - Confessions V.8 (npnf101 line 8104; 383) places Monica at "an oratory in memory of the blessed Cyprian" at Carthage.
+    - Confessions VI.2 (npnf101 lines 8733-8735) says she brought food to "the oratories built in the memory of the saints", "as was her custom in Africa".
+    - Doc_02 §6 sets Monica aside because she is not under either bishop's ministry. That reason does not apply to a claim about the interval, which lies outside both ministries by definition.
+  - **Gratus's council (row 202; see Group A).** It also regulates congregational conduct inside the gap: laity who defame martyrs are brought to penance, and laity who ignore a warning are separated from communion.
+  - **The record's own caveat.** It says the oratory "is not assessed here". But Confessions is one of the Registry's assessed sources, so "holds within the Registry's assessed sources" is not true as worded.
+- **Severity:** P1. It is overstated against a licensed Native source, in a record rated Documented.
+- **Proposed true wording:** "...This world's congregational record is silent across it.' That holds for any congregation's own voice. It does not hold for every trace of congregational life. Confessions V.8 and VI.2 (row 9) show Monica at the oratory of Cyprian at Carthage about 383 and keeping the African custom of bringing food to the martyrs' shrines. The Gratus council (row 202, c. 345-348) regulates lay conduct. Neither is assessed here."
+
+---
+
+## `7fd5a01d`, P1
+
+- **File and line:** Build/worlds/lpc/lpc_World_Profile.md, line 392 (Formation impact, Layer 3)
+- **Claim:** "This is the opposite asymmetry from the sibling Donatism case, whose record is shaped by hostile mediation; this world's record is not hostile, and is silent on the ordinary congregant."
+- **What the source shows.** The record is not silent on the ordinary congregant. It speaks about congregants and to them constantly, and it preserves their collective voice:
+  - **Acclamations.** Letter CCXIII (row 11, a licensed letter; npnf101 lines 55306-55433) minutes the people of Hippo's own acclamations verbatim, with their counts. One example: "The people shouted thirty-six times, 'To God be thanks...'".
+  - **The crowd at Augustine's ordination.** Possidius IV records it, and the world's own lpc.quote.clamour-and-tears is built on it.
+  - **The Pinianus riot.** Letter CXXVI records the congregation's riot demanding Pinianus.
+  - **The holding claim.** The next sentence in the Profile ("a deacon ... and two lay confessors ... write in their own voices, but no ordinary congregant does") is true, and it is what "silent" should mean.
+- **Severity:** P1. It is wrong as worded, and contradicted by licensed letters and by the world's own quote record.
+- **Proposed true wording:** "This is the opposite asymmetry from the sibling Donatism case, whose record is shaped by hostile mediation. This world's record is not hostile. It speaks about and to the ordinary congregant, and it minutes the congregation's shouted acclamations (Letter CCXIII), but no ordinary congregant writes in it."
+
+---
+
+## `1c796cd6`, P2 (quotation)
+
+- **File and line:** records/lpc/source/lpc.source.duval-loca-sanctorum-africae.md, line 35 (the same text is in Registry row 60)
+- **Claim:** "Licensed for rows 37 and 38 -- CIL VIII, no inscription named, and basilica archaeology, Confidence D, 'only the category' named -- the two material rows it would most directly turn from category into evidence."
+- **What the source shows.**
+  - **What holds.**
+    - Row 37 names no inscription: its note says "Not independently re-checked against a specific volume or inscription".
+    - Row 38 is Confidence D.
+    - Calling these the two rows Duval bears on most directly is a fair judgement, since Duval is martyr-cult inscriptions with archaeology.
+  - **The quotation.** Row 38 as it now reads (Source_Registry.md line 51) does not contain "only the category". It says "(general category)" and "no specific site report or excavation record identified or verified". The quoted phrase comes from an earlier wording of row 38, quoted in Review-Artifacts/Doc02_Round4_Review.md line 205. Registry rows 60 and 81 and line 143 repeat the stale quotation.
+  - **Row 37 is not a category.** CIL VIII is a vendored corpus at Confidence B, so "turn from category into evidence" fits row 38 only.
+- **Severity:** P2. The quotation marks enclose words the cited row no longer contains.
+- **Proposed true wording:** "Licensed for rows 37 and 38 -- CIL VIII, vendored but with no inscription named, and basilica archaeology at Confidence D, a general category with no site report identified -- the two material rows it bears on most directly."
+
+---
+
+## `acdadc06`, P2
+
+- **File and line:** records/lpc/gravity/lpc.gravity.conciliar-authority-theory.md, line 83. The same wording is in Doc_04 line 92, outside this batch.
+- **Claim:** "No source shows how they took it." ("It" is Augustine's putting of the question of who judges a bishop to ordinary hearers against the Donatists.)
+- **What the source shows.**
+  - **Nothing on this question in particular.** Neither the Psalmus nor Enarrationes 36 s. 2 records a reaction: no acclamation appears in the Migne text of Enarr. 36, lines 26300-29700.
+  - **But Possidius reports how ordinary hearers took Augustine's anti-Donatist teaching in general.** Possidius VII-VIII (row 192; possidius_vita-augustini_weiskotten1919.txt lines 2061-2066 and 2201-2206) says Catholics and Donatists alike "listened most eagerly to these books and treatises". He adds that the Donatists of Hippo "brought his addresses and writings to their bishops", and that when the bishops replied "they were either refuted by their own followers" or their replies went back to Augustine.
+  - **So the flat claim leaves out a friendly witness.** It is hagiographic and it is general, but it is a report of reception.
+- **Severity:** P2. Overstated by omission.
+- **Proposed true wording:** "No source shows how they took that question in particular. Possidius says only, in general and in praise, that Catholics and Donatists listened eagerly to his writings against the Donatists and carried his addresses to their own bishops."
+
+---
+
+## `3c4695f5` and `e1d626e3`, P2
+
+| id | file and line | claim (the part at issue) |
+|---|---|---|
+| `3c4695f5` | Build/worlds/lpc/lpc_World_Profile.md, line 216 | "G5 does not reach ordinary formation: Doc04 finds no evidence that ordinary believers, catechumens, or most clergy were formed by that theoretical question as a teaching." |
+| `e1d626e3` | same file, line 188 | "G5 sits apart from ordinary formation — Documented in its own existence, but with no evidence ordinary believers or most clergy were formed by the question as a teaching..." |
+
+- **What the source shows.** The second half of each sentence reports Doc_04 accurately (Doc_04 line 92), and is marked JUDGEMENT on the other G5 rows. The first half turns an absence of evidence into a proven negative.
+  - **Doc_04's own verdict.** It is "Formation: Does not clearly pass" (line 92), not "fails".
+  - **The G5 record's own caveat.** The G5 record (records/lpc/gravity/lpc.gravity.conciliar-authority-theory.md line 88) says: "This is a limit of the search so far, not a proven absence."
+  - **The Psalmus.** In the Augustine phase, the Psalmus contra partem Donati (row 273) was written so that the Donatist case would reach "ipsius humillimi uulgi" and stick in their memory, "psalmum, qui eis cantaretur". It puts to the people who should judge bishops ("uel uos iam, populi, audite ... quos uelletis iudicare nisi alterarum regionum", Petschenig file augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt lines 1608-1614; Retractationes, augustine_retractationes-lat_knoll-csel36.txt lines 6832-6835). That is a teaching aimed at ordinary formation, whatever its effect.
+  - **So "does not reach" and "sits apart from" overstate** what the Profile's own line 128 and the G5 record say.
+- **Severity:** P2. A wording overstatement that the same file qualifies elsewhere.
+- **Proposed true wording.**
+  - **`3c4695f5`:** "G5 is not shown to reach ordinary formation: Doc_04 finds no evidence that ordinary believers, catechumens, or most clergy were formed by that theoretical question as a teaching."
+  - **`e1d626e3`:** "G5 is not shown to reach ordinary formation — Documented in its own existence, but with no evidence ordinary believers or most clergy were formed by the question as a teaching (awareness is attested: a large part of the congregation heard Cyprian speak his formula at the 256 council, and Augustine's Psalm against the party of Donatus put the wider question to ordinary people; Doc_07 §3C excludes it from Representative theological patterns)."
+
+---
+
+## Note on a marked row
+
+`1649dae4` and `ba8ab0d6` are marked JUDGEMENT, not VERIFIED. The literary and epistolary sweep holds. But the row 37 CIL file is a Native Registry row and holds epitaphs set up in a woman's name. "VXOR FECIT" at line 71668 and "MATER FECIT" at line 85848 were found, both from Mauretania, not Carthage or Hippo. So the claim stands only on the reading that a formulaic dedication is not a text "written by a woman". If the world wants the claim to be unconditional, it could say "no literary or epistolary text".
