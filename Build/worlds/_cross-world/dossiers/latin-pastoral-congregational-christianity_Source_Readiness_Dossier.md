@@ -9,7 +9,7 @@ exists.
 "c. 240s-430" is the same window stated less precisely)
 **Region(s):** Carthage and Hippo Regius, Latin-speaking Roman North Africa
 **Dossier author / date:** source-research thread, 2026-09-21
-**Corpus-map / `cic/texts/` state as of:** commit `009caaf0`, 2026-09-21
+**Corpus-map / `cic/texts/` state as of:** commit `009caaf0`, 21 September 2026
 
 **A status note this dossier exists to correct, not just record.** The
 census (`cic-website/data/world-census.json`) currently lists this world as
@@ -53,7 +53,9 @@ risk introducing a transcription error the corpus-map itself doesn't have.
 | Augustine — pastoral/moral treatises (English, NPNF1-03) | *Of Holy Virginity*, *Of the Work of Monks*, *On Continence*, *On Lying*/*Against Lying* (also priscillianist-asceticism), *On the Good of Marriage/Widowhood*, *On Care to Be Had for the Dead*, *Treatise on Faith and the Creed*, Enchiridion (2nd copy), *Concerning Faith of Things Not Seen* | tradition | assigned | `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` |
 | Augustine — Latin critical editions | *City of God* I–XIII / XIV–XXII (Hoffmann, CSEL 40); *Confessions* (Knoll, CSEL 33); *Epistulae* 1–123 / 124–184A / 185–270 (Goldbacher, CSEL 34/44/57); *Enarrationes* (Migne PL 36–37); *Retractationes* (Knoll, CSEL 36); *De Doctrina*/Enchiridion (Bruder 1838) | tradition | assigned | six standalone `augustine_*` files |
 | Conciliar / institutional | *Codex Canonum Ecclesiae Africanae* (419), English (NPNF2-14) and Latin (Bruns); Council of Carthage under Cyprian (256, double-placed with novatianism-adjacent shared inheritance); *Gesta Collationis Carthaginiensis* (411 conference acts, also latin-pastoral per row-65 of the ruling) | tradition/context | assigned/provisional | `npnf214…`, `codex-canonum…`, `pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` |
-| Boundary-adjacent, provisional | Optatus, *Against the Donatists* (English; open placement question, see §6); two anonymous Novatianist-controversy treatises (ANF05); *Codex Theodosianus* (context, imperial legal backdrop) | tradition/context | provisional | `optatus_against-the-donatists.txt`, `anf05…`, `codex-theodosianus_latinlibrary.txt` |
+| Optatus, *Against the Donatists* (English; boundary-adjacent, provisional; open placement question, see §6) | Optatus of Milevis, Books I–VII | tradition | provisional | `optatus_against-the-donatists.txt` |
+| Anonymous, *Treatise Against the Heretic Novatian* (c. 255) and *Treatise on Re-baptism (De Rebaptismate)* (ANF05; boundary-adjacent, provisional) | *Treatise Against the Heretic Novatian*; *De Rebaptismate* | tradition | provisional | `anf05_hippolytus-cyprian-caius-novatian.xml` |
+| *Codex Theodosianus* (Imperatori Theodosiani Codex), full text, as transcribed at The Latin Library (boundary-adjacent, provisional; context, imperial legal backdrop) | Latin Library text | context | provisional | `codex-theodosianus_latinlibrary.txt` |
 | Modern scholarship (context, consultation-only) | Delehaye (genre theory), Harnack (Pontius commentary), Monceaux *Histoire littéraire* I–III, von Soden ×2 (letter transmission; prosopography) | context | assigned | six standalone files, all closing named Manifest gaps (see §4) |
 
 **Scale note:** this is, by the build's own B1/B2 assessment (Step 0 §3),
@@ -65,8 +67,8 @@ not have at all.
 
 ## 2. Cross-link opportunities
 
-**A real cross-link opportunity, not yet caught by this world's own build.**
-The sibling Donatism build has vendored two Latin critical
+**A cross-link with the Donatism world.**
+The Donatism world has vendored two Latin critical
 editions directly relevant to this world's own anchor author (Augustine)
 and to a work already sitting in this world's own corpus-map:
 
@@ -151,10 +153,10 @@ re-open them:
   world's own Step 0 (§4 item 2a) names three live options — re-home to
   Donatism, hold here as the Catholic-side tradition, or double-place, the
   way the Council of Carthage under Cyprian already is — as a real,
-  currently-open question for Doc_02, not pre-decided. The two newly-found
+  a placement the source ecology has to settle; it is not pre-decided. The two
   Petschenig/Ziwsa Latin critical editions (§2 above) sharpen this rather
   than resolve it: linking them here before Optatus's own placement is
-  settled would compound an open question, not close it.
+  settled would make the placement harder to settle, not easier.
 - **The Hilary-identity contested question**, shared with
   `gallic-monastic-ascetic-christianity`: the correspondent Augustine's *De
   correptione et gratia* and *De praedestinatione sanctorum* both address is
