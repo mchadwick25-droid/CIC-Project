@@ -13,8 +13,9 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'Doc_08 §3 Force 3B-2: Documented as a fact about the record itself, checkable against
-    the Registry -- no primary source named at Doc_02 §1 and no Registry row dates from within the 133-year
-    gap. Layer 2''s own sentence on how the inheritance was received carries the Reported-Experience Status
+    the Registry -- no source supplies a pastoral or congregational voice from within the 133-year gap, and
+    the one Registry text dated inside it (Optatus of Milevis, rows 27, 64 and 264) is Donatism''s territory,
+    held provisionally, and drawn on for no claim. Layer 2''s own sentence on how the inheritance was received carries the Reported-Experience Status
     marker (Constitution Article 17; Forces Framework §3): reported as the world''s own self-understanding,
     not assessed for historical accuracy.'
 sources: []
@@ -27,9 +28,11 @@ name: 'Transmission: an Unevenly Attested Span and a 133-Year Silence'
 kind: ending
 description: >-
   This world's closing decades are much better attested than its opening ones. Between its two phases
-  lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No primary
-  source in our own record, and no text in our own source catalogue, dates from within that gap. This is a
-  documented fact about the record itself, and anyone can check it against the catalogue.
+  lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No source
+  in our own record supplies a pastoral or congregational voice from within that gap. The one text in our
+  source catalogue dated inside it is Optatus of Milevis, writing against the Donatists. It belongs to
+  Donatism's territory. We hold it provisionally and draw on it for no claim. This is a documented fact
+  about the record itself, and anyone can check it against the catalogue.
 
 
   Augustine does not receive Cyprian through a chain of teachers who knew him. He receives a set of
@@ -61,10 +64,11 @@ description: >-
   This is the same pattern that let both men's writings survive on the dominant side. Here it shapes the
   span of the record rather than its content.
 manifestations:
-- the roughly 133-year gap between Cyprian's martyrdom (258) and Augustine's ordination (391), from which
-  no named primary source or catalogued text dates
+- the roughly 133-year gap between Cyprian's martyrdom (258) and Augustine's ordination (391), within which
+  no source supplies a pastoral or congregational voice and the one Registry text dated inside it,
+  Optatus of Milevis (rows 27, 64 and 264), is drawn on for no claim
 - Augustine reading and arguing with Cyprian's own council acts and letters as a text to be weighed, not
   a custom carried by living memory
 matrix_cell: 3B
 ---
-Re-derived from the approved Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. sources[] is deliberately empty -- this force's own evidentiary base is a fact about the absence of dated Registry rows in an interval, not a citable vendored text making a claim; see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.
+Re-derived from the approved Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. sources[] is deliberately empty -- this force's own evidentiary base is a fact about the absence of any Registry source supplying a pastoral or congregational voice in an interval, not a citable vendored text making a claim; see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.

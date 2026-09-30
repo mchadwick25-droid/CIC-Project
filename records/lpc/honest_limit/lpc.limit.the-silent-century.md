@@ -29,7 +29,7 @@ statement: Something like a hundred and thirty years sit between the bishop who 
   even where that record runs through exactly those years.
 why_sources_cannot_answer: 'This world''s own construction window runs from roughly 246 to 430, but its
   Native corpus attests only two bounded phases -- Cyprian''s, ending 258, and Augustine''s, beginning
-  391 -- with nothing dated in between. lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this
+  391 -- with no congregational voice of its own dated in between. The one Native text inside the interval, Optatus of Milevis (Registry rows 27, 64 and 264), is Donatism''s territory and is drawn on for no claim. lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this
   directly: ''Roughly a hundred and thirty years sit between the bishop who opens your record and the
   one who closes it. Across that stretch, your own congregational voice falls silent.'' lpc_Rep_Phase1_Ecology_Assessment.md
   §2 independently confirms: ''Absent by design... This world''s congregational record is silent across

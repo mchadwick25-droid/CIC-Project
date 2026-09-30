@@ -20,7 +20,7 @@
 **World name:** Latin Pastoral-Congregational Christianity. **World code:** `lpc`.
 **Time horizon:** c. 246–430 CE. **Geographic centres:** Carthage (metropolitan, Africa Proconsularis) and Hippo Regius (Numidian by ecclesiastical province).
 **Anchor figures:** Cyprian, bishop of Carthage 248/249–258; Augustine, presbyter at Hippo 391, bishop 395/396, died 430.
-**Structural fact governing every cell below:** this world is **two attested phases separated by a 133-year silence in its own record.** No primary source named at Doc_02 §1 and no row in `Source_Registry.md` dates from within that interval.
+**Structural fact governing every cell below:** this world is **two attested phases separated by a 133-year silence in its own record.** No source in `Source_Registry.md` supplies a pastoral or congregational voice from within that interval; the one Registry text dated inside it, Optatus of Milevis (rows 27, 64 and 264), is Donatism's territory, is held provisionally, and is drawn on for no claim.
 
 **Input documents:** Doc_01 (Approved to proceed), Doc_02 + `Source_Registry.md` (Approved to proceed; the Registry itself returned to independent review), Doc_03 (Approved to proceed), **Doc_04, Doc_05, Doc_06 and Doc_07 — all Approved to proceed, by the project lead**, each on the project lead's own instruction rather than by self-disposition, because CO-022 forbids a build thread from self-disposing a document against which any escalation category is open, and categories are open against all four. Drafted on the project lead's own direction.
 
@@ -261,7 +261,7 @@ A century and a third later the same consciousness takes a different form: Augus
 
 #### Force 3B-2: **Transmission** — an asymmetrically attested span and a 133-year silence
 
-**Layer 1 — Historical Event.** Doc_01 §6 names it as a real asymmetry this world's Doc_02 must not let pass unremarked: **this world's closing decades are disproportionately well-attested relative to its opening ones.** And between the phases, Doc_02 §7 records that **no primary source named at §1 and no Registry row dates from within the roughly 133 years** between Cyprian's martyrdom and Augustine's ordination. **Confidence: Documented** — this is a fact about the record, checkable against the Registry.
+**Layer 1 — Historical Event.** Doc_01 §6 names it as a real asymmetry this world's Doc_02 must not let pass unremarked: **this world's closing decades are disproportionately well-attested relative to its opening ones.** And between the phases, Doc_02 §7 records that **no source supplies a pastoral or congregational voice from within the roughly 133 years** between Cyprian's martyrdom and Augustine's ordination; the one Registry text dated inside them, Optatus of Milevis (rows 27, 64 and 264), is Donatism's territory, is held provisionally, and is drawn on for no claim. **Confidence: Documented** — this is a fact about the record, checkable against the Registry.
 
 **Layer 2 — World's Own Experience.** Augustine does not receive Cyprian through a chain of teachers who knew him; he receives a set of conciliar acts and letters, reads them, and argues with them — treating a predecessor's ruling as a document to be weighed rather than a custom to be continued.
 

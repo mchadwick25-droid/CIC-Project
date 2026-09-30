@@ -1538,9 +1538,10 @@ def build_forces() -> None:
         "Doc_08 Cell 3B, Force 3B-2 -- the Transmission dimension this cell is required to address "
         "explicitly (Doc_08 §9 completion certification), synthesized fully at Doc_08 §6. LAYER 1 -- "
         "HISTORICAL EVENT: this world's own closing decades are disproportionately well-attested "
-        "relative to its opening ones; and, between the phases, no primary source named at Doc_02 §1 "
-        "and no Registry row dates from within the roughly 133 years between Cyprian's martyrdom and "
-        "Augustine's ordination. Documented -- this is a fact about the record, checkable against the "
+        "relative to its opening ones; and, between the phases, no source supplies a pastoral or "
+        "congregational voice from within the roughly 133 years between Cyprian's martyrdom and "
+        "Augustine's ordination; the one Registry text dated inside them, Optatus of Milevis (rows 27, "
+        "64 and 264), is Donatism's territory, is held provisionally, and is drawn on for no claim. Documented -- this is a fact about the record, checkable against the "
         "Registry itself. LAYER 2 -- WORLD'S OWN EXPERIENCE (Reported-Experience Status applies to the "
         "sentence beginning 'The inheritance was therefore received as text'): Augustine does not "
         "receive Cyprian through a chain of teachers who knew him; he receives a set of conciliar acts "
@@ -1564,14 +1565,16 @@ def build_forces() -> None:
         "own effect on the span rather than on the content.",
         [
             "the roughly 133-year gap between Cyprian's martyrdom (258) and Augustine's ordination "
-            "(391), within which no primary source named at Doc_02 §1 and no Registry row dates",
+            "(391), within which no source supplies a pastoral or congregational voice and the one Registry "
+            "text dated inside it, Optatus of Milevis (rows 27, 64 and 264), is drawn on for no claim",
             "Augustine reading and arguing with Cyprian's own conciliar acts and letters as a text to "
             "be weighed, not a custom carried by living memory",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 3B-2: Documented as a fact about the record itself, checkable against "
-             "the Registry -- no primary source named at Doc_02 §1 and no Registry row dates from "
-             "within the 133-year gap. Layer 2's own sentence on how the inheritance was received "
+             "the Registry -- no source supplies a pastoral or congregational voice from within the "
+             "133-year gap, and the one Registry text dated inside it (Optatus of Milevis, rows 27, 64 and "
+             "264) is Donatism's territory, held provisionally, and drawn on for no claim. Layer 2's own sentence on how the inheritance was received "
              "carries the Reported-Experience Status marker (Constitution Article 17; Forces "
              "Framework §3): reported as the world's own self-understanding, not assessed for "
              "historical accuracy."),
@@ -1580,7 +1583,7 @@ def build_forces() -> None:
         "dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- "
         "deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. "
         "sources[] is deliberately empty -- this force's own evidentiary base is a fact about the "
-        "absence of dated Registry rows in an interval, not a citable vendored text making a claim; "
+        "absence of any Registry source supplying a pastoral or congregational voice in an interval, not a citable vendored text making a claim; "
         "see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.",
     )
 
