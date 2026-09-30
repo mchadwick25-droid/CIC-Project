@@ -4737,3 +4737,32 @@ Mark's ear.
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Next world: the Syriac world's Representative (Mar Yausep); casting brief
    given, voices awaited.
+
+## 2026-09-30 — Mar Yausep's pieces narrated (Syriac world)
+
+**Decision.** The Syriac world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Mar Yausep after hearing it on
+two pieces (a mature, warm, teacherly male brief; kind without intimacy). One
+candidate was sampled and accepted ("yes i like it"). Bios and the tree
+description are not narrated.
+
+**Settings, as printed by the run.** Voice `9iUwwAQbShIkp628a5fO`, model
+`eleven_v4`, stability 0.7, similarity 0.75, style 0, speaker boost on, speed
+1, no tempo change, 128 kbps.
+
+**Cost.** Sample 216 credits; run 849 credits for 6,365 characters. Every
+request line carried the chosen voice and model.
+
+**Wired.** `cic-website/audio/worlds/syriac-edessa-nisibis/` and its entry in
+`manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Cappadocian, Donatist, Gallic, Hieronymian,
+   imperial-juridical, Reformed.
