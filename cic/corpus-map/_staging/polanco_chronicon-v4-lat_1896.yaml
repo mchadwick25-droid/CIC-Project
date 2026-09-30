@@ -1,0 +1,15 @@
+source_file: polanco_chronicon-v4-lat_1896.txt
+assignments:
+- work: Chronicon Societatis Iesu (Polanco), Tomus 4 (1554)
+  author: polanco
+  locus: whole volume - Tomus 4, 1554
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Polanco''s year-by-year chronicle of the Society, 1554, in Latin with the editors'' notes. It
+    is the Society''s own account of its houses, colleges and missions, written by Ignatius''s secretary,
+    and fills the years after the vendored Tomus 1. Primary original evidence for the movement, quotable
+    once each wording is checked against the page image: the scan is legible with occasional letter-level
+    misreads. Word-form coverage against a clean Latin vocabulary is 0.78; the Spanish, Italian and Portuguese
+    passages and the notes lower it, so the figure is a comparison across files and not a measure of accuracy.'

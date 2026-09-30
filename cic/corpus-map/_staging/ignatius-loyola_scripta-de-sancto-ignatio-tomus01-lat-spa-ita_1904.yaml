@@ -1,0 +1,18 @@
+source_file: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt
+assignments:
+- work: Acta P. Ignatii (the Autobiography, original Spanish and Italian) and early writings on Ignatius
+  author: ignatius-loyola
+  locus: whole volume; the Acta open the volume (item 1, from the volume's own index)
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'The earliest text of Ignatius''s Autobiography as Goncalves da Camara wrote it down from Ignatius''s
+    own telling, in the Spanish and Italian of the manuscript, in a critical edition. It is the original
+    for the vendored O''Conor English translation. The volume also holds Goncalves da Camara''s Memoriale,
+    Lainez''s letter on Ignatius and Ribadeneira''s writings on him, which are the Society''s early accounts
+    of its founder, not his own voice. The Latin of Codretto is not in this volume. Primary original evidence
+    for the movement, quotable once each wording is checked against the page image: the scan is legible
+    with occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary is 0.59;
+    the Spanish, Italian and Portuguese passages and the notes lower it, so the figure is a comparison
+    across files and not a measure of accuracy.'

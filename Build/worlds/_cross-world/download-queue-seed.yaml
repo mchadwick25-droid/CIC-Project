@@ -1332,3 +1332,112 @@ queue:
     verified_by: "archive.org /metadata and the OCR title page read directly: London, John Murray, 1877, volume 1; Internet Archive scan, 2026-09-29"
     status: not-yet-downloaded
     hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+
+  - title: "The Jesuit Relations and Allied Documents, Vols. 36-73 (Thwaites, 1896-1901)"
+    author: "Jesuit missionaries of New France; R. G. Thwaites (ed.)"
+    year: "1896-1901"
+    world: jes
+    why: "Vols. 1-35 (to 1650) are vendored. Vols. 36-73 run 1650-1791, after the world's window (1540-1650); they serve later worlds and a check on the Society's sustained global reach."
+    url: "https://archive.org/details/jesuits36jesuuoft (identifiers jesuits36jesuuoft to jesuits69jesuuoft, and jesuitrelationsa37, 39, 60, 62, 64, 67 to 73 jesuuoft; the exact identifier for each of vols. 36-73 is in the listing, and some volumes appear only under jesuitrelationsaNNjesuuoft)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the vendored volumes 1-35 use the same University of Toronto scans of the original Burrows printing"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: outside the world's window and about 22 MB. Use the Toronto scans of the original Burrows printing; the Pageant Book Company scans (for example jesuitrelationsa0011reub) are modern facsimile reprints and are excluded."
+
+  - title: "Sanctus Franciscus Borgia, Tomi I and II (Monumenta Historica Societatis Iesu, 1894 and 1903)"
+    author: "Jesuit fathers of Madrid (eds.); Francis Borgia"
+    year: "1894; 1903"
+    world: jes
+    why: "Tomi III to V (1539-1572) are vendored. Tomus I is the Borgia family genealogy and Tomus II Borgia's own letters and acts before he went to Rome in 1550, so they are before his generalate."
+    url: "https://archive.org/details/sanctusfranciscu57borj (Tomus I, 1894) and https://archive.org/details/sanctusfranciscu58borj (Tomus II, 1903; a second scan is sanctusfrancisc00enrgoog)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the 1894 and 1903 title-page years were read in the OCR"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: before Borgia's generalate, about 4 MB."
+
+  - title: "Epistolae Mixtae ex variis Europae locis ab anno 1537 ad 1556 scriptae, vols. 1-5 (Madrid, 1898-1901)"
+    author: "Jesuit fathers of Madrid (eds.)"
+    year: "1898-1901"
+    world: jes
+    why: "The first Jesuits' letters from across Europe, 1537-1556: the request's R9 (Epistolae Mixtae). Latin, Spanish and Italian as written."
+    url: "https://archive.org/details/epistolaemixtaee01matruoft (vols. 1 to 5 as epistolaemixtaee01matruoft to epistolaemixtaee05matruoft; other scans epistolaemixtaee01matr to 05matr)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget: about 10 MB for five volumes. Fetch and register the same way as the vendored MHSI volumes."
+
+  - title: "Litterae Quadrimestres ex universis, praeter Indiam et Brasiliam, locis, vols. 1-7 (Madrid, 1894-1932)"
+    author: "Jesuit fathers of Madrid (eds.)"
+    year: "1894 to 1932; only volumes printed 1930 or earlier"
+    world: jes
+    why: "The Society's four-monthly reports from its houses, 1546-1562: the request's R9. The archive scans show 1894 as the item date."
+    url: "https://archive.org/details/litteraequadrime13lain (identifiers found: litteraequadrime13lain to litteraequadrime19lain, litteraequadrime1301lain, 1402lain, 1503lain, 1705lain, 1806lain, 1907lain, litteraequadrime164la, and litteraequadrim00jesugoog to 02jesugoog)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; which identifier is which volume was not checked"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget. The series ran to 1932, so check each volume's own title-page year, and vendor only volumes printed 1930 or earlier."
+
+  - title: "Beati Petri Canisii Societatis Iesu Epistulae et Acta, vols. 1-8 (Braunsberger, Freiburg, 1896-1923)"
+    author: "Peter Canisius; Otto Braunsberger (ed.)"
+    year: "1896-1923"
+    world: jes
+    why: "Canisius's own letters and acts in Latin and German, 1541-1580: the request's R8 (Canisius). The two sixteenth-century Latin catechism scans now vendored are second witnesses; this critical edition is the fuller Canisius voice."
+    url: "https://archive.org/details/beatipetricanisi01cani (vols. 1 to 8 as beatipetricanisi01cani to beatipetricanisi08cani)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the archive item dates all eight volumes 1896, so each volume's printed year needs a title-page check"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget: about 16 to 20 MB. Volume 8 was printed in 1923, inside the date rule."
+
+  - title: "Alfonsi Salmeronis Toletani Commentarii in evangelicam historiam et in Acta Apostolorum (Cologne, 1612-1615)"
+    author: "Alfonso Salmeron"
+    year: "1612-1615"
+    world: jes
+    why: "The request's R11 names the Madrid printing of 1597-1602. Only the Cologne printing of 1612-1615 (16 volumes, Latin) was found on the reachable hosts."
+    url: "https://archive.org/details/bub_gb_h3W7gRextFsC (other volumes among bub_gb_PxgcRwmB4WsC, bub_gb_AZItym5GjA8C, bub_gb_i__R7qaWZCIC, bub_gb_pPaK_RN__REC, bub_gb_jDKOBAZFgYkC, bub_gb_bHjjkuhiAVkC, bub_gb_8lYD6VEEum4C, bub_gb_zxrked_TdugC and others)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; which volume is which was not checked"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: sixteen large volumes, probably over 30 MB, and a seventeenth-century printing whose OCR was not sampled. Needs a ruling on whether the Cologne printing stands in for the Madrid one."
+
+  - title: "Ratio studiorum et institutiones scholasticae Societatis Iesu per Germaniam olim vigentes, vols. 1-4 (Pachtler, Monumenta Germaniae Paedagogica 2, 5, 9, 16; Berlin, 1887-1894)"
+    author: "G. M. Pachtler (ed.)"
+    year: "1887-1894"
+    world: jes
+    why: "The request's R3 names this edition. The Ratio Studiorum of 1599 is now vendored in Institutum Societatis Iesu vol. 3, and the pre-1586 drafts in Monumenta Paedagogica; Pachtler adds the German provinces' school orders and the Ratio with commentary."
+    url: "https://archive.org/details/ratiostudiorumet01jesu (vols. 1 to 4 as ratiostudiorumet01jesu, ratiostudiorumet05jesu, ratiostudiorumet03jesu, ratiostudiorumet16jesu)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the archive record for vols. 2 and 4 carries NOT_IN_COPYRIGHT and dates them 1887"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: the Ratio is covered by the Institutum; about 5.5 MB for the four volumes."
+
+  - title: "La mission du Maduré d'après des documents inédits, vol. 1 (Bertrand, Paris, 1847)"
+    author: "Joseph Bertrand, S.J."
+    year: "1847"
+    world: jes
+    why: "A lead on de Nobili (the request's R4). A French narrative of the Madurai mission built from unpublished Jesuit documents, not a printing of de Nobili's own writings; the volume mentions de Nobili 12 times in the OCR."
+    url: "https://archive.org/details/lamissiondumadu00bertgoog (other scans lamissiondumadu01bertgoog, lamissiondumadu01jesugoog)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the OCR was sampled and reads legibly"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: it is a secondary French narrative and not de Nobili's own text. De Nobili's Latin and Portuguese originals and the documents of the rites controversy were not found on the reachable hosts."
+
+  - title: "Monumenta Ignatiana, Series II, Tomus II: Directoria Exercitiorum Spiritualium (Rome, 1955; MHSI vol. 76)"
+    author: "Jesuit fathers of Rome (eds.)"
+    year: "1955"
+    world: jes
+    why: "The archive item monumentaignatia02igna is dated 1919 in its record, but its own title page reads Rome, 1955."
+    url: "https://archive.org/details/monumentaignatia02igna"
+    verified_by: "archive.org /metadata and the OCR title page read directly, 2026-09-30: 'VOLUMEN 76 ... TOMUS II DIRECTORIA (1540-1599) ... ROMAE ... 1955'"
+    status: not-yet-downloaded
+    hold_note: "Do not vendor. Printed 1955, so outside the date rule, whatever the archive's own date field says. The 1919 Madrid volume that holds the Exercises and the early Directories is vendored."
+
+  - title: "Confessiones, epistolae aliaque scripta inedita, Tomus I (Ribadeneira; Madrid, 1920)"
+    author: "Pedro de Ribadeneira, S.J."
+    year: "1920"
+    world: jes
+    why: "Found while looking for the Codretto Latin: a further MHSI volume of the Society's early historian, Ribadeneira, not requested."
+    url: "https://archive.org/details/monumentahistori0000vari"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the title page reads Matriti, La Editorial Iberica, 1920"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: a lead, not a request. Ribadeneira's Latin Life of Ignatius (1572) is already vendored."

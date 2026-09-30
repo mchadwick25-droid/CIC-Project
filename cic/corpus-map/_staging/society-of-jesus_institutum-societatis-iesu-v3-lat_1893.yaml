@@ -1,0 +1,17 @@
+source_file: society-of-jesus_institutum-societatis-iesu-v3-lat_1893.txt
+assignments:
+- work: 'Institutum Societatis Iesu, Vol. 3: the Rules, the Ratio Studiorum, the ordinances and instructions,
+    the Exercises and the Directory'
+  author: society-of-jesus
+  locus: whole volume - volume 3 of 3
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'The Society''s own collected Latin text of the Rules, the Ratio Studiorum, the ordinances and
+    instructions, the Exercises and the Directory. The Ratio Studiorum is printed here with the Society''s
+    rules and instructions. Society-authored and corporate; no single writer. Primary original evidence
+    for the movement, and the cleanest Latin scan in this group: modern typeset Latin with marginal rubrics,
+    clean apart from occasional letter-level misreads and line-end hyphens read as a stray sign. Word-form
+    coverage against a clean Latin vocabulary is 0.89, the same range as the machine-corrected TEI files.
+    Quote after checking the page image.'

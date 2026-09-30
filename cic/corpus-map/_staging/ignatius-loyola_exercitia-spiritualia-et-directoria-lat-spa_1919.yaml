@@ -1,0 +1,17 @@
+source_file: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919.txt
+assignments:
+- work: 'Exercitia Spiritualia: Spanish text and Latin versions, with the early Directories'
+  author: ignatius-loyola
+  locus: whole volume; Spanish text of the Exercises alongside the Latin versions
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Ignatius''s Exercises in the Spanish he wrote, printed beside the earliest Latin version and
+    the Vulgata, with the early Directories. The Spanish text follows the autograph as the editors read
+    it; the volume is a critical edition, so the Spanish is the editors'' text of Ignatius''s own manuscript.
+    It is the Spanish original for the vendored English Mullan translation. Primary original evidence
+    for the movement, quotable once each wording is checked against the page image: the scan is legible
+    with occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary is 0.78;
+    the Spanish, Italian and Portuguese passages and the notes lower it, so the figure is a comparison
+    across files and not a measure of accuracy.'

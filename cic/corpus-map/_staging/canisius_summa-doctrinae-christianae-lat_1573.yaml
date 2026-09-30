@@ -1,0 +1,14 @@
+source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
+assignments:
+- work: Summa doctrinae christianae (1573 printing)
+  author: canisius
+  locus: whole text
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Canisius''s Latin catechism, in a sixteenth-century printing, the Latin original for the vendored
+    1622 English translation. The book prints its marginal scripture and patristic citations in the outer
+    margins. Second witness for now, not yet quotable: a 1573 print with the long s read as f, and the
+    outer-margin citations interleaved with the main text in the OCR. A cleaner Latin edition would serve
+    as the quotable witness. Word-form coverage against a clean Latin vocabulary is 0.62.'

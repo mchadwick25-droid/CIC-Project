@@ -1,0 +1,15 @@
+source_file: nadal_epistolae-v4-lat_1905.txt
+assignments:
+- work: Nadal's selected writings (instructions and other monuments), Epistolae Tomus IV
+  author: nadal
+  locus: whole volume - Tomus IV
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Nadal''s own instructions and writings, printed as the complement of his letters. They give his
+    Latin voice on the Society''s government and practice. The volume omits the Adnotationes and the Scholia,
+    which are vendored in other files. Primary original evidence for the movement, quotable once each
+    wording is checked against the page image: the scan is legible with occasional letter-level misreads.
+    Word-form coverage against a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of accuracy.'

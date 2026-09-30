@@ -1,0 +1,17 @@
+source_file: ignatius-loyola_epistolae-et-instructiones-tomus03-lat_1905.txt
+assignments:
+- work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus III
+  author: ignatius-loyola
+  locus: whole volume - Tomus 3 of Series I; the letters and instructions of 1550 to 1551, chiefly as
+    summaries
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Ignatius''s letters and instructions as General, in the languages written (the letters and instructions
+    of 1550 to 1551, chiefly as summaries). Many are dictated to secretaries and sent in Ignatius''s name,
+    so the voice is the General''s office speaking for him. It extends the vendored Tomus I, which stops
+    in March 1548. Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage against
+    a clean Latin vocabulary is 0.59; the Spanish, Italian and Portuguese passages and the notes lower
+    it, so the figure is a comparison across files and not a measure of accuracy.'

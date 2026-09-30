@@ -1,0 +1,15 @@
+source_file: broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt
+assignments:
+- work: Letters of Paschase Broet, Claude Le Jay, Jean Codure and Simao Rodrigues
+  author: broet
+  locus: whole volume; four writers
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'The letters of four of Ignatius''s first companions, in the languages written, from the founding
+    years. The volume holds the letters of Le Jay, Codure and Rodrigues as well as Broet''s. Primary original
+    evidence for the movement, quotable once each wording is checked against the page image: the scan
+    is legible with occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary
+    is 0.61; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure is a comparison
+    across files and not a measure of accuracy.'
