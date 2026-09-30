@@ -74,7 +74,9 @@ the current one is approved to proceed.
   validation.
 - In a pilot world, Sonnet 5.5 and Fable each draft Doc_10. Opus 5.5
   grades the two blind on Rigor, Accessibility, Craft and Focus. Record
-  the grading in the cost ledger.
+  the grading in the cost ledger. Follow
+  `Build/reference/method/CiC_Pilot_Protocol_V2.0.md` for the blinding,
+  grading and decision rule.
 - Opus 5.5 (`claude-opus-5-5`) runs every review round and every blind
   grading. It writes every `modern_rendering`. A separate Opus pass checks
   each rendering.
