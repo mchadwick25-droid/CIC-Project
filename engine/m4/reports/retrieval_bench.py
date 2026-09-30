@@ -177,6 +177,18 @@ each house begins with a departure from Roman service or rank") purely
 from this fill - real, on-topic ground a fully empty force slot withheld
 before this stage existed.
 
+B-8 GOLDEN SET, lpc (2026-09-30): bench/lpc.json authored, 16 questions,
+composed from records/worlds/lpc.yaml, Doc_01 and the World Profile before
+any retrieval was run against the world, and committed before any tuning.
+First run, unmodified, on a freshly built lpc package:
+
+    world        qs  ground   avg  cells  empty  quotes
+    lpc          16     169  10.6     19      2      37
+
+Two questions returned an EMPTY ground: "Did you fight with the bishop of
+Rome?" and "What did you do when the plague came?". Left as measured; no
+hint, record or retrieval change was made in response.
+
 Run: python3 engine/m4/reports/retrieval_bench.py
 """
 import json, sys, pathlib
