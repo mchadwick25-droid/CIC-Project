@@ -17,21 +17,21 @@ export:
 skim:
   tile:
     text: >-
-      Between about 246 and 430 CE, Christians in Carthage and Hippo, on the
-      coast of Roman North Africa, lived their faith as a congregation with a
-      bishop who answered for it. Two bishops hold this world together.
-      Cyprian led Carthage through persecution, plague and schism, and
-      Augustine preached at Hippo, taught those preparing for baptism, and
-      gave the sacraments to his own people. The people chose both men for
-      office, against their wishes. When Rome forced Christians to sacrifice,
-      some gave in, and the church answered with a public road back that was
-      walked in stages. When its bishops disagreed, even over baptism, they
-      argued at length and did not cast each other out. About 130 years
-      separate the two bishops, and in that time this world's own record holds
-      no bishop's voice to his own people that can be dated and placed.
-      Almost everything we know comes
-      from educated men. No woman's own words survive, and neither do the
-      words of those who failed under persecution.
+      Between about 246 and 430 CE, Christians in Carthage and Hippo lived
+      their faith as a congregation with a bishop who answered for it.
+      Both cities lay on the coast of Roman North Africa. Two bishops hold
+      this world together. Cyprian led Carthage through persecution,
+      plague and schism. Augustine preached at Hippo, taught those
+      preparing for baptism, and gave the sacraments to his own people.
+      The people chose both men for office, against their wishes. When
+      Rome forced Christians to sacrifice, some gave in, and the church
+      answered with a public road back that was walked in stages. When its
+      bishops disagreed, even over baptism, they argued at length and did
+      not cast each other out. About 130 years separate the two bishops.
+      In that time, this world's own record holds no bishop's voice to his
+      own people that can be dated and placed. Almost everything we know
+      comes from educated men. No text written by a woman survives, and
+      nothing survives in the words of those who failed under persecution.
     grounded_in: [lpc.core.latin-pastoral-congregational-christianity]
 orientation:
   story:
@@ -48,11 +48,10 @@ orientation:
     grounded_in: [lpc.core.latin-pastoral-congregational-christianity]
   - text: >-
       A bishop here was answerable by name for one people in one place. He
-      preached to them, baptized them and buried them, and when they failed,
-      he did not treat it as a problem to manage, but carried it as a wound.
-      Cyprian wrote that a shepherd is wounded most deeply when his flock is
-      wounded. The bond ran both ways, because the people were not a silent
-      audience, and they could consent, demand and elect. They could even
+      preached to them, baptized them and buried them. When they failed,
+      he felt it as his own wound. Cyprian wrote that a shepherd is
+      wounded most deeply when his flock is wounded. The bond ran both
+      ways. The people could consent, demand and elect. They could even
       stand in front of a bishop's seat and refuse to go home.
     grounded_in: [lpc.term.the-flock, lpc.term.the-people, lpc.gravity.pastoral-office-flock-keeping, lpc.quote.shepherd-wounded-in-the-flock]
   - text: >-
@@ -69,15 +68,15 @@ orientation:
   - text: >-
       In 250 the emperor Decius ordered Christians to sacrifice. The state
       did not ask anyone to renounce Christ in writing, because what it
-      wanted was a sacrifice, and then it wrote down that one had been made.
-      Some people paid money for that paper instead of sacrificing, and the
-      church was left sorted into those who stood firm and those who gave
-      way. These people, the lapsed, were the church's own, for they had sat
-      where everyone else sat, and now they asked to come back.
+      wanted was a sacrifice, and then it wrote down that one had been
+      made. Some people paid money for that paper instead of sacrificing,
+      and the church was left sorted into those who stood firm and those
+      who gave way. These people, the lapsed, were the church's own. They
+      had sat where everyone else sat, and now they asked to come back.
     grounded_in: [lpc.force.decian-persecution-libelli-system, lpc.term.libelli, lpc.term.libellatici-sacrificati, lpc.term.the-lapsed]
   - text: >-
-      The road back was public, and it took time. First came an examined
-      entry. The penalty was graded and lasted a set time, a named authority
+      The road back was public, and it took time. First the person's case
+      was examined. The penalty was graded and lasted a set time, a named authority
       judged it, and a formal act ended it. The same people who had watched
       the failure received the person home. Persecution also created a
       second claim to authority. Confessors were people who had been
@@ -129,14 +128,14 @@ orientation:
       answer survives in this world's own record.
     grounded_in: [lpc.contested.compel-coercion-development, lpc.term.compel-them-to-come-in, lpc.demo.compel-three-phase]
   - text: >-
-      Augustine's teaching on grace is the most heavily documented concern in
-      this world. It came out of a fight with Pelagian teaching, which
+      Augustine's teaching on grace is the most heavily documented concern
+      in this world. It came out of a fight with Pelagian teaching, which
       Augustine said held that a believer's own effort is enough. He wrote
-      thirteen works against it, and the word grace appears in them 1,798
-      times. This belongs to Augustine's years only, and it is one voice in
-      one set of books. Modern scholars ask whether Pelagius held the view
-      Augustine describes, and no Pelagian reply survives in this world's own
-      record to check it against.
+      thirteen works against it, and grace is by far the most frequent key
+      word in them. This belongs to Augustine's years only, and it is one
+      voice in one set of books. Modern scholars ask whether Pelagius held
+      the view Augustine describes, and no Pelagian reply survives in this
+      world's own record to check it against.
     grounded_in: [lpc.gravity.grace-and-human-incapacity, lpc.contested.grace-pelagius-characterization, lpc.force.manichaeism-and-pelagian-anthropology]
   - text: >-
       Preaching and teaching were the main way people were formed. People
@@ -147,34 +146,36 @@ orientation:
       world held reached an ordinary believer in this way.
     grounded_in: [lpc.term.catechesis, lpc.term.preaching, lpc.gravity.preaching-and-catechesis, lpc.quote.longing-expectation-is-a-prayer-for-me]
   - text: >-
-      The Vandals crossed from Spain in 429 and besieged Hippo, and Augustine
-      died there on 28 August 430 with his friend Possidius at his side.
-      Augustine had often said that even good Christians should not leave
-      this life without repentance, and in his last illness he had short
-      psalms of repentance copied out and hung on the wall. He read them and
-      wept freely, and he asked to be left alone. He made no will, because he
-      had nothing to leave, and he ordered that the church's library be kept
-      for those who came after him.
+      The Vandals crossed from Spain in 429 and besieged Hippo, and
+      Augustine died there on 28 August 430 with his friend Possidius at
+      his side. Augustine had often said that even good Christians should
+      not leave this life without repentance. In his last illness he had
+      short psalms of repentance copied out and hung on the wall. He read
+      them and wept freely, and he asked to be left alone. He made no
+      will, because he had nothing to leave, and he ordered that the
+      church's library be kept for those who came after him.
     grounded_in: [lpc.story.the-psalms-on-the-wall, lpc.force.vandal-invasion-siege-of-hippo, lpc.figure.possidius]
   - text: >-
       About 130 years lie between Cyprian's death in 258 and Augustine's
-      ordination in 391. In that time, this world's own record has no voice
-      of a bishop speaking to his own people that can be dated and placed. The years are well documented
-      elsewhere, mostly by the rival church of the Donatists, but this world
-      does not borrow that record. A few short works carry Cyprian's name,
-      but no one has fixed their date or place, and none is drawn on here.
-      Texts cross the gap, however. Augustine reads Cyprian's council and
-      argues with it, and Augustine's church describes itself as the same
-      communion Cyprian led.
+      ordination in 391. In that time, this world's own record has no
+      voice of a bishop speaking to his own people that can be dated and
+      placed. The years are well documented elsewhere, mostly by the rival
+      church of the Donatists, but this world does not borrow that record.
+      Several short works carry Cyprian's name. The texts held here do not
+      fix their date or place, none has been assessed, and none is drawn
+      on. Texts cross the gap, however. Augustine reads Cyprian's council
+      and argues with it, and Augustine's church describes itself as the
+      same communion Cyprian led.
     grounded_in: [lpc.limit.the-silent-century, lpc.force.transmission-asymmetric-span-133-year-silence, lpc.force.augustine-engagement-cyprian-conciliar-acts, lpc.core.latin-pastoral-congregational-christianity]
   - text: >-
       Almost everything above comes from two educated men. Women appear in
-      the record, but they are seen and not heard, and those who failed under
-      persecution, who are the reason for the first great crisis, left
-      nothing in their own words. The same is true of the countryside and of
-      the Punic and Berber languages spoken beyond the two cities. Almost no
-      one wrote about an ordinary week, and this world's own record does not
-      answer these questions or pretend to.
+      the record, but almost none of them speaks in it. Those who failed
+      under persecution were the reason for the first great crisis, and
+      they left nothing in their own words. The same is true of the
+      countryside, and of the Punic and Berber languages spoken beyond the
+      two cities. Almost no ordinary believer wrote about an ordinary
+      week. This world's own record does not answer these questions, and
+      it does not pretend to.
     grounded_in: [lpc.limit.womens-own-voice, lpc.limit.the-lapsed-own-account, lpc.limit.rural-punic-berber-life, lpc.limit.ordinary-interior-life]
   documented_stories:
   - story_id: lpc.story.celerinus-writes-to-lucian
@@ -188,7 +189,7 @@ orientation:
     teaser: "Raiders carry off believers from towns in Numidia. A church in Carthage collects a large sum to buy them back."
     grounded_in: [lpc.story.hundred-thousand-sesterces, lpc.figure.cyprian]
   - story_id: lpc.story.the-plague-and-the-enemies
-    title: "Caring for the People Who Persecute You"
+    title: "Love for Enemies in a Time of Plague"
     when: "The plague years, about 249 to 262"
     teaser: "While a frightened city leaves its dead in the street, a bishop tells his people to care for their enemies too."
     grounded_in: [lpc.story.the-plague-and-the-enemies, lpc.figure.cyprian, lpc.figure.pontius]
@@ -207,7 +208,7 @@ orientation:
       church through persecution, plague and schism, and his letters and
       treatises are the core of this world's first phase.
     grounded_in: [lpc.figure.cyprian, lpc.source.cyprian-epistles, lpc.force.valerianic-persecution]
-    hedge: "The claim that Cyprian was a new convert when he was chosen rests on Pontius alone. The collection of letters under his name also holds letters by other people. Some short works carry his name, but no one has fixed their date or place, and nothing here draws on them."
+    hedge: "The claim that Cyprian was a new convert when he was chosen rests on Pontius alone. The collection of letters under his name also holds letters by other people. Several short works carry his name. The texts held here do not fix their date or place, and nothing here draws on them."
   - figure: lpc.figure.pontius
     text: >-
       Pontius was Cyprian's own deacon, and he was with his bishop at the
@@ -215,7 +216,7 @@ orientation:
       Passion of Cyprian, the first Christian biography. Most of what we know
       about Cyprian's life reaches us through it.
     grounded_in: [lpc.figure.pontius, lpc.source.pontius-life-and-passion-of-cyprian, lpc.contested.cyprian-death-genre]
-    hedge: "Pontius wrote to praise a man already honored as a martyr. He tells Cyprian's death in the pattern of Scripture, and once a writer does that, a reader cannot separate the facts from the pattern without a second witness. The court's own record of the trial survives, but it has not been read here. Scholars date the Life to 259 or to the end of the third century at the earliest."
+    hedge: "Pontius wrote to praise a man already honored as a martyr. He tells Cyprian's death in the pattern of Scripture, so its details are hard to check without a second witness. The court's own record of the trial survives, but it has not been read here. Scholars date the Life to 259, or to the end of the third century at the earliest. On the later dating, the author was not Cyprian's deacon but a later writer who wrote as if he had been there."
   - figure: lpc.figure.augustine
     text: >-
       Augustine was baptized in 387. In 391 the congregation at Hippo seized
@@ -247,33 +248,36 @@ orientation:
     grounded_in: [lpc.witness.the-only-son-and-the-trinity, lpc.core.latin-pastoral-congregational-christianity]
   legacy:
   - text: >-
-      Only texts carry this world across its long silence. No line of living
-      heirs does. Augustine read the ruling of Cyprian's council, argued with
-      it and overturned it. He also quoted Cyprian's books, and Possidius
-      quoted Cyprian's book on mortality. The writings of both bishops are
-      unusually full, because each man stood on the side that won every
-      dispute he entered. The English texts used here date from the 1800s.
+      Only texts carry this world across its long silence. No line of
+      living heirs does. Augustine read the ruling of Cyprian's council,
+      argued with it and overturned it. He also quoted Cyprian's books,
+      and Possidius quoted Cyprian's book on mortality. The writings of
+      both bishops survive unusually full. The church that copied and kept
+      them honored both men, even after it set aside one of Cyprian's
+      rulings. Most of the English texts used here are translations made
+      in the 1800s.
     grounded_in: [lpc.force.augustine-engagement-cyprian-conciliar-acts, lpc.force.transmission-institutionally-dominant-side, lpc.force.transmission-asymmetric-span-133-year-silence]
   - text: >-
       Augustine's writing later became the foundation of Western theology.
-      This world did not feel that as an ending, and it did not feel it as
-      nothing. A bishop writing against a live error writes for the people in
-      front of him, not for a tradition he expects to found. Even so, Cyprian
-      gathered and sent out his own letters, and Augustine reviewed his own
-      life's work near the end. The world's own end came from outside, with
-      the Vandal siege in 430.
+      By this world's own account, neither bishop wrote with that future
+      in view. A bishop writing against a live error writes for the people
+      in front of him and the case at hand, not for a tradition he expects
+      to found. Even so, both men expected their writings to outlast them.
+      Cyprian gathered and sent out his own letters, and near the end
+      Augustine went back over his life's work and corrected it. The
+      world's own end came from outside, with the Vandal siege in 430.
     grounded_in: [lpc.force.corpus-outliving-the-world, lpc.force.vandal-invasion-siege-of-hippo]
   relations_summary:
     text: >-
       Three neighbors matter most. Donatism was a rival church in the same
       towns, with its own bishops. The two worlds share a province, a century
-      and a body of texts, and they answer one question in opposite ways:
-      when a bishop disagrees past repair, does he keep communion or build a
-      rival hierarchy? Imperial and Juridical Christianity also runs on law,
+      and a body of texts. They answer one question in opposite ways. When a
+      bishop disagrees past repair, does he keep communion, or build a rival
+      hierarchy? Imperial and Juridical Christianity also runs on law,
       but its law orders the relations of churches and the state. Here the
       law exists to bring a failed member home. The Alexandrian and
       Hieronymian worlds formed people in a school or a study. This world
-      formed them in a congregation on a Sunday.
+      formed them in a congregation, week after week.
     grounded_in: [lpc.force.donatist-schism, lpc.gravity.collegial-communion-preserved, lpc.gravity.penitential-discipline, lpc.core.latin-pastoral-congregational-christianity]
   sourcing:
     text: >-
@@ -318,7 +322,7 @@ narrative:
     cite: [lpc.force.augustine-engagement-cyprian-conciliar-acts]
   - cell: "F4-I"
     demonstration: lpc.demo.road-back-examined
-    cite: [lpc.witness.answerability-as-ground]
+    cite: [lpc.force.recurring-contest-failed-member]
   pull_quotes:
   - lpc.quote.shepherd-wounded-in-the-flock
   - lpc.quote.longing-expectation-is-a-prayer-for-me
