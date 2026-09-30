@@ -1515,7 +1515,7 @@ File: `Review-Artifacts/Doc02_Registry_FixPass_Recheck_2026-09-30.md` (Opus 5.5,
 
 **Also decided.** The `wb_lpc_s2x` generators: retire to `Archive/` once the records phase confirms nothing depends on them, because the records now differ from what they produce (207 records generated against 208 committed; five differ). Rows 215 to 217 of the Registry lack the Confidence A sentence the Petschenig rows now carry; to be added at the next Registry pass.
 
-**Not `lpc`'s.** `tools/check_paths.py` reports one new unresolved citation, in `Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md` (`cic/corpus-map/_staging/anf08_...yaml`). Flagged for the grkap owner.
+**Not `lpc`'s.** `tools/check_paths.py` reports one new unresolved citation, in `Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md` (a citation to a staging file of the ANF volume 8 corpus-map entry, written with an ellipsis in place of the full name). Flagged for the grkap owner.
 
 ### OG-27. The 258 to 391 silence claim has now needed three substantial revisions; escalated to the project lead, 2026-09-30.
 
