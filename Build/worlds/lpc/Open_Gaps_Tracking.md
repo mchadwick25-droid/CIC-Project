@@ -1479,3 +1479,13 @@ Each check is an independent Opus 5.5 re-confirmation, not a revision round. Fil
 
 
 **Closed, 2026-09-30.** Row 229 stays unsplit, ruled by the project lead (`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`, 2026-09-30). Still open for the lpc thread: Doc_02 §7 line 120 (the 258–391 silence claim) against Optatus rows 27, 64 and 264.
+
+### OG-24. Doc_02 section 7, the 258 to 391 silence claim, decided against the Optatus rows, 2026-09-30.
+
+The claim said no Registry row dates from within the 133-year gap between Cyprian's death and Augustine's ordination. Rows 27, 64 and 264 (Optatus of Milevis, *Against the Donatists*, active 366 to 385 by the vendored file header) do, and row 27 is Native for this world. Row 265 is Excluded.
+
+**Alternatives.** (A) Change the rows: mark Optatus out of boundary. Rejected, because the Library's rows record a real boundary decision (a provisional Latin home, double-placed on the Donatism shelf) that this thread does not own. (B) Leave the claim and add a note elsewhere. Rejected, because the claim would stay false as written. (C) Correct the claim to what the rows show. Chosen.
+
+**Decision.** Section 7 now says no source supplies a pastoral or congregational voice from within the gap, names Optatus as the one Registry text that dates from inside it, and states that it is Donatism's territory, is held provisionally, and is drawn on for no claim. Doc_01's binding is about a surviving voice continuous with Cyprian's, so it stands. The Registry rows are unchanged.
+
+**Check.** Included in the targeted Opus recheck of the Library's Round 33 fix pass. A separate agent sweeps every other copy of the claim (Doc_01, Doc_05, the world core record).
