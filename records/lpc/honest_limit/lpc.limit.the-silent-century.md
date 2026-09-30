@@ -34,18 +34,17 @@ why_sources_cannot_answer: 'This world''s own construction window runs from roug
   (rows 7, 40, 194 and 205), and the two martyr acts of rows 231 and 232 (all Native). They belong to
   Cyprian''s phase and do not fill the silence. Their full sequence is not fixed (Pontius already cites
   the record of the first hearing, Harnack places the Acta as compiled after the Life, and nothing places
-  the two martyr acts). From them to 391, no source in the Registry supplies a bishop''s ordinary pastoral
+  the two martyr acts). From them to 391, no source in the Registry''s Native rows supplies a bishop''s ordinary pastoral
   or congregational voice, or a congregation''s voice, that continues Cyprian''s. The Registry texts dated
   inside the interval include Optatus of Milevis (rows 27, 64 and 264, Native) and the appendix documents
-  (row 265, Excluded); none continues Cyprian''s voice, and this world draws on none of them for a claim.
-  The Carthage council texts (rows 26, 59 and 202), Augustine''s writings from before his ordination (rows
+  (row 265, Excluded); none continues Cyprian''s voice, and this world draws on none of them for a claim. Row 265 holds a congregation''s voice inside the interval: in the Gesta apud Zenophilum, a hearing dated 320, the people of Cirta cry out against a traditor bishop. This world holds row 265 as Excluded (Named Comparandum), as Donatism''s record and not its own, so the silence claim is about the Native rows. The Carthage council texts (rows 26, 59 and 202), Augustine''s writings from before his ordination (rows
   11, 22 and 25) and the Theodosian constitutions before 391 (rows 44 and 88) also fall inside it and are licensed for other claims. The council under Gratus (c. 345-348; row 202) is spoken minutes: a bishop of Carthage speaks in his own person on questions Cyprian also handled (rebaptism, which the council forbids; virgins living with men; the honour of the martyrs). It is an act of assembled bishops, not a bishop''s ordinary pastoral voice to his own flock, so it does not continue Cyprian''s voice. One of the nine further Guelferbytanus tractatus, which Morin reports as ascribed elsewhere to Optatus
   of Milevis, an ascription he judges not unlikely, is held but not yet assessed (row 229). The licensed exceptions
   are named at Doc_02 §7. lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this directly:
   ''Roughly a hundred and thirty years sit between the bishop who opens your record and the one who
   closes it. Across that stretch, your own congregational voice falls silent.'' lpc_Rep_Phase1_Ecology_Assessment.md
   §2 independently confirms: ''Absent by design... This world''s congregational record is silent across
-  it.'' That holds for any congregation''s own voice. It does not hold for every trace of congregational life. Confessions V.8 and VI.2 (row 9) show Monica at the oratory of Cyprian at Carthage about 383 and keeping the African custom of taking food to the martyrs'' shrines. That is a cult and a custom seen through Augustine''s eyes, not the community''s own record. The council under Gratus (row 202, c. 345-348) also regulates lay conduct. We draw on neither here.'
+  it.'' That holds for any congregation''s own voice in the Native rows. It does not hold for every trace of congregational life. Confessions III.12, V.8 and VI.2 (row 9) show a bishop answering Monica''s plea about her son in his Manichaean years, and Monica at the oratory of Cyprian at Carthage about 383 keeping the African custom of taking food to the martyrs'' shrines. That is a counsel, a cult and a custom seen through Augustine''s eyes, not the community''s own record. The council under Gratus (row 202, c. 345-348) also regulates lay conduct. We draw on neither here.'
 nearest_material:
 - lpc.gravity.pastoral-office-flock-keeping
 - lpc.witness.answerability-as-ground
