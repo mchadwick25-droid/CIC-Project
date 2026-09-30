@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
-  locus: Book II, Chapter 7, SS10, not rebaptizing those baptized among heretics, "rightly believed to
+  locus: Book IV, Chapter 6, SS10, not rebaptizing those baptized among heretics, "rightly believed to
     have been handed down from the apostles" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
     lines 12163-12169
   license: public-domain
