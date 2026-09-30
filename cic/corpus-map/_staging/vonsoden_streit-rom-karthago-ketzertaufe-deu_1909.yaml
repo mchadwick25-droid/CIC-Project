@@ -1,0 +1,12 @@
+source_file: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt
+
+assignments:
+  - work: "von Soden, Der Streit zwischen Rom und Karthago ueber die Ketzertaufe (1909)"
+    author: vonsoden
+    locus: "pp. 1-42"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern (1909) German scholarship on the rebaptism dispute. Registry row 224.
