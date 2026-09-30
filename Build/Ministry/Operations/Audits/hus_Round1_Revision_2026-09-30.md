@@ -90,3 +90,7 @@ Kaminsky's treatment of the Adamites (reviewer knowledge). Publication years and
 ## Tool results
 
 `python tools/check_live_commentary.py --surface worlds`: exit 0. The Registry rows still carry iso-date hits in the Added and Discovery cells, which V7.4 Step 2 requires. `python -m engine.m10.cli gaps hus`: Doc_01, Doc_02, Registry and Open_Gaps have no unmatched item. The command still fails with 85 findings, all in `Review-Artifacts/Doc02_Round1_Review.md`. Cause: that file's H1 title contains "Open Gaps", so `engine/m10/gaps.py` (`_OPEN_HEADING`) treats the whole file as an open-items section. The review artifact was not edited. Either the title or the checker needs a change, and both belong to the project lead.
+
+## The project lead's ruling, in his own answer (2026-09-30)
+
+Recorded from the session's choice box (session_019FXuEebrCDmzYe987sNAxL, 2026-09-30). Question put to the project lead: "The Doc_01 review (0 P0, 8 P1) found the case for one world is under-argued. Should the Hussite build be one world with three strands, one world with two, or two worlds?" Options offered: "One world, three strands (Recommended)", "One world, two strands", "Two worlds". His answer, verbatim: "One world, three strands (Recommended)".
