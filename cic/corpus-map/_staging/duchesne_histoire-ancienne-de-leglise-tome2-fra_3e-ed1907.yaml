@@ -1,0 +1,13 @@
+source_file: duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907.txt
+
+assignments:
+  - work: "Duchesne, Histoire ancienne de l'Eglise, tome 2 (3rd ed., 1907)"
+    author: duchesne
+    locus: "chapter III (the schisms after the persecution) at file line 3604"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern French history of the early church; the chapter named in the locus is the part
+      that bears on this entry. Registry row 241.

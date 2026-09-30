@@ -1,0 +1,13 @@
+source_file: duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt
+
+assignments:
+  - work: "Duchesne, Histoire ancienne de l'Eglise, tome 3 (2nd ed., 1910)"
+    author: duchesne
+    locus: "chapter VIII (Augustinianism) at file line 9564"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern French history of the early church; the chapter named in the locus is the part
+      that bears on this entry. Registry row 242.

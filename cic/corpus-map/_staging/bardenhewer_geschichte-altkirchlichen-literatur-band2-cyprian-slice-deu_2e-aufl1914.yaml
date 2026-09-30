@@ -1,0 +1,12 @@
+source_file: bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914.txt
+
+assignments:
+  - work: "Bardenhewer, Geschichte der altkirchlichen Literatur, Band 2: Cyprian (2nd ed., 1914, slice)"
+    author: bardenhewer
+    locus: "section 82; item lines 24362-28405"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern German handbook account of Cyprian's writings. Registry row 249.
