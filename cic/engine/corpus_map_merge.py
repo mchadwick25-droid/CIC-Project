@@ -191,6 +191,9 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
     for path in sorted(STAGING.glob("*.yaml")):
         text = path.read_bytes().decode("utf-8")
         eol = "\r\n" if "\r\n" in text else "\n"
+        if eol == "\r\n" and text.count("\n") != text.count("\r\n"):
+            findings.append(f"{path.name}: mixed line endings")
+            continue
         loader = yaml.SafeLoader(text)
         try:
             node = loader.get_single_node()
@@ -203,7 +206,11 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
         if not isinstance(doc, dict) or not isinstance(doc.get("assignments"), list):
             findings.append(f"{path.name}: top level is not a mapping with an `assignments` list")
             continue
-        seq = next(v for k, v in node.value if k.value == "assignments")
+        seqs = [v for k, v in node.value if k.value == "assignments"]
+        if len(seqs) != 1:
+            findings.append(f"{path.name}: `assignments` appears {len(seqs)} times")
+            continue
+        seq = seqs[0]
         lines = text.split(eol)
         seen_nodes: set[int] = set()
         todo: list[tuple[int, int, dict]] = []
@@ -214,7 +221,9 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
                 findings.append(f"{where}: row is not a block mapping")
             elif id(item) in seen_nodes:
                 findings.append(f"{where}: row is a YAML alias")
-            elif lines[line_no][col - 2:col] != "- ":
+            elif (not item.value or item.value[0][0].start_mark.line != line_no
+                  or item.value[0][0].start_mark.column != col
+                  or lines[line_no][col - 2:col] != "- "):
                 findings.append(f"{where}: cannot place row_id (anchor or unusual layout)")
             elif "row_id" in row and not (isinstance(row["row_id"], str) and row["row_id"].strip()):
                 findings.append(f"{where}: `row_id` is present but not a non-empty string")
@@ -242,7 +251,9 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
             assigned += 1
         if todo:
             edits.append((path, eol.join(lines)))
-    if write and not findings:
+    if findings:
+        return 0, 0, findings
+    if write:
         for path, new_text in edits:
             path.write_bytes(new_text.encode("utf-8"))
     return assigned, collisions, findings

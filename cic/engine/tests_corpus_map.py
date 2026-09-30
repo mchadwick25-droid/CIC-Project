@@ -122,8 +122,8 @@ results.append(check("every real staging row carries a row_id", all(r.get("row_i
 results.append(check("work_slug folds accents, punctuation and case",
                      corpus_map_merge.work_slug("Sermon (De Trinitate) - Ambrosius' \u00c6thelred!") == "sermon-de-trinitate-ambrosius-thelred"))
 results.append(check("work_slug falls back when nothing survives", corpus_map_merge.work_slug("\u2014") == "work"))
-long_slug = corpus_map_merge.work_slug("abcdefghi " * 10)
-results.append(check("work_slug is cut at a word boundary", long_slug == "-".join(["abcdefghi"] * 6)))
+long_slug = corpus_map_merge.work_slug("abcdefgh " * 10)
+results.append(check("work_slug is cut at a word boundary", long_slug == "-".join(["abcdefgh"] * 6) and len("-".join(["abcdefgh"] * 7)) > 60))
 
 _STAGED = """# a comment that must survive
 source_file: vol1.xml
@@ -200,6 +200,12 @@ results.append(check("a non-mapping row is refused and nothing is written",
                      _refusal_case(_HEAD + "- work: A\n- just a string\n")))
 results.append(check("an anchored row is refused and nothing is written",
                      _refusal_case(_HEAD + "- &r\n  work: A\n- *r\n")))
+results.append(check("an anchored row with no alias is refused and nothing is written",
+                     _refusal_case(_HEAD + "- &r\n  work: A\n")))
+results.append(check("mixed line endings are refused without a crash",
+                     _refusal_case("source_file: vol1.xml\nassignments:\r\n- work: A\r\n")))
+results.append(check("a repeated `assignments` key is refused",
+                     _refusal_case(_HEAD + "- work: A\nassignments:\n- work: B\n")))
 results.append(check("a null row_id is refused and nothing is written",
                      _refusal_case(_HEAD + "- row_id:\n  work: A\n")))
 results.append(check("a top-level list is refused without a crash",
