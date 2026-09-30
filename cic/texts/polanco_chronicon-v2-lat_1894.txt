@@ -17,8 +17,8 @@ Source: Internet Archive item vitaignatiiloio03polagoog
   vitaignatiiloio03polagoog_djvu.txt, fetched directly (curl, raw bytes) 2026-09-30 by the Library
   thread; the body below is that file unaltered.
 Provenance note: Body unaltered, including its own OCR errors. Header prepended by the Library
-  thread. The volume is Tomus 2; the vendored polanco_chronicon-v1-lat_1894.txt is Tomus 1. Tomus 3
-  was not found.
+  thread. The volume is Tomus 2. The vendored polanco_chronicon-v1-lat_1894.txt is Tomus 5 (1555), not
+  Tomus 1. Tomus 1 and Tomus 3 were not found.
 Content note: Tomus 2 of 6, the Chronicon for 1550-1552.
 
 ---

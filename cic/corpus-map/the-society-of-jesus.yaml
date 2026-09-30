@@ -993,11 +993,12 @@ works:
   confidence: assigned
   note: 'Polanco''s year-by-year chronicle of the Society, 1550-1552, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
-    by Ignatius''s secretary, and fills the years after the vendored Tomus 1. Primary original
-    evidence for the movement, quotable once each wording is checked against the page image:
-    the scan is legible with occasional letter-level misreads. Word-form coverage against
-    a clean Latin vocabulary is 0.85; the Spanish, Italian and Portuguese passages and the
-    notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+    by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
+    1555). Primary original evidence for the movement, quotable once each wording is checked
+    against the page image: the scan is legible with occasional letter-level misreads. Word-form
+    coverage against a clean Latin vocabulary is 0.85; the Spanish, Italian and Portuguese
+    passages and the notes lower it, so the figure is a comparison across files and not a
+    measure of accuracy.'
   source_file: polanco_chronicon-v2-lat_1894.txt
 - work: Chronicon Societatis Iesu (Polanco), Tomus 4 (1554)
   author: polanco
@@ -1006,11 +1007,12 @@ works:
   confidence: assigned
   note: 'Polanco''s year-by-year chronicle of the Society, 1554, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
-    by Ignatius''s secretary, and fills the years after the vendored Tomus 1. Primary original
-    evidence for the movement, quotable once each wording is checked against the page image:
-    the scan is legible with occasional letter-level misreads. Word-form coverage against
-    a clean Latin vocabulary is 0.78; the Spanish, Italian and Portuguese passages and the
-    notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+    by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
+    1555). Primary original evidence for the movement, quotable once each wording is checked
+    against the page image: the scan is legible with occasional letter-level misreads. Word-form
+    coverage against a clean Latin vocabulary is 0.78; the Spanish, Italian and Portuguese
+    passages and the notes lower it, so the figure is a comparison across files and not a
+    measure of accuracy.'
   source_file: polanco_chronicon-v4-lat_1896.txt
 - work: Chronicon Societatis Iesu (Polanco), Tomus 5 (1555)
   author: polanco
@@ -1019,11 +1021,12 @@ works:
   confidence: assigned
   note: 'Polanco''s year-by-year chronicle of the Society, 1555, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
-    by Ignatius''s secretary, and fills the years after the vendored Tomus 1. Primary original
-    evidence for the movement, quotable once each wording is checked against the page image:
-    the scan is legible with occasional letter-level misreads. Word-form coverage against
-    a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese passages and the
-    notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+    by Ignatius''s secretary, and is a second scan of the vendored Tomus 5 (1555). Primary
+    original evidence for the movement, quotable once each wording is checked against the
+    page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
   source_file: polanco_chronicon-v5-lat_1897.txt
 - work: Chronicon Societatis Iesu (Polanco), Tomus 6 (1556)
   author: polanco
@@ -1032,11 +1035,12 @@ works:
   confidence: assigned
   note: 'Polanco''s year-by-year chronicle of the Society, 1556, in Latin with the editors''
     notes. It is the Society''s own account of its houses, colleges and missions, written
-    by Ignatius''s secretary, and fills the years after the vendored Tomus 1. Primary original
-    evidence for the movement, quotable once each wording is checked against the page image:
-    the scan is legible with occasional letter-level misreads. Word-form coverage against
-    a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese passages and the
-    notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+    by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
+    1555). Primary original evidence for the movement, quotable once each wording is checked
+    against the page image: the scan is legible with occasional letter-level misreads. Word-form
+    coverage against a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese
+    passages and the notes lower it, so the figure is a comparison across files and not a
+    measure of accuracy.'
   source_file: polanco_chronicon-v6-lat_1898.txt
 - work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Tomus
     V (covering the year 1555)
