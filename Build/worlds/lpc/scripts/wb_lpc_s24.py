@@ -122,8 +122,9 @@ and daughter, and others each appear in exactly one chunk and are not built):
       the shape here is friendly rather than hostile mediation): Pontius the
       Deacon, source for lpcstory001, 002 and 006 (three of the seven, all
       of Cyprian's own Phase One narrative material), and Possidius, bishop
-      of Calama, the sole source for lpcstory007 (the whole of Phase Two)
-      and, independently, the quote this script builds at lpc.quote.
+      of Calama, the main source for lpcstory007 (the whole of Phase Two;
+      Prosper's chronicle corroborates only the date of death and the
+      siege) and, independently, the quote this script builds at lpc.quote.
       clamour-and-tears (see QUOTE SET below) -- this world's Author-Gravity
       problem for its two mediating witnesses is the mirror image of don's:
       Optatus and Augustine mediate hostilely; Pontius and Possidius mediate

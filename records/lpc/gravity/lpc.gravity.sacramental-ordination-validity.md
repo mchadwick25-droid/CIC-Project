@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently
-    re-verified across Doc_01''s nine review rounds (On Baptism I.1.2; the 256 preface; Book III ch. 2
+    re-verified at source in Doc_01''s later review rounds (On Baptism I.1.2; the 256 preface; Book III ch. 2
     §2).'
 sources:
 - source_id: lpc.source.cyprian-epistles

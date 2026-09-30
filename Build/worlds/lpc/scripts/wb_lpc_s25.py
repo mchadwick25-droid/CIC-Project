@@ -490,7 +490,7 @@ def build_gravities() -> None:
         "reinforces Candidates 2, 3, 4, 6, 8; reinforced weakly by Candidate 5; no independently "
         "demonstrated relationship with Candidate 7. CONFIDENCE/GRAVITY CROSS-CHECK: Documented -- "
         "both bishops' own accounts of holding and exercising this office are directly quoted and "
-        "independently re-verified across Doc_01's nine review rounds (the 256 preface; Letters XXXI "
+        "independently re-verified at source in Doc_01's later review rounds (the 256 preface; Letters XXXI "
         "and CCXIII; Pontius's own narrative). Possidius's Vita (Registry row 192) is NOT counted "
         "toward this Cross-Check -- Doc_02 §2/§4 both disclose it has not been read this session "
         "beyond the Megalius-consecration identification, so this candidate's Documented rating stands "
@@ -511,7 +511,7 @@ def build_gravities() -> None:
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops' own "
              "accounts of holding and exercising this office are directly quoted and independently "
-             "re-verified across Doc_01's nine review rounds; Possidius's Vita (Registry row 192) is "
+             "re-verified at source in Doc_01's later review rounds; Possidius's Vita (Registry row 192) is "
              "explicitly excluded from this Cross-Check per Doc_02 §2/§4's own disclosed limitation "
              "that it has not been read this session beyond the Megalius-consecration identification "
              "-- a citation correction, not a classification change."),
@@ -777,7 +777,7 @@ def build_gravities() -> None:
         "primary",
         "Doc_04 §3 Candidate 6: PRIMARY. Repetition: passes strongly, recurring in the Epistles' own "
         "rebaptism correspondence (Row 1), the 256 Council's own ruling (Row 4), and On Baptism in "
-        "full (Row 13, argued 'at book length') -- not confined to one locus the way Candidate 5 is, "
+        "full (Row 13, argued 'at book length') -- "
         "argued across two independent bishops' own extended treatments, decades apart. Dependency: "
         "passes strongly -- Candidate 3 is tested at its hardest specifically because this question "
         "exists (the two bishops reach opposite conclusions here while Candidate 3 still holds); "
@@ -810,7 +810,7 @@ def build_gravities() -> None:
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently "
-             "re-verified across Doc_01's nine review rounds (On Baptism I.1.2; the 256 preface; Book "
+             "re-verified at source in Doc_01's later review rounds (On Baptism I.1.2; the 256 preface; Book "
              "III ch. 2 §2)."),
         src("lpc.source.cyprian-epistles",
             "lpc.source.cyprian-seventh-council-of-carthage",
@@ -1378,7 +1378,9 @@ def build_forces() -> None:
         "ours, whom we do not disown, and who decided this wrongly. \"[E]ven of the plenary Councils, "
         "the earlier are often corrected by those which follow them.\" LAYER 3 -- FORMATION IMPACT: "
         "the only force in this matrix that carries this world's own formation logic across its own "
-        "133-year silence, and Doc_07 §3A finds the crossing is textual rather than successive. It "
+        "133-year silence, and Doc_07 §3A finds the crossing is textual rather than successive; a non-textual "
+        "continuity, the oratory in memory of Cyprian at Carthage that Confessions V.8 records, is not "
+        "assessed. It "
         "produces G5's second formula, tests G3 across the gap, and re-opens G6. THE PLACEMENT "
         "JUDGEMENT, EXAMINED RATHER THAN INHERITED: Doc_01 §6 places this force in the Internal column "
         "while flagging that the engagement was prompted by the Donatists' own citation of Cyprian -- "

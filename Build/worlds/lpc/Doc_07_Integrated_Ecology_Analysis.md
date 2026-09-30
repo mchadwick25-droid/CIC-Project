@@ -241,7 +241,7 @@ To be formed in this world was to be somebody's — and to discover that this wa
 
 1. **§4 is a synthesis, not a compilation.** Doc_08 owes the full six-cell matrix at three layers, Transmission as a named force dimension in cells 2B and 3B, and the Forces-and-Gravities Synthesis. §4's four named force-clusters — the Decian administrative demand, the Donatist appeal to Cyprian's authority, the plague, and the metabolize-crisis-into-teaching mechanism — are the threads to compile, not the compilation.
 2. **G5's incomplete-ecology shape must be carried, not resolved.** Doc_04 records that this candidate exhibits the shape the Forces Framework names for a gravity that cannot be fully connected to the forces acting on the world. §4 confirms rather than closes it. **Doc_08 should not tidy it away.**
-3. **Transmission is unusually load-bearing in this world** and §3A gives Doc_08 its starting point: continuity across the 133-year gap is textual rather than successive.
+3. **Transmission is unusually load-bearing in this world** and §3A gives Doc_08 its starting point: continuity across the 133-year gap is textual rather than successive; a non-textual continuity, the oratory in memory of Cyprian at Carthage that *Confessions* V.8 records, is not assessed here.
 
 **Carried from upstream, unresolved — all requiring the project lead:**
 

@@ -217,8 +217,9 @@ chunk's Key Sources/Author Gravity/tier-note content, following the
 same evidentiary-weight-vs-tier independence don's own script states
 (a term ecologically peripheral enough to sit at Tier 2 can still be
 `load-bearing` for a real, Documented, if narrow, claim -- "bishop of
-bishops" and "plenary Council" are exactly this: sole textual ground of a
-real Supporting/conciliar-authority axis, Tier 2 only because Doc_04/Doc_05
+bishops" and "plenary Council" are exactly this: each is one of the two
+textual grounds of a real Supporting/conciliar-authority axis whose
+formulas' existence is Documented, Tier 2 only because Doc_04/Doc_05
 find no evidence the axis reached ordinary formation). `libelli` and
 `libellatici/sacrificati` are the two Inferential-Thin entries in this
 batch, on the same ground `wb_lpc_s21.py`'s own row-38 departure states for
