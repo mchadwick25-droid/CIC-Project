@@ -3,7 +3,7 @@ process_version: V2.0
 completion_standard_version: V1.4
 started: 2026-09-30
 pilot_world: false
-current_step: Steps 1-2 revised once after the Round 1 review (Doc_01, Doc_02, Source_Registry, Open_Gaps_Tracking); the Round 2 recheck has not run
+current_step: Steps 1-2 revised once after the Round 1 review and re-derived against the 87 vendored works (Doc_01, Doc_02, Source_Registry rows 1 to 92, Open_Gaps_Tracking); the Round 2 recheck has not run
 file_code_assignment: "The project lead's answer in the session's choice box was exactly 'jes (Recommended)', to the question 'Which code should I give them before starting Doc_01?' (options 'jes (Recommended)', 'soj', 'Other'), session_019FXuEebrCDmzYe987sNAxL, 2026-09-30. Quoted in Build/Ministry/Operations/Audits/jes_Step0_ChangeOrder_2026-09-30.md, section 6."
 status: in_progress
 pause_point: none
