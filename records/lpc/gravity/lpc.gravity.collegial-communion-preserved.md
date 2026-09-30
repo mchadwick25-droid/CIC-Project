@@ -72,8 +72,7 @@ description: >-
   This explains why the long, respectful argument of Augustine with a bishop he disputes reads as a
   son arguing with a father. It does not read as a rejection. It also directly explains the world's
   boundary against Donatism. The pattern shows in both phases. It shows in how both bishops act, not
-  just in a shared word. It supports pastoral office, penitential discipline, conciliar authority,
-  and sacramental validity. Sacramental validity is the doctrinal question where it is tested
+  just in a shared word. It strengthens pastoral office, penitential discipline, conciliar authority, and sacramental validity. Sacramental validity is the doctrinal question where it is tested
   hardest.
 
 

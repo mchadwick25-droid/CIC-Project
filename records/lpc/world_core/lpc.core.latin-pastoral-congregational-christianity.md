@@ -62,8 +62,7 @@ horizon: >-
   preparing for baptism, and gave the sacraments to his own flock (391/395-430).
 
 
-  What bounds this world is two bishops' ordinary care of an entire local flock. No one continuous
-  institutional story across the century between them bounds it.
+  What bounds this world is two bishops' ordinary care of an entire local flock. No single continuous institutional story across the century between them bounds it.
 
 
   This is a world of ordinary pastors and their own congregations. It is not a world of courts. It
@@ -98,7 +97,7 @@ horizon: >-
   The two bishops' eras form one strand, not two. They share the same emphasis in formation, the
   same practice, and the same stance toward the world around them. Real and large differences in
   authority do separate them. One is how far a bishop could use coercion against a rival hierarchy.
-  Another is whether a rival consecration counted as a valid sacrament. A third is their theory of
+  Another is whether a rival consecration was valid as a sacrament. A third is their theory of
   what councils can decide. That one is held open rather than fully settled.
 
 
@@ -155,7 +154,7 @@ formation_logic: >-
   peace the bishop regulated.
 
 
-  Underneath positions that otherwise have nothing in common, one move keeps coming back. This world
+  Beneath positions that otherwise have nothing in common, one move keeps coming back. This world
   will not let any single factor be decisive. Cyprian will not let one act under persecution settle
   a person's membership for good. Augustine will not let a minister's purity decide whether a
   sacrament is valid. He also will not let a believer's unaided will decide where they stand before
@@ -165,7 +164,7 @@ formation_logic: >-
   This world's most distinctive structure is an internal rule. It keeps disagreement from becoming
   separation. Cyprian states it while presiding over the council that will decide the sharpest
   question in the room. He said each bishop should give his view, judging no one and shutting no one
-  out of communion for thinking differently. A century and a third later, Augustine argues at book
+  out of communion for thinking differently. About a century and a half later, Augustine argues at book
   length that Cyprian's ruling was wrong. He never places him outside.
 
 

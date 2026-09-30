@@ -57,8 +57,7 @@ description: >-
 
 
   Other concerns in this world lean on it. Collegial communion is tested hardest here. The two
-  bishops reach opposite answers, and communion still holds. The confessor tension asks a close
-  question. Who may grant standing within the community?
+  bishops reach opposite answers, and communion still holds. The confessor tension asks a question close to this one. Who may grant standing within the community?
 
 
   It shapes practice directly. Cyprian's rule of rebaptism is a working pastoral policy. Augustine's
@@ -69,11 +68,10 @@ description: >-
 
 
   The question persists across both phases even as the answer changes. That the question stays is
-  itself evidence of how central it is. It supports pastoral office, penitential discipline,
-  collegial communion, and conciliar authority.
+  itself evidence of how central it is. It strengthens pastoral office, penitential discipline, collegial communion, and conciliar authority.
 
 
-  Both positions are solidly attested. They are quoted word for word and checked: On Baptism I.1.2,
+  Both positions are firmly attested. They are quoted word for word and checked: On Baptism I.1.2,
   the 256 preface, and Book III, chapter 2. Neither side of this dispute is short of evidence.
 
 
@@ -83,12 +81,11 @@ description: >-
   Cyprian reasons about both questions in the same way.
 
 
-  That last link runs one way only. Penitential discipline supports this concern in the first phase.
+  That last link runs one way only. Penitential discipline strengthens this concern in the first phase.
   Both are questions about the boundary and about return. But penitential discipline ties to grace
-  and human incapacity in another way. That concern reshapes it, and does not continue in it. So
+  and human incapacity in another way. It is reshaped by that concern, not continued in it. So
   this record has its own tie to the recurring contest over the failed member. That tie belongs to
-  the first phase. It does not depend on the second-phase family resemblance. That resemblance runs
-  the other way, toward grace and human incapacity.
+  the first phase. It does not depend on the second-phase family resemblance. That resemblance runs toward grace and human incapacity.
 manifestations:
 - the Council of 256's ruling on rebaptism
 - On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and Book III, chapter

@@ -835,8 +835,8 @@ def build_stories() -> None:
         "Pontius; its hagiographic-convention clause describes this story exactly. Doc_09 assigns "
         "Tier 3 on the convention and against the genus clause, and carries the tension to the "
         "project lead as an open item rather than resolving it quietly -- unchanged here.",
-        "How our tradition remembered the death of our first great bishop. It was a life "
-        "fully given, completed.",
+        "How our tradition remembered the death of our first great bishop. We remember it as "
+        "a life fully given, completed.",
         "This is how our own tradition remembered the death of our first great bishop -- an "
         "account written by his own deacon, in the form of a saint's life, showing what we believed "
         "a life fully given to the pastoral office could become. We offer it as that portrait, not "

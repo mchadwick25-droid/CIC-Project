@@ -4320,7 +4320,7 @@ FORMATION_LOGIC = (
     "THAT KEEPS DISAGREEMENT FROM BECOMING SEPARATION (G3) is this world's most characteristic "
     "structure: 'judging no man, nor rejecting any one from the right of communion, if he should "
     "think differently from us,' said by the man presiding over the council that will decide the "
-    "sharpest question in the room -- and a century and a third later, Augustine argues at book "
+    "sharpest question in the room -- and about a century and a half later, Augustine argues at book "
     "length that that man's ruling was wrong, and never places him outside (Doc_07 SS2H). "
     "PENITENTIAL DISCIPLINE IS A FUNCTIONING LEGAL SYSTEM, not a devotional practice: an examined "
     "entry, graded severity, a defined duration, a competent authority, a formal act of restoration "

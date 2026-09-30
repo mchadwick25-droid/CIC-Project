@@ -77,8 +77,7 @@ description: >-
   confessor tension.
 
 
-  We checked directly whether it continues into Augustine's phase. We did not assume it. It holds in
-  Cyprian's phase itself. For Augustine's phase, the case that it continues does not fully survive
+  We checked directly whether it continues into Augustine's phase. We did not assume it. It holds directly for Cyprian's phase. For Augustine's phase, the case that it continues does not fully survive
   as this same concern under its own name. No text from Augustine's phase is organized around a
   crisis like that of the lapsed, at the same acute, empire-wide scale.
 
@@ -89,8 +88,7 @@ description: >-
   boundary between the phases is a family resemblance. It is not the same concern restated.
 
 
-  It supports pastoral office, collegial communion, preaching and catechesis, and sacramental
-  validity. Grace and human incapacity reshapes it without continuing it. It competes with the
+  It strengthens pastoral office, collegial communion, preaching and catechesis, and sacramental validity. Grace and human incapacity reshapes it without continuing it. It competes with the
   confessor tension.
 
 

@@ -24,8 +24,7 @@ statement: A conference was held in 411, between our own bishops and the rival c
   the largest single gathering of argument between bishops that our later years produced. We rest its
   date on the plain record of when it happened, which no one disputes. We do not draw on its own transcript
   of what was actually argued there, bishop by bishop. That transcript has not been validly read in building
-  this record. We cannot yet tell you what it would show. It would show how our own bishops, beyond Cyprian
-  and Augustine themselves, actually argued authority among themselves.
+  this record. We cannot yet tell you what it would show about how our own bishops, beyond Cyprian and Augustine themselves, actually argued authority among themselves.
 why_sources_cannot_answer: 'The Gesta Collationis Carthaginiensis -- the acts of the 411 Conference --
   survives in a Migne printing this world''s own construction record names directly: ''has not been validly
   read; two attempts were withdrawn'' (Doc_07_Integrated_Ecology_Analysis.md §7). Doc_07 §8 item 2 independently

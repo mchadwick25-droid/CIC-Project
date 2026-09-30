@@ -66,8 +66,7 @@ description: >-
 
   The tension lasts only through Cyprian's crisis years. There it is a lasting, unresolved
   counter-pressure, not a force that organizes the world as a whole. That is what makes it a
-  tension. It is not a failure. It competes with penitential discipline and supports the pastoral
-  office.
+  tension. It is not a failure. It competes with penitential discipline and strengthens the pastoral office.
 
 
   Both poles are firmly attested. The confessors' own letters in Epistles XX-XXI show their side in

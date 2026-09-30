@@ -65,8 +65,7 @@ description: >-
 
   Its power to shape believers is strong and direct. That is the plain subject of the works on
   catechesis and the stated purpose of both bishops' preaching. It explains how formation happens
-  more than why any one crisis came about. Both phases attest it, in both bishops' own words. It
-  supports pastoral office, penitential discipline, and grace and human incapacity. No link has been
+  more than why any one crisis came about. Both phases attest it, in both bishops' own words. It strengthens pastoral office, penitential discipline, and grace and human incapacity. No link has been
   shown with collegial communion, conciliar authority, sacramental validity, or the confessor
   tension.
 

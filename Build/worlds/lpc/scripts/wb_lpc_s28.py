@@ -962,7 +962,7 @@ def build_limit_gesta_unread() -> None:
             "years produced. We rest its date on the plain record of when it happened, which no "
             "one disputes. We do not draw on its own transcript of what was actually argued "
             "there, bishop by bishop. That transcript has not been validly read in building this "
-            "record. We cannot yet tell you what it would show. It would show how our own "
+            "record. We cannot yet tell you what it would show about how our own "
             "bishops, beyond Cyprian and Augustine themselves, actually argued authority among "
             "themselves."
         ),

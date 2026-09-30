@@ -40,9 +40,8 @@ relations:
 name: The Decian Persecution and the *libelli* System (250)
 kind: initiating
 description: >-
-  The Decian persecution was the first empire-wide persecution to be systematically enforced. It
-  worked through certificates recording that the holder had sacrificed. It did not mainly demand
-  that Christians renounce their faith. It asked for a documented act of compliance. A person could
+  The Decian persecution was the first empire-wide persecution to be systematically enforced. It worked through certificates. Each one recorded that the holder had sacrificed. It did not mainly demand
+  that Christians renounce their faith. It demanded a documented act of compliance. A person could
   obtain one by making the sacrifice, or by paying to have it recorded. Cyprian's crisis
   correspondence documents this, at the higher citation grade (A). His De Lapsis documents it too,
   at the lower grade (B).

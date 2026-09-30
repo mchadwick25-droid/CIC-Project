@@ -42,8 +42,7 @@ relations:
 name: The Recurring Contest Over How to Treat the Failed Member
 kind: ongoing
 description: >-
-  Under Cyprian, the contest was over the lapsed. Under Augustine, it was over everyday sin after
-  baptism, and over believers tempted by schism. The contest is documented in both periods.
+  Under Cyprian, the contest was over the lapsed. Under Augustine, it was over ordinary sin after baptism, and over believers tempted by schism. The contest is documented in both periods.
 
 
   This was the question that would not go away, felt from inside: what do you owe someone who is

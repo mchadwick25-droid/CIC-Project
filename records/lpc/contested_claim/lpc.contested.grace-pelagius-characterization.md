@@ -26,8 +26,7 @@ relations:
   target: lpc.gravity.grace-and-human-incapacity
 claim: Augustine's own anti-Pelagian writings show what Pelagius himself held. They show it as it was.
   Pelagius held that a believer's own moral effort, with no help, is enough to obey what God commands.
-  Later Catholics and Protestants used this same dispute to take opposing sides on grace and merit. They
-  did so in the Reformation era and again today. Their use carries on an argument. Augustine himself set
+  Later Catholics and Protestants used this same dispute to take opposing sides on grace and merit. They did so in the Reformation era and in modern times. Their use carries on an argument. Augustine himself set
   its terms correctly.
 held_against:
 - This world's own build record names, without adjudicating it, a live modern scholarly reassessment of

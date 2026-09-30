@@ -51,7 +51,7 @@ tensions:
   when they point in different directions.
 text: 'In our earliest years, a survivor of interrogation carried a claim of his own. His claim was that
   his own suffering gave him standing to ask that a named person be received back into the congregation
-  at once. That person had failed the test he himself had passed. We took that claim in earnest. His suffering
+  at once. That person had failed the test the survivor himself had passed. We took that claim in earnest. His suffering
   was real, and so was what it carried. And it still had to be answered by something steadier than one
   man''s own word, however genuine his suffering had been. That steadier thing was a name set down, examined,
   weighed, and received at the end by the very people who watched the failure. We hold both as real: the

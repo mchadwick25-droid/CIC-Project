@@ -360,8 +360,8 @@ def build_de_unitate_recensions() -> None:
         claim=(
             "De Unitate 4-5 survives in a single authorial text. One form of chapters 4-5 is "
             "often called the 'Primacy Text'. It reads more kindly toward Roman primacy than the "
-            "other form does. It is a later interpolation. A later hand added it to Cyprian's "
-            "own original words. It is no proof of what Cyprian himself wrote or revised."
+            "other form does. It is a later interpolation. A later hand added it to the words "
+            "Cyprian first wrote. It is not evidence of anything Cyprian himself wrote or revised."
         ),
         held_against=[
             "Chapman's own foundational study (1902-03) first identified and argued the interpolation "
@@ -448,7 +448,7 @@ def build_grace_pelagius() -> None:
             "it as it was. Pelagius held that a believer's own moral effort, with no help, is "
             "enough to obey what God commands. Later Catholics and Protestants used this same "
             "dispute to take opposing sides on grace and merit. They did so in the Reformation "
-            "era and again today. Their use carries on an argument. Augustine himself set its "
+            "era and in modern times. Their use carries on an argument. Augustine himself set its "
             "terms correctly."
         ),
         held_against=[
@@ -617,10 +617,10 @@ def build_cyprian_death_genre() -> None:
             "of Construction Framework V7.4. Its genus clause reads: 'direct textual "
             "attestation... named author with identifiable social location... datable with "
             "reasonable confidence'. Pontius meets every part of that test. He is a named deacon "
-            "who saw it himself. The account also casts events as echoes of Scripture "
-            "(typology). It sees God's plan in them (providential framing). Both are ornament. "
-            "They sit on a real public execution that we can date. Neither is proof that we "
-            "cannot trust the account as a witness's word."
+            "who saw it himself. The account also casts events as echoes of Scripture. This is "
+            "called typology. It sees God's plan in them. This is called providential framing. "
+            "Both are ornament. They sit on a real public execution that we can date. Neither "
+            "is evidence that we cannot trust the account as a witness's word."
         ),
         held_against=[
             "The account itself discloses its own patterning on Scripture as an authorial aside, not a "

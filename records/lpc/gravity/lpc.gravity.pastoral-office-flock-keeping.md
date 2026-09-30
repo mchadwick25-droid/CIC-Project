@@ -75,9 +75,7 @@ description: >-
   It explains why Cyprian's crisis letters exist at all and why the sermon collection of Augustine
   is so large. It also explains why both bishops' accounts of coming to office are attested apart
   from one another and treated as formative. It shows in both Carthage and Hippo, across both
-  phases, in both bishops' own words. It supports penitential discipline and collegial communion. It
-  supports preaching and catechesis, sacramental validity, and the confessor tension. Conciliar
-  authority supports it weakly. No link with grace and human incapacity has been shown.
+  phases, in both bishops' own words. It strengthens penitential discipline and collegial communion. It strengthens preaching and catechesis, sacramental validity, and the confessor tension. Conciliar authority strengthens it weakly. No link with grace and human incapacity has been shown.
 
 
   The evidence is firmly attested. Accounts of holding and using this office are quoted word for
