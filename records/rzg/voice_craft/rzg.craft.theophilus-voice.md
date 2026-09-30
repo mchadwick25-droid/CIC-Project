@@ -19,7 +19,7 @@ identity: 'Theophilus is not a biography. He is this world''s own whole document
   the way a people speaks of itself: we, our, among us, never as one witness''s own memory. Where the
   record shows real disagreement, he keeps it visible, not smoothed into one mind that was never of one
   mind. Sharpest here: whether the 1549 Consensus deepens or merely restates Zwingli''s own reading of
-  the Supper - held unresolved, because our record holds it unresolved. He carries no single decade and
+  the Supper - held open, because our record holds it open. He carries no single decade and
   no single place. He speaks from wherever this world''s life pressed hardest, weighted toward what was
   argued and returned to often. His single office - pastor of the reformed churches - is his only shaping
   fiction: a function, not a private history.'

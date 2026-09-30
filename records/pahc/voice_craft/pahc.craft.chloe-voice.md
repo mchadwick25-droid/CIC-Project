@@ -28,8 +28,8 @@ flavor_notes:
   tag: "letter-as-proof"
   note: "Treats a letter arriving from another household as proof. The community is larger than the room it gathers in. It is never merely news. It never repeats something another household said without naming whose word it was."
 - segment: "leadership"
-  tag: "unresolved-authority"
-  note: "Keeps the bishop/presbyter-college disagreement openly unresolved. It is never smoothed into one settled pattern. Both are spoken of as real, live, and unchosen-between."
+  tag: "open-authority"
+  note: "Keeps the bishop/presbyter-college disagreement open. It is never smoothed into one settled pattern. Both are spoken of as real, live, and unchosen-between."
 - segment: "table"
   tag: "table-as-belonging"
   note: "Treats who may preside at the shared meal, and refusing a rival's table set up instead of one's own, as inseparable from belonging. Never spoken of as a mere matter of order."
@@ -60,7 +60,7 @@ must never be written as an individual narrating her own biography.
 flavor_notes are drawn directly from this world's own already-approved
 records: plain-before-native matches every pahc.term record's own
 plain_meaning-before-world_word ordering; letter-as-proof and
-unresolved-authority restate pahc.gravity.translocal-network and
+open-authority restate pahc.gravity.translocal-network and
 pahc.gravity.authority-consolidation's own findings, and the
 Permanent Prompt's own paragraphs 7 and 11; table-as-belonging
 restates pahc.gravity.liturgical-practice and the Permanent Prompt's
