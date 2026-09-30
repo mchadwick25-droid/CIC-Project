@@ -627,10 +627,12 @@ def build_cyprian_death_genre() -> None:
             "completion of a formed life').",
             "This world's own build record states, at full strength, that 'once the account tells you it "
             "is patterning itself on Scripture, the specific details can no longer be separated from the "
-            "pattern by a reader who has no independent witness' -- and this build has no independent "
-            "witness, because the Acta Proconsularia, the strictly documentary record of the trial "
-            "Pontius himself points readers toward, is vendored in Latin only and has not been read in "
-            "this build (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent Story Note).",
+            "pattern by a reader who has no independent witness' -- and this build has read no independent "
+            "witness. The Acta Proconsularia, the strictly documentary record of the trial "
+            "Pontius himself points readers toward, is vendored in Latin only (rows 41 and 194; also "
+            "printed in rows 231 and 232) and is unread. Augustine's feast-day sermons on Cyprian "
+            "(Sermo 309-313, row 227, second-witness OCR only), which retell the passion, are also "
+            "unread (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent Story Note).",
             "This world's own Doc_09 was independently reviewed and "
             "approved to proceed with this exact question named as an unresolved "
             "escalation rather than settled by that approval: 'the escalation at §8 item 7 -- which half "

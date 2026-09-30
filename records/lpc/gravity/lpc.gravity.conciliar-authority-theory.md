@@ -59,24 +59,35 @@ description: >-
   "plenary" occurs 31 times in that treatise.
 
 
-  A real limit sits here too, and it should be said plainly. Each theory is attested at only one place in each bishop's
-  writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's recurs within
-  On Baptism but is not restated in any second work of his drawn on here.
+  A real limit sits here too, and it should be said plainly. Each theory comes from one bishop's own
+  voice. Each recurs in more than one of that bishop's works. Cyprian's appears in the 256 preface and
+  in three epistles. Augustine's appears in On Baptism and in two letters.
 
 
   Its reach is narrow in every direction. Only one finding depends on it: that the world forms a single
-  strand. There is no evidence that ordinary believers, catechumens, or most clergy in either phase
-  were shaped by this question, or even knew of it. It explains the shape of the rebaptism dispute
-  between Cyprian and Stephen, and Augustine's long argument against Cyprian's ruling. It explains
-  nothing else in the wider world. It connects clearly with collegial communion and sacramental
-  validity, and weakly with pastoral office.
+  strand. It explains the shape of the rebaptism dispute between Cyprian and Stephen, and Augustine's
+  long argument against Cyprian's ruling. It explains nothing else in the wider world. It connects
+  clearly with collegial communion and sacramental validity, and weakly with pastoral office.
 
 
-  It does not carry across the whole world. Within what has been read, neither bishop's theory is
-  visible outside its one source. This is a limit of the search so far, not a proven absence. It runs
-  thin across the whole span, not confined to one phase. It appears in both phases, at one source each
-  -- between two bishops, at two moments separated by over a century. That sets it apart from grace and
-  human incapacity, which belongs to one phase only.
+  People did know of the question. The preface to the Council of 256 says presbyters, deacons and a large
+  part of the congregation were present when Cyprian spoke his formula. Cyprian states the same position
+  in Epistles LIV, LXXI and LXXV.
+
+
+  Firmilian's Epistle LXXIV argues against Stephen. Augustine appeals to plenary Councils in Letters
+  XLIII and LIV. We cannot show that ordinary believers, catechumens, or most clergy were taught the
+  question or shaped by it. Neither formula appears in the sermons or teaching works we searched.
+  Augustine did put a wider question to ordinary hearers: who judges a bishop? He did so against the
+  Donatists. No source shows how they took it.
+
+
+  It does not carry across the whole world. Each bishop's theory recurs in more than one of his works.
+  In Cyprian's time several bishops argued over it, and clergy and people heard it at the 256 council.
+  We have found no evidence that it worked in ordinary congregational life. This is a limit of the
+  search so far, not a proven absence. It runs thin across the whole span, not confined to one phase.
+  It appears in both phases, more than once in each bishop's writings, with over a century between the
+  two bishops. That sets it apart from grace and human incapacity, which belongs to one phase only.
 
 
   The uncertainty here is disclosed, not resolved. That both formulas exist, in their own words, is
@@ -88,10 +99,10 @@ description: >-
 
   Of everything in this world, this concern connects least to the forces acting on it, and that is
   stated plainly rather than padded. It links to the council setting of the organized Carthaginian
-  church. It links to the Donatist appeal that supplied the occasion, and to Augustine's engagement
-  with Cyprian's conciliar acts. But each of these reaches it only through someone quoting a text, not
-  through pressure on how the church actually lived. That fits the finding that the question never
-  reached ordinary formation.
+  church, which supplies only the setting in which Cyprian spoke his formula. It links to the Donatist
+  appeal that supplied the occasion, and to Augustine's engagement with Cyprian's conciliar acts. These
+  two reach it only through someone quoting a text, not through pressure on how the church actually
+  lived. That fits the finding that no evidence shows the question shaping ordinary formation.
 
 
   A concern this loosely connected to the pressures acting on the world leaves our own picture of that
