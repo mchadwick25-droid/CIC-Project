@@ -62,9 +62,23 @@ function figureDateSpan(figure) {
 
 // ---- Orientation tier (shared between the Atlas panel and a tradition page) ----
 
-export function renderStory(compiled) {
+// A narration player for one clip. `url` is null/absent when no audio exists
+// for the piece, in which case nothing is drawn.
+function narrationPlayer(url) {
+  if (!url) return "";
+  return [
+    '<div class="narration"><audio controls preload="none">',
+    `<source src="${escapeHtml(url)}" type="audio/mpeg"></audio>`,
+    '<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>',
+  ].join("");
+}
+
+// opts.narration = { story: url, legacy: url, documented: [url|null, ...] },
+// built by the caller from cic-website/audio/worlds/manifest.json.
+export function renderStory(compiled, opts) {
   const story = (compiled.orientation && compiled.orientation.story) || [];
-  return story.map((unit) => paragraphs(unit.text)).join("\n");
+  const player = narrationPlayer(opts && opts.narration && opts.narration.story);
+  return player + story.map((unit) => paragraphs(unit.text)).join("\n");
 }
 
 export function renderVoices(compiled, opts) {
@@ -107,7 +121,7 @@ export function renderDocumentedStories(compiled, opts) {
     const head = [`<h4>${escapeHtml(s.title || "")}</h4>`];
     if (s.when) head.push(`<p class="meta">${escapeHtml(s.when)}</p>`);
     if (s.teaser) head.push(`<p class="teaser">${escapeHtml(s.teaser)}</p>`);
-    const body = s.text ? paragraphs(s.text) : "";
+    const body = (s.text ? narrationPlayer(opts && opts.narration && opts.narration.documented && opts.narration.documented[i]) : "") + (s.text ? paragraphs(s.text) : "");
     return [
       '<div class="docstory-entry">',
       ...head,
@@ -127,9 +141,10 @@ export function renderFloorNote(compiled) {
   return paragraphs(fn.text);
 }
 
-export function renderLegacy(compiled) {
+export function renderLegacy(compiled, opts) {
   const legacy = (compiled.orientation && compiled.orientation.legacy) || [];
-  return legacy.map((unit) => paragraphs(unit.text)).join("\n");
+  const player = narrationPlayer(opts && opts.narration && opts.narration.legacy);
+  return player + legacy.map((unit) => paragraphs(unit.text)).join("\n");
 }
 
 export function renderRelationsSummary(compiled) {
@@ -254,6 +269,17 @@ export function renderPullQuotes(compiled) {
     }</blockquote>`;
   });
   return ['<div class="orient-pull-quotes">', ...blocks, "</div>"].join("\n");
+}
+
+// The narration URLs for one world, from its entry in audio/worlds/manifest.json;
+// `base` is the path from the calling page to audio/worlds/ (with trailing slash).
+export function narrationUrls(entry, base) {
+  if (!entry) return null;
+  const url = (k) => (entry[k] ? base + entry[k].file : null);
+  const last = Math.max(-1, ...Object.keys(entry).map((k) => (/^docstory-(\d+)$/.exec(k) || [])[1]).filter((n) => n !== undefined).map(Number));
+  const documented = [];
+  for (let i = 0; i <= last; i++) documented.push(url(`docstory-${i}`));
+  return { story: url("story"), legacy: url("legacy"), documented };
 }
 
 // Every render function this module exports, keyed by name - the single

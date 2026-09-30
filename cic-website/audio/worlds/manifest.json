@@ -1,0 +1,641 @@
+{
+ "post-apostolic-house-church": {
+  "story": {
+   "file": "post-apostolic-house-church/story.mp3",
+   "chars": 5303,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "post-apostolic-house-church/docstory-0.mp3",
+   "chars": 1482,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "post-apostolic-house-church/docstory-1.mp3",
+   "chars": 1118,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "post-apostolic-house-church/docstory-2.mp3",
+   "chars": 1204,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "post-apostolic-house-church/legacy.mp3",
+   "chars": 1071,
+   "voiceId": "1gkXJMvrzBWAwt0XqBaa",
+   "model": "eleven_v3",
+   "apiSpeed": 1.12,
+   "tempo": 1.15,
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.93,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "alexandria-catechetical": {
+  "story": {
+   "file": "alexandria-catechetical/story.mp3",
+   "chars": 6329,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "alexandria-catechetical/docstory-0.mp3",
+   "chars": 754,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "alexandria-catechetical/docstory-1.mp3",
+   "chars": 1128,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "alexandria-catechetical/docstory-2.mp3",
+   "chars": 1035,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "alexandria-catechetical/legacy.mp3",
+   "chars": 674,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "desert-monasticism": {
+  "story": {
+   "file": "desert-monasticism/story.mp3",
+   "chars": 3657,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "desert-monasticism/docstory-0.mp3",
+   "chars": 877,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "desert-monasticism/docstory-1.mp3",
+   "chars": 1548,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "desert-monasticism/docstory-2.mp3",
+   "chars": 1772,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "desert-monasticism/legacy.mp3",
+   "chars": 567,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "syriac-edessa-nisibis": {
+  "story": {
+   "file": "syriac-edessa-nisibis/story.mp3",
+   "chars": 3484,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "syriac-edessa-nisibis/docstory-0.mp3",
+   "chars": 745,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "syriac-edessa-nisibis/docstory-1.mp3",
+   "chars": 690,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "syriac-edessa-nisibis/docstory-2.mp3",
+   "chars": 969,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "syriac-edessa-nisibis/legacy.mp3",
+   "chars": 477,
+   "voiceId": "9iUwwAQbShIkp628a5fO",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "cappadocian-nicene-pastoral-monastic-tradition": {
+  "story": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/story.mp3",
+   "chars": 7881,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-0.mp3",
+   "chars": 982,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-1.mp3",
+   "chars": 1377,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-2.mp3",
+   "chars": 1161,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/legacy.mp3",
+   "chars": 671,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "donatism": {
+  "story": {
+   "file": "donatism/story.mp3",
+   "chars": 11177,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "donatism/docstory-0.mp3",
+   "chars": 2695,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "donatism/docstory-1.mp3",
+   "chars": 1803,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "donatism/docstory-2.mp3",
+   "chars": 4246,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "donatism/legacy.mp3",
+   "chars": 1032,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "gallic-monastic-ascetic-christianity": {
+  "story": {
+   "file": "gallic-monastic-ascetic-christianity/story.mp3",
+   "chars": 9304,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-0.mp3",
+   "chars": 1674,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "gallic-monastic-ascetic-christianity/docstory-1.mp3",
+   "chars": 3696,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "gallic-monastic-ascetic-christianity/legacy.mp3",
+   "chars": 429,
+   "voiceId": "XvE13Da9dSLvpuCLoEBV",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "hieronymian-ascetic-literary": {
+  "story": {
+   "file": "hieronymian-ascetic-literary/story.mp3",
+   "chars": 6620,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "hieronymian-ascetic-literary/docstory-0.mp3",
+   "chars": 884,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "hieronymian-ascetic-literary/docstory-1.mp3",
+   "chars": 1005,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "hieronymian-ascetic-literary/docstory-2.mp3",
+   "chars": 1010,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "hieronymian-ascetic-literary/legacy.mp3",
+   "chars": 681,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "the-reformed-cities-zurich-and-geneva": {
+  "story": {
+   "file": "the-reformed-cities-zurich-and-geneva/story.mp3",
+   "chars": 7362,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-0.mp3",
+   "chars": 978,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-1.mp3",
+   "chars": 879,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-2.mp3",
+   "chars": 993,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "the-reformed-cities-zurich-and-geneva/legacy.mp3",
+   "chars": 737,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  }
+ }
+}

@@ -41262,13 +41262,16 @@ async function loadBuiltWorldOrientation(censusId){
   try{
     const compiled=await fetchBuiltWorldData(censusId);
     const R=window.OrientationRender||await window.__orientationRenderPromise;
+    const wm=await fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
+    const narr=window.OrientationNarrationUrls?window.OrientationNarrationUrls(wm[censusId],'audio/worlds/'):null;
+    const nopts=narr?{narration:narr}:{};
     let h='';
     const o=compiled.orientation||{};
-    if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled);
-    if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId});
+    if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled,nopts);
+    if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId,...nopts});
     if(o.voices&&o.voices.length)h+='<h3>Voices</h3>'+R.voices(compiled);
     if(o.floor_note&&o.floor_note.text)h+='<h3>Doctrinal floor note</h3>'+R.floor_note(compiled);
-    if(o.legacy&&o.legacy.length)h+='<h3>Legacy</h3>'+R.legacy(compiled);
+    if(o.legacy&&o.legacy.length)h+='<h3>Legacy</h3>'+R.legacy(compiled,nopts);
     if(o.relations_summary&&o.relations_summary.text)h+='<h3>In its own record</h3>'+R.relations_summary(compiled);
     if((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length))h+='<h3>Sources</h3>'+R.sourcing(compiled);
     if(!h)h='<p class="meta">No further orientation content recorded for this world yet.</p>';
@@ -41880,8 +41883,9 @@ centerView();
      DEFINED, so its exact position relative to the classic script above
      does not matter. -->
 <script type="module">
-import { RENDERERS } from './assets/orientation-render.mjs';
+import { RENDERERS, narrationUrls } from './assets/orientation-render.mjs';
 window.OrientationRender = RENDERERS;
+window.OrientationNarrationUrls = narrationUrls;
 if (window.__orientationRenderResolve) window.__orientationRenderResolve(RENDERERS);
 </script>
 </body>
