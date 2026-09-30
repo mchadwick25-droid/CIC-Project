@@ -91,7 +91,8 @@ works:
   source_file: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
 - work: 'Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22'
   author: ignatius-loyola
-  locus: whole volume
+  locus: 'whole volume - Tomus I of Ignatius''s letters (title page: TOMUS PRIMUS), volume
+    22 of the MHSI series'
   role: tradition
   confidence: assigned
   note: 'One volume of the full 12-vol. MHSI critical edition of Ignatius''s ~7,000 letters,
@@ -126,10 +127,12 @@ works:
   source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
 - work: 'Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I'
   author: lainez
-  locus: whole volume
+  locus: 'whole volume - Tomus I, covering 1536-1556 (title page: TOMUS PRIMUS 1536-1556);
+    ends before Lainez''s own generalate'
   role: tradition
   confidence: assigned
-  note: 'Lainez''s own letters and acts (2nd Superior General). Corrects a prior dossier "genuinely
+  note: 'Lainez''s own letters and acts (Lainez was the 2nd Superior General; this first tomus
+    covers 1536-1556, before his own generalate began in 1558). Corrects a prior dossier "genuinely
     closed" verdict, which only checked for an English translation - this Latin primary material
     is PD and available. Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text is primary evidence directly, verified against the vendored file, since
@@ -153,7 +156,7 @@ works:
   source_file: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt
 - work: Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I
   author: nadal
-  locus: whole volume
+  locus: 'whole volume - Tomus I, covering 1546-1562 (title page: TOMUS PRIMUS (1546-1562))'
   role: tradition
   confidence: assigned
   note: 'Nadal''s own letters, distinct from the already-vendored Adnotationes et Meditationes.
