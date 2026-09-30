@@ -73,3 +73,7 @@ The project lead's answer in the session's choice box, given in session_019FXuEe
 - `Build/worlds/jes/Open_Gaps_Tracking.md`, section G
 - `Build/Ministry/Operations/Audits/SocietyOfJesus_Step0_Correction_2026-09-30.md`
 - `Build/Ministry/Operations/Audits/jes_Steps1-2_Draft_2026-09-30.md`
+
+## Extension: §3 B2 brought into line (2026-09-30)
+
+The change order also replaces the coverage sentences of §3 B2, which still said nothing was vendored for the Generals after 1562, for the *Jesuit Relations*, or for the 1599 *Ratio Studiorum*. The replacement states the shelf as vendored on 2026-09-30, with the figures taken from the Registry rows added at commit 82b155536. §3 B1's count of nineteen works and the Tier paragraph's "three remaining conditions" describe the shelf when Step 0 was approved and are not changed; Doc_02 states the current shelf.
