@@ -1,6 +1,6 @@
 # Doc_02 — Source Ecology: The Hussite and Bohemian Brethren Movement
 
-**Status:** Draft. Not approved to proceed. Not frozen.
+**Status:** Approved to proceed (Doc_02 only; not Frozen), after independent review across three rounds (`Review-Artifacts/Round3_Recheck_Review.md`, clear).
 **Companion document:** `Source_Registry.md` (the per-source ledger; "row N" below means a Registry row). Gaps and requests are in `Open_Gaps_Tracking.md`.
 **Governed by:** Construction Framework V7.4 Part II and Step 2; Constitution V2.3 Article 17 (five-level confidence vocabulary), Article 20 (Ordinary Believer, Source Asymmetry and Marginalized-Voices), Article 26 (Author Gravity and Contested-Tradition Governance); `Source_Registry_Template.md` V1.0; Forces Framework Step 2.
 **Forces Framework integration:** Step 2. The forces lens is applied in §6.

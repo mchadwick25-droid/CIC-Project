@@ -3,7 +3,7 @@ process_version: V2.0
 completion_standard_version: V1.4
 started: 2026-09-30
 pilot_world: false
-current_step: Step 2 drafted (Doc_01, Doc_02, Source_Registry, Open_Gaps_Tracking); awaiting independent review
+current_step: Steps 0-2 approved to proceed; Doc_03 awaits the project lead's decisions (Article 29, Representative, registration of hus)
 status: in_progress
 pause_point: none
 documents:
@@ -12,18 +12,18 @@ documents:
     rounds_used: 3
     review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md]
   - id: Doc_01
-    status: drafted, not independently reviewed
-    rounds_used: 0
+    status: approved to proceed (Round 3 cleared)
+    rounds_used: 3
     drafter_model: Sonnet 5.5
-    reviewer_model:
-    review_files: []
+    reviewer_model: Opus 5.5
+    review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Round2_Recheck_Review.md, Review-Artifacts/Round3_Recheck_Review.md]
     gates_result:
   - id: Doc_02
-    status: drafted with Source_Registry.md, not independently reviewed
-    rounds_used: 0
+    status: approved to proceed with Source_Registry.md (Round 3 cleared)
+    rounds_used: 3
     drafter_model: Sonnet 5.5
-    reviewer_model:
-    review_files: []
+    reviewer_model: Opus 5.5
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Round2_Recheck_Review.md, Review-Artifacts/Round3_Recheck_Review.md]
     gates_result:
   - id: Representative_identity
     status: not started; not decided
@@ -34,6 +34,5 @@ ledger_pointer:
 handoff_manifest_pointer:
 metered_ceiling:
 escalations:
-  - one world or two, and the Taborite strand (Doc_01 section 9, question 1)
   - Living Tradition Status confirmation (Doc_01 section 9, question 2)
 freeze_package_pointer:

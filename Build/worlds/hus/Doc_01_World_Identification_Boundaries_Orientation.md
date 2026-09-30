@@ -1,6 +1,6 @@
 # Doc_01 — World Identification, Boundaries, and Orientation: The Hussite and Bohemian Brethren Movement
 
-**Status:** Draft. Not approved to proceed. Not frozen.
+**Status:** Approved to proceed (Doc_01 only; not Frozen), after independent review across three rounds (`Review-Artifacts/Round3_Recheck_Review.md`, clear).
 **World file-code:** `hus`. Census reference: Atlas V.6, `cic-website/data/world-census.json`.
 **Governed by:** Construction Framework V7.4 Part I and Step 1; Constitution V2.3 Article 4 (movement scope), Article 21 (Strand Determination), Article 22 (Forces Principle), Article 29 (Living Tradition Status Confirmation); Forces Framework V1.1, Step 1 entry.
 **Grounded in:** `Step0_Movement_Scope_Confirmation.md` (Approved to proceed) and its binding items in §4, and finding R3-m1 of `Step0_Review_Round3.md`. The strand count in §5 rests on the project lead's ruling of 30 September 2026.
@@ -112,7 +112,7 @@ Constitution Article 21 defines a strand as "a meaningfully distinct pattern of 
 
 **Links between strands.** The link between Tábor and the Unity is disputed. Lützow: "The connection of the Taborites with the Bohemian Brethren was long a disputed point in Bohemian history; all recent Bohemian historians, however, maintain its existence." Goll reports that the Brethren "did not wish to be considered as continuators of the Taborites". Lützow adds that they protested against this theory "with a degree of energy which was not justified by the facts of the case". The Unity's own Preface of 1633 speaks warmly of Tábor. It says that the city of Tabor alone "held out for many years, defending with the sword their purity of doctrine and their constancy in the faith". This is **Contested** and is carried at full strength. The Preface is the Unity's own later voice on the link, and it stands beside Goll's report.
 
-**What holds across strands.** Hus's memory. Piccolomini, a hostile source, reports that the Bohemians honoured the burned men as martyrs (paraphrase; sect chapter, Registry row 11, line 4087; the scan is not licensed for quotation, Open_Gaps entry 3). Also the cup, Scripture as norm and the Czech language, as far as the evidence in §4 shows them. These are the candidates for cross-strand testing at Doc_04. The strand finding governs strand attribution in every later document.
+**What holds across strands.** Hus's memory. Piccolomini, a hostile source, reports that the Bohemians honoured the burned men as martyrs (paraphrase; sect chapter, Registry row 11, line 4086; the scan is not licensed for quotation, Open_Gaps entry 3). Also the cup, Scripture as norm and the Czech language, as far as the evidence in §4 shows them. These are the candidates for cross-strand testing at Doc_04. The strand finding governs strand attribution in every later document.
 
 **What this document does not decide.** Whether the Taborite strand can carry a Representative or a gravity of its own is not decided here. No Taborite voice is vendored. That question belongs to Doc_02 (source asymmetry) and Doc_04. Nor does this document decide anything about Representative identity, which belongs to the project lead.
 
