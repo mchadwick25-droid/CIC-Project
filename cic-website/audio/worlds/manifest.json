@@ -358,5 +358,77 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "donatism": {
+  "story": {
+   "file": "donatism/story.mp3",
+   "chars": 11177,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "donatism/docstory-0.mp3",
+   "chars": 2695,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "donatism/docstory-1.mp3",
+   "chars": 1803,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "donatism/docstory-2.mp3",
+   "chars": 4246,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "donatism/legacy.mp3",
+   "chars": 1032,
+   "voiceId": "vKnhz1CSirDNQVFqLbul",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  }
  }
 }

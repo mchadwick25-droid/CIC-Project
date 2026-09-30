@@ -4803,3 +4803,36 @@ through the API was not established.
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Remaining built worlds: Donatist, Gallic, Hieronymian, imperial-juridical,
    Reformed.
+
+## 2026-09-30 — Fidelis's pieces narrated (Donatist world)
+
+**Decision.** The Donatist world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Fidelis after hearing two
+candidates on the same two pieces (a firm, measured bishop arguing a case
+before a synod; controlled intensity; conviction that never sounds like
+anger or menace). Mark chose voice A. Bios and the tree description are not
+narrated.
+
+**Settings, as printed by the run.** Voice `vKnhz1CSirDNQVFqLbul`, model
+`eleven_v4`, stability 0.5, similarity 0.8, style 0.1, speaker boost on,
+speed 1, no tempo change, 128 kbps. The other candidate was
+`ilWiv7gEzrCtQ2zDJsRl`.
+
+**Cost.** Two-voice sample 1,100 credits (550 each); run 2,793 credits for
+20,953 characters, the largest world so far. Every request line carried the
+chosen voice and model. The world story went in three parts and joined into
+one file.
+
+**Wired.** `cic-website/audio/worlds/donatism/` and its entry in
+`manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Gallic (casting brief given, voices sampled),
+   Hieronymian, imperial-juridical, Reformed.
