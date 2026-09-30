@@ -1825,3 +1825,16 @@ The independent check of 2026-09-30 on the row-194 exception (`Review-Artifacts/
 - Rows 207 and 233 are cited at Doc_02 section 7 for disclosure. The Registry's priority-review rule for rows of Confidence C still applies to them, and to row 205 for the date of the *Life*.
 - Whether *De spectaculis* and *De bono pudicitiae* count as a bishop's voice at all, given the Novatian ascription that row 6 records and Koch warns against treating as settled, is a reading that belongs with the boundary decision.
 - `scripts/check_claims.py` (the Doc_09 register's own checker) already reported unregistered Doc_09 and story-chunk claims before this pass; this pass did not add to them. They remain for the Doc_09 register conversion.
+
+
+### OG-52. The silence claims, class-level recheck: open disclosures, 2026-09-30.
+
+The independent recheck of 2026-09-30 (`Review-Artifacts/ClaimsClassException_Recheck_2026-09-30.md`) found no false claim among the twelve it checked; ten stand as readings (JUDGEMENT, Widely Accepted) and two as verified. It found one P1 wording defect beside the claims, now fixed: the core record and the force record (and their generators `wb_lpc_s21.py`, `wb_lpc_s25.py`) stated Pontius's authorship as settled; they now read "the life that bears the name of his deacon Pontius". Three citation fixes were applied in Doc_02 section 7 (Hartel lines 702–713, Monceaux lines 5105–5112, and Koch's "novatianischen" given as his own quotation marks).
+
+Open, not yet applied, each a disclosure and not a correction of a claim:
+
+- Gebhardt's volume (the row 232 file) also prints the Gesta apud Zenophilum and the Acta purgationis Felicis (nos. XX–XXI), with no row. Doc_02 section 7 and row 232 do not say so, as row 231 does for its acts.
+- Doc_02 section 7 could name Mensurius's letter to Secundus, known only through Augustine's Breviculus (row 268), as the nearest case under the documents of the Donatist dispute.
+- `lpc_Gapped_Formation_Precedent.md` line 21 still says "written at and just after his martyrdom". It was received from the project lead; this entry routes the dating to him together with the silence sentence.
+- Augustine preaches Crispina of Theveste (martyred 304) in two feast-day sermons in row 20 (the Expositions on Psalms 121 and 138). No lpc file mentions her. Doc_09's sentence that this world tells itself no stories at all is true only for stories that begin inside 258–391 and are told in our own voice; a disclosure is proposed: Augustine preaches one martyr of those years on her feast, as he preaches Perpetua (Doc_02 section 6 item 1); it is a Phase Two telling and is not built here.
+- The spoken copies (Permanent Prompt, Capsule Core, the limit statement) and the plain "our own deacon Pontius" in `lpc.story.election-of-cyprian` stand in the emic voice until the boundary decision on rows 6 and 194 is made (see the entry on the fourth pass of the silence claims, 2026-09-30).

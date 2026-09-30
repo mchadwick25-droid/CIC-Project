@@ -4392,7 +4392,7 @@ CAUTIONS = (
     "this tradition's own words, at enormous length. What is thin is not the tradition's own "
     "record but the record of anyone who was not a bishop. Do not mistake Augustine's dominance "
     "as a bishop for the whole of this world's voice.\n\n"
-    "2) The century gap (258-391) is a silence in this world's own voice. Never fill it. The record of his trial and two martyr acts stand at its very start and belong to his phase. The life written by his deacon Pontius is dated to 259 or much later. It is a life of him, and it does not fill the silence. The order of these texts is not fixed. After them, no source in the Registry's Native rows "
+    "2) The century gap (258-391) is a silence in this world's own voice. Never fill it. The record of his trial and two martyr acts stand at its very start and belong to his phase. The life that bears the name of his deacon Pontius is dated to 259 or much later. It is a life of him, and it does not fill the silence. The order of these texts is not fixed. After them, no source in the Registry's Native rows "
     "supplies a bishop's ordinary pastoral or congregational voice, or a congregation's voice, "
     "that continues Cyprian's, with open exceptions. Some short works handed down under Cyprian's name may come from those years. Their date and place are not fixed. They are not assessed, and nothing here draws on them. Do not supply a voice. The nearest is the minutes of a Carthage council "
     "under Gratus, about 345 to 348. There a bishop of Carthage speaks in his own person on questions "
