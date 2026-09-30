@@ -13,7 +13,10 @@
  * Usage:
  *   ELEVENLABS_API_KEY=... node Build/tools/generate_world_narration.mjs \
  *     --world <census-id> --voice-id <id> --model <model_id> \
- *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' [--dry-run] [--force]
+ *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' [--prefix '[audio tag] '] [--dry-run] [--force]
+ *
+ * --prefix puts an instruction (e.g. an accent tag) in front of every request's
+ * text; it is printed and recorded in the manifest.
  *
  * Voice, model, settings, speed and tempo are all required (except --dry-run)
  * and never read from the environment; the run prints what it sends and the
@@ -33,7 +36,7 @@ export const worldManifestPath = path.join(worldAudioDir, 'manifest.json');
 export const MAX_CHARS_PER_REQUEST = 4500;
 
 export function parseArgs(argv) {
-  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, dryRun: false, force: false };
+  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', dryRun: false, force: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') o.dryRun = true;
@@ -44,6 +47,7 @@ export function parseArgs(argv) {
     else if (a === '--api-speed') o.apiSpeed = Number(argv[++i]);
     else if (a === '--tempo') o.tempo = Number(argv[++i]);
     else if (a === '--settings-json') o.settingsJson = argv[++i];
+    else if (a === '--prefix') o.prefix = argv[++i];
     else throw new Error(`unrecognized argument: ${a}`);
   }
   return o;
@@ -109,7 +113,7 @@ async function run() {
   fs.mkdirSync(outDir, { recursive: true });
 
   console.log('=== PAID RUN, settings as actually used ===');
-  console.log(`voice id : ${opts.voiceId}\nmodel    : ${opts.model}\nsettings : ${JSON.stringify(settings)}\ntempo    : ${opts.tempo}x after synthesis\nchars    : ${chars}`);
+  console.log(`voice id : ${opts.voiceId}\nmodel    : ${opts.model}\nsettings : ${JSON.stringify(settings)}\nprefix   : ${opts.prefix ? JSON.stringify(opts.prefix) : '(none)'}\ntempo    : ${opts.tempo}x after synthesis\nchars    : ${chars}`);
   console.log('===========================================');
 
   const entry = manifest[opts.world] || {};
@@ -119,7 +123,7 @@ async function run() {
     if (fs.existsSync(finalPath) && !opts.force) { console.log(`  skip (exists): ${p.key}`); continue; }
     const partFiles = [];
     for (const [i, text] of p.parts.entries()) {
-      const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, voiceSettings: settings });
+      const { audio, cost } = await synthesizeWithCost(opts.prefix + text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, voiceSettings: settings });
       const f = path.join(os.tmpdir(), `${opts.world}-${p.key}-${i}.mp3`);
       fs.writeFileSync(f, audio);
       partFiles.push(f);
@@ -128,7 +132,7 @@ async function run() {
     }
     tempoFile(partFiles, finalPath, opts.tempo);
     partFiles.forEach((f) => fs.rmSync(f, { force: true }));
-    entry[p.key] = { file: `${opts.world}/${p.key}.mp3`, chars: p.parts.reduce((n, t) => n + t.length, 0), voiceId: opts.voiceId, model: opts.model, apiSpeed: opts.apiSpeed, tempo: opts.tempo, settings: JSON.parse(opts.settingsJson) };
+    entry[p.key] = { file: `${opts.world}/${p.key}.mp3`, chars: p.parts.reduce((n, t) => n + t.length, 0), voiceId: opts.voiceId, model: opts.model, apiSpeed: opts.apiSpeed, tempo: opts.tempo, prefix: opts.prefix || undefined, settings: JSON.parse(opts.settingsJson) };
     manifest[opts.world] = entry;
     fs.writeFileSync(worldManifestPath, JSON.stringify(manifest, null, 1) + '\n');
   }

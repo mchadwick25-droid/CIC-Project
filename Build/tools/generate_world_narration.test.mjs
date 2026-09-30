@@ -25,3 +25,8 @@ test('parseArgs: paid settings only from flags', () => {
   assert.deepEqual([o.world, o.voiceId, o.model, o.apiSpeed, o.tempo], ['w', 'v', 'm', 1.12, 1.15]);
   assert.throws(() => parseArgs(['--bogus']), /unrecognized/);
 });
+
+test('parseArgs: --prefix is read from the command and defaults to empty', () => {
+  assert.equal(parseArgs(['--prefix', '[tag] ']).prefix, '[tag] ');
+  assert.equal(parseArgs([]).prefix, '');
+});
