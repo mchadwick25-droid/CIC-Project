@@ -182,8 +182,8 @@ def test_opening_guard_violation_triggers_one_retry_then_streams_the_correction(
     # The retry's own directive names the exact offending prefix, the
     # same correction-channel shape engine.m4.turn's own seat-identity
     # correction uses.
-    retry_system = client.messages.calls[1]["system"]
-    assert any("The Facilitator:" in block["text"] for block in retry_system)
+    retry_final = client.messages.calls[1]["messages"][-1]["content"]
+    assert any("The Facilitator:" in block["text"] for block in retry_final)
 
 
 def test_opening_guard_exhausted_after_two_failures_emits_no_sentence_at_all():

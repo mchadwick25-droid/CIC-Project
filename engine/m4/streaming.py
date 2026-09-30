@@ -93,6 +93,7 @@ from anthropic import APIError, APITimeoutError
 from engine.m4.grounding_net import _TAG, build_figure_lexicon, strip_tags, verdict_for_sentence
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.transparency_plan import ElementBuilder
+from engine.m4.voice_request import build_voice_request
 from engine.prose import WITHHOLD_FLOOR, quote_aware_sentences
 
 
@@ -143,13 +144,10 @@ def _split_ready(buffer: str) -> tuple[list[_RawSentence], str]:
 
 
 def _open_stream(client, model_id, *, system_prompt, directive, message, history, max_tokens, timeout):
-    system = [{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}]
-    if directive:
-        system.append({"type": "text", "text": directive})
-    return client.messages.stream(
-        model=model_id, max_tokens=max_tokens, system=system,
-        messages=[*(history or []), {"role": "user", "content": message}], timeout=timeout,
+    system, messages = build_voice_request(
+        system_prompt=system_prompt, message=message, turn_directive=directive, history=history,
     )
+    return client.messages.stream(model=model_id, max_tokens=max_tokens, system=system, messages=messages, timeout=timeout)
 
 
 def stream_voice_turn_sentences(

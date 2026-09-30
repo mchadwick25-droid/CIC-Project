@@ -443,7 +443,7 @@ def test_second_pass_turn_only_sees_its_engaged_voice_not_every_prior_answer(
     assert result["position"] == 4 and result["voice"]["speaker"] == "alx"
 
     fourth_call = client.messages.stream_calls[-1]
-    rendered_system = str(fourth_call["system"])
+    rendered_system = str(fourth_call["system"]) + str(fourth_call["messages"][-1]["content"])
     rendered_messages = str(fourth_call["messages"])
     # The directive names pahc specifically - the resolved engagement target.
     assert pahc_world.frame["representative"]["name"] in rendered_system
@@ -494,7 +494,7 @@ def test_a_first_time_speaker_landing_on_the_cap_turn_gets_the_final_turn_framin
     assert not result["round_open"] and result["turn_no"] == 1
 
     final_call = client.messages.stream_calls[-1]
-    rendered = str(final_call["system"])
+    rendered = str(final_call["system"]) + str(final_call["messages"][-1]["content"])
     assert "last turn before the participant speaks again" in rendered
     assert "leave the floor open for the participant" in rendered
     # A pre-existing vacuous assertion here
@@ -803,8 +803,8 @@ def test_seat_identity_guard_exhausted_hands_the_turn_to_the_facilitator(store, 
 
 
 def _other_tradition_directive_text(client, call_index=0):
-    system = client.messages.stream_calls[call_index]["system"]
-    return system[1]["text"] if len(system) > 1 else ""
+    content = client.messages.stream_calls[call_index]["messages"][-1]["content"]
+    return content[0]["text"] if isinstance(content, list) else ""
 
 
 def test_a_table_turn_classified_other_tradition_gets_the_directive(store, usage_store, world_loader, registry, alx_world, desert_world):

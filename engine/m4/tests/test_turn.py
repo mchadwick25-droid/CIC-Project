@@ -12,6 +12,7 @@ from types import SimpleNamespace
 
 from engine.m4 import turn as turn_module
 from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
+from engine.m4.voice_request import DIRECTIVE_OPEN
 from engine.m4.world_loader import LoadedWorld
 
 
@@ -539,13 +540,11 @@ def test_already_told_ids_reaches_evidence_assembly_without_error():
     assert result.voice_event["degraded_by_net"] is False
 
 
-def test_the_per_turn_directive_sits_after_the_cache_breakpoint_not_inside_it():
-    # The whole point of the split: the world's compiled prompt is the only
-    # block carrying cache_control, and it is byte-identical to what was
-    # compiled - so the prefix is reusable across every turn of a session.
-    # The directive, which differs every turn, rides in a second block
-    # AFTER that breakpoint. Concatenating the two (the shape this replaced)
-    # made every turn a cache write and never a cache read.
+def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_block():
+    # The system block is the world's compiled prompt alone, byte-identical
+    # to what was compiled, so the cached prefix holds across every turn.
+    # The directive differs every turn, so it leads the final user message,
+    # behind the cached history.
     world = _world()
     ask_text = "who is jesus"
     client = FakeBedrockClient(
@@ -555,15 +554,15 @@ def test_the_per_turn_directive_sits_after_the_cache_breakpoint_not_inside_it():
     )
     run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set())
 
-    system, _ = client.messages.captured_stream_calls[0]
-    assert len(system) == 2
-    assert system[0]["text"] == world.prompt_text  # untouched, so the prefix holds
+    system, messages = client.messages.captured_stream_calls[0]
+    assert len(system) == 1
+    assert system[0]["text"] == world.prompt_text
     assert system[0]["cache_control"] == {"type": "ephemeral"}
-    assert "cache_control" not in system[1]  # the volatile half is never cached
-    assert "This turn's private directive" in system[1]["text"]
-    assert "This turn's private directive" not in system[0]["text"]
-    # And the model still sees the same bytes in the same order as before.
-    assert "".join(b["text"] for b in system) == world.prompt_text + system[1]["text"]
+    directive_block, message_block = messages[-1]["content"]
+    assert directive_block["text"].startswith(DIRECTIVE_OPEN)
+    assert "This turn's private directive" in directive_block["text"]
+    assert "cache_control" not in directive_block
+    assert ask_text in message_block["text"]
 
 
 def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
@@ -587,10 +586,10 @@ def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
     system, messages = client.messages.captured_stream_calls[0]
     assert [m["role"] for m in messages] == ["user", "assistant", "user"]
     assert messages[0]["content"] == "who is jesus"
-    assert messages[1]["content"] == "He was God's own Word, come to us in flesh."
-    assert "and what then" in messages[2]["content"]  # this turn's own message, evidence block and all
-    # the world prompt is still the sole cached block, untouched by a
-    # growing conversation
+    assert messages[1]["content"] == [
+        {"type": "text", "text": "He was God's own Word, come to us in flesh.", "cache_control": {"type": "ephemeral"}}
+    ]
+    assert "and what then" in messages[2]["content"][-1]["text"]  # this turn's own message, evidence block and all
     assert system[0]["text"] == world.prompt_text
     assert system[0]["cache_control"] == {"type": "ephemeral"}
 
