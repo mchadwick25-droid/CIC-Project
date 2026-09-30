@@ -311,7 +311,7 @@ A century and a third later the same consciousness takes a different form: Augus
 
 **Second, the same fact appears at both ends with opposite sign.** 1A-2 (no legal standing) and 2B-3 (the shift to established) are one condition and its removal. **A matrix that lists them as unrelated entries would conceal the single most consequential difference between this world's two phases** — and Doc_04 declined to make that difference a gravity, so the forces analysis is the only place it is held whole.
 
-**Third, one force is registered with no cross-cell connection, and the reason is worth stating.** 2A-2, the plague, is registered as connecting to no other force; 1B-3, the inherited Latin vocabulary, also has no connection row and links only to G4. 2A-2 is not a weak entry: it is this world's clearest case of a pressure whose best-attested response is formation *content* rather than formation *structure*, and the Cross-Cell Connection Principle is better served by recording the undecided link than by manufacturing one.
+**Third, two forces are registered with no cross-cell connection, and the reason is worth stating.** 2A-2, the plague, is registered as connecting to no other force; 1B-3, the inherited Latin vocabulary, also has no connection row and links only to G4. 2A-2 is not a weak entry: it is this world's clearest case of a pressure whose best-attested response is formation *content* rather than formation *structure*, and the Cross-Cell Connection Principle is better served by recording the undecided link than by manufacturing one.
 
 ---
 

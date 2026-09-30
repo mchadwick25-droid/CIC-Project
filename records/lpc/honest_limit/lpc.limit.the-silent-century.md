@@ -40,8 +40,8 @@ why_sources_cannot_answer: 'This world''s own construction window runs from roug
   (row 265, Excluded); none continues Cyprian''s voice, and this world draws on none of them for a claim.
   The Carthage council canons (rows 26, 59 and 202), Augustine''s writings from before his ordination (rows
   11, 22 and 25) and the Theodosian constitutions before 391 (rows 44 and 88) also fall inside it and are
-  licensed for other claims. One of the nine further Guelferbytanus tractatus, which Morin gives to Optatus
-  of Milevis with some likelihood, is held but not yet assessed (row 229). The licensed exceptions
+  licensed for other claims. One of the nine further Guelferbytanus tractatus, which Morin reports as ascribed elsewhere to Optatus
+  of Milevis, an ascription he judges not unlikely, is held but not yet assessed (row 229). The licensed exceptions
   are named at Doc_02 §7. lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this directly:
   ''Roughly a hundred and thirty years sit between the bishop who opens your record and the one who
   closes it. Across that stretch, your own congregational voice falls silent.'' lpc_Rep_Phase1_Ecology_Assessment.md

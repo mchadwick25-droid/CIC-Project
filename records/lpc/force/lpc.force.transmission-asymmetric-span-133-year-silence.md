@@ -25,8 +25,8 @@ confidence:
     (row 265); none continues Cyprian''s voice, and this world draws on none of them for a claim. The Carthage
     council canons (rows 26, 59 and 202), Augustine''s writings from before his ordination (rows 11, 22
     and 25) and the Theodosian constitutions before 391 (rows 44 and 88) also fall inside it and are licensed
-    for other claims. The nine further Guelferbytanus tractatus (row 229), one of which Morin gives to Optatus
-    with some likelihood, are not yet assessed. Confessions V.8 (row 9) records an oratory in memory of Cyprian
+    for other claims. The nine further Guelferbytanus tractatus (row 229), one of which Morin reports as ascribed to Optatus
+    elsewhere, an ascription he judges not unlikely, are not yet assessed. Confessions V.8 (row 9) records an oratory in memory of Cyprian
     at Carthage about 383, which this record does not assess. The licensed exceptions are named at Doc_02
     §7. Layer 2''s own sentence on how the inheritance was received carries the Reported-Experience Status
     marker (Constitution Article 17; Forces Framework §3): reported as the world''s own self-understanding,
@@ -57,7 +57,8 @@ description: >-
   too. They are canons from Carthage councils, early writings of Augustine from before he was
   ordained, and laws of the Theodosian Code from before 391. We use them for other purposes, never to
   fill the gap. Two more groups are not yet assessed. One is nine sermons and tractates from a
-  Wolfenbüttel manuscript, and the editor Morin gives one of them, with some likelihood, to Optatus.
+  Wolfenbüttel manuscript, and the editor Morin reports that one of them is ascribed elsewhere to Optatus,
+  and he judges that not unlikely.
   The other is the oratory in memory of Cyprian at Carthage that Augustine's Confessions mention,
   about 383. This is a fact about the sources we have assessed, and it can be checked against our
   sources.
@@ -101,7 +102,7 @@ manifestations:
   inside the gap include Optatus of Milevis (rows 27, 64 and 264) and the appendix documents (row 265),
   drawn on for no claim; the council canons, Augustine's pre-ordination writings and pre-391 Theodosian
   constitutions also dated there are licensed for other claims (Doc_02 §7), and the nine Guelferbytanus
-  tractatus, one of which Morin gives to Optatus, are unassessed (row 229)
+  tractatus, one of which Morin reports as ascribed to Optatus elsewhere, are unassessed (row 229)
 - Augustine reading and arguing with Cyprian's own council acts and letters as a text to be weighed, not
   a custom handed on through teachers who knew him
 matrix_cell: 3B

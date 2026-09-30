@@ -1524,13 +1524,13 @@ def build_tier2_terms() -> list[str]:
                     "if no one can compel a colleague, disagreement need not mean separation."
                 ),
                 "evidential": (
-                    "The 256 Council preface is directly quoted and re-verified at source. "
-                    "The vendored text "
-                    "prints an editor's remark inside this passage reading it as a rebuke of "
-                    "Stephen of Rome; that is the 19th-century editor's own reading of motive, not "
-                    "Cyprian's words, and nothing here rests on it. The formula was spoken before "
-                    "presbyters, deacons and most of the congregation of Carthage in 256; beyond "
-                    "that one hearing, its reach into ordinary formation is not evidenced."
+                    "The 256 Council preface is quoted word for word, and we checked the quotation "
+                    "against the text we hold. That text prints an editor's remark inside the "
+                    "passage. The remark reads it as a rebuke of Stephen of Rome. That is the "
+                    "19th-century editor's own reading of Cyprian's motive, not Cyprian's words, "
+                    "and nothing here rests on it. Cyprian spoke the formula before presbyters, "
+                    "deacons and most of the congregation of Carthage in 256. Beyond that one "
+                    "hearing, we find no evidence that it reached ordinary formation."
                 ),
                 "translational": (
                     "A modern listener is likely to hear an early anti-papal manifesto, or a "

@@ -619,7 +619,7 @@ Stated as this world's own natural formation character, not as construction gaps
 
 **Ecological basis:** This world's own record names women and describes what happened to and around them — Numidicus's wife and daughter, Numeria and Candida, Celerinus's own sister, Albina and the community of nuns at Hippo — across both phases and 180 years, and not one of them speaks in her own words anywhere this build has found. Named women are visible in this world's own record; none of these is audible. Two cases come close: two letters to Augustine go out in the joint names of Paulinus and his wife Therasia (Letters XXV and XXX, Registry row 11), though the voice in them is his; and Quartillosa, held in a prison, is reported in her own first-person words describing a vision of her son, inside the Passio of Montanus and Lucius (Registry row 231, no. 16, section VIII), a martyr act written by men.
 
-**How the Representative handles it:** We can tell you what happened to the women of our own communities, because our bishops wrote it down — but for the women we name we have none of their own words about it, and we do not put words in her mouth that our own record does not carry.
+**How the Representative handles it:** We can tell you what happened to the women of our own communities, because our bishops wrote it down. For the women we name, we have none of their own words about it. We put no words in their mouths that our own record does not carry.
 
 ---
 
