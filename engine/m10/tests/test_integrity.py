@@ -33,14 +33,14 @@ def _checks(report):
 
 
 def test_a_world_that_meets_the_principle_passes(tmp_path):
-    reports = check_integrity("w", _clean_world(tmp_path))
+    reports = check_integrity("w", _clean_world(tmp_path), check_stale=False)
     assert all(r.ok for r in reports), [f.line() for r in reports for f in r.findings]
 
 
 def test_an_open_item_with_no_ledger_entry_fails(tmp_path):
     root = _clean_world(tmp_path)
     _write(root, f"{WORLD}/Doc_05_Ecology.md", "# Doc 5\n\n## Open items\n\n- Whether the eastern hymnal predates the schism at all.\n")
-    report = _by_name(check_integrity("w", root))["integrity open items"]
+    report = _by_name(check_integrity("w", root, check_stale=False))["integrity open items"]
     assert _checks(report) == ["i:gaps-unmatched"]
 
 
@@ -94,7 +94,7 @@ def test_notes_marked_superseded_are_not_read_for_counts(tmp_path):
 
 def test_a_fix_described_as_applied_but_absent_from_the_deployed_prompt_fails(tmp_path):
     root = _clean_world(tmp_path, prompt=_prompt(quotes=2))
-    report = _by_name(check_integrity("w", root))["integrity deployed artifact"]
+    report = _by_name(check_integrity("w", root, check_stale=False))["integrity deployed artifact"]
     assert _checks(report) == ["i:deployed:k:quote-index"]
 
 
@@ -104,7 +104,28 @@ def test_a_world_folder_that_does_not_exist_fails(tmp_path):
 
 def test_the_command_exits_by_the_findings(tmp_path, capsys):
     root = _clean_world(tmp_path)
-    assert cli.main(["integrity", "w", "--root", str(root)]) == 0
+    assert cli.main(["integrity", "w", "--no-stale", "--root", str(root)]) == 0
     _write(root, f"{WORLD}/Doc_02_Source_Ecology_OLD.md", "# earlier\n")
-    assert cli.main(["integrity", "w", "--root", str(root)]) == 1
+    assert cli.main(["integrity", "w", "--no-stale", "--root", str(root)]) == 1
     assert "i:superseded-unmarked" in capsys.readouterr().out
+
+
+def _stale(monkeypatch):
+    monkeypatch.setattr("engine.m2.checks.staleness_sweep", lambda registry, repo_root: {"w": {"stale": True, "diff": ["compiled/prompt.txt"]}})
+
+
+def test_the_stale_package_check_runs_by_default_and_names_the_repin_command(tmp_path, monkeypatch):
+    root = _clean_world(tmp_path)
+    _stale(monkeypatch)
+    report = _by_name(check_integrity("w", root))["integrity deployed artifact"]
+    assert _checks(report) == ["i:deployed:k:stale"]
+    assert "python -m engine.m2.cli build w" in report.findings[0].reason
+
+
+def test_no_stale_skips_the_recompile_as_it_does_for_deployed(tmp_path, monkeypatch, capsys):
+    root = _clean_world(tmp_path)
+    _stale(monkeypatch)
+    assert _checks(_by_name(check_integrity("w", root, check_stale=False))["integrity deployed artifact"]) == []
+    assert cli.main(["integrity", "w", "--root", str(root)]) == 1
+    assert "i:deployed:k:stale" in capsys.readouterr().out
+    assert cli.main(["integrity", "w", "--no-stale", "--root", str(root)]) == 0

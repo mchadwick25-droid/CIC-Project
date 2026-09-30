@@ -92,6 +92,21 @@ def test_a_cited_record_that_does_not_exist_is_unresolved_evidence(tmp_path):
     assert check_claims(CODE, tmp_path).findings == []
 
 
+def test_a_full_record_path_as_evidence_resolves_to_its_record_id(tmp_path):
+    record = "records/w/source/w.source.letter.md"
+    row = _row(CLAIM, status="VERIFIED", confidence="Documented", source=record, check="read it")
+    root = _world(tmp_path, CLAIM, rows=[row])
+    _write(root, record, "---\nid: w.source.letter\nrecord_type: source\n---\nbody\n")
+    assert check_claims(CODE, root).findings == []
+
+
+def test_a_full_record_path_to_a_file_that_does_not_exist_is_still_rejected(tmp_path):
+    row = _row(CLAIM, status="VERIFIED", confidence="Documented", source="records/w/source/w.source.gone.md", check="read it")
+    report = check_claims(CODE, _world(tmp_path, CLAIM, rows=[row]))
+    assert _checks(report) == ["c:evidence-unresolved"]
+    assert any("w.source.gone is not a record" in f.reason for f in report.findings)
+
+
 def test_a_row_naming_a_file_that_is_not_a_deliverable_fails(tmp_path):
     root = _world(tmp_path, CLAIM, rows=[_row(CLAIM, file="Doc_09_Gone.md")])
     assert _checks(check_claims(CODE, root)) == ["c:file-unresolved"]

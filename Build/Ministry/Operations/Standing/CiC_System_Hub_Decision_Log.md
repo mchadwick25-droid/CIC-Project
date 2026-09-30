@@ -5850,3 +5850,36 @@ Where it lives: `Build/reference/method/CiC_Pilot_Protocol_V2.0.md` (running ord
 command, grading, pilot report, stop rules). Templates:
 `Build/reference/L4-Templates/Pilot_Doc10_Blind_Grading_Sheet_Template.md` and
 `Build/reference/L4-Templates/Pilot_Report_Template.md`. Process V2.0 Sections 2, 3 and 11 point to it.
+
+## 2026-09-30 — Review cap counts every review file; shakedown of the V2.0 gate layer against the fixture world
+
+**Ruling (project lead, 2026-09-30): every review file on a document counts toward the cap of three.** A
+Review, a Recheck, a SpotCheck or any other review-type file counts as one, whatever its verdict.
+
+Alternatives considered:
+
+- A. Count distinct round numbers (the counter's earlier behaviour). Rejected. A Recheck or SpotCheck file
+  could be added without limit under an already-used round number, and the cap would stop capping.
+- B. Count every review file. Chosen. The count is what is on disk, and nothing can be added quietly.
+
+**Shakedown.** The V2.0 gate layer was run end to end against the fixture world. It found defects in the
+gates and mismatches between the gates and the V2.0 document, the launch prompt and the skills. Both were
+fixed on branch `claude/shakedown-fixes`.
+
+**Engine fixes.** The round counter counts review files, not distinct round numbers, and the re-baseline
+declaration and the handoff gate use the same count. `integrity` runs the stale-package check by default and
+takes a skip flag, as `deployed` does. `prereview` accepts `--doc 0` for Step 0, saves its output as the
+review brief, and fails when the document is missing. `regate` names each unchanged failing field on a "not a
+regression" line. The handoff gate checks that every corpus-map row carries a `row_id`. The locus check lists
+the valid loci when one is wrong. `holdings` runs for a new world before any records exist. The probe-results
+template was aligned with what `validation` reads.
+
+**Document fixes.** V2.0, the V2.0 launch prompt and the skills state the file-count cap in plain words,
+with the review-file naming convention, and no longer count distinct rounds. V2.0 Section 3 gains one table of
+per-world file names and the command that reads each. The `site_cli build` usage shows both required flags
+and where their values come from. The text now matches the code on the stale check in `integrity`, on
+`probes` and `validation` (an observed row per Part Eight category, and a `full` verdict exits 0), on
+`prereview`, on `regate`, on the fixture exemption in `deployed`, on plain-text loci (`line<N>`), on `holdings`
+for a new world, and on `row_id` and `shelf_row`. It also records the builder traps (the census entry
+already exists, the project lead sets `safety_adjacent`, the repin order, which gates take `--root`) and
+which commands are slow.

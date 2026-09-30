@@ -6,15 +6,18 @@ Exit code 0 is a pass, 1 a failure. Findings print one per line as
 from __future__ import annotations
 
 import argparse
+import contextlib
 import importlib
+import io
+import json
 import sys
 from pathlib import Path
 
 from .blind import blind, reveal
-from .common import REPO_ROOT, Report, emit
+from .common import REPO_ROOT, Report, emit, registry_entry, rel
 from .gaps import check_gaps
 from .handoff import Deps, run_handoff
-from .prereview import run_prereview
+from .prereview import git_head, brief_path, run_prereview
 from .rebaseline import draft_declaration
 from .reviewfile import check_review_file
 from .rounds import ROUTE_MESSAGE, check_rounds
@@ -48,12 +51,31 @@ def cmd_handoff(args: argparse.Namespace) -> int:
 
 
 def cmd_prereview(args: argparse.Namespace) -> int:
-    return emit(run_prereview(args.world_code, args.doc, args.root), as_json=args.json)
+    reports = run_prereview(args.world_code, args.doc, args.root)
+    captured = io.StringIO()
+    with contextlib.redirect_stdout(captured):
+        code = emit(reports, as_json=args.json)
+    output = captured.getvalue()
+    if registry_entry(args.world_code, args.root) is None:
+        print(output, end="")
+        return code
+    saved = brief_path(args.world_code, args.doc, args.root)
+    where = rel(saved, args.root)
+    saved.parent.mkdir(parents=True, exist_ok=True)
+    saved.write_text(f"prereview {args.world_code}" + ("" if args.doc is None else f" --doc {args.doc}") + f" at commit {git_head(args.root)[:12]}\n" + output, encoding="utf-8")
+    if args.json:
+        document = json.loads(output)
+        document["saved"] = where
+        print(json.dumps(document, indent=2))
+    else:
+        print(output, end="")
+        print(f"review brief saved: {where}")
+    return code
 
 
 def cmd_roundcount(args: argparse.Namespace) -> int:
-    findings, count = check_rounds(args.world_code, args.doc, args.root, check_new=args.check_new, new_round=args.round)
-    report = Report("roundcount", findings, [f"{count} review round(s) on record for doc {args.doc}"])
+    findings, count = check_rounds(args.world_code, args.doc, args.root, check_new=args.check_new)
+    report = Report("roundcount", findings, [f"{count} review file(s) on record for {'Step 0' if args.doc == 0 else f'Doc_{args.doc:02d}'}"])
     code = emit([report], as_json=args.json)
     if findings and not args.json:
         print(ROUTE_MESSAGE)
@@ -128,17 +150,16 @@ def main(argv: list[str] | None = None) -> int:
     _common_flags(p)
     p.set_defaults(func=cmd_handoff)
 
-    p = sub.add_parser("prereview", help="compile and gates, bar screen, cross-world check, holdings; stops at the first hard failure")
+    p = sub.add_parser("prereview", help="compile and gates, bar screen, cross-world check, holdings; stops at the first hard failure and saves the output as the review brief")
     p.add_argument("world_code")
-    p.add_argument("--doc", type=int)
+    p.add_argument("--doc", type=int, help="the document's number, 0 for Step 0; a missing document fails")
     _common_flags(p)
     p.set_defaults(func=cmd_prereview)
 
-    p = sub.add_parser("roundcount", help="count review rounds for a document; more than three routes to the project lead")
+    p = sub.add_parser("roundcount", help="count the review files of a document; more than three routes to the project lead")
     p.add_argument("world_code")
     p.add_argument("doc", type=int)
     p.add_argument("--check-new", action="store_true", help="run before writing a new round file")
-    p.add_argument("--round", type=int, help="with --check-new: the round number about to be written")
     _common_flags(p)
     p.set_defaults(func=cmd_roundcount)
 

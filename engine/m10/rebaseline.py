@@ -9,7 +9,7 @@ from datetime import date
 from pathlib import Path
 
 from .common import PLACEHOLDER, REPO_ROOT, Finding, markdown_tables, read_text, rel, world_dir
-from .rounds import ROUND_CAP, review_files
+from .rounds import ROUND_CAP, cap_message, clearance_message, latest_review, review_files
 from .verdicts import CLEARED, verdict_word
 
 CHECK_ID = "handoff-declaration"
@@ -54,17 +54,16 @@ def document_path(code: str, doc: int, root: Path = REPO_ROOT) -> Path | None:
 @dataclass(frozen=True)
 class State:
     files: int
-    rounds: int
-    latest_round: int
+    latest: str
     word: str
 
 
 def current_state(code: str, doc: int, root: Path = REPO_ROOT) -> State:
     found = review_files(code, doc, root)
     if not found:
-        return State(0, 0, 0, "none")
-    latest = max(found)
-    return State(sum(len(v) for v in found.values()), len(found), latest, verdict_word(found[latest]))
+        return State(0, "none", "none")
+    description, latest = latest_review(found)
+    return State(len(found), description, verdict_word(latest))
 
 
 @dataclass(frozen=True)
@@ -108,8 +107,8 @@ def _row_errors(code: str, row: Row, root: Path) -> list[str]:
         errors.append(f"{label}: the recorded state gives no 'review files: N' count")
     elif row.files != state.files:
         errors.append(f"{label}: the declaration records {row.files} review files and the disk has {state.files}; a review file added after the declaration is not accepted")
-    if row.check == CAP_CHECK and state.rounds <= ROUND_CAP:
-        errors.append(f"{label}: the document has {state.rounds} review rounds, within the cap of {ROUND_CAP}, so there is nothing to accept")
+    if row.check == CAP_CHECK and state.files <= ROUND_CAP:
+        errors.append(f"{label}: the document has {state.files} review files, within the cap of {ROUND_CAP}, so there is nothing to accept")
     if row.check == WORDING_CHECK:
         if row.verdict is None:
             errors.append(f"{label}: the recorded state gives no 'latest verdict: WORD'")
@@ -180,8 +179,8 @@ def accepted_reason(code: str, row: Row, root: Path, label: str | None = None) -
     state = current_state(code, row.doc, root)
     label = label or doc_label(row.doc)
     if row.check == CAP_CHECK:
-        return f"{label} took {state.rounds} review rounds; the cap is {ROUND_CAP}"
-    return f"latest review round {state.latest_round} of {label} does not say 'Approved to proceed'"
+        return cap_message(label, state.files)
+    return clearance_message(label, state.latest)
 
 
 def draft_declaration(code: str, root: Path = REPO_ROOT, today: date | None = None) -> str:
@@ -200,7 +199,7 @@ def draft_declaration(code: str, root: Path = REPO_ROOT, today: date | None = No
         if document_path(code, doc, root) is None:
             continue
         state = current_state(code, doc, root)
-        if state.rounds > ROUND_CAP:
+        if state.files > ROUND_CAP:
             lines.append(f"| {doc_label(doc)} | {CAP_CHECK} | review files: {state.files} | <reason> |")
         if state.word == CLEARED:
             lines.append(f"| {doc_label(doc)} | {WORDING_CHECK} | review files: {state.files}; latest verdict: {state.word} | <reason> |")
