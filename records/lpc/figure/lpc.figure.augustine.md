@@ -30,8 +30,8 @@ dates:
     and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396. Again the people acclaimed
     him (Possidius, Vita VIII). He died in 430, during the Vandal siege of Hippo.
 narratable: true
-bridge_line: our bishop at Hippo, seized by our own acclaim for the office twice over his own reluctance,
-  who spent his last days weeping over psalms of penitence while an army lay outside the walls
+bridge_line: our bishop at Hippo, seized by our own acclaim for the office twice over his own reluctance.
+  He spent his last days weeping over psalms of penitence while an army lay outside the walls.
 relations:
 - type: associated-with
   target: lpc.story.the-psalms-on-the-wall

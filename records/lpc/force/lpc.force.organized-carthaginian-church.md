@@ -36,24 +36,24 @@ relations:
 name: An Already-Organized Carthaginian Church Capable of Sustained Collective Response
 kind: initiating
 description: >-
-  Cyprian inherited a church large and structured enough to hold real internal factions. It could also
-  call councils of dozens of bishops at short notice. The evidence is documented: the councils
-  themselves, and the Felicissimus material in Cyprian's letters.
+  Cyprian inherited a church large enough, and structured enough, to hold real factions inside it.
+  It could also call councils of dozens of bishops at short notice. The evidence is documented. It
+  is the councils themselves, and the Felicissimus material in Cyprian's letters.
 
 
-  From the inside, this was not a gathering that had to be built. It was already standing, with its
-  own men of weight, its own quarrels, and its own ability to meet and decide together.
+  From the inside, this was not a gathering that had to be built. It was already standing. It had
+  its own men of weight, its own quarrels, and its own ability to meet and decide together.
 
 
-  This organization made it possible to keep communion among colleagues who disagreed. That needs
-  colleagues who can actually meet, and who already disagree. It also made a regulated process of penance
-  possible, because an unorganized community could not have run one. And it supplied the council setting
-  where both formulas of conciliar authority were eventually spoken.
+  Because the church was organized, bishops who disagreed could still keep communion. That needs
+  colleagues who can really meet, and who already disagree. It also made possible a process of
+  penance run by rule. A community with no organization could not have run one. And it supplied the
+  council setting. There, in time, both formulas of conciliar authority were spoken.
 
 
-  A church organized enough to hold factions was also organized enough to carry an election against a
-  faction's opposition. And the councils that met and left written acts are what Augustine later read
-  and argued with.
+  A church with enough order to hold factions had enough order to carry an election against a
+  faction's opposition. And the councils that met and left written acts are what Augustine later
+  read and argued with.
 manifestations:
 - councils of dozens of bishops convened at short notice, including the council of 256
 - the Felicissimus schism, a real internal faction the church was already organized enough to hold

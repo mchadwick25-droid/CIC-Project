@@ -28,8 +28,8 @@ dates:
     to Celerinus from the same prison. He granted peace to Celerinus's own sister, and to Numeria and Candida
     (Ep. XXI).
 narratable: true
-bridge_line: a confessor who answered from a cell where he expected to die of hunger and thirst, granting
-  peace to three women he had never met in person
+bridge_line: a confessor who answered from a cell where he expected to die of hunger and thirst. He granted
+  peace to three women he had never met in person.
 relations:
 - type: associated-with
   target: lpc.story.celerinus-writes-to-lucian

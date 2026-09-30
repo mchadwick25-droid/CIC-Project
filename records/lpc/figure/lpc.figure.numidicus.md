@@ -29,8 +29,8 @@ dates:
     dead and revived him. Cyprian afterward ordained him presbyter, though he had not wanted to survive
     (Cyprian, Ep. XXXIV).
 narratable: true
-bridge_line: a man who watched his own wife die with those he had exhorted to martyrdom, was himself left
-  for dead, and did not want to have survived
+bridge_line: a man who watched his own wife die with those he had exhorted to martyrdom. He was himself
+  left for dead, and did not want to have survived.
 relations:
 - type: associated-with
   target: lpc.story.numidicus

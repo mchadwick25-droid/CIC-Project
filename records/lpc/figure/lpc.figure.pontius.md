@@ -30,8 +30,8 @@ dates:
   floruit: Cyprian's own deacon, who was present with him at his banishment to Curubis. After his bishop's
     execution in 258, he wrote The Life and Passion of Cyprian, the first Christian biography.
 narratable: true
-bridge_line: our bishop's own deacon, who stayed with him through exile and wrote, after the execution,
-  the account by which most of what we remember of Cyprian's own life reaches us
+bridge_line: our bishop's own deacon, who stayed with him through exile. After the execution he wrote
+  the account by which most of what we remember of Cyprian's own life reaches us.
 relations:
 - type: associated-with
   target: lpc.story.election-of-cyprian

@@ -34,19 +34,19 @@ description: >-
   documented, including in the Acta Proconsularia.
 
 
-  The thing had not finished with them. The man who had spent seven years deciding
-  what to do with those who failed the first test was taken by the second. He did not fail it.
+  The thing had not finished with them. The man had spent seven years deciding what to do with those
+  who failed the first test. The second test took him. He did not fail it.
 
 
-  This persecution confirms two of the world's concerns rather than reshaping them: the pastoral office,
-  and the tension between confessors and bishops. It closes the first phase by showing what the
-  confessors' credential had been about. It shows this in the person of the bishop who had regulated the
-  lapsed. It also ends the first phase's written record. That is why penitential discipline and the
-  confessor tension are attested only within that phase.
+  This persecution confirms two of the world's concerns. It does not reshape them. They are the
+  pastoral office, and the tension between confessors and bishops. It closes the first phase by
+  showing what the confessors' credential had been about. It shows this in the person of the bishop
+  who had regulated the lapsed. It also ends the first phase's written record. That is why
+  penitential discipline and the confessor tension are attested only within that phase.
 
 
-  The Valerianic persecution repeats the Decian test on a community that has now built a discipline for
-  it.
+  The Valerianic persecution repeats the Decian test. It falls on a community that has now built a
+  discipline for it.
 manifestations:
 - Cyprian's own exile and martyrdom under Valerian in 258, recorded in the Acta Proconsularia
 matrix_cell: 2A

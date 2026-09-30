@@ -49,8 +49,10 @@ relations:
 - type: associated-with
   target: lpc.quote.infant-baptism-apostolical-authority
 positions:
-- Augustine names two of our practices as apostolic in origin, by name, not only by a
-  general conviction. Not rebaptizing someone already baptized among heretics is one. No one could find that this custom was invented later. He held that it is rightly believed to come down from the apostles.
+- Augustine names two of our practices as apostolic in origin. He names each one, and he does not rest
+  on a general conviction. One is not rebaptizing someone who was baptized among heretics. No one could
+  find that this custom was invented later. He held that it is rightly believed to come down from the
+  apostles.
 tensions:
 - Baptizing infants rests on the same kind of claim. Held everywhere, not instituted by any council, it
   too "is rightly held to have been handed down by apostolical authority." He does not claim a written

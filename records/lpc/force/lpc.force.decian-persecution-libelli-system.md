@@ -40,33 +40,34 @@ relations:
 name: The Decian Persecution and the *libelli* System (250)
 kind: initiating
 description: >-
-  The Decian persecution was the first empire-wide persecution to be systematically enforced. It worked
-  through certificates recording that the holder had sacrificed. It did not mainly demand that Christians
-  renounce their faith. It demanded a documented act of compliance. A person could obtain one by
-  performing the sacrifice, or by paying to have it recorded. This is documented in Cyprian's crisis
-  correspondence, which carries the higher citation grade (A), and in his De Lapsis, which carries the
-  lower grade (B).
+  The Decian persecution was the first empire-wide persecution to be systematically enforced. It
+  worked through certificates recording that the holder had sacrificed. It did not mainly demand
+  that Christians renounce their faith. It asked for a documented act of compliance. A person could
+  obtain one by making the sacrifice, or by paying to have it recorded. Cyprian's crisis
+  correspondence documents this, at the higher citation grade (A). His De Lapsis documents it too,
+  at the lower grade (B).
 
 
-  It was felt not so much as an attack from outside as a table emptied one certificate at a
-  time. The demand reached each person singly. It left the congregation sorted into those who had stood
-  and those who had not. Both groups still belonged, still in the room. Cyprian said that when the flock is wounded, the shepherd is the one wounded most.
+  It was felt not so much as an attack from outside as a table emptied one certificate at a time.
+  The demand reached each person singly. It left the congregation sorted into those who had stood
+  and those who had not. Both groups still belonged, still in the room. Cyprian said that when the
+  flock is wounded, the shepherd is the one wounded most.
 
 
-  This force created the category that the whole penitential system exists to process. There were no
-  lapsed before there was a certificate to obtain. There were no confessors with a claim on anything
-  before there was an interrogation to survive. So it produced two things at once. One was the ongoing
-  contest over members who had failed, and the discipline for restoring them. The other was the
-  confessors' rival claim to grant peace, which pushes against that discipline.
+  This force created the class of people that the whole penitential system exists to handle. There
+  were no lapsed before there was a certificate to obtain. There were no confessors with a claim on
+  anything before there was an interrogation to survive. So it made two things at once. One was the
+  ongoing contest over members who had failed, and the discipline for restoring them. The other was
+  the confessors' rival claim to grant peace, which pushes against that discipline.
 
 
-  It also sharpened the bishop's answerability, which becomes acute exactly when his people fail. And it
-  produced this world's densest crisis vocabulary: the lapsed, reconciliation, confessor, and the
+  It also made the bishop's answerability sharper. It grows acute just when his people fail. It also
+  made this world's densest crisis vocabulary: the lapsed, reconciliation, confessor, and the
   certificates of both kinds.
 
 
-  The later Valerianic persecution repeated this test. By then the community had built a discipline to
-  meet it.
+  The later Valerianic persecution repeated this test. By then the community had built a discipline
+  to meet it.
 manifestations:
 - 'the libelli: certificates recording that the holder had sacrificed, obtainable by performing the sacrifice
   or by paying to have it recorded'

@@ -47,8 +47,8 @@ positions:
   a separate rule we argue about. Leave it in place, and they are one conviction, seen from several sides.'
 - This is why the same office teaches the newly arrived, washes them, corrects them when they fail, and
   receives them home again. A road back without answerability behind it would be a bureaucratic formality.
-  A font without it would be a private transaction. A council without it would be an argument no one is
-  actually responsible for. Held together, they are what we actually are.
+  A font without it would be a private transaction. A council without it would be an argument that no
+  one answers for. Held together, they are what we actually are.
 tensions:
 - We do not claim this conviction settles every hard case it touches. The very font this answerability
   is supposed to serve, we have answered oppositely, twice, a century and a half apart, and we do not

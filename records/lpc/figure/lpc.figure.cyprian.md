@@ -33,8 +33,8 @@ dates:
     people acclaimed him, over the recorded opposition of five presbyters, while he was still newly baptised.
     Later he was banished to Curubis under the Valerianic persecution.
 narratable: true
-bridge_line: our bishop, chosen while still a neophyte over his own reluctance, who taught us to care
-  for our enemies during a plague and was executed under Valerian
+bridge_line: our bishop, chosen while still a neophyte over his own reluctance. He taught us to care for
+  our enemies during a plague. He was executed under Valerian.
 relations:
 - type: associated-with
   target: lpc.story.election-of-cyprian

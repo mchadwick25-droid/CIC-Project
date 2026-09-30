@@ -35,11 +35,12 @@ relations:
   target: lpc.story.the-death-of-cyprian
 - type: associated-with
   target: lpc.quote.trees-eyes-and-executioner
-claim: Pontius's own account of Cyprian's death (Life §§15-19) is properly classified by Construction
-  Framework V7.4's Tier 1 genus clause -- 'direct textual attestation... named author with identifiable
-  social location... datable with reasonable confidence' -- since Pontius meets every element of that
-  test as a named eyewitness deacon, and the Scriptural typology and providential framing are ornament
-  on a real, datable public execution rather than evidence the account itself cannot be trusted as testimony.
+claim: 'Pontius''s own account of Cyprian''s death (Life §§15-19) rightly belongs in Tier 1 of Construction
+  Framework V7.4. Its genus clause reads: ''direct textual attestation... named author with identifiable
+  social location... datable with reasonable confidence''. Pontius meets every part of that test. He is
+  a named deacon who saw it himself. The account also casts events as echoes of Scripture (typology).
+  It sees God''s plan in them (providential framing). Both are ornament. They sit on a real public execution
+  that we can date. Neither is proof that we cannot trust the account as a witness''s word.'
 held_against:
 - The account itself discloses its own patterning on Scripture as an authorial aside, not a reader's inference
   -- the Zacchaeus parallel ('that there might not even be wanting to him... what happened in the case

@@ -33,12 +33,12 @@ relations:
   target: lpc.term.compel-them-to-come-in
 - type: associated-with
   target: lpc.force.illegal-to-established-shift
-claim: Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter
-  XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier
-  in his own episcopate), and finally a sustained defence of compulsion already in force -- records a
-  genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective
-  self-presentation constructed after the fact to make an already-settled practice look like the outcome
-  of principled reconsideration.
+claim: Augustine's views on coercion developed in three phases. First, he held an early opinion against
+  any compulsion (Letter XCIII §17). Next, he made a narrow and unsuccessful request for legal protection
+  (Letter 185 §§25-26, earlier in his own time as bishop). Last, he gave a sustained defence of compulsion
+  that was already in force. All this records a genuine change of mind. It came from his pastoral experience
+  of the Donatist schism. It was not a story he told about himself in hindsight. Such a story would make
+  a settled practice look like the result of principled rethinking.
 held_against:
 - This world's own already-reviewed lexicon entry names, without adjudicating it, the live modern historiographical
   question of 'whether the three-phase development is a genuine change of mind or a retrospective self-presentation'

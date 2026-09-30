@@ -24,10 +24,11 @@ relations:
   target: lpc.term.grace
 - type: associated-with
   target: lpc.gravity.grace-and-human-incapacity
-claim: Augustine's own anti-Pelagian corpus accurately represents the position Pelagius himself held --
-  that a believer's own moral effort, unaided, is sufficient to obey what God commands -- and the later
-  Reformation-era and modern Catholic/Protestant use of this same controversy to stake out opposing positions
-  on grace and merit continues an argument whose terms Augustine himself correctly set.
+claim: Augustine's own anti-Pelagian writings show what Pelagius himself held. They show it as it was.
+  Pelagius held that a believer's own moral effort, with no help, is enough to obey what God commands.
+  Later Catholics and Protestants used this same dispute to take opposing sides on grace and merit. They
+  did so in the Reformation era and again today. Their use carries on an argument. Augustine himself set
+  its terms correctly.
 held_against:
 - This world's own build record names, without adjudicating it, a live modern scholarly reassessment of
   'whether the position we argue against is the one Pelagius himself actually held' (records/lpc/term/lpc.term.grace.md,

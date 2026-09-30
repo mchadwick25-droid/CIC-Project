@@ -28,8 +28,8 @@ dates:
     confessor in prison. He asked that his own sister and two other women be received back to communion
     (Ep. XX).
 narratable: true
-bridge_line: a confessor who did not write about his own suffering, but about his sister's, and asked
-  another confessor in prison to help restore her
+bridge_line: a confessor who did not write about his own suffering, but about his sister's. He asked another
+  confessor in prison to help restore her.
 relations:
 - type: associated-with
   target: lpc.story.celerinus-writes-to-lucian

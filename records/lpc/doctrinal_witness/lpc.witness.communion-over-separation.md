@@ -38,17 +38,17 @@ relations:
 - type: associated-with
   target: lpc.gravity.collegial-communion-preserved
 positions:
-- 'We can argue that a colleague''s own ruling was wrong, at real length, without ever placing him outside
-  our own table for having been wrong. One of us said it plainly, opening the very council that would
-  decide the sharpest question in the room: no bishop sets himself up as a bishop of bishops, and none
-  compels a colleague by force, since each has his own proper right of judgment. A century and a half
-  later, another of us argued at book length that the ruling reached that day was mistaken, and never
-  once suggested the man who reached it stood outside communion for it. Disagreement, in our own life,
-  is not a reason to separate. It is close to the opposite: separating over a disagreement is the one
-  thing we have organized our whole life never to do again.'
-- 'Underneath the disagreement sits a belief neither of us ever gave up: the one episcopate is undivided,
-  held whole by each bishop rather than parceled out between colleagues. That is exactly why disagreeing
-  with a piece of it never means stepping outside all of it.'
+- We can argue that a colleague's own ruling was wrong, at real length. We do not treat him as outside
+  our table for having been wrong. One of us said it plainly, opening the very council that would decide
+  the sharpest question in the room. No bishop sets himself up as a bishop of bishops. None compels a
+  colleague by force, since each has his own proper right of judgment. A century and a half later, another
+  of us argued at book length that the ruling reached that day was mistaken. He never once suggested that
+  the man who reached it stood outside communion for it. Disagreement, in our own life, is not a reason
+  to separate. It is close to the opposite. Separating over a disagreement is the one thing we have organized
+  our whole life never to do again.
+- Underneath the disagreement sits a belief that neither of us ever gave up. The one episcopate is undivided.
+  Each bishop holds all of it, and it is not parceled out between colleagues. That is exactly why disagreeing
+  with a piece of it never means stepping outside all of it.
 tensions:
 - We do not hold this rule because we have never broken it. We hold it because we already watched, in
   our own first years, what breaking it costs. A deacon's own faction opened a rival congregation while
@@ -56,17 +56,17 @@ tensions:
   a disputed election. Both were real separations, inside our own first phase, not a hypothetical this
   rule guards against in the abstract. The rule that disagreement must not become separation is the rule
   we adopted because we had already found out, from the inside, what separation actually does.
-text: 'We can argue that a colleague''s own ruling was wrong, at real length, and never once treat him
-  as outside our own table for having been wrong. One of our own voices said it plainly, opening the very
-  council that would decide the sharpest question in the room: no bishop sets himself up as a bishop of
-  bishops, and none compels a colleague by force, since every bishop has his own proper right of judgment.
+text: We can argue that a colleague's own ruling was wrong, at real length. We never once treat him as
+  outside our own table for having been wrong. One of our own voices said it plainly, opening the very
+  council that would decide the sharpest question in the room. No bishop sets himself up as a bishop of
+  bishops. None compels a colleague by force, since every bishop has his own proper right of judgment.
   A century and a half later, another of our own voices argued at book length that the ruling reached
-  that day was mistaken, and never once suggested the man who reached it stood outside our communion for
-  having reached it. Disagreement is not, for us, a reason to separate. It is close to the opposite: separating
-  over a disagreement is the one thing our own life has organized itself never to repeat, because we have
-  already watched what that costs. In our own first years, a deacon''s own faction opened a rival congregation
-  while our bishop was kept away in hiding, and in that same span a rival bishop was set up at Rome over
-  a disputed election. We do not pretend those separations never happened. We hold our rule against separation
-  because we already know, from our own record, what it costs when it breaks.'
+  that day was mistaken. He never once suggested that the man who reached it stood outside our communion
+  for having reached it. Disagreement is not, for us, a reason to separate. It is close to the opposite.
+  Separating over a disagreement is the one thing our own life has organized itself never to repeat. We
+  have already watched what that costs. In our own first years, a deacon's own faction opened a rival
+  congregation while our bishop was kept away in hiding. In that same span a rival bishop was set up at
+  Rome over a disputed election. We do not pretend those separations never happened. We hold our rule
+  against separation because we already know, from our own record, what it costs when it breaks.
 ---
 Re-derived from Doc_07_Integrated_Ecology_Analysis.md §2H (Boundary Structures), read in full this session, including its own Forces integration paragraph naming the Felicissimus schism and the roughly contemporaneous Novatianist rival consecration at Rome as 'both boundary failures of exactly the kind G3 exists to prevent, and both inside Cyprian's own phase.' Doc_06_Full_Lexicon_Development.md's own note that De Unitate was written 'amid the Felicissimus and Novatianist crises' grounds this record's own source citation directly. relations[] carries one gravity edge (G3, lpc.gravity.collegial-communion-preserved) named in this script's own docstring under RECIPROCITY.

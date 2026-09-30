@@ -40,33 +40,35 @@ relations:
 name: Congregational Acclamation Overriding a Reluctant Convert's Preference
 kind: initiating
 description: >-
-  Cyprian was a trained rhetorician who converted in middle life. Within roughly two to three years of
-  his conversion, the people of Carthage elected him bishop by acclamation. Five presbyters are recorded
-  as opposing him. He called it "your suffrage and God's judgment," set against a faction's "ancient
-  venom." A deacon who knew him described it from outside. By the judgment of God and the favour of the people, he wrote, Cyprian was chosen for the priesthood and the rank of bishop while still newly baptised.
+  Cyprian was a trained rhetorician who converted in middle life. Within roughly two to three years
+  of his conversion, the people of Carthage elected him bishop by acclamation. Five presbyters are
+  recorded as opposing him. He called it "your suffrage and God's judgment," set against a faction's
+  "ancient venom." A deacon who knew him described it from outside. The deacon wrote that, by the
+  judgment of God and the favour of the people, Cyprian was chosen for the priesthood and the rank
+  of bishop. He was still newly baptised.
 
 
-  The pattern recurs in the second phase, at both of Augustine's offices. In 391 he was seized into the
-  presbyterate at Hippo against his wishes. For the episcopate, Possidius's Vita, chapter VIII, records
-  the scene. Valerius announced his intention to the bishops present, the whole Hippo clergy, and all
-  the people. Those who heard rejoiced and clamoured eagerly for it. Augustine refused the episcopate
-  while his own bishop lived. Then, persuaded by precedent from overseas and from Africa, he yielded
-  under compulsion and constraint.
+  The pattern recurs in the second phase, at both of Augustine's offices. In 391 he was seized into
+  the presbyterate at Hippo against his wishes. For the episcopate, Possidius's Vita, chapter VIII,
+  records the scene. Valerius announced his intention to the bishops present, the whole Hippo
+  clergy, and all the people. Those who heard were glad and clamoured eagerly for it. Augustine
+  refused the office of bishop while his own bishop lived. He was persuaded by precedent from
+  overseas and from Africa. Then he yielded, under compulsion and constraint.
 
 
-  The evidence is documented. It comes from Cyprian's Epistle XXXIX, from Pontius, and from Possidius's
-  Vita, chapters IV and VIII.
+  The evidence is documented. It comes from Cyprian's Epistle XXXIX, from Pontius, and from
+  Possidius's Vita, chapters IV and VIII.
 
 
-  This force gives the pastoral office its two-way shape. A bishop answers to the people who placed him,
-  as well as for them. One caution is kept rather than smoothed over. The pattern is attested through
-  different people and in different words, not through one recurring term. But it appears at the same
+  This force gives the pastoral office its two-way shape. A bishop answers to the people who placed
+  him, as well as for them. We keep one caution rather than smooth it over. Different people attest
+  the pattern, in different words. No one recurring term carries it. But it appears at the same
   office in both phases.
 
 
-  Two conditions shaped it. An office with no legal protection is one a sensible man declines, so the
-  acclamation had to override reluctance. And a church organized enough to hold factions was organized
-  enough to elect a bishop over a faction's opposition.
+  Two conditions shaped it. An office with no legal protection is one a sensible man declines. So
+  the acclamation had to override reluctance. And a church with enough order to hold factions had
+  enough order to elect a bishop over a faction's opposition.
 manifestations:
 - '"your suffrage and God''s judgment" (Cyprian''s own words on his election)'
 - '"by the judgment of God and the favour of the people, he was chosen to the office of the priesthood

@@ -34,9 +34,9 @@ relations:
 - type: associated-with
   target: lpc.witness.almsgiving-quenches-sin
 positions:
-- Augustine wrote a whole treatise on marriage, answering those who thought praising
-  virginity meant condemning it. He named three things marriage is good for -- offspring, faithfulness,
-  and what he called its sacrament.
+- 'Augustine wrote a whole treatise on marriage. He wrote it against those who thought that praising virginity
+  meant condemning marriage. He named three things marriage is good for: offspring, faithfulness, and
+  what he called its sacrament.'
 tensions:
 - The third good is the one he presses hardest. A marriage compact is entered into as a kind of
   sacrament, he wrote, to such a degree that it is not undone even by separation itself -- so long as
