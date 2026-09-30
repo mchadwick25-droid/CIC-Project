@@ -874,3 +874,12 @@ documents, all dated) left unrewritten per the standing dated-history convention
 per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 
 **Path check:** 0 new unresolved, 1,040 total accepted.
+
+---
+
+## 2026-09-30 — Hussite and Bohemian Brethren Movement given the code `hus`
+
+**Context.** The world's Step 0 was cleared (Round 3) and the project lead asked for Steps 0–2 to be taken through.
+
+**Action.** `git mv Build/World-Builds/Hussite-and-Bohemian-Brethren-Movement` → `Build/worlds/hus`. Root `README.md` line for `Build/worlds/` now lists five not-yet-coded worlds. Nothing was added to `records/` or `packages/`; the code is not yet in `records/worlds.yaml`. `Build/World-Builds/Lollardy/Step0_Review_Round2.md` still cites the old path as dated history and is left unedited.
+
