@@ -1,7 +1,7 @@
 # Step 0 — Movement-Scope Confirmation: The Society of Jesus
 
-**Status:** DRAFT, Revision 3. Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`Build/worlds/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md`). See `Step0_Review_Round3.md`. **Reviewed at Revision 3 (final round under the three-round cap). The bounded correction the project lead authorized is applied; independent spot-check pending. Not yet approved to proceed.**
-**World file-code:** none assigned — not yet selected.
+**Status:** Approved to proceed (Step 0 only; not Frozen). Revision 3, after the bounded correction the project lead authorized and the independent spot-check of `Step0_Review_Round4_SpotCheck.md` (clear). Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`Build/worlds/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md`). See `Step0_Review_Round3.md`.
+**World file-code:** `jes`.
 **Census reference:** Atlas ID VI.11, `cic-website/data/world-census.json`, status "Pre-Survey Candidate."
 **Date drafted:** 2026-09-15.
 **Governed by:** Constitution V2.3 Article 4; `CiC_L3B_Step0_Movement_Scope_Methodology_V1.0.docx` Section A and Section B. Article 4's five commitments, quoted verbatim wherever this document must characterize one: (1) "One God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen." (2) "Jesus Christ as the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten not made, of one Being with the Father." (3) "Jesus Christ as truly human — incarnate of the Holy Spirit and the Virgin Mary, 'became truly human.'" (4) "Christ's death under Pontius Pilate, burial, bodily resurrection on the third day, ascension, and his return in glory to judge the living and the dead." (5) "The Holy Spirit as Lord and giver of life, worshiped and glorified together with the Father and the Son."
@@ -97,4 +97,4 @@ This document is checked against the live corpus-map and `REGISTRY.yaml` before 
 
 **Status: Approved to proceed** (Step 0 only; not Frozen), after the bounded correction and the independent spot-check of `Step0_Review_Round4_SpotCheck.md` (clear; 0 P0, 0 P1). See `Step0_Review_Round3.md` for the finding list and `Step0_Review_Round2.md` for the prior round.
 
-**Next step:** Doc_01, once the project lead assigns the world a file-code.
+**Next step:** Doc_01 (file-code `jes`).

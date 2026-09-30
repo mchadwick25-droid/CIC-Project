@@ -1,6 +1,6 @@
 # Open Gaps — The Society of Jesus
 
-Append-only ledger for this world's build. Entries are numbered and dated; a merged entry's number never changes. Cross-references cite subject and date, not a bare number. The world has no registry code yet, so the folder stays at `Build/World-Builds/Society-of-Jesus/`.
+Append-only ledger for this world's build. Entries are numbered and dated; a merged entry's number never changes. Cross-references cite subject and date, not a bare number. The world's file-code is `jes`.
 
 ---
 
