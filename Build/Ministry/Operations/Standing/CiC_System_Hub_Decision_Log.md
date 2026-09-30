@@ -5829,6 +5829,28 @@ metered-spend ceiling; whether `lpc` is a pilot world (Doc_10 drafted by both So
 
 Launch prompt: `Build/Ministry/Operations/Standing/Launch-Prompts/CiC_lpc_Build_Launch_Prompt_V2.0_2026-09-29.md`.
 
+## 2026-09-30 — Doc_10 Sonnet-versus-Fable test: decision rule C
+
+**Ruling (project lead, 2026-09-30): rule C.** In the pilot worlds, Sonnet 5.5's Doc_10 must clear the absolute
+bar in both worlds (all five Craft bar items (a) to (e) pass, zero fabrication, readability gates clear, in both
+grading passes) and must not be preferred against on Craft by both graders in a world. If Sonnet fails in either
+world, Fable stays for Doc_10 as well as Doc_04. If it passes in both, Fable is needed only for Doc_04. If Sonnet
+meets the bar and the drafts tie, Sonnet's draft continues.
+
+Alternatives considered:
+
+- A. Absolute bar only. Simple, but it can pass a draft that clears the checklist and is still plainly flatter
+  than Fable's.
+- B. Relative bar only. It catches "flatter", but it can pass a draft that fails a checklist item when Fable's
+  fails too.
+- C. Both. Chosen. Two worlds is a small sample. Dropping Fable saves allowance, but a weak voice costs every
+  later world.
+
+Where it lives: `Build/reference/method/CiC_Pilot_Protocol_V2.0.md` (running order, blinding by the `blind`
+command, grading, pilot report, stop rules). Templates:
+`Build/reference/L4-Templates/Pilot_Doc10_Blind_Grading_Sheet_Template.md` and
+`Build/reference/L4-Templates/Pilot_Report_Template.md`. Process V2.0 Sections 2, 3 and 11 point to it.
+
 ## 2026-09-30 — Library Access Gate CM-1: a stable `row_id` on every corpus-map row
 
 **Commissioned by the project lead, 2026-09-30.** Process V2.0 gives new worlds no waivers, and the M9
@@ -5854,3 +5876,72 @@ a repeat inside one bucket, and forbids one id naming two different works anywhe
 **Still out of scope.** CM-2 to CM-8 (`voice_of`, `PAIRS`, `locus_ids`, missing rows, `documented_exchange`).
 No world's records were touched, and no `shelf_row` was added to any existing source record; that is a
 separate per-world migration, each needing a repin.
+
+## 2026-09-30 — Review cap counts every review file; shakedown of the V2.0 gate layer against the fixture world
+
+**Ruling (project lead, 2026-09-30): every review file on a document counts toward the cap of three.** A
+Review, a Recheck, a SpotCheck or any other review-type file counts as one, whatever its verdict.
+
+Alternatives considered:
+
+- A. Count distinct round numbers (the counter's earlier behaviour). Rejected. A Recheck or SpotCheck file
+  could be added without limit under an already-used round number, and the cap would stop capping.
+- B. Count every review file. Chosen. The count is what is on disk, and nothing can be added quietly.
+
+**Shakedown.** The V2.0 gate layer was run end to end against the fixture world. It found defects in the
+gates and mismatches between the gates and the V2.0 document, the launch prompt and the skills. Both were
+fixed on branch `claude/shakedown-fixes`.
+
+**Engine fixes.** The round counter counts review files, not distinct round numbers, and the re-baseline
+declaration and the handoff gate use the same count. `integrity` runs the stale-package check by default and
+takes a skip flag, as `deployed` does. `prereview` accepts `--doc 0` for Step 0, saves its output as the
+review brief, and fails when the document is missing. `regate` names each unchanged failing field on a "not a
+regression" line. The handoff gate checks that every corpus-map row carries a `row_id`. The locus check lists
+the valid loci when one is wrong. `holdings` runs for a new world before any records exist. The probe-results
+template was aligned with what `validation` reads.
+
+**Document fixes.** V2.0, the V2.0 launch prompt and the skills state the file-count cap in plain words,
+with the review-file naming convention, and no longer count distinct rounds. V2.0 Section 3 gains one table of
+per-world file names and the command that reads each. The `site_cli build` usage shows both required flags
+and where their values come from. The text now matches the code on the stale check in `integrity`, on
+`probes` and `validation` (an observed row per Part Eight category, and a `full` verdict exits 0), on
+`prereview`, on `regate`, on the fixture exemption in `deployed`, on plain-text loci (`line<N>`), on `holdings`
+for a new world, and on `row_id` and `shelf_row`. It also records the builder traps (the census entry
+already exists, the project lead sets `safety_adjacent`, the repin order, which gates take `--root`) and
+which commands are slow.
+
+## 2026-09-30 - Round cap: a review ordered after an escalation does not count (change order to rule A)
+
+**Ruling (project lead, 2026-09-30): option A.** The cap of three exists to send a stuck document to the
+project lead. Once he has ruled on an escalated document, his ruling governs what follows. A review he orders
+after the escalation does not count toward the cap, when a decision-log entry headed "Cap ruling" names its
+file. Rule A of the same date is otherwise unchanged: every review file counts.
+
+Alternatives considered:
+
+- A. The cap ends at the escalation, and a review the project lead orders afterward is covered by his ruling.
+  Chosen. It matches how the cap already works, and it settles the conflict once for every world.
+- B. Rule A holds as written, with a one-time exception for `jes` Step 0. Rejected. Every later escalation
+  would raise the same question again.
+- C. Redo the closing step within the cap. Rejected. Review files are not deleted, so the count cannot go down.
+
+**Gate.** `roundcount`, the handoff gate (checks 2 to 4) and the re-baseline declaration read the entries
+headed "Cap ruling". A file named in one, in backticks, is not counted when three files already precede it in
+round order. A ruling covers only the files it names. It cannot excuse any of the first three.
+
+**Documents.** `CLAUDE.md`, V2.0 rule 11 and the V2.0 round-counter row state the exception.
+
+## 2026-09-30 - Cap ruling: jes Step 0
+
+Step 0 of `jes` (the Society of Jesus) reached the cap at Round 3 on 2026-09-25, with one substantial finding
+open: the institutional coverage window after 1556 was overstated. The project lead ruled option 1 of the Round
+3 disposition: a bounded spot-check of that one correction, not a new revision round. The spot-check is
+`Step0_Review_Round4_SpotCheck.md`. It returned Clear with 0 P0, 0 P1 and 2 P2. It is the only review this
+ruling covers.
+
+## 2026-09-30 - Round counter: the Cycle reset and the Cap ruling work together
+
+**Recorded at the merge of `main` into the branch that carries the Cycle reset.** Both rulings are the project lead's, and they apply together. The counter reads the review files of the current cycle: the first round, or the latest round whose file carries an earned `Cycle reset` header field. From those files it takes away the review files a "Cap ruling" entry names, once three counted files of the cycle precede the named one in round order. What is left is the count. Every file stays on record either way. A named file is excused only when three counted files of the cycle precede it.
+
+The engine (`engine/m10/rounds.py`, `reviewfile.py`, `handoff.py`, `rebaseline.py`), `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md` and the tests state the same rule. One test in `engine/m10/tests/test_rounds.py` runs both rules on one document.
+

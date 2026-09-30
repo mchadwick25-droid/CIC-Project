@@ -770,17 +770,14 @@ def test_cross_check_label_rewrites(tmp_path):
     assert "cross-check-label" in hits[0].patterns
 
 
-def test_bracketed_classification_tag_in_name_field_rewrites(tmp_path):
-    # Real, fleet-wide shape (confirmed live on alx/hal, the fleet's own
-    # exemplar worlds, not just un-re-voiced ones): engine/m4/
-    # citation_cards.py's own _short_name already strips this tag before a
-    # citation card shows it, but engine/m2/builders.py build_prompt()'s
-    # own Gravities-list line (`g.get('name')`) does not - the raw tag
-    # reaches the model's own prompt context unstripped every turn.
+def test_bracketed_classification_tag_in_name_field_is_not_flagged(tmp_path):
+    # Fleet-wide shape. engine.prose.strip_name_taxonomy_tag removes the tag
+    # both in engine/m4/citation_cards.py and in engine/m2/builders.py's
+    # Gravities list, so the name field's own tag never reaches a participant
+    # or the model. The same tag in any other line is still flagged.
     text = _gravity_record("Divine Pedagogy [SUPPORTING - explanatory framework]", "plain description text here.")
     hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
-    by_line = {h.line: h for h in hits}
-    assert "gravity-classification-label" in by_line[4].patterns
+    assert not [h for h in hits if h.line == 4]
 
 
 def test_confirmed_primary_classification_rewrites(tmp_path):
@@ -1022,8 +1019,8 @@ def test_real_fleet_true_positives_still_match_on_main():
     # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
     # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
     # not yet remediated in any world.
-    assert _new_pattern_hits("records/don/gravity/don.gravity.rebaptism-boundary-marking.md")
-    assert _new_pattern_hits("records/desert/gravity/desert.gravity.koinonia.md")
+    assert _new_pattern_hits("records/alx/gravity/alx.gravity.logos-unity.md")
+    assert _new_pattern_hits("records/alx/world_core/alx.core.alexandria.md")
     assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
 
 
@@ -1256,7 +1253,7 @@ def test_post_heading_content_fields_not_swept_into_metadata_block(tmp_path):
         "\n"
         "**World code:** `ex`.\n"
         "\n"
-        "**Temporal scope:** c. 312–451, a period its actors saw as unresolved.\n"
+        "**Temporal scope:** c. 312–451, a period whose dating is left unresolved here.\n"
         "\n"
         "**Builder:** the build thread.\n"
         "\n"
@@ -1461,7 +1458,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
     # file's lines by +7 above this point; re-pinned to the same
     # r27_regenerated assertion, now at 1131.
-    ("engine/m4/tests/test_turn.py", 1131, "REWRITE"),
+    ("engine/api/tests/test_app.py", 322, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1470,7 +1467,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # provenance was stripped, so it was deleted outright rather than
     # reworded - enforce.py now carries zero REWRITE hits. Re-pinned to a
     # fresh REWRITE example elsewhere.
-    ("records/cappadocian/gravity/cappadocian.gravity.athens-fishermen.md", 43, "REWRITE"),
+    ("records/alx/gravity/alx.gravity.logos-unity.md", 49, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 243, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 154, "PROTECTED"),
@@ -1519,8 +1516,8 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
-    ("engine/api/anon_cap.py", 5, "REWRITE"),
-    ("engine/api/anon_cap.py", 37, "REWRITE"),
+    ("engine/BASELINES.md", 10, "REWRITE"),
+    ("engine/BASELINES.md", 14, "REWRITE"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this "Date drafted:" header line was hand-labelled KEEP
     # under the old bare-date rule alone; it is now PROTECTED, the more
@@ -1686,6 +1683,14 @@ def test_source_registry_dates_are_kept_only_under_the_headers_of_their_own_tabl
     assert _registry_hits(tmp_path, "| 3 | Some Work | 2026-09-29 | open |", header=header).get(5) == "REWRITE"
 
 
+def test_a_registry_table_with_no_header_row_falls_back_to_the_short_cell_rule(tmp_path):
+    row = "| 3 | Some Work | checked | web search, 2026-09-28 |\n"
+    hits = _hits_for(row, tmp_path, "Build/worlds/jes/Source_Registry.md")
+    assert {h.category for h in hits} <= {"KEEP"}
+    header = "| # | Source | Notes | Status |\n|---|---|---|---|\n"
+    assert _registry_hits(tmp_path, "| 3 | Some Work | web search, 2026-09-28 | open |", header=header).get(5) == "REWRITE"
+
+
 def test_source_registry_exemption_needs_the_two_file_names(tmp_path):
     row = "| 3 | Some Work | checked | 2026-09-29 | WebSearch |"
     for name in ("Source_Registry_Notes.md", "Doc_02_Source_Ecology.md"):
@@ -1701,7 +1706,7 @@ def test_source_registry_exemption_is_iso_date_only(tmp_path):
 # Generated package manifests
 # ---------------------------------------------------------------------------
 
-_MANIFEST_WITH_PROCESS_WORD = '{"files":{"records/demonstration/w.demo.bagai-unresolved.md":"sha256:ab"}}\n'
+_MANIFEST_WITH_PROCESS_WORD = '{"files":{"records/demonstration/w.demo.dating.md":"sha256:ab"},"note":"open item on dating"}\n'
 
 
 def test_generated_package_manifest_is_not_scanned(tmp_path):
@@ -1717,3 +1722,213 @@ def test_same_text_elsewhere_in_packages_is_still_scanned(tmp_path):
 def test_a_manifest_outside_packages_is_still_scanned(tmp_path):
     hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "engine/manifest.json")
     assert [h.category for h in hits] == ["ROUTE"]
+
+
+# ---------------------------------------------------------------------------
+# The word "unresolved"
+# ---------------------------------------------------------------------------
+
+def test_unresolved_stating_a_real_uncertainty_is_not_commentary(tmp_path):
+    text = (
+        "Whether the death was murder remains genuinely unresolved in the historical record.\n"
+        "The two strands hold that tension, unresolved, across the whole span.\n"
+        "The dating of the letter is a live, unresolved scholarly dispute.\n"
+    )
+    assert _hits_for(text, tmp_path, "records/w/term/w.term.x.md") == []
+
+
+def test_unresolved_as_a_code_identifier_is_not_commentary(tmp_path):
+    text = (
+        "unresolved = [c for c in citations if c not in known_source_ids]\n"
+        "if unresolved:\n"
+        "    return findings\n"
+    )
+    assert _hits_for(text, tmp_path, "engine/m3/grading.py") == []
+
+
+def test_unresolved_with_an_authors_scope_or_timing_qualifier_is_still_flagged(tmp_path):
+    for phrase in ("Contested, and left unresolved here on purpose.",
+                   "The succession question is unresolved for now.",
+                   "The reading stays unresolved pending a ruling."):
+        hits = _hits_for(phrase + "\n", tmp_path, "records/w/term/w.term.x.md")
+        assert [h.category for h in hits] == ["ROUTE"], phrase
+
+
+
+# ---------------------------------------------------------------------------
+# "open question" and "still open"
+# ---------------------------------------------------------------------------
+
+def test_open_question_and_still_open_stating_a_real_uncertainty_are_not_commentary(tmp_path):
+    text = (
+        "The authorship of the treatise is a genuinely open question among scholars.\n"
+        "Whether the council met twice is still open in the sources.\n"
+    )
+    assert _hits_for(text, tmp_path, "records/w/term/w.term.x.md") == []
+
+
+def test_open_question_and_still_open_with_an_authors_scope_or_timing_qualifier_are_still_flagged(tmp_path):
+    for phrase in ("An open question for now, held until the source arrives.",
+                   "This stays an open question pending a ruling.",
+                   "The dating is still open for Mark.",
+                   "The attribution is still open here."):
+        hits = _hits_for(phrase + "\n", tmp_path, "records/w/term/w.term.x.md")
+        assert [h.category for h in hits] == ["ROUTE"], phrase
+
+
+def test_open_item_is_still_a_cue_on_its_own(tmp_path):
+    hits = _hits_for("One open item remains on the dating.\n", tmp_path, "records/w/term/w.term.x.md")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_the_engine_string_round_still_open_is_not_commentary(tmp_path):
+    text = 'raise HTTPException(status_code=409, detail="round still open - continue it before the next message")\n'
+    assert _hits_for(text, tmp_path, "engine/api/app.py") == []
+
+
+# ---------------------------------------------------------------------------
+# "at the gate"
+# ---------------------------------------------------------------------------
+
+def test_a_physical_gate_is_not_an_era_gate(tmp_path):
+    text = (
+        "The patriarch was hanged at the gate of his own residence in 1821.\n"
+        "He met a beggar at the gate of the city.\n"
+    )
+    assert _hits_for(text, tmp_path, "records/w/story/w.story.x.md") == []
+
+
+def test_an_era_gate_and_the_freeze_are_still_flagged(tmp_path):
+    for phrase in ("Checked at the Era 3 gate.", "Re-checked at the same gate.", "Held at that Freeze.", "Cleared at the Era 4 same gate.",
+                   "Its start was corrected at the gate from 330 to 451.", "The check was run at that gate and cleared."):
+        hits = _hits_for(phrase + "\n", tmp_path, "records/w/term/w.term.x.md")
+        assert [h.category for h in hits] == ["REWRITE"], phrase
+
+
+# ---------------------------------------------------------------------------
+# "opens round N"
+# ---------------------------------------------------------------------------
+
+def test_a_table_round_opening_is_not_a_review_round(tmp_path):
+    text = "# The round is committed - the next participant message opens round 2.\n"
+    hits = _hits_for(text, tmp_path, "engine/api/table_wiring.py")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_review_round_is_still_flagged(tmp_path):
+    hits = _hits_for("Fixed in round 2 of the review.\n", tmp_path, "records/w/term/w.term.x.md")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+# ---------------------------------------------------------------------------
+# Ruling-named identifiers in Python code
+# ---------------------------------------------------------------------------
+
+def test_a_ruling_named_identifier_in_python_code_is_not_commentary(tmp_path):
+    text = (
+        "result = run_turn(\n"
+        "    r27_enforce=True, known_tradition_names=[],\n"
+        ")\n"
+        'assert voice_event["attempts_meta"]["r27_regenerated"] is True\n'
+    )
+    assert _hits_for(text, tmp_path, "engine/m4/tests/test_turn.py") == []
+
+
+def test_a_ruling_named_identifier_in_a_python_comment_is_still_flagged(tmp_path):
+    hits = _hits_for("x = 1  # pass r27_enforce here because of the ruling\n", tmp_path, "engine/m4/turn.py")
+    assert [h.category for h in hits] == ["REWRITE"]
+    hits = _hits_for("# r27_enforce is set by the ruling\n", tmp_path, "engine/m4/turn.py")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+# ---------------------------------------------------------------------------
+# Taxonomy tags on gravity and force names
+# ---------------------------------------------------------------------------
+
+_FORCE_RECORD = (
+    "---\n"
+    "record_type: force\n"
+    "id: w.force.x\n"
+    "name: {name}\n"
+    "description: {description}\n"
+    "---\n"
+)
+
+
+def test_a_name_line_taxonomy_tag_is_not_commentary(tmp_path):
+    for name in ("Purity Movement [2A - ongoing/external]", "Divine Pedagogy [SUPPORTING - explanatory framework]",
+                 '"[TENSIONAL] Council-Led Civic Authority vs. Consistorial Independence"'):
+        text = _FORCE_RECORD.format(name=name, description="Plain words.")
+        hits = _hits_for(text, tmp_path, "records/w/force/w.force.x.md")
+        assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")], name
+
+
+def test_the_same_tag_in_a_body_line_is_still_flagged(tmp_path):
+    text = _FORCE_RECORD.format(name="Purity Movement [2A - ongoing/external]", description="Placed in [2A - ongoing/external] here.")
+    hits = _hits_for(text, tmp_path, "records/w/force/w.force.x.md")
+    assert [h.line for h in hits if h.category == "REWRITE"] == [5]
+
+
+# ---------------------------------------------------------------------------
+# Public status labels, file names with dates, Source Registry rows, acquisition manifests
+# ---------------------------------------------------------------------------
+
+def test_a_public_status_label_is_not_commentary(tmp_path):
+    text = '   "statusWord": "Creedal question — not yet resolved",\n'
+    assert _hits_for(text, tmp_path, "cic-website/atlas-v3.html") == []
+
+
+def test_the_same_words_in_prose_are_still_flagged(tmp_path):
+    hits = _hits_for("The dating is not yet resolved.\n", tmp_path, "records/w/term/w.term.x.md")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_a_date_inside_a_cited_file_name_is_not_a_dated_note(tmp_path):
+    text = "The run is in `engine/m4/reports/live-table-report-witt-rzg-2026-09-19.json`.\n"
+    assert not [h for h in _hits_for(text, tmp_path, "Build/worlds/w/w_Doc.md") if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_date_written_into_prose_is_still_flagged_next_to_a_file_name(tmp_path):
+    text = "Changed on 2026-09-19 in `live-table-report-2026-09-19.json`.\n"
+    hits = _hits_for(text, tmp_path, "records/w/term/w.term.x.md")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+_REGISTRY_ROW = "| 18 | *Ordonnances* (1735 printing) | P | A | Native | — | Closes G1 | Verified against the file | Set is complete | {date} |\n"
+
+
+def test_a_registry_row_date_cell_with_notes_is_provenance(tmp_path):
+    row = _REGISTRY_ROW.format(date="2026-09-25 (vendored); 2026-09-29 (added to this Registry)")
+    hits = _hits_for(row, tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_date_in_a_registry_notes_cell_is_still_flagged(tmp_path):
+    row = _REGISTRY_ROW.replace("Verified against the file", "Rights re-verified 2026-09-25 against the item")
+    hits = _hits_for(row.format(date="2026-09-25"), tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+def test_not_yet_acquired_is_a_status_value_in_a_registry_row(tmp_path):
+    row = "| 13 | Registers of the Consistory | P | D | Native | — | Not usable | NOT YET ACQUIRED, copyrighted | Open | 2026-09-15 |\n"
+    hits = _hits_for(row, tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_not_yet_acquired_in_registry_prose_is_still_flagged(tmp_path):
+    hits = _hits_for("Rows 13 and 15 remain Native but not yet acquired.\n", tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_another_cue_in_a_registry_row_is_still_flagged(tmp_path):
+    row = "| 24 | Letters | P | A | Native | — | x | a PD edition has not yet been located | Open | 2026-09-15 |\n"
+    hits = _hits_for(row, tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_a_source_acquisition_manifest_is_a_ledger(tmp_path):
+    text = "**G4. Beza's own works. PARTIALLY CLOSED, 2026-09-29.** Still open: the letters.\n"
+    hits = _hits_for(text, tmp_path, "Build/worlds/w/Source_Acquisition_Manifest.md")
+    assert hits and all(h.category == "PROTECTED" for h in hits)
+    hits = _hits_for(text, tmp_path, "Build/worlds/w/gallic_G1_Scope_and_Source_Acquisition_Manifest.md")
+    assert hits and all(h.category == "PROTECTED" for h in hits)

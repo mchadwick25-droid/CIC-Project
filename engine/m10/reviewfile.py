@@ -13,6 +13,8 @@ FIELD_REVIEWER_MODEL = "Reviewer model"
 FIELD_DRAFTER_MODEL = "Drafter model"
 FIELD_REVIEWER_AGENT = "Reviewer agent"
 FIELD_DRAFTER_AGENT = "Drafter agent"
+DRAFTER_WITHHELD = "withheld until the mapping is revealed"
+
 FIELD_ROUND = "Round"
 FIELD_TRUNCATION_METHOD_1 = "Truncation check, method 1"
 FIELD_TRUNCATION_METHOD_2 = "Truncation check, method 2"
@@ -44,6 +46,10 @@ def model_id(value: str) -> str | None:
 def _same_agent(a: str, b: str) -> bool:
     key = lambda v: re.sub(r"[\W_]+", "", v).lower()  # noqa: E731
     return key(a) == key(b)
+
+
+def _withheld(value: str | None) -> bool:
+    return value is not None and value.strip().rstrip(".").lower() == DRAFTER_WITHHELD
 
 
 def _canonical(line: str) -> str:
@@ -100,10 +106,13 @@ def check_review_file(path: Path, root: Path = REPO_ROOT) -> list[Finding]:
     reviewer, drafter = filled(FIELD_REVIEWER_MODEL), filled(FIELD_DRAFTER_MODEL)
     if reviewer and model_id(reviewer) != REVIEWER_MODEL_ID:
         bad("reviewfile-reviewer", f"reviewer model is {reviewer!r}; it must be {REVIEWER_MODEL_ID}")
-    if drafter and model_id(drafter) is None:
-        bad("reviewfile-drafter", f"drafter model {drafter!r} is not a recognized model name")
     reviewer_agent, drafter_agent = filled(FIELD_REVIEWER_AGENT), filled(FIELD_DRAFTER_AGENT)
-    if reviewer_agent and drafter_agent and _same_agent(reviewer_agent, drafter_agent):
+    model_withheld, agent_withheld = _withheld(drafter), _withheld(drafter_agent)
+    if drafter and drafter_agent and model_withheld != agent_withheld:
+        bad("reviewfile-drafter", "the drafter model and the drafter agent must both be withheld, or neither")
+    if drafter and not model_withheld and model_id(drafter) is None:
+        bad("reviewfile-drafter", f"drafter model {drafter!r} is not a recognized model name")
+    if reviewer_agent and drafter_agent and not agent_withheld and _same_agent(reviewer_agent, drafter_agent):
         bad("reviewfile-independence", "the reviewer agent and the drafter agent are the same; the reviewer is never the drafter")
 
     m1, m2 = values[FIELD_TRUNCATION_METHOD_1], values[FIELD_TRUNCATION_METHOD_2]

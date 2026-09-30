@@ -1,10 +1,10 @@
 """The one approved, sourced price table this codebase ships (spec
 principle 13: no $/token figure quoted onward until it's either measured
 on the billing provider or an explicit published-rate decision - see
-engine.m8.cost's own docstring). Extracted out of engine.m8.live_cost_run
-(2026-09-28) so a second caller - engine.api.wiring.get_usage_summary,
-the usage dashboard's cost figure - reuses the same approved numbers
-instead of a second hardcoded copy that could drift from this one.
+engine.m8.cost's own docstring). Shared by engine.m8.live_cost_run and
+engine.api.wiring.get_usage_summary (the usage dashboard's cost figure),
+so both use the same approved numbers instead of a second hardcoded copy
+that could drift from this one.
 
 Covers exactly the two models this deployment actually calls
 (engine.api.config's _DEFAULT_VOICE_MODEL_PATTERN /
@@ -17,7 +17,7 @@ from engine.m8.cost import PriceTable
 
 PRICE_TABLE_SOURCE = (
     "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, "
-    "fetched 2026-08-25); Bedrock's own pricing page was not independently fetchable in this "
+    "fetched August 2026); Bedrock's own pricing page was not independently fetchable in this "
     "environment (egress to aws.amazon.com blocked) - Bedrock has historically mirrored "
     "Anthropic's direct per-token rates for the same models, not independently re-verified here"
 )

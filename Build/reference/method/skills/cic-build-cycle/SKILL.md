@@ -1,6 +1,6 @@
 ---
 name: cic-build-cycle
-description: Use whenever building, continuing, reviewing, or approving a construction document for a "Church in Conversation" (CiC) formation-world build. Trigger on "build the next document," "run the build cycle," "continue the CiC build," "do Doc_01/Doc_02/World Identification/Source Ecology," or any reference to a formation world's construction sequence. Also trigger the moment a construction document has just been drafted, or a review result has come back and a decision is needed. Enforces one document at a time, review-gated, with a three-round cap.
+description: Use whenever building, continuing, reviewing, or approving a construction document for a "Church in Conversation" (CiC) formation-world build. Trigger on "build the next document," "run the build cycle," "continue the CiC build," "do Doc_01/Doc_02/World Identification/Source Ecology," or any reference to a formation world's construction sequence. Also trigger the moment a construction document has just been drafted, or a review result has come back and a decision is needed. Enforces one document at a time, review-gated, with a cap of three review files.
 ---
 
 # CiC build cycle (Process V2.0)
@@ -26,9 +26,10 @@ Zero fabrication anywhere: records, voice, probe documents, review files. The re
 
 - **Sonnet 5.5** drafts every document except Doc_04 and Doc_10. It also orchestrates and does mechanical work.
 - **Fable** drafts only Doc_04 (Gravity Discovery) and Doc_10 (Representative Construction Notes, Permanent Prompt, voice, demonstrations). Fable also diagnoses failures in Phase D.
+- **Pilot worlds.** Sonnet 5.5 and Fable each draft Doc_10, blind-graded by two Opus 5.5 passes. Sonnet keeps Doc_10 only if it clears the rule in `Build/reference/method/CiC_Pilot_Protocol_V2.0.md`.
 - **Opus 5.5** reviews every round, grades blind, and authors every `modern_rendering`. A separate Opus pass checks each rendering.
 - The reviewer is never the drafter.
-- Round 1 is Opus at high effort. Rounds 2 and 3 are targeted rechecks at medium effort.
+- The first review file is Opus at high effort. The second and third are targeted rechecks at medium effort.
 
 ## Where you are in the cycle
 
@@ -59,27 +60,33 @@ Produce exactly one document, the next in the confirmed sequence. Ground it in t
 Run these before Opus sees the work. Fix every failure first.
 
 ```
-python -m engine.m10.cli prereview <code> --doc N    # build, bar screen, cross-world, holdings
+python -m engine.m10.cli prereview <code> --doc N    # build, bar screen, cross-world, holdings;
+                                                     # saves the review brief; a missing document fails
 python -m engine.m10.cli citations <code>   # every record id and citation resolves, right type
 python -m engine.m10.cli claims <code>      # every absence or exclusivity claim registered; no stale entry
 python -m engine.m10.cli gaps <code>        # every open item has an Open_Gaps_Tracking.md entry
 python -m engine.m10.cli roundcount <code> N --check-new   # before any new review file is written;
-                                                           # a 4th file makes it exit non-zero, routes to Mark
-python -m engine.m10.cli reviewfile  # reviewer differs from drafter, model is Opus 5.5,
-                                     # simulated-review label, two-method truncation check
+                                                           # with 3 review files on record it exits
+                                                           # non-zero and routes to Mark
+python -m engine.m10.cli reviewfile <path>  # reviewer differs from drafter, model is Opus 5.5,
+                                            # simulated-review label, two-method truncation check
 python -m engine.m10.cli records <code>     # required record types built, not waived
 python -m engine.m10.cli regate <code>      # after any edit: readability and word budget re-run
 ```
 
-`N` is the document number (`0` for Step 0). Without `--check-new`, `roundcount` fails only once a fourth file exists, so run it with `--check-new` first.
+`N` is the document number (`0` for Step 0, for `prereview` and `roundcount` alike). `prereview` saves its output at `Build/worlds/<code>/build/<code>_Prereview_Doc<N>.txt`, and that file goes to the reviewer as the review brief. Without `--check-new`, `roundcount` fails only once a fourth file exists, so run it with `--check-new` first. The full file-name table is in Section 3 of the Process document.
 
-At handoff, `python -m engine.m10.cli handoff <code>` runs the 12 handoff checks and confirms Steps 0-2 exist and cleared review. Check 1 fails a new world until `safety_adjacent` on its registry entry is `true` or `false`. Mark sets it at handoff. At freeze, `python -m engine.m10.cli records <code> --freeze` requires the record types whatever the world's state. `python -m engine.m10.cli integrity <code>` checks open items, unmarked superseded files, stated record counts, and that `deployed` passes at the pinned package. The reviewer checks the three parts no script reads, and that each fix a document calls applied is found in the deployed artifact. At the deployed stage, `deployed` and `probes` check the compiled prompt (see the validation skill).
+At handoff, `python -m engine.m10.cli handoff <code>` runs the 12 handoff checks and confirms Steps 0-2 exist and cleared review. Check 1 fails a new world until `safety_adjacent` on its registry entry is `true` or `false`. Mark sets it at handoff. At freeze, `python -m engine.m10.cli records <code> --freeze` requires the record types whatever the world's state. `python -m engine.m10.cli integrity <code>` checks open items, unmarked superseded files, stated record counts, and that `deployed` passes at the pinned package, stale-package check included (`--no-stale` skips it). The reviewer checks the three parts no script reads, and that each fix a document calls applied is found in the deployed artifact. At the deployed stage, `deployed` and `probes` check the compiled prompt (see the validation skill).
 
 Readability (FK 8-10, FRE 60 or higher) is a mechanical gate on every public-facing field, re-run on every edited field. AI tells are a judgment read in the Opus review, against the approved sample record `records/syr/demonstration/syr.demo.room-for-doubt.md`. There is no banned-word list. Do not add one.
 
 ## Review
 
 An adversarial review, specific to the document, runs in an isolated session. It is saved as its own file beside the document, for example `Doc_05_Review_Round1.md`. A revision-log line that says what a review "found" is a summary, not the review. If the review file is not in the folder, the review did not happen.
+
+**Review-file names.** A review file is a `.md` file in the world folder or its `Review-Artifacts/` folder. Its name begins with the document's label (`Doc_NN`, or `Step0` for Step 0) and holds `Review`, `Recheck`, `SpotCheck`, `Check` or `Verification` as a whole name part. Name it `Doc_NN_<Topic>_<Kind>_Round<N>.md`, or `Step0_<Topic>_<Kind>_Round<N>.md` for Step 0. `<Kind>` is `Review`, `Recheck` or `SpotCheck`, and the topic words are optional. `N` is the file's place in the document's series: the first review file is 1, the next is 2, the last allowed is 3. The header's `Round:` field carries the same number, and `reviewfile` fails a mismatch. A file counts toward the cap even if its name has no `Round<N>` part.
+
+**Every review file counts toward the cap of three.** A Review, a Recheck, a SpotCheck or any other review-type file is one file, whatever its verdict. A recheck of a fix is not a free extra round. Run `roundcount <code> N --check-new` before writing any of them.
 
 - The first line of every agent-run review file is: "Simulated review — informational only, not an Article 31 substitute."
 - Record a truncation check using two independent methods in every review round.
@@ -93,9 +100,9 @@ An adversarial review, specific to the document, runs in an isolated session. It
 
 A revision is **substantial** if it changes a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary. It is **not substantial** if it is wording, tone, formatting, or a typo.
 
-- If substantial: revise, then review again. **At most three rounds of substantial revision per document.** A finding that the document could be stronger, with nothing wrong, unsupported, or misleading, is not substantial and starts no new round.
-- If the document has not cleared after the third round, that is an unresolved tension the pipeline cannot close alone. Stop and escalate to Mark with the third round's findings. Never start a fourth round. A revision made after the third round is not reviewed by a fourth file. `python -m engine.m10.cli roundcount <code> N --check-new` counts review files, whatever their verdict, and exits non-zero when a fourth would be written.
-- Rounds 2 and 3 are targeted rechecks of the prior findings and the diff, at medium effort.
+- If substantial: revise, then review again. A substantial revision needs a new review file, and **a document gets at most three review files in all.** A finding that the document could be stronger, with nothing wrong, unsupported, or misleading, is not substantial and starts no new review.
+- If the document has not cleared after its third review file, that is an unresolved tension the pipeline cannot close alone. Stop and escalate to Mark with the third file's findings. Never write a fourth file. A revision made after the third file is not reviewed by a fourth file. `python -m engine.m10.cli roundcount <code> N --check-new` counts every review file (Review, Recheck or SpotCheck), whatever its verdict, and exits non-zero when a fourth would be written.
+- The second and third review files are targeted rechecks of the prior findings and the diff, at medium effort.
 - If cosmetic only: apply it, note that it was applied, and move on.
 - If two reviews of the same document disagree, log the disagreement. Do not quietly side with the later one.
 

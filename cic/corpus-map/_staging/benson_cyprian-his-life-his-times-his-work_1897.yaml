@@ -5,12 +5,14 @@ assignments:
   - row_id: benson_cyprian-his-life-his-times-his-work_1897--cyprian-his-life-his-times-his-work-benson-1897
     work: "Cyprian: His Life, His Times, His Work (Benson, 1897)"
     author: benson
-    locus: "whole file; title page at file line 77; the contents entry for chapter IV, on De unitate, at file line 512"
+    locus: "whole file; title page at file line 25; the contents entry for chapter IV, on De unitate, at file line 471"
     atlas_ids:
       - latin-pastoral-congregational-christianity
     role: context
-    confidence: assigned
+    confidence: provisional
     note: >
       Modern (1897) English scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. A full-length biography of Cyprian by a sometime Archbishop of
       Canterbury, published after his death.
+      Confidence is provisional, the more cautious of the two values the two sides had given this row.
+      Registry row 226.

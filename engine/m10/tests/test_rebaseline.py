@@ -154,7 +154,7 @@ def test_a_declaration_row_for_a_later_document_is_accepted_and_shown(tmp_path):
         write(root, f"{BASE}/Doc_03_Review_Round{n}.md", review_text(n))
     _declare(root, [CAP, WORD, "| Doc_03 | review-round-cap | review files: 4 | earlier rules |\n"])
     reports = _run(root)
-    assert any("Doc_03 took 4 review rounds" in a for a in reports["handoff-declaration"].accepted)
+    assert any("Doc_03 has 4 review files" in a for a in reports["handoff-declaration"].accepted)
     assert not reports["handoff-declaration"].findings
 
 
@@ -178,3 +178,14 @@ def test_cli_prints_the_draft_without_writing(tmp_path, capsys):
     assert main(["handoff", CODE, "--draft-declaration", "--root", str(root)]) == 0
     assert "review-round-cap" in capsys.readouterr().out
     assert not declaration_path(CODE, root).exists()
+
+
+def test_review_files_sharing_a_round_number_all_count_in_the_declaration(tmp_path):
+    root = build_world(tmp_path)
+    for name in ("Doc_02_Recheck_Round1.md", "Doc_02_SpotCheck_Round1.md", "Doc_02_Independent_Check.md"):
+        write(root, f"{BASE}/{name}", review_text(1))
+    assert "| Doc_02 | review-round-cap | review files: 4 |" in draft_declaration(CODE, root)
+    _declare(root, ["| Doc_02 | review-round-cap | review files: 4 | earlier rules |\n"])
+    assert not _run(root)["handoff-declaration"].findings
+    _declare(root, ["| Doc_02 | review-round-cap | review files: 2 | earlier rules |\n"])
+    assert "the disk has 4" in " ".join(f.reason for f in _run(root)["handoff-declaration"].findings)

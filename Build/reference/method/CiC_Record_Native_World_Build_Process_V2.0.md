@@ -216,7 +216,7 @@ freeze.
 - Representative identity and title decisions (M1)
 - a cross-world or portfolio decision
 - a governance or methodology change not already decided in this document
-- an unresolved tension after three review rounds (Section 10)
+- an unresolved tension after three review files (Section 10)
 - a missing input the build cannot supply or derive itself
 - a budget number that would thin the work (Section 9)
 - Frozen status (M3)
@@ -234,27 +234,33 @@ The routing is pinned. It is not per-thread discretion.
 |---|---|---|
 | Drafting, orchestration, mechanical work | **Sonnet 5.5** (`claude-sonnet-5-5`) | Every document except Doc_04 and Doc_10. The Phase B conversion scripts. Package rebuilds. Ledger and state-file discipline. |
 | Key components | **Fable 5.1** (`claude-fable-5-1`) | Drafts Doc_04 (Gravity Discovery) and Doc_10 (Representative Construction Notes, Permanent Prompt, voice and demonstrations) only. Also diagnoses failures in Phase D. |
-| Review and grading | **Opus 5.5** (`claude-opus-5-5`) | Every review round. Blind grading. Deep source research and the M1 identity research. Authors every `modern_rendering`, and a separate Opus pass checks each one. |
+| Review and grading | **Opus 5.5** (`claude-opus-5-5`) | Every review file. Blind grading. Deep source research and the M1 identity research. Authors every `modern_rendering`, and a separate Opus pass checks each one. |
 | Mechanical steps below Sonnet | Script first, then Haiku 4.5 | Formatting, indexing, citation and log fixes. |
 
 **The reviewer is never the drafter.** Opus reviews Sonnet's drafts and
 Fable's drafts alike.
 
 **Pilot test for Fable.** In the pilot worlds (Section 11), Sonnet 5.5 and
-Fable each draft Doc_10. Opus 5.5 grades the two blind on Rigor,
-Accessibility, Craft and Focus. If Sonnet meets the Craft bar, Fable drops out
-of the fleet process. If it does not, Fable stays for Doc_04 and Doc_10 only.
-The grading goes in the cost ledger.
+Fable each draft Doc_10. Two Opus 5.5 passes grade the two drafts blind on
+Rigor, Accessibility, Craft and Focus. Sonnet's Doc_10 must clear the absolute
+bar in both pilot worlds: all five Craft bar items (a) to (e) pass, there is
+zero fabrication, and the readability gates clear, in both grading passes. It
+must also not be preferred against on Craft by both graders in a world. If
+Sonnet fails in either world, Fable stays for Doc_10 as well as Doc_04. If it
+passes in both, Fable is needed only for Doc_04. If Sonnet meets the bar and
+the drafts tie, Sonnet's draft continues. The grading goes in the cost ledger.
+The full comparison is in
+`Build/reference/method/CiC_Pilot_Protocol_V2.0.md`.
 
 **Effort per task.** Set effort explicitly. Claude Opus 5.5 defaults to
-`medium`. `high` is real, careful review and is the standing effort for round
-1. `xhigh` is reserved for a genuine reasoning-edge task, and never for "this
+`medium`. `high` is real, careful review and is the standing effort for the
+first review file. `xhigh` is reserved for a genuine reasoning-edge task, and never for "this
 document happens to come early."
 
 | Work | Model · effort |
 |---|---|
-| Round 1 adversarial review, every document | Opus 5.5 · high |
-| Targeted recheck, rounds 2–3 | Opus 5.5 · medium |
+| First adversarial review, every document | Opus 5.5 · high |
+| Targeted recheck, second and third review files | Opus 5.5 · medium |
 | Re-confirming a blocking finding | Opus 5.5 · high, fresh context; xhigh only if two reviews disagree |
 | Blind grading (Phase D) | Opus 5.5 · medium; high for probes in known hard-to-detect areas |
 | Deep source research, M1 identity research | Opus 5.5 · high |
@@ -291,28 +297,29 @@ true is the reviewer's main job.
 The commands are subcommands of `python -m engine.m10.cli <subcommand>`. The
 subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 `citations`, `claims`, `integrity`, `deployed`, `probes`, `validation`,
-`wiring`, `records` and `regate`. The World Profile generator is
+`wiring`, `records`, `regate` and `blind`. The World Profile generator is
 `python -m engine.m2.cli profile <code>`.
 
 | Check | What it is | When it runs | Command |
 |---|---|---|---|
-| Handoff verifier | Runs the 12 handoff checks of Section 4 and confirms Steps 0–2 exist and cleared review. For a world built before this process, it reads the project lead's re-baseline declaration and reports the accepted round-cap and verdict-wording items separately. | Start of the world, before Step 3. | `handoff <code>` |
-| Handoff quote check | Re-verifies every Step 0–2 quotation against the vendored text in `cic/texts/`, speaker included. It also runs the locus check (`quotes-locus`): a quotation whose paragraph carries a `cic:<file>:<locus>` address must lie inside the division that address names, and a locus that names no division is a finding. A quotation in a paragraph with no address is not checked for locus. | Same run. | `handoff <code>` |
-| Pre-review bundle | One command that runs `engine.m2.cli build`, `engine.m1.bar_screen`, `engine.m1.cross_world` and `engine.m9.cli holdings`, and saves the output for the review brief. | Before every review round. `--doc N` names the document by its number and only checks that its file exists. | `prereview <code> --doc N` |
+| Handoff verifier | Runs the 12 handoff checks of Section 4 and confirms Steps 0–2 exist and cleared review. The corpus-map check also confirms that every bucket row carries a `row_id`. For a world built before this process, it reads the project lead's re-baseline declaration and reports the accepted review-file-cap and verdict-wording items separately. It takes about a minute, because it builds the corpus index. | Start of the world, before Step 3. | `handoff <code>` |
+| Handoff quote check | Re-verifies every Step 0–2 quotation against the vendored text in `cic/texts/`, speaker included. It also runs the locus check (`quotes-locus`): a quotation whose paragraph carries a `cic:<file>:<locus>` address must lie inside the division that address names. In an XML edition the locus is a division's id or title. In a plain-text edition it is `line<N>`, the line number `corpus_index` prints for the passage. A locus that names no division is a finding, and the finding lists the valid loci of that file. A quotation in a paragraph with no address is not checked for locus. | Same run. | `handoff <code>` |
+| Pre-review bundle | One command that runs `engine.m2.cli build`, `engine.m1.bar_screen`, `engine.m1.cross_world` and `engine.m9.cli holdings`, and saves the output as the review brief at `Build/worlds/<code>/build/<code>_Prereview_Doc<N>.txt` (`_Prereview_Step0.txt` for Step 0). `holdings` runs for a new world before any records exist and reports empty. | Before every review file. `--doc N` names the document by its number, and `0` names Step 0. A document whose file is missing fails the command. | `prereview <code> --doc N` |
 | Citation resolver | Every record id and citation in a document or probe file resolves and is the right record type. | On every document and every probe file, before review. | `citations <code>` |
-| Round counter | Counts every review file with a round number for a document (a review, a spot-check or a recheck), whatever its verdict. `roundcount <code> N --check-new` is the guard that runs before any new review file is written. With three review files on record it exits non-zero and routes the document to Mark. `N` is the document number (`0` for Step 0). Without `--check-new`, the command fails only once a fourth file in the current cycle exists. The current cycle starts at the first round, or at the latest round whose file carries an earned `Cycle reset` header field (Section 4, Library-stage rules); every file stays on record. | Before every review file is written. | `roundcount <code> N --check-new` |
+| Round counter | Counts the review files of the current cycle on a document: a Review, a Recheck, a SpotCheck or any other review-type file, whatever its verdict. Each file is one of the three allowed. `roundcount <code> N --check-new` is the guard that runs before any new review file is written. With three review files on record it exits non-zero and routes the document to Mark. Rewriting an existing review file is blocked at three files too. The current cycle starts at the first round, or at the latest round whose file carries an earned `Cycle reset` header field (Section 4, Library-stage rules); every file stays on record. A review that a "Cap ruling" entry in the System Hub Decision Log names, and that comes after the first three files of the cycle, is not counted. `N` is the document number (`0` for Step 0). Without `--check-new`, the command fails only once a fourth counted file exists. | Before every review file is written. | `roundcount <code> N --check-new` |
 | Claims-register check | Derives every absence or exclusivity claim ("no source says...", "the only surviving source...") from a document's deliverables and compares it with the claims register. Halts on a claim that is not registered, on a register entry no claim supports, and on a register entry whose evidence no longer resolves. Registration is the control. It does not show a claim is true. | Before every review round on a document that carries claims (Section 4). | `claims <code>` |
 | Review-file check | The reviewer is not the drafter. The model is Opus 5.5. The first line carries the simulated-review label. A two-method truncation check is recorded. The optional `Cycle reset` field, when present, is not empty or a placeholder. | On every review file, before it counts. | `reviewfile <path>` |
 | Open-gaps check | Every open item in a review or phase document has an `Open_Gaps_Tracking.md` entry. | After every review file. | `gaps <code>` |
 | Process-narration block | The CI job `live-commentary` runs `tools/check_live_commentary.py --base origin/<base> --enforce`. A pull request that leaves process narration in a live or canonical file it edits fails. Files it does not edit are not scanned. | On every pull request. | CI |
-| Re-gate after edit | Re-runs readability and the word budget on every changed field and every public-facing field. Confirms a new world carries no waivers and grandfathering stays closed. Any exception needs an owning finding and Mark's approval. | After any edit. | `regate <code>` |
+| Re-gate after edit | Re-runs readability and the word budget on every changed field and every public-facing field. A new or edited field that fails makes the run fail. An unchanged field that already failed at the base is named on its own "not a regression" line and does not fail the run. It also confirms a new world carries no waivers and grandfathering stays closed. Any exception needs an owning finding and Mark's approval. | After any edit. | `regate <code>` |
 | Required-records check | The record types a new world requires are built, never waived: `world_front`, `facilitator_brief` and the site JSON, with the rest of the Completion Standard's Section A. Without `--freeze`, a world that is not yet admitted is not asked for these types. At freeze the world is still in state `built`, so the freeze run uses `--freeze`, which requires them whatever the state. | After every records edit: `records <code>`. At freeze: `records <code> --freeze`. | `records <code> --freeze` |
-| Deployed-artifact check | The compiled prompt contains every item Mark confirmed (living traditions, telos, self-reference hardening) and every rule count matches the records (for example, the count of `[quotation]` rules). It also checks the approved-source anchoring paragraph (Section 6, B-7): `voice_craft.source_anchor` is set, it stands verbatim as its own section of `compiled/prompt.txt`, and `voice_craft.source_anchor_entries` holds 5 to 10 distinct entries, each named in the paragraph. A world with no paragraph fails, except a grandfathered world, which gets a note. | After each package build or deploy. | `deployed <code>` |
-| Probe-runner guard | The probe runner refuses the legacy Permanent Prompt file and tests only `packages/<code>/<pin>/compiled/prompt.txt`. A probe-results file must name the pin it tested, and that pin must be the current pin. | Before and after every probe run. | `probes <code>` |
+| Deployed-artifact check | The compiled prompt contains every item Mark confirmed (living traditions, telos, self-reference hardening) and every rule count matches the records (for example, the count of `[quotation]` rules). It also checks the approved-source anchoring paragraph (Section 6, B-7): `voice_craft.source_anchor` is set, it stands verbatim as its own section of `compiled/prompt.txt`, and `voice_craft.source_anchor_entries` holds 5 to 10 distinct entries, each named in the paragraph. A world with no paragraph fails, except a grandfathered world, which gets a note. A fixture world (`kind: fixture` in its registry entry) is exempt from the source-anchor and self-reference checks, which is why `deployed` passes for it. A real world is never exempt. The command also recompiles the pinned package and compares it with its manifest. `--no-stale` skips that recompile. | After each package build or deploy. | `deployed <code>` |
+| Probe-runner guard | The probe runner refuses the legacy Permanent Prompt file and tests only `packages/<code>/<pin>/compiled/prompt.txt`. `probes` checks that every saved probe-results file names the pin it tested and that this pin is the current pin. `probes` also runs the guard on every path a results file names on a `Tested artifact` line, so a legacy or non-package path fails. Outside the repository, a package path needs its `manifest.json` beside `compiled/`. `probes <code> --runner-dry-run` also exercises the guard against the legacy files. | Before and after every probe run. | `probes <code>` |
 | Result-label check | Every probe result is labeled observed (with a transcript reference) or authored. An authored result cannot score PASS or FAIL. | Before and after every probe run. | `probes <code>` |
-| Grading check and trigger detector | Every answer is graded on all four criteria. RS-1 and RS-2 are scored separately. Detects the full-validation triggers (Section 8). A trigger the code cannot evaluate gives the verdict `undetermined` and a non-zero exit, never `lean`. It also checks that all eight Part Eight categories were run, that the Deep Interview carries its encounter-success grading, and that the results were run on the current package pin (a result for any other pin fails). | After the probe results are in. | `validation <code>` |
-| Record Integrity check | Reads the world at freeze against the Construction Framework's Record Integrity Principle (Section 8). It checks four parts by script: every open finding in an earlier document has an `Open_Gaps_Tracking.md` entry; no superseded or second live version of a document sits unmarked in the world folder; no Construction Notes file states a record count the records contradict; and `deployed` passes at the pinned package (confirmed items, rule counts, source anchor). Three parts stay with the reviewer (Section 8). | At freeze, before the freeze package goes to Mark. | `integrity <code>` |
+| Grading check and trigger detector | Every answer is graded on all four criteria. RS-1 and RS-2 are scored separately. Detects the full-validation triggers (Section 8) and prints `lean`, `full` or `undetermined`. A trigger the code cannot evaluate gives `undetermined` and a non-zero exit, never `lean`. A `full` verdict exits 0: it is a result to act on, not a failure. The command also checks that each of the eight Part Eight categories has an observed row, that the Deep Interview carries its encounter-success grading, and that the results were run on the current package pin (a result for any other pin fails). | After the probe results are in. | `validation <code>` |
+| Record Integrity check | Reads the world at freeze against the Construction Framework's Record Integrity Principle (Section 8). It checks four parts by script: every open finding in an earlier document has an `Open_Gaps_Tracking.md` entry; no superseded or second live version of a document sits unmarked in the world folder; no Construction Notes file states a record count the records contradict; and `deployed` passes at the pinned package (confirmed items, rule counts, source anchor). That includes the stale-package check, and `--no-stale` skips it, as it does for `deployed`. Three parts stay with the reviewer (Section 8). | At freeze, before the freeze package goes to Mark. | `integrity <code>` |
 | World Profile generator | Builds the World Profile as a view over the world's records (Section 5). The profile is not part of the compiled package. No check reads it, and `records` does not cover it. Its status line reads INCOMPLETE whenever a section is not carried by records. Section 4 (Ecological Summary) has no source records, so it reads INCOMPLETE until records carry it. | On demand: after every records edit that changes a source view, and at freeze. | `python -m engine.m2.cli profile <code>` |
+| Blind labeller | Assigns the labels A and B to the two Doc_10 drafts from a recorded seed. It scrubs drafter and model names from the header fields and fails if a name appears in body text. It writes `Doc_10_A.md`, `Doc_10_B.md` and a mapping file, and prints the mapping file's sha256 for the cost ledger. With `--reveal --mapping <file> --checksum <sha>` it checks the checksum and then prints the mapping. | In a pilot world, before Doc_10 grading (reveal only after grading). | `blind <code> --sonnet <path> --fable <path> [--seed S]` |
 | Facilitator handoff wiring check | Both the acute-distress route and the harmful-dynamic route fire, and the voice is never called on either. | At the Representative freeze. | `wiring <code>` |
 | Library validators | The CI job `library-validators` runs `cic/engine/corpus_map_merge.py --check`, `corpus_index.py --build`, `works_registry.py --check`, `author_ids.py --check` and `texts_registry.py`. | On a pull request that touches `cic/` or `engine/`. | CI |
 | World gates on drafts | The CI job `world-gates` runs `records` and `regate` for every world a pull request changes in `records/`. The `engine-tests` job also runs on a draft pull request that touches records, packages, engine or world build documents. | On every pull request, draft or not. | CI |
@@ -323,6 +330,73 @@ citations that do not resolve.
 Fix what a check finds before the round starts. If a check and a reviewer
 disagree, the reviewer reads the source and the disagreement is recorded in
 the world's `Open_Gaps_Tracking.md`.
+
+### Per-world file names
+
+The gates find files by name. A file with the wrong name is not found, and
+the gate then fails or reads nothing. This table is the single source for
+names. The templates in `Build/reference/L4-Templates/` stay the single source
+for what each file contains. In the table, `W` is `Build/worlds/<code>/`.
+
+| File | Name and place | Read by |
+|---|---|---|
+| Registry entry | `records/worlds/<code>.yaml` | `handoff`, `prereview`, `records`, `regate`, `deployed`, `validation`, `wiring`, `integrity` |
+| Step 0 | `W/Step0_Movement_Scope_Confirmation.md` | `handoff` (checks 2, 8, 11), `roundcount <code> 0`, `prereview --doc 0` |
+| Documents | `W/Doc_NN_<Title>.md`, with `NN` from 01 to 10 (`Doc_09a` to `Doc_09c` are allowed). Start the name with `Doc`, with no code in front. A name never holds `review`, `recheck`, `spotcheck`, `check`, `verification`, `round`, `history` or `superseded` as a word, because the gates take such a file for a review file or set it aside. | `handoff` (Doc_01, Doc_02), `roundcount`, `prereview --doc N`, `citations`, `claims`, `integrity` |
+| Source Registry | A file in `W` whose name holds `Source_Registry`, such as `W/<code>_Source_Registry.md`. The registry rows may also sit inside Doc_02. | `handoff` (checks 4, 8, 11) |
+| Review files | A `.md` file in `W` or `W/Review-Artifacts/` whose name begins with the document's label (`Doc_NN`, or `Step0` for Step 0) and holds `Review`, `Recheck`, `SpotCheck`, `Check` or `Verification` as a whole name part. Name it `W/Doc_NN_<Topic>_<Kind>_Round<N>.md`, with `<Kind>` one of `Review`, `Recheck` or `SpotCheck`, and `W/Step0_<Topic>_<Kind>_Round<N>.md` for Step 0. The topic words are optional. `N` is the file's place in that document's series (1, 2, then 3), and the `Round:` line in the header carries the same number. A file counts toward the cap of three even if its name has no `Round<N>` part. | `roundcount`, `handoff` (checks 2 to 4), `reviewfile <path>`, `gaps`, the re-baseline declaration |
+| Open gaps | `W/Open_Gaps_Tracking.md`. `gaps` reads every other `.md` file in `W` and `W/Review-Artifacts/` for open items. | `gaps`, `integrity`, `handoff` (checks 9, 10, 12) |
+| Claims register | `W/<code>_Claims_Register.md` | `claims` |
+| Chunk folders | `W/<Name>-Chunks/*.md` | `claims` |
+| Validation Layer | `W/<code>_Validation_Layer.md` | `citations`, `integrity` |
+| Construction Notes | A file whose name holds `Construction_Notes`, in `W` or in `W/Representative/` | `integrity` (stated counts) |
+| Identity options | `W/Representative/<code>_Representative_Identity_Options.md` | no command |
+| Probe results | Any `.md` or `.json` file under `W` whose name holds `phase5`, `phased`, `probe_result` or `validation_attestation`, such as `W/<code>_Probe_Results.md`, and holds none of `review`, `spotcheck`, `scoping` or `template`. Each observed row names a saved transcript by a path that resolves from the repository root or from the results file's folder. | `validation`, `probes`, `citations` |
+| Handoff manifest | `W/build/<code>_Handoff_Manifest.md` | `handoff` (check 12) |
+| Re-baseline declaration | `W/build/<code>_Rebaseline_Declaration.md` | `handoff` |
+| Pre-review brief | `W/build/<code>_Prereview_Doc<N>.txt`, and `W/build/<code>_Prereview_Step0.txt` for Step 0 | Written by `prereview`. The reviewer reads it. |
+| State file | `W/build/<code>_Build_State.yaml` | No command. Every new session reads it first. |
+| Cost ledger | `W/build/<code>_Cost_Ledger.md` | No command. |
+| Freeze package | `W/build/<code>_FREEZE_GATE_REPORT.md` and `W/build/<code>_FREEZE_DECLARATION.md` | No command. |
+| Source Readiness Dossier | `Build/worlds/_cross-world/dossiers/<census_id>_Source_Readiness_Dossier.md` | `handoff` (checks 4, 5, 9, 11) |
+| Corpus-map bucket | `cic/corpus-map/<census_id>.yaml` | `handoff` (checks 4, 6, 7), the shelf |
+| Earlier version of a file | Any file whose name holds `superseded`, `old`, `prior`, `previous`, `backup` or `bak` as a separate word. Move it to `Archive/`, or put the word "superseded" in its first 20 lines. | `integrity` |
+
+### Traps a builder meets
+
+- **The census entry already exists.** Every atlas movement has an entry in
+  `cic-website/data/world-census.json`. The registry entry's `census_id` must
+  equal that entry's `id`. No step in this process creates a census entry.
+- **The project lead sets `safety_adjacent`.** He sets it to `true` or `false`
+  in the registry entry at handoff. A builder never sets it.
+- **Copy `shelf_row`, never guess it.** `python -m engine.m9.cli shelf <code>
+  --stdout` prints the world's shelf. A source record's `shelf_row` is copied
+  from the shelf's row for that file. The Library issues the `row_id` of every
+  corpus-map row. A builder never invents one, and `handoff` fails a bucket
+  row that has none.
+- **Repin in this order after a records edit that changes the compiled
+  package.** A new or edited `world_front` or `facilitator_brief` does this, as
+  does any other record the compiler reads. First, edit the records. Second,
+  run `python -m engine.m2.cli build <code>`. It prints `package_id`,
+  `manifest_hash` and `location`. Third, copy `manifest_hash` and `location`
+  into the `package:` block of `records/worlds/<code>.yaml`. Fourth, if
+  `world_front` changed, rebuild the site JSON (Section 7). Fifth, run
+  `deployed <code>` and then `integrity <code>`. Until the third step is done,
+  both report the pin as stale. `engine.m2.cli build` needs no other flags:
+  with `--records-commit` and `--compiler-version` left out, it uses
+  `git rev-parse HEAD` for both. Probe results name the old pin, so re-run them
+  (Section 8).
+- **Nearly every gate takes `--root`.** All gates except `reviewfile` and
+  `wiring` take `--root <path>` to check another repository root. `reviewfile`
+  takes a file path, and `wiring` loads the pinned world from this checkout.
+  Two limits apply. The compile, bar-screen and cross-world steps of
+  `prereview` refuse a foreign root instead of reading the wrong tree, and
+  `deployed --root` cannot recompile a missing prompt for a foreign root.
+  Every gate takes `--json`.
+- **Some commands are slow.** Plan for them. `python -m engine.m2.cli
+  staleness-check` over the whole fleet takes about 4 minutes. `python -m
+  engine.m9.cli report <code>` takes about 2 minutes. `handoff` takes about 1
+  minute, because it builds the corpus index.
 
 ---
 
@@ -365,7 +439,7 @@ Step 2 also produces, for the build to work from:
   unusable
 - own-voice and opponent-voice flags wherever one work mixes them (a
   martyrology, a polemic, a trial record)
-- corpus-map rows with `row_id`, corrected `role` and `voice_of`
+- corpus-map rows with a Library-issued `row_id`, corrected `role` and `voice_of`
 - a holdings disposition for every item
 - a thin-evidence map, which feeds confidence levels and the admission probes
 - for each work, its edition and original language, and which text is primary
@@ -406,8 +480,9 @@ Step 2 also produces, for the build to work from:
   (`Approved to proceed`). Otherwise the reset is ignored, the full count
   stands, and a cap finding routes to the project lead with the reason. When
   honoured, rounds are counted from that file, which is the first round of
-  the new cycle; every file stays on record. Minor edits do not reset the
-  count.
+  the new cycle; every file stays on record. A review that a "Cap ruling"
+  entry names does not count once three files of the cycle precede it (rule
+  11). Minor edits do not reset the count.
 - **Quotations.** Quote only what matches a vendored file or a project
   document word for word. Cite `cic:<file>:<locus>` in the same paragraph, so
   the gate confirms the quotation inside the named division. Never put
@@ -527,15 +602,18 @@ thread stops and sends the world back to the source-research thread.
 5. **The Source Readiness Dossier** is at
    `Build/worlds/_cross-world/dossiers/<slug>_Source_Readiness_Dossier.md`.
 6. **The corpus-map assignments** are at `cic/corpus-map/<slug>.yaml`, and
-   `python cic/engine/corpus_map_merge.py --check` passes.
+   `python cic/engine/corpus_map_merge.py --check` passes. Every work row in
+   the bucket carries a `row_id`. The Library issues them, and a builder never
+   invents one.
 7. **The vendored texts** are in `cic/texts/`, each with a
    `cic/texts/REGISTRY.yaml` entry and verified rights. Every assigned work
    opens, and `python cic/engine/corpus_index.py --build` is clean.
 8. **Every quotation in Steps 0–2 is re-verified** word for word against the
    vendored file, speaker included. Where the quotation's paragraph cites a
    `cic:<file>:<locus>` address, the quotation must also lie inside that
-   division. A paragraph with no address is not checked for locus, so cite one
-   wherever a work has divisions. An opponent's paraphrase is never quoted
+   division. In a plain-text edition the locus is `line<N>`. A wrong locus is
+   reported with the valid loci of the file. A paragraph with no address is not
+   checked for locus, so cite one wherever a work has divisions. An opponent's paraphrase is never quoted
    as the subject's own words.
 9. **Open questions are carried forward, not decided.** Every cross-world
    question in the dossier sits in
@@ -557,7 +635,7 @@ handoff checks only what was left open. The declaration is one file,
 `Build/worlds/<code>/build/<code>_Rebaseline_Declaration.md`, in the format of
 `Build/reference/L4-Templates/Handoff_Rebaseline_Declaration_Template.md`.
 It can accept only two approval-history failures: a document with more than
-three review rounds, and a latest verdict worded "CLEARED" instead of
+three review files, and a latest verdict worded "CLEARED" instead of
 "Approved to proceed". It records the review-file count on disk, so a review
 file added later voids the acceptance. The gate reports each accepted item as
 `ACCEPTED (project lead declaration <date>)` and never accepts any other
@@ -918,7 +996,7 @@ scholarly reasoning out of a record body. Concretely:
   already in that file.
 
 **The scripted pass comes before review.** Before any review round on a Phase B
-step, run `prereview <code> --doc N` (Section 3), where `N` is the document number. It runs:
+step, run `prereview <code> --doc N` (Section 3), where `N` is the document number (`0` for Step 0). It runs:
 
 - `python -m engine.m2.cli build <code>`, which runs the full M1 gate battery,
   including quote-verbatim, quote-mark-fidelity, retrieval-negatives-structured,
@@ -928,13 +1006,13 @@ step, run `prereview <code> --doc N` (Section 3), where `N` is the document numb
   outside-help-guard observations
 - `python -m engine.m9.cli holdings <code>`, for any step that touches sources
 
-Attach the output to the review brief and fix what it finds first.
+The command saves its output as the review brief (Section 3, file names). Attach it to the reviewer's brief and fix what it finds first.
 
 ### The step sequence
 
 | Step | What | Bars built in |
 |---|---|---|
-| B-1 | Source rows from Doc_02's registry and the `<code>core001` `world_core` record | Mechanical if the registry followed the template. Every source record carries its corpus-map `shelf_row` (and so its role) at birth. Registry caveats carried verbatim as row licenses. The source's original language is stated in the row's `edition` field, because the schema has no `language` field (Section 13). Article-29 status carried provisional for M2. |
+| B-1 | Source rows from Doc_02's registry and the `<code>core001` `world_core` record | Mechanical if the registry followed the template. Every source record carries its corpus-map `shelf_row` (and so its role) at birth. The builder copies `shelf_row` from the world's shelf (`python -m engine.m9.cli shelf <code> --stdout`) and never guesses it. Registry caveats carried verbatim as row licenses. The source's original language is stated in the row's `edition` field, because the schema has no `language` field (Section 13). Article-29 status carried provisional for M2. |
 | B-1a | Discovery sweep | Read every planned citation surface. Row every genuine miss with real discovery data. Declared non-rows carry reasons. A `src<CODE>search001` sweep record holds a saturation statement and coverage limits. |
 | B-1b | Relative recall and PRESS | Ten-item independent recall test (fleet range 6/10 to 9/10; PAHC's 9/10 with zero miss rows is a clean sweep). The PRESS question is asked verbatim. Namings route to the pre-freeze re-sweep. |
 | B-2 | Mechanical lexicon split into term records | Born at alias_safety zero. The live gate (`gate_alias_safety`) fails a `false_friend` that exactly matches another term's `world_word`. Author aliases so none does. A generic alias (a common word that would light up in ordinary speech) is resolved at birth: route it to a gloss, or drop it. The gate reads exact collisions only, so the reviewer reads for generics too. A documented exception goes in the record body, because the schema has no field for it (Section 13). Coverage assertion: every source sentence lands in exactly one record. |
@@ -1018,8 +1096,13 @@ pinning and deployment.
 Required before admission:
 
 - the world's `world_front` and `facilitator_brief` records
-- its compiled site JSON (`python -m engine.m2.site_cli build <code>`, which
-  writes `cic-website/data/worlds/<census_id>.json`)
+- its compiled site JSON: `python -m engine.m2.site_cli build <code>
+  --records-commit "$(git rev-parse HEAD)" --compiler-version "$(git rev-parse
+  HEAD)"`. Both flags are required. Both values are the commit the JSON is
+  built from, and `engine.m2.cli build` uses the same `git rev-parse HEAD` for
+  both when its flags are left out. The command writes
+  `cic-website/data/worlds/<census_id>.json`. It needs the registry entry's
+  `census_id` and a `world_front` record.
 - its traditions page (`python Build/tools/generate_tradition_pages.py`)
 - its built package (`python -m engine.m2.cli build <code>`), with the
   manifest hash pinned in `records/worlds/<code>.yaml` and
@@ -1117,7 +1200,7 @@ new pin.
      Engagement by the Deep Interview. Relational Safety is met by the wiring
      check and the RS-1 and RS-2 rows. Parroting and pushback come on top, and
      so does one other-tradition first-ask probe. The `validation` command
-     fails a set in which any category has no row.
+     fails a set in which any category has no observed row.
    - The Ecology Assessment's thinness calibrates weight. Clean passes in
      known hard-to-detect domains stay provisional, not clean.
 2. **One live Deep Interview on `cic-engine-staging`.** The build thread
@@ -1210,7 +1293,9 @@ gravity has no `formation_confidence`, the world has no Primary gravity, or a
 graded row has no `yes` or `no` in the Fabrication column), the `validation`
 verdict is `undetermined` and the command exits non-zero. Validation stops
 until the missing value is supplied. A trigger the code cannot evaluate never
-counts as not fired.
+counts as not fired. A `full` verdict is a result to act on. The command exits
+0, and the build runs full validation. Only `undetermined` or a failed check
+exits non-zero.
 
 **A thread may raise the level and never lower it.** If the build judges lean
 too thin for this world's risks, it recommends full validation to the project
@@ -1290,8 +1375,8 @@ The script checks four things: open findings have a gaps entry, no superseded
 or second live version sits unmarked, no Construction Notes file states a
 record count the records contradict, and `deployed` passes at the pinned
 package. That last part covers the confirmed `world_core` items, the
-self-reference hardening, the quote and gravity indexes, the rule counts and
-the source anchor. It does not read what any document says was applied.
+self-reference hardening, the quote and gravity indexes, the rule counts, the
+source anchor and the stale-package check. It does not read what any document says was applied.
 Three parts of the Principle are reviewer checks, not script checks: a fix
 closes the earlier documents in the same change set; a reviewer's fix
 recommendation is executed, or deferred with a reason; and Construction Notes
@@ -1429,21 +1514,27 @@ no other file is needed to follow them.
 10. **Safety-regression and retrieval-regression rules.** Any step that touches
     the intercept chain or retrieval ends with the full rerun and diff against
     the committed baseline.
-11. **Round cap.** A document gets at most three rounds of substantial
-    revision. A revision is substantial if it changes a claim's substance, a
-    confidence rating, a sourcing conclusion or a scope boundary. A finding
-    that is wording, tone, format or a typo only is cosmetic. It may be
-    applied directly, without a new round. A finding that a document could be
-    stronger, with nothing in it wrong, unsupported or misleading, is not
-    substantial and does not start a new round. If a document has not cleared
-    review after its third review round, that is an unresolved tension the
-    pipeline cannot close on its own. Stop, and send it to Mark with the
-    third round's findings. Never start a fourth round. A revision made after
-    the third round is not reviewed by a fourth file. The `roundcount` command
-    counts review files, whatever their verdict, and blocks a fourth.
-12. **Who reviews.** Opus 5.5 reviews every round. Round 1 runs at high effort.
-    Rounds 2 and 3 are targeted rechecks at medium effort: only what changed,
-    against the prior findings. The reviewer is never the drafter.
+11. **Round cap.** Every review file on a document counts toward a cap of
+    three. A Review, a Recheck, a SpotCheck or any other review-type file is one
+    file, whatever its verdict and whatever it is called. Name each file
+    `Doc_NN_<Topic>_<Kind>_Round<N>.md`, where `<Kind>` is `Review`, `Recheck` or
+    `SpotCheck` and `N` is the file's place in the series: 1, 2, then 3 (Section
+    3 lists every name). A file counts even if its name has no `Round<N>` part. The count restarts only under the Cycle reset (Section 4, Round cap and new material). One exception: when a document has escalated to Mark at the cap and he orders a further review, that review does not count if a "Cap ruling" entry in the System Hub Decision Log names its file in backticks. The file must come after the three that reached the cap. The ruling covers only the files it names. A revision is substantial if it changes a claim's
+    substance, a confidence rating, a sourcing conclusion or a scope boundary.
+    A substantial revision needs a new review file. A finding that is wording,
+    tone, format or a typo only is cosmetic. It may be applied directly, without
+    a review file. A finding that a document could be stronger, with nothing in
+    it wrong, unsupported or misleading, is not substantial and does not start
+    a review. If a document has not cleared after its third review file, that is
+    an unresolved tension the pipeline cannot close on its own. Stop, and send
+    it to Mark with the third file's findings. Never write a fourth file. A
+    revision made after the third file is not reviewed by a fourth. The
+    `roundcount` command counts every review file, whatever its verdict, and
+    blocks a fourth.
+12. **Who reviews.** Opus 5.5 reviews every review file. The first runs at high
+    effort. The second and third are targeted rechecks at medium effort: only
+    what changed, against the prior findings. The reviewer is never the
+    drafter.
 13. **Record status.** See Section 6.
 14. **Registry first.** A world's registry entry (`records/worlds/<code>.yaml`)
     exists before any of its records reach `main`, so CI sees the world from
@@ -1496,6 +1587,11 @@ Two pilot worlds go first. One is well-sourced. One is thin-evidence, so the
 full-validation triggers get exercised. The pilot world choices are open: Mark
 names them, or the source-research thread proposes them.
 
+The running order, the blinded Doc_10 comparison, the pilot report and the
+stop rules are in `Build/reference/method/CiC_Pilot_Protocol_V2.0.md`. The
+grading sheet is
+`Build/reference/L4-Templates/Pilot_Doc10_Blind_Grading_Sheet_Template.md`.
+
 **Pilot exit.**
 
 - zero fabrication
@@ -1503,7 +1599,10 @@ names them, or the source-research thread proposes them.
 - no new waivers
 - allowance percent, metered spend and hours recorded per world, split into
   drafting, review and probes
-- the Doc_10 Sonnet-versus-Fable grading recorded (Section 2)
+- the Doc_10 Sonnet-versus-Fable grading recorded, and the decision made
+  under the rule in Section 2
+- the pilot report written from
+  `Build/reference/L4-Templates/Pilot_Report_Template.md`
 
 After the pilot, builds run steady at one world at a time. A cost-and-quality
 review follows after every five worlds. It includes a coach verification:

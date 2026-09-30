@@ -17,7 +17,7 @@ from .gaps import LEDGER_NAME
 from .matching import matched, split_chunks
 from .quotes import check_quotes
 from .rebaseline import CHECK_ID, Declaration, accepted_reason, declaration_path, doc_label, document_path, load_declaration
-from .rounds import ROUND_CAP, cycle_rounds, review_files, unhonoured
+from .rounds import ROUND_CAP, cap_message, clearance_message, counted_review_files, latest_review, review_files, unhonoured
 from .verdicts import has_clearance
 
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history|superseded", re.IGNORECASE)
@@ -54,12 +54,6 @@ def _run_corpus_index_build(root: Path) -> tuple[bool, str]:
         sys.path.pop(0)
 
 
-def _holdings(code: str) -> list[dict]:
-    from engine.m9.holdings import holdings_for
-
-    return holdings_for(code)
-
-
 def _commentary(root: Path, paths: list[Path]) -> list[tuple[str, int, str, str]]:
     sys.path.insert(0, str(REPO_ROOT / "tools"))
     try:
@@ -78,7 +72,7 @@ def _commentary(root: Path, paths: list[Path]) -> list[tuple[str, int, str, str]
 @dataclass
 class Deps:
     root: Path = REPO_ROOT
-    holdings: Callable[[str], list[dict]] = _holdings
+    holdings: Callable[[str], list[dict]] | None = None
     corpus_merge_check: Callable[[Path], tuple[bool, str]] = _run_corpus_merge_check
     corpus_index_build: Callable[[Path], tuple[bool, str]] = _run_corpus_index_build
     commentary: Callable[[Path, list[Path]], list[tuple[str, int, str, str]]] = _commentary
@@ -190,14 +184,14 @@ def _check_step(w: World, step: int, docs: dict[int, Path | None], check_id: str
     out: list[Finding] = []
     reviews = review_files(w.code, step, w.root)
     if not reviews:
-        out.append(Finding(rel(doc, w.root), check_id, f"{label} has no review-round file"))
+        out.append(Finding(rel(doc, w.root), check_id, f"{label} has no review file"))
         return out
-    counted = cycle_rounds(reviews, w.root)
+    counted = counted_review_files(w.code, step, w.root)
     if len(counted) > ROUND_CAP:
-        out.append(Finding(rel(doc, w.root), check_id, f"{label} took {len(counted)} review rounds; the cap is {ROUND_CAP}; route to project lead{unhonoured(reviews, w.root)}"))
-    latest = reviews[max(reviews)]
+        out.append(Finding(rel(doc, w.root), check_id, f"{cap_message(label, len(counted))}; route to project lead{unhonoured(reviews, w.root)}"))
+    description, latest = latest_review(reviews)
     if not has_clearance(latest):
-        out.append(Finding(rel(latest[0], w.root), check_id, f"latest review round {max(reviews)} of {label} does not say 'Approved to proceed'"))
+        out.append(Finding(rel(latest[0], w.root), check_id, clearance_message(label, description)))
     return out
 
 
@@ -262,7 +256,12 @@ def _check_04_holdings(w: World, docs: dict[int, Path | None], deps: Deps) -> li
     body = "\n".join(read_text(p) for p in ([doc] if doc else []) + registries)
     where = rel(registries[0] if registries else (doc or w.dir), w.root)
     try:
-        rows = deps.holdings(w.code)
+        if deps.holdings is not None:
+            rows = deps.holdings(w.code)
+        else:
+            from engine.m9.holdings import holdings_for
+
+            rows = holdings_for(w.code, w.root)
     except Exception as exc:  # noqa: BLE001
         return [Finding(where, "handoff-04-step2", f"holdings report could not run: {type(exc).__name__}: {exc}")]
     out = []
@@ -297,8 +296,12 @@ def _check_06(w: World, deps: Deps) -> list[Finding]:
         return [Finding(where, "handoff-06-corpus-map", "corpus-map bucket does not exist")]
     out = []
     doc = yaml.safe_load(read_text(path)) or {}
-    if not doc.get("works"):
+    works = doc.get("works") or []
+    if not works:
         out.append(Finding(where, "handoff-06-corpus-map", "bucket lists no works"))
+    unnumbered = [x for x in works if not str(x.get("row_id") or "").strip()]
+    if unnumbered:
+        out.append(Finding(where, "handoff-06-corpus-map", f"{len(unnumbered)} of {len(works)} rows in {where} carry no row_id; the Library owns the fix, it issues every row_id and a builder never invents one"))
     if doc.get("atlas_id") != w.slug:
         out.append(Finding(where, "handoff-06-corpus-map", f"bucket atlas_id is {doc.get('atlas_id')!r}, not {w.slug!r}"))
     ok, detail = deps.corpus_merge_check(w.root)

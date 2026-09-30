@@ -108,6 +108,33 @@ def test_06_bucket_missing_and_merge_check_failure(tmp_path):
     assert "handoff-06-corpus-map" in _failing(_run(root))
 
 
+def test_06_a_bucket_row_without_a_row_id_fails_and_names_the_library(tmp_path):
+    root = build_world(tmp_path)
+    bucket = root / f"cic/corpus-map/{SLUG}.yaml"
+    bucket.write_text(bucket.read_text().replace(f"- row_id: {SLUG}--test-volume-letters\n  work:", "- work:"))
+    report = _run(root)["handoff-06-corpus-map"]
+    (finding,) = report.findings
+    assert f"cic/corpus-map/{SLUG}.yaml" in finding.path and "1 of 1 rows" in finding.reason and "Library owns the fix" in finding.reason
+
+
+def test_04_a_new_world_with_a_registry_entry_and_no_records_directory_passes_the_holdings_check(tmp_path):
+    root = build_world(tmp_path)
+    registry = root / f"records/worlds/{CODE}.yaml"
+    registry.write_text(registry.read_text() + "time_window: {start: 9000, end: 9100}\n")
+    assert not (root / "records" / CODE).exists()
+    deps = quiet_deps(root)
+    deps.holdings = None
+    assert _run(root, deps)["handoff-04-step2"].findings == []
+
+
+def test_04_holdings_that_cannot_run_name_the_registry_file_and_field(tmp_path):
+    root = build_world(tmp_path)
+    deps = quiet_deps(root)
+    deps.holdings = None
+    (finding,) = _run(root, deps)["handoff-04-step2"].findings
+    assert f"records/worlds/{CODE}.yaml has no time_window" in finding.reason
+
+
 def test_07_text_not_vendored_unregistered_or_without_rights(tmp_path):
     root = build_world(tmp_path)
     (root / "cic/texts/REGISTRY.yaml").write_text("[]\n", encoding="utf-8")

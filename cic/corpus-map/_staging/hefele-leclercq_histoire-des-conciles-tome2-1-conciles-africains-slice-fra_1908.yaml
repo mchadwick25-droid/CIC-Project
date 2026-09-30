@@ -1,0 +1,13 @@
+source_file: hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt
+
+assignments:
+  - row_id: hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908--hefele-and-leclercq-histoire-des-conciles-tome-2-part-1-the
+    work: "Hefele and Leclercq, Histoire des conciles, tome 2 part 1: the African councils (1908, slice)"
+    author: hefele-leclercq
+    locus: "sections 105-126; item lines 3676-11965"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern French account of the African councils. Registry row 247.

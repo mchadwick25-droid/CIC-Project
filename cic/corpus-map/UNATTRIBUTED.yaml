@@ -11,6 +11,11 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  acta-cypriani:
+    kind: anonymous
+    evidence: Gebhardt prints "Acta S. Cypriani episcopi et martyris" (XI) as an anonymous
+      acts text; file line 6038.
+    from_file: acta-martyrum-selecta_gebhardt1902.txt
   acts-of-andrew:
     kind: anonymous
     evidence: div2 7.29 (Acts and Martyrdom of Andrew); no authorial claim.
@@ -382,6 +387,16 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  council-of-carthage-aurelius:
+    kind: anonymous
+    evidence: Mansi tom. 3 prints the synod of Aurelius as a council text (file line 86419);
+      no individual author is named.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
+  council-of-carthage-i:
+    kind: anonymous
+    evidence: Mansi tom. 3 prints "Carthage I sub Grato" as a council text (file line 12680);
+      no individual author is named.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
   council-of-carthage-under-cyprian:
     kind: anonymous
     evidence: 'div2 title "The Council of Carthage held under Cyprian." under div1 15; no
@@ -439,6 +454,11 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  council-of-hippo:
+    kind: anonymous
+    evidence: Mansi tom. 3 prints "Hippo II" as a council text (file line 82431); no individual
+      author is named.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
   council-of-neocaesarea:
     kind: anonymous
     evidence: 'div2 title "The Council of Neocaesarea." under div1 8; no DC.Creator in the
@@ -585,6 +605,11 @@ authors:
       DELIBERATELY NOT the existing slug `gennadius`, which is Gennadius of MARSEILLES, who
       continued Jerome's catalogue - a different man.
     from_file: npnf214_seven-ecumenical-councils.xml
+  gesta-collationis-carthaginensis:
+    kind: anonymous
+    evidence: Mansi tom. 4 prints "Gesta collationis Carthaginensis" at file line 1382; a
+      court transcript with named speakers, no single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
   gospel-of-nativity-of-mary:
     kind: anonymous
     evidence: 'div2 7.6; a Latin reworking of the Protevangelium material transmitted without
@@ -899,6 +924,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  passio-mariani-et-iacobi:
+    kind: anonymous
+    evidence: Gebhardt prints "Passio SS. Mariani et Iacobi" (XIII) with no named author;
+      file line 6377.
+    from_file: acta-martyrum-selecta_gebhardt1902.txt
+  passio-montani-et-lucii:
+    kind: anonymous
+    evidence: Gebhardt prints "Passio SS. Montani et Lucii" (XIV) with no named author; file
+      line 6970.
+    from_file: acta-martyrum-selecta_gebhardt1902.txt
   passion-of-marianus-and-jacobus:
     kind: anonymous
     evidence: 'Collection no. 15 is headed ''Martyrium des Marianus und Jakobus'' in the volume''s

@@ -1,0 +1,55 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
+
+authors_ruled:
+  council-of-carthage-i:
+    kind: anonymous
+    evidence: 'Mansi tom. 3 prints "Carthage I sub Grato" as a council text (file line 12680); no individual author is named.'
+  council-of-hippo:
+    kind: anonymous
+    evidence: 'Mansi tom. 3 prints "Hippo II" as a council text (file line 82431); no individual author is named.'
+  council-of-carthage-aurelius:
+    kind: anonymous
+    evidence: 'Mansi tom. 3 prints the synod of Aurelius as a council text (file line 86419); no individual author is named.'
+
+assignments:
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--carthage-i-sub-grato-in-mansi-tom-3
+    work: "Carthage I sub Grato, in Mansi tom. 3"
+    author: council-of-carthage-i
+    locus: "file line 12680"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      African council recorded in Mansi 3. Registry row 228.
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--codex-canonum-ecclesiae-africanae-in-mansi-tom-3
+    work: "Codex canonum Ecclesiae Africanae, in Mansi tom. 3"
+    author: council-of-carthage-419
+    locus: "file line 69478"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Second Latin witness to the Code of Canons of the African Church already in the map from
+      Bruns (Registry rows 26 and 202). Registry row 228.
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--council-of-hippo-ii-in-mansi-tom-3
+    work: "Council of Hippo II, in Mansi tom. 3"
+    author: council-of-hippo
+    locus: "file line 82431"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      African council recorded in Mansi 3. Registry row 228.
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--aurelius-s-carthage-synod-in-mansi-tom-3
+    work: "Aurelius's Carthage synod, in Mansi tom. 3"
+    author: council-of-carthage-aurelius
+    locus: "file line 86419"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      African council recorded in Mansi 3. Registry row 228.

@@ -150,6 +150,8 @@ services:
       # its own registry comment always required.
       - key: CIC_ENFORCE_ADMISSION
         value: "1"
+      - key: CIC_SELF_REVISION
+        value: "0"
       - key: AWS_ACCESS_KEY_ID
         sync: false
       - key: AWS_SECRET_ACCESS_KEY
@@ -226,6 +228,8 @@ services:
       - key: CIC_API_USAGE_DB
         value: /data/cic_api_usage.db
       - key: CIC_ENFORCE_ADMISSION
+        value: "0"
+      - key: CIC_SELF_REVISION
         value: "0"
       # Read-aloud step 1/2 (Build/Ministry/Technology/CiC_ReadAloud_Step1_
       # Design_Note.md), staging only, for a real-browser listen-through - cic-engine

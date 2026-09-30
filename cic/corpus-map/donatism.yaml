@@ -70,11 +70,24 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- row_id: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43--augustine-s-anti-donatist-works-maurist-text-migne-pl-43
+  work: 'Augustine''s anti-Donatist works (Maurist text, Migne PL 43): Breviculus collationis,
+    Ad Donatistas post collationem, Sermo ad Caesariensis, De gestis cum Emerito, Contra Gaudentium'
+  author: augustine
+  locus: whole file
+  role: tradition
+  confidence: provisional
+  note: 'Maurist Latin of the anti-Donatist works that follow the Petschenig text (CSEL 53,
+    Registry row 214). The Petschenig staging file gives this entry only four of the works,
+    so the works here are assigned to donatism alone, and Registry row 230 records the overlap.
+
+    '
+  source_file: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis
   work: Breviculus Collationis cum Donatistis
   author: augustine
-  locus: Pars III (CSEL 53); file line 62773 (heading 'BREVICVLVS', 'COLLATIONIS CVM DONATISTIS'
-    at 62774)
+  locus: Pars III (CSEL 53); file line 62770 (heading 'BREVICVLVS', 'COLLATIONIS CVM DONATISTIS'
+    at 62771)
   role: tradition
   confidence: assigned
   note: 'Augustine''s summary of the three-day Conference of Carthage of 411, held on the
@@ -96,13 +109,13 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam
   work: Contra (Adversus) Fulgentium Donatistam
   author: augustine
-  locus: Pars III (CSEL 53), Appendix II; file line 78988 (heading 'LIBELLVS ADVERSVS FVLGENTIVM
+  locus: Pars III (CSEL 53), Appendix II; file line 78985 (heading 'LIBELLVS ADVERSVS FVLGENTIVM
     DONATISTAM')
   role: tradition
   confidence: provisional
   note: 'A short reply to a Donatist named Fulgentius, printed in Petschenig''s Appendix among
     the two opuscula he prints as spurious, not Augustine''s (the Appendix''s own Praefatio,
-    file lines 60845-60860). The manuscript title is "Libellus adversus Fulgentium Donatistam".
+    file lines 60842-60857). The manuscript title is "Libellus adversus Fulgentium Donatistam".
     The author slug is augustine because no other slug exists for the work; the ascription
     does not hold in the edition itself, so the confidence is provisional.
 
@@ -111,7 +124,7 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor
   work: Contra Cresconium (libri quattuor)
   author: augustine
-  locus: Pars II (CSEL 52); file line 41781 (heading 'CONTRA CRESCONIVM GRAMMATICVM ET DONATISTAM
+  locus: Pars II (CSEL 52); file line 41778 (heading 'CONTRA CRESCONIVM GRAMMATICVM ET DONATISTAM
     LIBRI IIII')
   role: tradition
   confidence: assigned
@@ -128,7 +141,7 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres
   work: Contra Epistulam Parmeniani (libri tres)
   author: augustine
-  locus: Pars I (CSEL 51); file line 2089 (heading 'CONTRA EPISTULAM PARMENIANI LIBRI III')
+  locus: Pars I (CSEL 51); file line 2086 (heading 'CONTRA EPISTULAM PARMENIANI LIBRI III')
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of Augustine''s reply to Parmenian''s own letter —
@@ -143,8 +156,8 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii
   work: Contra Gaudentium Donatistarum Episcopum (libri II)
   author: augustine
-  locus: Pars III (CSEL 53); file line 73265 (heading 'CONTRA GAVDENTIVM DONATISTARVM EPISCOPVM',
-    'LIBRI II' at 73267)
+  locus: Pars III (CSEL 53); file line 73262 (heading 'CONTRA GAVDENTIVM DONATISTARVM EPISCOPVM',
+    'LIBRI II' at 73265)
   role: tradition
   confidence: assigned
   note: 'Augustine''s reply, about 420, to Gaudentius, the Donatist bishop of Thamugadi, who
@@ -166,8 +179,8 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres
   work: Contra Litteras Petiliani (libri tres)
   author: augustine
-  locus: Pars II (CSEL 52); file line 24752 (heading 'CONTRA LITTERAS PETILIANI', 'LIBRI TRES.'
-    at 24753)
+  locus: Pars II (CSEL 52); file line 24749 (heading 'CONTRA LITTERAS PETILIANI', 'LIBRI TRES.'
+    at 24750)
   role: tradition
   confidence: assigned
   note: 'Augustine''s reply to the Donatist bishop Petilian of Cirta, whose letters on baptism
@@ -190,8 +203,8 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta
   work: Contra Partem Donati post Gesta
   author: augustine
-  locus: Pars III (CSEL 53); file line 66511 (heading 'CONTRA PARTEM DONATI', 'POST GESTA'
-    at 66512)
+  locus: Pars III (CSEL 53); file line 66508 (heading 'CONTRA PARTEM DONATI', 'POST GESTA'
+    at 66509)
   role: tradition
   confidence: assigned
   note: 'Augustine''s address, soon after the 411 conference, to the Donatist laity, warning
@@ -213,7 +226,7 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem
   work: De Baptismo (libri septem)
   author: augustine
-  locus: Pars I (CSEL 51); file line 8477 (heading 'DE BAPTISMO LIBRI VII')
+  locus: Pars I (CSEL 51); file line 8474 (heading 'DE BAPTISMO LIBRI VII')
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of the same work already vendored in English as "On
@@ -228,7 +241,7 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum
   work: De Unico Baptismo contra Petilianum
   author: augustine
-  locus: Pars III (CSEL 53); file line 60952 (heading 'DE VNICO BAPTISMO')
+  locus: Pars III (CSEL 53); file line 60949 (heading 'DE VNICO BAPTISMO')
   role: tradition
   confidence: assigned
   note: 'No English translation vendored anywhere in this corpus. Companion to the already-vendored
@@ -242,8 +255,8 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum
   work: Epistula ad Catholicos de Secta Donatistarum
   author: augustine
-  locus: Pars II (CSEL 52); file line 36701 (heading 'EPISTVLA AD CATHOLICOS', 'DE SECTA DONATISTARVM.'
-    at 36702)
+  locus: Pars II (CSEL 52); file line 36698 (heading 'EPISTVLA AD CATHOLICOS', 'DE SECTA DONATISTARVM.'
+    at 36699)
   role: tradition
   confidence: assigned
   note: 'A pastoral letter to Catholic congregations on where the true church is, taught from
@@ -267,8 +280,9 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista
   work: Gesta cum Emerito Donatista
   author: augustine
-  locus: Pars III (CSEL 53); file line 72784 (heading 'GESTA CUM EMERITO DONATISTA, LIBER
-    UNUS.')
+  locus: Pars III (CSEL 53); file line 72781 (the text's opening, heading 'GESTA CUM EMERITO
+    DONATISTA, LIBER UNUS.'); the work's own title page, 'GESTA CVM EMERITO', is at file line
+    72034
   role: tradition
   confidence: assigned
   note: 'The record of the 418 debate at Caesarea in Mauretania between Augustine and the
@@ -353,8 +367,8 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati
   work: Psalmus contra Partem Donati
   author: augustine
-  locus: Pars I (CSEL 51); file line 1257 (heading 'PSALMUS', followed by 'CONTRA PARTEM DONATI'
-    at 1258)
+  locus: Pars I (CSEL 51); file line 1254 (heading 'PSALMUS', followed by 'CONTRA PARTEM DONATI'
+    at 1255)
   role: tradition
   confidence: assigned
   note: 'Augustine''s own abecedarian song against the Donatists, written for ordinary Catholic
@@ -368,8 +382,8 @@ works:
 - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem
   work: Sermo ad Caesariensis Ecclesiae Plebem
   author: augustine
-  locus: Pars III (CSEL 53); file line 71499 (heading 'SERMO' at 71497, 'AD CAESARIENSIS ECCLESIAE
-    PLEBEM.' at 71499)
+  locus: Pars III (CSEL 53); file line 71496 (heading 'SERMO' at 71494, 'AD CAESARIENSIS ECCLESIAE
+    PLEBEM.' at 71496)
   role: tradition
   confidence: assigned
   note: 'Augustine''s sermon to the congregation of Caesarea in Mauretania in 418, given with
@@ -638,6 +652,18 @@ works:
     here rather than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian
     306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- row_id: monumenta-vetera-donatistarum-303-340_migne-pl8--monumenta-vetera-ad-donatistarum-historiam-pertinentia-303
+  work: 'Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8): Acta
+    Felicis, Acta Saturnini, Gesta purgationis, Cirta'
+  author: donatist-anonymous
+  locus: whole file, a slice of PL 8
+  role: tradition
+  confidence: provisional
+  note: 'Donatist-side documents. Assigned to donatism only, mirroring the existing PL 8 file.
+    Registry row 223 excludes it for this world.
+
+    '
+  source_file: monumenta-vetera-donatistarum-303-340_migne-pl8.txt
 - row_id: monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum
   work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
     (MS title: De passione sanctorum Donati et Advocati)'
@@ -806,6 +832,16 @@ works:
 
     '
   source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
+- row_id: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857--ribbeck-donatus-und-augustinus-first-half-1857
+  work: Ribbeck, Donatus und Augustinus, first half (1857)
+  author: ribbeck
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Modern (1857) German study of the Donatist dispute. Registry row 236.
+
+    '
+  source_file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
 - row_id: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text
   work: Theodosiani Libri XVI (Book 16, critical Latin text)
   author: theodosian-code

@@ -1290,7 +1290,7 @@
     further distinct works confirmed by their own internal Explicit/Incipit markers - Contra
     Cresconium (four books, explicitly named in the text), De unico baptismo, and the short Contra
     Fulgentium Donatistam. Pars II and Pars III each have their own title page in the OCR (file lines
-    24196 and 60483), after the archive.org line 'Full text of ...' at file lines 24159 and 60439.
+    24193 and 60480), after the archive.org line 'Full text of ...' at file lines 24156 and 60436.
     UPDATE 2026-09-08 (sibling research session, session_01WLxhNbVhjkf1R2SAh8dxxT): this file
     ALSO contains the complete text of Augustine's Contra Gaudentium Donatistarum Episcopum,
     Libri II (c. 420) - both books, running roughly 12,000 lines - previously unnoticed and
@@ -1303,13 +1303,13 @@
     consolidated errata section at the very end corrects 'VOL. LI', 'VOL. LII' and 'VOL. LIII' by
     name (CSEL's own numbers for Pars I, II and III): the file is a binding of Pars I, Pars II and
     Pars III in that order. Pars II (CSEL 52: Contra litteras Petiliani libri III, Epistula ad
-    catholicos de secta Donatistarum, Contra Cresconium libri IV) starts at file line 24159, with
-    Contra litteras Petiliani at 24752, the Epistula ad catholicos at 36701 and Contra Cresconium
-    at 41781. Pars III (CSEL 53) holds De unico baptismo (60952), the Breviculus collationis
-    (62773), Contra partem Donati post gesta (66511), the Sermo ad Caesariensis (71499), Gesta cum
-    Emerito (72784), Contra Gaudentium (73265) and an Appendix (78734) of two works the editor
-    prints as spurious, the Sermo de Rusticiano subdiacono (78744) and the Libellus adversus
-    Fulgentium Donatistam (78988). This directly satisfies G5's actual purpose: both Contra
+    catholicos de secta Donatistarum, Contra Cresconium libri IV) starts at file line 24156, with
+    Contra litteras Petiliani at 24749, the Epistula ad catholicos at 36698 and Contra Cresconium
+    at 41778. Pars III (CSEL 53) holds De unico baptismo (60949), the Breviculus collationis
+    (62770), Contra partem Donati post gesta (66508), the Sermo ad Caesariensis (71496), Gesta cum
+    Emerito (72781), Contra Gaudentium (73262) and an Appendix (78731) of two works the editor
+    prints as spurious, the Sermo de Rusticiano subdiacono (78741) and the Libellus adversus
+    Fulgentium Donatistam (78985). This directly satisfies G5's actual purpose: both Contra
     Cresconium (row 17) and Contra epistulam Parmeniani (row 18) are present in this single file,
     corrected from this build thread's own earlier (mistaken) guidance to Mark that these two works
     sat in different, separately-acquired CSEL volumes. RIGHTS: 1908-1910 publication dates alone.
@@ -3922,24 +3922,25 @@
     the file. Not a translation; not the csel-dev TEI.
 - filename: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
   supplied_by: >-
-    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
-    stated)
+    Claude (lpc library sweep, source-research half)
   date_added: '2026-09-29'
   notes: >-
-    Internet Archive item augustindecatech00augu (University of Illinois Urbana-Champaign copy; no
-    rights field). Title page read in the OCR: Augustin De catechizandis rudibus, herausgegeben von
-    Adolf Wolfhard, zweite, vollstaendig neubearbeitete Ausgabe von G. Krueger, Freiburg i. B. und
-    Leipzig 1893, Akademische Verlagsbuchhandlung von J. C. B. Mohr (Sammlung ausgewaehlter kirchen-
-    und dogmengeschichtlicher Quellenschriften, Viertes Heft). Quality sample: garbage-symbol rate
-    0.0020; word forms found in the Latin vocabulary 0.87, 0.88 and 0.80 at 20, 50 and 80 percent (the
-    gap from clean Latin is the German notes and the printed line numbers); the Latin lines read as
-    running text. Primary original once quotes are verified against the file. Alternates checked and
-    not vendored: liberdecatechiza00augu (Fausset, Methuen, third edition 1915, Latin with English
-    notes, clean OCR, a school text), decatechizandisr0000augu and saureliaugustini00augu_0
-    (Christopher, Catholic University of America Patristic Studies 8, 1926; translation with
-    introduction and commentary, not a Latin edition). Krueger's was chosen as the scholarly edition
-    of the three Latin candidates: its Vorwort describes a wholly new working of the text. Not a
-    modern critical edition; not a translation.
+    Kruger's 1893 second edition of the Latin text of De catechizandis rudibus. Fetched directly (curl)
+    from Internet Archive item augustindecatech00augu. RIGHTS: pd-us-by-date, 1893. Library-thread
+    checks on the same Internet Archive item (University of Illinois Urbana-Champaign copy): title page
+    read in the OCR (Augustin De catechizandis rudibus, herausgegeben von Adolf Wolfhard, zweite,
+    vollstaendig neubearbeitete Ausgabe von G. Krueger, Freiburg i. B. und Leipzig 1893, Akademische
+    Verlagsbuchhandlung von J. C. B. Mohr, Sammlung ausgewaehlter kirchen- und dogmengeschichtlicher
+    Quellenschriften, Viertes Heft). Quality sample: garbage-symbol rate 0.0020; word forms found in the
+    Latin vocabulary 0.87, 0.88 and 0.80 at 20, 50 and 80 percent (the gap from clean Latin is the
+    German notes and the printed line numbers); the Latin lines read as running text. Primary original
+    once quotes are verified against the file. Alternates checked and not vendored:
+    liberdecatechiza00augu (Fausset, Methuen, third edition 1915, Latin with English notes, clean OCR, a
+    school text), decatechizandisr0000augu and saureliaugustini00augu_0 (Christopher, Catholic
+    University of America Patristic Studies 8, 1926; translation with introduction and commentary, not a
+    Latin edition). Krueger's was chosen as the scholarly edition of the three Latin candidates: its
+    Vorwort describes a wholly new working of the text. Not a modern critical edition; not a
+    translation.
 - filename: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
   supplied_by: >-
     Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
@@ -4035,18 +4036,19 @@
     acts are in the Knopf-Krueger 1929 file, which reads cleaner. Not a translation.
 - filename: koch_cyprianische-untersuchungen-deu_1926.txt
   supplied_by: >-
-    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
-    stated)
+    Claude (lpc library sweep, source-research half)
   date_added: '2026-09-29'
   notes: >-
-    Internet Archive item cyprianischeunte0000hugo (lending-library scan; text layer open; no rights
-    field unless stated). Title page read in the OCR: Hugo Koch, Cyprianische Untersuchungen (Arbeiten
-    zur Kirchengeschichte, hg. von Karl Holl und Hans Lietzmann, 4), Bonn, A. Marcus und E. Weber's
-    Verlag, 1926 (title page; the imprint carries 'Copyright 1926', which is inside the 1930-or-
-    earlier rule). Quality sample: 40,000 characters from the middle of the text, garbage-symbol rate
-    0.0053, and the running text reads cleanly. The OCR opens with library noise before the title
-    page. Second-order scholarship, not a primary source and not a witness to any ancient text; rights
-    rest on the printed date, not on any host statement. Not a translation.
+    Koch's 1926 Cyprianische Untersuchungen (secondary literature). Fetched directly (curl) from
+    Internet Archive item cyprianischeunte0000hugo. RIGHTS: pd-us-by-date, 1926 (95-year rule); the item
+    carries no rights tag; imprint page not independently confirmed. Library-thread checks on the same
+    Internet Archive item: title page read in the OCR (Hugo Koch, Cyprianische Untersuchungen, Arbeiten
+    zur Kirchengeschichte, hg. von Karl Holl und Hans Lietzmann, 4, Bonn, A. Marcus und E. Weber's
+    Verlag, 1926); the imprint carries 'Copyright 1926', which is inside the 1930-or-earlier rule. A
+    40,000-character sample from the middle has garbage-symbol rate 0.0053 and reads cleanly. The OCR
+    opens with library noise before the title page. Second-order scholarship, not a primary source and
+    not a witness to any ancient text; rights rest on the printed date, not on any host statement. Not a
+    translation.
 - filename: koch_cyprian-und-der-roemische-primat-deu_1910.txt
   supplied_by: >-
     Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
@@ -4101,17 +4103,21 @@
     on any host statement. Not a translation.
 - filename: benson_cyprian-his-life-his-times-his-work_1897.txt
   supplied_by: >-
-    Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
-    stated)
+    Claude (lpc library sweep, source-research half)
   date_added: '2026-09-29'
   notes: >-
-    Internet Archive item cyprianhislifehi00bensuoft (University of Toronto copy from Trinity College;
-    possible-copyright-status NOT_IN_COPYRIGHT; no rights field unless stated). Title page read in the
-    OCR: Edward White Benson, Cyprian: His Life, His Times, His Work, London, Macmillan, 1897 (title
-    page). Quality sample: 40,000 characters from the middle of the text, garbage-symbol rate 0.0003,
-    and the running text reads cleanly. The OCR opens with a lending-library rules leaf before the
-    title page. Second-order scholarship, not a primary source and not a witness to any ancient text;
-    rights rest on the printed date, not on any host statement. Not a translation.
+    Benson's 1897 biography Cyprian: His Life, His Times, His Work (secondary literature). Fetched
+    directly (curl) from Internet Archive item hislifehicyprian00bensrich. RIGHTS: pd-us-by-date, 1897;
+    archive.org tags it NOT_IN_COPYRIGHT. A second scan of the same edition, Internet Archive item
+    cyprianhislifehi00bensuoft (University of Toronto copy from Trinity College, Toronto;
+    possible-copyright-status NOT_IN_COPYRIGHT), was read by the library thread on 2026-09-29 and is not
+    vendored: its OCR opens with a lending-library rules leaf and the library's bookplate before the
+    title page, and a 40,000-character sample from the middle reads cleanly (garbage-symbol rate
+    0.0003). The two scans are different OCR runs of the same 1897 Macmillan edition and differ by a few
+    kilobytes of OCR variation; both carry all 24 chapters and the index. Title page read in the OCR:
+    Edward White Benson, Cyprian: His Life, His Times, His Work, London, Macmillan, 1897. Second-order
+    scholarship, not a primary source and not a witness to any ancient text; rights rest on the printed
+    date. Not a translation.
 - filename: mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt
   supplied_by: >-
     Claude library/source-research thread, fetched directly from archive.org (or GitHub raw where
@@ -5731,3 +5737,281 @@
     nai; word-form coverage against a clean Latin vocabulary 0.60, about the same as the 1592
     printing). It does not by itself supply a clean witness; check every wording against the page
     image.
+- filename: acta-martyrum-selecta_gebhardt1902.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Gebhardt's 1902 Acta martyrum selecta (Greek and Latin critical texts). For lpc: the Acta S.
+    Cypriani, Passio SS. Mariani et Iacobi and Passio SS. Montani et Lucii, African martyr texts of
+    Cyprian's decade not otherwise held in the original. Fetched directly (curl) from Internet
+    Archive item actamartyrumsel00gebhgoog. RIGHTS: pd-us-by-date, 1902; archive.org tags it
+    NOT_IN_COPYRIGHT.
+- filename: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Christopher's 1926 Catholic University of America Patristic Studies vol. VIII: Latin text with
+    English translation and commentary of De catechizandis rudibus. Fetched directly (curl) from
+    Internet Archive item decatechizandisr0000augu. RIGHTS: pd-us-by-date, 1926 (95-year rule); the
+    item carries no rights tag.
+- filename: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Zycha's CSEL 41 (1900): fourteen shorter Augustinian works including De fide et symbolo, De fide
+    et operibus, De opere monachorum, De cura pro mortuis gerenda. Fetched directly (curl) from
+    Internet Archive item sanctiaureliaugu41augu; title page checked. RIGHTS: pd-us-by-date, 1900.
+- filename: augustine_opera-minora-catechetica-lat_migne-pl40.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Migne PL 40 (Maurist Tomus Sextus): shorter doctrinal and catechetical works, including De
+    catechizandis rudibus and De symbolo ad catechumenos. Fetched directly (curl) from Internet
+    Archive item patrologiae_cursus_completus_lat_vol_040. RIGHTS: public domain by date (Migne,
+    19th century); archive.org Public Domain Mark 1.0.
+- filename: augustine_sermones-1-340-lat_migne-pl38.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Migne PL 38 (Maurist Tomus Quintus, Pars Prior): Augustine's Sermones 1-340 in Latin. Fetched
+    directly (curl) from Internet Archive item patrologiae_cursus_completus_lat_vol_038. RIGHTS:
+    public domain by date (Migne, 19th century); archive.org Public Domain Mark 1.0.
+- filename: augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Migne PL 39 (Maurist Tomus Quintus, Pars Altera): Sermones 341-396 and the Appendix of doubtful
+    sermons. Fetched directly (curl) from Internet Archive item
+    patrologiae_cursus_completus_lat_vol_039. RIGHTS: public domain by date (Migne, 19th century);
+    archive.org Public Domain Mark 1.0.
+- filename: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Morin's 1930 Sermones post Maurinos reperti (Miscellanea Agostiniana I, Vatican Polyglot Press).
+    Fetched directly (curl) from Internet Archive item bwb_W9-DJJ-981_1. RIGHTS: pd-us-by-date,
+    published 1930 (95 years elapsed 2026-01-01); the item carries no rights tag.
+- filename: gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Gsell's 1922 Inscriptions latines de l'Algerie, Tome I (Proconsulaire; includes Hippo Regius).
+    Fetched directly (curl) from Internet Archive item inscriptionslati00gseluoft. RIGHTS: pd-us-by-
+    date, 1922.
+- filename: monumenta-vetera-donatistarum-303-340_migne-pl8.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Slice of Migne PL 8, Monumenta Vetera ad Donatistarum historiam pertinentia from 303 to the
+    start of the already-vendored 340 excerpt (Acta Felicis, Acta Saturnini and others, Gesta
+    purgationis, Cirta acts). Fetched directly (curl) from Internet Archive item
+    patrologiae_cursus_completus_lat_vol_008. RIGHTS: public domain by date (Migne, 1844);
+    archive.org Public Domain Mark 1.0.
+- filename: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt
+  supplied_by: Claude (lpc library sweep, source-research half)
+  date_added: '2026-09-29'
+  notes: >-
+    Von Soden's 1909 article on the Rome-Carthage baptism controversy, pp. 1-42 of Quellen und
+    Forschungen XII (secondary literature); the companion article flagged in the header of
+    vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt. Fetched directly (curl) from
+    Internet Archive item quellenundforsch12deutuoft. RIGHTS: pd-us-by-date, 1909.
+- filename: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Mansi, Sacrorum conciliorum collectio, tomus 3 (councils 347-409, including the Carthage
+    councils, Hippo 393 and the Codex canonum Ecclesiae Africanae), in the 1901 Welter facsimile of
+    the 18th-century Zatta edition. The Latin behind CCSL 149 (Munier), in an older printing.
+    Fetched directly (curl) from Internet Archive item sacrorumconcilio0003phil. RIGHTS: pd-us-by-
+    date; 1901 facsimile date read on the title-page image; the item has no rights tag. OCR renders
+    long s as f.
+- filename: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Mansi, Sacrorum conciliorum collectio, tomus 4 (410-431): the Gesta collationis Carthaginensis
+    of 411 with Augustine's two sermons, the Supplementum from the Breviculus, Augustine's Sermo
+    post collationem, the Honorius constitutions, and the African councils to 431. An older Latin
+    printing of the Gesta that Lancel's SC 194/195/224/373 re-edits. Fetched directly (curl) from
+    Internet Archive item sacrorumconcilio0004phil. RIGHTS: pd-us-by-date; 1901 facsimile date read
+    on the title-page image; no rights tag. OCR renders long s as f.
+- filename: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Migne PL 43 (Augustine, Opera omnia, tomus 9, Maurist text): Psalmus contra partem Donati
+    through the Excerpta et scripta vetera, including Breviculus collationis, Post collationem,
+    Sermo ad Caesariensis, De gestis cum Emerito, Contra Gaudentium and Sermo de Rusticiano. Fetched
+    directly (curl) from Internet Archive item bub_gb_WduyUwXZveUC (Google Books scan). RIGHTS: pd-
+    us-by-date; Migne printing, catalogue year 1861, OCR of the imprint year misreads it as 1801.
+- filename: augustine_epistulae-maurist-order-lat_migne-pl33.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Migne PL 33 (Augustine, Opera omnia, tomus 2, Maurist text): the Epistolae in the Maurist four-
+    class numbering, the numbering NPNF uses, as the cross-reference to the CSEL letters already
+    vendored. Fetched directly (curl) from Internet Archive item bub_gb_nY6mrtKeQUoC (Google Books
+    scan). RIGHTS: pd-us-by-date; imprint 1861 printed in the file.
+- filename: cyprian_ausgewaehlte-schriften-band1-deu_uhl-bkv1869.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Ulrich Uhl's German translation of Cyprian's treatises and two letters, Bibliothek der
+    Kirchenvaeter (Kempten, Koesel, 1869), Band 1. Fetched directly (curl) from Internet Archive
+    item ausgewhlteschri00uhlgoog (Google Books scan, tagged NOT_IN_COPYRIGHT). RIGHTS: pd-us-by-
+    date; 1869 read on the title-page image. Fraktur; the OCR is poor and the file is a structure
+    witness, not a quotable text.
+- filename: cyprian_oeuvres-completes-tome1-traites-fra_guillon1837.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Guillon's 1837 French translation of Cyprian, tome 1 (treatises and a notice on his life).
+    Fetched directly (curl) from Internet Archive item uvrescompltesde00cyprgoog (Google Books scan,
+    tagged NOT_IN_COPYRIGHT). RIGHTS: pd-us-by-date; 1837 read on the title-page image (the OCR
+    misreads it as 1857).
+- filename: cyprian_oeuvres-completes-tome2-lettres-fra_guillon1837.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Guillon's 1837 French translation of Cyprian, tome 2 (the letters). Fetched directly (curl) from
+    Internet Archive item saintcyprien0002unse. RIGHTS: pd-us-by-date; 1837 printed in the file; the
+    item has no rights tag.
+- filename: lauchert_kanones-altkirchlichen-concilien-lat-grc_1896.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Lauchert's 1896 collection of the canons of the main ancient councils, which includes Carthage
+    I-III. Fetched directly (curl) from Internet Archive item diekanonesderwi00churgoog (Google
+    Books scan, tagged NOT_IN_COPYRIGHT). RIGHTS: pd-us-by-date, 1896.
+- filename: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Ribbeck's German monograph on Donatus and Augustine, first half (1857). Fetched directly (curl)
+    from Internet Archive item danoatusundaugu00ribbgoog (Google Books scan, tagged
+    NOT_IN_COPYRIGHT). RIGHTS: pd-us-by-date, 1857 (archive.org's catalogue date is 1858).
+- filename: turner_ecclesiae-occidentalis-monumenta-iuris-antiquissima-tom1-fasc1-lat_1899.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Turner's Ecclesiae Occidentalis monumenta iuris antiquissima, tomus 1 fasciculus 1 (1899): Latin
+    versions of the Nicene and other Greek canons, with the Caeciliani interpretation read at
+    Carthage in 419. It does not carry the Codex canonum Ecclesiae Africanae or the Registri
+    excerpta. Fetched directly (curl) from Internet Archive item ecclesiaeocciden01turn. RIGHTS: pd-
+    us-by-date, 1899.
+- filename: mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Mesnage's 1912 gazetteer of the bishoprics and ruins of Christian Africa. Fetched directly
+    (curl) from Internet Archive item lafriquechretien00mesn. RIGHTS: pd-us-by-date, 1912; no rights
+    tag on the item.
+- filename: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Audollent's 1901 doctoral thesis Carthage romaine. Fetched directly (curl) from Internet Archive
+    item carthageromaine100audo. RIGHTS: pd-us-by-date; 1901 read on the title-page image (not in
+    the OCR). Was a not-yet-downloaded seed row from the first sweep.
+- filename: duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Duchesne, Histoire ancienne de l'Eglise, tome 1, 3rd ed. 1907 (to the end of the third century,
+    with the chapter on Christian Africa and Cyprian). Fetched directly (curl) from Internet Archive
+    item histoireancienne01duchuoft. RIGHTS: pd-us-by-date, 1907.
+- filename: duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Duchesne, Histoire ancienne de l'Eglise, tome 2, 3rd ed. (the fourth century, with the chapter
+    on the schisms after the persecution and the origins of the Donatist schism). Fetched directly
+    (curl) from Internet Archive item histoireancienne02duchuoft. RIGHTS: pd-us-by-date; the imprint
+    at the end of the volume reads 1907, the title-page year is garbled in the OCR.
+- filename: duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Duchesne, Histoire ancienne de l'Eglise, tome 3, 2nd ed. 1910 (the fifth century, including the
+    chapter on Augustinianism and the Vandals in Africa). Fetched directly (curl) from Internet
+    Archive item histoireancienne03duchuoft. RIGHTS: pd-us-by-date, 1910.
+- filename: harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Harnack, Die Mission und Ausbreitung des Christentums, Band 2, 2nd ed. 1906, with the section on
+    Africa. Fetched directly (curl) from Internet Archive item diemissionundaus02harn. RIGHTS: pd-
+    us-by-date, 1906 (Harnack died 1930); no rights tag.
+- filename: augustine_bekenntnisse-deu_hefele-diederichs1921.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Herman Hefele's 1921 German translation of the Confessions (Jena, Diederichs). Fetched directly
+    (curl) from Internet Archive item bekenntnisseueb00hefegoog (Google Books scan, tagged
+    NOT_IN_COPYRIGHT). RIGHTS: pd-us-by-date, 1921 printed in the file; a foreign-published 1921
+    work.
+- filename: augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Raulx edition of Augustine's Oeuvres completes in French (Bar-le-Duc, Guerin), tome 13, the
+    Donatist section only (item lines 66199-81631): De l'unite du bapteme, the conference of 411
+    (resume), Avertissement aux Donatistes, the Emeritus items, De la doctrine de Gaudentius.
+    Fetched directly (curl) from Internet Archive item oeuvrescomplt13augu. RIGHTS: pd-us-by-date;
+    1869 read on the title-page image (the OCR misreads it as 1860).
+- filename: augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Raulx edition of Augustine's Oeuvres completes in French, tome 15, the front matter and the
+    Donatist section only (item lines 1-45985): the Chant populaire, the Refutation d'un ecrit de
+    Parmenien, the seven books on baptism, Contre les lettres de Petilien, the Lettre aux
+    catholiques and Contre Cresconius. Fetched directly (curl) from Internet Archive item
+    oeuvrescomplt15augu. RIGHTS: pd-us-by-date, 1870 printed in the OCR of the title page.
+- filename: hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Hefele-Leclercq, Histoire des conciles, tome 2 part 1 (1908), sections 105-126 only (item lines
+    3676-11965): Rome 386, Telepte, Hippo 393, the Carthage councils under Aurelius, the Pelagian
+    councils and the appeal-to-Rome dispute. Fetched directly (curl) from Internet Archive item
+    histoiredesconci21hefeuoft. RIGHTS: pd-us-by-date, 1908.
+- filename: hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Hefele-Leclercq, Histoire des conciles, tome 1 part 1 (1907), sections 5-6 only (item lines
+    9020-10431): the Carthage and Rome councils on the lapsed and the Novatians, and the 255-256
+    councils on heretical baptism. Fetched directly (curl) from Internet Archive item
+    p1histoiredesconci01hefe. RIGHTS: pd-us-by-date, 1907.
+- filename: bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Bardenhewer, Geschichte der altkirchlichen Literatur, Band 2, 2nd ed. 1914, section 82 (Cyprian)
+    only (item lines 24362-28405). Fetched directly (curl) from Internet Archive item
+    geschichtederalt02bard. RIGHTS: pd-us-by-date, 1914.
+- filename: bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Bardenhewer, Geschichte der altkirchlichen Literatur, Band 4 (1924), sections 73-75 (Augustine,
+    his opponents, his friends and pupils; item lines 24456-30686). Fetched directly (curl) from
+    Internet Archive item geschichtederalt04bard. RIGHTS: pd-us-by-date; 1924 read on the title-page
+    image.
+- filename: augustine_augustinus-postille-auswahl-reden-kirchenjahr-deu_1861.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    German selection of Augustine's sermons arranged by the church year (Tuebingen, Laupp, 1861).
+    Fetched directly (curl) from Internet Archive item 11287782bsb (Bayerische Staatsbibliothek
+    digitisation). RIGHTS: pd-us-by-date, 1861 printed in the file; no rights tag on the item.
+    Fraktur with long-s glyphs in the OCR.
+- filename: augustine_erorterungen-zum-johannis-evangelium-teil2-deu_hayd-bkv1878.txt
+  supplied_by: Claude (lpc library sweep 2, source-research half)
+  date_added: '2026-09-30'
+  notes: >-
+    Heinrich Hayd's German translation of Augustine's Tractatus in Johannem, second part (from the
+    38th homily), Bibliothek der Kirchenvaeter (Kempten, Koesel, 1878). Fetched directly (curl) from
+    Internet Archive item 11376810bsb (Bayerische Staatsbibliothek digitisation). RIGHTS: pd-us-by-
+    date, 1878 printed in the file; no rights tag on the item.

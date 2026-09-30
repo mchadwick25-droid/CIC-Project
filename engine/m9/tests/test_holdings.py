@@ -2,6 +2,8 @@
 computed read of the fleet, never a hand-maintained table, so what it is
 actually worth testing is that it stays report-only and that its
 disposition vocabulary stays closed."""
+import pytest
+
 from engine.m9.holdings import DISPOSITIONS, holdings_for, report
 
 
@@ -46,3 +48,39 @@ def test_report_runs_on_every_built_world_without_blocking():
     for world in formation_world_keys(registry):
         text = report(world)
         assert f"holdings: {world}" in text
+
+
+def _registry_root(tmp_path, code, body):
+    path = tmp_path / "records" / "worlds" / f"{code}.yaml"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(body, encoding="utf-8")
+    return tmp_path
+
+
+def test_a_registered_world_with_no_records_directory_reports_an_empty_holding(tmp_path):
+    root = _registry_root(tmp_path, "nw", "kind: formation\ntime_window: {start: 9000, end: 9100}\n")
+    assert not (root / "records" / "nw").exists()
+    rows = holdings_for("nw", root)
+    assert rows and all(r["disposition"] in DISPOSITIONS for r in rows)
+    assert not any(r["named_in_records"] or r["drawn_on"] for r in rows)
+
+
+def test_an_unregistered_world_names_the_missing_registry_file(tmp_path):
+    from engine.m9.holdings import HoldingsError
+
+    with pytest.raises(HoldingsError, match=r"records/worlds/zzz\.yaml does not exist"):
+        holdings_for("zzz", _registry_root(tmp_path, "nw", "time_window: {start: 1, end: 2}\n"))
+
+
+def test_a_registry_entry_without_a_time_window_names_the_file_and_field(tmp_path):
+    from engine.m9.holdings import HoldingsError
+
+    with pytest.raises(HoldingsError, match=r"records/worlds/nw\.yaml has no time_window"):
+        holdings_for("nw", _registry_root(tmp_path, "nw", "kind: formation\n"))
+
+
+def test_the_report_command_ends_with_the_message_not_a_traceback(tmp_path, monkeypatch):
+    monkeypatch.setattr("engine.m9.holdings.load_registry", lambda path=None: {})
+    with pytest.raises(SystemExit) as raised:
+        report("zzz")
+    assert "is not a registered world" in str(raised.value)
