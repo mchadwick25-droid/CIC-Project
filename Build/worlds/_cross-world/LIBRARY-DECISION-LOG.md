@@ -13,6 +13,12 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-30 — Two Source Registry rules adopted into the Template
+
+**Ruling.** The project lead adopted both rules proposed in the entry "Step 0-2 process and gate fixes": one Confidence letter per row, with A given only when the Licensed-For content was read and verified at the source by structure marker; and corpus figures counted by two independent methods with the locale stated. His answer to the choice-box question was "Adopt both (Recommended)". Both are now written into `Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md` (the Confidence field, and a sixth rule). The Template's scale stays A to E; E marks a source later found unreliable. The proposal paragraph in the earlier entry is superseded by this one and is not edited.
+
+---
+
 ## 2026-09-30 — Step 0-2 process and gate fixes
 
 **Instruction.** The project lead ordered: "also apply fixes to the step 0 - 2

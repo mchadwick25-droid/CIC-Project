@@ -67,7 +67,7 @@ A source that fails the Boundary Check does not stop being worth recording — i
 | **#** | Sequential ID, never reused. |
 | **Source** | Full citation: author, title, specific book/chapter/letter, edition/translation if checked. |
 | **Type** | P / S / M / L (may combine). |
-| **Confidence** | A–E. |
+| **Confidence** | A–E, one letter per row. A is given only when the Licensed-For content was read and verified at the source by structure marker. E marks a source later found unreliable (see below). |
 | **Boundary Status** | Native / Excluded. |
 | **Exclusion Reason** *(required if Excluded, blank if Native)* | Out-of-Boundary / Named Comparandum. |
 | **Licensed For** *(required if Native, blank if Excluded)* | The specific gravity, force, lexicon term, or Representative trait this source justifies. A Native source with nothing named here is not yet usable downstream. |
@@ -82,6 +82,7 @@ A source that fails the Boundary Check does not stop being worth recording — i
 3. For anything Native, name its Licensed-For target before moving on. A source without one is not finished being processed.
 4. Flag for independent second-opinion review anything where the source was discovered from the builder's own prior knowledge and not independently re-collated this session (`discovery_channel: builder-prior-knowledge`, `verification_state` not `verified-direct`) and it licenses a load-bearing, vivid, specific claim (`evidentiary_weight: load-bearing`). *(Re-keyed 2026-08-05, full-system review Rigor P1-2, off the SS3.0 discovery-channel/verification-state/evidentiary-weight axes — mechanically enforced by `wrs/gates/core.py::gate_priority_review_trigger`. The prior rule, "Flag anything at Confidence C or below," assumed the Confidence letter's B still meant "specific work/locus named"; after the Round-1 recalibration redefined B to mean recall, the legacy letter stopped marking the actual risk boundary.)*
 5. The Registry's structure and every source currently known are complete as part of this same Step 2 pass — not left for later. What legitimately comes later is growth: as Steps 3 through 10 surface new candidate sources, append them here under the same rules, in the same living, append-only discipline (never renumber, never remove — a source later found unreliable moves to Confidence E and is marked removed-from-use, but the entry stays as a record of what was tried).
+6. Corpus figures in Doc_02 and the Registry are counted by two independent methods, with the locale stated (`C.UTF-8` and `POSIX` count characters differently).
 
 **Checkpoint, not just intent:** Doc_02 may not name a source in support of a specific claim unless that source has a corresponding Registry row. This is the one rule in this process that actually catches a builder who writes all of the ecology narrative first and treats the Registry as an afterthought — if a claim in Doc_02 cannot be traced to a Registry entry, Step 2 is not finished, regardless of how complete the narrative reads.
 
