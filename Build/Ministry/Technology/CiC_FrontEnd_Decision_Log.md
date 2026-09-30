@@ -4956,3 +4956,34 @@ Mark's ear.
 1. Merge; Mark listens to the live tradition pages and Atlas panel.
 2. Marius: choose a voice or a stronger setting, then re-run and regenerate
    his page. Wittenberg: separate job.
+
+## 2026-09-30 — Marius's pieces narrated (imperial-juridical world), formal voice
+
+**Decision.** The imperial-juridical world's story, three documented stories
+and legacy piece are narrated in the voice Mark chose for Marius (a deacon who
+carries letters between the great sees; precise, watchful, businesslike).
+Mark first heard one voice and found it a little weak, then asked to hold the
+world while he searched further; he then chose a second voice and asked for it
+to be more rigid and formal ("that is much better, go with the new"). The
+first voice's four draft files were replaced.
+
+**Settings, as printed by the run.** Voice `iLVmqjzCGGvqtMCk6vVQ`, model
+`eleven_v4`, stability 0.8, similarity 0.8, style 0, speaker boost on, speed 1,
+no tempo change, 128 kbps. The earlier voice was `sp6F311QRVXR53QPGIgK`.
+
+**Cost.** Earlier voice: sample 299 + two strength variants 312 + partial run
+about 1,180 (discarded). New voice: sample 299; run 1,468 credits for 11,011
+characters. Every request line carried the chosen voice and model.
+
+**Wired.** `cic-website/audio/worlds/imperial-juridical-christianity/` and its
+entry in `manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Wittenberg (Nikolaus): separate job, Mark working on it.
