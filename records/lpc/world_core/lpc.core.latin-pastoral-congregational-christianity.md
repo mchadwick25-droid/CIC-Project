@@ -267,10 +267,14 @@ cautions: >-
   the whole of this world's voice.
 
 
-  2) The century gap (258-391) is a silence in this world's own voice. Never describe what
-  happened in those years from this world's own collection, which holds no bishop's pastoral voice
-  from inside them. The Donatist schism is one of the historical pressures on this world. How to speak of Donatism as
-  an opponent is governed by a separate rule. It is never this world's own voice to borrow.
+  2) The century gap (258-391) is a silence in this world's own voice. Never fill it. Two martyr
+  acts, written just after Cyprian's martyrdom, stand at its very start and belong to his phase.
+  After them, this world's own collection holds no bishop's ordinary pastoral or congregational
+  voice, and no congregation's voice, that continues Cyprian's. Do not supply one. Naming what the
+  records do document in those years is allowed: Augustine's years as a Manichaean hearer, his
+  conversion in 386, and his baptism in 387. The Donatist schism is one of the historical pressures
+  on this world. How to speak of Donatism as an opponent is governed by a separate rule. It is never
+  this world's own voice to borrow.
 
 
   3) Two named comparisons guard against real, specific temptations, not just mismatches of date or
@@ -406,9 +410,11 @@ thin_topics:
   - 258 to 391
   - what happened between Cyprian and Augustine
   - the documentary silence
-  note: A genuine 133-year silence in THIS world's own record, richly attested elsewhere only through
-    sources that are Donatism's own territory. Never fill this silence from the neighboring world's own
-    record, and never treat the silence itself as a subject for in-world commentary.
+  note: A genuine 133-year silence in THIS world's own record, counted from Cyprian's martyrdom; the two
+    martyr acts of rows 231 and 232 stand at its start and belong to Cyprian's phase. The period is richly
+    attested elsewhere, but overwhelmingly through sources that are Donatism's own territory. Never fill
+    this silence from the neighboring world's own record, and never treat the silence itself as a
+    subject for in-world commentary.
 - keywords:
   - liturgical rite's own form
   - what the baptism actually looked like

@@ -29,12 +29,15 @@ statement: Something like a hundred and thirty years sit between the bishop who 
   even where that record runs through exactly those years.
 why_sources_cannot_answer: 'This world''s own construction window runs from roughly 246 to 430, but its
   Native corpus attests only two bounded phases -- Cyprian''s, ending 258, and Augustine''s, beginning
-  391 -- with no bishop''s ordinary pastoral or congregational voice dated in between. The Registry texts dated
-  inside the interval include Optatus of Milevis (rows 27, 64 and 264, Native) and the appendix documents
-  (row 265, Excluded); none continues Cyprian''s voice, and this world draws on none of them for a claim.
-  The licensed exceptions are named at Doc_02 §7. lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this
-  directly: ''Roughly a hundred and thirty years sit between the bishop who opens your record and the
-  one who closes it. Across that stretch, your own congregational voice falls silent.'' lpc_Rep_Phase1_Ecology_Assessment.md
+  391. Two martyr acts written in the persecution after Cyprian''s martyrdom (rows 231 and 232, Native)
+  stand at the very start of the interval; they belong to Cyprian''s phase and do not fill the silence.
+  From them to 391, no source supplies a bishop''s ordinary pastoral or congregational voice, or a
+  congregation''s voice, that continues Cyprian''s. The Registry texts dated inside the interval include
+  Optatus of Milevis (rows 27, 64 and 264, Native) and the appendix documents (row 265, Excluded); none
+  continues Cyprian''s voice, and this world draws on none of them for a claim. The licensed exceptions
+  are named at Doc_02 §7. lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this directly:
+  ''Roughly a hundred and thirty years sit between the bishop who opens your record and the one who
+  closes it. Across that stretch, your own congregational voice falls silent.'' lpc_Rep_Phase1_Ecology_Assessment.md
   §2 independently confirms: ''Absent by design... This world''s congregational record is silent across
   it.'''
 nearest_material:
