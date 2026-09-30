@@ -170,9 +170,9 @@ def stream_voice_turn_sentences(
         cleared sentence, ready to display and append to the transcript.
       {"type": "opening_guard_retry"} - the opening failed the seat-
         identity guard once; a fresh regeneration is underway. Additive
-        signal only, same shape as attempts_meta["r27_regenerated"] on
-        the whole-turn path - a caller that ignores it sees only that
-        the first "sentence" event arrived a little later.
+        signal only, same shape as the regeneration flag in
+        attempts_meta on the whole-turn path - a caller that ignores it
+        sees only that the first "sentence" event arrived a little later.
       {"type": "opening_guard_exhausted"} - the retry's own opening also
         failed; the stream ends here with no "sentence" event ever
         emitted. The caller substitutes a Facilitator turn, the same

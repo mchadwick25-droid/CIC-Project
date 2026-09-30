@@ -1096,10 +1096,10 @@ def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
     assert "[[fix.witness.who-is-jesus]]" not in voice_event["text"]  # apply_net's own strip, unaffected by the capture
 
 
-# The flag-gated enforcement's own required test list. r27_enforce=False
+# The flag-gated enforcement's own required test list. With the flag off
 # (every existing test above, and every real caller until the flag is
-# flipped on) is already proven byte-identical by the full suite
-# passing unchanged; these are the flag-ON cases.
+# flipped on) behavior is byte-identical, proven by the full suite passing
+# unchanged; these are the flag-on cases.
 def _donatist_schism_world() -> LoadedWorld:
     """Same world as _world() above, plus a second record whose own text
     genuinely shares ground with "For years they held together." - the
