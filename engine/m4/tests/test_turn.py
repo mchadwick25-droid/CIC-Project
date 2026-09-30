@@ -286,6 +286,14 @@ def test_etic_turn_speaks_for_the_class_that_was_pressed():
     assert "this world's own witnesses stop" in result.facilitator_events[0]["text"]
 
 
+def _participant_text(content) -> str:
+    return content[-1]["text"] if isinstance(content, list) else content
+
+
+def _directive_text(content) -> str:
+    return content[0]["text"] if isinstance(content, list) else ""
+
+
 def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
     """Program-Spec SS77: the Facilitator speaks the modern sense, the voice
     receives the term-free underlying subject, and the participant's modern
@@ -318,7 +326,7 @@ def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
     # says "before the word 'Trinity' existed for them to use" - which is the
     # record's own way of explaining the absence, not the modern word
     # reaching the voice as a question to answer.
-    sent = client.messages.captured_stream_calls[-1][1][-1]["content"]
+    sent = _participant_text(client.messages.captured_stream_calls[-1][1][-1]["content"])
     assert fleet[term_id]["underlying_subject"] in sent
     assert "did you believe in the Trinity" not in sent
 
@@ -361,7 +369,7 @@ def test_ordinary_turn_wires_a_real_evidence_block_into_the_user_message():
     run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set())
 
     system, messages = client.messages.captured_stream_calls[0]
-    user_message = messages[0]["content"]
+    user_message = _participant_text(messages[0]["content"])
     assert "## Ground for this turn" in user_message
     assert "[[fix.witness.who-is-jesus]]" in user_message
     assert ask_text in user_message  # the participant's own message still rides alongside the evidence block
@@ -406,7 +414,7 @@ def test_secondary_context_reaches_evidence_assembly_and_fills_a_gap_cell():
     )
 
     system, messages = client.messages.captured_stream_calls[0]
-    user_message = messages[0]["content"]
+    user_message = _participant_text(messages[0]["content"])
     assert "[[fix.witness.who-is-jesus]]" in user_message
 
 
@@ -442,7 +450,7 @@ def test_secondary_context_defaults_to_none_and_changes_nothing():
         participant_message=ask_text, directive=None, session_id="test-session",
     )
     system, messages = client.messages.captured_stream_calls[0]
-    assert "[[fix.witness.who-is-jesus]]" in messages[0]["content"]
+    assert "[[fix.witness.who-is-jesus]]" in _participant_text(messages[0]["content"])
 
 
 def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line():
@@ -478,12 +486,12 @@ def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line()
         already_bridged_figure_ids={"fix.figure.the-elder"},
     )
     system, messages = client.messages.captured_stream_calls[0]
-    user_message = messages[0]["content"]
+    user_message = _participant_text(messages[0]["content"])
     assert "## Already introduced: the Elder." in user_message
     assert "Rhoda" not in user_message  # never introduced, so never listed
     # The per-turn directive (the channel measured to win - see
     # _build_turn_directive) carries the same state.
-    directive_text = system if isinstance(system, str) else str(system)
+    directive_text = _directive_text(messages[0]["content"])
     assert "Already introduced in this conversation: the Elder." in directive_text
     assert "Rhoda" not in directive_text
 
@@ -1057,15 +1065,14 @@ def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
     case, since every other test in this file already exercises it
     without passing correction). This is the one hermetic proof that the
     text actually reaches the model, in the same uncached, per-turn
-    system block turn_directive itself rides in - not silently dropped."""
+    block turn_directive itself rides in - not silently dropped."""
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["An answer."])
     run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_world(),
         participant_message="who was Jesus", directive=None, session_id="test-session",
         correction="\n## Correction\nCite everything, or say plainly your record is silent.",
     )
-    system_blocks = client.messages.captured_stream_calls[0][0]
-    directive_text = "".join(b["text"] for b in system_blocks[1:])
+    directive_text = _directive_text(client.messages.captured_stream_calls[0][1][-1]["content"])
     assert "Cite everything, or say plainly your record is silent." in directive_text
 
 
@@ -1383,8 +1390,8 @@ def test_sentence_retry_carries_the_r27_correction_forward():
         r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
     )
     assert len(client.messages.captured_stream_calls) == 3
-    sentence_retry_system, _messages = client.messages.captured_stream_calls[2]
-    sentence_retry_text = " ".join(block["text"] for block in sentence_retry_system)
+    _system, sentence_retry_messages = client.messages.captured_stream_calls[2]
+    sentence_retry_text = _directive_text(sentence_retry_messages[-1]["content"])
     assert "uncited claims" in sentence_retry_text  # _append_r27_correction's own heading, carried forward
     assert _UNSUPPORTED_SENTENCE in sentence_retry_text  # _append_sentence_fact_check_correction's own named sentence
 
