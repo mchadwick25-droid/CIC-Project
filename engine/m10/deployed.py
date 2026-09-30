@@ -36,6 +36,7 @@ SELF_REFERENCE_STEMS = (
     ("no 'I' smuggled in through a list of named roles", re.compile(r"smuggled in through a list of named roles", re.I)),
 )
 CONFIRMED_WORLD_CORE_FIELDS = ("living_traditions", "telos")
+FIXTURE_KIND = "fixture"
 SOURCE_ANCHOR_BOUNDS = (5, 10)
 
 _NUM_WORDS = {
@@ -210,6 +211,13 @@ def _num(token: str) -> int:
     return sum(_NUM_WORDS[p] for p in parts)
 
 
+def _is_fixture(entry: dict) -> bool:
+    """The registry marks a synthetic test world `kind: fixture`. It has two short
+    sources and adds no voice rules by design, so the two checks that need a real
+    Source Registry and a real Representative voice do not apply to it."""
+    return entry.get("kind") == FIXTURE_KIND
+
+
 def _grandfathered() -> frozenset[str]:
     from engine.m9.enforce import GRANDFATHERED_WORLDS
 
@@ -269,12 +277,18 @@ def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry
             else:
                 findings.append(Finding(where, "k:living-traditions", reason))
 
-    anchor_findings, anchor_notes = check_source_anchor(code, prompt, records, where)
-    findings.extend(anchor_findings)
-    notes.extend(anchor_notes)
+    fixture = _is_fixture(entry)
+    if fixture:
+        notes.append("source_anchor: the registry marks this world kind: fixture; it has two short sources and no Source Registry to draw 5 to 10 entries from (exempt)")
+    else:
+        anchor_findings, anchor_notes = check_source_anchor(code, prompt, records, where)
+        findings.extend(anchor_findings)
+        notes.extend(anchor_notes)
 
     bullet = next((ln for ln in prompt.splitlines() if ln.lstrip().startswith("- [self-reference]")), None)
-    if bullet is None:
+    if fixture:
+        notes.append("self-reference: the registry marks this world kind: fixture; its voice adds no rules by design (exempt)")
+    elif bullet is None:
         findings.append(Finding(where, "k:self-reference", "the compiled prompt has no [self-reference] note"))
     else:
         for label, pattern in SELF_REFERENCE_STEMS:

@@ -410,3 +410,22 @@ def test_the_anchoring_paragraph_needs_five_to_ten_entries():
 def test_every_anchor_entry_must_be_named_in_the_paragraph():
     findings, _ = check_prompt_content("w", _prompt(), _records(entries=tuple(ENTRIES[:5]) + ("the Cave of Treasures",)), {}, "p")
     assert _ids(findings) == ["k:source-anchor-entries"]
+
+def test_a_fixture_world_is_exempt_from_the_source_anchor_and_self_reference_checks():
+    prompt = _prompt(self_reference="Strict we-voice, always.", anchor=None)
+    findings, notes = check_prompt_content("w", prompt, _records(anchor=None), {"kind": "fixture"}, "p")
+    assert findings == []
+    assert any(n.startswith("source_anchor:") and "fixture" in n for n in notes)
+    assert any(n.startswith("self-reference:") and "fixture" in n for n in notes)
+
+
+def test_the_same_prompt_fails_a_world_that_is_not_a_fixture():
+    prompt = _prompt(self_reference="Strict we-voice, always.", anchor=None)
+    findings, _ = check_prompt_content("w", prompt, _records(anchor=None), {}, "p")
+    assert set(_ids(findings)) == {"k:self-reference", "k:source-anchor"}
+
+
+def test_a_fixture_world_still_gets_every_other_check():
+    prompt = _prompt(quotes=5, quotation="Three exist. Martin's answer. The elder. Vincent's line.", self_reference="Strict we-voice, always.", anchor=None)
+    findings, _ = check_prompt_content("w", prompt, _records(quotes=5, anchor=None), {"kind": "fixture"}, "p")
+    assert _ids(findings) == ["k:quote-count"]
