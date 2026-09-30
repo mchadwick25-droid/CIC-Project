@@ -1441,3 +1441,91 @@ queue:
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the title page reads Matriti, La Editorial Iberica, 1920"
     status: not-yet-downloaded
     hold_note: "Held 2026-09-30, not vendored: a lead, not a request. Ribadeneira's Latin Life of Ignatius (1572) is already vendored."
+
+  - title: "Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, vol. 1 (Goll, Prague, 1878; vol. 2, 1882)"
+    author: "Jaroslav Goll"
+    year: "1878 and 1882"
+    world: hus
+    why: "The request's R7 names Goll's Quellen: documents and studies on the Unity of the Brethren (German, with Latin and Czech documents)."
+    url: "https://archive.org/details/quellenundunter00gollgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the item lists a 690 KB *_djvu.txt file, but the download returned HTTP 500 on every attempt (four tries over about a minute) and the /stream/ wrapper returns HTML, not the raw file"
+    status: not-yet-downloaded
+    hold_note: "Blocked 2026-09-30, not vendored: the file server returned 500. Retry the raw *_djvu.txt download; vendor only the raw file. Volume 2 (1882) was not located."
+
+  - title: "Quellen zur Geschichte der böhmischen Brüder, vornehmlich ihren Zusammenhang mit Deutschland betreffend (Gindely, Vienna, 1859; Fontes rerum Austriacarum, Diplomataria 19)"
+    author: "Anton Gindely (ed.)"
+    year: "1859"
+    world: hus
+    why: "Documents on the Unity's contacts with the Wittenberg and Swiss reformers, chiefly 1520s to 1577 (after the window), with an appendix of the Brethren's confessions from the founding."
+    url: "https://archive.org/details/quellenzurgesch00gindgoog (also bub_gb_pZyDr8-v5EIC)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR table of contents was read; the body is German and Latin, mostly after 1517"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: mostly after the window, 1.07 MB. The appendix on the Brethren's confessions from the founding to the 1570s could carry the 1504 and 1508 texts and was not read."
+
+  - title: "Geschichtschreiber der husitischen Bewegung in Boehmen, Theile I to III (Höfler, Vienna, 1856-1866; Fontes rerum Austriacarum, Scriptores 2, 6, 7)"
+    author: "Konstantin Höfler (ed.)"
+    year: "1856-1866"
+    world: hus
+    why: "Latin chronicles and documents of the Hussite movement, including Petr of Mladoňovice's Relatio in part I (12 mentions in the OCR); volume III is Höfler's German introduction."
+    url: "https://archive.org/details/geschichtschreib01hofl (also geschichtschreib02hofl, geschichtschreib03hofl)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR was searched for Brezova and Mladoňovice and the title pages of vol. II (1865) read; contents of vol. I were not listed"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget (4.9 MB). Palacky's Documenta and Goll's edition of Brezova are vendored and cover the Relatio and Brezova."
+
+  - title: "Mistra Jana Husi Sebrane spisy, vols. 1-6 (Flajshans, Prague, J. Bursik, 1904 and after)"
+    author: "Jan Hus; Vaclav Flajshans (ed.)"
+    year: "1904 onward"
+    world: hus
+    why: "Hus's Czech works in a later modern-orthography edition; Erben's critical edition (1865-68) is vendored, so this is a lower priority. Also Hus's Postilla (Vilimek, 1901) and Listy z Prahy (Otto, 1915)."
+    url: "https://archive.org/details/sebranspisy0000husj (vols. sebranspisy0000husj to sebranspisy0006husj; Postilla postilla00husj; Listy z Prahy mjanhuslistyzpra00husj)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: later editions of works Erben and Novotny already give. Check each volume's printed year, since the series ran into the 1900s."
+
+  - title: "Fasciculus rerum expetendarum et fugiendarum, vol. II (Brown, London, 1690), and the Cologne printing of 1535"
+    author: "Ortwin Gratius (compiler); Edward Brown (ed.)"
+    year: "1535; 1690"
+    world: hus
+    why: "Volume I of Brown's edition is vendored and holds the Brethren's Latin Confession to King Vladislav. Volume II (4.9 MB) was not opened for Unity material. The Cologne printing of 1535 is the edition the request names."
+    url: "https://archive.org/details/bub_gb_Rkaid-0cSpAC (Brown vol. II) and https://archive.org/details/dlibra.kul.pl.P.XVI.804 (Cologne, 1535: Fasciculus rerum expetendarum ac fugiendarum, Peter Quentel)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the 1535 item is a Polish library digitisation whose rights statement was not read"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored. The 1535 printing is the better witness of the Confession if its OCR is cleaner than Brown's; read the host library's rights statement first."
+
+  - title: "Das deutsche Kirchenlied der böhmischen Brüder im XVI. Jahrhunderte (Wolkan, Prague, 1891)"
+    author: "Rudolf Wolkan"
+    year: "1891"
+    world: hus
+    why: "The request's R7 names the Unity's hymnbook of 1501 or 1505. None was found on the reachable hosts; Wolkan prints the Brethren's German hymns of the sixteenth century, not the Czech book of 1501."
+    url: "https://archive.org/details/bub_gb_Ras-AAAAIAAJ (also dasdeutschekirc00wolkgoog)"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: German hymns of the sixteenth century, mostly after the window."
+
+  - title: "Chelcicky a Jednota v 15. stoleti (Goll, Prague, 1916)"
+    author: "Jaroslav Goll"
+    year: "1916"
+    world: hus
+    why: "Goll's studies of Chelcicky and the Unity's early years; Czech scholarship, not a primary source. The request's R7 names Goll only for the Quellen."
+    url: "https://archive.org/details/chelickjednota00goll"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: scholarship and not a source; a reference-tier lead."
+
+  - title: "Aeneae Sylvii Piccolominei Opera geographica et historica (Helmstedt, 1699)"
+    author: "Aeneas Silvius Piccolomini"
+    year: "1699"
+    world: hus
+    why: "A third printing of the Historia Bohemica; the OCR text is 0.29 MB and reads as partial, with italic and roman confused."
+    url: "https://archive.org/details/bub_gb_d6tg-EPOb94C"
+    rights_basis: pd-us-by-date
+    verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR was sampled and word-form coverage was 0.50"
+    status: not-yet-downloaded
+    hold_note: "Held 2026-09-30, not vendored: not cleaner than the vendored 1592 and 1524 printings."

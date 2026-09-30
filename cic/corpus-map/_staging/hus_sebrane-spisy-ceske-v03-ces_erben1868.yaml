@@ -1,0 +1,16 @@
+source_file: hus_sebrane-spisy-ceske-v03-ces_erben1868.txt
+assignments:
+- work: 'Mistra Jana Husi Sebrané spisy české, vol. 3: Hus''s shorter Czech works, among them the Dcerka,
+    the Zrcadlo and the Výklad písničky Šalomúnovy'
+  author: hus
+  locus: whole volume - volume 3 of 3
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: assigned
+  note: Hus's shorter Czech works, among them the Dcerka, the Zrcadlo and the Výklad písničky Šalomúnovy,
+    in Czech, in a critical edition from the oldest known sources. These are Hus's own Czech pastoral
+    works, which the vendored English letters and De Ecclesia do not reach. Primary original evidence
+    for the movement in Czech, quotable once each wording is checked against the page image. The Czech
+    reads clearly with its diacritics in the sample; the 1865-68 orthography is the old one (for example
+    sé, viery, pravé), and the OCR misreads some letters of the marginal scripture citations.

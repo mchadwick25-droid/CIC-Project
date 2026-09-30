@@ -5574,3 +5574,160 @@
     misreads. Word-form coverage against a clean Latin vocabulary is 0.59; the Spanish, Italian
     and Portuguese passages and the notes lower it, so the figure is a comparison across files and
     not a measure of accuracy.
+- filename: palacky_documenta-mag-joannis-hus-lat-ces_1869.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Palacký, Documenta Mag. Joannis Hus (Prague, 1869): Hus's letters, the Relatio of Petr of
+    Mladoňovice and the Bohemian documents. Internet Archive item documentamagjoa00palagoog.
+    Primary original evidence for the movement, quotable once each wording is checked against the
+    page image. The Latin reads well (word-form coverage against a clean Latin vocabulary 0.80).
+    The Czech letters keep Palacký's 1869 orthography (w for v) and the OCR drops or misplaces
+    some diacritics (for example pfepustí for přepustí), so check every Czech quotation against
+    the scan.
+- filename: hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Novotný, Hus's Korespondence a dokumenty (Prague, 1920): the critical edition of Hus's letters
+    in their original Latin and Czech. Internet Archive item mjanahusikorespo00husjuoft. Primary
+    original evidence for the movement, quotable once each wording is checked against the page
+    image. The Latin letters read legibly; the OCR scatters the edition's footnote marks and
+    superscript digits through the lines, so quotations need the printed page.
+- filename: hus_sebrane-spisy-ceske-v01-ces_erben1865.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Erben's edition of Hus's collected Czech works (Prague, 1865), volume 1: Hus's Czech
+    expositions of the Creed, the Ten Commandments and the Lord's Prayer, and his tract on simony.
+    Internet Archive item sebranespisyesk01husjuoft. Primary original evidence for the movement in
+    Czech, quotable once each wording is checked against the page image. The Czech reads clearly
+    with its diacritics in the sample; the 1865-68 orthography is the old one (for example sé,
+    viery, pravé), and the OCR misreads some letters of the marginal scripture citations.
+- filename: hus_sebrane-spisy-ceske-v02-ces_erben1866.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Erben's edition of Hus's collected Czech works (Prague, 1866), volume 2: Hus's Czech Postilla,
+    from the manuscript of 1414. Internet Archive item sebranespisyesk02husjuoft. Primary original
+    evidence for the movement in Czech, quotable once each wording is checked against the page
+    image. The Czech reads clearly with its diacritics in the sample; the 1865-68 orthography is
+    the old one (for example sé, viery, pravé), and the OCR misreads some letters of the marginal
+    scripture citations.
+- filename: hus_sebrane-spisy-ceske-v03-ces_erben1868.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Erben's edition of Hus's collected Czech works (Prague, 1868), volume 3: Hus's shorter Czech
+    works, among them the Dcerka, the Zrcadlo and the Výklad písničky Šalomúnovy. Internet Archive
+    item sebranespisyesk03husjuoft. Primary original evidence for the movement in Czech, quotable
+    once each wording is checked against the page image. The Czech reads clearly with its
+    diacritics in the sample; the 1865-68 orthography is the old one (for example sé, viery,
+    pravé), and the OCR misreads some letters of the marginal scripture citations.
+- filename: hus_tractatus-responsivus-lat-eng_thomson1927.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Thomson, Hus's Tractatus responsivus (Princeton, 1927): a Latin tract first edited here,
+    attributed to Hus by its editor on internal evidence. Internet Archive item
+    magjohannishustr00husj. Latin text clean (word-form coverage against a clean Latin vocabulary
+    0.83) and quotable once checked against the page image, but the authorship is the editor's
+    inference and not established by a manuscript ascription; treat any quotation as 'the tract
+    attributed to Hus by Thomson'. The front matter reads as noise.
+- filename: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Goll's edition of Lawrence of Březová's Historia Hussitica (Prague, 1893), in the volume with
+    Pulkava and Bartošek. Internet Archive item fontesrerumbohe00goog. Second witness for now, not
+    yet quotable: the Latin is legible but the OCR carries frequent letter-level misreads and the
+    editors' manuscript variants (numbered marks) interleaved with the text, for example reguum
+    iutravil for regnum intravit. The Czech chronicle parts read better. Check every quotation
+    against the page image; the archive record's own date (1873) is wrong for this volume.
+- filename: palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Palacký, Urkundliche Beiträge zur Geschichte des Hussitenkrieges (Prague, 1873), Band I:
+    1419-1428: the documents of 1419-1428. Internet Archive item urkundlichebeitr01pala. Primary
+    original documents, quotable once each is checked against the page image: the Latin and German
+    read legibly (word-form coverage against a clean Latin vocabulary 0.54, lowered by the German
+    and Czech), with occasional letter-level misreads. Documents are by many writers and are not
+    one voice; the editor's German summaries are Palacký's.
+- filename: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Palacký, Urkundliche Beiträge zur Geschichte des Hussitenkrieges (Prague, 1873), Band II:
+    1429-1436: the documents of 1429-1436. Internet Archive item urkundlichebeitr02pala. Primary
+    original documents, quotable once each is checked against the page image: the Latin and German
+    read legibly (word-form coverage against a clean Latin vocabulary 0.54, lowered by the German
+    and Czech), with occasional letter-level misreads. Documents are by many writers and are not
+    one voice; the editor's German summaries are Palacký's.
+- filename: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Fasciculus rerum expetendarum et fugiendarum, Brown's edition (London, 1690), volume I: the
+    Latin Confession of the Bohemian Brethren to King Vladislav. Internet Archive item
+    bub_gb_Z7e69raCdb8C. Second witness for now, not quotable: a 1690 print with the long s read
+    as f, italic and roman confused, and stray glyphs (for example Lcttorcm for Lectorem). The
+    Confession is readable in outline. Check every wording against the page image; the earlier
+    Cologne printing of 1535 is a separate item on Internet Archive (dlibra.kul.pl.P.XVI.804) and
+    was not vendored.
+- filename: comenius_historia-fratrum-bohemorum-lat_1702.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Comenius, Historia Fratrum Bohemorum (Halle, 1702): the Unity's later account of itself.
+    Internet Archive item bub_gb_WoZLAAAAcAAJ. Second witness for now, not quotable: a 1702 print
+    with the long s read as f throughout and many word-level misreads (word-form coverage against
+    a clean Latin vocabulary 0.42). A cleaner scan of Comenius's own text (1649-1660 manuscripts)
+    would serve as the quotable witness.
+- filename: chelcicky_sit-viry-ces_smetanka1912.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Chelčický, Síť víry (Prague, 1912, ed. Smetánka): the Czech text of the Net of Faith. Internet
+    Archive item stvry00chel. Primary original evidence in Czech, quotable once each wording is
+    checked against the page image. The Czech reads with its diacritics in the sample, with
+    occasional letter-level misreads and stray marks around the marginal notes; the woodcut pages
+    read as noise.
+- filename: piccolomini_historia-bohemica-lat_1524.txt
+  supplied_by: >-
+    Claude library/source-research thread (Library acquisition worker), fetched directly from
+    archive.org
+  date_added: '2026-09-30'
+  notes: >-
+    Piccolomini, Historia Bohemica (Cologne, 1524): a second printing of the Latin text beside the
+    1592 Frankfurt printing. Internet Archive item
+    bim_early-english-books-1641-1700_aeneas-silvius-sene_1524. Second witness for now, not yet
+    quotable: the printing is complete and free of interleaved marginal notes and keeps the long s
+    as ſ, but the OCR misreads many letters within words (for example de read as dc and nati as
+    nai; word-form coverage against a clean Latin vocabulary 0.60, about the same as the 1592
+    printing). It does not by itself supply a clean witness; check every wording against the page
+    image.

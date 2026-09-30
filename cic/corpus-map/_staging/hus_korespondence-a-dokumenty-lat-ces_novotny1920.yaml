@@ -1,0 +1,16 @@
+source_file: hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt
+assignments:
+- work: M. Jana Husi Korespondence a dokumenty (critical edition of Hus's letters and related documents)
+  author: hus
+  locus: whole volume
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: assigned
+  note: The critical edition of Hus's letters and the documents about them, in the Latin and Czech of
+    the originals, with Novotný's Czech introduction and footnotes. It prints Hus's letters in their original
+    languages, as a second critical text beside the letters in Palacký's Documenta. The vendored Workman
+    and Pope Letters is an English rendering of Hus's letters. Primary original evidence for the movement,
+    quotable once each wording is checked against the page image. The Latin letters read legibly; the
+    OCR scatters the edition's footnote marks and superscript digits through the lines, so quotations
+    need the printed page.

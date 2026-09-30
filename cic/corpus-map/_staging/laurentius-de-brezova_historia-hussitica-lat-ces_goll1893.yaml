@@ -1,0 +1,19 @@
+source_file: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt
+assignments:
+- work: Laurentii de Brzezowa Historia Hussitica (with Pulkava, the University chronicle and Bartošek
+    in the same volume)
+  author: laurentius-de-brezova
+  locus: the Historia Hussitica and the poem on Domažlice; the volume also holds the chronicles of Pulkava
+    (before the window), the University of Prague and Bartošek of Drahonice
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: 'Lawrence of Březová, an Utraquist chronicler close to the Prague university, on the Hussite movement
+    to 1422, in Latin. He is the main source for Tabor and the Adamites and is hostile to Tabor, so the
+    Taborite strand is seen through him and not in its own voice. The volume also holds Bartošek''s chronicle
+    of the Hussite period and the University''s chronicle. Second witness for now, not yet quotable: the
+    Latin is legible but the OCR carries frequent letter-level misreads and the editors'' manuscript variants
+    (numbered marks) interleaved with the text, for example reguum iutravil for regnum intravit. The Czech
+    chronicle parts read better. Check every quotation against the page image; the archive record''s own
+    date (1873) is wrong for this volume.'
