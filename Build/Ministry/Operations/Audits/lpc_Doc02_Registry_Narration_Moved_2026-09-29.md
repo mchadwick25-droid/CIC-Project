@@ -420,3 +420,200 @@ Removed fragment: `a source this world's own construction has so far drawn on on
 
 **C4. `Source_Registry.md`, row 65, line 83.** Was: `so these fourteen span more than one separately-numbered sequence`
 
+
+
+## D. Statements replaced or removed when the 2026-09-29 rulings and the recheck's findings were applied (verbatim, as they stood)
+
+Each entry gives the file, the row or section, the line as it stood before this pass, and the previous wording, word for word. The replacements are in the two files. Entries D1 onward cover statements that narrated an open question, described a state that was no longer true, or were replaced by the rulings; the new rows 243 to 272 have no previous wording.
+
+**D1. `Source_Registry.md`, line 3.**
+
+> **Approved to proceed** (self-disposed together with `Doc_02_Source_Ecology.md`, 2026-09-12, on Round 30's clearing verdict — 0 HIGH, 0 MEDIUM, 0 LOW, 1 disclosed COSMETIC), **and returned to independent review 2026-09-13, which has not yet returned.** This file has been edited after its disposition; no review artifact covers those edits, and until one does the approval stands on Round 30's verdict and not on the file as it now reads.
+
+**D2. `Source_Registry.md`, row 11, line 24.**
+
+> Ordinary episcopal correspondence — pastoral advice, administration, consolation, friendship (Doc_01 §6, §7); Letter CXXVI (to Albina, a.d. 411, the Pinianus-ordination riot) and Letter CCXI (to the Nuns of Hippo, a.d. 423, the monastic revolt), licensed specifically for Doc_02 §6's Article 20 discharge
+
+**D3. `Source_Registry.md`, row 14, line 27.**
+
+> **and Book II, chapter 51 (section 118), where Augustine answers Petilian by naming the chair "of the Roman Church, in which Peter sat, and which Anastasius fills to-day; or the chair of the Church of Jerusalem, in which James once sat, and in which John sits today," grounding `lpc.witness.apostolic-succession-of-bishops`**
+
+**D4. `Source_Registry.md`, row 14, line 27.**
+
+> Corpus map `role: tradition`, `confidence: assigned`; the body of the work was not independently re-collated for this document's own claims — see the sibling Donatism build's own Registry (row 4 there) for direct verification of this same work. **Book II, chapter 51 directly re-verified**
+
+**D5. `Source_Registry.md`, row 14, line 27.**
+
+> the quoted sentence is in section 118, in the paragraph beginning `118.  Augustin answered:`. The row's own confidence sits at A for that one locus and B for the rest, the same split shape row 11 already carries. The Latin original of this work, *Contra litteras Petiliani* (Petschenig, CSEL 52, 1909), is printed in the vendored file behind rows 214–217 (heading `CONTRA LITTERAS PETILIANI` at file line 24752; `LIBER SECUNDUS` at line 25771 and `LIBER TERTIUS` at line 33390) but has no corpus-map assignment or row in this world
+
+**D6. `Source_Registry.md`, row 33, line 46.**
+
+> The standard modern synthesis of North African Christian practice, liturgy, and material/social life across this world's own full span — originally recalled from field knowledge, not independently checked
+
+**D7. `Source_Registry.md`, row 33, line 46.**
+
+> This matches rows 30–32's WebSearch-verified-but-not-independently-read pattern (Confidence B there); whether Confidence should rise from C to B on the same basis is undecided (`Open_Gaps_Tracking.md` OG-20)
+
+**D8. `Source_Registry.md`, row 33, line 46.** Was: `| S | C | Native | — | The standard modern synthesis of North African Christian practice`
+
+**D9. `Source_Registry.md`, row 39, line 52.**
+
+> rows 191 and 194 for the actually-committed files and their own OCR-quality assessments.** The full CSEL 3 edition (Pars I–III) is therefore now vendored in this corpus.
+
+**D10. `Source_Registry.md`, row 44, line 58.**
+
+> **Confidence is B.** The Licensed-For content, the provision behind the fine Letter 185 §25 cites, has been read against the vendored file at *CTh* XVI.5.21 as stated above; which letter the calibration rule assigns on that reading is undecided
+
+**D11. `Source_Registry.md`, row 44, line 58.** Was: `| P | B | Native | — | The underlying imperial statute behind the Theodosian-law fine`
+
+**D12. `Source_Registry.md`, row 27, line 40.**
+
+> See the sibling Donatism build's own Registry (row 1) for direct verification of that entry, which this document does not repeat; see `lpc_Decision_Log.md` for the fuller record of this correction
+
+**D13. `Source_Registry.md`, row 64, line 82.** Was: `Labrousse remains real value as a modern check on it, in copyright, consultation-only**`
+
+**D14. `Source_Registry.md`, row 191, line 248.** Was: `only for cross-checking a specific reading against the vendored English translation | — | 2026-09-05`
+
+**D15. `Source_Registry.md`, row 193, line 250.** Was: `only for cross-checking a specific reading against the vendored NPNF translation | — | 2026-09-05`
+
+**D16. `Source_Registry.md`, row 78, line 102.**
+
+> but this specific volume's own identifier had not been located despite repeated searches across two rounds prior to — closed as stated above — disclosed rather than filled with an invented placeholder; see `Source_Acquisition_Manifest.md` G6.
+
+**D17. `Source_Registry.md`, row 88, line 118.** Was: `distinct from row 44's Confidence B, which rests on Mommsen and Meyer's own named critical edition`
+
+**D18. `Source_Registry.md`, row 211, line 276.**
+
+> **Not yet vendored, flagged rather than acted on unilaterally:** the same public-domain volume also carries a related, earlier von Soden article on the same general subject, "Der Ketzertaufstreit zwischen Stephanus von Rom und Cyprian von Karthago" (pp. 1–42) — directly relevant to this world's own rebaptism-controversy material but not itself named by any numbered Manifest item, named here for a future round rather than vendored outside the scope of the specific G8 request.
+
+**D19. `Source_Registry.md`, row 214, line 279.**
+
+> File header: Michael Petschenig, editor; CSEL LI (Pars I, 1908) and LIII (Pars III, 1910); Vienna: F. Tempsky, Leipzig: G. Freytag; `Rights: Public Domain`, `Language: lat`; an Internet Archive full-text OCR supplied as a DOCX file and converted mechanically; the header names no archive.org item identifier; the file was requested by the sibling Donatism build's Manifest G5.
+
+**D20. `Source_Registry.md`, row 214, line 279.** Was: `the one file behind rows 214–217. **Public domain** by date (1908–1910).`
+
+**D21. `Source_Registry.md`, row 217, line 282.** Was: `(`Constantine frater`, line 60984, Augustine speaking)`
+
+**D22. `Source_Registry.md`, row 217, line 282.** Was: ``Respondere diuersa sentientibus et a regula ueritatis errantibus, Constantine frater` (lines 60984 and again 61226 —`
+
+**D23. `Source_Registry.md`, row 225, line 290.** Was: `(the title page lists fourteen; the file header's content note says thirteen)`
+
+**D24. `Source_Registry.md`, row 226, line 291.** Was: `the title page, naming Wolfhard and Krueger (line 46);`
+
+**D25. `Source_Registry.md`, row 227, line 292.**
+
+> **Confidence C, not B:** the work is real and located by heading, but the misread rate means no wording can be relied on, so the row is tied to the work and not to any locus.
+
+**D26. `Source_Registry.md`, row 227, line 292.** Was: `| P | C | Native | — | The Latin of the Maurist sermons to the people,`
+
+**D27. `Source_Registry.md`, row 228, line 293.**
+
+> **Confidence C, not B:** the works are real and located by heading, but the misread rate means no wording can be relied on, so the row is tied to the works and not to any locus.
+
+**D28. `Source_Registry.md`, row 228, line 293.** Was: `| P | C | Native | — | The Latin of the *Tractates on the Gospel of John* (124)`
+
+**D29. `Source_Registry.md`, row 230, line 295.**
+
+> **Confidence C, not B:** the work is real and located by heading, but the misread rate and the unsettled ascription mean the row is tied to the collection and not to any locus.
+
+**D30. `Source_Registry.md`, row 230, line 295.** Was: `| P | C | Native | — | The sermons Caillau published in 1842 as Augustine's`
+
+**D31. `Source_Registry.md`, row 229, line 294.**
+
+> Licensed for Augustine's preaching to his congregation as the title page attributes it, and for the completeness qualifier on rows 11 and 19 alongside rows 49–50 and 189: sermons that the Maurist corpus (rows 19, 227) lacks. Not licensed for the ascription of any one sermon, which Morin's own commentary discusses and this file does not decide; not licensed for the nine tractatus, whose authors and dates this row has not established, so their boundary status is not assigned. Not currently drawn on for a specific claim
+
+**D32. `Source_Registry.md`, row 229, line 294.**
+
+> **Checked against the file:** the title-page year, which the OCR prints `MCMXVH` (line 100), and the imprimatur date `Septembris MCMXVII` (line 118); the heading `TRACTATVS TRIQINTA TRES` (line 1775, the OCR's own misspelling of the printed heading); `TRACTATVS NOVEM` (line 10303).
+
+**D33. `Source_Registry.md`, row 231, line 296.**
+
+> | Native for the Cyprianic acts licensed here (nos. 13, 15 and 16); the Scillitan and Perpetua portions carry the exclusions of rows 28 and 204; the other acts are not assessed | Scillitan martyrs (no. 6): Excluded, Named Comparandum, on the ground of row 28. Passion of Perpetua and Felicitas (no. 8): Out-of-Boundary, on the ground of row 204 |
+
+**D34. `Source_Registry.md`, row 232, line 297.**
+
+> | Native for the Cyprianic acts licensed here (nos. XI, XIII and XIV); the Scillitan and Perpetua portions carry the exclusions of rows 28 and 204; the other acts are not assessed | Scillitan martyrs (no. IV): Excluded, Named Comparandum, on the ground of row 28. Passion of Perpetua and Felicitas (no. VII): Out-of-Boundary, on the ground of row 204 |
+
+**D35. `Source_Registry.md`, line None.**
+
+> 3rd revised edition by Gustav Krueger (Tübingen: J. C. B. Mohr [Paul Siebeck], 1929) | P | B | Native | — | The Latin of three African acts of the Cyprianic period, in a collection with German headnotes:
+
+**D36. `Source_Registry.md`, row 231, line 296.**
+
+> Corpus map: entry `Acta Proconsularia of Cyprian, Latin (Knopf-Krueger 1929, no. 13)` in `cic/corpus-map/latin-pastoral-congregational-christianity.yaml`, `role: tradition`, `confidence: provisional`, from the staging file `cic/corpus-map/_staging/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.yaml`. Sibling entries for nos. 6, 15 and 16 (the Scillitan martyrs, Marianus and Jacobus, Montanus and Lucius) are all `role: tradition`, `confidence: provisional`; no. 13 is `role: tradition`, `confidence: provisional` too, from the staging file `cic/corpus-map/_staging/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.yaml`. **Checked against the file:** `13. Akten Cyprians` (line 4820) and its opening, `Imperatore Valeriano quartum et Gallieno tertium consulibus` (line 4823); `PASSIO SANCTORVM SCILITANORVM` (line 2438); `Passio Perpetuae` (line 3538). The header lists the African acts of nos. 6, 8, 13, 15, 16, 19–22 and 29; nos. 15 and 16 were located by their heading only, and nos. 19–22 and 29 were not opened.
+
+**D37. `Source_Registry.md`, row 231, line 296.** Was: `**Confidence B:** the acts are named and located accurately, and the *Acta Cypriani* opening was read, but the other acts and the rest of the text were not.`
+
+**D38. `Source_Registry.md`, line None.** Was: `(Berlin: Alexander Duncker, 1902) | P | B | Native | — | The Latin of the same three African acts as row 231, from an independent edition:`
+
+**D39. `Source_Registry.md`, row 232, line 297.**
+
+> Corpus map: entry `Acta Proconsularia of Cyprian, Latin (Gebhardt 1902, no. XI)` in `cic/corpus-map/latin-pastoral-congregational-christianity.yaml`, `role: tradition`, `confidence: provisional`, from the staging file `cic/corpus-map/_staging/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.yaml`. Sibling entries for nos. IV, XIII and XIV are all `role: tradition`, `confidence: provisional`; no. XI is `role: tradition`, `confidence: provisional` too, from the staging file `cic/corpus-map/_staging/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.yaml`. **Checked against the file:** `Acta S. Cypriani episcopi et martyris` (line 6474) and its opening, `Imperatore Valeriano ... tertium consulibus` (lines 6481–6482, a line break inside the phrase); `Passio Sanctorum Secillitanorum` (line 1560); `Passio SS. Mariani et Iacobi` (line 6920); `Passio SS. Montani et Lucii` (line 7492). The opening reads the same as row 231's.
+
+**D40. `Source_Registry.md`, row 232, line 297.** Was: `The header does not assess the OCR, and the Greek acts are not recoverable from it.`
+
+**D41. `Doc_02_Source_Ecology.md`, line 3.** Was: `The corrections dated 2026-09-29 answer `Review-Artifacts/Doc02_Returned_Review_Independent_Check_2026-09-29.md`.`
+
+**D42. `Doc_02_Source_Ecology.md`, line 13.** Was: `holds 151 raw entries, 131 `tradition`-role entries and 129 distinct `tradition` titles.`
+
+**D43. `Doc_02_Source_Ecology.md`, line 13.** Was: `(98 raw, 96 `tradition`, 44 distinct `tradition` titles)`
+
+**D44. `Doc_02_Source_Ecology.md`, line 13.** Was: `The counts were made on 2026-09-29 and checked a second way, by counting the `- work:` and `role: tradition` lines of each of the three files;`
+
+**D45. `Doc_02_Source_Ecology.md`, line 13.** Was: `The corpus map's own raw entry count is 151, not 131: twenty of the 151 are `role: context``
+
+**D46. `Doc_02_Source_Ecology.md`, line 13.** Was: `The 131 `tradition` entries also contain two exact-title duplicates`
+
+**D47. `Doc_02_Source_Ecology.md`, line 13.** Was: `and thirty-nine further second-witness entries for works another entry already counts`
+
+**D48. `Doc_02_Source_Ecology.md`, line 13.**
+
+> and the passions of Marianus and Jacobus and of Montanus and Lucius (one further entry each; rows 231–232). Of the other Petschenig entries, *Contra Epistulam Parmeniani*, *Contra Cresconium* and *De Unico Baptismo* (rows 215–217) have no English translation vendored, and are counted once. The 131 entries less the two duplicates and the thirty-nine second witnesses leave 90 works counted once.
+
+**D49. `Doc_02_Source_Ecology.md`, line 15.** Was: `carries the ordinary congregational content: catechesis, almsgiving, and, in *De Mortalitate*'s case, lived pastoral response to the plague of the 250s.`
+
+**D50. `Doc_02_Source_Ecology.md`, line 17.** Was: `both directly and repeatedly re-verified at source across Doc_01's nine review rounds (Registry rows 12–13);`
+
+**D51. `Doc_02_Source_Ecology.md`, line 23.** Was: `and this document does not draw on him for any specific claim. The corpus map's own current state`
+
+**D52. `Doc_02_Source_Ecology.md`, line 29.** Was: `including the spuria and the Vita (Hartel's CSEL 3, complete, rows 191 and 194);`
+
+**D53. `Doc_02_Source_Ecology.md`, line 29.** Was: `the only public scan of CSEL 58 is a 1961`
+
+**D54. `Doc_02_Source_Ecology.md`, line 29.**
+
+> and four of Augustine's anti-Donatist works from Petschenig's CSEL 51–53 volume (rows 214–217), *De Baptismo*, the Latin of row 13, and, with no English translation of them vendored anywhere in this corpus, *Contra Epistulam Parmeniani*, *Contra Cresconium* and *De Unico Baptismo*.
+
+**D55. `Doc_02_Source_Ecology.md`, line 29.** Was: `*Contra Epistulam Parmeniani*, *Contra Cresconium* and *De Unico Baptismo* (rows 215–217) are the same case.`
+
+**D56. `Doc_02_Source_Ecology.md`, line 47.** Was: `and *On Baptism, Against the Donatists* (Petschenig's CSEL 51, row 214, a modern critical edition). **Not yet closed`
+
+**D57. `Doc_02_Source_Ecology.md`, line 47.**
+
+> the Tractates on John and related exegetical works (row 21), or the Latin of row 14 (*Answer to the Letters of Petilian*) as an assigned entry of this world: its Latin original, *Contra litteras Petiliani*, is printed in the Petschenig volume vendored behind rows 214–217 (CSEL 52) but that work has no corpus-map assignment or row here. Row 13
+
+**D58. `Doc_02_Source_Ecology.md`, line 68.**
+
+> Confidence C — the standard modern synthesis of North African Christian practice and material life across this world's own span, WebSearch-verified in a post-disposition pass
+
+**D59. `Doc_02_Source_Ecology.md`, line 68.**
+
+> five sources in total (Registry row 33). Flagged instead for the Confidence-letter decision the Registry's own row states is a substantial revision not self-applied post-disposition — not for further second-opinion review, which row 33 already satisfies.
+
+**D60. `Source_Registry.md`, row 11, line 24.**
+
+> **Confidence A, a question named rather than settled:** the row's own Licensed-For has two parts — a body-level characterization of all 138 letters ("ordinary episcopal correspondence... friendship") and four specifically located letters (XXXI, CCXIII, CXXVI, CCXI). All four specific loci are directly verified; the general characterization of the other 134 is not. Row 3 sits at B rather than A on precisely this shape of reasoning — what a citation verified, not a locus-by-locus check of the whole. Whether the same downgrade applies here is not decided; named as an open question for the next review round rather than resolved by this row's own say-so.
+
+**D61. `Source_Registry.md`, saturation statement, Field-bibliography sweep, Method, line 331.** Was: `The others were opened and their title pages read; none was read through.`
+
+**D62. `Source_Registry.md`, saturation statement, Field-bibliography sweep, Method, line 331.**
+
+> It holds Augustine (41 files), Arnobius, Commodian, Lactantius, Minucius Felix, Tertullian and pseudo-Tertullian, among others. It holds no Cyprian, Optatus or Tyconius textgroup.
+
+**D63. `Source_Registry.md`, row 14, line 27.**
+
+> The most extensive surviving Donatist voice preserved inside the vendored corpus, in Augustine's own refutation (Doc_01, on the sibling Donatism build's own use);
+
+This opening clause of the Licensed-For cell moved to row 244.
+
+**D64. `Source_Registry.md`, row 229, line 294.** Was: `**Confidence B:** the volume and its two sets of sermons are named and located accurately by heading, but no sermon was read and the ascription of each is unsettled.`

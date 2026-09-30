@@ -13,6 +13,35 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-29 — lpc Registry rulings: row letters, no split letters, Petschenig placements
+
+**Rulings.** The project lead chose, from options with recommendations, in
+one session, on the questions the Library put to him after the lpc readiness
+sweep. He chose "Raise to A" for row 44; "Raise to B" for row 33; "No split;
+narrow the rows" for rows 11 and 14; "Seven authentic works, in lpc and
+Donatism" for the eight further Petschenig works; "Re-letter to B; rule
+unchanged" for rows 227, 228 and 230; "Split into one row per status" for
+rows 231, 232 and 229; and "Accept all four" for the remaining letters
+(Petschenig rows at A, TEI and scan rows at B, scholarship rows at C, row 225
+at B). He also ruled "retire the CSEL 58 file per the Johnson precedent".
+
+**What each changed.** Row 44 to A on the ground that its narrow Licensed-For
+was itself read and verified. Row 33 to B, matching rows 31 and 32. Rows 11
+and 14 narrowed with new B rows for the wider claims. Rows 227, 228, 230 to B.
+The Petschenig works: Contra litteras Petiliani, Epistula ad catholicos,
+Breviculus collationis, Contra partem Donati post gesta, Sermo ad Caesariensis,
+Gesta cum Emerito and Contra Gaudentium were added to the `lpc` and
+`donatism` shelves as tradition; the Sermo de Rusticiano, which the editor
+prints as spurious, stays unassigned. CSEL 58 moved to
+`Archive/Retired-Library-Texts/`. Row 229 was not split because it holds one
+Native group and unassessed sermons; whether that reading is right is put to him.
+
+**Not changed.** The Registry's Confidence calibration rule text is not
+amended; a change to it would be a methodology change that comes from the
+Template and applies to every world.
+
+---
+
 ## 2026-09-29 — Step 0 of the Greek and Latin Apologists: Approved to proceed
 
 **Disposition, by the Library thread (no escalation category applies).**
