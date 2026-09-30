@@ -14,6 +14,7 @@ from engine.m1.quote_verbatim import (
     strip_apparatus,
     strip_edition_apparatus,
     strip_xml_markup,
+    iter_source_notes,
     verify_quote_against_notes,
     verify_quote_text,
 )
@@ -72,6 +73,7 @@ class TextStore:
         self._raw: dict[str, str | None] = {}
         self._plain: dict[str, str] = {}
         self._search: dict[str, str] = {}
+        self._unstripped: dict[str, str] = {}
         self._processed: dict[str, str] = {}
         self._unit_cache: dict[str, list[dict]] = {}
         self.prefixes: dict[str, list[str]] = {}
@@ -89,7 +91,9 @@ class TextStore:
             if not path.is_file():
                 self._raw[name] = None
             else:
-                raw = strip_edition_apparatus(path.read_text(encoding="utf-8", errors="replace"), name)
+                whole = path.read_text(encoding="utf-8", errors="replace")
+                self._unstripped[name] = whole
+                raw = strip_edition_apparatus(whole, name)
                 self._raw[name] = raw
                 self._plain[name] = strip_xml_markup(raw) if path.suffix == ".xml" else raw
         raw = self._raw[name]
@@ -109,7 +113,8 @@ class TextStore:
         if self._load(name) is None:
             return False
         if name not in self._search:
-            self._search[name] = _squash(self._proc(name))
+            notes = " ".join(text for _, text in iter_source_notes(self._unstripped[name]))
+            self._search[name] = _squash(self._proc(name) + " " + normalize_archaic_letterforms(strip_apparatus(notes))[0])
         words = _squash(normalize_archaic_letterforms(span)[0]).split()
         if len(words) < 4:
             return True
@@ -147,7 +152,7 @@ class TextStore:
         result = verify_quote_text(span, plain, source_is_xml=False)
         if result.verified:
             return result
-        return verify_quote_against_notes(span, raw) or result
+        return verify_quote_against_notes(span, self._unstripped[name]) or result
 
     def _units(self, name: str) -> list[dict]:
         if name not in self._unit_cache:

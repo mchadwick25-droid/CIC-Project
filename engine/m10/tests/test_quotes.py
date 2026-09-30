@@ -89,6 +89,14 @@ def test_screen_never_accepts_what_the_matcher_rejects(tmp_path):
     assert result is None or not result.verified
 
 
+def test_a_quotation_printed_only_in_an_editorial_note_passes_the_screen_and_verifies(tmp_path):
+    body = "<text><p>alpha beta gamma delta epsilon zeta</p><note id=\"n1\">the bishop wrote: omega psi chi phi upsilon tau sigma</note></text>"
+    write(tmp_path, "cic/texts/a_x.xml", body)
+    store = TextStore(tmp_path / "cic/texts")
+    assert store.may_contain("omega psi chi phi upsilon tau", "a_x.xml")
+    assert store.verify("omega psi chi phi upsilon tau", "a_x.xml").verified
+
+
 INVENTED = "the presbyters of the northern hills burned every copy of the letter in the square"
 
 
