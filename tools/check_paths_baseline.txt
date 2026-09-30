@@ -711,8 +711,6 @@ Build/worlds/lpc/Review-Artifacts/WorldProfile_Round2_Review.md: World-Builds/Al
 Build/worlds/lpc/Review-Artifacts/WorldProfile_Round2_Review.md: World-Builds/Syriac-Christianity-Edessa-Nisibis/syr_World_Profile.md
 Build/worlds/lpc/Review-Artifacts/WorldProfile_Round4_Review_Consistency.md: records/worlds.yaml
 Build/worlds/lpc/Source_Registry.md: Archive/Microsoft
-Build/worlds/lpc/Source_Registry.md: cic/corpus-map/tertullian-s-voice.yaml
-Build/worlds/lpc/Source_Registry.md: cic/texts/npnf106_...xml
 Build/worlds/lpc/Source_Registry.md: records/lpc/search_record
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md
@@ -732,7 +730,6 @@ Build/worlds/lpc/lpc_Decision_Log.md: World-Builds/Latin-Pastoral-Congregational
 Build/worlds/lpc/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
 Build/worlds/lpc/lpc_Decision_Log.md: packages/lpc
 Build/worlds/lpc/lpc_Decision_Log.md: records/worlds.yaml
-Build/worlds/lpc/lpc_Decision_Log.md: records/worlds/lpc.yaml
 Build/worlds/lpc/lpc_World_Profile.md: L4-Templates/World_Profile_Template.md
 Build/worlds/lpc/lpc_World_Profile.md: World-Builds/Donatism/don_Decision_Log.md
 Build/worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md: Build/Ministry/Operations/CiC_L1-L5_Systematic_Audit_2026-07-19.md

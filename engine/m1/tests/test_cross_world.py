@@ -87,7 +87,7 @@ def test_a_world_missing_from_table_html_is_caught():
     broken = {**registry, "w7": {"census_id": "not-a-real-census-id-in-table-html"}}
     keys = {f.key for f in cross_world.check_table_html_worlds(registry=broken, worlds=worlds + ["w7"])}
     assert "table-html-world/w7" in keys
-    assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=worlds)}
+    assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=cross_world._compiled(registry, worlds))}
 
 
 def test_the_lpc_unregistered_dir_is_caught():
@@ -308,3 +308,19 @@ def test_every_check_defined_in_the_module_is_wired_into_the_report():
     }
     wired = {c.__name__ for c in cross_world.CHECKS}
     assert defined == wired, f"defined but not in CHECKS: {sorted(defined - wired)}"
+
+
+def test_registry_shape_measures_only_compiled_worlds_and_ignores_safety_adjacent():
+    """A world with no `state` is not yet compiled, so it is neither measured
+    against the fleet's key set nor allowed to widen it; `safety_adjacent`
+    is enforced at handoff, not as a fleet-wide key."""
+    full = {"kind": "formation", "world_id": "a", "state": "admitted", "display_name": "A", "package": {}}
+    older = dict(full, world_id="b")
+    stub = {"kind": "formation", "world_id": "c", "census_id": "c", "safety_adjacent": False}
+    registry = {"a": full, "b": older, "c": stub}
+    findings = cross_world.check_registry_shape(registry=registry, worlds=["a", "b", "c"])
+    assert findings == []
+    missing = {"kind": "formation", "world_id": "d", "state": "admitted"}
+    registry["d"] = missing
+    keys = {f.key for f in cross_world.check_registry_shape(registry=registry, worlds=["a", "b", "c", "d"])}
+    assert keys == {"registry-key-set/d"}

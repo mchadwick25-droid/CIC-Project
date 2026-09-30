@@ -96,13 +96,9 @@ ACCEPTED_OPEN: dict[str, str] = {
     "figure-dates-keys/hal": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
+    "figure-dates-keys/lpc": "all 7 lpc figure records key figure.dates as `display` and carry build references and record ids in the participant-facing text; owner: the lpc build thread, Phase L2 (records to V2.0 Phase B), Open_Gaps_Tracking OG-26; remove when the seven are rewritten as born/died/floruit in plain prose.",
+    "ui-field-leak/lpc": "the same 7 lpc figure dates fields leak record ids and build references to the participant; owner: the lpc build thread, Phase L2, Open_Gaps_Tracking OG-26; remove with the figure-dates-keys entry above.",
     "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
-    # check_unregistered_world_dirs's own first real finding. records/lpc/
-    # exists but carries no records/worlds/lpc.yaml entry, so lpc is
-    # invisible to load_registry() and everything downstream of it, gates
-    # and checks alike. Belongs to lpc's own build thread; remove this
-    # entry once lpc is registered.
-    "unregistered-world-dir/lpc": "CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
     #
     # required-record-type/witt/* and required-site-json/witt:
     # check_required_record_types_and_site_json's own findings, keyed per
@@ -473,6 +469,13 @@ def _observation(check, scope, message) -> Finding:
 # stage 1: the registry against itself
 # --------------------------------------------------------------------------
 
+def _compiled(registry, worlds):
+    """Worlds that carry a `state`. A world without one is authored but not yet
+    compiled, so the serving layer (package pin, app assets, site page, Table
+    seat) has nothing to check until it is admitted."""
+    return [w for w in worlds if "state" in registry[w]]
+
+
 def check_registry_shape(*, registry, worlds, **_) -> list[Finding]:
     """Every formation world's registry entry carries the same key set. A
     world that is simply MISSING a key the others have is the exact shape of
@@ -481,8 +484,13 @@ def check_registry_shape(*, registry, worlds, **_) -> list[Finding]:
     all along."""
     findings = []
     keysets = {w: set(registry[w]) for w in worlds}
-    universe = set().union(*keysets.values())
-    for w in worlds:
+    # A world with no `state` is not yet compiled: its card and package keys
+    # come at admission, so it neither sets the key universe nor is measured
+    # against it. `safety_adjacent` is enforced at handoff (engine/m10),
+    # which exempts the grandfathered worlds, so it is not a fleet-wide key.
+    compiled = [w for w in worlds if "state" in keysets[w]]
+    universe = set().union(*(keysets[w] for w in compiled)) - {"safety_adjacent"}
+    for w in compiled:
         for missing in sorted(universe - keysets[w]):
             findings.append(_defect("registry-key-set", w, f"registry entry has no {missing!r} key; the other formation worlds do"))
         for key in sorted(universe):
@@ -1305,14 +1313,19 @@ CHECKS = [
 ]
 
 
+# The checks of the serving layer: they apply to a world only once it is compiled.
+SERVING_CHECKS = (check_package_pinned, check_app_world_assets, check_site_portraits, check_table_html_worlds)
+
+
 def run_all() -> list[Finding]:
     registry = load_registry()
     worlds = formation_world_keys(registry)
     records = {w: load_world_records(w) for w in worlds}
     context = {"registry": registry, "worlds": worlds, "records": records}
     findings: list[Finding] = []
+    served = {**context, "worlds": _compiled(registry, worlds)}
     for check in CHECKS:
-        findings.extend(check(**context))
+        findings.extend(check(**(served if check in SERVING_CHECKS else context)))
     return findings
 
 

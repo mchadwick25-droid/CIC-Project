@@ -1502,3 +1502,17 @@ File: `Review-Artifacts/Doc02_Registry_FixPass_Recheck_2026-09-30.md` (Opus 5.5,
 **Open P2.** Row 227 places `CLASSIS V` at 117125; it is at 117124. Rows 267 to 272 lack the sentence giving the reason for Confidence A. Rep Phase 3 line 80 quotes row 204 as "the corpus map's ruling"; the row says "by prior ruling". World core line 436 still says "207 of the Registry's 212 rows". The succession witness text says "Counting back from" where Letter LIII counts forward from Peter. "Donatism's territory" and "hold it provisionally" are build vocabulary in a spoken field. Doc_05 and Doc_08 still carry commentary the checker flags.
 
 **Routing.** The silence claim and row 265 wait on the project lead. The generator, row 227, rows 267 to 272, Rep Phase 3, world core and witness items are the lpc build thread's, to fix after that decision.
+
+### OG-26. The `lpc` registry entry created with `safety_adjacent: false`, the fleet audit changed to fit a world that is not yet compiled, and the two waivers that follow, 2026-09-30.
+
+**Decided by the project lead, 2026-09-30.** `safety_adjacent` is `false` for `lpc`, set on the new registry entry (the world file under `records/worlds/`). Evidence: a read-only keyword search of `records/lpc/`, the story and lexicon chunks and Docs 04, 08 and 09 found no suicide or self-harm material; Circumcellions appear only as background source context; the material near distress is historical persecution, grief and penance. Lean validation stays the default; thin evidence, a Contested Primary claim or a fabrication finding still trigger full validation.
+
+**The entry** carries only what the files give: kind, world_id, census_id and the flag. It has no `state`, card fields or package, which come at admission. Its `state` is the project lead's to give.
+
+**Audit change, approved by the project lead.** In `engine/m1/cross_world.py`: (1) a world with no `state` neither sets nor is measured against the fleet's registry key set; (2) `safety_adjacent` is not a fleet-wide key, because handoff check 1 enforces it and already exempts the grandfathered worlds; (3) the serving-layer checks (package pin, app assets, site portrait, Table seat) run only on worlds that carry a `state`. A new test covers the key-set rule, and one existing test now passes the compiled worlds. The stale `unregistered-world-dir/lpc` waiver is removed. Alternatives considered: fill the whole entry now (needs the Representative's identity, a packaged choice not yet made); register about 22 waivers (a workaround).
+
+**Waivers registered (`ACCEPTED_OPEN`, owner: lpc build thread, Phase L2).** `figure-dates-keys/lpc` and `ui-field-leak/lpc`: the seven `lpc` figure records key `dates` as `display` and carry build references ("this session", "Doc_01 SS2") and record ids in text a participant reads. To be rewritten as born, died or floruit in plain prose, then both waivers removed.
+
+**Also decided.** The `wb_lpc_s2x` generators: retire to `Archive/` once the records phase confirms nothing depends on them, because the records now differ from what they produce (207 records generated against 208 committed; five differ). Rows 215 to 217 of the Registry lack the Confidence A sentence the Petschenig rows now carry; to be added at the next Registry pass.
+
+**Not `lpc`'s.** `tools/check_paths.py` reports one new unresolved citation, in `Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md` (`cic/corpus-map/_staging/anf08_...yaml`). Flagged for the grkap owner.
