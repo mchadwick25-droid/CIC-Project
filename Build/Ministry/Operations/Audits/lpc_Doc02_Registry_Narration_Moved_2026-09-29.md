@@ -617,3 +617,7 @@ Each entry gives the file, the row or section, the line as it stood before this 
 This opening clause of the Licensed-For cell moved to row 244.
 
 **D64. `Source_Registry.md`, row 229, line 294.** Was: `**Confidence B:** the volume and its two sets of sermons are named and located accurately by heading, but no sermon was read and the ascription of each is unsettled.`
+
+## Part E: Discovery-cell change history removed from rows 243–248 (2026-09-30)
+
+Removed verbatim from the Discovery cells: "body-level claim carried apart from row 11 / 2026-09-29" (row 243), "whole-work claim carried apart from row 14 / 2026-09-29" (row 244), "portion of row 231 carried apart from it / 2026-09-29" (rows 245, 246), "portion of row 232 carried apart from it / 2026-09-29" (rows 247, 248). Row 265's boundary status changed from "Not assessed for this world" to Excluded (Out-of-Boundary), because the Registry Template allows only Native or Excluded.
