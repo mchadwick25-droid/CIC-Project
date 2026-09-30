@@ -11,10 +11,11 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Named in Doc_01 SS5 as 'not vendored in this corpus' at this row's own original drafting
-    -- the source of NPNF's own editorial note on the Megalius/primate-of-Numidia identification. Now
-    vendored under row 192, and read in full (all thirty-one chapters, Review-Artifacts/Possidius_Full_Read_2026-09-16.md)
-    -- this row is the standing reference to the work, row 192 the fulfillment record.
+  divergence_note: 'Vendored under row 192 (cic/texts/possidius_vita-augustini_weiskotten1919.txt) and read
+    in full on 2026-09-16 (all thirty-one chapters, Review-Artifacts/Possidius_Full_Read_2026-09-16.md).
+    The Megalius/primate-of-Numidia identification is named directly in the Vita at chapter VIII (the
+    chapter heading at file line 2075, the narrative at line 2131), and Doc_01 SS5 cites it there. This
+    row is the standing reference to the work; row 192 is the fulfillment record.'
 sources: []
 relations: []
 author: Possidius, bishop of Calama
@@ -32,4 +33,4 @@ discovery_channel: Doc_01 SS5's own disclosure / field knowledge / 2026-09-01; r
 external_ids:
   lpc_source_registry_row: 45
 ---
-Augustine's own formation-narrative counterpart to Pontius's Life of Cyprian (row 7); the source, via NPNF's own editorial apparatus, for the Megalius/primate-of-Numidia identification Doc_01 SS5 names.
+Augustine's own formation-narrative counterpart to Pontius's Life of Cyprian (row 7); the source, directly at Vita chapter VIII, for the Megalius/primate-of-Numidia identification Doc_01 SS5 cites.

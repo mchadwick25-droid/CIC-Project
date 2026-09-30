@@ -256,8 +256,9 @@ thinness: >-
 
   The recorded acts of the 411 Conference, the Gesta, remain largely untapped. They are a live,
   recorded route to Augustine's own voice among named Donatist bishops. He speaks in at least
-  fourteen numbered acts. The Gesta sit in this world's own collection, and they bear on the
-  question of what councils can decide. But we have not yet drawn on them.
+  thirteen numbered acts, and act 14 is a further speech. The Gesta sit in this world's own collection,
+  and they bear on the question of what councils can decide. This world draws one narrow fact from
+  them: act 158 is Augustine's signature on a mandate, not a speech.
 cautions: >-
   1) Resting on two bishops is a real limit, but it is not the Donatist problem. In the Donatist
   world, nearly the whole record comes through opponents; here, both bishops speak in this
@@ -298,8 +299,8 @@ cautions: >-
   5) Two imperial laws are easily confused. The fine at Codex Theodosianus XVI.5.21 (392) is not the
   same provision as XVI.5.52 (412). Between them falls the council of 401 that Letter 185, section
   25, records. These are three different years under different emperors, easily collapsed into one
-  another. The graded schedule of silver fines aimed at Donatists in XVI.5.52 belongs to the
-  Donatist world, not this one.
+  another. The graded schedule of fines aimed at Donatists in XVI.5.52 is set mostly in pounds of gold, with
+  ten pounds of silver for the Circumcellions. It belongs to the Donatist world, not this one.
 
 
   6) What councils can decide is held open, not settled. Cyprian's theory of authority among bishops
@@ -322,10 +323,11 @@ cautions: >-
   is not a claim about which world he actually belongs to.
 
 
-  9) The rich record of the 411 Conference does not widen what it can support. In fourteen numbered
-  acts, Augustine speaks among named Donatist bishops, and each act has been counted and quoted. But
-  we still date the Conference by its ordinary, undisputed dating, not by any reading of those acts.
-  The acts are available for later use, but nothing here draws on them yet.
+  9) The rich record of the 411 Conference does not widen what it can support. In at least thirteen
+  numbered acts, Augustine speaks among named Donatist bishops, and act 14 is a further speech. The
+  scan is poor, so the number is a floor. We still date the Conference by its ordinary, undisputed
+  dating, not by any reading of those acts. The acts are available for later use. Only one narrow
+  fact is drawn from them: act 158 is a subscription to a mandate, not a speech.
 
 
   10) The modern scholarly literature on this world has not been fully surveyed. Fourteen rounds of
@@ -431,4 +433,4 @@ TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conve
 
 WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` states the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
 
-REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- `tertullian-s-voice` -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.
+REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- the corpus-map bucket `latin-apologists` -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.

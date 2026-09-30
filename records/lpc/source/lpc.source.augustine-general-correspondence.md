@@ -11,13 +11,12 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: 'Confidence A covers two things: a body-level characterization of all 138 letters (''ordinary
-    episcopal correspondence... friendship'') and four specifically located letters (XXXI, CCXIII, CXXVI,
-    CCXI), all four directly re-verified against source. The general characterization of the other 134
-    is NOT independently checked -- named as an open question for a future review round rather than resolved
-    by this row''s own say-so, the same shape of reasoning row 3 already carries for its own Confidence
-    B. Letter XXXI SS4 and Letter CCXIII SS4 ground Doc_01''s own ordination account; Letters CXXVI and
-    CCXI ground Doc_02 SS6''s Article 20 discharge.'
+  divergence_note: 'Confidence A covers four specifically located letters only (XXXI, CCXIII, CXXVI, CCXI),
+    each directly re-verified against source. The body-level characterization of all 138 letters (''ordinary
+    episcopal correspondence... friendship'') is not covered by this letter: it is carried at Registry
+    row 243, at Confidence B, and the other 134 letters were not independently checked. Letter XXXI SS4
+    and Letter CCXIII SS4 ground Doc_01''s own ordination account; Letters CXXVI and CCXI ground Doc_02
+    SS6''s Article 20 discharge.'
 sources: []
 relations: []
 author: Augustine of Hippo
@@ -38,4 +37,4 @@ discovery_channel: 'corpus map / cic/corpus-map/_staging/npnf101_augustine-confe
 external_ids:
   lpc_source_registry_row: 11
 ---
-Ordinary episcopal correspondence -- pastoral advice, administration, consolation, friendship (Doc_01 SS6, SS7); Letter CXXVI (to Albina, a.d. 411, the Pinianus-ordination riot) and Letter CCXI (to the Nuns of Hippo, a.d. 423, the monastic revolt), licensed specifically for Doc_02 SS6's Article 20 discharge.
+Four letters, each verified at source: Letter XXXI SS4 and Letter CCXIII SS4, which ground Doc_01's ordination account; Letter CXXVI (to Albina, a.d. 411, the Pinianus-ordination riot) and Letter CCXI (to the Nuns of Hippo, a.d. 423, the monastic revolt), licensed specifically for Doc_02 SS6's Article 20 discharge. The characterization of the whole body of 138 letters as ordinary episcopal correspondence -- pastoral advice, administration, consolation, friendship (Doc_01 SS6, SS7) -- is Registry row 243, at Confidence B, not licensed by this record's Confidence A.

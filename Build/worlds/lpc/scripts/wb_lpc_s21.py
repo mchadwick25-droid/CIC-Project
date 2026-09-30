@@ -38,7 +38,7 @@ INPUTS, mapped to OUTPUTS, precisely:
     physical portions and is Excluded on BOTH: its Scillitan-Martyrs portion
     mirrors row 28 exactly (a second-witness Latin/Greek text of the same
     excluded work), and its Perpetua-and-Felicitas portion is not merely
-    Excluded but ASSIGNED TO A THIRD WORLD ENTIRELY -- `tertullian-s-voice`
+    Excluded but ASSIGNED TO A THIRD WORLD ENTIRELY -- the corpus-map bucket `latin-apologists`
     -- neither portion is Native to `lpc` on any reading. All five
     are deliberately NOT emitted, following the don/cappadocian precedent
     exactly (wb_don_s21.py's own module docstring: "Only rows with Boundary
@@ -111,9 +111,9 @@ itself, applied here to a differently-shaped Registry:
     Registry itself hold Native on the Template's own second test -- drawn
     on directly as this world's own first-person account of Augustine's
     change of mind, not as evidence about Donatism's side); and row 65 (the
-    411 Conference acts), this Registry's own richest single row -- fourteen
-    numbered acts in which Augustine speaks, independently counted and
-    quoted, inside a vendored file this world's own corpus-map now assigns
+    411 Conference acts), this Registry's own richest single row -- a floor
+    of thirteen numbered acts in which Augustine speaks, independently counted
+    (act 14 is a further speech), inside a vendored file this world's own corpus-map now assigns
     `role: context` -- whose own Licensed-For nonetheless stays exactly
     where it started (the Conference's ordinary, undisputed date), a
     disclosed gap between what was found and what is drawn on that this
@@ -202,7 +202,7 @@ itself, applied here to a differently-shaped Registry:
     Registry's own Confidence (A-E) column, including the two rows whose
     own header states a letter was raised or corrected in place (row 56,
     raised C->B on a resolved public-domain finding; row 88, held at C
-    deliberately distinct from row 44's own B).
+    deliberately distinct from row 44's own A).
 
   - confidence.verification_state: AUTHORED, through the Registry's OWN
     stated calibration rule (Source_Registry.md's own "Confidence
@@ -666,8 +666,9 @@ ROWS: list[dict] = [
                    "the Theodosian fine, 'we carried our point... envoys were sent to the court of "
                    "the Count', and SS26's own record that the petition was not granted. The same "
                    "distinction applies to CTh XVI.5.21 (392, the actual fine cited here), the 401 "
-                   "council, and CTh XVI.5.52 (412, a different Donatist-specific schedule this row "
-                   "does NOT license) -- three different years under different emperors, easily "
+                   "council, and CTh XVI.5.52 (412, a graduated Donatist-specific schedule, assessed "
+                   "in pounds of gold except for the circumcelliones, who are assessed in silver, "
+                   "which this row does NOT license) -- three different years under different emperors, easily "
                    "collapsed into each other (row 44's own caution).",
         body="The imperial-coercion defence and the two-register argument (pastoral-corrective and "
              "imperial-duty); Doc_01's own central state-power finding (SS4, SS7, SS9). Also assigned "
@@ -1566,7 +1567,10 @@ ROWS: list[dict] = [
         work="S. Aureli Augustini Hipponiensis episcopi Epistulae, CSEL 34/1 (1895), 34/2 (1898), 44 "
              "(1904), 57 (1911), 58 (1923) (Vindobonae: F. Tempsky)",
         edition="Pars I-IV all now vendored (rows 193, 195, 196, 2026-09-08); only Pars V (CSEL 58, "
-                "praefatio and indices, no letter text of its own) remains unacquired -- this row is "
+                "praefatio and indices, no letter text of its own) is not vendored, because the "
+                "only public scan of CSEL 58 located on the Internet Archive is a 1961 Johnson "
+                "Reprint Corporation facsimile, excluded on the same ground as row 197's CSEL 33 "
+                "facsimile -- this row is "
                 "kept as the standing reference for the full five-part edition; rows 193, 195, and "
                 "196 carry the actually-committed files.",
         rights=RIGHTS_VENDORED_VERIFIED,
@@ -1580,9 +1584,10 @@ ROWS: list[dict] = [
                    "confusion row 46 (Clarke) was rowed to answer only by hand -- the same class of "
                    "confusion that produced the Ep. XL/Epistle XXXIX error this build spent two rounds "
                    "propagating and correcting.",
-        body="The critical Latin edition of the general correspondence and the Jerome and Donatist-"
-             "cluster letters, two of those rows at Confidence A resting on a 19th-century English "
-             "translation with no critical edition named beneath it.",
+        body="The critical Latin edition of the letters that rows 10, 11 and 43 rest on (the Jerome "
+             "correspondence, the general correspondence and Letter XCIII), which stand on a "
+             "19th-century English translation with no critical edition named beneath it: row 10 at "
+             "Confidence B, and rows 11 and 43 at Confidence A on the specific letters they license.",
     ),
     dict(
         row=62, slug="mandouze-prosopographie-de-lafrique-chretienne",
@@ -1666,14 +1671,18 @@ ROWS: list[dict] = [
                    "stays exactly where it started -- a disclosed gap between what was found and what "
                    "is drawn on. Augustine is a named disputant in TWO ways: listed among the seven "
                    "Catholic actores in the delegate roster, and speaking in his own recorded voice in "
-                   "the numbered acts -- an OCR-tolerant line-initial scan returns FOURTEEN numbered "
-                   "acts in which he speaks (50, 53, 98, 158, 160, 162, 187, 189, 201, 206, 257, 265, "
-                   "267, 272), a floor, not a count, given this scan's poor OCR. Doc_02 SS1's own "
+                   "the numbered acts -- an OCR-tolerant line-initial scan returns fourteen numbered "
+                   "lines beginning with his name (acts 50, 53, 98, 158, 160, 162, 187, 189, 201, "
+                   "206, 257, 265, 267, 272), of which THIRTEEN are speeches; act 158 is a "
+                   "subscription to a mandate, not a speech. The number of acts in which he speaks "
+                   "is therefore a floor of thirteen, given this scan's poor OCR, and act 14 (file "
+                   "line 125505) is a further speech the scan did not list. Doc_02 SS1's own "
                    "'post-411 Conference' phrase still rests on the Conference's own ordinary, "
                    "undisputed date, NOT on any reading of the acts, so no claim currently made in "
                    "this world's construction depends on this correction -- what it opens is a live, "
-                   "recorded primary route to Augustine's own voice, available to Doc_04 and not yet "
-                   "drawn on by it. Two residual instances of the same defect shape (a modern "
+                   "recorded primary route to Augustine's own voice, available to Doc_04, which "
+                   "relies on one narrow fact from it: act 158 is his subscription to the mandate, "
+                   "not a debate speech. Two residual instances of the same defect shape (a modern "
                    "in-copyright edition marked 'not a vendoring candidate' where an earlier printing "
                    "carries a different rights position never checked) are disclosed rather than acted "
                    "on: row 58 (CCSL 3, whose predecessor Hartel is already vendored at row 191) and "
@@ -1681,8 +1690,8 @@ ROWS: list[dict] = [
         body="Not currently licensed for a specific claim beyond the Conference's own ordinary, "
              "undisputed date -- but a live, recorded primary route to Augustine's own voice at the "
              "411 Conference now sits in this world's own vendored corpus, bearing directly on his "
-             "institutional confidence in that period, available to Doc_04 and not yet drawn on by "
-             "it.",
+             "institutional confidence in that period. Doc_04 relies on one narrow fact from it: "
+             "act 158 is Augustine's subscription to a mandate, not a speech.",
     ),
     dict(
         row=66, slug="mohrmann-etudes-sur-le-latin-des-chretiens",
@@ -2101,13 +2110,16 @@ ROWS: list[dict] = [
         attribution="documentary -- Roman imperial legislation, compiled 438 from statutes of the "
                     "fourth and fifth centuries",
         discovery="the sibling Donatism build's own Registry, row 16, and Manifest, G3 / 2026-09-01.",
-        cite="B", verif="verified-via-authority", weight="load-bearing", formation="Widely Accepted",
-        divergence="Confidence deliberately left at B, not raised: this row's own Licensed-For content "
-                   "has NOT been read against the vendored file by this world's own construction, so "
-                   "the calibration rule's own bar for a higher letter is not met. The provision "
-                   "behind Augustine's own Letter 185 SS25 is CTh XVI.5.21 (392), NOT CTh XVI.5.52 "
-                   "(412, the graduated Donatist-specific silver-fine schedule that belongs to the "
-                   "sibling Donatism build) -- the two are easy to collapse into each other and this "
+        cite="A", verif="verified-direct", weight="load-bearing", formation="Widely Accepted",
+        divergence="Confidence A on this row's own Licensed-For, which is confined to CTh XVI.5.21 "
+                   "(392), the statute behind Augustine's Letter 185 SS25. That statute was read "
+                   "against the vendored file: its heading, its operative clause and its closing "
+                   "penalty clause. What is not read is the rest of the file (the constitutions' "
+                   "subscriptions and variant apparatus, and every other title of Book XVI). The "
+                   "provision behind Letter 185 SS25 is CTh XVI.5.21, NOT CTh XVI.5.52 (412, a "
+                   "graduated Donatist schedule, assessed in pounds of gold except for the "
+                   "circumcelliones, who are assessed in silver; it belongs to the sibling Donatism "
+                   "build) -- the two are easy to collapse into each other and this "
                    "row does not. Two copies of this edition exist on two different rights bases: an "
                    "Oxford Text Archive CC BY-NC-SA legacy transcription, supplied by the project lead "
                    "but never vendored (not out-of-copyright), and this row's own Google Books scan, "
@@ -2131,14 +2143,16 @@ ROWS: list[dict] = [
         discovery="Doc_01 SS5's own disclosure / field knowledge / 2026-09-01; resolved by G3's own "
                   "fulfillment / 2026-09-05.",
         cite="C", verif="named-not-rechecked", weight="load-bearing", formation="Widely Accepted",
-        divergence="Named in Doc_01 SS5 as 'not vendored in this corpus' at this row's own original "
-                   "drafting -- the source of NPNF's own editorial note on the Megalius/primate-of-"
-                   "Numidia identification. Now vendored under row 192, and read in full "
-                   "(all thirty-one chapters, Review-Artifacts/Possidius_Full_Read_2026-09-16.md) -- "
-                   "this row is the standing reference to the work, row 192 the fulfillment record.",
+        divergence="Vendored under row 192 (cic/texts/possidius_vita-augustini_weiskotten1919.txt) "
+                   "and read in full on 2026-09-16 (all thirty-one chapters, "
+                   "Review-Artifacts/Possidius_Full_Read_2026-09-16.md). The Megalius/primate-of-"
+                   "Numidia identification is named directly in the Vita at chapter VIII (the "
+                   "chapter heading at file line 2075, the narrative at line 2131), and Doc_01 SS5 "
+                   "cites it there. This row is the standing reference to the work; row 192 is the "
+                   "fulfillment record.",
         body="Augustine's own formation-narrative counterpart to Pontius's Life of Cyprian (row 7); "
-             "the source, via NPNF's own editorial apparatus, for the Megalius/primate-of-Numidia "
-             "identification Doc_01 SS5 names.",
+             "the source, directly at Vita chapter VIII, for the Megalius/primate-of-Numidia "
+             "identification Doc_01 SS5 cites.",
     ),
     dict(
         row=46, slug="clarke-letters-of-st-cyprian",
@@ -4364,9 +4378,9 @@ THINNESS = (
     "ordinary congregational life specifically is not answered by anything identified in this build "
     "(Doc_01 SS2; Doc_02 SS6). THE 411 GESTA REMAINS SUBSTANTIALLY UNEXPLOITED: a live, recorded "
     "primary route to Augustine's own voice among named Donatist bishops -- he speaks in at least "
-    "fourteen numbered acts -- sits in this world's own vendored corpus and bears on the conciliar-"
-    "authority gravity, but is not yet drawn on by any completed construction document (Registry row "
-    "65; Doc_07 SS7, SS8)."
+    "thirteen numbered acts, and act 14 is a further speech -- sits in this world's own vendored "
+    "corpus and bears on the conciliar-authority gravity. One narrow fact is drawn from it: act 158 is "
+    "Augustine's subscription to a mandate, not a speech (Registry row 65; Doc_07 SS7, SS8)."
 )
 
 CAUTIONS = (
@@ -4396,7 +4410,8 @@ CAUTIONS = (
     "(Doc_01 SS7). 5) A FINE AT CTh XVI.5.21 (392) IS NOT THE SAME PROVISION AS CTh XVI.5.52 (412): "
     "the two, and the 401 council Letter 185 SS25 records between them, are three different years "
     "under different emperors, easily collapsed into each other -- XVI.5.52's own graduated Donatist-"
-    "specific silver-fine schedule belongs to the sibling Donatism build, not this one (Registry rows "
+    "specific fine schedule, set in pounds of gold with ten pounds of silver for the circumcelliones, "
+    "belongs to the sibling Donatism build, not this one (Registry rows "
     "12, 44). 6) THE CONCILIAR-AUTHORITY AXIS (G5) IS HELD OPEN, NOT SETTLED: Cyprian's own "
     "egalitarian, non-coercive theory of inter-episcopal authority and Augustine's own hierarchical, "
     "correctable one are real, substantial differences Doc_01 SS8 item 10 names and does not consider "
@@ -4411,10 +4426,12 @@ CAUTIONS = (
     "congregational life the way Cyprian's and Augustine's own corpora are -- the placement question "
     "is a corpus-map census matter outside this compilation's own editing authority, not a claim on "
     "which world he actually belongs to (Doc_02 SS1; Registry row 27). 9) THE 411 GESTA'S OWN RICH "
-    "DISCOVERY DOES NOT WIDEN WHAT IT LICENSES: fourteen numbered acts of Augustine speaking among "
-    "named Donatist bishops are independently counted and quoted, but this world's own construction "
+    "DISCOVERY DOES NOT WIDEN WHAT IT LICENSES: at least thirteen numbered acts of Augustine speaking among "
+    "named Donatist bishops are independently counted (act 14 is a further speech; the scan's OCR "
+    "makes the number a floor), but this world's own construction "
     "still rests the Conference's own date on its ordinary, undisputed dating, not on any reading of "
-    "the acts -- available to future work, not yet drawn on (Registry row 65). 10) THE V7.4 FIELD-"
+    "the acts -- available to future work, with one narrow fact drawn from them: act 158 is a "
+    "subscription to a mandate, not a speech (Registry row 65). 10) THE V7.4 FIELD-"
     "BIBLIOGRAPHY SWEEP PROPER REMAINS UNRUN: fourteen rounds of a ten-item recall test and PRESS "
     "question, each drawing on instruments the prior rounds had not used, returned 0/10 in every round "
     "but one -- real, repeated evidence of the sweep's own cost, not a substitute for running it "
@@ -4523,7 +4540,7 @@ TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conve
 
 WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` states the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
 
-REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- `tertullian-s-voice` -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.
+REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- the corpus-map bucket `latin-apologists` -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.
 """
 
 
