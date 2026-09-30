@@ -199,3 +199,12 @@ def test_altered_docx_quotation_still_fails(tmp_path):
     body = 'Article 4 holds "One God, the Father, the Almighty, maker of heaven and earth and the moon" openly.\n'
     findings, _ = _run(root, body)
     assert any(f.check == "quotes-unverified" for f in findings)
+
+
+def test_nested_quotation_marks_do_not_decide_a_project_document_match(tmp_path):
+    root = build_world(tmp_path)
+    _docx(root / "Build/reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx", ["Jesus Christ as truly human — incarnate of the Holy Spirit and the Virgin Mary, “became truly human.”"])
+    body = "Article 4 holds \"Jesus Christ as truly human — incarnate of the Holy Spirit and the Virgin Mary, 'became truly human.'\" as its third commitment.\n"
+    findings, notes = _run(root, body)
+    assert findings == []
+    assert any("CiC_L1_Constitution_V2_2.docx" in n for n in notes)

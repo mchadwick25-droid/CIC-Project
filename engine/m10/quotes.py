@@ -228,6 +228,7 @@ class TextStore:
 
 def _norm(text: str) -> str:
     text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
+    text = text.replace('"', "").replace("'", "")  # nested quotation style never decides a match
     return _NORM.sub(" ", text).lower().strip()
 
 
