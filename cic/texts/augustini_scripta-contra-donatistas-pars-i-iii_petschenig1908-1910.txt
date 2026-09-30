@@ -1,25 +1,30 @@
      __________________________________________________________________
 
-           Title: Sancti Aureli Augustini Opera (Sect. VII), Scriptorum contra
-                  Donatistas, ed. M. Petschenig -- three bound CSEL volumes: Vol.
-                  LI (Pars I, 1908), Vol. LII (Pars II, 1909) and Vol. LIII (Pars
-                  III, 1910). Pars I (CSEL 51): Psalmus contra partem Donati,
-                  Contra epistulam Parmeniani libri III, De baptismo libri VII.
-                  Pars II (CSEL 52): Contra litteras Petiliani libri III, Epistula
-                  ad catholicos de secta Donatistarum, Contra Cresconium libri IV.
-                  Pars III (CSEL 53): De unico baptismo, Breviculus collationis
-                  cum Donatistis, Contra partem Donati post gesta, Sermo ad
-                  Caesariensis ecclesiae plebem, Gesta cum Emerito, Contra
-                  Gaudentium libri II, and an Appendix of two works the editor
-                  prints as spurious (Sermo de Rusticiano subdiacono; Libellus
-                  adversus Fulgentium Donatistam), with the indices and errata.
+           Title: Sancti Aureli Augustini Opera (Sect. VII), Scriptorum
+                  contra Donatistas -- a bound volume containing (per
+                  this scan's own single surviving title page) "Pars
+                  I": Psalmus contra partem Donati, Contra epistulam
+                  Parmeniani libri tres, De baptismo libri septem --
+                  PLUS the title pages of "Pars II" (CSEL 52,
+                  MDCCCCIX) and "Pars III" (CSEL 53), with:
+                  Contra litteras Petiliani, Epistula ad catholicos
+                  de secta Donatistarum, Contra Cresconium (four
+                  books), De unico baptismo contra Petilianum,
+                  Breviculus collationis cum Donatistis, Contra
+                  partem Donati post gesta, Sermo ad Caesariensis
+                  ecclesiae plebem, Gesta cum Emerito, Contra
+                  Gaudentium, and an Appendix with Contra (Adversus)
+                  Fulgentium Donatistam. The consolidated errata
+                  section at the very end corrects both "VOL. LI" and
+                  "VOL. LIII" by name.
       Creator(s): Augustine of Hippo (Latin original, various dates
                   c. 393-420s)
                   Michael Petschenig (Editor)
-     Print Basis: Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL), Vol. LI
-                  (title page MDCCCCVIII), Vol. LII (title page MDCCCCIX) and Vol.
-                  LIII (title page MDCCCCX). Vienna: F. Tempsky; Leipzig: G.
-                  Freytag.
+     Print Basis: Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL),
+                  Vol. LI (Pars I, 1908), Vol. LII (Pars II, 1909) and
+                  Vol. LIII (Pars III, MDCCCCX, title page at file
+                  lines 60474-60500). Vienna: F. Tempsky; Leipzig:
+                  G. Freytag.
           Rights: Public Domain
         Language: lat
     Rights basis: 1908-1910 publication date alone places this volume
@@ -34,25 +39,17 @@ Source Collection: Internet Archive, FULL TEXT (OCR). Supplied
                   "See other formats" - together stripped at
                   vendoring); everything after that is unedited raw
                   OCR output.
-    Contents map: Volume title pages at file lines 80 (Pars I), 24196 (Pars II)
-                  and 60483 (Pars III). Work headings: Psalmus 1257, Contra
-                  epistulam Parmeniani 2089, De baptismo 8477, Contra litteras
-                  Petiliani 24752, Epistula ad catholicos 36701, Contra Cresconium
-                  41781, De unico baptismo 60952, Breviculus collationis 62773,
-                  Contra partem Donati post gesta 66511, Sermo ad Caesariensis
-                  71499, Gesta cum Emerito 72784, Contra Gaudentium 73265,
-                  Appendix 78734 (Sermo de Rusticiano 78744; Libellus adversus
-                  Fulgentium 78988). Consolidated errata for Vol. LI, LII and LIII
-                  at file line 101362.
-   Volume bounds: The scans of the three volumes run one after the other: Pars I
-                  from file line 80, Pars II from 24159 (the scan's own 'Full text
-                  of Scriptorum contra Donatistas pars II (CSEL 52)' line), Pars
-                  III from 60439 (the same line for CSEL 53). Contra Cresconium is
-                  in Pars II (CSEL 52), not Pars III.
-  Spurious works: Petschenig's Appendix (file line 60845) prints two opuscula as
-                  spurious, not Augustine's, in the Appendix's own Praefatio (file
-                  lines 60845-60860): the Sermo de Rusticiano subdiacono and the
-                  Libellus adversus Fulgentium Donatistam.
+      Contents map (by internal heading; line numbers are file lines):
+                  Pars I: Psalmus contra partem Donati (title 1254),
+                  Contra epistulam Parmeniani (title 2086), De baptismo
+                  (8474). Pars II: Contra litteras Petiliani (24749),
+                  Epistula ad catholicos (36698), Contra Cresconium
+                  (41778). Pars III: De unico baptismo (60949),
+                  Breviculus collationis (62770), Contra partem
+                  Donati post gesta (66508), Sermo ad Caesariensis
+                  (71496), Gesta cum Emerito (title 72034), Contra
+                  Gaudentium (title 73262), Appendix with Adversus
+                  Fulgentium (78731).
      OCR quality: Raw, uncorrected OCR of a dense Latin critical
                   edition with an extensive apparatus criticus. Expect
                   the same range of OCR artifacts as elsewhere in this

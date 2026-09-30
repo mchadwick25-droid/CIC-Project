@@ -1,0 +1,14 @@
+source_file: augustine_opera-minora-catechetica-lat_migne-pl40.txt
+
+assignments:
+  - work: "Augustine's opera minora (Migne PL 40), including De catechizandis rudibus and De symbolo ad catechumenos"
+    author: augustine
+    locus: "whole file; per-work loci not yet located"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Maurist Latin of the catechetical short works. Largely overlaps the Krueger and CSEL 41
+      files; adds works those omit. Per-work loci not yet located, so assigned as one body.
+      Registry row 218.

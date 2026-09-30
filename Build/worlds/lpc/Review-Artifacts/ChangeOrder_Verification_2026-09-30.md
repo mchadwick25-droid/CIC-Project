@@ -40,7 +40,7 @@ Status key: **closed**; **closed, cites unlicensed source** (the claim is now tr
 | `665fd6b0` | closed | Doc_02:109; Doc_01 §2 l. 35 carries the asymmetry. |
 | `c403950b` | closed | Doc_05:27; Pontius *Life* 11 (`iv.iii`, l. 28003); Harnack ll. 376–381, 4361. |
 | `9e5090d0` | closed | Doc_05:281. |
-| `09e32fac` | closed, cites unlicensed source | Doc_05:175 true; Psalmus cited (P1-B). Psalmus text: Petschenig file ll. 1296, 1611–1616; Retractationes (Knoll) ll. 6830–6834. |
+| `09e32fac` | closed, cites unlicensed source | Doc_05:175 true; Psalmus cited (P1-B). Psalmus text: Petschenig file ll. 1293, 1608–1613; Retractationes (Knoll) ll. 6830–6834. |
 | `a187ea83` | closed | Doc_05:151; Ep. LXIX (`iv.iv.lxix`, l. 38062). |
 | `1b8bdab8` | closed | Doc_06:61. |
 | `12785a57` | closed | Doc_07:186. |
@@ -105,7 +105,7 @@ None.
 **P1-B. The *Psalmus contra partem Donati* has no Registry row.**
 - Where it is cited: Doc_04:92, Doc_05:175, World Profile:128 (as "Registry row 214"), lpclex013:59, and the plenary-council term record (twice).
 - Why it is a gap: the corpus map assigns the Psalmus only to `donatism.yaml`. Row 214 licenses the Latin of *De Baptismo* for cross-checking; the Psalmus shares its printed volume and nothing more.
-- What is true: the content is verified (Petschenig ll. 1611–1616; Retractationes ll. 6830–6834).
+- What is true: the content is verified (Petschenig ll. 1608–1613; Retractationes ll. 6830–6834).
 - Fix: add a Registry row for the Psalmus, or remove it from the wording. That is for the project lead, since it touches cross-world assignment.
 
 **P1-C. Doc_09:126 still says no woman in this world's horizon left a narrative of her own.**

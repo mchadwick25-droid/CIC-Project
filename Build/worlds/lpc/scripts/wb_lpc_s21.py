@@ -4401,7 +4401,7 @@ CAUTIONS = (
     "as Excluded, Donatism's own record of those years, which includes the cries of the people of Cirta "
     "against a traditor bishop in the Gesta apud Zenophilum. That is a congregation's voice, but it is "
     "Donatism's, never this world's to borrow. The Registry also holds "
-    "nine Guelferbytanus sermons that have not been assessed (row 229). The editor Morin reports that "
+    "nine Guelferbytanus sermons that have not been assessed (row 266). The editor Morin reports that "
     "one of them is ascribed elsewhere to Optatus of Milevis. Naming what the records do document in "
     "those years is allowed, for example Augustine's years as a Manichaean hearer, his conversion in 386, "
     "and his baptism in 387. The Donatist schism is one "
@@ -4516,7 +4516,7 @@ THIN_TOPICS = [
         "keywords": ["the century gap", "258 to 391", "what happened between Cyprian and Augustine",
                      "the documentary silence"],
         "note": "A genuine 133-year silence in THIS world's own record, counted from Cyprian's "
-                "martyrdom; the Acta Cypriani and the two martyr acts of rows 231 and 232 stand at its start and belong to Cyprian's phase. Pontius's Life, dated to 259 or much later, is a life of Cyprian and does not fill it. The period is richly attested elsewhere, but overwhelmingly through "
+                "martyrdom; the Acta Cypriani and the two martyr acts of rows 268 and 222 stand at its start and belong to Cyprian's phase. Pontius's Life, dated to 259 or much later, is a life of Cyprian and does not fill it. The period is richly attested elsewhere, but overwhelmingly through "
                 "sources that are Donatism's own territory. Some texts do fall inside the interval, "
                 "among them Optatus, the African council canons, Augustine's early writings, and an "
                 "oratory in memory of Cyprian at Carthage that Confessions V.8 records about 383. None "

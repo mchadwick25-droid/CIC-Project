@@ -43,10 +43,10 @@ Nothing found misstates the historical world or invents a source.
 ## Scope 2: the verifier's five late fixes
 
 1. **Row 44, gold and silver.** Holds. `XVI, 5, 52 (412 lan. 30>.` at 87872; every rank from `inl^ustres` (87878) to `plebei` is `auri pondo`; only `circumcelliones argenti pondo decem` (87882) is silver. The row now says exactly this.
-2. **Row 214, letter B.** Holds under the rule. The Licensed-For is cross-checking NPNF, done at one opening only (Book I §1, line 8513, against `npnf104` div4 `v.iv.iii.i`).
+2. **Row 214, letter B.** Holds under the rule. The Licensed-For is cross-checking NPNF, done at one opening only (Book I §1, line 8510, against `npnf104` div4 `v.iv.iii.i`).
 3. **Rows 215–217, grep facts.** Hold. Case-insensitive, over `.txt` and `.xml` files only: `Parmenian` 26 files, `Cresconi` 34, `unico baptismo` 5. The three rows use the same convention.
 4. **Row 217, the address.** The wording is now right: Augustine addresses the reply to Constantine. The marker is not (P2-1).
-5. **Rows 214 and 216, present truth.** Row 216 holds: `Pars II (CSEL 52)`, title page 24192–24216, `PRAEFATIO.` 24250. Row 214 keeps one stale sentence (P2-2).
+5. **Rows 214 and 216, present truth.** Row 216 holds: `Pars II (CSEL 52)`, title page 24189–24213, `PRAEFATIO.` 24247. Row 214 keeps one stale sentence (P2-2).
 
 ## Scope 3: new rows reopened (twelve of 25, plus 214–217)
 
@@ -135,7 +135,7 @@ Recommendations:
 
 **P1-B. Doc_02 §3, line 73: "Five older, public-domain secondary works are now vendored in full".** Rows 233–242 add ten more: Koch ×3, Poschmann, d'Alès, Benson, Mesnage, Toulotte, Audollent and von Soden 1909. §3 names none of them. Doc_02 §1 sends the reader to "§3 below" for "seventeen of those twenty modern, 1894–1930" context entries, but §3 lists seven files (five works), dated 1901 to 1921. This is the same kind of error as the 2026-09-29 check's P1-5: a present count made false by later vendoring.
 
-- **P2-1. Row 217 Licensed-For:** `Constantine frater` is cited at line 60984. It is on line 60985, and 60984 carries `Respondere diuersa sentientibus et a regula ueritatis`.
+- **P2-1. Row 217 Licensed-For:** `Constantine frater` is cited at line 60981. It is on line 60982, and 60981 carries `Respondere diuersa sentientibus et a regula ueritatis`.
 - **P2-2. Stale header remarks.** Row 214 still reads "File header: … CSEL LI (Pars I, 1908) and LIII (Pars III, 1910)" and says the header records the G5 request. That describes the header b29cf8989 replaced. The current header names LI, LII and LIII, and the G5 note is in `REGISTRY.yaml`, not the header. Row 225 says "the file header's content note says thirteen". cb2840bd7 changed it to "fourteen".
 - **P2-3. Row 226:** the title page "naming Wolfhard and Krueger (line 46)" is imprecise. Line 46 carries only Wolfhard; `Gr. Kruger.` is on line 52.
 - **P2-4. Row 231:** the marker `Passio Perpetuae` (line 3538) is a bibliography entry (d'Alès, *Revue d'histoire ecclésiastique* 1907), not the act. The act runs under `8. Martyrium der Perpetua und Felicitas.` (running head at 2909).

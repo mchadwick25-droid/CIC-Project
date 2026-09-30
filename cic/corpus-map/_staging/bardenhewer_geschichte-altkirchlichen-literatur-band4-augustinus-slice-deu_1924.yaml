@@ -1,0 +1,12 @@
+source_file: bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt
+
+assignments:
+  - work: "Bardenhewer, Geschichte der altkirchlichen Literatur, Band 4: Augustine and his circle (1924, slice)"
+    author: bardenhewer
+    locus: "sections 73-75; item lines 24456-30686"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern German handbook account of Augustine and his circle. Registry row 250.

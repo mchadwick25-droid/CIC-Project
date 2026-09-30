@@ -1,0 +1,13 @@
+source_file: cyprian_oeuvres-completes-tome2-lettres-fra_guillon1837.txt
+
+assignments:
+  - work: "Cyprian, Oeuvres completes, tome 2: the letters (French, Guillon 1837)"
+    author: cyprian
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A French translation of the letters, not the original. The Latin (Hartel) is the
+      tradition entry. Registry row 234.

@@ -1,0 +1,13 @@
+source_file: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
+
+assignments:
+  - work: "Augustine's Sermones post Maurinos reperti (Morin, Miscellanea Agostiniana I)"
+    author: augustine
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Critical edition of Augustine's post-Maurist sermons. Also a completeness qualifier on
+      the sermon body (Registry rows 189 and 219). Rights rest on the 1930 date alone.

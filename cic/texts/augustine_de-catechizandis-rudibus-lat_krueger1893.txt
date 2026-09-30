@@ -1,14 +1,14 @@
-Title: Augustin De catechizandis rudibus (Sammlung ausgewaehlter kirchen- und dogmengeschichtlicher Quellenschriften, Viertes Heft), herausgegeben von Adolf Wolfhard, zweite, vollstaendig neubearbeitete Ausgabe von G. Krueger
-Creator: Augustine of Hippo (354-430); Adolf Wolfhard (editor of the first edition); Gustav Krueger (editor of this second, wholly revised edition)
-Publisher: Freiburg i. B. and Leipzig: Akademische Verlagsbuchhandlung von J. C. B. Mohr (Paul Siebeck)
+Title: Augustin De catechizandis rudibus (Sammlung ausgewahlter kirchen- und dogmengeschichtlicher Quellenschriften, Viertes Heft)
+Creator: Augustine of Hippo; Adolf Wolfhard (first edition); Gustav Kruger (Editor of the second, completely revised edition; 1862-1940)
+Publisher: Freiburg i. B. und Leipzig: Akademische Verlagsbuchhandlung von J. C. B. Mohr (Paul Siebeck)
 Publication Date: 1893
 Rights: Public Domain (pre-1930 publication)
-Language: lat (Latin text with German introduction and German notes)
-Source: archive.org item augustindecatech00augu, full-text OCR file augustindecatech00augu_djvu.txt, fetched directly from https://archive.org/download/augustindecatech00augu/augustindecatech00augu_djvu.txt by the library/source-research thread (Claude), 2026-09-29. Scan digitized by the Internet Archive in 2017 with funding from University of Illinois Urbana-Champaign.
-Provenance note: Header prepended by the library thread; the item's OCR text follows byte-for-byte unchanged after the '---' line (nothing stripped, normalized or corrected, including the scan's own library front matter and the host's digitization notices). Rights basis: the printed date on the title page (1893); the host record carries no rights field.
-Content note: The Latin text of Augustine's De catechizandis rudibus with the editor's German Vorwort, Einleitung and notes. The OCR renders the German umlauts and sharp s as plain letters (u, s) in the German passages, and the Latin text carries the edition's printed line numbers in the margin.
+Language: lat
+Source: archive.org item augustindecatech00augu (contributor: University of Illinois Urbana-Champaign), full text at https://archive.org/download/augustindecatech00augu/augustindecatech00augu_djvu.txt. Fetched and opened directly 2026-09-29 by the lpc library sweep; title page ("Zweite, vollstandig neubearbeitete Ausgabe von G. Kruger. Freiburg i. B. und Leipzig 1893") and the closing index checked.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected, so scan notices, library stamps and OCR errors remain as scanned. Rights basis: 1893 publication date places this edition out of US copyright (pd-us-by-date). Kruger died in 1940.
+Content note: A short student edition of the Latin text (with a German-language Vorwort and Einleitung and a word index) of Augustine's De catechizandis rudibus, addressed to a correspondent named Deogratias (the opening words are "Petisti me, frater Deogratias"). Kruger takes the chapter division from the Maurists and paragraphs it himself, so his section numbers differ from CSEL and from the Maurist columns. Companion: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt (Latin text with English translation and commentary).
 
----
+______________________________________________________________________
 
 Digitized  by  the  Internet  Archive 
 in  2017  with  funding  from 

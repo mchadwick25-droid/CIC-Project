@@ -1,14 +1,14 @@
 Title: Cyprianische Untersuchungen (Arbeiten zur Kirchengeschichte, herausgegeben von Karl Holl und Hans Lietzmann, 4)
 Creator: Hugo Koch (1869-1940)
-Publisher: Bonn: A. Marcus und E. Weber's Verlag
+Publisher: Bonn: A. Marcus und E. Webers Verlag (printed at file lines 90-91; the copyright line at file line 109 reads "Copyright 1926 by A. Marcus & E. Webers Verlag in Bonn"). Series: Arbeiten zur Kirchengeschichte, ed. Karl Holl and Hans Lietzmann, vol. 4
 Publication Date: 1926
-Rights: Public Domain (pre-1930 publication) (printed 1926; the imprint carries 'Copyright 1926 by A. Marcus & E. Webers Verlag in Bonn', which is within the 1930-or-earlier rule)
+Rights: Public Domain (pd-us-by-date: published 1926)
 Language: deu
-Source: archive.org item cyprianischeunte0000hugo, full-text OCR file cyprianischeunte0000hugo_djvu.txt, fetched directly from https://archive.org/download/cyprianischeunte0000hugo/cyprianischeunte0000hugo_djvu.txt by the library/source-research thread (Claude), 2026-09-29. Internet Archive lending-library scan; the text layer is open.
-Provenance note: Header prepended by the library thread; the item's OCR text follows byte-for-byte unchanged after the '---' line (nothing stripped, normalized or corrected, including the scan's own library front matter and the host's digitization notices). Rights basis: the printed date on the title page (1926).
-Content note: German-language scholarly monograph, not a primary source. Studies on Cyprian's writings: whether Quod idola dii non sint is his, the date and occasion of De lapsis and De ecclesiae unitate and of his other treatises, Ad Fortunatum and Ad Quirinum, and his teaching on penance.
+Source: archive.org item cyprianischeunte0000hugo (an Internet Archive digitization made in 2024 from a library copy; its OCR text is publicly downloadable), full text at https://archive.org/download/cyprianischeunte0000hugo/cyprianischeunte0000hugo_djvu.txt. Fetched and opened directly 2026-09-29 by the lpc library sweep; title page ("Arbeiten zur Kirchengeschichte ... 4 Cyprianische Untersuchungen von Hugo Koch") and the Inhaltsverzeichnis checked.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected, so scan notices, library stamps and OCR errors remain as scanned. Rights basis: the archive.org item carries no rights tag; the call rests on the 1926 publication date under this project's pd-us-by-date rule (95 years from publication, 1926 clear as of 2026). A German 1926 publication is treated as US-restored under the URAA, and 95 years from 1926 have elapsed. The author died in 1940. The imprint is printed in the file at lines 90-92 and 109.
+Content note: German-language scholarly monograph, not a primary source, consultation-only per cic/texts/INTAKE.md. Koch's studies on Cyprian, per the volume's own Inhaltsverzeichnis: whether Quod idola dii non sint is Cyprian's; the dating and occasion of De lapsis and De ecclesiae unitate; De zelo et livore and De dominica oratione; De mortalitate, Ad Demetrianum and De opere et eleemosynis; Ad Fortunatum and Ad Quirinum; the penitential question in Cyprian; Cyprian and Seneca and Apuleius; and notes on the pseudo-Cyprianic writings. Bears on Registry rows 2, 3, 5 and 6. Its OCR is rough at the head of the volume (library stamps and poor first pages) and cleaner in the body.
 
----
+______________________________________________________________________
 
 of 
 rn 

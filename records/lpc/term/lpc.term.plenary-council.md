@@ -30,7 +30,7 @@ confidence:
     opposite to Cyprian''s in the paired bishop-of-bishops entry, which is why this record does not treat
     the two formulas as reconcilable restatements of one theory (Author-Gravity-Risk: Yes). The phrase ''plenary
     Council'' does not appear in Augustine''s preaching to his congregation; the wider question of who
-    judges a bishop was put to ordinary people in his Psalm against the Donatists (about 393, Registry row 273), but not as this
+    judges a bishop was put to ordinary people in his Psalm against the Donatists (about 393, Registry row 302), but not as this
     formula.'
 sources:
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
@@ -68,7 +68,7 @@ senses:
     is spoken in defence of overturning Cyprian''s specific ruling, his institutional interest running
     opposite to Cyprian''s own in the paired entry. The phrase ''plenary Council'' does not appear in Augustine''s
     preaching to his congregation; the wider question of who judges a bishop was put to ordinary people
-    in his Psalm against the Donatists (about 393, Registry row 273), but not as this formula.'
+    in his Psalm against the Donatists (about 393, Registry row 302), but not as this formula.'
   translational: 'A modern listener is likely to hear a straightforward claim of centralized institutional
     authority -- Rome or a general council laying down the law -- and miss that the same sentence makes
     that authority revisable. We mean a layered, self-correcting account: wider bodies outrank narrower

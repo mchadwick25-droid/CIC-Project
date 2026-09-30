@@ -74,7 +74,9 @@ the current one is approved to proceed.
   validation.
 - In a pilot world, Sonnet 5.5 and Fable each draft Doc_10. Opus 5.5
   grades the two blind on Rigor, Accessibility, Craft and Focus. Record
-  the grading in the cost ledger.
+  the grading in the cost ledger. Follow
+  `Build/reference/method/CiC_Pilot_Protocol_V2.0.md` for the blinding,
+  grading and decision rule.
 - Opus 5.5 (`claude-opus-5-5`) runs every review round and every blind
   grading. It writes every `modern_rendering`. A separate Opus pass checks
   each rendering.
@@ -86,11 +88,14 @@ Run each command before Opus sees the work. Fix every failure first.
 
 - `python -m engine.m10.cli handoff <code>` at the start of the world.
 - `python -m engine.m10.cli prereview <code> --doc N` before every review
-  round. `N` is the document number.
+  file. `N` is the document number (`0` for Step 0). It saves its output as the
+  review brief at `Build/worlds/<code>/build/<code>_Prereview_Doc<N>.txt`. A
+  missing document fails it.
 - `python -m engine.m10.cli roundcount <code> N --check-new` before any new
-  review file is written (`N` is `0` for Step 0). With three review files on
-  record it exits non-zero, and the document goes to Mark. Without
-  `--check-new` it fails only once a fourth file exists.
+  review file is written (`N` is `0` for Step 0). Every review file counts:
+  a Review, a Recheck, a SpotCheck or any other review-type file. With three
+  review files on record it exits non-zero, and the document goes to Mark.
+  Without `--check-new` it fails only once a fourth file exists.
 - `python -m engine.m10.cli reviewfile <path>` on every review file.
 - `python -m engine.m10.cli gaps <code>` after every review file.
 - `python -m engine.m10.cli citations <code>` on every document and probe
@@ -105,27 +110,42 @@ Run each command before Opus sees the work. Fix every failure first.
   public-facing field.
 - `python -m engine.m10.cli deployed <code>` after each deploy. It also
   checks that the approved-source anchoring paragraph is in the compiled
-  prompt.
+  prompt, and that the pinned package is not stale (`--no-stale` skips that
+  recompile).
 - `python -m engine.m10.cli probes <code>` before and after every probe
   run. It fails a results file whose tested pin is not the current pin.
 - `python -m engine.m10.cli validation <code>` after the probe results
-  are in. It also checks that all eight Part Eight categories were run, that
-  the Deep Interview carries its encounter-success grading, and that
-  validation ran on the current package pin.
+  are in. It also checks that each of the eight Part Eight categories has an
+  observed row, that the Deep Interview carries its encounter-success grading,
+  and that validation ran on the current package pin. A `full` verdict exits 0:
+  it is a result to act on, and you run full validation.
 - `python -m engine.m10.cli wiring <code>` at the Representative freeze.
 - `python -m engine.m10.cli integrity <code>` at freeze. It checks open
   items, unmarked superseded files, stated record counts, and that `deployed`
-  passes at the pinned package. The reviewer reads the rest.
+  passes at the pinned package, stale-package check included (`--no-stale`
+  skips it). The reviewer reads the rest.
 - `python -m engine.m2.cli profile <code>` to generate the World Profile on demand. It is not part of the package, and no check covers it.
 
 A new world gets no waivers. Any exception needs an owning finding and
 Mark's approval.
 
+File names matter to the gates. The table in Section 3 of Process V2.0,
+"Per-world file names", says what each file is called and which command reads
+it. After any records edit that changes the compiled package, repin in the
+order Section 3 gives: edit the records, run `python -m engine.m2.cli build
+<code>`, copy its `manifest_hash` and `location` into the `package:` block of
+`records/worlds/<code>.yaml`, then run `deployed` and `integrity`.
+
+Some commands are slow. The fleet-wide `python -m engine.m2.cli
+staleness-check` takes about 4 minutes. `python -m engine.m9.cli report <code>`
+takes about 2 minutes. `handoff` takes about 1 minute, because it builds the
+corpus index.
+
 ## Review discipline
 
-- Opus 5.5 reviews every round. Round 1 runs at high effort. Rounds 2
-  and 3 are targeted rechecks at medium effort. They check only what
-  changed, against the prior findings.
+- Opus 5.5 reviews every review file. The first runs at high effort. The
+  second and third are targeted rechecks at medium effort. They check only
+  what changed, against the prior findings.
 - The first line of every agent-run review file reads: "Simulated review —
   informational only, not an Article 31 substitute."
 - Every round records a truncation check by two independent methods.
@@ -145,8 +165,12 @@ Mark's approval.
 - The bar is what a church history scholar would call good. A finding
   that a document could be stronger, with nothing wrong, unsupported or
   misleading, is not substantial. It does not justify another round.
-- A document gets three rounds of substantial revision. If it has not
-  cleared by then, stop and send it to Mark. Do not run a fourth round.
+- Every review file on a document counts toward a cap of three. A Review,
+  a Recheck and a SpotCheck each count as one. If the document has not
+  cleared after its third review file, stop and send it to Mark. Do not write
+  a fourth. Name each file `Doc_NN_<Topic>_<Kind>_Round<N>.md`, where `<Kind>`
+  is `Review`, `Recheck` or `SpotCheck` and `N` is 1, 2 or 3 in order
+  (`Step0_...` for Step 0).
 - Say "Approved to proceed." Never say "finalized."
 - Every open item in a review or phase document gets an entry in
   `Open_Gaps_Tracking.md`. Entries are append-only.
@@ -228,7 +252,7 @@ steps (Opus review rounds, Fable drafts) early in the weekly window.
 - Any cross-world or portfolio decision.
 - Any governance or methodology change not already decided in Process
   V2.0. Route a framework or template gap as a flagged finding.
-- An unresolved tension after three review rounds.
+- An unresolved tension after three review files.
 - Frozen status. Never assign it yourself.
 
 Do not create the registry entry. Do not go live. Commit at each green checkpoint, with the step ID. Push only on Mark's

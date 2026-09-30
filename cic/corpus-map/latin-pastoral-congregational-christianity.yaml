@@ -3,6 +3,15 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: latin-pastoral-congregational-christianity
 works:
+- work: Acta S. Cypriani episcopi et martyris
+  author: acta-cypriani
+  locus: running heads from file line 6038 (XI)
+  role: tradition
+  confidence: provisional
+  note: 'Latin acts of Cyprian''s martyrdom in Gebhardt''s 1902 edition. Registry row 222.
+
+    '
+  source_file: acta-martyrum-selecta_gebhardt1902.txt
 - work: Anonymous Treatise Against the Heretic Novatian
   author: anonymous-against-novatian
   locus: div2 7.3
@@ -27,18 +36,15 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: Carthage romaine (Audollent, 1901)
+- work: Audollent, Carthage romaine, 146 av. J.-C. - 698 ap. J.-C. (1901)
   author: audollent
-  locus: whole file; title page at file line 33
+  locus: whole file; chapter Les chretiens at file line 47700
   role: context
   confidence: provisional
-  note: 'Modern (1901) French scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. The standard history of Roman Carthage, 146 BC
-    to 698 AD, the city of Cyprian''s episcopate and of Augustine''s schooling and preaching.
-    Provisional because its subject is the city, not the church.
+  note: 'Modern (1901) French history of Roman Carthage. Registry row 239.
 
     '
-  source_file: audollent_carthage-romaine-fra_1901.txt
+  source_file: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt
 - work: A Treatise on Faith and the Creed
   author: augustine
   locus: div2 4.4 — A Treatise on Faith and the Creed
@@ -70,27 +76,6 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: Against Lying (Contra Mendacium), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 109 (first paragraph of the TEI body, opening 'Multa mihi legenda misisti,');
-    printed heading 'X. AD CONSENTIVM CONTRA MENDACIVM.' at file line 106; CSEL 41 work X,
-    printed pp. 467-528
-  role: tradition
-  confidence: assigned
-  note: 'The later of Augustine''s two treatises on truthfulness, addressed to Consentius.
-    Latin original of the ALREADY-PRESENT English entry ''Against Lying (Contra Mendacium)''
-    (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in the bucket(s)
-    named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Against Lying (Contra Mendacium),
-    Zycha, CSEL 41 (Vienna, 1900), in the University of Leipzig''s machine-corrected TEI (the
-    project''s OCR correction of the CSEL scan, not a fresh human edition). Ready to quote
-    once each quote is verified verbatim against this file (INTAKE section 6); the English
-    a Representative speaks is rendered from it. The scan of the whole volume (augustine_opera-sect-v-pars-iii-
-    lat_zycha1900-csel41.txt) is the check on the printed page and carries the Praefatio and
-    the manuscript sigla. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
-    Mirrors the English twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt
 - work: Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)
   author: augustine
   locus: div1 18 — A Treatise Against Two Letters of the Pelagians (4 books)
@@ -124,6 +109,28 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: Augustine on the Donatists (French, Raulx, tome 13, slice)
+  author: augustine
+  locus: whole file; item lines 66199-81631 of the source volume
+  role: context
+  confidence: provisional
+  note: 'French translation of the writings on the conference of 411, the Avertissement aux
+    Donatistes and the Emeritus and Gaudentius items. Not the original; matched to the Latin
+    by title only. Registry row 245.
+
+    '
+  source_file: augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869.txt
+- work: Augustine on the Donatists (French, Raulx, tome 15, slice)
+  author: augustine
+  locus: whole file; item lines 1-45985 of the source volume
+  role: context
+  confidence: provisional
+  note: 'French translation of the Psalmus, the answer to Parmenian, the baptism books, Petilian,
+    the letter to the Catholics and Cresconius. Not the original; matched to the Latin by
+    title only. Registry row 246.
+
+    '
+  source_file: augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870.txt
 - work: Augustine's City of God, Books I-XIII (Hoffmann's critical edition, CSEL 40 Pars I)
   author: augustine
   locus: whole file, Libri I-XIII
@@ -159,6 +166,18 @@ works:
 
     '
   source_file: augustine_confessiones-lat_knoll-csel33.txt
+- work: Augustine's Epistolae (Maurist order, Migne PL 33)
+  author: augustine
+  locus: whole file, four classes and Appendix
+  role: tradition
+  confidence: provisional
+  note: 'Maurist Latin of the letters, in the numbering the npnf101 volume follows, so it
+    lines up with the Goldbacher files already in the map. It includes the Donatist letters,
+    which the staging file for npnf101 assigns to donatism only; not split here. Registry
+    row 231.
+
+    '
+  source_file: augustine_epistulae-maurist-order-lat_migne-pl33.txt
 - work: Augustine's Epistulae 1-123 (Goldbacher's critical edition)
   author: augustine
   locus: whole file, Ep. I-CXXIII
@@ -210,28 +229,128 @@ works:
 
     '
   source_file: augustine_retractationes-lat_knoll-csel36.txt
-- work: Breviculus Collationis cum Donatistis
+- work: Augustine's Sermones 1-340 (Maurist text, Migne PL 38)
   author: augustine
-  locus: Pars III (CSEL 53); file line 62773 (heading 'BREVICVLVS', 'COLLATIONIS CVM DONATISTIS'
-    at 62774)
+  locus: whole file
   role: tradition
   confidence: assigned
-  note: 'Augustine''s summary of the three-day Conference of Carthage of 411, held on the
-    emperor Honorius''s order between Catholic and Donatist bishops, cut down from the very
-    long acts and numbered to match their parts. It gives this world the Catholic side''s
-    own short account of the conference at which the Donatist bishops were judged defeated.
-    No English translation is vendored. The editor writes that no manuscript has been found
-    since the Amerbach edition, so the text rests on the printed editions. PRIMARY ORIGINAL
-    per cic/texts/INTAKE.md: Petschenig''s critical text (CSEL 53, Vienna, 1910). The scan
-    is raw, uncorrected OCR of a dense critical edition with the apparatus interleaved (the
-    file''s own header and registry notes say so; about 88 to 90 percent of its word forms
-    match the vocabulary of the clean TEI files, against 93 to 97 percent for those). So this
-    row is primary for authorship and content, and a second witness for exact wording: each
-    quote is checked against the printed page or a clean witness before it is used, and the
-    English a Representative speaks is rendered from the verified Latin.
+  note: 'Latin of the sermons preached to Augustine''s congregations, the defining material
+    of this entry. The English body is npnf106 (about 97 sermons, Registry row 19); this file
+    is the Maurist Latin for all 340. Registry row 216. Two-column OCR.
 
     '
-  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+  source_file: augustine_sermones-1-340-lat_migne-pl38.txt
+- work: Augustine's Sermones 341-396 and the Maurist Appendix of doubtful sermons (Migne PL
+    39)
+  author: augustine
+  locus: whole file; the Appendix (Sermones suppositii) is doubtful or spurious material inside
+    the same file
+  role: tradition
+  confidence: provisional
+  note: 'Later sermons in the Maurist text. The Appendix that follows Sermo 396 is the Maurists''
+    own collection of doubtful and spurious sermons and is not Augustine''s voice; it is not
+    separated here. Registry row 217.
+
+    '
+  source_file: augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt
+- work: Augustine's Sermones post Maurinos reperti (Morin, Miscellanea Agostiniana I)
+  author: augustine
+  locus: whole file
+  role: tradition
+  confidence: provisional
+  note: 'Critical edition of Augustine''s post-Maurist sermons. Also a completeness qualifier
+    on the sermon body (Registry rows 189 and 219). Rights rest on the 1930 date alone.
+
+    '
+  source_file: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
+- work: Augustine's opera minora (Migne PL 40), including De catechizandis rudibus and De
+    symbolo ad catechumenos
+  author: augustine
+  locus: whole file; per-work loci not yet located
+  role: tradition
+  confidence: provisional
+  note: 'Maurist Latin of the catechetical short works. Largely overlaps the Krueger and CSEL
+    41 files; adds works those omit. Per-work loci not yet located, so assigned as one body.
+    Registry row 218.
+
+    '
+  source_file: augustine_opera-minora-catechetica-lat_migne-pl40.txt
+- work: 'Augustine''s short pastoral and disciplinary works (CSEL 41: De fide et symbolo,
+    De fide et operibus, De agone christiano, De continentia, De bono coniugali, De sancta
+    virginitate, De bono viduitatis, De adulterinis coniugiis, De mendacio, Contra mendacium,
+    De opere monachorum, De divinatione daemonum, De cura pro mortuis, De patientia)'
+  author: augustine
+  locus: whole file, fourteen works; per-work loci not yet located
+  role: tradition
+  confidence: provisional
+  note: 'Latin critical text (Zycha, 1900). Fourteen works in one volume, assigned as one
+    body until per-work loci are located. Registry row 215. Contra mendacium is also in the
+    map from npnf103.
+
+    '
+  source_file: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
+- work: Augustine, De catechizandis rudibus (Latin, Krueger 1893)
+  author: augustine
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Latin text of the work already in the map in English (npnf103, Registry row 15),
+    which is written for the Carthaginian deacon Deogratias and sits near the centre of this
+    entry. Registry row 220.
+
+    '
+  source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
+- work: Augustine, Die Bekenntnisse (German, Hefele 1921)
+  author: augustine
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A German translation of the Confessions, not the original. The Latin (Knoll) is the
+    tradition entry. Registry row 244.
+
+    '
+  source_file: augustine_bekenntnisse-deu_hefele-diederichs1921.txt
+- work: Augustine, Sermo post collationem, in Mansi tom. 4
+  author: augustine
+  locus: file line 27825
+  role: tradition
+  confidence: provisional
+  note: 'Augustine''s sermon after the conference of 411. Registry row 229.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
+- work: Augustine, Tractatus in Johannem, second half (German, Hayd, BKV 1878)
+  author: augustine
+  locus: whole file, from the 38th homily
+  role: context
+  confidence: provisional
+  note: 'A German translation of the second half of the Tractatus in Johannem, not the original.
+    The 124 tractates are otherwise held in npnf107. Fraktur OCR is poor. Registry row 252.
+
+    '
+  source_file: augustine_erorterungen-zum-johannis-evangelium-teil2-deu_hayd-bkv1878.txt
+- work: 'Augustinus-Postille: a German selection of Augustine''s sermons by church year (1861)'
+  author: augustine
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A German selection of sermons, compiler not named in the OCR. Not the original. Fraktur
+    OCR is poor. Registry row 251.
+
+    '
+  source_file: augustine_augustinus-postille-auswahl-reden-kirchenjahr-deu_1861.txt
+- work: Christopher, S. Aureli Augustini De catechizandis rudibus (Latin, English and commentary,
+    1926)
+  author: augustine
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A 1926 edition with an English translation and commentary: modern scholarship on
+    a work already in the map, so context, not tradition. Registry row 221. Which Latin text
+    it prints has not been checked.
+
+    '
+  source_file: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt
 - work: City of God
   author: augustine
   locus: div1 4 — City of God (Books I-XXII)
@@ -265,8 +384,7 @@ works:
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
 - work: Contra Cresconium (libri quattuor)
   author: augustine
-  locus: Pars II (CSEL 52); file line 41781 (heading 'CONTRA CRESCONIVM GRAMMATICVM ET DONATISTAM
-    LIBRI IIII')
+  locus: Pars III, following Pars I without a second title page in this scan
   role: tradition
   confidence: assigned
   note: 'No English translation vendored anywhere in this corpus — primary content, not a
@@ -281,7 +399,7 @@ works:
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: Contra Epistulam Parmeniani (libri tres)
   author: augustine
-  locus: Pars I (CSEL 51); file line 2089 (heading 'CONTRA EPISTULAM PARMENIANI LIBRI III')
+  locus: Pars I
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of Augustine''s reply to Parmenian''s own letter —
@@ -293,123 +411,9 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Contra Gaudentium Donatistarum Episcopum (libri II)
-  author: augustine
-  locus: Pars III (CSEL 53); file line 73265 (heading 'CONTRA GAVDENTIVM DONATISTARVM EPISCOPVM',
-    'LIBRI II' at 73267)
-  role: tradition
-  confidence: assigned
-  note: 'Augustine''s reply, about 420, to Gaudentius, the Donatist bishop of Thamugadi, who
-    threatened to burn himself and his congregation in their church rather than yield to the
-    tribune Dulcitius. Book I answers his two letters sentence by sentence, quoting them;
-    book II answers his reply. Gaudentius''s words survive quoted inside it: embedded voice,
-    the work itself is Augustine''s. One manuscript survives, with a large gap in book I (chapters
-    20 to 36). No English translation is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Petschenig''s critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR
-    of a dense critical edition with the apparatus interleaved (the file''s own header and
-    registry notes say so; about 88 to 90 percent of its word forms match the vocabulary of
-    the clean TEI files, against 93 to 97 percent for those). So this row is primary for authorship
-    and content, and a second witness for exact wording: each quote is checked against the
-    printed page or a clean witness before it is used, and the English a Representative speaks
-    is rendered from the verified Latin.
-
-    '
-  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Contra Litteras Petiliani (libri tres)
-  author: augustine
-  locus: Pars II (CSEL 52); file line 24752 (heading 'CONTRA LITTERAS PETILIANI', 'LIBRI TRES.'
-    at 24753)
-  role: tradition
-  confidence: assigned
-  note: 'Augustine''s reply to the Donatist bishop Petilian of Cirta, whose letters on baptism
-    and the true church accused the Catholics of being traitors and persecutors. Book I is
-    Augustine''s short letter to Catholics answering the first part of Petilian''s letter,
-    book II answers the whole letter point by point, and book III answers Petilian''s angry
-    second letter (the editor''s Praefatio). The Latin original of \"Answer to the Letters
-    of Petilian\" in the vendored npnf104, so a cross-check on that English. Petilian''s own
-    words survive quoted inside Augustine''s replies: embedded voice, the work itself is Augustine''s.
-    PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig''s critical text (CSEL 52, Vienna,
-    1909). The scan is raw, uncorrected OCR of a dense critical edition with the apparatus
-    interleaved (the file''s own header and registry notes say so; about 88 to 90 percent
-    of its word forms match the vocabulary of the clean TEI files, against 93 to 97 percent
-    for those). So this row is primary for authorship and content, and a second witness for
-    exact wording: each quote is checked against the printed page or a clean witness before
-    it is used, and the English a Representative speaks is rendered from the verified Latin.
-
-    '
-  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Contra Mendacium (Against Lying), CSEL 41 scan
-  author: augustine
-  locus: file line 23622 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 467-528
-  role: tradition
-  confidence: assigned
-  note: 'SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
-    augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt, which is the preferred base for
-    quoting. This scan of the CSEL 41 volume (Zycha, Vienna 1900, title page MDCCCC) adds
-    the volume''s Praefatio and the printed apparatus and manuscript sigla. The OCR is readable
-    Latin; 99 percent of the TEI''s word forms are found in the scan text in a test on this
-    work. Assigned to the same bucket, role and confidence as the TEI file. The English twin''s
-    second co-assignment (priscillianist-asceticism) is carried on the TEI file''s entry,
-    not repeated here.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: Contra Partem Donati post Gesta
-  author: augustine
-  locus: Pars III (CSEL 53); file line 66511 (heading 'CONTRA PARTEM DONATI', 'POST GESTA'
-    at 66512)
-  role: tradition
-  confidence: assigned
-  note: 'Augustine''s address, soon after the 411 conference, to the Donatist laity, warning
-    them not to be led on by their bishops. It answers the charge that the judge Marcellinus
-    had been bribed, and argues that the Donatist bishops had themselves brought scripture
-    testimonies against their own side. The editor keeps the title ''Contra partem Donati
-    post gesta'' and notes that the Retractationes (II 66) word it differently. Five manuscripts,
-    all French, from one old exemplar with gaps. No English translation is vendored. PRIMARY
-    ORIGINAL per cic/texts/INTAKE.md: Petschenig''s critical text (CSEL 53, Vienna, 1910).
-    The scan is raw, uncorrected OCR of a dense critical edition with the apparatus interleaved
-    (the file''s own header and registry notes say so; about 88 to 90 percent of its word
-    forms match the vocabulary of the clean TEI files, against 93 to 97 percent for those).
-    So this row is primary for authorship and content, and a second witness for exact wording:
-    each quote is checked against the printed page or a clean witness before it is used, and
-    the English a Representative speaks is rendered from the verified Latin.
-
-    '
-  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: De Adulterinis Coniugiis (On Adulterous Marriages, two books), CSEL 41 scan
-  author: augustine
-  locus: file line 18103 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 345-410
-  role: tradition
-  confidence: assigned
-  note: 'No English translation of this work is vendored in this corpus, so this is new primary
-    content for this world. PRIMARY ORIGINAL per cic/texts/INTAKE.md, the only Latin witness
-    of this work vendored: Zycha, CSEL 41 (Vienna, 1900), in a readable OCR scan with the
-    critical apparatus interleaved, so each quote is verified verbatim against the file, and
-    against the page image where the apparatus interrupts the line, before it is used (INTAKE
-    section 6).
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Agone Christiano (On the Christian Combat), CSEL 41 scan
-  author: augustine
-  locus: file line 6833 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 99-138
-  role: tradition
-  confidence: assigned
-  note: 'SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
-    augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt, which is the preferred base
-    for quoting. This scan of the CSEL 41 volume (Zycha, Vienna 1900, title page MDCCCC) adds
-    the volume''s Praefatio and the printed apparatus and manuscript sigla. The OCR is readable
-    Latin; 99 percent of the TEI''s word forms are found in the scan text in a test on this
-    work. Assigned to the same bucket, role and confidence as the TEI file.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
 - work: De Baptismo (libri septem)
   author: augustine
-  locus: Pars I (CSEL 51); file line 8477 (heading 'DE BAPTISMO LIBRI VII')
+  locus: Pars I
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of the same work already vendored in English as "On
@@ -421,199 +425,9 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: De Bono Coniugali (On the Good of Marriage), CSEL 41 scan
-  author: augustine
-  locus: file line 10743 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 185-231
-  role: tradition
-  confidence: assigned
-  note: 'SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
-    augustine_de-bono-coniugali-lat_zycha1900-csel41-tei.txt, which is the preferred base
-    for quoting. This scan of the CSEL 41 volume (Zycha, Vienna 1900, title page MDCCCC) adds
-    the volume''s Praefatio and the printed apparatus and manuscript sigla. The OCR is readable
-    Latin; 99 percent of the TEI''s word forms are found in the scan text in a test on this
-    work. Assigned to the same bucket, role and confidence as the TEI file.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Bono Viduitatis (On the Good of Widowhood), CSEL 41 scan
-  author: augustine
-  locus: file line 16243 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 303-343
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry ''On the Good of Widowhood''
-    (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
-    PRIMARY ORIGINAL per cic/texts/INTAKE.md, the only Latin witness of this work vendored:
-    Zycha, CSEL 41 (Vienna, 1900), in a readable OCR scan with the critical apparatus interleaved,
-    so each quote is verified verbatim against the file, and against the page image where
-    the apparatus interrupts the line, before it is used (INTAKE section 6). Mirrors the English
-    twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Catechizandis Rudibus (On the Catechising of the Uninstructed), Krueger 1893
-  author: augustine
-  locus: file line 475 (opening of the Latin text, 'Petisti me, frater Deogratias'); title
-    page at file line 46
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry ''On the Catechising of the Uninstructed''
-    (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
-    PRIMARY ORIGINAL per cic/texts/INTAKE.md: Krueger''s second, wholly revised edition (Freiburg
-    and Leipzig, 1893) of Wolfhard''s text, in a clean OCR scan whose Latin lines read as
-    running text (three 30,000-character samples find 0.80 to 0.88 of word forms in the Latin
-    word list built from the clean TEI Augustine files, against 0.93 to 0.96 for the clean
-    TEI files tested the same way; the gap is the German notes and the edition''s line numbers
-    interleaved with the Latin). Ready to quote once each quote is verified verbatim against
-    the file (INTAKE section 6); the English a Representative speaks is rendered from it.
-    Not a modern critical edition. Mirrors the English twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
-- work: De Continentia (On Continence), CSEL 41 scan
-  author: augustine
-  locus: file line 8656 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 139-183
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry ''On Continence'' (source_file
-    npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket. PRIMARY
-    ORIGINAL per cic/texts/INTAKE.md, the only Latin witness of this work vendored: Zycha,
-    CSEL 41 (Vienna, 1900), in a readable OCR scan with the critical apparatus interleaved,
-    so each quote is verified verbatim against the file, and against the page image where
-    the apparatus interrupts the line, before it is used (INTAKE section 6). Mirrors the English
-    twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Cura pro Mortuis Gerenda (On Care to Be Had for the Dead), CSEL 41 scan
-  author: augustine
-  locus: file line 30611 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 619-660
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry ''On Care to Be Had for the Dead''
-    (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
-    PRIMARY ORIGINAL per cic/texts/INTAKE.md, the only Latin witness of this work vendored:
-    Zycha, CSEL 41 (Vienna, 1900), in a readable OCR scan with the critical apparatus interleaved,
-    so each quote is verified verbatim against the file, and against the page image where
-    the apparatus interrupts the line, before it is used (INTAKE section 6). Mirrors the English
-    twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Divinatione Daemonum (On the Divination of Demons), CSEL 41 scan
-  author: augustine
-  locus: file line 29631 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 597-618
-  role: tradition
-  confidence: provisional
-  note: 'No English translation of this work is vendored in this corpus, so this is new primary
-    content for this world. PRIMARY ORIGINAL per cic/texts/INTAKE.md, the only Latin witness
-    of this work vendored: Zycha, CSEL 41 (Vienna, 1900), in a readable OCR scan with the
-    critical apparatus interleaved, so each quote is verified verbatim against the file, and
-    against the page image where the apparatus interrupts the line, before it is used (INTAKE
-    section 6). Provisional because the treatise''s subject is pagan divination and demons
-    rather than church life; it sits in the same volume as the pastoral treatises.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Fide et Operibus (On Faith and Works), CSEL 41 scan
-  author: augustine
-  locus: file line 3787 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 33-97
-  role: tradition
-  confidence: assigned
-  note: 'SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
-    augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt, which is the preferred base
-    for quoting. This scan of the CSEL 41 volume (Zycha, Vienna 1900, title page MDCCCC) adds
-    the volume''s Praefatio and the printed apparatus and manuscript sigla. The OCR is readable
-    Latin; 99 percent of the TEI''s word forms are found in the scan text in a test on this
-    work. Assigned to the same bucket, role and confidence as the TEI file.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Fide et Symbolo (On Faith and the Creed), CSEL 41 scan
-  author: augustine
-  locus: file line 2307 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 1-32
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry ''A Treatise on Faith and the
-    Creed'' (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in
-    this bucket. PRIMARY ORIGINAL per cic/texts/INTAKE.md, the only Latin witness of this
-    work vendored: Zycha, CSEL 41 (Vienna, 1900), in a readable OCR scan with the critical
-    apparatus interleaved, so each quote is verified verbatim against the file, and against
-    the page image where the apparatus interrupts the line, before it is used (INTAKE section
-    6). Mirrors the English twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Mendacio (On Lying), CSEL 41 scan
-  author: augustine
-  locus: file line 21105 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 411-466
-  role: tradition
-  confidence: assigned
-  note: 'SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
-    augustine_de-mendacio-lat_zycha1900-csel41-tei.txt, which is the preferred base for quoting.
-    This scan of the CSEL 41 volume (Zycha, Vienna 1900, title page MDCCCC) adds the volume''s
-    Praefatio and the printed apparatus and manuscript sigla. The OCR is readable Latin; 99
-    percent of the TEI''s word forms are found in the scan text in a test on this work. Assigned
-    to the same bucket, role and confidence as the TEI file.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Opere Monachorum (Of the Work of Monks), CSEL 41 scan
-  author: augustine
-  locus: file line 26505 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 529-596
-  role: tradition
-  confidence: assigned
-  note: 'SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
-    augustine_de-opere-monachorum-lat_zycha1900-csel41-tei.txt, which is the preferred base
-    for quoting. This scan of the CSEL 41 volume (Zycha, Vienna 1900, title page MDCCCC) adds
-    the volume''s Praefatio and the printed apparatus and manuscript sigla. The OCR is readable
-    Latin; 99 percent of the TEI''s word forms are found in the scan text in a test on this
-    work. Assigned to the same bucket, role and confidence as the TEI file.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Patientia (On Patience), CSEL 41 scan
-  author: augustine
-  locus: file line 32564 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 661-691
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry ''On Patience'' (source_file
-    npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket. PRIMARY
-    ORIGINAL per cic/texts/INTAKE.md, the only Latin witness of this work vendored: Zycha,
-    CSEL 41 (Vienna, 1900), in a readable OCR scan with the critical apparatus interleaved,
-    so each quote is verified verbatim against the file, and against the page image where
-    the apparatus interrupts the line, before it is used (INTAKE section 6). Mirrors the English
-    twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- work: De Sancta Virginitate (Of Holy Virginity), CSEL 41 scan
-  author: augustine
-  locus: file line 12896 (printed heading of the work in the volume body); CSEL 41 printed
-    pp. 233-302
-  role: tradition
-  confidence: assigned
-  note: 'SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
-    augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt, which is the preferred base
-    for quoting. This scan of the CSEL 41 volume (Zycha, Vienna 1900, title page MDCCCC) adds
-    the volume''s Praefatio and the printed apparatus and manuscript sigla. The OCR is readable
-    Latin; 99 percent of the TEI''s word forms are found in the scan text in a test on this
-    work. Assigned to the same bucket, role and confidence as the TEI file.
-
-    '
-  source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
 - work: De Unico Baptismo contra Petilianum
   author: augustine
-  locus: Pars III (CSEL 53); file line 60952 (heading 'DE VNICO BAPTISMO')
+  locus: Pars III
   role: tradition
   confidence: assigned
   note: 'No English translation vendored anywhere in this corpus. Companion to the already-vendored
@@ -621,30 +435,6 @@ works:
     exchange. Double-placed to latin-pastoral-congregational-christianity (see this file''s
     own header note): the material behind that world''s own already-vendored English npnf104
     "Answer to the Letters of Petilian" row.
-
-    '
-  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Epistula ad Catholicos de Secta Donatistarum
-  author: augustine
-  locus: Pars II (CSEL 52); file line 36701 (heading 'EPISTVLA AD CATHOLICOS', 'DE SECTA DONATISTARVM.'
-    at 36702)
-  role: tradition
-  confidence: assigned
-  note: 'A pastoral letter to Catholic congregations on where the true church is, taught from
-    the law, the prophets, the psalms, the gospel and the apostles; the editor takes it as
-    an appendix to book II of the reply to Petilian. Older editions title it ''De unitate
-    ecclesiae''. No English translation is vendored, so this is new primary content for both
-    entries. Authorship: the Maurists doubted that it is Augustine''s; Petschenig answers
-    their arguments in his Praefatio and finds nothing against it, and notes that Augustine''s
-    Retractationes do not mention it. Assigned on the editor''s judgment, and the doubt is
-    recorded here so a later quote record carries it. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Petschenig''s critical text (CSEL 52, Vienna, 1909). The scan is raw, uncorrected OCR
-    of a dense critical edition with the apparatus interleaved (the file''s own header and
-    registry notes say so; about 88 to 90 percent of its word forms match the vocabulary of
-    the clean TEI files, against 93 to 97 percent for those). So this row is primary for authorship
-    and content, and a second witness for exact wording: each quote is checked against the
-    printed page or a clean witness before it is used, and the English a Representative speaks
-    is rendered from the verified Latin.
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
@@ -663,47 +453,6 @@ works:
 
     '
   source_file: npnf108_augustine-exposition-psalms.xml
-- work: Gesta cum Emerito Donatista
-  author: augustine
-  locus: Pars III (CSEL 53); file line 72784 (heading 'GESTA CUM EMERITO DONATISTA, LIBER
-    UNUS.')
-  role: tradition
-  confidence: assigned
-  note: 'The record of the 418 debate at Caesarea in Mauretania between Augustine and the
-    Donatist bishop Emeritus, before the bishops of the province and the congregation, with
-    Augustine''s own introduction. The editor cites the Retractationes (II 77) for it, and
-    notes that its opening words differ between the Retractationes and the manuscript, which
-    he follows; the one late manuscript is the same as for the Sermo. It gives this world
-    a face-to-face exchange with a Donatist bishop, as far as the Catholic side reports it.
-    No English translation is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig''s
-    critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR of a dense critical
-    edition with the apparatus interleaved (the file''s own header and registry notes say
-    so; about 88 to 90 percent of its word forms match the vocabulary of the clean TEI files,
-    against 93 to 97 percent for those). So this row is primary for authorship and content,
-    and a second witness for exact wording: each quote is checked against the printed page
-    or a clean witness before it is used, and the English a Representative speaks is rendered
-    from the verified Latin.
-
-    '
-  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: In Epistolam Ioannis ad Parthos Tractatus X (Maurist edition, Migne reissue)
-  author: augustine
-  locus: file line 46895 (heading 'IN EPISTOLAM JOANNIS AD PARTHOS'); first tractate at file
-    line 46795
-  role: tradition
-  confidence: assigned
-  note: 'Latin of the ALREADY-PRESENT English entry ''Ten Homilies on the First Epistle of
-    John (In epistulam Ioannis ad Parthos tractatus)'' (source_file npnf107_augustine-homilies-john-
-    soliloquies.xml) in this bucket. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md
-    section 2 and 6): the OCR carries scattered letter misreads (c for e, l for t, i for l)
-    at about one word in ten (0.70 to 0.75 of word forms found in a vocabulary test against
-    the clean TEI Augustine files, against 0.93 to 0.96 for the clean TEI files tested the
-    same way). Not to be quoted until the passage is checked against the page image or a clean
-    witness is vendored. The text is the pre-critical Maurist edition, reissued in Migne''s
-    Patrologia Latina (PL 35). Mirrors the English twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
 - work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
   author: augustine
   locus: div3 letters XXVIII, XXXIX, XL, LXVII, LXVIII, LXXI, LXXII, LXXIII, LXXV, LXXXI,
@@ -743,27 +492,6 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: Of Holy Virginity (De Sancta Virginitate), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 110 (first paragraph of the TEI body, opening 'Librum de Bono Coniugali');
-    printed heading 'VI. DE SANCTA VIRGINITATE.' at file line 107; CSEL 41 work VI, printed
-    pp. 233-302
-  role: tradition
-  confidence: assigned
-  note: 'Companion to On the Good of Marriage. Latin original of the ALREADY-PRESENT English
-    entry ''Of Holy Virginity'' (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Of Holy Virginity
-    (De Sancta Virginitate), Zycha, CSEL 41 (Vienna, 1900), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the CSEL scan, not a fresh human
-    edition). Ready to quote once each quote is verified verbatim against this file (INTAKE
-    section 6); the English a Representative speaks is rendered from it. The scan of the whole
-    volume (augustine_opera-sect-v- pars-iii-lat_zycha1900-csel41.txt) is the check on the
-    printed page and carries the Praefatio and the manuscript sigla. CC BY-SA 4.0, so attribution
-    and share-alike travel with any quotation. Mirrors the English twin''s role and confidence
-    exactly.
-
-    '
-  source_file: augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt
 - work: Of the Work of Monks (De Opere Monachorum)
   author: augustine
   locus: div2 5.7 — Of the Work of Monks
@@ -775,27 +503,6 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: Of the Work of Monks (De Opere Monachorum), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 110 (first paragraph of the TEI body, opening 'Iussioni tuae, sancte frater');
-    printed heading 'XI. DE OPERE MONACHORVM.' at file line 107; CSEL 41 work XI, printed
-    pp. 529-596
-  role: tradition
-  confidence: assigned
-  note: 'Written for Aurelius of Carthage about monks who refuse manual labor. Latin original
-    of the ALREADY-PRESENT English entry ''Of the Work of Monks (De Opere Monachorum)'' (source_file
-    npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in the bucket(s) named here.
-    PRIMARY ORIGINAL per cic/texts/INTAKE.md: Of the Work of Monks (De Opere Monachorum),
-    Zycha, CSEL 41 (Vienna, 1900), in the University of Leipzig''s machine-corrected TEI (the
-    project''s OCR correction of the CSEL scan, not a fresh human edition). Ready to quote
-    once each quote is verified verbatim against this file (INTAKE section 6); the English
-    a Representative speaks is rendered from it. The scan of the whole volume (augustine_opera-sect-v-pars-iii-
-    lat_zycha1900-csel41.txt) is the check on the printed page and carries the Praefatio and
-    the manuscript sigla. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
-    Mirrors the English twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_de-opere-monachorum-lat_zycha1900-csel41-tei.txt
 - work: On Baptism, Against the Donatists
   author: augustine
   locus: div2 5.4 — On Baptism, Against the Donatists (7 books)
@@ -852,27 +559,6 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: On Faith and Works (De Fide et Operibus), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 110 (first paragraph of the TEI body, opening 'Quibusdam uidetur indiscrete
-    omnes'); printed heading 'II. DE FIDE ET OPERIBUS.' at file line 107; CSEL 41 work II,
-    printed pp. 33-97
-  role: tradition
-  confidence: assigned
-  note: 'Augustine''s treatise on the admission of sinners to baptism and the place of works
-    in faith. No English translation of this work is vendored in this corpus, so this file
-    is new primary content for this world, not only a cross-check. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    On Faith and Works (De Fide et Operibus), Zycha, CSEL 41 (Vienna, 1900), in the University
-    of Leipzig''s machine-corrected TEI (the project''s OCR correction of the CSEL scan, not
-    a fresh human edition). Ready to quote once each quote is verified verbatim against this
-    file (INTAKE section 6); the English a Representative speaks is rendered from it. The
-    scan of the whole volume (augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt) is
-    the check on the printed page and carries the Praefatio and the manuscript sigla. CC BY-SA
-    4.0, so attribution and share-alike travel with any quotation. Augustine''s own pastoral
-    treatise, so role tradition.
-
-    '
-  source_file: augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt
 - work: On Grace and Free Will (De gratia et libero arbitrio)
   author: augustine
   locus: div1 19 — A Treatise on Grace and Free Will
@@ -894,27 +580,6 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: On Lying (De Mendacio), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 110 (first paragraph of the TEI body, opening 'Magna quaestio est de');
-    printed heading 'VIIII. DE MENDACIO.' at file line 107; CSEL 41 work VIIII, printed pp.
-    411-466
-  role: tradition
-  confidence: assigned
-  note: 'The earlier of Augustine''s two treatises on truthfulness. Latin original of the
-    ALREADY-PRESENT English entry ''On Lying (De Mendacio)'' (source_file npnf103_augustine-holy-trinity-doctrinal-
-    moral-treatises.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    On Lying (De Mendacio), Zycha, CSEL 41 (Vienna, 1900), in the University of Leipzig''s
-    machine- corrected TEI (the project''s OCR correction of the CSEL scan, not a fresh human
-    edition). Ready to quote once each quote is verified verbatim against this file (INTAKE
-    section 6); the English a Representative speaks is rendered from it. The scan of the whole
-    volume (augustine_opera-sect- v-pars-iii-lat_zycha1900-csel41.txt) is the check on the
-    printed page and carries the Praefatio and the manuscript sigla. CC BY-SA 4.0, so attribution
-    and share-alike travel with any quotation. Mirrors the English twin''s role and confidence
-    exactly.
-
-    '
-  source_file: augustine_de-mendacio-lat_zycha1900-csel41-tei.txt
 - work: On Man's Perfection in Righteousness (De perfectione justitiae hominis)
   author: augustine
   locus: div1 13 — A Treatise Concerning Man's Perfection in Righteousness
@@ -994,27 +659,6 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: On the Christian Combat (De Agone Christiano), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 109 (first paragraph of the TEI body, opening 'Corona uictoriae non promittitur');
-    printed heading 'III. DE AGONE CHRISTIANO.' at file line 106; CSEL 41 work III, printed
-    pp. 99-138
-  role: tradition
-  confidence: assigned
-  note: 'Augustine''s short instruction on the Christian struggle, whose opening line is ''Corona
-    uictoriae non promittitur nisi certantibus''. No English translation of this work is vendored
-    in this corpus, so this file is new primary content for this world, not only a cross-check.
-    PRIMARY ORIGINAL per cic/texts/INTAKE.md: On the Christian Combat (De Agone Christiano),
-    Zycha, CSEL 41 (Vienna, 1900), in the University of Leipzig''s machine-corrected TEI (the
-    project''s OCR correction of the CSEL scan, not a fresh human edition). Ready to quote
-    once each quote is verified verbatim against this file (INTAKE section 6); the English
-    a Representative speaks is rendered from it. The scan of the whole volume (augustine_opera-sect-v-pars-iii-
-    lat_zycha1900-csel41.txt) is the check on the printed page and carries the Praefatio and
-    the manuscript sigla. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
-    Augustine''s own pastoral treatise, so role tradition.
-
-    '
-  source_file: augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt
 - work: 'On the Creed: A Sermon to Catechumens'
   author: augustine
   locus: div2 4.7 — On the Creed
@@ -1049,27 +693,6 @@ works:
 
     '
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: On the Good of Marriage (De Bono Coniugali), CSEL 41 Latin text (TEI)
-  author: augustine
-  locus: file line 111 (first paragraph of the TEI body, opening 'Quoniam unusquisque homo
-    humani'); printed heading 'V. DE BONO CONIVGALI.' at file line 108; CSEL 41 work V, printed
-    pp. 185-231
-  role: tradition
-  confidence: assigned
-  note: 'Augustine''s treatise on marriage as a natural good. Latin original of the ALREADY-PRESENT
-    English entry ''On the Good of Marriage'' (source_file npnf103_augustine-holy-trinity-doctrinal-
-    moral-treatises.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    On the Good of Marriage (De Bono Coniugali), Zycha, CSEL 41 (Vienna, 1900), in the University
-    of Leipzig''s machine-corrected TEI (the project''s OCR correction of the CSEL scan, not
-    a fresh human edition). Ready to quote once each quote is verified verbatim against this
-    file (INTAKE section 6); the English a Representative speaks is rendered from it. The
-    scan of the whole volume (augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt) is
-    the check on the printed page and carries the Praefatio and the manuscript sigla. CC BY-SA
-    4.0, so attribution and share- alike travel with any quotation. Mirrors the English twin''s
-    role and confidence exactly.
-
-    '
-  source_file: augustine_de-bono-coniugali-lat_zycha1900-csel41-tei.txt
 - work: On the Good of Widowhood
   author: augustine
   locus: div2 5.4 — On the Good of Widowhood
@@ -1239,102 +862,6 @@ works:
 
     '
   source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
-- work: Sermo ad Caesariensis Ecclesiae Plebem
-  author: augustine
-  locus: Pars III (CSEL 53); file line 71499 (heading 'SERMO' at 71497, 'AD CAESARIENSIS ECCLESIAE
-    PLEBEM.' at 71499)
-  role: tradition
-  confidence: assigned
-  note: 'Augustine''s sermon to the congregation of Caesarea in Mauretania in 418, given with
-    the Donatist bishop Emeritus present, to persuade him to become Catholic (the editor''s
-    Praefatio). It gives this world a pastoral sermon in the middle of the dispute, on the
-    Maximianist schism inside Donatism (the Gesta cum Emerito say it dealt with the Maximianists
-    only). The editor remarks that by style alone one would hardly take it for Augustine''s
-    and still prints it as his own. One late manuscript, which the editor calls of little
-    value and which he shares with the Gesta cum Emerito, so the text is less secure than
-    the others here. No English translation is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Petschenig''s critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR
-    of a dense critical edition with the apparatus interleaved (the file''s own header and
-    registry notes say so; about 88 to 90 percent of its word forms match the vocabulary of
-    the clean TEI files, against 93 to 97 percent for those). So this row is primary for authorship
-    and content, and a second witness for exact wording: each quote is checked against the
-    printed page or a clean witness before it is used, and the English a Representative speaks
-    is rendered from the verified Latin.
-
-    '
-  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Sermones Guelferbytani, thirty-three tractatus from codex Guelferbytanus 4096 (Morin
-    1917)
-  author: augustine
-  locus: file line 1775 ('SANCTI AVRELI AVGVSTINI TRACTATVS TRIQINTA TRES IN CODICE GVELFERBYTANO
-    NVPER REPERTI')
-  role: tradition
-  confidence: provisional
-  note: 'PRIMARY ORIGINAL per cic/texts/INTAKE.md: Morin''s first edition (Kempten and Munich,
-    1917), in a readable OCR scan of a microfilm copy (0.83 to 0.88 of word forms found in
-    a vocabulary test against the clean TEI Augustine files, against 0.93 to 0.96 for the
-    clean TEI files tested the same way). The only witness of these sermons vendored; each
-    quote is verified verbatim against the file, and against the page image where the scan
-    is broken, before it is used. The title page ascribes the thirty-three tractatus to Augustine;
-    Morin''s own commentary marks which are genuine and which are not, so the confidence is
-    provisional. No English translation is vendored.
-
-    '
-  source_file: augustine_sermones-guelferbytani-lat_morin1917.txt
-- work: Sermones ad populum, Classes I-IV (Maurist edition, Migne printing, tome V)
-  author: augustine
-  locus: file line 699 ('SERMO PRIMUS', opening of Classis I); Classis IV 'De Diversis' at
-    file line 106615
-  role: tradition
-  confidence: assigned
-  note: 'Latin of the ALREADY-PRESENT English entry ''Sermons on Selected Lessons of the New
-    Testament (Sermones ad populum, NPNF selection)'' (source_file npnf106_augustine-sermon-mount-harmony-
-    gospels-homilies.xml) in this bucket, which translates only a selection; this file holds
-    the Latin of the whole run in tome V. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md
-    section 2 and 6): the OCR carries systematic letter misreads (c for e, l for t and i,
-    n for u) at about one word in three in a vocabulary test against the clean TEI Augustine
-    files (0.52 to 0.62 of word forms found, against 0.93 to 0.96 for the clean TEI files
-    tested the same way), which is above the noise this project treats as quotable. Not to
-    be quoted until the passage is checked against the page image or a clean witness is vendored.
-    The text is the pre-critical Maurist edition as printed by Migne. Mirrors the English
-    twin''s role and confidence exactly.
-
-    '
-  source_file: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
-- work: Sermones dubii (Maurist Classis V, Migne printing, tome V)
-  author: augustine
-  locus: file line 117124 ('CLASSIS V. SERMONES DUBII')
-  role: tradition
-  confidence: provisional
-  note: 'The sermons the Maurist editors print under Classis V as doubtful; those that seem
-    least Augustinian are set in smaller type. Not asserted as Augustine''s own; findable
-    here as the edition''s own doubtful group. SECOND WITNESS ONLY, because of scan quality
-    (cic/texts/INTAKE.md section 2 and 6): the OCR carries systematic letter misreads (c for
-    e, l for t and i, n for u) at about one word in three in a vocabulary test against the
-    clean TEI Augustine files (0.52 to 0.62 of word forms found, against 0.93 to 0.96 for
-    the clean TEI files tested the same way), which is above the noise this project treats
-    as quotable. Not to be quoted until the passage is checked against the page image or a
-    clean witness is vendored. The text is the pre-critical Maurist edition as printed by
-    Migne.
-
-    '
-  source_file: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
-- work: Sermones inediti (Caillau 1842)
-  author: augustine
-  locus: file line 3798 ('SERMO I.', first sermon); title 'SERMONES INEDITI' at file line
-    40
-  role: tradition
-  confidence: provisional
-  note: 'SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6):
-    the OCR misreads about one word in five or six (0.44 to 0.65 of word forms found in a
-    vocabulary test against the clean TEI Augustine files, against 0.93 to 0.96 for the clean
-    TEI files tested the same way) and carries stray symbols, though the Latin runs as text.
-    Not to be quoted until the passage is checked against the page image. The title page ascribes
-    the sermons to Augustine; this file does not decide the authorship of any single sermon,
-    so the confidence is provisional. No English translation is vendored.
-
-    '
-  source_file: augustine_sermones-inediti-lat_caillau1842.txt
 - work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
   author: augustine
   locus: div1 7 — Sermons on Selected Lessons of the New Testament; a series of ~97 sermons
@@ -1437,33 +964,32 @@ works:
 
     '
   source_file: npnf107_augustine-homilies-john-soliloquies.xml
-- work: Tractatus in Ioannis Evangelium CXXIV (Maurist edition, Migne reissue)
-  author: augustine
-  locus: file line 4549 ('TRACTATUS I. CAPUT I.'); last tractate 'TRACTATUS CXXIV. CAPUT XXI.'
-    at file line 46242
-  role: tradition
-  confidence: assigned
-  note: 'Latin of the ALREADY-PRESENT English entry ''Tractates on the Gospel of John (In
-    Evangelium Ioannis tractatus)'' (source_file npnf107_augustine-homilies-john-soliloquies.xml)
-    in this bucket. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section
-    2 and 6): the OCR carries scattered letter misreads (c for e, l for t, i for l) at about
-    one word in ten (0.70 to 0.75 of word forms found in a vocabulary test against the clean
-    TEI Augustine files, against 0.93 to 0.96 for the clean TEI files tested the same way).
-    Not to be quoted until the passage is checked against the page image or a clean witness
-    is vendored. The text is the pre-critical Maurist edition, reissued in Migne''s Patrologia
-    Latina (PL 35). Mirrors the English twin''s role and confidence exactly.
+- work: 'Bardenhewer, Geschichte der altkirchlichen Literatur, Band 2: Cyprian (2nd ed., 1914,
+    slice)'
+  author: bardenhewer
+  locus: section 82; item lines 24362-28405
+  role: context
+  confidence: provisional
+  note: 'Modern German handbook account of Cyprian''s writings. Registry row 249.
 
     '
-  source_file: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
-- work: 'Cyprian: His Life, His Times, His Work (Benson, 1897)'
-  author: benson
-  locus: whole file; title page at file line 77; the contents entry for chapter IV, on De
-    unitate, at file line 512
+  source_file: bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914.txt
+- work: 'Bardenhewer, Geschichte der altkirchlichen Literatur, Band 4: Augustine and his circle
+    (1924, slice)'
+  author: bardenhewer
+  locus: sections 73-75; item lines 24456-30686
   role: context
-  confidence: assigned
-  note: 'Modern (1897) English scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. A full-length biography of Cyprian by a sometime
-    Archbishop of Canterbury, published after his death.
+  confidence: provisional
+  note: 'Modern German handbook account of Augustine and his circle. Registry row 250.
+
+    '
+  source_file: bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt
+- work: 'Benson, Cyprian: His Life, His Times, His Work (1897)'
+  author: benson
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Modern (1897) English biography of Cyprian. Registry row 226.
 
     '
   source_file: benson_cyprian-his-life-his-times-his-work_1897.txt
@@ -1485,6 +1011,16 @@ works:
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+- work: Codex canonum Ecclesiae Africanae, in Mansi tom. 3
+  author: council-of-carthage-419
+  locus: file line 69478
+  role: tradition
+  confidence: provisional
+  note: 'Second Latin witness to the Code of Canons of the African Church already in the map
+    from Bruns (Registry rows 26 and 202). Registry row 228.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
 - work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
     of Carthage, 419)
   author: council-of-carthage-419
@@ -1510,6 +1046,24 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: Aurelius's Carthage synod, in Mansi tom. 3
+  author: council-of-carthage-aurelius
+  locus: file line 86419
+  role: tradition
+  confidence: provisional
+  note: 'African council recorded in Mansi 3. Registry row 228.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
+- work: Carthage I sub Grato, in Mansi tom. 3
+  author: council-of-carthage-i
+  locus: file line 12680
+  role: tradition
+  confidence: provisional
+  note: 'African council recorded in Mansi 3. Registry row 228.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
 - work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
   author: council-of-carthage-under-cyprian
   locus: div2 15.6 — The Council of Carthage held under Cyprian
@@ -1522,6 +1076,24 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: Council of Hippo II, in Mansi tom. 3
+  author: council-of-hippo
+  locus: file line 82431
+  role: tradition
+  confidence: provisional
+  note: 'African council recorded in Mansi 3. Registry row 228.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
+- work: Hippo-Regiense council, in Mansi tom. 4
+  author: council-of-hippo
+  locus: file line 44098
+  role: tradition
+  confidence: provisional
+  note: 'African council recorded in Mansi 4. Registry row 229.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
 - work: Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)
   author: cyprian
   locus: pp. CX-CXIV of the printed volume, immediately following the Vita
@@ -1533,128 +1105,6 @@ works:
 
     '
   source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
-- work: Acta Proconsularia of Cyprian, Latin (Gebhardt 1902, no. XI)
-  author: cyprian
-  locus: file line 6474 ('Acta S. Cypriani episcopi et martyris'); collection no. XI
-  role: tradition
-  confidence: provisional
-  note: 'Cyprian''s trial and martyrdom record in Latin, a further Latin text of the work
-    already assigned from Hartel''s CSEL 3 Pars III (source_file cyprian_opera-spuria-vita-pontius-lat_hartel-
-    csel3-pars3.txt). No English translation of the record is vendored. Gebhardt''s collection
-    (Berlin, 1902): the Latin acts are readable OCR with occasional C/O letter misreads (for
-    example ''Oypriano'' for ''Cypriano''), the German apparatus is real text, and the Greek
-    acts are not recoverable from this scan. Readable running text, so each quote is verified
-    verbatim against the file and against the page image where a letter is doubtful (INTAKE
-    section 6) before it is used. Mirrors that entry''s role and confidence.
-
-    '
-  source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
-- work: Acta Proconsularia of Cyprian, Latin (Knopf-Krueger 1929, no. 13)
-  author: cyprian
-  locus: file line 4820 ('13. Akten Cyprians'); the Latin opens 'Imperatore Valeriano quartum
-    et Gallieno tertium consulibus'
-  role: tradition
-  confidence: provisional
-  note: 'Cyprian''s trial and martyrdom record in Latin, a second Latin text of the work already
-    assigned from Hartel''s CSEL 3 Pars III (source_file cyprian_opera-spuria-vita-pontius-lat_hartel-
-    csel3-pars3.txt). No English translation of the record is vendored. Knopf''s collection
-    in Krueger''s third edition (Tuebingen, 1929): the Latin text is clean running OCR (a
-    test passage, the Acta Cypriani, reads without visible misreads), the German headnotes
-    and apparatus are real text, and the Greek acts are not recoverable from this scan. Each
-    quote is verified verbatim against the file (INTAKE section 6) before it is used. Mirrors
-    that entry''s role and confidence.
-
-    '
-  source_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
-- work: Ad Demetrianum, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 108 (first text of the TEI body, opening 'Oblatrantem te et aduersus Deum');
-    urn:cts:latinLit:stoa0104a.stoa002.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 12664-13428
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s reply to the pagan Demetrianus, who blamed Christians for the calamities
-    of the age. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text (Pars I,
-    Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected TEI (the project''s
-    OCR correction of the printed edition, not a fresh human edition). Ready to quote once
-    each quote is verified verbatim against this file (INTAKE section 6); the English a Representative
-    speaks is rendered from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 12664-13428), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt
-- work: Ad Donatum, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Bene admones, Donate carissime');
-    urn:cts:latinLit:stoa0104a.stoa001.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 66-585
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s early address to Donatus, a personal exhortation on the new life after
-    baptism; in the English shelf it stands as Epistle I inside the Epistles body row. PRIMARY
-    ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text (Pars I, Vienna: Gerold, 1868),
-    in the University of Leipzig''s machine-corrected TEI (the project''s OCR correction of
-    the printed edition, not a fresh human edition). Ready to quote once each quote is verified
-    verbatim against this file (INTAKE section 6); the English a Representative speaks is
-    rendered from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 66-585), which carries the manuscript sigla and the variant readings in place
-    on the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA
-    4.0, so attribution and share-alike travel with any quotation. Carries the lpc placement
-    of the twin. The twin''s Novatianism and Donatism placements belong to the Epistles body
-    as a correspondence about the Decian schism and the rebaptism dispute, not to this early
-    address, so they are not carried.
-
-    '
-  source_file: cyprian_ad-donatum-lat_hartel1868-csel3-tei.txt
-- work: Ad Fortunatum (the TEI title reads 'De Exhortatione Martyrii'), CSEL 3 Latin text
-    (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Desiderasti, Fortunate carissime');
-    urn:cts:latinLit:stoa0104a.stoa005.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 11482-12643
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s exhortation to martyrdom, addressed to Fortunatus, built from scripture
-    testimonies for a church facing persecution. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
-    human edition). Ready to quote once each quote is verified verbatim against this file
-    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
-    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 11482-12643), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_de-exhortatione-martyrii-lat_hartel1868-csel3-tei.txt
-- work: Ad Quirinum (Testimoniorum Libri Tres adversus Judaeos), CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 112 (first text of the TEI body, opening 'Obtemperandum fuit, fili carissime');
-    urn:cts:latinLit:stoa0104a.stoa014.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 1155-6948
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s three books of scripture testimonies, addressed to Quirinus. PRIMARY
-    ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text (Pars I, Vienna: Gerold, 1868),
-    in the University of Leipzig''s machine-corrected TEI (the project''s OCR correction of
-    the printed edition, not a fresh human edition). Ready to quote once each quote is verified
-    verbatim against this file (INTAKE section 6); the English a Representative speaks is
-    rendered from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 1155-6948), which carries the manuscript sigla and the variant readings in
-    place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt
 - work: An Address to Demetrianus (Ad Demetrianum)
   author: cyprian
   locus: div3 under 4.5 - Treatise V
@@ -1678,198 +1128,37 @@ works:
 
     '
   source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
-- work: De Bono Patientiae, CSEL 3 Latin text (TEI)
+- work: Cyprian, Ausgewaehlte Schriften, Band 1 (German, Uhl, BKV 1869)
   author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'De patientia locuturus, fratres
-    dilectissimi'); urn:cts:latinLit:stoa0104a.stoa003.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 14305-15007
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on the advantage of patience. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
-    human edition). Ready to quote once each quote is verified verbatim against this file
-    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
-    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 14305-15007), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A German translation of Cyprian''s treatises and two letters, not the original. Context,
+    not tradition: the Latin (Hartel) is the tradition entry. Fraktur OCR is poor. Registry
+    row 232.
 
     '
-  source_file: cyprian_de-bono-patientiae-lat_hartel1868-csel3-tei.txt
-- work: De Dominica Oratione, CSEL 3 Latin text (TEI)
+  source_file: cyprian_ausgewaehlte-schriften-band1-deu_uhl-bkv1869.txt
+- work: 'Cyprian, Oeuvres completes, tome 1: the treatises (French, Guillon 1837)'
   author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Euangelica praecepta, fratres
-    dilectissimi'); urn:cts:latinLit:stoa0104a.stoa015.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 9721-10777
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on the Lord''s Prayer. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
-    human edition). Ready to quote once each quote is verified verbatim against this file
-    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
-    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 9721-10777), which carries the manuscript sigla and the variant readings in
-    place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A French translation of the treatises, not the original. The Latin (Hartel) is the
+    tradition entry. Registry row 233.
 
     '
-  source_file: cyprian_de-dominica-oratione-lat_hartel1868-csel3-tei.txt
-- work: De Habitu Virginum (the TEI title reads 'De Disciplina et Habitu Virginum Liber'),
-    CSEL 3 Latin text (TEI)
+  source_file: cyprian_oeuvres-completes-tome1-traites-fra_guillon1837.txt
+- work: 'Cyprian, Oeuvres completes, tome 2: the letters (French, Guillon 1837)'
   author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Disciplina custos spei, retinaculum
-    fidei'); urn:cts:latinLit:stoa0104a.stoa004.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 6970-7672
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on the conduct and dress of consecrated virgins. PRIMARY ORIGINAL
-    per cic/texts/INTAKE.md: Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the
-    University of Leipzig''s machine-corrected TEI (the project''s OCR correction of the printed
-    edition, not a fresh human edition). Ready to quote once each quote is verified verbatim
-    against this file (INTAKE section 6); the English a Representative speaks is rendered
-    from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 6970-7672), which carries the manuscript sigla and the variant readings in
-    place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'A French translation of the letters, not the original. The Latin (Hartel) is the
+    tradition entry. Registry row 234.
 
     '
-  source_file: cyprian_de-disciplina-et-habitu-virginum-lat_hartel1868-csel3-tei.txt
-- work: De Lapsis, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Pax ecce, dilectissimi fratres');
-    urn:cts:latinLit:stoa0104a.stoa007.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 8650-9708
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on those who lapsed in the Decian persecution and how the church
-    receives them back. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text
-    (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected TEI
-    (the project''s OCR correction of the printed edition, not a fresh human edition). Ready
-    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
-    English a Representative speaks is rendered from it. Verify quotes against the printed
-    apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines
-    8650-9708), which carries the manuscript sigla and the variant readings in place on the
-    printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA 4.0,
-    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
-    roles and confidence exactly.
-
-    '
-  source_file: cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt
-- work: De Mortalitate, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Etsi aput plurimos uestrum');
-    urn:cts:latinLit:stoa0104a.stoa008.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 10794-11462
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on the mortality, the plague that struck Carthage, and how believers
-    face death. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text (Pars I,
-    Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected TEI (the project''s
-    OCR correction of the printed edition, not a fresh human edition). Ready to quote once
-    each quote is verified verbatim against this file (INTAKE section 6); the English a Representative
-    speaks is rendered from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 10794-11462), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt
-- work: De Opere et Eleemosynis, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 107 (first text of the TEI body, opening 'Multa et magna sunt, fratres
-    carissimi'); urn:cts:latinLit:stoa0104a.stoa009.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 13449-14288
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on works and alms. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
-    human edition). Ready to quote once each quote is verified verbatim against this file
-    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
-    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 13449-14288), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_de-opere-et-eleemosynis-lat_hartel1868-csel3-tei.txt
-- work: De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Cum moneat Dominus et dicat');
-    urn:cts:latinLit:stoa0104a.stoa010.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 7685-8633
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on the unity of the church. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
-    human edition). Ready to quote once each quote is verified verbatim against this file
-    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
-    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 7685-8633), which carries the manuscript sigla and the variant readings in
-    place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt
-- work: De Zelo et Livore, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Zelare quod bonum uideas'); urn:cts:latinLit:stoa0104a.stoa011.opp-lat1;
-    scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 15025-15539
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: Cyprian''s treatise on jealousy and envy. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
-    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
-    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
-    human edition). Ready to quote once each quote is verified verbatim against this file
-    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
-    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 15025-15539), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly.
-
-    '
-  source_file: cyprian_de-zelo-et-livore-lat_hartel1868-csel3-tei.txt
-- work: Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et
-    collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 16500-30929
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: the correspondence of Cyprian, including letters written to him. PRIMARY ORIGINAL
-    per cic/texts/INTAKE.md: Hartel''s critical text (Pars II, Vienna: Gerold, 1871), in the
-    University of Leipzig''s machine-corrected TEI (the project''s OCR correction of the printed
-    edition, not a fresh human edition). Ready to quote once each quote is verified verbatim
-    against this file (INTAKE section 6); the English a Representative speaks is rendered
-    from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    (scan lines 16500-30929), which carries the manuscript sigla and the variant readings
-    in place on the printed page; this file keeps the footnotes only as unaligned note text.
-    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
-    twin''s roles and confidence exactly. The corpus embeds letters by others (Cornelius,
-    the Roman clergy, Firmilian of Caesarea, the confessors) under Cyprian''s name, so author
-    cyprian is the corpus author of record.
-
-    '
-  source_file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
+  source_file: cyprian_oeuvres-completes-tome2-lettres-fra_guillon1837.txt
 - work: Exhortation to Martyrdom, Addressed to Fortunatus (Ad Fortunatum)
   author: cyprian
   locus: div3 under 4.5 - Treatise XI
@@ -1964,28 +1253,6 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: Quod Idola Dii Non Sint, CSEL 3 Latin text (TEI)
-  author: cyprian
-  locus: file line 109 (first text of the TEI body, opening 'Deos non esse, quos colit uulgus');
-    urn:cts:latinLit:stoa0104a.stoa006.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 598-1118
-  role: tradition
-  confidence: provisional
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: the treatise on the vanity of idols. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s
-    critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected
-    TEI (the project''s OCR correction of the printed edition, not a fresh human edition).
-    Ready to quote once each quote is verified verbatim against this file (INTAKE section
-    6); the English a Representative speaks is rendered from it. Verify quotes against the
-    printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan
-    lines 598-1118), which carries the manuscript sigla and the variant readings in place
-    on the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA
-    4.0, so attribution and share-alike travel with any quotation. Mirrors the English twin''s
-    roles and confidence exactly. Provisional as the twin: the ascription of the treatise
-    to Cyprian is the twin''s own open point.
-
-    '
-  source_file: cyprian_quod-idola-dii-non-sint-lat_hartel1868-csel3-tei.txt
 - work: S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)
   author: cyprian
   locus: whole text; Pars I ends at the Sententiae Episcoporum, Pars II runs Epistulae I-LXXXI
@@ -2005,29 +1272,6 @@ works:
 
     '
   source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-- work: Sententiae Episcoporum numero LXXXVII de haereticis baptizandis, CSEL 3 Latin text
-    (TEI)
-  author: cyprian
-  locus: file line 107 (first text of the TEI body, opening 'Cum in unum Cartaginem conuenissent');
-    urn:cts:latinLit:stoa0104a.stoa013.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
-    lines 15567-16433
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
-    hold: the opinions of the 87 bishops at the Seventh Council of Carthage under Cyprian
-    on the baptism of heretics. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical
-    text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected
-    TEI (the project''s OCR correction of the printed edition, not a fresh human edition).
-    Ready to quote once each quote is verified verbatim against this file (INTAKE section
-    6); the English a Representative speaks is rendered from it. Verify quotes against the
-    printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan
-    lines 15567-16433), which carries the manuscript sigla and the variant readings in place
-    on the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA
-    4.0, so attribution and share-alike travel with any quotation. Mirrors the English twin''s
-    roles and confidence exactly.
-
-    '
-  source_file: cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt
 - work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
@@ -2085,17 +1329,6 @@ works:
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: La Theologie de saint Cyprien (d'Ales, 1922)
-  author: dales
-  locus: whole file; title page at file line 88
-  role: context
-  confidence: assigned
-  note: 'Modern (1922) French scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. A French monograph on Cyprian''s theology, by the
-    author of the earlier studies on Tertullian and on the Edict of Callistus.
-
-    '
-  source_file: dales_theologie-de-saint-cyprien-fra_1922.txt
 - work: Les Passions des martyrs et les genres litteraires
   author: delehaye
   locus: whole file
@@ -2108,21 +1341,58 @@ works:
 
     '
   source_file: delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
-- work: Tractatus novem from codex Guelferbytanus 4096 (Optatus of Milevis, Quodvultdeus of
-    Carthage and others of Augustine's school, Morin 1917)
-  author: guelferbytanus-tractatus-novem
-  locus: file line 10303 ('SS. OPTATI MILEVITANI QVODVVLTDEI CARTHAGINIENSIS EPISCOPORVM ALIORVMQVE
-    EX AVGVSTINI SCHOLA TRACTATVS NOVEM')
-  role: tradition
+- work: Duchesne, Histoire ancienne de l'Eglise, tome 1 (3rd ed., 1907)
+  author: duchesne
+  locus: chapter XX (Africa, Rome, Cyprian) at file line 14126
+  role: context
   confidence: provisional
-  note: 'The nine further tractatus printed after the Augustine sermons; the title page names
-    Optatus of Milevis and Quodvultdeus of Carthage, both African bishops, and others of Augustine''s
-    school, without giving an author for each. The witness is the same readable OCR scan as
-    the first entry. Provisional because the authorship of each tractatus is Morin''s to argue
-    and is not settled by this file. No English translation is vendored.
+  note: 'Modern French history of the early church; the chapter named in the locus is the
+    part that bears on this entry. Registry row 240.
 
     '
-  source_file: augustine_sermones-guelferbytani-lat_morin1917.txt
+  source_file: duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt
+- work: Duchesne, Histoire ancienne de l'Eglise, tome 2 (3rd ed., 1907)
+  author: duchesne
+  locus: chapter III (the schisms after the persecution) at file line 3604
+  role: context
+  confidence: provisional
+  note: 'Modern French history of the early church; the chapter named in the locus is the
+    part that bears on this entry. Registry row 241.
+
+    '
+  source_file: duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907.txt
+- work: Duchesne, Histoire ancienne de l'Eglise, tome 3 (2nd ed., 1910)
+  author: duchesne
+  locus: chapter VIII (Augustinianism) at file line 9564
+  role: context
+  confidence: provisional
+  note: 'Modern French history of the early church; the chapter named in the locus is the
+    part that bears on this entry. Registry row 242.
+
+    '
+  source_file: duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt
+- work: Gesta Collationis Carthaginensis (Acts of the 411 Conference of Carthage), in Mansi
+    tom. 4
+  author: gesta-collationis-carthaginensis
+  locus: file line 1382
+  role: context
+  confidence: provisional
+  note: 'A second Latin printing of the acts beside the Migne PL 11 printing already in the
+    map as context. Registry row 229.
+
+    '
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
+- work: 'Gsell, Inscriptions latines de l''Algerie, vol. 1: Proconsulaire (1922), including
+    Hippo Regius'
+  author: gsell
+  locus: whole file; Hippone section near line 810 not confirmed
+  role: context
+  confidence: provisional
+  note: 'Modern (1922) edition of Latin inscriptions from the old Proconsular province. Not
+    checked against any specific inscription. Registry row 227.
+
+    '
+  source_file: gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt
 - work: 'Das Leben Cyprians von Pontius: Die erste christliche Biographie, untersucht von
     Adolf Harnack'
   author: harnack
@@ -2139,57 +1409,66 @@ works:
 
     '
   source_file: harnack_vita-cypriani-commentary-lat-deu_1913.txt
-- work: Cathedra Petri (Koch, 1930)
-  author: koch
-  locus: whole file; title page at file line 26; the chapter 'II. Die Primatsfrage bei Cyprian'
-    listed at file line 352
+- work: Harnack, Die Mission und Ausbreitung des Christentums, Band 2 (2nd ed., 1906)
+  author: harnack
+  locus: Africa section running head at file line 13271
   role: context
-  confidence: assigned
-  note: 'Modern (1930) German scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. New studies on the beginnings of the Roman primacy,
-    answering Caspar''s Primatus Petri (1927): Tertullian''s De pudicitia 21, then Cyprian''s
-    De unitate 4 and the dispute with Stephen.
+  confidence: provisional
+  note: 'Modern (1906) German account of the church''s spread. Registry row 243.
 
     '
-  source_file: koch_cathedra-petri-deu_1930.txt
-- work: Cyprian und der roemische Primat (Koch, 1910)
-  author: koch
-  locus: whole file; title page at file line 34
+  source_file: harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt
+- work: 'Hefele and Leclercq, Histoire des conciles, tome 1 part 1: Cyprian, the Novatians,
+    baptism (1907, slice)'
+  author: hefele-leclercq
+  locus: sections 5-6; item lines 9020-10431
   role: context
-  confidence: assigned
-  note: 'Modern (1910) German scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. Study of what Cyprian says about the Roman primacy
-    (Texte und Untersuchungen 35.1); its preface takes up Nelke''s chronology of Cyprian''s
-    correspondence.
+  confidence: provisional
+  note: 'Modern French account of the councils under Cyprian and the baptism dispute. Registry
+    row 248.
 
     '
-  source_file: koch_cyprian-und-der-roemische-primat-deu_1910.txt
-- work: Cyprianische Untersuchungen (Koch, 1926)
-  author: koch
-  locus: whole file; title page at file line 80; the chapter on penance in Cyprian, 'Die Bußfrage
-    bei Cyprian', at file line 362
+  source_file: hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt
+- work: 'Hefele and Leclercq, Histoire des conciles, tome 2 part 1: the African councils (1908,
+    slice)'
+  author: hefele-leclercq
+  locus: sections 105-126; item lines 3676-11965
   role: context
-  confidence: assigned
-  note: 'Modern (1926) German scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. Studies on the authorship and dating of Cyprian''s
-    writings (Quod idola dii non sint, De lapsis, De ecclesiae unitate, the short treatises,
-    Ad Fortunatum, Ad Quirinum) and on his teaching on penance.
+  confidence: provisional
+  note: 'Modern French account of the African councils. Registry row 247.
+
+    '
+  source_file: hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt
+- work: Koch, Cyprianische Untersuchungen (1926)
+  author: koch
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Modern (1926) German scholarship on Cyprian. Rights rest on the date alone. Registry
+    row 225.
 
     '
   source_file: koch_cyprianische-untersuchungen-deu_1926.txt
-- work: 'L''Afrique chretienne: eveches et ruines antiques (Mesnage, 1912)'
-  author: mesnage
-  locus: whole file; title page at file line 22
+- work: 'Lauchert, Die Kanones der wichtigsten altkirchlichen Concilien: Carthage I-III (Latin
+    and Greek)'
+  author: lauchert
+  locus: Carthage I line 10850, II line 11073, III line 11293
   role: context
   confidence: provisional
-  note: 'Modern (1912) French scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. A reference work on the sees and ancient sites
-    of Christian North Africa, built on Toulotte''s manuscripts; it places the bishoprics
-    that Cyprian''s and Augustine''s letters name. Provisional because it covers all of Roman
-    Africa to the Arab conquest.
+  note: 'A modern (1896) edition of council canons. Only the African councils at Carthage
+    I-III bear on this entry. Registry row 235.
 
     '
-  source_file: mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt
+  source_file: lauchert_kanones-altkirchlichen-concilien-lat-grc_1896.txt
+- work: 'Mesnage, L''Afrique chretienne: eveches et ruines antiques (1912)'
+  author: mesnage
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Modern (1912) French survey of the African sees. Registry row 238.
+
+    '
+  source_file: mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt
 - work: 'Histoire litteraire de l''Afrique chretienne, Tome Deuxieme: Saint Cyprien et son
     temps'
   author: monceaux
@@ -2244,74 +1523,24 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
-- work: Passio of Marianus and Jacobus, Latin (Gebhardt 1902, no. XIII)
-  author: passion-of-marianus-and-jacobus
-  locus: file line 6920 ('Passio SS. Mariani et Iacobi'); collection no. XIII
+- work: Passio SS. Mariani et Iacobi
+  author: passio-mariani-et-iacobi
+  locus: file line 6377 (XIII)
   role: tradition
   confidence: provisional
-  note: 'An anonymous African martyrdom account. Its Latin sets the journey in Numidia and
-    names Cyprian, who appears to the martyrs in a vision. No English translation is vendored.
-    Gebhardt''s collection (Berlin, 1902): the Latin acts are readable OCR with occasional
-    C/O letter misreads (for example ''Oypriano'' for ''Cypriano''), the German apparatus
-    is real text, and the Greek acts are not recoverable from this scan. Readable running
-    text, so each quote is verified verbatim against the file and against the page image where
-    a letter is doubtful (INTAKE section 6) before it is used. Provisional because the account
-    is anonymous and its date is not stated in the file''s own text.
+  note: 'Latin martyr acts of the Cyprianic period. Registry row 222.
 
     '
-  source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
-- work: Passio of Marianus and Jacobus, Latin (Knopf-Krueger 1929, no. 15)
-  author: passion-of-marianus-and-jacobus
-  locus: file line 5166 ('15. Martyrium des Marianus und Jakobus'); the Latin opens 'Quotiens
-    aliquid beatissimi martyres dei'
+  source_file: acta-martyrum-selecta_gebhardt1902.txt
+- work: Passio SS. Montani et Lucii
+  author: passio-montani-et-lucii
+  locus: running heads from file line 6970 (XIV)
   role: tradition
   confidence: provisional
-  note: 'An anonymous African martyrdom account. Its Latin sets the journey in Numidia (''pergebamus
-    in Numidiam'') and names Cyprian, who appears to the martyrs in a vision (file line 5365,
-    ''Cyprianus apparuit''). No English translation is vendored. Knopf''s collection in Krueger''s
-    third edition (Tuebingen, 1929): the Latin text is clean running OCR (a test passage,
-    the Acta Cypriani, reads without visible misreads), the German headnotes and apparatus
-    are real text, and the Greek acts are not recoverable from this scan. Each quote is verified
-    verbatim against the file (INTAKE section 6) before it is used. Provisional because the
-    account is anonymous and its date is not stated in the file''s own text; the edition''s
-    headnote is not reproduced here.
+  note: 'Latin martyr acts of the Cyprianic period. Registry row 222.
 
     '
-  source_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
-- work: Passio of Montanus and Lucius, Latin (Gebhardt 1902, no. XIV)
-  author: passion-of-montanus-and-lucius
-  locus: file line 7492 ('Passio SS. Montani et Lucii.'); collection no. XIV
-  role: tradition
-  confidence: provisional
-  note: 'An anonymous African martyrdom account. Its Latin names Cyprian as the teacher from
-    whom the martyrs learned the faith and looks back on the Decian persecution. No English
-    translation is vendored. Gebhardt''s collection (Berlin, 1902): the Latin acts are readable
-    OCR with occasional C/O letter misreads (for example ''Oypriano'' for ''Cypriano''), the
-    German apparatus is real text, and the Greek acts are not recoverable from this scan.
-    Readable running text, so each quote is verified verbatim against the file and against
-    the page image where a letter is doubtful (INTAKE section 6) before it is used. Provisional
-    because the account is anonymous and its date is not stated in the file''s own text.
-
-    '
-  source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
-- work: Passio of Montanus and Lucius, Latin (Knopf-Krueger 1929, no. 16)
-  author: passion-of-montanus-and-lucius
-  locus: file line 5629 ('16. Martyrium des Montanus und Lucius'), heading in the body; the
-    table of contents lists it earlier
-  role: tradition
-  confidence: provisional
-  note: 'An anonymous African martyrdom account. Its Latin names Cyprian as the teacher from
-    whom the martyrs learned the faith (file line 5918, ''Cypriano docente'') and looks back
-    on the Decian persecution. No English translation is vendored. Knopf''s collection in
-    Krueger''s third edition (Tuebingen, 1929): the Latin text is clean running OCR (a test
-    passage, the Acta Cypriani, reads without visible misreads), the German headnotes and
-    apparatus are real text, and the Greek acts are not recoverable from this scan. Each quote
-    is verified verbatim against the file (INTAKE section 6) before it is used. Provisional
-    because the account is anonymous and its date is not stated in the file''s own text; the
-    edition''s headnote is not reproduced here.
-
-    '
-  source_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
+  source_file: acta-martyrum-selecta_gebhardt1902.txt
 - work: The Passion of the Scillitan Martyrs
   author: passion-of-scillitan-martyrs
   locus: div2 14.3
@@ -2339,41 +1568,6 @@ works:
 
     '
   source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
-- work: The Passion of the Scillitan Martyrs, Latin (Gebhardt 1902, no. IV)
-  author: passion-of-scillitan-martyrs
-  locus: file line 1560 ('Passio Sanctorum Secillitanorum'); collection no. IV
-  role: tradition
-  confidence: provisional
-  note: 'Latin second witness for the ALREADY-PRESENT entries in this bucket (source_file
-    anf09_gospel- of-peter-diatessaron-origen-commentaries.xml and perpetua-scillitan-martyrs-lat-
-    grc_robinson1891.txt); the work''s own date, 180 CE, is before this world''s beginning,
-    so the entry stands as a comparandum. Gebhardt''s collection (Berlin, 1902): the Latin
-    acts are readable OCR with occasional C/O letter misreads (for example ''Oypriano'' for
-    ''Cypriano''), the German apparatus is real text, and the Greek acts are not recoverable
-    from this scan. Readable running text, so each quote is verified verbatim against the
-    file and against the page image where a letter is doubtful (INTAKE section 6) before it
-    is used. Mirrors the existing entries'' role and confidence exactly.
-
-    '
-  source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
-- work: The Passion of the Scillitan Martyrs, Latin (Knopf-Krueger 1929, no. 6)
-  author: passion-of-scillitan-martyrs
-  locus: file line 2438 ('PASSIO SANCTORVM SCILITANORVM'); collection no. 6 heading at file
-    line 2437
-  role: tradition
-  confidence: provisional
-  note: 'Latin second witness for the ALREADY-PRESENT English entry in this bucket (source_file
-    anf09_gospel-of-peter-diatessaron-origen-commentaries.xml) and for the Latin/Greek entry
-    (source_file perpetua-scillitan-martyrs-lat-grc_robinson1891.txt). The work''s own date,
-    180 CE, is before this world''s beginning, so the entry stands as a comparandum. Knopf''s
-    collection in Krueger''s third edition (Tuebingen, 1929): the Latin text is clean running
-    OCR (a test passage, the Acta Cypriani, reads without visible misreads), the German headnotes
-    and apparatus are real text, and the Greek acts are not recoverable from this scan. Each
-    quote is verified verbatim against the file (INTAKE section 6) before it is used. Mirrors
-    the existing entries'' role and confidence exactly.
-
-    '
-  source_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
 - work: The Life and Passion of Cyprian, Bishop and Martyr
   author: pontius
   locus: div2 4.3
@@ -2396,21 +1590,6 @@ works:
 
     '
   source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
-- work: Die abendlaendische Kirchenbusse im Ausgang des christlichen Altertums (Poschmann,
-    1928)
-  author: poschmann
-  locus: whole file; title page at file line 80; the chapter on penance in the African church,
-    '4. Die Buße in der afrikanischen Kirche', at file line 8425
-  role: context
-  confidence: provisional
-  note: 'Modern (1928) German scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. Penance teaching and practice in the Western churches
-    at the close of antiquity: chapters on the Roman, Gallic, Spanish and African churches
-    and on Gregory I and Isidore of Seville. Much of its period falls after this world''s
-    end, so the confidence is provisional; the African chapter is the relevant part.
-
-    '
-  source_file: poschmann_abendlaendische-kirchenbusse-deu_1928.txt
 - work: Sancti Augustini Vita (Life of Augustine)
   author: possidius
   locus: whole text -- Weiskotten's own chapter numbering (i-xxxi) runs through both the Latin
@@ -2442,6 +1621,15 @@ works:
 
     '
   source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
+- work: Ribbeck, Donatus und Augustinus, first half (1857)
+  author: ribbeck
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Modern (1857) German study of the Donatist dispute. Registry row 236.
+
+    '
+  source_file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
 - work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
   author: theodosian-code-compilers
   locus: whole text; not divided by book/title in this entry — see the file's own CTh.<book>.<title>.<law>
@@ -2463,33 +1651,17 @@ works:
 
     '
   source_file: codex-theodosianus_latinlibrary.txt
-- work: 'Geographie de l''Afrique chretienne: Numidie (Toulotte, 1894)'
-  author: toulotte
-  locus: whole file; title page imprint at file line 194; the running head 'L'AFRIQUE CHRETIENNE
-    / NUMIDIE' at file line 237
+- work: 'Turner, Ecclesiae Occidentalis monumenta iuris antiquissima, tom. 1 fasc. 1: the
+    Caeciliani text read at Carthage in 419'
+  author: turner
+  locus: file lines 18788-18793
   role: context
   confidence: provisional
-  note: 'Modern (1894) French scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. The Numidian volume of Toulotte''s geography of
-    the African churches: the churches of the province of Numidia with their bishops. Provisional
-    because it is one provincial volume of a larger work.
+  note: 'A modern (1899) edition of the Latin versions of the Greek canons. It does not print
+    the African canons or the Registri Ecclesiae Carthaginensis Excerpta. Registry row 237.
 
     '
-  source_file: toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt
-- work: Der Streit zwischen Rom und Karthago ueber die Ketzertaufe (von Soden, 1909)
-  author: vonsoden
-  locus: whole file (pp. 1-42 of Quellen und Forschungen aus italienischen Archiven und Bibliotheken,
-    Band XII); article heading at file line 13
-  role: context
-  confidence: assigned
-  note: 'Modern (1909) German scholarship, role context, not tradition. Not a primary source
-    and not a witness to any ancient text. The article on the dispute between Stephen of Rome
-    and Cyprian of Carthage over the baptism of heretics, of which the prosopography of the
-    African bishops (vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt) is the
-    third part.
-
-    '
-  source_file: vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt
+  source_file: turner_ecclesiae-occidentalis-monumenta-iuris-antiquissima-tom1-fasc1-lat_1899.txt
 - work: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians
   author: vonsoden
   locus: whole file (pp. 247-270 of Quellen und Forschungen aus italienischen Archiven und
@@ -2515,3 +1687,12 @@ works:
 
     '
   source_file: vonsoden_cyprianische-briefsammlung-deu_1904.txt
+- work: von Soden, Der Streit zwischen Rom und Karthago ueber die Ketzertaufe (1909)
+  author: vonsoden
+  locus: pp. 1-42
+  role: context
+  confidence: provisional
+  note: 'Modern (1909) German scholarship on the rebaptism dispute. Registry row 224.
+
+    '
+  source_file: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt

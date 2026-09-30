@@ -53,9 +53,7 @@ queue:
     url: "https://archive.org/details/vitasanctiambros00paul"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed)"
-    status: downloaded
-    vendored_as: "paulinus-milan_vita-ambrosii_kaniecka1928.txt"
-    vendored_note: "vendored 2026-09-13 by the ijc thread from the sibling archive.org item vitasanctiambros0000paul; this seed row's identifier never resolved to the file used"
+    status: not-yet-downloaded
 
   - title: "The Liturgies of SS. Mark, James, Clement, Chrysostom, and Basil"
     author: "attrib. Basil of Caesarea (the Basil liturgy specifically)"
@@ -70,9 +68,7 @@ queue:
     url: "https://archive.org/details/liturgiesofssmar00neal"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review, 2026-09-02"
-    status: downloaded
-    vendored_as: "liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt"
-    vendored_note: "vendored 2026-09-29; the host catalogues this scan [187-?], not 1859"
+    status: not-yet-downloaded
 
   - title: "Res Gestae, Book 27.3"
     author: "Ammianus Marcellinus"
@@ -86,9 +82,7 @@ queue:
     url: "https://www.gutenberg.org/files/28587/28587-h/28587-h.htm"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
-    status: downloaded
-    vendored_as: "ammianus-marcellinus_roman-history_yonge1862.txt"
-    vendored_note: "vendored earlier from a different source than this Gutenberg row; whole Yonge Res Gestae, Book 27.3 present"
+    status: not-yet-downloaded
 
   - title: "Lives of the Twelve Caesars (Claudius 25.4, Nero 16)"
     author: "Suetonius"
@@ -102,9 +96,7 @@ queue:
     url: "https://archive.org/details/suetonius-loeb"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
-    status: downloaded
-    vendored_as: "suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
-    vendored_note: "vendored 2026-09-29 as a second witness; Thomson-Forester 1909 (suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt) had already closed pahc's need"
+    status: not-yet-downloaded
 
   - title: "The Odes and Psalms of Solomon, Published from the Syriac Version"
     author: "Anonymous (the Odes of Solomon, 42 odes)"
@@ -117,9 +109,7 @@ queue:
     url: "https://archive.org/details/TheOdesAndPsalmsOfSolomon"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
-    status: downloaded
-    vendored_as: "harris_odes-and-psalms-of-solomon_harris1911.txt"
-    vendored_note: "already vendored before this pass; seed status was stale"
+    status: not-yet-downloaded
 
   - title: "S. Thasci Caecili Cypriani opera omnia"
     author: "Cyprian of Carthage"
@@ -221,7 +211,6 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 58 only)"
     status: not-yet-downloaded
-    hold_note: "not vendored: the only public scan (archive.org corpusscriptorum58auguuoft) is a 1961 Johnson Reprint Corporation facsimile, excluded on the same ground as the 1962 Johnson Reprint facsimile of CSEL 33; the volume holds the praefatio and indices only, no letter text"
 
   - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars I-II (Epistulae I-CXXIII), CSEL 34/1-2"
     author: "Augustine of Hippo"
@@ -532,9 +521,7 @@ queue:
     url: "https://archive.org/details/pilgrimageofethe00mccliala"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, editors, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
-    status: downloaded
-    vendored_as: "egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt"
-    vendored_note: "vendored 2026-09-29"
+    status: not-yet-downloaded
 
   - title: "The Dialogue of Palladius Concerning the Life of Chrysostom"
     author: "Palladius, Bishop of Aspuna"
@@ -556,9 +543,7 @@ queue:
     url: "https://archive.org/details/thedialogueofpal00mooruoft"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, translator, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
-    status: downloaded
-    vendored_as: "palladius_dialogue-life-of-chrysostom_moore1921.txt"
-    vendored_note: "vendored 2026-09-29"
+    status: not-yet-downloaded
 
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
@@ -594,7 +579,6 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Easton 1934 is a Cambridge University Press (UK) edition (copyright notice: Copyright 1934, Cambridge University Press; reprinted 1962). Gutenberg lists it as public domain in the US, but that is the host's own clearance, not a licence, and INTAKE.md treats foreign-published 1931+ translations as presumed URAA-restored. Needs a ruling from Mark, or a renewal/URAA check."
 
   - title: "Institutes of the Christian Religion, 3 vols."
     author: "John Calvin"
@@ -805,530 +789,741 @@ queue:
     verified_by: "direct WebFetch against the archive.org details page, 2026-09-21 - page states NOT_IN_COPYRIGHT; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same 1919 McClure/Feltoe translation, independently carrying a Public Domain Mark 1.0 license"
     status: not-yet-downloaded
 
-  - title: "De Fide et Operibus, CSEL 41 work II (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
-    author: "Augustine of Hippo"
-    translator: "Joseph Zycha (ed., printed CSEL 41); TEI: University of Leipzig, 2014"
-    year: "1900 (printed edition) / 2014 (TEI)"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The csel-dev TEI text of a work whose Latin the Library did not hold; pairs with the whole-volume scan of CSEL 41 so a quotation can be checked against the printed page. Found by probing the csel-dev repository by path for Augustine, Arnobius, Commodian, Lactantius, Minucius and Tertullian."
-    url: "https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0040/stoa041/stoa0040.stoa041.opp-lat1.xml"
-    rights_basis: "cc-by-sa-4.0 for the digital edition (the file's own licence element); the printed CSEL 41 edition (title page MDCCCC, 1900) is pd-us-by-date"
-    verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
-    status: downloaded
-    vendored_as: "augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
-
-  - title: "De Agone Christiano, CSEL 41 work III (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
-    author: "Augustine of Hippo"
-    translator: "Joseph Zycha (ed., printed CSEL 41); TEI: University of Leipzig, 2014"
-    year: "1900 (printed edition) / 2014 (TEI)"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The csel-dev TEI text of a work whose Latin the Library did not hold; pairs with the whole-volume scan of CSEL 41 so a quotation can be checked against the printed page. Found by probing the csel-dev repository by path for Augustine, Arnobius, Commodian, Lactantius, Minucius and Tertullian."
-    url: "https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0040/stoa032/stoa0040.stoa032.opp-lat1.xml"
-    rights_basis: "cc-by-sa-4.0 for the digital edition (the file's own licence element); the printed CSEL 41 edition (title page MDCCCC, 1900) is pd-us-by-date"
-    verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
-    status: downloaded
-    vendored_as: "augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
-
-  - title: "De Bono Coniugali, CSEL 41 work V (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
-    author: "Augustine of Hippo"
-    translator: "Joseph Zycha (ed., printed CSEL 41); TEI: University of Leipzig, 2014"
-    year: "1900 (printed edition) / 2014 (TEI)"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The csel-dev TEI text of a work whose Latin the Library did not hold; pairs with the whole-volume scan of CSEL 41 so a quotation can be checked against the printed page. Found by probing the csel-dev repository by path for Augustine, Arnobius, Commodian, Lactantius, Minucius and Tertullian."
-    url: "https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0040/stoa035/stoa0040.stoa035.opp-lat1.xml"
-    rights_basis: "cc-by-sa-4.0 for the digital edition (the file's own licence element); the printed CSEL 41 edition (title page MDCCCC, 1900) is pd-us-by-date"
-    verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
-    status: downloaded
-    vendored_as: "augustine_de-bono-coniugali-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
-
-  - title: "De Sancta Virginitate, CSEL 41 work VI (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
-    author: "Augustine of Hippo"
-    translator: "Joseph Zycha (ed., printed CSEL 41); TEI: University of Leipzig, 2014"
-    year: "1900 (printed edition) / 2014 (TEI)"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The csel-dev TEI text of a work whose Latin the Library did not hold; pairs with the whole-volume scan of CSEL 41 so a quotation can be checked against the printed page. Found by probing the csel-dev repository by path for Augustine, Arnobius, Commodian, Lactantius, Minucius and Tertullian."
-    url: "https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0040/stoa060/stoa0040.stoa060.opp-lat1.xml"
-    rights_basis: "cc-by-sa-4.0 for the digital edition (the file's own licence element); the printed CSEL 41 edition (title page MDCCCC, 1900) is pd-us-by-date"
-    verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
-    status: downloaded
-    vendored_as: "augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
-
-  - title: "De Mendacio, CSEL 41 work VIIII (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
-    author: "Augustine of Hippo"
-    translator: "Joseph Zycha (ed., printed CSEL 41); TEI: University of Leipzig, 2014"
-    year: "1900 (printed edition) / 2014 (TEI)"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The csel-dev TEI text of a work whose Latin the Library did not hold; pairs with the whole-volume scan of CSEL 41 so a quotation can be checked against the printed page. Found by probing the csel-dev repository by path for Augustine, Arnobius, Commodian, Lactantius, Minucius and Tertullian."
-    url: "https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0040/stoa050/stoa0040.stoa050.opp-lat1.xml"
-    rights_basis: "cc-by-sa-4.0 for the digital edition (the file's own licence element); the printed CSEL 41 edition (title page MDCCCC, 1900) is pd-us-by-date"
-    verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
-    status: downloaded
-    vendored_as: "augustine_de-mendacio-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
-
-  - title: "Contra Mendacium (Ad Consentium contra mendacium), CSEL 41 work X (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
-    author: "Augustine of Hippo"
-    translator: "Joseph Zycha (ed., printed CSEL 41); TEI: University of Leipzig, 2014"
-    year: "1900 (printed edition) / 2014 (TEI)"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The csel-dev TEI text of a work whose Latin the Library did not hold; pairs with the whole-volume scan of CSEL 41 so a quotation can be checked against the printed page. Found by probing the csel-dev repository by path for Augustine, Arnobius, Commodian, Lactantius, Minucius and Tertullian."
-    url: "https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0040/stoa029/stoa0040.stoa029.opp-lat1.xml"
-    rights_basis: "cc-by-sa-4.0 for the digital edition (the file's own licence element); the printed CSEL 41 edition (title page MDCCCC, 1900) is pd-us-by-date"
-    verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
-    status: downloaded
-    vendored_as: "augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
-
-  - title: "De Opere Monachorum, CSEL 41 work XI (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
-    author: "Augustine of Hippo"
-    translator: "Joseph Zycha (ed., printed CSEL 41); TEI: University of Leipzig, 2014"
-    year: "1900 (printed edition) / 2014 (TEI)"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The csel-dev TEI text of a work whose Latin the Library did not hold; pairs with the whole-volume scan of CSEL 41 so a quotation can be checked against the printed page. Found by probing the csel-dev repository by path for Augustine, Arnobius, Commodian, Lactantius, Minucius and Tertullian."
-    url: "https://github.com/OpenGreekAndLatin/csel-dev/blob/master/data/stoa0040/stoa055/stoa0040.stoa055.opp-lat1.xml"
-    rights_basis: "cc-by-sa-4.0 for the digital edition (the file's own licence element); the printed CSEL 41 edition (title page MDCCCC, 1900) is pd-us-by-date"
-    verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
-    status: downloaded
-    vendored_as: "augustine_de-opere-monachorum-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
-
-  - title: "Sancti Aureli Augustini Opera, Sect. V Pars III, CSEL 41 (the whole volume)"
+  - title: "Sancti Aureli Augustini opera, CSEL 41 (De fide et symbolo; De fide et operibus; De agone christiano; De continentia; De bono coniugali; De sancta virginitate; De bono viduitatis; De adulterinis coniugiis; De mendacio; Contra mendacium; De opere monachorum; De divinatione daemonum; De cura pro mortuis gerenda; De patientia)"
     author: "Augustine of Hippo"
     translator: "Joseph Zycha (ed.)"
-    year: "1900"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The whole CSEL 41 volume, cited as the printed source by the csel-dev TEI files and holding seven further works nowhere else vendored."
-    url: "https://archive.org/details/corpusscriptoru18wiengoog"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: title page MDCCCC, volume 41, Google scan; the host's date field says 1866, a catalogue error, 2026-09-29"
+    year: 1900
+    world: "lpc"
+    why: >
+      Latin critical text of the shorter catechetical and pastoral works that
+      lpc holds only in NPNF translation (Registry rows 15, 18, 25 group
+      them). Found by the field-bibliography sweep: the CSEL Augustine volumes
+      on archive.org carry only series-level metadata, so the volume was
+      identified by opening its title page.
+    url: "https://archive.org/details/sanctiaureliaugu41augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch and title-page check, 2026-09-29 (VOL. XXXXI, Sect. V Pars III, Zycha, MDCCCC)"
     status: downloaded
-    vendored_as: "augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt"
-    vendored_note: "vendored 2026-09-29; the only Latin witness of De fide et symbolo, De continentia, De bono viduitatis, De adulterinis coniugiis, De divinatione daemonum, De cura pro mortuis gerenda and De patientia; the print check on the seven csel-dev TEI files"
 
-  - title: "De Catechizandis Rudibus, Latin with German introduction and notes (Sammlung ausgewählter kirchen- und dogmengeschichtlicher Quellenschriften, 4. Heft)"
+  - title: "Sermones 1-340, Migne PL 38"
     author: "Augustine of Hippo"
-    translator: "Adolf Wolfhard (ed.); 2nd revised edition by Gustav Krueger"
-    year: "1893"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The Latin of Augustine's manual for teaching beginners, in a scan with a clean Latin text."
+    translator: "Benedictine Maurist fathers; J.-P. Migne (ed.)"
+    year: "19th century (archive.org catalogue date 1845)"
+    world: "lpc"
+    why: >
+      Latin of Augustine's sermons to the congregation; lpc holds only the
+      NPNF6 selection (about 97 sermons).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_038"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; archive.org licence URL is Public Domain Mark 1.0; OCR title page reads 'Tomus Quintus (Pars Prior)', 'Patrologiae Tomus XXXVIII'"
+    status: downloaded
+
+  - title: "Sermones 341-396 and Appendix, Migne PL 39"
+    author: "Augustine of Hippo"
+    translator: "Benedictine Maurist fathers; J.-P. Migne (ed.)"
+    year: "19th century (archive.org catalogue date 1865)"
+    world: "lpc"
+    why: >
+      Second half of the Maurist sermon corpus, with the Maurist Appendix of
+      doubtful sermons.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_039"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; Public Domain Mark 1.0; OCR title page reads 'Tomus Quintus, Pars Altera'; Sermo CCCXCVI and the Appendix confirmed present"
+    status: downloaded
+
+  - title: "Opera minora, Migne PL 40 (incl. De catechizandis rudibus, De symbolo ad catechumenos)"
+    author: "Augustine of Hippo"
+    translator: "Benedictine Maurist fathers; J.-P. Migne (ed.)"
+    year: "19th century (archive.org catalogue date 1845)"
+    world: "lpc"
+    why: >
+      Latin of De catechizandis rudibus and other works held only in NPNF
+      translation (Registry row 15).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_040"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; Public Domain Mark 1.0; contents list opened"
+    status: downloaded
+
+  - title: "Sancti Augustini Sermones post Maurinos reperti (Miscellanea Agostiniana I)"
+    author: "Augustine of Hippo"
+    translator: "Germain Morin (ed.)"
+    year: 1930
+    world: "lpc"
+    why: >
+      The post-Maurist sermons of accepted authority, in one collected
+      critical edition. Registry rows 50, 189 name Morin and Dolbeau only as
+      consultation items; this 1930 volume is inside the pd-us-by-date window
+      as of 2026.
+    url: "https://archive.org/details/bwb_W9-DJJ-981_1"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page and imprimatur (Rome, 28 August 1930) checked, 2026-09-29; item carries no rights tag, rights rest on the 1930 publication date"
+    status: downloaded
+
+  - title: "De catechizandis rudibus (Latin text, Wolfhard-Kruger second edition)"
+    author: "Augustine of Hippo"
+    translator: "Gustav Kruger (ed.)"
+    year: 1893
+    world: "lpc"
+    why: >
+      Latin text of the work Registry row 15 holds only in NPNF translation.
     url: "https://archive.org/details/augustindecatech00augu"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR title page read directly: Freiburg and Leipzig, J. C. B. Mohr, 1893, 2026-09-29"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch and title-page check, 2026-09-29"
     status: downloaded
-    vendored_as: "augustine_de-catechizandis-rudibus-lat_krueger1893.txt"
-    vendored_note: "vendored 2026-09-29; Latin of the catechetical work of Registry row 15; the German notes are modern scholarship"
 
-  - title: "Sancti Aurelii Augustini Opera omnia (Maurist edition, Migne printing), Tomus V: Sermonum classes quatuor, with the sermones dubii"
+  - title: "De catechizandis rudibus liber unus (Latin and English, with commentary; CUA Patristic Studies 8)"
     author: "Augustine of Hippo"
-    translator: "Benedictines of Saint-Maur; J.-P. Migne (ed.)"
-    year: "1841"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The Latin of the Maurist sermons to the people, whose English selection is vendored in NPNF."
-    url: "https://archive.org/details/sanctiaureliia05augu"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: volume 5, Paris, Migne, 1841, University of Toronto copy, 2026-09-29"
+    translator: "Joseph Patrick Christopher"
+    year: 1926
+    world: "lpc"
+    why: >
+      Bilingual edition with commentary of the same work.
+    url: "https://archive.org/details/decatechizandisr0000augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch and title-page check, 2026-09-29; item carries no rights tag, rights rest on the 1926 publication date"
     status: downloaded
-    vendored_as: "augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt"
-    vendored_note: "vendored 2026-09-29; pre-critical Maurist text; high OCR misread rate; a finding aid, not a quotable text"
 
-  - title: "Patrologiae cursus completus, series Latina, Tomus XXXV: Augustine, Tomus tertius pars altera (Tractatus in Ioannis Evangelium CXXIV, In epistolam Ioannis ad Parthos X, and other works)"
-    author: "Augustine of Hippo"
-    translator: "Benedictines of Saint-Maur; J.-P. Migne (ed.)"
-    year: "1902"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The Latin of the Tractates on John and the Ten Homilies on the First Epistle, whose English is vendored in NPNF."
-    url: "https://archive.org/details/p2sanctiaureliiau03augu"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR title page read directly: Paris, Garnier Frères and J.-P. Migne successors, 1902 (the host date field says 1841), 2026-09-29"
-    status: downloaded
-    vendored_as: "augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt"
-    vendored_note: "vendored 2026-09-29; pre-critical Maurist text; OCR misreads about one word in ten; a finding aid, not a quotable text"
-
-  - title: "Sancti Aureli Augustini Tractatus sive Sermones inediti ex codice Guelferbytano 4096 (with nine tractatus of Optatus of Milevis, Quodvultdeus of Carthage and others)"
-    author: "Augustine of Hippo (as the title page ascribes them)"
-    translator: "Germain Morin, O.S.B. (ed.)"
-    year: "1917"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Sermons found after the Maurist edition, a completeness qualifier on the Maurist sermon corpus."
-    url: "https://archive.org/details/MN41725ucmf_2"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Kempten and Munich, Koesel, 1917 (imprimatur 19 September 1917), University of Chicago microfilm copy, 2026-09-29"
-    status: downloaded
-    vendored_as: "augustine_sermones-guelferbytani-lat_morin1917.txt"
-    vendored_note: "vendored 2026-09-29; first edition of the 33 Guelferbytanus sermons; ascription of individual sermons not decided by the file"
-
-  - title: "Sancti Aurelii Augustini, Hipponensis episcopi, Sermones inediti"
-    author: "Augustine of Hippo (as the title page ascribes them)"
-    translator: "A. B. Caillau (ed.)"
-    year: "1842"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Sermons published in 1842 as Augustine's, a finding aid to ascribed material."
-    url: "https://archive.org/details/bub_gb_smqVbL56i0oC"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Paul Mellier, 1842; the item record carries the Public Domain Mark 1.0, 2026-09-29"
-    status: downloaded
-    vendored_as: "augustine_sermones-inediti-lat_caillau1842.txt"
-    vendored_note: "vendored 2026-09-29; OCR misreads about one word in five or six; several sermons not Augustine's per later scholarship"
-
-  - title: "Ausgewählte Märtyrerakten (Sammlung ausgewählter kirchen- und dogmengeschichtlicher Quellenschriften, Neue Folge 3), 3rd edition"
-    author: "various (the anonymous martyr acts)"
-    translator: "Rudolf Knopf (ed.); 3rd edition by Gustav Krueger"
-    year: "1929"
-    world: lpc
-    why: "lpc's field-bibliography sweep. A second Latin witness of the trial record of Cyprian and of the Cyprianic-period African passions."
-    url: "https://archive.org/details/ausgewahltemarty0000drud"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Tübingen, Mohr, 1929; lending-library scan with an open text layer, 2026-09-29"
-    status: downloaded
-    vendored_as: "knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
-    vendored_note: "vendored 2026-09-29; holds the Acta Cypriani (no. 13) and the Passiones of Marianus and Jacobus (no. 15) and of Montanus and Lucius (no. 16) in Latin"
-
-  - title: "Acta martyrum selecta: Ausgewählte Märtyrerakten und andere Urkunden aus der Verfolgungszeit der christlichen Kirche"
-    author: "various (the anonymous martyr acts)"
+  - title: "Acta martyrum selecta (Ausgewahlte Martyrerakten)"
+    author: "various (2nd-4th c.)"
     translator: "Oscar von Gebhardt (ed.)"
-    year: "1902"
-    world: lpc
-    why: "lpc's field-bibliography sweep. An independent edition of the same Latin acts as the Knopf-Krueger collection."
-    url: "https://archive.org/details/actamartyrumsele0000gebh"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Berlin, Alexander Duncker, 1902; lending-library scan with an open text layer, 2026-09-29"
+    year: 1902
+    world: "lpc / donatism"
+    why: >
+      Latin critical texts of the Acta Cypriani, Passio Mariani et Iacobi and
+      Passio Montani et Lucii, which no vendored file holds in the original.
+    url: "https://archive.org/details/actamartyrumsel00gebhgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; archive.org tags it NOT_IN_COPYRIGHT; table of contents opened"
     status: downloaded
-    vendored_as: "gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt"
-    vendored_note: "vendored 2026-09-29; holds the Acta S. Cypriani (no. XI) and the Passiones of Marianus and Jacobus (no. XIII) and of Montanus and Lucius (no. XIV) in Latin"
 
-  - title: "Cyprianische Untersuchungen (Arbeiten zur Kirchengeschichte, 4)"
+  - title: "Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8, first half)"
+    author: "various (4th c.)"
+    translator: "J.-P. Migne (ed.)"
+    year: 1844
+    world: "donatism / lpc"
+    why: >
+      The first half of the Monumenta Vetera block, of which
+      cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt holds only the
+      part from 340; includes the acts of Saturninus, Felix, Dativus and the
+      others (304).
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_008"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, 2026-09-29; Public Domain Mark 1.0; section headings opened"
+    status: downloaded
+
+  - title: "Der Streit zwischen Rom und Karthago uber die Ketzertaufe (pp. 1-42 of Quellen und Forschungen XII)"
+    author: "Hans von Soden"
+    translator: ""
+    year: 1909
+    world: "lpc"
+    why: >
+      Companion article to the vendored Prosopographie, flagged for a later
+      round in that file's header and in Source_Acquisition_Manifest G8.
+    url: "https://archive.org/details/quellenundforsch12deutuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch of the same item already used for row 211, 2026-09-29; table of contents and article boundaries checked"
+    status: downloaded
+
+  - title: "Cyprianische Untersuchungen (Arbeiten zur Kirchengeschichte 4)"
     author: "Hugo Koch"
-    translator: "—"
-    year: "1926"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Modern scholarship on the date and occasion of Cyprian's treatises."
+    translator: ""
+    year: 1926
+    world: "lpc"
+    why: >
+      Twentieth-century study of the dating and authorship of the Cyprianic
+      treatises; bears on Registry rows 2, 3, 5, 6.
     url: "https://archive.org/details/cyprianischeunte0000hugo"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Bonn, Marcus und Weber, 1926 (host publisher field reads De Gruyter), 2026-09-29"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page and contents checked, 2026-09-29; no rights tag, rights rest on the 1926 publication date; imprint page not confirmed"
     status: downloaded
-    vendored_as: "koch_cyprianische-untersuchungen-deu_1926.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on Cyprian's treatises and penance; consultation-only"
-
-  - title: "Cyprian und der römische Primat (Texte und Untersuchungen, 3. Reihe, 5. Band, Heft 1)"
-    author: "Hugo Koch"
-    translator: "—"
-    year: "1910"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Modern scholarship on Cyprian's statements about Rome."
-    url: "https://archive.org/details/cyprianunderrm00koch"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Leipzig, Hinrichs, 1910, 2026-09-29"
-    status: downloaded
-    vendored_as: "koch_cyprian-und-der-roemische-primat-deu_1910.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on Cyprian and the Roman see; consultation-only"
-
-  - title: "Cathedra Petri: Neue Untersuchungen über die Anfänge der Primatslehre (Beihefte zur ZNW, 11)"
-    author: "Hugo Koch"
-    translator: "—"
-    year: "1930"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Modern scholarship on the beginnings of the primacy doctrine, with a chapter on Cyprian."
-    url: "https://archive.org/details/cathedrapetrineu0011koch"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Giessen, Töpelmann, 1930; lending-library scan with an open text layer, 2026-09-29"
-    status: downloaded
-    vendored_as: "koch_cathedra-petri-deu_1930.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship; 1930 imprint at the edge of the Library's 1930-or-earlier rule; consultation-only"
-
-  - title: "Die abendländische Kirchenbuße im Ausgang des christlichen Altertums (Münchener Studien zur historischen Theologie, 7)"
-    author: "Bernhard Poschmann"
-    translator: "—"
-    year: "1928"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The standard modern history of penance at the close of antiquity, with a section on the African church."
-    url: "https://archive.org/details/dieabendlandisch0000drbe"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Munich, Kösel and Pustet, 1928; lending-library scan with an open text layer, 2026-09-29"
-    status: downloaded
-    vendored_as: "poschmann_abendlaendische-kirchenbusse-deu_1928.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on Western penance; the continuation the preface announces is not in the file; consultation-only"
-
-  - title: "La Théologie de saint Cyprien (Bibliothèque de théologie historique)"
-    author: "Adhémar d'Alès"
-    translator: "—"
-    year: "1922"
-    world: lpc
-    why: "lpc's field-bibliography sweep. A modern monograph on Cyprian's theology."
-    url: "https://archive.org/details/latheologiedesai0000adal"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Beauchesne, 1922 (the host lists the language as English; the text is French), 2026-09-29"
-    status: downloaded
-    vendored_as: "dales_theologie-de-saint-cyprien-fra_1922.txt"
-    vendored_note: "vendored 2026-09-29; French scholarship on Cyprian's theology; consultation-only"
 
   - title: "Cyprian: His Life, His Times, His Work"
     author: "Edward White Benson"
-    translator: "—"
-    year: "1897"
-    world: lpc
-    why: "lpc's field-bibliography sweep. A full-length English life of Cyprian."
-    url: "https://archive.org/details/cyprianhislifehi00bensuoft"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: London, Macmillan, 1897; the item record's possible-copyright-status is NOT_IN_COPYRIGHT, 2026-09-29"
+    translator: ""
+    year: 1897
+    world: "lpc"
+    why: >
+      Standard English-language biography of Cyprian from before the modern
+      critical work.
+    url: "https://archive.org/details/hislifehicyprian00bensrich"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page and contents checked, 2026-09-29; archive.org tags it NOT_IN_COPYRIGHT"
     status: downloaded
-    vendored_as: "benson_cyprian-his-life-his-times-his-work_1897.txt"
-    vendored_note: "vendored 2026-09-29; English biography; consultation-only"
 
-  - title: "L'Afrique chrétienne: évêchés et ruines antiques d'après les manuscrits de Mgr Toulotte"
-    author: "Joseph Mesnage"
-    translator: "—"
-    year: "1912"
-    world: lpc
-    why: "lpc's field-bibliography sweep. A reference work for the African episcopal geography."
-    url: "https://archive.org/details/lafriquechrtienn00mesn"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Leroux, 1912, 2026-09-29"
+  - title: "Inscriptions latines de l'Algerie, Tome I: Inscriptions de la Proconsulaire"
+    author: "Stephane Gsell"
+    translator: ""
+    year: 1922
+    world: "lpc"
+    why: >
+      Doc_02 section 5 and section 9 item 2 flag the epigraphic evidence for
+      Hippo and Carthage's region as unverified. This is the 1922 corpus of
+      the Proconsular region, including Hippone.
+    url: "https://archive.org/details/inscriptionslati00gseluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), direct curl fetch, title page (1922) and the Hippone section located, 2026-09-29"
     status: downloaded
-    vendored_as: "mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt"
-    vendored_note: "vendored 2026-09-29; French reference work on the African sees and their bishops; consultation-only"
 
-  - title: "Géographie de l'Afrique chrétienne: Numidie"
-    author: "Anatole Toulotte"
-    translator: "—"
-    year: "1894"
-    world: lpc
-    why: "lpc's field-bibliography sweep. A reference work for the sees of Numidia, which include Hippo Regius and Milevis."
-    url: "https://archive.org/details/geographiedelaf03toulgoog"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Rennes and Paris, Oberthur, 1894; Google scan, the host labels it volume 2, 2026-09-29"
-    status: downloaded
-    vendored_as: "toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt"
-    vendored_note: "vendored 2026-09-29; the Numidia volume only; the other provinces are separate volumes, not vendored"
-
-  - title: "Carthage romaine, 146 avant Jésus-Christ – 698 après Jésus-Christ (Bibliothèque des Écoles françaises d'Athènes et de Rome, fasc. 84)"
-    author: "Auguste Audollent"
-    translator: "—"
-    year: "1901"
-    world: lpc
-    why: "lpc's field-bibliography sweep. A history of Roman Carthage, the city of Cyprian and of Augustine's Carthaginian years."
-    url: "https://archive.org/details/carthageromaine184audo"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Fontemoing, 1901; Getty Research Institute copy, 2026-09-29"
-    status: downloaded
-    vendored_as: "audollent_carthage-romaine-fra_1901.txt"
-    vendored_note: "vendored 2026-09-29; French scholarly history of the city; consultation-only"
-
-  - title: "Der Streit zwischen Rom und Karthago über die Ketzertaufe (Quellen und Forschungen aus italienischen Archiven und Bibliotheken, Band XII, pp. 1-42)"
-    author: "Hans von Soden"
-    translator: "—"
-    year: "1909"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The article the Registry named as not yet vendored beside von Soden's Prosopographie."
-    url: "https://archive.org/details/quellenundforsch12deutuoft"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the vendored OCR read directly: Band XII, Rome, Loescher, 1909 (the host date field says 1898, a catalogue error); the file is the article sliced from the full serial volume, 2026-09-29"
-    status: downloaded
-    vendored_as: "vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on the Stephen-Cyprian baptism dispute; the first part of the work whose appendix is already vendored"
-
-  - title: "Sancti Aurelii Augustini Opera omnia (Maurist edition, Migne printing), Tomus VI (De diversis quaestionibus, Enchiridion, De fide et symbolo, De fide et operibus, De agone christiano, De catechizandis rudibus, De bono coniugali, De sancta virginitate and other short treatises, with an appendix)"
+  - title: "Sancti Aureli Augustini opera, CSEL 42 (De perfectione iustitiae hominis; De gestis Pelagii; De gratia Christi et de peccato originali; De nuptiis et concupiscentia)"
     author: "Augustine of Hippo"
-    translator: "Benedictines of Saint-Maur; J.-P. Migne (ed.)"
-    year: "1841"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The Maurist volume that prints the treatises of CSEL 41, checked and left unvendored as a duplicate."
-    url: "https://archive.org/details/sanctiaureliia06augu"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: volume 6, Paris, Migne, 1841, 706 images, University of Toronto copy; the OCR's Elenchus lists the works above, 2026-09-29"
+    translator: "Karl F. Urba and Joseph Zycha (eds.)"
+    year: 1902
+    world: "lpc"
+    why: >
+      Latin of anti-Pelagian works lpc holds only in NPNF5 (Registry row 23).
+      Not fetched this pass: judged lower priority than the pastoral and
+      congregational works.
+    url: "https://archive.org/details/sanctiaureliaugu0042augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (range fetch), 2026-09-29: VOL. XXXXII, Sect. VIII Pars II, MDCCCCII"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Duplicate: the short treatises it prints are already vendored from critical or later editions (CSEL 41, rows 218-225; Krueger 1893, row 226); the Maurist text adds nothing for them and the scan is a 5.8-million-character OCR."
 
-  - title: "Sancti Aurelii Augustini Opera omnia (Maurist edition, Migne printing), Tomus IX (the anti-Donatist works, with the excerpta et scripta vetera ad Donatistarum historiam pertinentia)"
-    author: "Augustine of Hippo"
-    translator: "Benedictines of Saint-Maur; J.-P. Migne (ed.)"
-    year: "1841"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The Maurist volume of Augustine's anti-Donatist works, checked and left unvendored as a duplicate of the critical text."
-    url: "https://archive.org/details/sanctiaureliia09augu"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: volume 9 ('TOMUS NONUS'), Paris, Migne, 1841, 432 images, University of Toronto copy; the OCR's Elenchus lists Psalmus contra partem Donati through Contra Gaudentium, Contra Fulgentium and the excerpta, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Duplicate: every anti-Donatist work in the Elenchus is in the vendored Petschenig critical text (CSEL 51-53), and the old Donatist documents are vendored as monumenta-vetera-donatistarum_migne-pl8.txt."
-
-  - title: "Sancti Aureli Augustini Opera, Sect. VI Pars I (De utilitate credendi, De duabus animabus, Contra Fortunatum, Contra Adimantum, Contra epistulam fundamenti, Contra Faustum), CSEL 25.1"
+  - title: "Sancti Aureli Augustini opera, CSEL 25 Pars I (De utilitate credendi; De duabus animabus; Contra Fortunatum; Contra Adimantum; Contra epistulam fundamenti; Contra Faustum)"
     author: "Augustine of Hippo"
     translator: "Joseph Zycha (ed.)"
-    year: "1891"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The critical Latin of Contra Faustum and the other anti-Manichaean works of CSEL 25.1."
-    url: "https://archive.org/details/corpusscriptoru27wissgoog"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'VOL XXV (SECT. VI, PARS I)', Vienna, Tempsky, MDCCCLXXXXI (1891); the host date field says 1866 and volume is unset, both catalogue errors; Google scan, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
+    year: 1891
+    world: "lpc"
+    why: >
+      Latin of anti-Manichaean works lpc holds only in NPNF4 (Registry row
+      22). Not fetched this pass: lower priority.
+    url: "https://archive.org/details/sanctiaureliaugu251augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (range fetch), 2026-09-29: VOL. XXV (Sect. VI Pars I), MDCCCLXXXXI"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Low priority: Augustine's anti-Manichaean works; the English of the Reply to Faustus is vendored in npnf104 (Registry row 22), and the Latin of Contra Adimantum is on csel-dev."
 
-  - title: "Victoris episcopi Vitensis Historia persecutionis Africanae provinciae, with the Passio septem monachorum and the Notitia, CSEL 7"
-    author: "Victor of Vita"
-    translator: "Michael Petschenig (ed.)"
-    year: "1881"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The critical Latin of the Vandal-period history of the African church, found in the sweep of the Donatist and other North African sources."
-    url: "https://archive.org/details/victorisepiscop01victgoog"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'VOL. VII', Vienna, Geroldi, MDCCCLXXXI (1881), 208 images, Google scan, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
+  - title: "Sancti Aureli Augustini opera, CSEL 43 (De consensu evangelistarum)"
+    author: "Augustine of Hippo"
+    translator: "Franz Weihrich (ed.)"
+    year: 1904
+    world: "lpc"
+    why: >
+      Latin of the Harmony of the Gospels, held only in NPNF6. Not fetched
+      this pass: lower priority.
+    url: "https://archive.org/details/sanctiaureliaugu43augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (range fetch), 2026-09-29: VOL. XXXXIII, Sect. III Pars 4, MDCCCCIIII"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Low priority, outside the window: the history concerns the persecution under the Vandal kings Geiseric and Hunneric (the edition's preface cites the work as 'Victoris Vitensis historia persecutionis Africanae prouinciae sub Geiserico et Hunirico regibus Wandalorum'), after c. 430."
 
-  - title: "Corpus Inscriptionum Latinarum, Vol. VIII pars posterior: Inscriptiones Africae Latinae, Inscriptiones Mauretaniarum (the scan opens at Pars quinta, Mauretania Sitifensis)"
-    author: "various (CIL VIII)"
-    translator: "Gustav Wilmanns (collegit); Theodor Mommsen and others"
-    year: "1881"
-    world: lpc
-    why: "lpc's field-bibliography sweep. A part of the Latin inscriptions of Roman Africa, identified in the sweep of the African material sources."
-    url: "https://archive.org/details/bub_gb_wgZXAAAAYAAJ"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'VOLUMINIS OCTAVI PARS POSTERIOR ... INSCRIPTIONES MAVRETANIARVM', Berlin, Reimer, MDCCCLXXXI (1881); the item record carries the Public Domain Mark 1.0; the OCR's first text is 'PARS QVINTA. PROVINCIA MAVRETANIA SITIFENSIS', 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Low priority: a fragment of the corpus (the Mauretanian provinces), not the Proconsularis or Numidia inscriptions; the CIL VIII Supplement for Numidia is already vendored."
+  - title: "Carthage romaine, 146 avant Jesus-Christ - 698 apres Jesus-Christ"
+    author: "Auguste Audollent"
+    translator: ""
+    year: 1901
+    world: "lpc"
+    why: >
+      Doctoral thesis and standard early history of Roman Carthage, including
+      the Christian city; context for Cyprian's Carthage. Not fetched this
+      pass: a general secondary work, lower priority.
+    url: "https://archive.org/details/carthageromaine100audo"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep (source-research half), title page opened (2.5 MB djvu text listed), 2026-09-29; item's catalogue date 1901; fetched by lpc library sweep 2, 2026-09-30, 1901 read on the title-page image, byte count equal to the host's listed size"
+    status: downloaded
+  - title: "Sacrorum conciliorum nova et amplissima collectio, tomus 3 (347-409), Welter facsimile"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: ""
+    year: 1901
+    world: "lpc"
+    why: >
+      Older Latin printing of the African councils (Carthage, Hippo, Codex canonum Ecclesiae
+      Africanae) behind Munier's CCSL 149 (Registry row 59, in copyright).
+    url: "https://archive.org/details/sacrorumconcilio0003phil"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1901 facsimile date read on the title-page image"
+    status: downloaded
 
-  - title: "Geschichte der altkirchlichen Literatur, Band 3: Das vierte Jahrhundert mit Ausschluss der Schriftsteller syrischer Zunge"
-    author: "Otto Bardenhewer"
-    translator: "—"
-    year: "1912"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Bardenhewer's standard history of early Christian literature, the fourth-century volume."
-    url: "https://archive.org/details/geschichtederalt0003otto"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'DRITTER BAND', Freiburg im Breisgau, Herder, 1912; Internet Archive lending-library scan, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Optatus and Tyconius passages."
+  - title: "Sacrorum conciliorum nova et amplissima collectio, tomus 4 (410-431), Welter facsimile"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: ""
+    year: 1901
+    world: "lpc"
+    why: >
+      Older Latin printing of the Gesta collationis Carthaginensis of 411 and the African
+      councils to 431; a public-domain Latin witness for Lancel's SC 194/195/224/373 (in
+      copyright).
+    url: "https://archive.org/details/sacrorumconcilio0004phil"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1901 facsimile date read on the title-page image"
+    status: downloaded
 
-  - title: "Geschichte der altkirchlichen Literatur, Band 2: Vom Ende des zweiten Jahrhunderts bis zum Beginn des vierten Jahrhunderts, 2nd revised edition"
-    author: "Otto Bardenhewer"
-    translator: "—"
-    year: "1914"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Bardenhewer's history, the volume that carries Tertullian and Cyprian."
-    url: "https://archive.org/details/bub_gb_J1sKAQAAMAAJ"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'ZWEITER BAND ... ZWEITE, UMGEARBEITETE AUFLAGE', Freiburg im Breisgau, Herder, 1914; Google scan, Public Domain Mark 1.0, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Cyprian passages."
+  - title: "Augustine, Opera omnia tomus 9 (Patrologia Latina 43): anti-Donatist works"
+    author: "Augustine of Hippo (Maurist text, Migne)"
+    translator: ""
+    year: 1861
+    world: "lpc"
+    why: >
+      Maurist Latin of the Breviculus collationis, Post collationem, Contra Gaudentium and the
+      other anti-Donatist works, other than Migne PL 11; catalogue year 1861.
+    url: "https://archive.org/details/bub_gb_WduyUwXZveUC"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; the OCR of the imprint year reads 1801, the catalogue says 1861"
+    status: downloaded
 
-  - title: "Geschichte der altkirchlichen Literatur, Band 4: Das fünfte Jahrhundert mit Einschluss der syrischen Literatur des vierten Jahrhunderts"
-    author: "Otto Bardenhewer"
-    translator: "—"
-    year: "1924"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Bardenhewer's history, the fifth-century volume that carries Augustine."
-    url: "https://archive.org/details/geschichtealtkir0004otto"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'VIERTER BAND', Freiburg im Breisgau, Herder, 1924 (Imprimatur 5 September 1923); Internet Archive lending-library scan, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Augustine, Donatist and Petilian passages."
+  - title: "Augustine, Opera omnia tomus 2 (Patrologia Latina 33): Epistolae in Maurist order"
+    author: "Augustine of Hippo (Maurist text, Migne)"
+    translator: ""
+    year: 1861
+    world: "lpc"
+    why: >
+      Maurist numbering of the letters, the numbering NPNF uses, as a cross-reference to the
+      CSEL letters already vendored.
+    url: "https://archive.org/details/bub_gb_nY6mrtKeQUoC"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1861 printed in the file"
+    status: downloaded
 
-  - title: "Patrology: The Lives and Works of the Fathers of the Church"
-    author: "Otto Bardenhewer"
-    translator: "Thomas J. Shahan (translated from the 2nd German edition)"
-    year: "1908"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The English Bardenhewer."
-    url: "https://archive.org/details/patrologythelive00obaruoft"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: Freiburg im Breisgau and St. Louis, Herder, 1908; University of Toronto copy, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+  - title: "Ausgewaehlte Schriften des heiligen Cyprian, Band 1 (Bibliothek der Kirchenvaeter)"
+    author: "Cyprian of Carthage"
+    translator: "Ulrich Uhl"
+    year: 1869
+    world: "lpc"
+    why: >
+      German BKV counterpart of Cyprian's treatises and two letters, held by lpc only in
+      English (ANF 5) and Latin (Hartel).
+    url: "https://archive.org/details/ausgewhlteschri00uhlgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1869 read on the title-page image; Fraktur OCR is poor"
+    status: downloaded
 
-  - title: "Geschichte der römischen Litteratur bis zum Gesetzgebungswerk des Kaisers Justinian, Teil 3: Die Zeit von Hadrian 117 bis auf Constantin 324, 3rd edition"
-    author: "Martin Schanz; Carl Hosius and Gustav Krüger"
-    translator: "—"
-    year: "1922"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Schanz-Hosius-Krüger, the third-century volume that carries Tertullian and Cyprian."
-    url: "https://archive.org/details/geschichtederrom00scha"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: Handbuch der klassischen Altertumswissenschaft, Achter Band, Munich, C. H. Beck, 1922, 3rd revised edition, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+  - title: "Oeuvres completes de saint Cyprien, tome 1"
+    author: "Cyprian of Carthage"
+    translator: "N. S. Guillon"
+    year: 1837
+    world: "lpc"
+    why: >
+      French counterpart of Cyprian's treatises.
+    url: "https://archive.org/details/uvrescompltesde00cyprgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1837 read on the title-page image"
+    status: downloaded
 
-  - title: "Geschichte der römischen Literatur, Teil 3 (Schanz-Hosius-Krüger), 1896 edition"
-    author: "Martin Schanz; Carl Hosius and Gustav Krüger"
-    translator: "—"
-    year: "1896"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The earlier Schanz edition."
-    url: "https://archive.org/details/geschichtederrm01krgoog"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata read directly: Munich, C. H. Beck, 1896, 'volume 3' in the host record, Google scan, possible-copyright-status NOT_IN_COPYRIGHT; the OCR opens with Google's front matter, so the title page was not confirmed from the OCR, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. Not on the list this row's batch was given; recorded because the sweep opened it and its metadata verifies. Its title page was not read, so its volume statement rests on the host record."
+  - title: "Oeuvres completes de saint Cyprien, tome 2 (letters)"
+    author: "Cyprian of Carthage"
+    translator: "N. S. Guillon"
+    year: 1837
+    world: "lpc"
+    why: >
+      French counterpart of Cyprian's letters.
+    url: "https://archive.org/details/saintcyprien0002unse"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1837 printed in the file"
+    status: downloaded
 
-  - title: "Teuffel's History of Roman Literature, Vol. I: The Republican Period, revised and enlarged by Ludwig Schwabe"
-    author: "Wilhelm Sigmund Teuffel"
-    translator: "George C. W. Warr (translator)"
-    year: "1891"
-    world: lpc
-    why: "lpc's field-bibliography sweep. The English Teuffel."
-    url: "https://archive.org/details/teuffelshistory03teufgoog"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'VOL. I. THE REPUBLICAN PERIOD', London, George Bell, 1891, Google scan, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The scan is the Republican Period volume; the volumes on the imperial period, where the Christian Latin authors stand, were not opened."
+  - title: "Die Kanones der wichtigsten altkirchlichen Concilien"
+    author: "Friedrich Lauchert (ed.)"
+    translator: ""
+    year: 1896
+    world: "lpc"
+    why: >
+      Short edition of Carthage I-III canons; earlier than Munier (CCSL 149).
+    url: "https://archive.org/details/diekanonesderwi00churgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
 
-  - title: "Allgemeine Geschichte der Literatur des Mittelalters im Abendlande bis zum Beginne des XI. Jahrhunderts, Band 1: Geschichte der christlich-lateinischen Literatur bis zum Zeitalter Karls des Grossen"
-    author: "Adolf Ebert"
-    translator: "—"
-    year: "1874"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Ebert's history of Christian Latin literature."
-    url: "https://archive.org/details/11169445bsb"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: 'ERSTER BAND', Leipzig, F. C. W. Vogel, 1874; the OCR opens with a publisher's advertisement before the title page, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+  - title: "Donatus und Augustinus, oder der erste entscheidende Kampf zwischen Separatismus und Kirche (Erste Haelfte)"
+    author: "Ferdinand Ribbeck"
+    translator: ""
+    year: 1857
+    world: "lpc"
+    why: >
+      Standard nineteenth-century German account of the Donatist controversy; second half not
+      located.
+    url: "https://archive.org/details/danoatusundaugu00ribbgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; title page 1857 in the OCR, catalogue 1858"
+    status: downloaded
 
-  - title: "A Handbook of Patrology"
-    author: "Joseph Tixeront"
-    translator: "translation based on the fourth French edition, 2nd edition"
-    year: "1923"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Tixeront's handbook, with a section on the African writers."
-    url: "https://archive.org/details/handbookofpatrol0000unse"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: St. Louis, B. Herder, 1923 (copyright notice 1920, Joseph Gummersbach); Internet Archive lending-library scan, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+  - title: "Ecclesiae Occidentalis monumenta iuris antiquissima, tomus 1 fasc. 1"
+    author: "Cuthbert Hamilton Turner (ed.)"
+    translator: ""
+    year: 1899
+    world: "lpc"
+    why: >
+      Latin versions of the Nicene canons including the Caeciliani text read at Carthage in
+      419; does not print the African Codex or the Registri excerpta.
+    url: "https://archive.org/details/ecclesiaeocciden01turn"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
 
-  - title: "Histoire des dogmes dans l'antiquité chrétienne, Tome 1: La théologie anténicéenne"
-    author: "Joseph Tixeront"
-    translator: "—"
-    year: "1906"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Tixeront's history of doctrine."
-    url: "https://archive.org/details/histoiredesdogm01tixe"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata read directly: Paris, Lecoffre, 1906, volume 1, University of Toronto copy; the OCR opens with the publisher's series preface and lists 'I. La théologie anténicéenne. Neuvième édition', 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+  - title: "L'Afrique chretienne: eveches et ruines antiques"
+    author: "Joseph Mesnage"
+    translator: ""
+    year: 1912
+    world: "lpc"
+    why: >
+      French gazetteer of African sees and ruins.
+    url: "https://archive.org/details/lafriquechretien00mesn"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
 
-  - title: "Early History of the Christian Church from its Foundation to the End of the Fifth Century, Vol. II: The Fourth Century"
+  - title: "Histoire ancienne de l'Eglise, tome 1 (3rd ed.)"
     author: "Louis Duchesne"
-    translator: "(English translation from the fourth French edition)"
-    year: "1912 (first edition); this scan is a later printing"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Duchesne's history; this scan is the fourth-century volume, which treats Donatism."
-    url: "https://archive.org/details/earlyhistoryofch0000duch"
-    verified_by: "archive.org /metadata and the OCR title page read directly: the title page reads 'VOLUME II' (the OCR prints 'VOLUME n'), London, John Murray, 'First Edition June 1912', with reprints listed to December 1957; the host record's title names no volume, 2026-09-29"
-    status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The scan is Volume II, not Volume I, and a mid-century reprint printing; the rights basis for that printing is not settled here, on the ground the Library applies to reprint facsimiles, and Volume I was not opened."
+    translator: ""
+    year: 1907
+    world: "lpc"
+    why: >
+      French standard church history; includes the chapter on Christian Africa and Cyprian.
+    url: "https://archive.org/details/histoireancienne01duchuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
 
-  - title: "A Dictionary of Christian Biography, Literature, Sects and Doctrines, Vol. 1: A-D"
-    author: "William Smith and Henry Wace (eds.)"
-    translator: "—"
-    year: "1877"
-    world: lpc
-    why: "lpc's field-bibliography sweep. Smith and Wace, the volume that carries the entries for Augustine, Cyprian and Donatus."
-    url: "https://archive.org/details/dictionaryofchri0001will"
-    rights_basis: "pd-us-by-date"
-    verified_by: "archive.org /metadata and the OCR title page read directly: London, John Murray, 1877, volume 1; Internet Archive scan, 2026-09-29"
+  - title: "Histoire ancienne de l'Eglise, tome 2 (3rd ed.)"
+    author: "Louis Duchesne"
+    translator: ""
+    year: 1907
+    world: "lpc"
+    why: >
+      French standard church history; includes the origins of the Donatist schism.
+    url: "https://archive.org/details/histoireancienne02duchuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; the end imprint reads 1907, the title-page year is garbled in the OCR"
+    status: downloaded
+
+  - title: "Histoire ancienne de l'Eglise, tome 3 (2nd ed.)"
+    author: "Louis Duchesne"
+    translator: ""
+    year: 1910
+    world: "lpc"
+    why: >
+      French standard church history; fifth century, Augustinianism and the Vandals in Africa.
+    url: "https://archive.org/details/histoireancienne03duchuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
+
+  - title: "Die Mission und Ausbreitung des Christentums, Band 2 (2nd ed.)"
+    author: "Adolf Harnack"
+    translator: ""
+    year: 1906
+    world: "lpc"
+    why: >
+      German survey by region, with the African provinces.
+    url: "https://archive.org/details/diemissionundaus02harn"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
+
+  - title: "Des heiligen Augustin Bekenntnisse"
+    author: "Augustine of Hippo"
+    translator: "Herman Hefele"
+    year: 1921
+    world: "lpc"
+    why: >
+      German counterpart of the Confessions (lpc holds Latin, CSEL 33, and English, NPNF 1).
+    url: "https://archive.org/details/bekenntnisseueb00hefegoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
+
+  - title: "Oeuvres completes de saint Augustin (Raulx), tome 13: Donatist section"
+    author: "Augustine of Hippo"
+    translator: "Under the direction of M. Raulx"
+    year: 1869
+    world: "lpc"
+    why: >
+      French translation of the Donatist conference material, De l'unite du bapteme and Contre
+      Gaudentius; slice of item lines 66199-81631.
+    url: "https://archive.org/details/oeuvrescomplt13augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1869 read on the title-page image"
+    status: downloaded
+
+  - title: "Oeuvres completes de saint Augustin (Raulx), tome 15: Donatist section"
+    author: "Augustine of Hippo"
+    translator: "Under the direction of M. Raulx"
+    year: 1870
+    world: "lpc"
+    why: >
+      French translation of the Psalmus, Parmenian, baptism, Petilian and Cresconius works;
+      slice of item lines 1-45985.
+    url: "https://archive.org/details/oeuvrescomplt15augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
+
+  - title: "Histoire des conciles (Hefele-Leclercq), tome 2 part 1"
+    author: "Karl Josef von Hefele; Henri Leclercq"
+    translator: "Henri Leclercq"
+    year: 1908
+    world: "lpc"
+    why: >
+      French account of the African councils 386-421; slice of item lines 3676-11965.
+    url: "https://archive.org/details/histoiredesconci21hefeuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
+
+  - title: "Histoire des conciles (Hefele-Leclercq), tome 1 part 1"
+    author: "Karl Josef von Hefele; Henri Leclercq"
+    translator: "Henri Leclercq"
+    year: 1907
+    world: "lpc"
+    why: >
+      French account of the Carthage councils under Cyprian and the baptism controversy; slice
+      of item lines 9020-10431.
+    url: "https://archive.org/details/p1histoiredesconci01hefe"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
+
+  - title: "Geschichte der altkirchlichen Literatur, Band 2 (2nd ed.): Cyprian"
+    author: "Otto Bardenhewer"
+    translator: ""
+    year: 1914
+    world: "lpc"
+    why: >
+      German handbook section on Cyprian; slice of item lines 24362-28405.
+    url: "https://archive.org/details/geschichtederalt02bard"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30"
+    status: downloaded
+
+  - title: "Geschichte der altkirchlichen Literatur, Band 4: Augustinus"
+    author: "Otto Bardenhewer"
+    translator: ""
+    year: 1924
+    world: "lpc"
+    why: >
+      German handbook sections on Augustine and the later Africans' neighbours; slice of item
+      lines 24456-30686.
+    url: "https://archive.org/details/geschichtederalt04bard"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1924 read on the title-page image"
+    status: downloaded
+
+  - title: "Augustinus-Postille: eine Auswahl aus den Reden des heiligen Augustin"
+    author: "Augustine of Hippo"
+    translator: "compiler named on the title page (OCR damaged)"
+    year: 1861
+    world: "lpc"
+    why: >
+      German selection of Augustine's sermons by church year.
+    url: "https://archive.org/details/11287782bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1861 printed in the file"
+    status: downloaded
+
+  - title: "Augustinus, Erörterungen zum Johannis-Evangelium, Zweiter Theil (Bibliothek der Kirchenvaeter)"
+    author: "Augustine of Hippo"
+    translator: "Heinrich Hayd"
+    year: 1878
+    world: "lpc"
+    why: >
+      German counterpart of the Tractatus in Johannem homilies 38 onward; lpc holds English
+      only (NPNF 7).
+    url: "https://archive.org/details/11376810bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), direct curl fetch of the archive.org djvu.txt, title page and end matter opened, byte count equal to the host's listed size, 2026-09-30; 1878 printed in the file"
+    status: downloaded
+
+  - title: "Cyprian's saemmtliche Briefe (Bibliothek der Kirchenvaeter)"
+    author: "Cyprian of Carthage"
+    translator: "Joseph Niglutsch and Anton Egger"
+    year: 1869
+    world: "lpc"
+    why: >
+      German BKV counterpart of Cyprian's letters. Not fetched: the printed year could not be
+      read (title-page image cropped, no year visible; catalogue date 1869, and the OCR cites
+      a work of 1870 at item line 13402).
+    url: "https://archive.org/details/ausgewhlteschri01uhlgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; title page image read for author and translators only; year NOT read; 935,228-byte djvu.txt listed"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+
+  - title: "Oeuvres completes de saint Augustin (Raulx), tomes 2-3: Les Lettres"
+    author: "Augustine of Hippo"
+    translator: "Under the direction of M. Raulx (and Poujoulat for tome 3)"
+    year: 1864
+    world: "lpc"
+    why: >
+      French translation of the letters. Tome 2 title page: 'Les Lettres: Deuxieme et
+      troisieme series', tome 3: 'Les Lettres: Troisieme et quatrieme series - Traites
+      philosophiques', both Bar-le-Duc, L. Guerin, 1864 in the OCR. Not fetched for size
+      (about 3.5 and 3.2 MB each); item ids oeuvrescomplt02augu and oeuvrescomplt03augu. Tome
+      1 (oeuvrescomplt01augu) carries the Confessions.
+    url: "https://archive.org/details/oeuvrescomplt02augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; title pages of tomes 2 and 3 read in the OCR; contents not read"
+    status: not-yet-downloaded
+
+  - title: "Oeuvres completes de saint Augustin (Raulx), tomes 7-11: Sermons"
+    author: "Augustine of Hippo"
+    translator: "Under the direction of M. Raulx"
+    year: 1864
+    world: "lpc"
+    why: >
+      French translation of the sermons and homilies on John (tome 7: 'Sermons, suite de la
+      premiere serie'; tome 8: troisieme et quatrieme series; tome 9: Sermons sur les Psaumes;
+      tome 11: traites sur saint Jean and Sermons inedits). Not fetched for size (3-4 MB per
+      tome); item ids oeuvrescomplt07augu to oeuvrescomplt11augu. Sermons inedits in tome 11
+      begin at item line 26742.
+    url: "https://archive.org/details/oeuvrescomplt07augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; tome titles read in the OCR; years of individual tomes not read (catalogue 1864)"
+    status: not-yet-downloaded
+
+  - title: "Lettres de saint Augustin (4 volumes, French with Latin)"
+    author: "Augustine of Hippo"
+    translator: "Jean-Joseph-Francois Poujoulat (per the catalogue)"
+    year: 1858
+    world: "lpc"
+    why: >
+      Second French translation of the letters, catalogued as French and Latin. Ids
+      lettresdesaintau01augu to lettresdesaintau04augu, about 1.0-1.2 MB each. Not fetched or
+      opened.
+    url: "https://archive.org/details/lettresdesaintau01augu"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only (catalogue date 1858, Paris: Librairie Liturgique-Catholique); no page opened"
+    status: not-yet-downloaded
+
+  - title: "Migne PL 35: Augustine, Opera omnia tomus 3 pars altera (Tractatus in Johannem and others)"
+    author: "Augustine of Hippo (Maurist text, Migne)"
+    translator: ""
+    year: 1861
+    world: "lpc"
+    why: >
+      Latin of the homilies on John, held by lpc only in English. Not fetched for budget (4.3
+      MB).
+    url: "https://archive.org/details/bub_gb_zjg6xiP83WQC"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; first 30 KB of the OCR read: 'Patrologia Latina Tomus XXXV. Opera omnia. Tomus tertius. Pars altera'; catalogue date 1861"
+    status: not-yet-downloaded
+
+  - title: "Conciliengeschichte, Bd. 1 and 2 (2nd ed.)"
+    author: "Karl Josef von Hefele"
+    translator: ""
+    year: 1873
+    world: "lpc"
+    why: >
+      German original of the Hefele-Leclercq sections: Bd. 2 (1875) sections 109-126 cover
+      Hippo 393, the Aurelius councils, the Codex canonum and the appeal dispute; Bd. 1 was
+      not opened. Fraktur OCR is poor. Ids conciliengeschic01hefeuoft and
+      conciliengeschic02hefeuoft (2.2 and 3.0 MB). Not fetched in favour of the French slices.
+    url: "https://archive.org/details/conciliengeschic02hefeuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; table of contents of Bd. 2 read in the OCR (sections 95-160); preface dated Rottenburg, January 1875"
+    status: not-yet-downloaded
+
+  - title: "A History of the Christian Councils, from the original documents (English)"
+    author: "Karl Josef von Hefele"
+    translator: ""
+    year: 1872
+    world: "lpc"
+    why: >
+      English translation, volume 1 (to Nicaea): id ahistorychristi00plumgoog (catalogue date
+      1872); other volumes at cu31924092369598 and cu31924092369614 (1883) and
+      historyofchristi00hefe (1894). English only; not opened.
+    url: "https://archive.org/details/ahistorychristi00plumgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only; volume and translator not confirmed"
+    status: not-yet-downloaded
+
+  - title: "Des heiligen Th. Z. Zyprianus, Bischofes zu Karthago, und Martyrers saemmtliche aechte Werke"
+    author: "Cyprian of Carthage"
+    translator: "unnamed in the catalogue"
+    year: 1818
+    world: "lpc"
+    why: >
+      Early German translation of Cyprian's genuine works, three volumes from the Bayerische
+      Staatsbibliothek (ids 10742994bsb, 10742995bsb, 11020936bsb, 11020937bsb; 0.4 MB for
+      10742995bsb). Not opened.
+    url: "https://archive.org/details/10742995bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only (catalogue date 1818)"
+    status: not-yet-downloaded
+
+  - title: "Saint Cyprien et l'eglise d'Afrique au IIIe siecle"
+    author: "Charles Emile Freppel"
+    translator: ""
+    year: 1890
+    world: "lpc"
+    why: >
+      French lectures on Cyprian and the African church. Ids saintcyprienetl00frep and
+      saintcyprienetl00frepgoog. Not opened.
+    url: "https://archive.org/details/saintcyprienetl00frep"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only (catalogue date 1890)"
+    status: not-yet-downloaded
+
+  - title: "Saint Cyprien, eveque de Carthage, 210-258"
+    author: "Paul Monceaux"
+    translator: ""
+    year: 1914
+    world: "lpc"
+    why: >
+      Popular French life of Cyprian by the author of the Histoire litteraire (already
+      vendored). Id saintcyprienv00monc. Not opened.
+    url: "https://archive.org/details/saintcyprienv00monc"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only (catalogue date 1914)"
+    status: not-yet-downloaded
+
+  - title: "Les cites romaines de la Tunisie"
+    author: "Jules Toutain"
+    translator: ""
+    year: 1896
+    world: "lpc"
+    why: >
+      French essay on the history of Roman colonisation (catalogue title, cut short in the
+      listing) in Tunisia. Id lescitesromaines72tout. Not opened.
+    url: "https://archive.org/details/lescitesromaines72tout"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only (catalogue date 1896)"
+    status: not-yet-downloaded
+
+  - title: "Geschichte der roemischen Litteratur, Teil 3 (Hadrian to Constantine, 3rd ed.)"
+    author: "Martin Schanz, Carl Hosius, Gustav Krueger"
+    translator: ""
+    year: 1922
+    world: "lpc"
+    why: >
+      Handbook covering the African writers to 324 (Tertullian, Cyprian and others). Ids
+      schanzfull (1.7 MB, Public Domain Mark) and geschichtederrom00scha (2.4 MB). The Teil 4
+      volumes that treat Augustine were not located by title search. Not opened.
+    url: "https://archive.org/details/schanzfull"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only (catalogue date 1922, C. H. Beck)"
+    status: not-yet-downloaded
+
+  - title: "Die Mission und Ausbreitung des Christentums, Band 1"
+    author: "Adolf Harnack"
+    translator: ""
+    year: 1924
+    world: "lpc"
+    why: >
+      Band 1 carries the contents of both volumes; id diemissionundaus01harn (catalogue date
+      1924, 1.7 MB) and diemissionundaus01harnuoft (1906). Not opened; the 1924 item is a
+      later printing whose rights rest on that date.
+    url: "https://archive.org/details/diemissionundaus01harnuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only"
+    status: not-yet-downloaded
+
+  - title: "Sacrorum conciliorum collectio, tomus 1 (Welter facsimile)"
+    author: "Giovanni Domenico Mansi (ed.)"
+    translator: ""
+    year: 1901
+    world: "lpc"
+    why: >
+      Volume expected to hold the acts of the councils under Cyprian; id
+      sacrorumconcilio0001phil (catalogue date 1759). Not opened, so its coverage of the
+      Cyprianic councils is not confirmed.
+    url: "https://archive.org/details/sacrorumconcilio0001phil"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only"
+    status: not-yet-downloaded
+
+  - title: "The Treatises of S. Caecilius Cyprian (Oxford Library of the Fathers)"
+    author: "Cyprian of Carthage"
+    translator: "translated with notes; John Henry Newman named in the catalogue"
+    year: 1839
+    world: "lpc"
+    why: >
+      Early English translation, an older cross-check to Wallis (ANF 5). Id
+      treatisesscaeci00cyprgoog. English only; not opened.
+    url: "https://archive.org/details/treatisesscaeci00cyprgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc library sweep 2 (source-research half), 2026-09-30; metadata only (catalogue date 1839, tagged NOT_IN_COPYRIGHT)"
+    status: not-yet-downloaded

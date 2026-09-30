@@ -56,17 +56,17 @@ All seventeen rows pass. Every row gives B, and each says why: the text between 
 
 **Rows 266–272 (Petschenig, CSEL 52–53).** Every marker was read at source:
 
-- 266: 24199–24201, 24752–24753, 24769 `LIBKK PRLMUS.`, 24772, 24774, 25771, 25773, 33390, 33392, 36657–36660 `pai nostra`, and §118 at 29228, with the chair sentence at 29239–29242.
-- 267: `V.` 36699, 36701–36702, 36712, 36718 `Memini8tis`, 41765–41767 `Abiahae`; the Praefatio at 24361–24363, 24495 (`ubi esset ecclesia` follows at 24499) and 24523.
-- 268: `VIII.` 62771, 62773, 63022, the three `COLLATIO` headings 63030, 63478 and 63568, the opening 63032, the close 66054, and 66064 `CCM`.
-- 269: `VIIIL` 66509, 66511, 66523, 71451, 71467, 71473, 71487.
-- 270: `X.` 71495, 71497–71499, `Gratianopolitanus 152` 71502, 71507, 72026–72029, 72032; Praefatio 60755–60762, 60766–60767, 24466–24472.
-- 271: `XI.` 72035, 72037, 72044, 72049 `Gloriosissirais`, 72770, 72782, 72784, 72802.
-- 272: `XII.` 73562, 73564, 73575, 77170 `SECDNDUS`, 73578, 78570, 78578, 78580; the date `Circiter annum 420` at 60809.
+- 266: 24196–24198, 24749–24750, 24766 `LIBKK PRLMUS.`, 24769, 24771, 25768, 25770, 33387, 33389, 36654–36657 `pai nostra`, and §118 at 29225, with the chair sentence at 29236–29239.
+- 267: `V.` 36696, 36698–36699, 36709, 36715 `Memini8tis`, 41762–41764 `Abiahae`; the Praefatio at 24358–24360, 24492 (`ubi esset ecclesia` follows at 24496) and 24520.
+- 268: `VIII.` 62768, 62770, 63019, the three `COLLATIO` headings 63027, 63475 and 63565, the opening 63029, the close 66051, and 66061 `CCM`.
+- 269: `VIIIL` 66506, 66508, 66520, 71448, 71464, 71470, 71484.
+- 270: `X.` 71492, 71494–71496, `Gratianopolitanus 152` 71499, 71504, 72023–72026, 72029; Praefatio 60752–60759, 60763–60764, 24463–24469.
+- 271: `XI.` 72032, 72034, 72041, 72046 `Gloriosissirais`, 72767, 72779, 72781, 72799.
+- 272: `XII.` 73559, 73561, 73572, 77167 `SECDNDUS`, 73575, 78567, 78575, 78577; the date `Circiter annum 420` at 60806.
 
 The rights basis (public domain, 1908–1910) is recorded at row 214 and matches the file header. On letters: 266 is at B, with the reason stated; 267–272 are at A (P2-1).
 
-**Rows 214–217.** Round 32's P2-1 is fixed: `Constantine frater` is now cited at 60985, and the file has it there. Its P2-2 is fixed: row 214 now reports the current header (CSEL 51, 52 and 53; `Rights: Public Domain`) and puts the G5 note in `REGISTRY.yaml`.
+**Rows 214–217.** Round 32's P2-1 is fixed: `Constantine frater` is now cited at 60982, and the file has it there. Its P2-2 is fixed: row 214 now reports the current header (CSEL 51, 52 and 53; `Rights: Public Domain`) and puts the G5 note in `REGISTRY.yaml`.
 
 ## Scope 3: Doc_02
 
@@ -101,7 +101,7 @@ The seven new REWRITE lines are rows 243–248 and row 11. Row 11's line moved f
 
 **P2-3. Row 14:** the paragraph `v.v.iv.li-p3` is at line 16910, not 16909. Line 16909 is blank.
 
-**P2-4. Row 268:** the *Retractationes* pointer is quoted as `PAG. 177, 12`. Line 66062 prints `(PAO. 177, 12 ED. KNOELL)`. Rows 266 and 269 quote `PAO.` as printed.
+**P2-4. Row 268:** the *Retractationes* pointer is quoted as `PAG. 177, 12`. Line 66059 prints `(PAO. 177, 12 ED. KNOELL)`. Rows 266 and 269 quote `PAO.` as printed.
 
 **P2-5. Row 264, Boundary Status:** the cell holds a sentence of reasoning after "Native". The shelf and census facts belong in the Verification Note, which already states them.
 

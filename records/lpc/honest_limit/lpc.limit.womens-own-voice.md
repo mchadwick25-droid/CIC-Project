@@ -40,7 +40,7 @@ why_sources_cannot_answer: 'Doc_09_Story_Inventory.md §5 item 4 states this dir
   Augustine-phase half. No text written by a woman in her own name alone survives in this world''s own Native corpus,
   in either phase. The nearest are two letters sent jointly in the names of Paulinus and his wife Therasia,
   whose voice is his (Letters XXV and XXX, row 11), and Quartillosa''s first-person vision in the Passio
-  of Montanus and Lucius (row 231, no. 16, section VIII), reported inside a martyr act written by men.'
+  of Montanus and Lucius (row 268, no. 16, section VIII), reported inside a martyr act written by men.'
 nearest_material:
 - lpc.figure.numidicus
 - lpc.story.numidicus

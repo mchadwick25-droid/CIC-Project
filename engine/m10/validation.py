@@ -446,11 +446,16 @@ def _json_flag(parser) -> None:
     parser.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
 
 
+def _root_flag(parser) -> None:
+    parser.add_argument("--root", type=Path, default=REPO_ROOT, help="repository root to check (default: this repository)")
+
+
 def add_parser(subparsers) -> None:
     p = subparsers.add_parser("validation", help="four-criteria grading, observed/authored labels, RS-1/RS-2 rows, all eight Part Eight categories, Deep Interview encounter-success grading, the current pin, and the full-validation trigger detector")
     p.add_argument("world_code")
     p.add_argument("--results", nargs="+", help="results files to check instead of the world's saved ones")
     _json_flag(p)
+    _root_flag(p)
 
     p = subparsers.add_parser("wiring", help="acute-distress and harmful-dynamic routes fire and the voice is never called (no network)")
     p.add_argument("world_code")
@@ -484,7 +489,7 @@ def run(args) -> int:
         trigger = None
     elif args.command == "validation":
         files = [Path(f) if Path(f).is_absolute() else Path.cwd() / f for f in args.results] if args.results else None
-        reports, trigger = run_validation(code, files)
+        reports, trigger = run_validation(code, files, args.root)
     else:
         raise SystemExit(f"unknown subcommand {args.command!r}")
     ok = all(r.ok for r in reports) and not (trigger and trigger["verdict"] == "undetermined")

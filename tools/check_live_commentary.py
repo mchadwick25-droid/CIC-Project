@@ -159,7 +159,8 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "ruled": re.compile(r"\bRULED\b"),
     "iso-date": re.compile(r"\b20\d\d-\d\d-\d\d\b"),
     "era-gate": re.compile(
-        r"\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?(?:gate|Freeze)\b|\bthe Freeze\b",
+        r"\bat (?:the|that) (?:Era\s+\d+\s+(?:same\s+)?|same\s+)gate\b|\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?Freeze\b|\bthe Freeze\b|"
+        r"\b(?:corrected|checked|cleared|caught|found|fixed|run|verified|held|resolved|flagged|reconciled|settled|dated|decided)\b[^.]{0,40}\bat (?:the|that) gate\b",
         re.IGNORECASE,
     ),
 }
@@ -421,13 +422,16 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
 # catch - still gets flagged. Found live in cic/corpus-map/: entries that
 # say a cross-check "has not yet been done" or a claim is "flagged for
 # Mark" carry no other pattern at all and were being silently skipped.
-# The word "unresolved" alone is not a cue. It states a real uncertainty in a source
-# or a tension a world holds, and it is a code term in engine/. It is a cue only with a
-# qualifier that marks the author's own scope or timing ("unresolved here", "for now").
+# The words "unresolved", "open question" and "still open" alone are not cues. Each
+# states a real uncertainty in a source or a tension a world holds, and "unresolved" and
+# "still open" are also code terms in engine/. Each is a cue only with a qualifier that
+# marks the author's own scope or timing ("unresolved here", "open question for now").
 ROUTE_CUES = re.compile(
-    r"\b(TODO|FIXME|open question|open gap|open item|not yet (resolved|fixed|answered|acquired)|"
+    r"\b(TODO|FIXME|open question (here|for now|pending|on purpose|until|for (Mark|the project lead))|"
+    r"open gap|open item|not yet (resolved|fixed|answered|acquired)|"
     r"unresolved (here|for now|pending|on purpose|until)|"
-    r"still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
+    r"still pending|still open (here|for now|pending|until|for (Mark|the project lead))|"
+    r"follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
     r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
     re.IGNORECASE,
@@ -436,7 +440,7 @@ ROUTE_CUES = re.compile(
 # A "round" hit that is not a review round (round-trip, round number, round
 # up/down, a round object) - keeps review-round from over-firing on ordinary
 # engineering prose.
-NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b", re.IGNORECASE)
+NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b|\bopens? round \d+\b", re.IGNORECASE)
 
 # A "reviewer" hit that names a generic or hypothetical third party, not this
 # project's own review process - "an external reviewer" (a donor-facing ask
@@ -1364,6 +1368,23 @@ def is_generated_manifest(rel: Path) -> bool:
     return bool(_PACKAGE_MANIFEST.match(rel.as_posix()))
 
 
+_NAME_LINE = re.compile(r"^\s*(?:-\s+)?name:")
+_TAXONOMY_TAG = r"\[(?:PRIMARY|SUPPORTING|TENSIONAL|[1-3][AB](?:-\d+)?)\b[^\]]*\]"
+_LEADING_NAME_TAG = re.compile(r"(?<=[:\s\"'])" + _TAXONOMY_TAG + r"\s*")
+_TRAILING_NAME_TAG = re.compile(r"\s*" + _TAXONOMY_TAG + r"(?=[\"']?\s*$)")
+
+
+def _without_name_taxonomy_tag(line: str) -> str:
+    """A gravity or force record's `name:` ends in (or, in two rzg records,
+    starts with) a bracketed build tag such as [2A - ongoing/external] or
+    [PRIMARY]. engine.prose.strip_name_taxonomy_tag removes it before the
+    name reaches the compiled prompt or a citation card, so the tag itself
+    is not participant-facing text."""
+    if not _NAME_LINE.match(line):
+        return line
+    return _TRAILING_NAME_TAG.sub("", _LEADING_NAME_TAG.sub("", line, count=1), count=1)
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
     if is_generated_manifest(rel):
@@ -1411,8 +1432,11 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
+        if i in code_lines:
+            matched = [name for name in matched if name != "ruling-identifier"]
         if i in spoken_field_lines:
-            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(line)]
+            spoken_text = _without_name_taxonomy_tag(line)
+            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(spoken_text)]
         if not matched and ROUTE_CUES.search(line):
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:

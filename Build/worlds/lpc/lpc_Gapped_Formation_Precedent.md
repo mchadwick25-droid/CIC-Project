@@ -18,7 +18,7 @@ LPC is that pairing's own first real test case — **not a defect LPC introduced
 
 ## 2. What a "gapped" formation-type actually is
 
-Two anchor figures (Cyprian 248–258, Augustine 391–430) separated by 133 years, with **no surviving voice in the Registry, native to this world's own boundary, that continues Cyprian's** between the texts written at and just after his martyrdom (the *Acta Cypriani*, Pontius's *Life* and two martyr acts, rows 231 and 232) and Augustine's ordination. The interval is not undocumented history in general — the Great Persecution, the *traditio* crisis and the rise of Donatism are richly attested for exactly those decades, but overwhelmingly through sources belonging to a neighbouring built world (Donatism, I.4). Doc_01's phrasing, worth reusing verbatim: *"an honest silence in this world's own record, not a general absence of evidence about the period."*
+Two anchor figures (Cyprian 248–258, Augustine 391–430) separated by 133 years, with **no surviving voice in the Registry, native to this world's own boundary, that continues Cyprian's** between the texts written at and just after his martyrdom (the *Acta Cypriani*, Pontius's *Life* and two martyr acts, rows 268 and 222) and Augustine's ordination. The interval is not undocumented history in general — the Great Persecution, the *traditio* crisis and the rise of Donatism are richly attested for exactly those decades, but overwhelmingly through sources belonging to a neighbouring built world (Donatism, I.4). Doc_01's phrasing, worth reusing verbatim: *"an honest silence in this world's own record, not a general absence of evidence about the period."*
 
 ## 3. What held the world together — the pattern that worked
 

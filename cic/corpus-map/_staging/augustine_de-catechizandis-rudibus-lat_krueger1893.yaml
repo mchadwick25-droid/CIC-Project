@@ -1,23 +1,14 @@
-# Krueger's 1893 edition of Augustine's De catechizandis rudibus, Latin text with German
-# introduction and notes.
 source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
 
 assignments:
-  - work: "De Catechizandis Rudibus (On the Catechising of the Uninstructed), Krueger 1893"
+  - work: "Augustine, De catechizandis rudibus (Latin, Krueger 1893)"
     author: augustine
-    locus: "file line 475 (opening of the Latin text, 'Petisti me, frater Deogratias'); title page at file line 46"
+    locus: "whole file"
     atlas_ids:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
     note: >
-      Latin original of the ALREADY-PRESENT English entry 'On the Catechising of the Uninstructed'
-      (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
-      PRIMARY ORIGINAL per cic/texts/INTAKE.md: Krueger's second, wholly revised edition (Freiburg and
-      Leipzig, 1893) of Wolfhard's text, in a clean OCR scan whose Latin lines read as running text
-      (three 30,000-character samples find 0.80 to 0.88 of word forms in the Latin word list built
-      from the clean TEI Augustine files, against 0.93 to 0.96 for the clean TEI files tested the same
-      way; the gap is the German notes and the edition's line numbers interleaved with the Latin).
-      Ready to quote once each quote is verified verbatim against the file (INTAKE section 6); the
-      English a Representative speaks is rendered from it. Not a modern critical edition. Mirrors the
-      English twin's role and confidence exactly.
+      Latin text of the work already in the map in English (npnf103, Registry row 15), which
+      is written for the Carthaginian deacon Deogratias and sits near the centre of this
+      entry. Registry row 220.
