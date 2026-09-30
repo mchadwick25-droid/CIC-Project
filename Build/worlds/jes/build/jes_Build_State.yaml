@@ -1,0 +1,42 @@
+world_code: jes
+process_version: V2.0
+completion_standard_version: V1.4
+started: 2026-09-30
+pilot_world: false
+current_step: Steps 1-2 drafted (Doc_01, Doc_02, Source_Registry, Open_Gaps_Tracking); no independent review has run
+status: in_progress
+pause_point: none
+documents:
+  - id: Step_0
+    status: approved to proceed (Round 4 spot-check clear)
+    rounds_used: 4
+    review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md, Step0_Review_Round4_SpotCheck.md]
+  - id: Doc_01
+    status: drafted; not reviewed
+    rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Doc_02
+    status: drafted with Source_Registry.md; not reviewed
+    rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Representative_identity
+    status: not started; not decided
+    decided_by_mark:
+    decision_date:
+open_items_pointer: Open_Gaps_Tracking.md
+ledger_pointer:
+handoff_manifest_pointer:
+metered_ceiling:
+escalations:
+  - Strand finding (Doc_01 section 5 and section 9)
+  - Living Tradition Status confirmation (Doc_01 section 9)
+  - Representative identity (Doc_01 section 9)
+  - Registration of jes in records/worlds/ (Doc_01 section 9)
+  - Change order on the wording of Step 0 section 4, the sourcing-gap point (Open_Gaps_Tracking.md)
+freeze_package_pointer:
