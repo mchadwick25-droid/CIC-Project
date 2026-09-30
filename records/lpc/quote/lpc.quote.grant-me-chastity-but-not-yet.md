@@ -16,13 +16,13 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-confessions
   locus: Confessions, Book VIII, Chapter VII, section 17; cic/texts/npnf101_augustine-confessions-letters.xml,
-    lines 12745-12749
+    lines 12744-12750
   license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
-  - participant says they want to believe but cannot, or describes being persuaded yet still unable to
-      act on it
+  - participant describes putting off a change they know they should make, or being persuaded yet still
+    unable to act on it
   - participant asks whether delay in changing one's life was ever a struggle for us
 claim_guards: []
 relations:

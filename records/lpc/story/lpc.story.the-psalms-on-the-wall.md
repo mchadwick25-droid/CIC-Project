@@ -66,7 +66,7 @@ text: 'Possidius had been Augustine''s friend for nearly forty years, and he was
   stopped preaching.
 
 
-  Possidius tells the end in his own first person. Every part of his body was intact, and his sight and hearing were unimpaired. Possidius and the others stood by, watching and praying, while he died. Possidius put it in the words of Scripture: he fell asleep with his fathers, well nourished in a good old age. He made no will, because he had nothing to make
+  Possidius tells the end in his own first person. Every part of his body was intact, and his sight and hearing were unimpaired. Possidius and the others stood by, watching and praying, while he died. Possidius put it in the words of Scripture: he slept with his fathers, well nourished in a good old age. He made no will, because he had nothing to make
   one from. He ordered that the church''s library and all its books be carefully preserved for those who
   came after. The city was under siege by the Vandals while this happened.'
 absent_detail: Possidius is the only witness to the sickroom in the last weeks -- the psalms, the request,

@@ -47,7 +47,7 @@ description: >-
 
 
   From inside this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
-  had decided this question wrongly. Augustine gave the principle that let him say so. Even the full councils of the whole church are often put right by the ones that come after.
+  had decided this question wrongly. Augustine gave the principle that let him say so. Even among full councils of the whole church, he wrote, the earlier ones are often put right by those that come after.
 
 
   This is the only force that carries the world's formation logic across its 133-year silence between

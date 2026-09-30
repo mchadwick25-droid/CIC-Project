@@ -79,7 +79,7 @@ text: Was the office of bishop itself, not just this or that practice, ever trac
   together with two fellow bishops, Fortunatus and Alypius. A Donatist presbyter had claimed an
   "episcopal succession" for his own side. The three bishops answered with the real one. They named
   every bishop of Rome in order. They started with Linus, the successor of Peter. They ended with
-  Siricius, "whose successor is the present Bishop Anastasius." Then they added that no Donatist bishop is found anywhere in this line of succession. Against another Donatist, Petilian, Augustine alone named
+  Siricius, "whose successor is the present Bishop Anastasius." Then they added that no Donatist bishop is found in this line of succession. Against another Donatist, Petilian, Augustine alone named
   a second chair the same way. He named Peter's own seat at Rome and James's at Jerusalem. Each was
   still filled, "to-day," by a living bishop. Cyprian, a century and a half earlier, made no name
   list of his own. He stated the principle instead. From Peter onward, the ordering of bishops

@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XIV, to the presbyters and deacons assembled at Rome, section 2; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 30199-30206
+    lines 30198-30207
   license: public-domain
 retrieval:
   tier: 2

@@ -43,9 +43,9 @@ description: >-
   Cyprian was a trained rhetorician who converted in middle life. Within roughly two to three years
   of his conversion, the people of Carthage elected him bishop by acclamation. Five presbyters are
   recorded as opposing him. He called it "your suffrage and God's judgment," set against a faction's
-  "ancient venom." A deacon who knew him described it from outside. The deacon wrote that, by the
-  judgment of God and the favour of the people, Cyprian was chosen for the priesthood and the rank
-  of bishop. He was still newly baptised.
+  "ancient venom." A deacon who knew him described it from outside. By the judgment of God and the
+  favour of the people, he wrote, Cyprian was chosen for the priesthood and the rank of bishop. He
+  was still newly baptised.
 
 
   The pattern recurs in the second phase, at both of Augustine's offices. In 391 he was seized into

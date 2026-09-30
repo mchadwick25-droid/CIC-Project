@@ -37,7 +37,7 @@ license: verbatim
 modern_lens_note: A modern listener may pass over a list of greetings as formality. It closes a letter written from prison
   by a man who says he is too tired to name everyone.
 modern_rendering: We greet Saturus and his family, Bassianus and all the clergy, Uranius, Alexius, Quintianus and Colonica.
-  We greet all those whose names I have not written too, because I am already worn out. So they must forgive
+  And we greet all those whose names I have not written, because I am already worn out. So they must forgive
   me.
 ---
 Closing greetings of the letter. This letter sits in Cyprian's corpus but is not by Cyprian.

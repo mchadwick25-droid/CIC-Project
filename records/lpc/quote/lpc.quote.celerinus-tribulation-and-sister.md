@@ -13,9 +13,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: lpc.story.celerinus-writes-to-lucian says Celerinus 'began' his letter with 'Know, nevertheless, that
-    I am placed in the midst of a great tribulation'. In the vendored edition these words open section 2
-    of Epistle XX, after a first paragraph of greeting and request; they are not the letter's first words.
+  divergence_note: null
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XX, Celerinus to Lucian, section 2; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,

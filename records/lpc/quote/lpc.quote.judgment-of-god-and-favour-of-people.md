@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Life and Passion of Cyprian, section 5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 27817-27824
+    lines 27817-27825
   license: public-domain
 retrieval:
   tier: 2
@@ -42,8 +42,8 @@ text: For the proof of his good works I think that this one thing is enough, tha
   trustworthiness for the priesthood that was coming upon him.
 speaker_or_author: lpc.figure.pontius
 license: verbatim
-modern_lens_note: 'A modern listener may hear ''the favour of the people'' as a popular vote. Pontius sets it beside
-  the judgment of God as one event: for him the people''s favour was how God''s choice became visible.'
+modern_lens_note: A modern listener may hear 'the favour of the people' as a popular vote. Pontius names it together
+  with the judgment of God, as one event, not as a count of votes.
 modern_rendering: To prove his good works, I think this one fact is enough. By the judgment of God and the favor of the
   people, he was chosen for the office of the priesthood and the rank of bishop. He was still newly baptized,
   and, as people saw it, a beginner. He was still in the early days of his faith, in the untaught season
@@ -51,4 +51,4 @@ modern_rendering: To prove his good works, I think this one fact is enough. By t
   Yet a generous nature shone out in him so strongly that he promised full trustworthiness for the priesthood
   ahead of him.
 ---
-Pontius, Cyprian's deacon, writes in praise of his bishop. That Cyprian was a neophyte when elected rests on Pontius alone. The second sentence runs on past the span held here; the span ends at the end of its main clause.
+Pontius, Cyprian's deacon, writes in praise of his bishop. That Cyprian was a neophyte when elected rests on Pontius alone.

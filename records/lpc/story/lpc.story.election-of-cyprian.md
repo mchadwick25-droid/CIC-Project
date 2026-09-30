@@ -60,7 +60,7 @@ text: 'Our own deacon Pontius, writing after his bishop had been executed, passe
   could have said about Cyprian''s early years and settled on one fact as enough. He wrote that this alone was enough to prove his good works. By the judgment of God and the favour of the people, Cyprian was chosen for the priesthood and the rank of bishop. He was still a neophyte and, as people saw it, a novice.
 
 
-  A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that Cyprian was still in the early days of his faith, at an untaught stage of his spiritual life. What we saw in him
+  A neophyte. Newly baptised. Pontius did not soften this; he pressed it. Cyprian, he noted, was still in the early days of his faith, at an untaught stage of his spiritual life. What we saw in him
   was not training. It was something we thought we could already see.
 
 

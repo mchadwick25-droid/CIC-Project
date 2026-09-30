@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
   locus: Seventh Council of Carthage under Cyprian, Cyprian's preface; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 56869-56871
+    lines 56868-56871
   license: public-domain
 retrieval:
   tier: 2

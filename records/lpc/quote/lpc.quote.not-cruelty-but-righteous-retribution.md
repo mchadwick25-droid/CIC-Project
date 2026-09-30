@@ -41,4 +41,4 @@ modern_rendering: The account of the wars of Moses will not cause surprise or ho
   he showed not savagery but obedience. And in giving the command, God did not act out of cruelty but
   in just punishment. He gave all people what they deserved, and He warned those who needed warning.
 ---
-Augustine answering the Manichaean Faustus on the wars of Moses.
+Augustine answering the Manichaean Faustus on the wars of Moses. The quotation begins at the main clause of a sentence that opens 'Now, if this explanation suffices'.

@@ -39,8 +39,8 @@ speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: 'A modern listener may hear ''succession'' as holiness passed from hand to hand. The letter''s claim
   is plainer: a named, unbroken list of the bishops of one see back to Peter, with no Donatist in it.'
-modern_rendering: 'For if the line of bishops is what counts, how much more surely we count back to Peter himself, and
-  how much more to the Church''s good! Peter stood as a symbol of the whole Church. To him the Lord said,
+modern_rendering: 'For suppose the line of bishops is to be taken into account. Then how much more surely, and how much
+  more to the Church''s good, we count back to Peter himself! Peter stood as a symbol of the whole Church. To him the Lord said,
   "On this rock I will build my Church, and the gates of hell will not overcome it!" Peter''s successor
   was Linus. His successors, in unbroken order, were these: Clement, Anacletus, ... and Siricius. The
   successor of Siricius is the present bishop, Anastasius. In this line of succession no Donatist bishop

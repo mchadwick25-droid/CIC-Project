@@ -16,7 +16,7 @@ confidence:
     texts of the treatise.
 sources:
 - source_id: lpc.source.cyprian-minor-pastoral-treatises
-  locus: On Works and Alms, section 14; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47709-47716
+  locus: On Works and Alms, section 14; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47709-47717
   license: public-domain
 retrieval:
   tier: 2

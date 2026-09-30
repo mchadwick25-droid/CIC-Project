@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle LIX, to the Numidian bishops on the redemption of captives, section 1; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 36008-36010
+    lines 36009-36012
   license: public-domain
 retrieval:
   tier: 2

@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XIV, to the presbyters and deacons assembled at Rome, section 2; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 30187-30194
+    lines 30188-30195
   license: public-domain
 retrieval:
   tier: 2
@@ -41,7 +41,7 @@ modern_lens_note: A modern listener may think of a leader's letters as private. 
 modern_rendering: 'And these thirteen letters, sent out at different times, show you what I did. I have sent them on
   to you. In them nothing was lacking: not advice to the clergy, not encouragement to the confessors,
   and not rebuke to the exiles when it was needed. Nor were my appeals and urgings lacking, calling the
-  whole community to beg for God''s mercy. All of it was there, as fully as my poor abilities could manage.
-  They worked by the law of faith and the fear of God, with the Lord''s help.'
+  whole community to beg for God''s mercy. With the Lord''s help, my poor abilities gave all of it
+  as fully as they could, by the law of faith and the fear of God.'
 ---
 Cyprian tells the Roman clergy that the thirteen letters he sent during his absence show what he did, and that he has forwarded them.

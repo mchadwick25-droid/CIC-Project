@@ -43,4 +43,4 @@ modern_rendering: That was when we were in this distress. By the emperor's comma
   And the fire caused by our torture was so unbearable that no one could endure it. But now we have reached
   the brightness itself.
 ---
-This letter sits in Cyprian's corpus but is not by Cyprian. The vendored translation prints a variant reading at 'so intolerable' in an endnote; the record's text follows the main text.
+This letter sits in Cyprian's corpus but is not by Cyprian. The vendored translation prints a variant reading at 'so intolerable' in an endnote; the record's text follows the main text. The quotation begins mid-sentence. The words run on from 'as what we in all cases decreed', so the rendering's opening 'That' is the confessors' decision to give peace to all.

@@ -56,7 +56,7 @@ narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Two 
   not by Cyprian.'
 tellable_as: How two confessors, not our bishop, decided who could come back to us
 text: 'Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- and he
-  wrote to Lucian, another confessor, in prison. He did not write about himself. He began by telling Lucian that he was in the midst of a great tribulation, and the tribulation was not his own captivity. His sister had sacrificed. He asked Lucian to grant his wish and to grieve with him at his sister''s spiritual death. In this time of devastation, he wrote, she had fallen from Christ.
+  wrote to Lucian, another confessor, in prison. He did not write about himself. He told Lucian that he was in the midst of a great tribulation, and the tribulation was not his own captivity. His sister had sacrificed. He asked Lucian to grant his wish and to grieve with him at his sister''s spiritual death. In this time of devastation, he wrote, she had fallen from Christ.
 
 
   She was not dead. She was alive, in Carthage, and what Celerinus grieved was a death he believed had
@@ -65,7 +65,7 @@ text: 'Celerinus was a confessor among us -- he had been imprisoned and had not 
   they had repented, and there were works to point to.
 
 
-  Lucian''s reply came back from the prison, and it granted what was asked. Before it did, it said what the prison had been like. By the emperor''s command they were to be put to death by hunger and thirst. They were shut up in two cells so that hunger and thirst would weaken them. Then it said that now they had reached the brightness itself. He greeted Numeria and Candida and named the martyrs on whose authority he answered. He signed off exhausted, greeting others whose names he had not written because he was already weary, and asking them to pardon him.'
+  Lucian''s reply came back from the prison, and it granted what was asked. Before it did, it said what the prison had been like. By the emperor''s command they were to be put to death by hunger and thirst. They were shut up in two cells so that hunger and thirst would weaken them. Then it said that now they had reached the brightness itself. He greeted Numeria and Candida and named the martyrs on whose authority he answered. He signed off exhausted, greeting others whose names he had not written because he was already weary, and saying they must pardon him.'
 absent_detail: 'Celerinus''s own sister has no story, and she is the person this one is about. She is
   unnamed -- her own brother does not name her. Numeria and Candida are not ''named lapsed women'' either:
   Celerinus says the opposite of Candida, that she gave gifts for herself "that she might not sacrifice"

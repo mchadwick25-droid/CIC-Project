@@ -38,7 +38,7 @@ modern_lens_note: 'A modern listener may hear this as a general appeal to compas
   and stronger: the captives were baptized, so they had put on Christ, and ransoming them was ransoming
   Christ himself.'
 modern_rendering: For, as the Apostle Paul says, "All of you who were baptized into Christ have clothed yourselves with
-  Christ." So we must see Christ in our captive brothers. And He who rescued us from the danger of death
-  must be rescued from the danger of captivity...
+  Christ." So we must see Christ in our captive brothers. And He who ransomed us from the danger of death
+  must be ransomed from the danger of captivity...
 ---
 Cyprian quotes Galatians 3:27, as the vendored edition's endnote records. The trailing ellipsis marks a real elision: the sentence continues past the span.

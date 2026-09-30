@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle I, to Donatus, section 4; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines
-    28425-28428
+    28426-28429
   license: public-domain
 retrieval:
   tier: 2

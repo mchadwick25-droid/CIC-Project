@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Life and Passion of Cyprian, section 9; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 27939-27948
+    lines 27939-27949
   license: public-domain
 retrieval:
   tier: 2

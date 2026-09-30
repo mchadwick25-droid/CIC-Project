@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
-  locus: On Baptism, Against the Donatists, Book II, Chapter 7, section 10; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
+  locus: On Baptism, Against the Donatists, Book IV, Chapter 6, section 10; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
     line 12167
   license: public-domain
 retrieval:

@@ -42,7 +42,7 @@ text: On the people assembled together in one place he first of all urged the be
   also. And if a man professes to be a son of God, why does not he imitate the example of his Father?
   "It becomes us," said he, "to answer to our birth; and it is not fitting that those who are evidently
   born of God should be degenerate, but rather that the propagation of a good Father should be proved
-  in His offspring by the emulation of His goodness.
+  in His offspring by the emulation of His goodness."
 speaker_or_author: lpc.figure.pontius
 license: verbatim
 modern_lens_note: A modern listener may hear 'love your enemies' as a general maxim. Here it was preached in a plague,
@@ -52,7 +52,7 @@ modern_rendering: When the people were gathered in one place, he first urged on 
   favor. Then he added that there was nothing remarkable in caring for our own people only, with the loving
   attention they needed. But a person could become perfect if he did more than the tax collector or the
   pagan. Such a person would overcome evil with good and show a mercy like God's own mercy. He would love
-  even his enemies and pray for the salvation of those who persecute him, as the Lord warns and urges.
+  even his enemies and pray for the salvation of those who persecute him, as the Lord counsels and urges.
   God constantly makes His sun rise, and from time to time He sends showers to feed the seed. He shows
   all these kindnesses not only to His own people but to strangers as well. And if a man claims to be
   a son of God, why does he not follow his Father's example? "It is right for us," he said, "to live up

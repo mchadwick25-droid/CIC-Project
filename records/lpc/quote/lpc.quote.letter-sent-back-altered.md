@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle III, to the presbyters and deacons abiding at Rome, section 2; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 28927-28934
+    lines 28926-28935
   license: public-domain
 retrieval:
   tier: 2
