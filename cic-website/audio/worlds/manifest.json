@@ -70,5 +70,77 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "alexandria-catechetical": {
+  "story": {
+   "file": "alexandria-catechetical/story.mp3",
+   "chars": 6329,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "alexandria-catechetical/docstory-0.mp3",
+   "chars": 754,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "alexandria-catechetical/docstory-1.mp3",
+   "chars": 1128,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "alexandria-catechetical/docstory-2.mp3",
+   "chars": 1035,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "alexandria-catechetical/legacy.mp3",
+   "chars": 674,
+   "voiceId": "q5DSap58ea32P9TmDyTg",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  }
  }
 }

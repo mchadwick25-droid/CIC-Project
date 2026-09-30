@@ -4678,3 +4678,33 @@ up to the current compiled text.
 
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Other built worlds' stories still need their voices chosen.
+
+## 2026-09-30 — Theon's pieces narrated (Alexandria world), voice D
+
+**Decision.** The Alexandria world's story, three documented stories and
+legacy piece are narrated in the voice Mark chose for Theon from four
+candidates heard on the same two pieces (an older-male teacher brief: warm,
+unhurried, a little weight, no preacher cadence). Bios and the tree
+description are not narrated, as for Chloe.
+
+**Settings, as printed by the run.** Voice `q5DSap58ea32P9TmDyTg`, model
+`eleven_v4`, stability 0.7, similarity 0.75, style 0, speaker boost on, speed
+1, no tempo change, 128 kbps. The three other candidates were
+`RcJwmh5i58BVkriS77pp`, `yFdhLvTFDaKiPJV4dWU0`, `NjIuThmU7jjDCKtQUOX2`.
+
+**Cost.** Four-voice sample 976 credits (244 each); run 1,323 credits for
+9,920 characters. The world story went in two parts joined into one file.
+
+**Wired.** `cic-website/audio/worlds/alexandria-catechetical/` and its entry
+in `manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Next world: the desert world's Representative (Papnoute); casting brief
+   given, voices awaited.
