@@ -94,3 +94,7 @@ One consequence follows for disposition. The item is escalated and not yet answe
 - The build state's round count ("rounds_used: 3") was not reconciled against the commit history. The build state's current_step still says the review of this revision "has not run", which this file now makes stale.
 - The Polanco staging notes and corpus-map entry were read as a diff only. The rest of those entries was not re-read.
 - `engine/m1/quote_verbatim.py` was not run.
+
+## Disposition
+
+Approved to proceed (Doc_02 and the Source Registry; not Frozen). Self-disposed by the Library thread after this recheck; the reviewer's verdict is above.

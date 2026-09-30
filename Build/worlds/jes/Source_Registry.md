@@ -2,7 +2,7 @@
 
 Per `Source_Registry_Template.md` V1.0. Co-equal Step 2 output with `Doc_02_Source_Ecology.md`. **Living document: append-only.** A row is never renumbered or deleted. Doc_02 may not name a source in support of a specific claim unless that source has a row here. Rows are entered only for works that the corpus map assigns to this world, and for works that are not vendored. A vendored work assigned only to another world is recorded as a candidate in `Open_Gaps_Tracking.md` (section E), not here.
 
-**Status:** Approved to proceed with Doc_02, after independent review across three rounds (`Review-Artifacts/Round3_Recheck_Review.md`, clear). The saturation statement at the end is not closed.
+**Status:** Approved to proceed with Doc_02, after independent review across three rounds (`Review-Artifacts/Doc02_Round3_Review.md`, clear). The saturation statement at the end is not closed.
 **Boundary checked against:** `Doc_01_World_Identification_Boundaries_Orientation.md` (1540–1650; Rome, then the Iberian kingdoms, Italy, the German lands, France, India, Japan, Brazil, and the missions beyond; strand-singular as a recommendation pending the project lead). Boundary Status is judged by what a source speaks for, never by the publication date of a modern edition.
 
 **Type:** P (Primary) / S (Secondary) / M (Material/External) / L (Period Lexicon).

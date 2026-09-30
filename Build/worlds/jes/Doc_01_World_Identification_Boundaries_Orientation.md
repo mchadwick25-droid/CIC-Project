@@ -1,6 +1,6 @@
 # Doc_01 — World Identification, Boundaries, and Orientation: The Society of Jesus
 
-**Status:** Approved to proceed (Doc_01 only; not Frozen), after independent review across three rounds (`Review-Artifacts/Round3_Recheck_Review.md`, clear).
+**Status:** Approved to proceed (Doc_01 only; not Frozen), after independent review across three rounds (`Review-Artifacts/Doc01_Round3_Review.md`, clear).
 **World file-code:** `jes`. Census reference: Atlas VI.11, `cic-website/data/world-census.json`.
 **Governed by:** Construction Framework V7.4 Part I and Step 1. Constitution V2.3, Article 4 (movement scope), Article 21 (strands), Article 22 (forces) and Article 29 (living tradition). Forces Framework V1.1, Step 1 entry.
 **Grounded in:** `Step0_Movement_Scope_Confirmation.md`, which is approved to proceed, and its binding points in §4.

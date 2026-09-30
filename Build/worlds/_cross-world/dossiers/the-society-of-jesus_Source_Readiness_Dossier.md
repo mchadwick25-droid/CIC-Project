@@ -6,8 +6,8 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `the-society-of-jesus`
 **Time window:** 1540–1650
 **Region(s):** Rome, then worldwide
-**Dossier author / date:** source-research thread, 2026-09-30
-**Corpus-map / `cic/texts/` state as of:** 2026-09-30, from `cic/corpus-map/the-society-of-jesus.yaml`.
+**Dossier author:** source-research thread
+**Corpus-map / `cic/texts/` state:** read from `cic/corpus-map/the-society-of-jesus.yaml`.
 
 ## 1. Already assigned
 
@@ -47,11 +47,11 @@ The Trent Canons and Decrees are vendored and double-placed to the sibling `the-
 
 | title | author | translator/ed. | year | url | rights basis | verified by |
 |---|---|---|---|---|---|---|
-| Spiritual Exercises | Ignatius of Loyola | Elder Mullan, S.J. ("translated from the autograph") | 1914 | archive.org `spiritualexercis00ignauoft` | pd-us-by-date | direct fetch, 2026-09-15, `NOT_IN_COPYRIGHT` confirmed |
-| Autobiography of St. Ignatius (dictated to Luis Gonçalves da Câmara, 1553–55) | Ignatius of Loyola | ed. J.F.X. O'Conor, S.J. | 1900 | https://www.gutenberg.org/files/24534/24534-h/24534-h.htm | pd-us-by-date | direct fetch, 2026-09-15, explicit PD ebook |
-| Letters and Instructions of St. Ignatius Loyola, Vol. 1 (1524–1547) | Ignatius of Loyola | tr. D.F. O'Leary, ed. A. Goodier | 1914 | archive.org `LettersAndInstructionsOfStIgnatiusV1` | pd-us-by-date | direct fetch, 2026-09-15, Public Domain Mark confirmed. A selection (24 letters), not the full ~7,000-letter corpus; a further volume of the series, beyond 1547, is not vendored (§4). |
-| Council of Trent, Canons and Decrees | (conciliar) | James Waterworth | preface 1848, this printing c. 1888 | archive.org `thecanonsanddecr00unknuoft` | pd-us-by-date | direct fetch, 2026-09-15, `NOT_IN_COPYRIGHT` confirmed. Directly relevant: the doctrinal anchor the Jesuits implemented. |
-| Life and Letters of St. Francis Xavier, Vol. 1 (1506, university years, India/Fishery Coast, Malacca/Moluccas 1541–48, extensive Xavier–Ignatius correspondence) | Francis Xavier | Henry James Coleridge | 1872 | archive.org `LifeLettersOfStFrancisXavierV1` | pd-us-by-date | direct fetch, 2026-09-15, Public Domain Mark confirmed. Vol. 2 (later Japan and China years, Xavier's death 1552) is vendored (§1). |
+| Spiritual Exercises | Ignatius of Loyola | Elder Mullan, S.J. ("translated from the autograph") | 1914 | archive.org `spiritualexercis00ignauoft` | pd-us-by-date | direct fetch, `NOT_IN_COPYRIGHT` confirmed |
+| Autobiography of St. Ignatius (dictated to Luis Gonçalves da Câmara, 1553–55) | Ignatius of Loyola | ed. J.F.X. O'Conor, S.J. | 1900 | https://www.gutenberg.org/files/24534/24534-h/24534-h.htm | pd-us-by-date | direct fetch, explicit PD ebook |
+| Letters and Instructions of St. Ignatius Loyola, Vol. 1 (1524–1547) | Ignatius of Loyola | tr. D.F. O'Leary, ed. A. Goodier | 1914 | archive.org `LettersAndInstructionsOfStIgnatiusV1` | pd-us-by-date | direct fetch, Public Domain Mark confirmed. A selection (24 letters), not the full ~7,000-letter corpus; a further volume of the series, beyond 1547, is not vendored (§4). |
+| Council of Trent, Canons and Decrees | (conciliar) | James Waterworth | preface 1848, this printing c. 1888 | archive.org `thecanonsanddecr00unknuoft` | pd-us-by-date | direct fetch, `NOT_IN_COPYRIGHT` confirmed. Directly relevant: the doctrinal anchor the Jesuits implemented. |
+| Life and Letters of St. Francis Xavier, Vol. I | Francis Xavier | Henry James Coleridge | 1872 | archive.org `LifeLettersOfStFrancisXavierV1` | pd-us-by-date | direct fetch, Public Domain Mark confirmed. Vol. I covers Xavier's birth in 1506, his university years, India and the Fishery Coast, Malacca and the Moluccas 1541–48, and the Xavier–Ignatius correspondence. Vol. 2 (later Japan and China years, Xavier's death 1552) is vendored (§1). |
 
 **Scale.** Nineteen works are vendored (§1): the English translations and biographies above, plus Latin critical editions of the first generation's own letters and acts. Word counts are not extracted here.
 

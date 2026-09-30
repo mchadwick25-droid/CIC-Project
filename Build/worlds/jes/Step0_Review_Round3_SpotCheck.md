@@ -6,7 +6,7 @@ Simulated review — informational only, not an Article 31 substitute.
 - **Drafter model:** Sonnet 5.5
 - **Reviewer agent:** independent-review subagent, fresh context, launched from session_019FXuEebrCDmzYe987sNAxL (wrote none of the text under review)
 - **Drafter agent:** correction worker, commit db705b7d8 (commit trailer reads "Claude Sonnet 5.5")
-- **Round:** 4 (a bounded spot-check under the project lead's direction (option 1 of the Round 3 Disposition: S1 and m1–m3 only). This is not a new revision round and does not count toward the three-round cap)
+- **Round:** 3 (the bounded spot-check that closes the Round 3 Disposition's option 1; a bounded spot-check under the project lead's direction (option 1 of the Round 3 Disposition: S1 and m1–m3 only). This is not a new revision round and does not count toward the three-round cap)
 - **Truncation check, method 1:** structural count. Headings §0 to §6 are all present, in order (lines 9, 13, 17, 49, 83, 92, 96). §4 items 1 to 6 are all present. The file ends on a complete sentence ("… once approved to proceed.") and a newline.
 - **Truncation check, method 2:** byte and hash comparison. `wc -c` equals `git cat-file -s HEAD:<path>` (20,041 bytes). `git hash-object` equals `git rev-parse` of the blob at HEAD 3d8dd7139 and at db705b7d8 (e4413e31…). The file has no uncommitted changes. The generated `cic/corpus-map/the-society-of-jesus.yaml` also matches its HEAD blob (90386d9c…).
 - **Date:** 2026-09-30
@@ -63,3 +63,7 @@ The Status line now reads "Reviewed at Revision 3 … independent spot-check pen
 - §5 "Process findings for System Hub" is process narration inside a canonical file. It should move to `Build/Ministry/`.
 - The Jesuit Source Readiness Dossier is stale against the corrected volume labels.
 - Commit db705b7d8 also carries the move of the Hussite Step 0 files to `Build/worlds/hus/`, with a content change in that Step 0 (76% similarity). That work is outside this spot-check and was not reviewed.
+
+## Disposition
+
+Approved to proceed (Step 0 only; not Frozen). Self-disposed by the Library thread after this spot-check, per the project lead's option 1; the reviewer set no disposition.

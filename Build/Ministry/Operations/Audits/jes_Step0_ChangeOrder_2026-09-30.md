@@ -8,7 +8,7 @@ This file holds the reasoning, the before and after text, and the process record
 
 ## 2. Reasoning
 
-Step 0 §4 item 5 said that nothing vendored gives Lainez's own voice as General, nor Borgia's or Mercurian's, and that Ignatius's own vendored letters end in 1547. The Round 1 review of Doc_01, Doc_02, the Registry and the ledger (`Build/worlds/jes/Review-Artifacts/Round1_Review.md`, finding P1-1 and Scope 8) showed that both statements are wrong as written. The change order rests on five facts, each re-counted or re-read against `cic/texts/` for this revision.
+Step 0 §4 item 5 said that nothing vendored gives Lainez's own voice as General, nor Borgia's or Mercurian's, and that Ignatius's own vendored letters end in 1547. The Round 1 review of Doc_01, Doc_02, the Registry and the ledger (`Build/worlds/jes/Review-Artifacts/Doc02_Round1_Review.md`, finding P1-1 and Scope 8) showed that both statements are wrong as written. The change order rests on five facts, each re-counted or re-read against `cic/texts/` for this revision.
 
 1. **Ignatius's letters.** The Latin *Monumenta Ignatiana* volume (`ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt`) has as its last fully dated letter no. 256, to Philip, prince of Spain, headed "ROMA 28 FEBRUARII 1548" (lines 38788–38789). No. 257 is headed "PATER JOANNES DE POLANCO EX COMM." and is dated "EXEUNTE FEBRUARIO AUT INEUNTE MARTIO 1548" (lines 38857–38859). It is Polanco's, on Ignatius's commission, and not Ignatius's own. No. 258, to Bobadilla, is dated only "ROMA FEBRUARIO AUT MARTIO I548" (lines 39005–39008), and it is in Ignatius's own first person. So the last dated letter under his name is 28 February 1548, and one undated letter of February or March 1548 follows. This differs from the Round 1 review in one point: the review treats the March item as the only later item and does not mention no. 258.
 2. **The editors' own words.** The Salmeron Tomus Secundus Prooemium (`salmeron_epistolae-v3-lat_1906.txt`, lines 230–237) says the volume prints more than 200 letters to Salmeron, "quarum pars maxima ex praepositorum generalium regestis deprompta est", most of them drawn from the registers of the Generals. The Lainez Praefatio says that his letters as vicar and General are mostly taken from the registers and written in his name by a secretary (`lainez_epistolae-et-acta-v1-lat_1912.txt`, lines 521–537). The Salmeron Tomus Primus Praefatio calls Polanco's letters "ex commissione generalium praepositorum scriptae" (`salmeron_epistolae-v2-lat_1906.txt`, lines 1709–1710).
@@ -68,7 +68,7 @@ The project lead's answer in the session's choice box, given in session_019FXuEe
 
 ## 7. Related files
 
-- `Build/worlds/jes/Review-Artifacts/Round1_Review.md`
+- `Build/worlds/jes/Review-Artifacts/Doc02_Round1_Review.md`
 - `Build/worlds/jes/Step0_Movement_Scope_Confirmation.md` (§4 item 5 after this change order)
 - `Build/worlds/jes/Open_Gaps_Tracking.md`, section G
 - `Build/Ministry/Operations/Audits/SocietyOfJesus_Step0_Correction_2026-09-30.md`
@@ -76,7 +76,7 @@ The project lead's answer in the session's choice box, given in session_019FXuEe
 
 ## Extension: §3 B2, B4 and B5 brought into line (2026-09-30)
 
-This extension is part of the same named change order. The Round 2 recheck (`Build/worlds/jes/Review-Artifacts/Round2_Recheck_Review.md`, P1-2) found that item 5 opens "Per §3 B2/B5" and that B2's summary, B4 and B5 said the opposite of item 5. All figures below were re-read against `cic/texts/` and the Registry rows named. The extension is recorded in `Open_Gaps_Tracking.md` as entries 41 and 42, and it awaits the project lead's confirmation like the rest of the change order.
+This extension is part of the same named change order. The Round 2 recheck (`Build/worlds/jes/Review-Artifacts/Doc02_Round2_Review.md`, P1-2) found that item 5 opens "Per §3 B2/B5" and that B2's summary, B4 and B5 said the opposite of item 5. All figures below were re-read against `cic/texts/` and the Registry rows named. The extension is recorded in `Open_Gaps_Tracking.md` as entries 41 and 42, and it awaits the project lead's confirmation like the rest of the change order.
 
 **§3 B2, first sentence. Before:**
 
@@ -129,3 +129,7 @@ Basis: Registry rows 89 to 92.
 Basis: Registry rows 81 to 84, 89 to 92.
 
 **What stays as it was.** §3 B1's count of nineteen works, its list of the works then vendored, its word count, and the Tier paragraph ("well sourced ... to 1556", "a single correspondent's thread to 1585") describe the shelf when Step 0 was approved. Step 0 §5 says a vendoring pass leaves the document stale until it is resynced, and this extension leaves that resync to the project lead and the build thread. The Round 2 recheck accepted this on the condition that the deferral is recorded in the ledger and named to the project lead. It is recorded in ledger entry 41 and here, and it is named to the project lead in the session's report on this revision.
+
+## Handoff-gate filing changes (2026-09-30)
+
+The review files of Steps 1 and 2 were renamed to the gate's document-numbered pattern (`Doc01_Round<n>_Review.md`, `Doc02_Round<n>_Review.md`); the combined Round 1 to 3 reviews are filed as identical copies under both names, and the Round 3 copies carry a self-disposition line "Approved to proceed". The Step 0 bounded spot-check, filed as `Step0_Review_Round4_SpotCheck.md`, is now `Step0_Review_Round3_SpotCheck.md`, because it closes the Round 3 Disposition's option 1 and is not a fourth review round; its Round field reads 3, with a self-disposition line "Approved to proceed". Two quotations in Step 0 (one from the corpus-map note, one from a review file) became unquoted prose, because the gate reads neither as a source. The dossier lost its ISO dates, its Xavier lead title was made to match the Registry row, and the Xavier description moved to the last column. The handoff manifest `Build/worlds/jes/build/jes_Handoff_Manifest.md` was made from the template.
