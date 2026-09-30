@@ -608,6 +608,20 @@
     "style": 0.05,
     "use_speaker_boost": true
    }
+  },
+  "docstory-2": {
+   "file": "imperial-juridical-christianity/docstory-2.mp3",
+   "chars": 1134,
+   "voiceId": "sp6F311QRVXR53QPGIgK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
   }
  }
 }
