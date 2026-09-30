@@ -154,3 +154,48 @@ def test_a_quotation_with_no_address_cited_is_counted_not_failed(tmp_path):
     root = _letters_world(tmp_path)
     findings, notes = _run(root, f'See `cic/texts/{LETTERS}`: "{SECOND}"\n')
     assert findings == [] and "1 found in a file with no address" in notes[1]
+
+
+def test_soft_hyphen_mark_joins_the_halves_of_a_broken_word(tmp_path):
+    root = build_world(tmp_path)
+    write(root, f"cic/texts/{TEXT_FILE}", "Decree 42.\n\nEt hoc pro directione tan¬\ntum et sine ulla obliga¬ tione, ut dicitur in praepo¬ sitis.\n")
+    body = f'The decree grants it "pro directione tantum et sine ulla obligatione" to all, `cic/texts/{TEXT_FILE}`.\n'
+    findings, _ = _run(root, body)
+    assert findings == []
+
+
+def test_soft_hyphen_mark_joins_inside_a_located_division(tmp_path):
+    root = build_world(tmp_path)
+    write(root, f"cic/texts/{TEXT_FILE}", '<div1 id="d42" title="Decree">Et hoc pro directione tan¬\ntum et sine ulla obliga¬ tione, ut dicitur.</div1>\n')
+    body = f'It says "pro directione tantum et sine ulla obligatione" cic:{TEXT_FILE}:d42.\n'
+    findings, notes = _run(root, body)
+    assert findings == []
+    assert any("1 confirmed inside" in n for n in notes)
+
+
+def _docx(path, paragraphs):
+    import zipfile
+
+    ns = 'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"'
+    body = "".join(f"<w:p><w:r><w:t>{t}</w:t></w:r></w:p>" for t in paragraphs)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(path, "w") as z:
+        z.writestr("word/document.xml", f'<?xml version="1.0"?><w:document {ns}><w:body>{body}</w:body></w:document>')
+    return path
+
+
+def test_quotation_from_a_reference_docx_counts_as_a_project_document(tmp_path):
+    root = build_world(tmp_path)
+    _docx(root / "Build/reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx", ["4. One God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen."])
+    body = 'Article 4 holds "One God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen" as the first commitment.\n'
+    findings, notes = _run(root, body)
+    assert findings == []
+    assert any("CiC_L1_Constitution_V2_2.docx" in n for n in notes)
+
+
+def test_altered_docx_quotation_still_fails(tmp_path):
+    root = build_world(tmp_path)
+    _docx(root / "Build/reference/L1-Foundation/CiC_L1_Constitution_V2_2.docx", ["One God, the Father, the Almighty, maker of heaven and earth."])
+    body = 'Article 4 holds "One God, the Father, the Almighty, maker of heaven and earth and the moon" openly.\n'
+    findings, _ = _run(root, body)
+    assert any(f.check == "quotes-unverified" for f in findings)

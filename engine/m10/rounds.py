@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 
 from .common import REPO_ROOT, Finding, rel, review_dirs
+from .reviewfile import cycle_reset
 
 ROUND_CAP = 3
 ROUTE_MESSAGE = "route to project lead"
@@ -31,8 +32,23 @@ def review_files(code: str, doc: int, root: Path = REPO_ROOT) -> dict[int, list[
     return found
 
 
+def cycle_start(found: dict[int, list[Path]]) -> int:
+    """The round the current cycle starts at: the latest round whose file
+    carries a non-empty `Cycle reset` header field (that file starts the new
+    cycle), else the first round. All files stay on record."""
+    resets = [n for n, paths in found.items() if any((cycle_reset(p) or "").strip() for p in paths)]
+    return max(resets) if resets else min(found, default=1)
+
+
+def cycle_rounds(found: dict[int, list[Path]]) -> dict[int, list[Path]]:
+    """The review files counted against the cap."""
+    start = cycle_start(found)
+    return {n: paths for n, paths in found.items() if n >= start}
+
+
 def check_rounds(code: str, doc: int, root: Path = REPO_ROOT, *, check_new: bool = False, new_round: int | None = None) -> tuple[list[Finding], int]:
-    found = review_files(code, doc, root)
+    all_found = review_files(code, doc, root)
+    found = cycle_rounds(all_found)
     count = len(found)
     where = rel(root / "Build" / "worlds" / code, root)
     label = f"Doc_{doc:02d}" if doc else "Step 0"
@@ -41,8 +57,9 @@ def check_rounds(code: str, doc: int, root: Path = REPO_ROOT, *, check_new: bool
         rounds = ", ".join(str(n) for n in sorted(found))
         findings.append(Finding(where, "roundcount-cap", f"{label} has {count} review rounds ({rounds}); the cap is {ROUND_CAP}; {ROUTE_MESSAGE}"))
     if check_new:
-        if new_round is not None and new_round > ROUND_CAP:
+        start = cycle_start(all_found)
+        if new_round is not None and new_round - start + 1 > ROUND_CAP:
             findings.append(Finding(where, "roundcount-new", f"round {new_round} of {label} would pass the cap of {ROUND_CAP}; {ROUTE_MESSAGE}"))
-        elif count >= ROUND_CAP and (new_round is None or new_round not in found):
+        elif count >= ROUND_CAP and (new_round is None or new_round not in all_found):
             findings.append(Finding(where, "roundcount-new", f"{label} already has {count} review rounds; a new round file would be round {count + 1}; {ROUTE_MESSAGE}"))
     return findings, count

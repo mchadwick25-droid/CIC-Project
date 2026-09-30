@@ -1649,3 +1649,23 @@ def test_method_rule_does_not_reach_other_paths(tmp_path):
     for rel in ("Build/reference/other/Doc.md", "Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", "Build/worlds/syr/Doc_01.md", "engine/x.md"):
         cats = [h.category for h in _hits_for("The reviewer reads it at the era gate.\n", tmp_path, rel)]
         assert set(cats) & _BLOCKING, rel
+
+
+def test_source_registry_table_row_dates_keep_whatever_the_cell_shape(tmp_path):
+    text = (
+        "# Source Registry\n"
+        "\n"
+        "| Row | Title | Added | Discovery |\n"
+        "| 3 | Some Work | 2026-09-29 by the Library thread after the vendoring pass | found by catalogue search on 2026-09-28 (Doc_02 pass) |\n"
+    )
+    for name in ("Source_Registry.md", "jes_Source_Registry_V2.md"):
+        hits = _hits_for(text, tmp_path, f"Build/worlds/jes/{name}")
+        assert {h.line: h.category for h in hits}.get(4, "KEEP") == "KEEP"
+
+
+def test_source_registry_exemption_is_iso_date_only_and_row_only(tmp_path):
+    prose = "The row was rewritten on 2026-09-29 after review.\n"
+    assert _hits_for(prose, tmp_path, "Build/worlds/jes/Source_Registry.md")[0].category == "REWRITE"
+    row = "| 3 | Some Work | Round 2 review changed this | 2026-09-29 |\n"
+    other = _hits_for(row, tmp_path, "Build/worlds/jes/Doc_02_Source_Ecology.md")
+    assert other and other[0].category == "REWRITE"

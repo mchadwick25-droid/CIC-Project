@@ -4,7 +4,9 @@ from __future__ import annotations
 import itertools
 import re
 import sys
+import zipfile
 from pathlib import Path
+from xml.etree import ElementTree
 
 import yaml
 
@@ -34,6 +36,30 @@ _ID = re.compile(r'\bid="([^"]*)"')
 _TITLE = re.compile(r'\btitle="([^"]*)"')
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history", re.IGNORECASE)
 _NORM = re.compile(r"\s+")
+_SOFT_HYPHEN = re.compile(r"¬\s*")
+_WORD_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+
+
+def join_soft_hyphens(text: str) -> str:
+    """Scans mark a word broken at a line end with '¬'; the halves are one word."""
+    return _SOFT_HYPHEN.sub("", text)
+
+
+def docx_text(path: Path) -> str:
+    """Plain text of a .docx file: its paragraphs, one per line (zipfile and
+    word/document.xml only)."""
+    with zipfile.ZipFile(path) as z:
+        root = ElementTree.fromstring(z.read("word/document.xml"))
+    lines = []
+    for para in root.iter(f"{_WORD_NS}p"):
+        parts = []
+        for node in para.iter():
+            if node.tag == f"{_WORD_NS}t":
+                parts.append(node.text or "")
+            elif node.tag == f"{_WORD_NS}tab":
+                parts.append(" ")
+        lines.append("".join(parts))
+    return "\n".join(lines)
 
 
 def _squash(text: str) -> str:
@@ -89,7 +115,7 @@ class TextStore:
             if not path.is_file():
                 self._raw[name] = None
             else:
-                raw = strip_edition_apparatus(path.read_text(encoding="utf-8", errors="replace"), name)
+                raw = join_soft_hyphens(strip_edition_apparatus(path.read_text(encoding="utf-8", errors="replace"), name))
                 self._raw[name] = raw
                 self._plain[name] = strip_xml_markup(raw) if path.suffix == ".xml" else raw
         raw = self._raw[name]
@@ -187,6 +213,7 @@ class TextStore:
     def verify_in(self, span: str, text: str) -> bool:
         """Whether the quotation is found word for word inside `text`, a
         division's own text."""
+        text = join_soft_hyphens(text)
         if verify_quote_text(span, text, source_is_xml=False).verified:
             return True
         cleaned = normalize_archaic_letterforms(strip_apparatus(collapse_linewrap_hyphens(text)))[0]
@@ -217,12 +244,18 @@ def _project_texts(code: str, root: Path, slug: str | None = None) -> dict[str, 
         if directory.is_dir():
             files += [p for p in sorted(directory.rglob("*.md")) if not _REVIEWISH.search(p.name) and "Review-Artifacts" not in p.parts]
     files += [p for p in (root / "CLAUDE.md", root / "cic-website" / "data" / "world-census.json") if p.is_file()]
+    reference = root / "Build" / "reference"
+    docx = [p for p in sorted(reference.rglob("*.docx")) if not p.name.startswith("~$")] if reference.is_dir() else []
     out = {}
-    for p in files:
+    for p in files + docx:
         resolved = p.resolve()
         if own in resolved.parents or resolved == dossier:
             continue
-        out[rel(p, root)] = _norm(read_text(p))
+        try:
+            body = docx_text(p) if p.suffix == ".docx" else read_text(p)
+        except (zipfile.BadZipFile, KeyError, ElementTree.ParseError):
+            continue
+        out[rel(p, root)] = _norm(body)
     return out
 
 

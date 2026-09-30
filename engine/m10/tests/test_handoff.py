@@ -232,3 +232,17 @@ def test_01_a_grandfathered_world_without_the_field_is_not_a_handoff_failure(tmp
 
     value, reason = safety_adjacent_status("syr", {"world_id": "x"})
     assert value is None and "grandfathered" in reason
+
+
+def test_cycle_reset_lets_step_two_pass_beyond_three_files(tmp_path):
+    from .fixture_world import review_text
+
+    root = build_world(tmp_path)
+    base = f"Build/worlds/{CODE}/Review-Artifacts"
+    for n in (2, 3, 4, 5):
+        text = review_text(n)
+        if n == 4:
+            text = text.replace("Round:", "Cycle reset: LIBRARY-DECISION-LOG 2026-09-29 ruling\nRound:", 1)
+        write(root, f"{base}/Doc02_Round{n}_Review.md", text)
+    reports = {r.name: r for r in run_handoff(CODE, quiet_deps(root))}
+    assert reports["handoff-04-step2"].findings == []

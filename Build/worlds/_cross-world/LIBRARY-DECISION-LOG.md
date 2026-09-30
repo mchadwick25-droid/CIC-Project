@@ -13,6 +13,30 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-30 — Step 0-2 process and gate fixes, 2026-09-30
+
+**Instruction.** The project lead ordered: "also apply fixes to the step 0 - 2
+build process so we have what we need for future builds." The jes and hus
+builds exposed the gaps.
+
+**Gate (engine/m10, tools).** The quote store joins line-end `¬` hyphenation in
+the Institutum scans before matching. The project-document pool includes plain
+text of the `.docx` files under `Build/reference` (the Constitution and the
+Framework), so Article 4 and Framework quotations count as project-document
+quotations. A review file may carry a `Cycle reset` header field; the
+three-round cap counts from the latest file that carries it (the 2026-09-29
+ruling), and every file stays on record. `check_live_commentary.py` treats ISO
+dates in table rows of `*Source_Registry*.md` files as schema data.
+
+**Process and templates.** Process V2.0 Section 4 gains the Library-stage
+rules and completion checklist (registry entry timing, review-file naming and
+filing, quotations, dossier, Registry row rules, Doc_02 checks, manifest,
+shared working tree) and Section 12 records the change order. The handoff
+items 1 and 12, the review-file header template and the Launch Prompt V2.0
+follow.
+
+---
+
 ## 2026-09-30 — Foxe vol. III and Van Braght placed to the Hussite world
 
 **Ruling.** The project lead approved the two cross-world placements the hus build requested (Open_Gaps E1, E2) and said the Library should make placements of this kind itself, escalating to him only for a significant problem. Foxe's *Acts and Monuments* vol. III (Hus section, file lines 30742–46807) is placed to `the-hussite-and-bohemian-brethren-movement` as `role: context`, alongside its Lollardy placement. Van Braght's *Martyrs' Mirror* (Hus and Taborite sections, lines 47370–47660) is placed there as `role: context`, `confidence: provisional`, alongside its Anabaptist placement. The hus Registry gains rows for them in the hus thread's next revision; Doc_02 relies on neither yet.

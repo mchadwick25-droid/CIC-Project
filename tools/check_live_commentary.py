@@ -362,56 +362,19 @@ _BARE_DATE_HEADER_LINE = re.compile(
 # match - only a bare, quote-wrapped date and nothing else as the value.
 _STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d-\d\d-\d\d[\"']")
 
-# A markdown table row (2+ `|` cells) whose every ISO-date occurrence sits
-# inside its own cell that is otherwise just a short provenance fragment -
-# a bare date, or a short channel/label phrase plus a date ("web search,
-# 2026-07-14", "Added 2026-07-14") - never a longer narrative sentence.
-# Same reasoning as `_BARE_DATE_LINE`/`_BARE_DATE_HEADER_LINE` (a
-# structured-data date, not a date embedded in prose), extended from "the
-# whole line is bare" to "this one table column is bare," since a
-# Source_Registry.md row packs many such columns (row #, title, confidence,
-# Added, Discovery channel/date, ...) onto one physical line together with
-# citations and prose that legitimately still get scanned.
-#
-# Deliberately scoped to a `*Source_Registry.md`-named file only, not any
-# markdown table anywhere - confirmed live that a structurally identical
-# short "channel, date" table cell is NOT always fine to leave alone:
-# `Build/worlds/_cross-world/DOWNLOAD-QUEUE.md`'s own last column ("direct
-# WebSearch verification, 2026-09-02") is hand-labelled REWRITE, since
-# that file tracks a proactive, still-changing verification pass rather
-# than Source_Registry.md's own permanent, never-revised "when this source
-# was first vendored" record - the same distinction between a source
-# record's own permanent `discovery_channel` field and a status field that
-# can go stale. Confirmed live: witt/lpc/don/cappadocian's own "Added"/
-# "Discovery channel/date" columns account for the large majority of each
-# file's remaining iso-date hits before this exemption; a genuinely
-# narrative table cell (e.g. Doc_03's own multi-hundred-word evidentiary
-# cells) is never this short, so it is never wrongly swept in by this
-# check even within a Source_Registry.md file itself.
-# Handles both cell orderings found live: "label, then date" (witt's own
-# "web search, 2026-07-14") and "date, then label" (lpc/don's own "Added"
-# column: "2026-09-01, `lpc` build thread"; cappadocian's "2026-08-31,
-# build thread") - the earlier version only allowed a trailing bare comma
-# after the date, so it could never match the date-first convention at
-# all, leaving lpc/don/cappadocian's own "Added" columns flagged even
-# though they're the identical structured-provenance shape witt's own
-# column already gets exempted for.
-_BARE_DATE_TABLE_CELL = re.compile(
-    r"^(?:[\w][\w .,'()`/-]{0,39})?,?\s*20\d\d-\d\d-\d\d\s*(?:,\s*[\w .,'()`/-]{0,59})?$"
-)
-_SOURCE_REGISTRY_FILENAME = re.compile(r"(?i)(^|_)source_registry\.md$")
+# ISO dates in the table rows of a `*Source_Registry*.md` file are schema
+# data, not narration (the template's 'Added' and 'Discovery' columns).
+# Scoped to that filename pattern and to the iso-date cue only.
+_SOURCE_REGISTRY_FILENAME = re.compile(r"(?i)source_registry[^/]*\.md$")
 
 
 def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool) -> bool:
+    """An ISO date in a table row of a *Source_Registry*.md file is schema data:
+    the Source Registry template requires the 'Added' and 'Discovery' columns
+    to carry ISO dates (Framework V7.4 Step 2). Applies to iso-date only."""
     if not in_source_registry_file or line.count("|") < 2:
         return False
-    found_any_date = False
-    for cell in line.split("|"):
-        if re.search(r"20\d\d-\d\d-\d\d", cell):
-            found_any_date = True
-            if not _BARE_DATE_TABLE_CELL.match(cell.strip()):
-                return False
-    return found_any_date
+    return True
 
 # Cues that mark a line as an open defect or open question rather than a
 # decided, still-true fact - ROUTE, whether or not the line also carries one

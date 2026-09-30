@@ -9,7 +9,7 @@ from datetime import date
 from pathlib import Path
 
 from .common import PLACEHOLDER, REPO_ROOT, Finding, markdown_tables, read_text, rel, world_dir
-from .rounds import ROUND_CAP, review_files
+from .rounds import ROUND_CAP, cycle_rounds, review_files
 from .verdicts import CLEARED, verdict_word
 
 CHECK_ID = "handoff-declaration"
@@ -64,7 +64,7 @@ def current_state(code: str, doc: int, root: Path = REPO_ROOT) -> State:
     if not found:
         return State(0, 0, 0, "none")
     latest = max(found)
-    return State(sum(len(v) for v in found.values()), len(found), latest, verdict_word(found[latest]))
+    return State(sum(len(v) for v in found.values()), len(cycle_rounds(found)), latest, verdict_word(found[latest]))
 
 
 @dataclass(frozen=True)

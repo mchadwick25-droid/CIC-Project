@@ -17,7 +17,7 @@ from .gaps import LEDGER_NAME
 from .matching import matched, split_chunks
 from .quotes import check_quotes
 from .rebaseline import CHECK_ID, Declaration, accepted_reason, declaration_path, doc_label, document_path, load_declaration
-from .rounds import ROUND_CAP, review_files
+from .rounds import ROUND_CAP, cycle_rounds, review_files
 from .verdicts import has_clearance
 
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history|superseded", re.IGNORECASE)
@@ -192,8 +192,9 @@ def _check_step(w: World, step: int, docs: dict[int, Path | None], check_id: str
     if not reviews:
         out.append(Finding(rel(doc, w.root), check_id, f"{label} has no review-round file"))
         return out
-    if len(reviews) > ROUND_CAP:
-        out.append(Finding(rel(doc, w.root), check_id, f"{label} took {len(reviews)} review rounds; the cap is {ROUND_CAP}"))
+    counted = cycle_rounds(reviews)
+    if len(counted) > ROUND_CAP:
+        out.append(Finding(rel(doc, w.root), check_id, f"{label} took {len(counted)} review rounds; the cap is {ROUND_CAP}"))
     latest = reviews[max(reviews)]
     if not has_clearance(latest):
         out.append(Finding(rel(latest[0], w.root), check_id, f"latest review round {max(reviews)} of {label} does not say 'Approved to proceed'"))
