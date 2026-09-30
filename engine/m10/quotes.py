@@ -184,6 +184,22 @@ class TextStore:
         pieces = [u["text"] for u in self._units(name) if u["locus"] == locus or " ".join(u.get("title", "").lower().split()) == wanted]
         return "\n".join(pieces) if pieces else None
 
+    def valid_loci(self, name: str) -> tuple[list[str], bool]:
+        """(loci, plain_text): every locus of file `name` that `locus_text`
+        accepts, in file order, and whether the file is plain text, where a
+        locus is `line<N>`."""
+        loaded = self._load(name)
+        if loaded is None:
+            return [], False
+        marks = [m.group("attrs") for m in _DIV_OPEN.finditer(loaded[0])]
+        if marks:
+            found = []
+            for attrs in marks:
+                ident, title = _ID.search(attrs), _TITLE.search(attrs)
+                found.append(ident.group(1) if ident else title.group(1) if title else "")
+            return list(dict.fromkeys(x for x in found if x)), False
+        return list(dict.fromkeys(u["locus"] for u in self._units(name))), True
+
     def verify_in(self, span: str, text: str) -> bool:
         """Whether the quotation is found word for word inside `text`, a
         division's own text."""
@@ -239,6 +255,19 @@ def _speaker_tokens(value: str) -> set[str]:
     return {t for t in re.split(r"[^a-z]+", str(value).lower()) if len(t) > 3}
 
 
+LOCI_SHOWN = 10
+
+
+def _loci_hint(store: TextStore, name: str) -> str:
+    loci, plain = store.valid_loci(name)
+    if not loci:
+        return ""
+    shown = ", ".join(loci[:LOCI_SHOWN])
+    more = f", first {LOCI_SHOWN} shown" if len(loci) > LOCI_SHOWN else ""
+    kind = "; plain-text loci are line<N>, the line number corpus_index prints for the passage" if plain else ""
+    return f"{kind}; valid loci: {shown} ({len(loci)} in all{more})"
+
+
 def confirm_locus(store: TextStore, span: str, paragraph: str) -> tuple[bool | None, list[Finding]]:
     """(confirmed, problems) for a quotation whose paragraph cites canonical
     addresses (cic:<file>:<locus>). The quotation must sit inside the division
@@ -251,7 +280,7 @@ def confirm_locus(store: TextStore, span: str, paragraph: str) -> tuple[bool | N
     for name, locus in dict.fromkeys(addresses):
         text = store.locus_text(name, locus)
         if text is None:
-            problems.append(Finding("", "quotes-locus-unknown", f"cic:{name}:{locus} does not name a division of {name}"))
+            problems.append(Finding("", "quotes-locus-unknown", f"cic:{name}:{locus} does not name a division of {name}{_loci_hint(store, name)}"))
         elif store.verify_in(span, text):
             return True, []
         else:

@@ -50,7 +50,7 @@ def build_world(root: Path) -> Path:
     write(
         root,
         f"cic/corpus-map/{SLUG}.yaml",
-        f"atlas_id: {SLUG}\nworks:\n- work: Test Volume Letters\n  author: test_author\n  locus: div1\n  role: tradition\n  confidence: assigned\n  source_file: {TEXT_FILE}\n",
+        f"atlas_id: {SLUG}\nworks:\n- row_id: {SLUG}--test-volume-letters\n  work: Test Volume Letters\n  author: test_author\n  locus: div1\n  role: tradition\n  confidence: assigned\n  source_file: {TEXT_FILE}\n",
     )
     base = f"Build/worlds/{CODE}"
     write(root, f"{base}/Step0_Movement_Scope_Confirmation.md", "# Step 0\n\nThe movement's status in world-census.json was checked.\n")

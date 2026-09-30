@@ -34,7 +34,6 @@ DEFAULT_BASES = ("origin/main", "main", "HEAD")
 FRONT_TYPES = ("world_front", "facilitator_brief")
 FRONT_PROSE_KEYS = frozenset({"text", "teaser", "note", "hedge"})
 FRONT_PROSE_LISTS = frozenset({"cautions"})
-SITE_DATA_DIR = REPO_ROOT / "cic-website" / "data" / "worlds"
 
 
 @dataclass(frozen=True)
@@ -171,7 +170,8 @@ def compare_world(head: dict[str, dict], base: dict[str, dict], changed_paths: s
     for f in public_fields(base):
         base_texts.setdefault(f.rid, set()).add(f.text)
     fields = public_fields(head)
-    graded = edited = carried_over = below_floor = 0
+    graded = edited = below_floor = 0
+    carried_over: list[str] = []
     for item in fields:
         if gates.grade_text(item.text) is not None:
             graded += 1
@@ -184,7 +184,7 @@ def compare_world(head: dict[str, dict], base: dict[str, dict], changed_paths: s
             for reason in reasons:
                 findings.append(Finding(item.path or item.rid, "readability", f"{item.rid}: {item.label}: {reason}"))
         elif reasons:
-            carried_over += 1
+            carried_over.append(f"{item.rid}: {item.label}: {'; '.join(reasons)}: not a regression, already failed at the base and unchanged")
     for rid, rec in sorted(head.items()):
         if rec.get("record_type") != "voice_craft":
             continue
@@ -196,8 +196,7 @@ def compare_world(head: dict[str, dict], base: dict[str, dict], changed_paths: s
     ]
     if below_floor:
         notes.append(f"{below_floor} edited field(s) below FK {gates.FK_FLOOR} (reported, not failed)")
-    if carried_over:
-        notes.append(f"{carried_over} unchanged field(s) already failed at the base; not a regression")
+    notes.extend(carried_over)
     return findings, notes
 
 
@@ -213,7 +212,7 @@ def run_regate(code: str, base: str | None = None, root: Path = REPO_ROOT) -> Re
     except (ValueError, subprocess.CalledProcessError) as exc:
         report.findings.append(Finding(f"records/{code}", "base", str(exc)))
         return report
-    findings, notes = compare_world(load_world_records(code), before, changed)
+    findings, notes = compare_world(load_world_records(code, records_root=root / "records"), before, changed)
     report.findings.extend(findings)
     report.findings.extend(new_world_waiver_findings(code))
     report.notes.extend([f"{len(changed)} record file(s) changed since {merge_base[:10]}", *notes])
@@ -260,7 +259,7 @@ def run_records(code: str, root: Path = REPO_ROOT, *, freeze: bool = False) -> R
     if entry is None:
         report.findings.append(Finding(f"records/worlds/{code}.yaml", "registry", "no registry entry for this world code"))
         return report
-    records = load_world_records(code)
+    records = load_world_records(code, records_root=root / "records")
     present = {r.get("record_type") for r in records.values()}
     grandfathered = code in GRANDFATHERED_WORLDS
     waivers = set(required_type_waivers(code))
@@ -279,7 +278,7 @@ def run_records(code: str, root: Path = REPO_ROOT, *, freeze: bool = False) -> R
             if record_type not in present:
                 missing(f"required-record-type/{code}/{record_type}", f"no {record_type} record")
         census_id = entry.get("census_id")
-        site_json = SITE_DATA_DIR / f"{census_id}.json" if census_id else None
+        site_json = root / "cic-website" / "data" / "worlds" / f"{census_id}.json" if census_id else None
         if site_json is None or not site_json.is_file():
             missing(f"required-site-json/{code}", f"no compiled site JSON at cic-website/data/worlds/{census_id or '<no census_id>'}.json")
     else:
@@ -300,13 +299,15 @@ def add_parser(subparsers) -> None:
     p.add_argument("world_code")
     p.add_argument("--freeze", action="store_true", help="require the record types and site JSON whatever the world's state")
     p.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
+    p.add_argument("--root", type=Path, default=REPO_ROOT, help="repository root to check (default: this repository)")
     p = subparsers.add_parser("regate", help="readability and the voice-craft budget on every new or edited public-facing field since the base ref")
     p.add_argument("world_code")
     p.add_argument("--base", default=None, help="git ref to compare against (default: origin/main, then main, then HEAD)")
     p.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
+    p.add_argument("--root", type=Path, default=REPO_ROOT, help="repository root to check (default: this repository)")
 
 
 def run(args) -> int:
     if args.command == "records":
-        return emit([run_records(args.world_code, freeze=args.freeze)], as_json=args.json)
-    return emit([run_regate(args.world_code, args.base)], as_json=args.json)
+        return emit([run_records(args.world_code, args.root, freeze=args.freeze)], as_json=args.json)
+    return emit([run_regate(args.world_code, args.base, args.root)], as_json=args.json)

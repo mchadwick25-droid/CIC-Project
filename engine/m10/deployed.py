@@ -6,7 +6,8 @@
   citations  every record id and cic/texts path a document names resolves,
              and is the right record type for how it is cited
   probes     the probe runner tests only packages/<code>/<pin>/compiled/
-             prompt.txt, and every saved probe-results file names its pin
+             prompt.txt; every saved probe-results file names its pin, and
+             every tested artifact path it names passes that guard
 
 The one artifact ever tested is the compiled prompt. assert_compiled_target
 refuses everything else.
@@ -70,26 +71,40 @@ class ProbeTargetRefused(PackageRefused):
     """A probe or live run was pointed at something other than a compiled prompt."""
 
 
-def assert_compiled_target(path) -> Path:
+def assert_compiled_target(path, root: Path | None = None) -> Path:
     """Return the resolved path when it is a compiled package prompt; raise
     ProbeTargetRefused for a legacy Permanent Prompt or Capsule file, for
-    anything under Build/ or Archive/, and for any other shape. Inside the
-    repository only <code>/<pin>/compiled/prompt.txt under a directory named
-    packages is accepted: packages/ itself, or a package cache kept there."""
+    anything under Build/ or Archive/, and for any other shape. Only
+    packages/<code>/<pin>/compiled/prompt.txt is accepted. Inside the
+    repository the path is under a directory named packages (packages/ itself,
+    or a package cache kept there). Outside it, the pin directory must also
+    hold a manifest.json beside compiled/."""
+    root = (root or REPO_ROOT).resolve()
     target = Path(path).resolve()
     if _LEGACY_NAME.search(str(target.name)) or any(_LEGACY_NAME.search(part) for part in target.parts[-4:]):
         raise ProbeTargetRefused(f"{target}: a legacy prompt or capsule file is never a test target")
     if target.name != "prompt.txt" or target.parent.name != "compiled":
         raise ProbeTargetRefused(f"{target}: not a compiled/prompt.txt")
     try:
-        inside = target.relative_to(REPO_ROOT).parts
+        inside = target.relative_to(root).parts
     except ValueError:
+        if not (len(target.parts) >= 5 and target.parts[-5] == "packages"):
+            raise ProbeTargetRefused(f"{target}: only <code>/<pin>/compiled/prompt.txt under packages/ is a test target") from None
+        if not (target.parent.parent / "manifest.json").is_file():
+            raise ProbeTargetRefused(f"{target}: outside the repository a test target needs the pin's manifest.json beside compiled/") from None
         return target
     if any(part in _LEGACY_TREES for part in inside):
         raise ProbeTargetRefused(f"{target}: files under {next(p for p in inside if p in _LEGACY_TREES)}/ are never a test target")
     if not (len(inside) >= 5 and inside[-5] == "packages"):
         raise ProbeTargetRefused(f"{target}: only <code>/<pin>/compiled/prompt.txt under packages/ is a test target")
     return target
+
+
+def repin_command(code: str) -> str:
+    return (
+        f"repin: run `python -m engine.m2.cli build {code}`, copy the manifest_hash and location it prints into the package: block "
+        f"of records/worlds/{code}.yaml, then run `deployed {code}` and `integrity {code}`"
+    )
 
 
 # ---- records and package access ------------------------------------------------------------------
@@ -155,7 +170,7 @@ def recompile_pinned(code: str, package_dir: Path) -> dict[str, bytes]:
     )
 
 
-def _prompt_text(code: str, package_dir: Path, pin_path: str) -> tuple[str | None, str, list[Finding]]:
+def _prompt_text(code: str, package_dir: Path, pin_path: str, root: Path = REPO_ROOT) -> tuple[str | None, str, list[Finding]]:
     """The pinned package's prompt text and where it came from. The compiled
     bytes are not committed, so a missing file is recompiled in memory from
     the pin's own manifest."""
@@ -165,7 +180,7 @@ def _prompt_text(code: str, package_dir: Path, pin_path: str) -> tuple[str | Non
     prompt_path = package_dir / "compiled" / "prompt.txt"
     manifest = json.loads(manifest_path.read_bytes())
     if prompt_path.is_file():
-        assert_compiled_target(prompt_path)
+        assert_compiled_target(prompt_path, root)
         payload = prompt_path.read_bytes()
         expected = (manifest.get("files") or {}).get("compiled/prompt.txt")
         found = []
@@ -183,7 +198,7 @@ def staleness_findings(code: str, entry: dict, root: Path, pin_path: str) -> tup
     result = staleness_sweep({code: entry}, repo_root=root).get(code) or {}
     if result.get("stale"):
         detail = result.get("reason") or "differs from records: " + ", ".join(result.get("diff") or [])
-        return [Finding(pin_path, "k:stale", f"the pinned package is stale versus records ({detail})")], []
+        return [Finding(pin_path, "k:stale", f"the pinned package is stale versus records ({detail}); {repin_command(code)}")], []
     return [], []
 
 
@@ -224,6 +239,10 @@ def _grandfathered() -> frozenset[str]:
     return GRANDFATHERED_WORLDS
 
 
+def _voice_craft_home(code: str, craft: dict | None) -> str:
+    return (craft or {}).get("_path") or f"records/{code}/voice_craft/"
+
+
 def check_source_anchor(code: str, prompt: str, records: dict[str, dict], where: str) -> tuple[list[Finding], list[str]]:
     """The approved-source anchoring paragraph: voice_craft.source_anchor is
     set, it stands as its own section of the compiled prompt, and it is drawn
@@ -236,8 +255,10 @@ def check_source_anchor(code: str, prompt: str, records: dict[str, dict], where:
     notes: list[str] = []
     craft = next(iter(_by_type(records, "voice_craft")), None)
     anchor = (craft or {}).get("source_anchor")
+    home = _voice_craft_home(code, craft)
+    author_in = f"author it in the voice_craft record's source_anchor and source_anchor_entries fields ({home})"
     if not (isinstance(anchor, str) and anchor.strip()):
-        reason = "voice_craft has no source_anchor, so the compiled prompt carries no approved-source anchoring paragraph"
+        reason = f"voice_craft has no source_anchor, so the compiled prompt carries no approved-source anchoring paragraph; {author_in}, then repin"
         if code in _grandfathered():
             notes.append(f"source_anchor: {reason} (grandfathered world)")
         else:
@@ -245,15 +266,15 @@ def check_source_anchor(code: str, prompt: str, records: dict[str, dict], where:
         return findings, notes
     section = _section(prompt, SOURCE_ANCHOR_HEADER)
     if section is None or _norm(section) != _norm(anchor):
-        findings.append(Finding(where, "k:source-anchor", f"voice_craft.source_anchor is in the records but the compiled prompt has no '{SOURCE_ANCHOR_HEADER}' section holding it verbatim"))
+        findings.append(Finding(where, "k:source-anchor", f"voice_craft.source_anchor is in the records but the compiled prompt has no '{SOURCE_ANCHOR_HEADER}' section holding it verbatim; the pinned package predates the paragraph or does not carry it; {repin_command(code)}"))
     entries = [e for e in (craft.get("source_anchor_entries") or []) if isinstance(e, str) and e.strip()]
     low, high = SOURCE_ANCHOR_BOUNDS
     distinct = {_norm(e) for e in entries}
     if not low <= len(distinct) <= high:
-        findings.append(Finding(where, "k:source-anchor-entries", f"source_anchor_entries names {len(distinct)} distinct entries; the anchoring paragraph is drawn from {low} to {high} Native Source Registry entries"))
+        findings.append(Finding(where, "k:source-anchor-entries", f"source_anchor_entries names {len(distinct)} distinct entries; the anchoring paragraph is drawn from {low} to {high} Native Source Registry entries; edit source_anchor_entries in the voice_craft record ({home}), then repin"))
     for entry in entries:
         if _norm(entry) not in _norm(anchor):
-            findings.append(Finding(where, "k:source-anchor-entries", f"entry {entry!r} is not named in source_anchor"))
+            findings.append(Finding(where, "k:source-anchor-entries", f"entry {entry!r} is not named in source_anchor; edit source_anchor or source_anchor_entries in the voice_craft record ({home}) so they agree, then repin"))
     return findings, notes
 
 
@@ -286,14 +307,16 @@ def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry
         notes.extend(anchor_notes)
 
     bullet = next((ln for ln in prompt.splitlines() if ln.lstrip().startswith("- [self-reference]")), None)
+    home = _voice_craft_home(code, next(iter(_by_type(records, "voice_craft")), None))
+    block = f"the [self-reference] note is compiled from the voice_craft record's flavor_notes entry with segment 'self-reference' ({home})"
     if fixture:
         notes.append("self-reference: the registry marks this world kind: fixture; its voice adds no rules by design (exempt)")
     elif bullet is None:
-        findings.append(Finding(where, "k:self-reference", "the compiled prompt has no [self-reference] note"))
+        findings.append(Finding(where, "k:self-reference", f"the compiled prompt has no [self-reference] note; {block}, so author the entry there, then repin"))
     else:
         for label, pattern in SELF_REFERENCE_STEMS:
             if not pattern.search(bullet):
-                findings.append(Finding(where, "k:self-reference", f"the [self-reference] note lacks the hardening rule: {label}"))
+                findings.append(Finding(where, "k:self-reference", f"the [self-reference] note lacks the hardening rule: {label}; {block}, so add the rule to that entry, then repin"))
 
     for section_header, record_type in (("Quotes we hold", "quote"), ("Gravities", "gravity")):
         actual = {r["id"] for r in _by_type(records, record_type)}
@@ -333,7 +356,7 @@ def check_deployed(code: str, root: Path = REPO_ROOT, *, check_stale: bool = Tru
     if not records:
         report.findings.append(Finding(f"records/{code}", "k:no-records", "no records found for this world"))
         return report
-    prompt, source, problems = _prompt_text(code, package_dir, pin_path)
+    prompt, source, problems = _prompt_text(code, package_dir, pin_path, root)
     report.findings.extend(problems)
     if prompt is not None:
         report.notes.append(f"pin {pin}: prompt {source}")
@@ -487,6 +510,25 @@ def pin_not_current(text: str, where: str, current: str | None, check: str) -> l
     return []
 
 
+_ARTIFACT_FILE = re.compile(r"[\w.\-/]+\.(?:txt|md|json|yaml)")
+
+
+def tested_artifact_paths(text: str) -> list[str]:
+    """The file paths named on the `Tested artifact` line or lines."""
+    return [path for line in _TESTED_ARTIFACT.findall(text) for path in _ARTIFACT_FILE.findall(re.sub(r"(?i)tested artifact", "", line, count=1))]
+
+
+def guard_findings(text: str, where: str, root: Path) -> list[Finding]:
+    """A finding for every tested artifact path the compiled-target guard refuses."""
+    out: list[Finding] = []
+    for candidate in tested_artifact_paths(text):
+        try:
+            assert_compiled_target(root / candidate, root)
+        except ProbeTargetRefused as exc:
+            out.append(Finding(where, "l:guard-refuses", f"tested artifact {candidate}: {exc}"))
+    return out
+
+
 def check_probe_pins(code: str, root: Path = REPO_ROOT) -> Report:
     report = Report("probes")
     package_root = root / "packages" / code
@@ -498,6 +540,7 @@ def check_probe_pins(code: str, root: Path = REPO_ROOT) -> Report:
         report.notes.append("no saved probe-results files for this world")
     for path in files:
         where = rel(path, root)
+        report.findings.extend(guard_findings(read_text(path), where, root))
         cited = set(PIN_RE.findall(read_text(path)))
         if not cited:
             report.findings.append(Finding(where, "l:pin-missing", "the probe-results file does not name the compiled prompt pin it tested"))
@@ -519,7 +562,7 @@ def runner_dry_run(code: str, root: Path = REPO_ROOT) -> Report:
     legacy = sorted(p for p in base.rglob("*") if p.is_file() and _LEGACY_NAME.search(p.name)) if base.is_dir() else []
     for path in legacy:
         try:
-            assert_compiled_target(path)
+            assert_compiled_target(path, root)
         except ProbeTargetRefused:
             continue
         report.findings.append(Finding(rel(path, root), "l:guard-accepts-legacy", "the guard accepted a legacy prompt or capsule file"))
@@ -528,13 +571,13 @@ def runner_dry_run(code: str, root: Path = REPO_ROOT) -> Report:
     if resolved:
         target = resolved[1] / "compiled" / "prompt.txt"
         try:
-            assert_compiled_target(target)
+            assert_compiled_target(target, root)
         except ProbeTargetRefused as exc:
             report.findings.append(Finding(rel(target, root), "l:guard-refuses-compiled", str(exc)))
     from engine.m4.world_loader import LazyWorldLoader
 
     try:
-        LazyWorldLoader().load(code, package_dir=REPO_ROOT / "Build" / "worlds" / code, expected_manifest_hash="sha256:0")
+        LazyWorldLoader().load(code, package_dir=root / "Build" / "worlds" / code, expected_manifest_hash="sha256:0")
     except ProbeTargetRefused:
         pass
     except Exception as exc:
@@ -547,40 +590,41 @@ def runner_dry_run(code: str, root: Path = REPO_ROOT) -> Report:
 # ---- command line --------------------------------------------------------------------------------
 
 
-def _json_flag(parser) -> None:
+def _common_flags(parser) -> None:
     parser.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
+    parser.add_argument("--root", type=Path, default=REPO_ROOT, help="repository root to check (default: this repository)")
 
 
 def add_parser(subparsers) -> None:
     p = subparsers.add_parser("deployed", help="the compiled prompt carries every confirmed item, rule counts match the records, the pin is not stale")
     p.add_argument("world_code")
     p.add_argument("--no-stale", action="store_true", help="skip the staleness recompile")
-    _json_flag(p)
+    _common_flags(p)
 
     p = subparsers.add_parser("citations", help="every record id and cic/texts path in the named files resolves and has the right type")
     p.add_argument("world_code")
     p.add_argument("files", nargs="*", help="files to check (default: the world's build documents and every probe-results file)")
-    _json_flag(p)
+    _common_flags(p)
 
     p = subparsers.add_parser("probes", help="the runner tests only compiled/prompt.txt; every saved probe-results file names its pin")
     p.add_argument("world_code")
     p.add_argument("--runner-dry-run", action="store_true", help="also exercise the guard and the loader against legacy paths")
-    _json_flag(p)
+    _common_flags(p)
 
 
 def run(args) -> int:
-    code = args.world_code
+    code, root = args.world_code, args.root
     if args.command == "deployed":
-        reports = [check_deployed(code, check_stale=not args.no_stale)]
+        reports = [check_deployed(code, root, check_stale=not args.no_stale)]
     elif args.command == "citations":
-        files = [Path(f) if Path(f).is_absolute() else Path.cwd() / f for f in args.files] or citation_files(code)
-        reports = [check_citations(code, files) if files else Report("citations", [Finding(f"Build/worlds/{code}", "d:no-documents", "no build documents or probe-results files to check")])]
+        files = [Path(f) if Path(f).is_absolute() else Path.cwd() / f for f in args.files] or citation_files(code, root)
+        reports = [check_citations(code, files, root) if files else Report("citations", [Finding(f"Build/worlds/{code}", "d:no-documents", "no build documents or probe-results files to check")])]
     elif args.command == "probes":
         from .validation import check_result_labels
 
-        reports = [check_probe_pins(code), check_result_labels(probe_result_files(code))]
+        reports = [check_probe_pins(code, root), check_result_labels(probe_result_files(code, root), root)]
         if args.runner_dry_run:
-            reports.append(runner_dry_run(code))
+            reports.append(runner_dry_run(code, root))
     else:
         raise SystemExit(f"unknown subcommand {args.command!r}")
     return emit(reports, as_json=args.json)

@@ -154,3 +154,24 @@ def test_a_quotation_with_no_address_cited_is_counted_not_failed(tmp_path):
     root = _letters_world(tmp_path)
     findings, notes = _run(root, f'See `cic/texts/{LETTERS}`: "{SECOND}"\n')
     assert findings == [] and "1 found in a file with no address" in notes[1]
+
+
+def test_an_unknown_xml_locus_lists_the_files_valid_loci(tmp_path):
+    root = _letters_world(tmp_path)
+    (finding,) = _cite(root, "iii")[0]
+    assert "valid loci: i, ii, ii.a (3 in all)" in finding.reason and "line<N>" not in finding.reason
+
+
+def test_an_unknown_locus_lists_only_the_first_ten_with_a_count(tmp_path):
+    root = _letters_world(tmp_path)
+    divisions = "".join(f'<div1 id="d{n}" title="Division {n}"><p>{SECOND}.</p></div1>\n' for n in range(1, 16))
+    write(root, f"cic/texts/{LETTERS}", divisions)
+    (finding,) = _cite(root, "iii")[0]
+    assert "valid loci: d1, d2, d3, d4, d5, d6, d7, d8, d9, d10 (15 in all, first 10 shown)" in finding.reason
+
+
+def test_an_unknown_locus_in_a_plain_text_file_says_plain_text_loci_are_line_numbers(tmp_path):
+    root = build_world(tmp_path)
+    (finding,) = _run(root, f'The letter at `cic:{TEXT_FILE}:div1` says "{QUOTE}".\n')[0]
+    assert finding.check == "quotes-locus-unknown"
+    assert "plain-text loci are line<N>" in finding.reason and "valid loci: line1" in finding.reason

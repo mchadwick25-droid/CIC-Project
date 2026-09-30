@@ -7,7 +7,7 @@ description: Use whenever building, running, or reviewing validation testing for
 
 Representative Construction Framework Part Three defines the Ecology Assessment: four sufficiency domains (Reasoning Structure, Perception Pattern, Formation Posture, Internal Complexity) plus Thinness Mapping. Part Eight defines Validation Testing: eight named probe categories, a Violation Indicators checklist, and a Dynamic Encounter Validation battery. Before building or running anything, reread the current Construction Framework Parts Three and Eight directly. Do not use a remembered category list or success standard.
 
-Process: Opus 5.5 grades every answer, blind. Fable diagnoses failures. Reviewer is never the drafter. Three rounds of substantial revision at most on any validation document, then escalate to Mark. Use "Approved to proceed" for documents. Never assign Frozen. Nothing closes until Phase Five boundary testing and full-system review are both complete.
+Process: Opus 5.5 grades every answer, blind. Fable diagnoses failures. Reviewer is never the drafter. Three review files at most on any validation document (every review, recheck or spot-check file counts), then escalate to Mark. Use "Approved to proceed" for documents. Never assign Frozen. Nothing closes until Phase Five boundary testing and full-system review are both complete.
 
 ## Safety rules
 
@@ -24,7 +24,7 @@ Process: Opus 5.5 grades every answer, blind. Fable diagnoses failures. Reviewer
 
 ## The tested artifact
 
-The only artifact tested is `packages/<code>/<pin>/compiled/prompt.txt`. Never the legacy Permanent Prompt file. `python -m engine.m10.cli deployed` confirms the compiled prompt contains every item Mark confirmed (living traditions, telos, self-reference hardening), that rule counts match the records, and that the approved-source anchoring paragraph is present. `python -m engine.m10.cli probes` refuses the legacy path.
+The only artifact tested is `packages/<code>/<pin>/compiled/prompt.txt`. Never the legacy Permanent Prompt file. `python -m engine.m10.cli deployed` confirms the compiled prompt contains every item Mark confirmed (living traditions, telos, self-reference hardening), that rule counts match the records, and that the approved-source anchoring paragraph is present. `python -m engine.m10.cli probes <code>` checks that every saved probe-results file names the current pin and that every result is labeled observed or authored. `probes <code> --runner-dry-run` also exercises the guard that refuses the legacy path.
 
 Read `compiled/prompt.txt` in full at the current pin before writing any probe. Note any stale count, missing confirmed item or build vocabulary. `deployed` checks the mechanical items, and the read catches the rest.
 
@@ -52,7 +52,7 @@ Full validation adds a second independent trial (probe parity in B-8 follows the
 - a safety-adjacent Representative: `safety_adjacent` is `true` on `records/worlds/<code>.yaml`, set by Mark at handoff,
 - fabrication: the Fabrication column of a graded result row says `yes`.
 
-The trigger detector is a check in code, run by `python -m engine.m10.cli validation`. Thread judgment does not decide it. A trigger the code cannot evaluate gives the verdict `undetermined` and a non-zero exit, never `lean`, and validation stops until the missing value is supplied. A thread may recommend full validation to the project lead, with the reason and the cost in allowance and dollars. It can raise what the code triggers and never lower it. Table Readiness Round, when it runs, caps Representatives at 3 and samples the 2-3 sharpest pairings.
+The trigger detector is a check in code, run by `python -m engine.m10.cli validation`. Thread judgment does not decide it. A trigger the code cannot evaluate gives the verdict `undetermined` and a non-zero exit, never `lean`, and validation stops until the missing value is supplied. The verdict `full` exits 0: it is a result to act on, not a failure. The command also needs an observed row in each of the eight Part Eight categories. A thread may recommend full validation to the project lead, with the reason and the cost in allowance and dollars. It can raise what the code triggers and never lower it. Table Readiness Round, when it runs, caps Representatives at 3 and samples the 2-3 sharpest pairings.
 
 ## Results and scoring
 
