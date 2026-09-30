@@ -1,6 +1,6 @@
 Simulated review — informational only, not an Article 31 substitute.
 
-# Doc_02, Source Registry and Open Gaps: Round 1 full review (hus)
+# Doc_02, Source Registry and gap ledger: Round 1 full review (hus)
 
 - **Reviewer model:** claude-opus-5-5
 - **Drafter model:** Sonnet 5.5
