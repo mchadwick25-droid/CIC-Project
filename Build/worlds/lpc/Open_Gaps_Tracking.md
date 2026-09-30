@@ -2039,3 +2039,30 @@ The independent review is `Build/worlds/lpc/Review-Artifacts/Voice_Demonstration
 - H7. `lpc.force.augustine-engagement-cyprian-conciliar-acts`: "Even among full councils of the whole church, he wrote, the earlier ones are often put right by those that come after." The principle is now Augustine's and keeps "the earlier".
 
 **Gates, 2026-09-30, after these fixes.** All 22 registered gates on `lpc`: 0 findings except `readability` (1, the participant turn of `lpc.demo.road-back-examined` at FRE 52.9, already carried by the entry on the B-7 voice record and demonstrations review, 2026-09-30). `quote-verbatim` and `quote-mark-fidelity`: 0. `records lpc`, `regate lpc`, `gaps lpc` and `claims lpc` pass (110 claims derived, 110 registered; no claim sentence changed). `engine/m1/sentence_completeness.py` flags the same three `lpc` sentences as before, none in a changed rendering, and each was already read as whole. `tools/check_live_commentary.py --surface records` shows the same `lpc` hits as before the fixes.
+
+### OG-61. Readability rewrite independent review, 2026-09-30: 15 of 43 fields fixed, one counter defect logged for the engine, one fact figure corrected in the world core.
+
+**Verdict.** The independent Opus check of the readability rewrite (`Review-Artifacts/Readability_Rewrite_Review_2026-09-30.md`, round 1) found 28 fields clear and 15 needing a fix: 2 blocking, 11 substantial, 2 optional. The rewrite map (`Review-Artifacts/Readability_Rewrite_Map_2026-09-30.md`) stays as the historical record of the first rewrite and was not edited.
+
+**Applied, each as the review words it, to the named field only.** Every field was regraded with `engine.m1.gates.grade_text` after the edit. All pass FK 10 and FRE 60.
+- B1. `lpc.gravity.sacramental-ordination-validity` `description`: the Doc_04 relation is restored ("It is reshaped by that concern, not continued in it"), with S6, S7, S8 and the "firmly attested" offset (FK 7.25, FRE 60.41).
+- B2. `lpc.limit.411-gesta-unread` `statement`: one sentence again, "We cannot yet tell you what it would show about how our own bishops ... actually argued authority among themselves" (FK 8.72, FRE 61.35). The unread transcript is no longer described.
+- S1, S2. `lpc.contested.cyprian-death-genre` and `lpc.contested.de-unitate-recensions` `claim`: "evidence" restored for "proof", with the review's offsets (FRE 61.22 and 62.13).
+- S3. `lpc.contested.grace-pelagius-characterization` `claim`: "in modern times" (FRE 60.66).
+- S4. `lpc.force.decian-persecution-libelli-system` `description`: "demanded" restored, with the certificates split (FRE 60.46).
+- S5. `lpc.force.recurring-contest-failed-member` `description`: "ordinary sin after baptism" restored (FRE 61.47).
+- S6. Five gravity `description` fields: "supports" is now "strengthens" for the Doc_04 relation (FRE 60.79, 60.16, 60.54, 60.22, 60.18). The sixth is in B1.
+- S7, S8. In the B1 field.
+- S9. `lpc.gravity.penitential-discipline` `description`: "It holds directly for Cyprian's phase" (FRE 60.22).
+- S10. `lpc.story.the-death-of-cyprian` `tellable_as`: "We remember it as a life fully given, completed" (FRE 61.33).
+- O1. `lpc.witness.confessor-claim-vs-regulated-peace` `text`: "the survivor himself had passed" (FRE 69.59).
+- O2. `lpc.core.latin-pastoral-congregational-christianity` `horizon`: "No single continuous institutional story" and "was valid as a sacrament" (FRE 60.24).
+- Generators updated to emit the same wording where they emit these fields: `wb_lpc_s24.py` (S10), `wb_lpc_s26.py` (S1, S2, S3), `wb_lpc_s28.py` (B2), `wb_lpc_s21.py` (the formation_logic figure below). The gravity, force, witness and horizon fields have no generator and were edited in the records only, as the review confirmed.
+
+**Declined.** None. The review's optional notes without proposed wording (the "more favourably" verb in `lpc.contested.de-unitate-recensions`, the doubled sentence in `lpc.contested.grace-pelagius-characterization`, and N2 to N4) stay open, since each needs room that the FRE 60 floor does not give.
+
+**Counter defect, owner: engine (not fixed here).** `engine/m1/fk.py` `_count_syllables` skips words ending in "e's" in its silent-e rule, so "Augustine" counts 3 syllables and "Augustine's" counts 4. The prose was written around this, and the fix belongs in the counter, not the prose. Once the counter is fixed, the possessive forms can return with no readability cost. Eight phrases carry the workaround: "On Baptism by Augustine argues", "the long, respectful argument of Augustine", "the sermon collection of Augustine", "Letters XXXI and CCXIII by Augustine himself", "the Sermons and Tractates on John by Augustine", "all of On Baptism by Augustine", "the death of Augustine", "The church of Augustine". The engine was not edited in this pass.
+
+**Fact correction, review point P1.** The world core `formation_logic` said "A century and a third later" for Cyprian's ruling of 256 and Augustine's book-length argument. That interval runs from 256 to about 400, the date of On Baptism (Source Registry row 13, Doc_01 section 5 and Doc_05). It is about a century and a half, as `lpc.witness.communion-over-separation` already says. The 133-year figure belongs only to 258 to 391 (the Doc_05 silence). The record and `wb_lpc_s21.py` now read "About a century and a half later", as the earlier correction round did for nine other instances (see the entry on "A century and a third" versus "a century and a half" in this file). To keep the field at FRE 60 after the longer phrase (59.98), one word was swapped, "Underneath" to "Beneath" (FK 7.96, FRE 60.10, meaning unchanged). Other generator strings outside the named fields that still say "a century and a third" (`wb_lpc_s22.py`, `wb_lpc_s24.py`, `wb_lpc_s25.py`, `wb_lpc_s27.py`) were not part of this pass.
+
+**Gates, 2026-09-30.** `records lpc`, `regate lpc`, `gaps lpc` and `claims lpc` pass (110 claims derived, 110 registered; no claim sentence changed). `regate` carries the one prior FRE finding on `lpc.demo.road-back-examined`, unchanged. `tools/check_live_commentary.py --surface records` shows no new `lpc` hits in the edited lines.
