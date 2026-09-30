@@ -286,5 +286,77 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "cappadocian-nicene-pastoral-monastic-tradition": {
+  "story": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/story.mp3",
+   "chars": 7881,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-0.mp3",
+   "chars": 982,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-1.mp3",
+   "chars": 1377,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/docstory-2.mp3",
+   "chars": 1161,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "cappadocian-nicene-pastoral-monastic-tradition/legacy.mp3",
+   "chars": 671,
+   "voiceId": "FIyUTNCZsXy4pNX0KVXy",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1.1,
+   "settings": {
+    "stability": 0.3,
+    "similarity_boost": 0.95,
+    "style": 0.35,
+    "use_speaker_boost": true
+   }
+  }
  }
 }

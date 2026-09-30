@@ -4766,3 +4766,40 @@ Mark's ear.
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Remaining built worlds: Cappadocian, Donatist, Gallic, Hieronymian,
    imperial-juridical, Reformed.
+
+## 2026-09-30 — Eumathios's pieces narrated (Cappadocian world)
+
+**Decision.** The Cappadocian world's story, three documented stories and
+legacy piece are narrated in the voice Mark chose for Eumathios (a warm elder
+at a door with all evening; grave gladness; kind and exact, not a lecturer).
+Mark heard three voices on two pieces, picked the third ("good but a little
+flat"), then heard four settings of it and chose version E (more expression
+and accent), then chose 1.1x from four speeds. The lower-stability, higher-
+similarity settings were chosen by ear; the build's provisional targets
+(stability 0.6, style 0.15) were a starting point only.
+
+**Settings, as printed by the run.** Voice `FIyUTNCZsXy4pNX0KVXy`, model
+`eleven_v4`, stability 0.3, similarity 0.95, style 0.35, speaker boost on,
+speed 1 sent to the API, then a 1.1x pitch-preserving tempo change (ffmpeg),
+128 kbps. The other candidates were `N8jsIhEtPnj3PWFmH8hZ` and
+`L1aJrPa7pLJEyYlh3Ilq`.
+
+**Cost.** Samples 933 (three voices) + 1,751 (four settings, one on v3);
+run 1,610 credits for 12,072 characters. Every request line carried the
+chosen voice and model. The world story went in two parts joined into one file.
+
+**Wired.** `cic-website/audio/worlds/cappadocian-nicene-pastoral-monastic-tradition/`
+and its entry in `manifest.json`; players in the Atlas panel and on the
+tradition page (regenerated for this world only). The Representative is
+Eumathios; the placeholder name Chilo in `tree-narration-voices.mjs` is stale.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear. Whether the ElevenLabs library preview's accent is reproducible
+through the API was not established.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Donatist, Gallic, Hieronymian, imperial-juridical,
+   Reformed.
