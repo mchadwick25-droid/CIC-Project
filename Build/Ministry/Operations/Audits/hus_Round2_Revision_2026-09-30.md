@@ -1,6 +1,6 @@
 # hus, Round 2 revision (revision round 3) of Doc_01, Doc_02, Source_Registry and Open_Gaps_Tracking (2026-09-30)
 
-Drafter: Sonnet 5.5, session `session_019FXuEebrCDmzYe987sNAxL`. Input: `Build/worlds/hus/Review-Artifacts/Round2_Recheck_Review.md` (0 P0, 3 P1, 7 P2). This is the last round the three-round cap allows. No review was run in this pass.
+Drafter: Sonnet 5.5, session `session_019FXuEebrCDmzYe987sNAxL`. Input: `Build/worlds/hus/Review-Artifacts/Doc02_Round2_Review.md` (0 P0, 3 P1, 7 P2). This is the last round the three-round cap allows. No review was run in this pass.
 
 | Finding | Disposition | Where | What was checked |
 |---|---|---|---|

@@ -1,6 +1,6 @@
 # Doc_01 — World Identification, Boundaries, and Orientation: The Hussite and Bohemian Brethren Movement
 
-**Status:** Approved to proceed (Doc_01 only; not Frozen), after independent review (`Review-Artifacts/NewMaterial_Round2_Recheck.md`, clear).
+**Status:** Approved to proceed (Doc_01 only; not Frozen), after independent review (`Review-Artifacts/Doc01_Round5_Review.md`, clear).
 **World file-code:** `hus`. Census reference: Atlas V.6, `cic-website/data/world-census.json`.
 **Governed by:** Construction Framework V7.4 Part I and Step 1; Constitution V2.3 Article 4 (movement scope), Article 21 (Strand Determination), Article 22 (Forces Principle), Article 29 (Living Tradition Status Confirmation); Forces Framework V1.1, Step 1 entry.
 **Grounded in:** `Step0_Movement_Scope_Confirmation.md` (Approved to proceed) and its binding items in §4, and finding R3-m1 of `Step0_Review_Round3.md`. The strand count in §5 rests on the project lead's ruling of 30 September 2026.

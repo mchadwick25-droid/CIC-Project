@@ -6,7 +6,7 @@ Drafting record for the revision of `Build/worlds/hus/Doc_01_World_Identificatio
 
 - Trigger: the Library vendored the material listed in Open_Gaps entry 26 (commit 4e4ba15a1; Foxe vol. III and Van Braght placed to `hus` in commit 46108dd02).
 - The launching instruction says the project lead ruled that the three-round revision cap counts from significant new material, so this opens a fresh cycle. That ruling was relayed to the drafting worker in the instruction. The worker saw no record of it, and it is not attributed to the project lead in any live file. The live files say only that a fresh independent review is needed.
-- The prior cycle ended at Round 3 with both documents approved to proceed (`Review-Artifacts/Round3_Recheck_Review.md`). The status lines of Doc_01, Doc_02 and the Registry now read "in revision, awaiting independent review". `build/hus_Build_State.yaml` records revision cycle 2 with 0 rounds used.
+- The prior cycle ended at Round 3 with both documents approved to proceed (`Review-Artifacts/Doc02_Round3_Review.md`). The status lines of Doc_01, Doc_02 and the Registry now read "in revision, awaiting independent review". `build/hus_Build_State.yaml` records revision cycle 2 with 0 rounds used.
 - The one-world, three-strand ruling of 30 September 2026 was not touched. Only evidence lines inside the strand section were updated.
 - Left open, as instructed: Article 29, the Representative, and the registration of `hus`.
 
@@ -66,7 +66,7 @@ The project lead's ruling that the three-round cap counts from significant new m
 
 ## Revision after Round 1 of the new-material cycle
 
-Drafting record for the fixes to the findings of `Build/worlds/hus/Review-Artifacts/NewMaterial_Round1_Recheck.md` (0 P0, 1 P1, 7 P2). Each touched locus was re-read in `cic/texts/` and each new quotation was matched to it after whitespace normalisation only. No review was written. Article 29, the Representative, the registration of `hus` and the one-world, three-strand ruling were not touched.
+Drafting record for the fixes to the findings of `Build/worlds/hus/Review-Artifacts/Doc02_Round4_Review.md` (0 P0, 1 P1, 7 P2). Each touched locus was re-read in `cic/texts/` and each new quotation was matched to it after whitespace normalisation only. No review was written. Article 29, the Representative, the registration of `hus` and the one-world, three-strand ruling were not touched.
 
 - P1-1, the Nicene gloss. Registry row 60, Doc_02 §8 ("Hus affirms the creed's substance"), Doc_01 §8 (the introduction, commitments 3 and 4, and the Result) now say what each chapter of Erben vol. 1 shows: chapter XXVII sets out the Nicene Creed; chapter XXVIII glosses it except the crucifixion to the return (line 2363); chapter XXVI glosses those clauses on the Apostles' Creed. Open_Gaps entry 37 replaces the first two sentences of entry 28. The optional point on commitment 3 was also taken: chapter XXVI's "Narodil sě z Marie panny" (line 2176) is legible. The Article 4 result is unchanged.
 - P2-1, stale statements in Open_Gaps. Entry 36 names each overtaken sentence (Section B heading and R1; Section E heading and lead paragraph, E1 and E2; entries 2, 16 and 26 R2, R6, R7). No earlier entry was edited.

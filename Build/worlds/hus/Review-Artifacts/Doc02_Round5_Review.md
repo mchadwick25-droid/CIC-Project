@@ -6,7 +6,7 @@ Simulated review — informational only, not an Article 31 substitute.
 - **Drafter model:** Sonnet 5.5
 - **Reviewer agent:** independent-review subagent, fresh context, launched from session_019FXuEebrCDmzYe987sNAxL (wrote none of the text under review)
 - **Drafter agent:** hus build-thread drafting worker (revision commit 7ee370987; commit trailer reads "Claude Sonnet 5.5")
-- **Round:** 2 (of the new-material cycle opened by the Library's acquisition of 2026-09-30; Round 1 is `NewMaterial_Round1_Recheck.md`)
+- **Round:** 5 (round 2 of the new-material cycle opened by the Library's acquisition of 2026-09-30; Round 1 is `Doc02_Round4_Review.md`)
 - **Truncation check, method 1:** structural count. Doc_01: headings §1 to §10 present and in order, 219 lines, ends on the §10 disposition sentence and a newline. Doc_02: headings §1 to §11 present and in order, 224 lines, ends on the §11 disposition sentence and a newline. Registry: 79 numbered rows, every one with exactly 12 pipes, numbers exactly the set 1 to 79; Confidence letters A 33, B 18, C 18, D 1, "—" 9 (row 67 moved from B to A). Open_Gaps: 37 numbered entries, 1 to 37 with no gap; the diff of 7ee370987 deletes no line of the file, so entries 1 to 35 are unchanged; the file ends on a complete sentence and a newline.
 - **Truncation check, method 2:** byte and hash comparison against the committed blob at HEAD 9c1b226b2 (no `hus` file changed after 7ee370987). For all four files `wc -c` equals `git cat-file -s` (Doc_01 54,509 bytes; Doc_02 53,956; Registry 88,817; Open_Gaps 38,032), and `git hash-object` equals `git rev-parse HEAD:<path>` (Doc_01 7732879681…, Doc_02 b2c59cc184…, Registry df0c35931e…, Open_Gaps 79b1758473…). None has uncommitted changes.
 - **Date:** 2026-09-30
@@ -78,3 +78,7 @@ Checked line by line in `cic/texts/hus_sebrane-spisy-ceske-v01-ces_erben1865.txt
 - Rights beyond the file headers.
 - The audit file's account beyond the claims tied to the seven fixes and the P1.
 - The Build State YAML.
+
+## Disposition
+
+Approved to proceed (Doc_02 and the Source Registry; not Frozen). Self-disposed by the Library thread after this recheck; the reviewer's verdict is above.

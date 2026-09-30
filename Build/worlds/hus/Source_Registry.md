@@ -2,7 +2,7 @@
 
 Per `Source_Registry_Template.md` V1.0. Co-equal Step 2 output with `Doc_02_Source_Ecology.md`. **Living document: append-only.** A row is never renumbered or deleted. Doc_02 may not name a source in support of a specific claim unless that source has a row here. Rows are entered only for works that the corpus map assigns to this world, and for works that are not vendored. A vendored work assigned only to another world is recorded as a candidate in `Open_Gaps_Tracking.md` (section E), not here. Numbers 25 to 28 are not used, and they are not reused. A row whose work has since been vendored is marked superseded, carries no Confidence letter, and points to the rows that replace it.
 
-**Status:** Approved to proceed with Doc_02, after independent review (`Review-Artifacts/NewMaterial_Round2_Recheck.md`, clear). The saturation statement at the end is not closed (see "Saturation statement").
+**Status:** Approved to proceed with Doc_02, after independent review (`Review-Artifacts/Doc02_Round5_Review.md`, clear). The saturation statement at the end is not closed (see "Saturation statement").
 **Boundary checked against:** `Doc_01_World_Identification_Boundaries_Orientation.md` (c. 1402–1517; Bohemia and Moravia; three strands: Utraquist, Taborite, Unity). Boundary Status is judged by what a source speaks for, never by the publication date of a modern edition.
 
 **Type:** P (Primary) / S (Secondary) / M (Material/External) / L (Period Lexicon).

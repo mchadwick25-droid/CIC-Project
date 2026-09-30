@@ -18,7 +18,7 @@ documents:
     revision_cycle_rounds_used: 2
     drafter_model: Sonnet 5.5
     reviewer_model: Opus 5.5
-    review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Round2_Recheck_Review.md, Review-Artifacts/Round3_Recheck_Review.md]
+    review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md, Review-Artifacts/Doc02_Round3_Review.md]
     gates_result:
   - id: Doc_02
     status: approved to proceed with Source_Registry.md (new-material Round 2 recheck clear)
@@ -27,7 +27,7 @@ documents:
     revision_cycle_rounds_used: 2
     drafter_model: Sonnet 5.5
     reviewer_model: Opus 5.5
-    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Round2_Recheck_Review.md, Review-Artifacts/Round3_Recheck_Review.md]
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md, Review-Artifacts/Doc02_Round3_Review.md]
     gates_result:
   - id: Representative_identity
     status: not started; not decided
