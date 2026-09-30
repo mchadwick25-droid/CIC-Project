@@ -90,7 +90,8 @@ def test_an_unchanged_dense_field_is_reported_not_failed():
     head = _world(_brief("zzz.brief.a", DENSE), _term("zzz.term.a", CLEAR))
     findings, notes = regate.compare_world(head, base, set())
     assert findings == []
-    assert any("already failed at the base" in n for n in notes)
+    line = next(n for n in notes if "not a regression" in n)
+    assert line.startswith("zzz.brief.a: world_identity.text: FK grade ") and "FRE " in line
 
 
 def test_an_edited_field_that_is_still_dense_fails_and_one_that_is_fixed_passes():
@@ -197,7 +198,7 @@ def test_records_builds_the_capsule(monkeypatch):
 
 def _stub_world(monkeypatch, code, types, census_id="zzz-census", state="admitted"):
     records = {f"{code}.{t}.a": {"id": f"{code}.{t}.a", "record_type": t} for t in types}
-    monkeypatch.setattr(regate, "load_world_records", lambda c: records)
+    monkeypatch.setattr(regate, "load_world_records", lambda c, records_root=None: records)
     monkeypatch.setattr(regate, "registry_entry", lambda c, root=REPO_ROOT: {"census_id": census_id, "state": state})
     from engine.m2 import builders
 
@@ -215,7 +216,6 @@ def test_a_missing_required_type_fails_for_a_new_world(monkeypatch):
 def test_a_waiver_for_a_required_type_on_a_new_world_is_itself_a_failure(monkeypatch):
     _stub_world(monkeypatch, "zzz", ["world_front", "facilitator_brief", "search_record"])
     monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, "required-record-type/zzz/facilitator_brief": "waived"})
-    monkeypatch.setattr(regate, "SITE_DATA_DIR", REPO_ROOT / "cic-website" / "data" / "worlds")
     report = regate.run_records("zzz")
     assert any(f.check == "waiver-not-allowed" for f in report.findings)
 
@@ -264,7 +264,6 @@ def test_records_freeze_flag_is_wired_to_the_command(monkeypatch):
 def test_an_m1_cross_world_waiver_on_a_new_world_fails_records_and_regate(monkeypatch):
     _stub_world(monkeypatch, "zzz", ["world_front", "facilitator_brief", "search_record"], state="built")
     monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, "figure-dates-keys/zzz": "F-04 - owner named"})
-    monkeypatch.setattr(regate, "SITE_DATA_DIR", REPO_ROOT / "cic-website" / "data" / "worlds")
     records_report = regate.run_records("zzz")
     assert [f.check for f in records_report.findings] == ["waiver-not-allowed"] and "lacks approved_by" in records_report.findings[0].reason
     regate_report = regate.run_regate("zzz", "HEAD")
@@ -302,3 +301,17 @@ def test_inserting_a_list_item_does_not_make_an_untouched_failing_item_fail():
     assert findings == []
     assert any("already failed at the base" in n for n in notes)
     assert regate.compare_world(voice(CLEAR, DENSE + " Again."), voice(DENSE), set())[0] != []
+
+
+def test_records_and_regate_read_the_registry_and_records_of_the_root_they_are_given(tmp_path, capsys):
+    (tmp_path / "records" / "worlds").mkdir(parents=True)
+    (tmp_path / "records" / "worlds" / "zw.yaml").write_text("state: built\ncensus_id: zw-census\n")
+    (tmp_path / "records" / "zw" / "term").mkdir(parents=True)
+    parser = argparse.ArgumentParser()
+    sub = parser.add_subparsers(dest="command", required=True)
+    regate.add_parser(sub)
+    regate.run(parser.parse_args(["records", "zw", "--freeze", "--root", str(tmp_path)]))
+    out = capsys.readouterr().out
+    assert "no registry entry" not in out and "required-record-type" in out
+    regate.run(parser.parse_args(["regate", "zw", "--base", "HEAD", "--root", str(tmp_path)]))
+    assert "no registry entry" not in capsys.readouterr().out
