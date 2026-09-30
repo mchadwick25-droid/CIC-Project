@@ -1,7 +1,8 @@
 source_file: pole_seditious-oration_wythers1560.txt
 
 assignments:
-  - work: "The Seditious and Blasphemous Oration of Cardinal Pole"
+  - row_id: pole_seditious-oration_wythers1560--the-seditious-and-blasphemous-oration-of-cardinal-pole
+    work: "The Seditious and Blasphemous Oration of Cardinal Pole"
     author: pole
     locus: "whole volume"
     atlas_ids:

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-church-of-the-east-under-persia
 works:
-- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2
+  work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
   author: council-of-constantinople-553
   locus: div1 12
@@ -18,7 +19,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+- row_id: npnf214_seven-ecumenical-councils--the-council-of-ephesus-431-extracts-from-the-acts-decree-2
+  work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10
   role: context
@@ -30,7 +32,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-liturgy-of-the-blessed-apostles-adaeus-and-maris
+  work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
   author: liturgy-of-addai-and-mari
   locus: div2 12.4
   role: tradition

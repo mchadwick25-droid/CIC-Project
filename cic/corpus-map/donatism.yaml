@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: donatism
 works:
-- work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
+- row_id: optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i
+  work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
   author: anti-donatist-dossier
   locus: 'headings "APPENDIX I." through "APPENDIX XVI.": Acta Purgationis Felicis (314),
     Gesta apud Zenophilum (320), Constantine''s letters, the Council of Arles'' letter to
@@ -20,7 +21,8 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
-- work: Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's own appendix)
+- row_id: optatus_libri-vii-critical_ziwsa1893--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia
+  work: Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's own appendix)
   author: anti-donatist-dossier
   locus: appendix following the seven books
   role: context
@@ -32,7 +34,8 @@ works:
 
     '
   source_file: optatus_libri-vii-critical_ziwsa1893.txt
-- work: Answer to the Letters of Petilian, the Donatist
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist
+  work: Answer to the Letters of Petilian, the Donatist
   author: augustine
   locus: div2 5.5 — Answer to the Letters of Petilian (3 books, ~102k words)
   role: tradition
@@ -44,7 +47,8 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: Contra (Adversus) Fulgentium Donatistam
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam
+  work: Contra (Adversus) Fulgentium Donatistam
   author: augustine
   locus: Pars III, short item
   role: tradition
@@ -55,7 +59,8 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Contra Cresconium (libri quattuor)
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor
+  work: Contra Cresconium (libri quattuor)
   author: augustine
   locus: Pars III, following Pars I without a second title page in this scan
   role: tradition
@@ -70,7 +75,8 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Contra Epistulam Parmeniani (libri tres)
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres
+  work: Contra Epistulam Parmeniani (libri tres)
   author: augustine
   locus: Pars I
   role: tradition
@@ -84,7 +90,8 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: De Baptismo (libri septem)
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem
+  work: De Baptismo (libri septem)
   author: augustine
   locus: Pars I
   role: tradition
@@ -98,7 +105,8 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: De Unico Baptismo contra Petilianum
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum
+  work: De Unico Baptismo contra Petilianum
   author: augustine
   locus: Pars III
   role: tradition
@@ -111,7 +119,8 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: 'Letters of St. Augustin: the Donatist correspondence'
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-donatist-correspondence
+  work: 'Letters of St. Augustin: the Donatist correspondence'
   author: augustine
   locus: div3 letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX,
     CLXXIII (11 letters, ~54,523 words)
@@ -129,7 +138,8 @@ works:
     not `tradition`: Augustine is the Catholic opponent, per the role normalisation already
     applied to his anti-Donatist treatises.'
   source_file: npnf101_augustine-confessions-letters.xml
-- work: On Baptism, Against the Donatists
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists
+  work: On Baptism, Against the Donatists
   author: augustine
   locus: div2 5.4 — On Baptism, Against the Donatists (7 books)
   role: tradition
@@ -141,7 +151,8 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: On Christian Doctrine, Book III, chs. 30-37 ("The Rules of Tichonius the Donatist
+- row_id: npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine-book-iii-chs-30-37-the-rules-of
+  work: On Christian Doctrine, Book III, chs. 30-37 ("The Rules of Tichonius the Donatist
     Examined")
   author: augustine
   locus: div1 5 — Book III, Chapter 30 (v.vi.xxx) through Chapter 37, at file lines ~53014-54200
@@ -170,7 +181,8 @@ works:
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
-- work: Psalmus contra Partem Donati
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati
+  work: Psalmus contra Partem Donati
   author: augustine
   locus: Pars I, opening item
   role: tradition
@@ -183,7 +195,8 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum
+  work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
   role: tradition
@@ -194,7 +207,8 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: The Ecclesiastical Edicts of the Theodosian Code
+- row_id: boyd_ecclesiastical-edicts-theodosian-code_1905--the-ecclesiastical-edicts-of-the-theodosian-code
+  work: The Ecclesiastical Edicts of the Theodosian Code
   author: boyd
   locus: study 2 of 3 in this bound volume
   role: context
@@ -207,7 +221,8 @@ works:
 
     '
   source_file: boyd_ecclesiastical-edicts-theodosian-code_1905.txt
-- work: 'Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones Provinciae Numidiae'
+- row_id: cil8-supplementum-numidiae_cagnat-schmidt1894--corpus-inscriptionum-latinarum-viii-supplementum
+  work: 'Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones Provinciae Numidiae'
   author: cil8-numidia
   locus: whole volume
   role: context
@@ -220,7 +235,8 @@ works:
 
     '
   source_file: cil8-supplementum-numidiae_cagnat-schmidt1894.txt
-- work: Gesta Collationis Carthaginiensis (Acts of the 411 Conference of Carthage)
+- row_id: pl11-zeno-optatus-collatio-carthaginiensis_migne--gesta-collationis-carthaginiensis-acts-of-the-411-conference
+  work: Gesta Collationis Carthaginiensis (Acts of the 411 Conference of Carthage)
   author: collatio-carthaginiensis
   locus: the Collatio cluster, from col. 759 on
   role: context
@@ -238,7 +254,8 @@ works:
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
-- work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
+- row_id: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--the-code-of-canons-of-the-african-church-codex-canonum-2
+  work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
     of Carthage, 419)
   author: council-of-carthage-419
   locus: pp. 155-202 of the printed volume
@@ -252,7 +269,8 @@ works:
 
     '
   source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
-- work: The Code of Canons of the African Church (Council of Carthage, 419)
+- row_id: npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage-2
+  work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4
   role: context
@@ -263,7 +281,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
+- row_id: npnf214_seven-ecumenical-councils--the-acts-of-the-council-of-carthage-under-cyprian-256-on
+  work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
   author: council-of-carthage-under-cyprian
   locus: div2 15.6 — The Council of Carthage held under Cyprian
   role: tradition
@@ -275,7 +294,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: On the Lapsed (De Lapsis)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2
+  work: On the Lapsed (De Lapsis)
   author: cyprian
   locus: div3 under 4.5 - Treatise III
   role: antecedent
@@ -289,7 +309,8 @@ works:
     sources argue from the text. Measured here rather than asserted - Augustine''s On Baptism,
     Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: On the Unity of the Church (De Unitate)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2
+  work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
   role: antecedent
@@ -299,7 +320,8 @@ works:
     for donatism: both sides of that controversy argued from this text and Augustine''s On
     Baptism works through it at length; Cyprian himself predates the schism by fifty years.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Epistles of Cyprian
+- row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2
+  work: The Epistles of Cyprian
   author: cyprian
   locus: div2 4.4
   role: antecedent
@@ -314,7 +336,8 @@ works:
     own vendored sources argue from the text. Measured here rather than asserted - Augustine''s
     On Baptism, Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2
+  work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
   author: cyprian
   locus: div2 4.6
   role: antecedent
@@ -329,7 +352,8 @@ works:
     here rather than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian
     306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
+- row_id: monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum
+  work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
     (MS title: De passione sanctorum Donati et Advocati)'
   author: donatist-anonymous
   locus: item 1 of 3
@@ -343,7 +367,8 @@ works:
 
     '
   source_file: monumenta-vetera-donatistarum_migne-pl8.txt
-- work: Passio Benedicti Martyris Marculi
+- row_id: monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi
+  work: Passio Benedicti Martyris Marculi
   author: donatist-anonymous-passio-authors
   locus: item 2 of 3
   role: tradition
@@ -354,7 +379,8 @@ works:
 
     '
   source_file: monumenta-vetera-donatistarum_migne-pl8.txt
-- work: Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad ecclesiam Carthaginiensem
+- row_id: monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii
+  work: Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad ecclesiam Carthaginiensem
   author: donatist-anonymous-passio-authors
   locus: item 3 of 3, with the appended letter of the martyr Macrobius
   role: tradition
@@ -365,7 +391,8 @@ works:
 
     '
   source_file: monumenta-vetera-donatistarum_migne-pl8.txt
-- work: Epistolae Selectae (selected letters concerning the African Donatist remnant)
+- row_id: gregory-great_epistolae-selectae_turchi1907--epistolae-selectae-selected-letters-concerning-the-african
+  work: Epistolae Selectae (selected letters concerning the African Donatist remnant)
   author: gregory-great
   locus: selection within this Turchi 1907 edition
   role: context
@@ -378,7 +405,8 @@ works:
 
     '
   source_file: gregory-great_epistolae-selectae_turchi1907.txt
-- work: Liber Genealogus
+- row_id: chronica-minora-liber-genealogus_mommsen1892--liber-genealogus
+  work: Liber Genealogus
   author: liber-genealogus
   locus: Additamentum II to the Chronographus Anni CCCLIIII
   role: tradition
@@ -392,7 +420,8 @@ works:
 
     '
   source_file: chronica-minora-liber-genealogus_mommsen1892.txt
-- work: 'Histoire littéraire de l''Afrique chrétienne, Tome IV: Le Donatisme'
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912--histoire-litteraire-de-l-afrique-chretienne-tome-iv-le
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome IV: Le Donatisme'
   author: monceaux
   locus: whole volume
   role: context
@@ -404,7 +433,8 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt
-- work: 'Histoire littéraire de l''Afrique chrétienne, Tome V: Saint Optat et les premiers
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920--histoire-litteraire-de-l-afrique-chretienne-tome-v-saint
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome V: Saint Optat et les premiers
     écrivains donatistes'
   author: monceaux
   locus: whole volume
@@ -416,7 +446,8 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt
-- work: 'Histoire littéraire de l''Afrique chrétienne, Tome VI: La Littérature Donatiste (au
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922--histoire-litteraire-de-l-afrique-chretienne-tome-vi-la
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome VI: La Littérature Donatiste (au
     temps de saint Augustin)'
   author: monceaux
   locus: whole volume
@@ -428,7 +459,8 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
-- work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
+- row_id: optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2
+  work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
   author: optatus
   locus: as above
   role: context
@@ -441,7 +473,8 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
-- work: S. Optati Milevitani Libri VII (critical Latin edition)
+- row_id: optatus_libri-vii-critical_ziwsa1893--s-optati-milevitani-libri-vii-critical-latin-edition
+  work: S. Optati Milevitani Libri VII (critical Latin edition)
   author: optatus
   locus: the seven books
   role: context
@@ -453,7 +486,8 @@ works:
 
     '
   source_file: optatus_libri-vii-critical_ziwsa1893.txt
-- work: Prosper of Aquitaine's Epitoma Chronicon, with its African continuations
+- row_id: prosper_chronica-minora-1-lat_mommsen1892--prosper-of-aquitaine-s-epitoma-chronicon-with-its-african-2
+  work: Prosper of Aquitaine's Epitoma Chronicon, with its African continuations
   author: prosper
   locus: pp. 385-485 of the printed volume
   role: context
@@ -466,7 +500,8 @@ works:
 
     '
   source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
-- work: Theodosiani Libri XVI (Book 16, critical Latin text)
+- row_id: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text
+  work: Theodosiani Libri XVI (Book 16, critical Latin text)
   author: theodosian-code
   locus: Book 16
   role: context
@@ -479,7 +514,8 @@ works:
 
     '
   source_file: theodosianus-16_mommsen-meyer1905.txt
-- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+- row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text-2
+  work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
   author: theodosian-code-compilers
   locus: whole text
   role: context
@@ -496,7 +532,8 @@ works:
 
     '
   source_file: codex-theodosianus_latinlibrary.txt
-- work: The Book of Rules (Liber Regularum)
+- row_id: tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum
+  work: The Book of Rules (Liber Regularum)
   author: tyconius
   locus: whole work
   role: tradition

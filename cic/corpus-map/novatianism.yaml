@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: novatianism
 works:
-- work: Concerning Repentance (De Paenitentia)
+- row_id: npnf210_ambrose--concerning-repentance-de-paenitentia-2
+  work: Concerning Repentance (De Paenitentia)
   author: ambrose
   locus: div2 4.6 — Concerning Repentance
   role: context
@@ -14,7 +15,8 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- work: Anonymous Treatise Against the Heretic Novatian
+- row_id: anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian
+  work: Anonymous Treatise Against the Heretic Novatian
   author: anonymous-against-novatian
   locus: div2 7.3
   role: tradition
@@ -26,7 +28,8 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: On the Unity of the Church (De Unitate)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-3
+  work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
   role: context
@@ -37,7 +40,8 @@ works:
     is the authority Donatism claimed, and a contemporary opponent of the Novatian schism
     he lived through. One work, two relations, two rows.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Epistles of Cyprian
+- row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian
+  work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
     clergy, Cornelius, the confessors, Firmilian)'
@@ -53,7 +57,8 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
+- row_id: anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on
+  work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian
   locus: div2 4.7 - four pieces, assigned as one body
@@ -73,7 +78,8 @@ works:
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: Extant Fragments of Dionysius of Alexandria (works and epistles)
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--extant-fragments-of-dionysius-of-alexandria-works-and
+  work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
   locus: 'div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and
     epistles/fragments of epistles'
@@ -87,7 +93,8 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Church History of Eusebius (Historia Ecclesiastica)
+- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-2
+  work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Books II-VII in particular
   role: context
@@ -109,7 +116,8 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- work: A Treatise of Novatian Concerning the Trinity
+- row_id: anf05_hippolytus-cyprian-caius-novatian--a-treatise-of-novatian-concerning-the-trinity
+  work: A Treatise of Novatian Concerning the Trinity
   author: novatian
   locus: div2 6.3
   role: tradition
@@ -122,7 +130,8 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: On the Jewish Meats (De Cibis Judaicis)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-jewish-meats-de-cibis-judaicis
+  work: On the Jewish Meats (De Cibis Judaicis)
   author: novatian
   locus: div2 6.4
   role: tradition
@@ -131,7 +140,8 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Ecclesiastical History of Socrates Scholasticus
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
+  work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
     Novatianist notices throughout

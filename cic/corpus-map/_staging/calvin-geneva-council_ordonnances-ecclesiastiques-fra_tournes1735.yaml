@@ -14,7 +14,8 @@ authors_ruled:
     from_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
 
 assignments:
-  - work: "Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)"
+  - row_id: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735--ordonnances-ecclesiastiques-de-l-eglise-de-geneve-1576
+    work: "Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)"
     author: calvin
     locus: "whole file"
     atlas_ids:

@@ -20,7 +20,8 @@ authors_ruled:
       6.4, not an author.
 
 assignments:
-  - work: "Against the Donatists (De Schismate Donatistarum, Books I-VII)"
+  - row_id: optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii
+    work: "Against the Donatists (De Schismate Donatistarum, Books I-VII)"
     author: optatus
     locus: >
       headings "BOOK THE FIRST" through "BOOK THE SEVENTH", incl. "APPENDIX
@@ -38,7 +39,8 @@ assignments:
       Provisional only because the entry choice is inferred from region and
       date - Mark may prefer another Latin home for a Numidian polemicist.
 
-  - work: "Against the Donatists (De Schismate Donatistarum, Books I-VII)"
+  - row_id: optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2
+    work: "Against the Donatists (De Schismate Donatistarum, Books I-VII)"
     author: optatus
     locus: "as above"
     atlas_ids:
@@ -53,7 +55,8 @@ assignments:
       other side, usable for Donatism only etically. Assigned twice with
       different roles, deliberately (worker brief invited exactly this).
 
-  - work: "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)"
+  - row_id: optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i
+    work: "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)"
     author: anti-donatist-dossier
     locus: >
       headings "APPENDIX I." through "APPENDIX XVI.": Acta Purgationis
@@ -72,7 +75,8 @@ assignments:
       the granularity rule. Context, not tradition: officials and emperors
       describing and adjudicating the parties, not either side's own voice.
 
-  - work: "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)"
+  - row_id: optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i-2
+    work: "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)"
     author: anti-donatist-dossier
     locus: "as above"
     atlas_ids:

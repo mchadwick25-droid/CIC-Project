@@ -1,7 +1,8 @@
 source_file: gregory-great_dialogues_gardner1911.txt
 
 assignments:
-  - work: "The Dialogues of Saint Gregory, surnamed the Great (all four Books)"
+  - row_id: gregory-great_dialogues_gardner1911--the-dialogues-of-saint-gregory-surnamed-the-great-all-four
+    work: "The Dialogues of Saint Gregory, surnamed the Great (all four Books)"
     author: gregory
     locus: "whole text - Book I (Italian abbots and monks), Book II (the Life
       of St. Benedict of Nursia), Book III (Italian bishops and martyrs),

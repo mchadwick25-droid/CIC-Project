@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-society-of-jesus
 works:
-- work: The Life of the Blessed Peter Favre (Faber), of the Society of Jesus
+- row_id: boero_life-of-peter-faber_coleridge1873--the-life-of-the-blessed-peter-favre-faber-of-the-society-of
+  work: The Life of the Blessed Peter Favre (Faber), of the Society of Jesus
   author: boero
   locus: whole text
   role: context
@@ -17,7 +18,8 @@ works:
 
     '
   source_file: boero_life-of-peter-faber_coleridge1873.txt
-- work: A Summe of Christian Doctrine
+- row_id: canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine
+  work: A Summe of Christian Doctrine
   author: canisius
   locus: whole text
   role: tradition
@@ -29,7 +31,8 @@ works:
 
     '
   source_file: canisius_summe-of-christian-doctrine_anon1622.txt
-- work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
+- row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council
+  work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
   locus: whole text
   role: context
@@ -42,7 +45,8 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
-- work: Memoriale Beati Petri Fabri
+- row_id: faber_memoriale-lat_1873--memoriale-beati-petri-fabri
+  work: Memoriale Beati Petri Fabri
   author: faber
   locus: whole volume
   role: tradition
@@ -56,7 +60,8 @@ works:
 
     '
   source_file: faber_memoriale-lat_1873.txt
-- work: The Life and Letters of St. Francis Xavier, Vol. I
+- row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i
+  work: The Life and Letters of St. Francis Xavier, Vol. I
   author: francis-xavier
   locus: whole text - university years through the Malacca/Moluccas mission, 1541-1548
   role: tradition
@@ -67,7 +72,8 @@ works:
 
     '
   source_file: francis-xavier_life-and-letters-v1_coleridge1872.txt
-- work: The Life and Letters of St. Francis Xavier, Vol. II
+- row_id: francis-xavier_life-and-letters-v2_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-ii
+  work: The Life and Letters of St. Francis Xavier, Vol. II
   author: francis-xavier
   locus: whole text - Japan and China missions, Xavier's death 1552
   role: tradition
@@ -78,7 +84,8 @@ works:
 
     '
   source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
-- work: Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547
+- row_id: ignatius-loyola_letters-instructions-v1_oleary-goodier1914--letters-and-instructions-of-st-ignatius-loyola-vol-i-1524
+  work: Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547
   author: ignatius-loyola
   locus: whole text, a selection of 24 letters
   role: tradition
@@ -89,7 +96,8 @@ works:
 
     '
   source_file: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
-- work: 'Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22'
+- row_id: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903--monumenta-ignatiana-epistolae-et-instructiones-vol-22
+  work: 'Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22'
   author: ignatius-loyola
   locus: whole volume
   role: tradition
@@ -103,7 +111,8 @@ works:
 
     '
   source_file: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt
-- work: The Autobiography of St. Ignatius
+- row_id: ignatius-loyola_autobiography_oconor1900--the-autobiography-of-st-ignatius
+  work: The Autobiography of St. Ignatius
   author: ignatius-loyola
   locus: whole text
   role: tradition
@@ -114,7 +123,8 @@ works:
 
     '
   source_file: ignatius-loyola_autobiography_oconor1900.txt
-- work: The Spiritual Exercises of St. Ignatius
+- row_id: ignatius-loyola_spiritual-exercises_mullan1914--the-spiritual-exercises-of-st-ignatius
+  work: The Spiritual Exercises of St. Ignatius
   author: ignatius-loyola
   locus: whole text
   role: tradition
@@ -124,7 +134,8 @@ works:
 
     '
   source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
-- work: 'Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I'
+- row_id: lainez_epistolae-et-acta-v1-lat_1912--lainii-monumenta-epistolae-et-acta-patris-jacobi-lainii-vol
+  work: 'Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I'
   author: lainez
   locus: whole volume
   role: tradition
@@ -138,7 +149,8 @@ works:
 
     '
   source_file: lainez_epistolae-et-acta-v1-lat_1912.txt
-- work: Adnotationes et Meditationes in Evangelia
+- row_id: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595--adnotationes-et-meditationes-in-evangelia
+  work: Adnotationes et Meditationes in Evangelia
   author: nadal
   locus: whole text
   role: tradition
@@ -151,7 +163,8 @@ works:
 
     '
   source_file: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt
-- work: Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I
+- row_id: nadal_epistolae-v1-lat_1898--epistolae-p-hieronymi-nadal-societatis-jesu-vol-i
+  work: Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I
   author: nadal
   locus: whole volume
   role: tradition
@@ -164,7 +177,8 @@ works:
 
     '
   source_file: nadal_epistolae-v1-lat_1898.txt
-- work: Scholia in Constitutiones
+- row_id: nadal_scholia-in-constitutiones-lat_1883--scholia-in-constitutiones
+  work: Scholia in Constitutiones
   author: nadal
   locus: whole volume
   role: tradition
@@ -177,7 +191,8 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
-- work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Tomus
+- row_id: polanco_chronicon-v1-lat_1894--vita-ignatii-loiolae-et-rerum-societatis-jesu-historia
+  work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Tomus
     V (covering the year 1555)
   author: polanco
   locus: whole volume - Tomus V only, covering 1555; not Vol. I as the filename and archive.org
@@ -193,7 +208,8 @@ works:
 
     '
   source_file: polanco_chronicon-v1-lat_1894.txt
-- work: Vita Ignatii Loiolae, Societatis Iesu Fundatoris
+- row_id: ribadeneira_vita-ignatii-loiolae-lat_1572--vita-ignatii-loiolae-societatis-iesu-fundatoris
+  work: Vita Ignatii Loiolae, Societatis Iesu Fundatoris
   author: ribadeneira
   locus: whole volume
   role: context
@@ -207,7 +223,8 @@ works:
 
     '
   source_file: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
-- work: Epistolae P. Alphonsi Salmeronis, Tomus Primus (1536-1565)
+- row_id: salmeron_epistolae-v2-lat_1906--epistolae-p-alphonsi-salmeronis-tomus-primus-1536-1565
+  work: Epistolae P. Alphonsi Salmeronis, Tomus Primus (1536-1565)
   author: salmeron
   locus: whole volume - Tomus Primus, covering 1536-1565; not Vol. II as the filename and
     archive.org item title suggest
@@ -222,7 +239,8 @@ works:
 
     '
   source_file: salmeron_epistolae-v2-lat_1906.txt
-- work: Epistolae P. Alphonsi Salmeronis, Tomus Secundus (1565-1585)
+- row_id: salmeron_epistolae-v3-lat_1906--epistolae-p-alphonsi-salmeronis-tomus-secundus-1565-1585
+  work: Epistolae P. Alphonsi Salmeronis, Tomus Secundus (1565-1585)
   author: salmeron
   locus: whole volume - Tomus Secundus, covering 1565-1585; not Vol. III as the filename suggests
   role: tradition
@@ -236,7 +254,8 @@ works:
 
     '
   source_file: salmeron_epistolae-v3-lat_1906.txt
-- work: Constitutiones Societatis Iesu, cum earum Declarationibus
+- row_id: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606--constitutiones-societatis-iesu-cum-earum-declarationibus
+  work: Constitutiones Societatis Iesu, cum earum Declarationibus
   author: society-of-jesus
   locus: whole text, including the Primum ac generale examen
   role: tradition

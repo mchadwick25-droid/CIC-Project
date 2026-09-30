@@ -3,7 +3,8 @@
 source_file: luther_bondage-of-the-will_cole1823.txt
 
 assignments:
-  - work: "Martin Luther on the Bondage of the Will"
+  - row_id: luther_bondage-of-the-will_cole1823--martin-luther-on-the-bondage-of-the-will
+    work: "Martin Luther on the Bondage of the Will"
     author: luther
     locus: "whole file"
     atlas_ids:

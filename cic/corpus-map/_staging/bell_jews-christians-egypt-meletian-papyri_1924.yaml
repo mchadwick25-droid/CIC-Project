@@ -1,7 +1,8 @@
 source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
 
 assignments:
-  - work: "Jews and Christians in Egypt, Part II: The Meletian Schism (pp. 38-99)"
+  - row_id: bell_jews-christians-egypt-meletian-papyri_1924--jews-and-christians-in-egypt-part-ii-the-meletian-schism-pp
+    work: "Jews and Christians in Egypt, Part II: The Meletian Schism (pp. 38-99)"
     author: bell
     locus: "Part II — the Pageus/Hathor archive, incl. the dated 334 CE deputy-appointment contract (P.Lond. 1918, Phamenoth 23)"
     atlas_ids:

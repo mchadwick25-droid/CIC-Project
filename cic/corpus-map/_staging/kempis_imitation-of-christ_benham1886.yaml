@@ -1,7 +1,8 @@
 source_file: kempis_imitation-of-christ_benham1886.txt
 
 assignments:
-  - work: "The Imitation of Christ"
+  - row_id: kempis_imitation-of-christ_benham1886--the-imitation-of-christ
+    work: "The Imitation of Christ"
     author: kempis
     locus: "whole text (four books)"
     atlas_ids:

@@ -1,7 +1,8 @@
 source_file: hus_letters_workman-pope1904.txt
 
 assignments:
-  - work: "The Letters of John Hus"
+  - row_id: hus_letters_workman-pope1904--the-letters-of-john-hus
+    work: "The Letters of John Hus"
     author: hus
     locus: "whole volume"
     atlas_ids:

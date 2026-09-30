@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: valentinian-and-other-gnostic-christianities
 works:
-- work: The Stromata, or Miscellanies
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies-2
+  work: The Stromata, or Miscellanies
   author: clement_alex
   locus: div2 6.4 under div1 'CLEMENT OF ALEXANDRIA'
   role: context
@@ -17,7 +18,8 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Excerpts of Theodotus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--excerpts-of-theodotus-2
+  work: Excerpts of Theodotus
   author: excerpts-of-theodotus
   locus: div2 4.3
   role: context
@@ -33,7 +35,8 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Refutation of All Heresies (Philosophumena)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena-2
+  work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)
   role: context
@@ -50,7 +53,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: Against Heresies (Books I-V)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2
+  work: Against Heresies (Books I-V)
   author: irenaeus
   locus: div2 9.2-9.4, 9.6-9.7 under div1 'IRENAEUS'
   role: context
@@ -63,7 +67,8 @@ works:
 
     '
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Concerning Free-Will (De Autexousio)
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--concerning-free-will-de-autexousio
+  work: Concerning Free-Will (De Autexousio)
   author: methodius
   locus: div2 11.4
   role: context
@@ -76,7 +81,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Against All Heresies (spurious appendix)
+- row_id: anf03_tertullian--against-all-heresies-spurious-appendix
+  work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian
   locus: div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)
   role: context
@@ -95,7 +101,8 @@ works:
     without re-attributing anything. Detaching the spurious corpora from their attributed
     authors instead is a possible alternative shelving choice.'
   source_file: anf03_tertullian.xml
-- work: Against the Valentinians
+- row_id: anf03_tertullian--against-the-valentinians-2
+  work: Against the Valentinians
   author: tertullian
   locus: div2 5.6 under div1 'Anti-Marcion.'
   role: context
@@ -105,7 +112,8 @@ works:
 
     '
   source_file: anf03_tertullian.xml
-- work: On the Flesh of Christ
+- row_id: anf03_tertullian--on-the-flesh-of-christ-2
+  work: On the Flesh of Christ
   author: tertullian
   locus: div2 5.7 under div1 'Anti-Marcion.'
   role: context
@@ -116,7 +124,8 @@ works:
 
     '
   source_file: anf03_tertullian.xml
-- work: The Prescription Against Heretics
+- row_id: anf03_tertullian--the-prescription-against-heretics-2
+  work: The Prescription Against Heretics
   author: tertullian
   locus: div2 5.3 under div1 'Anti-Marcion.'
   role: context
