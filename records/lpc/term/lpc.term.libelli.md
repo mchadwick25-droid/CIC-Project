@@ -17,10 +17,10 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 confidence:
-  citation_specificity: D
-  verification_state: unverified
+  citation_specificity: A
+  verification_state: verified-direct
   evidentiary_weight: illustrative
-  formation_confidence: Inferential-Thin
+  formation_confidence: Documented
   divergence_note: 'Cyprian uses the word himself, in Latin: ''libellis conscientiam suam maculauerint''
     (Epistle 55.3 in Hartel''s edition; Epistle LI in the ANF translation) and ''cum occasio libelli fuisset
     oblata'' (55.14). The English translation renders it ''certificates'' and never prints libelli; its
@@ -79,4 +79,3 @@ senses:
 quick_meaning: The libelli were papers given to people who obeyed the order to sacrifice. This paper is
   what made a person one of the lapsed.
 ---
-Re-derived from Doc_06 SS2.3 (lpclex017, corrected upward from a mis-drafted Tier 3 -- 'the source disclosure is the entire justification for how the entry is treated') and Lexicon-Chunks/lpclex017_libelli.md. formation_confidence set to Inferential-Thin for the specific claim that this Latin word is this world's own vocabulary item, distinct from the underlying historical mechanism, which is Documented via lpc.term.certificates-letters-of-peace' own English-language attestation (see script docstring, CONFIDENCE PER TERM). Relations: four terms per this term's own Related-Terms line.

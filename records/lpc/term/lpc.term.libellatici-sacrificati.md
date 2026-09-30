@@ -15,10 +15,10 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 confidence:
-  citation_specificity: C
+  citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: illustrative
-  formation_confidence: Inferential-Thin
+  formation_confidence: Documented
   divergence_note: 'Cyprian names both classes himself, in Latin: ''libellaticos cum sacrificatis aequari
     oportere'' (Epistle 55.13 in Hartel''s edition; Epistle LI in the ANF translation) and ''libellaticos
     interim admitti, sacrificatis in exitu subueniri'' (55.17); 55.14 and 55.26 use libellatici again.
@@ -74,4 +74,3 @@ senses:
 quick_meaning: This is our two-way split of the lapsed. One group bought their way out of the sacrifice.
   The other group sacrificed.
 ---
-Re-derived from Doc_06 SS2.3 (lpclex018, corrected upward from a mis-drafted Tier 3) and Lexicon-Chunks/lpclex018_libellatici-sacrificati.md. verification_state set to verified-direct despite Confidence C: the editor's own wording is directly quoted and checked, even though citation_specificity stays at the Registry's own C letter -- the same independent-axis rule wb_lpc_s21.py states for its own Registry-B/verification-state mapping. Relations: three terms per this term's own Related-Terms line.

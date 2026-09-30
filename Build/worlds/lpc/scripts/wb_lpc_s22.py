@@ -221,12 +221,14 @@ bishops" and "plenary Council" are exactly this: each is one of the two
 textual grounds of a real Supporting/conciliar-authority axis whose
 formulas' existence is Documented, Tier 2 only because Doc_04/Doc_05
 find no evidence the axis reached ordinary formation). `libelli` and
-`libellatici/sacrificati` are the two Inferential-Thin entries in this
-batch. The vendored English volume never prints the Latin headword
+`libellatici/sacrificati` are Documented, with citation_specificity A (Registry
+row 1, Epistle LI) and verification_state verified-direct: Cyprian's own
+Epistle LI (Hartel Ep. 55.3, 55.13, 55.14, 55.17, Registry rows 39 and 191
+as the Latin cross-check) carries the word and both classes in his own
+words. The vendored English volume never prints the Latin headword
 `libelli`, and prints the class names `libellatici`/`sacrificati` only in
-an editor's endnote on a different, Confidence-C text. Cyprian's own
-Epistle LI (Hartel Ep. 55) carries both classes in his own words, so the
-attestation is direct; the tier is held as set and reported for review.
+an editor's endnote on a different, Confidence-C text; each record's
+divergence_note states that limit.
 `evidentiary_weight="contested"` is used nowhere in this batch, the same
 `wb_lpc_s21.py`-stated rule extended here: no term's underlying SOURCE
 OBJECT is disputed in the narrow sense that value is reserved for; the
@@ -396,7 +398,8 @@ def emit_term(slug: str, body_kwargs: dict, provenance_note: str) -> str:
     out_dir = RECORDS_ROOT / "term"
     out_dir.mkdir(parents=True, exist_ok=True)
     front = yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=100)
-    text = f"---\n{front}---\n{provenance_note.strip()}\n"
+    note = provenance_note.strip()
+    text = f"---\n{front}---\n" + (f"{note}\n" if note else "")
     path = out_dir / f"{tid}.md"
     path.write_text(text, encoding="utf-8")
     WRITTEN.append(str(path))
@@ -526,12 +529,13 @@ def build_tier1_terms() -> list[str]:
                 "The regulating, disciplining voice throughout this crisis is Cyprian's own, as "
                 "presiding bishop and as the party whose middle position ultimately prevailed. No "
                 "lapsed believer's own account of undergoing the process survives anywhere in this "
-                "corpus (Author-Gravity-Risk: Yes). The clean two-way split between those who "
-                "sacrificed and those who only bought the certificate reaches us as a 19th-century "
-                "editorial endnote on a different, Confidence-C text (lpc.term.libellatici-"
-                "sacrificati), not as Cyprian's own classification in De Lapsis; what is Cyprian's "
-                "own, and what this entry's own account actually rests on, is the refusal to let "
-                "either group's failure be final.",
+                "corpus (Author-Gravity-Risk: Yes). The two-way split between those who "
+                "sacrificed and those who only bought the certificate is Cyprian's own: Epistle LI "
+                "names both classes and treats them differently (lpc.term.libellatici-"
+                "sacrificati). The English prints the Latin class names only in an editor's endnote "
+                "on a different, Confidence-C text, whose closing clause is the editor's summary. "
+                "What this entry's own account rests on beyond the split is the refusal to let "
+                "either group's failure be final, which is De Lapsis's argument throughout.",
             ),
             sources=[
                 src(2, "De Lapsis, the founding document of the controversy, directly quoted "
@@ -606,12 +610,7 @@ def build_tier1_terms() -> list[str]:
                 "sacrifice, and now they want to come back."
             ),
         ),
-        "Re-derived from Doc_06 SS2.1 (lpclex002, Tier 1, G2 Primary -- 'the subject of this world's "
-        "founding crisis') and Lexicon-Chunks/lpclex002_the-lapsed.md. citation_specificity set to B "
-        "(De Lapsis, row 2, is this term's own founding-document ground; the Epistles corroborate at "
-        "A). The two-way libellatici/sacrificati classification's editorial provenance is disclosed "
-        "in confidence.divergence_note per the chunk's own explicit caution, not smoothed into "
-        "Documented fact. Relations: eight terms per this term's own Related-Terms line.",
+        "",
     ))
 
     ids.append(emit_term(
@@ -1910,7 +1909,7 @@ def build_tier2_terms() -> list[str]:
         "libelli",
         dict(
             confidence=conf(
-                "D", "unverified", "illustrative", "Inferential-Thin",
+                "A", "verified-direct", "illustrative", "Documented",
                 "Cyprian uses the word himself, in Latin: 'libellis conscientiam suam maculauerint' "
                 "(Epistle 55.3 in Hartel's edition; Epistle LI in the ANF translation) and 'cum "
                 "occasio libelli fuisset oblata' (55.14). The English translation renders it "
@@ -1988,20 +1987,14 @@ def build_tier2_terms() -> list[str]:
                 "paper is what made a person one of the lapsed."
             ),
         ),
-        "Re-derived from Doc_06 SS2.3 (lpclex017, corrected upward from a mis-drafted Tier 3 -- "
-        "'the source disclosure is the entire justification for how the entry is treated') and "
-        "Lexicon-Chunks/lpclex017_libelli.md. formation_confidence set to Inferential-Thin for the "
-        "specific claim that this Latin word is this world's own vocabulary item, distinct from the "
-        "underlying historical mechanism, which is Documented via lpc.term.certificates-letters-of-peace' own "
-        "English-language attestation (see script docstring, CONFIDENCE PER TERM). Relations: four "
-        "terms per this term's own Related-Terms line.",
+        "",
     ))
 
     ids.append(emit_term(
         "libellatici-sacrificati",
         dict(
             confidence=conf(
-                "C", "verified-direct", "illustrative", "Inferential-Thin",
+                "A", "verified-direct", "illustrative", "Documented",
                 "Cyprian names both classes himself, in Latin: 'libellaticos cum sacrificatis "
                 "aequari oportere' (Epistle 55.13 in Hartel's edition; Epistle LI in the ANF "
                 "translation) and 'libellaticos interim admitti, sacrificatis in exitu subueniri' "
@@ -2078,12 +2071,7 @@ def build_tier2_terms() -> list[str]:
                 "sacrifice. The other group sacrificed."
             ),
         ),
-        "Re-derived from Doc_06 SS2.3 (lpclex018, corrected upward from a mis-drafted Tier 3) and "
-        "Lexicon-Chunks/lpclex018_libellatici-sacrificati.md. verification_state set to verified-"
-        "direct despite Confidence C: the editor's own wording is directly quoted and checked, even "
-        "though citation_specificity stays at the Registry's own C letter -- the same independent-"
-        "axis rule wb_lpc_s21.py states for its own Registry-B/verification-state mapping. "
-        "Relations: three terms per this term's own Related-Terms line.",
+        "",
     ))
 
     ids.append(emit_term(

@@ -58,7 +58,7 @@ Nothing gradual and nothing private. This is a documented act under state compul
 
 **Author Gravity note:** the regulating, disciplining voice throughout is Cyprian's own — as presiding bishop, and as the party whose middle position ultimately prevailed. Doc_02 §2 records that his corpus is *"occasional rather than systematic."* **No lapsed believer's own account of undergoing the process survives anywhere in this world's corpus** (Doc_02 §6), and this entry does not supply one.
 
-**Provenance of the two-way distinction, disclosed here because the World Meaning above turns on it.** The clean split between those who sacrificed and those who only bought the paper reaches this record as the vendored edition's own **19th-century editorial endnote**, attached to a different, Confidence-C text, not as Cyprian's own classification in *De Lapsis*; `lpclex018` carries the disclosure in full. **What is Cyprian's own — and what the World Meaning actually rests on — is the refusal to let either group's failure be final**, which is *De Lapsis*'s argument throughout.
+**Provenance of the two-way distinction, disclosed here because the World Meaning above turns on it.** The split between those who sacrificed and those who only bought the paper is Cyprian's own: *Epistle LI* (Registry row 1; Hartel's Latin, row 39, Ep. 55.13 and 55.17) names both classes and treats them differently, and `lpclex018` carries the quotations. The vendored English prints the Latin class names only in the American editor's **endnote** to a different, Confidence-C text, and that endnote's closing clause is the editor's summary. **What the World Meaning rests on beyond the split is the refusal to let either group's failure be final**, which is *De Lapsis*'s argument throughout.
 
 ---
 

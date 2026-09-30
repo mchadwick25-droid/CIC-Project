@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about the general category or th
 
 ## Quick Meaning
 
-The two-way classification of the lapsed — those who bought exemption from sacrificing, and those who actually sacrificed — carrying different degrees of discipline, with all finally admitted to pardon.
+The two-way classification of the lapsed — those who bought exemption from sacrificing, and those who actually sacrificed — which Cyprian names in *Epistle LI* and treats differently: the first group admitted in the meantime, the second helped at death.
 
 ---
 
