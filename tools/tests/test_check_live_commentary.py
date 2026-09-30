@@ -1877,3 +1877,40 @@ def test_a_source_acquisition_manifest_is_a_ledger(tmp_path):
     assert hits and all(h.category == "PROTECTED" for h in hits)
     hits = _hits_for(text, tmp_path, "Build/worlds/w/gallic_G1_Scope_and_Source_Acquisition_Manifest.md")
     assert hits and all(h.category == "PROTECTED" for h in hits)
+
+
+# ---------------------------------------------------------------------------
+# Registry provenance columns and verified_by fields
+# ---------------------------------------------------------------------------
+
+_LPC_ROW = "| 42 | *Acts of the Council* | P | A | Native | — | Uses | Verified against the file | {note} | {added} | {route} |\n"
+
+
+def test_dates_in_the_last_two_registry_columns_are_provenance(tmp_path):
+    row = _LPC_ROW.format(note="Set is complete", added="2026-09-01, `lpc` build thread", route="WebSearch / 2026-09-01")
+    hits = _hits_for(row, tmp_path, "Build/worlds/lpc/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_date_in_an_earlier_registry_column_is_still_flagged(tmp_path):
+    row = _LPC_ROW.format(note="Rights re-verified against the archive.org item on 2026-09-05 after a second look at the title page", added="2026-09-01, `lpc` build thread", route="WebSearch / 2026-09-01")
+    hits = _hits_for(row, tmp_path, "Build/worlds/lpc/Source_Registry.md")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+def test_a_dated_file_name_in_an_earlier_registry_column_is_not_a_dated_note(tmp_path):
+    row = _LPC_ROW.format(note="Read in `Review-Artifacts/Full_Read_2026-09-16.md`", added="2026-09-01, `lpc` build thread", route="WebSearch / 2026-09-01")
+    hits = _hits_for(row, tmp_path, "Build/worlds/lpc/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_verified_by_field_is_structured_provenance(tmp_path):
+    text = 'sources:\n  - title: "Epistulae"\n    verified_by: "Opus adversarial review + Fable research pass, 2026-09-02"\n    rights: "pd"\n'
+    hits = _hits_for(text, tmp_path, "Build/worlds/_cross-world/download-queue-seed.yaml")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_the_same_words_in_a_note_field_are_still_flagged(tmp_path):
+    text = 'sources:\n  - title: "Epistulae"\n    note: "Caught by adversarial review on 2026-09-02"\n'
+    hits = _hits_for(text, tmp_path, "records/w/source/w.source.x.yaml")
+    assert any(h.category == "REWRITE" for h in hits)

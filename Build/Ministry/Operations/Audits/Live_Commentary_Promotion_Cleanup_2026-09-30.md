@@ -27,3 +27,13 @@ Follow-ons the rzg records carried are logged as rzg Open_Gaps_Tracking item 55.
 
 - `Cited paths` on the three lpc citations. The lpc thread owns them.
 - gallic's `facilitator_brief` field `formation_strengths[1].text`, which fails `regate` against `live` (FK 15.3, FRE 46.8). The gallic thread owns it.
+
+## Second round: the lpc library sweep (same day)
+
+After the first cleanup merged, the library sweep (#662) landed on `main` and the promotion PR's commentary check flagged 235 more lines: 109 in the lpc Source Registry, 121 in `download-queue-seed.yaml`, four in lpc's Doc_02 and one corpus-map staging comment. Two checker rules cleared 226 of them and 9 lines were edited by hand.
+
+- **Source Registry rows: dates in the last two columns are provenance.** Those columns hold "date added, by whom" and the verification route, such as `2026-09-01, lpc build thread` and `WebSearch / 2026-09-01`. A date in an earlier column, which holds the notes, is still flagged. A date that is part of a cited file name is not counted.
+- **`verified_by` fields are structured provenance.** They name who verified an entry and when, so neither the date nor "adversarial review" in that field counts. The same words in a `note` field are still flagged.
+- **Edited by hand:** Doc_02 (three "open item" references to section 9 and the evidentiary-base dates, reworded to "as of this revision"), the registry's closing paragraph and three "open item" cross-references, two lines of `download-queue-seed.yaml`, and one staging comment.
+
+Whole-tree scan against `main`'s checker: 4,253 REWRITE plus ROUTE lines fall to 3,969 (284 lines). No line became newly flagged. Five new tests pin the rules in both directions.
