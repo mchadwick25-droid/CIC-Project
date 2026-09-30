@@ -33,7 +33,7 @@ The new material is where the defects are. Row 214 points four of its thirteen s
 | P1-6 Possidius | Resolved (residue: new P2-3) | Doc_01:94 (§5) cites "*Vita* ch. VIII, in the chapter heading and in the narrative alike", and "read in full at `Review-Artifacts/Possidius_Full_Read_2026-09-16.md`". `possidius_vita-augustini_weiskotten1919.txt`:2036 `Designatur episcopus vivo Valerio et a Megalio primate`; 2077 "dained by the primate Megalius". Read artifact line 1: "complete read, all thirty-one chapters". Doc_02:21, 59, 60 and 83 now agree with this. |
 | P2-A Row 65 wording | Resolved | Registry:83 opens "**Not currently vendored (Lancel).**" |
 | P2-B Line numbers | Resolved | 86853/86856/87882 (row 44) and 113068/113076 (row 65) checked: 113068 `ACTORES    VII.`, 113076 `Augustinus  Uipporegiensis.` |
-| P2-C Row 29, 204 path | Resolved (copies outside scope remain) | `cic/corpus-map/tertullian-s-voice.yaml` does not exist; `latin-apologists.yaml`:140 "tertullian-s-voice itself is merged into latin-apologists"; Perpetua at 128/144. Rows 29 (Registry:42) and 204 (Registry:269) updated. |
+| P2-C Row 29, 204 path | Resolved (copies outside scope remain) | the file tertullian-s-voice.yaml does not exist in the corpus map; `latin-apologists.yaml`:140 "tertullian-s-voice itself is merged into latin-apologists"; Perpetua at 128/144. Rows 29 (Registry:42) and 204 (Registry:269) updated. |
 | P2-D Row 189 path | Resolved | Registry:246 names `npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml`; the file exists. |
 | P2-E Joint letter; §118 | Resolved | See P1-4 evidence. |
 | P2-F Doc_02 Status | Resolved (see new P2-7) | Doc_02:3 now discloses post-disposition edits. |

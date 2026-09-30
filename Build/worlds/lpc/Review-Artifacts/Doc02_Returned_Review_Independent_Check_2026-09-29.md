@@ -116,9 +116,9 @@ Both have been false since 2026-09-16.
 
 **P2-B. The line numbers in rows 44 and 65 are off by one.** Every cited line is one lower than its place in the file today: 86852→86853, 86855→86856, 87881→87882, 113067→113068, 113075→113076. Round 30 disclosed this as COSMETIC and held it "pending the… language-header fix". That fix is 7fc7832d5 (2026-09-09) and has already landed, so nothing blocks the correction. The world folder now cites the same file on two numbering bases: row 65 on the old one, Doc_04 and its Round 11 on the new.
 
-**P2-C. Row 29 cites `cic/corpus-map/tertullian-s-voice.yaml`, which no longer exists.** It was merged into `latin-apologists.yaml` by a5a7e312c (2026-09-10). Row 204's "assigned to `tertullian-s-voice`" is stale for the same reason.
+**P2-C. Row 29 cites the file tertullian-s-voice.yaml in the corpus map, which no longer exists.** It was merged into `latin-apologists.yaml` by a5a7e312c (2026-09-10). Row 204's "assigned to `tertullian-s-voice`" is stale for the same reason.
 
-**P2-D. Row 189 cites the path `cic/texts/npnf106_...xml` with an ellipsis.** The file is `npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml`.
+**P2-D. Row 189 cites the file npnf106 with an ellipsis in its name.** The file is `cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml`.
 
 **P2-E. Two small gaps in #557's own wording.** Letter LIII is headed as a joint letter from "Fortunatus, Alypius, and Augustin" (line 29650). Row 213 calls it "Augustine's own named succession" without saying so. Row 14's "Book II §51" is NPNF's chapter 51; the section is 118.
 
