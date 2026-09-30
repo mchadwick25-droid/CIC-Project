@@ -142,5 +142,35 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "desert-monasticism": {
+  "story": {
+   "file": "desert-monasticism/story.mp3",
+   "chars": 3657,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "desert-monasticism/docstory-0.mp3",
+   "chars": 877,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  }
  }
 }
