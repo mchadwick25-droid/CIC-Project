@@ -53,7 +53,7 @@ exactly one of four verdicts:
 Classification order, once a line matches a pattern: PROTECTED is decided
 first (path- and field-level, independent of the line's own wording).
 Within an unprotected line: ROUTE if it carries an open-item cue (still
-unresolved, not yet fixed); else REWRITE if it carries a provenance cue
+an item left for later, not yet fixed); else REWRITE if it carries a provenance cue
 (the primary patterns below, besides ROUTE's own); else KEEP.
 
 A second, narrower rule (SPOKEN_VOCAB_PATTERNS below) catches a different
@@ -421,9 +421,13 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
 # catch - still gets flagged. Found live in cic/corpus-map/: entries that
 # say a cross-check "has not yet been done" or a claim is "flagged for
 # Mark" carry no other pattern at all and were being silently skipped.
+# The word "unresolved" alone is not a cue. It states a real uncertainty in a source
+# or a tension a world holds, and it is a code term in engine/. It is a cue only with a
+# qualifier that marks the author's own scope or timing ("unresolved here", "for now").
 ROUTE_CUES = re.compile(
     r"\b(TODO|FIXME|open question|open gap|open item|not yet (resolved|fixed|answered|acquired)|"
-    r"unresolved|still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
+    r"unresolved (here|for now|pending|on purpose|until)|"
+    r"still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
     r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
     re.IGNORECASE,
@@ -1349,8 +1353,21 @@ def _method_vocabulary_category(rel: Path, line: str, matched: list[str], catego
     return "KEEP"
 
 
+# A package's manifest.json is generated output: a list of file paths and hashes
+# that `engine.m2.cli build` writes. Its text is record ids, never prose, so a
+# process word inside a record id (a file named ...-unresolved.md) is not commentary,
+# and rewording cannot remove it without renaming the record.
+_PACKAGE_MANIFEST = re.compile(r"^packages/[^/]+/[^/]+/manifest\.json$")
+
+
+def is_generated_manifest(rel: Path) -> bool:
+    return bool(_PACKAGE_MANIFEST.match(rel.as_posix()))
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
+    if is_generated_manifest(rel):
+        return []
     try:
         text = path.read_text(encoding="utf-8", errors="replace")
     except OSError:
