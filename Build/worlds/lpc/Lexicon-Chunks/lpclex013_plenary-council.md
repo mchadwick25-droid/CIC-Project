@@ -56,7 +56,7 @@ A layered and self-correcting account: wider bodies outrank narrower ones, and t
 
 **Author Gravity note.** Augustine's formula is spoken in defence of overturning Cyprian's specific ruling. His institutional interest in the argument runs opposite to Cyprian's in the paired entry, which is why this build does not treat the two formulas as reconcilable restatements of one theory.
 
-**Ecological bound**, as for the paired entry: the phrase *plenary Council* does not appear in Augustine's preaching to his congregation. He put the wider question of who judges a bishop to ordinary people in his Psalm against the Donatists (about 393), but not as this formula.
+**Ecological bound**, as for the paired entry: the phrase *plenary Council* does not appear in Augustine's preaching to his congregation. He put the wider question of who judges a bishop to ordinary people in his Psalm against the Donatists (about 393, Registry row 273), but not as this formula.
 
 **Tier note:** Doc_03 flagged this Tier 1. **Tier 2 here**; see Doc_06 §2.
 

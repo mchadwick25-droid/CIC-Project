@@ -14,13 +14,13 @@ confidence:
   formation_confidence: Inferential-Thin
   divergence_note: 'Doc_04 §3 Candidate 5: divergence flagged, not resolved -- the sharpest such divergence
     in this document. Existence of both formulas, in their own words, reaches Documented (directly quoted
-    and re-verified across Doc_01''s nine rounds); the evidential support for their ORGANIZING BREADTH
-    does not reach the same level, this candidate''s six-test profile being narrow throughout and Persistence
-    failing at world level on a disclosed search bound -- carried at the more conservative Inferential-Thin
+    and re-verified across Doc_01''s later review rounds); the evidential support for their ORGANIZING BREADTH
+    does not reach the same level, this candidate''s six-test result passing Repetition, passing only narrowly
+    on Dependency, Explanatory and Persistence, and not clearly passing Formation -- carried at the more conservative Inferential-Thin
     tier as this record''s own top-line rating rather than the bare-existence Documented tier, per this
     candidate''s own ''thin across the span, not bounded within it'' finding (Doc_04 §5). The classification
-    itself (Supporting) is set by override rather than by this document''s own six-test verdict -- carried
-    exactly as Doc_04 §3 states this, neither upgraded nor downgraded here.'
+    (Supporting) is set by the project lead''s ruling and also fits this document''s own six-test result
+    -- carried as Doc_04 §3 states this, neither upgraded nor downgraded here.'
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
@@ -59,14 +59,16 @@ description: >-
   "plenary" occurs 31 times in that treatise.
 
 
-  A real limit sits here too, and it should be said plainly. Each theory comes from one bishop's own
-  voice. Each recurs in more than one of that bishop's works. Cyprian's appears in the 256 preface and
-  in three epistles. Augustine's appears in On Baptism and in two letters.
+  A real limit sits here too, and it should be said plainly. Each theory is voiced chiefly by its own
+  bishop. In Epistle LXXIV, Firmilian also argues against Stephen and reports councils at Iconium. Each
+  theory recurs in more than one text. Cyprian's appears in the 256 preface and in three epistles.
+  Augustine's appears in On Baptism and in Letter LIV.
 
 
-  Its reach is narrow in every direction. Only one finding depends on it: that the world forms a single
+  Its reach is limited. Only one finding depends on it: that the world forms a single
   strand. It explains the shape of the rebaptism dispute between Cyprian and Stephen, and Augustine's
-  long argument against Cyprian's ruling. It explains nothing else in the wider world. It connects
+  long argument against Cyprian's ruling. In Letter LIV it also explains why the church's shared
+  feasts bind. It explains less of the wider world than the other concerns do. It connects
   clearly with collegial communion and sacramental validity, and weakly with pastoral office.
 
 
@@ -75,26 +77,25 @@ description: >-
   in Epistles LIV, LXXI and LXXV.
 
 
-  Firmilian's Epistle LXXIV argues against Stephen. Augustine appeals to plenary Councils in Letters
-  XLIII and LIV. We cannot show that ordinary believers, catechumens, or most clergy were taught the
+  Augustine appeals to plenary Councils in Letter LIV. We cannot show that ordinary believers, catechumens, or most clergy were taught the
   question or shaped by it. Neither formula appears in the sermons or teaching works we searched.
   Augustine did put a wider question to ordinary hearers: who judges a bishop? He did so against the
   Donatists. No source shows how they took it.
 
 
-  It does not carry across the whole world. Each bishop's theory recurs in more than one of his works.
-  In Cyprian's time several bishops argued over it, and clergy and people heard it at the 256 council.
-  We have found no evidence that it worked in ordinary congregational life. This is a limit of the
+  It reaches across both phases, but thinly. Each bishop's theory recurs in more than one text. In
+  Cyprian's time several bishops argued over it, and clergy and people heard it at the 256 council.
+  Among communities it shows up mainly in councils and in letters between bishops. We have found no evidence that it worked in ordinary congregational life. This is a limit of the
   search so far, not a proven absence. It runs thin across the whole span, not confined to one phase.
   It appears in both phases, more than once in each bishop's writings, with over a century between the
-  two bishops. That sets it apart from grace and human incapacity, which belongs to one phase only.
+  two bishops. That sets it apart from grace and human incapacity, which organizes only one phase.
 
 
   The uncertainty here is disclosed, not resolved. That both formulas exist, in their own words, is
   solidly attested. The evidence that they organized much of the world is much weaker. How central a
   concern is, and how confident we can be in the evidence, are two separate things, and here they
   diverge. So the record stays cautious about how central this actually is. The 411 Gesta, the
-  proceedings of that year, remain unread and have not reopened the question. It remains open.
+  proceedings of that year, remain unread. We do not rely on them, and that question is closed.
 
 
   Of everything in this world, this concern connects least to the forces acting on it, and that is

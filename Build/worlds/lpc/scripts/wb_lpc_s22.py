@@ -1572,7 +1572,7 @@ def build_tier2_terms() -> list[str]:
                              "reconcilable restatements of one theory (Author-Gravity-Risk: Yes). "
                              "The phrase 'plenary Council' does not appear in Augustine's preaching to "
                              "his congregation; the wider question of who judges a bishop was put to "
-                             "ordinary people in his Psalm against the Donatists (about 393), but not as "
+                             "ordinary people in his Psalm against the Donatists (about 393, Registry row 273), but not as "
                              "this formula."),
             sources=[
                 src(13, "On Baptism, Against the Donatists II.3 -- 'The Councils themselves, which "
@@ -1624,7 +1624,7 @@ def build_tier2_terms() -> list[str]:
                     "specific ruling, his institutional interest running opposite to Cyprian's own "
                     "in the paired entry. The phrase 'plenary Council' does not appear in Augustine's "
                     "preaching to his congregation; the wider question of who judges a bishop was "
-                    "put to ordinary people in his Psalm against the Donatists (about 393), but not as "
+                    "put to ordinary people in his Psalm against the Donatists (about 393, Registry row 273), but not as "
                     "this formula."
                 ),
                 "translational": (

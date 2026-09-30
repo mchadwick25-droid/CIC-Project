@@ -34,7 +34,7 @@ attribution_status: 'attributed. This letter sits inside the corpus map''s own D
   own first-person, in-boundary account of his own change of mind, drawn on directly by Doc_01 SS7, not
   as evidence about Donatism''s own side of anything.'
 discovery_channel: corpus map / cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml / 2026-09-01;
-  direct verification against cic/texts/npnf101_augustine-confessions-letters.xml across Doc_01's nine
+  direct verification against cic/texts/npnf101_augustine-confessions-letters.xml across Doc_01's later
   review rounds / 2026-09-01.
 external_ids:
   lpc_source_registry_row: 43

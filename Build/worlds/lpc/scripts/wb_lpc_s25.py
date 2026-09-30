@@ -259,18 +259,13 @@ own closed-graph discipline exactly:
      precision Doc_08's own prose does not uniformly support.
 
 G5'S OWN JUDGMENT CALL, STATED HERE RATHER THAN SOFTENED IN THE RECORD
-ITSELF. Candidate 5 (Conciliar Authority Theory) is the one gravity in this
-world whose classification Doc_04 itself did not reach on its own six-test
-evidence: "Alone among the eight candidates, this line does not record this
-document's own verdict on the evidence" (Doc_04 §3). It is classified
-Supporting by a ruling outside Doc_04's own six-test evidence, after
-repeated re-classification across several review rounds and a named
-gapped-formation precedent instructing the build to stop revising it
-further (Doc_04 §7 items 7-8). This script carries that classification
-exactly as Doc_04 states it -- "supporting", not re-derived, not upgraded,
-not downgraded -- and states the ruling's own provenance in the record's own
-body text rather than presenting the classification as this document's own
-settled six-test verdict, which Doc_04 explicitly says it is not. The
+ITSELF. Candidate 5 (Conciliar Authority Theory) is classified Supporting
+on the project lead's ruling, after repeated re-classification across
+several review rounds and a named gapped-formation precedent instructing the
+build to stop revising it further (Doc_04 §7 items 7-8); Doc_04 §3 also
+states that the candidate's own six-test result fits Supporting. This script
+carries that classification exactly as Doc_04 states it -- "supporting", not
+re-derived, not upgraded, not downgraded. The
 record's own confidence.formation_confidence is carried at the more
 conservative "Inferential-Thin" tier (the organizing-breadth claim, thin
 across the whole world, with more than a century between the two bishops,
@@ -548,7 +543,7 @@ def build_gravities() -> None:
         "gravity restated. Interaction: reinforces Candidates 1, 3, 4, 6; reshaped by Candidate 7 (not "
         "this gravity's own continuation); competes with Candidate 8. CONFIDENCE/GRAVITY CROSS-CHECK: "
         "Documented for Cyprian's own conduct and correspondence, directly quoted and re-verified "
-        "across Doc_01's nine rounds; of the loci this rests on, the De Lapsis locus (Row 2) sits at "
+        "across Doc_01's later review rounds; of the loci this rests on, the De Lapsis locus (Row 2) sits at "
         "Registry Confidence B, the Epistles and Pontius loci (Rows 1, 7) at A. No divergence for the "
         "Cyprian-phase gravity. FORCES-CONNECTION (Doc_08 §5): directly is Doc_01 §6's own Ongoing/"
         "Internal cell content -- connected to 1A-1 (creates its subject matter), 1B-1 (the organized "
@@ -604,7 +599,7 @@ def build_gravities() -> None:
         "merely a shared word. Interaction: reinforces Candidates 1, 2, 5, 6. CONFIDENCE/GRAVITY "
         "CROSS-CHECK -- DIVERGENCE FLAGGED, NOT RESOLVED, PER CF V7.4'S OWN RULE: the underlying "
         "primary-source facts (the 256 preface's own words; On Baptism's own extensive argument) "
-        "reach Documented, directly quoted and re-verified across Doc_01's nine rounds; the SYNTHESIS "
+        "reach Documented, directly quoted and re-verified across Doc_01's later review rounds; the SYNTHESIS "
         "-- that these facts constitute one named, cross-phase gravity, rather than two separate "
         "historical facts -- is this document's own reasoning, at Widely Accepted rather than "
         "Documented confidence. Flagged rather than resolved, and this record carries the more "
@@ -624,7 +619,7 @@ def build_gravities() -> None:
         conf("A", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Doc_04 §3 Candidate 3: divergence flagged rather than resolved. The underlying "
              "primary-source facts (the 256 preface's own words; On Baptism's own extensive argument) "
-             "reach Documented, directly quoted and re-verified across Doc_01's nine rounds; the "
+             "reach Documented, directly quoted and re-verified across Doc_01's later review rounds; the "
              "SYNTHESIS naming these facts one cross-phase gravity, rather than two separate "
              "historical facts, is this document's own reasoning at Widely Accepted confidence -- this "
              "record carries the more conservative tier as its own top-line rating rather than "
@@ -696,38 +691,43 @@ def build_gravities() -> None:
     emit_gravity(
         G5, "Conciliar Authority Theory (Egalitarian vs. Hierarchical) [SUPPORTING]",
         "supporting",
-        "Doc_04 §3 Candidate 5: the one gravity in this world whose classification Doc_04 itself did "
-        "not reach on its own six-test evidence -- 'Alone among the eight candidates, this line does "
-        "not record this document's own verdict on the evidence' (Doc_04 §3). Classified SUPPORTING "
-        "BY A RULING OUTSIDE DOC_04'S OWN SIX-TEST EVIDENCE, after repeated re-classification "
-        "across several review rounds and a named gapped-formation precedent instructing the build to "
-        "stop revising it further (Doc_04 §7 items 7-8). Author Gravity risk flagged at generation: "
-        "each pole is drawn from one bishop's own voice. Repetition: passes narrowly and "
-        "locally -- Cyprian's egalitarian formula recurs at length in the 256 preface (Row 4) and his "
-        "free-judgment position recurs in Epistles LXXI, LXXV and LIV (Row 1); "
+        "Doc_04 §3 Candidate 5: classified SUPPORTING on the project lead's ruling, after repeated "
+        "re-classification across several review rounds and a named gapped-formation precedent "
+        "instructing the build to stop revising it further (Doc_04 §7 items 7-8); the candidate's own "
+        "six-test result (Repetition passes; Dependency, Explanatory, Persistence and Interaction "
+        "pass narrowly; Formation does not clearly pass) also fits Supporting. Author Gravity risk "
+        "flagged at generation: each pole is voiced chiefly by its own bishop, and in Cyprian's phase "
+        "Firmilian (Epistle LXXIV) also contests Stephen. Repetition: passes -- Cyprian's "
+        "egalitarian formula recurs at length in the 256 preface (Row 4) and his "
+        "free-judgment position recurs in Epistles LXXI, LXXV and LIV (Row 1); Firmilian's "
+        "Epistle LXXIV (Row 1) contests Stephen and reports councils at Iconium; "
         "Augustine's hierarchical formula recurs within On Baptism (Row 13, 'plenary' 31 "
-        "times) and in Letters XLIII and LIV (Row 11). "
+        "times) and in Letter LIV (Row 11); the theory recurs across four Registry rows "
+        "(1, 4, 11 and 13), in both phases. "
         "Dependency: passes narrowly -- Doc_01's own strand-singular finding is the one place in this "
         "world's construction record that depends on this axis at all. Formation: DOES NOT CLEARLY "
         "PASS -- awareness of the question is attested (the 256 preface, Row 4 and Row 261, records "
         "presbyters, deacons and a considerable part of the congregation present; Firmilian's Epistle "
-        "LXXIV contests Stephen; Augustine appeals to plenary Councils in Letters XLIII and LIV), but "
+        "LXXIV contests Stephen; Augustine appeals to plenary Councils in Letter LIV), but "
         "this document finds no evidence that ordinary believers, catechumens, or most clergy "
         "in either phase were formed by this specific theoretical question as a teaching. "
-        "Explanatory: passes narrowly -- explains the specific shape of the Cyprian/Stephen rebaptism "
-        "dispute and Augustine's own extended argument against Cyprian's ruling, but no other, "
-        "independent aspect of the wider ecology. PERSISTENCE: DOES NOT PASS AT THE WORLD LEVEL, on a "
-        "disclosed search bound rather than an unqualified absence -- each bishop's theory recurs in "
-        "more than one of his own works, it was contested among several bishops in Cyprian's time and "
-        "argued before clergy and people at the 256 council, and this document has found no evidence "
-        "that it was operative in ordinary congregational formation. THIN ACROSS THE SPAN, NOT "
+        "Explanatory: passes narrowly -- explains the shape of the Cyprian/Stephen rebaptism "
+        "dispute and Augustine's own extended argument against Cyprian's ruling, and in Letter LIV "
+        "why the church's universal observances bind; it explains less of the ecology than "
+        "Candidates 1-3 and 6 do. PERSISTENCE: PASSES NARROWLY -- each bishop's theory recurs in "
+        "more than one text, it was contested among several bishops in Cyprian's time (Firmilian's "
+        "letter also reports councils at Iconium) and argued before clergy and people at the 256 "
+        "council; among communities it appears chiefly in episcopal councils and correspondence, and "
+        "whether it was operative in ordinary congregational formation is the Formation question, "
+        "where this document has found no evidence. THIN ACROSS THE SPAN, NOT "
         "BOUNDED WITHIN IT (Doc_04 §5's own distinction from Candidate 7's phase-boundedness): visible "
         "in both phases, in more than one text of each bishop, with over a century between the two "
         "bishops. Interaction: passes "
         "narrowly -- interacts demonstrably with Candidates 1 (weakly), 3, and 6. CONFIDENCE/GRAVITY "
         "CROSS-CHECK -- DIVERGENCE FLAGGED, NOT RESOLVED: evidence for the EXISTENCE of both formulas, "
         "in their own words, reaches Documented; the evidential support for their ORGANIZING BREADTH "
-        "does not reach the same level, this candidate's six-test profile being narrow at best -- CF "
+        "does not reach the same level, this candidate's six-test result passing Repetition, passing "
+        "narrowly on Dependency, Explanatory and Persistence, and not clearly passing Formation -- CF "
         "V7.4: 'gravity strength and evidential confidence are distinct properties that can diverge.' "
         "Carried forward at Doc_04 §7 Open Item 1 as unresolved, and NOT reopened by the 411 Gesta "
         "(unread; §7 Open Item 6) or by nine further review rounds (§7 Open Item 8, a sixth attempt at "
@@ -745,21 +745,20 @@ def build_gravities() -> None:
             "up as a bishop of bishops\" (Registry row 4)",
             "Augustine's own hierarchical formula in On Baptism II.3, invoking \"the authority of "
             "plenary Councils\" (Registry row 13, the word occurring 31 times within the treatise)",
-            "a ruling outside Doc_04's own six-test evidence, classifying this candidate Supporting after "
-            "Doc_04's own six-test assessment did not reach a verdict on the evidence (Doc_04 §3, §7 "
-            "items 7-8)",
+            "the project lead's ruling classifying this candidate Supporting, which the candidate's "
+            "own six-test result also fits (Doc_04 §3, §7 items 7-8)",
         ],
         conf("B", "verified-via-authority", "contested", "Inferential-Thin",
              "Doc_04 §3 Candidate 5: divergence flagged, not resolved -- the sharpest such divergence "
              "in this document. Existence of both formulas, in their own words, reaches Documented "
-             "(directly quoted and re-verified across Doc_01's nine rounds); the evidential support "
+             "(directly quoted and re-verified across Doc_01's later review rounds); the evidential support "
              "for their ORGANIZING BREADTH does not reach the same level, this candidate's six-test "
-             "profile being narrow throughout and Persistence failing at world level on a disclosed "
-             "search bound -- carried at the more conservative Inferential-Thin tier as this record's "
+             "result passing Repetition, passing only narrowly on Dependency, Explanatory and "
+             "Persistence, and not clearly passing Formation -- carried at the more conservative Inferential-Thin tier as this record's "
              "own top-line rating rather than the bare-existence Documented tier, per this candidate's "
              "own 'thin across the span, not bounded within it' finding (Doc_04 §5). The classification "
-             "itself (Supporting) rests on a ruling outside this document's own six-test evidence, not "
-             "this document's own six-test verdict -- carried exactly as Doc_04 §3 states this, neither upgraded nor "
+             "(Supporting) is set by the project lead's ruling and also fits this document's own "
+             "six-test result -- carried as Doc_04 §3 states this, neither upgraded nor "
              "downgraded here."),
         src("lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
@@ -790,7 +789,7 @@ def build_gravities() -> None:
         "own authority for their own rebaptism doctrine. Persistence: passes -- the question persists "
         "even as the answer changes, itself evidence of the question's own centrality. Interaction: "
         "reinforces Candidates 1, 2, 3, 5. CONFIDENCE/GRAVITY CROSS-CHECK: Documented -- both "
-        "positions directly quoted and independently re-verified across Doc_01's nine rounds (On "
+        "positions directly quoted and independently re-verified across Doc_01's later review rounds (On "
         "Baptism I.1.2; the 256 preface; Book III ch. 2 §2). No divergence. FORCES-CONNECTION (Doc_08 "
         "§5): directly connected to the Ongoing/External force of the Donatist schism (2A-3), which "
         "makes it institutionally urgent rather than a question about individual converts; re-opened "
@@ -840,8 +839,9 @@ def build_gravities() -> None:
         "catechetical/polemical formation project across thirteen dedicated works. Explanatory: passes "
         "for Augustine's own phase (explains the anti-Pelagian corpus's own existence and scale) but "
         "does not extend backward to Cyprian's own phase -- the Pelagian controversy postdates Cyprian "
-        "by over a century. Persistence: FAILS TO PASS AT THE WORLD LEVEL (Cyprian states the theme "
-        "at Ad Donatum 4 and Ad Quirinum III.4, but no Cyprian-phase controversy or body of work is "
+        "by over a century. Persistence: DOES NOT PASS AT THE WORLD LEVEL AS AN ORGANIZING FORCE (Cyprian states the theme "
+        "at Ad Donatum 4 and Ad Quirinum III.4, and Augustine cites Ad Quirinum III.4 against the "
+        "Pelagians (Row 23), but no Cyprian-phase controversy or body of work is "
         "built on it) but passes strongly within Augustine's own phase specifically -- a real temporal "
         "boundary, not a gap in the search. Interaction: passes narrowly -- reshapes Candidate 2 (a "
         "related but distinct Augustine-phase question, not that gravity's own continuation); "
@@ -864,9 +864,10 @@ def build_gravities() -> None:
              "Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented "
              "for the corpus's own existence and scale, directly vendored and independently swept by "
              "Doc_03; per Doc_02 §8's own bracket, the specific loci relied on sit at Registry "
-             "Confidence B. Persistence fails at the world level -- Cyprian states the theme (Ad "
-             "Donatum 4; Ad Quirinum III.4) but no Cyprian-phase controversy or body of work is built "
-             "on it -- a real temporal boundary named directly rather than a confidence gap."),
+             "Confidence B. Persistence does not pass at the world level as an organizing force -- Cyprian "
+             "states the theme (Ad Donatum 4; Ad Quirinum III.4) and Augustine cites him for it, but "
+             "no Cyprian-phase controversy or body of work is built on it -- a real temporal "
+             "boundary named directly rather than a confidence gap."),
         src("lpc.source.augustine-anti-pelagian-corpus"),
         "Re-derived from the approved Doc_04 §3 (Candidate 7). relations[] carries the "
         "gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above.",

@@ -686,7 +686,7 @@ ROWS: list[dict] = [
         discovery="corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / "
                   "2026-09-01; I.1.2, II.3, III ch.2 SS2, VI ch.2: direct verification against "
                   "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, Book and Chapter "
-                  "loci recomputed programmatically from the vendored markup, across Doc_01's nine "
+                  "loci recomputed programmatically from the vendored markup, across Doc_01's later "
                   "review rounds / 2026-09-01.",
         cite="A", verif="verified-direct", weight="load-bearing", formation="Documented",
         divergence="The Donatist-patrimony claim -- that the Donatists themselves appealed to "
@@ -2085,7 +2085,7 @@ ROWS: list[dict] = [
                     "by Doc_01 SS7, not as evidence about Donatism's own side of anything.",
         discovery="corpus map / cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml / "
                   "2026-09-01; direct verification against "
-                  "cic/texts/npnf101_augustine-confessions-letters.xml across Doc_01's nine review "
+                  "cic/texts/npnf101_augustine-confessions-letters.xml across Doc_01's later review "
                   "rounds / 2026-09-01.",
         cite="A", verif="verified-direct", weight="load-bearing", formation="Documented",
         divergence="Licensed narrowly for Augustine's own biographical/opinion-change claim -- 'my "

@@ -14,9 +14,9 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented
     for the corpus''s own existence and scale, directly vendored and independently swept by Doc_03; per
-    Doc_02 §8''s own bracket, the specific loci relied on sit at Registry Confidence B. Persistence fails
-    at the world level -- Cyprian states the theme (Ad Donatum 4; Ad Quirinum III.4) but no Cyprian-phase
-    controversy or body of work is built on it -- a real temporal boundary named directly
+    Doc_02 §8''s own bracket, the specific loci relied on sit at Registry Confidence B. Persistence does
+    not pass at the world level as an organizing force -- Cyprian states the theme (Ad Donatum 4; Ad Quirinum
+    III.4) and Augustine cites him for it, but no Cyprian-phase controversy or body of work is built on it -- a real temporal boundary named directly
     rather than a confidence gap.'
 sources:
 - source_id: lpc.source.augustine-anti-pelagian-corpus

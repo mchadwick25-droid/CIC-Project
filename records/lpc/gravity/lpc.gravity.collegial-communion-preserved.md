@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: 'Doc_04 §3 Candidate 3: divergence flagged rather than resolved. The underlying primary-source
     facts (the 256 preface''s own words; On Baptism''s own extensive argument) reach Documented, directly
-    quoted and re-verified across Doc_01''s nine rounds; the SYNTHESIS naming these facts one cross-phase
+    quoted and re-verified across Doc_01''s later review rounds; the SYNTHESIS naming these facts one cross-phase
     gravity, rather than two separate historical facts, is this document''s own reasoning at Widely Accepted
     confidence -- this record carries the more conservative tier as its own top-line rating rather than
     smoothing the split away, per Doc_04 §4''s own Classification Summary: ''the one-gravity synthesis

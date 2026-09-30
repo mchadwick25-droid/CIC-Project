@@ -18,7 +18,7 @@ LPC is that pairing's own first real test case — **not a defect LPC introduced
 
 ## 2. What a "gapped" formation-type actually is
 
-Two anchor figures (Cyprian 248–258, Augustine 391–430) separated by 133 years, with **no surviving voice native to this world's own boundary that continues Cyprian's** between the texts written at and just after his martyrdom (the *Acta Cypriani*, Pontius's *Life* and two martyr acts, rows 231 and 232) and Augustine's ordination. The interval is not undocumented history in general — the Great Persecution, the *traditio* crisis and the rise of Donatism are richly attested for exactly those decades, but overwhelmingly through sources belonging to a neighbouring built world (Donatism, I.4). Doc_01's phrasing, worth reusing verbatim: *"an honest silence in this world's own record, not a general absence of evidence about the period."*
+Two anchor figures (Cyprian 248–258, Augustine 391–430) separated by 133 years, with **no surviving voice in the Registry, native to this world's own boundary, that continues Cyprian's** between the texts written at and just after his martyrdom (the *Acta Cypriani*, Pontius's *Life* and two martyr acts, rows 231 and 232) and Augustine's ordination. The interval is not undocumented history in general — the Great Persecution, the *traditio* crisis and the rise of Donatism are richly attested for exactly those decades, but overwhelmingly through sources belonging to a neighbouring built world (Donatism, I.4). Doc_01's phrasing, worth reusing verbatim: *"an honest silence in this world's own record, not a general absence of evidence about the period."*
 
 ## 3. What held the world together — the pattern that worked
 
@@ -30,7 +30,7 @@ Doc_04 formalised it: **phase testing substitutes for cross-strand testing.** Ev
 
 ## 4. What went wrong — the pattern not to repeat
 
-Candidate 5 (conciliar authority) structurally needed the gap bridged. One attested locus in each phase, a century apart. Doc_04's honest finding: **"thin across the span, not bounded within it"** — real, but not persistent at world level. **That is the correct final shape of what the evidence supports, not an unfinished analysis.**
+Candidate 5 (conciliar authority) structurally needed the gap bridged. Each bishop's theory recurs in more than one text, and the two bishops are more than a century apart. Doc_04's honest finding: **"thin across the span, not bounded within it"** — real, but not persistent at world level. **That is the correct final shape of what the evidence supports, not an unfinished analysis.**
 
 **4a. Reaching for a neighbouring world's evidence to bridge the gap.** Two independent attempts to extract findings from the 411 *Gesta* (Donatism's home territory) were both found unsound on review — the first counted Migne's editorial apparatus as conference record and came in ~45% low on its key term; the second mistook a genuine ~7,000-line band for footnote apparatus without opening it, and misattributed a speaker across a two-column line split. **A source belonging to a neighbouring world's home territory should be used for narrow, specific, independently-verifiable facts only — never asked to retroactively prove a thin candidate's persistence across a century it was never written to document.**
 

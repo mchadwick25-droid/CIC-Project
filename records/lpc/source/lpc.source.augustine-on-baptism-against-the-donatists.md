@@ -30,7 +30,7 @@ rights_status: public-domain; vendored in cic/texts/, and the specific content t
 attribution_status: attributed
 discovery_channel: 'corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01;
   I.1.2, II.3, III ch.2 SS2, VI ch.2: direct verification against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
-  Book and Chapter loci recomputed programmatically from the vendored markup, across Doc_01''s nine review
+  Book and Chapter loci recomputed programmatically from the vendored markup, across Doc_01''s later review
   rounds / 2026-09-01.'
 external_ids:
   lpc_source_registry_row: 13
