@@ -47,7 +47,7 @@ id is assigned once, by --assign-ids, and written into the staging file; a row
 that already has one is never touched, so a later title correction cannot move
 it. The slug is the lower-cased work title folded to ASCII, runs of anything
 else become one hyphen, and it is cut at a hyphen boundary to 60 characters.
-Two rows of one volume with the same slug take `-2`, `-3` in staging order.
+A slug already taken, in the same volume or by a hand-entered id, takes the first free suffix `-2`, `-3`, in staging order.
 A row lands in every bucket its `atlas_ids` name, so one `row_id` may appear in
 several buckets; corpus_map.validate() requires that it always be the same work.
 """
@@ -177,40 +177,59 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
     """Give every staging row lacking a `row_id` one. Returns (assigned,
     collisions resolved, findings). A row that has an id is never changed.
     The id is inserted as the row's first key by editing the file's text, so
-    comments and layout in the staging file survive."""
+    comments and layout in the staging file survive.
+
+    All-or-nothing: every file is planned first, and if any finding turns up
+    nothing is written, so a bad file can never leave earlier files half done.
+    A row the text edit cannot place safely (flow mapping, non-mapping item,
+    anchor or alias, a `row_id` key holding null) is a finding, never a guess."""
     import yaml
 
     findings: list[str] = []
-    files: list[tuple[Path, str, list[tuple[int, int]]]] = []
+    plans: list[tuple[Path, str, str, list[tuple[int, int, dict]]]] = []
     used: set[str] = set()
     for path in sorted(STAGING.glob("*.yaml")):
-        text = path.read_text(encoding="utf-8")
-        node = yaml.compose(text)
-        seq = next((v for k, v in node.value if k.value == "assignments"), None) if node else None
-        if not isinstance(seq, yaml.SequenceNode):
-            findings.append(f"{path.name}: `assignments` is not a list")
+        text = path.read_bytes().decode("utf-8")
+        eol = "\r\n" if "\r\n" in text else "\n"
+        loader = yaml.SafeLoader(text)
+        try:
+            node = loader.get_single_node()
+            doc = loader.construct_document(node) if node is not None else None
+        except yaml.YAMLError as err:
+            findings.append(f"{path.name}: not parseable YAML ({err.__class__.__name__})")
             continue
-        entries = []
-        for item in seq.value:
-            if not isinstance(item, yaml.MappingNode) or item.flow_style:
-                findings.append(f"{path.name}: line {item.start_mark.line + 1}: row is not a block mapping")
-                continue
-            entries.append((item.start_mark.line, item.start_mark.column))
-        files.append((path, text, entries))
-        doc = yaml.safe_load(text) or {}
-        for entry in doc.get("assignments") or []:
-            if isinstance(entry, dict) and isinstance(entry.get("row_id"), str):
-                used.add(entry["row_id"])
+        finally:
+            loader.dispose()
+        if not isinstance(doc, dict) or not isinstance(doc.get("assignments"), list):
+            findings.append(f"{path.name}: top level is not a mapping with an `assignments` list")
+            continue
+        seq = next(v for k, v in node.value if k.value == "assignments")
+        lines = text.split(eol)
+        seen_nodes: set[int] = set()
+        todo: list[tuple[int, int, dict]] = []
+        for item, row in zip(seq.value, doc["assignments"]):
+            line_no, col = item.start_mark.line, item.start_mark.column
+            where = f"{path.name}: line {line_no + 1}"
+            if not isinstance(row, dict) or not isinstance(item, yaml.MappingNode) or item.flow_style:
+                findings.append(f"{where}: row is not a block mapping")
+            elif id(item) in seen_nodes:
+                findings.append(f"{where}: row is a YAML alias")
+            elif lines[line_no][col - 2:col] != "- ":
+                findings.append(f"{where}: cannot place row_id (anchor or unusual layout)")
+            elif "row_id" in row and not (isinstance(row["row_id"], str) and row["row_id"].strip()):
+                findings.append(f"{where}: `row_id` is present but not a non-empty string")
+            elif "row_id" not in row:
+                todo.append((line_no, col, row))
+            seen_nodes.add(id(item))
+            if isinstance(row, dict) and isinstance(row.get("row_id"), str):
+                used.add(row["row_id"])
+        plans.append((path, text, eol, todo))
 
     assigned = collisions = 0
-    for path, text, entries in files:
-        doc = yaml.safe_load(text) or {}
-        rows = doc.get("assignments") or []
-        lines = text.split("\n")
-        inserts: list[tuple[int, str]] = []
-        for (line_no, col), row in zip(entries, rows):
-            if row.get("row_id") is not None:
-                continue
+    edits: list[tuple[Path, str]] = []
+    for path, text, eol, todo in plans:
+        lines = text.split(eol)
+        for line_no, col, row in todo:
             base = f"{path.stem}--{work_slug(row.get('work'))}"
             row_id, n = base, 1
             while row_id in used:
@@ -218,16 +237,14 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
                 row_id = f"{base}-{n}"
             collisions += n > 1
             used.add(row_id)
-            if lines[line_no][col - 2:col] != "- ":
-                findings.append(f"{path.name}: line {line_no + 1}: cannot place row_id")
-                continue
-            inserts.append((line_no, f"{lines[line_no][:col - 2]}- row_id: {row_id}\n"
-                                      f"{' ' * col}{lines[line_no][col:]}"))
+            lines[line_no] = (f"{lines[line_no][:col - 2]}- row_id: {row_id}{eol}"
+                              f"{' ' * col}{lines[line_no][col:]}")
             assigned += 1
-        if inserts and write:
-            for line_no, replacement in inserts:
-                lines[line_no] = replacement
-            path.write_text("\n".join(lines), encoding="utf-8")
+        if todo:
+            edits.append((path, eol.join(lines)))
+    if write and not findings:
+        for path, new_text in edits:
+            path.write_bytes(new_text.encode("utf-8"))
     return assigned, collisions, findings
 
 

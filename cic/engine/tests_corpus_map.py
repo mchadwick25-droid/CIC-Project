@@ -122,8 +122,8 @@ results.append(check("every real staging row carries a row_id", all(r.get("row_i
 results.append(check("work_slug folds accents, punctuation and case",
                      corpus_map_merge.work_slug("Sermon (De Trinitate) - Ambrosius' \u00c6thelred!") == "sermon-de-trinitate-ambrosius-thelred"))
 results.append(check("work_slug falls back when nothing survives", corpus_map_merge.work_slug("\u2014") == "work"))
-long_slug = corpus_map_merge.work_slug("word " * 40)
-results.append(check("work_slug is cut at a word boundary", len(long_slug) <= 60 and not long_slug.endswith("-")))
+long_slug = corpus_map_merge.work_slug("abcdefghi " * 10)
+results.append(check("work_slug is cut at a word boundary", long_slug == "-".join(["abcdefghi"] * 6)))
 
 _STAGED = """# a comment that must survive
 source_file: vol1.xml
@@ -182,6 +182,40 @@ def _dry_case(path, load_rows):
 
 results.append(check("assign_ids with write=False reports and writes nothing",
                      _in_temp_staging(_STAGED, _dry_case) == (3, True)))
+
+def _refusal_case(text):
+    def case(path, load_rows):
+        other = path.parent / "vol0.yaml"
+        other.write_text("source_file: v0.xml\nassignments:\n- work: Z\n  atlas_ids: [x]\n", encoding="utf-8")
+        before = (path.read_text(), other.read_text())
+        assigned, _, findings = corpus_map_merge.assign_ids()
+        return bool(findings) and before == (path.read_text(), other.read_text())
+    return _in_temp_staging(text, case)
+
+
+_HEAD = "source_file: vol1.xml\nassignments:\n"
+results.append(check("a flow-mapping row is refused and nothing is written, in any file",
+                     _refusal_case(_HEAD + "- work: A\n- {work: B}\n- work: C\n")))
+results.append(check("a non-mapping row is refused and nothing is written",
+                     _refusal_case(_HEAD + "- work: A\n- just a string\n")))
+results.append(check("an anchored row is refused and nothing is written",
+                     _refusal_case(_HEAD + "- &r\n  work: A\n- *r\n")))
+results.append(check("a null row_id is refused and nothing is written",
+                     _refusal_case(_HEAD + "- row_id:\n  work: A\n")))
+results.append(check("a top-level list is refused without a crash",
+                     _refusal_case("- work: A\n")))
+
+
+def _crlf_case(path, load_rows):
+    corpus_map_merge.assign_ids()
+    raw = path.read_bytes()
+    return raw.count(b"\r\n") == raw.count(b"\n") and load_rows()[0]["row_id"] == "vol1--a"
+
+
+_STAGING_ROOT = corpus_map_merge.STAGING
+results.append(check("CRLF line endings survive an assignment",
+                     _in_temp_staging("source_file: vol1.xml\r\nassignments:\r\n- work: A\r\n  atlas_ids: [x]\r\n",
+                                      _crlf_case)))
 
 dup_findings = _in_temp_staging(
     "source_file: vol1.xml\nassignments:\n- row_id: same\n  work: A\n  atlas_ids: [x]\n"
