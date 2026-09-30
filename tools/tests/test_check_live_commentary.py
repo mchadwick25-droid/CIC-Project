@@ -1649,3 +1649,24 @@ def test_method_rule_does_not_reach_other_paths(tmp_path):
     for rel in ("Build/reference/other/Doc.md", "Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", "Build/worlds/syr/Doc_01.md", "engine/x.md"):
         cats = [h.category for h in _hits_for("The reviewer reads it at the era gate.\n", tmp_path, rel)]
         assert set(cats) & _BLOCKING, rel
+
+# ---------------------------------------------------------------------------
+# Generated package manifests
+# ---------------------------------------------------------------------------
+
+_MANIFEST_WITH_PROCESS_WORD = '{"files":{"records/demonstration/w.demo.bagai-unresolved.md":"sha256:ab"}}\n'
+
+
+def test_generated_package_manifest_is_not_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "packages/w/2026-01-01T00-00-00Z/manifest.json")
+    assert hits == []
+
+
+def test_same_text_elsewhere_in_packages_is_still_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "packages/w/2026-01-01T00-00-00Z/notes.json")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_a_manifest_outside_packages_is_still_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "engine/manifest.json")
+    assert [h.category for h in hits] == ["ROUTE"]
