@@ -1,6 +1,7 @@
 source_file: hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt
 assignments:
-- work: M. Jana Husi Korespondence a dokumenty (critical edition of Hus's letters and related documents)
+- row_id: hus_korespondence-a-dokumenty-lat-ces_novotny1920--m-jana-husi-korespondence-a-dokumenty-critical-edition-of
+  work: M. Jana Husi Korespondence a dokumenty (critical edition of Hus's letters and related documents)
   author: hus
   locus: whole volume
   atlas_ids:

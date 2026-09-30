@@ -2,7 +2,8 @@
 # AUTHORS.md's `gregory-nazianzen`.
 source_file: gregory-nazianzen_first-invective-against-julian_king1888.txt
 assignments:
-- work: First Invective Against Julian the Emperor (Oration 4)
+- row_id: gregory-nazianzen_first-invective-against-julian_king1888--first-invective-against-julian-the-emperor-oration-4
+  work: First Invective Against Julian the Emperor (Oration 4)
   author: gregory-nazianzen
   locus: whole file
   atlas_ids:

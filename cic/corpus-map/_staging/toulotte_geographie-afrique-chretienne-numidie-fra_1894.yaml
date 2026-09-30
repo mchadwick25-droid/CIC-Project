@@ -2,7 +2,8 @@
 source_file: toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt
 
 assignments:
-  - work: "Geographie de l'Afrique chretienne: Numidie (Toulotte, 1894)"
+  - row_id: toulotte_geographie-afrique-chretienne-numidie-fra_1894--geographie-de-l-afrique-chretienne-numidie-toulotte-1894
+    work: "Geographie de l'Afrique chretienne: Numidie (Toulotte, 1894)"
     author: toulotte
     locus: "whole file; title page imprint at file line 194; the running head 'L'AFRIQUE CHRETIENNE / NUMIDIE' at file line 237"
     atlas_ids:

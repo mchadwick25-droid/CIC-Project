@@ -4,7 +4,8 @@
 source_file: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
 
 assignments:
-  - work: "Tractatus in Ioannis Evangelium CXXIV (Maurist edition, Migne reissue)"
+  - row_id: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2--tractatus-in-ioannis-evangelium-cxxiv-maurist-edition-migne
+    work: "Tractatus in Ioannis Evangelium CXXIV (Maurist edition, Migne reissue)"
     author: augustine
     locus: "file line 4549 ('TRACTATUS I. CAPUT I.'); last tractate 'TRACTATUS CXXIV. CAPUT XXI.' at file line 46242"
     atlas_ids:
@@ -22,7 +23,8 @@ assignments:
       Maurist edition, reissued in Migne's Patrologia Latina (PL 35). Mirrors the English twin's role
       and confidence exactly.
 
-  - work: "In Epistolam Ioannis ad Parthos Tractatus X (Maurist edition, Migne reissue)"
+  - row_id: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2--in-epistolam-ioannis-ad-parthos-tractatus-x-maurist-edition
+    work: "In Epistolam Ioannis ad Parthos Tractatus X (Maurist edition, Migne reissue)"
     author: augustine
     locus: "file line 46895 (heading 'IN EPISTOLAM JOANNIS AD PARTHOS'); first tractate at file line 46795"
     atlas_ids:

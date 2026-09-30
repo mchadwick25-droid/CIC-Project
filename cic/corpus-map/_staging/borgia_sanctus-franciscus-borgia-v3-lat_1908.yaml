@@ -1,6 +1,7 @@
 source_file: borgia_sanctus-franciscus-borgia-v3-lat_1908.txt
 assignments:
-- work: Sanctus Franciscus Borgia, Tomus III (1539-1565)
+- row_id: borgia_sanctus-franciscus-borgia-v3-lat_1908--sanctus-franciscus-borgia-tomus-iii-1539-1565
+  work: Sanctus Franciscus Borgia, Tomus III (1539-1565)
   author: borgia
   locus: whole volume - Tomus III, 1539-1565
   atlas_ids:

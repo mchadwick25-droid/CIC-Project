@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: mission-born-christianities-kirishitan-japan-kon
 works:
-- work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
+- row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci-2
+  work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
   author: trigault
   locus: whole text, five books
   role: context

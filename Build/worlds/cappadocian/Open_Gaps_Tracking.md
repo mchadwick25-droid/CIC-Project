@@ -584,3 +584,28 @@ Round 2 checked the Phase Five document and Facilitation Brief directly against 
 **Checked.** Word totals after the change: alx 450, hal 551, ijc 771, desert 693, syr 721, gallic 1500. Every note parses and carries all four sentences. All six packages were rebuilt and repinned, `staleness-check` reports no stale world, and `determinism-check` passes for all six. `engine.m9.cli check` is clean after one waiver correction: ijc's readability findings fell from 163 to 162 with this edit alone (checked directly with `gates.gate_readability` on `main`'s records and on this branch's), so `m1:readability/ijc` was tightened to 162.
 
 **Still open.** don, rzg, pahc, lpc and fix hold their voice record under a differently-named schema (`<world>.craft.<name>-voice`). Whether each carries an equivalent guard is not yet characterized. No runtime output check exists for the first three sentences; only the pronoun family in `engine/m4/output_check.py` covers the fourth.
+
+
+### OG-26. Correction to OG-25 (2026-09-29): gallic's self-reference note failed `engine.m10.cli deployed gallic` and was redone with the exact required wording.
+
+**What was wrong.** OG-25 recorded that gallic received "a compressed 31-word version" of the four self-narration rules and that every note "carries all four sentences." That check used loose keyword matches, not `engine.m10.cli deployed`. Run properly, gallic failed two of the four rules: the compressed sentences dropped "our own" from the refusal rule and "named" from the roles rule, so the check's required stems did not match.
+
+**What was done.** The two sentences now read "No narrating our own refusal as if it were itself an answer." and "No 'I' smuggled in through a list of named roles." To stay inside gallic's 1500-word ceiling with no exception requested, the phrase "on any subject," was removed from the sentence on the rest of the turn, which already says "for the rest of the turn, however phrased." The record totals 1499 words. The package was rebuilt and repinned. `engine.m10.cli deployed gallic`, `determinism-check`, `staleness-check` and `engine.m9.cli check` all pass. alx, hal, ijc, desert and syr passed `deployed` at OG-25 and are unchanged.
+
+**Still open.** don, rzg, pahc and fix fail `deployed` on the `[self-reference]` note, and fix also lacks a `source_anchor`. lpc has no registry entry or pin, so `deployed` cannot run on it.
+
+### OG-27. Live probe sample of the self-narration guard on alx, and the V2.0 self-reference status of the remaining worlds, 2026-09-29.
+
+**What was run.** Six probes (nature, personal memory, a decline on women's own words, a role-list bait, a defended "we", an identity collision between Clement and Origen) were run once on alx's prompt from before the guard rollout and once on the current prompt, through the same generation path admission uses. Twelve live calls cost $0.2377 against a $0.75 cap Mark authorized. The two prompts were compiled from a checkout of the commit before the rollout and from main, with identical provenance arguments, and differ only in the four added sentences.
+
+**What it showed.** No clear improvement. Neither prompt held the "strict we-voice": first-person singular words across the six answers were 22 before and 24 with the guard. The new prompt repeated build vocabulary to the participant in the nature probe ("sanctioned fabrications", "registry"), slipped into "I" in the memory probe, and used more first-person singular in the role probe. It used far less in the defended-"we" probe (11 down to 2). One sample per cell cannot separate a real effect from noise. The probes bypass routing, so a direct question about the system's nature would go to the scripted Facilitator turn in production.
+
+**A trap for future comparisons.** `engine.m10.deployed.recompile_pinned` compiles from the current working tree, and `records_commit` is only a provenance string, so it cannot rebuild an old pin's prompt. A before-and-after comparison needs a checkout of the older commit.
+
+**V2.0 `deployed` status.** alx, hal, ijc, desert, syr, gallic, don, rzg and pahc pass. fix fails two findings, no `[self-reference]` note and no `source_anchor`, and is held: its own guard says it adds no extra rules, and a `source_anchor` needs 5 to 10 registry entries from a fixture with two sources. Exempting the fixture from the check is a governance-level change and is undecided. lpc has no registry entry or pin, so the check cannot run on it.
+
+**Still open.** No runtime output check exists for the first three self-narration rules; the pronoun family in `engine/m4/output_check.py` covers only the fourth and only reports. Whether to add one is a design decision.
+
+### OG-28. The fixture world is exempt from two `deployed` checks, decided 2026-09-30.
+
+OG-27 left `fix` failing `engine.m10.cli deployed` on two findings and the exemption undecided. Mark decided on 2026-09-30 to exempt the fixture. `engine/m10/deployed.py` now skips the source-anchor check and the `[self-reference]` check for a world whose registry entry says `kind: fixture`, and reports each skip as a note. The reason: `fix` is a synthetic test world with two short sources, so it has no Source Registry to draw the 5 to 10 anchor entries from, and its own guard says it adds no extra voice rules. Every other check still runs on it, and the same prompt still fails a world that is not a fixture; three tests in `engine/m10/tests/test_deployed.py` pin both. Only `fix` carries `kind: fixture` in `records/worlds/`. `deployed` now passes for all ten worlds that have a pinned package; lpc has no registry entry or pin, so the check cannot run on it.

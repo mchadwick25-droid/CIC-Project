@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: czech-churches-last-century
 works:
-- work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-2
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
   author: comenius
   locus: whole volume; preface by Buddeus
   role: context

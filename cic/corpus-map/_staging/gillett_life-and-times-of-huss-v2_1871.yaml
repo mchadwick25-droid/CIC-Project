@@ -1,7 +1,8 @@
 source_file: gillett_life-and-times-of-huss-v2_1871.txt
 
 assignments:
-  - work: "The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century, Vol. II"
+  - row_id: gillett_life-and-times-of-huss-v2_1871--the-life-and-times-of-john-huss-or-the-bohemian-reformation
+    work: "The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century, Vol. II"
     author: gillett
     locus: "whole volume"
     atlas_ids:

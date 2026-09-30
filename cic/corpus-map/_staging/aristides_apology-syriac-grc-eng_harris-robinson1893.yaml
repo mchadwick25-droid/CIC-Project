@@ -5,7 +5,8 @@
 source_file: aristides_apology-syriac-grc-eng_harris-robinson1893.txt
 
 assignments:
-  - work: "The Apology of Aristides the Philosopher"
+  - row_id: aristides_apology-syriac-grc-eng_harris-robinson1893--the-apology-of-aristides-the-philosopher
+    work: "The Apology of Aristides the Philosopher"
     author: aristides
     locus: "file line 2133 (heading 'THE APOLOGY OF ARISTIDES, TRANSLATED FROM THE SYRIAC'; Robinson's Greek appendix ('The Greek Text of Barlaam and Josaphat') begins at line 4583)"
     atlas_ids:

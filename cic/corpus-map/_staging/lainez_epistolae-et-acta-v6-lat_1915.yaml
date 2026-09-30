@@ -1,6 +1,7 @@
 source_file: lainez_epistolae-et-acta-v6-lat_1915.txt
 assignments:
-- work: 'Lainii Monumenta: Epistolae et Acta, Tomus 6 (1561-1563)'
+- row_id: lainez_epistolae-et-acta-v6-lat_1915--lainii-monumenta-epistolae-et-acta-tomus-6-1561-1563
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 6 (1561-1563)'
   author: lainez
   locus: whole volume - Tomus 6, 1561-1563
   atlas_ids:

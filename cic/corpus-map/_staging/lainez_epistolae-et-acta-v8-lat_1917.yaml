@@ -1,6 +1,7 @@
 source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
 assignments:
-- work: 'Lainii Monumenta: Epistolae et Acta, Tomus 8 (1564-1565)'
+- row_id: lainez_epistolae-et-acta-v8-lat_1917--lainii-monumenta-epistolae-et-acta-tomus-8-1564-1565
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 8 (1564-1565)'
   author: lainez
   locus: whole volume - Tomus 8, 1564-1565
   atlas_ids:

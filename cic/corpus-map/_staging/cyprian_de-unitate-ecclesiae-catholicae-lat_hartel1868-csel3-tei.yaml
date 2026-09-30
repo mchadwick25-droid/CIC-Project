@@ -3,7 +3,8 @@
 source_file: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei--de-unitate-ecclesiae-catholicae-csel-3-latin-text-tei
+    work: "De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 109 (first text of the TEI body, opening 'Cum moneat Dominus et dicat'); urn:cts:latinLit:stoa0104a.stoa010.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 7685-8633"
     atlas_ids:
@@ -23,7 +24,8 @@ assignments:
       the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
       with any quotation. Mirrors the English twin's roles and confidence exactly.
 
-  - work: "De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei--de-unitate-ecclesiae-catholicae-csel-3-latin-text-tei-2
+    work: "De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 109 (first text of the TEI body, opening 'Cum moneat Dominus et dicat'); urn:cts:latinLit:stoa0104a.stoa010.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 7685-8633"
     atlas_ids:
@@ -43,7 +45,8 @@ assignments:
       the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
       with any quotation. Mirrors the English twin's roles and confidence exactly.
 
-  - work: "De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei--de-unitate-ecclesiae-catholicae-csel-3-latin-text-tei-3
+    work: "De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 109 (first text of the TEI body, opening 'Cum moneat Dominus et dicat'); urn:cts:latinLit:stoa0104a.stoa010.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 7685-8633"
     atlas_ids:

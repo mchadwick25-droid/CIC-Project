@@ -6,7 +6,8 @@
 # this project's no-deletion-of-superseded-material practice.
 source_file: gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt
 assignments:
-- work: The Life of St. Macrina - Clarke's Introduction only (not the
+- row_id: gregory-nyssa_life-of-macrina-introduction-only_clarke1916--the-life-of-st-macrina-clarke-s-introduction-only-not-the
+  work: The Life of St. Macrina - Clarke's Introduction only (not the
     biography's narrative text)
   author: gregory-nyssa
   locus: whole file (Clarke's translator's introduction, three sections)

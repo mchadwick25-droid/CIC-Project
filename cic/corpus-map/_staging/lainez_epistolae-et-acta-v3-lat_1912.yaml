@@ -1,6 +1,7 @@
 source_file: lainez_epistolae-et-acta-v3-lat_1912.txt
 assignments:
-- work: 'Lainii Monumenta: Epistolae et Acta, Tomus 3 (1558)'
+- row_id: lainez_epistolae-et-acta-v3-lat_1912--lainii-monumenta-epistolae-et-acta-tomus-3-1558
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 3 (1558)'
   author: lainez
   locus: whole volume - Tomus 3, 1558
   atlas_ids:

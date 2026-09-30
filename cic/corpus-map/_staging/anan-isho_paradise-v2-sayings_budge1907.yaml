@@ -1,7 +1,8 @@
 # Fulfils desert manifest request G1.
 source_file: anan-isho_paradise-v2-sayings_budge1907.txt
 assignments:
-- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+- row_id: anan-isho_paradise-v2-sayings_budge1907--the-paradise-of-the-holy-fathers-volume-ii-the-sayings-of
+  work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
   locus: whole file; fourteen thematic chapters plus the Questions and Answers, sayings numbered
   atlas_ids:
@@ -17,7 +18,8 @@ assignments:
     public-domain English (desert.search.greek-alphabetical-pd-english).
 
     '
-- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+- row_id: anan-isho_paradise-v2-sayings_budge1907--the-paradise-of-the-holy-fathers-volume-ii-the-sayings-of-2
+  work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
   locus: the recension itself, as a Syriac act of collection and preservation
   atlas_ids:

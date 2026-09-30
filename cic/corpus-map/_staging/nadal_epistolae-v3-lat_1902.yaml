@@ -1,6 +1,7 @@
 source_file: nadal_epistolae-v3-lat_1902.txt
 assignments:
-- work: Epistolae P. Hieronymi Nadal, Tomus III (1566-1577)
+- row_id: nadal_epistolae-v3-lat_1902--epistolae-p-hieronymi-nadal-tomus-iii-1566-1577
+  work: Epistolae P. Hieronymi Nadal, Tomus III (1566-1577)
   author: nadal
   locus: whole volume - Tomus III, 1566-1577
   atlas_ids:

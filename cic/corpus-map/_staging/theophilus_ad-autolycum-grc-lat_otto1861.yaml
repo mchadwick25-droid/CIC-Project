@@ -4,7 +4,8 @@
 source_file: theophilus_ad-autolycum-grc-lat_otto1861.txt
 
 assignments:
-  - work: "Theophilus to Autolycus"
+  - row_id: theophilus_ad-autolycum-grc-lat_otto1861--theophilus-to-autolycus
+    work: "Theophilus to Autolycus"
     author: theophilus
     locus: "file line 2571 (heading 'LIBER PRIMUS' (Book I, after the prolegomena))"
     atlas_ids:

@@ -1,6 +1,7 @@
 source_file: lainez_epistolae-et-acta-v4-lat_1915.txt
 assignments:
-- work: 'Lainii Monumenta: Epistolae et Acta, Tomus 4 (1558-1560)'
+- row_id: lainez_epistolae-et-acta-v4-lat_1915--lainii-monumenta-epistolae-et-acta-tomus-4-1558-1560
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 4 (1558-1560)'
   author: lainez
   locus: whole volume - Tomus 4, 1558-1560
   atlas_ids:

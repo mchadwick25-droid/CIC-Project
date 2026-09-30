@@ -1,6 +1,7 @@
 source_file: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt
 assignments:
-- work: Acta P. Ignatii (the Autobiography, original Spanish and Italian) and early writings on Ignatius
+- row_id: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904--acta-p-ignatii-the-autobiography-original-spanish-and
+  work: Acta P. Ignatii (the Autobiography, original Spanish and Italian) and early writings on Ignatius
   author: ignatius-loyola
   locus: whole volume; the Acta open the volume (item 1, from the volume's own index)
   atlas_ids:

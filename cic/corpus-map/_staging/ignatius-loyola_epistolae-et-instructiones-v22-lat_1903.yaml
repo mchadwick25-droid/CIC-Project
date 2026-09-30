@@ -1,7 +1,8 @@
 source_file: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt
 
 assignments:
-  - work: "Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22"
+  - row_id: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903--monumenta-ignatiana-epistolae-et-instructiones-vol-22
+    work: "Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22"
     author: ignatius-loyola
     locus: "whole volume - Tomus I of Ignatius's letters (title page: TOMUS PRIMUS), volume 22 of the MHSI series"
     atlas_ids:

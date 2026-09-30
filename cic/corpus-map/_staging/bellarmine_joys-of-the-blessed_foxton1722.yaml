@@ -1,7 +1,8 @@
 source_file: bellarmine_joys-of-the-blessed_foxton1722.txt
 
 assignments:
-  - work: "The Joys of the Blessed"
+  - row_id: bellarmine_joys-of-the-blessed_foxton1722--the-joys-of-the-blessed
+    work: "The Joys of the Blessed"
     author: bellarmine
     locus: "whole volume (Addison's accompanying essay is not Bellarmine's own voice)"
     atlas_ids:

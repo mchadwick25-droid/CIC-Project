@@ -4,7 +4,8 @@
 source_file: arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt
 
 assignments:
-  - work: "The Seven Books of Arnobius Against the Heathen (Adversus Gentes)"
+  - row_id: arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei--the-seven-books-of-arnobius-against-the-heathen-adversus
+    work: "The Seven Books of Arnobius Against the Heathen (Adversus Gentes)"
     author: arnobius
     locus: "file line 102 (start of the TEI <body>, Book I follows)"
     atlas_ids:

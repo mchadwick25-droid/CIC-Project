@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: st-thomas-christians-of-india
 works:
-- work: Acts of Thomas (with the Consummation of Thomas)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-thomas-with-the-consummation-of-thomas
+  work: Acts of Thomas (with the Consummation of Thomas)
   author: acts-of-thomas
   locus: div2 7.33-7.34
   role: tradition
@@ -15,7 +16,8 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-of-the-st-thomas
+  work: Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)
   author: liturgy-of-malabar
   locus: file lines about 8150-9700 (page header 'MALABAR')
   role: context

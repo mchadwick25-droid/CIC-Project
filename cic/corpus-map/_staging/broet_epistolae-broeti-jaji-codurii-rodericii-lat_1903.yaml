@@ -1,6 +1,7 @@
 source_file: broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt
 assignments:
-- work: Letters of Paschase Broet, Claude Le Jay, Jean Codure and Simao Rodrigues
+- row_id: broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903--letters-of-paschase-broet-claude-le-jay-jean-codure-and
+  work: Letters of Paschase Broet, Claude Le Jay, Jean Codure and Simao Rodrigues
   author: broet
   locus: whole volume; four writers
   atlas_ids:

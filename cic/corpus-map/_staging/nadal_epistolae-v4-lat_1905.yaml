@@ -1,6 +1,7 @@
 source_file: nadal_epistolae-v4-lat_1905.txt
 assignments:
-- work: Nadal's selected writings (instructions and other monuments), Epistolae Tomus IV
+- row_id: nadal_epistolae-v4-lat_1905--nadal-s-selected-writings-instructions-and-other-monuments
+  work: Nadal's selected writings (instructions and other monuments), Epistolae Tomus IV
   author: nadal
   locus: whole volume - Tomus IV
   atlas_ids:

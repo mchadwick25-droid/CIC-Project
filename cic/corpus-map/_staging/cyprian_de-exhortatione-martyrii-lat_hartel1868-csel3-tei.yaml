@@ -3,7 +3,8 @@
 source_file: cyprian_de-exhortatione-martyrii-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "Ad Fortunatum (the TEI title reads 'De Exhortatione Martyrii'), CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-exhortatione-martyrii-lat_hartel1868-csel3-tei--ad-fortunatum-the-tei-title-reads-de-exhortatione-martyrii
+    work: "Ad Fortunatum (the TEI title reads 'De Exhortatione Martyrii'), CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 109 (first text of the TEI body, opening 'Desiderasti, Fortunate carissime'); urn:cts:latinLit:stoa0104a.stoa005.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 11482-12643"
     atlas_ids:

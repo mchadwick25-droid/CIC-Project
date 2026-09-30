@@ -3,7 +3,8 @@
 source_file: minucius-felix_octavius-lat_halm1867-csel2-tei.txt
 
 assignments:
-  - work: "The Octavius of Minucius Felix"
+  - row_id: minucius-felix_octavius-lat_halm1867-csel2-tei--the-octavius-of-minucius-felix
+    work: "The Octavius of Minucius Felix"
     author: felix
     locus: "file line 102 (start of the TEI <body>, Octavius follows)"
     atlas_ids:

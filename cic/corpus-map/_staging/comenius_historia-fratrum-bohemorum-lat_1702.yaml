@@ -1,6 +1,7 @@
 source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
 assignments:
-- work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
   author: comenius
   locus: whole volume; preface by Buddeus
   atlas_ids:
@@ -13,7 +14,8 @@ assignments:
     not quotable: a 1702 print with the long s read as f throughout and many word-level misreads (word-form
     coverage against a clean Latin vocabulary 0.42). A cleaner scan of Comenius''s own text (1649-1660
     manuscripts) would serve as the quotable witness.'
-- work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-2
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
   author: comenius
   locus: whole volume; preface by Buddeus
   atlas_ids:

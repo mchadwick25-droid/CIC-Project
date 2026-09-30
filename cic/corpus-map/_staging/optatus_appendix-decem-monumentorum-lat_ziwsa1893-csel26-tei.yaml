@@ -3,7 +3,8 @@
 source_file: optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei.txt
 
 assignments:
-  - work: "Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's appendix, TEI)"
+  - row_id: optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia
+    work: "Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's appendix, TEI)"
     author: anti-donatist-dossier
     locus: "file line 107 (heading 'Appendix decem monumentorum ueterum ad Donatistarum historiam pertinentium'); urn:cts:latinLit:stoa0215a.stoa002.opp-lat1; scan twin optatus_libri-vii-critical_ziwsa1893.txt lines 13206-15283"
     atlas_ids:

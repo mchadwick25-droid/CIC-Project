@@ -1,6 +1,7 @@
 source_file: polanco_chronicon-v4-lat_1896.txt
 assignments:
-- work: Chronicon Societatis Iesu (Polanco), Tomus 4 (1554)
+- row_id: polanco_chronicon-v4-lat_1896--chronicon-societatis-iesu-polanco-tomus-4-1554
+  work: Chronicon Societatis Iesu (Polanco), Tomus 4 (1554)
   author: polanco
   locus: whole volume - Tomus 4, 1554
   atlas_ids:

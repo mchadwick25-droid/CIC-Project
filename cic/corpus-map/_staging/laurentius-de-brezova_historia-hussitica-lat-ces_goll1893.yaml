@@ -1,6 +1,7 @@
 source_file: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt
 assignments:
-- work: Laurentii de Brzezowa Historia Hussitica (with Pulkava, the University chronicle and Bartošek
+- row_id: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893--laurentii-de-brzezowa-historia-hussitica-with-pulkava-the
+  work: Laurentii de Brzezowa Historia Hussitica (with Pulkava, the University chronicle and Bartošek
     in the same volume)
   author: laurentius-de-brezova
   locus: the Historia Hussitica and the poem on Domažlice; the volume also holds the chronicles of Pulkava

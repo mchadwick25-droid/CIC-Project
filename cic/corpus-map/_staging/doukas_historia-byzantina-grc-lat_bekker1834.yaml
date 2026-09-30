@@ -1,7 +1,8 @@
 source_file: doukas_historia-byzantina-grc-lat_bekker1834.txt
 
 assignments:
-  - work: "Historia Byzantina of Doukas (Ducas), Greek with Latin"
+  - row_id: doukas_historia-byzantina-grc-lat_bekker1834--historia-byzantina-of-doukas-ducas-greek-with-latin
+    work: "Historia Byzantina of Doukas (Ducas), Greek with Latin"
     author: doukas
     locus: "Bekker's preface at file line 244; Boulliau's epistle at 292; the history from about line 554"
     atlas_ids:
@@ -12,7 +13,8 @@ assignments:
       A Byzantine history running to the fall of Constantinople, vendored as context for 1453.
       About one quarter Greek by letter count; second witness for the Greek wording until
       checked against page images.
-  - work: Historia Byzantina of Doukas (Ducas), Greek with Latin
+  - row_id: doukas_historia-byzantina-grc-lat_bekker1834--historia-byzantina-of-doukas-ducas-greek-with-latin-2
+    work: Historia Byzantina of Doukas (Ducas), Greek with Latin
     author: doukas
     locus: Bekker's preface at file line 244; Boulliau's epistle at 292; the history from about line 554
     atlas_ids:

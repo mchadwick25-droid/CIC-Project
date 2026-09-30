@@ -1,7 +1,8 @@
 source_file: dordrecht-confession_ministers-manual_elkhart1890.txt
 
 assignments:
-  - work: "Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone edition)"
+  - row_id: dordrecht-confession_ministers-manual_elkhart1890--confession-of-faith-and-minister-s-manual-dordrecht
+    work: "Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone edition)"
     author: dordrecht-confession
     locus: "whole volume"
     atlas_ids:

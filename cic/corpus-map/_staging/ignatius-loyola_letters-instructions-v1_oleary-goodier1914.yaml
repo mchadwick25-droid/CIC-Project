@@ -1,7 +1,8 @@
 source_file: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
 
 assignments:
-  - work: "Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547"
+  - row_id: ignatius-loyola_letters-instructions-v1_oleary-goodier1914--letters-and-instructions-of-st-ignatius-loyola-vol-i-1524
+    work: "Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547"
     author: ignatius-loyola
     locus: "whole text, a selection of 24 letters"
     atlas_ids:

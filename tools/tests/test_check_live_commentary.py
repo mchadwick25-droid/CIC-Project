@@ -1695,3 +1695,25 @@ def test_source_registry_exemption_needs_the_two_file_names(tmp_path):
 def test_source_registry_exemption_is_iso_date_only(tmp_path):
     prose = "The row was rewritten on 2026-09-29 after review.\n"
     assert _hits_for(prose, tmp_path, "Build/worlds/jes/Source_Registry.md")[0].category == "REWRITE"
+
+
+# ---------------------------------------------------------------------------
+# Generated package manifests
+# ---------------------------------------------------------------------------
+
+_MANIFEST_WITH_PROCESS_WORD = '{"files":{"records/demonstration/w.demo.bagai-unresolved.md":"sha256:ab"}}\n'
+
+
+def test_generated_package_manifest_is_not_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "packages/w/2026-01-01T00-00-00Z/manifest.json")
+    assert hits == []
+
+
+def test_same_text_elsewhere_in_packages_is_still_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "packages/w/2026-01-01T00-00-00Z/notes.json")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_a_manifest_outside_packages_is_still_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "engine/manifest.json")
+    assert [h.category for h in hits] == ["ROUTE"]

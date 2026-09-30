@@ -1,6 +1,7 @@
 source_file: ignatius-loyola_epistolae-et-instructiones-tomus02-lat_1904.txt
 assignments:
-- work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus II
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus02-lat_1904--monumenta-ignatiana-epistolae-et-instructiones-epistolae-et
+  work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus II
   author: ignatius-loyola
   locus: whole volume - Tomus 2 of Series I; the letters and instructions of 1548 to 1549, chiefly as
     summaries

@@ -1,6 +1,7 @@
 source_file: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919.txt
 assignments:
-- work: 'Exercitia Spiritualia: Spanish text and Latin versions, with the early Directories'
+- row_id: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919--exercitia-spiritualia-spanish-text-and-latin-versions-with
+  work: 'Exercitia Spiritualia: Spanish text and Latin versions, with the early Directories'
   author: ignatius-loyola
   locus: whole volume; Spanish text of the Exercises alongside the Latin versions
   atlas_ids:

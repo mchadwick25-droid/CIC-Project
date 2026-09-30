@@ -3,7 +3,8 @@
 source_file: athenagoras_legatio-grc_otto1857.txt
 
 assignments:
-  - work: "A Plea for the Christians"
+  - row_id: athenagoras_legatio-grc_otto1857--a-plea-for-the-christians
+    work: "A Plea for the Christians"
     author: athenagoras
     locus: "file line 69 (TEI <head> of the Plea, Greek opener follows)"
     atlas_ids:

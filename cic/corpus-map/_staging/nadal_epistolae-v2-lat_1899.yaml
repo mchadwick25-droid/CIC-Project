@@ -1,6 +1,7 @@
 source_file: nadal_epistolae-v2-lat_1899.txt
 assignments:
-- work: Epistolae P. Hieronymi Nadal, Tomus II (1562-1565)
+- row_id: nadal_epistolae-v2-lat_1899--epistolae-p-hieronymi-nadal-tomus-ii-1562-1565
+  work: Epistolae P. Hieronymi Nadal, Tomus II (1562-1565)
   author: nadal
   locus: whole volume - Tomus II, 1562-1565
   atlas_ids:

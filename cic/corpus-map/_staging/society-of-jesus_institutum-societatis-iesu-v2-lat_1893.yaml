@@ -1,6 +1,7 @@
 source_file: society-of-jesus_institutum-societatis-iesu-v2-lat_1893.txt
 assignments:
-- work: 'Institutum Societatis Iesu, Vol. 2: the Examen, the Constitutions with the Declarations, and
+- row_id: society-of-jesus_institutum-societatis-iesu-v2-lat_1893--institutum-societatis-iesu-vol-2-the-examen-the
+  work: 'Institutum Societatis Iesu, Vol. 2: the Examen, the Constitutions with the Declarations, and
     the decrees of the general congregations'
   author: society-of-jesus
   locus: whole volume - volume 2 of 3

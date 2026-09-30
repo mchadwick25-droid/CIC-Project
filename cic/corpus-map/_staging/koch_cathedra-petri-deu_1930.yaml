@@ -2,7 +2,8 @@
 source_file: koch_cathedra-petri-deu_1930.txt
 
 assignments:
-  - work: "Cathedra Petri (Koch, 1930)"
+  - row_id: koch_cathedra-petri-deu_1930--cathedra-petri-koch-1930
+    work: "Cathedra Petri (Koch, 1930)"
     author: koch
     locus: "whole file; title page at file line 26; the chapter 'II. Die Primatsfrage bei Cyprian' listed at file line 352"
     atlas_ids:

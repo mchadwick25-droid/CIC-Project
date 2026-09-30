@@ -1,6 +1,7 @@
 source_file: society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt
 assignments:
-- work: 'Institutum Societatis Iesu, Vol. 1: the papal bulls and briefs for the Society, the perpetual
+- row_id: society-of-jesus_institutum-societatis-iesu-v1-lat_1892--institutum-societatis-iesu-vol-1-the-papal-bulls-and-briefs
+  work: 'Institutum Societatis Iesu, Vol. 1: the papal bulls and briefs for the Society, the perpetual
     calendar and the compendium of privileges'
   author: society-of-jesus
   locus: whole volume - volume 1 of 3

@@ -1,6 +1,7 @@
 source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
 assignments:
-- work: Fasciculus rerum expetendarum et fugiendarum (Brown, 1690), volume I
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--fasciculus-rerum-expetendarum-et-fugiendarum-brown-1690
+  work: Fasciculus rerum expetendarum et fugiendarum (Brown, 1690), volume I
   author: gratius
   locus: whole volume
   atlas_ids:
@@ -12,7 +13,8 @@ assignments:
     the long s read as f, italic and roman confused, and stray glyphs (for example Lcttorcm for Lectorem).
     The Confession is readable in outline. Check every wording against the page image; the earlier Cologne
     printing of 1535 is a separate item on Internet Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
-- work: The Bohemian Brethren's Latin Confession to King Vladislav (in the Fasciculus)
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--the-bohemian-brethren-s-latin-confession-to-king-vladislav
+  work: The Bohemian Brethren's Latin Confession to King Vladislav (in the Fasciculus)
   author: unity-of-the-brethren
   locus: running head "Ad Vladislaum Hung. Reg. missa", volume page 163, opening "Omnem videlicet fidei
     veritatem"

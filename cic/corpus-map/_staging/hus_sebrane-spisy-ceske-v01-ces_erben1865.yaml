@@ -1,6 +1,7 @@
 source_file: hus_sebrane-spisy-ceske-v01-ces_erben1865.txt
 assignments:
-- work: 'Mistra Jana Husi Sebrané spisy české, vol. 1: Hus''s Czech expositions of the Creed, the Ten
+- row_id: hus_sebrane-spisy-ceske-v01-ces_erben1865--mistra-jana-husi-sebrane-spisy-ceske-vol-1-hus-s-czech
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 1: Hus''s Czech expositions of the Creed, the Ten
     Commandments and the Lord''s Prayer, and his tract on simony'
   author: hus
   locus: whole volume - volume 1 of 3

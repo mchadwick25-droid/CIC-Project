@@ -1,6 +1,7 @@
 source_file: polanco_chronicon-v5-lat_1897.txt
 assignments:
-- work: Chronicon Societatis Iesu (Polanco), Tomus 5 (1555)
+- row_id: polanco_chronicon-v5-lat_1897--chronicon-societatis-iesu-polanco-tomus-5-1555
+  work: Chronicon Societatis Iesu (Polanco), Tomus 5 (1555)
   author: polanco
   locus: whole volume - Tomus 5, 1555
   atlas_ids:

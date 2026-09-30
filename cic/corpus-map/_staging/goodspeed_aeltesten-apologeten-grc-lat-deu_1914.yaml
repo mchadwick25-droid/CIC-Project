@@ -6,7 +6,8 @@
 source_file: goodspeed_aeltesten-apologeten-grc-lat-deu_1914.txt
 
 assignments:
-  - work: "The Apology of Aristides the Philosopher"
+  - row_id: goodspeed_aeltesten-apologeten-grc-lat-deu_1914--the-apology-of-aristides-the-philosopher
+    work: "The Apology of Aristides the Philosopher"
     author: aristides
     locus: "file line 1402 (first readable Latin of the Aristides Apology in this file ('Graeci vero, O Rex, quod turpia faciunt ...'); the German introduction to Aristides is at line 389)"
     atlas_ids:

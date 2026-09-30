@@ -3,7 +3,8 @@
 source_file: optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt
 
 assignments:
-  - work: "S. Optati Milevitani Libri VII (critical Latin text, TEI)"
+  - row_id: optatus_libri-vii-lat_ziwsa1893-csel26-tei--s-optati-milevitani-libri-vii-critical-latin-text-tei
+    work: "S. Optati Milevitani Libri VII (critical Latin text, TEI)"
     author: optatus
     locus: "file line 111 (first text of the TEI body, opening 'Cunctos nos christianos'); urn:cts:latinLit:stoa0215a.stoa001.opp-lat1; scan twin optatus_libri-vii-critical_ziwsa1893.txt lines 2229-13189"
     atlas_ids:

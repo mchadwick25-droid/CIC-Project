@@ -3,7 +3,8 @@
 source_file: cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "Sententiae Episcoporum numero LXXXVII de haereticis baptizandis, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei--sententiae-episcoporum-numero-lxxxvii-de-haereticis
+    work: "Sententiae Episcoporum numero LXXXVII de haereticis baptizandis, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 107 (first text of the TEI body, opening 'Cum in unum Cartaginem conuenissent'); urn:cts:latinLit:stoa0104a.stoa013.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 15567-16433"
     atlas_ids:
@@ -24,7 +25,8 @@ assignments:
       the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
       with any quotation. Mirrors the English twin's roles and confidence exactly.
 
-  - work: "Sententiae Episcoporum numero LXXXVII de haereticis baptizandis, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei--sententiae-episcoporum-numero-lxxxvii-de-haereticis-2
+    work: "Sententiae Episcoporum numero LXXXVII de haereticis baptizandis, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 107 (first text of the TEI body, opening 'Cum in unum Cartaginem conuenissent'); urn:cts:latinLit:stoa0104a.stoa013.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 15567-16433"
     atlas_ids:

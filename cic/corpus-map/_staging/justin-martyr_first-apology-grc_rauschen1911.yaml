@@ -3,7 +3,8 @@
 source_file: justin-martyr_first-apology-grc_rauschen1911.txt
 
 assignments:
-  - work: "The First Apology"
+  - row_id: justin-martyr_first-apology-grc_rauschen1911--the-first-apology
+    work: "The First Apology"
     author: justin_martyr
     locus: "file line 67 (TEI <head> 'APOLOGIA I.', Greek chapter 1 follows)"
     atlas_ids:

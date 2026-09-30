@@ -4,7 +4,8 @@
 source_file: commodian_carmen-apologeticum-lat_dombart1887-csel-tei.txt
 
 assignments:
-  - work: "Carmen apologeticum (Commodian)"
+  - row_id: commodian_carmen-apologeticum-lat_dombart1887-csel-tei--carmen-apologeticum-commodian
+    work: "Carmen apologeticum (Commodian)"
     author: commodian
     locus: "file line 101 (start of the TEI <body>, the poem follows)"
     atlas_ids:

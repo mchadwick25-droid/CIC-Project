@@ -4,7 +4,8 @@
 source_file: arnobius_adversus-nationes-lat_reifferscheid-csel4.txt
 
 assignments:
-  - work: "The Seven Books of Arnobius Against the Heathen (Adversus Gentes)"
+  - row_id: arnobius_adversus-nationes-lat_reifferscheid-csel4--the-seven-books-of-arnobius-against-the-heathen-adversus
+    work: "The Seven Books of Arnobius Against the Heathen (Adversus Gentes)"
     author: arnobius
     locus: "file line 876 (heading 'LIBER PRIMVS', opening of Book I)"
     atlas_ids:

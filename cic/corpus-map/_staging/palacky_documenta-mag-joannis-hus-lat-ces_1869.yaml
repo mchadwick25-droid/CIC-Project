@@ -1,6 +1,7 @@
 source_file: palacky_documenta-mag-joannis-hus-lat-ces_1869.txt
 assignments:
-- work: 'Documenta Mag. Joannis Hus: letters, the Relatio of Petr of Mladoňovice and documents of 1403-1418'
+- row_id: palacky_documenta-mag-joannis-hus-lat-ces_1869--documenta-mag-joannis-hus-letters-the-relatio-of-petr-of
+  work: 'Documenta Mag. Joannis Hus: letters, the Relatio of Petr of Mladoňovice and documents of 1403-1418'
   author: palacky
   locus: whole volume; the Relatio is headed "Relationis M. Petri de Mladenowic" (Pars prima, Acta ante
     iter Constantiense, from the Mladenovic manuscript)

@@ -3,7 +3,8 @@
 source_file: cyprian_de-dominica-oratione-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "De Dominica Oratione, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-dominica-oratione-lat_hartel1868-csel3-tei--de-dominica-oratione-csel-3-latin-text-tei
+    work: "De Dominica Oratione, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 109 (first text of the TEI body, opening 'Euangelica praecepta, fratres dilectissimi'); urn:cts:latinLit:stoa0104a.stoa015.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 9721-10777"
     atlas_ids:

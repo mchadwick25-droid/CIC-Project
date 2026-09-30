@@ -1,6 +1,7 @@
 source_file: polanco_chronicon-v2-lat_1894.txt
 assignments:
-- work: Chronicon Societatis Iesu (Polanco), Tomus 2 (1550-1552)
+- row_id: polanco_chronicon-v2-lat_1894--chronicon-societatis-iesu-polanco-tomus-2-1550-1552
+  work: Chronicon Societatis Iesu (Polanco), Tomus 2 (1550-1552)
   author: polanco
   locus: whole volume - Tomus 2, 1550-1552
   atlas_ids:

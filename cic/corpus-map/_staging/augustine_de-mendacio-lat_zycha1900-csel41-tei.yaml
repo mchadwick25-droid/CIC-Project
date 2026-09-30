@@ -4,7 +4,8 @@
 source_file: augustine_de-mendacio-lat_zycha1900-csel41-tei.txt
 
 assignments:
-  - work: "On Lying (De Mendacio), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_de-mendacio-lat_zycha1900-csel41-tei--on-lying-de-mendacio-csel-41-latin-text-tei
+    work: "On Lying (De Mendacio), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 110 (first paragraph of the TEI body, opening 'Magna quaestio est de'); printed heading 'VIIII. DE MENDACIO.' at file line 107; CSEL 41 work VIIII, printed pp. 411-466"
     atlas_ids:

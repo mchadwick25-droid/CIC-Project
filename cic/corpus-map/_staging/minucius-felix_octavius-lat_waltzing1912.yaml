@@ -3,7 +3,8 @@
 source_file: minucius-felix_octavius-lat_waltzing1912.txt
 
 assignments:
-  - work: "The Octavius of Minucius Felix"
+  - row_id: minucius-felix_octavius-lat_waltzing1912--the-octavius-of-minucius-felix
+    work: "The Octavius of Minucius Felix"
     author: felix
     locus: "file line 126 (title page 'M. MINUCII FELICIS OCTAVIUS'; the text begins after Waltzing's preface)"
     atlas_ids:

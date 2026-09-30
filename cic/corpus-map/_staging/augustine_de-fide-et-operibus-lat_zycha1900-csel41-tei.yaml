@@ -4,7 +4,8 @@
 source_file: augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt
 
 assignments:
-  - work: "On Faith and Works (De Fide et Operibus), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei--on-faith-and-works-de-fide-et-operibus-csel-41-latin-text
+    work: "On Faith and Works (De Fide et Operibus), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 110 (first paragraph of the TEI body, opening 'Quibusdam uidetur indiscrete omnes'); printed heading 'II. DE FIDE ET OPERIBUS.' at file line 107; CSEL 41 work II, printed pp. 33-97"
     atlas_ids:

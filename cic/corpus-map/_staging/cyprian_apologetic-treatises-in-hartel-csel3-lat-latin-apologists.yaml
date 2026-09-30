@@ -5,7 +5,8 @@
 source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
 
 assignments:
-  - work: "An Address to Demetrianus (Ad Demetrianum)"
+  - row_id: cyprian_apologetic-treatises-in-hartel-csel3-lat-latin-apologists--an-address-to-demetrianus-ad-demetrianum
+    work: "An Address to Demetrianus (Ad Demetrianum)"
     author: cyprian
     locus: "file line 12656 (heading 'AD DEMETRIANVM' (OCR 'AB'); opening words 'sacrilego et uerbis impiis obstrepentem frequenter, Demetriane' at line 12666)"
     atlas_ids:
@@ -21,7 +22,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "On the Vanity of Idols (Quod Idola Dii Non Sint)"
+  - row_id: cyprian_apologetic-treatises-in-hartel-csel3-lat-latin-apologists--on-the-vanity-of-idols-quod-idola-dii-non-sint
+    work: "On the Vanity of Idols (Quod Idola Dii Non Sint)"
     author: cyprian
     locus: "file line 598 (heading 'QVOD IDOLA DII NON SINT.' (OCR 'BII'); the 'QVOD IDOLA' line at 11640 is a Testimonia chapter title, not this treatise)"
     atlas_ids:

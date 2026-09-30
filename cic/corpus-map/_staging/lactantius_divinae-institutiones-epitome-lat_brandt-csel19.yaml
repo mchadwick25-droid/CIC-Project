@@ -4,7 +4,8 @@
 source_file: lactantius_divinae-institutiones-epitome-lat_brandt-csel19.txt
 
 assignments:
-  - work: "The Divine Institutes"
+  - row_id: lactantius_divinae-institutiones-epitome-lat_brandt-csel19--the-divine-institutes
+    work: "The Divine Institutes"
     author: lactantius
     locus: "file line 2991 (Book I chapter 2, 'Suscepto igitur inlustrandae ueritatis officio ...'; chapter 1 sits on the page just before, whose OCR is partly damaged)"
     atlas_ids:

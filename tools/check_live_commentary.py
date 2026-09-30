@@ -1350,8 +1350,21 @@ def _method_vocabulary_category(rel: Path, line: str, matched: list[str], catego
     return "KEEP"
 
 
+# A package's manifest.json is generated output: a list of file paths and hashes
+# that `engine.m2.cli build` writes. Its text is record ids, never prose, so a
+# process word inside a record id (a file named ...-unresolved.md) is not commentary,
+# and rewording cannot remove it without renaming the record.
+_PACKAGE_MANIFEST = re.compile(r"^packages/[^/]+/[^/]+/manifest\.json$")
+
+
+def is_generated_manifest(rel: Path) -> bool:
+    return bool(_PACKAGE_MANIFEST.match(rel.as_posix()))
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
+    if is_generated_manifest(rel):
+        return []
     try:
         text = path.read_text(encoding="utf-8", errors="replace")
     except OSError:

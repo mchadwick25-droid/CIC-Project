@@ -21,7 +21,8 @@ authors_ruled:
     from_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
 
 assignments:
-  - work: "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)"
+  - row_id: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844--mutual-consent-in-regard-to-the-sacraments-the-consensus
+    work: "Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)"
     author: calvin-zurich-pastors
     locus: "whole file"
     atlas_ids:

@@ -1,7 +1,8 @@
 source_file: wyclif_english-works-hitherto-unprinted_matthew1880.txt
 
 assignments:
-  - work: "The English Works of Wyclif Hitherto Unprinted (EETS O.S. 74)"
+  - row_id: wyclif_english-works-hitherto-unprinted_matthew1880--the-english-works-of-wyclif-hitherto-unprinted-eets-o-s-74
+    work: "The English Works of Wyclif Hitherto Unprinted (EETS O.S. 74)"
     author: wyclif
     locus: "whole volume"
     atlas_ids:

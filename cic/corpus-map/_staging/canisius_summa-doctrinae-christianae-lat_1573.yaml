@@ -1,6 +1,7 @@
 source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
 assignments:
-- work: Summa doctrinae christianae (1573 printing)
+- row_id: canisius_summa-doctrinae-christianae-lat_1573--summa-doctrinae-christianae-1573-printing
+  work: Summa doctrinae christianae (1573 printing)
   author: canisius
   locus: whole text
   atlas_ids:

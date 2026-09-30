@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: ebionite-nazoraean-current
 works:
-- work: Fragments of Aristo of Pella
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
   role: tradition
@@ -13,7 +14,8 @@ works:
     by the fragments. greek-apologists-second-century holds this work for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Fragments of Aristo of Pella
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: file line 18145 (heading 'ARISTO.' (the Aristo section of the Reliquiae))
   role: tradition
@@ -30,7 +32,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
-- work: Fragments of Aristo of Pella
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: file line 5915 (heading 'ARISTONIS PELLAI,')
   role: tradition
@@ -46,7 +49,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
-- work: The Refutation of All Heresies (Philosophumena)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena
+  work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)
   role: tradition
@@ -61,7 +65,8 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: Against Heresies (Books I-V)
+- row_id: anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-3
+  work: Against Heresies (Books I-V)
   author: irenaeus
   locus: div2 9.2-9.4, 9.6-9.7 under div1 'IRENAEUS'
   role: context
@@ -73,7 +78,8 @@ works:
 
     '
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: The Clementine Homilies
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-clementine-homilies
+  work: The Clementine Homilies
   author: pseudo-clement
   locus: div2 6.4
   role: tradition
@@ -88,7 +94,8 @@ works:
     hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
     same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Recognitions of Clement
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-recognitions-of-clement
+  work: The Recognitions of Clement
   author: pseudo-clement
   locus: div2 6.3
   role: tradition
@@ -105,7 +112,8 @@ works:
     region is Edessa and Nisibis specifically, and Syrian is not the same as Edessene. Non-exclusive
     assignment is what lets both facts be true at once.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Testaments of the Twelve Patriarchs
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-testaments-of-the-twelve-patriarchs
+  work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)
   role: tradition

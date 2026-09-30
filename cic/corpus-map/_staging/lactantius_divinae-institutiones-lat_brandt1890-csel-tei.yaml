@@ -4,7 +4,8 @@
 source_file: lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt
 
 assignments:
-  - work: "The Divine Institutes"
+  - row_id: lactantius_divinae-institutiones-lat_brandt1890-csel-tei--the-divine-institutes
+    work: "The Divine Institutes"
     author: lactantius
     locus: "file line 109 (start of the TEI <body>, Book I follows)"
     atlas_ids:

@@ -1,6 +1,7 @@
 source_file: lainez_epistolae-et-acta-v7-lat_1916.txt
 assignments:
-- work: 'Lainii Monumenta: Epistolae et Acta, Tomus 7 (1563-1564)'
+- row_id: lainez_epistolae-et-acta-v7-lat_1916--lainii-monumenta-epistolae-et-acta-tomus-7-1563-1564
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 7 (1563-1564)'
   author: lainez
   locus: whole volume - Tomus 7, 1563-1564
   atlas_ids:

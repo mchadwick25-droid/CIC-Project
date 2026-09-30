@@ -1,6 +1,7 @@
 source_file: piccolomini_historia-bohemica-lat_1524.txt
 assignments:
-- work: Historia Bohemica (Cologne, 1524 printing)
+- row_id: piccolomini_historia-bohemica-lat_1524--historia-bohemica-cologne-1524-printing
+  work: Historia Bohemica (Cologne, 1524 printing)
   author: piccolomini
   locus: whole text
   atlas_ids:

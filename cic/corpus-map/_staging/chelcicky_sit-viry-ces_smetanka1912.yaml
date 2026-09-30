@@ -1,6 +1,7 @@
 source_file: chelcicky_sit-viry-ces_smetanka1912.txt
 assignments:
-- work: Síť víry (Petr Chelcicky, the Net of Faith)
+- row_id: chelcicky_sit-viry-ces_smetanka1912--sit-viry-petr-chelcicky-the-net-of-faith
+  work: Síť víry (Petr Chelcicky, the Net of Faith)
   author: chelcicky
   locus: whole text, with the editor's preface and notes
   atlas_ids:

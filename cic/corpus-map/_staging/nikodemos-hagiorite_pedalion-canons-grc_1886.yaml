@@ -1,7 +1,8 @@
 source_file: nikodemos-hagiorite_pedalion-canons-grc_1886.txt
 
 assignments:
-  - work: "Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios and Nikodemos, Greek"
+  - row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the
+    work: "Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios and Nikodemos, Greek"
     author: nikodemos-hagiorite
     locus: "title page at file lines 102-125, the publisher's address to Orthodox Christians at 227; canon texts and commentary follow (for example Canon 85 at line 43851)"
     atlas_ids:
@@ -15,7 +16,8 @@ assignments:
       witness to practice and law, so its place here is a provisional shelf assignment for the
       world's builders to confirm. Second witness for exact Greek wording (accents imperfect);
       the running text is readable.
-  - work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios and Nikodemos,
+  - row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the-2
+    work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios and Nikodemos,
       Greek'
     author: nikodemos-hagiorite
     locus: title page at file lines 102-125, the publisher's address to Orthodox Christians at 227; canon
@@ -27,7 +29,8 @@ assignments:
     note: Placed on
       the entry's window (1650-1821). First printed 1800; this file is the 1886 fourth edition, Greek, second
       witness. Provisional because the edition is later than the entry's window.
-  - work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios and Nikodemos,
+  - row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the-3
+    work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios and Nikodemos,
       Greek'
     author: nikodemos-hagiorite
     locus: title page at file lines 102-125, the publisher's address to Orthodox Christians at 227; canon

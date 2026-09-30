@@ -1,6 +1,7 @@
 source_file: ignatius-loyola_epistolae-et-instructiones-tomus06-lat_1907.txt
 assignments:
-- work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus VI
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus06-lat_1907--monumenta-ignatiana-epistolae-et-instructiones-epistolae-et
+  work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus VI
   author: ignatius-loyola
   locus: whole volume - Tomus 6 of Series I; the letters and instructions of 1554
   atlas_ids:

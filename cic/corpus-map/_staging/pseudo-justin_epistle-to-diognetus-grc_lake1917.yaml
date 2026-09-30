@@ -4,7 +4,8 @@
 source_file: pseudo-justin_epistle-to-diognetus-grc_lake1917.txt
 
 assignments:
-  - work: "Epistle to Diognetus"
+  - row_id: pseudo-justin_epistle-to-diognetus-grc_lake1917--epistle-to-diognetus
+    work: "Epistle to Diognetus"
     author: mathetes
     locus: "file line 87 (TEI <head> 'EPISTOLE PROS DIOGNETON', Greek chapter 1 follows)"
     atlas_ids:

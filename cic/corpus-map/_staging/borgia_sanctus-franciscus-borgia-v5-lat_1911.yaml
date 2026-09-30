@@ -1,6 +1,7 @@
 source_file: borgia_sanctus-franciscus-borgia-v5-lat_1911.txt
 assignments:
-- work: Sanctus Franciscus Borgia, Tomus V (1569-1572)
+- row_id: borgia_sanctus-franciscus-borgia-v5-lat_1911--sanctus-franciscus-borgia-tomus-v-1569-1572
+  work: Sanctus Franciscus Borgia, Tomus V (1569-1572)
   author: borgia
   locus: whole volume - Tomus V, 1569-1572
   atlas_ids:

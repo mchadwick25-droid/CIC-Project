@@ -1,6 +1,7 @@
 source_file: francis-xavier_monumenta-xaveriana-v2-lat_1912.txt
 assignments:
-- work: 'Monumenta Xaveriana, Tomus II: writings about Francis Xavier'
+- row_id: francis-xavier_monumenta-xaveriana-v2-lat_1912--monumenta-xaveriana-tomus-ii-writings-about-francis-xavier
+  work: 'Monumenta Xaveriana, Tomus II: writings about Francis Xavier'
   author: francis-xavier
   locus: whole volume
   atlas_ids:

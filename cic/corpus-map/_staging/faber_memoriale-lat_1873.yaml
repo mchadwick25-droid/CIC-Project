@@ -1,7 +1,8 @@
 source_file: faber_memoriale-lat_1873.txt
 
 assignments:
-  - work: "Memoriale Beati Petri Fabri"
+  - row_id: faber_memoriale-lat_1873--memoriale-beati-petri-fabri
+    work: "Memoriale Beati Petri Fabri"
     author: faber
     locus: "whole volume"
     atlas_ids:

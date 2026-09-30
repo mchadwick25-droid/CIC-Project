@@ -1,6 +1,7 @@
 source_file: borgia_sanctus-franciscus-borgia-v4-lat_1910.txt
 assignments:
-- work: Sanctus Franciscus Borgia, Tomus IV (1565-1568)
+- row_id: borgia_sanctus-franciscus-borgia-v4-lat_1910--sanctus-franciscus-borgia-tomus-iv-1565-1568
+  work: Sanctus Franciscus Borgia, Tomus IV (1565-1568)
   author: borgia
   locus: whole volume - Tomus IV, 1565-1568
   atlas_ids:

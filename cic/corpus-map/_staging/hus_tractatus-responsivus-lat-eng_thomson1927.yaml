@@ -1,6 +1,7 @@
 source_file: hus_tractatus-responsivus-lat-eng_thomson1927.txt
 assignments:
-- work: Tractatus responsivus (Latin, first edition by S. H. Thomson)
+- row_id: hus_tractatus-responsivus-lat-eng_thomson1927--tractatus-responsivus-latin-first-edition-by-s-h-thomson
+  work: Tractatus responsivus (Latin, first edition by S. H. Thomson)
   author: hus
   locus: the Latin text follows the editor's English introduction
   atlas_ids:

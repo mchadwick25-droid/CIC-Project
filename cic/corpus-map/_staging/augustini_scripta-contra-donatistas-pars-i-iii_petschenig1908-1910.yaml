@@ -17,7 +17,8 @@
 source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 
 assignments:
-  - work: "Psalmus contra Partem Donati"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati
+    work: "Psalmus contra Partem Donati"
     author: augustine
     locus: "Pars I (CSEL 51); file line 1257 (heading 'PSALMUS', followed by 'CONTRA PARTEM DONATI' at 1258)"
     atlas_ids:
@@ -33,7 +34,8 @@ assignments:
       answers Donatist argument directly, the nearest thing to a documented
       exchange this entry has.
 
-  - work: "Contra Epistulam Parmeniani (libri tres)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres
+    work: "Contra Epistulam Parmeniani (libri tres)"
     author: augustine
     locus: "Pars I (CSEL 51); file line 2089 (heading 'CONTRA EPISTULAM PARMENIANI LIBRI III')"
     atlas_ids:
@@ -51,7 +53,8 @@ assignments:
       genuine new primary Augustine content for that world too, reachable
       from no other file it holds.
 
-  - work: "De Baptismo (libri septem)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem
+    work: "De Baptismo (libri septem)"
     author: augustine
     locus: "Pars I (CSEL 51); file line 8477 (heading 'DE BAPTISMO LIBRI VII')"
     atlas_ids:
@@ -69,7 +72,8 @@ assignments:
       same-work-different-language pairing already used there for Cyprian/
       Hartel and six other Augustine works.
 
-  - work: "Contra Cresconium (libri quattuor)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor
+    work: "Contra Cresconium (libri quattuor)"
     author: augustine
     locus: "Pars II (CSEL 52); file line 41781 (heading 'CONTRA CRESCONIVM GRAMMATICVM ET DONATISTAM LIBRI IIII')"
     atlas_ids:
@@ -89,7 +93,8 @@ assignments:
       Augustine content for that world too, reachable from no other file it
       holds.
 
-  - work: "De Unico Baptismo contra Petilianum"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum
+    work: "De Unico Baptismo contra Petilianum"
     author: augustine
     locus: "Pars III (CSEL 53); file line 60952 (heading 'DE VNICO BAPTISMO')"
     atlas_ids:
@@ -106,7 +111,8 @@ assignments:
       behind that world's own already-vendored English npnf104 "Answer to
       the Letters of Petilian" row.
 
-  - work: "Contra (Adversus) Fulgentium Donatistam"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam
+    work: "Contra (Adversus) Fulgentium Donatistam"
     author: augustine
     locus: "Pars III (CSEL 53), Appendix II; file line 78988 (heading 'LIBELLVS ADVERSVS FVLGENTIVM DONATISTAM')"
     atlas_ids:
@@ -121,7 +127,8 @@ assignments:
       augustine because no other slug exists for the work; the ascription
       does not hold in the edition itself, so the confidence is provisional.
 
-  - work: "Contra Litteras Petiliani (libri tres)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres
+    work: "Contra Litteras Petiliani (libri tres)"
     author: augustine
     locus: "Pars II (CSEL 52); file line 24752 (heading 'CONTRA LITTERAS PETILIANI', 'LIBRI TRES.' at 24753)"
     atlas_ids:
@@ -145,7 +152,8 @@ assignments:
       against the printed page or a clean witness before it is used, and the English a
       Representative speaks is rendered from the verified Latin.
 
-  - work: "Epistula ad Catholicos de Secta Donatistarum"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum
+    work: "Epistula ad Catholicos de Secta Donatistarum"
     author: augustine
     locus: "Pars II (CSEL 52); file line 36701 (heading 'EPISTVLA AD CATHOLICOS', 'DE SECTA DONATISTARVM.' at 36702)"
     atlas_ids:
@@ -169,7 +177,8 @@ assignments:
       each quote is checked against the printed page or a clean witness before it is used, and the
       English a Representative speaks is rendered from the verified Latin.
 
-  - work: "Breviculus Collationis cum Donatistis"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis
+    work: "Breviculus Collationis cum Donatistis"
     author: augustine
     locus: "Pars III (CSEL 53); file line 62773 (heading 'BREVICVLVS', 'COLLATIONIS CVM DONATISTIS' at 62774)"
     atlas_ids:
@@ -191,7 +200,8 @@ assignments:
       for exact wording: each quote is checked against the printed page or a clean witness before it
       is used, and the English a Representative speaks is rendered from the verified Latin.
 
-  - work: "Contra Partem Donati post Gesta"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta
+    work: "Contra Partem Donati post Gesta"
     author: augustine
     locus: "Pars III (CSEL 53); file line 66511 (heading 'CONTRA PARTEM DONATI', 'POST GESTA' at 66512)"
     atlas_ids:
@@ -214,7 +224,8 @@ assignments:
       against the printed page or a clean witness before it is used, and the English a
       Representative speaks is rendered from the verified Latin.
 
-  - work: "Sermo ad Caesariensis Ecclesiae Plebem"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem
+    work: "Sermo ad Caesariensis Ecclesiae Plebem"
     author: augustine
     locus: "Pars III (CSEL 53); file line 71499 (heading 'SERMO' at 71497, 'AD CAESARIENSIS ECCLESIAE PLEBEM.' at 71499)"
     atlas_ids:
@@ -238,7 +249,8 @@ assignments:
       each quote is checked against the printed page or a clean witness before it is used, and the
       English a Representative speaks is rendered from the verified Latin.
 
-  - work: "Gesta cum Emerito Donatista"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista
+    work: "Gesta cum Emerito Donatista"
     author: augustine
     locus: "Pars III (CSEL 53); file line 72784 (heading 'GESTA CUM EMERITO DONATISTA, LIBER UNUS.')"
     atlas_ids:
@@ -261,7 +273,8 @@ assignments:
       checked against the printed page or a clean witness before it is used, and the English a
       Representative speaks is rendered from the verified Latin.
 
-  - work: "Contra Gaudentium Donatistarum Episcopum (libri II)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii
+    work: "Contra Gaudentium Donatistarum Episcopum (libri II)"
     author: augustine
     locus: "Pars III (CSEL 53); file line 73265 (heading 'CONTRA GAVDENTIVM DONATISTARVM EPISCOPVM', 'LIBRI II' at 73267)"
     atlas_ids:

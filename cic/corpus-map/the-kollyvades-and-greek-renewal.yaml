@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-kollyvades-and-greek-renewal
 works:
-- work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
+- row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the-3
+  work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
     and Nikodemos, Greek'
   author: nikodemos-hagiorite
   locus: title page at file lines 102-125, the publisher's address to Orthodox Christians
@@ -14,7 +15,8 @@ works:
     rests on that historical identification, not on the file's own text). Second witness;
     1886 edition of a work first printed in 1800.
   source_file: nikodemos-hagiorite_pedalion-canons-grc_1886.txt
-- work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
+- row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to-3
+  work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
   author: nikodemos-hagiorite
   locus: whole volume; the prologue at file line 70, the September entries from line 3016
   role: tradition
@@ -23,7 +25,8 @@ works:
     rests on that historical identification, not on the file's own text). Garbled 1900 scan,
     second witness only.
   source_file: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt
-- work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
+- row_id: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900--synaxaristes-of-the-twelve-months-volume-2-march-to-august-3
+  work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
   author: nikodemos-hagiorite
   locus: whole volume; the March entries from about file line 3401
   role: tradition

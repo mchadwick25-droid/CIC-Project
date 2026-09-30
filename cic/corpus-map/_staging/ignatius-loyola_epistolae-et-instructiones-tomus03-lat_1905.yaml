@@ -1,6 +1,7 @@
 source_file: ignatius-loyola_epistolae-et-instructiones-tomus03-lat_1905.txt
 assignments:
-- work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus III
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus03-lat_1905--monumenta-ignatiana-epistolae-et-instructiones-epistolae-et
+  work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus III
   author: ignatius-loyola
   locus: whole volume - Tomus 3 of Series I; the letters and instructions of 1550 to 1551, chiefly as
     summaries

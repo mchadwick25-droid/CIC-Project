@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-hussite-and-bohemian-brethren-movement
 works:
-- work: Síť víry (Petr Chelcicky, the Net of Faith)
+- row_id: chelcicky_sit-viry-ces_smetanka1912--sit-viry-petr-chelcicky-the-net-of-faith
+  work: Síť víry (Petr Chelcicky, the Net of Faith)
   author: chelcicky
   locus: whole text, with the editor's preface and notes
   role: tradition
@@ -15,7 +16,8 @@ works:
     page image. The Czech reads with its diacritics in the sample, with occasional letter-level
     misreads and stray marks around the marginal notes; the woodcut pages read as noise.
   source_file: chelcicky_sit-viry-ces_smetanka1912.txt
-- work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
   author: comenius
   locus: whole volume; preface by Buddeus
   role: context
@@ -28,7 +30,8 @@ works:
     vocabulary 0.42). A cleaner scan of Comenius''s own text (1649-1660 manuscripts) would
     serve as the quotable witness.'
   source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
-- work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition), the Hus
+- row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--the-acts-and-monuments-of-john-foxe-vol-iii-cattley-townsend-2
+  work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition), the Hus
     section
   author: foxe
   locus: the section on John Hus and the Council of Constance, file lines 30742-46807 (where
@@ -44,7 +47,8 @@ works:
 
     '
   source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
-- work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
+- row_id: gillett_life-and-times-of-huss-v2_1871--the-life-and-times-of-john-huss-or-the-bohemian-reformation
+  work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
     Vol. II'
   author: gillett
   locus: whole volume
@@ -55,7 +59,8 @@ works:
 
     '
   source_file: gillett_life-and-times-of-huss-v2_1871.txt
-- work: Fasciculus rerum expetendarum et fugiendarum (Brown, 1690), volume I
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--fasciculus-rerum-expetendarum-et-fugiendarum-brown-1690
+  work: Fasciculus rerum expetendarum et fugiendarum (Brown, 1690), volume I
   author: gratius
   locus: whole volume
   role: context
@@ -67,7 +72,8 @@ works:
     against the page image; the earlier Cologne printing of 1535 is a separate item on Internet
     Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
   source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
-- work: De Ecclesia. The Church
+- row_id: hus_de-ecclesia-the-church_schaff1915--de-ecclesia-the-church
+  work: De Ecclesia. The Church
   author: hus
   locus: whole volume
   role: tradition
@@ -79,7 +85,8 @@ works:
 
     '
   source_file: hus_de-ecclesia-the-church_schaff1915.txt
-- work: M. Jana Husi Korespondence a dokumenty (critical edition of Hus's letters and related
+- row_id: hus_korespondence-a-dokumenty-lat-ces_novotny1920--m-jana-husi-korespondence-a-dokumenty-critical-edition-of
+  work: M. Jana Husi Korespondence a dokumenty (critical edition of Hus's letters and related
     documents)
   author: hus
   locus: whole volume
@@ -93,7 +100,8 @@ works:
     the page image. The Latin letters read legibly; the OCR scatters the edition's footnote
     marks and superscript digits through the lines, so quotations need the printed page.
   source_file: hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt
-- work: 'Mistra Jana Husi Sebrané spisy české, vol. 1: Hus''s Czech expositions of the Creed,
+- row_id: hus_sebrane-spisy-ceske-v01-ces_erben1865--mistra-jana-husi-sebrane-spisy-ceske-vol-1-hus-s-czech
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 1: Hus''s Czech expositions of the Creed,
     the Ten Commandments and the Lord''s Prayer, and his tract on simony'
   author: hus
   locus: whole volume - volume 1 of 3
@@ -107,7 +115,8 @@ works:
     in the sample; the 1865-68 orthography is the old one (for example sé, viery, pravé),
     and the OCR misreads some letters of the marginal scripture citations.
   source_file: hus_sebrane-spisy-ceske-v01-ces_erben1865.txt
-- work: 'Mistra Jana Husi Sebrané spisy české, vol. 2: Hus''s Czech Postilla, from the manuscript
+- row_id: hus_sebrane-spisy-ceske-v02-ces_erben1866--mistra-jana-husi-sebrane-spisy-ceske-vol-2-hus-s-czech
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 2: Hus''s Czech Postilla, from the manuscript
     of 1414'
   author: hus
   locus: whole volume - volume 2 of 3
@@ -121,7 +130,8 @@ works:
     example sé, viery, pravé), and the OCR misreads some letters of the marginal scripture
     citations.
   source_file: hus_sebrane-spisy-ceske-v02-ces_erben1866.txt
-- work: 'Mistra Jana Husi Sebrané spisy české, vol. 3: Hus''s shorter Czech works, among them
+- row_id: hus_sebrane-spisy-ceske-v03-ces_erben1868--mistra-jana-husi-sebrane-spisy-ceske-vol-3-hus-s-shorter
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 3: Hus''s shorter Czech works, among them
     the Dcerka, the Zrcadlo and the Výklad písničky Šalomúnovy'
   author: hus
   locus: whole volume - volume 3 of 3
@@ -135,7 +145,8 @@ works:
     1865-68 orthography is the old one (for example sé, viery, pravé), and the OCR misreads
     some letters of the marginal scripture citations.
   source_file: hus_sebrane-spisy-ceske-v03-ces_erben1868.txt
-- work: The Letters of John Hus
+- row_id: hus_letters_workman-pope1904--the-letters-of-john-hus
+  work: The Letters of John Hus
   author: hus
   locus: whole volume
   role: tradition
@@ -147,7 +158,8 @@ works:
 
     '
   source_file: hus_letters_workman-pope1904.txt
-- work: Tractatus responsivus (Latin, first edition by S. H. Thomson)
+- row_id: hus_tractatus-responsivus-lat-eng_thomson1927--tractatus-responsivus-latin-first-edition-by-s-h-thomson
+  work: Tractatus responsivus (Latin, first edition by S. H. Thomson)
   author: hus
   locus: the Latin text follows the editor's English introduction
   role: tradition
@@ -161,7 +173,8 @@ works:
     is the editor's inference and not established by a manuscript ascription; treat any quotation
     as 'the tract attributed to Hus by Thomson'. The front matter reads as noise.
   source_file: hus_tractatus-responsivus-lat-eng_thomson1927.txt
-- work: Laurentii de Brzezowa Historia Hussitica (with Pulkava, the University chronicle and
+- row_id: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893--laurentii-de-brzezowa-historia-hussitica-with-pulkava-the
+  work: Laurentii de Brzezowa Historia Hussitica (with Pulkava, the University chronicle and
     Bartošek in the same volume)
   author: laurentius-de-brezova
   locus: the Historia Hussitica and the poem on Domažlice; the volume also holds the chronicles
@@ -178,7 +191,8 @@ works:
     Czech chronicle parts read better. Check every quotation against the page image; the archive
     record''s own date (1873) is wrong for this volume.'
   source_file: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt
-- work: 'Bohemia: An Historical Sketch'
+- row_id: lutzow_bohemia-historical-sketch_1920--bohemia-an-historical-sketch
+  work: 'Bohemia: An Historical Sketch'
   author: lutzow
   locus: whole volume
   role: context
@@ -188,7 +202,8 @@ works:
 
     '
   source_file: lutzow_bohemia-historical-sketch_1920.txt
-- work: The Hussite Wars
+- row_id: lutzow_hussite-wars_1914--the-hussite-wars
+  work: The Hussite Wars
   author: lutzow
   locus: whole volume
   role: context
@@ -197,7 +212,8 @@ works:
 
     '
   source_file: lutzow_hussite-wars_1914.txt
-- work: The Life & Times of Master John Hus
+- row_id: lutzow_life-and-times-of-hus_1909--the-life-times-of-master-john-hus
+  work: The Life & Times of Master John Hus
   author: lutzow
   locus: whole volume
   role: context
@@ -208,7 +224,8 @@ works:
 
     '
   source_file: lutzow_life-and-times-of-hus_1909.txt
-- work: 'Documenta Mag. Joannis Hus: letters, the Relatio of Petr of Mladoňovice and documents
+- row_id: palacky_documenta-mag-joannis-hus-lat-ces_1869--documenta-mag-joannis-hus-letters-the-relatio-of-petr-of
+  work: 'Documenta Mag. Joannis Hus: letters, the Relatio of Petr of Mladoňovice and documents
     of 1403-1418'
   author: palacky
   locus: whole volume; the Relatio is headed "Relationis M. Petri de Mladenowic" (Pars prima,
@@ -225,7 +242,8 @@ works:
     OCR drops or misplaces some diacritics (for example pfepustí for přepustí), so check every
     Czech quotation against the scan.
   source_file: palacky_documenta-mag-joannis-hus-lat-ces_1869.txt
-- work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band I: 1419-1428'
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873--urkundliche-beitrage-zur-geschichte-des-hussitenkrieges-band
+  work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band I: 1419-1428'
   author: palacky
   locus: 'whole volume - Band I: 1419-1428'
   role: context
@@ -239,7 +257,8 @@ works:
     by the German and Czech), with occasional letter-level misreads. Documents are by many
     writers and are not one voice; the editor''s German summaries are Palacký''s.'
   source_file: palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873.txt
-- work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band II: 1429-1436'
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873--urkundliche-beitrage-zur-geschichte-des-hussitenkrieges-band
+  work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band II: 1429-1436'
   author: palacky
   locus: 'whole volume - Band II: 1429-1436'
   role: context
@@ -253,7 +272,8 @@ works:
     by the German and Czech), with occasional letter-level misreads. Documents are by many
     writers and are not one voice; the editor''s German summaries are Palacký''s.'
   source_file: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt
-- work: Historia Bohemica
+- row_id: piccolomini_historia-bohemica-lat_1592--historia-bohemica
+  work: Historia Bohemica
   author: piccolomini
   locus: whole volume
   role: context
@@ -268,7 +288,8 @@ works:
 
     '
   source_file: piccolomini_historia-bohemica-lat_1592.txt
-- work: Historia Bohemica (Cologne, 1524 printing)
+- row_id: piccolomini_historia-bohemica-lat_1524--historia-bohemica-cologne-1524-printing
+  work: Historia Bohemica (Cologne, 1524 printing)
   author: piccolomini
   locus: whole text
   role: context
@@ -282,7 +303,8 @@ works:
     against a clean Latin vocabulary 0.60, about the same as the 1592 printing). It does not
     by itself supply a clean witness; check every wording against the page image.'
   source_file: piccolomini_historia-bohemica-lat_1524.txt
-- work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
+- row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren
+  work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
   author: unity-of-the-brethren
   locus: whole volume
   role: context
@@ -299,7 +321,8 @@ works:
 
     '
   source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
-- work: The Bohemian Brethren's Latin Confession to King Vladislav (in the Fasciculus)
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--the-bohemian-brethren-s-latin-confession-to-king-vladislav
+  work: The Bohemian Brethren's Latin Confession to King Vladislav (in the Fasciculus)
   author: unity-of-the-brethren
   locus: running head "Ad Vladislaum Hung. Reg. missa", volume page 163, opening "Omnem videlicet
     fidei veritatem"
@@ -313,7 +336,8 @@ works:
     in outline. Check every wording against the page image; the earlier Cologne printing of
     1535 is a separate item on Internet Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
   source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
-- work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and
+- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2
+  work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and
     Taborite sections
   author: van-braght
   locus: file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived'

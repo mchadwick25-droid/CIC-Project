@@ -4,7 +4,8 @@
 source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
 
 assignments:
-  - work: "On the Workmanship of God"
+  - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--on-the-workmanship-of-god
+    work: "On the Workmanship of God"
     author: lactantius
     locus: "file line 3523 (heading 'DE OPIFICIO DEI' (OCR 'BEI'), following the prolegomena)"
     atlas_ids:
@@ -21,7 +22,8 @@ assignments:
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
 
-  - work: "A Treatise on the Anger of God"
+  - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--a-treatise-on-the-anger-of-god
+    work: "A Treatise on the Anger of God"
     author: lactantius
     locus: "file line 6768 (heading 'DE IRA DEI')"
     atlas_ids:
@@ -38,7 +40,8 @@ assignments:
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
 
-  - work: "Fragments of Lactantius"
+  - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--fragments-of-lactantius
+    work: "Fragments of Lactantius"
     author: lactantius
     locus: "file line 11021 (heading 'LIBRORVM PERDITORVM FRAGMENTA.', the fragments of lost works; the poems (Carmina) begin earlier at line 10119 and have no English twin here)"
     atlas_ids:

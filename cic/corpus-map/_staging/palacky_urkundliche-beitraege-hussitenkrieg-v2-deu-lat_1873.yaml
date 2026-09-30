@@ -1,6 +1,7 @@
 source_file: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt
 assignments:
-- work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band II: 1429-1436'
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873--urkundliche-beitrage-zur-geschichte-des-hussitenkrieges-band
+  work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band II: 1429-1436'
   author: palacky
   locus: 'whole volume - Band II: 1429-1436'
   atlas_ids:

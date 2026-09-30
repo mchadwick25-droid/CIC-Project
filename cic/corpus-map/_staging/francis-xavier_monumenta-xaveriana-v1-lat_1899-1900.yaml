@@ -1,6 +1,7 @@
 source_file: francis-xavier_monumenta-xaveriana-v1-lat_1899-1900.txt
 assignments:
-- work: 'Monumenta Xaveriana, Tomus I: Xavier''s letters and other writings'
+- row_id: francis-xavier_monumenta-xaveriana-v1-lat_1899-1900--monumenta-xaveriana-tomus-i-xavier-s-letters-and-other
+  work: 'Monumenta Xaveriana, Tomus I: Xavier''s letters and other writings'
   author: francis-xavier
   locus: whole volume; Xavier's letters with Valignano's Life placed first
   atlas_ids:

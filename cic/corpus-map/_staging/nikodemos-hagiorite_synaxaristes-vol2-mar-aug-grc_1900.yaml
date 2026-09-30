@@ -1,7 +1,8 @@
 source_file: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt
 
 assignments:
-  - work: "Synaxaristes of the Twelve Months, volume 2 (March to August), Greek"
+  - row_id: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900--synaxaristes-of-the-twelve-months-volume-2-march-to-august
+    work: "Synaxaristes of the Twelve Months, volume 2 (March to August), Greek"
     author: nikodemos-hagiorite
     locus: "whole volume; the March entries from about file line 3401"
     atlas_ids:
@@ -15,7 +16,8 @@ assignments:
       1453-1650); this edition is a late witness to practice and law, so its place here is a
       provisional shelf assignment for the world's builders to confirm. Second witness only:
       the Greek OCR is heavily garbled in accents and vowels.
-  - work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
+  - row_id: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900--synaxaristes-of-the-twelve-months-volume-2-march-to-august-2
+    work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
     author: nikodemos-hagiorite
     locus: whole volume; the March entries from about file line 3401
     atlas_ids:
@@ -24,7 +26,8 @@ assignments:
     confidence: provisional
     note: Placed on
       the entry's window (1650-1821). Same reasoning as volume 1; second witness only.
-  - work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
+  - row_id: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900--synaxaristes-of-the-twelve-months-volume-2-march-to-august-3
+    work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
     author: nikodemos-hagiorite
     locus: whole volume; the March entries from about file line 3401
     atlas_ids:

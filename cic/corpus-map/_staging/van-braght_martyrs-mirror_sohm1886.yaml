@@ -1,7 +1,8 @@
 source_file: van-braght_martyrs-mirror_sohm1886.txt
 
 assignments:
-  - work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians"
+  - row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless
+    work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians"
     author: van-braght
     locus: "whole text"
     atlas_ids:
@@ -18,7 +19,8 @@ assignments:
       accounts as separate works once a build thread reaches this
       material.
 
-  - work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and Taborite sections"
+  - row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2
+    work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and Taborite sections"
     author: van-braght
     locus: "file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived' and the sections on the Taborites (lines 47499-47566)"
     atlas_ids:

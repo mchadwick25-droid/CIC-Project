@@ -1,6 +1,7 @@
 source_file: society-of-jesus_monumenta-paedagogica-lat-spa_1901.txt
 assignments:
-- work: Monumenta Paedagogica Societatis Iesu (documents to 1586)
+- row_id: society-of-jesus_monumenta-paedagogica-lat-spa_1901--monumenta-paedagogica-societatis-iesu-documents-to-1586
+  work: Monumenta Paedagogica Societatis Iesu (documents to 1586)
   author: society-of-jesus
   locus: whole volume
   atlas_ids:

@@ -2,7 +2,8 @@
 source_file: palladius_dialogue-life-of-chrysostom_moore1921.txt
 
 assignments:
-  - work: "Dialogue Concerning the Life of Chrysostom"
+  - row_id: palladius_dialogue-life-of-chrysostom_moore1921--dialogue-concerning-the-life-of-chrysostom
+    work: "Dialogue Concerning the Life of Chrysostom"
     author: palladius
     locus: "whole text; the Synod of the Oak and Theophilus, file lines about 2000-2800; Chrysostom's exile, about 6150-6320"
     atlas_ids:
@@ -15,7 +16,8 @@ assignments:
       source-readiness gap. The author's identity is Herbert Moore's argued identification
       with the Palladius of the Lausiac History; the file does not settle it. The Greek OCR is
       garbled, the English is readable. Moore's introduction and notes are 1921 commentary.
-  - work: "Dialogue Concerning the Life of Chrysostom"
+  - row_id: palladius_dialogue-life-of-chrysostom_moore1921--dialogue-concerning-the-life-of-chrysostom-2
+    work: "Dialogue Concerning the Life of Chrysostom"
     author: palladius
     locus: "Theophilus of Alexandria, the Tall Brothers and the Origenist quarrel, file lines 230-620 and 4114-4700"
     atlas_ids:

@@ -1,6 +1,7 @@
 source_file: polanco_chronicon-v6-lat_1898.txt
 assignments:
-- work: Chronicon Societatis Iesu (Polanco), Tomus 6 (1556)
+- row_id: polanco_chronicon-v6-lat_1898--chronicon-societatis-iesu-polanco-tomus-6-1556
+  work: Chronicon Societatis Iesu (Polanco), Tomus 6 (1556)
   author: polanco
   locus: whole volume - Tomus 6, 1556
   atlas_ids:

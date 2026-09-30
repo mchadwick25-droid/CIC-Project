@@ -4603,3 +4603,44 @@ panel in `atlas-v3.html` under "The Story", with the synthesized-voice note.
 
 1. Merge, then Mark listens to a live story clip.
 2. The Unfolding Story on the home page, then the built-world stories.
+
+## 2026-09-29 — Documented stories in unbuilt worlds narrated (517), voice B, 64 kbps
+
+**Decision.** The 517 documented stories inside the 268 unbuilt movements are
+narrated in the gap-story voice, story text only (no teaser, no caveat),
+at 64 kbps. Mark approved the voice and the quality by ear from a 3-story
+sample (Chrysostom's Antioch, the Cathars, the Taiping) and said to run the
+rest in batches.
+
+**Settings, as printed by every run.** Voice `onegjDE2z0mQtp1g0HK7`, model
+`eleven_v4`, output format `mp3_44100_64`, stability 0.95, similarity 0.68,
+style 0, speaker boost on. All 517 manifest entries carry these values;
+none differs.
+
+**Cost.** Sample: 548 credits (4,106 characters). Final run: 502 stories,
+94,539 credits. Ten stories from an earlier run that stopped part-way and
+one from a restart were kept and not paid for twice.
+Total about 96,500 credits. Whether the launch promotion covered any of
+it is not known from the API, which reports only the charge.
+
+**Checks.** Every story has its file and its manifest entry; sizes sit at
+483-590 bytes per character, so none is truncated; total 388 MB.
+
+**What went wrong on the way.** The first run stopped after 12 stories
+(background process not kept alive) and a restart command killed itself;
+about an hour was lost, no credits. Requests now time out after 3 minutes
+and the run is a tracked background task.
+
+**Tools.** `generate_tree_narration.mjs` now requires `--voice-id` and
+`--model` and prints credits per request. `generate_docstory_narration.mjs`
+requires the output format as well and writes `manifest.json`, which fingerprints
+each story's text so an edit shows which audio is stale.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge PR #644; Mark listens to a live documented story.
+2. Built worlds' stories (compiled world data, separate renderer) remain.

@@ -1,6 +1,7 @@
 source_file: society-of-jesus_institutum-societatis-iesu-v3-lat_1893.txt
 assignments:
-- work: 'Institutum Societatis Iesu, Vol. 3: the Rules, the Ratio Studiorum, the ordinances and instructions,
+- row_id: society-of-jesus_institutum-societatis-iesu-v3-lat_1893--institutum-societatis-iesu-vol-3-the-rules-the-ratio
+  work: 'Institutum Societatis Iesu, Vol. 3: the Rules, the Ratio Studiorum, the ordinances and instructions,
     the Exercises and the Directory'
   author: society-of-jesus
   locus: whole volume - volume 3 of 3

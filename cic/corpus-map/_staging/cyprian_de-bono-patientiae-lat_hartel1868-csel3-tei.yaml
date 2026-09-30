@@ -3,7 +3,8 @@
 source_file: cyprian_de-bono-patientiae-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "De Bono Patientiae, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-bono-patientiae-lat_hartel1868-csel3-tei--de-bono-patientiae-csel-3-latin-text-tei
+    work: "De Bono Patientiae, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 109 (first text of the TEI body, opening 'De patientia locuturus, fratres dilectissimi'); urn:cts:latinLit:stoa0104a.stoa003.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 14305-15007"
     atlas_ids:

@@ -2,7 +2,8 @@
 source_file: audollent_carthage-romaine-fra_1901.txt
 
 assignments:
-  - work: "Carthage romaine (Audollent, 1901)"
+  - row_id: audollent_carthage-romaine-fra_1901--carthage-romaine-audollent-1901
+    work: "Carthage romaine (Audollent, 1901)"
     author: audollent
     locus: "whole file; title page at file line 33"
     atlas_ids:

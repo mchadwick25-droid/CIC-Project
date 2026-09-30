@@ -3,7 +3,8 @@
 source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
 
 assignments:
-  - work: "The Passion of the Scillitan Martyrs, Latin (Gebhardt 1902, no. IV)"
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--the-passion-of-the-scillitan-martyrs-latin-gebhardt-1902-no
+    work: "The Passion of the Scillitan Martyrs, Latin (Gebhardt 1902, no. IV)"
     author: passion-of-scillitan-martyrs
     locus: "file line 1560 ('Passio Sanctorum Secillitanorum'); collection no. IV"
     atlas_ids:
@@ -21,7 +22,8 @@ assignments:
       letter is doubtful (INTAKE section 6) before it is used. Mirrors the existing entries' role and
       confidence exactly.
 
-  - work: "The Passion of the Holy Martyrs Perpetua and Felicitas, Latin (Gebhardt 1902, no. VII)"
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--the-passion-of-the-holy-martyrs-perpetua-and-felicitas-latin
+    work: "The Passion of the Holy Martyrs Perpetua and Felicitas, Latin (Gebhardt 1902, no. VII)"
     author: passion_of_perpetua
     locus: "file line 3489 ('Passio SS. Perpetuae et Felicitatis.'); collection no. VII"
     atlas_ids:
@@ -38,7 +40,8 @@ assignments:
       letter is doubtful (INTAKE section 6) before it is used. Mirrors the existing entries' role and
       confidence exactly.
 
-  - work: "Acta Proconsularia of Cyprian, Latin (Gebhardt 1902, no. XI)"
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--acta-proconsularia-of-cyprian-latin-gebhardt-1902-no-xi
+    work: "Acta Proconsularia of Cyprian, Latin (Gebhardt 1902, no. XI)"
     author: cyprian
     locus: "file line 6474 ('Acta S. Cypriani episcopi et martyris'); collection no. XI"
     atlas_ids:
@@ -55,7 +58,8 @@ assignments:
       the file and against the page image where a letter is doubtful (INTAKE section 6) before it is
       used. Mirrors that entry's role and confidence.
 
-  - work: "Passio of Marianus and Jacobus, Latin (Gebhardt 1902, no. XIII)"
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-of-marianus-and-jacobus-latin-gebhardt-1902-no-xiii
+    work: "Passio of Marianus and Jacobus, Latin (Gebhardt 1902, no. XIII)"
     author: passion-of-marianus-and-jacobus
     locus: "file line 6920 ('Passio SS. Mariani et Iacobi'); collection no. XIII"
     atlas_ids:
@@ -72,7 +76,8 @@ assignments:
       it is used. Provisional because the account is anonymous and its date is not stated in the
       file's own text.
 
-  - work: "Passio of Montanus and Lucius, Latin (Gebhardt 1902, no. XIV)"
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-of-montanus-and-lucius-latin-gebhardt-1902-no-xiv
+    work: "Passio of Montanus and Lucius, Latin (Gebhardt 1902, no. XIV)"
     author: passion-of-montanus-and-lucius
     locus: "file line 7492 ('Passio SS. Montani et Lucii.'); collection no. XIV"
     atlas_ids:
