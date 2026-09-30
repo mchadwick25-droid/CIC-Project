@@ -36,13 +36,44 @@ _ID = re.compile(r'\bid="([^"]*)"')
 _TITLE = re.compile(r'\btitle="([^"]*)"')
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history", re.IGNORECASE)
 _NORM = re.compile(r"\s+")
-_SOFT_HYPHEN = re.compile(r"¬\s*")
+_SOFT_HYPHEN = re.compile(r"¬[ \t]*\r?\n[ \t]*")
+_SOFT_HYPHEN_SPAN = re.compile(r"¬[ \t]*(?:\r?\n)?[ \t]*")
+_FRAMEWORK_DOCX = re.compile(r"Formation_World_Construction_Framework_V(\d+(?:\.\d+)*)\.docx$")
+_NOT_CURRENT = re.compile(r"superseded|draft|proposal|safety|tracker|register", re.IGNORECASE)
 _WORD_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 
+def join_quotation_soft_hyphens(span: str) -> str:
+    """The same join for a quotation. A quotation reaches the check with its
+    line breaks already collapsed to single spaces, so the one break after '¬'
+    is a space there."""
+    return _SOFT_HYPHEN_SPAN.sub("", span)
+
+
 def join_soft_hyphens(text: str) -> str:
-    """Scans mark a word broken at a line end with '¬'; the halves are one word."""
+    """Scans mark a word broken at a line end with '¬'; the halves are one word.
+    Only the mark and the one line break after it are dropped, so a blank line
+    or a running head after '¬' does not join two words."""
     return _SOFT_HYPHEN.sub("", text)
+
+
+def _docx_pool(root: Path) -> list[Path]:
+    """The .docx files a quotation may quote: Build/reference/L1-Foundation/*.docx
+    and the current Formation World Construction Framework (the highest version
+    number in its name), less review-named and superseded, draft, proposal,
+    safety-test, tracker and register documents."""
+    reference = root / "Build" / "reference"
+    if not reference.is_dir():
+        return []
+    pool = [p for p in sorted((reference / "L1-Foundation").glob("*.docx"))]
+    versions = []
+    for p in reference.glob("L3*/*.docx"):
+        m = _FRAMEWORK_DOCX.search(p.name)
+        if m:
+            versions.append((tuple(int(x) for x in m.group(1).split(".")), p))
+    if versions:
+        pool.append(max(versions)[1])
+    return [p for p in pool if not p.name.startswith("~$") and not _REVIEWISH.search(p.name) and not _NOT_CURRENT.search(p.name)]
 
 
 def docx_text(path: Path) -> str:
@@ -163,6 +194,7 @@ class TextStore:
         return None
 
     def verify(self, span: str, name: str):
+        span = join_quotation_soft_hyphens(span)
         loaded = self._load(name)
         if loaded is None or not self.may_contain(span, name):
             return None
@@ -214,6 +246,7 @@ class TextStore:
         """Whether the quotation is found word for word inside `text`, a
         division's own text."""
         text = join_soft_hyphens(text)
+        span = join_quotation_soft_hyphens(span)
         if verify_quote_text(span, text, source_is_xml=False).verified:
             return True
         cleaned = normalize_archaic_letterforms(strip_apparatus(collapse_linewrap_hyphens(text)))[0]
@@ -245,8 +278,7 @@ def _project_texts(code: str, root: Path, slug: str | None = None) -> dict[str, 
         if directory.is_dir():
             files += [p for p in sorted(directory.rglob("*.md")) if not _REVIEWISH.search(p.name) and "Review-Artifacts" not in p.parts]
     files += [p for p in (root / "CLAUDE.md", root / "cic-website" / "data" / "world-census.json") if p.is_file()]
-    reference = root / "Build" / "reference"
-    docx = [p for p in sorted(reference.rglob("*.docx")) if not p.name.startswith("~$")] if reference.is_dir() else []
+    docx = _docx_pool(root)
     out = {}
     for p in files + docx:
         resolved = p.resolve()
@@ -256,7 +288,7 @@ def _project_texts(code: str, root: Path, slug: str | None = None) -> dict[str, 
             body = docx_text(p) if p.suffix == ".docx" else read_text(p)
         except (zipfile.BadZipFile, KeyError, ElementTree.ParseError):
             continue
-        out[rel(p, root)] = _norm(body)
+        out[rel(p, root)] = _norm(join_soft_hyphens(body))
     return out
 
 
@@ -333,7 +365,7 @@ def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, sl
                 if hit is None:
                     if project is None:
                         project = _project_texts(code, root, slug)
-                    needle = _norm(span)
+                    needle = _norm(join_quotation_soft_hyphens(span))
                     source = next((p for p, body in project.items() if needle in body), None)
                     if source:
                         exempt += 1

@@ -90,3 +90,5 @@ Every changed line of 605c7c2f1 was read.
 - The whole-document readability figure the drafter gives (own prose, quotations removed, FRE 61.0). Only §6 was rescored.
 - Publication years and rights of rows 44 to 51. No external instrument was used.
 - The meaning of the paraphrase beyond the sentence at lines 4086–4087, and whether line 4086 falls inside the sect chapter (Round 2 accepted the chapter placement).
+
+Disposition: Approved to proceed (self-disposed by the Library thread after the Round 3 clearance; recorded at the time in the document status lines).

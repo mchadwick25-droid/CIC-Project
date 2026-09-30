@@ -64,7 +64,7 @@ def current_state(code: str, doc: int, root: Path = REPO_ROOT) -> State:
     if not found:
         return State(0, 0, 0, "none")
     latest = max(found)
-    return State(sum(len(v) for v in found.values()), len(cycle_rounds(found)), latest, verdict_word(found[latest]))
+    return State(sum(len(v) for v in found.values()), len(cycle_rounds(found, root)), latest, verdict_word(found[latest]))
 
 
 @dataclass(frozen=True)

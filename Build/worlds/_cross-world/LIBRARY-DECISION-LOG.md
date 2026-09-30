@@ -13,27 +13,50 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
-## 2026-09-30 — Step 0-2 process and gate fixes, 2026-09-30
+## 2026-09-30 — Step 0-2 process and gate fixes
 
 **Instruction.** The project lead ordered: "also apply fixes to the step 0 - 2
 build process so we have what we need for future builds." The jes and hus
 builds exposed the gaps.
 
 **Gate (engine/m10, tools).** The quote store joins line-end `¬` hyphenation in
-the Institutum scans before matching. The project-document pool includes plain
-text of the `.docx` files under `Build/reference` (the Constitution and the
-Framework), so Article 4 and Framework quotations count as project-document
-quotations. A review file may carry a `Cycle reset` header field; the
-three-round cap counts from the latest file that carries it (the 2026-09-29
-ruling), and every file stays on record. `check_live_commentary.py` treats ISO
-dates in table rows of `*Source_Registry*.md` files as schema data.
+the Institutum scans (the mark and one line break) before matching, in the
+source and in the quotation. The project-document pool includes plain text of
+the `.docx` files in `Build/reference/L1-Foundation` and the current Formation
+World Construction Framework (highest version number in its name), so Article 4
+and Framework quotations count as project-document quotations; superseded,
+draft, proposal, safety-test, tracker and register documents are not in the
+pool. A review file may carry a `Cycle reset` header field. The three-round cap
+counts from the latest file whose field is earned: it cites, by exact title, an
+entry of this log (the ruling "The three-round cap counts from significant new
+material") or of a Build/Ministry decision log, and the round before it cleared
+review. Without an earned field the count starts at round 1, and a reset that is
+not honoured routes the cap finding to the project lead with the reason. Every
+file stays on record. `check_live_commentary.py` treats an ISO date in a
+`Source_Registry.md` or `<code>_Source_Registry.md` table as schema data only
+inside a cell whose column header is `Added` or a discovery or date column.
 
 **Process and templates.** Process V2.0 Section 4 gains the Library-stage
 rules and completion checklist (registry entry timing, review-file naming and
 filing, quotations, dossier, Registry row rules, Doc_02 checks, manifest,
-shared working tree) and Section 12 records the change order. The handoff
-items 1 and 12, the review-file header template and the Launch Prompt V2.0
-follow.
+shared working tree) and Section 12 records the change order with its reason
+and the worlds it binds. The handoff items 1 and 12, the review-file header
+template and its rules file, and the Launch Prompt V2.0 follow.
+
+**Proposed for the Source Registry Template, awaiting the project lead's
+decision.** Two rules were drafted into the process document and taken out
+again, because each changes the method for every world and comes from the
+Template. They are not in force. Exact wording:
+
+- Confidence calibration: "Each row carries one Confidence letter, A to D. A
+  is given only when the Licensed-For content was read and verified at the
+  source by structure marker."
+- Corpus figures: "Corpus figures are counted by two methods, with the locale
+  stated (`C.UTF-8` and `POSIX` count differently)."
+
+The Template's own Confidence scale is A to E and defines A as "Verified this
+session against an accessible primary source, translation, or authoritative
+reference".
 
 ---
 

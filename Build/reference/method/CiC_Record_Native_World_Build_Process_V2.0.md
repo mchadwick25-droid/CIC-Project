@@ -300,9 +300,9 @@ subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 | Handoff quote check | Re-verifies every Step 0–2 quotation against the vendored text in `cic/texts/`, speaker included. It also runs the locus check (`quotes-locus`): a quotation whose paragraph carries a `cic:<file>:<locus>` address must lie inside the division that address names, and a locus that names no division is a finding. A quotation in a paragraph with no address is not checked for locus. | Same run. | `handoff <code>` |
 | Pre-review bundle | One command that runs `engine.m2.cli build`, `engine.m1.bar_screen`, `engine.m1.cross_world` and `engine.m9.cli holdings`, and saves the output for the review brief. | Before every review round. `--doc N` names the document by its number and only checks that its file exists. | `prereview <code> --doc N` |
 | Citation resolver | Every record id and citation in a document or probe file resolves and is the right record type. | On every document and every probe file, before review. | `citations <code>` |
-| Round counter | Counts every review file with a round number for a document (a review, a spot-check or a recheck), whatever its verdict. `roundcount <code> N --check-new` is the guard that runs before any new review file is written. With three review files on record it exits non-zero and routes the document to Mark. `N` is the document number (`0` for Step 0). Without `--check-new`, the command fails only once a fourth file already exists. Rounds are counted from the latest review file that carries a `Cycle reset` header field (Section 4, Library-stage rules); every file stays on record. | Before every review file is written. | `roundcount <code> N --check-new` |
+| Round counter | Counts every review file with a round number for a document (a review, a spot-check or a recheck), whatever its verdict. `roundcount <code> N --check-new` is the guard that runs before any new review file is written. With three review files on record it exits non-zero and routes the document to Mark. `N` is the document number (`0` for Step 0). Without `--check-new`, the command fails only once a fourth file in the current cycle exists. The current cycle starts at the first round, or at the latest round whose file carries an earned `Cycle reset` header field (Section 4, Library-stage rules); every file stays on record. | Before every review file is written. | `roundcount <code> N --check-new` |
 | Claims-register check | Derives every absence or exclusivity claim ("no source says...", "the only surviving source...") from a document's deliverables and compares it with the claims register. Halts on a claim that is not registered, on a register entry no claim supports, and on a register entry whose evidence no longer resolves. Registration is the control. It does not show a claim is true. | Before every review round on a document that carries claims (Section 4). | `claims <code>` |
-| Review-file check | The reviewer is not the drafter. The model is Opus 5.5. The first line carries the simulated-review label. A two-method truncation check is recorded. The optional `Cycle reset` field, when present, has text. | On every review file, before it counts. | `reviewfile <path>` |
+| Review-file check | The reviewer is not the drafter. The model is Opus 5.5. The first line carries the simulated-review label. A two-method truncation check is recorded. The optional `Cycle reset` field, when present, is not empty or a placeholder. | On every review file, before it counts. | `reviewfile <path>` |
 | Open-gaps check | Every open item in a review or phase document has an `Open_Gaps_Tracking.md` entry. | After every review file. | `gaps <code>` |
 | Process-narration block | The CI job `live-commentary` runs `tools/check_live_commentary.py --base origin/<base> --enforce`. A pull request that leaves process narration in a live or canonical file it edits fails. Files it does not edit are not scanned. | On every pull request. | CI |
 | Re-gate after edit | Re-runs readability and the word budget on every changed field and every public-facing field. Confirms a new world carries no waivers and grandfathering stays closed. Any exception needs an owning finding and Mark's approval. | After any edit. | `regate <code>` |
@@ -392,14 +392,22 @@ Step 2 also produces, for the build to work from:
   reviewer's "Clear" is not the disposition: the drafter records it after a
   clear review. A bounded spot-check that closes a round's directed
   correction is filed under that round's number, not a new one. The header
-  contract is `Build/reference/L4-Templates/Review_File_Header_Template.md`.
+  contract is `Build/reference/L4-Templates/Review_File_Header_Template.md`;
+  its rules are in `Build/reference/L4-Templates/Review_File_Rules.md`.
 - **Round cap and new material.** The three-round cap counts from
-  significant new material (new sources, new rulings, a merged candidate;
-  `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`, "The three-round cap counts from significant new material"). The first
-  review file after such material carries the header field
-  `- **Cycle reset:** <text citing the ruling>`. Rounds are counted from the
-  latest file that carries it: that file is round 1 of the new cycle. Every
-  file stays on record. Minor edits do not reset the count.
+  significant new material (new sources, new rulings, a merged candidate),
+  under the ruling "The three-round cap counts from significant new material"
+  in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`. The first review
+  file after such material may carry the header field
+  `- **Cycle reset:** <text>`. The gate honours it only when both conditions
+  hold: the text cites, by its exact title, an entry that exists in that
+  decision log or in a decision log under `Build/Ministry/`; and the round
+  immediately before the file that carries the field cleared review
+  (`Approved to proceed`). Otherwise the reset is ignored, the full count
+  stands, and a cap finding routes to the project lead with the reason. When
+  honoured, rounds are counted from that file, which is the first round of
+  the new cycle; every file stays on record. Minor edits do not reset the
+  count.
 - **Quotations.** Quote only what matches a vendored file or a project
   document word for word. Cite `cic:<file>:<locus>` in the same paragraph, so
   the gate confirms the quotation inside the named division. Never put
@@ -412,11 +420,7 @@ Step 2 also produces, for the build to work from:
   Source Registry under a matching title.
 - **Registry rows.** No row and no supporting claim rests on a work assigned
   only to another world. The Library thread places such a work first, per the
-  standing ruling, and then a row may be added. Each row carries one
-  Confidence letter, A to D. A is given only when the Licensed-For content was
-  read and verified at the source by structure marker. Corpus figures are
-  counted by two methods, with the locale stated (`C.UTF-8` and `POSIX`
-  count differently). Every "vendored" and "not vendored" statement is
+  standing ruling, and then a row may be added. Every "vendored" and "not vendored" statement is
   re-checked after any Library acquisition: a vendoring pass makes Steps 0 to
   2 stale until they are resynced.
 - **Doc_02 checks.** Doc_02 includes the Forces-lens step of Framework V7.4
@@ -1525,7 +1529,10 @@ version in force when its build began.
   checklist, handoff items 1 and 12, the round counter's `Cycle reset`
   field, and the review-file and manifest templates. Source: the project
   lead's instruction, logged in `LIBRARY-DECISION-LOG.md` as "Step 0-2 process
-  and gate fixes".
+  and gate fixes". Reason: the jes and hus builds exposed gaps that each
+  future world would meet again. It binds every world that has not yet
+  reached the handoff gate; worlds already stamped V2.0 (jes, hus) follow the
+  same rules from their next review round.
 
 ---
 

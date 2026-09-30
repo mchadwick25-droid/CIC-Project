@@ -113,7 +113,7 @@ def check_review_file(path: Path, root: Path = REPO_ROOT) -> list[Finding]:
 
     reset = _field_value(header, FIELD_CYCLE_RESET)
     if reset is not None and (not reset or PLACEHOLDER.match(reset)):
-        bad("reviewfile-cycle-reset", "header field 'Cycle reset' is present but empty; it must cite the ruling that restarts the round count")
+        bad("reviewfile-cycle-reset", "header field 'Cycle reset' is present but empty or a placeholder; it must cite the ruling that restarts the round count")
 
     round_value = values[FIELD_ROUND]
     if round_value and not PLACEHOLDER.match(round_value):

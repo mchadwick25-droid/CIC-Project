@@ -234,15 +234,28 @@ def test_01_a_grandfathered_world_without_the_field_is_not_a_handoff_failure(tmp
     assert value is None and "grandfathered" in reason
 
 
-def test_cycle_reset_lets_step_two_pass_beyond_three_files(tmp_path):
+def _reset_world(tmp_path, field):
     from .fixture_world import review_text
 
     root = build_world(tmp_path)
+    write(root, "Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md", "## 2026-09-29 \u2014 The three-round cap counts from significant new material\n\nx\n")
     base = f"Build/worlds/{CODE}/Review-Artifacts"
     for n in (2, 3, 4, 5):
         text = review_text(n)
         if n == 4:
-            text = text.replace("Round:", "Cycle reset: LIBRARY-DECISION-LOG 2026-09-29 ruling\nRound:", 1)
+            text = text.replace("Round:", f"Cycle reset: {field}\nRound:", 1)
         write(root, f"{base}/Doc02_Round{n}_Review.md", text)
+    return root
+
+
+def test_earned_cycle_reset_lets_step_two_pass_beyond_three_files(tmp_path):
+    root = _reset_world(tmp_path, "The three-round cap counts from significant new material")
     reports = {r.name: r for r in run_handoff(CODE, quiet_deps(root))}
     assert reports["handoff-04-step2"].findings == []
+
+
+def test_unearned_cycle_reset_fails_step_two_and_routes_to_the_project_lead(tmp_path):
+    root = _reset_world(tmp_path, "TBD")
+    reports = {r.name: r for r in run_handoff(CODE, quiet_deps(root))}
+    reasons = " ".join(f.reason for f in reports["handoff-04-step2"].findings)
+    assert "route to project lead" in reasons and "not honoured" in reasons

@@ -1102,11 +1102,12 @@ def test_source_registry_table_cell_bare_date_keeps(tmp_path):
         "---\n"
         "\n"
         "| Row | Title | Boundary | Confidence | Added | Discovery |\n"
+        "|---|---|---|---|---|---|\n"
         "| 14 | Some Work | Native | Confidence B | 2026-07-14 | web search, 2026-07-14 |\n"
     )
     hits = _hits_for(text, tmp_path, "Build/worlds/witt/witt_Source_Registry.md")
     by_line = {h.line: h.category for h in hits}
-    assert by_line.get(6, "KEEP") == "KEEP"
+    assert by_line.get(7, "KEEP") == "KEEP"
 
 
 def test_source_registry_table_cell_date_first_keeps(tmp_path):
@@ -1119,13 +1120,14 @@ def test_source_registry_table_cell_date_first_keeps(tmp_path):
         "---\n"
         "\n"
         "| Row | Source | Confidence | Added |\n"
+        "|---|---|---|---|\n"
         "| 1 | Some Work | A | 2026-09-01, `lpc` build thread |\n"
         "| 2 | Another Work | B | 2026-08-31, build thread |\n"
     )
     hits = _hits_for(text, tmp_path, "Build/worlds/lpc/Source_Registry.md")
     by_line = {h.line: h.category for h in hits}
-    assert by_line.get(6, "KEEP") == "KEEP"
     assert by_line.get(7, "KEEP") == "KEEP"
+    assert by_line.get(8, "KEEP") == "KEEP"
 
 
 def test_bare_date_table_cell_outside_source_registry_still_rewrites(tmp_path):
@@ -1651,21 +1653,45 @@ def test_method_rule_does_not_reach_other_paths(tmp_path):
         assert set(cats) & _BLOCKING, rel
 
 
-def test_source_registry_table_row_dates_keep_whatever_the_cell_shape(tmp_path):
-    text = (
-        "# Source Registry\n"
-        "\n"
-        "| Row | Title | Added | Discovery |\n"
-        "| 3 | Some Work | 2026-09-29 by the Library thread after the vendoring pass | found by catalogue search on 2026-09-28 (Doc_02 pass) |\n"
-    )
-    for name in ("Source_Registry.md", "jes_Source_Registry_V2.md"):
-        hits = _hits_for(text, tmp_path, f"Build/worlds/jes/{name}")
-        assert {h.line: h.category for h in hits}.get(4, "KEEP") == "KEEP"
+# The Source Registry Template's entry schema has an `Added` field ("Date and
+# who/what added it") and Framework V7.4 Step 2 has each source row carry a
+# discovery channel, instrument and date. Neither mandates an ISO date; the
+# exemption is keyed to the column headers of the table itself.
+_REGISTRY_HEADER = "| # | Source | Verification Note | Added | Discovery (channel / instrument / date) |\n|---|---|---|---|---|\n"
 
 
-def test_source_registry_exemption_is_iso_date_only_and_row_only(tmp_path):
+def _registry_hits(tmp_path, row, name="Source_Registry.md", header=_REGISTRY_HEADER):
+    hits = _hits_for(f"# Source Registry\n\n{header}{row}\n", tmp_path, f"Build/worlds/jes/{name}")
+    return {h.line: h.category for h in hits}
+
+
+def test_source_registry_dates_in_added_and_discovery_cells_are_kept(tmp_path):
+    row = "| 3 | Some Work | checked | 2026-09-29, `jes` build thread | WebSearch, 2026-09-28 |"
+    for name in ("Source_Registry.md", "jes_Source_Registry.md"):
+        assert _registry_hits(tmp_path, row, name).get(5, "KEEP") == "KEEP"
+
+
+def test_source_registry_date_in_another_cell_is_still_flagged(tmp_path):
+    row = "| 3 | Some Work | reworded on 2026-09-29 | 2026-09-29 | WebSearch |"
+    assert _registry_hits(tmp_path, row).get(5) == "REWRITE"
+
+
+def test_source_registry_narration_in_a_discovery_cell_is_still_flagged(tmp_path):
+    row = "| 3 | Some Work | checked | 2026-09-29 | fixed after the Round 2 review, 2026-09-28 |"
+    assert _registry_hits(tmp_path, row).get(5) == "REWRITE"
+
+
+def test_source_registry_dates_are_kept_only_under_the_headers_of_their_own_table(tmp_path):
+    header = "| # | Source | Notes | Status |\n|---|---|---|---|\n"
+    assert _registry_hits(tmp_path, "| 3 | Some Work | 2026-09-29 | open |", header=header).get(5) == "REWRITE"
+
+
+def test_source_registry_exemption_needs_the_two_file_names(tmp_path):
+    row = "| 3 | Some Work | checked | 2026-09-29 | WebSearch |"
+    for name in ("Source_Registry_Notes.md", "Doc_02_Source_Ecology.md"):
+        assert _registry_hits(tmp_path, row, name).get(5) == "REWRITE"
+
+
+def test_source_registry_exemption_is_iso_date_only(tmp_path):
     prose = "The row was rewritten on 2026-09-29 after review.\n"
     assert _hits_for(prose, tmp_path, "Build/worlds/jes/Source_Registry.md")[0].category == "REWRITE"
-    row = "| 3 | Some Work | Round 2 review changed this | 2026-09-29 |\n"
-    other = _hits_for(row, tmp_path, "Build/worlds/jes/Doc_02_Source_Ecology.md")
-    assert other and other[0].category == "REWRITE"

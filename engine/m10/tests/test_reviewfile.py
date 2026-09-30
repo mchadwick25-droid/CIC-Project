@@ -95,6 +95,9 @@ def test_cycle_reset_field_is_optional_and_needs_text_when_present(tmp_path):
     assert _check(tmp_path, ok) == []
     empty = base.replace("Round:", "Cycle reset:\nRound:", 1)
     assert "reviewfile-cycle-reset" in _ids(_check(tmp_path, empty))
+    tbd = base.replace("Round:", "Cycle reset: TBD\nRound:", 1)
+    findings = _check(tmp_path, tbd)
+    assert "reviewfile-cycle-reset" in _ids(findings) and any("empty or a placeholder" in f.reason for f in findings)
 
 
 def test_cycle_reset_in_the_bold_bullet_form_is_read(tmp_path):
