@@ -863,7 +863,7 @@ def build_limit_silent_century() -> None:
         "confidence": conf("B", "verified-direct", "load-bearing", "Documented"),
         "sources": src(
             ("lpc.source.cyprian-seventh-council-of-carthage",
-             "256, the last dated act of this world's first phase"),
+             "256, the Seventh Council; the first phase closes with Cyprian's martyrdom in 258 and the texts written just after it"),
             ("lpc.source.possidius-vita-augustini-weiskotten1919",
              "391, Augustine's own ordination, the first dated act of this world's second phase"),
         ),
@@ -880,9 +880,11 @@ def build_limit_silent_century() -> None:
         "why_sources_cannot_answer": (
             "This world's own construction window runs from roughly 246 to 430, but its Native corpus "
             "attests only two bounded phases -- Cyprian's, ending 258, and Augustine's, beginning 391. "
-            "Two martyr acts written in the persecution after Cyprian's martyrdom (rows 231 and 232, "
-            "Native) stand at the very start of the interval; they belong to Cyprian's phase and do not "
-            "fill the silence. From them to 391, no source supplies a bishop's ordinary pastoral or "
+            "The texts written at and just after Cyprian's martyrdom stand at the very start of the "
+            "interval: the Acta Cypriani (rows 41, 194, 231 no. 13 and 232 no. XI), Pontius's Life "
+            "(rows 7, 40, 194 and 205), and the two martyr acts of rows 231 and 232 (all Native). They "
+            "belong to Cyprian's phase and do not fill the silence, and no source fixes their order. "
+            "From them to 391, no source supplies a bishop's ordinary pastoral or "
             "congregational voice, or a congregation's voice, that continues Cyprian's. The Registry "
             "texts dated inside the interval include Optatus of Milevis (rows 27, 64 and 264, Native) "
             "and the appendix documents (row 265, Excluded); none continues Cyprian's voice, and this "

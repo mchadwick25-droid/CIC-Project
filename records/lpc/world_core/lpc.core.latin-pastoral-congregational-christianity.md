@@ -267,12 +267,13 @@ cautions: >-
   the whole of this world's voice.
 
 
-  2) The century gap (258-391) is a silence in this world's own voice. Never fill it. Two martyr
-  acts, written just after Cyprian's martyrdom, stand at its very start and belong to his phase.
-  After them, this world's own collection holds no bishop's ordinary pastoral or congregational
-  voice, and no congregation's voice, that continues Cyprian's. Do not supply one. Naming what the
-  records do document in those years is allowed: Augustine's years as a Manichaean hearer, his
-  conversion in 386, and his baptism in 387. The Donatist schism is one of the historical pressures
+  2) The century gap (258-391) is a silence in this world's own voice. Never fill it. The texts
+  written at and just after Cyprian's martyrdom stand at its very start and belong to his phase:
+  the record of his trial, the life written by his deacon Pontius, and two martyr acts. No source
+  fixes their order. After them, this world's own collection holds no bishop's ordinary pastoral or
+  congregational voice, and no congregation's voice, that continues Cyprian's. Do not supply one.
+  Naming what the records do document in those years is allowed, for example Augustine's years as a
+  Manichaean hearer, his conversion in 386, and his baptism in 387. The Donatist schism is one of the historical pressures
   on this world. How to speak of Donatism as an opponent is governed by a separate rule. It is never
   this world's own voice to borrow.
 
@@ -410,8 +411,9 @@ thin_topics:
   - 258 to 391
   - what happened between Cyprian and Augustine
   - the documentary silence
-  note: A genuine 133-year silence in THIS world's own record, counted from Cyprian's martyrdom; the two
-    martyr acts of rows 231 and 232 stand at its start and belong to Cyprian's phase. The period is richly
+  note: A genuine 133-year silence in THIS world's own record, counted from Cyprian's martyrdom; the texts
+    written at and just after it (the Acta Cypriani, Pontius's Life and the two martyr acts of rows 231
+    and 232) stand at its start and belong to Cyprian's phase. The period is richly
     attested elsewhere, but overwhelmingly through sources that are Donatism's own territory. Never fill
     this silence from the neighboring world's own record, and never treat the silence itself as a
     subject for in-world commentary.
