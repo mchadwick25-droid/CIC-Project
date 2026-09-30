@@ -247,7 +247,7 @@ listing.)*
   structural control: `Doc09_Claims_Register.md` + `scripts/check_claims.py`, which derives
   every corpus-absence claim from the deliverables and halts on an unregistered claim or a
   stale register entry. **At disposition (2026-09-15): 142 claims derived and registered, with
-  137 of the 142 remaining UNVERIFIED** (Decision Log's own disposition entry, item 4;
+  137 of the 142 remaining UNVERIFIED** (Decision Log's own disposition entry, its fourth point, 2026-09-15;
   registration is the control, verification separate work). A separate structural pass the
   same day extracted 76 correction-history notices (3,266 words) out of the deliverables and
   deleted `notice_strip.py` (387 lines) once it was no longer needed. Carried open at
@@ -269,7 +269,7 @@ listing.)*
   project lead's own standing rule (a thread never scores its own work as passing) took
   precedence, and the refusal is recorded as correct rather than quietly dropped. Carried
   open: 4 MEDIUM/5 LOW/1 COSMETIC Round 4 findings, deliberately unapplied on the project
-  lead's own instruction; the portfolio-level items from Doc_07 §8 item 4; the World Profile
+  lead's own instruction; the portfolio-level items from Doc_07 §8's fourth item, carried open at the 2026-09-15 disposition; the World Profile
   length target ("no complex world in the portfolio meets it," routed to a coach handoff); an
   exhaustive citation-locus sweep (~90 loci), never completed by any round.
 
@@ -317,25 +317,25 @@ after branch reconciliation), running RCF V3.2 Parts Four through Nine end-to-en
   finding was a citation-locus error reproducing a defect Phase One's own Round 1 review had
   already caught and fixed once (Doc_07 §2D's three dominant doctrinal bodies misdescribed as
   one) — the first of five such recurrences across the Representative phases, see OG-5.
-  Merged to `main` at `708aa13` (PR #447).
+  Merged to `main` at `708aa13` (the Phase Two pull request, 2026-09-23).
 - **Phase Three — Voice Construction** (2026-09-23): **Approved to proceed.**
   `Review-Artifacts/Phase3_VoiceConstruction_Round1_Review.md`, 1H/2M/0L/2C. The HIGH finding
   misattributed the Passion of Perpetua and Felicitas's exclusion to a date-boundary reason
   when Registry row 204 in fact excludes it by prior cross-world ruling (assigned to
-  `tertullian-s-voice`). Merged at `6d2379e4` (PR #451).
+  `tertullian-s-voice`). Merged at `6d2379e4` (the Phase Three pull request, 2026-09-23).
 - **Phase Four — Engagement Architecture** (2026-09-23): **Approved to proceed**, no HIGH
   findings. `Review-Artifacts/Phase4_EngagementArchitecture_Round1_Review.md`, 0H/2M. Built
   its own distinctive Dynamic Encounter mechanism (**Answerability → the Argued Case → the
   Road Back**), deliberately distinct from Donatism's own Threshold–Narration–Jeopardy,
   confirmed by direct comparison. One MEDIUM finding was a second citation-locus error (Doc_05
-  §5.4 vs. the correct §5.1). Merged at `3f2b7454` (PR #454).
+  §5.4 vs. the correct §5.1). Merged at `3f2b7454` (the Phase Four pull request, 2026-09-23).
 - **Representative Artifact Construction — Permanent Prompt + World Capsule Core**
   (2026-09-23): **Approved to proceed.** `Review-Artifacts/RepresentativeArtifacts_Round1_Review.md`,
   1H/5M/2C, plus one MEDIUM completed and one small technical correction (a genuine internal
   contradiction — Hippo Regius called both "inland" and "coastal" in the same clause) found
   and disclosed at the targeted recheck. The HIGH finding was a mandatory-boilerplate edit
   (world-specific imagery substituted into the template's own fixed backstop-mechanism
-  sentence), restored verbatim. Merged at `4e84d208` (PR #456).
+  sentence), restored verbatim. Merged at `4e84d208` (the Representative Artifact Construction pull request, 2026-09-23).
 - **Phase Five — Boundary Testing, Round 1** (2026-09-23): **Approved to proceed**, held as
   "the complete, honest record it is — not a false clean pass." A 14-probe **simulated**
   battery (isolated-subagent method, per the sibling `don` precedent — Constitution Article 31
@@ -348,7 +348,7 @@ after branch reconciliation), running RCF V3.2 Parts Four through Nine end-to-en
   instead (the Facilitator layer must pre-empt Datus's own voice on genuine distress signals,
   which an isolated Datus, tested with no Facilitator layer present, was found to freely
   author redirect-shaped content around). **Explicitly not yet Freeze-eligible on Relational
-  Safety grounds** at this disposition. Merged at `119e927f` (PR #460).
+  Safety grounds** at this disposition. Merged at `119e927f` (the Phase Five Round 1 pull request, 2026-09-23).
 - **Phase Six — Facilitator Coordination** (2026-09-24): **Approved to proceed.**
   `Review-Artifacts/Phase6_FacilitatorCoordination_Round1_Review.md`, 0H/3M. **Central,
   independently-verified finding:** `engine/m4/turn.py`'s portfolio-level
@@ -356,8 +356,8 @@ after branch reconciliation), running RCF V3.2 Parts Four through Nine end-to-en
   genuinely world-independent, unconditional code (`voice_event = None` on the
   `ACUTE_DISTRESS` branch, no per-world gate) — so the architectural fix Probe 11 called for
   is already live and automatically covers `lpc`, closing that design requirement with no
-  world-specific engine change needed. Merged at `d93f2adc` (PR #485); a small follow-up
-  citation-locus fix merged at `cead10a1` (PR #486).
+  world-specific engine change needed. Merged at `d93f2adc` (the Phase Six pull request, 2026-09-24); a small follow-up
+  citation-locus fix merged at `cead10a1` (the Phase Six citation-locus fix pull request, 2026-09-24).
 - **Phase Seven — Encounter Ecology Mapping** (2026-09-24, drafted as an honest
   **retrospective audit**, following the sibling `don`/Syriac precedent for a Phase Seven
   built after Representative construction rather than before it, since no such document was
@@ -370,12 +370,12 @@ after branch reconciliation), running RCF V3.2 Parts Four through Nine end-to-en
   liturgical finding (catechumenate stages, the renunciation formula, the imposition of the
   hand) does not in fact appear in either deployed artifact. Named **open item §6.3**, a
   genuine, disclosed integration gap between an already-Approved finding and the deployed
-  artifacts. Merged at `ef3ffe09` (PR #488).
+  artifacts. Merged at `ef3ffe09` (the Phase Seven pull request, 2026-09-24).
 - **World Context Layer, chunks 001–005** (2026-09-24): **Approved to proceed.**
   `Review-Artifacts/ContextLayer_Round1_Review.md`, 2H/5M/2C, concentrated mostly in
   `lpcctx003`. Drafted specifically to route Phase Seven's own §6.3 depth into the
   token-constrained context layer rather than reopen the already-disposed Permanent Prompt
-  and Capsule Core — **this closes the substance of §6.3.** Merged at `7da29b42` (PR #491).
+  and Capsule Core — **this closes the substance of §6.3.** Merged at `7da29b42` (the World Context Layer pull request, 2026-09-24).
 - **Voice Configuration for Datus** (2026-09-24, `lpc_Voice_Configuration_Datus.md`):
   **Approved to proceed.** `Review-Artifacts/VoiceConfiguration_Round1_Review.md`, 1H/2M/1C.
   The HIGH finding presented disclaimed editorial apparatus (*plebs*, explicitly not a
@@ -383,7 +383,7 @@ after branch reconciliation), running RCF V3.2 Parts Four through Nine end-to-en
   audition, and pronunciation-dictionary testing are all explicitly, honestly left
   PENDING** — no live ElevenLabs platform access exists in this build thread's own
   environment, following the same disclosure pattern the Cappadocian/Eumathios precedent
-  set. Merged at `b7dc7d0c` (PR #492).
+  set. Merged at `b7dc7d0c` (the Voice Configuration pull request, 2026-09-24).
 
 **As of the most recent Decision Log entry (2026-09-24), RCF V3.2's Representative
 construction sequence through Phase Seven, Representative Artifact Construction, and both
@@ -478,7 +478,7 @@ rather than silently dropped. **One loose end this review could not independentl
 entry, "Round 11's H2, H3 and H4 applied"), *flagged rather than amended*: "Row 65 is flagged,
 not amended. Round 11 recommends appending the explanation to `Source_Registry.md` row 65.
 That document is *returned to independent review*; the amendment belongs to that review, and
-Open Item 6 says so in terms." Whether row 65 has since been annotated with that explanation
+Open Item 6 says so in terms." Whether row 65 has since been annotated with that explanation (the 2026-09-14 entry quoted above)
 was not checked directly in this review.
 
 ### OG-5. A recurring citation-locus error across the Representative-construction phases — the same failure class `don`'s own Doc_08 is tracked for, distributed across this world's Representative phases instead of concentrated in one document.
@@ -487,7 +487,7 @@ Independently caught once at each of five separate Round 1 reviews: Phase Two (D
 three doctrinal bodies misdescribed as one — itself a *repeat* of a defect Phase One's own
 Round 1 had already caught and fixed once in a sibling document); Phase Three (Perpetua's
 Passion exclusion reason misattributed); Phase Four (Doc_05 §5.4 cited for content that is
-actually at §5.1); Phase Six (a follow-up citation-locus fix, PR #486); Phase Seven (one
+actually at §5.1); Phase Six (a follow-up citation-locus fix, the Phase Six pull request of 2026-09-24); Phase Seven (one
 MEDIUM finding named explicitly as "a citation-locus error" alongside the four HIGH
 findings). None of these individually rises above MEDIUM severity and every instance was
 caught and fixed at its own Round 1 — this is not a live defect in any deployed artifact. It
@@ -559,8 +559,8 @@ placement at `world-build-docs/_cross-world/` and routed to
 `Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md`. The portfolio Step 0
 Conclusion document itself still logs the underlying question as "Constitutional ambiguity
 flagged, not resolved" — now stale, and not editable by a build thread. Separately,
-**`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`** (item 4, checked directly in
-this review) confirms **lpc PR #230** ("gapped-formation-worlds-precedent") is still **open,
+**`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`** (its fourth item, checked directly in
+this review) confirms **the `lpc` gapped-formation-worlds-precedent pull request** (as of 2026-09-24) is still **open,
 doc-only, mergeable clean** — "Mark's to merge or not" — and notes it may itself be
 superseded once fully reconciled with the ruling's actual adoption commit (`b20688de`).
 
@@ -612,7 +612,7 @@ environment. This mirrors the only project-wide precedent for the same situation
 completeness, matching `don`'s own OG-6 discipline of naming every standing, honestly-disclosed
 prerequisite rather than only the ones still in dispute.
 
-### OG-14. PR #557's canon-closure pass (Part 8, `wb_lpc_s2z_canon_closure.py`) — an independent Opus fidelity review found the coverage method itself was unsound, not just individual records; the PR is held unmerged pending rework.
+### OG-14. The canon-closure pass of 2026-09-25 (Part 8, `wb_lpc_s2z_canon_closure.py`) — an independent Opus fidelity review found the coverage method itself was unsound, not just individual records; the PR is held unmerged pending rework.
 
 2026-09-25: PR #557 added `canon_cells` tags across all 67 pre-existing lpc records
 (`wb_lpc_s2y_canon_cells.py`) and closed the fleet's 28 canon cells with 3 new
@@ -671,7 +671,7 @@ live-surface-commentary rule now in `CLAUDE.md`, plus a swallowed-exception patt
 `wb_lpc_s2z_canon_closure.py`'s own `--validate` mode (`except Exception: registry = {}`)
 that could silently hide a real registry-load failure behind an apparently clean run.
 
-**Standing state:** PR #557 is open, CI green, `mergeable_state: clean`, but **held
+**Standing state:** The canon-closure pull request of 2026-09-25 is open, CI green, `mergeable_state: clean`, but **held
 unmerged** on the coordinator thread's own explicit instruction — Mark merges this PR
 himself after the rework, and any revised quotes/absence claims get independently
 re-checked again before that (self-certification does not count, per this project's own
@@ -681,7 +681,7 @@ records from the loci above where they hold, narrow claims that are only partly 
 fix the two mis-cited/mis-contextualized quotes, retag F4-T, strip the commentary, and fix
 the swallowed exception) is a separate, not-yet-started piece of work.
 
-### OG-15. OG-14's rework applied on branch `lpc-record-compilation-part7-witness-limit-ambient` (PR #557) — every finding checked against the vendored corpus directly, not self-certified; independent re-confirmation still required before merge.
+### OG-15. The rework of the canon-closure pass logged 2026-09-25, applied on branch `lpc-record-compilation-part7-witness-limit-ambient` (the same pull request) — every finding checked against the vendored corpus directly, not self-certified; independent re-confirmation still required before merge.
 
 For each of the six contradicted `honest_limit` records, the loci OG-14 named were read
 and verified directly against the vendored XML, then either a new `doctrinal_witness`
@@ -740,13 +740,13 @@ one (`lpc.witness.tradition-tested-by-apostolic-warrant`'s `tensions`) rewritten
 10.5 to keep the whole set at or under FK 10.
 
 **Not resolved by this entry.** Per CLAUDE.md's own rule, self-certification does not count —
-an independent fidelity review of this rework is still required before Mark merges PR #557,
+an independent fidelity review of this rework is still required before Mark merges the canon-closure pull request (2026-09-25),
 exactly as OG-14 already states. This entry records what changed and why, not that it has
 been approved.
 
 ---
 
-### OG-16. Round-2 rework of PR #557, after an independent review found OG-15's own round-1 pass had repeated its root cause — absences checked against lpc's own already-tagged records, not against the full set of texts `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` assigns to this world.
+### OG-16. Round-2 rework of the 2026-09-25 canon-closure pull request, after an independent review found its own round-1 pass of that date had repeated its root cause — absences checked against lpc's own already-tagged records, not against the full set of texts `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` assigns to this world.
 
 Every `honest_limit` and every `doctrinal_witness` sentence claiming an absence ("no
 source", "nothing in our record", "neither bishop") was swept against the corpus map's own
@@ -828,7 +828,7 @@ scripture as our only authority" softened to "Only in a specific sense, not with
 qualification," since On Baptism V.23 elsewhere accepts unwritten universal custom as
 carrying real apostolic authority too. `lpc.demo.compel-three-phase`'s `canon_question_id`
 (`_fleet.canon.f6-p-05`) and `canon_cells` (`F6-P`) both corrected to `_fleet.canon.f3-p-02`
-/ `F3-P`, matching PR #557's own round-1 retagging of the term/contested_claim records this
+/ `F3-P`, matching the canon-closure pull request's own (2026-09-25) round-1 retagging of the term/contested_claim records this
 demo illustrates — this one record was missed in that pass.
 
 **Change-history narration removed** from record bodies I authored or touched this round —
@@ -845,7 +845,7 @@ record bodies, per OG-14's own standing note.
 
 **Root-cause fix, `wb_lpc_s2z_canon_closure.py`.** Running the script with no arguments
 still called `emit_witness`/`emit_limit` against its own `WITNESSES`/`LIMITS` lists, which
-still carried the pre-review text for four `honest_limit` slugs this rework and PR #557's
+still carried the pre-review text for four `honest_limit` slugs this rework and the canon-closure pull request's (2026-09-25)
 own round 1 have since narrowed or retired (including `violence-in-scripture-unaddressed`,
 deleted in round 1). A re-run of the bare script would have silently overwritten every
 correction. Fixed at the root by retiring the write path entirely rather than re-syncing the
@@ -872,9 +872,9 @@ behind at the start of this round; a clean fast-forward-then-merge, no conflicts
 2. The pre-existing Registry-row-5 citation conflict OG-14 already logged (two different
    works cited under the same row number) is unaffected by this round and remains open.
 
-Full findings, search method, and before/after are in PR #557's own body.
+Full findings, search method, and before/after are in the 2026-09-25 canon-closure pull request's own body.
 
-### OG-17. Round-3 (final) rework of PR #557, Mark's own personally-authorized targeted round, bar stated as "scholarly rigor that would impress a professor of church history, not perfection."
+### OG-17. Round-3 (final) rework of the 2026-09-25 canon-closure pull request, Mark's own personally-authorized targeted round, bar stated as "scholarly rigor that would impress a professor of church history, not perfection."
 
 Six items named directly, plus two residual defects this round's own sweep surfaced beyond
 them.
@@ -965,7 +965,7 @@ blind sweep risked exactly the kind of speculative, ungrounded rewrite this proj
    the gate battery (which cannot run at all against unparseable YAML). Six instances fixed
    across five files.
 3. Two edits introduced canonical-surface process narration this project's own rule against
-   inline review-round references forbids ("corrected #557 round 3," in `lpc.source.
+   inline review-round references forbids (as logged 2026-09-25: "corrected #557 round 3," in `lpc.source.
    augustine-answer-to-petilian`'s divergence_note/rights_status/docstring and in `lpc.
    witness.constantine-did-not-corrupt` and `lpc.witness.days-before-the-sun`'s own
    docstrings) — caught by `check_live_commentary.py`, not self-caught, and removed.
@@ -977,15 +977,15 @@ blind sweep risked exactly the kind of speculative, ungrounded rewrite this proj
 **Verification.** All 21 M1 gates clean (`engine.m1.gates.run_all`, including
 canon-coverage). `tools/check_live_commentary.py --surface records`: zero REWRITE hits in
 every file this round touched (remaining hits in touched files are pre-existing
-`doc-ref`/`section-ref` content in `force/` records belonging to PR #562's own scope, not
+`doc-ref`/`section-ref` content in `force/` records belonging to the 2026-09-25 re-voicing pull request's own scope, not
 introduced this round, and left untouched per this round's own "touch nothing else"
 instruction). Every quote and every new locus re-verified directly against the vendored
 `cic/texts/` XML, including the four apostolic-succession sources named in the brief and the
 Confessions III.vii.12 and IX.vi.14 loci. Branch merged current `main`.
 
 **Not in scope this round, disclosed rather than silently skipped.** The OG-numbering
-collision this build's three parallel unmerged branches (PR #557, #562, #563) each carry —
-this branch's own OG-14/15/16/17 numbers a different entry than PR #562's own OG-14 — is
+collision this build's three parallel unmerged branches (the canon-closure, re-voicing and quote-rendering pull requests, all 2026-09-25) each carry —
+this branch's own four canon-closure entries number a different entry than the re-voicing pull request's own first entry — is
 unresolved here, per this thread's own standing instruction to disclose rather than guess a
 resolution, reserved for a later reconciliation pass.
 
@@ -1109,7 +1109,7 @@ to the retrievable context layer per that layer's own architectural purpose, rat
 reopening or patching the already-disposed Permanent Prompt and World Capsule Core.
 Independently verified: `lpcctx001`–`lpcctx005` all exist on disk at `Build/worlds/lpc/`.
 
-**The `rights_status` fleet-wide internal-narration defect (PR #321, `e5a50654`) — does not
+**The `rights_status` fleet-wide internal-narration defect (the 2026-09-20 library data integrity pull request, `e5a50654`) — does not
 apply to `lpc`.** That fix targeted `records/<world>/source/*.md` files across `don`,
 `cappadocian`, `gallic`, `rzg`, and `witt`. `lpc` has no `records/lpc/` directory at all (see
 OG-2), so it carries no `rights_status` fields to have been affected — confirmed directly by
@@ -1131,7 +1131,7 @@ own prior dismissal of the purse as reading "generic almsgiving" was not accurat
 `lpcstory004`'s source, which is a specific, checkable act of collegial obligation, not
 generic charity. **Image regenerated and committed, 2026-09-24, closing the last open piece
 of OG-1.** `Datus_Portrait.jpg` now depicts the purse, generated from the corrected prompt in
-`Datus_Portrait_Prompt.md` Part Four (PR #514) via Gemini, external to this thread's own
+`Datus_Portrait_Prompt.md` Part Four (the prompt-update pull request, 2026-09-24) via Gemini, external to this thread's own
 tooling, and reviewed and approved by the project lead directly against that prompt before
 being committed. The prompt's alt text is updated to match and its provisional flag lifted.
 OG-1 is now fully closed — decision, prompt text, and image all agree. OG-1's own original
@@ -1211,7 +1211,7 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
   thread's own earlier self-application of this disposition (2026-09-16) was explicitly
   refused as self-approval.
 - **2026-09-21** — Branch reconciliation approved (branch `lpc-reconcile-branches`, pushed to
-  `origin`; this review could not independently confirm a specific PR number for it — "PR #353"
+  `origin`; this review could not independently confirm a specific PR number for it — a particular PR number
   appears once elsewhere in the log, in an unrelated 2026-09-23 entry's parenthetical listing
   several PR numbers together, and is not itself confirmation) — portrait merged into place;
   registration explicitly **not** done, routed back to the project lead.
@@ -1220,7 +1220,7 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
   reviewed, and self-disposed by the build thread per CO-022 (no escalation category
   triggered at any of these steps).
 
-### OG-18. Re-voiced the `name`/`description`/`manifestations` fields on all 25 gravity/force records and the four `world_core` spoken fields (`horizon`, `formation_logic`, `thinness`, `cautions`) — build vocabulary stripped, every fact and disclosed uncertainty preserved; several residual items surface as a result and are logged here rather than fixed in the same pass. Renumbered from this branch's own original OG-14 to OG-18 (PR #562 round 3) to avoid colliding with PR #557's own OG-14/15/16/17, since the two branches numbered independently off the same base — per the managing thread's own instruction, using the next free number after #557's highest.
+### OG-18. Re-voiced the `name`/`description`/`manifestations` fields on all 25 gravity/force records and the four `world_core` spoken fields (`horizon`, `formation_logic`, `thinness`, `cautions`) — build vocabulary stripped, every fact and disclosed uncertainty preserved; several residual items surface as a result and are logged here rather than fixed in the same pass. Renumbered from this branch's own original number to OG-18 (round 3 of the re-voicing pull request, 2026-09-25) to avoid colliding with the canon-closure pull request's own four entries of the same date, since the two branches numbered independently off the same base — per the managing thread's own instruction, using the next free number after that pull request's highest.
 
 All 8 `records/lpc/gravity/*.md` and 17 `records/lpc/force/*.md` records carried heavy
 construction-process vocabulary directly in their spoken fields: `Doc_04 §3 Candidate N`,
@@ -1253,7 +1253,7 @@ pass, after the first pass and full re-voice were already applied.
 **Verification:** all 21 M1 gates run directly (`engine.m1.gates.run_all`) against the real lpc +
 fleet corpus, including `reciprocity`, `quote-verbatim`, and `quote-mark-fidelity` — clean, with
 only the pre-existing `canon-coverage` gap (lpc's `canon_cells` tagging pass lives on the
-still-unmerged PR #557 branch, not on `main`, so this branch does not carry it and canon-coverage
+still-unmerged canon-closure pull request branch (2026-09-25), not on `main`, so this branch does not carry it and canon-coverage
 findings here are expected, not caused by this pass). `tools/check_live_commentary.py --surface
 records` — zero new findings on any touched file after the second pass; remaining hits on these
 25 gravity/force files and the one `world_core` file are all in fields this pass was explicitly
@@ -1290,8 +1290,8 @@ six-test and provenance material out of the spoken field and log what it leaves 
   named as out of scope by the drafting agent and left untouched here, since the task this pass
   was scoped to named only `horizon`/`formation_logic`/`thinness`/`cautions`. Worth a same-pattern
   pass if `thin_topics` is itself a spoken field compiled into participant-facing prompts.
-- **`cautions` item 11 (the note that the record this world rests on was itself under
-  independent review at the time of compilation) is restored**, as item 11, with the shame/
+- **The eleventh `cautions` entry (the note that the record this world rests on was itself under
+  independent review at the time of compilation) is restored**, as the eleventh, with the shame/
   self-forgiveness item renumbered to 12. Checked directly against `Source_Registry.md`'s own
   current header rather than assumed: that review was returned to 2026-09-13 and, as of this
   entry, **has not yet returned** — the caution's own standing content is current, not stale.
@@ -1309,9 +1309,9 @@ add new work:**
 - Six places credited this compilation's own reading or reasoning to "the world" itself, as
   though the world were the one asserting it: the 133-year-silence force's "No primary source
   this world names" and "this world's own limits forbid that"; `world_core.thinness`'s "nothing
-  this world says yet draws on them"; `cautions` item 7's "Nothing this world says rests on
+  this world says yet draws on them"; `cautions` seventh entry's "Nothing this world says rests on
   which version came first" (literally incoherent, since De Unitate *is* something this world
-  says); `cautions` item 9's "this world still dates the Conference"; `cautions` item 6's
+  says); `cautions` ninth entry's "this world still dates the Conference"; `cautions` sixth entry's
   "this world's own premises"; and `collegial-communion-preserved`'s "The world's coherence...
   rests on this gravity." All six now read as "our own reading" / "we" / "our own account."
 - "Survives only in Latin" (`transmission-institutionally-dominant-side` and
@@ -1369,7 +1369,7 @@ records` clean on every touched field; FK grade across all 25 gravity/force `des
 and the four `world_core` fields now runs 7.4–10.5, with the four previously-low fields lifted
 and no field newly pushed out of range.
 
-**A third independent review (this round, PR #562 round 3) found further residue from the
+**A third independent review (this round, round 3 of the 2026-09-25 re-voicing pull request) found further residue from the
 second pass's own fixes, corrected in place rather than layered as a new entry:**
 
 - `conciliar-authority-theory`'s own description still narrated its reclassification history
@@ -1399,7 +1399,7 @@ second pass's own fixes, corrected in place rather than layered as a new entry:*
   sourced..." (×3: `confessor-authority-vs-episcopal-peace`, `penitential-discipline`,
   `sacramental-ordination-validity`). Each instance reworded individually rather than replaced
   with a second small set of repeated templates.
-- `world_core.cautions` item 6's "A firm classification looks reachable from our own
+- `world_core.cautions` sixth entry's "A firm classification looks reachable from our own
   premises" — "classification" is the project's own build vocabulary (matching gravity
   records' own `classification: primary/supporting` field); reworded to "A firm answer looks
   reachable from our own premises, but it has not been settled."
@@ -1449,7 +1449,7 @@ Logged 2026-09-29 by the V2.0 re-baseline thread, from the files on disk. This e
 - **Records exist.** 310 record files sit under `records/lpc/` (14 record types). Earlier entries that describe the records as not yet built are out of date.
 - **Identity decided.** Datus, Bishop of the Kept Flock, is recorded as the Representative in `lpc_Decision_Log.md` and the System Hub Decision Log. No identity-options file exists; whether one is required is a question for the project lead (stop point 1 of the launch prompt).
 - **No registry entry, no `build/` folder before today.** The `lpc` registry entry (the world file under `records/worlds/`) does not exist, so handoff checks 1, 2, 4, 5 and 6 fail until it does. Only the project lead creates it and sets `safety_adjacent`. The `build/` folder, state file, cost ledger and re-baseline declaration were created on 2026-09-29.
-- **Numbering collisions.** OG-14 to OG-17 (PR #557) and the entry renumbered to OG-18 (PR #562) were numbered on two branches off the same base. OG-18 sits after OG-19 in file order. Noted, not renumbered; cite by subject and date.
+- **Numbering collisions.** The four canon-closure entries of 2026-09-25 and the re-voicing entry renumbered the same day were numbered on two branches off the same base. The re-voicing entry sits after the quote-rendering entry in file order. Noted, not renumbered; cite by subject and date.
 - **OG-4** attributes "relied on for nothing" to the Doc_04 appendix, which says the opposite (Doc_04 relies on Gesta act 158). See the Doc_04 independent check of 2026-09-29.
 
 ### OG-22. Independent checks of what was left open, Phase L0, 2026-09-29: five review files, findings carried here so none lives only in a thread.
@@ -1565,7 +1565,7 @@ Four independent Opus checks (`Build/Ministry/Operations/Audits/lpc_Claims_Verif
 
 **Change order approved (2026-09-30).** The 58 claims the four source checks found false, overstated or unsupported (OG-29) were corrected in Docs 02, 03, 04, 05, 06, 07, 08 and 09, the World Profile, the Capsule Core, the Gapped Formation Precedent, Representative Phases 1, 2, 3 and 7, the story and lexicon chunks, and 40-odd records and their generators. Each correction was verified at the vendored file by structural marker. Independent verification: `Review-Artifacts/ChangeOrder_Verification_2026-09-30.md` (51 closed, 7 leaning on an unlicensed text, then closed by the two rulings below), `Review-Artifacts/G5_SixTest_Recheck_2026-09-30.md`.
 
-**G5 rulings.** (1) The strand-singular finding is reaffirmed, and Doc_01 is not reopened: Doc_04 section 3 surfaces evidence Doc_01 had not weighed on that axis (the 256 preface, Epistles LIV, LXXI, LXXIV, LXXV, Letter LIV), and it shows disagreement inside one communion (Candidate 3's shape), not two communities; this answers Doc_01 section 8 item 10's condition. (2) Doc_04's verdict texts follow the Framework's own tests: G5 Repetition passes; Persistence passes narrowly; Explanatory passes narrowly (Letter LIV); Formation does not clearly pass; Dependency as written. G5 stays Supporting on the project lead's ruling, and Doc_04 now records that Supporting also rests on its own six-test result. G7 (grace) fails as an organizing force, not as a theme (Cyprian states it; Augustine carries it forward). Candidate 6 Repetition names the over-century gap and the 87 bishops of the 256 council (the stated number in the ANF05 editor's note and the Latin title; a count of the speaking paragraphs gives 84). (3) Letter XLIII is struck from the wording (it sits in the Donatist cluster row 11 excludes). (4) Augustine's *Psalmus contra partem Donati* is licensed at Registry row 273, narrowly.
+**G5 rulings.** (1) The strand-singular finding is reaffirmed, and Doc_01 is not reopened: Doc_04 section 3 surfaces evidence Doc_01 had not weighed on that axis (the 256 preface, Epistles LIV, LXXI, LXXIV, LXXV, Letter LIV), and it shows disagreement inside one communion (Candidate 3's shape), not two communities; this answers the condition in Doc_01 section 8's tenth open item (carried in the Doc_01 section 8 entry of 2026-09-30). (2) Doc_04's verdict texts follow the Framework's own tests: G5 Repetition passes; Persistence passes narrowly; Explanatory passes narrowly (Letter LIV); Formation does not clearly pass; Dependency as written. G5 stays Supporting on the project lead's ruling, and Doc_04 now records that Supporting also rests on its own six-test result. G7 (grace) fails as an organizing force, not as a theme (Cyprian states it; Augustine carries it forward). Candidate 6 Repetition names the over-century gap and the 87 bishops of the 256 council (the stated number in the ANF05 editor's note and the Latin title; a count of the speaking paragraphs gives 84). (3) Letter XLIII is struck from the wording (it sits in the Donatist cluster row 11 excludes). (4) Augustine's *Psalmus contra partem Donati* is licensed at Registry row 273, narrowly.
 
 **Open, for the Library thread (through the project lead).** A second corpus-map assignment of the *Psalmus contra partem Donati* (Petschenig CSEL 51, the file behind rows 214 to 217 and 266 to 272) to this world's shelf: the corpus map assigns it to `donatism` only. Row 273 states the request.
 
@@ -1589,7 +1589,7 @@ Four independent Opus checks (`Build/Ministry/Operations/Audits/lpc_Claims_Verif
 The dossier (`Build/worlds/_cross-world/dossiers/latin-pastoral-congregational-christianity_Source_Readiness_Dossier.md`, section 5) lists four open cross-world questions. This entry carries the two the handoff gate found missing, in the dossier's own words, with their present state. The Hilary-identity question and the Article 3 century-gap question were already carried.
 
 - **Optatus's world placement** — currently `provisional` in this world's own corpus-map, self-flagged as inferred from region and date alone ("Mark may prefer another Latin home for a Numidian polemicist"). The world's own Step 0 (section 4 item 2a) names three live options: re-home to Donatism, hold here as the Catholic-side tradition, or double-place, the way the Council of Carthage under Cyprian already is. Present state: Optatus is held here as Native (Registry rows 27, 64 and 264, `role: tradition`, and `role: context` on the Donatism shelf, so in effect double-placed), drawn on for no claim, and the placement is still the project lead's question. The Petschenig and Ziwsa Latin critical editions are linked to rows 27 and 264 without settling it.
-- **A resolved item, noted so nobody re-opens it:** the world's own Step 0 surfaced and, with the project lead's direct authorization, fixed a genuine boundary breach in the already-built Imperial and Juridical Christianity world's own records (two load-bearing quote records citing *Confessions* material outside IJC's own declared license). Logged in full at `Build/worlds/ijc/Open_Gaps_Tracking.md`, item 16; mentioned here only for cross-reference, not reopened.
+- **A resolved item, noted so nobody re-opens it:** the world's own Step 0 surfaced and, with the project lead's direct authorization, fixed a genuine boundary breach in the already-built Imperial and Juridical Christianity world's own records (two load-bearing quote records citing *Confessions* material outside IJC's own declared license). Logged in full at `Build/worlds/ijc/Open_Gaps_Tracking.md`, the boundary-breach entry on `ijc.source.augustine-confessions` (fixed 2026-09-01); mentioned here only for cross-reference, not reopened.
 
 ### OG-33. Doc_01 section 8, open items carried forward: present status of each, checked 2026-09-30.
 
