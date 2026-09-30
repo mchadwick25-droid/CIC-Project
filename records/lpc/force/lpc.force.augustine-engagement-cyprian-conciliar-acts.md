@@ -50,9 +50,7 @@ description: >-
 
 
   This is the only force that carries the world's formation logic across its 133-year silence between
-  the two phases. The crossing happens through texts, not through a line of living successors. It is
-  attested twice. The second instance is Possidius quoting Cyprian's De Mortalitate, which is not
-  treated as a force in its own right. One more sign of continuity is not assessed here. Confessions
+  the two phases. The crossing happens through texts, not through a line of living successors. Other texts show the same kind of reading. Augustine quotes Cyprian's treatises against the Pelagians. Possidius quotes Cyprian's De Mortalitate. Neither is a force in its own right. One more sign of continuity is not assessed here. Confessions
   V.8 tells of a chapel in memory of Cyprian at Carthage, about 383.
 
 

@@ -29,4 +29,4 @@ discovery_channel: WebSearch / 2026-09-02.
 external_ids:
   lpc_source_registry_row: 107
 ---
-Licensed for row 38's own Confidence-D gap ('only the category,' no specific site report named) and row 82 (Ennabli, a citywide overview) -- a full excavation monograph for a specific Carthage church complex.
+Licensed for row 38's own Confidence-D gap (a general category, no specific site report identified) and row 82 (Ennabli, a citywide overview) -- a full excavation monograph for a specific Carthage church complex.

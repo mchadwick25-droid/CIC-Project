@@ -22,8 +22,7 @@ confidence:
     acts). From them to Augustine''s ordination, no source in the Registry supplies a bishop''s ordinary
     pastoral or congregational voice, or a congregation''s voice, that continues Cyprian''s. The Registry
     texts dated inside the span include Optatus of Milevis (rows 27, 64 and 264) and the appendix documents
-    (row 265); none continues Cyprian''s voice, and this world draws on none of them for a claim. The Carthage
-    council canons (rows 26, 59 and 202), Augustine''s writings from before his ordination (rows 11, 22
+    (row 265); none continues Cyprian''s voice, and this world draws on none of them for a claim. The Carthage council texts (rows 26, 59 and 202; the Gratus council in row 202 is spoken minutes of a bishop of Carthage, an act of assembled bishops and not a bishop''s ordinary pastoral voice to his flock), Augustine''s writings from before his ordination (rows 11, 22
     and 25) and the Theodosian constitutions before 391 (rows 44 and 88) also fall inside it and are licensed
     for other claims. The nine further Guelferbytanus tractatus (row 229), one of which Morin reports as ascribed to Optatus
     elsewhere, an ascription he judges not unlikely, are not yet assessed. Confessions V.8 (row 9) records an oratory in memory of Cyprian
@@ -47,14 +46,13 @@ description: >-
   two accounts of other martyrs. Their full order is not fixed. Pontius already cites the record of
   Cyprian's first hearing. Harnack argues that the trial record, as we have it, came after the life.
   Nothing places the two martyr accounts. They belong to Cyprian's time, and they do not fill the
-  silence. After them, none of the sources we have assessed carries on Cyprian's voice. None gives a
-  bishop's ordinary pastoral or congregational voice, or a congregation's voice, that continues his.
+  silence. After them, none of the sources we have assessed carries on Cyprian's voice. None gives a bishop's ordinary pastoral or congregational voice, or a congregation's voice, that continues his. The nearest is a bishop of Carthage, Gratus, speaking in council about 345 to 348 on pastoral discipline Cyprian also dealt with. The council's minutes are spoken, but they are an act of assembled bishops, not a bishop's ordinary voice to his flock. His council forbids the rebaptism Cyprian had required.
 
 
   Some of our texts are dated in those years. One is Optatus of Milevis, writing against the
   Donatists. Another is a set of documents from the Donatist quarrel under Constantine. None of them
   carries on Cyprian's voice, and we draw on none of them for a claim. Other texts fall in those years
-  too. They are canons from Carthage councils, early writings of Augustine from before he was
+  too. They are texts from Carthage councils (the council under Gratus is spoken minutes, an act of assembled bishops), early writings of Augustine from before he was
   ordained, and laws of the Theodosian Code from before 391. We use them for other purposes, never to
   fill the gap. Two more groups are not yet assessed. One is nine sermons and tractates from a
   Wolfenbüttel manuscript, and the editor Morin reports that one of them is ascribed elsewhere to Optatus,
@@ -75,8 +73,7 @@ description: >-
 
   This has three effects. First, continuity across the gap runs through texts, not through a line of
   successors. Augustine's reading of Cyprian's council acts is the one thing of ours that carries it
-  across. Nothing else we have assessed does. The crossing is attested twice. The second case is
-  Possidius quoting Cyprian's De Mortalitate.
+  across. No other force of ours does. The crossing is attested more than twice. Augustine quotes Cyprian's treatises as authority against the Pelagians, and Possidius quotes Cyprian's De Mortalitate.
 
 
   Second, those years are well documented, but almost entirely through Donatist sources, not ours. So
@@ -100,8 +97,7 @@ manifestations:
   sequence is not fixed), and after which no source in the Registry supplies a bishop's ordinary pastoral
   or congregational voice, or a congregation's voice, that continues Cyprian's; the Registry texts dated
   inside the gap include Optatus of Milevis (rows 27, 64 and 264) and the appendix documents (row 265),
-  drawn on for no claim; the council canons, Augustine's pre-ordination writings and pre-391 Theodosian
-  constitutions also dated there are licensed for other claims (Doc_02 §7), and the nine Guelferbytanus
+  drawn on for no claim; the council texts (the Gratus council of row 202 being spoken minutes of assembled bishops, not a bishop's ordinary pastoral voice), Augustine's pre-ordination writings and pre-391 Theodosian constitutions also dated there are licensed for other claims (Doc_02 §7), and the nine Guelferbytanus
   tractatus, one of which Morin reports as ascribed to Optatus elsewhere, are unassessed (row 229)
 - Augustine reading and arguing with Cyprian's own council acts and letters as a text to be weighed, not
   a custom handed on through teachers who knew him

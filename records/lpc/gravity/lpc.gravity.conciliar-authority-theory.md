@@ -80,7 +80,7 @@ description: >-
   Augustine appeals to plenary Councils in Letter LIV. We cannot show that ordinary believers, catechumens, or most clergy were taught the
   question or shaped by it. Neither formula appears in the sermons or teaching works we searched.
   Augustine did put a wider question to ordinary hearers: who judges a bishop? He did so against the
-  Donatists. No source shows how they took it.
+  Donatists. No source shows how they took that question in particular. Possidius says only that Catholics and Donatists both listened to his writings, and he says it in praise. Some Donatists took his talks to their bishops.
 
 
   It reaches across both phases, but thinly. Each bishop's theory recurs in more than one text. In

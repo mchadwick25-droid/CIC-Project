@@ -1556,9 +1556,9 @@ ROWS: list[dict] = [
                    "placement, not an error. Flagged for priority second-opinion review before it "
                    "supports any specific claim. A different Duval from row 129/146 (Noël Duval) and "
                    "row 170 (Yves-Marie Duval), each independently checked and unrelated.",
-        body="Licensed for rows 37 and 38 -- CIL VIII, no inscription named, and basilica archaeology, "
-             "Confidence D, 'only the category' named -- the two material rows it would most directly "
-             "turn from category into evidence. The Registry's other material rows (63, 82, 107, 108, "
+        body="Licensed for rows 37 and 38 -- CIL VIII, vendored but with no inscription named, and "
+             "basilica archaeology at Confidence D, a general category with no site report identified "
+             "-- the two material rows it bears on most directly. The Registry's other material rows (63, 82, 107, 108, "
              "129, 136, 146) carry their own licences, and row 97 is marked S/M. Duval is the standard "
              "corpus of African martyr-cult inscriptions with archaeological "
              "context, the instrument that would turn row 38 from a category into evidence.",
@@ -2477,8 +2477,8 @@ ROWS: list[dict] = [
         discovery="WebSearch / 2026-09-02.",
         cite="C", verif="named-not-rechecked", weight="corroborating", formation="Widely Accepted",
         divergence="Flagged for priority second-opinion review before it supports any specific claim.",
-        body="Licensed for row 38's own Confidence-D gap ('only the category,' no specific site "
-             "report named) and row 82 (Ennabli, a citywide overview) -- a full excavation monograph "
+        body="Licensed for row 38's own Confidence-D gap (a general category, no specific site "
+             "report identified) and row 82 (Ennabli, a citywide overview) -- a full excavation monograph "
              "for a specific Carthage church complex.",
     ),
     dict(
@@ -4397,8 +4397,13 @@ CAUTIONS = (
     "his phase: the record of his trial, the life written by his deacon Pontius, and two martyr "
     "acts. Their full sequence is not fixed. After them, no source in this world's Registry "
     "supplies a bishop's ordinary pastoral or congregational voice, or a congregation's voice, "
-    "that continues Cyprian's. Do not supply one. Naming what the records do document in those years "
-    "is allowed, for example Augustine's years as a Manichaean hearer, his conversion in 386, "
+    "that continues Cyprian's. Do not supply one. The nearest is the minutes of a Carthage council "
+    "under Gratus, about 345 to 348. There a bishop of Carthage speaks in his own person on questions "
+    "Cyprian also handled. It is an act of assembled bishops, not a bishop speaking to his own flock, "
+    "and it does not continue Cyprian's voice. It may be named for what it is. The Registry also holds "
+    "nine Guelferbytanus sermons that have not been assessed (row 229). The editor Morin reports that "
+    "one of them is ascribed elsewhere to Optatus of Milevis. Naming what the records do document in "
+    "those years is allowed, for example Augustine's years as a Manichaean hearer, his conversion in 386, "
     "and his baptism in 387. The Donatist schism is one "
     "of the historical pressures on this world. How to speak of Donatism as an opponent is "
     "governed by a separate rule. It is never this world's own voice to borrow.\n\n"

@@ -271,7 +271,7 @@ cautions: >-
   written at and just after Cyprian's martyrdom stand at its very start and belong to his phase:
   the record of his trial, the life written by his deacon Pontius, and two martyr acts. Their full
   sequence is not fixed. After them, no source in this world's Registry supplies a bishop's ordinary
-  pastoral or congregational voice, or a congregation's voice, that continues Cyprian's. Do not supply one.
+  pastoral or congregational voice, or a congregation's voice, that continues Cyprian's. Do not supply one. The nearest is the minutes of a Carthage council under Gratus, about 345 to 348. There a bishop of Carthage speaks in his own person on questions Cyprian also handled. It is an act of assembled bishops, not a bishop speaking to his own flock, and it does not continue Cyprian's voice. It may be named for what it is. The Registry also holds nine Guelferbytanus sermons that have not been assessed (row 229). The editor Morin reports that one of them is ascribed elsewhere to Optatus of Milevis.
   Naming what the records do document in those years is allowed, for example Augustine's years as a
   Manichaean hearer, his conversion in 386, and his baptism in 387. The Donatist schism is one of the historical pressures
   on this world. How to speak of Donatism as an opponent is governed by a separate rule. It is never
