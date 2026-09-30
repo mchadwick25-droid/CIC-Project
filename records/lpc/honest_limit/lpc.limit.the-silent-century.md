@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
-  locus: 256, the Seventh Council; the first phase closes with Cyprian's martyrdom in 258 and the texts written just after it
+  locus: 256, the Seventh Council; the first phase closes with Cyprian's martyrdom in 258 and the Acta Cypriani and two martyr acts that stand at its end
   license: public-domain
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
   locus: 391, Augustine's own ordination, the first dated act of this world's second phase
@@ -29,13 +29,10 @@ statement: Something like a hundred and thirty years sit between the bishop who 
   even where that record runs through exactly those years.
 why_sources_cannot_answer: 'This world''s own construction window runs from roughly 246 to 430, but its
   Native corpus attests only two bounded phases -- Cyprian''s, ending 258, and Augustine''s, beginning
-  391. The texts written at and just after Cyprian''s martyrdom stand at the very
-  start of the interval: the Acta Cypriani (rows 41, 194, 231 no. 13 and 232 no. XI), Pontius''s Life
-  (rows 7, 40, 194 and 205), and the two martyr acts of rows 231 and 232 (all Native). They belong to
-  Cyprian''s phase and do not fill the silence. Their full sequence is not fixed (Pontius already cites
+  391. The Acta Cypriani (rows 41, 194, 231 no. 13 and 232 no. XI) and the two martyr acts of rows 231 and 232 (all Native) stand at the very start of the interval. They belong to Cyprian''s phase and do not fill the silence. Pontius''s Life (rows 7, 40, 194 and 205, Native) is dated to 259 by Harnack and to the end of the third century at the earliest by Koch; on either date it is a life of Cyprian, and it does not fill the silence. The order of these texts is not fixed (Pontius already cites
   the record of the first hearing, Harnack places the Acta as compiled after the Life, and nothing places
   the two martyr acts). From them to 391, no source in the Registry''s Native rows supplies a bishop''s ordinary pastoral
-  or congregational voice, or a congregation''s voice, that continues Cyprian''s, with one open exception: two short pseudo-Cyprianic works in row 194 whose date and place are not fixed. De aleatoribus is a bishop''s homily to his people, which Monceaux (row 207) gives to an African bishop of Cyprian''s school. De singularitate clericorum is a bishop''s letter to his clergy, which Koch (row 233) dates probably to the end of the third century. Neither is assessed, and neither is drawn on for a claim. The Registry texts dated
+  or congregational voice, or a congregation''s voice, that continues Cyprian''s, with open exceptions among the pseudo-Cyprianic works of rows 6 and 194, whose date and place the vendored files do not fix; none is assessed, and none is drawn on for a claim. The Registry texts dated
   inside the interval include Optatus of Milevis (rows 27, 64 and 264, Native) and the appendix documents
   (row 265, Excluded); none continues Cyprian''s voice, and this world draws on none of them for a claim. Row 265 holds a congregation''s voice inside the interval: in the Gesta apud Zenophilum, a hearing dated 320, the people of Cirta cry out against a traditor bishop. This world holds row 265 as Excluded (Named Comparandum), as Donatism''s record and not its own, so the silence claim is about the Native rows. The Carthage council texts (rows 26, 59 and 202), Augustine''s writings from before his ordination (rows
   11, 22 and 25) and the Theodosian constitutions before 391 (rows 44 and 88) also fall inside it and are licensed for other claims. The council under Gratus (c. 345-348; row 202) is spoken minutes: a bishop of Carthage speaks in his own person on questions Cyprian also handled (rebaptism, which the council forbids; virgins living with men; the honour of the martyrs). It is an act of assembled bishops, not a bishop''s ordinary pastoral voice to his own flock, so it does not continue Cyprian''s voice. One of the nine further Guelferbytanus tractatus, which Morin reports as ascribed elsewhere to Optatus
