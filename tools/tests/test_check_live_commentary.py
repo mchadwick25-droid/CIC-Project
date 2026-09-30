@@ -1254,7 +1254,7 @@ def test_post_heading_content_fields_not_swept_into_metadata_block(tmp_path):
         "\n"
         "**World code:** `ex`.\n"
         "\n"
-        "**Temporal scope:** c. 312–451, a period its actors saw as unresolved.\n"
+        "**Temporal scope:** c. 312–451, a period whose dating is left unresolved here.\n"
         "\n"
         "**Builder:** the build thread.\n"
         "\n"
@@ -1654,7 +1654,7 @@ def test_method_rule_does_not_reach_other_paths(tmp_path):
 # Generated package manifests
 # ---------------------------------------------------------------------------
 
-_MANIFEST_WITH_PROCESS_WORD = '{"files":{"records/demonstration/w.demo.bagai-unresolved.md":"sha256:ab"}}\n'
+_MANIFEST_WITH_PROCESS_WORD = '{"files":{"records/demonstration/w.demo.dating.md":"sha256:ab"},"note":"open item on dating"}\n'
 
 
 def test_generated_package_manifest_is_not_scanned(tmp_path):
@@ -1670,3 +1670,34 @@ def test_same_text_elsewhere_in_packages_is_still_scanned(tmp_path):
 def test_a_manifest_outside_packages_is_still_scanned(tmp_path):
     hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "engine/manifest.json")
     assert [h.category for h in hits] == ["ROUTE"]
+
+
+# ---------------------------------------------------------------------------
+# The word "unresolved"
+# ---------------------------------------------------------------------------
+
+def test_unresolved_stating_a_real_uncertainty_is_not_commentary(tmp_path):
+    text = (
+        "Whether the death was murder remains genuinely unresolved in the historical record.\n"
+        "The two strands hold that tension, unresolved, across the whole span.\n"
+        "The dating of the letter is a live, unresolved scholarly dispute.\n"
+    )
+    assert _hits_for(text, tmp_path, "records/w/term/w.term.x.md") == []
+
+
+def test_unresolved_as_a_code_identifier_is_not_commentary(tmp_path):
+    text = (
+        "unresolved = [c for c in citations if c not in known_source_ids]\n"
+        "if unresolved:\n"
+        "    return findings\n"
+    )
+    assert _hits_for(text, tmp_path, "engine/m3/grading.py") == []
+
+
+def test_unresolved_with_an_authors_scope_or_timing_qualifier_is_still_flagged(tmp_path):
+    for phrase in ("Contested, and left unresolved here on purpose.",
+                   "The succession question is unresolved for now.",
+                   "The reading stays unresolved pending a ruling."):
+        hits = _hits_for(phrase + "\n", tmp_path, "records/w/term/w.term.x.md")
+        assert [h.category for h in hits] == ["ROUTE"], phrase
+
