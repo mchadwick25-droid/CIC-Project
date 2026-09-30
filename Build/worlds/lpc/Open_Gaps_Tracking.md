@@ -1572,3 +1572,14 @@ Four independent Opus checks (`Build/Ministry/Operations/Audits/lpc_Claims_Verif
 **Open, for the project lead.** The Gapped Formation Precedent, section 4, still says the candidate "structurally needed the gap bridged"; with G5 now attested on both sides that clause is arguably still a premise problem, and correcting it would change the precedent's argument. Not changed.
 
 **Not applied, by design.** Row 227's Sermones CCLXXX to CCLXXXII (Perpetua) and 309 to 313 (Cyprian) stay unread; Doc_09 records them as a Tier-question candidate, and no story is built from them.
+
+### OG-31. Claims register complete, 2026-09-30; the readings the silence judgements rest on, for the project lead.
+
+`lpc_Claims_Register.md`: 104 claims derived and registered, 0 UNVERIFIED. The final pass was checked by `Review-Artifacts/ClaimsChangeOrder_FinalRecheck_2026-09-30.md` (7 VERIFIED, 14 JUDGEMENT, none unmarked). Findings of all passes: `Build/Ministry/Operations/Audits/lpc_Claims_Verification_Findings_2026-09-30.md`. The old five-column `Doc09_Claims_Register.md` and `scripts/check_claims.py` stay in place as the pattern the register template cites; they are superseded by the new register.
+
+**Open, for the project lead: three readings behind the silence judgements (Widely Accepted), beyond the ruling of 2026-09-30.**
+- Does "in the Registry" mean only the Native rows? Row 265 is Excluded, but it holds the *Gesta apud Zenophilum*, in which the Cirta congregation of 305 cries against a traditor bishop ("exaudi deus, ciuem nostrum uolumus, ille traditor est", appendix file lines 484 to 493 and 568 to 570) and a deacon says "we did not communicate with him", the practice Cyprian lays down in Epistle LXVII. That is a congregation's voice dated inside the interval, in a Donatism-world document. The claims list row 265 among the texts dated inside the gap and say of it only that none "carries on Cyprian's voice", which is true because of its Excluded status, not because of what the text says.
+- *Confessions* III.12: a Catholic African bishop gives Monica pastoral counsel about 373. The ruling on the oratory (seen through Augustine's eyes) covers it by the same logic but does not name it.
+- Optatus names the "cathedra ... Cypriani" (row 264 file lines 561 and 988); the judgements read "voice" as the pastoral or congregational voice the record's next sentence defines.
+
+**Outside the claims tool.** The transmission force record's line "the one thing of ours that carries it across" is contradicted by its own next sentences; the registered claim "No other force of ours does" is true.
