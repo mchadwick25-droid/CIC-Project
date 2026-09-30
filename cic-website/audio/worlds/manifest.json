@@ -623,5 +623,77 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "the-reformed-cities-zurich-and-geneva": {
+  "story": {
+   "file": "the-reformed-cities-zurich-and-geneva/story.mp3",
+   "chars": 7362,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-0.mp3",
+   "chars": 978,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-1.mp3",
+   "chars": 879,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-2.mp3",
+   "chars": 993,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "the-reformed-cities-zurich-and-geneva/legacy.mp3",
+   "chars": 737,
+   "voiceId": "G9IX883XKLA81NnaTUzh",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  }
  }
 }

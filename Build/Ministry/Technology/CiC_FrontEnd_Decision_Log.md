@@ -4908,3 +4908,48 @@ pieces was checked only by Mark's listening to the short sample.
 1. Merge; Mark listens to the live tradition page and Atlas panel, including
    that no instruction is spoken aloud.
 2. Remaining built worlds: imperial-juridical (casting brief given), Reformed.
+
+## 2026-09-30 — Theophilus's pieces narrated (Reformed world); Marius held
+
+**Decision.** The Reformed world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Theophilus (a patient, firm
+pastor who softens toward comfort; not a fire-and-brimstone preacher). Mark
+tried two voices in turn: the first he judged better for Wittenberg's
+Representative (Nikolaus) and reserved it for that; the second was chosen for
+Theophilus. Bios and the tree description are not narrated.
+
+**Settings, as printed by the run.** Voice `G9IX883XKLA81NnaTUzh`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+speed 1, no tempo change, 128 kbps. The voice reserved for Nikolaus is
+`40lgdJOC1ND7hPOQX92p`.
+
+**Cost.** Samples 289 + 289 credits; run 1,459 credits for 10,949 characters.
+Every request line carried the chosen voice and model. The world story went
+in two parts and joined into one file.
+
+**Wired.** `cic-website/audio/worlds/the-reformed-cities-zurich-and-geneva/`
+and its entry in `manifest.json`; players in the Atlas panel and on the
+tradition page (regenerated for this world only).
+
+**Marius held.** The imperial-juridical world (Marius) is on hold at Mark's
+request while a different voice is searched for. His story and three
+documented stories exist on the branch at the original settings
+(voice `sp6F311QRVXR53QPGIgK`, stability 0.6, similarity 0.8, style 0.05); the
+legacy piece was not generated, and his tradition page is not regenerated, so
+no Marius player is live. Two stronger versions (stability 0.4 / 0.3) were
+sampled but not applied.
+
+**Wittenberg.** Census-listed "Built & Live" but has no compiled world data
+file, so this tool cannot run on it; its description and two documented
+stories are already narrated (Daniel; gap-story voice). Narrating them in
+Nikolaus's voice is a separate job, not started.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition pages and Atlas panel.
+2. Marius: choose a voice or a stronger setting, then re-run and regenerate
+   his page. Wittenberg: separate job.
