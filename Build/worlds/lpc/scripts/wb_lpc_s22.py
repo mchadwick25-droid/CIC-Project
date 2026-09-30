@@ -1000,10 +1000,11 @@ def build_tier1_terms() -> list[str]:
         dict(
             confidence=conf(
                 "B", "verified-via-authority", "load-bearing", "Documented",
-                "The entire evidentiary base for this term is one voice (Augustine) within one "
+                "The evidentiary base this term's sweep drew on is one voice (Augustine) within one "
                 "evidence stream (the anti-Pelagian corpus), flagged at generation rather than "
-                "discovered afterwards (Author-Gravity-Risk: Yes). No Pelagian first-person answer "
-                "survives in our own record. This term also carries a live scholarly contest, kept "
+                "discovered afterwards (Author-Gravity-Risk: Yes). Augustine's preaching (rows 19 "
+                "to 21) also treats grace at length, and this sweep did not cover it. No Pelagian "
+                "first-person answer survives in our own record. This term also carries a live scholarly contest, kept "
                 "on its own, independent axis from this historical-fact rating -- see senses."
                 "informational's own closing paragraph for the contest itself, per Doc_06 SS3.",
             ),
@@ -1080,15 +1081,18 @@ def build_tier1_terms() -> list[str]:
                 ),
                 "evidential": (
                     "The anti-Pelagian corpus (Confidence B), licensed directly for this term, "
-                    "carries the whole evidentiary base. A full sweep, scoped to its own thirteen "
+                    "is the base the sweep drew on. A full sweep, scoped to its own thirteen "
                     "works and excluding the introductory essay, dedications, and indexes, returns "
                     "1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- by a wide margin the "
-                    "single highest raw-frequency count in this lexicon. The entire evidentiary base "
-                    "is one voice within one evidence stream; the density of the evidence could "
-                    "easily read as breadth, and is not. No Pelagian first-person answer survives in "
-                    "our own Native record. This term belongs to Augustine's own phase; no "
-                    "Pelagian-anthropology-equivalent material exists anywhere in Cyprian's corpus, "
-                    "since the controversy postdates him by over a century."
+                    "single highest raw-frequency count in this lexicon. The evidentiary base the sweep "
+                    "drew on is one voice within one evidence stream; the density of the evidence "
+                    "could easily read as breadth, and is not. Augustine's preaching to his "
+                    "congregation (rows 19 to 21) also treats grace at length, with more than 700 "
+                    "further raw occurrences, and this sweep did not cover it. No Pelagian "
+                    "first-person answer survives in our own Native record. This term's controversy "
+                    "belongs to Augustine's own phase. Cyprian states the theme (Ad Donatum 4; Ad "
+                    "Quirinum III.4), but no Pelagian-anthropology-equivalent material exists in his "
+                    "corpus, since the controversy postdates him by over a century."
                 ),
                 "translational": (
                     "A modern listener is likely to hear grace as a warm general benevolence, or as "
@@ -1469,8 +1473,10 @@ def build_tier2_terms() -> list[str]:
                              "19th-century American editor's own reading of Cyprian's motive, not "
                              "Cyprian's own words, and no claim in this entry rests on the formula "
                              "being aimed at Stephen. Doc_04 finds no evidence that ordinary "
-                             "believers, catechumens, or most clergy in either phase were formed by, "
-                             "or aware of, this question -- the formula's own existence is "
+                             "believers, catechumens, or most clergy in either phase were formed by "
+                             "this question as a teaching. Awareness is attested, since presbyters, "
+                             "deacons and most of the congregation were present when the formula "
+                             "was spoken in 256. The formula's own existence is "
                              "Documented; its reach into ordinary formation is not evidenced, which "
                              "is why this term sits at Tier 2 despite that Documented status."),
             sources=[
@@ -1517,13 +1523,13 @@ def build_tier2_terms() -> list[str]:
                     "if no one can compel a colleague, disagreement need not mean separation."
                 ),
                 "evidential": (
-                    "The 256 Council preface is directly quoted and re-verified at source, and "
-                    "re-quoted across nine independent review rounds. The vendored text prints an "
-                    "editor's remark inside this passage reading it as a rebuke of Stephen of Rome; "
-                    "that is the 19th-century editor's own reading of motive, not Cyprian's words, "
-                    "and nothing here rests on it. Doc_04 finds no evidence this question reached "
-                    "ordinary believers, catechumens, or most clergy in either phase -- the formula "
-                    "is real and Documented; its reach into ordinary life is not evidenced."
+                    "The 256 Council preface is directly quoted and re-verified at source. "
+                    "The vendored text "
+                    "prints an editor's remark inside this passage reading it as a rebuke of "
+                    "Stephen of Rome; that is the 19th-century editor's own reading of motive, not "
+                    "Cyprian's words, and nothing here rests on it. The formula was spoken before "
+                    "presbyters, deacons and most of the congregation of Carthage in 256; beyond "
+                    "that one hearing, its reach into ordinary formation is not evidenced."
                 ),
                 "translational": (
                     "A modern listener is likely to hear an early anti-papal manifesto, or a "
@@ -1539,13 +1545,14 @@ def build_tier2_terms() -> list[str]:
             ),
         ),
         "Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- 'no evidence that "
-        "ordinary believers... were formed by, or even aware of, this question') and "
+        "ordinary believers... were formed by this question') and "
         "Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: "
         "evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses "
-        "the term; this script infers it because the formula is the sole textual ground of a "
-        "real, Documented Supporting gravity (the conciliar-authority axis), which Doc_04 SS7 "
-        "item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, the "
-        "same rule don's own script states. "
+        "the term; this script infers it because the formula is one of the two textual grounds "
+        "(with Augustine's 'plenary Councils') of a real Supporting gravity whose formulas' "
+        "existence is Documented (the conciliar-authority axis), which Doc_04 SS7 "
+        "item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, on the "
+        "same principle don's script applies to citation_specificity and verification_state. "
         "Relations: five terms per this term's own Related-Terms line.",
     ))
 
@@ -1562,8 +1569,10 @@ def build_tier2_terms() -> list[str]:
                              "runs opposite to Cyprian's in the paired bishop-of-bishops entry, "
                              "which is why this record does not treat the two formulas as "
                              "reconcilable restatements of one theory (Author-Gravity-Risk: Yes). "
-                             "The same ecological bound as the paired entry applies: no evidence "
-                             "this question reached ordinary formation in either phase."),
+                             "The phrase 'plenary Council' does not appear in Augustine's preaching to "
+                             "his congregation; the wider question of who judges a bishop was put to "
+                             "ordinary people in his Psalm against the Donatists (about 393), but not as "
+                             "this formula."),
             sources=[
                 src(13, "On Baptism, Against the Donatists II.3 -- 'The Councils themselves, which "
                         "are held in the several districts and provinces, must yield, beyond all "
@@ -1612,8 +1621,10 @@ def build_tier2_terms() -> list[str]:
                     "source; a full sweep returns 31 occurrences of 'plenary' within the treatise "
                     "itself. Augustine's own formula is spoken in defence of overturning Cyprian's "
                     "specific ruling, his institutional interest running opposite to Cyprian's own "
-                    "in the paired entry. The same ecological bound as that paired entry applies: no "
-                    "evidence this question reached ordinary formation in either phase."
+                    "in the paired entry. The phrase 'plenary Council' does not appear in Augustine's "
+                    "preaching to his congregation; the wider question of who judges a bishop was "
+                    "put to ordinary people in his Psalm against the Donatists (about 393), but not as "
+                    "this formula."
                 ),
                 "translational": (
                     "A modern listener is likely to hear a straightforward claim of centralized "

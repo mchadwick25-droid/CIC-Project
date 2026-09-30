@@ -65,7 +65,7 @@ Second: the siege is real and should not be made symbolic. Hippo fell. **What Po
 
 ## Absent Story Note
 
-**No one outside the room recorded this, and one person in it did all the recording. Possidius is the only witness to the last weeks** — the psalms, the request, the ten days. The death itself is corroborated: **Prosper's *Chronicon* (row 203) records it, with its date and the siege**, from outside Hippo. **What no second source gives is the interior of the sickroom**, and for that this story depends on one man more completely than any other Tier 1 story in this repository.
+**No one outside the room recorded this, and one person in it did all the recording. Possidius is the only witness to the sickroom in the last weeks** — the psalms, the request, the ten days. The death itself is corroborated: **Prosper's *Chronicon* (row 203) records it, with its date and the siege**, from outside Hippo, and adds only that Augustine was still answering Julian's books at the very end. **What no second source gives is the interior of the sickroom.** For that, this story depends on one witness, as lpcstory002's account of the relief and lpcstory003's account of Numidicus also do.
 
 **The city outside is not absent.** Possidius records the invasion at length in the same span this chunk cites: congregations *"despoiled and stripped of all their goods and begging in abject poverty"*; *"of the innumerable churches he saw only three survive, namely those of Carthage, Hippo and Cirta"*; and, plainly, that *"after Augustine's death the city of Hippo, abandoned by its inhabitants, was burned by the enemy."*
 

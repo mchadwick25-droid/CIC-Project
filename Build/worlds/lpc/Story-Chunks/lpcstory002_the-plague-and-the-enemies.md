@@ -30,7 +30,7 @@ Pontius reaches for a comparison and finds it insufficient. "Something more was 
 
 ## Formation Ecology Connection
 
-**Gravities: G1 (Pastoral Office), G4 (Preaching and Catechesis).** Doc_08's Force **2A-2** — epidemic disease — is the one force in this world's whole matrix that connects to no other. It produced no structure and no institution. What it produced was a sermon and a treatise. This story is what that looks like from inside.
+**Gravities: G1 (Pastoral Office), G4 (Preaching and Catechesis).** Doc_08 registers Force **2A-2** — epidemic disease — as connected to no other force in its matrix; one other force, 1B-3, is likewise unconnected. Its best-attested response was a sermon and a treatise. Pontius also records relief organized and given out by rank, and Doc_08 leaves open whether that links the plague to other forces. This story is what that looks like from inside.
 
 **What it shows that other evidence does not show as directly.** Doc_08 §5 finds that this world's characteristic response to external pressure is to metabolise it into formation content through G4 — crisis converted into teaching, delivered by the one man G1 makes answerable. That is an analytical claim. Here it is an event: a plague arrives, and the bishop's response is *to assemble the people and explain what kind of people they now are*.
 
@@ -65,6 +65,6 @@ The Representative may draw on this as remembered history, **with Pontius named*
 
 ## Absent Story Note
 
-**What a participant will want and this story cannot give: whether the enemies were actually cared for.** Pontius records that relief went *"to all men, not to those only who are of the household of faith"* — but that is a bishop's deacon summarising, in a work of praise, and it is the only account we have. **No pagan Carthaginian left a word about being helped by Christians during this epidemic**, and no Christian outside Pontius describes the operation. The absence is a survivorship gap of the ordinary kind: relief work leaves no documents, and the people on the receiving end of this one were not writing. What it honestly tells us is that this world's most attractive claim about itself rests, at this point, on a single friendly witness.
+**What a participant will want and this story cannot give: whether the enemies were actually cared for.** Pontius records that relief went *"to all men, not to those only who are of the household of faith"* — but that is a bishop's deacon summarising, in a work of praise, and it is the only account we have. **No pagan Carthaginian left a word about being helped by Christians during this epidemic**, and no Christian outside Pontius describes the operation. The absence is a survivorship gap of the ordinary kind. Help given house to house in an epidemic leaves few documents, unlike the ransom letter of `lpcstory004`. The people on the receiving end of this help were not writing. What it honestly tells us is that this world's most attractive claim about itself rests, at this point, on a single friendly witness.
 
 ---

@@ -1556,9 +1556,11 @@ ROWS: list[dict] = [
                    "placement, not an error. Flagged for priority second-opinion review before it "
                    "supports any specific claim. A different Duval from row 129/146 (Noël Duval) and "
                    "row 170 (Yves-Marie Duval), each independently checked and unrelated.",
-        body="Licensed for rows 37 and 38 -- this Registry's entire material-evidence layer (CIL VIII, "
-             "no inscription named; basilica archaeology, Confidence D, 'only the category' named); "
-             "Duval is the standard corpus of African martyr-cult inscriptions with archaeological "
+        body="Licensed for rows 37 and 38 -- CIL VIII, no inscription named, and basilica archaeology, "
+             "Confidence D, 'only the category' named -- the two material rows it would most directly "
+             "turn from category into evidence. The Registry's other material rows (63, 82, 107, 108, "
+             "129, 136, 146) carry their own licences, and row 97 is marked S/M. Duval is the standard "
+             "corpus of African martyr-cult inscriptions with archaeological "
              "context, the instrument that would turn row 38 from a category into evidence.",
     ),
     dict(
@@ -2571,8 +2573,9 @@ ROWS: list[dict] = [
         cite="C", verif="named-not-rechecked", weight="corroborating", formation="Widely Accepted",
         divergence="Flagged for priority second-opinion review before it supports any specific claim.",
         body="Licensed for row 1 directly -- the electoral mechanism behind Cyprian's own central "
-             "citation, 'your suffrage and God's judgment,' which no other row addresses at this "
-             "level; row 101 (Bobertz) addresses the wider patron-bishop dynamic, a related but "
+             "citation, 'your suffrage and God's judgment'; an article-length study focused on "
+             "Cyprian alone. Row 186 (Norton) treats the same question across 250-600, and row 101 "
+             "(Bobertz) addresses the wider patron-bishop dynamic, a related but "
              "distinct question.",
     ),
     dict(
@@ -4392,9 +4395,9 @@ CAUTIONS = (
     "2) The century gap (258-391) is a silence in this world's own voice. Never fill it. The "
     "texts written at and just after Cyprian's martyrdom stand at its very start and belong to "
     "his phase: the record of his trial, the life written by his deacon Pontius, and two martyr "
-    "acts. No source fixes their order. After them, this world's own collection holds no "
-    "bishop's ordinary pastoral or congregational voice, and no congregation's voice, that "
-    "continues Cyprian's. Do not supply one. Naming what the records do document in those years "
+    "acts. Their full sequence is not fixed. After them, no source in this world's Registry "
+    "supplies a bishop's ordinary pastoral or congregational voice, or a congregation's voice, "
+    "that continues Cyprian's. Do not supply one. Naming what the records do document in those years "
     "is allowed, for example Augustine's years as a Manichaean hearer, his conversion in 386, "
     "and his baptism in 387. The Donatist schism is one "
     "of the historical pressures on this world. How to speak of Donatism as an opponent is "
@@ -4511,7 +4514,11 @@ THIN_TOPICS = [
                 "martyrdom; the texts written at and just after it (the Acta Cypriani, Pontius's Life "
                 "and the two martyr acts of rows 231 and 232) stand at its start and belong to "
                 "Cyprian's phase. The period is richly attested elsewhere, but overwhelmingly through "
-                "sources that are Donatism's own territory. Never fill this silence from the "
+                "sources that are Donatism's own territory. Some texts do fall inside the interval, "
+                "among them Optatus, the African council canons, Augustine's early writings, and an "
+                "oratory in memory of Cyprian at Carthage that Confessions V.8 records about 383. None "
+                "of the assessed ones continues Cyprian's voice, and the oratory has not been assessed. "
+                "Never fill this silence from the "
                 "neighboring world's own record, and never treat the silence itself as a subject for "
                 "in-world commentary.",
     },

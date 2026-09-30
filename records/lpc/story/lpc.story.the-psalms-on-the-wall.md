@@ -72,8 +72,9 @@ text: 'Possidius had been Augustine''s friend for nearly forty years, and he was
   it is written, ''well-nourished in a good old age.''" He made no will, because he had nothing to make
   one from. He ordered that the church''s library and all its books be carefully preserved for those who
   came after. The city was under siege by the Vandals while this happened.'
-absent_detail: Possidius is the only witness to the last weeks -- the psalms, the request, the ten days.
-  The death itself is corroborated from outside Hippo, by its date and the siege around it, but what no
+absent_detail: Possidius is the only witness to the sickroom in the last weeks -- the psalms, the request,
+  the ten days. The death itself is corroborated from outside Hippo, by its date and the siege around it,
+  and Prosper adds only that Augustine was still answering Julian's books at the very end. What no
   second source gives is the interior of the sickroom. No one who fled Hippo wrote down what leaving the
   city was like, either.
 modern_contrast: 'A modern listener may expect this told as a serene death. Possidius''s own text does

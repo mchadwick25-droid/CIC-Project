@@ -30,7 +30,7 @@ He had not wanted to survive. Cyprian knows this, writes it down, and then gives
 
 **Gravities: G1 (Pastoral Office), G6 (Sacramental and Ordination Validity).** This world ordains a man on the strength of what he has endured. Doc_04 makes G6 a Primary gravity about who may validly hold office; this letter shows the criterion being applied to a specific person in public.
 
-**What it shows that other evidence does not show as directly.** Cyprian's treatises argue about confessors and their standing. This letter shows a bishop *doing something with* a confessor — and doing it in a way that answers a pastoral problem the treatises never name. Numidicus did not want to be alive. Ordination is Cyprian's answer to that: here is why you were left behind.
+**What it shows that other evidence does not show as directly.** Cyprian's treatises argue about confessors and their standing. This letter shows a bishop *doing something with* a confessor. It answers, for one named man, a grief the treatises answer only in general: Numidicus did not want to be alive. *On the Mortality* §17 consoles the Christian who was ready for martyrdom and was denied it. Here the answer is an office: ordination is Cyprian's answer, and here is why you were left behind.
 
 **Why it belongs in the encounter.** Three human facts sit in four lines of a letter that is nominally administrative: a man watching his wife burn and being told to call it preservation; a daughter searching for her father's body and finding him alive; a survivor who resents surviving. Doc_08's Force 2A-1 records that persecution "confirms rather than reshapes" this world's gravities. This is what confirmation cost one household.
 

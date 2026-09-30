@@ -29,9 +29,10 @@ confidence:
     a rebuke of Stephen of Rome specifically. That is the 19th-century American editor's own reading of
     Cyprian's motive, not Cyprian's own words, and no claim in this entry rests on the formula being aimed
     at Stephen. Doc_04 finds no evidence that ordinary believers, catechumens, or most clergy in either
-    phase were formed by, or aware of, this question -- the formula's own existence is Documented; its
-    reach into ordinary formation is not evidenced, which is why this term sits at Tier 2 despite that
-    Documented status.
+    phase were formed by this question as a teaching. Awareness is attested, since presbyters, deacons and most
+    of the congregation were present when the formula was spoken in 256. The formula's own existence is
+    Documented; its reach into ordinary formation is not evidenced, which is why this term sits at Tier
+    2 despite that Documented status.
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
   locus: the 256 Council preface -- 'For neither does any of us set himself up as a bishop of bishops,
@@ -63,12 +64,11 @@ senses:
     than the man in the chair. Together with plenary Council, this forms our own conciliar-authority pair,
     and the two are incompatible. It underwrites communion''s own capacity to survive disagreement: if
     no one can compel a colleague, disagreement need not mean separation.'
-  evidential: The 256 Council preface is directly quoted and re-verified at source, and re-quoted across
-    nine independent review rounds. The vendored text prints an editor's remark inside this passage reading
-    it as a rebuke of Stephen of Rome; that is the 19th-century editor's own reading of motive, not Cyprian's
-    words, and nothing here rests on it. Doc_04 finds no evidence this question reached ordinary believers,
-    catechumens, or most clergy in either phase -- the formula is real and Documented; its reach into
-    ordinary life is not evidenced.
+  evidential: The 256 Council preface is directly quoted and re-verified at source. The vendored text prints an editor's remark inside this passage
+    reading it as a rebuke of Stephen of Rome; that is the 19th-century editor's own reading of motive,
+    not Cyprian's words, and nothing here rests on it. The formula was spoken before presbyters, deacons
+    and most of the congregation of Carthage in 256; beyond that one hearing, its reach into ordinary formation
+    is not evidenced.
   translational: A modern listener is likely to hear an early anti-papal manifesto, or a democratic constitutional
     principle about separated powers. We mean neither -- a working statement of how a council among equals
     proceeds, made by the man chairing it, inside a shared conviction that the episcopate is one undivided
@@ -76,4 +76,4 @@ senses:
 quick_meaning: For us, no bishop stands over the others. Each one judges for himself, and answers for
   it elsewhere.
 ---
-Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- 'no evidence that ordinary believers... were formed by, or even aware of, this question') and Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses the term; this script infers it because the formula is the sole textual ground of a real, Documented Supporting gravity (the conciliar-authority axis), which Doc_04 SS7 item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, the same rule don's own script states. Relations: five terms per this term's own Related-Terms line.
+Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- 'no evidence that ordinary believers... were formed by this question') and Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses the term; this script infers it because the formula is one of the two textual grounds (with Augustine's 'plenary Councils') of a real Supporting gravity whose formulas' existence is Documented (the conciliar-authority axis), which Doc_04 SS7 item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, on the same principle don's script applies to citation_specificity and verification_state. Relations: five terms per this term's own Related-Terms line.

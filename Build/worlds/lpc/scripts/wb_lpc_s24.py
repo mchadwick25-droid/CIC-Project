@@ -739,8 +739,9 @@ def build_stories() -> None:
          "cannot be made to speak to without distortion",
          "participant is asking about slavery as an institution, which the letter does not address"],
         ["do not invent a modern-currency conversion for the hundred thousand sesterces -- no "
-         "source of ours licenses one, and the purchasing-power comparison is contested among "
-         "specialists"],
+         "source of ours licenses one (Audollent, row 241, unlicensed, prints '25.000 francs' for "
+         "this collection; do not use it), and the purchasing-power comparison is contested "
+         "among specialists"],
         "Mapped directly from Story-Chunks/lpcstory004_hundred-thousand-sesterces.md, recast into "
         "first-person register. 'Hundred thousand sesterces' independently re-located this session "
         "at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082 -- the same line "
@@ -924,10 +925,11 @@ def build_stories() -> None:
         "will, because he had nothing to make one from. He ordered that the church's library and "
         "all its books be carefully preserved for those who came after. The city was under siege "
         "by the Vandals while this happened.",
-        "Possidius is the only witness to the last weeks -- the psalms, the request, the ten days. "
-        "The death itself is corroborated from outside Hippo, by its date and the siege around it, "
-        "but what no second source gives is the interior of the sickroom. No one who fled Hippo "
-        "wrote down what leaving the city was like, either.",
+        "Possidius is the only witness to the sickroom in the last weeks -- the psalms, the request, "
+        "the ten days. The death itself is corroborated from outside Hippo, by its date and the siege "
+        "around it, and Prosper adds only that Augustine was still answering Julian's books at the "
+        "very end. What no second source gives is the interior of the sickroom. No one who fled "
+        "Hippo wrote down what leaving the city was like, either.",
         "A modern listener may expect this told as a serene death. Possidius's own text does not "
         "support serenity: a man who spent his life teaching repentance wept freely and constantly "
         "for days, looking at psalms about sin -- the disproportion, if it looks like one, is the "
@@ -1062,11 +1064,15 @@ def build_figures() -> None:
           "locus": "the whole Vita Augustini, and its own closing first-person account of "
                    "Augustine's own last illness and death",
           "license": "public-domain"}],
-        "The sole source for the whole of Phase Two's one built story, and the source of lpc.quote."
+        "The main source for Phase Two's one built story, and its only witness to the sickroom "
+        "(Prosper's chronicle corroborates only the date of death and the siege, and that Augustine "
+        "was still answering Julian's books at the very end), and the source of lpc.quote."
         "clamour-and-tears -- the mirror of Pontius's own role for Phase One, a friendly rather "
         "than hostile mediating eyewitness whose own presence in the room (rather than only his "
         "own social location) is what the Tier Justification for lpc.story.the-psalms-on-the-wall "
-        "rests its Tier 1 finding on.",
+        "rests its Tier 1 finding on. His own interventions and subscription also survive in the "
+        "minutes of the 411 Conference (the PL XI Gesta), which this build has not read for his "
+        "voice.",
     )
 
     emit_figure(

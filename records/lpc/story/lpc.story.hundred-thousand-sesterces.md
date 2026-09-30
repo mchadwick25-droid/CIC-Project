@@ -31,7 +31,8 @@ retrieval:
   - participant is asking about slavery as an institution, which the letter does not address
 claim_guards:
 - do not invent a modern-currency conversion for the hundred thousand sesterces -- no source of ours licenses
-  one, and the purchasing-power comparison is contested among specialists
+  one (Audollent, row 241, unlicensed, prints '25.000 francs' for this collection; do not use it), and the
+  purchasing-power comparison is contested among specialists
 relations:
 - type: associated-with
   target: lpc.figure.cyprian

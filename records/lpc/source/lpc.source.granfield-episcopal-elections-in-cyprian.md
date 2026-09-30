@@ -29,4 +29,4 @@ discovery_channel: WebSearch / 2026-09-02.
 external_ids:
   lpc_source_registry_row: 113
 ---
-Licensed for row 1 directly -- the electoral mechanism behind Cyprian's own central citation, 'your suffrage and God's judgment,' which no other row addresses at this level; row 101 (Bobertz) addresses the wider patron-bishop dynamic, a related but distinct question.
+Licensed for row 1 directly -- the electoral mechanism behind Cyprian's own central citation, 'your suffrage and God's judgment'; an article-length study focused on Cyprian alone. Row 186 (Norton) treats the same question across 250-600, and row 101 (Bobertz) addresses the wider patron-bishop dynamic, a related but distinct question.

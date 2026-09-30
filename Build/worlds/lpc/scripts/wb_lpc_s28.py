@@ -763,14 +763,17 @@ def build_limit_womens_own_voice() -> None:
         ),
         "relations": [],
         "statement": (
-            "Women appear throughout our own record and never narrate it. Numidicus's own wife "
+            "Women appear throughout our own record and almost never narrate it. Numidicus's own wife "
             "burns beside him; his daughter searches for his body and finds him alive. Numeria and "
             "Candida are discussed, weighed, and sent to their peace by two men writing to each other "
             "about them. In our later years, a woman we know as Albina, and a community of nuns at "
             "Hippo, are known to us only through one of our own bishop's letters about them, never "
-            "through anything they wrote themselves. All of them are visible. None of them is "
-            "audible. This holds across our whole span, in both our early years and our later ones, "
-            "not because one half of our record happens to be thinner than the other."
+            "through anything they wrote themselves. All of them are visible. None of these women is "
+            "audible. Two cases come close. Two letters to Augustine go out in the joint names of "
+            "Paulinus and his wife Therasia, though the voice in them is his. And Quartillosa, held in "
+            "a prison, is reported in her own words describing a vision of her son, inside a martyr "
+            "act written by men. The pattern holds across our whole span, in both our early years and "
+            "our later ones, not because one half of our record happens to be thinner than the other."
         ),
         "why_sources_cannot_answer": (
             "Doc_09_Story_Inventory.md §5 item 4 states this directly, checked across both phases: "
@@ -779,8 +782,11 @@ def build_limit_womens_own_voice() -> None:
             "Albina and the community of nuns at Hippo are known only through Augustine's own framing "
             "of them, in letters he wrote about them rather than words they wrote themselves.' "
             "Doc_02_Source_Ecology.md §6 independently confirms the Augustine-phase half. No text "
-            "authored by a woman survives anywhere in this world's own Native corpus, in either "
-            "phase."
+            "written by a woman in her own name alone survives in this world's own Native corpus, in "
+            "either phase. The nearest are two letters sent jointly in the names of Paulinus and his "
+            "wife Therasia, whose voice is his (Letters XXV and XXX, row 11), and Quartillosa's "
+            "first-person vision in the Passio of Montanus and Lucius (row 231, no. 16, section VIII), "
+            "reported inside a martyr act written by men."
         ),
         "nearest_material": [
             "lpc.figure.numidicus",
@@ -883,17 +889,26 @@ def build_limit_silent_century() -> None:
             "The texts written at and just after Cyprian's martyrdom stand at the very start of the "
             "interval: the Acta Cypriani (rows 41, 194, 231 no. 13 and 232 no. XI), Pontius's Life "
             "(rows 7, 40, 194 and 205), and the two martyr acts of rows 231 and 232 (all Native). They "
-            "belong to Cyprian's phase and do not fill the silence, and no source fixes their order. "
-            "From them to 391, no source supplies a bishop's ordinary pastoral or "
+            "belong to Cyprian's phase and do not fill the silence. Their full sequence is not fixed "
+            "(Pontius already cites the record of the first hearing, Harnack places the Acta as "
+            "compiled after the Life, and nothing places the two martyr acts). "
+            "From them to 391, no source in the Registry supplies a bishop's ordinary pastoral or "
             "congregational voice, or a congregation's voice, that continues Cyprian's. The Registry "
             "texts dated inside the interval include Optatus of Milevis (rows 27, 64 and 264, Native) "
             "and the appendix documents (row 265, Excluded); none continues Cyprian's voice, and this "
-            "world draws on none of them for a claim. The licensed exceptions are named at Doc_02 §7. "
+            "world draws on none of them for a claim. The Carthage council canons (rows 26, 59 and "
+            "202), Augustine's writings from before his ordination (rows 11, 22 and 25) and the "
+            "Theodosian constitutions before 391 (rows 44 and 88) also fall inside it and are licensed "
+            "for other claims. One of the nine further Guelferbytanus tractatus, which Morin gives to "
+            "Optatus of Milevis with some likelihood, is held but not yet assessed (row 229). The "
+            "licensed exceptions are named at Doc_02 §7. "
             "lpc_Representative_Permanent_Prompt_Datus.txt line 21 states this directly: 'Roughly a "
             "hundred and thirty years sit between the bishop who opens your record and the one who "
             "closes it. Across that stretch, your own congregational voice falls silent.' "
             "lpc_Rep_Phase1_Ecology_Assessment.md §2 independently confirms: 'Absent by design... This "
-            "world's congregational record is silent across it.'"
+            "world's congregational record is silent across it.' That sentence holds within the "
+            "Registry's assessed sources. Confessions V.8 (row 9) also records an oratory in memory "
+            "of Cyprian at Carthage about 383, which is not assessed here."
         ),
         "nearest_material": [
             "lpc.gravity.pastoral-office-flock-keeping",

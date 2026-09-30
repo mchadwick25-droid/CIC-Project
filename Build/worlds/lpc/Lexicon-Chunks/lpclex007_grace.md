@@ -58,9 +58,9 @@ A specific and contested claim about the priority of divine action over human ca
 
 The anti-Pelagian corpus, Registry row 23 (Native, Confidence B), licensed directly for the grace/sufficiency-test gravity candidate. Doc_03's sweep, scoped to row 23's own thirteen works and excluding Warfield's introductory essay, the dedications and the indexes, returns **1,798 raw occurrences / 1,665 markup-stripped** — by a wide margin the highest raw-frequency count of any term on this world's candidate list.
 
-**Author Gravity note, flagged at generation rather than discovered afterwards.** The entire evidentiary base is **one voice (Augustine) within one evidence stream (row 23)**. The density of the evidence could easily read as breadth and is not: Doc_04 §3 Candidate 7 records the risk for exactly this reason. **No Pelagian first-person answer survives in this world's Native record.**
+**Author Gravity note, flagged at generation rather than discovered afterwards.** The evidentiary base this sweep drew on is **one voice (Augustine) within one evidence stream (row 23)**. The density of the evidence could easily read as breadth and is not: Doc_04 §3 Candidate 7 records the risk for exactly this reason. Augustine's preaching (rows 19 to 21) also treats grace at length, with more than 700 further raw occurrences, and this sweep did not cover it. **No Pelagian first-person answer survives in this world's Native record.**
 
-**Phase bound.** This term belongs to Augustine's phase. No Pelagian-anthropology-equivalent material exists anywhere in Cyprian's corpus, because the controversy postdates him by over a century — a real temporal boundary, not a gap in the search.
+**Phase bound.** This term's controversy belongs to Augustine's phase. Cyprian states the theme (*Ad Donatum* 4; *Ad Quirinum* III.4), but no Pelagian-anthropology-equivalent material exists in his corpus, because the controversy postdates him by over a century — a real temporal boundary, not a gap in the search.
 
 ---
 

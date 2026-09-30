@@ -52,11 +52,11 @@ Neither a manifesto nor a constitution. A working statement of how a council amo
 
 ## Key Sources
 
-The 256 Council preface, Registry row 4 — directly quoted and re-verified at source, and re-quoted across all nine of Doc_01's review rounds.
+The 256 Council preface, Registry row 4 — directly quoted and re-verified at source.
 
 **Editorial-apparatus note, and it matters substantively here.** The vendored ANF text prints an editor's remark *inside* this passage — *"Of course this implies a rebuke to the assumption of Stephen, ['their brother,' and forcibly contrasts the spirit of Cyprian with that of his intolerant compeer]."* That is the 19th-century American editor's reading of Cyprian's **motive**, not Cyprian's words. **No claim in this entry rests on the formula being aimed at Stephen.**
 
-**Ecological bound, stated plainly.** Doc_04 finds **no evidence** that ordinary believers, catechumens, or most clergy in either phase were formed by, or aware of, this question. The formula is real, its existence is Documented, and its reach into ordinary formation is not evidenced.
+**Ecological bound, stated plainly.** The formula was spoken before the presbyters, deacons and most of the people of Carthage in 256 (Registry rows 4 and 261). Doc_04 finds **no evidence** that ordinary believers, catechumens, or most clergy in either phase were formed by this question as a teaching. The formula is real, its existence is Documented, and its reach into ordinary formation beyond that one hearing is not evidenced.
 
 **Tier note:** Doc_03 flagged this Tier 1. **Tier 2 here**, on that bound and on Doc_05 §6.7's exclusion of the axis from this world's Representative theological patterns; see Doc_06 §2.
 

@@ -22,20 +22,25 @@ sources:
   locus: the Albina correspondence, known only through Augustine's own letters about her
   license: public-domain
 relations: []
-statement: Women appear throughout our own record and never narrate it. Numidicus's own wife burns beside
+statement: Women appear throughout our own record and almost never narrate it. Numidicus's own wife burns beside
   him; his daughter searches for his body and finds him alive. Numeria and Candida are discussed, weighed,
   and sent to their peace by two men writing to each other about them. In our later years, a woman we
   know as Albina, and a community of nuns at Hippo, are known to us only through one of our own bishop's
-  letters about them, never through anything they wrote themselves. All of them are visible. None of them
-  is audible. This holds across our whole span, in both our early years and our later ones, not because
-  one half of our record happens to be thinner than the other.
+  letters about them, never through anything they wrote themselves. All of them are visible. None of these
+  women is audible. Two cases come close. Two letters to Augustine go out in the joint names of Paulinus
+  and his wife Therasia, though the voice in them is his. And Quartillosa, held in a prison, is reported
+  in her own words describing a vision of her son, inside a martyr act written by men. The pattern holds
+  across our whole span, in both our early years and our later ones, not because one half of our record
+  happens to be thinner than the other.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md §5 item 4 states this directly, checked across both
   phases: ''Women appear in these stories and never narrate them... All four are visible; none is audible
   -- and all four are Phase One. The second phase does not break the pattern... Albina and the community
   of nuns at Hippo are known only through Augustine''s own framing of them, in letters he wrote about
   them rather than words they wrote themselves.'' Doc_02_Source_Ecology.md §6 independently confirms the
-  Augustine-phase half. No text authored by a woman survives anywhere in this world''s own Native corpus,
-  in either phase.'
+  Augustine-phase half. No text written by a woman in her own name alone survives in this world''s own Native corpus,
+  in either phase. The nearest are two letters sent jointly in the names of Paulinus and his wife Therasia,
+  whose voice is his (Letters XXV and XXX, row 11), and Quartillosa''s first-person vision in the Passio
+  of Montanus and Lucius (row 231, no. 16, section VIII), reported inside a martyr act written by men.'
 nearest_material:
 - lpc.figure.numidicus
 - lpc.story.numidicus

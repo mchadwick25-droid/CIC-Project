@@ -25,9 +25,10 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: 'The entire evidentiary base for this term is one voice (Augustine) within one evidence
+  divergence_note: 'The evidentiary base this term''s sweep drew on is one voice (Augustine) within one evidence
     stream (the anti-Pelagian corpus), flagged at generation rather than discovered afterwards (Author-Gravity-Risk:
-    Yes). No Pelagian first-person answer survives in our own record. This term also carries a live scholarly
+    Yes). Augustine''s preaching (rows 19 to 21) also treats grace at length, and this sweep did not cover
+    it. No Pelagian first-person answer survives in our own record. This term also carries a live scholarly
     contest, kept on its own, independent axis from this historical-fact rating -- see senses.informational''s
     own closing paragraph for the contest itself, per Doc_06 SS3.'
 sources:
@@ -86,14 +87,16 @@ senses:
     evidenced -- the highest raw frequency in this lexicon, across thirteen dedicated works -- and what
     this status covers is the World Meaning above as a first-person rendering of the conviction: how it
     was held and taught from inside, not a historical assessment of the doctrine''s own correctness.'
-  evidential: The anti-Pelagian corpus (Confidence B), licensed directly for this term, carries the whole
-    evidentiary base. A full sweep, scoped to its own thirteen works and excluding the introductory essay,
+  evidential: The anti-Pelagian corpus (Confidence B), licensed directly for this term, is the base
+    the sweep drew on. A full sweep, scoped to its own thirteen works and excluding the introductory essay,
     dedications, and indexes, returns 1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- by a
-    wide margin the single highest raw-frequency count in this lexicon. The entire evidentiary base is
-    one voice within one evidence stream; the density of the evidence could easily read as breadth, and
-    is not. No Pelagian first-person answer survives in our own Native record. This term belongs to Augustine's
-    own phase; no Pelagian-anthropology-equivalent material exists anywhere in Cyprian's corpus, since
-    the controversy postdates him by over a century.
+    wide margin the single highest raw-frequency count in this lexicon. The evidentiary base the sweep drew on
+    is one voice within one evidence stream; the density of the evidence could easily read as breadth,
+    and is not. Augustine's preaching to his congregation (rows 19 to 21) also treats grace at length, with
+    more than 700 further raw occurrences, and this sweep did not cover it. No Pelagian first-person answer
+    survives in our own Native record. This term's controversy belongs to Augustine's own phase. Cyprian
+    states the theme (Ad Donatum 4; Ad Quirinum III.4), but no Pelagian-anthropology-equivalent material
+    exists in his corpus, since the controversy postdates him by over a century.
   translational: A modern listener is likely to hear grace as a warm general benevolence, or as 'grace
     under pressure,' or as a denominational shibboleth they may already have an opinion about, and to
     hear our anti-Pelagian position as harsh determinism. We mean a specific and contested claim about
