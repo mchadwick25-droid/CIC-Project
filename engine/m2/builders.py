@@ -324,6 +324,8 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
 # about the world that we happen to have met in our own instruction is
 # carried by the record that holds it, from below the line or from the
 # turn's ground - never by an address for the instruction.
+SOURCE_ANCHOR_HEADER = "Where our images come from"
+
 _GROUND_LINE = """## Below this line is our world's own record
 
 Everything above this line is our own standing instruction - our register, our
@@ -466,6 +468,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         concerns = craft.get("characteristic_concerns") or []
         if concerns:
             instruct("What we keep returning to", "\n".join(f"- {c}" for c in concerns))
+        instruct(SOURCE_ANCHOR_HEADER, craft.get("source_anchor"))
         notes = craft.get("flavor_notes") or []
         if notes:
             instruct(

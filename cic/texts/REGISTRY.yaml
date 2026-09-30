@@ -3254,3 +3254,35 @@
     prefatory matter and critical apparatus - real content, but scholarly
     apparatus about Romanos, not his own voice. LATIN APPARATUS ONLY, no
     English; never citable as a Representative's evidence.
+- filename: beza_job-expounded_legatt1589.txt
+  supplied_by: >-
+    Claude (rzg Tier 4 source-enrichment thread, closing part of Source
+    Acquisition Manifest item G4 - Theodore Beza's own direct voice,
+    previously entirely unvendored for this world)
+  date_added: '2026-09-29'
+  notes: >-
+    Job Expounded by Theodore Beza: Partly in Manner of a Commentary, Partly
+    in Manner of a Paraphrase; Faithfully Translated out of Latine into
+    English (Cambridge: Printed by John Legatt, 1589) - translator not named
+    on this edition's own title page. Fetched directly (curl, raw bytes) from
+    Internet Archive, identifier jobexpth00bzet. RIGHTS: public domain by
+    date - 1589 unambiguously predates any copyright regime; archive.org's
+    own classifier has not tagged this item's "possible-copyright-status"
+    either way, so the determination rests directly on the verified imprint
+    date. Opens with Beza's own dedicatory epistle to Queen Elizabeth I. This
+    edition's OCR consistently misreads the period's long s as "f" (e.g.
+    "faluation" for "salvation") - a disclosed artifact of this specific
+    scan, not corrected. Partial closure only: does not supply Beza's own
+    letters or the Tabula praedestinationis (1555), which remain unacquired.
+- filename: fixture-synthetic_later-summary.txt
+  supplied_by: This project's own stage-0.6 fixture world (the `fix` records)
+  date_added: '2026-09-29'
+  notes: >-
+    Synthetic text written directly for the fixture world, CC0. Not a real
+    edition. Never cite it for any real world.
+- filename: fixture-synthetic_witness-scroll.txt
+  supplied_by: This project's own stage-0.6 fixture world (the `fix` records)
+  date_added: '2026-09-29'
+  notes: >-
+    Synthetic text written directly for the fixture world, CC0. Not a real
+    edition. Never cite it for any real world.

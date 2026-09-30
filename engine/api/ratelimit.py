@@ -56,6 +56,14 @@ from fastapi.responses import JSONResponse
 CREATE_LIMIT = (60.0, 6)
 CONVERSE_LIMIT = (60.0, 40)
 ADMIN_LIMIT = (60.0, 10)
+# /api/admin/login specifically (engine.api.admin_auth): the dashboard's
+# password login is short (12-20 chars, engine.api.admin_auth.
+# PASSWORD_MIN_LENGTH/MAX_LENGTH) precisely because THIS limit, not the
+# password's own entropy, is what makes guessing it impractical - 5
+# attempts per 15 minutes per IP is a real website's ordinary login
+# lockout, not ADMIN_LIMIT's looser 10/min (sized for an operator polling
+# an API with a long random token, a different threat model).
+ADMIN_LOGIN_LIMIT = (900.0, 5)
 
 # Participant-facing words (full inventory in the decision log, alongside
 # the move-3 error layer): plain, no blame, says what to do.
@@ -105,6 +113,7 @@ def install(app):
     create_limiter = SlidingWindowLimiter(*CREATE_LIMIT)
     converse_limiter = SlidingWindowLimiter(*CONVERSE_LIMIT)
     admin_limiter = SlidingWindowLimiter(*ADMIN_LIMIT)
+    admin_login_limiter = SlidingWindowLimiter(*ADMIN_LOGIN_LIMIT)
 
     @app.middleware("http")
     async def _rate_limit(request: Request, call_next):
@@ -122,6 +131,11 @@ def install(app):
             or (request.method == "GET" and (path.endswith("/transcript") or path.endswith("/round-close-reasons")))
         ):
             limiter = converse_limiter
+        elif request.method == "POST" and path == "/api/admin/login":
+            # Checked before the general /api/admin prefix below - a much
+            # tighter bucket for the one route where the credential being
+            # guessed (a 12-20 char password) is short by design.
+            limiter = admin_login_limiter
         elif path.startswith("/api/admin"):
             limiter = admin_limiter
         else:

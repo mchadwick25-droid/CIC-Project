@@ -1254,7 +1254,7 @@ def test_post_heading_content_fields_not_swept_into_metadata_block(tmp_path):
         "\n"
         "**World code:** `ex`.\n"
         "\n"
-        "**Temporal scope:** c. 312–451, a period its actors saw as unresolved.\n"
+        "**Temporal scope:** c. 312–451, a period whose dating is left unresolved here.\n"
         "\n"
         "**Builder:** the build thread.\n"
         "\n"
@@ -1405,11 +1405,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # pass, to keep this table stable and at >=60 real, currently-
     # matching lines.
     ("Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", 1301, "REWRITE"),
-    ("Build/reference/method/CiC_Representative_Naming_Role_Discipline_2026-09-08.md", 6, "REWRITE"),
     ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 174, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
     ("Build/reference/method/Pass2-decisions/2026-08-01_M_lean_validation_interview_spend.md", 54, "REWRITE"),
-    ("Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md", 627, "REWRITE"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 200, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
@@ -1426,7 +1424,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
     # Re-pinned to a stable Build/reference/ example.
-    ("Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md", 3, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
@@ -1458,7 +1455,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
-    ("engine/m9/enforce.py", 120, "KEEP"),
+    ("engine/m9/enforce.py", 138, "KEEP"),
     # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
     # file's lines by +7 above this point; re-pinned to the same
     # r27_regenerated assertion, now at 1131.
@@ -1484,7 +1481,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
     # was cleaned as part of that effort. Re-pinned to a stable
     # Build/reference/ example.
-    ("Build/reference/method/CiC_Adversarial_Review_Standard_Practice.md", 25, "REWRITE"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR): the original
     # fix.craft.vera-voice.md:29 "REVISED 2026-09-19" line was itself
     # cleaned as part of that PR (the file's `guard` field was rewritten
@@ -1520,7 +1516,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/reference/Redesign-Spec/World-Cards.md", 139, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
-    ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 366, "KEEP"),
+    ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
+    ("engine/api/anon_cap.py", 5, "REWRITE"),
+    ("engine/api/anon_cap.py", 37, "REWRITE"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this "Date drafted:" header line was hand-labelled KEEP
     # under the old bare-date rule alone; it is now PROTECTED, the more
@@ -1599,3 +1597,107 @@ def test_precision_and_recall_on_hand_labelled_sample():
     # trigger fix, while still catching a real drop.
     assert recall >= 0.95
     assert precision >= 0.85
+
+
+# ---------------------------------------------------------------------------
+# Governing method files: process vocabulary is the subject, not narration
+# ---------------------------------------------------------------------------
+
+_METHOD_PATHS = [
+    "Build/reference/method/CiC_Record_Native_World_Build_Process_V9.9.md",
+    "Build/reference/method/CiC_Adversarial_Review_Standard_Practice.md",
+    "Build/reference/method/skills/cic-x/SKILL.md",
+    "Build/reference/L4-Templates/Some_Template.md",
+]
+_BLOCKING = {"REWRITE", "ROUTE"}
+
+
+@pytest.mark.parametrize("rel", _METHOD_PATHS)
+def test_method_files_keep_process_vocabulary(tmp_path, rel):
+    text = (
+        "The reviewer reads the record at the era gate.\n\n"
+        "Send a failed check back to the drafter for a second round.\n"
+    )
+    cats = {h.line: h.category for h in _hits_for(text, tmp_path, rel)}
+    assert cats and not (set(cats.values()) & _BLOCKING)
+
+
+@pytest.mark.parametrize("rel", _METHOD_PATHS)
+def test_method_files_still_flag_change_history(tmp_path, rel):
+    for line in (
+        "Round 2: the reviewer asked for a rewrite.",
+        "Round 1 found this and the reviewer named it.",
+        "The reviewer was changed previously.",
+        "Formerly the reviewer signed off.",
+        "The reviewer step is still open.",
+    ):
+        cats = [h.category for h in _hits_for(line + "\n", tmp_path, rel)]
+        assert set(cats) & _BLOCKING, line
+
+
+@pytest.mark.parametrize("rel", _METHOD_PATHS)
+def test_method_files_still_flag_dates_and_provenance(tmp_path, rel):
+    for line in (
+        "The reviewer step was adopted on 2026-09-08.",
+        "Mark's ruling of the reviewer step (R11) applies.",
+    ):
+        cats = [h.category for h in _hits_for(line + "\n", tmp_path, rel)]
+        assert set(cats) & _BLOCKING, line
+
+
+def test_method_rule_does_not_reach_other_paths(tmp_path):
+    for rel in ("Build/reference/other/Doc.md", "Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", "Build/worlds/syr/Doc_01.md", "engine/x.md"):
+        cats = [h.category for h in _hits_for("The reviewer reads it at the era gate.\n", tmp_path, rel)]
+        assert set(cats) & _BLOCKING, rel
+
+# ---------------------------------------------------------------------------
+# Generated package manifests
+# ---------------------------------------------------------------------------
+
+_MANIFEST_WITH_PROCESS_WORD = '{"files":{"records/demonstration/w.demo.dating.md":"sha256:ab"},"note":"open item on dating"}\n'
+
+
+def test_generated_package_manifest_is_not_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "packages/w/2026-01-01T00-00-00Z/manifest.json")
+    assert hits == []
+
+
+def test_same_text_elsewhere_in_packages_is_still_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "packages/w/2026-01-01T00-00-00Z/notes.json")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_a_manifest_outside_packages_is_still_scanned(tmp_path):
+    hits = _hits_for(_MANIFEST_WITH_PROCESS_WORD, tmp_path, "engine/manifest.json")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+# ---------------------------------------------------------------------------
+# The word "unresolved"
+# ---------------------------------------------------------------------------
+
+def test_unresolved_stating_a_real_uncertainty_is_not_commentary(tmp_path):
+    text = (
+        "Whether the death was murder remains genuinely unresolved in the historical record.\n"
+        "The two strands hold that tension, unresolved, across the whole span.\n"
+        "The dating of the letter is a live, unresolved scholarly dispute.\n"
+    )
+    assert _hits_for(text, tmp_path, "records/w/term/w.term.x.md") == []
+
+
+def test_unresolved_as_a_code_identifier_is_not_commentary(tmp_path):
+    text = (
+        "unresolved = [c for c in citations if c not in known_source_ids]\n"
+        "if unresolved:\n"
+        "    return findings\n"
+    )
+    assert _hits_for(text, tmp_path, "engine/m3/grading.py") == []
+
+
+def test_unresolved_with_an_authors_scope_or_timing_qualifier_is_still_flagged(tmp_path):
+    for phrase in ("Contested, and left unresolved here on purpose.",
+                   "The succession question is unresolved for now.",
+                   "The reading stays unresolved pending a ruling."):
+        hits = _hits_for(phrase + "\n", tmp_path, "records/w/term/w.term.x.md")
+        assert [h.category for h in hits] == ["ROUTE"], phrase
+

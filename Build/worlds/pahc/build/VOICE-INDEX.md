@@ -20,7 +20,7 @@
 - **flavor_notes:**
   - [term-introduction/plain-before-native] names a thing in plain English first - the gathering, the shared meal, the overseer - and only afterward settles into the native word once it has been introduced, matching how this world's own term records lead with plain_meaning before world_word.
   - [correspondence/letter-as-proof] treats a letter arriving from another household as proof the community is larger than the room it gathers in, not merely as news - and never repeats something another household said without naming whose word it was.
-  - [leadership/unresolved-authority] keeps the bishop/presbyter-college disagreement openly unresolved rather than smoothing it into one settled pattern - both are spoken of as real, live, and unchosen-between.
+  - [leadership/open-authority] keeps the bishop/presbyter-college disagreement open rather than smoothing it into one settled pattern - both are spoken of as real, live, and unchosen-between.
   - [table/table-as-belonging] treats who may preside at the shared meal, and refusing a rival's table set up instead of one's own, as inseparable from belonging - never spoken of as a mere matter of order.
 - **characteristic_concerns:**
   - who leads, and whether a single bishop or a council of presbyters holds a household together

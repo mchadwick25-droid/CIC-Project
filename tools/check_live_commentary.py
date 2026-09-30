@@ -53,7 +53,7 @@ exactly one of four verdicts:
 Classification order, once a line matches a pattern: PROTECTED is decided
 first (path- and field-level, independent of the line's own wording).
 Within an unprotected line: ROUTE if it carries an open-item cue (still
-unresolved, not yet fixed); else REWRITE if it carries a provenance cue
+an item left for later, not yet fixed); else REWRITE if it carries a provenance cue
 (the primary patterns below, besides ROUTE's own); else KEEP.
 
 A second, narrower rule (SPOKEN_VOCAB_PATTERNS below) catches a different
@@ -84,16 +84,21 @@ Usage:
                                             JSON (used by the test suite and
                                             by PR C/D to enumerate work)
 
-Exit code: always 0. This is a report, not a gate - see the module-level
-CI job (.github/workflows/ci.yml, "Live-surface commentary scan") that
-runs it on every push and never fails the run.
+Exit code: 0 by default, a report. With `--base REF --enforce` the scan is
+limited to files a change adds or edits relative to the merge-base with REF,
+and the exit code is 1 when any of those files still carries a REWRITE or
+ROUTE line: a change that edits a live file also removes the commentary
+already in it. KEEP and PROTECTED lines never fail the run.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import re
+import io
+import subprocess
 import sys
+import tokenize
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -416,9 +421,13 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
 # catch - still gets flagged. Found live in cic/corpus-map/: entries that
 # say a cross-check "has not yet been done" or a claim is "flagged for
 # Mark" carry no other pattern at all and were being silently skipped.
+# The word "unresolved" alone is not a cue. It states a real uncertainty in a source
+# or a tension a world holds, and it is a code term in engine/. It is a cue only with a
+# qualifier that marks the author's own scope or timing ("unresolved here", "for now").
 ROUTE_CUES = re.compile(
     r"\b(TODO|FIXME|open question|open gap|open item|not yet (resolved|fixed|answered|acquired)|"
-    r"unresolved|still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
+    r"unresolved (here|for now|pending|on purpose|until)|"
+    r"still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
     r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
     re.IGNORECASE,
@@ -1245,8 +1254,120 @@ def classify_line(
     return "KEEP"
 
 
+# ---------------------------------------------------------------------------
+# The build gates (engine/m10) name the process vocabulary they detect, and
+# the review-file header fixes the field names "Reviewer model" and "Drafter
+# model". Those code lines and header fields are the subject of the code, not
+# narration. The rule is narrow: only these three cases, nothing broader.
+# ---------------------------------------------------------------------------
+_GATE_MODULE = re.compile(r"^engine/m10/[^/]+\.py$")
+_GATE_TEST_MODULE = re.compile(r"^engine/m10/tests/[^/]+\.py$")
+_GATE_KEEP_PATTERNS = {"reviewer", "route-cue"}
+_REVIEW_HEADER_FIELD = re.compile(r"^\s*(?:Reviewer|Drafter) (?:model|agent)\s*:")
+
+
+def _python_code_lines(text: str) -> set[int]:
+    """Line numbers that hold code: a token other than a comment or a bare
+    string statement (a docstring), and no comment on the line."""
+    code: set[int] = set()
+    commented: set[int] = set()
+    previous = tokenize.NEWLINE
+    tokens = []
+    try:
+        tokens = list(tokenize.generate_tokens(io.StringIO(text).readline))
+    except (tokenize.TokenError, IndentationError, SyntaxError):
+        return set()
+    structural = {tokenize.NEWLINE, tokenize.NL, tokenize.INDENT, tokenize.DEDENT, tokenize.ENDMARKER}
+    for index, tok in enumerate(tokens):
+        if tok.type == tokenize.COMMENT:
+            commented.add(tok.start[0])
+        elif tok.type in structural:
+            pass
+        else:
+            following = next((t for t in tokens[index + 1 :] if t.type not in (tokenize.COMMENT, tokenize.NL)), None)
+            bare_string = (
+                tok.type == tokenize.STRING
+                and previous in (tokenize.NEWLINE, tokenize.INDENT, tokenize.DEDENT, tokenize.NL)
+                and following is not None
+                and following.type in (tokenize.NEWLINE, tokenize.ENDMARKER)
+            )
+            if not bare_string:
+                code.update(range(tok.start[0], tok.end[0] + 1))
+        if tok.type not in (tokenize.COMMENT, tokenize.NL):
+            previous = tok.type
+    return code - commented
+
+
+def _gate_vocabulary_category(rel: Path, line: str, matched: list[str], category: str, code_lines: set[int], line_no: int) -> str:
+    rel_s = rel.as_posix()
+    if category not in BLOCKING_CATEGORIES:
+        return category
+    if rel.suffix == ".md" and _REVIEW_HEADER_FIELD.match(line):
+        return "KEEP"
+    if line_no in code_lines:
+        if _GATE_MODULE.match(rel_s) and set(matched) <= _GATE_KEEP_PATTERNS:
+            return "KEEP"
+        if _GATE_TEST_MODULE.match(rel_s):
+            return "PROTECTED"
+    return category
+
+
+# ---------------------------------------------------------------------------
+# The governing method files describe the review process, so words such as
+# reviewer, round, route and era gate are their subject, not narration. In
+# those files (and only there) a REWRITE or ROUTE hit is KEEP when every
+# matched pattern is process vocabulary and the line has neither a history
+# shape nor a status cue. Dates, ruling numbers, decision-log pointers and
+# provenance attributions are untouched and still flagged.
+# ---------------------------------------------------------------------------
+_METHOD_DOC = re.compile(
+    r"^Build/reference/(?:method/(?:CiC_Record_Native_World_Build_Process_V[\d.]+|CiC_World_Build_Completion_Standard_V[\d.]+|CiC_Adversarial_Review_Standard_Practice)\.md"
+    r"|method/skills/[^/]+/SKILL\.md|L4-Templates/[^/]+\.md)$"
+)
+_METHOD_VOCAB = {
+    "reviewer", "review-round", "era-gate", "route-cue", "change-history-cue", "change-history-block", "marks-word",
+}
+_METHOD_HISTORY = re.compile(
+    r"^\s*[-*]?\s*\**Round\s+\d+\**\s*[:(]"
+    r"|\bround\s+\d+\s+(?:found|caught|flagged|named)\b"
+    r"|\b(?:previously|formerly|no longer|used to|was changed|were changed|earlier (?:draft|version)s?)\b",
+    re.I,
+)
+_METHOD_STATUS = re.compile(
+    r"\b(?:TODO|FIXME|not yet (?:resolved|fixed|answered|acquired)|still (?:pending|open)"
+    r"|known (?:gap|issue|defect)|has not yet (?:been|done))\b",
+    re.I,
+)
+_MARKS_ROLE = re.compile(r"\bMark'?s\s+(?:word|call)\b", re.I)
+
+
+def _method_vocabulary_category(rel: Path, line: str, matched: list[str], category: str) -> str:
+    if category not in BLOCKING_CATEGORIES or not _METHOD_DOC.match(rel.as_posix()):
+        return category
+    if not set(matched) <= _METHOD_VOCAB:
+        return category
+    if "marks-word" in matched and not _MARKS_ROLE.search(line):
+        return category
+    if _METHOD_HISTORY.search(line) or _METHOD_STATUS.search(line):
+        return category
+    return "KEEP"
+
+
+# A package's manifest.json is generated output: a list of file paths and hashes
+# that `engine.m2.cli build` writes. Its text is record ids, never prose, so a
+# process word inside a record id (a file named ...-unresolved.md) is not commentary,
+# and rewording cannot remove it without renaming the record.
+_PACKAGE_MANIFEST = re.compile(r"^packages/[^/]+/[^/]+/manifest\.json$")
+
+
+def is_generated_manifest(rel: Path) -> bool:
+    return bool(_PACKAGE_MANIFEST.match(rel.as_posix()))
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
+    if is_generated_manifest(rel):
+        return []
     try:
         text = path.read_text(encoding="utf-8", errors="replace")
     except OSError:
@@ -1286,6 +1407,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             else:
                 change_history_block_lines.update(_paragraph_lines(raw_lines, i))
 
+    code_lines = _python_code_lines(text) if path.suffix == ".py" else set()
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
@@ -1301,6 +1423,8 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             category = "PROTECTED"
         else:
             category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file)
+            category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
+            category = _method_vocabulary_category(rel, line, matched, category)
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
 
@@ -1332,21 +1456,69 @@ def run(repo: Path, surfaces: list[str]) -> list[Hit]:
     return hits
 
 
+def surface_of(rel: Path) -> str | None:
+    """The scan surface a repo-relative path belongs to, if any."""
+    rel_s = rel.as_posix()
+    for surface, roots in SURFACES.items():
+        if any(rel_s == root or rel_s.startswith(root + "/") for root in roots):
+            return surface
+    return None
+
+
+def changed_files(repo: Path, base: str) -> list[Path]:
+    """Files added or modified since the merge-base with `base`, working
+    tree included, plus untracked files. Deleted files carry no commentary."""
+    def git(*args: str) -> str:
+        return subprocess.run(["git", *args], cwd=repo, check=True, capture_output=True, text=True).stdout
+
+    merge_base = git("merge-base", base, "HEAD").strip()
+    names = git("diff", "--name-only", "--diff-filter=ACMR", merge_base).splitlines()
+    names += git("ls-files", "--others", "--exclude-standard").splitlines()
+    return sorted({repo / n for n in names if n})
+
+
+def run_changed(repo: Path, files: list[Path]) -> list[Hit]:
+    hits: list[Hit] = []
+    for path in files:
+        rel = path.relative_to(repo)
+        surface = surface_of(rel)
+        if surface is None or not path.is_file():
+            continue
+        if any(part in SKIP_DIR_NAMES for part in rel.parts):
+            continue
+        if path.suffix in SKIP_SUFFIXES or path.suffix not in TEXT_SUFFIXES:
+            continue
+        hits.extend(scan_file(repo, path, surface))
+    return hits
+
+
+BLOCKING_CATEGORIES = ("REWRITE", "ROUTE")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--surface", choices=sorted(SURFACES), default=None)
     parser.add_argument("--json", type=Path, default=None)
+    parser.add_argument("--base", default=None, help="scan only files changed since the merge-base with this git ref")
+    parser.add_argument("--enforce", action="store_true", help="exit 1 when a scanned file carries REWRITE or ROUTE lines (needs --base)")
     args = parser.parse_args(argv)
+    if args.enforce and not args.base:
+        parser.error("--enforce needs --base: the rule is scoped to the files a change edits")
 
-    surfaces = [args.surface] if args.surface else sorted(SURFACES)
-    hits = run(REPO, surfaces)
+    if args.base:
+        surfaces = [args.surface] if args.surface else sorted(SURFACES)
+        hits = [h for h in run_changed(REPO, changed_files(REPO, args.base)) if h.surface in surfaces]
+    else:
+        surfaces = [args.surface] if args.surface else sorted(SURFACES)
+        hits = run(REPO, surfaces)
 
     counts: dict[str, dict[str, int]] = {}
     for hit in hits:
         counts.setdefault(hit.surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
         counts[hit.surface][hit.category] += 1
 
-    print("Live-surface commentary scan (report-only; see tools/check_live_commentary.py)\n")
+    scope = f"files changed since the merge-base with {args.base}" if args.base else "whole tree"
+    print(f"Live-surface commentary scan ({scope}; see tools/check_live_commentary.py)\n")
     for surface in surfaces:
         c = counts.get(surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
         total = sum(c.values())
@@ -1361,6 +1533,14 @@ def main(argv: list[str] | None = None) -> int:
             json.dumps([hit.__dict__ for hit in hits], indent=2) + "\n", encoding="utf-8"
         )
 
+    blocking = [h for h in hits if h.category in BLOCKING_CATEGORIES]
+    if args.enforce and blocking:
+        print(f"\n{len(blocking)} REWRITE/ROUTE line(s) in files this change edits: remove the commentary "
+              "(rewrite the reason in plain present tense; move provenance to Build/Ministry, open items to "
+              "Open_Gaps_Tracking.md).", file=sys.stderr)
+        for hit in blocking:
+            print(f"  {hit.row()}", file=sys.stderr)
+        return 1
     return 0
 
 
