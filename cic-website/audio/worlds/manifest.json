@@ -171,6 +171,48 @@
     "style": 0,
     "use_speaker_boost": true
    }
+  },
+  "docstory-1": {
+   "file": "desert-monasticism/docstory-1.mp3",
+   "chars": 1548,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "desert-monasticism/docstory-2.mp3",
+   "chars": 1772,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "desert-monasticism/legacy.mp3",
+   "chars": 567,
+   "voiceId": "A9evEp8yGjv4c3WsIKuY",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+   }
   }
  }
 }

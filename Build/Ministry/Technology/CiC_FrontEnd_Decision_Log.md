@@ -4708,3 +4708,32 @@ Mark's ear.
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Next world: the desert world's Representative (Papnoute); casting brief
    given, voices awaited.
+
+## 2026-09-30 — Papnoute's pieces narrated (desert world)
+
+**Decision.** The desert world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Papnoute after hearing it on
+two pieces (an older, weathered, terse, grave male elder brief). One
+candidate was sampled and accepted ("voice A is great"). Bios and the tree
+description are not narrated.
+
+**Settings, as printed by the run.** Voice `A9evEp8yGjv4c3WsIKuY`, model
+`eleven_v4`, stability 0.75, similarity 0.75, style 0, speaker boost on,
+speed 1, no tempo change, 128 kbps.
+
+**Cost.** Sample 253 credits; run 1,123 credits for 8,421 characters. Every
+request line carried the chosen voice and model.
+
+**Wired.** `cic-website/audio/worlds/desert-monasticism/` and its entry in
+`manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Next world: the Syriac world's Representative (Mar Yausep); casting brief
+   given, voices awaited.
