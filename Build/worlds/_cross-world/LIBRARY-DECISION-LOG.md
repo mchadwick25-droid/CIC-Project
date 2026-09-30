@@ -13,6 +13,17 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-30 — lpc row 229 stays unsplit; the lpc build continues
+
+**Ruling.** The project lead ruled that row 229 (33 Native sermons plus 9
+unassessed tractatus, Morin) stays as one row, and that the lpc build
+continues. This supersedes the part of the 2026-09-29 entry that listed
+row 229 among the rows to split by status; rows 231 and 232 stay split
+(rows 245–248). The Round 33 recheck's fixes are in place and the file
+passes `reviewfile`.
+
+---
+
 ## 2026-09-29 — lpc Registry rulings: row letters, no split letters, Petschenig placements
 
 **Rulings.** The project lead chose, from options with recommendations, in

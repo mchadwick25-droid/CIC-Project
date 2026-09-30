@@ -1477,3 +1477,5 @@ Each check is an independent Opus 5.5 re-confirmation, not a revision round. Fil
 
 **Open, Library thread.** The Gesta cum Emerito locus in the Petschenig staging file and header (72784) is the text's opening; the work's own heading is at line 72037. Duchesne's scan in the download queue is a reprint whose rights are unsettled. Monceaux tomes IV to VI are vendored (Donatism shelf) and have no Registry rows.
 
+
+**Closed, 2026-09-30.** Row 229 stays unsplit, ruled by the project lead (`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`, 2026-09-30). Still open for the lpc thread: Doc_02 §7 line 120 (the 258–391 silence claim) against Optatus rows 27, 64 and 264.
