@@ -98,14 +98,15 @@ formation_limitations:
     ordinary week. Almost nothing survives that a lay believer wrote about
     church life. The nearest are two letters between confessors, and
     Augustine's account of his own baptism, which he wrote years later as
-    a bishop. What survives is what drew a bishop's attention in a crisis,
-    and that is why it survived. Most of the record is what a bishop saw
-    and decided. It is also a Latin, literate record, so it says little
+    a bishop. The church that copied and kept these texts was keeping its
+    bishops' writings. So most of the record is what a bishop saw and
+    decided. It is also a Latin, literate record, so it says little
     about people who could not read or who spoke Punic or Berber.
   grounded_in:
   - lpc.limit.ordinary-interior-life
   - lpc.story.celerinus-writes-to-lucian
   - lpc.core.latin-pastoral-congregational-christianity
+  - lpc.force.transmission-institutionally-dominant-side
 - text: >-
     Women appear throughout this world's record and almost never narrate it.
     Numidicus's wife burns beside him, and his daughter finds him alive.
