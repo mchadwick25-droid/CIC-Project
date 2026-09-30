@@ -1,5 +1,5 @@
 """wiring.get_usage_summary and /api/admin/usage-summary: the usage
-dashboard's one aggregate (Mark, 2026-09-28 scoping doc). Sessions are
+dashboard's one aggregate. Sessions are
 opened via engine.m4.entrance.open_session directly, not
 wiring.create_session/table_wiring.create_table_session - this suite
 never needs a compiled world package, only the event log those two

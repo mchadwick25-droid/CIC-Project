@@ -400,7 +400,20 @@ _STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d
 _BARE_DATE_TABLE_CELL = re.compile(
     r"^(?:[\w][\w .,'()`/-]{0,39})?,?\s*20\d\d-\d\d-\d\d\s*(?:,\s*[\w .,'()`/-]{0,59})?$"
 )
+_REGISTRY_DATE_CELL = re.compile(
+    r"^20\d\d-\d\d-\d\d(?:\s*\([^)]{1,60}\))?(?:\s*;\s*20\d\d-\d\d-\d\d(?:\s*\([^)]{1,60}\))?)*$"
+)
 _SOURCE_REGISTRY_FILENAME = re.compile(r"(?i)(^|_)source_registry\.md$")
+_REGISTRY_STATUS_CUE = re.compile(r"(?i)\bnot yet acquired\b")
+_FILENAME_WITH_DATE = re.compile(r"[\w./-]*20\d\d-\d\d-\d\d[\w./-]*\.(?:json|md|txt|yaml|yml|html|csv)\b")
+_PUBLIC_STATUS_LABEL = re.compile(r'^\s*"statusWord"\s*:')
+
+
+def _iso_date_only_in_filenames(line: str) -> bool:
+    """True when every ISO date on the line sits inside a file name
+    (`live-table-report-witt-rzg-2026-09-19.json`): the date is part of the
+    name being cited, not a date written into prose."""
+    return not re.search(r"20\d\d-\d\d-\d\d", _FILENAME_WITH_DATE.sub("", line))
 
 
 def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool) -> bool:
@@ -410,7 +423,7 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
     for cell in line.split("|"):
         if re.search(r"20\d\d-\d\d-\d\d", cell):
             found_any_date = True
-            if not _BARE_DATE_TABLE_CELL.match(cell.strip()):
+            if not (_BARE_DATE_TABLE_CELL.match(cell.strip()) or _REGISTRY_DATE_CELL.match(cell.strip())):
                 return False
     return found_any_date
 
@@ -777,7 +790,7 @@ def _is_review_doc(rel: Path) -> bool:
     return any(keyword in name for keyword in _REVIEW_DOC_FILENAME_KEYWORDS) or bool(_ZELL_CHECK_RE.search(name))
 
 
-_BUILD_LEDGER_FILENAME = re.compile(r"(?i)(^needs-ruling\.md$|_superseded_claims\.md$)")
+_BUILD_LEDGER_FILENAME = re.compile(r"(?i)(^needs-ruling\.md$|_superseded_claims\.md$|(^|_)source_acquisition_manifest\.md$)")
 
 
 def _is_build_ledger(rel: Path) -> bool:
@@ -1227,13 +1240,27 @@ class Hit:
         return f"{self.path}:{self.line}:{self.category} ({','.join(self.patterns)})"
 
 
+def _route_cue(line: str, in_source_registry_file: bool = False) -> bool:
+    """ROUTE_CUES, except where the wording is the line's own subject: a
+    public status label (`"statusWord": "Creedal question - not yet
+    resolved"`) and the acquisition-status value in a Source Registry table
+    row (`NOT YET ACQUIRED`)."""
+    if _PUBLIC_STATUS_LABEL.match(line):
+        return False
+    if not ROUTE_CUES.search(line):
+        return False
+    if in_source_registry_file and line.lstrip().startswith("|"):
+        return bool(ROUTE_CUES.search(_REGISTRY_STATUS_CUE.sub("", line)))
+    return True
+
+
 def classify_line(
     line: str,
     matched: list[str],
     in_source_record_body: bool = False,
     in_source_registry_file: bool = False,
 ) -> str:
-    if ROUTE_CUES.search(line):
+    if _route_cue(line, in_source_registry_file):
         return "ROUTE"
     real_matches = [
         name for name in matched
@@ -1249,6 +1276,7 @@ def classify_line(
                 _BARE_DATE_LINE.match(line)
                 or _BARE_DATE_HEADER_LINE.match(line)
                 or _STRUCTURED_DATE_KWARG.search(line)
+                or _iso_date_only_in_filenames(line)
                 or _iso_date_is_bare_table_provenance(line, in_source_registry_file)
             )
         )
@@ -1437,7 +1465,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         if i in spoken_field_lines:
             spoken_text = _without_name_taxonomy_tag(line)
             matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(spoken_text)]
-        if not matched and ROUTE_CUES.search(line):
+        if not matched and _route_cue(line, in_source_registry_file):
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
             matched = ["change-history-block"]

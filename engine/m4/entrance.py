@@ -93,7 +93,7 @@ def open_session(
 
     visitor_id: the anon_cap visitor cookie's id (engine.api.anon_cap),
     optional and outside both mode shapes above - the usage dashboard's
-    unique-visitor count (Mark, 2026-09-28) reads it back via
+    unique-visitor count reads it back via
     engine.m7.session_reader.AuditSession.visitor_id. None whenever
     anon_cap is disabled, for a non-HTTP caller (the CLI battery
     harnesses), or for any session_started event written before this
