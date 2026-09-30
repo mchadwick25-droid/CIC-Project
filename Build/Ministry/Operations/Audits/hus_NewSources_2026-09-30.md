@@ -63,3 +63,20 @@ Read (loci, not whole volumes):
 ## The cap ruling's record
 
 The project lead's ruling that the three-round cap counts from significant new material is recorded in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (the entry "Three-round cap counts from significant new material", 2026-09-29), in his words: "Option 1, count from the new material, significant new material".
+
+## Revision after Round 1 of the new-material cycle
+
+Drafting record for the fixes to the findings of `Build/worlds/hus/Review-Artifacts/NewMaterial_Round1_Recheck.md` (0 P0, 1 P1, 7 P2). Each touched locus was re-read in `cic/texts/` and each new quotation was matched to it after whitespace normalisation only. No review was written. Article 29, the Representative, the registration of `hus` and the one-world, three-strand ruling were not touched.
+
+- P1-1, the Nicene gloss. Registry row 60, Doc_02 §8 ("Hus affirms the creed's substance"), Doc_01 §8 (the introduction, commitments 3 and 4, and the Result) now say what each chapter of Erben vol. 1 shows: chapter XXVII sets out the Nicene Creed; chapter XXVIII glosses it except the crucifixion to the return (line 2363); chapter XXVI glosses those clauses on the Apostles' Creed. Open_Gaps entry 37 replaces the first two sentences of entry 28. The optional point on commitment 3 was also taken: chapter XXVI's "Narodil sě z Marie panny" (line 2176) is legible. The Article 4 result is unchanged.
+- P2-1, stale statements in Open_Gaps. Entry 36 names each overtaken sentence (Section B heading and R1; Section E heading and lead paragraph, E1 and E2; entries 2, 16 and 26 R2, R6, R7). No earlier entry was edited.
+- P2-2, row 79. The out-of-locus note (line 47774) is dropped from the row. The Taborite confession is now located at lines 47613–47615 (the earlier "about lines 47540–47566" was wrong), where Mehrning is quoted. Licensed For is narrowed to the passages read.
+- P2-3, row 67. Licensed For now covers the editor's statements on authorship and on the Wyclif borrowing, with lines 590–591, 741–742 and 11307; the letter is A for those statements. Doc_01 §7 and Doc_02 §3 item 1 say "a good deal", which is Thomson's phrase, in place of "long passages".
+- P2-4, line numbers. Row 55 (817, 820, 5439), row 76 (no. 964 heading at 21242, dated heading at 21244, "ipso die" at 21251–21252) and row 78 (34376) corrected. The reviewer's "no. 912 heading 19197" stands: 19193 is the number and 19197 the title.
+- P2-5, Witness terms. Rows 78 and 79 open with a bold "Witness: first, for the legible English of a secondary compilation".
+- P2-6, row 58. The row and Doc_02 §3 item 6 and §8 now say no manuscript of Novotný no. 95 survives (line 14654) and give Novotný's own reading (lines 14676, 14683–14685).
+- P2-7, change-relative wording. "Now on the shelf", "no longer total", "now checkable", "newly vendored", "now vendored" and "now speaks" are rewritten as present statements in Doc_01, Doc_02 and the Registry.
+
+Checks run: `python -m engine.m10.cli gaps hus` PASS; `python tools/check_live_commentary.py --surface worlds`, hus files, no new REWRITE or ROUTE line beyond the Registry's dated schema cells.
+
+Not verified: the Czech wording of every new quotation against a page image (none available). The Doc_01 line-165 sentence "Two bodies of Hus's own words are read" was left as it stood.
