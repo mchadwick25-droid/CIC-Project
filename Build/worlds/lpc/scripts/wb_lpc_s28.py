@@ -880,7 +880,7 @@ def build_limit_silent_century() -> None:
         "why_sources_cannot_answer": (
             "This world's own construction window runs from roughly 246 to 430, but its Native corpus "
             "attests only two bounded phases -- Cyprian's, ending 258, and Augustine's, beginning 391 "
-            "-- with nothing dated in between. lpc_Representative_Permanent_Prompt_Datus.txt line 21 "
+            "-- with no bishop's ordinary pastoral or congregational voice dated in between. lpc_Representative_Permanent_Prompt_Datus.txt line 21 "
             "states this directly: 'Roughly a hundred and thirty years sit between the bishop who "
             "opens your record and the one who closes it. Across that stretch, your own congregational "
             "voice falls silent.' lpc_Rep_Phase1_Ecology_Assessment.md §2 independently confirms: "

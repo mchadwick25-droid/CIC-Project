@@ -74,9 +74,10 @@ tensions:
 text: Was the office of bishop itself, not just this or that practice, ever traced back to the apostles
   by name? Yes, in two different ways in two different hands. Augustine did it most directly, in a letter
   he wrote together with two fellow bishops, Fortunatus and Alypius. A Donatist presbyter had claimed
-  an "episcopal succession" for his own side. The three bishops answered with the real one. Counting
-  back from the present bishop of Rome, Anastasius, through Damasus, Liberius, Julius, and so on, they
-  reached Linus, the successor of Peter -- "In this order of succession no Donatist bishop is found."
+  an "episcopal succession" for his own side. The three bishops answered with the real one. They named
+  every bishop of Rome in order, starting with Linus, the successor of Peter, and ending with Siricius,
+  "whose successor is the present Bishop Anastasius" -- "In this order of succession no Donatist bishop
+  is found."
   Against a different Donatist opponent, Petilian, Augustine alone named a second chair the same way
   -- Peter's own seat at Rome, and James's at Jerusalem, each still filled, "to-day," by a living bishop. Cyprian,
   a century and a half earlier, did not draw up a name list of his own. He stated the principle instead
