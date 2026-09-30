@@ -4935,8 +4935,11 @@ tradition page (regenerated for this world only).
 request while a different voice is searched for. His story and three
 documented stories exist on the branch at the original settings
 (voice `sp6F311QRVXR53QPGIgK`, stability 0.6, similarity 0.8, style 0.05); the
-legacy piece was not generated, and his tradition page is not regenerated, so
-no Marius player is live. Two stronger versions (stability 0.4 / 0.3) were
+legacy piece was not generated, and his tradition page is not regenerated. His
+entry was removed from `audio/worlds/manifest.json` so no Marius player shows
+anywhere (the Atlas panel reads the manifest); the four audio files stay in
+`audio/worlds/imperial-juridical-christianity/`, unreferenced, and the entry can
+be restored from the record above if the original settings are chosen. Two stronger versions (stability 0.4 / 0.3) were
 sampled but not applied.
 
 **Wittenberg.** Census-listed "Built & Live" but has no compiled world data
