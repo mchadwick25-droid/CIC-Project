@@ -60,7 +60,7 @@ These edits remove dated provenance and the project lead's name from live-file s
 - It does not amend Step 0 §3 B1's count of nineteen works or the Tier paragraph. They describe the shelf when Step 0 was approved, and they are point-in-time text under Step 0 §5. Whether to resync them is for the project lead to decide with the resync. §3 B2, B4 and B5 are amended by the extension below.
 - It does not unfreeze or freeze anything. Step 0 stays at Approved to proceed.
 - It is not confirmed by the project lead. No record in this repository shows the project lead's approval of this change order. It was applied on the instruction of the coordinating agent of session_019FXuEebrCDmzYe987sNAxL, and it stays open for the project lead's confirmation.
-- It states the corpus as it stands after the Library acquisition of commits d767495c8 and e72240624. Step 0 §5 says a vendoring pass leaves the document stale until it is resynced, and the rest of Step 0 (B1 to B5, the Tier conclusion and the count of 19 works) is stale in that way. The resync is a separate step for the project lead and the build thread.
+- It states the corpus as it stands after the Library acquisition of commits d767495c8 and e72240624. Step 0 §5 says a vendoring pass leaves the document stale until it is resynced, and the rest of Step 0 (B1's count of 19 works and the Tier conclusion) describes the shelf at Step 0's approval and is left as point-in-time text; B2, B4 and B5 were brought into line by the extension below.
 
 ## 6. Assignment of the file-code `jes`
 

@@ -3,7 +3,7 @@ process_version: V2.0
 completion_standard_version: V1.4
 started: 2026-09-30
 pilot_world: false
-current_step: Steps 1-2 revised once after the Round 1 review and re-derived against the 87 vendored works (Doc_01, Doc_02, Source_Registry rows 1 to 92, Open_Gaps_Tracking); revised a third time after the Round 2 recheck (0 P0, 2 P1, 9 P2), the last permitted round; the review of that revision has not run
+current_step: Steps 0-2 approved to proceed (Round 3 recheck clear); Doc_03 awaits the project lead's decisions (Article 29, Representative, registration of jes)
 file_code_assignment: "The project lead's answer in the session's choice box was exactly 'jes (Recommended)', to the question 'Which code should I give them before starting Doc_01?' (options 'jes (Recommended)', 'soj', 'Other'), session_019FXuEebrCDmzYe987sNAxL, 2026-09-30. Quoted in Build/Ministry/Operations/Audits/jes_Step0_ChangeOrder_2026-09-30.md, section 6."
 status: in_progress
 pause_point: none
@@ -13,14 +13,14 @@ documents:
     rounds_used: 4
     review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md, Step0_Review_Round4_SpotCheck.md]
   - id: Doc_01
-    status: revised after the Round 2 recheck (0 P0, 2 P1, 9 P2); a fourth round of substantial revision is not permitted
+    status: approved to proceed (Round 3 recheck clear)
     rounds_used: 3
     drafter_model: Sonnet 5.5
     reviewer_model: claude-opus-5-5 (Round 1, simulated)
     review_files: [Review-Artifacts/Round1_Review.md, Review-Artifacts/Round2_Recheck_Review.md]
     gates_result:
   - id: Doc_02
-    status: revised with Source_Registry.md after the Round 2 recheck (0 P0, 2 P1, 9 P2); a fourth round of substantial revision is not permitted
+    status: approved to proceed with Source_Registry.md (Round 3 recheck clear)
     rounds_used: 3
     drafter_model: Sonnet 5.5
     reviewer_model: claude-opus-5-5 (Round 1, simulated)
