@@ -3,6 +3,22 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-hussite-and-bohemian-brethren-movement
 works:
+- work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition), the Hus
+    section
+  author: foxe
+  locus: the section on John Hus and the Council of Constance, file lines 30742-46807 (where
+    the name Huss occurs; about 700 occurrences)
+  role: context
+  confidence: assigned
+  note: 'Foxe''s 16th-century English account of Hus, printed with his sources: a papal inquisitor''s
+    testimonial to Hus, the petitions of the Bohemian nobles and the university, and Hus''s
+    answer on De Ecclesia. It is an Elizabethan Protestant martyrologist''s compilation, a
+    witness at second hand to Hus''s trial and death, not Hus''s own voice. Placed here beside
+    its Lollardy placement; a placement of one text in two worlds records that each world
+    reads a different part of it.
+
+    '
+  source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
 - work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
     Vol. II'
   author: gillett
@@ -100,3 +116,18 @@ works:
 
     '
   source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
+- work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and
+    Taborite sections
+  author: van-braght
+  locus: file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived'
+    and the sections on the Taborites (lines 47499-47566)
+  role: context
+  confidence: provisional
+  note: 'A Dutch Mennonite martyrologist''s 1660 account, in the 1886 English edition, of
+    Hus and of the Taborites (it calls them Waldenses). It reaches this world at three removes
+    and from an Anabaptist point of view, and it includes a "Taborite confession of 1431"
+    whose own source is not vendored. Not Hussite voice; a witness to how a later movement
+    read them.
+
+    '
+  source_file: van-braght_martyrs-mirror_sohm1886.txt

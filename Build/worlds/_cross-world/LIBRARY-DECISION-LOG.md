@@ -13,6 +13,12 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-30 — Foxe vol. III and Van Braght placed to the Hussite world
+
+**Ruling.** The project lead approved the two cross-world placements the hus build requested (Open_Gaps E1, E2) and said the Library should make placements of this kind itself, escalating to him only for a significant problem. Foxe's *Acts and Monuments* vol. III (Hus section, file lines 30742–46807) is placed to `the-hussite-and-bohemian-brethren-movement` as `role: context`, alongside its Lollardy placement. Van Braght's *Martyrs' Mirror* (Hus and Taborite sections, lines 47370–47660) is placed there as `role: context`, `confidence: provisional`, alongside its Anabaptist placement. The hus Registry gains rows for them in the hus thread's next revision; Doc_02 relies on neither yet.
+
+---
+
 ## 2026-09-30 — lpc row 229 stays unsplit; the lpc build continues
 
 **Ruling.** The project lead ruled that row 229 (33 Native sermons plus 9
