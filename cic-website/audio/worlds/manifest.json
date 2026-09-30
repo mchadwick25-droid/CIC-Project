@@ -488,5 +488,82 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "hieronymian-ascetic-literary": {
+  "story": {
+   "file": "hieronymian-ascetic-literary/story.mp3",
+   "chars": 6620,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "hieronymian-ascetic-literary/docstory-0.mp3",
+   "chars": 884,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "hieronymian-ascetic-literary/docstory-1.mp3",
+   "chars": 1005,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "hieronymian-ascetic-literary/docstory-2.mp3",
+   "chars": 1010,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "hieronymian-ascetic-literary/legacy.mp3",
+   "chars": 681,
+   "voiceId": "75MqelvgFq5upx0r44WK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "prefix": "[speaking with a slight Italian accent] ",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  }
  }
 }

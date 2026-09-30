@@ -4870,3 +4870,41 @@ Mark's ear.
 
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Remaining built worlds: Hieronymian, imperial-juridical, Reformed.
+
+## 2026-09-30 — Albina's pieces narrated (Hieronymian world), with an accent instruction
+
+**Decision.** The Hieronymian world's story, three documented stories and
+legacy piece are narrated in the voice Mark chose for Albina (a widow of the
+household at Bethlehem and Rome; plain, tested conviction; a scholar's
+precision). The library had no older female voice with a slight Italian
+accent, so the chosen voice is middle-aged. The build record fixes no age for
+Albina; the 50s-60s range was a casting suggestion, not a record fact. Mark
+heard three versions of the story opening (as is; with an accent instruction;
+slower) and chose the accent instruction. Bios and the tree description are
+not narrated.
+
+**Settings, as printed by the run.** Voice `75MqelvgFq5upx0r44WK`, model
+`eleven_v4`, stability 0.6, similarity 0.8, style 0.05, speaker boost on,
+speed 1, no tempo change, 128 kbps, with `[speaking with a slight Italian
+accent] ` placed in front of every request's text (printed in the run header
+and recorded per piece in the manifest).
+
+**Cost.** Samples 292 + 354 credits; run 1,391 credits for 10,200 characters.
+Every request line carried the chosen voice and model. The world story went
+in two parts and joined into one file.
+
+**Wired.** `cic-website/audio/worlds/hieronymian-ascetic-literary/` and its
+entry in `manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only). New `--prefix` option on
+`generate_world_narration.mjs`.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear. Whether the accent instruction was ever spoken aloud in the longer
+pieces was checked only by Mark's listening to the short sample.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel, including
+   that no instruction is spoken aloud.
+2. Remaining built worlds: imperial-juridical (casting brief given), Reformed.
