@@ -1,0 +1,55 @@
+source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+
+assignments:
+  - work: "Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation"
+    author: dositheus
+    locus: "Robertson's introduction from file line 186; the Synod's Shield of Orthodoxy from line 344, with its decrees against the eighteen chapters and four questions from line 927; the Constantinople decree against Lucar's chapters from line 3022"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      The Synod of Jerusalem under Patriarch Dositheus answering the Calvinist reading of
+      Lucaris, as translated from the Greek by Robertson. Primary for the Synod's position in
+      an English rendering; second witness for exact wording until the Greek is quoted from
+      Kimmel 1850. Robertson's introduction and notes are Anglican commentary, not the Synod's
+      voice.
+  - work: "The Confession of Cyril Lucar (eighteen chapters and four questions), as printed in Robertson's appendix"
+    author: lucaris
+    locus: "Appendix from file line 6841, the Confession from 6845, Chapter I at 6868, Chapter XVIII at 7751"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      Robertson's appendix prints the Confession published under Cyril Lucar's name, from
+      Kimmel's text compared with the Geneva edition of 1633, because the Synod's decrees
+      cannot be understood without it. Its authorship and its relation to the Eastern Church
+      are contested; the Synod of Jerusalem and two earlier synods rejected it. English
+      translation only.
+  - work: The Confession of Cyril Lucar (eighteen chapters and four questions), as printed in Robertson's
+      appendix
+    author: lucaris
+    locus: Appendix from file line 6841, the Confession from 6845, Chapter I at 6868, Chapter XVIII at 7751
+    atlas_ids:
+    - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: Lucaris's
+      Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine; whether Lucaris himself
+      was a Calvinist is disputed, and the Orthodox synods of 1638-72 condemned it as Calvinist. Placed
+      as the view from an Orthodox patriarch's confession that overlaps Reformed teaching, never as the
+      Reformed cities' own voice. English version, with Robertson's own Orthodox refutation printed beside
+      it.
+  - work: Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation
+    author: dositheus
+    locus: Robertson's introduction from file line 186; the Synod's Shield of Orthodoxy from line 344, with
+      its decrees against the eighteen chapters and four questions from line 927; the Constantinople decree
+      against Lucar's chapters from line 3022
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: assigned
+    note: Placed on
+      the entry's window (1650-1821). The Synod of Jerusalem of 1672 opens this entry's window; English
+      version.

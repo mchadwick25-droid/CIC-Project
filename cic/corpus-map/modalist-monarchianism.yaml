@@ -15,3 +15,32 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: anf03_tertullian.xml
+- work: Against Praxeas
+  author: tertullian
+  locus: file line 11686 (heading 'ADVERSVS PRAXEAN.', treatise VI)
+  role: context
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
+- work: Against Praxeas
+  author: tertullian
+  locus: file line 43048 (heading 'ADVERSUS PRAXEAN.')
+  role: context
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt

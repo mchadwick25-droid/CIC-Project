@@ -1,0 +1,100 @@
+source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+
+authors_ruled:
+  gennadius-scholarius:
+    kind: metadata-omission
+    evidence: >
+      The volume's own title page names 'Gennadii Confessiones I. II.' among its contents; the
+      file's leading name slug is the editor's work title, so the author of these two
+      confessions is supplied here from the title page rather than from the file name.
+    from_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+
+assignments:
+  - work: "Confessiones I and II of Gennadius Scholarius (Greek with Latin)"
+    author: gennadius-scholarius
+    locus: "from about file line 4247 (running heads 'Gennadii Confessio I' and 'II') to about 5635"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      Confessions of the first Patriarch of Constantinople under Ottoman rule, printed with
+      Latin translation. Kimmel's edition; the Greek OCR is partial and accented Greek has
+      errors, so second witness for exact Greek wording until checked against page images. The
+      Latin translation is readable.
+  - work: "Confession of Cyril Lucaris (Greek with Latin)"
+    author: lucaris
+    locus: "from about file line 5636 (running heads 'Cyrilli Confessio') to about 7838"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      The Confession published under Lucaris's name, Greek with Latin, from Kimmel's edition.
+      Its authorship and its relation to the Eastern Church are contested; the Synod of
+      Jerusalem rejected it. Second witness for exact Greek wording; the Latin is readable.
+  - work: "The Orthodox Confession (Confessio Orthodoxa), Greek with Latin"
+    author: mogila
+    locus: "from about file line 7839; Pars prima (Faith) at 9190, Pars secunda (Hope) at 23757, Pars tertia (Charity) at 28672"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      Mogila's Orthodox Confession in Greek with Latin in parallel. About one third of the
+      file is Greek by letter count and the Greek OCR has accent errors: second witness for
+      Greek wording until checked against page images; the Latin is readable.
+  - work: "Acts of the Synod of Jerusalem (1672), Greek with Latin"
+    author: dositheus
+    locus: "running heads 'Synodus Hierosolymitana' from about file line 35949"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      The Synod's acts under Dositheus, Greek with Latin, in Kimmel's edition. Second witness
+      for Greek wording until checked against page images; the English of the same synod is in
+      Robertson 1899.
+  - work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
+    author: mogila
+    locus: from about file line 7839; Pars prima (Faith) at 9190, Pars secunda (Hope) at 23757, Pars tertia
+      (Charity) at 28672
+    atlas_ids:
+    - the-kyiv-mohyla-orthodox-revival
+    role: tradition
+    confidence: assigned
+    note: Greek and
+      Latin text of Mogila's Confession, the original-language witness for the entry's own charter. Second
+      witness for exact Greek wording because of the scan's two-column layout.
+  - work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
+    author: mogila
+    locus: from about file line 7839; Pars prima (Faith) at 9190, Pars secunda (Hope) at 23757, Pars tertia
+      (Charity) at 28672
+    atlas_ids:
+    - the-union-of-brest-and-ruthenian-greek-catholic-
+    role: context
+    confidence: provisional
+    note: Same placement
+      and reasoning as the English version of the same confession.
+  - work: Confession of Cyril Lucaris (Greek with Latin)
+    author: lucaris
+    locus: from about file line 5636 (running heads 'Cyrilli Confessio') to about 7838
+    atlas_ids:
+    - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: Lucaris's
+      Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine; whether Lucaris himself
+      was a Calvinist is disputed, and the Orthodox synods of 1638-72 condemned it as Calvinist. Placed
+      as the view from an Orthodox patriarch's confession that overlaps Reformed teaching, never as the
+      Reformed cities' own voice.
+  - work: Acts of the Synod of Jerusalem (1672), Greek with Latin
+    author: dositheus
+    locus: running heads 'Synodus Hierosolymitana' from about file line 35949
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: assigned
+    note: Placed on
+      the entry's window (1650-1821). Greek and Latin text of the 1672 Synod; second witness for exact Greek
+      because of scan layout.

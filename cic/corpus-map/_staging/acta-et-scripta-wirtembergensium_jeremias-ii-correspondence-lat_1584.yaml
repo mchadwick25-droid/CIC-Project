@@ -1,0 +1,61 @@
+source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+
+authors_ruled:
+  jeremias-ii:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Patriarchae Constantinopolitani D. Hieremiae' among the
+      correspondents and the host catalogue lists Jeremias II; the file's leading name slug is
+      the volume's work title, so the author of the replies is supplied here from the title
+      page.
+    from_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+
+assignments:
+  - work: "Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession, 1576-1581 (Latin translation)"
+    author: jeremias-ii
+    locus: "running heads 'Primum Patriarchae Responsum' from about file line 9677, 'Secundum' from 31218, 'Tertium' from 51252"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      The Patriarch's answers, which survive here only in the Latin the Tubingen theologians
+      printed; the Greek column is garbled beyond use in this OCR. The theologians' answering
+      text alternates with his in the same file. Second witness for the Patriarch's own
+      wording.
+  - work: "The Wirtemberg theologians' letters, Augsburg Confession and answering texts (Latin)"
+    author: acta-et-scripta-wirtembergensium
+    locus: "prefaces, letters and the Augsburg Confession from about file line 432 to 9670; answering texts under running heads 'Responsum ad primum' (for example from line 23148)"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      A Lutheran party's letters and rejoinders: the view from outside the Greek church, and
+      the party that printed the Patriarch's replies in its own Latin. Latin usable; long-s
+      and column-layout errors.
+  - work: The Wirtemberg theologians' letters, Augsburg Confession and answering texts (Latin)
+    author: acta-et-scripta-wirtembergensium
+    locus: prefaces, letters and the Augsburg Confession from about file line 432 to 9670; answering texts
+      under running heads 'Responsum ad primum' (for example from line 23148)
+    atlas_ids:
+    - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: 'Lutheran
+      voice: the Tubingen theologians'' letters and their defence of the Augsburg Confession to the Patriarch
+      of Constantinople, 1573-81. They are Tubingen theologians (Andreae, Crusius and others), not Wittenberg''s
+      faculty, and the volume was printed at Wittenberg in 1584; so the fit to this entry is provisional.
+      Latin only in this file.'
+  - work: Patriarch Jeremias II's replies to the Wirtemberg theologians on the Augsburg Confession, 1576-1581
+      (Latin translation)
+    author: jeremias-ii
+    locus: running heads 'Primum Patriarchae Responsum' from about file line 9677, 'Secundum' from 31218,
+      'Tertium' from 51252
+    atlas_ids:
+    - lutheran-wittenberg-and-its-congregations
+    role: context
+    confidence: provisional
+    note: 'The view
+      of Lutheranism from outside: the Patriarch''s three answers to the Lutheran theologians. Latin only;
+      the Greek columns are not recovered in this file.'

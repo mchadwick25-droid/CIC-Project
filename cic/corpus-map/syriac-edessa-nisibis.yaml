@@ -229,6 +229,17 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
+  author: egeria
+  locus: Edessa, Haran and the Abgar correspondence, file lines 3329-3522; the shrine of Thecla
+    at Seleucia, about line 3806
+  role: context
+  confidence: assigned
+  note: 'An outside witness to Edessa''s own traditions: the bishop shows her the Abgar correspondence
+    and the martyrion of Thomas. She is a Latin-speaking visitor, not a member of that church.
+
+    '
+  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
 - work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
   locus: Vol. II, heading "AGAINST BARDAISAN." - "A DISCOURSE AGAINST BARDAISAN"
@@ -547,11 +558,31 @@ works:
   confidence: assigned
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
-    which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite. greek-apologists-second-century holds this work
-    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
-    church-world are genuinely its.'
+    which the syr world already reaches through his Diatessaron in anf09. The row is `assigned`:
+    the Address is inside this entry''s window on every dating read (c. 150-172, Contested);
+    his later Encratite turn is reported by Irenaeus (Adv. haer. I.28.1) and is a disclosure
+    duty, not a reason to hold the row provisional. greek-apologists-second-century holds
+    this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
+    the era and church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+- work: Address to the Greeks
+  author: tatian
+  locus: file line 1660 (first running head 'TATIANI ORATIO AD GRAECOS' inside the text (the
+    title page and prolegomena come before))
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page-image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. VI (Jena,
+    1851) with Otto''s Latin translation and the Parisian scholia. The Greek layer is present
+    (about 309,000 Greek characters). Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tatian_oratio-ad-graecos-grc-lat_otto1851.txt
 - work: Fragments (Tatian)
   author: tatian
   locus: div2 3.3 under div1 'TATIAN'

@@ -173,6 +173,55 @@ works:
 
     '
   source_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+- work: Confessio Christianae fidei (Latin), Cyril Lucaris
+  author: lucaris
+  locus: the Confession of Faith from about file line 367 to 2360; publisher's prefaces at
+    lines 39-150
+  role: context
+  confidence: provisional
+  note: Lucaris's Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine;
+    whether Lucaris himself was a Calvinist is disputed, and the Orthodox synods of 1638-72
+    condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
+    that overlaps Reformed teaching, never as the Reformed cities' own voice.
+  source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- work: Confession of Cyril Lucaris (Greek with Latin)
+  author: lucaris
+  locus: from about file line 5636 (running heads 'Cyrilli Confessio') to about 7838
+  role: context
+  confidence: provisional
+  note: Lucaris's Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine;
+    whether Lucaris himself was a Calvinist is disputed, and the Orthodox synods of 1638-72
+    condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
+    that overlaps Reformed teaching, never as the Reformed cities' own voice.
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques
+    (Amsterdam, 1718)
+  author: lucaris
+  locus: 'table of contents at file lines 55-80: the first letter (page 1, file line 903)
+    is addressed to the Republic of Geneva and its pastors, doctors and professors; the second
+    to Diodati, professor of theology at Geneva; further letters to Archbishop Abbot of Canterbury,
+    to Leger (Reformed pastor at Galata) and to Uytenbogaert (pastor at The Hague)'
+  role: context
+  confidence: assigned
+  note: 'Verified against the file''s own table of contents: these are Lucaris''s own letters
+    to the Genevan authorities and to Diodati at Geneva, so they document the Orthodox patriarch''s
+    contact with the Reformed city directly. Context, not the Reformed cities'' voice: the
+    writer is the Patriarch. The volume was edited in 1718 with hostile remarks by a Roman
+    Catholic-leaning editor; the remarks are 18th-century polemic, not evidence.'
+  source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
+- work: The Confession of Cyril Lucar (eighteen chapters and four questions), as printed in
+    Robertson's appendix
+  author: lucaris
+  locus: Appendix from file line 6841, the Confession from 6845, Chapter I at 6868, Chapter
+    XVIII at 7751
+  role: context
+  confidence: provisional
+  note: Lucaris's Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine;
+    whether Lucaris himself was a Calvinist is disputed, and the Orthodox synods of 1638-72
+    condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
+    that overlaps Reformed teaching, never as the Reformed cities' own voice. English version,
+    with Robertson's own Orthodox refutation printed beside it.
+  source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
 - work: Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)
   author: marot-beze
   locus: whole file

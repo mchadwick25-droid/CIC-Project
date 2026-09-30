@@ -105,6 +105,35 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- work: Against the Valentinians
+  author: tertullian
+  locus: file line 9473 (heading 'ADVERSVS VALENTINIANOS.', treatise IV)
+  role: context
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
+- work: Against the Valentinians
+  author: tertullian
+  locus: file line 21225 (heading 'ADVERSUS VALENTINIANOS.')
+  role: context
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
 - work: On the Flesh of Christ
   author: tertullian
   locus: div2 5.7 under div1 'Anti-Marcion.'
@@ -116,6 +145,22 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- work: On the Flesh of Christ
+  author: tertullian
+  locus: file line 24712 (heading 'CARNE CHRISTI.' (the 'DE' is on the line above))
+  role: context
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
 - work: The Prescription Against Heretics
   author: tertullian
   locus: div2 5.3 under div1 'Anti-Marcion.'
@@ -129,3 +174,19 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- work: The Prescription Against Heretics
+  author: tertullian
+  locus: file line 141 (heading 'DE PRAESCRIPTIONE HAERETICORUM' (title lines))
+  role: context
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt

@@ -1,0 +1,19 @@
+# Caillau's 1842 edition of sermons ascribed to Augustine on its title page.
+source_file: augustine_sermones-inediti-lat_caillau1842.txt
+
+assignments:
+  - work: "Sermones inediti (Caillau 1842)"
+    author: augustine
+    locus: "file line 3798 ('SERMO I.', first sermon); title 'SERMONES INEDITI' at file line 40"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the OCR
+      misreads about one word in five or six (0.44 to 0.65 of word forms found in a vocabulary test
+      against the clean TEI Augustine files, against 0.93 to 0.96 for the clean TEI files tested the
+      same way) and carries stray symbols, though the Latin runs as text. Not to be quoted until the
+      passage is checked against the page image. The title page ascribes the sermons to Augustine;
+      this file does not decide the authorship of any single sermon, so the confidence is provisional.
+      No English translation is vendored.

@@ -138,6 +138,18 @@ works:
     (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
     entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
+  author: egeria
+  locus: her visits to monks in the Thebaid and Sinai; see the editors' introduction near
+    file lines 561 and 1095 for what survives of those sections
+  role: context
+  confidence: needs-ruling
+  note: 'The manuscript loses the start of the journey, so only fragments and the editors''
+    reconstruction speak to the Egyptian monks. Whether that thin material warrants a shelf
+    place is a ruling for the desert world''s own builders, not for this pass.
+
+    '
+  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
 - work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
   author: ethiopic_homily_on_the_ten_associations
   locus: pp. 685-689; "And again a third ordinance"; the five evil associations (hyenas, dogs,

@@ -1,0 +1,27 @@
+source_file: historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt
+
+assignments:
+  - work: "Patriarchica Constantinopoleos historia, 1454-1578 (Greek with Crusius's Latin)"
+    author: historia-politica-et-patriarchica-constantinopoleos
+    locus: "Greek title at about file line 4683, Latin title and text from 4690; the chronicle runs to about line 12273"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      A chronicle of the patriarchs of Constantinople under Ottoman rule in vernacular Greek,
+      with the Latin of the Tubingen professor Martin Crusius under it. About 45 percent Greek
+      by letter count; both readable with some accent errors. Second witness for the Greek
+      wording until checked against page images.
+  - work: "Historia politica Constantinopoleos, 1391-1578 (Greek with Crusius's Latin)"
+    author: historia-politica-et-patriarchica-constantinopoleos
+    locus: "Greek and Latin text from about file line 186 to 4680"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: provisional
+    note: >
+      The companion civil chronicle of the city under Ottoman rule, in vernacular Greek with
+      Crusius's Latin. Placed as context, not tradition, because it records the city's
+      politics rather than the church's own life; the world's builders may rule otherwise. The
+      Epirotica that follows (from about line 12273) is not assigned.

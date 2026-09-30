@@ -1,0 +1,15 @@
+# Hugo Koch's 1910 study of Cyprian and the Roman primacy.
+source_file: koch_cyprian-und-der-roemische-primat-deu_1910.txt
+
+assignments:
+  - work: "Cyprian und der roemische Primat (Koch, 1910)"
+    author: koch
+    locus: "whole file; title page at file line 34"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1910) German scholarship, role context, not tradition. Not a primary source and not a
+      witness to any ancient text. Study of what Cyprian says about the Roman primacy (Texte und
+      Untersuchungen 35.1); its preface takes up Nelke's chronology of Cyprian's correspondence.
