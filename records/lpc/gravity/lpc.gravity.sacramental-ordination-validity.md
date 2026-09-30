@@ -50,44 +50,45 @@ description: >-
   church's boundary were valid. The two bishops answer it in opposite ways.
 
 
-  It recurs strongly: in Cyprian's letters on rebaptism, in the ruling of the Council of 256, and
-  throughout Augustine's On Baptism, which argues it at book length. Unlike conciliar authority, it is
-  not confined to one source. Two independent bishops treat it at length, decades apart.
+  It recurs strongly. It appears in Cyprian's letters on rebaptism and in the ruling of the Council
+  of 256. It runs through all of On Baptism by Augustine, which argues it at book length. Unlike
+  conciliar authority, it does not rest on one source. Two bishops, each on his own, treat it at
+  length, decades apart.
 
 
-  Other concerns in this world lean on it. Collegial communion is tested hardest here, because the two
-  bishops reach opposite conclusions and communion still holds. The confessor tension is a closely
-  related question about who may grant standing within the community.
+  Other concerns in this world lean on it. Collegial communion is tested hardest here. The two
+  bishops reach opposite answers, and communion still holds. The confessor tension asks a close
+  question. Who may grant standing within the community?
 
 
-  It shapes practice directly. Cyprian's requirement of rebaptism is a working pastoral policy.
-  Augustine's contrary ruling decides whether Donatist clergy are received back in their own orders or
-  ordained again. It explains the whole rupture between Stephen and Cyprian. It is the central subject
-  of an entire treatise by Augustine. It also explains why the Donatists could appeal to Cyprian's own
-  authority for their rebaptism doctrine.
+  It shapes practice directly. Cyprian's rule of rebaptism is a working pastoral policy. Augustine's
+  opposite ruling settles whether Donatist clergy are taken back in their own orders or ordained
+  again. It explains the whole rupture between Stephen and Cyprian. It is the central subject of an
+  entire treatise by Augustine. It also explains why the Donatists could appeal to Cyprian's own
+  authority for their teaching on rebaptism.
 
 
-  The question persists across both phases even as the answer changes. That persistence is itself
-  evidence of how central the question is. It reinforces pastoral office, penitential discipline,
+  The question persists across both phases even as the answer changes. That the question stays is
+  itself evidence of how central it is. It supports pastoral office, penitential discipline,
   collegial communion, and conciliar authority.
 
 
-  Both positions are solidly attested, directly quoted and checked: On Baptism I.1.2, the 256 preface,
-  and Book III, chapter 2. Neither side of this dispute runs short of evidence.
+  Both positions are solidly attested. They are quoted word for word and checked: On Baptism I.1.2,
+  the 256 preface, and Book III, chapter 2. Neither side of this dispute is short of evidence.
 
 
-  The Donatist schism, an ongoing outside pressure, makes the question urgent for the institution, not
-  just a matter of individual converts. Augustine's engagement with Cyprian's conciliar acts reopens it
-  across the century gap. It also connects to the recurring contest over the failed member, because
-  Cyprian reasons about both questions consistently.
+  The Donatist schism is an ongoing outside pressure. It makes the question urgent for the church as
+  a whole, not just for single converts. Augustine dealt with Cyprian's conciliar acts. That reopens
+  it across the century gap. It also connects to the recurring contest over the failed member.
+  Cyprian reasons about both questions in the same way.
 
 
-  That last link runs one way only. Penitential discipline reinforces this concern in the first phase,
-  since both are questions about the boundary and about return. But penitential discipline relates to
-  grace and human incapacity differently: it is reshaped by that concern, not continued in it. So this
-  record's own tie to the recurring contest over the failed member is its own, and it belongs to the
-  first phase. It does not depend on the second-phase family resemblance, which runs toward grace and
-  human incapacity instead.
+  That last link runs one way only. Penitential discipline supports this concern in the first phase.
+  Both are questions about the boundary and about return. But penitential discipline ties to grace
+  and human incapacity in another way. That concern reshapes it, and does not continue in it. So
+  this record has its own tie to the recurring contest over the failed member. That tie belongs to
+  the first phase. It does not depend on the second-phase family resemblance. That resemblance runs
+  the other way, toward grace and human incapacity.
 manifestations:
 - the Council of 256's ruling on rebaptism
 - On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and Book III, chapter

@@ -514,8 +514,8 @@ def build_stories() -> None:
         "to a case they assume their readers already recognise -- the election-by-acclamation "
         "pattern is attested independently of the one biography that celebrates it. Carried rather "
         "than resolved: the specific claim that Cyprian was a neophyte rests on Pontius alone.",
-        "How we came to treat a recent convert's own election, over his reluctance, as God's own "
-        "judgment made visible",
+        "How we came to read a recent convert's election, over his reluctance, as God's own "
+        "judgment made plain",
         "Our own deacon Pontius, writing after his bishop had been executed, passed over most of "
         "what he could have said about Cyprian's early years and settled on one fact as enough. "
         "\"For the proof of his good works I think that this one thing is enough,\" he wrote: "
@@ -835,8 +835,8 @@ def build_stories() -> None:
         "Pontius; its hagiographic-convention clause describes this story exactly. Doc_09 assigns "
         "Tier 3 on the convention and against the genus clause, and carries the tension to the "
         "project lead as an open item rather than resolving it quietly -- unchanged here.",
-        "How our tradition remembered our first great bishop's death as a life fully given, "
-        "completed",
+        "How our tradition remembered the death of our first great bishop. It was a life "
+        "fully given, completed.",
         "This is how our own tradition remembered the death of our first great bishop -- an "
         "account written by his own deacon, in the form of a saint's life, showing what we believed "
         "a life fully given to the pastoral office could become. We offer it as that portrait, not "
@@ -977,8 +977,8 @@ def build_figures() -> None:
                     "persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-"
                     "of-cyprian)"},
         True,
-        "our bishop, chosen while still a neophyte over his own reluctance, who taught us to care "
-        "for our enemies during a plague and was executed under Valerian",
+        "our bishop, chosen while still a neophyte over his own reluctance. He taught us to "
+        "care for our enemies during a plague. He was executed under Valerian.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
           "locus": "the whole Life and Passion", "license": "public-domain"},
@@ -1005,8 +1005,8 @@ def build_figures() -> None:
                     "during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"},
         True,
         "our bishop at Hippo, seized by our own acclaim for the office twice over his own "
-        "reluctance, who spent his last days weeping over psalms of penitence while an army lay "
-        "outside the walls",
+        "reluctance. He spent his last days weeping over psalms of penitence while an army "
+        "lay outside the walls.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "the whole Vita Augustini", "license": "public-domain"}],
@@ -1028,8 +1028,9 @@ def build_figures() -> None:
                     "Life and Passion of Cyprian after his bishop's execution in 258, the first "
                     "Christian biography (Doc_09 SS2)"},
         True,
-        "our bishop's own deacon, who stayed with him through exile and wrote, after the "
-        "execution, the account by which most of what we remember of Cyprian's own life reaches us",
+        "our bishop's own deacon, who stayed with him through exile. After the execution he "
+        "wrote the account by which most of what we remember of Cyprian's own life reaches "
+        "us.",
         conf("B", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Widely Accepted rather than Documented: Pontius's own presence at Curubis is licensed "
              "for that specific fact but his own biography generally (SSSS2-4, Cyprian's conversion) "
@@ -1086,8 +1087,8 @@ def build_figures() -> None:
                     "ordained presbyter by Cyprian afterward, though he had not wanted to survive "
                     "(Cyprian, Ep. XXXIV; lpc.story.numidicus)"},
         True,
-        "a man who watched his own wife die with those he had exhorted to martyrdom, was himself "
-        "left for dead, and did not want to have survived",
+        "a man who watched his own wife die with those he had exhorted to martyrdom. He was "
+        "himself left for dead, and did not want to have survived.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXXIV, the whole letter", "license": "public-domain"}],
@@ -1108,8 +1109,8 @@ def build_figures() -> None:
                     "women be received back to communion (Ep. XX; lpc.story.celerinus-writes-to-"
                     "lucian)"},
         True,
-        "a confessor who did not write about his own suffering, but about his sister's, and asked "
-        "another confessor in prison to help restore her",
+        "a confessor who did not write about his own suffering, but about his sister's. He "
+        "asked another confessor in prison to help restore her.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XX, the whole letter", "license": "public-domain"}],
@@ -1129,8 +1130,8 @@ def build_figures() -> None:
                     "Celerinus's own sister and to Numeria and Candida (Ep. XXI; lpc.story."
                     "celerinus-writes-to-lucian)"},
         True,
-        "a confessor who answered from a cell where he expected to die of hunger and thirst, "
-        "granting peace to three women he had never met in person",
+        "a confessor who answered from a cell where he expected to die of hunger and thirst. "
+        "He granted peace to three women he had never met in person.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXI, the whole letter", "license": "public-domain"}],

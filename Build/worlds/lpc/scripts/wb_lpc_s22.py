@@ -1027,8 +1027,8 @@ def build_tier1_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "For us, grace names the insistence that no one's own effort is ever sufficient on "
-                "its own. Whatever good a person manages was given to them before they managed it."
+                "For us, grace names the insistence that no one's own effort is ever enough on its "
+                "own. Whatever good a person manages was given to them before they managed it."
             ),
             world_word="grace",
             distortion_risk="high",
@@ -1210,8 +1210,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "For us, preaching is the weekly talk to those already baptized. It is how nearly "
-                "everything else we hold reaches an ordinary believer."
+                "For us, preaching is the weekly talk to those who are already baptized. It is how "
+                "nearly all else we hold comes to an ordinary believer."
             ),
         ),
         "Re-derived from Doc_06 SS2.2 (lpclex008, down-tiered to Tier 2 -- 'the single largest "

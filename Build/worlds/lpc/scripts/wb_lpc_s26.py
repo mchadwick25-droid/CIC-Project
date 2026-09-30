@@ -358,10 +358,10 @@ def build_de_unitate_recensions() -> None:
     emit(
         "lpc.contested.de-unitate-recensions",
         claim=(
-            "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 "
-            "commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than "
-            "the alternative recension -- is a later interpolation into Cyprian's own original wording, "
-            "not evidence of anything Cyprian himself wrote or revised."
+            "De Unitate 4-5 survives in a single authorial text. One form of chapters 4-5 is "
+            "often called the 'Primacy Text'. It reads more kindly toward Roman primacy than the "
+            "other form does. It is a later interpolation. A later hand added it to Cyprian's "
+            "own original words. It is no proof of what Cyprian himself wrote or revised."
         ),
         held_against=[
             "Chapman's own foundational study (1902-03) first identified and argued the interpolation "
@@ -444,11 +444,12 @@ def build_grace_pelagius() -> None:
     emit(
         "lpc.contested.grace-pelagius-characterization",
         claim=(
-            "Augustine's own anti-Pelagian corpus accurately represents the position Pelagius himself "
-            "held -- that a believer's own moral effort, unaided, is sufficient to obey what God "
-            "commands -- and the later Reformation-era and modern Catholic/Protestant use of this same "
-            "controversy to stake out opposing positions on grace and merit continues an argument whose "
-            "terms Augustine himself correctly set."
+            "Augustine's own anti-Pelagian writings show what Pelagius himself held. They show "
+            "it as it was. Pelagius held that a believer's own moral effort, with no help, is "
+            "enough to obey what God commands. Later Catholics and Protestants used this same "
+            "dispute to take opposing sides on grace and merit. They did so in the Reformation "
+            "era and again today. Their use carries on an argument. Augustine himself set its "
+            "terms correctly."
         ),
         held_against=[
             "This world's own build record names, without adjudicating it, a live modern scholarly "
@@ -519,12 +520,14 @@ def build_compel_coercion() -> None:
     emit(
         "lpc.contested.compel-coercion-development",
         claim=(
-            "Augustine's three-phase development on coercion -- an early opinion against any compulsion "
-            "(Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 "
-            "§§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion "
-            "already in force -- records a genuine change of mind, reached through pastoral experience "
-            "of the Donatist schism, rather than a retrospective self-presentation constructed after the "
-            "fact to make an already-settled practice look like the outcome of principled reconsideration."
+            "Augustine's views on coercion developed in three phases. First, he held an early "
+            "opinion against any compulsion (Letter XCIII §17). Next, he made a narrow and "
+            "unsuccessful request for legal protection (Letter 185 §§25-26, earlier in his own "
+            "time as bishop). Last, he gave a sustained defence of compulsion that was already "
+            "in force. All this records a genuine change of mind. It came from his pastoral "
+            "experience of the Donatist schism. It was not a story he told about himself in "
+            "hindsight. Such a story would make a settled practice look like the result of "
+            "principled rethinking."
         ),
         held_against=[
             "This world's own already-reviewed lexicon entry names, without adjudicating it, the live "
@@ -610,12 +613,14 @@ def build_cyprian_death_genre() -> None:
     emit(
         "lpc.contested.cyprian-death-genre",
         claim=(
-            "Pontius's own account of Cyprian's death (Life §§15-19) is properly classified by "
-            "Construction Framework V7.4's Tier 1 genus clause -- 'direct textual attestation... named "
-            "author with identifiable social location... datable with reasonable confidence' -- since "
-            "Pontius meets every element of that test as a named eyewitness deacon, and the Scriptural "
-            "typology and providential framing are ornament on a real, datable public execution rather "
-            "than evidence the account itself cannot be trusted as testimony."
+            "Pontius's own account of Cyprian's death (Life §§15-19) rightly belongs in Tier 1 "
+            "of Construction Framework V7.4. Its genus clause reads: 'direct textual "
+            "attestation... named author with identifiable social location... datable with "
+            "reasonable confidence'. Pontius meets every part of that test. He is a named deacon "
+            "who saw it himself. The account also casts events as echoes of Scripture "
+            "(typology). It sees God's plan in them (providential framing). Both are ornament. "
+            "They sit on a real public execution that we can date. Neither is proof that we "
+            "cannot trust the account as a witness's word."
         ),
         held_against=[
             "The account itself discloses its own patterning on Scripture as an authorial aside, not a "

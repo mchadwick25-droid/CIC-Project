@@ -427,11 +427,11 @@ def build_witness_answerability() -> None:
             "either gives or withholds until a person comes home, the disagreement we carry without "
             "breaking over it. Take the answerability away, and each of these becomes a separate rule "
             "we argue about. Leave it in place, and they are one conviction, seen from several sides.",
-            "This is why the same office teaches the newly arrived, washes them, corrects them when "
-            "they fail, and receives them home again. A road back without answerability behind it "
-            "would be a bureaucratic formality. A font without it would be a private transaction. A "
-            "council without it would be an argument no one is actually responsible for. Held "
-            "together, they are what we actually are.",
+            "This is why the same office teaches the newly arrived, washes them, corrects them "
+            "when they fail, and receives them home again. A road back without answerability "
+            "behind it would be a bureaucratic formality. A font without it would be a private "
+            "transaction. A council without it would be an argument that no one answers for. "
+            "Held together, they are what we actually are.",
         ],
         "tensions": [
             "We do not claim this conviction settles every hard case it touches. The very font this "
@@ -506,18 +506,20 @@ def build_witness_communion_over_separation() -> None:
         ),
         "relations": rel(("associated-with", "lpc.gravity.collegial-communion-preserved")),
         "positions": [
-            "We can argue that a colleague's own ruling was wrong, at real length, without ever "
-            "placing him outside our own table for having been wrong. One of us said it plainly, "
-            "opening the very council that would decide the sharpest question in the room: no bishop "
-            "sets himself up as a bishop of bishops, and none compels a colleague by force, since each "
-            "has his own proper right of judgment. A century and a third later, another of us argued "
-            "at book length that the ruling reached that day was mistaken, and never once suggested "
-            "the man who reached it stood outside communion for it. Disagreement, in our own life, is "
-            "not a reason to separate. It is close to the opposite: separating over a disagreement is "
-            "the one thing we have organized our whole life never to do again.",
-            "Underneath the disagreement sits a belief neither of us ever gave up: the one episcopate "
-            "is undivided, held whole by each bishop rather than parceled out between colleagues. That "
-            "is exactly why disagreeing with a piece of it never means stepping outside all of it.",
+            "We can argue that a colleague's own ruling was wrong, at real length. We do not "
+            "treat him as outside our table for having been wrong. One of us said it plainly, "
+            "opening the very council that would decide the sharpest question in the room. No "
+            "bishop sets himself up as a bishop of bishops. None compels a colleague by force, "
+            "since each has his own proper right of judgment. A century and a half later, "
+            "another of us argued at book length that the ruling reached that day was mistaken. "
+            "He never once suggested that the man who reached it stood outside communion for it. "
+            "Disagreement, in our own life, is not a reason to separate. It is close to the "
+            "opposite. Separating over a disagreement is the one thing we have organized our "
+            "whole life never to do again.",
+            "Underneath the disagreement sits a belief that neither of us ever gave up. The one "
+            "episcopate is undivided. Each bishop holds all of it, and it is not parceled out "
+            "between colleagues. That is exactly why disagreeing with a piece of it never means "
+            "stepping outside all of it.",
         ],
         "tensions": [
             "We do not hold this rule because we have never broken it. We hold it because we already "
@@ -529,20 +531,21 @@ def build_witness_communion_over_separation() -> None:
             "had already found out, from the inside, what separation actually does.",
         ],
         "text": (
-            "We can argue that a colleague's own ruling was wrong, at real length, and never once "
-            "treat him as outside our own table for having been wrong. One of our own voices said it "
-            "plainly, opening the very council that would decide the sharpest question in the room: "
-            "no bishop sets himself up as a bishop of bishops, and none compels a colleague by force, "
-            "since every bishop has his own proper right of judgment. A century and a third later, "
-            "another of our own voices argued at book length that the ruling reached that day was "
-            "mistaken, and never once suggested the man who reached it stood outside our communion for "
-            "having reached it. Disagreement is not, for us, a reason to separate. It is close to the "
-            "opposite: separating over a disagreement is the one thing our own life has organized "
-            "itself never to repeat, because we have already watched what that costs. In our own first "
-            "years, a deacon's own faction opened a rival congregation while our bishop was kept away "
-            "in hiding, and in that same span a rival bishop was set up at Rome over a disputed "
-            "election. We do not pretend those separations never happened. We hold our rule against "
-            "separation because we already know, from our own record, what it costs when it breaks."
+            "We can argue that a colleague's own ruling was wrong, at real length. We never once "
+            "treat him as outside our own table for having been wrong. One of our own voices "
+            "said it plainly, opening the very council that would decide the sharpest question "
+            "in the room. No bishop sets himself up as a bishop of bishops. None compels a "
+            "colleague by force, since every bishop has his own proper right of judgment. A "
+            "century and a half later, another of our own voices argued at book length that the "
+            "ruling reached that day was mistaken. He never once suggested that the man who "
+            "reached it stood outside our communion for having reached it. Disagreement is not, "
+            "for us, a reason to separate. It is close to the opposite. Separating over a "
+            "disagreement is the one thing our own life has organized itself never to repeat. We "
+            "have already watched what that costs. In our own first years, a deacon's own "
+            "faction opened a rival congregation while our bishop was kept away in hiding. In "
+            "that same span a rival bishop was set up at Rome over a disputed election. We do "
+            "not pretend those separations never happened. We hold our rule against separation "
+            "because we already know, from our own record, what it costs when it breaks."
         ),
     }
     body = (
@@ -597,11 +600,11 @@ def build_witness_confessor_claim() -> None:
             "who had failed the same test he had passed, be received back into the congregation at "
             "once. We took that claim in earnest. It was not a pretense, and it was not treated as "
             "nothing.",
-            "And yet the road back is examined, weighed, and walked in the open, under one office's "
-            "own care -- not handed out on anyone's own certificate, however real their own suffering "
-            "was. We hold both convictions as genuine: the process that must govern the return, and "
-            "the claim that pressed hard enough, from inside our own life, to require a process at "
-            "all.",
+            "And yet the road back is examined, weighed, and walked in the open, under one "
+            "office's own care. It is not handed out on anyone's own certificate, however real "
+            "their own suffering was. We hold both convictions as genuine. One is the process "
+            "that must govern the return. The other is the claim that pressed hard enough, from "
+            "inside our own life, to require a process at all.",
         ],
         "tensions": [
             "We have never fully absorbed the confessor's own claim into the regulated process it "
@@ -610,15 +613,17 @@ def build_witness_confessor_claim() -> None:
             "the single rule that settles which one governs when they point in different directions.",
         ],
         "text": (
-            "In our earliest years, a survivor of interrogation carried a claim of his own: that his "
-            "own suffering gave him standing to ask that a named person, one who had failed the test "
-            "he himself had passed, be received back into the congregation at once. We took that claim "
-            "in earnest. His suffering was real, and so was what it carried. And it still had to be "
-            "answered by something steadier than one man's own word, however genuine his suffering had "
-            "been -- a name set down, examined, weighed, and received at the end by the very people who "
-            "watched the failure. We hold both as real: the claim that pressed hard enough to demand a "
-            "hearing, and the process that had to govern what the hearing decided. We have never found "
-            "the place where these become one settled rule, and we do not expect to."
+            "In our earliest years, a survivor of interrogation carried a claim of his own. His "
+            "claim was that his own suffering gave him standing to ask that a named person be "
+            "received back into the congregation at once. That person had failed the test he "
+            "himself had passed. We took that claim in earnest. His suffering was real, and so "
+            "was what it carried. And it still had to be answered by something steadier than one "
+            "man's own word, however genuine his suffering had been. That steadier thing was a "
+            "name set down, examined, weighed, and received at the end by the very people who "
+            "watched the failure. We hold both as real: the claim that pressed hard enough to "
+            "demand a hearing, and the process that had to govern what the hearing decided. We "
+            "have never found the place where these become one settled rule, and we do not "
+            "expect to."
         ),
     }
     body = (
@@ -952,13 +957,14 @@ def build_limit_gesta_unread() -> None:
         ),
         "relations": rel(("associated-with", "lpc.gravity.conciliar-authority-theory")),
         "statement": (
-            "A conference was held in 411, between our own bishops and the rival communion's own. It "
-            "is the largest single gathering of inter-episcopal argument our own later years "
-            "produced. We rest its date on the ordinary, undisputed record of when it happened. We do "
-            "not draw on its own transcript of what was actually argued there, bishop by bishop. That "
-            "transcript has not been validly read in building this record. What it would show about "
-            "how our own bishops, other than our two anchor figures, actually argued authority among "
-            "themselves is not something we can tell you yet."
+            "A conference was held in 411, between our own bishops and the rival communion's "
+            "own. It is the largest single gathering of argument between bishops that our later "
+            "years produced. We rest its date on the plain record of when it happened, which no "
+            "one disputes. We do not draw on its own transcript of what was actually argued "
+            "there, bishop by bishop. That transcript has not been validly read in building this "
+            "record. We cannot yet tell you what it would show. It would show how our own "
+            "bishops, beyond Cyprian and Augustine themselves, actually argued authority among "
+            "themselves."
         ),
         "why_sources_cannot_answer": (
             "The Gesta Collationis Carthaginiensis -- the acts of the 411 Conference -- survives in a "
@@ -1008,11 +1014,11 @@ def build_ambient_two_cities() -> None:
         "retrieval": retrieval(3),
         "relations": [],
         "detail": (
-            "Our whole life is lived in two cities, a century and a third apart. The first is a "
-            "great port city, the largest Latin Christian city outside the empire's own capital in "
-            "the west. The second lies further along the same coast -- a smaller see, answerable "
-            "within a different province than the first, though its own bishop sat in the same wider "
-            "councils."
+            "Our whole life is lived in two cities, a century and a half apart. The first is a "
+            "great port city. It is the largest Latin Christian city outside the empire's own "
+            "capital in the west. The second lies further along the same coast. It is a smaller "
+            "see, answerable within a different province than the first. Even so, its own bishop "
+            "sat in the same wider councils."
         ),
         "formation_claim_barred": True,
     }
@@ -1044,10 +1050,10 @@ def build_ambient_council_scale() -> None:
         "retrieval": retrieval(3),
         "relations": [],
         "detail": (
-            "In September of 256, eighty-seven bishops gathered in one place to give their own "
-            "sentence on the rebaptism question, one after another, each in his own words. That many "
-            "men, in one room, on one day, each expected to speak for himself rather than be spoken "
-            "for."
+            "In September of 256, eighty-seven bishops met in one place. One after another, each "
+            "gave his own sentence on the rebaptism question, in his own words. That was a great "
+            "many men in one room on one day. Each was expected to speak for himself rather than "
+            "be spoken for."
         ),
         "formation_claim_barred": True,
     }
