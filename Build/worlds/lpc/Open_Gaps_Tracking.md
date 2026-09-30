@@ -1489,3 +1489,16 @@ The claim said no Registry row dates from within the 133-year gap between Cypria
 **Decision.** Section 7 now says no source supplies a pastoral or congregational voice from within the gap, names Optatus as the one Registry text that dates from inside it, and states that it is Donatism's territory, is held provisionally, and is drawn on for no claim. Doc_01's binding is about a surviving voice continuous with Cyprian's, so it stands. The Registry rows are unchanged.
 
 **Check.** Included in the targeted Opus recheck of the Library's Round 33 fix pass. A separate agent sweeps every other copy of the claim (Doc_01, Doc_05, the world core record).
+
+### OG-25. Independent recheck of the Library's fix pass and the lpc correction passes, 2026-09-30: closed items, and what stays open.
+
+File: `Review-Artifacts/Doc02_Registry_FixPass_Recheck_2026-09-30.md` (Opus 5.5, targeted recheck; 0 P0, 3 P1, 7 P2). All three Round 33 P1s are closed, and every changed claim about a source's text was verified at the vendored file (act 158 a subscription; Theodosian Code XVI.5.21 and XVI.5.52; Letter LIII a joint letter; Petilian Book II chapter 51, section 118; Possidius Vita ch. VIII).
+
+**Open P1.**
+- The corrected 258 to 391 silence claim (OG-24) is still false in seven places, because it says Optatus is "the one" Registry text dated inside the gap. Row 265 holds a document dated 317 to 337; row 26 (Native) holds Carthage canons of 345 to 348 and of 387 or 390; row 202 holds Bruns's text of the Carthage council under Gratus; row 59 is Munier's *Concilia Africae a. 345*. Places: Doc_02 line 120, Doc_05 line 27, Doc_08 lines 23 and 264, the transmission force record, `lpc.limit.the-silent-century.md`, and `wb_lpc_s25.py`. Whether conciliar canons count as a surviving voice under Doc_01 section 5 is a project-lead decision.
+- Row 265 is Excluded as Out-of-Boundary on grounds the Template does not allow (shelf and authorship, not date or place). Options: Native without a licence, or Named Comparandum. Project-lead decision.
+- Re-running the generators would bring back corrected wording: `wb_lpc_s28.py` (line 353 hard-codes public domain for Lancel; line 883 "nothing dated in between"), `wb_lpc_s21.py` (Lancel public-domain, row 11 at A for the whole body, Burns and Jensen at C, Petilian at B), `wb_lpc_s25.py` (replaces the plain spoken text with Layer-form text).
+
+**Open P2.** Row 227 places `CLASSIS V` at 117125; it is at 117124. Rows 267 to 272 lack the sentence giving the reason for Confidence A. Rep Phase 3 line 80 quotes row 204 as "the corpus map's ruling"; the row says "by prior ruling". World core line 436 still says "207 of the Registry's 212 rows". The succession witness text says "Counting back from" where Letter LIII counts forward from Peter. "Donatism's territory" and "hold it provisionally" are build vocabulary in a spoken field. Doc_05 and Doc_08 still carry commentary the checker flags.
+
+**Routing.** The silence claim and row 265 wait on the project lead. The generator, row 227, rows 267 to 272, Rep Phase 3, world core and witness items are the lpc build thread's, to fix after that decision.
