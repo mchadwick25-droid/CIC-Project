@@ -116,7 +116,7 @@ def seed_table(store, sid):
     ))
     _append(store, sid, "round_closed", {"round_no": 1, "reason": "selector_closed", "turns": 2,
                                          "governance": {"flags": ["dominance:des"], "share": {"des": 0.8}}})
-    # Round 2: the same voice repeats itself verbatim -> repetition finding.
+    # Second round: the same voice repeats itself verbatim -> repetition finding.
     _append(store, sid, "turn_selected", {"round_no": 2, "position": 1, "world_key": "des", "reason": "follow-up", "degraded": False})
     _append(store, sid, "voice_turn", _voice(
         "des", long_answer,
@@ -298,8 +298,7 @@ def test_level1_element_density_counts_one_mark_per_element_when_the_plan_has_el
 
 
 def test_level1_element_density_report_only_no_findings(tmp_path):
-    """No cap is enforced yet (Adjusted-Design.md: "RULING R17 on numbers"
-    is still open) - this instrument returns metrics, never Finding
+    """No cap is enforced yet - this instrument returns metrics, never Finding
     objects, and run_all() carries it under its own key, not findings."""
     store, i_sid, _ = _sessions(tmp_path)
     result = run_all(read_session(store, i_sid))
@@ -445,8 +444,7 @@ def test_canon_asks_are_normalized_participant_text(tmp_path):
 
 
 def test_read_session_lifts_visitor_id_off_session_started(tmp_path):
-    """The usage dashboard's identity signal (Mark, 2026-09-28 scoping
-    doc): a session_started carrying visitor_id folds it onto
+    """The usage dashboard's identity signal: a session_started carrying visitor_id folds it onto
     AuditSession, same as world_keys - and its absence (every session
     before this field existed, or anon_cap disabled) folds to None, not
     an error."""

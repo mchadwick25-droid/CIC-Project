@@ -1,6 +1,5 @@
-"""engine.api.admin_auth: the dashboard's password login (Mark,
-2026-09-28 - "every website no matter how sensitive is just password
-protected"). Two layers tested separately: the pure hashing/policy/
+"""engine.api.admin_auth: the dashboard's password login. Two layers
+tested separately: the pure hashing/policy/
 session-token functions here, and the wired-up endpoints (set-password,
 login, logout, auth-status, and the dual token-or-session auth on
 pilot-summary/usage-summary) in test_admin.py-style fashion below."""
