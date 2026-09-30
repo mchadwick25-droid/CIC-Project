@@ -59,3 +59,7 @@ Read (loci, not whole volumes):
 - Chelčický's chapters on killing, the Taborite priests' articles beyond the opening lines, the *Postilla*, Novotný's introduction, the remainder of Palacký's volumes and the Foxe and Van Braght sections were located and not read.
 - The 5 July date for "the day after the feast of St Procopius" is general knowledge, not the vendored text.
 - The reading "nine blank and three inscribed" in Comenius comes from a garbled line.
+
+## The cap ruling's record
+
+The project lead's ruling that the three-round cap counts from significant new material is recorded in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (the entry "Three-round cap counts from significant new material", 2026-09-29), in his words: "Option 1, count from the new material, significant new material".
