@@ -24,9 +24,9 @@ names:
 - name: Celerinus of Carthage (fl. mid-3rd century)
   tag: scholarly
 dates:
-  display: a confessor -- imprisoned under persecution and did not deny Christ; wrote to Lucian, a fellow
-    confessor in prison, asking that his own sister and two other women be received back to communion
-    (Ep. XX; lpc.story.celerinus-writes-to-lucian)
+  floruit: A confessor, imprisoned under persecution, who did not deny Christ. He wrote to Lucian, a fellow
+    confessor in prison. He asked that his own sister and two other women be received back to communion
+    (Ep. XX).
 narratable: true
 bridge_line: a confessor who did not write about his own suffering, but about his sister's, and asked
   another confessor in prison to help restore her

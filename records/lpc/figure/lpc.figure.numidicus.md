@@ -24,10 +24,10 @@ names:
 - name: Numidicus of Carthage (fl. mid-3rd century)
   tag: scholarly
 dates:
-  display: exhorted a group of Christians to martyrdom under persecution, among them his own wife, who
-    died with them; himself left half-consumed by fire and overwhelmed with stones, found half dead by
-    his own daughter and revived; ordained presbyter by Cyprian afterward, though he had not wanted to
-    survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)
+  floruit: He exhorted a group of Christians to martyrdom under persecution. His own wife died with them.
+    He himself was left half-consumed by fire and overwhelmed with stones. His own daughter found him half
+    dead and revived him. Cyprian afterward ordained him presbyter, though he had not wanted to survive
+    (Cyprian, Ep. XXXIV).
 narratable: true
 bridge_line: a man who watched his own wife die with those he had exhorted to martyrdom, was himself left
   for dead, and did not want to have survived

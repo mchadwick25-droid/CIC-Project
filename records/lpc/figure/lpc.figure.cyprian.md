@@ -27,11 +27,11 @@ names:
 - name: Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)
   tag: scholarly
 dates:
-  display: a trained rhetorician who turned from a public career to Christian life, converted c. 246;
-    ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation
-    of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised
-    (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution;
-    executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)
+  died: 258, executed under the emperor Valerian
+  floruit: A trained rhetorician who turned from a public career to Christian life. He converted around
+    246. He was ordained and elected bishop of Carthage between roughly July 248 and April 249. The Carthaginian
+    people acclaimed him, over the recorded opposition of five presbyters, while he was still newly baptised.
+    Later he was banished to Curubis under the Valerianic persecution.
 narratable: true
 bridge_line: our bishop, chosen while still a neophyte over his own reluctance, who taught us to care
   for our enemies during a plague and was executed under Valerian

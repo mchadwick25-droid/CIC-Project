@@ -24,11 +24,11 @@ names:
 - name: Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430
   tag: scholarly
 dates:
-  display: converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against
-    his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session;
-    Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia,
-    in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the
-    Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)
+  died: '430'
+  floruit: Converted in 386 and baptised in 387. In 391 the congregation at Hippo seized him and ordained
+    him presbyter against his own wishes. He wept through it (Possidius, Vita IV). He was named coadjutor
+    and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396. Again the people acclaimed
+    him (Possidius, Vita VIII). He died in 430, during the Vandal siege of Hippo.
 narratable: true
 bridge_line: our bishop at Hippo, seized by our own acclaim for the office twice over his own reluctance,
   who spent his last days weeping over psalms of penitence while an army lay outside the walls

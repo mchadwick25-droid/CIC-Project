@@ -25,9 +25,9 @@ names:
 - name: Possidius of Calama (d. after 437)
   tag: scholarly
 dates:
-  display: Augustine's own friend for nearly forty years; bishop of Calama in his own right; physically
-    present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present' (lpc.story.the-psalms-on-the-wall);
-    wrote the Vita Augustini, the source for both lpc.story.the-psalms-on-the-wall and lpc.quote.clamour-and-tears
+  floruit: Augustine's own friend for nearly forty years, and bishop of Calama in his own right. He was
+    present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present'. He wrote
+    the Vita Augustini, the source for the story of the psalms on the wall.
 narratable: true
 bridge_line: the bishop of Calama who had been Augustine's friend for forty years, and who stood by him
   and prayed as he died
