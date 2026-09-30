@@ -58,3 +58,5 @@ All match the vendored files, allowing for OCR whitespace and hyphenation:
 ## Disposition
 
 **CLEARED — approved to proceed.** No substantial findings. Four minor findings (R3-m1 to R3-m4), none of which requires another review round. R3-m3 and R3-m4 are hygiene. R3-m1 is carried forward as binding on Doc_01. R3-m2 is optional clarity. This does not close anything at portfolio level. It also does not select the world for a build: the world has no file-code, and selection remains Mark's decision.
+
+Disposition: Approved to proceed (Step 0 only; not Frozen). Self-disposed by the Library thread after the Round 3 clearance above.
