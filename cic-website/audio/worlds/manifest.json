@@ -565,5 +565,49 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "imperial-juridical-christianity": {
+  "story": {
+   "file": "imperial-juridical-christianity/story.mp3",
+   "chars": 6919,
+   "voiceId": "sp6F311QRVXR53QPGIgK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "imperial-juridical-christianity/docstory-0.mp3",
+   "chars": 1072,
+   "voiceId": "sp6F311QRVXR53QPGIgK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "imperial-juridical-christianity/docstory-1.mp3",
+   "chars": 868,
+   "voiceId": "sp6F311QRVXR53QPGIgK",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.05,
+    "use_speaker_boost": true
+   }
+  }
  }
 }
