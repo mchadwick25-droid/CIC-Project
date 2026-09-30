@@ -37,3 +37,7 @@ Round 2 supplied "Lainez (General 1558–65) ... c. 1580" unverified. Re-checked
 - Lainez's generalate dates (1558–65) and Borgia's and Mercurian's dates are from Round 3, not from a vendored file.
 - Nothing vendored was searched beyond file names and the corpus-map for Borgia, Mercurian or the Jesuit Relations.
 - Open gaps OG-1 and OG-2 are in `Build/World-Builds/Society-of-Jesus/Open_Gaps_Tracking.md`.
+
+## Removed from the Step 0 document, 2026-09-30
+
+Former §5, "Process findings for System Hub" (verbatim): "This document's 2026-09-15 draft predated the 2026-09-24 vendoring pass, and its subsequent update in turn predated the 2026-09-25 acquisition pass and scan-quality ruling — each left it stale until resynced. A Step 0 document that precedes a later vendoring or classification pass for its own world needs the same resync check applied here twice already, and should not be assumed current without checking the live corpus-map and REGISTRY.yaml directly." Removed from the Lainez staging note, verbatim: "Corrects a prior dossier "genuinely closed" verdict, which only checked for an English translation - this Latin primary material is PD and available." Status set to Approved to proceed after the Round 4 spot-check (clear); Ignatius wording in §4 item 5 corrected (P2-1).

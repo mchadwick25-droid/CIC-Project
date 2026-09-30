@@ -9,10 +9,7 @@ assignments:
     role: tradition
     confidence: assigned
     note: >
-      Lainez's own letters and acts (Lainez was the 2nd Superior General; this first tomus covers 1536-1556, before his own generalate began in 1558). Corrects a
-      prior dossier "genuinely closed" verdict, which only checked for
-      an English translation - this Latin primary material is PD and
-      available. Per the Library's non-English-primary-evidence rule
+      Lainez's own letters and acts (Lainez was the 2nd Superior General; this first tomus covers 1536-1556, before his own generalate began in 1558). This Latin primary material is PD and available. Per the Library's non-English-primary-evidence rule
       (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
       text is primary evidence directly, verified against the vendored
       file, since it is primary to the movement regardless of language;
