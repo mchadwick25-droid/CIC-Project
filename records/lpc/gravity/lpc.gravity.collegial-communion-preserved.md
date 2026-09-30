@@ -46,6 +46,8 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
+- type: associated-with
+  target: lpc.quote.bishop-of-bishops
 name: Collegial Communion Preserved Despite Disagreement
 description: >-
   Few things mattered more to this world than staying in communion despite real disagreement. Bishops
@@ -53,9 +55,7 @@ description: >-
   build a rival hierarchy.
 
 
-  The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly:
-  "neither does any of us set himself up as a bishop of bishops... every bishop... has his own proper
-  right of judgment." Augustine's On Baptism argues at length against Cyprian's own ruling on rebaptism.
+  The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly. None of them sets himself up as a bishop of bishops, and every bishop has his own right to judge. Augustine's On Baptism argues at length against Cyprian's own ruling on rebaptism.
   Yet it never treats him as outside communion. Letter 185 addresses the Donatist schism in the same
   pastoral, corrective tone.
 
@@ -93,4 +93,3 @@ manifestations:
 - Letter 185's pastoral, corrective tone toward the Donatist schism
 classification: primary
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 3). relations[] carries the gravity<->gravity edges (G1, G2, G5, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above.

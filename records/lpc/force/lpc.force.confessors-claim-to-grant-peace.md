@@ -28,12 +28,13 @@ relations:
   target: lpc.force.decian-persecution-libelli-system
 - type: associated-with
   target: lpc.force.recurring-contest-failed-member
+- type: associated-with
+  target: lpc.quote.thousands-of-certificates-daily
 name: The Confessors' Claim to Grant Peace
 kind: ongoing
 description: >-
   People who survived interrogation without denying their faith issued written requests that named
-  lapsed persons be received back. In Cyprian's own words, "thousands of certificates were daily given,
-  contrary to the law of the Gospel." This is documented.
+  lapsed persons be received back. Cyprian wrote that thousands of these were handed out each day, against the law of the Gospel. This is documented.
 
 
   Both sides spoke in earnest, and that was the difficulty. One side said: I stood before the magistrate
@@ -57,4 +58,3 @@ manifestations:
 - '"thousands of certificates were daily given, contrary to the law of the Gospel" (Cyprian''s own words)'
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named above.

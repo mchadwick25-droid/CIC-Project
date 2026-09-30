@@ -28,6 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: lpc.witness.restless-heart-and-the-unrepentant-enemy
+- type: associated-with
+  target: lpc.quote.grace-sufficient-heard-for-salvation
 positions:
 - Augustine taught this directly, from the apostle Paul's own words. Paul asked God three
   times to take away a thorn in his flesh, an affliction he named as a messenger of Satan sent to buffet
@@ -41,7 +43,7 @@ claim_guards: []
 text: 'What do you do with prayer that goes unanswered? We do have something real to give you here. Augustine
   taught it directly, from the apostle Paul''s own words: Paul asked God three times to take away a thorn
   in his flesh, an affliction he named as a messenger of Satan sent to buffet him, and God did not take
-  it away. He answered instead, "My grace is sufficient for thee: for strength is made perfect in weakness."
+  it away. He answered instead that his grace was enough for Paul, because strength is made perfect in weakness.
   Augustine drew a rule from this, one he did not confine to Paul alone -- Paul was heard for salvation,
   he taught, even though he was not heard according to his wish. A prayer God does not answer as we asked
   is not, on this teaching, a prayer God failed to hear.'

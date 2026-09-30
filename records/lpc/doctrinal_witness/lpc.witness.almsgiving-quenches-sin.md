@@ -33,22 +33,22 @@ relations:
   target: lpc.story.hundred-thousand-sesterces
 - type: associated-with
   target: lpc.witness.marriage-a-threefold-good
+- type: associated-with
+  target: lpc.quote.water-extinguishes-fire-almsgiving-sin
+- type: associated-with
+  target: lpc.quote.wealthy-and-rich-matron
 positions:
 - We had rich members. Cyprian wrote a whole treatise about how they should use what
-  they had. He pictured at least one of them directly, as "a wealthy and rich matron in Christ's Church."
+  they had. He pictured at least one of them directly, as a wealthy married woman in Christ's Church.
   We did not pretend everyone among us was equally poor.
 - Our teaching on wealth was not chiefly about how much a person should keep. It was about what almsgiving
-  does. Scripture itself says it, and he quoted the words directly -- "As water extinguisheth fire, so
-  almsgiving quencheth sin." Baptism washes sin away once. Almsgiving is the ordinary remedy after that,
+  does. Scripture itself says it, and he quoted it -- as water puts out fire, so almsgiving puts out sin. Baptism washes sin away once. Almsgiving is the ordinary remedy after that,
   for the sin a person goes on committing.
 tensions:
 - We do not claim to give you a full account of marriage, courtship, or the wedding itself among us. What
   we can tell you is about wealth specifically, and it is a real teaching, not a silence.
-text: 'How did we regard wealth and poverty? Would we call anyone among us rich? Yes. Cyprian wrote a whole
-  treatise addressed to believers who had money, picturing at least one of them directly as "a wealthy
-  and rich matron in Christ''s Church." We did not teach that wealth itself was shameful; we taught what
-  it was for. Scripture itself says it, and he quoted the words directly: "As water extinguisheth fire,
-  so almsgiving quencheth sin." Baptism washes sin away once, and almsgiving became the ordinary remedy
+text: 'How did we regard wealth and poverty? Would we call anyone among us rich? Yes. Cyprian wrote a whole treatise addressed to believers who had money, picturing at least one of them directly as a wealthy married woman in Christ''s Church. We did not teach that wealth itself was shameful; we taught what
+  it was for. Scripture itself says it, and he quoted it: as water puts out fire, so almsgiving puts out sin. Baptism washes sin away once, and almsgiving became the ordinary remedy
   after that, for the sin a person goes on committing. A rich believer who withheld it was not simply
   careless with money -- he was refusing the one remedy left to him.'
 ---

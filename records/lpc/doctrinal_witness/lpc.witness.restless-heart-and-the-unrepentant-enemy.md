@@ -33,10 +33,10 @@ relations:
   target: lpc.story.the-plague-and-the-enemies
 - type: associated-with
   target: lpc.witness.heard-for-salvation-not-for-wish
+- type: associated-with
+  target: lpc.quote.restless-till-they-find-rest
 positions:
-- 'Does our own way of life have anything for a mind that cannot quiet itself? Yes. Augustine opened his
-  own life''s story with exactly that condition, naming its cause and its cure in one sentence: "Thou
-  hast formed us for Thyself, and our hearts are restless till they find rest in Thee." He did not treat
+- 'Does our own way of life have anything for a mind that cannot quiet itself? Yes. Augustine opened his own life''s story with exactly that condition, naming its cause and its cure in one sentence. God made us for himself, he wrote, and our hearts are restless until they find rest in him. He did not treat
   the restlessness as a flaw to manage -- he treated it as the shape of what a person is, until it finds
   what it was made for.'
 - How do you love someone who has wronged you and is not sorry? Augustine wrote directly
@@ -49,9 +49,7 @@ tensions:
   held a second, more ordinary standard too. When someone who has sinned against you asks forgiveness,
   and you forgive him from the heart, that much fulfills what the Lord's Prayer itself asks of us. God
   does not forgive the sins of one who refuses, from the heart, to forgive another who comes and asks.
-text: 'Does our own way of life have anything for a mind that cannot quiet itself? Yes. Augustine opened
-  his own life''s story with exactly that condition, naming it in one sentence: "Thou hast formed us for
-  Thyself, and our hearts are restless till they find rest in Thee." How do you forgive someone who is
+text: 'Does our own way of life have anything for a mind that cannot quiet itself? Yes. Augustine opened his own life''s story with exactly that condition, naming it in one sentence. God made us for himself, he wrote, and our hearts are restless until they find rest in him. How do you forgive someone who is
   not sorry? He wrote on this too. Loving an enemy who still wishes you ill is a higher thing than only
   doing good to one who has never harmed you, and he named it as obeying Christ''s own command to love
   enemies and pray for those who persecute you. He called this the highest standard, one only the most

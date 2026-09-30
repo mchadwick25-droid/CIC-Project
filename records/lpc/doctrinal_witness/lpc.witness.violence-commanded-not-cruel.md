@@ -34,14 +34,15 @@ retrieval:
 relations:
 - type: associated-with
   target: lpc.gravity.grace-and-human-incapacity
+- type: associated-with
+  target: lpc.quote.not-cruelty-but-righteous-retribution
 positions:
 - Did the violence in these texts trouble us? Augustine says it once troubled him, before
   he held our own faith. As a young man drawn to a rival teaching, he was, in his own words, "much disturbed"
   by the question whether men who had many wives, and did kill men, could really be called righteous.
   Once he held our own faith, and was answering a Manichaean
   who raised exactly this same charge, he wrote at length, without flinching from it. When Moses led wars
-  by God's own command, he wrote, "he showed not ferocity but obedience." God, in giving such a command,
-  "acted not in cruelty, but in righteous retribution, giving to all what they deserved."
+  by God's own command, he wrote, "he showed not ferocity but obedience." God, in giving such a command, did not act out of cruelty. He acted in just punishment, giving all people what they deserved.
 - A command carried out is not the same act as the same violence chosen on one's own. Abraham killing
   his son of his own accord would have been unnatural. Abraham obeying God's own command was, our bishop
   held, praiseworthy compliance. The moral weight sits in the command's own source, not in the bare act
@@ -58,9 +59,7 @@ text: 'Did the violence in some of these texts trouble our own people? Augustine
   in his own words, "much disturbed" by the question whether men who had many wives, and did kill men,
   could really be called righteous. Once he held our own
   faith, answering a Manichaean who raised exactly this same charge, he wrote of the wars of Moses, carried
-  out on God''s own command, without flinching from it: Moses "showed not ferocity but obedience." God
-  himself, in giving that command, "acted not in cruelty, but in righteous retribution, giving to all
-  what they deserved." The same act, chosen by a man on his own account, would be a different act entirely
+  out on God''s own command, without flinching from it: Moses "showed not ferocity but obedience." God himself, in giving that command, did not act out of cruelty. He acted in just punishment, giving all people what they deserved. The same act, chosen by a man on his own account, would be a different act entirely
   -- Abraham killing his son unbidden would be unnatural; Abraham obeying God''s own command was praiseworthy
   compliance. What a modern reader may miss is not that we found this untroubling because we thought little
   of it. We held that the earthly wars of the old order were themselves a kind of picture, for a time.

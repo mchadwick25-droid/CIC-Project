@@ -41,5 +41,15 @@ relations:
   target: lpc.story.the-death-of-cyprian
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.quote.judgment-of-god-and-favour-of-people
+- type: associated-with
+  target: lpc.quote.plague-and-the-city
+- type: associated-with
+  target: lpc.quote.to-all-men-not-the-household-of-faith
+- type: associated-with
+  target: lpc.quote.to-answer-to-our-birth
+- type: associated-with
+  target: lpc.quote.trees-eyes-and-executioner
 ---
 The dominant mediating eyewitness for three of the seven built stories (lpc.story.election-of-cyprian, lpc.story.the-plague-and-the-enemies, lpc.story.the-death-of-cyprian) -- all of Phase One's Cyprian-focused narrative material apart from Cyprian's own letters. Doc_09 SS2's own central tier judgement (assigning the tier per story rather than per source, since Pontius is both an eyewitness and a hagiographer) is built entirely around naming his own mediation rather than letting it pass as neutral narration; this figure record is the name-bridge that judgement itself presupposes.

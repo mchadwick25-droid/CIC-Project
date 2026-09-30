@@ -44,6 +44,8 @@ relations:
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.figure.pontius
+- type: associated-with
+  target: lpc.quote.trees-eyes-and-executioner
 narrative_tier: 3
 narrative_tier_justification: 'Contested for the portrait; Inferential-Thin for details shaped by convention.
   Tier 3, and the tier turns on genre rather than on the author (Doc_09 SS3-4). Pontius meets Tier 1''s
@@ -63,15 +65,10 @@ text: 'This is how our own tradition remembered the death of our first great bis
 
 
   In Pontius''s telling, the crowd that came out for the execution could not all see, so people climbed.
-  "Persons who favoured him had climbed up into the branches of the trees." Pontius tells us what that
-  resembled: "that there might not even be wanting to him (what happened in the case of Zacchæus), that
-  he was gazed upon from the trees."
+  Some who favoured him had climbed up into the branches of the trees. Pontius tells us what that resembled. He says the bishop was watched from the trees, as in the case of Zacchaeus, so that he would lack not even this.
 
 
-  Then the bishop bound his own eyes. "Having with his own hands bound his eyes, he tried to hasten the
-  slowness of the executioner." The executioner could not do it easily -- the man needed, in Pontius''s
-  account, help from above: "until the mature hour of glorification strengthened the hand of the centurion
-  with power granted from above."
+  Then the bishop bound his own eyes. With his eyes bound by his own hands, he tried to hurry the slow executioner. The executioner could not do it easily -- the man needed, in Pontius''s account, help from above. At last the ripe hour of glorification strengthened the centurion''s hand with power granted from above.
 
 
   The portrait we kept, then, is of a man more composed than the soldier killing him, in a crowd arranged
@@ -86,4 +83,4 @@ modern_contrast: 'A modern listener asking ''did that really happen?'' deserves 
   in praise by his own deacon, in a form that patterns deaths on Scripture; and that a strictly documentary
   record of the trial exists and we have not read it.'
 ---
-Mapped directly from Story-Chunks/lpcstory006_the-death-of-cyprian.md, recast into first-person register except the opening framing sentence, kept close to the chunk's own explicit 'this is how this world's tradition remembered' framing (recast to 'this is how our own tradition remembered', avoiding the literal phrase 'this world' per gate_voice_perspective). 'Bound his eyes' independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml; verification_state held at verified-direct on that basis. retrieval.tier set to 2 (a specialized, hagiographic-register companion case to the six Tier 1 documentary stories), matching don's own precedent for its own Tier 3 story.
+retrieval.tier set to 2 (a specialized, hagiographic-register companion case to the six Tier 1 documentary stories), matching don's own precedent for its own Tier 3 story.

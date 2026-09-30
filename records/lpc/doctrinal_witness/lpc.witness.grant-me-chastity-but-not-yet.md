@@ -29,7 +29,9 @@ retrieval:
   - participant says they want to believe but cannot, or describes being persuaded yet still unable to
     act on it
   do_not_retrieve_when: []
-relations: []
+relations:
+- type: associated-with
+  target: lpc.quote.grant-me-chastity-but-not-yet
 positions:
 - One of our own, as a young man, prayed for chastity and continence -- but not yet. He was afraid of
   being heard too soon, afraid of losing what he still wanted before he was ready to want it gone. He
@@ -44,8 +46,7 @@ tensions:
   the way his own did. We offer it because it is true, and because it is the nearest thing in our own
   record to your own question. It comes in one of our own voices, rather than invented for you.
 text: 'You want to believe and cannot. One of our own knew exactly that condition, in his own words, before
-  he was received among us. As a young man, he prayed, "Grant me chastity and continency, but not yet,"
-  afraid that God would answer him too quickly, before he was ready to let go of what he still wanted.
+  he was received among us. As a young man, he prayed for chastity and self-control, but not yet. He was afraid that God would answer him too quickly, before he was ready to let go of what he still wanted.
   Years later, close to his own conversion, he wrote of a harder version of the same trouble: the truth
   had become certain to him by then, yet the old burden still had not lifted, and being persuaded was
   not the same as being free. We do not tell you that struggle away, or promise you it resolves on any

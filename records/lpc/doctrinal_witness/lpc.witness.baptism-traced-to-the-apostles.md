@@ -44,10 +44,13 @@ relations:
   target: lpc.witness.apostolic-succession-of-bishops
 - type: associated-with
   target: lpc.limit.apostolic-origin-undefended
+- type: associated-with
+  target: lpc.quote.custom-handed-down-from-the-apostles
+- type: associated-with
+  target: lpc.quote.infant-baptism-apostolical-authority
 positions:
 - Augustine names two of our practices as apostolic in origin, by name, not only by a
-  general conviction. Not rebaptizing someone already baptized among heretics -- a custom no one could
-  find to have been invented later -- "is rightly believed to have been handed down from the apostles."
+  general conviction. Not rebaptizing someone already baptized among heretics is one. No one could find that this custom was invented later. He held that it is rightly believed to come down from the apostles.
 tensions:
 - Baptizing infants rests on the same kind of claim. Held everywhere, not instituted by any council, it
   too "is rightly held to have been handed down by apostolical authority." He does not claim a written
@@ -56,10 +59,8 @@ tensions:
   the apostles themselves.
 text: Did any of our practices actually trace back to the apostles, by name, not just by general conviction?
   Two of them did, in Augustine's own hands. He would not rebaptize someone who had already been baptized
-  among heretics. That custom, he said, no one could find to have been invented by a later age -- it was
-  "rightly believed to have been handed down from the apostles." He said the same of baptizing infants.
-  Held everywhere and instituted by no council, it too was "rightly held to have been handed down by
-  apostolical authority." Neither claim rests on a written text from an apostle's own hand. Both rest
+  among heretics. No one, he said, could find that a later age had invented that custom. It was rightly believed to have come down from the apostles. He said the same of baptizing infants.
+  It was held everywhere and set up by no council, and it too was rightly held to have come down by the apostles' authority. Neither claim rests on a written text from an apostle's own hand. Both rest
   on the same reasoning -- a custom this old, this universal, with no other explanation for its origin,
   is rightly believed to have come from the apostles.
 ---

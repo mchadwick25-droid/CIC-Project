@@ -23,12 +23,13 @@ sources:
     he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly
     against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732
   license: public-domain
-relations: []
+relations:
+- type: associated-with
+  target: lpc.quote.weeping-in-hymns-and-canticles
 statement: We can tell you what was decided about a person, and how carefully, and by whom. We cannot
   tell you what an ordinary believer actually felt walking up to the altar, or standing at the font, or
   sitting in the congregation on an ordinary week. Almost never, that is. There is one real exception,
-  and it is not really ordinary. Augustine's own Confessions describes his own baptism at Milan, before
-  he was a bishop, in his own first person -- "how greatly did I weep in Thy hymns and canticles." But he
+  and it is not really ordinary. Augustine's own Confessions describes his own baptism at Milan, before he was a bishop, in his own first person. He tells how much he wept during the hymns and songs. But he
   wrote that down years afterward, already a bishop, about the single most examined conversion in the
   ancient world. Both of our own voices are otherwise bishops. What comes down to us is mostly what a
   bishop saw and decided, not what an unremarkable person in front of him was feeling. Ask us what was
@@ -53,4 +54,4 @@ nearest_material:
 - lpc.gravity.penitential-discipline
 - lpc.witness.answerability-as-ground
 ---
-One of six honest_limit records built together this step, per Phase One §2/Doc_07 §7/Doc_09 §5,7 cross-check. Celled to F5-I ('Walk me through an ordinary day among your people...') -- a direct match, the exact question this world's own record cannot answer. No relations[] edge: no single existing record is the natural reciprocity target for a blanket, population-scale absence (matching don.limit.ordinary-interior-life's own identical choice for the analogous finding). Confessions IX.vi.14 is the one genuine first-person exception, disclosed here rather than left silent -- Augustine's own baptism, not an ordinary believer's.
+Celled to F5-I ('Walk me through an ordinary day among your people...') -- a direct match, the exact question this world's own record cannot answer. Confessions IX.vi.14 is the one genuine first-person exception, disclosed here rather than left silent -- Augustine's own baptism, not an ordinary believer's.

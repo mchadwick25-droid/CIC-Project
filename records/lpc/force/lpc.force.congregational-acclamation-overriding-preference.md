@@ -35,15 +35,15 @@ relations:
   target: lpc.force.standing-legal-condition-unlicensed-religion
 - type: associated-with
   target: lpc.force.organized-carthaginian-church
+- type: associated-with
+  target: lpc.quote.judgment-of-god-and-favour-of-people
 name: Congregational Acclamation Overriding a Reluctant Convert's Preference
 kind: initiating
 description: >-
   Cyprian was a trained rhetorician who converted in middle life. Within roughly two to three years of
   his conversion, the people of Carthage elected him bishop by acclamation. Five presbyters are recorded
   as opposing him. He called it "your suffrage and God's judgment," set against a faction's "ancient
-  venom." A deacon who knew him described it from outside: "by the judgment of God and the favour of
-  the people, he was chosen to the office of the priesthood and the degree of the episcopate while still
-  a neophyte."
+  venom." A deacon who knew him described it from outside. By the judgment of God and the favour of the people, he wrote, Cyprian was chosen for the priesthood and the rank of bishop while still newly baptised.
 
 
   The pattern recurs in the second phase, at both of Augustine's offices. In 391 he was seized into the
@@ -76,4 +76,3 @@ manifestations:
   "under compulsion and constraint"'
 matrix_cell: 1B
 ---
-Re-derived from the approved Doc_08 §3 Force 1B-2 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G1) and the force<->force edges (1A-2, 1B-1) named above.

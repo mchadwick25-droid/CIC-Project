@@ -36,6 +36,8 @@ relations:
   target: lpc.figure.numidicus
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.quote.numidicus-left-for-dead
 narrative_tier: 1
 narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). This is Cyprian''s own letter,
   written in his own hand as bishop, to his own congregation, about a man both he and they could identify
@@ -50,22 +52,16 @@ text: 'Cyprian wrote to us with news he called ''the common joy.'' He was appoin
   he wanted us to know who the man was.
 
 
-  Numidicus had watched a group of us die. He had exhorted them first -- Cyprian says he "by his exhortation
-  sent before himself an abundant number of martyrs, slain by stones and by the flames." Among the dead
-  was his own wife. Cyprian''s own phrasing about her is not a slip: he "beheld with joy his wife abiding
-  by his side, burned (I should rather say, preserved) together with the rest."
+  Numidicus had watched a group of us die. He had exhorted them first. Cyprian says that by his urging he sent a great many martyrs on ahead of him, killed by stones and by fire. Among the dead
+  was his own wife. Cyprian''s own phrasing about her is not a slip. He says Numidicus saw with joy his wife beside him, burned together with the rest. Then he corrects the word: he should rather say preserved.
 
 
-  Then Numidicus himself: "half consumed, overwhelmed with stones, and left for dead." His daughter came
+  Then Numidicus himself was half burned, buried under stones and left for dead. His daughter came
   looking for her father''s body -- Cyprian says she sought it "with the anxious consideration of affection"
-  -- and found him alive. Where she searched, the letter does not say. "Was found half dead, was drawn
-  out and revived."
+  -- and found him alive. Where she searched, the letter does not say. He was found half dead, pulled out and revived.
 
 
-  And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, "remained unwillingly
-  from among the companions whom he himself had sent before." He had not wanted to survive. Cyprian knew
-  this, wrote it down, and gave the reason he thought it happened: "that the Lord might add him to our
-  clergy."'
+  And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, was left behind against his will, parted from the companions he himself had sent on ahead. He had not wanted to survive. Cyprian knew this, wrote it down, and gave the reason he thought it happened: so that the Lord could add him to our clergy.'
 absent_detail: The three people this story is about left no word of their own. Numidicus's wife burned;
   his daughter searched for his body and found him alive; Numidicus himself did not want to have survived.
   What the wife thought she was doing, what the daughter found, and what Numidicus said when they revived
@@ -74,4 +70,3 @@ modern_contrast: 'A modern listener may hear ''burned, preserved'' as a cruel wo
   death. We did say that, and mean it: this world did not treat a martyr''s death as a loss to be consoled
   but as a completion to be named correctly, even at the cost of sounding cold to an outsider.'
 ---
-Mapped directly from Story-Chunks/lpcstory003_numidicus.md, recast into first-person register (Cyprian's own letter is already first-person in the chunk; the surrounding narration here is recast from 'Cyprian writes to the clergy and people of Carthage' to 'Cyprian wrote to us'). 'Half consumed, overwhelmed with stones' independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml; verification_state held at verified-direct on that basis.

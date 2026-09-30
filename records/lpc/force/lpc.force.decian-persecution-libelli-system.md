@@ -35,6 +35,8 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 - type: associated-with
   target: lpc.force.valerianic-persecution
+- type: associated-with
+  target: lpc.quote.shepherd-wounded-in-the-flock
 name: The Decian Persecution and the *libelli* System (250)
 kind: initiating
 description: >-
@@ -48,8 +50,7 @@ description: >-
 
   It was felt not so much as an attack from outside as a table emptied one certificate at a
   time. The demand reached each person singly. It left the congregation sorted into those who had stood
-  and those who had not. Both groups still belonged, still in the room. In Cyprian's words, "[I]t is the
-  shepherd that is chiefly wounded in the wound of his flock."
+  and those who had not. Both groups still belonged, still in the room. Cyprian said that when the flock is wounded, the shepherd is the one wounded most.
 
 
   This force created the category that the whole penitential system exists to process. There were no
@@ -72,4 +73,3 @@ manifestations:
 - '"[I]t is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian)'
 matrix_cell: 1A
 ---
-Re-derived from the approved Doc_08 §3 Force 1A-1 (Cell 1A, Initiating/External). relations[] carries the gravity<->force edges (G1, G2, G8) and the force<->force edges (2B-1, 2B-2, 2A-1) named above.

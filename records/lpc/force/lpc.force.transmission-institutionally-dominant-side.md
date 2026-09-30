@@ -28,6 +28,10 @@ sources:
 relations:
 - type: associated-with
   target: lpc.force.transmission-asymmetric-span-133-year-silence
+- type: associated-with
+  target: lpc.quote.letter-sent-back-altered
+- type: associated-with
+  target: lpc.quote.thirteen-letters-transmitted
 name: 'Transmission: Survival on the Institutionally Dominant Side, Through a 19th-Century Translation
   Programme'
 kind: ongoing
@@ -44,11 +48,8 @@ description: >-
   editors and translators of those two series, and this project's own choices about which texts to hold.
 
 
-  This world was acutely aware of transmission and acted on it. Cyprian gathered his own letters into a
-  dossier and sent it on: "these thirteen letters sent forth at various times declare to you, which I
-  have transmitted to you." He knew his letters were read beyond the person they were written to. He
-  also met textual corruption directly. One letter's "writing and the matter, and even the paper itself,
-  gave me the idea that something had been taken away, or had been changed from the original." He sent
+  This world was acutely aware of transmission and acted on it. Cyprian gathered his own letters into a dossier and sent it on. He wrote that these thirteen letters, sent at different times, showed what he had done, and that he had forwarded them. He knew his letters were read beyond the person they were written to. He
+  also met textual corruption directly. In one letter, the handwriting, the content and even the paper made him think that something had been taken out or changed from the original. He sent
   it back to be checked against the original.
 
 
@@ -82,4 +83,3 @@ manifestations:
   of it; this English is our own rendering)'
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-5 (Cell 2B, Ongoing/Internal; Transmission dimension). relations[] carries only the force<->force edge (3B-2) named above -- deliberately no gravity<->force edge, per Doc_08 §5's own explicit 'cross-cutting, not gravity-specific' disposition for this force (matching don.force.transmission-hostile-manuscript-tradition's own identical disposition), named rather than silently applied.

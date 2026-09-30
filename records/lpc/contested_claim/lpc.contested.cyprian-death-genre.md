@@ -33,6 +33,8 @@ sources:
 relations:
 - type: associated-with
   target: lpc.story.the-death-of-cyprian
+- type: associated-with
+  target: lpc.quote.trees-eyes-and-executioner
 claim: Pontius's own account of Cyprian's death (Life §§15-19) is properly classified by Construction
   Framework V7.4's Tier 1 genus clause -- 'direct textual attestation... named author with identifiable
   social location... datable with reasonable confidence' -- since Pontius meets every element of that
@@ -71,4 +73,4 @@ divergence_partners:
 - lpc.source.pontius-life-and-passion-of-cyprian
 - lpc.source.acta-proconsularia-sancti-cypriani
 ---
-Re-derived from Doc_09_Story_Inventory.md's own Story Index (row lpcstory006) and its own §8 item 7 and Disposition section, and Story-Chunks/lpcstory006_the-death-of-cyprian.md's own Tier Justification section, read in full this session -- its own text already states the contest directly and at full strength rather than leaving it implicit. relations[] carries one story edge (lpc.story.the-death-of-cyprian) named in this script's own docstring under RECIPROCITY, not a fresh gravity-level edge to G1 or G8 -- the story record's own existing relations[] already carries those, and this record's own subject is the genre-classification question specifically, one level more specific than either gravity. This record gives an already-argued, already-escalated contest its own dedicated contested_claim treatment, exactly as don.contested.cirta-reserved-to-the-lord did for a comparable story-chunk-level contest, rather than leaving it inside a chunk's own Tier Justification prose. This record does not resolve the CF V7.4 governance question named at Doc_09 §8 item 7 in either direction; that question remains reserved for the project lead, exactly where Doc_09's own Disposition leaves it, untouched by this record.
+This record does not resolve the CF V7.4 governance question named at Doc_09 §8 item 7 in either direction; that question remains reserved for the project lead, exactly where Doc_09's own Disposition leaves it, untouched by this record.

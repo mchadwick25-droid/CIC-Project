@@ -1954,3 +1954,50 @@ The independent review is `Build/worlds/lpc/Review-Artifacts/Voice_Demonstration
 - O3, wording note only. The self-reference note now gives the trigger ("only when someone asks what we are, and once only"). The self-naming line itself ("the flock kept, and the flock that keeps its own") is unchanged. Whether that line stays is the project lead's decision, and it would change the Permanent Prompt too.
 - O4. "Some of our own slip away to the public shows. We ask those still with us to share that worry." Checked against Sermon I (NPNF106 l. 9398-9400, the day of the public shows and "share my great anxiety").
 - O5. The two guard sentences that repeated the anchor's closing sentences were deleted, and the cryptic "more vivid hand" phrase went with them. The anchor's last two sentences carry the guard against borrowed images.
+
+### OG-59. Decision 8B extraction for `lpc`, 2026-09-30: embedded quotations moved into quote records; five host fields now fail regate, and three scope questions are left for the project lead.
+
+**Status: OPEN.** The extraction is done in the working tree (not committed). The 30 new `modern_rendering` fields were authored by Opus and still need the separate Opus check. The rendering-fidelity graders (`engine/m1/rendering_fidelity.py`) were not run.
+
+**Counts.** `python -m engine.m1.embedded_quotations` flagged 60 spans in 24 host records.
+- 56 spans went into 30 new quote records in `records/lpc/quote/`. Several spans share one passage.
+- 2 spans reuse existing records: `lpc.force.decian-persecution-libelli-system` now links `lpc.quote.shepherd-wounded-in-the-flock`, and `lpc.gravity.collegial-communion-preserved` now links `lpc.quote.bishop-of-bishops`.
+- 2 spans are not quotations of an old source and were not edited: the Construction Framework clause in `lpc.contested.cyprian-death-genre` `claim`, and the Facilitator redirect wording in the world core's `cautions`.
+- The sweep now reports 2 lpc records (those two), down from 24.
+
+**What changed in each host.** Only the sentence that held the quote was rewritten, as a plain paraphrase. Each host gained a `relations[]` link to its quote record. The back-links were added on the seven figure records, on `lpc.quote.bishop-of-bishops` (also for the new `lpc.quote.judging-no-man-from-communion`), on `lpc.quote.shepherd-wounded-in-the-flock`, and on `lpc.contested.cyprian-death-genre` (for `lpc.quote.trees-eyes-and-executioner`). Build-history sentences were deleted from host trailers and two `sources[].locus` values. Nothing was reworded.
+
+**Rulings applied.**
+- Possidius, chapter XXXI (`lpc.quote.slept-with-his-fathers`). The quote now starts at "with sight and hearing unimpaired". It is one continuous verified segment with no ellipsis. The dropped first clause sits on the other side of the facing Latin page.
+- Celerinus (`lpc.quote.celerinus-tribulation-and-sister`). The host story still says Celerinus "began" with "Know, nevertheless...". Those words open section 2 of Epistle XX, after a paragraph of greeting and request. The quote record's `divergence_note` records the mismatch. The host sentence keeps "began". Whether to correct it is still open.
+- Numidicus (`lpc.quote.numidicus-left-for-dead`). The `divergence_note` keeps the edition's endnote at "unwillingly" ("Otherwise, 'unconquered.'"). The text and the rendering follow the main-text reading.
+- `lpc.quote.penitential-psalms-and-seclusion` keeps the printed space in "read them ;", as `lpc.quote.clamour-and-tears` does.
+- The 256 preface sentence is its own record (`lpc.quote.judging-no-man-from-communion`). `lpc.quote.bishop-of-bishops` was not extended.
+
+**Judgement calls for the Opus check.**
+- `lpc.quote.no-donatist-bishop-in-the-succession`. The text elides 33 of the 37 bishop names (Evaristus to Damasus) with a marked ellipsis. The record body says so. With the full list, the rendering scores FRE 38.5, and no sentence split can clear FRE 60 because the names alone push syllables per word too high. The quote still verifies. The project lead may prefer the full list and a readability waiver instead.
+- `lpc.quote.later-councils-correct-earlier` starts inside Augustine's rhetorical question. The rendering states its content as statements and ends with a period, not the source's question mark.
+- `lpc.quote.lucian-hunger-thirst-brightness` starts at "when we were in this tribulation". The rendering opens "That was when we were in this distress" so the sentence has a subject.
+- `lpc.quote.slept-with-his-fathers` renders "he slept with his fathers" as "he fell asleep with his ancestors", because the modern sense of "slept with" misleads.
+- `lpc.quote.wealthy-and-rich-matron` renders "matron" as "married woman". `lpc.quote.water-extinguishes-fire-almsgiving-sin` renders "almsgiving" as "giving to the poor".
+- `engine/m1/sentence_completeness.py` flags three sentences. A read finds each one whole: an imperative ("All the same, know that..."), a question the source itself asks ("But why?"), and a whole clause the parser misread ("But the space beyond stretched so far...").
+- All 30 records also needed `modern_lens_note`, which the completion gate requires and the stage-1 drafts left out. It was authored with the renderings and needs the same check.
+
+**Regate: five host fields fail.** Before this pass, five fields were already below FRE 60: the world core `formation_logic` (FRE 56.1), the `description` of `lpc.force.congregational-acclamation-overriding-preference` (55.0), of `lpc.force.decian-persecution-libelli-system` (54.8) and of `lpc.gravity.collegial-communion-preserved` (53.7), and `lpc.witness.baptism-traced-to-the-apostles` `positions[0]` (50.3). Changing one sentence makes each field count as edited. `regate` then fails it, and the 8B rule does not allow rewriting the rest of the field. This is an unresolved tension for the project lead: either a separate readability task on these five fields lands first, or the rule has to say how 8B edits relate to regate. Three other fields that were failing now pass, because their plainer replacement sentence lifted them: the Augustine-engagement and confessors force descriptions, and `lpc.witness.violence-commanded-not-cruel` `text`. `lpc.witness.baptism-traced-to-the-apostles` `text` also passes now.
+
+**Left for a ruling: same wording in etic fields.** The same quotations remain in `manifestations[]` of five force records (Augustine's engagement with Cyprian's conciliar acts, the confessors' claim, congregational acclamation, the Decian persecution, transmission) and of `lpc.gravity.collegial-communion-preserved`. They also remain in `tensions[]` of `lpc.witness.baptism-traced-to-the-apostles` and `lpc.witness.heard-for-salvation-not-for-wish`. Whether Decision 8B covers these fields is the project lead's call. They were not edited.
+
+**Left: short quotations under eight words.** The sweep does not flag these, and they were not touched. "your suffrage and God's judgment" and "ancient venom" (acclamation force), "with the anxious consideration of affection" (Numidicus story), "of his own race only" (plague story), "whose successor is the present Bishop Anastasius" and "to-day" (apostolic-succession witness), "much disturbed" and "he showed not ferocity but obedience" (violence witness), the Retractationes phrases in the transmission force, and the `held_against` quotes in the contested claim.
+
+**Left: apparatus not deleted.** These sentences are build narration but were not on the deletion list, or could not be deleted without rewording:
+- the retrieval-tier sentence in the death-of-Cyprian story trailer
+- the claim_guards sentence in the Celerinus story trailer
+- the verification sentences in the hundred-thousand-sesterces trailer
+- "Celled to F5-I" in `lpc.limit.ordinary-interior-life`
+- the last sentence of the contested-claim trailer (deleting only its second half would leave a broken sentence)
+- the world core trailer, which carries the two ROUTE hits `tools/check_live_commentary.py` reports for lpc
+- the figure record trailers
+
+`check_live_commentary.py --surface records` shows no new hits.
+
+**Gates, 2026-09-30.** `records lpc`, `gaps`, and `claims lpc` pass (110 claims derived, 110 registered, no new claim sentence). `regate lpc` fails on the five fields above. Every quote record passes quote-verbatim, confidence-crosscheck (verification_state), completion-per-type, schema-validation, reciprocity, quote-mark-fidelity, and readability. No rendering scores above FK 10 or below FRE 60. 26 of the world's 35 renderings score below FK 8, which is reported, not failed.

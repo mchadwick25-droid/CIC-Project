@@ -32,6 +32,8 @@ claim_guards: []
 relations:
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.force.decian-persecution-libelli-system
 text: I grieve, brethren, I grieve with you; nor does my own integrity and my personal soundness beguile
   me to the soothing of my griefs, since it is the shepherd that is chiefly wounded in the wound of his
   flock. I join my breast with each one, and I share in the grievous burden of sorrow and mourning. I

@@ -36,5 +36,7 @@ relations:
   target: lpc.story.numidicus
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.quote.numidicus-left-for-dead
 ---
 The central named subject of lpc.story.numidicus, and this world's own clearest single case of ordination granted on the strength of what a man had endured rather than what he had studied -- the same criterion Doc_04 makes a Primary gravity (sacramental and ordination validity) applied here to one identifiable person in public. His own wife and daughter are visible in the same letter and never audible (Doc_09 SS7 item 4); neither is named, so neither is built as a figure of her own here.

@@ -35,5 +35,9 @@ relations:
   target: lpc.story.celerinus-writes-to-lucian
 - type: associated-with
   target: lpc.figure.celerinus
+- type: associated-with
+  target: lpc.quote.lucian-already-weary
+- type: associated-with
+  target: lpc.quote.lucian-hunger-thirst-brightness
 ---
 The confessor whose own reply is the operative act of the tension lpc.story.celerinus-writes-to-lucian shows -- he, not Cyprian, grants the peace Celerinus asks for. Named separately from Celerinus rather than paired with him, since each is independently attested in his own letter and his own voice, not one account a third party narrates about both together.

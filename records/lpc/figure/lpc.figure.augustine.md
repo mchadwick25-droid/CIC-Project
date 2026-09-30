@@ -43,5 +43,27 @@ relations:
   target: lpc.quote.clamour-and-tears
 - type: associated-with
   target: lpc.quote.longing-expectation-is-a-prayer-for-me
+- type: associated-with
+  target: lpc.quote.custom-handed-down-from-the-apostles
+- type: associated-with
+  target: lpc.quote.grace-sufficient-heard-for-salvation
+- type: associated-with
+  target: lpc.quote.grant-me-chastity-but-not-yet
+- type: associated-with
+  target: lpc.quote.infant-baptism-apostolical-authority
+- type: associated-with
+  target: lpc.quote.later-councils-correct-earlier
+- type: associated-with
+  target: lpc.quote.no-donatist-bishop-in-the-succession
+- type: associated-with
+  target: lpc.quote.not-cruelty-but-righteous-retribution
+- type: associated-with
+  target: lpc.quote.penitential-psalms-and-seclusion
+- type: associated-with
+  target: lpc.quote.restless-till-they-find-rest
+- type: associated-with
+  target: lpc.quote.slept-with-his-fathers
+- type: associated-with
+  target: lpc.quote.weeping-in-hymns-and-canticles
 ---
 The second of this world's own two anchor figures (Doc_09 SS1), central to the whole of Phase Two (lpc.story.the-psalms-on-the-wall, the only Phase Two story this pass builds) and the subject of lpc.quote.clamour-and-tears. Doc_01 SS2 finds the same congregational-acclamation-overriding-reluctance pattern recurring in his own career that lpc.story.election-of-cyprian shows for Cyprian, at two separate points (the presbyterate in 391 and the episcopate in 395/396) rather than one -- this record names both rather than only the one lpcstory007 itself draws on.

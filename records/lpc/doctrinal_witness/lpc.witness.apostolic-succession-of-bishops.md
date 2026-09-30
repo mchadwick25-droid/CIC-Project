@@ -56,12 +56,14 @@ relations:
   target: lpc.witness.baptism-traced-to-the-apostles
 - type: associated-with
   target: lpc.witness.tradition-tested-by-apostolic-warrant
+- type: associated-with
+  target: lpc.quote.no-donatist-bishop-in-the-succession
 positions:
 - Augustine, with Fortunatus and Alypius, wrote a joint letter against a Donatist presbyter. The
   presbyter had claimed an "episcopal succession" for his own side. The three named the actual line
-  instead. They counted from Peter, to whom the Lord said "upon this rock will I build my Church."
+  instead. They counted from Peter, to whom the Lord said he would build his Church on this rock.
   They listed every bishop of Rome by name, from Linus and Clement down to Anastasius, the bishop
-  then sitting. "In this order of succession no Donatist bishop is found." Elsewhere, against
+  then sitting. No Donatist bishop, they wrote, is found in this line of succession. Elsewhere, against
   Petilian, Augustine alone named a second chair the same way. He named Peter's own seat at Rome and
   James's at Jerusalem, each with the man who filled it "to-day."
 tensions:
@@ -77,8 +79,7 @@ text: Was the office of bishop itself, not just this or that practice, ever trac
   together with two fellow bishops, Fortunatus and Alypius. A Donatist presbyter had claimed an
   "episcopal succession" for his own side. The three bishops answered with the real one. They named
   every bishop of Rome in order. They started with Linus, the successor of Peter. They ended with
-  Siricius, "whose successor is the present Bishop Anastasius." Then they added, "In this order of
-  succession no Donatist bishop is found." Against another Donatist, Petilian, Augustine alone named
+  Siricius, "whose successor is the present Bishop Anastasius." Then they added that no Donatist bishop is found anywhere in this line of succession. Against another Donatist, Petilian, Augustine alone named
   a second chair the same way. He named Peter's own seat at Rome and James's at Jerusalem. Each was
   still filled, "to-day," by a living bishop. Cyprian, a century and a half earlier, made no name
   list of his own. He stated the principle instead. From Peter onward, the ordering of bishops

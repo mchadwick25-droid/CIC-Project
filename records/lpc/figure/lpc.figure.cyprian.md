@@ -60,5 +60,37 @@ relations:
   target: lpc.quote.ancient-venom-against-my-episcopate
 - type: associated-with
   target: lpc.quote.shepherd-wounded-in-the-flock
+- type: associated-with
+  target: lpc.quote.all-our-power-is-of-god
+- type: associated-with
+  target: lpc.quote.christ-in-our-captive-brethren
+- type: associated-with
+  target: lpc.quote.grief-of-mind-and-tears
+- type: associated-with
+  target: lpc.quote.judging-no-man-from-communion
+- type: associated-with
+  target: lpc.quote.judgment-of-god-and-favour-of-people
+- type: associated-with
+  target: lpc.quote.letter-sent-back-altered
+- type: associated-with
+  target: lpc.quote.numidicus-left-for-dead
+- type: associated-with
+  target: lpc.quote.plague-and-the-city
+- type: associated-with
+  target: lpc.quote.sum-sent-fruitful-fields
+- type: associated-with
+  target: lpc.quote.thirteen-letters-transmitted
+- type: associated-with
+  target: lpc.quote.thousands-of-certificates-daily
+- type: associated-with
+  target: lpc.quote.to-all-men-not-the-household-of-faith
+- type: associated-with
+  target: lpc.quote.to-answer-to-our-birth
+- type: associated-with
+  target: lpc.quote.trees-eyes-and-executioner
+- type: associated-with
+  target: lpc.quote.water-extinguishes-fire-almsgiving-sin
+- type: associated-with
+  target: lpc.quote.wealthy-and-rich-matron
 ---
 One of this world's own two anchor figures (Doc_09 SS1), central to four of the seven built stories (lpc.story.election-of-cyprian, lpc.story.the-plague-and-the-enemies, lpc.story.numidicus as author, lpc.story.hundred-thousand-sesterces as author, lpc.story.the-death-of-cyprian) and the speaker of three of the four quotes this pass builds. Everything specific about his own early life beyond the bare conversion date reaches us through Pontius, his own admiring deacon (Doc_02 SS4); this record does not smooth that mediation into neutral narration.

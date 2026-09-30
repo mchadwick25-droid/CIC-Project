@@ -38,5 +38,9 @@ relations:
   target: lpc.figure.augustine
 - type: associated-with
   target: lpc.quote.clamour-and-tears
+- type: associated-with
+  target: lpc.quote.penitential-psalms-and-seclusion
+- type: associated-with
+  target: lpc.quote.slept-with-his-fathers
 ---
 The main source for Phase Two's one built story, and its only witness to the sickroom (Prosper's chronicle corroborates only the date of death and the siege, and that Augustine was still answering Julian's books at the very end), and the source of lpc.quote.clamour-and-tears -- the mirror of Pontius's own role for Phase One, a friendly rather than hostile mediating eyewitness whose own presence in the room (rather than only his own social location) is what the Tier Justification for lpc.story.the-psalms-on-the-wall rests its Tier 1 finding on. His own interventions and subscription also survive in the minutes of the 411 Conference (the PL XI Gesta), which this build has not read for his voice.

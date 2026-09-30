@@ -31,7 +31,7 @@ sources:
   locus: whole work -- Cyprian's own election and the Curubis exile
   license: public-domain
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
-  locus: whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life
+  locus: whole work -- Augustine's own formation-narrative counterpart to Pontius's Life
   license: public-domain
 - source_id: lpc.source.augustine-confessions
   locus: whole work -- Augustine's own conversion narrative
@@ -48,7 +48,9 @@ sources:
 - source_id: lpc.source.code-of-canons-of-the-african-church-419
   locus: whole work -- the institutional skeleton of this world's own conciliar life
   license: public-domain
-relations: []
+relations:
+- type: associated-with
+  target: lpc.quote.judging-no-man-from-communion
 time_window:
   start: 246
   end: 430
@@ -161,8 +163,7 @@ formation_logic: >-
 
   This world's most characteristic structure is an internal rule that keeps disagreement from
   becoming separation. Cyprian states it while presiding over the council that will decide the
-  sharpest question in the room. His words are these: 'judging no man, nor rejecting any one from
-  the right of communion, if he should think differently from us.' A century and a third later,
+  sharpest question in the room. He said each bishop should give his view, judging no one and shutting no one out of communion for thinking differently. A century and a third later,
   Augustine argues at book length that Cyprian's ruling was wrong. He never places him outside.
 
 

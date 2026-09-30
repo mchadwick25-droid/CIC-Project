@@ -37,6 +37,8 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.transmission-asymmetric-span-133-year-silence
+- type: associated-with
+  target: lpc.quote.later-councils-correct-earlier
 name: Augustine's Engagement with Cyprian's Conciliar Acts
 kind: ongoing
 description: >-
@@ -45,8 +47,7 @@ description: >-
 
 
   From inside this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
-  had decided this question wrongly. Augustine gave the principle that let him say so: "[E]ven of the
-  plenary Councils, the earlier are often corrected by those which follow them."
+  had decided this question wrongly. Augustine gave the principle that let him say so. Even the full councils of the whole church are often put right by the ones that come after.
 
 
   This is the only force that carries the world's formation logic across its 133-year silence between
@@ -74,4 +75,3 @@ manifestations:
 - Augustine reading, arguing with, and overturning the rebaptism ruling of Cyprian's council of 256
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-4 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G3, G5, G6) and the force<->force edges (1B-1, 2A-3, 3B-2) named above.

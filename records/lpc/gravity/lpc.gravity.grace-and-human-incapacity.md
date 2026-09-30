@@ -35,6 +35,8 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 - type: associated-with
   target: lpc.force.corpus-outliving-the-world
+- type: associated-with
+  target: lpc.quote.all-our-power-is-of-god
 name: Grace and Human Incapacity
 description: >-
   This concern is real, but it does not run nearly as wide as the others. It organizes a large and
@@ -61,7 +63,7 @@ description: >-
 
 
   So it does not span the whole world. It organizes only Augustine's phase. Cyprian does state the
-  theme. In Ad Donatum 4 he writes, "All our power is of God; I say, of God." In the chapter list of
+  theme. In Ad Donatum 4 he writes that all our power comes from God, and he says it twice for emphasis. In the chapter list of
   Ad Quirinum III.4 we read that we must boast in nothing, since nothing is our own. Augustine cites
   Cyprian for it against the Pelagians. But in Cyprian's phase the theme drives no controversy and no
   body of work.
@@ -88,4 +90,3 @@ manifestations:
   is enough without grace
 classification: supporting
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 7). relations[] carries the gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above, plus one added contested_claim edge (lpc.contested.grace-pelagius-characterization) per that record's own RECIPROCITY discipline (wb_lpc_s26.py) -- an additive edit, not a regeneration of this file.

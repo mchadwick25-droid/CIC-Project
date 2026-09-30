@@ -38,6 +38,12 @@ relations:
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.witness.almsgiving-quenches-sin
+- type: associated-with
+  target: lpc.quote.christ-in-our-captive-brethren
+- type: associated-with
+  target: lpc.quote.grief-of-mind-and-tears
+- type: associated-with
+  target: lpc.quote.sum-sent-fruitful-fields
 narrative_tier: 1
 narrative_tier_justification: 'Documented. First-person testimony from Cyprian''s own letter, naming its
   eight recipients, stating an amount and a mechanism -- named author, exact social location, datable
@@ -46,23 +52,13 @@ narrative_tier_justification: 'Documented. First-person testimony from Cyprian''
   matter, not Cyprian''s own words. This record cites SS3 of the letter''s own body, where Cyprian states
   the sum in his own voice, rather than the Argument, which happens to carry the same true figure.'
 tellable_as: How we sent a hundred thousand sesterces to ransom people most of us had never met
-text: 'Word reached us that fellow believers in the Numidian towns had been carried off by raiders. Cyprian''s
-  reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus,
-  Nampulus and Honoratus, whom he names one by one -- opens without composure: "With excessive grief of
-  mind, and not without tears."
+text: 'Word reached us that fellow believers in the Numidian towns had been carried off by raiders. Cyprian''s reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one -- opens without composure. He read their letter, he says, with overwhelming grief and not without tears.
 
 
-  The argument he made was not about charity. It was about identity. Quoting Paul, that "as many of you
-  as have been baptized into Christ have put on Christ," he drew the conclusion directly: "Christ is to
-  be contemplated in our captive brethren, and He is to be redeemed from the peril of captivity who redeemed
-  us from the peril of death."
+  The argument he made was not about charity. It was about identity. He quoted Paul, that all who have been baptized into Christ have put on Christ. From this he drew the conclusion directly: we must see Christ in our fellow believers held captive. The one who redeemed us from the danger of death must be redeemed from the danger of captivity.
 
 
-  Then he said what the money was. "We have then sent you a sum of one hundred thousand sesterces, which
-  have been collected here in the Church over which by the Lord''s mercy we preside, by the contributions
-  of the clergy and people established with us, which you will there dispense with what diligence you
-  may." And he thanked them, for being asked -- for offering us, in his own words, "fruitful fields in
-  which we might cast the seeds of our hope."'
+  Then he said what the money was. He told them we had sent a sum of one hundred thousand sesterces. It had been gathered here, in the church he led by the Lord''s mercy, from the gifts of our clergy and people. They were to hand it out there as carefully as they could. And he thanked them, for being asked -- for offering us, as he put it, fruitful fields in which to sow the seeds of our hope.'
 absent_detail: We do not know whether the ransom worked. Cyprian never wrote again about the outcome,
   and the Numidian bishops' own reply, if there was one, does not survive. The story ends with the money
   leaving Carthage.
@@ -71,4 +67,4 @@ modern_contrast: A modern listener may reach at once for a currency conversion -
   clergy and people for the ransom of strangers, and that we do not know what proportion of anything it
   represented.
 ---
-Recast into first-person register from Cyprian's own Epistle LIX. "Hundred thousand sesterces" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082, the same line this record's own sources[].locus field cites. The claim_guards entry bars inventing a modern-currency conversion for the sum, which no source of ours licenses.
+"Hundred thousand sesterces" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082, the same line this record's own sources[].locus field cites. The claim_guards entry bars inventing a modern-currency conversion for the sum, which no source of ours licenses.

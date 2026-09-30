@@ -37,5 +37,7 @@ relations:
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.figure.lucian
+- type: associated-with
+  target: lpc.quote.celerinus-tribulation-and-sister
 ---
 One of two named confessors (with Lucian) whose own letters carry Doc_04's own Tensional gravity -- confessor-authority against episcopal-regulated peace -- in operation rather than in description, in the participants' own hands. His letter is preserved only because it survived inside Cyprian's own dossier, the bishop whose authority it in effect bypasses.

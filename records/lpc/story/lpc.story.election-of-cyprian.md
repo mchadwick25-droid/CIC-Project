@@ -41,6 +41,8 @@ relations:
   target: lpc.figure.pontius
 - type: associated-with
   target: lpc.quote.ancient-venom-against-my-episcopate
+- type: associated-with
+  target: lpc.quote.judgment-of-god-and-favour-of-people
 narrative_tier: 1
 narrative_tier_justification: 'Documented. Tier 1 (Doc_09 SS3), and the tier is assigned to this story
   rather than to its source. Pontius is an eyewitness with an identifiable social location -- our own
@@ -55,14 +57,10 @@ narrative_tier_justification: 'Documented. Tier 1 (Doc_09 SS3), and the tier is 
 tellable_as: How we came to treat a recent convert's own election, over his reluctance, as God's own judgment
   made visible
 text: 'Our own deacon Pontius, writing after his bishop had been executed, passed over most of what he
-  could have said about Cyprian''s early years and settled on one fact as enough. "For the proof of his
-  good works I think that this one thing is enough," he wrote: "that by the judgment of God and the favour
-  of the people, he was chosen to the office of the priesthood and the degree of the episcopate while
-  still a neophyte, and, as it was considered, a novice."
+  could have said about Cyprian''s early years and settled on one fact as enough. He wrote that this alone was enough to prove his good works. By the judgment of God and the favour of the people, Cyprian was chosen for the priesthood and the rank of bishop. He was still a neophyte and, as people saw it, a novice.
 
 
-  A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that Cyprian was "still
-  in the early days of his faith, and in the untaught season of his spiritual life." What we saw in him
+  A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that Cyprian was still in the early days of his faith, at an untaught stage of his spiritual life. What we saw in him
   was not training. It was something we thought we could already see.
 
 
@@ -78,4 +76,3 @@ modern_contrast: A modern listener may hear 'the people chose him' as describing
   and a count. We had none of that. What we had was a crowd whose favour we treated as evidence of God's
   own judgment, and a man who did not want the office in the first place.
 ---
-Mapped directly from Story-Chunks/lpcstory001_election-of-cyprian.md's own Story Text, Tier Justification and Usage Guidance sections, recast from third-person report into this world's own first-person register (see script docstring, REGISTER). The core quotation ('by the judgment of God and the favour of the people... a neophyte') is independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820 (the word 'neophyte' itself) and the surrounding lines through 27823 -- verification_state held at verified-direct on that basis. Ep. LXVII's own corroborating locus is carried from the chunk's own Tier Justification and not independently re-opened this session (its own quoted phrase, 'suffrage of the whole brotherhood', was located this session at the same vendored file, confirmed present); the closing sentence's own second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting forward to lpc.quote.ancient-venom-against-my-episcopate (see QUOTE SET), and is not itself in the Story-Chunk.
