@@ -1,4 +1,6 @@
 kind: formation
 world_id: latin-pastoral-congregational-christianity
+time_window: {start: 246, end: 430}
+place: "Carthage and Hippo Regius, in Latin-speaking Roman North Africa (Africa Proconsularis and Numidia)"
 census_id: "latin-pastoral-congregational-christianity"
 safety_adjacent: false
