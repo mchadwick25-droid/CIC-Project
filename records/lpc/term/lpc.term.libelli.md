@@ -21,17 +21,28 @@ confidence:
   verification_state: unverified
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: A direct check finds the Latin headword absent from this world's own vendored English
-    corpus altogether. The volume's single occurrence of the word-family sits in the Introductory Notice
-    to the anonymous treatise against Novatian, not in De Lapsis. This term is carried as supporting reference
-    vocabulary for the lapsed, on Doc_01's own gloss rather than on attestation in this world's own primary
-    text -- a named gap, not filled with a confidence rating the source cannot support. Compare lpc.term.certificates-letters-of-peace,
-    which attests the English word the translation actually uses for the confessors' own opposite-direction
-    document.
+  divergence_note: 'Cyprian uses the word himself, in Latin: ''libellis conscientiam suam maculauerint''
+    (Epistle 55.3 in Hartel''s edition; Epistle LI in the ANF translation) and ''cum occasio libelli fuisset
+    oblata'' (55.14). The English translation renders it ''certificates'' and never prints libelli; its
+    one occurrence of the word-family is the editor''s ''Libellatici'' in the Introductory Notice to the
+    anonymous treatise against Novatian. The same Latin word also names the martyrs'' letters of peace,
+    which lpc.term.certificates-letters-of-peace carries separately; this record is the document the empire
+    issued. The Latin edition is a cross-check on the English reading.'
 sources:
+- source_id: lpc.source.cyprian-epistles
+  locus: 'Epistle LI (Hartel Ep. 55), section 3: ''those who have stained their conscience with certificates,
+    or have offered abominable sacrifices''; section 14: ''I pay a price for this purpose, that I may
+    not do what is not lawful for me to do'''
+  license: public-domain
+- source_id: lpc.source.hartel-cyprian-opera-omnia-csel3-pars1-2
+  locus: Epistulae 55.3, 'libellis conscientiam suam maculauerint uel nefanda sacrificia commiserint',
+    and 55.14, 'cum occasio libelli fuisset oblata' (Registry row 39 is the standing reference to this
+    edition)
+  license: public-domain
 - source_id: lpc.source.anonymous-against-novatian-and-on-rebaptism
-  locus: the Introductory Notice to the anonymous treatise against Novatian -- the volume's own single
-    occurrence of the 'libell-' word-family, not an occurrence of 'libelli' bare, and not inside De Lapsis
+  locus: the Introductory Notice to the anonymous treatise against Novatian -- the English volume's own
+    single occurrence of the 'libell-' word-family, an editor's note, not an occurrence of 'libelli' bare,
+    and not inside De Lapsis
   license: public-domain
 retrieval:
   tier: 2
@@ -58,11 +69,10 @@ senses:
     document saying they had. This is the administrative fact underneath the lapsed, and therefore underneath
     our whole penitential discipline and the confessor-authority tension: the crisis was documentary rather
     than merely moral.'
-  evidential: Doc_01's own gloss is the operative source for this term's meaning. A direct check finds
-    the Latin headword absent from our vendored English corpus altogether; the volume's one occurrence
-    of the word-family sits in the Introductory Notice to the anonymous treatise against Novatian, not
-    in De Lapsis. This term is carried as supporting reference vocabulary, on the gloss rather than direct
-    primary-text attestation.
+  evidential: We know this word from Cyprian's own letters. In Epistle 55 he writes of people who 'have
+    stained their conscience with certificates'. The Latin behind that English is libellis. He uses the
+    same word again in that letter for the paper a man gets from the magistrate. The same Latin word also
+    names the martyrs' letters of peace, so the setting tells us which paper is meant.
   translational: A modern listener may picture a formal identity document or licence. We mean a compliance
     record produced by an empire-wide administrative demand, whose existence is exactly what made failure
     documentary and public rather than private.

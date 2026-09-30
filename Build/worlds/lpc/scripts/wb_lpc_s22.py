@@ -222,14 +222,11 @@ textual grounds of a real Supporting/conciliar-authority axis whose
 formulas' existence is Documented, Tier 2 only because Doc_04/Doc_05
 find no evidence the axis reached ordinary formation). `libelli` and
 `libellatici/sacrificati` are the two Inferential-Thin entries in this
-batch, on the same ground `wb_lpc_s21.py`'s own row-38 departure states for
-Numidian basilica archaeology: `libelli`'s own Latin headword is absent
-from this world's vendored corpus altogether (its own chunk: "A direct
-check finds the Latin headword absent from this world's vendored English
-corpus altogether"), and `libellatici`/`sacrificati`'s own two-way
-classification reaches this record as a 19th-century editorial endnote on
-a different, Confidence-C text, not as Cyprian's own words -- both real,
-named gaps, not filled with a confidence rating the source cannot support.
+batch. The vendored English volume never prints the Latin headword
+`libelli`, and prints the class names `libellatici`/`sacrificati` only in
+an editor's endnote on a different, Confidence-C text. Cyprian's own
+Epistle LI (Hartel Ep. 55) carries both classes in his own words, so the
+attestation is direct; the tier is held as set and reported for review.
 `evidentiary_weight="contested"` is used nowhere in this batch, the same
 `wb_lpc_s21.py`-stated rule extended here: no term's underlying SOURCE
 OBJECT is disputed in the narrow sense that value is reserved for; the
@@ -280,6 +277,7 @@ ROW_TO_SOURCE = {
     5: "cyprian-minor-pastoral-treatises",
     7: "pontius-life-and-passion-of-cyprian",
     8: "anonymous-against-novatian-and-on-rebaptism",
+    191: "hartel-cyprian-opera-omnia-csel3-pars1-2",
     9: "augustine-confessions",
     11: "augustine-general-correspondence",
     12: "augustine-correction-of-the-donatists",
@@ -1913,19 +1911,27 @@ def build_tier2_terms() -> list[str]:
         dict(
             confidence=conf(
                 "D", "unverified", "illustrative", "Inferential-Thin",
-                "A direct check finds the Latin headword absent from this world's own vendored "
-                "English corpus altogether. The volume's single occurrence of the word-family sits "
-                "in the Introductory Notice to the anonymous treatise against Novatian, not in De "
-                "Lapsis. This term is carried as supporting reference vocabulary for the lapsed, on "
-                "Doc_01's own gloss rather than on attestation in this world's own primary text -- a "
-                "named gap, not filled with a confidence rating the source cannot support. Compare "
-                "lpc.term.certificates-letters-of-peace, which attests the English word the translation actually "
-                "uses for the confessors' own opposite-direction document.",
+                "Cyprian uses the word himself, in Latin: 'libellis conscientiam suam maculauerint' "
+                "(Epistle 55.3 in Hartel's edition; Epistle LI in the ANF translation) and 'cum "
+                "occasio libelli fuisset oblata' (55.14). The English translation renders it "
+                "'certificates' and never prints libelli; its one occurrence of the word-family is "
+                "the editor's 'Libellatici' in the Introductory Notice to the anonymous treatise "
+                "against Novatian. The same Latin word also names the martyrs' letters of peace, "
+                "which lpc.term.certificates-letters-of-peace carries separately; this record is the "
+                "document the empire issued. The Latin edition is a cross-check on the English "
+                "reading.",
             ),
             sources=[
+                src(1, "Epistle LI (Hartel Ep. 55), section 3: 'those who have stained their "
+                       "conscience with certificates, or have offered abominable sacrifices'; "
+                       "section 14: 'I pay a price for this purpose, that I may not do what is not "
+                       "lawful for me to do'"),
+                src(191, "Epistulae 55.3, 'libellis conscientiam suam maculauerint uel nefanda "
+                         "sacrificia commiserint', and 55.14, 'cum occasio libelli fuisset oblata' "
+                         "(Registry row 39 is the standing reference to this edition)"),
                 src(8, "the Introductory Notice to the anonymous treatise against Novatian -- the "
-                       "volume's own single occurrence of the 'libell-' word-family, not an "
-                       "occurrence of 'libelli' bare, and not inside De Lapsis"),
+                       "English volume's own single occurrence of the 'libell-' word-family, an "
+                       "editor's note, not an occurrence of 'libelli' bare, and not inside De Lapsis"),
             ],
             retrieval={
                 "tier": 2,
@@ -1964,12 +1970,11 @@ def build_tier2_terms() -> list[str]:
                     "tension: the crisis was documentary rather than merely moral."
                 ),
                 "evidential": (
-                    "Doc_01's own gloss is the operative source for this term's meaning. A direct "
-                    "check finds the Latin headword absent from our vendored English corpus "
-                    "altogether; the volume's one occurrence of the word-family sits in the "
-                    "Introductory Notice to the anonymous treatise against Novatian, not in De "
-                    "Lapsis. This term is carried as supporting reference vocabulary, on the gloss "
-                    "rather than direct primary-text attestation."
+                    "We know this word from Cyprian's own letters. In Epistle 55 he writes of "
+                    "people who 'have stained their conscience with certificates'. The Latin behind "
+                    "that English is libellis. He uses the same word again in that letter for the "
+                    "paper a man gets from the magistrate. The same Latin word also names the "
+                    "martyrs' letters of peace, so the setting tells us which paper is meant."
                 ),
                 "translational": (
                     "A modern listener may picture a formal identity document or licence. We mean a "
@@ -1997,14 +2002,23 @@ def build_tier2_terms() -> list[str]:
         dict(
             confidence=conf(
                 "C", "verified-direct", "illustrative", "Inferential-Thin",
-                "This classification reaches this record as the vendored English edition's own "
-                "19th-century editorial endnote, attached to the anonymous treatise against "
-                "Novatian, not to an independently re-verified passage of De Lapsis in Cyprian's "
-                "own words. It is disclosed as editorial rather than as this world's own two-way "
-                "classification, carried for recognizability, not as a claim about Cyprian's own "
-                "terminology -- the lowest-attested item in this lexicon.",
+                "Cyprian names both classes himself, in Latin: 'libellaticos cum sacrificatis "
+                "aequari oportere' (Epistle 55.13 in Hartel's edition; Epistle LI in the ANF "
+                "translation) and 'libellaticos interim admitti, sacrificatis in exitu subueniri' "
+                "(55.17); 55.14 and 55.26 use libellatici again. The English translation renders "
+                "them 'those who receive certificates' and 'those who have sacrificed' and prints "
+                "the Latin class names only in the American editor's endnote to the anonymous "
+                "treatise against Novatian, whose closing clause is the editor's summary. The Latin "
+                "edition is a cross-check on the English reading.",
             ),
             sources=[
+                src(1, "Epistle LI (Hartel Ep. 55): 'those who receive certificates are to be put "
+                       "on a par with those who have sacrificed'; 'the receivers of certificates "
+                       "should in the meantime be admitted, that those who had sacrificed should be "
+                       "assisted at death'"),
+                src(191, "Epistulae 55.13, 'libellaticos cum sacrificatis aequari', and 55.17, "
+                         "'libellaticos interim admitti, sacrificatis in exitu subueniri' "
+                         "(Registry row 39 is the standing reference to this edition)"),
                 src(8, "the Introductory Notice's own editorial endnote -- '(1) Libellatici, those "
                        "who had compounded with the heathen, and bought off from offering "
                        "sacrifice; and (2) Sacrificati, those who had actually offered sacrifice to "
@@ -2045,13 +2059,12 @@ def build_tier2_terms() -> list[str]:
                     "reconciliation is a process with stages rather than a single yes or no."
                 ),
                 "evidential": (
-                    "This classification reaches this record as the vendored edition's own "
-                    "19th-century editorial endnote, attached to the anonymous treatise against "
-                    "Novatian (Confidence C), not to an independently re-verified passage of De "
-                    "Lapsis in Cyprian's own words. It is disclosed as editorial, carried for "
-                    "recognizability rather than as a claim about Cyprian's own terminology -- the "
-                    "World Meaning above is written to the substance of graduated penance, which "
-                    "Cyprian's own correspondence does attest, not to the editor's specific labels."
+                    "Cyprian himself names these two groups. In Epistle 55 he warns against putting "
+                    "'those who receive certificates' on a par with 'those who have sacrificed'. He "
+                    "then says that the first group should be admitted for now, and the second "
+                    "helped at the hour of death. In Latin they are the libellatici and the "
+                    "sacrificati. The English we read prints those Latin names only in an editor's "
+                    "note."
                 ),
                 "translational": (
                     "A modern listener may assume a formal canonical taxonomy, fixed by the church "

@@ -250,7 +250,7 @@ To be formed in this world was to be somebody's — and to discover that this wa
 6. **The 411 *Gesta* remains unread** but is closed as a persistence question (Doc_04 §7 item 6); and **Doc_04 §7 item 8 is closed** on the gapped-formation precedent, which records the argument without pursuing it — Round 9's finding that a determinate Framework classification for G5 is reachable from Doc_04's own premises and has not been run. **Item 2 binds every downstream document to note both; §2D carries them.**
 7. **CLOSED, 2026-09-16 — Possidius's *Vita Augustini* (row 192) has been read in full** (`Review-Artifacts/Possidius_Full_Read_2026-09-16.md`, all thirty-one chapters). It was the natural source for §2C's thinnest corner, and §2C and §2F both now draw on it.
 8. **The liturgical material has never been read *as* liturgical evidence** (Doc_02 §9 item 9). Given §2A's finding that this world's crises *are* rite disputes, **this is the highest-value unblocked task in the build**, and Doc_06 §5 item 3 expects it to surface at least one further lexicon term.
-9. **This world still has no `Open_Gaps_Tracking.md`**, required of every world by `CLAUDE.md` and held by only three of twelve. Fleet-level.
+9. **This world has an `Open_Gaps_Tracking.md`** (`Build/worlds/lpc/Open_Gaps_Tracking.md`), which `CLAUDE.md` requires of every world.
 10. **This document runs about 12% over the template's word target** (§1), and the overage grew across two fix passes because each added content a finding required. **A condensing pass on §2 is the remedy** — the nine lenses repeat between their two halves in places — and it should be run by a thread that is not also applying findings, since every pass that has tried to trim while fixing has added more than it cut.
 
 ---

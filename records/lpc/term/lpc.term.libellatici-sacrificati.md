@@ -19,12 +19,23 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: This classification reaches this record as the vendored English edition's own 19th-century
-    editorial endnote, attached to the anonymous treatise against Novatian, not to an independently re-verified
-    passage of De Lapsis in Cyprian's own words. It is disclosed as editorial rather than as this world's
-    own two-way classification, carried for recognizability, not as a claim about Cyprian's own terminology
-    -- the lowest-attested item in this lexicon.
+  divergence_note: 'Cyprian names both classes himself, in Latin: ''libellaticos cum sacrificatis aequari
+    oportere'' (Epistle 55.13 in Hartel''s edition; Epistle LI in the ANF translation) and ''libellaticos
+    interim admitti, sacrificatis in exitu subueniri'' (55.17); 55.14 and 55.26 use libellatici again.
+    The English translation renders them ''those who receive certificates'' and ''those who have sacrificed''
+    and prints the Latin class names only in the American editor''s endnote to the anonymous treatise
+    against Novatian, whose closing clause is the editor''s summary. The Latin edition is a cross-check
+    on the English reading.'
 sources:
+- source_id: lpc.source.cyprian-epistles
+  locus: 'Epistle LI (Hartel Ep. 55): ''those who receive certificates are to be put on a par with those
+    who have sacrificed''; ''the receivers of certificates should in the meantime be admitted, that those
+    who had sacrificed should be assisted at death'''
+  license: public-domain
+- source_id: lpc.source.hartel-cyprian-opera-omnia-csel3-pars1-2
+  locus: Epistulae 55.13, 'libellaticos cum sacrificatis aequari', and 55.17, 'libellaticos interim admitti,
+    sacrificatis in exitu subueniri' (Registry row 39 is the standing reference to this edition)
+  license: public-domain
 - source_id: lpc.source.anonymous-against-novatian-and-on-rebaptism
   locus: the Introductory Notice's own editorial endnote -- '(1) Libellatici, those who had compounded
     with the heathen, and bought off from offering sacrifice; and (2) Sacrificati, those who had actually
@@ -53,12 +64,10 @@ senses:
     back is longer for one than the other. What does not change is where the road ends. This is the graduation
     inside penitential discipline -- the reason reconciliation is a process with stages rather than a
     single yes or no.
-  evidential: This classification reaches this record as the vendored edition's own 19th-century editorial
-    endnote, attached to the anonymous treatise against Novatian (Confidence C), not to an independently
-    re-verified passage of De Lapsis in Cyprian's own words. It is disclosed as editorial, carried for
-    recognizability rather than as a claim about Cyprian's own terminology -- the World Meaning above
-    is written to the substance of graduated penance, which Cyprian's own correspondence does attest,
-    not to the editor's specific labels.
+  evidential: Cyprian himself names these two groups. In Epistle 55 he warns against putting 'those who
+    receive certificates' on a par with 'those who have sacrificed'. He then says that the first group
+    should be admitted for now, and the second helped at the hour of death. In Latin they are the libellatici
+    and the sacrificati. The English we read prints those Latin names only in an editor's note.
   translational: 'A modern listener may assume a formal canonical taxonomy, fixed by the church itself
     and applied uniformly. We mean a real practical distinction in how gravely a failure was reckoned,
     inside a process whose outcome was the same in the end: a road back that all of us could walk.'
