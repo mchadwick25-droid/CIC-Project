@@ -26,6 +26,7 @@ Zero fabrication anywhere: records, voice, probe documents, review files. The re
 
 - **Sonnet 5.5** drafts every document except Doc_04 and Doc_10. It also orchestrates and does mechanical work.
 - **Fable** drafts only Doc_04 (Gravity Discovery) and Doc_10 (Representative Construction Notes, Permanent Prompt, voice, demonstrations). Fable also diagnoses failures in Phase D.
+- **Pilot worlds.** Sonnet 5.5 and Fable each draft Doc_10, blind-graded by two Opus 5.5 passes. Sonnet keeps Doc_10 only if it clears the rule in `Build/reference/method/CiC_Pilot_Protocol_V2.0.md`.
 - **Opus 5.5** reviews every round, grades blind, and authors every `modern_rendering`. A separate Opus pass checks each rendering.
 - The reviewer is never the drafter.
 - The first review file is Opus at high effort. The second and third are targeted rechecks at medium effort.

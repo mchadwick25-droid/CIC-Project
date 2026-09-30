@@ -5829,6 +5829,28 @@ metered-spend ceiling; whether `lpc` is a pilot world (Doc_10 drafted by both So
 
 Launch prompt: `Build/Ministry/Operations/Standing/Launch-Prompts/CiC_lpc_Build_Launch_Prompt_V2.0_2026-09-29.md`.
 
+## 2026-09-30 — Doc_10 Sonnet-versus-Fable test: decision rule C
+
+**Ruling (project lead, 2026-09-30): rule C.** In the pilot worlds, Sonnet 5.5's Doc_10 must clear the absolute
+bar in both worlds (all five Craft bar items (a) to (e) pass, zero fabrication, readability gates clear, in both
+grading passes) and must not be preferred against on Craft by both graders in a world. If Sonnet fails in either
+world, Fable stays for Doc_10 as well as Doc_04. If it passes in both, Fable is needed only for Doc_04. If Sonnet
+meets the bar and the drafts tie, Sonnet's draft continues.
+
+Alternatives considered:
+
+- A. Absolute bar only. Simple, but it can pass a draft that clears the checklist and is still plainly flatter
+  than Fable's.
+- B. Relative bar only. It catches "flatter", but it can pass a draft that fails a checklist item when Fable's
+  fails too.
+- C. Both. Chosen. Two worlds is a small sample. Dropping Fable saves allowance, but a weak voice costs every
+  later world.
+
+Where it lives: `Build/reference/method/CiC_Pilot_Protocol_V2.0.md` (running order, blinding by the `blind`
+command, grading, pilot report, stop rules). Templates:
+`Build/reference/L4-Templates/Pilot_Doc10_Blind_Grading_Sheet_Template.md` and
+`Build/reference/L4-Templates/Pilot_Report_Template.md`. Process V2.0 Sections 2, 3 and 11 point to it.
+
 ## 2026-09-30 — Review cap counts every review file; shakedown of the V2.0 gate layer against the fixture world
 
 **Ruling (project lead, 2026-09-30): every review file on a document counts toward the cap of three.** A

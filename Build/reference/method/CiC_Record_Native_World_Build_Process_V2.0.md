@@ -241,10 +241,16 @@ The routing is pinned. It is not per-thread discretion.
 Fable's drafts alike.
 
 **Pilot test for Fable.** In the pilot worlds (Section 11), Sonnet 5.5 and
-Fable each draft Doc_10. Opus 5.5 grades the two blind on Rigor,
-Accessibility, Craft and Focus. If Sonnet meets the Craft bar, Fable drops out
-of the fleet process. If it does not, Fable stays for Doc_04 and Doc_10 only.
-The grading goes in the cost ledger.
+Fable each draft Doc_10. Two Opus 5.5 passes grade the two drafts blind on
+Rigor, Accessibility, Craft and Focus. Sonnet's Doc_10 must clear the absolute
+bar in both pilot worlds: all five Craft bar items (a) to (e) pass, there is
+zero fabrication, and the readability gates clear, in both grading passes. It
+must also not be preferred against on Craft by both graders in a world. If
+Sonnet fails in either world, Fable stays for Doc_10 as well as Doc_04. If it
+passes in both, Fable is needed only for Doc_04. If Sonnet meets the bar and
+the drafts tie, Sonnet's draft continues. The grading goes in the cost ledger.
+The full comparison is in
+`Build/reference/method/CiC_Pilot_Protocol_V2.0.md`.
 
 **Effort per task.** Set effort explicitly. Claude Opus 5.5 defaults to
 `medium`. `high` is real, careful review and is the standing effort for the
@@ -291,7 +297,7 @@ true is the reviewer's main job.
 The commands are subcommands of `python -m engine.m10.cli <subcommand>`. The
 subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 `citations`, `claims`, `integrity`, `deployed`, `probes`, `validation`,
-`wiring`, `records` and `regate`. The World Profile generator is
+`wiring`, `records`, `regate` and `blind`. The World Profile generator is
 `python -m engine.m2.cli profile <code>`.
 
 | Check | What it is | When it runs | Command |
@@ -313,6 +319,7 @@ subcommands are `handoff`, `prereview`, `roundcount`, `reviewfile`, `gaps`,
 | Grading check and trigger detector | Every answer is graded on all four criteria. RS-1 and RS-2 are scored separately. Detects the full-validation triggers (Section 8) and prints `lean`, `full` or `undetermined`. A trigger the code cannot evaluate gives `undetermined` and a non-zero exit, never `lean`. A `full` verdict exits 0: it is a result to act on, not a failure. The command also checks that each of the eight Part Eight categories has an observed row, that the Deep Interview carries its encounter-success grading, and that the results were run on the current package pin (a result for any other pin fails). | After the probe results are in. | `validation <code>` |
 | Record Integrity check | Reads the world at freeze against the Construction Framework's Record Integrity Principle (Section 8). It checks four parts by script: every open finding in an earlier document has an `Open_Gaps_Tracking.md` entry; no superseded or second live version of a document sits unmarked in the world folder; no Construction Notes file states a record count the records contradict; and `deployed` passes at the pinned package (confirmed items, rule counts, source anchor). That includes the stale-package check, and `--no-stale` skips it, as it does for `deployed`. Three parts stay with the reviewer (Section 8). | At freeze, before the freeze package goes to Mark. | `integrity <code>` |
 | World Profile generator | Builds the World Profile as a view over the world's records (Section 5). The profile is not part of the compiled package. No check reads it, and `records` does not cover it. Its status line reads INCOMPLETE whenever a section is not carried by records. Section 4 (Ecological Summary) has no source records, so it reads INCOMPLETE until records carry it. | On demand: after every records edit that changes a source view, and at freeze. | `python -m engine.m2.cli profile <code>` |
+| Blind labeller | Assigns the labels A and B to the two Doc_10 drafts from a recorded seed. It scrubs drafter and model names from the header fields and fails if a name appears in body text. It writes `Doc_10_A.md`, `Doc_10_B.md` and a mapping file, and prints the mapping file's sha256 for the cost ledger. With `--reveal --mapping <file> --checksum <sha>` it checks the checksum and then prints the mapping. | In a pilot world, before Doc_10 grading (reveal only after grading). | `blind <code> --sonnet <path> --fable <path> [--seed S]` |
 | Facilitator handoff wiring check | Both the acute-distress route and the harmful-dynamic route fire, and the voice is never called on either. | At the Representative freeze. | `wiring <code>` |
 | Library validators | The CI job `library-validators` runs `cic/engine/corpus_map_merge.py --check`, `corpus_index.py --build`, `works_registry.py --check`, `author_ids.py --check` and `texts_registry.py`. | On a pull request that touches `cic/` or `engine/`. | CI |
 | World gates on drafts | The CI job `world-gates` runs `records` and `regate` for every world a pull request changes in `records/`. The `engine-tests` job also runs on a draft pull request that touches records, packages, engine or world build documents. | On every pull request, draft or not. | CI |
@@ -1498,6 +1505,11 @@ Two pilot worlds go first. One is well-sourced. One is thin-evidence, so the
 full-validation triggers get exercised. The pilot world choices are open: Mark
 names them, or the source-research thread proposes them.
 
+The running order, the blinded Doc_10 comparison, the pilot report and the
+stop rules are in `Build/reference/method/CiC_Pilot_Protocol_V2.0.md`. The
+grading sheet is
+`Build/reference/L4-Templates/Pilot_Doc10_Blind_Grading_Sheet_Template.md`.
+
 **Pilot exit.**
 
 - zero fabrication
@@ -1505,7 +1517,10 @@ names them, or the source-research thread proposes them.
 - no new waivers
 - allowance percent, metered spend and hours recorded per world, split into
   drafting, review and probes
-- the Doc_10 Sonnet-versus-Fable grading recorded (Section 2)
+- the Doc_10 Sonnet-versus-Fable grading recorded, and the decision made
+  under the rule in Section 2
+- the pilot report written from
+  `Build/reference/L4-Templates/Pilot_Report_Template.md`
 
 After the pilot, builds run steady at one world at a time. A cost-and-quality
 review follows after every five worlds. It includes a coach verification:
