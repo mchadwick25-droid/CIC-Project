@@ -17,7 +17,7 @@ from .gaps import LEDGER_NAME
 from .matching import matched, split_chunks
 from .quotes import check_quotes
 from .rebaseline import CHECK_ID, Declaration, accepted_reason, declaration_path, doc_label, document_path, load_declaration
-from .rounds import ROUND_CAP, cap_message, clearance_message, latest_review, review_files
+from .rounds import ROUND_CAP, cap_message, clearance_message, counted_review_files, latest_review, review_files
 from .verdicts import has_clearance
 
 _REVIEWISH = re.compile(r"review|spotcheck|round|verification|history|superseded", re.IGNORECASE)
@@ -186,8 +186,9 @@ def _check_step(w: World, step: int, docs: dict[int, Path | None], check_id: str
     if not reviews:
         out.append(Finding(rel(doc, w.root), check_id, f"{label} has no review file"))
         return out
-    if len(reviews) > ROUND_CAP:
-        out.append(Finding(rel(doc, w.root), check_id, cap_message(label, len(reviews))))
+    counted = counted_review_files(w.code, step, w.root)
+    if len(counted) > ROUND_CAP:
+        out.append(Finding(rel(doc, w.root), check_id, cap_message(label, len(counted))))
     description, latest = latest_review(reviews)
     if not has_clearance(latest):
         out.append(Finding(rel(latest[0], w.root), check_id, clearance_message(label, description)))
