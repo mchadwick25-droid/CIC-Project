@@ -9,106 +9,67 @@ Design rules, each one made structural:
 """
 import re, sys, pathlib
 
-# The script lives in the world-build folder beside the documents it derives
-# from, following the sibling precedent of World-Builds/Donatism/scripts/.
-# BASE is resolved from this file's own location, so the script is portable
-# and has no session path baked into it. An override is accepted as argv[1]
-# for mutation testing.
+_USAGE = ("usage: gen_force_index.py [BASE_DIR]\n"
+          "  BASE_DIR holds Doc_08_Forces_Document.md and Review-Artifacts/; it defaults to\n"
+          "  the world-build folder that contains scripts/. The Index is written beside Doc_08.")
+if any(a in ("-h", "--help") for a in sys.argv[1:]):
+    print(_USAGE)
+    sys.exit(0)
+if len(sys.argv) > 2:
+    sys.exit("FATAL: too many arguments.\n" + _USAGE)
+
+# BASE is resolved from this file's own location, so the script carries no
+# session path. argv[1] overrides it.
 BASE = pathlib.Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else pathlib.Path(__file__).resolve().parent.parent
 SRC  = BASE / "Doc_08_Forces_Document.md"
 OUT  = BASE / "lpc_Force_Index.md"
+if not SRC.is_file():
+    sys.exit(f"FATAL: {SRC} does not exist.\n" + _USAGE)
 
-# Two notice syntaxes are in use: "**[TAG ...]**" and "**Heading. [TAG ...]**",
-# where the opening "**" belongs to the heading rather than the bracket. The
-# opening "**" is therefore optional, and coverage is ASSERTED below rather
-# than assumed.
-#
-# TAGS is not used to detect a notice: a closed, case-sensitive list of known
-# tags misses variant phrasing, title case, and a tag with its separating
-# comma omitted -- any of which reaching the parser unstripped becomes false
-# source with every other guard clean. The pattern is instead OPEN: any
-# bracketed capitalised tag followed by a comma or a dash is a notice. The
-# five known tags are kept only for the error messages.
-KNOWN_TAGS = ("CORRECTED", "ADDED", "MOVED HERE", "MOVED", "REVISED", "CORRECTION", "SUPERSEDED")
-# A real notice opens "[TAG, 2026-..." or "[TAG — ...". The document also
-# MENTIONS tags in prose -- §8 discusses "the [ADDED …] provenance clauses" --
-# and an opener pattern that could not tell the two apart made the
-# over-consumption guard fire on the live document. The lookahead requires a
-# comma or a dash after the tag, which every real notice has and no mention does.
-# A notice opens with a bracketed capitalised word or two -- CORRECTED, ADDED,
-# CORRECTION, SUPERSEDED, MOVED HERE -- followed by a comma or a dash. The
-# "[X]" recapitalisation convention this build uses ("[I]t", "[Y]our") is a
-# single letter and cannot match; "[Supporting]" has no comma or dash after it.
-#
-# The tag and the separator after it are both open-ended rather than either
-# being a closed list: whitelisting the tag and then whitelisting the
-# separator only defers the same failure mode to whichever one is still
-# closed (forms like "[FURTHER CORRECTION, ...]" or "[SUPERSEDED: ...]"
-# defeat a closed tag list; forms with an unlisted separator defeat a closed
-# separator list).
-#
-# Both are open now. A notice is one to four capitalised words inside a
-# bracket, followed by ANY separator punctuation or a number. What is
-# deliberately excluded is every short bracket convention this build uses:
-# "[X]" recapitalisation ("[I]t", "[Y]our"), the "[CT]" contested tag, and
-# "[Supporting]" -- none has a separator after the word. "[world-code]", the
-# L4 template's own filename, is excluded because its hyphen is inside a word
-# rather than spaced.
-_TAG = r"[A-Z][A-Za-z]{1,24}(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
-_SEP = r"(?=\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)"
+# ---- Notice detection. A build-process notice is a bracketed opener (one to
+# four words of letters, digits and hyphens) followed by a separator: a comma,
+# colon, semicolon, parenthesis, dash, a full stop or slash before a digit, or a
+# digit. One pattern serves the stripper, the detector and the no-notice rule,
+# so the three cannot disagree. Short bracket conventions carry no separator
+# after the word and do not match: "[I]t" and "[Y]our" (recapitalisation),
+# "[CT]", "[Supporting]", "[world-code]".
+KNOWN_TAGS = ("CORRECTED", "ADDED", "MOVED HERE", "MOVED", "REVISED", "SUPERSEDED")
+_TAG = r"[A-Z][A-Za-z0-9]{1,24}(?:-[A-Za-z0-9]{1,24})*(?:\s+[A-Za-z0-9][A-Za-z0-9-]{0,24}){0,3}"
+_SEP = r"(?=\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d|[./]\d)"
 _OPEN = r"\[" + _TAG + _SEP
 NOTICE = re.compile(r"\*{0,2}" + _OPEN + r".*?\]\*\*", re.S)
 OPENER = re.compile(_OPEN)
-# DETECT stays deliberately broader than the stripper and case-insensitive, so
-# a form the stripper does not know halts the run instead of becoming source.
-DETECT = re.compile(r"\[[A-Za-z][A-Za-z]{1,24}(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
-                    r"(?:\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)", re.I)
-
-NOTICE_SHAPE = re.compile(
-    r"\[(?:[A-Z][A-Za-z]{1,24})(?:\s+[A-Za-z][A-Za-z]{0,24}){0,3}"
-    r"(?:\s*[,:;(]|\s*[—–]|\s+-\s|\s+\d)")
+# DETECT is case-insensitive, so a lower-case opener also halts the run.
+DETECT = re.compile(_OPEN, re.I)
+NOTICE_SHAPE = re.compile(_OPEN)
 
 
 def assert_no_notices(t, label):
-    """Build-process notices do not belong in a deliverable.
-
-    Correction history lives in `Review-Artifacts/`, never inline in a
-    canonical surface. A notice in a deliverable is corruption, not
-    content, and this halts rather than stripping it. Backtick-quoted
-    MENTIONS of a notice tag are masked first, so documentation about
-    notices is not mistaken for one.
-    """
+    """Build-process notices do not belong in a deliverable, so the run halts
+    on one rather than stripping it. Backtick-quoted mentions of a notice tag
+    are masked first."""
     probe = re.sub(r"`[^`]*`", " ", t)
     hits = NOTICE_SHAPE.findall(probe)
     if hits:
-        sys.exit(f"FATAL: {label} contains {len(hits)} build-process notice(s) "
-                 f"({hits[:3]}). Correction history belongs in Review-Artifacts/, "
-                 "never inline in a deliverable. Refusing to emit.")
+        sys.exit(f"FATAL: {label} contains {len(hits)} bracketed opener(s) of the shape a "
+                 f"build-process notice takes ({hits[:3]}). Correction history belongs in "
+                 "Review-Artifacts/, never inline in a deliverable. A legitimate citation "
+                 "written in that shape, such as [CSEL 1868], must be written without the "
+                 "bracket. Refusing to emit.")
 
 
 def strip_notices(t):
     return "\n".join(NOTICE.sub(" ", ln) for ln in t.split("\n"))
 
-# A notice must never span a structural marker. A malformed notice -- one
-# whose own terminator is missing -- otherwise matches forward to the NEXT
-# notice's terminator and eats everything between, silently removing real
-# content such as a gravity list. Any marker a notice must not swallow, plus
-# the force-ID pattern: a notice that contains several force IDs is almost
-# certainly eating a gravity list.
+# A notice must not span a structural marker: a notice missing its own
+# terminator would otherwise match forward to the next terminator and remove
+# real content such as a gravity list.
 STRUCTURAL = re.compile(
     r"Connected forces:|^\*\*G\d — |^\#{2,4} |^\*\*Layer [123] |^\| ", re.M)
 
 def assert_notice_coverage(t, label):
-    """Two failures are tested, not one. (a) A notice the stripper cannot see
-    is read as source. (b) A notice that swallows a structural marker removes
-    real source -- the mirror image, equally silent."""
-    # The over-consumption test does not depend on where a notice sits in the
-    # text; it depends on the span itself being implausibly long or crossing
-    # content it has no business crossing. The precise signature, rather than
-    # a positional heuristic: a runaway notice matches forward to the NEXT
-    # notice's terminator, so its own span contains that next notice's
-    # OPENER. Nothing well-formed does that. The length and structural tests
-    # below are kept as a backstop.
+    """Halt when a notice span crosses a structural marker or contains a second
+    opener (a runaway match), and when an opener survives stripping."""
     for m in NOTICE.finditer(t):
         span = m.group(0)
         swallowed = len(OPENER.findall(span)) > 1
@@ -116,8 +77,6 @@ def assert_notice_coverage(t, label):
             sys.exit(f"FATAL: a correction notice in {label} spans a structural marker "
                      f"({m.group(0)[:70]!r}...). It is almost certainly missing its own "
                      "terminator and is consuming real source. Refusing to emit.")
-    # Non-circular: DETECT is broader than the stripper, so a notice form the
-    # stripper does not know still halts the run rather than becoming source.
     left = DETECT.findall(strip_notices(t))
     if left:
         sys.exit(f"FATAL: {len(left)} notice-like opener(s) survive stripping in {label} "
@@ -125,12 +84,29 @@ def assert_notice_coverage(t, label):
                  f"which would put a false connection into the Index. "
                  f"Known tags: {', '.join(KNOWN_TAGS)}. Refusing to emit.")
 
+
+# ---- Approval state. Only the document's own Status line and the opening of
+# its own Disposition section count; a mention of the phrase elsewhere in
+# either does not.
+_APPROVED = re.compile(r"approved\s+to\s+proceed\b", re.I)
+_NOT_DISPOSED = re.compile(r"(?:not\s+disposed|revised)\b", re.I)
+
+def classify_disposition(own_text, where):
+    """True when the statement opens 'Approved to proceed'; False when it opens
+    'Not disposed' or 'REVISED'; anything else is unrecognised."""
+    lead = re.sub(r"[*_`]+", "", own_text).strip()
+    if _APPROVED.match(lead):
+        return True
+    if _NOT_DISPOSED.match(lead):
+        return False
+    raise ValueError(f"{where} opens with {lead[:60]!r}, which is neither 'Approved to proceed' "
+                     "nor 'Not disposed' / 'REVISED'")
+
+
 def parent_disposition(t, label):
     """An index cannot state its own disposition: it inherits its parent's.
-
-    Hard-coding it is how a Status line and a Disposition section drift apart,
-    so both are read from the parent here and a disagreement halts the run.
-    """
+    Returns (approved, date). The Status line and the Disposition section are
+    both read, and a disagreement halts the run."""
     m = re.search(r"^\*\*Status:\s*\*{0,2}(.*)$", t, re.M)
     if not m:
         sys.exit(f"FATAL: {label} carries no '**Status:' line, so this index "
@@ -141,9 +117,12 @@ def parent_disposition(t, label):
                  "cannot derive its own disposition. Refusing to emit.")
     tail = t[d.end():]
     nxt = re.search(r"^#{2,3}\s", tail, re.M)
-    section = tail[:nxt.start()] if nxt else tail
-    APP = re.compile(r"approved to proceed", re.I)
-    s_ok, d_ok = bool(APP.search(m.group(1))), bool(APP.search(section))
+    section = (tail[:nxt.start()] if nxt else tail).lstrip()
+    try:
+        s_ok = classify_disposition(m.group(1), f"{label}'s Status line")
+        d_ok = classify_disposition(section, f"{label}'s Disposition section")
+    except ValueError as e:
+        sys.exit(f"FATAL: {e}. Refusing to emit.")
     if s_ok != d_ok:
         sys.exit(f"FATAL: {label}'s Status line says "
                  f"{'Approved to proceed' if s_ok else 'NOT approved'} while its "
@@ -151,11 +130,98 @@ def parent_disposition(t, label):
                  f"{'Approved to proceed' if d_ok else 'NOT approved'}. A "
                  "disposition stated in two places has gone stale in one. "
                  "Refusing to emit.")
-    return s_ok
+    date = None
+    if d_ok:
+        dm = re.search(r"\d{4}-\d{2}-\d{2}", section.split("\n\n")[0])
+        if not dm:
+            sys.exit(f"FATAL: {label}'s Disposition section opens 'Approved to proceed' "
+                     "with no date in its opening paragraph. Refusing to emit.")
+        date = dm.group(0)
+    return s_ok, date
+
+
+# ---- Verdict parsing. A review file states its own verdict on its VERDICT
+# headings. Text elsewhere, such as a recital of an earlier round's verdict,
+# is not read.
+VERDICT_WORDS = ("SUBSTANTIAL REVISION REQUIRED", "MINOR REVISION", "CLEARED", "REJECTED")
+_VHEAD = re.compile(r"^#{2,3} VERDICT(.*)$", re.M)
+
+def parse_verdict(t, label):
+    """The verdict word on the file's VERDICT heading line(s). Each heading must
+    state exactly one verdict word and all headings must state the same one;
+    otherwise ValueError."""
+    heads = _VHEAD.findall(t)
+    if not heads:
+        raise ValueError(f"{label} has no '## VERDICT' heading")
+    found = []
+    for tail in heads:
+        words = [w for w in VERDICT_WORDS if w in tail]
+        if len(words) != 1:
+            raise ValueError(f"{label}: a VERDICT heading ({tail.strip()!r}) states "
+                             f"{len(words)} verdict words; its own verdict must be exactly one")
+        found.append(words[0])
+    if len(set(found)) != 1:
+        raise ValueError(f"{label}: its VERDICT headings disagree ({sorted(set(found))})")
+    return found[0]
+
+
+def _selftest_parsers():
+    """Each parser is run on inputs it must reject and inputs it must accept.
+    A parser that no longer separates the two stops generation."""
+    def halts(fn, *args):
+        try:
+            fn(*args)
+        except ValueError:
+            return True
+        return False
+    failures = []
+    good = "## VERDICT: SUBSTANTIAL REVISION REQUIRED\n\n**2 HIGH, 1 MEDIUM, 0 LOW, 0 COSMETIC.**\n"
+    recital = "The prior review was CLEARED.\n\n## VERDICT: SUBSTANTIAL REVISION REQUIRED\n"
+    bare = "## VERDICT\n\nThe prior review was **CLEARED** on the analysis.\n\nThis review: **SUBSTANTIAL REVISION REQUIRED**.\n"
+    two = "## VERDICT: CLEARED (prior: SUBSTANTIAL REVISION REQUIRED)\n"
+    split = "## VERDICT: CLEARED\n\n## VERDICT: SUBSTANTIAL REVISION REQUIRED\n"
+    if parse_verdict(good, "t") != "SUBSTANTIAL REVISION REQUIRED":
+        failures.append("verdict: own heading not read")
+    if parse_verdict(recital, "t") != "SUBSTANTIAL REVISION REQUIRED":
+        failures.append("verdict: recital before the heading was read")
+    for name, sample in (("bare heading", bare), ("two words", two), ("disagreeing headings", split),
+                         ("no heading", "no heading here")):
+        if not halts(parse_verdict, sample, "t"):
+            failures.append(f"verdict: {name} did not halt")
+    for name, sample, want in (
+            ("Approved status", "**Approved to proceed** (dated)", True),
+            ("REVISED status naming the phrase", "REVISED after a fix pass — unreviewed; not yet Approved to proceed.", False),
+            ("Not disposed naming the phrase", "**Not disposed.** This document has not been Approved to proceed.", False)):
+        if classify_disposition(sample, "t") is not want:
+            failures.append(f"approval: {name} misclassified")
+    if not halts(classify_disposition, "Pending review.", "t"):
+        failures.append("approval: an unrecognised opening did not halt")
+    planted = ["[CO-022, 2026 — x]", "[CORRECTED at R7 — x]", "[R8-FIX, 2026 — x]",
+               "[Doc08-R8 — x]", "[CORRECTED.2026 x]", "[CORRECTED/2026 x]",
+               "[Further Correction, x]", "[SUPERSEDED: x]", "[ADDED, 2026 — x]"]
+    for p in planted:
+        if not (NOTICE_SHAPE.search(p) and DETECT.search(p) and NOTICE.search("**" + p + "**")):
+            failures.append(f"notice form not detected: {p}")
+    for b in ("[I]t", "[Y]our", "[CT]", "[Supporting]", "[world-code]"):
+        if DETECT.search(b):
+            failures.append(f"short bracket convention detected as a notice: {b}")
+    if failures:
+        sys.exit("FATAL: parser self-test failed, so generation would not be trustworthy:\n  - "
+                 + "\n  - ".join(failures) + "\nRefusing to emit.")
+
+_selftest_parsers()
+
+
+def between(t, start, end, label):
+    """The text between two section headings, or a halt naming the missing one."""
+    if start not in t or end not in t:
+        sys.exit(f"FATAL: {label} lacks the heading {start if start not in t else end!r}. "
+                 "Refusing to emit.")
+    return t.split(start)[1].split(end)[0]
 
 
 text = SRC.read_text(encoding="utf-8")
-DISPOSED = parent_disposition(text, "Doc_08_Forces_Document.md")
+DISPOSED, DISP_DATE = parent_disposition(text, "Doc_08_Forces_Document.md")
 assert_no_notices(text, SRC.name)
 assert_notice_coverage(text, "Doc_08_Forces_Document.md")
 
@@ -167,10 +233,7 @@ def assert_doc08_round_count(t, n, fixpass, per_round):
     bare numeral, any case -- is matched, so a bold marker cannot hide a
     claim from this check, and an ordinal is never compared against a
     cardinal count as though the two were the same kind of number."""
-    # Claims INSIDE correction notices are quotations of superseded text, not
-    # live claims -- a notice that says 'this previously read "REVISED after
-    # Round 1"' is the record of a fix, not a false statement. Notices are
-    # stripped before the assertion, exactly as they are before derivation.
+    # Notices are stripped before the assertion, as they are before derivation.
     flat = re.sub(r"\*+", "", strip_notices(t))
     word_alt = "|".join(WORDNUM[i] for i in range(1, 11))
     problems = []
@@ -216,6 +279,25 @@ def assert_doc08_round_count(t, n, fixpass, per_round):
         if len(actual) == 1 and st.strip() not in actual:
             problems.append(f"Doc_08 states all rounds returned '{st.strip()}'; artifacts say {sorted(actual)}")
 
+    # Each Document Log row that records a review round's verdict is compared
+    # with the verdict word parsed from that round's own artifact, and every
+    # artifact on disk must have such a row.
+    logged = {}
+    for ln in flat.split("\n"):
+        cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+        if not ln.strip().startswith("|") or len(cells) != 4:
+            continue
+        rm = re.match(r"Round\s+(\d+)\b(?!\s+fix pass)", cells[1])
+        words = [w for w in VERDICT_WORDS if w in cells[3]]
+        if rm and len(words) == 1:
+            logged[int(rm.group(1))] = words[0]
+    for rnd, (counts, verdict) in sorted(per_round.items()):
+        if rnd not in logged:
+            problems.append(f"Doc_08's Document Log has no verdict row for Round {rnd}")
+        elif logged[rnd] != verdict:
+            problems.append(f"Doc_08's Document Log says Round {rnd} returned '{logged[rnd]}'; "
+                            f"its artifact says '{verdict}'")
+
     if problems:
         sys.exit("FATAL: Doc_08's review-history claims disagree with Review-Artifacts/:\n  - "
                  + "\n  - ".join(problems) + "\nRefusing to emit.")
@@ -225,8 +307,11 @@ def assert_doc08_round_count(t, n, fixpass, per_round):
 ROUNDS = sorted(
     (int(m.group(1)), f) for f in (BASE / "Review-Artifacts").glob("Doc08_Round*_Review.md")
     for m in [re.search(r"Doc08_Round(\d+)_Review\.md", f.name)] if m)
+if not ROUNDS:
+    sys.exit(f"FATAL: {BASE / 'Review-Artifacts'} holds no Doc08_Round<N>_Review.md file, so the "
+             "review history cannot be derived. Refusing to emit.")
 NROUNDS = len(ROUNDS)
-LATEST = ROUNDS[-1][0] if ROUNDS else 0
+LATEST = ROUNDS[-1][0]
 WORDNUM = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
            6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
 _W2I = {w.lower(): i for i, w in WORDNUM.items()}
@@ -238,28 +323,19 @@ def _as_int(tok):
 NWORD = WORDNUM.get(NROUNDS, str(NROUNDS))
 
 def verdict_counts(path):
-    """Each round artifact's OWN finding counts, anchored to its own VERDICT
-    heading rather than to the first textual occurrence of "## VERDICT" --
-    a review artifact routinely mentions that heading in backticks elsewhere,
-    so the heading must appear at line start. A file that does not yield one
-    is reported as unparsed rather than guessed."""
+    """A review artifact's own finding counts and verdict. The verdict is read
+    from its VERDICT heading lines by parse_verdict, and a file whose own
+    verdict cannot be read unambiguously halts the run. The counts are read from
+    the text that follows the first VERDICT heading, up to the next heading."""
     t = path.read_text(encoding="utf-8", errors="replace")
-    _h = re.search(r"^#{2,3} VERDICT", t, re.M)
-    i = _h.start() if _h else -1
-    if i < 0:
-        return "no VERDICT heading", "verdict not stated"
-    # The window ends at the next markdown heading, which is where the
-    # verdict statement itself ends -- a structural bound, not a fixed
-    # character count, since a fixed window can reach into a later artifact's
-    # own recital of an earlier round's counts.
+    try:
+        verdict = parse_verdict(t, path.name)
+    except ValueError as e:
+        sys.exit(f"FATAL: {e}. A review file's verdict cannot be guessed. Refusing to emit.")
+    _h = _VHEAD.search(t)
     rest = t[_h.end():]
     nxt = re.search(r"^#{2,3} ", rest, re.M)
     window = rest[:nxt.start()] if nxt else rest[:1200]
-    # The verdict word comes from this same structural window as the counts,
-    # so the two cannot be read from different bounds and disagree.
-    vm = re.search(r"(CLEARED|MINOR REVISION|SUBSTANTIAL REVISION REQUIRED|REJECTED)",
-                   window)
-    verdict = vm.group(1) if vm else "verdict not parsed"
     m = re.search(r"(\d+)\s*HIGH\D{1,4}(\d+)\s*MEDIUM\D{1,4}(\d+)\s*LOW\D{1,4}(\d+)\s*COSMETIC",
                   window)
     counts = f"{m.group(1)}H {m.group(2)}M {m.group(3)}L {m.group(4)}C" if m else "counts not parsed"
@@ -388,7 +464,7 @@ byid = {f["id"]: f for f in forces}
 # on the same line. Notices are therefore stripped before ANY derivation,
 # everywhere, once -- an unstripped parse would put the removed force right
 # back and contradict the source document with every other guard clean.
-sec5 = strip_notices(text.split("## Section 5 —")[1].split("## Section 6")[0])
+sec5 = strip_notices(between(text, "## Section 5 —", "## Section 6", "Doc_08"))
 GRAV_RE = re.compile(r'^\*\*(G\d) — (.+?) \((Primary|Supporting|Tensional)\)\.\*\*(.*)$')
 gmap = {}
 for ln in sec5.split("\n"):
@@ -520,7 +596,7 @@ for f in forces:
         observed.append((f["id"], g, "§5's list carries it; §3's Layer 3 does not assert it in a connection sentence"))
 
 # ------------------------------------------------- cross-cell (§4 table)
-sec4 = strip_notices(text.split("## Section 4 —")[1].split("## Section 5")[0])
+sec4 = strip_notices(between(text, "## Section 4 —", "## Section 5", "Doc_08"))
 ROW_RE = re.compile(r'^\|\s*\*\*(\d[AB]-\d)\*\*\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*$')
 conns = []
 for ln in sec4.split("\n"):
@@ -576,7 +652,7 @@ for c in conns:
 # generator's own claim of "exactly one derivation per relation" would be
 # true only inside this file and false across the deliverable pair unless §7
 # is also read and cross-checked; a disagreement is reported here.
-sec7 = strip_notices(text.split("## Section 7 —")[1].split("## Section 8")[0])
+sec7 = strip_notices(between(text, "## Section 7 —", "## Section 8", "Doc_08"))
 # The label pattern captures the FIRST confidence level named inside the
 # parentheses, since an entry can read "(Documented, with a contested
 # secondary element -- see below)" -- the closing paren need not immediately
@@ -622,21 +698,16 @@ O = []
 w = O.append
 w("# Force Index — Latin Pastoral-Congregational Christianity")
 w("")
-w(f"**Status:** " + ("**Approved to proceed**, inherited from `Doc_08_Forces_Document.md`'s own Disposition, "
-  f"which governs this line; the Round {LATEST_FIX_PASS} fix pass is itself unreviewed."
-  if DISPOSED else
-  f"**REVISED after Round {LATEST_FIX_PASS} — the revision is unreviewed, and not self-disposed.**")
-  + " Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.")
+w("**Status:** " + ("**Approved to proceed**" if DISPOSED else "**Not approved to proceed**")
+  + ", read from `Doc_08_Forces_Document.md`'s own Status line and Disposition section, which agree. "
+  "Co-output of Construction Step 8 with `Doc_08_Forces_Document.md`; reviewed and disposed of together.")
 w(f"**Review history, counted from `Review-Artifacts/` rather than typed:** {HISTORY} — {VERDICT_LINE}.")
 w(f"**World file-code:** `lpc` · **Drafted:** 2026-09-15 · **Revised:** 2026-09-15 (Round {LATEST_FIX_PASS} fix pass) · **Generated by** `scripts/gen_force_index.py`, committed beside this file")
 w("**Generated from `Doc_08_Forces_Document.md` by `gen_force_index.py`. Never hand-edited.**")
 w("")
-w("**What re-running the generator actually re-verifies, stated exactly, since a blanket claim can cover less than it sounds like.** "
-  "**Derived from the source document, and therefore re-checked on every run:** every table in §§1–4, all counts and totals, the §6 reconciliation report and the §7 cross-check. "
-  "**Hard-coded prose, re-verified by nothing:** this whole header block — **including the Status line, the Review-history line, the Revised date and the Disposition** — and every explanatory paragraph under §§2, 3, 4, 5, 6 and 7, **both branches of §6 included**. In §§6 and 7 only the *findings* are derived: the contradiction table, the observation table, the disagreement lines and the agreement sentence. Everything around them is commentary. "
-  "")
-w("")
-w("")
+w("**What each part of this file is.** "
+  "**Derived from `Doc_08_Forces_Document.md` on every run:** every table in §§1–5, all counts and totals, the findings in §6 and §7, the review-history line, the approval state in the Status line and the Disposition, and the review counts in the Disposition. "
+  "**Hard-coded prose:** the rest of this header block, including the Revised date, and the explanatory paragraphs under §§2 to 7. No run re-verifies those.")
 w("")
 w("---")
 w("")
@@ -764,48 +835,29 @@ if observed:
     w("")
 w("**Three tests, not one.** §3 asserting a connection §5 omits (contradiction); §5 carrying one §3 does not assert (observation); and §3 asserting that §5 does *not* carry something §5 does carry.")
 w("")
-w("**What the regression test shows.** Against the pre-fix draft the control reports all three divergences — `1B-1`/G2, `2A-1`/G8 and `2B-1`/G7. Against the live document it reports none. On the stub side it flags the same three entries the stub check is designed to catch.")
-w("")
 w("**Cross-cell cross-check (§3 prose against §4's table).** "
   + ("**No disagreements:** every force ID named in a connection-asserting Layer 3 sentence appears as that force's partner in §4's table."
      if not xc_mismatch else
      "**" + str(len(xc_mismatch)) + " disagreement(s):** " + ", ".join(f"`{a}` names `{b}`, §4 does not pair them" for a, b in xc_mismatch) + "."))
 w("")
-w("**The controls, stated at what they actually cover.** "
-  "There are **thirteen**: **one regression (A), six positive controls (B–F, M) whose planted defect must appear in the output, and six negative controls (G–L) that must halt the generator.** "
-  "*(The count is re-derived by exit code each run, not copied, since a total stated once and carried forward risks going stale as controls are added.)* "
-  "**(A)** regression against the pre-fix draft at `9eccc532` — three §3/§5 divergences, three stubs. "
-  "**(B)** a false denial produces a contradiction row. "
-  "**(C)** a force ID planted inside a notice does not reach the tables. "
-  "**(D)** an omitted connection produces a contradiction row. "
-  "**(E)** a Layer-3 claim §4 does not carry produces a cross-cell row. "
-  "**(F)** a build-process notice anywhere in Doc_08 halts the run. "
-  "**(G)** a malformed notice halts rather than being parsed. "
-  "**(H)** a review-status claim disagreeing with `Review-Artifacts/` halts. "
-  "**(I)** a force filed under a `### CELL` heading its ID contradicts halts. "
-  "**(J)** a §4 row that fails to parse — a de-bolded force ID, a missing trailing pipe — halts, instead of silently printing one connection fewer than Doc_08 certifies. "
-  "**(K)** a duplicated §4 row halts: it raises the total *without* failing (J), because the parse and the row count move together. "
-  "**(L)** a connection total disagreeing with the count Doc_08 certifies in its own prose halts. "
-  "**(M)** a review artifact returning `CLEARED` is reported as CLEARED — the verdict word is read from the artifact's own structural window, not from a literal. "
-  "**(A) Regression** against the pre-fix draft at `9eccc532`: all three §3/§5 divergences found by hand. "
-  "**(B) False denial** — §3 claiming §5 does not carry `G6` produces a contradiction row. "
-  "**(C) Notice injection** — a bold force ID planted inside a `[CORRECTED …]` notice does not reach the tables. "
-  "**(D) Omitted connection** — removing `2B-1` from §5's G6 list while §3 asserts it produces a contradiction row. "
-  "**(E) Cross-cell** — a Layer-3 connection claim §4's table does not carry produces a §3-vs-§4 row. "
-  "**(F) Unknown notice syntax** — a notice written `**Heading. [ADDED …]**` is stripped and its planted ID does not reach the tables. "
-  "**(G) Notice over-consumption** — a malformed notice missing its terminator halts the generator. "
-  "**(H) Review history** — a Doc_08 whose round claims disagree with `Review-Artifacts/` halts the generator. "
-  "**(I) Cell/ID agreement** — a force filed under a `### CELL` heading its own ID contradicts halts the generator.")
+w("**What the generator checks on every run.** "
+  "It halts, with no file written, when: "
+  "**(a)** Doc_08 contains a bracketed build-process notice, or a notice-shaped opener survives stripping, or a notice span crosses a structural marker; "
+  "**(b)** Doc_08's Status line and its Disposition section disagree on approval, or either opens with neither *Approved to proceed* nor *Not disposed* / *REVISED*; "
+  "**(c)** a review file's `VERDICT` headings state no verdict word, more than one, or disagree with each other; "
+  "**(d)** Doc_08's review counts, round ordinals, per-round finding counts or per-round verdicts disagree with `Review-Artifacts/`, or a round on disk has no Document Log row; "
+  "**(e)** a force sits under a cell heading its ID contradicts, or the parse yields other than 17 forces or 8 gravities, or §5 names a force §3 does not define; "
+  "**(f)** a §4 row fails to parse, a §4 row is duplicated, or the §4 count differs from the connection count stated in Doc_08's prose. "
+  "Before it reads Doc_08 it runs a self-test of the verdict, approval and notice parsers on inputs each must reject and inputs each must accept, and halts if any result is wrong. "
+  "**Reported in the output, not halted on:** the §6 contradictions, observations and cross-cell disagreements, and the §7 disagreements.")
 w("")
-w("**What each control's design guards against, stated directly.** "
-  "**(G)** does not key on a structural marker appearing inside the notice span alone — the same malformed notice, placed anywhere in the text, still halts on an implausibly long or emphasis-dense span, which is what over-consumption actually looks like, rather than on where the marker sits. "
-  "**(H)** flattens emphasis first and matches every claim form, so a bold marker, a lowercase word, or a bare numeral cannot hide a claim from the Status-line check. "
-  "**(D)'s** sibling in `verdict_counts` anchors the parse to each artifact's own `## VERDICT` heading and ends the window at the next heading — a structural bound rather than a fixed character count, since a fixed window can still reach into a later round's own recital of a predecessor's counts. "
-  "**A control stated more broadly than it is implemented is worse than no control, because it will be trusted.**")
+w("**Limits.** "
+  "The notice detector matches a bracket of one to four words (letters, digits, hyphens) followed by a comma, colon, semicolon, parenthesis, dash, digit, or a full stop or slash before a digit. A notice in any other shape is not detected, and a legitimate bracketed citation in that shape, such as `[CSEL 1868]`, halts the run. "
+  "The §6 check is a sentence-level keyword match: a connection stated with a verb outside its list, or in a sentence that also contains a disclaiming word, is not seen. It is not a proof of consistency. "
+  "Doc_08 §9's cell distribution is not read, and §9's connection count is read only where a number precedes the word *connections*. "
+  "The Layer 2 check in §5 measures presence, not quality.")
 w("")
-w("**To regenerate this file:** `python3 scripts/gen_force_index.py` from the world-build folder, or with any working directory — the script resolves its own base path. An optional first argument overrides that base, and exists only for mutation testing.")
-w("")
-w("**This is a weaker test than it looks and the weakness is stated.** It is a sentence-level keyword match: a connection asserted with a verb outside its list, or phrased so that a disclaim keyword also appears, is invisible to it. **Broadening the verb list produced a false positive of its own** — the verb *\"carries\"* matched *\"Neither §5's G6 list **nor** its G7 list carries it,\"* a negation and a sentence about §5 rather than a connection claim; the verb was withdrawn rather than the sentence reworded. **This control catches one class of defect. It is not a proof of consistency, and no run of it substitutes for a reader.**")
+w("**To regenerate this file:** `python3 scripts/gen_force_index.py` from any working directory; the script resolves its own base path. An optional first argument overrides that base path.")
 w("")
 w("---")
 w("")
@@ -829,10 +881,11 @@ w("---")
 w("")
 w("## Disposition")
 w("")
-w(("**Approved to proceed, 2026-09-15**, together with `Doc_08_Forces_Document.md`, which is reviewed and disposed of with it."
+w((f"**Approved to proceed, {DISP_DATE}**, together with `Doc_08_Forces_Document.md`, which is reviewed and disposed of with it."
    if DISPOSED else
    "**Not disposed.** Reviewed and disposed of together with `Doc_08_Forces_Document.md`.")
-  + f" **{NWORD} independent round(s) have been run**, the most recent `Review-Artifacts/Doc08_Round{LATEST}_Review.md` ({_VC[LATEST][0]}, {_VC[LATEST][1]}); this file is the Round {LATEST_FIX_PASS} fix pass and is **unreviewed**.{FIXPASS_NOTE} Not self-certified. Not Frozen.")
+  + f" `Review-Artifacts/` holds {NWORD.lower()} file(s) matching `Doc08_Round<N>_Review.md`; the most recent is `Doc08_Round{LATEST}_Review.md` ({_VC[LATEST][0]}, {_VC[LATEST][1]}). "
+  f"Doc_08's Document Log records a fix pass through Round {LATEST_FIX_PASS}.{FIXPASS_NOTE}")
 w("")
 
 OUT.write_text("\n".join(O), encoding="utf-8")
