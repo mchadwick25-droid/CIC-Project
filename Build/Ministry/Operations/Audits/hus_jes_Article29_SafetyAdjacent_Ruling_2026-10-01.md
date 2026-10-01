@@ -25,3 +25,7 @@ Second answer, on Representative identity:
 - `jes` Open_Gaps entries "OG-8, Living Tradition Status (Article 29) is triggered and not confirmed" and "OG-9, The Representative is not decided", by entry 44.
 
 Old entries are not edited. These are applications of a ruling to approved documents, not review rounds. No Approved-to-proceed status line changed.
+
+## Jesuit Article 29 confirmed (2026-10-01)
+
+Question put in the session: the Jesuit Article 29 connection was recorded as proposed on the simple basis (the Society of Jesus itself), awaiting the project lead's word, and he was asked to say yes to confirm it. His answer, verbatim: "yes".

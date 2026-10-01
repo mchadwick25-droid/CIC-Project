@@ -20,7 +20,7 @@ Confidence terms are the five levels of Constitution Article 17. They are Docume
 
 **Distinctive Contribution:** Step 0 (§3 B4) names the Society the only candidate of its batch whose core text is a practised spiritual discipline rather than a doctrinal or polemical body of writing. It is also a world of movement. The same order ran colleges in Europe and mission provinces in Asia and Brazil, under one General. The Tridentine Church (VI.22) is the council and its offices. The Society is one of the bodies that carried out the council's work, and this document does not draw its evidence from that world's shelf.
 
-**Living Tradition Status:** Proposed on a simple basis that names the clear connection, awaiting the project lead's word. The census records `living: true`. Its legacy field says: "The Society still exists and is the largest religious order of men in the Catholic Church". The proposed connection is the Society of Jesus itself, which is the direct continuity. Article 29 makes confirmation a condition of freeze. The shelf is itself mediated by living hands. Its editors and translators are almost all Jesuits: Mullan, O'Conor, Goodier, Coleridge, Boero, Bouix, and the Jesuit fathers who edited the Monumenta Historica Societatis Jesu (rows 4, 5, 9, 14, 17, 20, 21, 25). Doc_02 §2 records this.
+**Living Tradition Status:** Confirmed by the project lead on a simple basis that names the clear connection. The census records `living: true`. Its legacy field says: "The Society still exists and is the largest religious order of men in the Catholic Church". The connection is the Society of Jesus itself, which is the direct continuity. Article 29 makes confirmation a condition of freeze. The shelf is itself mediated by living hands. Its editors and translators are almost all Jesuits: Mullan, O'Conor, Goodier, Coleridge, Boero, Bouix, and the Jesuit fathers who edited the Monumenta Historica Societatis Jesu (rows 4, 5, 9, 14, 17, 20, 21, 25). Doc_02 §2 records this.
 
 ## 2. Historical Boundaries
 
@@ -207,7 +207,7 @@ Mediation matters here. Three kinds of evidence are used, and the strength of ea
 **Questions for the project lead (open, not decided here):**
 
 1. *The strand finding* (§5): confirm strand-singular, or order two strands (Europe and mission). Doc_04 tests whichever is chosen.
-2. *Living Tradition Status* (Article 29): proposed on the simple basis in §1, awaiting the project lead's word.
+2. *Living Tradition Status* (Article 29): confirmed on the simple basis in §1.
 3. *Representative.* Decided later in the build, at Doc_10, as a packaged choice among two to four candidates.
 4. *Registration of `jes`.* The file-code is not yet registered in `records/worlds/`, and nothing was added to `records/` or `packages/`. That belongs to the project lead.
 
