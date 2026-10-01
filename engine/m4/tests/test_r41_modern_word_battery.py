@@ -1,6 +1,6 @@
 """Hermetic checks on the R41 battery's scoring rules - no live calls."""
 from engine.m1.loader import load_fleet_records, load_world_records
-from engine.m1.registry import load_registry
+from engine.m1.registry import formation_world_keys, load_registry
 from engine.m4.reports import r41_modern_word_battery as battery
 from engine.m5.anachronism import anachronistic_term_ids
 
@@ -50,7 +50,7 @@ def test_agreed_no_is_no():
 
 def test_probe_set_covers_every_real_world_and_only_real_worlds():
     registry = load_registry()
-    real = {k for k in registry if k != "fix"}
+    real = set(formation_world_keys(registry))
     assert set(battery.TEST_PROBES) == real
     assert set(battery.CONTROL_PROBES) == real
     assert all(len(words) == 2 for words in battery.TEST_PROBES.values())
