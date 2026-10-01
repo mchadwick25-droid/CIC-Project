@@ -15,7 +15,7 @@ confidence:
     footnote dates 401 (not Augustine's own text, which does not date it), the Theodosian fine, 'we carried
     our point... envoys were sent to the court of the Count', and SS26's own record that the petition
     was not granted. The same distinction applies to CTh XVI.5.21 (392, the actual fine cited here), the
-    council Letter 185 section 25 narrates (the NPNF footnote dates it 401; the Code of Canons' note and Hefele-Leclercq date it June 404), and CTh XVI.5.52 (412, a graduated Donatist-specific schedule, assessed in pounds of gold except for the circumcelliones, who are assessed in silver, which this row does NOT license)
+    council Letter 185 section 25 narrates (the NPNF footnote dates it 401; the Code of Canons' note dates it to Honorius's sixth consulship, 404, and Hefele-Leclercq to June 404), and CTh XVI.5.52 (412, a graduated Donatist-specific schedule, assessed in pounds of gold except for the circumcelliones, who are assessed in silver, which this row does NOT license)
     -- three different years under different emperors, easily collapsed into each other (row 44's own
     caution).
 sources: []

@@ -39,4 +39,4 @@ discovery_channel: corpus map / cic/corpus-map/_staging/npnf101_augustine-confes
 external_ids:
   lpc_source_registry_row: 43
 ---
-Augustine's own first-person account of his earlier opinion against any coercion, one phase of the three-phase state-power arc Doc_01 SS7 reports (early opinion against any coercion, by his own retrospective account; a real but narrow solicitation of legal protection, argued but not granted, at the 401 council row 12 records; a later, sustained defence of broader compulsion).
+Augustine's own first-person account of his earlier opinion against any coercion, one phase of the three-phase state-power arc Doc_01 SS7 reports (early opinion against any coercion, by his own retrospective account; a real but narrow solicitation of legal protection, argued but not granted, at the council Letter 185 section 25 narrates (row 12); a later, sustained defence of broader compulsion).

@@ -665,8 +665,8 @@ ROWS: list[dict] = [
                    "editorial footnote dates 401 (not Augustine's own text, which does not date it), "
                    "the Theodosian fine, 'we carried our point... envoys were sent to the court of "
                    "the Count', and SS26's own record that the petition was not granted. The same "
-                   "distinction applies to CTh XVI.5.21 (392, the actual fine cited here), the 401 "
-                   "council, and CTh XVI.5.52 (412, a graduated Donatist-specific schedule, assessed "
+                   "distinction applies to CTh XVI.5.21 (392, the actual fine cited here), the "
+                   "council Letter 185 section 25 narrates (the NPNF footnote dates it 401; the Code of Canons' note dates it to Honorius's sixth consulship, 404, and Hefele-Leclercq to June 404), and CTh XVI.5.52 (412, a graduated Donatist-specific schedule, assessed "
                    "in pounds of gold except for the circumcelliones, who are assessed in silver, "
                    "which this row does NOT license) -- three different years under different emperors, easily "
                    "collapsed into each other (row 44's own caution).",
@@ -2097,7 +2097,7 @@ ROWS: list[dict] = [
         body="Augustine's own first-person account of his earlier opinion against any coercion, one "
              "phase of the three-phase state-power arc Doc_01 SS7 reports (early opinion against any "
              "coercion, by his own retrospective account; a real but narrow solicitation of legal "
-             "protection, argued but not granted, at the 401 council row 12 records; a later, "
+             "protection, argued but not granted, at the council Letter 185 section 25 narrates (row 12); a later, "
              "sustained defence of broader compulsion).",
     ),
     dict(
