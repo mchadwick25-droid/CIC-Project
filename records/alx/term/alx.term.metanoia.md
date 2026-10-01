@@ -50,7 +50,7 @@ senses:
     Isn't repentance just feeling sorry for what you did? This world meant something the feeling can
     accompany but is not itself - an actual change of direction in what the soul wants, not the emotion
     that change may produce.
-quick_meaning: Not feeling sorry - metanoia, the soul truly turned back toward God.
+quick_meaning: Not just feeling sorry. Metanoia is the soul truly turning back to God.
 distortion_risk: high
 ---
 Imported from the old system's richer lexicon (alexlex032, "Repentance / Metanoia") at Mark's direction,

@@ -5,7 +5,8 @@
 source_file: calvin_commentaries-genesis-vol2_king1847.txt
 
 assignments:
-  - work: "Commentaries on the First Book of Moses, Called Genesis, Vol. II"
+  - row_id: calvin_commentaries-genesis-vol2_king1847--commentaries-on-the-first-book-of-moses-called-genesis-vol
+    work: "Commentaries on the First Book of Moses, Called Genesis, Vol. II"
     author: calvin
     locus: "whole file - Vol. II"
     atlas_ids:

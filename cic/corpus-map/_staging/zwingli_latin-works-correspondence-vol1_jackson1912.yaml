@@ -3,7 +3,8 @@
 source_file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
 
 assignments:
-  - work: "The Latin Works and the Correspondence of Huldreich Zwingli,
+  - row_id: zwingli_latin-works-correspondence-vol1_jackson1912--the-latin-works-and-the-correspondence-of-huldreich-zwingli
+    work: "The Latin Works and the Correspondence of Huldreich Zwingli,
       Vol. I (early treatises and letters)"
     author: zwingli
     locus: "whole file"

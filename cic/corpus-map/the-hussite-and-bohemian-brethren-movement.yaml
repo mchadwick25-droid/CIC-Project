@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-hussite-and-bohemian-brethren-movement
 works:
-- work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
+- row_id: gillett_life-and-times-of-huss-v2_1871--the-life-and-times-of-john-huss-or-the-bohemian-reformation
+  work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
     Vol. II'
   author: gillett
   locus: whole volume
@@ -14,7 +15,8 @@ works:
 
     '
   source_file: gillett_life-and-times-of-huss-v2_1871.txt
-- work: De Ecclesia. The Church
+- row_id: hus_de-ecclesia-the-church_schaff1915--de-ecclesia-the-church
+  work: De Ecclesia. The Church
   author: hus
   locus: whole volume
   role: tradition
@@ -26,7 +28,8 @@ works:
 
     '
   source_file: hus_de-ecclesia-the-church_schaff1915.txt
-- work: The Letters of John Hus
+- row_id: hus_letters_workman-pope1904--the-letters-of-john-hus
+  work: The Letters of John Hus
   author: hus
   locus: whole volume
   role: tradition
@@ -38,7 +41,8 @@ works:
 
     '
   source_file: hus_letters_workman-pope1904.txt
-- work: 'Bohemia: An Historical Sketch'
+- row_id: lutzow_bohemia-historical-sketch_1920--bohemia-an-historical-sketch
+  work: 'Bohemia: An Historical Sketch'
   author: lutzow
   locus: whole volume
   role: context
@@ -48,7 +52,8 @@ works:
 
     '
   source_file: lutzow_bohemia-historical-sketch_1920.txt
-- work: The Hussite Wars
+- row_id: lutzow_hussite-wars_1914--the-hussite-wars
+  work: The Hussite Wars
   author: lutzow
   locus: whole volume
   role: context
@@ -57,7 +62,8 @@ works:
 
     '
   source_file: lutzow_hussite-wars_1914.txt
-- work: The Life & Times of Master John Hus
+- row_id: lutzow_life-and-times-of-hus_1909--the-life-times-of-master-john-hus
+  work: The Life & Times of Master John Hus
   author: lutzow
   locus: whole volume
   role: context
@@ -68,7 +74,8 @@ works:
 
     '
   source_file: lutzow_life-and-times-of-hus_1909.txt
-- work: Historia Bohemica
+- row_id: piccolomini_historia-bohemica-lat_1592--historia-bohemica
+  work: Historia Bohemica
   author: piccolomini
   locus: whole volume
   role: context
@@ -83,7 +90,8 @@ works:
 
     '
   source_file: piccolomini_historia-bohemica-lat_1592.txt
-- work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
+- row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren
+  work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
   author: unity-of-the-brethren
   locus: whole volume
   role: context

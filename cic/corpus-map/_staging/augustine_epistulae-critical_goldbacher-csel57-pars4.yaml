@@ -7,7 +7,8 @@
 source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
 
 assignments:
-  - work: "S. Aureli Augustini Epistulae, Pars IV (Epistulae CLXXXV-CCLXX)"
+  - row_id: augustine_epistulae-critical_goldbacher-csel57-pars4--s-aureli-augustini-epistulae-pars-iv-epistulae-clxxxv-cclxx
+    work: "S. Aureli Augustini Epistulae, Pars IV (Epistulae CLXXXV-CCLXX)"
     author: augustine
     locus: "whole text; Goldbacher's own EPISTVLA numbering runs continuously CLXXXV-CCLXX"
     atlas_ids:

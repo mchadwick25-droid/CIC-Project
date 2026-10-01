@@ -1,7 +1,8 @@
 source_file: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt
 
 assignments:
-  - work: "Adnotationes et Meditationes in Evangelia"
+  - row_id: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595--adnotationes-et-meditationes-in-evangelia
+    work: "Adnotationes et Meditationes in Evangelia"
     author: nadal
     locus: "whole text"
     atlas_ids:

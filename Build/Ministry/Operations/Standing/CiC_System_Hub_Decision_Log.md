@@ -5978,6 +5978,32 @@ gate checks for it.
 **Left as history.** Earlier decision logs, review files and planning documents that name the license are not
 edited. They record what was true when they were written.
 
+## 2026-09-30 — Library Access Gate CM-1: a stable `row_id` on every corpus-map row
+
+**Commissioned by the project lead, 2026-09-30.** Process V2.0 gives new worlds no waivers, and the M9
+`shelf-row` check needs every vendored source record to name a `shelf_row` that is a `row_id` on the
+world's shelf. No bucket row carried one, so a new world could not author a valid source record. CM-1 is
+the one dependency in `D3-Converged-Design.md` §3 that is mechanical, so it was done alone.
+
+**The id rule.** `<file-stem>--<work-slug>`, where the stem is the staging volume's filename without
+`.yaml`. The slug is the work title folded to ASCII and lower-cased, every run of other characters becomes
+one hyphen, and it is cut at a hyphen boundary to at most 60 characters. Two rows of one volume with the
+same slug take `-2`, `-3` in staging order. `python cic/engine/corpus_map_merge.py --assign-ids` writes the
+id into the staging file as the row's first key, by editing the file text so comments survive. It skips any
+row that already has an id, so a later title correction never moves one, and a second run changes nothing.
+`row_id` is in `_KEEP`, so a merge carries it into the buckets. Why this shape: the stem keeps ids
+unique across volumes without a registry, and the slug keeps them readable in a record.
+
+**One id can sit in several buckets.** A staging row lands in every bucket its `atlas_ids` names, so
+uniqueness is per row, not per bucket entry. `corpus_map.validate()` requires an id on every row, forbids
+a repeat inside one bucket, and forbids one id naming two different works anywhere in the map.
+
+**Result.** 837 staging rows across 222 volumes received ids; 138 needed a collision suffix.
+
+**Still out of scope.** CM-2 to CM-8 (`voice_of`, `PAIRS`, `locus_ids`, missing rows, `documented_exchange`).
+No world's records were touched, and no `shelf_row` was added to any existing source record; that is a
+separate per-world migration, each needing a repin.
+
 ## 2026-10-01 - Cap ruling: jes Step 0, spot-check file under its new name
 
 The Library thread filed the `jes` Step 0 spot-check under its round's number, as the Library-stage rule

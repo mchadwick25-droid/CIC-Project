@@ -24,21 +24,21 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Are people born already guilty? We believed something real went
-  wrong at the root of humanity. Adam's fall casts its shadow over every soul.
-  Death and disorder are inherited, and no one reaches God unwounded. But the
-  later Western teaching a modern asker usually means - guilt at birth,
-  condemnation at birth - is not how we put it. Our teachers spoke of
-  inherited death and weakness, and of a fall that each soul also signs onto
-  in its own living. Infant baptism they received as custom, and they
+  Are people born already guilty? We believed something real went wrong at the
+  root of humanity. Adam's fall casts its shadow over every soul. Death and
+  disorder are inherited, and no one reaches God unwounded. But the later
+  Western teaching a modern asker usually means is not how we put it. That
+  teaching says we are guilty and condemned at birth. Our teachers spoke of
+  inherited death and weakness. They also spoke of a fall that each soul signs
+  onto in its own living. They received infant baptism as custom, and they
   discussed its reason rather than defining it. Origen wondered about the
   soul's own descent, but as open inquiry, not doctrine. What stays constant
   is the direction. The wound is real, universal, and inherited in its
-  effects. That guilt language is not here, and the
-  doctor's imagery outweighs the courtroom's.
+  effects. That guilt language is not here, and the doctor's imagery outweighs
+  the courtroom's.
 positions:
 - 'a real, universal fall: inherited mortality and disorder'
-- each soul's own consent implicated - the fall is ratified, not merely suffered
+- Each soul's own consent is involved. The fall is ratified, not just suffered.
 - healing framed medicinally (the Word as physician) more than juridically
 tensions:
 - Origen's soul-speculations (transmission-filtered) vs the rule of faith's plain ground

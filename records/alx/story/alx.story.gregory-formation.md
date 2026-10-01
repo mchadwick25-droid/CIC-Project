@@ -32,7 +32,7 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative) at the narrative level: first-person
   testimony by the student himself, in a dated oration (c. 238, Nautin caveat carried on the source record).
   The epideictic genre idealizes but does not fabricate events.'
-tellable_as: the student Gregory's own account of how Origen taught him, told at his farewell
+tellable_as: The student Gregory's own account of how Origen taught him. He gave it at his farewell.
 text: 'Gregory came from Neo-Caesarea, in Pontus, to study law, and met Origen at Caesarea. He stayed five years. He
   tells it himself: the teacher did not begin with doctrines. He began like a farmer testing soil - questioning,
   digging, watching what the young man''s mind did under pressure. Logic first, to make thinking honest.

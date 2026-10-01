@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: antiochene-church-third-century
 works:
-- work: The Church History of Eusebius (Historia Ecclesiastica)
+- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-4
+  work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Book VII, chapters 27-29 (Paul of Samosata's heresy, the bishops assembled
     against him, and Malchion's disputation); ch. 30's own extracts from the synodal epistle
@@ -34,7 +35,8 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- work: The Church History of Eusebius (Historia Ecclesiastica), Book VIII.13 and IX.6 (the
+- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-book
+  work: The Church History of Eusebius (Historia Ecclesiastica), Book VIII.13 and IX.6 (the
     martyrdom of Lucian of Antioch)
   author: eusebius
   locus: Book VIII, ch. 13.2 (line 44730) and Book IX, ch. 6.3 (line 48001) - Eusebius's own
@@ -59,7 +61,8 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-lxxvii
+  work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
     (file line 40990)
   author: jerome
   locus: div2 5.3, Chapter LXXVII "Lucianus the presbyter"
@@ -81,7 +84,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch
+  work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
     (with fragments of the disputation)
   author: malchion
   locus: div2 6.10

@@ -280,7 +280,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Testaments of the Twelve Patriarchs
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-testaments-of-the-twelve-patriarchs
+  work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)
   atlas_ids:
@@ -293,7 +294,8 @@ assignments:
     census has no entry of its own for Jewish pseudepigrapha in Christian transmission;
     apocryphal-and-pseudepigraphal-literature holds that class and names what the TEXT is, and
     pahc is kept where the subject matter is genuinely apostolic-era.'
-- work: The Testaments of the Twelve Patriarchs
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-testaments-of-the-twelve-patriarchs-2
+  work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)
   atlas_ids:
@@ -309,7 +311,8 @@ assignments:
     voice. A Jewish work with Christian interpolations. Its survival is Christian custody;
     whether the interpolations make it a Jewish-Christian voice is the separate question the
     ebionite-nazoraean-current assignment carries, and that one stays `tradition`.'
-- work: Excerpts of Theodotus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--excerpts-of-theodotus
+  work: Excerpts of Theodotus
   author: excerpts-of-theodotus
   locus: div2 4.3
   atlas_ids:
@@ -327,7 +330,8 @@ assignments:
     this corpus.
 
     '
-- work: Excerpts of Theodotus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--excerpts-of-theodotus-2
+  work: Excerpts of Theodotus
   author: excerpts-of-theodotus
   locus: div2 4.3
   atlas_ids:
@@ -344,7 +348,8 @@ assignments:
     Excerpta ex Theodoto is not vendored anywhere in this corpus.
 
     '
-- work: Two Epistles Concerning Virginity
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--two-epistles-concerning-virginity
+  work: Two Epistles Concerning Virginity
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4
   atlas_ids:
@@ -358,7 +363,8 @@ assignments:
     given apocryphal-and-pseudepigraphal-literature alongside, which is what these are -
     pseudo-Clementine letters written under a name that is not theirs. The ascetic-milieu
     question in the original note is not resolved by either; it is noted and not forced.'
-- work: Two Epistles Concerning Virginity
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--two-epistles-concerning-virginity-2
+  work: Two Epistles Concerning Virginity
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4
   atlas_ids:
@@ -376,7 +382,8 @@ assignments:
     that is not its own voice. Pseudo-Clementine ascetic letters preserved in Syriac; syr is a
     region-and-era guess rather than demonstrated Edessene provenance. Custody is the honest
     claim.'
-- work: The Recognitions of Clement
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-recognitions-of-clement
+  work: The Recognitions of Clement
   author: pseudo-clement
   locus: div2 6.3
   atlas_ids:
@@ -394,7 +401,8 @@ assignments:
     because composition in Syria c. 300-320 falls inside its window. The residual stretch, stated
     rather than hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is
     not the same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
-- work: The Recognitions of Clement
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-recognitions-of-clement-2
+  work: The Recognitions of Clement
   author: pseudo-clement
   locus: div2 6.3
   atlas_ids:
@@ -417,7 +425,8 @@ assignments:
     was Syrian but not demonstrably Edessene, and this entry is Edessa and Nisibis. The VOICE
     assignment is ebionite-nazoraean-current, which stays `tradition`. Custody here, voice
     there - which is what the role exists to say.'
-- work: The Clementine Homilies
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-clementine-homilies
+  work: The Clementine Homilies
   author: pseudo-clement
   locus: div2 6.4
   atlas_ids:
@@ -433,7 +442,8 @@ assignments:
     in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
     hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
     same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
-- work: The Clementine Homilies
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-clementine-homilies-2
+  work: The Clementine Homilies
   author: pseudo-clement
   locus: div2 6.4
   atlas_ids:
@@ -452,7 +462,8 @@ assignments:
     `transmission` role - the fourth relation - marks CUSTODY: this tradition preserved a work
     that is not its own voice. As with the Recognitions: custody here, voice in
     ebionite-nazoraean-current.'
-- work: The Protevangelium of James
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-protevangelium-of-james
+  work: The Protevangelium of James
   author: protevangelium-of-james
   locus: div2 7.4
   atlas_ids:
@@ -465,7 +476,8 @@ assignments:
     popular apocryphal literature as a class — a recurring problem in this volume, noted once
     here and applying throughout. apocryphal-and-pseudepigraphal-literature holds that class
     and names what the TEXT is; pahc is kept where the subject matter is genuinely apostolic-era.'
-- work: The Gospel of Pseudo-Matthew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-pseudo-matthew
+  work: The Gospel of Pseudo-Matthew
   author: gospel-of-pseudo-matthew
   locus: div2 7.5
   atlas_ids:
@@ -478,7 +490,8 @@ assignments:
     widened to c. 900 to cover its own material. Every note in this group said the same thing
     - the entry it sat in was whichever era bucket happened to be nearest, on a date its own
     note calls a guess spanning centuries. An era guess is not a placement; the class is.'
-- work: The Gospel of the Nativity of Mary
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-the-nativity-of-mary
+  work: The Gospel of the Nativity of Mary
   author: gospel-of-nativity-of-mary
   locus: div2 7.6
   atlas_ids:
@@ -490,7 +503,8 @@ assignments:
     window is widened to c. 900 to cover its own material. Every note in this group said the
     same thing - the entry it sat in was whichever era bucket happened to be nearest, on a date
     its own note calls a guess spanning centuries. An era guess is not a placement; the class is.'
-- work: The History of Joseph the Carpenter
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter
+  work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   atlas_ids:
@@ -503,7 +517,8 @@ assignments:
     window is widened to c. 900 to cover its own material. Every note in this group said the
     same thing - the entry it sat in was whichever era bucket happened to be nearest, on a date
     its own note calls a guess spanning centuries. An era guess is not a placement; the class is.'
-- work: The History of Joseph the Carpenter
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter-2
+  work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   atlas_ids:
@@ -518,7 +533,8 @@ assignments:
     its own note calls a guess spanning centuries. An era guess is not a placement; the class
     is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church is why we
     have it, which is custody rather than a date guess.'
-- work: The Infancy Gospel of Thomas (three forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-infancy-gospel-of-thomas-three-forms
+  work: The Infancy Gospel of Thomas (three forms)
   author: infancy-gospel-of-thomas
   locus: div2 7.8-7.10
   atlas_ids:
@@ -530,7 +546,8 @@ assignments:
     unknown. Not the Nag Hammadi Gospel of Thomas. apocryphal-and-pseudepigraphal-literature
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.'
-- work: The Arabic Gospel of the Infancy of the Saviour
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-arabic-gospel-of-the-infancy-of-the-saviour
+  work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   atlas_ids:
@@ -542,7 +559,8 @@ assignments:
     window is widened to c. 900 to cover its own material. Every note in this group said the
     same thing - the entry it sat in was whichever era bucket happened to be nearest, on a date
     its own note calls a guess spanning centuries. An era guess is not a placement; the class is.'
-- work: The Arabic Gospel of the Infancy of the Saviour
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-arabic-gospel-of-the-infancy-of-the-saviour-2
+  work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   atlas_ids:
@@ -556,7 +574,8 @@ assignments:
     its own note calls a guess spanning centuries. An era guess is not a placement; the class
     is. Compiled from Syriac sources and transmitted in Arabic through that milieu; custody,
     not composition.'
-- work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-nicodemus-acts-of-pilate-and-descent-into-hell
+  work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
   author: gospel-of-nicodemus
   locus: div2 7.12-7.17
   atlas_ids:
@@ -568,7 +587,8 @@ assignments:
     unknown. ijc was an era guess only — the work is popular piety, not imperial-juridical
     argument. apocryphal-and-pseudepigraphal-literature holds this class, since the work is
     popular piety rather than imperial-juridical argument.'
-- work: The Pilate Cycle (letters, reports and legends of Pilate)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-pilate-cycle-letters-reports-and-legends-of-pilate
+  work: The Pilate Cycle (letters, reports and legends of Pilate)
   author: pilate-cycle
   locus: div2 7.18-7.24
   atlas_ids:
@@ -581,7 +601,8 @@ assignments:
     same class and the same doubt as the Gospel of Nicodemus they travel with.
     apocryphal-and-pseudepigraphal-literature holds this class, since these are popular piety
     rather than imperial-juridical argument.'
-- work: Acts of the Holy Apostles Peter and Paul
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostles-peter-and-paul
+  work: Acts of the Holy Apostles Peter and Paul
   author: acts-of-peter-and-paul
   locus: div2 7.25
   atlas_ids:
@@ -593,7 +614,8 @@ assignments:
     holds the apostolic-Rome subject matter but the text postdates the entry''s window.
     apocryphal-and-pseudepigraphal-literature holds that class and names what the TEXT is;
     pahc is kept where the subject matter is genuinely apostolic-era.'
-- work: Acts of Paul and Thecla
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-paul-and-thecla
+  work: Acts of Paul and Thecla
   author: acts-of-paul-and-thecla
   locus: div2 7.26
   atlas_ids:
@@ -605,7 +627,8 @@ assignments:
     Thecla tradition named in brief 11a for syr is the Pearse corpus, not this text.
 
     '
-- work: The Acts of Barnabas
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-acts-of-barnabas
+  work: The Acts of Barnabas
   author: acts-of-barnabas
   locus: div2 7.27
   atlas_ids:
@@ -618,7 +641,8 @@ assignments:
     own material. Every note in this group said the same thing - the entry it sat in was
     whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
     centuries. An era guess is not a placement; the class is.'
-- work: The Acts of Philip
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-acts-of-philip
+  work: The Acts of Philip
   author: acts-of-philip
   locus: div2 7.28
   atlas_ids:
@@ -630,7 +654,8 @@ assignments:
     milieu to Phrygian ascetic (even Montanist-adjacent) circles. pahc is a region-of-subject
     guess. apocryphal-and-pseudepigraphal-literature holds that class and names what the TEXT
     is; pahc is kept where the subject matter is genuinely apostolic-era.'
-- work: Acts and Martyrdom of the Holy Apostle Andrew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-and-martyrdom-of-the-holy-apostle-andrew
+  work: Acts and Martyrdom of the Holy Apostle Andrew
   author: acts-of-andrew
   locus: div2 7.29
   atlas_ids:
@@ -642,7 +667,8 @@ assignments:
     Greek is later. pahc is an era guess. apocryphal-and-pseudepigraphal-literature holds that
     class and names what the TEXT is; pahc is kept where the subject matter is genuinely
     apostolic-era.'
-- work: Acts of Andrew and Matthias
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-andrew-and-matthias
+  work: Acts of Andrew and Matthias
   author: acts-of-andrew-and-matthias
   locus: div2 7.30
   atlas_ids:
@@ -654,7 +680,8 @@ assignments:
     carried over from the Andrew cycle for consistency. apocryphal-and-pseudepigraphal-literature
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.'
-- work: Acts of Peter and Andrew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-peter-and-andrew
+  work: Acts of Peter and Andrew
   author: acts-of-peter-and-andrew
   locus: div2 7.31
   atlas_ids:
@@ -665,7 +692,8 @@ assignments:
   note: 'Sequel to Andrew and Matthias; same class, same doubt. apocryphal-and-pseudepigraphal-literature
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.'
-- work: Acts and Martyrdom of St. Matthew the Apostle
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-and-martyrdom-of-st-matthew-the-apostle
+  work: Acts and Martyrdom of St. Matthew the Apostle
   author: acts-of-matthew
   locus: div2 7.32
   atlas_ids:
@@ -677,7 +705,8 @@ assignments:
     window is widened to c. 900 to cover its own material. Every note in this group said the
     same thing - the entry it sat in was whichever era bucket happened to be nearest, on a date
     its own note calls a guess spanning centuries. An era guess is not a placement; the class is.'
-- work: Acts of Thomas (with the Consummation of Thomas)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-thomas-with-the-consummation-of-thomas
+  work: Acts of Thomas (with the Consummation of Thomas)
   author: acts-of-thomas
   locus: div2 7.33-7.34
   atlas_ids:
@@ -691,7 +720,8 @@ assignments:
     Non-exclusive by design.
 
     '
-- work: Martyrdom of the Holy and Glorious Apostle Bartholomew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--martyrdom-of-the-holy-and-glorious-apostle-bartholomew
+  work: Martyrdom of the Holy and Glorious Apostle Bartholomew
   author: martyrdom-of-bartholomew
   locus: div2 7.35
   atlas_ids:
@@ -703,7 +733,8 @@ assignments:
     own material. Every note in this group said the same thing - the entry it sat in was
     whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
     centuries. An era guess is not a placement; the class is.'
-- work: Acts of the Holy Apostle Thaddaeus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostle-thaddaeus
+  work: Acts of the Holy Apostle Thaddaeus
   author: acts-of-thaddaeus
   locus: div2 7.36
   atlas_ids:
@@ -714,7 +745,8 @@ assignments:
     is syr''s charter myth; the Greek text itself is later (6th-7th c.), hence provisional.
 
     '
-- work: Acts of the Holy Apostle and Evangelist John the Theologian
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostle-and-evangelist-john-the-theologian
+  work: Acts of the Holy Apostle and Evangelist John the Theologian
   author: acts-of-john-the-theologian
   locus: div2 7.37
   atlas_ids:
@@ -726,7 +758,8 @@ assignments:
     matter, received text much later — pahc is a region-of-subject guess. apocryphal-and-pseudepigraphal-literature
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.'
-- work: Revelation of Moses
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-moses
+  work: Revelation of Moses
   author: revelation-of-moses
   locus: div2 7.38
   atlas_ids:
@@ -738,7 +771,8 @@ assignments:
     Twelve Patriarchs and anf09''s Testament of Abraham); pahc stands in for ''early Christian
     transmission milieu'' only. apocryphal-and-pseudepigraphal-literature holds that class and
     names what the TEXT is; pahc is kept where the subject matter is genuinely apostolic-era.'
-- work: Revelation of Moses
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-moses-2
+  work: Revelation of Moses
   author: revelation-of-moses
   locus: div2 7.38
   atlas_ids:
@@ -753,7 +787,8 @@ assignments:
     The `transmission` role - the fourth relation - marks CUSTODY: this tradition preserved a
     work that is not its own voice. The Greek Life of Adam and Eve - a Jewish work that
     survives because Christian scribes went on copying it after Judaism had let it go.'
-- work: Revelation of Esdras
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-esdras
+  work: Revelation of Esdras
   author: revelation-of-esdras
   locus: div2 7.39
   atlas_ids:
@@ -766,7 +801,8 @@ assignments:
     own material. Every note in this group said the same thing - the entry it sat in was
     whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
     centuries. An era guess is not a placement; the class is.'
-- work: Revelation of Paul
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-paul
+  work: Revelation of Paul
   author: apocalypse-of-paul
   locus: div2 7.40
   atlas_ids:
@@ -779,7 +815,8 @@ assignments:
     class; an alexandria placement would only have been a provenance-and-era guess
     (desert-monasticism arguably next-best given its monastic circulation), so it is not used
     here.'
-- work: Revelation of John (apocryphal)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-john-apocryphal
+  work: Revelation of John (apocryphal)
   author: revelation-of-john
   locus: div2 7.41
   atlas_ids:
@@ -791,7 +828,8 @@ assignments:
     window is widened to c. 900 to cover its own material. Every note in this group said the
     same thing - the entry it sat in was whichever era bucket happened to be nearest, on a date
     its own note calls a guess spanning centuries. An era guess is not a placement; the class is.'
-- work: The Book of John Concerning the Falling Asleep of Mary
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-book-of-john-concerning-the-falling-asleep-of-mary
+  work: The Book of John Concerning the Falling Asleep of Mary
   author: falling-asleep-of-mary
   locus: div2 7.42
   atlas_ids:
@@ -804,7 +842,8 @@ assignments:
     own material. Every note in this group said the same thing - the entry it sat in was
     whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
     centuries. An era guess is not a placement; the class is.'
-- work: The Passing of Mary (two Latin forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-passing-of-mary-two-latin-forms
+  work: The Passing of Mary (two Latin forms)
   author: passing-of-mary
   locus: div2 7.43-7.44
   atlas_ids:
@@ -816,7 +855,8 @@ assignments:
     window is widened to c. 900 to cover its own material. Every note in this group said the
     same thing - the entry it sat in was whichever era bucket happened to be nearest, on a date
     its own note calls a guess spanning centuries. An era guess is not a placement; the class is.'
-- work: 'The Decretals (pseudo-Isidorian: Zephyrinus to Fabian)'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-decretals-pseudo-isidorian-zephyrinus-to-fabian
+  work: 'The Decretals (pseudo-Isidorian: Zephyrinus to Fabian)'
   author: decretals-pseudo-isidore
   locus: div1 8 (div2 8.3-8.9)
   atlas_ids:
@@ -829,7 +869,8 @@ assignments:
     a secondary interest noted for reviewers, not asserted.
 
     '
-- work: Abgar documents (Story concerning the King of Edessa; extracts concerning Abgar and
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--abgar-documents-story-concerning-the-king-of-edessa-extracts
+  work: Abgar documents (Story concerning the King of Edessa; extracts concerning Abgar and
     Addaeus)
   author: abgar-edessa-documents
   locus: div2 9.3, 9.5
@@ -842,7 +883,8 @@ assignments:
     vendored separately (addai_doctrine-of-addai.txt, another worker''s file).
 
     '
-- work: A Canticle of Mar Jacob the Teacher on Edessa
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-canticle-of-mar-jacob-the-teacher-on-edessa
+  work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
   locus: div2 9.4
   atlas_ids:
@@ -854,7 +896,8 @@ assignments:
     the author belongs to the West Syriac entry''s era. Non-exclusive on purpose.
 
     '
-- work: The Teaching of Addaeus the Apostle
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-teaching-of-addaeus-the-apostle
+  work: The Teaching of Addaeus the Apostle
   author: addai
   locus: div2 9.6
   atlas_ids:
@@ -868,7 +911,8 @@ assignments:
     files.
 
     '
-- work: The Teaching of the Apostles (Syriac)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-teaching-of-the-apostles-syriac
+  work: The Teaching of the Apostles (Syriac)
   author: teaching-of-the-apostles-syriac
   locus: div2 9.7
   atlas_ids:
@@ -879,7 +923,8 @@ assignments:
     collection; distinct from the Didache (anf07) despite the similar title.
 
     '
-- work: The Teaching of Simon Cephas in the City of Rome
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-teaching-of-simon-cephas-in-the-city-of-rome
+  work: The Teaching of Simon Cephas in the City of Rome
   author: teaching-of-simon-cephas
   locus: div2 9.8
   atlas_ids:
@@ -887,7 +932,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: Syriac doctrina from the same Edessene collection.
-- work: Acts of Sharbil
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-sharbil
+  work: Acts of Sharbil
   author: edessene-martyr-acts
   locus: div2 9.9
   atlas_ids:
@@ -898,7 +944,8 @@ assignments:
     memory.
 
     '
-- work: Martyrdom of Habib the Deacon
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--martyrdom-of-habib-the-deacon
+  work: Martyrdom of Habib the Deacon
   author: edessene-martyr-acts
   locus: div2 9.11
   atlas_ids:
@@ -906,7 +953,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: Edessene martyr acta (Diocletianic era); syr's martyr memory.
-- work: Martyrdom of Shamuna, Guria, and Habib (from Simeon Metaphrastes)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--martyrdom-of-shamuna-guria-and-habib-from-simeon
+  work: Martyrdom of Shamuna, Guria, and Habib (from Simeon Metaphrastes)
   author: edessene-martyr-acts
   locus: div2 9.12
   atlas_ids:
@@ -917,7 +965,8 @@ assignments:
     content is syr''s, the literary vehicle is Byzantine; provisional for that mediation.
 
     '
-- work: 'Moses of Chorene: History of Armenia (extract)'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--moses-of-chorene-history-of-armenia-extract
+  work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene
   locus: div2 9.13
   atlas_ids:
@@ -931,7 +980,8 @@ assignments:
     segment.
 
     '
-- work: 'Bardesan: The Book of the Laws of Divers Countries'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries
+  work: 'Bardesan: The Book of the Laws of Divers Countries'
   author: bardesan
   locus: div2 9.16
   atlas_ids:
@@ -945,7 +995,8 @@ assignments:
     the syr world already carries; the work is still Edessene tradition, not outside context.
     bardaisanite-current is added alongside, since the party this work argues with now has an
     entry of its own.'
-- work: A Letter of Mara, Son of Serapion
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-letter-of-mara-son-of-serapion
+  work: A Letter of Mara, Son of Serapion
   author: mara-bar-serapion
   locus: div2 9.17
   atlas_ids:
@@ -957,7 +1008,8 @@ assignments:
     speaking.
 
     '
-- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--ambrose-a-memorial-hypomnemata-addressed-to-the-greeks
+  work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
   atlas_ids:
@@ -973,7 +1025,8 @@ assignments:
     syriac-edessa-nisibis is kept, which is how it reached us. `provisional` because the
     APOLOGIST half is a date question - the entry''s window is 124-200 and this piece is
     undated - not because the Syriac half is in doubt.'
-- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--ambrose-a-memorial-hypomnemata-addressed-to-the-greeks-2
+  work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
   atlas_ids:
@@ -992,7 +1045,8 @@ assignments:
     relation - marks CUSTODY: this tradition preserved a work that is not its own voice. The
     volume''s own headnote says the original was Greek, because the Syriac mistranslates it
     in places. Syriac scribes are why it exists at all; the argument in it is not theirs.'
-- work: Fragments of Quadratus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus
+  work: Fragments of Quadratus
   author: quadratus
   locus: div2 10.3
   atlas_ids:
@@ -1004,7 +1058,8 @@ assignments:
     but the era and church-world are pahc''s. greek-apologists-second-century holds this work
     for the era''s outward-facing writing; pahc is kept because the era and church-world are
     genuinely its.'
-- work: Fragments of Aristo of Pella
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
   atlas_ids:
@@ -1017,7 +1072,8 @@ assignments:
     from Pella. The Jewish-Christian current and pahc are both defensible; neither is demonstrated
     by the fragments. greek-apologists-second-century holds this work for the era''s
     outward-facing writing; pahc is kept because the era and church-world are genuinely its.'
-- work: Fragments of Melito of Sardis
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis
+  work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: div2 10.5
   atlas_ids:
@@ -1029,7 +1085,8 @@ assignments:
     the first known Christian OT canon list — core pahc evidence. greek-apologists-second-century
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
-- work: Fragments of Hegesippus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-hegesippus
+  work: Fragments of Hegesippus
   author: hegesippus
   locus: div2 10.6
   atlas_ids:
@@ -1040,7 +1097,8 @@ assignments:
     sects) — pahc''s own memory of its first generations.
 
     '
-- work: Fragments of Dionysius of Corinth
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-dionysius-of-corinth
+  work: Fragments of Dionysius of Corinth
   author: dionysius-of-corinth
   locus: div2 10.7
   atlas_ids:
@@ -1048,7 +1106,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: Catholic letters to the churches, c. 170 — pahc's inter-church network in action.
-- work: Fragments of Rhodon
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-rhodon
+  work: Fragments of Rhodon
   author: rhodon
   locus: div2 10.8
   atlas_ids:
@@ -1059,7 +1118,8 @@ assignments:
     reporting with the Marcion entry.
 
     '
-- work: Fragments of Rhodon
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-rhodon-2
+  work: Fragments of Rhodon
   author: rhodon
   locus: div2 10.8
   atlas_ids:
@@ -1071,7 +1131,8 @@ assignments:
     a separate row carrying role context.
 
     '
-- work: Fragment of Maximus of Jerusalem
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragment-of-maximus-of-jerusalem
+  work: Fragment of Maximus of Jerusalem
   author: maximus-of-jerusalem
   locus: div2 10.9
   atlas_ids:
@@ -1085,7 +1146,8 @@ assignments:
     strength of correspondence with Origen, who himself moved to Caesarea around 231. Still
     `needs-ruling`: the attribution of this large fragment is itself disputed (it circulates
     with Methodius'' material, per the notice), and that doubt is untouched by the new entry.'
-- work: Fragments of Claudius Apollinaris
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-claudius-apollinaris
+  work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10
   atlas_ids:
@@ -1096,7 +1158,8 @@ assignments:
     witness with the Montanism entry.
 
     '
-- work: Fragments of Claudius Apollinaris
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-claudius-apollinaris-2
+  work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10
   atlas_ids:
@@ -1113,7 +1176,8 @@ assignments:
     apologetic content specifically.
 
     '
-- work: Fragments of Claudius Apollinaris
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-claudius-apollinaris-3
+  work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10
   atlas_ids:
@@ -1124,7 +1188,8 @@ assignments:
     the New Prophecy from a neighboring Phrygian see.
 
     '
-- work: Fragments of Polycrates of Ephesus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-polycrates-of-ephesus
+  work: Fragments of Polycrates of Ephesus
   author: polycrates-of-ephesus
   locus: div2 10.11
   atlas_ids:
@@ -1135,7 +1200,8 @@ assignments:
     defending itself against Rome, c. 190.
 
     '
-- work: Fragment of Theophilus of Caesarea
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragment-of-theophilus-of-caesarea
+  work: Fragment of Theophilus of Caesarea
   author: theophilus-of-caesarea
   locus: div2 10.12
   atlas_ids:
@@ -1146,7 +1212,8 @@ assignments:
     though Palestine is outside pahc''s named regions.
 
     '
-- work: Fragments of Serapion of Antioch
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-serapion-of-antioch
+  work: Fragments of Serapion of Antioch
   author: serapion-of-antioch
   locus: div2 10.13
   atlas_ids:
@@ -1158,7 +1225,8 @@ assignments:
     there.
 
     '
-- work: Fragments of Apollonius
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-apollonius
+  work: Fragments of Apollonius
   author: apollonius
   locus: div2 10.14
   atlas_ids:
@@ -1169,7 +1237,8 @@ assignments:
     content with the Montanism entry.
 
     '
-- work: Fragments of Apollonius
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-apollonius-2
+  work: Fragments of Apollonius
   author: apollonius
   locus: div2 10.14
   atlas_ids:
@@ -1181,7 +1250,8 @@ assignments:
     in anf07) much of what survives about it at all.
 
     '
-- work: Fragments of Pantaenus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-pantaenus
+  work: Fragments of Pantaenus
   author: pantaenus
   locus: div2 10.15
   atlas_ids:
@@ -1192,7 +1262,8 @@ assignments:
     — the entry''s founder figure; only fragments survive.
 
     '
-- work: The Letter of the Churches of Lyons and Vienne (Pseud-Irenaeus)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-letter-of-the-churches-of-lyons-and-vienne-pseud
+  work: The Letter of the Churches of Lyons and Vienne (Pseud-Irenaeus)
   author: letter-churches-lyons-vienne
   locus: div2 10.16
   atlas_ids:

@@ -1,7 +1,8 @@
 source_file: francis-xavier_life-and-letters-v1_coleridge1872.txt
 
 assignments:
-  - work: "The Life and Letters of St. Francis Xavier, Vol. I"
+  - row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i
+    work: "The Life and Letters of St. Francis Xavier, Vol. I"
     author: francis-xavier
     locus: "whole text - university years through the Malacca/Moluccas mission, 1541-1548"
     atlas_ids:

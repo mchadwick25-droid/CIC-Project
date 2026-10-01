@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: persian-church-of-the-east-early
 works:
-- work: 'Demonstration II: On Love'
+- row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-ii-on-love-2
+  work: 'Demonstration II: On Love'
   author: aphrahat
   locus: second piece in file (JSOR 14, 1930, pp. 18-31)
   role: tradition
@@ -13,7 +14,8 @@ works:
 
     '
   source_file: aphrahat_demonstrations-2-7_hallock1932.txt
-- work: 'Demonstration VII: On Penitents'
+- row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-vii-on-penitents-2
+  work: 'Demonstration VII: On Penitents'
   author: aphrahat
   locus: first piece in file (JSOR 16, 1932, pp. 43-56)
   role: tradition
@@ -25,7 +27,8 @@ works:
 
     '
   source_file: aphrahat_demonstrations-2-7_hallock1932.txt
-- work: Select Demonstrations of Aphrahat
+- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat
+  work: Select Demonstrations of Aphrahat
   author: aphrahat
   locus: 'div2 3.9 — Aphrahat: Select Demonstrations'
   role: tradition
@@ -38,7 +41,8 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-liturgy-of-the-blessed-apostles-adaeus-and-maris
+  work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
   author: liturgy-of-addai-and-mari
   locus: div2 12.4
   role: tradition
@@ -54,7 +58,8 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: The Ecclesiastical History of Sozomen
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
+  work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: jerusalem-liturgical-pilgrimage-christianity
 works:
-- work: Fragments of Alexander of Cappadocia
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-alexander-of-cappadocia
+  work: Fragments of Alexander of Cappadocia
   author: alexander_capp
   locus: div2 6.4
   role: tradition
@@ -16,7 +17,8 @@ works:
     piles turned out to be this one hole - Alexandria was standing in for it on the strength
     of correspondence with Origen, who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-catechetical-lectures-procatechesis-catecheses-i-xviii
+  work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
     I-V)
   author: cyril_jer
   locus: 'div1 2 (~202,666 words): Procatechesis at div2 2.4, the eighteen pre-baptismal lectures
@@ -34,7 +36,8 @@ works:
 
     '
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
-- work: On Pilgrimages
+- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages
+  work: On Pilgrimages
   author: gregory_nyssa
   locus: txt heading at line 33740 (part II, Ascetic and Moral)
   role: tradition
@@ -46,7 +49,8 @@ works:
 
     '
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
-- work: Letter CVIII (To Eustochium - Epitaph of Paula)
+- row_id: npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula
+  work: Letter CVIII (To Eustochium - Epitaph of Paula)
   author: jerome
   locus: div2 5.108 - 'To Eustochium', n=CVIII, ~16,944 words
   role: tradition
@@ -59,7 +63,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Divine Liturgy of James
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
+  work: The Divine Liturgy of James
   author: liturgy-of-st-james
   locus: div2 12.2
   role: tradition

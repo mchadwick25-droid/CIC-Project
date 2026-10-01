@@ -23,7 +23,8 @@
 source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 
 assignments:
-  - work: "Psalmus contra Partem Donati"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati
+    work: "Psalmus contra Partem Donati"
     author: augustine
     locus: "Pars I, opening item"
     atlas_ids:
@@ -39,7 +40,8 @@ assignments:
       answers Donatist argument directly, the nearest thing to a documented
       exchange this entry has.
 
-  - work: "Contra Epistulam Parmeniani (libri tres)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres
+    work: "Contra Epistulam Parmeniani (libri tres)"
     author: augustine
     locus: "Pars I"
     atlas_ids:
@@ -57,7 +59,8 @@ assignments:
       genuine new primary Augustine content for that world too, reachable
       from no other file it holds.
 
-  - work: "De Baptismo (libri septem)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem
+    work: "De Baptismo (libri septem)"
     author: augustine
     locus: "Pars I"
     atlas_ids:
@@ -75,7 +78,8 @@ assignments:
       same-work-different-language pairing already used there for Cyprian/
       Hartel and six other Augustine works.
 
-  - work: "Contra Cresconium (libri quattuor)"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor
+    work: "Contra Cresconium (libri quattuor)"
     author: augustine
     locus: "Pars III, following Pars I without a second title page in this
       scan"
@@ -96,7 +100,8 @@ assignments:
       Augustine content for that world too, reachable from no other file it
       holds.
 
-  - work: "De Unico Baptismo contra Petilianum"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum
+    work: "De Unico Baptismo contra Petilianum"
     author: augustine
     locus: "Pars III"
     atlas_ids:
@@ -113,7 +118,8 @@ assignments:
       behind that world's own already-vendored English npnf104 "Answer to
       the Letters of Petilian" row.
 
-  - work: "Contra (Adversus) Fulgentium Donatistam"
+  - row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam
+    work: "Contra (Adversus) Fulgentium Donatistam"
     author: augustine
     locus: "Pars III, short item"
     atlas_ids:

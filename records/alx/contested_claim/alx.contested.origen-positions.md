@@ -19,8 +19,7 @@ sources:
 - source_id: alx.source.origen-philocalia
   locus: the Greek control where it exists
   license: public-domain
-claim: 'Origen himself held, as settled doctrine, the positions later condemned under his name: the pre-existence
-  of souls, apokatastasis (universal restoration), grades of rational natures, subordinationist Christology.'
+claim: 'Origen himself taught the positions later condemned in his name, and taught them as settled doctrine. He held that souls exist before birth. He held that all things will be restored (apokatastasis). He held that rational beings come in grades. And he held that the Son ranks below the Father.'
 held_against:
 - A large part of Origen survives only through Rufinus (who softened suspect passages in translation)
   and Jerome (who, after his turn, quoted adversarially) - fine-grained position-attributions pass through

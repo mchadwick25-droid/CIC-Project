@@ -114,5 +114,156 @@ if orphan:
     for o in orphan:
         print(f"       orphan: {o}")
 
+
+# --- row_id (CM-1) ---
+import tempfile  # noqa: E402
+
+results.append(check("every real staging row carries a row_id", all(r.get("row_id") for r in rows)))
+results.append(check("work_slug folds accents, punctuation and case",
+                     corpus_map_merge.work_slug("Sermon (De Trinitate) - Ambrosius' \u00c6thelred!") == "sermon-de-trinitate-ambrosius-thelred"))
+results.append(check("work_slug falls back when nothing survives", corpus_map_merge.work_slug("\u2014") == "work"))
+long_slug = corpus_map_merge.work_slug("abcdefgh " * 10)
+results.append(check("work_slug is cut at a word boundary", long_slug == "-".join(["abcdefgh"] * 6) and len("-".join(["abcdefgh"] * 7)) > 60))
+
+_STAGED = """# a comment that must survive
+source_file: vol1.xml
+assignments:
+- work: Alpha
+  author: a
+  atlas_ids: [x]
+- work: Alpha
+  author: a
+  atlas_ids: [y]
+- row_id: vol1--kept-by-hand
+  work: Renamed Later
+  atlas_ids: [x]
+- work: Beta
+  atlas_ids: [x]
+"""
+
+
+def _in_temp_staging(text, fn):
+    import yaml
+    saved = corpus_map_merge.STAGING
+    with tempfile.TemporaryDirectory() as d:
+        corpus_map_merge.STAGING = Path(d)
+        (Path(d) / "vol1.yaml").write_text(text, encoding="utf-8")
+        try:
+            return fn(Path(d) / "vol1.yaml", lambda: yaml.safe_load((Path(d) / "vol1.yaml").read_text())["assignments"])
+        finally:
+            corpus_map_merge.STAGING = saved
+
+
+def _assign_case(path, load_rows):
+    first = corpus_map_merge.assign_ids()
+    after_first = path.read_text()
+    second = corpus_map_merge.assign_ids()
+    return first, second, after_first, path.read_text(), load_rows()
+
+
+first, second, txt1, txt2, staged = _in_temp_staging(_STAGED, _assign_case)
+ids = [r["row_id"] for r in staged]
+results.append(check("assign_ids gives every row an id and counts them", first[0] == 3 and all(ids)))
+results.append(check("a slug collision within one volume takes -2 in staging order",
+                     ids[0] == "vol1--alpha" and ids[1] == "vol1--alpha-2" and first[1] == 1))
+results.append(check("an existing row_id is never overwritten, even when the title differs",
+                     ids[2] == "vol1--kept-by-hand"))
+results.append(check("assign_ids is idempotent: the second run assigns nothing and changes nothing",
+                     second[:2] == (0, 0) and txt1 == txt2))
+results.append(check("assign_ids leaves comments and other fields alone",
+                     txt2.startswith("# a comment that must survive") and staged[0]["author"] == "a"))
+
+
+def _dry_case(path, load_rows):
+    before = path.read_text()
+    assigned = corpus_map_merge.assign_ids(write=False)[0]
+    return assigned, before == path.read_text()
+
+
+results.append(check("assign_ids with write=False reports and writes nothing",
+                     _in_temp_staging(_STAGED, _dry_case) == (3, True)))
+
+def _refusal_case(text):
+    def case(path, load_rows):
+        other = path.parent / "vol0.yaml"
+        other.write_text("source_file: v0.xml\nassignments:\n- work: Z\n  atlas_ids: [x]\n", encoding="utf-8")
+        before = (path.read_text(), other.read_text())
+        assigned, _, findings = corpus_map_merge.assign_ids()
+        return bool(findings) and before == (path.read_text(), other.read_text())
+    return _in_temp_staging(text, case)
+
+
+_HEAD = "source_file: vol1.xml\nassignments:\n"
+results.append(check("a flow-mapping row is refused and nothing is written, in any file",
+                     _refusal_case(_HEAD + "- work: A\n- {work: B}\n- work: C\n")))
+results.append(check("a non-mapping row is refused and nothing is written",
+                     _refusal_case(_HEAD + "- work: A\n- just a string\n")))
+results.append(check("an anchored row is refused and nothing is written",
+                     _refusal_case(_HEAD + "- &r\n  work: A\n- *r\n")))
+results.append(check("an anchored row with no alias is refused and nothing is written",
+                     _refusal_case(_HEAD + "- &r\n  work: A\n")))
+results.append(check("mixed line endings are refused without a crash",
+                     _refusal_case("source_file: vol1.xml\nassignments:\r\n- work: A\r\n")))
+results.append(check("a repeated `assignments` key is refused",
+                     _refusal_case(_HEAD + "- work: A\nassignments:\n- work: B\n")))
+results.append(check("a null row_id is refused and nothing is written",
+                     _refusal_case(_HEAD + "- row_id:\n  work: A\n")))
+results.append(check("a top-level list is refused without a crash",
+                     _refusal_case("- work: A\n")))
+
+
+def _crlf_case(path, load_rows):
+    corpus_map_merge.assign_ids()
+    raw = path.read_bytes()
+    return raw.count(b"\r\n") == raw.count(b"\n") and load_rows()[0]["row_id"] == "vol1--a"
+
+
+_STAGING_ROOT = corpus_map_merge.STAGING
+results.append(check("CRLF line endings survive an assignment",
+                     _in_temp_staging("source_file: vol1.xml\r\nassignments:\r\n- work: A\r\n  atlas_ids: [x]\r\n",
+                                      _crlf_case)))
+
+dup_findings = _in_temp_staging(
+    "source_file: vol1.xml\nassignments:\n- row_id: same\n  work: A\n  atlas_ids: [x]\n"
+    "- row_id: same\n  work: B\n  atlas_ids: [x]\n",
+    lambda p, l: corpus_map_merge.load_staging()[2])
+results.append(check("load_staging flags one row_id used by two staging rows",
+                     any("already used" in f for f in dup_findings)))
+
+# validate(): presence and uniqueness, on the loaded map.
+_real_load = corpus_map.load
+
+
+def _validate_with(works_by_bucket):
+    corpus_map.load = lambda: works_by_bucket
+    try:
+        return corpus_map.validate()
+    finally:
+        corpus_map.load = _real_load
+
+
+def _row(row_id, work="W"):
+    r = {"work": work, "author": "synthetic", "source_file": "f.xml", "role": "tradition", "confidence": "assigned"}
+    if row_id is not None:
+        r["row_id"] = row_id
+    return r
+
+
+def _bucket(atlas_id, *works):
+    return {"atlas_id": atlas_id, "fixture": True, "works": list(works)}
+
+
+missing = _validate_with({"fixture-a": _bucket("fixture-a", _row(None))})
+results.append(check("validate flags a row with no row_id", any("missing 'row_id'" in f for f in missing)))
+dup_in = _validate_with({"fixture-a": _bucket("fixture-a", _row("k", "W1"), _row("k", "W1"))})
+results.append(check("validate flags a row_id repeated within one entry", any("repeats within" in f for f in dup_in)))
+clash = _validate_with({"fixture-a": _bucket("fixture-a", _row("k", "W1")),
+                        "fixture-b": _bucket("fixture-b", _row("k", "W2"))})
+results.append(check("validate flags one row_id naming two different works", any("is already" in f for f in clash)))
+shared = _validate_with({"fixture-a": _bucket("fixture-a", _row("k", "W1")),
+                         "fixture-b": _bucket("fixture-b", _row("k", "W1"))})
+results.append(check("the same row in two buckets shares its row_id without a finding",
+                     not any("row_id" in f for f in shared)))
+
 print("\nall passed" if all(results) else "\nFAILURES")
 sys.exit(0 if all(results) else 1)

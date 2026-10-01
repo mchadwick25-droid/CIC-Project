@@ -13,7 +13,8 @@ authors_ruled:
       identifiable from the text itself.
 
 assignments:
-  - work: "Liber Genealogus"
+  - row_id: chronica-minora-liber-genealogus_mommsen1892--liber-genealogus
+    work: "Liber Genealogus"
     author: liber-genealogus
     locus: "Additamentum II to the Chronographus Anni CCCLIIII"
     atlas_ids:

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-imperial-church-heraclian-iconoclast
 works:
-- work: The Canons of the Council in Trullo (Quinisext, 692)
+- row_id: npnf214_seven-ecumenical-councils--the-canons-of-the-council-in-trullo-quinisext-692
+  work: The Canons of the Council in Trullo (Quinisext, 692)
   author: council-in-trullo-692
   locus: div2 14.3 — The Canons of the Council in Trullo
   role: tradition
@@ -14,7 +15,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: 'The Third Council of Constantinople (680-681): Extracts from the Acts, Letters of
+- row_id: npnf214_seven-ecumenical-councils--the-third-council-of-constantinople-680-681-extracts-from
+  work: 'The Third Council of Constantinople (680-681): Extracts from the Acts, Letters of
     Agatho, Definition of Faith'
   author: council-of-constantinople-680
   locus: div1 13 — Agatho's letters 13.5-13.6, sentence 13.8, definition 13.10, prosphoneticus
@@ -29,7 +31,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
+- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-nicaea-787-extracts-from-the-acts
+  work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
   author: council-of-nicaea-787
   locus: div1 16 — imperial sacra 16.3-16.4, acts extracts, iconoclast epitome 16.10, decree
     16.12, canons 16.14, letter to the emperors 16.15 (Caroline Books and Frankfort sections

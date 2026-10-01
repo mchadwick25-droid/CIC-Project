@@ -1,7 +1,8 @@
 source_file: lainez_epistolae-et-acta-v1-lat_1912.txt
 
 assignments:
-  - work: "Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I"
+  - row_id: lainez_epistolae-et-acta-v1-lat_1912--lainii-monumenta-epistolae-et-acta-patris-jacobi-lainii-vol
+    work: "Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I"
     author: lainez
     locus: "whole volume"
     atlas_ids:

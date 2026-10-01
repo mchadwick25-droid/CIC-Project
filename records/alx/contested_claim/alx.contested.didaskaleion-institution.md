@@ -18,8 +18,7 @@ sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: V.10-VI.6 (the succession scaffold - the contested construction itself)
   license: public-domain
-claim: The 'Catechetical School of Alexandria' existed as a formal institution with a continuous head-succession
-  (Pantaenus, Clement, Origen, Heraclas, Dionysius...) from the late second century onward.
+claim: The 'Catechetical School of Alexandria' was a formal school. It had a line of heads that did not break, from the late second century on. The line ran Pantaenus, Clement, Origen, Heraclas, Dionysius and so on.
 held_against:
 - 'Modern scholarship divides on whether any formal institution predates c. 215-230: the orderly succession
   derives almost entirely from Eusebius, whose Constantinian-apologetic project predisposes him toward

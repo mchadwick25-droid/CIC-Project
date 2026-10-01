@@ -1,7 +1,8 @@
 source_file: augustine_bekenntnisse-deu_hefele-diederichs1921.txt
 
 assignments:
-  - work: "Augustine, Die Bekenntnisse (German, Hefele 1921)"
+  - row_id: augustine_bekenntnisse-deu_hefele-diederichs1921--augustine-die-bekenntnisse-german-hefele-1921
+    work: "Augustine, Die Bekenntnisse (German, Hefele 1921)"
     author: augustine
     locus: "whole file"
     atlas_ids:

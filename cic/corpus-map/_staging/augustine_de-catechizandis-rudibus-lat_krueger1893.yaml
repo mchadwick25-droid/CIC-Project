@@ -1,7 +1,8 @@
 source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
 
 assignments:
-  - work: "Augustine, De catechizandis rudibus (Latin, Krueger 1893)"
+  - row_id: augustine_de-catechizandis-rudibus-lat_krueger1893--augustine-de-catechizandis-rudibus-latin-krueger-1893
+    work: "Augustine, De catechizandis rudibus (Latin, Krueger 1893)"
     author: augustine
     locus: "whole file"
     atlas_ids:

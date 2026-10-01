@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: apollinarian-christianity
 works:
-- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
+  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
   role: context
@@ -13,7 +14,8 @@ works:
     names, from their condemners. Each now has its own entry, and this work is the record
     of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: Select Letters of Saint Gregory Nazianzen
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen-2
+  work: Select Letters of Saint Gregory Nazianzen
   author: gregory_naz
   locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
     on the Apollinarian Controversy (4.2), Correspondence with Basil (4.3), Miscellaneous
