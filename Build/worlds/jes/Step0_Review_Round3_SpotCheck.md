@@ -10,7 +10,7 @@ Simulated review — informational only, not an Article 31 substitute.
 - **Truncation check, method 1:** structural count. Headings §0 to §6 are all present, in order (lines 9, 13, 17, 49, 83, 92, 96). §4 items 1 to 6 are all present. The file ends on a complete sentence ("… once approved to proceed.") and a newline.
 - **Truncation check, method 2:** byte and hash comparison. `wc -c` equals `git cat-file -s HEAD:<path>` (20,041 bytes). `git hash-object` equals `git rev-parse` of the blob at HEAD 3d8dd7139 and at db705b7d8 (e4413e31…). The file has no uncommitted changes. The generated `cic/corpus-map/the-society-of-jesus.yaml` also matches its HEAD blob (90386d9c…).
 - **Date:** 2026-09-30
-- **Documents:** `Build/World-Builds/Society-of-Jesus/Step0_Movement_Scope_Confirmation.md`; `cic/corpus-map/_staging/` (Ignatius v22, Lainez v1, Nadal v1); `cic/corpus-map/the-society-of-jesus.yaml`, as changed in db705b7d8
+- **Documents:** `Build/worlds/jes/Step0_Movement_Scope_Confirmation.md`; `cic/corpus-map/_staging/` (Ignatius v22, Lainez v1, Nadal v1); `cic/corpus-map/the-society-of-jesus.yaml`, as changed in db705b7d8
 - **Severity vocabulary:** P0 blocks, P1 must be fixed but is not disqualifying, P2 polish.
 
 ## Verdict

@@ -101,7 +101,7 @@ The Result is stated at the right strength: commitment 4 largely shown, commitme
 
 - **Article 29.** Left open (Doc_01 §1 and §9 item 2; Open_Gaps entries 5(b), 6 and 25). The phrase "the one-world ruling puts the Unity's living-tradition claim inside this world" is a consequence of the strand ruling. It does not name a present-day tradition.
 - **Representative identity.** Not decided or implied (Doc_01 §5 last paragraph and §9 item 3; Open_Gaps entries 5(c) and 14).
-- **Registration of `hus`.** Left open (Doc_01 §9 item 4; Open_Gaps entries 5(d) and 8(d)). `records/worlds/hus.yaml` does not exist, as stated.
+- **Registration of `hus`.** Left open (Doc_01 §9 item 4; Open_Gaps entries 5(d) and 8(d)). the registry entry for `hus` (not yet created) does not exist, as stated.
 - **Invention.** Nothing was found invented. Every builder-knowledge item (publication years in rows 44–54, Novotný, the *Urkundliche Beiträge* lead in R6) is marked as such.
 
 ## Scope 6: readability of Doc_01
