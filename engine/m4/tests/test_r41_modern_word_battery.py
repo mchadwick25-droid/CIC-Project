@@ -1,4 +1,4 @@
-"""Hermetic checks on the R41 battery's scoring rules - no live calls."""
+"""Hermetic checks on the modern-word battery's scoring rules - no live calls."""
 from engine.m1.loader import load_fleet_records, load_world_records
 from engine.m1.registry import formation_world_keys, load_registry
 from engine.m4.reports import r41_modern_word_battery as battery
