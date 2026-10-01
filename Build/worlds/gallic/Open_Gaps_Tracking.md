@@ -323,7 +323,7 @@ named as a real, explicit, non-blocking revision trigger (Representative Constru
 **Status: OPEN — a project-lead act.**
 
 ### OG-4. Live multi-voice Table battery — never run for gallic specifically.
-`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md` (2026-09-16/17) names gallic directly:
+The Go-Live Pipeline Status document (2026-09-16/17) names gallic directly:
 `engine/m4/live_table_battery.py` (the fleet's only live multi-voice Table test — open conversation
 and crisis routing at the shared Table, distinct from M3's sealed canon-question battery) was last
 actually run 2026-09-05, before a round-cap resize, so "no world admitted since (gallic, don) has a
@@ -360,7 +360,7 @@ record. **Named for the project lead's own attention; changing shared fleet infr
 a single world's build scope. Status: OPEN, disclosed, not this build thread's to fix.**
 
 ### OG-8. Table seat-picker registration gap — found and closed, 2026-09-13 to 2026-09-17.
-`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md` names this world directly as the case
+The Go-Live Pipeline Status document names this world directly as the case
 that surfaced a real, live, participant-facing defect: gallic was admitted 2026-09-13 but **missing
 from `cic-website/table.html`'s own hand-maintained `WORLDS` array until 2026-09-17** — "four days
 live and broken, caught only because Mark tried it himself." A fourth automated check

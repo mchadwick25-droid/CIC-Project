@@ -559,7 +559,7 @@ placement at `world-build-docs/_cross-world/` and routed to
 `Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md`. The portfolio Step 0
 Conclusion document itself still logs the underlying question as "Constitutional ambiguity
 flagged, not resolved" — now stale, and not editable by a build thread. Separately,
-**`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`** (item 4, checked directly in
+**the Go-Live Pipeline Status document** (item 4, checked directly in
 this review) confirms **lpc PR #230** ("gapped-formation-worlds-precedent") is still **open,
 doc-only, mergeable clean** — "Mark's to merge or not" — and notes it may itself be
 superseded once fully reconciled with the ruling's actual adoption commit (`b20688de`).
