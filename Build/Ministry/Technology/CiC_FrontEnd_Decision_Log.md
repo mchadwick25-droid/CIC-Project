@@ -5025,3 +5025,40 @@ Mark's ear.
 
 1. Merge; Mark listens to a Wittenberg story on the live site.
 2. A Wittenberg `world_front` record, if it is to join the built-world set.
+
+## 2026-10-01 — Narration starts when a card opens, stops when it closes
+
+**Decision.** Mark asked that the narration start by itself when a movement,
+built world or gap story card is clicked open, and stop when the card is
+closed, with the play and stop controls kept so a reader can still pause or
+replay. Mark's one change to the proposal: a documented story inside a card
+also starts by itself when its arrow is opened (and stops when it is closed).
+
+**Behaviour.**
+- Opening a card starts its main narration (movement story, world story or
+  gap story); closing the card, or opening a different card, stops and resets
+  everything.
+- Opening a documented story inside a card starts it and pauses whatever else
+  is playing; collapsing it stops it. One voice plays at a time.
+- A "Start narration automatically" checkbox sits above the first player,
+  on by default and remembered per browser (`cic.narration.auto` in local
+  storage). Off means every player is manual again.
+- Where a browser refuses sound with no click (a shared `?world=` link, a
+  built-world card whose text arrives after a slow load), the start is skipped
+  quietly and the play button works as before. Tradition pages are static and
+  stay manual.
+
+**Checked.** In a headless browser against the local site: a gap story card
+starts on a click and stops on close; a movement card starts its story, opening
+its first and second documented stories starts each and pauses the other,
+collapsing stops it, switching cards stops everything; with the checkbox off
+nothing starts and the choice is remembered; a built-world card starts its
+world story and closing it stops all five players. No script errors.
+
+**Not checked.** Safari on iPhone, which is stricter about sound with no click,
+and how the toggle sits on a small screen.
+
+### Next action
+
+1. Merge; Mark tries a card, a story inside it, and the checkbox on the live
+   site, ideally also on a phone.
