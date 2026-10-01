@@ -68,35 +68,12 @@ ACCEPTED_OPEN: dict[str, str] = {
     "census-display-name/alx": "F-09 - alx alone sets display_name to the Atlas's friendly short name; the other five carry the census's formal name",
     "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
-    "figure-dates-keys/pahc": "F-04 - pahc keys figure.dates as display/note where the other five use born/died/floruit, and the frontend prints the key verbatim, so pahc participants read 'display:' and 'note:' in the UI",
-    "figure-dates-keys/cappadocian": "F-04-analogue - all 15 cappadocian figure records key figure.dates as `display` (one-sentence prose covering contested/multi-clause dating - e.g. Basil's own death 'traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead' - that doesn't reduce cleanly to born/died/floruit without losing the contested-date nuance itself); same disclosed-not-fixed disposition as pahc's own instance, not a mass rewrite improvised under this step - belongs to a cappadocian build thread.",
-    "figure-dates-keys/gallic": "F-04-analogue - all 5 gallic figure records key figure.dates as `display` (one-sentence prose covering contested/hedged dating this world's own sources leave open - e.g. Martin's own dates rest on 'lived sixteen years after the Treves affair by Gallus's own reckoning' and an undated election; Vincent's entry to Lerins is 'undated (c. 425 is a floating convention, Inferential-Thin)' - none of the five reduce cleanly to born/died/floruit without losing the hedge itself); same disclosed-not-fixed disposition as pahc's and cappadocian's own instances, not a mass rewrite improvised under this step - belongs to a gallic build thread.",
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
     # A world can legitimately sit at state: built without also being
     # census-linked and frontend-wired in the same pass - real, disclosed,
     # and structurally expected while it awaits M3 admission, not a
     # build-thread task to close early.
-    "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
-    # figure-dates-keys/{alx,desert,hal,ijc,syr}: NOT a new defect in any
-    # of these five worlds' own content - a pure side effect of rzg's own
-    # admission as the fleet's 10th formation world. check_figure_dates_keys()'s own
-    # threshold is a STRICT majority (more than half of all worlds), not
-    # "the most common key" - with 9 formation worlds, 'born' at 5/9 cleared
-    # it; with rzg's own addition (which uses died/floruit only, no birth
-    # dates independently verified this pass) the fleet is now 10 worlds,
-    # and 5/10 no longer clears strict-majority (5 is not > 5). The same
-    # five worlds' own figure.dates content is unchanged; only the fleet-
-    # size denominator moved. Belongs to whichever world's own build thread
-    # eventually revisits figure.dates fleet-wide, not a rewrite improvised
-    # here - the same "disclosed, not silently fixed" disposition every
-    # other figure-dates-keys entry above already uses.
-    "figure-dates-keys/alx": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
-    "figure-dates-keys/desert": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
-    "figure-dates-keys/hal": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
-    "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
-    "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
-    "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
     # check_unregistered_world_dirs's own first real finding. records/lpc/
     # exists but carries no records/worlds/lpc.yaml entry, so lpc is
     # invisible to load_registry() and everything downstream of it, gates
@@ -746,32 +723,20 @@ def check_record_world_ids(*, records, registry, worlds, **_) -> list[Finding]:
     return findings
 
 
-def check_figure_dates_keys(*, records, worlds, **_) -> list[Finding]:
-    """`figure.dates` is `{"type": "object"}` in the schema - no key
-    vocabulary at all - and cic-poc/frontend's FigureBridgeMark prints
-    `${key}: ${value}` straight into the Level-3 panel. So the authoring
-    convention a world happened to pick IS what a participant reads.
+FIGURE_DATE_KEYS = frozenset({"born", "died", "floruit", "display", "note"})
 
-    fleet_vocabulary is a strict-majority threshold (more worlds use a key
-    than don't), not "all but one" - that weaker form only worked back when
-    pahc was the fleet's sole outlier; the moment a second world (cappadocian,
-    keying dates as `display` for its own reasons) legitimately diverges too,
-    "all but one" silently flags every conforming world instead, since the
-    dominant convention no longer clears an "all but one" bar with two
-    outliers standing. A strict majority keeps working regardless of how many
-    minority conventions exist alongside it."""
+
+def check_figure_dates_keys(*, records, worlds, **_) -> list[Finding]:
+    """`figure.dates` is `{"type": "object"}` in the schema, so its keys are
+    an authoring convention. cic-poc/frontend's FigureBridgeMark reads the
+    same vocabulary as FIGURE_DATE_KEYS: born/died/floruit print with a
+    participant label, display/note print as a sentence on their own. A key
+    outside that vocabulary is dropped from what the participant sees."""
     findings = []
-    by_world = {}
     for w in worlds:
-        by_world[w] = {k for rec in records[w].values() if rec["record_type"] == "figure" for k in (rec.get("dates") or {})}
-    counts: dict[str, int] = {}
-    for keys in by_world.values():
-        for k in keys:
-            counts[k] = counts.get(k, 0) + 1
-    fleet_vocabulary = {k for k, n in counts.items() if n > len(worlds) / 2}
-    for w in worlds:
-        for key in sorted(by_world[w] - fleet_vocabulary):
-            findings.append(_defect("figure-dates-keys", w, f"figure.dates uses key {key!r}, which no other world uses; the frontend prints the key verbatim to the participant"))
+        keys = {k for rec in records[w].values() if rec["record_type"] == "figure" for k in (rec.get("dates") or {})}
+        for key in sorted(keys - FIGURE_DATE_KEYS):
+            findings.append(_defect("figure-dates-keys", w, f"figure.dates uses key {key!r}, which the frontend does not display"))
     return findings
 
 
