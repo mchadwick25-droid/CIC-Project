@@ -735,6 +735,8 @@ holds it. Concretely:
 - The readability target is NorthStar: Flesch-Kincaid grade 8–10 and Flesch
   Reading Ease 60 or above
   (`Build/reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`).
+  A participant's turn in a demonstration or transcript is a record of what
+  was said and is never readability-scored; the world's own turns are.
 - **No embedded quotations in host prose (Decision 8B).** A real source
   quotation inside a story, gravity, force, term or other non-quote record
   becomes its own `quote` record, verified verbatim, and the host prose

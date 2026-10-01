@@ -5920,3 +5920,37 @@ The project lead reports the Atlas voice implementation is complete and live on 
 stories (193) and the specific stories (about 550). The work is closed.
 
 Atlas navigation is future work and has not been started. It gets its own entry when the project lead opens it.
+
+## 2026-10-01 - Readability gate does not score participant turns (ruling of 2026-09-25, re-landed)
+
+**Ruling.** The project lead ruled "a" on 2026-09-25 (lpc OG-25). A participant's line in a demonstration or
+transcript record is a record of what was said, like `quote.text`, not prose the project authors. The readability
+gate never scores it. The world's own lines (Representative, Facilitator, narration) are scored as before.
+
+**Why.** Tested transcripts must stay verbatim. Scoring a participant's own words would push a build to rewrite
+what a participant said so that it passes a gate.
+
+**Where.**
+- `engine/m1/gates.py`: `_READABILITY_EXCLUDED_SPEAKERS` skips `demonstration.exchange` turns whose `speaker` is
+  `participant`. That is the only field that carries participant turns, and the schema limits `speaker` to
+  `participant` or `representative`.
+- Tests in `engine/m1/tests/test_gate_readability.py`.
+- One rule sentence next to the NorthStar rule in `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md`.
+
+**Measured effect** (failing readability findings, waiver before to after, counted on 2026-10-01):
+
+| world | before | after |
+|---|---|---|
+| alx | 149 | 148 |
+| desert | 162 | 159 |
+| gallic | 110 | 109 |
+| hal | 164 | 163 |
+| pahc | 161 | 160 |
+| rzg | 136 | 134 |
+| syr | 154 | 153 |
+
+cappadocian, don, ijc, witt and the fleet records are unchanged. The seven waivers in `engine/m9/enforce.py` are
+set to the new counts. The full gate run reports every finding waived and every waiver current.
+
+**Re-landing.** The first PR for this ruling (#622) was cut before the repository restructure and carried waiver
+counts that no longer matched. It was closed and the change re-applied on the current tree.
