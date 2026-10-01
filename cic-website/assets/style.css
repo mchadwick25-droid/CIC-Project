@@ -398,7 +398,7 @@ header.site-header, footer.site-footer, .world-card, .callout { background: #1E1
 .brand { color: #F1E9DD; }
 nav.site-nav a { color: #F1E9DD; }
 .hero p.lede, .page-section p, footer.site-footer, footer.site-footer a { color: #B8AEA1; }
-:root { --rule: rgba(241,233,221,0.16); }
+:root { --rule: rgba(241,233,221,0.16); --muted: #B8AEA1; }
 /* --madder/--gold-leaf stay unchanged (button fills need the darker value for
    contrast against light text) - these overrides lighten the SAME hues only
    where they're used as text/border color on the near-black background. */

@@ -77,7 +77,7 @@ export function Launch({
                     style={{ background: world.accentColor }}
                     onClick={() => onBeginInterview(world.worldKey)}
                   >
-                    Begin the Interview
+                    Begin the Interview<span className="visually-hidden"> with {world.representativeName}</span>
                   </button>
                   <button
                     type="button"
@@ -87,6 +87,7 @@ export function Launch({
                     aria-pressed={isSeated}
                   >
                     {isSeated ? 'Seated at the Table ✓' : 'Add to the Table'}
+                    <span className="visually-hidden">: {world.representativeName}</span>
                   </button>
                 </div>
               </div>

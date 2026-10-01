@@ -236,11 +236,11 @@ p{margin:0 0 1rem}
     <section class="choose-table" aria-labelledby="chooseHeading">
       <p class="choose-heading" id="chooseHeading">Click an open seat below to choose who joins you</p>
 
-      <div class="table-graphic play" id="tableGraphic" aria-hidden="true">
-        <svg viewBox="0 0 280 280">
+      <div class="table-graphic play" id="tableGraphic">
+        <svg viewBox="0 0 280 280" aria-hidden="true">
           <path class="ring" d="M189.5,189.5 A70,70 0 1 1 189.5,90.5"/>
         </svg>
-        <div class="seat seat-you">You</div>
+        <div class="seat seat-you" aria-hidden="true">You</div>
         <button type="button" class="seat seat-open seat-1" id="seatBtn1" aria-describedby="seat-1-status">
           <span class="vh" id="seat-1-status">Open seat. Choose a tradition.</span>
           <span class="seat-label" aria-hidden="true">Open seat</span>
