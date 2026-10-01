@@ -17,7 +17,7 @@ It was built under a different, later governance track than Alexandria's — the
 **Record-Native World Build Process** (V1.2/V1.3), not the Construction Framework's
 self-governing Phase A/B split — whose own states run `built → admitted → open`, not
 `Approved to proceed → Frozen`. As of the fleet's own 2026-09-16 status sweep
-(`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`), Cappadocian's row reads:
+(the Go-Live Pipeline Status document), Cappadocian's row reads:
 **"admitted | Live, package current | none pending | —."** Nothing below should be read
 as blocking that status; these are the gaps a careful reader should still know about a
 world that is, mechanically, live.
@@ -379,7 +379,7 @@ against the full gate battery before the next:
 - **OG-11 above** — the rights_status internal-narration defect (65/111 records, 59%, the
   worst rate of any world checked; fixed fleet-wide 2026-09-20, PR #321).
 - **The "Boundary Structures" vs. "Boundary Ecology" terminology inconsistency**
-  (`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`, item 6, 2026-09-16): the
+  (the Go-Live Pipeline Status document, item 6, 2026-09-16): the
   Constitution and Forces-Framework governing documents contradict each other on the
   canonical term; ruled `Boundary Structures` for the `lpc` world specifically, but three
   sibling worlds' Doc_05 files — **alx, don, and cappadocian** — use the other term.
@@ -411,7 +411,7 @@ This file was assembled from `CAPPADOCIAN_BUILD_LEDGER.md` (52 sections), the So
 Registry and its four review-round sets, `cappadocian_Unused_Source_Verification_2026-09-09.md`,
 `cappadocian_Representative_Identity_Options.md`, the two G3 Permanent Prompt review
 rounds, `records/worlds/cappadocian.yaml`, `Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own
-Cappadocian section, and the fleet-level `CiC_GoLive_Pipeline_Status.md` and
+Cappadocian section, and the fleet-level Go-Live Pipeline Status document and
 `CiC_System_Health_Tracking.md`. It does not re-verify every review round's own findings
 against the underlying primary sources a second time — where the ledger itself already
 records that discipline (and it does so unusually often, and unusually self-critically,
@@ -609,3 +609,15 @@ Round 2 checked the Phase Five document and Facilitation Brief directly against 
 ### OG-28. The fixture world is exempt from two `deployed` checks, decided 2026-09-30.
 
 OG-27 left `fix` failing `engine.m10.cli deployed` on two findings and the exemption undecided. Mark decided on 2026-09-30 to exempt the fixture. `engine/m10/deployed.py` now skips the source-anchor check and the `[self-reference]` check for a world whose registry entry says `kind: fixture`, and reports each skip as a note. The reason: `fix` is a synthetic test world with two short sources, so it has no Source Registry to draw the 5 to 10 anchor entries from, and its own guard says it adds no extra voice rules. Every other check still runs on it, and the same prompt still fails a world that is not a fixture; three tests in `engine/m10/tests/test_deployed.py` pin both. Only `fix` carries `kind: fixture` in `records/worlds/`. `deployed` now passes for all ten worlds that have a pinned package; lpc has no registry entry or pin, so the check cannot run on it.
+
+### OG-29. Fleet-level: build and derivation narration still sits in `records/`, and 15 lines are recorded for a batched pass, 2026-09-30.
+
+The live-surface commentary check no longer flags the bare word "unresolved" (see `Build/Ministry/Operations/Audits/Live_Commentary_Unresolved_Sample_2026-09-30.md`). Reading every line the change drops found 15 in records that are process narration about the build's own documents, in desert, don, gallic, ijc, pahc, rzg, witt and lpc. Mark decided on 2026-09-30 to leave them tracked and not to rewrite them line by line. Several sit inside longer passages, such as the derivation notes in `voice_craft` records and lpc's contested-claim arguments about the Construction Framework, so the fix is to move that narration to `Build/Ministry/`, not to reword single sentences. Seven of the 15 are in lpc, whose build thread is active and owns them. The batched pass is not scheduled. Until it runs, each of these lines is unflagged by the check and still present in the record.
+
+### OG-30. Fleet-level: self-revision switched off in production; the fabrication-riding-a-real-tag leak is an accepted limit, 2026-09-30.
+
+Mark decided on 2026-09-30 that the voice is fixed at generation, with cleaning only in an emergency and no regeneration, and that the bar is scholarly acceptance, not perfection. Self-revision (`engine/m4/self_revision.py`) is a second voice call on the draft, so `render.yaml` now sets `CIC_SELF_REVISION` to `"0"` on both `cic-engine` and `cic-engine-staging`. It had been on by default and ran on the first ask of every other-tradition question. Without it, a detail the cited record does not give can still ride under a real tag (the Theon and Donatists worked example). That leak class is accepted as a known limit and is not being chased. The module and its tests stay in place; only the switch changed.
+
+### OG-31. Fleet-level: 18 build-narration lines in records and the corpus map are recorded for the batched pass, 2026-09-30.
+
+The second narrowing of the live-surface commentary check stops flagging bare "open question" and "still open", a physical "at the gate", ruling-named identifiers in Python code, the taxonomy tag on a `name:` line, and "opens round N" (see `Build/Ministry/Operations/Audits/Live_Commentary_Second_Narrowing_2026-09-30.md`). Reading every dropped line in records and the corpus map found 18 that narrate the build or the mapping: 12 in records (cappadocian, don, lpc, syr, witt) and 6 in the corpus map. They are listed in that audit. Five are lpc's, whose build thread owns them. The fix is the same batched pass as OG-29, which moves build narration to `Build/Ministry/`. The pass is not scheduled. Until it runs, these lines are unflagged and still present.

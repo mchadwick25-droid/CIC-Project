@@ -13,6 +13,7 @@ from engine.m10.deployed import (
     check_deployed,
     check_probe_pins,
     check_prompt_content,
+    repin_command,
     runner_dry_run,
 )
 
@@ -109,9 +110,29 @@ def test_guard_refuses_a_relative_path_that_climbs_out_of_packages(tmp_path):
         assert_compiled_target(REPO_ROOT / "packages" / ".." / "Build" / "worlds" / "gallic" / "compiled" / "prompt.txt")
 
 
-def test_guard_accepts_a_compiled_prompt_outside_the_repository(tmp_path):
+def test_guard_refuses_an_arbitrary_out_of_repo_path_named_compiled_prompt(tmp_path):
     target = tmp_path / "pin" / "compiled" / "prompt.txt"
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(target)
+    stray = tmp_path / "anything" / "packages" / "zz" / "compiled" / "prompt.txt"
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(stray)
+
+
+def test_guard_accepts_an_out_of_repo_package_only_with_its_manifest_beside_compiled(tmp_path):
+    target = tmp_path / "cache" / "packages" / "zz" / "2026-09-26T20-12-08Z" / "compiled" / "prompt.txt"
+    target.parent.mkdir(parents=True)
+    with pytest.raises(ProbeTargetRefused, match="manifest.json"):
+        assert_compiled_target(target)
+    (target.parent.parent / "manifest.json").write_text("{}")
     assert assert_compiled_target(target) == target.resolve()
+
+
+def test_guard_takes_the_repository_root_it_is_asked_about(tmp_path):
+    inside = tmp_path / "packages" / "zz" / "2026-09-26T20-12-08Z" / "compiled" / "prompt.txt"
+    assert assert_compiled_target(inside, tmp_path) == inside.resolve()
+    with pytest.raises(ProbeTargetRefused):
+        assert_compiled_target(tmp_path / "Build" / "packages" / "zz" / "2026-09-26T20-12-08Z" / "compiled" / "prompt.txt", tmp_path)
 
 
 def test_the_loader_every_battery_uses_refuses_a_legacy_directory():
@@ -224,6 +245,32 @@ def test_staleness_is_reported_from_the_m2_sweep(tmp_path, monkeypatch):
     assert _ids(check_deployed("w", root).findings) == ["k:stale"]
 
 
+def test_failure_messages_say_where_to_author_the_fix():
+    records = _records()
+    craft_id = next(r["id"] for r in records.values() if r["record_type"] == "voice_craft")
+    records[craft_id]["_path"] = "records/w/voice_craft/w.voice_craft.craft.md"
+    findings, _ = check_prompt_content("w", _prompt(self_reference="No invented memory."), records, {}, "pin")
+    reason = next(f.reason for f in findings if f.check == "k:self-reference")
+    assert "records/w/voice_craft/w.voice_craft.craft.md" in reason and "flavor_notes entry with segment 'self-reference'" in reason
+    findings, _ = check_prompt_content("w", "## Quotes we hold\n", _records(anchor=None, quotes=0), {}, "pin")
+    by_check = {f.check: f.reason for f in findings}
+    assert "no [self-reference] note; the [self-reference] note is compiled from" in by_check["k:self-reference"]
+    assert "source_anchor and source_anchor_entries fields" in by_check["k:source-anchor"]
+    thin = _records(entries=tuple(ENTRIES[:2]))
+    findings, _ = check_prompt_content("w", _prompt(), thin, {}, "pin")
+    assert "edit source_anchor_entries in the voice_craft record" in findings[0].reason
+    no_section = _prompt(anchor=None)
+    findings, _ = check_prompt_content("w", no_section, records, {}, "pin")
+    assert repin_command("w") in next(f.reason for f in findings if f.check == "k:source-anchor")
+
+
+def test_the_stale_message_carries_the_exact_repin_command(tmp_path, monkeypatch):
+    root = _world_root(tmp_path, _prompt(), _records())
+    monkeypatch.setattr("engine.m2.checks.staleness_sweep", lambda registry, repo_root: {"w": {"stale": True, "diff": ["compiled/prompt.txt"]}})
+    reason = check_deployed("w", root).findings[0].reason
+    assert "python -m engine.m2.cli build w" in reason and "records/worlds/w.yaml" in reason and "package: block" in reason
+
+
 def _citation_root(tmp_path):
     for rtype, slug in (("quote", "alpha"), ("gravity", "beta"), ("term", "gamma")):
         directory = tmp_path / "records" / "w" / rtype
@@ -306,6 +353,30 @@ def test_a_tested_artifact_line_must_name_only_the_current_pin(tmp_path):
     assert _ids(check_probe_pins("w", root).findings) == ["l:pin-not-current"]
 
 
+def test_probes_run_the_guard_on_every_tested_artifact_path_without_the_dry_run_flag(tmp_path):
+    good = "Tested artifact: packages/w/2026-09-29T00-00-00Z/compiled/prompt.txt\n"
+    assert check_probe_pins("w", _probe_root(tmp_path, good)).findings == []
+    legacy = "Tested artifact: Build/worlds/w/w_Representative_Permanent_Prompt_X.txt 2026-09-29T00-00-00Z\n"
+    report = check_probe_pins("w", _probe_root(tmp_path / "b", legacy))
+    assert "l:guard-refuses" in _ids(report.findings) and "legacy prompt" in report.findings[0].reason
+    other = "Tested artifact: Build/packages/w/2026-09-29T00-00-00Z/compiled/prompt.txt\n"
+    assert "l:guard-refuses" in _ids(check_probe_pins("w", _probe_root(tmp_path / "c", other)).findings)
+
+
+def test_the_probes_command_reports_a_refused_artifact_without_runner_dry_run(tmp_path, capsys):
+    root = _probe_root(tmp_path, "Tested artifact: Build/worlds/w/w_Representative_Permanent_Prompt_X.txt 2026-09-29T00-00-00Z\n")
+    assert _run_command("probes", "w", "--root", str(root)) == 1
+    assert "l:guard-refuses" in capsys.readouterr().out
+
+
+def test_deployed_citations_and_probes_take_root(tmp_path, capsys):
+    root = _world_root(tmp_path, _prompt(), _records())
+    assert _run_command("deployed", "w", "--no-stale", "--root", str(root)) == 0
+    assert _run_command("citations", "w", "--root", str(root)) == 1
+    assert "d:no-documents" in capsys.readouterr().out
+    assert _run_command("probes", "w", "--root", str(root)) == 0
+
+
 def test_runner_dry_run_offers_legacy_files_to_the_guard(tmp_path):
     root = _probe_root(tmp_path, "x\n")
     report = runner_dry_run("w", root)
@@ -342,18 +413,19 @@ def test_the_citations_command_runs_with_only_a_world_code(capsys):
     assert "d:no-documents" in capsys.readouterr().out
 
 
-def test_the_probes_command_also_runs_the_result_label_check(tmp_path, capsys, monkeypatch):
+def test_the_probes_command_also_runs_the_result_label_check(tmp_path, capsys):
+    root = _probe_root(tmp_path, "Tested pin 2026-09-29T00-00-00Z\n\n| Probe ID | Result | Basis | Transcript |\n|---|---|---|---|\n| SA-1 | PASS | authored | - |\n")
+    assert _run_command("probes", "w", "--root", str(root)) == 1
+    assert "m:authored-scored" in capsys.readouterr().out
+
+
+def _run_command(*argv):
     import argparse
 
-    root = _probe_root(tmp_path, "Tested pin 2026-09-29T00-00-00Z\n\n| Probe ID | Result | Basis | Transcript |\n|---|---|---|---|\n| SA-1 | PASS | authored | - |\n")
-    real = deployed.probe_result_files
-    monkeypatch.setattr(deployed, "check_probe_pins", lambda code: check_probe_pins(code, root))
-    monkeypatch.setattr(deployed, "probe_result_files", lambda code, base=root: real(code, base))
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest="command", required=True)
     deployed.add_parser(sub)
-    assert deployed.run(parser.parse_args(["probes", "w"])) == 1
-    assert "m:authored-scored" in capsys.readouterr().out
+    return deployed.run(parser.parse_args(list(argv)))
 
 
 def test_the_loader_gets_past_the_guard_for_a_package_fetched_into_the_default_cache(tmp_path, monkeypatch):

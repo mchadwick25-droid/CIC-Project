@@ -30,12 +30,9 @@ M4 implementation, step 5 (LIVE-GENERATION-DESIGN.md, forks signed off
 tool-use follow-up guessing which records it drew on) is retired. One
 call now carries both the answer and its own grounding, via inline
 [[record.id]] tags the compiled prompt's fleet preamble (§5.2) teaches
-every world's voice to emit - engine.m4.generation.call_citations is
-deleted, not merely unused. engine.m4.grounding (the excerpt-match badge
-check against a claimed `drawn_on` list) is untouched and no longer this
-module's net - that list doesn't exist anymore now that citations are
-never guessed after the fact. engine.m4.grounding_net.check_turn is the
-new net: per-sentence, string-only, no model call, run over the raw
+every world's voice to emit. There is no claimed `drawn_on` list,
+because citations are never guessed after the fact.
+engine.m4.grounding_net.check_turn is the net: per-sentence, string-only, no model call, run over the raw
 tagged text before any of it is treated as this turn's answer.
 
 Fork 1 (sentence-gated streaming) is honored in its strictest reading
@@ -54,7 +51,6 @@ from dataclasses import dataclass, field
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
-from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
@@ -487,7 +483,7 @@ def _run_ordinary_voice_turn(
     raw text apply_net already has, without a second model call or a
     second copy of this function's own generation logic.
 
-    r27_enforce/known_tradition_names (the uncited-claims rule's
+    The enforce flag and known_tradition_names (the uncited-claims rule's
     flag-gated enforcement):
     OFF by default so every existing caller and every existing test is
     byte-identical until a caller opts in. When True: after the net's
@@ -503,7 +499,7 @@ def _run_ordinary_voice_turn(
     re-checked the identical way; if a hard offense still survives, this
     turn's own text is set aside (answer_text/citations/net_result
     recomputed against "", exactly as seat_identity_guard_exhausted
-    already sets raw_text="" above) and r27_enforcement_exhausted is
+    already sets raw_text="" above) and the enforcement-exhausted flag is
     True on the returned voice_event, for the caller to substitute a
     Facilitator turn (engine.m4.facilitator_turns.
     table_seat_correction_turn on a Table call, the same existing
@@ -517,7 +513,7 @@ def _run_ordinary_voice_turn(
     registry/routing context this function doesn't have and stays the
     caller's own refinement (build_uncited_claims_event), unchanged, for
     the persisted audit event. known_tradition_names is required when
-    r27_enforce is True (fails loudly rather than silently skipping the
+    the enforce flag is True (fails loudly rather than silently skipping the
     neighbour_named check if omitted) - the same pre-derived list
     engine.m4.uncited_claims.known_tradition_names already produces for
     the report-only build_uncited_claims_event path, computed by the
@@ -587,7 +583,7 @@ def _run_ordinary_voice_turn(
 
     other_tradition_evidence_ids (corrects a false
     honest-limit statement, unconditional - never gated behind
-    r27_enforce, since this corrects an existing false statement rather
+    the enforce flag, since this corrects an existing false statement rather
     than adding new enforcement): engine.m4.uncited_claims.world_records_
     mention_tradition's own result for the tradition THIS turn's message
     names, if any - same caller-computed, registry-access-needed shape
@@ -686,8 +682,8 @@ def _run_ordinary_voice_turn(
     # own exhaustion path, so this never spends a call revising a blank
     # turn). self_revision_enabled is the caller-computed CIC_SELF_
     # REVISION kill-switch (engine.api.config, same pattern as
-    # r27_enforce/CIC_R27_ENFORCE) - default True, cost/incident use
-    # only; unlike r27_enforce this is generation, not enforcement, so
+    # the enforce flag or its environment switch) - default True, cost/incident use
+    # only; unlike the enforce flag this is generation, not enforcement, so
     # it needs no known_tradition_names/registry access of its own.
     self_revision_meta: dict = {
         "ran": False, "changed": False, "draft_length": None, "revised_length": None,
@@ -730,7 +726,7 @@ def _run_ordinary_voice_turn(
     answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
 
     # The uncited-claims rule: report-only, no participant-visible effect
-    # unless r27_enforce (below), every declarative claim sentence carrying no citation,
+    # unless the enforce flag (below), every declarative claim sentence carrying no citation,
     # base class "uncited_claim" (the caller, which has registry/routing
     # context this function does not, refines into "neighbour_named"/
     # "own_doctrine_in_other_tradition_turn" via engine.m4.uncited_claims.
@@ -766,9 +762,9 @@ def _run_ordinary_voice_turn(
     fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
 
     # The uncited-claims rule's flag-gated enforcement, OFF by default
-    # (see this function's own docstring for the full shape). r27_enforcement_exhausted
-    # and attempts_meta["r27_regenerated"] are always set (False/absent
-    # when r27_enforce is False or nothing tripped it), so every reader of
+    # (see this function's own docstring for the full shape). The enforcement-exhausted flag
+    # and the regenerated flag in attempts_meta are always set (False/absent
+    # when the enforce flag is False or nothing tripped it), so every reader of
     # voice_event can check them unconditionally, the same
     # always-present-but-usually-empty shape seat_identity_violations
     # already uses.
@@ -965,8 +961,6 @@ def _run_ordinary_voice_turn(
     # job, and the limit records are in its ground to say it from.
     degraded_by_net = not net_result["substantive_survives"]
 
-    do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
-
     # THE TRANSPARENCY PLAN - a deterministic transform over what is
     # already computed above (citations, net_result, the word marks), no
     # new evidence, no new model call. Additive: not in
@@ -984,8 +978,8 @@ def _run_ordinary_voice_turn(
         "glosses": glosses,
         "figures_used": figures_used,
         "quote_offers": [],
-        # r27_regenerated: whether this enforcement attempted the one
-        # allowed regeneration this turn - False when r27_enforce is off
+        # The regenerated flag: whether this enforcement attempted the one
+        # allowed regeneration this turn - False when the enforce flag is off
         # (every real caller until the flag is flipped on) or when
         # nothing hard-failed on the raw attempt. attempts_meta carries
         # no schema-validated shape (engine.m4.events' REQUIRED_KEYS only
@@ -997,7 +991,6 @@ def _run_ordinary_voice_turn(
         },
         "grounding": net_result,
         "transparency": transparency,
-        "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the
         # fallback has appended - because that is the only text a person
@@ -1046,7 +1039,7 @@ def _run_ordinary_voice_turn(
         # (always [] after a drop, since the dropped sentence is gone).
         "fact_check_flags": fact_check_flags,
         # This enforcement, additive: False unless
-        # r27_enforce was on AND the one allowed regeneration still left
+        # The enforce flag was on AND the one allowed regeneration still left
         # a hard offense (wholly_uncited_paragraph or neighbour_named)
         # standing. True means answer_text is deliberately "" (the
         # voice's text is not shown), uncited_claims/paragraph_offenses
@@ -1148,7 +1141,7 @@ def run_turn(
     already holds and for the same SS210 reason (see
     engine.m5.safety_accumulation's own module docstring).
 
-    r27_enforce/known_tradition_names (the uncited-claims rule's
+    The enforce flag and known_tradition_names (the uncited-claims rule's
     flag-gated enforcement) and sentence_enforce (sentence_fact_check's
     own, independent flag-gated enforcement): threaded straight through to
     every _run_ordinary_voice_turn call this

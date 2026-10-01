@@ -243,7 +243,7 @@ def _evidence_findings(code: str, where: str, row: dict[str, str], deliverables:
             findings.append(Finding(label, "c:evidence-unresolved", f"{candidate} does not exist"))
     codes = sorted(set(world_codes(root)) | {code})
     for match in re.finditer(_id_pattern(codes), evidence):
-        identifier = match.group(0).rstrip(_TRAILING)
+        identifier = match.group(0).rstrip(_TRAILING).removesuffix(".md")
         prefix = identifier.split(".", 1)[0]
         known = records if prefix == code else load_records(prefix, root)
         if identifier not in known:

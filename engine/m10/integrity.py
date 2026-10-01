@@ -97,7 +97,7 @@ def check_stated_counts(code: str, root: Path = REPO_ROOT) -> list[Finding]:
     return findings
 
 
-def check_integrity(code: str, root: Path = REPO_ROOT, *, check_stale: bool = False) -> list[Report]:
+def check_integrity(code: str, root: Path = REPO_ROOT, *, check_stale: bool = True) -> list[Report]:
     base = world_dir(code, root)
     if not base.is_dir():
         return [Report("integrity", [Finding(rel(base, root), "i:no-world", "the world folder does not exist")])]
@@ -119,8 +119,8 @@ def add_parser(subparsers) -> None:
     p.add_argument("world_code")
     p.add_argument("--json", action="store_true", help="print one JSON document instead of lines")
     p.add_argument("--root", type=Path, default=REPO_ROOT, help="repository root to check (default: this repository)")
-    p.add_argument("--stale", action="store_true", help="also recompile the pinned package and check it against its manifest")
+    p.add_argument("--no-stale", action="store_true", help="skip the recompile that checks the pinned package against its manifest")
 
 
 def run(args) -> int:
-    return emit(check_integrity(args.world_code, args.root, check_stale=args.stale), as_json=args.json)
+    return emit(check_integrity(args.world_code, args.root, check_stale=not args.no_stale), as_json=args.json)

@@ -1,0 +1,15 @@
+source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
+
+assignments:
+  - row_id: augustine_de-catechizandis-rudibus-lat_krueger1893--augustine-de-catechizandis-rudibus-latin-krueger-1893
+    work: "Augustine, De catechizandis rudibus (Latin, Krueger 1893)"
+    author: augustine
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin text of the work already in the map in English (npnf103, Registry row 15), which
+      is written for the Carthaginian deacon Deogratias and sits near the centre of this
+      entry. Registry row 220.

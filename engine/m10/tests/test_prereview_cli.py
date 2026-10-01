@@ -11,13 +11,13 @@ from .fixture_world import CODE, build_world, review_text, write
 
 def _steps(log, fail_at=None):
     def make(name):
-        def step(code):
+        def step(code, root):
             log.append(name)
             return StepResult([f"{name} broke"] if name == fail_at else [], [f"{name} ran"])
 
         return step
 
-    return tuple((name, make(name)) for name, _ in STEPS)
+    return tuple((name, make(name), needs) for name, _, needs in STEPS)
 
 
 def test_steps_run_in_the_specified_order(tmp_path):
@@ -42,18 +42,94 @@ def test_a_crashing_step_is_a_hard_failure(tmp_path):
     root = build_world(tmp_path)
     (root / "records" / CODE).mkdir(parents=True)
 
-    def boom(code):
+    def boom(code, root):
         raise RuntimeError("no gates report")
 
-    reports = run_prereview(CODE, root=root, steps=(("prereview-build", boom), ("prereview-holdings", lambda c: StepResult([], []))))
+    reports = run_prereview(CODE, root=root, steps=(("prereview-build", boom, True), ("prereview-holdings", lambda c, r: StepResult([], []), False)))
     assert reports[0].findings and "RuntimeError" in reports[0].findings[0].reason
     assert not any(r.name == "prereview-holdings" for r in reports)
 
 
-def test_world_without_records_yet_skips_visibly(tmp_path):
+def test_world_without_records_yet_skips_the_record_steps_visibly_and_still_runs_holdings(tmp_path):
     root = build_world(tmp_path)
-    reports = run_prereview(CODE, doc=2, root=root, steps=_steps([]))
-    assert all(r.skipped for r in reports if r.name.startswith("prereview-") and r.name != "prereview-document")
+    log = []
+    reports = {r.name: r for r in run_prereview(CODE, doc=2, root=root, steps=_steps(log))}
+    assert log == ["prereview-holdings"]
+    assert all(reports[n].skipped for n in ("prereview-build", "prereview-bar-screen", "prereview-cross-world"))
+    assert not reports["prereview-holdings"].skipped and reports["prereview-holdings"].ok
+
+
+def test_steps_receive_the_root(tmp_path):
+    root = build_world(tmp_path)
+    seen = []
+    step = lambda code, r: (seen.append(r), StepResult([], []))[1]  # noqa: E731
+    run_prereview(CODE, root=root, steps=(("prereview-holdings", step, False),))
+    assert seen == [root]
+
+
+def test_the_repository_only_tools_refuse_a_foreign_root_instead_of_reading_the_wrong_tree(tmp_path):
+    from engine.m10.prereview import step_bar_screen, step_build, step_cross_world
+
+    for step in (step_build, step_bar_screen, step_cross_world):
+        assert "--root" in step(CODE, tmp_path).hard[0]
+
+
+def test_the_holdings_step_reads_the_root_registry(tmp_path):
+    from engine.m10.prereview import step_holdings
+
+    root = build_world(tmp_path)
+    assert "no time_window" in step_holdings(CODE, root).hard[0]
+    registry = root / f"records/worlds/{CODE}.yaml"
+    registry.write_text(registry.read_text() + "time_window: {start: 9000, end: 9100}\n")
+    assert step_holdings(CODE, root).hard == []
+
+
+def test_a_missing_document_fails_and_stops_the_run(tmp_path):
+    root = build_world(tmp_path)
+    log = []
+    reports = run_prereview(CODE, doc=3, root=root, steps=_steps(log))
+    doc_report = next(r for r in reports if r.name == "prereview-document")
+    assert doc_report.findings and "Doc_03" in doc_report.findings[0].reason
+    assert log == []
+
+
+def test_doc_zero_names_the_step_zero_file(tmp_path):
+    root = build_world(tmp_path)
+    report = next(r for r in run_prereview(CODE, doc=0, root=root, steps=_steps([])) if r.name == "prereview-document")
+    assert report.ok and "Step0_Movement_Scope_Confirmation.md" in report.notes[0]
+    (root / f"Build/worlds/{CODE}/Step0_Movement_Scope_Confirmation.md").unlink()
+    report = next(r for r in run_prereview(CODE, doc=0, root=root, steps=_steps([])) if r.name == "prereview-document")
+    assert report.findings and "Step 0" in report.findings[0].reason
+
+
+def test_a_document_number_outside_zero_to_ten_fails(tmp_path):
+    root = build_world(tmp_path)
+    assert next(r for r in run_prereview(CODE, doc=11, root=root, steps=()) if r.name == "prereview-document").findings
+
+
+def test_the_command_saves_the_output_as_the_review_brief_and_states_the_path(tmp_path, capsys, monkeypatch):
+    root = build_world(tmp_path)
+    monkeypatch.setattr("engine.m10.cli.run_prereview", lambda code, doc, r: run_prereview(code, doc, r, steps=_steps([])))
+    assert cli.main(["prereview", CODE, "--doc", "2", "--root", str(root)]) == 0
+    out = capsys.readouterr().out
+    saved = root / f"Build/worlds/{CODE}/build/{CODE}_Prereview_Doc2.txt"
+    assert f"review brief saved: Build/worlds/{CODE}/build/{CODE}_Prereview_Doc2.txt" in out
+    text = saved.read_text()
+    assert "prereview-holdings: PASS" in text and text.split("\n", 1)[1] in out
+    assert cli.main(["prereview", CODE, "--doc", "0", "--root", str(root)]) == 0
+    assert (root / f"Build/worlds/{CODE}/build/{CODE}_Prereview_Step0.txt").is_file()
+
+
+def test_the_json_output_carries_the_saved_path(tmp_path, capsys, monkeypatch):
+    root = build_world(tmp_path)
+    monkeypatch.setattr("engine.m10.cli.run_prereview", lambda code, doc, r: run_prereview(code, doc, r, steps=_steps([])))
+    assert cli.main(["prereview", CODE, "--json", "--root", str(root)]) == 0
+    assert json.loads(capsys.readouterr().out)["saved"] == f"Build/worlds/{CODE}/build/{CODE}_Prereview.txt"
+
+
+def test_an_unregistered_world_saves_nothing(tmp_path, capsys):
+    assert cli.main(["prereview", "nope", "--root", str(tmp_path)]) == 1
+    assert not (tmp_path / "Build").exists()
 
 
 def test_unregistered_world_fails(tmp_path):

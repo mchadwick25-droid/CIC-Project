@@ -31,6 +31,7 @@ QUOTE_RECORD = {
     "id": "fix.quote.new-song",
     "record_type": "quote",
     "text": "Behold the might of the new song! It has made men out of stones, men out of beasts.",
+    "modern_rendering": "Behold the might of the new song! It has made men out of stones, men out of beasts.",
 }
 STORY_RECORD = {
     "id": "fix.story.the-gathering",

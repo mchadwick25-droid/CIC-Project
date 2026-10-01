@@ -11,14 +11,7 @@ confidence:
   verification_state: unverified
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: 'STALE, 2026-09-29: this record still describes the pre-2026-09-25 unacquired state
-    for the 1541/1561 wording verbatim, which indeed remains unacquired. But a genuine PD alternative - the
-    1576 Geneva Council revision of the same living ordinances, 1735 printing - was vendored 2026-09-25 as
-    `calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt` (Source_Registry.md row 18,
-    Manifest G1 now CLOSED via that alternative). This record intentionally still names ONLY the unacquired
-    1541/1561 verbatim text, not row 18''s later revision - a new source record for row 18 itself, and any
-    consequent Doc_04 SS7 re-test of G4 (Consistorial Church Discipline) against it, is real work for a
-    future pass, not performed here.'
+  divergence_note: 'The 1541/1561 wording is not vendored, and this record names only that unvendored text. The 1576 Geneva Council revision of the same ordinances, in a 1735 printing, is vendored as `calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt`.'
 sources: []
 relations: []
 author: Geneva city council and John Calvin (jointly promulgated)

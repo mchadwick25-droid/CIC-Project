@@ -4644,3 +4644,421 @@ Mark's ear.
 
 1. Merge PR #644; Mark listens to a live documented story.
 2. Built worlds' stories (compiled world data, separate renderer) remain.
+
+## 2026-09-29 — Chloe's pieces narrated in her tour voice (house-church world)
+
+**Decision.** The house-church world's own long-form text is narrated in the
+voice Mark confirmed for Chloe on 2026-09-01 (Eleni, SoulVoice, Greek-accented
+English, Professional Voice Clone): the world story, its three documented
+stories and the legacy piece. The four voice bios and the tree description are
+not narrated. Mark heard a two-piece sample, found it slow, and chose a
+1.15x speed-up over the approved audition pace (about 134-147 words per minute).
+
+**Settings, as printed by the run.** Voice `1gkXJMvrzBWAwt0XqBaa`, model
+`eleven_v3`, stability 0.35, similarity 0.93, style 0, speaker boost on, speed
+1.12 sent to the API, then a 1.15x pitch-preserving tempo change after
+synthesis (ffmpeg), 128 kbps. The 2026-09-01 record gave the voice by name
+only; the id comes from the link Mark supplied on 2026-09-29.
+
+**Cost.** Sample 1,335 credits; run 4,936 credits for 10,178 characters
+(v3 costs about 3.6 times v4 per character). The world story exceeds the
+model's per-request limit, so it went in two parts joined into one file.
+
+**Wired.** `cic-website/audio/worlds/<census-id>/` with `manifest.json`;
+players in the Atlas panel and on the tradition page, shown only for worlds
+in the manifest. Shared renderer takes the audio URLs as an option.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear. The tradition-page generator's render CLI had a broken import path
+from the folder move; fixed. Regenerating the page also brought two pull quotes
+up to the current compiled text.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Other built worlds' stories still need their voices chosen.
+
+## 2026-09-30 — Theon's pieces narrated (Alexandria world), voice D
+
+**Decision.** The Alexandria world's story, three documented stories and
+legacy piece are narrated in the voice Mark chose for Theon from four
+candidates heard on the same two pieces (an older-male teacher brief: warm,
+unhurried, a little weight, no preacher cadence). Bios and the tree
+description are not narrated, as for Chloe.
+
+**Settings, as printed by the run.** Voice `q5DSap58ea32P9TmDyTg`, model
+`eleven_v4`, stability 0.7, similarity 0.75, style 0, speaker boost on, speed
+1, no tempo change, 128 kbps. The three other candidates were
+`RcJwmh5i58BVkriS77pp`, `yFdhLvTFDaKiPJV4dWU0`, `NjIuThmU7jjDCKtQUOX2`.
+
+**Cost.** Four-voice sample 976 credits (244 each); run 1,323 credits for
+9,920 characters. The world story went in two parts joined into one file.
+
+**Wired.** `cic-website/audio/worlds/alexandria-catechetical/` and its entry
+in `manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Next world: the desert world's Representative (Papnoute); casting brief
+   given, voices awaited.
+
+## 2026-09-30 — Papnoute's pieces narrated (desert world)
+
+**Decision.** The desert world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Papnoute after hearing it on
+two pieces (an older, weathered, terse, grave male elder brief). One
+candidate was sampled and accepted ("voice A is great"). Bios and the tree
+description are not narrated.
+
+**Settings, as printed by the run.** Voice `A9evEp8yGjv4c3WsIKuY`, model
+`eleven_v4`, stability 0.75, similarity 0.75, style 0, speaker boost on,
+speed 1, no tempo change, 128 kbps.
+
+**Cost.** Sample 253 credits; run 1,123 credits for 8,421 characters. Every
+request line carried the chosen voice and model.
+
+**Wired.** `cic-website/audio/worlds/desert-monasticism/` and its entry in
+`manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Next world: the Syriac world's Representative (Mar Yausep); casting brief
+   given, voices awaited.
+
+## 2026-09-30 — Mar Yausep's pieces narrated (Syriac world)
+
+**Decision.** The Syriac world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Mar Yausep after hearing it on
+two pieces (a mature, warm, teacherly male brief; kind without intimacy). One
+candidate was sampled and accepted ("yes i like it"). Bios and the tree
+description are not narrated.
+
+**Settings, as printed by the run.** Voice `9iUwwAQbShIkp628a5fO`, model
+`eleven_v4`, stability 0.7, similarity 0.75, style 0, speaker boost on, speed
+1, no tempo change, 128 kbps.
+
+**Cost.** Sample 216 credits; run 849 credits for 6,365 characters. Every
+request line carried the chosen voice and model.
+
+**Wired.** `cic-website/audio/worlds/syriac-edessa-nisibis/` and its entry in
+`manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Cappadocian, Donatist, Gallic, Hieronymian,
+   imperial-juridical, Reformed.
+
+## 2026-09-30 — Eumathios's pieces narrated (Cappadocian world)
+
+**Decision.** The Cappadocian world's story, three documented stories and
+legacy piece are narrated in the voice Mark chose for Eumathios (a warm elder
+at a door with all evening; grave gladness; kind and exact, not a lecturer).
+Mark heard three voices on two pieces, picked the third ("good but a little
+flat"), then heard four settings of it and chose version E (more expression
+and accent), then chose 1.1x from four speeds. The lower-stability, higher-
+similarity settings were chosen by ear; the build's provisional targets
+(stability 0.6, style 0.15) were a starting point only.
+
+**Settings, as printed by the run.** Voice `FIyUTNCZsXy4pNX0KVXy`, model
+`eleven_v4`, stability 0.3, similarity 0.95, style 0.35, speaker boost on,
+speed 1 sent to the API, then a 1.1x pitch-preserving tempo change (ffmpeg),
+128 kbps. The other candidates were `N8jsIhEtPnj3PWFmH8hZ` and
+`L1aJrPa7pLJEyYlh3Ilq`.
+
+**Cost.** Samples 933 (three voices) + 1,751 (four settings, one on v3);
+run 1,610 credits for 12,072 characters. Every request line carried the
+chosen voice and model. The world story went in two parts joined into one file.
+
+**Wired.** `cic-website/audio/worlds/cappadocian-nicene-pastoral-monastic-tradition/`
+and its entry in `manifest.json`; players in the Atlas panel and on the
+tradition page (regenerated for this world only). The Representative is
+Eumathios; the placeholder name Chilo in `tree-narration-voices.mjs` is stale.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear. Whether the ElevenLabs library preview's accent is reproducible
+through the API was not established.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Donatist, Gallic, Hieronymian, imperial-juridical,
+   Reformed.
+
+## 2026-09-30 — Fidelis's pieces narrated (Donatist world)
+
+**Decision.** The Donatist world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Fidelis after hearing two
+candidates on the same two pieces (a firm, measured bishop arguing a case
+before a synod; controlled intensity; conviction that never sounds like
+anger or menace). Mark chose voice A. Bios and the tree description are not
+narrated.
+
+**Settings, as printed by the run.** Voice `vKnhz1CSirDNQVFqLbul`, model
+`eleven_v4`, stability 0.5, similarity 0.8, style 0.1, speaker boost on,
+speed 1, no tempo change, 128 kbps. The other candidate was
+`ilWiv7gEzrCtQ2zDJsRl`.
+
+**Cost.** Two-voice sample 1,100 credits (550 each); run 2,793 credits for
+20,953 characters, the largest world so far. Every request line carried the
+chosen voice and model. The world story went in three parts and joined into
+one file.
+
+**Wired.** `cic-website/audio/worlds/donatism/` and its entry in
+`manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Gallic (casting brief given, voices sampled),
+   Hieronymian, imperial-juridical, Reformed.
+
+## 2026-09-30 — Renatus's pieces narrated (Gallic world)
+
+**Decision.** The Gallic world's story, two documented stories and legacy
+piece are narrated in the voice Mark chose for Renatus after hearing two
+candidates on the same two pieces (an educated, unhurried bishop raised from
+the monastery; settled patience; able to carry both a story and a careful
+argument). Mark chose voice A. Bios and the tree description are not
+narrated. This world has two documented stories, not three.
+
+**Settings, as printed by the run.** Voice `XvE13Da9dSLvpuCLoEBV`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+speed 1, no tempo change, 128 kbps. The other candidate was
+`griZp4cY77RNFVvwDikJ`.
+
+**Cost.** Two-voice sample 788 credits (394 each); run 2,014 credits for
+15,103 characters. Every request line carried the chosen voice and model.
+The world story went in three parts and joined into one file.
+
+**Wired.** `cic-website/audio/worlds/gallic-monastic-ascetic-christianity/`
+and its entry in `manifest.json`; players in the Atlas panel and on the
+tradition page. Regenerating the tradition page also brought its documented
+stories and one interview prompt up to the current compiled world data, which
+the checked-in page had fallen behind (the Atlas panel already showed the
+current text); the audio was generated from the current data.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Remaining built worlds: Hieronymian, imperial-juridical, Reformed.
+
+## 2026-09-30 — Albina's pieces narrated (Hieronymian world), with an accent instruction
+
+**Decision.** The Hieronymian world's story, three documented stories and
+legacy piece are narrated in the voice Mark chose for Albina (a widow of the
+household at Bethlehem and Rome; plain, tested conviction; a scholar's
+precision). The library had no older female voice with a slight Italian
+accent, so the chosen voice is middle-aged. The build record fixes no age for
+Albina; the 50s-60s range was a casting suggestion, not a record fact. Mark
+heard three versions of the story opening (as is; with an accent instruction;
+slower) and chose the accent instruction. Bios and the tree description are
+not narrated.
+
+**Settings, as printed by the run.** Voice `75MqelvgFq5upx0r44WK`, model
+`eleven_v4`, stability 0.6, similarity 0.8, style 0.05, speaker boost on,
+speed 1, no tempo change, 128 kbps, with `[speaking with a slight Italian
+accent] ` placed in front of every request's text (printed in the run header
+and recorded per piece in the manifest).
+
+**Cost.** Samples 292 + 354 credits; run 1,391 credits for 10,200 characters.
+Every request line carried the chosen voice and model. The world story went
+in two parts and joined into one file.
+
+**Wired.** `cic-website/audio/worlds/hieronymian-ascetic-literary/` and its
+entry in `manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only). New `--prefix` option on
+`generate_world_narration.mjs`.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear. Whether the accent instruction was ever spoken aloud in the longer
+pieces was checked only by Mark's listening to the short sample.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel, including
+   that no instruction is spoken aloud.
+2. Remaining built worlds: imperial-juridical (casting brief given), Reformed.
+
+## 2026-09-30 — Theophilus's pieces narrated (Reformed world); Marius held
+
+**Decision.** The Reformed world's story, three documented stories and legacy
+piece are narrated in the voice Mark chose for Theophilus (a patient, firm
+pastor who softens toward comfort; not a fire-and-brimstone preacher). Mark
+tried two voices in turn: the first he judged better for Wittenberg's
+Representative (Nikolaus) and reserved it for that; the second was chosen for
+Theophilus. Bios and the tree description are not narrated.
+
+**Settings, as printed by the run.** Voice `G9IX883XKLA81NnaTUzh`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+speed 1, no tempo change, 128 kbps. The voice reserved for Nikolaus is
+`40lgdJOC1ND7hPOQX92p`.
+
+**Cost.** Samples 289 + 289 credits; run 1,459 credits for 10,949 characters.
+Every request line carried the chosen voice and model. The world story went
+in two parts and joined into one file.
+
+**Wired.** `cic-website/audio/worlds/the-reformed-cities-zurich-and-geneva/`
+and its entry in `manifest.json`; players in the Atlas panel and on the
+tradition page (regenerated for this world only).
+
+**Marius held.** The imperial-juridical world (Marius) is on hold at Mark's
+request while a different voice is searched for. His story and three
+documented stories exist on the branch at the original settings
+(voice `sp6F311QRVXR53QPGIgK`, stability 0.6, similarity 0.8, style 0.05); the
+legacy piece was not generated, and his tradition page is not regenerated. His
+entry was removed from `audio/worlds/manifest.json` so no Marius player shows
+anywhere (the Atlas panel reads the manifest); the four audio files stay in
+`audio/worlds/imperial-juridical-christianity/`, unreferenced, and the entry can
+be restored from the record above if the original settings are chosen. Two stronger versions (stability 0.4 / 0.3) were
+sampled but not applied.
+
+**Wittenberg.** Census-listed "Built & Live" but has no compiled world data
+file, so this tool cannot run on it; its description and two documented
+stories are already narrated (Daniel; gap-story voice). Narrating them in
+Nikolaus's voice is a separate job, not started.
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition pages and Atlas panel.
+2. Marius: choose a voice or a stronger setting, then re-run and regenerate
+   his page. Wittenberg: separate job.
+
+## 2026-09-30 — Marius's pieces narrated (imperial-juridical world), formal voice
+
+**Decision.** The imperial-juridical world's story, three documented stories
+and legacy piece are narrated in the voice Mark chose for Marius (a deacon who
+carries letters between the great sees; precise, watchful, businesslike).
+Mark first heard one voice and found it a little weak, then asked to hold the
+world while he searched further; he then chose a second voice and asked for it
+to be more rigid and formal ("that is much better, go with the new"). The
+first voice's four draft files were replaced.
+
+**Settings, as printed by the run.** Voice `iLVmqjzCGGvqtMCk6vVQ`, model
+`eleven_v4`, stability 0.8, similarity 0.8, style 0, speaker boost on, speed 1,
+no tempo change, 128 kbps. The earlier voice was `sp6F311QRVXR53QPGIgK`.
+
+**Cost.** Earlier voice: sample 299 + two strength variants 312 + partial run
+about 1,180 (discarded). New voice: sample 299; run 1,468 credits for 11,011
+characters. Every request line carried the chosen voice and model.
+
+**Wired.** `cic-website/audio/worlds/imperial-juridical-christianity/` and its
+entry in `manifest.json`; players in the Atlas panel and on the tradition page
+(regenerated for this world only).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to the live tradition page and Atlas panel.
+2. Wittenberg (Nikolaus): separate job, Mark working on it.
+
+## 2026-10-01 — Wittenberg narrated in Nikolaus's voice
+
+**Decision.** Wittenberg's description and its two documented stories are
+narrated in the voice Mark chose for Nikolaus, the Representative of the
+Lutheran Wittenberg world. Mark heard the voice on the Reformed sample, judged
+it better suited to Wittenberg, and approved these three pieces by ear.
+
+**What exists for Wittenberg.** The world is listed "Built & Live" in the
+census but has no `world_front` record and no compiled site data, so it is not
+in the built-world set and the built-world narration tool cannot run on it. Its
+panel shows the census description and two embedded documented stories, which
+already played from `audio/tree/` and `audio/docstories/`. Only the three audio
+files were replaced; no page or script was edited. Its legacy and voices text
+have no players. Narrating a full world story and legacy would first need the
+`world_front` record written.
+
+**Settings, as printed by the run.** Voice `40lgdJOC1ND7hPOQX92p`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 520 credits for 3,902 characters (151 + 183 + 186); each request line
+carried the chosen voice and model. These replace the earlier audio: the
+description in the Daniel voice and the two stories in the gap-story voice.
+
+**Wired.** `audio/tree/lutheran-wittenberg-and-its-congregations.mp3`,
+`audio/docstories/lutheran-wittenberg-and-its-congregations-0.mp3` and `-1.mp3`,
+and the two entries in `audio/docstories/manifest.json` (voice id, model and
+format updated; the text fingerprints are unchanged because the text is).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to a Wittenberg story on the live site.
+2. A Wittenberg `world_front` record, if it is to join the built-world set.
+
+## 2026-10-01 — Narration starts when a card opens, stops when it closes
+
+**Decision.** Mark asked that the narration start by itself when a movement,
+built world or gap story card is clicked open, and stop when the card is
+closed, with the play and stop controls kept so a reader can still pause or
+replay. Mark's one change to the proposal: a documented story inside a card
+also starts by itself when its arrow is opened (and stops when it is closed).
+
+**Behaviour.**
+- Opening a card starts its main narration (movement story, world story or
+  gap story); closing the card, or opening a different card, stops and resets
+  everything.
+- Opening a documented story inside a card starts it and pauses whatever else
+  is playing; collapsing it stops it. One voice plays at a time.
+- A "Start narration automatically" checkbox sits above the first player,
+  on by default and remembered per browser (`cic.narration.auto` in local
+  storage). Off means every player is manual again.
+- Where a browser refuses sound with no click (a shared `?world=` link, a
+  built-world card whose text arrives after a slow load), the start is skipped
+  quietly and the play button works as before. Tradition pages are static and
+  stay manual.
+
+**Checked.** In a headless browser against the local site: a gap story card
+starts on a click and stops on close; a movement card starts its story, opening
+its first and second documented stories starts each and pauses the other,
+collapsing stops it, switching cards stops everything; with the checkbox off
+nothing starts and the choice is remembered; a built-world card starts its
+world story and closing it stops all five players. No script errors.
+
+**Not checked.** Safari on iPhone, which is stricter about sound with no click,
+and how the toggle sits on a small screen.
+
+### Next action
+
+1. Merge; Mark tries a card, a story inside it, and the checkbox on the live
+   site, ideally also on a phone.

@@ -329,8 +329,7 @@ def test_the_command_exits_nonzero_and_prints_undetermined_when_a_trigger_cannot
 
     path = _full_file(tmp_path, _full_rows())
     _records_world(tmp_path, entry="")
-    monkeypatch.setattr(validation, "run_validation", lambda code, files=None: run_validation(code, files, tmp_path))
-    args = SimpleNamespace(world_code="w", command="validation", results=[str(path)], json=False)
+    args = SimpleNamespace(world_code="w", command="validation", results=[str(path)], json=False, root=tmp_path)
     assert validation.run(args) == 1
     out = capsys.readouterr().out.splitlines()
     assert out[0] == "undetermined" and any(line.startswith("undetermined: safety-adjacent trigger") for line in out)

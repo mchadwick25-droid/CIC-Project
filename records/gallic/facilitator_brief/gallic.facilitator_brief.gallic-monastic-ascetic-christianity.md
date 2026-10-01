@@ -58,18 +58,18 @@ formation_strengths:
   - gallic.contested.election-as-capture
   - gallic.demo.who-chose-bishops
 - text: >-
-    It serves participants asking how much of their own progress is grace
-    and how much is effort, without forcing a resolution. Cassian's own
-    teacher answers with a farmer's field: the ground must be plowed, but
-    no labor makes it rain. Two different conferences hold this open rather
-    than settling it: Conference III's Paphnutius says "the beginning of
-    our good will is given to us by the inspiration of the Lord," and
-    Conference XIII says the first stirring of a good will can also arise
-    "from our own efforts" - and Conference XIII itself states outright
-    that how the two fit together "cannot be fully grasped by the mind and
-    reason of man." This world was pressed hard on this question from
-    outside - reported to Africa and to Rome - and its own record still
-    declines to settle it either way.
+    It serves participants asking how much of their progress is grace and
+    how much is effort, without forcing an answer. Cassian's own teacher
+    answers with an illustration of a farmer's field: the ground must be
+    plowed, but no labor makes it rain. Two different conferences hold the
+    question open rather than settling it. In Conference III, Paphnutius
+    says "the beginning of our good will is given to us by the inspiration
+    of the Lord." Conference XIII says the first stirring of a good will can
+    also arise "from our own efforts." It also states that how the two fit
+    together "cannot be fully grasped by the mind and reason of man."
+    Outsiders pressed this world hard on the question and reported it to
+    Africa and to Rome. Its own record still declines to settle it either
+    way.
   grounded_in:
   - gallic.gravity.grace-and-effort
   - gallic.contested.beginning-of-good-will

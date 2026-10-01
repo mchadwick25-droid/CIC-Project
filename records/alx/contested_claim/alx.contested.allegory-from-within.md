@@ -21,8 +21,7 @@ sources:
 - source_id: alx.source.dionysius-extant-fragments
   locus: the 'On the Promises' fragments
   license: public-domain
-claim: The allegorical-spiritual reading of Scripture was the uncontested, universal reading practice
-  of Egyptian Christianity in this window.
+claim: In this window, Egyptian Christians all read Scripture in one way. It was the allegorical-spiritual way. No one disputed it.
 held_against:
 - Nepos of Arsinoe, an Egyptian bishop, wrote a 'Refutation of Allegorists' defending millenarian literal
   reading - allegory was contested from WITHIN Egyptian Christianity, not only by pagans (HE VII.24, vendored

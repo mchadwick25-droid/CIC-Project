@@ -13,7 +13,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.2). The World Package is the unit 
     capsule.md                       # world capsule
     chunks/{lexicon,story,ambient}/  # retrieval chunks (one file per record served)
     indexes/{lexicon.faiss,story.faiss}
-    quotes.json                      # ALL quotes incl. do-not-voice (violation-recognizable)
+    quotes.json                      # every quote in the world
     figures.json                     # name-bridge registry (post-generation decoration only)
     repository.json                  # tier-3 browsable records + sources
     coverage.json                    # canon cell -> {terms[], stories[], quotes[], figures[], status}

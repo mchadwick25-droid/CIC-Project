@@ -71,8 +71,8 @@ class Deps:
     # scheduler running, nothing to read) - the endpoint degrades to
     # omitting that section rather than erroring.
     m7_audit_root: Path | None = None
-    # The dashboard's password login (engine.api.admin_auth, Mark
-    # 2026-09-28) - None when admin_token itself is unset, since a
+    # The dashboard's password login (engine.api.admin_auth) - None when
+    # admin_token itself is unset, since a
     # password login with no admin_token to bootstrap it or sign its
     # sessions makes no sense (same "the whole feature is off" posture
     # admin_token's own absence already gives pilot-summary).
@@ -211,8 +211,7 @@ class AskCandidateResponse(BaseModel):
 class UsageSummaryResponse(BaseModel):
     """Admin-only, see wiring.get_usage_summary's own docstring - the same
     operator-only tier /api/admin/pilot-summary already lives at, extended
-    with the identity/duration/cost/per-world/questions-asked scope Mark
-    converged on 2026-09-28."""
+    with the identity/duration/cost/per-world/questions-asked scope."""
     visitors: VisitorUsageResponse
     by_world: list[WorldUsageResponse]
     price_table_source: str | None
@@ -275,7 +274,7 @@ def _authenticate_admin(configured_token: str | None, authorization: str | None,
     knows exists), this route shouldn't confirm its own existence to
     anyone who lacks the token, config-not-set included.
 
-    session_token (Mark, 2026-09-28): the dashboard's password-login
+    session_token: the dashboard's password-login
     cookie (engine.api.admin_auth) is a second, equally valid way in -
     checked first since it's the common case for the browser dashboard,
     falling through to the original Bearer-token check unchanged so a
@@ -334,8 +333,8 @@ def create_app(
     permanently-unauthorizable state.
 
     anon_cap_enabled defaults False as a code default (see
-    engine.api.anon_cap's own module docstring - both real deploys now
-    turn it on via render.yaml, Mark 2026-09-28). Enabling it with
+    engine.api.anon_cap's own module docstring - both real deploys turn it
+    on via render.yaml). Enabling it with
     no secret is refused loudly, not silently skipped - a caller opting in
     without providing the one thing that makes the token unforgeable is a
     misconfiguration, not a valid "off" state."""
@@ -598,9 +597,9 @@ def create_app(
         """Bootstraps or changes the dashboard's password - gated on the
         ORIGINAL admin_token (Bearer), never a session, since this is the
         one action that creates the credential a session would otherwise
-        prove. Mark, 2026-09-28: the raw token from Render is needed here
-        exactly once (or again, to change the password later), never
-        afterward for ordinary dashboard use."""
+        prove. The raw token from Render is needed here exactly once (or
+        again, to change the password later), never afterward for ordinary
+        dashboard use."""
         deps: Deps = request.app.state.deps
         _authenticate_admin(deps.admin_token, authorization)
         if deps.admin_auth_store is None:
@@ -644,12 +643,10 @@ def create_app(
 
     @app.get("/admin/dashboard", include_in_schema=False)
     def get_admin_dashboard():
-        """The visual half of the usage dashboard (Mark, 2026-09-28
-        scoping doc) - a static page, unauthenticated to SERVE (same
-        posture as cic-poc/frontend below: no page here carries data of
-        its own), that logs in with a password (engine.api.admin_auth,
-        Mark, 2026-09-28 revision - the original bearer-token-in-a-box
-        login was the wrong credential for a human) and calls
+        """The visual half of the usage dashboard - a static page,
+        unauthenticated to SERVE (same posture as cic-poc/frontend below:
+        no page here carries data of its own), that logs in with a
+        password (engine.api.admin_auth) and calls
         /api/admin/usage-summary + /api/admin/pilot-summary with the
         resulting session cookie. Registered BEFORE the SPA catch-all below so it isn't swallowed by
         that route's index.html fallback."""

@@ -11,12 +11,7 @@ confidence:
   verification_state: unverified
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: 'STALE, 2026-09-29: this record still describes the pre-2026-09-25 unacquired state.
-    The complete 1562 Psalter (French) was vendored 2026-09-25 as `marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt`
-    (Source_Registry.md row 19, Manifest G2 now CLOSED) - not reflected in this record''s own fields below,
-    left as a disclosed staleness rather than silently rewritten, since updating `edition`/`rights_status`/`kind`
-    to match row 19 and adding this record to any citing gravity/lexicon record''s `sources[]` is real package-layer
-    work for a future pass, not performed here.'
+  divergence_note: 'The complete 1562 Psalter (French) is vendored as `marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt`.'
 sources: []
 relations: []
 author: Clement Marot and Theodore Beza (versification); various (tunes)

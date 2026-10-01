@@ -53,7 +53,7 @@ exactly one of four verdicts:
 Classification order, once a line matches a pattern: PROTECTED is decided
 first (path- and field-level, independent of the line's own wording).
 Within an unprotected line: ROUTE if it carries an open-item cue (still
-unresolved, not yet fixed); else REWRITE if it carries a provenance cue
+an item left for later, not yet fixed); else REWRITE if it carries a provenance cue
 (the primary patterns below, besides ROUTE's own); else KEEP.
 
 A second, narrower rule (SPOKEN_VOCAB_PATTERNS below) catches a different
@@ -159,7 +159,8 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "ruled": re.compile(r"\bRULED\b"),
     "iso-date": re.compile(r"\b20\d\d-\d\d-\d\d\b"),
     "era-gate": re.compile(
-        r"\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?(?:gate|Freeze)\b|\bthe Freeze\b",
+        r"\bat (?:the|that) (?:Era\s+\d+\s+(?:same\s+)?|same\s+)gate\b|\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?Freeze\b|\bthe Freeze\b|"
+        r"\b(?:corrected|checked|cleared|caught|found|fixed|run|verified|held|resolved|flagged|reconciled|settled|dated|decided)\b[^.]{0,40}\bat (?:the|that) gate\b",
         re.IGNORECASE,
     ),
 }
@@ -399,17 +400,33 @@ _STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d
 _BARE_DATE_TABLE_CELL = re.compile(
     r"^(?:[\w][\w .,'()`/-]{0,39})?,?\s*20\d\d-\d\d-\d\d\s*(?:,\s*[\w .,'()`/-]{0,59})?$"
 )
+_REGISTRY_DATE_CELL = re.compile(
+    r"^20\d\d-\d\d-\d\d(?:\s*\([^)]{1,60}\))?(?:\s*;\s*20\d\d-\d\d-\d\d(?:\s*\([^)]{1,60}\))?)*$"
+)
 _SOURCE_REGISTRY_FILENAME = re.compile(r"(?i)(^|_)source_registry\.md$")
+_REGISTRY_STATUS_CUE = re.compile(r"(?i)\bnot yet acquired\b")
+_FILENAME_WITH_DATE = re.compile(r"[\w./-]*20\d\d-\d\d-\d\d[\w./-]*\.(?:json|md|txt|yaml|yml|html|csv)\b")
+_PUBLIC_STATUS_LABEL = re.compile(r'^\s*"statusWord"\s*:')
+_VERIFIED_BY_FIELD = re.compile(r"^\s*(?:-\s+)?verified_by\s*:")
+
+
+def _iso_date_only_in_filenames(line: str) -> bool:
+    """True when every ISO date on the line sits inside a file name
+    (`live-table-report-witt-rzg-2026-09-19.json`): the date is part of the
+    name being cited, not a date written into prose."""
+    return not re.search(r"20\d\d-\d\d-\d\d", _FILENAME_WITH_DATE.sub("", line))
 
 
 def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool) -> bool:
     if not in_source_registry_file or line.count("|") < 2:
         return False
+    cells = line.strip().strip("|").split("|")
     found_any_date = False
-    for cell in line.split("|"):
+    for index, cell in enumerate(cells):
         if re.search(r"20\d\d-\d\d-\d\d", cell):
             found_any_date = True
-            if not _BARE_DATE_TABLE_CELL.match(cell.strip()):
+            in_provenance_columns = index >= len(cells) - 2
+            if not (in_provenance_columns or _iso_date_only_in_filenames(cell) or _BARE_DATE_TABLE_CELL.match(cell.strip()) or _REGISTRY_DATE_CELL.match(cell.strip())):
                 return False
     return found_any_date
 
@@ -421,9 +438,16 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
 # catch - still gets flagged. Found live in cic/corpus-map/: entries that
 # say a cross-check "has not yet been done" or a claim is "flagged for
 # Mark" carry no other pattern at all and were being silently skipped.
+# The words "unresolved", "open question" and "still open" alone are not cues. Each
+# states a real uncertainty in a source or a tension a world holds, and "unresolved" and
+# "still open" are also code terms in engine/. Each is a cue only with a qualifier that
+# marks the author's own scope or timing ("unresolved here", "open question for now").
 ROUTE_CUES = re.compile(
-    r"\b(TODO|FIXME|open question|open gap|open item|not yet (resolved|fixed|answered|acquired)|"
-    r"unresolved|still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
+    r"\b(TODO|FIXME|open question (here|for now|pending|on purpose|until|for (Mark|the project lead))|"
+    r"open gap|open item|not yet (resolved|fixed|answered|acquired)|"
+    r"unresolved (here|for now|pending|on purpose|until)|"
+    r"still pending|still open (here|for now|pending|until|for (Mark|the project lead))|"
+    r"follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
     r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
     re.IGNORECASE,
@@ -432,7 +456,7 @@ ROUTE_CUES = re.compile(
 # A "round" hit that is not a review round (round-trip, round number, round
 # up/down, a round object) - keeps review-round from over-firing on ordinary
 # engineering prose.
-NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b", re.IGNORECASE)
+NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b|\bopens? round \d+\b", re.IGNORECASE)
 
 # A "reviewer" hit that names a generic or hypothetical third party, not this
 # project's own review process - "an external reviewer" (a donor-facing ask
@@ -769,7 +793,7 @@ def _is_review_doc(rel: Path) -> bool:
     return any(keyword in name for keyword in _REVIEW_DOC_FILENAME_KEYWORDS) or bool(_ZELL_CHECK_RE.search(name))
 
 
-_BUILD_LEDGER_FILENAME = re.compile(r"(?i)(^needs-ruling\.md$|_superseded_claims\.md$)")
+_BUILD_LEDGER_FILENAME = re.compile(r"(?i)(^needs-ruling\.md$|_superseded_claims\.md$|(^|_)source_acquisition_manifest\.md$)")
 
 
 def _is_build_ledger(rel: Path) -> bool:
@@ -1219,18 +1243,33 @@ class Hit:
         return f"{self.path}:{self.line}:{self.category} ({','.join(self.patterns)})"
 
 
+def _route_cue(line: str, in_source_registry_file: bool = False) -> bool:
+    """ROUTE_CUES, except where the wording is the line's own subject: a
+    public status label (`"statusWord": "Creedal question - not yet
+    resolved"`) and the acquisition-status value in a Source Registry table
+    row (`NOT YET ACQUIRED`)."""
+    if _PUBLIC_STATUS_LABEL.match(line):
+        return False
+    if not ROUTE_CUES.search(line):
+        return False
+    if in_source_registry_file and line.lstrip().startswith("|"):
+        return bool(ROUTE_CUES.search(_REGISTRY_STATUS_CUE.sub("", line)))
+    return True
+
+
 def classify_line(
     line: str,
     matched: list[str],
     in_source_record_body: bool = False,
     in_source_registry_file: bool = False,
 ) -> str:
-    if ROUTE_CUES.search(line):
+    if _route_cue(line, in_source_registry_file):
         return "ROUTE"
     real_matches = [
         name for name in matched
         if not (name == "review-round" and NON_REVIEW_ROUND.search(line))
         and not (name == "reviewer" and GENERIC_REVIEWER.search(line))
+        and not (name == "change-history-cue" and _VERIFIED_BY_FIELD.match(line))
         and not (
             name == "ruling-number"
             and (in_source_record_body or SOURCE_REGISTRY_REF.search(line))
@@ -1241,6 +1280,8 @@ def classify_line(
                 _BARE_DATE_LINE.match(line)
                 or _BARE_DATE_HEADER_LINE.match(line)
                 or _STRUCTURED_DATE_KWARG.search(line)
+                or _iso_date_only_in_filenames(line)
+                or _VERIFIED_BY_FIELD.match(line)
                 or _iso_date_is_bare_table_provenance(line, in_source_registry_file)
             )
         )
@@ -1360,6 +1401,23 @@ def is_generated_manifest(rel: Path) -> bool:
     return bool(_PACKAGE_MANIFEST.match(rel.as_posix()))
 
 
+_NAME_LINE = re.compile(r"^\s*(?:-\s+)?name:")
+_TAXONOMY_TAG = r"\[(?:PRIMARY|SUPPORTING|TENSIONAL|[1-3][AB](?:-\d+)?)\b[^\]]*\]"
+_LEADING_NAME_TAG = re.compile(r"(?<=[:\s\"'])" + _TAXONOMY_TAG + r"\s*")
+_TRAILING_NAME_TAG = re.compile(r"\s*" + _TAXONOMY_TAG + r"(?=[\"']?\s*$)")
+
+
+def _without_name_taxonomy_tag(line: str) -> str:
+    """A gravity or force record's `name:` ends in (or, in two rzg records,
+    starts with) a bracketed build tag such as [2A - ongoing/external] or
+    [PRIMARY]. engine.prose.strip_name_taxonomy_tag removes it before the
+    name reaches the compiled prompt or a citation card, so the tag itself
+    is not participant-facing text."""
+    if not _NAME_LINE.match(line):
+        return line
+    return _TRAILING_NAME_TAG.sub("", _LEADING_NAME_TAG.sub("", line, count=1), count=1)
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
     if is_generated_manifest(rel):
@@ -1397,7 +1455,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     frontmatter_end = _yaml_frontmatter_end(raw_lines)
     change_history_block_lines: set[int] = set()
     for i, line in enumerate(raw_lines, start=1):
-        if CHANGE_HISTORY_CUES.search(line):
+        if CHANGE_HISTORY_CUES.search(line) and not _VERIFIED_BY_FIELD.match(line):
             if frontmatter_end is not None and i <= frontmatter_end:
                 change_history_block_lines.update(_yaml_scalar_block_lines(frontmatter_field_lines, i))
             else:
@@ -1407,9 +1465,12 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
+        if i in code_lines:
+            matched = [name for name in matched if name != "ruling-identifier"]
         if i in spoken_field_lines:
-            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(line)]
-        if not matched and ROUTE_CUES.search(line):
+            spoken_text = _without_name_taxonomy_tag(line)
+            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(spoken_text)]
+        if not matched and _route_cue(line, in_source_registry_file):
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
             matched = ["change-history-block"]

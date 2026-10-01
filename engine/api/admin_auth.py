@@ -1,9 +1,7 @@
-"""Password login for the usage dashboard (Mark, 2026-09-28: "every
-website no matter how sensitive is just password protected" - a fair
-point against the dashboard's original design, which reused
-CIC_API_ADMIN_TOKEN's bearer-token pattern, built for script/API callers,
-as a human login). This module adds a second, human-facing credential
-without touching that first one: CIC_API_ADMIN_TOKEN still works exactly
+"""Password login for the usage dashboard. CIC_API_ADMIN_TOKEN's
+bearer-token pattern is built for script and API callers, not as a human
+login, so this module adds a second, human-facing credential without
+touching that first one: CIC_API_ADMIN_TOKEN still works exactly
 as before for a direct API caller (pilot-summary, usage-summary), and now
 also serves as the one-time bootstrap credential for setting this
 password - see engine.api.app's /api/admin/set-password and
