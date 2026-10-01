@@ -465,6 +465,7 @@ _SOURCE_REGISTRY_FILENAME = re.compile(r"(?i)(^|_)source_registry\.md$")
 _REGISTRY_STATUS_CUE = re.compile(r"(?i)\bnot yet acquired\b")
 _FILENAME_WITH_DATE = re.compile(r"[\w./-]*20\d\d-\d\d-\d\d[\w./-]*\.(?:json|md|txt|yaml|yml|html|csv)\b")
 _PUBLIC_STATUS_LABEL = re.compile(r'^\s*"statusWord"\s*:')
+_VERIFIED_BY_FIELD = re.compile(r"^\s*(?:-\s+)?verified_by\s*:")
 
 
 def _iso_date_only_in_filenames(line: str) -> bool:
@@ -477,11 +478,13 @@ def _iso_date_only_in_filenames(line: str) -> bool:
 def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool) -> bool:
     if not in_source_registry_file or line.count("|") < 2:
         return False
+    cells = line.strip().strip("|").split("|")
     found_any_date = False
-    for cell in line.split("|"):
+    for index, cell in enumerate(cells):
         if re.search(r"20\d\d-\d\d-\d\d", cell):
             found_any_date = True
-            if not (_BARE_DATE_TABLE_CELL.match(cell.strip()) or _REGISTRY_DATE_CELL.match(cell.strip())):
+            in_provenance_columns = index >= len(cells) - 2
+            if not (in_provenance_columns or _iso_date_only_in_filenames(cell) or _BARE_DATE_TABLE_CELL.match(cell.strip()) or _REGISTRY_DATE_CELL.match(cell.strip())):
                 return False
     return found_any_date
 
@@ -1326,6 +1329,7 @@ def classify_line(
         name for name in matched
         if not (name == "review-round" and NON_REVIEW_ROUND.search(line))
         and not (name == "reviewer" and GENERIC_REVIEWER.search(line))
+        and not (name == "change-history-cue" and _VERIFIED_BY_FIELD.match(line))
         and not (
             name == "ruling-number"
             and (in_source_record_body or SOURCE_REGISTRY_REF.search(line))
@@ -1338,6 +1342,7 @@ def classify_line(
                 or _STRUCTURED_DATE_KWARG.search(line)
                 or date_in_provenance_cell
                 or _iso_date_only_in_filenames(line)
+                or _VERIFIED_BY_FIELD.match(line)
                 or _iso_date_is_bare_table_provenance(line, in_source_registry_file and not table_has_header)
             )
         )
@@ -1512,7 +1517,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     frontmatter_end = _yaml_frontmatter_end(raw_lines)
     change_history_block_lines: set[int] = set()
     for i, line in enumerate(raw_lines, start=1):
-        if CHANGE_HISTORY_CUES.search(line):
+        if CHANGE_HISTORY_CUES.search(line) and not _VERIFIED_BY_FIELD.match(line):
             if frontmatter_end is not None and i <= frontmatter_end:
                 change_history_block_lines.update(_yaml_scalar_block_lines(frontmatter_field_lines, i))
             else:

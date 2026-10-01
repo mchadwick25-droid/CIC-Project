@@ -201,7 +201,7 @@ R2 is a lead, but this sentence reports a vendored text wrongly. Correct it. The
 
 **P2-10. Open_Gaps.**
 
-- Entry 8(d) cites `records/worlds.yaml`, which does not exist. The registry is `records/worlds/<code>.yaml` (root README).
+- Entry 8(d) cites the world registry, which does not exist. The registry is `records/worlds/<code>.yaml` (root README).
 - Entries 5 and 13–14 duplicate each other; so do 15 and 20, and 16 and R1.
 - Entry 16 says a request "is in `Open_Gaps_Tracking.md`" from inside that file.
 

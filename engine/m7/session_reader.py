@@ -4,10 +4,10 @@ store; never writes, never calls a provider. This module is deliberately
 dumb - it collects what the log says and attaches nothing the log doesn't
 carry. Judgment lives in instruments.py; prose lives in report.py.
 
-This is where the four formerly-unread outputs acquire their reader
-(Artifact-8 §1): voice_turn.grounding, voice_turn.do_not_voice_violation,
-voice_turn.output_defects, round_closed.governance - each is lifted off
-its event verbatim and handed to the instruments.
+This is where the three formerly-unread outputs acquire their reader
+(Artifact-8 §1): voice_turn.grounding, voice_turn.output_defects,
+round_closed.governance - each is lifted off its event verbatim and
+handed to the instruments.
 """
 from dataclasses import dataclass, field
 
@@ -22,7 +22,6 @@ class VoiceTurnRecord:
     citations: list
     grounding: dict | None
     output_defects: list
-    do_not_voice_violation: object
     degraded_by_net: bool
     round_no: int | None  # table mode only
     # Lifted verbatim off the voice_turn event's own payload
@@ -108,7 +107,6 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
                     citations=p.get("citations") or [],
                     grounding=p.get("grounding"),
                     output_defects=p.get("output_defects") or [],
-                    do_not_voice_violation=p.get("do_not_voice_violation"),
                     degraded_by_net=bool(p.get("degraded_by_net")),
                     round_no=current_round if mode == "table" else None,
                     figures_used=p.get("figures_used") or [],

@@ -90,7 +90,7 @@ No decision is made or implied. The shelf's voice is fullest for 1540–1562 and
 **Source:** `Doc_01_World_Identification_Boundaries_Orientation.md` §9 (registration of `jes`); `build/jes_Build_State.yaml`.
 **Status:** Open. Owner: project lead.
 
-The file-code `jes` was assigned by the project lead. `records/worlds/jes.yaml` does not exist, and nothing was added to `records/`, `packages/`, `cic/texts/` or `cic/corpus-map/`. `build/jes_Build_State.yaml` exists with Steps 0 to 2 recorded. No cost ledger was opened, and the session's token spend was not measured.
+The file-code `jes` was assigned by the project lead. the registry entry for `jes` (not yet created) does not exist, and nothing was added to `records/`, `packages/`, `cic/texts/` or `cic/corpus-map/`. `build/jes_Build_State.yaml` exists with Steps 0 to 2 recorded. No cost ledger was opened, and the session's token spend was not measured.
 
 ## OG-11 — The Canisius scan and its file header (2026-09-30)
 

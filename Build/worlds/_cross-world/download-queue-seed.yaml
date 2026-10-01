@@ -55,7 +55,7 @@ queue:
     verified_by: "Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed)"
     status: downloaded
     vendored_as: "paulinus-milan_vita-ambrosii_kaniecka1928.txt"
-    vendored_note: "vendored 2026-09-13 by the ijc thread from the sibling archive.org item vitasanctiambros0000paul; this seed row's identifier never resolved to the file used"
+    vendored_note: "vendored by the ijc thread from the sibling archive.org item vitasanctiambros0000paul; this seed row's identifier never resolved to the file used"
 
   - title: "The Liturgies of SS. Mark, James, Clement, Chrysostom, and Basil"
     author: "attrib. Basil of Caesarea (the Basil liturgy specifically)"
@@ -72,7 +72,7 @@ queue:
     verified_by: "Opus adversarial review, 2026-09-02"
     status: downloaded
     vendored_as: "liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt"
-    vendored_note: "vendored 2026-09-29; the host catalogues this scan [187-?], not 1859"
+    vendored_note: "vendored; the host catalogues this scan [187-?], not 1859"
 
   - title: "Res Gestae, Book 27.3"
     author: "Ammianus Marcellinus"
@@ -104,7 +104,7 @@ queue:
     verified_by: "direct WebSearch verification, 2026-09-02"
     status: downloaded
     vendored_as: "suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
-    vendored_note: "vendored 2026-09-29 as a second witness; Thomson-Forester 1909 (suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt) had already closed pahc's need"
+    vendored_note: "vendored as a second witness; Thomson-Forester 1909 (suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt) had already closed pahc's need"
 
   - title: "The Odes and Psalms of Solomon, Published from the Syriac Version"
     author: "Anonymous (the Odes of Solomon, 42 odes)"
@@ -134,7 +134,7 @@ queue:
       Registry row 58, not a vendoring candidate). Only volume 3.2 (the
       Epistulae) has a located identifier; 3.1 (treatises) and 3.3
       (spuria/indices) were searched for but not found this session - disclosed
-      as an open gap, not silently dropped.
+      as a gap, not silently dropped.
     url: "https://archive.org/details/CorpusScriptoruEcclesiasticorumLatinorum3.2Cyprian"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 3.2 only)"
@@ -196,7 +196,7 @@ queue:
     verified_by: "lpc build thread, live web search + Cambridge Classical Review cross-citation, 2026-09-01; direct file inspection (OCR-quality sampled across the full document) 2026-09-05"
     status: downloaded
 
-  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, remaining volume (CSEL 58 only -- 34/1, 34/2, and 44 downloaded 2026-09-08)"
+  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, remaining volume (CSEL 58 only -- 34/1, 34/2, and 44 already downloaded)"
     author: "Augustine of Hippo"
     translator: "Alois Goldbacher (ed.)"
     year: "1895 (34/1) / 1898 (34/2) / 1904 (44) / 1923 (58, preface and indices)"
@@ -534,7 +534,7 @@ queue:
     verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, editors, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
     status: downloaded
     vendored_as: "egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt"
-    vendored_note: "vendored 2026-09-29"
+    vendored_note: "vendored"
 
   - title: "The Dialogue of Palladius Concerning the Life of Chrysostom"
     author: "Palladius, Bishop of Aspuna"
@@ -558,7 +558,7 @@ queue:
     verified_by: "direct WebFetch verification, 2026-09-13 (publisher, date, translator, NOT_IN_COPYRIGHT tag, and full-text downloadability all confirmed against the host directly)"
     status: downloaded
     vendored_as: "palladius_dialogue-life-of-chrysostom_moore1921.txt"
-    vendored_note: "vendored 2026-09-29"
+    vendored_note: "vendored"
 
   - title: "Sermo de Vita Sancti Honorati"
     author: "Hilary of Arles"
@@ -594,7 +594,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch verification, 2026-09-13 (Project Gutenberg's own \"Public domain in the USA\" tag, translator, and full-text downloadability all confirmed against the host directly)"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Easton 1934 is a Cambridge University Press (UK) edition (copyright notice: Copyright 1934, Cambridge University Press; reprinted 1962). Gutenberg lists it as public domain in the US, but that is the host's own clearance, not a licence, and INTAKE.md treats foreign-published 1931+ translations as presumed URAA-restored. Needs a ruling from Mark, or a renewal/URAA check."
+    hold_note: "Held, not vendored. Easton 1934 is a Cambridge University Press (UK) edition (copyright notice: Copyright 1934, Cambridge University Press; reprinted 1962). Gutenberg lists it as public domain in the US, but that is the host's own clearance, not a licence, and INTAKE.md treats foreign-published 1931+ translations as presumed URAA-restored. Needs a ruling from Mark, or a renewal/URAA check."
 
   - title: "Institutes of the Christian Religion, 3 vols."
     author: "John Calvin"
@@ -816,7 +816,7 @@ queue:
     verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
     status: downloaded
     vendored_as: "augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
+    vendored_note: "vendored; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
 
   - title: "De Agone Christiano, CSEL 41 work III (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
     author: "Augustine of Hippo"
@@ -829,7 +829,7 @@ queue:
     verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
     status: downloaded
     vendored_as: "augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
+    vendored_note: "vendored; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
 
   - title: "De Bono Coniugali, CSEL 41 work V (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
     author: "Augustine of Hippo"
@@ -842,7 +842,7 @@ queue:
     verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
     status: downloaded
     vendored_as: "augustine_de-bono-coniugali-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
+    vendored_note: "vendored; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
 
   - title: "De Sancta Virginitate, CSEL 41 work VI (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
     author: "Augustine of Hippo"
@@ -855,7 +855,7 @@ queue:
     verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
     status: downloaded
     vendored_as: "augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
+    vendored_note: "vendored; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
 
   - title: "De Mendacio, CSEL 41 work VIIII (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
     author: "Augustine of Hippo"
@@ -868,7 +868,7 @@ queue:
     verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
     status: downloaded
     vendored_as: "augustine_de-mendacio-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
+    vendored_note: "vendored; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
 
   - title: "Contra Mendacium (Ad Consentium contra mendacium), CSEL 41 work X (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
     author: "Augustine of Hippo"
@@ -881,7 +881,7 @@ queue:
     verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
     status: downloaded
     vendored_as: "augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
+    vendored_note: "vendored; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
 
   - title: "De Opere Monachorum, CSEL 41 work XI (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
     author: "Augustine of Hippo"
@@ -894,7 +894,7 @@ queue:
     verified_by: "csel-dev repository file fetched directly and its licence element and printed heading read in the vendored copy, 2026-09-29 (github.com pages are not reachable from the build sandbox; the file was fetched by raw path)"
     status: downloaded
     vendored_as: "augustine_de-opere-monachorum-lat_zycha1900-csel41-tei.txt"
-    vendored_note: "vendored 2026-09-29; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
+    vendored_note: "vendored; machine-corrected transcription of the CSEL scan, preferred base for quoting, with the CSEL 41 volume scan (corpusscriptoru18wiengoog) as the print check"
 
   - title: "Sancti Aureli Augustini Opera, Sect. V Pars III, CSEL 41 (the whole volume)"
     author: "Augustine of Hippo"
@@ -907,7 +907,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: title page MDCCCC, volume 41, Google scan; the host's date field says 1866, a catalogue error, 2026-09-29"
     status: downloaded
     vendored_as: "augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt"
-    vendored_note: "vendored 2026-09-29; the only Latin witness of De fide et symbolo, De continentia, De bono viduitatis, De adulterinis coniugiis, De divinatione daemonum, De cura pro mortuis gerenda and De patientia; the print check on the seven csel-dev TEI files"
+    vendored_note: "vendored; the only Latin witness of De fide et symbolo, De continentia, De bono viduitatis, De adulterinis coniugiis, De divinatione daemonum, De cura pro mortuis gerenda and De patientia; the print check on the seven csel-dev TEI files"
 
   - title: "De Catechizandis Rudibus, Latin with German introduction and notes (Sammlung ausgewählter kirchen- und dogmengeschichtlicher Quellenschriften, 4. Heft)"
     author: "Augustine of Hippo"
@@ -920,7 +920,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR title page read directly: Freiburg and Leipzig, J. C. B. Mohr, 1893, 2026-09-29; the lpc library sweep (source-research half) also fetched it directly and checked the title page; the same item was queued twice and one row is kept"
     status: downloaded
     vendored_as: "augustine_de-catechizandis-rudibus-lat_krueger1893.txt"
-    vendored_note: "vendored 2026-09-29; Latin of the catechetical work of Registry row 15; the German notes are modern scholarship"
+    vendored_note: "vendored; Latin of the catechetical work of Registry row 15; the German notes are modern scholarship"
 
   - title: "Sancti Aurelii Augustini Opera omnia (Maurist edition, Migne printing), Tomus V: Sermonum classes quatuor, with the sermones dubii"
     author: "Augustine of Hippo"
@@ -933,7 +933,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: volume 5, Paris, Migne, 1841, University of Toronto copy, 2026-09-29"
     status: downloaded
     vendored_as: "augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt"
-    vendored_note: "vendored 2026-09-29; pre-critical Maurist text; high OCR misread rate; a finding aid, not a quotable text"
+    vendored_note: "vendored; pre-critical Maurist text; high OCR misread rate; a finding aid, not a quotable text"
 
   - title: "Patrologiae cursus completus, series Latina, Tomus XXXV: Augustine, Tomus tertius pars altera (Tractatus in Ioannis Evangelium CXXIV, In epistolam Ioannis ad Parthos X, and other works)"
     author: "Augustine of Hippo"
@@ -946,7 +946,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR title page read directly: Paris, Garnier Frères and J.-P. Migne successors, 1902 (the host date field says 1841), 2026-09-29"
     status: downloaded
     vendored_as: "augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt"
-    vendored_note: "vendored 2026-09-29; pre-critical Maurist text; OCR misreads about one word in ten; a finding aid, not a quotable text"
+    vendored_note: "vendored; pre-critical Maurist text; OCR misreads about one word in ten; a finding aid, not a quotable text"
 
   - title: "Sancti Aureli Augustini Tractatus sive Sermones inediti ex codice Guelferbytano 4096 (with nine tractatus of Optatus of Milevis, Quodvultdeus of Carthage and others)"
     author: "Augustine of Hippo (as the title page ascribes them)"
@@ -959,7 +959,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Kempten and Munich, Koesel, 1917 (imprimatur 19 September 1917), University of Chicago microfilm copy, 2026-09-29"
     status: downloaded
     vendored_as: "augustine_sermones-guelferbytani-lat_morin1917.txt"
-    vendored_note: "vendored 2026-09-29; first edition of the 33 Guelferbytanus sermons; ascription of individual sermons not decided by the file"
+    vendored_note: "vendored; first edition of the 33 Guelferbytanus sermons; ascription of individual sermons not decided by the file"
 
   - title: "Sancti Aurelii Augustini, Hipponensis episcopi, Sermones inediti"
     author: "Augustine of Hippo (as the title page ascribes them)"
@@ -972,7 +972,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Paul Mellier, 1842; the item record carries the Public Domain Mark 1.0, 2026-09-29"
     status: downloaded
     vendored_as: "augustine_sermones-inediti-lat_caillau1842.txt"
-    vendored_note: "vendored 2026-09-29; OCR misreads about one word in five or six; several sermons not Augustine's per later scholarship"
+    vendored_note: "vendored; OCR misreads about one word in five or six; several sermons not Augustine's per later scholarship"
 
   - title: "Ausgewählte Märtyrerakten (Sammlung ausgewählter kirchen- und dogmengeschichtlicher Quellenschriften, Neue Folge 3), 3rd edition"
     author: "various (the anonymous martyr acts)"
@@ -985,7 +985,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Tübingen, Mohr, 1929; lending-library scan with an open text layer, 2026-09-29"
     status: downloaded
     vendored_as: "knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
-    vendored_note: "vendored 2026-09-29; holds the Acta Cypriani (no. 13) and the Passiones of Marianus and Jacobus (no. 15) and of Montanus and Lucius (no. 16) in Latin"
+    vendored_note: "vendored; holds the Acta Cypriani (no. 13) and the Passiones of Marianus and Jacobus (no. 15) and of Montanus and Lucius (no. 16) in Latin"
 
   - title: "Acta martyrum selecta: Ausgewählte Märtyrerakten und andere Urkunden aus der Verfolgungszeit der christlichen Kirche"
     author: "various (the anonymous martyr acts)"
@@ -998,7 +998,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Berlin, Alexander Duncker, 1902; lending-library scan with an open text layer, 2026-09-29"
     status: downloaded
     vendored_as: "gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt"
-    vendored_note: "vendored 2026-09-29; holds the Acta S. Cypriani (no. XI) and the Passiones of Marianus and Jacobus (no. XIII) and of Montanus and Lucius (no. XIV) in Latin"
+    vendored_note: "vendored; holds the Acta S. Cypriani (no. XI) and the Passiones of Marianus and Jacobus (no. XIII) and of Montanus and Lucius (no. XIV) in Latin"
 
   - title: "Cyprianische Untersuchungen (Arbeiten zur Kirchengeschichte, 4)"
     author: "Hugo Koch"
@@ -1011,7 +1011,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Bonn, Marcus und Weber, 1926 (host publisher field reads De Gruyter), 2026-09-29; the lpc library sweep (source-research half) also fetched it directly and checked the title page and contents; the item has no rights tag and rights rest on the 1926 publication date; imprint page not confirmed; the same item was queued twice and one row is kept"
     status: downloaded
     vendored_as: "koch_cyprianische-untersuchungen-deu_1926.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on Cyprian's treatises and penance; consultation-only"
+    vendored_note: "vendored; German scholarship on Cyprian's treatises and penance; consultation-only"
 
   - title: "Cyprian und der römische Primat (Texte und Untersuchungen, 3. Reihe, 5. Band, Heft 1)"
     author: "Hugo Koch"
@@ -1024,7 +1024,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Leipzig, Hinrichs, 1910, 2026-09-29"
     status: downloaded
     vendored_as: "koch_cyprian-und-der-roemische-primat-deu_1910.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on Cyprian and the Roman see; consultation-only"
+    vendored_note: "vendored; German scholarship on Cyprian and the Roman see; consultation-only"
 
   - title: "Cathedra Petri: Neue Untersuchungen über die Anfänge der Primatslehre (Beihefte zur ZNW, 11)"
     author: "Hugo Koch"
@@ -1037,7 +1037,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Giessen, Töpelmann, 1930; lending-library scan with an open text layer, 2026-09-29"
     status: downloaded
     vendored_as: "koch_cathedra-petri-deu_1930.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship; 1930 imprint at the edge of the Library's 1930-or-earlier rule; consultation-only"
+    vendored_note: "vendored; German scholarship; 1930 imprint at the edge of the Library's 1930-or-earlier rule; consultation-only"
 
   - title: "Die abendländische Kirchenbuße im Ausgang des christlichen Altertums (Münchener Studien zur historischen Theologie, 7)"
     author: "Bernhard Poschmann"
@@ -1050,7 +1050,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Munich, Kösel and Pustet, 1928; lending-library scan with an open text layer, 2026-09-29"
     status: downloaded
     vendored_as: "poschmann_abendlaendische-kirchenbusse-deu_1928.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on Western penance; the continuation the preface announces is not in the file; consultation-only"
+    vendored_note: "vendored; German scholarship on Western penance; the continuation the preface announces is not in the file; consultation-only"
 
   - title: "La Théologie de saint Cyprien (Bibliothèque de théologie historique)"
     author: "Adhémar d'Alès"
@@ -1063,7 +1063,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Beauchesne, 1922 (the host lists the language as English; the text is French), 2026-09-29"
     status: downloaded
     vendored_as: "dales_theologie-de-saint-cyprien-fra_1922.txt"
-    vendored_note: "vendored 2026-09-29; French scholarship on Cyprian's theology; consultation-only"
+    vendored_note: "vendored; French scholarship on Cyprian's theology; consultation-only"
 
   - title: "Cyprian: His Life, His Times, His Work"
     author: "Edward White Benson"
@@ -1088,7 +1088,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Leroux, 1912, 2026-09-29"
     status: downloaded
     vendored_as: "mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt"
-    vendored_note: "vendored 2026-09-29; French reference work on the African sees and their bishops; consultation-only"
+    vendored_note: "vendored; French reference work on the African sees and their bishops; consultation-only"
 
   - title: "Géographie de l'Afrique chrétienne: Numidie"
     author: "Anatole Toulotte"
@@ -1101,7 +1101,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Rennes and Paris, Oberthur, 1894; Google scan, the host labels it volume 2, 2026-09-29"
     status: downloaded
     vendored_as: "toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt"
-    vendored_note: "vendored 2026-09-29; the Numidia volume only; the other provinces are separate volumes, not vendored"
+    vendored_note: "vendored; the Numidia volume only; the other provinces are separate volumes, not vendored"
 
   - title: "Carthage romaine, 146 avant Jésus-Christ – 698 après Jésus-Christ (Bibliothèque des Écoles françaises d'Athènes et de Rome, fasc. 84)"
     author: "Auguste Audollent"
@@ -1114,7 +1114,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Paris, Fontemoing, 1901; Getty Research Institute copy, 2026-09-29"
     status: downloaded
     vendored_as: "audollent_carthage-romaine-fra_1901.txt"
-    vendored_note: "vendored 2026-09-29; French scholarly history of the city; consultation-only"
+    vendored_note: "vendored; French scholarly history of the city; consultation-only"
 
   - title: "Der Streit zwischen Rom und Karthago über die Ketzertaufe (Quellen und Forschungen aus italienischen Archiven und Bibliotheken, Band XII, pp. 1-42)"
     author: "Hans von Soden"
@@ -1127,7 +1127,7 @@ queue:
     verified_by: "archive.org /metadata and the vendored OCR read directly: Band XII, Rome, Loescher, 1909 (the host date field says 1898, a catalogue error); the file is the article sliced from the full serial volume, 2026-09-29"
     status: downloaded
     vendored_as: "vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt"
-    vendored_note: "vendored 2026-09-29; German scholarship on the Stephen-Cyprian baptism dispute; the first part of the work whose appendix is already vendored"
+    vendored_note: "vendored; German scholarship on the Stephen-Cyprian baptism dispute; the first part of the work whose appendix is already vendored"
 
   - title: "Sancti Aurelii Augustini Opera omnia (Maurist edition, Migne printing), Tomus VI (De diversis quaestionibus, Enchiridion, De fide et symbolo, De fide et operibus, De agone christiano, De catechizandis rudibus, De bono coniugali, De sancta virginitate and other short treatises, with an appendix)"
     author: "Augustine of Hippo"
@@ -1163,7 +1163,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'VOL XXV (SECT. VI, PARS I)', Vienna, Tempsky, MDCCCLXXXXI (1891); the host date field says 1866 and volume is unset, both catalogue errors; Google scan, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Low priority: Augustine's anti-Manichaean works; the English of the Reply to Faustus is vendored in npnf104 (Registry row 22), and the Latin of Contra Adimantum is on csel-dev."
+    hold_note: "Held, not vendored. Low priority: Augustine's anti-Manichaean works; the English of the Reply to Faustus is vendored in npnf104 (Registry row 22), and the Latin of Contra Adimantum is on csel-dev."
 
   - title: "Victoris episcopi Vitensis Historia persecutionis Africanae provinciae, with the Passio septem monachorum and the Notitia, CSEL 7"
     author: "Victor of Vita"
@@ -1175,7 +1175,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'VOL. VII', Vienna, Geroldi, MDCCCLXXXI (1881), 208 images, Google scan, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Low priority, outside the window: the history concerns the persecution under the Vandal kings Geiseric and Hunneric (the edition's preface cites the work as 'Victoris Vitensis historia persecutionis Africanae prouinciae sub Geiserico et Hunirico regibus Wandalorum'), after c. 430."
+    hold_note: "Held, not vendored. Low priority, outside the window: the history concerns the persecution under the Vandal kings Geiseric and Hunneric (the edition's preface cites the work as 'Victoris Vitensis historia persecutionis Africanae prouinciae sub Geiserico et Hunirico regibus Wandalorum'), after c. 430."
 
   - title: "Corpus Inscriptionum Latinarum, Vol. VIII pars posterior: Inscriptiones Africae Latinae, Inscriptiones Mauretaniarum (the scan opens at Pars quinta, Mauretania Sitifensis)"
     author: "various (CIL VIII)"
@@ -1187,7 +1187,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'VOLUMINIS OCTAVI PARS POSTERIOR ... INSCRIPTIONES MAVRETANIARVM', Berlin, Reimer, MDCCCLXXXI (1881); the item record carries the Public Domain Mark 1.0; the OCR's first text is 'PARS QVINTA. PROVINCIA MAVRETANIA SITIFENSIS', 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Low priority: a fragment of the corpus (the Mauretanian provinces), not the Proconsularis or Numidia inscriptions; the CIL VIII Supplement for Numidia is already vendored."
+    hold_note: "Held, not vendored. Low priority: a fragment of the corpus (the Mauretanian provinces), not the Proconsularis or Numidia inscriptions; the CIL VIII Supplement for Numidia is already vendored."
 
   - title: "Geschichte der altkirchlichen Literatur, Band 3: Das vierte Jahrhundert mit Ausschluss der Schriftsteller syrischer Zunge"
     author: "Otto Bardenhewer"
@@ -1199,7 +1199,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'DRITTER BAND', Freiburg im Breisgau, Herder, 1912; Internet Archive lending-library scan, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Optatus and Tyconius passages."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Optatus and Tyconius passages."
 
   - title: "Geschichte der altkirchlichen Literatur, Band 2: Vom Ende des zweiten Jahrhunderts bis zum Beginn des vierten Jahrhunderts, 2nd revised edition"
     author: "Otto Bardenhewer"
@@ -1211,7 +1211,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'ZWEITER BAND ... ZWEITE, UMGEARBEITETE AUFLAGE', Freiburg im Breisgau, Herder, 1914; Google scan, Public Domain Mark 1.0, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Cyprian passages."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Cyprian passages."
 
   - title: "Geschichte der altkirchlichen Literatur, Band 4: Das fünfte Jahrhundert mit Einschluss der syrischen Literatur des vierten Jahrhunderts"
     author: "Otto Bardenhewer"
@@ -1223,7 +1223,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'VIERTER BAND', Freiburg im Breisgau, Herder, 1924 (Imprimatur 5 September 1923); Internet Archive lending-library scan, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Augustine, Donatist and Petilian passages."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The sweep counted its Augustine, Donatist and Petilian passages."
 
   - title: "Patrology: The Lives and Works of the Fathers of the Church"
     author: "Otto Bardenhewer"
@@ -1235,7 +1235,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: Freiburg im Breisgau and St. Louis, Herder, 1908; University of Toronto copy, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
 
   - title: "Geschichte der römischen Litteratur bis zum Gesetzgebungswerk des Kaisers Justinian, Teil 3: Die Zeit von Hadrian 117 bis auf Constantin 324, 3rd edition"
     author: "Martin Schanz; Carl Hosius and Gustav Krüger"
@@ -1247,7 +1247,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: Handbuch der klassischen Altertumswissenschaft, Achter Band, Munich, C. H. Beck, 1922, 3rd revised edition, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
 
   - title: "Geschichte der römischen Literatur, Teil 3 (Schanz-Hosius-Krüger), 1896 edition"
     author: "Martin Schanz; Carl Hosius and Gustav Krüger"
@@ -1259,7 +1259,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata read directly: Munich, C. H. Beck, 1896, 'volume 3' in the host record, Google scan, possible-copyright-status NOT_IN_COPYRIGHT; the OCR opens with Google's front matter, so the title page was not confirmed from the OCR, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. Not on the list this row's batch was given; recorded because the sweep opened it and its metadata verifies. Its title page was not read, so its volume statement rests on the host record."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. Not on the list this row's batch was given; recorded because the sweep opened it and its metadata verifies. Its title page was not read, so its volume statement rests on the host record."
 
   - title: "Teuffel's History of Roman Literature, Vol. I: The Republican Period, revised and enlarged by Ludwig Schwabe"
     author: "Wilhelm Sigmund Teuffel"
@@ -1271,7 +1271,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'VOL. I. THE REPUBLICAN PERIOD', London, George Bell, 1891, Google scan, possible-copyright-status NOT_IN_COPYRIGHT, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The scan is the Republican Period volume; the volumes on the imperial period, where the Christian Latin authors stand, were not opened."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The scan is the Republican Period volume; the volumes on the imperial period, where the Christian Latin authors stand, were not opened."
 
   - title: "Allgemeine Geschichte der Literatur des Mittelalters im Abendlande bis zum Beginne des XI. Jahrhunderts, Band 1: Geschichte der christlich-lateinischen Literatur bis zum Zeitalter Karls des Grossen"
     author: "Adolf Ebert"
@@ -1283,7 +1283,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'ERSTER BAND', Leipzig, F. C. W. Vogel, 1874; the OCR opens with a publisher's advertisement before the title page, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
 
   - title: "A Handbook of Patrology"
     author: "Joseph Tixeront"
@@ -1295,7 +1295,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: St. Louis, B. Herder, 1923 (copyright notice 1920, Joseph Gummersbach); Internet Archive lending-library scan, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
 
   - title: "Histoire des dogmes dans l'antiquité chrétienne, Tome 1: La théologie anténicéenne"
     author: "Joseph Tixeront"
@@ -1307,7 +1307,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata read directly: Paris, Lecoffre, 1906, volume 1, University of Toronto copy; the OCR opens with the publisher's series preface and lists 'I. La théologie anténicéenne. Neuvième édition', 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
 
   - title: "Early History of the Christian Church from its Foundation to the End of the Fifth Century, Vol. II: The Fourth Century"
     author: "Louis Duchesne"
@@ -1318,7 +1318,7 @@ queue:
     url: "https://archive.org/details/earlyhistoryofch0000duch"
     verified_by: "archive.org /metadata and the OCR title page read directly: the title page reads 'VOLUME II' (the OCR prints 'VOLUME n'), London, John Murray, 'First Edition June 1912', with reprints listed to December 1957; the host record's title names no volume, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The scan is Volume II, not Volume I, and a mid-century reprint printing; the rights basis for that printing is not settled here, on the ground the Library applies to reprint facsimiles, and Volume I was not opened."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library. The scan is Volume II, not Volume I, and a mid-century reprint printing; the rights basis for that printing is not settled here, on the ground the Library applies to reprint facsimiles, and Volume I was not opened."
 
   - title: "A Dictionary of Christian Biography, Literature, Sects and Doctrines, Vol. 1: A-D"
     author: "William Smith and Henry Wace (eds.)"
@@ -1330,7 +1330,7 @@ queue:
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: London, John Murray, 1877, volume 1; Internet Archive scan, 2026-09-29"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-29, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
+    hold_note: "Held, not vendored. Reference tier: a field bibliography opened for the sweep, not vendored. It names works and scholarship for lpc and is consulted, not quoted; low priority for the Library."
 
   - title: "The Jesuit Relations and Allied Documents, Vols. 36-73 (Thwaites, 1896-1901)"
     author: "Jesuit missionaries of New France; R. G. Thwaites (ed.)"
@@ -1341,7 +1341,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the vendored volumes 1-35 use the same University of Toronto scans of the original Burrows printing"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: outside the world's window and about 22 MB. Use the Toronto scans of the original Burrows printing; the Pageant Book Company scans (for example jesuitrelationsa0011reub) are modern facsimile reprints and are excluded."
+    hold_note: "Held, not vendored: outside the world's window and about 22 MB. Use the Toronto scans of the original Burrows printing; the Pageant Book Company scans (for example jesuitrelationsa0011reub) are modern facsimile reprints and are excluded."
 
   - title: "Sanctus Franciscus Borgia, Tomi I and II (Monumenta Historica Societatis Iesu, 1894 and 1903)"
     author: "Jesuit fathers of Madrid (eds.); Francis Borgia"
@@ -1352,7 +1352,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the 1894 and 1903 title-page years were read in the OCR"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: before Borgia's generalate, about 4 MB."
+    hold_note: "Held, not vendored: before Borgia's generalate, about 4 MB."
 
   - title: "Epistolae Mixtae ex variis Europae locis ab anno 1537 ad 1556 scriptae, vols. 1-5 (Madrid, 1898-1901)"
     author: "Jesuit fathers of Madrid (eds.)"
@@ -1363,7 +1363,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget: about 10 MB for five volumes. Fetch and register the same way as the vendored MHSI volumes."
+    hold_note: "Held, not vendored, to stay inside the size budget: about 10 MB for five volumes. Fetch and register the same way as the vendored MHSI volumes."
 
   - title: "Litterae Quadrimestres ex universis, praeter Indiam et Brasiliam, locis, vols. 1-7 (Madrid, 1894-1932)"
     author: "Jesuit fathers of Madrid (eds.)"
@@ -1374,7 +1374,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; which identifier is which volume was not checked"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget. The series ran to 1932, so check each volume's own title-page year, and vendor only volumes printed 1930 or earlier."
+    hold_note: "Held, not vendored, to stay inside the size budget. The series ran to 1932, so check each volume's own title-page year, and vendor only volumes printed 1930 or earlier."
 
   - title: "Beati Petri Canisii Societatis Iesu Epistulae et Acta, vols. 1-8 (Braunsberger, Freiburg, 1896-1923)"
     author: "Peter Canisius; Otto Braunsberger (ed.)"
@@ -1385,18 +1385,18 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the archive item dates all eight volumes 1896, so each volume's printed year needs a title-page check"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget: about 16 to 20 MB. Volume 8 was printed in 1923, inside the date rule."
+    hold_note: "Held, not vendored, to stay inside the size budget: about 16 to 20 MB. Volume 8 was printed in 1923, inside the date rule."
 
   - title: "Alfonsi Salmeronis Toletani Commentarii in evangelicam historiam et in Acta Apostolorum (Cologne, 1612-1615)"
     author: "Alfonso Salmeron"
     year: "1612-1615"
     world: jes
-    why: "The request's R11 names the Madrid printing of 1597-1602. Only the Cologne printing of 1612-1615 (16 volumes, Latin) was found on the reachable hosts."
+    why: "The request names the Madrid printing of 1597-1602. Only the Cologne printing of 1612-1615 (16 volumes, Latin) was found on the reachable hosts."
     url: "https://archive.org/details/bub_gb_h3W7gRextFsC (other volumes among bub_gb_PxgcRwmB4WsC, bub_gb_AZItym5GjA8C, bub_gb_i__R7qaWZCIC, bub_gb_pPaK_RN__REC, bub_gb_jDKOBAZFgYkC, bub_gb_bHjjkuhiAVkC, bub_gb_8lYD6VEEum4C, bub_gb_zxrked_TdugC and others)"
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; which volume is which was not checked"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: sixteen large volumes, probably over 30 MB, and a seventeenth-century printing whose OCR was not sampled. Needs a ruling on whether the Cologne printing stands in for the Madrid one."
+    hold_note: "Held, not vendored: sixteen large volumes, probably over 30 MB, and a seventeenth-century printing whose OCR was not sampled. Needs a ruling on whether the Cologne printing stands in for the Madrid one."
 
   - title: "Ratio studiorum et institutiones scholasticae Societatis Iesu per Germaniam olim vigentes, vols. 1-4 (Pachtler, Monumenta Germaniae Paedagogica 2, 5, 9, 16; Berlin, 1887-1894)"
     author: "G. M. Pachtler (ed.)"
@@ -1407,7 +1407,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the archive record for vols. 2 and 4 carries NOT_IN_COPYRIGHT and dates them 1887"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: the Ratio is covered by the Institutum; about 5.5 MB for the four volumes."
+    hold_note: "Held, not vendored: the Ratio is covered by the Institutum; about 5.5 MB for the four volumes."
 
   - title: "La mission du Maduré d'après des documents inédits, vol. 1 (Bertrand, Paris, 1847)"
     author: "Joseph Bertrand, S.J."
@@ -1418,7 +1418,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the OCR was sampled and reads legibly"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: it is a secondary French narrative and not de Nobili's own text. De Nobili's Latin and Portuguese originals and the documents of the rites controversy were not found on the reachable hosts."
+    hold_note: "Held, not vendored: it is a secondary French narrative and not de Nobili's own text. De Nobili's Latin and Portuguese originals and the documents of the rites controversy were not found on the reachable hosts."
 
   - title: "Monumenta Ignatiana, Series II, Tomus II: Directoria Exercitiorum Spiritualium (Rome, 1955; MHSI vol. 76)"
     author: "Jesuit fathers of Rome (eds.)"
@@ -1439,7 +1439,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR title page was not opened for every volume; the title page reads Matriti, La Editorial Iberica, 1920"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: a lead, not a request. Ribadeneira's Latin Life of Ignatius (1572) is already vendored."
+    hold_note: "Held, not vendored: a lead, not a request. Ribadeneira's Latin Life of Ignatius (1572) is already vendored."
 
   - title: "Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, vol. 1 (Goll, Prague, 1878; vol. 2, 1882)"
     author: "Jaroslav Goll"
@@ -1450,7 +1450,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the item lists a 690 KB *_djvu.txt file, but the download returned HTTP 500 on every attempt (four tries over about a minute) and the /stream/ wrapper returns HTML, not the raw file"
     status: not-yet-downloaded
-    hold_note: "Blocked 2026-09-30, not vendored: the file server returned 500. Retry the raw *_djvu.txt download; vendor only the raw file. Volume 2 (1882) was not located."
+    hold_note: "Blocked, not vendored: the file server returned 500. Retry the raw *_djvu.txt download; vendor only the raw file. Volume 2 (1882) was not located."
 
   - title: "Quellen zur Geschichte der böhmischen Brüder, vornehmlich ihren Zusammenhang mit Deutschland betreffend (Gindely, Vienna, 1859; Fontes rerum Austriacarum, Diplomataria 19)"
     author: "Anton Gindely (ed.)"
@@ -1461,7 +1461,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR table of contents was read; the body is German and Latin, mostly after 1517"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: mostly after the window, 1.07 MB. The appendix on the Brethren's confessions from the founding to the 1570s could carry the 1504 and 1508 texts and was not read."
+    hold_note: "Held, not vendored: mostly after the window, 1.07 MB. The appendix on the Brethren's confessions from the founding to the 1570s could carry the 1504 and 1508 texts and was not read."
 
   - title: "Geschichtschreiber der husitischen Bewegung in Boehmen, Theile I to III (Höfler, Vienna, 1856-1866; Fontes rerum Austriacarum, Scriptores 2, 6, 7)"
     author: "Konstantin Höfler (ed.)"
@@ -1472,7 +1472,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR was searched for Brezova and Mladoňovice and the title pages of vol. II (1865) read; contents of vol. I were not listed"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored, to stay inside the size budget (4.9 MB). Palacky's Documenta and Goll's edition of Brezova are vendored and cover the Relatio and Brezova."
+    hold_note: "Held, not vendored, to stay inside the size budget (4.9 MB). Palacky's Documenta and Goll's edition of Brezova are vendored and cover the Relatio and Brezova."
 
   - title: "Mistra Jana Husi Sebrane spisy, vols. 1-6 (Flajshans, Prague, J. Bursik, 1904 and after)"
     author: "Jan Hus; Vaclav Flajshans (ed.)"
@@ -1483,7 +1483,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: later editions of works Erben and Novotny already give. Check each volume's printed year, since the series ran into the 1900s."
+    hold_note: "Held, not vendored: later editions of works Erben and Novotny already give. Check each volume's printed year, since the series ran into the 1900s."
 
   - title: "Fasciculus rerum expetendarum et fugiendarum, vol. II (Brown, London, 1690), and the Cologne printing of 1535"
     author: "Ortwin Gratius (compiler); Edward Brown (ed.)"
@@ -1494,7 +1494,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the 1535 item is a Polish library digitisation whose rights statement was not read"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored. The 1535 printing is the better witness of the Confession if its OCR is cleaner than Brown's; read the host library's rights statement first."
+    hold_note: "Held, not vendored. The 1535 printing is the better witness of the Confession if its OCR is cleaner than Brown's; read the host library's rights statement first."
 
   - title: "Das deutsche Kirchenlied der böhmischen Brüder im XVI. Jahrhunderte (Wolkan, Prague, 1891)"
     author: "Rudolf Wolkan"
@@ -1505,7 +1505,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: German hymns of the sixteenth century, mostly after the window."
+    hold_note: "Held, not vendored: German hymns of the sixteenth century, mostly after the window."
 
   - title: "Chelcicky a Jednota v 15. stoleti (Goll, Prague, 1916)"
     author: "Jaroslav Goll"
@@ -1516,7 +1516,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: scholarship and not a source; a reference-tier lead."
+    hold_note: "Held, not vendored: scholarship and not a source; a reference-tier lead."
 
   - title: "Aeneae Sylvii Piccolominei Opera geographica et historica (Helmstedt, 1699)"
     author: "Aeneas Silvius Piccolomini"
@@ -1527,7 +1527,7 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata and advanced-search listing read directly, 2026-09-30; the OCR was sampled and word-form coverage was 0.50"
     status: not-yet-downloaded
-    hold_note: "Held 2026-09-30, not vendored: not cleaner than the vendored 1592 and 1524 printings."
+    hold_note: "Held, not vendored: not cleaner than the vendored 1592 and 1524 printings."
 
   - title: "Sancti Aureli Augustini opera, CSEL 41 (De fide et symbolo; De fide et operibus; De agone christiano; De continentia; De bono coniugali; De sancta virginitate; De bono viduitatis; De adulterinis coniugiis; De mendacio; Contra mendacium; De opere monachorum; De divinatione daemonum; De cura pro mortuis gerenda; De patientia)"
     author: "Augustine of Hippo"
@@ -1665,7 +1665,7 @@ queue:
     verified_by: "lpc library sweep (source-research half), direct curl fetch, title page and contents checked, 2026-09-29; archive.org tags it NOT_IN_COPYRIGHT"
     status: downloaded
     vendored_as: "benson_cyprian-his-life-his-times-his-work_1897.txt"
-    vendored_note: "vendored 2026-09-29; English biography; consultation-only"
+    vendored_note: "vendored; English biography; consultation-only"
 
   - title: "Inscriptions latines de l'Algerie, Tome I: Inscriptions de la Proconsulaire"
     author: "Stephane Gsell"

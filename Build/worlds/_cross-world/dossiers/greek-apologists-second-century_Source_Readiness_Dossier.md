@@ -7,21 +7,14 @@ why it exists.
 **Corpus-map slug:** `greek-apologists-second-century`
 **Time window:** c. 124–200 CE
 **Region(s):** Athens, Rome, Sardis, Antioch
-**Dossier author / date:** source-acquisition research thread, 2026-09-21.
-**Refresh, 2026-09-29:** reviewed with its Step 0 in Rounds 6 and 7. Sections 1 to 5
-are restated to the library as it stands: the corpus-map shelf (17 works),
-the original-language witnesses added to `cic/texts/`, the Apologists
+**Dossier author:** source-acquisition research thread.
+Sections 1 to 5 describe the library as it stands: the corpus-map shelf (17 works),
+the original-language witnesses in `cic/texts/`, the Apologists
 window slate and the Tatian ruling in
-`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (four entries of that
-date, one of which corrects a sentence of another), and the revised Step 0. The refresh corrects four statements of the
-first version: the Dialogue word count credited to Step 0 (Step 0 states
-no word counts), the claim that Step 0 recounted the roster
-"independently", the "Revision 7" label (Step 0 carries no revision
-number), and Routh's *Reliquiae sacrae* vol. V as a Melito lead (it holds
-Archelaus and creeds; Melito is in vol. I, which is vendored).
-**Corpus-map / `cic/texts/` state as of:** 2026-09-29, the working tree on
-top of commit `9452a7d7`. The first version was checked against `main` @
-`820550b`.
+`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`, and the Step 0. Step 0 states
+no word counts and carries no revision number. Routh's *Reliquiae sacrae* vol. V holds
+Archelaus and creeds; Melito is in vol. I, which is vendored.
+**Corpus-map / `cic/texts/` state:** the current working tree.
 
 This candidate already carries five rounds of independent adversarial
 review of its Step 0 (Movement-Scope Confirmation),
@@ -168,8 +161,8 @@ texts. They are recorded as missing in §5, not as searched and absent.
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
-| Melito of Sardis, *Peri Pascha* (On the Pascha) | Step 0 §3 B1 names this directly: the census's own `voices` field credits Melito with "a Paschal homily recovered in the twentieth century," and the vendored ANF fragment predates and is not that text | Checked against `archive.org` (title and creator search, 2026-09-21): no public-domain edition exists. The work was recovered from Papyrus Bodmer XIII, first published by Campbell Bonner in 1940; the standard critical editions (Perler 1966, Hall 1979 Oxford) are 20th-century and still in copyright. There is no 19th-century translation to find, because the text wasn't known when ANF/NPNF were made. Nothing to acquire by this route; the gap Step 0 names is real and durable, not a research gap. |
-| Commodian, *Carmen Apologeticum* | Latin's own dossier work (see the sibling `latin-apologists` dossier) named the *Carmen* as the one Commodian work not vendored; its Latin has since been vendored (`commodian_carmen-apologeticum-lat_dombart1887-csel-tei.txt`), and what is missing is an English translation; checked here too since Commodian's dating question touches this candidate's own era-1/era-3 boundary indirectly | Checked against `archive.org` (title search, 2026-09-21) for an English translation: zero results. What surfaces under "Commodianus" is the already-vendored *Instructiones* in other 19th-century editions (e.g. the 1869 Oldham/Pusey Tertullian-and-Victorinus-and-Commodianus set, ANCL vol. 18, 1870) — the same text already in `cic/texts/`, not the *Carmen*. No public-domain English translation of the *Carmen apologeticum* was found. |
+| Melito of Sardis, *Peri Pascha* (On the Pascha) | Step 0 §3 B1 names this directly: the census's own `voices` field credits Melito with "a Paschal homily recovered in the twentieth century," and the vendored ANF fragment predates and is not that text | Checked against `archive.org` (title and creator search): no public-domain edition exists. The work was recovered from Papyrus Bodmer XIII, first published by Campbell Bonner in 1940; the standard critical editions (Perler 1966, Hall 1979 Oxford) are 20th-century and still in copyright. There is no 19th-century translation to find, because the text wasn't known when ANF/NPNF were made. Nothing to acquire by this route; the gap Step 0 names is real and durable, not a research gap. |
+| Commodian, *Carmen Apologeticum* | Latin's own dossier work (see the sibling `latin-apologists` dossier) named the *Carmen* as the one Commodian work not vendored; its Latin has since been vendored (`commodian_carmen-apologeticum-lat_dombart1887-csel-tei.txt`), and what is missing is an English translation; checked here too since Commodian's dating question touches this candidate's own era-1/era-3 boundary indirectly | Checked against `archive.org` (title search) for an English translation: zero results. What surfaces under "Commodianus" is the already-vendored *Instructiones* in other 19th-century editions (e.g. the 1869 Oldham/Pusey Tertullian-and-Victorinus-and-Commodianus set, ANCL vol. 18, 1870) — the same text already in `cic/texts/`, not the *Carmen*. No public-domain English translation of the *Carmen apologeticum* was found. |
 | Routh, *Reliquiae sacrae*, vol. V (`reliquiaesacraes05rout`) | Named in the first version of this dossier as a second-witness candidate for Melito | Holds Archelaus and creeds, not the apologists (`cic/texts/README.md`, Routh vol. I entry, from the vendoring pass; not re-fetched in this refresh). Not vendored. Melito's Routh fragments are in vol. I, already vendored. |
 
 ## 5. Open cross-world questions

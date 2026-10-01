@@ -14,7 +14,7 @@
 
 | Item | Path |
 |---|---|
-| Registry entry | `records/worlds/jes.yaml` (not yet created) |
+| Registry entry | the registry entry for `jes` (not yet created) (not yet created) |
 | Step 0 Movement-Scope Confirmation | `Build/worlds/jes/Step0_Movement_Scope_Confirmation.md` |
 | Step 1 World Identification | `Build/worlds/jes/Doc_01_World_Identification_Boundaries_Orientation.md` |
 | Step 2 Source Ecology | `Build/worlds/jes/Doc_02_Source_Ecology.md` |
@@ -37,7 +37,7 @@
 
 | # | Check | Result | Evidence |
 |---|---|---|---|
-| 1 | The world's identity is fixed. Its registry entry at `records/worlds/jes.yaml` exists, with one `world_id`, before any of the world's records reach `main`. Every later file uses that same `world_id`. The entry carries `safety_adjacent: true` or `false`, set by Mark. A new world fails this check until it is set. | | |
+| 1 | The world's identity is fixed. Its registry entry at the registry entry for `jes` (not yet created) exists, with one `world_id`, before any of the world's records reach `main`. Every later file uses that same `world_id`. The entry carries `safety_adjacent: true` or `false`, set by Mark. A new world fails this check until it is set. | | |
 | 2 | Step 0, Movement-Scope Confirmation, is approved to proceed. It cleared independent Opus review within the round cap, and the movement's own status in `cic-website/data/world-census.json` was checked. | | |
 | 3 | Step 1, World Identification, is approved to proceed, under the same review rule. | | |
 | 4 | Step 2, Source Ecology, is approved to proceed. Its Source Registry gives every item in the library package a line, and no dossier item, corpus-map entry or holdings-report file is missing one. | | |
