@@ -5954,3 +5954,26 @@ set to the new counts. The full gate run reports every finding waived and every 
 
 **Re-landing.** The first PR for this ruling (#622) was cut before the repository restructure and carried waiver
 counts that no longer matched. It was closed and the change re-applied on the current tree.
+
+## 2026-10-01 - The do-not-voice quote license is dropped fleet-wide (ruling of 2026-09-25, confirmed and applied)
+
+**Ruling.** The project lead, 2026-09-25: "remove all the do not voice gates, this was something that came out of a
+discussion a long time ago, but wasn't supposed to be a rule, it was a misunderstanding of what no fabrication
+meant." And: "we are honest with the church traditions, we dont hide anything." The ruling was confirmed on
+2026-10-01 and applied to the current tree. The first PR for it (#588) was cut before the repository restructure and
+before later engine changes, so it was closed and the change re-applied from `main`.
+
+**What it changes.** A quote's `license` is `verbatim` or `paraphrase-only`. Nothing is marked as unsayable, and no
+gate checks for it.
+- `engine/m1/schemas.py` and `engine/m1/gates.py`: `do-not-voice` leaves the license values and the never-quotable set.
+- `engine/m4/turn.py`: the violation check and its `voice_event` field are removed. `engine/m4/grounding.py` and its
+  tests are deleted, because the module existed only for that check.
+- `engine/m7/instruments.py` and `engine/m7/session_reader.py`: the audit reader no longer reports the field.
+- Records: `fix.quote.private-teaching` is relicensed `paraphrase-only`. `syr.quote.aphrahat-anti-jewish-frame` is
+  relicensed `verbatim`, and its `modern_lens_note` is rewritten by Opus from the world's own records, with no
+  disclaimer and no invented balancing voice. `syr.term.anti-jewish-polemic` is updated to match.
+- The Redesign-Spec files, the V2.0 process document and the fixtures README no longer describe the license.
+- The syr and fix packages are rebuilt and repinned. The syr Open Gaps file carries the matching entry.
+
+**Left as history.** Earlier decision logs, review files and planning documents that name the license are not
+edited. They record what was true when they were written.

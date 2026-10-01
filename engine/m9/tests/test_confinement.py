@@ -167,10 +167,10 @@ def test_verbatim_in_shelf_silent_on_real_quote():
     assert findings["verbatim-in-shelf"] == []
 
 
-def test_verbatim_in_shelf_ignores_do_not_voice_quotes():
+def test_verbatim_in_shelf_ignores_paraphrase_only_quotes():
     records = _base_records()
     records["quote"] = {
-        "id": "quote", "record_type": "quote", "register": "emic", "license": "do-not-voice",
+        "id": "quote", "record_type": "quote", "register": "emic", "license": "paraphrase-only",
         "text": "nothing like this sentence exists in any shelf file",
         "sources": [{"source_id": "src.trad", "locus": "1"}],
     }

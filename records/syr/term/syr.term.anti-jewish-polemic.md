@@ -72,7 +72,8 @@ direction, drafted after deeper research into what the corpus actually supports 
 Corrected from the old record in two ways. First, sourcing: the old record cited only modern scholarship
 (Koltun-Fromm, Lehto) with no primary-text anchor. This record anchors its evidential claim to a
 directly verified primary-source quote already in the corpus (syr.quote.aphrahat-anti-jewish-frame,
-Dem XVII.1, deliberately marked do-not-voice), and cites Koltun-Fromm only at corroborating confidence
+Dem XVII.1, verbatim and voiceable, presented honestly in historical context), and cites
+Koltun-Fromm only at corroborating confidence
 for the broader scope claim - the same confidence-tiering discipline already used throughout this
 project, not a new precedent. Second, scope: world_core caution 4 names this as "roughly four of
 Aphrahat's Demonstrations, with strands in Ephrem" - wider than the old record's Aphrahat-only framing -

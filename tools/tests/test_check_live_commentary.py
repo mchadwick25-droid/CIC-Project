@@ -1469,7 +1469,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 251, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
-    ("fixtures/README.md", 25, "REWRITE"),
     ("fixtures/seeded_defects.yaml", 259, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 221, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),

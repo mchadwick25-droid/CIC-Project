@@ -201,9 +201,8 @@ def _groundable_text(rec: dict) -> str:
 
 
 def _span_in_records(span: str, records: list[dict], *, window_words: int = 6) -> bool:
-    """Verbatim window-match (same shape as engine.m4.grounding's excerpt
-    check): a quoted span is grounded when a window of it appears verbatim
-    in a tagged record's own text."""
+    """Verbatim window-match: a quoted span is grounded when a window of
+    it appears verbatim in a tagged record's own text."""
     words = _normalize(span).split()
     if not words:
         return False
@@ -423,8 +422,7 @@ def check_turn(
                  tagged record, or a tagged claim whose own sources don't
                  carry it
 
-    Citation-badge display stays engine.m4.grounding's job (excerpt match
-    gates decoration) - this check decides only what may stream at all.
+    This check decides only what may stream at all.
 
     tagged_text is backed off past any generation cut off mid-tag
     (_drop_truncated_tail) before it is split into sentences at all, the
