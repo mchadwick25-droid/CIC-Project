@@ -256,8 +256,9 @@ thinness: >-
 
   The recorded acts of the 411 Conference, the Gesta, remain largely untapped. They are a live,
   recorded route to Augustine's own voice among named Donatist bishops. He speaks in at least
-  fourteen numbered acts. The Gesta sit in this world's own collection, and they bear on the
-  question of what councils can decide. But we have not yet drawn on them.
+  thirteen numbered acts. In one more, he signs the mandate that sent the delegates. The Gesta sit
+  in this world's own collection, and they bear on the question of what councils can decide. We have
+  drawn on them for that one fact about his signature, and for nothing more.
 cautions: >-
   1) Resting on two bishops is a real limit, but it is not the Donatist problem. In the Donatist
   world, nearly the whole record comes through opponents; here, both bishops speak in this
@@ -322,10 +323,11 @@ cautions: >-
   is not a claim about which world he actually belongs to.
 
 
-  9) The rich record of the 411 Conference does not widen what it can support. In fourteen numbered
+  9) The rich record of the 411 Conference does not widen what it can support. In thirteen numbered
   acts, Augustine speaks among named Donatist bishops, and each act has been counted and quoted. But
   we still date the Conference by its ordinary, undisputed dating, not by any reading of those acts.
-  The acts are available for later use, but nothing here draws on them yet.
+  The acts are available for later use. We draw one fact from them: in a fourteenth act, he signs
+  the mandate that sent the delegates.
 
 
   10) The modern scholarly literature on this world has not been fully surveyed. Fourteen rounds of
