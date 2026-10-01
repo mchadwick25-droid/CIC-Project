@@ -3,8 +3,11 @@ off - LIVE-GENERATION-DESIGN.md §9.5). Synthetic records, same shape/
 discipline as test_grounding_net.py's fixtures - no compiled package on
 disk required.
 """
+import pytest
+
 from engine.m4.evidence import (
     _fallback_search_text,
+    _head_text,
     _looks_like_follow_up,
     _word_weights,
     _fulltext_fallback_candidates,
@@ -42,7 +45,7 @@ LIMIT = {"id": "fix.limit.jesus", "record_type": "honest_limit", "canon_cells": 
 TERM_A = {"id": "fix.term.eucharistia", "record_type": "term", "canon_cells": ["C-E"], "plain_meaning": "The thanksgiving meal of bread and cup, the community's own memory of Jesus made present."}
 TERM_B = {"id": "fix.term.baptisma", "record_type": "term", "canon_cells": ["C-E"], "plain_meaning": "The washing that marks entry into the community, unrelated to the meal."}
 STORY_A = {"id": "fix.story.first-meal", "record_type": "story", "canon_cells": ["C-E"], "tellable_as": "The community's memory of Jesus at the first meal, kept and retold."}
-QUOTE_A = {"id": "fix.quote.remembered", "record_type": "quote", "canon_cells": ["C-E"], "text": "This is the community's own memory of Jesus, kept whole."}
+QUOTE_A = {"id": "fix.quote.remembered", "record_type": "quote", "canon_cells": ["C-E"], "text": "This is the community's own memory of Jesus, kept whole.", "modern_rendering": "This is the community's own memory of Jesus, kept whole."}
 GRAVITY_SCHOOL = {
     "id": "fix.gravity.school",
     "record_type": "gravity",
@@ -178,6 +181,28 @@ def test_select_cell_candidates_head_text_uses_compiler_facing_fields():
     by_id = {c["id"]: c for c in selected}
     assert by_id["fix.term.eucharistia"]["head"] == TERM_A["plain_meaning"]
     assert by_id["fix.limit.jesus"]["head"] == LIMIT["statement"]
+
+
+# ---- quote speakable form: modern_rendering only, never text --------------
+
+
+def test_head_text_quote_uses_modern_rendering():
+    rec = {"id": "fix.quote.has-rendering", "record_type": "quote",
+           "text": "The archaic original, never voiced.",
+           "modern_rendering": "The modern spoken form."}
+    assert _head_text(rec) == "The modern spoken form."
+
+
+def test_head_text_quote_with_no_modern_rendering_fails_loudly_not_silently_on_text():
+    """gate_quote_recording requires every quote to carry modern_rendering,
+    so this should be unreachable in real fleet data - pinned here so a
+    future change can't quietly reintroduce the old `or text` fallback and
+    have a quote missing its rendering silently speak the archaic original
+    instead."""
+    rec = {"id": "fix.quote.no-rendering", "record_type": "quote",
+           "text": "The archaic original, never voiced.", "modern_rendering": None}
+    with pytest.raises(ValueError, match="no modern_rendering"):
+        _head_text(rec)
 
 
 # ---- Stage B2 (Build-Plan.md Stage 4c, part 2) -----------------------------
@@ -768,6 +793,7 @@ FALLBACK_REPOSITORY = {
         "record_type": "quote",
         "canon_cells": [],
         "text": "The elders spoke often of paradise restored, a word this community used nowhere else in what survives.",
+        "modern_rendering": "The elders spoke often of paradise restored, a word this community used nowhere else in what survives.",
     },
     "fix.term.editorial-only": {
         "id": "fix.term.editorial-only",
@@ -870,6 +896,7 @@ ENTITY_QUOTE = {
     "record_type": "quote",
     "canon_cells": ["F1-E"],
     "text": "Suffer each one to eat and to drink, as Pachomius was commanded.",
+    "modern_rendering": "Let everyone eat and drink as Pachomius commanded.",
     "license": "verbatim",
 }
 ENTITY_REPOSITORY = {r["id"]: r for r in (WITNESS, LIMIT, TERM_A, ENTITY_FIGURE, ENTITY_QUOTE)}
