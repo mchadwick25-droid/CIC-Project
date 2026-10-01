@@ -39,7 +39,7 @@ def test_list_worlds(store, usage_store, world_loader, registry):
     assert resp.status_code == 200
     worlds = resp.json()["worlds"]
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation")
+    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation" and v.get("package"))
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["horizon"]
