@@ -33,8 +33,7 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.quote.no-sun-no-moon-no-sky
-plain_meaning: Not analysis applied to a text, but a formation practice - meeting the Logos who speaks
-  through Scripture.
+plain_meaning: 'Not analysis applied to a text. It is a practice of formation: meeting the Logos who speaks through Scripture.'
 world_word: interpretation
 false_friend:
 - expert method applied to a text to settle its meaning

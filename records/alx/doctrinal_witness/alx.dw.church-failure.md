@@ -38,9 +38,9 @@ text: >-
   unforgivable. At our worst, we did what churches with power do. That, too,
   is in our record.
 positions:
-- the failures are documented in the community's own sources, not only its critics'
+- The community's own writings record its failures. Its critics are not the only source.
 - restoration of the fallen prevailed over rigorism - with real struggle
-- post-Nicene coercion is acknowledged as the church's own act, not excused as the empire's
+- The church owns the force it used after Nicaea as its own act. It does not blame the empire.
 tensions:
 - honoring the office vs telling the truth about its holders - the record does both, uncomfortably
 - the asker's wound (a church that protected harm-doers) meets a record of a church that fought about

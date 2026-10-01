@@ -355,16 +355,15 @@ works:
   note: '1520-21, intro./trans. A. T. W. Steinhaeuser - Luther''s own verse-by-verse exposition
     of the Magnificat (Luke 1:46-55) for the young Duke John Frederick, including the devotional-exegetical
     register Doc_01/Doc_02 flagged as thin in this corpus and his ideal of a woman''s life
-    (Mary at household tasks) - usable only for that, never as a woman''s own voice. Closes
-    the gap that row R18 of witt_Source_Registry.md flagged as "Not in the corpus-map" - the
-    registry''s own note identifies this as "the v3 work whose OCR title the intake header
-    called unreadable." Confidence held at provisional, matching this file''s sibling entries:
-    the start (6281), dedication (6499), and end boundary (10440, immediately before the Earnest
-    Exhortation heading at 10441) were confirmed directly against the vendored file this pass
-    - a firmer boundary than the sibling entries'' own "see Contents page" loci - but the
-    body text is only spot-read, not fully verified, and carries the same OCR degradation
-    as the rest of this volume (e.g. "SerRENE HIGHNESS," "JoHN FREDERICK" in the dedication
-    heading itself).
+    (Mary at household tasks) - usable only for that, never as a woman''s own voice. The witt
+    source registry listed it as "Not in the corpus-map"; the registry''s own note identifies
+    this as "the v3 work whose OCR title the intake header called unreadable." Confidence
+    held at provisional, matching this file''s sibling entries: the start (6281), dedication
+    (6499), and end boundary (10440, immediately before the Earnest Exhortation heading at
+    10441) were confirmed directly against the vendored file this pass - a firmer boundary
+    than the sibling entries'' own "see Contents page" loci - but the body text is only spot-read,
+    not fully verified, and carries the same OCR degradation as the rest of this volume (e.g.
+    "SerRENE HIGHNESS," "JoHN FREDERICK" in the dedication heading itself).
 
     '
   source_file: luther_works-v3-selected_various1930.txt

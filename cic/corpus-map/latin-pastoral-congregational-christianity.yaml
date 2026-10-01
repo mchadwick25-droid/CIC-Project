@@ -349,6 +349,28 @@ works:
 
     '
   source_file: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
+- row_id: augustine_de-catechizandis-rudibus-lat_krueger1893--augustine-de-catechizandis-rudibus-latin-krueger-1893
+  work: Augustine, De catechizandis rudibus (Latin, Krueger 1893)
+  author: augustine
+  locus: file line 475 (opening of the Latin text, 'Petisti me, frater Deogratias'); title
+    page at file line 46
+  role: tradition
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry ''On the Catechising of the Uninstructed''
+    (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
+    PRIMARY ORIGINAL per cic/texts/INTAKE.md: Krueger''s second, wholly revised edition (Freiburg
+    and Leipzig, 1893) of Wolfhard''s text, in a clean OCR scan whose Latin lines read as
+    running text (three 30,000-character samples find 0.80 to 0.88 of word forms in the Latin
+    word list built from the clean TEI Augustine files, against 0.93 to 0.96 for the clean
+    TEI files tested the same way; the gap is the German notes and the edition''s line numbers
+    interleaved with the Latin). Ready to quote once each quote is verified verbatim against
+    the file (INTAKE section 6); the English a Representative speaks is rendered from it.
+    Not a modern critical edition. Mirrors the English twin''s role and confidence exactly.
+    The other side''s note on this row: the work is written for the Carthaginian deacon Deogratias
+    and sits near the centre of this entry. Registry row 220.
+
+    '
+  source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
 - row_id: augustine_bekenntnisse-deu_hefele-diederichs1921--augustine-die-bekenntnisse-german-hefele-1921
   work: Augustine, Die Bekenntnisse (German, Hefele 1921)
   author: augustine
@@ -662,28 +684,6 @@ works:
 
     '
   source_file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-- row_id: augustine_de-catechizandis-rudibus-lat_krueger1893--de-catechizandis-rudibus-on-the-catechising-of-the
-  work: De Catechizandis Rudibus (On the Catechising of the Uninstructed), Krueger 1893
-  author: augustine
-  locus: file line 475 (opening of the Latin text, 'Petisti me, frater Deogratias'); title
-    page at file line 46
-  role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry ''On the Catechising of the Uninstructed''
-    (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
-    PRIMARY ORIGINAL per cic/texts/INTAKE.md: Krueger''s second, wholly revised edition (Freiburg
-    and Leipzig, 1893) of Wolfhard''s text, in a clean OCR scan whose Latin lines read as
-    running text (three 30,000-character samples find 0.80 to 0.88 of word forms in the Latin
-    word list built from the clean TEI Augustine files, against 0.93 to 0.96 for the clean
-    TEI files tested the same way; the gap is the German notes and the edition''s line numbers
-    interleaved with the Latin). Ready to quote once each quote is verified verbatim against
-    the file (INTAKE section 6); the English a Representative speaks is rendered from it.
-    Not a modern critical edition. Mirrors the English twin''s role and confidence exactly.
-    The other side''s note on this row: the work is written for the Carthaginian deacon Deogratias
-    and sits near the centre of this entry. Registry row 220.
-
-    '
-  source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
 - row_id: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41--de-continentia-on-continence-csel-41-scan
   work: De Continentia (On Continence), CSEL 41 scan
   author: augustine
@@ -1761,8 +1761,8 @@ works:
 
     '
   source_file: bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt
-- row_id: benson_cyprian-his-life-his-times-his-work_1897--cyprian-his-life-his-times-his-work-benson-1897
-  work: 'Cyprian: His Life, His Times, His Work (Benson, 1897)'
+- row_id: benson_cyprian-his-life-his-times-his-work_1897--benson-cyprian-his-life-his-times-his-work-1897
+  work: 'Benson, Cyprian: His Life, His Times, His Work (1897)'
   author: benson
   locus: whole file; title page at file line 25; the contents entry for chapter IV, on De
     unitate, at file line 471
@@ -2692,8 +2692,8 @@ works:
 
     '
   source_file: koch_cyprian-und-der-roemische-primat-deu_1910.txt
-- row_id: koch_cyprianische-untersuchungen-deu_1926--cyprianische-untersuchungen-koch-1926
-  work: Cyprianische Untersuchungen (Koch, 1926)
+- row_id: koch_cyprianische-untersuchungen-deu_1926--koch-cyprianische-untersuchungen-1926
+  work: Koch, Cyprianische Untersuchungen (1926)
   author: koch
   locus: whole file; title page at file line 80; the chapter on penance in Cyprian, 'Die Bußfrage
     bei Cyprian', at file line 362

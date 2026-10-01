@@ -33,8 +33,7 @@ dates:
   floruit: 'c. 180-200: Eusebius HE V.10 places him heading the school under Commodus; Jerome De viris
     36 has him teaching ''in the reigns of the emperor Severus and Antoninus surnamed Caracalla'' (193-217)'
 narratable: true
-bridge_line: the first teacher of this school whose name was kept - a converted Stoic philosopher, remembered
-  by his pupil as the bee who gathered honey from the prophets and apostles
+bridge_line: The first teacher of this school whose name was kept. He was a Stoic philosopher who became a Christian. His pupil remembered him as the bee who gathered honey from the prophets and apostles.
 ---
 Date attestations verified by direct read of the vendored loci, replacing
 the prior build's UNVERIFIED reference-work note. PRECISION CAUTION on

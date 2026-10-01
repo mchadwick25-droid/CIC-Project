@@ -50,7 +50,7 @@ senses:
   translational: >-
     Isn't hope just optimism, expecting things to get better? This world grounded hope in something
     already accomplished, not a feeling about the future - a real destination, genuinely not yet reached.
-quick_meaning: Not optimism - staying oriented toward a life not yet fully reached.
+quick_meaning: Not optimism. It is staying turned toward a life not yet fully reached.
 distortion_risk: high
 ---
 Imported from the old system's richer lexicon (alexlex045, "Hope / Elpis") at Mark's direction, as a

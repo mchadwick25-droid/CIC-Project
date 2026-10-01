@@ -2,8 +2,8 @@
 source_file: benson_cyprian-his-life-his-times-his-work_1897.txt
 
 assignments:
-  - row_id: benson_cyprian-his-life-his-times-his-work_1897--cyprian-his-life-his-times-his-work-benson-1897
-    work: "Cyprian: His Life, His Times, His Work (Benson, 1897)"
+  - row_id: benson_cyprian-his-life-his-times-his-work_1897--benson-cyprian-his-life-his-times-his-work-1897
+    work: "Benson, Cyprian: His Life, His Times, His Work (1897)"
     author: benson
     locus: "whole file; title page at file line 25; the contents entry for chapter IV, on De unitate, at file line 471"
     atlas_ids:

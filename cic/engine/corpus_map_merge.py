@@ -213,7 +213,7 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
         seq = seqs[0]
         lines = text.split(eol)
         seen_nodes: set[int] = set()
-        pending_rows: list[tuple[int, int, dict]] = []
+        planned_rows: list[tuple[int, int, dict]] = []
         for item, row in zip(seq.value, doc["assignments"]):
             line_no, col = item.start_mark.line, item.start_mark.column
             where = f"{path.name}: line {line_no + 1}"
@@ -228,17 +228,17 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
             elif "row_id" in row and not (isinstance(row["row_id"], str) and row["row_id"].strip()):
                 findings.append(f"{where}: `row_id` is present but not a non-empty string")
             elif "row_id" not in row:
-                pending_rows.append((line_no, col, row))
+                planned_rows.append((line_no, col, row))
             seen_nodes.add(id(item))
             if isinstance(row, dict) and isinstance(row.get("row_id"), str):
                 used.add(row["row_id"])
-        plans.append((path, text, eol, pending_rows))
+        plans.append((path, text, eol, planned_rows))
 
     assigned = collisions = 0
     edits: list[tuple[Path, str]] = []
-    for path, text, eol, pending_rows in plans:
+    for path, text, eol, planned_rows in plans:
         lines = text.split(eol)
-        for line_no, col, row in pending_rows:
+        for line_no, col, row in planned_rows:
             base = f"{path.stem}--{work_slug(row.get('work'))}"
             row_id, n = base, 1
             while row_id in used:
@@ -249,7 +249,7 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
             lines[line_no] = (f"{lines[line_no][:col - 2]}- row_id: {row_id}{eol}"
                               f"{' ' * col}{lines[line_no][col:]}")
             assigned += 1
-        if pending_rows:
+        if planned_rows:
             edits.append((path, eol.join(lines)))
     if findings:
         return 0, 0, findings

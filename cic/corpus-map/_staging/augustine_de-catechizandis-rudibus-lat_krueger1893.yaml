@@ -3,8 +3,8 @@
 source_file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
 
 assignments:
-  - row_id: augustine_de-catechizandis-rudibus-lat_krueger1893--de-catechizandis-rudibus-on-the-catechising-of-the
-    work: "De Catechizandis Rudibus (On the Catechising of the Uninstructed), Krueger 1893"
+  - row_id: augustine_de-catechizandis-rudibus-lat_krueger1893--augustine-de-catechizandis-rudibus-latin-krueger-1893
+    work: "Augustine, De catechizandis rudibus (Latin, Krueger 1893)"
     author: augustine
     locus: "file line 475 (opening of the Latin text, 'Petisti me, frater Deogratias'); title page at file line 46"
     atlas_ids:

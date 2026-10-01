@@ -20,8 +20,8 @@ sources:
   license: public-domain
 text: Our Instructor, the Word, therefore cures the unnatural passions of the soul by means of exhortations.
 modern_rendering: >-
-  Our Instructor, the Word, therefore heals the soul's unnatural passions
-  by means of appeals.
+  So our Instructor, the Word, cures the unnatural desires of the soul, and he
+  does this by urging us on.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >

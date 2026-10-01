@@ -1020,7 +1020,7 @@ def test_real_fleet_true_positives_still_match_on_main():
     # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
     # not yet remediated in any world.
     assert _new_pattern_hits("records/alx/gravity/alx.gravity.logos-unity.md")
-    assert _new_pattern_hits("records/alx/world_core/alx.core.alexandria.md")
+    assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
     assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
 
 
