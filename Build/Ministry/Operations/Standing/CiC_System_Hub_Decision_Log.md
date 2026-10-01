@@ -5913,3 +5913,10 @@ open: the institutional coverage window after 1556 was overstated. The project l
 `Step0_Review_Round4_SpotCheck.md`. It returned Clear with 0 P0, 0 P1 and 2 P2. It is the only review this
 ruling covers.
 
+
+## 2026-10-01 - Atlas voice implementation: complete and live
+
+The project lead reports the Atlas voice implementation is complete and live on the website. It covers the world
+stories (193) and the specific stories (about 550). The work is closed.
+
+Atlas navigation is future work and has not been started. It gets its own entry when the project lead opens it.
