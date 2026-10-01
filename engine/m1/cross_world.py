@@ -469,9 +469,18 @@ def _observation(check, scope, message) -> Finding:
 
 def _compiled(registry, worlds):
     """Worlds that carry a `state`. A world without one is authored but not yet
-    compiled, so the serving layer (package pin, app assets, site page, Table
-    seat) has nothing to check until it is admitted."""
+    compiled, so the package-pin check has nothing to check."""
     return [w for w in worlds if "state" in registry[w]]
+
+
+PUBLIC_STATES = ("admitted", "open")
+
+
+def _public(registry, worlds):
+    """Worlds that are admitted or open. The app's world list, the site's
+    traditions page and the Table's seat picker are public-facing, and they are
+    wired when Mark admits a world; a world that is only built stays off them."""
+    return [w for w in worlds if registry[w].get("state") in PUBLIC_STATES]
 
 
 def check_registry_shape(*, registry, worlds, **_) -> list[Finding]:
@@ -1312,7 +1321,8 @@ CHECKS = [
 
 
 # The checks of the serving layer: they apply to a world only once it is compiled.
-SERVING_CHECKS = (check_package_pinned, check_app_world_assets, check_site_portraits, check_table_html_worlds)
+SERVING_CHECKS = (check_package_pinned,)
+PUBLIC_CHECKS = (check_app_world_assets, check_site_portraits, check_table_html_worlds)
 
 
 def run_all() -> list[Finding]:
@@ -1322,8 +1332,10 @@ def run_all() -> list[Finding]:
     context = {"registry": registry, "worlds": worlds, "records": records}
     findings: list[Finding] = []
     served = {**context, "worlds": _compiled(registry, worlds)}
+    public = {**context, "worlds": _public(registry, worlds)}
     for check in CHECKS:
-        findings.extend(check(**(served if check in SERVING_CHECKS else context)))
+        scope = served if check in SERVING_CHECKS else public if check in PUBLIC_CHECKS else context
+        findings.extend(check(**scope))
     return findings
 
 

@@ -1,6 +1,26 @@
 kind: formation
 world_id: latin-pastoral-congregational-christianity
+display_name: "Latin Pastoral-Congregational Christianity"
 time_window: {start: 246, end: 430}
 place: "Carthage and Hippo Regius, in Latin-speaking Roman North Africa (Africa Proconsularis and Numidia)"
+doorway_place: "Carthage and Hippo Regius"
+doorway_description: >-
+  Two bishops hold this world together, a century and a half apart. Cyprian
+  led Carthage through persecution, plague and schism, and Augustine served
+  Hippo as a working pastor. Their people chose them, and neither man had
+  asked for the office. A bishop here answered by name for one congregation,
+  and he felt its failures as his own wound. When believers gave way under
+  persecution, the church built a public road back that was walked in
+  stages. When bishops disagreed, even over baptism, they argued hard and
+  still kept communion. Between the two men lie about 130 years with no
+  bishop's voice to his own people that can be dated and placed.
+card_name: "The Latin Pastoral Congregations"
+representative: {name: Datus, role_label: "Bishop of the Kept Flock"}
+state: built
 census_id: "latin-pastoral-congregational-christianity"
 safety_adjacent: false
+package:
+  manifest_hash: "sha256:38e5d39366a5d77c480cbba83b83495765e276490116a8dcd4c0975301702496"
+  location: "packages/lpc/2026-10-01T00-04-58Z"
+thinness_statement: "Richest in both bishops' own words on the flock, the road back for the lapsed, and baptism. Thinner on women's own words, the lapsed's own account, ordinary believers, and country life in Punic and Berber."
+living_tradition_flag: true

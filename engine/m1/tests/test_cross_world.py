@@ -87,7 +87,7 @@ def test_a_world_missing_from_table_html_is_caught():
     broken = {**registry, "w7": {"census_id": "not-a-real-census-id-in-table-html"}}
     keys = {f.key for f in cross_world.check_table_html_worlds(registry=broken, worlds=worlds + ["w7"])}
     assert "table-html-world/w7" in keys
-    assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=cross_world._compiled(registry, worlds))}
+    assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=cross_world._public(registry, worlds))}
 
 
 def test_the_lpc_unregistered_dir_is_caught():
@@ -283,9 +283,9 @@ def test_outside_help_guard_still_catches_a_real_match():
     assert all(f.message == "voice_craft.guard carries don-style distress-comparison language" for f in findings)
 
 
-def test_observe_outside_help_guard_on_the_real_fleet_finds_only_don():
+def test_observe_outside_help_guard_on_the_real_fleet_finds_don_and_lpc():
     """The corrected, real fleet state, after the false-positive
-    fix above: don is the only one of the 11 built worlds whose guard
+    fix above: don and lpc are the only built worlds whose guard
     actually carries this language - rzg's earlier "carries" finding was
     the false positive test_outside_help_guard_does_not_false_positive_on_
     felt_weight now pins. This is the real retrofit list for this guard:
@@ -295,7 +295,7 @@ def test_observe_outside_help_guard_on_the_real_fleet_finds_only_don():
     records = {w: cross_world.load_world_records(w) for w in worlds}
     findings = cross_world.observe_outside_help_guard(records=records, worlds=worlds)
     carries = {f.scope for f in findings if "carries" in f.message}
-    assert carries == {"don"}
+    assert carries == {"don", "lpc"}
 
 
 def test_every_check_defined_in_the_module_is_wired_into_the_report():
@@ -324,3 +324,10 @@ def test_registry_shape_measures_only_compiled_worlds_and_ignores_safety_adjacen
     registry["d"] = missing
     keys = {f.key for f in cross_world.check_registry_shape(registry=registry, worlds=["a", "b", "c", "d"])}
     assert keys == {"registry-key-set/d"}
+
+
+def test_wiring_checks_cover_admitted_and_open_worlds_and_not_built_ones():
+    registry = {"a": {"state": "admitted"}, "o": {"state": "open"}, "b": {"state": "built"}, "n": {}}
+    worlds = ["a", "o", "b", "n"]
+    assert cross_world._public(registry, worlds) == ["a", "o"]
+    assert cross_world._compiled(registry, worlds) == ["a", "o", "b"]
