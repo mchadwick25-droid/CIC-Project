@@ -19,9 +19,7 @@ sources:
 - source_id: alx.source.athanasius-festal-letters
   locus: the whole-community channel's best witness
   license: public-domain
-claim: The Primary gravities (Scripture as deep formative reality; transformation of the soul) organized
-  the formation of the WHOLE Alexandrian-Egyptian ecology - the non-literate, Coptic-speaking, rural majority
-  included.
+claim: The two Primary gravities shaped the WHOLE of Alexandria and Egypt. One is Scripture, a deep force that shaped people. The other is the change of the soul. This includes the rural, Coptic-speaking majority, who could not read.
 held_against:
 - 'The entire surviving corpus is literate, Greek, educated: multi-stream agreement within one stratum
   cannot confirm the whole. The majority''s most plausible organizing candidates - communal-liturgical

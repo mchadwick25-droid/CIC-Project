@@ -35,7 +35,7 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative): a contemporary bishop''s own
   festal letter, quoted verbatim by Eusebius (HE VII.22) - first-person community testimony from within
   the events, Eusebius''s strong mode (document quotation, not construction).'
-tellable_as: a true account from Bishop Dionysius's own letter, written while the plague still burned
+tellable_as: A true account from Bishop Dionysius's own letter. He wrote it while the plague was still raging.
 text: 'When the great sickness came to Alexandria, about the year 260, every house had its dead. Dionysius,
   the bishop, wrote to the churches at festival time. He did not write of victory over the disease. He
   wrote that most of the brothers and sisters had not run: they visited the sick without fear, tended

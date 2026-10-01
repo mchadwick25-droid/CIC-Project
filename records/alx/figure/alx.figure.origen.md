@@ -34,8 +34,7 @@ dates:
   floruit: head of catechetical instruction from his eighteenth year (HE VI.3, npnf201 line 32732, verified);
     Alexandria until the Demetrius rupture c. 231-234, then Caesarea
 narratable: true
-bridge_line: the school's greatest and most contested teacher - a man the tradition revered, inherited,
-  cautioned about, and in part later condemned, all within living memory of his chair
+bridge_line: The school's greatest and most contested teacher. The tradition honored him, built on his work, and warned about him. In part it later condemned him. All of this happened within living memory of his chair.
 ---
 SYSTEMIC AUTHOR-GRAVITY FLAG (carried from the prior build's assessment,
 operative through every later step): Origen's surviving output is a

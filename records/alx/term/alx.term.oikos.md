@@ -27,8 +27,7 @@ retrieval:
   - asking about the catechetical school as a formal structure (retrieve alx.term.didaskalos)
   - asking about marriage as a theological category rather than the household as a formation setting
 relations: []
-plain_meaning: Not the private family. The oikos - the whole household, where most people's formation
-  happened.
+plain_meaning: Not the private family. The oikos is the whole household, where most people were formed.
 world_word: oikos
 false_friend:
 - the modern nuclear family in a private home

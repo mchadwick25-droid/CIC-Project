@@ -41,7 +41,7 @@ positions:
 - Jesus is the eternal Logos of God, become genuinely human
 - 'his coming is remedial: creation healed and completed, not abandoned'
 - salvation is participation in God's own life (theosis), not only pardon
-- 'the cross and resurrection are one movement: the Word entering death to unmake it'
+- 'The cross and the resurrection are one movement: the Word enters death to undo it.'
 tensions:
 - the pre-Nicene writers speak of the Logos with subordinationist-sounding language later ruled out -
   the world's own century of clarification, held honestly
