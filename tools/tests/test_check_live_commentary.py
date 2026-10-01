@@ -1456,7 +1456,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
     # file's lines by +7 above this point; re-pinned to the same
     # r27_regenerated assertion, now at 1131.
-    ("engine/api/config.py", 105, "REWRITE"),
+    ("engine/api/tests/test_app.py", 322, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1467,12 +1467,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # fresh REWRITE example elsewhere.
     ("records/alx/gravity/alx.gravity.logos-unity.md", 49, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 243, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 154, "PROTECTED"),
-    ("fixtures/README.md", 25, "REWRITE"),
     ("fixtures/seeded_defects.yaml", 251, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 213, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 191, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
+    ("fixtures/README.md", 25, "REWRITE"),
+    ("fixtures/seeded_defects.yaml", 259, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 221, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 26, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
@@ -1514,8 +1514,8 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
-    ("engine/api/anon_cap.py", 5, "REWRITE"),
-    ("engine/api/anon_cap.py", 37, "REWRITE"),
+    ("engine/BASELINES.md", 10, "REWRITE"),
+    ("engine/BASELINES.md", 14, "REWRITE"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this "Date drafted:" header line was hand-labelled KEEP
     # under the old bare-date rule alone; it is now PROTECTED, the more
@@ -1812,3 +1812,105 @@ def test_the_same_tag_in_a_body_line_is_still_flagged(tmp_path):
     text = _FORCE_RECORD.format(name="Purity Movement [2A - ongoing/external]", description="Placed in [2A - ongoing/external] here.")
     hits = _hits_for(text, tmp_path, "records/w/force/w.force.x.md")
     assert [h.line for h in hits if h.category == "REWRITE"] == [5]
+
+
+# ---------------------------------------------------------------------------
+# Public status labels, file names with dates, Source Registry rows, acquisition manifests
+# ---------------------------------------------------------------------------
+
+def test_a_public_status_label_is_not_commentary(tmp_path):
+    text = '   "statusWord": "Creedal question — not yet resolved",\n'
+    assert _hits_for(text, tmp_path, "cic-website/atlas-v3.html") == []
+
+
+def test_the_same_words_in_prose_are_still_flagged(tmp_path):
+    hits = _hits_for("The dating is not yet resolved.\n", tmp_path, "records/w/term/w.term.x.md")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_a_date_inside_a_cited_file_name_is_not_a_dated_note(tmp_path):
+    text = "The run is in `engine/m4/reports/live-table-report-witt-rzg-2026-09-19.json`.\n"
+    assert not [h for h in _hits_for(text, tmp_path, "Build/worlds/w/w_Doc.md") if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_date_written_into_prose_is_still_flagged_next_to_a_file_name(tmp_path):
+    text = "Changed on 2026-09-19 in `live-table-report-2026-09-19.json`.\n"
+    hits = _hits_for(text, tmp_path, "records/w/term/w.term.x.md")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+_REGISTRY_ROW = "| 18 | *Ordonnances* (1735 printing) | P | A | Native | — | Closes G1 | Verified against the file | Set is complete | {date} |\n"
+
+
+def test_a_registry_row_date_cell_with_notes_is_provenance(tmp_path):
+    row = _REGISTRY_ROW.format(date="2026-09-25 (vendored); 2026-09-29 (added to this Registry)")
+    hits = _hits_for(row, tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_date_in_a_registry_notes_cell_is_still_flagged(tmp_path):
+    row = _REGISTRY_ROW.replace("Verified against the file", "Rights re-verified 2026-09-25 against the item")
+    hits = _hits_for(row.format(date="2026-09-25"), tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+def test_not_yet_acquired_is_a_status_value_in_a_registry_row(tmp_path):
+    row = "| 13 | Registers of the Consistory | P | D | Native | — | Not usable | NOT YET ACQUIRED, copyrighted | Open | 2026-09-15 |\n"
+    hits = _hits_for(row, tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_not_yet_acquired_in_registry_prose_is_still_flagged(tmp_path):
+    hits = _hits_for("Rows 13 and 15 remain Native but not yet acquired.\n", tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_another_cue_in_a_registry_row_is_still_flagged(tmp_path):
+    row = "| 24 | Letters | P | A | Native | — | x | a PD edition has not yet been located | Open | 2026-09-15 |\n"
+    hits = _hits_for(row, tmp_path, "Build/worlds/w/Source_Registry.md")
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_a_source_acquisition_manifest_is_a_ledger(tmp_path):
+    text = "**G4. Beza's own works. PARTIALLY CLOSED, 2026-09-29.** Still open: the letters.\n"
+    hits = _hits_for(text, tmp_path, "Build/worlds/w/Source_Acquisition_Manifest.md")
+    assert hits and all(h.category == "PROTECTED" for h in hits)
+    hits = _hits_for(text, tmp_path, "Build/worlds/w/gallic_G1_Scope_and_Source_Acquisition_Manifest.md")
+    assert hits and all(h.category == "PROTECTED" for h in hits)
+
+
+# ---------------------------------------------------------------------------
+# Registry provenance columns and verified_by fields
+# ---------------------------------------------------------------------------
+
+_LPC_ROW = "| 42 | *Acts of the Council* | P | A | Native | — | Uses | Verified against the file | {note} | {added} | {route} |\n"
+
+
+def test_dates_in_the_last_two_registry_columns_are_provenance(tmp_path):
+    row = _LPC_ROW.format(note="Set is complete", added="2026-09-01, `lpc` build thread", route="WebSearch / 2026-09-01")
+    hits = _hits_for(row, tmp_path, "Build/worlds/lpc/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_date_in_an_earlier_registry_column_is_still_flagged(tmp_path):
+    row = _LPC_ROW.format(note="Rights re-verified against the archive.org item on 2026-09-05 after a second look at the title page", added="2026-09-01, `lpc` build thread", route="WebSearch / 2026-09-01")
+    hits = _hits_for(row, tmp_path, "Build/worlds/lpc/Source_Registry.md")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+def test_a_dated_file_name_in_an_earlier_registry_column_is_not_a_dated_note(tmp_path):
+    row = _LPC_ROW.format(note="Read in `Review-Artifacts/Full_Read_2026-09-16.md`", added="2026-09-01, `lpc` build thread", route="WebSearch / 2026-09-01")
+    hits = _hits_for(row, tmp_path, "Build/worlds/lpc/Source_Registry.md")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_a_verified_by_field_is_structured_provenance(tmp_path):
+    text = 'sources:\n  - title: "Epistulae"\n    verified_by: "Opus adversarial review + Fable research pass, 2026-09-02"\n    rights: "pd"\n'
+    hits = _hits_for(text, tmp_path, "Build/worlds/_cross-world/download-queue-seed.yaml")
+    assert not [h for h in hits if h.category in ("REWRITE", "ROUTE")]
+
+
+def test_the_same_words_in_a_note_field_are_still_flagged(tmp_path):
+    text = 'sources:\n  - title: "Epistulae"\n    note: "Caught by adversarial review on 2026-09-02"\n'
+    hits = _hits_for(text, tmp_path, "records/w/source/w.source.x.yaml")
+    assert any(h.category == "REWRITE" for h in hits)

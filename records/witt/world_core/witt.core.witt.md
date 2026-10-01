@@ -179,40 +179,9 @@ thin_topics:
   note: The years after our founder's own life closed reach us only through the confession's later book,
     gathered by 1580; we do not narrate those years as though we had lived them.
 ---
-world_core.horizon/.formation_logic/.thinness/.cautions/.thin_topics are all built directly from witt_World_Profile.md Section 1 (World Identity, temporal scope), Section 3 (Formation Logic, itself drawn verbatim in substance from witt_Doc_07_Integrated_Ecology_Analysis.md SS4.2), and Section 8 (Honest Limits, all six domains carried into .thinness and, split by topic, into .thin_topics); witt_Doc_01_World_Identification_Boundaries_Orientation.md SS2.1-SS2.3 (the declared 1517-1580 window, argued directly against its own strongest counter-candidates, 1555 and 'into the next generation'); witt_Doc_08_Forces_Document.md Discipline 2 (the declared-vs-evidential-window distinction, carried into .horizon and into confidence.divergence_note); witt_Doc_09_Story_Inventory.md SS5 (Absent Stories -- the tested witt-ABS-01 candidate plus the five-item wider pattern, all six carried into .thin_topics here); witt_Doc_02_Source_Ecology.md SS12.1-SS12.4 (Missing Voices; the binding disclosures on the 1525 and 1543 texts, carried into both .thinness and .cautions); and the Source Registry's own Named Comparanda (rows 55, 57, 58, 94), carried into .cautions. world_core.living_traditions is built directly from witt_World_Profile.md Section 9 (Living Tradition Status) and witt_Doc_10_Representative_Construction_Notes_Nikolaus.md Section 6 (Living Tradition Documentation): the correspondence determination (YES, a confessional family), the three documented divergences, and Version A runtime handling, all CONFIRMED by the project lead (Mark Chadwick) in session, 2026-09-19 ("Confirm as drafted") -- rendered in the same we-voice as .horizon/.formation_logic/.thinness/.cautions and drawn from the Permanent Prompt's own Living Traditions closing paragraph once it cleared the identical voice-perspective bar (converted from that paragraph's you/your address to this record's own we/our register, the same conversion already applied to paragraphs 4, 6-8, 17, 19, 23, 31, 33 below). Added to the schema and compiled for the first time in this authoring pass, per Open_Gaps_Tracking.md OG-45/OG-48 -- the field did not exist when this record was first authored, so this content originally sat below as uncompiled body prose; see the B-7a note below for the full disclosure and its own now-updated status. Phrasing in the spoken fields draws directly, where it already cleared the identical voice-perspective bar, from witt_Representative_Permanent_Prompt_Nikolaus.txt (paragraphs 4, 6-8, 17, 19, 23, 31, 33) -- confirmed by the identity decision (witt_Representative_Identity_Decision.md: Nikolaus, sexton-schoolmaster) to speak for this world's whole documented life, never anchored to one moment. time_window {1517, 1580} is Doc_01 SS2.2's own working ceiling (the Book of Concord as this world's most complete confessional self-definition), argued directly against 1555 (the Peace of Augsburg) as a real but non-competing internal-transition marker (Doc_01 SS2.3) -- not the narrower 1517-1545 evidential window World Profile Section 1 also names; that distinction is carried explicitly in .horizon, .thinness, and confidence.divergence_note rather than folded silently into one field. The six sources[] entries are this build's own judgment call for 'the most load-bearing Native rows' (Registry rows 2, 15, 25, 26, 37, 38): the founding act, the one documented internal crisis (1522), both catechisms, and both confessional documents -- chosen to span this world's own formation mechanism (G2-G5, G11) rather than its polemical or biographical registers, which are thinner and less load-bearing by the World Profile's own account (Section 2).
+The horizon, formation logic, thinness, cautions, thin topics and living traditions fields are built from the world's construction documents (the World Profile, the identification, forces, story inventory and source ecology documents) and from the Source Registry's named comparanda. The spoken fields are in the we-voice. The full derivation trail is in Build/Ministry/Operations/Audits/Live_Commentary_Relocated_Notes_2026-09-30.md.
 
-B-7a (S2.7a) FACILITATION GUIDANCE, added in the same authoring pass as B-7 (witt.voice.craft) above.
-Per the process document's own B-7a row (CiC_Record_Native_World_Build_Process_V1_4.md, Phase B step
-table): "Pairings riding LIVE partner claims with built-in cautions (ending-not-read-back both ways;
-contemporaries-not-stages; the handoff containment class); telos (provisional/Art-31); living_traditions
-(provisional for M2)." At authoring time, a genuine structural gap was disclosed before this content,
-rather than silently worked around: no world_core record anywhere in the fleet carried telos,
-living_traditions, or pairings as a schema field (checked directly: no hit for any of the three anywhere
-under records/, and gallic.core.gallic's own record, the nearest B-7-adjacent precedent, had no B-7a
-section at all). engine/m1/schemas.py's world_core TYPE_PROPERTIES had no telos, living_traditions, or
-pairings property, and world_core's build_schema sets additionalProperties: False, so writing these
-directly into this record's own frontmatter would have failed gate_schema_validation outright. Adding
-the fields to the schema was an engine/ change, explicitly out of that authoring task's own scope (no
-gate file, no engine file could be touched there).
-
-**Update, 2026-09-28 (Open_Gaps_Tracking.md OG-45/OG-48/OG-49):** that gap is now closed for
-living_traditions only. A Round 3 review found this exact content, approved and CONFIRMED
-(witt_World_Profile.md Section 9; witt_Doc_10_Representative_Construction_Notes_Nikolaus.md Section 6;
-2026-09-19, "Confirm as drafted"), was never reaching the deployed prompt, because the schema gap this
-note disclosed at authoring time had never been closed. The project lead authorized the fix:
-engine/m1/schemas.py's world_core TYPE_PROPERTIES now carries a real, optional, additive
-living_traditions field (backward-compatible - existing world_core records validate unchanged without
-it), engine/m2/builders.py's build_prompt() compiles it into the voice's own system prompt under a
-"Living traditions" heading exactly as it already does for Horizon/Formation logic/Thinness/Cautions,
-and this record's own living_traditions content above is that field - migrated out of the body prose
-that used to carry it here, not newly authored (see the LIVING_TRADITIONS note below, kept as a pointer
-rather than deleted, per this project's own append-only discipline for what a record's body once said).
-telos and pairings remain genuinely open, fleet-wide, exactly as this note originally found them -
-carried below in the body per this project's own file-discipline birth condition (dated build notes and
-craft reasoning belong in the body, never invented as an unlisted frontmatter field), pending their own
-future schema change-orders, the same way living_traditions itself just was. Flagged for the build
-thread and for the schema's own maintainer, the same way the quote/doctrinal_witness gap is flagged in
-witt.voice.craft's own body note rather than silently worked around.
+FACILITATION GUIDANCE (B-7a). The living_traditions field is part of the world_core schema and compiles into the voice's system prompt under the heading "Living traditions", as Horizon, Formation logic, Thinness and Cautions do. Telos and pairings have no schema field anywhere in the fleet, so both are carried below in the body.
 
 TELOS (provisional, Article 31 per Constitution v7.4.1 - not yet externally reviewed; carries the same
 open flag witt_Doc_10_Representative_Construction_Notes_Nikolaus.md Section 5 states in full). This
@@ -232,23 +201,7 @@ the specific risk (whether this over-states sacramental
 specificity, or over-weights the deathbed image against this world's own thin eschatology) - carried
 forward here, not resolved.
 
-LIVING_TRADITIONS - RESOLVED, migrated to the real .living_traditions frontmatter field above
-(Open_Gaps_Tracking.md OG-45/OG-48/OG-49; see the updated B-7a note above for the full trace). This
-paragraph originally carried the content as uncompiled body prose, authored before the schema field
-existed, and its own status line read "Article 29 confirmation... is PENDING" - stale even at the time
-of this update, since Doc_10 Section 6 and World Profile Section 9 both already recorded the actual
-determination: **CONFIRMED**, the project lead's direct word, in session, 2026-09-19: "Confirm as
-drafted." That determination - correspondence YES (a confessional family, per World Profile Section 9);
-the three documented divergences (the territorial prince-and-council church not carried forward; the
-evidential window closing by 1545-46 against the declared 1580 window, with the living tradition's own
-history continuing for centuries beyond that, undocumented here; the 1543 treatise's existence disclosed
-in .thinness/.cautions/.thin_topics as existence-only, with present-day engagement with it not
-characterized, and the founder's own contested standing on this specific point per Doc_10 Section 6,
-"Figures of Contested Standing," carried in witt.contested.1543-treatise-later-effect rather than
-repeated here); and Version A runtime handling (this world does correspond to a living tradition, so the
-Representative's own closing paragraph says so, per Doc_10 Section 6's own choice between the template's
-Version A and Version B) - is now spoken directly in .living_traditions above, in the same we-voice as
-.horizon/.formation_logic/.thinness/.cautions, rather than described about it here.
+LIVING_TRADITIONS: carried in the living_traditions frontmatter field above. Determination: confirmed. Correspondence YES, a confessional family. Three documented divergences: the territorial prince-and-council church is not carried forward; the evidential window closes by 1545-46 against the declared 1580 window, while the living tradition's own history continues for centuries beyond it, undocumented here; and the 1543 treatise's existence is disclosed as existence-only in .thinness, .cautions and .thin_topics, with present-day engagement with it not characterized and the founder's contested standing on it carried in witt.contested.1543-treatise-later-effect. Runtime handling: Version A, because this world corresponds to a living tradition and the Representative's closing paragraph says so.
 
 PAIRINGS (none authored; genuinely new territory, not a witt-specific gap). As of this authoring pass,
 this world has no sibling "table partner" world it is paired with - no fleet-level pairing has been

@@ -102,7 +102,7 @@ class Settings:
 
     # Self-revision at generation on other_tradition-routed turns.
     # Default on; the kill-switch exists for cost or incident use only.
-    # Unlike r27_enforce above, this is generation, not enforcement - no
+    # Unlike the enforcement flag above, this is generation, not enforcement - no
     # withhold, no Facilitator handoff.
     self_revision_enabled: bool
 

@@ -358,13 +358,13 @@ _UNATTRIBUTED_WORLD_KEY = "_unattributed"
 
 @dataclass(frozen=True)
 class VisitorUsage:
-    """Both duration decisions Mark converged on 2026-09-28: the typical
-    single conversation's length (session_seconds) and how much of one
+    """Two duration measures: the typical single conversation's length
+    (session_seconds) and how much of one
     visitor's time the app held across however many sessions they opened
     (visitor_total_seconds) - anon_cap allows several sessions a day, so
     these can genuinely differ. Median alongside average on both, since a
     few very long or very short sessions would otherwise skew the average
-    alone (the same scoping doc's own point)."""
+    alone."""
 
     unique_visitors: int
     sessions_with_visitor_id: int
@@ -434,7 +434,7 @@ def _latest_canon_candidates(m7_audit_root: Path) -> tuple[list[AskCandidate], s
 def get_usage_summary(
     store: Store, usage_store: UsageLogStore, *, since: str | None = None, m7_audit_root: Path | None = None
 ) -> UsageSummary:
-    """The usage dashboard's one aggregate (Mark, 2026-09-28 scoping doc):
+    """The usage dashboard's one aggregate:
     unique visitors and duration (the stated top priority), cost/tokens
     and per-world breakdown from usage_log, and the latest questions-asked
     rollup from the M7 daily scheduler's own canon-candidates.json - see
@@ -734,7 +734,7 @@ def handle_message(
 
     turn_no = state.turn_count + 1
 
-    # Unconditional, never gated behind r27_enforce: this keeps
+    # Unconditional, never gated behind the enforcement flag: this keeps
     # _other_tradition_directive's fixed honest-limit sentence from being
     # said when this world's own records already name the tradition
     # asked about. match_named_tradition works from the raw participant

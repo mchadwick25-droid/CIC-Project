@@ -1,7 +1,7 @@
 import subprocess
 import sys
 
-from engine.m10.rounds import ROUTE_MESSAGE, check_rounds, is_review_name, latest_review, review_files
+from engine.m10.rounds import DECISION_LOG, ROUTE_MESSAGE, check_rounds, counted_review_files, is_review_name, latest_review, review_files
 
 from .fixture_world import write
 
@@ -103,3 +103,45 @@ def test_the_command_exits_nonzero_with_three_files_and_check_new(tmp_path):
     run = lambda *extra: subprocess.run([sys.executable, "-m", "engine.m10.cli", "roundcount", "w", "5", "--root", str(root), *extra], capture_output=True, text=True).returncode  # noqa: E731
     assert run() == 0
     assert run("--check-new") == 1
+
+
+THREE = ["Doc_03_Review_Round1.md", "Doc_03_Recheck_Round2.md", "Doc_03_Recheck_Round3.md"]
+FOURTH = "Doc_03_SpotCheck_Round4.md"
+
+
+def _ruling(root, heading, body):
+    write(root, DECISION_LOG, f"# Log\n\n## {heading}\n\n{body}\n\n## 2026-10-01 - Another entry\n\nNothing here.\n")
+
+
+def test_a_review_named_in_a_cap_ruling_after_three_files_does_not_count(tmp_path):
+    root = _world(tmp_path, [*THREE, FOURTH])
+    _ruling(root, "2026-09-30 - Cap ruling: Doc_03", f"The project lead ordered `{FOURTH}` after the escalation.")
+    assert [p.name for p in counted_review_files("w", 3, root)] == THREE
+    findings, count = check_rounds("w", 3, root)
+    assert count == 3 and findings == []
+    assert len(review_files("w", 3, root)) == 4
+
+
+def test_a_cap_ruling_never_excuses_a_file_inside_the_first_three(tmp_path):
+    root = _world(tmp_path, THREE[:2] + [FOURTH])
+    _ruling(root, "2026-09-30 - Cap ruling: Doc_03", f"Orders `{FOURTH}`.")
+    assert len(counted_review_files("w", 3, root)) == 3
+
+
+def test_only_the_files_a_ruling_names_are_excused(tmp_path):
+    root = _world(tmp_path, [*THREE, FOURTH, "Doc_03_Recheck_Round5.md"])
+    _ruling(root, "2026-09-30 - Cap ruling: Doc_03", f"Orders `{FOURTH}`.")
+    findings, count = check_rounds("w", 3, root)
+    assert count == 4 and findings and "4 review files" in findings[0].reason
+
+
+def test_a_name_in_an_entry_that_is_not_a_cap_ruling_excuses_nothing(tmp_path):
+    root = _world(tmp_path, [*THREE, FOURTH])
+    _ruling(root, "2026-09-30 - Round notes", f"Mentions `{FOURTH}`.")
+    assert len(counted_review_files("w", 3, root)) == 4
+
+
+def test_a_name_after_the_ruling_entry_ends_is_not_covered(tmp_path):
+    root = _world(tmp_path, [*THREE, FOURTH])
+    write(root, DECISION_LOG, f"## 2026-09-30 - Cap ruling: Doc_03\n\nOrders a review.\n\n## Later\n\n`{FOURTH}` again.\n")
+    assert len(counted_review_files("w", 3, root)) == 4

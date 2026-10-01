@@ -5883,3 +5883,40 @@ and where their values come from. The text now matches the code on the stale che
 for a new world, and on `row_id` and `shelf_row`. It also records the builder traps (the census entry
 already exists, the project lead sets `safety_adjacent`, the repin order, which gates take `--root`) and
 which commands are slow.
+
+## 2026-09-30 - Round cap: a review ordered after an escalation does not count (change order to rule A)
+
+**Ruling (project lead, 2026-09-30): option A.** The cap of three exists to send a stuck document to the
+project lead. Once he has ruled on an escalated document, his ruling governs what follows. A review he orders
+after the escalation does not count toward the cap, when a decision-log entry headed "Cap ruling" names its
+file. Rule A of the same date is otherwise unchanged: every review file counts.
+
+Alternatives considered:
+
+- A. The cap ends at the escalation, and a review the project lead orders afterward is covered by his ruling.
+  Chosen. It matches how the cap already works, and it settles the conflict once for every world.
+- B. Rule A holds as written, with a one-time exception for `jes` Step 0. Rejected. Every later escalation
+  would raise the same question again.
+- C. Redo the closing step within the cap. Rejected. Review files are not deleted, so the count cannot go down.
+
+**Gate.** `roundcount`, the handoff gate (checks 2 to 4) and the re-baseline declaration read the entries
+headed "Cap ruling". A file named in one, in backticks, is not counted when three files already precede it in
+round order. A ruling covers only the files it names. It cannot excuse any of the first three.
+
+**Documents.** `CLAUDE.md`, V2.0 rule 11 and the V2.0 round-counter row state the exception.
+
+## 2026-09-30 - Cap ruling: jes Step 0
+
+Step 0 of `jes` (the Society of Jesus) reached the cap at Round 3 on 2026-09-25, with one substantial finding
+open: the institutional coverage window after 1556 was overstated. The project lead ruled option 1 of the Round
+3 disposition: a bounded spot-check of that one correction, not a new revision round. The spot-check is
+`Step0_Review_Round4_SpotCheck.md`. It returned Clear with 0 P0, 0 P1 and 2 P2. It is the only review this
+ruling covers.
+
+
+## 2026-10-01 - Atlas voice implementation: complete and live
+
+The project lead reports the Atlas voice implementation is complete and live on the website. It covers the world
+stories (193) and the specific stories (about 550). The work is closed.
+
+Atlas navigation is future work and has not been started. It gets its own entry when the project lead opens it.
