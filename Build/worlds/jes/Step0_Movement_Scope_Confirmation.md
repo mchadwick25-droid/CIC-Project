@@ -1,6 +1,6 @@
 # Step 0 — Movement-Scope Confirmation: The Society of Jesus
 
-**Status:** Approved to proceed (Step 0 only; not Frozen). Revision 3, after the bounded correction the project lead authorized and the independent spot-check of `Step0_Review_Round3_SpotCheck.md` (clear). Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`Build/worlds/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md`). See `Step0_Review_Round3.md`.
+**Status:** Approved to proceed (Step 0 only; not Frozen). Revision 3, after the bounded correction the project lead authorized and the independent spot-check of `Step0_Review_Round4_SpotCheck.md` (clear). Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`Build/worlds/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md`). See `Step0_Review_Round3.md`.
 **World file-code:** `jes`.
 **Census reference:** Atlas ID VI.11, `cic-website/data/world-census.json`, status "Pre-Survey Candidate."
 **Date drafted:** 2026-09-15.
@@ -95,6 +95,6 @@ This document is checked against the live corpus-map and `REGISTRY.yaml` before 
 
 ## 6. Disposition
 
-**Status: Approved to proceed** (Step 0 only; not Frozen), after the bounded correction and the independent spot-check of `Step0_Review_Round3_SpotCheck.md` (clear; 0 P0, 0 P1). See `Step0_Review_Round3.md` for the finding list and `Step0_Review_Round2.md` for the prior round.
+**Status: Approved to proceed** (Step 0 only; not Frozen), after the bounded correction and the independent spot-check of `Step0_Review_Round4_SpotCheck.md` (clear; 0 P0, 0 P1). See `Step0_Review_Round3.md` for the finding list and `Step0_Review_Round2.md` for the prior round.
 
 **Next step:** Doc_01 (file-code `jes`).

@@ -11,7 +11,7 @@ documents:
   - id: Step_0
     status: approved to proceed (Round 4 spot-check clear)
     rounds_used: 4
-    review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md, Step0_Review_Round3_SpotCheck.md]
+    review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md, Step0_Review_Round4_SpotCheck.md]
   - id: Doc_01
     status: approved to proceed (Round 3 recheck clear)
     rounds_used: 3
