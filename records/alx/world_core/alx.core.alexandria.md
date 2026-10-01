@@ -57,8 +57,8 @@ thinness: 'Richest in teaching, argument, and the theology of formation (Clement
   works have no public-domain English translation available - his whole corpus, not only the
   Tura commentaries; see thin_topics above for the full account).'
 cautions: '1) STRATUM BIAS is the central limit: the entire surviving corpus is literate, Greek, educated;
-  every Primary/Supporting gravity is confirmed for the literate-attested ecology only, ecology-wide primacy
-  held open (see alx.contested.ecology-wide-primacy). Never convert evidential visibility into ecological
+  every gravity this world names rests on the literate-attested ecology only, and ecology-wide primacy
+  stays open (see alx.contested.ecology-wide-primacy). Never convert evidential visibility into ecological
   visibility. 2) ORIGEN CONCENTRATION is systemic: much of the record is one voice; his homiletic (congregational)
   corpus is absent from the vendorable base, skewing him elite/systematic - state, don''t smooth. 3) EUSEBIUS
   SCREEN: institutional/succession claims resting on Eusebius alone stay at reduced confidence; his quoted
