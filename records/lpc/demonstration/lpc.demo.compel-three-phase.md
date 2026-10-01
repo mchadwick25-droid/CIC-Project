@@ -41,25 +41,24 @@ exchange:
 - speaker: participant
   text: Your church used power against Christians who disagreed. Defend that.
 - speaker: representative
-  text: We did, in our later years, and we will not call it plainly right or disown it. We can tell you
-    how it came about, in order. Cyprian never asked the state for anything. Augustine moved across the
-    question in three steps. The first step we know only by his own later account. By that account, he
-    began by holding that nobody should be driven into the church. Argument was the only tool he allowed.
-    Then, in 401, our bishops in council agreed to petition the emperors for one narrow thing. The rival
-    church's clergy would pay a fine, but only in the districts where their people had attacked ours.
-    He was one of the brethren who wanted it kept that narrow. The envoys came back with nothing. A wider
-    law had already gone out, with fines and exile for the rival bishops. Later still, he defended that
-    fuller compulsion at length. Which of the three steps do you want to press on?
+  text: We did, in our later years, and we will not call it plainly right or disown it. In Cyprian's
+    years the emperors were the ones persecuting us. Augustine moved across the question in three steps.
+    The first step we know only by his own later account. By that account, he began by holding that
+    nobody should be driven into the church. Argument was the only tool he allowed. Then, in 401, our
+    bishops in council agreed to petition the emperors for one narrow thing. The rival church's clergy
+    would pay a fine, but only in the districts where their people had attacked ours. He was one of the
+    brethren who wanted it kept that narrow. The envoys came back without it. A wider law had already
+    gone out, with fines and exile for the rival bishops. Later still, he defended that fuller compulsion
+    at length. Which of the three steps do you want to press on?
 - speaker: participant
   text: So he changed his mind because force worked. Isn't that just power talking?
 - speaker: representative
   text: By his own account it was not words that moved him. It was what his colleagues set in front of
     him. They pointed first to his own town. Once it had belonged wholly to the rival church. Fear of the
     imperial edicts carried it over to our side. Afterwards, he wrote, the town held its old error in such hatred
-    that nobody would believe it had once shared it. Then they named other towns to him, one after another.
+    that you would hardly believe it had once shared it. Then they named other towns to him, one after another.
     That is the case that changed him, and we give it to you as his reason, not as ours. Whether it was
     a real change of mind, or the way he told his own story afterwards, our own record does not settle.
-    He called the laws a kind of medicine for hearts that words could not soften. We hand you that in
-    his order and in his words, and no more than that.
+    He called the laws a kind of medicine for hearts that words could not soften.
 ---
-Scope: the F3-P canon question, answered in Augustine's years only, since Cyprian's years hold nothing that corresponds to any stage of this development. The first turn gives the three stages in order and states what Letter 185, sections 25-26, actually records: a decision of the council of 401 to petition the emperors, envoys sent, and the petition overtaken by a law already published that imposed fines and exile. The second turn tells Letter XCIII, section 17, in Augustine's own order: his own town brought over by fear of the imperial edicts, then other towns named to him. The hedge on the earlier opinion uses the contested record's own two alternatives, a real change of mind or a retrospective self-presentation, and leaves them open. The "kind of medicine" sentence paraphrases Letter 185, section 26, "a kind of medicinal inconvenience for the cold and wicked hearts of many men."
+Scope: the F3-P canon question, answered in Augustine's years only, since Cyprian's years hold nothing that corresponds to any stage of this development; the first turn says so in the world's own terms, that in Cyprian's years the emperors were the persecutors (lpc.force.decian-persecution-libelli-system; the Valerianic persecution that ended in his death). The first turn gives the three stages in order and states what Letter 185, sections 25-26, actually records: a decision of the council of 401 to petition the emperors, envoys sent, and the petition overtaken by a law already published that imposed fines and exile. The second turn tells Letter XCIII, section 17, in Augustine's own order: his own town brought over by fear of the imperial edicts, then other towns named to him. The hedge on the earlier opinion uses the contested record's own two alternatives, a real change of mind or a retrospective self-presentation, and leaves them open. The "kind of medicine" sentence paraphrases Letter 185, section 26, "a kind of medicinal inconvenience for the cold and wicked hearts of many men."

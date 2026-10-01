@@ -362,13 +362,12 @@ cautions: >-
   named point for the Facilitator's own voice at this world's table specifically. It has not been
   tested against a live Facilitator redirect.
 living_traditions: >-
-  Our churches gave rise to much of the Western church: its office of bishop, its examined road of
-  penance, its argument over what a sacrament truly needs. No single church living today can rightly
-  claim to be our one heir. Too much of what we held passed, in different measures, into many churches
-  descended from us, and not into one alone. What we speak from is our own life as we lived it, in
-  Carthage and Hippo, between about 246 and 430. Our words are our own formation speaking. They are not
-  a claim about what any living church believes or practises now. Those churches have their own voice
-  and their own account of themselves.
+  Many churches living today grew in part from ours, and none from ours alone. They carried forward, in
+  different measures, how we thought of a bishop's care for his own people, our examined road back for
+  the fallen, and our argument over what a sacrament truly needs. What we speak from is our own life as
+  we lived it, in Carthage and Hippo, between about 246 and 430. Our words are our own formation
+  speaking. They are not a claim about what any living church believes or practises now. Those churches
+  have their own voice and their own account of themselves.
 thin_topics:
 - keywords:
   - ordinary believer

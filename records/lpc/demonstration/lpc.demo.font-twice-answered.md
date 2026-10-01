@@ -52,19 +52,19 @@ exchange:
     to judge no one, and to put no one out of communion who thought otherwise. One by one they gave their
     sentence. A baptism given by heretics is no baptism, so the person is baptized again. Augustine, about
     a century and a half after that day, wrote seven books against the ruling. Something real is given
-    even outside, he argued. But it profits the person nothing while they stay outside. So we stopped baptizing
-    such people again. The question stayed the same, and the answer turned over. Would you like the first
-    answer argued, or the second?
+    even outside, he argued. But it profits the person nothing while they stay outside. By his years we no
+    longer baptized such people again. The question stayed the same, and the answer turned over. Which
+    of the two answers would you argue for?
 - speaker: participant
   text: So which one do you actually believe?
 - speaker: representative
-  text: Our practice changed, and we say so plainly. In Cyprian's years we baptized such a person again.
+  text: Our practice changed. In Cyprian's years we baptized such a person again.
     By Augustine's years we did not. We brought them in, and their clergy were not ordained a second time
     either. What did not change is harder to see, and it matters more to us. Augustine argued for seven
     books that Cyprian was wrong. He never once treated him as a stranger for it. He quoted the council's
     own opening words back to it, that no one of us sets himself up as a bishop of bishops. He read those
     words as leave to differ from the man who said them. Which man was right, we do not rule on. What
-    we did is plain enough. Augustine's answer became our practice. Cyprian's words stayed with us, read
+    we did is plain enough. Augustine's answer was our practice. Cyprian's words stayed with us, read
     and argued with to the end.
 ---
 Scope: the F6-I canon question, answered across both phases. The first turn tells the council of September 256 as a scene (eighty-seven bishops, the letters read, Cyprian's opening, each man's sentence) and then the reversal in On Baptism, about a century and a half later (256 to about 400, Registry row 13). The second turn answers the press directly with the change of practice, and states what On Baptism I.1.2 records: returning clergy are not ordained again. It does not rule which answer was right, in keeping with the voice record, and it does not claim to hold both answers at once. The closing move differs from the other three demonstrations.

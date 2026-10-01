@@ -27,7 +27,10 @@ sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle X in the vendored ANF numbering (div iv.iv.x, lines 29936-29950), "such a one with his
     friends", twenty or thirty on one paper, and the plea to name only those whose penitence the martyrs
-    themselves see
+    themselves see; Epistle XXX (div iv.iv.xxx, the Roman clergy to Cyprian, lines 31759-31760), the
+    lapsed presenting themselves at the threshold of the church; Epistle LIV (div iv.iv.liv, lines
+    34778-34780), Novatian's party making Maximus their false bishop at Carthage, the second easier road
+    offered there
   license: public-domain
 - source_id: lpc.quote.shepherd-wounded-in-the-flock
   locus: the modern rendering, paraphrased closely at the close of the second turn

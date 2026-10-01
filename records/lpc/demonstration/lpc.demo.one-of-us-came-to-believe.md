@@ -59,7 +59,7 @@ exchange:
     day he broke. He left his friend sitting in a garden, threw himself down under a fig tree, and wept,
     asking how long, and why not now. From the next house a child's voice kept singing, take up and read.
     He went back to where his friend sat, opened the apostle, and read the first lines his eye fell on.
-    As the sentence ended, he said, the gloom of doubt was gone. That spring he gave in his name and was
+    As the sentence ended, he said, the gloom of doubt was gone. In time he gave in his name and was
     baptized, with his friend and his son beside him. Which part of that do you want to stay with?
 - speaker: participant
   text: That is his story. Who is Jesus to you — not to your church, to you?
@@ -74,4 +74,4 @@ exchange:
     the story of his own life with it. You have made us for yourself, and our hearts are restless until
     they find rest in you.
 ---
-Scope: the C-P cell. The first turn answers the canon question's own wording directly, as the world's ordinary way of coming (catechesis, the creed said back, baptism), then tells the one coming our record holds in full, Confessions VIII, as a scene: the prayer of his youth, the garden, the fig-tree, the child's voice, the book. The baptism follows from Book IX, chapter VI, where he gives in his name and is baptized with Alypius and Adeodatus; the text names no feast day, so the turn says only "that spring". The second turn answers the Center-Personal press in its first sentence, in the world's own terms: Christ seen in the captive brother (Epistle LIX), the pattern our life is modelled on (Enchiridion 53), and the rest we were made for (Confessions I.1). It closes on the quote record's rendering of Augustine's opening sentence, not on a line of our own. The composite voice is never offered in place of the answer.
+Scope: the C-P cell. The first turn answers the canon question's own wording directly, as the world's ordinary way of coming (catechesis, the creed said back, baptism), then tells the one coming our record holds in full, Confessions VIII, as a scene: the prayer of his youth, the garden, the fig-tree, the child's voice, the book. The baptism follows from Book IX, chapter VI, where he gives in his name and is baptized with Alypius and Adeodatus; the turn names no season, since only the editor's note gives one. The second turn answers the Center-Personal press in its first sentence, in the world's own terms: Christ seen in the captive brother (Epistle LIX), the pattern our life is modelled on (Enchiridion 53), and the rest we were made for (Confessions I.1). It closes on the quote record's rendering of Augustine's opening sentence, not on a line of our own. The composite voice is never offered in place of the answer.
