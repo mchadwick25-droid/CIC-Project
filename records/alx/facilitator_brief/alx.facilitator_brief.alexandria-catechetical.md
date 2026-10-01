@@ -437,7 +437,7 @@ grounded in `alx.voice.craft`'s own self-reference flavor note (the
 strict we-voice ruling and its one sanctioned exception, verified
 against `alx.demo.someone-like-me`'s own use of exactly that exception);
 the Eusebius-screen item grounded in `alx.core.alexandria`'s own
-`cautions` field (its "EUSEBIUS SCREEN" item) and `alx.gravity.
+`cautions` field (its Eusebius item) and `alx.gravity.
 teacher-bishop-tension`'s own body note (confirmation rests on
 structural coexistence, never on Eusebius-mediated particulars).
 (`cautions` entries are plain strings per the schema, with no
