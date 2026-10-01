@@ -195,7 +195,7 @@ assignments:
   - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--a-treatise-on-the-soul-de-anima
     work: "A Treatise on the Soul (De Anima)"
     author: tertullian
-    locus: "file line 36757 (first apparatus line naming the treatise ('DE ANIMA LIBER'); the treatise heading itself is not caught by grep)"
+    locus: "file line 36757 (first apparatus line naming the treatise ('DE ANIMA LIBER'); grep does not find the treatise heading itself)"
     atlas_ids:
       - latin-apologists
     role: tradition

@@ -1368,7 +1368,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # sits inside this file's own "## Document Log" section - genuinely
     # load-bearing review-history content, now correctly PROTECTED.
     ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "PROTECTED"),
-    ("Build/worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit b9ad408c):
     # the original rzg example was cleaned by that effort. Re-pinned to a

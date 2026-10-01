@@ -31,6 +31,7 @@ Usage:
 """
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -42,6 +43,17 @@ import yaml
 
 SEED_FILE = HERE / "download-queue-seed.yaml"
 TARGET = HERE / "DOWNLOAD-QUEUE.md"
+
+
+MONTHS = ("January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December")
+ISO_DATE = re.compile(r"\b(20\d\d)-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])\b")
+
+
+def dates_in_words(text: str) -> str:
+    """Writes each ISO date in a seed field as 'D Month YYYY'. The seed keeps
+    the machine-readable form; the rendered table reads as prose."""
+    return ISO_DATE.sub(lambda m: f"{int(m.group(3))} {MONTHS[int(m.group(2)) - 1]} {m.group(1)}", text)
 
 
 def load_seed() -> list[dict]:
@@ -102,7 +114,7 @@ def render() -> str:
             translator_year = f"{q.get('translator') or '—'} ({q.get('year') or '?'})"
             out.append(f"| {q['title']} | {translator_year} | `{q['world']}` | "
                        f"{q.get('url') or '—'} | {q.get('rights_basis') or '—'} | "
-                       f"{q.get('verified_by') or '—'} |")
+                       f"{dates_in_words(q.get('verified_by') or '—')} |")
 
     if reactive:
         out.append("\n## Surfaced by the wants register — edition exists, not yet located/verified\n")
