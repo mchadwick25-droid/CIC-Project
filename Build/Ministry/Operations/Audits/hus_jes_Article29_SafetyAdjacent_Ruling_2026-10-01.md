@@ -29,3 +29,12 @@ Old entries are not edited. These are applications of a ruling to approved docum
 ## Jesuit Article 29 confirmed (2026-10-01)
 
 Question put in the session: the Jesuit Article 29 connection was recorded as proposed on the simple basis (the Society of Jesus itself), awaiting the project lead's word, and he was asked to say yes to confirm it. His answer, verbatim: "yes".
+
+## `jes` safety_adjacent reset to true (2026-10-01)
+
+The project lead had earlier answered the same question for `jes` in a separate thread, with the reasons: the
+Jesuit voice sits close to confession, spiritual direction and obedience, so a participant could bring
+something raw to it, and the world therefore gets full validation. That answer was `true`. When the two
+answers were put side by side, the project lead's instruction was "reset to true". `jes` is `true`. This
+section supersedes section 2 of this file for `jes` only. `hus` stays `false`.
+
