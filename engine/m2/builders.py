@@ -115,8 +115,8 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
     emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
     # Stories and quotes are never screened by the register:
     # stories arrive through their own tellable_as retellings;
-    # quotes speak their build-authored modern_rendering where one exists,
-    # originals on the click page.
+    # quotes always speak their build-authored modern_rendering, never the
+    # original - originals stay reachable only on the click page.
     emit("Stories and quotes", record.get("story_quote_reach"))
     emit("Limit discipline", record.get("limit_discipline"))
     return segments
@@ -286,12 +286,17 @@ def _quote_speaker(quote: dict) -> str:
 
 
 def _quote_opening(quote: dict, width: int = 60) -> str:
-    # The opening words shown are the SPEAKABLE form - the build-authored
-    # modern_rendering where one exists (archaic quotes are translated
-    # in the build, originals on the click
-    # page), the original text otherwise - so the index matches what the
-    # voice would actually say at the table.
-    text = " ".join((quote.get("modern_rendering") or quote.get("text") or "").split())
+    # The opening words shown are ALWAYS the speakable form, modern_rendering
+    # - never `text`, which is never voiced (gate_quote_recording requires
+    # every quote to carry modern_rendering, so this should be unreachable;
+    # fail loudly at build time rather than silently index the archaic
+    # original if that invariant is ever broken) - so the index matches
+    # what the voice would actually say at the table.
+    rendering = quote.get("modern_rendering")
+    if not rendering:
+        raise ValueError(f"{quote.get('id')}: quote has no modern_rendering - "
+                         f"refusing to fall back to text, which is never voiced")
+    text = " ".join(rendering.split())
     return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
@@ -324,6 +329,8 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
 # about the world that we happen to have met in our own instruction is
 # carried by the record that holds it, from below the line or from the
 # turn's ground - never by an address for the instruction.
+SOURCE_ANCHOR_HEADER = "Where our images come from"
+
 _GROUND_LINE = """## Below this line is our world's own record
 
 Everything above this line is our own standing instruction - our register, our
@@ -466,6 +473,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         concerns = craft.get("characteristic_concerns") or []
         if concerns:
             instruct("What we keep returning to", "\n".join(f"- {c}" for c in concerns))
+        instruct(SOURCE_ANCHOR_HEADER, craft.get("source_anchor"))
         notes = craft.get("flavor_notes") or []
         if notes:
             instruct(
@@ -475,12 +483,20 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
 
     core = _one(records, "world_core")
     if core:
-        # four sections, one record - they are all fields of world_core, and
+        # Five sections, one record - they are all fields of world_core, and
         # saying so is what stops "Formation logic" becoming a namespace.
+        # Living traditions is the fifth and newest (engine/m1/schemas.py's
+        # world_core.living_traditions, added per Open_Gaps_Tracking.md
+        # OG-45/OG-48): present only for a world with a CONFIRMED Article 29
+        # determination and something to say, so most worlds emit four
+        # sections here, not five - `emit()` already no-ops on an unset
+        # field, the same way it does for any other optional world_core
+        # content.
         emit("Horizon", core.get("horizon"), core["id"])
         emit("Formation logic", core.get("formation_logic"), core["id"])
         emit("Thinness", core.get("thinness"), core["id"])
         emit("Cautions", core.get("cautions"), core["id"])
+        emit("Living traditions", core.get("living_traditions"), core["id"])
 
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))

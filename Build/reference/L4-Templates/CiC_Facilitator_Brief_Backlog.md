@@ -2,7 +2,7 @@
 
 **Status:** Living backlog. Not yet built into the runtime Facilitator system — this document exists so that content and reasoning developed during design conversations isn't lost before the Facilitator Brief architecture is actually built. When that work begins, entries here are the starting material, not an exhaustive spec.
 
-**Why this exists:** During Phase One world-selection work (2026-07-04), a real, anticipated participant need surfaced — people will ask for things the architecture doesn't provide in the form they expect (e.g., "let me talk to Augustine," or "why isn't there an Augustine world the way there's an Alexandria world"). These moments need an honest, prepared response, not an improvised one. This backlog captures those moments as they're identified, in a reusable two-part format.
+**Why this exists:** Participants will ask for things the architecture doesn't provide in the form they expect (e.g., "let me talk to Augustine," or "why isn't there an Augustine world the way there's an Alexandria world"). These moments need an honest, prepared response, not an improvised one. This backlog captures those moments as they're identified, in a reusable two-part format.
 
 ---
 
@@ -21,7 +21,7 @@ Every entry in this backlog has two parts, serving two different needs:
 Participants will repeatedly ask "why isn't [famous name] here." There isn't one reason — there are several distinct ones, and facilitators should give the *right* one, not a generic one. Recorded here so this reasoning isn't reconstructed from scratch each time a new name comes up.
 
 1. **Eponymous exclusion.** The movement's whole identity is one person's specific claimed teaching, revelation, or personal authority (Marcion, Montanus, Novatian, Priscillian, Pelagius, Meletius, Mani). Excluded regardless of how much evidence survives, because the project doesn't center worlds on individual founders' claimed authority.
-2. **Insufficient independent community evidence ("singular voice").** A real, orthodox, important figure — but what survives is overwhelmingly their own writing, without an independently documented community around them (Augustine — see Entry 1 below).
+2. **Insufficient independent community evidence ("singular voice").** A real, orthodox, important figure — but what survives is overwhelmingly their own writing, without an independently documented community around them (Augustine — see the Augustine entry below).
 3. **Outside the Nicene trajectory.** The position is defined by rejecting what became mainstream Christian orthodoxy, not merely predating it (Marcionite rejection of the creator God, Valentinian/Sethian cosmology, Homoian/"Arian" rejection of the Nicene formula).
 4. **Dominant surviving content is doctrinal argument, not lived ecology.** A real, non-eponymous, orthodox tradition exists, but what mostly survives is theological or conciliar argument rather than descriptions of daily practice (the generic "Arian controversy" as a subject in itself; Constantinople's court politics). Sometimes resolved by including the figure *inside* a broader world rather than building a standalone one.
 5. **Evidentiary base too thin overall.** A real, distinct, doctrinally-fine candidate exists, but there isn't enough surviving evidence of any kind — insider or outside witness — to construct a defensible, rigorously-graded ecology yet (early Armenian Christianity, Aksumite Christianity, the Meletian schism). Different from reason 2: this is "we don't know enough," not "we only have one person's account."
@@ -37,7 +37,7 @@ Participants will repeatedly ask "why isn't [famous name] here." There isn't one
 
 Entries in this category don't need to reference any other figure to make sense (a figure who *is* included, like Origen, needs no special note at all — it's resolved by inclusion, not by explanation). Each entry here stands alone.
 
-### Entry 1 — Augustine
+### Augustine
 
 **Trigger context:** A participant asks to encounter Augustine directly, or asks why there's no "Augustine's world."
 
@@ -51,9 +51,9 @@ Entries in this category don't need to reference any other figure to make sense 
 
 **Sources to attach when built:** *Confessions*; sermons to the Hippo congregation; correspondence re: the Donatist controversy; the *Acts* of the 411 Council of Carthage; Possidius' *Life of Augustine* (the one meaningful outside-ish witness, though friendly rather than independent).
 
-### Entry 2 — Athanasius of Alexandria (needs assessment, not yet resolved)
+### Athanasius of Alexandria
 
-Athanasius is a plausible candidate for this same profile, but it isn't settled. His significance rests partly on the Arian controversy (excluded territory, doctrinal-debate-centered) and partly on his 45-year Alexandrian episcopate and five exiles, which do have some independent documentation (imperial correspondence, conciliar records, opponents' accounts) — more than Augustine has. Whether he resolves by inclusion (if Alexandria's world scope extends late enough to cover his episcopate, or if an imperial-court world is built) or needs his own "singular voice" entry depends on decisions not yet made. Flag for revisit once Alexandria's and the imperial-court world's actual scopes are finalized.
+Athanasius is a plausible candidate for this same profile. His significance rests partly on the Arian controversy (excluded territory, doctrinal-debate-centered) and partly on his 45-year Alexandrian episcopate and five exiles, which do have some independent documentation (imperial correspondence, conciliar records, opponents' accounts) — more than Augustine has. He resolves by inclusion if Alexandria's world scope extends late enough to cover his episcopate, or if an imperial-court world is built. Otherwise he needs his own "singular voice" entry. Which applies depends on the actual scopes of Alexandria's world and the imperial-court world.
 
 ### Reference: figures already resolved by inclusion — no special note needed
 

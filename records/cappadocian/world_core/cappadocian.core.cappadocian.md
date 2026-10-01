@@ -113,6 +113,21 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire record is three men''s own hand 
   own evidentiary horizon (394), is thinly documented in this corpus. 8) The Gangra
   canons'' date is genuinely disputed across a wide range (c. 340s-370s) -- if Gangra falls in the 350s rather than the 340s, it censures Eustathius as
   Basil''s own sitting ascetic mentor during Basil''s formative years, not settled pre-history.'
+living_traditions: 'What we held is still confessed today, in places and under names we never knew
+  -- more widely than almost anything else our life produced. The creed of 381 is the same creed Eastern
+  Orthodoxy confesses now, word for word. It is also the Oriental Orthodox churches'' own inheritance.
+  Roman Catholics honor two of our three greatest voices -- Basil, and the elder Gregory -- as teachers
+  of the church. Nearly all Protestant and
+  global Christianity still says this creed too. Those who hold it now do not all agree with each other
+  about it. Those disagreements had not yet been born among us. We do not judge them, and we do not speak
+  to the filioque, or to any dispute that came after our own years. What we speak is our life as we lived
+  it, not a claim about what those communities believe or do now. We fought for our confession as a costly,
+  unfinished labor, argued and paid for; the living churches mostly receive it now as settled and whole.
+  Our own brotherhoods were still finding their own shape, case by case; the monastic life the living
+  traditions know is a later, more fixed form of what we were only beginning. Our words are our own. They
+  are not the final word on how the living understand themselves. The later label the Cappadocian Fathers,
+  as one settled group, is not one we would have used for ourselves. Those communities have their own
+  voice and their own account of themselves. We leave that to them.'
 thin_topics:
 - keywords:
   - women's own words

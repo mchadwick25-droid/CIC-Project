@@ -211,6 +211,13 @@ svg#world{display:block;overflow:visible}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
+#panel .narration{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:.3rem 0 .8rem}
+#panel .narration audio{display:block;height:1.9rem;max-width:180px;width:180px;flex:0 0 auto}
+#panel .narration-disclosure{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
+  color:var(--ink-faded);margin:0}
+#panel .narration-auto{display:block;font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
+  color:var(--ink-faded);margin:.3rem 0 .2rem}
+#panel .narration-auto input{margin-right:.4rem}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
@@ -41182,6 +41189,47 @@ function hideTip(){tip.style.display='none';}
 
 /* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
+/* ---- Narration: starts when a card opens, stops when it closes ---- */
+const NARR_KEY='cic.narration.auto';
+function narrAuto(){try{return localStorage.getItem(NARR_KEY)!=='0';}catch(e){return true;}}
+function narrSetAuto(on){try{localStorage.setItem(NARR_KEY,on?'1':'0');}catch(e){}}
+function stopNarration(){
+  panelBody.querySelectorAll('audio').forEach(a=>{a.pause();try{a.currentTime=0;}catch(e){}});
+}
+function mainNarration(){
+  return [...panelBody.querySelectorAll('audio')].find(a=>!a.closest('details.docstory-item'));
+}
+// Browsers refuse sound that starts without a click (a shared ?world= link,
+// a slow load); the rejection is expected and leaves the play button as is.
+function startNarration(a){
+  if(!a||!narrAuto())return;
+  const p=a.play();
+  if(p&&p.catch)p.catch(()=>{});
+}
+function narrAddToggle(){
+  const first=panelBody.querySelector('.narration');
+  if(!first||panelBody.querySelector('.narration-auto'))return;
+  const label=document.createElement('label');
+  label.className='narration-auto';
+  const box=document.createElement('input');
+  box.type='checkbox'; box.checked=narrAuto();
+  box.addEventListener('change',()=>narrSetAuto(box.checked));
+  label.appendChild(box); label.appendChild(document.createTextNode('Start narration automatically'));
+  first.parentNode.insertBefore(label,first);
+}
+function narrCardReady(){narrAddToggle();startNarration(mainNarration());}
+// One voice at a time; opening a story inside a card starts it, closing stops it.
+panelBody.addEventListener('play',ev=>{
+  if(!ev.target||ev.target.tagName!=='AUDIO')return;
+  panelBody.querySelectorAll('audio').forEach(a=>{if(a!==ev.target)a.pause();});
+},true);
+panelBody.addEventListener('toggle',ev=>{
+  const d=ev.target;
+  if(!d||!d.matches||!d.matches('details.docstory-item'))return;
+  const a=d.querySelector('audio');
+  if(!a)return;
+  if(d.open)startNarration(a); else {a.pause();try{a.currentTime=0;}catch(e){}}
+},true);
 // Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
 // contract already shipping in atlas-v3.html and index.html -- reused, not
 // reinvented, so a link into this map's worlds lands the same place a link
@@ -41258,18 +41306,22 @@ async function loadBuiltWorldOrientation(censusId){
   try{
     const compiled=await fetchBuiltWorldData(censusId);
     const R=window.OrientationRender||await window.__orientationRenderPromise;
+    const wm=await fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
+    const narr=window.OrientationNarrationUrls?window.OrientationNarrationUrls(wm[censusId],'audio/worlds/'):null;
+    const nopts=narr?{narration:narr}:{};
     let h='';
     const o=compiled.orientation||{};
-    if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled);
-    if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId});
+    if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled,nopts);
+    if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId,...nopts});
     if(o.voices&&o.voices.length)h+='<h3>Voices</h3>'+R.voices(compiled);
     if(o.floor_note&&o.floor_note.text)h+='<h3>Doctrinal floor note</h3>'+R.floor_note(compiled);
-    if(o.legacy&&o.legacy.length)h+='<h3>Legacy</h3>'+R.legacy(compiled);
+    if(o.legacy&&o.legacy.length)h+='<h3>Legacy</h3>'+R.legacy(compiled,nopts);
     if(o.relations_summary&&o.relations_summary.text)h+='<h3>In its own record</h3>'+R.relations_summary(compiled);
     if((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length))h+='<h3>Sources</h3>'+R.sourcing(compiled);
     if(!h)h='<p class="meta">No further orientation content recorded for this world yet.</p>';
     slot.innerHTML=h;
     slot.classList.remove('orient-loading');
+    if(slot.isConnected&&panel.classList.contains('open'))narrCardReady();
   }catch(err){
     slot.innerHTML='<p class="meta">This world’s fuller record could not be loaded right now. Try reopening this panel.</p>';
     slot.classList.remove('orient-loading');
@@ -41308,7 +41360,15 @@ function openPanel(m){
   if(isBuiltWorld){
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
   }
-  if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
+  // Narration: every non-built movement's own longDescription is already
+  // synthesized (cic-website/audio/tree/<id>.mp3) - the built worlds' own
+  // narration is deliberately not wired in here yet, since their audio
+  // still narrates the superseded longDescription text rather than their
+  // real, current orientation.story (see tools/generate_tree_narration.mjs).
+  if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'
+    +'<div class="narration"><audio controls preload="none"><source src="audio/tree/'+esc(m.id)+'.mp3" type="audio/mpeg"></audio>'
+    +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
+    +m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
   // stories, and not a restatement of longDescription above) -- a deeper
@@ -41389,7 +41449,7 @@ function openPanel(m){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
     if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   }
-  panelBody.innerHTML=h; showPanel(); hideTip();
+  stopNarration(); panelBody.innerHTML=h; showPanel(); hideTip(); narrCardReady();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   // Built worlds' own documented stories arrive later (loadBuiltWorldOrientation,
   // fetched below) and carry no hover-tooltip teaser of their own - the
@@ -41399,6 +41459,14 @@ function openPanel(m){
   // still-embedded m.documentedStories.
   panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
     const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
+    // Narration exists only for stories listed in the audio manifest.
+    const audioKey=m.id+'-'+item.dataset.storyIdx;
+    docStoryAudioKeys().then(keys=>{
+      const slot=item.querySelector('.docstory h4');
+      if(keys.has(audioKey)&&slot&&!item.querySelector('.narration'))slot.insertAdjacentHTML('afterend',
+        '<div class="narration"><audio controls preload="none"><source src="audio/docstories/'+esc(audioKey)+'.mp3" type="audio/mpeg"></audio>'
+        +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>');
+    });
     summary.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
     summary.addEventListener('mousemove',positionTip);
     summary.addEventListener('mouseleave',hideTip);
@@ -41409,13 +41477,18 @@ function openPanel(m){
   if(isBuiltWorld)loadBuiltWorldOrientation(m.id);
   syncWorldURL(m.id);
 }
+let _docStoryAudioKeys=null;
+function docStoryAudioKeys(){
+  if(!_docStoryAudioKeys)_docStoryAudioKeys=fetch('audio/docstories/manifest.json').then(r=>r.ok?r.json():{}).then(j=>new Set(Object.keys(j))).catch(()=>new Set());
+  return _docStoryAudioKeys;
+}
 function openPanelStory(s){
   hideTip();
   let h=`<h2 id="panelTitle">${esc(s.title)}</h2>
     <p class="meta">${esc(String(s.year))} · ${esc(s.region||'')}</p>
     <span class="statuspill">${esc(s.confidence)} · a story, not a movement</span>`;
   if(s.teaser)h+=`<p class="teaser">${esc(s.teaser)}</p>`;
-  if(s.text)h+=`<h3>The Story</h3><p>${esc(s.text)}</p>`;
+  if(s.text)h+=`<h3>The Story</h3><div class="narration"><audio controls preload="none"><source src="audio/stories/${esc(s.id)}.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>${esc(s.text)}</p>`;
   if(s.caveat)h+=`<h3>What's solid, what's retold</h3><p>${esc(s.caveat)}</p>`;
   if(hasContent(s.relationsSummary))h+=`<h3>How it connects</h3><p><i>${esc(s.relationsSummary)}</i></p>`;
   const related=(s.relatedIds||[]).map(id=>byId[id]).filter(Boolean);
@@ -41428,7 +41501,8 @@ function openPanelStory(s){
       return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
     }).join('');
   }
-  panelBody.innerHTML=h;
+  stopNarration(); panelBody.innerHTML=h;
+  narrCardReady();
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41437,7 +41511,7 @@ function openPanelStory(s){
 }
 function openPanelEdge(edg,a,b){
   hideTip();
-  panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
+  stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
     <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
     <p>${esc(edg.note)}</p>`;
   showPanel();
@@ -41501,7 +41575,7 @@ function openPanelRiver(f,members){
   h+=`<h3>Movements in this river</h3><ul class="voices">${members.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(m.dates)}</li>`
   ).join('')}</ul>`;
-  panelBody.innerHTML=h;
+  stopNarration(); panelBody.innerHTML=h;
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41528,6 +41602,7 @@ function showPanel(){
   document.getElementById('panelClose').focus();
 }
 function closePanel(){
+  stopNarration();
   panel.classList.remove('open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
@@ -41855,8 +41930,9 @@ centerView();
      DEFINED, so its exact position relative to the classic script above
      does not matter. -->
 <script type="module">
-import { RENDERERS } from './assets/orientation-render.mjs';
+import { RENDERERS, narrationUrls } from './assets/orientation-render.mjs';
 window.OrientationRender = RENDERERS;
+window.OrientationNarrationUrls = narrationUrls;
 if (window.__orientationRenderResolve) window.__orientationRenderResolve(RENDERERS);
 </script>
 </body>

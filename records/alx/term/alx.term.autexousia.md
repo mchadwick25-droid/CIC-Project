@@ -33,8 +33,7 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.quote.to-believe-or-disbelieve
-plain_meaning: The soul's genuine self-determination - its real power to turn toward or away, to attend
-  or withhold. Without it, formation would be manipulation, not growth.
+plain_meaning: The soul's real power to decide for itself. It can turn toward or away, and it can pay attention or hold back. Without it, formation would be manipulation, not growth.
 world_word: autexousia (self-determination)
 false_friend:
 - freedom as the bare power to choose anything at all, unweighted toward any direction

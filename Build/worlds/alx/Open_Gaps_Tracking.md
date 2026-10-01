@@ -342,3 +342,19 @@ Status: OPEN, future work — not blocking, not attempted here.
 Found during the Live-Surface-Cleanup pass. The CCEL edition of Curtis's translation of Origen's *On Prayer* reached CCEL via two intermediaries from private papers, undated; a supplied ThML export did not resolve the provenance question. The record's own settled outcome (accepted as an absence for now, NOT vendored) stays in `note`; the open chain-of-custody caution moved here rather than sitting unresolved in a live field.
 
 Status: OPEN — no action needed now; revisit if this source is ever proposed for vendoring.
+
+### OG-11. alx's first M3 sealed live-admission battery run against its current (2026-09-26-rebuilt) package, 2026-09-27 — 28/28 probes pass, nothing to fix.
+
+Closing this world's own share of the fleet-wide gap named in `Build/Ministry/Operations/Audits/CiC_M2_Migration_Validation_Gap_Audit_2026-09-27.md`: every deployed world but rzg (which got its own first post-rebuild run 2026-09-27, `Open_Gaps_Tracking.md` item 50) had never had `engine.m3.live_admission_run` (the live-Bedrock-spend, 28-probe sealed admission battery) run against the M2-compiled package it currently pins, only against legacy per-world files predating the 2026-09-26 fleet-wide rebuild. `python3 -m engine.m2.cli staleness-check` confirmed `packages/alx/2026-09-26T20-11-24Z` clean beforehand.
+
+Run as part of one batch invocation covering alx, cappadocian, desert, and don (`--worlds alx,cappadocian,desert,don`; gallic split into its own invocation after this one's own `--max-usd $3.00` ceiling stopped before gallic's billed calls — see gallic's own OG-17 for that detail). Result: **28/28 sealed probes pass**, real cost **$0.4618755**. Full report: `engine/m3/reports/live-admission-report-batch1-2026-09-27.json` (`worlds.alx`).
+
+No probe failed, so there is nothing here for a next thread to fix. This entry only closes the "never re-tested against the current pin" gap the audit named for this world.
+
+### OG-12. The voice-knowledge rulings do not reach force, gravity, contested-claim or figure records, 2026-10-01 — 27 force, gravity and world_core fields held for review
+
+R26 (ruled 2026-09-22) and Process V2.0 line 982 say the voice knows only what its own sources, or the world in its own time, would have known. The checks behind them cover the voice's turns and a limited list of fields. They do not cover the force, gravity, contested-claim and figure records, which the voice reads when they are retrieved. No rule says how far past the horizon an ending or transmission force may reach, and no gate checks a record against the time window. Confidence tags, source ids and "cross-build" wording are not gated in those records either.
+
+Held: 27 force, gravity and world_core fields stay out of the readability rewrite until each is reviewed against R26 and V2.0 line 982 (would the world have known it in its own time?). Later-belief content is cut or flagged; the remainder is then made readable. Done: the builder notes in `world_core.cautions` were removed and that field was rewritten for readability, since the edit put it under the readability gate.
+
+Status: OPEN — the 27-field review is next.

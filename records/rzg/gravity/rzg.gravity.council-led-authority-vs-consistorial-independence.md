@@ -48,4 +48,4 @@ manifestations:
 - the Perrinist crisis (resolved 1555), the sharpest, most concentrated test of Geneva's own pole
 classification: tensional
 ---
-Built from Doc_04_Gravity_Discovery.md SS3 (Approved to proceed, Revision 2), carrying that document's own classification and reasoning directly. `relations` mirrors Doc_08 Section 5's own 'Connected forces' list for this gravity exactly, per that document's own explicit caution against force-fitting a connection its own words do not support.
+`relations` mirrors the forces analysis's list of connected forces for this gravity. `sources` is empty on purpose: the gravity tests the tension against each pole's own institutional history (Zurich's council-led governance; Geneva's 1541 Ordinances and the Perrinist crisis), not against a quoted passage in a vendored primary text. Citing `rzg.source.ecclesiastical-ordinances-1541` here would present an unvendored source as licensing this record's claim.

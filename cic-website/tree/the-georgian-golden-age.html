@@ -69,6 +69,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -119,6 +122,14 @@ li{margin-bottom:.5rem}
 
   <section>
     <h2>About This Movement</h2>
+    
+    <div class="narration">
+      <audio controls preload="none">
+        <source src="../audio/tree/the-georgian-golden-age.mp3" type="audio/mpeg">
+      </audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
     <div class="reading"><p>For two and a half centuries Georgia was a real power in the Caucasus, and its church rose with it. David IV, called the Builder, broke the Seljuk hold at the battle of Didgori in 1121, and in 1106 had begun the monastery of Gelati, which was also an academy: philosophy, astronomy, rhetoric and Greek taught alongside the liturgy, with the Neoplatonist Ioane Petritsi among its scholars. Under his great-granddaughter Tamar the kingdom reached its widest extent, its churches were covered in frescoes, and its language was given a literature to match. The age ended not in decline but in conquest — after the Mongol invasions Georgia became a tributary state, and the death of Queen Rusudan in 1245 closes the age.</p></div>
   </section>
 

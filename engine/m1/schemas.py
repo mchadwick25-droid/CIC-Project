@@ -350,6 +350,23 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "formation_logic": {"type": "string"},
         "thinness": {"type": "string"},
         "cautions": {"type": "string"},
+        # Optional, additive: whether and how this world's formation
+        # corresponds to a living tradition still practiced today
+        # (Constitution Article 29) - spoken in the same first-person
+        # register as horizon/formation_logic/thinness/cautions above, and
+        # compiled into build_prompt() the same way (see that function's own
+        # comment). Root-caused and added per Open_Gaps_Tracking.md OG-45/
+        # OG-48: witt's own world_core record authored this content honestly
+        # in its body, disclosing at authoring time that no such field
+        # existed yet ("pending a future schema change-order... the same way
+        # thin_topics was added structurally after thinness/cautions already
+        # existed in prose") - so the M2 compiler had no code path to read
+        # it, and a project-lead-confirmed Article 29 determination never
+        # reached the deployed prompt. Left unset, a world_core record has
+        # nothing to say here (most do not yet have a confirmed Article 29
+        # determination at all). Not yet in COMPLETION_REQUIRED - existing
+        # world_core records validate unchanged without it.
+        "living_traditions": {"type": "string"},
         # Optional, additive: a structured index
         # over the same ground `thinness`/`cautions` already state in prose,
         # so a gate can cross-check a claim against a world's own named gaps
@@ -367,6 +384,10 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "additionalProperties": False,
             },
         },
+        # Optional. The finding Doc_07's whole-ecology reading yields that no
+        # single lens shows. Analytical prose, never compiled into the
+        # prompt; the World Profile view renders it.
+        "integrative_observation": {"type": "string"},
     },
     "source": {
         "author": {"type": "string"},
@@ -483,7 +504,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
     "quote": {
         "text": {"type": "string"},
         "speaker_or_author": {"type": "string"},
-        "license": {"enum": ["verbatim", "paraphrase-only", "do-not-voice"]},
+        "license": {"enum": ["verbatim", "paraphrase-only"]},
         # Quote's own version of term's senses.translational (Glossary/
         # Story/Quote Template SS3) - not yet in COMPLETION_REQUIRED;
         # existing quote records validate unchanged without it.
@@ -609,6 +630,17 @@ TYPE_PROPERTIES: dict[str, dict] = {
         },
         "characteristic_concerns": {"type": "array", "items": {"type": "string"}},
         "guard": {"type": "string"},
+        # Optional. The approved-source anchoring paragraph (Representative
+        # Construction Framework, Approved Source Anchoring): it names 5 to
+        # 10 of the world's own Native sources, images or teachers' words and
+        # says the voice falls back to the plain shape of its own life rather
+        # than reach for a more vivid image from elsewhere. Compiled into the
+        # prompt as its own section only when set.
+        "source_anchor": {"type": "string"},
+        # Optional. The 5 to 10 entries the paragraph is drawn from, one short
+        # name each, every one named verbatim in `source_anchor`. Never
+        # compiled; the deployed-artifact check reads it to count entries.
+        "source_anchor_entries": {"type": "array", "items": {"type": "string"}},
     },
     "search_record": {
         "query": {"type": "string"},

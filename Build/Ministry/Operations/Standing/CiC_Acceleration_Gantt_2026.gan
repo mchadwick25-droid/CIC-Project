@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="CiC Acceleration Jul-Dec 2026" company="Church in Conversation" webLink="" view-date="2026-07-13" view-index="0" gantt-divider-location="440" resource-divider-location="300" version="3.2.3247" locale="en">
     <description><![CDATA[Master schedule from CiC_Acceleration_Plan_Jul-Dec_2026_V0_1_DRAFT (Build/Ministry/Funding).
-Milestones marked with GATE are the funding/launch gates. Keep in sync with Build/Ministry/Operations/CiC_Task_Board_2026.md.
+Milestones marked with GATE are the funding/launch gates.
 Update rule: mark tasks complete here (percent), then refresh the task board's DO NOW list from whatever has all predecessors done.
 2026-07-22: tasks 439-452 (the TR-* Hosted Tour feature) deferred to Phase 2+ per Mark's direct descope
 decision -- not in the current build cycle. Done tasks (439, 441, 442) kept complete=100, renamed

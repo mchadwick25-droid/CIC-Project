@@ -1403,3 +1403,28 @@ Doc-hygiene classifier run against main's current tip, all eleven surfaces, comp
 Fleet size unchanged at 11.
 
 Other triage notes, no action needed: PR #588's `lpc` M2/M9 failures are pre-existing registration gaps that unmerged PR #586 fixes directly - correctly left to #586, not chased as a #588 problem. PR #246 has never had CI run at all (`total_count: 0` check runs, `mergeable_state: dirty`, stale since 2026-09-16, 73 commits behind) - needs a rebase from its own owning thread, not a new finding.
+
+## 2026-09-29 — Known-failing Library test registered: `cic/engine/tests_corpus_map.py` (CI step is non-blocking)
+
+Owning finding: Gate-layer code review round 1, finding 14 (`Build/Ministry/Operations/Audits/Process-V2.0/Gate_Layer_Code_Review_Round1.md`). The `library-validators` job runs `python cic/engine/tests_corpus_map.py` with `continue-on-error: true` because four of its checks fail on the current corpus map:
+
+- every map filename is a census movement id
+- every bucket on disk is reproducible from staging
+- every author ruling is used by some assignment
+- every transmitted work has its voice assigned somewhere else (orphan: Festal Letter XXXIX, 367)
+
+Owner: the Library thread, which owns `cic/corpus-map/` and its staging. The repair is a data change to the map, not a code change, so this thread does not make it. The step stays non-blocking only while this entry is open. Remove `continue-on-error` from `.github/workflows/ci.yml` in the pull request that clears all four checks, and close this entry in a later dated entry.
+
+## 2026-10-01 — Overdue periodic sweep: main CI red since #665, fixed (PR #666); doc-hygiene classifier shows a large real drop
+
+A scheduled sweep fired 2026-09-26 00:32 UTC but sat unprocessed in this thread's notification queue for several days; running it now against main's current tip (`9c6609c1`, well ahead of where this thread last checked - the repo-structure reorg landed in the gap: `Ministry/`, `worlds/`, `reference/` now live under `Build/`, and a new `Sandbox/` top-level surface exists).
+
+**Main's CI was red** on its last two completed pushes (merges of #659 and #665) - confirmed directly via job logs, not assumed. Root cause: "Cited paths resolve; retired paths absent" failed with "1 new unresolved path citation(s): `Build/worlds/lpc/Open_Gaps_Tracking.md: records/worlds/lpc.yaml`". Not a broken link - that doc's own text explains `records/worlds/lpc.yaml` doesn't exist yet by design ("No registry entry, no `build/` folder before today... Only the project lead creates it"). The citation was legitimate but not yet in `tools/check_paths_baseline.txt`'s accepted set. Regenerated the baseline with `--write-baseline`; the diff was exactly that one line, 0 retired. Verified clean locally, shipped as PR #666, mechanical CI/infra fix per this thread's standing mandate - merging once its own CI confirms green.
+
+**Doc-hygiene classifier**, all eleven surfaces, against main's current tip, compared to the last baseline this thread logged before the gap (`651901f0a`-era numbers): every surface fell sharply, none grew - `engine` 879→76, `records` 4223→269 (now scoped under the same `records/` root), `worlds` (now `Build/worlds`) 9256→2290, `packages` 5911→0, `cic-engine` 19→0, `cic-corpus-map` 75-108→6, `cic-website` 112-144→1, `cic-poc-frontend` 27-28→1, `reference` (now `Build/reference`) 261-429→323, `canon` and `fixtures` flat at 0-1. Read plainly: whatever cleanup campaigns ran during the gap (PR #665's own title names one: "Clear the commentary the lpc library sweep added to the promotion diff") did real, large-scale work. No new finding under this sweep's own rule (falling or flat everywhere) - not re-litigating or re-crediting the work here, just recording the new baseline so future sweeps have an honest comparison point.
+
+**Gap worth naming, not fixing here:** `tools/check_live_commentary.py`'s `SURFACES` dict has no entry for the new `Sandbox/` top-level directory, which CLAUDE.md's "Keep the live/canonical surfaces clean" now explicitly covers ("pure code only, held to the same discipline as everything above"). `Sandbox/` currently holds only a `README.md`, so nothing is going unscanned yet - but the gap is real and will start mattering the moment code lands there. Adding a surface takes the same judgment as any other change to that tool (what the sandbox's code actually looks like, what false-positive patterns to expect), so this is flagged for whichever thread owns the tool or the Sandbox workstream, not fixed here.
+
+Fleet size unchanged at 11 formation-kind worlds (`alx`, `cappadocian`, `desert`, `don`, `gallic`, `hal`, `ijc`, `pahc`, `rzg`, `syr`, `witt`) - several new worlds (`aec`, `obel`, `wsyr`, `rcg`, `meth`) are visibly in early library-stage PRs (#624, #623, #618, #617, #616) but none have reached `records/worlds/<code>.yaml` admission yet, so none count toward the watch until they do.
+
+Re-subscribed to every currently-open PR per step 2 (the roster changed substantially over the gap - several PRs this thread had been watching merged or closed on their own; several new ones opened). No other red check surveyed across the open-PR sweep looked repo-wide; PR-specific failures already in flight (the lpc-registration gap on #588, the stale-fixture line-pinning pattern on branches older than main's own fix) are unchanged in kind from what this thread logged before the gap and remain each PR's own to resolve.

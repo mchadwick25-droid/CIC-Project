@@ -268,7 +268,7 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
 
 def gate_quote_recording(records, fleet, registry) -> list[str]:
     findings = []
-    valid_licenses = {"verbatim", "paraphrase-only", "do-not-voice"}
+    valid_licenses = {"verbatim", "paraphrase-only"}
     for rid, rec in records.items():
         if rec.get("record_type") != "quote":
             continue
@@ -277,6 +277,16 @@ def gate_quote_recording(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: license {license_!r} is not one of {sorted(valid_licenses)}")
         if _is_blank(rec.get("text")) or _is_blank(rec.get("speaker_or_author")):
             findings.append(f"{rid}: quote must record both text and speaker_or_author")
+        # A non-English original is primary evidence, with modern_rendering
+        # as its own translation (the library ruling that original-language
+        # sources can be primary evidence) - `text` is the record's own
+        # verified original wording, never itself the spoken form. Required
+        # on every quote, not just non-English-sourced ones: one rule,
+        # applied the same way fleet-wide, rather than a per-record carve-
+        # out keyed to a source language a builder would have to remember
+        # to check.
+        if _is_blank(rec.get("modern_rendering")):
+            findings.append(f"{rid}: quote must record modern_rendering - the spoken form, never text itself")
     return findings
 
 
@@ -490,6 +500,13 @@ _READABILITY_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator
 # those free-text notes.
 _READABILITY_EXCLUDED_FIELDS = {("quote", "text"), ("story", "text")}
 
+# A participant's turn in a demonstration exchange is a record of what the
+# participant said, like quote.text, not prose the project authors, so it
+# is never readability-graded. Only turns
+# whose `speaker` is "participant" are skipped; the world's own turns in
+# the same exchange are graded exactly as before.
+_READABILITY_EXCLUDED_SPEAKERS = {("demonstration", "exchange"): {"participant"}}
+
 # The three declared SPOKEN fields whose value is a list of {..., <key>}
 # objects rather than a bare string or list[str] - the sub-key each one's
 # own prose lives under. Read directly off each field's own real shape
@@ -518,7 +535,10 @@ def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
             continue
         list_key = _READABILITY_LIST_TEXT_KEY.get((record_type, field))
         if list_key is not None:
+            skip_speakers = _READABILITY_EXCLUDED_SPEAKERS.get((record_type, field), set())
             for item in value:
+                if isinstance(item, dict) and item.get("speaker") in skip_speakers:
+                    continue
                 text = item.get(list_key) if isinstance(item, dict) else None
                 if text:
                     tag = item.get("segment") or item.get("number") or item.get("speaker") or ""
@@ -530,6 +550,15 @@ def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
         elif isinstance(value, str):
             checks.append((field, value))
     return checks
+
+
+def grade_text(text: str) -> dict | None:
+    """The one place a field's FK grade and FRE are taken for the readability
+    gate: {"fk", "fre"}, or None when the text is under
+    MIN_WORDS_FOR_READABILITY_CHECK words and so is not graded at all."""
+    if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
+        return None
+    return {"fk": fk_grade(text), "fre": fre_score(text)}
 
 
 def _grade_records(items) -> list[str]:
@@ -552,14 +581,13 @@ def _grade_records(items) -> list[str]:
     findings = []
     for rid, rec in items:
         for field, text in _readability_checks(rec.get("record_type"), rec):
-            if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
+            graded = grade_text(text)
+            if graded is None:
                 continue
-            grade = fk_grade(text)
-            if grade > FK_CEILING:
-                findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, above the ceiling of {FK_CEILING}")
-            fre = fre_score(text)
-            if fre < FRE_FLOOR:
-                findings.append(f"{rid}: {field} scores FRE {fre:.1f}, below the floor of {FRE_FLOOR}")
+            if graded["fk"] > FK_CEILING:
+                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, above the ceiling of {FK_CEILING}")
+            if graded["fre"] < FRE_FLOOR:
+                findings.append(f"{rid}: {field} scores FRE {graded['fre']:.1f}, below the floor of {FRE_FLOOR}")
     return findings
 
 
@@ -610,11 +638,9 @@ def _floor_observations(items) -> list[str]:
     findings = []
     for rid, rec in items:
         for field, text in _readability_checks(rec.get("record_type"), rec):
-            if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
-                continue
-            grade = fk_grade(text)
-            if grade < FK_FLOOR:
-                findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
+            graded = grade_text(text)
+            if graded is not None and graded["fk"] < FK_FLOOR:
+                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
     return findings
 
 
@@ -681,6 +707,20 @@ VOICE_CRAFT_WORD_CEILING_BY_WORLD = {
 }
 
 
+def voice_craft_prompt_parts(rec: dict) -> list[str]:
+    """The voice_craft fields that compile into every turn's prompt, as the
+    texts the word budget counts."""
+    parts = [rec.get("identity") or "", rec.get("guard") or ""]
+    parts += [n.get("note", "") for n in (rec.get("flavor_notes") or [])]
+    parts += list(rec.get("characteristic_concerns") or [])
+    parts.append(rec.get("source_anchor") or "")
+    return parts
+
+
+def voice_craft_word_ceiling(rec: dict) -> int:
+    return VOICE_CRAFT_WORD_CEILING_BY_WORLD.get(rec.get("world_id"), VOICE_CRAFT_WORD_CEILING)
+
+
 def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
     """The four voice_craft fields compile into every turn's own prompt
     (engine/m2/builders.py build_prompt(), "Who we are"/"How we speak") -
@@ -698,11 +738,8 @@ def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
     for rid, rec in records.items():
         if rec.get("record_type") != "voice_craft":
             continue
-        parts = [rec.get("identity") or "", rec.get("guard") or ""]
-        parts += [n.get("note", "") for n in (rec.get("flavor_notes") or [])]
-        parts += list(rec.get("characteristic_concerns") or [])
-        total_words = sum(len(p.split()) for p in parts)
-        ceiling = VOICE_CRAFT_WORD_CEILING_BY_WORLD.get(rec.get("world_id"), VOICE_CRAFT_WORD_CEILING)
+        total_words = sum(len(p.split()) for p in voice_craft_prompt_parts(rec))
+        ceiling = voice_craft_word_ceiling(rec)
         if total_words > ceiling:
             findings.append(
                 f"{rid}: identity+guard+flavor_notes+characteristic_concerns total "
@@ -764,7 +801,7 @@ _ATTRIBUTION_FIELDS = ATTRIBUTION_FIELDS
 #     here is still worth a human's eyes before treating it as confirmed,
 #     same as any other gate finding in this battery.
 #   - _STALE_STATUS: e.g. "WORKING SCOPE, NOT A RULING: world identity is
-#     still open; this record is draft until that decision and revises
+#     undecided; this record is draft until that decision and revises
 #     with it" - the one leak shape with no ISO date in it at all, so it
 #     needed its own pattern (the pattern matches the literal phrase
 #     "NOT A RULING", the marker a record author would actually type).
@@ -1109,7 +1146,7 @@ def gate_id_convention(records, fleet, registry) -> list[str]:
 # missing mechanical check that a world_front record's own authored prose
 # actually followed that rule, rather than trusting review to catch it by
 # eye every time.
-_QUOTE_NEVER_QUOTABLE_LICENSES = {"paraphrase-only", "do-not-voice"}
+_QUOTE_NEVER_QUOTABLE_LICENSES = {"paraphrase-only"}
 
 # Straight or curly double quotation marks only - deliberately not single
 # quotes/apostrophes (') or curly single quotes (' '): those collide with
@@ -1172,9 +1209,9 @@ def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
     """Any text a world_front record renders inside quotation marks must
     match a quote record's `modern_rendering` field exactly - never `text`
     (the quote-rendering rule; see this module's own comment above).
-    Material whose license is `paraphrase-only` or `do-not-voice` must
-    never appear inside quotation marks at all, from either field,
-    regardless of whether it happens to match.
+    Material whose license is `paraphrase-only` must never appear inside
+    quotation marks at all, from either field, regardless of whether it
+    happens to match.
 
     This is the mechanical version of a defect that has already shipped
     live, twice, on hand-authored site copy: a

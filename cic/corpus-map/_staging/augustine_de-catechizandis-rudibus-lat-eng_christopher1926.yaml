@@ -1,0 +1,14 @@
+source_file: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt
+
+assignments:
+  - work: "Christopher, S. Aureli Augustini De catechizandis rudibus (Latin, English and commentary, 1926)"
+    author: augustine
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A 1926 edition with an English translation and commentary: modern scholarship on a work
+      already in the map, so context, not tradition. Registry row 221. Which Latin text it
+      prints has not been checked.

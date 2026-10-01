@@ -5593,3 +5593,387 @@ Both documents themselves still carry their full reasoning and consequences (cor
 census reassignment, the rewritten sections) — only the explicit "this was Mark's ruling, on this
 date" framing is recorded here rather than restored inline, consistent with keeping the documents'
 own prose to the ruling's substance rather than its provenance narrative.
+
+---
+
+## 2026-09-29 — Build Process V2.0: one world at a time, lean validation by default, mechanical gate layer
+
+Converged with the project lead in a design thread on why the last builds (gallic, cappadocian, witt,
+with lighter passes on don, pahc, syr) missed the current bar, and on what the process needs so a run
+of many worlds builds to that bar. "Converged, auto mode" given 2026-09-29. The Library thread owns
+pre-0, Step 0, Step 1 and Step 2; this thread owns source checking on receipt and Step 3 to freeze;
+go-live is a separate thread.
+
+**Why the last builds missed the bar** (three read-only surveys of the repo; counts as the surveys
+reported them). The tested artifact was the legacy prompt file, not `compiled/prompt.txt` (11 of 12
+worlds, per the 2026-09-27 M2 audit). Confirmed content never reached the compiled prompt
+(living traditions in witt and cappadocian; the `[quotation]` rule named 3 quotes in gallic when 102
+existed and 4 in cappadocian when 21 existed). Same-session reviews passed work that fresh Opus
+reviews failed (7 to 12 further defects per pass). The round cap was not enforced (witt Doc_03 ran 11
+rounds). Fixes caused new readability failures. Required pieces were missing or late. The standard
+moved while worlds were being built. Almost all of the bar was prose with no code behind it.
+
+**Decisions**
+
+1. Shape: Process V2.0 plus a mechanical gate layer (`python -m engine.m10.cli`) that runs before any
+   Opus review. Considered and not taken: a prose-only rewrite; a per-world orchestration layer.
+2. Bar: the four criteria in V1.9 section 0 (Rigor, Accessibility, Craft, Focus; Craft the keystone) are
+   the depth rubric. Depth means drawing on the Library's resources to answer the question that was
+   asked. Zero fabrication anywhere. The review bar is what a church history scholar would call good.
+   Opus 5.5 reviews everything; three rounds of substantial revision, then the document goes to the
+   project lead. Public-facing text must read easily and carry no AI tells: readability is a gate,
+   AI tells are a judgment read against the approved sample, and the Register Bar keeps no word list.
+3. Validation: lean by default (about 10 to 14 blind probes, one live Deep Interview, the 6-question
+   Craft/Focus spot-check), full (two independent trials plus the Table Readiness Round) on
+   code-detected triggers. The trigger definitions are open, see below.
+4. Models: Sonnet 5.5 drafts everything except Doc_04 and Doc_10, which Fable drafts; Opus 5.5
+   reviews everything and authors `modern_rendering`. The pilot drafts Doc_10 with both Sonnet and
+   Fable, Opus grades them blind on the four criteria, and Fable drops out of the process if Sonnet
+   meets the Craft bar.
+5. Deliverables: World Profile and Capsule Core are generated from records; the Validation Layer is a
+   thin attestation of the judgment-only categories; Encounter Ecology Mapping is a short section of
+   the Doc_10 Ecology Assessment; Voice Configuration leaves the build path until audio ships.
+   `world_front`, `facilitator_brief` and the site JSON are built, never waived, for new worlds.
+6. Ten contradictions resolved: Framework V7.4 is the governing Framework; the Framework and RCF cite
+   Completion Standard V1.4; gate labels are M1/M2/M3; the guard-coverage read is retired in favour of
+   the spot-check; the Doc_04 template is cited; the CO-022 label is retired; dead paths are repointed
+   and the session rules restated inside V2.0; the six build skills are rewritten and vendored at
+   `Build/reference/method/skills/`; the register ceiling is a gate (ruling R6); V1.9's Deep Interview
+   figures stand and one ceiling covers the lean set.
+7. Pace and cost: one world at a time by default (CLAUDE.md revised). The plan is Max 20x, the weekly
+   allowance resets Friday at 2:00 pm, and at least half of it goes to building. Two ledgers per
+   world, kept apart: allowance share and metered spend in dollars. Target 3 to 5 worlds a week means
+   about 16 percent (3) or 10 percent (5) of a week's allowance per world; the pilot measures the real
+   number and the pace is not promised. Two pilot worlds first, one well-sourced and one thin-evidence.
+
+**Open (recorded, not decided)**
+
+- Metered-spend ceiling for one world's lean validation set: the project lead sets the number before
+  the pilot.
+- The two pilot worlds.
+- Trigger definitions for full validation. Proposed to the project lead, not yet answered: thin
+  evidence is a Primary gravity tagged Inferential-Thin; contested is a Primary gravity whose own
+  confidence tag is Contested (a contested claim merely attached to a Primary gravity fires on nearly
+  every world); safety-adjacent is a yes/no field on the registry entry set by the project lead at
+  handoff; fabrication is a structured finding column. Needs a small schema addition on the registry.
+- Whether a lean result may be reported as "confirmed" or "clean" in the Framework's sense. A drafter
+  wrote a rule that it may not; it was removed because the project lead had not decided it.
+- `world_core` needs a field for the integrative observation (and the Capsule's inhabited-voice text);
+  the schema has no `telos` field. Both are engineering items listed in V2.0.
+- The World Profile generated view is not built.
+- Branch protection: the CI job formerly named for the commentary scan is now `live-commentary` and is
+  blocking on pull requests, scoped to changed files. Any required-checks setting that names the old
+  job needs updating.
+
+**Found while building the gate layer (reported, not fixed here)**
+
+- `cic/corpus-map` test `tests_corpus_map.py` fails on main (4 checks); its CI step is set to
+  continue-on-error until the Library thread fixes it.
+- `cic/texts/REGISTRY.yaml` lacked rows for the two synthetic fixture texts; rows added so the registry
+  check passes. Library thread to confirm.
+- Prose in `world_front` and `facilitator_brief` records was never graded by the readability gate; on
+  the records sampled most fields fail FK 10 or FRE 60 (syr 32 of 49 fields, don 58 of 58). New worlds
+  are held to the gate; existing worlds are reported by `regate` only where a field changes.
+- gallic: the `[self-reference]` note lacks the four hardening rules (the known gap in six worlds);
+  `Open_Gaps_Tracking.md` names `gallic.quote.chaeremon-on-grace-and-free-will`, which is not a record;
+  two Phase D interview files name no package pin; the legacy validation matrices have no four-criteria
+  columns. For the gallic thread to log and fix.
+- 13 historical review and log documents cite the retired path of Completion Standard V1.3; they are
+  accepted in the path-check baseline and left as written.
+
+Reviews of this work are saved in `Build/Ministry/Operations/Audits/Process-V2.0/`.
+
+---
+
+## 2026-09-29 — Build Process V2.0 addendum: rulings given, review rounds closed, change orders awaiting confirmation
+
+Addendum to the entry "Build Process V2.0: one world at a time, lean validation by default, mechanical
+gate layer" above. Where that entry lists an item as open, this addendum gives its present state.
+
+**Rulings the project lead gave in the design thread**
+
+- Full-validation triggers accepted as proposed: thin evidence is a Primary gravity tagged
+  Inferential-Thin; contested is a Primary gravity whose own confidence tag is Contested; safety-adjacent
+  is the yes/no field `safety_adjacent` on the registry entry, set by the project lead at handoff;
+  fabrication is the structured `Fabrication` column in probe and interview result rows. An
+  unevaluable trigger reports `undetermined` and stops.
+- Validation Layer attestation adds Ecological Integrity (Balance, Reduction, Complexity, Emergence,
+  Worship Integration) and Differentiation to the four judgment categories already listed.
+- Encounter success: the four Article 6 conditions (the voice stays itself, the participant keeps
+  authorship, tensions are held, nothing is steered) are graded in the Deep Interview as a fifth check.
+  No separate battery, no added spend.
+- Every strength the preservation audit rated worth restoring is restored. The audit
+  (`Build/Ministry/Operations/Audits/Process-V2.0/Preservation_Audit_Round1.md`) counted 146 items:
+  105 carried, 16 replaced by decision, 18 weakened, 7 lost.
+- The World Profile generated view is now built (`python -m engine.m2.cli profile <code>`, on demand,
+  outside the compiled package). It reads INCOMPLETE while section 4 is not carried by records.
+
+**Review rounds.** Round 1 (documents, launch prompt and skills, gate code, preservation audit), round 2
+and round 3 are saved in `Build/Ministry/Operations/Audits/Process-V2.0/`. The three-round cap is reached.
+Round 3 left findings for the project lead; they are listed under "Awaiting confirmation" below.
+
+**Change orders awaiting confirmation** (made or proposed; the project lead has not yet answered)
+
+1. Construction Framework V7.4 freeze paragraph edited so it states the lean default and the full
+   validation requirement, matching Completion Standard V1.4 section C. The Framework's Validation
+   Protocol Rigor section still says a round cannot count toward a Freeze Criterion without two trials.
+   Proposed change: add one sentence to that section's scope, that for a Representative freeze the lean
+   default applies and the protocol binds full validation and any report of "confirmed", "clean" or
+   "closed".
+2. Probe parity (B-8) is a single trial on the lean path and two trials on full validation. It follows
+   from the lean-by-default ruling; confirm it as the rule.
+3. Ruling numbers in the process documents: 17 bare ruling numbers (for example R27, R41) remain in the
+   governing method documents and are the main remainder of the blocking commentary check. Proposed:
+   drop the bare numbers where the rule is already stated in place, and reword 11 further lines. Not yet
+   done.
+4. Adopted without waiting, as a mechanical CI change that keeps the rule as strict as before: the narrow
+   classifier rule in `tools/check_live_commentary.py` that stops flagging process vocabulary (reviewer,
+   round, route) in the process documents, the vendored skills and the L4 templates, and still flags
+   history narration, dates and provenance. It passes all labelled tests. Reverse it if the project lead
+   prefers.
+5. Whether a lean result may be reported as "confirmed" or "clean" in the Framework's sense is still
+   open; it is tied to item 1.
+
+**Flagged for other threads (not touched here)**
+
+- `Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` belongs to the website thread. It
+  cites the retired V1.9 process path at line 1233; the path check accepts that in its baseline. It also
+  carries about 58 lines of real commentary. Options for that thread: move it to `Build/Ministry/`, or
+  clean it in place.
+- `Build/reference/method/CiC_Register_Bar_2026-08-29.md` carries real commentary (dated headings and
+  provenance notes); minimal rewrites are in section 3 of `Round3_Recheck.md`.
+- `Build/reference/L4-Templates/CiC_Facilitator_Brief_Backlog.md`, Entry 2 (Athanasius of Alexandria): the
+  assessment is open; the heading no longer carries the status.
+- Transparency Engine thread: `inherited_ungrounded` stays report-only because of a known
+  exemption-asymmetry bug; it needs a tracking entry there.
+
+---
+
+## 2026-09-29 — Build Process V2.0: round-3 decisions resolved, two principles added
+
+The project lead ruled on the items left open in the addendum above.
+
+**Resolved**
+
+1. Construction Framework V7.4: the freeze-paragraph edit is approved, and one sentence is added to the
+   Validation Protocol Rigor scope: for a Representative freeze the lean default applies; the protocol
+   binds full validation and any report of "confirmed", "clean" or "closed". A lean result may not be
+   reported as confirmed or clean in the Framework's sense. The docx differs from its prior text by that
+   one sentence only.
+2. Probe parity is a single trial on the lean path and two trials on full validation. It is stated once
+   in V2.0 (B-8) and matches the Standard and the validation skill.
+3. Bare ruling numbers are dropped from the governing method documents, skills and templates. Each rule
+   stays fully stated in place, and one directory pointer to
+   `Build/Ministry/Features/Conversation-Transparency-Engine/` carries provenance.
+4. The narrow classifier rule in `tools/check_live_commentary.py` is kept and now also covers the
+   Adversarial Review practice document; the practice keeps its own terms ("adversarial review",
+   "reviewer") because they are the project's vocabulary, not commentary. `--enforce --base` exits 0.
+
+**Two principles stated by the project lead, now in V2.0 section 0 and in the places they bind**
+
+- We speak only from the world's perspective: the Representative speaks as the world, first person
+  plural, never "this world" or "it". The `voice-perspective` gate in `engine/m1/gates.py` enforces it.
+- Right answers first: validation grades the first generated answer. A regenerated, retried or revised
+  answer never counts as a pass, and a runtime revision earns no credit for the world's answer quality.
+  A defect found in testing is fixed at its source (the record, the prompt, the guard, the retrieval),
+  never patched by a later rewriting step.
+
+**Still owed by the project lead before the pilot:** the metered-spend ceiling for one world's lean
+validation set; the two pilot worlds; and the `/usage` reading at the start of each world. The
+Athanasius of Alexandria assessment in the Facilitator Brief backlog is still open.
+
+---
+
+## 2026-09-29 — `lpc` re-baseline: accept the approvals it holds, check what was left open, build the rest to V2.0
+
+The project lead asked that `lpc` be finished in a separate thread to Process V2.0 standards. A read-only
+assessment (handoff and gate checks run against the world without changing it) found `lpc` far ahead of a
+fresh world in content and far behind V2.0 on paperwork. Steps 0 to 9 and the old Representative phases 1
+to 7 are approved to proceed (self-disposed, or by the project lead's direct instruction, some after more
+than three review rounds). About 309 records are authored. There is no registry entry, no `build/` folder,
+no Doc_10, and no observed validation: the old phase 5 battery was simulated. Handoff failed 8 of 12
+checks, and six documents (Steps 0, 1, 2 and Docs 04, 08, 09) exceed the three-round cap.
+
+**Alternatives considered**
+
+- A. Accept every existing approval and check nothing further. Cheapest; leaves carried-open findings
+  unchecked by anyone independent.
+- B. Re-baseline everything: re-review the older documents under V2.0, Doc_04 redrafted by Fable.
+  Strongest and most expensive; risks reopening rounds beyond the cap and destabilising Docs 05 to 09
+  and the records that cite Doc_04.
+- C. Accept the approvals, check what was left open, build everything from the records stage onward to
+  V2.0. Chosen.
+
+**Ruling (project lead, 2026-09-29): C.** Approvals stand. Targeted independent Opus 5.5 checks cover only
+what was left open: the Doc_04 findings carried from rounds 5 to 11 and its ruled classification of
+candidate 5; the Doc_08 generator findings; the Doc_02 and Source Registry review that never returned;
+the carried-open findings in Docs 03, 05, 06 and 07, including Doc_07's missing lens spine. These are
+independent re-confirmations, not new revision cycles. Doc_10 is drafted fresh. Old review files are not
+re-headed.
+
+**Change order: the handoff gate.** V2.0 blocks any world whose handoff fails, and `lpc` is not one of the
+eleven grandfathered worlds. To carry ruling C, `engine.m10.cli handoff` accepts a project-lead
+re-baseline declaration at `Build/worlds/<code>/build/<code>_Rebaseline_Declaration.md`. The declaration
+accepts only two pre-V2.0 approval-history checks (the review-round cap, and older approval wording such as
+"CLEARED"), only for a world built before V2.0, and only while the recorded counts still match the files on
+disk. Each accepted item is printed as `ACCEPTED (project lead declaration <date>)`. It never accepts a
+missing registry entry, an unset `safety_adjacent`, unverified quotes, a missing manifest, or process
+narration. Template: `Build/reference/L4-Templates/Handoff_Rebaseline_Declaration_Template.md`.
+
+**Open, to bring to the project lead at the end of the thread's first phase:** the registry entry
+(`census_id`, `state`, `safety_adjacent`), including the conflict between Article 29's confirmed living
+tradition (`true`, 2026-09-16) and the census entry (`living: false`); the Tier-3 question on `lpcstory006`;
+whether the Decision Log entry suffices for Datus's identity or an options file must exist; the
+metered-spend ceiling; whether `lpc` is a pilot world (Doc_10 drafted by both Sonnet and Fable); and whether
+`lpc_Decision_Log.md` (679 KB) moves to `Build/Ministry/`.
+
+Launch prompt: `Build/Ministry/Operations/Standing/Launch-Prompts/CiC_lpc_Build_Launch_Prompt_V2.0_2026-09-29.md`.
+
+## 2026-09-30 — Doc_10 Sonnet-versus-Fable test: decision rule C
+
+**Ruling (project lead, 2026-09-30): rule C.** In the pilot worlds, Sonnet 5.5's Doc_10 must clear the absolute
+bar in both worlds (all five Craft bar items (a) to (e) pass, zero fabrication, readability gates clear, in both
+grading passes) and must not be preferred against on Craft by both graders in a world. If Sonnet fails in either
+world, Fable stays for Doc_10 as well as Doc_04. If it passes in both, Fable is needed only for Doc_04. If Sonnet
+meets the bar and the drafts tie, Sonnet's draft continues.
+
+Alternatives considered:
+
+- A. Absolute bar only. Simple, but it can pass a draft that clears the checklist and is still plainly flatter
+  than Fable's.
+- B. Relative bar only. It catches "flatter", but it can pass a draft that fails a checklist item when Fable's
+  fails too.
+- C. Both. Chosen. Two worlds is a small sample. Dropping Fable saves allowance, but a weak voice costs every
+  later world.
+
+Where it lives: `Build/reference/method/CiC_Pilot_Protocol_V2.0.md` (running order, blinding by the `blind`
+command, grading, pilot report, stop rules). Templates:
+`Build/reference/L4-Templates/Pilot_Doc10_Blind_Grading_Sheet_Template.md` and
+`Build/reference/L4-Templates/Pilot_Report_Template.md`. Process V2.0 Sections 2, 3 and 11 point to it.
+
+## 2026-09-30 — Review cap counts every review file; shakedown of the V2.0 gate layer against the fixture world
+
+**Ruling (project lead, 2026-09-30): every review file on a document counts toward the cap of three.** A
+Review, a Recheck, a SpotCheck or any other review-type file counts as one, whatever its verdict.
+
+Alternatives considered:
+
+- A. Count distinct round numbers (the counter's earlier behaviour). Rejected. A Recheck or SpotCheck file
+  could be added without limit under an already-used round number, and the cap would stop capping.
+- B. Count every review file. Chosen. The count is what is on disk, and nothing can be added quietly.
+
+**Shakedown.** The V2.0 gate layer was run end to end against the fixture world. It found defects in the
+gates and mismatches between the gates and the V2.0 document, the launch prompt and the skills. Both were
+fixed on branch `claude/shakedown-fixes`.
+
+**Engine fixes.** The round counter counts review files, not distinct round numbers, and the re-baseline
+declaration and the handoff gate use the same count. `integrity` runs the stale-package check by default and
+takes a skip flag, as `deployed` does. `prereview` accepts `--doc 0` for Step 0, saves its output as the
+review brief, and fails when the document is missing. `regate` names each unchanged failing field on a "not a
+regression" line. The handoff gate checks that every corpus-map row carries a `row_id`. The locus check lists
+the valid loci when one is wrong. `holdings` runs for a new world before any records exist. The probe-results
+template was aligned with what `validation` reads.
+
+**Document fixes.** V2.0, the V2.0 launch prompt and the skills state the file-count cap in plain words,
+with the review-file naming convention, and no longer count distinct rounds. V2.0 Section 3 gains one table of
+per-world file names and the command that reads each. The `site_cli build` usage shows both required flags
+and where their values come from. The text now matches the code on the stale check in `integrity`, on
+`probes` and `validation` (an observed row per Part Eight category, and a `full` verdict exits 0), on
+`prereview`, on `regate`, on the fixture exemption in `deployed`, on plain-text loci (`line<N>`), on `holdings`
+for a new world, and on `row_id` and `shelf_row`. It also records the builder traps (the census entry
+already exists, the project lead sets `safety_adjacent`, the repin order, which gates take `--root`) and
+which commands are slow.
+
+## 2026-09-30 - Round cap: a review ordered after an escalation does not count (change order to rule A)
+
+**Ruling (project lead, 2026-09-30): option A.** The cap of three exists to send a stuck document to the
+project lead. Once he has ruled on an escalated document, his ruling governs what follows. A review he orders
+after the escalation does not count toward the cap, when a decision-log entry headed "Cap ruling" names its
+file. Rule A of the same date is otherwise unchanged: every review file counts.
+
+Alternatives considered:
+
+- A. The cap ends at the escalation, and a review the project lead orders afterward is covered by his ruling.
+  Chosen. It matches how the cap already works, and it settles the conflict once for every world.
+- B. Rule A holds as written, with a one-time exception for `jes` Step 0. Rejected. Every later escalation
+  would raise the same question again.
+- C. Redo the closing step within the cap. Rejected. Review files are not deleted, so the count cannot go down.
+
+**Gate.** `roundcount`, the handoff gate (checks 2 to 4) and the re-baseline declaration read the entries
+headed "Cap ruling". A file named in one, in backticks, is not counted when three files already precede it in
+round order. A ruling covers only the files it names. It cannot excuse any of the first three.
+
+**Documents.** `CLAUDE.md`, V2.0 rule 11 and the V2.0 round-counter row state the exception.
+
+## 2026-09-30 - Cap ruling: jes Step 0
+
+Step 0 of `jes` (the Society of Jesus) reached the cap at Round 3 on 2026-09-25, with one substantial finding
+open: the institutional coverage window after 1556 was overstated. The project lead ruled option 1 of the Round
+3 disposition: a bounded spot-check of that one correction, not a new revision round. The spot-check is
+`Step0_Review_Round4_SpotCheck.md`. It returned Clear with 0 P0, 0 P1 and 2 P2. It is the only review this
+ruling covers.
+
+
+## 2026-10-01 - Atlas voice implementation: complete and live
+
+The project lead reports the Atlas voice implementation is complete and live on the website. It covers the world
+stories (193) and the specific stories (about 550). The work is closed.
+
+Atlas navigation is future work and has not been started. It gets its own entry when the project lead opens it.
+
+## 2026-10-01 - Readability gate does not score participant turns (ruling of 2026-09-25, re-landed)
+
+**Ruling.** The project lead ruled "a" on 2026-09-25 (lpc OG-25). A participant's line in a demonstration or
+transcript record is a record of what was said, like `quote.text`, not prose the project authors. The readability
+gate never scores it. The world's own lines (Representative, Facilitator, narration) are scored as before.
+
+**Why.** Tested transcripts must stay verbatim. Scoring a participant's own words would push a build to rewrite
+what a participant said so that it passes a gate.
+
+**Where.**
+- `engine/m1/gates.py`: `_READABILITY_EXCLUDED_SPEAKERS` skips `demonstration.exchange` turns whose `speaker` is
+  `participant`. That is the only field that carries participant turns, and the schema limits `speaker` to
+  `participant` or `representative`.
+- Tests in `engine/m1/tests/test_gate_readability.py`.
+- One rule sentence next to the NorthStar rule in `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md`.
+
+**Measured effect** (failing readability findings, waiver before to after, counted on 2026-10-01):
+
+| world | before | after |
+|---|---|---|
+| alx | 149 | 148 |
+| desert | 162 | 159 |
+| gallic | 110 | 109 |
+| hal | 164 | 163 |
+| pahc | 161 | 160 |
+| rzg | 136 | 134 |
+| syr | 154 | 153 |
+
+cappadocian, don, ijc, witt and the fleet records are unchanged. The seven waivers in `engine/m9/enforce.py` are
+set to the new counts. The full gate run reports every finding waived and every waiver current.
+
+**Re-landing.** The first PR for this ruling (#622) was cut before the repository restructure and carried waiver
+counts that no longer matched. It was closed and the change re-applied on the current tree.
+
+## 2026-10-01 - The do-not-voice quote license is dropped fleet-wide (ruling of 2026-09-25, confirmed and applied)
+
+**Ruling.** The project lead, 2026-09-25: "remove all the do not voice gates, this was something that came out of a
+discussion a long time ago, but wasn't supposed to be a rule, it was a misunderstanding of what no fabrication
+meant." And: "we are honest with the church traditions, we dont hide anything." The ruling was confirmed on
+2026-10-01 and applied to the current tree. The first PR for it (#588) was cut before the repository restructure and
+before later engine changes, so it was closed and the change re-applied from `main`.
+
+**What it changes.** A quote's `license` is `verbatim` or `paraphrase-only`. Nothing is marked as unsayable, and no
+gate checks for it.
+- `engine/m1/schemas.py` and `engine/m1/gates.py`: `do-not-voice` leaves the license values and the never-quotable set.
+- `engine/m4/turn.py`: the violation check and its `voice_event` field are removed. `engine/m4/grounding.py` and its
+  tests are deleted, because the module existed only for that check.
+- `engine/m7/instruments.py` and `engine/m7/session_reader.py`: the audit reader no longer reports the field.
+- Records: `fix.quote.private-teaching` is relicensed `paraphrase-only`. `syr.quote.aphrahat-anti-jewish-frame` is
+  relicensed `verbatim`, and its `modern_lens_note` is rewritten by Opus from the world's own records, with no
+  disclaimer and no invented balancing voice. `syr.term.anti-jewish-polemic` is updated to match.
+- The Redesign-Spec files, the V2.0 process document and the fixtures README no longer describe the license.
+- The syr and fix packages are rebuilt and repinned. The syr Open Gaps file carries the matching entry.
+
+**Left as history.** Earlier decision logs, review files and planning documents that name the license are not
+edited. They record what was true when they were written.

@@ -1,0 +1,13 @@
+source_file: augustine_bekenntnisse-deu_hefele-diederichs1921.txt
+
+assignments:
+  - work: "Augustine, Die Bekenntnisse (German, Hefele 1921)"
+    author: augustine
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A German translation of the Confessions, not the original. The Latin (Knoll) is the
+      tradition entry. Registry row 244.

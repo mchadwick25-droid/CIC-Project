@@ -13,13 +13,16 @@ pieces and a real price table are run together end to end.
 PRICE SOURCE, stated plainly (spec principle 13's own requirement - a price
 table must name where its numbers came from): Anthropic's own published API
 rate card (platform.claude.com/docs/en/about-claude/pricing, fetched
-2026-08-25) for Claude Sonnet 4.5 and Claude Haiku 4.5. AWS Bedrock's own
+August 2026) for Claude Sonnet 4.5 and Claude Haiku 4.5. AWS Bedrock's own
 pricing page could not be fetched directly in this environment (network
 egress to aws.amazon.com is blocked here) - Bedrock has historically
 mirrored Anthropic's direct per-token rates for the same models, but that
 has NOT been independently re-verified against Bedrock's own page for this
 report. Treat these figures as published-rate, not invoice-reconciled -
-the same distinction cost.py's own docstring draws.
+the same distinction cost.py's own docstring draws. The table itself lives
+in engine.m8.price_tables, so the usage dashboard's cost figure
+(engine.api.wiring.get_usage_summary) reuses these exact approved numbers
+instead of a second hardcoded copy.
 """
 import argparse
 import json
@@ -32,33 +35,17 @@ from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import PriceTable, dollars_per_hour, estimate_cost
 from engine.m8.log_store import UsageLogStore
+from engine.m8.price_tables import (
+    HAIKU_4_5_PRICE_TABLE,
+    PRICE_TABLE_SOURCE,
+    SONNET_4_5_PRICE_TABLE,
+    price_for_call_kind,
+)
 from engine.m8.summary import summarize_session
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-cost-report.json"
-
-PRICE_TABLE_SOURCE = (
-    "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, "
-    "fetched 2026-08-25); Bedrock's own pricing page was not independently fetchable in this "
-    "environment (egress to aws.amazon.com blocked) - Bedrock has historically mirrored "
-    "Anthropic's direct per-token rates for the same models, not independently re-verified here"
-)
-
-SONNET_4_5_PRICE_TABLE = PriceTable(
-    input_per_token=3.00 / 1_000_000,
-    output_per_token=15.00 / 1_000_000,
-    cache_write_per_token=3.75 / 1_000_000,  # 5-minute cache write (Bedrock's own default TTL)
-    cache_read_per_token=0.30 / 1_000_000,
-    source=PRICE_TABLE_SOURCE,
-)
-HAIKU_4_5_PRICE_TABLE = PriceTable(
-    input_per_token=1.00 / 1_000_000,
-    output_per_token=5.00 / 1_000_000,
-    cache_write_per_token=1.25 / 1_000_000,
-    cache_read_per_token=0.10 / 1_000_000,
-    source=PRICE_TABLE_SOURCE,
-)
 
 WORLD_KEYS = ["alx", "ijc"]  # contrast in system-prompt size: alx is the largest world in the registry, ijc a mid-sized one
 
@@ -69,8 +56,13 @@ TURNS = [
 
 
 def _price_for_call_kind(call_kind: str) -> PriceTable:
-    # voice_generation* is Sonnet-class; safety_call/reader_call are Haiku-class (spec, Artifact-4)
-    return HAIKU_4_5_PRICE_TABLE if call_kind in ("safety_call", "reader_call") else SONNET_4_5_PRICE_TABLE
+    # This script only ever emits the call kinds price_for_call_kind
+    # already covers (voice_generation/self_revision via run_turn,
+    # safety_call/reader_call via the gate) - never falls through to the
+    # None case a live deployment's preflight/turn_selector calls can hit.
+    priced = price_for_call_kind(call_kind)
+    assert priced is not None, f"unpriced call_kind {call_kind!r} - engine.m8.price_tables needs updating"
+    return priced
 
 
 def run(region: str) -> dict:

@@ -54,7 +54,7 @@ These bind every module and every build decision. Violating one is a stop-and-as
 13. **Cost discipline:** every LLM call attributed to its session and participant; no figure quoted onward until measured on the billing provider.
 14. **Witness, never recruitment; doorway, not a home** (never optimize for return engagement, duration, or dependency); **three-level transparency** on every turn; only public-domain texts are vendored; the Representative's name and role are the only sanctioned fabrications and never enter the world record.
 15. **Independent scholarly review of worlds is aspirational, not blocking.** A contribution fund will be established to make it possible; until then the system's own validation is the bar, and the methods page states this plainly.
-16. **Portability is a design property (RULED 2026-08-20).** The system is migrating hosting and billing to AWS/Bedrock now, and must stay free to move again as cost-driving continues. Three seams keep every move cheap: (a) **frontend ↔ backend** — the frontend is static assets talking to the backend only through the Artifact-5 API, hostable anywhere; (b) **backend ↔ infrastructure** — the runtime is a standard container, the store is standard Postgres, packages live in S3-compatible object storage: portable shapes, no provider-proprietary service without a named exit; (c) **runtime ↔ model provider** — every model call goes through one provider seam that normalizes usage accounting; a new provider is admitted only after its preflight proves prompt caching engages and its real invoice reconciles (the measured lesson: caching semantics and usage fields differ per provider and fail silently). Provider switches land last and alone (principle 11), and M8's parity numbers are what justify any move.
+16. **Portability is a design property.** The system is migrating hosting and billing to AWS/Bedrock now, and must stay free to move again as cost-driving continues. Three seams keep every move cheap: (a) **frontend ↔ backend** — the frontend is static assets talking to the backend only through the Artifact-5 API, hostable anywhere; (b) **backend ↔ infrastructure** — the runtime is a standard container, the store is standard Postgres, packages live in S3-compatible object storage: portable shapes, no provider-proprietary service without a named exit; (c) **runtime ↔ model provider** — every model call goes through one provider seam that normalizes usage accounting; a new provider is admitted only after its preflight proves prompt caching engages and its real invoice reconciles (the measured lesson: caching semantics and usage fields differ per provider and fail silently). Provider switches land last and alone (principle 11), and M8's parity numbers are what justify any move.
 
 ---
 
@@ -97,7 +97,7 @@ Worlds are built outside the conversation system and delivered as validated **Wo
 
 ### 4.1 The World Package
 
-1. **The record set** — the world's whole truth, typed: world core · sources (editions, rights, verification, provenance) · lexicon terms (plain meaning first, world word second; false-friend flags) · tiered stories · licensed quotes (including do-not-voice, so a violation is recognizable) · figures · gravities, forces, contested claims · doctrinal-witness records (the world's answer-ground for center and foundations cells) · honest-limit records · ambient (daily life) · demonstrations · the voice craft record · search records (including searches that returned nothing).
+1. **The record set** — the world's whole truth, typed: world core · sources (editions, rights, verification, provenance) · lexicon terms (plain meaning first, world word second; false-friend flags) · tiered stories · licensed quotes (verbatim or paraphrase-only) · figures · gravities, forces, contested claims · doctrinal-witness records (the world's answer-ground for center and foundations cells) · honest-limit records · ambient (daily life) · demonstrations · the voice craft record · search records (including searches that returned nothing).
 2. **Coverage floors per record type**, so no gate can sit inert.
 3. **Compiled artifacts** (deterministic, from M2) with the manifest hash.
 4. **The validation record**: gate results, admission results, and the human checkpoint sign-offs.
@@ -132,7 +132,7 @@ The versioned corpus of what participants actually ask: the definition of "compl
 7. **Admission** — the blind battery from held-out canon paraphrases; Mark's admission read.
 8. **Open** — the registry flips live; the package freezes; changes re-enter at step 6.
 
-**Mark's per-world touchpoints — and only these:** world/Representative identity; the living-tradition determination; the freeze; the admission read; plus the operational source-acquisition role. Everything else is executable by AI threads or scripts against this spec.
+**Mark's per-world touchpoints — and only these:** world/Representative identity; the living-tradition determination; freezing the world; the admission read; plus the operational source-acquisition role. Everything else is executable by AI threads or scripts against this spec.
 
 ---
 
@@ -158,7 +158,7 @@ The instruments shape formation upstream — in the build (everything the voice 
 
 ## 6. Participant surface
 
-- **Three access points, one doorway (RULED 2026-08-20).** Every path to an interview lands on the same **detailed world card** — the doorway — and launch happens only from there. The three arrivals:
+- **Three access points, one doorway.** Every path to an interview lands on the same **detailed world card** — the doorway — and launch happens only from there. The three arrivals:
   1. **The Atlas** — the ten-era census (~274 movements) on the public site. Every entry whose world is `open` carries a "speak with this world" link deep-linking straight to that world's card; entries without a built world say so honestly ("not yet built"), which at 200+ entries is also the standing invitation behind the world-build fund. The mapping is data: the registry carries each world's `census_id`; the Atlas consumes a generated open-worlds view or the public worlds API — never a hand-synced list.
   2. **"Start an interview"** — opens the program page: the detailed cards for every built world, scrolling, browsable (and past a handful of worlds: filterable by era, place, and question).
   3. **The landing page** — a scrolling gallery of the Representatives themselves (portrait, name, world, one line); clicking a Representative goes to that world's detailed card.
@@ -241,7 +241,7 @@ The Table, voice-position variants, and any answer-serving bank are not stages �
 
 ## 10. Unresolved and accepted risks
 
-- **The scholarly-review fund and reviewer pipeline** — independent review is aspirational until funded (org/funding workstream); the methods page states it meanwhile.
+- **The scholarly-review fund and review pipeline** — independent review is aspirational until funded (org/funding workstream); the methods page states it meanwhile.
 - **Canon scholarly vetting** — Appendix A is the approved seed; vetting follows.
 - **Bedrock preflight** — blocked on the live AWS account; every cost figure is provisional until re-measured there.
 - **Audit pricing and cadence** — per-transcript cost of the full suite at batch rates; daily cadence assumed (fabrication exposure window ≤ ~24h, stated honestly); priced before stage 9.
@@ -249,7 +249,7 @@ The Table, voice-position variants, and any answer-serving bank are not stages �
 - **Model-migration re-admission cost at fleet scale** — a forced model change at 100 worlds implies a re-validation avalanche nobody has priced.
 - **Reading-floor calibration** — the ≤ FK 10 ceiling has never been checked against the register's real exemplars (BBC ≈ FK 6, well below it); settled by measurement during Alexandria's build, not by ruling.
 - **Jurisdiction/privacy counsel** — retention and deletion are designed to GDPR-shaped norms without claiming compliance; counsel before public availability.
-- **The never-root-caused cross-contamination incident** (unrelated content in one live API response, 2026-07-20) — an ops watch item; per-request trace-ids carry into M8.
+- **The never-root-caused cross-contamination incident** (unrelated content in one live API response) — an ops watch item; per-request trace-ids carry into M8.
 - **Accepted risk:** the solo-founder single point of failure — Mark's reading as the quality instrument and Mark as operator — is accepted and stated.
 
 ---

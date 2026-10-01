@@ -469,6 +469,8 @@ disposition. **Still genuinely open** as of the most recent Decision Log entry t
 further, or removed from the Capsule's own existing hedge is named, explicitly, as the
 project lead's own call.
 
+**Status: RULED, 2026-09-28 — see OG-20 below. Closed as a settled reservation, not carried forward as an open question.**
+
 ### OG-3. Scholarly-Framework retest regression — NOT CLEARED, escalated, entangled with OG-2.
 Three rounds of Permanent Prompt revision closed the defect's original axis (17/17 across all
 three rounds) but the fallback-leak axis this fix chased got **worse** across rounds (1 leak
@@ -494,6 +496,8 @@ against an artifact the fleet no longer runs. Whether the same regression (or it
 variant) recurs in the M2-compiled prompt is untested and unresolved — genuinely new scope,
 not covered by any test on record. No fix applied, no live retest attempted, no file under
 `records/don/` touched.
+
+**Status: The narrow, escalated defect is closed, 2026-09-28 — see OG-20 below. Not resolved by a live retest; resolved because the specific contradiction that caused it is confirmed absent from the current deployed artifact.**
 
 ### OG-4. Relational Safety — PROVISIONAL PASS, NARROW SCOPE, not a full PASS; several items genuinely untested.
 Current disposition (`don_Rep_Phase5_Boundary_Testing_Round1.md` §2, per the Round 2 Probe 11
@@ -812,12 +816,38 @@ The fleet-wide gap item 47 names is not closed by this entry — cappadocian's a
 
 Status: RESOLVED, 2026-09-25. The dropped-causal-clause defect is fixed and independently verified by the Opus clause-by-clause check; the V1.8 two-grader clearance specifically is noted above as unverified rather than confirmed. Not carried forward as an open item.
 
+### OG-19. don's first M3 sealed live-admission battery run against its current (2026-09-26-rebuilt) package, 2026-09-27 — 28/28 probes pass, nothing to fix.
+
+Closing this world's own share of the fleet-wide gap named in `Build/Ministry/Operations/Audits/CiC_M2_Migration_Validation_Gap_Audit_2026-09-27.md` — the same gap OG-3's own 2026-09-27 re-investigation (above) first surfaced for don specifically, and which the audit then confirmed as a fleet-wide condition affecting ten of eleven deployed worlds. Every deployed world but rzg (which got its own first post-rebuild run 2026-09-27, `Build/worlds/rzg/Open_Gaps_Tracking.md` item 50) had never had `engine.m3.live_admission_run` (the live-Bedrock-spend, 28-probe sealed admission battery) run against the M2-compiled package it currently pins. `python3 -m engine.m2.cli staleness-check` confirmed `packages/don/2026-09-26T20-12-04Z` clean beforehand.
+
+Run as part of one batch invocation covering alx, cappadocian, desert, and don (gallic split into its own invocation after this one's own `--max-usd $3.00` ceiling stopped before gallic's billed calls — see gallic's own tracking entry, OG-17). Result: **28/28 sealed probes pass**, real cost **$0.72789585** (don's own highest per-probe cost in the batch, consistent with `real_world_costs()`'s own docstring noting don runs near the fleet's high end). Full report: `engine/m3/reports/live-admission-report-batch1-2026-09-27.json` (`worlds.don`).
+
+No probe failed, so there is nothing here for a next thread to fix. **This is a narrower result than OG-3's own still-open question.** OG-3 (and this same session's 2026-09-27 re-investigation of it, above) is about whether the Scholarly-Framework retest regression and the Axido/Fasir naming question recur against the M2-compiled artifact — a targeted, adversarial re-test this run's own sealed battery does not attempt (the M3 battery's checks are `source_boundedness` and `register_coined_aphorism_heuristic`, not a Scholarly-Framework/Axido-Fasir probe). A clean 28/28 sealed-battery pass does not by itself resolve OG-3; OG-3's own NOT CLEARED, escalated disposition stands unchanged. Also logged at `Build/worlds/don/don_Decision_Log.md`, 2026-09-27.
+
+### OG-20. **Project lead's ruling on OG-2, and the closure of OG-3's still-escalated fallback-leak defect — 2026-09-28.**
+
+**On OG-2.** The Axido/Fasir material — the two named individuals and the Optatus III.4 debt-relief/master-slave-reversal episode adjacent to their petition — will not be built into any deployable, retrieval-enabled record. The existing disposition (`records/don/figure/don.figure.axido-and-fasir.md`, `narratable: false`; `records/don/contested_claim/don.contested.circumcellion-character.md`, scoped to the group's general character and explicitly not resolving Axido/Fasir specifically) is confirmed as the settled answer to Article 23's reservation, not an open question awaiting further resolution.
+
+Basis, checked directly rather than assumed: only one source survives for this specific episode — Optatus, a hostile anti-Donatist bishop. The Donatists' own petition is preserved solely inside his own compilation, mediated by his selection, not an independent voice; no Donatist-authored account of Axido or Fasir exists anywhere in this world's vendored library. The one actual attempt to build this material into a live record (2026-09-14, `don.dw.what-we-did-with-the-power-we-had`) was blocked by independent review not for drafting quality but for a structural reason: narrating the debt-relief/role-reversal scene at all — in any tone — functionally answers the reserved "leaders of the saints" vs. "marauders" question by implication, since a hostile-only source gives no neutral way to dramatize what these men did without the dramatization itself taking a side. More drafting rounds would not fix this; the reservation is doing real, load-bearing work, not standing in for undone work. This matches the fleet's own established practice — lpc handles the structurally identical case (characterizing its own theological opponent) the same way, declining to resolve rather than adjudicating — so don is not an outlier in reserving this, it is following the fleet's own settled discipline.
+
+**On OG-3's remaining, still-escalated half.** The original defect traced to a direct contradiction between two now-superseded legacy files: the legacy Permanent Prompt's rule ("a law-based fact must not stand in for a character answer") against the legacy World Capsule Core's own more permissive clause ("beyond what the law itself marked them apart for and what your own petitions called them," `don_World_Capsule_Core.md:25`), with generated output leaking toward the Capsule's more permissive reading under pressure. Per this project's own root-cause discipline, this was checked directly against the current system before ruling, not assumed fixed or assumed still broken. `records/don/` was searched in full for the permissive clause's own language and for any rule that would contradict `don.core.donatism.md`'s own caution 4 ("the group's existence is independently attested outside hostile polemic... the two must never be merged") — no such contradiction exists anywhere in the current source. The deployed compiled prompt (`packages/don/2026-09-26T20-12-04Z/compiled/prompt.txt`) was read directly and confirmed to carry only caution 4's own disciplined framing; it names Circumcellions and agonistici but never Axido or Fasir by name, and contains no permissive clause of any kind bearing on their characterization.
+
+**What this closes, and what it does not.** The specific mechanism of the regression — two governing documents disagreeing, with generation leaking toward the more permissive one — cannot occur from a rule conflict that no longer exists in the live system: the contradiction was confined to the legacy Permanent Prompt/Capsule Core files, never carried into the M2-compiled pipeline `records/don/` actually feeds. This closes OG-3's narrow, escalated fallback-leak defect as originally filed. **This is verified by direct text inspection of the current deployed artifact, not by a live adversarial retest** — the same limitation OG-3's own 2026-09-27 re-check already named, and this entry does not claim otherwise. No generation was run against this specific material; no probe was fired. A future live adversarial retest, targeting Circumcellion/Axido characterization pressure specifically, would be the only way to fully confirm no behavioral leak occurs under real generation, and remains a legitimate, optional follow-up — not required to close this entry, since no known live rule conflict remains to cause one.
+
+**What this does not do.** Does not build, draft, or imply any new characterization of Axido or Fasir. Does not touch `records/don/` — nothing needed editing, because the fix already happened, incidentally, when the fleet migrated off the legacy Permanent Prompt/Capsule Core files onto the M2-compiled pipeline. Does not resolve the group-level Frend/Shaw contest (`don.contested.circumcellion-character.md`), which stays exactly as contested as it already was.
+
+**Status.** OG-2: RULED, closed. OG-3: its narrow, escalated defect closed; the group-level Circumcellion characterization contest (unrelated to this specific defect) remains open by design, per Doc_04 §3.5's own Confidence/Gravity Cross-Check. Tier 2 of the fleet quality audit is now fully closed (syr, then don).
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
 live, unresolved items that most directly bear on this world's own path to Freeze and on
-Relational Safety's own current scope. OG-5 through OG-18 are disclosed, routed, resolved, or
+Relational Safety's own current scope. OG-5 through OG-19 are disclosed, routed, resolved, or
 surfaced-but-undecided items of varying weight — none blocking, all real. Per CLAUDE.md's own
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
 alone.*
+
+### OG-21. don's `[self-reference]` note added to meet the V2.0 `deployed` check, 2026-09-29.
+
+`engine.m10.cli deployed don` failed because the compiled prompt had no `[self-reference]` note. don's identity said "we, our, among us" but carried no sanctioned "I" line and none of the four self-narration rules from cappadocian OG-18. `records/don/voice_craft/don.craft.fidelis-voice.md` now has a `self-reference` note carrying the four rules in the exact wording the check requires. The sanctioned line is "I am a representative of the Church of the Martyrs." Mark chose it on 2026-09-29 from two options; the second was "the African communion of Carthage, Numidia, and Cirta." "Donatist" was not offered as a self-name, because how the record treats that word was not checked. The record totals 758 of 900 words. The package was rebuilt and repinned (`packages/don/2026-09-29T23-28-20Z`). `deployed don`, `determinism-check` and `engine.m9.cli check` pass. The wording has not been tested for live behavior, and the alx sample at cappadocian OG-27 found no clear effect.

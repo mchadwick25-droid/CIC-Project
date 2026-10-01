@@ -14,7 +14,7 @@
 
 *[Builder instructions: This section appears in the world selection menu where participants browse available worlds before entering the table. Write in evocative, warm, accessible prose. No scholarly vocabulary. No jargon. Three to five sentences maximum. Answer: what is this world, what might it offer a participant, what kind of question does it tend to serve well. The participant reading this has no prior knowledge of this tradition. Write for someone who is curious but not yet committed — someone deciding whether to walk through this door.]*
 
-*[Accuracy requirement (Mark, 2026-09-20): name the Representative by name whenever the world's build has resolved one — a vaguer, unnamed description is a partial answer standing in for accuracy, not a legitimate stylistic choice, however evocative. Name the way B6 does: name and role, no invented biography.]*
+*[Accuracy requirement: name the Representative by name whenever the world's build has resolved one — a vaguer, unnamed description is a partial answer standing in for accuracy, not a legitimate stylistic choice, however evocative. Name the way B6 does: name and role, no invented biography.]*
 
 *[Readability target: CEFR B2 / Flesch-Kincaid grade 8-10, Flesch Reading Ease ≥ 60 — this project's standing participant-facing bar (CLAUDE.md, "Accessible and rigorous," which applies to "everything participant-facing, not just Representative dialogue") governs this section exactly as it governs Representative dialogue. Score it before calling it done, not by ear alone.]*
 
@@ -155,9 +155,7 @@
 
 *[This section is removed in the completed brief — it exists only in the template.]*
 
-**Card-accuracy note (v1.2, Mark, 2026-09-20; Change Order, not a silent edit):** Section A's builder instructions and completion checklist gained explicit naming, readability-target, and no-program-speak requirements after a fleet audit found several already-shipped cards (witt, gallic, desert, pahc) omitting the Representative's name and running above the readability floor — fixed in the shipped worlds directly, but not previously written into this template, so the same defects were free to recur in every future card. These three requirements were implicit in existing project standards (naming per B6/CO-014, readability per CLAUDE.md's "Accessible and rigorous," program-speak per participant-facing content discipline generally) but not stated here, where a builder actually drafts from.
-
-**Generated-brief note (S6.1, 2026-07-27):** For worlds migrated to the record system, this brief is no longer hand-authored: it renders as a generated view over the world's own records (cic-poc/backend/wrs/views/facilitation_brief.py — voice profile, pairing guidance, cautions, divergence question bank, gravity structure), and the cautions the Facilitator operates from at runtime render from the same world_core.cautions records. Its human-judgment content — pairing guidance and cautions — is authored as records during the build (Steps 4–8, never at the end). This template remains the authoring guide for worlds not yet migrated; at a world's migration, its B-sections' content moves into records and the Brief becomes a render that cannot drift from what the world speaks.
+For a record-native world this brief is a view over its `facilitator_brief` and `world_core` records.
 
 **When this brief is produced:** After Step 8 of the world build sequence is complete — after all seven primary deployment outputs (World Capsule Core, World Context Layer, Representative Permanent Prompt, Representative Construction Notes, Voice Configuration, Deployment Lexicon, Story Repository) have been produced. This brief draws on the builder's full knowledge of the world at the point of completion.
 

@@ -44,6 +44,18 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: 'Augustine''s anti-Donatist works (Maurist text, Migne PL 43): Breviculus collationis,
+    Ad Donatistas post collationem, Sermo ad Caesariensis, De gestis cum Emerito, Contra Gaudentium'
+  author: augustine
+  locus: whole file
+  role: tradition
+  confidence: provisional
+  note: 'Maurist Latin of the anti-Donatist works that follow the Petschenig text (CSEL 53,
+    Registry row 214). The Petschenig staging file gives this entry only four of the works,
+    so the works here are assigned to donatism alone, and Registry row 230 records the overlap.
+
+    '
+  source_file: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt
 - work: Contra (Adversus) Fulgentium Donatistam
   author: augustine
   locus: Pars III, short item
@@ -329,6 +341,17 @@ works:
     here rather than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian
     306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: 'Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8): Acta
+    Felicis, Acta Saturnini, Gesta purgationis, Cirta'
+  author: donatist-anonymous
+  locus: whole file, a slice of PL 8
+  role: tradition
+  confidence: provisional
+  note: 'Donatist-side documents. Assigned to donatism only, mirroring the existing PL 8 file.
+    Registry row 223 excludes it for this world.
+
+    '
+  source_file: monumenta-vetera-donatistarum-303-340_migne-pl8.txt
 - work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
     (MS title: De passione sanctorum Donati et Advocati)'
   author: donatist-anonymous
@@ -466,6 +489,15 @@ works:
 
     '
   source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
+- work: Ribbeck, Donatus und Augustinus, first half (1857)
+  author: ribbeck
+  locus: whole file
+  role: context
+  confidence: provisional
+  note: 'Modern (1857) German study of the Donatist dispute. Registry row 236.
+
+    '
+  source_file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
 - work: Theodosiani Libri XVI (Book 16, critical Latin text)
   author: theodosian-code
   locus: Book 16

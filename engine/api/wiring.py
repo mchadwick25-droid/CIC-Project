@@ -6,8 +6,11 @@ design (see its own module docstring) - everything below is this module
 owning the event-log/usage-log writes run_turn() deliberately leaves to its
 caller.
 """
+import json
+import statistics
 import uuid
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from datetime import datetime
 from pathlib import Path
 
 from engine.api.config import REPO_ROOT
@@ -30,8 +33,11 @@ from engine.m4.uncited_claims import (
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
+from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
+from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
+from engine.m8.price_tables import price_for_call_kind
 
 class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
@@ -138,13 +144,19 @@ def create_session(
     world_key: str,
     require_admitted: bool = False,
     package_cache_dir: Path | None = None,
+    visitor_id: str | None = None,
 ) -> tuple[str, str]:
     """Returns (session_id, raw_code). The raw code is returned exactly once
     - only its hash is ever stored (engine.m4.session_code).
 
     require_admitted is the admission gate (Settings.enforce_admission):
     checked BEFORE the world is even loaded, so a refused create costs
-    nothing and writes nothing."""
+    nothing and writes nothing.
+
+    visitor_id passes straight through to open_session - see its own
+    docstring; None here (anon_cap off, or a non-HTTP caller) is not an
+    error, just a session the usage dashboard can't attribute to a
+    visitor."""
     _check_admission(registry, world_key, require_admitted=require_admitted)
     world = _load_world(world_loader, registry, world_key, package_cache_dir=package_cache_dir)
     session_id = str(uuid.uuid4())
@@ -158,6 +170,7 @@ def create_session(
         frame=None,
         code_hash=session_code.hash_code(raw_code),
         package_manifest_hash=world.manifest_hash,
+        visitor_id=visitor_id,
         # The directory this world actually loaded from, pinned alongside
         # its hash - registry[world_key] re-read here rather than reusing
         # any value from _load_world above, since that call's own default
@@ -325,6 +338,184 @@ def get_pilot_summary(store: Store, *, since: str | None = None) -> PilotSummary
         latest_session_at=latest,
     )
 
+
+def _seconds_between(first_at: str, last_at: str) -> float:
+    return (datetime.fromisoformat(last_at) - datetime.fromisoformat(first_at)).total_seconds()
+
+
+def _median_and_average(values: list[float]) -> tuple[float | None, float | None]:
+    if not values:
+        return None, None
+    return statistics.median(values), statistics.mean(values)
+
+
+# usage.py: world_key is None for calls that belong to no single world
+# (the gate calls, preflight, every interview-era record) - bucketed here
+# under an explicit key rather than dropped, so a reconciling total
+# (sum of by_world calls) still equals usage_log's own row count.
+_UNATTRIBUTED_WORLD_KEY = "_unattributed"
+
+
+@dataclass(frozen=True)
+class VisitorUsage:
+    """Two duration measures: the typical single conversation's length
+    (session_seconds) and how much of one
+    visitor's time the app held across however many sessions they opened
+    (visitor_total_seconds) - anon_cap allows several sessions a day, so
+    these can genuinely differ. Median alongside average on both, since a
+    few very long or very short sessions would otherwise skew the average
+    alone."""
+
+    unique_visitors: int
+    sessions_with_visitor_id: int
+    median_session_seconds: float | None
+    average_session_seconds: float | None
+    median_visitor_total_seconds: float | None
+    average_visitor_total_seconds: float | None
+
+
+@dataclass(frozen=True)
+class WorldUsage:
+    world_key: str
+    calls: int
+    input_tokens: int
+    output_tokens: int
+    cache_creation_input_tokens: int
+    cache_read_input_tokens: int
+    # Sum of only the calls engine.m8.price_tables.price_for_call_kind
+    # could price - unpriced_calls says how many of `calls` are NOT
+    # reflected in priced_dollars, so this never silently understates
+    # itself as a complete total (spec principle 13: no guessed figure).
+    priced_dollars: float
+    unpriced_calls: int
+
+
+@dataclass(frozen=True)
+class AskCandidate:
+    ask: str
+    count: int
+    session_ids: list[str]
+
+
+@dataclass(frozen=True)
+class UsageSummary:
+    visitors: VisitorUsage
+    by_world: list[WorldUsage]
+    price_table_source: str | None
+    top_asks: list[AskCandidate] = field(default_factory=list)
+    asks_generated_at: str | None = None
+    asks_as_of_run: str | None = None
+
+
+def _latest_canon_candidates(m7_audit_root: Path) -> tuple[list[AskCandidate], str | None, str | None]:
+    """Best-effort read of the M7 scheduler's own daily output
+    (engine.m7.scheduler.run_once writes last_run.json every run;
+    engine.m7.cli.audit calls write_canon_candidates every run - this
+    reads, never recomputes). Never raises, same reporting-only posture
+    as the scheduler itself: a missing or malformed file (scheduler
+    hasn't run yet, or the deploy has m7_audit_root unset) comes back as
+    an empty result, not an error."""
+    status_path = m7_audit_root / STATUS_FILENAME
+    if not status_path.exists():
+        return [], None, None
+    try:
+        status = json.loads(status_path.read_text())
+        candidates_path = Path(status["out_dir"]) / "canon-candidates.json"
+        doc = json.loads(candidates_path.read_text())
+    except (OSError, ValueError, KeyError):
+        return [], None, None
+    asks = [
+        AskCandidate(ask=c["ask"], count=c["count"], session_ids=c["session_ids"])
+        for c in doc.get("candidates", [])
+    ]
+    return asks, doc.get("generated_at"), status.get("run_at")
+
+
+def get_usage_summary(
+    store: Store, usage_store: UsageLogStore, *, since: str | None = None, m7_audit_root: Path | None = None
+) -> UsageSummary:
+    """The usage dashboard's one aggregate:
+    unique visitors and duration (the stated top priority), cost/tokens
+    and per-world breakdown from usage_log, and the latest questions-asked
+    rollup from the M7 daily scheduler's own canon-candidates.json - see
+    _latest_canon_candidates above. Operator-only (admin-token-gated by
+    its caller, engine.api.app), same tier canon-candidates.json already
+    lives at (Artifact-8 §4) - never the broader shareable fleet-rollup
+    tier, since top_asks carries participant-authored (if normalized)
+    text.
+
+    since filters the visitor/duration half exactly as get_pilot_summary's
+    own `since` does. The cost/per-world half does NOT respect `since` yet -
+    UsageLogStore.read_all() doesn't return created_at on its UsageRecord,
+    so that half is always all-time until that's added - a disclosed scope
+    boundary, not a silent one."""
+    session_ids = store.list_session_ids(since=since)
+    visitor_ids: set[str] = set()
+    sessions_with_visitor = 0
+    session_durations: list[float] = []
+    visitor_totals: dict[str, float] = {}
+
+    for session_id in session_ids:
+        session = read_session(store, session_id)
+        if session is None or session.first_at is None or session.last_at is None:
+            continue
+        duration = _seconds_between(session.first_at, session.last_at)
+        session_durations.append(duration)
+        if session.visitor_id:
+            visitor_ids.add(session.visitor_id)
+            sessions_with_visitor += 1
+            visitor_totals[session.visitor_id] = visitor_totals.get(session.visitor_id, 0.0) + duration
+
+    median_session, average_session = _median_and_average(session_durations)
+    median_visitor_total, average_visitor_total = _median_and_average(list(visitor_totals.values()))
+    visitors = VisitorUsage(
+        unique_visitors=len(visitor_ids),
+        sessions_with_visitor_id=sessions_with_visitor,
+        median_session_seconds=median_session,
+        average_session_seconds=average_session,
+        median_visitor_total_seconds=median_visitor_total,
+        average_visitor_total_seconds=average_visitor_total,
+    )
+
+    by_world: dict[str, dict] = {}
+    price_sources: set[str] = set()
+    for record in usage_store.read_all():
+        key = record.world_key or _UNATTRIBUTED_WORLD_KEY
+        bucket = by_world.setdefault(
+            key,
+            {
+                "calls": 0, "input_tokens": 0, "output_tokens": 0, "cache_creation_input_tokens": 0,
+                "cache_read_input_tokens": 0, "priced_dollars": 0.0, "unpriced_calls": 0,
+            },
+        )
+        bucket["calls"] += 1
+        bucket["input_tokens"] += record.usage.input_tokens
+        bucket["output_tokens"] += record.usage.output_tokens
+        bucket["cache_creation_input_tokens"] += record.usage.cache_creation_input_tokens
+        bucket["cache_read_input_tokens"] += record.usage.cache_read_input_tokens
+        price_table = price_for_call_kind(record.call_kind)
+        if price_table is None:
+            bucket["unpriced_calls"] += 1
+        else:
+            bucket["priced_dollars"] += estimate_cost(record.usage, price_table).dollars
+            price_sources.add(price_table.source)
+
+    by_world_list = [WorldUsage(world_key=k, **v) for k, v in sorted(by_world.items())]
+
+    top_asks: list[AskCandidate] = []
+    asks_generated_at: str | None = None
+    asks_as_of_run: str | None = None
+    if m7_audit_root is not None:
+        top_asks, asks_generated_at, asks_as_of_run = _latest_canon_candidates(m7_audit_root)
+
+    return UsageSummary(
+        visitors=visitors,
+        by_world=by_world_list,
+        price_table_source=", ".join(sorted(price_sources)) or None,
+        top_asks=top_asks,
+        asks_generated_at=asks_generated_at,
+        asks_as_of_run=asks_as_of_run,
+    )
 
 
 def _replay_text(entry: dict) -> str:
@@ -543,7 +734,7 @@ def handle_message(
 
     turn_no = state.turn_count + 1
 
-    # Unconditional, never gated behind r27_enforce: this keeps
+    # Unconditional, never gated behind the enforcement flag: this keeps
     # _other_tradition_directive's fixed honest-limit sentence from being
     # said when this world's own records already name the tradition
     # asked about. match_named_tradition works from the raw participant

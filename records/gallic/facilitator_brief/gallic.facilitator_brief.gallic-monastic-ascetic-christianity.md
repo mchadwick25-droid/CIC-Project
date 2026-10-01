@@ -58,16 +58,18 @@ formation_strengths:
   - gallic.contested.election-as-capture
   - gallic.demo.who-chose-bishops
 - text: >-
-    It serves participants asking how much of their own progress is grace
-    and how much is effort, without forcing a resolution. Cassian's own
-    teacher answers with a farmer's field: the ground must be plowed, but
-    no labor makes it rain. The same conference holds both "the beginning of
-    our good will is given to us by the inspiration of the Lord" and that
-    the first stirring of a good will can arise "from our own efforts," and
-    states outright that how the two fit together "cannot be fully grasped
-    by the mind and reason of man." This world was pressed hard on this
-    question from outside - reported to Africa and to Rome - and its own
-    record still declines to settle it either way.
+    It serves participants asking how much of their progress is grace and
+    how much is effort, without forcing an answer. Cassian's own teacher
+    answers with an illustration of a farmer's field: the ground must be
+    plowed, but no labor makes it rain. Two different conferences hold the
+    question open rather than settling it. In Conference III, Paphnutius
+    says "the beginning of our good will is given to us by the inspiration
+    of the Lord." Conference XIII says the first stirring of a good will can
+    also arise "from our own efforts." It also states that how the two fit
+    together "cannot be fully grasped by the mind and reason of man."
+    Outsiders pressed this world hard on the question and reported it to
+    Africa and to Rome. Its own record still declines to settle it either
+    way.
   grounded_in:
   - gallic.gravity.grace-and-effort
   - gallic.contested.beginning-of-good-will
@@ -383,8 +385,8 @@ see," while also disclosing that the objecting bishops' own side is never
 heard) and `gallic.demo.who-chose-bishops` (the built participant-facing
 demonstration on this exact question, F3-I). The grace-and-effort unit is
 grounded in the gravity record itself, `gallic.contested.beginning-of-good-
-will` (both phrasings quoted directly from Conf. XIII.3/7/8/9/18 in that
-record's own `held_against` field), and `gallic.demo.faith-alone` (F1-T).
+will` (both phrasings quoted directly from Conf. III.19 and XIII.3/7/8/9/18
+in that record's own `held_against` field), and `gallic.demo.faith-alone` (F1-T).
 The interior-formation unit is grounded in `gallic.gravity.interior-road`
 and `gallic.demo.quiet-the-mind` (F4-P), with `gallic.term.discretion`
 (already opened and verified for `participant_type_fit`) supplying the
@@ -465,14 +467,21 @@ pairing - the same honest scope the syr pilot's own `pairing_guidance`
 claimed for itself, applied here to a world with no B5-equivalent document
 to check that framing against at all.
 
-`cautions`: the Brictio item is grounded directly in
-`gallic.gravity.authority-ambivalence`'s own body note and in
-`gallic.front.gallic-monastic-ascetic-christianity`'s own explicit
-"THE SAFETY-SENSITIVE MATERIAL NAMED IN THE TASK" section, which states
-that this exact material "is voiced directly... not softened, moved to a
-footnote, or allowed to drop out of the retelling" in the participant-
-facing front record - this caution exists so a facilitator knows that same
-material sits inside this world's own build and may surface in a session.
+`cautions`: the Brictio item's own two facts - the enslaved children
+("boys bought from beyond the frontier and girls chosen for their
+looks") and Martin's own reasoning ("If Christ bore with Judas, why
+should not I bear with Brictio?") - are grounded directly in
+`gallic.story.brictio-in-the-courtyard`'s own body and its two quote
+records, `gallic.quote.brictio-horses-and-slaves` and
+`gallic.quote.martin-if-christ-bore-with-judas`, both verified against
+`Dialogues III.15` at the story's own cited locus.
+`gallic.front.gallic-monastic-ascetic-christianity`'s own
+explicit "THE SAFETY-SENSITIVE MATERIAL NAMED IN THE TASK" section,
+which states that this exact material "is voiced directly... not
+softened, moved to a footnote, or allowed to drop out of the retelling"
+in the participant-facing front record, is the caution's second ground
+- this caution exists so a facilitator knows that same material sits
+inside this world's own build and may surface in a session.
 The semi-Pelagian/Massilian-label item is grounded in
 `gallic.contested.massilian-label` directly (quoted almost verbatim: "No
 one at Marseilles or Lerins called himself either") and in
