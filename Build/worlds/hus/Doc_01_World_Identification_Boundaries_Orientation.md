@@ -20,7 +20,7 @@ Confidence terms follow the five-level vocabulary of Constitution Article 17: Do
 
 **Distinctive Contribution:** No other world in the portfolio reconstructs a non-Roman national church that won legal recognition before Luther. Lollardy (V.5) stayed underground. Devotio Moderna stayed inside existing church structures. This world fought, negotiated, and held parishes and a university for a century. Its second half, the Unity, also produced a distinctive community discipline and, by the census's account, an early printed vernacular hymnbook (1501).
 
-**Living Tradition Status:** Triggered, not confirmed. The census records this world as `living: true`. It traces the Unity's line to the Moravian Church, which it places at Herrnhut in Saxony from 1722. Article 29 covers a world whose reconstruction "touches a tradition that continues into the present". It makes confirmation a freeze-eligibility gate (Constitution Article 29). Two things need naming at confirmation. The first is which present-day churches are the descendants. The census names the Moravian Church only, and confirmation should check whether others in the Czech lands claim the Hussite or Brethren heritage. The second is how far a reconstruction of 1402–1517 may speak for them. Under the one-world ruling (§5), the Unity's claim to a living tradition falls inside this world. One vendored source is itself mediated through a living tradition. Bishop B. Seifferth edited and translated the *Ratio Disciplinae* volume (1866), and its title page names him a bishop of the Brethren's Church. Doc_02 §2 records that mediation. Confirmation itself is open and belongs to the project lead (§9).
+**Living Tradition Status:** Confirmed on a simple basis that names clear connections. The census records this world as `living: true`. It traces the Unity's line to the Moravian Church, which it places at Herrnhut in Saxony from 1722. Two other present-day churches in the Czech lands claim the Hussite or Brethren heritage. The Czechoslovak Hussite Church was founded in 1920. The Evangelical Church of Czech Brethren was formed in 1918 from Lutheran and Reformed bodies, and it claims the Brethren heritage. These two come from the builder's knowledge, not from a vendored source. Confidence: Widely Accepted, not checked against a vendored source. The check is a Library request (Open_Gaps_Tracking.md). Article 29 makes confirmation a freeze-eligibility gate (Constitution Article 29). Under the one-world ruling (§5), the Unity's claim to a living tradition falls inside this world. One vendored source is itself mediated through a living tradition. Bishop B. Seifferth edited and translated the *Ratio Disciplinae* volume (1866), and its title page names him a bishop of the Brethren's Church. Doc_02 §2 records that mediation.
 
 ## 2. Historical Boundaries
 
@@ -114,7 +114,7 @@ Constitution Article 21 defines a strand as "a meaningfully distinct pattern of 
 
 **What holds across strands.** Hus's memory. Piccolomini, a hostile source, reports that the Bohemians honoured the burned men as martyrs (paraphrase; sect chapter, Registry row 11, line 4086; the scan is not licensed for quotation, Open_Gaps entry 3; the 1524 printing agrees in substance, row 72). Also the cup, Scripture as norm and the Czech language, as far as the evidence in §4 shows them. These are the candidates for cross-strand testing at Doc_04. The strand finding governs strand attribution in every later document.
 
-**What this document does not decide.** Whether the Taborite strand can carry a Representative or a gravity of its own is not decided here. No Taborite voice at first witness is vendored. That question belongs to Doc_02 (source asymmetry) and Doc_04. Nor does this document decide anything about Representative identity, which belongs to the project lead.
+**What this document does not decide.** Whether the Taborite strand can carry a Representative or a gravity of its own is not decided here. No Taborite voice at first witness is vendored. That question belongs to Doc_02 (source asymmetry) and Doc_04. Nor does this document decide anything about Representative identity, which is decided later in the build, at Doc_10.
 
 ## 6. Preliminary Forces Identification
 
@@ -202,8 +202,8 @@ Two bodies of Hus's own words are read. The English works (the *Letters* and *De
 
 **Questions for the project lead (open, not decided here):**
 
-2. *Living Tradition Status* (Article 29): which present-day tradition or traditions the confirmation names, and by what criteria. The one-world ruling puts the Unity's living-tradition claim inside this world.
-3. *Representative.* No decision is made or implied. Hus is the only vendored tradition voice, and the three-strand ruling bears on whether one figure can carry this world. This goes to the project lead as a packaged choice among two to four candidates at the proper step.
+2. *Living Tradition Status* (Article 29): decided on the simple basis in §1. The check of the two Czech churches against a vendored source is a Library request.
+3. *Representative.* Decided later in the build, at Doc_10, as a packaged choice among two to four candidates. Hus is the only vendored tradition voice, and the three-strand ruling bears on whether one figure can carry this world.
 4. *Registration of `hus`.* The file-code is not yet registered in `records/worlds/`, and nothing was added to `records/` or `packages/`. That belongs to the project lead.
 
 **Carried to Doc_02 and later steps:**

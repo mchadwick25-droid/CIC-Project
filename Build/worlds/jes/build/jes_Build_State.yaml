@@ -3,7 +3,7 @@ process_version: V2.0
 completion_standard_version: V1.4
 started: 2026-09-30
 pilot_world: false
-current_step: Steps 0-2 approved to proceed (Round 3 recheck clear); Doc_03 awaits the project lead's decisions (Article 29, Representative, registration of jes)
+current_step: Steps 0-2 approved to proceed (Round 3 recheck clear); Doc_03 awaits the project lead's decisions (Article 29 word, registration of jes); Representative identity decided later, at Doc_10
 file_code_assignment: "The project lead's answer in the session's choice box was exactly 'jes (Recommended)', to the question 'Which code should I give them before starting Doc_01?' (options 'jes (Recommended)', 'soj', 'Other'), session_019FXuEebrCDmzYe987sNAxL, 2026-09-30. Quoted in Build/Ministry/Operations/Audits/jes_Step0_ChangeOrder_2026-09-30.md, section 6."
 status: in_progress
 pause_point: none
@@ -27,7 +27,7 @@ documents:
     review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md]
     gates_result:
   - id: Representative_identity
-    status: not started; not decided
+    status: decided later in the build, at Doc_10
     decided_by_mark:
     decision_date:
 open_items_pointer: Open_Gaps_Tracking.md
@@ -36,8 +36,7 @@ handoff_manifest_pointer:
 metered_ceiling:
 escalations:
   - Strand finding (Doc_01 section 5 and section 9)
-  - Living Tradition Status confirmation (Doc_01 section 9)
-  - Representative identity (Doc_01 section 9)
+  - Living Tradition Status confirmation, proposed on a simple basis, awaiting the project lead's word (Doc_01 section 9)
   - Registration of jes in records/worlds/ (Doc_01 section 9)
   - Change order "Step 0 §4 item 5: the Generals' correspondence and the end of Ignatius's letters (2026-09-30)", applied to item 5 and, by its extension, to §3 B2, B4 and B5, awaiting the project lead's confirmation; §3 B1's count and the Tier paragraph stay point-in-time under Step 0 §5 (Build/Ministry/Operations/Audits/jes_Step0_ChangeOrder_2026-09-30.md; Open_Gaps_Tracking.md, sections G and I, entry 41)
 freeze_package_pointer:

@@ -4,7 +4,7 @@
 |---|---|
 | World code | hus |
 | World id | the-hussite-and-bohemian-brethren-movement |
-| `safety_adjacent` (`true` or `false`, set by Mark at handoff) | not set; the registry entry does not exist yet |
+| `safety_adjacent` (`true` or `false`, set by Mark at handoff) | false, set by the project lead; the registry entry exists |
 | Slug | the-hussite-and-bohemian-brethren-movement |
 | Handoff date | 2026-09-30 |
 | Prepared by | Library thread |

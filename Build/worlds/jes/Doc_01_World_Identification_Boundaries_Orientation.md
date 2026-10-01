@@ -20,7 +20,7 @@ Confidence terms are the five levels of Constitution Article 17. They are Docume
 
 **Distinctive Contribution:** Step 0 (§3 B4) names the Society the only candidate of its batch whose core text is a practised spiritual discipline rather than a doctrinal or polemical body of writing. It is also a world of movement. The same order ran colleges in Europe and mission provinces in Asia and Brazil, under one General. The Tridentine Church (VI.22) is the council and its offices. The Society is one of the bodies that carried out the council's work, and this document does not draw its evidence from that world's shelf.
 
-**Living Tradition Status:** Triggered, not confirmed. The census records `living: true`. Its legacy field says: "The Society still exists and is the largest religious order of men in the Catholic Church." Article 29 covers a world whose reconstruction "touches a tradition that continues into the present". It makes confirmation a condition of freeze. Two things need naming at confirmation. The first is which present-day bodies are the descendants. The Society itself is one candidate. The wider Catholic Church is another. The census also says that the *Exercises* are made today by "Catholics and, increasingly, by Protestants". The second is how far a reconstruction of 1540–1650 may speak for any of them. The shelf is itself mediated by living hands. Its editors and translators are almost all Jesuits: Mullan, O'Conor, Goodier, Coleridge, Boero, Bouix, and the Jesuit fathers who edited the Monumenta Historica Societatis Jesu (rows 4, 5, 9, 14, 17, 20, 21, 25). Doc_02 §2 records this. Confirmation itself is open and belongs to the project lead (§9).
+**Living Tradition Status:** Proposed on a simple basis that names the clear connection, awaiting the project lead's word. The census records `living: true`. Its legacy field says: "The Society still exists and is the largest religious order of men in the Catholic Church". The proposed connection is the Society of Jesus itself, which is the direct continuity. Article 29 makes confirmation a condition of freeze. The shelf is itself mediated by living hands. Its editors and translators are almost all Jesuits: Mullan, O'Conor, Goodier, Coleridge, Boero, Bouix, and the Jesuit fathers who edited the Monumenta Historica Societatis Jesu (rows 4, 5, 9, 14, 17, 20, 21, 25). Doc_02 §2 records this.
 
 ## 2. Historical Boundaries
 
@@ -114,7 +114,7 @@ Article 21 defines a strand as "a meaningfully distinct pattern of formation emp
 
 **What holds across the whole world.** The *Exercises* as the shared formation (row 1). The Society's letters as the bond (rows 14, 16). The aim of defending and spreading the faith (row 28). These are candidates for cross-strand testing at Doc_04 if the project lead orders two strands.
 
-**What this document does not decide.** Whether a mission strand exists is not decided here. Nor is Representative identity, which belongs to the project lead.
+**What this document does not decide.** Whether a mission strand exists is not decided here. Nor is Representative identity, which is decided later in the build, at Doc_10.
 
 ## 6. Preliminary Forces Identification
 
@@ -207,8 +207,8 @@ Mediation matters here. Three kinds of evidence are used, and the strength of ea
 **Questions for the project lead (open, not decided here):**
 
 1. *The strand finding* (§5): confirm strand-singular, or order two strands (Europe and mission). Doc_04 tests whichever is chosen.
-2. *Living Tradition Status* (Article 29): which present-day tradition or traditions the confirmation names, and by what criteria.
-3. *Representative.* No decision is made or implied. This goes to the project lead as a packaged choice among two to four candidates at the proper step.
+2. *Living Tradition Status* (Article 29): proposed on the simple basis in §1, awaiting the project lead's word.
+3. *Representative.* Decided later in the build, at Doc_10, as a packaged choice among two to four candidates.
 4. *Registration of `jes`.* The file-code is not yet registered in `records/worlds/`, and nothing was added to `records/` or `packages/`. That belongs to the project lead.
 
 **Carried to Doc_02 and later steps:**
