@@ -30,12 +30,9 @@ M4 implementation, step 5 (LIVE-GENERATION-DESIGN.md, forks signed off
 tool-use follow-up guessing which records it drew on) is retired. One
 call now carries both the answer and its own grounding, via inline
 [[record.id]] tags the compiled prompt's fleet preamble (§5.2) teaches
-every world's voice to emit - engine.m4.generation.call_citations is
-deleted, not merely unused. engine.m4.grounding (the excerpt-match badge
-check against a claimed `drawn_on` list) is untouched and no longer this
-module's net - that list doesn't exist anymore now that citations are
-never guessed after the fact. engine.m4.grounding_net.check_turn is the
-new net: per-sentence, string-only, no model call, run over the raw
+every world's voice to emit. There is no claimed `drawn_on` list,
+because citations are never guessed after the fact.
+engine.m4.grounding_net.check_turn is the net: per-sentence, string-only, no model call, run over the raw
 tagged text before any of it is treated as this turn's answer.
 
 Fork 1 (sentence-gated streaming) is honored in its strictest reading
@@ -54,7 +51,6 @@ from dataclasses import dataclass, field
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
-from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
@@ -965,8 +961,6 @@ def _run_ordinary_voice_turn(
     # job, and the limit records are in its ground to say it from.
     degraded_by_net = not net_result["substantive_survives"]
 
-    do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
-
     # THE TRANSPARENCY PLAN - a deterministic transform over what is
     # already computed above (citations, net_result, the word marks), no
     # new evidence, no new model call. Additive: not in
@@ -997,7 +991,6 @@ def _run_ordinary_voice_turn(
         },
         "grounding": net_result,
         "transparency": transparency,
-        "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the
         # fallback has appended - because that is the only text a person

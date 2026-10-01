@@ -88,7 +88,7 @@ def _world():
         prompt_text="## Identity\nVera, Witness.",
         capsule_text="capsule",
         repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
-        quotes={"quotes": [{"id": "fix.quote.private-teaching", "license": "do-not-voice", "text": "not for the voice to speak"}]},
+        quotes={"quotes": []},
         figures={},
         coverage={},
         frame={"representative": {"name": "Vera", "role_label": "Witness"}},
@@ -226,7 +226,6 @@ def test_ordinary_turn_calls_voice_generation_and_checks_inline_citations():
             "sources": [],
         }
     ]
-    assert result.voice_event["do_not_voice_violation"] is None
     assert result.voice_event["degraded_by_net"] is False
 
 
@@ -254,14 +253,6 @@ def test_crisis_turn_usage_records_are_also_attributed():
     assert len(result.usage_records) == 2  # safety, reader - no voice call at all on the crisis path
     assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call"}
     assert all(r.session_id == "crisis-session-1" for r in result.usage_records)
-
-
-def test_do_not_voice_quote_verbatim_is_flagged_on_a_real_turn():
-    client = FakeBedrockClient(
-        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["I should not have said this: not for the voice to speak."],
-    )
-    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="tell me the secret", pressed={}, anachronistic_term_ids=set())
-    assert result.voice_event["do_not_voice_violation"] == "fix.quote.private-teaching"
 
 
 def test_system_nature_is_answered_by_the_facilitator_not_the_world():

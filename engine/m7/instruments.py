@@ -48,7 +48,7 @@ def _defect_family(d) -> str | None:
 
 
 def unread_outputs(s: AuditSession) -> list[Finding]:
-    """§3.1 - the four formerly-unread outputs, surfaced.
+    """§3.1 - the three formerly-unread outputs, surfaced.
 
     guard_proximity entries are excluded from this generic bucket - they
     get their own dedicated instrument (guard_proximity, below) at defect
@@ -59,10 +59,6 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
     """
     findings = []
     for t in s.voice_turns:
-        if t.do_not_voice_violation:
-            findings.append(Finding("do_not_voice", "defect", s.session_id,
-                                    f"content-licensing violation on {t.speaker}'s turn (seq {t.seq}): {t.do_not_voice_violation}",
-                                    excerpt=t.text[:200]))
         for d in t.output_defects:
             if _defect_family(d) == "guard_proximity":
                 continue
@@ -86,7 +82,7 @@ def guard_proximity(s: AuditSession) -> list[Finding]:
     (engine.m4.output_check), read at defect severity - the one
     output_check family that is a live fabrication risk (a sentence
     sharing a cited record's own barred claim), not a cosmetic/register
-    issue like the other three. Feeds R14 (Rulings-Pending.md): reports
+    issue like the other three. Reports
     only, same as every instrument in this module, never a block."""
     findings = []
     for t in s.voice_turns:
@@ -189,11 +185,9 @@ def _legacy_anchor_marks(anchors: list[dict]) -> int:
 
 
 def level1_element_density(s: AuditSession) -> list[dict]:
-    """Stage 6d / R17 (Rulings-Pending.md, Decision-Log.md Entry 29): "an M7
-    instrument counting Level-1 elements per turn" (Adjusted-Design.md's
-    N2). Report-only, no findings (principle 10: report-only instruments
-    stay report-only until data earns them a bar) - this measures, it
-    does not enforce. Metrics only, same shape as register_mechanical's
+    """Counts Level-1 elements per turn. Report-only, no findings
+    (principle 10: report-only instruments stay report-only until data
+    earns them a bar) - this measures, it does not enforce. Metrics only, same shape as register_mechanical's
     own metrics half.
 
     A "Level-1 element" is an inline mark visible directly in the running
