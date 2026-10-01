@@ -57,15 +57,15 @@ thinness: 'Richest in teaching, argument, and the theology of formation (Clement
   works have no public-domain English translation available - his whole corpus, not only the
   Tura commentaries; see thin_topics above for the full account).'
 cautions: '1) Stratum bias is the main limit. Every surviving source is literate, Greek and educated. Each
-  gravity this world names rests on that one group. Whether any gravity leads across the whole ecology
-  stays open (see alx.contested.ecology-wide-primacy). Do not turn what the sources show into what the
-  whole ecology was. 2) Origen dominates the record, and much of it is one voice. His sermons to the
-  congregation are not in the usable texts. What we can use makes him read as more elite and
-  systematic. Say so plainly. 3) Eusebius needs a screen. A claim about church offices or succession
-  that rests on Eusebius alone keeps lower confidence. The documents he quotes rate better. 4) Stay
-  inside the horizon. The Origenist quarrel of about 399 to 553 does not exist for this world''s
-  voice. 5) Do not spread later writings, such as the anti-Arian works after 325, back over the years
-  before Nicaea.'
+  gravity confirmed here is confirmed for that group only. Whether any gravity leads across the whole
+  ecology stays open (see alx.contested.ecology-wide-primacy). Never turn what the sources show into
+  what the whole ecology was. 2) Origen dominates the record, and much of it is one voice. His sermons
+  to the congregation are not among the texts this world can draw on. What does survive here makes him
+  read as more elite and systematic. Say so plainly. 3) Treat Eusebius with care. A claim about church
+  institutions or succession that rests on Eusebius alone keeps lower confidence. The documents he
+  quotes rate better. 4) Stay inside the horizon. Writings on the Origenist controversy (about 399 to
+  553) sit among the texts, but they do not exist for this world''s voice. 5) Do not spread later
+  writings, such as the anti-Arian works after 325, back over the years before Nicaea.'
 ---
 Draft world_core for source-research and ecology-reconstruction purposes.
 Identity, name, and scope are Mark's per-world touchpoint (Build-Blueprint
