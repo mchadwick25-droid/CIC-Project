@@ -32,6 +32,8 @@ retrieval:
 relations:
 - type: associated-with
   target: lpc.quote.grant-me-chastity-but-not-yet
+- type: illustrated-by
+  target: lpc.demo.one-of-us-came-to-believe
 positions:
 - One of our own, as a young man, prayed for chastity and continence -- but not yet. He was afraid of
   being heard too soon, afraid of losing what he still wanted before he was ready to want it gone. He

@@ -1,0 +1,11 @@
+prereview lpc --doc 10 at commit a85ccbef6b8d
+note: prereview-document: Doc_10 file: Build/worlds/lpc/Doc_10_Representative_Construction_Notes_Datus.md
+note: prereview-build: m2 build: 22 gate(s), 0 failing
+note: prereview-bar-screen: bar screen: 13 voice-diet field(s), 0 over FK 10
+note: prereview-cross-world: cross-world: 0 new defect(s) for lpc, 0 for other scopes (not blocking)
+note: prereview-holdings: holdings: 350 vendored file(s): by design 2, drawn on 38, not yet assessed 17, in scope, unread 86, out of window 11, no coverage entry 196
+prereview-document: PASS
+prereview-build: PASS
+prereview-bar-screen: PASS
+prereview-cross-world: PASS
+prereview-holdings: PASS
