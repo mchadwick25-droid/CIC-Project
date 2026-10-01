@@ -1117,9 +1117,8 @@ def test_a_back_reference_with_no_subject_is_a_follow_up():
 
 
 def test_a_bare_request_with_no_back_reference_is_not_a_follow_up():
-    """`Tell me more.` is a follow-up to a human and not to this test - it
-    carries no marker, so it is deliberately out of scope rather than
-    caught by a looser rule that would also catch real questions."""
+    """`Tell me more.` carries no back-reference marker, so the test treats
+    it as a new question. A looser rule would also catch real questions."""
     assert not _looks_like_follow_up("Tell me more.", None, CANON_QUESTIONS, None)
 
 

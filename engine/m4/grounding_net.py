@@ -150,10 +150,10 @@ def strip_tags(text: str) -> str:
 # is wrong, not something to paper over on the way out.
 def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
     """Every paired quotation in `text`, left to right: (start, end,
-    inner) - `start` is the opening quotation mark's own offset, `end` is
+    inner) - `start` is the offset of the opening quotation mark, `end` is
     just past the closing quotation mark, `inner` is the quoted words
-    between them. engine.m4.transparency_plan places a quote's mark at
-    `end`: a quote's mark follows the quoted words."""
+    between them. engine.m4.transparency_plan places a quote's marker at
+    `end`: the marker follows the quoted words."""
     spans = []
     pos = 0
     while True:
