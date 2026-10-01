@@ -83,10 +83,10 @@
     },
     "desert": {
       "world": "desert",
-      "total_quotes": 60,
-      "verified_count": 59,
+      "total_quotes": 61,
+      "verified_count": 60,
       "failed_count": 1,
-      "exact_no_diff_count": 10,
+      "exact_no_diff_count": 11,
       "note_verified_count": 0,
       "class_counts": {
         "whitespace": 38,
@@ -336,8 +336,8 @@
     }
   },
   "totals": {
-    "total_quotes": 357,
-    "verified_count": 350,
+    "total_quotes": 358,
+    "verified_count": 351,
     "failed_count": 7,
     "note_verified_count": 1
   }
