@@ -20,7 +20,7 @@ state: built
 census_id: "latin-pastoral-congregational-christianity"
 safety_adjacent: false
 package:
-  manifest_hash: "sha256:f3efbc9171aa16059e280bdcebc74ef82fd252e959e2a7ccb4733442e9ebbec9"
-  location: "packages/lpc/2026-10-01T14-07-52Z"
+  manifest_hash: "sha256:a3d0abc0ab4780dd1b76c140355757f0babd966613af4868ae207b9d94648366"
+  location: "packages/lpc/2026-10-01T14-54-23Z"
 thinness_statement: "Richest in both bishops' own words on the flock, the road back for the lapsed, and baptism. Thinner on women's own words, the lapsed's own account, ordinary believers, and country life in Punic and Berber."
 living_tradition_flag: true

@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
   divergence_note: 'Vendored under row 192 (cic/texts/possidius_vita-augustini_weiskotten1919.txt) and read
-    in full on 2026-09-16 (all thirty-one chapters, Review-Artifacts/Possidius_Full_Read_2026-09-16.md).
+    in full (all thirty-one chapters, Review-Artifacts/Possidius_Full_Read_2026-09-16.md).
     The Megalius/primate-of-Numidia identification is named directly in the Vita at chapter VIII (the
     chapter heading at file line 2075, the narrative at line 2131), and Doc_01 SS5 cites it there. This
     row is the standing reference to the work; row 192 is the fulfillment record.'

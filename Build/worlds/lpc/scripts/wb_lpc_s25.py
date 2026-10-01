@@ -56,7 +56,7 @@ INPUTS, mapped to OUTPUTS, precisely:
     considered and not advanced), §3 (Per-Candidate Testing, all eight
     subsections read in full), §4 (Classification Summary), §5 (Article 21
     Status Check -- this world's own strand-singular, phase-testing
-    substitute discipline), §6 (Interaction Matrix), §7 (Open Items) -> the
+    substitute discipline), §6 (Interaction Matrix), §7 (Items Carried Forward) -> the
     8 `gravity` records below, one per classified candidate (G1-G8, Doc_04's
     Candidate 1-8). classification is copied directly from Doc_04 §4's own
     summary table (never re-derived, including Candidate 5's own
@@ -173,7 +173,7 @@ states for itself, applied here:
     -- the one candidate whose own six-test profile is narrow throughout,
     whose classification required a project-lead ruling rather than the
     document's own verdict, and whose Confidence/Gravity Cross-Check
-    divergence Doc_04 itself carries forward as an open item (§7 item 1) --
+    divergence Doc_04 itself carries forward as a standing item (§7 item 1) --
     "contested" states that reality plainly rather than filing it as
     load-bearing like the other seven.
   - sources[]: AUTHORED per record, resolved to the specific lpc.source.*

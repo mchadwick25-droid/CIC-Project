@@ -69,7 +69,7 @@
 
 **Proportion check.** Tier 1 is 7 of 19. LDF Part III: *"a lexicon in which most entries are Tier 1 should be treated as a signal that tiering discipline has not actually been applied."* Tier 1 is a minority; `Doc_06_Full_Lexicon_Development.md` §2 gives the reasoning for every entry that moved from the tier Doc_03 proposed.
 
-**Why there are no Tier 3 entries, stated rather than left as an absence.** Both former Tier 3 entries — *libelli* and *libellatici / sacrificati* — are Tier 2 rather than Tier 3, because the template omits Key Sources at Tier 3 and for both entries the source disclosure *is* the justification for the entry. LDF Part III's own remedy governs: *"A Tier 3 entry that begins to require these should be reclassified to Tier 2 rather than expanded in place."* **A lexicon with no Tier 3 entries is a result, not a gap** — Round 2 ran the Part III test independently and the conclusion survived, though it also noted the premise Doc_06 gave for it is not one Doc_03 states (Round 2's L-N3, carried).
+**Why there are no Tier 3 entries, stated rather than left as an absence.** Both former Tier 3 entries — *libelli* and *libellatici / sacrificati* — are Tier 2 rather than Tier 3, because the template omits Key Sources at Tier 3 and for both entries the source disclosure *is* the justification for the entry. LDF Part III's own remedy governs: *"A Tier 3 entry that begins to require these should be reclassified to Tier 2 rather than expanded in place."* **A lexicon with no Tier 3 entries is a result, not a gap** — the Part III test, run independently, gives the same result; the premise Doc_06 gives for it is not one Doc_03 states.
 
 ---
 
@@ -89,7 +89,7 @@
 
 **[CT] Contested Tradition** — 3: grace; schism; "compel them to come in" — Augustine's coercion doctrine
 
-**[RT] is the runtime priority set** (LDF Part V) and **[DR] is the correction set**. **Carried from Round 2, unresolved:** *suffrage* carries no [DR] although Doc_06 §4 names it a sharpest-case distortion — a real tension between the tag set and the prose, recorded here rather than left to a later pass to rediscover.
+**[RT] is the runtime priority set** (LDF Part V) and **[DR] is the correction set**. **Unresolved:** *suffrage* carries no [DR] although Doc_06 §4 names it a sharpest-case distortion — a real tension between the tag set and the prose, recorded here rather than left to a later pass to rediscover.
 
 ---
 
@@ -101,13 +101,13 @@
 | schism | Yes | **Yes** | Application to this world; secondarily Historical scope |
 | "compel them to come in" — Augustine's coercion doctrine | Yes | **Yes** | Relationship to present-day traditions; secondarily Meaning |
 
-**Result: 3 CT-tagged, 3 completed, 0 mismatches.** **Doc_03 assigned [CT] to three terms and stated a contest type for none of them**; supplying the type is Doc_06's own work. Round 1 verified all three as specific and non-templated.
+**Result: 3 CT-tagged, 3 completed, 0 mismatches.** **Doc_03 assigned [CT] to three terms and stated a contest type for none of them**; supplying the type is Doc_06's own work. All three are specific and non-templated.
 
 ---
 
 ## 5. Related-Terms Reciprocity Check
 
-**Result: 122 links across 19 entries — 61 reciprocal pairs, zero one-way.** Verified by re-parsing the chunks from disk, and independently re-verified by **Round 2** and again by **Round 3**, each parsing all nineteen itself rather than reading this claim. **Round 1 reviewed eighteen chunks and found 110 links across 55 pairs**; the nineteenth did not exist then.
+**Result: 122 links across 19 entries — 61 reciprocal pairs, zero one-way.** Verified by re-parsing all nineteen chunks from disk.
 
 **This check has found real defects twice.** The first pass authored each chunk's list independently and produced **27 one-way or broken links** — the cross-reference pass had not been run. Two defects then surfaced *inside* the repair: a matcher that substring-matched into Aliases and reported 35 failures that were not real, and a repair that inserted comma-bearing canonical terms into a comma-separated field. Related-Terms uses a **comma-free reference handle** for every term, so the field cannot be fragmented by its own contents.
 
@@ -126,7 +126,7 @@
 | "compel them to come in" — Augustine's coercion doctrine | **Yes** | known only through Augustine's own advocacy, in his own defence |
 | "certificates" — the martyrs' and confessors' letters of peace | **Yes** | the confessors' own certificates do not survive; Cyprian quotes and objects to them |
 
-**8 of 19 entries carry an Author Gravity note.** The column is derived from the presence of that note in each chunk, so it cannot disagree with the chunk. **Round 1 verified 7 Yes / 11 No across eighteen entries; Round 2 and Round 3 each re-verified all 19.**
+**8 of 19 entries carry an Author Gravity note.** The column is derived from the presence of that note in each chunk, so it cannot disagree with the chunk.
 
 ---
 
@@ -144,7 +144,7 @@
 | **the lapsed** | that same two-way classification, narrated as flat fact in a **Tier 1 World Meaning** | Doc_05 had flagged the identical sentence and the chunk dropped the flag |
 | **certificates (letters of peace)** | *"thousands of certificates were given, against the Gospel law"* — an **editorial endnote's** wording, quoted as re-verified Cyprian; his own text reads *"were **daily** given, **contrary to the law of the Gospel**"* | **committed in the entry added to close a discovery gap**, in the deliverable that keeps this register |
 
-**The last two entries say the same thing twice.** The sixth was a **regression** — the upstream document had caught it, marked it, and the chunk un-marked it. The seventh was committed *inside the entry added to close a discovery gap*, by a pass with this register open in front of it — and the wording's route in is traceable: **the endnote's phrasing appears verbatim in the review finding that reported it.** The drafting pass copied its reviewer. **So the control cannot stop at the vendored sources: a quotation arriving from a review artifact needs checking against the marked-up text exactly as one arriving from memory does.** Mechanically: mark the `<note>` spans **before** stripping tags, since stripping first makes the apparatus indistinguishable from the text. The same method yields this world's certificate count at **38 in Cyprian's own text against 42 on a naive sweep**.
+**The last two entries say the same thing twice.** The sixth was a **regression** — the upstream document had caught it, marked it, and the chunk un-marked it. The seventh was committed *inside the entry added to close a discovery gap*, by a pass with this register open in front of it — and the wording's route in is traceable: **the endnote's phrasing appears verbatim in the review finding that reported it.** The drafting pass copied the review finding. **So the control cannot stop at the vendored sources: a quotation arriving from a review artifact needs checking against the marked-up text exactly as one arriving from memory does.** Mechanically: mark the `<note>` spans **before** stripping tags, since stripping first makes the apparatus indistinguishable from the text. The same method yields this world's certificate count at **38 in Cyprian's own text against 42 on a naive sweep**.
 
 ---
 
@@ -156,9 +156,9 @@
 - **Augustine-phase only:** grace; plenary Council; compel them to come in
 - **Cross-phase:** the flock; preaching; catechesis; the people; suffrage; communion; heresy; schism
 
-**`suffrage` is cross-phase and its tagging now agrees with that** — Round 1's H2 removed a [PV] tag Doc_03 rules out by name.
+**`suffrage` is cross-phase and its tagging now agrees with that** — it carries no [PV] tag, which Doc_03 rules out by name.
 
-**`certificate` is ambiguous across two entries and the disambiguation is reciprocal.** `lpclex017` (the Decian sacrifice-certificate, which made a person lapsed) and `lpclex019` (the confessors' letter of peace, which asks the church to take them back) both answer to the bare word; both now carry the cross-reference, and **the ambiguity is marked in `lpclex017`'s alias cell above — which is where Round 3's H-R1 found this index stale.**
+**`certificate` is ambiguous across two entries and the disambiguation is reciprocal.** `lpclex017` (the Decian sacrifice-certificate, which made a person lapsed) and `lpclex019` (the confessors' letter of peace, which asks the church to take them back) both answer to the bare word; both now carry the cross-reference, and **the ambiguity is marked in `lpclex017`'s alias cell above**.
 
 **`confessor`'s phase bound was established by a check, not assumed:** twenty stem occurrences across all eight vendored Augustine volumes against roughly 150 in Cyprian's one, none in this sense (Doc_05 §2.3).
 

@@ -179,7 +179,7 @@ CT CONTEST TYPE FINDING (schema-forced placement, same finding don's own
 script names for `don.term.agonistici`). `term` has no dedicated
 CT-Contest-Type field. Doc_06 SS3 specifies a real contest type for each of
 the three CT-tagged terms (grace, schism, "compel them to come in"), never
-templated -- Round 1 "verified all three as specific and non-templated." All
+templated. All
 three are folded into `senses.informational` as a distinctly separated
 closing paragraph naming the contest type verbatim from Doc_06 SS3 and
 stating, per the chunk's own words, what the entry therefore does not do.

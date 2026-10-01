@@ -66,7 +66,7 @@ INPUTS, mapped to OUTPUTS, precisely:
   - Doc_07_Integrated_Ecology_Analysis.md SS2I, SS3A, SS5, SS6 ->
     world_core.formation_logic.
   - Doc_02_Source_Ecology.md SS6 (Source Asymmetries and Missing Voices), SS8
-    (Confidence Map), SS9 (open items) + Doc_07 SS7 (Gaps and Limits) ->
+    (Confidence Map), SS9 (items carried forward) + Doc_07 SS7 (Gaps and Limits) ->
     world_core.thinness / .cautions / .thin_topics.
 
 MECHANICAL vs AUTHORED, field by field, so a reviewer can tell what to
@@ -242,7 +242,7 @@ itself, applied here to a differently-shaped Registry:
         answers whether the OBJECT ITSELF was directly opened this session.
         The two axes are independent by the schema's own design, and `lpc`'s
         own Registry -- unlike don's -- populates this exact combination
-        densely, across the whole 2026-09-08 vendoring pass (rows 89, 90,
+        densely, across the whole vendoring pass (rows 89, 90,
         99, 191, 193-203, 205-212): each was fetched and its own identity
         confirmed directly, while the specific claim it would license has
         mostly not yet been read out and exploited -- which is exactly why

@@ -125,7 +125,7 @@ HONEST_LIMIT (6 records) -- every genuine "this world's record cannot speak
 to X" finding already on record, checked against lpc_Rep_Phase1_Ecology_
 Assessment.md §2 (Thinness Mapping), Doc_07_Integrated_Ecology_Analysis.md
 §7 (Gaps and Limits), Doc_09_Story_Inventory.md §5 item 4 (cross-phase
-women's-voice finding) and §7/§8 (Absent Stories, Open Items), and lpc.core.
+women's-voice finding) and §7/§8 (Absent Stories, Items Carried), and lpc.core.
 latin-pastoral-congregational-christianity's own thin_topics field -- each
 domain independently named across at least two of these documents, none
 already substantively covered by an existing lpc term/story/quote/
