@@ -4,7 +4,7 @@
 |---|---|
 | World code | jes |
 | World id | the-society-of-jesus |
-| `safety_adjacent` (`true` or `false`, set by Mark at handoff) | false, set by the project lead; the registry entry exists |
+| `safety_adjacent` (`true` or `false`, set by Mark at handoff) | true, set by the project lead; the registry entry exists |
 | Slug | the-society-of-jesus |
 | Handoff date | 2026-09-30 |
 | Prepared by | Library thread |
