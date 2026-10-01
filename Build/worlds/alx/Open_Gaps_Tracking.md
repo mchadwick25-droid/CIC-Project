@@ -355,6 +355,6 @@ No probe failed, so there is nothing here for a next thread to fix. This entry o
 
 R26 (ruled 2026-09-22) and Process V2.0 line 982 say the voice knows only what its own sources, or the world in its own time, would have known. The checks behind them cover the voice's turns and a limited list of fields. They do not cover the force, gravity, contested-claim and figure records, which the voice reads when they are retrieved. No rule says how far past the horizon an ending or transmission force may reach, and no gate checks a record against the time window. Confidence tags, source ids and "cross-build" wording are not gated in those records either.
 
-Held: 27 force, gravity and world_core fields stay out of the readability rewrite until each is reviewed against R26 and V2.0 line 982 (would the world have known it in its own time?). Later-belief content is cut or flagged; the remainder is then made readable. Done: the builder notes in `world_core.cautions` were removed.
+Held: 27 force, gravity and world_core fields stay out of the readability rewrite until each is reviewed against R26 and V2.0 line 982 (would the world have known it in its own time?). Later-belief content is cut or flagged; the remainder is then made readable. Done: the builder notes in `world_core.cautions` were removed and that field was rewritten for readability, since the edit put it under the readability gate.
 
 Status: OPEN — the 27-field review is next.
