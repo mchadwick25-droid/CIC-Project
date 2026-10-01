@@ -47,8 +47,8 @@ Percent figures are read from `/usage` and noted by Mark.
 
 ## Ledger 2: metered API spend
 
-Metered ceiling for this world: placeholder, not set
-Ceiling set by Mark on: 
+Metered ceiling for this world: 3.00 USD, lean validation
+Ceiling set by Mark on: 2026-10-01
 
 | Run | Date | Kind | Settings as printed | Item count | Character count | Dollars |
 |---|---|---|---|---|---|---|
