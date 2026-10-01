@@ -37,7 +37,7 @@ edition: 'Lancel''s own Cerf critical edition is in copyright, consultation-only
   vendored by the sibling Donatism build as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt,
   public domain on the same by-date basis this corpus already accepts for its other Migne PL volumes,
   and the corpus map now assigns it to this world too (cic/corpus-map/latin-pastoral-congregational-christianity.yaml,
-  role: context, confidence: provisional, added 2026-09-13 on the project lead''s own decision).'
+  role: context, confidence: provisional, added 2026-09-13 on the project lead''s own decision). A second Latin printing is in cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt.'
 rights_status: 'Lancel''s own Cerf edition is in copyright and consultation-only; it is not vendored. Public
   domain applies only to the Migne Patrologia Latina XI printing of the Gesta, vendored in cic/texts/
   as pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, on the same by-date basis this corpus accepts
