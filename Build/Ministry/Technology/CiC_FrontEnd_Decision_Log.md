@@ -4987,3 +4987,41 @@ Mark's ear.
 
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Wittenberg (Nikolaus): separate job, Mark working on it.
+
+## 2026-10-01 — Wittenberg narrated in Nikolaus's voice
+
+**Decision.** Wittenberg's description and its two documented stories are
+narrated in the voice Mark chose for Nikolaus, the Representative of the
+Lutheran Wittenberg world. Mark heard the voice on the Reformed sample, judged
+it better suited to Wittenberg, and approved these three pieces by ear.
+
+**What exists for Wittenberg.** The world is listed "Built & Live" in the
+census but has no `world_front` record and no compiled site data, so it is not
+in the built-world set and the built-world narration tool cannot run on it. Its
+panel shows the census description and two embedded documented stories, which
+already played from `audio/tree/` and `audio/docstories/`. Only the three audio
+files were replaced; no page or script was edited. Its legacy and voices text
+have no players. Narrating a full world story and legacy would first need the
+`world_front` record written.
+
+**Settings, as printed by the run.** Voice `40lgdJOC1ND7hPOQX92p`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 520 credits for 3,902 characters (151 + 183 + 186); each request line
+carried the chosen voice and model. These replace the earlier audio: the
+description in the Daniel voice and the two stories in the gap-story voice.
+
+**Wired.** `audio/tree/lutheran-wittenberg-and-its-congregations.mp3`,
+`audio/docstories/lutheran-wittenberg-and-its-congregations-0.mp3` and `-1.mp3`,
+and the two entries in `audio/docstories/manifest.json` (voice id, model and
+format updated; the text fingerprints are unchanged because the text is).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to a Wittenberg story on the live site.
+2. A Wittenberg `world_front` record, if it is to join the built-world set.
