@@ -39,8 +39,8 @@ description: >-
 
   The shift is the old condition of illegality turned upside down, the same fact appearing at both ends
   of the story with the opposite sign. What a bishop could do had changed, though what a bishop was had
-  not -- Cyprian never asked the magistrate for anything, and a century and a half later, the magistrate
-  could be asked, and eventually was.
+  not -- in Cyprian's years the emperors were the ones persecuting the church, and a century and a half
+  later, the magistrate could be asked, and eventually was.
 
 
   We considered whether the shift itself was one of this world's own central concerns. It is not,
