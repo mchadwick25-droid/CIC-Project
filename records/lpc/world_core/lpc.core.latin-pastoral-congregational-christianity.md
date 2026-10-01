@@ -301,7 +301,7 @@ cautions: >-
 
 
   5) Two imperial laws are easily confused. The fine at Codex Theodosianus XVI.5.21 (392) is not the
-  same provision as XVI.5.52 (412). Between them falls the council of 401 that Letter 185, section
+  same provision as XVI.5.52 (412). Between them falls the council that Letter 185, section
   25, records. These are three different years under different emperors, easily collapsed into one
   another. The graded schedule of fines aimed at Donatists in XVI.5.52 is set mostly in pounds of gold, with
   ten pounds of silver for the Circumcellions. It belongs to the Donatist world, not this one.
