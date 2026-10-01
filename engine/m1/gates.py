@@ -500,6 +500,13 @@ _READABILITY_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator
 # those free-text notes.
 _READABILITY_EXCLUDED_FIELDS = {("quote", "text"), ("story", "text")}
 
+# A participant's turn in a demonstration exchange is a record of what the
+# participant said, like quote.text, not prose the project authors, so it
+# is never readability-graded. Only turns
+# whose `speaker` is "participant" are skipped; the world's own turns in
+# the same exchange are graded exactly as before.
+_READABILITY_EXCLUDED_SPEAKERS = {("demonstration", "exchange"): {"participant"}}
+
 # The three declared SPOKEN fields whose value is a list of {..., <key>}
 # objects rather than a bare string or list[str] - the sub-key each one's
 # own prose lives under. Read directly off each field's own real shape
@@ -528,7 +535,10 @@ def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
             continue
         list_key = _READABILITY_LIST_TEXT_KEY.get((record_type, field))
         if list_key is not None:
+            skip_speakers = _READABILITY_EXCLUDED_SPEAKERS.get((record_type, field), set())
             for item in value:
+                if isinstance(item, dict) and item.get("speaker") in skip_speakers:
+                    continue
                 text = item.get(list_key) if isinstance(item, dict) else None
                 if text:
                     tag = item.get("segment") or item.get("number") or item.get("speaker") or ""
