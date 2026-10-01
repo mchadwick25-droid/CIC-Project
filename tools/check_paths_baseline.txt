@@ -436,6 +436,7 @@ Build/worlds/lpc/Lexicon-Chunks/lpclex018_libellatici-sacrificati.md: L4-Templat
 Build/worlds/lpc/Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Open_Gaps_Tracking.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc
+Build/worlds/lpc/Open_Gaps_Tracking.md: records/worlds/lpc.yaml
 Build/worlds/lpc/Representative/lpc_Rep_Phase6_Facilitator_Coordination_Round1.md: L4-Templates/World_Facilitation_Brief_Template.md
 Build/worlds/lpc/Review-Artifacts/Article3_Gapped_Formation_Ruling_Prepared_2026-09-16.md: L1-Foundation/CiC_L1_Constitution_V2_2.docx
 Build/worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Build/Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md
