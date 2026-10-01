@@ -38,10 +38,10 @@ export function Launch({
   return (
     <div className="launch">
       <ArrivingLockup />
-      {error && <div className="conversation__error" style={{ margin: '0 var(--spacing-lg)' }}>{error}</div>}
-      {isLoading && !error && <p className="world-list__loading sans">Gathering the worlds…</p>}
+      {error && <div className="conversation__error" role="alert" style={{ margin: '0 var(--spacing-lg)' }}>{error}</div>}
+      {isLoading && !error && <p className="world-list__loading sans" role="status">Gathering the worlds…</p>}
       {!isLoading && !error && worlds.length === 0 && (
-        <p className="world-list__loading sans">
+        <p className="world-list__loading sans" role="status">
           The doors aren't open just yet — the worlds are being prepared. Please come back soon.
         </p>
       )}
@@ -121,7 +121,7 @@ export function Launch({
           </div>
         )}
 
-        {tableError && <div className="conversation__error">{tableError}</div>}
+        {tableError && <div className="conversation__error" role="alert">{tableError}</div>}
 
         <div className="table-field__convene">
           <div className="table-field__seats sans">

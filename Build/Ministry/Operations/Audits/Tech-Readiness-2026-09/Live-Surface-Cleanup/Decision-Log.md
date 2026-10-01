@@ -1923,3 +1923,7 @@ Pushed to `claude/gallant-archimedes-jafyg8` at `289b4d980`.
 - line 95: carried forward ... rather than silently dropped (change-narration)
 - line 112: disclosed as ... rather than filled here (change-narration)
 
+
+## Entry 20 — `cic-poc/frontend/src/app.css`, per the standing rule (pilot readiness fixes, 2026-10-01)
+
+The pilot readiness PR edits `app.css` for button contrast, input size and viewport height, so the file's one flagged line was cleared in the same PR. The `.read-aloud-disclosure` comment opened with "Mark's ruling, 2026-09-22". The design reason stays in the file in present tense: a visible line under the bar, not a tooltip, shown once. The provenance is recorded here: the project lead ruled on 2026-09-22 that the read-aloud disclosure is a visible line, not a tooltip. The `--color-primary` comment also claimed the buttons used light text through `--color-surface`. Since the dark theme, `--color-surface` is dark, so that claim was false. The comment now states the measured contrast, and buttons use the new `--color-on-primary` token.

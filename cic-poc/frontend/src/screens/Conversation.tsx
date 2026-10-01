@@ -72,7 +72,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
         <ReadAloudDisclosure representativeName={world.representativeName} turnKey={latestSpoken.index} />
       )}
 
-      <div className="conversation__transcript">
+      <div className="conversation__transcript" role="log" aria-label="Conversation">
         <Arrival world={world} />
         {turns.map((turn, i) => {
           if (turn.speaker === 'participant') {
@@ -108,7 +108,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
       </div>
 
       {isLoading && !closed && (
-        <p className="waiting-note sans">
+        <p className="waiting-note sans" role="status">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">
             <span></span>
@@ -118,7 +118,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
         </p>
       )}
       {error && (
-        <div className="conversation__error">
+        <div className="conversation__error" role="alert">
           {error}
           {errorRecoverable && (
             <button type="button" className="error-restart sans" onClick={onRestart}>

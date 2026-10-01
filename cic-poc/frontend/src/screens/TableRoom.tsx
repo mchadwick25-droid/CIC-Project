@@ -94,7 +94,7 @@ export function TableRoom({
         <ReadAloudDisclosure representativeName={readAloudRepresentativeName} turnKey={latestSpoken.index} />
       )}
 
-      <div className="conversation__transcript">
+      <div className="conversation__transcript" role="log" aria-label="Conversation">
         <div className="arrival arrival--table">
           <div className="arrival__seats">
             {seatedWorlds.map((w) => (
@@ -175,11 +175,11 @@ export function TableRoom({
           );
         })}
 
-        {isLoading && !closed && <p className="waiting-note sans">The table is speaking — voices answer in turn…</p>}
+        {isLoading && !closed && <p className="waiting-note sans" role="status">The table is speaking — voices answer in turn…</p>}
       </div>
 
       {error && (
-        <div className="conversation__error">
+        <div className="conversation__error" role="alert">
           {error}
           {errorRecoverable && (
             <button type="button" className="error-restart sans" onClick={onRestart}>
