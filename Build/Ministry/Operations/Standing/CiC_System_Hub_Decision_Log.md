@@ -5977,3 +5977,12 @@ gate checks for it.
 
 **Left as history.** Earlier decision logs, review files and planning documents that name the license are not
 edited. They record what was true when they were written.
+
+## 2026-10-01 - Cap ruling: jes Step 0, spot-check file under its new name
+
+The Library thread filed the `jes` Step 0 spot-check under its round's number, as the Library-stage rule
+requires, and renamed it from `Step0_Review_Round4_SpotCheck.md` to `Step0_Review_Round3_SpotCheck.md`. The
+ruling of 2026-09-30 ("Cap ruling: jes Step 0") covers the same review under its new name. The only review this
+entry covers is `Step0_Review_Round3_SpotCheck.md`. The entry of 2026-09-30 is unchanged and still names the
+review under its earlier name.
+
