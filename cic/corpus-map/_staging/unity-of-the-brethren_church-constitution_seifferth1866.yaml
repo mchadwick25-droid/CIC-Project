@@ -1,7 +1,8 @@
 source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
 
 assignments:
-  - work: "Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)"
+  - row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren
+    work: "Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)"
     author: unity-of-the-brethren
     locus: "whole volume"
     atlas_ids:

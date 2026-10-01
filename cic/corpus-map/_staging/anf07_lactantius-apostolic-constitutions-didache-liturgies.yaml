@@ -49,7 +49,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Divine Institutes
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-institutes
+  work: The Divine Institutes
   author: lactantius
   locus: div2 3.2 — The Divine Institutes
   atlas_ids:
@@ -67,7 +68,8 @@ assignments:
     split by work.
 
     '
-- work: A Treatise on the Anger of God
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god
+  work: A Treatise on the Anger of God
   author: lactantius
   locus: div2 3.3
   atlas_ids:
@@ -80,7 +82,8 @@ assignments:
     settled by the Institutes'' placement.
 
     '
-- work: On the Workmanship of God
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-the-workmanship-of-god
+  work: On the Workmanship of God
   author: lactantius
   locus: div2 3.4
   atlas_ids:
@@ -93,7 +96,8 @@ assignments:
     is settled by the Institutes'' placement.
 
     '
-- work: Of the Manner in Which the Persecutors Died
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--of-the-manner-in-which-the-persecutors-died
+  work: Of the Manner in Which the Persecutors Died
   author: lactantius
   locus: div2 3.5
   atlas_ids:
@@ -110,7 +114,8 @@ assignments:
     live world of a source it depends on, which is exactly what the non-exclusivity rule exists to prevent.
 
     '
-- work: Fragments of Lactantius
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--fragments-of-lactantius
+  work: Fragments of Lactantius
   author: lactantius
   locus: div2 3.6
   atlas_ids:
@@ -122,7 +127,8 @@ assignments:
     question, and that is settled by the Institutes'' placement.
 
     '
-- work: On Easter (De Pascha)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
+  work: On Easter (De Pascha)
   author: venantius
   locus: div1 4 — Venantius
   atlas_ids:
@@ -135,7 +141,8 @@ assignments:
     in an Ante-Nicene volume; the census entry (c. 480-620, Gaul) fits it exactly.
 
     '
-- work: The Extant Writings of Asterius Urbanus
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-extant-writings-of-asterius-urbanus
+  work: The Extant Writings of Asterius Urbanus
   author: asterius
   locus: div2 5.2
   atlas_ids:
@@ -151,7 +158,8 @@ assignments:
     census entry).
 
     '
-- work: On the Creation of the World
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-the-creation-of-the-world
+  work: On the Creation of the World
   author: victorinus
   locus: div2 6.1
   atlas_ids:
@@ -164,7 +172,8 @@ assignments:
     entry beats an inaccurate thick one.
 
     '
-- work: Commentary on the Apocalypse of the Blessed John
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john
+  work: Commentary on the Apocalypse of the Blessed John
   author: victorinus
   locus: div2 6.2
   atlas_ids:
@@ -177,7 +186,8 @@ assignments:
     hieronymian-ascetic-literary rather than as a second claim on the voice.
 
     '
-- work: Commentary on the Apocalypse of the Blessed John
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john-2
+  work: Commentary on the Apocalypse of the Blessed John
   author: victorinus
   locus: div2 6.2
   atlas_ids:
@@ -190,7 +200,8 @@ assignments:
     do not have quite what was written. That is the boundary the role was defined on.
 
     '
-- work: Against the Sabellians
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--against-the-sabellians
+  work: Against the Sabellians
   author: dionysius_rome
   locus: div2 7.2
   atlas_ids:
@@ -201,7 +212,8 @@ assignments:
     the controversy with Dionysius of Alexandria and preserved by Athanasius. Filed under
     `roman-church-third-century`: Dionysius was bishop 259-268, and a Roman bishop''s doctrinal letter
     belongs to the Roman church rather than to the Alexandrian controversy it addresses.'
-- work: The Teaching of the Twelve Apostles (Didache)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-teaching-of-the-twelve-apostles-didache
+  work: The Teaching of the Twelve Apostles (Didache)
   author: didache
   locus: div2 8.3
   atlas_ids:
@@ -213,7 +225,8 @@ assignments:
     in Apostolic Constitutions VII (same volume), which is assigned separately.
 
     '
-- work: Constitutions of the Holy Apostles (Apostolic Constitutions)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--constitutions-of-the-holy-apostles-apostolic-constitutions
+  work: Constitutions of the Holy Apostles (Apostolic Constitutions)
   author: apostolic-constitutions
   locus: div1 9, Books I-VIII
   atlas_ids:
@@ -228,7 +241,8 @@ assignments:
     an assignment.
 
     '
-- work: The Second Epistle of Clement (an ancient homily)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-second-epistle-of-clement-an-ancient-homily
+  work: The Second Epistle of Clement (an ancient homily)
   author: second-clement
   locus: div2 10.3 — The Homily
   atlas_ids:
@@ -240,7 +254,8 @@ assignments:
     which the merge tolerates as two source files.
 
     '
-- work: The Nicene Creed
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-nicene-creed
+  work: The Nicene Creed
   author: nicene-creed
   locus: div1 11
   atlas_ids:
@@ -252,7 +267,8 @@ assignments:
     creed itself is filed with the councils.
 
     '
-- work: The Divine Liturgy of James
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
+  work: The Divine Liturgy of James
   author: liturgy-of-st-james
   locus: div2 12.2
   atlas_ids:
@@ -266,7 +282,8 @@ assignments:
     argument; provisional because the text''s date is far from the entries'' windows.
 
     '
-- work: The Divine Liturgy of Mark
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-mark
+  work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark
   locus: div2 12.3
   atlas_ids:
@@ -284,7 +301,8 @@ assignments:
     this is its material.
 
     '
-- work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-liturgy-of-the-blessed-apostles-adaeus-and-maris
+  work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
   author: liturgy-of-addai-and-mari
   locus: div2 12.4
   atlas_ids:

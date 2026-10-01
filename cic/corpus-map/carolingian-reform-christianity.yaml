@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: carolingian-reform-christianity
 works:
-- work: 'The Decretals (pseudo-Isidorian: Zephyrinus to Fabian)'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-decretals-pseudo-isidorian-zephyrinus-to-fabian
+  work: 'The Decretals (pseudo-Isidorian: Zephyrinus to Fabian)'
   author: decretals-pseudo-isidore
   locus: div1 8 (div2 8.3-8.9)
   role: tradition

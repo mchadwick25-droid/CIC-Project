@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: lutheran-wittenberg-and-its-congregations
 works:
-- work: A Brief Explanation of the Ten Commandments, the Creed, and the Lord's Prayer
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--a-brief-explanation-of-the-ten-commandments-the-creed-and
+  work: A Brief Explanation of the Ten Commandments, the Creed, and the Lord's Prayer
   author: luther
   locus: lines ~13133-14403
   role: tradition
@@ -14,7 +15,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: A Discussion of Confession
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--a-discussion-of-confession
+  work: A Discussion of Confession
   author: luther
   locus: lines ~2856-3994
   role: tradition
@@ -24,7 +26,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: A Prelude on the Babylonian Captivity of the Church (incl. the sections on the sacraments
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--a-prelude-on-the-babylonian-captivity-of-the-church-incl-the
+  work: A Prelude on the Babylonian Captivity of the Church (incl. the sections on the sacraments
     of the Bread, Baptism, Penance, and Extreme Unction)
   author: luther
   locus: lines ~6323-11013
@@ -37,7 +40,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: A Treatise Concerning the Ban
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-ban
+  work: A Treatise Concerning the Ban
   author: luther
   locus: lines ~1040-1787
   role: tradition
@@ -47,7 +51,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: A Treatise Concerning the Blessed Sacrament of the Holy and True Body of Christ, and
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-blessed-sacrament-of-the-holy-and
+  work: A Treatise Concerning the Blessed Sacrament of the Holy and True Body of Christ, and
     Concerning the Brotherhoods
   author: luther
   locus: lines ~80-1040
@@ -58,7 +63,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: A Treatise on Christian Liberty, with a Letter to Pope Leo X
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-on-christian-liberty-with-a-letter-to-pope-leo-x
+  work: A Treatise on Christian Liberty, with a Letter to Pope Leo X
   author: luther
   locus: lines ~11013-13100
   role: tradition
@@ -69,7 +75,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: A Treatise on Good Works
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--a-treatise-on-good-works
+  work: A Treatise on Good Works
   author: luther
   locus: lines ~6239-10629
   role: tradition
@@ -80,7 +87,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: A Treatise on the Holy Sacrament of Baptism
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--a-treatise-on-the-holy-sacrament-of-baptism
+  work: A Treatise on the Holy Sacrament of Baptism
   author: luther
   locus: lines ~1957-2856
   role: tradition
@@ -90,7 +98,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: A Treatise on the New Testament, That Is the Holy Mass
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--a-treatise-on-the-new-testament-that-is-the-holy-mass
+  work: A Treatise on the New Testament, That Is the Holy Mass
   author: luther
   locus: lines ~10629-12211
   role: tradition
@@ -101,7 +110,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned
+- row_id: luther_works-v3-selected_various1930--an-argument-in-defense-of-all-the-articles-of-dr-martin
+  work: An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned
     in the Roman Bull
   author: luther
   locus: see file's own Contents page (OCR-degraded, verify against section headings)
@@ -113,7 +123,8 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
-- work: An Earnest Exhortation for All Christians, Warning Them Against Insurrection
+- row_id: luther_works-v3-selected_various1930--an-earnest-exhortation-for-all-christians-warning-them
+  work: An Earnest Exhortation for All Christians, Warning Them Against Insurrection
   author: luther
   locus: see file's own Contents page (OCR-degraded, verify against section headings)
   role: tradition
@@ -126,7 +137,8 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
-- work: An Open Letter to the Christian Nobility of the German Nation, Concerning the Reform
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--an-open-letter-to-the-christian-nobility-of-the-german
+  work: An Open Letter to the Christian Nobility of the German Nation, Concerning the Reform
     of the Christian Estate
   author: luther
   locus: lines ~1787-6323
@@ -138,7 +150,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther)
+- row_id: luther_hymns_bacon-allen--dr-martin-luther-s-deutsche-geistliche-lieder-the-hymns-of
+  work: Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther)
   author: luther
   locus: whole file
   role: tradition
@@ -154,7 +167,8 @@ works:
 
     '
   source_file: luther_hymns_bacon-allen.txt
-- work: 'First Principles of the Reformation: The Ninety-Five Theses, the Address to the Nobility
+- row_id: luther_first-principles-reformation_wace-buchheim1885--first-principles-of-the-reformation-the-ninety-five-theses
+  work: 'First Principles of the Reformation: The Ninety-Five Theses, the Address to the Nobility
     of the German Nation, On Christian Liberty, and On the Babylonish Captivity of the Church'
   author: luther
   locus: 'whole text (four works: Theses and two Latin treatises trans. R. S. Grignon; the
@@ -176,7 +190,8 @@ works:
 
     '
   source_file: luther_first-principles-reformation_wace-buchheim1885.txt
-- work: Martin Luther on the Bondage of the Will
+- row_id: luther_bondage-of-the-will_cole1823--martin-luther-on-the-bondage-of-the-will
+  work: Martin Luther on the Bondage of the Will
   author: luther
   locus: whole file
   role: tradition
@@ -191,7 +206,8 @@ works:
 
     '
   source_file: luther_bondage-of-the-will_cole1823.txt
-- work: Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual,
+- row_id: luther_works-v3-selected_various1930--reply-to-the-answer-of-the-leipzig-goat-answer-to-the
+  work: Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual,
     and Superlearned Book of Goat Emser)
   author: luther
   locus: see file's own Contents page (OCR-degraded, verify against section headings)
@@ -203,7 +219,8 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
-- work: 'Secular Authority: To What Extent It Should Be Obeyed'
+- row_id: luther_works-v3-selected_various1930--secular-authority-to-what-extent-it-should-be-obeyed
+  work: 'Secular Authority: To What Extent It Should Be Obeyed'
   author: luther
   locus: see file's own Contents page (OCR-degraded, verify against section headings)
   role: tradition
@@ -213,7 +230,8 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
-- work: Selections from Luther's Prefaces to His Works, 1539 and 1545
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--selections-from-luther-s-prefaces-to-his-works-1539-and-1545
+  work: Selections from Luther's Prefaces to His Works, 1539 and 1545
   author: luther
   locus: lines ~250-432 (I. Preface to the First Part of His German Works, Edition of 1539;
     II. Dr. Martin Luther to the Christian Reader, Edition of 1545)
@@ -231,7 +249,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: Selections from the Table Talk of Martin Luther
+- row_id: luther_table-talk_bell1886--selections-from-the-table-talk-of-martin-luther
+  work: Selections from the Table Talk of Martin Luther
   author: luther
   locus: whole file
   role: tradition
@@ -245,7 +264,8 @@ works:
 
     '
   source_file: luther_table-talk_bell1886.txt
-- work: That Doctrines of Men Are to Be Rejected, together with a Reply to Texts Quoted in
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--that-doctrines-of-men-are-to-be-rejected-together-with-a
+  work: That Doctrines of Men Are to Be Rejected, together with a Reply to Texts Quoted in
     Defence of the Doctrines of Men
   author: luther
   locus: lines ~15816-16824
@@ -263,7 +283,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: The Eight Wittenberg Sermons
+- row_id: luther_works-v2-selected_jacobs-spaeth1916--the-eight-wittenberg-sermons
+  work: The Eight Wittenberg Sermons
   author: luther
   locus: lines ~14403-15815
   role: tradition
@@ -276,7 +297,8 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
-- work: The Fourteen of Consolation, for Such as Labor and Are Heavy Laden
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--the-fourteen-of-consolation-for-such-as-labor-and-are-heavy
+  work: The Fourteen of Consolation, for Such as Labor and Are Heavy Laden
   author: luther
   locus: lines ~3994-6239
   role: tradition
@@ -287,7 +309,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: The Large Catechism of Martin Luther
+- row_id: luther_large-catechism_bente-dau1921--the-large-catechism-of-martin-luther
+  work: The Large Catechism of Martin Luther
   author: luther
   locus: whole file
   role: tradition
@@ -299,7 +322,8 @@ works:
 
     '
   source_file: luther_large-catechism_bente-dau1921.txt
-- work: 'The Magnificat: Translated and Explained'
+- row_id: luther_works-v3-selected_various1930--the-magnificat-translated-and-explained
+  work: 'The Magnificat: Translated and Explained'
   author: luther
   locus: lines ~6281-10440 (dedication to Duke John Frederick from 6499; the full verse-by-verse
     commentary follows; the volume's next work, An Earnest Exhortation, begins at 10441)
@@ -308,19 +332,20 @@ works:
   note: '1520-21, intro./trans. A. T. W. Steinhaeuser - Luther''s own verse-by-verse exposition
     of the Magnificat (Luke 1:46-55) for the young Duke John Frederick, including the devotional-exegetical
     register Doc_01/Doc_02 flagged as thin in this corpus and his ideal of a woman''s life
-    (Mary at household tasks) - usable only for that, never as a woman''s own voice. Closes
-    the gap witt_Source_Registry.md''s R18 flagged as "Not in the corpus-map" - the registry''s
-    own note identifies this as "the v3 work whose OCR title the intake header called unreadable."
-    Confidence held at provisional, matching this file''s sibling entries: the start (6281),
-    dedication (6499), and end boundary (10440, immediately before the Earnest Exhortation
-    heading at 10441) were confirmed directly against the vendored file this pass - a firmer
-    boundary than the sibling entries'' own "see Contents page" loci - but the body text is
-    only spot-read, not fully verified, and carries the same OCR degradation as the rest of
-    this volume (e.g. "SerRENE HIGHNESS," "JoHN FREDERICK" in the dedication heading itself).
+    (Mary at household tasks) - usable only for that, never as a woman''s own voice. The witt
+    source registry listed it as "Not in the corpus-map"; the registry''s own note identifies
+    this as "the v3 work whose OCR title the intake header called unreadable." Confidence
+    held at provisional, matching this file''s sibling entries: the start (6281), dedication
+    (6499), and end boundary (10440, immediately before the Earnest Exhortation heading at
+    10441) were confirmed directly against the vendored file this pass - a firmer boundary
+    than the sibling entries'' own "see Contents page" loci - but the body text is only spot-read,
+    not fully verified, and carries the same OCR degradation as the rest of this volume (e.g.
+    "SerRENE HIGHNESS," "JoHN FREDERICK" in the dedication heading itself).
 
     '
   source_file: luther_works-v3-selected_various1930.txt
-- work: The Ninety-Five Theses (Disputation on the Power and Efficacy of Indulgences), with
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--the-ninety-five-theses-disputation-on-the-power-and-efficacy
+  work: The Ninety-Five Theses (Disputation on the Power and Efficacy of Indulgences), with
     the Letter to Archbishop Albrecht of Mainz
   author: luther
   locus: Letter to the Archbishop Albrecht of Mainz through the Disputation itself (lines
@@ -332,7 +357,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: The Small Catechism of Martin Luther
+- row_id: luther_small-catechism_smith1994--the-small-catechism-of-martin-luther
+  work: The Small Catechism of Martin Luther
   author: luther
   locus: whole file
   role: tradition
@@ -345,7 +371,8 @@ works:
 
     '
   source_file: luther_small-catechism_smith1994.txt
-- work: To the Knights of the Teutonic Order
+- row_id: luther_works-v3-selected_various1930--to-the-knights-of-the-teutonic-order
+  work: To the Knights of the Teutonic Order
   author: luther
   locus: see file's own Contents page (OCR-degraded, verify against section headings)
   role: tradition
@@ -354,7 +381,8 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
-- work: To the Papacy at Rome, an Answer to the Celebrated Romanist at Leipzig
+- row_id: luther_works-v1-selected_jacobs-spaeth1915--to-the-papacy-at-rome-an-answer-to-the-celebrated-romanist
+  work: To the Papacy at Rome, an Answer to the Celebrated Romanist at Leipzig
   author: luther
   locus: lines ~12211-end
   role: tradition
@@ -365,7 +393,8 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
-- work: The Apology of the Augsburg Confession
+- row_id: melanchthon_apology-augsburg-confession_bente-dau1921--the-apology-of-the-augsburg-confession
+  work: The Apology of the Augsburg Confession
   author: melanchthon
   locus: whole file
   role: tradition
@@ -377,7 +406,8 @@ works:
 
     '
   source_file: melanchthon_apology-augsburg-confession_bente-dau1921.txt
-- work: The Augsburg Confession
+- row_id: melanchthon_augsburg-confession_anon-pg275--the-augsburg-confession
+  work: The Augsburg Confession
   author: melanchthon
   locus: whole file
   role: tradition

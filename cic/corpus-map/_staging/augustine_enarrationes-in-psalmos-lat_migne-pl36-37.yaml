@@ -1,7 +1,8 @@
 source_file: augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
 
 assignments:
-  - work: "Augustine's Expositions on the Psalms (Enarrationes in Psalmos), complete, Psalms 1-150"
+  - row_id: augustine_enarrationes-in-psalmos-lat_migne-pl36-37--augustine-s-expositions-on-the-psalms-enarrationes-in
+    work: "Augustine's Expositions on the Psalms (Enarrationes in Psalmos), complete, Psalms 1-150"
     author: augustine
     locus: "whole file; Migne PL 36 (Psalms 1-79) and PL 37 (Psalms 80-150) bound in one scan"
     atlas_ids:

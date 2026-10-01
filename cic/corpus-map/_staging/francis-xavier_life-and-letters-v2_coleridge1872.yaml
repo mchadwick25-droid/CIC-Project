@@ -1,7 +1,8 @@
 source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
 
 assignments:
-  - work: "The Life and Letters of St. Francis Xavier, Vol. II"
+  - row_id: francis-xavier_life-and-letters-v2_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-ii
+    work: "The Life and Letters of St. Francis Xavier, Vol. II"
     author: francis-xavier
     locus: "whole text - Japan and China missions, Xavier's death 1552"
     atlas_ids:

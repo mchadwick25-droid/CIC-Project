@@ -1,7 +1,8 @@
 source_file: harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt
 
 assignments:
-  - work: "Harnack, Die Mission und Ausbreitung des Christentums, Band 2 (2nd ed., 1906)"
+  - row_id: harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906--harnack-die-mission-und-ausbreitung-des-christentums-band-2
+    work: "Harnack, Die Mission und Ausbreitung des Christentums, Band 2 (2nd ed., 1906)"
     author: harnack
     locus: "Africa section running head at file line 13271"
     atlas_ids:

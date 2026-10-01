@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: greek-apologists-second-century
 works:
-- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--ambrose-a-memorial-hypomnemata-addressed-to-the-greeks
+  work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
   role: tradition
@@ -18,7 +19,8 @@ works:
     question - the entry's window is 124-200 and this piece is undated - not because the Syriac
     half is in doubt.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Apology of Aristides the Philosopher
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
   author: aristides
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   role: tradition
@@ -29,7 +31,8 @@ works:
     Edessene assignment. greek-apologists-second-century holds this work for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: Fragments of Aristo of Pella
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
   role: tradition
@@ -39,7 +42,8 @@ works:
     by the fragments. greek-apologists-second-century holds this work for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: A Plea for the Christians
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians
+  work: A Plea for the Christians
   author: athenagoras
   locus: div2 5.2 under div1 'ATHENAGORAS'
   role: tradition
@@ -50,7 +54,8 @@ works:
     pahc, for the era's outward-facing writing; pahc is kept because the era and church-world
     are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: The Resurrection of the Dead
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-resurrection-of-the-dead
+  work: The Resurrection of the Dead
   author: athenagoras
   locus: div2 5.3 under div1 'ATHENAGORAS'
   role: tradition
@@ -59,7 +64,8 @@ works:
     alongside pahc, for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Fragments of Claudius Apollinaris
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-claudius-apollinaris-2
+  work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10
   role: tradition
@@ -74,7 +80,8 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Dialogue with Trypho
+- row_id: anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho
+  work: Dialogue with Trypho
   author: justin_martyr
   locus: div2 8.4 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -85,7 +92,8 @@ works:
     work. greek-apologists-second-century holds this work for the era's outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Hortatory Address to the Greeks
+- row_id: anf01_apostolic-fathers-justin-irenaeus--hortatory-address-to-the-greeks
+  work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -94,7 +102,8 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: On the Sole Government of God
+- row_id: anf01_apostolic-fathers-justin-irenaeus--on-the-sole-government-of-god
+  work: On the Sole Government of God
   author: justin_martyr
   locus: div2 8.7 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -103,7 +112,8 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: The Discourse to the Greeks
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-discourse-to-the-greeks
+  work: The Discourse to the Greeks
   author: justin_martyr
   locus: div2 8.5 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -113,7 +123,8 @@ works:
     greek-apologists-second-century holds this work for the era's outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: The First Apology
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-first-apology
+  work: The First Apology
   author: justin_martyr
   locus: div2 8.2 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -122,7 +133,8 @@ works:
     holds this work for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: The Second Apology
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-second-apology
+  work: The Second Apology
   author: justin_martyr
   locus: div2 8.3 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -131,7 +143,8 @@ works:
     holds this work for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Epistle to Diognetus
+- row_id: anf01_apostolic-fathers-justin-irenaeus--epistle-to-diognetus
+  work: Epistle to Diognetus
   author: mathetes
   locus: div2 3.2 under div1 'MATHETES'
   role: tradition
@@ -142,7 +155,8 @@ works:
     greek-apologists-second-century holds this work for the era's outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Fragments of Melito of Sardis
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis
+  work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: div2 10.5
   role: tradition
@@ -152,7 +166,8 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Fragments of Quadratus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus
+  work: Fragments of Quadratus
   author: quadratus
   locus: div2 10.3
   role: tradition
@@ -162,7 +177,8 @@ works:
     for the era's outward-facing writing; pahc is kept because the era and church-world are
     genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Address to the Greeks
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks
+  work: Address to the Greeks
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
   role: tradition
@@ -174,7 +190,8 @@ works:
     alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Theophilus to Autolycus
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus
+  work: Theophilus to Autolycus
   author: theophilus
   locus: div2 4.2 under div1 'THEOPHILUS'
   role: tradition

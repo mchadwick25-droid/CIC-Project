@@ -1,7 +1,8 @@
 source_file: koch_cyprianische-untersuchungen-deu_1926.txt
 
 assignments:
-  - work: "Koch, Cyprianische Untersuchungen (1926)"
+  - row_id: koch_cyprianische-untersuchungen-deu_1926--koch-cyprianische-untersuchungen-1926
+    work: "Koch, Cyprianische Untersuchungen (1926)"
     author: koch
     locus: "whole file"
     atlas_ids:

@@ -13,7 +13,8 @@ authors_ruled:
       index-coverage gap, not an attribution dispute.
 
 assignments:
-  - work: Chronicon Ecclesiasticum, Volume III (the Eastern Church / Nestorian Catholicoi section)
+  - row_id: barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877--chronicon-ecclesiasticum-volume-iii-the-eastern-church
+    work: Chronicon Ecclesiasticum, Volume III (the Eastern Church / Nestorian Catholicoi section)
     author: bar-hebraeus
     locus: "Sectio II (npnf-style locus not applicable - vendored as its own file), the Nestorian
       Catholicoi entries for Papa bar Aggai through Simeon bar Sabbae's martyrdom (file lines

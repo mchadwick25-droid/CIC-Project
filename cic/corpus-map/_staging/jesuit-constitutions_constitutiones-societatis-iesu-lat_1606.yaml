@@ -1,7 +1,8 @@
 source_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
 
 assignments:
-  - work: "Constitutiones Societatis Iesu, cum earum Declarationibus"
+  - row_id: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606--constitutiones-societatis-iesu-cum-earum-declarationibus
+    work: "Constitutiones Societatis Iesu, cum earum Declarationibus"
     author: society-of-jesus
     locus: "whole text, including the Primum ac generale examen"
     atlas_ids:

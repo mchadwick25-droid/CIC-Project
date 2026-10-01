@@ -1,7 +1,8 @@
 source_file: kempis_opera-omnia-tractatus-lat_pohl1902.txt
 
 assignments:
-  - work: "Opera Omnia (Tractatus Prioris Pars Prior)"
+  - row_id: kempis_opera-omnia-tractatus-lat_pohl1902--opera-omnia-tractatus-prioris-pars-prior
+    work: "Opera Omnia (Tractatus Prioris Pars Prior)"
     author: kempis
     locus: "Tractatus prioris pars prior"
     atlas_ids:

@@ -1,7 +1,8 @@
 source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
 
 assignments:
-  - work: "The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)"
+  - row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--the-acts-and-monuments-of-john-foxe-vol-iii-cattley-townsend
+    work: "The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)"
     author: foxe
     locus: "Lollard-era martyrology (William Thorpe's Examination, William Sautre, John Badby, Walter Brute, Sir John Oldcastle)"
     atlas_ids:

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: gallic-nicene-episcopate
 works:
-- work: De Synodis (On the Councils)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils
+  work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   role: tradition
@@ -14,7 +15,8 @@ works:
     home. Same home question as De Trinitate: gallic-nicene-episcopate now holds Hilary''s
     own Gallic church. The homoian half of the assignment stands alongside it.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
-- work: De Trinitate (On the Trinity)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-trinitate-on-the-trinity
+  work: De Trinitate (On the Trinity)
   author: hilary_poit
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
     2
@@ -29,7 +31,8 @@ works:
     was made by imperial church politics (exiled by Constantius, restored under Julian), but
     Gaul is outside that entry''s stated region.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
-- work: Homilies on Psalms I, LIII, CXXX
+- row_id: npnf209_hilary-poitiers-john-damascus--homilies-on-psalms-i-liii-cxxx
+  work: Homilies on Psalms I, LIII, CXXX
   author: hilary_poit
   locus: div2 2.6 (~12,517 words), nested under the apparatus-flagged div1 2
   role: tradition

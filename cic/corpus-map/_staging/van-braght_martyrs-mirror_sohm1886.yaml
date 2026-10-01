@@ -1,7 +1,8 @@
 source_file: van-braght_martyrs-mirror_sohm1886.txt
 
 assignments:
-  - work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians"
+  - row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless
+    work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians"
     author: van-braght
     locus: "whole text"
     atlas_ids:

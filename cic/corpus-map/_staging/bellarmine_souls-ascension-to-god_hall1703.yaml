@@ -1,7 +1,8 @@
 source_file: bellarmine_souls-ascension-to-god_hall1703.txt
 
 assignments:
-  - work: "The Soul's Ascension to God, by the Steps of Creation"
+  - row_id: bellarmine_souls-ascension-to-god_hall1703--the-soul-s-ascension-to-god-by-the-steps-of-creation
+    work: "The Soul's Ascension to God, by the Steps of Creation"
     author: bellarmine
     locus: "whole volume"
     atlas_ids:
