@@ -690,7 +690,7 @@ Stated as this world's own natural formation character, not as construction gaps
 Status: **CONFIRMED.**
 What is outstanding: nothing on this gate. Article 29's freeze-eligibility requirement is discharged for `lpc`; Article 31's external scholarly review is a separate gate and is untouched by this.
 
-**Cross-reference:** The Representative's identity was decided as a single packaged choice — **Datus**, *Bishop of the Kept Flock* — recorded at `lpc_Decision_Log.md`. That is why Section 9 above can name him. What does not exist is `lpc_Representative_Construction_Notes_[Name].md`, which is Representative Emergence's own output: **Step 10 has not begun.** This cross-reference completes at that stage.
+**Cross-reference:** The Representative's identity was decided as a single packaged choice — **Datus**, *Bishop of the Flock* — recorded at `lpc_Decision_Log.md`. That is why Section 9 above can name him. What does not exist is `lpc_Representative_Construction_Notes_[Name].md`, which is Representative Emergence's own output: **Step 10 has not begun.** This cross-reference completes at that stage.
 
 ---
 

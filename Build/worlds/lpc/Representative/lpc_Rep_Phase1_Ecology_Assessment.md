@@ -2,7 +2,7 @@
 ## Latin Pastoral-Congregational Christianity Formation World — Representative "Datus"
 
 **Produced at:** Step 10, Phase One (Representative Construction Framework L3C V3.2, Part Three).
-**Representative identity (decided by the project lead as a single packaged choice, 15 September 2026):** **Datus** — *Bishop of the Kept Flock*, a bishop within an urban African congregation, carrying a certificate of peace with names written on it. Recorded at `lpc_Decision_Log.md`. **This phase does not reopen that decision**; it assesses whether the ecology can sustain it.
+**Representative identity (decided by the project lead as a single packaged choice, 15 September 2026):** **Datus** — *Bishop of the Flock*, a bishop within an urban African congregation, carrying a certificate of peace with names written on it. Recorded at `lpc_Decision_Log.md`. **This phase does not reopen that decision**; it assesses whether the ecology can sustain it.
 **Grounded in:** Doc_01–Doc_09 and `lpc_World_Profile.md`, all **Approved to proceed** (the Profile by the project lead, 2026-09-19). Doc_08 informs the Thinness Mapping in both directions, per Framework V3.2 Part Nine. Also grounded in `Review-Artifacts/Liturgical_Evidence_Read_Cyprian_2026-09-19.md` and `..._Augustine_2026-09-19.md`, which closed Doc_02 §9 item 9 the day this assessment was written.
 **Status:** **Approved to proceed** (2026-09-23, build-thread self-disposition per CO-022 — cleared review, no escalation category applies). Not Frozen; unblocks Phase Two.
 

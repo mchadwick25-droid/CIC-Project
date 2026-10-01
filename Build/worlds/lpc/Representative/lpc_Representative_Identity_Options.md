@@ -3,7 +3,7 @@
 
 **File:** `lpc_Representative_Identity_Options.md`
 **Status:** DECIDED by the project lead on 2026-09-15, as one packaged choice. Recorded in `lpc_Decision_Log.md`, entry "2026-09-15 — M1 RESOLVED: Representative identity and image (project lead's decision)". The project lead approved writing this file on 2026-09-30 so that `lpc` has the same kind of identity record as the other worlds.
-**Decision:** **Datus, Bishop of the Kept Flock.**
+**Decision:** **Datus, Bishop of the Flock.** The role label was changed from *Bishop of the Kept Flock* by the project lead on 2026-10-01.
 **Escalation category:** Representative identity/name/title decision (`cic-build-cycle`). This file records the decision. It does not reopen it.
 **Governed by:** Representative Construction Framework V3.2, Part Four (Identity Determination); `CiC_Representative_Naming_Role_Discipline_2026-09-08.md`; Constitution Article 28 (Anti-Fabrication Prohibition).
 **Scope:** This file contains only what the Decision Log entry, `Open_Gaps_Tracking.md`, `Datus_Portrait_Prompt.md` and the System Hub Decision Log support. Where they are silent, this file says "not recorded" and names what would settle it.
@@ -58,7 +58,7 @@ The Decision Log entry states the same limit for Datus: the role is "a register-
 
 ## 4. Role and role label
 
-**Decided.** Role: bishop within an urban African congregation. Role label: **Bishop of the Kept Flock.**
+**Decided.** Role: bishop within an urban African congregation. Role label: **Bishop of the Flock.** The project lead changed it from *Bishop of the Kept Flock* on 1 October 2026. The earlier label was marked superseded, not rejected on source grounds.
 
 **Role grounding as recorded.**
 - G1 is this world's Primary gravity (Doc_04, *Pastoral Office as Territorial Flock-Keeping*). Doc_05 §4 describes the authority as "pastoral in mode and territorial in scope… a bounded local community he is personally answerable for and to — not jurisdiction over other sees."
@@ -97,7 +97,7 @@ The object was part of the 15 September 2026 package and was changed later, by a
 
 **Differentiation.** From Fidelis by age, hood, palette and the held object. From Chilo by beard, garment colour, belt and object; the entry records this as "judged different enough by the project lead" and as a known overlap, not a closed question. From Theon by object.
 
-**Participant-facing text.** The alt text and caption are in the Decision Log entry. The alt text was updated after 24 September 2026 to describe the purse. The caption reads: "Datus, Bishop of the Kept Flock. A representative voice for the town churches of Roman Africa — who learned, under persecution and plague, that a church which takes everyone back the same afternoon has no door, and one that takes no one back has no Master."
+**Participant-facing text.** The alt text and caption are in the Decision Log entry. The alt text was updated after 24 September 2026 to describe the purse. The caption as decided on 15 September 2026 reads: "Datus, Bishop of the Kept Flock. A representative voice for the town churches of Roman Africa — who learned, under persecution and plague, that a church which takes everyone back the same afternoon has no door, and one that takes no one back has no Master."
 
 ## 7. Portrait status (OG-12)
 
@@ -119,7 +119,7 @@ The Decision Log entry states that name, role label, role, object and image were
 **Not recorded**
 - Which candidates, and how many, were put to the project lead on 15 September 2026. The entry records only ruled-out names and roles, not a presented set of 2–4 options with trade-offs. Settled by: the session record of 15 September 2026.
 - The project lead's own words on the choice. Settled by: the same record.
-- Who proposed *Datus* and *Bishop of the Kept Flock*.
+- Who proposed *Datus* and the first role label, *Bishop of the Kept Flock*.
 - Whether a woman's name was considered (Naming Discipline test 5).
 - Whether the choice was made in this world's own thread or another. Not stated.
 - The upload date of the first portrait image.

@@ -2,7 +2,7 @@
 ## Latin Pastoral-Congregational Christianity (lpc) — Church in Conversation V7 · RCF V3.2 world's-own-voice build
 
 ## Section 1 — Representative Identification
-**Representative name:** Datus, Bishop of the Kept Flock · **World:** Latin Pastoral-Congregational Christianity · **World code:** lpc · **Version:** 1.0 · **Date:** this session · **Calibrated to:** `lpc_Representative_Permanent_Prompt_Datus.txt` (current, post-coercion-content fix) · **Status:** parameters targeted; no runtime, no audio, no model audition in this run.
+**Representative name:** Datus, Bishop of the Flock · **World:** Latin Pastoral-Congregational Christianity · **World code:** lpc · **Version:** 1.0 · **Date:** this session · **Calibrated to:** `lpc_Representative_Permanent_Prompt_Datus.txt` (current, post-coercion-content fix) · **Status:** parameters targeted; no runtime, no audio, no model audition in this run.
 
 ## Section 2 — Voice Model Selection
 **Selected voice model:** PENDING — no audition possible in this run; no ElevenLabs platform access in this build thread's own working environment.

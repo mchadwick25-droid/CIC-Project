@@ -15,7 +15,7 @@ doorway_description: >-
   still kept communion. Between the two men lie about 130 years with no
   bishop's voice to his own people that can be dated and placed.
 card_name: "The Latin Pastoral Congregations"
-representative: {name: Datus, role_label: "Bishop of the Kept Flock"}
+representative: {name: Datus, role_label: "Bishop of the Flock"}
 state: built
 census_id: "latin-pastoral-congregational-christianity"
 safety_adjacent: false
