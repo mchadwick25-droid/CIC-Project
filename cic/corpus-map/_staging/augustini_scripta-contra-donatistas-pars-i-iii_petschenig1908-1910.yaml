@@ -8,12 +8,24 @@
 # assigned below are the ones with a row in this file; the Sermo de Rusticiano, which the editor
 # prints as spurious, has no row.
 #
-# Four of the six are also assigned to latin-pastoral-congregational-christianity as a second
-# `tradition` row. De Baptismo and De Unico Baptismo contra Petilianum are the Latin original of
-# works that bucket already holds in English (npnf104's "On Baptism, Against the Donatists" and
-# "Answer to the Letters of Petilian"). Contra Cresconium and Contra Epistulam Parmeniani have no
-# English translation vendored anywhere, so they are new primary Augustine content for that bucket.
-# Psalmus contra Partem Donati and Contra (Adversus) Fulgentium Donatistam stay in donatism only.
+# Four of the six assignments below are double-placed to
+# latin-pastoral-congregational-christianity (lpc) as a second `tradition`
+# row, a cross-world placement decided by the project lead
+# (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+# following the same-work-different-language pairing pattern lpc's own
+# dossier identified
+# (latin-pastoral-congregational-christianity_Source_Readiness_Dossier.md
+# §2) and already uses for Cyprian/Hartel and six other Augustine works.
+# De Baptismo and De Unico Baptismo contra Petilianum are the Latin
+# original of works lpc
+# already vendors in English as tradition/assigned (npnf104's "On Baptism,
+# Against the Donatists" and "Answer to the Letters of Petilian"); Contra
+# Cresconium and Contra Epistulam Parmeniani have no English translation
+# vendored anywhere and are genuine new primary Augustine content for lpc,
+# not presently reachable from this world's own bucket in any other form.
+# Psalmus contra Partem Donati and Contra (Adversus) Fulgentium Donatistam
+# are not part of this double-placement (not named in the dossier's own
+# §2 reasoning) and stay donatism-only.
 source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 
 assignments:

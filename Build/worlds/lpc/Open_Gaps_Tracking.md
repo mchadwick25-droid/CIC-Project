@@ -559,7 +559,7 @@ placement at `world-build-docs/_cross-world/` and routed to
 `Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md`. The portfolio Step 0
 Conclusion document itself still logs the underlying question as "Constitutional ambiguity
 flagged, not resolved" — now stale, and not editable by a build thread. Separately,
-**`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`** (item 4, checked directly in
+**the Go-Live Pipeline Status document** (item 4, checked directly in
 this review) confirms **lpc PR #230** ("gapped-formation-worlds-precedent") is still **open,
 doc-only, mergeable clean** — "Mark's to merge or not" — and notes it may itself be
 superseded once fully reconciled with the ruling's actual adoption commit (`b20688de`).
@@ -1448,7 +1448,7 @@ Logged 2026-09-29 by the V2.0 re-baseline thread, from the files on disk. This e
 
 - **Records exist.** 310 record files sit under `records/lpc/` (14 record types). Earlier entries that describe the records as not yet built are out of date.
 - **Identity decided.** Datus, Bishop of the Kept Flock, is recorded as the Representative in `lpc_Decision_Log.md` and the System Hub Decision Log. No identity-options file exists; whether one is required is a question for the project lead (stop point 1 of the launch prompt).
-- **No registry entry, no `build/` folder before today.** `records/worlds/lpc.yaml` does not exist, so handoff checks 1, 2, 4, 5 and 6 fail until it does. Only the project lead creates it and sets `safety_adjacent`. The `build/` folder, state file, cost ledger and re-baseline declaration were created on 2026-09-29.
+- **No registry entry, no `build/` folder before today.** The lpc registry entry in the `records/worlds` folder does not exist, so handoff checks 1, 2, 4, 5 and 6 fail until it does. Only the project lead creates it and sets `safety_adjacent`. The `build/` folder, state file, cost ledger and re-baseline declaration were created on 2026-09-29.
 - **Numbering collisions.** OG-14 to OG-17 (PR #557) and the entry renumbered to OG-18 (PR #562) were numbered on two branches off the same base. OG-18 sits after OG-19 in file order. Noted, not renumbered; cite by subject and date.
 - **OG-4** attributes "relied on for nothing" to the Doc_04 appendix, which says the opposite (Doc_04 relies on Gesta act 158). See the Doc_04 independent check of 2026-09-29.
 

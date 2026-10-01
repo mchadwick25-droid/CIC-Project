@@ -134,7 +134,7 @@ queue:
       Registry row 58, not a vendoring candidate). Only volume 3.2 (the
       Epistulae) has a located identifier; 3.1 (treatises) and 3.3
       (spuria/indices) were searched for but not found this session - disclosed
-      as an open gap, not silently dropped.
+      as a gap, not silently dropped.
     url: "https://archive.org/details/CorpusScriptoruEcclesiasticorumLatinorum3.2Cyprian"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 3.2 only)"
@@ -196,7 +196,7 @@ queue:
     verified_by: "lpc build thread, live web search + Cambridge Classical Review cross-citation, 2026-09-01; direct file inspection (OCR-quality sampled across the full document) 2026-09-05"
     status: downloaded
 
-  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, remaining volume (CSEL 58 only -- 34/1, 34/2, and 44 downloaded 2026-09-08)"
+  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, remaining volume (CSEL 58 only -- 34/1, 34/2, and 44 already downloaded)"
     author: "Augustine of Hippo"
     translator: "Alois Goldbacher (ed.)"
     year: "1895 (34/1) / 1898 (34/2) / 1904 (44) / 1923 (58, preface and indices)"

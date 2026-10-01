@@ -817,6 +817,8 @@ holds it. Concretely:
 - The readability target is NorthStar: Flesch-Kincaid grade 8–10 and Flesch
   Reading Ease 60 or above
   (`Build/reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`).
+  A participant's turn in a demonstration or transcript is a record of what
+  was said and is never readability-scored; the world's own turns are.
 - **No embedded quotations in host prose (Decision 8B).** A real source
   quotation inside a story, gravity, force, term or other non-quote record
   becomes its own `quote` record, verified verbatim, and the host prose
@@ -1699,7 +1701,7 @@ it as run or present.
 | The four-parity release gate (render, retrieval, prompt coverage, probe) | B-8 above | Real catches at nearly every world's B-8 |
 | The production-eval verdict rule | `engine/m4/reports/retrieval_bench.py`, `engine/m4/reports/bench/<code>.json` | A dispute resolved by measurement, not argument |
 | The re-proof-under-deployment rule | A discipline (Section 6) | The fleet's dilution failures |
-| Citation grounding and the uncited-claims check | `engine/m4/grounding.py`, `engine/m4/uncited_claims.py` | The live sweep's Syriac finding |
+| Citation grounding and the uncited-claims check | `engine/m4/grounding_net.py`, `engine/m4/uncited_claims.py` | The live sweep's Syriac finding |
 | Library confinement and holdings | `engine/m9/` | Off-shelf reads; unread vendored files |
 | The Table Readiness Round (cost-capped, cap 3) | Section 8; `Build/reference/method/Pass2-decisions/S6.2_M_table_cap_and_trr_cost.md` | Cross-world disciplines pressed live |
 | Article 29 at-freeze confirmation; Article 31 year-two ruling | Freeze declarations; `Build/reference/method/Pass2-decisions/` | Every built world carries a settled Article 29 state |

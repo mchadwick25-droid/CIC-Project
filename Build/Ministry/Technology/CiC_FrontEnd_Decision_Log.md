@@ -4987,3 +4987,78 @@ Mark's ear.
 
 1. Merge; Mark listens to the live tradition page and Atlas panel.
 2. Wittenberg (Nikolaus): separate job, Mark working on it.
+
+## 2026-10-01 — Wittenberg narrated in Nikolaus's voice
+
+**Decision.** Wittenberg's description and its two documented stories are
+narrated in the voice Mark chose for Nikolaus, the Representative of the
+Lutheran Wittenberg world. Mark heard the voice on the Reformed sample, judged
+it better suited to Wittenberg, and approved these three pieces by ear.
+
+**What exists for Wittenberg.** The world is listed "Built & Live" in the
+census but has no `world_front` record and no compiled site data, so it is not
+in the built-world set and the built-world narration tool cannot run on it. Its
+panel shows the census description and two embedded documented stories, which
+already played from `audio/tree/` and `audio/docstories/`. Only the three audio
+files were replaced; no page or script was edited. Its legacy and voices text
+have no players. Narrating a full world story and legacy would first need the
+`world_front` record written.
+
+**Settings, as printed by the run.** Voice `40lgdJOC1ND7hPOQX92p`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 520 credits for 3,902 characters (151 + 183 + 186); each request line
+carried the chosen voice and model. These replace the earlier audio: the
+description in the Daniel voice and the two stories in the gap-story voice.
+
+**Wired.** `audio/tree/lutheran-wittenberg-and-its-congregations.mp3`,
+`audio/docstories/lutheran-wittenberg-and-its-congregations-0.mp3` and `-1.mp3`,
+and the two entries in `audio/docstories/manifest.json` (voice id, model and
+format updated; the text fingerprints are unchanged because the text is).
+
+**Limits of what could be checked.** The voice cannot be identified from
+ElevenLabs' side with this key; it rests on the voice id in each request and
+Mark's ear.
+
+### Next action
+
+1. Merge; Mark listens to a Wittenberg story on the live site.
+2. A Wittenberg `world_front` record, if it is to join the built-world set.
+
+## 2026-10-01 — Narration starts when a card opens, stops when it closes
+
+**Decision.** Mark asked that the narration start by itself when a movement,
+built world or gap story card is clicked open, and stop when the card is
+closed, with the play and stop controls kept so a reader can still pause or
+replay. Mark's one change to the proposal: a documented story inside a card
+also starts by itself when its arrow is opened (and stops when it is closed).
+
+**Behaviour.**
+- Opening a card starts its main narration (movement story, world story or
+  gap story); closing the card, or opening a different card, stops and resets
+  everything.
+- Opening a documented story inside a card starts it and pauses whatever else
+  is playing; collapsing it stops it. One voice plays at a time.
+- A "Start narration automatically" checkbox sits above the first player,
+  on by default and remembered per browser (`cic.narration.auto` in local
+  storage). Off means every player is manual again.
+- Where a browser refuses sound with no click (a shared `?world=` link, a
+  built-world card whose text arrives after a slow load), the start is skipped
+  quietly and the play button works as before. Tradition pages are static and
+  stay manual.
+
+**Checked.** In a headless browser against the local site: a gap story card
+starts on a click and stops on close; a movement card starts its story, opening
+its first and second documented stories starts each and pauses the other,
+collapsing stops it, switching cards stops everything; with the checkbox off
+nothing starts and the choice is remembered; a built-world card starts its
+world story and closing it stops all five players. No script errors.
+
+**Not checked.** Safari on iPhone, which is stricter about sound with no click,
+and how the toggle sits on a small screen.
+
+### Next action
+
+1. Merge; Mark tries a card, a story inside it, and the checkbox on the live
+   site, ideally also on a phone.
