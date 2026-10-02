@@ -1,12 +1,12 @@
 # CIC-Project — Working Rules
 
-These rules apply to every session in this repo. Read them before doing anything else. The first three sections are principles that hold together: none is ever traded against another, and none is traded away for speed, cost, or convenience. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
+These rules apply to every session in this repo. Read them before doing anything else. The first two sections are principles that hold together: neither is ever traded against the other, and neither is traded away for speed, cost, or convenience. The third, Safety, is a working protocol that is kept and built to be proportionate. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
 
 This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Trust and source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
 
 ## Trust and source fidelity — never invent
 
-The people in these conversations rely on what we say and on how we read them. Accessibility and safety (the next two sections) hold together with this.
+The people in these conversations rely on what we say and on how we read them. Accessibility (the next section) holds together with this.
 
 - Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
 - No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
@@ -28,6 +28,7 @@ The people in these conversations rely on what we say and on how we read them. A
 
 - A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
 - Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
+- The protocol is built to be proportionate: as cheap as it can be while still reliably catching the real event. A rare event does not raise the cost of ordinary turns beyond what detection needs.
 - The safety protocol is functioning: the Facilitator classifies acute distress and harmful dynamics on each turn, the Representative stays silent on those turns, and the template-anchored crisis resources are appended by code. The governing doc is `CiC_L3D_Facilitator_Governance_V3.6`.
 
 ## Fix it right
