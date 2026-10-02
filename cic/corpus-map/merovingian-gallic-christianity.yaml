@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: merovingian-gallic-christianity
 works:
+- row_id: caesarius-arles_sermons-pseudo-augustinian_migne-pl39--sermones-pseudo-augustinian-attributed-to-caesarius-of-arles
+  work: Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)
+  author: caesarius-arles
+  locus: Sermo XIII, Sermo LXXIV confirmed by header; Sermo L-LIX range confirmed as a block
+  role: tradition
+  confidence: assigned
+  note: 'Caesarius''s own preaching voice - the first Caesarius material in this corpus''s
+    corpus-map, as far as this session checked. Sermo XIII and Sermo LXXIV confirmed present
+    by exact header; the individual boundaries among Sermons LI-LVIII were not pinpointed
+    within the confirmed L-LIX block (Roman-numeral OCR noise).
+
+    '
+  source_file: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation
   work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
@@ -47,6 +60,22 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: gregory-tours_history-of-the-franks-v2_dalton1927--the-history-of-the-franks-volume-ii
+  work: The History of the Franks, Volume II
+  author: gregory-tours
+  locus: whole file (Books VI-X plus Dalton's translator's notes)
+  role: tradition
+  confidence: assigned
+  note: 'Gregory of Tours'' own history of the Merovingian Gallic church - the central narrative
+    source for this atlas entry''s own time window (c.480-620). The Sichar/Chramnesind feud
+    is confirmed present. The specific "Radegund walks out of the palace" passage one Atlas
+    story cites was NOT located in this volume on this pass - only a different, unrelated
+    Radegund-monastery story (a nun named Disciola) was found. Vendored regardless since the
+    volume is genuine and substantially on-topic; that one specific passage''s presence stays
+    an open, disclosed gap rather than a silently resolved one.
+
+    '
+  source_file: gregory-tours_history-of-the-franks-v2_dalton1927.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
   work: On Easter (De Pascha)
   author: venantius

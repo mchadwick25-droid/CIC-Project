@@ -2295,3 +2295,435 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "Methodist Revival build thread (meth) - direct archive.org metadata check on four of the seven remaining volumes"
     status: not-yet-downloaded
+  - title: "Opera Omnia (including Letters)"
+    author: "Alcuin"
+    year: 1863
+    world: "carolingian-reform-christianity"
+    why: >
+      Alcuin's collected letters, Migne PL 100-101. Closes a source-gap report
+      lead on Alcuin's letters to Charlemagne, Megenfrid, and Arn on not
+      burdening newly-converted Saxons with tithes.
+    url: "https://archive.org/details/operaomniavolum00alcugoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Annales regni Francorum"
+    author: "(Carolingian court annalists)"
+    translator: "Friedrich Kurze (ed.)"
+    year: 1895
+    world: "carolingian-reform-christianity"
+    why: >
+      The Frankish royal annals. The 782 annal and its apparatus, confirming the
+      Verden killings, are present.
+    url: "https://archive.org/details/annalesregnifran00anna"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Epistula de Fide, Vita et Obitu Wulfilae"
+    author: "Auxentius of Durostorum"
+    translator: "Friedrich Kauffmann (ed.)"
+    year: 1899
+    world: "homoian-arian-christianity"
+    why: >
+      Auxentius's own account of Ulfila's faith, life, and death - a primary
+      Homoian-Arian source.
+    url: "https://archive.org/details/ausderschuledes00maxigoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "The Ecclesiastical History of the English Nation"
+    author: "Bede"
+    translator: "J.A. Giles"
+    year: 1903
+    world: "anglo-saxon-christianity"
+    why: >
+      Bede's own history, the primary account of the Anglo-Saxon church's own
+      founding centuries.
+    url: "https://archive.org/details/ecclesiasticalh00bede"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "The English Correspondence of Saint Boniface"
+    author: "Boniface"
+    translator: "Edward Kylie"
+    year: 1911
+    world: "anglo-saxon-christianity"
+    why: >
+      Boniface's own letters, including material on Lioba, closing a gap in
+      Anglo-Saxon missionary primary sources.
+    url: "https://archive.org/details/cihm_84747"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Sermons attributed to Caesarius of Arles (Pseudo-Augustinian sermons)"
+    author: "Caesarius of Arles (attrib.)"
+    year: 1865
+    world: "merovingian-gallic-christianity"
+    why: >
+      Sermons transmitted among the Pseudo-Augustinian corpus but attributed to
+      Caesarius of Arles, Migne PL 39.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_039"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Capitulatio de partibus Saxoniae"
+    author: "(Carolingian legal text)"
+    translator: "Pertz (ed.), MGH Leges I"
+    year: 1881
+    world: "carolingian-reform-christianity"
+    why: >
+      The Carolingian capitulary imposing Christianity on conquered Saxony, full
+      text confirmed present.
+    url: "https://archive.org/details/monument01gese"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Vita Sabae and Vita Euthymii"
+    author: "Cyril of Scythopolis"
+    translator: "Cotelier (ed.), Ecclesiae Graecae Monumenta"
+    year: 1681
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      The only public-domain edition of Cyril's Lives - the standard 1939
+      Schwartz critical edition is still in copyright.
+    url: "https://archive.org/details/bub_gb_1Z5eE88JWfIC"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Liber Manualis"
+    author: "Dhuoda"
+    translator: "Edouard Bondurand (ed.)"
+    year: 1887
+    world: "carolingian-reform-christianity"
+    why: >
+      Dhuoda's own handbook for her son Guillaume, directly named in Bondurand's
+      introduction.
+    url: "https://archive.org/details/lemanueldedhuoda00dhuo"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Doctrinae Diversae"
+    author: "Dorotheus of Gaza"
+    year: 1860
+    world: "chalcedonian-monasticism-judean-desert-and-gaza"
+    why: >
+      Dorotheus's own instructions, extensively confirmed present.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "The Pilgrimage of S. Silvia [Egeria] of Aquitania to the Holy Places"
+    author: "Egeria"
+    translator: "J.H. Bernard"
+    year: 1896
+    world: "jerusalem-liturgical-pilgrimage-christianity"
+    why: >
+      Egeria's own first-person account of Jerusalem's liturgical life, the
+      eponymous primary source for this world.
+    url: "https://archive.org/details/libraryofpalesti01paleuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "The Ecclesiastical History of Evagrius (A.D. 431-594)"
+    author: "Evagrius Scholasticus"
+    translator: "E. Walford"
+    year: 1846
+    world: "byzantine-imperial-church-justinianic"
+    why: >
+      An Antiochene Chalcedonian's outside/hostile account of Dioscorus,
+      confirmed present.
+    url: "https://archive.org/details/ecclesiasticalhi0000evag"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "History of the Franks, vol. II"
+    author: "Gregory of Tours"
+    translator: "O.M. Dalton"
+    year: 1927
+    world: "merovingian-gallic-christianity"
+    why: >
+      The Sichar/Chramnesind feud, confirmed present.
+    url: "https://archive.org/details/historyoffranks0002greg"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Homily on the Martyr Lucian of Antioch (In S. Martyrem Lucianum)"
+    author: "John Chrysostom"
+    translator: "Fronton du Duc (Latin)"
+    year: 1862
+    world: "antiochene-exegetical-christianity-chrysostom-ce"
+    why: >
+      Chrysostom's own homily on the martyr Lucian, confirmed present in Migne PG
+      50.
+    url: "https://archive.org/details/patrologicursusc0050unse"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "The Third Part of the Ecclesiastical History of John, Bishop of Ephesus"
+    author: "John of Ephesus"
+    translator: "R. Payne Smith"
+    year: 1860
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      John's own chronicle, running to 585 CE - distinct from his Lives of the
+      Eastern Saints.
+    url: "https://archive.org/details/ecclesiasticalhi00johnuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Lives of the Eastern Saints (I), Patrologia Orientalis XVII"
+    author: "John of Ephesus"
+    translator: "E.W. Brooks"
+    year: 1923
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      The serialized Lives of the Eastern Saints, confirmed on-topic.
+    url: "https://archive.org/details/patrologiaorient17pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Lives of the Eastern Saints (II), Patrologia Orientalis XVIII"
+    author: "John of Ephesus"
+    translator: "E.W. Brooks"
+    year: 1924
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      Continues PO17's own serialized Lives of the Eastern Saints.
+    url: "https://archive.org/details/patrologiaorient18pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Lives of the Eastern Saints (X) in Patrologia Orientalis XIX (mixed fascicule)"
+    author: "John of Ephesus, et al."
+    translator: "E.W. Brooks, et al."
+    year: 1926
+    world: "syriac-orthodox-west-syriac-christianity"
+    why: >
+      A mixed periodical fascicule; John of Ephesus's own Lives of the Eastern
+      Saints (X) is one of several unrelated articles in it, vendored whole.
+    url: "https://archive.org/details/patrologiaorient19pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "The Chronicle of John, Bishop of Nikiu"
+    author: "John of Nikiu"
+    translator: "R.H. Charles"
+    year: 1916
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Chapter CXXI's Abba Benjamin content, confirmed present.
+    url: "https://archive.org/details/JohnOfNikiuChronicle1916"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Relatio Motionis and Disputatio Bizyae"
+    author: "Maximus the Confessor (subject)"
+    year: 1860
+    world: "byzantine-imperial-church-heraclian-iconoclast"
+    why: >
+      The record of Maximus the Confessor's 655 trial and 656 dispute, Migne PG
+      90.
+    url: "https://archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_90"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "History of the Armenians (Storia di Mose Corenese)"
+    author: "Moses of Khoren"
+    translator: "Niccolo Tommaseo"
+    year: 1850
+    world: "armenian-christianity-conversion-era"
+    why: >
+      The only public-domain rendering (Italian); no PD English translation
+      exists. Moses's own account of Mashtots inventing the Armenian alphabet.
+    url: "https://archive.org/details/storiadimoscor00mose"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Historiarum Libri IV"
+    author: "Nithard"
+    translator: "Pertz/Muller (ed.), MGH"
+    year: 1907
+    world: "carolingian-reform-christianity"
+    why: >
+      All four books confirmed present; corroborates the Dhuoda-adjacent
+      material.
+    url: "https://archive.org/details/nithardihistoria00nithuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Epistola I (Ad Demetriadem)"
+    author: "Pelagius"
+    year: 1846
+    world: "pelagianism"
+    why: >
+      Pelagius's own letter, transmitted among Jerome's spuria in Migne PL 30 -
+      the reason it was never found under Pelagius's own name before.
+    url: "https://archive.org/details/patrologiae_cursus_completus_lat_vol_030"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Annales Bertiniani"
+    author: "Prudentius of Troyes"
+    translator: "Georg Waitz (ed.), MGH"
+    year: 1883
+    world: "carolingian-reform-christianity"
+    why: >
+      Corroborates the Nithard material at s.a. 844 and 850, both years confirmed
+      present.
+    url: "https://archive.org/details/annalesbertinian00wait"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "Origenes Werke Bd. 7: Homilien zu Numeri (Rufinus's Latin translation)"
+    author: "Origen (Rufinus, trans.)"
+    translator: "W.A. Baehrens (ed.), GCS"
+    year: 1921
+    world: "aquileian-christianity"
+    why: >
+      Rufinus's own preface to Donatus, confirming he wrote it in Sicily while a
+      Barbarian force burned Reggio across the strait, c. 410 CE.
+    url: "https://archive.org/details/origenes-werke.-bd-7-1921"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded
+
+  - title: "History of the Patriarchs of the Coptic Church of Alexandria, vol. I"
+    author: "Severus ibn al-Muqaffa (attrib.)"
+    translator: "B. Evetts"
+    year: 1904
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Benjamin I, 38th Patriarch (626-665, spanning the Arab conquest), confirmed
+      present.
+    url: "https://archive.org/details/historyofpatriar0000beve_d4b4"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (tech-readiness build thread): re-vendored from a stale, unmerged
+      PR's own already-located acquisition; source and rights independently re-
+      confirmed against archive.org directly for a representative sample of this
+      batch
+    status: downloaded

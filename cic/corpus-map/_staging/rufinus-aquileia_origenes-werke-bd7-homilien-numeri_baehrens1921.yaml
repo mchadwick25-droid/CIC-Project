@@ -1,0 +1,44 @@
+source_file: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
+
+assignments:
+  - row_id: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921--preface-to-the-homilies-on-numbers-in-origenes-werke-bd-7
+    work: "Preface to the Homilies on Numbers (in Origenes Werke Bd. 7)"
+    author: rufinus
+    locus: "preface to Donatus, raw-scan lines ~2370-2400"
+    atlas_ids:
+      - aquileian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Rufinus's own preface, written in Sicily while a Barbarian force
+      burned Regium (Reggio) just across the strait, c. 410 CE - directly
+      confirmed present and matching the Atlas story's own framing. This
+      preface is Rufinus's own composition - his own address to Donatus
+      explaining and defending his translation choices - so it carries
+      aquileian-christianity's own voice, not merely its custody of
+      someone else's. Contrast the Homilies themselves, immediately
+      below: those are Origen's own composition, and Rufinus's role
+      there is transmission, not tradition.
+  - row_id: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921--homilies-on-numbers
+    work: "Homilies on Numbers"
+    author: origen
+    locus: "whole file from raw-scan line ~2503 (\"HOMILIA PRIMA.\", the first
+      of the 99 homilies) onward"
+    atlas_ids:
+      - aquileian-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      Origen's own 99 homilies on Numbers, confirmed present in full
+      (raw-scan line ~2503 opens "HOMILIA PRIMA."; the file's own table
+      of contents lists "Die 99 Numerihomilien" as section A, followed
+      by Joshua and Judges homilies as section B). No Greek original
+      survives; Rufinus's Latin translation, made in Aquileia c. 410 CE,
+      is the only text of these homilies that exists at all. Per
+      README's own definition ("custody, not voice"): this is Origen's
+      own voice, not aquileian-christianity's own original composition -
+      Aquileia's role here is preserving and transmitting it, under
+      Rufinus's own (documented, not silent) practice of freely
+      condensing and paraphrasing as he translated. See the matching
+      `tradition` row for this same work, homed with Origen's other
+      writings.

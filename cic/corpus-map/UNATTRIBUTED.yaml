@@ -110,6 +110,15 @@ authors:
 
       '
     from_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+  annales-regni-francorum:
+    kind: anonymous
+    evidence: 'A royal Frankish court chronicle compiled by anonymous annalists (the continuation
+      from 801 is traditionally, not certainly, associated with Einhard) - a work, not a person,
+      per this project''s own established convention for conciliar acts and similar collective
+      records.
+
+      '
+    from_file: annales-regni-francorum_kurze1895.txt
   anonymous-against-novatian:
     kind: anonymous
     evidence: 'div2 7.3 title "Anonymous Treatise Against the Heretic Novatian"; no DC.Creator
@@ -296,6 +305,14 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  capitulatio-partibus-saxoniae:
+    kind: anonymous
+    evidence: 'A royal capitulary issued in Charlemagne''s name by his chancery, not a personally
+      authored work - even its own MGH editors dispute its exact date and place of issue.
+      A work, not a person.
+
+      '
+    from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
   chronicle-of-edessa:
     kind: anonymous
     evidence: 'File header reads "Creator(s): Anonymous (Syriac, composed c. 540s CE)". Assemani''s
