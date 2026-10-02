@@ -413,10 +413,10 @@ def voice_rejected_turn(representative_name: str) -> dict:
     """The interview-mode analog of table_seat_correction_turn above, for
     a generated voice turn that hard-fails the uncited-claims enforcement
     paragraph-unit check (wholly_uncited_paragraph or neighbour_named),
-    survives one named regeneration, and still hard-fails
-    (voice_event["r27_enforcement_exhausted"] is True; that turn's own
-    text is deliberately empty, same convention seat_identity_guard_
-    exhausted already sets). Interview mode has no other seats to "bring
+    survives one named regeneration, and still hard-fails (the voice
+    event's enforcement-exhausted flag is set, and that turn's own text is
+    deliberately empty, the same convention the seat-identity guard's
+    exhausted flag sets). Interview mode has no other seats to "bring
     into it" the way the Table line closes, so this is new, approved
     wording, not a reuse of TABLE_SEAT_CORRECTION."""
     return {"kind": VOICE_REJECTED.kind, "text": VOICE_REJECTED.text.format(representative_name=representative_name)}
