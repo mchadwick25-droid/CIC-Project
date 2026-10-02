@@ -121,3 +121,17 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 - The API still needs a numeric `max_tokens`. "No cap" is read as a high safety ceiling that replies should never reach, not a truncation point. The value is not chosen.
 - How the generator is pressured toward shorter replies (prompt wording, the per-turn directive, or both). That change belongs to the voice and engine work and goes through its review. No engine file or prompt is edited by this module.
 - A measured run after the change, to confirm replies end cleanly and to price the paid depth.
+
+## 13. Free allowance is 3 conversations of 3 rounds; a paid conversation runs up to 7 rounds (2026-10-02)
+
+**Decision (Mark):** a free visitor gets 3 conversations of 3 rounds each. Contributions can open the door further, with more free access. A paid conversation runs up to 7 rounds. Pricing is to find the balance between a good deal for the buyer, covering expenses, and contributing to operating costs.
+
+**Supersedes:** entry 11's candidate paid depth of 15 turns. The free depth moves from today's 10-turn session cap to 3 rounds.
+
+**Read as:** a round is one participant message and the Representative's reply. That reading is an assumption to confirm.
+
+**Open:**
+- The pack sizes and prices, set once the funding thread has the research and measured costs.
+- The engine's `SESSION_TURN_CAP` is 10 today. Moving it to 3 for free and 7 for paid is an engine change this module does not make.
+- Whether 3 rounds is enough for a participant to hear a world's voice in full. The research found the free unit must give the whole experience before any ask.
+- The shared-network limit on the anonymous free allowance (see entry 4).
