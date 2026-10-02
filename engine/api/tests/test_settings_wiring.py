@@ -11,9 +11,7 @@ from engine.api.config import Settings
 
 # Parsed but not yet read by any code path. Each entry names why; an entry
 # that becomes read fails the stale check below and is removed.
-KNOWN_UNREAD = {
-    "streaming_enabled": "the streaming route that reads it is not built yet",
-}
+KNOWN_UNREAD: dict[str, str] = {}
 
 
 def _build_real_app_node() -> ast.FunctionDef:

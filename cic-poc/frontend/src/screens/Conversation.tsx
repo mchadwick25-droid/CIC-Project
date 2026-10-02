@@ -25,6 +25,8 @@ function sampleStarters(starters: WorldStarter[]): WorldStarter[] {
 interface ConversationProps {
   world: WorldEntry;
   turns: ConversationTurn[];
+  // The reply so far while the voice is still writing it; empty otherwise.
+  draft?: string;
   sessionCode: string | null;
   closed: boolean;
   isLoading: boolean;
@@ -49,7 +51,7 @@ function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: Con
   return null;
 }
 
-export function Conversation({ world, turns, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
+export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
   const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
   const readAloudAvailable = useReadAloudAvailability();
 
@@ -105,9 +107,18 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
             </div>
           );
         })}
+        {draft && (
+          <div className="turn turn--voice">
+            <div className="turn__speaker sans" style={{ color: world.accentColor }}>
+              <img className="turn__avatar" src={world.portraitImage} alt="" />
+              {world.representativeName} · {world.cardName}
+            </div>
+            <VoiceTurnBody text={draft} citations={[]} />
+          </div>
+        )}
       </div>
 
-      {isLoading && !closed && (
+      {isLoading && !closed && !draft && (
         <p className="waiting-note sans" role="status">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">

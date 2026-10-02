@@ -12,6 +12,7 @@ import uuid
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from typing import Callable
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
@@ -655,6 +656,7 @@ def handle_message(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     daily_turn_cap_reached: bool = False,
+    on_draft_text: Callable[[str], None] | None = None,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -790,6 +792,7 @@ def handle_message(
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
             daily_cap_reached=daily_turn_cap_reached,
+            on_draft_text=on_draft_text,
         )
     except UnhandledRoutingAction:
         # Not caught and softened into a note about a test build: all seven

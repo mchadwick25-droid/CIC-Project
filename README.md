@@ -31,6 +31,7 @@ of promotion. See "How things move" for the promotion path.
 | `cic/` | **the Library**: `texts/` (vendored public-domain editions, flat, one copy of each), `corpus-map/` (which works belong to which tradition, at which locus, in what role), `engine/` (corpus tools) | Render (`cic/texts/` only, for the in-image compile), engine gates at build time; never at runtime |
 | `cic-poc/` | the participant-facing frontend (interview and table); the proof-of-concept backend it was named for is retired | Render (Docker COPY `frontend/`), CI |
 | `cic-website/` | the public site and the Atlas; `data/world-census.json` is the census | Cloudflare (assets directory), CI |
+| `cic-worker/` | the Cloudflare Worker in front of the site's assets: answers byte-range requests under `/audio/` (iPhone Safari needs them to play and seek narration); everything else is served unchanged | Cloudflare (`wrangler.jsonc`) |
 
 ## Build — everything that builds or governs the system, not itself part of what runs it
 
@@ -62,7 +63,7 @@ root `tools/`; everything else in `tools/` — scripts nothing in CI invokes —
 
 | entry | what it is |
 |---|---|
-| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping, superseded method documents. Nothing here is current; nothing here is deleted without instruction |
+| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping, superseded method documents, superseded engine code. Nothing here is current; nothing here is deleted without instruction |
 
 ## How a world is named
 
