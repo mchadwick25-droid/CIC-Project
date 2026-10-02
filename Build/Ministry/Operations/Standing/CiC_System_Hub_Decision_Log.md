@@ -6089,3 +6089,9 @@ The project lead also stated the voice's boundary in his words: "the representit
 E1 ran native API citations against the hand-copied citation ids on the whole-world prompt, all eleven worlds, for $7.97. A blind Opus review of 33 paired replies judged the hand-copied ids better grounded in 15 pairs and native citations in 7, with 11 ties. Claims not carried by a cited record: 19.9% against 23.9%. Native replies also cited fewer records and still carried hand-typed tags in five worlds. Details: Conversation-Transparency-Engine Decision-Log, Entry 89.
 
 22. Decision 10's change is not adopted. Change order CO-5 (R47) closes without adoption: R9, R10, R17 and the R27 family stay on the hand-copied citation-id contract. The native arm is shelved; a retry would first need an evidence block that prints no ids. Claim support against cited records becomes a measured dimension, reviewed internally by Opus, ahead of the use-note work.
+
+## 2026-10-02 - cic/texts size triggers raised (decision 23)
+
+`cic/texts/` holds 634 MB in 451 files, against a 700 MB planning trigger. The plan (`Build/worlds/_cross-world/PLAN-texts-store-scaling.md`) says to re-open it at that size, and it was re-read against current measurements. The whole repository packs to 2.22 GiB. The 875 MB of MP3 narration under `cic-website/` is larger than the texts and grows with the narration work. A 27-source vendoring in review adds about 37 MB to the texts.
+
+23. The planning triggers move to 1 GB (re-read the plan) and 1.5 GB (act on it), and `cic/texts/` stays in plain git. The project lead chose this over splitting the store into its own repository now and over moving the audio out first. A split still needs the rights gate to learn a "store not checked out" state, and it stays a later, separate sign-off. Where audio is stored is a separate decision and is not made here. The plan now asks for a measured fresh-session start time before the next trigger is set.

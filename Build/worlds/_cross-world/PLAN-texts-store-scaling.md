@@ -5,12 +5,14 @@ is what to do *when the trigger fires*, not now. Hand-written, not generated.
 Answers the blueprint's own A3 item ("plan git-lfs or a
 texts submodule before the store passes ~1 GB — not urgent").
 
-## Measured state, today
+## Measured state
 
-`cic/texts/` holds 64 vendored files, 188.8 MB, git-tracked. `.git` itself
-packs to ~129 MB. Neither is close to the blueprint's ~1 GB estimate for
-100+ worlds' worth of TCP/TEI and 19th-century OCR. `git lfs` is not
-installed in this sandbox — checked directly, not assumed.
+`cic/texts/` holds 451 vendored files, 634 MB, git-tracked. The whole
+repository packs to 2.22 GiB. `cic-website/` is larger than `cic/texts/`:
+its 916 MP3 narration files total 875 MB, and they grow with the narration
+work. This plan covers `cic/texts/` only; where audio is stored is a separate
+decision that has not been made. `git lfs` is not installed in this sandbox —
+checked directly, not assumed.
 
 ## The two real options, and the one this project should NOT default to
 
@@ -65,12 +67,18 @@ first," below — that benefit isn't free either.
 
 ## The trigger
 
-Not "when it hits 1 GB." Re-open this plan at **700 MB** in `cic/texts/`
-(check with `python cic/engine/texts_registry.py`, which now prints this
-figure every run — see "the mechanical check," below) — early enough that
-the migration itself can be unhurried, the way this project prefers to
-handle anything with a real cost to getting it wrong. 1 GB is treated as
-the point where it's overdue, not the point to start thinking about it.
+Re-open this plan at **1 GB** in `cic/texts/` (check with
+`python cic/engine/texts_registry.py`, which prints this figure every run —
+see "the mechanical check," below) — early enough that the migration itself
+can be unhurried, the way this project prefers to handle anything with a real
+cost to getting it wrong. 1.5 GB is treated as the point where it is overdue,
+not the point to start thinking about it. Until then `cic/texts/` stays in
+plain git.
+
+The size of `cic/texts/` is not the only cost of a large repository. Every
+session clones the whole repository, so the weight of everything tracked,
+audio included, shows up as session start time. Measure how long a fresh
+session takes to start before the next trigger is set.
 
 ## What has to be true before a split actually happens (NEEDS SIGN-OFF, later)
 
@@ -102,16 +110,15 @@ behavior — a project-level call, when the trigger fires, not before.
 ## The mechanical check
 
 `python cic/engine/texts_registry.py` now prints the live total size of
-`cic/texts/` on every run, with a note once it passes 700 MB and again past
-1 GB, naming this file. Advisory only — same "derived, not asserted"
+`cic/texts/` on every run, with a note once it passes 1 GB and again past
+1.5 GB, naming this file. Advisory only — same "derived, not asserted"
 discipline as the rest of this layer, and deliberately not a gate: crossing
 either number is a planning cue, not a defect.
 
 ## Re-verify before acting, not just before reading
 
-GitHub's LFS billing model changed once already between this research pass
-and whenever it's read again — the numbers above were current as of
-2026-09-02 ([sources: GitHub LFS billing](https://docs.github.com/billing/managing-billing-for-git-large-file-storage/about-billing-for-git-large-file-storage),
+GitHub's LFS billing model has changed before, and the numbers above come
+from GitHub's published billing pages ([sources: GitHub LFS billing](https://docs.github.com/billing/managing-billing-for-git-large-file-storage/about-billing-for-git-large-file-storage),
 [LFS-to-metered-billing discussion](https://github.com/orgs/community/discussions/61362)).
 Whoever acts on this plan when the trigger fires should re-check current
 pricing before assuming the recommendation still holds, not re-run this
