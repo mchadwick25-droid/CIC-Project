@@ -102,3 +102,9 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 - How time spent in the tree is measured, within the visitor-tracking change order (entry 6). None is measured today.
 - The monthly donation link is recurring giving, which sits beside entry 3's no-recurring-billing rule for access. Entry 5 keeps donations separate, so this stays as is unless Mark rules otherwise.
 - The tree's development and upkeep cost is not covered directly by this decision. The conversations it feeds carry it, which the funding thread should confirm.
+
+## 11. Candidate paid depth is 15 turns, to be measured (2026-10-02)
+
+**Decision (Mark):** a purchase buys more conversations that can go deeper than a free one. The candidate paid depth is 15 turns. Free conversations keep the 10-turn cap.
+
+**Status:** a candidate, not a final cap. The cap and the pack price are set together once a measured run at 15 turns exists. See `Open_Gaps_Tracking.md`, entry 2.
