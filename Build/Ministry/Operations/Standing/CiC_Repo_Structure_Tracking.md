@@ -898,3 +898,11 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 **Context.** The engine's own sentence-gated streaming module (`engine/m4/streaming.py`) was built behind a flag that no code path read. It drops a sentence that fails the grounding check, which the whole-turn path measured and rejected (`apply_net`: the checks gate decoration, never the text). The project lead chose wiring streaming end to end with the failing sentence kept and only its decoration dropped, so the module's own design no longer applies.
 
 **Action.** `git mv engine/m4/streaming.py` and `engine/m4/tests/test_streaming.py` → `Archive/Superseded-Engine-Code/`. Root `README.md` line for `Archive/` now names the new category. The replacement is `engine/m4/draft_stream.py` plus the event-stream form of the message endpoint in `engine/api/app.py`.
+
+---
+
+## 2026-10-02 — Older Doc_01 drafts for hus and jes archived
+
+**Context.** The Doc_01 batch for six worlds (library-thread branch, PR 605) was written before `hus` and `jes` had registry codes. Both worlds have since been built further on `main`: `hus` Doc_01 is approved to proceed after five independent review rounds and `jes` after three. The project lead ruled that `main`'s versions stand.
+
+**Action.** The batch's older Doc_01 drafts and their review files for the two worlds moved to `Archive/Superseded-World-Drafts-PR605/hus/` and `.../jes/`. Nothing was deleted. Root `README.md` line for `Archive/` now names the category. The batch's other four worlds (Anabaptist, Devotio Moderna, Lollardy, Tridentine) landed under `Build/World-Builds/<name>/`.

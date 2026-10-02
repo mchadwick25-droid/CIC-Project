@@ -1,0 +1,145 @@
+{
+  "alx": {
+    "hash": "29c49122a73162cd",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 321
+  },
+  "cappadocian": {
+    "hash": "e27a837bce07b22f",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 326
+  },
+  "desert": {
+    "hash": "d567c9910f34c73d",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 321
+  },
+  "don": {
+    "hash": "416a44271d9ecf67",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 333
+  },
+  "gallic": {
+    "hash": "def35d681ec4dc9c",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 311
+  },
+  "hal": {
+    "hash": "eb93bd6081716be4",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 321
+  },
+  "ijc": {
+    "hash": "8511b2a59f2dcecb",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 317
+  },
+  "pahc": {
+    "hash": "f22cdf62ed5a238a",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 317
+  },
+  "rzg": {
+    "hash": "3197137479639254",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 312
+  },
+  "syr": {
+    "hash": "623ae3f838c7aa67",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 335
+  },
+  "witt": {
+    "hash": "a3825e541e1f3ecd",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 341
+  }
+}
