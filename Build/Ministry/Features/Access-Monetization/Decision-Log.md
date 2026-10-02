@@ -196,3 +196,13 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **What this module does meanwhile:** builds and tests in Stripe test mode and in `Sandbox/access-ledger/` only. No live checkout opens until the three fixes are confirmed by a re-run of the 3-turn free sample, and counsel's review (entry 9) is done.
 
 **Open:** who builds streaming, which is an engine change that goes through review, and the order of the three fixes.
+
+## 20. Quality over cost; the gate is cut-off replies, not reply length (2026-10-02)
+
+**Decision (Mark):** the review looks at the first 7 replies only, since that is the paid depth. A longer reply is acceptable when it makes the answer better. Quality comes before cost.
+
+**Amends:** entry 19. Its "long replies" gate becomes "cut-off replies". The echo (gap entry 5) and the blank wait (gap entry 7) stay as gates. Entry 12's direction to pressure the generator toward shorter replies stays as a preference, not a launch gate.
+
+**Measured, first 7 replies of the 15-turn run:** 436 to 801 words each, total API cost $0.2325. Replies 6 and 7 end mid-sentence at the 1,024-token output limit, and reply 5 reached the limit and ended cleanly. Finishing those replies at about 1,300 tokens adds about $0.012 to a 7-turn conversation, so removing the cut-off costs little.
+
+**Open:** the numeric safety ceiling for output (entry 12), and whether the readability target in `CLAUDE.md` is met per sentence and paragraph even when a reply is long. This module does not score the replies.
