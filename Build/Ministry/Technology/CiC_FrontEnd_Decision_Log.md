@@ -5157,3 +5157,22 @@ previous behaviour.
 
 1. Merge only after the Cloudflare build for the PR succeeds; Mark retests a
    world card and the first play of a never-played story on the iPhone.
+
+## 2026-10-02 — iPhone silent narration: root cause is the `<source>` child tag
+
+**Finding.** A diagnostic page on an iPhone (iOS 26 Safari) ran eight
+variants of the map's audio setup. Players built with a `<source>` child and
+`preload="none"` never loaded (readyState stayed 0 and no sound came out) even
+though `paused` read false. Players with `src` set on the `<audio>` element
+itself, and a detached `new Audio(url)`, played. The panel, the inert wrapper,
+the playback-rate code and the pause-the-others handler were all cleared.
+
+**Decision.** Every player now sets `src` on the `<audio>` element: the map
+(`atlas-v3.html`), the shared renderer (`orientation-render.mjs`), the tree page
+generator and the generated tree and tradition pages. The earlier
+tap-gesture change and the Range-aware Worker (PR #696) were not the cause; the
+Worker stays a separate decision for seeking support.
+
+### Next action
+
+1. Mark retests a world card and a story on the iPhone after the deploy.
