@@ -5176,3 +5176,16 @@ Worker stays a separate decision for seeking support.
 ### Next action
 
 1. Mark retests a world card and a story on the iPhone after the deploy.
+
+## 2026-10-02 — Ten superseded tree audio files removed
+
+**Decision.** The ten built-world files in `cic-website/audio/tree/` (the
+older recordings of text since replaced by each world's own story) are deleted.
+Mark ordered the deletion. A repository search found no page, script or record
+that points at any of them; the map plays each built world from
+`audio/worlds/`, and Wittenberg's own description file stays.
+
+### Next action
+
+1. Wittenberg's full world story and legacy still wait on its `world_front`
+   record, which is a world-build step, not a narration step.
