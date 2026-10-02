@@ -85,3 +85,15 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Scope of the review:** Colorado and home-rule sales tax on digital goods; whether public benefit corporation status changes Stripe fees or donation handling; COPPA and the adult-buyer wording (entry 7); refund and checkout terms; the privacy promise (entry 8).
 
 **Open:** the question list for counsel, drafted before the review.
+
+## 10. The Church Family Tree stays free and is the front door to conversations (2026-10-02)
+
+**Decision (Mark):** the Church Family Tree stays fully free with no cap. Its role is to be the free front door that feeds conversations. Revenue comes from the conversations and from a quiet support lane kept apart from paid access (entry 5). The "always free" constraint is unchanged.
+
+**Basis:** the tree has no per-visit API cost, and Mark expects people to spend most of their time there. A combination of the free front door and a separate support lane keeps the promise and uses the tree's traffic. Institutional funding through the shared pool (entry 4) is a later phase.
+
+**Open:**
+- How a visitor moves from a tradition in the tree into a conversation, and how the free allowance appears there.
+- Whether and where a support lane appears in the tree. It must be rare, plain, and never use a Representative's voice.
+- How time spent in the tree is measured, within the visitor-tracking change order (entry 6). None is measured today.
+- The tree's development and upkeep cost is not covered directly by this decision. It is carried by the conversations it feeds, which the funding thread should confirm.
