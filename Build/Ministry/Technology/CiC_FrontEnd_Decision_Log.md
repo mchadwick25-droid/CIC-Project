@@ -5062,3 +5062,50 @@ and how the toggle sits on a small screen.
 
 1. Merge; Mark tries a card, a story inside it, and the checkbox on the live
    site, ideally also on a phone.
+
+## 2026-10-02 — Feedback on the live narration: iPhone silence, speed control, portrait as part of the launch target
+
+Three pieces of feedback from people using the live map.
+
+**1. iPhone: a world's narration plays but is silent until stopped and started.**
+Cause: for a built world the player did not exist when the card opened. The
+card's text arrives from a fetch, and narration was started when that fetch
+finished, outside the tap. iPhone Safari only produces sound when playback
+begins inside the tap itself; started later it advances with no voice, and a
+second, manual play (inside a tap) works. Fix: the list of which worlds have
+audio is read once at page load, so a built world's story player is drawn in
+the same tap that opens the card and started there. The fetched text then
+fills in below it without a second player and without restarting audio the
+reader has paused. A story opened with its arrow now starts inside the click
+as well, not from the later `toggle` event. **Not reproduced here:** there is
+no iPhone or WebKit in this environment. The sound problem is judged fixed by
+this cause, not confirmed; it needs a retest on an iPhone. If it recurs on
+iPhone, the fallback is to leave iPhone cards on tap-to-play.
+
+**2. Speed control.** A row of 1×, 1.25×, 1.5× and 2× buttons sits beside the
+"Start narration automatically" checkbox and applies to every player in the
+card, including stories opened later. The choice is remembered per browser
+(`cic.narration.rate`); pitch is preserved.
+
+**3. The portrait is part of the launch target.** On the map, a built world's
+portrait roundel was set to ignore clicks, so tapping the face did nothing
+and only the small dot beneath it opened the world. Measured before the fix:
+0 of 7 portraits opened their world; after: 7 of 7. One portrait (the
+Cappadocian world's) sat under the Forty Martyrs of Sebaste book mark, which
+is drawn above the nodes, so a tap on its face opened the story instead.
+Portrait placement now treats story marks as obstacles, for the face and for
+the name beneath it, and steps the portrait up until clear, the way it already
+does for other worlds' dots and portraits. Only the Cappadocian portrait
+moved.
+
+**Checked.** In a headless browser against the local site: a real click on a
+portrait opens its world; with the world's text delayed 2.5 seconds the story
+is already playing before it arrives, appears once, and a hand pause stays
+paused; each speed button sets every player and the choice carries to the next
+card; a story opened with its arrow starts at the chosen speed and pauses the
+rest; closing the card stops everything. No script errors.
+
+### Next action
+
+1. Merge; Mark or a tester tries a world card on an iPhone (sound from the
+   first second), the speed buttons, and tapping a portrait on the map.
