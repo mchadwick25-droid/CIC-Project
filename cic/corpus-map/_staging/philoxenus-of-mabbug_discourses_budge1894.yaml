@@ -1,7 +1,8 @@
 source_file: philoxenus-of-mabbug_discourses_budge1894.txt
 
 assignments:
-  - work: "The Discourses of Philoxenus"
+  - row_id: philoxenus-of-mabbug_discourses_budge1894--the-discourses-of-philoxenus
+    work: "The Discourses of Philoxenus"
     author: philoxenus-of-mabbug
     locus: "whole work (13 ascetic Discourses, Vol. II translation) plus the same volume's own Creed, Confession of Faith, and anti-Nestorian/anti-\"two natures\" doctrinal texts (contents page, lines 325-348)"
     atlas_ids:

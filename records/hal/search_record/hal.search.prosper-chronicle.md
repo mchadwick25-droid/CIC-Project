@@ -19,5 +19,5 @@ result: not_found
 found_sources: []
 note: "Not in the vendored corpus, and no standard public-domain English translation of Prosper's Epitoma chronicon is known to this pass. CONSEQUENCE: the traditional precision of Jerome's death date (the specific day) cannot be source-verified on this branch and stays where the prior build's reviewed finding put it - year 420 Widely Accepted, the day resting on liturgical feast tradition and Prosper's chronicle entry, Inferential-Thin. See hal.contested.chronology."
 ---
-Run 2026-08-21. P3 curiosity, not blocking: no record in this corpus
+P3 curiosity, not blocking: no record in this corpus
 asserts the day-level date as fact.

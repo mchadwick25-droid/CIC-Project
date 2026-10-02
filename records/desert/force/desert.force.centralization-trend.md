@@ -45,8 +45,6 @@ kind: ending maps Doc_08's own Cell 3A (ending/external); the cell code
 is carried in this record's own name, per the convention established
 at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 1 review Finding M11: the paragraph above claimed a full
-parallel with desert.force.martyrdom-unavailable's own empty sources[],
-when that record's sources[] is not empty - corrected to name what is
-actually being matched (the Doc_01-routing of general background, not
-an absent source registration).
+The parallel with desert.force.martyrdom-unavailable is the Doc_01-routing
+of general background specifically, not an absent source registration -
+that record's own sources[] is not empty.

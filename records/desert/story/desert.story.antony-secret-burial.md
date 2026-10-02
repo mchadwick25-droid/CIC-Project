@@ -59,14 +59,10 @@ text: >-
 absent_detail: "The two attendants are never named, and no account survives in their own words of how they experienced carrying out this instruction, or of the years afterward when they alone knew where the desert's most famous monk was buried. Later traditions claim the site was 'discovered' in 561 and the body eventually moved to Alexandria and then France - traditions that fall outside this world's own c. 320-430 window and that the Vita's own instructions would seem to rule out."
 modern_contrast: "A modern reader is used to founders and famous figures being remembered through monuments, gravesites, or preserved remains open to visitors. This world's own record shows the opposite impulse taken to its extreme: a founder who used his last authority to make sure no monument, grave, or relic could ever be built, precisely because he thought that kind of memory got in the way of the very discipline he had spent his life teaching."
 ---
-Authored 2026-09-19 for the world_front pilot migration (Website V2
-world_front design, approved to proceed 2026-09-19), reconciling
-`cic-website/atlas-v3.html`'s desert-monasticism `documentedStories`
-entry "Antony Has Himself Buried Where No One Will Find Him" against
-this world's own registered records - no existing
-`records/desert/story/*.md` record covered this episode (checked
-directly against all ten pre-existing desert story records before
-drafting this one).
+This record reconciles `cic-website/atlas-v3.html`'s desert-monasticism
+`documentedStories` entry "Antony Has Himself Buried Where No One Will
+Find Him" against this world's own registered records: no other
+`records/desert/story/*.md` record covers this episode.
 
 Verified directly against the vendored file
 cic/texts/npnf204_athanasius-select-works-letters.xml, lines

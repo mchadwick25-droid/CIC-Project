@@ -29,8 +29,12 @@ STORY_ID = next(rid for rid, r in REPO.items() if r.get("record_type") == "story
 QUOTE_ID = "alx.quote.a-doctrine-they-would-not-have-taught"
 WITNESS_ID = next(rid for rid, r in REPO.items() if r.get("record_type") == "doctrinal_witness")
 GRAVITY_ID = next(rid for rid, r in REPO.items() if r.get("record_type") == "gravity")
-QUOTED_WORDS = "a clear and unmistakeable proof of the fact"
-assert QUOTED_WORDS in REPO[QUOTE_ID]["text"]
+QUOTED_WORDS = "his disciples committed themselves to teaching a doctrine"
+# A quotation the voice actually speaks is checked against modern_rendering,
+# never text (item 3, the modern_rendering-required gate: text is never
+# voiced). This phrase is drawn from the record's own modern_rendering
+# rather than its archaic text for exactly that reason.
+assert QUOTED_WORDS in REPO[QUOTE_ID]["modern_rendering"]
 
 
 def _turn(rows: list[tuple[str, list[str], str]], *, separator: str = " ") -> tuple[str, list[dict], dict]:

@@ -38,7 +38,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---
-Text verified verbatim against the vendored file 2026-08-21. The
+Text verified verbatim against the vendored file. The
 Tome's reception in the session record's own words - the acclamation
 the primacy claim's defenders would cite ever after. Read honestly with
 its frame: an acclamation recorded in acts, at a council that three

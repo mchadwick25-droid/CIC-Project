@@ -16,7 +16,7 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "scattered sayings"
 - source_id: desert.source.evagrius-praktikos
-  locus: "Praktikos ch. 6, VENDORED as of 2026-08-27 - the charter clause for this term: whether the thoughts disturb the soul is not up to us, but whether they linger, and whether they arouse passions, is (desert.quote.the-eight-generic-thoughts). Ch. 64 adds that the signs are read through the thoughts by day and through dreams at night"
+  locus: "Praktikos ch. 6 - the charter clause for this term: whether the thoughts disturb the soul is not up to us, but whether they linger, and whether they arouse passions, is (desert.quote.the-eight-generic-thoughts). Ch. 64 adds that the signs are read through the thoughts by day and through dreams at night"
   license: cc-by-4.0
 - source_id: desert.source.cassian-conferences
   locus: Conf. XXIV ch. VI, Abraham on guarding the thoughts (the arch drawn from its centre)
@@ -52,22 +52,10 @@ Re-derived from Doc_06 SS2.5 (Tier 2; tags AS TC DR PV). Feeds
 diakrisis directly (Doc_06's own ecological-function line); shares
 hesychia's anti-retrojection fence.
 
-Step3a Review Round 2, New Finding 3: the informational sense had
-quoted 1 Peter 5:8 as 'be sober, be watchful,' a wording that matches
-no vendored English (the vendored WEB reads "Be sober and
-self-controlled. Be watchful."). Reworded as an unquoted reference
-rather than register a new scripture source mid-fix; a future pass may
-quote WEB verbatim and register it if the exact wording becomes
-load-bearing.
-
-Step3a Review Round 3, Finding J1: the evidential sense's "concentration
-flag" (this build's own risk-marker word, also used in Doc_06 and this
-world's lexicon index) was missed by two prior sweeps that searched for
-specific strings rather than the pattern by family - reworded to state
-the concentration as a plain fact.
-
-Step3a Review Round 4, Findings S1/C1: the informational sense's
-"Strand C" (no legend in the field) reworded to name Kellia directly;
-the do_not_retrieve_when fence's "the fence is in the term record
-itself" was inoperative schema self-reference - reworded to state the
-substantive reason, matching hesychia's parallel fence.
+The informational sense refers to Peter's call to be sober and watch
+without quoting it verbatim, since no vendored English matches the
+traditional wording exactly; a future pass may quote WEB verbatim and
+register it if the exact wording becomes load-bearing. The
+informational sense names Kellia directly rather than this build's own
+lettered taxonomy, and the do_not_retrieve_when fence states its
+substantive reason plainly, matching hesychia's parallel fence.

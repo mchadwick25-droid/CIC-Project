@@ -28,7 +28,7 @@ def _count_syllables(word: str) -> int:
 def _counts(text: str) -> tuple[int, int, int] | None:
     """(n_words, n_sentences, n_syllables), or None for empty/word-less
     text - shared groundwork for fk_grade and fre_score so the two numbers
-    the North Star decision names together (reference/method/Pass2-
+    the North Star decision names together (Build/reference/method/Pass2-
     decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md: "FK grade
     band 8-10, FRE >= 60, per emitted turn") are always computed from the
     identical word/sentence/syllable count, never two slightly different

@@ -1,7 +1,8 @@
 source_file: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
 
 assignments:
-  - work: "Ecclesiastical History, Part III"
+  - row_id: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860--ecclesiastical-history-part-iii
+    work: "Ecclesiastical History, Part III"
     author: john-of-ephesus
     locus: "Books I-VI in translation (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506, and before 5883 for Book I); III.36-37 directly verified as John's own narrative"
     atlas_ids:

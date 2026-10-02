@@ -25,7 +25,7 @@ relations:
 - type: associated-with
   target: ijc.source.chrysostom-homilies-romans
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain, line 88). Translator verified from the section's own title-page
 block, "translated by rev. w. r. w. stephens, m.a., prebendary of
 chichester cathedral" (lines 17365-17390) - NOT Schaff, who is the

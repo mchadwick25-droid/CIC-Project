@@ -24,11 +24,10 @@ Substantive coverage for the identity-collision cell F6-P, paired with
 fix.demo.identity-collision for the voice-side spoken non-judgment requirement
 (spec §4.2, §4.3 step 5c).
 
-MODERN_RENDERING ADDED (2026-09-19, world_front gate-battery work): the
-fixture world previously had no quote record populating this field, so
+This record populates the identity-collision cell F6-P so
 gate_quote_mark_fidelity's own clean-baseline and seeded-defect proof
-(fixtures/seeded_defects.yaml, quote-mark-fidelity-text-field-quoted) had
-nothing to check against. Same spoken-form convention every real world's
-quote records already follow (Mark's standing quote ruling, 2026-08-28):
-a modern-English translation, not a summary; `text` stays the original,
+(fixtures/seeded_defects.yaml, quote-mark-fidelity-text-field-quoted) has
+something to check against. `modern_rendering` follows the same
+spoken-form convention every real world's quote records follow: a
+modern-English translation, not a summary; `text` stays the original,
 unquotable on any participant-facing surface.

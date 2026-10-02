@@ -52,14 +52,11 @@ retrieval:
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}
 ---
-Discovered 2026-09-09 in a supplemental source review: pahc.source.anti-
-montanist-fragments was registered at this build's Step 2 to answer Doc_01
-SS8.3's Montanism disclosure obligation, but no quote or gravity record had
-drawn on it since. Text verified directly against cic/texts/anf07_lactantius
--apostolic-constitutions-didache-liturgies.xml at line 11308, no elisions.
-The quoted
-text was independently re-diffed against the vendored file and
-confirmed byte-for-byte accurate throughout.
+pahc.source.anti-montanist-fragments was registered to answer Doc_01
+SS8.3's Montanism disclosure obligation; this quote draws on it. Text
+is verified directly against cic/texts/anf07_lactantius-apostolic-
+constitutions-didache-liturgies.xml at line 11308, no elisions, and is
+byte-for-byte accurate throughout.
 
 WHAT THIS DOES AND DOES NOT DO FOR G05. pahc.gravity.boundary-drawing's own
 record states plainly that Doc_01's naming of Marcion, Valentinian teaching,

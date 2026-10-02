@@ -7,7 +7,7 @@ manual step recorded in the session's own commit history, not repeated
 here as a hermetic test.
 """
 from engine.m4.grounding_net import build_figure_lexicon, check_turn, check_turn_with_paragraph_coverage, drop_flagged_sentences, parse_tagged, scope_completion, split_into_paragraphs, strip_tags, verdict_for_sentence
-from engine.m4.grounding_net import _drop_truncated_tail
+from engine.m4.grounding_net import _drop_truncated_tail, _groundable_text
 
 TERM_RECORD = {
     "id": "fix.term.eucharistia",
@@ -23,6 +23,7 @@ QUOTE_RECORD = {
     "id": "fix.quote.new-song",
     "record_type": "quote",
     "text": "Behold the might of the new song! It has made men out of stones, men out of beasts.",
+    "modern_rendering": "Behold the might of the new song! It has made men out of stones, men out of beasts.",
 }
 FIGURE_RECORD = {
     "id": "fix.figure.clement",
@@ -94,6 +95,37 @@ def test_coined_quote_in_curly_marks_is_withheld():
     entry = check_turn(text, REPOSITORY)["sentences"][0]
     assert entry["verdict"] == "withhold"
     assert "not found verbatim" in entry["why"]
+
+
+def test_archaic_letterform_in_the_generated_quote_still_matches_a_modern_record():
+    """Archaic letterform normalization, exercised through the real
+    check_turn path, not just _normalize() in isolation: a generated
+    turn quoting with the archaic letterform itself still verifies
+    against a record stored in modern spelling - the shared normalizer
+    m9's own verbatim-in-shelf check uses (_span_in_records -> _normalize)
+    is the same one this whole check runs through."""
+    text = "As it was sung, 'Behold þe might of þe new song! It has made men out of stones, men out of beasts.' [[fix.quote.new-song]]"
+    entry = check_turn(text, REPOSITORY)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
+
+
+def test_archaic_letterform_in_the_record_still_matches_a_modern_generated_quote():
+    """The other direction: a record stored WITH the archaic letterform
+    (as a vendored source might carry it) still verifies against a
+    generated quote using modern spelling - genuinely symmetric, not just
+    one-directional tolerance."""
+    archaic_record = {
+        "id": "fix.quote.archaic-thorn",
+        "record_type": "quote",
+        "text": "Behold þe might of þe new song! It has made men out of stones.",
+        "modern_rendering": "Behold the might of the new song! It has made men out of stones.",
+    }
+    repo = {**REPOSITORY, archaic_record["id"]: archaic_record}
+    text = "As it was sung, 'Behold the might of the new song! It has made men out of stones.' [[fix.quote.archaic-thorn]]"
+    entry = check_turn(text, repo)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
 
 
 def test_quote_with_no_tag_is_withheld_even_if_verbatim():
@@ -311,9 +343,8 @@ def test_check_turn_reports_no_truncation_on_an_ordinary_turn():
     assert result["truncated"] is False
 
 
-# The scaffold exemption used to cover a whole sentence the moment any
-# SCAFFOLD_MARKERS phrase appeared anywhere in it - real cases from a live
-# adversarial review.
+# The scaffold exemption applies to the marker's own clause, not to the
+# whole sentence a SCAFFOLD_MARKERS phrase happens to appear in.
 
 def test_a_chronological_claim_riding_a_scaffold_phrase_is_no_longer_exempt():
     """The exact defect: 'we cannot speak its own words' at the sentence's
@@ -353,10 +384,10 @@ def test_the_sanctioned_self_naming_line_still_exempts():
 
 
 def test_a_grounded_claim_beside_a_scaffold_phrase_still_passes_on_its_own_tag():
-    """Narrowing the exemption must not start withholding sentences that
-    were always properly grounded - a real tagged claim in its own clause,
-    beside a scaffold phrase, should clear the normal pipeline rather than
-    get caught by the fallout."""
+    """A properly grounded sentence must not be withheld just because it
+    also contains a scaffold phrase - a real tagged claim in its own
+    clause, beside a scaffold phrase, should clear the normal pipeline
+    on its own tag, independent of the exemption's own narrower scope."""
     text = (
         "We must be honest: the thanksgiving meal of bread and cup at the "
         "heart of the community's worship is what reached everyone [[fix.term.eucharistia]]."
@@ -524,3 +555,43 @@ def test_check_turn_with_paragraph_coverage_a_one_sentence_paragraph_never_inher
     assert first["wholly_uncited"] is True
     assert second["inherited_from_preceding"] is False
     assert second["wholly_uncited"] is True
+
+
+# ---- _groundable_text: a quote's own grounding pool is modern_rendering
+# only, never text (item 3, the modern_rendering-required gate) ------------
+
+
+def test_groundable_text_for_a_quote_is_modern_rendering_only():
+    rec = {"id": "fix.quote.one", "record_type": "quote",
+           "text": "An archaic original, never voiced.",
+           "modern_rendering": "A modern spoken form."}
+    assert _groundable_text(rec) == "A modern spoken form."
+    assert "archaic" not in _groundable_text(rec)
+
+
+def test_groundable_text_for_a_non_quote_record_is_unchanged_all_text():
+    rec = {"id": "fix.term.one", "record_type": "term", "plain_meaning": "A term's own plain meaning."}
+    assert _groundable_text(rec) == "A term's own plain meaning."
+
+
+def test_a_generated_span_matching_only_the_archaic_text_does_not_ground():
+    """The bug this pins: a generated quotation verbatim-matching a
+    record's own archaic `text` but not its modern_rendering was never
+    legitimately produced from that record - the voice only ever speaks
+    modern_rendering (gate_quote_recording), so a span that only matches
+    text should not pass as grounded."""
+    quote = {"id": "fix.quote.archaic-only", "record_type": "quote",
+             "text": "the elders spoke of paradise restored",
+             "modern_rendering": "the elders talked about paradise being brought back"}
+    text = 'He said, "the elders spoke of paradise restored." [[fix.quote.archaic-only]]'
+    result = check_turn(text, {"fix.quote.archaic-only": quote})
+    assert result["sentences"][0]["verdict"] == "withhold"
+
+
+def test_a_generated_span_matching_the_modern_rendering_grounds_normally():
+    quote = {"id": "fix.quote.rendering-match", "record_type": "quote",
+             "text": "the elders spoke of paradise restored",
+             "modern_rendering": "the elders talked about paradise being brought back"}
+    text = 'He said, "the elders talked about paradise being brought back." [[fix.quote.rendering-match]]'
+    result = check_turn(text, {"fix.quote.rendering-match": quote})
+    assert result["sentences"][0]["verdict"] == "ok"

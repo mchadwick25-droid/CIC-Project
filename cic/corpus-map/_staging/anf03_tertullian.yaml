@@ -20,7 +20,8 @@ authors_ruled:
 
       '
 assignments:
-- work: Apology (Apologeticus)
+- row_id: anf03_tertullian--apology-apologeticus
+  work: Apology (Apologeticus)
   author: tertullian
   locus: div2 4.3 under div1 'Apologetic.'
   atlas_ids:
@@ -32,7 +33,8 @@ assignments:
     which this candidate now includes).
 
     '
-- work: Apology (Apologeticus)
+- row_id: anf03_tertullian--apology-apologeticus-2
+  work: Apology (Apologeticus)
   author: tertullian
   locus: div2 4.3 under div1 'Apologetic.'
   atlas_ids:
@@ -45,7 +47,8 @@ assignments:
     (the id tertullian-s-voice itself pointed to is retired; latin-apologists now covers it).
 
     '
-- work: On Idolatry
+- row_id: anf03_tertullian--on-idolatry
+  work: On Idolatry
   author: tertullian
   locus: div2 4.4 under div1 'Apologetic.'
   atlas_ids:
@@ -55,7 +58,8 @@ assignments:
   note: 'Practical treatise on Christians amid pagan civic life, Carthage.
 
     '
-- work: The Shows (De Spectaculis)
+- row_id: anf03_tertullian--the-shows-de-spectaculis
+  work: The Shows (De Spectaculis)
   author: tertullian
   locus: div2 4.5 under div1 'Apologetic.'
   atlas_ids:
@@ -65,7 +69,8 @@ assignments:
   note: 'Companion piece to On Idolatry on the games and theatre.
 
     '
-- work: The Chaplet (De Corona)
+- row_id: anf03_tertullian--the-chaplet-de-corona
+  work: The Chaplet (De Corona)
   author: tertullian
   locus: div2 4.6 under div1 'Apologetic.'
   atlas_ids:
@@ -75,7 +80,8 @@ assignments:
   note: 'On the soldier''s crown and military service; within the entry''s window.
 
     '
-- work: To Scapula
+- row_id: anf03_tertullian--to-scapula
+  work: To Scapula
   author: tertullian
   locus: div2 4.7 under div1 'Apologetic.'
   atlas_ids:
@@ -85,7 +91,8 @@ assignments:
   note: 'Open letter to the proconsul of Africa, 212.
 
     '
-- work: Ad Nationes
+- row_id: anf03_tertullian--ad-nationes
+  work: Ad Nationes
   author: tertullian
   locus: div2 4.8 under div1 'Apologetic.'
   atlas_ids:
@@ -95,7 +102,8 @@ assignments:
   note: 'Earlier draft-sibling of the Apology, addressed to the pagan nations.
 
     '
-- work: An Answer to the Jews
+- row_id: anf03_tertullian--an-answer-to-the-jews
+  work: An Answer to the Jews
   author: tertullian
   locus: div2 4.9 under div1 'Apologetic.'
   atlas_ids:
@@ -106,7 +114,8 @@ assignments:
     assignment is made.
 
     '
-- work: The Soul's Testimony
+- row_id: anf03_tertullian--the-soul-s-testimony
+  work: The Soul's Testimony
   author: tertullian
   locus: div2 4.10 under div1 'Apologetic.'
   atlas_ids:
@@ -116,7 +125,8 @@ assignments:
   note: 'Short apologetic argument from the soul''s spontaneous speech.
 
     '
-- work: A Treatise on the Soul (De Anima)
+- row_id: anf03_tertullian--a-treatise-on-the-soul-de-anima
+  work: A Treatise on the Soul (De Anima)
   author: tertullian
   locus: div2 4.11 under div1 'Apologetic.'
   atlas_ids:
@@ -126,7 +136,8 @@ assignments:
   note: 'His longest philosophical work, against the philosophers and gnostic psychologies.
 
     '
-- work: The Prescription Against Heretics
+- row_id: anf03_tertullian--the-prescription-against-heretics
+  work: The Prescription Against Heretics
   author: tertullian
   locus: div2 5.3 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -137,7 +148,8 @@ assignments:
     by a separate context entry (§6.1).
 
     '
-- work: The Prescription Against Heretics
+- row_id: anf03_tertullian--the-prescription-against-heretics-2
+  work: The Prescription Against Heretics
   author: tertullian
   locus: div2 5.3 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -152,7 +164,8 @@ assignments:
     already establish.
 
     '
-- work: The Five Books Against Marcion
+- row_id: anf03_tertullian--the-five-books-against-marcion
+  work: The Five Books Against Marcion
   author: tertullian
   locus: div2 5.4 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -163,7 +176,8 @@ assignments:
     context entry; assignment is not exclusive (§6.1).
 
     '
-- work: The Five Books Against Marcion
+- row_id: anf03_tertullian--the-five-books-against-marcion-2
+  work: The Five Books Against Marcion
   author: tertullian
   locus: div2 5.4 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -176,7 +190,8 @@ assignments:
     etic.
 
     '
-- work: The Five Books Against Marcion
+- row_id: anf03_tertullian--the-five-books-against-marcion-3
+  work: The Five Books Against Marcion
   author: tertullian
   locus: div2 5.4 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -188,7 +203,8 @@ assignments:
     reason as the Apology''s pahc entry.
 
     '
-- work: Against Hermogenes
+- row_id: anf03_tertullian--against-hermogenes
+  work: Against Hermogenes
   author: tertullian
   locus: div2 5.5 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -200,7 +216,8 @@ assignments:
     for him.
 
     '
-- work: Against the Valentinians
+- row_id: anf03_tertullian--against-the-valentinians
+  work: Against the Valentinians
   author: tertullian
   locus: div2 5.6 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -211,7 +228,8 @@ assignments:
     face below.
 
     '
-- work: Against the Valentinians
+- row_id: anf03_tertullian--against-the-valentinians-2
+  work: Against the Valentinians
   author: tertullian
   locus: div2 5.6 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -222,7 +240,8 @@ assignments:
     material brief §4 sends to this entry, etic only.
 
     '
-- work: On the Flesh of Christ
+- row_id: anf03_tertullian--on-the-flesh-of-christ
+  work: On the Flesh of Christ
   author: tertullian
   locus: div2 5.7 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -232,7 +251,8 @@ assignments:
   note: 'Defense of Christ''s real flesh against docetic readings.
 
     '
-- work: On the Flesh of Christ
+- row_id: anf03_tertullian--on-the-flesh-of-christ-2
+  work: On the Flesh of Christ
   author: tertullian
   locus: div2 5.7 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -245,7 +265,8 @@ assignments:
     to Tertullian''s own constructive argument, unlike Against Marcion.
 
     '
-- work: On the Resurrection of the Flesh
+- row_id: anf03_tertullian--on-the-resurrection-of-the-flesh
+  work: On the Resurrection of the Flesh
   author: tertullian
   locus: div2 5.8 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -256,7 +277,8 @@ assignments:
     kept to the author''s entry since its heresiological description is diffuse.
 
     '
-- work: Against Praxeas
+- row_id: anf03_tertullian--against-praxeas
+  work: Against Praxeas
   author: tertullian
   locus: div2 5.9 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -265,7 +287,8 @@ assignments:
   confidence: assigned
   note: 'The trinitarian treatise against Praxeas'' monarchianism. modalist-monarchianism holds
     that face: the party this work argues with has an entry of its own.'
-- work: Against Praxeas
+- row_id: anf03_tertullian--against-praxeas-2
+  work: Against Praxeas
   author: tertullian
   locus: div2 5.9 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -278,7 +301,8 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- work: Against Praxeas
+- row_id: anf03_tertullian--against-praxeas-3
+  work: Against Praxeas
   author: tertullian
   locus: div2 5.9 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -292,7 +316,8 @@ assignments:
     not a parsing fact.
 
     '
-- work: Scorpiace
+- row_id: anf03_tertullian--scorpiace
+  work: Scorpiace
   author: tertullian
   locus: div2 5.10 under div1 'Anti-Marcion.'
   atlas_ids:
@@ -302,7 +327,8 @@ assignments:
   note: '"Antidote for the scorpion''s sting" - against gnostic evasion of martyrdom.
 
     '
-- work: Against All Heresies (spurious appendix)
+- row_id: anf03_tertullian--against-all-heresies-spurious-appendix
+  work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian
   locus: div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)
   atlas_ids:
@@ -323,7 +349,8 @@ assignments:
     by definition. The two together say the whole truth - where it sits, and what it is -
     without re-attributing anything. Detaching the spurious corpora from their attributed
     authors instead is a possible alternative shelving choice.'
-- work: Against All Heresies (spurious appendix)
+- row_id: anf03_tertullian--against-all-heresies-spurious-appendix-2
+  work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian
   locus: div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)
   atlas_ids:
@@ -343,7 +370,8 @@ assignments:
     by definition. The two together say the whole truth - where it sits, and what it is -
     without re-attributing anything. Detaching the spurious corpora from their attributed
     authors instead is a possible alternative shelving choice.'
-- work: On Repentance
+- row_id: anf03_tertullian--on-repentance
+  work: On Repentance
   author: tertullian
   locus: div2 6.2 under div1 'Ethical.'
   atlas_ids:
@@ -353,7 +381,8 @@ assignments:
   note: 'Pre-Montanist treatise on penitence and the second repentance.
 
     '
-- work: On Baptism
+- row_id: anf03_tertullian--on-baptism
+  work: On Baptism
   author: tertullian
   locus: div2 6.3 under div1 'Ethical.'
   atlas_ids:
@@ -363,7 +392,8 @@ assignments:
   note: 'The earliest surviving treatise devoted to baptism.
 
     '
-- work: On Prayer
+- row_id: anf03_tertullian--on-prayer
+  work: On Prayer
   author: tertullian
   locus: div2 6.4 under div1 'Ethical.'
   atlas_ids:
@@ -373,7 +403,8 @@ assignments:
   note: 'Exposition of the Lord''s Prayer and prayer practice.
 
     '
-- work: Ad Martyras
+- row_id: anf03_tertullian--ad-martyras
+  work: Ad Martyras
   author: tertullian
   locus: div2 6.5 under div1 'Ethical.'
   atlas_ids:
@@ -383,7 +414,8 @@ assignments:
   note: 'Exhortation to imprisoned confessors, Carthage, c. 197.
 
     '
-- work: The Passion of the Holy Martyrs Perpetua and Felicitas
+- row_id: anf03_tertullian--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
+  work: The Passion of the Holy Martyrs Perpetua and Felicitas
   author: passion_of_perpetua
   locus: div2 6.6 under div1 'Ethical.' (printed as an Appendix)
   atlas_ids:
@@ -400,7 +432,8 @@ assignments:
     id remains worth considering. tertullian-s-voice itself is merged into latin-apologists,
     so this assignment resolves there rather than to a separate entry; the underlying choice
     (Carthage/Tertullian''s corpus over the New Prophecy reading) is unaffected.'
-- work: On Patience
+- row_id: anf03_tertullian--on-patience
+  work: On Patience
   author: tertullian
   locus: div2 6.7 under div1 'Ethical.'
   atlas_ids:

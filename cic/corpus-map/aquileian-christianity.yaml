@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: aquileian-christianity
 works:
-- work: Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to
+- row_id: npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas
+  work: Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to
     Paul of Concordia)
   author: jerome
   locus: div2 5.7-5.10 - 'To Chromatius, Jovinus, and Eusebius' (n=VII, ~1,732 words), 'To
@@ -22,7 +23,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: A Commentary on the Apostles' Creed (Rufinus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--a-commentary-on-the-apostles-creed-rufinus
+  work: A Commentary on the Apostles' Creed (Rufinus)
   author: rufinus
   locus: div2 5.13
   role: tradition

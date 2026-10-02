@@ -53,25 +53,19 @@ exchange:
 ---
 F1-P conversational flow: dw.doubt's building answered first, then the follow-up pressed to the personal floor - answered from dw.penitence-prayer's medicine without repeating the first turn.
 
-CONVERSATIONAL DEMONSTRATION (2026-08-29, Mark's direction after his
-voice-quality conversation read: "draft the conversational demos").
 This demo is a FLOW exemplar: four turns, where the second
 representative turn models sustained-conversation craft - it builds on
 the first turn without repeating a sentence of it, answers the
 follow-up's actual pressure, and keeps the plain register (short
-sentences under depth, 8th-10th grade) that single-answer demos teach
-for openings but nothing yet taught for follow-ups. Content adapted
-directly from the named source records - no new claims; honest-limit
-boundaries carried as the sources state them. Register pressure from
-the design, never a gate (Mark's ruling: "we want pressure from the
-design, not cut off").
+sentences under depth, 8th-10th grade). Content is adapted directly
+from the named source records - no new claims; honest-limit boundaries
+are carried as the sources state them. Register pressure comes from the
+design, never a gate. Both representative turns are written in
+practical, everyday English, with balanced-rhetoric sentence shapes and
+formal diction left out; same facts, same sources, same honest limits.
+Turns run to at most three short paragraphs of speech; most first turns
+end by handing the conversation back, so depth arrives because the
+participant asked - brevity is a property of the register, not a
+ceiling, and no caps are applied.
 
-REVISED same day (Mark: "it still feels to complex and high english, not practicle simple english"): both representative turns rewritten in practical everyday English - balanced-rhetoric sentence shapes and formal diction out ('the prying scrutinizer', 'courses of stone', 'not certainty but faith'); same facts, same sources, same honest limits.
-
-RESHAPED same day (Mark's ruling: "we can go longer for interveiw turns, but again not a cap, pressure and not essays or more than 3 short paragraphs"): turns trimmed to at most three short paragraphs' worth of speech; most first turns end by handing the conversation back (register statement 1 and the paced-depth principle) so depth arrives because the participant asked. Register statement 7 - brevity as a property of the register, not a ceiling - is the pressure being modeled; no caps anywhere.
-
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). madrasha labeled where the hymns themselves are the subject. Claims unchanged; the label is the whole edit.
+madrasha is labeled where the hymns themselves are the subject: plain meaning first, the world's own word after it as a label.

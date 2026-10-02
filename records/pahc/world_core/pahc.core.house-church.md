@@ -110,17 +110,16 @@ thin_topics:
   note: the surviving record is urban; rural Christianity in these regions is undocumented in the
     window
 ---
-Step-3a world_core for the new-regime pahc build, re-derived from the
-approved prior-build documents (Doc_01 World Identification, approved
-2026-07-07; Doc_02 SS5/SS7/SS8 for the thinness content; Doc_04/Doc_07
-for the formation-logic synthesis; Doc_08 for the closing-boundary
-framing). The registry thinness_statement in records/worlds.yaml is the
+This world_core record is derived from Doc_01 World Identification,
+Doc_02 SS5/SS7/SS8 for the thinness content, Doc_04/Doc_07 for the
+formation-logic synthesis, and Doc_08 for the closing-boundary
+framing. The registry thinness_statement in records/worlds.yaml is the
 first sentence of this record's thinness field, verbatim, per the
 cross-document consistency rule.
 
-Scope authority: Step 0 and Doc_01 are settled ground (Mark's sign-off
-2026-07-07); this record restates them as content and decides nothing
-new. The two-strand provisionality, Ignatius split, Egypt exclusion, and
+Scope authority: Step 0 and Doc_01 are settled ground; this record
+restates them as content and decides nothing new. The two-strand
+provisionality, Ignatius split, Egypt exclusion, and
 dating-humility cautions carry Doc_01's own flags forward at full
 strength; the corresponding contested_claim records (built at the
 contested-claims step) hold each contest in participant-facing form.

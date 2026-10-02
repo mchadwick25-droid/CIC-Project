@@ -1,7 +1,8 @@
 source_file: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
 
 assignments:
-  - work: "The Sixth Book of the Select Letters of Severus of Antioch"
+  - row_id: severus-of-antioch_select-letters-book6-part1_brooks1903--the-sixth-book-of-the-select-letters-of-severus-of-antioch
+    work: "The Sixth Book of the Select Letters of Severus of Antioch"
     author: severus-of-antioch
     locus: "Part I (Text and Translation Society, 1903)"
     atlas_ids:

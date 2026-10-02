@@ -66,8 +66,8 @@ kept here are the ones that show the same thing without that distortion:
 a bishop deciding, case by case, about a child, a woman recovering from
 birth, a sick man, and a priest asked to bless a marriage he suspects.
 
-THIS IS THE ONLY PLACE IN THIS WORLD'S CORPUS WHERE ORDINARY LIFE IS
-RULED ON. Twenty sources of Clement, Origen, Athanasius and the
+THIS IS THE ONLY PLACE IN THIS WORLD'S CORPUS WHERE ORDINARY LIFE COMES
+TO A BISHOP'S DESK FOR A DECISION. Twenty sources of Clement, Origen, Athanasius and the
 historians - teaching, argument, and the ascent of the soul. The world's
 own registry entry admits it is "thinner on ordinary believers." This is
 the Alexandrian church at a desk, answering what a person should

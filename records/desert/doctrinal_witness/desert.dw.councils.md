@@ -41,14 +41,8 @@ governance question to its relationship with the wider church's own
 conciliar authority - a genuine extension this record names rather than
 disguises as a claim the underlying sources make directly.
 
-Step4, Round 1 review Finding S2: this record's third position
-previously read "refusal of communion, not argument, was this world's
-own characteristic form of doctrinal resistance," and its locus gloss
-claimed SS68-69 showed rejection "without reference to any council's
-own authority to decide the question." Both were checked directly
-against SS69, inside the record's own cited range: Antony is summoned
-by the bishops to Alexandria and publicly argues against the Arians,
-teaching the Nicene position in positive terms - argument, at
-episcopal summons, is exactly what SS69 shows. Corrected above to state
-both forms (refusal at home; summoned public argument in the city)
-rather than the one SS69 itself denies.
+SS69, inside this record's own cited range, shows Antony summoned by
+the bishops to Alexandria to publicly argue against the Arians, teaching
+the Nicene position in positive terms - argument, at episcopal summons.
+The third position states both forms this world's record shows: refusal
+of communion at home, and summoned public argument in the city.

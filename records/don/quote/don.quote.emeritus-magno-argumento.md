@@ -18,10 +18,10 @@ confidence:
     independently re-confirmed this session by reading the raw file directly at line 126834 (''Emeritus
     episcopus dtxii. Magno irgnmento vc-rilas occullaiur...''), but the underlying scan should still be
     treated as a careful reading of a difficult scan, not a settled critical-edition text, until visually
-    cross-checked, per Doc_02''s own standing caution. Quote-verbatim gate note (2026-09-22): the corrected
+    cross-checked, per Doc_02''s own standing caution. The corrected
     Latin cannot verify character-for-character against the vendored scan''s OCR-corrupted text at this
-    locus -- verification_state lowered from verified-direct to verified-via-authority. Flagged for Mark:
-    no clean vendored transcription exists to repoint to; the record is not being resolved further here.'
+    locus, which is why verification_state is verified-via-authority rather than verified-direct.
+    No clean vendored transcription exists to repoint to.'
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
   locus: act 50, 411 Conference of Carthage; independently re-read this session against cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt,

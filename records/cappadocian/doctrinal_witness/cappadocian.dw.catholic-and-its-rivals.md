@@ -79,4 +79,4 @@ material rather than letting the "our own confession is the real one"
 answer read as more settled and self-congratulatory than this world's own
 best scholarship allows.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-eustathius-rupture, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-on-eustathius-rupture.

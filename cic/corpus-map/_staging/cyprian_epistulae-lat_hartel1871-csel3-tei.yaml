@@ -1,0 +1,75 @@
+# Epistulae in Hartel's CSEL 3 text (Vienna, 1871, Pars II), in the Open Greek and Latin project's machine-corrected TEI.
+# The same printed edition is vendored as a raw OCR scan (cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt), staged separately. Each row copies its English twin's atlas entries, role and confidence.
+source_file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
+
+assignments:
+  - row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin
+    work: "Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)"
+    author: cyprian
+    locus: "file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 16500-30929"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+      - novatianism
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the work the English twin row(s) in
+      anf05_hippolytus-cyprian-caius-novatian.xml hold: the correspondence of Cyprian, including
+      letters written to him. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel's critical text (Pars
+      II, Vienna: Gerold, 1871), in the University of Leipzig's machine-corrected TEI (the project's
+      OCR correction of the printed edition, not a fresh human edition). Ready to quote once each
+      quote is verified verbatim against this file (INTAKE section 6); the English a Representative
+      speaks is rendered from it. Verify quotes against the printed apparatus in the scan
+      cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 16500-30929), which carries
+      the manuscript sigla and the variant readings in place on the printed page; this file keeps
+      the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
+      with any quotation. Mirrors the English twin's roles and confidence exactly. The corpus embeds
+      letters by others (Cornelius, the Roman clergy, Firmilian of Caesarea, the confessors) under
+      Cyprian's name, so author cyprian is the corpus author of record.
+
+  - row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin-2
+    work: "Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)"
+    author: cyprian
+    locus: "file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 16500-30929"
+    atlas_ids:
+      - donatism
+    role: antecedent
+    confidence: assigned
+    note: >
+      Latin original of the work the English twin row(s) in
+      anf05_hippolytus-cyprian-caius-novatian.xml hold: the correspondence of Cyprian, including
+      letters written to him. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel's critical text (Pars
+      II, Vienna: Gerold, 1871), in the University of Leipzig's machine-corrected TEI (the project's
+      OCR correction of the printed edition, not a fresh human edition). Ready to quote once each
+      quote is verified verbatim against this file (INTAKE section 6); the English a Representative
+      speaks is rendered from it. Verify quotes against the printed apparatus in the scan
+      cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 16500-30929), which carries
+      the manuscript sigla and the variant readings in place on the printed page; this file keeps
+      the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
+      with any quotation. Mirrors the English twin's roles and confidence exactly.
+
+  - row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistle-lxxv-hartel-numbering-firmilian-bishop-of-caesarea
+    work: "Epistle LXXV (Hartel numbering) - Firmilian, Bishop of Caesarea in Cappadocia, to Cyprian, against the letter of Stephen (TEI)"
+    author: cyprian
+    locus: "file line 15924 (title 'Epistula LXXV.'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1, letter n=75"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the work the English twin row(s) in
+      anf05_hippolytus-cyprian-caius-novatian.xml hold: the correspondence of Cyprian, including
+      letters written to him. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel's critical text (Pars
+      II, Vienna: Gerold, 1871), in the University of Leipzig's machine-corrected TEI (the project's
+      OCR correction of the printed edition, not a fresh human edition). Ready to quote once each
+      quote is verified verbatim against this file (INTAKE section 6); the English a Representative
+      speaks is rendered from it. Verify quotes against the printed apparatus in the scan
+      cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 16500-30929), which carries
+      the manuscript sigla and the variant readings in place on the printed page; this file keeps
+      the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
+      with any quotation. Carries the twin's separate row for the one letter in the corpus that is
+      Firmilian's own: Epistle LXXV in Hartel's numbering (LXXIV in the ANF numbering), Firmilian of
+      Caesarea in Cappadocia to Cyprian, against the letter of Stephen. The author slug is cyprian
+      because no firmilian slug exists; the letter is Firmilian's, embedded in Cyprian's corpus.
+      Provisional as the twin.
+

@@ -53,9 +53,8 @@ manifestations:
 - Jerome's combative self-presentation, formed by and forming the disputes
 classification: supporting
 ---
-Re-derived from the cleared Doc_04 (G6, Supporting - classification
-settled there and not reopened by the forces notation, per its own Round 1
-correction). Confidence split carried: events Documented, the substance of
+Derived from Doc_04 (G6, Supporting - classification settled there and
+not reopened by the forces notation). Confidence split carried: events Documented, the substance of
 the disputes Contested where sourcing is adversarial
 (hal.contested.origenist-substance). Forces-connection: absorbed both the
 Origenist controversy (2B-1) and the Pelagian attack (3A-2) as

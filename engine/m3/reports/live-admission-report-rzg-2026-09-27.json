@@ -1,0 +1,714 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "protocol": "blind",
+  "worlds": {
+    "rzg": {
+      "battery_size": 28,
+      "pass_count": 27,
+      "overall_pass": false,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe c-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.sovereignty-of-god-predestination-election does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.gravity.sovereignty-of-god-predestination-election'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 862,
+            "output_tokens": 310,
+            "cache_creation_input_tokens": 11533,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 911,
+            "output_tokens": 299,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 354,
+            "output_tokens": 367,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": false,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": false,
+              "findings": [
+                "probe c-t-probe-01: citation(s) do not resolve to any source record: ['rzg.gravity.sovereignty-of-god-predestination-election']"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 527,
+            "output_tokens": 428,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          },
+          "answer_text": "We hold what the whole church holds, and always has: Jesus is fully God, not a lesser divinity or a created being who later rose to godhood. That was never our quarrel, not with Rome and not between our own two cities. The ancient creeds settled it long before either of us existed, and we confess them still - the Nicene and the Apostles' Creed both. The Son is of one substance with the Father, begotten not made, and the Spirit proceeds from both.\n\nWhat is distinctly ours is not a different Jesus, but what we hold his death actually secures. God's own free choice, made before the world began, decides who is saved - not anything foreseen or earned in the one chosen. That election is not a revision of who Jesus is; it is the ground on which his work stands. Christ died for those the Father gave him, and his death secures them wholly, not conditionally. We do not teach that Jesus had to wait to see who would choose him back before his sacrifice could take effect.\n\nAnd we hold that teaching pastorally, not as a threat. Our own founder said it plainly at the beginning: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves, not from a source standing above them. The God who chose freely is also the God whose continuous, active care governs everything he made - not a distant first cause who set the world going and stepped back. That is the Jesus we confess: fully divine, eternally one with the Father and the Spirit, and the ground of a settled assurance rather than anxious searching."
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f1-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.sovereignty-of-god-predestination-election does not exist, but its sentence's content verifies against ['rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.gravity.sovereignty-of-god-predestination-election', 'rzg.term.predestination-election'] - an address error on real content, not a fabrication",
+                "probe f1-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.term.the-lords-supper-spiritual-presence'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1255,
+            "output_tokens": 423,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.bolsec-controversy does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.term.consistory'] - an address error on real content, not a fabrication",
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.contested.zwinglis-remembrance-vs-negotiated-consensus', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.demo.consensus-contest'] - an address error on real content, not a fabrication",
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.scripture-sole-authority-disputation-catechesis does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.demo.why-we'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1253,
+            "output_tokens": 597,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1007,
+            "output_tokens": 417,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1558,
+            "output_tokens": 284,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 283,
+            "output_tokens": 429,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 844,
+            "output_tokens": 360,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 441,
+            "output_tokens": 399,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f2-t-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.zwinglis-1519-preaching-sausage-affair does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.demo.why-we', 'rzg.figure.zwingli', 'rzg.force.zwinglis-1519-preaching-sausage-affair'] - an address error on real content, not a fabrication",
+                "probe f2-t-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.scripture-sole-authority-disputation-catechesis does not exist, but its sentence's content verifies against ['rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.gravity.scripture-sole-authority-disputation-catechesis', 'rzg.term.disputation'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 617,
+            "output_tokens": 388,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f3-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.1541-ecclesiastical-ordinances-consistory-founding does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.1541-ecclesiastical-ordinances-consistory-founding', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f3-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.demo.consensus-contest', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f3-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.scripture-sole-authority-disputation-catechesis does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.gravity.scripture-sole-authority-disputation-catechesis'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 629,
+            "output_tokens": 547,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 17,
+            "output_tokens": 315,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f3-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.1541-ecclesiastical-ordinances-consistory-founding does not exist, but its sentence's content verifies against ['rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.term.consistory', 'rzg.witness.one-conviction-two-enactments'] - an address error on real content, not a fabrication",
+                "probe f3-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.consistorial-church-discipline does not exist, but its sentence's content verifies against ['rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.term.consistory', 'rzg.witness.one-conviction-two-enactments'] - an address error on real content, not a fabrication",
+                "probe f3-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.gravity.council-led-authority-vs-consistorial-independence'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1178,
+            "output_tokens": 433,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1516,
+            "output_tokens": 186,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f4-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.consistorial-church-discipline does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.demo.why-we', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication",
+                "probe f4-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.scripture-sole-authority-disputation-catechesis does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.contested.zwinglis-remembrance-vs-negotiated-consensus', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1200,
+            "output_tokens": 672,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f4-e-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.scripture-sole-authority-disputation-catechesis does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 916,
+            "output_tokens": 355,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f4-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.sovereignty-of-god-predestination-election does not exist, but its sentence's content verifies against ['rzg.demo.predestination-and-dread', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.limit.doubt-and-assurance'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 803,
+            "output_tokens": 258,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f4-t-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.anabaptist-schism does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 572,
+            "output_tokens": 324,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f5-i-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.consistorial-church-discipline does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.1541-ecclesiastical-ordinances-consistory-founding', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 968,
+            "output_tokens": 316,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 933,
+            "output_tokens": 201,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.anabaptist-schism does not exist, but its sentence's content verifies against ['rzg.contested.anabaptist-schism-legitimacy', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.anabaptist-schism'] - an address error on real content, not a fabrication",
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.force.perrinist-crisis does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.1541-ecclesiastical-ordinances-consistory-founding', 'rzg.force.perrinist-crisis'] - an address error on real content, not a fabrication",
+                "probe f5-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.craft.theophilus-voice', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 928,
+            "output_tokens": 474,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 283,
+            "output_tokens": 186,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 450,
+            "output_tokens": 243,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 321,
+            "output_tokens": 335,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f6-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.consistorial-church-discipline does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.front.the-reformed-cities-zurich-and-geneva', 'rzg.limit.consistory-case-narrative'] - an address error on real content, not a fabrication",
+                "probe f6-p-probe-01: MISCOPIED ADDRESS (review, route to build): rzg.gravity.council-led-authority-vs-consistorial-independence does not exist, but its sentence's content verifies against ['rzg.core.the-reformed-cities-zurich-and-geneva', 'rzg.facilitator_brief.the-reformed-cities-zurich-and-geneva', 'rzg.force.1541-ecclesiastical-ordinances-consistory-founding', 'rzg.front.the-reformed-cities-zurich-and-geneva'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 898,
+            "output_tokens": 323,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 687,
+            "output_tokens": 319,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11533
+          }
+        }
+      ],
+      "actual_usd": 0.35611905,
+      "total_input_tokens": 22211,
+      "total_output_tokens": 10188,
+      "total_cache_creation_input_tokens": 11533,
+      "total_cache_read_input_tokens": 311391
+    }
+  },
+  "overall_pass": false,
+  "authorized_by": "Task instruction 2026-09-27: routine fleet-parity M3 admission for rzg (established fleet convention, every other deployed world already run), $3 ceiling per standing rule",
+  "max_usd": 3.0,
+  "per_world_estimated_usd": {
+    "rzg": 0.7149010499999999
+  },
+  "estimated_usd_preflight": 0.7149010499999999,
+  "actual_usd_spent": 0.35611905,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}

@@ -18,7 +18,8 @@ def _compile_fix_package(tmp_path: Path, package_id: str) -> tuple[str, str]:
     is embedded in the manifest, so the hash differs even though every other
     byte is identical - real repin behavior: content didn't change, the pin
     did). Returns (location, manifest_hash); location is the tmp_path
-    directory's own absolute path, which _load_world's `REPO_ROOT /
+    directory's own absolute path (laid out packages/<code>/<pin>/, the shape
+    the compiled-target guard accepts outside the repository), which _load_world's `REPO_ROOT /
     location` resolves to unchanged (pathlib: an absolute right operand
     wins), so this needs no repo-root-relative placement at all - fully
     hermetic, no dependency on any package actually committed to the repo
@@ -26,9 +27,9 @@ def _compile_fix_package(tmp_path: Path, package_id: str) -> tuple[str, str]:
     committed - only manifest.json is, which is what caught the first
     version of this test using real historical packages: it passed locally
     off compiled bytes this session's own `build` calls had left on disk,
-    and failed on every clean checkout, CI included, 2026-09-04)."""
+    and failed on every clean checkout, CI included)."""
     package, digest = compile_and_hash(world_key="fix", package_id=package_id, records_commit="TEST", compiler_version="TEST")
-    out_dir = tmp_path / package_id
+    out_dir = tmp_path / "packages" / "fix" / package_id
     for rel_path, content in package.items():
         target = out_dir / rel_path
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -233,12 +234,11 @@ def test_get_transcript_unknown_session_raises(store):
 
 
 def test_a_pressable_class_asked_twice_reaches_the_etic_turn(store, usage_store, world_loader, registry):
-    """The gap this closes was proven live (pahc, 2026-08-24): routing's
-    rule 5 reads `pressed` from SessionState, SessionState folds `pressed`
-    from escalation_pressed, and nothing in the build ever appended that
-    event - so every ask was a first ask and etic_turn was unreachable.
-    Two identical later_age asks, and the second one must not be the first
-    one again."""
+    """Routing's rule 5 reads `pressed` from SessionState, SessionState
+    folds `pressed` from escalation_pressed - without that event appended,
+    every ask would read as a first ask and etic_turn would be
+    unreachable. Two identical later_age asks, and the second one must not
+    be the first one again."""
     session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
     client = FakeBedrockClient(
         safety_response=safety_response("NO_SIGNAL"),
@@ -277,10 +277,10 @@ def test_an_ordinary_turn_presses_nothing(store, usage_store, world_loader, regi
 
 
 def test_the_gate_decision_event_records_what_the_gate_said(store, usage_store, world_loader, registry):
-    """Until 2026-08-24 this payload was hand-built blank in wiring - asks,
-    register, out_of_scope, modern_terms, safety and directive hardcoded
-    empty on every gate_decision this build ever logged. The event existed;
-    the record did not."""
+    """This payload is assembled by engine.m4.turn, not hand-built blank in
+    wiring - asks, register, out_of_scope, modern_terms, safety and
+    directive are all real fields on every gate_decision this build logs,
+    not hardcoded empty."""
     session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
     client = FakeBedrockClient(
         safety_response=safety_response("NO_SIGNAL"),
@@ -518,7 +518,7 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     worlds = wiring.list_worlds(world_loader=world_loader, registry=registry)
 
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation"}
+    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation" and v.get("package")}
 
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
@@ -530,13 +530,13 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     assert "_generated_by" not in pahc
 
 
-# R37 (Rulings-Pending.md R37, R37-A, R37-B), interview: the pivot's own
-# licence reaches the voice's private directive. fix's window is 100-100
-# and don's starts 311, so condition (a) does not hold - only the
-# question's own words, plus what the conversation revealed before it.
+# Interview: the pivot's own licence reaches the voice's private
+# directive. fix's window is 100-100 and don's starts 311, so condition
+# (a) does not hold - only the question's own words, plus what the
+# conversation revealed before it.
 def _voice_directive_text(client, call_index=0):
-    system = client.messages.stream_calls[call_index]["system"]
-    return system[1]["text"] if len(system) > 1 else ""
+    content = client.messages.stream_calls[call_index]["messages"][-1]["content"]
+    return content[0]["text"] if isinstance(content, list) else ""
 
 
 def test_an_other_tradition_ask_about_a_later_tradition_limits_the_pivot_to_the_question(store, usage_store, world_loader, registry):

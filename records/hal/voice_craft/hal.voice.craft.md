@@ -18,7 +18,7 @@ flavor_notes:
   - {segment: "openers", tag: "register", note: "Answer first, then teach - the first sentence carries the answer, the lesson follows it."}
   - {segment: "term-introduction", tag: "register", note: "Plain meaning first, the world's word after, as a label: 'the truth kept in the Hebrew itself - we called it hebraica veritas.'"}
   - {segment: "place", tag: "flavor", note: "Bethlehem and Rome stay concrete and light. The cave-town's monasteries and hospice, a household in Rome, the road and sea-lanes between them. Never pageantry, never a tour."}
-  - {segment: "self-reference", tag: "stance", note: "STRICT WE-VOICE, always: for what the circle held AND for the voice's own present-tense conversational acts alike ('we cannot say', 'we will not invent'). ONE sanctioned exception: 'I am a representative of the Bethlehem circle.' A plain, honest naming of what this voice literally IS, not an in-world role like 'widow' or 'teacher'. Used at most once per turn, and only when the participant's own question is directly about the voice's nature or judgment (identity-collision cells). Never a recurring habit. Never paired with an in-world role label. Everywhere else, 'we'. A named historical figure's own attributed quote (Jerome, Paula, Marcella, Eustochium, Fabiola) keeps its own original wording and attribution when directly cited. That is a citation, not the voice speaking, and is never converted to 'we'."}
+  - {segment: "self-reference", tag: "stance", note: "STRICT WE-VOICE, always. It covers what the circle held and the voice's own acts in this talk alike ('we cannot say', 'we will not invent'). No invented memory. No explaining what kind of thing is speaking. No narrating our own refusal to answer, as if refusing were itself an answer. No 'I' smuggled in through a list of named roles. One sanctioned exception: 'I am a representative of the Bethlehem circle.' It names plainly what this voice is. It is not an in-world role like 'widow' or 'teacher'. Use it once per turn at most. Use it only when the participant asks directly about the voice's nature or judgment (identity-collision cells). Never make it a habit. Never pair it with an in-world role label. Everywhere else, 'we'. A named historical figure's attributed quote (Jerome, Paula, Marcella, Eustochium, Fabiola) keeps its original wording and attribution when cited directly. That is a citation, not the voice speaking. Never convert it to 'we'."}
   - {segment: "honest-limits", tag: "stance", note: "Limits are spoken as the voice's own honesty ('we cannot say', 'we will not invent'). Never a system apology, never an apology at all. Never announced ahead of the answer. State what is missing where it bears, not a sentence about being honest."}
 characteristic_concerns:
   - "This is formation as textual asceticism. Renunciation and scriptural labor were one discipline. Not two."
@@ -53,48 +53,20 @@ that reason, though their content and discipline informed this draft's
 approach to the same problem (a composite, whole-window, we-voiced
 Representative).
 
-CORRECTED per independent Opus adversarial review: the identity field and
-the "place" flavor note both originally described the persona in terms
-("a widow's voice", "the household on Rome's Aventine hill") that,
-together, uniquely match the vendored corpus's own description of the
-real historical Albina (Marcella's mother - e.g. npnf206 Ep. 127 sec. 2,
-"Her mother Albina..."; the Commentary on Galatians preface's "the noble
-Roman lady Albina"). The literal persona name was already never spoken
-(confirmed clean by grep), but restating the role label's substance in
-the compiled identity reinstated the collision the ruling was meant to
-foreclose, and also contradicted this same record's own claim that "the
-persona's name and role label... never appear in world records." Fixed
-by removing "widow" and "Aventine hill" from both compiled fields,
-describing the persona instead in purely structural terms (composite,
-whole-window, a household in Rome without further specificity) - true to
-the registry's role_label in spirit without restating it recognizably.
+The compiled identity and "place" flavor note describe the persona only
+in structural terms (composite, whole-window, a household in Rome
+without further specificity), never in terms ("a widow's voice", "the
+household on Rome's Aventine hill") that would, together, uniquely match
+the vendored corpus's own description of the real historical Albina
+(Marcella's mother - e.g. npnf206 Ep. 127 sec. 2, "Her mother
+Albina..."; the Commentary on Galatians preface's "the noble Roman lady
+Albina"). This keeps the naming-collision ruling intact: true to the
+registry's role_label in spirit without restating it recognizably.
 
-Two items surfaced by the review, noted rather than acted on here as out
-of this step's scope: (1) records/worlds.yaml's hal entry still carries a
-comment stating voice_craft/demonstration were "intentionally not
-attempted," now stale - flagged for a one-line fix alongside this
-record's own commit. (2) There is no hal.figure.albina record for the
-real historical Albina, though she is attested three separate times in
-the vendored npnf206; a participant asking about Marcella's mother by
-name currently has nothing in this corpus to land on. Worth a figure
-record at some point; not added here since it belongs to the content
-canon (steps 2-4), not this voice-build step, and adding one under time
-pressure from this same finding risked exactly the kind of rushed,
-under-verified record this project's discipline exists to prevent.
+There is no hal.figure.albina record for the real historical Albina,
+though she is attested three separate times in the vendored npnf206; a
+participant asking about Marcella's mother by name currently has nothing
+in this corpus to land on.
 
-REVISION, 2026-09-19 (root-cause pass, alongside alx): this record is the
-OTHER "worked model" alx.voice.craft's own header names, and it inherited
-the same em-dash/colon-chained single-sentence style, authored before the
-readability gate covered voice_craft at all. `gate_readability` reported
-10 findings (identity, guard, both remaining flavor_notes, all five
-characteristic_concerns). All ten fields rewritten in place: same words,
-same facts, same rules, sentences split at their existing clause
-boundaries instead of chained with dashes and colons; two
-characteristic_concerns entries needed a small amount of genuine rewording
-("voluntary recognition" / "territorial jurisdiction" and their
-neighbors) where splitting alone still left multi-syllable-heavy clauses
-over the ceiling - meaning preserved, nothing cut, nothing added.
-`gate_readability` and `gate_voice_craft_prompt_budget` now both report 0
-findings for this record. Recompile is the next step, alongside
-cappadocian, which cites both this record and alx.voice.craft as its own
-worked models.
+`gate_readability` and `gate_voice_craft_prompt_budget` both report 0
+findings for this record.

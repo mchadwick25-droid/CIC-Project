@@ -22,21 +22,20 @@ channel: "grep -in 'tortur|slave|martyr|rack|scourge' against every file already
   the cell's own subject matter, 2026-08-22"
 result: found
 found_sources: [ijc.source.lactantius-de-mortibus]
-note: "Corrected at a second follow-up confirmation review (2026-08-22): this record originally claimed
-  'no other licensed source reaches back before 312' - false. ijc.source.lactantius-de-mortibus is
+note: "ijc.source.lactantius-de-mortibus is
   licensed whole, not narrowly (contrast ijc.source.augustine-confessions, explicitly 'Book 9 ch. 7 ONLY');
   De Mortibus ch. XXIII, within that license, is a continuous pre-312 narrative and does contain
   torture-extracted testimony from enslaved persons ('the most trusty slaves compelled by pain to bear
   witness against their masters... men were tortured to speak against themselves'), plus martyrdom
   material at ch. XVI. This world's window (312-451) simply does not draw on that material - a deliberate
-  scope choice, not an absence of access. CONSEQUENCE: ijc.limit.earlier-windows's honest limit
+  scope choice, not an absence of access. ijc.limit.earlier-windows's honest limit
   stands on its real ground - a window judgment ('those questions belong to the age of persecution, and
-  our world begins where that age ends') - not on the stronger and false claim that the material is
+  our world begins where that age ends') - not on a claim that the material is
   unreachable in the licensed corpus."
 ---
-Added at a follow-up confirmation review (2026-08-22) per that
-review's M7 finding - see ijc.search.c-p-negative-sweep for the shared
-root-cause statement. This cell's honest_limit differs from the other
+This cell's negative claim is grounded by a dedicated, cell-scoped
+negative search, matching the discipline described at
+ijc.search.c-p-negative-sweep. This cell's honest_limit differs from the other
 four in kind: its absence is a window-boundary fact (this world begins
 in 312, the cell's questions concern before), not a corpus-coverage gap
 - material on this cell's exact subject matter does sit inside the

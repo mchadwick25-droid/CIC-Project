@@ -38,13 +38,10 @@ nearest_material:
 - ijc.dw.original-sin-transmitted
 - ijc.dw.bread-made-body
 ---
-F1-T held as an honest limit, narrowed at review (Opus canon-structure
-pass, 2026-08-21) from three questions to one: the original-sin and
-eucharist questions turned out to have real substantive answers in the
-already-vendored corpus (Leo Ep. LIX.4; Ambrose De Mysteriis IX) that
-the first-pass build missed - the root-cause finding was that no
-cell-scoped negative search had ever actually been run before writing
-this record's refusal. Only faith-versus-works, a genuinely
+F1-T held as an honest limit, narrowed to one question: the original-sin
+and eucharist questions have real substantive answers in the
+already-vendored corpus (Leo Ep. LIX.4; Ambrose De Mysteriis IX). Only
+faith-versus-works, a genuinely
 Reformation-era framing, survives as this world's own honest limit.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.

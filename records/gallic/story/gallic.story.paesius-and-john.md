@@ -89,10 +89,9 @@ modern_contrast: >-
   It is the shortest formation instrument the southern node received - offered whole in a single
   breath.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory010_paesius-and-john.md (Tier 2, Marseilles
-node, received Egyptian material, Registry row 7). The quotation carried verbatim including "said he"
-(the clause Doc_05's Round 1 review C6 once found dropped); the origin disclosed in the narrative per
-the H3 fix. "Paesius" is spelled without the ligature in the id and text for id-convention and plain
+Converted from the approved Doc_09 chunk gallicstory010_paesius-and-john.md (Tier 2, Marseilles
+node, received Egyptian material, Registry row 7). The quotation is carried verbatim including "said he";
+the origin is disclosed in the narrative. "Paesius" is spelled without the ligature in the id and text for id-convention and plain
 ASCII; the vendored volume prints "Paesius" with the ae ligature.
 
 FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's

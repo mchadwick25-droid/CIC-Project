@@ -64,13 +64,13 @@ life by his figure record. Kept in the repository because the tradition
 is real and participants ask about it - with its tier spoken inside
 the telling itself.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.
 
-VENDORED 2026-09-13: ijc.source.paulinus-vita-ambrosii's own translation
-was located and vendored (see that record and
+ijc.source.paulinus-vita-ambrosii's own translation
+is vendored (see that record and
 cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt); the bee-swarm
 passage is confirmed present and its wording checked directly against
-the file. This story's own no-verbatim-quotation choice is unchanged -
+the file. This story's own no-verbatim-quotation choice
 it was always a design choice about hagiographic legend, not merely a
 stopgap for an unreachable text, and stays in force now for that reason
 alone.

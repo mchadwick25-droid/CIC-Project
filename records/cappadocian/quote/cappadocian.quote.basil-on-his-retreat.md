@@ -58,7 +58,7 @@ modern_rendering: >-
   noise - hardly anyone even passes through, except the occasional
   hunter.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "Calypso"` located the
 letter's div block ("To Gregory his friend," div id="ix.xv") at line
 24000; its printed heading "Letter\nXIV." appears at lines 23973-23974
@@ -111,6 +111,4 @@ this individual letter; cappadocian.source.basil-letters-general-corpus
 this build's own convention of falling back to the general corpus
 record when no letter-specific source record exists.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern
-English translation, never the archaic original; the original stays as
-the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

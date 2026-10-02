@@ -41,10 +41,8 @@ relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony
 ---
-Opened 2026-08-27 for F2-T, which was served by pahc.witness.scripture-and-testimony alone with
-no quote behind it.
+This quote serves F2-T together with pahc.witness.scripture-and-testimony.
 
-ONE CORRECTION TO THE WITNESS, made here rather than left silent. That record cites First Apology
-59-60 for this claim. The argument is there, but its most compact statement is ch. 44, and this
-record cites 44 because that is where the sentence quoted actually stands. Both loci carry the
-same claim; neither citation is wrong, and the record now shows which sentence came from where.
+pahc.witness.scripture-and-testimony cites First Apology 59-60 for this claim. This record
+cites ch. 44, where the quoted sentence itself stands. Both loci carry the same claim; neither
+citation is wrong.

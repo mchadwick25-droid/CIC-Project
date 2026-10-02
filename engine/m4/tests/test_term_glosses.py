@@ -138,7 +138,7 @@ def test_gallic_ordinary_forms_no_longer_fire_uncited():
 
 def test_gallic_ordinary_forms_fire_once_their_own_sentence_is_cited():
     """The other half of the same criterion: an ordinary form is not
-    disabled, only citation-gated - the same rule the old (pre-2026-08-30)
+    disabled, only citation-gated - the same rule the old
     citation-anchored design used, now scoped to these forms alone."""
     repo = _real_repository("gallic")
     cases = {

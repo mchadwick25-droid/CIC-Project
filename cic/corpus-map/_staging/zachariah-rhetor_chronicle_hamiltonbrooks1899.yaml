@@ -41,7 +41,8 @@ authors_ruled:
       edition's own introduction already draws; it does not originate it.
 
 assignments:
-  - work: "The Syriac Chronicle known as that of Zachariah of Mitylene"
+  - row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--the-syriac-chronicle-known-as-that-of-zachariah-of-mitylene
+    work: "The Syriac Chronicle known as that of Zachariah of Mitylene"
     author: pseudo-zachariah-rhetor
     locus: "whole compilation (Books I-XII as received; Books III-VI corrected to own-voice, see note)"
     atlas_ids:

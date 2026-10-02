@@ -69,7 +69,7 @@ modern_rendering: >-
   grasp the nature of a tiny ant, how can you possibly claim to have
   grasped the nature of the incomprehensible God?
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml, Letter XVI ("Against Eunomius
 the heretic," div id="ix.xvii", printed heading "Letter XVI." at line
 24103), lines 24124-24132 (opening) and 24144-24151 (closing), found via
@@ -94,6 +94,4 @@ dw's epistemology claim specifically; the dw's separate delayed-baptism
 strand remains without its own quote in this batch - a real, honestly
 named remaining gap, not filled here.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
-English translation, never the archaic original; the original stays as
-the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

@@ -57,7 +57,7 @@ conservative reading. Parallel to 2A-4: relational rupture as the
 authority structure's characteristic failure mode. Canon_cells: F1-I
 (what you argued about), F6-I (what was never settled).
 
-CORRECTED per independent review Round 1 (2026-08-21): the preface dates
-to 397 (its own heading) and does not name Jerome - re-verified directly
-against cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, matching
-hal.figure.rufinus's parallel correction.
+The preface's 397 date and its description of Jerome without naming him
+are verified directly against
+cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, matching
+hal.figure.rufinus's own parallel entry.

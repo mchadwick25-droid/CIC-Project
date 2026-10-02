@@ -53,7 +53,7 @@ senses:
   translational: '''Doesn''t "made in God''s image" just mean human dignity?'' - that follows from it, but
     isn''t the point; the point is capacity - the reason knowing God, and being formed by him, is possible
     at all.'
-quick_meaning: The given mark in every person that makes knowing and being formed by God possible.
+quick_meaning: The mark God gave every person, which makes it possible to know God and be formed by God.
 distortion_risk: medium
 ---
 Imported from the old system's richer lexicon (alexlex009, "Image of God") at Mark's direction, as a

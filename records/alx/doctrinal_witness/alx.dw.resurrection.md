@@ -37,9 +37,9 @@ text: >-
   blood (martys, our own word for martyr, means witness first), and by what we
   believed the risen one was still doing in our own streets.
 positions:
-- the apostolic testimony is eyewitness testimony, and its bearers died for it without profit
+- The apostles saw what they told. They died for it, and they gained nothing from it.
 - the church's own fearlessness before death is treated as ongoing evidence
-- the argument is public - made to a hostile critic, not whispered among believers
+- The argument is public. It was made to a hostile critic. It was not whispered among believers.
 tensions:
 - ancient standards of testimony vs modern evidential expectations - the gap is stated, not hidden
 - 'Origen''s argument is apologetic literature: its force was contested by its first target and remains

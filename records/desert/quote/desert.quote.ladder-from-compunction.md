@@ -47,15 +47,15 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
+Verified verbatim against the vendored file at npnf211 line
 20066. The passage is continuous to its end.
 
-Quote-verbatim gate fix (2026-09-22, supersedes the 2026-08-27 "quotation marks... removed" call
-above): the ANF's own quotation marks around "The beginning", "of wisdom" and "the fear of the Lord"
+The ANF's own quotation marks around "The beginning", "of wisdom" and "the fear of the Lord"
 are genuine nested marks - Cassian is directly quoting scripture (Ps. 111:10) inside his own sentence,
-not decorating it. Per Mark's ruling that a nested mark is corrected to match source, not removed,
-restored. The inline scripture reference ("Ps. cxi. 10.") is still excised, marked now with an
-ellipsis rather than silently - it is citation apparatus, not part of Cassian's own sentence.
+not decorating it - and the text field carries them, matching the standing rule that a nested mark is
+corrected to match the source, not removed. The inline scripture reference ("Ps. cxi. 10.") is
+excised, marked with an ellipsis rather than silently - it is citation apparatus, not part of
+Cassian's own sentence.
 
 ONE SENTENCE-CHAIN CARRIES FOUR OF THIS WORLD'S TERMS. penthos
 (compunction), apotage (renunciation, nakedness), and puritas-cordis

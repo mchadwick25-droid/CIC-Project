@@ -87,9 +87,7 @@ NOT commend those who volunteered for suffering - martyrdom-readiness
 and death-seeking are not the same thing in this world's own account,
 directly relevant to the fleet canon's own F6-E-02 question.
 
-RELATION ADDED 2026-09-19 (pahc `world_front` build): reciprocal
-`associated-with` edge to the new `pahc.story.quintus-recantation`,
-authored the same pass to reconcile a `documentedStories` entry on the
-live site with no existing story record. This gravity's own
-manifestations[] already named the Quintus material; the new story
-record gives it a first-class narrative home.
+A reciprocal `associated-with` edge connects this gravity to
+`pahc.story.quintus-recantation`. This gravity's own manifestations[]
+already named the Quintus material; the story record gives it a
+first-class narrative home.

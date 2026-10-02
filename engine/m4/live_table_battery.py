@@ -228,9 +228,8 @@ def run(region: str, *, world_keys: list[str]) -> dict:
             f"{names.get(t.get('speaker'), t.get('speaker'))}: {t.get('text')}" for t in state.transcript if t.get("text")
         )
         convergence = call_convergence_check(client, safety_model_id, transcript_text)
-        # The seat-identity guard's own catch record (Decision-Log.md Entry
-        # 47, 2026-09-22, item 4: "run the live table battery once and
-        # report catch count") - every seat_identity_violation event this
+        # The seat-identity guard's own catch record - every
+        # seat_identity_violation event this
         # session's own real, live turns produced, read straight back from
         # the log rather than re-derived.
         seat_identity_catches = [e.payload for e in state.raw_events if e.event_type == "seat_identity_violation"]

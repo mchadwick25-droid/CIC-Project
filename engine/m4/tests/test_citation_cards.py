@@ -191,8 +191,8 @@ def test_a_figure_with_no_in_world_name_falls_back_to_its_scholarly_name_not_a_r
 
 def test_gravity_and_force_labels_strip_the_build_taxonomy_bracket_not_the_name():
     """alx.gravity.divine-pedagogy's own `name` field is "Divine Pedagogy
-    [SUPPORTING - explanatory framework]" - real, useful to a build
-    reviewer, never meant for a participant."""
+    [SUPPORTING - explanatory framework]" - real, useful during the build
+    process, never meant for a participant."""
     repo = _real_repository("alx")
     card = resolve_source_card("alx.gravity.divine-pedagogy", repo)
     assert card["label"] == "Divine Pedagogy"

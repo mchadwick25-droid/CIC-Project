@@ -1,0 +1,19 @@
+# Hugo Koch's 1926 studies on Cyprian.
+source_file: koch_cyprianische-untersuchungen-deu_1926.txt
+
+assignments:
+  - row_id: koch_cyprianische-untersuchungen-deu_1926--koch-cyprianische-untersuchungen-1926
+    work: "Koch, Cyprianische Untersuchungen (1926)"
+    author: koch
+    locus: "whole file; title page at file line 80; the chapter on penance in Cyprian, 'Die Bußfrage bei Cyprian', at file line 362"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern (1926) German scholarship, role context, not tradition. Not a primary source and not a
+      witness to any ancient text. Studies on the authorship and dating of Cyprian's writings (Quod
+      idola dii non sint, De lapsis, De ecclesiae unitate, the short treatises, Ad Fortunatum, Ad
+      Quirinum) and on his teaching on penance.
+      The 1926 date alone carries the rights basis. Confidence is provisional, the more cautious of the two
+      values the two sides had given this row. Registry row 225.

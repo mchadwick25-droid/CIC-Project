@@ -56,7 +56,7 @@ modern_rendering: >-
   things, into the Church itself, where we are entrusted with the body
   and blood of Christ. This cannot be allowed to stand.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n 'id="ix\.liv"\|id="ix\.lv"'`
 locates both letters titled "To the Chorepiscopi": div id="ix.liv" at
 line 27491 and div id="ix.lv" at line 27582. Both div ids are one Roman
@@ -103,6 +103,4 @@ money." This is that discipline in Basil's own voice: written by the
 metropolitan to the village-level bishops under him, naming the sale of
 ordination as the offense and forbidding it outright.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-English
-translation, never the archaic original; the original stays as the
-record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

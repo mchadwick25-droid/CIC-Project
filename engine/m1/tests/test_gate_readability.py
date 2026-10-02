@@ -131,3 +131,33 @@ def test_gate_readability_floor_does_not_flag_text_at_or_above_the_band():
     # tests above) - nowhere near gate_readability_floor's FK < 8 edge.
     records = {"w.term.x": {"id": "w.term.x", "record_type": "term", "plain_meaning": _dense_text(12)}}
     assert gate_readability_floor(records, {}, {}) == []
+
+
+def _demonstration(participant_text: str, representative_text: str) -> dict:
+    return {
+        "x.demo.1": {
+            "id": "x.demo.1",
+            "record_type": "demonstration",
+            "exchange": [
+                {"speaker": "participant", "text": participant_text},
+                {"speaker": "representative", "text": representative_text},
+            ],
+        }
+    }
+
+
+def test_participant_turn_is_never_readability_graded():
+    # A participant's line is a record of what was said, like quote.text:
+    # a dense one fails nothing, and a simple one is not even reported.
+    assert gate_readability(_demonstration(_dense_text(12), _PLAIN), {}, {}) == []
+    floor = gate_readability_floor(_demonstration(_simple_text(12), _PLAIN), {}, {})
+    assert not any("participant" in f for f in floor)
+
+
+def test_representative_turn_is_still_readability_graded():
+    # The world's own turn in the same exchange is graded exactly as before:
+    # past the ceiling it fails, under the floor it is reported.
+    findings = gate_readability(_demonstration(_PLAIN, _dense_text(12)), {}, {})
+    assert findings and all("exchange[representative].text" in f for f in findings)
+    floor = gate_readability_floor(_demonstration(_PLAIN, _simple_text(12)), {}, {})
+    assert floor and all("exchange[representative].text" in f for f in floor)

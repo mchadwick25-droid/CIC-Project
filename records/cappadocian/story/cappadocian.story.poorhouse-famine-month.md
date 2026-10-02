@@ -83,15 +83,10 @@ modern_contrast: >-
   this scene is offered as what such a crisis would plausibly have found
   there, not as something known to have happened.
 ---
-Derived from Doc_09 entry #19 (Tier 4 composite, "added light-fix pass
-2026-08-31, corrected post-review"). Doc_09's own text records a full
-two-round review history for this entry (a chronology-blur defect found
-and fixed - the direct 368/9-at-the-complex reading was rejected because
-the complex did not yet exist for that famine - plus a second independent
-review confirming the fix and catching one residual imprecision about the
-370/complex-founding-date thresholds, also fixed). Per this step's own
-instruction, that already-cleared review history is NOT re-litigated
-here; this record simply follows Doc_09's current, twice-corrected text.
+Derived from Doc_09 entry #19 (Tier 4 composite). This record follows
+Doc_09's own current text, which places this scene after the poorhouse
+complex existed - not at the founding famine of 368/9, which predates
+the complex.
 
 FEC / GRAVITY LINKAGE (parked for B-5; see cappadocian.story.famine-open-
 barns's body note for the full statement of this project precedent):

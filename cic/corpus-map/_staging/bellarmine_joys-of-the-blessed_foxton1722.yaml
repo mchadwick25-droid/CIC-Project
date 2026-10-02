@@ -1,7 +1,8 @@
 source_file: bellarmine_joys-of-the-blessed_foxton1722.txt
 
 assignments:
-  - work: "The Joys of the Blessed"
+  - row_id: bellarmine_joys-of-the-blessed_foxton1722--the-joys-of-the-blessed
+    work: "The Joys of the Blessed"
     author: bellarmine
     locus: "whole volume (Addison's accompanying essay is not Bellarmine's own voice)"
     atlas_ids:
@@ -11,5 +12,4 @@ assignments:
     note: >
       Bellarmine devotional work in English translation (Foxton, 1722),
       bound with an accompanying essay by Joseph Addison - context, not
-      Bellarmine's own voice. Vendored 2026-09-25 as part of a
-      post-Step0-Revision-2 PD source-acquisition pass.
+      Bellarmine's own voice.

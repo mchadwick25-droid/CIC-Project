@@ -1,7 +1,8 @@
 source_file: john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt
 
 assignments:
-  - work: "Lives of the Eastern Saints"
+  - row_id: john-of-ephesus_lives-of-the-eastern-saints_brooks1923--lives-of-the-eastern-saints
+    work: "Lives of the Eastern Saints"
     author: john-of-ephesus
     locus: "whole work (58 chapters, Patrologia Orientalis 17-19); ch. 49 directly verified"
     atlas_ids:

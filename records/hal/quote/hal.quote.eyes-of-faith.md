@@ -37,7 +37,7 @@ retrieval:
   - "participant asks what it was like to visit the holy places"
   - "participant asks how they imagined the events of the gospel"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108 sec. 10,
+Verified verbatim against the vendored npnf206 (Ep. 108 sec. 10,
 div v.CVIII). ATTRIBUTION SHAPE: Jerome reporting Paula's protestation at
 the cave of the Nativity - 'in my hearing' is the text's own claim of
 witness, and the epitaph genre's shaping applies (Doc_09a S6); Documented
@@ -45,4 +45,4 @@ as Jerome's written account, Inferential-Thin as Paula's precise
 experience. The record's own honest phrase - 'the eyes of faith' - names
 what kind of seeing this was. Serves C-I and C-P.
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

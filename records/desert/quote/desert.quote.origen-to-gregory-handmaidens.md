@@ -57,7 +57,7 @@ relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 149.
+Verified verbatim against the vendored file at line 149.
 
 The same letter is printed in ANF vol. 4 as well, so this world holds it
 twice; cited here from the Philocalia because that is the compiler's own

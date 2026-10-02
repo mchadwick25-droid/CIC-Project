@@ -26,7 +26,7 @@ attribution_status: pseudonymous
 discovery_channel: "assigned to this world by the cross-world corpus assignment; imported at Mark's direction 2026-08-27"
 external_ids: {ccel_volume: "anf08"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights are verified from the file's own DC.Rights header (Public
 Domain). The section's own Introductory Notice, by M. B. Riddle, is at
 line 35806 and states the translation is Walker's from Tischendorf, that
 none of these writings ever obtained general recognition, and that only

@@ -15,6 +15,7 @@ Usage:
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -23,8 +24,8 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent if HERE.name == "tools" else Path.cwd()
 
 SKIP_DIRS = (".git/", "node_modules/", "cic/texts/", "packages/", "Archive/", ".claude/",
-             "Ministry/Operations/Audits/", "Ministry/Operations/Standing/Launch-Prompts/",
-             "Ministry/Operations/Markup-Queue/")
+             "Build/Ministry/Operations/Audits/", "Build/Ministry/Operations/Standing/Launch-Prompts/",
+             "Build/Ministry/Operations/Markup-Queue/")
 DATED = re.compile(r"(_|-)20\d\d-\d\d-\d\d|Decision[_-]Log|Change_Log|Thread_Launch|Handoff|_Tracking\.md|Task_Board|Move_Ledger")
 PLACEHOLDER = re.compile(r"[<>\[\]{}*…]|\bSomeWorld\b|/code\b|/id\b|/name\b|/file\b|/locus\b|/key\b|/world\b")
 TOKEN = re.compile(r"(?<![\w/.\-@:])((?:[A-Za-z0-9_.\-]+/)+[A-Za-z0-9_.\-]+)")
@@ -37,14 +38,29 @@ TRAIL = ".,;:)'\"`*_"
 LOCAL_ONLY_DIRS = {".git", "node_modules", ".claude"}
 
 
+def retired_top_level_names() -> set[str]:
+    """A retired top-level directory (e.g. `worlds` before the Live/Build split moved it to
+    Build/worlds) must stay a recognized root, or every bare citation into it silently stops
+    being checked at all instead of correctly failing to resolve."""
+    listing = REPO / "tools" / "retired_paths.txt"
+    if not listing.exists():
+        return set()
+    names = set()
+    for line in listing.read_text(encoding="utf-8").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if line and "/" not in line:
+            names.add(line)
+    return names
+
+
 def top_level_dirs() -> set[str]:
-    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in LOCAL_ONLY_DIRS}
+    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in LOCAL_ONLY_DIRS} | retired_top_level_names()
 
 
 def in_scope(rel: str) -> bool:
     if any(rel.startswith(s) or f"/{s}" in rel for s in SKIP_DIRS):
         return False
-    if rel.startswith("Ministry/") and DATED.search(Path(rel).name):
+    if rel.startswith("Build/Ministry/") and DATED.search(Path(rel).name):
         return False
     return True
 
@@ -75,9 +91,27 @@ def scan() -> set[str]:
     return broken
 
 
+PACKAGE_FILE = re.compile(r"^packages/([^/]+)/([^/]+)/(.+)$")
+
+
+def in_package_manifest(tok: str) -> bool:
+    """A compiled package is derived output: .gitignore keeps only its manifest.json, so a clean
+    checkout never holds the files inside. The manifest lists every file the package contains,
+    which makes a citation of one verifiable without the derived file being present."""
+    m = PACKAGE_FILE.match(tok.rstrip("/"))
+    if not m:
+        return False
+    manifest = REPO / "packages" / m.group(1) / m.group(2) / "manifest.json"
+    try:
+        files = json.loads(manifest.read_text(encoding="utf-8")).get("files", {})
+    except (OSError, ValueError):
+        return False
+    return m.group(3) in files
+
+
 def resolves(tok: str) -> bool:
     target = REPO / tok.rstrip("/")
-    if target.exists():
+    if target.exists() or in_package_manifest(tok):
         return True
     # A filename wrapped across lines ("anf01_apostolic-fathers-justin-") or cited
     # by its stem ("cic/texts/anf01") resolves if exactly one entry carries that prefix.

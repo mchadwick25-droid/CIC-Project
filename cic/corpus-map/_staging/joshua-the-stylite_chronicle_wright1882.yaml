@@ -1,7 +1,8 @@
 source_file: joshua-the-stylite_chronicle_wright1882.txt
 
 assignments:
-  - work: "The Chronicle of Joshua the Stylite"
+  - row_id: joshua-the-stylite_chronicle_wright1882--the-chronicle-of-joshua-the-stylite
+    work: "The Chronicle of Joshua the Stylite"
     author: joshua-the-stylite
     locus: "whole work (single-work volume)"
     atlas_ids:

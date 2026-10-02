@@ -23,8 +23,8 @@ confidence:
     sermon read in bounded windows of rough OCR Latin - Contested for the portrait, Inferential-Thin
     for events and for wording (row 27). Nothing about his episcopate at Arles, and nothing about the
     island's daily life, is in this world's evidence. Whether Hilary's episcopate (and so Honoratus's
-    death) is 429 or 430 is undisturbed by ancient-source evidence this build holds (Doc_02, Round 2
-    finding N1: "429" is Richardson's endnote, not Gennadius's text).
+    death) is 429 or 430 is undisturbed by ancient-source evidence this build holds:
+    "429" is Richardson's endnote, not Gennadius's text.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
   locus: 'Preface II: "holy brothers Honoratus and Eucherius"; "presiding as he does over a large monastery of the brethren"'

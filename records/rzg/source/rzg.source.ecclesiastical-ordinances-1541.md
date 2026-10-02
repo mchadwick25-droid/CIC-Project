@@ -11,8 +11,7 @@ confidence:
   verification_state: unverified
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: A genuine public-domain edition, if one exists, has not yet been located (Source_Acquisition_Manifest.md
-    G1).
+  divergence_note: 'The 1541/1561 wording is not vendored, and this record names only that unvendored text. The 1576 Geneva Council revision of the same ordinances, in a 1735 printing, is vendored as `calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt`.'
 sources: []
 relations: []
 author: Geneva city council and John Calvin (jointly promulgated)

@@ -39,8 +39,7 @@ narrative_tier_justification: 'Tier 2 (collected traditional material): Eusebius
   VI.8), written decades after the event from Alexandrian church memory, not a first-person account. The
   structural sequence is Widely Accepted as what Eusebius reports; whether the underlying act is historical
   fact is Contested, per the confidence block above.'
-tellable_as: the remembered account of a hard, literal reading Origen once acted on, and how his own bishop
-  later turned it against him
+tellable_as: The remembered account of a hard verse that Origen once took at its word and acted on. Later his own bishop turned it against him.
 text: 'While Origen was still young and teaching the faith in Alexandria, he did something Eusebius calls
   both immature and a proof of unusual faith. He took a hard verse from Matthew - about those who "have
   made themselves eunuchs for the kingdom of heaven''s sake" - in the most literal sense possible, and

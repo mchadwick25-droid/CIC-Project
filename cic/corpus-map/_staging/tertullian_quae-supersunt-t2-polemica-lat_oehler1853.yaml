@@ -1,0 +1,276 @@
+# Latin original (Oehler 1853, Tomus II) of nine Tertullian works, each assigned to the same atlas
+# entries, role and confidence as its English twin (ANF03). Wanted chiefly for De praescriptione, De
+# carne Christi and Adversus Iudaeos, which no public-domain CSEL volume carries; the rest repeat CSEL
+# 20/47 in an older recension. Headings are OCR-variable in this scan, so each locus names what grep
+# found.
+source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
+
+assignments:
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-prescription-against-heretics
+    work: "The Prescription Against Heretics"
+    author: tertullian
+    locus: "file line 141 (heading 'DE PRAESCRIPTIONE HAERETICORUM' (title lines))"
+    atlas_ids:
+      - marcion-marcionism
+      - valentinian-and-other-gnostic-christianities
+    role: context
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-prescription-against-heretics-2
+    work: "The Prescription Against Heretics"
+    author: tertullian
+    locus: "file line 141 (heading 'DE PRAESCRIPTIONE HAERETICORUM' (title lines))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion
+    work: "The Five Books Against Marcion"
+    author: tertullian
+    locus: "file line 2948 (first heading 'ADVERSUS MARCIONEM')"
+    atlas_ids:
+      - marcion-marcionism
+    role: context
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion-2
+    work: "The Five Books Against Marcion"
+    author: tertullian
+    locus: "file line 2948 (first heading 'ADVERSUS MARCIONEM')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion-3
+    work: "The Five Books Against Marcion"
+    author: tertullian
+    locus: "file line 2948 (first heading 'ADVERSUS MARCIONEM')"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-hermogenes
+    work: "Against Hermogenes"
+    author: tertullian
+    locus: "file line 18353 (first heading (OCR 'iDVERSUS HERMOGENEM.'))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-the-valentinians
+    work: "Against the Valentinians"
+    author: tertullian
+    locus: "file line 21225 (heading 'ADVERSUS VALENTINIANOS.')"
+    atlas_ids:
+      - valentinian-and-other-gnostic-christianities
+    role: context
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-the-valentinians-2
+    work: "Against the Valentinians"
+    author: tertullian
+    locus: "file line 21225 (heading 'ADVERSUS VALENTINIANOS.')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--on-the-flesh-of-christ
+    work: "On the Flesh of Christ"
+    author: tertullian
+    locus: "file line 24712 (heading 'CARNE CHRISTI.' (the 'DE' is on the line above))"
+    atlas_ids:
+      - marcion-marcionism
+      - valentinian-and-other-gnostic-christianities
+    role: context
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--on-the-flesh-of-christ-2
+    work: "On the Flesh of Christ"
+    author: tertullian
+    locus: "file line 24712 (heading 'CARNE CHRISTI.' (the 'DE' is on the line above))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--on-the-resurrection-of-the-flesh
+    work: "On the Resurrection of the Flesh"
+    author: tertullian
+    locus: "file line 27327 (heading 'RESURRECTIONE CARNIS.')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--a-treatise-on-the-soul-de-anima
+    work: "A Treatise on the Soul (De Anima)"
+    author: tertullian
+    locus: "file line 36757 (first apparatus line naming the treatise ('DE ANIMA LIBER'); grep does not find the treatise heading itself)"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-praxeas
+    work: "Against Praxeas"
+    author: tertullian
+    locus: "file line 43048 (heading 'ADVERSUS PRAXEAN.')"
+    atlas_ids:
+      - montanism-the-new-prophecy
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-praxeas-2
+    work: "Against Praxeas"
+    author: tertullian
+    locus: "file line 43048 (heading 'ADVERSUS PRAXEAN.')"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-praxeas-3
+    work: "Against Praxeas"
+    author: tertullian
+    locus: "file line 43048 (heading 'ADVERSUS PRAXEAN.')"
+    atlas_ids:
+      - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. Mirrors the English twin's role and confidence exactly.
+
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--an-answer-to-the-jews
+    work: "An Answer to the Jews"
+    author: tertullian
+    locus: "file line 48907 (first running head 'ADVERSUS IUDAE(' (page 699 of the printed volume; the OCR lost the treatise heading))"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin original of the ALREADY-PRESENT English entry for this work (source_file
+      anf03_tertullian.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani quae supersunt omnia (Leipzig, Weigel,
+      1853), an older critical recension than CSEL. The Latin OCR is readable running text, so
+      this file is ready to quote once each quote is verified verbatim against it (INTAKE section
+      6); the English a Representative speaks is rendered from it, with the vendored English as a
+      cross-check. It is the only public-domain Latin witness in the directory for this work,
+      since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
+      and confidence exactly.
+

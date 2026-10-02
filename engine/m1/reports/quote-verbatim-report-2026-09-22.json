@@ -6,7 +6,10 @@
     "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
     "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
-    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced, FLEET-WIDE forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. A bare, unwrapped digit or symbol with no marker of its own is never covered fleet-wide (see the module docstring's fourth-round note) - only as a closed, per-EDITION list in `cic/texts/REGISTRY.yaml`'s own `apparatus` field, anchored to each edition's own real, evidenced breaks (fifth round), never a bare unanchored digit/letter class."
+    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced, FLEET-WIDE forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. A bare, unwrapped digit or symbol with no marker of its own is never covered fleet-wide (see the module docstring's fourth-round note) - only as a closed, per-EDITION list in `cic/texts/REGISTRY.yaml`'s own `apparatus` field, anchored to each edition's own real, evidenced breaks (fifth round), never a bare unanchored digit/letter class.",
+    "long_s": "A printer's long s (ſ) on one side stands for a plain s on the other - a systematic typesetting convention of the print itself, not a fidelity defect. Deterministic, applied to both the quote's own text and the source before comparing.",
+    "thorn": "The letter thorn (þ/Þ) on one side stands for \"th\" on the other - systematic, not a garbled OCR guess. Deterministic, applied to both the quote's own text and the source before comparing. A per-edition OCR misreading of thorn (e.g. rendered as `])`/`]?` in a specific scan) is NOT this class - that is a closed, per-edition `apparatus` mapping in `cic/texts/REGISTRY.yaml`, verified against the page image, never a global rule.",
+    "eth": "The letter eth (ð/Ð) on one side stands for \"th\" on the other - the same systematic convention as thorn, and the same ruling. Deterministic, applied to both the quote's own text and the source before comparing."
   },
   "audited_worlds": [
     "pahc",
@@ -42,7 +45,10 @@
         "ellipsis": 3,
         "bracket": 5,
         "verse_number": 4,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [
         {
@@ -67,17 +73,20 @@
         "ellipsis": 0,
         "bracket": 3,
         "verse_number": 1,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": []
     },
     "desert": {
       "world": "desert",
-      "total_quotes": 60,
-      "verified_count": 59,
+      "total_quotes": 61,
+      "verified_count": 60,
       "failed_count": 1,
-      "exact_no_diff_count": 10,
+      "exact_no_diff_count": 11,
       "note_verified_count": 0,
       "class_counts": {
         "whitespace": 38,
@@ -86,7 +95,10 @@
         "ellipsis": 10,
         "bracket": 11,
         "verse_number": 0,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": [
@@ -113,7 +125,10 @@
         "ellipsis": 1,
         "bracket": 0,
         "verse_number": 0,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": [
@@ -136,11 +151,14 @@
       "class_counts": {
         "whitespace": 24,
         "case": 0,
-        "punctuation": 1,
+        "punctuation": 2,
         "ellipsis": 1,
-        "bracket": 0,
+        "bracket": 1,
         "verse_number": 3,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": []
@@ -159,7 +177,10 @@
         "ellipsis": 6,
         "bracket": 2,
         "verse_number": 1,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": [
@@ -174,19 +195,22 @@
     },
     "cappadocian": {
       "world": "cappadocian",
-      "total_quotes": 20,
-      "verified_count": 19,
+      "total_quotes": 21,
+      "verified_count": 20,
       "failed_count": 1,
       "exact_no_diff_count": 2,
       "note_verified_count": 0,
       "class_counts": {
-        "whitespace": 17,
+        "whitespace": 18,
         "case": 0,
         "punctuation": 4,
         "ellipsis": 1,
         "bracket": 0,
         "verse_number": 0,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": [
@@ -213,7 +237,10 @@
         "ellipsis": 0,
         "bracket": 0,
         "verse_number": 0,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": [
@@ -235,22 +262,33 @@
     },
     "gallic": {
       "world": "gallic",
-      "total_quotes": 3,
-      "verified_count": 3,
-      "failed_count": 0,
+      "total_quotes": 102,
+      "verified_count": 101,
+      "failed_count": 1,
       "exact_no_diff_count": 0,
       "note_verified_count": 0,
       "class_counts": {
-        "whitespace": 3,
-        "case": 0,
-        "punctuation": 1,
-        "ellipsis": 0,
-        "bracket": 0,
+        "whitespace": 101,
+        "case": 5,
+        "punctuation": 26,
+        "ellipsis": 8,
+        "bracket": 1,
         "verse_number": 0,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
-      "failures": []
+      "failures": [
+        {
+          "id": "gallic.quote.salvian-on-the-unburied-dead",
+          "source_file": "cic/texts/salvian_on-the-government-of-god_sanford1930.txt",
+          "failed_segment": "This can be quickly tested by the example of the greatest city of Gaul, three times destroyed by successive captures, yet when the whole city had been burned to the ground, its wickedness increased even after its destruction.",
+          "nearest_context": "Title: On the Government of God",
+          "recorded_verification_state": "verified-direct"
+        }
+      ]
     },
     "rzg": {
       "world": "rzg",
@@ -266,7 +304,10 @@
         "ellipsis": 2,
         "bracket": 1,
         "verse_number": 0,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": []
@@ -285,16 +326,19 @@
         "ellipsis": 0,
         "bracket": 0,
         "verse_number": 0,
-        "apparatus": 0
+        "apparatus": 0,
+        "long_s": 0,
+        "thorn": 0,
+        "eth": 0
       },
       "note_verified": [],
       "failures": []
     }
   },
   "totals": {
-    "total_quotes": 257,
-    "verified_count": 251,
-    "failed_count": 6,
+    "total_quotes": 358,
+    "verified_count": 351,
+    "failed_count": 7,
     "note_verified_count": 1
   }
 }

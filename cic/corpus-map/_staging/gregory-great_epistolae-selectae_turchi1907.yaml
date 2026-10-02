@@ -1,7 +1,8 @@
 source_file: gregory-great_epistolae-selectae_turchi1907.txt
 
 assignments:
-  - work: "Epistolae Selectae (selected letters concerning the African
+  - row_id: gregory-great_epistolae-selectae_turchi1907--epistolae-selectae-selected-letters-concerning-the-african
+    work: "Epistolae Selectae (selected letters concerning the African
       Donatist remnant)"
     author: gregory-great
     locus: "selection within this Turchi 1907 edition"

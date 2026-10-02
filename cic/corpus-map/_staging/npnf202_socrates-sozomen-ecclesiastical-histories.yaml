@@ -2,7 +2,8 @@ source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
 
 assignments:
   # ---- Socrates Scholasticus (div1 2) ----
-  - work: "The Ecclesiastical History of Socrates Scholasticus"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus
+    work: "The Ecclesiastical History of Socrates Scholasticus"
     author: socrates
     locus: "div1 2 — Books I-VII, 305-439"
     atlas_ids:
@@ -17,7 +18,8 @@ assignments:
       Constantinopolitan-lay-historian bucket, and ijc (Rome, Constantinople,
       Milan, 312-451) is where he stands.
 
-  - work: "The Ecclesiastical History of Socrates Scholasticus"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
+    work: "The Ecclesiastical History of Socrates Scholasticus"
     author: socrates
     locus: "div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom), Novatianist notices throughout"
     atlas_ids:
@@ -39,7 +41,8 @@ assignments:
       is a primary narrative of Chrysostom's episcopate and fall. Movements
       merely mentioned are not assigned.
 
-  - work: "The Ecclesiastical History of Socrates Scholasticus"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-3
+    work: "The Ecclesiastical History of Socrates Scholasticus"
     author: socrates
     locus: "div1 2 — IV.20 (Athanasius's death and 46-year episcopate) and IV.25 (Of Didymus the Blind Man)"
     atlas_ids:
@@ -64,7 +67,8 @@ assignments:
       in-world voice (alx.source.socrates-historia-ecclesiastica).
 
   # ---- Sozomen (div1 3) ----
-  - work: "The Ecclesiastical History of Sozomen"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen
+    work: "The Ecclesiastical History of Sozomen"
     author: sozomen
     locus: "div1 3 — Books I-IX, 324-425, with the Address to Theodosius II (div2 3.5)"
     atlas_ids:
@@ -77,7 +81,8 @@ assignments:
       laws and emperors. As with Socrates, ijc is his own entry's nearest
       home in the census.
 
-  - work: "The Ecclesiastical History of Sozomen"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
+    work: "The Ecclesiastical History of Sozomen"
     author: sozomen
     locus: "div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16 (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)"
     atlas_ids:
@@ -100,7 +105,8 @@ assignments:
       Chrysostom. Each id above rests on sustained treatment, not mention.
 
   # ---- also assigned to cappadocian-nicene-pastoral-monastic-tradition ----
-  - work: "The Ecclesiastical History of Socrates Scholasticus"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-4
+    work: "The Ecclesiastical History of Socrates Scholasticus"
     author: socrates
     locus: "div1 2, Book II, Chapter XLI (id ii.v.xli) - the Synod of Constantinople, 360 CE"
     atlas_ids:
@@ -109,10 +115,9 @@ assignments:
     confidence: assigned
     note: >
       Found by cappadocian.source.church-historians-socrates-sozomen-theodoret
-      (kind: vendored), whose own verification_state was
-      `named-not-rechecked` - "files present since 2026-08-15, not
-      re-verified against the specific loci Doc_02 cites this session."
-      That review is done here. The record cites "Constantinople 360 (via
+      (kind: vendored, verification_state: named-not-rechecked): this
+      file had not yet been re-verified against the specific loci Doc_02
+      cites. That review is done here. The record cites "Constantinople 360 (via
       Socrates HE 2.41, SS2)" for "the Homoian-establishment
       reconstruction" - read directly at that exact chapter: it opens on
       the Acacian party's Synod at Constantinople after Ariminum, and

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: syriac-orthodox-west-syriac-christianity
 works:
-- work: The Arabic Gospel of the Infancy of the Saviour
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-arabic-gospel-of-the-infancy-of-the-saviour-2
+  work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   role: transmission
@@ -16,7 +17,8 @@ works:
     the class is. Compiled from Syriac sources and transmitted in Arabic through that milieu;
     custody, not composition.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Chronicle of Edessa
+- row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa-2
+  work: The Chronicle of Edessa
   author: chronicle-of-edessa
   locus: whole work (single-work volume)
   role: context
@@ -29,7 +31,8 @@ works:
 
     '
   source_file: chronicle-of-edessa_cowper.txt
-- work: A Canticle of Mar Jacob the Teacher on Edessa
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-canticle-of-mar-jacob-the-teacher-on-edessa
+  work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
   locus: div2 9.4
   role: tradition
@@ -39,7 +42,8 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Ecclesiastical History, Part III
+- row_id: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860--ecclesiastical-history-part-iii
+  work: Ecclesiastical History, Part III
   author: john-of-ephesus
   locus: Books I-VI in translation (body headings confirmed at lines 5883, 9233, 12719, 16886,
     17506, and before 5883 for Book I); III.36-37 directly verified as John's own narrative
@@ -101,7 +105,8 @@ works:
 
     '
   source_file: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
-- work: Lives of the Eastern Saints
+- row_id: john-of-ephesus_lives-of-the-eastern-saints_brooks1923--lives-of-the-eastern-saints
+  work: Lives of the Eastern Saints
   author: john-of-ephesus
   locus: whole work (58 chapters, Patrologia Orientalis 17-19); ch. 49 directly verified
   role: tradition
@@ -141,7 +146,8 @@ works:
 
     '
   source_file: john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt
-- work: The Chronicle of Joshua the Stylite
+- row_id: joshua-the-stylite_chronicle_wright1882--the-chronicle-of-joshua-the-stylite
+  work: The Chronicle of Joshua the Stylite
   author: joshua-the-stylite
   locus: whole work (single-work volume)
   role: context
@@ -162,7 +168,8 @@ works:
 
     '
   source_file: joshua-the-stylite_chronicle_wright1882.txt
-- work: The Divine Liturgy of James
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
+  work: The Divine Liturgy of James
   author: liturgy-of-st-james
   locus: div2 12.2
   role: tradition
@@ -174,7 +181,8 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: The Discourses of Philoxenus
+- row_id: philoxenus-of-mabbug_discourses_budge1894--the-discourses-of-philoxenus
+  work: The Discourses of Philoxenus
   author: philoxenus-of-mabbug
   locus: whole work (13 ascetic Discourses, Vol. II translation) plus the same volume's own
     Creed, Confession of Faith, and anti-Nestorian/anti-"two natures" doctrinal texts (contents
@@ -201,7 +209,8 @@ works:
 
     '
   source_file: philoxenus-of-mabbug_discourses_budge1894.txt
-- work: The Syriac Chronicle known as that of Zachariah of Mitylene
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--the-syriac-chronicle-known-as-that-of-zachariah-of-mitylene
+  work: The Syriac Chronicle known as that of Zachariah of Mitylene
   author: pseudo-zachariah-rhetor
   locus: whole compilation (Books I-XII as received; Books III-VI corrected to own-voice,
     see note)
@@ -222,7 +231,8 @@ works:
 
     '
   source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
-- work: The Sixth Book of the Select Letters of Severus of Antioch
+- row_id: severus-of-antioch_select-letters-book6-part1_brooks1903--the-sixth-book-of-the-select-letters-of-severus-of-antioch
+  work: The Sixth Book of the Select Letters of Severus of Antioch
   author: severus-of-antioch
   locus: Part I (Text and Translation Society, 1903)
   role: tradition
@@ -236,7 +246,8 @@ works:
 
     '
   source_file: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
-- work: The Sixth Book of the Select Letters of Severus of Antioch
+- row_id: severus-of-antioch_select-letters-book6-part2_brooks1904--the-sixth-book-of-the-select-letters-of-severus-of-antioch
+  work: The Sixth Book of the Select Letters of Severus of Antioch
   author: severus-of-antioch
   locus: Part II (Text and Translation Society, 1904)
   role: tradition

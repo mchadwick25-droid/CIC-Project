@@ -22,9 +22,11 @@ Provenance note: Body text unaltered including its own OCR errors
   and available - corrects that verdict. Vols. II-VIII not
   independently checked or vendored this pass. Vendored
   2026-09-25 as part of a post-Step0-Revision-2 PD
-  source-acquisition pass. Per this project's own INTAKE.md rule,
-  this Latin text is a second witness, never primary evidence for
-  a Representative.
+  source-acquisition pass. Per this project's own INTAKE.md rule (scan quality decides
+  quotability, not language), this Latin text is primary evidence
+  for the movement; the scan carries occasional letter-level
+  misreads, so any wording is verified against the page image before
+  it is quoted.
 
 Cíbrarp  of  thz  Cheologícal  £tmín<xxy 
 

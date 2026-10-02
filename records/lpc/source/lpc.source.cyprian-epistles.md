@@ -11,13 +11,11 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: 'A citation error stood in this build for six days and the correction is part of the
-    record, not tidied away: ''your suffrage and God''s judgment'' and ''ancient venom'' were first mis-cited
-    to Epistle XL (''To Cornelius, on His Refusal to Receive Novatian''s Ordination''), which contains
-    neither phrase -- both occur in Epistle XXXIX instead (lpc_Decision_Log.md, 2026-09-01). Epistles
-    XX-XXI (''Celerinus to Lucian'' / ''Lucian Replies to Celerinus'') are directly re-verified as this
-    world''s own lay-confessor first-person voice, licensed specifically for Doc_02 SS6''s Article 20
-    discharge -- two confessors writing to each other, neither yet ordained.'
+  divergence_note: '''Your suffrage and God''s judgment'' and ''ancient venom'' occur in Epistle XXXIX,
+    not Epistle XL (''To Cornelius, on His Refusal to Receive Novatian''s Ordination''), which contains
+    neither phrase. Epistles XX-XXI (''Celerinus to Lucian'' / ''Lucian Replies to Celerinus'') are
+    directly re-verified as this world''s own lay-confessor first-person voice, licensed specifically for
+    Doc_02 SS6''s Article 20 discharge -- two confessors writing to each other, neither yet ordained.'
 sources: []
 relations: []
 author: Cyprian of Carthage

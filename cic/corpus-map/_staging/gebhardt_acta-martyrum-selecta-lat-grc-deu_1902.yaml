@@ -1,0 +1,95 @@
+# Gebhardt's 1902 collection of martyr acts. Only the Latin African acts that bear on Cyprian's
+# world are assigned; the Greek acts are not recoverable from the OCR.
+source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
+
+assignments:
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--the-passion-of-the-scillitan-martyrs-latin-gebhardt-1902-no
+    work: "The Passion of the Scillitan Martyrs, Latin (Gebhardt 1902, no. IV)"
+    author: passion-of-scillitan-martyrs
+    locus: "file line 1560 ('Passio Sanctorum Secillitanorum'); collection no. IV"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin second witness for the ALREADY-PRESENT entries in this bucket (source_file anf09_gospel-
+      of-peter-diatessaron-origen-commentaries.xml and perpetua-scillitan-martyrs-lat-
+      grc_robinson1891.txt); the work's own date, 180 CE, is before this world's beginning, so the
+      entry stands as a comparandum. Gebhardt's collection (Berlin, 1902): the Latin acts are readable
+      OCR with occasional C/O letter misreads (for example 'Oypriano' for 'Cypriano'), the German
+      apparatus is real text, and the Greek acts are not recoverable from this scan. Readable running
+      text, so each quote is verified verbatim against the file and against the page image where a
+      letter is doubtful (INTAKE section 6) before it is used. Mirrors the existing entries' role and
+      confidence exactly.
+
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--the-passion-of-the-holy-martyrs-perpetua-and-felicitas-latin
+    work: "The Passion of the Holy Martyrs Perpetua and Felicitas, Latin (Gebhardt 1902, no. VII)"
+    author: passion_of_perpetua
+    locus: "file line 3489 ('Passio SS. Perpetuae et Felicitatis.'); collection no. VII"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin second witness for the ALREADY-PRESENT English entry in latin-apologists.yaml (source_file
+      anf03_tertullian.xml) and for the Latin/Greek entry (source_file perpetua-scillitan-martyrs-lat-
+      grc_robinson1891.txt). Gebhardt's collection (Berlin, 1902): the Latin acts are readable OCR
+      with occasional C/O letter misreads (for example 'Oypriano' for 'Cypriano'), the German
+      apparatus is real text, and the Greek acts are not recoverable from this scan. Readable running
+      text, so each quote is verified verbatim against the file and against the page image where a
+      letter is doubtful (INTAKE section 6) before it is used. Mirrors the existing entries' role and
+      confidence exactly.
+
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--acta-proconsularia-of-cyprian-latin-gebhardt-1902-no-xi
+    work: "Acta Proconsularia of Cyprian, Latin (Gebhardt 1902, no. XI)"
+    author: cyprian
+    locus: "file line 6474 ('Acta S. Cypriani episcopi et martyris'); collection no. XI"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Cyprian's trial and martyrdom record in Latin, a further Latin text of the work already assigned
+      from Hartel's CSEL 3 Pars III (source_file cyprian_opera-spuria-vita-pontius-lat_hartel-
+      csel3-pars3.txt). No English translation of the record is vendored. Gebhardt's collection
+      (Berlin, 1902): the Latin acts are readable OCR with occasional C/O letter misreads (for example
+      'Oypriano' for 'Cypriano'), the German apparatus is real text, and the Greek acts are not
+      recoverable from this scan. Readable running text, so each quote is verified verbatim against
+      the file and against the page image where a letter is doubtful (INTAKE section 6) before it is
+      used. Mirrors that entry's role and confidence.
+
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-of-marianus-and-jacobus-latin-gebhardt-1902-no-xiii
+    work: "Passio of Marianus and Jacobus, Latin (Gebhardt 1902, no. XIII)"
+    author: passion-of-marianus-and-jacobus
+    locus: "file line 6920 ('Passio SS. Mariani et Iacobi'); collection no. XIII"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      An anonymous African martyrdom account. Its Latin sets the journey in Numidia and names Cyprian,
+      who appears to the martyrs in a vision. No English translation is vendored. Gebhardt's
+      collection (Berlin, 1902): the Latin acts are readable OCR with occasional C/O letter misreads
+      (for example 'Oypriano' for 'Cypriano'), the German apparatus is real text, and the Greek acts
+      are not recoverable from this scan. Readable running text, so each quote is verified verbatim
+      against the file and against the page image where a letter is doubtful (INTAKE section 6) before
+      it is used. Provisional because the account is anonymous and its date is not stated in the
+      file's own text.
+
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-of-montanus-and-lucius-latin-gebhardt-1902-no-xiv
+    work: "Passio of Montanus and Lucius, Latin (Gebhardt 1902, no. XIV)"
+    author: passion-of-montanus-and-lucius
+    locus: "file line 7492 ('Passio SS. Montani et Lucii.'); collection no. XIV"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      An anonymous African martyrdom account. Its Latin names Cyprian as the teacher from whom the
+      martyrs learned the faith and looks back on the Decian persecution. No English translation is
+      vendored. Gebhardt's collection (Berlin, 1902): the Latin acts are readable OCR with occasional
+      C/O letter misreads (for example 'Oypriano' for 'Cypriano'), the German apparatus is real text,
+      and the Greek acts are not recoverable from this scan. Readable running text, so each quote is
+      verified verbatim against the file and against the page image where a letter is doubtful (INTAKE
+      section 6) before it is used. Provisional because the account is anonymous and its date is not
+      stated in the file's own text.

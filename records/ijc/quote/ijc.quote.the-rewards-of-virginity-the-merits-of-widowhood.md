@@ -41,7 +41,7 @@ relations:
 - type: associated-with
   target: ijc.dw.marriage-ranked
 ---
-Opened 2026-08-27 for F5-T, served by ijc.dw.marriage-ranked alone.
+Opened for F5-T, served by ijc.dw.marriage-ranked alone.
 
 The record cites ch. I.1-2; the ranking itself stands at ch. IV.40-41 and that is what is cited
 here, so the locus is corrected rather than copied. The opening ellipsis marks the excerpt starting

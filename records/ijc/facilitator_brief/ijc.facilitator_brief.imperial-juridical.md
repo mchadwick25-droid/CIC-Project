@@ -306,95 +306,51 @@ redirect_notes:
   - ijc.quote.secular-ruler-ecclesiastical-cause
   - ijc.quote.compelled-to-come-in
 ---
-Authored 2026-09-20, the fifth facilitator_brief record built in this
-fleet's parallel-build batch (syr's pilot merged first; alx, cappadocian,
-desert, hal, pahc built in parallel sessions). Unlike every other world in
-this batch, ijc has no prior hand-authored World Facilitation Brief
-(`worlds/ijc/` holds no `*_Facilitation_Brief*` document at all) to
-migrate from. Every unit below is therefore authored directly and
-originally from real records under `records/ijc/` that this session
-opened and read in full: all 6 `gravity`, all 10 `force`, all 7
-`honest_limit`, all 7 `contested_claim`, all 12 `figure`, all 12 `term`,
-the 1 `world_core`, the 1 `voice_craft`, all 10 `demonstration`, all 12
-`doctrinal_witness`, all 39 `quote`, and the 1 `world_front` records - the
-directories the task named, plus `quote/` and `world_front/`, both read
-in full for the same reason `records/ijc/world_front/
-ijc.front.imperial-juridical.md`'s own body notes give for reading the
-full corpus before compiling: a compiled record can only be honestly
-built from what was actually opened, not assumed from a record's title.
+Unlike every other world's own facilitator_brief, ijc has no prior
+hand-authored World Facilitation Brief (`worlds/ijc/` holds no
+`*_Facilitation_Brief*` document at all) to migrate from. Every unit
+below is authored directly and originally from real records under
+`records/ijc/`: all 6 `gravity`, all 10 `force`, all 7 `honest_limit`,
+all 7 `contested_claim`, all 12 `figure`, all 12 `term`, the 1
+`world_core`, the 1 `voice_craft`, all 10 `demonstration`, all 12
+`doctrinal_witness`, all 39 `quote`, and the 1 `world_front` records.
 `records/ijc/force/` is not named by the schema in any facilitator_brief
-field, but reading it directly informed which gravities' own descriptions
-could be trusted as load-bearing versus merely mentioned in passing
-(several force records' own `description` fields sharpened or corrected
-what a gravity record alone implied - e.g. `ijc.force.leo-rejects-
-canon-28`'s own note that it, not `ijc.force.chalcedon-failed-consensus`,
-is Doc_04's "primacy-claiming collision," which shaped how
-`formation_strengths[1]` and `redirect_notes` are worded).
+field, but its own `description` fields sharpen or correct what a
+gravity record alone implies - e.g. `ijc.force.leo-rejects-canon-28`,
+not `ijc.force.chalcedon-failed-consensus`, is Doc_04's
+"primacy-claiming collision," which shapes how `formation_strengths[1]`
+and `redirect_notes` are worded.
 
-TWO DECISIONS FOLLOWED EXACTLY, NOT RE-DERIVED (per this task's own
-framing). (1) `redirect_notes` holds ordinary content-limit handoff
+`redirect_notes` holds ordinary content-limit handoff
 guidance for this world's own formation, never crisis/acute-distress
 redirect content (that stays fleet-wide and template-anchored, governed
 outside any world's own voice, per Facilitator-Governance V3.6 and this
-repo's own CLAUDE.md). The topic chosen - the Priscillian
+repo's own CLAUDE.md). The topic is the Priscillian
 execution/Donatist conflict, glimpsed only through two quoted objections
 and never given fuller treatment anywhere in this world's own 12
-`figure`, 6 `gravity`, or 7 `contested_claim` records - was chosen because
-it is a genuinely different, previously-unused topic from every field
-above it: the Homoian-content thinness is already `formation_limitations`
-material, and the office-holder/daily-life thinness is likewise already
-used there, so putting either one in `redirect_notes` as well would
-restate the same finding twice rather than add real coverage, the same
-duplication discipline the syr pilot's own body notes name. (2) B6
-("Representative Introduction Language") has no field in this schema and
-is left out entirely, per instruction - not folded into any other field.
+`figure`, 6 `gravity`, or 7 `contested_claim` records - a genuinely
+different topic from every field above it: the Homoian-content thinness
+and the office-holder/daily-life thinness are each already
+`formation_limitations` material. "Representative Introduction Language"
+has no field in this schema and is left out entirely, not folded into
+any other field.
 
-GROUNDING DISCIPLINE, STATED ONCE. No unit below rests on general
+No unit below rests on general
 knowledge of late-Roman church-and-state history; every claim traces to a
-real `records/ijc/` id this session opened and read in full, checked
+real `records/ijc/` id, checked
 against that record's own text before use, not merely topically adjacent
-to it. Where a field's honest answer was thin, it was left thin rather
-than padded: `pairing_guidance` states plainly, as syr's own pilot did,
-that no tested pairing is on this world's own record, and only two
+to it. Where a field's honest answer is thin, it is left thin rather
+than padded: `pairing_guidance` states plainly that no tested pairing is
+on this world's own record, and only two
 gravities anchor a structural-contrast reading rather than a naming of
 specific partner worlds.
 
-NO CONTRADICTION FOUND, reported as a clean check rather than a silent
-skip, per this task's own instruction to disclose either outcome. This
-world's build has no equivalent of the syr pilot's own Persian-anchor
-discovery - no field here required dropping content because a real record
-actively contradicted an assumption this session started with. The one
-genuinely load-bearing disclosure this build surfaced on its own account
-is `ijc.core.imperial-juridical`'s own "Living Tradition Status: PENDING
-Mark's confirmation" note - not a contradiction between two records, but
-a real, already-disclosed-in-source pending status this brief could
-either ignore or state honestly. It is stated honestly, in
-`living_tradition_handling` and `cautions[4]`, rather than treated as
-settled either way. Since this is a disclosure already present in the
-source record itself (not a newly-discovered discrepancy between two
-records), it is not logged as a new `worlds/ijc/Open_Gaps_Tracking.md`
-entry - the pending status is already tracked at its source
-(`ijc.core.imperial-juridical`'s own body), and duplicating it there would
-be exactly the kind of "left to live only in a conversation" risk that
-file's own discipline (CLAUDE.md, "Track gaps and exceptions explicitly")
-exists to prevent, which is precisely why it is NOT a new gap: it is an
-existing, disclosed one, correctly not re-logged.
-
-RESOLVED 2026-09-20. Surfaced while closing the fleet-wide F-06
-census-living-flag sync gap for hal/alx/pahc - this world was the one
-genuine holdout, since its own pending status (above) was real, not
-drift. Put to Mark directly using the same four-option framing pahc's
-own confirmation used. Ruling: "Multiple traditions, partial claims"
-(Roman Catholic + Eastern Orthodoxy, matching the two lineage claims this
-record already documented). `ijc_World_Profile.md` SS9 updated
-PENDING->CONFIRMED with the full ruling and date; `ijc.core.imperial-
-juridical`'s own body note updated to match; `worlds/ijc/Open_Gaps_
-Tracking.md` and `worlds/ijc/build/BUILD-LOG.md` both updated. This
-record's own `living_tradition_handling` and `cautions` above are updated
-to state the confirmed finding rather than the pending disclosure - no
-new grounding was needed, since the underlying lineage-claim content
-(`ijc.contested.primacy-reception`, `ijc.contested.canon-28-meaning`) was
-already accurate and unchanged by the confirmation itself.
+This world's living-tradition status is confirmed: "Multiple traditions,
+partial claims" (Roman Catholic and Eastern Orthodoxy, matching the two
+lineage claims `ijc.contested.primacy-reception` and
+`ijc.contested.canon-28-meaning` document). `ijc.core.imperial-
+juridical`'s own body states this. `living_tradition_handling` and
+`cautions[4]` state the confirmed finding.
 
 GROUNDING NOTES BY FIELD, briefly.
 
@@ -417,14 +373,12 @@ authority-contest strength grounded in `ijc.gravity.primacy-claiming`,
 `ijc.force.authority-contest` (the force record naming this the
 "recurring contest [that] never permanently closes"); the
 resistance-to-power strength grounded in `ijc.gravity.episcopal-
-independence`'s own review-corrected both-sides description and
+independence`'s own both-sides description and
 `ijc.demo.hypocrisy`, which already carries the Callinicum/Thessalonica
 pairing in spoken form; the precision-seeking strength grounded in
 `ijc.gravity.precision-seeking`, `ijc.term.homoousios` (the Eusebius
 hedged-subscription evidential note), `ijc.term.homoios`, and
-`ijc.dw.jesus`; the coercion strength - new content this pass surfaced
-by reading the full `quote/` directory rather than relying on
-already-cited-elsewhere quotes - grounded directly in
+`ijc.dw.jesus`; the coercion strength grounded directly in
 `ijc.quote.compelled-to-come-in` and `ijc.quote.secular-ruler-
 ecclesiastical-cause`, two quote records whose own trailing bodies
 already frame them as "the period arguing with itself" and explicitly
@@ -452,8 +406,7 @@ own `identity` field (the composite, whole-ecology "we," not a located
 individual) and four of the highest-`distortion_risk` term records;
 pastor/teacher fit grounded in the same two gravities used in
 `formation_strengths` plus `ijc.dw.collections-discipline` (the
-proportional-giving material, review-added and independently confirmed
-across two further correction passes in that record's own body);
+proportional-giving material);
 academic/scholar fit grounded in all four `contested_claim` records this
 build's own Doc_02/Doc_06 discipline treats as the named, checkable gaps
 (`ijc.contested.primacy-reception`, `ijc.contested.canon-28-meaning`,

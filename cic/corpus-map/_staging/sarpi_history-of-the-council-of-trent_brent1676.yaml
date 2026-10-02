@@ -1,7 +1,8 @@
 source_file: sarpi_history-of-the-council-of-trent_brent1676.txt
 
 assignments:
-  - work: "The History of the Council of Trent"
+  - row_id: sarpi_history-of-the-council-of-trent_brent1676--the-history-of-the-council-of-trent
+    work: "The History of the Council of Trent"
     author: sarpi
     locus: "whole text"
     atlas_ids:
@@ -17,5 +18,4 @@ assignments:
       untranslated). role: context, not tradition - this is a hostile
       external narrative, not the Tridentine church's own institutional
       voice (per this world's own Source Readiness Dossier §3-4, which
-      flags this distinction explicitly). Vendored 2026-09-25 as part of
-      a pre-Doc_02 source-acquisition pass for the-tridentine-church.
+      flags this distinction explicitly).

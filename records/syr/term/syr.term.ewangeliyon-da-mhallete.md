@@ -61,11 +61,10 @@ quick_meaning: The one woven Gospel story we read in worship. The four accounts 
   a single telling, and people simply called it 'the Gospel'.
 distortion_risk: medium
 ---
-Re-derived from syrlex006 (Tier 2, CT-tagged). The CT contest (the
-vernacular name's earliest secure attestation is unresolved -
-Theodoret's Greek account vs the Syriac Eusebius gloss, per Crawford)
-is carried in the evidential sense and in
-syr.contested.diatessaron-name. Peshitta stays excluded as a term
-(name first attested with Moses bar Kepha, d. 903 - Doc_03 SS3.2);
+A Tier 2, CT-tagged entry. The CT contest (the vernacular name's
+earliest secure attestation is unresolved - Theodoret's Greek account
+vs the Syriac Eusebius gloss, per Crawford) is carried in the
+evidential sense and in syr.contested.diatessaron-name. Peshitta stays
+excluded as a term (name first attested with Moses bar Kepha, d. 903);
 the Diatessaron-to-Peshitta transition itself is handled in
 syr.contested.rabbula-peshitta and the ending forces.
