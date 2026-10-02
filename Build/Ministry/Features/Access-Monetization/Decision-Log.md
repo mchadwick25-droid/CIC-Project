@@ -56,3 +56,14 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 - The funding-strategy thread owns the original decision and the gift-funded door. It needs to be told this change order exists. Nothing in that log is edited here.
 - Whether the shared throttle still applies on top of per-visitor allowances is not decided.
 - The shared church or class network problem in the per-IP seeding is not solved by this decision (see entry 4).
+
+## 7. Purchases by adults only, a parent may buy for a youth (2026-10-02)
+
+**Decision (Mark):** the buyer must be an adult. A parent may purchase access for a youth to use.
+
+**Basis:** Opus round 1 review, substantial finding that minors were not addressed.
+
+**Open, and not settled by this decision:**
+- A parent buying for a youth means a minor may use paid conversations. Whether the free experience and the Representatives are appropriate for minors, and what the safety design is for them, is not decided.
+- Under-13 use raises COPPA duties. Counsel must review the checkout terms, the age wording and the child-privacy position before launch.
+- How a purchase is handed to a youth (for example a gift code) is a design question for later.
