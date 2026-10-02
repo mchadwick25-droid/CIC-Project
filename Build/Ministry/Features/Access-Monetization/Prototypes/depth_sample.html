@@ -1,0 +1,129 @@
+<title>Depth Test Sample</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column; a cost summary first, then the real transcript with a cost line under each reply. */
+:root {
+  --bg:#f7f8fa; --surface:#ffffff; --ink:#16202e; --muted:#5a6677; --line:#d9dee6;
+  --accent:#1f5f6b; --accent-soft:#e2f0f2; --q:#eef1f5; --warn:#9a5b00; --warn-soft:#fbf0dc;
+  --font-display:"Newsreader",Georgia,serif; --font-body:"IBM Plex Sans",system-ui,sans-serif; --font-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg:#0f1621; --surface:#17202d; --ink:#e8edf4; --muted:#9aa7b8; --line:#2a3546; --accent:#6fc0cc; --accent-soft:#17323a; --q:#1d2838; --warn:#e3a94c; --warn-soft:#33290f; color-scheme:dark; } }
+:root[data-theme="dark"] {
+  --bg:#0f1621; --surface:#17202d; --ink:#e8edf4; --muted:#9aa7b8; --line:#2a3546; --accent:#6fc0cc; --accent-soft:#17323a; --q:#1d2838; --warn:#e3a94c; --warn-soft:#33290f; color-scheme:dark; }
+body { background:var(--bg); color:var(--ink); font-family:var(--font-body); font-size:16px; line-height:1.55; }
+.wrap { max-width:780px; margin:0 auto; padding-inline:16px; padding-block:28px 56px; }
+h1,h2 { font-family:var(--font-display); font-weight:600; line-height:1.2; text-wrap:balance; margin:0; }
+h1 { font-size:1.9rem; } h2 { font-size:1.3rem; margin-bottom:10px; }
+.eyebrow { font-family:var(--font-mono); font-size:.75rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+.lede { color:var(--muted); max-width:66ch; margin:10px 0 0; }
+.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-top:20px; }
+.stat { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:10px 12px; min-width:0; }
+.stat b { display:block; font-family:var(--font-mono); font-size:1.15rem; font-variant-numeric:tabular-nums; }
+.stat span { color:var(--muted); font-size:.8rem; }
+.table-scroll { overflow-x:auto; border:1px solid var(--line); border-radius:8px; background:var(--surface); margin-top:14px; }
+table { border-collapse:collapse; width:100%; min-width:520px; font-size:.88rem; font-variant-numeric:tabular-nums; }
+th,td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--line); }
+th { font-family:var(--font-mono); font-size:.7rem; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); font-weight:500; background:var(--bg); }
+tr:last-child td { border-bottom:0; }
+section { margin-top:36px; }
+.turn { display:grid; gap:10px; margin-bottom:26px; }
+.q,.a { border-radius:10px; padding:12px 16px; min-width:0; }
+.q { background:var(--q); } .a { background:var(--surface); border:1px solid var(--line); }
+.q p,.a p { margin:0 0 10px; max-width:66ch; } .a p:last-of-type { margin-bottom:12px; }
+.who { display:block; font-family:var(--font-mono); font-size:.7rem; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+.meta { display:flex; flex-wrap:wrap; gap:6px; border-top:1px solid var(--line); padding-top:10px; }
+.chip { font-family:var(--font-mono); font-size:.72rem; padding:2px 8px; border-radius:99px; border:1px solid var(--line); color:var(--muted); }
+.chip.cost { color:var(--accent); border-color:var(--accent); background:var(--accent-soft); }
+.flag,.note { background:var(--warn-soft); border-radius:8px; padding:10px 14px; font-size:.9rem; }
+.note p,.flag { margin:0; } .note { margin-top:14px; }
+ul { margin:8px 0 0; padding-left:20px; display:grid; gap:6px; }
+button { font:inherit; font-size:.8rem; color:var(--muted); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:4px 10px; cursor:pointer; position:absolute; top:12px; right:16px; }
+button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+<div class="wrap" style="position:relative">
+  <button id="t" type="button">Theme</button>
+  <div class="eyebrow">Paid-run sample · 3 turns · Alexandria world</div>
+  <h1>Depth Test Sample</h1>
+  <p class="lede">A real conversation run through the engine on Bedrock, with the cost of each turn under each reply. This is the small sample your paid-run rule asks for before the 15-turn run. Nothing was written to the repo.</p>
+  <div class="stats">
+    <div class="stat"><b>$0.128</b><span>total for 3 turns</span></div>
+    <div class="stat"><b>$0.079</b><span>turn 1, includes one-time prompt write</span></div>
+    <div class="stat"><b>$0.022 and $0.028</b><span>turns 2 and 3</span></div>
+    <div class="stat"><b>15,040</b><span>cached prompt tokens (was 12,456 on 2026-08)</span></div>
+  </div>
+
+  <section>
+    <h2>Settings, for you to confirm</h2>
+    <div class="table-scroll"><table><tbody>
+      <tr><td>Voice model</td><td>Sonnet 4.5 via Bedrock, us-east-1</td></tr>
+      <tr><td>Safety and reader model</td><td>Haiku 4.5 via Bedrock</td></tr>
+      <tr><td>World</td><td>alx (Alexandria)</td></tr>
+      <tr><td>Turns and messages</td><td>3 turns, 485 characters of participant messages, longer than the earlier run</td></tr>
+      <tr><td>Pause</td><td>None in this sample</td></tr>
+      <tr><td>Session turn cap</td><td>Raised from 10 for this scratch run only, so the real engine is unchanged</td></tr>
+      <tr><td>Pricing</td><td>The repo's own cost function and price table (Anthropic rate card), not an AWS invoice</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section>
+    <h2>The conversation</h2>
+    
+<article class="turn">
+  <div class="q"><span class="who">Participant</span><p>I grew up in a church where nobody asked hard questions. Who was Jesus to your people, and how did they come to say it the way they did?</p></div>
+  <div class="a"><span class="who">Representative, Alexandria</span><p>I grew up in a church where people said the right words without wrestling over what they meant. I want to know: Who was Jesus to your people, and how did they come to say it the way they did — was it handed down settled, or fought over, or both?</p>
+<p>To us Jesus was the Logos - God&#x27;s own Word, through whom all things were made, come to us in flesh. That was the heart, and we said it from the beginning. But how we said it - the precise words, the fought-over boundary between what could be said and what could not - that was the work of our whole era, and the wound.</p>
+<p>From the start we worshiped him and baptized into his name alongside the Father and the Spirit. Clement, one of our first teachers, called him the New Song without embarrassment: the one who first set the world in order, come back inside it to heal it. Origen said &quot;God the Word&quot; as though the phrase needed no defense. The Logos was the single center that made Scripture, learning, worship, and the soul&#x27;s transformation one movement toward one God, not four separate activities. We read Scripture as the Logos speaking now, not a record of what he once said. We learned under teachers because the teacher-student bond was itself the way truth passed, and the passing changed you. One student, Gregory, said it happened to him almost from the side: &quot;like a spark falling on our innermost soul, love was kindled&quot; - he meant love for the Word, and for the teacher who was the Word&#x27;s friend.</p>
+<p>But here is where the settled confession became the fought-over one. When Arius taught that the Son was the first and highest creature - made, not begotten; close to God but not God - the council at Nicaea answered him with a word not found in Scripture: homoousios, of one substance with the Father. Athanasius, who defended that word for the rest of his long life, said plainly why they reached past Scripture&#x27;s own phrases: every scriptural word had been swallowed by the other side with a private meaning of its own. The council did not vote a new God in. It named the God we had worshiped all along, in words sharp enough that no one could reduce him to the highest thing made.</p>
+<p>And Athanasius gave the reason in one sentence: &quot;He was made man that we might be made God&quot;. Not that we become gods - but that his own life is opened to us and shared. Only God can join us to God. If the Son were a creature, even the highest, the whole promise collapses. That is why the fight mattered.</p>
+<p>So here is your answer. Who he was to us: the Logos, God&#x27;s own self-expression, the one through whom all was made, who entered what he made to remake it from within. How we came to say it: we said it from the beginning, in worship and in the water. The precise wording - homoousios, the boundary past which you have left the faith - that came through argument, exile, and council, late in our own years, because someone had made it necessary to name what could not be reduced. It was handed down settled in its heart. The words that held the heart against clever reduction - those were fought over, and cost men their sees.</p>
+    <div class="meta"><span class="chip">Turn 1</span><span class="chip cost">$0.0786</span><span class="chip">576 words</span><span class="chip">1,105 uncached history + message tokens</span><span class="chip">905 tokens out</span><span class="chip">25.1s</span></div>
+  </div>
+  <div class="flag"><strong>Check this.</strong> The reply opens by restating the participant's question in the first person ("I grew up in a church where people said the right words&hellip; I want to know:"), as if the Representative were asking it. It then repeats the question before answering. That is a voice fidelity issue, unrelated to cost, and it needs a separate look.</div>
+</article>
+<article class="turn">
+  <div class="q"><span class="who">Participant</span><p>When your community gathers for the Eucharist, what do you believe is actually happening? I would like to hear it the way you would explain it to someone who has never been there.</p></div>
+  <div class="a"><span class="who">Representative, Alexandria</span><p>When we gather for the eucharistia - the thanksgiving - we believe the bread and cup set before us are Christ&#x27;s own body and blood, and that in receiving them we are joined to him and to one another in one body. That is the center, held everywhere, never contested among us.</p>
+<p>But how we spoke of what happens - the mechanism, if you want a modern word for it - that we left more open than you might expect. We did not have the later arguments about substances changing or remaining. What we had was the conviction that something real occurs, not a drama staged to remind us of an absent event.</p>
+<p>Origen, our greatest teacher, said the bread and cup are for those being changed - it is food for a soul in motion toward God, not a ceremony watched from a fixed place. Clement called the Word himself our Instructor, curing the soul&#x27;s disordered wants by urging us on toward what is real. The meal was part of that instruction - God&#x27;s own pedagogy, not ours. You ate with the body. The soul was being fed and reordered at the same time.</p>
+<p>And here is what mattered most to us: the same table was set for everyone who had walked the road to it. Not only the ones who could read or argue in the school - everyone baptized, literate or not, ate the same bread. The school could give depth to the few. The meal gave Christ to the many. Both were real, and we surrendered neither.</p>
+<p>What we cannot tell you is a mechanical account - this substance becomes that substance at this moment by this means. We did not think that way, and we did not ask it. What we held was the reality of the encounter: Christ present, the body joined, the soul being formed through what the mouth receives. If you had come among us and asked, &quot;But what exactly happens to the bread?&quot; we would have answered, &quot;You are eating with God, and being changed by it. Ask about that.&quot;</p>
+    <div class="meta"><span class="chip">Turn 2</span><span class="chip cost">$0.0222</span><span class="chip">349 words</span><span class="chip">1,788 uncached history + message tokens</span><span class="chip">476 tokens out</span><span class="chip">17.1s</span></div>
+  </div>
+  
+</article>
+<article class="turn">
+  <div class="q"><span class="who">Participant</span><p>You spoke about Jesus earlier. How does that connect to what you just said about the Eucharist, and where would someone like me begin if I wanted to understand it better?</p></div>
+  <div class="a"><span class="who">Representative, Alexandria</span><p>The connection is direct: the Logos who made all things entered flesh, and the bread and cup are where that entering continues to reach you. It is the same movement - God coming inside creation to heal it - happening both in the Incarnation once, and in the meal now, to the one who eats.</p>
+<p>When we said Jesus is the Logos made flesh, we meant God&#x27;s own self-expression took on a body, not to visit and leave, but to join what he made to himself permanently. That union - divine and human in one person - is what makes the meal possible. The bread and cup do not commemorate an absence. They make present the same Logos who took on flesh, still in it, still reaching through material things to touch you. The Word who once entered a womb now enters a mouth, and both are God&#x27;s way of getting inside creation to remake it from within.</p>
+<p>And that remaking has a name: theosis, becoming like God - not becoming a god, but sharing in God&#x27;s own life as far as a creature can. That is what the meal is for. You eat with the body, and the soul is being joined to the one you eat. It is formation, not observation. The table does what the school did for the few, but reaches everyone - because formation was never only for those who could read or argue. The whole community eats the same bread, and the same change is offered to all.</p>
+<p>Where would you begin? Not with a doctrine to master first. You would begin the way nearly everyone did: by staying near, by listening. The catechumenate - the long road to baptism - was itself the school. You would hear Scripture read aloud, week after week, and a teacher would show you how to listen for the Logos speaking through it, not just facts about him. You would watch how the baptized lived - one of our own bishops wrote that when the great plague came, most of our people did not run; they nursed the sick without fear, and many caught the sickness and died of it, joyfully. That witness was itself teaching. You would ask questions - we built our whole method on them. And somewhere in that staying-near, if Gregory&#x27;s account is true for more than him alone, love would be kindled: &quot;like a spark falling on our innermost soul&quot;. Not forced, but befriended into being.</p>
+<p>Then, when you were ready - after months, sometimes years - you would come to the water. Baptism was the crossing. And after the crossing, the bread and cup. Not as a reward for belief already completed, but as the food for a life now begun. The meal keeps doing what the Incarnation did: God entering the material to heal it, and you, from within.</p>
+<p>So the connection is this: the Logos took flesh so that flesh could be joined to God. The Eucharist is where that joining continues, in your own body, at the table. And the path to understanding it is the path itself - not reading about it first, but walking toward it with a community that will carry you there.</p>
+    <div class="meta"><span class="chip">Turn 3</span><span class="chip cost">$0.0277</span><span class="chip">537 words</span><span class="chip">2,187 uncached history + message tokens</span><span class="chip">749 tokens out</span><span class="chip">23.5s</span></div>
+  </div>
+  
+</article>
+  </section>
+
+  <section>
+    <h2>What the sample says about cost</h2>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Turn</th><th>Earlier run, short messages</th><th>This sample, longer messages</th></tr></thead>
+      <tbody>
+        <tr><td>2</td><td>$0.0174</td><td>$0.0222</td></tr>
+        <tr><td>3</td><td>$0.0175</td><td>$0.0277</td></tr>
+        <tr><td>Uncached tokens, turn 3</td><td>1,236</td><td>2,187</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li>Longer messages and longer replies push the same turns about 28% to 58% higher than the earlier short-message run. That supports the earlier caveat that the first measurement was a best case.</li>
+      <li>The replies run 349, 537 and 576 words. The history replayed on later turns grows with them.</li>
+      <li>Three turns say little about the slope. The 15-turn run is where the curve shows.</li>
+    </ul>
+    <div class="note"><p><strong>Not checked here.</strong> I did not verify the Representative's quotes against the source files. Every quote must be re-verified verbatim before any record passes review, so treat the quotations in this transcript as unverified. I also did not score the replies against the readability target.</p></div>
+  </section>
+</div>
+<script>
+document.getElementById("t").addEventListener("click",function(){var r=document.documentElement,d=r.getAttribute("data-theme")==="dark"||(!r.getAttribute("data-theme")&&matchMedia("(prefers-color-scheme: dark)").matches);r.setAttribute("data-theme",d?"light":"dark");});
+</script>

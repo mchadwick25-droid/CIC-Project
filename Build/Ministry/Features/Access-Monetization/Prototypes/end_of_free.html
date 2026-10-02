@@ -1,0 +1,190 @@
+<title>End of Free Prototype</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a phone-width stage with a state switcher above it, and the copy and open questions in plain columns beneath. */
+:root { --bg:#f7f8fa; --surface:#ffffff; --ink:#16202e; --muted:#5a6677; --line:#d9dee6; --accent:#1f5f6b; --accent-soft:#e2f0f2; --rep:#f3eee4; --warn:#9a5b00; --warn-soft:#fbf0dc; --scrim:rgba(15,22,33,.45);
+  --font-display:"Newsreader",Georgia,serif; --font-body:"IBM Plex Sans",system-ui,sans-serif; --font-mono:"IBM Plex Mono",ui-monospace,monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#0f1621; --surface:#17202d; --ink:#e8edf4; --muted:#9aa7b8; --line:#2a3546; --accent:#6fc0cc; --accent-soft:#17323a; --rep:#2a2619; --warn:#e3a94c; --warn-soft:#33290f; --scrim:rgba(0,0,0,.6); color-scheme:dark; } }
+:root[data-theme="dark"] { --bg:#0f1621; --surface:#17202d; --ink:#e8edf4; --muted:#9aa7b8; --line:#2a3546; --accent:#6fc0cc; --accent-soft:#17323a; --rep:#2a2619; --warn:#e3a94c; --warn-soft:#33290f; --scrim:rgba(0,0,0,.6); color-scheme:dark; }
+body { background:var(--bg); color:var(--ink); font-family:var(--font-body); font-size:16px; line-height:1.55; }
+.wrap { max-width:880px; margin:0 auto; padding-inline:16px; padding-block:28px 56px; position:relative; }
+h1,h2,h3 { font-family:var(--font-display); font-weight:600; line-height:1.2; text-wrap:balance; margin:0; }
+h1 { font-size:1.9rem; } h2 { font-size:1.3rem; margin-bottom:10px; } h3 { font-size:1.05rem; }
+.eyebrow { font-family:var(--font-mono); font-size:.75rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+.lede { color:var(--muted); max-width:68ch; margin:10px 0 0; }
+section { margin-top:34px; }
+.tabs { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
+.tab { font:inherit; font-size:.85rem; color:var(--muted); background:var(--surface); border:1px solid var(--line); border-radius:99px; padding:6px 14px; cursor:pointer; }
+.tab[aria-selected="true"] { color:var(--accent); border-color:var(--accent); background:var(--accent-soft); font-weight:600; }
+.stage-row { display:grid; grid-template-columns:minmax(0,420px) minmax(0,1fr); gap:24px; margin-top:16px; align-items:start; }
+@media (max-width:760px) { .stage-row { grid-template-columns:minmax(0,1fr); } }
+.phone { position:relative; background:var(--surface); border:1px solid var(--line); border-radius:18px; overflow:hidden; min-height:640px; display:flex; flex-direction:column; }
+.bar { padding:10px 16px; border-bottom:1px solid var(--line); font-family:var(--font-mono); font-size:.72rem; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; display:flex; justify-content:space-between; gap:8px; }
+.thread { padding:16px; display:grid; gap:12px; flex:1; align-content:start; }
+.msg { border-radius:12px; padding:10px 14px; font-size:.92rem; max-width:92%; }
+.msg.you { background:var(--accent-soft); justify-self:end; }
+.msg.rep { background:var(--rep); }
+.msg.fac { background:var(--surface); border:1px solid var(--accent); }
+.who { display:block; font-family:var(--font-mono); font-size:.66rem; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; }
+.msg.fac .who { color:var(--accent); }
+.msg p { margin:0 0 8px; } .msg p:last-child { margin:0; }
+.inputbar { padding:10px 16px; border-top:1px solid var(--line); display:flex; gap:8px; }
+.fake { flex:1; border:1px solid var(--line); border-radius:99px; padding:8px 14px; color:var(--muted); font-size:.88rem; background:var(--bg); }
+.btn { font:inherit; font-size:.9rem; border-radius:8px; padding:9px 14px; cursor:pointer; border:1px solid var(--line); background:var(--surface); color:var(--ink); }
+.btn.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn.primary { color:#0f1621; } }
+:root[data-theme="dark"] .btn.primary { color:#0f1621; }
+.btn[disabled] { opacity:.5; cursor:not-allowed; }
+.btn:focus-visible,.tab:focus-visible,.pack:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.scrim { position:absolute; inset:0; background:var(--scrim); display:flex; align-items:flex-end; }
+.sheet { background:var(--surface); width:100%; border-radius:16px 16px 0 0; padding:18px 16px 16px; display:grid; gap:12px; max-height:100%; overflow:auto; }
+.sheet h3 { font-size:1.15rem; }
+.sheet p { margin:0; font-size:.9rem; }
+.packs { display:grid; gap:8px; }
+.pack { display:flex; justify-content:space-between; align-items:center; gap:10px; text-align:left; font:inherit; background:var(--bg); border:1px solid var(--line); border-radius:10px; padding:10px 12px; cursor:pointer; color:var(--ink); }
+.pack[aria-checked="true"] { border-color:var(--accent); background:var(--accent-soft); }
+.pack b { font-family:var(--font-mono); font-variant-numeric:tabular-nums; }
+.pack small { display:block; color:var(--muted); font-size:.78rem; }
+.tag { font-family:var(--font-mono); font-size:.66rem; color:var(--accent); border:1px solid var(--accent); border-radius:99px; padding:1px 8px; margin-left:6px; white-space:nowrap; }
+.row { display:flex; gap:8px; flex-wrap:wrap; }
+.fine { color:var(--muted); font-size:.78rem; }
+.side h3 { margin-bottom:6px; } .side p { margin:0 0 10px; font-size:.92rem; }
+.side ul { margin:0 0 10px; padding-left:20px; display:grid; gap:6px; font-size:.9rem; }
+.table-scroll { overflow-x:auto; border:1px solid var(--line); border-radius:8px; background:var(--surface); }
+table { border-collapse:collapse; width:100%; min-width:520px; font-size:.86rem; }
+th,td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-family:var(--font-mono); font-size:.68rem; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); font-weight:500; background:var(--bg); }
+tr:last-child td { border-bottom:0; }
+.note { background:var(--warn-soft); border-radius:8px; padding:12px 14px; font-size:.92rem; }
+.note ul { margin:6px 0 0; padding-left:20px; display:grid; gap:6px; }
+#theme { position:absolute; top:12px; right:16px; font:inherit; font-size:.8rem; color:var(--muted); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:4px 10px; cursor:pointer; }
+</style>
+<div class="wrap">
+<button id="theme" type="button">Theme</button>
+<div class="eyebrow">Access and Monetization · prototype for your reaction · draft copy</div>
+<h1>End of Free Prototype</h1>
+<p class="lede">Six screens for the moment a visitor reaches the end of the free allowance, in the Facilitator's voice. Prices come from the candidate ladder and are not final. Nothing here is wired to the engine, and no real payment can happen.</p>
+
+<div class="tabs" role="tablist" aria-label="Screens" id="tabs"></div>
+
+<div class="stage-row">
+  <div class="phone" id="phone" aria-live="polite"></div>
+  <div class="side" id="side"></div>
+</div>
+
+<section>
+<h2>The copy, scored</h2>
+<p class="lede" style="margin-top:0">Each line was scored with the repo's own readability gate (<code>engine.m1.gates.grade_text</code>). The gate fails above grade 10 or below Flesch ease 60, and warns below grade 8.</p>
+<div class="table-scroll"><table>
+<thead><tr><th>Line</th><th>Grade</th><th>Ease</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>Last free conversation notice</td><td>6.5</td><td>67</td><td>Passes. Under the grade-8 warning line.</td></tr>
+<tr><td>Close of a free conversation</td><td>5.0</td><td>72</td><td>Passes. Under the grade-8 warning line.</td></tr>
+<tr><td>Threshold sheet</td><td>5.3</td><td>73</td><td>Passes. Under the grade-8 warning line.</td></tr>
+<tr><td>Guarantees</td><td>5.9</td><td>67</td><td>Passes. Under the grade-8 warning line.</td></tr>
+<tr><td>Not now</td><td>2.3</td><td>94</td><td>Passes. Under the grade-8 warning line.</td></tr>
+<tr><td>Purchased</td><td>4.8</td><td>69</td><td>Passes. Under the grade-8 warning line.</td></tr>
+<tr><td>Close of a paid conversation</td><td>6.1</td><td>61</td><td>Passes. Under the grade-8 warning line.</td></tr>
+</tbody></table></div>
+<p class="fine" style="margin-top:8px">Short functional sentences score low on grade. The floor guards against flattening a world's own voice, which these lines do not carry. They have not been through the approval process the other Facilitator texts need.</p>
+</section>
+
+<section>
+<h2>What I need you to react to</h2>
+<div class="note"><ul>
+<li><strong>Direction.</strong> This is the research's top pair: a closing line at the end of every conversation, and a dismissible sheet only when someone starts another after the free ones are used. Do you want this, or one of the other four directions?</li>
+<li><strong>Three claims on screen need to be true before launch.</strong> "They do not expire," "a reply that fails does not count," and "a conversation you leave unfinished is waiting where you stopped." The ledger supports the first two. The resume window is not built yet.</li>
+<li><strong>No refresh date.</strong> The free allowance is 3 conversations, not a weekly one, so "Not now" gives no return date. Opening the door further through gifts is mentioned only in the notes, not on screen, because I did not want to promise it.</li>
+<li><strong>Safety.</strong> None of these screens may appear after a safety event or stand between a message and the safety gate (decision 1). The sheet appears only when a visitor starts a new conversation, never in the middle of one.</li>
+<li><strong>The old text.</strong> The existing session-cap close in <code>engine/m4/facilitator_turns.py</code> says "ten exchanges" and points to the support page. It would be replaced. I have not edited it.</li>
+</ul></div>
+</section>
+</div>
+
+<script>
+(function () {
+  var el = function (id) { return document.getElementById(id); };
+  var state = "last", selected = null;
+  var screens = {
+    last: { tab: "Last free conversation", side: { h: "Start of the last free conversation", p: "One calm notice, shown once, before the visitor begins. There is no running counter during the conversation.", rules: ["The Facilitator speaks, never a Representative.", "It says why free conversations are short: each reply costs real money.", "Nothing to buy yet."] } },
+    close1: { tab: "Close, free", side: { h: "Close of a free conversation", p: "After the third exchange the conversation ends in the Facilitator's voice. It stays readable. The visitor can start another.", rules: ["No offer on this screen when free conversations remain.", "A closing line ends the conversation on purpose, not at a wall."] } },
+    sheet: { tab: "Threshold sheet", side: { h: "Threshold sheet", p: "Shown when a visitor starts a new conversation and none are free. Dismissible. Three packs, each with its price per conversation.", rules: ["No pack is pre-selected.", "The label on the $30 pack is true: it has the lowest price per conversation.", "No countdown, no discount for leaving, no guilt wording.", "Not now is a real button of equal size."] } },
+    notnow: { tab: "Not now", side: { h: "After Not now", p: "A plain acknowledgement and no second ask. The Church Family Tree stays free.", rules: ["No return date, because the free allowance does not refresh.", "No follow-up pop-up on this visit."] } },
+    bought: { tab: "After purchase", side: { h: "After a purchase", p: "One thank-you and the balance. No upsell on re-entry. In the pilot this runs in Stripe test mode.", rules: ["Shows the balance in conversations, not credits.", "Repeats that they do not expire."] } },
+    paidclose: { tab: "Close, paid", side: { h: "Close of a paid conversation", p: "After the seventh exchange. The Facilitator closes and the balance shows. Another conversation starts only on the visitor's choice.", rules: ["Same voice as the free close.", "The ask appears only when the balance reaches zero."] } }
+  };
+  var order = ["last", "close1", "sheet", "notnow", "bought", "paidclose"];
+  function thread(extra) {
+    return '<div class="thread">' +
+      '<div class="msg you"><span class="who">You</span><p>What would you say to someone who thinks all of this is just a story?</p></div>' +
+      '<div class="msg rep"><span class="who">Representative</span><p>We do not ask anyone to believe it because we say so. We ask them to stay near it and watch what it does to a life.</p></div>' +
+      (extra || "") + '</div>';
+  }
+  function fac(text) { return '<div class="msg fac"><span class="who">Facilitator</span>' + text + '</div>'; }
+  function bar(label, right) { return '<div class="bar"><span>' + label + '</span><span>' + right + '</span></div>'; }
+  var packs = [
+    { id: "p7", n: 5, price: 7, each: "$1.40" },
+    { id: "p15", n: 13, price: 15, each: "$1.15" },
+    { id: "p30", n: 30, price: 30, each: "$1.00", tag: "Lowest price per conversation" }
+  ];
+  function sheetHtml() {
+    var rows = packs.map(function (p) {
+      return '<button class="pack" role="radio" aria-checked="' + (selected === p.id) + '" data-pack="' + p.id + '"><span><b>' + p.n + ' conversations</b>' + (p.tag ? '<span class="tag">' + p.tag + '</span>' : '') +
+        '<small>' + p.each + ' each</small></span><b>$' + p.price + '</b></button>';
+    }).join("");
+    return '<div class="scrim"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh">' +
+      '<h3 id="sh">Your free conversations are used</h3>' +
+      '<p>This is the Facilitator. Each reply here costs real money to produce, which is why the free ones are short. If you want to keep going, you can buy more conversations. Each paid conversation lasts up to seven exchanges.</p>' +
+      '<div class="packs" role="radiogroup" aria-label="Conversation packs">' + rows + '</div>' +
+      '<p class="fine">Conversations you buy do not expire. A reply that fails does not count. A conversation you leave unfinished is waiting where you stopped.</p>' +
+      '<div class="row"><button class="btn primary" id="buy" ' + (selected ? "" : "disabled") + '>Continue to secure checkout</button><button class="btn" id="later">Not now</button></div>' +
+      '<p class="fine">Test mode in this prototype: no real payment. Checkout is hosted by Stripe.</p></div></div>';
+  }
+  function render() {
+    var h = "";
+    if (state === "last") {
+      h = bar("Church in Conversation", "Alexandria") + '<div class="thread">' +
+        fac('<p>This is your last free conversation. Each reply costs real money to produce, so free conversations are short: three exchanges each.</p>') +
+        '</div><div class="inputbar"><div class="fake">Write your first message</div><button class="btn primary" type="button" tabindex="-1">Send</button></div>';
+    } else if (state === "close1") {
+      h = bar("Church in Conversation", "Alexandria") + thread(fac('<p>This is the Facilitator. This conversation has reached its three exchanges. It stays as it was. You can start another, with this voice or a different one.</p>')) +
+        '<div class="inputbar"><button class="btn primary" type="button">Start another conversation</button></div>';
+    } else if (state === "sheet") {
+      h = bar("Church in Conversation", "Alexandria") + thread() + '<div class="inputbar"><div class="fake">Start a new conversation</div></div>' + sheetHtml();
+    } else if (state === "notnow") {
+      h = bar("Church in Conversation", "Church Family Tree") + '<div class="thread">' +
+        fac('<p>That is fine. The Church Family Tree stays free, and you can come back whenever you like.</p>') +
+        '</div><div class="inputbar"><button class="btn" type="button">Open the Church Family Tree</button></div>';
+    } else if (state === "bought") {
+      h = bar("Church in Conversation", "5 conversations") + '<div class="thread">' +
+        fac('<p>Thank you. Your conversations are ready. You have 5 conversations, and they do not expire.</p>') +
+        '</div><div class="inputbar"><button class="btn primary" type="button">Start a conversation</button></div>';
+    } else {
+      h = bar("Church in Conversation", "4 conversations left") + thread(fac('<p>This is the Facilitator. This conversation has reached its seven exchanges. It stays as it was. You can start another whenever you like.</p>')) +
+        '<div class="inputbar"><button class="btn primary" type="button">Start another conversation</button></div>';
+    }
+    el("phone").innerHTML = h;
+    var s = screens[state].side;
+    el("side").innerHTML = '<h3>' + s.h + '</h3><p>' + s.p + '</p><ul>' + s.rules.map(function (r) { return '<li>' + r + '</li>'; }).join("") + '</ul>';
+    document.querySelectorAll(".tab").forEach(function (t) { t.setAttribute("aria-selected", t.dataset.s === state ? "true" : "false"); });
+    document.querySelectorAll(".pack").forEach(function (b) {
+      b.addEventListener("click", function () { selected = b.dataset.pack; render(); var n = document.querySelector('[data-pack="' + selected + '"]'); if (n) n.focus(); });
+    });
+    var buy = el("buy"), later = el("later");
+    if (buy) buy.addEventListener("click", function () { state = "bought"; render(); });
+    if (later) later.addEventListener("click", function () { state = "notnow"; render(); });
+  }
+  var tabs = el("tabs");
+  order.forEach(function (k) {
+    var b = document.createElement("button");
+    b.className = "tab"; b.type = "button"; b.setAttribute("role", "tab"); b.dataset.s = k; b.textContent = screens[k].tab;
+    b.addEventListener("click", function () { state = k; if (k === "sheet") selected = null; render(); });
+    tabs.appendChild(b);
+  });
+  render();
+  el("theme").addEventListener("click", function () {
+    var r = document.documentElement, d = r.getAttribute("data-theme") === "dark" || (!r.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+    r.setAttribute("data-theme", d ? "light" : "dark");
+  });
+})();
+</script>

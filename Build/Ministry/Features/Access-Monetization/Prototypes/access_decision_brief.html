@@ -1,0 +1,250 @@
+<title>Access Decision Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+<style>
+/* Layout: one reading column, a decision card first, evidence tables after it. */
+:root {
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --ink: #16202e;
+  --muted: #5a6677;
+  --line: #d9dee6;
+  --accent: #1f5f6b;
+  --accent-soft: #e2f0f2;
+  --good: #1f7a4d;
+  --warn: #9a5b00;
+  --warn-soft: #fbf0dc;
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1621; --surface: #17202d; --ink: #e8edf4; --muted: #9aa7b8; --line: #2a3546;
+    --accent: #6fc0cc; --accent-soft: #17323a; --good: #5cc796; --warn: #e3a94c; --warn-soft: #33290f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1621; --surface: #17202d; --ink: #e8edf4; --muted: #9aa7b8; --line: #2a3546;
+  --accent: #6fc0cc; --accent-soft: #17323a; --good: #5cc796; --warn: #e3a94c; --warn-soft: #33290f;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 16px; padding-block: 32px 64px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.2; text-wrap: balance; margin: 0; }
+h1 { font-size: 2.1rem; }
+h2 { font-size: 1.5rem; margin-block: 0 12px; }
+h3 { font-size: 1.15rem; }
+p { margin: 0 0 12px; max-width: 68ch; }
+section { margin-top: 44px; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.status { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.pill { font-family: var(--font-mono); font-size: 0.75rem; padding: 3px 10px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); background: var(--surface); }
+.pill.on { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+.lede { color: var(--muted); margin-top: 12px; }
+.decision { margin-top: 28px; background: var(--surface); border: 1px solid var(--accent); border-radius: 10px; padding: 20px; }
+.decision > .eyebrow { color: var(--accent); }
+.options { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 16px; }
+.opt { border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 8px; background: var(--bg); }
+.opt.rec { border-color: var(--accent); background: var(--accent-soft); }
+.opt .tag { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+.opt p { font-size: 0.92rem; margin: 0; }
+.opt .cost { color: var(--muted); font-size: 0.85rem; }
+ul.tight { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+ul.tight li { max-width: 68ch; }
+.table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 0.9rem; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: var(--bg); }
+tr:last-child td { border-bottom: 0; }
+td.n { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.box { border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: var(--surface); min-width: 0; }
+.box h3 { margin-bottom: 8px; }
+.box.fair h3 { color: var(--good); }
+.box.robbed h3 { color: var(--warn); }
+.dirs { display: grid; gap: 10px; }
+.dir { display: grid; grid-template-columns: 56px 1fr; gap: 12px; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; background: var(--surface); }
+.dir .id { font-family: var(--font-mono); font-weight: 500; color: var(--accent); }
+.dir p { margin: 0; font-size: 0.92rem; }
+.dir .rank { font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); }
+.note { background: var(--warn-soft); border-radius: 8px; padding: 12px 14px; font-size: 0.92rem; }
+.note p { margin: 0; }
+.src { color: var(--muted); font-size: 0.82rem; }
+.theme { position: absolute; top: 12px; right: 16px; }
+button { font: inherit; font-size: 0.8rem; color: var(--muted); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 480px) { h1 { font-size: 1.7rem; } .dir { grid-template-columns: 1fr; gap: 4px; } }
+</style>
+
+<div class="wrap" style="position: relative">
+  <button class="theme" id="theme-toggle" type="button">Theme</button>
+  <div class="eyebrow">Church in Conversation · Access and Monetization · pilot</div>
+  <h1>Access Decision Brief</h1>
+  <p class="lede">Research from three tracks and a second round, laid out so you can react. Nothing here is decided. No prices appear because pricing waits on measured cost and the funding thread.</p>
+  <div class="status">
+    <span class="pill on">Phase: groan zone</span>
+    <span class="pill">Model: one-time, no subscription</span>
+    <span class="pill">Church Family Tree: always free</span>
+    <span class="pill">Build a Table: priced apart</span>
+  </div>
+
+  <div class="decision">
+    <div class="eyebrow">Decision 1 of 3 · the unit of access</div>
+    <h2>What does a visitor get when they use a free allowance or buy a pack?</h2>
+    <p>All options share the same protections, which the review approved to proceed to design. A unit is spent only when the first Representative reply lands. Errors and cut-off replies cost nothing. Refresh, back or a dropped connection never loses it, and an unfinished conversation resumes for at least 7 days. Purchases do not expire.</p>
+    <div class="options">
+      <div class="opt rec">
+        <span class="tag">Recommended by research</span>
+        <h3>Whole conversation</h3>
+        <p>One unit is one conversation: an opening question and the follow-ups in it. It has a length ceiling built as an ending, with a gentle cue near the end. Expert Q&amp;A services frame a unit this way.</p>
+        <span class="cost">The ceiling must come from pilot logs. The engine already caps sessions at 10 exchanges, so the first question is whether paying buys more conversations or longer ones. Who voices the close is also open. Today it is a Facilitator template.</span>
+      </div>
+      <div class="opt">
+        <span class="tag">Layer, not a unit</span>
+        <h3>Church or class pool</h3>
+        <p>A shared pool of whole conversations for a congregation or class, sold once. Sits on top of A or B.</p>
+        <span class="cost">Fits the faith-sector pattern (FORMED, Hallow). Do not decide it first.</span>
+      </div>
+      <div class="opt">
+        <span class="tag">Not recommended</span>
+        <h3>Turns, credits or minutes</h3>
+        <p>Per-message counts, an abstract currency, or timed passes. Visitors watch a meter, cost is hard to cap, and these draw the most complaints in the research.</p>
+        <span class="cost">Cursor, Duolingo Energy and Cambly are the cautions.</span>
+      </div>
+    </div>
+    <div class="note" style="margin-top:14px"><p><strong>Your direction on this decision:</strong> one offer that buys more conversations, each able to go deeper than a free one. Still open: how much deeper. Cost per turn rises as a conversation grows, so the paid length cap has to come from pilot logs and the cost measurement, not a guess. Free conversations keep today's 10-exchange cap until then.</p></div>
+    <p style="margin-top:14px">Decisions 2 and 3, still to come: the free allowance, then the end-of-free moment. Both depend on this one.</p>
+  </div>
+
+  <section>
+    <h2>Decided so far</h2>
+    <p>Recorded in the workstream decision log, <code>Build/Ministry/Features/Access-Monetization/</code>.</p>
+    <ul class="tight">
+      <li><strong>Safety rule.</strong> No balance, cap or paywall sits between a message and the safety gate. Purchase prompts stay hidden after a safety event.</li>
+      <li><strong>Voice.</strong> The Facilitator speaks the close and the offer. The Representative never speaks the ask.</li>
+      <li><strong>No auto-reload</strong> at pilot, so no recurring billing in any form.</li>
+      <li><strong>Church and class offer</strong> is a one-time shared pool, never an annual licence.</li>
+      <li><strong>Donations stay separate</strong> from paid access at pilot.</li>
+      <li><strong>Tracking.</strong> The free allowance uses the existing signed visitor cookie only. This is a change order to the 2026-08-06 no-tracking decision.</li>
+      <li><strong>Buyers are adults.</strong> A parent may buy for a youth. Youth use needs its own safety and COPPA review.</li>
+      <li><strong>Privacy.</strong> A payment is never linked to conversation text.</li>
+      <li><strong>Counsel and an accountant review</strong> before any live checkout. Everything runs in Stripe test mode until then.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What makes a charge feel fair</h2>
+    <div class="two">
+      <div class="box fair">
+        <h3>"I got what I paid for"</h3>
+        <ul class="tight">
+          <li>A whole thing, not a counted thing</li>
+          <li>Priced in dollars, not a currency</li>
+          <li>Never expires</li>
+          <li>Not charged when a reply fails</li>
+          <li>Ends on purpose, not at a wall</li>
+        </ul>
+      </div>
+      <div class="box robbed">
+        <h3>"I got robbed"</h3>
+        <ul class="tight">
+          <li>A counted thing with a visible meter</li>
+          <li>Priced in credits or gems</li>
+          <li>Unused time or credits expire</li>
+          <li>Charged for failed or cut-off output</li>
+          <li>Ends mid-thought at a wall</li>
+        </ul>
+      </div>
+    </div>
+    <p class="src" style="margin-top:10px">Basis: Prelec and Loewenstein, Soman and Gourville, Raghubir and Srivastava, plus product cases (Cambly, Duolingo, Cursor, Suno, Audible). A separate fairness study has not been run.</p>
+  </section>
+
+  <section>
+    <h2>What others charge for conversation</h2>
+    <p>No mainstream AI chat product sells conversation only as one-time packs. Small products such as ChatBuddy and per-question services such as HealthTap and Keen do sell one-time units, and developer wallets work this way. No data exists on a consumables-only AI conversation product.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Product</th><th>Model</th><th>What they charge</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td>OpenAI API</td><td>Prepaid wallet</td><td class="n">$5 minimum</td><td>Opt-in auto-reload, 1-year expiry. Developers, not the public.</td></tr>
+          <tr><td>Poe</td><td>Plans + add-on points</td><td class="n">$4.99 to $249.99/mo; $30 per 1M points</td><td>Add-ons for subscribers only. Allowance cut silently in 2026.</td></tr>
+          <tr><td>Character.AI</td><td>Subscription</td><td class="n">$9.99/mo; $2.99 lite</td><td>The price users expect for companion chat.</td></tr>
+          <tr><td>Khanmigo</td><td>Subscription</td><td class="n">$4/mo or $44/yr</td><td>Nonprofit. Free for US teachers.</td></tr>
+          <tr><td>HealthTap</td><td>Per question</td><td class="n">$9.99 + 2 follow-ups at $5.99</td><td>A one-time conversation unit.</td></tr>
+          <tr><td>JustAnswer</td><td>Per question</td><td class="n">Varies</td><td>Unlimited follow-ups. FTC sued in Jan 2026.</td></tr>
+          <tr><td>Cambly, Preply, italki</td><td>Per session or minute</td><td class="n">Varies</td><td>Expiry complaints. Cambly's terms contradict its help page.</td></tr>
+          <tr><td>Audible</td><td>Credits</td><td class="n">About $12 to $15 each</td><td>Members only. Expiry is being litigated.</td></tr>
+          <tr><td>FORMED</td><td>Parish licence</td><td class="n">About $2,000/yr</td><td>Faith-sector group pricing.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:10px">Several primary pages were blocked by the research sandbox. Figures marked indicative in the full reports rest on search summaries and need re-checking before they enter a canonical document.</p>
+  </section>
+
+  <section>
+    <h2>Structure and margin, without prices</h2>
+    <ul class="tight">
+      <li><strong>Stripe fees punish small tickets.</strong> $1 costs 32.9% in fees, $5 costs 8.9%, $10 costs 5.9%, $20 costs 4.4%. The research sets $10 as the practical floor.</li>
+      <li><strong>The 5-times markup target is not reliable.</strong> The review found the planning model assumed free use costs 20% of paid use. At 2% to 5% conversion the free tier could cost several times paid use, which would turn margin negative. Markup has to be modeled against the free-to-paid ratio, and the dispute fee ($15) outweighs small packs. Prices wait for that.</li>
+      <li><strong>Structure the research proposed:</strong> three packs in a non-expiring balance, and a gift pack. Build a Table is a separate early-access item, priced by Representatives plus one until its cost is measured. Opt-in auto-reload, a church offer and a donation round-up are open questions for you, not recommendations. A church licence billed annually would be a subscription.</li>
+      <li><strong>Checkout stays on the web.</strong> Apple and Google take 15% to 30% in-app. Start US-only. EU buyers owe VAT from the first sale, so a merchant-of-record service comes later.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The end-of-free moment: six directions</h2>
+    <p>The research recommends D2 and D3 together. The Representative never speaks the ask in any of them.</p>
+    <div class="dirs">
+      <div class="dir"><div class="id">D2<br><span class="rank">1st</span></div><p><strong>Closing Page.</strong> Every conversation ends on a summary page with the offer on it. Whether a transcript is kept or emailed depends on privacy decisions still open. The ordinary end of every conversation, with no interruption.</p></div>
+      <div class="dir"><div class="id">D3<br><span class="rank">1st</span></div><p><strong>Threshold Sheet.</strong> A dismissible sheet that appears only when someone reaches for more after the free allowance is used. Plain cost reason, three packs, per-conversation price, a real "Not now" with the refresh date.</p></div>
+      <div class="dir"><div class="id">D1<br><span class="rank">3rd</span></div><p><strong>Closing Card.</strong> A short card inline at the end of the conversation, with no separate page.</p></div>
+      <div class="dir"><div class="id">D5<br><span class="rank">phase 2</span></div><p><strong>Sponsored Seat.</strong> A donor-funded conversation for visitors who cannot pay. Precedents are Hallow, Lichess and the suspended-coffee idea.</p></div>
+      <div class="dir"><div class="id">D4<br><span class="rank">signed-in</span></div><p><strong>Quiet Ledger.</strong> A balance view for signed-in visitors. A complement, not a first screen.</p></div>
+      <div class="dir"><div class="id">D6<br><span class="rank">last</span></div><p><strong>Degrade to Shorter.</strong> Keep going with shorter replies instead of stopping. Only worth it if data shows people leave.</p></div>
+    </div>
+    <p style="margin-top:12px"><strong>Rules the evidence supports.</strong> One calm notice at the start of the last free conversation, with no running counter. The refresh shown as a plain date, not a clock. Dollars and a per-conversation price. "Never expires" and "a failed reply never counts" on screen. No pre-checked boxes, no countdowns, no discount-on-dismiss, no untrue "best value" badge. Support sits apart from the packs. Draft copy for each direction is in the full report.</p>
+  </section>
+
+  <section>
+    <h2>What the best products share</h2>
+    <p>The benchmark covers 15 products, including Wikipedia, the Guardian, Kagi, Hallow, Audible, Steam and Khan Academy.</p>
+    <ul class="tight">
+      <li>The whole experience comes before any ask.</li>
+      <li>The limit is explained in plain words in advance.</li>
+      <li>The wall falls between units, never inside one.</li>
+      <li>Returners pay in one tap. Newcomers check out as a guest, wallet first.</li>
+      <li>On return, the balance shows, the conversation is restored, and there is one thank-you with no upsell.</li>
+      <li>Refunds are lenient enough to be a trust signal.</li>
+    </ul>
+    <p style="margin-top:12px">Public benchmarks: a wallet such as Apple Pay lifts checkout by about 22% where it is shown, and about double when shown early. Link adds 7% to 14%. Lenient refunds raised net sales on Steam. Wikipedia's honest copy beat threat copy. Hallow is the commercial high-water mark for a faith app, yet its reviews are dominated by trial-billing and support complaints. A one-time model removes the trial trap by design. The full report has a 28-item pass or fail checklist to measure CiC against.</p>
+  </section>
+
+  <section>
+    <h2>Still open</h2>
+    <div class="note">
+      <ul class="tight">
+        <li><strong>Safety rule, blocking.</strong> No balance, cap or paywall check may sit between a message and the safety gate, and purchase prompts stay hidden after a safety event. The review found today's session and anonymous caps return an error before the safety gate runs. That existing gap belongs in the open-gaps log now.</li>
+        <li><strong>Cost ceiling.</strong> Needed from the funding thread. Not assumed.</li>
+        <li><strong>Pilot numbers.</strong> CiC's own 95th-percentile conversation length in words, and how often visitors ask one question and leave. They set the length ceiling and the "short conversation" rule. Only pilot logs can supply them.</li>
+        <li><strong>Handoff.</strong> Pricing and ratio research goes to the funding thread before any price is final. Paid gating was an earlier deferred decision there.</li>
+        <li><strong>Review.</strong> Opus reviewed the research (round 1). Its blocking and substantial findings are being worked. A recheck follows once the safety rule and unit questions are settled.</li>
+        <li><strong>Recovery path.</strong> Lost-cookie recovery by claim code or email link. No email sender exists yet.</li>
+        <li><strong>Sources.</strong> Stripe facts and many benchmarks came from search summaries, not primary pages. Verify before they become code constants.</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById("theme-toggle");
+  btn.addEventListener("click", function () {
+    var dark = root.getAttribute("data-theme") === "dark" ||
+      (!root.getAttribute("data-theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    root.setAttribute("data-theme", dark ? "light" : "dark");
+  });
+})();
+</script>

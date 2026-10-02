@@ -1,0 +1,28 @@
+SETTINGS {
+ "voice_model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+ "safety_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+ "region": "us-east-1",
+ "world": "alx",
+ "turns": 15,
+ "message_chars_total": 1489,
+ "pause_after_turn": 6,
+ "pause_seconds": 360,
+ "cap_override": 15,
+ "price_source": "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, fetch"
+}
+TURN 1 voice_with_directive 0.0252 1105 15040 0
+TURN 2 voice_with_directive 0.0251 1765 15040 0
+TURN 3 voice_with_directive 0.0302 2287 15040 0
+TURN 4 voice_with_directive 0.0313 3168 15040 0
+TURN 5 voice_with_directive 0.0376 4187 15040 0
+TURN 6 voice_with_directive 0.0397 4854 15040 0
+TURN 7 voice_with_directive 0.0434 6091 15040 0
+TURN 8 voice_with_directive 0.0936 7100 0 15040
+TURN 9 voice_with_directive 0.048 7617 15040 0
+TURN 10 voice_with_directive 0.0478 8407 15040 0
+TURN 11 voice_with_directive 0.0536 9560 15040 0
+TURN 12 voice_with_directive 0.0568 10608 15040 0
+TURN 13 voice_with_directive 0.0599 11660 15040 0
+TURN 14 voice_with_directive 0.0627 12564 15040 0
+TURN 15 voice_with_directive 0.0508 12997 15040 0
+TOTAL 0.7057

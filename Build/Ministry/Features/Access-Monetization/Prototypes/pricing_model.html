@@ -1,0 +1,158 @@
+<title>Pack Pricing Model</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: assumptions panel on top, the pack table that recomputes beneath it, then reference points and open items. */
+:root { --bg:#f7f8fa; --surface:#ffffff; --ink:#16202e; --muted:#5a6677; --line:#d9dee6; --accent:#1f5f6b; --accent-soft:#e2f0f2; --good:#1f7a4d; --bad:#a3302a; --warn:#9a5b00; --warn-soft:#fbf0dc;
+  --font-display:"Newsreader",Georgia,serif; --font-body:"IBM Plex Sans",system-ui,sans-serif; --font-mono:"IBM Plex Mono",ui-monospace,monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#0f1621; --surface:#17202d; --ink:#e8edf4; --muted:#9aa7b8; --line:#2a3546; --accent:#6fc0cc; --accent-soft:#17323a; --good:#5cc796; --bad:#ef8a83; --warn:#e3a94c; --warn-soft:#33290f; color-scheme:dark; } }
+:root[data-theme="dark"] { --bg:#0f1621; --surface:#17202d; --ink:#e8edf4; --muted:#9aa7b8; --line:#2a3546; --accent:#6fc0cc; --accent-soft:#17323a; --good:#5cc796; --bad:#ef8a83; --warn:#e3a94c; --warn-soft:#33290f; color-scheme:dark; }
+body { background:var(--bg); color:var(--ink); font-family:var(--font-body); font-size:16px; line-height:1.55; }
+.wrap { max-width:860px; margin:0 auto; padding-inline:16px; padding-block:28px 56px; position:relative; }
+h1,h2 { font-family:var(--font-display); font-weight:600; line-height:1.2; text-wrap:balance; margin:0; }
+h1 { font-size:1.9rem; } h2 { font-size:1.3rem; margin-bottom:10px; }
+.eyebrow { font-family:var(--font-mono); font-size:.75rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+.lede { color:var(--muted); max-width:68ch; margin:10px 0 0; }
+section { margin-top:34px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+.field { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:10px 12px; min-width:0; }
+.field label { display:block; font-size:.82rem; color:var(--muted); margin-bottom:4px; }
+.field small { display:block; color:var(--muted); font-size:.76rem; margin-top:4px; }
+input[type=number] { width:100%; font:inherit; font-family:var(--font-mono); color:var(--ink); background:var(--bg); border:1px solid var(--line); border-radius:6px; padding:6px 8px; }
+input:focus-visible,button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.table-scroll { overflow-x:auto; border:1px solid var(--line); border-radius:8px; background:var(--surface); }
+table { border-collapse:collapse; width:100%; min-width:640px; font-size:.88rem; font-variant-numeric:tabular-nums; }
+th,td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--line); white-space:nowrap; }
+th { font-family:var(--font-mono); font-size:.7rem; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); font-weight:500; background:var(--bg); }
+tr:last-child td { border-bottom:0; }
+td input { width:90px; }
+.pos { color:var(--good); } .neg { color:var(--bad); }
+.cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:12px; }
+.card { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:12px 14px; min-width:0; }
+.card h3 { margin:0 0 4px; font-size:1rem; font-family:var(--font-display); }
+.card p { margin:0; font-size:.88rem; color:var(--muted); }
+.note { background:var(--warn-soft); border-radius:8px; padding:12px 14px; font-size:.92rem; margin-top:12px; }
+.note p { margin:0 0 6px; } .note p:last-child { margin:0; }
+ul { margin:8px 0 0; padding-left:20px; display:grid; gap:7px; } li { max-width:70ch; }
+button { font:inherit; font-size:.8rem; color:var(--muted); background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:4px 10px; cursor:pointer; }
+#theme { position:absolute; top:12px; right:16px; }
+</style>
+<div class="wrap">
+<button id="theme" type="button">Theme</button>
+<div class="eyebrow">Access and Monetization · pricing, not decided</div>
+<h1>Pack Pricing Model</h1>
+<p class="lede">Free is 3 conversations of 3 rounds. A paid conversation runs up to 7 rounds. Packs are priced on their own costs. The free allowance is a separate bucket, funded apart from pack sales. Change any number below and everything recomputes. Prices are not set, and they go to the funding thread before they are final.</p>
+
+<section>
+<h2>Assumptions you can change</h2>
+<div class="grid">
+<div class="field"><label for="c7">API cost of one 7-round conversation ($)</label><input id="c7" type="number" step="0.01" value="0.27"><small>From the 15-turn run, priced at the rate card: $0.23 with a warm cache, $0.28 after a cache lapse. Replies were long. Shorter replies would lower it.</small></div>
+<div class="field"><label for="f">API cost of the full free allowance, per visitor ($)</label><input id="f" type="number" step="0.01" value="0.32"><small>3 conversations of 3 rounds, all used. $0.24 warm, $0.39 cold.</small></div>
+<div class="field"><label for="mult">Billing multiplier over the rate card</label><input id="mult" type="number" step="0.05" value="1.00"><small>Enter what you see on your bill. On 2026-08-28 the real AWS total ran 1.35 times the rate-card estimate. Applies to both costs above.</small></div>
+<div class="field"><label for="allow">Refunds and disputes (% of price)</label><input id="allow" type="number" step="0.1" value="3"><small>A $15 dispute fee is larger than a small pack.</small></div>
+<div class="field"><label for="ops">Margin target for packs (%)</label><input id="ops" type="number" step="1" value="50"><small>What a pack should leave after API cost and payment fees, to go toward operating costs.</small></div>
+</div>
+</section>
+
+<section>
+<h2>Pack ladder</h2>
+<div class="table-scroll"><table>
+<thead><tr><th>Pack</th><th>Price ($)</th><th>Conversations</th><th>Per conversation</th><th>Stripe fee</th><th>API cost</th><th>Contribution</th><th>Margin</th></tr></thead>
+<tbody id="rows"></tbody></table></div>
+<p class="lede" style="font-size:.85rem">Contribution is price less the Stripe fee (2.9% + $0.30), the refund allowance and API cost, assuming every conversation is used to 7 rounds. The free allowance is not in this table.</p>
+</section>
+
+<section>
+<h2>Free bucket</h2>
+<div class="grid">
+<div class="field"><label for="vis">New free visitors per month</label><input id="vis" type="number" step="100" value="1000"><small>A placeholder. Pilot data sets it.</small></div>
+<div class="field"><label for="use">Share of the free allowance each visitor uses (%)</label><input id="use" type="number" step="5" value="60"><small>A placeholder. Most visitors will not use all 9 rounds.</small></div>
+</div>
+<div class="cards">
+<div class="card"><h3 id="fb1"></h3><p>cost of the free allowance per month, at the rate above</p></div>
+<div class="card"><h3 id="fb2"></h3><p>cost per free conversation of 3 rounds</p></div>
+<div class="card"><h3 id="fb3"></h3><p>of contributions needed each month to fund it</p></div>
+<div class="card"><h3 id="fb4"></h3><p>Standard packs a month whose contribution would cover it, if packs paid for the free bucket</p></div>
+</div>
+<p class="lede" style="font-size:.85rem">This bucket is funded from contributions, so it does not reduce pack margin. Opening the door further for more free access scales the cost in proportion.</p>
+</section>
+
+<section>
+<h2>Reading the result</h2>
+<ul>
+<li id="r1"></li>
+<li id="r2"></li>
+<li id="r3"></li>
+</ul>
+</section>
+
+<section>
+<h2>What buyers compare it to</h2>
+<div class="cards">
+<div class="card"><h3>HealthTap</h3><p>$9.99 for one question, plus two follow-ups at $5.99. A one-time conversation unit.</p></div>
+<div class="card"><h3>Character.AI</h3><p>$9.99 a month, with a $2.99 lite tier. A subscription, and what companion chat has taught people to expect.</p></div>
+<div class="card"><h3>Khanmigo</h3><p>$4 a month or $44 a year. Nonprofit pricing.</p></div>
+<div class="card"><h3>Audible credit</h3><p>About $12 to $15 per book. The best-known consumer credit.</p></div>
+</div>
+<p class="lede" style="font-size:.85rem">From the first-round research. Several figures rest on search summaries and need re-checking.</p>
+</section>
+
+<section>
+<h2>What this model does not settle</h2>
+<div class="note">
+<p><strong>Rounds.</strong> I read a round as one participant message and the Representative's reply. Tell me if you mean something else.</p>
+<p><strong>Who funds the free bucket.</strong> I treated it as funded by contributions, as the door works today. If pack sales carry part of it, the last card above shows how many packs that takes. The split belongs to the funding thread.</p>
+<p><strong>Voice length.</strong> Costs use the replies from the 15-turn run. Decision 12 aims for shorter replies, which would lower every figure.</p>
+<p><strong>Not included.</strong> Hosting, support, tax, and development time. The operating target above stands in for them until the funding thread gives the real figures.</p>
+</div>
+</section>
+</div>
+<script>
+(function () {
+  var packs = [{ name: "Entry", price: 7, n: 5 }, { name: "Standard", price: 15, n: 13 }, { name: "Large", price: 30, n: 30 }];
+  var el = function (id) { return document.getElementById(id); };
+  var money = function (x) { return (x < 0 ? "-$" : "$") + Math.abs(x).toFixed(2); };
+  var num = function (id) { var v = parseFloat(el(id).value); return isFinite(v) ? v : 0; };
+  var tbody = el("rows");
+  packs.forEach(function (p, i) {
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td>' + p.name + '</td><td><input type="number" id="p' + i + '" value="' + p.price + '" step="1" aria-label="' + p.name + ' price"></td>' +
+      '<td><input type="number" id="n' + i + '" value="' + p.n + '" step="1" aria-label="' + p.name + ' conversations"></td>' +
+      '<td id="pc' + i + '"></td><td id="fee' + i + '"></td><td id="api' + i + '"></td><td id="con' + i + '"></td><td id="mar' + i + '"></td>';
+    tbody.appendChild(tr);
+  });
+  function cls(node, x) { node.className = x < 0 ? "neg" : "pos"; }
+  function calc() {
+    var m = num("mult") || 1, c7 = num("c7") * m, f = num("f") * m, allow = num("allow") / 100, ops = num("ops") / 100;
+    var res = [];
+    packs.forEach(function (_, i) {
+      var P = num("p" + i), n = num("n" + i);
+      var fee = P > 0 ? 0.029 * P + 0.30 : 0, api = n * c7, al = P * allow;
+      var contrib = P - fee - al - api, margin = P > 0 ? contrib / P : 0;
+      el("pc" + i).textContent = n > 0 ? money(P / n) : "";
+      el("fee" + i).textContent = money(fee);
+      el("api" + i).textContent = money(api);
+      el("con" + i).textContent = money(contrib); cls(el("con" + i), contrib);
+      el("mar" + i).textContent = Math.round(margin * 100) + "%"; cls(el("mar" + i), contrib);
+      res.push({ P: P, n: n, margin: margin, contrib: contrib });
+    });
+    var vis = num("vis"), use = num("use") / 100, monthly = vis * f * use;
+    el("fb1").textContent = money(monthly);
+    el("fb2").textContent = money(f / 3);
+    el("fb3").textContent = money(monthly);
+    var std = res[1] && res[1].contrib > 0 ? Math.ceil(monthly / res[1].contrib) : null;
+    el("fb4").textContent = std === null ? "n/a" : String(std);
+    var best = res.reduce(function (a, b) { return b.margin > a.margin ? b : a; }, res[0]);
+    var meets = res.filter(function (r) { return r.margin >= ops; }).length;
+    el("r1").textContent = meets + " of " + res.length + " packs reach your " + Math.round(ops * 100) + "% margin target. The best margin is " + Math.round(best.margin * 100) + "%.";
+    var perConv = res.map(function (r) { return r.n > 0 ? r.P / r.n : 0; });
+    el("r2").textContent = "Buyers pay " + money(Math.max.apply(null, perConv)) + " down to " + money(Math.min.apply(null, perConv)) + " per conversation across the ladder, against an API cost of " + money(c7) + ".";
+    el("r3").textContent = "The free bucket costs " + money(monthly) + " a month at " + vis + " new visitors and " + Math.round(use * 100) + "% use. Each of those visitors costs " + money(f * use) + " on average.";
+  }
+  document.querySelectorAll("input").forEach(function (i) { i.addEventListener("input", calc); });
+  calc();
+  el("theme").addEventListener("click", function () {
+    var r = document.documentElement, d = r.getAttribute("data-theme") === "dark" || (!r.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+    r.setAttribute("data-theme", d ? "light" : "dark");
+  });
+})();
+</script>

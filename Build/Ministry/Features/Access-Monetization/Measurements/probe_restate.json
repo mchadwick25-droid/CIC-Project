@@ -1,0 +1,44 @@
+[
+ {
+  "case": "A1 original",
+  "message": "I grew up in a church where nobody asked hard questions. Who was Jesus to your people, and how did they come to say it the way they did?",
+  "routing": "voice_with_directive",
+  "dollars": 0.021825999999999998,
+  "reply_start": "The first question I can answer straight: to us Jesus was the Logos - God's own Word, through whom all things were made, come in flesh. That is the whole of what we believed, and everything else grew from it. He was not a messenger with news about God. He was God's own self-expression, entering what he made in order to remake it. One of our late bishops, Athanasius, put our whole hope in a single "
+ },
+ {
+  "case": "A2 original",
+  "message": "I grew up in a church where nobody asked hard questions. Who was Jesus to your people, and how did they come to say it the way they did?",
+  "routing": "voice_with_directive",
+  "dollars": 0.023341,
+  "reply_start": "You grew up in a church where nobody asked hard questions. Among us, the questions never stopped. They were how we grew.\n\nWho was Jesus to us? The Logos - God's own Word and reason, through whom all things were made, who became flesh. Not a messenger with news about God. God's own self-expression, entering what he made in order to remake it. Athanasius, near the end of our years, put our whole hop"
+ },
+ {
+  "case": "B1 no opener",
+  "message": "Who was Jesus to your people, and how did they come to say it the way they did?",
+  "routing": "voice_with_directive",
+  "dollars": 0.024189000000000002,
+  "reply_start": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh. That is the whole of what we believed, and everything else grew from it. Our teachers used an old word for him: the Logos, God's reason and speech, the one through whom all things were made. Clement, one of our first teachers, called him the New Song: 'Behold the might of the new song! It has made men out"
+ },
+ {
+  "case": "B2 no opener",
+  "message": "Who was Jesus to your people, and how did they come to say it the way they did?",
+  "routing": "voice_with_directive",
+  "dollars": 0.021623999999999997,
+  "reply_start": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh. That confession is what we held from the beginning, and what we fought to keep clear when it was challenged from inside our own ranks.\n\nWe called him the Christ - not a surname, but the confession that he is priest, king, and prophet in one person. We called him the Son of God - not an honor for being clo"
+ },
+ {
+  "case": "C1 opener, no question mark",
+  "message": "I grew up in a church where nobody asked hard questions. I would like to understand who Jesus was to your people.",
+  "routing": "voice_with_directive",
+  "dollars": 0.019816,
+  "reply_start": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh. That is the whole of what we believed, and everything else grew from it. Our teachers used an old word for him: the Logos, God's reason and speech, the one who set the world in order at the beginning. And he came into that world, not to teach from outside it, but to enter it and heal it from within.\n\nOne "
+ },
+ {
+  "case": "C2 opener, no question mark",
+  "message": "I grew up in a church where nobody asked hard questions. I would like to understand who Jesus was to your people.",
+  "routing": "voice_with_directive",
+  "dollars": 0.024271,
+  "reply_start": "To us Jesus is the Logos - God's own Word, through whom all things were made - come in flesh. That is the whole of what we believed, and everything else grew from it. He is not a teacher with good ideas about God. He is God's own self-expression, the one who first set the world in order, entering it to set people right. Our teachers used an old name for him: the Christ - not a surname, but a confe"
+ }
+]
