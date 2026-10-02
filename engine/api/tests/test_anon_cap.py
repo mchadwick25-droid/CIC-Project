@@ -51,14 +51,15 @@ def test_limiter_visitors_are_independent():
 
 def _app(
     *, anon_cap_enabled, secret, daily_session_limit=5, daily_turn_limit=150, rate_limit=False,
-    store, usage_store, world_loader, registry,
+    store, usage_store, world_loader, registry, safety_signal="NO_SIGNAL",
 ):
     from fastapi.testclient import TestClient
 
     from engine.api.app import create_app
     from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
 
-    client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
+    acute = {"acute_level": "a2", "risk_subject": "self"} if safety_signal == "ACUTE_DISTRESS" else {}
+    client = FakeBedrockClient(safety_response=safety_response(safety_signal, **acute), reader_response=reader_response())
     app = create_app(
         voice_client=client,
         voice_model_id="m",
@@ -255,3 +256,41 @@ def test_harvesting_tokens_by_repeatedly_dropping_the_cookie_is_bounded_not_unli
     total = limit + extra_successes
     assert total <= limit + limit * (limit - 1) // 2  # the exact documented bound
     assert total < limit * limit  # nowhere near the pre-fix "one full allowance per harvested token" shape
+
+
+def _send(http, created, text="hello"):
+    return http.post(
+        f"/api/session/{created['session_id']}/message",
+        headers={"Authorization": f"Session {created['session_code']}"},
+        json={"text": text},
+    )
+
+
+def test_a_message_over_the_daily_cap_closes_the_session_through_the_facilitator(store, usage_store, world_loader, registry):
+    """Over the daily message cap, a message still reaches the safety gate.
+    An ordinary one gets the Facilitator's daily-cap close, not a bare 429,
+    and the session closes, so it cannot be used to keep calling the gate."""
+    http = _app(
+        anon_cap_enabled=True, secret="s" * 32, daily_turn_limit=0,
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+    )
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
+    resp = _send(http, created)
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["routing_action"] == "session_cap_turn"
+    assert "today's limit" in body["facilitator"]["text"]
+    assert _send(http, created).status_code == 409
+
+
+def test_a_crisis_message_over_the_daily_cap_still_gets_the_facilitator_redirect(store, usage_store, world_loader, registry):
+    http = _app(
+        anon_cap_enabled=True, secret="s" * 32, daily_turn_limit=0, safety_signal="ACUTE_DISTRESS",
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+    )
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
+    resp = _send(http, created, text="I don't want to be here anymore")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["routing_action"] == "safety_turn"
+    assert body["facilitator"]["resources_appended"]

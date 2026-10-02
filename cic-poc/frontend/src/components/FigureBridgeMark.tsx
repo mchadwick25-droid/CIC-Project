@@ -16,10 +16,21 @@ import type { FigureUsed } from '../types/conversation';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
-function formatDates(dates: FigureUsed['dates']): string | null {
+// Keys with a label are short date fields; any other key (display, note)
+// holds a full sentence that reads on its own, so it shows unlabelled.
+// engine/m1/cross_world.py's FIGURE_DATE_KEYS lists the same vocabulary.
+const DATE_LABELS: Record<string, string | null> = {
+  born: 'Born',
+  died: 'Died',
+  floruit: 'Active',
+  display: null,
+  note: null,
+};
+
+export function formatDates(dates: FigureUsed['dates']): string | null {
   const parts = Object.entries(dates)
-    .filter(([, value]) => value)
-    .map(([key, value]) => `${key}: ${value}`);
+    .filter(([key, value]) => value && key in DATE_LABELS)
+    .map(([key, value]) => (DATE_LABELS[key] ? `${DATE_LABELS[key]}: ${value}` : value));
   return parts.length ? parts.join(' · ') : null;
 }
 

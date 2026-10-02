@@ -2407,3 +2407,7 @@ The document also says no in-voice fallback "should exist". That contradicts RCF
 **What this does not do.** Does not touch the "church today" content tension (OG-51 item 4) — held, explicitly its own category, not part of this ruling. Does not perform the pre-disposition inline-narration clean pass (OG-44/OG-51) — still outstanding, mechanical, unrelated to disposition. Does not authorize new live-engine probes or spend. Not Frozen — Frozen requires both Phase Five boundary testing and full-system review complete, fleet-wide, and is never self-assigned.
 
 **Status.** Phase Five, Six, and Seven: all **APPROVED TO PROCEED** (OG-54, OG-55). Not Frozen. Remaining, unresolved: (1) the pre-disposition inline-narration clean pass (OG-44/OG-51); (2) the "church today" content tension (OG-51 item 4), held.
+
+## OG-56. Fleet-level: `figure-dates-keys/witt` closed by a frontend fix, 2026-10-01.
+
+The fix is in the frontend, so no record changed. `cic-poc/frontend/src/components/FigureBridgeMark.tsx` now labels born, died and floruit for the participant ("Born:", "Died:", "Active:"). It shows `display` and `note` as sentences with no key in front, so participants no longer read "display:". `engine/m1/cross_world.py` `check_figure_dates_keys` now flags only keys outside that shared vocabulary (`FIGURE_DATE_KEYS`), instead of keys a strict majority of worlds does not use. All eleven `figure-dates-keys/*` waivers no longer fire and are removed. This world's `display` dates stay as authored. The pilot readiness review found this, 2026-10-01.

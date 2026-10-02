@@ -88,4 +88,12 @@ describe('Conversation', () => {
     const { container } = render(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
   });
+
+  it('states that the voice is AI before the first message, and not after', () => {
+    const { container, rerender } = render(<Conversation {...baseProps} turns={[]} />);
+    expect(container.querySelector('.ai-note')?.textContent).toContain('Vera is an AI voice');
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Hello' }];
+    rerender(<Conversation {...baseProps} turns={turns} />);
+    expect(container.querySelector('.ai-note')).toBeNull();
+  });
 });

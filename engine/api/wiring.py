@@ -654,6 +654,7 @@ def handle_message(
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    daily_turn_cap_reached: bool = False,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -788,6 +789,7 @@ def handle_message(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
+            daily_cap_reached=daily_turn_cap_reached,
         )
     except UnhandledRoutingAction:
         # Not caught and softened into a note about a test build: all seven

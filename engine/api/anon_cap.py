@@ -242,6 +242,14 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
         bucket_key = visitor_id or f"ip:{ip}"
 
         allowed = limiter.allow_session(bucket_key) if is_create else limiter.allow_turn(bucket_key)
+        if not allowed and request.url.path.endswith("/message"):
+            # A participant message over the daily cap still reaches the
+            # safety gate, so a real crisis gets the Facilitator's redirect.
+            # Anything else closes the session there (engine.m4.turn.run_turn,
+            # engine.m4.round.open_table_round). It is not counted, and no
+            # token is minted for it.
+            request.state.daily_turn_cap_reached = True
+            return await call_next(request)
         if not allowed:
             return JSONResponse(status_code=429, content={"detail": CAP_DETAIL if is_create else TURN_CAP_DETAIL})
 

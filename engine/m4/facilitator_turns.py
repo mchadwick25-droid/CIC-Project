@@ -251,6 +251,24 @@ def session_cap_turn(representative_name: str) -> dict:
     return {"kind": SESSION_CAP.kind, "text": text}
 
 
+DAILY_CAP = FacilitatorTurn(
+    kind="close",
+    text=(
+        "This is the Facilitator. You've reached today's limit for messages, so this conversation "
+        "closes here. Please come back tomorrow, or reach out if this doesn't seem right."
+    ),
+)
+
+
+def daily_cap_turn() -> dict:
+    """The visitor's daily message cap, reached on a message that is not a
+    crisis. Same DRAFT status as session_cap_turn; the wording is the daily
+    cap's existing 429 text (engine.api.anon_cap.TURN_CAP_DETAIL), spoken
+    as the Facilitator. Serves the interview and the Table alike, since it
+    names no Representative."""
+    return {"kind": DAILY_CAP.kind, "text": DAILY_CAP.text}
+
+
 # --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
 # generation). DRAFT TEXT, not yet approved - same wired-now/
@@ -395,10 +413,10 @@ def voice_rejected_turn(representative_name: str) -> dict:
     """The interview-mode analog of table_seat_correction_turn above, for
     a generated voice turn that hard-fails the uncited-claims enforcement
     paragraph-unit check (wholly_uncited_paragraph or neighbour_named),
-    survives one named regeneration, and still hard-fails
-    (voice_event["r27_enforcement_exhausted"] is True; that turn's own
-    text is deliberately empty, same convention seat_identity_guard_
-    exhausted already sets). Interview mode has no other seats to "bring
+    survives one named regeneration, and still hard-fails (the voice
+    event's enforcement-exhausted flag is set, and that turn's own text is
+    deliberately empty, the same convention the seat-identity guard's
+    exhausted flag sets). Interview mode has no other seats to "bring
     into it" the way the Table line closes, so this is new, approved
     wording, not a reuse of TABLE_SEAT_CORRECTION."""
     return {"kind": VOICE_REJECTED.kind, "text": VOICE_REJECTED.text.format(representative_name=representative_name)}
