@@ -961,6 +961,33 @@ def test_gate_quote_verbatim_still_checks_a_verified_direct_record():
     assert "w.quote.x" in findings[0]
 
 
+def test_gate_quote_verbatim_finding_paths_use_forward_slashes():
+    """A finding lands in each package's hashed validation/gates-report.json,
+    so its source path must read the same on every build platform -
+    repo-relative, POSIX separators - or the package bytes depend on the OS."""
+    from engine.m1.quote_verbatim import gate_quote_verbatim
+
+    resolved = _quote_record("w.quote.x", "words that appear nowhere in any source", "verified-direct")
+    resolved["_body"] = "cic/texts/salvian_on-the-government-of-god_sanford1930.txt"
+    missing = _quote_record("w.quote.y", "words that appear nowhere in any source", "verified-direct")
+    missing["_body"] = "cic/texts/no_such_file_on_disk.txt"
+    findings = gate_quote_verbatim({"w.quote.x": resolved, "w.quote.y": missing}, {}, {})
+
+    assert len(findings) == 2
+    assert "against cic/texts/salvian_on-the-government-of-god_sanford1930.txt - " in findings[0]
+    assert "['cic/texts/no_such_file_on_disk.txt']" in findings[1]
+    assert not any("\\" in f for f in findings)
+
+
+def test_loader_record_path_uses_forward_slashes():
+    from engine.m1.loader import REPO_ROOT, parse_record_file
+
+    record_path = next((REPO_ROOT / "records").glob("*/*/*.md"))
+    rec = parse_record_file(record_path)
+    assert rec["_path"] == record_path.relative_to(REPO_ROOT).as_posix()
+    assert "\\" not in rec["_path"]
+
+
 def test_gate_quote_verbatim_registered_in_gates_dict():
     from engine.m1.gates import GATES
 

@@ -36,7 +36,7 @@ def _split_record_text(text: str, label: str) -> tuple[dict, str]:
 
 def parse_record_file(path: Path) -> dict:
     record, body = _split_record_text(path.read_text(encoding="utf-8"), str(path))
-    record["_path"] = str(path.relative_to(REPO_ROOT))
+    record["_path"] = path.relative_to(REPO_ROOT).as_posix()
     record["_body"] = body
     return record
 

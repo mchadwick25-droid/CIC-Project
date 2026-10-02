@@ -693,17 +693,17 @@ def verify_quote_record(
         result = verify_quote_text(
             quote_text, source_raw, source_is_xml=path.suffix == ".xml", apply_letterform_normalization=apply_letterform_normalization
         )
-        result.source_file = str(path.relative_to(REPO_ROOT))
+        result.source_file = path.relative_to(REPO_ROOT).as_posix()
         if result.verified:
             return result
         note_result = verify_quote_against_notes(quote_text, source_raw, apply_letterform_normalization=apply_letterform_normalization)
         if note_result is not None:
-            note_result.source_file = str(path.relative_to(REPO_ROOT))
+            note_result.source_file = path.relative_to(REPO_ROOT).as_posix()
             return note_result
         if best is None:
             best = result
     if best is None:
-        return VerifyResult(verified=False, nearest_context=f"none of the resolved files exist on disk: {[str(p) for p in paths]}")
+        return VerifyResult(verified=False, nearest_context=f"none of the resolved files exist on disk: {[p.relative_to(REPO_ROOT).as_posix() for p in paths]}")
     return best
 
 
