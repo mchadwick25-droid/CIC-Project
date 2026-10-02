@@ -47,12 +47,13 @@ description: "In some of this world's communities, a death for the name is read 
   completes a person's formation, and it is remembered each year. This is not true everywhere among
   them.
 
-  The evidence is thinner than for the stronger patterns. Inside this world there are exactly two
-  witnesses: Ignatius's own letters and the Martyrdom of Polycarp. Both come from Antioch and Asia
-  Minor. Other patterns do depend on this one, but less than it first seems. The dependence runs mostly
-  one way. Ignatius uses his coming death to strengthen his case for the bishop and for firm boundaries,
-  not the reverse. The yearly remembrance of a martyr's death day, kept as a 'birthday,' belongs more to
-  what this world hands on to later churches. Its own worship is not yet organized around it.
+  The evidence is thinner than for the stronger patterns. Inside this world
+  there are exactly two witnesses: Ignatius's own letters and the Martyrdom of
+  Polycarp. Both come from Antioch and Asia Minor. Other patterns do depend on
+  this one, but less than it first seems. The dependence runs mostly one way.
+  Ignatius uses his coming death to strengthen his case for the bishop and for
+  firm boundaries, not the reverse. The yearly remembrance of a martyr's death
+  day, kept as a 'birthday,' is not yet part of this world's own worship.
 
   It clearly shaped the particular people in the record. For an ordinary member, not a leader and not
   facing death soon, that is far less certain. It explains the shape of Ignatius's writing well. It does
@@ -60,10 +61,11 @@ description: "In some of this world's communities, a death for the name is read 
   martyrs. It appears in two people's own experience, not across regions, communities, or kinds of
   evidence.
 
-  It connects with leadership, the letter network, state pressure, and boundary-drawing. But all four
-  links rest on single Ignatius passages, each used for several links at once. That is not independent
-  confirmation. No link with shared worship is shown, because the yearly remembrance belongs to later
-  churches, not to this world's own worship.
+  It connects with leadership, the letter network, state pressure, and
+  boundary-drawing. But all four links rest on single Ignatius passages, each
+  used for several links at once. That is not independent confirmation. No
+  link with shared worship is shown, because this world's own worship is not
+  yet organized around the yearly remembrance.
 
   With only two witnesses, both from Antioch and Asia Minor, the risk that this reflects a few voices rather than
   common belief is high. That risk was flagged from the start. This is the clearest case where the
