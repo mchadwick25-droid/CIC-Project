@@ -1548,6 +1548,15 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     return hits
 
 
+def is_world_build_tool(rel: Path) -> bool:
+    """A world's own authoring scripts, `Build/worlds/<code>/scripts/`. They are
+    build tools, not canon: the strings they emit land in record fields the
+    scanner already protects, and a script is not read by the program or a
+    participant, so it is not a live surface."""
+    parts = rel.as_posix().split("/")
+    return len(parts) >= 4 and parts[0] == "Build" and parts[1] == "worlds" and parts[3] == "scripts"
+
+
 def iter_files(repo: Path, surface: str):
     for root in SURFACES[surface]:
         base = repo / root
@@ -1561,6 +1570,8 @@ def iter_files(repo: Path, surface: str):
             if path.suffix in SKIP_SUFFIXES:
                 continue
             if path.suffix not in TEXT_SUFFIXES:
+                continue
+            if is_world_build_tool(path.relative_to(repo)):
                 continue
             if surface == "cic-poc-frontend" and "node_modules" in path.parts:
                 continue
@@ -1578,6 +1589,8 @@ def run(repo: Path, surfaces: list[str]) -> list[Hit]:
 def surface_of(rel: Path) -> str | None:
     """The scan surface a repo-relative path belongs to, if any."""
     rel_s = rel.as_posix()
+    if is_world_build_tool(rel):
+        return None
     for surface, roots in SURFACES.items():
         if any(rel_s == root or rel_s.startswith(root + "/") for root in roots):
             return surface

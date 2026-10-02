@@ -40,6 +40,13 @@ def test_surface_of_maps_a_path_to_its_surface():
     assert clc.surface_of(Path("README.md")) is None
 
 
+def test_a_worlds_build_scripts_are_not_a_live_surface():
+    assert clc.surface_of(Path("Build/worlds/lpc/scripts/wb_lpc_s21.py")) is None
+    assert clc.surface_of(Path("Build/worlds/lpc/Doc_01_x.md")) == "worlds"
+    assert clc.is_world_build_tool(Path("Build/worlds/syr/scripts/gen.py"))
+    assert not clc.is_world_build_tool(Path("Build/worlds/_cross-world/scripts-note.md"))
+
+
 def test_only_added_and_modified_files_are_in_scope(repo):
     (repo / "engine" / "edited.py").write_text(CLEAN + "\n", encoding="utf-8")
     (repo / "engine" / "new.py").write_text(CLEAN, encoding="utf-8")
