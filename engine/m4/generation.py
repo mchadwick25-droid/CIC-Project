@@ -16,10 +16,7 @@ second, forced-tool-use follow-up guessing which ids the answer drew on
 the design's whole case for in-band tags over that shape is that guessing
 citations after the fact is exactly the post-hoc grading this design
 exists to stop doing. engine.m4.grounding_net.check_turn is what reads the
-tags this call's own output carries; engine.m4.grounding's excerpt-match
-badge check is untouched and independent (do-not-voice checking), but no
-longer has a `claimed_drawn_on` list to badge-check against, because
-nothing is ever claimed after the fact anymore.
+tags this call's own output carries.
 """
 from dataclasses import dataclass
 

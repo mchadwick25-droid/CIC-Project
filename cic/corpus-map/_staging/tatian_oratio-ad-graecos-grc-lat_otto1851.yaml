@@ -1,0 +1,26 @@
+# Otto's 1851 edition of Tatian's Oratio ad Graecos, Greek with Latin translation, a second witness
+# (noisy Greek OCR). Same atlas entries, role and confidence as its English twin (ANF02).
+source_file: tatian_oratio-ad-graecos-grc-lat_otto1851.txt
+
+assignments:
+  - row_id: tatian_oratio-ad-graecos-grc-lat_otto1851--address-to-the-greeks
+    work: "Address to the Greeks"
+    author: tatian
+    locus: "file line 1660 (first running head 'TATIANI ORATIO AD GRAECOS' inside the text (the title page and prolegomena come before))"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named
+      here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6):
+      the Greek layer of this Google scan is OCR at a measured accuracy of roughly three in four
+      Greek tokens on a comparable Otto volume, with accent, breathing and letter errors, and no
+      page-image check has been made. Not to be quoted as the original until a clean witness is
+      vendored or the page image is checked. Otto, Corpus apologetarum vol. VI (Jena, 1851) with
+      Otto's Latin translation and the Parisian scholia. The Greek layer is present (about 309,000
+      Greek characters). Mirrors the English twin's role and confidence exactly.
+

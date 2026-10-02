@@ -10,13 +10,13 @@ for that design, the way Artifacts 1–6 are contracts for M1–M8. Scoping and
 ground truth: `Build/Ministry/Technology/CiC_Table_Engine_Scoping_2026-08-28.md`.
 
 Inherited decisions this artifact builds on and must never weaken:
-three-world permanent ceiling (Mark, 2026-08-01); public-transcript isolation
+three-world permanent ceiling; public-transcript isolation
 as the constitutional cross-world boundary (Constitution V2.2 Art. 3); turn
 allocation as judgment, not rotation (Governance V3.6 §8); extended thinking
 disabled on every token-capped call (the turn-cap incident fix); each world
 individually complete before it sits at a Table (V2.3 §10).
 
-Decisions taken 2026-08-28 (Mark, this thread): **C1** — the Facilitator's
+Decisions: **C1** — the Facilitator's
 table introductions are fixed templates parameterized by the seated worlds,
 keeping the engine's no-free-generation Facilitator discipline; **C2** —
 transport is turn-at-a-time HTTP (each response carries at most one voice
@@ -123,8 +123,7 @@ interview does, scoped to the selected world alone:
   across the session (the cache contract holds per world);
 - evidence assembled from that world's own coverage/repository only;
 - grounding net checked against that world's own repository only;
-- name-bridge, glosses, do-not-voice, output check from that world's own
-  package;
+- name-bridge, glosses and output check from that world's own package;
 - extended thinking disabled on every token-capped call (inherited fix).
 
 **The isolation property (constitutional, tested):** no voice turn's
@@ -200,7 +199,7 @@ Otherwise:
   moves; if the selector still cannot produce a legal speaker,
   `floor_unmet_exhausted`); cap closes the round regardless of the model's
   preference; an unknown `world_key` in the output is a failed call.
-- **Forced moves make no call** (added 2026-08-28, both live runs'
+- **Forced moves make no call** (both live runs'
   evidence): when closing is off the table and exactly one voice is
   eligible, there is no judgment to exercise — the code selects it and
   writes the honest reason itself. Both live runs showed the model, asked
@@ -248,8 +247,7 @@ unchanged.
   kind `turn_selector`; voice-generation and selector usage records carry
   the speaking/selected `world_key` (nullable on non-world calls) so
   per-world cost at a shared table is answerable.
-- Session cap: **C4 RESOLVED (2026-08-28, Mark's delegation of the full
-  C4 range)** — the table unit is **completed rounds**
+- Session cap: **C4 RESOLVED** — the table unit is **completed rounds**
   (`TABLE_SESSION_ROUND_CAP`, default 5), not voice turns: rounds are what
   a participant actually spends, and a voice-turn cap leaked the cost unit
   into the participant's experience (~3 questions per session). The
@@ -263,7 +261,7 @@ unchanged.
 
 ## 8. Gates before a participant sits at a Table
 
-**The Table battery (C5, defined 2026-08-28)** — the successor to the
+**The Table battery (C5)** — the successor to the
 poc's S4.4a battery, implemented in `engine/m4/live_table_battery.py`
 (live, by-hand, per-run authorized; every deterministic half is already
 CI). Six probes in one session, ordered so probes 1–5 spend the round cap
@@ -302,5 +300,5 @@ This artifact's own floor:
    `engine/m4/reports/`.
 5. Registry state gating is out of scope here but recorded: worlds sit at
    `built`; Table sessions inherit whatever state gate the engine applies
-   to interviews at the time (currently none — the 2026-08-26 finding), and
+   to interviews at the time (currently none), and
    this artifact must not become the reason that gap's fix regresses.

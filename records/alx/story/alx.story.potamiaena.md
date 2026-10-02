@@ -32,8 +32,7 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): Euseb
   to Basilides); ''still famous among the people of the country'' (HE VI.5.1''s own wording: ''who is
   still famous among the people of the country for the many things which she endured'') is his own
   note - a remembered martyr whose account has passed through devotional shaping.'
-tellable_as: the tradition of Potamiaena, a young woman martyred at Alexandria, as the church remembered
-  it
+tellable_as: The tradition of Potamiaena, a young woman put to death for her faith at Alexandria. This is how the church remembered her.
 text: 'The church remembered Potamiaena, a young woman martyred under Severus, and her mother Marcella
   alongside her. The vendored source is explicit that Potamiaena herself was not of Origen''s own circle
   of disciples - that place belongs to Basilides, the soldier who led her to execution and was himself

@@ -1,7 +1,8 @@
 source_file: piccolomini_historia-bohemica-lat_1592.txt
 
 assignments:
-  - work: "Historia Bohemica"
+  - row_id: piccolomini_historia-bohemica-lat_1592--historia-bohemica
+    work: "Historia Bohemica"
     author: piccolomini
     locus: "whole volume"
     atlas_ids:

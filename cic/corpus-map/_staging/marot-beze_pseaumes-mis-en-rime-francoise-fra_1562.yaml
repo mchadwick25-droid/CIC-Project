@@ -14,7 +14,8 @@ authors_ruled:
     from_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
 
 assignments:
-  - work: "Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)"
+  - row_id: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562--les-pseaumes-mis-en-rime-francoise-the-genevan-psalter
+    work: "Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)"
     author: marot-beze
     locus: "whole file"
     atlas_ids:

@@ -13,16 +13,16 @@ pieces and a real price table are run together end to end.
 PRICE SOURCE, stated plainly (spec principle 13's own requirement - a price
 table must name where its numbers came from): Anthropic's own published API
 rate card (platform.claude.com/docs/en/about-claude/pricing, fetched
-2026-08-25) for Claude Sonnet 4.5 and Claude Haiku 4.5. AWS Bedrock's own
+August 2026) for Claude Sonnet 4.5 and Claude Haiku 4.5. AWS Bedrock's own
 pricing page could not be fetched directly in this environment (network
 egress to aws.amazon.com is blocked here) - Bedrock has historically
 mirrored Anthropic's direct per-token rates for the same models, but that
 has NOT been independently re-verified against Bedrock's own page for this
 report. Treat these figures as published-rate, not invoice-reconciled -
 the same distinction cost.py's own docstring draws. The table itself lives
-in engine.m8.price_tables (extracted 2026-09-28 so the usage dashboard's
-cost figure, engine.api.wiring.get_usage_summary, reuses these exact
-approved numbers instead of a second hardcoded copy).
+in engine.m8.price_tables, so the usage dashboard's cost figure
+(engine.api.wiring.get_usage_summary) reuses these exact approved numbers
+instead of a second hardcoded copy.
 """
 import argparse
 import json

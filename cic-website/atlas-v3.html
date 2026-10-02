@@ -215,6 +215,9 @@ svg#world{display:block;overflow:visible}
 #panel .narration audio{display:block;height:1.9rem;max-width:180px;width:180px;flex:0 0 auto}
 #panel .narration-disclosure{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
   color:var(--ink-faded);margin:0}
+#panel .narration-auto{display:block;font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
+  color:var(--ink-faded);margin:.3rem 0 .2rem}
+#panel .narration-auto input{margin-right:.4rem}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
@@ -15985,8 +15988,8 @@ const DATA = {
    "name": "The Hussite & Bohemian Brethren Movement",
    "shortName": "Hussites",
    "informalName": "The Hussites and the Bohemian Brethren",
-   "dates": "1415-1517",
-   "start": 1415,
+   "dates": "1402-1517",
+   "start": 1402,
    "end": 1517,
    "region": "Bohemia",
    "regions": [
@@ -41186,6 +41189,47 @@ function hideTip(){tip.style.display='none';}
 
 /* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
+/* ---- Narration: starts when a card opens, stops when it closes ---- */
+const NARR_KEY='cic.narration.auto';
+function narrAuto(){try{return localStorage.getItem(NARR_KEY)!=='0';}catch(e){return true;}}
+function narrSetAuto(on){try{localStorage.setItem(NARR_KEY,on?'1':'0');}catch(e){}}
+function stopNarration(){
+  panelBody.querySelectorAll('audio').forEach(a=>{a.pause();try{a.currentTime=0;}catch(e){}});
+}
+function mainNarration(){
+  return [...panelBody.querySelectorAll('audio')].find(a=>!a.closest('details.docstory-item'));
+}
+// Browsers refuse sound that starts without a click (a shared ?world= link,
+// a slow load); the rejection is expected and leaves the play button as is.
+function startNarration(a){
+  if(!a||!narrAuto())return;
+  const p=a.play();
+  if(p&&p.catch)p.catch(()=>{});
+}
+function narrAddToggle(){
+  const first=panelBody.querySelector('.narration');
+  if(!first||panelBody.querySelector('.narration-auto'))return;
+  const label=document.createElement('label');
+  label.className='narration-auto';
+  const box=document.createElement('input');
+  box.type='checkbox'; box.checked=narrAuto();
+  box.addEventListener('change',()=>narrSetAuto(box.checked));
+  label.appendChild(box); label.appendChild(document.createTextNode('Start narration automatically'));
+  first.parentNode.insertBefore(label,first);
+}
+function narrCardReady(){narrAddToggle();startNarration(mainNarration());}
+// One voice at a time; opening a story inside a card starts it, closing stops it.
+panelBody.addEventListener('play',ev=>{
+  if(!ev.target||ev.target.tagName!=='AUDIO')return;
+  panelBody.querySelectorAll('audio').forEach(a=>{if(a!==ev.target)a.pause();});
+},true);
+panelBody.addEventListener('toggle',ev=>{
+  const d=ev.target;
+  if(!d||!d.matches||!d.matches('details.docstory-item'))return;
+  const a=d.querySelector('audio');
+  if(!a)return;
+  if(d.open)startNarration(a); else {a.pause();try{a.currentTime=0;}catch(e){}}
+},true);
 // Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
 // contract already shipping in atlas-v3.html and index.html -- reused, not
 // reinvented, so a link into this map's worlds lands the same place a link
@@ -41277,6 +41321,7 @@ async function loadBuiltWorldOrientation(censusId){
     if(!h)h='<p class="meta">No further orientation content recorded for this world yet.</p>';
     slot.innerHTML=h;
     slot.classList.remove('orient-loading');
+    if(slot.isConnected&&panel.classList.contains('open'))narrCardReady();
   }catch(err){
     slot.innerHTML='<p class="meta">This world’s fuller record could not be loaded right now. Try reopening this panel.</p>';
     slot.classList.remove('orient-loading');
@@ -41404,7 +41449,7 @@ function openPanel(m){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
     if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   }
-  panelBody.innerHTML=h; showPanel(); hideTip();
+  stopNarration(); panelBody.innerHTML=h; showPanel(); hideTip(); narrCardReady();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   // Built worlds' own documented stories arrive later (loadBuiltWorldOrientation,
   // fetched below) and carry no hover-tooltip teaser of their own - the
@@ -41456,7 +41501,8 @@ function openPanelStory(s){
       return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
     }).join('');
   }
-  panelBody.innerHTML=h;
+  stopNarration(); panelBody.innerHTML=h;
+  narrCardReady();
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41465,7 +41511,7 @@ function openPanelStory(s){
 }
 function openPanelEdge(edg,a,b){
   hideTip();
-  panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
+  stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
     <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
     <p>${esc(edg.note)}</p>`;
   showPanel();
@@ -41529,7 +41575,7 @@ function openPanelRiver(f,members){
   h+=`<h3>Movements in this river</h3><ul class="voices">${members.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(m.dates)}</li>`
   ).join('')}</ul>`;
-  panelBody.innerHTML=h;
+  stopNarration(); panelBody.innerHTML=h;
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41556,6 +41602,7 @@ function showPanel(){
   document.getElementById('panelClose').focus();
 }
 function closePanel(){
+  stopNarration();
   panel.classList.remove('open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();

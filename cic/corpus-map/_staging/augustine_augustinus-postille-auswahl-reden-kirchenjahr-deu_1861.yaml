@@ -1,0 +1,14 @@
+source_file: augustine_augustinus-postille-auswahl-reden-kirchenjahr-deu_1861.txt
+
+assignments:
+  - row_id: augustine_augustinus-postille-auswahl-reden-kirchenjahr-deu_1861--augustinus-postille-a-german-selection-of-augustine-s
+    work: "Augustinus-Postille: a German selection of Augustine's sermons by church year (1861)"
+    author: augustine
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A German selection of sermons, compiler not named in the OCR. Not the original. Fraktur
+      OCR is poor. Registry row 251.

@@ -56,12 +56,22 @@ def is_fixture(entry: dict) -> bool:
     return kind_of(entry) == KIND_FIXTURE
 
 
+# States a world reaches once it has a compiled package. A world registered at
+# the Library handoff (state: candidate) has an entry and no package yet.
+BUILT_STATES = frozenset({"built", "admitted", "open"})
+
+
+def is_built(entry: dict) -> bool:
+    return entry.get("state") in BUILT_STATES
+
+
 def formation_world_keys(registry: dict | None = None) -> list[str]:
-    """The worlds a participant could ever speak to. Everything that lists,
-    counts or reports worlds should use this; build and test paths that
-    need the fixture ask for it by name."""
+    """The worlds a participant could ever speak to: formation worlds that
+    have a compiled package. Everything that lists, counts or reports worlds
+    should use this; build and test paths that need the fixture, or a world
+    still at the Library stage, ask for it by name."""
     registry = registry if registry is not None else load_registry()
-    return sorted(k for k, v in registry.items() if not is_fixture(v))
+    return sorted(k for k, v in registry.items() if not is_fixture(v) and is_built(v))
 
 
 # The project lead sets this yes/no field on a world's registry entry at the

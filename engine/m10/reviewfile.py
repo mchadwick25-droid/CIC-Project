@@ -13,9 +13,12 @@ FIELD_REVIEWER_MODEL = "Reviewer model"
 FIELD_DRAFTER_MODEL = "Drafter model"
 FIELD_REVIEWER_AGENT = "Reviewer agent"
 FIELD_DRAFTER_AGENT = "Drafter agent"
+DRAFTER_WITHHELD = "withheld until the mapping is revealed"
+
 FIELD_ROUND = "Round"
 FIELD_TRUNCATION_METHOD_1 = "Truncation check, method 1"
 FIELD_TRUNCATION_METHOD_2 = "Truncation check, method 2"
+FIELD_CYCLE_RESET = "Cycle reset"
 
 HEADER_FIELDS = (
     FIELD_REVIEWER_MODEL,
@@ -45,6 +48,10 @@ def _same_agent(a: str, b: str) -> bool:
     return key(a) == key(b)
 
 
+def _withheld(value: str | None) -> bool:
+    return value is not None and value.strip().rstrip(".").lower() == DRAFTER_WITHHELD
+
+
 def _canonical(line: str) -> str:
     line = line.strip().strip("*_#> ").strip()
     line = _DASHES.sub("-", line)
@@ -60,6 +67,14 @@ def _field_value(lines: list[str], name: str) -> str | None:
         if m:
             return m.group(1).strip()
     return None
+
+
+def cycle_reset(path: Path) -> str | None:
+    """The text of the optional `Cycle reset` header field, or None when the
+    file carries none."""
+    if not path.is_file():
+        return None
+    return _field_value(read_text(path).splitlines()[1 : HEADER_LINES + 1], FIELD_CYCLE_RESET)
 
 
 def check_review_file(path: Path, root: Path = REPO_ROOT) -> list[Finding]:
@@ -91,16 +106,23 @@ def check_review_file(path: Path, root: Path = REPO_ROOT) -> list[Finding]:
     reviewer, drafter = filled(FIELD_REVIEWER_MODEL), filled(FIELD_DRAFTER_MODEL)
     if reviewer and model_id(reviewer) != REVIEWER_MODEL_ID:
         bad("reviewfile-reviewer", f"reviewer model is {reviewer!r}; it must be {REVIEWER_MODEL_ID}")
-    if drafter and model_id(drafter) is None:
-        bad("reviewfile-drafter", f"drafter model {drafter!r} is not a recognized model name")
     reviewer_agent, drafter_agent = filled(FIELD_REVIEWER_AGENT), filled(FIELD_DRAFTER_AGENT)
-    if reviewer_agent and drafter_agent and _same_agent(reviewer_agent, drafter_agent):
+    model_withheld, agent_withheld = _withheld(drafter), _withheld(drafter_agent)
+    if drafter and drafter_agent and model_withheld != agent_withheld:
+        bad("reviewfile-drafter", "the drafter model and the drafter agent must both be withheld, or neither")
+    if drafter and not model_withheld and model_id(drafter) is None:
+        bad("reviewfile-drafter", f"drafter model {drafter!r} is not a recognized model name")
+    if reviewer_agent and drafter_agent and not agent_withheld and _same_agent(reviewer_agent, drafter_agent):
         bad("reviewfile-independence", "the reviewer agent and the drafter agent are the same; the reviewer is never the drafter")
 
     m1, m2 = values[FIELD_TRUNCATION_METHOD_1], values[FIELD_TRUNCATION_METHOD_2]
     if m1 and m2 and not PLACEHOLDER.match(m1) and not PLACEHOLDER.match(m2):
         if re.sub(r"\W+", " ", m1).strip().lower() == re.sub(r"\W+", " ", m2).strip().lower():
             bad("reviewfile-truncation", "the two truncation-check methods are identical; they must be independent methods")
+
+    reset = _field_value(header, FIELD_CYCLE_RESET)
+    if reset is not None and (not reset or PLACEHOLDER.match(reset)):
+        bad("reviewfile-cycle-reset", "header field 'Cycle reset' is present but empty or a placeholder; it must cite the ruling that restarts the round count")
 
     round_value = values[FIELD_ROUND]
     if round_value and not PLACEHOLDER.match(round_value):

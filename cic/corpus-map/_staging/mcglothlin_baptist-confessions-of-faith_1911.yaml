@@ -1,7 +1,8 @@
 source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
 
 assignments:
-  - work: "The Schleitheim Confession (1527)"
+  - row_id: mcglothlin_baptist-confessions-of-faith_1911--the-schleitheim-confession-1527
+    work: "The Schleitheim Confession (1527)"
     author: swiss-brethren
     locus: "pp. 3-9 of the printed volume"
     atlas_ids:

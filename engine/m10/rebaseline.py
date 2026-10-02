@@ -9,7 +9,7 @@ from datetime import date
 from pathlib import Path
 
 from .common import PLACEHOLDER, REPO_ROOT, Finding, markdown_tables, read_text, rel, world_dir
-from .rounds import ROUND_CAP, cap_message, clearance_message, latest_review, review_files
+from .rounds import ROUND_CAP, cap_message, clearance_message, counted_review_files, latest_review, review_files
 from .verdicts import CLEARED, verdict_word
 
 CHECK_ID = "handoff-declaration"
@@ -63,7 +63,7 @@ def current_state(code: str, doc: int, root: Path = REPO_ROOT) -> State:
     if not found:
         return State(0, "none", "none")
     description, latest = latest_review(found)
-    return State(len(found), description, verdict_word(latest))
+    return State(len(counted_review_files(code, doc, root)), description, verdict_word(latest))
 
 
 @dataclass(frozen=True)

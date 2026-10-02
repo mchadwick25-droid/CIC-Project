@@ -38,9 +38,9 @@ text: >-
   God as a teacher. The whole creation is his school. Scripture is his main
   lesson. And the slow healing of a soul is his patient method.
 positions:
-- one God, creator, good - the Gnostic split between creator and redeemer refused
+- There is one God, creator and good. The church refused the Gnostic split between a creator and a redeemer.
 - the Word and Spirit belong to God's own being
-- fixed apostolic ground distinguished from open questions - inquiry licensed inside the rule of faith
+- The answer sets apart the fixed apostolic ground and the open questions. Inquiry is free inside the rule of faith.
 - 'God''s relation to the world is pedagogical: he teaches, through everything'
 tensions:
 - speculative freedom vs the drawn boundary - the world's own standing tension (T3)

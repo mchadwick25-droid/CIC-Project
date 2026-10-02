@@ -27,14 +27,6 @@ QUOTE_VERBATIM = {
     "license": "verbatim",
 }
 
-QUOTE_DO_NOT_VOICE = {
-    "id": "fix.quote.test-do-not-voice",
-    "record_type": "quote",
-    "text": "What is written for the initiate alone is not for the crowd.",
-    "modern_rendering": "This teaching is not for everyone to hear.",
-    "license": "do-not-voice",
-}
-
 QUOTE_PARAPHRASE_ONLY = {
     "id": "fix.quote.test-paraphrase-only",
     "record_type": "quote",
@@ -43,7 +35,7 @@ QUOTE_PARAPHRASE_ONLY = {
     "license": "paraphrase-only",
 }
 
-FLEET_QUOTES = {q["id"]: q for q in (QUOTE_VERBATIM, QUOTE_DO_NOT_VOICE, QUOTE_PARAPHRASE_ONLY)}
+FLEET_QUOTES = {q["id"]: q for q in (QUOTE_VERBATIM, QUOTE_PARAPHRASE_ONLY)}
 
 
 def _world_front(text: str, grounded_in=None) -> dict:
@@ -78,14 +70,6 @@ def test_catches_a_quoted_span_pulled_from_the_text_field_instead():
     assert "modern_rendering" in findings[0]
 
 
-def test_catches_do_not_voice_material_even_from_modern_rendering():
-    bad = _world_front('We hold this quietly: "This teaching is not for everyone to hear."')
-    findings = gate_quote_mark_fidelity({bad["id"]: bad}, FLEET_QUOTES, {})
-    assert len(findings) == 1
-    assert "fix.quote.test-do-not-voice" in findings[0]
-    assert "do-not-voice" in findings[0]
-
-
 def test_catches_paraphrase_only_material_from_either_field():
     bad_text = _world_front('"A fragile textual tradition, only loosely attested."')
     bad_rendering = _world_front('"A shaky tradition, barely recorded."')
@@ -112,13 +96,13 @@ def test_ignores_non_world_front_records_entirely():
 
 
 def test_cross_record_consistency_flags_a_multi_grounded_unit():
-    wf = _world_front("Some claim.", grounded_in=["fix.quote.test-verbatim", "fix.quote.test-do-not-voice"])
+    wf = _world_front("Some claim.", grounded_in=["fix.quote.test-verbatim", "fix.quote.test-paraphrase-only"])
     findings = flag_cross_record_consistency({wf["id"]: wf}, {}, {})
     kinds = {f["kind"] for f in findings}
     assert "multi-grounded-unit" in kinds
     hit = next(f for f in findings if f["kind"] == "multi-grounded-unit")
     assert hit["world_front"] == wf["id"]
-    assert set(hit["grounded_in"]) == {"fix.quote.test-verbatim", "fix.quote.test-do-not-voice"}
+    assert set(hit["grounded_in"]) == {"fix.quote.test-verbatim", "fix.quote.test-paraphrase-only"}
 
 
 def test_cross_record_consistency_flags_an_associated_with_pair():

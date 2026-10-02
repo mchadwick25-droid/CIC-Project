@@ -50,6 +50,24 @@ the templates in `Build/reference/L4-Templates/` and never fork a copy.
    thread. Check 1 fails until `records/worlds/<code>.yaml` carries
    `safety_adjacent: true` or `safety_adjacent: false`. Mark sets it at
    handoff, and a world cannot start without it. Never set it yourself.
+   The registry entry also carries `world_id` and `census_id`, created at
+   the project lead's world-code assignment; the gate reads the bucket and
+   dossier through `census_id`. Send the world back unless every Library-stage
+   item is done (Process V2.0, Section 4, checklist):
+   - registry entry with `world_id` and `census_id` (`handoff-01-identity`)
+   - Step 0, 1 and 2 approved to proceed, review files named
+     `Step0_Review_Round<n>.md`, `Doc01_Round<n>_Review.md` and
+     `Doc02_Round<n>_Review.md`, the latest carrying a
+     `Disposition: Approved to proceed` line (`handoff-02-step0`,
+     `handoff-03-step1`, `handoff-04-step2`)
+   - dossier, corpus-map bucket and vendored texts complete
+     (`handoff-05-dossier`, `handoff-06-corpus-map`, `handoff-07-texts`)
+   - every quotation verbatim with a `cic:<file>:<locus>` address
+     (`handoff-08-quotes`)
+   - open questions and gaps ledger in place (`handoff-09-open-questions`,
+     `handoff-10-ledger`)
+   - no process narration (`handoff-11-narration`)
+   - handoff manifest built at Step 2 close (`handoff-12-manifest`)
 6. If the metered ceiling for this world is still a placeholder, do not
    start any paid run. Log it as an open item and ask Mark for the number
    when the first paid run is due.
@@ -74,7 +92,9 @@ the current one is approved to proceed.
   validation.
 - In a pilot world, Sonnet 5.5 and Fable each draft Doc_10. Opus 5.5
   grades the two blind on Rigor, Accessibility, Craft and Focus. Record
-  the grading in the cost ledger.
+  the grading in the cost ledger. Follow
+  `Build/reference/method/CiC_Pilot_Protocol_V2.0.md` for the blinding,
+  grading and decision rule.
 - Opus 5.5 (`claude-opus-5-5`) runs every review round and every blind
   grading. It writes every `modern_rendering`. A separate Opus pass checks
   each rendering.

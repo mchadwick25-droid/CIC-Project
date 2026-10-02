@@ -1,7 +1,8 @@
 source_file: ausbund_lancaster1846-deu.txt
 
 assignments:
-  - work: "Ausbund, das ist: etliche schoene christliche Lieder"
+  - row_id: ausbund_lancaster1846-deu--ausbund-das-ist-etliche-schoene-christliche-lieder
+    work: "Ausbund, das ist: etliche schoene christliche Lieder"
     author: ausbund
     locus: "whole volume"
     atlas_ids:
