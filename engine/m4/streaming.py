@@ -90,6 +90,8 @@ from typing import Iterator
 
 from anthropic import APIError, APITimeoutError
 
+from engine.m4.completeness import trim_to_complete_sentence
+from engine.m4.generation import VOICE_MAX_TOKENS
 from engine.m4.grounding_net import _TAG, build_figure_lexicon, strip_tags, verdict_for_sentence
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.transparency_plan import ElementBuilder
@@ -156,7 +158,7 @@ def stream_voice_turn_sentences(
     message: str,
     turn_directive: str | None = None,
     history: list[dict] | None = None,
-    max_tokens: int = 1024,
+    max_tokens: int = VOICE_MAX_TOKENS,
     timeout: float = 90.0,
     repository_records: dict[str, dict],
     thin_topics: list[dict] | None = None,
@@ -183,7 +185,9 @@ def stream_voice_turn_sentences(
         output, which may hold more than what cleared), its per-sentence
         citations (engine.m4.turn.apply_net's own {sentence, record_ids}
         shape) and inline elements (engine.m4.transparency_plan's own
-        shape, via the same ElementBuilder the whole-turn path uses).
+        shape, via the same ElementBuilder the whole-turn path uses) and
+        "truncated": whether the API stopped at the output ceiling, in
+        which case the unfinished tail was dropped, not emitted.
         Always the last event on a clean stream.
       {"type": "error", "status"} - "timeout" or "error", mirroring
         engine.m5.failure.CallOutcome's own status vocabulary (this
@@ -251,6 +255,18 @@ def stream_voice_turn_sentences(
                         continue
                     yield from _emit_ready(ready)
 
+                # The API stops at the output ceiling with stop_reason
+                # "max_tokens"; what is left in `buffer` is then a fragment,
+                # not a sentence the model finished. Keep only what is
+                # finished (the sentences already emitted always were), so
+                # a cut-off tail is never emitted as a sentence.
+                truncated = False
+                if not violation:
+                    final_message = stream.get_final_message()
+                    truncated = getattr(final_message, "stop_reason", None) == "max_tokens"
+                    if truncated:
+                        buffer, _ = trim_to_complete_sentence(buffer)
+
                 if not opening_checked and not violation:
                     # The stream ended before opening_sentence_count
                     # sentences ever accumulated as their own "ready"
@@ -292,7 +308,10 @@ def stream_voice_turn_sentences(
 
                 answer_text = " ".join(s.text for s in emitted)
                 citations = [{"sentence": s.text, "record_ids": s.tags} for s in emitted if s.tags]
-                yield {"type": "done", "answer_text": answer_text, "citations": citations, "trailing_elements": trailing_elements}
+                yield {
+                    "type": "done", "answer_text": answer_text, "citations": citations,
+                    "trailing_elements": trailing_elements, "truncated": truncated,
+                }
                 return
         except APITimeoutError:
             yield {"type": "error", "status": "timeout"}

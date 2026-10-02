@@ -24,7 +24,7 @@ fallback ladder appends, it never revises). A finding is a signal that
 something upstream is wrong, not something to paper over on the way out.
 So nothing here mutates text, and the findings ride on the voice event.
 
-FOUR FAMILIES, chosen because each is EXACTLY decidable on the finished
+FIVE FAMILIES, chosen because each is EXACTLY decidable on the finished
 text (given, for the fourth, the citations and records the turn already
 resolved). Register in general is not (engine/m3/grading.py says so about
 itself, and it is right); these four are.
@@ -40,6 +40,10 @@ itself, and it is right); these four are.
   pronoun        the strict we-voice. First-person singular outside the one
                  sanctioned self-naming line, and outside quoted historical
                  speech, which keeps its own original wording by rule.
+  cutoff         the reply stops short of a finished sentence. The
+                 generation call trims a fragment the output ceiling cut
+                 (engine.m4.generation); this family is the check that
+                 nothing else ever lets one through.
   guard_proximity a sentence that cites a record marked with a
                  claim_guards entry - a barred proposition -
                  and shares that barred proposition's own subject matter
@@ -59,6 +63,7 @@ that a failure becomes visible instead of silent.
 """
 import re
 
+from engine.m4.completeness import ends_on_full_stop
 from engine.prose import GUARD_MARKERS, QUOTE_CLOSE, QUOTE_OPEN, SELF_NAMING_MARKER, content_words, is_guard_marker_line, sentences
 
 # Anything in tag position, however it is spelled. grounding_net.strip_tags
@@ -387,6 +392,12 @@ def _guard_proximity_findings(text: str, citations: list[dict] | None, repositor
     return out
 
 
+def _cutoff_findings(text: str) -> list[dict]:
+    if ends_on_full_stop(text):
+        return []
+    return [_finding("cutoff", "the reply stops before a finished sentence", text.strip()[-80:])]
+
+
 def check_output(
     text: str,
     *,
@@ -418,6 +429,7 @@ def check_output(
         + _conversational_findings(text, history)
         + _premise_findings(text, participant_message, said)
         + _pronoun_findings(text)
+        + _cutoff_findings(text)
         + _guard_proximity_findings(text, citations, repository_records)
     )
 

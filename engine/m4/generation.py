@@ -22,19 +22,31 @@ from dataclasses import dataclass
 
 from anthropic import APIError, APITimeoutError
 
+from engine.m4.completeness import trim_to_complete_sentence
 from engine.m4.voice_request import build_voice_request
 from engine.m5.failure import CallOutcome
+
+
+# The voice call's output ceiling. A reply reaching it is cut by the API, not
+# finished by the model; stream_voice_turn below never lets that fragment out.
+# Replies run 400-800 words (about 1,024 tokens at the top), so 2,048 is twice
+# the longest seen and still inside the call's 90s bound at the measured
+# 35-60 tokens a second. The prompt keeps replies short; this ceiling exists
+# so that a reply is never stopped by the count.
+VOICE_MAX_TOKENS = 2048
 
 
 @dataclass(frozen=True)
 class StreamResult:
     text: str
     empty: bool  # true when the stream produced zero text - the literal case the crisis-append gate item names
+    truncated: bool = False  # the API stopped at max_tokens; `text` is cut back to the last finished sentence
+    dropped: str = ""  # the unfinished fragment removed from the end of `text`
 
 
 def stream_voice_turn(
     client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None = None,
-    history: list[dict] | None = None, max_tokens: int = 1024, timeout: float = 90.0,
+    history: list[dict] | None = None, max_tokens: int = VOICE_MAX_TOKENS, timeout: float = 90.0,
 ) -> CallOutcome:
     """Returns a CallOutcome whose .value is a StreamResult on success. A
     stream that completes but yields zero text is still status='ok' (it's a
@@ -68,11 +80,24 @@ def stream_voice_turn(
         ) as stream:
             for text in stream.text_stream:
                 chunks.append(text)
-            final_usage = stream.get_final_message().usage
+            final_message = stream.get_final_message()
+            final_usage = final_message.usage
+            stop_reason = getattr(final_message, "stop_reason", None)
     except APITimeoutError:
         return CallOutcome(status="timeout")
     except APIError as e:
         return CallOutcome(status="error", value={"error": str(e)})
 
     full_text = "".join(chunks)
-    return CallOutcome(status="ok", value=StreamResult(text=full_text, empty=(full_text.strip() == "")), raw_usage=final_usage)
+    # stop_reason == "max_tokens" means the count ran out, not the model: the
+    # text ends wherever it stood. Cut it back to the last finished sentence
+    # so no caller grades, shows or stores a fragment as a reply.
+    truncated = stop_reason == "max_tokens"
+    dropped = ""
+    if truncated:
+        full_text, dropped = trim_to_complete_sentence(full_text)
+    return CallOutcome(
+        status="ok",
+        value=StreamResult(text=full_text, empty=(full_text.strip() == ""), truncated=truncated, dropped=dropped),
+        raw_usage=final_usage,
+    )

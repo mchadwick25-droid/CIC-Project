@@ -638,6 +638,7 @@ def _run_ordinary_voice_turn(
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
+    voice_truncated = stream_outcome.value.truncated
     if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id, world_key=usage_world_key):
         usage_records.append(rec)
 
@@ -659,6 +660,7 @@ def _run_ordinary_voice_turn(
         )
         if retry_outcome.status != "ok":
             raise RuntimeError(f"voice generation retry call failed: {retry_outcome.status} {retry_outcome.value}")
+        voice_truncated = voice_truncated or retry_outcome.value.truncated
         if rec := _maybe_record_usage(
             retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
         ):
@@ -783,6 +785,7 @@ def _run_ordinary_voice_turn(
             )
             if retry_outcome.status != "ok":
                 raise RuntimeError(f"voice generation retry call failed: {retry_outcome.status} {retry_outcome.value}")
+            voice_truncated = voice_truncated or retry_outcome.value.truncated
             if rec := _maybe_record_usage(
                 retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
             ):
@@ -859,6 +862,7 @@ def _run_ordinary_voice_turn(
         )
         if retry_outcome.status != "ok":
             raise RuntimeError(f"voice generation retry call failed: {retry_outcome.status} {retry_outcome.value}")
+        voice_truncated = voice_truncated or retry_outcome.value.truncated
         if rec := _maybe_record_usage(
             retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
         ):
@@ -987,7 +991,7 @@ def _run_ordinary_voice_turn(
         # needing a catalog change.
         "attempts_meta": {
             "empty_stream_retries": 0, "r27_regenerated": attempts_meta_r27_regenerated,
-            "self_revision": self_revision_meta,
+            "self_revision": self_revision_meta, "voice_truncated": voice_truncated,
         },
         "grounding": net_result,
         "transparency": transparency,
