@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Narration sound test</title>
+<style>
+body{font:16px/1.4 system-ui,sans-serif;margin:0;padding:14px;background:#faf8f4;color:#222}
+h1{font-size:1.2rem;margin:.2rem 0 .6rem}
+button{display:block;width:100%;font:inherit;padding:.8rem;margin:.45rem 0;border:1px solid #888;border-radius:8px;background:#fff;text-align:left}
+button small{display:block;color:#555}
+#log{white-space:pre-wrap;font:12px/1.35 ui-monospace,monospace;background:#fff;border:1px solid #bbb;border-radius:8px;padding:8px;min-height:8rem}
+.note{color:#555;font-size:.9rem}
+audio{width:100%}
+</style></head><body>
+<h1>Narration sound test</h1>
+<p class="note">Turn the volume up. Tap one test at a time. After each, say whether you HEARD the voice within about 3 seconds. Then tap Stop all before the next test.</p>
+<div id="env" class="note"></div>
+<button id="tA">A. Tap: <code>new Audio()</code> then play()<small>how a card starts today</small></button>
+<button id="tB">B. Tap: audio element in the page, preload none, play()</button>
+<button id="tC">C. Tap: audio element in the page, preload auto, play()</button>
+<button id="tD">D. Tap: load() first, then play()</button>
+<button id="tE">E. Tap: set audio session to "playback", then play()</button>
+<button id="tF">F. Tap: start muted, unmute after half a second</button>
+<p class="note">G. Native controls: press the play button on this player yourself.</p>
+<audio id="gAudio" controls preload="none"></audio>
+<button id="stop" style="background:#eee">Stop all</button>
+<p class="note">Log (take a screenshot of this box after you have tried the tests):</p>
+<div id="log"></div>
+<script>
+const FILE='audio/stories/perpetua-and-felicity.mp3';
+const logEl=document.getElementById('log');
+const t0=performance.now();
+const say=s=>{logEl.textContent+=((performance.now()-t0)/1000).toFixed(1).padStart(5)+'s '+s+'\n';};
+document.getElementById('env').textContent=navigator.userAgent+' | audioSession: '+(navigator.audioSession?navigator.audioSession.type:'not supported')+' | userActivation: '+(navigator.userActivation?'yes':'no');
+let running=[];
+function fresh(){return FILE+'?v='+Math.random().toString(36).slice(2);}
+function watch(name,a){
+  const ev=['loadstart','loadedmetadata','canplay','playing','pause','waiting','stalled','error','ratechange'];
+  ev.forEach(e=>a.addEventListener(e,()=>say(name+' event '+e+(e==='error'&&a.error?' code '+a.error.code:''))));
+  let n=0;const id=setInterval(()=>{
+    n++;
+    say(name+' t='+a.currentTime.toFixed(1)+' paused='+a.paused+' ready='+a.readyState+' net='+a.networkState+' muted='+a.muted+' vol='+a.volume+' decodedBytes='+(a.webkitAudioDecodedByteCount===undefined?'n/a':a.webkitAudioDecodedByteCount));
+    if(n>=6)clearInterval(id);
+  },700);
+  running.push({a,id});
+}
+function start(name,make,after){
+  say('--- '+name+' ---');
+  const a=make();
+  watch(name,a);
+  const p=a.play();
+  if(p&&p.then)p.then(()=>say(name+' play() resolved'),e=>say(name+' play() rejected: '+e.name));
+  if(after)after(a);
+}
+document.getElementById('tA').onclick=()=>start('A',()=>{const a=new Audio(fresh());return a;});
+document.getElementById('tB').onclick=()=>start('B',()=>{const a=document.createElement('audio');a.controls=true;a.preload='none';a.src=fresh();document.body.insertBefore(a,document.getElementById('stop'));return a;});
+document.getElementById('tC').onclick=()=>start('C',()=>{const a=document.createElement('audio');a.controls=true;a.preload='auto';a.src=fresh();document.body.insertBefore(a,document.getElementById('stop'));return a;});
+document.getElementById('tD').onclick=()=>{say('--- D ---');const a=new Audio(fresh());watch('D',a);a.load();const p=a.play();if(p&&p.then)p.then(()=>say('D play() resolved'),e=>say('D play() rejected: '+e.name));};
+document.getElementById('tE').onclick=()=>{try{if(navigator.audioSession)navigator.audioSession.type='playback';say('E audioSession set: '+(navigator.audioSession?navigator.audioSession.type:'not supported'));}catch(e){say('E audioSession error '+e.message);}start('E',()=>new Audio(fresh()));};
+document.getElementById('tF').onclick=()=>start('F',()=>{const a=new Audio(fresh());a.muted=true;return a;},a=>setTimeout(()=>{a.muted=false;say('F unmuted');},500));
+const g=document.getElementById('gAudio');g.src=fresh();watch('G',g);
+document.getElementById('stop').onclick=()=>{running.forEach(r=>{r.a.pause();clearInterval(r.id);});document.querySelectorAll('audio').forEach(a=>a.pause());say('--- stopped ---');};
+</script></body></html>
