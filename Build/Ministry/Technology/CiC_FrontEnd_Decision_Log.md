@@ -5189,3 +5189,33 @@ that points at any of them; the map plays each built world from
 
 1. Wittenberg's full world story and legacy still wait on its `world_front`
    record, which is a world-build step, not a narration step.
+
+## 2026-10-02 — The Unfolding Story narrated in a neutral American voice
+
+**Decision.** The Unfolding Story (the landing page section and `story.html`)
+is narrated in one voice that belongs to no Representative. Mark did not want
+his own voice simulated and does not record well, so a library voice was chosen
+by ear. Mark heard six candidates (George, Alice, Brian, then Bill, Eric,
+Chris), wanted George without the British accent, and chose Eric.
+
+**Settings, as printed by the run.** Voice `cjVigY5qzO86Huf0OWal`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 240 credits for 1,799 characters, plus 456 credits for the six
+samples. The text is read from `story.html` by
+`Build/tools/generate_site_narration.mjs`, which writes
+`audio/site/unfolding-story.mp3` and a manifest with the text fingerprint, so an
+edit to the story shows the audio is stale.
+
+**Wired.** A player with the synthesized-voice note sits under the heading on
+both pages. It does not start by itself, because a landing page that speaks
+unprompted is a different choice than a card the visitor opened.
+
+**Limit.** The library has no Colorado-labelled voice and the key cannot search
+voices; Eric is general American English.
+
+### Next action
+
+1. Mark listens on the live site; the same voice is the candidate for the About
+   pages.

@@ -1,0 +1,15 @@
+{
+  "unfolding-story": {
+    "hash": "48d081de60726149",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 1799
+  }
+}
