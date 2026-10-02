@@ -709,5 +709,77 @@
     "use_speaker_boost": true
    }
   }
+ },
+ "lutheran-wittenberg-and-its-congregations": {
+  "story": {
+   "file": "lutheran-wittenberg-and-its-congregations/story.mp3",
+   "chars": 6639,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-0": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-0.mp3",
+   "chars": 2684,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-1": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-1.mp3",
+   "chars": 1840,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "docstory-2": {
+   "file": "lutheran-wittenberg-and-its-congregations/docstory-2.mp3",
+   "chars": 1476,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  },
+  "legacy": {
+   "file": "lutheran-wittenberg-and-its-congregations/legacy.mp3",
+   "chars": 804,
+   "voiceId": "40lgdJOC1ND7hPOQX92p",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.1,
+    "use_speaker_boost": true
+   }
+  }
  }
 }

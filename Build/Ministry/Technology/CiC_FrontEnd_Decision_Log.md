@@ -5266,3 +5266,42 @@ an iPhone.
 1. Mark listens on the live conversation page, including on an iPhone.
 2. A welcome for the Table, and a greeting in each Representative's own voice,
    stay open as separate decisions.
+
+## 2026-10-02 — Wittenberg joins the built worlds: front door, site data and full narration
+
+**Decision.** Wittenberg's `world_front` and `facilitator_brief` were written,
+reviewed and compiled, so it now behaves like the other built worlds. Three
+independent Opus review rounds ran (round 1 substantial, round 2 substantial on
+one unit, round 3 cleared; the cap was not exceeded). The held "church today"
+question (OG-51 item 4) is neither settled nor hinted in either record. The
+Representative's name stays out of both, as the voice record requires.
+
+**Done.** The package was rebuilt and repinned; the site JSON
+`cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json` was
+compiled; the three Wittenberg waivers in `engine/m1/cross_world.py` were
+removed (OG-57); the tradition page was regenerated; Wittenberg was added to
+`BUILT_WORLD_IDS` in `atlas-v3.html`; its tree page no longer shows the older
+description recording, as for every built world. Its two embedded documented
+stories were removed from `world-census.json` and from the map data, because
+the world front now carries its own three (the letter to Albrecht, the eight
+sermons, the Diet of Augsburg). This matches how the other ten built worlds
+carry no embedded stories.
+
+**Narration.** Story, three documented stories and legacy, in the Representative's
+voice Mark approved for Wittenberg. Voice `40lgdJOC1ND7hPOQX92p`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+API speed 1, tempo 1. 13,443 characters, 1,793 credits, as printed by the run.
+
+**Left in place, now unreferenced.** `audio/tree/lutheran-wittenberg-and-its-congregations.mp3`
+and the two `audio/docstories/lutheran-wittenberg-and-its-congregations-{0,1}.mp3`
+files with their manifest entries. Nothing was deleted without instruction.
+
+**Checked.** Cross-world and waiver tests, `records witt`, `regate witt`,
+`deployed`, `integrity`, both staleness checks and the census and map sync
+checks pass. In Chromium the Wittenberg card starts its story, shows five
+players and one documented-stories section, with no page errors.
+
+### Next action
+
+1. Mark listens to a Wittenberg card on the live site.
+2. Mark rules on deleting the three unreferenced Wittenberg audio files.
