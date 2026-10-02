@@ -135,3 +135,9 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 - The engine's `SESSION_TURN_CAP` is 10 today. Moving it to 3 for free and 7 for paid is an engine change this module does not make.
 - Whether 3 rounds is enough for a participant to hear a world's voice in full. The research found the free unit must give the whole experience before any ask.
 - The shared-network limit on the anonymous free allowance (see entry 4).
+
+## 14. A round is a turn: free conversations capped at 3 turns, paid at 7 (2026-10-02)
+
+**Clarification (Mark):** the conversation is capped at 3 turns in the free allowance and 7 turns in a paid conversation. This confirms the reading of "round" as one participant message and the Representative's reply, left open in entry 13.
+
+**Measured cost under the caps** (15-turn run, rate card, warm cache): about $0.08 for a 3-turn conversation and $0.23 for a 7-turn one, about $0.13 and $0.28 after a cache lapse. Replies in that run were long; entry 12 aims for shorter ones.
