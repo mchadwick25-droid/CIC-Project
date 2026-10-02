@@ -36,6 +36,20 @@ works:
 
     '
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
+- row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria
+  work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
+  author: egeria
+  locus: whole text; the Jerusalem liturgy (Lent, Holy Week, Easter octave, Epiphany, catechumens)
+    from about file line 3800 on; the Abgar letter at Edessa, file lines 3329-3522
+  role: tradition
+  confidence: assigned
+  note: 'First-hand description of the Jerusalem liturgical year, c. 381-384, by a Western
+    pilgrim. The queue row that opened this vendoring. English translation only; no Latin
+    witness is vendored. The editors'' introduction (before about line 3300) is 1919 scholarship,
+    not Egeria''s voice.
+
+    '
+  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
 - row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages
   work: On Pilgrimages
   author: gregory_nyssa
@@ -63,6 +77,18 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-james
+  work: Liturgy of S. James
+  author: liturgy-of-st-james
+  locus: file lines 3064-4800 (page header 'SAINT JAMES' at 3064 and 3622)
+  role: context
+  confidence: assigned
+  note: 'Neale''s English of the Jerusalem rite. Same work as the James liturgy in the vendored
+    ANF volume 7 (a different translator and text tradition); this is a second witness for
+    comparison. Attribution to James is traditional.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
   work: The Divine Liturgy of James
   author: liturgy-of-st-james

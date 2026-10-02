@@ -28,6 +28,52 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- row_id: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei--de-unitate-ecclesiae-catholicae-csel-3-latin-text-tei-3
+  work: De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)
+  author: cyprian
+  locus: file line 109 (first text of the TEI body, opening 'Cum moneat Dominus et dicat');
+    urn:cts:latinLit:stoa0104a.stoa010.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    lines 7685-8633
+  role: context
+  confidence: assigned
+  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
+    hold: Cyprian''s treatise on the unity of the church. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
+    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
+    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
+    human edition). Ready to quote once each quote is verified verbatim against this file
+    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
+    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    (scan lines 7685-8633), which carries the manuscript sigla and the variant readings in
+    place on the printed page; this file keeps the footnotes only as unaligned note text.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s roles and confidence exactly.
+
+    '
+  source_file: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt
+- row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin
+  work: Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)
+  author: cyprian
+  locus: file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et
+    collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    lines 16500-30929
+  role: tradition
+  confidence: assigned
+  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
+    hold: the correspondence of Cyprian, including letters written to him. PRIMARY ORIGINAL
+    per cic/texts/INTAKE.md: Hartel''s critical text (Pars II, Vienna: Gerold, 1871), in the
+    University of Leipzig''s machine-corrected TEI (the project''s OCR correction of the printed
+    edition, not a fresh human edition). Ready to quote once each quote is verified verbatim
+    against this file (INTAKE section 6); the English a Representative speaks is rendered
+    from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    (scan lines 16500-30929), which carries the manuscript sigla and the variant readings
+    in place on the printed page; this file keeps the footnotes only as unaligned note text.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s roles and confidence exactly. The corpus embeds letters by others (Cornelius,
+    the Roman clergy, Firmilian of Caesarea, the confessors) under Cyprian''s name, so author
+    cyprian is the corpus author of record.
+
+    '
+  source_file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-3
   work: On the Unity of the Church (De Unitate)
   author: cyprian

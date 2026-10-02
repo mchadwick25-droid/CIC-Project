@@ -432,6 +432,34 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-john-chrysostom-byzantine-form
+  work: Liturgy of S. John Chrysostom (Byzantine form)
+  author: liturgy-of-st-john-chrysostom
+  locus: file lines about 5500-7300 (the Chrysostom section; page header 'SAINT CHRYSOSTOM'
+    runs from line 5821 to 7242)
+  role: context
+  confidence: assigned
+  note: 'The rite attributed to John Chrysostom, in Neale''s English. Context only: the surviving
+    Byzantine text is a later redaction and cannot be shown to be his. His own sermons and
+    treatises are the tradition''s voice.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+- row_id: palladius_dialogue-life-of-chrysostom_moore1921--dialogue-concerning-the-life-of-chrysostom
+  work: Dialogue Concerning the Life of Chrysostom
+  author: palladius
+  locus: whole text; the Synod of the Oak and Theophilus, file lines about 2000-2800; Chrysostom's
+    exile, about 6150-6320
+  role: tradition
+  confidence: assigned
+  note: 'A partisan defence of Chrysostom written within about twenty years of his death by
+    an ally, so it is an inside voice with an agenda. Vendored to answer this world''s Palladius
+    source-readiness gap. The author''s identity is Herbert Moore''s argued identification
+    with the Palladius of the Lausiac History; the file does not settle it. The Greek OCR
+    is garbled, the English is readable. Moore''s introduction and notes are 1921 commentary.
+
+    '
+  source_file: palladius_dialogue-life-of-chrysostom_moore1921.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
   work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates

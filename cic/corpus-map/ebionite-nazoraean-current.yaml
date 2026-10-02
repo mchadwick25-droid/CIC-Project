@@ -14,6 +14,41 @@ works:
     by the fragments. greek-apologists-second-century holds this work for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
+  author: aristo-of-pella
+  locus: file line 18145 (heading 'ARISTO.' (the Aristo section of the Reliquiae))
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page- image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena,
+    1872), the fragments with Otto''s Latin translation and commentary. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
+  author: aristo-of-pella
+  locus: file line 5915 (heading 'ARISTONIS PELLAI,')
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer is OCR with the two columns interleaved line by line and with accent
+    and letter errors, and no page-image check has been made. Not to be quoted as the original
+    until a clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae,
+    editio altera vol. I (Oxford, 1846), with Routh''s Latin notes. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
 - row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena
   work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus

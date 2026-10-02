@@ -1,0 +1,18 @@
+# Poschmann's 1928 study of Western church penance.
+source_file: poschmann_abendlaendische-kirchenbusse-deu_1928.txt
+
+assignments:
+  - row_id: poschmann_abendlaendische-kirchenbusse-deu_1928--die-abendlaendische-kirchenbusse-im-ausgang-des-christlichen
+    work: "Die abendlaendische Kirchenbusse im Ausgang des christlichen Altertums (Poschmann, 1928)"
+    author: poschmann
+    locus: "whole file; title page at file line 80; the chapter on penance in the African church, '4. Die Buße in der afrikanischen Kirche', at file line 8425"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Modern (1928) German scholarship, role context, not tradition. Not a primary source and not a
+      witness to any ancient text. Penance teaching and practice in the Western churches at the close
+      of antiquity: chapters on the Roman, Gallic, Spanish and African churches and on Gregory I and
+      Isidore of Seville. Much of its period falls after this world's end, so the confidence is
+      provisional; the African chapter is the relevant part.

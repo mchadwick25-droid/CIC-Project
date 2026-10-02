@@ -143,6 +143,23 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--on-the-flesh-of-christ
+  work: On the Flesh of Christ
+  author: tertullian
+  locus: file line 24712 (heading 'CARNE CHRISTI.' (the 'DE' is on the line above))
+  role: context
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
 - row_id: anf03_tertullian--the-five-books-against-marcion-2
   work: The Five Books Against Marcion
   author: tertullian
@@ -156,6 +173,37 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- row_id: tertullian_opera-pars3-lat_kroymann-csel47--the-five-books-against-marcion
+  work: The Five Books Against Marcion
+  author: tertullian
+  locus: file line 14512 (heading 'ADVERSVS MARCIONEM LIBRI QVINQVE', treatise VII)
+  role: context
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
+- row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion
+  work: The Five Books Against Marcion
+  author: tertullian
+  locus: file line 2948 (first heading 'ADVERSUS MARCIONEM')
+  role: context
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
 - row_id: anf03_tertullian--the-prescription-against-heretics-2
   work: The Prescription Against Heretics
   author: tertullian
@@ -170,3 +218,20 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-prescription-against-heretics
+  work: The Prescription Against Heretics
+  author: tertullian
+  locus: file line 141 (heading 'DE PRAESCRIPTIONE HAERETICORUM' (title lines))
+  role: context
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt

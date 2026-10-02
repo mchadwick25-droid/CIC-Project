@@ -16,3 +16,15 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-of-the-st-thomas
+  work: Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)
+  author: liturgy-of-malabar
+  locus: file lines about 8150-9700 (page header 'MALABAR')
+  role: context
+  confidence: assigned
+  note: 'The rite used by the Malabar church, in Neale''s own translation made for this volume.
+    Neale''s notes discuss its history and its alteration at the Synod of Diamper; those notes
+    are commentary. Check the printed liturgy''s exact form before any quotation.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt

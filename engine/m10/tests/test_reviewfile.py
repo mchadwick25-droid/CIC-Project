@@ -88,6 +88,27 @@ def test_missing_file(tmp_path):
     assert _ids(check_review_file(tmp_path / "nope.md", tmp_path)) == {"reviewfile-exists"}
 
 
+def test_cycle_reset_field_is_optional_and_needs_text_when_present(tmp_path):
+    base = review_text()
+    assert _check(tmp_path, base) == []
+    ok = base.replace("Round:", "Cycle reset: LIBRARY-DECISION-LOG 2026-09-29, three-round cap counts from significant new material\nRound:", 1)
+    assert _check(tmp_path, ok) == []
+    empty = base.replace("Round:", "Cycle reset:\nRound:", 1)
+    assert "reviewfile-cycle-reset" in _ids(_check(tmp_path, empty))
+    tbd = base.replace("Round:", "Cycle reset: TBD\nRound:", 1)
+    findings = _check(tmp_path, tbd)
+    assert "reviewfile-cycle-reset" in _ids(findings) and any("empty or a placeholder" in f.reason for f in findings)
+
+
+def test_cycle_reset_in_the_bold_bullet_form_is_read(tmp_path):
+    from engine.m10.reviewfile import cycle_reset
+
+    text = review_text().replace("Round:", "- **Cycle reset:** ruling of 2026-09-29\nRound:", 1)
+    path = write(tmp_path, "Doc_01_Round1_Review.md", text)
+    assert cycle_reset(path) == "ruling of 2026-09-29"
+    assert check_review_file(path, tmp_path) == []
+
+
 def _blind(text):
     return text.replace("Drafter model: claude-sonnet-5-5", f"Drafter model: {DRAFTER_WITHHELD}").replace(
         "Drafter agent: draft-session-1", f"Drafter agent: {DRAFTER_WITHHELD}")

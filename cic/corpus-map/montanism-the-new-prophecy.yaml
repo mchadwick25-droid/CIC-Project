@@ -56,6 +56,41 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-claudius-apollinaris
+  work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: file line 24699 (heading 'FRAGMENTA APOLLINARIS.')
+  role: context
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page- image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena,
+    1872), the fragments with Otto''s Latin translation and commentary. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-claudius-apollinaris
+  work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: file line 8951 (heading 'S. CLAUDII APOLLINARIS')
+  role: context
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer is OCR with the two columns interleaved line by line and with accent
+    and letter errors, and no page-image check has been made. Not to be quoted as the original
+    until a clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae,
+    editio altera vol. I (Oxford, 1846), with Routh''s Latin notes. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
 - row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-2
   work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
@@ -109,6 +144,37 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-praxeas
+  work: Against Praxeas
+  author: tertullian
+  locus: file line 11686 (heading 'ADVERSVS PRAXEAN.', treatise VI)
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
+- row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-praxeas
+  work: Against Praxeas
+  author: tertullian
+  locus: file line 43048 (heading 'ADVERSUS PRAXEAN.')
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--de-fuga-in-persecutione-flight-in-persecution
   work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
@@ -121,6 +187,23 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--de-fuga-in-persecutione-flight-in-persecution
+  work: De Fuga in Persecutione (Flight in Persecution)
+  author: tertullian
+  locus: file line 45082 (heading 'FUGA IN PERSECUTIONE.' (the 'DE' is on the line above))
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-exhortation-to-chastity-de-exhortatione-castitatis
   work: On Exhortation to Chastity (De Exhortatione Castitatis)
   author: tertullian
@@ -133,6 +216,23 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-exhortation-to-chastity-de-exhortatione-castitatis
+  work: On Exhortation to Chastity (De Exhortatione Castitatis)
+  author: tertullian
+  locus: file line 67376 (heading 'EXHORTATIONE CASTITATIS.' (the 'DE' is on the line above))
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-fasting-in-opposition-to-the-psychics-de-jejunio
   work: On Fasting, in Opposition to the Psychics (De Jejunio)
   author: tertullian
@@ -144,6 +244,21 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-fasting-in-opposition-to-the-psychics-de-jejunio
+  work: On Fasting, in Opposition to the Psychics (De Jejunio)
+  author: tertullian
+  locus: file line 15475 (heading 'DE IEIVNIO ADVERSVS PSYCHICOS.', treatise IX)
+  role: tradition
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-modesty-de-pudicitia
   work: On Modesty (De Pudicitia)
   author: tertullian
@@ -156,6 +271,21 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-modesty-de-pudicitia
+  work: On Modesty (De Pudicitia)
+  author: tertullian
+  locus: file line 12447 (heading 'DE PVDICITIA.', treatise VIII)
+  role: tradition
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
+    Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6); the English a Representative speaks is rendered from it, with the
+    vendored English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-monogamy-de-monogamia
   work: On Monogamy (De Monogamia)
   author: tertullian
@@ -168,6 +298,24 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-monogamy-de-monogamia
+  work: On Monogamy (De Monogamia)
+  author: tertullian
+  locus: file line 69315 (first running head 'DE MONOGAMIA. 769' (the OCR lost the treatise
+    heading))
+  role: tradition
+  confidence: assigned
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-the-veiling-of-virgins-de-virginibus-velandis
   work: On the Veiling of Virgins (De Virginibus Velandis)
   author: tertullian
@@ -180,3 +328,20 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-the-veiling-of-virgins-de-virginibus-velandis
+  work: On the Veiling of Virgins (De Virginibus Velandis)
+  author: tertullian
+  locus: file line 78139 (heading 'VIRGINIBUS VELANDIS.' (the 'DE' is on the line above))
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt

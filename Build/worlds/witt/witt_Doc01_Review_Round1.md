@@ -185,7 +185,7 @@ Two of five levels, five tags total. The gap is not cosmetic, because the docume
 
 **What the document says:** "Unlike this world's relationship to the three movements above, **this is not a rival-by-direct-argument relationship**... This document finds no documented direct link and does not manufacture one."
 
-**What `Build/World-Builds/Society-of-Jesus/Step0_Movement_Scope_Confirmation.md` §2 A3 says:**
+**What `Build/worlds/jes/Step0_Movement_Scope_Confirmation.md` §2 A3 says:**
 
 > "**The direct, real rival relationship in this batch is Lutheran Wittenberg and the Reformed cities** — the Jesuits were founded explicitly within, and as a response to, the same crisis those two candidates answer from the opposite direction."
 
