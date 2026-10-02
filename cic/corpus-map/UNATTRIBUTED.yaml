@@ -11,6 +11,11 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  acta-cypriani:
+    kind: anonymous
+    evidence: Gebhardt prints "Acta S. Cypriani episcopi et martyris" (XI) as an anonymous
+      acts text; file line 6038.
+    from_file: acta-martyrum-selecta_gebhardt1902.txt
   acts-of-andrew:
     kind: anonymous
     evidence: div2 7.29 (Acts and Martyrdom of Andrew); no authorial claim.
@@ -89,6 +94,14 @@ authors:
     evidence: div2 title 'From the Iambics of St. Amphilochius the Bishop to Seleucus'; npnf214
       carries no DC.Creator at all, so every author in it is a metadata omission.
     from_file: npnf214_seven-ecumenical-councils.xml
+  anagnostes:
+    kind: metadata-omission
+    evidence: 'The title page names ''Ioannes Anagnostes'' among the chroniclers in this volume;
+      the file''s leading name slug joins all three, so each author is supplied here from
+      the title page.
+
+      '
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
   anastasius_rome:
     kind: metadata-omission
     evidence: 'div2 5.10 title "The Letter of Anastasius, Bishop of the Church of Rome to
@@ -97,6 +110,15 @@ authors:
 
       '
     from_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+  annales-regni-francorum:
+    kind: anonymous
+    evidence: 'A royal Frankish court chronicle compiled by anonymous annalists (the continuation
+      from 801 is traditionally, not certainly, associated with Einhard) - a work, not a person,
+      per this project''s own established convention for conciliar acts and similar collective
+      records.
+
+      '
+    from_file: annales-regni-francorum_kurze1895.txt
   anonymous-against-novatian:
     kind: anonymous
     evidence: 'div2 7.3 title "Anonymous Treatise Against the Heretic Novatian"; no DC.Creator
@@ -185,6 +207,13 @@ authors:
     kind: metadata-omission
     evidence: div2 10.4 'Aristo of Pella' names the author; DC.Creator omits him.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  asbury-francis:
+    kind: metadata-omission
+    evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names Francis Asbury
+      as Creator of the Journal, in three volumes; the slug covers all three vendored volumes.
+
+      '
+    from_file: asbury_journal-v1_1821.txt
   bar-hebraeus:
     kind: metadata-omission
     evidence: 'This is this corpus''s first plain-text-vendored (non-CCEL) named author, so
@@ -233,6 +262,17 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  calvin:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup (cic/texts/AUTHORS.md is generated solely from CCEL''s
+      own <DC.Creator> metadata and does not cover this plain-text archive.org extract) -
+      this is a 1735 Geneva printing of the Ecclesiastical Ordinances, originally authored
+      by Calvin (1541, revised 1561) and further revised by the Geneva General Council (1576,
+      the text this printing carries). Attribution is the document''s own historical authorship,
+      not a text-scan guess.
+
+      '
+    from_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
   calvin-zurich-pastors:
     kind: metadata-omission
     evidence: 'Not CCEL-derived markup (a plain-text archive.org extract), so no automatic
@@ -245,6 +285,14 @@ authors:
 
       '
     from_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+  cananus:
+    kind: metadata-omission
+    evidence: 'The title page names ''Ioannes Cananus'' among the chroniclers in this volume;
+      the file''s leading name slug joins all three, so each author is supplied here from
+      the title page.
+
+      '
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
   canonical-epistles-fathers:
     kind: anonymous
     evidence: 'div1 17 gathers, per its title, "Canons and Rulings not having Conciliar Origin
@@ -257,6 +305,14 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  capitulatio-partibus-saxoniae:
+    kind: anonymous
+    evidence: 'A royal capitulary issued in Charlemagne''s name by his chancery, not a personally
+      authored work - even its own MGH editors dispute its exact date and place of issue.
+      A work, not a person.
+
+      '
+    from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
   chronicle-of-edessa:
     kind: anonymous
     evidence: 'File header reads "Creator(s): Anonymous (Syriac, composed c. 540s CE)". Assemani''s
@@ -355,6 +411,16 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  council-of-carthage-aurelius:
+    kind: anonymous
+    evidence: Mansi tom. 3 prints the synod of Aurelius as a council text (file line 86419);
+      no individual author is named.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
+  council-of-carthage-i:
+    kind: anonymous
+    evidence: Mansi tom. 3 prints "Carthage I sub Grato" as a council text (file line 12680);
+      no individual author is named.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
   council-of-carthage-under-cyprian:
     kind: anonymous
     evidence: 'div2 title "The Council of Carthage held under Cyprian." under div1 15; no
@@ -412,6 +478,11 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  council-of-hippo:
+    kind: anonymous
+    evidence: Mansi tom. 3 prints "Hippo II" as a council text (file line 82431); no individual
+      author is named.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
   council-of-neocaesarea:
     kind: anonymous
     evidence: 'div2 title "The Council of Neocaesarea." under div1 8; no DC.Creator in the
@@ -441,6 +512,13 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  curnock-nehemiah:
+    kind: metadata-omission
+    evidence: 'The header of this plain-text file names Nehemiah Curnock as Editor. The editorial
+      introduction and the footnotes are his voice, not Wesley''s.
+
+      '
+    from_file: wesley-j_journal-v1_curnock1909.txt
   cyril_alexandria:
     kind: metadata-omission
     evidence: 'div2 titles "The Epistle of Cyril to Nestorius" (10.5), "The Epistle of Cyril
@@ -543,12 +621,26 @@ authors:
 
       '
     from_file: lucian_works-vol4-peregrine_fowler1905.txt
+  gennadius-scholarius:
+    kind: metadata-omission
+    evidence: 'The volume''s own title page names ''Gennadii Confessiones I. II.'' among its
+      contents; the file''s leading name slug is the editor''s work title, so the author of
+      these two confessions is supplied here from the title page rather than from the file
+      name.
+
+      '
+    from_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
   gennadius_constantinople:
     kind: metadata-omission
     evidence: div2 title 'The Encyclical Letter of Gennadius, Patriarch of Constantinople'.
       DELIBERATELY NOT the existing slug `gennadius`, which is Gennadius of MARSEILLES, who
       continued Jerome's catalogue - a different man.
     from_file: npnf214_seven-ecumenical-councils.xml
+  gesta-collationis-carthaginensis:
+    kind: anonymous
+    evidence: Mansi tom. 4 prints "Gesta collationis Carthaginensis" at file line 1382; a
+      court transcript with named speakers, no single author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
   gospel-of-nativity-of-mary:
     kind: anonymous
     evidence: 'div2 7.6; a Latin reworking of the Protevangelium material transmitted without
@@ -599,6 +691,14 @@ authors:
 
       '
     from_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
+  guelferbytanus-tractatus-novem:
+    kind: anonymous
+    evidence: 'The volume''s own title page names ''SS. Optati Milevitani, Quodvultdei Carthaginiensis
+      episcoporum aliorumque ex Augustini schola tractatus novem'' as a group of nine tractatus
+      from one codex, with no author given per tractatus; the slug names the work group.
+
+      '
+    from_file: augustine_sermones-guelferbytani-lat_morin1917.txt
   hegesippus:
     kind: metadata-omission
     evidence: div2 10.6 'Hegesippus' names the author.
@@ -658,6 +758,15 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  jeremias-ii:
+    kind: metadata-omission
+    evidence: 'The title page names ''Patriarchae Constantinopolitani D. Hieremiae'' among
+      the correspondents and the host catalogue lists Jeremias II; the file''s leading name
+      slug is the volume''s work title, so the author of the replies is supplied here from
+      the title page.
+
+      '
+    from_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
   justin_martyr:
     kind: metadata-omission
     evidence: 'div1 8 title "JUSTIN MARTYR" over the apologies, the Dialogue and the shorter
@@ -689,6 +798,29 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  liturgy-of-malabar:
+    kind: anonymous
+    evidence: 'The title names "the Church of Malabar"; the rite is the East-Syriac (Chaldean)
+      liturgy as used by the St. Thomas Christians, with no author claimed. Neale''s own notes
+      describe it as a translation made for this volume ("entirely new").
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+  liturgy-of-st-basil:
+    kind: pseudonymous
+    evidence: 'Neale''s introduction places the Liturgy of S. Basil beside Chrysostom''s as
+      an attributed rite; the Byzantine form is a later redaction of a Cappadocian-era core.
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+  liturgy-of-st-clement:
+    kind: pseudonymous
+    evidence: 'The volume''s own title names "S. Clement" as the liturgy''s attribution; the
+      rite is the eighth book of the Apostolic Constitutions liturgy, placed under Clement
+      of Rome''s name by that compilation, not by any first-century author.
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
   liturgy-of-st-james:
     kind: pseudonymous
     evidence: 'div2 12.2 title "The Divine Liturgy of James the Holy Apostle and Brother of
@@ -697,6 +829,14 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  liturgy-of-st-john-chrysostom:
+    kind: pseudonymous
+    evidence: 'Neale''s own introduction calls the Liturgy of S. Chrysostom the normal liturgy
+      of the Eastern Church; the tradition ascribes it to John Chrysostom, and the Byzantine
+      text is a later redaction, so the slug records an attribution, not an author.
+
+      '
+    from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
   liturgy-of-st-mark:
     kind: pseudonymous
     evidence: 'div2 12.3 title "The Divine Liturgy of the Holy Apostle and Evangelist Mark";
@@ -711,6 +851,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  marot-beze:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup - a plain-text archive.org extract of the 1562 title
+      page, which credits both versifiers jointly ("par Clement Marot, & Theodore de Beze"):
+      Marot completed roughly the first third of the Psalms before his death in 1544, and
+      Beze completed the remainder for this 1562 collection - a genuine joint production spanning
+      two authors'' own distinct work, not a single author''s text with a minor contributor.
+
+      '
+    from_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
   martyrdom-of-bartholomew:
     kind: anonymous
     evidence: div2 7.35; no authorial claim.
@@ -805,6 +955,32 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  passio-mariani-et-iacobi:
+    kind: anonymous
+    evidence: Gebhardt prints "Passio SS. Mariani et Iacobi" (XIII) with no named author;
+      file line 6377.
+    from_file: acta-martyrum-selecta_gebhardt1902.txt
+  passio-montani-et-lucii:
+    kind: anonymous
+    evidence: Gebhardt prints "Passio SS. Montani et Lucii" (XIV) with no named author; file
+      line 6970.
+    from_file: acta-martyrum-selecta_gebhardt1902.txt
+  passion-of-marianus-and-jacobus:
+    kind: anonymous
+    evidence: 'Collection no. 15 is headed ''Martyrium des Marianus und Jakobus'' in the volume''s
+      own table of contents and body; the Latin account has no named author. The slug names
+      the work.
+
+      '
+    from_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
+  passion-of-montanus-and-lucius:
+    kind: anonymous
+    evidence: 'Collection no. 16 is headed ''Martyrium des Montanus und Lucius'' in the volume''s
+      own table of contents and body; the Latin account has no named author. The slug names
+      the work.
+
+      '
+    from_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
   passion-of-scillitan-martyrs:
     kind: anonymous
     evidence: 'div1 14: Latin court acta of the martyrs of Scilli (Carthage, 180 CE); no author
@@ -863,6 +1039,37 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  pseudo-zachariah-rhetor:
+    kind: pseudonymous
+    evidence: 'The received Chronicle is a composite. Per the vendored 1899 edition''s own
+      introduction (lines 255-370, verified against the file): Books III-VI derive from Zacharias
+      Scholasticus of Gaza, who studied law together with Severus of Antioch at Alexandria
+      and Berytus, wrote his own Ecclesiastical History (covering 450-491) between 491 and
+      518, and also wrote a separate Life of Severus defending him - real documentary evidence
+      that Zacharias was Severus''s own companion and supporter, not a Chalcedonian outside
+      witness, when he wrote this material. The same introduction states he was made bishop
+      of Mitylene only "at a later time, conforming perhaps to the Chalcedonian faith" - i.e.,
+      any conformity to Chalcedon, if it happened at all, postdates the History itself and
+      is presented by the 1899 edition''s own introduction as uncertain ("perhaps"), not as
+      settled fact. Books I-II and VII-XII were assembled and continued by a separate, anonymous
+      compiler writing c. 569, who used Zacharias'' own material (among other sources) without
+      being Zacharias himself. Modern scholarship (Greatrex, Phenix & Horn, The Chronicle
+      of Pseudo-Zachariah Rhetor, Translated Texts for Historians 55, Liverpool University
+      Press, 2011 - not vendored here, still in copyright) names the whole compilation "Pseudo-Zachariah
+      Rhetor" on this same compiler/source distinction.
+
+      Revision 1 of this file additionally claimed the 1899 edition "predates" the modern
+      authorship analysis and simply attributes the whole work to Zachariah. This is also
+      corrected: the 1899 introduction itself already draws the compiler/Zachariah distinction
+      directly ("the name of Zachariah was wrongly attached" to the whole work "by later writers,"
+      per Land''s own 1870 analysis, which the 1899 edition cites and follows) - the 1899
+      edition''s own title follows the manuscript tradition''s conventional label while its
+      own introduction already explains why that label is imprecise. The 2011 TTH edition
+      sharpens and formalizes the same distinction the 1899 edition''s own introduction already
+      draws; it does not originate it.
+
+      '
+    from_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
   pseudo_ignatius:
     kind: pseudonymous
     evidence: 'The volume''s own apparatus at div2 5.13, "Introductory Note to the Spurious
@@ -940,6 +1147,14 @@ authors:
 
       '
     from_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+  sphrantzes:
+    kind: metadata-omission
+    evidence: 'The title page names ''Georgius Phrantzes'' first among the three chroniclers
+      in this volume; the file''s leading name slug joins all three, so each author is supplied
+      here from the title page.
+
+      '
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
   sulpiciusseverus:
     kind: metadata-omission
     evidence: 'div1 title "The Works of Sulpitius Severus."; npnf211 DC.Creator already lists
@@ -983,6 +1198,15 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  synodal-censures-of-lucaris:
+    kind: anonymous
+    evidence: 'The title page calls these ''gemina ejusdem Confessionis Censura Synodalis''
+      promulgated by two Patriarchs of Constantinople, Cyril of Berrhoea and Parthenius: synodal
+      acts under two patriarchs'' names, not the personal work of one author, so the slug
+      names the work.
+
+      '
+    from_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
   teaching-of-simon-cephas:
     kind: anonymous
     evidence: 'div2 9.8 ''The Teaching of Simon Cephas in the City of Rome'' — a Syriac doctrina
@@ -1078,3 +1302,30 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  wesley-charles:
+    kind: metadata-omission
+    evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names Charles Wesley
+      as principal hymn-writer of the 525 hymns. The same slug covers Sermon III in the Sermons
+      volume, whose footnote 6 (lines 8298-8299 of wesley-j_sermons-v1_1771.txt) states that
+      it was preached by the Rev. Mr. Charles Wesley.
+
+      '
+    from_file: wesley-c_hymns-methodists_1780.txt
+  wesley-john:
+    kind: metadata-omission
+    evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names John Wesley
+      as Creator, and the volume''s title page names the Rev. John Wesley, A.M. The same slug
+      covers his Sermons volume and the Preface of the 1780 Collection, whose header and signature
+      name him.
+
+      '
+    from_file: wesley-j_journal-v1_curnock1909.txt
+  wesleyan-conference:
+    kind: anonymous
+    evidence: 'A corporate author, not a person. The header names John Wesley as compiler
+      and the Wesleyan Methodist Conference, and the vendored Advertisement says the Conference
+      revised the Rules left by its late founder. The work speaks in the Conference''s own
+      voice.
+
+      '
+    from_file: wesley-j_large-minutes_1850.txt

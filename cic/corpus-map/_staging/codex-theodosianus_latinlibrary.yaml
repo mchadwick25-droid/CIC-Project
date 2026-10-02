@@ -27,7 +27,8 @@ authors_ruled:
       vendored file, and needed no ruling here).
 
 assignments:
-  - work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
+  - row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text
+    work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
     author: theodosian-code-compilers
     locus: "whole text; not divided by book/title in this entry — see the file's own CTh.<book>.<title>.<law> headings for addressing a specific constitution"
     atlas_ids:
@@ -51,7 +52,8 @@ assignments:
       of XVI.5.21 matches has not been checked, so this entry stays
       provisional; the identification rests on the Mommsen-Meyer file.
 
-  - work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
+  - row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text-2
+    work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
     author: theodosian-code-compilers
     locus: "whole text"
     atlas_ids:
@@ -72,7 +74,8 @@ assignments:
       is a call for that world's own build thread, not asserted here from
       outside.
 
-  - work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
+  - row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text-3
+    work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
     author: theodosian-code-compilers
     locus: "whole text"
     atlas_ids:

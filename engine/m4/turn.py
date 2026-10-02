@@ -30,31 +30,24 @@ M4 implementation, step 5 (LIVE-GENERATION-DESIGN.md, forks signed off
 tool-use follow-up guessing which records it drew on) is retired. One
 call now carries both the answer and its own grounding, via inline
 [[record.id]] tags the compiled prompt's fleet preamble (§5.2) teaches
-every world's voice to emit - engine.m4.generation.call_citations is
-deleted, not merely unused. engine.m4.grounding (the excerpt-match badge
-check against a claimed `drawn_on` list) is untouched and no longer this
-module's net - that list doesn't exist anymore now that citations are
-never guessed after the fact. engine.m4.grounding_net.check_turn is the
-new net: per-sentence, string-only, no model call, run over the raw
+every world's voice to emit. There is no claimed `drawn_on` list,
+because citations are never guessed after the fact.
+engine.m4.grounding_net.check_turn is the net: per-sentence, string-only, no model call, run over the raw
 tagged text before any of it is treated as this turn's answer.
 
-Fork 1 (sentence-gated streaming) is honored in its strictest reading
-here, not a looser one: no live token-by-token SSE transport exists yet
-in this codebase, so stream_voice_turn already returns full text
-only once the SDK call completes, never incrementally. Given that, "check
-before it reaches a participant" reduces exactly to what apply_net does
-below: every sentence is verified before ANY of this turn's text is
-placed on TurnResult.voice_event. When a real per-token transport is
-built, sentence-gating moves into that layer; the check itself does not
-change.
+The reply a participant keeps is placed on TurnResult.voice_event only
+after apply_net has checked every sentence. A caller may also ask for a
+draft while the reply is written (on_draft_text, engine.m4.draft_stream):
+the draft is display text only, and the finished reply replaces it.
 """
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
+from typing import Callable
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns, grounding_net
+from engine.m4.draft_stream import DraftStream
 from engine.m4.generation import stream_voice_turn
-from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
@@ -80,7 +73,7 @@ from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
-SESSION_TURN_CAP = 10  # reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
+SESSION_TURN_CAP = 10  # Build/reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
 
 
 class UnhandledRoutingAction(NotImplementedError):
@@ -341,6 +334,17 @@ def _append_sentence_fact_check_correction(turn_directive: str | None, flags: li
     return (turn_directive or "") + correction
 
 
+def _draft_is_final_text(
+    *, guard_labels: list[str] | None, is_other_tradition_first_ask: bool, self_revision_enabled: bool,
+    r27_enforce: bool, sentence_enforce: bool,
+) -> bool:
+    """Whether the first generation is certain to be the reply a participant
+    keeps. A regeneration (seat-identity guard, the two enforcement flags) or
+    a rewrite (self-revision, which runs on a first other-tradition ask)
+    would replace text already shown, so on those turns nothing is drafted."""
+    return not (guard_labels or (is_other_tradition_first_ask and self_revision_enabled) or r27_enforce or sentence_enforce)
+
+
 def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
     """THE one owner of the voice text shape - everything a Representative
     says, in any mode AND in admission, is shaped by this function and only
@@ -426,6 +430,7 @@ def _run_ordinary_voice_turn(
     known_tradition_names: list[str] | None = None,
     self_revision_enabled: bool = True,
     sentence_enforce: bool = False,
+    on_draft_text: Callable[[str], None] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -487,7 +492,7 @@ def _run_ordinary_voice_turn(
     raw text apply_net already has, without a second model call or a
     second copy of this function's own generation logic.
 
-    r27_enforce/known_tradition_names (the uncited-claims rule's
+    The enforce flag and known_tradition_names (the uncited-claims rule's
     flag-gated enforcement):
     OFF by default so every existing caller and every existing test is
     byte-identical until a caller opts in. When True: after the net's
@@ -503,7 +508,7 @@ def _run_ordinary_voice_turn(
     re-checked the identical way; if a hard offense still survives, this
     turn's own text is set aside (answer_text/citations/net_result
     recomputed against "", exactly as seat_identity_guard_exhausted
-    already sets raw_text="" above) and r27_enforcement_exhausted is
+    already sets raw_text="" above) and the enforcement-exhausted flag is
     True on the returned voice_event, for the caller to substitute a
     Facilitator turn (engine.m4.facilitator_turns.
     table_seat_correction_turn on a Table call, the same existing
@@ -517,7 +522,7 @@ def _run_ordinary_voice_turn(
     registry/routing context this function doesn't have and stays the
     caller's own refinement (build_uncited_claims_event), unchanged, for
     the persisted audit event. known_tradition_names is required when
-    r27_enforce is True (fails loudly rather than silently skipping the
+    the enforce flag is True (fails loudly rather than silently skipping the
     neighbour_named check if omitted) - the same pre-derived list
     engine.m4.uncited_claims.known_tradition_names already produces for
     the report-only build_uncited_claims_event path, computed by the
@@ -587,7 +592,7 @@ def _run_ordinary_voice_turn(
 
     other_tradition_evidence_ids (corrects a false
     honest-limit statement, unconditional - never gated behind
-    r27_enforce, since this corrects an existing false statement rather
+    the enforce flag, since this corrects an existing false statement rather
     than adding new enforcement): engine.m4.uncited_claims.world_records_
     mention_tradition's own result for the tradition THIS turn's message
     names, if any - same caller-computed, registry-access-needed shape
@@ -599,7 +604,14 @@ def _run_ordinary_voice_turn(
     tradition-pivot rule): engine.m4.uncited_claims.tradition_known_in_window and
     conversation_revealed_excerpts, for the same named tradition - the
     same caller-computed shape as other_tradition_evidence_ids, read at
-    the same single place (_other_tradition_directive)."""
+    the same single place (_other_tradition_directive).
+
+    on_draft_text receives the display text of each sentence as the voice
+    finishes writing it (engine.m4.draft_stream), so a caller can show the
+    reply while it is still being written. It is called only when the
+    finished reply is guaranteed to be exactly that text (_draft_is_final_text);
+    on any other turn it is never called and the caller waits for the whole
+    reply. It observes only - nothing here changes because it is set."""
     if r27_enforce and known_tradition_names is None:
         raise ValueError(
             "r27_enforce=True requires known_tradition_names (see engine.m4.uncited_claims.known_tradition_names) "
@@ -608,10 +620,8 @@ def _run_ordinary_voice_turn(
     usage_records = []
     # EVIDENCE ASSEMBLY + PRIVATE DIRECTIVE (design §3, engine.m4.evidence;
     # this function's own docstring for context_prefix/secondary_context/
-    # table_engagement/the other_tradition_* family/correction) - shared
-    # with engine.m4.streaming's sentence-gated path via
-    # engine.m4.turn_prep.prepare_voice_turn_inputs, which this used to do
-    # inline before that path needed the identical sequence.
+    # table_engagement/the other_tradition_* family/correction) -
+    # engine.m4.turn_prep.prepare_voice_turn_inputs.
     prepared = prepare_voice_turn_inputs(
         world=world,
         participant_message=participant_message,
@@ -636,9 +646,20 @@ def _run_ordinary_voice_turn(
     figures_already_named = prepared.figures_already_named
     user_message = prepared.user_message
     turn_directive = prepared.turn_directive
+    on_text = None
+    if on_draft_text is not None and _draft_is_final_text(
+        guard_labels=guard_labels, is_other_tradition_first_ask=is_other_tradition_first_ask,
+        self_revision_enabled=self_revision_enabled, r27_enforce=r27_enforce, sentence_enforce=sentence_enforce,
+    ):
+        draft = DraftStream()
+
+        def on_text(chunk: str) -> None:
+            if shown := draft.feed(chunk):
+                on_draft_text(shown)
+
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
-        turn_directive=turn_directive, message=user_message, history=history,
+        turn_directive=turn_directive, message=user_message, history=history, on_text=on_text,
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
@@ -686,8 +707,8 @@ def _run_ordinary_voice_turn(
     # own exhaustion path, so this never spends a call revising a blank
     # turn). self_revision_enabled is the caller-computed CIC_SELF_
     # REVISION kill-switch (engine.api.config, same pattern as
-    # r27_enforce/CIC_R27_ENFORCE) - default True, cost/incident use
-    # only; unlike r27_enforce this is generation, not enforcement, so
+    # the enforce flag or its environment switch) - default True, cost/incident use
+    # only; unlike the enforce flag this is generation, not enforcement, so
     # it needs no known_tradition_names/registry access of its own.
     self_revision_meta: dict = {
         "ran": False, "changed": False, "draft_length": None, "revised_length": None,
@@ -730,7 +751,7 @@ def _run_ordinary_voice_turn(
     answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
 
     # The uncited-claims rule: report-only, no participant-visible effect
-    # unless r27_enforce (below), every declarative claim sentence carrying no citation,
+    # unless the enforce flag (below), every declarative claim sentence carrying no citation,
     # base class "uncited_claim" (the caller, which has registry/routing
     # context this function does not, refines into "neighbour_named"/
     # "own_doctrine_in_other_tradition_turn" via engine.m4.uncited_claims.
@@ -751,7 +772,7 @@ def _run_ordinary_voice_turn(
     paragraph_offenses = find_uncited_paragraphs(net_result)
 
     # Report-only (see engine.m4.named_claim_grounding's own module
-    # docstring; the traced regression is worlds/pahc/Open_Gaps_Tracking.md
+    # docstring; the traced regression is Build/worlds/pahc/Open_Gaps_Tracking.md
     # OG-9). Narrows sentences the ratio test already passed WITH a tag
     # (the ones that actually reach a participant): does every proper
     # noun/number the sentence names actually appear in its own tagged
@@ -766,9 +787,9 @@ def _run_ordinary_voice_turn(
     fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
 
     # The uncited-claims rule's flag-gated enforcement, OFF by default
-    # (see this function's own docstring for the full shape). r27_enforcement_exhausted
-    # and attempts_meta["r27_regenerated"] are always set (False/absent
-    # when r27_enforce is False or nothing tripped it), so every reader of
+    # (see this function's own docstring for the full shape). The enforcement-exhausted flag
+    # and the regenerated flag in attempts_meta are always set (False/absent
+    # when the enforce flag is False or nothing tripped it), so every reader of
     # voice_event can check them unconditionally, the same
     # always-present-but-usually-empty shape seat_identity_violations
     # already uses.
@@ -965,8 +986,6 @@ def _run_ordinary_voice_turn(
     # job, and the limit records are in its ground to say it from.
     degraded_by_net = not net_result["substantive_survives"]
 
-    do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
-
     # THE TRANSPARENCY PLAN - a deterministic transform over what is
     # already computed above (citations, net_result, the word marks), no
     # new evidence, no new model call. Additive: not in
@@ -984,8 +1003,8 @@ def _run_ordinary_voice_turn(
         "glosses": glosses,
         "figures_used": figures_used,
         "quote_offers": [],
-        # r27_regenerated: whether this enforcement attempted the one
-        # allowed regeneration this turn - False when r27_enforce is off
+        # The regenerated flag: whether this enforcement attempted the one
+        # allowed regeneration this turn - False when the enforce flag is off
         # (every real caller until the flag is flipped on) or when
         # nothing hard-failed on the raw attempt. attempts_meta carries
         # no schema-validated shape (engine.m4.events' REQUIRED_KEYS only
@@ -997,7 +1016,6 @@ def _run_ordinary_voice_turn(
         },
         "grounding": net_result,
         "transparency": transparency,
-        "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the
         # fallback has appended - because that is the only text a person
@@ -1046,7 +1064,7 @@ def _run_ordinary_voice_turn(
         # (always [] after a drop, since the dropped sentence is gone).
         "fact_check_flags": fact_check_flags,
         # This enforcement, additive: False unless
-        # r27_enforce was on AND the one allowed regeneration still left
+        # The enforce flag was on AND the one allowed regeneration still left
         # a hard offense (wholly_uncited_paragraph or neighbour_named)
         # standing. True means answer_text is deliberately "" (the
         # voice's text is not shown), uncited_claims/paragraph_offenses
@@ -1108,6 +1126,8 @@ def run_turn(
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     self_revision_enabled: bool = True,
     sentence_enforce: bool = False,
+    daily_cap_reached: bool = False,
+    on_draft_text: Callable[[str], None] | None = None,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
@@ -1148,14 +1168,23 @@ def run_turn(
     already holds and for the same SS210 reason (see
     engine.m5.safety_accumulation's own module docstring).
 
-    r27_enforce/known_tradition_names (the uncited-claims rule's
+    The enforce flag and known_tradition_names (the uncited-claims rule's
     flag-gated enforcement) and sentence_enforce (sentence_fact_check's
     own, independent flag-gated enforcement): threaded straight through to
     every _run_ordinary_voice_turn call this
     function makes (the ordinary path and the bridge route both generate
     a real voice answer that can carry the same offenses) - see that
     function's own docstring for the full enforcement shape of each. All
-    default off/None, byte-identical to before any of them existed."""
+    default off/None, byte-identical to before any of them existed.
+
+    daily_cap_reached is engine.api.anon_cap's verdict that this visitor
+    has used today's message allowance. It closes the session the same way
+    the session turn cap does, at the same point, and a real crisis is
+    exempt from it the same way.
+
+    on_draft_text is passed to the two plain voice routes only. The bridge
+    route is left out on purpose: its Facilitator turn is read before the
+    voice, so a voice draft shown first would arrive out of order."""
     # The gate pass, extracted whole to run_gate (Artifact-7 - a table
     # round gates once per message, then runs several voice turns
     # against the same decision). The locals below keep their old names so
@@ -1188,6 +1217,13 @@ def run_turn(
     # not selectively, so the ending reads as one clear boundary rather than
     # a handful of routes quietly behaving differently.
     is_acute_crisis = action == "safety_turn" and not safety_outcome.failed and safety_outcome.value.get("signal") == "ACUTE_DISTRESS"
+    if not is_acute_crisis and daily_cap_reached:
+        return TurnResult(
+            routing_action="session_cap_turn", routing_reason="visitor daily message cap reached",
+            gate=gate, safety_state_events=safety_states,
+            facilitator_events=[facilitator_turns.daily_cap_turn()],
+            degraded=gate_result.degraded, usage_records=usage_records,
+        )
     if not is_acute_crisis and len(history or []) // 2 >= SESSION_TURN_CAP:
         return TurnResult(
             routing_action="session_cap_turn", routing_reason=f"session turn cap reached ({SESSION_TURN_CAP} turns)",
@@ -1342,6 +1378,7 @@ def run_turn(
             other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
+            on_draft_text=on_draft_text,
         )
         return TurnResult(
             routing_action=action,

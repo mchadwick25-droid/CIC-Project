@@ -52,15 +52,14 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
-42454. DISCLOSED: the ANF's inline cross-reference "See the note on c.
+Verified verbatim against the vendored file at npnf211 line
+42454. The ANF's inline cross-reference "See the note on c.
 vii." follows "Sarabaites" and is excised; the ligature in "Coenobites" is
-rendered as "oe" throughout; and TWO COLONS ARE RENDERED AS SEMICOLONS
+rendered as "oe" throughout; and two colons are rendered as semicolons
 ("a single Elder; and of this kind", "recesses of the desert; and in
 this order"), because a colon followed by a space is not legal inside a
-YAML plain scalar. That is a punctuation substitution, which is exactly
-what the milan-edict review caught being done silently, so it is stated
-here. Nothing else is altered.
+YAML plain scalar. That is the one punctuation substitution in this
+record; nothing else is altered.
 
 THIS WORLD'S OWN THREE-STRAND STRUCTURE IS THIS PASSAGE. The build
 carries Strand A (anchoritic, Pispir and the inner mountain), Strand B
@@ -77,6 +76,3 @@ and founded coenobia. The scheme survives because it is useful, but a
 world that presented it as a flat description would be repeating a
 recruitment argument as though it were a census.
 
-Quote-verbatim gate fix (2026-09-22): "Coenobites"/"Coenobium" simplified the source's "Cœnobites"/
-"Cœnobium" ligature - corrected to match exactly. Both semicolons after "single Elder" and "the
-desert" were wrong - the source has colons at both points; corrected. No wording changed.

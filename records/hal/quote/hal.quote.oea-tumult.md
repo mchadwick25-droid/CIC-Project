@@ -34,7 +34,7 @@ retrieval:
   - "participant asks what happened when a congregation heard an unfamiliar reading"
   - "participant asks whether changing a familiar text caused trouble"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf101 (div
+Verified verbatim against the vendored npnf101 (div
 vii.1.LXXI). The Oea gourd incident in Augustine's own hand - the
 translation project's cost measured in one congregation's uproar over one
 changed word in Jonah, reported by the project's most serious critic. The

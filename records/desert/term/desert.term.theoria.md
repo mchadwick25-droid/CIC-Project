@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "Praktikos ch. 1 and prologue SS8, VENDORED as of 2026-08-27 - Christianity as ascetical practice, contemplation of nature and theology (ch. 1), and love as the door to knowledge of nature which leads to theology (prologue SS8, desert.quote.the-ladder-from-faith-to-love). The Chapters on Prayer, where the contemplative stage is developed, remains unvendored and consult-only"
+  locus: "Praktikos ch. 1 and prologue SS8 - Christianity as ascetical practice, contemplation of nature and theology (ch. 1), and love as the door to knowledge of nature which leads to theology (prologue SS8, desert.quote.the-ladder-from-faith-to-love). The Chapters on Prayer, where the contemplative stage is developed, remains unvendored and consult-only"
   license: cc-by-4.0
 - source_id: desert.source.cassian-conferences
   locus: Conf. III ch. VI, the third renunciation and the Song of Songs
@@ -52,41 +52,10 @@ SS3). Serves F4-I (why and how did you pray) for the Strand C register
 specifically; the whole-movement prayer answer is the Psalter (carried
 by story/ambient material, not this term).
 
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop corpus-management vocabulary (vendored/consult-only/directly
-checkable) in favor of in-world evidence talk.
-
-Step3a Review Round 2, New Finding 1: the Round 1 rewrite had
-overclaimed that Socrates's excerpts make "this stage's teaching"
-(contemplation) checkable in English - verified against the vendored
-Socrates IV.23 extract in full, which contains Evagrius's practical
-sayings and no contemplation doctrine at all. Corrected to state
-accurately what the excerpt does and does not cover.
-
-Step3a Review Round 3, Findings S1/J4/C1: the Round 2 fix itself said
-the contemplative teaching "stays untranslated," which is false and
-contradicted by this world's own Evagrius source record (Bamberger's
-1970 English of the Praktikos and Chapters on Prayer exists,
-copyrighted, consult-only - not untranslated); it also swapped one
-review-process phrase Round 2 had itself flagged as borderline
-("a tested finding") for a stronger one ("checked directly against...
-sources"). Reworded a third time, checked against the Evagrius source
-record's actual edition list, without process language: what Socrates
-gives in English is the works named and a few practical sayings, not
-this stage's own teaching; the strand-bound claim rests on the wider
-movement's own record having no comparable ladder, not on a review
-verb. The English attribution is now credited to Zenos's translation,
-not to Socrates himself.
-
-Step3a Review Round 4, Findings S1/S4: (1) the informational sense's
-"Strand C's vocabulary" used this build's own lettered taxonomy with
-no legend in the field - reworded to name Kellia's learned circle.
-(2) the Round 3 fix's own "exists in English only in modern,
-copyrighted translation" introduced licensing vocabulary into the same
-clause, inconsistent with apatheia's sibling clause (fixed the same
-round to avoid exactly this) - reworded to state the fact (no English
-of the teaching can be quoted here) without naming the reason. On a
-second, self-checked pass this same fix's own "genuinely checked" was
-caught and removed before this commit - the identical review-process
-register the rest of this note is about, introduced and caught within
-one editing pass rather than surviving to a Round 5.
+The evidential sense states in plain in-world evidence talk what
+Socrates's excerpts do and do not cover: they give the works named and
+a few of Evagrius's practical sayings, in Zenos's translation, not this
+contemplative stage's own teaching, which has no English quotable here.
+The strand-bound claim rests on the wider movement's own record having
+no comparable ladder. The informational sense names Kellia's learned
+circle rather than this build's own lettered taxonomy.

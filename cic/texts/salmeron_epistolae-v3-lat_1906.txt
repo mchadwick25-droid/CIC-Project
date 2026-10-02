@@ -2,9 +2,9 @@ Title: Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Tomus
   Secundus, 1565-1585 - not "Vol. III" as the filename suggests; the
   title page itself reads "TOMUS SECUNDUS 1565-1585"
 Creator: Alfonso Salmeron (1515-1585)
-Publisher: Madrid: Monumenta Historica Societatis Jesu, 1906
+Publisher: Madrid: Monumenta Historica Societatis Jesu, 1907
 Rights: Public Domain
-Rights basis: Published 1906; public domain by date. Archive.org
+Rights basis: Published 1907; public domain by date. Archive.org
   item metadata carries an explicit `NOT_IN_COPYRIGHT`
   possible-copyright-status, checked directly against the item's own
   metadata, 2026-09-25, this session.
@@ -17,9 +17,11 @@ Provenance note: Body text unaltered including its own OCR errors
   (Latin). Salmeron's own letters, Tomus Secundus (1565-1585),
   continuing Tomus Primus (1536-1565, vendored separately). Vendored
   2026-09-25 as part of a
-  post-Step0-Revision-2 PD source-acquisition pass. Per this
-  project's own INTAKE.md rule, this Latin text is a second
-  witness, never primary evidence for a Representative.
+  post-Step0-Revision-2 PD source-acquisition pass. Per this project's own INTAKE.md rule (scan quality decides
+  quotability, not language), this Latin text is primary evidence
+  for the movement; the scan carries occasional letter-level
+  misreads, so any wording is verified against the page image before
+  it is quoted.
 
 This  is  a  digitai  copy  of  a  book  that  was  preserved  for  generations  on  library  shelves  before  it  was  carefully  scanned  by  Google  as  part  of  a  project 
 to  make  the  world's  books  discoverable  online. 

@@ -22,7 +22,12 @@
   // fails fast, before ever reaching the asset upload step.
   "name": "cic-project",
   "compatibility_date": "2026-09-03",
+  // The worker answers HTTP Range requests for /audio/ only; everything else is
+  // served straight from the assets. See cic-worker/worker.mjs.
+  "main": "cic-worker/worker.mjs",
   "assets": {
-    "directory": "./cic-website"
+    "directory": "./cic-website",
+    "binding": "ASSETS",
+    "run_worker_first": ["/audio/*"]
   }
 }

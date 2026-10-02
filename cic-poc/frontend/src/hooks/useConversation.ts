@@ -41,6 +41,9 @@ interface ConversationState {
   sessionCode: string | null;
   worldKey: string | null;
   turns: ConversationTurn[];
+  // The reply so far while the voice is still writing it - display text
+  // only, replaced by the finished turn. Empty whenever nothing is streaming.
+  draft: string;
   closed: boolean;
   isLoading: boolean;
   error: string | null;
@@ -54,6 +57,7 @@ const initialState: ConversationState = {
   sessionCode: null,
   worldKey: null,
   turns: [],
+  draft: '',
   closed: false,
   isLoading: false,
   error: null,
@@ -83,6 +87,7 @@ export function useConversation() {
         sessionCode: session_code,
         worldKey,
         turns: transcript.transcript.map(toTurn),
+        draft: '',
         closed: transcript.closed,
         isLoading: false,
         error: null,
@@ -104,11 +109,11 @@ export function useConversation() {
         setState((prev) => ({ ...prev, error: 'No active session' }));
         return false;
       }
-      setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
+      setState((prev) => ({ ...prev, isLoading: true, draft: '', error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
       try {
         const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
-        const result = await sendMessage(sessionId, sessionCode, text, attempt.id);
+        const result = await sendMessage(sessionId, sessionCode, text, attempt.id, (more) => setState((prev) => ({ ...prev, draft: prev.draft + more })));
         setState((prev) => {
           const appended: ConversationTurn[] = [];
           if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind, modernTerms: result.facilitator.modern_terms });
@@ -124,13 +129,13 @@ export function useConversation() {
           }
           const closed = result.facilitator?.kind === 'close' || prev.closed;
           if (closed) clearStored();
-          return { ...prev, isLoading: false, turns: [...prev.turns, ...appended], closed };
+          return { ...prev, isLoading: false, draft: '', turns: [...prev.turns, ...appended], closed };
         });
         return true;
       } catch (error) {
         const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
         const recoverable = error instanceof ApiRequestError && error.recoverable;
-        setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
+        setState((prev) => ({ ...prev, isLoading: false, draft: '', error: message, errorRecoverable: recoverable }));
         return false;
       }
     },
@@ -151,6 +156,7 @@ export function useConversation() {
         sessionCode: stored.sessionCode,
         worldKey: stored.worldKey,
         turns: transcript.transcript.map(toTurn),
+        draft: '',
         closed: transcript.closed,
         isLoading: false,
         error: null,
@@ -173,6 +179,7 @@ export function useConversation() {
     sessionCode: state.sessionCode,
     worldKey: state.worldKey,
     turns: state.turns,
+    draft: state.draft,
     closed: state.closed,
     isLoading: state.isLoading,
     error: state.error,

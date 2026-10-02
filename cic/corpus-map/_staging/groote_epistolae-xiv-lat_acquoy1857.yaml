@@ -1,7 +1,8 @@
 source_file: groote_epistolae-xiv-lat_acquoy1857.txt
 
 assignments:
-  - work: "Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)"
+  - row_id: groote_epistolae-xiv-lat_acquoy1857--gerardi-magni-epistolae-xiv-fourteen-letters-of-gerard
+    work: "Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)"
     author: groote
     locus: "whole text (fourteen letters, Latin, with editor's scholarly introductions)"
     atlas_ids:
@@ -12,13 +13,9 @@ assignments:
       Gerard Groote's own surviving letters, Latin original, ed. J. G. R.
       Acquoy (1857) - the movement's founder in his own voice, not
       reported through Thomas a Kempis's later biography. No PD English
-      translation located this pass. Vendored 2026-09-25 as part of a
-      fresh pre-Doc_02 source-acquisition pass for this candidate.
-      Correction (2026-09-25): originally called "PRIMARY content" here
-      on informal grounds only, ahead of any actual ruling backing that
-      label - a defect caught and flagged the same day. Under Mark's own
-      2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
-      this label now has real backing: a clean public-domain original
+      translation located. Per the Library's non-English-primary-evidence
+      rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is
+      primary content: a clean public-domain original
       can be primary evidence when it's primary to the movement, which
       this is, regardless of language and independent of whether an
       English translation exists.

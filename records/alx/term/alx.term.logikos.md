@@ -42,8 +42,7 @@ relations:
   target: alx.term.apokatastasis
 - type: associated-with
   target: alx.term.fall-descent
-plain_meaning: Every being able to know God is logikos - made for the Word. One teacher built this into
-  a wider, contested cosmology.
+plain_meaning: Every being that can know God is logikos, made for the Word. One teacher built this into a wider view of the cosmos, and that view is contested.
 world_word: logikos
 false_friend:
 - rational meant as cleverness or raw intelligence
@@ -62,7 +61,7 @@ senses:
     Isn't "rational" just IQ or the capacity to argue well? This world meant kinship with the Word -
     knowing God as a creature's native calling - and behind that confessed core, one teacher's bolder,
     contested cosmology of rational natures.
-quick_meaning: Made for the Word, able to know God - one teacher extended this into contested territory.
+quick_meaning: Made for the Word and able to know God. One teacher stretched this into contested ground.
 distortion_risk: high
 ---
 Imported from the old system's richer lexicon (alexlex090, "Logikos / Rational Nature") at Mark's

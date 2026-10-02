@@ -48,14 +48,12 @@ retrieval:
   - "participant asks who could be baptised and at what age"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
 ---
-Added at review (Opus canon-structure pass, 2026-08-21): the prior
-honest_limit for F1-T (ijc.limit.later-questions) claimed this
-world's record never framed original sin as a question at all - false;
 Leo's own anti-Eutychian correspondence states the doctrine of
 inherited guilt explicitly, in Pauline terms, as a premise the wider
-Christological argument depends on. Verified directly against the
-vendored corpus, file line 7398. The honest_limit is narrowed
+Christological argument depends on, verified directly against the
+vendored corpus, file line 7398. The honest_limit for F1-T
+(ijc.limit.later-questions) is narrowed
 accordingly to the one F1-T question this record genuinely does not
 reach: sola fide as a Reformation-era formulation.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

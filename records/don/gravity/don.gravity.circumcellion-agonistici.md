@@ -15,8 +15,7 @@ confidence:
     DIVERGENT ACROSS THREE, NOT TWO, EVIDENTIARY TIERS - Doc_04 SS3.5 names this the sharpest such divergence
     in the whole gravity-discovery document, and it is carried here at that strength rather than flattened.
     TIER ONE, bare EXISTENCE: Documented on independent imperial legislative attestation, directly confirmed
-    against the law's own text (CTh 16.5.52, vendored 2026-09-07; the correction from an earlier stale 'remains
-    unvendored' claim was made 2026-09-08 by an independent maturity-gap audit). TIER TWO, the agonistici
+    against the law's own text (CTh 16.5.52, vendored). TIER TWO, the agonistici
     SELF-DESIGNATION: reaches this record only through Augustine's own report of it, treated as reliable reportage
     per Doc_02 SS6 but NOT evidentially on par with the independent existence claim, so carried at a lower
     tier than Documented for anything beyond the bare fact that the group called itself this; the world_core's

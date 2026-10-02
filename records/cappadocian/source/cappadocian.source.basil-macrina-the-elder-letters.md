@@ -34,8 +34,7 @@ external_ids:
 Macrina the Elder -- this world's single most valuable non-male-mediated female formation datum, not
 filtered through her granddaughter's literary frame (row 11; Doc_02 SS1.4, SS6.1).
 
-VERIFIED DIRECTLY 2026-09-09, and here is exactly what was found, since this row previously rested on
-authority rather than on the file. Both letters are present in the vendored
+This row is verified directly. Both letters are present in the vendored
 cic/texts/npnf208_basil-letters-select-works.xml and both carry the datum. Epistle 204 (printed heading
 "Letter CCIV. Placed in 375. To the Neocaesareans."; element id ix.ccv, the same printed-vs-div
 off-by-one this build has recorded before), section 6, is the substantive one: Basil names "the

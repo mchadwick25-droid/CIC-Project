@@ -76,7 +76,7 @@ modern_rendering: >-
   resurrection, she believed he was alive with God -- only away, not gone. So it would be
   wrong, she said, not to stay faithful to a husband who was merely absent.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 gregory-nyssa_life-of-macrina_clarke1916.txt, under its own section header
 "DEATH OF THE YOUNG MAN" (line 126), the paragraph immediately following
 at line 128 (found via `grep -n -i -E "betroth|marriage|espous|widow|marry"`
@@ -111,7 +111,4 @@ same mediation this world's cappadocian.figure.macrina and
 cappadocian.story.macrina-refusal already carry openly rather than paper
 over.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

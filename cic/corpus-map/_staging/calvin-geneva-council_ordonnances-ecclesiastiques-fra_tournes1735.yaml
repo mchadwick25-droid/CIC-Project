@@ -1,0 +1,34 @@
+source_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
+
+authors_ruled:
+  calvin:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup (cic/texts/AUTHORS.md is generated solely
+      from CCEL's own <DC.Creator> metadata and does not cover this
+      plain-text archive.org extract) - this is a 1735 Geneva printing
+      of the Ecclesiastical Ordinances, originally authored by Calvin
+      (1541, revised 1561) and further revised by the Geneva General
+      Council (1576, the text this printing carries). Attribution is
+      the document's own historical authorship, not a text-scan guess.
+    from_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
+
+assignments:
+  - row_id: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735--ordonnances-ecclesiastiques-de-l-eglise-de-geneve-1576
+    work: "Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)"
+    author: calvin
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      The Genevan ecclesiastical constitution itself, licensing Doc_01's
+      Authority-structure strand directly from primary text rather than
+      general knowledge. This 1735 printing carries the 1576 Council
+      revision, not Calvin's own original 1541/1561 wording verbatim -
+      the same living document in continuous institutional use, and a
+      genuine PD alternative after two other candidates (Schaff's HCC8
+      paraphrase; a 1977 in-copyright translation) were checked and
+      rejected by the build thread itself. Bears directly on Doc_04's
+      Consistorial Discipline gravity.

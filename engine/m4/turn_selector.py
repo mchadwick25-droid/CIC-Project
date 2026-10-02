@@ -88,7 +88,7 @@ class Selection:
     when close is True. degraded means the model's own judgment was not what
     produced this - a failed call, or an illegal output past the schema.
 
-    engages (2026-09-05, structural fix for a repeat failure mode: raising
+    engages (a structural fix for a repeat failure mode: raising
     the round floor after a full-table-synthesis close only moved where the
     same collision happened, since a return turn was always structurally
     exposed to every prior voice at once with nothing scoping it to one).
@@ -165,8 +165,8 @@ def fallback_world(eligible: list[str], transcript_speakers: list[str]) -> str:
     transcript (not just this round): a voice that has never spoken sorts
     first; otherwise the one whose last turn is furthest back. Deterministic
     - same inputs, same choice - genuinely, not just in practice: the tie-
-    break among never-spoken voices is alphabetical on the world_key itself
-    (2026-09-05 fix), never `eligible`'s own incoming order. It used to be
+    break among never-spoken voices is alphabetical on the world_key itself,
+    never `eligible`'s own incoming order. It used to be
     the latter, and "same choice" was only ever true because every caller
     happened to pass `eligible` in a stable seating order - the moment
     table_wiring started reshuffling that order per call to fix responses
@@ -200,15 +200,15 @@ _TARGET_TURNS_BY_SEATS = {2: 4, 3: 5}
 def round_facts(world_keys: list[str], round_speakers: list[str]) -> str:
     """Code-computed round state, stated to the selector outright (Artifact-7
     SS5's "eligibility facts computed in code") rather than left for it to
-    infer from a flat transcript window. Added 2026-08-28 after the first
-    live run: the selector's R2-pos3 reason opened with "Theon has not yet
+    infer from a flat transcript window. This closes a real defect found on
+    a live run: the selector's R2-pos3 reason opened with "Theon has not yet
     responded to this round's question" when Theon had spoken at position 1
     of that round - the decision itself was defensible, but a turn_selected
     event's reason is an audit surface (M7), and a false factual sentence in
     it is a defect. The model no longer has to reconstruct round boundaries
     it was never told.
 
-    Carries the target-length guidance too (2026-09-05) - a preference
+    Carries the target-length guidance too - a preference
     stated as a fact about this table's usual shape, not a rule, and never
     seen by the participant either way (this whole string is selector-only
     reasoning input, same as the rest of this function)."""
@@ -289,8 +289,8 @@ def select_speaker(
     eligible = eligible_worlds(world_keys, last_speaker)
     outcomes: list[CallOutcome] = []
     if not close_allowed and len(eligible) == 1:
-        # FORCED MOVE - no selector call (2026-08-28, second live run's
-        # finding): with closing off the table and one eligible voice,
+        # FORCED MOVE - no selector call: with closing off the table and
+        # one eligible voice,
         # there is no judgment to exercise, and both live runs showed the
         # model, asked anyway, confabulating a justification ("Theon has
         # not yet spoken this round" about a voice that opened the round) -

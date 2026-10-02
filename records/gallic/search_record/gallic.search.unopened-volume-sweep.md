@@ -78,9 +78,8 @@ note: "NOTHING NEW FOUND SITTING UNOPENED. Every vendored file whose
   source cited load-bearing by a sibling document but never given a Registry
   row) turned up here: every candidate this pass checked was either already
   rowed or genuinely out of scope on inspection. This is consistent with,
-  not surprising given, gallic_Source_Registry.md's own three full review
-  rounds (Round 1, Round 2 substantial-revision, Round 3 bounded spot-check)
-  already having hunted specifically for missing sources across three
+  not surprising given, gallic_Source_Registry.md's own thorough review
+  already having hunted specifically for missing sources across its
   successive drafts before this sweep began -- the same reason Cappadocian's
   own B-1a sweep, run after equivalent scrutiny, found only a small residue
   rather than a pile of overlooked volumes. This world's residue is smaller
@@ -89,21 +88,17 @@ note: "NOTHING NEW FOUND SITTING UNOPENED. Every vendored file whose
 THE SHAPE THIS WORLD'S OWN SWEEP TOOK, run the same way Cappadocian's and
 HAL's were and landing at the same "nothing new" result Cappadocian's did.
 
-Three independent adversarial review rounds already ran against
-gallic_Source_Registry.md before this sweep began (gallic_Doc02_Review_Round1.md,
-gallic_Doc02_Review_Round2.md, gallic_Doc02_SpotCheck_Round3.md), each one
-hunting specifically for missing or mishandled sources across three
-successive revisions (a Round-1 draft, corrected and expanded through Round
-2, then held to a Round-3 bounded spot-check that itself caught two
-false-fix claims on unrelated cells). By the time this sweep started, the
-obvious misses were already found and fixed by that process, not by this
-one -- exactly Cappadocian's own sweep's finding about its own Registry's
-history. What a discovery sweep run after that kind of scrutiny should
-expect to find is not a pile of overlooked volumes but, at most, a small
-residue. This pass found none: every candidate name checked either resolved
-to an already-rowed source, an editorial footnote inside an already-rowed
-volume, a quoted ancient figure with no vendored corpus of his own in this
-world's evidence base, or a cross-world comparison this build's own
+gallic_Source_Registry.md received thorough review before this sweep
+began, hunting specifically for missing or mishandled sources across its
+successive drafts. By the time this sweep started, the obvious misses
+were already found and fixed by that process, not by this one -- exactly
+Cappadocian's own sweep's finding about its own Registry's history. What
+a discovery sweep run after that kind of scrutiny should expect to find
+is not a pile of overlooked volumes but, at most, a small residue. This
+pass found none: every candidate name checked either resolved to an
+already-rowed source, an editorial footnote inside an already-rowed
+volume, a quoted ancient figure with no vendored corpus of his own in
+this world's evidence base, or a cross-world comparison this build's own
 documents draw against a different, already-built world's material.
 
 WHY THE NEAR-MISSES MATTERED TO CHECK ANYWAY, even though all of them

@@ -25,12 +25,11 @@ external_ids: {ccel_volume: "npnf206", thml_div: "v.LXXVII"}
 Work presence verified directly: div2 'To Oceanus.' n=LXXVII at file line
 17329.
 
-Carried cautions from the cleared Doc_02: (1) the hospital foundation is
+Cautions: (1) the hospital foundation is
 attested ONLY through this letter - later tradition depends on Jerome and is
 not independent corroboration; Widely Accepted for the bare fact, Jerome-only
 in sourcing. (2) Epitaph genre: idealizing, didactic. (3) A fabricated Latin
-gloss falsely attributed to Ep. 77.6 was caught by the prior build's review
-(hal_Doc_03_Addendum_Review_Round1/2) and appears to circulate in
+gloss, falsely attributed to Ep. 77.6, circulates in
 AI-generated summaries online - any quotation-level claim from this letter
 must be pulled from the vendored text directly, never from memory or search
 summaries. (4) Fabiola's death year (399 vs 400) is contested - see

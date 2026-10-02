@@ -1,7 +1,8 @@
 source_file: eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
 
 assignments:
-  - work: "De Contemptu Mundi (\"The World Contemned\"), an Epistle to His Kinsman Valerianus"
+  - row_id: eucherius-lyon_de-contemptu-mundi_vaughan1654--de-contemptu-mundi-the-world-contemned-an-epistle-to-his
+    work: "De Contemptu Mundi (\"The World Contemned\"), an Epistle to His Kinsman Valerianus"
     author: eucherius-lyon
     locus: "full letter, tr. Henry Vaughan 1654 (CCEL PDF pp. 6-25)"
     atlas_ids:

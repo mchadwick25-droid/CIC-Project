@@ -19,7 +19,7 @@ result: not_found
 found_sources: []
 note: "No documentary or archaeological evidence specific to these communities was identified by the prior build's research pass, and none exists in the vendored corpus. The Nativity site's broader archaeology is well established, but specific structures attributable to the monastery, convent, or hospice are not - later Byzantine and Crusader building phases complicate the site. Any spatial specificity beyond 'near the Church of the Nativity' is Inferential-Thin. This not_found grounds hal.limit.f5-material-remains."
 ---
-Run 2026-08-21. A genuine evidentiary gap for an elite world of this
+A genuine evidentiary gap for an elite world of this
 period, named rather than smoothed (the prior build flagged it as
 significant precisely because comparable contexts DO sometimes leave such
 records).

@@ -40,7 +40,7 @@ relations:
 - type: associated-with
   target: hal.dw.sin-grace
 ---
-Opened 2026-08-27 for F1-T. hal.dw.sin-grace cites this letter for "a child raised toward
+Opened for F1-T. hal.dw.sin-grace cites this letter for "a child raised toward
 baptism and consecration" and had nothing quotable behind it.
 
 Kept deliberately uncomfortable. The cell's canon question asks whether a person was born again,

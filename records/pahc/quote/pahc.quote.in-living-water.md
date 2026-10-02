@@ -41,16 +41,15 @@ relations:
 - type: associated-with
   target: pahc.term.baptisma
 ---
-Opened 2026-08-27 for F4-T, served by pahc.term.baptisma alone, which cites ch. 7 for "living
-water; the fallback ladder; threefold pouring" and had nothing quotable.
+This quote serves F4-T together with pahc.term.baptisma, which cites ch. 7 for "living
+water; the fallback ladder; threefold pouring".
 
 Kept as the whole ladder rather than the first clause. A cell asking whether this world baptised
 infants is not answered here - the Didache does not say - but the shape of the answer it CAN give
 is that the form bent to circumstance, and that only shows if the fallbacks are shown.
 
-MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+The modern rendering is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "the head" was invented - the
-source completes the pouring instruction with the same trinitarian formula used for immersion earlier
-in this same quote ("into the name of Father and Son and Holy Spirit"). Restored; modern_rendering
-extended to match. Doesn't change the "whole ladder" this record is kept for - if anything, completes it.
+The pouring instruction completes with the same trinitarian formula used for immersion earlier in
+this same quote ("into the name of Father and Son and Holy Spirit"); modern_rendering matches. This
+does not change the "whole ladder" this record is kept for - if anything, it completes it.

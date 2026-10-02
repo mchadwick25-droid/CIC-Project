@@ -16,8 +16,7 @@ sources:
 - source_id: alx.source.athanasius-vita-antonii
   locus: the boundary text itself
   license: public-domain
-claim: Desert monastic formation (Antony, Pachomius, the Apophthegmata tradition) belongs to Alexandria's
-  formation ecology - its intensified continuation.
+claim: Desert monk life is part of Alexandria's way of forming people. Antony, Pachomius and the desert sayings carry it on in a more intense form.
 held_against:
 - The desert tradition is arguably a distinct formation world with its own logic (the planned second build);
   the prior build held the attribution open through three documents and never resolved it

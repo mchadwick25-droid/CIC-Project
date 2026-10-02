@@ -41,15 +41,15 @@ relations:
 - type: associated-with
   target: desert.dw.born-again
 ---
-Opened 2026-08-27 for F4-T, served by desert.dw.born-again alone, which cites this chapter for
-"the day he took up this life, in his own words".
+This record fills canon cell F4-T. desert.dw.born-again alone serves this cell, citing this chapter
+for "the day he took up this life, in his own words".
 
 Chosen over the alternative locus the same cell offered (Vita SS16, on the shortness of life
 against the ages to come) because this one is a participant speaking in the first person about his
 own turning, which is what the cell's question actually asks for.
 
-Quote-verbatim gate fix (2026-09-22): removed stray literal backslashes before quote marks (a YAML
-folded-scalar authoring bug, not real source characters). The record still cannot verify past "world"
-early in the first sentence: the source has a page-break marker ("world |146 in the days") that the
-gate doesn't strip - flagged for Mark alongside the other footnote/pagination-apparatus findings in
-this PR (a pipe-plus-digits form, distinct from the bare-digit and bracketed forms already found).
+The text field carries no stray literal backslashes before quote marks (a YAML folded-scalar
+authoring artifact, not real source characters). Verification cannot yet clear past "world" early in
+the first sentence: the source has a page-break marker ("world |146 in the days") that the automated
+verification gate does not strip - a pipe-plus-digits form, distinct from the bare-digit and
+bracketed forms already found elsewhere.

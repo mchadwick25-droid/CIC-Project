@@ -158,9 +158,8 @@ Martin flees synods; Archebius "expelled"') - both carried as tension-with; Doc_
 G1-G9 competition' as one of 'the two structural tensions of the ecology.' DECLARED ABSENCE: no
 demonstrated relationship with G10 (judgment) - the matrix's own '-' cell (row G1/col G10 and its
 reciprocal). Doc_04 gives no pair-specific reasoning for this cell beyond reading G10's row as 'the
-thinnest in the matrix (four "-" cells)'; this record does not manufacture one (Doc_04 §11's Round 2
-spot-check names G1's line as one of three still carrying an undisclosed '-' cell, item R5, left
-open there; it is disclosed here). Forces-connection (Doc_08 §5, Appendix A.2 - seven forces):
+thinnest in the matrix (four "-" cells)'; this record does not manufacture one, and discloses the
+undisclosed '-' cell here rather than leaving it unstated. Forces-connection (Doc_08 §5, Appendix A.2 - seven forces):
 grounded by 1B-1 (gallic.force.renunciation-that-stays) and produced by 2A-2
 (gallic.force.episcopal-recruitment - 'the drain and the gravity cannot be told apart') - both
 carried as enabled-by, reciprocal precondition-for on the force records; shaped by 1A-2

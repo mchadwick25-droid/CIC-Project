@@ -28,18 +28,15 @@ the fleet's own canon_question keyword corpus
 (engine.m1.canon.cell_keywords), the identical derivation Stage A scores a
 live turn against.
 
-STATUS 2026-08-26: PROTOTYPE. The mechanism works - it reads the corpus,
-scopes by the world's own review, scores against the fleet's cell vocabulary,
-and returns real prose. The RESULTS are not yet usable, and three specific
-things are why. Recorded here rather than in a commit message because whoever
-picks this up needs them:
+STATUS: PROTOTYPE. The mechanism works - it reads the corpus, scopes by the
+world's own review, scores against the fleet's cell vocabulary, and returns
+real prose. The results are not yet usable, for three reasons:
 
-  1. Scope is real but nearly empty. The corpus map now scopes by addition,
-     so a world searches the files its Atlas entry assigned - but only
-     `desert-monasticism` has a map file, and it holds two works. Every
-     other world still falls back to the whole corpus and says so on
-     stderr. This fixes itself as the assignment thread works; nothing
-     here needs changing.
+  1. Scope is real and now populated for most worlds. The corpus map scopes
+     by addition, so a world searches the files its Atlas entry assigned;
+     65 of the 68 map files carry at least one work (desert-monasticism
+     alone now holds 27). A world with no map file yet still falls back to
+     the whole corpus and says so on stderr.
 
   2. The cell vocabulary is conversational, not theological. It derives from
      the canon_question texts - "Who was Jesus, to you and your people?" -
@@ -137,18 +134,15 @@ def in_scope_files(world_key: str) -> dict[str, list[str]]:
     """file -> the authors in it, for every file this world's Atlas entry has
     assigned a work from.
 
-    Reads `cic/corpus-map/<census_id>.yaml`. Until 2026-08-26 this read a
-    per-world `corpus_review` record and scoped by SUBTRACTION - every file
-    the world had not declined - which was blocker (1) above: nothing had
-    been declined anywhere, so nothing was ever out of scope and probing
-    `desert` searched Augustine. The corpus map scopes by ADDITION instead,
-    which is the fix rather than a rename: an entry with two works assigned
-    searches two files, not forty-six.
+    Reads `cic/corpus-map/<census_id>.yaml` and scopes by ADDITION: an entry
+    with two works assigned searches two files, not forty-six - never by
+    subtraction over every file not explicitly declined, which would search
+    everything the moment nothing has been declined.
 
     A world whose map file does not exist yet falls back to the whole corpus
     and says so. That is the honest default - an unwritten map is not a claim
-    that nothing is in scope - but it is also the old, useless behaviour, so
-    the caller is told which of the two it got.
+    that nothing is in scope - but it still means nothing is filtered, so the
+    caller is told which of the two it got.
     """
     import yaml
 

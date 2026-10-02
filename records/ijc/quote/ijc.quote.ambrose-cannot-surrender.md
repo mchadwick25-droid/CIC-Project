@@ -31,7 +31,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---
-Text verified verbatim against the vendored file 2026-08-21. The
+Text verified verbatim against the vendored file. The
 crisis's whole shape in one sentence, from Ambrose's own report to his
 sister while it was happening: refusal without arms - what he could
 offer against soldiers was not a weapon but the refusal to leave.

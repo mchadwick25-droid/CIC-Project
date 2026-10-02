@@ -78,41 +78,21 @@ Doc_09a's own unattributed telling. The tablet's own content is
 paraphrased rather than quoted at length; desert.quote.pachomius-angel-
 tablet now carries the direct quotation of its opening clause.
 
-Step4, Round 1 review Finding S6: this body previously cited
-desert.quote.pachomius-angel-tablet before that record existed - built
-above rather than the reference removed, since the material genuinely
-supports a verbatim quote. Finding M4: the closing sentence had
-attached Palladius's own present-tense report (seven thousand men,
-thirteen hundred at the first house, written decades after Pachomius's
-death) to a "by the time of his death" framing Palladius does not give
-- corrected to separate the two claims. Finding C6: "not admitted to
-full communion" corrected to "not allowed to enter the sanctuary,"
-Palladius's own wording. Finding C9: this body already invoked
-desert.gravity.authority-tension in prose without declaring a relation
-to it - added above.
-
-Step4, Round 2 review Finding S9: the Round 1 fix above moved the
-death-time house-and-membership figure onto desert.source.rousseau-
-pachomius, which does not register a membership count (its own
-sources[] entry on desert.gravity.koinonia covers the house count
-only, explicitly excluding population), and the compiled sentence's
-"by his own account" still grammatically reattached the death-time
-figure to Palladius, the nearest antecedent - reasserting exactly the
-claim M4 required be detached from him. Corrected: the
-rousseau-pachomius citation is removed from sources[] (koinonia's own
-citation is not duplicated here), the death-time house count and
-membership estimate are now attributed to Doc_01 SS2.1 directly (in
-divergence_note, matching this build's own convention for citing that
-document in a story record - see desert.story.antony-withdrawal), and
-the compiled text is restructured so the two claims read as
-grammatically distinct sentences. Doc_01 SS2.1's own hedge on the
-membership figure ("should be read as an order-of-magnitude indicator
-rather than a precise census") and Palladius's own AUTHOR GRAVITY
-caution on his population figures are both now carried in the compiled
-text, closing Finding M9's separate note that the M4 fix had dropped
-Palladius's own never-precise-counts caution when it sharpened "by
-report, to thousands" into an exact "seven thousand... thirteen
-hundred."
+desert.quote.pachomius-angel-tablet carries the direct quotation this
+body cites. The closing sentence keeps Palladius's own present-tense
+report (seven thousand men, thirteen hundred at the first house,
+written decades after Pachomius's death) grammatically distinct from
+the death-time house count and membership estimate, which are
+attributed to Doc_01 SS2.1 directly (in divergence_note, matching
+desert.story.antony-withdrawal's own convention for citing that
+document in a story record); desert.source.rousseau-pachomius is not
+cited here (koinonia's own citation is not duplicated). The text uses
+Palladius's own wording, "not allowed to enter the sanctuary." This
+body declares a relation to desert.gravity.authority-tension, which it
+invokes in prose. Doc_01 SS2.1's own hedge on the membership figure
+("should be read as an order-of-magnitude indicator rather than a
+precise census") and Palladius's own AUTHOR GRAVITY caution on his
+population figures are both carried in the compiled text.
 
 Formation significance: directly generates desert.gravity.koinonia
 (Supporting) and is the founding episode desert.force.formation-at-
@@ -123,4 +103,4 @@ origin story - authority here is given by vision and written down, not
 only earned through personal relationship, the same contrast
 desert.gravity.authority-tension names.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

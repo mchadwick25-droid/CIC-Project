@@ -45,14 +45,13 @@ relations:
 - type: associated-with
   target: desert.dw.melitian-power
 ---
-Opened 2026-08-27 for F1-E and F3-P together - one passage genuinely answers both, and both
-cells were served by a witness with no quote. desert.dw.councils cites SS68 for Antony's rejection
-of Melitian and Arian teaching; desert.dw.melitian-power cites the same section for never holding
-communion with the schismatics.
+This record fills canon cells F1-E and F3-P together - one passage genuinely answers both.
+desert.dw.councils cites SS68 for Antony's rejection of Melitian and Arian teaching;
+desert.dw.melitian-power cites the same section for never holding communion with the schismatics;
+neither has a quote of its own.
 
 Kept whole because the last clause is what makes it evidence rather than slogan: the refusal is
 total AND it leaves a door open for advice. A voice that quoted only the refusal would be
 reporting this world more harshly than its own source does.
 
-Quote-verbatim gate fix (2026-09-22): the record's "Manichaeans" simplified the vendored edition's
-"Manichæans" ligature - corrected to match exactly; no wording changed.
+The text field carries "Manichæans" matching the vendored edition's own ligature exactly.

@@ -36,25 +36,20 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 ---
-Text verified verbatim against the vendored file 2026-08-21. A
+Text verified verbatim against the vendored file. A
 contemporary's entire notice - two sentences, from a man who had worked
 in Damasus's own chancery. The build's best quotable witness to the
 verse-inscription program, since no public-domain English of the
-epigrams themselves exists (ijc.search.damasus-epigrams-english).
-Corrected at review (Opus canon-structure pass, 2026-08-21): canon_cells
-emptied - this quote names no inscription, archaeology, or evidential
-method, so an F5-E tag was a loose association; its real and sole job
+epigrams themselves exists (ijc.search.damasus-epigrams-english). This
+quote names no inscription, archaeology, or evidential
+method, so canon_cells carries no F5-E tag; its real and sole job
 is corroborating ijc.figure.damasus (F5-E stays covered by
 ijc.term.basilica and ijc.term.martyrium).
 
-FIXED 2026-08-26 (cross-world transparency audit): speaker_or_author
-used to carry "(licensed for this world's figure notices only)" - a
-build-team scope note rendered verbatim to the participant as this
-quote's speaker line. The speaker line now just names Jerome and the
-locus. NARROW LICENSE: this quote is licensed for use as figure-notice
+The speaker line names Jerome and the
+locus only. NARROW LICENSE: this quote is licensed for use as figure-notice
 material specifically, not for reuse as general testimony elsewhere.
 
-CELL ASSIGNED 2026-08-27; the record had none and sat outside coverage.
 F3-I asks who held authority and how anyone came to have it. Damasus setting
 his own verses over the martyrs' tombs is Rome making that claim in stone,
 and it is one of this world's clearest instances of it.

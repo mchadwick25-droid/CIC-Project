@@ -43,8 +43,8 @@ text: >-
   martyrs and our nurses had found him most present exactly there.
 positions:
 - 'suffering read within divine pedagogy: remedial, never meaningless'
-- 'the practical answer outweighed the theoretical: presence and care in the plague'
-- no claim to explain particular griefs - confidence in purpose, not in explanations
+- 'The practical answer counted for more than the theory: presence and care during the plague.'
+- The answer does not claim to explain particular griefs. It trusts in purpose, not in explanations.
 tensions:
 - the pedagogy frame can sound cruel to a modern griever if voiced without care - the personal register
   requires witness before answer (the spec's own personal-wound rule)

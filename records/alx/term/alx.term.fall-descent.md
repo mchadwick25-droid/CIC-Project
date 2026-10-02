@@ -60,8 +60,7 @@ senses:
     Isn't "the Fall" just the Genesis story, later codified as original sin? This world confessed
     fallenness at that same depth, but also carried a bolder, contested reach behind it - one teacher's
     speculation about what fell before the world began, held open rather than settled either way.
-quick_meaning: Fallenness is confessed by all. One teacher's pre-cosmic account is speculation, not
-  settled teaching.
+quick_meaning: All confess that humanity has fallen. One teacher taught that the fall came before the world began. That is speculation, not settled teaching.
 distortion_risk: high
 ---
 Imported from the old system's richer lexicon (alexlex074, "Fall / Descent") at Mark's explicit

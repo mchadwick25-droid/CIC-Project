@@ -66,9 +66,6 @@ recension) reads "who was truly born, and did eat and drink," with no
 "we" cannot make (see pahc.witness.how-we-know:
 "none of us saw him ourselves").
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
-thanks over the cup, eucaruest (in purple)" - plain meaning first, the
-world's own word after it as a label, so the lexicon scan can light it
-into the glossary). eucharistia labeled at its own line, the one Mark quoted. Register bar's own form: "a scholar's term
-only after its plain meaning, as a label." Claims unchanged; the label
-is the whole edit.
+Lexicon labels give the plain meaning first, with the world's own word
+after it as a label, so the lexicon scan can light it into the
+glossary: eucharistia is labeled at its own line.

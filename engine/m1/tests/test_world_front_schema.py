@@ -1,5 +1,5 @@
 """world_front / facilitator_brief schemas (Website V2 world_front design,
-approved to proceed 2026-09-19). Not exercised by the fleet-wide selftest
+approved to proceed). Not exercised by the fleet-wide selftest
 yet - no world has a world_front record (content migration is a separate,
 later stage) - so this is the schema's own direct proof: it validates a
 correctly-shaped record of each type, and it rejects the specific

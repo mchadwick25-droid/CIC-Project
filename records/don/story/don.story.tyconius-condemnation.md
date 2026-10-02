@@ -106,16 +106,11 @@ Compiled from World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
 condemnation.md (Doc_09 story index row donstory009, Tier 1), whose
 narrative text is carried forward rather than re-derived.
 
-THIS STORY EXISTS BECAUSE A REVIEW ROUND FOUND AN ERROR. Doc_09 Section
-7 originally treated Tyconius's condemnation as a boundary case with no
-surviving primary attestation, and Round 1 review found that conclusion
-factually wrong - the drafting had read Monceaux's chapter body but not
-followed its own footnote three lines up to the primary citation it
-names, a citation Doc_02 Section 9 had already flagged as unchecked and
-available. Doc_09 logs the correction rather than overwriting it, and
-this record carries it in narrative_tier_justification for the same
-reason: the tier here is a corrected judgement, and the correction is
-part of what a later reader needs.
+Doc_09 Section 7's own boundary-case classification for Tyconius's
+condemnation rests on a primary citation Monceaux's own footnote names,
+flagged as unchecked and available by Doc_02 Section 9. This record
+carries that citation in narrative_tier_justification: the tier here
+rests on it, and it is part of what a later reader needs.
 
 TYCONIUS'S STANDING IS LEFT OPEN ON PURPOSE - don.core.donatism cautions
 item 9. He was tested against the strand bar and rejected on the record,

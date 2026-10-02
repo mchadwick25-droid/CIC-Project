@@ -1,6 +1,6 @@
 """Marker-level grounding for CITATION-TAGGED sentences that already
 passed engine.m4.grounding_net's own ratio test (fabrication guard; see
-worlds/pahc/Open_Gaps_Tracking.md OG-9 for the traced regression).
+Build/worlds/pahc/Open_Gaps_Tracking.md OG-9 for the traced regression).
 
 THE GAP THIS CLOSES: grounding_net.verdict_for_sentence's ratio test
 scores a tagged sentence by the SHARE of its own content words found

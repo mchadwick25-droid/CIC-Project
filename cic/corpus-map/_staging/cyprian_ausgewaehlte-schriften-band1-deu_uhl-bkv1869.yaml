@@ -1,0 +1,15 @@
+source_file: cyprian_ausgewaehlte-schriften-band1-deu_uhl-bkv1869.txt
+
+assignments:
+  - row_id: cyprian_ausgewaehlte-schriften-band1-deu_uhl-bkv1869--cyprian-ausgewaehlte-schriften-band-1-german-uhl-bkv-1869
+    work: "Cyprian, Ausgewaehlte Schriften, Band 1 (German, Uhl, BKV 1869)"
+    author: cyprian
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A German translation of Cyprian's treatises and two letters, not the original. Context,
+      not tradition: the Latin (Hartel) is the tradition entry. Fraktur OCR is poor. Registry
+      row 232.

@@ -28,7 +28,7 @@ def _enforcing_client(*, store, usage_store, world_loader, registry):
 
 def _all_built(registry):
     """The pre-admission stage, constructed - not assumed from the live
-    registry, whose formation worlds advanced to `admitted` on 2026-08-28."""
+    registry, whose formation worlds have already advanced to `admitted`."""
     built = copy.deepcopy(registry)
     for entry in built.values():
         entry["state"] = "built"

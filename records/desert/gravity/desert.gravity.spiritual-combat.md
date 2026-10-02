@@ -66,24 +66,14 @@ identical with, this broader gravity, matching Doc_04 SS2's own
 Interaction-test finding ("generates candidate 9 as its Strand-C-
 specific systematized form").
 
-Step3b Review Round 1, Finding M5: the Vita locus and first
-manifestation cited "SS5-9" for both the tombs and the fort episodes;
-read in full, SS8-9 is the tombs and the fort is SS12-13 (the edition's
-own summary line: "How Antony took up his abode in a ruined fort
-across the Nile, and how he defeated the demons"). Corrected. Finding
-S5: the second manifestation's "regardless of settlement" repeated,
-unscreened, the cross-settlement recurrence claim Step3a Round 7 flagged
-on desert.term.diakrisis for resting on the Apophthegmata's own
-compiler-mediation caveat without stating it - added the same caveat
-here. Finding S8: no forces-connection notation was stated in this
-record's own text - added.
-
-Step3b Review Round 2, Finding C3: the Round 1 fix's own caveat clause
-("how far that recurrence reflects the settlements themselves...")
-answered a cross-settlement question the sentence, once "regardless of
-settlement" was removed by the same edit, no longer explicitly posed -
-a dangling referent. Reworded to state the cross-settlement claim and
-its caveat together, so the caveat has something to qualify.
+The Vita locus and first manifestation cite SS8-9 for the tombs and
+SS12-13 for the fort (the edition's own summary line: "How Antony took
+up his abode in a ruined fort across the Nile, and how he defeated the
+demons"). The second manifestation states the cross-settlement
+recurrence claim together with its caveat: the pattern recurs across
+named elders and settlements alike in the sayings tradition, though how
+far that reflects the settlements themselves and how far it reflects
+the sayings' later compilers' own arrangement is not settled.
 
 Step3c: desert.figure.antony added - his own combat at the tombs and
 in the fort (Vita SS8-9, SS12-13) is this gravity's own paradigm case,

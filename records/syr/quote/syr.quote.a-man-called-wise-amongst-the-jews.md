@@ -45,14 +45,12 @@ relations:
 - type: associated-with
   target: syr.dw.unsettled
 ---
-Opened 2026-08-27 for F6-I, served by syr.dw.unsettled alone, whose one vendored locus reads 'the
-corpus's own polemical strand' - a body of text, which is why the instrument ruled this NEEDS READING.
+This quote serves F6-I; syr.dw.unsettled alone grounds that cell, and its one vendored locus reads 'the
+corpus's own polemical strand' - a body of text that needed direct reading rather than citation alone.
 
 Reading the strand, the sharpest thing in it is not a piece of polemic but the QUESTION the polemic
 answers, which Aphrahat preserves in full and in the questioner's own construction before dismissing
 it. Keeping his reaction inside the quote is the point; ending at 'able to do' would make this world
 look better than its own record does.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. It keeps short sentences, everyday words, and translation fidelity, with the original wording staying as this record's text and shown at Level 3.

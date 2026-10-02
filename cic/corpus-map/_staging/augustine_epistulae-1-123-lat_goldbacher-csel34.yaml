@@ -1,7 +1,8 @@
 source_file: augustine_epistulae-1-123-lat_goldbacher-csel34.txt
 
 assignments:
-  - work: "Augustine's Epistulae 1-123 (Goldbacher's critical edition)"
+  - row_id: augustine_epistulae-1-123-lat_goldbacher-csel34--augustine-s-epistulae-1-123-goldbacher-s-critical-edition
+    work: "Augustine's Epistulae 1-123 (Goldbacher's critical edition)"
     author: augustine
     locus: "whole file, Ep. I-CXXIII"
     atlas_ids:

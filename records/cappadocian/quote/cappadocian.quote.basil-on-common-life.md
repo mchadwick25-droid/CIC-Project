@@ -13,20 +13,19 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    This record's own body (2026-09-02) already documents correcting this passage's `text`
+    This record's own body documents correcting this passage's `text`
     against two plain OCR misreads in the vendored basil_ascetic-works-longer-shorter-rules_clarke1925.txt
     scan - "Tor just as" for "For just as", and a stray leading curly-quote mark before "To
     begin" - and dropping three inline footnote-marker artifacts as apparatus, not text.
-    Quote-verbatim gate note (2026-09-23, item 2 of the P3 registration queue): the gate's
-    own edition-level apparatus (cic/texts/REGISTRY.yaml) now strips the recurring,
+    The gate's own edition-level apparatus (cic/texts/REGISTRY.yaml) strips the recurring,
     evidenced marker conventions this same edition uses elsewhere in this passage (the
     "?" and "®" footnote glyphs, the stray column-continuation letter), but the "Tor"/"For"
     difference is a genuine scan misread, not a marker - the vendored file itself reads
     "Tor", not what Basil wrote. No apparatus mechanism should correct a raw word-level OCR
     error; that stays a fact about the scan, not a fidelity defect in this record. Same
-    treatment already ruled for don.quote.donatus-quid-est-imperatori and its OCR-damaged
-    neighbors: verification_state lowered from verified-direct to verified-via-authority to
-    reflect that the corrected text rests on the 2026-09-02 human correction against the raw
+    treatment applies to don.quote.donatus-quid-est-imperatori and its OCR-damaged
+    neighbors: verification_state is lowered from verified-direct to verified-via-authority to
+    reflect that the corrected text rests on a human correction against the raw
     scan, not a direct character match to the vendored file as it actually reads.
 sources:
 - source_id: cappadocian.source.basil-asketikon-longer-shorter-rules
@@ -81,7 +80,7 @@ modern_rendering: >-
   Creator built us to need one another, so that we would be bound
   together.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,
 Question VII ("That it is necessary, with a view to pleasing God, to
 live with like-minded persons, and that solitude is difficult and
@@ -105,7 +104,4 @@ term record cappadocian.term.koinonia already paraphrases "the Longer
 Rules' argument against the solitary life" without quoting it; this
 record supplies the verbatim passage that paraphrase rests on.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own
-standing quote discipline: the spoken form is a modern-English
-translation, never the archaic original; the original stays as the
-record's own text field, shown at Level 3).
+The spoken form is spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

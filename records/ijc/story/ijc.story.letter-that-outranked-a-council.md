@@ -69,4 +69,4 @@ Rebuilt from the reviewed legacy Doc_09 story 5
 Registry rows 4/24) holds: this story is about the letter, never a
 door into the Athanasian corpus.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

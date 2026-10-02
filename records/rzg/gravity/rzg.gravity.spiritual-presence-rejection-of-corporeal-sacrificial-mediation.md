@@ -13,7 +13,19 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: null
-sources: []
+sources:
+- source_id: rzg.source.zwingli-sixty-seven-articles
+  locus: 'Article XVIII, ''About the Mass'': ''the mass is not a sacrifice, but is a remembrance of the
+    sacrifice and assurance of the salvation which Christ has given us'''
+  license: public-domain
+- source_id: rzg.source.calvin-institutes-book4
+  locus: extensive, repeated polemic against 'the sacrifice of the mass', e.g. lines 20735, 20812, 20934,
+    20943
+  license: public-domain
+- source_id: rzg.source.consensus-tigurinus
+  locus: 9th Head of Agreement - 'though we distinguish, as we ought, between the signs and the things
+    signified, yet we do not disjoin the reality from the signs'
+  license: public-domain
 relations:
 - type: tension-with
   target: rzg.term.the-lords-supper-spiritual-presence

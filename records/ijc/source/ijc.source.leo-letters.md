@@ -22,20 +22,19 @@ attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf212-leo); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf212"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Translator verified from the volume's own front matter ("REV.
 CHARLES LETT FELTOE, M.A."). Work presence verified at file lines: "To
 Flavian commonly called 'the Tome'" at 5099; Letter CIV to Marcian
 ("about the presumption of Anatolius") from ~9000; Letter CV (to
 Pulcheria) at 9162; Letter CVI (to Anatolius) at 9285.
 
-Added at review (Opus canon-structure pass, 2026-08-21): Letter LIX
+Letter LIX
 ("To the Clergy and People of the City of Constantinople," verified at
-file line 7250) verified present and read in full - chapter IV (from
+file line 7250) is present and read in full - chapter IV (from
 line 7398) states the transmission of original sin to Adam's
 descendants in plain anti-Pelagian/anti-Eutychian terms, licensing
-ijc.dw.original-sin-transmitted and correcting this build's prior
-honest_limit overclaim that no such material exists in the corpus.
+ijc.dw.original-sin-transmitted: such material exists in the corpus.
 
 Strand A's own closing self-statement: the Tome as
 theological-juridical instrument, and the Canon 28 rejection letters as

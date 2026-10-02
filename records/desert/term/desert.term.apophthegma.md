@@ -51,11 +51,8 @@ answer to "isn't this legend collected centuries later" runs straight
 through this term: yes the collections are later; here is what that
 does and does not mean (compiler screen, Doc_02 SS1.5/SS2.3).
 
-Step3a Review Round 1, Finding 2: the personal sense's quoted "Give me
-a word" was an unattested formula placed in quotation marks - reworded
-to a reported request, no quotation marks, since no vendored text
-attests that exact phrase.
-
-Step3a Review Round 4, Finding S2: the evidential sense's "inside the
-window" (this build's own periodization parameter) had no antecedent
-within the field itself - reworded to state the timing plainly.
+The personal sense's "asking an elder for a word" is a reported request,
+not a quoted formula, since no vendored text attests an exact phrase
+for it. The evidential sense states the timing plainly: the sayings
+were spoken and passed on while this way of life was still being
+lived.

@@ -59,7 +59,7 @@ relations:
 - type: associated-with
   target: pahc.quote.lucian-orphans-and-widows
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Text is verified verbatim against the vendored file.
 
 Paired with pahc.quote.lucian-orphans-and-widows deliberately: that one
 carries what an outsider saw these communities DO, this one what he

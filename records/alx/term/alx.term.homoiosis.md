@@ -59,7 +59,7 @@ senses:
   translational: '''Isn''t "becoming like God" just about copying good behavior?'' - the moral qualities
     are real, but they are fruit, not the program itself; the likeness is what the self looks like once
     formation has actually changed what the self is.'
-quick_meaning: What the given image of God becomes through a lifetime of formation.
+quick_meaning: What the image of God, given to us, grows into over a lifetime of formation.
 distortion_risk: medium
 ---
 Imported from the old system's richer lexicon (alexlex012, "Likeness of God") at Mark's direction, as a

@@ -2,7 +2,7 @@
  "meta": {
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
-  "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
+  "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "totalEntries": 292,
   "liveCount": 11,
   "statusCounts": {
@@ -13153,8 +13153,8 @@
    "name": "The Hussite & Bohemian Brethren Movement",
    "shortName": "Hussites",
    "informalName": "The Hussites and the Bohemian Brethren",
-   "dates": "1415-1517",
-   "start": 1415,
+   "dates": "1402-1517",
+   "start": 1402,
    "end": 1517,
    "region": "Bohemia",
    "regions": [

@@ -34,7 +34,7 @@ retrieval:
   - "participant asks which books they counted as scripture and why"
   - "participant asks how they defended a new translation to people who disliked it"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Prefaces to the
+Verified verbatim against the vendored npnf206 (Prefaces to the
 Vulgate OT, div vii.iii). The continuation naming names is verified in the
 same passage: 'Wisdom, therefore, which generally bears the name of
 Solomon, and the book of Jesus, the Son of Sirach, and Judith, and Tobias,
@@ -45,6 +45,3 @@ Latin church did not follow him on this point - his own translation came
 to carry the very books his preface set apart. Serves F2-T ("Did you
 believe the Bible was the only authority?") and F2-I ("Which writings did
 your people treat as scripture - was your Bible the same as ours?").
-
-Gloss corrected per independent review Round 1 (2026-08-21), which found
-the two canon questions conflated into one parenthetical.

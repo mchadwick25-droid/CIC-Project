@@ -36,7 +36,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---
-Text verified verbatim against the vendored file 2026-08-21 -
+Text verified verbatim against the vendored file -
 Percival's rendering is the SINGULAR "prerogative of honour" (the
 translation variance the approved Doc_01 discloses; other translations
 give "prerogatives"/"primacy of honor"; the Greek is ta presbeia tes

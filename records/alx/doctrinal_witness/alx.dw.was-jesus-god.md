@@ -58,8 +58,8 @@ text: >-
   conviction that only God can join us to God.
 positions:
 - Jesus was worshiped as God's own Word from the tradition's beginning
-- Nicaea's homoousios fenced existing worship; it did not create a new object of it
-- the Spirit is named in the baptismal faith throughout, with late-horizon clarification beginning
+- Nicaea's word homoousios put a fence around worship already in use. It did not create a new object of worship.
+- The baptismal faith names the Spirit from the start. Clearer teaching about the Spirit only begins late in the window.
 tensions:
 - pre-Nicene subordinationist-sounding language vs the Nicene settlement - the world's own development,
   told as development

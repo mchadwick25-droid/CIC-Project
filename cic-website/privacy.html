@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy — Church in Conversation</title>
 <meta name="description" content="What we store from a pilot conversation, how long we keep it, who reads it, and how to ask us to delete it.">
+<meta property="og:title" content="Privacy — Church in Conversation">
+<meta property="og:description" content="What we store from a pilot conversation, how long we keep it, who reads it, and how to ask us to delete it.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://churchinconversation.com/privacy.html">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Three figures from different centuries of Christian history talk around a wooden table with a scroll and books.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,50 +55,54 @@
 
   <section class="page-section" id="what-we-store">
     <p class="eyebrow">What's stored</p>
-    <h2>Your conversation is saved and cataloged</h2>
-    <p>If you talk with a Representative at the Table, the text of that conversation — your
-    messages and the Representative's — is saved. This is a pilot: we're still learning what's
-    working and what isn't, and the transcript is how we find out. We don't collect your name,
-    email, or any other identifying information as part of a conversation unless you choose to
-    give it to us directly (for example, by emailing us).</p>
+    <h2>Your conversation is saved</h2>
+    <p>This is a pilot. This page says what we store, how long we keep it, and how to ask us to delete it.</p>
+    <p>When you talk with a Representative or at a Table, we save the conversation. That includes your messages and every reply. We use it to check accuracy, catch problems, and see how real conversations go.</p>
+    <p>We do not ask for your name or email. We do not collect them unless you send them to us yourself, for example by writing to us.</p>
+    <p>Each conversation gets a session code. We store only a scrambled version of that code (a hash), not the code itself. The code lets you come back to your conversation later.</p>
+    <p>Your messages are stored in the same database as that scrambled code and your visitor ID (see below). A conversation can be linked to both.</p>
+    <p>We also keep a usage log. It records the cost and size of each model call, the time, and which tradition was used. It does not hold the text of your messages.</p>
+  </section>
+
+  <section class="page-section" id="contributions">
+    <p class="eyebrow">Contributions</p>
+    <h2>Giving goes through Stripe</h2>
+    <p>If you give to the project, you pay on Stripe's own pages. Stripe holds your name, email and payment details. Our conversation system never receives them, and nothing links a contribution to a conversation.</p>
+  </section>
+
+  <section class="page-section" id="visitor-cookie">
+    <p class="eyebrow">The visitor cookie</p>
+    <h2>One cookie, for a daily limit</h2>
+    <p>When you start a conversation or send a message, our server may set a cookie named cic_visitor. It holds a random ID and a signature that proves we issued it. It holds no name, email, or device details.</p>
+    <p>The cookie does one job. It lets us set a daily limit: 5 new conversations and 150 messages per visitor each day (UTC). The limit stops one person from running up costs for the pilot. We also count unique visitors from it.</p>
+    <p>The cookie is only sent to this site. It does not follow you to other sites, and we do not use it for advertising. You do not need an account.</p>
+    <p>It lasts up to 400 days. You can delete it in your browser settings at any time. If you do, you get a new ID.</p>
+  </section>
+
+  <section class="page-section" id="retention">
+    <p class="eyebrow">Retention</p>
+    <h2>Kept until you ask us to delete it</h2>
+    <p>We keep conversations until you ask us to delete them. We have not set an automatic deletion date yet. We will update this page when we do.</p>
+    <p>If a conversation sits untouched for 7 days, we mark it as idle. That is a label only. Nothing is deleted, and you can still pick the conversation back up with your code.</p>
+    <p>Every day we back up our databases to private object storage. The backups include saved conversations. We keep the last 14 days of backups, and older ones are deleted automatically. So when we delete a conversation, it can stay in a backup for up to 14 more days.</p>
   </section>
 
   <section class="page-section" id="who-reads-it">
     <p class="eyebrow">Who reads it</p>
     <h2>The project team, only</h2>
-    <p>Conversations are reviewed by the Church in Conversation project team for the purpose of
-    improving the project — checking accuracy, catching problems, and understanding what a real
-    conversation with a Representative is actually like. We do not sell conversation data, and we
-    do not publish or quote from a specific conversation publicly without asking you first.</p>
-  </section>
-
-  <section class="page-section" id="retention">
-    <p class="eyebrow">Retention</p>
-    <h2>Kept for as long as this pilot needs it</h2>
-    <p>Because this is an early-stage pilot, we don't yet have a fixed retention schedule the way
-    a mature product would. Transcripts are kept for as long as they're useful to the pilot's
-    review process, and this page will be updated with a concrete retention period once that's
-    settled. If you'd like your conversation deleted sooner, see below — we'll act on that
-    request directly.</p>
+    <p>Only the project team reads conversations. We do not sell conversation data. We will not publish or quote a conversation without asking you first.</p>
   </section>
 
   <section class="page-section" id="deletion">
     <p class="eyebrow">Deletion</p>
     <h2>Ask us, and we'll remove it</h2>
-    <p>Email <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a> and
-    ask us to delete a conversation — tell us roughly when it happened and which tradition you
-    talked with, since we don't collect anything else that would let us find it for you. Deletion
-    is handled by hand by the project team at this stage — there's no self-serve button — so
-    please allow a few days. We'll confirm once it's done.</p>
+    <p>There is no delete button yet. To have a conversation deleted, email <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>. Tell us roughly when it happened and which tradition you spoke with. If you have your session code, send it. We will confirm when it is done. Please allow a few days.</p>
   </section>
 
   <section class="page-section" id="questions">
     <p class="eyebrow">Questions</p>
     <h2>Ask us anything</h2>
-    <p>This page describes a pilot-stage project built and operated by a small team, not a large
-    company with a dedicated privacy office. If anything here is unclear, or you want to know more
-    about how a specific conversation was handled, just ask:
-    <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+    <p>We are a small team. If anything here is unclear, write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
   </section>
 </main>
 

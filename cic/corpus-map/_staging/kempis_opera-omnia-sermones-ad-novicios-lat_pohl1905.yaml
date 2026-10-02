@@ -1,7 +1,8 @@
 source_file: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt
 
 assignments:
-  - work: "Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis)"
+  - row_id: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905--opera-omnia-sermones-ad-novicios-vita-lidewigis-virginis
+    work: "Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis)"
     author: kempis
     locus: "Sermones ad Novicios; Vita Lidewigis Virginis"
     atlas_ids:
@@ -12,9 +13,10 @@ assignments:
       A volume of Kempis's own minor Latin works (Pohl's 7-vol. Opera
       Omnia series, Freiburg: Herder, 1905) beyond the already-vendored
       Imitation of Christ, including his own sermons to novices and his
-      life of Lidwina of Schiedam. Vendored 2026-09-25 as part of a
-      post-Step0-Revision-2 PD source-acquisition pass. Under Mark's 2026-09-25 ruling
-      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can
-      be primary evidence directly, verified against the vendored file,
-      since it is primary to the movement regardless of language; the
-      scan is clean, not flagged under Mark's OCR ruling "a."
+      life of Lidwina of Schiedam. Per the Library's
+      non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

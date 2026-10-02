@@ -54,4 +54,4 @@ evaluative turn stays within the world's own raza/shrara logic
 rather than importing a modern frame - the legacy live-test lesson
 (no fabricated internal divergence) is the binding rule here.
 
-REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+The spoken field is a plain modern-English translation, not a summary; every sourced claim and name is preserved.

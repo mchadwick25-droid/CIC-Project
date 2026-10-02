@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: "VENDORED 2026-08-27; the paraphrase-only restriction is lifted. The passage's existence and basic authenticity are documented (fringe interpolation claims have little scholarly uptake) and the wording is now locally re-checkable. TWO LIMITS REPLACE THE OLD ONE. (1) SCOPE: what is vendored is ONE CHAPTER, 375 words - Book 15 ch. 44 and nothing else. Nothing in this corpus reaches the rest of the Annals. (2) TRANSLATOR: the transcription names none; Church and Brodribb (1876) is identified at vendoring on internal evidence, stated in the file's header, so a record must say 'in the translation standardly identified as Church and Brodribb' rather than assert it flatly."
+  divergence_note: "Vendored; the passage's existence and basic authenticity are documented (fringe interpolation claims have little scholarly uptake) and the wording is locally re-checkable. TWO LIMITS. (1) SCOPE: what is vendored is ONE CHAPTER, 375 words - Book 15 ch. 44 and nothing else. Nothing in this corpus reaches the rest of the Annals. (2) TRANSLATOR: the transcription names none; Church and Brodribb (1876) is identified on internal evidence, stated in the file's header, so a record must say 'in the translation standardly identified as Church and Brodribb' rather than assert it flatly."
 sources: []
 author: "Tacitus (Roman senator and historian)"
 work: "Annals 15.44, written c. 116 CE describing events of 64 CE - Nero scapegoating Christians for the Great Fire; names Christus executed under Pilate"

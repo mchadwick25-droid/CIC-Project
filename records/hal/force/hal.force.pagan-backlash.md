@@ -39,9 +39,9 @@ manifestations:
   defied
 matrix_cell: 2A
 ---
-Re-derived from cleared Doc_08 cell 2A-1, kept to its own genuinely
-pagan-social content per the Round 1 correction (the clerical hostility of
-384-385 is a DIFFERENT force - 2A-4 - and is not re-blurred into this
-one). Canon_cells at authoring: F5-P ('Did belonging cost you anything -
+Derived from Doc_08 cell 2A-1, kept to its own genuinely
+pagan-social content: the clerical hostility of
+384-385 is a DIFFERENT force - 2A-4 - and is not blurred into this
+one. Canon_cells at authoring: F5-P ('Did belonging cost you anything -
 family, friends, standing?' is a near-paraphrase of this force's
 formation impact).

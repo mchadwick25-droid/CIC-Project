@@ -20,7 +20,8 @@ source_file: npnf105_augustine-anti-pelagian-writings.xml
 # nineteenth-century editor's essay, not Augustine), and the indexes (22-23).
 
 assignments:
-  - work: "On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum meritis et remissione)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-the-merits-and-forgiveness-of-sins-and-on-the-baptism-of
+    work: "On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum meritis et remissione)"
     author: augustine
     locus: "div1 10 — A Treatise on the Merits and Forgiveness of Sins, and on the Baptism of Infants (3 books)"
     atlas_ids:
@@ -33,7 +34,8 @@ assignments:
       on infant baptism and sinlessness. Tradition for its author's own entry;
       assigned to pelagianism as the movement it argues against.
 
-  - work: "On the Spirit and the Letter (De spiritu et littera)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-the-spirit-and-the-letter-de-spiritu-et-littera
+    work: "On the Spirit and the Letter (De spiritu et littera)"
     author: augustine
     locus: "div1 11 — A Treatise on the Spirit and the Letter"
     atlas_ids:
@@ -45,7 +47,8 @@ assignments:
       412, to Marcellinus, continuing the argument of div1 10 on grace and law.
       Anti-Pelagian in occasion and doctrine.
 
-  - work: "On Nature and Grace (De natura et gratia)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-nature-and-grace-de-natura-et-gratia
+    work: "On Nature and Grace (De natura et gratia)"
     author: augustine
     locus: "div1 12 — A Treatise on Nature and Grace"
     atlas_ids:
@@ -57,7 +60,8 @@ assignments:
       415, answering Pelagius' own book De natura, which it quotes throughout —
       a principal channel for Pelagius' actual words.
 
-  - work: "On Man's Perfection in Righteousness (De perfectione justitiae hominis)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-man-s-perfection-in-righteousness-de-perfectione
+    work: "On Man's Perfection in Righteousness (De perfectione justitiae hominis)"
     author: augustine
     locus: "div1 13 — A Treatise Concerning Man's Perfection in Righteousness"
     atlas_ids:
@@ -70,7 +74,8 @@ assignments:
       Caelestius, each of which the treatise reproduces before refuting —
       direct quotation of the Pelagian side.
 
-  - work: "On the Proceedings of Pelagius (De gestis Pelagii)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-the-proceedings-of-pelagius-de-gestis-pelagii
+    work: "On the Proceedings of Pelagius (De gestis Pelagii)"
     author: augustine
     locus: "div1 14 — A Work on the Proceedings of Pelagius"
     atlas_ids:
@@ -84,7 +89,8 @@ assignments:
       closest the vendored corpus comes to documentary record of the
       Pelagian proceedings.
 
-  - work: "On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-the-grace-of-christ-and-on-original-sin-de-gratia-christi
+    work: "On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)"
     author: augustine
     locus: "div1 15 — A Treatise on the Grace of Christ, and on Original Sin (two books: On the Grace of Christ; On Original Sin)"
     atlas_ids:
@@ -97,7 +103,8 @@ assignments:
       work — unlike div1 21, where two genuinely distinct treatises share a
       heading and are split below.
 
-  - work: "On Marriage and Concupiscence (De nuptiis et concupiscentia)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-marriage-and-concupiscence-de-nuptiis-et-concupiscentia
+    work: "On Marriage and Concupiscence (De nuptiis et concupiscentia)"
     author: augustine
     locus: "div1 16 — On Marriage and Concupiscence (2 books)"
     atlas_ids:
@@ -110,7 +117,8 @@ assignments:
       the doctrine of original sin condemns marriage. Book II replies to
       Julian's excerpted objections.
 
-  - work: "On the Soul and its Origin (De anima et ejus origine)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-the-soul-and-its-origin-de-anima-et-ejus-origine
+    work: "On the Soul and its Origin (De anima et ejus origine)"
     author: augustine
     locus: "div1 17 — A Treatise on the Soul and its Origin (4 books)"
     atlas_ids:
@@ -125,7 +133,8 @@ assignments:
       Victor was no Pelagian. The doubt is whether the pelagianism id should
       stand; latin-pastoral-congregational-christianity is not in doubt.
 
-  - work: "Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas
+    work: "Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)"
     author: augustine
     locus: "div1 18 — A Treatise Against Two Letters of the Pelagians (4 books)"
     atlas_ids:
@@ -138,7 +147,8 @@ assignments:
       (Julian's among them), which it quotes at length — again the Pelagians'
       own words surviving only inside the refutation.
 
-  - work: "On Grace and Free Will (De gratia et libero arbitrio)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-grace-and-free-will-de-gratia-et-libero-arbitrio
+    work: "On Grace and Free Will (De gratia et libero arbitrio)"
     author: augustine
     locus: "div1 19 — A Treatise on Grace and Free Will"
     atlas_ids:
@@ -152,7 +162,8 @@ assignments:
       later Massilian ("semi-Pelagian") phase, so pelagianism carries the
       whole controversy.
 
-  - work: "On Rebuke and Grace (De correptione et gratia)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia
+    work: "On Rebuke and Grace (De correptione et gratia)"
     author: augustine
     locus: "div1 20 — A Treatise on Rebuke and Grace"
     atlas_ids:
@@ -179,7 +190,8 @@ assignments:
       of Sicily" as its own best identification (see
       gallic_Doc02_Source_Ecology.md §1.4).
 
-  - work: "On the Predestination of the Saints (De praedestinatione sanctorum)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione
+    work: "On the Predestination of the Saints (De praedestinatione sanctorum)"
     author: augustine
     locus: "div1 21, Book I (structure path 21.2) — under the volume heading 'A Treatise on the Predestination of the Saints'"
     atlas_ids:
@@ -201,7 +213,8 @@ assignments:
       "Hilary of Sicily," a genuine rival to this world's own preferred
       Gallic-lay-monk reading (Doc_01 §10), not a confirmation of it.
 
-  - work: "On the Gift of Perseverance (De dono perseverantiae)"
+  - row_id: npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae
+    work: "On the Gift of Perseverance (De dono perseverantiae)"
     author: augustine
     locus: "div1 21, div2 type=Book 'A Treatise on the Gift of Perseverance' (structure path 21.3)"
     atlas_ids:

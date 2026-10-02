@@ -47,7 +47,7 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.scriptural-engagement}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
+Verified verbatim against the vendored file at npnf211 line
 28484; one continuous passage to the chapter break, unaltered.
 
 WHAT THIS MOVES. desert.term.theoria rested on Evagrius ALONE, which has

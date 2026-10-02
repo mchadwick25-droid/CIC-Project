@@ -88,6 +88,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "identity": SpokenField("instruction"),
         "guard": SpokenField("instruction"),
         "characteristic_concerns": SpokenField("instruction", "list[str]"),
+        "source_anchor": SpokenField("instruction", "present only when the world carries an approved-source anchoring paragraph"),
         "flavor_notes": SpokenField("instruction", "list of {segment, note}; .note is the spoken text"),
     },
     "world_core": {
@@ -95,6 +96,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "formation_logic": SpokenField("voice-diet"),
         "thinness": SpokenField("voice-diet"),
         "cautions": SpokenField("voice-diet"),
+        "living_traditions": SpokenField("voice-diet", "present only when Article 29 is CONFIRMED for this world"),
     },
     "term": {
         "plain_meaning": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head"),
@@ -188,7 +190,7 @@ def fields_with_role(record_type: str, *roles: str) -> list[str]:
 # engine/m1/gates.py gate_no_build_attribution's own field scan.
 ATTRIBUTION_FIELDS: dict[str, list[str]] = {
     "voice_craft": ["identity", "guard"],
-    "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
+    "world_core": ["horizon", "formation_logic", "thinness", "cautions", "living_traditions"],
     "term": ["plain_meaning", "quick_meaning", "world_word"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],

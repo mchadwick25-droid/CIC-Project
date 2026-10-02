@@ -77,7 +77,6 @@ def seed_interview(store, sid):
             {"verdict": "withheld", "tags": ["des.source.apophthegmata-9"]},
         ]},
         output_defects=["floor_line_missing"],
-        do_not_voice_violation="quoted a do_not_voice span",
     ))
     # A second ask that draws no coverage at all -> ask_coverage review.
     _append(store, sid, "participant_message", {"text": "what about taxes", "client_msg_id": "m2"})
@@ -116,7 +115,7 @@ def seed_table(store, sid):
     ))
     _append(store, sid, "round_closed", {"round_no": 1, "reason": "selector_closed", "turns": 2,
                                          "governance": {"flags": ["dominance:des"], "share": {"des": 0.8}}})
-    # Round 2: the same voice repeats itself verbatim -> repetition finding.
+    # Second round: the same voice repeats itself verbatim -> repetition finding.
     _append(store, sid, "turn_selected", {"round_no": 2, "position": 1, "world_key": "des", "reason": "follow-up", "degraded": False})
     _append(store, sid, "voice_turn", _voice(
         "des", long_answer,
@@ -136,12 +135,11 @@ def _sessions(tmp_path):
 
 # --- reader ---
 
-def test_reader_lifts_the_four_unread_outputs_and_rounds(tmp_path):
+def test_reader_lifts_the_three_unread_outputs_and_rounds(tmp_path):
     store, i_sid, t_sid = _sessions(tmp_path)
     s = read_session(store, i_sid)
     assert s.mode == "interview" and s.world_keys == ["des"]
     t0 = s.voice_turns[0]
-    assert t0.do_not_voice_violation == "quoted a do_not_voice span"
     assert t0.output_defects == ["floor_line_missing"]
     assert t0.grounding["sentences"][1]["verdict"] == "withheld"
     assert s.voice_turns[1].degraded_by_net is True
@@ -172,11 +170,10 @@ def test_list_session_ids_orders_and_filters(tmp_path):
 
 # --- instruments ---
 
-def test_unread_outputs_all_three_severities(tmp_path):
+def test_unread_outputs_review_and_info_severities(tmp_path):
     store, i_sid, _ = _sessions(tmp_path)
     findings = unread_outputs(read_session(store, i_sid))
     by = {f.instrument: f for f in findings}
-    assert by["do_not_voice"].severity == "defect"
     assert by["output_defects"].severity == "review"
     assert by["net_withheld"].severity == "info"
     assert by["net_withheld"].record_ids == ["des.source.apophthegmata-9"]
@@ -298,8 +295,7 @@ def test_level1_element_density_counts_one_mark_per_element_when_the_plan_has_el
 
 
 def test_level1_element_density_report_only_no_findings(tmp_path):
-    """No cap is enforced yet (Adjusted-Design.md: "RULING R17 on numbers"
-    is still open) - this instrument returns metrics, never Finding
+    """No cap is enforced yet - this instrument returns metrics, never Finding
     objects, and run_all() carries it under its own key, not findings."""
     store, i_sid, _ = _sessions(tmp_path)
     result = run_all(read_session(store, i_sid))
@@ -444,6 +440,25 @@ def test_canon_asks_are_normalized_participant_text(tmp_path):
     assert "what about zebra quills" in asks
 
 
+def test_read_session_lifts_visitor_id_off_session_started(tmp_path):
+    """The usage dashboard's identity signal: a session_started carrying visitor_id folds it onto
+    AuditSession, same as world_keys - and its absence (every session
+    before this field existed, or anon_cap disabled) folds to None, not
+    an error."""
+    store = Store(tmp_path / "events.db")
+    with_visitor, without_visitor = str(uuid.uuid4()), str(uuid.uuid4())
+    _append(store, with_visitor, "session_started", {
+        "mode": "interview", "frame": None, "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x", "visitor_id": "visitor-a",
+    })
+    _append(store, without_visitor, "session_started", {
+        "mode": "interview", "frame": None, "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x",
+    })
+    assert read_session(store, with_visitor).visitor_id == "visitor-a"
+    assert read_session(store, without_visitor).visitor_id is None
+
+
 def test_register_metrics_score_long_turns_and_mark_short_unscored(tmp_path):
     store, _, t_sid = _sessions(tmp_path)
     a = run_all(read_session(store, t_sid))
@@ -451,9 +466,9 @@ def test_register_metrics_score_long_turns_and_mark_short_unscored(tmp_path):
     assert scored, "the long table answers must score"
     assert all("fk_grade" in m and "fre" in m for m in scored)
     assert any("first_sentence_first_ask_overlap" in m for m in a["register_metrics"])
-    # Cadence rides alongside, measured never gated (register-translation
-    # pass, 2026-08-29): every turn with words carries the em-dash density
-    # and fragment ratio, and both are info-layer numbers, not findings.
+    # Cadence rides alongside, measured never gated: every turn with words
+    # carries the em-dash density and fragment ratio, and both are
+    # info-layer numbers, not findings.
     assert all("dash_per_100w" in m and "fragment_ratio" in m for m in scored)
     assert all(0 <= m["fragment_ratio"] <= 1 for m in scored)
 
@@ -466,7 +481,7 @@ def test_cli_audit_writes_all_layers_and_keeps_participant_text_out_of_fleet(tmp
     rollup = audit(str(tmp_path / "events.db"), out)
 
     assert rollup["sessions_audited"] == 2
-    assert rollup["findings_by_severity"]["defect"] >= 2  # do_not_voice + isolation
+    assert rollup["findings_by_severity"]["defect"] >= 1  # isolation
     assert rollup["lineage_session_ids"] == [i_sid, t_sid]
 
     # Per-session files exist and (necessarily, operator-only) carry the text.

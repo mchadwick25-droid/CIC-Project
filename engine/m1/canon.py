@@ -26,7 +26,7 @@ inside cell_keywords would make the compiled fleet cache wrong for every
 world; keeping them apart lets Stage A union the two at turn time and
 leaves the cache meaning precisely what it says.
 
-entity_cells() is the third corpus, added 2026-08-27 after a measured
+entity_cells() is the third corpus, added after a measured
 failure: every router above compares CONTENT WORDS, and a proper noun
 carries no more weight than any other word, so a participant naming a
 figure gets nothing from the name. Measured on desert - "Is there
@@ -92,17 +92,14 @@ def substantive_types() -> set[str]:
     return {"doctrinal_witness", "term", "story", "quote"}
 
 
-# voice_scaffold_types() was DELETED 2026-08-28 after the fleet-parity
-# admission battery measured it unreachable: its root cause (voice_craft
-# compiled as a headed record section carrying "(cite as [[id]])") was
-# fixed in the compiler on 2026-08-28 (builders.py: a standing-instruction
-# section never carries an id), and the exemption stayed only "pending a
-# live measurement confirming it is now unreachable" (worlds.yaml's own
-# IOU). The measurement: ZERO voice-scaffold citations across all 168
-# probes of the six-world battery. Deleting rather than keeping is the
-# foundation audit's own rule - a patch whose cause is fixed must not age
-# into looking like a real category beside the one below, which IS real
-# and live-load-bearing.
+# voice_scaffold_types() was removed: the fleet-parity admission battery
+# measured it unreachable. Its root cause (voice_craft compiling as a
+# headed record section carrying "(cite as [[id]])") is fixed in the
+# compiler (builders.py: a standing-instruction section never carries an
+# id), confirmed by zero voice-scaffold citations across the six-world
+# battery's probes. A category whose root cause is already fixed should
+# not be kept looking live beside the one below, which IS real and
+# live-load-bearing.
 
 
 def evidence_status_types() -> set[str]:
@@ -110,7 +107,7 @@ def evidence_status_types() -> set[str]:
     what was searched for, through what channel, and whether it was found -
     never themselves a claim resting on a source. A distinct citation
     category, found the way the (since-deleted) voice-scaffold one was: a
-    live admission run (hal, 2026-08-28) answered an
+    live admission run (hal) answered an
     evidence-pressure probe honestly - "the richness is in the letters, not
     in the stones" - and cited the search_record that establishes exactly
     that absence (hal.search.latin-critical-texts, result: not_found). The

@@ -23,8 +23,8 @@ sources:
   license: public-domain
 - source_id: cappadocian.source.basil-against-eunomius
   locus: "the historical fact of the three-book treatise and its general anti-Eunomian argument is
-    Widely Accepted; the treatise's own text is unverified per this source's own corrected
-    divergence_note (2026-08-31) - citations here rest on the Prolegomena's scholarly summary and the
+    Widely Accepted; the treatise's own text is unverified per this source's own
+    divergence_note - citations here rest on the Prolegomena's scholarly summary and the
     genuinely vendored short letter Epistle XVI, not a checked primary text of the three-book treatise
     itself"
 - source_id: cappadocian.source.gregory-nyssa-against-eunomius
@@ -82,11 +82,10 @@ meaning-dispute or a scope-dispute - closer in kind to an Author Gravity flag th
 what a term means or how far its reach extends. This record names that mismatch rather than forcing
 agennētos's own contest type into one of the four labels it does not actually fit.
 
-Sourcing honesty carried forward from B-2/B-3: cappadocian.source.basil-against-eunomius was corrected
-during this build (2026-08-31) after wrongly claiming the treatise text itself was verified-via-
-authority against a vendored file that in fact contains only the Prolegomena's scholarly summary of it
-and a distinct short letter, Epistle XVI; this record cites it accordingly - the historical fact of the
-treatise and its argument, Widely Accepted, not a checked primary text. cappadocian.source.gregory-
+cappadocian.source.basil-against-eunomius's own vendored file contains only the Prolegomena's scholarly
+summary of the treatise and a distinct short letter, Epistle XVI, not the treatise's own text; this
+record cites it accordingly - the historical fact of the treatise and its argument, Widely Accepted, not
+a checked primary text. cappadocian.source.gregory-
 nyssa-against-eunomius, by contrast, genuinely is verified-via-authority per its own current record and
 is cited as such, not downgraded by association. Eunomius' confession of 383 (Doc_02 §1.5: "survives
 independently") is named here for completeness but not carried in sources[] above - it has not been

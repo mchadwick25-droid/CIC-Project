@@ -1,10 +1,9 @@
-"""R38 build round-1 review fix (reviewer thread, 2026-09-23): the first
-version of REVISION_INSTRUCTION hardcoded "the participant's question
-about the Donatists" - the measurement probe's own text, carried
-verbatim into production, where the question can be about any
-tradition. These pin the fix directly on the module, not only through
-the full turn pipeline test_turn.py's own self-revision tests already
-cover."""
+"""Regression pin: REVISION_INSTRUCTION must never hardcode "the
+participant's question about the Donatists" - the measurement probe's
+own text, which would otherwise leak verbatim into production, where the
+question can be about any tradition. These pin the fix directly on the
+module, not only through the full turn pipeline test_turn.py's own
+self-revision tests already cover."""
 import re
 
 from engine.m4.self_revision import REVISION_INSTRUCTION, build_revision_message

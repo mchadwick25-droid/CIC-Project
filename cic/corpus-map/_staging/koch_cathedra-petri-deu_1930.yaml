@@ -1,0 +1,17 @@
+# Hugo Koch's 1930 Cathedra Petri.
+source_file: koch_cathedra-petri-deu_1930.txt
+
+assignments:
+  - row_id: koch_cathedra-petri-deu_1930--cathedra-petri-koch-1930
+    work: "Cathedra Petri (Koch, 1930)"
+    author: koch
+    locus: "whole file; title page at file line 26; the chapter 'II. Die Primatsfrage bei Cyprian' listed at file line 352"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Modern (1930) German scholarship, role context, not tradition. Not a primary source and not a
+      witness to any ancient text. New studies on the beginnings of the Roman primacy, answering
+      Caspar's Primatus Petri (1927): Tertullian's De pudicitia 21, then Cyprian's De unitate 4 and
+      the dispute with Stephen.

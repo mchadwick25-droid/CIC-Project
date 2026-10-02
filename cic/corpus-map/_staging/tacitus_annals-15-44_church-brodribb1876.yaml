@@ -18,7 +18,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Annals, Book 15, chapter 44 (the Great Fire and Nero's punishment of the Christians)
+- row_id: tacitus_annals-15-44_church-brodribb1876--the-annals-book-15-chapter-44-the-great-fire-and-nero-s
+  work: The Annals, Book 15, chapter 44 (the Great Fire and Nero's punishment of the Christians)
   author: tacitus
   locus: Book 15, ch. 44 entire; about 375 words
   atlas_ids:

@@ -12,6 +12,7 @@ from types import SimpleNamespace
 
 from engine.m4 import turn as turn_module
 from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
+from engine.m4.voice_request import DIRECTIVE_OPEN
 from engine.m4.world_loader import LoadedWorld
 
 
@@ -88,7 +89,7 @@ def _world():
         prompt_text="## Identity\nVera, Witness.",
         capsule_text="capsule",
         repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
-        quotes={"quotes": [{"id": "fix.quote.private-teaching", "license": "do-not-voice", "text": "not for the voice to speak"}]},
+        quotes={"quotes": []},
         figures={},
         coverage={},
         frame={"representative": {"name": "Vera", "role_label": "Witness"}},
@@ -226,7 +227,6 @@ def test_ordinary_turn_calls_voice_generation_and_checks_inline_citations():
             "sources": [],
         }
     ]
-    assert result.voice_event["do_not_voice_violation"] is None
     assert result.voice_event["degraded_by_net"] is False
 
 
@@ -256,14 +256,6 @@ def test_crisis_turn_usage_records_are_also_attributed():
     assert all(r.session_id == "crisis-session-1" for r in result.usage_records)
 
 
-def test_do_not_voice_quote_verbatim_is_flagged_on_a_real_turn():
-    client = FakeBedrockClient(
-        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["I should not have said this: not for the voice to speak."],
-    )
-    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="tell me the secret", pressed={}, anachronistic_term_ids=set())
-    assert result.voice_event["do_not_voice_violation"] == "fix.quote.private-teaching"
-
-
 def test_system_nature_is_answered_by_the_facilitator_not_the_world():
     """Rule 3, "plainly, immediately". A question about what the system IS is
     not a question any world can answer, so the voice is never asked - which
@@ -283,6 +275,14 @@ def test_etic_turn_speaks_for_the_class_that_was_pressed():
     assert result.routing_action == "etic_turn"
     assert result.voice_event is None
     assert "this world's own witnesses stop" in result.facilitator_events[0]["text"]
+
+
+def _participant_text(content) -> str:
+    return content[-1]["text"] if isinstance(content, list) else content
+
+
+def _directive_text(content) -> str:
+    return content[0]["text"] if isinstance(content, list) else ""
 
 
 def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
@@ -317,7 +317,7 @@ def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
     # says "before the word 'Trinity' existed for them to use" - which is the
     # record's own way of explaining the absence, not the modern word
     # reaching the voice as a question to answer.
-    sent = client.messages.captured_stream_calls[-1][1][-1]["content"]
+    sent = _participant_text(client.messages.captured_stream_calls[-1][1][-1]["content"])
     assert fleet[term_id]["underlying_subject"] in sent
     assert "did you believe in the Trinity" not in sent
 
@@ -360,7 +360,7 @@ def test_ordinary_turn_wires_a_real_evidence_block_into_the_user_message():
     run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set())
 
     system, messages = client.messages.captured_stream_calls[0]
-    user_message = messages[0]["content"]
+    user_message = _participant_text(messages[0]["content"])
     assert "## Ground for this turn" in user_message
     assert "[[fix.witness.who-is-jesus]]" in user_message
     assert ask_text in user_message  # the participant's own message still rides alongside the evidence block
@@ -405,7 +405,7 @@ def test_secondary_context_reaches_evidence_assembly_and_fills_a_gap_cell():
     )
 
     system, messages = client.messages.captured_stream_calls[0]
-    user_message = messages[0]["content"]
+    user_message = _participant_text(messages[0]["content"])
     assert "[[fix.witness.who-is-jesus]]" in user_message
 
 
@@ -441,7 +441,7 @@ def test_secondary_context_defaults_to_none_and_changes_nothing():
         participant_message=ask_text, directive=None, session_id="test-session",
     )
     system, messages = client.messages.captured_stream_calls[0]
-    assert "[[fix.witness.who-is-jesus]]" in messages[0]["content"]
+    assert "[[fix.witness.who-is-jesus]]" in _participant_text(messages[0]["content"])
 
 
 def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line():
@@ -477,12 +477,12 @@ def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line()
         already_bridged_figure_ids={"fix.figure.the-elder"},
     )
     system, messages = client.messages.captured_stream_calls[0]
-    user_message = messages[0]["content"]
+    user_message = _participant_text(messages[0]["content"])
     assert "## Already introduced: the Elder." in user_message
     assert "Rhoda" not in user_message  # never introduced, so never listed
     # The per-turn directive (the channel measured to win - see
     # _build_turn_directive) carries the same state.
-    directive_text = system if isinstance(system, str) else str(system)
+    directive_text = _directive_text(messages[0]["content"])
     assert "Already introduced in this conversation: the Elder." in directive_text
     assert "Rhoda" not in directive_text
 
@@ -539,13 +539,11 @@ def test_already_told_ids_reaches_evidence_assembly_without_error():
     assert result.voice_event["degraded_by_net"] is False
 
 
-def test_the_per_turn_directive_sits_after_the_cache_breakpoint_not_inside_it():
-    # The whole point of the split: the world's compiled prompt is the only
-    # block carrying cache_control, and it is byte-identical to what was
-    # compiled - so the prefix is reusable across every turn of a session.
-    # The directive, which differs every turn, rides in a second block
-    # AFTER that breakpoint. Concatenating the two (the shape this replaced)
-    # made every turn a cache write and never a cache read.
+def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_block():
+    # The system block is the world's compiled prompt alone, byte-identical
+    # to what was compiled, so the cached prefix holds across every turn.
+    # The directive differs every turn, so it leads the final user message,
+    # behind the cached history.
     world = _world()
     ask_text = "who is jesus"
     client = FakeBedrockClient(
@@ -555,15 +553,15 @@ def test_the_per_turn_directive_sits_after_the_cache_breakpoint_not_inside_it():
     )
     run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set())
 
-    system, _ = client.messages.captured_stream_calls[0]
-    assert len(system) == 2
-    assert system[0]["text"] == world.prompt_text  # untouched, so the prefix holds
+    system, messages = client.messages.captured_stream_calls[0]
+    assert len(system) == 1
+    assert system[0]["text"] == world.prompt_text
     assert system[0]["cache_control"] == {"type": "ephemeral"}
-    assert "cache_control" not in system[1]  # the volatile half is never cached
-    assert "This turn's private directive" in system[1]["text"]
-    assert "This turn's private directive" not in system[0]["text"]
-    # And the model still sees the same bytes in the same order as before.
-    assert "".join(b["text"] for b in system) == world.prompt_text + system[1]["text"]
+    directive_block, message_block = messages[-1]["content"]
+    assert directive_block["text"].startswith(DIRECTIVE_OPEN)
+    assert "This turn's private directive" in directive_block["text"]
+    assert "cache_control" not in directive_block
+    assert ask_text in message_block["text"]
 
 
 def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
@@ -587,10 +585,10 @@ def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
     system, messages = client.messages.captured_stream_calls[0]
     assert [m["role"] for m in messages] == ["user", "assistant", "user"]
     assert messages[0]["content"] == "who is jesus"
-    assert messages[1]["content"] == "He was God's own Word, come to us in flesh."
-    assert "and what then" in messages[2]["content"]  # this turn's own message, evidence block and all
-    # the world prompt is still the sole cached block, untouched by a
-    # growing conversation
+    assert messages[1]["content"] == [
+        {"type": "text", "text": "He was God's own Word, come to us in flesh.", "cache_control": {"type": "ephemeral"}}
+    ]
+    assert "and what then" in messages[2]["content"][-1]["text"]  # this turn's own message, evidence block and all
     assert system[0]["text"] == world.prompt_text
     assert system[0]["cache_control"] == {"type": "ephemeral"}
 
@@ -1058,15 +1056,14 @@ def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
     case, since every other test in this file already exercises it
     without passing correction). This is the one hermetic proof that the
     text actually reaches the model, in the same uncached, per-turn
-    system block turn_directive itself rides in - not silently dropped."""
+    block turn_directive itself rides in - not silently dropped."""
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["An answer."])
     run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_world(),
         participant_message="who was Jesus", directive=None, session_id="test-session",
         correction="\n## Correction\nCite everything, or say plainly your record is silent.",
     )
-    system_blocks = client.messages.captured_stream_calls[0][0]
-    directive_text = "".join(b["text"] for b in system_blocks[1:])
+    directive_text = _directive_text(client.messages.captured_stream_calls[0][1][-1]["content"])
     assert "Cite everything, or say plainly your record is silent." in directive_text
 
 
@@ -1090,10 +1087,10 @@ def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
     assert "[[fix.witness.who-is-jesus]]" not in voice_event["text"]  # apply_net's own strip, unaffected by the capture
 
 
-# The flag-gated enforcement's own required test list. r27_enforce=False
+# The flag-gated enforcement's own required test list. The enforce flag set to False
 # (every existing test above, and every real caller until the flag is
-# flipped on) is already proven byte-identical by the full suite
-# passing unchanged; these are the flag-ON cases.
+# flipped on) behavior is byte-identical, proven by the full suite passing
+# unchanged; these are the flag-on cases.
 def _donatist_schism_world() -> LoadedWorld:
     """Same world as _world() above, plus a second record whose own text
     genuinely shares ground with "For years they held together." - the
@@ -1384,8 +1381,8 @@ def test_sentence_retry_carries_the_r27_correction_forward():
         r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
     )
     assert len(client.messages.captured_stream_calls) == 3
-    sentence_retry_system, _messages = client.messages.captured_stream_calls[2]
-    sentence_retry_text = " ".join(block["text"] for block in sentence_retry_system)
+    _system, sentence_retry_messages = client.messages.captured_stream_calls[2]
+    sentence_retry_text = _directive_text(sentence_retry_messages[-1]["content"])
     assert "uncited claims" in sentence_retry_text  # _append_r27_correction's own heading, carried forward
     assert _UNSUPPORTED_SENTENCE in sentence_retry_text  # _append_sentence_fact_check_correction's own named sentence
 

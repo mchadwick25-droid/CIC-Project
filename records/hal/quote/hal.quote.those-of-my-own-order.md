@@ -40,7 +40,7 @@ relations:
 - type: associated-with
   target: hal.dw.church-failure
 ---
-Opened 2026-08-27 for F3-P, served by hal.dw.church-failure alone. The witness cites sec. 28
+Opened for F3-P, served by hal.dw.church-failure alone. The witness cites sec. 28
 for "clergy corruption named from inside" and could not show it.
 
 The value is the vantage point, not the accusation. Any world can be accused from outside; this is

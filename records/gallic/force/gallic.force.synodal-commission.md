@@ -18,8 +18,7 @@ confidence:
     'suscipit qui oboedientiam famuli laboris adiungit'; 'synodus Lugdunensis exegit'), and
     Inferential/Thin for every other rendered phrase, which is Doc_08's own normalized
     reconstruction from corrupt OCR corroborated by Engelbrecht's Prolegomena paraphrase (lines
-    507-512, 555), not independently checkable by grep - per Doc_08's Round 1 and Round 2
-    corrections. The dating (c. 473-475) is a range, Inferential/Thin; the consolidation is Dominant
+    507-512, 555), not independently checkable by grep. The dating (c. 473-475) is a range, Inferential/Thin; the consolidation is Dominant
     Modern Reconstruction (Mathisen, row 20, unread). Only the prologue was read; the treatise body,
     and whether it reports in-window Lérins teaching, remain unread (Doc_05 §10C item 2 not
     discharged). Layer 2 carries the template's own required disclosure - the world's interpretation

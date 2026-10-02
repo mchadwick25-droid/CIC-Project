@@ -19,7 +19,8 @@ authors_ruled:
     from_file: bellarmine_notes-of-the-church_1688.txt
 
 assignments:
-  - work: "The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract series refuting Bellarmine's own Notes of the Church"
+  - row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church
+    work: "The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract series refuting Bellarmine's own Notes of the Church"
     author: "church-of-england-anon-1687"
     locus: "whole volume"
     atlas_ids:
@@ -37,5 +38,4 @@ assignments:
       tradition - opponent-voice testimony against Bellarmine's own
       Tridentine-side marks-of-the-Church argument, useful as evidence of
       how that argument was received and attacked, never as this world's
-      own composed voice. Vendored 2026-09-25 as part of a
-      post-Step0-Revision-2 PD source-acquisition pass.
+      own composed voice.

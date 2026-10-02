@@ -1,0 +1,29 @@
+source_file: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt
+
+assignments:
+  - row_id: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678--a-description-of-the-present-state-of-samos-nicaria-patmos
+    work: "A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos"
+    author: georgirenes
+    locus: "title page at file lines 70-135; the whole text follows"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      An Orthodox archbishop's own description of four Greek places under Ottoman rule,
+      written for an English audience and printed in an English translation by an unnamed
+      translator (the catalogue names Henry Denton). In-church author speaking through a
+      translator; the English wording is the translator's, so second witness for Georgirenes's
+      own phrasing.
+  - row_id: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678--a-description-of-the-present-state-of-samos-nicaria-patmos-2
+    work: A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos
+    author: georgirenes
+    locus: title page at file lines 70-135; the whole text follows
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: assigned
+    note: Placed on
+      the entry's window (1650-1821). Georgirenes was a Greek archbishop writing in 1678 for an English
+      audience, in a translator's English; the translator's identity is the host catalogue's attribution,
+      not the title page's.

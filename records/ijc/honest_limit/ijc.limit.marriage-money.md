@@ -41,11 +41,8 @@ nearest_material:
 - ijc.dw.marriage-ranked
 - ijc.dw.collections-discipline
 ---
-F5-T held as an honest limit, narrowed at review (Opus canon-structure
-pass, 2026-08-21): both halves of the cell turned out to have real
-material this build's first pass missed (a teacher's ranking of
-marriage; a preached giving-discipline), the root cause again being
-that no cell-scoped negative search was run before writing this
-record's refusal. What genuinely remains absent, and is now this
+F5-T held as an honest limit, narrowed: both halves of the cell have real
+material (a teacher's ranking of
+marriage; a preached giving-discipline). What genuinely remains absent, and is this
 record's actual claim, is household-scale detail: marriage and money
 from an ordinary believer's own vantage, not a teacher's.

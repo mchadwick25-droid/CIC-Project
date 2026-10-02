@@ -123,8 +123,8 @@ quick_meaning: >-
   our own record where the rural poor speak as a subject, not a mission field.
 distortion_risk: medium
 ---
-New term, authored 2026-09-14, not part of the original 81-term Doc_06 lexicon batch. Built directly
-from a fresh read of Gov. V.4-6 (this build's own direct read, not secondhand from
+This term is not part of the original 81-term Doc_06 lexicon batch. Built directly
+from a direct read of Gov. V.4-6 (not secondhand from
 gallic.force.barbarian-fiscal-ruin's brief citation of the same locus), in response to a standing
 finding from this world's own Doc_05 (Ecological Reconstruction) §10A Proportionality Assessment:
 "Ordinary believers / rustics" rated **under** relative to probable ecology - "thin... not

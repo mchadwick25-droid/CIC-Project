@@ -1,7 +1,8 @@
 source_file: nadal_scholia-in-constitutiones-lat_1883.txt
 
 assignments:
-  - work: "Scholia in Constitutiones"
+  - row_id: nadal_scholia-in-constitutiones-lat_1883--scholia-in-constitutiones
+    work: "Scholia in Constitutiones"
     author: nadal
     locus: "whole volume"
     atlas_ids:
@@ -10,9 +11,9 @@ assignments:
     confidence: assigned
     note: >
       Nadal's own commentary explaining the Jesuit Constitutions to the
-      provinces. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-      PD source-acquisition pass. Under Mark's 2026-09-25 ruling
-      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can
-      be primary evidence directly, verified against the vendored file,
-      since it is primary to the movement regardless of language; the
-      scan is clean, not flagged under Mark's OCR ruling "a."
+      provinces. Per the Library's non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

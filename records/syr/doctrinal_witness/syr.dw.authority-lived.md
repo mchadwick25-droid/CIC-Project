@@ -53,4 +53,4 @@ F3-I substantive companion to the term-level coverage: Dem X
 grounds the shepherd teaching; the Nisibene cycle the episcopal
 memory; the ambiguity complex the honest edge.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

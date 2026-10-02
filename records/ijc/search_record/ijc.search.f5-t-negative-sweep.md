@@ -34,7 +34,6 @@ note: "Marriage: Ambrose's Concerning Widows I.1-2 (npnf210 line 38813) argues m
   topic survive anywhere in the licensed corpus. CONSEQUENCE: ijc.limit.marriage-money
   is narrowed to this household-scale gap, which the sweep confirms is real."
 ---
-Added at review (Opus canon-structure pass, 2026-08-21) as the
-structural fix for Review 3's H5 finding, alongside
-ijc.search.f1-t-negative-sweep - see that record's closing note for the
-shared root-cause statement.
+This record and ijc.search.f1-t-negative-sweep are the dedicated,
+cell-scoped negative searches grounding this world's F5-T (marriage) and
+F1-T (original sin and eucharist) honest_limit claims.

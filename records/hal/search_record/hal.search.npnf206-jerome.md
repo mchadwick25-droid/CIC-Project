@@ -35,6 +35,5 @@ found_sources:
 - hal.source.jerome-against-jovinianus
 note: "The volume carries 150 letters (I-CL by div-title enumeration), the Treatises (incl. both within-window Vitae, Against Jovinianus, Against the Pelagians, To Pammachius against John of Jerusalem), and the Prefaces. All key letters located by div id and line number; the Marcella-letter list was verified letter-by-letter against the edition, correcting/extending the prior build's Inferential-Thin list (adds 38, 59, 97). PRE-HORIZON CAUTION: the same volume carries Epp. 1-21 and the Life of Paulus (pre-382, Antioch/Chalcis period) - background, not within-world sources."
 ---
-Run 2026-08-21 on branch world/hal against the corpus mirrored from
-world/alexandria (originally supplied by Mark, 2026-08-15). Rights read
+This corpus is mirrored from world/alexandria. Rights are read
 from the file's own DC.Rights header, not from this request.

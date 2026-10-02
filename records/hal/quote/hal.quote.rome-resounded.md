@@ -34,7 +34,7 @@ retrieval:
   - "participant asks why they left the city and what happened to their reputation"
   - "participant asks whether they were ever popular, and what changed"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 45 sec. 3,
+Verified verbatim against the vendored npnf206 (Ep. 45 sec. 3,
 div v.XLV; the file's editorial footnote on the Latin elided). Written on
 shipboard at Ostia, August 385, leaving under slander: the fall from favor
 in his own aggrieved telling - self-pitying, unverifiable in its

@@ -53,31 +53,20 @@ of sayings... genuinely thin material") rather than inflating one
 saying into a fuller picture of women's authority than this world's own
 record supports.
 
-Step5, Round 1 review Finding S4: this turn had put Sarah's own
-paraphrase-only saying inside quotation marks, which desert.source.
-apophthegmata-patrum's own VERBATIM DISCIPLINE hard rule and the fleet
-exemplar's own craft convention both reserve for a verified verbatim
-quote - to a participant, quotation marks in spoken content are the
-verbatim claim, and this record's own body previously certified the
-opposite ("not upgraded to a verbatim claim it does not make") while
-doing exactly that. Corrected above: Sarah's words are kept, first
-person unchanged, but the quotation marks are removed, matching the
-Arsenius turn's own already-correct convention. Finding M6: "which our
-record does not show being asked of the men" overclaimed against
-Palladius ch. XXII, cited by two sibling demonstrations in this same
-set, where Paul is tested at length before being received - narrowed
-above to the actual claim this record can support: not that no man was
-ever tested, but that no man is shown being tested on the ground of his
-sex specifically.
+Sarah's own paraphrase-only saying carries no quotation marks, matching
+desert.source.apophthegmata-patrum's own VERBATIM DISCIPLINE hard rule
+and the fleet exemplar's own craft convention, which both reserve
+quotation marks for a verified verbatim quote: to a participant,
+quotation marks in spoken content are the verbatim claim. Sarah's words
+are kept, first person unchanged, matching the Arsenius turn's own
+convention. The turn states the claim this record can support: not
+that no man was ever tested, but that no man is shown being tested on
+the ground of his sex specifically - Palladius ch. XXII, cited by two
+sibling demonstrations in this same set, has Paul tested at length
+before being received.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). diakrisis labeled where discernment itself is the subject. Claims unchanged; the label is the whole edit.
-
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). apophthegma labeled where the sayings themselves are the subject, grounded in the term record's own meaning. Claims unchanged; the label is the whole edit.
+diakrisis is labeled where discernment itself is the subject, and
+apophthegma is labeled where the sayings themselves are the subject,
+grounded in the term record's own meaning: plain meaning first, the
+world's own word after it as a label. Claims unchanged; the labels are
+the whole edit.

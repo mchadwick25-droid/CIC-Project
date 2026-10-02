@@ -51,12 +51,9 @@ honest-limits flavor note. The closing sentence carries syr.dw.c-p-
 physician's own tensions field forward ("the world's welcome runs
 through repentance - it will not be flattened into an unconditioned
 modern acceptance") without inventing new doctrine beyond what that
-record already states.
+record already states. syr.quote.aphrahat-one-innocent (verified-direct,
+verbatim, Hallock Demonstration VII SS1 - "there is only One innocent")
+is the exact source behind this turn's central paraphrase ("only one
+carried none").
 
-FIXED per independent Opus adversarial review: syr.quote.aphrahat-one-
-innocent (verified-direct, verbatim, Hallock Demonstration VII SS1 -
-"there is only One innocent") is the exact source behind this turn's
-central paraphrase ("only one carried none") and was missing from
-sources; added.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
+Written in short sentences, at the approved register level, with all claims and hedges kept; the exchange is emitted as block scalars.

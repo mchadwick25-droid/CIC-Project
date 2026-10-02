@@ -115,12 +115,12 @@ FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "dist
 # The marker set that separates the fleet's genuine anti-fabrication
 # guard clauses from ordinary do_not_retrieve_when redirects,
 # keyword-matched against real examples of each. Single source of truth -
-# the migration tool (tools/split_retrieval_guards.py), the
+# the migration tool (Build/tools/split_retrieval_guards.py), the
 # grounding-fooling measurement (engine/m4/reports/
 # grounding_fooling_measure.py), and the retrieval-negatives-structured
 # gate (engine/m1/gates.py) all import it from here rather than keeping
 # their own copies that could drift apart.
-GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not")
+GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not", "never attribute")
 
 
 def is_guard_marker_line(text: str) -> bool:

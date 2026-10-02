@@ -1,6 +1,6 @@
 """No live R2/AWS calls here - boto3.client itself is mocked, same
 pattern engine/provider/tests/test_bedrock.py already uses for Bedrock.
-R2 is not reachable from this sandbox at all (confirmed 2026-09-16), so
+R2 is not reachable from this sandbox at all, so
 there is no live-path counterpart to preflight.py's own hand-run check -
 the object-storage runbook's own "using it once set up" section is what
 a human verifies against a real bucket."""

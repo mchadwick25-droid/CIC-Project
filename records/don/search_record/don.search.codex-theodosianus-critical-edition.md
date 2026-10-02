@@ -37,8 +37,8 @@ note: 'FIVE ATTEMPTS FAILED, THEN SUCCEEDED. Attempt 1 and attempts 3-5 all reso
   should not be used as a vendoring source, independent of its licence terms, given this embedded hidden-character
   payload -- a build-process/security caution, not a Donatism-content one, so carried here rather than
   duplicated into world_core.cautions. G3 was PAUSED, not discharged, after these five attempts (Boyd
-  1905 substituted in the meantime -- see don.search.boyd-theodosian-code-substitute). SUCCESS, 2026-09-07:
-  once this build''s own outbound network access was confirmed working (tested directly against archive.org
+  1905 substituted in the meantime -- see don.search.boyd-theodosian-code-substitute).
+  Once this build''s own outbound network access was confirmed working (tested directly against archive.org
   before anything else that session), the correct item -- `theodosianilibr01sirmgoog`, Voluminis I Pars
   Posterior: Textus cum Apparatu -- was located and fetched directly. All 16 Books confirmed present,
   Book XVI located, and law XVI.5.52 (headed "412 Ian. 30") read in full and confirmed to contain "circumcelliones

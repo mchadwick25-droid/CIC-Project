@@ -52,102 +52,26 @@ manifestations:
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of
-all virtues"/Cassian attribution the prior build's own Doc_04 Round 1
-review caught and removed is deliberately not reintroduced here -
+all virtues"/Cassian attribution is deliberately not reintroduced here -
 Conference II is cited as Cassian's record of the teaching he received,
 no epithet claimed, matching desert.term.diakrisis's own standing
 discipline on this exact point.
 
-Step3b Review Round 1, Finding S4: the third manifestation asserted
-"diakrisis as the lexicon's own most cross-referenced term" - a
-superlative about this build's own record graph, not a manifestation
-of a fourth-century gravity, and false besides: desert.term.anachoresis
-ties or leads it by relation-end count once this step's own gravity
-relations are counted. Removed and replaced with a genuine
-manifestation naming the moderating relationship the description
-already states. Finding M10: the Cassian "export screen" (retrospective
-Latin curation for a Gallic audience) was named in the term record
-(desert.term.diakrisis, Step3a Round 8) but not carried here - added.
-Finding M4: the description's own "moderates... both spiritual combat
-and its Evagrian systematization" named a relationship to gravity 9
-that no relation declared - added associated-with above, so the
-index's matrix cell has record backing on both ends.
-
-Step3b Review Round 2, Finding M1: the compiler-mediation caveat added
-in Round 1 was a pointer to the caveat ("with the compiler-mediation
-caveat that pattern's own source record carries") rather than the
-caveat's own substance, unlike the matching fix Round 1 made the same
-day on desert.gravity.spiritual-combat. Reworded to state the
-substance in this record's own words, matching that sibling. Finding
-M5: the replacement third manifestation Round 1 installed restated,
-almost verbatim, a clause already in this record's own description -
-a duplicate, not a second genuine manifestation. Replaced with a
-manifestation naming "elders like Poemen" that duplicated neither the
-description nor the Interaction-test relationship - but see Round 3
-below.
-
-Step3b Review Round 3, Finding S3: the Round 2 replacement manifestation
-named "Poemen," an elder with no basis anywhere in this build's
-registered corpus - not in Doc_04, not in any term/source/search
-record, not in any of the vendored files (the only near-hits are
-"Poemenion," a place near Bethlehem, and "Poemenia," a woman pilgrim -
-neither is Abba Poemen). This is exactly the failure Doc_04's
-own generation rule forbids (candidates from "general familiarity...
-rather than from the Source Ecology itself"), and it is specifically
-the name this world's own live-testing history flags twice as its
-documented fabrication-risk case (World-Builds/Desert-Monasticism/
-LiveTest_Scoring_Review.md; the standing Permanent Prompt guard names
-Poemen categorically). Removed. Replaced with a manifestation naming
-no figure and no episode - the absence of a named systematic text for
-diakrisis, contrasted with the Evagrian cluster's own registered texts
-- which needs no evidence beyond what this record and gravity 9 already
-carry.
-
-Step3b Review Round 4, Finding M1: the Round 3 replacement contradicted
-the manifestation directly above it ("Cassian's Conference II, devoted
-entirely to discretion") by claiming diakrisis survived "only in the
-exercise itself... not in a named systematic text" - Conference II IS
-such a text, one line up on the same record. Reworded to the
-defensible, already-cleared form (desert.term.apophthegma's own "almost
-no sustained treatise" outside Evagrius) and corrected "apatheia's
-ladder" to name the actual registered scheme (the praktike-apatheia-
-theoria ladder, in which apatheia is a middle rung, not the ladder's
-own name). Finding C4: the previous paragraph's own fabrication-check
-undercounted the vendored Poemen-family hits (one, "Poemenion") -
-corrected to two ("Poemenion" and "Poemenia," neither Abba Poemen).
-
-Step3b Review Round 5, Finding M3: the Round 4 rewrite still contradicted
-the manifestation above it in substance (an unhedged "no sustained
-treatise... survives" against Conference II, named one line up, as an
-exception carved out only by "Evagrian-style") and dropped the hedge
-("almost") the note claimed to be using from desert.term.apophthegma.
-Reworded to state Conference II as the one named exception directly,
-matching the cleared sibling's actual wording rather than a paraphrase
-of it. Finding M4 (carried from Round 4, decision recorded rather than
-rediscovered): this manifestation remains an absence-observation about
-the record rather than a narrated episode - kept in that form
-deliberately, since Doc_04 SS2 row 3's own Explanatory cell treats the
-same absence ("explains absence of a general systematic treatise
-tradition outside Evagrius") as itself an attested pattern, not merely
-a gap in this record's own evidence.
-
-Doc08, Round 2 review Finding S4: this record's own description already
-carries Doc_04 SS4's forces finding verbatim, but no relation to
-desert.force.martyrdom-unavailable had been declared. Doc_04 SS4's own
-sentence covers five gravities in all (withdrawal, spiritual-combat,
-elder-authority, manual-labor, diakrisis); only desert.gravity.withdrawal
-and desert.gravity.spiritual-combat had already received the relation
-at Doc_08's initial draft. Added here, completing the full five-gravity
-set Doc_04 SS4 actually found (Round 3 review Finding M2: this note's
-own scope corrected). This is
-separate from, and does not affect, this record's own absent relation
-to desert.force.evagrian-intensification/evagrian-systematization,
-which DOC08-INDEX.md's own diakrisis row continues to disclose rather
-than manufacture.
-
-Step4, Round 1 review Finding M11: the relation to desert.story.kellia-
-day, added at Step 4's own draft, was justified there as "the
-discipline of a fixed daily rhythm" - not what this record's own
-description defines as diakrisis (judging rightly between thoughts,
-practices, and counsels). Removed; that story's own text contains no
-discernment content this gravity's own description would recognize.
+No manifestation here names a figure or episode outside this build's
+registered corpus. In particular, "Poemen" never appears: no elder by
+that name has any basis anywhere in this build's registered corpus or
+its vendored files (the only near-hits are "Poemenion," a place near
+Bethlehem, and "Poemenia," a woman pilgrim - neither is Abba Poemen),
+and this world's own live-testing history flags that name specifically
+as its documented fabrication-risk case
+(Build/worlds/desert/LiveTest_Scoring_Review.md; the
+standing Permanent Prompt guard names Poemen categorically). The
+manifestation instead names the
+absence of a named systematic text for diakrisis, contrasted with the
+Evagrian cluster's own registered texts (the praktike-apatheia-theoria
+ladder, in which apatheia is a middle rung, not the ladder's own name) -
+Cassian's Conference II is the one named exception, matching
+desert.term.apophthegma's own "almost no sustained treatise" outside
+Evagrius. Doc_04 SS2 row 3's own Explanatory cell treats this same
+absence as itself an attested pattern, not merely a gap in this
+record's own evidence.

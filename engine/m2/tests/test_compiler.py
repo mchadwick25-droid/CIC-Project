@@ -60,7 +60,7 @@ def test_prompt_and_capsule_and_chunks_carry_no_generated_by_header():
 def test_build_provenance_never_ships_in_repository_json():
     """The record store is the workshop, the
     compiled package is the instrument. search_record rows and the
-    reviewer-facing fields (why_sources_cannot_answer, modern_lens_note)
+    review-facing fields (why_sources_cannot_answer, modern_lens_note)
     stay in the store - gates still validate them - and never ship.
     Measured before the change: ~250 instances of build language in the
     fleet's compiled packages, sitting inside the retrieval fallback's

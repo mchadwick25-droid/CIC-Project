@@ -1,0 +1,16 @@
+source_file: chelcicky_sit-viry-ces_smetanka1912.txt
+assignments:
+- row_id: chelcicky_sit-viry-ces_smetanka1912--sit-viry-petr-chelcicky-the-net-of-faith
+  work: Síť víry (Petr Chelcicky, the Net of Faith)
+  author: chelcicky
+  locus: whole text, with the editor's preface and notes
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: assigned
+  note: Chelčický's Net of Faith in the Czech he wrote, in a 1912 edition from the 1521 printing. It is
+    the main Czech source for the pacifist, anti-Constantinian thinker whom the Unity of the Brethren
+    drew on, and is the Czech original beside the census's Chelčický lead. Primary original evidence in
+    Czech, quotable once each wording is checked against the page image. The Czech reads with its diacritics
+    in the sample, with occasional letter-level misreads and stray marks around the marginal notes; the
+    woodcut pages read as noise.

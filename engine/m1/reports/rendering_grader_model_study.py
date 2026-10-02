@@ -1,5 +1,5 @@
 """Which model should grade rendering fidelity? Re-grades the R43 labeled
-set (Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/
+set (Build/Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/
 R43-Labeled-Set.csv) with each candidate grader model, several runs per
 record, through engine.m1.rendering_fidelity's own grade_rendering - same
 system prompt, same forced-tool schema, same provider seam - so the only
@@ -45,7 +45,7 @@ from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-LABELED_SET = REPO_ROOT / "Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/R43-Labeled-Set.csv"
+LABELED_SET = REPO_ROOT / "Build/Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/R43-Labeled-Set.csv"
 REPORT_PATH = Path(__file__).resolve().parent / "rendering-grader-model-study-2026-09-24.json"
 
 MISSED = "defect_missed_by_grader_caught_by_human"

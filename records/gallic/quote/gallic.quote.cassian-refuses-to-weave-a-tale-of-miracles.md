@@ -61,6 +61,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.power-displayed-disowned
+- type: associated-with
+  target: gallic.gravity.virtus
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "weave a tale"` returns line 16503; `grep -n "received from our elders"` returns line 16515. Read

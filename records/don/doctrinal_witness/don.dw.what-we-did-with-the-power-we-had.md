@@ -19,7 +19,7 @@ confidence:
     who enforced it repeatedly, because both damaged us. Neither is a hostile characterisation that could
     be discounted; both are documents. What is NOT documented is the reasoning on our side for any of
     it, and the record says so. The temples question is refused: we never held that kind of power, and
-    nothing in this compilation records what we did where we were locally dominant. Added 2026-09-14: one
+    nothing in this compilation records what we did where we were locally dominant. One
     further specific, named allegation - a bread boycott reaching an ordinary tradesman's own hands - is
     single-sourced from an opponent and held to the same standard as the Circumcellion paragraph already
     below: named and not denied, not repeated as a police report either. A second candidate addition, fuller
@@ -154,39 +154,20 @@ This is one of only two cells (with F6-I) where the strongest available
 material is the material that damages this world, and the record is
 written so that the damage is not softened on the way through.
 
-**Revised 2026-09-14, `donatism-ordinary-believer` build thread.** A
-fleet-wide source-fidelity audit named two specific allegations, single-sourced
-from Augustine and Optatus respectively, that were not yet in this record:
-a bread boycott at Hippo reaching a named-office-holder's own household
+This record includes a bread boycott at Hippo reaching a named-office-holder's own household
 through an unnamed baker (Augustine, *Answer to Petilian* II.84.184,
 `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines
-17440-17444, re-verified directly), and a fuller hostile narrative of
-Circumcellion conduct - uncollectable debts and masters made to run before
-their own slaves (Optatus, *Against the Donatists* III.4,
-`cic/texts/optatus_against-the-donatists.txt` line 2004, re-verified directly).
+17440-17444): the baker carries out his own leader's order against his landlord, a Catholic deacon,
+who is the one "cut off... in his own house," following the passage's actual grammar.
 
-The audit's own original framing of the boycott episode had the baker as
-its victim; re-reading the passage directly shows the opposite - the baker
-carries out his own leader's order against his landlord, a Catholic deacon,
-who is the one "cut off... in his own house." The text as added here follows
-the passage's actual grammar, not the audit's first pass at it. That
-addition is kept.
-
-**The Circumcellion addition was drafted, then withdrawn after independent
-review.** The Optatus III.4 passage this pass quoted is the immediate
-continuation of the Axido/Fasir material - the same "Captains of the
-Saints" episode `Doc_09_Story_Inventory.md` SS6 examined and explicitly
-declined to build into any story chunk, naming it "a genuinely live Article
-23 question this document's own scope should not resolve casually" and
-reserving its disposition to the project lead; `don_Decision_Log.md`
-(line 564 as of this pass) still lists that question open. Building the
-same material into a Tier-1, retrieval-enabled doctrinal_witness record
-would have resolved that reservation in passing, without naming it. Review
-also caught the added closing clause using the Theodosian legislation to
-corroborate Optatus's own characterisation of the Circumcellions - exactly
-the merger `don.core.donatism` caution 4 forbids, and factually wrong besides
-(the officer who acted, per Optatus's own text, was Taurinus on the
-Donatist bishops' own letter, not the later imperial anti-Circumcellion
-law). Both the text and the `don.source.optatus-against-the-donatists`
-citation have been removed. The material - and the standing Article 23
-question it runs into - is left for the project lead, not resolved here.
+This record does not include the fuller hostile narrative of Circumcellion conduct in Optatus,
+*Against the Donatists* III.4 (`cic/texts/optatus_against-the-donatists.txt` line 2004) - uncollectable
+debts and masters made to run before their own slaves. That passage is the immediate continuation of
+the Axido/Fasir material - the same "Captains of the Saints" episode `Doc_09_Story_Inventory.md` SS6
+declines to build into any story chunk, naming it "a genuinely live Article 23 question this document's
+own scope should not resolve casually." Building that material into a Tier-1, retrieval-enabled
+doctrinal_witness record would resolve that open question in passing, without naming it, so it is left
+out here. This record also does not use the Theodosian legislation to corroborate Optatus's own
+characterisation of the Circumcellions - exactly the merger `don.core.donatism` caution 4 forbids, and
+in any case the officer who acted, per Optatus's own text, was Taurinus on the Donatist bishops' own
+letter, not the later imperial anti-Circumcellion law.
