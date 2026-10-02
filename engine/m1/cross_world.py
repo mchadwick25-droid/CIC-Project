@@ -81,17 +81,13 @@ ACCEPTED_OPEN: dict[str, str] = {
     # entry once lpc is registered.
     "unregistered-world-dir/lpc": "CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
     #
-    # required-record-type/witt/* and required-site-json/witt:
-    # check_required_record_types_and_site_json's own findings, keyed per
-    # record type so a future loss of a DIFFERENT required type at witt
-    # can't hide under an already-waived key. witt is admitted but
-    # carries no world_front record and no facilitator_brief record, and
-    # has no compiled cic-website/data/worlds/lutheran-wittenberg-and-
-    # its-congregations.json - the Website V2 migration has not reached
-    # witt yet. Belongs to witt's own build thread.
-    "required-record-type/witt/world_front": "CI/tooling audit - witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-record-type/witt/facilitator_brief": "CI/tooling audit - witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-site-json/witt": "CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
+    # required-site-json/witt: check_required_record_types_and_site_json's
+    # own finding. witt (admitted) carries its world_front and
+    # facilitator_brief records but has no compiled cic-website/data/worlds/
+    # lutheran-wittenberg-and-its-congregations.json - the Website V2
+    # migration has not compiled witt's site JSON yet. Belongs to witt's own
+    # build thread.
+    "required-site-json/witt": "CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; the world_front record exists but the site JSON is not yet compiled; belongs to a witt build thread",
     # required-record-type/rzg/search_record: rzg (admitted) carries a
     # world_front and a facilitator_brief record and its site JSON is
     # compiled and committed, but it has zero search_record records - the
