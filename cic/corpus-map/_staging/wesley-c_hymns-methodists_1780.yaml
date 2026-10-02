@@ -1,7 +1,18 @@
 source_file: wesley-c_hymns-methodists_1780.txt
 
+authors_ruled:
+  wesley-charles:
+    kind: metadata-omission
+    evidence: >
+      Plain-text intake file with no CCEL DC.Creator. Its header names
+      Charles Wesley as principal hymn-writer of the 525 hymns. The same
+      slug covers Sermon III in the Sermons volume, whose footnote 6
+      (lines 8298-8299 of wesley-j_sermons-v1_1771.txt) states that it
+      was preached by the Rev. Mr. Charles Wesley.
+
 assignments:
-  - work: "A Collection of Hymns, for the Use of the People Called Methodists - Preface"
+  - row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called
+    work: "A Collection of Hymns, for the Use of the People Called Methodists - Preface"
     author: wesley-john
     locus: "lines 75-258 (Preface, signed 'JOHN WESLEY' at line 257,
       'London, Oct. 20, 1779' at line 258)"
@@ -14,7 +25,8 @@ assignments:
       experimental and practical divinity" - the connexion's stated theory of
       what its hymns are FOR, distinct from the hymn texts themselves.
 
-  - work: "A Collection of Hymns, for the Use of the People Called Methodists -
+  - row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called-2
+    work: "A Collection of Hymns, for the Use of the People Called Methodists -
       the hymns themselves (Charles Wesley, principal author)"
     author: wesley-charles
     locus: "the body of the 525 numbered hymns, beginning after the Preface

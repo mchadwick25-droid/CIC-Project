@@ -1,7 +1,17 @@
 source_file: wesley-j_large-minutes_1850.txt
 
+authors_ruled:
+  wesleyan-conference:
+    kind: anonymous
+    evidence: >
+      A corporate author, not a person. The header names John Wesley as
+      compiler and the Wesleyan Methodist Conference, and the vendored
+      Advertisement says the Conference revised the Rules left by its late
+      founder. The work speaks in the Conference's own voice.
+
 assignments:
-  - work: "Minutes of Several Conversations (the Large Minutes) - Section I,
+  - row_id: wesley-j_large-minutes_1850--minutes-of-several-conversations-the-large-minutes-section-i
+    work: "Minutes of Several Conversations (the Large Minutes) - Section I,
       'The Design of God in Sending the Methodist Preachers,' and Section II,
       'The Rise of Methodism'"
     author: wesleyan-conference

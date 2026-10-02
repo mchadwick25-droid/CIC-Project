@@ -22,3 +22,9 @@ Checked: every quotation against the vendored file at its cited locus; every dat
 ## Verdict
 
 **COSMETIC ONLY.** Three genuine, minor fixes (L1–L3) applied directly in this same pass; one confirmation-only check (L4) found nothing to fix. Nothing here changes a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary. Doc_01 clears this round; no second round is required.
+
+## Disposition
+
+Disposition: Not approved to proceed.
+
+This round was a same-thread pass by the thread that drafted the document; its own reviewer note says so. It is not an independent review and does not clear Doc_01. No Approved to proceed is recorded on the strength of it.

@@ -1,7 +1,8 @@
 source_file: wesley-j_sermons-v1_1771.txt
 
 assignments:
-  - work: "Sermons on Several Occasions, Vol. I (Sermon I, 'Salvation by Faith')"
+  - row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermon-i-salvation-by
+    work: "Sermons on Several Occasions, Vol. I (Sermon I, 'Salvation by Faith')"
     author: wesley-john
     locus: "heading at line 490; sermon text through line ~845"
     atlas_ids:
@@ -13,7 +14,8 @@ assignments:
       his doctrine of salvation by grace through faith stated directly, in
       his own preached voice.
 
-  - work: "Sermons on Several Occasions, Vol. I (Sermon II, 'The Almost Christian')"
+  - row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermon-ii-the-almost
+    work: "Sermons on Several Occasions, Vol. I (Sermon II, 'The Almost Christian')"
     author: wesley-john
     locus: "heading at line 874; sermon text through line ~1203"
     atlas_ids:
@@ -25,7 +27,8 @@ assignments:
       Christianity - directly relevant to the class-meeting's own
       soul-searching practice this world's ecology centers on.
 
-  - work: "Sermons on Several Occasions, Vol. I (Sermon III, '\"Awake, Thou
+  - row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermon-iii-awake-thou
+    work: "Sermons on Several Occasions, Vol. I (Sermon III, '\"Awake, Thou
       That Sleepest\"')"
     author: wesley-charles
     locus: "heading at line 1204; sermon text through line ~1669. This
@@ -42,7 +45,8 @@ assignments:
       in this world's corpus where his own words survive outside the
       hymns.
 
-  - work: "Sermons on Several Occasions, Vol. I (Sermons IV-XVI, on scriptural
+  - row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermons-iv-xvi-on
+    work: "Sermons on Several Occasions, Vol. I (Sermons IV-XVI, on scriptural
       Christianity, justification, the witness of the Spirit, the means of
       grace, and related themes)"
     author: wesley-john

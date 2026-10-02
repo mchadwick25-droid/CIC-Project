@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-methodist-revival
 works:
-- work: The Journal of the Rev. Francis Asbury, Vol. I (1771-1786)
+- row_id: asbury_journal-v1_1821--the-journal-of-the-rev-francis-asbury-vol-i-1771-1786
+  work: The Journal of the Rev. Francis Asbury, Vol. I (1771-1786)
   author: asbury-francis
   locus: whole volume; not individually itemized by entry this pass
   role: tradition
@@ -14,7 +15,8 @@ works:
 
     '
   source_file: asbury_journal-v1_1821.txt
-- work: The Journal of the Rev. Francis Asbury, Vol. II (1786-1800)
+- row_id: asbury_journal-v2_1821--the-journal-of-the-rev-francis-asbury-vol-ii-1786-1800
+  work: The Journal of the Rev. Francis Asbury, Vol. II (1786-1800)
   author: asbury-francis
   locus: whole volume; not individually itemized by entry this pass
   role: tradition
@@ -24,7 +26,8 @@ works:
 
     '
   source_file: asbury_journal-v2_1821.txt
-- work: The Journal of the Rev. Francis Asbury, Vol. III (1800-1815)
+- row_id: asbury_journal-v3_1821--the-journal-of-the-rev-francis-asbury-vol-iii-1800-1815
+  work: The Journal of the Rev. Francis Asbury, Vol. III (1800-1815)
   author: asbury-francis
   locus: whole volume; not individually itemized by entry this pass
   role: tradition
@@ -35,7 +38,8 @@ works:
 
     '
   source_file: asbury_journal-v3_1821.txt
-- work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own
+- row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-2
+  work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own
     Editorial Introduction
   author: curnock-nehemiah
   locus: Curnock's own editorial introduction discussing Wesley's 'evangelical conversion,'
@@ -47,7 +51,8 @@ works:
 
     '
   source_file: wesley-j_journal-v1_curnock1909.txt
-- work: A Collection of Hymns, for the Use of the People Called Methodists - the hymns themselves
+- row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called-2
+  work: A Collection of Hymns, for the Use of the People Called Methodists - the hymns themselves
     (Charles Wesley, principal author)
   author: wesley-charles
   locus: 'the body of the 525 numbered hymns, beginning after the Preface (line 258) and running
@@ -67,7 +72,8 @@ works:
 
     '
   source_file: wesley-c_hymns-methodists_1780.txt
-- work: Sermons on Several Occasions, Vol. I (Sermon III, '"Awake, Thou That Sleepest"')
+- row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermon-iii-awake-thou
+  work: Sermons on Several Occasions, Vol. I (Sermon III, '"Awake, Thou That Sleepest"')
   author: wesley-charles
   locus: 'heading at line 1204; sermon text through line ~1669. This sermon''s own footnote
     6 (lines 8298-8299) states: ''Preached on Sunday, April 4, 1742, before the University
@@ -80,7 +86,8 @@ works:
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
-- work: A Collection of Hymns, for the Use of the People Called Methodists - Preface
+- row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called
+  work: A Collection of Hymns, for the Use of the People Called Methodists - Preface
   author: wesley-john
   locus: lines 75-258 (Preface, signed 'JOHN WESLEY' at line 257, 'London, Oct. 20, 1779'
     at line 258)
@@ -92,7 +99,8 @@ works:
 
     '
   source_file: wesley-c_hymns-methodists_1780.txt
-- work: Sermons on Several Occasions, Vol. I (Sermon I, 'Salvation by Faith')
+- row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermon-i-salvation-by
+  work: Sermons on Several Occasions, Vol. I (Sermon I, 'Salvation by Faith')
   author: wesley-john
   locus: heading at line 490; sermon text through line ~845
   role: tradition
@@ -102,7 +110,8 @@ works:
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
-- work: Sermons on Several Occasions, Vol. I (Sermon II, 'The Almost Christian')
+- row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermon-ii-the-almost
+  work: Sermons on Several Occasions, Vol. I (Sermon II, 'The Almost Christian')
   author: wesley-john
   locus: heading at line 874; sermon text through line ~1203
   role: tradition
@@ -113,7 +122,8 @@ works:
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
-- work: Sermons on Several Occasions, Vol. I (Sermons IV-XVI, on scriptural Christianity,
+- row_id: wesley-j_sermons-v1_1771--sermons-on-several-occasions-vol-i-sermons-iv-xvi-on
+  work: Sermons on Several Occasions, Vol. I (Sermons IV-XVI, on scriptural Christianity,
     justification, the witness of the Spirit, the means of grace, and related themes)
   author: wesley-john
   locus: 'individual sermon headings, verified line-by-line against the vendored file: Sermon
@@ -130,7 +140,8 @@ works:
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
-- work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I
+- row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i
+  work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I
   author: wesley-john
   locus: Wesley's own retrospective account of 24 May 1738 (the Aldersgate 'heart strangely
     warmed' entry), lines 26503-27091 - his own numbered paragraphs 1-18+ of a single continuous
@@ -143,11 +154,12 @@ works:
     Curnock edition. Volume I only is vendored (birth through Wesley''s own resolution on
     Wednesday 7 June 1738 to travel to Germany, line 27667, running through embarkation the
     following week, line 27863 - Wesley''s own later 1738 visit to Herrnhut is NOT in this
-    volume); Volumes II-VIII, covering the movement''s own working decades, are not yet acquired.
+    volume); Volumes II-VIII, covering the movement''s own working decades, are not vendored.
 
     '
   source_file: wesley-j_journal-v1_curnock1909.txt
-- work: Minutes of Several Conversations (the Large Minutes) - Section I, 'The Design of God
+- row_id: wesley-j_large-minutes_1850--minutes-of-several-conversations-the-large-minutes-section-i
+  work: Minutes of Several Conversations (the Large Minutes) - Section I, 'The Design of God
     in Sending the Methodist Preachers,' and Section II, 'The Rise of Methodism'
   author: wesleyan-conference
   locus: 'lines 359-387; the Rise-of-Methodism catechism question begins line 379 and runs

@@ -1,3 +1,5 @@
+# Round 2 review of Step 0 (a combined review of Steps 0 to 2)
+
 # Independent Adversarial Review, Round 1 (cross-model, Opus): The Methodist Revival (`meth`), Steps 0–2
 
 **Scope:** Step0, Doc_01, Doc_02, Source_Registry, Source_Acquisition_Manifest. Also cross-checked Open_Gaps_Tracking (OGT), the Decision Log, the three same-thread review files, `cic/corpus-map/the-methodist-revival.yaml`, `records/worlds/meth.yaml`, the census, V1.8, Construction Framework V7.4 and the Constitution docx.
@@ -80,4 +82,10 @@ Quotations, all verbatim: Aldersgate ("I felt my heart strangely warmed…," lin
 - **Step 0: substantial revision required (bounded).** Conclusions stand (Section A clears, Tier 1 rating right); the P1s change the substance of claims and need a round-2 targeted recheck.
 - **Doc_01: substantial revision required.** Forced by P0-1, P0-2, P0-3, P0-4. §4 must be re-argued; Whitefield allocation escalated to Mark as a cross-world decision, not self-disposed. §5 survives with the repairs listed.
 - **Doc_02, Registry and Manifest: substantial revision required.** Forced by P0-4 and the P1 findings on voice attribution, sermon count, the unmeasured Author Gravity claim, the Whitefield contradiction, the false queue-seeding claim, and the false "verified at cited line" claim in the live corpus-map.
-- **Fixes land in live canonical files too** — `cic/corpus-map/the-methodist-revival.yaml` and `records/worlds/meth.yaml`, not just `worlds/meth/`.
+- **Fixes land in live canonical files too** — `cic/corpus-map/the-methodist-revival.yaml` and `records/worlds/meth.yaml`, not just `Build/worlds/meth/`.
+
+## Disposition
+
+Disposition: Not approved to proceed.
+
+The text finds that substantial revision is required on Step 0. The text describes itself as an independent cross-model review. PR #616 records every review round as a same-thread self-review, and no reviewer agent, session or model identifier accompanies the file. This filing does not treat it as an independent review, and the verdict below is not a clearance.

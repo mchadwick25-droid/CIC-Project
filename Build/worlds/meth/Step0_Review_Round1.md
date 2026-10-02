@@ -23,3 +23,9 @@ Checked: (1) every quotation against the actual vendored file at the cited locus
 ## Verdict
 
 **COSMETIC ONLY.** One arithmetic slip (M1), fixed directly in the same pass; two low observations, one of which recommends a future improvement rather than identifying a defect; one judgment call on documentation style, disclosed and left as-is. Nothing here changes a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary — the test this document runs under `cic-build-cycle`'s own substantial/cosmetic line. Step 0 clears this round; no second round is required.
+
+## Disposition
+
+Disposition: Not approved to proceed.
+
+This round was a same-thread pass by the thread that drafted the document; its own reviewer note says so. It is not an independent review and does not clear Step 0. No Approved to proceed is recorded on the strength of it.

@@ -21,3 +21,9 @@ Checked: the numeric consistency of every count claim (corpus-map rows, vendored
 ## Verdict
 
 **COSMETIC ONLY.** One genuine counting error (L1), fixed directly; two confirmation checks (L2–L3) that found the document's own claims already accurate. Nothing here changes a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary. Doc_02, the Source Registry, and the Acquisition Manifest clear this round; no second round is required.
+
+## Disposition
+
+Disposition: Not approved to proceed.
+
+This round was a same-thread pass by the thread that drafted the document; its own reviewer note says so. It is not an independent review and does not clear Doc_02. No Approved to proceed is recorded on the strength of it.

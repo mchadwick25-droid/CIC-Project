@@ -1,7 +1,23 @@
 source_file: wesley-j_journal-v1_curnock1909.txt
 
+authors_ruled:
+  wesley-john:
+    kind: metadata-omission
+    evidence: >
+      Plain-text intake file with no CCEL DC.Creator. Its header names
+      John Wesley as Creator, and the volume's title page names the Rev.
+      John Wesley, A.M. The same slug covers his Sermons volume and the
+      Preface of the 1780 Collection, whose header and signature name him.
+  curnock-nehemiah:
+    kind: metadata-omission
+    evidence: >
+      The header of this plain-text file names Nehemiah Curnock as Editor.
+      The editorial introduction and the footnotes are his voice, not
+      Wesley's.
+
 assignments:
-  - work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I"
+  - row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i
+    work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I"
     author: wesley-john
     locus: "Wesley's own retrospective account of 24 May 1738 (the
       Aldersgate 'heart strangely warmed' entry), lines 26503-27091 -
@@ -21,9 +37,10 @@ assignments:
       Germany, line 27667, running through embarkation the following week,
       line 27863 - Wesley's own later 1738 visit to Herrnhut is NOT in this
       volume); Volumes II-VIII, covering the movement's own working decades,
-      are not yet acquired.
+      are not vendored.
 
-  - work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I
+  - row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-2
+    work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I
       -- Curnock's own Editorial Introduction"
     author: curnock-nehemiah
     locus: "Curnock's own editorial introduction discussing Wesley's

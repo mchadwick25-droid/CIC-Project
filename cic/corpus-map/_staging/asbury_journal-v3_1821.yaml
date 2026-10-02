@@ -1,9 +1,10 @@
-# Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
+# Worker: Methodist Revival build thread (meth). Step 0/Doc_02
 # source-acquisition pass.
 source_file: asbury_journal-v3_1821.txt
 
 assignments:
-  - work: "The Journal of the Rev. Francis Asbury, Vol. III (1800-1815)"
+  - row_id: asbury_journal-v3_1821--the-journal-of-the-rev-francis-asbury-vol-iii-1800-1815
+    work: "The Journal of the Rev. Francis Asbury, Vol. III (1800-1815)"
     author: asbury-francis
     locus: "whole volume; not individually itemized by entry this pass"
     atlas_ids:

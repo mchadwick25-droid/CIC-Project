@@ -198,6 +198,13 @@ authors:
     kind: metadata-omission
     evidence: div2 10.4 'Aristo of Pella' names the author; DC.Creator omits him.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  asbury-francis:
+    kind: metadata-omission
+    evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names Francis Asbury
+      as Creator of the Journal, in three volumes; the slug covers all three vendored volumes.
+
+      '
+    from_file: asbury_journal-v1_1821.txt
   bar-hebraeus:
     kind: metadata-omission
     evidence: 'This is this corpus''s first plain-text-vendored (non-CCEL) named author, so
@@ -488,6 +495,13 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  curnock-nehemiah:
+    kind: metadata-omission
+    evidence: 'The header of this plain-text file names Nehemiah Curnock as Editor. The editorial
+      introduction and the footnotes are his voice, not Wesley''s.
+
+      '
+    from_file: wesley-j_journal-v1_curnock1909.txt
   cyril_alexandria:
     kind: metadata-omission
     evidence: 'div2 titles "The Epistle of Cyril to Nestorius" (10.5), "The Epistle of Cyril
@@ -1271,3 +1285,30 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  wesley-charles:
+    kind: metadata-omission
+    evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names Charles Wesley
+      as principal hymn-writer of the 525 hymns. The same slug covers Sermon III in the Sermons
+      volume, whose footnote 6 (lines 8298-8299 of wesley-j_sermons-v1_1771.txt) states that
+      it was preached by the Rev. Mr. Charles Wesley.
+
+      '
+    from_file: wesley-c_hymns-methodists_1780.txt
+  wesley-john:
+    kind: metadata-omission
+    evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names John Wesley
+      as Creator, and the volume''s title page names the Rev. John Wesley, A.M. The same slug
+      covers his Sermons volume and the Preface of the 1780 Collection, whose header and signature
+      name him.
+
+      '
+    from_file: wesley-j_journal-v1_curnock1909.txt
+  wesleyan-conference:
+    kind: anonymous
+    evidence: 'A corporate author, not a person. The header names John Wesley as compiler
+      and the Wesleyan Methodist Conference, and the vendored Advertisement says the Conference
+      revised the Rules left by its late founder. The work speaks in the Conference''s own
+      voice.
+
+      '
+    from_file: wesley-j_large-minutes_1850.txt

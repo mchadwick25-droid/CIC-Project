@@ -1,6 +1,8 @@
+# Round 3 review of Doc_01 (a combined review of Steps 0 to 2)
+
 # Independent Adversarial Review, Round 2 (targeted recheck): The Methodist Revival (`meth`), Steps 0–2
 
-I worked read-only in `/home/user/CIC-Project/.claude/worktrees/agent-a96deecff567a597c` at HEAD `cd1d06a6`. I wrote nothing. The only tool I ran was `tools/check_live_commentary.py`, which reports without writing, and `git status` stayed clean. I read the brief and the real Round 1 file (`worlds/meth/Review-Artifacts/Independent_Review_Round1.md`). Every claim below with a line number was checked against the vendored file, the live census JSON, or the Framework V7.4 docx.
+I worked read-only in `/home/user/CIC-Project/.claude/worktrees/agent-a96deecff567a597c` at HEAD `cd1d06a6`. I wrote nothing. The only tool I ran was `tools/check_live_commentary.py`, which reports without writing, and `git status` stayed clean. I read the brief and the real Round 1 file (the Round 2 review file). Every claim below with a line number was checked against the vendored file, the live census JSON, or the Framework V7.4 docx.
 
 ## Verdicts
 
@@ -111,7 +113,7 @@ None of it was independently re-tested. Specific problems:
   - "~299,000" for Wesley is the total *before* removing Sermon III. Journal 208,889 + Sermons 89,972 − Sermon III 4,936 = 293,925.
   - "~29 remaining" sermons should be 28 (44 − 16). This appears in Doc_02 line 29, Registry row 10, Manifest G2, the corpus-map, and Step 0. OGT item 10 still says "~32".
 - **`PAIRS.yaml` (P1):**
-  - "One-way" is ruled on what happens to be vendored, and the entry admits the historical relationship "was not" one-way. The pair semantics in `Ministry/Features/Library-Access-Gate/D3-Converged-Design.md` (CM-3/Q2) classify documented exchange between traditions, and the stillness controversy is exactly that kind of exchange.
+  - "One-way" is ruled on what happens to be vendored, and the entry admits the historical relationship "was not" one-way. The pair semantics in `Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md` (CM-3/Q2) classify documented exchange between traditions, and the stillness controversy is exactly that kind of exchange.
   - The `direction: a->b|b->a` field that CM-3 requires for one-way pairs is missing.
   - The file's own header says it "carries only the fixture pair" and that real fleet pairs are "corpus-map's own thread's judgment call". The header is now wrong, and the ruling was made outside its stated owner.
   - The evidence cites lines 27070–27074, which do not mention the Moravians.
@@ -135,3 +137,9 @@ None of it was independently re-tested. Specific problems:
 - It did **not** re-test the §4 argument independently.
 - The escalation cannot be ruled on as presented yet: B's costs are hidden and its one stated advantage is false; Doc_02/Registry row 13 already act as if A is ruled out; and the Decision Log still records Doc_01 as "Approved to proceed" with the Whitefield question decided.
 - Every item above is fixable in one targeted round without re-arguing the conclusion.
+
+## Disposition
+
+Disposition: Not approved to proceed.
+
+The text finds Doc_01 still substantial; Section 9 escalates the Whitefield allocation question to the project lead, and no ruling is recorded. The text describes itself as an independent cross-model review. PR #616 records every review round as a same-thread self-review, and no reviewer agent, session or model identifier accompanies the file. This filing does not treat it as an independent review, and the verdict below is not a clearance. A later recheck that the branch's commit message 8e187eaa9 describes has no review file in the repository, so no clearance of any kind is on record.

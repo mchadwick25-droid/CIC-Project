@@ -6157,7 +6157,7 @@
   date_added: '2026-09-25'
   notes: >-
     Sermons on Several Occasions, Vol. I (Bristol: William Pine, 1771) - Wesley's own
-    first collected edition of his prose works, containing Sermons I-XII of the
+    first collected edition of his prose works, containing Sermons I-XVI of the
     Forty-Four Standard Sermons (Salvation by Faith; The Almost Christian; "Awake, Thou
     That Sleepest"; Scriptural Christianity; Justification by Faith; The Righteousness of
     Faith; the Sermon on Mark i.15; The First-Fruits of the Spirit; The Spirit of Bondage
@@ -6166,8 +6166,8 @@
     directly (curl, raw bytes) from Project Gutenberg eBook #59743
     (gutenberg.org/ebooks/59743), the plain-text (.txt.utf-8) release; header prepended
     per cic/texts/INTAKE.md, Gutenberg's own license boilerplate left in place, body
-    otherwise unaltered. Sermon I begins at line 462 of the vendored file (a table of
-    contents precedes it).
+    otherwise unaltered. Sermon I begins at line 490 of the vendored file (a table of
+    contents and a preface precede it).
 - filename: wesley-j_large-minutes_1850.txt
   supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
   date_added: '2026-09-25'
@@ -6226,11 +6226,8 @@
     edition caveats as stated for Vol. I. Fetched directly (curl, raw bytes) from
     Internet Archive item journalofrevfran00asbu (a New York Public Library copy), the
     item's own _djvu.txt full-text derivative; header prepended per
-    cic/texts/INTAKE.md, body otherwise unaltered. Note: an earlier search-summary
-    claim (not independently verified before this session checked the file's own
-    title page directly) misidentified this same identifier as "Volume I" - corrected
-    here on direct inspection of the vendored text itself, per this project's own
-    verify-against-the-host discipline.
+    cic/texts/INTAKE.md, body otherwise unaltered. The file's own title page reads
+    Vol. II, so this identifier is Volume II.
 - filename: asbury_journal-v3_1821.txt
   supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
   date_added: '2026-09-25'
