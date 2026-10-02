@@ -1413,6 +1413,16 @@ button {
   color: var(--color-text-light);
 }
 
+.ai-note {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg) var(--spacing-sm);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
 .starter-chip {
   text-align: left;
   background: var(--color-surface);

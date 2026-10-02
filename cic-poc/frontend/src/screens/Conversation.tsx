@@ -146,6 +146,11 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
               ))}
             </div>
           )}
+          {!turns.some((t) => t.speaker === 'participant') && (
+            <p className="ai-note sans">
+              {world.representativeName} is an AI voice built only from the surviving writings of this tradition. It is not a real person, and it does not speak for any church today.
+            </p>
+          )}
           <ChatInput
             onSend={onSend}
             onEnd={onEnd}
