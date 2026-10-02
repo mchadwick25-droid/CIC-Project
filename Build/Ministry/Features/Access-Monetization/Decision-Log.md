@@ -41,3 +41,18 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Basis:** Opus round 1 review, substantial finding. Mixing a sale with a charitable ask raises Stripe restricted-category and Colorado solicitation questions, and Faithways is a public benefit corporation.
 
 **Open:** a Sponsored Seat or combined flow is a later phase and needs counsel review first.
+
+## 6. Change order: free allowance tracked by a minimal signed cookie (2026-10-02)
+
+**Changes:** the "No per-visitor, device, or IP tracking" clause of the pilot "door" decision, recorded in `Build/Ministry/Features/Funding-Strategy/Decision-Log.md` (the entry that sets fairness by a shared, type-tiered throttle, not by visitor).
+
+**Decision (Mark):** the free allowance is tracked per visitor with the signed visitor cookie that `engine/api/anon_cap.py` already issues. No device fingerprinting. No IP stored beyond the existing rate limit. No purchase tied to a name by this mechanism.
+
+**Why:** a free allowance that means something to each person, and a way to attach a purchase to a visitor, need an identifier. The cookie already exists, so the real change is to the stated principle, not to the system.
+
+**Accepted cost:** some visitors will clear cookies and get a fresh allowance. The research puts this at about 10%. It is accepted, not defended against with fingerprinting.
+
+**Open:**
+- The funding-strategy thread owns the original decision and the gift-funded door. It needs to be told this change order exists. Nothing in that log is edited here.
+- Whether the shared throttle still applies on top of per-visitor allowances is not decided.
+- The shared church or class network problem in the per-IP seeding is not solved by this decision (see entry 4).
