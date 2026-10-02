@@ -3,7 +3,8 @@
 source_file: cyprian_de-disciplina-et-habitu-virginum-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "De Habitu Virginum (the TEI title reads 'De Disciplina et Habitu Virginum Liber'), CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-disciplina-et-habitu-virginum-lat_hartel1868-csel3-tei--de-habitu-virginum-the-tei-title-reads-de-disciplina-et
+    work: "De Habitu Virginum (the TEI title reads 'De Disciplina et Habitu Virginum Liber'), CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 109 (first text of the TEI body, opening 'Disciplina custos spei, retinaculum fidei'); urn:cts:latinLit:stoa0104a.stoa004.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 6970-7672"
     atlas_ids:

@@ -3,7 +3,8 @@
 source_file: justin-martyr_dialogue-with-trypho-grc_archambault1909.txt
 
 assignments:
-  - work: "Dialogue with Trypho"
+  - row_id: justin-martyr_dialogue-with-trypho-grc_archambault1909--dialogue-with-trypho
+    work: "Dialogue with Trypho"
     author: justin_martyr
     locus: "file line 69 (TEI <head> of the Dialogue, Greek chapter 1 follows)"
     atlas_ids:

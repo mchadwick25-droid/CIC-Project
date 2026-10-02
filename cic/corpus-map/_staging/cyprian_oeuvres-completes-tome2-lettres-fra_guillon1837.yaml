@@ -1,7 +1,8 @@
 source_file: cyprian_oeuvres-completes-tome2-lettres-fra_guillon1837.txt
 
 assignments:
-  - work: "Cyprian, Oeuvres completes, tome 2: the letters (French, Guillon 1837)"
+  - row_id: cyprian_oeuvres-completes-tome2-lettres-fra_guillon1837--cyprian-oeuvres-completes-tome-2-the-letters-french-guillon
+    work: "Cyprian, Oeuvres completes, tome 2: the letters (French, Guillon 1837)"
     author: cyprian
     locus: "whole file"
     atlas_ids:

@@ -1,7 +1,8 @@
 source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
 
 assignments:
-  - work: "Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques (Amsterdam, 1718)"
+  - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lettres-anecdotes-de-cyrille-lucar-et-sa-confession-de-foi
+    work: "Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques (Amsterdam, 1718)"
     author: lucaris
     locus: "table of contents at file line 55; the first letter at 903; the volume runs to about line 42439"
     atlas_ids:
@@ -13,7 +14,8 @@ assignments:
       the acts of the Synod of Jerusalem and long remarks: an outside frame, not the Greek
       church's voice. The editor is not named on the title page. French, Latin and Italian in
       parallel columns in places; long s read as f. Second witness.
-  - work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques (Amsterdam,
+  - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lettres-anecdotes-de-cyrille-lucar-et-sa-confession-de-foi-2
+    work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques (Amsterdam,
       1718)
     author: lucaris
     locus: 'table of contents at file lines 55-80: the first letter (page 1, file line 903) is addressed

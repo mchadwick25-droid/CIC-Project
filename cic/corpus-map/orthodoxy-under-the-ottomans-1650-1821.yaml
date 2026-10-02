@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: orthodoxy-under-the-ottomans-1650-1821
 works:
-- work: Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation
+- row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--acts-and-decrees-of-the-synod-of-jerusalem-shield-of-2
+  work: Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), 1672, English translation
   author: dositheus
   locus: Robertson's introduction from file line 186; the Synod's Shield of Orthodoxy from
     line 344, with its decrees against the eighteen chapters and four questions from line
@@ -13,7 +14,8 @@ works:
   note: Placed on the entry's window (1650-1821). The Synod of Jerusalem of 1672 opens this
     entry's window; English version.
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
-- work: Acts of the Synod of Jerusalem (1672), Greek with Latin
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--acts-of-the-synod-of-jerusalem-1672-greek-with-latin-2
+  work: Acts of the Synod of Jerusalem (1672), Greek with Latin
   author: dositheus
   locus: running heads 'Synodus Hierosolymitana' from about file line 35949
   role: tradition
@@ -21,7 +23,8 @@ works:
   note: Placed on the entry's window (1650-1821). Greek and Latin text of the 1672 Synod;
     second witness for exact Greek because of scan layout.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
-- work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
+- row_id: euchologion-to-mega_second-edition-grc_zerbos1862--euchologion-to-mega-the-great-euchologion-venice-second-2
+  work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
   author: euchologion-to-mega
   locus: title page at about file line 623-655 (Zerbos's edition, Venice 1862); the rites
     follow
@@ -31,7 +34,8 @@ works:
     provisional because its date is later than the window and its Ottoman-era text tradition
     is not shown.
   source_file: euchologion-to-mega_second-edition-grc_zerbos1862.txt
-- work: A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos
+- row_id: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678--a-description-of-the-present-state-of-samos-nicaria-patmos-2
+  work: A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos
   author: georgirenes
   locus: title page at file lines 70-135; the whole text follows
   role: tradition
@@ -40,7 +44,8 @@ works:
     in 1678 for an English audience, in a translator's English; the translator's identity
     is the host catalogue's attribution, not the title page's.
   source_file: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt
-- work: Horologion to mega (the Great Horologion), Venice edition, Greek
+- row_id: horologion-to-mega_venice-edition-grc_koutloumousianos1851--horologion-to-mega-the-great-horologion-venice-edition-greek-2
+  work: Horologion to mega (the Great Horologion), Venice edition, Greek
   author: horologion-to-mega
   locus: title page about file lines 166-190; Koutloumousianos's notice to readers at line
     207; the Patriarch's reply at about line 763
@@ -49,7 +54,8 @@ works:
   note: Placed on the entry's window (1650-1821). Greek liturgical book; its year rests on
     the host catalogue (front matter suggests the 1830s), so provisional.
   source_file: horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt
-- work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
+- row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the-2
+  work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
     and Nikodemos, Greek'
   author: nikodemos-hagiorite
   locus: title page at file lines 102-125, the publisher's address to Orthodox Christians
@@ -60,7 +66,8 @@ works:
     fourth edition, Greek, second witness. Provisional because the edition is later than the
     entry's window.
   source_file: nikodemos-hagiorite_pedalion-canons-grc_1886.txt
-- work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
+- row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to-2
+  work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
   author: nikodemos-hagiorite
   locus: whole volume; the prologue at file line 70, the September entries from line 3016
   role: tradition
@@ -69,7 +76,8 @@ works:
     early 19th century, and the neomartyr lives it holds belong to this entry's era. Garbled
     1900 scan, second witness only.
   source_file: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt
-- work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
+- row_id: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900--synaxaristes-of-the-twelve-months-volume-2-march-to-august-2
+  work: Synaxaristes of the Twelve Months, volume 2 (March to August), Greek
   author: nikodemos-hagiorite
   locus: whole volume; the March entries from about file line 3401
   role: tradition
@@ -77,7 +85,8 @@ works:
   note: Placed on the entry's window (1650-1821). Same reasoning as volume 1; second witness
     only.
   source_file: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt
-- work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
+- row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno-2
+  work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
   author: rycaut
   locus: title pages at about file lines 185-195 and 16607; the chapters from line 1297
   role: context
@@ -85,7 +94,8 @@ works:
   note: Placed on the entry's window (1650-1821). An English diplomat's outside account of
     1678; about 78% of the OCR lines are readable words.
   source_file: rycaut_present-state-greek-armenian-churches_1679.txt
-- work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account
+- row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites-2
+  work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account
     of the Greek church under Cyrillus Lucaris
   author: smith-thomas
   locus: whole text; the Lucaris section under running heads 'The State of the Greek Church'

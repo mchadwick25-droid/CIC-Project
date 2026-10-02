@@ -1,7 +1,8 @@
 source_file: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt
 
 assignments:
-  - work: "Synaxaristes of the Twelve Months, volume 1 (September to February), Greek"
+  - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to
+    work: "Synaxaristes of the Twelve Months, volume 1 (September to February), Greek"
     author: nikodemos-hagiorite
     locus: "whole volume; the prologue at file line 70, the September entries from line 3016"
     atlas_ids:
@@ -15,7 +16,8 @@ assignments:
       1453-1650); this edition is a late witness to practice and law, so its place here is a
       provisional shelf assignment for the world's builders to confirm. Second witness only:
       the Greek OCR is heavily garbled in accents and vowels.
-  - work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
+  - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to-2
+    work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
     author: nikodemos-hagiorite
     locus: whole volume; the prologue at file line 70, the September entries from line 3016
     atlas_ids:
@@ -25,7 +27,8 @@ assignments:
     note: Placed on
       the entry's window (1650-1821). Nikodemos compiled the Synaxaristes in the early 19th century, and
       the neomartyr lives it holds belong to this entry's era. Garbled 1900 scan, second witness only.
-  - work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
+  - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to-3
+    work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
     author: nikodemos-hagiorite
     locus: whole volume; the prologue at file line 70, the September entries from line 3016
     atlas_ids:

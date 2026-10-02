@@ -2,7 +2,8 @@
 # AUTHORS.md's `julian`.
 source_file: julian_letter-to-the-athenians_wright1913.txt
 assignments:
-- work: Letter to the Athenians (Letter to the Senate and People of Athens)
+- row_id: julian_letter-to-the-athenians_wright1913--letter-to-the-athenians-letter-to-the-senate-and-people-of
+  work: Letter to the Athenians (Letter to the Senate and People of Athens)
   author: julian
   locus: whole file (Loeb pp. 245-293)
   atlas_ids:
@@ -16,7 +17,8 @@ assignments:
     Constantius and, implicitly, the Christian household that raised
     him - the file's own vendoring note already frames it this way.
 
-- work: Letter to the Athenians (Letter to the Senate and People of Athens)
+- row_id: julian_letter-to-the-athenians_wright1913--letter-to-the-athenians-letter-to-the-senate-and-people-of-2
+  work: Letter to the Athenians (Letter to the Senate and People of Athens)
   author: julian
   locus: whole file (Loeb pp. 245-293)
   atlas_ids:

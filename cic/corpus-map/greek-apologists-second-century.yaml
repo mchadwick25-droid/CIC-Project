@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: greek-apologists-second-century
 works:
-- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--ambrose-a-memorial-hypomnemata-addressed-to-the-greeks
+  work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
   role: context
@@ -23,7 +24,8 @@ works:
     question - the entry's window is 124-200 and this piece is undated - not because the Syriac
     half is in doubt.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Apology of Aristides the Philosopher
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
   author: aristides
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   role: tradition
@@ -36,7 +38,8 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apology of Aristides the Philosopher
+- row_id: aristides_apology-syriac-grc-eng_harris-robinson1893--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
   author: aristides
   locus: file line 2133 (heading 'THE APOLOGY OF ARISTIDES, TRANSLATED FROM THE SYRIAC'; Robinson's
     Greek appendix ('The Greek Text of Barlaam and Josaphat') begins at line 4583)
@@ -54,7 +57,8 @@ works:
 
     '
   source_file: aristides_apology-syriac-grc-eng_harris-robinson1893.txt
-- work: The Apology of Aristides the Philosopher
+- row_id: goodspeed_aeltesten-apologeten-grc-lat-deu_1914--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
   author: aristides
   locus: file line 1402 (first readable Latin of the Aristides Apology in this file ('Graeci
     vero, O Rex, quod turpia faciunt ...'); the German introduction to Aristides is at line
@@ -73,7 +77,8 @@ works:
 
     '
   source_file: goodspeed_aeltesten-apologeten-grc-lat-deu_1914.txt
-- work: Fragments of Aristo of Pella
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
   role: tradition
@@ -83,7 +88,8 @@ works:
     by the fragments. greek-apologists-second-century holds this work for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Fragments of Aristo of Pella
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: file line 18145 (heading 'ARISTO.' (the Aristo section of the Reliquiae))
   role: tradition
@@ -100,7 +106,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
-- work: Fragments of Aristo of Pella
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: file line 5915 (heading 'ARISTONIS PELLAI,')
   role: tradition
@@ -116,7 +123,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
-- work: A Plea for the Christians
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians
+  work: A Plea for the Christians
   author: athenagoras
   locus: div2 5.2 under div1 'ATHENAGORAS'
   role: tradition
@@ -127,7 +135,8 @@ works:
     pahc, for the era's outward-facing writing; pahc is kept because the era and church-world
     are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: A Plea for the Christians
+- row_id: athenagoras_legatio-grc_otto1857--a-plea-for-the-christians
+  work: A Plea for the Christians
   author: athenagoras
   locus: file line 69 (TEI <head> of the Plea, Greek opener follows)
   role: tradition
@@ -143,7 +152,8 @@ works:
 
     '
   source_file: athenagoras_legatio-grc_otto1857.txt
-- work: The Resurrection of the Dead
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-resurrection-of-the-dead
+  work: The Resurrection of the Dead
   author: athenagoras
   locus: div2 5.3 under div1 'ATHENAGORAS'
   role: tradition
@@ -152,7 +162,8 @@ works:
     alongside pahc, for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: The Resurrection of the Dead
+- row_id: athenagoras_de-resurrectione-grc_otto1857--the-resurrection-of-the-dead
+  work: The Resurrection of the Dead
   author: athenagoras
   locus: file line 97 (TEI <head> of the treatise, Greek chapter 1 follows)
   role: tradition
@@ -168,7 +179,8 @@ works:
 
     '
   source_file: athenagoras_de-resurrectione-grc_otto1857.txt
-- work: Fragments of Claudius Apollinaris
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-claudius-apollinaris-2
+  work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10
   role: tradition
@@ -183,7 +195,8 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Fragments of Claudius Apollinaris
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-claudius-apollinaris-2
+  work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: file line 24699 (heading 'FRAGMENTA APOLLINARIS.')
   role: tradition
@@ -200,7 +213,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
-- work: Fragments of Claudius Apollinaris
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-claudius-apollinaris-2
+  work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: file line 8951 (heading 'S. CLAUDII APOLLINARIS')
   role: tradition
@@ -216,7 +230,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
-- work: Dialogue with Trypho
+- row_id: anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho
+  work: Dialogue with Trypho
   author: justin_martyr
   locus: div2 8.4 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -227,7 +242,8 @@ works:
     work. greek-apologists-second-century holds this work for the era's outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Dialogue with Trypho
+- row_id: justin-martyr_dialogue-with-trypho-grc_archambault1909--dialogue-with-trypho
+  work: Dialogue with Trypho
   author: justin_martyr
   locus: file line 69 (TEI <head> of the Dialogue, Greek chapter 1 follows)
   role: tradition
@@ -243,7 +259,8 @@ works:
 
     '
   source_file: justin-martyr_dialogue-with-trypho-grc_archambault1909.txt
-- work: Hortatory Address to the Greeks
+- row_id: anf01_apostolic-fathers-justin-irenaeus--hortatory-address-to-the-greeks-2
+  work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   role: context
@@ -253,7 +270,8 @@ works:
     so it lies mostly outside this entry's window (124-200). Kept here as context, not as
     the world's own voice; the date dispute is Contested.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Hortatory Address to the Greeks
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--hortatory-address-to-the-greeks-2
+  work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: file line 4293 (heading 'COHORTATIO AD GENTILES.' (first body occurrence, after the
     prolegomena))
@@ -270,7 +288,8 @@ works:
     \ prolegomena treat these works as not Justin's. Mirrors the English twin's role and confidence\
     \ exactly.\n"
   source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
-- work: On the Sole Government of God
+- row_id: anf01_apostolic-fathers-justin-irenaeus--on-the-sole-government-of-god
+  work: On the Sole Government of God
   author: justin_martyr
   locus: div2 8.7 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -279,7 +298,8 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: On the Sole Government of God
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--on-the-sole-government-of-god
+  work: On the Sole Government of God
   author: justin_martyr
   locus: file line 12565 (heading 'DE MONARCHIA.' (first body occurrence, after the prolegomena))
   role: tradition
@@ -296,7 +316,8 @@ works:
 
     '
   source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
-- work: The Discourse to the Greeks
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-discourse-to-the-greeks
+  work: The Discourse to the Greeks
   author: justin_martyr
   locus: div2 8.5 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -306,7 +327,8 @@ works:
     greek-apologists-second-century holds this work for the era's outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: The Discourse to the Greeks
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--the-discourse-to-the-greeks
+  work: The Discourse to the Greeks
   author: justin_martyr
   locus: file line 2944 (heading 'AD GENTILES.' (Oratio ad Gentiles), following the prolegomena)
   role: tradition
@@ -323,7 +345,8 @@ works:
 
     '
   source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
-- work: The First Apology
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-first-apology
+  work: The First Apology
   author: justin_martyr
   locus: div2 8.2 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -332,7 +355,8 @@ works:
     holds this work for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: The First Apology
+- row_id: justin-martyr_first-apology-grc_rauschen1911--the-first-apology
+  work: The First Apology
   author: justin_martyr
   locus: file line 67 (TEI <head> 'APOLOGIA I.', Greek chapter 1 follows)
   role: tradition
@@ -347,7 +371,8 @@ works:
 
     '
   source_file: justin-martyr_first-apology-grc_rauschen1911.txt
-- work: The Second Apology
+- row_id: anf01_apostolic-fathers-justin-irenaeus--the-second-apology
+  work: The Second Apology
   author: justin_martyr
   locus: div2 8.3 under div1 'JUSTIN MARTYR'
   role: tradition
@@ -356,7 +381,8 @@ works:
     holds this work for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: The Second Apology
+- row_id: justin-martyr_second-apology-grc_rauschen1911--the-second-apology
+  work: The Second Apology
   author: justin_martyr
   locus: file line 95 (TEI <head> 'APOLOGIA II.', Greek chapter 1 follows)
   role: tradition
@@ -371,7 +397,8 @@ works:
 
     '
   source_file: justin-martyr_second-apology-grc_rauschen1911.txt
-- work: Epistle to Diognetus
+- row_id: anf01_apostolic-fathers-justin-irenaeus--epistle-to-diognetus
+  work: Epistle to Diognetus
   author: mathetes
   locus: div2 3.2 under div1 'MATHETES'
   role: tradition
@@ -384,7 +411,8 @@ works:
     greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Epistle to Diognetus
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--epistle-to-diognetus
+  work: Epistle to Diognetus
   author: mathetes
   locus: file line 15590 (heading 'EPISTVLA AD DIOGNETVM.' (first body occurrence, after the
     prolegomena))
@@ -402,7 +430,8 @@ works:
 
     '
   source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
-- work: Epistle to Diognetus
+- row_id: pseudo-justin_epistle-to-diognetus-grc_lake1917--epistle-to-diognetus
+  work: Epistle to Diognetus
   author: mathetes
   locus: file line 87 (TEI <head> 'EPISTOLE PROS DIOGNETON', Greek chapter 1 follows)
   role: tradition
@@ -418,7 +447,8 @@ works:
 
     '
   source_file: pseudo-justin_epistle-to-diognetus-grc_lake1917.txt
-- work: Fragments of Melito of Sardis
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis
+  work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: div2 10.5
   role: tradition
@@ -428,7 +458,8 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Fragments of Melito of Sardis
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-melito-of-sardis
+  work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: file line 20990 (heading 'FRAGMENTA MELITONIS.')
   role: tradition
@@ -445,7 +476,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
-- work: Fragments of Melito of Sardis
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-melito-of-sardis
+  work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: file line 6675 (heading 'B. MELITONIS, SARDENSIS EPISCOPI')
   role: tradition
@@ -461,7 +493,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
-- work: Fragments of Quadratus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus
+  work: Fragments of Quadratus
   author: quadratus
   locus: div2 10.3
   role: tradition
@@ -471,7 +504,8 @@ works:
     for the era's outward-facing writing; pahc is kept because the era and church-world are
     genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Fragments of Quadratus
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-quadratus
+  work: Fragments of Quadratus
   author: quadratus
   locus: file line 17465 (heading 'QUADRATUS.', the Fragmentum Apologiae Quadrati with Otto's
     Latin translation follows)
@@ -489,7 +523,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
-- work: Fragments of Quadratus
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-quadratus
+  work: Fragments of Quadratus
   author: quadratus
   locus: file line 5161 (heading 'B. QUADRATUS.')
   role: tradition
@@ -505,7 +540,8 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
-- work: Address to the Greeks
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks
+  work: Address to the Greeks
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
   role: tradition
@@ -519,7 +555,8 @@ works:
     this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
     the era and church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Address to the Greeks
+- row_id: tatian_oratio-ad-graecos-grc-lat_otto1851--address-to-the-greeks
+  work: Address to the Greeks
   author: tatian
   locus: file line 1660 (first running head 'TATIANI ORATIO AD GRAECOS' inside the text (the
     title page and prolegomena come before))
@@ -537,7 +574,8 @@ works:
 
     '
   source_file: tatian_oratio-ad-graecos-grc-lat_otto1851.txt
-- work: Theophilus to Autolycus
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus
+  work: Theophilus to Autolycus
   author: theophilus
   locus: div2 4.2 under div1 'THEOPHILUS'
   role: tradition
@@ -546,7 +584,8 @@ works:
     greek-apologists-second-century holds this work alongside pahc, for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Theophilus to Autolycus
+- row_id: theophilus_ad-autolycum-grc-lat_otto1861--theophilus-to-autolycus
+  work: Theophilus to Autolycus
   author: theophilus
   locus: file line 2571 (heading 'LIBER PRIMUS' (Book I, after the prolegomena))
   role: tradition

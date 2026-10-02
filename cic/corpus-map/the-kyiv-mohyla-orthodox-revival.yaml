@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-kyiv-mohyla-orthodox-revival
 works:
-- work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-2
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
   locus: from about file line 7839; Pars prima (Faith) at 9190, Pars secunda (Hope) at 23757,
     Pars tertia (Charity) at 28672
@@ -13,7 +14,8 @@ works:
     entry's own charter. Second witness for exact Greek wording because of the scan's two-column
     layout.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
-- work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
+- row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-2
+  work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
     English version
   author: mogila
   locus: Part I (Faith) from file line 472, Part II (Hope) from 4036, Part III (Charity) from

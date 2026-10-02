@@ -1,0 +1,17 @@
+source_file: piccolomini_historia-bohemica-lat_1524.txt
+assignments:
+- row_id: piccolomini_historia-bohemica-lat_1524--historia-bohemica-cologne-1524-printing
+  work: Historia Bohemica (Cologne, 1524 printing)
+  author: piccolomini
+  locus: whole text
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: context
+  confidence: provisional
+  note: 'Aeneas Silvius''s Latin history of Bohemia, from the Catholic humanist outside the movement,
+    in a second printing. It has no interleaved marginal notes and keeps the long s as ſ, which the quote
+    gate normalises, but its OCR has more letter-level noise than the 1592 printing. Second witness for
+    now, not yet quotable: the printing is complete and free of interleaved marginal notes and keeps the
+    long s as ſ, but the OCR misreads many letters within words (for example de read as dc and nati as
+    nai; word-form coverage against a clean Latin vocabulary 0.60, about the same as the 1592 printing).
+    It does not by itself supply a clean witness; check every wording against the page image.'

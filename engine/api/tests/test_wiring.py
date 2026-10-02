@@ -518,7 +518,7 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     worlds = wiring.list_worlds(world_loader=world_loader, registry=registry)
 
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation"}
+    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation" and v.get("package")}
 
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"

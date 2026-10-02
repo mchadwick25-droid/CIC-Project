@@ -34,7 +34,8 @@ authors_ruled:
     from_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
 
 assignments:
-  - work: "Liturgy of S. Basil (Byzantine form)"
+  - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-basil-byzantine-form
+    work: "Liturgy of S. Basil (Byzantine form)"
     author: liturgy-of-st-basil
     locus: "file lines 7358-7820 (the Basil section, pp. 129-139 in the printed pagination)"
     atlas_ids:
@@ -47,7 +48,8 @@ assignments:
       Byzantine form is a later redaction, so the words are not shown to be Basil's own;
       a Representative may point to it as the liturgy that carries his name, never quote it
       as his voice. Read with the vendored ascetic works for what Basil himself wrote.
-  - work: "Liturgy of S. John Chrysostom (Byzantine form)"
+  - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-john-chrysostom-byzantine-form
+    work: "Liturgy of S. John Chrysostom (Byzantine form)"
     author: liturgy-of-st-john-chrysostom
     locus: "file lines about 5500-7300 (the Chrysostom section; page header 'SAINT CHRYSOSTOM' runs from line 5821 to 7242)"
     atlas_ids:
@@ -58,7 +60,8 @@ assignments:
       The rite attributed to John Chrysostom, in Neale's English. Context only: the surviving
       Byzantine text is a later redaction and cannot be shown to be his. His own sermons and
       treatises are the tradition's voice.
-  - work: "Liturgy of S. James"
+  - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-james
+    work: "Liturgy of S. James"
     author: liturgy-of-st-james
     locus: "file lines 3064-4800 (page header 'SAINT JAMES' at 3064 and 3622)"
     atlas_ids:
@@ -69,7 +72,8 @@ assignments:
       Neale's English of the Jerusalem rite. Same work as the James liturgy in the vendored
       ANF volume 7 (a different translator and text tradition); this is a second witness for
       comparison. Attribution to James is traditional.
-  - work: "Liturgy of S. Mark"
+  - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-mark
+    work: "Liturgy of S. Mark"
     author: liturgy-of-st-mark
     locus: "file lines about 2259-3050"
     atlas_ids:
@@ -81,7 +85,8 @@ assignments:
       that the Greek Liturgy of Mark belongs to Alexandria's church, but the rite's date
       (its written form is later than the era that entry covers) has not been checked against
       that entry's window, so it is flagged, not forced.
-  - work: "Liturgy of S. Clement"
+  - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-clement
+    work: "Liturgy of S. Clement"
     author: liturgy-of-st-clement
     locus: "file lines 4820-5400"
     atlas_ids:
@@ -92,7 +97,8 @@ assignments:
       The Clementine liturgy is Book VIII of the Apostolic Constitutions, a late 4th-century
       Syrian compilation; the Antiochene third-century entry is the nearest match by place,
       but the work is later than that entry's window and has not been ruled on.
-  - work: "Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)"
+  - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-of-the-st-thomas
+    work: "Liturgy of Malabar (East-Syriac rite of the St. Thomas Christians)"
     author: liturgy-of-malabar
     locus: "file lines about 8150-9700 (page header 'MALABAR')"
     atlas_ids:

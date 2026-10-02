@@ -1,7 +1,8 @@
 source_file: cyprian_oeuvres-completes-tome1-traites-fra_guillon1837.txt
 
 assignments:
-  - work: "Cyprian, Oeuvres completes, tome 1: the treatises (French, Guillon 1837)"
+  - row_id: cyprian_oeuvres-completes-tome1-traites-fra_guillon1837--cyprian-oeuvres-completes-tome-1-the-treatises-french
+    work: "Cyprian, Oeuvres completes, tome 1: the treatises (French, Guillon 1837)"
     author: cyprian
     locus: "whole file"
     atlas_ids:

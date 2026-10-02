@@ -3,7 +3,52 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-hussite-and-bohemian-brethren-movement
 works:
-- work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
+- row_id: chelcicky_sit-viry-ces_smetanka1912--sit-viry-petr-chelcicky-the-net-of-faith
+  work: Síť víry (Petr Chelcicky, the Net of Faith)
+  author: chelcicky
+  locus: whole text, with the editor's preface and notes
+  role: tradition
+  confidence: assigned
+  note: Chelčický's Net of Faith in the Czech he wrote, in a 1912 edition from the 1521 printing.
+    It is the main Czech source for the pacifist, anti-Constantinian thinker whom the Unity
+    of the Brethren drew on, and is the Czech original beside the census's Chelčický lead.
+    Primary original evidence in Czech, quotable once each wording is checked against the
+    page image. The Czech reads with its diacritics in the sample, with occasional letter-level
+    misreads and stray marks around the marginal notes; the woodcut pages read as noise.
+  source_file: chelcicky_sit-viry-ces_smetanka1912.txt
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+  author: comenius
+  locus: whole volume; preface by Buddeus
+  role: context
+  confidence: provisional
+  note: 'The Unity''s account of its own history, order and discipline from its last bishop,
+    in Latin, printed long after the window. It is the Unity''s later self-account, so it
+    gives the Unity''s own picture of its origins at second hand and not its voice of the
+    years to 1517. Second witness for now, not quotable: a 1702 print with the long s read
+    as f throughout and many word-level misreads (word-form coverage against a clean Latin
+    vocabulary 0.42). A cleaner scan of Comenius''s own text (1649-1660 manuscripts) would
+    serve as the quotable witness.'
+  source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
+- row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--the-acts-and-monuments-of-john-foxe-vol-iii-cattley-townsend-2
+  work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition), the Hus
+    section
+  author: foxe
+  locus: the section on John Hus and the Council of Constance, file lines 30742-46807 (where
+    the name Huss occurs; about 700 occurrences)
+  role: context
+  confidence: assigned
+  note: 'Foxe''s 16th-century English account of Hus, printed with his sources: a papal inquisitor''s
+    testimonial to Hus, the petitions of the Bohemian nobles and the university, and Hus''s
+    answer on De Ecclesia. It is an Elizabethan Protestant martyrologist''s compilation, a
+    witness at second hand to Hus''s trial and death, not Hus''s own voice. Placed here beside
+    its Lollardy placement; a placement of one text in two worlds records that each world
+    reads a different part of it.
+
+    '
+  source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
+- row_id: gillett_life-and-times-of-huss-v2_1871--the-life-and-times-of-john-huss-or-the-bohemian-reformation
+  work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
     Vol. II'
   author: gillett
   locus: whole volume
@@ -14,7 +59,21 @@ works:
 
     '
   source_file: gillett_life-and-times-of-huss-v2_1871.txt
-- work: De Ecclesia. The Church
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--fasciculus-rerum-expetendarum-et-fugiendarum-brown-1690
+  work: Fasciculus rerum expetendarum et fugiendarum (Brown, 1690), volume I
+  author: gratius
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'A Catholic reformers'' collection of texts (Ortwin Gratius, 1535; Brown, 1690). It
+    is not the Unity''s voice except in the one item below. Second witness for now, not quotable:
+    a 1690 print with the long s read as f, italic and roman confused, and stray glyphs (for
+    example Lcttorcm for Lectorem). The Confession is readable in outline. Check every wording
+    against the page image; the earlier Cologne printing of 1535 is a separate item on Internet
+    Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
+  source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
+- row_id: hus_de-ecclesia-the-church_schaff1915--de-ecclesia-the-church
+  work: De Ecclesia. The Church
   author: hus
   locus: whole volume
   role: tradition
@@ -26,7 +85,68 @@ works:
 
     '
   source_file: hus_de-ecclesia-the-church_schaff1915.txt
-- work: The Letters of John Hus
+- row_id: hus_korespondence-a-dokumenty-lat-ces_novotny1920--m-jana-husi-korespondence-a-dokumenty-critical-edition-of
+  work: M. Jana Husi Korespondence a dokumenty (critical edition of Hus's letters and related
+    documents)
+  author: hus
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: The critical edition of Hus's letters and the documents about them, in the Latin and
+    Czech of the originals, with Novotný's Czech introduction and footnotes. It prints Hus's
+    letters in their original languages, as a second critical text beside the letters in Palacký's
+    Documenta. The vendored Workman and Pope Letters is an English rendering of Hus's letters.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image. The Latin letters read legibly; the OCR scatters the edition's footnote
+    marks and superscript digits through the lines, so quotations need the printed page.
+  source_file: hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt
+- row_id: hus_sebrane-spisy-ceske-v01-ces_erben1865--mistra-jana-husi-sebrane-spisy-ceske-vol-1-hus-s-czech
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 1: Hus''s Czech expositions of the Creed,
+    the Ten Commandments and the Lord''s Prayer, and his tract on simony'
+  author: hus
+  locus: whole volume - volume 1 of 3
+  role: tradition
+  confidence: assigned
+  note: Hus's Czech expositions of the Creed, the Ten Commandments and the Lord's Prayer,
+    and his tract on simony, in Czech, in a critical edition from the oldest known sources.
+    These are Hus's own Czech pastoral works, which the vendored English letters and De Ecclesia
+    do not reach. Primary original evidence for the movement in Czech, quotable once each
+    wording is checked against the page image. The Czech reads clearly with its diacritics
+    in the sample; the 1865-68 orthography is the old one (for example sé, viery, pravé),
+    and the OCR misreads some letters of the marginal scripture citations.
+  source_file: hus_sebrane-spisy-ceske-v01-ces_erben1865.txt
+- row_id: hus_sebrane-spisy-ceske-v02-ces_erben1866--mistra-jana-husi-sebrane-spisy-ceske-vol-2-hus-s-czech
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 2: Hus''s Czech Postilla, from the manuscript
+    of 1414'
+  author: hus
+  locus: whole volume - volume 2 of 3
+  role: tradition
+  confidence: assigned
+  note: Hus's Czech Postilla, from the manuscript of 1414, in Czech, in a critical edition
+    from the oldest known sources. These are Hus's own Czech pastoral works, which the vendored
+    English letters and De Ecclesia do not reach. Primary original evidence for the movement
+    in Czech, quotable once each wording is checked against the page image. The Czech reads
+    clearly with its diacritics in the sample; the 1865-68 orthography is the old one (for
+    example sé, viery, pravé), and the OCR misreads some letters of the marginal scripture
+    citations.
+  source_file: hus_sebrane-spisy-ceske-v02-ces_erben1866.txt
+- row_id: hus_sebrane-spisy-ceske-v03-ces_erben1868--mistra-jana-husi-sebrane-spisy-ceske-vol-3-hus-s-shorter
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 3: Hus''s shorter Czech works, among them
+    the Dcerka, the Zrcadlo and the Výklad písničky Šalomúnovy'
+  author: hus
+  locus: whole volume - volume 3 of 3
+  role: tradition
+  confidence: assigned
+  note: Hus's shorter Czech works, among them the Dcerka, the Zrcadlo and the Výklad písničky
+    Šalomúnovy, in Czech, in a critical edition from the oldest known sources. These are Hus's
+    own Czech pastoral works, which the vendored English letters and De Ecclesia do not reach.
+    Primary original evidence for the movement in Czech, quotable once each wording is checked
+    against the page image. The Czech reads clearly with its diacritics in the sample; the
+    1865-68 orthography is the old one (for example sé, viery, pravé), and the OCR misreads
+    some letters of the marginal scripture citations.
+  source_file: hus_sebrane-spisy-ceske-v03-ces_erben1868.txt
+- row_id: hus_letters_workman-pope1904--the-letters-of-john-hus
+  work: The Letters of John Hus
   author: hus
   locus: whole volume
   role: tradition
@@ -38,7 +158,41 @@ works:
 
     '
   source_file: hus_letters_workman-pope1904.txt
-- work: 'Bohemia: An Historical Sketch'
+- row_id: hus_tractatus-responsivus-lat-eng_thomson1927--tractatus-responsivus-latin-first-edition-by-s-h-thomson
+  work: Tractatus responsivus (Latin, first edition by S. H. Thomson)
+  author: hus
+  locus: the Latin text follows the editor's English introduction
+  role: tradition
+  confidence: provisional
+  note: A Latin tract on the sixteen articles condemned as Wyclif's, printed here for the
+    first time. The attribution to Hus rests on the editor's argument from tone, content and
+    use of Wyclif, and the editor states that no manuscript names Hus; the vendored file must
+    not be quoted as Hus's own words without saying so. The English introduction also treats
+    Hus's borrowing from Wyclif. Latin text clean (word-form coverage against a clean Latin
+    vocabulary 0.83) and quotable once checked against the page image, but the authorship
+    is the editor's inference and not established by a manuscript ascription; treat any quotation
+    as 'the tract attributed to Hus by Thomson'. The front matter reads as noise.
+  source_file: hus_tractatus-responsivus-lat-eng_thomson1927.txt
+- row_id: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893--laurentii-de-brzezowa-historia-hussitica-with-pulkava-the
+  work: Laurentii de Brzezowa Historia Hussitica (with Pulkava, the University chronicle and
+    Bartošek in the same volume)
+  author: laurentius-de-brezova
+  locus: the Historia Hussitica and the poem on Domažlice; the volume also holds the chronicles
+    of Pulkava (before the window), the University of Prague and Bartošek of Drahonice
+  role: tradition
+  confidence: provisional
+  note: 'Lawrence of Březová, an Utraquist chronicler close to the Prague university, on the
+    Hussite movement to 1422, in Latin. He is the main source for Tabor and the Adamites and
+    is hostile to Tabor, so the Taborite strand is seen through him and not in its own voice.
+    The volume also holds Bartošek''s chronicle of the Hussite period and the University''s
+    chronicle. Second witness for now, not yet quotable: the Latin is legible but the OCR
+    carries frequent letter-level misreads and the editors'' manuscript variants (numbered
+    marks) interleaved with the text, for example reguum iutravil for regnum intravit. The
+    Czech chronicle parts read better. Check every quotation against the page image; the archive
+    record''s own date (1873) is wrong for this volume.'
+  source_file: laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt
+- row_id: lutzow_bohemia-historical-sketch_1920--bohemia-an-historical-sketch
+  work: 'Bohemia: An Historical Sketch'
   author: lutzow
   locus: whole volume
   role: context
@@ -48,7 +202,8 @@ works:
 
     '
   source_file: lutzow_bohemia-historical-sketch_1920.txt
-- work: The Hussite Wars
+- row_id: lutzow_hussite-wars_1914--the-hussite-wars
+  work: The Hussite Wars
   author: lutzow
   locus: whole volume
   role: context
@@ -57,7 +212,8 @@ works:
 
     '
   source_file: lutzow_hussite-wars_1914.txt
-- work: The Life & Times of Master John Hus
+- row_id: lutzow_life-and-times-of-hus_1909--the-life-times-of-master-john-hus
+  work: The Life & Times of Master John Hus
   author: lutzow
   locus: whole volume
   role: context
@@ -68,7 +224,56 @@ works:
 
     '
   source_file: lutzow_life-and-times-of-hus_1909.txt
-- work: Historia Bohemica
+- row_id: palacky_documenta-mag-joannis-hus-lat-ces_1869--documenta-mag-joannis-hus-letters-the-relatio-of-petr-of
+  work: 'Documenta Mag. Joannis Hus: letters, the Relatio of Petr of Mladoňovice and documents
+    of 1403-1418'
+  author: palacky
+  locus: whole volume; the Relatio is headed "Relationis M. Petri de Mladenowic" (Pars prima,
+    Acta ante iter Constantiense, from the Mladenovic manuscript)
+  role: tradition
+  confidence: assigned
+  note: Hus's own letters in the Latin and Czech he wrote, the earliest account of the Constance
+    trial by Petr of Mladoňovice (the Relatio), and the documents of the Bohemian disputes
+    before and during the council. It answers the request for the Latin and Czech originals
+    of the letters and for the Relatio. Palacký's Latin prefaces and notes are the editor's,
+    not Hus's. Primary original evidence for the movement, quotable once each wording is checked
+    against the page image. The Latin reads well (word-form coverage against a clean Latin
+    vocabulary 0.80). The Czech letters keep Palacký's 1869 orthography (w for v) and the
+    OCR drops or misplaces some diacritics (for example pfepustí for přepustí), so check every
+    Czech quotation against the scan.
+  source_file: palacky_documenta-mag-joannis-hus-lat-ces_1869.txt
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873--urkundliche-beitrage-zur-geschichte-des-hussitenkrieges-band
+  work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band I: 1419-1428'
+  author: palacky
+  locus: 'whole volume - Band I: 1419-1428'
+  role: context
+  confidence: provisional
+  note: 'The wars'' own documents for 1419-1428, in Latin, Czech and German, from many hands
+    (Hussite, Taborite, Catholic and royal). The Latin includes replies about the four articles,
+    for example Bishop Fernandus''s response to the four articles in volume 1. The German
+    headings are Palacký''s; the documents are printed in the original languages. Primary
+    original documents, quotable once each is checked against the page image: the Latin and
+    German read legibly (word-form coverage against a clean Latin vocabulary 0.54, lowered
+    by the German and Czech), with occasional letter-level misreads. Documents are by many
+    writers and are not one voice; the editor''s German summaries are Palacký''s.'
+  source_file: palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873.txt
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873--urkundliche-beitrage-zur-geschichte-des-hussitenkrieges-band
+  work: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band II: 1429-1436'
+  author: palacky
+  locus: 'whole volume - Band II: 1429-1436'
+  role: context
+  confidence: provisional
+  note: 'The wars'' own documents for 1429-1436, in Latin, Czech and German, from many hands
+    (Hussite, Taborite, Catholic and royal). The Latin includes replies about the four articles,
+    for example Bishop Fernandus''s response to the four articles in volume 1. The German
+    headings are Palacký''s; the documents are printed in the original languages. Primary
+    original documents, quotable once each is checked against the page image: the Latin and
+    German read legibly (word-form coverage against a clean Latin vocabulary 0.54, lowered
+    by the German and Czech), with occasional letter-level misreads. Documents are by many
+    writers and are not one voice; the editor''s German summaries are Palacký''s.'
+  source_file: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873.txt
+- row_id: piccolomini_historia-bohemica-lat_1592--historia-bohemica
+  work: Historia Bohemica
   author: piccolomini
   locus: whole volume
   role: context
@@ -83,7 +288,23 @@ works:
 
     '
   source_file: piccolomini_historia-bohemica-lat_1592.txt
-- work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
+- row_id: piccolomini_historia-bohemica-lat_1524--historia-bohemica-cologne-1524-printing
+  work: Historia Bohemica (Cologne, 1524 printing)
+  author: piccolomini
+  locus: whole text
+  role: context
+  confidence: provisional
+  note: 'Aeneas Silvius''s Latin history of Bohemia, from the Catholic humanist outside the
+    movement, in a second printing. It has no interleaved marginal notes and keeps the long
+    s as ſ, which the quote gate normalises, but its OCR has more letter-level noise than
+    the 1592 printing. Second witness for now, not yet quotable: the printing is complete
+    and free of interleaved marginal notes and keeps the long s as ſ, but the OCR misreads
+    many letters within words (for example de read as dc and nati as nai; word-form coverage
+    against a clean Latin vocabulary 0.60, about the same as the 1592 printing). It does not
+    by itself supply a clean witness; check every wording against the page image.'
+  source_file: piccolomini_historia-bohemica-lat_1524.txt
+- row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren
+  work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
   author: unity-of-the-brethren
   locus: whole volume
   role: context
@@ -100,3 +321,34 @@ works:
 
     '
   source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--the-bohemian-brethren-s-latin-confession-to-king-vladislav
+  work: The Bohemian Brethren's Latin Confession to King Vladislav (in the Fasciculus)
+  author: unity-of-the-brethren
+  locus: running head "Ad Vladislaum Hung. Reg. missa", volume page 163, opening "Omnem videlicet
+    fidei veritatem"
+  role: tradition
+  confidence: provisional
+  note: 'The Brethren''s own Latin confession of faith to their king, printed in this collection.
+    Whether it is the 1504 Confession or the 1508 text is not settled by the volume''s headings
+    and needs a check against the Unity''s own editions before either date is used. Second
+    witness for now, not quotable: a 1690 print with the long s read as f, italic and roman
+    confused, and stray glyphs (for example Lcttorcm for Lectorem). The Confession is readable
+    in outline. Check every wording against the page image; the earlier Cologne printing of
+    1535 is a separate item on Internet Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
+  source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
+- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2
+  work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and
+    Taborite sections
+  author: van-braght
+  locus: file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived'
+    and the sections on the Taborites (lines 47499-47566)
+  role: context
+  confidence: provisional
+  note: 'A Dutch Mennonite martyrologist''s 1660 account, in the 1886 English edition, of
+    Hus and of the Taborites (it calls them Waldenses). It reaches this world at three removes
+    and from an Anabaptist point of view, and it includes a "Taborite confession of 1431"
+    whose own source is not vendored. Not Hussite voice; a witness to how a later movement
+    read them.
+
+    '
+  source_file: van-braght_martyrs-mirror_sohm1886.txt

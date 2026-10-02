@@ -4,7 +4,8 @@
 source_file: augustine_de-opere-monachorum-lat_zycha1900-csel41-tei.txt
 
 assignments:
-  - work: "Of the Work of Monks (De Opere Monachorum), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_de-opere-monachorum-lat_zycha1900-csel41-tei--of-the-work-of-monks-de-opere-monachorum-csel-41-latin-text
+    work: "Of the Work of Monks (De Opere Monachorum), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 110 (first paragraph of the TEI body, opening 'Iussioni tuae, sancte frater'); printed heading 'XI. DE OPERE MONACHORVM.' at file line 107; CSEL 41 work XI, printed pp. 529-596"
     atlas_ids:

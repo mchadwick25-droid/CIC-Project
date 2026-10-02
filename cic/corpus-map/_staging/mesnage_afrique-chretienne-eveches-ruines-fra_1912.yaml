@@ -2,7 +2,8 @@
 source_file: mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt
 
 assignments:
-  - work: "L'Afrique chretienne: eveches et ruines antiques (Mesnage, 1912)"
+  - row_id: mesnage_afrique-chretienne-eveches-ruines-fra_1912--l-afrique-chretienne-eveches-et-ruines-antiques-mesnage-1912
+    work: "L'Afrique chretienne: eveches et ruines antiques (Mesnage, 1912)"
     author: mesnage
     locus: "whole file; title page at file line 22"
     atlas_ids:

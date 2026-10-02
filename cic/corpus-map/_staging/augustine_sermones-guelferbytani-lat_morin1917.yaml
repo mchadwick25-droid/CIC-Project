@@ -11,7 +11,8 @@ authors_ruled:
       one codex, with no author given per tractatus; the slug names the work group.
 
 assignments:
-  - work: "Sermones Guelferbytani, thirty-three tractatus from codex Guelferbytanus 4096 (Morin 1917)"
+  - row_id: augustine_sermones-guelferbytani-lat_morin1917--sermones-guelferbytani-thirty-three-tractatus-from-codex
+    work: "Sermones Guelferbytani, thirty-three tractatus from codex Guelferbytanus 4096 (Morin 1917)"
     author: augustine
     locus: "file line 1775 ('SANCTI AVRELI AVGVSTINI TRACTATVS TRIQINTA TRES IN CODICE GVELFERBYTANO NVPER REPERTI')"
     atlas_ids:
@@ -27,7 +28,8 @@ assignments:
       ascribes the thirty-three tractatus to Augustine; Morin's own commentary marks which are genuine
       and which are not, so the confidence is provisional. No English translation is vendored.
 
-  - work: "Tractatus novem from codex Guelferbytanus 4096 (Optatus of Milevis, Quodvultdeus of Carthage and others of Augustine's school, Morin 1917)"
+  - row_id: augustine_sermones-guelferbytani-lat_morin1917--tractatus-novem-from-codex-guelferbytanus-4096-optatus-of
+    work: "Tractatus novem from codex Guelferbytanus 4096 (Optatus of Milevis, Quodvultdeus of Carthage and others of Augustine's school, Morin 1917)"
     author: guelferbytanus-tractatus-novem
     locus: "file line 10303 ('SS. OPTATI MILEVITANI QVODVVLTDEI CARTHAGINIENSIS EPISCOPORVM ALIORVMQVE EX AVGVSTINI SCHOLA TRACTATVS NOVEM')"
     atlas_ids:

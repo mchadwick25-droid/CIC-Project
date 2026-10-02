@@ -1,7 +1,8 @@
 source_file: euchologion-to-mega_second-edition-grc_zerbos1862.txt
 
 assignments:
-  - work: "Euchologion to mega (the Great Euchologion), Venice second edition, Greek"
+  - row_id: euchologion-to-mega_second-edition-grc_zerbos1862--euchologion-to-mega-the-great-euchologion-venice-second
+    work: "Euchologion to mega (the Great Euchologion), Venice second edition, Greek"
     author: euchologion-to-mega
     locus: "title page at about file line 623-655 (Zerbos's edition, Venice 1862); the rites follow"
     atlas_ids:
@@ -13,7 +14,8 @@ assignments:
       the orders of ordination and other services. A late printed witness to rites that were
       in use across the Ottoman period, not a text of the world's own century. Second witness:
       accents partly garbled.
-  - work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
+  - row_id: euchologion-to-mega_second-edition-grc_zerbos1862--euchologion-to-mega-the-great-euchologion-venice-second-2
+    work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
     author: euchologion-to-mega
     locus: title page at about file line 623-655 (Zerbos's edition, Venice 1862); the rites follow
     atlas_ids:

@@ -2,7 +2,8 @@
 source_file: dales_theologie-de-saint-cyprien-fra_1922.txt
 
 assignments:
-  - work: "La Theologie de saint Cyprien (d'Ales, 1922)"
+  - row_id: dales_theologie-de-saint-cyprien-fra_1922--la-theologie-de-saint-cyprien-d-ales-1922
+    work: "La Theologie de saint Cyprien (d'Ales, 1922)"
     author: dales
     locus: "whole file; title page at file line 88"
     atlas_ids:

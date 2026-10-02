@@ -1,7 +1,8 @@
 source_file: smith-thomas_account-of-the-greek-church_1680.txt
 
 assignments:
-  - work: "An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account of the Greek church under Cyrillus Lucaris"
+  - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites
+    work: "An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account of the Greek church under Cyrillus Lucaris"
     author: smith-thomas
     locus: "whole text; the Lucaris section under running heads 'The State of the Greek Church' from about file line 12798"
     atlas_ids:
@@ -12,7 +13,8 @@ assignments:
       An Oxford divine's outside description of Greek doctrine and worship with a life of
       Lucaris. Second witness only; better OCR than Rycaut (about 87 percent of text lines
       mostly real words) but check any quotation against page images.
-  - work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account of the
+  - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites-2
+    work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account of the
       Greek church under Cyrillus Lucaris
     author: smith-thomas
     locus: whole text; the Lucaris section under running heads 'The State of the Greek Church' from about

@@ -3,7 +3,8 @@
 source_file: cyprian_de-opere-et-eleemosynis-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "De Opere et Eleemosynis, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_de-opere-et-eleemosynis-lat_hartel1868-csel3-tei--de-opere-et-eleemosynis-csel-3-latin-text-tei
+    work: "De Opere et Eleemosynis, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 107 (first text of the TEI body, opening 'Multa et magna sunt, fratres carissimi'); urn:cts:latinLit:stoa0104a.stoa009.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 13449-14288"
     atlas_ids:

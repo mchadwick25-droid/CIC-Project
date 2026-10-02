@@ -4,7 +4,8 @@
 source_file: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt
 
 assignments:
-  - work: "The Shows (De Spectaculis)"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--the-shows-de-spectaculis
+    work: "The Shows (De Spectaculis)"
     author: tertullian
     locus: "file line 565 (heading 'DE SPECTACVLIS.', treatise I of the volume's Index)"
     atlas_ids:
@@ -19,7 +20,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "On Idolatry"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-idolatry
+    work: "On Idolatry"
     author: tertullian
     locus: "file line 2166 (heading 'DE IDOLOLATRIA.', treatise II)"
     atlas_ids:
@@ -34,7 +36,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "Ad Nationes"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--ad-nationes
+    work: "Ad Nationes"
     author: tertullian
     locus: "file line 3697 (heading 'AD NATIONES LIBRI DVO.', treatise III)"
     atlas_ids:
@@ -49,7 +52,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "The Soul's Testimony"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--the-soul-s-testimony
+    work: "The Soul's Testimony"
     author: tertullian
     locus: "file line 8012 (heading 'DE TESTIMONIO ANIMAE.', treatise IV)"
     atlas_ids:
@@ -64,7 +68,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "Scorpiace"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--scorpiace
+    work: "Scorpiace"
     author: tertullian
     locus: "file line 8516 (heading 'SCORPIACE.', treatise V)"
     atlas_ids:
@@ -79,7 +84,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "On Prayer"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-prayer
+    work: "On Prayer"
     author: tertullian
     locus: "file line 10348 (heading 'DE ORATIONE.', treatise VI)"
     atlas_ids:
@@ -94,7 +100,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "On Baptism"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-baptism
+    work: "On Baptism"
     author: tertullian
     locus: "file line 11486 (heading 'DE BAPTISMO.', treatise VII)"
     atlas_ids:
@@ -109,7 +116,8 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "On Modesty (De Pudicitia)"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-modesty-de-pudicitia
+    work: "On Modesty (De Pudicitia)"
     author: tertullian
     locus: "file line 12447 (heading 'DE PVDICITIA.', treatise VIII)"
     atlas_ids:
@@ -127,7 +135,8 @@ assignments:
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
 
-  - work: "On Fasting, in Opposition to the Psychics (De Jejunio)"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-fasting-in-opposition-to-the-psychics-de-jejunio
+    work: "On Fasting, in Opposition to the Psychics (De Jejunio)"
     author: tertullian
     locus: "file line 15475 (heading 'DE IEIVNIO ADVERSVS PSYCHICOS.', treatise IX)"
     atlas_ids:
@@ -145,7 +154,8 @@ assignments:
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
 
-  - work: "A Treatise on the Soul (De Anima)"
+  - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--a-treatise-on-the-soul-de-anima
+    work: "A Treatise on the Soul (De Anima)"
     author: tertullian
     locus: "file line 16764 (heading 'DE ANIMA.', treatise X)"
     atlas_ids:

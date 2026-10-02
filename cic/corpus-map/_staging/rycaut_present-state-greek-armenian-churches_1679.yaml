@@ -1,7 +1,8 @@
 source_file: rycaut_present-state-greek-armenian-churches_1679.txt
 
 assignments:
-  - work: "The Present State of the Greek and Armenian Churches, Anno Christi 1678"
+  - row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno
+    work: "The Present State of the Greek and Armenian Churches, Anno Christi 1678"
     author: rycaut
     locus: "title pages at about file lines 185-195 and 16607; the chapters from line 1297"
     atlas_ids:
@@ -12,7 +13,8 @@ assignments:
       An English diplomat's outside account of the Greek and Armenian churches. Second witness
       only: the OCR is uneven (about 78 percent of text lines are mostly real words) and the
       opening pages are noise. Check any quotation against page images.
-  - work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
+  - row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno-2
+    work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
     author: rycaut
     locus: title pages at about file lines 185-195 and 16607; the chapters from line 1297
     atlas_ids:

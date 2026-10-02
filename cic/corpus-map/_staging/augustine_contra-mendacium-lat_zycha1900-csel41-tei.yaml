@@ -4,7 +4,8 @@
 source_file: augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt
 
 assignments:
-  - work: "Against Lying (Contra Mendacium), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_contra-mendacium-lat_zycha1900-csel41-tei--against-lying-contra-mendacium-csel-41-latin-text-tei
+    work: "Against Lying (Contra Mendacium), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 109 (first paragraph of the TEI body, opening 'Multa mihi legenda misisti,'); printed heading 'X. AD CONSENTIVM CONTRA MENDACIVM.' at file line 106; CSEL 41 work X, printed pp. 467-528"
     atlas_ids:
@@ -24,7 +25,8 @@ assignments:
       manuscript sigla. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
       Mirrors the English twin's role and confidence exactly.
 
-  - work: "Against Lying (Contra Mendacium), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_contra-mendacium-lat_zycha1900-csel41-tei--against-lying-contra-mendacium-csel-41-latin-text-tei-2
+    work: "Against Lying (Contra Mendacium), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 109 (first paragraph of the TEI body, opening 'Multa mihi legenda misisti,'); printed heading 'X. AD CONSENTIVM CONTRA MENDACIVM.' at file line 106; CSEL 41 work X, printed pp. 467-528"
     atlas_ids:

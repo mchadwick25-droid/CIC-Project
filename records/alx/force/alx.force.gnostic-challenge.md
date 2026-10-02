@@ -28,11 +28,7 @@ relations:
   target: alx.gravity.learning-community-tension
 name: The Gnostic Challenge, c. 150-300 [2A - ongoing/external]
 kind: ongoing
-description: 'Valentinian and Basilidean movements shared the school tradition''s formal features - teachers,
-  sophisticated Scripture engagement, gnosis claims - and were its most sustained early/mid boundary challenge.
-  In the world''s own experience: rivals who spoke the same words and meant something the community could
-  not accept - a knowing for a secret few, a rejecting of the body and its Maker; the nearness was the
-  danger. Pressed the ecology into a positive account of formation available to ALL.'
+description: 'Valentinian and Basilidean movements shared the school tradition''s formal features. They had teachers. They read Scripture with skill. They made gnosis claims. They were its most sustained early and mid boundary challenge. These rivals spoke the same words. They meant something the community could not accept. They offered a knowing for a secret few. They rejected the body and its Maker. The nearness was the danger. The challenge pushed the ecology toward a positive account of formation. That account was open to ALL.'
 manifestations:
 - Clement's 'true gnostic' as the counter-claim (knowledge for all who will be formed, not an elite)
 - the boundary vocabulary (gnosis reclaimed; flesh/body distinctions)

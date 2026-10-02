@@ -5,7 +5,8 @@ source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
 # Translator's Preface, the Subject Index, and the Indexes.
 
 assignments:
-  - work: "City of God"
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--city-of-god
+    work: "City of God"
     author: augustine
     locus: "div1 4 — City of God (Books I-XXII)"
     atlas_ids:
@@ -19,7 +20,8 @@ assignments:
       bucket and the Platonist engagement is Augustine's, not Alexandria's —
       this restraint follows a deliberate per-work framing.
 
-  - work: "City of God"
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--city-of-god-2
+    work: "City of God"
     author: augustine
     locus: "div1 4 — City of God, esp. Books I-V and XIX"
     atlas_ids:
@@ -35,7 +37,8 @@ assignments:
       Rome-Constantinople-Milan imperial church; it is evidence for ijc's
       themes rather than a work from inside it.
 
-  - work: "On Christian Doctrine"
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine
+    work: "On Christian Doctrine"
     author: augustine
     locus: "div1 5 — On Christian Doctrine (Books I-IV)"
     atlas_ids:
@@ -47,7 +50,8 @@ assignments:
       on Christian eloquence — congregational teaching practice itself, the
       core of the pastoral entry. No second entry suggests itself.
 
-  - work: "On Christian Doctrine, Book III, chs. 30-37 (\"The Rules of Tichonius the Donatist Examined\")"
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine-book-iii-chs-30-37-the-rules-of
+    work: "On Christian Doctrine, Book III, chs. 30-37 (\"The Rules of Tichonius the Donatist Examined\")"
     author: augustine
     locus: "div1 5 — Book III, Chapter 30 (v.vi.xxx) through Chapter 37, at file lines ~53014-54200"
     atlas_ids:

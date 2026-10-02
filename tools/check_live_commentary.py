@@ -363,6 +363,64 @@ _BARE_DATE_HEADER_LINE = re.compile(
 # match - only a bare, quote-wrapped date and nothing else as the value.
 _STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d-\d\d-\d\d[\"']")
 
+# A Source Registry keeps a per-row date. Its Template's entry schema has an
+# `Added` field ("Date and who/what added it"), and Framework V7.4 Step 2 has
+# every source row carry `discovery_channel`, `discovery_instrument` and
+# `discovery_date`; a world's Registry may lay those out as an `Added` column
+# and a `Discovery (channel / instrument / date)` column. Neither document
+# requires an ISO date, so the exemption follows the table's own header row.
+# In a `Source_Registry.md` or `<code>_Source_Registry.md` table, an ISO date
+# is not narration only inside a cell whose column header is `Added` or names a
+# discovery or date column. Every other cell, and every other cue anywhere
+# (review history in a Discovery cell included), keeps its classification.
+_DATE_COLUMN_HEADER = re.compile(r"^(?:added|discover(?:y|ed)\b.*|date\b.*)$", re.IGNORECASE)
+_ISO_DATE = re.compile(r"20\d\d-\d\d-\d\d")
+_TABLE_SEPARATOR = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)*\|?\s*$")
+
+
+def _table_cells(line: str) -> list[str]:
+    body = line.strip()
+    if body.startswith("|"):
+        body = body[1:]
+    if body.endswith("|"):
+        body = body[:-1]
+    return [c.strip() for c in body.split("|")]
+
+
+def _source_registry_date_lines(raw_lines: list[str]) -> tuple[set[int], set[int]]:
+    """(rows whose every ISO date sits in a column headed `Added` or a
+    discovery/date column of that table's own header row, rows of a table that
+    has a recognisable header row at all). A table with a header is judged by
+    its columns alone; only a table with none falls back to the cell-shape rule
+    below."""
+    out: set[int] = set()
+    with_header: set[int] = set()
+    header: list[bool] | None = None
+    last_header: list[bool] = []  # a table continued after a prose paragraph has no header row of its own
+    for i, line in enumerate(raw_lines, start=1):
+        if not line.lstrip().startswith("|"):
+            header = None
+            continue
+        nxt = raw_lines[i] if i < len(raw_lines) else ""
+        if header is None:
+            if _TABLE_SEPARATOR.match(nxt):
+                header = last_header = [bool(_DATE_COLUMN_HEADER.match(re.sub(r"[*`_]", "", c).strip())) for c in _table_cells(line)]
+                continue
+            if len(_table_cells(line)) != len(last_header):
+                header = []
+                continue
+            header = last_header
+        if _TABLE_SEPARATOR.match(line):
+            continue
+        if header:
+            with_header.add(i)
+        cells = _table_cells(line)
+        dated = [n for n, cell in enumerate(cells) if _ISO_DATE.search(cell)]
+        if dated and all(n < len(header) and header[n] for n in dated):
+            out.add(i)
+    return out, with_header
+
+
 # A markdown table row (2+ `|` cells) whose every ISO-date occurrence sits
 # inside its own cell that is otherwise just a short provenance fragment -
 # a bare date, or a short channel/label phrase plus a date ("web search,
@@ -1262,6 +1320,8 @@ def classify_line(
     matched: list[str],
     in_source_record_body: bool = False,
     in_source_registry_file: bool = False,
+    date_in_provenance_cell: bool = False,
+    table_has_header: bool = False,
 ) -> str:
     if _route_cue(line, in_source_registry_file):
         return "ROUTE"
@@ -1280,9 +1340,10 @@ def classify_line(
                 _BARE_DATE_LINE.match(line)
                 or _BARE_DATE_HEADER_LINE.match(line)
                 or _STRUCTURED_DATE_KWARG.search(line)
+                or date_in_provenance_cell
                 or _iso_date_only_in_filenames(line)
                 or _VERIFIED_BY_FIELD.match(line)
-                or _iso_date_is_bare_table_provenance(line, in_source_registry_file)
+                or _iso_date_is_bare_table_provenance(line, in_source_registry_file and not table_has_header)
             )
         )
     ]
@@ -1430,6 +1491,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     raw_lines = text.splitlines()
 
     in_source_registry_file = bool(_SOURCE_REGISTRY_FILENAME.search(rel.name))
+    provenance_date_lines, headed_table_lines = _source_registry_date_lines(raw_lines) if in_source_registry_file else (set(), set())
     protected_field_lines: set[int] = set()
     spoken_field_lines: set[int] = set()
     source_record_body_lines: set[int] = set()
@@ -1479,7 +1541,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         if is_protected(rel, i, protected_field_lines):
             category = "PROTECTED"
         else:
-            category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file)
+            category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file, i in provenance_date_lines, i in headed_table_lines)
             category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
             category = _method_vocabulary_category(rel, line, matched, category)
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))

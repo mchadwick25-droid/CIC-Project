@@ -4,7 +4,8 @@
 source_file: augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt
 
 assignments:
-  - work: "On the Christian Combat (De Agone Christiano), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_de-agone-christiano-lat_zycha1900-csel41-tei--on-the-christian-combat-de-agone-christiano-csel-41-latin
+    work: "On the Christian Combat (De Agone Christiano), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 109 (first paragraph of the TEI body, opening 'Corona uictoriae non promittitur'); printed heading 'III. DE AGONE CHRISTIANO.' at file line 106; CSEL 41 work III, printed pp. 99-138"
     atlas_ids:

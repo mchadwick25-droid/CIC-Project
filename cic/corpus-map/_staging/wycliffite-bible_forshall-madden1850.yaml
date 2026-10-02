@@ -1,7 +1,8 @@
 source_file: wycliffite-bible_forshall-madden1850.txt
 
 assignments:
-  - work: "The Wycliffite Bible (complete edition, Earlier and Later Versions)"
+  - row_id: wycliffite-bible_forshall-madden1850--the-wycliffite-bible-complete-edition-earlier-and-later
+    work: "The Wycliffite Bible (complete edition, Earlier and Later Versions)"
     author: wycliffite-bible
     locus: "whole text"
     atlas_ids:

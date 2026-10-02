@@ -2,7 +2,8 @@
 source_file: palladius_lausiac-history_clarke1918.txt
 
 assignments:
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history
+    work: "Lausiac History"
     author: palladius
     locus: "whole work (single-work volume)"
     atlas_ids:
@@ -15,7 +16,8 @@ assignments:
       public-domain English - see WANTS-REGISTER.md, where Evagrius sits at
       value 14 under "no edition exists".
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-2
+    work: "Lausiac History"
     author: palladius
     locus: "Chapters XLVIII-LIV: Elpidius, Sisinnius, Gaddanas, Elias, Sabas,
       Abramius, and the Elder Melania"
@@ -50,7 +52,8 @@ assignments:
       footing as Jerome's Hilarion and Malchus, is a judgement this
       dossier pass is not positioned to make on its own.
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-3
+    work: "Lausiac History"
     author: palladius
     locus: "Chapter IV: Didymus the Blind"
     atlas_ids:
@@ -71,7 +74,8 @@ assignments:
       history). Context, not tradition: an outsider's late testimony
       about the man, not the catechetical tradition's own texts.
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-4
+    work: "Lausiac History"
     author: palladius
     locus: "Chapter XL: Ephraim"
     atlas_ids:
@@ -94,7 +98,8 @@ assignments:
       the same vendored file serves the Alexandria and Desert worlds too;
       only this Ephraim chapter is licensed material for syr.
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-5
+    work: "Lausiac History"
     author: palladius
     locus: >
       Chapters XXXVI (Posidonius on Jerome's temper and the prophecy about

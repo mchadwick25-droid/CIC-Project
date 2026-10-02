@@ -11,7 +11,8 @@ authors_ruled:
     from_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
 
 assignments:
-  - work: "Confessio Christianae fidei (Latin), Cyril Lucaris"
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris
+    work: "Confessio Christianae fidei (Latin), Cyril Lucaris"
     author: lucaris
     locus: "the Confession of Faith from about file line 367 to 2360; publisher's prefaces at lines 39-150"
     atlas_ids:
@@ -23,7 +24,8 @@ assignments:
       1633. Latin only in this OCR: the Greek columns are not recovered, and long s is read as
       f throughout, so second witness and not quotable without a page-image check. Its
       authorship and its relation to the Eastern Church are contested.
-  - work: "Synodal Censures of the Confession of Lucaris, by Cyril of Berrhoea (1639) and Parthenius (1642), Latin"
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--synodal-censures-of-the-confession-of-lucaris-by-cyril-of
+    work: "Synodal Censures of the Confession of Lucaris, by Cyril of Berrhoea (1639) and Parthenius (1642), Latin"
     author: synodal-censures-of-lucaris
     locus: "Censure of Cyril of Berrhoea from about file line 2369; Censure of Parthenius from about line 3419"
     atlas_ids:
@@ -34,7 +36,8 @@ assignments:
       The two Patriarchs of Constantinople's synodal rejections of the Confession, in the
       Latin of this edition. Latin only in this OCR, with the same long-s scan caution; second
       witness.
-  - work: Confessio Christianae fidei (Latin), Cyril Lucaris
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-2
+    work: Confessio Christianae fidei (Latin), Cyril Lucaris
     author: lucaris
     locus: the Confession of Faith from about file line 367 to 2360; publisher's prefaces at lines 39-150
     atlas_ids:

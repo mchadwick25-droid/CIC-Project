@@ -110,7 +110,7 @@ def gather_rows() -> tuple[list, list]:
                 "depends": dependents.get(rid, 0),
                 "kind": classify(record),
                 "author": str(record.get("author") or "").split("(")[0].strip()[:44],
-                "work": str(record.get("work") or "").split(" - ")[0].strip()[:78],
+                "work": re.sub(r"\bR(\d+)\b", r"Source Registry row \1", str(record.get("work") or "").split(" - ")[0].strip())[:78],
             })
     rows.sort(key=lambda r: (-r["depends"], r["world"], r["id"]))
     return rows, worlds

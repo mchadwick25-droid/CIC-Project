@@ -1,7 +1,8 @@
 source_file: horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt
 
 assignments:
-  - work: "Horologion to mega (the Great Horologion), Venice edition, Greek"
+  - row_id: horologion-to-mega_venice-edition-grc_koutloumousianos1851--horologion-to-mega-the-great-horologion-venice-edition-greek
+    work: "Horologion to mega (the Great Horologion), Venice edition, Greek"
     author: horologion-to-mega
     locus: "title page about file lines 166-190; Koutloumousianos's notice to readers at line 207; the Patriarch's reply at about line 763"
     atlas_ids:
@@ -13,7 +14,8 @@ assignments:
       Eastern church and its monasteries. A late printed witness to office books in use across
       the Ottoman period. RIGHTS FLAG: the printed year is not legible in the OCR; see the
       registry row. Second witness: accents partly garbled.
-  - work: Horologion to mega (the Great Horologion), Venice edition, Greek
+  - row_id: horologion-to-mega_venice-edition-grc_koutloumousianos1851--horologion-to-mega-the-great-horologion-venice-edition-greek-2
+    work: Horologion to mega (the Great Horologion), Venice edition, Greek
     author: horologion-to-mega
     locus: title page about file lines 166-190; Koutloumousianos's notice to readers at line 207; the Patriarch's
       reply at about line 763

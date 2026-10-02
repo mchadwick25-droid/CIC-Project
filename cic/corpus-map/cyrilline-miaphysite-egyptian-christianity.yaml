@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrilline-miaphysite-egyptian-christianity
 works:
-- work: The History of Joseph the Carpenter
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter-2
+  work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   role: transmission
@@ -17,7 +18,8 @@ works:
     class is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church is
     why we have it, which is custody rather than a date guess.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Liturgy of S. Mark
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-mark
+  work: Liturgy of S. Mark
   author: liturgy-of-st-mark
   locus: file lines about 2259-3050
   role: context
@@ -29,7 +31,8 @@ works:
 
     '
   source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
-- work: The Divine Liturgy of Mark
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-mark
+  work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark
   locus: div2 12.3
   role: tradition

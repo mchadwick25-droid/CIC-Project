@@ -85,7 +85,7 @@ Round 1 attributed this correctly, to "the Framework." The revision moved the at
 
 **Where:** header line 11 and §8.4, line 152.
 
-**Header:** "…the four sibling Step 0 documents this revision now reads, **including one this world's own Step 0 does not name** but that names this world directly — … and (added this revision, Round 1 finding S13) `Build/World-Builds/Society-of-Jesus/Step0_Movement_Scope_Confirmation.md`."
+**Header:** "…the four sibling Step 0 documents this revision now reads, **including one this world's own Step 0 does not name** but that names this world directly — … and (added this revision, Round 1 finding S13) `Build/worlds/jes/Step0_Movement_Scope_Confirmation.md`."
 
 **§8.4:** "…**this world's own Step 0 (§2 B3) states** the Society was 'founded 1540, a full generation after Luther's own death in 1546'…"
 

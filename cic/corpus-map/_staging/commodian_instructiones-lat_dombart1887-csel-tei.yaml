@@ -4,7 +4,8 @@
 source_file: commodian_instructiones-lat_dombart1887-csel-tei.txt
 
 assignments:
-  - work: "The Instructions of Commodianus (Instructiones)"
+  - row_id: commodian_instructiones-lat_dombart1887-csel-tei--the-instructions-of-commodianus-instructiones
+    work: "The Instructions of Commodianus (Instructiones)"
     author: commodian
     locus: "file line 103 (start of the TEI <body>, Instructiones follow)"
     atlas_ids:

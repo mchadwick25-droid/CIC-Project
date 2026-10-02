@@ -2,7 +2,8 @@
 source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
 
 assignments:
-  - work: "Peregrinatio Aetheriae (Pilgrimage of Etheria)"
+  - row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria
+    work: "Peregrinatio Aetheriae (Pilgrimage of Etheria)"
     author: egeria
     locus: "whole text; the Jerusalem liturgy (Lent, Holy Week, Easter octave, Epiphany, catechumens) from about file line 3800 on; the Abgar letter at Edessa, file lines 3329-3522"
     atlas_ids:
@@ -14,7 +15,8 @@ assignments:
       pilgrim. The queue row that opened this vendoring. English translation only; no Latin
       witness is vendored. The editors' introduction (before about line 3300) is 1919
       scholarship, not Egeria's voice.
-  - work: "Peregrinatio Aetheriae (Pilgrimage of Etheria)"
+  - row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria-2
+    work: "Peregrinatio Aetheriae (Pilgrimage of Etheria)"
     author: egeria
     locus: "Edessa, Haran and the Abgar correspondence, file lines 3329-3522; the shrine of Thecla at Seleucia, about line 3806"
     atlas_ids:
@@ -24,7 +26,8 @@ assignments:
     note: >
       An outside witness to Edessa's own traditions: the bishop shows her the Abgar
       correspondence and the martyrion of Thomas. She is a Latin-speaking visitor, not a member of that church.
-  - work: "Peregrinatio Aetheriae (Pilgrimage of Etheria)"
+  - row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria-3
+    work: "Peregrinatio Aetheriae (Pilgrimage of Etheria)"
     author: egeria
     locus: "her visits to monks in the Thebaid and Sinai; see the editors' introduction near file lines 561 and 1095 for what survives of those sections"
     atlas_ids:

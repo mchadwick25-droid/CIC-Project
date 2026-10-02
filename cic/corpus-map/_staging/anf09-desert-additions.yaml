@@ -1,7 +1,8 @@
 # Desert's unopened-volume sweep.
 source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 assignments:
-- work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
+- row_id: anf09-desert-additions--commentary-on-the-gospel-of-matthew-books-i-ii-and-x-xiv
+  work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
   author: origen
   locus: ch. 30, The Sinning Brother, on Matthew 18:15, at file line 36205
   atlas_ids:

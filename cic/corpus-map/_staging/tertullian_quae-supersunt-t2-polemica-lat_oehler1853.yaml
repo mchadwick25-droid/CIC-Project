@@ -6,7 +6,8 @@
 source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
 
 assignments:
-  - work: "The Prescription Against Heretics"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-prescription-against-heretics
+    work: "The Prescription Against Heretics"
     author: tertullian
     locus: "file line 141 (heading 'DE PRAESCRIPTIONE HAERETICORUM' (title lines))"
     atlas_ids:
@@ -24,7 +25,8 @@ assignments:
       since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
       and confidence exactly.
 
-  - work: "The Prescription Against Heretics"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-prescription-against-heretics-2
+    work: "The Prescription Against Heretics"
     author: tertullian
     locus: "file line 141 (heading 'DE PRAESCRIPTIONE HAERETICORUM' (title lines))"
     atlas_ids:
@@ -41,7 +43,8 @@ assignments:
       since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
       and confidence exactly.
 
-  - work: "The Five Books Against Marcion"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion
+    work: "The Five Books Against Marcion"
     author: tertullian
     locus: "file line 2948 (first heading 'ADVERSUS MARCIONEM')"
     atlas_ids:
@@ -56,7 +59,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "The Five Books Against Marcion"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion-2
+    work: "The Five Books Against Marcion"
     author: tertullian
     locus: "file line 2948 (first heading 'ADVERSUS MARCIONEM')"
     atlas_ids:
@@ -71,7 +75,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "The Five Books Against Marcion"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion-3
+    work: "The Five Books Against Marcion"
     author: tertullian
     locus: "file line 2948 (first heading 'ADVERSUS MARCIONEM')"
     atlas_ids:
@@ -86,7 +91,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "Against Hermogenes"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-hermogenes
+    work: "Against Hermogenes"
     author: tertullian
     locus: "file line 18353 (first heading (OCR 'iDVERSUS HERMOGENEM.'))"
     atlas_ids:
@@ -101,7 +107,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "Against the Valentinians"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-the-valentinians
+    work: "Against the Valentinians"
     author: tertullian
     locus: "file line 21225 (heading 'ADVERSUS VALENTINIANOS.')"
     atlas_ids:
@@ -116,7 +123,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "Against the Valentinians"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-the-valentinians-2
+    work: "Against the Valentinians"
     author: tertullian
     locus: "file line 21225 (heading 'ADVERSUS VALENTINIANOS.')"
     atlas_ids:
@@ -131,7 +139,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "On the Flesh of Christ"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--on-the-flesh-of-christ
+    work: "On the Flesh of Christ"
     author: tertullian
     locus: "file line 24712 (heading 'CARNE CHRISTI.' (the 'DE' is on the line above))"
     atlas_ids:
@@ -149,7 +158,8 @@ assignments:
       since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
       and confidence exactly.
 
-  - work: "On the Flesh of Christ"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--on-the-flesh-of-christ-2
+    work: "On the Flesh of Christ"
     author: tertullian
     locus: "file line 24712 (heading 'CARNE CHRISTI.' (the 'DE' is on the line above))"
     atlas_ids:
@@ -166,7 +176,8 @@ assignments:
       since the later CSEL volumes that carry it are in copyright. Mirrors the English twin's role
       and confidence exactly.
 
-  - work: "On the Resurrection of the Flesh"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--on-the-resurrection-of-the-flesh
+    work: "On the Resurrection of the Flesh"
     author: tertullian
     locus: "file line 27327 (heading 'RESURRECTIONE CARNIS.')"
     atlas_ids:
@@ -181,9 +192,10 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "A Treatise on the Soul (De Anima)"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--a-treatise-on-the-soul-de-anima
+    work: "A Treatise on the Soul (De Anima)"
     author: tertullian
-    locus: "file line 36757 (first apparatus line naming the treatise ('DE ANIMA LIBER'); the treatise heading itself is not caught by grep)"
+    locus: "file line 36757 (first apparatus line naming the treatise ('DE ANIMA LIBER'); grep does not find the treatise heading itself)"
     atlas_ids:
       - latin-apologists
     role: tradition
@@ -196,7 +208,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "Against Praxeas"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-praxeas
+    work: "Against Praxeas"
     author: tertullian
     locus: "file line 43048 (heading 'ADVERSUS PRAXEAN.')"
     atlas_ids:
@@ -211,7 +224,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "Against Praxeas"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-praxeas-2
+    work: "Against Praxeas"
     author: tertullian
     locus: "file line 43048 (heading 'ADVERSUS PRAXEAN.')"
     atlas_ids:
@@ -226,7 +240,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "Against Praxeas"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--against-praxeas-3
+    work: "Against Praxeas"
     author: tertullian
     locus: "file line 43048 (heading 'ADVERSUS PRAXEAN.')"
     atlas_ids:
@@ -241,7 +256,8 @@ assignments:
       6); the English a Representative speaks is rendered from it, with the vendored English as a
       cross-check. Mirrors the English twin's role and confidence exactly.
 
-  - work: "An Answer to the Jews"
+  - row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--an-answer-to-the-jews
+    work: "An Answer to the Jews"
     author: tertullian
     locus: "file line 48907 (first running head 'ADVERSUS IUDAE(' (page 699 of the printed volume; the OCR lost the treatise heading))"
     atlas_ids:

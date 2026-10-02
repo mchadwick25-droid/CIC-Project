@@ -1,7 +1,8 @@
 source_file: duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt
 
 assignments:
-  - work: "Duchesne, Histoire ancienne de l'Eglise, tome 3 (2nd ed., 1910)"
+  - row_id: duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910--duchesne-histoire-ancienne-de-l-eglise-tome-3-2nd-ed-1910
+    work: "Duchesne, Histoire ancienne de l'Eglise, tome 3 (2nd ed., 1910)"
     author: duchesne
     locus: "chapter VIII (Augustinianism) at file line 9564"
     atlas_ids:

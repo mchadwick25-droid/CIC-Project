@@ -4,7 +4,8 @@
 source_file: athenagoras_de-resurrectione-grc_otto1857.txt
 
 assignments:
-  - work: "The Resurrection of the Dead"
+  - row_id: athenagoras_de-resurrectione-grc_otto1857--the-resurrection-of-the-dead
+    work: "The Resurrection of the Dead"
     author: athenagoras
     locus: "file line 97 (TEI <head> of the treatise, Greek chapter 1 follows)"
     atlas_ids:

@@ -1485,12 +1485,44 @@ Logged 2026-09-29 by the Library thread.
 - **`build/` and Docs 03 to 09, not edited.** Anything there that cites row 65's "fourteen acts", row 44's "not read" ground, or row 213's "not yet promoted" wording needs the same correction. Doc_04 line 7 still says the *Gesta* are "not yet drawn on by it". `Source_Acquisition_Manifest.md` lines 29 and 73 still carry the NPNF-apparatus route for Possidius and "fourteen numbered acts"; `lpc_Rep_Phase3_Voice_Construction.md` line 80 still cites `tertullian-s-voice`. `records/lpc/world_core/lpc.core.latin-pastoral-congregational-christianity.md` (lines 258–260, 325–326) repeats "fourteen" acts and "not yet drawn on". Doc_04 §7 Open Item 6 (the 411 *Gesta* read and act 158, closed as a persistence question on 2026-09-15) already carries the act-158 grounds.
 - **Possidius and Doc_01 §2.** `Possidius_Full_Read_2026-09-16.md` reports that Doc_01 §2's claim that popular acclamation does not recur at the same office for both figures is refuted by *Vita* ch. VIII. The read escalated it. This Doc_02 pass does not change Doc_01.
 
-### OG-25. Independent recheck of the Library's fix pass and the lpc correction passes, 2026-09-30: closed items, and what stays open.
+### OG-25. Library pre-Step-3 readiness sweep for `lpc`, 2026-09-29 and 2026-09-30: what it did, what the project lead decided, and what stays open in files the Library does not own. Renumbered from the branch's own OG-23 to OG-25 at the 2026-09-30 merge with `main`, which had already used OG-23 and OG-24; the row numbers in this entry are the merged Registry's (OG-26 lists the old and new numbers).
+
+**Done (Library thread).**
+- The V7.4 field-bibliography sweep OG-20 item one asked for was run: bibliographies opened, the OpenGreekAndLatin `csel-dev` repository probed by path, works enumerated for Cyprian, Augustine's pastoral and congregational works, the Donatist sources and the other North African sources. Method, result, limits and the sandbox blocks are in `Source_Registry.md`'s saturation section. OG-20 item one is discharged, with its limits stated there.
+- 42 files were vendored for `lpc` (25 from the sweep, 17 `csel-dev` TEI files: Cyprian's 15 works and Optatus), the Petschenig file's description was corrected (it holds CSEL 51, 52 and 53), and the CSEL 58 file was retired to `Archive/Retired-Library-Texts/` because the only public scan located on the Internet Archive is a 1961 Johnson Reprint facsimile, excluded on the ground row 197 already states. The Registry had 272 rows on the branch; the merged Registry has 308.
+- The directed corrections from `Review-Artifacts/Doc02_Returned_Review_Independent_Check_2026-09-29.md` were applied and rechecked (`Doc02_Directed_Corrections_Recheck_2026-09-29.md`). The 30-round cap on Doc_02 does not apply to them, by the project lead's ruling of 2026-09-29.
+
+**Decided by the project lead (2026-09-29), each applied in the Registry.** Row 44 at Confidence A (its Licensed-For is confined to CTh XVI.5.21). Row 33 at Confidence B, which discharges OG-20 item two. No row carries a split letter: rows 11 and 14 are narrowed to their verified loci and the whole-work claims sit in new rows 279 and 280 at B. Rows 265, 266 and 268 at B, the rule text unchanged (rows 191 and 193 keep C for OCR, which the rule text does not name). Rows 269 and 270 carry the Cyprianic acts only; the Scillitan and Perpetua acts are rows 281 to 284. Seven authentic Petschenig works are on the `lpc` and Donatism shelves. Every other letter stays.
+
+**Open, to be confirmed.** Row 267 (Morin) holds 33 Native sermons and nine unassessed tractatus; it was narrowed to the 33 and not split, because unassessed acts get no row. The project lead has not been asked whether that reading is right.
+
+**Open, in files the Library does not edit** (owners: the `lpc` build thread and whoever owns `records/lpc`): `Doc_02_Source_Ecology.md` line 120 says no Registry row dates from the 258 to 391 gap, which rows 27, 64 and 300 to 301 (Optatus, 366 to 384) contradict, so how Doc_01's "honest silence" binding coexists with the Optatus rows needs a decision. `Doc_04_Gravity_Discovery.md` line 7 quotes row 65's old "not yet drawn on by it". `Source_Acquisition_Manifest.md` lines 33, 35 to 37, 39, 41, 73, 75 and 81 (branch-relative wording, G4 CSEL 58 reason). `Build/worlds/lpc/scripts/wb_lpc_s21.py` lines 41, 115, 205, 669, 1568, 1669, 1684, 2108 to 2109, 2134, 4367, 4396 to 4399, 4414 to 4418 and 4526 (the generator repeats the old row wording, so regenerating brings it back). Records: `lpc.source.lancel-actes-de-la-conference-de-carthage-411.md` (act 158 counted as a speech, "not yet drawn on", `rights_status: public-domain` for an in-copyright edition), `lpc.limit.411-gesta-unread.md` (`license: public-domain`), `lpc.core.latin-pastoral-congregational-christianity.md` (fourteen acts, "silver fines", `tertullian-s-voice`), `lpc.source.codex-theodosianus-mommsen-meyer.md` (says the content is unread and calls XVI.5.52 a silver schedule; row 44 is now A), `lpc.source.augustine-correction-of-the-donatists.md` (silver wording), `lpc.source.augustine-donatist-correspondence.md` (Letter LIII as Augustine's own, "not yet promoted"), `lpc.witness.apostolic-succession-of-bishops.md` (succession list attributed to Augustine alone), `lpc.source.augustine-answer-to-petilian.md` (locus "Book II SS51"), `lpc.source.burns-jensen-christianity-in-roman-africa.md` (row 33 is now B), `lpc.source.augustine-general-correspondence.md` (row 11 narrowed), `lpc.source.possidius-vita-augustini-standing-reference.md` (says not vendored), `lpc.source.goldbacher-augustine-epistulae-standing-reference.md` (CSEL 58 statement). Also `Representative/lpc_Rep_Phase3_Voice_Construction.md` lines 80 and 92 name the removed `tertullian-s-voice`.
+
+**Open, Library thread.** The Gesta cum Emerito locus in the Petschenig staging file and header (72784) is the text's opening; the work's own heading is at line 72037. Duchesne's scan in the download queue is a reprint whose rights are unsettled. Monceaux tomes IV to VI are vendored (Donatism shelf) and have no Registry rows.
+
+
+**Closed, 2026-09-30.** Row 267 stays unsplit, ruled by the project lead (`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`, 2026-09-30). Still open for the lpc thread: Doc_02 §7 line 120 (the 258–391 silence claim) against Optatus rows 27, 64 and 300.
+
+### OG-26. Collisions between the two library threads' work, found and settled at the 2026-09-30 merge of `main` into the branch, and the points that need the project lead.
+
+Logged 2026-09-30. Two threads ran the field-bibliography sweep on the same sources. `main` took 38 files (Registry rows 214–252); the branch took 25 of the same sweep plus 17 `csel-dev` TEI files (Registry rows 214–272). Nothing was deleted on either side.
+
+- **Registry row numbers collided.** Both sides had numbered their new rows from 214. Numbers merged to `main` do not change, so `main`'s rows 214–252 kept their numbers and the branch's rows were renumbered. Three branch rows describe a file `main` already had a row for (same filename), so they were folded into `main`'s row and keep its number: old 226 into row 220 (Krueger), old 233 into row 225 (Koch), old 238 into row 226 (Benson). The rest follow on from row 253. Old to new: 214–217 to 253–256; 218–225 to 257–264; 227–232 to 265–270; 234–237 to 271–274; 239–272 to 275–308. Every reference to a renumbered row in this Registry, in Doc_02, in the download queue and in the corpus-map notes was changed to the new number. The closed review and audit files of the branch (`Doc02_Directed_Corrections_Recheck_2026-09-29.md`, `Doc02_Registry_Rulings_Recheck_2026-09-30.md`, `lpc_Doc02_Registry_Narration_Moved_2026-09-29.md`, and `LIBRARY-DECISION-LOG.md`) were not edited and still cite the old numbers; read them with this list.
+- **OG numbers collided.** `main` has OG-23 (letter decisions left to the project lead) and OG-24 (open items). The branch's OG-23 is now OG-25. `main`'s OG-23 is answered by OG-25: the project lead decided row 44 at A, row 33 at B and no split letters on 2026-09-29, and the merged Registry applies those rulings. OG-23 is left as written.
+- **Rows edited on both sides.** Both threads rewrote the same Registry rows (1, 6, 11, 13, 14, 27, 29, 39, 40, 44, 45, 56, 61, 64, 65, 67, 78, 88, 89, 90, 99, 192–195, 204, 210, 213 and others) and the same Doc_02 paragraphs. Where the two wordings differed only in style, `main`'s later and plainer wording was kept. Where the branch carried the project lead's rulings (rows 11, 14, 33, 44, 65), the branch's content was kept and `main`'s cleanup of process wording was applied to it. No fact of either side was dropped. The merge itself has no review artifact.
+- **Two scans of Benson.** `main` vendored the University of California scan (`hislifehicyprian00bensrich`); the branch vendored the University of Toronto scan (`cyprianhislifehi00bensuoft`) under the same filename. They are different OCR runs of the same 1897 edition. `main`'s file was kept: its body is a few kilobytes longer, both have all 24 chapters, and `main`'s lpc records verify quotations against it. The Toronto scan is not vendored; its queue row is marked superseded. Registry row 226 was re-checked against `main`'s bytes (title page line 25, contents entry line 416).
+- **Koch, Krueger and Petschenig.** The OCR bodies of the Koch and Krueger files are identical on both sides; only the headers differ. The Petschenig bodies are identical too: the two versions differ in the header only (`main`'s header is 3 lines shorter and gives the title pages and volume bounds; the branch's adds the list of works, the errata line and the note on the spurious appendix). `main`'s files were kept. The branch's line numbers for Petschenig were moved back by 3 to match, in the corpus-map notes and in the Registry note, and each was re-read against the kept file. Its note that Gesta cum Emerito sits at line 72784 (the OG-25 item) is settled: in `main`'s file the work's title page is at line 72034 and the text opens at line 72781.
+- **Same work, different scan, different filename.** Four works are vendored twice under different filenames, from different archive.org items: Audollent's *Carthage romaine* (rows 239 and 277), Mesnage's *L'Afrique chrétienne* (rows 238 and 275), von Soden's paper on the heretic-baptism dispute (rows 224 and 278, the two files differ by about 16 KB) and Gebhardt's *Acta martyrum selecta* (rows 222 and 270). Each filename has its own Registry row and its own corpus-map row. The project lead ruled on 2026-10-01 that both copies of each stay.
+- **Petschenig is registered twice.** `main` has one whole-volume row (214); the branch has eleven per-work rows (253–256 and 302–308). They overlap by design of the two threads. The project lead ruled on 2026-10-01 for the per-work rows, which are easier to cite. Row 214 stays, since no row is deleted, and now points to them.
+- **Letters and confidence.** Where the two sides gave a different letter for the same file (Koch and Benson: B on `main`, C on the branch) or a different corpus-map confidence (`assigned` against `provisional`), the more cautious value was kept: C and `provisional`.
+- **Counts.** The corpus-map census in Doc_02 §1 was recounted on the merged map: 213 raw entries, 168 `tradition`, 166 distinct `tradition` titles in this world's file. The two earlier counts are kept there with their dates.
+
+### OG-27. Independent recheck of the Library's fix pass and the lpc correction passes, 2026-09-30: closed items, and what stays open.
 
 File: `Review-Artifacts/Doc02_Registry_FixPass_Recheck_2026-09-30.md` (Opus 5.5, targeted recheck; 0 P0, 3 P1, 7 P2). All three Round 33 P1s are closed, and every changed claim about a source's text was verified at the vendored file (act 158 a subscription; Theodosian Code XVI.5.21 and XVI.5.52; Letter LIII a joint letter; Petilian Book II chapter 51, section 118; Possidius Vita ch. VIII).
 
 **Open P1.**
-- The corrected 258 to 391 silence claim (OG-54) is still false in seven places, because it says Optatus is "the one" Registry text dated inside the gap. Row 265 holds a document dated 317 to 337; row 26 (Native) holds Carthage canons of 345 to 348 and of 387 or 390; row 202 holds Bruns's text of the Carthage council under Gratus; row 59 is Munier's *Concilia Africae a. 345*. Places: Doc_02 line 120, Doc_05 line 27, Doc_08 lines 23 and 264, the transmission force record, `lpc.limit.the-silent-century.md`, and `wb_lpc_s25.py`. Whether conciliar canons count as a surviving voice under Doc_01 section 5 is a project-lead decision.
+- The corrected 258 to 391 silence claim (OG-55, the silence claim decided against the Optatus rows, 2026-09-30) is still false in seven places, because it says Optatus is "the one" Registry text dated inside the gap. Row 265 holds a document dated 317 to 337; row 26 (Native) holds Carthage canons of 345 to 348 and of 387 or 390; row 202 holds Bruns's text of the Carthage council under Gratus; row 59 is Munier's *Concilia Africae a. 345*. Places: Doc_02 line 120, Doc_05 line 27, Doc_08 lines 23 and 264, the transmission force record, `lpc.limit.the-silent-century.md`, and `wb_lpc_s25.py`. Whether conciliar canons count as a surviving voice under Doc_01 section 5 is a project-lead decision.
 - Row 265 is Excluded as Out-of-Boundary on grounds the Template does not allow (shelf and authorship, not date or place). Options: Native without a licence, or Named Comparandum. Project-lead decision.
 - Re-running the generators would bring back corrected wording: `wb_lpc_s28.py` (line 353 hard-codes public domain for Lancel; line 883 "nothing dated in between"), `wb_lpc_s21.py` (Lancel public-domain, row 11 at A for the whole body, Burns and Jensen at C, Petilian at B), `wb_lpc_s25.py` (replaces the plain spoken text with Layer-form text).
 
@@ -1498,7 +1530,7 @@ File: `Review-Artifacts/Doc02_Registry_FixPass_Recheck_2026-09-30.md` (Opus 5.5,
 
 **Routing.** The silence claim and row 265 wait on the project lead. The generator, row 227, rows 267 to 272, Rep Phase 3, world core and witness items are the lpc build thread's, to fix after that decision.
 
-### OG-26. The `lpc` registry entry created with `safety_adjacent: false`, the fleet audit changed to fit a world that is not yet compiled, and the two waivers that follow, 2026-09-30.
+### OG-28. The `lpc` registry entry created with `safety_adjacent: false`, the fleet audit changed to fit a world that is not yet compiled, and the two waivers that follow, 2026-09-30.
 
 **Decided by the project lead, 2026-09-30.** `safety_adjacent` is `false` for `lpc`, set on the new registry entry (the world file under `records/worlds/`). Evidence: a read-only keyword search of `records/lpc/`, the story and lexicon chunks and Docs 04, 08 and 09 found no suicide or self-harm material; Circumcellions appear only as background source context; the material near distress is historical persecution, grief and penance. Lean validation stays the default; thin evidence, a Contested Primary claim or a fabrication finding still trigger full validation.
 
@@ -1512,9 +1544,9 @@ File: `Review-Artifacts/Doc02_Registry_FixPass_Recheck_2026-09-30.md` (Opus 5.5,
 
 **Not `lpc`'s.** `tools/check_paths.py` reports one new unresolved citation, in `Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md` (a citation to a staging file of the ANF volume 8 corpus-map entry, written with an ellipsis in place of the full name). Flagged for the grkap owner.
 
-### OG-27. The 258 to 391 silence claim has now needed three substantial revisions; escalated to the project lead, 2026-09-30.
+### OG-29. The 258 to 391 silence claim has now needed three substantial revisions; escalated to the project lead, 2026-09-30.
 
-The claim has been corrected three times: the first correction (OG-54), the restatement after the Opus recheck (OG-25), and the restatement checked in `Review-Artifacts/SilenceClaim_Correction_Verification_2026-09-30.md` (0 P0 resolved: 1 P0, 5 P1, 7 P2). The verifier confirmed every source citation and found the restated list still incomplete. Under the review-cycle cap, no fourth restatement is attempted until the project lead decides.
+The claim has been corrected three times: the first correction (OG-55, the silence claim decided against the Optatus rows, 2026-09-30), the restatement after the Opus recheck (OG-27, the independent recheck of 2026-09-30), and the restatement checked in `Review-Artifacts/SilenceClaim_Correction_Verification_2026-09-30.md` (0 P0 resolved: 1 P0, 5 P1, 7 P2). The verifier confirmed every source citation and found the restated list still incomplete. Under the review-cycle cap, no fourth restatement is attempted until the project lead decides.
 
 **P0.** Registry rows 231 and 232 hold the *Passio* of Marianus and Jacobus and the *Passio* of Montanus and Lucius, written after Cyprian's death. Montanus and Lucius is a clergy letter from prison to the congregation ("Et nobis est apud uos certamen, dilectissimi fratres"), names Cyprian as the teacher of the faith ("quam Cypriano docente didicerant") and dates itself after his death ("episcopus noster solus passus fuisset"); both acts date from 259. Neither appears in any `lpc` document or record.
 
@@ -1526,19 +1558,19 @@ The claim has been corrected three times: the first correction (OG-54), the rest
 
 **Independent of the decision (P2), to fix in the same pass.** Optatus dates: only the TEI headers read "fl. 366-385"; the row 27 file and the Ziwsa scan read "c. 366-393". Doc_02's description of rows 26, 59 and 202 is narrower than their Licensed-For cells. "Richly attested through Donatism's own territory" dropped Doc_01's "overwhelmingly". The Theodosian Code locus is quoted with single spaces where the file prints double. Two library leads: Knopf nos. 19 to 22 and 29 (African acts from inside the gap) have no Registry row, and the `lpc` census entry says "the same Hippo congregation" where Cyprian's church was Carthage.
 
-### OG-28. The silence claim closed under the project lead's ruling of 2026-09-30, with the items it leaves open, 2026-09-30.
+### OG-30. The silence claim closed under the project lead's ruling of 2026-09-30, with the items it leaves open, 2026-09-30.
 
 **Closed.** Doc_02 section 7 is the canonical statement, and every copy (Docs 05, 08 and 09, the Gapped Formation Precedent, the force and limit records, the world core, the World Profile, generators `wb_lpc_s21`, `s25` and `s28`) says the same: the texts written at and just after Cyprian's martyrdom (the *Acta Cypriani*, Pontius's *Life* and the two martyr acts of rows 231 and 232) stand at the start of the interval, belong to his phase and do not fill the silence, and no source fixes their order. Verified by `SilenceClaim_Ruling_Verification_2026-09-30.md` and the fixes that followed it. Doc_05 section 7 no longer says the interval's sources are "None". The limit record's locus no longer calls 256 the last dated act. Claims register rows `ffbf9d5d` and `efb28ac4` replace `db01c6d3` and `cc0fa5c1` (UNVERIFIED, to be verified in the register conversion).
 
 **Open.**
-- The seven figure records were rewritten (OG-26 waivers removed, never valid for a new world under the records gate).
+- The seven figure records were rewritten (the waivers of OG-28, the `lpc` registry entry of 2026-09-30, removed, never valid for a new world under the records gate).
 - The force record's `register` is `etic`, as are all 17 `lpc` force records; other worlds' force records are mostly emic, and emic switches on the experimental voice gates. A whole-world decision for the records phase.
 - `regate lpc` reports 54 unchanged public-facing fields that already fail readability at the base, and 4 edited fields below FK 8. To be found and fixed in the records phase.
 - Rep Phase 5 Round 1 line 33 says the Council of Cirta is known only through the rival communion; Optatus narrates it (row 27, dated 305). A finished test record: fix at the next Phase 5 round.
 - The website's `lpc` tree page and its census entry say Augustine preached to the same congregation as Cyprian (Hippo and Carthage); outside `lpc`'s documents, for the owner of `cic-website`.
 - Library leads: Knopf nos. 19 to 22 and 29 (African acts) have no Registry row.
 
-### OG-29. Claims register verification, 2026-09-30: 111 claims checked at source; 53 marked, 58 could not be, and the false ones fall into a few repeated defects.
+### OG-31. Claims register verification, 2026-09-30: 111 claims checked at source; 53 marked, 58 could not be, and the false ones fall into a few repeated defects.
 
 Four independent Opus checks (`Build/Ministry/Operations/Audits/lpc_Claims_Verification_Findings_2026-09-30.md` holds every finding with its evidence and a proposed true wording). Result in `lpc_Claims_Register.md`: 35 VERIFIED, 18 JUDGEMENT, 58 UNVERIFIED (the 58 are claims the check found false, overstated or unsupported, and stay unmarked until the wording is corrected). Nothing has been applied to an approved document.
 
@@ -1556,9 +1588,9 @@ Four independent Opus checks (`Build/Ministry/Operations/Audits/lpc_Claims_Verif
 
 **Needs the project lead.** Corrections to approved Docs 02, 03, 04, 05, 07, 08 and 09 change claims, so they go as one named change order, each verified by a separate agent that sweeps every copy. Defect A reaches Doc_04's premise for G5; the classification (Supporting, on the project lead's ruling) is not proposed to change, but the six tests for G5 are to be rechecked once.
 
-### OG-30. The claims change order and the G5 rulings of the project lead, 2026-09-30: what was decided, applied and reaffirmed.
+### OG-32. The claims change order and the G5 rulings of the project lead, 2026-09-30: what was decided, applied and reaffirmed.
 
-**Change order approved (2026-09-30).** The 58 claims the four source checks found false, overstated or unsupported (OG-29) were corrected in Docs 02, 03, 04, 05, 06, 07, 08 and 09, the World Profile, the Capsule Core, the Gapped Formation Precedent, Representative Phases 1, 2, 3 and 7, the story and lexicon chunks, and 40-odd records and their generators. Each correction was verified at the vendored file by structural marker. Independent verification: `Review-Artifacts/ChangeOrder_Verification_2026-09-30.md` (51 closed, 7 leaning on an unlicensed text, then closed by the two rulings below), `Review-Artifacts/G5_SixTest_Recheck_2026-09-30.md`.
+**Change order approved (2026-09-30).** The 58 claims the four source checks found false, overstated or unsupported (OG-31, the claims register verification of 2026-09-30) were corrected in Docs 02, 03, 04, 05, 06, 07, 08 and 09, the World Profile, the Capsule Core, the Gapped Formation Precedent, Representative Phases 1, 2, 3 and 7, the story and lexicon chunks, and 40-odd records and their generators. Each correction was verified at the vendored file by structural marker. Independent verification: `Review-Artifacts/ChangeOrder_Verification_2026-09-30.md` (51 closed, 7 leaning on an unlicensed text, then closed by the two rulings below), `Review-Artifacts/G5_SixTest_Recheck_2026-09-30.md`.
 
 **G5 rulings.** (1) The strand-singular finding is reaffirmed, and Doc_01 is not reopened: Doc_04 section 3 surfaces evidence Doc_01 had not weighed on that axis (the 256 preface, Epistles LIV, LXXI, LXXIV, LXXV, Letter LIV), and it shows disagreement inside one communion (Candidate 3's shape), not two communities; this answers the condition in Doc_01 section 8's tenth open item (carried in the Doc_01 section 8 entry of 2026-09-30). (2) Doc_04's verdict texts follow the Framework's own tests: G5 Repetition passes; Persistence passes narrowly; Explanatory passes narrowly (Letter LIV); Formation does not clearly pass; Dependency as written. G5 stays Supporting on the project lead's ruling, and Doc_04 now records that Supporting also rests on its own six-test result. G7 (grace) fails as an organizing force, not as a theme (Cyprian states it; Augustine carries it forward). Candidate 6 Repetition names the over-century gap and the 87 bishops of the 256 council (the stated number in the ANF05 editor's note and the Latin title; a count of the speaking paragraphs gives 84). (3) Letter XLIII is struck from the wording (it sits in the Donatist cluster row 11 excludes). (4) Augustine's *Psalmus contra partem Donati* is licensed at Registry row 273, narrowly.
 
@@ -1568,7 +1600,7 @@ Four independent Opus checks (`Build/Ministry/Operations/Audits/lpc_Claims_Verif
 
 **Not applied, by design.** Row 227's Sermones CCLXXX to CCLXXXII (Perpetua) and 309 to 313 (Cyprian) stay unread; Doc_09 records them as a Tier-question candidate, and no story is built from them.
 
-### OG-31. Claims register complete, 2026-09-30; the readings the silence judgements rest on, for the project lead.
+### OG-33. Claims register complete, 2026-09-30; the readings the silence judgements rest on, for the project lead.
 
 `lpc_Claims_Register.md`: 104 claims derived and registered, 0 UNVERIFIED. The final pass was checked by `Review-Artifacts/ClaimsChangeOrder_FinalRecheck_2026-09-30.md` (7 VERIFIED, 14 JUDGEMENT, none unmarked). Findings of all passes: `Build/Ministry/Operations/Audits/lpc_Claims_Verification_Findings_2026-09-30.md`. The old five-column `Doc09_Claims_Register.md` and `scripts/check_claims.py` stay in place as the pattern the register template cites; they are superseded by the new register.
 
@@ -1579,14 +1611,14 @@ Four independent Opus checks (`Build/Ministry/Operations/Audits/lpc_Claims_Verif
 
 **Outside the claims tool.** The transmission force record's line "the one thing of ours that carries it across" is contradicted by its own next sentences; the registered claim "No other force of ours does" is true.
 
-### OG-32. The Source Readiness Dossier's open cross-world questions, carried into this ledger, 2026-09-30.
+### OG-34. The Source Readiness Dossier's open cross-world questions, carried into this ledger, 2026-09-30.
 
 The dossier (`Build/worlds/_cross-world/dossiers/latin-pastoral-congregational-christianity_Source_Readiness_Dossier.md`, section 5) lists four open cross-world questions. This entry carries the two the handoff gate found missing, in the dossier's own words, with their present state. The Hilary-identity question and the Article 3 century-gap question were already carried.
 
 - **Optatus's world placement** — currently `provisional` in this world's own corpus-map, self-flagged as inferred from region and date alone ("Mark may prefer another Latin home for a Numidian polemicist"). The world's own Step 0 (section 4 item 2a) names three live options: re-home to Donatism, hold here as the Catholic-side tradition, or double-place, the way the Council of Carthage under Cyprian already is. Present state: Optatus is held here as Native (Registry rows 27, 64 and 264, `role: tradition`, and `role: context` on the Donatism shelf, so in effect double-placed), drawn on for no claim, and the placement is still the project lead's question. The Petschenig and Ziwsa Latin critical editions are linked to rows 27 and 264 without settling it.
 - **A resolved item, noted so nobody re-opens it:** the world's own Step 0 surfaced and, with the project lead's direct authorization, fixed a genuine boundary breach in the already-built Imperial and Juridical Christianity world's own records (two load-bearing quote records citing *Confessions* material outside IJC's own declared license). Logged in full at `Build/worlds/ijc/Open_Gaps_Tracking.md`, the boundary-breach entry on `ijc.source.augustine-confessions` (fixed 2026-09-01); mentioned here only for cross-reference, not reopened.
 
-### OG-33. Doc_01 section 8, open items carried forward: present status of each, checked 2026-09-30.
+### OG-35. Doc_01 section 8, open items carried forward: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1602,7 +1634,7 @@ Each item is quoted from `Build/worlds/lpc/Doc_01_World_Identification_Boundarie
 - **Line 181:** "**Step 0's own now-inaccurate disclosures, a record-correction item rather than a live construction question (§5 above) — three now-false statements, not one.** This world's own cleared Step 0 states, as binding disclosure, that Donatism's own Step 0 reads the portfolio entry's "not the schism-crisis angle" parenthetical as qualifying both anchor figures together. On the sibling branch's current, corrected, and cleared state, none of the three statements carrying that claim is still true: (a) §3 B3 and §4 item 2(e) state the general claim; (b) §2 A5, the fullest and most specific of the three, additionally quotes Donatism's draft directly for it — "Cyprian and Augustine's ordinary pastoral office and sacramental care" — words no longer present anywhere in Donatism's own Step 0; (c) §2 A5 further states that Donatism "makes that reading binding on its own Doc_01 (its §4 item 4)" — also no longer true, since Donatism's own Step 0 §4 item 4 now binds the Coach3 axis to its own Doc_01, not the parenthetical reading. This document does not reopen its own Step 0 to fix any of the three — not because the build thread lacks the write access (Step 0 sits inside this world's own build folder, within this thread's scope), but because Step 0 is a separately cleared document with its own disposition, and amending a cleared document is a different act from discharging Doc_01's obligations; [...]" **Status: Open.** Step0_Movement_Scope_Confirmation.md still contains all three quoted statements (checked on disk, section 2 A5, including the quoted words about ordinary pastoral office and sacramental care and the words 'makes that reading binding'). Step 0 has not been amended; the correction awaits a separate act on that cleared document or the branch merge. (2026-09-30)
 - **Line 182:** "**Why this document declines to gloss "orthogonality to state power," named here for whoever next relies on the World #6 boundary this document states (§7 above; §9 below).** The portfolio-level Step 0 Conclusion's "orthogonality to state power" clause is a screening-level compression written before this world's own construction began. This document does not certify what it means, per the project-lead instruction on method recorded and quoted verbatim at lpc_Decision_Log.md (2026-09-01 entry): report what the sources document rather than resolve them into a single reading for the sake of a tidy portfolio-level fit. What §7 reports instead is the actual, textured arc: on the evidence this document has examined, Cyprian never solicits state power; Augustine's own relationship to it develops across three phases, not two — an early opinion, by his own retrospective account, against any coercion; a real but narrow solicitation of legal protection, argued, but in the event not granted, early in his own episcopate, at a council NPNF's editorial note dates 401 (Letter 185 §25); and, later, a sustained defense of broader compulsion, after an argued change of position he records in his own words (Letter XCIII §17, a.d. 408). Whoever next builds on this document's World #6 boundary section should carry that three-phase sequence forward, not a single static label and not a two-phase compression. [...]" **Status: Closed.** A standing record of the considered account, with no action pending; it stays open to correction only by re-examination of the sources. The method instruction of 2026-09-01 is indexed in the ledger's dated project-lead decisions. (2026-09-30)
 
-### OG-34. Doc_02 section 9, open items and handoffs: present status of each, checked 2026-09-30.
+### OG-36. Doc_02 section 9, open items and handoffs: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Doc_02_Source_Ecology.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1623,7 +1655,7 @@ Each item is quoted from `Build/worlds/lpc/Doc_02_Source_Ecology.md` and given i
 - **Line 145:** "Item 4 (the corpus map as required-but-not-sufficient input, including the Augustine–Jerome correspondence's own deliberate double-placement) — discharged, §1 above and Registry row 10, which states the double placement explicitly per item 4's own instruction." **Status: Closed.** Discharged in Doc_02 section 1 and Source_Registry row 10. (2026-09-30)
 - **Line 146:** "Item 5 (Tertullian disclosure at Doc_02's own Author Gravity work) — discharged, §2 above and Registry row 5." **Status: Closed.** Discharged in Doc_02 section 2 and Source_Registry row 5. (2026-09-30)
 
-### OG-35. Doc_04 section 7, open items carried forward: present status of each, checked 2026-09-30.
+### OG-37. Doc_04 section 7, open items carried forward: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Doc_04_Gravity_Discovery.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1636,7 +1668,7 @@ Each item is quoted from `Build/worlds/lpc/Doc_04_Gravity_Discovery.md` and give
 - **Line 213:** "**Closed 2026-09-14.** Candidate 5's classification, escalated to the project lead under CO-022 category 4 on 2026-09-13, is ruled **Supporting**. Round 2's own escalation assessment held that no category applied and the matter could close inside the pipeline; that disagreement is recorded rather than resolved in favour of the outcome." **Status: Closed.** Closed 2026-09-14: Candidate 5 ruled Supporting by the project lead. (2026-09-30)
 - **Line 214:** "**CLOSED, 2026-09-15, on the gapped-formation precedent handed to this build thread by the project lead** (lpc_Gapped_Formation_Precedent.md §4b). **This item is a sixth attempt at a cleaner classification for Candidate 5**, after five supersessions across nine rounds and the project lead's ruling. The precedent names that pattern and its remedy: *"Treat five consecutive re-classifications of the same candidate as itself the signal to stop and accept the narrower finding."* **Candidate 5 is Supporting, and honestly thin, and that is the answer rather than a puzzle with a cleaner solution outstanding.** Supporting rests on the candidate's own six-test result (Repetition passes, Persistence passes narrowly, Formation does not clearly pass, Dependency passes narrowly, Explanatory passes narrowly) as well as on the ruling. The argument below is recorded, not pursued. Originally raised by Doc04_Round9_Review.md. That review holds that a determinate Framework classification for Candidate 5 is reachable from this document's own premises, on the argument that Primary is excluded at §3, that Tensional is excluded, and that all three of the candidate's demonstrated relations in §6 being with Primary candidates is Supporting's own second clause. [...]" **Status: Closed.** Closed 2026-09-15 on the gapped-formation precedent; Candidate 5 is Supporting and thin, and the argument is recorded, not pursued. (2026-09-30)
 
-### OG-36. Doc_05 section 11, open items and handoff: present status of each, checked 2026-09-30.
+### OG-38. Doc_05 section 11, open items and handoff: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Doc_05_Ecological_Reconstruction.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1659,7 +1691,7 @@ Each item is quoted from `Build/worlds/lpc/Doc_05_Ecological_Reconstruction.md` 
 - **Line 384:** "L3B Construction Framework V7.4 | Part VII, Step 5 forces line | **Boundary Ecology**" **Status: Open in part.** A row of the Doc_05 table of term use across the governing texts; it is evidence for the preceding item, with the same status: ruled for this world on 2026-09-14, inconsistency in the governing texts open at portfolio level. (2026-09-30)
 - **Line 385:** "L3B Construction Framework V7.4 | Part VII, naming CiC's own additions | **Boundary Structures**" **Status: Open in part.** A row of the Doc_05 table of term use across the governing texts; it is evidence for the preceding item, with the same status: ruled for this world on 2026-09-14, inconsistency in the governing texts open at portfolio level. (2026-09-30)
 
-### OG-37. Doc_06 section 5, open items carried forward: present status of each, checked 2026-09-30.
+### OG-39. Doc_06 section 5, open items carried forward: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Doc_06_Full_Lexicon_Development.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1672,7 +1704,7 @@ Each item is quoted from `Build/worlds/lpc/Doc_06_Full_Lexicon_Development.md` a
 - **Line 129:** "**A discovery-method finding that outlives the term it recovered.** Doc_03 swept the Latin headword *libelli*, correctly found it absent from the vendored English corpus, and did not sweep the English word the translation uses 42 times. **A headword sweep in the original language cannot find a term the surviving corpus only ever names in translation.** This world's corpus is a 19th-century English translation throughout; every other frequency-based discovery judgement in Doc_03 rests on the same method. [...]" **Status: Open.** Left to the project lead as a method question (Phase L0 check, 2026-09-29: 'Goes to Mark'). No ruling on file. (2026-09-30)
 - **Line 131:** "**A third governing-document inconsistency, of the same family as the two already open.** LDF Part III's Tier 1 section list names **Key Texts** and **Key Sources** as two distinct sections; the L4 Deployment Lexicon Chunk Template has only Key Sources, and no chunk in any world carries a Key Texts section. Round 1's M3. **Not resolved here** — the L4 template is a coach-thread file and the Framework is governing methodology; both are outside a build thread's write scope. [...]" **Status: Open.** Portfolio-level: the Key Texts and Key Sources mismatch, carried in the ledger entry on portfolio-level template and methodology defects (2026-09-15). No ruling on file. (2026-09-30)
 
-### OG-38. Doc_07 section 8, open items and handoff: present status of each, checked 2026-09-30.
+### OG-40. Doc_07 section 8, open items and handoff: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Doc_07_Integrated_Ecology_Analysis.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1687,7 +1719,7 @@ Each item is quoted from `Build/worlds/lpc/Doc_07_Integrated_Ecology_Analysis.md
 - **Line 253:** "**This world still has no Open_Gaps_Tracking.md**, required of every world by CLAUDE.md and held by only three of twelve. Fleet-level." **Status: Closed.** Out of date: this ledger, Open_Gaps_Tracking.md, now exists for lpc. (2026-09-30)
 - **Line 254:** "**This document runs about 12% over the template's word target** (§1), and the overage grew across two fix passes because each added content a finding required. **A condensing pass on §2 is the remedy** — the nine lenses repeat between their two halves in places — and it should be run by a thread that is not also applying findings, since every pass that has tried to trim while fixing has added more than it cut." **Status: Open.** The condensing pass has not been run (Phase L0 check, 2026-09-29). The length was not re-measured after the change order of 2026-09-30. (2026-09-30)
 
-### OG-39. Doc_09 section 8, open items carried: present status of each, checked 2026-09-30.
+### OG-41. Doc_09 section 8, open items carried: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Doc_09_Story_Inventory.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1701,7 +1733,7 @@ Each item is quoted from `Build/worlds/lpc/Doc_09_Story_Inventory.md` and given 
 - **Line 141:** "**Augustine's *Confessions* (row 9) yields no story, and is the strongest Phase Two candidate for the next pass** (§6 item 3). Phase Two currently rests on one story from a four-chapter span of Possidius (XXVIII–XXXI, of which XXXI carries the story), while the one extended first-person text this world has goes unused. The scope reason given — that it narrates a conversion rather than a pastorate — is thin, and Book X in particular is a bishop examining his own continuing sin." **Status: Open.** Open: Confessions yields no story and is named the strongest Phase Two candidate. No file records a decision to build one. (2026-09-30)
 - **Line 142:** "**CLOSED, 2026-09-15 — read at source.** Review-Artifacts/Possidius_XIX-XXVII_Read_2026-09-15.md. What remains open is building a story from it, not reading it. The original item read: Possidius, *Vita Augustini* XIX–XXVII — nine chapters of ordinary episcopal practice — is vendored, Native (row 192), and unread (§7 item 5; Doc_05 open item 10). It is the only extended account of the daily work this world makes its Primary gravity, and it sits in the file lpcstory007 already draws on. **Reading it is the largest available improvement to this document — ranked first, ahead of item 1** — because it bears on whether Doc_09 should carry a Tier 4 story at all, where item 1 changes one story's tier." **Status: Closed.** Closed 2026-09-15 by the read at source (the item itself). Building a story from it remains open (ledger entry on Possidius chapters XIX to XXVII). (2026-09-30)
 
-### OG-40. Step 0 section 4, binding items: present status of each, checked 2026-09-30.
+### OG-42. Step 0 section 4, binding items: present status of each, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1714,7 +1746,7 @@ Each item is quoted from `Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md`
 - **Line 140:** "**The Antiochene primary-gravity contrast (binding on Doc_01/Doc_04).** The Step 0 Conclusion holds this world out as the standing comparison case for Antiochene Christianity (a Possible Future World, not selected for this phase): Antiochene was held out of Phase One "pending a validated primary-gravity contrast against world #8 that doesn't rely on geography or language." This world's own Doc_01 boundary work and Doc_04 gravity-orientation work should establish Cyprian's and Augustine's primary characterization in terms that would survive that contrast if Antiochene is ever built — not merely in terms of Latin/Greek or North Africa/Antioch — per §3 B3 above." **Status: Closed.** Discharged by name in Doc_04 section 5. (2026-09-30)
 - **Line 141:** "**Primary-gravity-first discipline (binding on Doc_01, general methodological note).** The Step 0 Conclusion's own Primary-gravity-first rule was adopted specifically in response to a review finding about *this world's own* history (the original World #8/#9 split had used neighbor-protection — shielding Donatism's distinctiveness — as an unstated tiebreaker rather than reasoning to Cyprian's own primary characterization first, "though partly mitigated there, since Cyprian's ecclesiology and pastoral crisis-management are historically fused rather than cleanly separable"). Doc_01's own gravity-orientation work should establish Cyprian's and Augustine's primary characterization on this world's own ecological terms first, and treat neighbor-distinctiveness (from World #4 in particular) as a tiebreak only where genuinely needed." **Status: Closed.** Discharged: Doc_01 states the primary characterization first, at section 3, before the World #4 boundary (Doc_01 section 8, seventh item). (2026-09-30)
 
-### OG-41. Decision Log, the Representative identity and image entry (2026-09-15) and the Doc_04 closure entries: present status of each open item, checked 2026-09-30.
+### OG-43. Decision Log, the Representative identity and image entry (2026-09-15) and the Doc_04 closure entries: present status of each open item, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/lpc_Decision_Log.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1726,7 +1758,7 @@ Each item is quoted from `Build/worlds/lpc/lpc_Decision_Log.md` and given its st
 - **Line 1716:** "closed.** It was a **sixth** attempt at a cleaner classification for Candidate 5, after five supersessions across nine rounds and the project lead's direct ruling of 2026-09-14. The precedent: *"Treat five consecutive re-classifications of the same candidate as itself the signal to stop and accept the narrower finding."* **Candidate 5 is Supporting and honestly thin, and that is the answer.** The argument is recorded, not pursued." **Status: Closed.** Closed 2026-09-15; Candidate 5 is Supporting (Doc_04 section 7, eighth item). (2026-09-30)
 - **Line 1717:** "closed as a Persistence question.** It proposed reading the 411 *Gesta* to shore up Candidate 5. The *Gesta* is **native to Donatism's world, not this one**, and the precedent records both prior extraction attempts failing review. Its rule: such a source is for *"narrow, specific, independently-verifiable facts only."* The *Gesta* stays available for narrow checks and stays listed as unread; [...]" **Status: Closed.** Closed 2026-09-15 as a persistence question (Doc_04 section 7, sixth item; ledger entry on the 411 Gesta). (2026-09-30)
 
-### OG-42. Doc01 Round 8 review: present status of its findings, checked 2026-09-30.
+### OG-44. Doc01 Round 8 review: present status of its findings, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Review-Artifacts/Doc01_Round8_Review.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1734,13 +1766,13 @@ Each item is quoted from `Build/worlds/lpc/Review-Artifacts/Doc01_Round8_Review.
 - **Line 180:** "**§9 assesses it under no category, while claiming completeness.** §9's category-2 paragraph says *"two items"*; its category-3 paragraph says *"Two candidates"*; its closing paragraph says *"Category 3's candidate is §5's Article 21 reading-divergence."* The Article 3 answer appears in none of the three enumerations." **Status: Closed.** Fixed. Doc01_Round9_Review.md re-derived the Round 8 findings and found the HIGH fixed completely. Doc_01 section 5 now names the portfolio Step 0 Conclusion's 'Constitutional ambiguity flagged, not resolved', and section 9 now counts three category 2 items (checked on disk 2026-09-30). (2026-09-30)
 - **Line 181:** "**Worse, §9 uses it as support without having assessed it.** §9 line 267 argues that the Article 21 reading is *"the same kind of judgment this document has already made, **without escalating**, for Article 3's 'sufficient historical coherence,' Article 15's development-and-instability principle, and Article 29's confirmation gate."* It is not the same kind in the relevant respect. Articles 15 and 29 carry no portfolio-level logging as unresolved; the Article 3 question carries an express one, naming Cyprian/Augustine-with-Donatism-between as its instance. [...]" **Status: Closed.** Fixed. Doc01_Round9_Review.md re-derived the Round 8 findings and found the HIGH fixed completely. Doc_01 section 5 now names the portfolio Step 0 Conclusion's 'Constitutional ambiguity flagged, not resolved', and section 9 now counts three category 2 items (checked on disk 2026-09-30). (2026-09-30)
 
-### OG-43. Doc02 Round 1 review: present status of the quoted corpus-map entry, checked 2026-09-30.
+### OG-45. Doc02 Round 1 review: present status of the quoted corpus-map entry, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
 - **Line 94:** "*The Acts of the Council of Carthage under Cyprian (256, on baptism)*, author: council-of-carthage-under-cyprian, source_file: npnf214_seven-ecumenical-councils.xml, **confidence: provisional**, with the note *"Donatism is included as shared ancestry rather than heresiology: the Donatists claimed this council's baptismal doctrine as their patrimony... [...]" **Status: Open.** This quotes the corpus-map entry for the 256 council, marked provisional on its double placement with Donatism. The entry is unchanged in the corpus map (checked 2026-09-30); the duplicate-row question is open (Doc_01 entry above). (2026-09-30)
 
-### OG-44. Doc04 Round 3 review: present status of its Candidate 5 findings, checked 2026-09-30.
+### OG-46. Doc04 Round 3 review: present status of its Candidate 5 findings, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Review-Artifacts/Doc04_Round3_Review.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1750,20 +1782,20 @@ Each item is quoted from `Build/worlds/lpc/Review-Artifacts/Doc04_Round3_Review.
 - **Line 73:** "**Line 203, §6:** *"Candidate 5's own row is included on the same footing as any Tensional gravity's, since it was **fully tested**."*" **Status: Closed.** Fixed: Doc_04 now labels only Candidate 8 Tensional, and Candidate 5 is Supporting at every site (Doc_04 independent check of 2026-09-29; Doc_04 searched for 'Tensional' on 2026-09-30). (2026-09-30)
 - **Line 74:** "**Line 208, §7 Open Item 2 — the item that carries the claim to Doc_05/Doc_07/Doc_08:** *"it remains real, substantial, and directly quoted evidence of a live theological difference between this world's own two anchor figures, **tested and confirmed as its own bounded, unresolved pressure within the ecology**."* Open Item 2 is the one place a downstream builder is *guaranteed* to read, and it instructs them on a classification it presents as settled, with no pointer to Open Item 7 five lines below it." **Status: Closed.** Fixed: Doc_04 now labels only Candidate 8 Tensional, and Candidate 5 is Supporting at every site (Doc_04 independent check of 2026-09-29; Doc_04 searched for 'Tensional' on 2026-09-30). (2026-09-30)
 
-### OG-45. Doc04 Round 5 review: present status of its residue findings, checked 2026-09-30.
+### OG-47. Doc04 Round 5 review: present status of its residue findings, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Review-Artifacts/Doc04_Round5_Review.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
 - **Line 73:** "**The Decision Log**, line 652, says: *"a residue sweep confirmed the only remaining Tensional references are Candidate 8's own (genuinely Tensional, untouched) and the historical record in Open Item 6 and §8."* I enumerated all sixteen lines containing "Tensional" at HEAD and classified each. Fifteen are accounted for by that description. [...]" **Status: Closed.** Fixed: no live Tensional label remains on Candidate 5 in Doc_04 (searched 2026-09-30; Doc_04 independent check of 2026-09-29). (2026-09-30)
 - **Line 74:** "**Round 4's H1 is reported resolved.** Round 4 named three sites: line 99, line 175, line 211. Lines 99 and 175 were rewritten. **Line 211 was not touched at all** — Round 4 had already flagged it as byte-identical to ccb25f37, and it is still byte-identical now, one round later." **Status: Closed.** Fixed: no live Tensional label remains on Candidate 5 in Doc_04 (searched 2026-09-30; Doc_04 independent check of 2026-09-29). (2026-09-30)
 
-### OG-46. Doc04 Round 9 review: present status of its Doc_05 pointer finding, checked 2026-09-30.
+### OG-48. Doc04 Round 9 review: present status of its Doc_05 pointer finding, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Review-Artifacts/Doc04_Round9_Review.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
 - **Line 303:** "*"**revisit the classification**, which the Framework directs for ambiguous candidates and which **Doc_05 is the first step positioned to do**."* Checked against CF V7.4's Step 5 entry (paragraphs 652–663): Doc_05's activities are reconstructing the ecology dimensions, integrating forces, applying Article 23, and running the Proportionality and Ecological Integration Assessments. **Gravity classification is Step 4's activity (paragraph 649) and appears nowhere in Step 5's list.** The Framework does direct revisiting *as ecological reconstruction progresses*, so the pointer is not wrong in principle — but the document asserts Doc_05 is *"positioned"* to do it without checking, and names no mechanism by which a reviewed and approved Doc_04 would be amended by a later document. [...]" **Status: Closed.** Superseded: Doc_04 no longer carries the 'positioned to do' instruction (searched 2026-09-30), and the Open Item it came from was closed 2026-09-15. (2026-09-30)
 
-### OG-47. Phase L0 check of Docs 03, 05, 06 and 07: the items it found missing from this ledger, checked 2026-09-30.
+### OG-49. Phase L0 check of Docs 03, 05, 06 and 07: the items it found missing from this ledger, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Review-Artifacts/L0_Docs03-05-06-07_Carried_Open_Check_2026-09-29.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1771,7 +1803,7 @@ Each item is quoted from `Build/worlds/lpc/Review-Artifacts/L0_Docs03-05-06-07_C
 - **Line 227:** "Doc_06's carried R2 findings (M-N3, L-N2 residue, L-N3, C-N1), the *suffrage* [DR] tension, the M-R2 residue and the §5.7 discovery-method item." **Status: Open.** Open as of the check, and no later file records a fix (the claims change order of 2026-09-30 did not touch lpclex017 or lpclex018 in any file read): Doc_06 Round 2 findings M-N3, L-N2 residue, L-N3 and C-N1, the suffrage [DR] tension, the M-R2 residue, and the discovery-method item. (2026-09-30)
 - **Line 229:** "The liturgical-read lexicon candidates of 2026-09-19, not yet integrated." **Status: Open.** Open: the lexicon candidates proposed by the liturgical reads of 2026-09-19 (public confession; the baptismal interrogation) are not integrated. (2026-09-30)
 
-### OG-48. World Profile Round 1 review: present status of the Doc_04 Open Item 8 findings, checked 2026-09-30.
+### OG-50. World Profile Round 1 review: present status of the Doc_04 Open Item 8 findings, checked 2026-09-30.
 
 Each item is quoted from `Build/worlds/lpc/Review-Artifacts/WorldProfile_Round1_Review.md` and given its status from the files on disk on 2026-09-30. No item is decided here.
 
@@ -1779,7 +1811,7 @@ Each item is quoted from `Build/worlds/lpc/Review-Artifacts/WorldProfile_Round1_
 - **Line 189:** "Disposition: *"The one genuine disagreement this document carries forward … Doc_04 §7 Open Item 8 records that a later review round … holds Doc_04's own classification of G5 is reachable by an argument Doc_04 itself has not run…"*" **Status: Closed.** Closed: Doc_04 Open Item 8 was closed 2026-09-15, the World Profile was approved to proceed on 2026-09-19 after later rounds, and the current profile no longer carries the quoted wording (checked lpc_World_Profile.md on 2026-09-30). (2026-09-30)
 - **Line 190:** "Disposition, *Escalation-category assessment*: *"*Unresolved tensions:* one carried forward and disclosed rather than resolved — Doc_04 §7 Open Item 8, above."*" **Status: Closed.** Closed: Doc_04 Open Item 8 was closed 2026-09-15, the World Profile was approved to proceed on 2026-09-19 after later rounds, and the current profile no longer carries the quoted wording (checked lpc_World_Profile.md on 2026-09-30). (2026-09-30)
 
-### OG-49. The Doc_08 generator's two HIGH defects fixed, and what the fix leaves open, 2026-09-30.
+### OG-51. The Doc_08 generator's two HIGH defects fixed, and what the fix leaves open, 2026-09-30.
 
 Decided by the project lead on 2026-09-30 (option (b) of the Doc_08 independent check, `Review-Artifacts/Doc08_Round9_Targeted_Check_2026-09-29.md`): fix the two HIGH defects, cut the claims the code does not support, and keep the rest open.
 
@@ -1790,7 +1822,7 @@ Decided by the project lead on 2026-09-30 (option (b) of the Doc_08 independent 
 **Still open.** A notice in a shape outside the new pattern is not detected, and a legitimate bracket of notice shape still halts (the Index "Limits" paragraph says so). Section 9's cell distribution is read by nothing beyond the count. The other forms of the review-history guard (a round run twice, deleted Round 3 and Round 4 rows) are not caught. Doc_08 lines 217 and 334 carry commentary the checker flags. Whether the Round 9 check counts as a review of the Round 8 revision is the project lead's question, the fourth decision listed in that review file (2026-09-29). Generator line count of flagged commentary: 28 (from 75).
 
 
-### OG-50. The silence claims and row 194: an open exception found, 2026-09-30.
+### OG-52. The silence claims and row 194: an open exception found, 2026-09-30.
 
 An independent check (`Review-Artifacts/ClaimsScopeRecheck_2026-09-30.md`, finding F1) found that the silence claims scoped to the Registry's Native rows overreached. Row 194 (Hartel, CSEL 3 Pars III, Opera Spuria) is Native and holds two pseudo-Cyprianic works in a bishop's pastoral voice whose date and place are not fixed. *De singularitate clericorum* is a bishop's letter to his clergy (Hartel III, lines 9562-9570); Koch (row 233, `koch_cyprianische-untersuchungen-deu_1926.txt`, line 22909) writes that it was probably composed toward the end of the third century, and reports Achelis's pre-Nicene date and the ascription to Macrobius by Morin and Harnack (lines 20766-20790). *De aleatoribus* is a bishop's homily (Hartel III, line 4982); Monceaux (row 207, tome 2, lines 6655 and 6671) gives it to an African bishop of Cyprian's school, calls it a true homily, and fixes no date. The earlier ground, "no vendored file places them inside the interval", was false for the first work and open for the second.
 
@@ -1804,7 +1836,7 @@ An independent check (`Review-Artifacts/ClaimsScopeRecheck_2026-09-30.md`, findi
 
 **Awaiting a decision.** Thirteen REWRITE or ROUTE commentary lines in `Build/reference/text-renderings/` (the verbatim Word text of reference documents) are flagged by the commentary checker; they await a decision on whether that folder is excluded from the tool. Separately, the Step 0 passage at line 163 describes the CO-022 rule as having three limbs according to the installed skill, while the repository copy of the build-cycle skill has four; which one governs is not settled.
 
-### OG-51. The silence claims, fourth pass: the exception is now stated as a class, 2026-09-30.
+### OG-53. The silence claims, fourth pass: the exception is now stated as a class, 2026-09-30.
 
 The independent check of 2026-09-30 on the row-194 exception (`Review-Artifacts/ClaimsException194_Verification_2026-09-30.md`) found two P1 defects. F1: "two short pseudo-Cyprianic works" undercounts. Row 194 and row 6 also hold *De spectaculis* and *De bono pudicitiae*, written as an absent bishop's letters to his people, which Monceaux gives to a cleric of Cyprian's school soon after 258 and the Registry's row 6 note gives, in part, to Novatian; a short letter headed to the people of Carthage (Hartel III, line 15508) is undated. F2: the date of Pontius's *Life* was stated as settled ("written at and just after" the martyrdom). Harnack (row 205) gives 259 as the prevailing view of 1913, while Koch (row 233) follows Reitzenstein and Martin and puts its author at the end of the third century at the earliest. This is the fourth pass on the silence claim (after the Optatus correction, the scope restatement and the row-194 exception of the same day), made on the project lead's instruction as a change order, not as a new review round.
 
@@ -1822,7 +1854,7 @@ The independent check of 2026-09-30 on the row-194 exception (`Review-Artifacts/
 - `scripts/check_claims.py` (the Doc_09 register's own checker) already reported unregistered Doc_09 and story-chunk claims before this pass; this pass did not add to them. They remain for the Doc_09 register conversion.
 
 
-### OG-52. The silence claims, class-level recheck: open disclosures, 2026-09-30.
+### OG-54. The silence claims, class-level recheck: open disclosures, 2026-09-30.
 
 The independent recheck of 2026-09-30 (`Review-Artifacts/ClaimsClassException_Recheck_2026-09-30.md`) found no false claim among the twelve it checked; ten stand as readings (JUDGEMENT, Widely Accepted) and two as verified. It found one P1 wording defect beside the claims, now fixed: the core record and the force record (and their generators `wb_lpc_s21.py`, `wb_lpc_s25.py`) stated Pontius's authorship as settled; they now read "the life that bears the name of his deacon Pontius". Three citation fixes were applied in Doc_02 section 7 (Hartel lines 702–713, Monceaux lines 5105–5112, and Koch's "novatianischen" given as his own quotation marks).
 
@@ -1834,25 +1866,7 @@ Open, not yet applied, each a disclosure and not a correction of a claim:
 - Augustine preaches Crispina of Theveste (martyred 304) in two feast-day sermons in row 20 (the Expositions on Psalms 121 and 138). No lpc file mentions her. Doc_09's sentence that this world tells itself no stories at all is true only for stories that begin inside 258–391 and are told in our own voice; a disclosure is proposed: Augustine preaches one martyr of those years on her feast, as he preaches Perpetua (named in Doc_02 section 6, the Perpetua sermons); it is a Phase Two telling and is not built here.
 - The spoken copies (Permanent Prompt, Capsule Core, the limit statement) and the plain "our own deacon Pontius" in `lpc.story.election-of-cyprian` stand in the emic voice until the boundary decision on rows 6 and 194 is made (see the entry on the fourth pass of the silence claims, 2026-09-30).
 
-### OG-53. Library pre-Step-3 readiness sweep for `lpc`, 2026-09-29 and 2026-09-30: what it did, what the project lead decided, and what stays open in files the Library does not own.
-
-**Done (Library thread).**
-- The V7.4 field-bibliography sweep OG-20 item one asked for was run: bibliographies opened, the OpenGreekAndLatin `csel-dev` repository probed by path, works enumerated for Cyprian, Augustine's pastoral and congregational works, the Donatist sources and the other North African sources. Method, result, limits and the sandbox blocks are in `Source_Registry.md`'s saturation section. OG-20 item one is discharged, with its limits stated there.
-- 42 files were vendored for `lpc` (25 from the sweep, 17 `csel-dev` TEI files: Cyprian's 15 works and Optatus), the Petschenig file's description was corrected (it holds CSEL 51, 52 and 53), and the CSEL 58 file was retired to `Archive/Retired-Library-Texts/` because the only public scan located on the Internet Archive is a 1961 Johnson Reprint facsimile, excluded on the ground row 197 already states. The Registry has 272 rows.
-- The directed corrections from `Review-Artifacts/Doc02_Returned_Review_Independent_Check_2026-09-29.md` were applied and rechecked (`Doc02_Directed_Corrections_Recheck_2026-09-29.md`). The 30-round cap on Doc_02 does not apply to them, by the project lead's ruling of 2026-09-29.
-
-**Decided by the project lead (2026-09-29), each applied in the Registry.** Row 44 at Confidence A (its Licensed-For is confined to CTh XVI.5.21). Row 33 at Confidence B, which discharges OG-20 item two. No row carries a split letter: rows 11 and 14 are narrowed to their verified loci and the whole-work claims sit in new rows 243 and 244 at B. Rows 227, 228 and 230 at B, the rule text unchanged (rows 191 and 193 keep C for OCR, which the rule text does not name). Rows 231 and 232 carry the Cyprianic acts only; the Scillitan and Perpetua acts are rows 245 to 248. Seven authentic Petschenig works are on the `lpc` and Donatism shelves. Every other letter stays.
-
-**Open, to be confirmed.** Row 229 (Morin) holds 33 Native sermons and nine unassessed tractatus; it was narrowed to the 33 and not split, because unassessed acts get no row. The project lead has not been asked whether that reading is right.
-
-**Open, in files the Library does not edit** (owners: the `lpc` build thread and whoever owns `records/lpc`): `Doc_02_Source_Ecology.md` line 120 says no Registry row dates from the 258 to 391 gap, which rows 27, 64 and 264 to 265 (Optatus, 366 to 384) contradict, so how Doc_01's "honest silence" binding coexists with the Optatus rows needs a decision. `Doc_04_Gravity_Discovery.md` line 7 quotes row 65's old "not yet drawn on by it". `Source_Acquisition_Manifest.md` lines 33, 35 to 37, 39, 41, 73, 75 and 81 (branch-relative wording, G4 CSEL 58 reason). `Build/worlds/lpc/scripts/wb_lpc_s21.py` lines 41, 115, 205, 669, 1568, 1669, 1684, 2108 to 2109, 2134, 4367, 4396 to 4399, 4414 to 4418 and 4526 (the generator repeats the old row wording, so regenerating brings it back). Records: `lpc.source.lancel-actes-de-la-conference-de-carthage-411.md` (act 158 counted as a speech, "not yet drawn on", `rights_status: public-domain` for an in-copyright edition), `lpc.limit.411-gesta-unread.md` (`license: public-domain`), `lpc.core.latin-pastoral-congregational-christianity.md` (fourteen acts, "silver fines", `tertullian-s-voice`), `lpc.source.codex-theodosianus-mommsen-meyer.md` (says the content is unread and calls XVI.5.52 a silver schedule; row 44 is now A), `lpc.source.augustine-correction-of-the-donatists.md` (silver wording), `lpc.source.augustine-donatist-correspondence.md` (Letter LIII as Augustine's own, "not yet promoted"), `lpc.witness.apostolic-succession-of-bishops.md` (succession list attributed to Augustine alone), `lpc.source.augustine-answer-to-petilian.md` (locus "Book II SS51"), `lpc.source.burns-jensen-christianity-in-roman-africa.md` (row 33 is now B), `lpc.source.augustine-general-correspondence.md` (row 11 narrowed), `lpc.source.possidius-vita-augustini-standing-reference.md` (says not vendored), `lpc.source.goldbacher-augustine-epistulae-standing-reference.md` (CSEL 58 statement). Also `Representative/lpc_Rep_Phase3_Voice_Construction.md` lines 80 and 92 name the removed `tertullian-s-voice`.
-
-**Open, Library thread.** The Gesta cum Emerito locus in the Petschenig staging file and header (72784) is the text's opening; the work's own heading is at line 72037. Duchesne's scan in the download queue is a reprint whose rights are unsettled. Monceaux tomes IV to VI are vendored (Donatism shelf) and have no Registry rows.
-
-
-**Closed, 2026-09-30.** Row 229 stays unsplit, ruled by the project lead (`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`, 2026-09-30). Still open for the lpc thread: Doc_02 §7 line 120 (the 258–391 silence claim) against Optatus rows 27, 64 and 264.
-
-### OG-54. Doc_02 section 7, the 258 to 391 silence claim, decided against the Optatus rows, 2026-09-30.
+### OG-55. Doc_02 section 7, the 258 to 391 silence claim, decided against the Optatus rows, 2026-09-30.
 
 The claim said no Registry row dates from within the 133-year gap between Cyprian's death and Augustine's ordination. Rows 27, 64 and 264 (Optatus of Milevis, *Against the Donatists*, active 366 to 385 by the vendored file header) do, and row 27 is Native for this world. Row 265 is Excluded.
 
@@ -1862,7 +1876,7 @@ The claim said no Registry row dates from within the 133-year gap between Cypria
 
 **Check.** Included in the targeted Opus recheck of the Library's Round 33 fix pass. A separate agent sweeps every other copy of the claim (Doc_01, Doc_05, the world core record).
 
-### OG-55. Registry rows renumbered after the merge with main, 2026-09-30.
+### OG-56. Registry rows renumbered after the merge with main, 2026-09-30.
 
 **Decision (the project lead, 2026-09-30).** The merge of `origin/main` into this branch found both sides numbering new Registry rows from 214. Main keeps rows 214–252 as it wrote them: text, numbers, Confidence letters and statuses. This branch's rows 214–326 were reconciled to that. Where main's row already registers the same edition, this branch's row was dropped as a row, and only facts that are true, that main lacked and that matter were carried into main's row. Every other row was renumbered from 253 upward, in its original order, with every field kept. The Registry's no-renumbering rule gives way to this decision for these rows only. The Registry now has 355 rows, numbered 1–355 without gap or duplicate.
 
@@ -1904,11 +1918,11 @@ The claim said no Registry row dates from within the 133-year gap between Cypria
 **Not edited.** `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (Library-owned) cites old rows 225, 227–232 and 245–248; read it through the table above.
 
 
-### OG-56. Handoff gate after the merge with main, 2026-09-30: eleven checks pass; the corpus-map file is the Library's to fix.
+### OG-57. Handoff gate after the merge with main, 2026-09-30: eleven checks pass; the corpus-map file is the Library's to fix.
 
 After the merge with main and the renumbering in the entry on the Registry rows renumbered after the merge with main (2026-09-30), `handoff lpc` passes eleven of twelve checks. Check 6 fails: the generated `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` on main carries no `row_id` on any of its 147 rows, and the Library issues every `row_id`. The staging files hold 59 lpc assignments the generated file lacks, so a Library re-merge would also change the atlas counts that Doc_02 section 1 states (it uses the merged tree's current figures). Main's Registry rows 215, 219, 220 and 222 say "Not assigned to this world in the corpus map", which the corpus map contradicts; the Library owns those rows. The recorded review-file counts in the re-baseline declaration were brought to the disk (Doc_01 12, Doc_02 35, Doc_04 12, Doc_08 9) after the gate began counting every review file; the added files are the independent checks the declaration names and the Library's rechecks, and the project lead is asked to confirm that reading.
 
-### OG-57. B-1b relative recall and PRESS run for `lpc`, 2026-09-30: recall 10/10, four items routed to the pre-freeze re-sweep.
+### OG-58. B-1b relative recall and PRESS run for `lpc`, 2026-09-30: recall 10/10, four items routed to the pre-freeze re-sweep.
 
 Build Process V2.0 step B-1b, run once against the Registry at rows 1–355. The record is `records/lpc/search_record/lpc.search.relative-recall-and-press.md`.
 
@@ -1928,7 +1942,7 @@ Build Process V2.0 step B-1b, run once against the Registry at rows 1–355. The
 **Open, for the owners of those files.** `Source_Registry.md`'s saturation section, `Doc_02_Source_Ecology.md` §9 and `lpc.search.latin-pastoral-source-discovery-saturation` still say the recall test and PRESS question have not run since the fourteenth review pass. This run makes that out of date. They were not edited here.
 
 
-### OG-58. B-7 voice record and demonstrations review, 2026-09-30: voice record needed four wording fixes (applied); the three demonstrations do not pass and go to the Doc_10 step.
+### OG-59. B-7 voice record and demonstrations review, 2026-09-30: voice record needed four wording fixes (applied); the three demonstrations do not pass and go to the Doc_10 step.
 
 The independent review is `Build/worlds/lpc/Review-Artifacts/Voice_Demonstrations_Review_2026-09-30.md` (reviewer claude-opus-5-5, drafter claude-sonnet-5-5, round 1 of a B-7 record set, not a document revision round). Verdict: the voice record `lpc.craft.datus-voice` passes every mechanical B-7 condition and is a real conversion. The three demonstrations (`lpc.demo.compel-three-phase`, `lpc.demo.font-twice-answered`, `lpc.demo.road-back-examined`) do not pass.
 
@@ -1955,7 +1969,7 @@ The independent review is `Build/worlds/lpc/Review-Artifacts/Voice_Demonstration
 - O4. "Some of our own slip away to the public shows. We ask those still with us to share that worry." Checked against Sermon I (NPNF106 l. 9398-9400, the day of the public shows and "share my great anxiety").
 - O5. The two guard sentences that repeated the anchor's closing sentences were deleted, and the cryptic "more vivid hand" phrase went with them. The anchor's last two sentences carry the guard against borrowed images.
 
-### OG-59. Decision 8B extraction for `lpc`, 2026-09-30: embedded quotations moved into quote records; five host fields now fail regate, and three scope questions are left for the project lead.
+### OG-60. Decision 8B extraction for `lpc`, 2026-09-30: embedded quotations moved into quote records; five host fields now fail regate, and three scope questions are left for the project lead.
 
 **Status: OPEN.** The extraction is done in the working tree (not committed). The 30 new `modern_rendering` fields were authored by Opus and still need the separate Opus check. The rendering-fidelity graders (`engine/m1/rendering_fidelity.py`) were not run.
 
@@ -2002,7 +2016,7 @@ The independent review is `Build/worlds/lpc/Review-Artifacts/Voice_Demonstration
 
 **Gates, 2026-09-30.** `records lpc`, `gaps`, and `claims lpc` pass (110 claims derived, 110 registered, no new claim sentence). `regate lpc` fails on the five fields above. Every quote record passes quote-verbatim, confidence-crosscheck (verification_state), completion-per-type, schema-validation, reciprocity, quote-mark-fidelity, and readability. No rendering scores above FK 10 or below FRE 60. 26 of the world's 35 renderings score below FK 8, which is reported, not failed.
 
-### OG-60. Decision 8B renderings check applied, 2026-09-30: one locus corrected, five substantial fixes, host sentences tightened; one host locus left for the next host-record pass.
+### OG-61. Decision 8B renderings check applied, 2026-09-30: one locus corrected, five substantial fixes, host sentences tightened; one host locus left for the next host-record pass.
 
 **Status: OPEN.** The fixes are in the working tree (not committed). A targeted Opus recheck of these changes follows; nothing here is self-certified. The review is `Build/worlds/lpc/Review-Artifacts/Decision8B_Renderings_Check_2026-09-30.md` (the separate Opus check that the entry on Decision 8B extraction for `lpc`, 2026-09-30, called for). Each fix was checked against the vendored source before it was applied.
 
@@ -2040,7 +2054,7 @@ The independent review is `Build/worlds/lpc/Review-Artifacts/Voice_Demonstration
 
 **Gates, 2026-09-30, after these fixes.** All 22 registered gates on `lpc`: 0 findings except `readability` (1, the participant turn of `lpc.demo.road-back-examined` at FRE 52.9, already carried by the entry on the B-7 voice record and demonstrations review, 2026-09-30). `quote-verbatim` and `quote-mark-fidelity`: 0. `records lpc`, `regate lpc`, `gaps lpc` and `claims lpc` pass (110 claims derived, 110 registered; no claim sentence changed). `engine/m1/sentence_completeness.py` flags the same three `lpc` sentences as before, none in a changed rendering, and each was already read as whole. `tools/check_live_commentary.py --surface records` shows the same `lpc` hits as before the fixes.
 
-### OG-61. Readability rewrite independent review, 2026-09-30: 15 of 43 fields fixed, one counter defect logged for the engine, one fact figure corrected in the world core.
+### OG-62. Readability rewrite independent review, 2026-09-30: 15 of 43 fields fixed, one counter defect logged for the engine, one fact figure corrected in the world core.
 
 **Verdict.** The independent Opus check of the readability rewrite (`Review-Artifacts/Readability_Rewrite_Review_2026-09-30.md`, round 1) found 28 fields clear and 15 needing a fix: 2 blocking, 11 substantial, 2 optional. The rewrite map (`Review-Artifacts/Readability_Rewrite_Map_2026-09-30.md`) stays as the historical record of the first rewrite and was not edited.
 
@@ -2068,11 +2082,11 @@ The independent review is `Build/worlds/lpc/Review-Artifacts/Voice_Demonstration
 **Gates, 2026-09-30.** `records lpc`, `regate lpc`, `gaps lpc` and `claims lpc` pass (110 claims derived, 110 registered; no claim sentence changed). `regate` carries the one prior FRE finding on `lpc.demo.road-back-examined`, unchanged. `tools/check_live_commentary.py --surface records` shows no new `lpc` hits in the edited lines.
 
 
-### OG-62. Decision 8B renderings recheck, 2026-09-30: every fix resolved; the host witness marker corrected.
+### OG-63. Decision 8B renderings recheck, 2026-09-30: every fix resolved; the host witness marker corrected.
 
 The targeted Opus recheck of the fixes recorded in the entry on the renderings-check fixes (2026-09-30), at `Review-Artifacts/Decision8B_Renderings_Recheck_2026-09-30.md`, found no blocking or substantial finding. The locus of the quote on custom handed down from the apostles is Book IV, Chapter 6, section 10 (the quote is at line 12167; the paragraph opens at line 12164). The host witness `lpc.witness.baptism-traced-to-the-apostles` carried the old marker in `sources[].locus`; it now reads Book IV, Chapter 6, SS10 in a separate host-record correction, outside the Decision 8B extraction. Two renderings (the "For suppose" line in the apostolic-succession quote and the "And we greet" line in the Lucian quote) were written by the fixing agent; the recheck confirmed their exact wording as Opus wording. The rendering-fidelity graders have not been run on the new renderings; that run is paid and waits for the metered ceiling and the project lead's approval.
 
-### OG-63. B-7a world_front and facilitator_brief review, 2026-09-30: revised in place (round 1 of 3); items left to record owners.
+### OG-64. B-7a world_front and facilitator_brief review, 2026-09-30: revised in place (round 1 of 3); items left to record owners.
 
 The independent Opus review at `Review-Artifacts/WorldFront_FacilitatorBrief_Review_2026-09-30.md` found the two records not ready to proceed as drafted: one blocking finding, eleven substantial, fourteen optional. This is round 1 of 3 for these two records under the review cap.
 
@@ -2089,13 +2103,13 @@ Claims register: one claim re-derived. The tile's women and lapsed sentence is a
 Round 2 is a targeted recheck of the edited fields only, against the review file.
 
 
-### OG-64. World front and facilitator brief, round-2 recheck, 2026-09-30: all 26 round-1 findings resolved; one new substantial finding fixed.
+### OG-65. World front and facilitator brief, round-2 recheck, 2026-09-30: all 26 round-1 findings resolved; one new substantial finding fixed.
 
 The round-2 targeted Opus recheck (`Review-Artifacts/WorldFront_FacilitatorBrief_Recheck_2026-09-30.md`, round 2 of 3) found all 26 round-1 findings resolved. It found one new substantial problem: the sentence in `formation_limitations` on the ordinary believer's week gave a cause of survival (a crisis drawing a bishop's attention) that no record supports and that is wrong for Augustine's years. It is replaced with the wording the recheck gives ("The church that copied and kept these texts was keeping its bishops' writings"), and the item now cites `lpc.force.transmission-institutionally-dominant-side`. A round 3 checks that sentence only; it is the last round under the cap. Claims `47bbbca6` (world-core sentence on the uncompiled Registry rows) is VERIFIED against a parse of all 355 rows; `e92de79f` (tile sentence on women and the lapsed) is a JUDGEMENT because it depends on reading the joint letters of Paulinus and Therasia as not written by Therasia.
 
 Open, optional: add `lpc.gravity.conciliar-authority-theory` to the `grounded_in` of the second strength; split one sentence in the brief's seventh caution to lift its reading ease from 60.39 to about 61.2 (wording in the review file). Open, for the record layer: the baptismal exchanges and the laying on of hands appear only in the context chunks `lpcctx002` and `lpcctx004`, and `grounded_in` cannot cite chunks, so no record carries them; a record authoring pass should add one. Three fields sit just above the reading-ease floor (the seventh caution, the world identity, and the fourth voice text of the front), so any edit to them needs regrading.
 
-### OG-65. Doc_10 drafted under Build Process V2.0 (Representative Construction Notes, the Permanent Prompt in V2.0 form, four demonstrations, and `world_core.living_traditions`), 2026-10-01: what was decided, the alternatives weighed, and what stays open.
+### OG-66. Doc_10 drafted under Build Process V2.0 (Representative Construction Notes, the Permanent Prompt in V2.0 form, four demonstrations, and `world_core.living_traditions`), 2026-10-01: what was decided, the alternatives weighed, and what stays open.
 
 **What was written.** `Build/worlds/lpc/Doc_10_Representative_Construction_Notes_Datus.md` (the Doc_10 the gates expect: template V2.3's eight sections, plus the RCF Part Three Ecology Assessment, the Encounter Ecology section brought down from the Phase Seven mapping, the approved-source anchoring design with the paragraph quoted as compiled, the telos note, the Article 29 handling, and the Permanent Prompt as compiled). `Representative/lpc_Representative_Permanent_Prompt_Datus.txt` rewritten in V2.0 form, with the museum-guide backstop paragraphs unedited. The three demonstration records re-authored and a fourth added (`lpc.demo.one-of-us-came-to-believe`, the Center-Personal cell). `world_core.living_traditions` added. The package rebuilt and repinned (`packages/lpc/2026-10-01T03-48-25Z`). The seven phase documents at `Representative/` stand as inputs and are not marked superseded, because they are not a second live version of Doc_10 and the integrity check does not treat them as one. Nothing was committed.
 
@@ -2149,7 +2163,7 @@ Open, optional: add `lpc.gravity.conciliar-authority-theory` to the `grounded_in
 - Phase D has not been run: no probe, no Deep Interview, no spot-check, no wiring check on the pinned package. The Ecology Assessment in Doc_10 Section 1A names the probes this world most needs.
 - The world's build state file (`build/lpc_Build_State.yaml`) and cost ledger were not updated in this pass; they are the orchestrating thread's to keep.
 
-### OG-66. The *Dativus* conflict in the Datus naming decision, with the name recheck of 2026-10-01: an identity question, for the project lead's ruling.
+### OG-67. The *Dativus* conflict in the Datus naming decision, with the name recheck of 2026-10-01: an identity question, for the project lead's ruling.
 
 **The conflict.** The M1 Decision Log entry (the Representative identity and image entry, 2026-09-15) grounds *Datus* on *Dativus* as an attested African form (one of the Numidian confessor-bishops Cyprian writes to in the mines, *Ep.* LXXVI–LXXVII), and the same entry lists *Dativus* among the names ruled out as encumbered by the 256 Council sententiae, which Augustine reproduces in the anti-Donatist works. The entry does not say whether *Datus* carries the same encumbrance (`Representative/lpc_Representative_Identity_Options.md` §9, conflict A: "Needs a ruling"). Doc_10 Section 1 promised to carry this and, in its first draft, carried it nowhere; the round-1 review (`Review-Artifacts/Doc10_Round1_Review.md`, S7) found that. It now stands at Doc_10 Section 8, Calibration Judgments item 8, and here.
 
@@ -2161,7 +2175,7 @@ As carried in Doc_10 Section 8, Calibration Judgments item 8 (2026-10-01): The *
 
 **Options for the ruling, with a recommendation.** (a) Rule that *Datus* carries no encumbrance: it is a distinct cognomen, attested on its own in the inscriptions, and *Dativus*'s encumbrance is as a sententia name, which *Datus* is not. (b) Rule it encumbered by proximity and reopen the name as a packaged identity choice among two to four named candidates with trade-offs, per the template. The drafter recommends (a), because the encumbrance test is collision with a figure a participant could confuse the voice with, and no figure of either world is named *Datus*; (b) would cost a repin, a portrait, and every record and document that names him, for a collision the corpus does not show. The project lead decides.
 
-### OG-67. Doc_10 round-1 revision, 2026-10-01: what the review's findings changed, each decision with its alternatives, the project lead's ruling on the self-naming line, the new pin, and what remains.
+### OG-68. Doc_10 round-1 revision, 2026-10-01: what the review's findings changed, each decision with its alternatives, the project lead's ruling on the self-naming line, the new pin, and what remains.
 
 **Inputs.** `Review-Artifacts/Doc10_Round1_Review.md` (Opus, round 1 of 3; verdict "not approved to proceed this round"; no blocking finding; S1–S8 wording-level; S9 escalated; O1–O12 optional). The project lead's ruling on S9, relayed by the orchestrating thread. Drafter: Fable, working alone and serially. Nothing committed.
 
@@ -2193,27 +2207,27 @@ As carried in Doc_10 Section 8, Calibration Judgments item 8 (2026-10-01): The *
 **What remains.** The Dativus ruling (the entry on the *Dativus* conflict, 2026-10-01). A pre-existing sentence in `lpc.force.illegal-to-established-shift` ("Cyprian never asked the magistrate for anything") is of the same absence-claim shape S2 removed from the demonstration; it is outside this review's scope and is flagged for the record owner, not changed here. The `living_traditions` wording at M2, including the 33-word sentence. The census conflict (`cic-website/data/world-census.json` `living: false`). The readability counter's "Augustine's" defect. Phase D on the new pin: no probe, Deep Interview, spot-check or wiring check has been run; `wiring lpc` cannot run in this container (no `anthropic` module). Round 2 of the Doc_10 review is a targeted recheck of S1–S8 and the applied optional findings against the round-1 file. The build state file and cost ledger are the orchestrating thread's to keep.
 
 
-### OG-68. The Library's correction of the Lancel 411 source record and the 411-Gesta limit record, taken into this build, 2026-10-01.
+### OG-69. The Library's correction of the Lancel 411 source record and the 411-Gesta limit record, taken into this build, 2026-10-01.
 
 The Library thread's commit on the branch `library/lpc-source-record-corrections` (2026-09-30) corrected `lpc.source.lancel-actes-de-la-conference-de-carthage-411` (rights status, thirteen speeches among fourteen acts, Doc_04's reliance on act 158) and the source license on `lpc.limit.411-gesta-unread`. This build had already made the same corrections. The one fact the Library's commit added is the second Latin printing of the Gesta (Mansi, tome 4); it is now named in the source record's `edition` field. That branch is therefore redundant. Its ledger entry used a number this ledger already holds for another subject, so it is not carried; this entry replaces it. The statement of the limit record was rewritten for readability in the readability pass of 2026-09-30, and its reading ease now passes the floor.
 
 
-### OG-69. The date of the African council that petitioned the emperors (Letter 185, section 25): 401 or June 404; removed from the voice, 2026-10-01.
+### OG-70. The date of the African council that petitioned the emperors (Letter 185, section 25): 401 or June 404; removed from the voice, 2026-10-01.
 
 The round-2 recheck of Doc_10 (`Review-Artifacts/Doc10_Round2_Review.md`) found that the compel demonstration, the Permanent Prompt and world core caution 5 stated the year 401 as fact. The year comes only from the NPNF editor's footnote to Letter 185 (and its endnote on Codex Theodosianus XVI.5.21); Augustine gives none. Two of this world's own sources date the council to June 404: the note before Canon XCIII in the Code of Canons of the African Church (Registry row 26, English; row 202, Latin) and Hefele–Leclercq (Registry row 247). The voice and the records no longer state a year; the source record for the Correction of the Donatists names both datings. Doc_02 section 7 and Registry row 12 already attribute 401 to NPNF's footnote and do not assert it, so they stand. Open for a decision, not made here: whether Doc_02 section 7 and row 12 should also name the 404 dating (a change order on an approved document), and whether the date belongs under Contested in the formation-confidence tags. The same recheck: Doc_10 now cites the pinned package by the `package` block of the registry entry instead of by a timestamped path; the passage on the ordinary believer reads "almost only through them", as Doc_02 section 6 allows.
 
 
-### OG-70. Correction to the entry on the council date: where Doc_02 uses 401, 2026-10-01.
+### OG-71. Correction to the entry on the council date: where Doc_02 uses 401, 2026-10-01.
 
 The entry on the date of the African council that petitioned the emperors (2026-10-01) says Doc_02 section 7 attributes 401 to NPNF's footnote. Section 7 does not mention 401. Registry row 12 does attribute it. The uses in Doc_02 are in section 1, where one use is attributed to NPNF's footnote and two are not ("after the 401 council that follows it in this sequence" and "not a contemporaneous 401 text"), and in the section 8 confidence map, which lists "the 401 African council" under Documented / Widely Accepted. A council did meet at Carthage in 401, so the phrase is not false on its own, but in section 1's sequence it names the petition council, and two of this world's own sources date that petition to 404. Doc_02 is approved to proceed, so a correction is a change order for the project lead: name the 404 dating in section 1 and in row 12, and decide whether the date belongs under Contested in the confidence map. The Code of Canons' English note dates the council to the Calends of July in Honorius's sixth consulship, so it gives 404 and not June; June comes from Hefele-Leclercq and from variant readings in the Latin edition, and the source record and generator now say so. The Letter 93 source record and the generator no longer state 401 as fact.
 
 
-### OG-71. The Dativus conflict ruled: the name Datus stays, 2026-10-01.
+### OG-72. The Dativus conflict ruled: the name Datus stays, 2026-10-01.
 
 The project lead ruled on 2026-10-01 to keep the Representative's name, Datus. The conflict was that the M1 identity decision grounded *Datus* on *Dativus* and also listed *Dativus* among the names ruled out as encumbered by the 256 sententiae. The ruling treats *Datus* as a distinct attested African cognomen (Gsell's inscriptions of Proconsular Africa; a variant reading for one of the Abitinian martyrs in the Donatist *monumenta*) that no figure of either world bears, and so as carrying no encumbrance. Alternatives considered: choose another name, which would rebuild and re-review the registry entry, voice record, prompt, Doc_10 and site text; defer, which would put Phase D probe results at risk if a rename followed. Doc_10 section 8, item 8 states the ruling. Closes the open item in the entry on the *Dativus* conflict (2026-10-01).
 
 
-### OG-72. Change order: the date of the petition council named in Doc_02 and Registry rows 12 and 44, 2026-10-01.
+### OG-73. Change order: the date of the petition council named in Doc_02 and Registry rows 12 and 44, 2026-10-01.
 
 The project lead approved a change order on 2026-10-01 to correct how the approved Doc_02 and the Registry handle the date of the African council that petitioned the emperors (Letter 185, section 25). This answers the open decision in the entries on the council date and on where Doc_02 uses 401 (both 2026-10-01). The year 401 comes only from the NPNF editor's footnote and endnote (`npnf104_augustine-anti-manichaean-anti-donatist.xml` line 19631); Augustine gives no year. The note before Canon XCIII in the English Code of Canons of the African Church dates the council to the Calends of July in Honorius's sixth consulship, 404 (`npnf214_seven-ecumenical-councils.xml` lines 35826-35831; Registry row 26), and Hefele-Leclercq gives June 404 (Registry row 247, lines 4882-4884).
 
@@ -2222,7 +2236,7 @@ What changed. In Doc_02 section 1 (the Augustine entry), the two uses of "the 40
 Verification by a separate agent is pending.
 
 
-### OG-73. Verification of the council-date change order, fixes applied, Doc_01 extension and the region-name ruling, 2026-10-01.
+### OG-74. Verification of the council-date change order, fixes applied, Doc_01 extension and the region-name ruling, 2026-10-01.
 
 A separate agent verified the change order on the petition council's date (the entry "Change order: the date of the petition council named in Doc_02 and Registry rows 12 and 44", 2026-10-01); the record is `Review-Artifacts/CouncilDate_ChangeOrder_Verification_2026-10-01.md`. It found the core correction sound and every cited locus accurate, with three MEDIUM, two LOW and two COSMETIC findings. The project lead approved applying all of them on 2026-10-01 and extended the change order to Doc_01.
 
@@ -2233,7 +2247,7 @@ Applied. F1: Registry row 44's chronology sentence now reads "eight years after 
 Region-name ruling. The project lead ruled on 2026-10-01 that Datus's one self-naming line reads "I am a representative of the ordinary churches of Latin North Africa." (it read "Latin Africa"). Changed in the voice record's self-reference note (the four hardening rules, the 900-word budget and each field's FK limit unchanged), the Permanent Prompt, Doc_10 (sections 1A, 8), the Voice Configuration (which also quoted the retired line "the voice of the ordinary churches" in its Notes; now the sanctioned line). The Prompt's opening phrase "a bishop of a Latin African congregation" is a role description, not the line, and stands. Capsule Core line 3 is a world description and stands. No generator script emits the line, so none changed. Audit records (the Decision Log, the Phase 5 test record, Review-Artifacts, earlier entries here) keep the earlier wording as dated records. The package was rebuilt and repinned.
 
 
-### OG-74. Role label ruled: Bishop of the Flock, and the Capsule Core's second phrase, 2026-10-01.
+### OG-75. Role label ruled: Bishop of the Flock, and the Capsule Core's second phrase, 2026-10-01.
 
 The project lead ruled on 2026-10-01 that Datus's role label changes from "Bishop of the Kept Flock" to "Bishop of the Flock". The label is warm and plain, and it keeps the shepherd image from Cyprian's vocabulary. He was shown four options: Bishop of the Flock; Bishop Who Keeps the Flock; Bishop of the Town Church; and keeping Bishop of the Kept Flock. This ruling changes the label stated in the Representative Identity Options file (entry "2026-09-15 — M1 RESOLVED: Representative identity and image") without reopening the name, role or image. The earlier label stays in that file as history only.
 
@@ -2246,6 +2260,54 @@ Not touched. `Build/Ministry/**`, the Decision Log, `Review-Artifacts/`, earlier
 Open for the project lead. The portrait caption in the Decision Log entry and `Datus_Portrait_Prompt.md` still says "Datus, Bishop of the Kept Flock." He owns that text and updates it. The caption's line "a church which takes everyone back the same afternoon has no door, and one that takes no one back has no Master" is a coined line and stays logged for him. The package was rebuilt and repinned to carry the new label.
 
 
-### OG-75. Recheck of the council-date and label changes, 2026-10-01: verified; three low findings applied.
+### OG-76. Recheck of the council-date and label changes, 2026-10-01: verified; three low findings applied.
 
 The targeted recheck (`Review-Artifacts/CouncilDate_LabelChange_Recheck_2026-10-01.md`, a change-order verification recheck and not a Doc_02 or Doc_10 revision round) resolved all earlier findings and confirmed the self-naming line ("Latin North Africa") and the role label ("Bishop of the Flock") on every live surface and in the compiled package. Applied: the Licensed For cells of Registry rows 26 and 247 now name Doc_01 section 7; the facilitator brief now says the plain self-naming line is used at most once in a turn; Doc_01 section 7 and Doc_02 section 1 say "endnote" for the one NPNF note, and Doc_01 section 7 is reworded for readability. Correction to the entry on the council-date verification fixes (2026-10-01): the Doc_01 edits are in section 7 (line 160) and section 8, item 12 (line 182), not sections 5 and 7; the verification file of the same date carries the same slip. Both stand as written. Not applied, the project lead's call: splitting the Capsule Core's first sentence (38 words) into two. Open: the pinned package's recorded commit stamp names a commit that predates the label change; its contents are correct, and the staleness and determinism checks pass. Open: Doc_01's status note points to the Decision Log as the record of later edits, but that log has no entry for these edits; the ledger carries them.
+
+### OG-77. Registry rows, Doc_02 and this ledger reconciled with main's numbering after the Library's branch merged to main, 2026-10-02.
+
+The Library thread's branch merged to `main` on 2026-10-01 and settled, on its own, the same Registry row collision this branch had settled differently at its earlier merge (OG-56, the Registry rows renumbered after the merge with main, 2026-09-30). `main`'s numbering is now the base. Every row `main` has keeps `main`'s number, and this branch's work is re-applied onto it. Rows were matched by work and file name, not by number; the full table is in the merge session's scratchpad (`rowmap_ours_to_main_2026-10-02.txt`) and is summarized here.
+
+**Old number (this branch, 2026-09-30) to new number (`main`), 2026-10-02.**
+
+| This branch | `main` |
+|---|---|
+| 1–263 | unchanged |
+| 264–268 | 265–269 |
+| 269–272 | 271–274 |
+| 273 (Toulotte) | 276 |
+| 274–277 | 279–282 |
+| 278–301 | 285–308 |
+| 302–355 | 309–362 (new rows, appended) |
+
+- **Rows with no counterpart in `main` (2026-10-02).** This branch's rows 302–355 register works or files `main` has no row for: 302 the *Psalmus contra partem Donati* (now 309), 303–346 the holdings-report files (now 310–353, all Excluded) and 347–355 the remaining holdings files (now 354–362, Excluded). They follow `main`'s last row, 308, in this branch's order, every field kept.
+- **Rows of `main` with no counterpart here (2026-10-02).** At its 2026-09-30 merge this branch had folded five second copies into the row of the first copy. `main` keeps each file in its own row, as the project lead ruled on 2026-10-01: 264 (the CSEL 41 scan; folded here into 215), 270, 283 and 284 (the second Gebhardt scan; folded into 222), 275 (Mesnage; folded into 238), 277 (Audollent; folded into 239) and 278 (von Soden; folded into 224). Rows 215, 222, 224, 238 and 239 keep this branch's checks and Licensed-For wording, and their "second copy" sentences now point to those rows instead of repeating them.
+
+**What was kept from each side, 2026-10-02.**
+- `main`: the text and number of every row the two sides did not both change; the Library's merged rows 220, 225 and 226 (Confidence C for Koch and Benson, as ruled on 2026-10-01; row 225 gains this branch's sentence that Doc_02 §7 cites it only for the pseudo-Cyprianic works and the date of Pontius's *Life*); rows 56, 61, 64, 65, 88, 191–193, 195, 211 and 213, where the two wordings differed in style only; the Registry's Status line; row 214's pointer to the per-work rows, extended to include row 309; the corpus-map wording of rows 302–308; the contiguous table layout.
+- This branch: the silence-scope and class-level exception wording (rows 6, 194, 205, 207 and 233); the council-date change order (rows 12, 26, 44, 202 and 247, the same works in both numberings); the Licensed-For updates and quote-verification fixes; the letters the project lead decided (row 14 locus-only A, row 33 B, row 44 A); row 301 as Named Comparandum (this branch's change after the Library's text, under the silence-claim ruling of 2026-09-30); the single merged sweep and saturation account, renumbered, with the second copies at rows 264, 270, 275, 277 and 278 named in it.
+- Doc_02: `main`'s Status line and §9 item 1; this branch's §7 silence statement, class-level exception, §8 Contested council date and quote fixes, with rows renumbered. §1's census was recounted on 2026-10-02 against the merged `cic/corpus-map/`: 213 raw entries, 168 `tradition`, 166 distinct `tradition` titles and 45 `role: context` in this world's file, the figures `main` gives; the two earlier counts (2026-09-30 and commit `3da8738f2`) are kept beside it.
+
+**Conflicts found, 2026-10-02.**
+- **Petschenig line numbers.** `main`'s rows 14, 253–256 and 302–308 put the Petschenig headings 3 lines later than this branch did (for example `CONTRA LITTERAS PETILIANI` at 24752). The file is byte-identical on both sides, and the headings sit at this branch's lines (24749, 25768, 33387, 72034, 72781), as the merged corpus map also says. This branch's line numbers were kept. `main`'s OG-26 (the collisions between the two library threads' work, 2026-09-30) says those numbers were moved to match the kept file; on the file as merged they do not.
+- **The two von Soden files.** `main`'s OG-26 (2026-09-30) says the four doubled works come from different archive.org items. Both von Soden files name the same item, `quellenundforsch12deutuoft`, in their headers. Row 224 keeps this branch's "from the same archive.org item".
+- **Corpus-map statements.** This branch's rows for the seven later Petschenig works said the corpus map gave them no assignment; the merged map places all eleven of the file's lpc works in `latin-pastoral-congregational-christianity.yaml` and `donatism.yaml`, so `main`'s wording stands. This branch's row 220 said the Krueger file was not assigned to this world; `main`'s row, which names the map entry, stands. Rows 215, 219 and 222 still say "Not assigned to this world in the corpus map", and row 214 still speaks of four assigned works; both are Library-owned text and stay open with the Library (OG-57, the handoff gate after the merge with main, 2026-09-30).
+- **Layout.** This branch's Registry had a blank line between rows from row 214 on, which breaks the table. `main`'s layout was used.
+- **`main`'s closing saturation paragraph appeared three times.** This branch's single account replaced it.
+- **The same ledger entry twice.** This branch's OG-53 and `main`'s OG-25 are one entry, the Library's readiness sweep of 2026-09-29 and 2026-09-30, numbered OG-23 at the common base and renumbered differently on each side. `main`'s OG-25 stands; this branch's copy was not appended again, and references to it now cite OG-25.
+
+**Ledger renumbering, 2026-10-02.** `main`'s OG-25 and OG-26 keep their numbers. This branch's entries follow them in this branch's order:
+
+| This branch | Now |
+|---|---|
+| OG-25 to OG-52 | OG-27 to OG-54 |
+| OG-53 (the Library sweep) | OG-25 (`main`'s copy) |
+| OG-54 to OG-75 | OG-55 to OG-76 |
+
+References to the renumbered entries were changed, with subject and date, inside this branch's entries, in `lpc_Claims_Register.md` and in three search records (`lpc.search.csel58-indices-reprint-only`, `lpc.search.latin-pastoral-source-discovery-saturation`, `lpc.search.reference-instrument-sweep`). Review files were not edited and keep the old numbers, read through the table above (as of 2026-10-02): `ChangeOrder_Verification_2026-09-30.md`, `ClaimsChangeOrder_FinalRecheck_2026-09-30.md`, `ClaimsClassException_Recheck_2026-09-30.md`, `ClaimsException194_Verification_2026-09-30.md`, `CouncilDate_LabelChange_Recheck_2026-10-01.md`, `Doc10_Round1_Review.md`, `Doc10_Round2_Review.md`, `Doc10_Round3_Review.md`, `SilenceClaim_Ruling_Verification_2026-09-30.md` and `WorldFront_FacilitatorBrief_Recheck_2026-09-30.md`. Earlier entries of this ledger and the review files keep their row numbers too; read them through this entry's row table and, for numbers before 2026-09-30, through OG-56's.
+
+**References remapped, 2026-10-02.** 212 row references in 28 files moved to `main`'s numbering: Doc_03, Doc_04, Doc_05, Doc_08, Doc_09, Doc_10, the World Profile, the Gapped Formation Precedent, the Source Acquisition Manifest, two lexicon chunks and one story chunk, the two claims registers, the generators `wb_lpc_s21.py`, `s22`, `s25`, `s26` and `s28`, and nine records (world core, the silence force, two honest limits, one contested claim, one term, one source and two search records). The world core's count of uncompiled rows was restated: 362 rows, 149 above 213, 59 of them Excluded, row 222 partly Excluded, 89 with no source record.
+
+**Claims re-registered, 2026-10-02.** In `lpc_Claims_Register.md`, seven claims changed only in their row numbers and keep their status, with a note in the check cell: `3c36b4da` (was `07009ff9`), `0f3b60a2` (was `cb404015`), `02771ea4` (was `98da5674`), `1f98359b` (was `416e1e7e`), `5559e897` (was `80391933`), `93b4133b` (was `39404aae`) and `969abfd9` (was `1652508f`). The world core's count, `5ef5cb08` (was `47bbbca6`), is restated and UNVERIFIED, pending re-verification. In `Doc09_Claims_Register.md`, `2a9e0187` (was `f739b561`) and `ee879758` (was `69e69995`) changed only in their row numbers.
+
+**Open, 2026-10-02.** No review artifact covers this reconciliation. `build/lpc_Handoff_Manifest.md` still records the handoff run that counted 355 Registry rows. `Doc09_Claims_Register.md`'s own check (`scripts/check_claims.py`) fails with 19 unregistered claims, as it did before this merge.

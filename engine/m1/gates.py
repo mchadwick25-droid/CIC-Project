@@ -268,7 +268,7 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
 
 def gate_quote_recording(records, fleet, registry) -> list[str]:
     findings = []
-    valid_licenses = {"verbatim", "paraphrase-only", "do-not-voice"}
+    valid_licenses = {"verbatim", "paraphrase-only"}
     for rid, rec in records.items():
         if rec.get("record_type") != "quote":
             continue
@@ -500,6 +500,13 @@ _READABILITY_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator
 # those free-text notes.
 _READABILITY_EXCLUDED_FIELDS = {("quote", "text"), ("story", "text")}
 
+# A participant's turn in a demonstration exchange is a record of what the
+# participant said, like quote.text, not prose the project authors, so it
+# is never readability-graded. Only turns
+# whose `speaker` is "participant" are skipped; the world's own turns in
+# the same exchange are graded exactly as before.
+_READABILITY_EXCLUDED_SPEAKERS = {("demonstration", "exchange"): {"participant"}}
+
 # The three declared SPOKEN fields whose value is a list of {..., <key>}
 # objects rather than a bare string or list[str] - the sub-key each one's
 # own prose lives under. Read directly off each field's own real shape
@@ -528,7 +535,10 @@ def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
             continue
         list_key = _READABILITY_LIST_TEXT_KEY.get((record_type, field))
         if list_key is not None:
+            skip_speakers = _READABILITY_EXCLUDED_SPEAKERS.get((record_type, field), set())
             for item in value:
+                if isinstance(item, dict) and item.get("speaker") in skip_speakers:
+                    continue
                 text = item.get(list_key) if isinstance(item, dict) else None
                 if text:
                     tag = item.get("segment") or item.get("number") or item.get("speaker") or ""
@@ -1136,7 +1146,7 @@ def gate_id_convention(records, fleet, registry) -> list[str]:
 # missing mechanical check that a world_front record's own authored prose
 # actually followed that rule, rather than trusting review to catch it by
 # eye every time.
-_QUOTE_NEVER_QUOTABLE_LICENSES = {"paraphrase-only", "do-not-voice"}
+_QUOTE_NEVER_QUOTABLE_LICENSES = {"paraphrase-only"}
 
 # Straight or curly double quotation marks only - deliberately not single
 # quotes/apostrophes (') or curly single quotes (' '): those collide with
@@ -1199,9 +1209,9 @@ def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
     """Any text a world_front record renders inside quotation marks must
     match a quote record's `modern_rendering` field exactly - never `text`
     (the quote-rendering rule; see this module's own comment above).
-    Material whose license is `paraphrase-only` or `do-not-voice` must
-    never appear inside quotation marks at all, from either field,
-    regardless of whether it happens to match.
+    Material whose license is `paraphrase-only` must never appear inside
+    quotation marks at all, from either field, regardless of whether it
+    happens to match.
 
     This is the mechanical version of a defect that has already shipped
     live, twice, on hand-authored site copy: a

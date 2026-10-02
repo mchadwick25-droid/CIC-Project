@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-church-palaiologan
 works:
-- work: John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin
+- row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-anagnostes-de-thessalonicensi-excidio-narratio-greek-2
+  work: John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin
   author: anagnostes
   locus: from about file line 27162
   role: context
@@ -13,7 +14,8 @@ works:
     voice, not the church's own. Placed on the entry's window; the file's own treatment of
     the church was not checked for this placement.
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
-- work: John Cananus, De bello Constantinopolitano, Greek with Latin
+- row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-cananus-de-bello-constantinopolitano-greek-with-latin-2
+  work: John Cananus, De bello Constantinopolitano, Greek with Latin
   author: cananus
   locus: from about file line 25915 to 27161
   role: context
@@ -23,7 +25,8 @@ works:
     voice, not the church's own. Placed on the entry's window; the file's own treatment of
     the church was not checked for this placement.
   source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
-- work: Historia Byzantina of Doukas (Ducas), Greek with Latin
+- row_id: doukas_historia-byzantina-grc-lat_bekker1834--historia-byzantina-of-doukas-ducas-greek-with-latin-2
+  work: Historia Byzantina of Doukas (Ducas), Greek with Latin
   author: doukas
   locus: Bekker's preface at file line 244; Boulliau's epistle at 292; the history from about
     line 554
@@ -34,7 +37,8 @@ works:
     voice, not the church's own. Placed on the entry's window; the file's own treatment of
     the church was not checked for this placement.
   source_file: doukas_historia-byzantina-grc-lat_bekker1834.txt
-- work: Chronicon of George Sphrantzes (Phrantzes), Greek with Latin
+- row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--chronicon-of-george-sphrantzes-phrantzes-greek-with-latin-2
+  work: Chronicon of George Sphrantzes (Phrantzes), Greek with Latin
   author: sphrantzes
   locus: Bekker's preface at file line 131; the chronicle from about line 192 to 25914
   role: context

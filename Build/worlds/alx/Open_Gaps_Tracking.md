@@ -350,3 +350,15 @@ Closing this world's own share of the fleet-wide gap named in `Build/Ministry/Op
 Run as part of one batch invocation covering alx, cappadocian, desert, and don (`--worlds alx,cappadocian,desert,don`; gallic split into its own invocation after this one's own `--max-usd $3.00` ceiling stopped before gallic's billed calls — see gallic's own OG-17 for that detail). Result: **28/28 sealed probes pass**, real cost **$0.4618755**. Full report: `engine/m3/reports/live-admission-report-batch1-2026-09-27.json` (`worlds.alx`).
 
 No probe failed, so there is nothing here for a next thread to fix. This entry only closes the "never re-tested against the current pin" gap the audit named for this world.
+
+### OG-12. The voice-knowledge rulings do not reach force, gravity, contested-claim or figure records, 2026-10-01 — builder tags stripped from 13 of 30 force, gravity and world_core fields; seven remain
+
+R26 (ruled 2026-09-22) and Process V2.0 line 982 say the voice knows only what its own sources, or the world in its own time, would have known. The checks behind them cover the voice's turns and a limited list of fields. They do not cover the force, gravity, contested-claim and figure records, which the voice reads when they are retrieved. No rule says how far past the horizon an ending or transmission force may reach, and no gate checks a record against the time window. Confidence tags, source ids and "cross-build" wording are not gated in those records either.
+
+Done: builder tags are stripped from 13 force, gravity and world_core fields (the "In the world's own experience:" label, confidence tags, "cross-build", "STRICTLY post-318", gravity class labels), and long sentences are split so each field clears the readability gate. No world fact, name, record or date was removed. The builder notes in `world_core.cautions` were removed earlier and that field was rewritten for readability.
+
+Still carrying builder tags: `alx.force.persecution`, `alx.force.platonic-environment`, `alx.force.transmission-ending`, `alx.force.transmission-ongoing`, `alx.gravity.martyrdom-contemplative-tension`, `alx.gravity.soul-transformation` and the `alx.core.alexandria` thinness field. None can clear the readability gate without dropping a name or term (long names such as Diocletianic, hagiography and allegorical-Christological), and an edited field must pass it, so they are left unedited. The `[2A - ...]` style tag in each force and gravity `name` is also still present, as in every world.
+
+Not decided here: whether to review force and gravity records for post-400 content. `alx.force.arab-conquest` (641) and `alx.force.chalcedonian-fracture` (451) are entirely about events after the window, and `alx.term.theosis` carries `world_word: theosis`, a later noun. A first review pass was started and set aside because it changed world content.
+
+Status: OPEN — the seven fields above and the post-400 question.

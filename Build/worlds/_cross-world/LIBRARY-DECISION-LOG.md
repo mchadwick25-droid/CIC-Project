@@ -13,6 +13,65 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-09-30 — Two Source Registry rules adopted into the Template
+
+**Ruling.** The project lead adopted both rules proposed in the entry "Step 0-2 process and gate fixes": one Confidence letter per row, with A given only when the Licensed-For content was read and verified at the source by structure marker; and corpus figures counted by two independent methods with the locale stated. His answer to the choice-box question was "Adopt both (Recommended)". Both are now written into `Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md` (the Confidence field, and a sixth rule). The Template's scale stays A to E; E marks a source later found unreliable. The proposal paragraph in the earlier entry is superseded by this one and is not edited.
+
+---
+
+## 2026-09-30 — Step 0-2 process and gate fixes
+
+**Instruction.** The project lead ordered: "also apply fixes to the step 0 - 2
+build process so we have what we need for future builds." The jes and hus
+builds exposed the gaps.
+
+**Gate (engine/m10, tools).** The quote store joins line-end `¬` hyphenation in
+the Institutum scans (the mark and one line break) before matching, in the
+source and in the quotation. The project-document pool includes plain text of
+the `.docx` files in `Build/reference/L1-Foundation` and the current Formation
+World Construction Framework (highest version number in its name), so Article 4
+and Framework quotations count as project-document quotations; superseded,
+draft, proposal, safety-test, tracker and register documents are not in the
+pool. A review file may carry a `Cycle reset` header field. The three-round cap
+counts from the latest file whose field is earned: it cites, by exact title, an
+entry of this log (the ruling "The three-round cap counts from significant new
+material") or of a Build/Ministry decision log, and the round before it cleared
+review. Without an earned field the count starts at round 1, and a reset that is
+not honoured routes the cap finding to the project lead with the reason. Every
+file stays on record. `check_live_commentary.py` treats an ISO date in a
+`Source_Registry.md` or `<code>_Source_Registry.md` table as schema data only
+inside a cell whose column header is `Added` or a discovery or date column.
+
+**Process and templates.** Process V2.0 Section 4 gains the Library-stage
+rules and completion checklist (registry entry timing, review-file naming and
+filing, quotations, dossier, Registry row rules, Doc_02 checks, manifest,
+shared working tree) and Section 12 records the change order with its reason
+and the worlds it binds. The handoff items 1 and 12, the review-file header
+template and its rules file, and the Launch Prompt V2.0 follow.
+
+**Proposed for the Source Registry Template, awaiting the project lead's
+decision.** Two rules were drafted into the process document and taken out
+again, because each changes the method for every world and comes from the
+Template. They are not in force. Exact wording:
+
+- Confidence calibration: "Each row carries one Confidence letter, A to D. A
+  is given only when the Licensed-For content was read and verified at the
+  source by structure marker."
+- Corpus figures: "Corpus figures are counted by two methods, with the locale
+  stated (`C.UTF-8` and `POSIX` count differently)."
+
+The Template's own Confidence scale is A to E and defines A as "Verified this
+session against an accessible primary source, translation, or authoritative
+reference".
+
+---
+
+## 2026-09-30 — Foxe vol. III and Van Braght placed to the Hussite world
+
+**Ruling.** The project lead approved the two cross-world placements the hus build requested (Open_Gaps E1, E2) and said the Library should make placements of this kind itself, escalating to him only for a significant problem. Foxe's *Acts and Monuments* vol. III (Hus section, file lines 30742–46807) is placed to `the-hussite-and-bohemian-brethren-movement` as `role: context`, alongside its Lollardy placement. Van Braght's *Martyrs' Mirror* (Hus and Taborite sections, lines 47370–47660) is placed there as `role: context`, `confidence: provisional`, alongside its Anabaptist placement. The hus Registry gains rows for them in the hus thread's next revision; Doc_02 relies on neither yet.
+
+---
+
 ## 2026-09-30 — lpc row 229 stays unsplit; the lpc build continues
 
 **Ruling.** The project lead ruled that row 229 (33 Native sermons plus 9

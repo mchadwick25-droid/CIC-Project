@@ -3,7 +3,8 @@
 source_file: justin-martyr_second-apology-grc_rauschen1911.txt
 
 assignments:
-  - work: "The Second Apology"
+  - row_id: justin-martyr_second-apology-grc_rauschen1911--the-second-apology
+    work: "The Second Apology"
     author: justin_martyr
     locus: "file line 95 (TEI <head> 'APOLOGIA II.', Greek chapter 1 follows)"
     atlas_ids:

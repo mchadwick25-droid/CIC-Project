@@ -3,7 +3,8 @@
 source_file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
 
 assignments:
-  - work: "Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin
+    work: "Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 16500-30929"
     atlas_ids:
@@ -26,7 +27,8 @@ assignments:
       letters by others (Cornelius, the Roman clergy, Firmilian of Caesarea, the confessors) under
       Cyprian's name, so author cyprian is the corpus author of record.
 
-  - work: "Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin-2
+    work: "Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 16500-30929"
     atlas_ids:
@@ -46,7 +48,8 @@ assignments:
       the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
       with any quotation. Mirrors the English twin's roles and confidence exactly.
 
-  - work: "Epistle LXXV (Hartel numbering) - Firmilian, Bishop of Caesarea in Cappadocia, to Cyprian, against the letter of Stephen (TEI)"
+  - row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistle-lxxv-hartel-numbering-firmilian-bishop-of-caesarea
+    work: "Epistle LXXV (Hartel numbering) - Firmilian, Bishop of Caesarea in Cappadocia, to Cyprian, against the letter of Stephen (TEI)"
     author: cyprian
     locus: "file line 15924 (title 'Epistula LXXV.'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1, letter n=75"
     atlas_ids:

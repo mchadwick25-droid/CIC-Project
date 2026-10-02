@@ -3,7 +3,8 @@
 source_file: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
 
 assignments:
-  - work: "Sermones ad populum, Classes I-IV (Maurist edition, Migne printing, tome V)"
+  - row_id: augustine_sermones-ad-populum-lat_migne-gaume1841-t5--sermones-ad-populum-classes-i-iv-maurist-edition-migne
+    work: "Sermones ad populum, Classes I-IV (Maurist edition, Migne printing, tome V)"
     author: augustine
     locus: "file line 699 ('SERMO PRIMUS', opening of Classis I); Classis IV 'De Diversis' at file line 106615"
     atlas_ids:
@@ -23,7 +24,8 @@ assignments:
       the pre-critical Maurist edition as printed by Migne. Mirrors the English twin's role and
       confidence exactly.
 
-  - work: "Sermones dubii (Maurist Classis V, Migne printing, tome V)"
+  - row_id: augustine_sermones-ad-populum-lat_migne-gaume1841-t5--sermones-dubii-maurist-classis-v-migne-printing-tome-v
+    work: "Sermones dubii (Maurist Classis V, Migne printing, tome V)"
     author: augustine
     locus: "file line 117124 ('CLASSIS V. SERMONES DUBII')"
     atlas_ids:

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: syriac-orthodox-west-syriac-christianity
 works:
-- work: The Arabic Gospel of the Infancy of the Saviour
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-arabic-gospel-of-the-infancy-of-the-saviour-2
+  work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   role: transmission
@@ -16,7 +17,8 @@ works:
     the class is. Compiled from Syriac sources and transmitted in Arabic through that milieu;
     custody, not composition.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Chronicle of Edessa
+- row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa-2
+  work: The Chronicle of Edessa
   author: chronicle-of-edessa
   locus: whole work (single-work volume)
   role: context
@@ -29,7 +31,8 @@ works:
 
     '
   source_file: chronicle-of-edessa_cowper.txt
-- work: A Canticle of Mar Jacob the Teacher on Edessa
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-canticle-of-mar-jacob-the-teacher-on-edessa
+  work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
   locus: div2 9.4
   role: tradition
@@ -39,7 +42,8 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Divine Liturgy of James
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
+  work: The Divine Liturgy of James
   author: liturgy-of-st-james
   locus: div2 12.2
   role: tradition

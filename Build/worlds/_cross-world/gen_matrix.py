@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[3]
 # item 2 of this audit applies everywhere else a world list was hand-kept
 # instead of read from the one registry.
 reg = load_registry()
-W = formation_world_keys(reg)
+W = [w for w in formation_world_keys(reg) if reg[w].get("package")]  # worlds with a compiled package; Library-stage worlds have none yet
 fleet = load_fleet_records()
 R = {w: load_world_records(w) for w in W}
 census = json.loads((ROOT / "cic-website/data/world-census.json").read_text())

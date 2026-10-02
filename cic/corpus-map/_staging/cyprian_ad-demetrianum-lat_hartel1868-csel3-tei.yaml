@@ -3,7 +3,8 @@
 source_file: cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt
 
 assignments:
-  - work: "Ad Demetrianum, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_ad-demetrianum-lat_hartel1868-csel3-tei--ad-demetrianum-csel-3-latin-text-tei
+    work: "Ad Demetrianum, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 108 (first text of the TEI body, opening 'Oblatrantem te et aduersus Deum'); urn:cts:latinLit:stoa0104a.stoa002.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 12664-13428"
     atlas_ids:
@@ -24,7 +25,8 @@ assignments:
       attribution and share-alike travel with any quotation. Mirrors the English twin's roles and
       confidence exactly.
 
-  - work: "Ad Demetrianum, CSEL 3 Latin text (TEI)"
+  - row_id: cyprian_ad-demetrianum-lat_hartel1868-csel3-tei--ad-demetrianum-csel-3-latin-text-tei-2
+    work: "Ad Demetrianum, CSEL 3 Latin text (TEI)"
     author: cyprian
     locus: "file line 108 (first text of the TEI body, opening 'Oblatrantem te et aduersus Deum'); urn:cts:latinLit:stoa0104a.stoa002.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt lines 12664-13428"
     atlas_ids:

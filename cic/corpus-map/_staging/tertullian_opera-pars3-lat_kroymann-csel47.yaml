@@ -4,7 +4,8 @@
 source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
 
 assignments:
-  - work: "On Patience"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--on-patience
+    work: "On Patience"
     author: tertullian
     locus: "file line 1566 (heading 'DE PATIENTIA.', treatise I of the volume's Index)"
     atlas_ids:
@@ -19,7 +20,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "On the Resurrection of the Flesh"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--on-the-resurrection-of-the-flesh
+    work: "On the Resurrection of the Flesh"
     author: tertullian
     locus: "file line 2656 (heading 'DE CARNIS RESVRRECTIONE.', treatise II)"
     atlas_ids:
@@ -34,7 +36,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "Against Hermogenes"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-hermogenes
+    work: "Against Hermogenes"
     author: tertullian
     locus: "file line 7179 (heading 'ADVERSVS HERMOGENEM.', treatise III)"
     atlas_ids:
@@ -49,7 +52,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "Against the Valentinians"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-the-valentinians
+    work: "Against the Valentinians"
     author: tertullian
     locus: "file line 9473 (heading 'ADVERSVS VALENTINIANOS.', treatise IV)"
     atlas_ids:
@@ -64,7 +68,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "Against the Valentinians"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-the-valentinians-2
+    work: "Against the Valentinians"
     author: tertullian
     locus: "file line 9473 (heading 'ADVERSVS VALENTINIANOS.', treatise IV)"
     atlas_ids:
@@ -79,7 +84,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "Against Praxeas"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-praxeas
+    work: "Against Praxeas"
     author: tertullian
     locus: "file line 11686 (heading 'ADVERSVS PRAXEAN.', treatise VI)"
     atlas_ids:
@@ -94,7 +100,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "Against Praxeas"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-praxeas-2
+    work: "Against Praxeas"
     author: tertullian
     locus: "file line 11686 (heading 'ADVERSVS PRAXEAN.', treatise VI)"
     atlas_ids:
@@ -109,7 +116,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "Against Praxeas"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--against-praxeas-3
+    work: "Against Praxeas"
     author: tertullian
     locus: "file line 11686 (heading 'ADVERSVS PRAXEAN.', treatise VI)"
     atlas_ids:
@@ -124,7 +132,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "The Five Books Against Marcion"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--the-five-books-against-marcion
+    work: "The Five Books Against Marcion"
     author: tertullian
     locus: "file line 14512 (heading 'ADVERSVS MARCIONEM LIBRI QVINQVE', treatise VII)"
     atlas_ids:
@@ -139,7 +148,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "The Five Books Against Marcion"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--the-five-books-against-marcion-2
+    work: "The Five Books Against Marcion"
     author: tertullian
     locus: "file line 14512 (heading 'ADVERSVS MARCIONEM LIBRI QVINQVE', treatise VII)"
     atlas_ids:
@@ -154,7 +164,8 @@ assignments:
       speaks is rendered from it, with the vendored English as a cross-check. Mirrors the English
       twin's role and confidence exactly.
 
-  - work: "The Five Books Against Marcion"
+  - row_id: tertullian_opera-pars3-lat_kroymann-csel47--the-five-books-against-marcion-3
+    work: "The Five Books Against Marcion"
     author: tertullian
     locus: "file line 14512 (heading 'ADVERSVS MARCIONEM LIBRI QVINQVE', treatise VII)"
     atlas_ids:

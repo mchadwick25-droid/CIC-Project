@@ -2,7 +2,8 @@
 source_file: poschmann_abendlaendische-kirchenbusse-deu_1928.txt
 
 assignments:
-  - work: "Die abendlaendische Kirchenbusse im Ausgang des christlichen Altertums (Poschmann, 1928)"
+  - row_id: poschmann_abendlaendische-kirchenbusse-deu_1928--die-abendlaendische-kirchenbusse-im-ausgang-des-christlichen
+    work: "Die abendlaendische Kirchenbusse im Ausgang des christlichen Altertums (Poschmann, 1928)"
     author: poschmann
     locus: "whole file; title page at file line 80; the chapter on penance in the African church, '4. Die Buße in der afrikanischen Kirche', at file line 8425"
     atlas_ids:

@@ -4,7 +4,8 @@
 source_file: augustine_de-bono-coniugali-lat_zycha1900-csel41-tei.txt
 
 assignments:
-  - work: "On the Good of Marriage (De Bono Coniugali), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_de-bono-coniugali-lat_zycha1900-csel41-tei--on-the-good-of-marriage-de-bono-coniugali-csel-41-latin-text
+    work: "On the Good of Marriage (De Bono Coniugali), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 111 (first paragraph of the TEI body, opening 'Quoniam unusquisque homo humani'); printed heading 'V. DE BONO CONIVGALI.' at file line 108; CSEL 41 work V, printed pp. 185-231"
     atlas_ids:

@@ -3,7 +3,8 @@
 source_file: minucius-felix_octavius-lat_boenig1903.txt
 
 assignments:
-  - work: "The Octavius of Minucius Felix"
+  - row_id: minucius-felix_octavius-lat_boenig1903--the-octavius-of-minucius-felix
+    work: "The Octavius of Minucius Felix"
     author: felix
     locus: "file line 88 (title page 'M. MINUCII FELICIS OCTAVIUS'; the text begins after Boenig's preface)"
     atlas_ids:

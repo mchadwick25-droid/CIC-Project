@@ -28,10 +28,7 @@ relations:
   target: alx.gravity.logos-unity
 name: The Johannine Logos Theology [1B - initiating/internal]
 kind: initiating
-description: 'John''s Gospel identified the cosmic Logos with the one who became flesh; received as apostolic
-  testimony, and built on more fully here than in any other community. In the world''s own experience:
-  the Word through whom all was made had entered flesh - not one truth among many but the hinge on which
-  everything turned.'
+description: 'John''s Gospel identified the cosmic Logos with the one who became flesh. The community received this as apostolic testimony. It built on it more fully here than in any other community. The Word through whom all was made had entered flesh. This was not one truth among many. It was the hinge on which everything turned.'
 manifestations:
 - the Commentary on John as the tradition's central exegetical act
 - the Logos-architecture of the Protrepticus's New Song

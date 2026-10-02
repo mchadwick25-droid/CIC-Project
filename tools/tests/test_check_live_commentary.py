@@ -1020,7 +1020,7 @@ def test_real_fleet_true_positives_still_match_on_main():
     # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
     # not yet remediated in any world.
     assert _new_pattern_hits("records/alx/gravity/alx.gravity.logos-unity.md")
-    assert _new_pattern_hits("records/alx/world_core/alx.core.alexandria.md")
+    assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
     assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
 
 
@@ -1099,11 +1099,12 @@ def test_source_registry_table_cell_bare_date_keeps(tmp_path):
         "---\n"
         "\n"
         "| Row | Title | Boundary | Confidence | Added | Discovery |\n"
+        "|---|---|---|---|---|---|\n"
         "| 14 | Some Work | Native | Confidence B | 2026-07-14 | web search, 2026-07-14 |\n"
     )
     hits = _hits_for(text, tmp_path, "Build/worlds/witt/witt_Source_Registry.md")
     by_line = {h.line: h.category for h in hits}
-    assert by_line.get(6, "KEEP") == "KEEP"
+    assert by_line.get(7, "KEEP") == "KEEP"
 
 
 def test_source_registry_table_cell_date_first_keeps(tmp_path):
@@ -1116,13 +1117,14 @@ def test_source_registry_table_cell_date_first_keeps(tmp_path):
         "---\n"
         "\n"
         "| Row | Source | Confidence | Added |\n"
+        "|---|---|---|---|\n"
         "| 1 | Some Work | A | 2026-09-01, `lpc` build thread |\n"
         "| 2 | Another Work | B | 2026-08-31, build thread |\n"
     )
     hits = _hits_for(text, tmp_path, "Build/worlds/lpc/Source_Registry.md")
     by_line = {h.line: h.category for h in hits}
-    assert by_line.get(6, "KEEP") == "KEEP"
     assert by_line.get(7, "KEEP") == "KEEP"
+    assert by_line.get(8, "KEEP") == "KEEP"
 
 
 def test_bare_date_table_cell_outside_source_registry_still_rewrites(tmp_path):
@@ -1366,7 +1368,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # sits inside this file's own "## Document Log" section - genuinely
     # load-bearing review-history content, now correctly PROTECTED.
     ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "PROTECTED"),
-    ("Build/worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit b9ad408c):
     # the original rzg example was cleaned by that effort. Re-pinned to a
@@ -1469,7 +1471,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 251, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
-    ("fixtures/README.md", 25, "REWRITE"),
     ("fixtures/seeded_defects.yaml", 259, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 221, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
@@ -1646,6 +1647,59 @@ def test_method_rule_does_not_reach_other_paths(tmp_path):
     for rel in ("Build/reference/other/Doc.md", "Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", "Build/worlds/syr/Doc_01.md", "engine/x.md"):
         cats = [h.category for h in _hits_for("The reviewer reads it at the era gate.\n", tmp_path, rel)]
         assert set(cats) & _BLOCKING, rel
+
+
+# The Source Registry Template's entry schema has an `Added` field ("Date and
+# who/what added it") and Framework V7.4 Step 2 has each source row carry a
+# discovery channel, instrument and date. Neither mandates an ISO date; the
+# exemption is keyed to the column headers of the table itself.
+_REGISTRY_HEADER = "| # | Source | Verification Note | Added | Discovery (channel / instrument / date) |\n|---|---|---|---|---|\n"
+
+
+def _registry_hits(tmp_path, row, name="Source_Registry.md", header=_REGISTRY_HEADER):
+    hits = _hits_for(f"# Source Registry\n\n{header}{row}\n", tmp_path, f"Build/worlds/jes/{name}")
+    return {h.line: h.category for h in hits}
+
+
+def test_source_registry_dates_in_added_and_discovery_cells_are_kept(tmp_path):
+    row = "| 3 | Some Work | checked | 2026-09-29, `jes` build thread | WebSearch, 2026-09-28 |"
+    for name in ("Source_Registry.md", "jes_Source_Registry.md"):
+        assert _registry_hits(tmp_path, row, name).get(5, "KEEP") == "KEEP"
+
+
+def test_source_registry_date_in_another_cell_is_still_flagged(tmp_path):
+    row = "| 3 | Some Work | reworded on 2026-09-29 | 2026-09-29 | WebSearch |"
+    assert _registry_hits(tmp_path, row).get(5) == "REWRITE"
+
+
+def test_source_registry_narration_in_a_discovery_cell_is_still_flagged(tmp_path):
+    row = "| 3 | Some Work | checked | 2026-09-29 | fixed after the Round 2 review, 2026-09-28 |"
+    assert _registry_hits(tmp_path, row).get(5) == "REWRITE"
+
+
+def test_source_registry_dates_are_kept_only_under_the_headers_of_their_own_table(tmp_path):
+    header = "| # | Source | Notes | Status |\n|---|---|---|---|\n"
+    assert _registry_hits(tmp_path, "| 3 | Some Work | 2026-09-29 | open |", header=header).get(5) == "REWRITE"
+
+
+def test_a_registry_table_with_no_header_row_falls_back_to_the_short_cell_rule(tmp_path):
+    row = "| 3 | Some Work | checked | web search, 2026-09-28 |\n"
+    hits = _hits_for(row, tmp_path, "Build/worlds/jes/Source_Registry.md")
+    assert {h.category for h in hits} <= {"KEEP"}
+    header = "| # | Source | Notes | Status |\n|---|---|---|---|\n"
+    assert _registry_hits(tmp_path, "| 3 | Some Work | web search, 2026-09-28 | open |", header=header).get(5) == "REWRITE"
+
+
+def test_source_registry_exemption_needs_the_two_file_names(tmp_path):
+    row = "| 3 | Some Work | checked | 2026-09-29 | WebSearch |"
+    for name in ("Source_Registry_Notes.md", "Doc_02_Source_Ecology.md"):
+        assert _registry_hits(tmp_path, row, name).get(5) == "REWRITE"
+
+
+def test_source_registry_exemption_is_iso_date_only(tmp_path):
+    prose = "The row was rewritten on 2026-09-29 after review.\n"
+    assert _hits_for(prose, tmp_path, "Build/worlds/jes/Source_Registry.md")[0].category == "REWRITE"
+
 
 # ---------------------------------------------------------------------------
 # Generated package manifests

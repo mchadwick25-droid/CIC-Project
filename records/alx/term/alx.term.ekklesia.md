@@ -54,7 +54,7 @@ senses:
     Isn't the church basically a building or an organization with members? This world meant something
     different - an assembly constituted by people actually gathered around the Logos, not by a roll of
     names.
-quick_meaning: Not a building or a members list - the assembly gathered around the Logos.
+quick_meaning: Not a building or a list of members. It is the assembly gathered around the Logos.
 distortion_risk: high
 ---
 Imported from the old system's richer lexicon (alexlex043, "Church / Ekklesia") at Mark's direction, as

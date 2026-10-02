@@ -4,7 +4,8 @@
 source_file: augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt
 
 assignments:
-  - work: "Of Holy Virginity (De Sancta Virginitate), CSEL 41 Latin text (TEI)"
+  - row_id: augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei--of-holy-virginity-de-sancta-virginitate-csel-41-latin-text
+    work: "Of Holy Virginity (De Sancta Virginitate), CSEL 41 Latin text (TEI)"
     author: augustine
     locus: "file line 110 (first paragraph of the TEI body, opening 'Librum de Bono Coniugali'); printed heading 'VI. DE SANCTA VIRGINITATE.' at file line 107; CSEL 41 work VI, printed pp. 233-302"
     atlas_ids:

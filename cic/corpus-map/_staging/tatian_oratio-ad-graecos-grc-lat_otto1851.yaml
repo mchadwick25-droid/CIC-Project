@@ -3,7 +3,8 @@
 source_file: tatian_oratio-ad-graecos-grc-lat_otto1851.txt
 
 assignments:
-  - work: "Address to the Greeks"
+  - row_id: tatian_oratio-ad-graecos-grc-lat_otto1851--address-to-the-greeks
+    work: "Address to the Greeks"
     author: tatian
     locus: "file line 1660 (first running head 'TATIANI ORATIO AD GRAECOS' inside the text (the title page and prolegomena come before))"
     atlas_ids:

@@ -1373,14 +1373,14 @@
  },
  "lutheran-wittenberg-and-its-congregations-0": {
   "hash": "e91e2f8a870f6d07",
-  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "voiceId": "40lgdJOC1ND7hPOQX92p",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1374
  },
  "lutheran-wittenberg-and-its-congregations-1": {
   "hash": "dfb3ff73a4f7aa78",
-  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "voiceId": "40lgdJOC1ND7hPOQX92p",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1393

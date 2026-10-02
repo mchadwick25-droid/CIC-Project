@@ -1,7 +1,8 @@
 source_file: augustine_epistulae-maurist-order-lat_migne-pl33.txt
 
 assignments:
-  - work: "Augustine's Epistolae (Maurist order, Migne PL 33)"
+  - row_id: augustine_epistulae-maurist-order-lat_migne-pl33--augustine-s-epistolae-maurist-order-migne-pl-33
+    work: "Augustine's Epistolae (Maurist order, Migne PL 33)"
     author: augustine
     locus: "whole file, four classes and Appendix"
     atlas_ids:

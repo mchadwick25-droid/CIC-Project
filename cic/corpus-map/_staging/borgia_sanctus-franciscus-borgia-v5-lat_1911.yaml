@@ -1,0 +1,16 @@
+source_file: borgia_sanctus-franciscus-borgia-v5-lat_1911.txt
+assignments:
+- row_id: borgia_sanctus-franciscus-borgia-v5-lat_1911--sanctus-franciscus-borgia-tomus-v-1569-1572
+  work: Sanctus Franciscus Borgia, Tomus V (1569-1572)
+  author: borgia
+  locus: whole volume - Tomus V, 1569-1572
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Borgia''s letters and the monuments about him for 1569-1572, in the languages written (his letters
+    as General and other historical monuments about him). It lets the third General speak for himself,
+    from 1565 to his death in 1572. Primary original evidence for the movement, quotable once each wording
+    is checked against the page image: the scan is legible with occasional letter-level misreads. Word-form
+    coverage against a clean Latin vocabulary is 0.57; the Spanish, Italian and Portuguese passages and
+    the notes lower it, so the figure is a comparison across files and not a measure of accuracy.'

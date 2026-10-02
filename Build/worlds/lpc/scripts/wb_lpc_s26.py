@@ -635,8 +635,8 @@ def build_cyprian_death_genre() -> None:
             "pattern by a reader who has no independent witness' -- and this build has read no independent "
             "witness. The Acta Proconsularia, the strictly documentary record of the trial "
             "Pontius himself points readers toward, is vendored in Latin only (rows 41 and 194; also "
-            "printed in rows 268 and 222) and is unread. Augustine's feast-day sermons on Cyprian "
-            "(Sermo 309-313, row 264, second-witness OCR only), which retell the passion, are also "
+            "printed in rows 269 and 222) and is unread. Augustine's feast-day sermons on Cyprian "
+            "(Sermo 309-313, row 265, second-witness OCR only), which retell the passion, are also "
             "unread (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent Story Note).",
             "This world's own Doc_09 was independently reviewed and "
             "approved to proceed with this exact question named as an unresolved "
