@@ -16,10 +16,9 @@ through Gregory's own correspondence)
 2026, not via a Step 0 survey verdict — the census's own `why` field names
 the open questions a survey would settle as "whether these decades are a
 world or the opening of the medieval papacy that later entries carry, and
-whether an entry can properly be built around a single person at all." No
-build has started (no `worlds/rcg/` or equivalent folder exists); this is
-the first dossier written for it, from a cold search, not a write-up of
-prior work.
+whether an entry can properly be built around a single person at all." Steps 0 to 2
+are filed at `Build/worlds/rcg/`; this dossier was written from a cold search,
+not as a write-up of prior work.
 
 ## 1. Already assigned
 
