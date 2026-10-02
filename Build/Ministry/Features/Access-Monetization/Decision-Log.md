@@ -17,3 +17,11 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Basis:** Opus round 1 review, blocking finding 2. Today's close is a Facilitator template, and the research's Closing Page and Threshold Sheet directions carry the offer in the Facilitator's register.
 
 **Open:** the exact wording of the close and the offer. It is drafted later and held to the participant-facing readability and no-AI-tells standard in `CLAUDE.md`.
+
+## 3. No auto-reload at pilot (2026-10-02)
+
+**Decision (Mark):** no automatic top-up at pilot. Every purchase is a deliberate one-time act, so no recurring billing exists in any form.
+
+**Basis:** Opus round 1 review, substantial finding on constraints. Auto-reload is recurring charging in practice and conflicts with the one-time constraint.
+
+**Open:** may be reconsidered as an opt-in once pilot data shows demand. That would be a new decision, not a quiet edit.
