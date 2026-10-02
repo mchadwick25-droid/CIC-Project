@@ -5913,6 +5913,12 @@ open: the institutional coverage window after 1556 was overstated. The project l
 `Step0_Review_Round4_SpotCheck.md`. It returned Clear with 0 P0, 0 P1 and 2 P2. It is the only review this
 ruling covers.
 
+## 2026-09-30 - Round counter: the Cycle reset and the Cap ruling work together
+
+**Recorded at the merge of `main` into the branch that carries the Cycle reset.** Both rulings are the project lead's, and they apply together. The counter reads the review files of the current cycle: the first round, or the latest round whose file carries an earned `Cycle reset` header field. From those files it takes away the review files a "Cap ruling" entry names, once three counted files of the cycle precede the named one in round order. What is left is the count. Every file stays on record either way. A named file is excused only when three counted files of the cycle precede it.
+
+The engine (`engine/m10/rounds.py`, `reviewfile.py`, `handoff.py`, `rebaseline.py`), `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md` and the tests state the same rule. One test in `engine/m10/tests/test_rounds.py` runs both rules on one document.
+
 
 ## 2026-10-01 - Atlas voice implementation: complete and live
 

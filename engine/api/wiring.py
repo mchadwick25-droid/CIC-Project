@@ -215,8 +215,8 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
     """
     worlds = []
     for world_key, entry in registry.items():
-        if entry.get("kind") != "formation":
-            continue
+        if entry.get("kind") != "formation" or not entry.get("package"):
+            continue  # a world still at the Library stage has no compiled frame to read
         if require_admitted and entry.get("state") not in ADMITTED_STATES:
             # Under enforcement the doorway lists only worlds a participant
             # may actually enter - an unadmitted world simply is not

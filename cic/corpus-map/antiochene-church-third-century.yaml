@@ -84,6 +84,18 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-clement
+  work: Liturgy of S. Clement
+  author: liturgy-of-st-clement
+  locus: file lines 4820-5400
+  role: context
+  confidence: needs-ruling
+  note: 'The Clementine liturgy is Book VIII of the Apostolic Constitutions, a late 4th-century
+    Syrian compilation; the Antiochene third-century entry is the nearest match by place,
+    but the work is later than that entry''s window and has not been ruled on.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
 - row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch
   work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
     (with fragments of the disputation)

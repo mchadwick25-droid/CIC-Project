@@ -122,12 +122,53 @@ works:
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   role: tradition
   confidence: assigned
-  note: The earliest apology surviving whole (c. 125, Athens, to Hadrian per the Introduction).
-    Athens is outside pahc's named regions, but the era and church-world are pahc's — same
-    treatment as Quadratus in anf08. Its Syriac preservation is a transmission fact, not an
-    Edessene assignment. greek-apologists-second-century holds this work for the era's outward-facing
-    writing; pahc is kept because the era and church-world are genuinely its.
+  note: 'The earliest apology surviving whole (Hadrian, c. 125, per the ANF Introduction;
+    the Syriac superscription names Antoninus Pius, 138-161, which Harris 1893 and Harnack
+    1897 prefer: Contested, both inside the entry''s window). Athens is outside pahc''s named
+    regions, but the era and church-world are pahc''s — same treatment as Quadratus in anf08.
+    Its Syriac preservation is a transmission fact, not an Edessene assignment. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+- row_id: aristides_apology-syriac-grc-eng_harris-robinson1893--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
+  author: aristides
+  locus: file line 2133 (heading 'THE APOLOGY OF ARISTIDES, TRANSLATED FROM THE SYRIAC'; Robinson's
+    Greek appendix ('The Greek Text of Barlaam and Josaphat') begins at line 4583)
+  role: tradition
+  confidence: assigned
+  note: 'English translation (Harris) of the Syriac, second witness of the ALREADY-PRESENT
+    English entry for this work (source_file anf09_gospel-of-peter-diatessaron-origen-commentaries.xml)
+    in the bucket(s) named here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md
+    section 2 and 6): the OCR of this scan holds zero Syriac-script and zero Greek-script
+    characters: the Syriac is lost and the Greek is Latin-letter approximation. The readable
+    layer is Harris''s English translation, a nineteenth-century rendering, not an original-language
+    text. Not to be quoted as the original until a clean witness is vendored or the page image
+    is checked. Harris and Robinson, Texts and Studies I.1, second edition (Cambridge, 1893).
+    Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: aristides_apology-syriac-grc-eng_harris-robinson1893.txt
+- row_id: goodspeed_aeltesten-apologeten-grc-lat-deu_1914--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
+  author: aristides
+  locus: file line 1402 (first readable Latin of the Aristides Apology in this file ('Graeci
+    vero, O Rex, quod turpia faciunt ...'); the German introduction to Aristides is at line
+    389)
+  role: tradition
+  confidence: assigned
+  note: 'Latin rendering (Goodspeed) of the Syriac text, second witness of the ALREADY-PRESENT
+    English entry for this work (source_file anf09_gospel-of-peter-diatessaron-origen- commentaries.xml)
+    in the bucket(s) named here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md
+    section 2 and 6): the OCR of this scan holds zero Greek-script characters: the Greek is
+    Latin-letter noise. Only Goodspeed''s German introduction, apparatus and Latin version
+    of the Syriac text are real text. Not to be quoted as the original until a clean witness
+    is vendored or the page image is checked. Goodspeed, Die aeltesten Apologeten (Goettingen,
+    1914). The Latin is Goodspeed''s own translation of the Syriac, not a Greek or Syriac
+    original. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: goodspeed_aeltesten-apologeten-grc-lat-deu_1914.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-aristo-of-pella
   work: Fragments of Aristo of Pella
   author: aristo-of-pella
@@ -139,6 +180,41 @@ works:
     by the fragments. greek-apologists-second-century holds this work for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
+  author: aristo-of-pella
+  locus: file line 18145 (heading 'ARISTO.' (the Aristo section of the Reliquiae))
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page- image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena,
+    1872), the fragments with Otto''s Latin translation and commentary. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-aristo-of-pella
+  work: Fragments of Aristo of Pella
+  author: aristo-of-pella
+  locus: file line 5915 (heading 'ARISTONIS PELLAI,')
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer is OCR with the two columns interleaved line by line and with accent
+    and letter errors, and no page-image check has been made. Not to be quoted as the original
+    until a clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae,
+    editio altera vol. I (Oxford, 1846), with Routh''s Latin notes. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
 - row_id: fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books
   work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
   author: athanasius
@@ -171,6 +247,23 @@ works:
     pahc, for the era's outward-facing writing; pahc is kept because the era and church-world
     are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+- row_id: athenagoras_legatio-grc_otto1857--a-plea-for-the-christians
+  work: A Plea for the Christians
+  author: athenagoras
+  locus: file line 69 (TEI <head> of the Plea, Greek opener follows)
+  role: tradition
+  confidence: assigned
+  note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf02_hermas-
+    tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named here. PRIMARY
+    ORIGINAL per cic/texts/INTAKE.md: Otto, Athenagorae opera (Corpus apologetarum vol. 7,
+    Jena, 1857), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready to quote once
+    each quote is verified verbatim against this file (INTAKE section 6); the English a Representative
+    speaks is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0,
+    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: athenagoras_legatio-grc_otto1857.txt
 - row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-resurrection-of-the-dead
   work: The Resurrection of the Dead
   author: athenagoras
@@ -181,6 +274,23 @@ works:
     alongside pahc, for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+- row_id: athenagoras_de-resurrectione-grc_otto1857--the-resurrection-of-the-dead
+  work: The Resurrection of the Dead
+  author: athenagoras
+  locus: file line 97 (TEI <head> of the treatise, Greek chapter 1 follows)
+  role: tradition
+  confidence: assigned
+  note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf02_hermas-
+    tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named here. PRIMARY
+    ORIGINAL per cic/texts/INTAKE.md: Otto, Athenagorae opera (Corpus apologetarum vol. 7,
+    Jena, 1857), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready to quote once
+    each quote is verified verbatim against this file (INTAKE section 6); the English a Representative
+    speaks is rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0,
+    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: athenagoras_de-resurrectione-grc_otto1857.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--the-epistle-of-barnabas
   work: The Epistle of Barnabas
   author: barnabas
@@ -216,6 +326,41 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-claudius-apollinaris-2
+  work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: file line 24699 (heading 'FRAGMENTA APOLLINARIS.')
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page- image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena,
+    1872), the fragments with Otto''s Latin translation and commentary. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-claudius-apollinaris-2
+  work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: file line 8951 (heading 'S. CLAUDII APOLLINARIS')
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer is OCR with the two columns interleaved line by line and with accent
+    and letter errors, and no page-image check has been made. Not to be quoted as the original
+    until a clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae,
+    editio altera vol. I (Oxford, 1846), with Routh''s Latin notes. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--first-epistle-to-the-corinthians-1-clement
   work: First Epistle to the Corinthians (1 Clement)
   author: clement_rome
@@ -399,16 +544,51 @@ works:
     work. greek-apologists-second-century holds this work for the era's outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: justin-martyr_dialogue-with-trypho-grc_archambault1909--dialogue-with-trypho
+  work: Dialogue with Trypho
+  author: justin_martyr
+  locus: file line 69 (TEI <head> of the Dialogue, Greek chapter 1 follows)
+  role: tradition
+  confidence: assigned
+  note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Archambault, Dialogue
+    avec Tryphon (Paris, Picard, 1909), hand-keyed in the Perseus / Open Greek and Latin TEI
+    (Greek only; the French translation of the printed edition is not in the file). Ready
+    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
+    English a Representative speaks is rendered from it, with the vendored English as a cross-check.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: justin-martyr_dialogue-with-trypho-grc_archambault1909.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--hortatory-address-to-the-greeks
   work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. greek-apologists-second-century
-    holds this work for the era''s outward-facing writing; pahc is kept because the era and
-    church-world are genuinely its.'
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. pahc is
+    kept because the era and church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--hortatory-address-to-the-greeks
+  work: Hortatory Address to the Greeks
+  author: justin_martyr
+  locus: file line 4293 (heading 'COHORTATIO AD GENTILES.' (first body occurrence, after the
+    prolegomena))
+  role: tradition
+  confidence: provisional
+  note: 'Latin translation (Otto) second witness of the ALREADY-PRESENT English entry for
+    this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the OCR of this scan holds zero Greek-script characters: every Greek passage is Latin-letter
+    noise. Only Otto''s Latin translation, prolegomena and apparatus are real text. Not to
+    be quoted as the original until a clean witness is vendored or the page image is checked.
+    Otto, Corpus apologetarum vol. III, editio tertia, Justin Tomus II (Jena, 1879), whose
+    prolegomena treat these works as not Justin''s. Mirrors the English twin''s role and confidence
+    exactly.
+
+    '
+  source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--on-the-resurrection-fragments
   work: On the Resurrection (fragments)
   author: justin_martyr
@@ -429,6 +609,24 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--on-the-sole-government-of-god
+  work: On the Sole Government of God
+  author: justin_martyr
+  locus: file line 12565 (heading 'DE MONARCHIA.' (first body occurrence, after the prolegomena))
+  role: tradition
+  confidence: provisional
+  note: 'Latin translation (Otto) second witness of the ALREADY-PRESENT English entry for
+    this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the OCR of this scan holds zero Greek-script characters: every Greek passage is Latin-letter
+    noise. Only Otto''s Latin translation, prolegomena and apparatus are real text. Not to
+    be quoted as the original until a clean witness is vendored or the page image is checked.
+    Otto, Corpus apologetarum vol. III, editio tertia, Justin Tomus II (Jena, 1879), whose
+    prolegomena treat these works as not Justin''s. Mirrors the English twin''s role and confidence
+    exactly.
+
+    '
+  source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--other-fragments-from-the-lost-writings-of-justin
   work: Other Fragments from the Lost Writings of Justin
   author: justin_martyr
@@ -450,6 +648,24 @@ works:
     greek-apologists-second-century holds this work for the era's outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--the-discourse-to-the-greeks
+  work: The Discourse to the Greeks
+  author: justin_martyr
+  locus: file line 2944 (heading 'AD GENTILES.' (Oratio ad Gentiles), following the prolegomena)
+  role: tradition
+  confidence: provisional
+  note: 'Latin translation (Otto) second witness of the ALREADY-PRESENT English entry for
+    this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the OCR of this scan holds zero Greek-script characters: every Greek passage is Latin-letter
+    noise. Only Otto''s Latin translation, prolegomena and apparatus are real text. Not to
+    be quoted as the original until a clean witness is vendored or the page image is checked.
+    Otto, Corpus apologetarum vol. III, editio tertia, Justin Tomus II (Jena, 1879), whose
+    prolegomena treat these works as not Justin''s. Mirrors the English twin''s role and confidence
+    exactly.
+
+    '
+  source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--the-first-apology
   work: The First Apology
   author: justin_martyr
@@ -460,6 +676,22 @@ works:
     holds this work for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: justin-martyr_first-apology-grc_rauschen1911--the-first-apology
+  work: The First Apology
+  author: justin_martyr
+  locus: file line 67 (TEI <head> 'APOLOGIA I.', Greek chapter 1 follows)
+  role: tradition
+  confidence: assigned
+  note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Rauschen, S. Iustini
+    Apologiae duae (Bonn, 1911), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready
+    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
+    English a Representative speaks is rendered from it, with the vendored English as a cross-check.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: justin-martyr_first-apology-grc_rauschen1911.txt
 - row_id: anf01_apostolic-fathers-justin-irenaeus--the-second-apology
   work: The Second Apology
   author: justin_martyr
@@ -470,6 +702,22 @@ works:
     holds this work for the era's outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: justin-martyr_second-apology-grc_rauschen1911--the-second-apology
+  work: The Second Apology
+  author: justin_martyr
+  locus: file line 95 (TEI <head> 'APOLOGIA II.', Greek chapter 1 follows)
+  role: tradition
+  confidence: assigned
+  note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Rauschen, S. Iustini
+    Apologiae duae (Bonn, 1911), hand-keyed in the Perseus / Open Greek and Latin TEI. Ready
+    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
+    English a Representative speaks is rendered from it, with the vendored English as a cross-check.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: justin-martyr_second-apology-grc_rauschen1911.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-letter-of-the-churches-of-lyons-and-vienne-pseud
   work: The Letter of the Churches of Lyons and Vienne (Pseud-Irenaeus)
   author: letter-churches-lyons-vienne
@@ -561,12 +809,50 @@ works:
   locus: div2 3.2 under div1 'MATHETES'
   role: tradition
   confidence: assigned
-  note: Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
-    for the Greek apologists as such; placed with the era-1 mainstream entry the volume's
-    other works belong to. Doubt is the date - some put it after the entry's 200 CE close.
-    greek-apologists-second-century holds this work for the era's outward-facing writing;
-    pahc is kept because the era and church-world are genuinely its.
+  note: 'Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
+    for the Greek apologists as such; placed with the era-1 mainstream entry the volume''s
+    other works belong to. Doubt is the date: ANF gives c. 130 and ''not later than the beginning
+    of the second century'', while Harnack 1897 and Puech put it at the end of the 2nd or
+    in the 3rd century (Contested; the range falls on both sides of the entry''s 124-200 window).
+    greek-apologists-second-century holds this work for the era''s outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: justin-martyr_opera-addubitata-grc-lat_otto1879--epistle-to-diognetus
+  work: Epistle to Diognetus
+  author: mathetes
+  locus: file line 15590 (heading 'EPISTVLA AD DIOGNETVM.' (first body occurrence, after the
+    prolegomena))
+  role: tradition
+  confidence: assigned
+  note: 'Latin translation (Otto) second witness of the ALREADY-PRESENT English entry for
+    this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the OCR of this scan holds zero Greek-script characters: every Greek passage is Latin-letter
+    noise. Only Otto''s Latin translation, prolegomena and apparatus are real text. Not to
+    be quoted as the original until a clean witness is vendored or the page image is checked.
+    Otto, Corpus apologetarum vol. III, editio tertia, Justin Tomus II (Jena, 1879), whose
+    prolegomena treat these works as not Justin''s. The clean Greek of the Epistle is in pseudo-justin_epistle-to-
+    diognetus-grc_lake1917.txt. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: justin-martyr_opera-addubitata-grc-lat_otto1879.txt
+- row_id: pseudo-justin_epistle-to-diognetus-grc_lake1917--epistle-to-diognetus
+  work: Epistle to Diognetus
+  author: mathetes
+  locus: file line 87 (TEI <head> 'EPISTOLE PROS DIOGNETON', Greek chapter 1 follows)
+  role: tradition
+  confidence: assigned
+  note: 'Greek original of the ALREADY-PRESENT English entry for this work (source_file anf01_apostolic-fathers-justin-irenaeus.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Lake, The Apostolic
+    Fathers vol. 2 (Loeb, 1917), hand-keyed in the Perseus / Open Greek and Latin TEI (Greek
+    only; the facing English is not in the file). Ready to quote once each quote is verified
+    verbatim against this file (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0, so attribution
+    and share-alike travel with any quotation. Mirrors the English twin''s role and confidence
+    exactly.
+
+    '
+  source_file: pseudo-justin_epistle-to-diognetus-grc_lake1917.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis
   work: Fragments of Melito of Sardis
   author: melito-of-sardis
@@ -578,6 +864,41 @@ works:
     holds this work for the era''s outward-facing writing; pahc is kept because the era and
     church-world are genuinely its.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-melito-of-sardis
+  work: Fragments of Melito of Sardis
+  author: melito-of-sardis
+  locus: file line 20990 (heading 'FRAGMENTA MELITONIS.')
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page- image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena,
+    1872), the fragments with Otto''s Latin translation and commentary. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-melito-of-sardis
+  work: Fragments of Melito of Sardis
+  author: melito-of-sardis
+  locus: file line 6675 (heading 'B. MELITONIS, SARDENSIS EPISCOPI')
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer is OCR with the two columns interleaved line by line and with accent
+    and letter errors, and no page-image check has been made. Not to be quoted as the original
+    until a clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae,
+    editio altera vol. I (Oxford, 1846), with Routh''s Latin notes. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
 - row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-narrative-of-zosimus-2
   work: The Narrative of Zosimus
   author: narrative-of-zosimus
@@ -657,6 +978,42 @@ works:
     for the era's outward-facing writing; pahc is kept because the era and church-world are
     genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872--fragments-of-quadratus
+  work: Fragments of Quadratus
+  author: quadratus
+  locus: file line 17465 (heading 'QUADRATUS.', the Fragmentum Apologiae Quadrati with Otto's
+    Latin translation follows)
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page- image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. IX (Jena,
+    1872), the fragments with Otto''s Latin translation and commentary. Mirrors the English
+    twin''s role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt
+- row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-quadratus
+  work: Fragments of Quadratus
+  author: quadratus
+  locus: file line 5161 (heading 'B. QUADRATUS.')
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer is OCR with the two columns interleaved line by line and with accent
+    and letter errors, and no page-image check has been made. Not to be quoted as the original
+    until a clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae,
+    editio altera vol. I (Oxford, 1846), with Routh''s Latin notes. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-moses-2
   work: Revelation of Moses
   author: revelation-of-moses
@@ -718,6 +1075,21 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- row_id: suetonius_lives-of-the-caesars-loeb_rolfe1914--life-of-claudius-25-4-and-life-of-nero-16-2-the-chrestus
+  work: Life of Claudius 25.4 and Life of Nero 16.2 (the Chrestus expulsion and the Christians
+    under Nero)
+  author: suetonius
+  locus: Claudius 25.4, English at file line about 25896; Nero 16.2, Latin at about 28447
+    and English at about 28512
+  role: context
+  confidence: assigned
+  note: 'Second witness for the two outside notices pahc already draws from the vendored Thomson-Forester
+    translation, which closed that world''s need. This edition adds the Latin and a more literal
+    English. A pagan Roman biographer writing from outside the church, so context, not tradition.
+    Latin and English pages interleave in the OCR.
+
+    '
+  source_file: suetonius_lives-of-the-caesars-loeb_rolfe1914.txt
 - row_id: suetonius_lives-of-the-twelve-caesars_thomson-forester1909--the-lives-of-the-twelve-caesars
   work: The Lives of the Twelve Caesars
   author: suetonius
@@ -772,11 +1144,32 @@ works:
   confidence: assigned
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
-    which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite. greek-apologists-second-century holds this work
-    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
-    church-world are genuinely its.'
+    which the syr world already reaches through his Diatessaron in anf09. The row is `assigned`:
+    the Address is inside this entry''s window on every dating read (c. 150-172, Contested);
+    his later Encratite turn is reported by Irenaeus (Adv. haer. I.28.1) and is a disclosure
+    duty, not a reason to hold the row provisional. greek-apologists-second-century holds
+    this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
+    the era and church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+- row_id: tatian_oratio-ad-graecos-grc-lat_otto1851--address-to-the-greeks
+  work: Address to the Greeks
+  author: tatian
+  locus: file line 1660 (first running head 'TATIANI ORATIO AD GRAECOS' inside the text (the
+    title page and prolegomena come before))
+  role: tradition
+  confidence: assigned
+  note: 'Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+    anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml) in the bucket(s) named
+    here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and
+    6): the Greek layer of this Google scan is OCR at a measured accuracy of roughly three
+    in four Greek tokens on a comparable Otto volume, with accent, breathing and letter errors,
+    and no page-image check has been made. Not to be quoted as the original until a clean
+    witness is vendored or the page image is checked. Otto, Corpus apologetarum vol. VI (Jena,
+    1851) with Otto''s Latin translation and the Parisian scholia. The Greek layer is present
+    (about 309,000 Greek characters). Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tatian_oratio-ad-graecos-grc-lat_otto1851.txt
 - row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--fragments-tatian
   work: Fragments (Tatian)
   author: tatian
@@ -800,6 +1193,24 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--apology-apologeticus-2
+  work: Apology (Apologeticus)
+  author: tertullian
+  locus: file line 12027 (heading 'APOLOGETICUM.')
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. It is the only public-domain
+    Latin witness in the directory for this work, since the later CSEL volumes that carry
+    it are in copyright. The Apologeticum is the principal reason this file was vendored.
+    Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt
 - row_id: anf03_tertullian--the-five-books-against-marcion-3
   work: The Five Books Against Marcion
   author: tertullian
@@ -812,6 +1223,37 @@ works:
 
     '
   source_file: anf03_tertullian.xml
+- row_id: tertullian_opera-pars3-lat_kroymann-csel47--the-five-books-against-marcion-3
+  work: The Five Books Against Marcion
+  author: tertullian
+  locus: file line 14512 (heading 'ADVERSVS MARCIONEM LIBRI QVINQVE', treatise VII)
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
+    47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
+    text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+    section 6); the English a Representative speaks is rendered from it, with the vendored
+    English as a cross-check. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: tertullian_opera-pars3-lat_kroymann-csel47.txt
+- row_id: tertullian_quae-supersunt-t2-polemica-lat_oehler1853--the-five-books-against-marcion-3
+  work: The Five Books Against Marcion
+  author: tertullian
+  locus: file line 2948 (first heading 'ADVERSUS MARCIONEM')
+  role: tradition
+  confidence: provisional
+  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
+    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
+    quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
+    Latin OCR is readable running text, so this file is ready to quote once each quote is
+    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
+    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
+    role and confidence exactly.
+
+    '
+  source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-testaments-of-the-twelve-patriarchs-2
   work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
@@ -838,6 +1280,23 @@ works:
     greek-apologists-second-century holds this work alongside pahc, for the era's outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+- row_id: theophilus_ad-autolycum-grc-lat_otto1861--theophilus-to-autolycus
+  work: Theophilus to Autolycus
+  author: theophilus
+  locus: file line 2571 (heading 'LIBER PRIMUS' (Book I, after the prolegomena))
+  role: tradition
+  confidence: assigned
+  note: 'Latin translation (Otto) second witness of the ALREADY-PRESENT English entry for
+    this work (source_file anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml)
+    in the bucket(s) named here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md
+    section 2 and 6): the OCR of this scan holds zero Greek-script characters: every Greek
+    passage is Latin-letter noise. Only Otto''s Latin translation and Latin notes are real
+    text. Not to be quoted as the original until a clean witness is vendored or the page image
+    is checked. Otto, Corpus apologetarum vol. VIII (Jena, 1861). No clean Greek Theophilus
+    is vendored. Mirrors the English twin''s role and confidence exactly.
+
+    '
+  source_file: theophilus_ad-autolycum-grc-lat_otto1861.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragment-of-theophilus-of-caesarea
   work: Fragment of Theophilus of Caesarea
   author: theophilus-of-caesarea

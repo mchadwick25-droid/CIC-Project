@@ -18,6 +18,62 @@ works:
 
     '
   source_file: boero_life-of-peter-faber_coleridge1873.txt
+- row_id: borgia_sanctus-franciscus-borgia-v3-lat_1908--sanctus-franciscus-borgia-tomus-iii-1539-1565
+  work: Sanctus Franciscus Borgia, Tomus III (1539-1565)
+  author: borgia
+  locus: whole volume - Tomus III, 1539-1565
+  role: tradition
+  confidence: assigned
+  note: 'Borgia''s letters and the monuments about him for 1539-1565, in the languages written
+    (the Borgian monuments to his election as General on 2 July 1565). It lets the third General
+    speak for himself, from 1565 to his death in 1572. Primary original evidence for the movement,
+    quotable once each wording is checked against the page image: the scan is legible with
+    occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary
+    is 0.55; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
+    is a comparison across files and not a measure of accuracy.'
+  source_file: borgia_sanctus-franciscus-borgia-v3-lat_1908.txt
+- row_id: borgia_sanctus-franciscus-borgia-v4-lat_1910--sanctus-franciscus-borgia-tomus-iv-1565-1568
+  work: Sanctus Franciscus Borgia, Tomus IV (1565-1568)
+  author: borgia
+  locus: whole volume - Tomus IV, 1565-1568
+  role: tradition
+  confidence: assigned
+  note: 'Borgia''s letters and the monuments about him for 1565-1568, in the languages written
+    (his letters as General). It lets the third General speak for himself, from 1565 to his
+    death in 1572. Primary original evidence for the movement, quotable once each wording
+    is checked against the page image: the scan is legible with occasional letter-level misreads.
+    Word-form coverage against a clean Latin vocabulary is 0.56; the Spanish, Italian and
+    Portuguese passages and the notes lower it, so the figure is a comparison across files
+    and not a measure of accuracy.'
+  source_file: borgia_sanctus-franciscus-borgia-v4-lat_1910.txt
+- row_id: borgia_sanctus-franciscus-borgia-v5-lat_1911--sanctus-franciscus-borgia-tomus-v-1569-1572
+  work: Sanctus Franciscus Borgia, Tomus V (1569-1572)
+  author: borgia
+  locus: whole volume - Tomus V, 1569-1572
+  role: tradition
+  confidence: assigned
+  note: 'Borgia''s letters and the monuments about him for 1569-1572, in the languages written
+    (his letters as General and other historical monuments about him). It lets the third General
+    speak for himself, from 1565 to his death in 1572. Primary original evidence for the movement,
+    quotable once each wording is checked against the page image: the scan is legible with
+    occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary
+    is 0.57; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
+    is a comparison across files and not a measure of accuracy.'
+  source_file: borgia_sanctus-franciscus-borgia-v5-lat_1911.txt
+- row_id: broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903--letters-of-paschase-broet-claude-le-jay-jean-codure-and
+  work: Letters of Paschase Broet, Claude Le Jay, Jean Codure and Simao Rodrigues
+  author: broet
+  locus: whole volume; four writers
+  role: tradition
+  confidence: assigned
+  note: 'The letters of four of Ignatius''s first companions, in the languages written, from
+    the founding years. The volume holds the letters of Le Jay, Codure and Rodrigues as well
+    as Broet''s. Primary original evidence for the movement, quotable once each wording is
+    checked against the page image: the scan is legible with occasional letter-level misreads.
+    Word-form coverage against a clean Latin vocabulary is 0.61; the Spanish, Italian and
+    Portuguese passages and the notes lower it, so the figure is a comparison across files
+    and not a measure of accuracy.'
+  source_file: broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt
 - row_id: canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine
   work: A Summe of Christian Doctrine
   author: canisius
@@ -31,6 +87,32 @@ works:
 
     '
   source_file: canisius_summe-of-christian-doctrine_anon1622.txt
+- row_id: canisius_summa-doctrinae-christianae-lat_1565--summa-doctrinae-christianae-1565-printing
+  work: Summa doctrinae christianae (1565 printing)
+  author: canisius
+  locus: whole text
+  role: tradition
+  confidence: assigned
+  note: 'Canisius''s Latin catechism, in a sixteenth-century printing, the Latin original
+    for the vendored 1622 English translation. The book prints its marginal scripture and
+    patristic citations in the outer margins. Second witness for now, not yet quotable: a
+    1565 print with the long s read as f, and the outer-margin citations interleaved with
+    the main text in the OCR. A cleaner Latin edition would serve as the quotable witness.
+    Word-form coverage against a clean Latin vocabulary is 0.70.'
+  source_file: canisius_summa-doctrinae-christianae-lat_1565.txt
+- row_id: canisius_summa-doctrinae-christianae-lat_1573--summa-doctrinae-christianae-1573-printing
+  work: Summa doctrinae christianae (1573 printing)
+  author: canisius
+  locus: whole text
+  role: tradition
+  confidence: assigned
+  note: 'Canisius''s Latin catechism, in a sixteenth-century printing, the Latin original
+    for the vendored 1622 English translation. The book prints its marginal scripture and
+    patristic citations in the outer margins. Second witness for now, not yet quotable: a
+    1573 print with the long s read as f, and the outer-margin citations interleaved with
+    the main text in the OCR. A cleaner Latin edition would serve as the quotable witness.
+    Word-form coverage against a clean Latin vocabulary is 0.62.'
+  source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
 - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council
   work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
@@ -60,6 +142,33 @@ works:
 
     '
   source_file: faber_memoriale-lat_1873.txt
+- row_id: francis-xavier_monumenta-xaveriana-v1-lat_1899-1900--monumenta-xaveriana-tomus-i-xavier-s-letters-and-other
+  work: 'Monumenta Xaveriana, Tomus I: Xavier''s letters and other writings'
+  author: francis-xavier
+  locus: whole volume; Xavier's letters with Valignano's Life placed first
+  role: tradition
+  confidence: assigned
+  note: 'Xavier''s own letters and writings in the Spanish, Portuguese and Latin he wrote,
+    in a critical edition. It is the original-language source for the vendored Coleridge English
+    Life and Letters (whose letters were translated from earlier printings). Primary original
+    evidence for the movement, quotable once each wording is checked against the page image:
+    the scan is legible with occasional letter-level misreads. Word-form coverage against
+    a clean Latin vocabulary is 0.54; the Spanish, Italian and Portuguese passages and the
+    notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+  source_file: francis-xavier_monumenta-xaveriana-v1-lat_1899-1900.txt
+- row_id: francis-xavier_monumenta-xaveriana-v2-lat_1912--monumenta-xaveriana-tomus-ii-writings-about-francis-xavier
+  work: 'Monumenta Xaveriana, Tomus II: writings about Francis Xavier'
+  author: francis-xavier
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Testimony about Xavier by his companions and early biographers, in the original languages.
+    It is witness to Xavier and not Xavier''s own voice. Primary original evidence for the
+    movement, quotable once each wording is checked against the page image: the scan is legible
+    with occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary
+    is 0.63; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
+    is a comparison across files and not a measure of accuracy.'
+  source_file: francis-xavier_monumenta-xaveriana-v2-lat_1912.txt
 - row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i
   work: The Life and Letters of St. Francis Xavier, Vol. I
   author: francis-xavier
@@ -84,6 +193,40 @@ works:
 
     '
   source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
+- row_id: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904--acta-p-ignatii-the-autobiography-original-spanish-and
+  work: Acta P. Ignatii (the Autobiography, original Spanish and Italian) and early writings
+    on Ignatius
+  author: ignatius-loyola
+  locus: whole volume; the Acta open the volume (item 1, from the volume's own index)
+  role: tradition
+  confidence: assigned
+  note: 'The earliest text of Ignatius''s Autobiography as Goncalves da Camara wrote it down
+    from Ignatius''s own telling, in the Spanish and Italian of the manuscript, in a critical
+    edition. It is the original for the vendored O''Conor English translation. The volume
+    also holds Goncalves da Camara''s Memoriale, Lainez''s letter on Ignatius and Ribadeneira''s
+    writings on him, which are the Society''s early accounts of its founder, not his own voice.
+    The Latin of Codretto is not in this volume. Primary original evidence for the movement,
+    quotable once each wording is checked against the page image: the scan is legible with
+    occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary
+    is 0.59; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
+    is a comparison across files and not a measure of accuracy.'
+  source_file: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt
+- row_id: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919--exercitia-spiritualia-spanish-text-and-latin-versions-with
+  work: 'Exercitia Spiritualia: Spanish text and Latin versions, with the early Directories'
+  author: ignatius-loyola
+  locus: whole volume; Spanish text of the Exercises alongside the Latin versions
+  role: tradition
+  confidence: assigned
+  note: 'Ignatius''s Exercises in the Spanish he wrote, printed beside the earliest Latin
+    version and the Vulgata, with the early Directories. The Spanish text follows the autograph
+    as the editors read it; the volume is a critical edition, so the Spanish is the editors''
+    text of Ignatius''s own manuscript. It is the Spanish original for the vendored English
+    Mullan translation. Primary original evidence for the movement, quotable once each wording
+    is checked against the page image: the scan is legible with occasional letter-level misreads.
+    Word-form coverage against a clean Latin vocabulary is 0.78; the Spanish, Italian and
+    Portuguese passages and the notes lower it, so the figure is a comparison across files
+    and not a measure of accuracy.'
+  source_file: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919.txt
 - row_id: ignatius-loyola_letters-instructions-v1_oleary-goodier1914--letters-and-instructions-of-st-ignatius-loyola-vol-i-1524
   work: Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547
   author: ignatius-loyola
@@ -96,10 +239,77 @@ works:
 
     '
   source_file: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus02-lat_1904--monumenta-ignatiana-epistolae-et-instructiones-epistolae-et
+  work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus
+    II
+  author: ignatius-loyola
+  locus: whole volume - Tomus 2 of Series I; the letters and instructions of 1548 to 1549,
+    chiefly as summaries
+  role: tradition
+  confidence: assigned
+  note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
+    and instructions of 1548 to 1549, chiefly as summaries). Many are dictated to secretaries
+    and sent in Ignatius''s name, so the voice is the General''s office speaking for him.
+    It extends the vendored Tomus I, which stops in March 1548. Primary original evidence
+    for the movement, quotable once each wording is checked against the page image: the scan
+    is legible with occasional letter-level misreads. Word-form coverage against a clean Latin
+    vocabulary is 0.57; the Spanish, Italian and Portuguese passages and the notes lower it,
+    so the figure is a comparison across files and not a measure of accuracy.'
+  source_file: ignatius-loyola_epistolae-et-instructiones-tomus02-lat_1904.txt
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus03-lat_1905--monumenta-ignatiana-epistolae-et-instructiones-epistolae-et
+  work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus
+    III
+  author: ignatius-loyola
+  locus: whole volume - Tomus 3 of Series I; the letters and instructions of 1550 to 1551,
+    chiefly as summaries
+  role: tradition
+  confidence: assigned
+  note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
+    and instructions of 1550 to 1551, chiefly as summaries). Many are dictated to secretaries
+    and sent in Ignatius''s name, so the voice is the General''s office speaking for him.
+    It extends the vendored Tomus I, which stops in March 1548. Primary original evidence
+    for the movement, quotable once each wording is checked against the page image: the scan
+    is legible with occasional letter-level misreads. Word-form coverage against a clean Latin
+    vocabulary is 0.59; the Spanish, Italian and Portuguese passages and the notes lower it,
+    so the figure is a comparison across files and not a measure of accuracy.'
+  source_file: ignatius-loyola_epistolae-et-instructiones-tomus03-lat_1905.txt
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus05-lat_1907--monumenta-ignatiana-epistolae-et-instructiones-epistolae-et
+  work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus
+    V
+  author: ignatius-loyola
+  locus: whole volume - Tomus 5 of Series I; the letters and instructions of 1553
+  role: tradition
+  confidence: assigned
+  note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
+    and instructions of 1553). Many are dictated to secretaries and sent in Ignatius''s name,
+    so the voice is the General''s office speaking for him. It extends the vendored Tomus
+    I, which stops in March 1548. Primary original evidence for the movement, quotable once
+    each wording is checked against the page image: the scan is legible with occasional letter-level
+    misreads. Word-form coverage against a clean Latin vocabulary is 0.55; the Spanish, Italian
+    and Portuguese passages and the notes lower it, so the figure is a comparison across files
+    and not a measure of accuracy.'
+  source_file: ignatius-loyola_epistolae-et-instructiones-tomus05-lat_1907.txt
+- row_id: ignatius-loyola_epistolae-et-instructiones-tomus06-lat_1907--monumenta-ignatiana-epistolae-et-instructiones-epistolae-et
+  work: Monumenta Ignatiana, Epistolae et Instructiones, Epistolae et Instructiones, Tomus
+    VI
+  author: ignatius-loyola
+  locus: whole volume - Tomus 6 of Series I; the letters and instructions of 1554
+  role: tradition
+  confidence: assigned
+  note: 'Ignatius''s letters and instructions as General, in the languages written (the letters
+    and instructions of 1554). Many are dictated to secretaries and sent in Ignatius''s name,
+    so the voice is the General''s office speaking for him. It extends the vendored Tomus
+    I, which stops in March 1548. Primary original evidence for the movement, quotable once
+    each wording is checked against the page image: the scan is legible with occasional letter-level
+    misreads. Word-form coverage against a clean Latin vocabulary is 0.55; the Spanish, Italian
+    and Portuguese passages and the notes lower it, so the figure is a comparison across files
+    and not a measure of accuracy.'
+  source_file: ignatius-loyola_epistolae-et-instructiones-tomus06-lat_1907.txt
 - row_id: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903--monumenta-ignatiana-epistolae-et-instructiones-vol-22
   work: 'Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22'
   author: ignatius-loyola
-  locus: whole volume
+  locus: 'whole volume - Tomus I of Ignatius''s letters (title page: TOMUS PRIMUS), volume
+    22 of the MHSI series'
   role: tradition
   confidence: assigned
   note: 'One volume of the full 12-vol. MHSI critical edition of Ignatius''s ~7,000 letters,
@@ -134,14 +344,525 @@ works:
 
     '
   source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
+- row_id: jesuit-relations_thwaites-v10-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-10
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 10: Hurons, 1636'
+  author: jesuit-relations
+  locus: whole volume - volume 10 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v10-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v11-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-11
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 11: Hurons and Quebec,
+    1636-1637'
+  author: jesuit-relations
+  locus: whole volume - volume 11 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v11-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v12-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-12
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 12: Quebec, 1637'
+  author: jesuit-relations
+  locus: whole volume - volume 12 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v12-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v13-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-13
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 13
+  author: jesuit-relations
+  locus: whole volume - volume 13 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v13-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v14-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-14
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 14: Hurons and Quebec,
+    1637-1638'
+  author: jesuit-relations
+  locus: whole volume - volume 14 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v15-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-15
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 15: Hurons and Quebec,
+    1638-1639'
+  author: jesuit-relations
+  locus: whole volume - volume 15 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v15-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v16-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-16
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 16
+  author: jesuit-relations
+  locus: whole volume - volume 16 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v16-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v17-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-17
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 17: Hurons and Three Rivers,
+    1639-1640'
+  author: jesuit-relations
+  locus: whole volume - volume 17 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v18-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-18
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 18
+  author: jesuit-relations
+  locus: whole volume - volume 18 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v19-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-19
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 19: Quebec and Hurons,
+    1640'
+  author: jesuit-relations
+  locus: whole volume - volume 19 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v19-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v01-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-1
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 1: Acadia, 1610-1613'
+  author: jesuit-relations
+  locus: whole volume - volume 1 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v02-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-2
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 2
+  author: jesuit-relations
+  locus: whole volume - volume 2 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v02-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v20-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-20
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 20: Hurons and Quebec,
+    1640-1641'
+  author: jesuit-relations
+  locus: whole volume - volume 20 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v21-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-21
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 21: Quebec and Hurons,
+    1641-1642'
+  author: jesuit-relations
+  locus: whole volume - volume 21 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v21-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v22-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-22
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 22: Quebec and Hurons,
+    1642'
+  author: jesuit-relations
+  locus: whole volume - volume 22 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v22-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v23-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-23
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 23: Hurons, Quebec, Iroquois,
+    1642-1643'
+  author: jesuit-relations
+  locus: whole volume - volume 23 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v23-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v24-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-24
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 24: Lower Canada and Iroquois,
+    1642-1643'
+  author: jesuit-relations
+  locus: whole volume - volume 24 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v24-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v25-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-25
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 25: Iroquois, Hurons,
+    Quebec, 1642-1644'
+  author: jesuit-relations
+  locus: whole volume - volume 25 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v25-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v26-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-26
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 26
+  author: jesuit-relations
+  locus: whole volume - volume 26 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v26-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v27-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-27
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 27: Hurons, Lower Canada,
+    1642-1645'
+  author: jesuit-relations
+  locus: whole volume - volume 27 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v27-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v28-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-28
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 28: Hurons, Iroquois,
+    Lower Canada, 1645-1646'
+  author: jesuit-relations
+  locus: whole volume - volume 28 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v28-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v29-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-29
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 29
+  author: jesuit-relations
+  locus: whole volume - volume 29 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v29-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v03-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-3
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 3
+  author: jesuit-relations
+  locus: whole volume - volume 3 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v03-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v30-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-30
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 30
+  author: jesuit-relations
+  locus: whole volume - volume 30 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v30-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v31-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-31
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 31: Iroquois, Lower Canada,
+    Abenakis, 1647'
+  author: jesuit-relations
+  locus: whole volume - volume 31 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v31-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v32-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-32
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 32: Gaspe, Hurons, Lower
+    Canada, 1647-1648'
+  author: jesuit-relations
+  locus: whole volume - volume 32 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v32-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v33-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-33
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 33: Lower Canada, Algonkins,
+    Hurons, 1648-1649'
+  author: jesuit-relations
+  locus: whole volume - volume 33 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v33-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v34-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-34
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 34: Lower Canada, Hurons,
+    1649'
+  author: jesuit-relations
+  locus: whole volume - volume 34 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v34-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v35-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-35
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 35: Hurons, Lower Canada,
+    Algonkins, 1650'
+  author: jesuit-relations
+  locus: whole volume - volume 35 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v04-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-4
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 4: Acadia and Quebec,
+    1616-1629'
+  author: jesuit-relations
+  locus: whole volume - volume 4 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v04-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v05-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-5
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 5
+  author: jesuit-relations
+  locus: whole volume - volume 5 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v05-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v06-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-6
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 6
+  author: jesuit-relations
+  locus: whole volume - volume 6 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v06-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v07-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-7
+  work: The Jesuit Relations and Allied Documents (Thwaites), Vol. 7
+  author: jesuit-relations
+  locus: whole volume - volume 7 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v07-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v08-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-8
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 8: Quebec, Hurons, Cape
+    Breton, 1634-1636'
+  author: jesuit-relations
+  locus: whole volume - volume 8 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v08-fra-eng_1896-1901.txt
+- row_id: jesuit-relations_thwaites-v09-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-9
+  work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 9: Quebec, 1636'
+  author: jesuit-relations
+  locus: whole volume - volume 9 of 73; French originals and English translation on facing
+    pages
+  role: tradition
+  confidence: assigned
+  note: The Society's missionary voice in New France, in the French the Jesuit superiors and
+    missionaries wrote, printed by Thwaites with a facing English translation. Primary original
+    evidence for the movement once a quotation is checked against the page image. The English
+    pages are a translation and serve as a cross-check. The French OCR reads long s as f and
+    carries occasional letter-level misreads, so quote from the French only after checking
+    the scan. The Relations begin in 1610; volumes 1-35 fall inside the world's dates (1540-1650).
+  source_file: jesuit-relations_thwaites-v09-fra-eng_1896-1901.txt
 - row_id: lainez_epistolae-et-acta-v1-lat_1912--lainii-monumenta-epistolae-et-acta-patris-jacobi-lainii-vol
   work: 'Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I'
   author: lainez
-  locus: whole volume
+  locus: 'whole volume - Tomus I, covering 1536-1556 (title page: TOMUS PRIMUS 1536-1556);
+    ends before Lainez''s own generalate'
   role: tradition
   confidence: assigned
-  note: 'Lainez''s own letters and acts (2nd Superior General). Corrects a prior dossier "genuinely
-    closed" verdict, which only checked for an English translation - this Latin primary material
+  note: 'Lainez''s own letters and acts (Lainez was the 2nd Superior General; this first tomus
+    covers 1536-1556, before his own generalate began in 1558). This Latin primary material
     is PD and available. Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text is primary evidence directly, verified against the vendored file, since
     it is primary to the movement regardless of language; the scan is clean, not flagged as
@@ -149,6 +870,111 @@ works:
 
     '
   source_file: lainez_epistolae-et-acta-v1-lat_1912.txt
+- row_id: lainez_epistolae-et-acta-v2-lat_1912--lainii-monumenta-epistolae-et-acta-tomus-2-1557
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 2 (1557)'
+  author: lainez
+  locus: whole volume - Tomus 2, 1557
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1557, printed from
+    the originals and registers. The letters are in Latin, Spanish and Italian as written,
+    and the Society''s General speaks here for himself and not only through register copies.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.60; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: lainez_epistolae-et-acta-v2-lat_1912.txt
+- row_id: lainez_epistolae-et-acta-v3-lat_1912--lainii-monumenta-epistolae-et-acta-tomus-3-1558
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 3 (1558)'
+  author: lainez
+  locus: whole volume - Tomus 3, 1558
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1558, printed from
+    the originals and registers. The letters are in Latin, Spanish and Italian as written,
+    and the Society''s General speaks here for himself and not only through register copies.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.57; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: lainez_epistolae-et-acta-v3-lat_1912.txt
+- row_id: lainez_epistolae-et-acta-v4-lat_1915--lainii-monumenta-epistolae-et-acta-tomus-4-1558-1560
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 4 (1558-1560)'
+  author: lainez
+  locus: whole volume - Tomus 4, 1558-1560
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1558-1560, printed
+    from the originals and registers. The letters are in Latin, Spanish and Italian as written,
+    and the Society''s General speaks here for himself and not only through register copies.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.54; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: lainez_epistolae-et-acta-v4-lat_1915.txt
+- row_id: lainez_epistolae-et-acta-v5-lat_1915--lainii-monumenta-epistolae-et-acta-tomus-5-1560-1561
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 5 (1560-1561)'
+  author: lainez
+  locus: whole volume - Tomus 5, 1560-1561
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1560-1561, printed
+    from the originals and registers. The letters are in Latin, Spanish and Italian as written,
+    and the Society''s General speaks here for himself and not only through register copies.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.52; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: lainez_epistolae-et-acta-v5-lat_1915.txt
+- row_id: lainez_epistolae-et-acta-v6-lat_1915--lainii-monumenta-epistolae-et-acta-tomus-6-1561-1563
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 6 (1561-1563)'
+  author: lainez
+  locus: whole volume - Tomus 6, 1561-1563
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1561-1563, printed
+    from the originals and registers. The letters are in Latin, Spanish and Italian as written,
+    and the Society''s General speaks here for himself and not only through register copies.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.52; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: lainez_epistolae-et-acta-v6-lat_1915.txt
+- row_id: lainez_epistolae-et-acta-v7-lat_1916--lainii-monumenta-epistolae-et-acta-tomus-7-1563-1564
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 7 (1563-1564)'
+  author: lainez
+  locus: whole volume - Tomus 7, 1563-1564
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1563-1564, printed
+    from the originals and registers. The letters are in Latin, Spanish and Italian as written,
+    and the Society''s General speaks here for himself and not only through register copies.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.52; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: lainez_epistolae-et-acta-v7-lat_1916.txt
+- row_id: lainez_epistolae-et-acta-v8-lat_1917--lainii-monumenta-epistolae-et-acta-tomus-8-1564-1565
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 8 (1564-1565)'
+  author: lainez
+  locus: whole volume - Tomus 8, 1564-1565
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1564-1565, printed
+    from the originals and registers. The letters are in Latin, Spanish and Italian as written,
+    and the Society''s General speaks here for himself and not only through register copies.
+    Primary original evidence for the movement, quotable once each wording is checked against
+    the page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.56; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
 - row_id: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595--adnotationes-et-meditationes-in-evangelia
   work: Adnotationes et Meditationes in Evangelia
   author: nadal
@@ -166,7 +992,7 @@ works:
 - row_id: nadal_epistolae-v1-lat_1898--epistolae-p-hieronymi-nadal-societatis-jesu-vol-i
   work: Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I
   author: nadal
-  locus: whole volume
+  locus: 'whole volume - Tomus I, covering 1546-1562 (title page: TOMUS PRIMUS (1546-1562))'
   role: tradition
   confidence: assigned
   note: 'Nadal''s own letters, distinct from the already-vendored Adnotationes et Meditationes.
@@ -177,6 +1003,48 @@ works:
 
     '
   source_file: nadal_epistolae-v1-lat_1898.txt
+- row_id: nadal_epistolae-v2-lat_1899--epistolae-p-hieronymi-nadal-tomus-ii-1562-1565
+  work: Epistolae P. Hieronymi Nadal, Tomus II (1562-1565)
+  author: nadal
+  locus: whole volume - Tomus II, 1562-1565
+  role: tradition
+  confidence: assigned
+  note: 'Nadal''s own letters, 1562-1565, in the languages written, from the years of his
+    visitations of the Society. It carries Nadal''s voice on from the vendored Tomus I, which
+    stops in 1562. Primary original evidence for the movement, quotable once each wording
+    is checked against the page image: the scan is legible with occasional letter-level misreads.
+    Word-form coverage against a clean Latin vocabulary is 0.64; the Spanish, Italian and
+    Portuguese passages and the notes lower it, so the figure is a comparison across files
+    and not a measure of accuracy.'
+  source_file: nadal_epistolae-v2-lat_1899.txt
+- row_id: nadal_epistolae-v3-lat_1902--epistolae-p-hieronymi-nadal-tomus-iii-1566-1577
+  work: Epistolae P. Hieronymi Nadal, Tomus III (1566-1577)
+  author: nadal
+  locus: whole volume - Tomus III, 1566-1577
+  role: tradition
+  confidence: assigned
+  note: 'Nadal''s own letters, 1566-1577, in the languages written, from the years of his
+    visitations of the Society. It carries Nadal''s voice on from the vendored Tomus I, which
+    stops in 1562. Primary original evidence for the movement, quotable once each wording
+    is checked against the page image: the scan is legible with occasional letter-level misreads.
+    Word-form coverage against a clean Latin vocabulary is 0.61; the Spanish, Italian and
+    Portuguese passages and the notes lower it, so the figure is a comparison across files
+    and not a measure of accuracy.'
+  source_file: nadal_epistolae-v3-lat_1902.txt
+- row_id: nadal_epistolae-v4-lat_1905--nadal-s-selected-writings-instructions-and-other-monuments
+  work: Nadal's selected writings (instructions and other monuments), Epistolae Tomus IV
+  author: nadal
+  locus: whole volume - Tomus IV
+  role: tradition
+  confidence: assigned
+  note: 'Nadal''s own instructions and writings, printed as the complement of his letters.
+    They give his Latin voice on the Society''s government and practice. The volume omits
+    the Adnotationes and the Scholia, which are vendored in other files. Primary original
+    evidence for the movement, quotable once each wording is checked against the page image:
+    the scan is legible with occasional letter-level misreads. Word-form coverage against
+    a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese passages and the
+    notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+  source_file: nadal_epistolae-v4-lat_1905.txt
 - row_id: nadal_scholia-in-constitutiones-lat_1883--scholia-in-constitutiones
   work: Scholia in Constitutiones
   author: nadal
@@ -191,6 +1059,66 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
+- row_id: polanco_chronicon-v2-lat_1894--chronicon-societatis-iesu-polanco-tomus-2-1550-1552
+  work: Chronicon Societatis Iesu (Polanco), Tomus 2 (1550-1552)
+  author: polanco
+  locus: whole volume - Tomus 2, 1550-1552
+  role: tradition
+  confidence: assigned
+  note: 'Polanco''s year-by-year chronicle of the Society, 1550-1552, in Latin with the editors''
+    notes. It is the Society''s own account of its houses, colleges and missions, written
+    by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
+    1555). Primary original evidence for the movement, quotable once each wording is checked
+    against the page image: the scan is legible with occasional letter-level misreads. Word-form
+    coverage against a clean Latin vocabulary is 0.85; the Spanish, Italian and Portuguese
+    passages and the notes lower it, so the figure is a comparison across files and not a
+    measure of accuracy.'
+  source_file: polanco_chronicon-v2-lat_1894.txt
+- row_id: polanco_chronicon-v4-lat_1896--chronicon-societatis-iesu-polanco-tomus-4-1554
+  work: Chronicon Societatis Iesu (Polanco), Tomus 4 (1554)
+  author: polanco
+  locus: whole volume - Tomus 4, 1554
+  role: tradition
+  confidence: assigned
+  note: 'Polanco''s year-by-year chronicle of the Society, 1554, in Latin with the editors''
+    notes. It is the Society''s own account of its houses, colleges and missions, written
+    by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
+    1555). Primary original evidence for the movement, quotable once each wording is checked
+    against the page image: the scan is legible with occasional letter-level misreads. Word-form
+    coverage against a clean Latin vocabulary is 0.78; the Spanish, Italian and Portuguese
+    passages and the notes lower it, so the figure is a comparison across files and not a
+    measure of accuracy.'
+  source_file: polanco_chronicon-v4-lat_1896.txt
+- row_id: polanco_chronicon-v5-lat_1897--chronicon-societatis-iesu-polanco-tomus-5-1555
+  work: Chronicon Societatis Iesu (Polanco), Tomus 5 (1555)
+  author: polanco
+  locus: whole volume - Tomus 5, 1555
+  role: tradition
+  confidence: assigned
+  note: 'Polanco''s year-by-year chronicle of the Society, 1555, in Latin with the editors''
+    notes. It is the Society''s own account of its houses, colleges and missions, written
+    by Ignatius''s secretary, and is a second scan of the vendored Tomus 5 (1555). Primary
+    original evidence for the movement, quotable once each wording is checked against the
+    page image: the scan is legible with occasional letter-level misreads. Word-form coverage
+    against a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese passages
+    and the notes lower it, so the figure is a comparison across files and not a measure of
+    accuracy.'
+  source_file: polanco_chronicon-v5-lat_1897.txt
+- row_id: polanco_chronicon-v6-lat_1898--chronicon-societatis-iesu-polanco-tomus-6-1556
+  work: Chronicon Societatis Iesu (Polanco), Tomus 6 (1556)
+  author: polanco
+  locus: whole volume - Tomus 6, 1556
+  role: tradition
+  confidence: assigned
+  note: 'Polanco''s year-by-year chronicle of the Society, 1556, in Latin with the editors''
+    notes. It is the Society''s own account of its houses, colleges and missions, written
+    by Ignatius''s secretary, and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt,
+    1555). Primary original evidence for the movement, quotable once each wording is checked
+    against the page image: the scan is legible with occasional letter-level misreads. Word-form
+    coverage against a clean Latin vocabulary is 0.81; the Spanish, Italian and Portuguese
+    passages and the notes lower it, so the figure is a comparison across files and not a
+    measure of accuracy.'
+  source_file: polanco_chronicon-v6-lat_1898.txt
 - row_id: polanco_chronicon-v1-lat_1894--vita-ignatii-loiolae-et-rerum-societatis-jesu-historia
   work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Tomus
     V (covering the year 1555)
@@ -267,3 +1195,81 @@ works:
 
     '
   source_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+- row_id: society-of-jesus_institutum-societatis-iesu-v1-lat_1892--institutum-societatis-iesu-vol-1-the-papal-bulls-and-briefs
+  work: 'Institutum Societatis Iesu, Vol. 1: the papal bulls and briefs for the Society, the
+    perpetual calendar and the compendium of privileges'
+  author: society-of-jesus
+  locus: whole volume - volume 1 of 3
+  role: tradition
+  confidence: assigned
+  note: 'The Society''s own collected Latin text of the papal bulls and briefs for the Society,
+    the perpetual calendar and the compendium of privileges. The 1540 and 1550 charters and
+    the later bulls are printed here in the Society''s own text. Society-authored and corporate;
+    no single writer. Primary original evidence for the movement, and the cleanest Latin scan
+    in this group: modern typeset Latin with marginal rubrics, clean apart from occasional
+    letter-level misreads and line-end hyphens read as a stray sign. Word-form coverage against
+    a clean Latin vocabulary is 0.86, the same range as the machine-corrected TEI files. Quote
+    after checking the page image.'
+  source_file: society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt
+- row_id: society-of-jesus_institutum-societatis-iesu-v2-lat_1893--institutum-societatis-iesu-vol-2-the-examen-the
+  work: 'Institutum Societatis Iesu, Vol. 2: the Examen, the Constitutions with the Declarations,
+    and the decrees of the general congregations'
+  author: society-of-jesus
+  locus: whole volume - volume 2 of 3
+  role: tradition
+  confidence: assigned
+  note: 'The Society''s own collected Latin text of the Examen, the Constitutions with the
+    Declarations, and the decrees of the general congregations. The Latin Constitutions and
+    Declarations are printed here in a clean scan, which serves as the clean witness beside
+    the garbled 1606 print; the decrees run from 1558 on. Society-authored and corporate;
+    no single writer. Primary original evidence for the movement, and the cleanest Latin scan
+    in this group: modern typeset Latin with marginal rubrics, clean apart from occasional
+    letter-level misreads and line-end hyphens read as a stray sign. Word-form coverage against
+    a clean Latin vocabulary is 0.88, the same range as the machine-corrected TEI files. Quote
+    after checking the page image.'
+  source_file: society-of-jesus_institutum-societatis-iesu-v2-lat_1893.txt
+- row_id: society-of-jesus_institutum-societatis-iesu-v3-lat_1893--institutum-societatis-iesu-vol-3-the-rules-the-ratio
+  work: 'Institutum Societatis Iesu, Vol. 3: the Rules, the Ratio Studiorum, the ordinances
+    and instructions, the Exercises and the Directory'
+  author: society-of-jesus
+  locus: whole volume - volume 3 of 3
+  role: tradition
+  confidence: assigned
+  note: 'The Society''s own collected Latin text of the Rules, the Ratio Studiorum, the ordinances
+    and instructions, the Exercises and the Directory. The Ratio Studiorum is printed here
+    with the Society''s rules and instructions. Society-authored and corporate; no single
+    writer. Primary original evidence for the movement, and the cleanest Latin scan in this
+    group: modern typeset Latin with marginal rubrics, clean apart from occasional letter-level
+    misreads and line-end hyphens read as a stray sign. Word-form coverage against a clean
+    Latin vocabulary is 0.89, the same range as the machine-corrected TEI files. Quote after
+    checking the page image.'
+  source_file: society-of-jesus_institutum-societatis-iesu-v3-lat_1893.txt
+- row_id: society-of-jesus_monumenta-paedagogica-lat-spa_1901--monumenta-paedagogica-societatis-iesu-documents-to-1586
+  work: Monumenta Paedagogica Societatis Iesu (documents to 1586)
+  author: society-of-jesus
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'The Society''s own school documents from 1540 to 1586, in the languages they were
+    written in. It gives the drafts and rules behind the Ratio Studiorum, whose final text
+    is in Institutum Societatis Iesu, Vol. 3. Primary original evidence for the movement,
+    quotable once each wording is checked against the page image: the scan is legible with
+    occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary
+    is 0.77; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
+    is a comparison across files and not a measure of accuracy.'
+  source_file: society-of-jesus_monumenta-paedagogica-lat-spa_1901.txt
+- row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci
+  work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
+  author: trigault
+  locus: whole text, five books
+  role: tradition
+  confidence: assigned
+  note: 'The Jesuit account of Ricci''s China mission, in the Latin Trigault published in
+    1615 from Ricci''s own commentaries. Trigault edited and reordered Ricci''s text, so it
+    is the mission''s printed public voice and not a copy of Ricci''s own Italian. Second
+    witness for now, not yet quotable: the scan is a 1615 print with the long s read as f,
+    the ae ligature read as x, and many word spaces lost (for example infummo, fruftatim).
+    Word-form coverage against a clean Latin vocabulary is 0.49, well below the other files
+    in this group. A quotation needs the page image, and this 1615 printing is the only Latin
+    printing of the work found.'
+  source_file: trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt

@@ -874,3 +874,19 @@ documents, all dated) left unrewritten per the standing dated-history convention
 per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 
 **Path check:** 0 new unresolved, 1,040 total accepted.
+
+---
+
+## 2026-09-30 — Hussite and Bohemian Brethren Movement given the code `hus`
+
+**Context.** The world's Step 0 was cleared (Round 3) and the project lead asked for Steps 0–2 to be taken through.
+
+**Action.** `git mv Build/World-Builds/Hussite-and-Bohemian-Brethren-Movement` → `Build/worlds/hus`. Root `README.md` line for `Build/worlds/` now lists five not-yet-coded worlds. Nothing was added to `records/` or `packages/`; the code is not yet in `records/worlds.yaml`. `Build/World-Builds/Lollardy/Step0_Review_Round2.md` still cites the old path as dated history and is left unedited.
+
+---
+
+## 2026-09-30 — Society of Jesus given the code `jes`
+
+**Context.** The world's Step 0 was approved to proceed (Round 4 spot-check, clear) and the project lead assigned the file-code `jes`.
+
+**Action.** `git mv Build/World-Builds/Society-of-Jesus` → `Build/worlds/jes`. Root `README.md` line for `Build/worlds/` now lists four not-yet-coded worlds. Nothing was added to `records/` or `packages/`; the code is not yet registered in `records/worlds/`. Two dated audit documents (`Build/Ministry/Operations/Audits/SocietyOfJesus_Step0_Correction_2026-09-30.md`, `Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`), the review artifacts under `Build/worlds/witt/`, and `Build/worlds/jes/Step0_Review_Round4_SpotCheck.md` still cite the old path as dated history and are left unedited.

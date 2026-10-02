@@ -97,7 +97,7 @@ assignments:
   confidence: assigned
   note: 'Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
     for the Greek apologists as such; placed with the era-1 mainstream entry the volume''s
-    other works belong to. Doubt is the date - some put it after the entry''s 200 CE close.
+    other works belong to. Doubt is the date: ANF gives c. 130 and ''not later than the beginning of the second century'', while Harnack 1897 and Puech put it at the end of the 2nd or in the 3rd century (Contested; the range falls on both sides of the entry''s 124-200 window).
     greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
 - row_id: anf01_apostolic-fathers-justin-irenaeus--epistle-to-the-philippians-polycarp
@@ -242,12 +242,22 @@ assignments:
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   atlas_ids:
   - post-apostolic-house-church
-  - greek-apologists-second-century
   role: tradition
   confidence: provisional
   note: 'Same position as the Discourse: transmitted under Justin, widely doubted.
-    greek-apologists-second-century holds this work for the era''s outward-facing writing;
     pahc is kept because the era and church-world are genuinely its.'
+- row_id: anf01_apostolic-fathers-justin-irenaeus--hortatory-address-to-the-greeks-2
+  work: Hortatory Address to the Greeks
+  author: justin_martyr
+  locus: div2 8.6 under div1 'JUSTIN MARTYR'
+  atlas_ids:
+  - greek-apologists-second-century
+  role: context
+  confidence: provisional
+  note: 'Not Justin''s (Widely Accepted). Harnack 1904 dates it 221-302, probably the later half, and
+    other public-domain scholars put it at the end of the 2nd or early 3rd century, so it lies
+    mostly outside this entry''s window (124-200). Kept here as context, not as the world''s own
+    voice; the date dispute is Contested.'
 - row_id: anf01_apostolic-fathers-justin-irenaeus--on-the-sole-government-of-god
   work: On the Sole Government of God
   author: justin_martyr

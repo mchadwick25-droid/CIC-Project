@@ -18,6 +18,7 @@ DRAFTER_WITHHELD = "withheld until the mapping is revealed"
 FIELD_ROUND = "Round"
 FIELD_TRUNCATION_METHOD_1 = "Truncation check, method 1"
 FIELD_TRUNCATION_METHOD_2 = "Truncation check, method 2"
+FIELD_CYCLE_RESET = "Cycle reset"
 
 HEADER_FIELDS = (
     FIELD_REVIEWER_MODEL,
@@ -68,6 +69,14 @@ def _field_value(lines: list[str], name: str) -> str | None:
     return None
 
 
+def cycle_reset(path: Path) -> str | None:
+    """The text of the optional `Cycle reset` header field, or None when the
+    file carries none."""
+    if not path.is_file():
+        return None
+    return _field_value(read_text(path).splitlines()[1 : HEADER_LINES + 1], FIELD_CYCLE_RESET)
+
+
 def check_review_file(path: Path, root: Path = REPO_ROOT) -> list[Finding]:
     where = rel(path, root)
     if not path.is_file():
@@ -110,6 +119,10 @@ def check_review_file(path: Path, root: Path = REPO_ROOT) -> list[Finding]:
     if m1 and m2 and not PLACEHOLDER.match(m1) and not PLACEHOLDER.match(m2):
         if re.sub(r"\W+", " ", m1).strip().lower() == re.sub(r"\W+", " ", m2).strip().lower():
             bad("reviewfile-truncation", "the two truncation-check methods are identical; they must be independent methods")
+
+    reset = _field_value(header, FIELD_CYCLE_RESET)
+    if reset is not None and (not reset or PLACEHOLDER.match(reset)):
+        bad("reviewfile-cycle-reset", "header field 'Cycle reset' is present but empty or a placeholder; it must cite the ruling that restarts the round count")
 
     round_value = values[FIELD_ROUND]
     if round_value and not PLACEHOLDER.match(round_value):
