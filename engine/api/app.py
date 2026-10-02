@@ -462,6 +462,7 @@ def create_app(
             package_cache_dir=deps.package_cache_dir,
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
+            daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
         )
         started = time.monotonic()
         try:

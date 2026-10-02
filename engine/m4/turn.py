@@ -1101,6 +1101,7 @@ def run_turn(
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     self_revision_enabled: bool = True,
     sentence_enforce: bool = False,
+    daily_cap_reached: bool = False,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
@@ -1148,7 +1149,12 @@ def run_turn(
     function makes (the ordinary path and the bridge route both generate
     a real voice answer that can carry the same offenses) - see that
     function's own docstring for the full enforcement shape of each. All
-    default off/None, byte-identical to before any of them existed."""
+    default off/None, byte-identical to before any of them existed.
+
+    daily_cap_reached is engine.api.anon_cap's verdict that this visitor
+    has used today's message allowance. It closes the session the same way
+    the session turn cap does, at the same point, and a real crisis is
+    exempt from it the same way."""
     # The gate pass, extracted whole to run_gate (Artifact-7 - a table
     # round gates once per message, then runs several voice turns
     # against the same decision). The locals below keep their old names so
@@ -1181,6 +1187,13 @@ def run_turn(
     # not selectively, so the ending reads as one clear boundary rather than
     # a handful of routes quietly behaving differently.
     is_acute_crisis = action == "safety_turn" and not safety_outcome.failed and safety_outcome.value.get("signal") == "ACUTE_DISTRESS"
+    if not is_acute_crisis and daily_cap_reached:
+        return TurnResult(
+            routing_action="session_cap_turn", routing_reason="visitor daily message cap reached",
+            gate=gate, safety_state_events=safety_states,
+            facilitator_events=[facilitator_turns.daily_cap_turn()],
+            degraded=gate_result.degraded, usage_records=usage_records,
+        )
     if not is_acute_crisis and len(history or []) // 2 >= SESSION_TURN_CAP:
         return TurnResult(
             routing_action="session_cap_turn", routing_reason=f"session turn cap reached ({SESSION_TURN_CAP} turns)",

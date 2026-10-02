@@ -251,6 +251,24 @@ def session_cap_turn(representative_name: str) -> dict:
     return {"kind": SESSION_CAP.kind, "text": text}
 
 
+DAILY_CAP = FacilitatorTurn(
+    kind="close",
+    text=(
+        "This is the Facilitator. You've reached today's limit for messages, so this conversation "
+        "closes here. Please come back tomorrow, or reach out if this doesn't seem right."
+    ),
+)
+
+
+def daily_cap_turn() -> dict:
+    """The visitor's daily message cap, reached on a message that is not a
+    crisis. Same DRAFT status as session_cap_turn; the wording is the daily
+    cap's existing 429 text (engine.api.anon_cap.TURN_CAP_DETAIL), spoken
+    as the Facilitator. Serves the interview and the Table alike, since it
+    names no Representative."""
+    return {"kind": DAILY_CAP.kind, "text": DAILY_CAP.text}
+
+
 # --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
 # generation). DRAFT TEXT, not yet approved - same wired-now/

@@ -6107,3 +6107,5 @@ mechanism works, and this entry does not claim it is. Before
 false-positive class named above needs either a fix or a measured
 sense of how often it fires - neither exists yet. That is the managing
 thread's own next decision to make, not assumed here.
+
+**Entry 80 — 2026-10-02.** Coordination entry before editing `engine/m4/turn.py`, `engine/m4/round.py` and `engine/m4/facilitator_turns.py`, for the P1-Security daily-cap ruling (P1-Security Decision-Log entry 10, "Item 9b ruled"). `run_turn` and `open_table_round` gain a `daily_cap_reached` flag, checked beside the session cap after the gate and before any voice call, with the same acute-crisis exemption. `facilitator_turns` gains `daily_cap_turn`, a close-kind template. No change to the gate, routing, grounding, citation or transparency code this workstream owns.
