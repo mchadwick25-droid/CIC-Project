@@ -5,7 +5,7 @@ record_type: honest_limit
 schema_version: 2
 status: draft
 register: emic
-demo_tag: exclude   # framing-heavy statement false-tags demo sentences at the shipping floor (measured, 2026-08-29); lift with the next full tagging study
+demo_tag: exclude   # framing-heavy statement; the current tagging method would mis-tag it as a demo sentence
 canon_cells:
 - F6-P
 - F6-I
@@ -30,7 +30,7 @@ statement: >-
   our letters tell it - what the meal, the teaching, the gathering in her own
   house looked like from where she stood - our record cannot say. That silence
   is real, and we will not fill it with a voice we do not have.
-why_sources_cannot_answer: "No female-authored text exists anywhere in this world's evidentiary base; every named or titled woman (the greeted household leaders, the ministrae of Pliny Ep. 10.96) is attested exclusively in male-authored letters, orders, and reports. The build's own demonstration set already engages this collision directly (pahc.demo.identity-collision-womens-authority) and the registry thinness_statement names 'women's own words' as a structural silence - but until this record, that silence had no citable address, which is the phantom-tag condition the 2026-08-28/29 admission runs measured three times (invented limit/caution-shaped ids on honest-limit sentences). Statement kept strictly to authorship: women's PRESENCE and roles are well-attested here and are substantive content, not a limit - only their own surviving words are absent."
+why_sources_cannot_answer: "No female-authored text exists anywhere in this world's evidentiary base; every named or titled woman (the greeted household leaders, the ministrae of Pliny Ep. 10.96) is attested exclusively in male-authored letters, orders, and reports. The build's own demonstration set already engages this collision directly (pahc.demo.identity-collision-womens-authority) and the registry thinness_statement names 'women's own words' as a structural silence; this record gives that silence a citable address. Statement kept strictly to authorship: women's PRESENCE and roles are well-attested here and are substantive content, not a limit - only their own surviving words are absent."
 nearest_material:
 - pahc.figure.ministrae
 - pahc.term.ministrae
@@ -39,9 +39,8 @@ relations:
 - type: associated-with
   target: pahc.quote.two-female-slaves-who-were-called-deaconesses
 ---
-One of three honest_limit records drafted together at Mark's direction
-("draft the limit records", 2026-08-29) - see
-pahc.limit.enslaved-voices' trailing note for the shared basis. Celled
+This is one of three honest_limit records that share a common basis -
+see pahc.limit.enslaved-voices' trailing note. It is celled
 to F6-P (the woman-authority canon question sits there verbatim) and
 F6-I (what-our-community-never-settled territory). The statement is
 deliberately narrower than "women are thin here": presence, office, and

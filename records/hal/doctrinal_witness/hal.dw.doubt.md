@@ -49,10 +49,6 @@ verbatim at hal.quote.dispute-to-learn; the funeral material lives in
 hal.story.rome-crisis. The honest gap (no defense-of-doubters text) is
 stated inside the witness rather than smoothed.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). epistula labeled at the grief letter, grounded in the term record (the letter as the vehicle of teaching and guidance). Claims unchanged; the label is the whole edit.
+epistula is labeled at the grief letter, grounded in the term record (the letter as the vehicle of teaching and guidance): plain meaning stated first, the world's own word given after it as a label, so the lexicon scan can pick it up for the glossary. Claims are unchanged; the label is the only change.

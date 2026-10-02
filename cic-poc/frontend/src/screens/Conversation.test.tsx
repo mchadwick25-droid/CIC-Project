@@ -1,6 +1,6 @@
 /**
  * A bridge facilitator turn's own modern-term card (OG-13,
- * worlds/pahc/Open_Gaps_Tracking.md) - pinned here the same way
+ * Build/worlds/pahc/Open_Gaps_Tracking.md) - pinned here the same way
  * TableRoom.test.tsx pins its own table-route rendering, so the interview
  * route's own facilitator-turn branch is covered too.
  */
@@ -87,5 +87,13 @@ describe('Conversation', () => {
     ];
     const { container } = render(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
+  });
+
+  it('states that the voice is AI before the first message, and not after', () => {
+    const { container, rerender } = render(<Conversation {...baseProps} turns={[]} />);
+    expect(container.querySelector('.ai-note')?.textContent).toContain('Vera is an AI voice');
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Hello' }];
+    rerender(<Conversation {...baseProps} turns={turns} />);
+    expect(container.querySelector('.ai-note')).toBeNull();
   });
 });

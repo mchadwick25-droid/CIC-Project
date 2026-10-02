@@ -54,10 +54,6 @@ Homily on Our Lord; the day-that-gladdened line against Nativity
 Hymn I. Companion quotes: syr.quote.ephrem-only-begotten-dwelling,
 syr.quote.nativity-this-is-the-day, syr.quote.aphrahat-sure-thing.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). ihidaya labeled at the center identity witness's first line, the name's exact territory. Claims unchanged; the label is the whole edit.
+ihidaya is labeled at the center identity witness's first line, the name's exact territory: plain meaning first, the world's own word after it as a label.

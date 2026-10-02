@@ -17,14 +17,13 @@ query: "Whether Philostorgius' Ecclesiastical History - a non-Nicene narrative o
 channel: "direct reading of the vendored file, 2026-09-09, plus cic/corpus-map assignment check and a grep of records/ijc for prior consideration"
 result: not_found
 found_sources: []
-note: "THE TEXT IS REAL AND WAS NEVER CONSIDERED HERE - records/ijc had zero mentions of it, and cic/corpus-map assigns it only to anomoean-eunomian-christianity (role: tradition) and cappadocian-nicene-pastoral-monastic-tradition (role: context). It does NOT close the named gap, on three independent grounds. (1) Doc_02 sec 7 defines Homoian identity partly BY its rejection of the Anomoian heteroousios; Philostorgius was a follower of Eunomius, and the file's own Quasten note calls the work 'a late apology for the extreme Arianism of Eunomius.' (2) The project already separated the two parties on a dated corpus-map record (2026-08-26): 'The Anomoeans/Eunomians are not strictly Homoians.' (3) Decisively, the text will not support the role: at Constantinople 360 (IV.12) Philostorgius describes his OWN party being made to subscribe the Homoian formula under imperial pressure, 'by the artifice of this same Acacius' - the Homoian architect who is his villain throughout. Filing him as the defeated Homoians' self-account would install the testimony of a man the Homoians deposed and coerced. CONSEQUENCE: the Homoian self-testimony gap at Doc_02 sec 7 remains open and remains disclosed; no ijc source record is created; the Doc_04 Candidate 3 Confidence/Gravity Cross-Check divergence stands unchanged, since the formula Philostorgius quotes is already held via ijc.source.hilary-de-synodis and the divergence concerns Homoian SELF-testimony, which this is not."
+note: "records/ijc had zero mentions of this text, and cic/corpus-map assigns it only to anomoean-eunomian-christianity (role: tradition) and cappadocian-nicene-pastoral-monastic-tradition (role: context). It does NOT close the named gap, on three independent grounds. (1) Doc_02 sec 7 defines Homoian identity partly BY its rejection of the Anomoian heteroousios; Philostorgius was a follower of Eunomius, and the file's own Quasten note calls the work 'a late apology for the extreme Arianism of Eunomius.' (2) The project's own corpus-map record separates the two parties: 'The Anomoeans/Eunomians are not strictly Homoians.' (3) Decisively, the text will not support the role: at Constantinople 360 (IV.12) Philostorgius describes his OWN party being made to subscribe the Homoian formula under imperial pressure, 'by the artifice of this same Acacius' - the Homoian architect who is his villain throughout. Filing him as the defeated Homoians' self-account would install the testimony of a man the Homoians deposed and coerced. CONSEQUENCE: the Homoian self-testimony gap at Doc_02 sec 7 remains open and remains disclosed; no ijc source record is created; the Doc_04 Candidate 3 Confidence/Gravity Cross-Check divergence stands unchanged, since the formula Philostorgius quotes is already held via ijc.source.hilary-de-synodis and the divergence concerns Homoian SELF-testimony, which this is not."
 ---
-Run 2026-09-09 as a post-admission source check, not as part of the
-original step-2 ecology work - this world was admitted 2026-08-28 and
-the file was vendored 2026-08-31, after ijc.search.unopened-volume-sweep
-(2026-08-27, NPNF volumes only) had already run. That sequence is why it
-was never in an earlier sweep's frame, and it is recorded here so the
-absence reads as datable rather than as an oversight of the step-2 work.
+This is a post-admission source check, run after the
+original step-2 ecology work: this world's own admission preceded the
+file's own vendoring, which in turn followed
+ijc.search.unopened-volume-sweep (NPNF volumes only). That sequence is
+why it was not in an earlier sweep's frame.
 
 Bearing on this world's own gravities, tested rather than assumed: all
 six Doc_04 candidates were run against it. Candidates 2 and 5 have real
@@ -40,5 +39,5 @@ Cross-Check, he is not a further opponent-transmitter but an insider
 narrating his own party's coercion. That is a different position from
 the Homoian one this world's disclosure names, not a substitute for it.
 
-Full working, with five rounds of independent adversarial review, at
+Full working is at
 World-Builds/Imperial-Juridical-Christianity/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md

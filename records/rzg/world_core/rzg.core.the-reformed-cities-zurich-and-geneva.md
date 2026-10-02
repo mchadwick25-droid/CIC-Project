@@ -13,9 +13,9 @@ confidence:
   formation_confidence: Dominant Modern Reconstruction
   divergence_note: This record synthesises Doc_01 through the World Profile and rzg_World_Capsule_Core.md
     rather than reading a text directly, so verification runs via those documents' own authority, not
-    via a primary source reopened here. Doc_01 SS4's own close-call finding (one world, two strands, confirmed
-    by the project lead 2026-09-15 rather than self-resolved) is this world's own most consequential synthetic
-    judgment, carried into `formation_logic` above as settled rather than reargued.
+    via a primary source reopened here. Doc_01 SS4's own close-call finding (one world, two strands,
+    confirmed rather than self-resolved) is this world's own most consequential synthetic judgment,
+    carried into `formation_logic` above as settled rather than reargued.
 sources:
 - source_id: rzg.source.calvin-institutes-book1
   locus: whole work, per this record's own body

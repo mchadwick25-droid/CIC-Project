@@ -6,6 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Set Your Own Table — Church in Conversation</title>
 <meta name="description" content="Bring up to three Christian traditions to one table — choose who joins you, or let the Facilitator set the table for you.">
+<meta property="og:title" content="Set Your Own Table — Church in Conversation">
+<meta property="og:description" content="Bring up to three Christian traditions to one table — choose who joins you, or let the Facilitator set the table for you.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://churchinconversation.com/table.html">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Three figures from different centuries of Christian history talk around a wooden table with a scroll and books.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -227,11 +236,11 @@ p{margin:0 0 1rem}
     <section class="choose-table" aria-labelledby="chooseHeading">
       <p class="choose-heading" id="chooseHeading">Click an open seat below to choose who joins you</p>
 
-      <div class="table-graphic play" id="tableGraphic" aria-hidden="true">
-        <svg viewBox="0 0 280 280">
+      <div class="table-graphic play" id="tableGraphic">
+        <svg viewBox="0 0 280 280" aria-hidden="true">
           <path class="ring" d="M189.5,189.5 A70,70 0 1 1 189.5,90.5"/>
         </svg>
-        <div class="seat seat-you">You</div>
+        <div class="seat seat-you" aria-hidden="true">You</div>
         <button type="button" class="seat seat-open seat-1" id="seatBtn1" aria-describedby="seat-1-status">
           <span class="vh" id="seat-1-status">Open seat. Choose a tradition.</span>
           <span class="seat-label" aria-hidden="true">Open seat</span>
@@ -293,17 +302,17 @@ p{margin:0 0 1rem}
 (function(){
 "use strict";
 var WORLDS = [
-  { id:'post-apostolic-house-church', name:'Chloe', trad:'The Scattered Households', img:'assets/portraits/house-churches.png', tint:'#955FF0', desc:'Scattered households across Antioch, Asia Minor, and Rome, one body connected by letters and a shared table.' },
-  { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/alexandria.png', tint:'#3B83BF', desc:'Alexandria, c. 150–400 CE — teachers leading seekers toward Scripture’s deeper meaning, and the Logos it opens onto.' },
-  { id:'syriac-edessa-nisibis', name:'Mar Yausep', trad:'Syriac Christianity', img:'assets/portraits/syriac.png', tint:'#CC5E0A', desc:'Edessa and Nisibis, 200–410 CE — a covenant people who sang their theology, and never settled who spoke for them.' },
-  { id:'imperial-juridical-christianity', name:'Marius', trad:'Church and Empire', img:'assets/portraits/empire.png', tint:'#C36060', desc:'Rome, Constantinople, and Milan, c. 312–451 CE — bishops beside a throne, arguing over who finally speaks for it.' },
-  { id:'desert-monasticism', name:'Papnoute', trad:'Desert Fathers and Mothers', img:'assets/portraits/desert.png', tint:'#128D84', desc:'The Nile Valley and the desert of Egypt, c. 320–430 CE — a lifelong combat within. Authority never settled between Antony’s own example and Pachomius’s written rule.' },
-  { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#C46437', desc:'Cappadocia and Pontus, c. 325–394 CE — a radical ferment given a rule, a guest-door, and a martyr of its own.' },
-  { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#E23B7F', desc:'Rome and Bethlehem, c. 382–420 CE — women who funded and founded it, in a record almost entirely one man’s own hand.' },
-  { id:'gallic-monastic-ascetic-christianity', name:'Renatus', trad:'The Monk-Bishops of Gaul', img:'assets/portraits/gallic.jpg', tint:'#8FA3AC', desc:'The Loire Valley, Lérins, and Marseilles, c. 360–450 CE — Martin of Tours, a soldier who became a bishop, and a school of monks arguing how much of a person’s progress is God’s own gift.' },
-  { id:'donatism', name:'Fidelis', trad:'The Church of the Martyrs', img:'assets/portraits/donatism.png', tint:'#4C946A', desc:'Roman North Africa, c. 311–439 CE — two rival bishops at one see, and a communion built on the conviction that a tainted hand gives nothing.' },
-  { id:'the-reformed-cities-zurich-and-geneva', name:'Theophilus', trad:'The Reformed Cities', img:'assets/portraits/theophilus.jpg', tint:'#8787A1', desc:'Zurich and Geneva, 1519–1650 — two cities that tested every inherited practice against Scripture and kept only what the text would warrant.' },
-  { id:'lutheran-wittenberg-and-its-congregations', name:'Nikolaus', trad:'The Catechized Households of Wittenberg', img:'assets/portraits/nikolaus.jpg', tint:'#579C40', desc:'Wittenberg, in Electoral Saxony, 1517–1580 — a household catechism said three times a day. A promise from outside made a frightened conscience sure.' }
+  { id:'post-apostolic-house-church', name:'Chloe', trad:'The Scattered Households', img:'assets/portraits/thumb/house-churches.webp', tint:'#955FF0', desc:'Scattered households across Antioch, Asia Minor, and Rome, one body connected by letters and a shared table.' },
+  { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/thumb/alexandria.webp', tint:'#3B83BF', desc:'Alexandria, c. 150–400 CE — teachers leading seekers toward Scripture’s deeper meaning, and the Logos it opens onto.' },
+  { id:'syriac-edessa-nisibis', name:'Mar Yausep', trad:'Syriac Christianity', img:'assets/portraits/thumb/syriac.webp', tint:'#CC5E0A', desc:'Edessa and Nisibis, 200–410 CE — a covenant people who sang their theology, and never settled who spoke for them.' },
+  { id:'imperial-juridical-christianity', name:'Marius', trad:'Church and Empire', img:'assets/portraits/thumb/empire.webp', tint:'#C36060', desc:'Rome, Constantinople, and Milan, c. 312–451 CE — bishops beside a throne, arguing over who finally speaks for it.' },
+  { id:'desert-monasticism', name:'Papnoute', trad:'Desert Fathers and Mothers', img:'assets/portraits/thumb/desert.webp', tint:'#128D84', desc:'The Nile Valley and the desert of Egypt, c. 320–430 CE — a lifelong combat within. Authority never settled between Antony’s own example and Pachomius’s written rule.' },
+  { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/thumb/cappadocian.webp', tint:'#C46437', desc:'Cappadocia and Pontus, c. 325–394 CE — a radical ferment given a rule, a guest-door, and a martyr of its own.' },
+  { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/thumb/bethlehem.webp', tint:'#E23B7F', desc:'Rome and Bethlehem, c. 382–420 CE — women who funded and founded it, in a record almost entirely one man’s own hand.' },
+  { id:'gallic-monastic-ascetic-christianity', name:'Renatus', trad:'The Monk-Bishops of Gaul', img:'assets/portraits/thumb/gallic.webp', tint:'#8FA3AC', desc:'The Loire Valley, Lérins, and Marseilles, c. 360–450 CE — Martin of Tours, a soldier who became a bishop, and a school of monks arguing how much of a person’s progress is God’s own gift.' },
+  { id:'donatism', name:'Fidelis', trad:'The Church of the Martyrs', img:'assets/portraits/thumb/donatism.webp', tint:'#4C946A', desc:'Roman North Africa, c. 311–439 CE — two rival bishops at one see, and a communion built on the conviction that a tainted hand gives nothing.' },
+  { id:'the-reformed-cities-zurich-and-geneva', name:'Theophilus', trad:'The Reformed Cities', img:'assets/portraits/thumb/theophilus.webp', tint:'#8787A1', desc:'Zurich and Geneva, 1519–1650 — two cities that tested every inherited practice against Scripture and kept only what the text would warrant.' },
+  { id:'lutheran-wittenberg-and-its-congregations', name:'Nikolaus', trad:'The Catechized Households of Wittenberg', img:'assets/portraits/thumb/nikolaus.webp', tint:'#579C40', desc:'Wittenberg, in Electoral Saxony, 1517–1580 — a household catechism said three times a day. A promise from outside made a frightened conscience sure.' }
 ];
 
 var roster = document.getElementById('roster');

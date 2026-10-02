@@ -247,10 +247,9 @@ narrative:
   - desert.term.logismoi
   - desert.term.hesychia
 ---
-Authored 2026-09-19: the desert-monasticism `world_front` pilot record
-(Website V2 world_front design, approved to proceed 2026-09-19),
-migrating this world's participant-facing overview content into the new
-record-native `world_front` type. Covers `skim`, `orientation`, and
+This is the desert-monasticism `world_front` pilot record, migrating
+this world's participant-facing overview content into the record-native
+`world_front` type. Covers `skim`, `orientation`, and
 `narrative` only, per this pilot's own scope; `facilitator_brief` is a
 separate, later record this pass does not build.
 
@@ -325,8 +324,8 @@ body notes for their sourcing and for the reciprocal relations added on
 things this pilot deliberately leaves undone; both are named above and
 in this pilot's own final report rather than left silently absent.
 
-COMPILER-TIME FINDING (2026-09-19): `narrative.pull_quotes` originally
-named `desert.quote.antony-dying-daily`. Running
+`narrative.pull_quotes` names `desert.quote.equal-measure-of-strength`,
+not `desert.quote.antony-dying-daily`. Running
 `engine.m2.site_compiler.compile_world_front()` against a draft of this
 record showed that quote's own compiled `text` resolving to `null` -
 `_resolve_quote()` reads `modern_rendering` only (Mark's standing quote

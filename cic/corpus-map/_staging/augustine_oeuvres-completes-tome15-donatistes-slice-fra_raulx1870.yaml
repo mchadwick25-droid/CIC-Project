@@ -1,0 +1,15 @@
+source_file: augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870.txt
+
+assignments:
+  - row_id: augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870--augustine-on-the-donatists-french-raulx-tome-15-slice
+    work: "Augustine on the Donatists (French, Raulx, tome 15, slice)"
+    author: augustine
+    locus: "whole file; item lines 1-45985 of the source volume"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      French translation of the Psalmus, the answer to Parmenian, the baptism books, Petilian,
+      the letter to the Catholics and Cresconius. Not the original; matched to the Latin by
+      title only. Registry row 246.

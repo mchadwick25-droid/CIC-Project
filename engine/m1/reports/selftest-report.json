@@ -59,7 +59,15 @@
       "gate": "quote-recording",
       "status": "caught",
       "findings": [
-        "fix.quote.private-teaching: license 'maybe' is not one of ['do-not-voice', 'paraphrase-only', 'verbatim']"
+        "fix.quote.private-teaching: license 'maybe' is not one of ['paraphrase-only', 'verbatim']"
+      ]
+    },
+    {
+      "id": "quote-recording-missing-modern-rendering",
+      "gate": "quote-recording",
+      "status": "caught",
+      "findings": [
+        "fix.quote.private-teaching: quote must record modern_rendering - the spoken form, never text itself"
       ]
     },
     {

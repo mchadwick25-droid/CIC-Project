@@ -1,7 +1,8 @@
 source_file: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt
 
 assignments:
-  - work: "Histoire littéraire de l'Afrique chrétienne, Tome V: Saint Optat
+  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920--histoire-litteraire-de-l-afrique-chretienne-tome-v-saint
+    work: "Histoire littéraire de l'Afrique chrétienne, Tome V: Saint Optat
       et les premiers écrivains donatistes"
     author: monceaux
     locus: "whole volume"

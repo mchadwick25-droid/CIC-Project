@@ -16,11 +16,11 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import anon_cap, db_backup, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
@@ -40,11 +40,10 @@ _INVALID_SESSION_DETAIL = "invalid session"
 _WORLD_UNAVAILABLE_DETAIL = "world temporarily unavailable"
 _AUTH_PREFIX = "Session "
 
-# The service's one logger (2026-08-28 foundation audit: the service had
-# ZERO logging, and the one place the real Bedrock error was captured it
-# was discarded unbound - a throttling storm was indistinguishable from a
-# credential failure). Session ids are logged; participant text and voice
-# text never are.
+# The service's one logger. Bedrock errors are captured and logged bound
+# to it, so a throttling storm is distinguishable from a credential
+# failure. Session ids are logged; participant text and voice text never
+# are.
 logger = logging.getLogger("cic.api")
 
 
@@ -64,6 +63,20 @@ class Deps:
     package_cache_dir: Path | None = None
     r27_enforce: bool = False
     self_revision_enabled: bool = True
+    # Same directory m7_scheduler.start_background_scheduler already
+    # writes to below - the usage-summary endpoint reads its
+    # canon-candidates.json (last_run.json's own out_dir) rather than
+    # recomputing it, so this is a read-only second consumer of an
+    # existing daily job, not a new one. None in every test app (no
+    # scheduler running, nothing to read) - the endpoint degrades to
+    # omitting that section rather than erroring.
+    m7_audit_root: Path | None = None
+    # The dashboard's password login (engine.api.admin_auth) - None when
+    # admin_token itself is unset, since a
+    # password login with no admin_token to bootstrap it or sign its
+    # sessions makes no sense (same "the whole feature is off" posture
+    # admin_token's own absence already gives pilot-summary).
+    admin_auth_store: admin_auth.AdminAuthStore | None = None
 
 
 class SessionCreateRequest(BaseModel):
@@ -86,16 +99,11 @@ _MAX_MESSAGE_LENGTH = 4000  # ~800-1000 words - generous for a real participant 
 
 
 class MessageRequest(BaseModel):
-    # 2026-09-21, closing adversarial review of Tech-Readiness P1-Security:
-    # unbounded before this. Nothing anywhere in the request path - not
-    # this model, not engine/m4/turn.py, not the Dockerfile - capped
-    # participant input length; every message is forwarded to Bedrock
-    # TWICE per turn (the safety gate, then voice generation) and stored
-    # verbatim, at up to 40 messages/min per IP. Output was already
-    # bounded (max_tokens on the generation call); input wasn't - textbook
-    # OWASP LLM Top 10 "unbounded consumption," and cheaper for an
-    # attacker to hit than the session-creation path this package's own
-    # anonymous-cap work (item 3) addresses.
+    # Bounds participant input length. Every message is forwarded to
+    # Bedrock TWICE per turn (the safety gate, then voice generation) and
+    # stored verbatim, at up to 40 messages/min per IP. Output is bounded
+    # by max_tokens on the generation call; this bounds input the same
+    # way.
     text: str = Field(max_length=_MAX_MESSAGE_LENGTH)
     client_msg_id: str | None = None
 
@@ -142,16 +150,28 @@ class TranscriptResponse(BaseModel):
 
 
 class RoundCloseReasonsResponse(BaseModel):
-    """Diagnostic-only, table sessions (2026-09-05): every round_closed
-    event's own payload for this session, in round order. Empty for an
-    interview session or a table session with no round closed yet."""
+    """Diagnostic-only, table sessions: every round_closed event's own
+    payload for this session, in round order. Empty for an interview
+    session or a table session with no round closed yet."""
     session_id: str
     rounds: list[dict]
 
 
+class AdminSetPasswordRequest(BaseModel):
+    password: str
+
+
+class AdminLoginRequest(BaseModel):
+    password: str
+
+
+class AdminAuthStatusResponse(BaseModel):
+    password_set: bool
+
+
 class PilotSummaryResponse(BaseModel):
-    """Admin-only (2026-09-05), see wiring.PilotSummary's own docstring for
-    what this deliberately does and doesn't carry."""
+    """Admin-only, see wiring.PilotSummary's own docstring for what this
+    deliberately does and doesn't carry."""
     total_sessions: int
     by_mode: dict[str, int]
     open_sessions: int
@@ -159,6 +179,45 @@ class PilotSummaryResponse(BaseModel):
     table_round_counts_on_cap: dict[str, int]
     earliest_session_at: str | None
     latest_session_at: str | None
+
+
+class VisitorUsageResponse(BaseModel):
+    """See wiring.VisitorUsage's own docstring."""
+    unique_visitors: int
+    sessions_with_visitor_id: int
+    median_session_seconds: float | None
+    average_session_seconds: float | None
+    median_visitor_total_seconds: float | None
+    average_visitor_total_seconds: float | None
+
+
+class WorldUsageResponse(BaseModel):
+    world_key: str
+    calls: int
+    input_tokens: int
+    output_tokens: int
+    cache_creation_input_tokens: int
+    cache_read_input_tokens: int
+    priced_dollars: float
+    unpriced_calls: int
+
+
+class AskCandidateResponse(BaseModel):
+    ask: str
+    count: int
+    session_ids: list[str]
+
+
+class UsageSummaryResponse(BaseModel):
+    """Admin-only, see wiring.get_usage_summary's own docstring - the same
+    operator-only tier /api/admin/pilot-summary already lives at, extended
+    with the identity/duration/cost/per-world/questions-asked scope."""
+    visitors: VisitorUsageResponse
+    by_world: list[WorldUsageResponse]
+    price_table_source: str | None
+    top_asks: list[AskCandidateResponse]
+    asks_generated_at: str | None
+    asks_as_of_run: str | None
 
 
 class WorldSummary(BaseModel):
@@ -206,15 +265,29 @@ def _authenticate(store: Store, session_id: str, authorization: str | None):
 _ADMIN_AUTH_PREFIX = "Bearer "
 
 
-def _authenticate_admin(configured_token: str | None, authorization: str | None) -> None:
+def _authenticate_admin(configured_token: str | None, authorization: str | None, *, session_token: str | None = None) -> None:
     """A separate credential from _authenticate above: that one proves
     'this caller holds THIS session's own code' (a participant, legitimately);
     this one proves 'this caller is an operator,' answering across every
     session at once. Unconfigured, missing, and wrong all return the
     identical 404 - unlike a session id (which a real participant already
     knows exists), this route shouldn't confirm its own existence to
-    anyone who lacks the token, config-not-set included."""
-    if not configured_token or not authorization or not authorization.startswith(_ADMIN_AUTH_PREFIX):
+    anyone who lacks the token, config-not-set included.
+
+    session_token: the dashboard's password-login
+    cookie (engine.api.admin_auth) is a second, equally valid way in -
+    checked first since it's the common case for the browser dashboard,
+    falling through to the original Bearer-token check unchanged so a
+    direct API caller (a script hitting pilot-summary) is unaffected.
+    configured_token doubles as the session-signing secret
+    (admin_auth.verify_session_token) - unconfigured admin_token means no
+    valid session can exist either, the same single off-switch as
+    before."""
+    if not configured_token:
+        raise HTTPException(status_code=404)
+    if session_token and admin_auth.verify_session_token(session_token, configured_token):
+        return
+    if not authorization or not authorization.startswith(_ADMIN_AUTH_PREFIX):
         raise HTTPException(status_code=404)
     candidate = authorization[len(_ADMIN_AUTH_PREFIX) :].strip()
     if not candidate or not hmac.compare_digest(candidate, configured_token):
@@ -242,6 +315,8 @@ def create_app(
     anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    m7_audit_root: Path | None = None,
+    admin_auth_store: admin_auth.AdminAuthStore | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -257,9 +332,9 @@ def create_app(
     /api/admin/pilot-summary 404s outright rather than existing in a
     permanently-unauthorizable state.
 
-    anon_cap_enabled defaults False, same posture again (see
-    engine.api.anon_cap's own module docstring for what this is and why
-    it's proposed, not decided, even once code-complete). Enabling it with
+    anon_cap_enabled defaults False as a code default (see
+    engine.api.anon_cap's own module docstring - both real deploys turn it
+    on via render.yaml). Enabling it with
     no secret is refused loudly, not silently skipped - a caller opting in
     without providing the one thing that makes the token unforgeable is a
     misconfiguration, not a valid "off" state."""
@@ -294,6 +369,8 @@ def create_app(
         package_cache_dir=package_cache_dir,
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
+        m7_audit_root=m7_audit_root,
+        admin_auth_store=admin_auth_store,
     )
 
     @app.get("/health")
@@ -315,6 +392,9 @@ def create_app(
     @app.post("/api/session", status_code=201, response_model=SessionCreateResponse)
     def create_session_endpoint(req: SessionCreateRequest, request: Request):
         deps: Deps = request.app.state.deps
+        # Set only when anon_cap.install's middleware ran (CIC_API_ANON_CAP_ENABLED) -
+        # absent otherwise, same as a pre-visitor-cookie session_started event.
+        visitor_id = getattr(request.state, "visitor_id", None)
         if req.world_keys is not None:
             if req.world_key is not None:
                 raise HTTPException(status_code=400, detail="pass world_key OR world_keys, not both")
@@ -327,6 +407,7 @@ def create_app(
                 session_id, code = table_wiring.create_table_session(
                     store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_keys=req.world_keys,
                     require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
+                    visitor_id=visitor_id,
                 )
             except wiring.UnknownWorldError as exc:
                 raise HTTPException(status_code=400, detail=f"unknown world_key {exc.args[0]!r}")
@@ -338,9 +419,9 @@ def create_app(
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
-            # Foundation audit (2026-08-28): POST {} used to fall through to
-            # default_world_key - configured in production as the synthetic
-            # fixture world, which records/worlds.yaml says must never be
+            # POST {} must not fall through to default_world_key -
+            # configured in production as the synthetic fixture world,
+            # which records/worlds.yaml says must never be
             # participant-reachable ("never listed beside them, never
             # admitted"). A session names its world or doesn't open; the
             # frontend always names one, so no real caller changes.
@@ -350,6 +431,7 @@ def create_app(
             session_id, code = wiring.create_session(
                 store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_key=world_key,
                 require_admitted=deps.enforce_admission, package_cache_dir=deps.package_cache_dir,
+                visitor_id=visitor_id,
             )
         except wiring.UnknownWorldError:
             raise HTTPException(status_code=400, detail=f"unknown world_key {world_key!r}")
@@ -380,6 +462,7 @@ def create_app(
             package_cache_dir=deps.package_cache_dir,
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
+            daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
         )
         started = time.monotonic()
         try:
@@ -460,10 +543,10 @@ def create_app(
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
     def get_round_close_reasons_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
         """Diagnostic-only: gated by the same per-session code as the
-        transcript endpoint above, never a new auth surface. Built
-        2026-09-05 so a real production round's close reason - including
-        the turn selector's own free-text justification on a genuine
-        close - is answerable without a direct read against the store."""
+        transcript endpoint above, never a new auth surface. A real
+        production round's close reason - including the turn selector's
+        own free-text justification on a genuine close - is answerable
+        without a direct read against the store."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
         rounds = table_wiring.get_round_close_reasons(deps.store, session_id)
@@ -473,15 +556,102 @@ def create_app(
     def get_pilot_summary_endpoint(
         request: Request, authorization: str | None = Header(default=None), since: str | None = None
     ):
-        """Operator-only (2026-09-05: no way to answer 'how many real
-        pilot sessions exist' or 'is the table round cap firing where it
-        should' from outside the service). `since` is the same ISO-8601
-        prefix filter Store.list_session_ids already defines - unset means
-        every session ever logged."""
+        """Operator-only: answers 'how many real pilot sessions exist' and
+        'is the table round cap firing where it should' from outside the
+        service. `since` is the same ISO-8601 prefix filter
+        Store.list_session_ids already defines - unset means every
+        session ever logged."""
         deps: Deps = request.app.state.deps
-        _authenticate_admin(deps.admin_token, authorization)
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
         summary = wiring.get_pilot_summary(deps.store, since=since)
         return PilotSummaryResponse(**asdict(summary))
+
+    @app.get("/api/admin/usage-summary", response_model=UsageSummaryResponse)
+    def get_usage_summary_endpoint(
+        request: Request, authorization: str | None = Header(default=None), since: str | None = None
+    ):
+        """Operator-only, same gate as pilot-summary above: unique
+        visitors, duration, cost/tokens, per-world breakdown, and the
+        latest questions-asked rollup - see wiring.get_usage_summary's own
+        docstring for exactly what each covers and the one disclosed scope
+        gap (cost/per-world doesn't respect `since` yet)."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
+        summary = wiring.get_usage_summary(deps.store, deps.usage_store, since=since, m7_audit_root=deps.m7_audit_root)
+        return UsageSummaryResponse(**asdict(summary))
+
+    @app.get("/api/admin/auth-status", response_model=AdminAuthStatusResponse)
+    def get_admin_auth_status(request: Request):
+        """Unauthenticated on purpose - the dashboard calls this BEFORE it
+        has any credential at all, to decide which form to show: 'set up
+        your password' (password_set: false) or 'log in' (true). Reveals
+        only a boolean, never whether admin_token itself is configured -
+        that stays 404-everywhere like every other /api/admin/* route
+        when it's unset, via the same admin_auth_store being None."""
+        deps: Deps = request.app.state.deps
+        if deps.admin_auth_store is None:
+            raise HTTPException(status_code=404)
+        return AdminAuthStatusResponse(password_set=deps.admin_auth_store.read_password_hash() is not None)
+
+    @app.post("/api/admin/set-password", status_code=204)
+    def set_admin_password(req: AdminSetPasswordRequest, request: Request, authorization: str | None = Header(default=None)):
+        """Bootstraps or changes the dashboard's password - gated on the
+        ORIGINAL admin_token (Bearer), never a session, since this is the
+        one action that creates the credential a session would otherwise
+        prove. The raw token from Render is needed here exactly once (or
+        again, to change the password later), never afterward for ordinary
+        dashboard use."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization)
+        if deps.admin_auth_store is None:
+            raise HTTPException(status_code=404)
+        try:
+            admin_auth.validate_password_policy(req.password)
+        except admin_auth.PasswordPolicyError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
+        deps.admin_auth_store.write_password_hash(admin_auth.hash_password(req.password))
+
+    @app.post("/api/admin/login")
+    def admin_login(req: AdminLoginRequest, request: Request):
+        """Rate-limited to 5 attempts/15min per IP (engine.api.ratelimit.
+        ADMIN_LOGIN_LIMIT) - that lockout, not the password's own length,
+        is what makes a 12-20 character password (engine.api.admin_auth.
+        PASSWORD_MIN_LENGTH/MAX_LENGTH) safe here. Wrong password and
+        no-password-set-yet return the identical 401 - the dashboard asks
+        auth-status separately to tell those apart, this route never
+        leaks it on a failed attempt."""
+        deps: Deps = request.app.state.deps
+        if deps.admin_auth_store is None:
+            raise HTTPException(status_code=404)
+        stored_hash = deps.admin_auth_store.read_password_hash()
+        if not stored_hash or not admin_auth.verify_password(req.password, stored_hash):
+            raise HTTPException(status_code=401, detail="incorrect password")
+        token = admin_auth.issue_session_token(deps.admin_token)
+        response = JSONResponse({"status": "ok"})
+        response.set_cookie(
+            admin_auth.SESSION_COOKIE_NAME, token, max_age=admin_auth.DEFAULT_SESSION_TTL_SECONDS,
+            httponly=True, samesite="lax", secure=True, path="/api/admin",
+        )
+        return response
+
+    @app.post("/api/admin/logout")
+    def admin_logout():
+        response = JSONResponse({"status": "ok"})
+        response.delete_cookie(admin_auth.SESSION_COOKIE_NAME, path="/api/admin")
+        return response
+
+    _ADMIN_DASHBOARD_PATH = Path(__file__).resolve().parent / "static" / "admin_dashboard.html"
+
+    @app.get("/admin/dashboard", include_in_schema=False)
+    def get_admin_dashboard():
+        """The visual half of the usage dashboard - a static page,
+        unauthenticated to SERVE (same posture as cic-poc/frontend below:
+        no page here carries data of its own), that logs in with a
+        password (engine.api.admin_auth) and calls
+        /api/admin/usage-summary + /api/admin/pilot-summary with the
+        resulting session cookie. Registered BEFORE the SPA catch-all below so it isn't swallowed by
+        that route's index.html fallback."""
+        return FileResponse(_ADMIN_DASHBOARD_PATH)
 
     # Stage 5 (PHASE-1-LAUNCH.md): one Render service, not two - same
     # pattern cic-poc/backend/app/main.py already used, so no CORS_ORIGINS
@@ -531,31 +701,29 @@ def _build_real_app() -> FastAPI:
     full_registry = load_registry(settings.worlds_yaml_path)
 
     # M7's conversation-quality audit existed but depended on someone
-    # remembering to run it by hand - the one real gap in an otherwise-live
-    # pilot data pipeline (System Health thread, 2026-09-04). Started here,
-    # not as a separate Render service: a Cron Job service can't share this
-    # service's already-attached Persistent Disk. Read-only over the event
-    # log, so a bad run can never affect a live conversation.
+    # remembering to run it by hand. Started here, not as a separate
+    # Render service: a Cron Job service can't share this service's
+    # already-attached Persistent Disk. Read-only over the event log, so a
+    # bad run can never affect a live conversation.
     m7_scheduler.start_background_scheduler(
         settings.events_db_path, Path(settings.events_db_path).parent / "m7-audits"
     )
 
-    # Idle-close sweep (2026-09-06): a separate daily background thread,
-    # deliberately not folded into M7's own scheduler above - M7 is
-    # read-only over the event log by design, and this sweep's whole job
-    # is to write session_closed/reason="idle" (engine.m4.idle_close's own
-    # docstring). Reporting-only: never blocks a participant resuming.
+    # Idle-close sweep: a separate daily background thread, deliberately
+    # not folded into M7's own scheduler above - M7 is read-only over the
+    # event log by design, and this sweep's whole job is to write
+    # session_closed/reason="idle" (engine.m4.idle_close's own docstring).
+    # Reporting-only: never blocks a participant resuming.
     idle_close.start_background_scheduler(settings.events_db_path)
 
-    # DB backup sweep (Tech-Readiness Package 2, 2026-09-21): a third
-    # daily background thread, same reason as the two above - a Cron Job
-    # service cannot reach this service's own Persistent Disk (module
-    # docstring, engine/api/db_backup.py). Online-backs-up both SQLite
-    # stores and uploads to CIC_API_BACKUP_BUCKET when configured; a no-op
-    # upload (logged, not fatal) until Mark completes that bucket's own
-    # one-time setup (Ministry/Operations/Standing/
-    # CiC_Backup_Restore_Runbook.md), same deferred-until-configured
-    # pattern as CIC_API_PACKAGE_BUCKET.
+    # DB backup sweep: a third daily background thread, same reason as the
+    # two above - a Cron Job service cannot reach this service's own
+    # Persistent Disk (module docstring, engine/api/db_backup.py).
+    # Online-backs-up both SQLite stores and uploads to
+    # CIC_API_BACKUP_BUCKET when configured; a no-op upload (logged, not
+    # fatal) until that bucket is configured (setup steps in
+    # Build/Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md),
+    # same deferred-until-configured pattern as CIC_API_PACKAGE_BUCKET.
     db_backup.start_background_scheduler(
         settings.events_db_path, settings.usage_db_path, Path(settings.events_db_path).parent / "backups-staging"
     )
@@ -579,6 +747,19 @@ def _build_real_app() -> FastAPI:
         anon_daily_session_limit=settings.anon_daily_session_limit,
         anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
+        # Same path m7_scheduler.start_background_scheduler was already
+        # given above - one directory, two readers (the daily job writes
+        # it, the usage-summary endpoint reads it).
+        m7_audit_root=Path(settings.events_db_path).parent / "m7-audits",
+        # Same persistent disk as events.db/usage.db/m7-audits above - one
+        # small file, only ever constructed when admin_token itself is
+        # set (None otherwise disables the whole password-login feature,
+        # same posture admin_token's own absence already gives every
+        # other /api/admin/* route).
+        admin_auth_store=(
+            admin_auth.AdminAuthStore(Path(settings.events_db_path).parent / "admin_auth.json")
+            if settings.admin_token else None
+        ),
     )
 
 

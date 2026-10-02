@@ -58,4 +58,4 @@ honest, explicit non-answer inside the tensions field rather than a
 manufactured reaction this world's own record does not contain -
 matching this world's own guard against invented depth.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-antiphonal-psalmody, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-on-antiphonal-psalmody.

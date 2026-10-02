@@ -49,9 +49,8 @@ manifestations:
   than destitution
 matrix_cell: 2A
 ---
-Re-derived from cleared Doc_08 cell 2A-4 (the entry Round 1 found missing
-entirely - the world's central transforming event), with its two carried
-distinctions intact: (1) clerical protection vs. material funding - only
+Derived from Doc_08 cell 2A-4 - the world's central transforming event -
+with its two carried distinctions intact: (1) clerical protection vs. material funding - only
 the first failed; (2) this force, not the pagan backlash, is what shifted
 patronage (G3) to a Bethlehem-centered form, intensified letter-writing
 (G4) by creating the separation, and opened the Rome space Marcella's

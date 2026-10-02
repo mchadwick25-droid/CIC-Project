@@ -37,5 +37,5 @@ vendorable copy would not touch the Doc_04 Candidate 3 Cross-Check
 divergence, which concerns what the Homoian establishment confessed
 rather than what a later Arian exegete wrote about Matthew.
 
-Full working, with five rounds of independent adversarial review, at
+Full working is at
 World-Builds/Imperial-Juridical-Christianity/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md

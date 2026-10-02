@@ -1,6 +1,7 @@
 source_file: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt
 assignments:
-  - work: "The Life of the Archpriest Avvakum by Himself"
+  - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself
+    work: "The Life of the Archpriest Avvakum by Himself"
     author: avvakum
     locus: "whole work (at least 156pp.; Harrison & Mirrlees trans., 1924, preface by D. S. Mirsky)"
     atlas_ids:

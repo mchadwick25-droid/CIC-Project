@@ -37,31 +37,16 @@ relations:
   target: desert.quote.antony-nicene-formula
 ---
 Vita SS16, 19, 33, 81 and 91, verified directly against the vendored
-file this session - added per Step 4 Round 1 review Finding S4, which
-found the original honest_limit's claim that eschatology "did not come
-down to us as a teaching" false against the sentences immediately
-following the same discourse desert.quote.antony-dying-daily already
-quotes. This record narrows the claim to what is actually absent (a
+file: this record narrows the claim to what is actually absent (a
 developed sequence or shape of the end) rather than denying what is
-present (teaching on judgment's certainty).
-
-Step4, Round 2 review Finding S3: the loci above previously read SS17
-and SS34, the exact section numbers Round 1's own review text used -
-checked directly against the file rather than carried forward, and both
-were one section off: the ages-to-come passage is S16 (S17 opens
-immediately after, on a different subject), and the "called to
-judgment" sentence is the last sentence of S33 (S34 opens immediately
-after it, on a different subject). Corrected above. Finding M3: the
-compiled text's closing sentence read "at all," an absolute the corpus
-does not fully support - S69 (see desert.quote.antony-nicene-formula)
-has Antony publicly teaching that Arianism was "the last of all and a
-forerunner of Antichrist," itself a claim about what precedes the end.
-Reworded to the same hedge positions[2] already carried ("no developed
-sequence or shape"). Finding C8: "plainly and often" and "constantly"
-(twice) were frequency claims about a vendored file with no count
-performed - removed; the record's own basis is four cited passages, not
-a claim to exhaustiveness. Finding S2: the record deleted for this
-cell's other two questions (born-again framing; tithing) has been
-restored in narrowed form as desert.limit.f4-t-born-again-and-tithe, so
-this cell now carries both a substantive answer and an honest limit,
-per that record's own body note.
+present (teaching on judgment's certainty). The ages-to-come passage is
+S16; the "called to judgment" sentence is the last sentence of S33.
+S69 (see desert.quote.antony-nicene-formula) has Antony publicly
+teaching that Arianism was "the last of all and a forerunner of
+Antichrist," itself a claim about what precedes the end, so the closing
+sentence carries the same hedge positions[2] already states ("no
+developed sequence or shape") rather than an absolute. The record's own
+basis is the four cited passages, not a claim to exhaustiveness. This
+cell's other two questions (born-again framing; tithing) are carried in
+narrowed form as desert.limit.f4-t-born-again-and-tithe, so this cell
+carries both a substantive answer and an honest limit.

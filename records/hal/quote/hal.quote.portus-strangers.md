@@ -31,7 +31,7 @@ retrieval:
   - "participant asks what they did for travellers, pilgrims and the poor"
   - "participant asks how far their reputation reached"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 77, the
+Verified verbatim against the vendored npnf206 (Ep. 77, the
 Fabiola-and-Pammachius hospice at Rome's harbor). Note: the NPNF editor's
 headnote to this letter loosely calls this 'the hospital established by
 her at Portus' - the letter's own text keeps the two institutions
@@ -40,4 +40,4 @@ home for strangers at Portus in sec. 10, founded with Pammachius), and
 this corpus follows the text, not the headnote. Serves F5-T (what
 renounced wealth was for).
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

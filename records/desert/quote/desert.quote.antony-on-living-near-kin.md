@@ -58,16 +58,10 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
-47578.
-
-Quote-verbatim gate fix (2026-09-22): the three smoothing edits the 2026-08-27 note above disclosed
-("as I said" dropped, the "reading and prayer" clause elided, the "said he" interruption removed) were
-all undisclosed-in-the-text-field word substitutions and a silent omission, none of them marked. Full
-sentence restored to match the source exactly, including "as I said" (the phrase points back to
+Verified verbatim against the vendored file at npnf211 line
+47578. The text field matches the source exactly, including "as I said" (the phrase points back to
 Abraham's own framing outside the excerpt, but is still part of the source's actual sentence), the
-"reading and prayer" clause, and the "said he" mid-quote interruption. None of this changes the point
-the record is cited for.
+"reading and prayer" clause, and the "said he" mid-quote interruption.
 
 WHAT THIS MOVES, AND WHY IT IS THE SHARPEST OF THE FOUR.
 desert.term.xeniteia rested on the Apophthegmata ALONE. It is now

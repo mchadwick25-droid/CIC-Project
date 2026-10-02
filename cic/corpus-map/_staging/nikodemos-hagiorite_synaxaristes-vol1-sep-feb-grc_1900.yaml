@@ -1,0 +1,40 @@
+source_file: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt
+
+assignments:
+  - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to
+    work: "Synaxaristes of the Twelve Months, volume 1 (September to February), Greek"
+    author: nikodemos-hagiorite
+    locus: "whole volume; the prologue at file line 70, the September entries from line 3016"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: provisional
+    note: >
+      Lives of the saints and feast-day accounts in Greek, arranged by month. The text is
+      Nikodemos's revision of an older Greek Synaxarion, in an 1868 edition reprinted about
+      1900. Nikodemos wrote after this world's window closes (1749-1809 against a window of
+      1453-1650); this edition is a late witness to practice and law, so its place here is a
+      provisional shelf assignment for the world's builders to confirm. Second witness only:
+      the Greek OCR is heavily garbled in accents and vowels.
+  - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to-2
+    work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
+    author: nikodemos-hagiorite
+    locus: whole volume; the prologue at file line 70, the September entries from line 3016
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: provisional
+    note: Placed on
+      the entry's window (1650-1821). Nikodemos compiled the Synaxaristes in the early 19th century, and
+      the neomartyr lives it holds belong to this entry's era. Garbled 1900 scan, second witness only.
+  - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to-3
+    work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
+    author: nikodemos-hagiorite
+    locus: whole volume; the prologue at file line 70, the September entries from line 3016
+    atlas_ids:
+    - the-kollyvades-and-greek-renewal
+    role: tradition
+    confidence: provisional
+    note: Nikodemos
+      the Hagiorite is a leading figure of the Kollyvades renewal (this placement rests on that historical
+      identification, not on the file's own text). Garbled 1900 scan, second witness only.

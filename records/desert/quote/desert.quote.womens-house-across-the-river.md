@@ -73,7 +73,7 @@ relations:
 - type: associated-with
   target: desert.figure.pachomius
 ---
-Verified verbatim 2026-08-27 against the vendored file, Part II, p. 685.
+Verified verbatim against the vendored file, Part II, p. 685.
 
 THE FIRST PRIMARY TEXT ON WOMEN THIS WORLD HAS FOR STRAND B. Every prior
 claim about the women's houses here has run through Palladius, Sozomen or

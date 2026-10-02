@@ -97,8 +97,8 @@ Compiled from World-Builds/Donatism/Story-Chunks/donstory006_acta-
 purgationis-felicis.md (Doc_09 story index row donstory006, Tier 1),
 whose narrative text is carried forward rather than re-derived.
 
-THE UNFAVOURABLE FINDING IS THE POINT OF KEEPING THIS RECORD. Doc_09's
-Round 1 review left standing (L2) the chunk's own handling of Ingentius's
+THE UNFAVOURABLE FINDING IS THE POINT OF KEEPING THIS RECORD. Doc_09
+leaves standing (L2) the chunk's own handling of Ingentius's
 torture threat; this record keeps it and adds it to modern_contrast,
 where a modern reader's first objection belongs. The story must not be
 retrieved defensively. A Representative asked directly how strong the

@@ -33,25 +33,16 @@ tensions:
 - "this answers whether we would have had room for someone with a shameful past; a more personal address of who Jesus is, and an answer to someone who cannot believe, remain thinner in this world's own voice"
 ---
 Palladius ch. XIX (Moses the Robber) and ch. XXII (Paul the Simple),
-both verified directly against the vendored file this session - added
-per Step 4 Round 1 review Finding M17, which found genuine, strong
-material for this cell's most answerable question that the original
-draft's honest_limit had not opened. Paul the Simple's material also
-grounds desert.dw.marriage-ending; the two records draw on the
-same vendored chapter for different questions, which is not a
+both verified directly against the vendored file. Paul the Simple's
+material also grounds desert.dw.marriage-ending; the two records draw
+on the same vendored chapter for different questions, which is not a
 duplication - the chapter genuinely answers both.
 
-Step4, Round 2 review Finding M4: "by his own account, a murderer"
-mischaracterized ch. XIX, which reports the killing as hearsay ("he was
-said to go even the length of murder," "they used to say that he was
-leader of a robber-band") - the only "as he himself testified" in the
-chapter attaches to a later sexual temptation, not the killing.
-Corrected to "by report." Finding C5: "found as pure a soul as any who
-came to us" added a comparative ch. XXII does not make ("Paul had a
-perfect soul") and "uneducated" restated "exceedingly guileless and
-simple" imprecisely - both corrected to the source's own words. Finding
-M6 (tensions field): bare fleet-question codes and a bare record id
-removed, matching the fix already applied elsewhere in this record set.
-Finding M9: Palladius's own AUTHOR GRAVITY caution (a Greek-literate
-observer describing figures outside his own background) was not carried
-by this record - added to divergence_note.
+The text reports the killing as ch. XIX itself does, as hearsay ("he
+was said to go even the length of murder," "they used to say that he
+was leader of a robber-band"): "by report," not "by his own account."
+The text uses the source's own words ("Paul had a perfect soul,"
+"exceedingly guileless and simple") rather than a comparative ch. XXII
+does not make. divergence_note carries Palladius's own AUTHOR GRAVITY
+caution (a Greek-literate observer describing figures outside his own
+background).

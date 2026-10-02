@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: ijc.term.martyrium
 ---
-Opened 2026-08-27 for F3-T and F5-E together - both cells were served by a term record citing
+Opened for F3-T and F5-E together - both cells were served by a term record citing
 this same chapter, and one sentence honestly answers both. ijc.term.primatus cites it for "the
 epigraphic program's contemporary witness"; ijc.term.martyrium for "the verse program's".
 

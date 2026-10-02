@@ -40,12 +40,12 @@ relations:
 - type: associated-with
   target: syr.dw.outsiders-empire
 ---
-Opened 2026-08-27 for F3-E, served by syr.dw.outsiders-empire alone, which cites this exact
-chapter for "the accusation against Symeon".
+This quote serves F3-E; syr.dw.outsiders-empire alone grounds that cell, citing this exact chapter
+for "the accusation against Symeon".
 
 The sentence quoted is the cause rather than the martyrdom that follows, because the cell asks what
 outsiders said and this is the source's own account of why they said it.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "incensed" was invented, dropping
-the sentence's own last two words ("against them"). Restored; the next sentence (a separate point about
-the Jews' own reaction) still correctly stops where it did.
+The quote runs the full sentence, through its last two words ("against them"), rather than stopping
+after "incensed"; the next sentence (a separate point about the Jews' own reaction) still correctly
+stops where it did.

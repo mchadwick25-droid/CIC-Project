@@ -46,9 +46,9 @@ load-bearing. This is the single clearest primary-voice statement of
 this world's own Christology in the Native evidentiary base, and the
 direct textual ground for pahc.witness.who-was-jesus.
 
-MODERN RENDERING REVISED (2026-09-25): the vendored edition prints
-"[truly]" in brackets before "died" - the translator's own supplied
-word, unlike every other "truly" in the passage, which is unbracketed
-in the source. The rendering no longer voices that one bracketed
-"truly" as certain wording; the other four (born, persecuted,
-crucified, raised) are all in the source itself and stay.
+The vendored edition prints "[truly]" in brackets before "died" - the
+translator's own supplied word, unlike every other "truly" in the
+passage, which is unbracketed in the source. The rendering does not
+voice that one bracketed "truly" as certain wording; the other four
+(born, persecuted, crucified, raised) are all in the source itself and
+stay.

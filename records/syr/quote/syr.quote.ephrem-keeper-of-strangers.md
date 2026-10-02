@@ -56,11 +56,11 @@ relations:
 - type: associated-with
   target: syr.story.ephrem-famine-death
 ---
-Verified verbatim 2026-08-27 against the vendored file, Book I, ch. lviij.
+Verified verbatim against the vendored file, Book I, ch. lviij.
 
 Registered ALONGSIDE syr.quote.palladius-hospitaller, not instead of it.
 A world that can show a participant the same remembered speech in two
 transmission languages, and say which is which, is doing something a
 world holding one version cannot do at all.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.

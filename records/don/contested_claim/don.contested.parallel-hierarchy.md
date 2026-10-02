@@ -56,10 +56,9 @@ held_against:
 - Individual bishops' conduct and motives - as against the bare institutional fact - reach this record hostile-mediated
   throughout, Optatus Gildonianus's characterisation being this world's own named example
   (don.gravity.parallel-hierarchy's own divergence_note)
-- No vendored source gives this communion's own everyday self-naming in its own words, and an open item
-  named twice in the construction record - what Augustine actually calls them, and in which contexts - has
-  still not been closed. The name this movement is remembered by was given to it by the people who defeated
-  it (don.term.pars-donati)
+- No vendored source gives this communion's own everyday self-naming in its own words - what Augustine
+  actually calls them, and in which contexts, remains an open question. The name this movement is
+  remembered by was given to it by the people who defeated it (don.term.pars-donati)
 concedes: >-
   The bare institutional fact is Documented to an unusually high degree even by this world's hostile-source
   standards - Optatus, Augustine, and the imperial and conciliar record all agree that two complete rival

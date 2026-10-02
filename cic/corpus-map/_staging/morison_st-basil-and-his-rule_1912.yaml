@@ -12,7 +12,8 @@
 # enough to be free.
 source_file: morison_st-basil-and-his-rule_1912.txt
 assignments:
-- work: Introduction/Proem to the Longer Rules and to the Shorter Rules
+- row_id: morison_st-basil-and-his-rule_1912--introduction-proem-to-the-longer-rules-and-to-the-shorter
+  work: Introduction/Proem to the Longer Rules and to the Shorter Rules
     (Appendices A and B of Morison's book - Basil's own words, translated in
     full, not Morison's paraphrase)
   author: basil

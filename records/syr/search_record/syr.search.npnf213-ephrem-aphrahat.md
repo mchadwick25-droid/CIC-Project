@@ -25,7 +25,7 @@ found_sources:
 - syr.source.ephrem-hymns-on-faith-pearl
 - syr.source.ephrem-three-homilies
 - syr.source.aphrahat-select-demonstrations
-note: 'DC.Rights: Public Domain read from the file 2026-08-21; division structure and translator attributions
+note: 'DC.Rights: Public Domain, read from the file; division structure and translator attributions
   (Stopford, Morris, Johnston, ed. Gwynn) verified from the file''s own preface.'
 ---
 The volume's own preface documents the translator split and Gwynn's

@@ -79,22 +79,21 @@ relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf102 line
+Verified verbatim against the vendored file at npnf102 line
 11054, chapter number read from the markup's own n="24" attribute.
 
 DISCLOSED ELISIONS (superseded by the fix below): the discipline the milan-edict record's review
 established named three cuts here, but undercounted the third - the "if" list actually kept only 4 of
 12 clauses, not 6, and one kept clause was itself silently abridged mid-clause.
 
-Quote-verbatim gate fix (2026-09-22): rather than re-count and re-mark a multi-point abridgement
-(four separate gaps, one of them inside a single retained clause), the chapter's own full sentence is
-restored - the earlier two elisions in full, and all twelve "if" clauses in their original order and
-wording, through the sentence's own natural close ("the sacrifices of humility, contrition, and
-prayer"). This is Augustine's own single sentence; restoring the parts the record's abridgement had
-cut doesn't add anything from outside it or change what the record's own gloss argues (pagan emperors
-matched every conventional measure of success; what's left, for Augustine, is a list of restraints) -
-it just gives the list in full rather than a curated four-item sample. The full chapter is at the
-locus and is short.
+The quote carries the chapter's own full sentence - Augustine's own
+single sentence, with all twelve "if" clauses in their original order
+and wording, through the sentence's own natural close ("the sacrifices
+of humility, contrition, and prayer"). This gives the list in full
+rather than a curated sample, without adding anything from outside it or
+changing what the record's own gloss argues: pagan emperors matched
+every conventional measure of success; what's left, for Augustine, is a
+list of restraints. The full chapter is at the locus and is short.
 
 WHY THIS QUOTE AND NOT A WARMER ONE. This world's registry is otherwise
 almost entirely composed of people who approved of the alliance, writing

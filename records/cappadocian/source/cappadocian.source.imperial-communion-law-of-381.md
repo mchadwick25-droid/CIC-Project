@@ -60,7 +60,7 @@ external_ids:
 ---
 The 381 ecological break's authority-change evidence (Doc_01 SS4a) (row 79). The specific bishops it
 names are independently well attested via Van Dam (row 95) and the general secondary literature named
-in Part F; as of 2026-09-09 they also rest on the Latin text itself, read directly.
+in Part F; they also rest on the Latin text itself, read directly.
 
 WHAT THE DIRECT READING ADDED, stated narrowly. Three things, none of which changes any classification
 this world has already made. (1) The bishop list is confirmed exactly as Doc_02 SS2 states it, including
@@ -75,18 +75,15 @@ WHY THIS IS CORROBORATION AND NOT NEW STRUCTURAL EVIDENCE. This law was never un
 already carried at Doc_01 SS4a, Doc_02 SS2/SS7/SS9, Source Registry row 79, and Doc_04's own forces
 notation for the situational gravity (the settlement that wins the fight and thereby ends the world's
 militancy). Reading the Latin makes the citation firmer; it does not introduce a force the build had not
-seen. There is one genuinely new evidential fact, and it is worth stating carefully because an earlier
-draft of this record overclaimed it. Because the list is an imperial chancery document rather than a
-text this world's own circle wrote, it is external, non-circle attestation that four of this world's own
-men -- two of them primary voices -- held publicly recognized authority in their own lifetimes.
+seen. There is one genuinely new evidential fact: because the list is an imperial chancery document
+rather than a text this world's own circle wrote, it is external, non-circle attestation that four of
+this world's own men -- two of them primary voices -- held publicly recognized authority in their own
+lifetimes.
 
-WHAT THAT IS NOT. It is not progress against Doc_04's standing Open Item 2, the circle-versus-world
-exposure, and this record no longer claims that it is. That exposure is a REPRESENTATIVENESS problem --
-whether the circle's surviving record stands for the world beyond the circle -- and an imperial list
-naming four circle members confirms only that the circle was prominent, which the exposure already
-presupposes. If anything it tightens the exposure rather than relieving it: a group written into the
-empire's own communion test is exactly the kind of unusually well-placed group whose surviving record is
-least likely to be representative of the plateau. Open Item 2 also names Gravities 6 and 8 as where the
-exposure bites hardest, and this law bears on neither. What the attestation is genuinely good for is
-narrower and still worth having: external confirmation of the circle's public standing, from outside the
-circle's own record.
+WHAT THAT IS NOT. This is not progress against the circle-versus-world representativeness exposure
+tracked at this world's own Open_Gaps_Tracking.md (OG-3): an imperial list naming four circle members
+confirms only that the circle was prominent, which that exposure already presupposes. If anything it
+tightens the exposure rather than relieving it: a group written into the empire's own communion test is
+exactly the kind of unusually well-placed group whose surviving record is least likely to be
+representative of the plateau. What the attestation is genuinely good for is narrower and still worth
+having: external confirmation of the circle's public standing, from outside the circle's own record.

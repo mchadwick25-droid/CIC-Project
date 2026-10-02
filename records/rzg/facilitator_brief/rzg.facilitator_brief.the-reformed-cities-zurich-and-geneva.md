@@ -279,7 +279,7 @@ redirect_notes:
   - rzg.limit.consistory-case-narrative
   - rzg.gravity.consistorial-church-discipline
 ---
-Authored 2026-09-20, alongside this session's own
+Built alongside
 `records/rzg/world_front/rzg.front.the-reformed-cities-zurich-and-geneva.md`,
 closing rzg's own last remaining record-type gap in this fleet-wide
 rollout. Built from `records/alx/facilitator_brief/

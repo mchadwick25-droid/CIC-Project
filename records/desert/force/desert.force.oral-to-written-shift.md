@@ -60,24 +60,10 @@ kind: ending maps Doc_08's own Cell 3B (ending/internal); the cell code
 is carried in this record's own name, per the convention established
 at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 1 review Finding S1: this record had re-imported the exact
-pseudonymity overclaim desert.source.evagrius-praktikos was written to
-keep out ("Evagrius's own corpus surviving substantially through
-pseudonymous attribution"), carried forward from the prior build's
-Doc_08 unread against this build's own step-2 record. That source
-record's own body states plainly why the claim was narrowed and why it
-must not re-enter: the Praktikos anchors under Evagrius's own name;
-only Chapters on Prayer rides under Nilus. sources[2].locus and
-manifestations[2] above corrected to the narrowed form, matching that
-source record's own `work` field. Finding C7: "decades
-after" (manifestations[0]) understated this record's own description
-and desert.source.apophthegmata-patrum's own "5th-6th c." compiler
-dating, a range exceeding a century at its far end - corrected to "up
-to a century or more."
-
-Doc08, Round 2 review Finding M5: the Round 1 fix note above claimed the
-corrected wording was "stated verbatim from that source record's own
-`work` field," but it reordered the three clauses and dropped that
-field's own scope qualifiers ("in Greek," "generally") - corrected
-above to carry both qualifiers, and the fix note's own claim narrowed
-from "verbatim" to "matching."
+sources[2].locus and manifestations[2] match desert.source.evagrius-praktikos's
+own narrowed pseudonymity scope, including that field's own qualifiers
+("in Greek," "generally"): the Praktikos anchors under Evagrius's own
+name; only Chapters on Prayer rides under Nilus. manifestations[0]
+matches this record's own description and desert.source.apophthegmata-patrum's
+own "5th-6th c." compiler dating, a range exceeding a century at its
+far end: "up to a century or more."

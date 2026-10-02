@@ -5,7 +5,7 @@ eviction, and mmap'd indexes as M4's job on top of it; this file adds the
 lazy/resident/evict shape the stage-5 gate item ("lazy world load/unload
 measured") asks for.
 
-Idle-unload policy (WO-2, 2026-09-16): at this class's birth the registry
+Idle-unload policy (WO-2): at this class's birth the registry
 had exactly one built world, so what mattered was proving the mechanism
 (cold load reads and verifies from disk, a resident world is a cache hit
 not a second read, unload actually evicts and a later load is cold
@@ -25,6 +25,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from engine.m2.loader_stub import PackageRefused, verify_package_dict
+from engine.m10.deployed import assert_compiled_target
 
 __all__ = ["LoadedWorld", "LoadTiming", "LazyWorldLoader", "PackageRefused"]
 
@@ -56,7 +57,7 @@ class LazyWorldLoader:
     already-resident world is a cache hit, not a second disk read/verify."""
 
     def __init__(self, *, max_idle_seconds: float | None = None):
-        # max_idle_seconds (WO-2, 2026-09-16): None keeps every resident
+        # max_idle_seconds (WO-2): None keeps every resident
         # world cached for the process's lifetime, the behavior this class
         # always had - the code default stays off, same posture as
         # enforce_admission and admin_token in engine/api/config.py. A real
@@ -73,7 +74,7 @@ class LazyWorldLoader:
         self._max_idle_seconds = max_idle_seconds
         self._last_accessed: dict[tuple[str, str], float] = {}
         # Keyed by (world_key, expected_manifest_hash), not world_key alone -
-        # found live (2026-09-04): a bare world_key key means a resident
+        # found live: a bare world_key key means a resident
         # world is returned on ANY later load() for that key regardless of
         # the hash asked for, so a repin lands one of two ways depending on
         # accident of timing - a process that never restarts keeps serving
@@ -110,6 +111,7 @@ class LazyWorldLoader:
             self._last_accessed[cache_key] = time.monotonic()
             return cached, LoadTiming(world_key=world_key, cache_hit=True, seconds=time.perf_counter() - start)
 
+        assert_compiled_target(package_dir / "compiled" / "prompt.txt")
         manifest_path = package_dir / "manifest.json"
         if not manifest_path.exists():
             raise PackageRefused(f"no manifest.json under {package_dir}")

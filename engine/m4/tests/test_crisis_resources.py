@@ -80,12 +80,10 @@ def test_already_fired_wins_the_continuation_turn_even_on_an_a2_reading():
 
 
 def test_continuation_still_carries_an_actual_redirect():
-    """Regression for the 2026-09-19 fix (Opus adversarial review finding
-    D5): the prior continuation text read in full as "I'm still right here
-    with you. The offer I made a moment ago still stands, whenever you're
-    ready for it." - no redirect at all, on every Track A turn in a session
-    after the first. Fixed to always carry the same redirect language A1/A2
-    do."""
+    """The continuation turn must always carry the same redirect language
+    A1/A2 do, on every Track A turn in a session after the first - a
+    warm-sounding continuation with no actual redirect sentence would leave
+    a session's later turns without one."""
     resources = resources_for_signal("ACUTE_DISTRESS", acute_level="a1", already_fired=True)
     assert "reach out to someone real" in resources.text
     text = resources.text.format(representative_name="Vera")

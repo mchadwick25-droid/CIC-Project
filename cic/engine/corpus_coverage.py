@@ -17,7 +17,7 @@ the doctrinally-excluded ones that already carry vendored primary texts
 (showing them is not an endorsement - the entry's own excluded status and
 floor note already carry that context in the same Atlas modal). Explicitly
 NOT included: the acquirable-PD/purchasable/no-edition-exists "wanted"
-categorization worlds/_cross-world/WANTS-REGISTER.md carries -
+categorization Build/worlds/_cross-world/WANTS-REGISTER.md carries -
 that data is reactive, generated only from records/ that already exist,
 which today means it only has real content for the 7 already-built formation
 worlds. Showing real bibliographic depth on 7 entries and nothing on the

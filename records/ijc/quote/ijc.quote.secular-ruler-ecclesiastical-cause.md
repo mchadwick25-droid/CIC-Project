@@ -45,7 +45,7 @@ relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
+Verified verbatim against the vendored file at npnf211 line
 11649; three consecutive sentences, unaltered, with nothing elided
 inside them.
 

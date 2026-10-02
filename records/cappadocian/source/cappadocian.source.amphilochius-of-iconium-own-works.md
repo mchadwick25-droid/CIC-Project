@@ -35,15 +35,14 @@ Records a real, named person and role (Nazianzen's cousin, addressee of On the H
 canonical letters, junior circle member) whose own works remain, as a corpus, without an accessible
 edition to verify against (row 65).
 
-CORRECTED 2026-09-09. This row previously said no open English edition of any of his own work had
-been located "this session or previously." That was false at the time it was written: an
-extract of his own argument to Seleucus on the canon of Scripture -- about 90 rendered words,
-in the NPNF editor's prose epitome rather than as verse -- sits in the already-vendored
-cic/texts/npnf214_seven-ecumenical-councils.xml at div2 17.23, and the shared corpus map had carried a
-row for it since 2026-08-26. It is recorded now at cappadocian.source.amphilochius-iambics-to-seleucus.
-The judgment this row exists to carry is unchanged -- one canon-list extract is not an edition, and
-this world still knows Amphilochius chiefly as addressee and first receiver rather than through his
-own extended voice -- but the flat availability claim was wrong and is not left standing.
+An extract of his own argument to Seleucus on the canon of Scripture --
+about 90 rendered words, in the NPNF editor's prose epitome rather than
+as verse -- sits in the already-vendored
+cic/texts/npnf214_seven-ecumenical-councils.xml at div2 17.23, recorded
+at cappadocian.source.amphilochius-iambics-to-seleucus. Beyond that one
+canon-list extract, no open English edition of his own broader work has
+been located -- this world still knows Amphilochius chiefly as addressee
+and first receiver rather than through his own extended voice.
 
 The Lycaonia/Iconium geographic-scope extension and the 381 law's Asian-diocese bishop are grounded
 via OTHER records (row 79, the church historians), never via this record's own unlocated text.

@@ -67,17 +67,15 @@ relations:
 - type: associated-with
   target: desert.force.village-ascetic-culture
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Verified verbatim against the vendored file.
 
 The square brackets around "[the enemy]" are Budge's.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "wherein they are" was invented -
-the source's sentence continues with a semicolon into the narrative outcome (the attackers fettered
-three miles off). Marked with a trailing ellipsis rather than restored: this record's own
-divergence_note already says the outcome/miracle is deliberately not what the record carries ("this
-world does not adjudicate that... What the quote carries is not the outcome but the position"), so
-restoring it would add exactly the material the record already says it isn't citing for.
-modern_rendering extended to mark the same stop.
+The text field marks its ending with a trailing ellipsis rather than a period after "wherein they
+are": the source's sentence continues with a semicolon into the narrative outcome (the attackers
+fettered three miles off), which this record's own divergence_note already says is deliberately not
+what the record carries ("this world does not adjudicate that... What the quote carries is not the
+outcome but the position"). modern_rendering marks the same stop.
 
 Registered against desert.gravity.economic-embeddedness rather than
 against any of this world's withdrawal material, deliberately. The
@@ -87,6 +85,6 @@ settlement remains and a documentary letter archive. This is a narrative
 witness to the same thing, from inside the tradition's own literature,
 and it happens to be about a woman.
 
-MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+The rendering follows the desert register: short sentences, everyday words, with translation fidelity kept; the original stays as the text field for Level 3.

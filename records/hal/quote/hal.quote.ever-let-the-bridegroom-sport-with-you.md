@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: hal.dw.was-jesus-god
 ---
-Opened 2026-08-27 for C-T, which hal.dw.was-jesus-god served alone with no quote. That witness
+Opened for C-T, which hal.dw.was-jesus-god served alone with no quote. That witness
 cites this exact locus for "devotion to Christ as Lord and Bridegroom" and could not show it.
 
 Chosen over the Apology against Rufinus, which the same witness also cites, because the Apology is
@@ -50,12 +50,13 @@ Jerome defending his orthodoxy under attack and this is Jerome saying what Chris
 he was forming. A cell asking who Jesus was should be voiced by devotion rather than by a
 disclaimer.
 
-MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+The spoken form is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3.
 
-Quote-verbatim gate fix (2026-09-22): removed a stray literal backslash before the closing quote mark
-in `text` (a YAML folded-scalar authoring bug, not a real source character). Separately, the record's
-own closing quote mark stood in for a full stop - the source's sentence continues into an extended
-Song-of-Songs dialogue (the Bridegroom's own reply, then a further meditation on not seeking Him in
-the streets). Marked with a trailing ellipsis rather than restored: the record's gloss is specifically
-about prayer and reading as the two halves of a conversation with Christ, complete at "I am sick of
-love"; the extended dialogue that follows is a different, larger argument this record isn't citing for.
+No stray literal backslash character appears before the closing quote
+mark in `text`. The quote ends at "I am sick of love" marked with a
+trailing ellipsis: the source's sentence continues into an extended
+Song-of-Songs dialogue (the Bridegroom's own reply, then a further
+meditation on not seeking Him in the streets), a different, larger
+argument this record isn't citing for. The record's gloss is
+specifically about prayer and reading as the two halves of a
+conversation with Christ, complete at "I am sick of love".

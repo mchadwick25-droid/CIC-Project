@@ -55,4 +55,4 @@ When citing this witness elsewhere, "schismatics" is Athanasius's own
 narration in the Vita (SS68, SS89), not Antony's reported speech - the
 two passages this witness draws on.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

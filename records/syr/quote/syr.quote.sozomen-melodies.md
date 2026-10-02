@@ -30,9 +30,8 @@ retrieval:
   - "participant asks what they sang and whether the tunes survived"
   - "participant asks what actually happened when they gathered to worship"
 ---
-Verified verbatim. The genre-contest witness: Bardaisanite song answered in kind. canon_cells empty; grounds syr.term.madrasha's evidential sense.
+Verified verbatim. The genre-contest witness: Bardaisanite song answered in kind; grounds syr.term.madrasha's evidential sense.
 
-CELL ASSIGNED 2026-08-27; the record had none and sat outside coverage.
 F3-I asks "What actually happened when you gathered?" - an outside historian
 reporting that the Syrians were still singing these melodies in his own day
 is evidence about the gathering, and about what survived of it.

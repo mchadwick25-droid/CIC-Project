@@ -1,0 +1,14 @@
+source_file: lauchert_kanones-altkirchlichen-concilien-lat-grc_1896.txt
+
+assignments:
+  - row_id: lauchert_kanones-altkirchlichen-concilien-lat-grc_1896--lauchert-die-kanones-der-wichtigsten-altkirchlichen
+    work: "Lauchert, Die Kanones der wichtigsten altkirchlichen Concilien: Carthage I-III (Latin and Greek)"
+    author: lauchert
+    locus: "Carthage I line 10850, II line 11073, III line 11293"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A modern (1896) edition of council canons. Only the African councils at Carthage I-III
+      bear on this entry. Registry row 235.

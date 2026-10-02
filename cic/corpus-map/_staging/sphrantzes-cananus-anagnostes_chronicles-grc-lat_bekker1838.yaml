@@ -1,0 +1,95 @@
+source_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+
+authors_ruled:
+  sphrantzes:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Georgius Phrantzes' first among the three chroniclers in this
+      volume; the file's leading name slug joins all three, so each author is supplied here
+      from the title page.
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+  cananus:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Ioannes Cananus' among the chroniclers in this volume; the file's
+      leading name slug joins all three, so each author is supplied here from the title page.
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+  anagnostes:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Ioannes Anagnostes' among the chroniclers in this volume; the
+      file's leading name slug joins all three, so each author is supplied here from the title
+      page.
+    from_file: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt
+
+assignments:
+  - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--chronicon-of-george-sphrantzes-phrantzes-greek-with-latin
+    work: "Chronicon of George Sphrantzes (Phrantzes), Greek with Latin"
+    author: sphrantzes
+    locus: "Bekker's preface at file line 131; the chronicle from about line 192 to 25914"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      A Byzantine chronicle of the fall of Constantinople and its aftermath, vendored as
+      context for 1453. Second witness for the Greek wording until checked against page
+      images.
+  - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-cananus-de-bello-constantinopolitano-greek-with-latin
+    work: "John Cananus, De bello Constantinopolitano, Greek with Latin"
+    author: cananus
+    locus: "from about file line 25915 to 27161"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      A Byzantine chronicle of a siege of the city, vendored as context for 1453. Second
+      witness for the Greek wording.
+  - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-anagnostes-de-thessalonicensi-excidio-narratio-greek
+    work: "John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin"
+    author: anagnostes
+    locus: "from about file line 27162"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      A Byzantine account of the sack of Thessalonica, vendored as context for the Ottoman
+      conquest. Second witness for the Greek wording.
+  - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--chronicon-of-george-sphrantzes-phrantzes-greek-with-latin-2
+    work: Chronicon of George Sphrantzes (Phrantzes), Greek with Latin
+    author: sphrantzes
+    locus: Bekker's preface at file line 131; the chronicle from about line 192 to 25914
+    atlas_ids:
+    - byzantine-church-palaiologan
+    role: context
+    confidence: provisional
+    note: Byzantine
+      chronicler writing about the last decades of the Palaiologan empire, including its church politics
+      around the Council of Florence and the fall of 1453; a lay or court voice, not the church's own. Placed
+      on the entry's window; the file's own treatment of the church was not checked for this placement.
+  - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-cananus-de-bello-constantinopolitano-greek-with-latin-2
+    work: John Cananus, De bello Constantinopolitano, Greek with Latin
+    author: cananus
+    locus: from about file line 25915 to 27161
+    atlas_ids:
+    - byzantine-church-palaiologan
+    role: context
+    confidence: provisional
+    note: Byzantine
+      chronicler writing about the last decades of the Palaiologan empire, including its church politics
+      around the Council of Florence and the fall of 1453; a lay or court voice, not the church's own. Placed
+      on the entry's window; the file's own treatment of the church was not checked for this placement.
+  - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-anagnostes-de-thessalonicensi-excidio-narratio-greek-2
+    work: John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin
+    author: anagnostes
+    locus: from about file line 27162
+    atlas_ids:
+    - byzantine-church-palaiologan
+    role: context
+    confidence: provisional
+    note: Byzantine
+      chronicler writing about the last decades of the Palaiologan empire, including its church politics
+      around the Council of Florence and the fall of 1453; a lay or court voice, not the church's own. Placed
+      on the entry's window; the file's own treatment of the church was not checked for this placement.

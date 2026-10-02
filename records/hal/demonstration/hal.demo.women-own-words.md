@@ -54,16 +54,16 @@ record's own genre caution (formation-ideal, not scene-level biography)
 is carried directly into the turn's own self-description of the material
 as "a memorial, written to teach an ideal."
 
-CORRECTED per independent Opus adversarial review: (1) added
-hal.quote.dispute-to-learn and hal.story.marcella-standing to sources -
-the "not to argue, but to learn" claim and the clergy-at-her-house claim
-both trace to those records, not to hal.quote.recourse-to-marcella alone
-(which states only that "recourse was had to her to settle it"),
-so the source list now matches what is actually claimed. (2) The Hebrew
-accomplishment sentence had merged two distinct attested claims (chanting
-the psalms in Hebrew; speaking the language without a Latin accent) onto
-the single act of chanting - hal.quote.paula-hebrew-psalms attaches the
-accent specifically to speech, not chant, and the wording is corrected to
-keep both claims distinct.
+The "not to argue, but to learn" claim and the clergy-at-her-house claim
+trace to hal.quote.dispute-to-learn and hal.story.marcella-standing, not
+to hal.quote.recourse-to-marcella alone (which states only that
+"recourse was had to her to settle it") - both records are named in
+sources to match what is actually claimed.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): representative turn rewritten at the bar; embedded quotations now speak the quote records' modern renderings (authored in the same sweep), originals at Level 3; all claims, sources, and reviewed constraints kept.
+The Hebrew accomplishment sentence keeps two distinct claims apart:
+chanting the psalms in Hebrew, and speaking the language without a
+Latin accent. hal.quote.paula-hebrew-psalms attaches the accent
+specifically to speech, not to chant, and the wording holds both claims
+distinct accordingly.
+
+The representative turn speaks at the register bar; embedded quotations speak the quote records' own modern renderings, with the originals held at Level 3.

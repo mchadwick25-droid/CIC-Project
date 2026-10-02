@@ -59,4 +59,4 @@ modern_contrast: 'A modern reader may picture a staged event, decided before it 
   own account is to answer people who mocked the gathering in advance as certain to fail, and our own
   council''s judgment, reached that day, bound every priest in its territory from then on.'
 ---
-Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed, Doc_09 Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing.
+Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing.

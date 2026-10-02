@@ -41,7 +41,7 @@ relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
 ---
-Text verified verbatim against the vendored file 2026-08-21. The
+Text verified verbatim against the vendored file. The
 rejection's core sentence, to the emperor himself: civil rank and
 ecclesiastical standing are different orders of thing - the direct
 denial of Canon 28's premise, and of the reasoning Canon 3 had already

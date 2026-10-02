@@ -112,13 +112,8 @@ household dependents or enslaved persons; (6) no ordinary-lay-believer
 formation story. These are structural features of who could write, recorded
 as data, never to be filled by invention (no Tier 5, ever).
 
-One genuinely new source-ecology finding made on this branch (2026-08-21,
-direct verification against the vendored npnf206 edition): the letter of
+Direct verification against the vendored npnf206 edition confirms: the letter of
 Eustochium and the younger Paula reporting the 416 attack to Rome is
 attested (Innocent's reply, Ep. 137, describes their report) but does not
 itself survive - the one attested act of the women's own authorship, lost.
 Recorded in hal.search.womens-own-texts and the honest_limit records.
-
-CORRECTED per independent review Round 1 (2026-08-21): caution 6's phrase
-"the vendored Jerome volume" (build-infrastructure wording inside a
-compiled field) reworded to "Jerome's wider corpus" - substance unchanged.

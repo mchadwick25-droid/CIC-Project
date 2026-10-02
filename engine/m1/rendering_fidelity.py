@@ -75,6 +75,14 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "rendering-fidelity-report-2026-09-23.json"
 
 MODEL_PATTERN = "us.anthropic.claude-haiku-4-5"
+# V1.8's own two-grader rule (CiC_Record_Native_World_Build_Process_V1.9.md,
+# "The rendering-fidelity gate is a birth condition"): Haiku 4.5 and Sonnet
+# 4.6, each run twice - a flag from either grader on either run counts;
+# "translation" means every run from both graders read "translation".
+# Sonnet 4.6 is what that document names; it is replaced by Sonnet 5 once
+# the account can invoke it and the grader study behind this rule is
+# re-run - not this module's own call to make.
+SONNET_MODEL_PATTERN = "us.anthropic.claude-sonnet-4-6"
 
 VERDICTS = ("translation", "summary", "expansion", "mixed")
 
@@ -143,6 +151,45 @@ def grade_rendering(client, model_id: str, *, original: str, modern_rendering: s
     if not tool_uses:
         return CallOutcome(status="parse_failure", value={"raw": [b.model_dump() for b in response.content]})
     return CallOutcome(status="ok", value=tool_uses[0].input, raw_usage=getattr(response, "usage", None))
+
+
+def two_grader_verdict(*, region: str, original: str, modern_rendering: str, runs: int = 2) -> dict:
+    """V1.8's own two-grader pass for one rendering: Haiku 4.5 and Sonnet
+    4.6, each run `runs` times against the SAME input. `clean` is True
+    only when every run from both graders read "translation" - a flag
+    from either grader on either run makes it False. Real Bedrock calls;
+    a caller should account for cost/ceiling before invoking this."""
+    from engine.provider.bedrock import make_client, resolve_model_id
+
+    graders = [("haiku-4.5", MODEL_PATTERN), ("sonnet-4.6", SONNET_MODEL_PATTERN)]
+    all_runs = []
+    for label, pattern in graders:
+        model_id = resolve_model_id(pattern, region)
+        client = make_client(region)
+        for run_n in range(1, runs + 1):
+            outcome = grade_rendering(client, model_id, original=original, modern_rendering=modern_rendering)
+            usage = outcome.raw_usage
+            usage_dict = ({"input_tokens": getattr(usage, "input_tokens", None),
+                          "output_tokens": getattr(usage, "output_tokens", None),
+                          "cache_creation_input_tokens": getattr(usage, "cache_creation_input_tokens", None),
+                          "cache_read_input_tokens": getattr(usage, "cache_read_input_tokens", None)}
+                         if usage is not None else None)
+            if outcome.failed:
+                # outcome.value is None for a plain timeout (grade_rendering's
+                # own APITimeoutError branch doesn't set it) - fall back to
+                # the status string so a caller can always tell an errored
+                # run from a real "translation" verdict.
+                all_runs.append({"grader": label, "model_id": model_id, "run": run_n,
+                                 "verdict": None, "reasoning": None, "usage": usage_dict,
+                                 "error": outcome.value or {"status": outcome.status}})
+            else:
+                all_runs.append({"grader": label, "model_id": model_id, "run": run_n,
+                                 "verdict": outcome.value["verdict"], "reasoning": outcome.value["reasoning"],
+                                 "usage": usage_dict, "error": None})
+
+    errored = [r for r in all_runs if r["error"] is not None]
+    clean = not errored and all(r["verdict"] == "translation" for r in all_runs)
+    return {"clean": clean, "runs": all_runs}
 
 
 def sweep_world(world_key: str, client, model_id: str) -> dict:

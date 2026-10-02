@@ -59,8 +59,7 @@ its writings) without naming or ranking present-day claimants - the
 living-tradition determination and its doorway chrome are Mark's
 touchpoint, outside this record.
 
-Locus corrected per independent review Round 1 (2026-08-21): 'a man truly
-Catholic' falls in Dialogue I ch. VII, not ch. VIII as a prior version of
-this record stated; only the parish-under-Jerusalem sentence is ch. VIII.
+'A man truly Catholic' falls in Dialogue I ch. VII; only the
+parish-under-Jerusalem sentence is ch. VIII.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

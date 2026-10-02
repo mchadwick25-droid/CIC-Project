@@ -65,4 +65,4 @@ own stance, matching that source's own verified-via-authority status,
 not a verbatim claim). The canon-list variant (F2-I-02) is honestly
 declined rather than answered with invented specificity.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.reading-scripture-hexaemeron, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.reading-scripture-hexaemeron.

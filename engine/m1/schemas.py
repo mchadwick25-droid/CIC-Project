@@ -89,12 +89,11 @@ _RETRIEVAL_SCHEMA = {
         # alone, with no separate hand rule needed.
         "retrieve_when": {"type": "array", "items": {"type": "string"}},
         "do_not_retrieve_when": {"type": "array", "items": {"type": "string"}},
-        # R11 (Rulings-Pending.md, ruled 2026-09-21): the redirect half of
-        # do_not_retrieve_when's own split - "ask about X instead, retrieve
-        # that record" - 701 of the field's 714 fleet-wide lines were
-        # actually this, not an honesty guard (see Stage 1's D1
-        # measurement). Same shape as the field it's split from; demotes a
-        # candidate in ranking, never excludes it.
+        # The redirect half of do_not_retrieve_when's own split - "ask
+        # about X instead, retrieve that record" - accounts for 701 of the
+        # field's 714 fleet-wide lines, not an honesty guard. Same shape
+        # as the field it's split from; demotes a candidate in ranking,
+        # never excludes it.
         "prefer_instead": {"type": "array", "items": {"type": "string"}},
     },
     "additionalProperties": False,
@@ -112,7 +111,7 @@ _RELATION_SCHEMA = {
 
 # world_front (and facilitator_brief) rendering units - the website compiler
 # stage's own three-mode content shape, added alongside those two record
-# types (Website-V2 world_front design, approved to proceed 2026-09-19).
+# types (Website-V2 world_front design, approved to proceed).
 # Every unit of authored, participant-facing prose in either type is one of:
 #
 #   mode 1 - {text, grounded_in}         a fresh authored sentence/paragraph,
@@ -319,11 +318,11 @@ ENVELOPE_PROPERTIES = {
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,
-    # R11 (Rulings-Pending.md, ruled 2026-09-21): the honesty-guard half of
-    # do_not_retrieve_when's own split - a barred proposition the voice must
-    # never assert (13 of 714 fleet-wide lines, per Stage 1's D1
-    # measurement), structurally separate from ordinary retrieval-scoping
-    # notes (retrieval.prefer_instead, above). Envelope-level like
+    # The honesty-guard half of do_not_retrieve_when's own split - a
+    # barred proposition the voice must never assert (13 of 714
+    # fleet-wide lines), structurally separate from ordinary
+    # retrieval-scoping notes (retrieval.prefer_instead, above).
+    # Envelope-level like
     # `retrieval` itself: any record type can carry a claim it must not
     # make, not just the ones with a `retrieval` block already in use.
     "claim_guards": {"type": "array", "items": {"type": "string"}},
@@ -351,7 +350,24 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "formation_logic": {"type": "string"},
         "thinness": {"type": "string"},
         "cautions": {"type": "string"},
-        # Optional, additive (2026-08-21, mechanism test): structured index
+        # Optional, additive: whether and how this world's formation
+        # corresponds to a living tradition still practiced today
+        # (Constitution Article 29) - spoken in the same first-person
+        # register as horizon/formation_logic/thinness/cautions above, and
+        # compiled into build_prompt() the same way (see that function's own
+        # comment). Root-caused and added per Open_Gaps_Tracking.md OG-45/
+        # OG-48: witt's own world_core record authored this content honestly
+        # in its body, disclosing at authoring time that no such field
+        # existed yet ("pending a future schema change-order... the same way
+        # thin_topics was added structurally after thinness/cautions already
+        # existed in prose") - so the M2 compiler had no code path to read
+        # it, and a project-lead-confirmed Article 29 determination never
+        # reached the deployed prompt. Left unset, a world_core record has
+        # nothing to say here (most do not yet have a confirmed Article 29
+        # determination at all). Not yet in COMPLETION_REQUIRED - existing
+        # world_core records validate unchanged without it.
+        "living_traditions": {"type": "string"},
+        # Optional, additive: a structured index
         # over the same ground `thinness`/`cautions` already state in prose,
         # so a gate can cross-check a claim against a world's own named gaps
         # without parsing free text. Not yet in COMPLETION_REQUIRED - existing
@@ -368,6 +384,10 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "additionalProperties": False,
             },
         },
+        # Optional. The finding Doc_07's whole-ecology reading yields that no
+        # single lens shows. Analytical prose, never compiled into the
+        # prompt; the World Profile view renders it.
+        "integrative_observation": {"type": "string"},
     },
     "source": {
         "author": {"type": "string"},
@@ -388,7 +408,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # this field was added), so absence means "not joined yet," not
         # "wrong."
         "work_id": {"type": "string"},
-        # Library Access Gate D3 SS5 (Decision-Log 6, 7). What this record's
+        # Library Access Gate D3 SS5. What this record's
         # subject IS in relation to the library. Checked for agreement with
         # `edition` by engine/m9's source-kind. Optional, additive - not yet
         # in COMPLETION_REQUIRED, same reasoning as work_id above: every
@@ -403,7 +423,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # of a heading string is evidence the claim was checked, not proof
         # of the claim.
         "absence_probes": {"type": "array", "items": {"type": "string"}, "minItems": 1},
-        # D3 SS5, CM-1 (Decision-Log 3). The bucket row this source IS,
+        # D3 SS5, CM-1. The bucket row this source IS,
         # copied from cic/corpus-map/<census_id>.yaml's own row_id - a
         # string that exists, never guessed. Resolved (role, confidence,
         # voice_of) at compile time into compiled/shelf.json; nothing
@@ -426,7 +446,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         },
         "quick_meaning": {"type": "string"},
         # Severity marker for senses.translational's own gap - lets a
-        # reviewer or future tooling spot the highest-risk terms without
+        # builder or future tooling spot the highest-risk terms without
         # parsing prose (Glossary/Story/Quote Template SS1). Not yet in
         # COMPLETION_REQUIRED; existing term records validate unchanged
         # without it.
@@ -440,7 +460,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # classification for engine.m4.term_glosses's firing rule. A
         # foreign/technical form ("Logos", "hesychia", "virtus") is
         # distinctive enough that its bare appearance in the voice's own
-        # text is real signal - fires on sight, the 2026-08-30 design.
+        # text is real signal - fires on sight by design.
         # An ordinary-English form this world's own world_word happens to
         # use ("the world", "power", "elder") is common enough in
         # unrelated prose that the same bare-appearance rule mislights -
@@ -451,7 +471,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # fleet-wide that predates this field - defaults to "technical",
         # its exact current behavior. Authoring rule, drafted here rather
         # than folded into the L4 template (flagged, not this stage's to
-        # edit: reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md)
+        # edit: Build/reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md)
         # - when writing or reviewing a term's world_word, mark a form
         # "ordinary" if it is a common English word or phrase that could
         # plausibly appear in a participant's or the voice's own ordinary
@@ -484,7 +504,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
     "quote": {
         "text": {"type": "string"},
         "speaker_or_author": {"type": "string"},
-        "license": {"enum": ["verbatim", "paraphrase-only", "do-not-voice"]},
+        "license": {"enum": ["verbatim", "paraphrase-only"]},
         # Quote's own version of term's senses.translational (Glossary/
         # Story/Quote Template SS3) - not yet in COMPLETION_REQUIRED;
         # existing quote records validate unchanged without it.
@@ -610,6 +630,17 @@ TYPE_PROPERTIES: dict[str, dict] = {
         },
         "characteristic_concerns": {"type": "array", "items": {"type": "string"}},
         "guard": {"type": "string"},
+        # Optional. The approved-source anchoring paragraph (Representative
+        # Construction Framework, Approved Source Anchoring): it names 5 to
+        # 10 of the world's own Native sources, images or teachers' words and
+        # says the voice falls back to the plain shape of its own life rather
+        # than reach for a more vivid image from elsewhere. Compiled into the
+        # prompt as its own section only when set.
+        "source_anchor": {"type": "string"},
+        # Optional. The 5 to 10 entries the paragraph is drawn from, one short
+        # name each, every one named verbatim in `source_anchor`. Never
+        # compiled; the deployed-artifact check reads it to count entries.
+        "source_anchor_entries": {"type": "array", "items": {"type": "string"}},
     },
     "search_record": {
         "query": {"type": "string"},
@@ -659,7 +690,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "citation_contract": {"type": "string"},
         "limit_discipline": {"type": "string"},
     },
-    # Website V2 world_front design (approved to proceed 2026-09-19):
+    # Website V2 world_front design (approved to proceed):
     # records/<code>/ becomes canonical for the participant-facing website
     # too, one world_front record per world, compiled to
     # cic-website/data/worlds/<census_id>.json by engine/m2 (see

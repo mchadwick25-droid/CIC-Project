@@ -61,35 +61,10 @@ states (no internal dissent survives, none may be invented) rather than
 softening the admission into something gentler than the underlying
 record supports.
 
-FIXED per independent Opus adversarial review: (1) "to our own last
-year... after our own window closed" put this build's own temporal-
-bounding vocabulary into a compiled, spoken field; it was also imprecise
-against syr.core.syriac.horizon, where the 410 synod IS the window's
-own closing event, not something after it. Reworded (below) to state
-the same fact - a royal synod, not this world's own settlement, finally
-gave the Persian church one head - without asserting a timing
-relationship the record does not make and without using "window" at
-all. Also added syr.force.synod-410 to sources for the new phrasing's
-own claim. (2) "could flatten" softened syr.dw.unsettled's
-own "flattened" and its positions field's explicit requirement ("stated
-without softening") - restored to match. (3) "a deceiver's tools"
-(singular) altered the underlying record's own "demons' tools" (plural)
-- restored exactly. (4) "No one did, that we kept" stated an argument
-from silence as a bare positive historical claim, rescued only by a
-trailing elliptical qualifier; reworded to "No such voice was kept
-among us," matching how syr.dw.unsettled's and syr.dw.failures's
-own tensions fields both frame this (no dissent survives, not no
-dissent occurred).
-
-FIXED (round 2) per a second independent Opus review: this note's
-original draft claimed "window" appears "never once inside an actually-
-spoken field" - false. Scoped to the actual _ATTRIBUTION_FIELDS
-contract, "window" does appear in several compiled fields (syr.core.syriac.horizon/
-cautions, syr.voice.craft.identity, syr.term.memra.plain_meaning,
-syr.story.choirs-tradition.tellable_as, and three doctrinal_witness.text
-fields, including this record's own syr.dw.unsettled). The spoken
-turn itself was already correctly fixed - it does not say "window" -
-only the justification overstated the case; the false overclaim is
-removed above rather than restated.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
+The turn states that a royal synod, not this world's own settlement,
+finally gave the Persian church one head, without asserting a timing
+relationship the record does not support and without carrying this
+build's own temporal vocabulary ("window") into a compiled, spoken
+field. The admission that "no such voice was kept among us" matches
+how syr.dw.unsettled's and syr.dw.failures's own tensions fields both
+frame this: no dissent survives, not that no dissent occurred.

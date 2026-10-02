@@ -3,7 +3,8 @@
 source_file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
 
 assignments:
-  - work: "Institutes of the Christian Religion, Books II-III (Of the
+  - row_id: calvin_institutes-christian-religion-vol2_beveridge1845--institutes-of-the-christian-religion-books-ii-iii-of-the
+    work: "Institutes of the Christian Religion, Books II-III (Of the
       Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace
       of Christ)"
     author: calvin

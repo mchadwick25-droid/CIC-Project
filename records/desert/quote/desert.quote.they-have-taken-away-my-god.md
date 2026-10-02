@@ -39,7 +39,7 @@ relations:
 - type: associated-with
   target: desert.story.sarapion-anthropomorphite
 ---
-Verified verbatim 2026-09-19 against the vendored file
+Verified verbatim against the vendored file
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, line
 36051 ("Alas! wretched man that I am! they have taken away my God from
 me, and I have now none to lay hold of; and whom to worship and address
@@ -47,30 +47,23 @@ I know not."), inside Conference X ch. III (file lines 36005-36058,
 within the Conferences I-X division desert.source.cassian-conferences
 registers at line 25863).
 
-DISAMBIGUATION, checked directly rather than assumed: this is NOT the
-same Abbot Serapion whose teaching on the eight principal faults
-desert.quote.eight-principal-faults already carries (Conference V, file
-line 30091 onward). The vendored translation itself marks the two with
-different spellings - "Serapion" for the Conference V elder, "Sarapion"
-for this one - and its own editorial footnote at Conference V ch. I
-(line 30105) raises, without resolving, a separate identity question
-about a THIRD possible Serapion (of Arsinöe, per Rufinus and Palladius
-ch. LXXVI). This record does not conflate any of the three; a plausible
-but unverified conflation is exactly the fidelity risk this build's own
-standing discipline exists to catch, and checking the surrounding text
-directly (rather than relying on name recall alone) is what caught it
-here.
+This is not the same Abbot Serapion whose teaching on the eight
+principal faults desert.quote.eight-principal-faults already carries
+(Conference V, file line 30091 onward). The vendored translation marks
+the two with different spellings - "Serapion" for the Conference V
+elder, "Sarapion" for this one - and its own editorial footnote at
+Conference V ch. I (line 30105) raises, without resolving, a separate
+identity question about a third possible Serapion (of Arsinöe, per
+Rufinus and Palladius ch. LXXVI). This record does not conflate any of
+the three.
 
-Authored alongside desert.story.sarapion-anthropomorphite as part of
-the world_front pilot migration (Website V2 world_front design,
-approved to proceed 2026-09-19) - this quote record supplies the one
-verbatim line that story's own `text` field paraphrases rather than
-quotes directly, per this build's standing rule that a story record
+This quote record supplies the verbatim line that
+desert.story.sarapion-anthropomorphite's own `text` field paraphrases
+rather than quotes directly, per the standing rule that a story record
 embedding verbatim quotation must point at a real quote record instead.
 
-MODERN RENDERING AUTHORED 2026-09-19, following Mark's standing quote
-ruling (spoken form is a modern-English translation, not a summary;
-original wording stays as text, shown at Level 3) and this record set's
-existing register-bar convention (desert.quote.sarah-man-among-you,
-desert.quote.eight-principal-faults): short sentences, everyday words,
-translation fidelity kept.
+The modern_rendering is a modern-English translation of the text
+field, not a summary; the original wording stays as the text field,
+shown at Level 3, matching this record set's register-bar convention
+(desert.quote.sarah-man-among-you, desert.quote.eight-principal-faults):
+short sentences, everyday words, translation fidelity kept.

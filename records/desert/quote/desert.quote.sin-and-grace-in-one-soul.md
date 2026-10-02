@@ -48,12 +48,11 @@ It is also the most pastorally useful thing either of the two texts vendored thi
 participant who reports being unchanged after conversion is not, in this world's terms, failing. The
 answer given is not reassurance but reorientation: the war arriving is not your doing, hating it is.
 
-MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "to hate it, is" was invented -
-the source's sentence continues into God's own response (parting death from the soul, taking it into
-light). Marked with a trailing ellipsis rather than restored: the gloss's own reading treats "hating
-it is" as the complete reorientation this record is cited for; the further sentence is a separate,
-consoling continuation the gloss doesn't address.
+The text field marks its ending with a trailing ellipsis rather than a period after "to hate it,
+is": the source's sentence continues into God's own response (parting death from the soul, taking it
+into light), a separate, consoling continuation the gloss doesn't address. The gloss's own reading
+treats "hating it is" as the complete reorientation this record is cited for.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+The rendering follows the desert register: short sentences, everyday words, with translation fidelity kept; the original stays as the text field for Level 3.

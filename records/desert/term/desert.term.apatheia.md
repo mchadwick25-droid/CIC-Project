@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "Praktikos prologue SS8 and chs. 2-3, 64, 81, VENDORED as of 2026-08-27 - the ladder from faith to love and beyond (desert.quote.the-ladder-from-faith-to-love), apatheia as the Kingdom of Heaven (desert.quote.the-kingdom-is-apatheia), its three tests (desert.quote.the-nous-beholds-its-own-radiance), and charity as its offspring (desert.quote.charity-is-the-offspring-of-apatheia)"
+  locus: "Praktikos prologue SS8 and chs. 2-3, 64, 81 - the ladder from faith to love and beyond (desert.quote.the-ladder-from-faith-to-love), apatheia as the Kingdom of Heaven (desert.quote.the-kingdom-is-apatheia), its three tests (desert.quote.the-nous-beholds-its-own-radiance), and charity as its offspring (desert.quote.charity-is-the-offspring-of-apatheia)"
   license: cc-by-4.0
 - source_id: desert.source.rubenson-letters
   locus: "the contested Antony-literacy scope of the term's founding association (consult-only)"
@@ -71,27 +71,13 @@ rated in Doc_02 (the Letters' authenticity and Origenist reading are).
 formation_confidence Contested carries that live status. Full contest
 detail: desert.contested.antony-literacy (step 3c).
 
-Step3a Review Round 1, Finding 7: Gould's counter-position was named in
-the evidential sense but not registered in sources[] - added
-(desert.source.gould-desert-fathers), so the load-bearing name does
-not float unregistered here either.
-
-Step3a Review Round 2, Finding 1 / New Finding 2: the Round 1 fix had
-removed "vendored"/"consult-only" but written in "this corpus can
-quote directly," the same banned family - reworded again to plain
-in-world evidence talk with no corpus self-reference.
-
-Step3a Review Round 3, Finding C2: the Round 2 rewrite's "have no
-English rendering to quote directly here" read ambiguously against
-this world's own Evagrius source record (which does name copyrighted
-English translations) - reworded to match koinonia's cleaner model,
-locating the constraint in the quoting, not in translation's existence.
-
-Step3a Review Round 4, Finding S1: the informational sense's "Strand
-C's vocabulary" used this build's own lettered taxonomy with no legend
-in the field itself - reworded to name Kellia and the learned circle
-there in plain terms.
-
-Step3c: the [CT] contest named above is now the full contested_claim
-record desert.contested.antony-literacy - reciprocal associated-with
-added.
+Gould's counter-position is registered in sources[]
+(desert.source.gould-desert-fathers), matching its citation in the
+evidential sense. The evidential sense locates the constraint in the
+quoting, not in translation's existence: this world's own Evagrius
+source record does name copyrighted English translations, so the sense
+speaks only to what can be quoted here directly. The informational
+sense names Kellia and the learned circle there in plain terms, rather
+than this build's own lettered taxonomy. The [CT] contest named above
+is the full contested_claim record desert.contested.antony-literacy,
+with a reciprocal associated-with relation.

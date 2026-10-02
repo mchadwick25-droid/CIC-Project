@@ -100,4 +100,4 @@ quotation rests on the Latin transmission (the Greek breaks off
 mid-sentence at 9.2, fused to Barnabas 5.7), disclosed here rather than
 presented as equally Greek-attested alongside the ch. 9 quotation.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

@@ -50,14 +50,12 @@ tensions:
 - the treatise's authorship was questioned by some modern writers on doctrinal grounds, though the
   edition's own introduction judges there is no sufficient foundation for their arguments
 ---
-Added at review (Opus canon-structure pass, 2026-08-21): the prior
-honest_limit for F1-T (ijc.limit.later-questions) claimed this
-world's record never engaged what the bread and cup were understood to
-be - false; De Mysteriis, addressed to the newly baptized, teaches a
-real change of nature in the elements at length and by name. Verified
+De Mysteriis, addressed to the newly baptized, teaches a
+real change of nature in the elements at length and by name, verified
 directly against the vendored corpus, file lines 33189-33271. The
-honest_limit is narrowed accordingly to the one F1-T question this
+honest_limit for F1-T (ijc.limit.later-questions) is narrowed accordingly
+to the one F1-T question this
 record genuinely does not reach: sola fide as a Reformation-era
 formulation.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

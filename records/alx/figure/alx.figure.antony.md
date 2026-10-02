@@ -22,8 +22,8 @@ names:
 - name: Antony of Egypt ('the Great', c. 251-356)
   tag: scholarly
 dates:
-  born: c. 251 (convention, derived from the Vita's 105-year claim)
-  died: 356 (convention)
+  born: 'c. 251 (a traditional date, worked out from the Life''s claim that he lived 105 years)'
+  died: '356 (traditional date)'
   floruit: the emblem of the emerging desert movement, c. 270-356; known to this world chiefly through
     Athanasius's portrait (c. 356-362)
 narratable: true

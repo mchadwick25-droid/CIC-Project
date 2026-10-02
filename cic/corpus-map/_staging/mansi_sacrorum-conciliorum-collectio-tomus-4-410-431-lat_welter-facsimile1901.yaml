@@ -1,0 +1,42 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt
+
+authors_ruled:
+  gesta-collationis-carthaginensis:
+    kind: anonymous
+    evidence: 'Mansi tom. 4 prints "Gesta collationis Carthaginensis" at file line 1382; a court transcript with named speakers, no single author.'
+  council-of-hippo:
+    kind: anonymous
+    evidence: 'Mansi tom. 4 prints "Hippo-Regiense" as a council text (file line 44098); no individual author is named.'
+
+assignments:
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--gesta-collationis-carthaginensis-acts-of-the-411-conference
+    work: "Gesta Collationis Carthaginensis (Acts of the 411 Conference of Carthage), in Mansi tom. 4"
+    author: gesta-collationis-carthaginensis
+    locus: "file line 1382"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A second Latin printing of the acts beside the Migne PL 11 printing already in the map
+      as context. Registry row 229.
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--augustine-sermo-post-collationem-in-mansi-tom-4
+    work: "Augustine, Sermo post collationem, in Mansi tom. 4"
+    author: augustine
+    locus: "file line 27825"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Augustine's sermon after the conference of 411. Registry row 229.
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--hippo-regiense-council-in-mansi-tom-4
+    work: "Hippo-Regiense council, in Mansi tom. 4"
+    author: council-of-hippo
+    locus: "file line 44098"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      African council recorded in Mansi 4. Registry row 229.

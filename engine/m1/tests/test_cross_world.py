@@ -12,7 +12,7 @@ from engine.m1 import cross_world
 def test_the_fleet_carries_no_undocumented_drift():
     """The exit-code contract. Every defect the fleet holds today is named in
     ACCEPTED_OPEN with the audit finding that owns it; anything else is a
-    world that drifted after 2026-08-26 with nothing written up about it."""
+    world that drifted with nothing written up about it."""
     new = cross_world.new_defects(cross_world.run_all())
     assert new == [], "\n".join(f"  {f.key}: {f.message}" for f in new)
 
@@ -34,7 +34,7 @@ def test_the_desert_deep_link_defect_is_caught():
     claim is about those two files agreeing.
 
     The real registry can legitimately carry its OWN census-link findings
-    (e.g. census-id/don, ACCEPTED_OPEN since don's 2026-09-16 admission -
+    (e.g. census-id/don, ACCEPTED_OPEN since don's admission -
     a world admitted but not yet census-synced is a real, disclosed,
     structurally expected gap, the same one gallic's own now-closed
     census-id/gallic entry named) - this test only asserts that nothing
@@ -261,11 +261,11 @@ def _voice_craft(guard: str) -> dict:
 
 
 def test_outside_help_guard_does_not_false_positive_on_felt_weight():
-    """R19's own retrofit list depends on this scan being right. A first
+    """This guard's own retrofit list depends on this scan being right. A first
     version matched the bare substring "weigh", which silently caught
     rzg's real guard text ("the felt weight of either") - honest-thinness
     prose with no distress-comparison content at all - and produced a
-    wrong RULED list. Pinned here so that regression can't come back."""
+    wrong match list. Pinned here so that regression can't come back."""
     records = {"w": {"r1": _voice_craft("It does not give him the felt weight of either.")}}
     findings = cross_world.observe_outside_help_guard(records=records, worlds=["w"])
     assert findings[0].message == "voice_craft.guard does not carry don-style distress-comparison language"
@@ -284,12 +284,12 @@ def test_outside_help_guard_still_catches_a_real_match():
 
 
 def test_observe_outside_help_guard_on_the_real_fleet_finds_only_don():
-    """The corrected, real fleet state (2026-09-21, after the false-positive
-    fix above): don is the only one of the 11 built worlds whose guard
+    """The corrected, real fleet state, after the false-positive
+    fix above: don is the only one of the 11 built worlds whose guard
     actually carries this language - rzg's earlier "carries" finding was
     the false positive test_outside_help_guard_does_not_false_positive_on_
-    felt_weight now pins. This is R19's own real retrofit list: every OTHER
-    world here is a gap."""
+    felt_weight now pins. This is the real retrofit list for this guard:
+    every OTHER world here is a gap."""
     registry = cross_world.load_registry()
     worlds = cross_world.formation_world_keys(registry)
     records = {w: cross_world.load_world_records(w) for w in worlds}

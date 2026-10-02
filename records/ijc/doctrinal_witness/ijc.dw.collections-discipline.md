@@ -52,25 +52,22 @@ tensions:
 - only two sermons on this theme survive in this build's licensed corpus; how widely or how literally
   the preached standard was kept is not something the sermons themselves can tell us
 ---
-Added at review (Opus canon-structure pass, 2026-08-21) to correct a
-false claim in ijc.dw.baptism-threshold's closing note, which held
-that "church funding in this record is imperial patronage and
-endowment, not tithe-discipline." Verified directly against the
+Verified directly against the
 vendored corpus, file lines 13503 and 13707 - Leo's own preached corpus
-states a real, if proportional rather than fixed, giving discipline.
-Corrected at a follow-up confirmation review (2026-08-22): this record
-originally misidentified the collection day as "an autumn fast" - the
-file's own note (line ~13612) names it the octave of SS. Peter and
-Paul (early July, a day repurposed from a pagan festival), not a fast
-at all; Leo's genuine autumn fast (Sermons on "the Fast of the Seventh
-Month") is a separate, unrelated occasion with no Collections content.
-Corrected again at a second follow-up confirmation review
-(2026-08-22): the first correction still stated the octave dating as
-flat fact rather than the edition's own hedged reconstruction ("probably
-began on the 6th of July," per note 6) - Leo's own words name the day
+states a real, if proportional rather than fixed, giving discipline,
+against ijc.dw.baptism-threshold's own closing note that "church funding
+in this record is imperial patronage and endowment, not
+tithe-discipline." The collection day is
+the octave of SS. Peter and
+Paul (early July, a day repurposed from a pagan festival), per the
+file's own note (line ~13612), not the autumn fast (Sermons on "the Fast
+of the Seventh Month") - a separate, unrelated occasion with no
+Collections content. Leo's own words name the day
 only as "the day of Apostolic institution"; the specific date and its
 link to the Ludi Apollinares are Feltoe's report of the Ballerini's
-scholarship, now attributed as such in text and positions.
+scholarship, attributed as such in text and positions, rather than the
+edition's own hedged reconstruction ("probably
+began on the 6th of July," per note 6) stated as flat fact.
 canon_cells: F4-T (did you tithe, how did you decide what to give).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

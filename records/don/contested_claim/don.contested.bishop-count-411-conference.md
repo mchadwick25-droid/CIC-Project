@@ -32,7 +32,7 @@ held_against:
   Donatist' figure propagated silently since this world's earliest construction document (Step0_Movement_Scope_Confirmation.md,
   written before the Gesta Collationis Carthaginiensis itself was vendored) through Doc_01, Doc_02, Doc_04,
   Doc_05, Doc_07, Doc_08, Doc_09, Lexicon-Chunks/donlex015, and multiple Representative-phase documents,
-  never checked against the primary source directly until 2026-09-09.
+  never checked directly against the primary source before this correction.
 - The corrected figure rests on one located tally, at one line (73363) of a 19th-century Migne scan this
   world's own Registry independently flags as 'notably poor OCR quality even by this corpus's own standards'
   -- legible despite that, but not a manuscript-certain reading placed beyond all doubt by the correction
@@ -52,4 +52,4 @@ divergence_partners:
 - don.source.migne-pl11-collatio-carthaginiensis
 - don.source.gesta-collationis-carthaginiensis
 ---
-Re-derived from Doc_02_Source_Ecology.md SS1's own 'Bishop-count correction at the 411 Conference' paragraph (added 2026-09-09) and don_Decision_Log.md's own 'World-build bishop-count correction (284 -> 279)' entry (grepped by header, not read in full at 745 lines -- the relevant paragraphs were read in full). relations[] carries the one gravity edge (G4, don.gravity.parallel-institutional-hierarchy) named in this script's own docstring under RECIPROCITY -- G4's own manifestations[] field already states this corrected figure directly. This record does not touch Cyprian, Augustine, or the rebaptism question, and does not bear on Article 29 Limb 2 in any way -- see this script's own docstring, THE TWO RESERVED QUESTIONS, item 2.
+Re-derived from Doc_02_Source_Ecology.md SS1's own 'Bishop-count correction at the 411 Conference' paragraph and don_Decision_Log.md's own 'World-build bishop-count correction (284 -> 279)' entry (grepped by header, not read in full at 745 lines -- the relevant paragraphs were read in full). relations[] carries the one gravity edge (G4, don.gravity.parallel-institutional-hierarchy) named in this script's own docstring under RECIPROCITY -- G4's own manifestations[] field already states this corrected figure directly. This record does not touch Cyprian, Augustine, or the rebaptism question, and does not bear on Article 29 Limb 2 in any way -- see this script's own docstring, THE TWO RESERVED QUESTIONS, item 2.

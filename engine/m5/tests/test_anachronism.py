@@ -45,7 +45,7 @@ DISPLAY_TERMS = {
 
 
 def test_the_readers_invented_id_is_replaced_by_the_fleet_record_id():
-    """The live failure this exists to prevent: on 2026-08-24 the reader
+    """The live failure this exists to prevent: the reader
     returned term_id "trinity_doctrine" for a Trinity question, routing
     intersected it against fleet record ids, found nothing, and bridge_turn
     - built and passing its own tests - was unreachable by any session."""

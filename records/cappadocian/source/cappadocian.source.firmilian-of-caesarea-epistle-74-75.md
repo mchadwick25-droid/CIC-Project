@@ -29,4 +29,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 69; a specific n
 external_ids:
   cappadocian_source_registry_row: 69
 ---
-Third-century pre-boundary inheritance evidence (Doc_01 SS1) (row 69). File present since 2026-08-15, not re-verified this session. Cite both numberings per Doc_02 SS1.6's own instruction.
+Third-century pre-boundary inheritance evidence (Doc_01 SS1) (row 69). This file has not been individually re-verified against Doc_02's specific citations. Cite both numberings per Doc_02 SS1.6's own instruction.

@@ -72,12 +72,9 @@ weighs a scholarly disagreement in this build's own analytic voice, not
 in a formation participant's voice, so no in-world speaker register
 applies here.
 
-Step3c, Round 1 review Finding M2: concedes used the controlled
-formation_confidence enum term ("both stand at Contested confidence")
-as prose in a compiled-facing field - reworded to plain language.
-Finding M1: David Brakke's reading was load-bearing in held_against[2]
-without being registered, though the source is a full step-2 record -
-added to sources[] above. New relation added: desert.contested.alexandria-continuity,
-whose own concession was rebuilt on this record's Rubenson/Letters
-thread rather than on a false claim about Evagrius (see that record's
-own Step3c body note).
+concedes is worded in plain language rather than the controlled
+formation_confidence enum term. David Brakke's reading, load-bearing in
+held_against[2], is registered in sources[] above. desert.contested.alexandria-continuity's
+own concession is built on this record's Rubenson/Letters thread rather
+than on a claim about Evagrius (see that record's own body note),
+matching the relation declared here.

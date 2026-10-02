@@ -1,6 +1,7 @@
 source_file: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt
 assignments:
-  - work: "Zhitie protopopa Avvakuma, im samim napisannoe (original-language text)"
+  - row_id: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd--zhitie-protopopa-avvakuma-im-samim-napisannoe-original
+    work: "Zhitie protopopa Avvakuma, im samim napisannoe (original-language text)"
     author: avvakum
     locus: "whole work; modernized Russian reading edition (the `orv` tag is loose, see note), Wikisource transcription citing az.lib.ru"
     atlas_ids:

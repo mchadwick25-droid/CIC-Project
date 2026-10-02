@@ -1,0 +1,29 @@
+source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
+assignments:
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+  author: comenius
+  locus: whole volume; preface by Buddeus
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: context
+  confidence: provisional
+  note: 'The Unity''s account of its own history, order and discipline from its last bishop, in Latin,
+    printed long after the window. It is the Unity''s later self-account, so it gives the Unity''s own
+    picture of its origins at second hand and not its voice of the years to 1517. Second witness for now,
+    not quotable: a 1702 print with the long s read as f throughout and many word-level misreads (word-form
+    coverage against a clean Latin vocabulary 0.42). A cleaner scan of Comenius''s own text (1649-1660
+    manuscripts) would serve as the quotable witness.'
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-2
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+  author: comenius
+  locus: whole volume; preface by Buddeus
+  atlas_ids:
+  - czech-churches-last-century
+  role: context
+  confidence: provisional
+  note: 'The Unity''s later account of its own history, order and discipline, for the entry that covers
+    the Unity''s last century. Second witness for now, not quotable: a 1702 print with the long s read
+    as f throughout and many word-level misreads (word-form coverage against a clean Latin vocabulary
+    0.42). A cleaner scan of Comenius''s own text (1649-1660 manuscripts) would serve as the quotable
+    witness.'

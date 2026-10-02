@@ -46,4 +46,4 @@ approved Doc_01 SS5.2 as genuinely anti-fatalist - and a rare
 contemporary picture of shared Christian practice (first-day
 assembly, reading-day fasts).
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.

@@ -46,12 +46,9 @@ that record directly ahead of this demonstration, so the spoken content
 matches this build's own current, verified state). We-voice throughout;
 not an identity-collision cell.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22):
-"the women our record names" undercounted by one against this build's
-own citation apparatus (Marcellina, Ambrose's sister, is also named, as
-a letter's addressee, though nothing of her own words survives either)
-- restated to match the source record's own corrected "lets us see
-acting," exact for the two women whose command this build actually
-attests.
+"The women our record names" matches the source record's own "lets us
+see acting," exact for the two women whose command this build actually
+attests - Marcellina, Ambrose's sister, is also named, as a letter's
+addressee, though nothing of her own words survives either.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved, and the source record's spoken field carries the same translation. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved, and the source record's spoken field carries the same translation. This sits at the record layer, not the prompt.

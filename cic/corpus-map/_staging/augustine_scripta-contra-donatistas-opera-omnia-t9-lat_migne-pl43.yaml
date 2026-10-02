@@ -1,0 +1,16 @@
+source_file: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt
+
+assignments:
+  - row_id: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43--augustine-s-anti-donatist-works-maurist-text-migne-pl-43
+    work: "Augustine's anti-Donatist works (Maurist text, Migne PL 43): Breviculus collationis, Ad Donatistas post collationem, Sermo ad Caesariensis, De gestis cum Emerito, Contra Gaudentium"
+    author: augustine
+    locus: "whole file"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: provisional
+    note: >
+      Maurist Latin of the anti-Donatist works that follow the Petschenig text (CSEL 53,
+      Registry row 214). The Petschenig staging file gives this entry only four of the works,
+      so the works here are assigned to donatism alone, and Registry row 230 records the
+      overlap.

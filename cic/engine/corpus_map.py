@@ -72,7 +72,7 @@ Three rulings are enforced here rather than left to memory:
       the Testaments are `tradition` in the apocrypha entry and
       `transmission` in `post-apostolic-house-church`, whose scribes kept them.
 
-      `antecedent` was added 2026-08-26 for a relation the first two cannot
+      `antecedent` exists for a relation the first two cannot
       express. The Donatists claimed Cyprian as their charter authority - his
       rebaptism practice, his purity-of-clergy ecclesiology, the Carthage
       council of 256. He is not a Donatist, so `tradition` is false. He died
@@ -145,11 +145,8 @@ def census_ids() -> dict[str, str]:
 # Every *.yaml directly under cic/corpus-map/ that is NOT a per-census-
 # entry bucket. This loader globs the whole directory with no other
 # filter, so a new non-bucket file added here needs a line in this set or
-# it gets silently misread as a malformed bucket - discovered the hard
-# way twice in one session (WORKS.yaml, then AUTHOR-IDS.yaml, both added
-# 2026-09-02) before this collapsed from two near-duplicate `if` branches
-# into one list. A third non-bucket file added later should extend this
-# set, not grow a third branch.
+# it gets silently misread as a malformed bucket. A new non-bucket file
+# should extend this set, not grow a separate branch.
 NON_BUCKET_FILES = {
     "UNATTRIBUTED.yaml",  # a ruling list
     "WORKS.yaml",         # a Work/Expression registry (works_registry.py)
@@ -196,9 +193,14 @@ def validate() -> list[str]:
         declared = (yaml.safe_load(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
         known_authors |= set(declared)
 
+    # row_id -> (work, source_file, first place seen). A row lands in every
+    # bucket its atlas_ids name, so one id may recur across buckets - but only
+    # for the same work; inside one bucket it may not recur at all.
+    row_ids: dict[str, tuple[str, str, str]] = {}
+
     for atlas_id, doc in load().items():
         where = f"{atlas_id}.yaml"
-        # CM-6 (Library Access Gate D3 SS3, Decision-Log 10): a bucket
+        # CM-6 (Library Access Gate D3 SS3): a bucket
         # carrying `fixture: true` is the M9 selftest's own synthetic data,
         # never a real Atlas entry - exempt from the two checks that assume
         # one (a real census movement id, a real corpus author), and from
@@ -226,6 +228,16 @@ def validate() -> list[str]:
                 findings.append(f"{tag}: role {entry.get('role')!r} not in {sorted(ROLES)}")
             if entry.get("confidence") not in CONFIDENCES | {None}:
                 findings.append(f"{tag}: confidence {entry.get('confidence')!r} not in {sorted(CONFIDENCES)}")
+            row_id = entry.get("row_id")
+            if not isinstance(row_id, str) or not row_id.strip():
+                findings.append(f"{tag}: missing 'row_id' (run corpus_map_merge.py --assign-ids, then a merge)")
+            else:
+                identity = (str(entry.get("work")), str(entry.get("source_file")))
+                first = row_ids.setdefault(row_id, (*identity, tag))
+                if first[:2] != identity:
+                    findings.append(f"{tag}: row_id {row_id!r} is already {first[0]!r} at {first[2]}")
+                elif first[2] != tag and first[2].split("[")[0] == where:
+                    findings.append(f"{tag}: row_id {row_id!r} repeats within this entry ({first[2]})")
             source_file = entry.get("source_file")
             if source_file and vendored and source_file not in vendored:
                 findings.append(f"{tag}: source_file {source_file!r} is not in cic/texts/")

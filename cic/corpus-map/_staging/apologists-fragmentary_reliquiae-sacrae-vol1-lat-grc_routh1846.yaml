@@ -1,0 +1,103 @@
+# Routh's 1846 collection of the fragmentary second-century writers, Greek with Latin, a second
+# witness (interleaved noisy columns). Assigned to the same atlas entries, role and confidence as the
+# English (ANF08) fragments of Quadratus, Aristo of Pella, Melito and Claudius Apollinaris. Aristides
+# (testimonia only in Routh, the Apology being found in 1878-91) is not assigned. Dionysius of
+# Corinth, Hegesippus and the others in the volume are outside the two worlds this run covers.
+source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
+
+assignments:
+  - row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-quadratus
+    work: "Fragments of Quadratus"
+    author: quadratus
+    locus: "file line 5161 (heading 'B. QUADRATUS.')"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer is OCR with the two columns interleaved line by line and with accent and letter
+      errors, and no page-image check has been made. Not to be quoted as the original until a
+      clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae, editio
+      altera vol. I (Oxford, 1846), with Routh's Latin notes. Mirrors the English twin's role and
+      confidence exactly.
+
+  - row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-aristo-of-pella
+    work: "Fragments of Aristo of Pella"
+    author: aristo-of-pella
+    locus: "file line 5915 (heading 'ARISTONIS PELLAI,')"
+    atlas_ids:
+      - ebionite-nazoraean-current
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer is OCR with the two columns interleaved line by line and with accent and letter
+      errors, and no page-image check has been made. Not to be quoted as the original until a
+      clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae, editio
+      altera vol. I (Oxford, 1846), with Routh's Latin notes. Mirrors the English twin's role and
+      confidence exactly.
+
+  - row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-melito-of-sardis
+    work: "Fragments of Melito of Sardis"
+    author: melito-of-sardis
+    locus: "file line 6675 (heading 'B. MELITONIS, SARDENSIS EPISCOPI')"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer is OCR with the two columns interleaved line by line and with accent and letter
+      errors, and no page-image check has been made. Not to be quoted as the original until a
+      clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae, editio
+      altera vol. I (Oxford, 1846), with Routh's Latin notes. Mirrors the English twin's role and
+      confidence exactly.
+
+  - row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-claudius-apollinaris
+    work: "Fragments of Claudius Apollinaris"
+    author: claudius-apollinaris
+    locus: "file line 8951 (heading 'S. CLAUDII APOLLINARIS')"
+    atlas_ids:
+      - montanism-the-new-prophecy
+    role: context
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer is OCR with the two columns interleaved line by line and with accent and letter
+      errors, and no page-image check has been made. Not to be quoted as the original until a
+      clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae, editio
+      altera vol. I (Oxford, 1846), with Routh's Latin notes. Mirrors the English twin's role and
+      confidence exactly.
+
+  - row_id: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846--fragments-of-claudius-apollinaris-2
+    work: "Fragments of Claudius Apollinaris"
+    author: claudius-apollinaris
+    locus: "file line 8951 (heading 'S. CLAUDII APOLLINARIS')"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek/Latin second witness of the ALREADY-PRESENT English entry for this work (source_file
+      anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml) in the bucket(s) named here.
+      SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      Greek layer is OCR with the two columns interleaved line by line and with accent and letter
+      errors, and no page-image check has been made. Not to be quoted as the original until a
+      clean witness is vendored or the page image is checked. Routh, Reliquiae sacrae, editio
+      altera vol. I (Oxford, 1846), with Routh's Latin notes. Mirrors the English twin's role and
+      confidence exactly.
+

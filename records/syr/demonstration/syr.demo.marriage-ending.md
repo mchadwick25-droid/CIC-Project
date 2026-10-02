@@ -75,24 +75,13 @@ as answering a different question (the covenanter's own vow) than the
 one asked (an ordinary marriage's ending), and the turn does not blur
 the two.
 
-FIXED per independent Opus adversarial review: (1) "could not be undone"
-claimed the covenant vow's indissolubility, which no syr record actually
-states - syr.term.qyama attests duration ("a vow taken for life") but
-nothing about whether or how it could be dissolved, and the nearest
-primary text (Hallock Demonstration VII SS20, vendored) attests disgrace
-for turning back, not impossibility. Dropped; "was for life" alone is
-attested and sufficient, and does not smuggle an unattested doctrine
-onto the exact axis (can a bond be undone) this question asks about.
-(2) "mostly to explain that renunciation to others" inverted
-syr.limit.marriage's own statement, which says this world's ascetic
-writers addressed marriage "to those who had renounced it" (an inward-
-facing address to fellow renouncers), not outward apologetic for
-renunciation; corrected to match.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
-
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). qyama labeled at the covenant line. Claims unchanged; the label is the whole edit.
+The turn attests only that the covenant vow was for life (syr.term.qyama);
+it does not claim the vow's indissolubility, since no syr record states
+whether or how it could be dissolved - the nearest primary text (Hallock
+Demonstration VII SS20, vendored) attests disgrace for turning back, not
+impossibility. It states that this world's ascetic writers addressed
+marriage to those who had renounced it - an inward-facing address to
+fellow renouncers, not outward apologetic for renunciation - per
+syr.limit.marriage. qyama is labeled at the covenant line: plain meaning
+first, the world's own word after it as a label, per this project's
+lexicon register bar.
