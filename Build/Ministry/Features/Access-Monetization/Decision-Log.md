@@ -67,3 +67,13 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 - A parent buying for a youth means a minor may use paid conversations. Whether the free experience and the Representatives are appropriate for minors, and what the safety design is for them, is not decided.
 - Under-13 use raises COPPA duties. Counsel must review the checkout terms, the age wording and the child-privacy position before launch.
 - How a purchase is handed to a youth (for example a gift code) is a design question for later.
+
+## 8. Payment identity is never linked to conversation text (2026-10-02)
+
+**Decision (Mark):** a payment is never linked to what someone said in a conversation. The access ledger holds the visitor id, Stripe references and counts. Conversation text lives in a separate store with no payment or email data. No screen, report or support tool joins the two.
+
+**Basis:** Opus round 1 review, substantial finding on privacy. Conversations about faith are sensitive, and a joinable store conflicts with the current `privacy.html`.
+
+**Consequences:** support cannot look up a transcript from a receipt. A lost-cookie recovery restores access and balance, not past transcripts. Wall and closing copy must not promise saved history that the system does not keep.
+
+**Open:** the `privacy.html` wording that states this promise. That file is on a live surface (`cic-website/`) and is not edited here.
