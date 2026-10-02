@@ -19,10 +19,9 @@ result: not_found
 found_sources: []
 note: "None of the three classical authors is in the vendored corpus. All three have public-domain-by-date English candidates (named in each source row) but none is fetchable from this sandbox. CONSEQUENCE: pahc.source.tacitus-annals, pahc.source.suetonius-lives, and pahc.source.lucian-peregrinus are paraphrase-only for quote purposes. Listed as OPEN acquisition items in this world's source-request manifest."
 ---
-UPDATE (2026-09-13): Suetonius has since been found and vendored - see
+Suetonius has since been found and vendored - see
 pahc.search.suetonius-english-pd, a distinct, later search record
-documenting that acquisition. This record's own result field is left
-as not_found, unedited: it was an accurate log of the 2026-08-21 search
-event (external text hosts were blocked from that session's sandbox),
-not a status field to update in place. Tacitus and Lucian remain open
-acquisition items, unaffected by this update.
+documenting that acquisition. This record's own result field stays
+not_found: it is a log of a completed search (external text hosts were
+blocked from that session's sandbox), not a mutable status field to
+update in place. Tacitus and Lucian remain open acquisition items.

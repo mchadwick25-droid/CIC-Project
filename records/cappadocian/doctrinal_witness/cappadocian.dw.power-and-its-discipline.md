@@ -75,4 +75,4 @@ caution 7 (the brief establishment's own thin documentation) rather than
 smoothing past it, matching this build's own standing discipline of
 disclosing rather than resolving a genuine gap.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-canon-to-amphilochius, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-canon-to-amphilochius.

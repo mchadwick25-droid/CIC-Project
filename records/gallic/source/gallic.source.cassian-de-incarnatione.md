@@ -28,4 +28,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 12; a specific n
 external_ids:
   gallic_source_registry_row: 12
 ---
-Author-tradition basis; the Leo/Celestine transmission context, independently confirmed by Gennadius's own text (row 30) -- a genuine upward correction from an earlier backwards confidence arrow (Registry Round 2 N8). Existence and corpus-map assignment confirmed via the G1 manifest; the text itself has not been read at any point in this build.
+Author-tradition basis; the Leo/Celestine transmission context is independently confirmed by Gennadius's own text (row 30). Existence and corpus-map assignment confirmed via the G1 manifest; the text itself has not been read at any point in this build.

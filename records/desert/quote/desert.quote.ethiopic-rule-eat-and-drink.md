@@ -56,7 +56,7 @@ relations:
 - type: associated-with
   target: desert.story.angel-hands-the-tablet
 ---
-Verified verbatim 2026-08-27 against the vendored file, Part I, p. 682.
+Verified verbatim against the vendored file, Part I, p. 682.
 
 This is the first provision on the iron tablet, and until this file was
 vendored this world could reach it only through Palladius. Holding both

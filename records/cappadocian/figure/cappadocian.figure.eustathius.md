@@ -45,20 +45,8 @@ Gravity 1↔Gravity 10) - with two dedicated source records already
 registered (cappadocian.source.basil-eustathius-rupture-letters;
 cappadocian.source.epiphanius-on-eustathius-pneumatomachians).
 
-NUMBERING-DRIFT CORRECTION (made at B-5, logged here plainly per this
-step's own discipline - the same class of error as the FLAG-029
-precedent, a live drift, not a stale pre-revision reference): this
-record's body previously read "Tensional Gravity 10 (precision against
-reserve) and Tensional Gravity 11 (renunciation against order)." Doc_04's
-own CURRENT (Revision 1, 2026-08-30) final numbering, verified directly
-against §4's classification summary and concordance table, gives
-"precision against reserve" as Tensional Gravity 9 and "renunciation
-against order" as Tensional Gravity 10, not 10/11 - this figure record was
-authored AFTER Doc_04's Revision 1 (later timestamp), so the mismatch was
-a live error in this record itself, not an artifact of citing a
-superseded pre-revision numbering. Corrected above and here; the three
-relations[] entries now point at the correctly-numbered gravity records
-(cappadocian.gravity.precision-reserve = Gravity 9,
+The three relations[] entries point at the correctly-numbered gravity
+records (cappadocian.gravity.precision-reserve = Gravity 9,
 cappadocian.gravity.renunciation-order = Gravity 10,
 cappadocian.gravity.triune-confession = Gravity 1, named per this record's
 own "Primary Gravity 1's own sharpening" clause), with the reciprocal
@@ -70,9 +58,8 @@ tellable; only the wound as Basil recorded it." No numbered Doc_09 entry
 narrates the rupture from Basil's own side either - it is referenced
 across several term and story records' own body notes (e.g.
 cappadocian.term.koinonia) but never itself narrated as a story. This
-figure record therefore still carries no story-level relations[] entry -
-that discipline is unchanged by this fix - but it now carries the three
-real gravity-level relations[] entries it is load-bearing for, once those
-gravity records exist. Adversarial transmission throughout: "no works
+figure record carries no story-level relations[] entry, but carries the
+three gravity-level relations[] entries it is load-bearing for.
+Adversarial transmission throughout: "no works
 survive" under his own name (Doc_02 §1.5); everything here is the
 account of a wounded former disciple, or of his censors.

@@ -29,4 +29,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 76; a specific n
 external_ids:
   cappadocian_source_registry_row: 76
 ---
-SS1.6's earliest external catalogue datum (row 76). File present since 2026-08-15, not re-verified this session against the specific entries Doc_02 cites. Correction carried forward: DVI's 'Eustathius' entry is Eustathius of Antioch, not Eustathius of Sebaste -- do not cite it as covering this world's own Eustathius.
+SS1.6's earliest external catalogue datum (row 76). This file has not been individually re-verified against the specific entries Doc_02 cites. DVI's own 'Eustathius' entry is Eustathius of Antioch, not Eustathius of Sebaste -- do not cite it as covering this world's own Eustathius.

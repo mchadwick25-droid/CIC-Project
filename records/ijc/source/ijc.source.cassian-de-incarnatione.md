@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; npnf211 was unopened here"
 external_ids: {ccel_volume: "npnf211"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain); the work's div2 opens at line 48459 and the Preface immediately
 follows.
 

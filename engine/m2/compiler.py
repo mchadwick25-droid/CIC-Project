@@ -44,9 +44,9 @@ def _frozen_records_copy(world_key: str, records: dict[str, dict], records_root:
     ignores those (it only iterates directories), but an independent
     rglob("*.md") here previously swept them in anyway. Found for real: the
     Alexandria source-ecology thread dropped exactly such a file and
-    flagged it rather than working around it (world/alexandria branch,
-    2026-08-20) - fixed here once, at the root, instead of teaching every
-    future stray top-level file to avoid the compiler."""
+    flagged it rather than working around it - fixed here once, at the
+    root, instead of teaching every future stray top-level file to avoid
+    the compiler."""
     world_dir = records_root / world_key
     out = {}
     for record in records.values():

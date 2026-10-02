@@ -4,7 +4,8 @@ source_file: npnf107_augustine-homilies-john-soliloquies.xml
 # Skipped as editorial apparatus: title page, Preface (div1 1-2), indexes (div1 6).
 
 assignments:
-  - work: "Tractates on the Gospel of John (In Evangelium Ioannis tractatus)"
+  - row_id: npnf107_augustine-homilies-john-soliloquies--tractates-on-the-gospel-of-john-in-evangelium-ioannis
+    work: "Tractates on the Gospel of John (In Evangelium Ioannis tractatus)"
     author: augustine
     locus: "div1 3 — Lectures or Tractates on the Gospel According to St. John; 124 tractates (~412,000 words) assigned as one body per the granularity rule, not one work per tractate"
     atlas_ids:
@@ -18,7 +19,8 @@ assignments:
       donatism id is claimed; the dedicated anti-Donatist works are in
       npnf104.
 
-  - work: "Ten Homilies on the First Epistle of John (In epistulam Ioannis ad Parthos tractatus)"
+  - row_id: npnf107_augustine-homilies-john-soliloquies--ten-homilies-on-the-first-epistle-of-john-in-epistulam
+    work: "Ten Homilies on the First Epistle of John (In epistulam Ioannis ad Parthos tractatus)"
     author: augustine
     locus: "div1 4 — Ten Homilies on the First Epistle of John; the ten-homily series assigned as one body"
     atlas_ids:
@@ -29,7 +31,8 @@ assignments:
       Preached Easter week c. 407, on love and the unity of the church.
       Congregational preaching of the Latin pastoral entry.
 
-  - work: "Soliloquies (Soliloquia)"
+  - row_id: npnf107_augustine-homilies-john-soliloquies--soliloquies-soliloquia
+    work: "Soliloquies (Soliloquia)"
     author: augustine
     locus: "div1 5 — Two Books of Soliloquies"
     atlas_ids:

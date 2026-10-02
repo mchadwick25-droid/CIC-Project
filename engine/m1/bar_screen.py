@@ -4,10 +4,9 @@ using the same field set `engine/m1/spoken_fields.py` now declares in one
 place instead of scattered across six/seven independent lists.
 
 This is measurement, not a gate. It reports, it never fails a build or
-blocks anything - promoting any of it to a gate is Stage 2c's job, and
-only after R6 is ruled on (`Ministry/Features/Conversation-
-Transparency-Engine/Rulings-Pending.md`) and sets where the ceiling actually
-sits. `gate_readability` (`engine/m1/gates.py`) already CI-gates a
+blocks anything - promoting any of it to a gate, and where the ceiling
+should sit, is a separate decision not yet made.
+`gate_readability` (`engine/m1/gates.py`) already CI-gates a
 narrower field set (term/honest_limit/quote/voice_craft) at a fixed FK <=
 10 ceiling; this screen deliberately covers a wider set - every voice-diet
 field, including `story.tellable_as` and `doctrinal_witness.text`, which
@@ -19,7 +18,7 @@ Same FK-grade formula `gate_readability` already uses (`engine.m1.fk.
 fk_grade`), so a future ceiling ruling compares like with like.
 
 Usage: `python -m engine.m1.bar_screen <world>` - writes
-`worlds/<world>/build/bar-screen-<date>.json` and prints a summary table.
+`Build/worlds/<world>/build/bar-screen-<date>.json` and prints a summary table.
 """
 from __future__ import annotations
 
@@ -99,7 +98,7 @@ def main(argv: list[str]) -> int:
     world_key = argv[0]
     report = screen_world(world_key)
 
-    out_dir = REPO_ROOT / "worlds" / world_key / "build"
+    out_dir = REPO_ROOT / "Build" / "worlds" / world_key / "build"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"bar-screen-{report['generated']}.json"
     out_path.write_text(json.dumps(report, indent=2, sort_keys=False) + "\n", encoding="utf-8")

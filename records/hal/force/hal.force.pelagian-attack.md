@@ -52,8 +52,5 @@ Christian-on-Christian violence - tagging it there would misattribute the
 institution of persecution (the exact subtle-fabrication class the
 verification discipline names).
 
-CORRECTED per independent review Round 1 (2026-08-21): the manifestations
-entry's former quoted string ("my own monastery has been destroyed") was
-not in Ep. 138 or 139; replaced with the letter's own verbatim closing
-words. Ep. 137's addressee (John of Jerusalem, not the women) made
-explicit.
+The manifestations entry quotes the letters' own verbatim closing words;
+Ep. 137's addressee is John of Jerusalem, not the women.

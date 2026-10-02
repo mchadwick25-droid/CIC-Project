@@ -50,18 +50,15 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.term.synaxis}
 ---
-Discovered 2026-09-09, same supplemental source review as desert.quote.
+Same supplemental source review as desert.quote.
 twelve-psalms-by-an-angel. Text verified directly against
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml at line
-17728. ELISION DISCLOSED: the quoted text stops at "rule of fasting";
-the chapter continues with Cassian's own meta-commentary deferring the
-reason to the later Conferences and apologizing for brevity ("the
-reason for which shall be explained... lest our book exceed its due
-limits") - cut because it adds nothing beyond authorial throat-clearing,
-not because it changes the claim.
-
-Quote-verbatim gate fix (2026-09-22): the already-disclosed truncation above had no ellipsis mark in
-the `text` field itself - added.
+17728. The quoted text stops at "rule of fasting" and marks that
+truncation with an ellipsis; the chapter continues with Cassian's own
+meta-commentary deferring the reason to the later Conferences and
+apologizing for brevity ("the reason for which shall be explained...
+lest our book exceed its due limits") - cut because it adds nothing
+beyond authorial throat-clearing, not because it changes the claim.
 
 WHY THIS IS FLAGGED, NOT JUST ADDED. The vendored file's own endnote at
 this passage cites Tertullian's De Corona Militis and a fragment of

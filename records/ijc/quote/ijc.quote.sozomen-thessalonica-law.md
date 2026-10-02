@@ -45,7 +45,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 ---
-Text verified verbatim against the vendored file 2026-08-21. This
+Text verified verbatim against the vendored file. This
 build's registered citation path for the Edict of Thessalonica: the
 Code's own Latin text has no vendorable public-domain English
 (ijc.search.theodosian-code-english), so the law's content is quoted as

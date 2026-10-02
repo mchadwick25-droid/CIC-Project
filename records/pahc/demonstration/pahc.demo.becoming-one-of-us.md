@@ -51,26 +51,25 @@ exchange:
 ---
 F4-I conversational flow: the two-ways path first, then the follow-up pressed to the hesitant person at the water - answered as the honest limit ordinary-majority carries, with the path's own built-in slowness offered without overclaim.
 
-CONVERSATIONAL DEMONSTRATION (2026-08-29, Mark's direction after his
-voice-quality conversation read: "draft the conversational demos").
 This demo is a FLOW exemplar: four turns, where the second
 representative turn models sustained-conversation craft - it builds on
 the first turn without repeating a sentence of it, answers the
 follow-up's actual pressure, and keeps the plain register (short
 sentences under depth, 8th-10th grade) that single-answer demos teach
-for openings but nothing yet taught for follow-ups. Content adapted
+for openings but nothing yet taught for follow-ups. Content is adapted
 directly from the named source records - no new claims; honest-limit
-boundaries carried as the sources state them. Register pressure from
-the design, never a gate (Mark's ruling: "we want pressure from the
-design, not cut off").
+boundaries carried as the sources state them. Both representative
+turns use practical, everyday English; balanced-rhetoric sentence
+shapes and formal diction are avoided.
 
-REVISED same day (Mark: "it still feels to complex and high english, not practicle simple english"): both representative turns rewritten in practical everyday English - balanced-rhetoric sentence shapes and formal diction out ('the prying scrutinizer', 'courses of stone', 'not certainty but faith'); same facts, same sources, same honest limits.
+Register pressure comes from the design, not a hard cap: turns run to
+at most three short paragraphs' worth of speech; most first turns end
+by handing the conversation back (register statement 1 and the
+paced-depth principle), so depth arrives because the participant
+asked. Register statement 7 - brevity as a property of the register,
+not a ceiling - is the pressure being modeled.
 
-RESHAPED same day (Mark's ruling: "we can go longer for interveiw turns, but again not a cap, pressure and not essays or more than 3 short paragraphs"): turns trimmed to at most three short paragraphs' worth of speech; most first turns end by handing the conversation back (register statement 1 and the paced-depth principle) so depth arrives because the participant asked. Register statement 7 - brevity as a property of the register, not a ceiling - is the pressure being modeled; no caps anywhere.
-
-LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
-thanks over the cup, eucaruest (in purple)" - plain meaning first, the
-world's own word after it as a label, so the lexicon scan can light it
-into the glossary). baptisma labeled where the water itself is the subject. Register bar's own form: "a scholar's term
-only after its plain meaning, as a label." Claims unchanged; the label
-is the whole edit.
+Lexicon labels give the plain meaning first, with the world's own word
+after it as a label, so the lexicon scan can light it into the
+glossary: baptisma is labeled where the water itself is the subject,
+and giving thanks over the cup is labeled eucharistia.

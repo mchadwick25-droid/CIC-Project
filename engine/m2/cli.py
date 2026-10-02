@@ -69,8 +69,31 @@ def cmd_staleness_check(args: argparse.Namespace) -> int:
     return 0 if overall_pass else 1
 
 
+def cmd_profile(args: argparse.Namespace) -> int:
+    from engine.m1.loader import load_world_records
+    from engine.m1.registry import get_world
+
+    from .profile import build_profile
+
+    try:
+        entry = get_world(args.world_key)
+        records = load_world_records(args.world_key)
+    except (KeyError, FileNotFoundError) as exc:
+        print(f"profile: {exc}", file=sys.stderr)
+        return 1
+    if not records:
+        print(f"profile: no records for {args.world_key!r}", file=sys.stderr)
+        return 1
+    text = build_profile(records, entry, args.world_key)
+    if args.out:
+        Path(args.out).write_text(text, encoding="utf-8")
+    else:
+        sys.stdout.write(text)
+    return 0
+
+
 def cmd_upload(args: argparse.Namespace) -> int:
-    """WO-1 (2026-09-16): pushes an already-built package to object
+    """Pushes an already-built package to object
     storage, so a deploy running the OLD image can still serve it -
     Artifact-2 SS5's "packages are built by CI, uploaded to object
     storage." Manual for now (a human runs this after `build`, the same
@@ -103,7 +126,8 @@ def cmd_restore(args: argparse.Namespace) -> int:
     from engine.m1.registry import load_registry, world_keys
 
     registry = load_registry()
-    keys = [args.world_key] if args.world_key else world_keys(registry)
+    # A world still at the Library stage has no compiled package to restore.
+    keys = [args.world_key] if args.world_key else [k for k in world_keys(registry) if registry[k].get("package")]
     results = [restore_package(k, registry=registry) for k in keys]
     ok = all(r["restored"] for r in results)
     print(json.dumps({"pass": ok, "worlds": results}, indent=2))
@@ -133,6 +157,11 @@ def main(argv: list[str] | None = None) -> int:
 
     stale = sub.add_parser("staleness-check", help="recompile every built/admitted/open world, check against its manifest")
     stale.set_defaults(func=cmd_staleness_check)
+
+    profile = sub.add_parser("profile", help="render the World Profile, a view over the world's records (not part of the package)")
+    profile.add_argument("world_key")
+    profile.add_argument("--out", help="write the profile to this path instead of printing it")
+    profile.set_defaults(func=cmd_profile)
 
     upload = sub.add_parser("upload", help="push an already-built package to object storage (WO-1), so a running deploy can fetch it without a redeploy")
     upload.add_argument("world_key")

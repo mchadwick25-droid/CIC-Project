@@ -36,7 +36,7 @@ relations:
 - {type: illustrates, target: ijc.story.letter-that-outranked-a-council}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (the quoted
+Text verified verbatim against the vendored file (the quoted
 sentence ends without terminal punctuation at the clause the edition's
 own footnote interrupts; quoted through "from this place"). The
 primacy claim's earliest surviving voice within this world's own

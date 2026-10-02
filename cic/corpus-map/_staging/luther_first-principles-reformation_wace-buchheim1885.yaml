@@ -1,5 +1,4 @@
-# Vendored 2026-09-25 during re-verification of this world's own Source
-# Readiness Dossier §3 leads. Supersedes the dossier's originally-named
+# Supersedes the dossier's originally-named
 # archive.org item (firstprinciples00buchgoog, a Google Books scan found
 # materially OCR-degraded on inspection) with a cleaner alternate scan of
 # the same 1885 edition - see cic/texts/REGISTRY.yaml's own entry for
@@ -7,7 +6,8 @@
 source_file: luther_first-principles-reformation_wace-buchheim1885.txt
 
 assignments:
-  - work: "First Principles of the Reformation: The Ninety-Five Theses,
+  - row_id: luther_first-principles-reformation_wace-buchheim1885--first-principles-of-the-reformation-the-ninety-five-theses
+    work: "First Principles of the Reformation: The Ninety-Five Theses,
       the Address to the Nobility of the German Nation, On Christian
       Liberty, and On the Babylonish Captivity of the Church"
     author: luther

@@ -32,10 +32,10 @@ cleared Doc_02: the corpus's general origin in this world's own oral
 teaching is Widely Accepted; fidelity of any individual saying to its
 original context is Contested (carried per-record, not here).
 
-RECORDED DECISION - the ammas fold (Step2 Review Round 1, observation):
-the prior build carried a separate source row for the ammas' sayings
-(srcDES006); this record set folds them here because their source IS
-this corpus (no independent transmission stream exists, Doc_02 SS1.6).
+The ammas' sayings are folded into this source record because their
+source IS this corpus (no independent transmission stream exists,
+Doc_02 SS1.6); the prior build carried them as a separate source row
+(srcDES006).
 The fold must not lose Doc_02 SS1.6's own confidence bounds: Widely
 Accepted that named ammas (Syncletica, Theodora, Sarah) and their
 sayings are a genuine, if thin, part of the tradition; Inferential-Thin
@@ -56,8 +56,8 @@ recension - saying-numbering and sometimes wording differ from the
 Greek alphabetical collection; a Budge-verified quote is verbatim FOR
 BUDGE'S EDITION and says so in its locus.
 
-ARRIVAL NOTE, 2026-08-27. Manifest request G1 is FULFILLED. Mark supplied
-Budge vol. 2 and it is vendored. What it settles, precisely:
+Manifest request G1 is fulfilled: Budge vol. 2 is vendored. What it
+settles, precisely:
 
   AMMA SARAH IS IN IT. Six sayings, under the name "Mother Sarah" -
   §268, §276, §428, §525, §566 and one in the Questions and Answers.

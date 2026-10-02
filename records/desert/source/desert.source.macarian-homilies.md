@@ -56,8 +56,8 @@ NOTHING IS OPENED FROM THIS SOURCE YET. This record registers the file, its
 rights, its structure and its bound. No quote, term or witness record draws
 on it; the reading pass that would open it is a separate decision.
 
-PROVENANCE CLOSED 2026-08-27. Mark supplied the Internet Archive item
-metadata, which does three things this record could not do for itself.
+The Internet Archive item metadata does three things this record could
+not do for itself.
 
 It fixes the scan: item fiftyspiritualho00pseuuoft, digitized by the
 Pontifical Institute of Mediaeval Studies at the University of Toronto,

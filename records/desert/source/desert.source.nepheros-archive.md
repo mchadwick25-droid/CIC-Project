@@ -33,7 +33,7 @@ and Kellia) and keeps the Melitian presence visible rather than letting
 Athanasius's opponents vanish from a record his tradition dominates
 (Doc_02 SS6, axis 3).
 
-ADDENDUM, 2026-09-13. The Bell 1924 edition this record's own author
+The Bell 1924 edition this record's own author
 field names as "neither... in hand" is now in hand - vendored as
 desert.source.bell-jews-christians-egypt (cic/texts/bell_jews-
 christians-egypt-meletian-papyri_1924.txt), following a fleet

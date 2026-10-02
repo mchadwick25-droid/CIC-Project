@@ -26,12 +26,11 @@ names:
   tag: scholarly
 dates:
   born: null
-  died: c. 264/5 (Eusebius-derived)
+  died: 'c. 264/5 (worked out from Eusebius)'
   floruit: 'head of the teaching tradition, then bishop c. 248-264: the Decian persecution, the lapsed
     controversy, the plague, the Nepos affair'
 narratable: true
-bridge_line: the teacher-become-bishop who led the church through plague and persecution, and answered
-  a book against allegory with three days of patient listening
+bridge_line: A teacher who became bishop. He led the church through plague and persecution. He answered a book against allegory with three days of patient listening.
 ---
 The mid-horizon witness in his own (mediated) words. The plague-conduct
 letters (Christians nursing the dying while others fled) are prime F5

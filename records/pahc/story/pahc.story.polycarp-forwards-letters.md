@@ -60,4 +60,4 @@ the correspondence network - the same cell pahc.gravity.translocal-
 network already claims via its own F5-P tag, reinforced here in
 narrative form.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

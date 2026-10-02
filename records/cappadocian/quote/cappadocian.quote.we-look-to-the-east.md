@@ -44,7 +44,7 @@ modern_rendering: >-
   old country -- Paradise, which God planted in Eden, in the East. We pray standing on the
   first day of the week, but not all of us know the reason.
 ---
-Verified verbatim 2026-08-31 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, sec.
 66, immediately following the treatise's own list of unwritten
 sacramental customs - the words over the baptismal water and the
@@ -59,7 +59,4 @@ and 67) back two different dws rather than one excerpt stretched across
 two cells - see cappadocian.quote.what-is-the-written-source's own
 trailing note for the division of labor between them.
 
-MODERN RENDERING AUTHORED (2026-08-31, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

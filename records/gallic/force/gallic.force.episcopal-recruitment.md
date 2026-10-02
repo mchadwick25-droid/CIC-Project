@@ -14,8 +14,8 @@ confidence:
   divergence_note: >-
     Documented for the pattern - all three founding voices (Vita IX, X; Conf. Prefs. II-III; Comm.
     ch. 1), Hilary of Arles's Latin (row 27, file lines 668/722 - Migne's two-column OCR splits the
-    sentence, per Doc_08's Round 1 correction; wording Inferential/Thin), Gennadius chs. LXX, LXXXVI
-    ('first abbot ... then made bishop' of Riez, corrected at Round 1). Dominant Modern
+    sentence; wording Inferential/Thin), Gennadius chs. LXX, LXXXVI
+    ('first abbot ... then made bishop' of Riez). Dominant Modern
     Reconstruction for the 'power elite' consolidation across the sees of southern Gaul (Mathisen,
     row 20, thesis-level, not read) - used for the FACT of the consolidation, which the ancient
     witnesses independently support, not for its political interpretation (Doc_08 §7). Eucherius's

@@ -1,7 +1,8 @@
 source_file: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt
 
 assignments:
-  - work: "De Veritate Sacrae Scripturae"
+  - row_id: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907--de-veritate-sacrae-scripturae
+    work: "De Veritate Sacrae Scripturae"
     author: wyclif
     locus: "whole volume"
     atlas_ids:
@@ -13,10 +14,11 @@ assignments:
       church tradition, ed. Buddensieg (1907, Wyclif Society Latin Works
       vol. 21) - directly relevant to the movement's central claim that
       scripture should be available and authoritative in the vernacular.
-      Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
-      source-acquisition pass, from the full 33-volume Wyclif Society
-      Latin series on archive.org. Under Mark's 2026-09-25 ruling
-      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can
-      be primary evidence directly, verified against the vendored file,
-      since it is primary to the movement regardless of language; the
-      scan is clean, not flagged under Mark's OCR ruling "a."
+      Drawn from the full 33-volume Wyclif Society
+      Latin series on archive.org. Per the Library's
+      non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

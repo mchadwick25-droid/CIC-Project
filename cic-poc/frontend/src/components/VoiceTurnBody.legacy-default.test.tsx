@@ -30,7 +30,7 @@ describe('VoiceTurnBody - legacy renderer, reachable with no transparency plan o
     expect(container.querySelectorAll('.story-mark')).toHaveLength(1);
   });
 
-  it("A, A, B, A: the known gap this stage fixes - a non-consecutive repeat's sources are dropped, not just its mark", () => {
+  it("A, A, B, A: the legacy renderer drops a non-consecutive repeat's sources, not just its mark", () => {
     // Passing `transparency` too, exactly as every real caller now does
     // post-3b - the point of this test is that the LEGACY renderer never
     // looks at it while the flag is off, so the gap it has is unchanged.

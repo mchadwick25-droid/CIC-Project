@@ -39,7 +39,7 @@ relations:
 - type: associated-with
   target: hal.dw.one-church
 ---
-Opened 2026-08-27 for F3-T, served by hal.dw.one-church alone, which cites this dialogue for
+Opened for F3-T, served by hal.dw.one-church alone, which cites this dialogue for
 "a man truly Catholic" and could not show it.
 
 Kept as an OUTSIDE view deliberately, and its register field says emic only because Sulpitius

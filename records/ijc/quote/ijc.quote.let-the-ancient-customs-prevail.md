@@ -40,7 +40,7 @@ relations:
 - type: associated-with
   target: ijc.dw.how-we-read
 ---
-Opened 2026-08-27 for F2-I, served by ijc.dw.how-we-read alone, which cites Canon 6 for
+Opened for F2-I, served by ijc.dw.how-we-read alone, which cites Canon 6 for
 "precedent read as law" and could not show it.
 
 Chosen over Leo's Sermon III, the other locus that witness names, because the cell asks how this

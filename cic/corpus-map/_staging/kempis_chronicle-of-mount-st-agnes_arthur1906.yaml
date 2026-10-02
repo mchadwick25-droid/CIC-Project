@@ -1,7 +1,8 @@
 source_file: kempis_chronicle-of-mount-st-agnes_arthur1906.txt
 
 assignments:
-  - work: "The Chronicle of the Canons Regular of Mount St. Agnes"
+  - row_id: kempis_chronicle-of-mount-st-agnes_arthur1906--the-chronicle-of-the-canons-regular-of-mount-st-agnes
+    work: "The Chronicle of the Canons Regular of Mount St. Agnes"
     author: kempis
     locus: "whole volume"
     atlas_ids:
@@ -12,5 +13,4 @@ assignments:
       Kempis's own account of the founding and early history of Mount
       St. Agnes, his own monastery near Zwolle - same translator/house
       (Arthur) as the already-vendored 'Founders of the New Devotion'
-      (1905). Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
-      source-acquisition pass.
+      (1905).

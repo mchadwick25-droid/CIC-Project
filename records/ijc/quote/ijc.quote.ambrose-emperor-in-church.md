@@ -38,7 +38,7 @@ relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---
-Text verified verbatim against the vendored file 2026-08-21 - the
+Text verified verbatim against the vendored file - the
 signature formula in its edition's actual wording: "the Emperor is
 within the Church, not above it" (the Latin tag runs "non supra
 Ecclesiam"; the term record carries both). Preached during the crisis

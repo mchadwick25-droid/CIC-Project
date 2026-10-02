@@ -70,9 +70,8 @@ absent_detail: 'No unnamed congregant''s own account survives - the vigil''s int
   repeats and endorses, "Let him take away his laws with him," and his own, "giving bloody laws with his
   mouth," "this law, which sanctions such perfidious decrees" (Sermo c. Aux. 23-24) - a legal claim being
   defied, not force without pretext (the law''s own text is not vendorable this build - see ijc.search.theodosian-code-english - so it is referenced here at Documented via
-  Ambrose''s own words, not the law''s own text). Corrected at a follow-up confirmation review
-  (2026-08-22): the phrase "Auxentius'' cruel law" previously quoted here is the NPNF editor''s own
-  chapter-argument summary, not Ambrose''s wording - replaced with Ambrose''s actual sentences. Also
+  Ambrose''s own words, not the law''s own text). The phrase "Auxentius'' cruel law" is the NPNF editor''s own
+  chapter-argument summary, not Ambrose''s wording - Ambrose''s actual sentences are quoted instead. Also
   disclosed here, per this world''s own contested-dating discipline: this record dates the standoff to
   386, following the now-dominant scholarly chronology, but the vendored edition itself dates Ep. XX and
   the enabling law to Easter, 385 (its own headnote at Ep. XX, and its chronology at file line 704) - a
@@ -97,4 +96,4 @@ this world's most concrete worship answer), F5-P (did belonging cost
 you anything - a congregation prepared to die with its bishop is the
 record's plainest answer).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

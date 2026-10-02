@@ -1,0 +1,90 @@
+world_code:
+process_version: V2.0
+completion_standard_version:
+started:
+pilot_world: false
+current_step:
+status:
+pause_point:
+documents:
+  - id: Doc_03
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Doc_04
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Doc_05
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Doc_06
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Doc_07
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Doc_08
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Doc_09
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Representative_identity
+    status:
+    decided_by_mark:
+    decision_date:
+  - id: Doc_10
+    status:
+    rounds_used: 0
+    drafter_model:
+    reviewer_model:
+    review_files: []
+    gates_result:
+  - id: Validation
+    status:
+    rounds_used: 0
+    validation_mode:
+    full_validation_triggers: []
+    gates_result:
+gates:
+  handoff:
+  last_prereview:
+  last_records:
+  last_regate:
+  last_deployed:
+  probes:
+  validation:
+  wiring:
+open_items_pointer:
+ledger_pointer:
+handoff_manifest_pointer:
+metered_ceiling:
+escalations: []
+freeze_package_pointer:

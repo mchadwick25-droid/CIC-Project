@@ -53,81 +53,18 @@ vendored and were read at their loci this session (Vita SS3; Palladius
 ch. VII). The economic-embeddedness tension (gravity 8) is stated in
 the translational sense, per Doc_06's own feeding of that cluster.
 
-Step3a Review Round 1, Finding 5: Doc_06 1.7 titles this entry
-"Cheirōnaxia / Ergocheiron" - the alternate form had been dropped;
-restored to world_word.
-
-Step3a Review Round 2, New Finding 6: the SS3 locus quote silently
-dropped "however," from the source's own wording without marking the
-elision - corrected to the exact opening clause.
-
-Step3a Review Round 4, Finding S6: the informational and evidential
-senses built this record's strongest corroboration claim on the
-Nepheros archive without either of the two standing cautions that
-record's own source row requires on every use (the community is
-Melitian, and its representativeness for the mainstream strands is an
-unverified working assumption). Reworded to carry both, in-world, and
-softened the "three independent streams / rare density" framing that
-had counted the caveated stream at full weight.
-
-Step3a Review Round 5, Finding S1: the Round 4 fix's own "a nearby
-community" was an invented geographic claim - Nepheros's community sat
-near Hipponon in the Heracleopolite nome, Middle Egypt, roughly
-200-250km from Nitria/Kellia/Scetis, re-strengthening on a distance
-axis the very corroboration overclaim the fix was meant to soften.
-Corrected to state the community sat far off, with no proximity
-claimed either way.
-
-Step3a Review Round 5, Finding S2: the Round 4 fix restored only the
-first of the Nepheros record's two standing cautions (Melitian
-identity / representativeness); the second - the source's editors
-read the community's organization as intermediary, not a clean fit to
+Nepheros's community sat far off, in the Heracleopolite nome, Middle
+Egypt, with no proximity to Nitria/Kellia/Scetis claimed either way.
+Both of that source's standing cautions travel with every use here: the
+community is Melitian, and its representativeness for this world's
+mainstream strands is an unverified working assumption; its own
+organization has also been read as intermediary, not a clean fit to
 this world's own three strands, a live open item at
-desert.contested.strand-porousness - was carried nowhere, and the
-informational sense carried neither caution at all. Both cautions now
-stated in the informational sense, the evidential sense, and the
-source row's own locus.
-
-Step3a Review Round 6, Finding S1: this record's translational and
-informational senses state the embeddedness claim outright (labor
-"tied the settlements into village markets," "funded alms beyond the
-settlements") - the same claim Round 5 fixed on anachoresis for
-missing its required joint citation, left unswept here in the same
-commit that edited this record's own Nepheros row. Goehring registered
-above, alongside the already-present Kellia and Nepheros.
-
-Step3a Review Round 6, Finding S4: the Round 5 fix's own "organizationally
-distinct" inverted Doc_02 SS5.2's actual working assumption, which
-holds Melitian and Nicene-communion practice as NOT organizationally
-distinct in most day-to-day respects - only in ecclesial allegiance.
-Reworded to the caution the record's evidential sense already states
-correctly: the community's own editors read its organization as
-intermediary, not a clean fit to this world's three strands.
-
-Step3a Review Round 7, Finding C4: the Goehring locus attributed to him
-a claim his own source record does not make - "funded alms beyond
-them." Goehring's thesis is village trade ties from labor; the
-labor-almsgiving cycle is this build's own synthesis (Doc_05 SS7),
-stated there as merely consistent with Goehring's critique, not his own
-claim. Corrected to match his source record's actual wording, the same
-phrasing already used on anachoresis's sibling locus.
-
-Step3a Review Round 7, Finding S4: Goehring's own source record states
-his specific claims carry an open verification bound that "travels
-with every citation"; this record's locus carried the joint-citation
-half of the standing rule but not the bound. Added.
-
-Step3a Review Round 8, Finding B2: the Goehring bound added in Round 7
-sat only in the locus (not compiled), while the embeddedness claims it
-qualifies sit in the translational and informational senses (compiled).
-Added to the evidential sense above, per this lexicon's settled
-standard that a standing-rule caveat travels with the sense field
-carrying the claim it qualifies.
-
-Self-caught before commit, twice in the same editing pass, the
-identical slip made on anachoresis's sibling fix: this fix's first
-draft wrote "not yet independently checked," then "vendored" into the
-reword that replaced it - both from jargon families this lexicon had
-already excised. The sense now reads "stand unverified in themselves,
-corroborated here only by the textual and archaeological evidence
-already cited," with no apparatus vocabulary.
+desert.contested.strand-porousness. Embeddedness claims cite Kellia,
+Nepheros, and Goehring jointly, never Goehring alone; his thesis is
+village trade ties from labor, not the labor-almsgiving cycle (this
+build's own synthesis, Doc_05 SS7), and his specific claims carry an
+open verification bound that travels with every citation. A
+standing-rule caveat travels with the sense field carrying the claim it
+qualifies, not only the locus - so these cautions sit in the
+informational and evidential senses above, not only in sources[].

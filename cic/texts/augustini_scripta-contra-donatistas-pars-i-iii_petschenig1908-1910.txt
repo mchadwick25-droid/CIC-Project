@@ -5,30 +5,26 @@
                   this scan's own single surviving title page) "Pars
                   I": Psalmus contra partem Donati, Contra epistulam
                   Parmeniani libri tres, De baptismo libri septem --
-                  PLUS, immediately following without a second title
-                  page in this OCR, further distinct works confirmed
-                  by their own internal Explicit/Incipit markers:
-                  Contra Cresconium (four books), De unico baptismo
-                  contra Petilianum, and the short Contra (or
-                  Adversus) Fulgentium Donatistam. This bound
-                  volume's own consolidated errata section, at the
-                  very end, explicitly corrects both "VOL. LI" and
-                  "VOL. LIII" by name -- CSEL's own numbers for Pars I
-                  and Pars III respectively -- confirming this is a
-                  library binding of Pars I (CSEL 51) AND Pars III
-                  (CSEL 53) together, not Pars I alone as the single
-                  surviving title page states. Pars II (CSEL 52,
-                  Contra litteras Petiliani) is NOT present -- checked
-                  directly, absent except as a cross-reference
-                  abbreviation ("Petil. = Contra litteras Petiliani").
+                  PLUS the title pages of "Pars II" (CSEL 52,
+                  MDCCCCIX) and "Pars III" (CSEL 53), with:
+                  Contra litteras Petiliani, Epistula ad catholicos
+                  de secta Donatistarum, Contra Cresconium (four
+                  books), De unico baptismo contra Petilianum,
+                  Breviculus collationis cum Donatistis, Contra
+                  partem Donati post gesta, Sermo ad Caesariensis
+                  ecclesiae plebem, Gesta cum Emerito, Contra
+                  Gaudentium, and an Appendix with Contra (Adversus)
+                  Fulgentium Donatistam. The consolidated errata
+                  section at the very end corrects both "VOL. LI" and
+                  "VOL. LIII" by name.
       Creator(s): Augustine of Hippo (Latin original, various dates
                   c. 393-420s)
                   Michael Petschenig (Editor)
      Print Basis: Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL),
-                  Vol. LI (Pars I, 1908) and Vol. LIII (Pars III,
-                  1910, per the errata section's own citation --
-                  Pars III's own title page was not captured in this
-                  OCR). Vienna: F. Tempsky; Leipzig: G. Freytag.
+                  Vol. LI (Pars I, 1908), Vol. LII (Pars II, 1909) and
+                  Vol. LIII (Pars III, MDCCCCX, title page at file
+                  lines 60474-60500). Vienna: F. Tempsky; Leipzig:
+                  G. Freytag.
           Rights: Public Domain
         Language: lat
     Rights basis: 1908-1910 publication date alone places this volume
@@ -43,16 +39,17 @@ Source Collection: Internet Archive, FULL TEXT (OCR). Supplied
                   "See other formats" - together stripped at
                   vendoring); everything after that is unedited raw
                   OCR output.
-      Contents map (approximate, by internal heading, not re-verified
-                  page-by-page): Psalmus contra partem Donati; Contra
-                  epistulam Parmeniani libri III; De baptismo libri
-                  VII; Contra Cresconium libri IV; De unico baptismo;
-                  Contra (Adversus) Fulgentium Donatistam. Donatism
-                  world-build Source_Acquisition_Manifest.md §1
-                  request G5 (Source_Registry.md rows 17, 18, 39)
-                  specifically needed Contra Cresconium and Contra
-                  epistulam Parmeniani -- both confirmed present in
-                  this single file.
+      Contents map (by internal heading; line numbers are file lines):
+                  Pars I: Psalmus contra partem Donati (title 1254),
+                  Contra epistulam Parmeniani (title 2086), De baptismo
+                  (8474). Pars II: Contra litteras Petiliani (24749),
+                  Epistula ad catholicos (36698), Contra Cresconium
+                  (41778). Pars III: De unico baptismo (60949),
+                  Breviculus collationis (62770), Contra partem
+                  Donati post gesta (66508), Sermo ad Caesariensis
+                  (71496), Gesta cum Emerito (title 72034), Contra
+                  Gaudentium (title 73262), Appendix with Adversus
+                  Fulgentium (78731).
      OCR quality: Raw, uncorrected OCR of a dense Latin critical
                   edition with an extensive apparatus criticus. Expect
                   the same range of OCR artifacts as elsewhere in this

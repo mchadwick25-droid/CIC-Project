@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
   divergence_note: Not independently re-collated this session; not double-assigned to any other world
-    per the corpus map's own note (Mark's own ruling).
+    per the corpus map's own note.
 sources: []
 relations: []
 author: Augustine of Hippo

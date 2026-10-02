@@ -1,7 +1,8 @@
 source_file: delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
 
 assignments:
-  - work: "Les Passions des martyrs et les genres litteraires"
+  - row_id: delehaye_passions-martyrs-genres-litteraires-fra_1921--les-passions-des-martyrs-et-les-genres-litteraires
+    work: "Les Passions des martyrs et les genres litteraires"
     author: delehaye
     locus: "whole file"
     atlas_ids:

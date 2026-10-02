@@ -34,16 +34,13 @@ def _transitive_source_ids(records: dict[str, dict]) -> set[str]:
     or if it names some other record (quote/term/gravity/...) whose OWN
     `sources[]` names one - transitively, to arbitrary depth. This is
     grounding, not citation-style: two coherent-but-different citing
-    conventions coexist across the fleet (2026-08-26 finding) -
-    desert/pahc's demonstrations cite a `source` record directly;
-    alx/hal/syr/ijc's cite the intermediate quote/term/gravity record that
-    itself cites the source. Both are real grounding chains; only the first
-    hop differs. Resolving transitively fixes the false failures on the
-    second convention without loosening what counts as grounded: a citation
-    that doesn't trace to any real source record, by any path, still fails.
-    The decision here, over two costlier alternatives that would
-    have meant re-tagging content across four worlds: fix the checker, not
-    the data.
+    conventions coexist across the fleet - desert/pahc's demonstrations
+    cite a `source` record directly; alx/hal/syr/ijc's cite the
+    intermediate quote/term/gravity record that itself cites the source.
+    Both are real grounding chains; only the first hop differs. Resolving
+    transitively covers both conventions without loosening what counts as
+    grounded: a citation that doesn't trace to any real source record, by
+    any path, still fails.
 
     Memoized and cycle-guarded - the corpus is a DAG in the intended case
     (source records carry no sources of their own), but this doesn't trust

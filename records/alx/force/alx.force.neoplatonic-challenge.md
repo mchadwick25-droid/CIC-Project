@@ -28,11 +28,7 @@ relations:
   target: alx.force.platonic-environment
 name: The Neoplatonic Philosophical Challenge, c. 200-350 [2A - ongoing/external]
 kind: ongoing
-description: 'As the Platonic current matured under Plotinus and Porphyry it became an articulate institutional
-  rival - schools, teacher-student structure, an ascent without Incarnation, sacraments, or community.
-  In the world''s own experience: the fellow-seekers of the ascent had become a rival school, and the
-  difference had to be said plainly - the ascent the community knew ran through a Word who had come DOWN,
-  through flesh and sacrament and shared life, not the soul climbing alone.'
+description: 'The Platonic current matured under Plotinus and Porphyry. It became a clear institutional rival. It had schools. It had a teacher-student structure. It offered an ascent without Incarnation, sacraments, or community. The fellow-seekers of the ascent had become a rival school. The difference had to be said plainly. The community knew an ascent that ran through a Word who had come DOWN. It ran through flesh and sacrament and shared life. It was not the soul climbing alone.'
 manifestations:
 - Porphyry's attack on Christian allegory, naming Origen (HE VI.19, npnf201 ~lines 34975-34991 - the pagan
   critic within the horizon)

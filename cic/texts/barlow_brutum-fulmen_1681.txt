@@ -1,9 +1,9 @@
 Title: Brutum Fulmen: or, The Bull of Pope Pius V Concerning the
   Damnation of Q. Elizabeth (with, annexed, the Bull of Pope Paul the
   Third Against King Henry the Eighth)
-Creator: Thomas Barlow (1607-1691) (prints, in English and Latin, Pius
-  V's bull Regnans in Excelsis, 1570, and Paul III's bull against Henry
-  VIII)
+Creator: Thomas Barlow (1607-1691) (prints Pius V's bull Regnans in
+  Excelsis, 1570, in English and Latin parallel columns; and Paul III's
+  bull against Henry VIII in Latin only)
 Publisher: London, 1681
 Rights: Public Domain
 Rights basis: Explicit `NOT_IN_COPYRIGHT` possible-copyright-status
@@ -15,9 +15,12 @@ Source: Internet Archive item brutumfulmenorbu00barluoft
   full-text file, 2026-09-25, this session.
 Provenance note: Body text unaltered including its own OCR errors
   (17th-c. long-s, and heavy garbling in the Latin marginalia in
-  particular); the bull text itself (English and Latin parallel columns)
-  spot-checked and legible. This is Barlow's hostile Anglican polemical
-  framing embedding the bulls' actual text, not a neutral edition of the
+  particular); the Regnans in Excelsis bull text (English and Latin
+  parallel columns) spot-checked and legible - the Paul III bull is
+  printed in Latin only, with just a brief English index-line summary,
+  not a full parallel translation. This is Barlow's hostile Anglican
+  polemical framing embedding the bulls' actual text, not a neutral
+  edition of the
   bulls alone - a narrow but genuine primary-source window (per this
   world's own Source Readiness Dossier, §3).
 

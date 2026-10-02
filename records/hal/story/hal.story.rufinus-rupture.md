@@ -56,6 +56,6 @@ absent_detail: 'What the quarrel was REALLY about - doctrine, or wounded honor w
   not survive; the friendship itself is attested mostly in the record of its destruction.'
 modern_contrast: 'A modern reader often hears this as either a petty personal feud dressed up in theology or a purely abstract doctrinal dispute between scholars. This world''s own record frames it differently: doctrine, personal wound, and political stakes arrived inseparably at once, and the two surviving accounts fight over which weighed more - a contest this telling deliberately does not resolve.'
 ---
-Re-derived from cleared Doc_09a S3a (the story Round 1 found missing).
+Derived from Doc_09a S3a.
 The CT contest (hal.contested.origenist-substance) is stated inside
 absent_detail per the tier discipline. Serves F1-I and F6-I.

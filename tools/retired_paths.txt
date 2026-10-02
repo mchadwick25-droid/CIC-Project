@@ -1,7 +1,7 @@
 # Paths retired by the Repo Structure Cleanup (phase 1, 2026-09-14). They must stay
 # absent: a branch that merely adds a file under one of them merges without conflict
 # and silently resurrects the directory. tools/check_paths.py fails CI if any exists.
-# New home for each is in Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md.
+# New home for each is in Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md.
 L0-Reference
 L1-Foundation
 L2A-System-Architecture
@@ -17,10 +17,10 @@ Redesign-Spec
 Project-Reference
 fleet-voice
 Syriac-Build
-Ministry/Technology/Pass2
-Ministry/Technology/Pass3
-Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs
-Ministry/Operations/Standing/lexicon_compliance_checker.py
+Build/Ministry/Technology/Pass2
+Build/Ministry/Technology/Pass3
+Build/Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs
+Build/Ministry/Operations/Standing/lexicon_compliance_checker.py
 # Library Access Gate increment 9 (2026-09-15): tools/gen_shelf.py retired in favor
 # of `python -m engine.m9.cli shelf <world> --stdout` (engine/m9/cli.py), the real
 # shelf renderer - gen_shelf.py's own line-regex bucket reader and CANDIDATES dict
@@ -28,7 +28,7 @@ Ministry/Operations/Standing/lexicon_compliance_checker.py
 tools/gen_shelf.py
 # Repo Structure Cleanup phase 2 (2026-09-15): the 12 per-world World-Builds/ trees
 # and 6 per-world world-build-docs/ trees this manifest covers moved to worlds/<code>/
-# and worlds/<code>/build/ respectively (tools/moves-phase2.tsv). World-Builds/ and
+# and worlds/<code>/build/ respectively (Build/tools/moves-phase2.tsv). World-Builds/ and
 # world-build-docs/ themselves stay live - six not-yet-coded worlds (Anabaptist
 # Movements, Lollardy, Lutheran-Wittenberg, Reformed Zurich and Geneva, Society of
 # Jesus, Tridentine Church) remain under World-Builds/ until each gets a registry
@@ -52,3 +52,32 @@ world-build-docs/hal
 world-build-docs/ijc
 world-build-docs/pahc
 world-build-docs/syr
+# Live/Build split (2026-09-26): reference/, Ministry/, worlds/, and World-Builds/
+# themselves moved to Build/reference/, Build/Ministry/, Build/worlds/, and
+# Build/World-Builds/ - the repo root now holds only the Live zone plus Archive/,
+# Build/, and CI-essential tools/. The building-tools subset of tools/ (not
+# invoked by any CI workflow) moved to Build/tools/ alongside them.
+reference
+worlds
+Ministry
+World-Builds
+tools/rewrite_paths.py
+tools/lexicon_compliance_checker.py
+tools/make_ledger.py
+tools/set_source_kind.py
+tools/split_retrieval_guards.py
+tools/tests/test_split_retrieval_guards.py
+tools/generate_tradition_pages.py
+tools/generate_tree_pages.mjs
+tools/add_tree_link_css.mjs
+tools/update_tradition_links.mjs
+tools/render_orientation_cli.mjs
+tools/moves-phase1.tsv
+tools/moves-phase2.tsv
+# Hoarder-house cleanout (2026-09-26): the three move manifests above (and their
+# Build/tools/ copies) were deleted outright, not just relocated - each is a
+# pure record of an already-executed, already-merged move with nothing reading
+# it, fully redundant with Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md.
+Build/tools/moves-phase1.tsv
+Build/tools/moves-phase2.tsv
+Build/tools/moves-phase3-live-build-split.tsv

@@ -49,6 +49,7 @@ even make a checkable claim," owned once.
 """
 import re
 
+from engine.m1.quote_verbatim import normalize_archaic_letterforms
 from engine.prose import (
     QUOTE_CLOSE,
     QUOTE_OPEN,
@@ -149,10 +150,10 @@ def strip_tags(text: str) -> str:
 # is wrong, not something to paper over on the way out.
 def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
     """Every paired quotation in `text`, left to right: (start, end,
-    inner) - `start` is the opening quotation mark's own offset, `end` is
+    inner) - `start` is the offset of the opening quotation mark, `end` is
     just past the closing quotation mark, `inner` is the quoted words
-    between them. engine.m4.transparency_plan places a quote's mark at
-    `end`: a quote's mark follows the quoted words."""
+    between them. engine.m4.transparency_plan places a quote's marker at
+    `end`: the marker follows the quoted words."""
     spans = []
     pos = 0
     while True:
@@ -171,17 +172,41 @@ def _quoted_spans(text: str) -> list[str]:
 
 
 def _normalize(text: str) -> str:
+    # Archaic letterforms first (the same mapping engine.m1.quote_verbatim's
+    # own verbatim check applies): otherwise the [^a-z0-9\s] strip below silently
+    # deletes ſ/þ/ð rather than folding them to their modern spelling,
+    # which is a real content loss, not a normalization ("þe" becoming
+    # " e" instead of "the"). Applied to both the quoted span and the
+    # shelf's own record text below, since both call sites route through
+    # this one function - inherently symmetric.
+    text, _classes = normalize_archaic_letterforms(text)
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", text.lower())).strip()
 
 
+def _groundable_text(rec: dict) -> str:
+    """The text a generated turn can actually be checked against for
+    grounding. A quote record's own `modern_rendering` only - never
+    `text` (an archaic or non-English original) - since gate_quote_
+    recording (engine/m1/gates.py) and the speakable-form selection in
+    evidence.py/builders.py already make modern_rendering the only form
+    ever voiced; a generated span matching `text` but not the record's
+    own spoken form was never legitimately produced from it. Every other
+    record type keeps the wider all_text() - not scoped here, since
+    readability, commentary scanning, and the retrieval word-pool all
+    still need to see a quote's own `text` for their own, different
+    reasons."""
+    if rec.get("record_type") == "quote":
+        return rec.get("modern_rendering") or ""
+    return all_text(rec)
+
+
 def _span_in_records(span: str, records: list[dict], *, window_words: int = 6) -> bool:
-    """Verbatim window-match (same shape as engine.m4.grounding's excerpt
-    check): a quoted span is grounded when a window of it appears verbatim
-    in a tagged record's own text."""
+    """Verbatim window-match: a quoted span is grounded when a window of
+    it appears verbatim in a tagged record's own text."""
     words = _normalize(span).split()
     if not words:
         return False
-    haystacks = [_normalize(all_text(r)) for r in records]
+    haystacks = [_normalize(_groundable_text(r)) for r in records]
     windows = (
         [" ".join(words)]
         if len(words) <= window_words
@@ -323,7 +348,7 @@ def verdict_for_sentence(
         markers = [f"figure-name:{sorted(figure_names & content_words(text))}"]
     cited_words: set[str] = set()
     for rec in tagged_records:
-        cited_words |= content_words(all_text(rec))
+        cited_words |= content_words(_groundable_text(rec))
 
     if not markers:
         if not tags:
@@ -397,8 +422,7 @@ def check_turn(
                  tagged record, or a tagged claim whose own sources don't
                  carry it
 
-    Citation-badge display stays engine.m4.grounding's job (excerpt match
-    gates decoration) - this check decides only what may stream at all.
+    This check decides only what may stream at all.
 
     tagged_text is backed off past any generation cut off mid-tag
     (_drop_truncated_tail) before it is split into sentences at all, the

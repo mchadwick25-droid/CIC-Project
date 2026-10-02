@@ -26,4 +26,4 @@ discovery_channel: 'Source Registry row 8; corpus map / cic/corpus-map/donatism.
 external_ids:
   don_source_registry_row: 8
 ---
-Antecedent tradition (corpus map role: antecedent, ruled 2026-08-26) for the traditio/lapsed-clergy theological background this schism reopens (Doc_01 SS5). Not independently re-collated this session.
+Antecedent tradition (corpus map role: antecedent) for the traditio/lapsed-clergy theological background this schism reopens (Doc_01 SS5). Not independently re-collated this session.

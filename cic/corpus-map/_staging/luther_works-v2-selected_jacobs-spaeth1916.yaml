@@ -5,7 +5,8 @@
 source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
 
 assignments:
-  - work: "A Treatise Concerning the Blessed Sacrament of the Holy and True
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-blessed-sacrament-of-the-holy-and
+    work: "A Treatise Concerning the Blessed Sacrament of the Holy and True
       Body of Christ, and Concerning the Brotherhoods"
     author: luther
     locus: "lines ~80-1040"
@@ -18,7 +19,8 @@ assignments:
       that predates the fuller argument in the Babylonian Captivity (this
       same volume).
 
-  - work: "A Treatise Concerning the Ban"
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-ban
+    work: "A Treatise Concerning the Ban"
     author: luther
     locus: "lines ~1040-1787"
     atlas_ids:
@@ -29,7 +31,8 @@ assignments:
       1520 treatise on excommunication - Luther's own case against the
       papacy's use of the ban as a political weapon.
 
-  - work: "An Open Letter to the Christian Nobility of the German Nation,
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--an-open-letter-to-the-christian-nobility-of-the-german
+    work: "An Open Letter to the Christian Nobility of the German Nation,
       Concerning the Reform of the Christian Estate"
     author: luther
     locus: "lines ~1787-6323"
@@ -42,7 +45,8 @@ assignments:
       volume carries - the direct political/ecclesiological appeal to the
       German princes, addressed to Nicholas von Amsdorf.
 
-  - work: "A Prelude on the Babylonian Captivity of the Church (incl. the
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-prelude-on-the-babylonian-captivity-of-the-church-incl-the
+    work: "A Prelude on the Babylonian Captivity of the Church (incl. the
       sections on the sacraments of the Bread, Baptism, Penance, and Extreme
       Unction)"
     author: luther
@@ -58,7 +62,8 @@ assignments:
       load-bearing doctrinal text in either volume for this world's own
       Eucharistic and sacramental register.
 
-  - work: "A Treatise on Christian Liberty, with a Letter to Pope Leo X"
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-on-christian-liberty-with-a-letter-to-pope-leo-x
+    work: "A Treatise on Christian Liberty, with a Letter to Pope Leo X"
     author: luther
     locus: "lines ~11013-13100"
     atlas_ids:
@@ -71,7 +76,8 @@ assignments:
       own words, with the (by-then largely rhetorical) covering letter to
       Leo X.
 
-  - work: "A Brief Explanation of the Ten Commandments, the Creed, and the
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-brief-explanation-of-the-ten-commandments-the-creed-and
+    work: "A Brief Explanation of the Ten Commandments, the Creed, and the
       Lord's Prayer"
     author: luther
     locus: "lines ~13133-14403"
@@ -85,7 +91,8 @@ assignments:
       catechism_smith1994.txt) - the same three-part structure a decade
       earlier and in Luther's own more discursive, pre-catechism voice.
 
-  - work: "The Eight Wittenberg Sermons"
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--the-eight-wittenberg-sermons
+    work: "The Eight Wittenberg Sermons"
     author: luther
     locus: "lines ~14403-15815"
     atlas_ids:
@@ -96,16 +103,13 @@ assignments:
       1522, preached on Luther's own return to Wittenberg from the Wartburg
       to check the Karlstadt-led unrest - Luther's own spoken, pastoral
       register, addressed directly to his own congregation rather than a
-      treatise audience. LOCUS CORRECTED 2026-09-25 (was "~14403-end"): the
-      volume does not end there - "That Doctrines of Men Are to Be
+      treatise audience. This work ends at line 15815:
+      "That Doctrines of Men Are to Be
       Rejected" (below) begins at line 15816 and runs to 16824, followed
-      by an INDEX to true file end (16825-18280). The open-ended "-end"
-      was provably wrong once that neighboring work was independently
-      confirmed against the vendored file this pass; corrected here rather
-      than left overlapping the new entry below. Disclosed as a found
-      defect, not a silent edit.
+      by an INDEX to true file end (16825-18280).
 
-  - work: "That Doctrines of Men Are to Be Rejected, together with a Reply
+  - row_id: luther_works-v2-selected_jacobs-spaeth1916--that-doctrines-of-men-are-to-be-rejected-together-with-a
+    work: "That Doctrines of Men Are to Be Rejected, together with a Reply
       to Texts Quoted in Defence of the Doctrines of Men"
     author: luther
     locus: "lines ~15816-16824"
@@ -118,11 +122,11 @@ assignments:
       not human tradition, binds conscience (interpretation gravity),
       written at the prompting of his Wartburg host Hans von Berlepsch.
       Closes the gap witt_Source_Registry.md's R16 flagged as "Not in the
-      corpus-map" (2026-09-25 pass): the map's prior Sermons locus
+      corpus-map": the map's prior Sermons locus
       "~14403-end" silently swallowed this work rather than bounding it.
       Heading (15816), introduction (15825-15885), and the work's own end
       (16824, immediately before the volume's INDEX at 16825) confirmed
-      directly against the vendored file this pass - a firmer boundary
+      directly against the vendored file - a firmer boundary
       than the registry's own "introduction read, text not" note implies
       for the locus itself, though body-text wording beyond the
       introduction remains B-tier (not individually re-verified).

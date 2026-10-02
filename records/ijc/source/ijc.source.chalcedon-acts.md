@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf214-councils); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf214"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: "The Fourth Ecumenical Council. The
 Council of Chalcedon" at file line 18936; "The Definition of Faith of
 the Council of Chalcedon" at 20185; Canon XXVIII at 22215; session

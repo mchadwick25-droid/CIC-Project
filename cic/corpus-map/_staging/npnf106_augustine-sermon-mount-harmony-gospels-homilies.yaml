@@ -11,7 +11,8 @@ source_file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
 # not itself part of the corpus.
 
 assignments:
-  - work: "Our Lord's Sermon on the Mount (De sermone Domini in monte)"
+  - row_id: npnf106_augustine-sermon-mount-harmony-gospels-homilies--our-lord-s-sermon-on-the-mount-de-sermone-domini-in-monte
+    work: "Our Lord's Sermon on the Mount (De sermone Domini in monte)"
     author: augustine
     locus: "div1 5 — Our Lord's Sermon on the Mount (2 books)"
     atlas_ids:
@@ -22,7 +23,8 @@ assignments:
       c. 394, early exegetical treatise on Matthew 5-7, written as a
       presbyter at Hippo. Squarely his own entry's material.
 
-  - work: "The Harmony of the Gospels (De consensu evangelistarum)"
+  - row_id: npnf106_augustine-sermon-mount-harmony-gospels-homilies--the-harmony-of-the-gospels-de-consensu-evangelistarum
+    work: "The Harmony of the Gospels (De consensu evangelistarum)"
     author: augustine
     locus: "div1 6 — The Harmony of the Gospels (4 books)"
     atlas_ids:
@@ -35,7 +37,8 @@ assignments:
       Still Augustine speaking as the tradition, so role is tradition, not
       context — context is reserved for outsiders describing Christians.
 
-  - work: "Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)"
+  - row_id: npnf106_augustine-sermon-mount-harmony-gospels-homilies--sermons-on-selected-lessons-of-the-new-testament-sermones-ad
+    work: "Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)"
     author: augustine
     locus: "div1 7 — Sermons on Selected Lessons of the New Testament; a series of ~97 sermons (~308,000 words) assigned as one body per the granularity rule, not one work per sermon"
     atlas_ids:

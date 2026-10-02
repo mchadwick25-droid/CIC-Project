@@ -91,7 +91,6 @@ construction, with gravities 3 and 6 specifically, and neither force
 relation introduces a parallel tension-with edge that scoping does not
 contemplate.
 
-Step4: desert.story.pachomius-founding added as a reciprocal relation,
-per Step 4 Round 1 review Finding C9 - that story's own body already
-invoked this gravity's own contrast (office-based Rule against
-person-based elder authority) without a declared relation.
+desert.story.pachomius-founding is declared as a reciprocal relation:
+that story's own body invokes this gravity's own contrast (office-based
+Rule against person-based elder authority).

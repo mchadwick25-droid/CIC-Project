@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription carries in-line markers ('~1~' for a footnote, '~' for a space) which are not reproduced; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. THIS IS A LOCUS CORRECTION: syr.dw.born-again-endtimes cites Demonstration VI for 'the second birth; the Spirit received in baptism', and VI (Of Monks) does not carry it. It stands in VII, in this world's other vendored Aphrahat file.
+    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription carries in-line markers ('~1~' for a footnote, '~' for a space) which are not reproduced; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. The passage stands in Demonstration VII (On Penitents), sec. 20, not VI (Of Monks): syr.dw.born-again-endtimes's own citation of Demonstration VI for 'the second birth; the Spirit received in baptism' names the wrong locus.
 sources:
 - source_id: syr.source.aphrahat-demonstrations-hallock
   locus: >-
@@ -47,21 +47,20 @@ relations:
 - type: associated-with
   target: syr.dw.born-again-endtimes
 ---
-Opened 2026-08-27 for F4-T, the second of two for this cell, and a locus corrected rather than
-copied. syr.dw.born-again-endtimes cites Demonstration VI twice for the baptism material; VI is Of
-Monks and carries the covenant teaching, not this. The passage the record describes is at VII.20, in
-syr.source.aphrahat-demonstrations-hallock - a source this world already holds and this record was not
-citing.
+This is the second of two quote records for F4-T. The passage is at
+Demonstration VII.20, in syr.source.aphrahat-demonstrations-hallock -
+not Demonstration VI (Of Monks), which carries the covenant teaching,
+not this.
 
-Quote-verbatim gate fix (2026-09-22): the record's own quotation opened with a quote mark it never
-closed, silently dropping the third parallel clause of the preachers' own warning ("And he who loves
-possessions let him turn back...") - the exact clause modern_lens_note below already describes
-("anyone attached to property should leave the line"). Restored through the source's own closing
-quotation mark; modern_rendering extended to match. The record still cannot verify past "God" earlier
-in the same sentence: the source's own footnote marker there ("God~1~before") uses this edition's
-tilde convention (disclosed above), which the gate doesn't currently strip - flagged for Mark alongside
-the other footnote/pagination-apparatus findings in this PR.
+The record's quotation carries the preachers' warning through all three
+parallel clauses, closing with the source's own closing quotation mark;
+modern_rendering matches. The record cannot verify the text past "God"
+earlier in the same sentence: the source's own footnote marker there
+("God~1~before") uses this edition's tilde convention (disclosed above),
+which is not reproduced.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+modern_rendering is a modern-English translation of this record's own
+text field, not a summary; the original wording stays as this record's
+text and is shown at Level 3. Nothing is added from the source beyond
+what this record's own text field carries. The rendering keeps short
+sentences and everyday words, with translation fidelity kept.

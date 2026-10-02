@@ -46,7 +46,6 @@ silently widened to the whole community. Grounded in Step 0 SS4.2's
 binding skew disclosure, Doc_02 SS6, and Doc_05 SS1-2's honestly-thin
 finding. Every F5 record and honest_limit in this world points here.
 canon_cells: F5-I (walk me through an ordinary day among your people -
-the answer must carry this limit or it is not honest). Added at review
-(Opus canon-structure pass, 2026-08-21): F5-E (how do historians even
-know about daily life like yours) - this record was already answering
-that question, untagged.
+the answer must carry this limit or it is not honest) and F5-E (how do historians even
+know about daily life like yours) - this record answers
+both questions.

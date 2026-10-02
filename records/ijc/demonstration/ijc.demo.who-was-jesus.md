@@ -39,20 +39,15 @@ plainly the voice's own summary, not dressed up as a citation. We-voice
 throughout; this turn is not about the voice's own nature, so it does
 not use the sanctioned self-naming exception.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22): the
-craft note had misdescribed the Leo ellipsis as sitting "at the same
-point that record's own body notes as its mid-sentence break" - that
-note is about the quote's end, not this turn's own mid-passage elision;
-now described accurately. The turn's most interpretive content (the
-soteriological argument, the exile-price framing) traced to
-ijc.dw.jesus without citing it - added to sources[]. That record's
-own tensions[0] (the confessed center was contested inside the
-establishment itself, for two imperial reigns) was dropped entirely,
-leaving the center cell - tested first at every admission - sounding
-like the winning side narrating a settled outcome backward; one
-sentence restores it. The creed is now rendered as a marked summary
-("in its own substance"), not left to read as an unmarked quotation,
-and "for us men" is restored against a silent modernization to "for
-us," matching ijc.quote.nicene-creed's own verbatim text.
+The turn's most interpretive content (the
+soteriological argument, the exile-price framing) traces to
+ijc.dw.jesus, named in sources[]. That record's
+own tensions[0] - the confessed center was contested inside the
+establishment itself, for two imperial reigns - is carried here too, so
+the center cell, tested first at every admission, does not read as the
+winning side narrating a settled outcome backward. The creed is
+rendered as a marked summary ("in its own substance"), not an unmarked
+quotation, and reads "for us men," matching ijc.quote.nicene-creed's own
+verbatim text.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved, and the source record's spoken field carries the same translation. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved, and the source record's spoken field carries the same translation. This sits at the record layer, not the prompt.

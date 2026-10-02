@@ -3,7 +3,8 @@
 source_file: zwingli_latin-works-correspondence-vol3_heller1929.txt
 
 assignments:
-  - work: "The Latin Works of Huldreich Zwingli, Vol. III (\"De Vera et
+  - row_id: zwingli_latin-works-correspondence-vol3_heller1929--the-latin-works-of-huldreich-zwingli-vol-iii-de-vera-et
+    work: "The Latin Works of Huldreich Zwingli, Vol. III (\"De Vera et
       Falsa Religione\" / Of True and False Religion, and the Antibolon)"
     author: zwingli
     locus: "whole file"

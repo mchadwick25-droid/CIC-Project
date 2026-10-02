@@ -4,8 +4,7 @@
  * not `position: absolute` inside the trigger's own DOM position: the
  * transcript column scrolls (`.conversation__transcript`'s overflow-y:
  * auto also computes overflow-x: auto per the CSS spec), which clips an
- * absolutely-positioned descendant that extends past its box - a real
- * bug caught by actually opening this in a browser, not a hypothetical.
+ * absolutely-positioned descendant that extends past its box.
  * `fixed` positioning escapes that clip (its containing block is the
  * viewport, not the scrolling ancestor). `anchor` is the trigger's own
  * getBoundingClientRect(), measured by InlineBridge, so this only has to

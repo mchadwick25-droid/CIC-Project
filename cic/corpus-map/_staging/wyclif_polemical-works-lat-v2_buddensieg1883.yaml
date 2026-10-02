@@ -1,7 +1,8 @@
 source_file: wyclif_polemical-works-lat-v2_buddensieg1883.txt
 
 assignments:
-  - work: "John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)"
+  - row_id: wyclif_polemical-works-lat-v2_buddensieg1883--john-wiclif-s-polemical-works-in-latin-vol-ii-wyclif-society
+    work: "John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)"
     author: wyclif
     locus: "whole volume"
     atlas_ids:
@@ -13,5 +14,4 @@ assignments:
       Wyclif Society) - Latin original, not a second witness to an
       English translation, since these are separate Latin-only works.
       Confirms this world's own Source Readiness Dossier §3 lead is real
-      and PD. Vendored 2026-09-25 as part of a pre-Doc_02
-      source-acquisition pass for lollardy.
+      and PD.

@@ -3,7 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-reformed-cities-zurich-and-geneva
 works:
-- work: The Second Helvetic Confession (1566)
+- row_id: beza_job-expounded_legatt1589--job-expounded-by-theodore-beza-partly-in-manner-of-a
+  work: 'Job Expounded by Theodore Beza: Partly in Manner of a Commentary, Partly in Manner
+    of a Paraphrase; Faithfully Translated out of Latine into English'
+  author: beza
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Theodore Beza''s own direct voice - a commentary/paraphrase on the Book of Job, opening
+    with his own dedicatory epistle to Queen Elizabeth I, in a 1589 English translation (translator
+    not named on this edition''s own title page). A partial closure of Manifest G4: does not
+    itself supply Beza''s own letters or the Tabula praedestinationis (1555), which remain
+    unacquired. This edition''s OCR consistently misreads the period''s long s as "f" (e.g.
+    "faluation" for "salvation") - a disclosed artifact of this specific scan, not corrected
+    in the vendored file per this corpus''s standing practice for raw OCR.
+
+    '
+  source_file: beza_job-expounded_legatt1589.txt
+- row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566
+  work: The Second Helvetic Confession (1566)
   author: bullinger
   locus: Sec. 55 of the source volume (original pp. 390-421)
   role: tradition
@@ -15,7 +33,8 @@ works:
 
     '
   source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
-- work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
+- row_id: calvin_commentaries-genesis-vol1_king1847--commentaries-on-the-first-book-of-moses-called-genesis-vol-i
+  work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
   author: calvin
   locus: whole file - Vol. I
   role: tradition
@@ -30,7 +49,8 @@ works:
 
     '
   source_file: calvin_commentaries-genesis-vol1_king1847.txt
-- work: Commentaries on the First Book of Moses, Called Genesis, Vol. II
+- row_id: calvin_commentaries-genesis-vol2_king1847--commentaries-on-the-first-book-of-moses-called-genesis-vol
+  work: Commentaries on the First Book of Moses, Called Genesis, Vol. II
   author: calvin
   locus: whole file - Vol. II
   role: tradition
@@ -40,7 +60,8 @@ works:
 
     '
   source_file: calvin_commentaries-genesis-vol2_king1847.txt
-- work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
+- row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-of-the-christian-religion-book-i-of-the-knowledge
+  work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
   author: calvin
   locus: whole file - Book First
   role: tradition
@@ -51,7 +72,8 @@ works:
 
     '
   source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
-- work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which
+- row_id: calvin_institutes-christian-religion-vol3_beveridge1845--institutes-of-the-christian-religion-book-iv-of-the-external
+  work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which
     God Invites Us into the Society of Christ, and Keeps Us in It)
   author: calvin
   locus: whole file - Book Fourth
@@ -62,7 +84,8 @@ works:
 
     '
   source_file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
-- work: Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer;
+- row_id: calvin_institutes-christian-religion-vol2_beveridge1845--institutes-of-the-christian-religion-books-ii-iii-of-the
+  work: Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer;
     Of the Mode of Obtaining the Grace of Christ)
   author: calvin
   locus: whole file - Book Second through Book Third
@@ -74,7 +97,8 @@ works:
 
     '
   source_file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
-- work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
+- row_id: calvin_letters-vol1_bonnet1858--letters-of-john-calvin-compiled-from-the-original
+  work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
     Notes, Vol. I
   author: calvin
   locus: whole file - Vol. I
@@ -86,11 +110,12 @@ works:
     distinct from its systematic-theological one. Vols. I, II, and IV of the 4-volume set
     are vendored; Vol. III could not be located on archive.org under this identifier family,
     the parallel 1855-57 Edinburgh/Constable printing, or Project Gutenberg (which holds only
-    Vols. I-II) - a genuinely open gap.
+    Vols. I-II), so Vol. III is absent from the vendored set.
 
     '
   source_file: calvin_letters-vol1_bonnet1858.txt
-- work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
+- row_id: calvin_letters-vol2_bonnet1858--letters-of-john-calvin-compiled-from-the-original
+  work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
     Notes, Vol. II
   author: calvin
   locus: whole file - Vol. II
@@ -100,7 +125,8 @@ works:
 
     '
   source_file: calvin_letters-vol2_bonnet1858.txt
-- work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
+- row_id: calvin_letters-vol4_bonnet1858--letters-of-john-calvin-compiled-from-the-original
+  work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
     Notes, Vol. IV
   author: calvin
   locus: whole file - Vol. IV
@@ -115,7 +141,25 @@ works:
 
     '
   source_file: calvin_letters-vol4_bonnet1858.txt
-- work: The Catechism of the Church of Geneva
+- row_id: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735--ordonnances-ecclesiastiques-de-l-eglise-de-geneve-1576
+  work: Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)
+  author: calvin
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'The Genevan ecclesiastical constitution itself, licensing Doc_01''s Authority-structure
+    strand directly from primary text rather than general knowledge. This 1735 printing carries
+    the 1576 Council revision, not Calvin''s own original 1541/1561 wording verbatim - the
+    same living document in continuous institutional use, and a genuine PD alternative after
+    two other candidates (Schaff''s HCC8 paraphrase; a 1977 in-copyright translation) were
+    checked and rejected by the build thread itself. Bears directly on Doc_04''s Consistorial
+    Discipline gravity, currently classified Supporting and flagged for re-test once this
+    or a G3 source landed.
+
+    '
+  source_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
+- row_id: calvin_geneva-catechism_waterman1815--the-catechism-of-the-church-of-geneva
+  work: The Catechism of the Church of Geneva
   author: calvin
   locus: whole file
   role: tradition
@@ -125,7 +169,8 @@ works:
 
     '
   source_file: calvin_geneva-catechism_waterman1815.txt
-- work: Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)
+- row_id: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844--mutual-consent-in-regard-to-the-sacraments-the-consensus
+  work: Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554)
   author: calvin-zurich-pastors
   locus: whole file
   role: tradition
@@ -141,7 +186,74 @@ works:
 
     '
   source_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
-- work: The Heidelberg Catechism (1563)
+- row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-2
+  work: Confessio Christianae fidei (Latin), Cyril Lucaris
+  author: lucaris
+  locus: the Confession of Faith from about file line 367 to 2360; publisher's prefaces at
+    lines 39-150
+  role: context
+  confidence: provisional
+  note: Lucaris's Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine;
+    whether Lucaris himself was a Calvinist is disputed, and the Orthodox synods of 1638-72
+    condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
+    that overlaps Reformed teaching, never as the Reformed cities' own voice.
+  source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confession-of-cyril-lucaris-greek-with-latin-2
+  work: Confession of Cyril Lucaris (Greek with Latin)
+  author: lucaris
+  locus: from about file line 5636 (running heads 'Cyrilli Confessio') to about 7838
+  role: context
+  confidence: provisional
+  note: Lucaris's Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine;
+    whether Lucaris himself was a Calvinist is disputed, and the Orthodox synods of 1638-72
+    condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
+    that overlaps Reformed teaching, never as the Reformed cities' own voice.
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lettres-anecdotes-de-cyrille-lucar-et-sa-confession-de-foi-2
+  work: Lettres anecdotes de Cyrille Lucar ... et sa confession de foi, avec des remarques
+    (Amsterdam, 1718)
+  author: lucaris
+  locus: 'table of contents at file lines 55-80: the first letter (page 1, file line 903)
+    is addressed to the Republic of Geneva and its pastors, doctors and professors; the second
+    to Diodati, professor of theology at Geneva; further letters to Archbishop Abbot of Canterbury,
+    to Leger (Reformed pastor at Galata) and to Uytenbogaert (pastor at The Hague)'
+  role: context
+  confidence: assigned
+  note: 'Verified against the file''s own table of contents: these are Lucaris''s own letters
+    to the Genevan authorities and to Diodati at Geneva, so they document the Orthodox patriarch''s
+    contact with the Reformed city directly. Context, not the Reformed cities'' voice: the
+    writer is the Patriarch. The volume was edited in 1718 with hostile remarks by a Roman
+    Catholic-leaning editor; the remarks are 18th-century polemic, not evidence.'
+  source_file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
+- row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--the-confession-of-cyril-lucar-eighteen-chapters-and-four-2
+  work: The Confession of Cyril Lucar (eighteen chapters and four questions), as printed in
+    Robertson's appendix
+  author: lucaris
+  locus: Appendix from file line 6841, the Confession from 6845, Chapter I at 6868, Chapter
+    XVIII at 7751
+  role: context
+  confidence: provisional
+  note: Lucaris's Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine;
+    whether Lucaris himself was a Calvinist is disputed, and the Orthodox synods of 1638-72
+    condemned it as Calvinist. Placed as the view from an Orthodox patriarch's confession
+    that overlaps Reformed teaching, never as the Reformed cities' own voice. English version,
+    with Robertson's own Orthodox refutation printed beside it.
+  source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562--les-pseaumes-mis-en-rime-francoise-the-genevan-psalter
+  work: Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)
+  author: marot-beze
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'The Genevan congregation''s own sung liturgy - licenses Doc_01''s Practice strand
+    directly from primary text. The exact complete 1562 edition Doc_01 itself named but had
+    not yet actively searched for. A metrical psalter meant to be sung, not a prose Bible
+    translation; no English equivalent exists or is expected.
+
+    '
+  source_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
+- row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563
+  work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus
   locus: Sec. 69 of the source volume (original pp. 529-554)
   role: tradition
@@ -152,7 +264,8 @@ works:
 
     '
   source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
-- work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical
+- row_id: zwingli_selected-works_jackson1901--selected-works-letter-to-erasmus-the-petition-to-the-bishop
+  work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical
     marriage; the Acts of the First and Second Zurich Disputations; the 1527 Refutation of
     the Tricks of the Baptists; and other shorter writings)
   author: zwingli
@@ -168,7 +281,8 @@ works:
 
     '
   source_file: zwingli_selected-works_jackson1901.txt
-- work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I (early treatises
+- row_id: zwingli_latin-works-correspondence-vol1_jackson1912--the-latin-works-and-the-correspondence-of-huldreich-zwingli
+  work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I (early treatises
     and letters)
   author: zwingli
   locus: whole file
@@ -180,7 +294,8 @@ works:
 
     '
   source_file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
-- work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of
+- row_id: zwingli_latin-works-correspondence-vol3_heller1929--the-latin-works-of-huldreich-zwingli-vol-iii-de-vera-et
+  work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of
     True and False Religion, and the Antibolon)
   author: zwingli
   locus: whole file
@@ -195,7 +310,8 @@ works:
 
     '
   source_file: zwingli_latin-works-correspondence-vol3_heller1929.txt
-- work: The Sixty-Seven Articles of Zwingli (1523)
+- row_id: zwingli_selected-works_jackson1901--the-sixty-seven-articles-of-zwingli-1523
+  work: The Sixty-Seven Articles of Zwingli (1523)
   author: zwingli
   locus: lines ~4485-4700, embedded within the Acts of the First Zurich Disputation
   role: tradition

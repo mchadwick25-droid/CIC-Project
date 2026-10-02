@@ -2,7 +2,8 @@
 # AUTHORS.md's `julian`.
 source_file: julian_letters-1-73_wright1923.txt
 assignments:
-- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+- row_id: julian_letters-1-73_wright1923--letters-1-73-incl-letter-36-rescript-on-christian-teachers
+  work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
   author: julian
   locus: whole file (Loeb pp. 2-235); Letter 36 is the Rescript on Christian
     Teachers specifically
@@ -15,7 +16,8 @@ assignments:
     example. Letter 36 is an actual imperial rescript - law, not
     polemic - making the imperial-juridical entry the clearest single
     home for it.
-- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+- row_id: julian_letters-1-73_wright1923--letters-1-73-incl-letter-36-rescript-on-christian-teachers-2
+  work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
   author: julian
   locus: whole file; Letter 36 specifically
   atlas_ids:

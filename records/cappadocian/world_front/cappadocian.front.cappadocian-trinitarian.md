@@ -359,12 +359,9 @@ narrative:
   - cappadocian.term.hesychia
   - cappadocian.term.philoptochia
 ---
-Authored 2026-09-20: the cappadocian `world_front` record, the third
-world in the fleet-wide `world_front` rollout following the two-world
-pilot (desert-monasticism, syriac-edessa-nisibis; Website V2 world_front
-design, approved to proceed 2026-09-19). Covers `skim`, `orientation`,
-and `narrative` only, per the pilot's own scope; `facilitator_brief` is a
-separate, later record this pass does not build.
+This `world_front` record covers `skim`, `orientation`, and `narrative`
+only, per this record type's own scope; `facilitator_brief` is a
+separate record.
 
 WORLD KEY - a real divergence from both pilots, checked and confirmed
 directly rather than assumed. `records/worlds/cappadocian.yaml`
@@ -514,28 +511,18 @@ conflation risk this project has already been burned by once. This is a
 deliberate scope narrowing, flagged here as a judgment call rather than
 a silent omission.
 
-CROSS-RECORD CONSISTENCY CHECK (the desert pilot's own flagged pitfall).
-Every record cited above was checked against its own `relations[]`
-siblings for drift before use. Specifically: `cappadocian.figure.
-eustathius`'s own body note (a documented "NUMBERING-DRIFT CORRECTION")
-was read in full to confirm the CURRENT gravity numbering
-(`cappadocian.gravity.precision-reserve`, `cappadocian.gravity.
-renunciation-order`) rather than a stale pre-revision reference - no
-drift found, the correction is already applied fleet-side in the actual
-record I read. `cappadocian.dw.was-jesus-god` and `cappadocian.dw.
-who-was-jesus` were each checked against their own cited `quote` and
+Every record cited above is consistent with its own `relations[]`
+siblings. `cappadocian.figure.eustathius`'s own body note confirms the
+current gravity numbering (`cappadocian.gravity.precision-reserve`,
+`cappadocian.gravity.renunciation-order`). `cappadocian.dw.was-jesus-god`
+and `cappadocian.dw.who-was-jesus` each match their own cited `quote` and
 `term` siblings (`cappadocian.quote.ousia-and-hypostasis`,
-`cappadocian.quote.gregory-nyssa-on-becoming-god`) for wording agreement
-- both dw records' own atonement/theosis paraphrases match what the
-quote records' own `modern_rendering` fields actually say, no divergence
-found. `cappadocian.contested.settlement-historiography` and
-`cappadocian.dw.catholic-and-its-rivals` were checked against each other
-(the dw record's own `tensions` field explicitly imports the contested
-claim's own `held_against` material) - consistent, not drifted. NO
-CROSS-RECORD CONTRADICTION WAS FOUND. Nothing here rose to the
-escalation-worthy "sibling record still voices a corrected-away clause"
-category desert's own `Open_Gaps_Tracking.md` documents three times; this
-is reported as a clean check, not a silent skip.
+`cappadocian.quote.gregory-nyssa-on-becoming-god`) in wording - both dw
+records' own atonement/theosis paraphrases match what the quote records'
+own `modern_rendering` fields actually say. `cappadocian.contested.
+settlement-historiography` and `cappadocian.dw.catholic-and-its-rivals`
+are consistent with each other (the dw record's own `tensions` field
+imports the contested claim's own `held_against` material).
 
 DOCUMENTED_STORIES MIGRATION - matches syriac's own finding, not
 desert's. `atlas-v3.html`'s cappadocian `documentedStories` array holds

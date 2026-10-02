@@ -52,7 +52,7 @@ relations:
 - type: associated-with
   target: desert.term.anachoresis
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Verified verbatim against the vendored file.
 
 Short, and kept short deliberately: what she actually says is one
 sentence, and padding it with Palladius' surrounding narration would

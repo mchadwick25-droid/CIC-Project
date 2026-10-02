@@ -37,33 +37,20 @@ relations:
   target: desert.dw.only-true-religion
 ---
 Palladius ch. XXII (Paul the Simple), verified directly against the
-vendored file this session - not present in the original Step 4 draft,
-added per Step 4 Round 1 review Finding S1, which found this exact
-material falsifying a since-removed honest_limit's claim that "marriage
-is simply not a subject we speak to." The removed record's own claim
-was checked against the whole vendored Palladius file and found false
-at chs. VIII, XXII, XLIV, LXI and LXVI; this record answers the one
-sub-question (a marriage ending) the corpus can answer well, from the
-strongest single instance, and does not extend past it.
+vendored file. This chapter falsifies a claim that "marriage is simply
+not a subject we speak to," checked against the whole vendored
+Palladius file at chs. VIII, XXII, XLIV, LXI and LXVI; this record
+answers the one sub-question (a marriage ending) the corpus can answer
+well, from the strongest single instance, and does not extend past it.
 
-Step4, Round 2 review Finding S2: the record deleted for this cell's
-other two questions (born-again/outsiders framing) has been restored in
-narrowed form, so this cell now carries both a substantive answer and
-an honest limit. Finding M12: divergence_note previously called ch.
-XXII "Palladius's own written account" without noting the chapter's own
-opening line names Cronius and Hierax as Palladius's informants -
-corrected to state the third-hand chain explicitly.
-
-Step4, Round 3 review Finding M1: Round 2's C5 fix ("a perfect soul,"
-"guileless and simple") had been applied to the sibling record built
-from this same chapter (desert.dw.someone-like-me) and not swept
-here - "as pure a soul as any who came to us" (a comparative ch. XXII
-does not make) and "uneducated" (restating "guileless and simple"
-imprecisely) both corrected above to the source's own words. Finding
-M2: Round 2's M9 named this record specifically as missing Palladius's
-own AUTHOR GRAVITY caution - added to divergence_note. The honest_limit
-this record's own tensions field pointed to has since been split: the
-condemnation question is desert.limit.outsiders-condemned, and the
-one-true-way question is answered substantively by the new
-desert.dw.only-true-religion (Round 3 Finding S1) - both updated
-above.
+This cell's other two questions (born-again/outsiders framing) are
+carried in narrowed form, so this cell carries both a substantive
+answer and an honest limit. divergence_note states the third-hand
+chain explicitly: the chapter's own opening line names Cronius and
+Hierax as Palladius's informants, and Palladius's own AUTHOR GRAVITY
+caution is carried. The text uses the source's own words ("a perfect
+soul," "guileless and simple") rather than a comparative ch. XXII does
+not make. The honest_limit this record's own tensions field points to
+is split: the condemnation question is desert.limit.outsiders-condemned,
+and the one-true-way question is answered substantively by
+desert.dw.only-true-religion.

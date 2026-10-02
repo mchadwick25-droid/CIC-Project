@@ -224,7 +224,7 @@ def test_illegal_twice_falls_back():
     assert len(outcomes) == 2
 
 
-# --- engages: a return turn's own scoped engagement target (2026-09-05,
+# --- engages: a return turn's own scoped engagement target (a
 # structural fix for a repeat "closes on a full-table synthesis" failure -
 # see engine.api.table_wiring._table_engagement_directive's own docstring
 # for the live case that drove it). A first-time speaker never carries
@@ -257,7 +257,7 @@ def test_resolve_engages_directly():
 
 
 def test_forced_move_return_resolves_engages_to_the_last_speaker():
-    """A forced move (2026-08-28) never asks the model, but the return it
+    """A forced move never asks the model, but the return it
     forces still needs a scoped engagement target - at a 2-seat table the
     only other voice already IS the one it just heard from."""
     client = FakeSelectorClient([])

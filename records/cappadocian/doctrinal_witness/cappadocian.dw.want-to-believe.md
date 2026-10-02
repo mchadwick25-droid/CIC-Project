@@ -65,4 +65,4 @@ pattern, not a first-person testimony of doubt from inside the
 congregation, which world_core's own AUTHOR GRAVITY caution already names
 as a structural feature of this world's whole record.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-against-eunomius-ant, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed. (An earlier draft of this cross-reference pointed at cappadocian.quote.basil-address-to-young-men-on-learning; an independent adversarial review found that quote did not actually back this dw's own claim, so it was replaced with a genuinely on-topic passage from Basil's Letter XVI, "Against Eunomius the heretic.")
+This record cross-references the verbatim quote record cappadocian.quote.basil-against-eunomius-ant, a genuinely on-topic passage from Basil's Letter XVI, "Against Eunomius the heretic."

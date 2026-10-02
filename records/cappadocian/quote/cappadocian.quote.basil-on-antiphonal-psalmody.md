@@ -61,7 +61,7 @@ modern_rendering: >-
   heart, raise the psalm of confession to the Lord. Each one forms his own expressions of
   penitence.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "antiphonal"
 cic/texts/npnf208_basil-letters-select-works.xml` returns two hits;
 the relevant one is line 37292 ("into two parts, they sing
@@ -121,6 +121,4 @@ cappadocian.core.cappadocian's own field); this quote is a concrete,
 first-person description of the practice the claim is generalizing
 from.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
-English translation, never the archaic original; the original stays
-as the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

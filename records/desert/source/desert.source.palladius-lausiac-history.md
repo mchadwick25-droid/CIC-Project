@@ -28,19 +28,17 @@ attribution_status: attributed
 discovery_channel: "carried from the prior Desert build's cleared Doc_02 SS2.1 (srcDES007) and from alx.source.palladius-lausiac-history (world/alexandria), whose own bound reserved the received desert accounts for this world's question; rights read from the file's own prepended provenance header"
 external_ids: {}
 ---
-Rights verified 2026-08-21 from the file's own prepended header ("Rights:
+Rights verified from the file's own prepended header ("Rights:
 Public Domain"). Cellia nine-years statement verified at file line 295
 ("I sojourned in this Cellia nine years"); Pachomius chapter (XXXII, the
 angel's brass-tablet rule account) at lines 397-399ff; Arsisius-knew-
 Pachomius testimony at line 227.
 
-Confidence correction (Step2 Review Round 1, Finding 2): a first draft
-rated formation_confidence Documented; the cleared Doc_02 SS2.1/SS9
-rates the work Widely Accepted as to authorship, approximate date, and
-general content, and holding the vendored Clarke file documents the
-EDITION, not the fourth-century facts. Reverted to Widely Accepted to
-match Doc_02, unmarked upgrades being exactly what the cross-document
-consistency rule exists to prevent.
+formation_confidence is Widely Accepted as to authorship, approximate
+date, and general content, matching Doc_02 SS2.1/SS9: holding the
+vendored Clarke file documents the EDITION, not the fourth-century
+facts, so the confidence stays with what the cleared assessment
+supports rather than what the file's own presence might suggest.
 
 Division of labor with the Alexandria build: alx bounded its use of this
 file to personally-witnessed Alexandria-adjacent material and reserved
@@ -53,7 +51,7 @@ history including an expanded Latin recension; Clarke translates the
 shorter Greek text as critically established (Butler); not independently
 re-adjudicated here.
 
-SECOND WITNESS VENDORED 2026-08-27:
+SECOND WITNESS VENDORED:
 cic/texts/palladius_paradise-v1-syriac_budge1907.txt - Palladius Book I
 in the SYRIAC recension Budge copied at Mosul in 1888, alongside the
 Greek-based Clarke translation this record already names. Where the two

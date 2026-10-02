@@ -38,7 +38,7 @@ relations:
 - type: associated-with
   target: hal.dw.apostolic
 ---
-Opened 2026-08-27 for F4-E. hal.dw.apostolic cites Letter XXII secs. 21 and 36 for the
+Opened for F4-E. hal.dw.apostolic cites Letter XXII secs. 21 and 36 for the
 scriptural precedents claimed for the ascetic life, and cites Against Jovinianus Book I for the
 same argument, and had no quote from either.
 

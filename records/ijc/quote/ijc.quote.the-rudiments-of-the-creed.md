@@ -40,10 +40,10 @@ relations:
 - type: associated-with
   target: ijc.term.tomus
 ---
-Opened 2026-08-27 for F2-T, served by ijc.term.tomus alone. The instrument ruled this NEEDS READING
+Opened for F2-T, served by ijc.term.tomus alone. The instrument ruled this NEEDS READING
 and was wrong: the record's locus is 'Ep. XXVIII (npnf212 line 5099)', which names a letter AND a line
 number. The classifier's specific-locus pattern had no case for 'Ep.' and none for a bare line
 reference, so it read one of the most precise loci in the corpus as vague.
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own space before a comma ("again ,") that
-the record had closed up. No wording changed.
+The text carries the source's own space before the comma ("again ,").
+No wording is changed.

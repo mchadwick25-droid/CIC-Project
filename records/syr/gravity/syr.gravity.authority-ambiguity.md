@@ -63,22 +63,17 @@ manifestations:
 - the succession's twenty-year vacancy under persecution - continuity itself fracturing
 classification: tensional
 ---
-Re-derived from Doc_04 C4 (Tensional). The honest test record is
+Classification (Doc_04 C4): Tensional. The honest test record is
 carried: FORMATION TEST FAIL (the evidence speaks to modern
-reconstruction difficulty, not to how the ambiguity was lived -
-Round 2's refusal to soften a fail into a 'weak pass'), and the
-sharpest Confidence/Gravity Cross-Check divergence in the set:
-underlying facts Widely Accepted-to-Documented, lived-experience
-claim Contested/Inferential-Thin - stated, never resolved by
-upgrading. TENSION-COVERAGE NOTE (for gate_tension_coverage): this
-Tensional gravity has NO tension-with relation, matching its own
-Interaction Matrix - the matrix records RESHAPING relations (C2, C6)
-and no competing/opposing-pole gravity; the opposing poles are
-internal to the ambiguity itself. Recording a tension-with here
-would fabricate a relation the approved Doc_04 never mapped - the
-same accepted shape as Alexandria's teacher-bishop-tension.
+reconstruction difficulty, not to how the ambiguity was lived), and
+the sharpest Confidence/Gravity Cross-Check divergence in the set:
+underlying facts Widely Accepted-to-Documented, lived-experience claim
+Contested/Inferential-Thin - stated, never resolved by upgrading. This
+Tensional gravity has no tension-with relation: the Interaction Matrix
+records RESHAPING relations (C2, C6) and no competing/opposing-pole
+gravity, since the opposing poles are internal to the ambiguity
+itself - the same shape as Alexandria's teacher-bishop-tension.
 Forces-connection: FRACTURED under persecution (the twenty-year
 vacancy) - carried with syr.force.shapur-persecution at the forces
-step. Step-5 open item honored: Doc_05 was asked to find lived
-evidence and the classification still stands on the documented
-condition.
+step. No lived evidence for the ambiguity has been found; the
+classification stands on the documented condition alone.

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: merovingian-gallic-christianity
 works:
-- work: Gennadius, Lives of Illustrious Men (continuation)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation
+  work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   role: tradition
@@ -15,7 +16,8 @@ works:
     kept as context: the direct continuation of Jerome''s literary project, not membership
     of his circle.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+- row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
+  work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: context
@@ -29,7 +31,8 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix-2
+  work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
   author: gregory
   locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books
     I-VIII)
@@ -44,7 +47,8 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- work: On Easter (De Pascha)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
+  work: On Easter (De Pascha)
   author: venantius
   locus: div1 4 — Venantius
   role: tradition

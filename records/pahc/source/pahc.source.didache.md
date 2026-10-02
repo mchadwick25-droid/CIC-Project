@@ -37,6 +37,5 @@ REPRESENTATIVENESS LIMIT, carried from Doc_02 SS1.1 and binding on every
 record citing this row: this reads as one community's church-order manual
 (plausibly Syrian); there is no evidence Rome or Asia Minor knew or used
 it. It must not be silently generalized to network-wide practice.
-Provenance (Syria vs. Egypt) unresolved. The prior build's verified quote
-pass (pahcq005, 2026-08-15/16, branch claude/table-voice-reset-nufsm4)
-already checked Didache 1:2 wording verbatim against this vendored file.
+Provenance (Syria vs. Egypt) unresolved. Didache 1:2 wording is checked
+verbatim against this vendored file.

@@ -44,27 +44,17 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---
-Text verified verbatim against the vendored file 2026-08-21. Corrected
-at review (Opus quote-fidelity pass, 2026-08-21): the edition's own
+Text verified verbatim against the vendored file. The edition's own
 square brackets within this quoted span, "[of God]" and "[united]",
 mark words supplied by the translator that are part of the printed
-Definition itself - kept here, brackets included, rather than silently
-unbracketed as the first-pass draft did. "[Person]" is a third
+Definition itself - kept here, brackets included. "[Person]" is a third
 editorial bracket in this same Definition, but it falls earlier in the
-paragraph, outside this record's quoted span, and was wrongly named
-here in the first-pass note as if it were inside it. The window's last
+paragraph, outside this record's quoted span. The window's last
 and fullest precision-work: four adverbs holding two natures in one
 Person - the settlement that received the Tome and did not, in the
-event, hold the whole church. Disclosed at a follow-up confirmation
-review (2026-08-22): this quote is truncated at "our Lord Jesus Christ"
-with a period substituted for the file's own comma, which continues
+event, hold the whole church. This quote is truncated at "our Lord Jesus Christ"
+with a trailing ellipsis, which continues
 "as the Prophets of old time have spoken concerning him, and as the
 Lord Jesus Christ hath taught us, and as the Creed of the Fathers hath
-delivered to us" - the truncation is defensible (the sentence's
-doctrinal core is complete); the undisclosed punctuation substitution
-was not.
-
-Quote-verbatim gate fix (2026-09-22): the punctuation substitution the review above flagged as
-needing a fix is corrected now - the invented period is replaced with a trailing ellipsis, honestly
-marking the truncation the review already judged defensible rather than presenting it as a real full
-stop.
+delivered to us" - the truncation is defensible: the sentence's
+doctrinal core is complete at that point.

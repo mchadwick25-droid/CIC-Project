@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: pneumatomachian-current
 works:
-- work: On the Holy Spirit (De Spiritu Sancto)
+- row_id: npnf210_ambrose--on-the-holy-spirit-de-spiritu-sancto-2
+  work: On the Holy Spirit (De Spiritu Sancto)
   author: ambrose
   locus: div2 4.2 — On the Holy Spirit
   role: context
@@ -16,7 +17,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf210_ambrose-select-works-letters.xml
-- work: De Spiritu Sancto (On the Holy Spirit)
+- row_id: npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit-2
+  work: De Spiritu Sancto (On the Holy Spirit)
   author: basil
   locus: div1 7 (~53,414 words), thirty chapters at div2 7.2-7.31
   role: context
@@ -29,7 +31,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf208_basil-letters-select-works.xml
-- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
+  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
   role: context
@@ -39,7 +42,8 @@ works:
     names, from their condemners. Each now has its own entry, and this work is the record
     of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: On the Holy Spirit (Against the Followers of Macedonius)
+- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius-2
+  work: On the Holy Spirit (Against the Followers of Macedonius)
   author: gregory_nyssa
   locus: txt heading at line 27918
   role: context
@@ -49,7 +53,8 @@ works:
     entry: this work describes that movement from outside rather than speaking as it, and
     the brief allows a built world to draw on floor material only as `register: etic`.'
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
-- work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
+- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to-2
+  work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
   author: gregory_nyssa
   locus: txt heading at line 28938
   role: context

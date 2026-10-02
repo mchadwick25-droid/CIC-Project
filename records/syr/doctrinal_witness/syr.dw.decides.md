@@ -61,4 +61,4 @@ F1-E built directly on the authority-ambiguity complex
 syr.contested.papa-primacy) - the ambiguity IS the answer, stated as
 the world's own condition.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

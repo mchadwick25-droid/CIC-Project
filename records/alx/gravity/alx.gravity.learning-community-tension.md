@@ -30,11 +30,7 @@ relations:
   target: alx.gravity.learning-formation
 - {type: illustrated-by, target: alx.quote.timothy-ordinary-questions}
 name: Learning-Community (School-Breadth) Tension [TENSIONAL]
-description: 'The depth-formation the school could give the few, against the breadth-formation owed to
-  the whole worshipping community - population-separated poles, both real, neither surrendered. This is
-  the ecological form of the world''s own stratum problem: the ecology itself held the tension the surviving
-  evidence now makes hard to see from the community side (school pole Widely Accepted; community pole
-  Inferential-Thin).'
+description: 'One pole is the depth-formation the school could give the few. The other is the breadth-formation owed to the whole worshipping community. The poles are separated by population. Both are real. Neither is given up. This is the ecological form of the world''s own stratum problem. The ecology itself held the tension. The surviving evidence now makes it hard to see from the community side. The school side is well attested. The community side is thinly attested.'
 manifestations:
 - Clement's true-gnostic ideal against the Gnostic elite-knowing it refuses (knowledge for all, not a
   secret few)

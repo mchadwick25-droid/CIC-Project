@@ -59,7 +59,7 @@ modern_rendering: >-
   the written evidence for the confession of our faith, and for the other matters we have
   enumerated.
 ---
-Verified verbatim 2026-08-31 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, the
 treatise's own numbered sec. 67, the paragraph immediately following the
 "unwritten mysteries" catalogue - facing east, standing to pray, the
@@ -75,7 +75,4 @@ customs is the stronger match for F4-E (apostolic origin of practices) and
 is quoted there instead - two distinct, genuinely separate excerpts from
 the same chapter, not one quote stretched to cover two cells.
 
-MODERN RENDERING AUTHORED (2026-08-31, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.
