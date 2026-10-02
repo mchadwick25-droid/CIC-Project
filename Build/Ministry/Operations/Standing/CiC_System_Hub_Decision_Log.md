@@ -6026,3 +6026,40 @@ The project lead ruled that a Claude thread merges the pull requests it opens, i
 The rule: a thread merges its own pull request, by merge commit, once every required check is green on the current head, the pull request is mergeable, and no review finding is open. Path-gated checks that show "skipped" count as passing.
 
 One exception stays with the project lead: the production promotion, the pull request that moves reviewed work onto the live branch.
+
+## 2026-10-02 - Conversation system design: approved to proceed, Design C
+
+The project lead converged with the design thread on the conversation system design on 2026-10-02, in his words "Converged, auto mode." The design is approved to proceed. A separate build thread implements it in slices 0 to 12. Nothing closes until Phase Five boundary testing and full-system review are complete.
+
+The design, with its appendix pages (rigor ledger, gap hunt, records), is published at `https://claude.ai/artifact/MBPbubWhcJrTddiEbte6P1`. The field comparison behind decision 10 is at `https://claude.ai/artifact/Ae3eKobJ8v3CAvx2kj4icj`.
+
+**The project lead's decisions.**
+
+1. The design thread's spend cap was 15% of the week. The build thread sets its own with the project lead; on 2026-10-02 he set it at 20% of the week, with a checkpoint at every gate and never more than 90 minutes apart.
+2. The Program Spec's principles stay. The architecture is open. Any departure from the spec is a named change order.
+3. Design C, cell dossiers, with Design A as its single-dossier case for a world. Experiment E1 decides the split per world.
+4. The meaning bar is scholarly acceptance, not perfection, on meaningful (load-bearing) content. Invented facts and misattributed quotes stay at zero.
+5. Use notes: Opus drafts the notes on quotes and doctrinal witnesses against the vendored source. Sonnet drafts the rest. Opus reviews every note.
+6. The reader call is tested for removal (E2). The safety call stays sealed and blocking.
+7. The quality-control store keeps questions indefinitely, answers for 90 days, and scores. It holds no session id, visitor id, code hash, IP address or exact time.
+8. Non-world kinds leave the worlds. The horizon gate decides forces record by record. Figures feed cards, not dossiers. `lpc` and ambient are parked untouched.
+9. Three paid runs are approved as designed, each sample-first, with every setting printed and the cap stated: the baseline three times (about $35), E1 with its third arm (about $23), and E2 (about $6). Total cap about $64. Offline work runs through the Batches API at half price.
+10. The API's native citations replace the hand-copied citation-id contract. This is a change order on the mechanism behind rulings R9, R10, R17 and the R27 family, and it is proven by E1's third arm before it is trusted.
+11. A world may move to Package v2 with provisional, unreviewed use notes, flagged as such in its manifest. The meaning dimension reports but does not block until the reviewed notes land.
+12. The Table stays at two or three seats. No design or build work accommodates more seats until participants ask for it.
+13. The build thread's first pull request, before any code, is this record.
+14. The self-revision wiring is fixed now, ahead of the baseline, as a mechanical fix. `engine/api/config.py` parses `CIC_SELF_REVISION`, but `_build_real_app` in `engine/api/app.py` never passes it to `create_app`, whose default is on. The deploy file's "0" therefore does nothing, against the ruling of 2026-09-30 in `Build/worlds/cappadocian/Open_Gaps_Tracking.md`, and every other-tradition first ask pays for a second Sonnet call.
+15. Nothing is sequenced around old dates. In the project lead's words: "nothing should be delayed, remove that, we want to build as we can, the old schedules are meaningless." Readability findings are fixed as worlds are touched and as capacity allows. The 14 December waiver deadline is not a planning constraint. The `ACCEPTED_OPEN` readability waivers in `engine/m9/enforce.py` are re-dated to the real per-world plan in the first change that touches them, not left to lapse.
+16. The privacy page is corrected now, in words the project lead approves: the visitor cookie, the backups, the quality-control rule, and deletion on request until the deletion feature ships.
+17. Draft PR #690 is closed with a note pointing to the design. pahc OG-19 closes under the horizon rule, as analytic, when slice 5 lands.
+18. A public methods page is drafted now (Sonnet drafts, Opus reviews, the project lead approves). It lands once the baseline numbers exist.
+
+**Change orders named on the design page.** These are departures from the Program Spec. They are recorded here as named; the first four still wait on the project lead's word, with the design's recommendation stated. Each is tracked in `Build/Ministry/Features/Conversation-Transparency-Engine/Rulings-Pending.md`.
+
+- CO-1. The M5 two-call gate becomes one sealed call if E2 passes. Recommended; decided by the test.
+- CO-2. R30's streaming granularity: release per sentence instead of holding the opening paragraph. Recommended; the paragraph hold guarded checks that now run per sentence.
+- CO-3. Artifact-5 and Artifact-7 are rewritten to match the routes and Table rules the code actually has, plus the new streaming route. Recommended; the alternative is changing the code to match the spec.
+- CO-4. The spec's module list gains M9 (confinement) and M10 (validation and handoff), which exist in the code and not in the spec.
+- CO-5, the citation mechanism (decision 10). Ruled. R9, R10, R17 and the R27 family keep their meaning, marks, placement and cap. Only the mechanism changes, from ids the model copies by hand to the citation blocks the API returns. It is not trusted until E1's third arm shows it inside the band or better on invented ids, citation count and meaning fit.
+
+**The merge rule.** The design brief said the project lead's merge rule had never been logged. It was logged on 2026-10-02, in the entry "Claude threads merge their own pull requests" above: merge once every required check is green, except the production promotion, which stays with the project lead. Nothing further is added here.
