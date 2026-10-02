@@ -84,3 +84,15 @@ In both cases the message is never screened.
 **What happens.** `engine/api/config.py` defines `streaming_enabled` (`CIC_API_STREAMING`), and no other file reads it. The message endpoint returns a full reply, so a participant sees nothing until the whole reply is ready. The 15-turn run measured 17 to 34 seconds per turn.
 
 **Why it matters here.** The free allowance's first impression is a 25-second wait for a long reply. The buy-in review names this, the echo (entry 5) and reply length (entry 12) as the three defects to fix before a paid launch.
+
+## 8. Cut-off replies handed to the build assessment and cleanup thread (2026-10-02)
+
+**Status:** HANDED OFF. Follows entries 4 and 7.
+
+**Direction (Mark):** a sentence is never cut off. The cut-off is a build issue, so it goes to the CIC build assessment and cleanup thread (session `session_01AmzAo9RfEp4W8U5pd1RVx2`) to solve. This module continues the analysis and the Sandbox build.
+
+**Sent to that thread:** the measured cut-offs (replies 6 and 7 of the first 7 end mid-sentence at the 1,024-token limit), the two code locations that default `max_tokens` to 1024, the small cost of finishing the replies (about $0.012 per 7-turn conversation), decisions 12 and 20, and the two related launch-gate defects (the restating, and streaming with no reader of its flag).
+
+**Not confirmed:** whether the live display path shows the cut text as the direct `run_turn` call did. That thread is asked to verify before changing code.
+
+**Closes when:** that thread reports a fix and a test that fails on a mid-sentence ending, and a re-run of the 7-turn sample shows every reply ending on a full stop.
