@@ -1557,6 +1557,13 @@ def is_world_build_tool(rel: Path) -> bool:
     return len(parts) >= 4 and parts[0] == "Build" and parts[1] == "worlds" and parts[3] == "scripts"
 
 
+def is_verbatim_copy(rel: Path) -> bool:
+    """`Build/reference/text-renderings/`: verbatim text of source documents
+    (the project's Word documents), kept so the quote check can read them. Their
+    wording is the original's, so it is not commentary this tree can rewrite."""
+    return rel.as_posix().startswith("Build/reference/text-renderings/")
+
+
 def iter_files(repo: Path, surface: str):
     for root in SURFACES[surface]:
         base = repo / root
@@ -1571,7 +1578,7 @@ def iter_files(repo: Path, surface: str):
                 continue
             if path.suffix not in TEXT_SUFFIXES:
                 continue
-            if is_world_build_tool(path.relative_to(repo)):
+            if is_world_build_tool(path.relative_to(repo)) or is_verbatim_copy(path.relative_to(repo)):
                 continue
             if surface == "cic-poc-frontend" and "node_modules" in path.parts:
                 continue
@@ -1589,7 +1596,7 @@ def run(repo: Path, surfaces: list[str]) -> list[Hit]:
 def surface_of(rel: Path) -> str | None:
     """The scan surface a repo-relative path belongs to, if any."""
     rel_s = rel.as_posix()
-    if is_world_build_tool(rel):
+    if is_world_build_tool(rel) or is_verbatim_copy(rel):
         return None
     for surface, roots in SURFACES.items():
         if any(rel_s == root or rel_s.startswith(root + "/") for root in roots):

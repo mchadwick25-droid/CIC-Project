@@ -80,3 +80,9 @@ def test_without_enforce_the_scan_is_a_report_and_exits_zero(repo):
 def test_enforce_without_a_base_is_refused(repo):
     with pytest.raises(SystemExit):
         clc.main(["--enforce"])
+
+
+def test_verbatim_copies_of_source_documents_are_not_a_live_surface():
+    assert clc.surface_of(Path("Build/reference/text-renderings/CiC_L1_Constitution_V2_2.md")) is None
+    assert clc.is_verbatim_copy(Path("Build/reference/text-renderings/x.md"))
+    assert not clc.is_verbatim_copy(Path("Build/reference/method/x.md"))
