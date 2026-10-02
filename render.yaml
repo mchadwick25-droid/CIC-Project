@@ -231,6 +231,10 @@ services:
         value: "0"
       - key: CIC_SELF_REVISION
         value: "0"
+      # Reply streaming (engine/api/README.md, Streaming): staging only,
+      # cic-engine (prod) does not set this.
+      - key: CIC_API_STREAMING
+        value: "1"
       # Read-aloud step 1/2 (Build/Ministry/Technology/CiC_ReadAloud_Step1_
       # Design_Note.md), staging only, for a real-browser listen-through - cic-engine
       # (prod) does not set this. Free browser speechSynthesis, no new

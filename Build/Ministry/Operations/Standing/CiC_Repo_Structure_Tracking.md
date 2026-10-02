@@ -890,3 +890,11 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 **Context.** The world's Step 0 was approved to proceed (Round 4 spot-check, clear) and the project lead assigned the file-code `jes`.
 
 **Action.** `git mv Build/World-Builds/Society-of-Jesus` → `Build/worlds/jes`. Root `README.md` line for `Build/worlds/` now lists four not-yet-coded worlds. Nothing was added to `records/` or `packages/`; the code is not yet registered in `records/worlds/`. Two dated audit documents (`Build/Ministry/Operations/Audits/SocietyOfJesus_Step0_Correction_2026-09-30.md`, `Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`), the review artifacts under `Build/worlds/witt/`, and `Build/worlds/jes/Step0_Review_Round4_SpotCheck.md` still cite the old path as dated history and are left unedited.
+
+---
+
+## 2026-10-02 — Sentence-gated streaming module archived
+
+**Context.** The engine's own sentence-gated streaming module (`engine/m4/streaming.py`) was built behind a flag that no code path read. It drops a sentence that fails the grounding check, which the whole-turn path measured and rejected (`apply_net`: the checks gate decoration, never the text). The project lead chose wiring streaming end to end with the failing sentence kept and only its decoration dropped, so the module's own design no longer applies.
+
+**Action.** `git mv engine/m4/streaming.py` and `engine/m4/tests/test_streaming.py` → `Archive/Superseded-Engine-Code/`. Root `README.md` line for `Archive/` now names the new category. The replacement is `engine/m4/draft_stream.py` plus the event-stream form of the message endpoint in `engine/api/app.py`.

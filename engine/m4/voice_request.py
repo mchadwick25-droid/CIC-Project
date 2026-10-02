@@ -1,6 +1,5 @@
 """The one place a voice call's request is shaped: the system blocks and the
-messages array both generation paths send (engine.m4.generation and
-engine.m4.streaming).
+messages array every generation call sends (engine.m4.generation).
 
 Cache layout, front to back:
 
