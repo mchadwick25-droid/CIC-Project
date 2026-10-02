@@ -151,3 +151,15 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Model ladder, for reference:** $10 for 7, $20 for 16 (about $1.25 each), $40 for 36 (about $1.11 each). At $0.26 API cost per paid conversation, Stripe's 2.9% + $0.30 and a 3% refund allowance, contribution is about 73%, 72% and 70%. The free allowance is a separate bucket funded from contributions and is not in these margins.
 
 **Open:** the pack sizes above $10 are placeholders. The billing multiplier (the real AWS bill ran 1.35 times the rate card on 2026-08-28) is not applied; at 1.35 contribution on the entry pack falls from 73% to about 67%.
+
+## 16. Entry pack is $7 for 5 conversations; larger packs reshaped so each rung improves the rate (2026-10-02)
+
+**Decision (Mark):** the entry pack is $7 for 5 paid conversations, about $1.40 each, chosen over $5 for 3 and $5 for 4. Mark asked for an entry at $5 to $7 at most.
+
+**Supersedes:** entry 15's candidate entry of $10 for 7. At $1.43 each that pack was a worse rate than $7 for 5, so a buyer would have no reason to step up.
+
+**Model ladder, a candidate and not final:** $7 for 5 ($1.40 each), $15 for 13 ($1.15 each), $30 for 30 ($1.00 each). At $0.26 API cost per paid conversation, Stripe's 2.9% + $0.30 and a 3% refund allowance, contribution is about $4.99 (71%), $10.44 (70%) and $20.13 (67%). The $15 and $30 sizes are placeholders chosen to improve the rate at each step.
+
+**Costs of the choice:** Stripe's fee is 7.2% at $7, against 5.9% at $10. A $15 dispute fee is about two entry packs, so refunds are made easy rather than leaving buyers to dispute. The free allowance remains a separate bucket funded from contributions.
+
+**Open:** final pricing goes to the funding thread with the research and measured costs. The cost ceiling is still missing.
