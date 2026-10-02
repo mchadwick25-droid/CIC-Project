@@ -1,12 +1,13 @@
 # CIC-Project — Working Rules
 
-These rules apply to every session in this repo. Read them before doing anything else. They're listed in priority order — where two sections would pull in different directions, the higher one wins. Trust, safety and fidelity are never traded away for speed, cost, or convenience.
+These rules apply to every session in this repo. Read them before doing anything else. The first four sections are principles that hold together: none is ever traded against another, and none is traded away for speed, cost, or convenience. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
 
 This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
 
 ## Trust comes first
 
-- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
+The people in these conversations rely on what we say and on how we read them. Source fidelity, accessibility, and safety (the next three sections) are how that trust is kept, and they hold together.
+
 - Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
 
 ## Accessible and rigorous — participant-facing content
@@ -26,6 +27,7 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 
 ## Source fidelity — never invent
 
+- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
 - No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
 - A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
 - Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust.
