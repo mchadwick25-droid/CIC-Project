@@ -6,11 +6,11 @@ Reviewer agent: Doc_10 round 3 recheck, fresh context, medium effort, targeted; 
 Drafter agent: the round-2 fix session (Sonnet), commit 0b0cbb6e4, recorded in `Open_Gaps_Tracking.md` OG-69
 Round: 3 of 3 for Doc_10, the last round under the cap (`roundcount lpc 10 --check-new` passed before this file was written; 2 earlier review files on record)
 Truncation check, method 1: heading count and closing line. `grep -cE '^### R[0-9]+ '` on this file returns 4 residual-item headings, and `tail -n 1` returns "End of review.", both run after the last edit.
-Truncation check, method 2: set comparison in Python. The ids in the summary table (N1–N3, R1–R4) equal, as a set, the ids of the verdict table (N1–N3) together with the `###` residual-item sections (R1–R4). The reviewed files were checked the same two ways: each file's byte count on disk equals `git cat-file -s HEAD:<path>` (Doc_10 77,713; Permanent Prompt 22,264; compel demonstration 4,501; world_core 31,436; Correction of the Donatists source record 2,405), and each ends on a complete sentence. The compiled prompt (`packages/lpc/2026-10-01T15-13-39Z/compiled/prompt.txt`, 85,017 bytes, not tracked by git) ends on the last sentence of the road-back demonstration.
+Truncation check, method 2: set comparison in Python. The ids in the summary table (N1–N3, R1–R4) equal, as a set, the ids of the verdict table (N1–N3) together with the `###` residual-item sections (R1–R4). The reviewed files were checked the same two ways: each file's byte count on disk equals `git cat-file -s HEAD:<path>` (Doc_10 77,713; Permanent Prompt 22,264; compel demonstration 4,501; world_core 31,436; Correction of the Donatists source record 2,405), and each ends on a complete sentence. The compiled prompt (the package pinned at the time (its compiled prompt), 85,017 bytes, not tracked by git) ends on the last sentence of the road-back demonstration.
 
 # Round-3 recheck of Doc_10, Representative Construction Notes: Datus (`lpc`)
 
-**Scope.** Only N1, N2 and the optional N3 of `Review-Artifacts/Doc10_Round2_Review.md`, against the files as changed by commit `0b0cbb6e4` and the pinned package (`records/worlds/lpc.yaml`: `packages/lpc/2026-10-01T15-13-39Z`). N4 and N5 were optional and are not rechecked.
+**Scope.** Only N1, N2 and the optional N3 of `Review-Artifacts/Doc10_Round2_Review.md`, against the files as changed by commit `0b0cbb6e4` and the pinned package (`records/worlds/lpc.yaml`: the package pinned at the time). N4 and N5 were optional and are not rechecked.
 
 ## Verdict
 

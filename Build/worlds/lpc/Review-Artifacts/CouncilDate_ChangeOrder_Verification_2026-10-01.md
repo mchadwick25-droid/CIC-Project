@@ -37,7 +37,7 @@ Each locus was opened and placed by its structure marker, not by a search hit.
 
 ## 4. Sweep of every copy of the claim
 
-Searched for `401` across `Build/worlds/lpc/` (every document, chunk, index, Representative file, script and ledger), `records/lpc/`, `records/worlds/lpc.yaml` and the pinned package `packages/lpc/2026-10-01T15-26-09Z/` (including `compiled/prompt.txt` and `compiled/capsule.md`). The search then widened to the year-free phrasings of the same event ("not granted", "ungranted", "eleven years", "petition the emperors").
+Searched for `401` across `Build/worlds/lpc/` (every document, chunk, index, Representative file, script and ledger), `records/lpc/`, `records/worlds/lpc.yaml` and the pinned package the package pinned at the time (including `compiled/prompt.txt` and `compiled/capsule.md`). The search then widened to the year-free phrasings of the same event ("not granted", "ungranted", "eleven years", "petition the emperors").
 
 | Location | Text | Class | Ruling |
 |---|---|---|---|

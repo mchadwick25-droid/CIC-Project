@@ -435,7 +435,6 @@ Build/worlds/lpc/Lexicon-Chunks/lpclex017_libelli.md: L4-Templates/Deployment_Le
 Build/worlds/lpc/Lexicon-Chunks/lpclex018_libellatici-sacrificati.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Open_Gaps_Tracking.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
-Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc
 Build/worlds/lpc/Representative/lpc_Rep_Phase6_Facilitator_Coordination_Round1.md: L4-Templates/World_Facilitation_Brief_Template.md
 Build/worlds/lpc/Review-Artifacts/Article3_Gapped_Formation_Ruling_Prepared_2026-09-16.md: L1-Foundation/CiC_L1_Constitution_V2_2.docx
 Build/worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Build/Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md
@@ -520,7 +519,6 @@ Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: World-Builds/Latin-Pas
 Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: cic/corpus-map/tertullian-s-voice.yaml
-Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: records/lpc/search_record
 Build/worlds/lpc/Review-Artifacts/Doc02_Round20_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round21_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round22_Review.md: Archive/MSN
@@ -684,7 +682,6 @@ Build/worlds/lpc/Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-1
 Build/worlds/lpc/Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md: World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md
 Build/worlds/lpc/Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 Build/worlds/lpc/Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md: L1-Foundation/CiC_L1_Constitution_V2_2.docx
-Build/worlds/lpc/Review-Artifacts/OpenGapsTracking_Round1_Review.md: packages/lpc
 Build/worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Donatism
 Build/worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md
 Build/worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity
@@ -711,7 +708,6 @@ Build/worlds/lpc/Review-Artifacts/WorldProfile_Round2_Review.md: World-Builds/Al
 Build/worlds/lpc/Review-Artifacts/WorldProfile_Round2_Review.md: World-Builds/Syriac-Christianity-Edessa-Nisibis/syr_World_Profile.md
 Build/worlds/lpc/Review-Artifacts/WorldProfile_Round4_Review_Consistency.md: records/worlds.yaml
 Build/worlds/lpc/Source_Registry.md: Archive/Microsoft
-Build/worlds/lpc/Source_Registry.md: records/lpc/search_record
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.i-scorned-to-be-a-little-one.md
@@ -727,7 +723,6 @@ Build/worlds/lpc/lpc_Decision_Log.md: Project-Reference/CiC_Governance_Standing_
 Build/worlds/lpc/lpc_Decision_Log.md: World-Builds/Donatism/scripts
 Build/worlds/lpc/lpc_Decision_Log.md: World-Builds/Latin-Pastoral-Congregational-Christianity
 Build/worlds/lpc/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
-Build/worlds/lpc/lpc_Decision_Log.md: packages/lpc
 Build/worlds/lpc/lpc_Decision_Log.md: records/worlds.yaml
 Build/worlds/lpc/lpc_World_Profile.md: L4-Templates/World_Profile_Template.md
 Build/worlds/lpc/lpc_World_Profile.md: World-Builds/Donatism/don_Decision_Log.md
