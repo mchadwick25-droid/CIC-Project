@@ -1,18 +1,22 @@
 #!/usr/bin/env node
 /**
- * Narrate The Unfolding Story: the heading and body paragraphs of
- * cic-website/story.html, spoken once and served as a static file.
+ * Narrate the site's own pages, each piece spoken once and served as a static
+ * file: The Unfolding Story (heading and body of story.html) and each section
+ * of the About page (about.html), read from the pages themselves so the audio
+ * and the words cannot drift apart unnoticed.
  *
- * Output: cic-website/audio/site/unfolding-story.mp3 and manifest.json, which
- * records a fingerprint of the text, the voice, the model and the settings the
- * file was made with, so a later text edit shows the audio is stale.
+ * Output: cic-website/audio/site/<key>.mp3 and manifest.json, which records a
+ * fingerprint of each piece's text with the voice, model and settings it was
+ * made with, so a later text edit shows which audio is stale. Idempotent: a
+ * piece whose file exists and whose fingerprint matches is skipped unless
+ * --force.
  *
  * Usage:
  *   ELEVENLABS_API_KEY=... node Build/tools/generate_site_narration.mjs \
  *     --voice-id <id> --model <model_id> --output-format <fmt> \
- *     --settings-json '{"stability":0.55,...}' [--dry-run] [--force]
+ *     --settings-json '{"stability":0.55,...}' [--only a,b] [--dry-run] [--force]
  *
- * Every paid setting is named on the command and printed before the request.
+ * Every paid setting is named on the command and printed before the requests.
  */
 import fs from 'fs';
 import path from 'path';
@@ -22,12 +26,12 @@ import { requirePaidSettings, synthesizeWithCost } from './generate_tree_narrati
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
-const storyPath = path.join(rootDir, 'cic-website/story.html');
-export const siteAudioDir = path.join(rootDir, 'cic-website/audio/site');
+const siteDir = path.join(rootDir, 'cic-website');
+export const siteAudioDir = path.join(siteDir, 'audio/site');
 export const manifestPath = path.join(siteAudioDir, 'manifest.json');
-export const KEY = 'unfolding-story';
+export const ABOUT_SECTIONS = ['mission', 'convictions', 'how-it-works', 'safety', 'about-us'];
 
-const decode = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&rsquo;/g, '’');
+const decode = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&rsquo;/g, '\u2019');
 const plain = (s) => decode(s.replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim();
 
 export function fingerprint(text) {
@@ -43,12 +47,38 @@ export function storyText(html) {
   return [plain(h1[1]), ...paras].join('\n\n');
 }
 
+/**
+ * One About section as it would be read aloud: its headings and paragraphs in
+ * page order. The small-caps eyebrow label is navigation, not text, so it is
+ * left out.
+ */
+export function sectionText(html, id) {
+  const section = new RegExp(`<section[^>]*id="${id}"[^>]*>([\\s\\S]*?)</section>`).exec(html);
+  if (!section) throw new Error(`about.html: section "${id}" not found`);
+  const parts = [...section[1].matchAll(/<(h[23]|p)([^>]*)>([\s\S]*?)<\/\1>/g)]
+    .filter((m) => !/class="eyebrow"/.test(m[2]))
+    .map((m) => plain(m[3]))
+    .filter(Boolean);
+  if (!parts.length) throw new Error(`about.html: section "${id}" has no text`);
+  return parts.join('\n\n');
+}
+
+/** Every narrated piece: key, and the text read from its page. */
+export function sitePieces({ read = (f) => fs.readFileSync(path.join(siteDir, f), 'utf8') } = {}) {
+  const about = read('about.html');
+  return [
+    { key: 'unfolding-story', text: storyText(read('story.html')) },
+    ...ABOUT_SECTIONS.map((id) => ({ key: `about-${id}`, text: sectionText(about, id) })),
+  ];
+}
+
 export function parseArgs(argv) {
-  const opts = { dryRun: false, force: false, voiceId: null, model: null, outputFormat: null, settingsJson: null };
+  const opts = { dryRun: false, force: false, only: null, voiceId: null, model: null, outputFormat: null, settingsJson: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
     else if (arg === '--force') opts.force = true;
+    else if (arg === '--only') opts.only = argv[++i].split(',').filter(Boolean);
     else if (arg === '--voice-id') opts.voiceId = argv[++i];
     else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--output-format') opts.outputFormat = argv[++i];
@@ -58,17 +88,27 @@ export function parseArgs(argv) {
   return opts;
 }
 
+export function planPieces(pieces, { manifest, only = null, force = false, existsFn = fs.existsSync }) {
+  const chosen = only ? pieces.filter((p) => only.includes(p.key)) : pieces;
+  const upToDate = [];
+  const toGenerate = [];
+  for (const p of chosen) {
+    const fresh = existsFn(path.join(siteAudioDir, `${p.key}.mp3`)) && manifest[p.key]?.hash === fingerprint(p.text);
+    (fresh && !force ? upToDate : toGenerate).push(p);
+  }
+  return { upToDate, toGenerate };
+}
+
 async function run() {
   const opts = parseArgs(process.argv.slice(2));
-  const text = storyText(fs.readFileSync(storyPath, 'utf8'));
-  const hash = fingerprint(text);
+  const pieces = sitePieces();
   const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')) : {};
-  const file = path.join(siteAudioDir, `${KEY}.mp3`);
-  const upToDate = fs.existsSync(file) && manifest[KEY]?.hash === hash;
-  console.log(`=== Unfolding Story narration ${opts.dryRun ? '(dry run)' : ''} ===`);
-  console.log(`${text.length} characters; ${upToDate ? 'up to date' : 'to generate'}`);
-  if (opts.dryRun) return;
-  if (upToDate && !opts.force) { console.log('Nothing to do.'); return; }
+  const { upToDate, toGenerate } = planPieces(pieces, { manifest, only: opts.only, force: opts.force });
+  const total = toGenerate.reduce((n, p) => n + p.text.length, 0);
+  console.log(`=== Site narration ${opts.dryRun ? '(dry run)' : ''} ===`);
+  console.log(`${pieces.length} pieces; ${upToDate.length} up to date; ${toGenerate.length} to generate, ${total} characters`);
+  if (opts.dryRun) { toGenerate.forEach((p) => console.log(`  would generate: ${p.key} (${p.text.length} chars)`)); return; }
+  if (!toGenerate.length) { console.log('Nothing to do.'); return; }
   requirePaidSettings(opts);
   for (const [flag, value] of [['--output-format', opts.outputFormat], ['--settings-json', opts.settingsJson]]) {
     if (!value || value.startsWith('--')) throw new Error(`${flag} is required and is never read from the environment.`);
@@ -81,13 +121,15 @@ async function run() {
   console.log(`model         : ${opts.model}`);
   console.log(`output format : ${opts.outputFormat}`);
   console.log(`settings      : ${JSON.stringify(voiceSettings)}`);
-  console.log(`characters    : ${text.length}`);
-  const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, outputFormat: opts.outputFormat, voiceSettings });
+  console.log(`pieces        : ${toGenerate.length}, ${total} characters`);
   fs.mkdirSync(siteAudioDir, { recursive: true });
-  fs.writeFileSync(file, audio);
-  manifest[KEY] = { hash, voiceId: opts.voiceId, model: opts.model, outputFormat: opts.outputFormat, settings: voiceSettings, chars: text.length };
-  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
-  console.log(`wrote ${path.relative(rootDir, file)} (${audio.length} bytes, ${cost} credits)`);
+  for (const p of toGenerate) {
+    const { audio, cost } = await synthesizeWithCost(p.text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, outputFormat: opts.outputFormat, voiceSettings });
+    fs.writeFileSync(path.join(siteAudioDir, `${p.key}.mp3`), audio);
+    manifest[p.key] = { hash: fingerprint(p.text), voiceId: opts.voiceId, model: opts.model, outputFormat: opts.outputFormat, settings: voiceSettings, chars: p.text.length };
+    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
+    console.log(`  ${p.key}: ${p.text.length} chars, ${cost} credits`);
+  }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
