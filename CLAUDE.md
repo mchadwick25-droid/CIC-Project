@@ -1,13 +1,18 @@
 # CIC-Project — Working Rules
 
-These rules apply to every session in this repo. Read them before doing anything else. The first four sections are principles that hold together: none is ever traded against another, and none is traded away for speed, cost, or convenience. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
+These rules apply to every session in this repo. Read them before doing anything else. The first three sections are principles that hold together: none is ever traded against another, and none is traded away for speed, cost, or convenience. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
 
-This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
+This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Trust and source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
 
-## Trust comes first
+## Trust and source fidelity — never invent
 
-The people in these conversations rely on what we say and on how we read them. Source fidelity, accessibility, and safety (the next three sections) are how that trust is kept, and they hold together.
+The people in these conversations rely on what we say and on how we read them. Accessibility and safety (the next two sections) hold together with this.
 
+- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
+- No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
+- A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
+- Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust.
+- Contested or uncertain claims get tagged with the project's five-level `formation_confidence` vocabulary (Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin), with a `contested_claim` record where warranted. Never present a disputed claim as settled. "Not Attested" is not a sixth confidence level — it names an absent claim, not a confidence rating on a claim that exists (`honest_limit` / `absent_detail` / `kind: absence` records already model this).
 - Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
 
 ## Accessible and rigorous — participant-facing content
@@ -24,14 +29,6 @@ The people in these conversations rely on what we say and on how we read them. S
 - A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
 - Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
 - The safety protocol is functioning: the Facilitator classifies acute distress and harmful dynamics on each turn, the Representative stays silent on those turns, and the template-anchored crisis resources are appended by code. The governing doc is `CiC_L3D_Facilitator_Governance_V3.6`.
-
-## Source fidelity — never invent
-
-- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
-- No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
-- A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
-- Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust.
-- Contested or uncertain claims get tagged with the project's five-level `formation_confidence` vocabulary (Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin), with a `contested_claim` record where warranted. Never present a disputed claim as settled. "Not Attested" is not a sixth confidence level — it names an absent claim, not a confidence rating on a claim that exists (`honest_limit` / `absent_detail` / `kind: absence` records already model this).
 
 ## Fix it right
 
