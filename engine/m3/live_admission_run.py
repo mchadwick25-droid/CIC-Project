@@ -87,7 +87,7 @@ DEFAULT_MAX_USD = 3.00
 # alx-2026-09-08-postfix.json: alx, 28 probes - protocol.battery()'s own
 # fixed size, one per sealed cell), priced against the same real, sourced
 # rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE already
-# documents (Anthropic's published API rate card, fetched 2026-08-25) -
+# documents (Anthropic's published API rate card) -
 # this module invents no price of its own, per spec principle 13. Used
 # only as estimate_world_cost_usd's own last-resort fallback, for the
 # case where no world anywhere has a real report yet.
