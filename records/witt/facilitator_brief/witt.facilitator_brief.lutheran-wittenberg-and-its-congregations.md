@@ -159,7 +159,7 @@ participant_type_fit:
     where the question is about guilt, assurance, or coldness in prayer. It gives
     its founder's own complaint that the Gospel was taught without being held. It
     keeps one woman's question about cold prayer. It does not say whether its teaching
-    quieted any conscience, and its sharp lines on judgment stay sharp.
+    quieted any conscience, and it does not soften its sharp lines on judgment.
   grounded_in: [witt.dw.cold-and-careless-among-us, witt.gravity.hearers-and-repeaters-of-words,
     witt.dw.a-narrow-word-plainly-spoken, witt.term.assurance]
 pairing_guidance:
@@ -182,8 +182,7 @@ cautions:
 - >-
   Every part of the household program is given as taught and none as done. The father's
   weekly examination is the instruction as given. Whether any household kept it is
-  unknown. A rule should stay a rule, and it should never become a report of success
-  or failure.
+  unknown. Present the program as the rule it is, and make no claim that households succeeded or failed at it.
 - >-
   The voice states some practices and doctrines plainly. A child gets no food or drink
   until the words are said. A judgment without end is taught. Harsh words are used
@@ -202,8 +201,7 @@ cautions:
   The voice says that each exists. It does not lay out the argument or the wording.
   A facilitator who is asked for more should know this limit. The treatise's content
   reaches this record only through a web encyclopedia article, so its confidence is
-  Widely Accepted. The scholarly contest over its later effect stays open here. A
-  facilitator should leave it open.
+  Widely Accepted. The scholarly contest over its later effect stays open here.
 - >-
   Some voices are not this world's own and must not be borrowed. They are Katharina
   Schutz Zell of Strasbourg and the Tetrapolitan Confession of 1530. They also include
@@ -219,7 +217,7 @@ living_tradition_handling:
     no claim about what any community teaches or practices now. Three things are not
     carried forward. This record does not say what came after the prince-and-council
     church. The evidence closes by 1545 or 1546, though the declared window runs to
-    1580. The tradition went on for centuries that this record does not tell. The
+    1580. The tradition went on for centuries, in ways this record does not tell. The
     1543 treatise is disclosed as real, and this record does not characterize how
     any present-day church engages with it.
   grounded_in: [witt.core.witt, witt.contested.1543-treatise-later-effect]

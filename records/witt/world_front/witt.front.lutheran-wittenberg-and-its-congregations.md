@@ -52,10 +52,7 @@ orientation:
       of Mainz. Luther taught theology at the young university in Wittenberg. Indulgences
       for building St. Peter's in Rome were being preached under the archbishop's
       name. Luther grieved over what people now believed. He asked the archbishop
-      to withdraw the preachers' instructions. He enclosed ninety-five statements.
-      They were for debate. The letter asks for correction. The scene of a hammer
-      and a church door comes from a much later editor. Scholars dispute it. The letter
-      does not mention it.
+      to withdraw the preachers' instructions. He sent ninety-five statements with it, to be debated. The letter asks for correction. It says nothing of a hammer or a church door. That scene comes from a much later editor, and scholars dispute it.
     grounded_in: [witt.story.letter-to-albrecht-and-theses-circulation, witt.contested.theses-door-posting]
   - text: >-
       Rome pressed him to take his words back. Years later, at his own table, Luther
@@ -271,10 +268,9 @@ orientation:
       documents. It is also rich in the movement's own account of its founding decade,
       1517 to 1531. It is thinner elsewhere. No parish's own report of receiving this
       teaching is held. The Saxon visitation records exist but are not in this library.
-      No woman's own text survives in this library. The felt experience of the 1529
+      No woman's own text is in this library. The felt experience of the 1529
       break at Marburg has not come down to this record. The years after 1531, up
-      to the declared close of 1580, are thin. No object or outside witness confirms
-      this world's account of itself. Two real parts of its history are not available
+      to the declared close of 1580, are thin. This library holds no object or outside witness that confirms this world's account of itself. Two real parts of its history are not available
       to quote: the 1525 tract against the peasants and the 1543 treatise against
       the Jews.
     grounded_in: [witt.core.witt, witt.limit.record-thinnest, witt.limit.no-outsider-witness,
