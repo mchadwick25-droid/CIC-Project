@@ -141,3 +141,13 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Clarification (Mark):** the conversation is capped at 3 turns in the free allowance and 7 turns in a paid conversation. This confirms the reading of "round" as one participant message and the Representative's reply, left open in entry 13.
 
 **Measured cost under the caps** (15-turn run, rate card, warm cache): about $0.08 for a 3-turn conversation and $0.23 for a 7-turn one, about $0.13 and $0.28 after a cache lapse. Replies in that run were long; entry 12 aims for shorter ones.
+
+## 15. Candidate entry pack is $10 for 7 conversations; the ladder is a model, not final (2026-10-02)
+
+**Decision (Mark):** the entry pack is about $1.43 per paid 7-turn conversation, $10 for 7 conversations.
+
+**Status:** a candidate price. Final pricing goes to the funding thread with the research and measured costs before it is set. The cost ceiling from that thread is still missing.
+
+**Model ladder, for reference:** $10 for 7, $20 for 16 (about $1.25 each), $40 for 36 (about $1.11 each). At $0.26 API cost per paid conversation, Stripe's 2.9% + $0.30 and a 3% refund allowance, contribution is about 73%, 72% and 70%. The free allowance is a separate bucket funded from contributions and is not in these margins.
+
+**Open:** the pack sizes above $10 are placeholders. The billing multiplier (the real AWS bill ran 1.35 times the rate card on 2026-08-28) is not applied; at 1.35 contribution on the entry pack falls from 73% to about 67%.
