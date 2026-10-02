@@ -5176,3 +5176,54 @@ Worker stays a separate decision for seeking support.
 ### Next action
 
 1. Mark retests a world card and a story on the iPhone after the deploy.
+
+## 2026-10-02 — Ten superseded tree audio files removed
+
+**Decision.** The ten built-world files in `cic-website/audio/tree/` (the
+older recordings of text since replaced by each world's own story) are deleted.
+Mark ordered the deletion. A repository search found no page, script or record
+that points at any of them; the map plays each built world from
+`audio/worlds/`, and Wittenberg's own description file stays.
+
+### Next action
+
+1. Wittenberg's full world story and legacy still wait on its `world_front`
+   record, which is a world-build step, not a narration step.
+
+## 2026-10-02 — The site's own pages narrated in one American voice
+
+**Decision.** The Unfolding Story (the landing page section and `story.html`)
+and each section of the About page are narrated in one voice that belongs to no
+Representative. Mark did not want his own voice simulated and does not record
+well, so a library voice was chosen by ear. Mark heard six candidates (George,
+Alice, Brian, then Bill, Eric, Chris), wanted George without the British
+accent, first named Eric, then corrected himself and chose Bill. Eric's file
+was replaced before anything shipped.
+
+**Scope.** The Unfolding Story and the five About sections (mission, five
+convictions, how it works, safety, about us). Support, privacy, What's Next and
+Feedback are not narrated: the privacy text is legal, and What's Next and
+Support change often, so their audio would go stale or be misread.
+
+**Settings, as printed by the runs.** Voice `pqHfZKP75CvOlQylNhV4`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 6,172 characters in six pieces: 240 credits for the Unfolding Story
+(regenerated once after the voice change, so 480 spent on it) and 583 for the
+five About sections, plus 456 for the six samples. The text is read from the
+pages by `Build/tools/generate_site_narration.mjs`, which writes
+`audio/site/<piece>.mp3` and a manifest with each text fingerprint and the
+voice used, so an edit to a page shows its audio is stale.
+
+**Wired.** A player with the synthesized-voice note sits under the heading on
+the landing page, `story.html`, and under each About section heading. None
+starts by itself: a landing page that speaks unprompted is a different choice
+than a card the visitor opened.
+
+**Limit.** The library has no Colorado-labelled voice and the key cannot search
+voices; Bill is general American English.
+
+### Next action
+
+1. Mark listens on the live site.

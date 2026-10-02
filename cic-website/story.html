@@ -37,6 +37,9 @@
 .hero{max-width:none;margin:0;padding:1.75rem 0 .5rem;text-align:left}
 .hero h1{font-size:clamp(1.8rem,4vw,2.5rem);margin:0 0 .5rem}
 .story-body{padding:1rem 0 2.5rem}
+.narration{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:.3rem 0 .8rem}
+.narration audio{display:block;height:1.9rem;max-width:220px;width:220px;flex:0 0 auto}
+.flow-story .narration-disclosure,.narration-disclosure{font-family:var(--sans,sans-serif);font-size:.78rem;color:var(--muted,#B8AEA1);margin:0}
 .updates{margin:1rem 0 3rem;padding:1.25rem 1.4rem;background:#1E1913;border:1px solid var(--rule);border-radius:8px;font-family:'Alegreya Sans',sans-serif}
 .updates .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:#E08C74;font-weight:600;margin:0 0 .4rem}
 .updates ul{margin:0;padding:0 0 0 1.1rem}
@@ -89,6 +92,7 @@
     <section class="hero" aria-labelledby="story-title">
       <p class="eyebrow">The Unfolding Story</p>
       <h1 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h1>
+      <div class="narration"><audio controls preload="none" src="audio/site/unfolding-story.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div>
     </section>
 
     <div class="story-body">
