@@ -81,11 +81,16 @@ RECORDS_DIR = REPO_ROOT / "records"
 # Planning triggers for the store's total size, not a gate - see
 # Build/worlds/_cross-world/PLAN-texts-store-scaling.md for the reasoning
 # (git-lfs vs a separate cic-texts repository vs doing nothing) and why these
-# two numbers specifically. 700 MB is "go re-read the plan"; 1 GB is the
-# blueprint's own original "act on it" threshold. Printed by report() below,
-# never enforced - crossing either is not a defect.
-_SIZE_TRIGGER_BYTES = 700 * 1024 * 1024
-_SIZE_URGENT_BYTES = 1024 * 1024 * 1024
+# two numbers specifically. The first is "go re-read the plan"; the second is
+# "act on it". Printed by report() below, never enforced - crossing either is
+# not a defect.
+_SIZE_TRIGGER_BYTES = 1024 * 1024 * 1024
+_SIZE_URGENT_BYTES = 1536 * 1024 * 1024
+
+
+def _size_label(size_bytes: int) -> str:
+    """A size as the plan names it: 1GB, 1.5GB."""
+    return f"{size_bytes / (1024 ** 3):g}GB"
 
 # Two conventions seen across what's actually been vendored, both CCEL's
 # own: the plain-text export's "Rights: Public Domain" line, and ThML XML's
@@ -408,16 +413,16 @@ def report() -> int:
     total = total_bytes()
     mb = total / (1024 * 1024)
     if total >= _SIZE_URGENT_BYTES:
-        print(f"\ncic/texts/ is {mb:.0f} MB - at or past the ~1GB threshold in "
-              "Build/worlds/_cross-world/PLAN-texts-store-scaling.md. Time to act on "
+        print(f"\ncic/texts/ is {mb:.0f} MB - at or past the {_size_label(_SIZE_URGENT_BYTES)} "
+              "threshold in Build/worlds/_cross-world/PLAN-texts-store-scaling.md. Time to act on "
               "that plan, not just re-read it.")
     elif total >= _SIZE_TRIGGER_BYTES:
-        print(f"\ncic/texts/ is {mb:.0f} MB - past the 700MB planning trigger in "
+        print(f"\ncic/texts/ is {mb:.0f} MB - past the {_size_label(_SIZE_TRIGGER_BYTES)} planning trigger in "
               "Build/worlds/_cross-world/PLAN-texts-store-scaling.md. Worth a look "
               "before it becomes urgent.")
     else:
         print(f"\ncic/texts/ is {mb:.0f} MB ({total / _SIZE_TRIGGER_BYTES:.0%} of the "
-              "700MB planning trigger).")
+              f"{_size_label(_SIZE_TRIGGER_BYTES)} planning trigger).")
 
     problems = registry_problems_live()
     if problems:

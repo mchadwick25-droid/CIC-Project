@@ -29,7 +29,7 @@ has its own set of documents.
 | `download-queue-seed.yaml` | The hand-maintained half of the queue above — real verified urls and rights bases, append-only. Edit this, not `DOWNLOAD-QUEUE.md` directly. |
 | `discovery_helper.py` | Candidate finder for the queue above — takes an author/title want, queries Internet Archive / Google Books / Open Library live and Hathifiles / Gutenberg from a local offline dump, prints a paste-ready (unverified) stub for `download-queue-seed.yaml`. Never downloads a text; never writes the seed file itself. Run on Mark's machine or a research thread with real network — build threads never run it. |
 | `CORPUS-PARTITION-BRIEF.md` | **Superseded** by `BRIEF-corpus-assignment-thread.md`. Kept for its reasoning, not as instructions — it predates the decision that the map lives outside the built worlds, and the `corpus_review` record type it describes no longer exists. |
-| `PLAN-texts-store-scaling.md` | git-lfs vs. a separate `cic-texts` repository vs. doing nothing, for when `cic/texts/` outgrows plain git — the reasoning, the trigger (700 MB), and what has to change first. Hand-written, planning only, nothing executed yet. |
+| `PLAN-texts-store-scaling.md` | git-lfs vs. a separate `cic-texts` repository vs. doing nothing, for when `cic/texts/` outgrows plain git — the reasoning, the trigger (1 GB), and what has to change first. Hand-written, planning only, nothing executed yet. |
 
 ## The source readiness gate
 
@@ -137,10 +137,10 @@ more files to close 3 further §3 leads: Zwingli's *Latin Works*, Vol. III
 (Calvin, trans. King, 1847, a deliberate partial acquisition against the
 dossier's own ~22-volume Calvin Translation Society Commentaries lead),
 and two of the four volumes of the Bonnet-edited *Letters of John Calvin*
-(1858) — the set's Vol. III genuinely could not be located across three
-checked identifier families and is disclosed as an open gap, not
-substituted. Current total: 16 works across 14 files, 2 leads still open
-(Letters Vol. III; the ~20 remaining CTS Commentary volumes). Also
+(1858) — the set's Vol. III could not be located across three checked
+identifier families, and nothing is substituted for it. Current total: 16 works across 14 files. Not located: the
+Letters of John Calvin Vol. III, and the ~20 remaining CTS Commentary
+volumes. Also
 surfaced and flagged, not acted on this pass: this world's own
 `Build/worlds/rzg/Source_Registry.md` independently tracks five further,
 higher-priority acquisition gaps (Ecclesiastical Ordinances, the Genevan
