@@ -6111,3 +6111,27 @@ thread's own next decision to make, not assumed here.
 **Entry 80 — 2026-10-02.** Coordination entry before editing `engine/m4/turn.py`, `engine/m4/round.py` and `engine/m4/facilitator_turns.py`, for the P1-Security daily-cap ruling (P1-Security Decision-Log entry 10, "Item 9b ruled"). `run_turn` and `open_table_round` gain a `daily_cap_reached` flag, checked beside the session cap after the gate and before any voice call, with the same acute-crisis exemption. `facilitator_turns` gains `daily_cap_turn`, a close-kind template. No change to the gate, routing, grounding, citation or transparency code this workstream owns.
 
 **Entry 81 — 2026-10-02.** The conversation system design was approved to proceed (System Hub Decision Log, "Conversation system design: approved to proceed, Design C"). Its five change orders on the Program Spec are entered in `Rulings-Pending.md` as R43 to R47. R47, the citation mechanism, is ruled (Mark's decision 10): native API citations replace the hand-copied citation ids, and R9, R10, R17 and the R27 family keep their meaning, marks, placement and cap. It is not trusted until E1's third arm proves it. R43 to R46 are pending. No code changes in this entry.
+
+**Entry 82 — 2026-10-02.** Slice 0 of the conversation system design: the standing-measure suite and the baseline band. `engine/m7/standing_measure.py` scores each world-run from the saved admission transcripts with no model call, and computes the band across the three baseline runs (`engine/m7/band/baseline-2026-10-02.json`). The transcripts are 33 runs, 11 worlds three times each, on the packages pinned on 2026-10-02, voice model `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, self-revision not in the harness path, in `engine/m3/reports/baseline-2026-10-02/`. Every world passed 28 of 28 in every run. Metered cost of the baseline including its sample: $16.81.
+
+Fleet row (mean of world means, with the lowest and highest world):
+
+| Dimension | Mean | Min | Max |
+|---|---|---|---|
+| cutoff_rate | 0.016234 | 0.0 | 0.059524 |
+| distinctness_overlap | 0.015662 | 0.013656 | 0.017018 |
+| invented_ids_per_100_sentences | 0.448152 | 0.0 | 1.392335 |
+| pass_rate | 1.0 | 1.0 | 1.0 |
+| readability_fk_median | 8.23147 | 7.000698 | 10.078949 |
+| readability_fre_median | 68.175673 | 59.098508 | 73.835535 |
+| seconds_to_first_text_median | 1.466182 | 1.342167 | 1.6205 |
+| seconds_total_median | 12.31597 | 10.461833 | 14.68 |
+| usd_per_reply_mean | 0.017526 | 0.011972 | 0.025153 |
+| withheld_mark_rate | 0.074007 | 0.029055 | 0.108164 |
+| words_median | 270.681818 | 237.0 | 320.5 |
+
+Invented ids, withheld marks and cut-offs are noisy at this sample size: several worlds' half-range exceeds a third of their mean, because each world has only a handful of such events in 84 replies. The other dimensions are steady across runs.
+
+Eleven dimensions are not computed yet, each named in the band file with the slice or instrument that supplies it: meaning fit, citation support, honest-limit honesty, first sentence answers the first ask, asks covered, restating the participant, horizon leaks, future-leak rate, quote verbatim, safety routing, and full-turn cost and delay.
+
+Open: the risk guard's staleness half. The suite's test fails when the band file is missing or does not reproduce from the transcripts. It does not yet fail when a later slice changes a measured surface without a fresh band; that needs a definition of the measured surfaces, which slice 3 (the shape segment, the first change to one) supplies.
