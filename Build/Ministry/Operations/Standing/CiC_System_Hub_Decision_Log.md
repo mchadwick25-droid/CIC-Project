@@ -6065,3 +6065,13 @@ The design, with its appendix pages (rigor ledger, gap hunt, records), is publis
 - CO-5, the citation mechanism (decision 10). Ruled. R9, R10, R17 and the R27 family keep their meaning, marks, placement and cap. Only the mechanism changes, from ids the model copies by hand to the citation blocks the API returns. It is not trusted until E1's third arm shows it inside the band or better on invented ids, citation count and meaning fit.
 
 **The merge rule.** The design brief said the project lead's merge rule had never been logged. It was logged on 2026-10-02, in the entry "Claude threads merge their own pull requests" above: merge once every required check is green, except the production promotion, which stays with the project lead. Nothing further is added here.
+
+## 2026-10-02 - Conversation system design: dossiers carry witnesses and stories (decision 20, change order CO-7)
+
+Matcher recall was measured before E1, as the risk guard requires, and the guard tripped: a dossier holding only the matched cell's records would hold 30.7% of what baseline replies cite, and the matcher picks the right cell on 24.7% of probes. An Opus review of 110 out-of-cell citations found 48% load-bearing, chiefly doctrinal witnesses (71%) and stories (67%). The measurements are in the Conversation-Transparency-Engine Decision-Log, Entries 84 to 87.
+
+The project lead ruled on 2026-10-02:
+
+20. A cell's dossier holds the cell's own records plus all of the world's doctrinal witnesses and stories. Terms reach the voice through the index and the glosses. This is change order CO-7 on Design C's staging (decision 3), where a dossier held only the records whose notes name the cell. On the baseline it raises the share of cited records held from 30.7% to 54.3%. E1 is redesigned on this layout, and its settings come back to the project lead before it runs.
+
+He also ruled the same day that Bedrock spend is for generating conversation, and review and grading run inside the build session.
