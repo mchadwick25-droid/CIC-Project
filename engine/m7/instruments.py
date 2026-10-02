@@ -48,7 +48,7 @@ def _defect_family(d) -> str | None:
 
 
 def unread_outputs(s: AuditSession) -> list[Finding]:
-    """§3.1 - the four formerly-unread outputs, surfaced.
+    """§3.1 - the three formerly-unread outputs, surfaced.
 
     guard_proximity entries are excluded from this generic bucket - they
     get their own dedicated instrument (guard_proximity, below) at defect
@@ -59,10 +59,6 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
     """
     findings = []
     for t in s.voice_turns:
-        if t.do_not_voice_violation:
-            findings.append(Finding("do_not_voice", "defect", s.session_id,
-                                    f"content-licensing violation on {t.speaker}'s turn (seq {t.seq}): {t.do_not_voice_violation}",
-                                    excerpt=t.text[:200]))
         for d in t.output_defects:
             if _defect_family(d) == "guard_proximity":
                 continue
@@ -86,7 +82,7 @@ def guard_proximity(s: AuditSession) -> list[Finding]:
     (engine.m4.output_check), read at defect severity - the one
     output_check family that is a live fabrication risk (a sentence
     sharing a cited record's own barred claim), not a cosmetic/register
-    issue like the other three. Feeds R14 (Rulings-Pending.md): reports
+    issue like the other three. Reports
     only, same as every instrument in this module, never a block."""
     findings = []
     for t in s.voice_turns:
@@ -135,11 +131,11 @@ def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
         stripped = _strip_quoted(t.text)
         m = measure(stripped)
         entry = {"seq": t.seq, "speaker": t.speaker, **m}
-        # Cadence, measured never gated (the register-translation pass,
-        # 2026-08-29: the fragment-poetic register lived in record prose and
-        # was invisible to grade-level numbers - FK sat in-band while the
-        # prose chanted). Spaced em-dashes per 100 words and the share of
-        # sentences of five words or fewer make that drift visible per turn.
+        # Cadence, measured never gated: the fragment-poetic register can
+        # live in record prose while staying invisible to grade-level
+        # numbers - FK sits in-band while the prose chants. Spaced
+        # em-dashes per 100 words and the share of sentences of five words
+        # or fewer make that drift visible per turn.
         words = stripped.split()
         if words:
             entry["dash_per_100w"] = round(100 * stripped.count(" - ") / len(words), 2)
@@ -189,11 +185,9 @@ def _legacy_anchor_marks(anchors: list[dict]) -> int:
 
 
 def level1_element_density(s: AuditSession) -> list[dict]:
-    """Stage 6d / R17 (Rulings-Pending.md, Decision-Log.md Entry 29): "an M7
-    instrument counting Level-1 elements per turn" (Adjusted-Design.md's
-    N2). Report-only, no findings (principle 10: report-only instruments
-    stay report-only until data earns them a bar) - this measures, it
-    does not enforce. Metrics only, same shape as register_mechanical's
+    """Counts Level-1 elements per turn. Report-only, no findings
+    (principle 10: report-only instruments stay report-only until data
+    earns them a bar) - this measures, it does not enforce. Metrics only, same shape as register_mechanical's
     own metrics half.
 
     A "Level-1 element" is an inline mark visible directly in the running
@@ -322,13 +316,11 @@ def offer_rates(s: AuditSession) -> dict:
 
 
 def cross_voice_echo(s: AuditSession) -> list[Finding]:
-    """§3.5's cross-voice half, added 2026-08-28 after the F1 register-reach
-    battery: two DIFFERENT voices in one round sharing long word runs is a
-    distinctiveness defect the within-voice repetition instrument cannot
-    see (the battery's L4 turns opened near-verbatim alike across all
-    three seats; the Gemini outside read named it 'template echo').
-    Deterministic: shared 6-grams across distinct speakers in the same
-    round -> review. Interview sessions have one voice and are skipped."""
+    """§3.5's cross-voice half: two DIFFERENT voices in one round sharing
+    long word runs is a distinctiveness defect the within-voice
+    repetition instrument cannot see. Deterministic: shared 6-grams
+    across distinct speakers in the same round -> review. Interview
+    sessions have one voice and are skipped."""
     findings = []
     by_round: dict[int, list] = {}
     for t in s.voice_turns:

@@ -61,10 +61,6 @@ and a miracle account are never blended - the legacy chunk's own
 standing rule, enforced in the do_not_retrieve_when). Serves F1-I
 (the councils question) beside syr.dw.decides.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.
 
-CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
-and the five world read"; V1.2 birth condition applied to the existing
-fleet - one story and one term per center cell where they genuinely
-belong, honest empties recorded). Added to C-T: "Was Jesus God?" - the tradition's memory of its own bishop standing at Nicaea with those who confessed the Son as true God grounds this world's yes. Content unchanged; the added
-cell and this note are the whole edit.
+canon_cells includes C-T: "Was Jesus God?" - the tradition's memory of its own bishop standing at Nicaea with those who confessed the Son as true God grounds this world's yes.

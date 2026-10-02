@@ -50,18 +50,8 @@ fringe, always-defeated heresy - for about two decades this was the
 establishment" - is the turn's own opening move). We-voice throughout;
 not an identity-collision cell.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22):
-"most of a century" inflated ijc.term.homoousios's own arithmetic
-("argued, enforced, reversed, and re-enforced across half a century") -
-restated to match. "Constantius" is now "Constantius II," matching
+"Constantius II" matches
 every other record in this build that names him, in a world whose
-participants may also know Constantine and Constantius Chlorus. Three
-long sentences (33-40 words each, the heaviest contributor to this
-turn's FK 14.0, the highest in the set) are split into shorter ones;
-the content is unchanged.
+participants may also know Constantine and Constantius Chlorus.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). homoousios and homoios labeled at the argument's own two poles, the words the half-century was about. Claims unchanged; the label is the whole edit.
+homoousios and homoios are labeled at the argument's own two poles, the words the half-century was about: plain meaning stated first, the world's own word given after it as a label, so the lexicon scan can pick it up for the glossary. Claims are unchanged; the label is the only change.

@@ -50,7 +50,7 @@ relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 ---
-Text verified verbatim against the vendored file 2026-08-27 at
+Text verified verbatim against the vendored file at
 npnf109 line 17739, with the scriptural citation marker ("Luke xxiii.
 34.") that the edition prints inline between the two sentences removed
 and no other change. DISCLOSED, because the milan-edict record's own
@@ -58,13 +58,12 @@ review found an undisclosed punctuation substitution and that is not
 a mistake to repeat: the excerpt joins two consecutive sentences of one
 paragraph.
 
-Quote-verbatim gate fix (2026-09-22): the truncation at "spectacle to the whole world" was itself the
-defect the note above worried about repeating - it substituted an invented period for the source's own
-comma, silently dropping the sentence's own close ("and silent though he is, he utters from thence a
-warning voice to all, saying 'do not such things as I have done, that ye suffer not such things as I
-suffer.'"). Restored rather than elided: this is exactly the "warning voice"/public-lesson point this
-record's own body note below already reads as central ("calls his ruin a public lesson"), not a change
-of claim. modern_rendering extended to match.
+The quote continues past "spectacle to the whole world" through the
+sentence's own close ("and silent though he is, he utters from thence a
+warning voice to all, saying 'do not such things as I have done, that ye
+suffer not such things as I suffer.'") - exactly the "warning
+voice"/public-lesson point this record's own body note below reads as
+central ("calls his ruin a public lesson"). modern_rendering matches.
 
 This is the sharpest single line in the corpus on where the alliance
 stops. Chrysostom is not arguing with the emperor here; he is arguing
@@ -75,4 +74,4 @@ that Eutropius destroyed the very protection now sheltering him, and
 calls his ruin a public lesson. Mercy and satisfaction in the same
 breath, from the same pulpit.
 
-MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+The spoken form is a modern-English translation, not a summary; the original wording stays as this record's text, shown at Level 3. It is rendered from this record's own text field only - nothing added from the source beyond it.

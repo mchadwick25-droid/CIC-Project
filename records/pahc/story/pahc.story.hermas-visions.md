@@ -67,4 +67,4 @@ created first of all... for her sake was the world made" and the
 Clement/Grapte instruction ("along with the presbyters who preside
 over the Church") both checked directly against cic/texts/anf02_
 hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii.
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

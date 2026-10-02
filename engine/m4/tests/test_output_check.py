@@ -148,8 +148,7 @@ def test_a_traditions_phrasing_is_not_a_claim_about_this_conversation():
     assert [f for f in findings if f["family"] == "conversational"] == []
 
 
-# find_shipped_defects: H-3 (witt go-live adversarial review, 2026-09-19).
-# A defect check_output() already caught reached engine.m4.live_turn_run's
+# find_shipped_defects: a defect check_output() already caught reached engine.m4.live_turn_run's
 # own report with `degraded: false` on the same turn - nothing read
 # output_defects back before this. These cases are the report shapes
 # themselves, not the text-level check already covered above.
@@ -194,9 +193,9 @@ def test_table_run_report_with_no_voice_this_position_is_clean():
     assert find_shipped_defects(report) == []
 
 
-# ---- guard_proximity: R11's guard half (Build-Plan.md Stage 4b) -----------
-# The real guard text and the real fabricated assertion Stage 1's own D1
-# measurement (Rulings-Pending.md) used - gallic.story.brictio-in-the-
+# ---- guard_proximity: the prefer_instead redirect rule's guard half (Build-Plan.md Stage 4b) -----------
+# The real guard text and the real fabricated assertion the measurement
+# used - gallic.story.brictio-in-the-
 # courtyard, one of the 13 real guard clauses, caught only 2/13 times by
 # grounding_net's own per-sentence check.
 

@@ -51,55 +51,24 @@ retrieval weight, recorded as a deliberate divergence from the old
 lexicon tier). Strand-B codification vs A/C assumed-threshold contrast
 carried.
 
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop "the Rule's own vendorable text" in favor of in-world evidence talk.
+The evidential sense gives the fuller sequence from Vita SS2-3
+(verified against npnf204 lines 31248-31267): the land was given to
+the villagers, not sold - only the movable goods were sold, with the
+proceeds given to the poor - and Antony's reserve kept back for his
+sister was itself given away on hearing "be not anxious for the
+morrow," with no time interval stated between the two moments (the
+Life's own text says only "again"). The fuller sequence is better
+evidence for this record's own thesis: renunciation re-enacted, not
+completed at the door.
 
-Step3a Review Round 4, Finding S5: the locus and evidential sense had
-mischaracterized Vita SS2-3, twice. (1) The land was GIVEN to the
-villagers, not sold - only the movable goods were sold, with the
-proceeds given to the poor. (2) The record reported "keeping only
-provision for his sister" as the passage's own upshot, but SS3 - inside
-the very span cited - has Antony give that reserve away too, on hearing
-"be not anxious for the morrow," and place his sister with virgins.
-Verified against npnf204 lines 31248-31267. Corrected in both fields;
-the fuller sequence is better evidence for this record's own thesis
-(renunciation re-enacted, not completed at the door) than the version
-that stopped at SS2.
-
-Step3a Review Round 5, Finding C5: the evidential sense's "days later"
-was an invented interval - the Life's own text says only "again," with
-no time elapsed stated. Removed.
-
-Step3a Review Round 6, Finding S2: the evidential sense's "one remove
-away: reports of what the Rule required" misnamed the channel for the
-property-renunciation claim specifically. Palladius ch. XXXII and
-Sozomen III.14 (both read in full this round) give the Tabennesiot
-angel-tablet rule and a three-year probation, not property renunciation
-as an entry condition; that claim is carried instead by the Latin Rule
-tradition per desert.source.pachomian-corpus's own standing rule
-("every Rule-content claim... must name its actual channel"). Corrected
-in both the locus and the evidential sense to name the actual channel
-rather than the nearer-sounding one.
-
-Step3a Review Round 7, Finding S2: the Round 6 fix moved the claim onto
-"modern scholarship" without registering any scholarship source, though
-desert.source.rousseau-pachomius states in terms that it is the named
-authority for exactly this - "where Rule-content or Lives-incident
-claims need a modern authority on top of the vendored one-remove
-witnesses... this is the named authority." Registered above.
-
-Step3a Review Round 7, Finding C3: "three removes from the Coptic" had
-been attached to Jerome's Latin translation itself; Doc_02 SS1.2 gives
-the Rule's own transmission chain as Coptic to Greek to Jerome's Latin
-- two stages, not three. The third stage is the modern scholarly
-rendering that carries the claim into this build. Corrected in both
-the locus and the evidential sense to attach the count to the right
-link in the chain.
-
-Step3a Review Round 8, Finding B1: the Round 7 fix's own correction had
-written "reaching this build two stages removed" into the evidential
-sense - the corpus/build self-reference family Rounds 1-3 named and
-excised, reintroduced here after two consecutive rounds had confirmed
-it clear. The sixth illusory-fix recurrence in this lexicon's history.
-"this build" removed; the sentence needed no other change, since the
-locus (not compiled) already carried the fuller apparatus framing.
+The property-renunciation-as-entry-condition claim is carried by the
+Latin Rule tradition (per desert.source.pachomian-corpus's own standing
+rule that a Rule-content claim must name its actual channel), not by
+Palladius ch. XXXII or Sozomen III.14, which give the Tabennesiot
+angel-tablet rule and a three-year probation but not this condition.
+desert.source.rousseau-pachomius is registered as the named modern
+authority for that claim. The Rule's own transmission chain is Coptic
+to Greek to Jerome's Latin - two stages, not three - so "two stages
+removed from the Coptic" attaches to Jerome's Latin translation itself,
+with the further stage of modern scholarly rendering carried in the
+locus rather than the evidential sense.

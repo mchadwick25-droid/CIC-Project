@@ -54,8 +54,3 @@ modern_contrast: 'A modern reader often hears an attack on a monastery by "heret
 Re-derived from cleared Doc_09a S4, re-sourced on this branch to the full
 five-letter cluster. The women's lost letter and the community's own
 restraint are the story's honest center. Serves F6-P.
-
-CORRECTED per independent review Round 1 (2026-08-21): Ep. 137 is
-addressed to John of Jerusalem, not to Eustochium and the younger Paula -
-a prior version of this text read as though Innocent answered the women
-directly. Reworded so the addressee chain is accurate.

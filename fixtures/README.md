@@ -18,11 +18,10 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
   something real to run against before Alexandria (stage 7) is built.
 - **`records/fix/**`** — a clean, gate-passing fixture world covering all 15
   per-world record types (Artifact-1 §4): world_core, source (×2), term (×2),
-  story, quote (×3, including the do-not-voice case), figure, gravity, force,
+  story, quote (×3, including the paraphrase-only case), figure, gravity, force,
   contested_claim, doctrinal_witness, honest_limit (×3), ambient,
   demonstration (×2, including the identity-collision case), voice_craft,
-  search_record (×2, including a search that returned nothing). Plus, as of
-  2026-09-19 (Website V2 world_front design, approved to proceed),
+  search_record (×2, including a search that returned nothing). Plus
   world_front (×1, `fix.front.fixture-synthetic`) - deliberately minimal
   (one skim.tile unit, one orientation unit), a schema-valid example
   quoting `fix.quote.identity-collision-saying`'s own `modern_rendering`

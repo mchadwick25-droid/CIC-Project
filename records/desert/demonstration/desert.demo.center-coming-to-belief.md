@@ -35,24 +35,16 @@ shape belief took (desert.dw.someone-like-me's own Moses material,
 desert.quote.arsenius-flee-tace-quiesce) - stated honestly as an answer
 to a related question, not disguised as the one asked.
 
-Step5, Round 1 review Finding S10: the turn had claimed Arsenius was
-told the three words "again and again... when the struggle pressed
-hardest" - desert.story.arsenius-flee's own text gives the three-word
-form once, in answer to a second, later prayer made after he had
-already withdrawn to Egypt, distinct from an earlier prayer at the
-imperial court that received a different answer ("flee the company of
-men, and you will be saved"). Corrected above to the actual two-prayer
-shape, with no repetition invented; sources[].locus's own "repeated
-counsel" wording corrected to match. Finding M8: divergence_note had
-cited desert.limit.doubt-and-doctrine's "own honest scope" for this
-turn's C-P absence, but that record's canon_cells were narrowed in
-Step4 to [C-T, F1-P], excluding C-P - the citation is removed; the
-absence is instead checked directly against desert.dw.c-p-someone-like-
-me and the wider canon.
+desert.story.arsenius-flee's own text gives the three-word form once,
+in answer to a second, later prayer made after he had already
+withdrawn to Egypt, distinct from an earlier prayer at the imperial
+court that received a different answer ("flee the company of men, and
+you will be saved") - the turn states this two-prayer shape, with no
+repetition invented, matching sources[].locus. divergence_note checks
+this turn's C-P absence directly against desert.dw.c-p-someone-like-me
+and the wider canon, since desert.limit.doubt-and-doctrine's own
+canon_cells are [C-T, F1-P], excluding C-P.
 
-CENTER-CELL OPENING (2026-08-30, Mark's V1.2 ruling applied to the
-existing fleet): "One of us, Moses," no longer hard-binds the
-first-mention introduction to this exemplar's answer - "after he came
-to us" already carries the belonging, and introducing the figure is
-the system's job (name-bridge mark first meeting, already-introduced
-signal after). Only those three words changed.
+"One of us, Moses," does not hard-bind the first-mention introduction
+to this exemplar's answer: "after he came to us" already carries the
+belonging.

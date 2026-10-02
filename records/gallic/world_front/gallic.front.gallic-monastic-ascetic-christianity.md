@@ -553,10 +553,9 @@ none exists") required no new authoring because both already existed.
 prose (which uses "Treves" for what this world's own vendored-text
 convention keeps as "Trier" in the site's title but "Treves" inside the
 record itself, per `gallic.story.trier-and-the-ithacian-communion`'s own
-body note on the Doc_09 Round 2 spelling fix - this record's own `title`
+body note - this record's own `title`
 field uses "Martin Yields Once, at the Emperor's Court" to sidestep the
-place-name entirely rather than pick a side of that already-settled
-correction).
+place-name entirely rather than pick a side of that spelling question).
 
 JUDGMENT CALLS, flagged plainly:
 

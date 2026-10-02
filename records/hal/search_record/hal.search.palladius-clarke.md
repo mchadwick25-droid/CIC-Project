@@ -20,4 +20,4 @@ found_sources:
 - hal.source.palladius-lausiac
 note: "Both chapters located and wording collated verbatim: ch. 41 'She was hindered by a certain Jerome from Dalmatia... he hindered her by his jealousy, having induced her to serve his own plan'; ch. 36 (Posidonius) on Jerome's 'qualities of temper so disastrous' and the prophecy that Paula 'will die first and be freed from his bad temper.' The prior build (Doc_02 section 2.2) had located HL 41 but explicitly deferred wording verification - that flag is now closed."
 ---
-Run 2026-08-21. Rights read from the file's own prepended header.
+Rights read from the file's own prepended header.

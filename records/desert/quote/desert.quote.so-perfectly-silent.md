@@ -57,15 +57,11 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.term.synaxis}
 ---
-Added 2026-09-09, in response to an independent adversarial review of
-this same session's earlier Institutes II.5/II.18 additions: the review
-found that Institutes II.10 - Cassian's own naming and glossing of
-"synaxes" - was a better, more directly on-point passage sitting one
-chapter away, unused. Verified directly against
+Institutes II.10 is Cassian's own naming and glossing of "synaxes."
+Verified directly against
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml at line
-17396. DISCLOSED ELISION: the quoted text stops at "distract those
-standing near"; the chapter continues with a second paragraph on
-involuntary groaning during fervent prayer and the double fault of
-audible distraction - substantively interesting but not needed to
-carry this term's own point, and cut to keep the quote to one
-self-contained idea (the silence itself) rather than two.
+17396. The quoted text stops at "distract those standing near"; the
+chapter continues with a second paragraph on involuntary groaning
+during fervent prayer and the double fault of audible distraction.
+That material is not needed to carry this term's own point, so the
+quote keeps to one self-contained idea: the silence itself.

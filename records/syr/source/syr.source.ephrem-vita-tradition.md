@@ -11,9 +11,9 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: Documented here means the TRADITION's sixth-century dating is documented (Amar; the
-    Doc_04 Round 2 review's independent confirmation) - not that its biographical claims about Ephrem
-    are documented facts; they are later reception, outside the window
+  divergence_note: Documented here means the TRADITION's sixth-century dating is documented (per Amar) -
+    not that its biographical claims about Ephrem are documented facts; they are later reception,
+    outside the window
 sources: []
 author: Jacob of Serug (c. 451-521) and the anonymous Syriac Vita Ephraemi tradition (6th century)
 work: 'The later Ephrem-memory dossier: Jacob of Serug''s metrical homily (memra) on Ephrem, and the Syriac
@@ -29,6 +29,6 @@ discovery_channel: carried from the approved legacy Doc_04 Revision Log and Doc_
   registered at the story step
 ---
 Registered so the two later-tradition stories have a resolvable source.
-Amar's own assessment (carried in the legacy Doc_09): the memra is more
-historically grounded than the Greek-derived Vita - it knows the
-indigenous choirs, not the imported severe-ascetic image.
+Amar's own assessment: the memra is more historically grounded than the
+Greek-derived Vita - it knows the indigenous choirs, not the imported
+severe-ascetic image.

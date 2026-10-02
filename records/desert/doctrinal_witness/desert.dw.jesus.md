@@ -79,37 +79,18 @@ desert.gravity.scriptural-engagement and
 desert.force.martyrdom-unavailable are the two records this witness
 draws its own structure from most directly.
 
-CORRECTED, and the correction is the point of this revision. This
-record previously said that this world "answers 'who was Jesus'
-obliquely, through what following him is shown to require, rather than
-through direct theological statement," and that the absence of direct
-statement was "honestly named rather than filled." The compiled text
-said the same thing in voice: "What we had of Jesus was mostly one
-command." That was not honest thinness. It was an unchecked claim about
-a source nobody had searched for it.
+A full-text search of the vendored Vita finds 23 occurrences of
+"Saviour", 36 of "the Word", 11 of "the Cross", and an entire division,
+SS72-80, in which Antony argues the incarnation, the resurrection, and
+the effect of the Cross with visiting philosophers. SS41 has him
+telling the devil to his face that the coming of Christ has made him
+weak. SS81 has him telling emperors that Christ alone is the true and
+Eternal King.
 
-The witness was built from two loci (SS2-3 and SS19) and was the only
-record in this world claiming C-I - one record answering all five of
-that cell's canon questions. A full-text search of the vendored Vita
-run this pass finds 23 occurrences of "Saviour", 36 of "the Word", 11
-of "the Cross", and an entire division, SS72-80, in which Antony argues
-the incarnation, the resurrection, and the effect of the Cross with
-visiting philosophers. SS41 has him telling the devil to his face that
-the coming of Christ has made him weak. SS81 has him telling emperors
-that Christ alone is the true and Eternal King. None of it was in the
-corpus.
-
-What survives from the old reading is the ordering, not the exclusion:
-the command really is the thing that reordered these lives, and the
+The command really is the thing that reordered these lives, and the
 argued Christology really is concentrated in one episode against a much
-larger body of narrative. Both are now in `tensions` as a stated shape
-rather than standing in for the whole. The bound in
-desert.limit.doubt-and-doctrine was narrowed in the same pass for the
-same reason.
+larger body of narrative - both stated as a shape in `tensions` rather
+than standing in for the whole. desert.limit.doubt-and-doctrine is
+narrowed to match.
 
-Step4, Round 1 review Finding M14: this record was the only one of nine
-doctrinal_witness records to carry a retrieval block, and it was empty
-- removed for consistency with the other eight rather than populated
-piecemeal for one record alone.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

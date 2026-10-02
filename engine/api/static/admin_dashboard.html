@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>CiC usage dashboard</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --gridline: #e1e0d9;
+    --border: rgba(11, 11, 11, 0.10);
+    --accent: #2a78d6;
+    --warning: #fab219;
+    --critical: #d03b3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted: #898781;
+      --gridline: #2c2c2a;
+      --border: rgba(255, 255, 255, 0.10);
+      --accent: #3987e5;
+      --warning: #fab219;
+      --critical: #e66767;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  h1 { font-size: 20px; font-weight: 600; margin: 0; }
+  .subtitle { color: var(--text-secondary); font-size: 13px; margin-top: 4px; }
+  .toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  select, button, input {
+    font: inherit;
+    font-size: 13px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--text-primary);
+  }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  section { margin-bottom: 32px; }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+  .tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .tile .label { font-size: 13px; color: var(--text-secondary); }
+  .tile .value { font-size: 28px; font-weight: 600; margin-top: 6px; line-height: 1.1; }
+  .tile .value.hero { font-size: 40px; }
+  .tile .caveat { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  th, td { text-align: left; padding: 10px 12px; font-size: 13px; border-bottom: 1px solid var(--gridline); }
+  th { color: var(--text-muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.03em; }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .muted { color: var(--text-muted); }
+  .empty { color: var(--text-muted); font-size: 13px; padding: 16px; text-align: center; }
+  .banner {
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--warning);
+    background: var(--surface-1);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+  .banner.error { border-left-color: var(--critical); }
+  .gate {
+    max-width: 360px;
+    margin: 80px auto;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+  }
+  .gate p { color: var(--text-secondary); font-size: 13px; }
+  .gate input { width: 100%; margin: 12px 0; }
+  .hidden { display: none; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div id="gate" class="gate">
+    <h1>CiC usage dashboard</h1>
+
+    <div id="setup-form" class="hidden">
+      <p>First time setup: enter the admin token once (Render → this service → Environment → <code>CIC_API_ADMIN_TOKEN</code>), then choose a password you'll actually remember.</p>
+      <input id="setup-token" type="password" placeholder="Admin token (one-time)" autocomplete="off" />
+      <input id="setup-password" type="password" placeholder="New password" autocomplete="new-password" />
+      <p class="caveat" style="text-align: left; margin: -6px 0 12px;">12–20 characters, at least one capital letter, one number, one symbol.</p>
+      <button id="setup-submit">Set password &amp; log in</button>
+    </div>
+
+    <div id="login-form" class="hidden">
+      <p>Enter your dashboard password.</p>
+      <input id="login-password" type="password" placeholder="Password" autocomplete="current-password" />
+      <button id="login-submit">Log in</button>
+      <p style="margin-top: 14px;"><a href="#" id="show-setup">Forgot it, or want to set a new one?</a></p>
+    </div>
+
+    <p id="gate-error" class="hidden" style="color: var(--critical);"></p>
+  </div>
+
+  <div id="app" class="wrap hidden">
+    <header>
+      <div>
+        <h1>CiC usage dashboard</h1>
+        <div class="subtitle" id="range-label">All sessions ever logged</div>
+      </div>
+      <div class="toolbar">
+        <select id="since-select">
+          <option value="">All time</option>
+          <option value="7">Last 7 days</option>
+          <option value="30">Last 30 days</option>
+          <option value="90">Last 90 days</option>
+        </select>
+        <button id="refresh">Refresh</button>
+        <button id="sign-out">Sign out</button>
+      </div>
+    </header>
+
+    <div id="banners"></div>
+
+    <section>
+      <h2>People and time — the headline numbers</h2>
+      <div class="tiles">
+        <div class="tile">
+          <div class="label">Unique visitors</div>
+          <div class="value hero" id="t-unique-visitors">—</div>
+          <div class="caveat">Pseudonymous cookie, not an account. One person on two devices counts twice.</div>
+        </div>
+        <div class="tile">
+          <div class="label">Median session length</div>
+          <div class="value hero" id="t-median-session">—</div>
+          <div class="caveat">Average <span id="t-average-session">—</span></div>
+        </div>
+        <div class="tile">
+          <div class="label">Median time per visitor</div>
+          <div class="value hero" id="t-median-visitor-total">—</div>
+          <div class="caveat">Summed across a visitor's own sessions that day. Average <span id="t-average-visitor-total">—</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sessions</h2>
+      <div class="tiles">
+        <div class="tile">
+          <div class="label">Total sessions</div>
+          <div class="value" id="t-total-sessions">—</div>
+        </div>
+        <div class="tile">
+          <div class="label">Open sessions</div>
+          <div class="value" id="t-open-sessions">—</div>
+        </div>
+        <div class="tile">
+          <div class="label">Sessions with a visitor id</div>
+          <div class="value" id="t-attributed-sessions">—</div>
+          <div class="caveat" id="t-attribution-caveat"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cost and tokens by world</h2>
+      <div id="world-table-wrap"></div>
+      <div class="caveat" id="price-source-note" style="margin-top: 8px;"></div>
+    </section>
+
+    <section>
+      <h2>Questions people ask</h2>
+      <div class="caveat" id="asks-freshness" style="margin-bottom: 8px;"></div>
+      <div id="asks-table-wrap"></div>
+    </section>
+  </div>
+
+<script>
+(function () {
+  "use strict";
+  const gate = document.getElementById("gate");
+  const app = document.getElementById("app");
+  const setupForm = document.getElementById("setup-form");
+  const loginForm = document.getElementById("login-form");
+  const gateError = document.getElementById("gate-error");
+
+  function showError(message) {
+    gateError.textContent = message;
+    gateError.classList.remove("hidden");
+  }
+  function clearError() {
+    gateError.classList.add("hidden");
+  }
+
+  // The session (a cookie set by /api/admin/login) rides on every
+  // same-origin fetch automatically - nothing client-side to store or
+  // attach by hand, unlike the old bearer-token-in-sessionStorage design.
+  async function fetchJSON(path) {
+    const resp = await fetch(path, { credentials: "same-origin" });
+    if (resp.status === 404) throw new Error("Not logged in, or the admin route isn't configured on this deploy.");
+    if (!resp.ok) throw new Error(path + " returned " + resp.status);
+    return resp.json();
+  }
+
+  function fmtNumber(n) {
+    if (n === null || n === undefined) return "—";
+    return n.toLocaleString();
+  }
+  function fmtCompact(n) {
+    if (n === null || n === undefined) return "—";
+    return Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 }).format(n);
+  }
+  function fmtDuration(seconds) {
+    if (seconds === null || seconds === undefined) return "—";
+    if (seconds < 60) return Math.round(seconds) + "s";
+    if (seconds < 3600) return Math.round(seconds / 60) + "m";
+    return (seconds / 3600).toFixed(1) + "h";
+  }
+  function fmtDollars(n) {
+    if (n === null || n === undefined) return "—";
+    return "$" + n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 4 });
+  }
+  function el(tag, attrs, children) {
+    const e = document.createElement(tag);
+    Object.entries(attrs || {}).forEach(([k, v]) => {
+      if (k === "text") e.textContent = v; else e.setAttribute(k, v);
+    });
+    (children || []).forEach((c) => e.appendChild(c));
+    return e;
+  }
+  function banner(message, isError) {
+    return el("div", { class: "banner" + (isError ? " error" : ""), text: message });
+  }
+
+  function renderWorldTable(byWorld) {
+    const wrap = document.getElementById("world-table-wrap");
+    wrap.innerHTML = "";
+    if (!byWorld || byWorld.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "No usage recorded yet in this range." }));
+      return;
+    }
+    const table = el("table", {});
+    const thead = el("tr", {}, [
+      el("th", { text: "World" }),
+      el("th", { class: "num", text: "Calls" }),
+      el("th", { class: "num", text: "Input tokens" }),
+      el("th", { class: "num", text: "Output tokens" }),
+      el("th", { class: "num", text: "Cost" }),
+    ]);
+    table.appendChild(el("thead", {}, [thead]));
+    const tbody = el("tbody", {});
+    byWorld.forEach((w) => {
+      const label = w.world_key === "_unattributed" ? "Not attributed to a world" : w.world_key;
+      const costCell = w.priced_dollars > 0
+        ? fmtDollars(w.priced_dollars) + (w.unpriced_calls > 0 ? " *" : "")
+        : (w.unpriced_calls > 0 ? "unpriced" : "$0.00");
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: label }),
+        el("td", { class: "num", text: fmtNumber(w.calls) }),
+        el("td", { class: "num", text: fmtNumber(w.input_tokens) }),
+        el("td", { class: "num", text: fmtNumber(w.output_tokens) }),
+        el("td", { class: "num", text: costCell }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  function renderAsksTable(topAsks) {
+    const wrap = document.getElementById("asks-table-wrap");
+    wrap.innerHTML = "";
+    if (!topAsks || topAsks.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "No recurring questions yet, or the daily rollup hasn't run." }));
+      return;
+    }
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, [
+      el("th", { text: "Question (normalized)" }),
+      el("th", { class: "num", text: "Times asked" }),
+      el("th", { class: "num", text: "Sessions" }),
+    ])]));
+    const tbody = el("tbody", {});
+    topAsks.slice(0, 25).forEach((a) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: a.ask }),
+        el("td", { class: "num", text: fmtNumber(a.count) }),
+        el("td", { class: "num", text: fmtNumber(a.session_ids.length) }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  async function load() {
+    const banners = document.getElementById("banners");
+    banners.innerHTML = "";
+    const sinceDays = document.getElementById("since-select").value;
+    let since = "";
+    let rangeLabel = "All sessions ever logged";
+    if (sinceDays) {
+      const d = new Date(Date.now() - Number(sinceDays) * 86400000);
+      since = d.toISOString().slice(0, 10);
+      rangeLabel = "Since " + since + " (unique visitors and duration only — cost/world totals below are always all-time, see caveat)";
+    }
+    document.getElementById("range-label").textContent = rangeLabel;
+    const qs = since ? "?since=" + encodeURIComponent(since) : "";
+
+    const [usage, pilot] = await Promise.all([
+      fetchJSON("/api/admin/usage-summary" + qs),
+      fetchJSON("/api/admin/pilot-summary" + qs),
+    ]);
+
+    const v = usage.visitors;
+    document.getElementById("t-unique-visitors").textContent = fmtNumber(v.unique_visitors);
+    document.getElementById("t-median-session").textContent = fmtDuration(v.median_session_seconds);
+    document.getElementById("t-average-session").textContent = fmtDuration(v.average_session_seconds);
+    document.getElementById("t-median-visitor-total").textContent = fmtDuration(v.median_visitor_total_seconds);
+    document.getElementById("t-average-visitor-total").textContent = fmtDuration(v.average_visitor_total_seconds);
+
+    document.getElementById("t-total-sessions").textContent = fmtNumber(pilot.total_sessions);
+    document.getElementById("t-open-sessions").textContent = fmtNumber(pilot.open_sessions);
+    document.getElementById("t-attributed-sessions").textContent = fmtNumber(v.sessions_with_visitor_id);
+    const pct = pilot.total_sessions > 0 ? Math.round((v.sessions_with_visitor_id / pilot.total_sessions) * 100) : null;
+    document.getElementById("t-attribution-caveat").textContent = pct === null
+      ? "No sessions yet."
+      : pct + "% of sessions carry a visitor id (anon_cap must be on for a session to get one).";
+
+    renderWorldTable(usage.by_world);
+    const priceNote = document.getElementById("price-source-note");
+    if (usage.price_table_source) {
+      const anyUnpriced = usage.by_world.some((w) => w.unpriced_calls > 0);
+      priceNote.textContent = "Priced against: " + usage.price_table_source + (anyUnpriced ? ". * some calls in that row aren't reflected in the total (unrecognized call kind)." : "") + " Cost/world totals cover all time regardless of the range above.";
+    } else {
+      priceNote.textContent = "No calls could be priced yet.";
+    }
+
+    renderAsksTable(usage.top_asks);
+    const freshness = document.getElementById("asks-freshness");
+    freshness.textContent = usage.asks_as_of_run
+      ? "From the daily rollup run at " + usage.asks_as_of_run + " (generated " + (usage.asks_generated_at || "unknown") + ") — not live, updates once a day."
+      : "No daily rollup has produced output yet.";
+  }
+
+  function validatePasswordPolicy(pw) {
+    if (pw.length < 12 || pw.length > 20) return "Password must be 12-20 characters.";
+    if (!/[A-Z]/.test(pw)) return "Password must contain at least one capital letter.";
+    if (!/[0-9]/.test(pw)) return "Password must contain at least one number.";
+    if (!/[^A-Za-z0-9]/.test(pw)) return "Password must contain at least one symbol.";
+    return null;
+  }
+
+  function showSetupForm() {
+    clearError();
+    loginForm.classList.add("hidden");
+    setupForm.classList.remove("hidden");
+  }
+  function showLoginForm() {
+    clearError();
+    setupForm.classList.add("hidden");
+    loginForm.classList.remove("hidden");
+  }
+
+  async function checkAuthStatus() {
+    try {
+      const resp = await fetch("/api/admin/auth-status", { credentials: "same-origin" });
+      if (resp.status === 404) {
+        showError("The admin dashboard isn't configured on this deploy (no admin token set).");
+        return;
+      }
+      const status = await resp.json();
+      status.password_set ? showLoginForm() : showSetupForm();
+    } catch (err) {
+      showError("Couldn't reach the server: " + String(err.message || err));
+    }
+  }
+
+  // load() populates the (currently hidden) app DOM and throws on
+  // failure WITHOUT touching visibility - callers decide what to show
+  // once they know whether it succeeded, so neither view flashes.
+  async function revealApp() {
+    await load();
+    gate.classList.add("hidden");
+    app.classList.remove("hidden");
+  }
+
+  // Explicit action (login click, refresh, since-select change) - loud on
+  // failure, since the person just did something and expects a result.
+  async function showApp() {
+    try {
+      await revealApp();
+    } catch (err) {
+      showError(String(err.message || err));
+      await checkAuthStatus();
+    }
+  }
+
+  // First page load only - a valid session cookie from a previous visit
+  // just works with no flash of the gate; no session yet is the normal
+  // case here, not an error, so this fails silently into checkAuthStatus.
+  async function tryResumeSession() {
+    try {
+      await revealApp();
+    } catch (err) {
+      await checkAuthStatus();
+    }
+  }
+
+  document.getElementById("login-submit").addEventListener("click", async () => {
+    clearError();
+    const password = document.getElementById("login-password").value;
+    if (!password) return;
+    try {
+      const resp = await fetch("/api/admin/login", {
+        method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (resp.status === 429) return showError("Too many attempts - wait 15 minutes and try again.");
+      if (!resp.ok) return showError("Incorrect password.");
+      showApp();
+    } catch (err) {
+      showError("Couldn't reach the server: " + String(err.message || err));
+    }
+  });
+  document.getElementById("login-password").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") document.getElementById("login-submit").click();
+  });
+  document.getElementById("show-setup").addEventListener("click", (e) => {
+    e.preventDefault();
+    showSetupForm();
+  });
+
+  document.getElementById("setup-submit").addEventListener("click", async () => {
+    clearError();
+    const token = document.getElementById("setup-token").value.trim();
+    const password = document.getElementById("setup-password").value;
+    if (!token) return showError("Enter the admin token.");
+    const policyError = validatePasswordPolicy(password);
+    if (policyError) return showError(policyError);
+    try {
+      const setResp = await fetch("/api/admin/set-password", {
+        method: "POST", credentials: "same-origin",
+        headers: { "Content-Type": "application/json", Authorization: "Bearer " + token },
+        body: JSON.stringify({ password }),
+      });
+      if (setResp.status === 404) return showError("That admin token was rejected.");
+      if (setResp.status === 400) return showError((await setResp.json()).detail || "Password rejected.");
+      if (!setResp.ok) return showError("Couldn't set the password (" + setResp.status + ").");
+      const loginResp = await fetch("/api/admin/login", {
+        method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (!loginResp.ok) return showError("Password was set, but logging in with it failed - try logging in directly.");
+      showApp();
+    } catch (err) {
+      showError("Couldn't reach the server: " + String(err.message || err));
+    }
+  });
+
+  document.getElementById("sign-out").addEventListener("click", async () => {
+    try { await fetch("/api/admin/logout", { method: "POST", credentials: "same-origin" }); } catch (e) {}
+    app.classList.add("hidden");
+    gate.classList.remove("hidden");
+    checkAuthStatus();
+  });
+  document.getElementById("refresh").addEventListener("click", () => { showApp(); });
+  document.getElementById("since-select").addEventListener("change", () => { showApp(); });
+
+  tryResumeSession();
+})();
+</script>
+</body>
+</html>

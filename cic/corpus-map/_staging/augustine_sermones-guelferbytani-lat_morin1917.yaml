@@ -1,0 +1,44 @@
+# Morin's 1917 first edition of the Guelferbytanus 4096 sermons: thirty-three ascribed to Augustine
+# and nine further tractatus.
+source_file: augustine_sermones-guelferbytani-lat_morin1917.txt
+
+authors_ruled:
+  guelferbytanus-tractatus-novem:
+    kind: anonymous
+    evidence: >
+      The volume's own title page names 'SS. Optati Milevitani, Quodvultdei Carthaginiensis
+      episcoporum aliorumque ex Augustini schola tractatus novem' as a group of nine tractatus from
+      one codex, with no author given per tractatus; the slug names the work group.
+
+assignments:
+  - row_id: augustine_sermones-guelferbytani-lat_morin1917--sermones-guelferbytani-thirty-three-tractatus-from-codex
+    work: "Sermones Guelferbytani, thirty-three tractatus from codex Guelferbytanus 4096 (Morin 1917)"
+    author: augustine
+    locus: "file line 1775 ('SANCTI AVRELI AVGVSTINI TRACTATVS TRIQINTA TRES IN CODICE GVELFERBYTANO NVPER REPERTI')"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      PRIMARY ORIGINAL per cic/texts/INTAKE.md: Morin's first edition (Kempten and Munich, 1917), in a
+      readable OCR scan of a microfilm copy (0.83 to 0.88 of word forms found in a vocabulary test
+      against the clean TEI Augustine files, against 0.93 to 0.96 for the clean TEI files tested the
+      same way). The only witness of these sermons vendored; each quote is verified verbatim against
+      the file, and against the page image where the scan is broken, before it is used. The title page
+      ascribes the thirty-three tractatus to Augustine; Morin's own commentary marks which are genuine
+      and which are not, so the confidence is provisional. No English translation is vendored.
+
+  - row_id: augustine_sermones-guelferbytani-lat_morin1917--tractatus-novem-from-codex-guelferbytanus-4096-optatus-of
+    work: "Tractatus novem from codex Guelferbytanus 4096 (Optatus of Milevis, Quodvultdeus of Carthage and others of Augustine's school, Morin 1917)"
+    author: guelferbytanus-tractatus-novem
+    locus: "file line 10303 ('SS. OPTATI MILEVITANI QVODVVLTDEI CARTHAGINIENSIS EPISCOPORVM ALIORVMQVE EX AVGVSTINI SCHOLA TRACTATVS NOVEM')"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The nine further tractatus printed after the Augustine sermons; the title page names Optatus of
+      Milevis and Quodvultdeus of Carthage, both African bishops, and others of Augustine's school,
+      without giving an author for each. The witness is the same readable OCR scan as the first entry.
+      Provisional because the authorship of each tractatus is Morin's to argue and is not settled by
+      this file. No English translation is vendored.

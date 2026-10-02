@@ -12,10 +12,9 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Contested
   divergence_note: >-
-    Rights and edition now verified directly against a vendored file's own header (2026-09-09) -
-    the "pending-verification" status this record carried is resolved. What remains unresolved is
-    unchanged: the Odes' own dating, provenance, and original language, all Contested per Butts
-    (2022), and nothing load-bearing rests on them.
+    Rights and edition are verified directly against a vendored file's own header. What remains
+    open: the Odes' own dating, provenance, and original language, all Contested per Butts (2022),
+    and nothing load-bearing rests on them.
 sources: []
 author: Anonymous (early Christian hymnbook; provenance, date, and original language are all disputed)
 work: 'The Odes of Solomon (42 odes; witnesses: the Harris Syriac ms., BL Add. 14538, Greek P.Bodmer XI
@@ -45,11 +44,7 @@ load-bearing rests on the Odes. The legacy Doc_02 ode-count caution
 stands: do not cite a specific Codex N ode count without checking
 Lattke's or Charlesworth's apparatus.
 
-ACQUISITION CLOSED (2026-09-09): the vendoring request that stood open
-since the legacy Doc_02 is now closed - see cic/texts/REGISTRY.yaml and
-cic/corpus-map/syriac-edessa-nisibis.yaml for the full acquisition
-record. NOT YET DONE, named plainly rather than left implicit: no quote
-record has been written from this file. Its English translation
+No quote record has been written from this file. Its English translation
 section's OCR needs verse-by-verse reconstruction before any specific
 wording can be certified verified-direct at the quote level (spot-check
 example: Ode 3 renders a superscript "4" as a stray "*" and "grudging"

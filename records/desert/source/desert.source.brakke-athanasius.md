@@ -26,6 +26,5 @@ discovery_channel: "Step 0 Conclusion's source instruction for World #3 ('retain
 external_ids: {}
 ---
 The two-printing citation form (1995 Oxford under one title, 1998
-Johns Hopkins reissue under another) was a Doc_01 Round 1 finding in
-the prior build; the corrected form is carried here so the error does
-not re-enter.
+Johns Hopkins reissue under another) is carried here so a single-printing
+citation does not re-enter.

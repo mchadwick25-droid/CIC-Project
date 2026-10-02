@@ -42,8 +42,8 @@ relations:
 - type: associated-with
   target: desert.dw.death-wish
 ---
-Opened 2026-08-27 for F6-E, served by desert.dw.death-wish alone, which cites the combat
-sections for spiritual-warfare vocabulary and had nothing quotable at the point the cell's own
+This record fills canon cell F6-E. desert.dw.death-wish alone serves this cell, citing the combat
+sections for spiritual-warfare vocabulary, with nothing quotable at the point the cell's own
 question is aimed.
 
 Chosen over the SS8-9 tomb material the witness cites, because that is about demons and this is

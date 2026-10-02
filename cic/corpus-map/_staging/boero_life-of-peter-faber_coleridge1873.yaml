@@ -1,7 +1,8 @@
 source_file: boero_life-of-peter-faber_coleridge1873.txt
 
 assignments:
-  - work: "The Life of the Blessed Peter Favre (Faber), of the Society of Jesus"
+  - row_id: boero_life-of-peter-faber_coleridge1873--the-life-of-the-blessed-peter-favre-faber-of-the-society-of
+    work: "The Life of the Blessed Peter Favre (Faber), of the Society of Jesus"
     author: boero
     locus: "whole text"
     atlas_ids:
@@ -12,8 +13,7 @@ assignments:
       Giuseppe Boero's biography of Peter Faber, trans. Henry James
       Coleridge, S.J. (1873) - role context, not tradition, since this is
       Boero's own narrative account rather than a translation of Faber's
-      own Memoriale (spiritual diary). Vendored 2026-09-24 as part of a
-      pre-Doc_02 source-acquisition pass for this candidate. Provisional:
+      own Memoriale (spiritual diary). Provisional:
       how much of the Memoriale's own text this volume quotes verbatim
       versus paraphrases has not been established this pass - a future
       pass should check this directly before any passage is cited as

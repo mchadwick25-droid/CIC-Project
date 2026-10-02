@@ -17,7 +17,7 @@ confidence:
     for wording. Gennadius ch. XIX corroborates the north's founding shape. Reported-Experience
     Status applies to Layer 2's Tours sentences (one hagiographer). The discharge scene's setting is
     the garrison 'of the Vaugiones' (the editorial note identifies Worms), before the episcopate -
-    not Tours, per Doc_08's Round 2 correction.
+    not Tours.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
   locus: "ch. II (ii.ii.iii) 'regarded not so much as being a soldier as a monk'; ch. IV (ii.ii.v) the discharge before Caesar as the barbarians rush 'within the two divisions of Gaul'; ch. X nobles 'forced themselves down to this degree of humility'"

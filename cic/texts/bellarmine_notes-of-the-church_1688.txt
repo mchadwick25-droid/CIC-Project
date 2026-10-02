@@ -1,12 +1,17 @@
-Title: The Notes of the Church (De Notis Ecclesiae)
-Creator: Robert Bellarmine (1542-1621)
-Publisher: 1688 (Early English Books facsimile)
+Title: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a
+  Church of England tract series refuting Bellarmine's own "Notes of
+  the Church," not Bellarmine's own work
+Creator: Unnamed Church of England divines (1687-88); the title page
+  and archive.org item metadata misattribute it to Robert Bellarmine
+  (1542-1621), whose own Notes of the Church this series quotes and
+  refutes one by one
+Publisher: London: printed for Richard Chiswell, 1687-88
 Rights: Public Domain
-Rights basis: Published 1688; public domain by date. Archive.org
+Rights basis: Published 1687-88; public domain by date. Archive.org
   item metadata carries no explicit possible-copyright-status tag but
   shows access-restricted-item: None (freely downloadable), checked
   directly against the item's own metadata, 2026-09-25, this
-  session; pd-us-by-date applies independently given the 1688
+  session; pd-us-by-date applies independently given the 1687-88
   publication date.
 Source: Internet Archive item
   bim_early-english-books-1641-1700_the-notes-of-the-church-_bellarmino-roberto_1688
@@ -14,12 +19,15 @@ Source: Internet Archive item
   bytes) from the item's own _djvu.txt full-text file, 2026-09-25,
   this session.
 Provenance note: Body text unaltered including its own OCR errors.
-  Bellarmine's direct English-language Tridentine-side answer to
-  Protestant claims about the marks of the true Church - a direct
-  doctrinal engagement with Protestant ecclesiology this world's
-  corpus previously lacked beyond Sarpi's narrative history and
-  the bare Canons/Decrees. Vendored 2026-09-25 as part of a
-  post-Step0-Revision-2 PD source-acquisition pass.
+  Not Bellarmine's own voice: each section is headed "The [Nth] Note
+  of the Church EXAMINED," quotes Bellarmine's own Latin as the claim
+  under examination (e.g. "Secunda Nota est Antiquitas. Bellar. L.iv,
+  c.v, de Notis Ecclesiae"), carries Anglican imprimaturs ("IMPRIMATUR
+  ... Battely," dated 1687-89), and speaks in the first person as "we
+  Protestants." Opponent-voice testimony against Bellarmine's own
+  Tridentine-side marks-of-the-Church argument, not a doctrinal
+  engagement in this world's own voice. Vendored 2026-09-25 as part of
+  a post-Step0-Revision-2 PD source-acquisition pass.
 
 ma. 
 oC os wa. 

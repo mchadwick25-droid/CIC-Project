@@ -1,18 +1,20 @@
 source_file: salmeron_epistolae-v2-lat_1906.txt
 
 assignments:
-  - work: "Epistolae P. Alphonsi Salmeronis, Vol. II"
+  - row_id: salmeron_epistolae-v2-lat_1906--epistolae-p-alphonsi-salmeronis-tomus-primus-1536-1565
+    work: "Epistolae P. Alphonsi Salmeronis, Tomus Primus (1536-1565)"
     author: salmeron
-    locus: "whole volume"
+    locus: "whole volume - Tomus Primus, covering 1536-1565; not Vol. II as the filename and archive.org item title suggest"
     atlas_ids:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
     note: >
       Salmeron's own letters, previously wholly unassessed for this
-      world. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
-      source-acquisition pass. Under Mark's 2026-09-25 ruling
-      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can
-      be primary evidence directly, verified against the vendored file,
-      since it is primary to the movement regardless of language; the
-      scan is clean, not flagged under Mark's OCR ruling "a."
+      world. The file's own title page reads "TOMUS PRIMUS 1536-1565".
+      Per the Library's non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

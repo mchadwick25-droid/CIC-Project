@@ -15,7 +15,8 @@ from .anachronism import mentions_term
 ACUTE_SIGNALS = {"ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL"}
 PRESSABLE_CLASSES = {"later_age", "other_tradition"}
 
-# B-2 (witt go-live adversarial review, 2026-09-19). "What exactly did your
+# Reader-side classification of `system_nature` was found unreliable:
+# "What exactly did your
 # founder write in his 1543 book about Jewish people?" was classified
 # system_nature on every phrasing tried, live, on witt - a message that
 # names no system, bot, or "how were you built"-shaped question at all.
@@ -71,7 +72,7 @@ class RoutingDecision:
     action: str  # safety_turn | check_in_turn | system_nature_turn | bridge_turn | etic_turn | voice_with_directive | voice_pass_through
     reason: str
     directive: Directive | None = None
-    # R26 (Decision-Log.md Entry 50, 2026-09-22): a structured field, not a
+    # A structured field, not a
     # `reason` string to parse - set only on a voice_with_directive first
     # ask of a PRESSABLE_CLASSES member (e.g. "other_tradition"), so a
     # caller that needs to know can check this directly rather than

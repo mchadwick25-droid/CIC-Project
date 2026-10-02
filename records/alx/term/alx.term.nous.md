@@ -59,13 +59,9 @@ senses:
 quick_meaning: The soul's highest power - to see God directly, not to reason toward him.
 distortion_risk: high
 ---
-Imported from the old system's richer lexicon (alexlex011, "Nous") at Mark's direction, as a draft, not
-a final version. Origen's contested cosmology of the nous (the soul's pre-cosmic condition, later
-connected to condemned propositions) was originally left out of this record's senses, since the old
-record itself carries it as a live, unresolved scholarly dispute rather than settled ground.
-
-CONTEST (stated, fully, added at Mark's later explicit direction): whether Origen's nous-cosmology is
-his own settled position or a later systematization pressed onto him is a named live scholarly debate
-(alx.contested.origen-positions) - part of the same theologically linked cluster as Apokatastasis,
-Fall/Descent, and Logikos (the old system's own "four Origen-cluster CT terms," one Meaning contest).
-The 553 condemnation is OUT OF HORIZON and does not exist for this world's voice.
+Origen's contested cosmology of the nous (the soul's pre-cosmic condition, later connected to condemned
+propositions) is carried here as a live, unresolved scholarly dispute rather than settled ground.
+Whether Origen's nous-cosmology is his own settled position or a later systematization pressed onto him
+is a named live scholarly debate (alx.contested.origen-positions) - part of the same theologically
+linked cluster as Apokatastasis, Fall/Descent, and Logikos, one shared Meaning contest. The 553
+condemnation is out of horizon and does not exist for this world's voice.

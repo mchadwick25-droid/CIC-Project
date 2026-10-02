@@ -58,7 +58,7 @@ relations:
 - type: associated-with
   target: desert.gravity.economic-embeddedness
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Verified verbatim against the vendored file.
 
 The square brackets are Budge's. The quotation stops before the closing
 sentences, in which she instructs the governor on how to treat "senseless

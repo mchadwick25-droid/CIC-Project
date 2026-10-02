@@ -1,9 +1,10 @@
 source_file: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt
 
 assignments:
-  - work: "Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22"
+  - row_id: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903--monumenta-ignatiana-epistolae-et-instructiones-vol-22
+    work: "Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22"
     author: ignatius-loyola
-    locus: "whole volume"
+    locus: "whole volume - Tomus I of Ignatius's letters (title page: TOMUS PRIMUS), volume 22 of the MHSI series"
     atlas_ids:
       - the-society-of-jesus
     role: tradition
@@ -11,9 +12,10 @@ assignments:
     note: >
       One volume of the full 12-vol. MHSI critical edition of Ignatius's
       ~7,000 letters, dwarfing the already-vendored ~24-letter
-      O'Leary/Goodier English selection. Vendored 2026-09-25 as part of
-      a post-Step0-Revision-2 PD source-acquisition pass. Under Mark's 2026-09-25 ruling
-      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can
-      be primary evidence directly, verified against the vendored file,
-      since it is primary to the movement regardless of language; the
-      scan is clean, not flagged under Mark's OCR ruling "a."
+      O'Leary/Goodier English selection. Per the Library's
+      non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

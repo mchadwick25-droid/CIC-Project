@@ -1,5 +1,5 @@
 """engine.m2.site_compiler.compile_world_front - the Website V2
-world_front compiler stage (approved to proceed 2026-09-19). No real
+world_front compiler stage (approved to proceed). No real
 world_front record exists yet (content migration is a separate, later
 stage), so this is tested against a hand-constructed minimal record, as
 the design's own validation instructions call for.

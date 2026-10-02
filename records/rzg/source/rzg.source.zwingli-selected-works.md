@@ -13,10 +13,10 @@ confidence:
   formation_confidence: Documented
   divergence_note: This row is a collective bucket, not an itemized table of contents - do not cite it
     as though every named component were independently checked (Source_Registry.md row 7's own Comparandum
-    Note). Licensed range updated at Doc_04 Round 1 review to 1522-1527 (the Refutation's own dated heading
-    extends past the row's originally-stated 1522-1523 range); the Refutation's own 'On Election' section
-    (lines approx. 9591-9762) was independently re-verified against the file directly at that review,
-    distinct from the rest of this row's own un-itemized contents.
+    Note). Licensed range is 1522-1527 (the Refutation's own dated heading extends past the row's
+    originally-stated 1522-1523 range); the Refutation's own 'On Election' section (lines approx.
+    9591-9762) was independently re-verified against the file directly, distinct from the rest of this
+    row's own un-itemized contents.
 sources: []
 relations: []
 author: Huldrych Zwingli

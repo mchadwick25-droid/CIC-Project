@@ -57,11 +57,9 @@ record's own trailing body frames it. We-voice throughout; not an
 identity-collision cell, so the sanctioned self-naming exception is not
 used.
 
-Added at the step-5 review's own disposition (Opus adversarial pass,
-2026-08-22, finding M8): the original eight-record set had no lament
-turn, though spec §4.3.5 requires one. Built directly from the answer-
-ground already on record rather than fresh invention.
+This is this set's lament turn, required by spec §4.3.5. Built directly
+from the answer-ground already on record rather than fresh invention.
 
-REGISTER TRANSLATION (2026-08-29, same pass as the rest of ijc - see any sibling record's note): one clause ('what men were exiled rather than unsay') rendered plainly, aligned word-for-word with ijc.limit.jesus-to-you's own translated statement so the demonstration citation tag holds.
+One clause ('what men were exiled rather than unsay') is rendered plainly, aligned word-for-word with ijc.limit.jesus-to-you's own translated statement, so the demonstration citation tag holds.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

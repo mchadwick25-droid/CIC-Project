@@ -1,7 +1,8 @@
 source_file: canisius_summe-of-christian-doctrine_anon1622.txt
 
 assignments:
-  - work: "A Summe of Christian Doctrine"
+  - row_id: canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine
+    work: "A Summe of Christian Doctrine"
     author: canisius
     locus: "whole text"
     atlas_ids:
@@ -12,6 +13,5 @@ assignments:
       Peter Canisius's own catechism, in a 1622 English translation
       (translator not named in this edition) - the first primary source
       identified for Canisius, a major first-generation Jesuit, in this
-      corpus. Vendored 2026-09-24 as part of a pre-Doc_02
-      source-acquisition pass for this candidate, closing a real prior
-      gap (no Canisius material had ever been checked for this world).
+      corpus. This closes a real prior gap: no Canisius material had
+      ever been checked for this world.

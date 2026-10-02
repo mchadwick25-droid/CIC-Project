@@ -23,11 +23,9 @@ discovery_channel: "prior-build Source Registry row P03 (Doc_02, approved 2026-0
 external_ids: {ccel_volume: "anf01", thml_div: "v"}
 ---
 Rights verified from the file's own DC.Rights header (Public Domain).
-Recension discipline is load-bearing: every quote from this row must be
+Recension discipline is load-bearing: every quote from this row is
 taken from the SHORTER (middle-recension) rendering and checked against
-the parallel longer text to confirm which is being quoted - the prior
-build's verified quote pass (pahcq001-004, 2026-08-15, branch
-claude/table-voice-reset-nufsm4) did exactly this (e.g. Romans 4
+the parallel longer text to confirm which is being quoted (e.g. Romans 4
 distinguished from the longer recension by "the pure bread of Christ"
 vs. "pure bread of God").
 

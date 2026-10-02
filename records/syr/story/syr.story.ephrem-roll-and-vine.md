@@ -80,7 +80,7 @@ modern_contrast: >-
   A tradition describing its own poet chose an image in which being consumed increases the supply.
   That is a claim about what his hymns were for.
 ---
-Registered 2026-08-27 on this world opening
+Registered on this world's opening of
 cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
 
 THE RECORD IS AS MUCH ABOUT THE ABSENCE AS THE PRESENCE, which is why
@@ -92,4 +92,4 @@ name. The two readerships are the two halves of this world's problem
 about how it was seen and how it saw itself, and here they are in one
 chapter.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

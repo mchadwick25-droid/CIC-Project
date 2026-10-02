@@ -8,7 +8,8 @@
 # worker's file); nothing here overlaps it.
 source_file: ephraim_prose-refutations_mitchell1912-1921.txt
 assignments:
-- work: Discourses to Hypatius (Five Discourses Against the False Teachings)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--discourses-to-hypatius-five-discourses-against-the-false
+  work: Discourses to Hypatius (Five Discourses Against the False Teachings)
   author: ephraim
   locus: 'Vol. I, heading "THE DISCOURSES ADDRESSED TO HYPATIUS"; five discourses ending "THE
     END OF WRITING THE FIVE DISCOURSES TO HYPATIUS AGAINST FALSE DOCTRINES", incl. "A Refutatory
@@ -24,7 +25,8 @@ assignments:
     BARDAISAN".
 
     '
-- work: Discourses to Hypatius (Five Discourses Against the False Teachings)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--discourses-to-hypatius-five-discourses-against-the-false-2
+  work: Discourses to Hypatius (Five Discourses Against the False Teachings)
   author: ephraim
   locus: Vol. I, as above
   atlas_ids:
@@ -39,7 +41,8 @@ assignments:
     entries on the two anti-Bardaisan works below.
 
     '
-- work: Against Bardaisan's 'Domnus'
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-s-domnus
+  work: Against Bardaisan's 'Domnus'
   author: ephraim
   locus: 'Vol. II, heading "AGAINST BARDAISAN''S \"DOMNUS\"" - "A DISCOURSE MADE BY THE BLESSED
     SAINT EPHRAIM AGAINST THE DISCOURSE WHICH IS CALLED ''OF DOMNUS,'' WHICH WAS COMPOSED
@@ -55,7 +58,8 @@ assignments:
     own work.
 
     '
-- work: Against Bardaisan's 'Domnus'
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-s-domnus-2
+  work: Against Bardaisan's 'Domnus'
   author: ephraim
   locus: Vol. II, as above
   atlas_ids:
@@ -68,7 +72,8 @@ assignments:
     of Valentinus" - but Bardaisan's classification as Gnostic is contested, and whether a
     Bardaisan entry of its own, or the Syriac world alone, would fit better remains an open
     question. This entry points to the census entry added on record for this movement.
-- work: Against Marcion (Discourses I-III)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-marcion-discourses-i-iii
+  work: Against Marcion (Discourses I-III)
   author: ephraim
   locus: Vol. II, headings "AGAINST MARCION I.", "AGAINST MARCION II.", "AGAINST MARCION III."
   atlas_ids:
@@ -79,7 +84,8 @@ assignments:
     own anti-Marcionite polemic, tradition for the Syriac world.
 
     '
-- work: Against Marcion (Discourses I-III)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-marcion-discourses-i-iii-2
+  work: Against Marcion (Discourses I-III)
   author: ephraim
   locus: Vol. II, as above
   atlas_ids:
@@ -91,7 +97,8 @@ assignments:
     etically.
 
     '
-- work: Against Bardaisan (A Discourse Against Bardaisan)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan
+  work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
   locus: Vol. II, heading "AGAINST BARDAISAN." - "A DISCOURSE AGAINST BARDAISAN"
   atlas_ids:
@@ -102,7 +109,8 @@ assignments:
     teacher.
 
     '
-- work: Against Bardaisan (A Discourse Against Bardaisan)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan-2
+  work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
   locus: Vol. II, as above
   atlas_ids:
@@ -112,7 +120,8 @@ assignments:
   note: 'Same doubt as the "Domnus" entry above: no census bucket exists for Bardaisan/Daisanite
     Christianity; this floor entry is a best guess that still needs a ruling. This entry
     points to the census entry added on record for this movement.'
-- work: On Virginity (A Discourse of S. Ephraim on Virginity)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--on-virginity-a-discourse-of-s-ephraim-on-virginity
+  work: On Virginity (A Discourse of S. Ephraim on Virginity)
   author: ephraim
   locus: Vol. II, heading "A DISCOURSE OF S. EPHRAIM ON VIRGINITY."
   atlas_ids:
@@ -123,7 +132,8 @@ assignments:
     for the Syriac world''s consecrated-virginity strand.
 
     '
-- work: Against Mani
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-mani
+  work: Against Mani
   author: ephraim
   locus: Vol. II, heading "AGAINST MANI."
   atlas_ids:
@@ -133,7 +143,8 @@ assignments:
   note: 'Ephraim''s own anti-Manichaean discourse, tradition for the Syriac world.
 
     '
-- work: Against Mani
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-mani-2
+  work: Against Mani
   author: ephraim
   locus: Vol. II, as above
   atlas_ids:

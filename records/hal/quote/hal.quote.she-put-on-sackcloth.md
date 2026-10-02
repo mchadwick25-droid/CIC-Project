@@ -43,20 +43,21 @@ relations:
 - type: associated-with
   target: hal.dw.marriage-ending
 ---
-Opened 2026-08-27 for F6-T, served by hal.dw.marriage-ending alone, which cites this locus for
+Opened for F6-T, served by hal.dw.marriage-ending alone, which cites this locus for
 "Fabiola's divorce, remarriage, penance, restoration" and had nothing quotable.
 
 The closing clause is quoted from the sentence's continuation in the letter rather than paraphrased,
 and the record is deliberately the restoration rather than the offence: this world's own hard-place
 answer is that the way back existed and was walked in public.
 
-Quote-verbatim gate fix (2026-09-22): the closing sentence had three defects. It silently dropped
-Jerome's own parenthetical naming the basilica ("in the basilica which formerly belonged to that
-Lateranus who perished by the sword of Cæsar") - restored, real content, not apparatus. It read
-"stood among the ranks" where the source has "stood in the ranks" - corrected. And it invented a
-period after "penitents" where the source continues into the vivid description of the public penance
-itself ("exposed before bishop, presbyters, and people... her dishevelled hair, pale features, soiled
-hands and unwashed neck") - restored rather than elided, since this is exactly the "walked in public"
-imagery the record's own gloss already centers on, not a different point. The following rhetorical
-questions ("What sins would such a penance fail to purge away?") are a new turn in the letter's own
+The closing sentence carries Jerome's own parenthetical naming the
+basilica ("in the basilica which formerly belonged to that Lateranus who
+perished by the sword of Cæsar") as real content, not apparatus, and
+reads "stood in the ranks" matching the source exactly. It continues
+through the vivid description of the public penance itself ("exposed
+before bishop, presbyters, and people... her dishevelled hair, pale
+features, soiled hands and unwashed neck") - this is exactly the "walked
+in public" imagery the record's own gloss centers on, not a different
+point. The following rhetorical questions ("What sins would such a
+penance fail to purge away?") are a new turn in the letter's own
 argument and are not included.

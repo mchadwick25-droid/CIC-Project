@@ -12,17 +12,17 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: 'The Latin clause quoted in `text` was re-located this session to `cic/texts/optatus_libri-vii-critical_ziwsa1893.txt`,
-    line 6557 (the Ziwsa critical edition), NOT to the `optatus-against-donatists` locus originally cited
-    -- that file''s line 1904 carries only the Vassall-Phillips English translation. The Ziwsa file''s own
+  divergence_note: 'The Latin clause quoted in `text` is located at `cic/texts/optatus_libri-vii-critical_ziwsa1893.txt`,
+    line 6557 (the Ziwsa critical edition); `optatus-against-donatists`''s own line 1904 carries only the
+    Vassall-Phillips English translation. The Ziwsa file''s own
     OCR is rough at this line (''qnid est imperatori cuni ecelesia?'' for ''quid est imperatori cum ecclesia?''),
     a known artifact of that scan rather than a textual variant; the Latin above is given in its standard,
-    corrected orthography, not the raw OCR string. Quote-verbatim gate note (2026-09-22): the corrected
+    corrected orthography, not the raw OCR string. The corrected
     Latin cannot verify character-for-character against either vendored file (one carries only the English,
-    the other only the OCR-corrupted scan) -- verification_state lowered from verified-direct to
-    verified-via-authority to reflect that the Latin rests on standard orthography rather than a direct
-    character match to a vendored file. Flagged for Mark: no clean vendored transcription of this Latin
-    exists in the corpus to repoint to; the record is not being resolved further here.'
+    the other only the OCR-corrupted scan), which is why verification_state is
+    verified-via-authority rather than verified-direct: the Latin rests on standard orthography rather than a direct
+    character match to a vendored file. No clean vendored transcription of this Latin
+    exists in the corpus to repoint to.'
 sources:
 - source_id: don.source.optatus-against-donatists
   locus: Book III -- the Vassall-Phillips English translation; cic/texts/optatus_against-the-donatists.txt,

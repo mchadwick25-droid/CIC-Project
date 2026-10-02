@@ -58,7 +58,7 @@ relations:
 - type: associated-with
   target: pahc.term.two-ways
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 68714.
+Text is verified verbatim against the vendored file at line 68714.
 
 THIS QUOTE CORRECTED A CLAIM IN THIS WORLD. pahc.force.selective-
 canonization had said Hermas was "excluded by Athanasius". The letter
@@ -66,8 +66,7 @@ does not exclude it. The force record's manifestation and description are
 amended, with the correction stated rather than quietly applied, and
 pahc.source.athanasius-festal-39 carries the reasoning.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "read" was invented - the source's
-sentence continues with a semicolon to a natural, complete close ("nor is there in any place a mention
-of apocryphal writings."). Restored through that close; doesn't change the canon-versus-read distinction
-this record cites. The next sentence (a new topic - apocryphal writings as heretical inventions) is not
-included.
+The quoted sentence continues with a semicolon to its natural, complete close ("nor is there in
+any place a mention of apocryphal writings."); this does not change the canon-versus-read
+distinction this record cites. The next sentence (a new topic - apocryphal writings as heretical
+inventions) is not included.

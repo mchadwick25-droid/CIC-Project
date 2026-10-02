@@ -27,7 +27,7 @@ discovery_channel: "located at review (Opus canon-structure pass, 2026-08-21) in
   Auxentium, and De Mysteriis - this record extends the license to this additional work in the same file"
 external_ids: {ccel_volume: "npnf210"}
 ---
-Rights verified 2026-08-21: same file, same DC.Rights header (Public
+Rights verified: same file, same DC.Rights header (Public
 Domain), already checked for other works in this volume. Work
 presence verified: "Concerning Widows" division at file line 38761;
 the treatise proper (chapter I, addressing marriage's status against

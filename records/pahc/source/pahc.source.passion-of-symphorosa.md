@@ -26,14 +26,13 @@ attribution_status: "disputed - the attribution to Africanus is the point still 
 discovery_channel: "assigned to this world by the cross-world corpus assignment and flagged `needs-ruling` there; recorded here 2026-08-27 so the text is registered without the flag being pre-empted"
 external_ids: {ccel_volume: "anf06"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
-Domain); the act at div2 5.6 in the Julius Africanus section.
+Rights are verified from the file's own DC.Rights header (Public
+Domain); the act sits at div2 5.6 in the Julius Africanus section.
 
-THIS RECORD DELIBERATELY DOES NOT SETTLE THE OPEN QUESTION. The corpus
-map flags this work `needs-ruling` because the attribution to Africanus
-is thin, and that flag stands - it is one of only two left in the whole
-map. What this record does is register the text with the doubt attached,
-so that the act exists in this world's registry and any use of it
+This record's attribution and historical value are both open
+questions; see `Build/worlds/_cross-world/NEEDS-RULING.md` for the
+pending ruling. This record registers the text with the doubt
+attached, so the act exists in this world's registry and any use of it
 inherits the caution, rather than the work sitting unrecorded until a
 ruling arrives.
 
@@ -45,6 +44,6 @@ real thing to be able to show a participant: this world's own martyr
 literature has shapes, and knowing the shape is how anyone tells a
 report from a legend.
 
-DO NOT PROMOTE IT to load-bearing or to `assigned` confidence on any
-later pass without Mark's ruling on the attribution and a fresh look at
-the act's historical value. Two separate questions, both open.
+This record should not be promoted to load-bearing or to `assigned`
+confidence until the attribution and the act's historical value are
+resolved. Two separate questions, both open.

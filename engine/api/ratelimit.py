@@ -1,18 +1,16 @@
-"""Per-IP rate limiting for the two spend-bearing surfaces (2026-08-28
-foundation audit; Artifact-6-Operations.md §"no unauthenticated expensive
-endpoints" — specified there from the start, built now). POST /api/session
-is unauthenticated and creates real Bedrock spend; /message and /continue
-each hold a worker thread through a full voice call. Uncapped, either one
-is both an open wallet and a trivial denial-of-service (saturate the
-thread pool and the whole surface — static pages included — stops
-answering).
+"""Per-IP rate limiting for the two spend-bearing surfaces
+(Artifact-6-Operations.md §"no unauthenticated expensive endpoints").
+POST /api/session is unauthenticated and creates real Bedrock spend;
+/message and /continue each hold a worker thread through a full voice
+call. Uncapped, either one is both an open wallet and a trivial
+denial-of-service (saturate the thread pool and the whole surface —
+static pages included — stops answering).
 
-A third bucket (2026-09-21, Tech-Readiness P1-Security item 6) covers
-/api/admin/* - not spend-bearing, but its Bearer token
-(engine.api.app._authenticate_admin) had no anti-automation control at
-all: hmac.compare_digest is constant-time against a KNOWN token, but
-nothing stopped an attacker from simply trying tokens at unlimited rate.
-Same mechanism, different reason (ASVS V2.2.1, not spend).
+A third bucket covers /api/admin/* - not spend-bearing, but its Bearer
+token (engine.api.app._authenticate_admin) has no anti-automation control
+otherwise: hmac.compare_digest is constant-time against a KNOWN token,
+but nothing stops an attacker from simply trying tokens at unlimited
+rate. Same mechanism, different reason (ASVS V2.2.1, not spend).
 
 In-process and dependency-free on purpose: one instance serves all
 traffic today (the SQLite session store already pins us there), so a
@@ -29,13 +27,13 @@ participant pace can hit it — the measured floor is one voice turn per
 
 Client IP: LAST entry of X-Forwarded-For when present (Render's proxy
 sets it; uvicorn runs with --proxy-headers), else the socket peer. Last,
-not first (2026-09-21, fixed after a closing adversarial review): a
-standard reverse proxy APPENDS the peer it actually observed onto
-whatever X-Forwarded-For it received, rather than replacing the header -
-so the first entry is exactly the part of the header a client controls
-directly, and taking it let anyone bypass every limiter in this file with
-one request header (`X-Forwarded-For: 1.2.3.4`), no exploit tooling
-required. With exactly one trusted proxy hop in front of this service
+not first: a standard reverse proxy APPENDS the peer it actually observed
+onto whatever X-Forwarded-For it received, rather than replacing the
+header - so the first entry is exactly the part of the header a client
+controls directly, and taking it would let anyone bypass every limiter in
+this file with one request header (`X-Forwarded-For: 1.2.3.4`), no
+exploit tooling required. With exactly one trusted proxy hop in front of
+this service
 (Render's edge - the only thing that can reach this container, per the
 Dockerfile's own comment on --forwarded-allow-ips='*'), the entry THAT
 proxy appended - the last one - is the only one this process didn't just
@@ -58,6 +56,14 @@ from fastapi.responses import JSONResponse
 CREATE_LIMIT = (60.0, 6)
 CONVERSE_LIMIT = (60.0, 40)
 ADMIN_LIMIT = (60.0, 10)
+# /api/admin/login specifically (engine.api.admin_auth): the dashboard's
+# password login is short (12-20 chars, engine.api.admin_auth.
+# PASSWORD_MIN_LENGTH/MAX_LENGTH) precisely because THIS limit, not the
+# password's own entropy, is what makes guessing it impractical - 5
+# attempts per 15 minutes per IP is a real website's ordinary login
+# lockout, not ADMIN_LIMIT's looser 10/min (sized for an operator polling
+# an API with a long random token, a different threat model).
+ADMIN_LOGIN_LIMIT = (900.0, 5)
 
 # Participant-facing words (full inventory in the decision log, alongside
 # the move-3 error layer): plain, no blame, says what to do.
@@ -98,15 +104,16 @@ def client_ip(request: Request) -> str:
 
 
 def install(app):
-    """HTTP middleware: session creation, conversation traffic (now
-    including the two per-session GET reads, not just the two message
-    POSTs - 2026-09-21, see below), and admin requests each get their own
-    per-IP bucket; everything else (worlds list, health, static files)
-    passes untouched. 429 carries Retry-After and a participant-
-    appropriate detail string."""
+    """HTTP middleware: session creation, conversation traffic (including
+    the two per-session GET reads, not just the two message POSTs - see
+    below), and admin requests each get their own per-IP bucket;
+    everything else (worlds list, health, static files) passes untouched.
+    429 carries Retry-After and a participant-appropriate detail
+    string."""
     create_limiter = SlidingWindowLimiter(*CREATE_LIMIT)
     converse_limiter = SlidingWindowLimiter(*CONVERSE_LIMIT)
     admin_limiter = SlidingWindowLimiter(*ADMIN_LIMIT)
+    admin_login_limiter = SlidingWindowLimiter(*ADMIN_LOGIN_LIMIT)
 
     @app.middleware("http")
     async def _rate_limit(request: Request, call_next):
@@ -115,17 +122,20 @@ def install(app):
             limiter = create_limiter
         elif path.startswith("/api/session/") and (
             (request.method == "POST" and (path.endswith("/message") or path.endswith("/continue")))
-            # GET /transcript and /round-close-reasons (2026-09-05) both
-            # guess a session CODE via the same _authenticate() 401 as the
-            # two POSTs above (engine/api/app.py) but were never in this
-            # limiter's own path match - an unlimited-rate credential-
-            # guessing surface, closed here (found in the closing
-            # adversarial review of the admin-limiter change above; same
-            # ASVS V2.2.1 class, just the participant-facing instance of
-            # it rather than the operator-facing one).
+            # GET /transcript and /round-close-reasons both guess a
+            # session CODE via the same _authenticate() 401 as the two
+            # POSTs above (engine/api/app.py) - the same unlimited-rate
+            # credential-guessing surface as the admin bucket above, just
+            # the participant-facing instance of it rather than the
+            # operator-facing one (ASVS V2.2.1).
             or (request.method == "GET" and (path.endswith("/transcript") or path.endswith("/round-close-reasons")))
         ):
             limiter = converse_limiter
+        elif request.method == "POST" and path == "/api/admin/login":
+            # Checked before the general /api/admin prefix below - a much
+            # tighter bucket for the one route where the credential being
+            # guessed (a 12-20 char password) is short by design.
+            limiter = admin_login_limiter
         elif path.startswith("/api/admin"):
             limiter = admin_limiter
         else:

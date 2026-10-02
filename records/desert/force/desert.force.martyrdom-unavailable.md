@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented for the historical fact itself (the Diocletianic persecution's end and Constantine's toleration, 311-313) - among the best-attested facts of this period, per Doc_01 SS7, though this build carries no dedicated vendored or consult-only source specifically on the persecution/toleration as a general historical event; this is background history, not desert-corpus material, and is cited to Doc_01 SS7 rather than to a registered source record. Reported-Experience Status applies to the world's-own-experience half: this world's own vocabulary of ascetic struggle as martyrdom's successor is formationally central and consistently attested in the tradition's own idiom (Antony's combat, the sayings tradition's own terms), even though no single source in this corpus states the equivalence as formal doctrine - documented here as this world's own self-understanding, not asserted as settled historical thesis. The specific 'white martyrdom' phrase itself remains without a citable anchor anywhere in this corpus (Doc_01 SS11 item 7, still open) and is not used in this record's own compiled fields for that reason."
+  divergence_note: "Documented for the historical fact itself (the Diocletianic persecution's end and Constantine's toleration, 311-313) - among the best-attested facts of this period, per Doc_01 SS7, though this build carries no dedicated vendored or consult-only source specifically on the persecution/toleration as a general historical event; this is background history, not desert-corpus material, and is cited to Doc_01 SS7 rather than to a registered source record. Reported-Experience Status applies to the world's-own-experience half: this world's own vocabulary of ascetic struggle as martyrdom's successor is formationally central and consistently attested in the tradition's own idiom (Antony's combat, the sayings tradition's own terms), even though no single source in this corpus states the equivalence as formal doctrine - documented here as this world's own self-understanding, not asserted as settled historical thesis. The specific 'white martyrdom' phrase itself remains without a citable anchor anywhere in this corpus and is not used in this record's own compiled fields for that reason."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS8-9, SS12-13, SS23 - the combat and general spiritual-warfare vocabulary this world's own tradition uses for interior struggle; SS46-47 - the vendored daily-martyrdom passage itself ('there daily a martyr to his conscience'), this corpus's single nearest textual instance of the succession this force exists to document"
@@ -60,27 +60,22 @@ cell code is carried in this record's own name field instead, matching
 the convention already established in the Alexandria build's own force
 records (e.g. alx.force.persecution's "[2A - ongoing/external]").
 
-Doc08, Round 1 review Finding S7: canon_cells had claimed F1-I, a
+canon_cells names F4-P, a genuine fit; it does not name F1-I, a
 doctrinal cell whose four fleet questions (belief about God; internal
 dispute; conciliar decisions; the Holy Spirit) this force answers none
-of - removed, leaving F4-P, which the review confirmed a genuine fit.
-Finding M1: the Vita locus cited only the combat vocabulary (SS8-9,
-SS12-13, SS23) and omitted SS46-47, the vendored daily-martyrdom
+of. The Vita locus includes SS46-47, the vendored daily-martyrdom
 passage desert.source.athanasius-vita-antonii's own body flags as
-verified verbatim and which is this corpus's single nearest textual
-instance of martyrdom's succession by interior struggle - added above.
-Finding M8: manifestations[2]'s "sayings tradition" claim registered no
-source for it - desert.source.apophthegmata-patrum added above, with
+verified verbatim and this corpus's single nearest textual instance of
+martyrdom's succession by interior struggle, alongside the combat
+vocabulary (SS8-9, SS12-13, SS23). desert.source.apophthegmata-patrum
+is registered for manifestations[2]'s "sayings tradition" claim, with
 that source's own compiler screen carried in both its locus and the
 manifestation itself.
 
-Doc08, Round 2 review Finding S4: Doc_04 SS4's own affirmative forces
-finding ("Candidates 1-5 [withdrawal, combat, elder authority, labor,
-diakrisis] all intensify under the generating force [martyrdom's
-unavailability]... a direct, load-bearing response") is carried
-verbatim in the description of five gravity records, but this force had
-declared a relation to only two of them (withdrawal, spiritual-combat).
-desert.gravity.elder-authority, desert.gravity.manual-labor and
-desert.gravity.diakrisis added above, completing the set Doc_04 SS4
-actually found, with reciprocal relations added on each of those three
-gravity records.
+Doc_04 SS4's own affirmative forces finding ("Candidates 1-5
+[withdrawal, combat, elder authority, labor, diakrisis] all intensify
+under the generating force [martyrdom's unavailability]... a direct,
+load-bearing response") is carried verbatim in the description of five
+gravity records, and this force declares a relation to all five
+(withdrawal, spiritual-combat, elder-authority, manual-labor,
+diakrisis), with reciprocal relations on each.

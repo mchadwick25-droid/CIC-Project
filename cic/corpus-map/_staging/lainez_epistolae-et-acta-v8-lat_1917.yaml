@@ -1,0 +1,17 @@
+source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
+assignments:
+- row_id: lainez_epistolae-et-acta-v8-lat_1917--lainii-monumenta-epistolae-et-acta-tomus-8-1564-1565
+  work: 'Lainii Monumenta: Epistolae et Acta, Tomus 8 (1564-1565)'
+  author: lainez
+  locus: whole volume - Tomus 8, 1564-1565
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts as second General of the Society, 1564-1565, printed from the
+    originals and registers. The letters are in Latin, Spanish and Italian as written, and the Society''s
+    General speaks here for himself and not only through register copies. Primary original evidence for
+    the movement, quotable once each wording is checked against the page image: the scan is legible with
+    occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary is 0.56; the
+    Spanish, Italian and Portuguese passages and the notes lower it, so the figure is a comparison across
+    files and not a measure of accuracy.'

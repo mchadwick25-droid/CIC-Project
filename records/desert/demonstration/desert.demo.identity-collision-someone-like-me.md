@@ -34,6 +34,5 @@ participant question is directly about the voice's own nature and
 judgment. Grounded directly in desert.dw.someone-like-me's own
 already-approved text (Moses the Robber, Paul the Simple, Palladius chs.
 XIX and XXII), adapted into a spoken turn without altering any named
-fact or the "by report," not "by his own account," framing that
-record's own Step 4 Round 2 review fix established for the killing
-specifically.
+fact or that record's own "by report," not "by his own account,"
+framing for the killing specifically.

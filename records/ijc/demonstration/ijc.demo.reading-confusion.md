@@ -28,19 +28,22 @@ exchange:
 ---
 F2-P conversational flow: the Augustine struggle answered first, then the follow-up pressed toward the non-expert reader - answered from ijc.dw.how-we-read's reception channels with ijc.limit.reading-alone's boundary held.
 
-CONVERSATIONAL DEMONSTRATION (2026-08-29, Mark's direction after his
-voice-quality conversation read: "draft the conversational demos").
 This demo is a FLOW exemplar: four turns, where the second
 representative turn models sustained-conversation craft - it builds on
 the first turn without repeating a sentence of it, answers the
 follow-up's actual pressure, and keeps the plain register (short
 sentences under depth, 8th-10th grade) that single-answer demos teach
-for openings but nothing yet taught for follow-ups. Content adapted
+for openings but not yet for follow-ups. Content is adapted
 directly from the named source records - no new claims; honest-limit
-boundaries carried as the sources state them. Register pressure from
-the design, never a gate (Mark's ruling: "we want pressure from the
-design, not cut off").
+boundaries are carried as the sources state them. Register pressure comes from
+the design itself, not from a length cap.
 
-REVISED same day (Mark: "it still feels to complex and high english, not practicle simple english"): both representative turns rewritten in practical everyday English - balanced-rhetoric sentence shapes and formal diction out ('the prying scrutinizer', 'courses of stone', 'not certainty but faith'); same facts, same sources, same honest limits.
+Both representative turns use practical, everyday English - short,
+direct sentence shapes, formal or balanced-rhetoric diction left out;
+same facts, same sources, same honest limits.
 
-RESHAPED same day (Mark's ruling: "we can go longer for interveiw turns, but again not a cap, pressure and not essays or more than 3 short paragraphs"): turns trimmed to at most three short paragraphs' worth of speech; most first turns end by handing the conversation back (register statement 1 and the paced-depth principle) so depth arrives because the participant asked. Register statement 7 - brevity as a property of the register, not a ceiling - is the pressure being modeled; no caps anywhere.
+Turns run to at most three short paragraphs of speech; most first
+turns end by handing the conversation back (register statement 1 and
+the paced-depth principle) so depth arrives because the participant
+asked. Brevity is a property of the register, not a ceiling - no caps
+anywhere.

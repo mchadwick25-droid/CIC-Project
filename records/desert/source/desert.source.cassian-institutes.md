@@ -25,7 +25,7 @@ attribution_status: attributed
 discovery_channel: "carried from the prior Desert build's source registry (srcDES026, added 2026-07-27 by change order CO-P2-10(c) - the cleared Doc_02 itself never rowed Cassian; provenance corrected per Step2 Review Round 1, Finding 11) and re-verified in the vendored CCEL corpus (supplied by Mark 2026-08-15-18; copied to this branch 2026-08-21); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf211"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Divisions located: Works of John Cassian line 14912, Institutes
 line 16537.
 

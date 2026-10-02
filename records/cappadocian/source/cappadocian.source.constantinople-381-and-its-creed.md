@@ -28,4 +28,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 78; a specific n
 external_ids:
   cappadocian_source_registry_row: 78
 ---
-The 381 ecological-break gravity dissolution (Doc_01 SS4a) (row 78). File present since 2026-08-15, not re-verified this session.
+The 381 ecological-break gravity dissolution (Doc_01 SS4a) (row 78). This file has not been individually re-verified against Doc_02's specific citations.

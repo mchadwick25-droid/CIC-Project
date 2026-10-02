@@ -77,15 +77,13 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.term.synaxis}
 ---
-Discovered 2026-09-09 in a supplemental source review: CiC_W3_Doc02
-Source_Ecology names "this world's actual liturgical content beyond
+CiC_W3_Doc02 Source_Ecology names "this world's actual liturgical content beyond
 structure and rhythm" as genuinely thin (Section 4), carried into the
 live world_core record's own thin_topics entry for
 [liturgy, worship, psalter, prayer, synaxis]. desert.source.cassian-
-institutes was already vendored and compiled for this world (cited for
-Book IV's fear-of-the-Lord ladder) but Books II-III, the actual
-canonical-psalmody content, had never been drawn into any term, quote,
-or gravity record. Text verified directly against
+institutes is already compiled for this world (cited for Book IV's
+fear-of-the-Lord ladder); this record draws on Books II-III, the actual
+canonical-psalmody content. Text verified directly against
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml at line
 17133, no elisions within the quoted span (Institutes II.5 is a single
 continuous paragraph; this quote takes its back half, from "And when
@@ -102,5 +100,5 @@ desert.term.synaxis alongside desert.quote.never-kneel-saturday-to-
 sunday, with that caution carried in both records' own confidence
 blocks rather than left to be inferred.
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own space before a closing parenthesis
-("Egypt )") that the record had closed up. No wording changed.
+The text field carries the source's own space before the closing parenthesis ("Egypt )"), matching
+the source exactly.

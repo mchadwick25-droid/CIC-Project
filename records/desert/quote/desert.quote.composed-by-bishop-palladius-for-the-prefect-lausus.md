@@ -38,9 +38,8 @@ relations:
 - type: associated-with
   target: desert.term.apophthegma
 ---
-Opened 2026-08-27 for F2-E, served by desert.term.apophthegma alone, whose vendored locus reads 'the
-collections as a whole (Alphabetical and Systematic)' - which is why the instrument ruled this NEEDS
-READING, and rightly this time.
+This record fills canon cell F2-E. desert.term.apophthegma alone serves this cell, and its vendored
+locus reads only 'the collections as a whole (Alphabetical and Systematic)' - not a quotable line.
 
 Reading the collection for a voice that answers the cell found the answer before the sayings start.
 This is a compiler's rubric, not an elder's saying, and that is exactly why it belongs here: the cell

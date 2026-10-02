@@ -15,9 +15,8 @@ confidence:
     Documented - multiple independent ancient witnesses: Sulpitius (Vita X), Cassian's own
     dedications and his chosen Egyptian counter-case (Conf. XI.2), Hilary of Arles (row 27, 'ad
     ipsum dignitas venit' at file line 716, Inferential/Thin for wording, presence checkable by
-    grep), Gennadius ch. XIX, Vincent (Comm. ch. 1 [2], ch. 32 [84]). The Conf. XI.6 div id was
-    corrected at Doc_08's Round 1 fix round (iv.v.ii.vi; the prior draft's iv.iv.v.ii is Conf.
-    IV.2). The Sarabaite (Conf. XVIII.7) is Cassian's imported Egyptian taxonomy with no Gallic
+    grep), Gennadius ch. XIX, Vincent (Comm. ch. 1 [2], ch. 32 [84]). The Conf. XI.6 div id is
+    iv.v.ii.vi (iv.iv.v.ii is Conf. IV.2). The Sarabaite (Conf. XVIII.7) is Cassian's imported Egyptian taxonomy with no Gallic
     uptake in what was read (Doc_04 §2.2), used here only as the world's name for the renunciation
     it could not conceive.
 sources:

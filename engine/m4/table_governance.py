@@ -1,5 +1,5 @@
 """Table governance, deterministic half (Artifact-7 SS2's round-level
-governance; C5, 2026-08-28). Ported from the proven poc implementation
+governance; C5). Ported from the proven poc implementation
 (cic-poc/backend/app/graph/nodes.py check_dominance) rather than invented:
 the thresholds and minimums are the ones that ran live, and the poc's own
 rationale for each is kept below. Convergence deliberately has NO

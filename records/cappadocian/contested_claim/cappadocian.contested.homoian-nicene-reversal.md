@@ -21,7 +21,7 @@ sources:
 - source_id: cappadocian.source.imperial-communion-law-of-381
   locus: "the settlement naming eleven eastern bishops whose communion is the test of catholicity, four
     of them this world's own (Amphilochius of Iconium; Helladius of Caesarea, Otreius of Melitene,
-    Gregory of Nyssa) - Latin verified directly 2026-09-09, though the text is still not vendored into
+    Gregory of Nyssa) - Latin verified directly, though the text is still not vendored into
     this repository's own cic/texts/ on the default branch, per that source record's own rights_status"
 - source_id: cappadocian.source.gregory-nazianzus-invectives-against-julian
   locus: "Orations 4 and 5 - one of the only episodes in this whole reversal where both sides' own

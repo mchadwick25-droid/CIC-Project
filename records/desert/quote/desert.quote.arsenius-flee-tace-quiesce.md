@@ -42,8 +42,8 @@ relations:
 - type: associated-with
   target: desert.gravity.withdrawal
 ---
-VERBATIM AS OF 2026-08-27, verified against the newly vendored Budge at
-line 47, §2. DISCLOSED: these are the voice's words only - the file's
+Verified against the vendored Budge at line 47, §2. These are the
+voice's words only - the file's
 framing ("And when Arsenius was living the ascetic life in the monastery,
 he prayed to God the same prayer, and again he heard a voice saying unto
 him") precedes them and is not quoted.
@@ -64,20 +64,13 @@ corpus but is not itself vendored or independently verified here; this
 record carries the saying in English paraphrase only, matching
 desert.story.arsenius-flee.
 
-Step4, Round 1 review Finding S10: divergence_note carried only the
-"Widely Accepted" half of desert.source.apophthegmata-patrum's own
-confidence pairing - the unconditional Inferential/Thin bound added
-above. Finding M8: speaker_or_author carried a parenthetical provenance
-tag that would compile directly - removed; the source is already
-carried in sources[] and divergence_note.
+divergence_note carries both halves of desert.source.apophthegmata-patrum's
+own confidence pairing, the "Widely Accepted" half and the unconditional
+Inferential-Thin bound. speaker_or_author carries no parenthetical
+provenance tag; the source is already carried in sources[] and
+divergence_note.
 
-Step4, Round 2 review Finding M8: `sources[].locus` also compiles into
-`quotes.json` (`build_quotes_json()` emits `sources` verbatim) - the
-locus above previously named a sibling record id and described itself
-in build-process terms ("in this record's own words rather than a
-verbatim rendering"); reworded to a plain description carrying the same
-information without either.
-
-Step4, Round 3 review Finding M6: the M8 fix still left "vendored" and
-a licence-mechanics gloss in this compiled field - reworded above to
-plain description with neither.
+`sources[].locus` also compiles into `quotes.json`
+(`build_quotes_json()` emits `sources` verbatim), so it is written as a
+plain description: it does not name a sibling record id, use
+build-process language, or carry a licence-mechanics gloss.

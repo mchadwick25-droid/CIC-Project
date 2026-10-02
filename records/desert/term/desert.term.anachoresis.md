@@ -71,62 +71,10 @@ evidential sense deliberately - the tension with the world's own
 rhetoric is gravity 8's territory and is stated, not smoothed. Related
 Terms carried from Doc_06's cleared 24-edge reciprocity graph.
 
-Step3a Review Round 5, Finding S3: the evidential sense's embeddedness
-claim paraphrased Goehring's thesis near-verbatim without registering
-him, against this world's standing rule that embeddedness claims cite
-Kellia + Nepheros + Goehring jointly, never Goehring alone or
-unregistered; and the personal sense's martyrdom-successor claim
-carried no locus for it. Both fixed by registering the missing sources
-above - Nepheros and Goehring alongside the already-present Kellia,
-and the Vita SS46-47 locus already anchored by
-desert.search.white-martyrdom-citation - rather than by rewording
-claims the sources already supported.
-
-Step3a Review Round 6, Finding S3: the evidential sense names Palladius
-among the attesting streams ("Athanasius's Life of Antony, the sayings
-tradition, Palladius, and the excavated settlements at Kellia"), but
-Palladius was not registered in sources[] - the same defect class this
-commit's own Round 5 fix addressed for Goehring, unswept to the one
-other unregistered name sitting in the same sentence. Registered above
-(ch. VII, VIII, XVIII, all attesting withdrawal as settlement life's
-ordinary shape).
-
-Step3a Review Round 7, Finding S1: the Nepheros row carried only the
-first of that source's two mandatory standing cautions - the identical
-gap Round 5 found and fixed on cheironaxia, unswept here in the same
-commit that gave this record its Nepheros row. The second caution
-(organizationally intermediary, not a clean fit to this world's three
-strands) now added to match cheironaxia's model.
-
-Step3a Review Round 7, Finding S4: Goehring's own source record states
-his specific claims carry an open verification bound that "travels
-with every citation"; neither this record's nor cheironaxia's Goehring
-row carried it, though this record's own index row asserted it
-independently. Added to the locus above.
-
-Step3a Review Round 7, Finding C5: the Palladius locus's parenthetical
-claimed all three cited chapters show withdrawal as settlement life's
-"ordinary shape." Ch. VIII, read in full, is Amoun's own founding
-withdrawal into Nitria and says the opposite of ordinary for its own
-moment ("there were no monasteries there yet") - the chapter still
-attests withdrawal, so the citation itself was sound, but the
-parenthetical over-reached. Split to describe ch. VIII on its own terms.
-
-Step3a Review Round 8, Finding B2: an exhaustive standing-rule matrix
-found both the Nepheros cautions and the Goehring verification bound
-sitting only in this record's locus (not compiled) while the claims
-they qualify sit in the evidential sense (compiled) - satisfying
-Round 7's own prescription but not Round 4/5's earlier standard, which
-this lexicon settles on here: a standing-rule caveat travels with the
-sense field carrying the claim it qualifies, not only the locus. Added
-to the evidential sense above, matching cheironaxia's model.
-
-Self-caught before commit, twice in the same editing pass: this fix's
-first draft wrote "not yet independently checked" into the same sense
-it was fixing - the verification-process verb Rounds 3-4 excised from
-theoria and puritas-cordis - and the reword that replaced it wrote in
-"vendored" - jargon family #1, excised since Round 1. Both caught on
-re-reads before committing; the sense now reads "stand unverified in
-themselves, corroborated here only by the other evidence already
-cited," reusing this lexicon's own already-established "unverified
-working assumption" register and no apparatus vocabulary.
+Embeddedness claims cite Kellia, Nepheros, and Goehring jointly, never
+Goehring alone or unregistered; the personal sense's martyrdom-successor
+claim is anchored to the Vita SS46-47 locus, already anchored by
+desert.search.white-martyrdom-citation. A standing-rule caveat travels
+with the sense field carrying the claim it qualifies, not only the
+locus - so the Nepheros and Goehring cautions sit in the evidential
+sense above, not only in sources[].

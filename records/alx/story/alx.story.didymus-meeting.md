@@ -31,12 +31,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) for the 
   eyewitness testimony (''I met him four times in all''); the biographical details are what Didymus himself
   told him (''so he told me'').'
 tellable_as: the traveler Palladius's own account of meeting the blind master of the school
-text: 'Palladius came to Alexandria late in the fourth century and visited Didymus four times over ten
-  years. The teacher was old, and blind, and had been blind since he was four - too young ever to have
-  learned letters. He had never seen a written word of the Scripture he taught. What others took in with
-  their eyes he had taken in through his ears and held: the whole of Scripture
-  in memory, weighed and ordered. Later tradition remembers Jerome calling him, in contrast to his blindness, the seer. He died at
-  eighty-five. He told Palladius himself the age at which he was blinded.'
+text: 'Palladius came to Alexandria late in the fourth century and visited Didymus four times over ten years. The teacher was old, and blind, and had been blind since he was four - too young ever to have learned letters. He had never seen a written word of the Scripture he taught. What others took in with their eyes he had taken in through his ears and held: the whole of Scripture in memory, weighed and ordered. Jerome called him the seer, a name set against his blindness. He died at eighty-five. He told Palladius himself the age at which he was blinded.'
 absent_detail: 'What Didymus''s lessons were actually like - his classroom, his methods hour to hour -
   Palladius does not record; and Didymus''s own books, which survived him, are lost to us except in fragments
   recovered centuries later (the sharpest source absence in this world - see the search record). The ''seer''

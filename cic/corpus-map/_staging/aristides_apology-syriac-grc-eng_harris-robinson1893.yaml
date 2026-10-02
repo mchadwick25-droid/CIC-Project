@@ -1,0 +1,28 @@
+# Harris and Robinson's 1893 edition of the Syriac Aristides with English translation and Robinson's
+# Greek text appendix, a second witness (zero Syriac and zero Greek characters in the OCR; the English
+# translation and English scholarship are the readable layer). Same atlas entries, role and confidence
+# as the English Aristides (ANF09).
+source_file: aristides_apology-syriac-grc-eng_harris-robinson1893.txt
+
+assignments:
+  - row_id: aristides_apology-syriac-grc-eng_harris-robinson1893--the-apology-of-aristides-the-philosopher
+    work: "The Apology of Aristides the Philosopher"
+    author: aristides
+    locus: "file line 2133 (heading 'THE APOLOGY OF ARISTIDES, TRANSLATED FROM THE SYRIAC'; Robinson's Greek appendix ('The Greek Text of Barlaam and Josaphat') begins at line 4583)"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      English translation (Harris) of the Syriac, second witness of the ALREADY-PRESENT English
+      entry for this work (source_file anf09_gospel-of-peter-diatessaron-origen-commentaries.xml)
+      in the bucket(s) named here. SECOND WITNESS ONLY, because of scan quality
+      (cic/texts/INTAKE.md section 2 and 6): the OCR of this scan holds zero Syriac-script and
+      zero Greek-script characters: the Syriac is lost and the Greek is Latin-letter
+      approximation. The readable layer is Harris's English translation, a nineteenth-century
+      rendering, not an original-language text. Not to be quoted as the original until a clean
+      witness is vendored or the page image is checked. Harris and Robinson, Texts and Studies
+      I.1, second edition (Cambridge, 1893). Mirrors the English twin's role and confidence
+      exactly.
+

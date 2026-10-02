@@ -57,4 +57,4 @@ free-will agreement with Bardaisan is stated (Doc_01 SS5.2's
 verified finding), the divergences (creation, resurrection) stated,
 the heresiology screen applied (world_core caution 5).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+Written in short sentences, at the approved register level, with all claims and hedges kept.

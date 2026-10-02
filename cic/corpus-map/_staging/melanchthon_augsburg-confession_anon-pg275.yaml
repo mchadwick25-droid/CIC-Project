@@ -3,7 +3,8 @@
 source_file: melanchthon_augsburg-confession_anon-pg275.txt
 
 assignments:
-  - work: The Augsburg Confession
+  - row_id: melanchthon_augsburg-confession_anon-pg275--the-augsburg-confession
+    work: The Augsburg Confession
     author: melanchthon
     locus: "whole file"
     atlas_ids:

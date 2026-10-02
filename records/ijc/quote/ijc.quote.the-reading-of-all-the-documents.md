@@ -39,11 +39,11 @@ relations:
 - type: associated-with
   target: ijc.dw.record-under-question
 ---
-Opened 2026-08-27 for F2-E, served by ijc.dw.record-under-question alone, whose loci read 'the acts
+Opened for F2-E, served by ijc.dw.record-under-question alone, whose loci read 'the acts
 and canons' and 'the embedded documents versus the narrative frame' - bodies of text, which is why the
 instrument ruled this NEEDS READING.
 
 The second of those loci is exactly right and points at a real thing: the acts sit EMBEDDED inside a
 narrative volume, and the embedded document is the harder evidence. This sentence is one of them.
 
-MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+The spoken form is a modern-English translation, not a summary; the original wording stays as this record's text, shown at Level 3. It is rendered from this record's own text field only - nothing added from the source beyond it.

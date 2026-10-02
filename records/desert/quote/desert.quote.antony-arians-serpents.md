@@ -36,7 +36,7 @@ relations:
 - type: associated-with
   target: desert.quote.antony-nicene-formula
 ---
-Verified verbatim 2026-08-22 against the vendored file, the same
+Verified verbatim against the vendored file, the same
 division (SS68) desert.force.melitian-rivalry already cites for the
 adjacent Melitian material. This record is the corpus's own emic
 instance of doctrinal boundary-drawing by refusal (Antony's rejection

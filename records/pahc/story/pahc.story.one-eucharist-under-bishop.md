@@ -72,4 +72,4 @@ church 'Catholic'?") is a close, direct match given this story's own
 use of that exact word - the same cell already claimed by pahc.term.
 ekklesia, reinforced here.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

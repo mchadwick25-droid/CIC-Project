@@ -69,11 +69,10 @@ quick_meaning: 'The covenant: our vowed order of celibate men and women. They st
   and served the congregation, rather than leave for the desert.'
 distortion_risk: high
 ---
-Re-derived from syrlex002 (Tier 1, CT-tagged) and Doc_04's C2 Primary
-gravity. The CT contest (Historical scope: internal structure
-thin/contested) is carried in the evidential sense and in
-syr.contested.qyama-structure. The Ephrem-choir-leadership claim is
-excluded from the evidentiary basis (later hagiography, outside the
-window - Doc_04 Round 1's classification fix), enforced here by the
+A Tier 1, CT-tagged entry, grounding the C2 Primary gravity. The CT
+contest (historical scope: internal structure thin/contested) is
+carried in the evidential sense and in syr.contested.qyama-structure.
+The Ephrem-choir-leadership claim is excluded from the evidentiary
+basis (later hagiography, outside the window), enforced here by the
 do_not_retrieve_when rule. What IS in-window: that choirs of the bnat
 qyama performed the madrashe.

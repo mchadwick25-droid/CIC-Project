@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: ijc.limit.inner-life
 ---
-Opened 2026-08-27 for F4-P, which the rewritten classifier moved out of LIMIT-ONLY: ijc.limit.inner-life
+Opened for F4-P, which the rewritten classifier moved out of LIMIT-ONLY: ijc.limit.inner-life
 cites Ep. LI specifically, so the limit can be voiced by the passage it points at.
 
 The limit's own statement paraphrases this - 'forgiveness came as the end of repentance, not in place

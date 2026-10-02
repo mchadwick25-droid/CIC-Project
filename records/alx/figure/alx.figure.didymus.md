@@ -29,16 +29,13 @@ names:
 - name: Didymus the Blind (c. 309/313-c. 398)
   tag: scholarly
 dates:
-  born: 'c. 309-313 (derived from two primary attestations: Jerome De viris 109, written 392/3, ''has
-    already passed his eighty-third year''; Palladius, Lausiac History IV, 85 at death)'
+  born: 'c. 309-313 (worked out from two ancient sources: Jerome, On Illustrious Men 109, written in 392/3, says he ''has already passed his eighty-third year'', and Palladius, Lausiac History IV, gives 85 at his death)'
   died: 'c. 398 (Palladius: ''He was 85 years old when he died'')'
   floruit: 'active as a teacher and biblical interpreter in Alexandria until his death in 398, remembered
     by later tradition as heading the catechetical school in its final line (not itself stated by the
     three loci cited here); blind from age four (''so he told me'' - Palladius, eyewitness)'
 narratable: true
-bridge_line: the blind teacher remembered by later tradition as heading the Alexandrian school in its
-  final line, engaging Scripture through hearing and memory - the tradition's last great voice in this
-  window, whose own books time nearly erased
+bridge_line: A blind teacher whom later tradition remembers as the head of the Alexandrian school in its last line. He engaged Scripture through hearing and memory. He was the tradition's last great voice in this window, and time nearly erased his own books.
 ---
 Three independent testimonia (Palladius eyewitness; Jerome, who studied
 under him briefly, pre-quarrel; Socrates later) replace the prior

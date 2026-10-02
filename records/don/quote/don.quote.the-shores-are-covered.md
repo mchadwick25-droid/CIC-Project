@@ -67,11 +67,12 @@ relations:
 - type: associated-with
   target: don.dw.what-we-never-settled
 modern_rendering: >-
-  Certain men's shipwrecked members have been dashed by the waves of
-  truth onto the sharp rocks. After the fashion of the Egyptians, the
-  shores are covered with the bodies of the dying. Their punishment is
-  intensified in death itself. Since the avenging waters have wrung
-  their life from them, they fail to find so much as burial.
+  For the waves of truth have hurled the shipwrecked limbs of certain
+  men against the sharp rocks. And, as happened to the Egyptians, the
+  shores are covered with the bodies of the dying. Their punishment
+  grows heavier in death itself. This is because, after the avenging
+  waters have squeezed the life out of them, they do not even find
+  burial.
 ---
 Verified verbatim against the vendored
 `npnf104_augustine-anti-manichaean-anti-donatist.xml`, in the passage
@@ -96,6 +97,6 @@ argument they came from. `don.story.bagai-reconciliation` already carries
 the same passage as narrative; this record carries it as attributable
 speech with the transmission stated.
 
-MODERN RENDERING AUTHORED: the imagery is kept, the syntax unwound, and
-nothing is added. Reciprocal relation declared on
+MODERN RENDERING re-authored: see `worlds/don/Open_Gaps_Tracking.md`
+OG-18 for what changed and why. Reciprocal relation declared on
 `don.dw.what-we-never-settled`.

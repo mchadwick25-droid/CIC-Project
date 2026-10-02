@@ -25,7 +25,7 @@ attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21), following the same volume's use on world/alexandria (alx.source.jerome-de-viris); volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf203"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Antonius chapter located at line 41173; Gennadius's "Pachomius
 the presbyter-monk" at line 42250 (with the volume's own note "Born
 about 292, died 348" at the same locus - a dating witness for the figure

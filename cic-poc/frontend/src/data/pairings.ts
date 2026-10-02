@@ -1,7 +1,7 @@
 /**
  * The Table's recommended seatings - the launch tray's guidance data,
  * carried verbatim in substance from the C6 pairing record
- * (Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md). Refining
+ * (Build/Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md). Refining
  * these suggestions is a data edit here, never a code change - exactly
  * the module boundary the launch system's design asked for.
  *

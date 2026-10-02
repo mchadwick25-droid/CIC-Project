@@ -33,14 +33,13 @@ heretical content) is itself first-class evidence for this world's
 transmission force (ijc.force.transmission-schism-selection): Homoian
 self-testimony was precarious even in its OWN transmission.
 
-Carries the legacy build's Round 1/Doc_06 corrections in full: the
-Dissertatio Maximini is a HOMOIAN work against Ambrose, not a hostile
-Nicene work; and the manuscript material is more precisely marginal
+The Dissertatio Maximini is a HOMOIAN work against Ambrose, not a hostile
+Nicene work; the manuscript material is more precisely marginal
 scholia later partly erased than a classic scraped-for-reuse palimpsest
 undertext. Never used to support any vivid specific claim beyond the
 fragment's existence and general character.
 
-Identification note, added at review: this author is very likely the
+Identification note: this author is very likely the
 same Mercurinus Auxentius who confronts Ambrose at Milan in 386,
 writing under the name of Ambrose's own Homoian predecessor there
 (Ambrose's own Sermo contra Auxentium 22 supplies the double-naming and

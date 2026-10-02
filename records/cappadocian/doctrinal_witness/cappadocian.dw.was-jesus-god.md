@@ -89,11 +89,9 @@ cappadocian.gravity.precision-reserve's own standing, unresolved
 disagreement, carried here rather than smoothed into a single verdict.
 Reciprocal relation declared on cappadocian.quote.ousia-and-hypostasis.
 
-CORRECTED (cold adversarial review, 2026-08-31): the locus originally
-cited only "chs. 21-24" for both halves of the text's atonement
-paraphrase ("a ransom paid, a debt settled, the physician entering our
-own sickness to heal it from inside"), but the physician/healing
-argument is a separate movement of Gregory's own text, running chs.
-26-29, not inside 21-24 - both ranges confirmed present in the vendored
-npnf205 text; the locus now cites them separately rather than
-implying one contiguous four-chapter span covers both images.
+The text's atonement paraphrase ("a ransom paid, a debt settled, the
+physician entering our own sickness to heal it from inside") draws on
+two separate movements of Gregory's own text: the ransom/debt argument
+at chs. 21-24, and the physician/healing argument at chs. 26-29. Both
+ranges are confirmed present in the vendored npnf205 text, cited
+separately rather than as one contiguous four-chapter span.

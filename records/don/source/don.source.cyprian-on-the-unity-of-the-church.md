@@ -26,4 +26,4 @@ discovery_channel: 'Source Registry row 9; corpus map / cic/corpus-map/donatism.
 external_ids:
   don_source_registry_row: 9
 ---
-Antecedent tradition (corpus map role: antecedent, ruled 2026-08-26) for the ecclesial-purity/unity theological background. Written against the Novatianist schism among others (the corpus map's own note) -- the same shared-volume proximity that makes row 29's Novatian comparandum a live temptation to guard against, not evidence of continuity between the two schisms.
+Antecedent tradition (corpus map role: antecedent) for the ecclesial-purity/unity theological background. Written against the Novatianist schism among others (the corpus map's own note) -- the same shared-volume proximity that makes row 29's Novatian comparandum a live temptation to guard against, not evidence of continuity between the two schisms.

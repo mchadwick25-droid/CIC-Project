@@ -36,12 +36,12 @@ def _request_with_xff(header_value: str | None) -> Request:
 
 
 def test_client_ip_trusts_the_last_xff_entry_not_the_first():
-    """2026-09-21, closing adversarial review: a standard reverse proxy
-    (Render's edge, the only thing that can reach this container) APPENDS
-    the peer it actually observed onto X-Forwarded-For rather than
-    replacing it - so the FIRST entry is attacker-supplied and trusting it
-    let anyone bypass every limiter in this module with one request
-    header. The last entry is the one Render's own proxy appended."""
+    """A standard reverse proxy (Render's edge, the only thing that can
+    reach this container) APPENDS the peer it actually observed onto
+    X-Forwarded-For rather than replacing it - so the FIRST entry is
+    attacker-supplied, and trusting it would let anyone bypass every
+    limiter in this module with one request header. The last entry is the
+    one Render's own proxy appended."""
     assert client_ip(_request_with_xff("1.2.3.4, 10.0.0.5")) == "10.0.0.5"
     assert client_ip(_request_with_xff("attacker-spoofed, 9.9.9.9, 10.0.0.5")) == "10.0.0.5"
     assert client_ip(_request_with_xff("203.0.113.50")) == "203.0.113.50"
@@ -88,11 +88,11 @@ def test_default_app_is_not_rate_limited(store, usage_store, world_loader, regis
 
 
 def test_transcript_and_round_close_reasons_gets_are_rate_limited(store, usage_store, world_loader, registry):
-    """2026-09-21, closing adversarial review: these two GETs guess a
-    session CODE via the exact same _authenticate() 401 as the message/
-    continue POSTs, but were never in this limiter's own path match -
-    an unlimited-rate credential-guessing surface. No real session is
-    needed for this test: the limiter is HTTP middleware and runs before
+    """These two GETs guess a session CODE via the exact same
+    _authenticate() 401 as the message/continue POSTs - an unlimited-rate
+    credential-guessing surface if left out of this limiter's own path
+    match. No real session is needed for this test: the limiter is HTTP
+    middleware and runs before
     routing/auth either way, so a nonexistent session id still exercises
     it (and still gets the normal 401 up to the point the limiter itself
     starts returning 429 instead)."""
