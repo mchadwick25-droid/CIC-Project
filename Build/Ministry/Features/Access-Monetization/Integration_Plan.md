@@ -16,17 +16,9 @@ Where `Sandbox/access-ledger/` plugs into the engine. Nothing here is built in `
 
 The engine calls `AccessService` in process, so there is no HTTP hop between them. The HTTP module in the sandbox is for the webhook and for a separate deployment if one is ever wanted.
 
-## Safety invariant (Decision-Log entry 1)
+## Ledger boundary
 
-- The ledger is consulted at conversation start and at the first stored reply, never per message. An open conversation continues with no ledger call.
-- Today `anon_cap.py` returns 429 and a closed session returns 409 before the safety gate runs (Open_Gaps_Tracking entry 1). Hooks 1 and 5 must not repeat that.
-- Tests required with the hook: a zero-balance visitor with an open conversation can still send a message that reaches the safety gate; no purchase prompt is returned after a safety event.
-
-## Open: the zero-balance safety path
-
-At creation there is no participant message yet, so refusing a start blocks nothing that was typed. The gap is a visitor in distress with no balance and no open conversation: the threshold sheet has no text box, so there is no way to reach the Facilitator.
-
-Proposed, not decided: at zero balance the start screen still offers a Facilitator-only session. It holds no unit and has no Representative. Each message goes through the safety gate. If it is not a safety matter, the Facilitator answers with the threshold text and the packs. This extends the rule that the redirect belongs to the Facilitator. The draft AcuteDistress and HarmfulDynamic mechanism is not settled and is not assumed here.
+The ledger is consulted at conversation start and at the first stored reply, never per message. An open conversation continues with no ledger call. How the Facilitator closes a conversation at the turn cap is planned outside this module.
 
 ## Open: unfinished conversations
 

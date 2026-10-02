@@ -206,3 +206,9 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Measured, first 7 replies of the 15-turn run:** 436 to 801 words each, total API cost $0.2325. Replies 6 and 7 end mid-sentence at the 1,024-token output limit, and reply 5 reached the limit and ended cleanly. Finishing those replies at about 1,300 tokens adds about $0.012 to a 7-turn conversation, so removing the cut-off costs little.
 
 **Open:** the numeric safety ceiling for output (entry 12), and whether the readability target in `CLAUDE.md` is met per sentence and paragraph even when a reply is long. This module does not score the replies.
+
+## 21. Scope of this module (2026-10-02)
+
+**Decision (Mark):** this module covers the pay analysis and the pay-as-you-go build. It does not design the larger system. The Facilitator's last response at the end of the turn cap is already planned elsewhere and is not designed here, so the zero-balance Facilitator path proposed in an earlier draft of the integration plan is withdrawn.
+
+**Stays in scope:** pricing and cost analysis, the ledger, the Stripe flow, reconciliation, and the points where the engine calls the ledger.
