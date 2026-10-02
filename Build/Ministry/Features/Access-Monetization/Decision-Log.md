@@ -77,3 +77,11 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Consequences:** support cannot look up a transcript from a receipt. A lost-cookie recovery restores access and balance, not past transcripts. Wall and closing copy must not promise saved history that the system does not keep.
 
 **Open:** the `privacy.html` wording that states this promise. That file is on a live surface (`cic-website/`) and is not edited here.
+
+## 9. Counsel and accountant review before any live checkout (2026-10-02)
+
+**Decision (Mark):** counsel and an accountant review the module before any live checkout. All building and testing runs in Stripe test mode until then.
+
+**Scope of the review:** Colorado and home-rule sales tax on digital goods; whether public benefit corporation status changes Stripe fees or donation handling; COPPA and the adult-buyer wording (entry 7); refund and checkout terms; the privacy promise (entry 8).
+
+**Open:** the question list for counsel, drafted before the review.
