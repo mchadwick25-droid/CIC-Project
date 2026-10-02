@@ -28,6 +28,11 @@ text: >-
   upon his couch anything except the mat alone. And let no one anoint or wash his whole body,
   except in his sickness. Let no one converse with his neighbor in the dark. Let no one seize the
   hand of another, nor at any part of his body.
+modern_rendering: >-
+  No one may talk with his neighbor in the place where he sleeps. No one may put
+  anything on his bed except the mat alone. No one may anoint or wash his whole body,
+  except when he is sick. No one may talk with his neighbor in the dark. No one may take
+  hold of another man's hand, or touch any part of his body.
 speaker_or_author: the Ethiopic recension of the Rule, Part II
 license: verbatim
 modern_lens_note: >-
@@ -51,7 +56,7 @@ relations:
 - type: associated-with
   target: desert.quote.monks-like-hyenas
 ---
-Verified verbatim 2026-08-27 against the vendored file, Part II, pp.
+Verified verbatim against the vendored file, Part II, pp.
 684-685.
 
 This is the horarium at its most concrete, and it earns its place here

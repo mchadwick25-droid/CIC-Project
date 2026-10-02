@@ -28,6 +28,14 @@ text: >-
   and the Wisdom of Sirach, and Esther, and Judith, and Tobit, and that which is called the
   Teaching of the Apostles, and the Shepherd. But the former, my brethren, are included in the
   Canon, the latter being [merely] read; nor is there in any place a mention of apocryphal writings.
+modern_rendering: >-
+  But for greater exactness, I add this too, though I write it only because I must: there
+  are other books, besides these, not included in the Canon. The Fathers appointed them to
+  be read by those who newly join us and want instruction in the word of godliness. These
+  are the Wisdom of Solomon, the Wisdom of Sirach, Esther, Judith, Tobit, the book called
+  the Teaching of the Apostles, and the Shepherd. But the earlier books, my brothers, are
+  included in the Canon. The later ones are only read. Nowhere is there any mention of
+  apocryphal writings.
 speaker_or_author: Athanasius of Alexandria, in his Festal Letter of 367
 license: verbatim
 modern_lens_note: >-
@@ -50,7 +58,7 @@ relations:
 - type: associated-with
   target: pahc.term.two-ways
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 68714.
+Text is verified verbatim against the vendored file at line 68714.
 
 THIS QUOTE CORRECTED A CLAIM IN THIS WORLD. pahc.force.selective-
 canonization had said Hermas was "excluded by Athanasius". The letter
@@ -58,8 +66,7 @@ does not exclude it. The force record's manifestation and description are
 amended, with the correction stated rather than quietly applied, and
 pahc.source.athanasius-festal-39 carries the reasoning.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "read" was invented - the source's
-sentence continues with a semicolon to a natural, complete close ("nor is there in any place a mention
-of apocryphal writings."). Restored through that close; doesn't change the canon-versus-read distinction
-this record cites. The next sentence (a new topic - apocryphal writings as heretical inventions) is not
-included.
+The quoted sentence continues with a semicolon to its natural, complete close ("nor is there in
+any place a mention of apocryphal writings."); this does not change the canon-versus-read
+distinction this record cites. The next sentence (a new topic - apocryphal writings as heretical
+inventions) is not included.

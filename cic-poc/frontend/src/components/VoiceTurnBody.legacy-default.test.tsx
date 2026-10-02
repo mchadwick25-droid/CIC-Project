@@ -1,11 +1,9 @@
 /**
- * Decision-Log.md Entry 49: the flag now defaults ON (R10 and label copy
- * both ruled, Mark's own read-through passed) - this file's own title
- * predates that flip and is kept only because the legacy renderer stays
- * genuinely reachable, not because the flag defaults to it anymore. No
+ * Tests the legacy renderer, which stays reachable whenever a turn has no
+ * `transparency` plan - regardless of the flag's own default. No
  * mock here: exercises VoiceTurnBody exactly as a caller with no
  * `transparency` plan on the turn does (an older logged session, or a
- * turn from before Stage 3b) - VoiceTurnBody's own top-level export falls
+ * turn whose transparency plan was never computed) - VoiceTurnBody's own top-level export falls
  * back to the legacy renderer whenever `transparency` is absent,
  * regardless of the flag. Its known completeness gap is reproduced here
  * on purpose, so the fix in VoiceTurnBody.test.tsx has something concrete
@@ -32,7 +30,7 @@ describe('VoiceTurnBody - legacy renderer, reachable with no transparency plan o
     expect(container.querySelectorAll('.story-mark')).toHaveLength(1);
   });
 
-  it("A, A, B, A: the known gap this stage fixes - a non-consecutive repeat's sources are dropped, not just its mark", () => {
+  it("A, A, B, A: the legacy renderer drops a non-consecutive repeat's sources, not just its mark", () => {
     // Passing `transparency` too, exactly as every real caller now does
     // post-3b - the point of this test is that the LEGACY renderer never
     // looks at it while the flag is off, so the gap it has is unchanged.

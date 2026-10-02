@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: '[The sands are] my sins which are running down behind me and I cannot see them, and I, even I, have
   come this day to judge shortcomings which are not mine.'
+modern_rendering: >-
+  [The sands are] my sins, running down behind me. I cannot see them. And I -- I myself -- have come
+  this day to judge faults that are not my own.
 speaker_or_author: Abba Moses
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote''s own vocabulary or imagery:
@@ -36,16 +39,11 @@ relations:
 - type: associated-with
   target: desert.gravity.diakrisis
 ---
-VERBATIM AS OF 2026-08-27, verified against the newly vendored Budge at
-line 1160, §542. DISCLOSED: the file prints "[The sands are]" in square
+Verified against the vendored Budge at
+line 1160, §542. The file prints "[The sands are]" in square
 brackets - the translator's supplement for an ellipsis in the Syriac; the
-supplement is Budge's, not this world's.
-
-Quote-verbatim gate fix (2026-09-22): the brackets themselves are restored, keeping the words exactly
-as before - dropping the bracket marks (rather than the words) still left the record unable to verify
-against the source's own printed form. The gate treats a bracketed span in a record's own text as a
-labeled editorial insertion, so this now shows Budge's supplement exactly as flagged rather than
-silently blending it into the sentence.
+supplement is Budge's, not this world's. The text field keeps those bracket marks, showing Budge's
+supplement exactly as flagged rather than blending it into the sentence.
 
 The narrative around it - a brother's offence at Scete, the summons Moses
 first refused and then obeyed, the basket of sand carried on his
@@ -59,24 +57,11 @@ No figure record exists for Abba Moses in this corpus (no comparable
 individually-verified biographical basis to desert.figure.sarah's own),
 so speaker_or_author names him as a plain string rather than an id.
 
-Step4, Round 1 review Finding S10: divergence_note carried only the
-"Widely Accepted" half of desert.source.apophthegmata-patrum's own
-confidence pairing - the unconditional Inferential/Thin bound added
-above, matching the Step3a Round 8/Step3c Round 2 discipline for this
-exact source. Finding M8: speaker_or_author carried a parenthetical
-provenance tag ("(Apophthegmata Patrum)") that would compile directly
-into build_quotes_json() - removed; the source is already carried in
-sources[] and divergence_note.
+divergence_note carries both halves of desert.source.apophthegmata-patrum's own confidence pairing,
+the "Widely Accepted" half and the unconditional Inferential-Thin bound, matching the standing
+discipline for this exact source. speaker_or_author carries no parenthetical provenance tag; the
+source is already carried in sources[] and divergence_note.
 
-Step4, Round 2 review Finding M8: `sources[].locus` also compiles into
-`quotes.json` (`build_quotes_json()` emits `sources` verbatim) - the
-locus above previously named a sibling record id and described itself
-in build-process terms ("in this record's own words rather than a
-verbatim rendering"); reworded to a plain description carrying the same
-information without either.
-
-Step4, Round 3 review Finding M6: the M8 fix still left "vendored" and
-a licence-mechanics gloss ("rather than a verbatim rendering") in this
-compiled field - "vendored" is the head of the jargon family Step 3a
-spent five rounds excising from compiled-facing fields. Reworded above
-to plain description with neither.
+`sources[].locus` also compiles into `quotes.json` (`build_quotes_json()` emits `sources` verbatim),
+so it is written as a plain description: it does not name a sibling record id or use build-process
+or licence-mechanics language.

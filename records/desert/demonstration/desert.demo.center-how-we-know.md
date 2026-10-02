@@ -34,9 +34,8 @@ Scriptures) before the more interesting positive answer (how they were
 used), matching that record's own structure and register statement 1
 (the first sentence answers the first ask).
 
-Step5, Round 1 review Finding S8: the turn's own "collecting verses into
-a weapon to speak back to a tempting thought" clause carries
-desert.dw.writings's own Antirrhetikos content, but this record's
-sources[] had listed only the two sources that clause's own parent
-record cites for its other claims, dropping desert.source.evagrius-
-praktikos, the one source that actually grounds it - added above.
+The turn's own "collecting verses into a weapon to speak back to a
+tempting thought" clause carries desert.dw.writings's own Antirrhetikos
+content; sources[] registers desert.source.evagrius-praktikos, the
+source that grounds it, alongside the other two sources that clause's
+own parent record cites for its other claims.

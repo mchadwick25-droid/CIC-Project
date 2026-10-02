@@ -54,13 +54,14 @@ def _gate_run(
     )
 
 
-def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term_ids=frozenset()):
+def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term_ids=frozenset(), daily_cap_reached=False):
     return open_table_round(
         gate_run=gate_run,
         representative_names=NAMES,
         track_a_last=track_a_last,
         rounds_completed=rounds_completed,
         anachronistic_term_ids=set(anachronistic_term_ids),
+        daily_cap_reached=daily_cap_reached,
     )
 
 
@@ -84,9 +85,9 @@ def test_round_config_defaults_and_bounds():
 
 
 def test_round_config_is_genuinely_immutable():
-    """Independent review, 2026-09-05: a mutable dict field on a frozen
-    dataclass used to defeat `frozen` twice over - unhashable, and mutable
-    out from under it with no error. cap_by_seats is a tuple now."""
+    """A mutable dict field on a frozen dataclass defeats `frozen` twice
+    over - unhashable, and mutable out from under it with no error.
+    cap_by_seats is a tuple, closing both."""
     config = RoundConfig()
     hash(config)  # does not raise
     with pytest.raises(AttributeError):
@@ -181,7 +182,7 @@ def test_track_b_checks_and_silences_the_voices():
     opening = _open(
         _gate_run(action="safety_turn", safety_value={"signal": "HARMFUL_DYNAMIC_SIGNAL", "acute_level": "none"})
     )
-    assert not opening.voices_speak  # amendment 2026-09-20: silenced, same as Track A above
+    assert not opening.voices_speak  # silenced, same as Track A above
     assert opening.facilitator_events[0]["resources_appended"] is False
     assert "Clement or Papnoute" in opening.facilitator_events[0]["text"]
 
@@ -201,6 +202,23 @@ def test_acute_crisis_overrides_session_cap():
     assert not opening.session_capped
     assert opening.facilitator_events[0]["resources_appended"]
 
+
+
+def test_daily_cap_closes_the_table_with_the_daily_cap_text():
+    opening = _open(_gate_run(), daily_cap_reached=True)
+    assert opening.session_capped
+    assert not opening.voices_speak
+    assert opening.routing_action == "session_cap_turn"
+    assert "today's limit" in opening.facilitator_events[0]["text"]
+
+
+def test_acute_crisis_overrides_daily_cap():
+    opening = _open(
+        _gate_run(action="safety_turn", safety_value={"signal": "ACUTE_DISTRESS", "acute_level": "a2"}),
+        daily_cap_reached=True,
+    )
+    assert not opening.session_capped
+    assert opening.facilitator_events[0]["resources_appended"]
 
 # --- bridge and continue re-derivation ---
 
@@ -240,6 +258,11 @@ def test_bridge_round_speaks_sense_and_updates_gate_directive():
     opening = _open(gate_run, anachronistic_term_ids={term_id})
     assert opening.voices_speak
     assert opening.facilitator_events[0]["kind"] == "bridge"
+    # The table route resolves the same modern_terms card(s) the interview
+    # route does (engine.m4.turn's own bridge branch) - both call
+    # facilitator_turns.bridge_turn with the fleet dict.
+    [card] = opening.facilitator_events[0]["modern_terms"]
+    assert card["record_id"] == term_id
     # The gate payload's directive was updated in place, so the caller logs
     # what the voices were actually handed - and the continue derivation
     # below reads it back.

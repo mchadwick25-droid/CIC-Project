@@ -1,9 +1,10 @@
-# Worker notes, 2026-09-02. Single-work Pearse file, no ThML markup - author
-# slug from the filename convention (brief SS11a), matching AUTHORS.md's own
+# Single-work Pearse file, no ThML markup - author slug from the
+# filename convention (brief SS11a), matching AUTHORS.md's own
 # `eunomius` entry.
 source_file: eunomius_first-apology_whiston1711.txt
 assignments:
-- work: The First Apology (Liber Apologeticus)
+- row_id: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus
+  work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII (Whiston's numbering, Vaggione's
     re-numbering per Pearse's edition) plus 23 footnotes
@@ -20,7 +21,8 @@ assignments:
     not survive independently and is known only through hostile
     quotation inside Gregory of Nyssa's own refutation (npnf205,
     already vendored).
-- work: The First Apology (Liber Apologeticus)
+- row_id: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus-2
+  work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII plus 23 footnotes
   atlas_ids:

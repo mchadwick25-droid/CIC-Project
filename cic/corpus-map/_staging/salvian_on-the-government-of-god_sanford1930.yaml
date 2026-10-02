@@ -1,7 +1,8 @@
 source_file: salvian_on-the-government-of-god_sanford1930.txt
 
 assignments:
-  - work: "On the Government of God (De Gubernatione Dei)"
+  - row_id: salvian_on-the-government-of-god_sanford1930--on-the-government-of-god-de-gubernatione-dei
+    work: "On the Government of God (De Gubernatione Dei)"
     author: salvian
     locus: "full work, tr. Sanford 1930 (all eight books, plus the dedicatory Preface)"
     atlas_ids:
@@ -9,7 +10,7 @@ assignments:
     role: tradition
     confidence: assigned
     note: >
-      Boundary-Checked 2026-09-09 (Doc_02 §13A, Source Registry row 43): Native,
+      Boundary-checked (Doc_02 §13A, Source Registry row 43): Native,
       Documented. Salvian personally taught at Lerins alongside Vincent of Lerins
       (already vendored, npnf211) -- attested directly by Hilary of Arles's own
       funeral sermon for Honoratus (already vendored,

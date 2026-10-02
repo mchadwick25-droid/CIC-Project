@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf212-leo); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf212"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: the Sermons division at file line
 13177; Sermon III at 13337; Sermon LXXXII at 20944.
 
@@ -33,18 +33,15 @@ comes to the primacy claim in its devotional register. Same Author
 Gravity as ijc.source.leo-letters: Rome's claim about itself, in
 Rome's own voice.
 
-Added at review (Opus canon-structure pass, 2026-08-21): Sermon IX
+Sermon IX
 ("Upon the Collections, IV.," verified at file line 13503) and Sermon X
-("On the Collections, V.," verified at file line 13707) checked in
-full while examining Review 3's F4-T finding - both preach proportional
-almsgiving as a binding discipline tied to an annual collection day,
-correcting this build's prior claim that this world's record held no
-giving-discipline material. Corrected at a follow-up confirmation
-review (2026-08-22): that collection day was first misidentified here
-as "an autumn collection-fast" - the file's own note (line ~13612)
-names it the octave of SS. Peter and Paul (early July, a day
-repurposed from a pagan festival), not a fast; Leo's genuine autumn
-fast sermons are a separate occasion with no Collections content. The
-review's own citation ("Sermons VI-XI")
-uses a different traditional numbering; this edition's own numbers
-(IX-X) are what is actually verified present and licensed here.
+("On the Collections, V.," verified at file line 13707) are checked in
+full: both preach proportional
+almsgiving as a binding discipline tied to an annual collection day, so
+this world's record does hold
+giving-discipline material. That collection day is
+the octave of SS. Peter and Paul (early July, a day
+repurposed from a pagan festival), per the file's own note (line ~13612), not an autumn fast; Leo's genuine autumn
+fast sermons are a separate occasion with no Collections content. This
+edition's own numbers
+(IX-X) are what is verified present and licensed here.

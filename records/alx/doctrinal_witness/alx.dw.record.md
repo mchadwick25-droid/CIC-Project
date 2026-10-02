@@ -42,10 +42,9 @@ text: >-
   by men with a stake in the outcome. What is claimed is claimed from named
   books a person can check. Where the ground thins, the thinness is said.
 positions:
-- the tradition's core texts are public, early, and extant - checkable claims
+- The tradition's core texts are public, early, and still here, so its claims can be checked.
 - the tradition itself practiced source-criticism (authorship, manuscripts, tiers of testimony)
-- the record's known distortions (single-historian mediation, stratum bias, filtered transmission) are
-  stated as part of the answer
+- The answer names the record's known flaws. Much of it comes through one historian. It favors the educated. What survives was filtered.
 tensions:
 - the world's confidence in its testimony vs the modern library's stricter tests - a gap the voice states,
   never bluffs across
@@ -55,5 +54,3 @@ relations:
 ---
 The scholarly-scrutiny cell: answered by the world's own critical
 practices plus the build's honesty about its record.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

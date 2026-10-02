@@ -17,6 +17,9 @@ sources:
   locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XVIII"
   license: public-domain
 text: "...the main share in our salvation is to be ascribed not to the merit of our own works but to heavenly grace..."
+modern_rendering: >-
+  ...the main share in our salvation must be credited not to the merit of our own works,
+  but to grace from heaven...
 speaker_or_author: Abbot Chaeremon, as Cassian reports him in the Conferences
 license: verbatim
 modern_lens_note: "\"Main share\" is doing real work in this sentence. It concedes a share to human effort, which is exactly why Prosper of Aquitaine extracted this Conference as erroneous and why later Western theology treated it as semi-Pelagian."
@@ -36,8 +39,7 @@ and not faith alone either: mainly grace, with a real share left to the person. 
 same chapter has God "assisting some who are already willing and running, while He
 draws others who are unwilling and resisting, and forces them to a good will."
 
-Quote-verbatim gate fix (2026-09-22): the record's own period was invented - the source's sentence
+The text field marks its ending with a trailing ellipsis rather than a period: the source's sentence
 continues into Cassian's own framing clause introducing a separate scriptural quotation ("we are thus
-taught by the words of the Lord Himself: ..."). Marked with a trailing ellipsis rather than restored:
-the record's own point is complete at "heavenly grace"; the scriptural quotation that follows is a
-separate citation this record isn't using.
+taught by the words of the Lord Himself: ..."), a separate citation this record isn't using. The
+record's own point is complete at "heavenly grace."

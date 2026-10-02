@@ -1,5 +1,5 @@
 # The Codex Theodosianus (Imperatori Theodosiani Codex), full 16-book Latin
-# text, transcribed at The Latin Library and vendored 2026-09-02 for the
+# text, transcribed at The Latin Library and vendored for the
 # Latin Pastoral-Congregational Christianity world-build (Source_Registry.md
 # row 88; row 44 is the reference-only, higher-confidence OTA/Mommsen-Meyer
 # edition of the same work, not vendored — CC BY-NC-SA licensed). No English
@@ -27,7 +27,8 @@ authors_ruled:
       vendored file, and needed no ruling here).
 
 assignments:
-  - work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
+  - row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text
+    work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
     author: theodosian-code-compilers
     locus: "whole text; not divided by book/title in this entry — see the file's own CTh.<book>.<title>.<law> headings for addressing a specific constitution"
     atlas_ids:
@@ -40,19 +41,19 @@ assignments:
       the specific reason this world holds it: the underlying statute behind
       the Theodosian-law fine Augustine's own Letter 185 SS25 cites (already
       role: tradition here, npnf101). Not currently drawn on directly for a
-      specific claim. UPDATED 2026-09-09 (lpc Round 28 fix pass): the provision
-      behind that fine reference is now identified, though not against THIS
-      file. Letter 185 SS25 describes a law of Theodosius I fining heretical
-      clergy ten pounds of GOLD; that is CTh XVI.5.21 (392 Iun. 15), "denis
-      libris auri viritim," read directly in the Mommsen-Meyer 1905 edition
-      vendored on the sibling Donatism branch. It is NOT CTh XVI.5.52 (412),
-      the graduated Donatist fine schedule whose circumcellion clause is
-      assessed in silver — an equation lpc's own Round 28 revision asserted
-      and withdrew in the same round. Whether this Latin Library file's own
-      text of XVI.5.21 matches has not been checked, so this entry stays
+      specific claim. The provision behind that fine reference is identified,
+      though not against THIS file. Letter 185 SS25 describes a law of
+      Theodosius I fining heretical clergy ten pounds of GOLD; that is CTh
+      XVI.5.21 (392 Iun. 15), "denis libris auri viritim," read directly in
+      the Mommsen-Meyer 1905 edition vendored on the sibling Donatism branch.
+      It is NOT CTh XVI.5.52 (412), the graduated Donatist fine schedule
+      whose circumcellion clause is assessed in silver — that equation was
+      considered and ruled out. Whether this Latin Library file's own text
+      of XVI.5.21 matches has not been checked, so this entry stays
       provisional; the identification rests on the Mommsen-Meyer file.
 
-  - work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
+  - row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text-2
+    work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
     author: theodosian-code-compilers
     locus: "whole text"
     atlas_ids:
@@ -60,31 +61,21 @@ assignments:
     role: context
     confidence: needs-ruling
     note: >
-      Not a claim this staging entry is positioned to argue well — flagged
-      for that world's own build thread to rule on. CORRECTED 2026-09-09
-      (lpc Round 28 fix pass, at the project lead's explicit direction): this
-      note previously stated, on the authority of Source_Registry.md row 44,
-      that the Donatism build's G3 request for the Mommsen-Meyer edition was
-      "not acquired after five attempts" and that "that build settled for a
-      substitute, Boyd's 1905 translation of the ecclesiastical edicts."
-      That is no longer true and the clause is withdrawn. Donatism's own
-      Decision Log records G3 FULLY DISCHARGED on 2026-09-07: the correct
-      text volume (Voluminis I Pars Posterior, archive.org item
-      theodosianilibr01sirmgoog) was located and vendored on that branch as
-      cic/texts/theodosianus-16_mommsen-meyer1905.txt. Boyd remains a valid
-      corroborating secondary source but is no longer that build's sole
-      primary-text route. This entry's own earlier claim that Donatism's
-      corpus-map bucket "does not yet list this work" is withdrawn as
-      self-refuting inside the generated file (Round 29's own C2): once
-      merged, this assignment IS that bucket's listing of the work, so the
-      sentence denied itself at the site a reader meets it. It was true of
-      the bucket as it stood before this staging entry was first written.
-      Whether it belongs there as context, antecedent, or something narrower
-      — CTh 16.5/16.6 carry the anti-Donatist and anti-heretic legislation
-      most likely relevant — is a call for that world's own build thread, not
-      asserted here from outside.
+      Not a claim this staging entry is positioned to argue well — this is
+      for that world's own build thread to rule on. Source_Registry.md row 44
+      names this work as relevant. The correct text volume (Voluminis I Pars
+      Posterior, archive.org item theodosianilibr01sirmgoog) is vendored on
+      the Donatism branch as cic/texts/theodosianus-16_mommsen-meyer1905.txt,
+      and this assignment is that bucket's own listing of the work. Boyd's
+      1905 translation of the ecclesiastical edicts remains a valid
+      corroborating secondary source alongside it. Whether it belongs there
+      as context, antecedent, or something narrower — CTh 16.5/16.6 carry
+      the anti-Donatist and anti-heretic legislation most likely relevant —
+      is a call for that world's own build thread, not asserted here from
+      outside.
 
-  - work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
+  - row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text-3
+    work: "Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books"
     author: theodosian-code-compilers
     locus: "whole text"
     atlas_ids:

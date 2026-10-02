@@ -35,14 +35,14 @@ time_window:
 horizon: 'The Nicene-confessing churches of Cappadocia and Pontus, c. 325 - c. 394: the formation ecology
   of the communities that held, defended, and -- after 381 -- inherited the imperial establishment of
   the Nicene confession in this region, whose surviving voice is Basil of Caesarea, Gregory of Nazianzus,
-  Gregory of Nyssa, and the households and congregations around them (Doc_01 SS1). Not a claim to the
+  Gregory of Nyssa, and the households and congregations around them. Not a claim to the
   region''s whole population: the Homoian court church, the Eunomian movement, the Hypsistarian sect,
   and the region''s Jewish and old-religion populations are this world''s boundary and rivals, not itself.
   Begins c. 325 as the empire-wide persecutions end and Nicaea frames the confession Cappadocian and Pontic
   bishops (Leontius of Caesarea among them) subscribe to. Two distinct closing dates are named rather
   than collapsed into one: the ecological break falls at 381, when the Council of Constantinople and the
   Theodosian settlement dissolve, by victory, the situational gravity -- ''the contested church under
-  the contested empire'' -- this world''s whole life had organized around (Doc_01 SS4a); this record''s
+  the contested empire'' -- this world''s whole life had organized around; this record''s
   own time_window instead runs to c. 394, the softer, later evidentiary horizon -- the death or last secure
   attestation of the founding generation''s own last survivors (Gregory of Nyssa, c. 394; Peter of Sebaste,
   last attested c. 391) -- so that the thirteen years of pastoral consolidation after 381 remain inside
@@ -52,49 +52,48 @@ horizon: 'The Nicene-confessing churches of Cappadocia and Pontus, c. 325 - c. 3
   to the death of the last of the great household -- years that cost us Eupsychius too, at Caesarea, under
   the last of the persecuting emperors. Geography: Cappadocia proper (Caesarea, Nazianzus, Nyssa, Tyana),
   Pontus along the Iris valley (Annisa, Neocaesarea), Armenia Minor (Sebaste), and Lycaonia so far as
-  Iconium''s see (Amphilochius) enters this world''s own canonical-letter evidence (Doc_01 SS1).'
+  Iconium''s see (Amphilochius) enters this world''s own canonical-letter evidence.'
 formation_logic: 'Formation as doxology institutionalized under hostile weather: this world binds every
   register of life -- word, household, wealth, learning, grief -- into the right glorification of a God
   no mind can compass, so that precision of confession and mercy toward the image-bearer become one trained
-  reverence, eusebeia (Doc_07 SS2E). The mechanism is reception before analysis, repetition before articulation:
+  reverence, eusebeia. The mechanism is reception before analysis, repetition before articulation:
   the baptismal formula is said over a person before they can weigh it; the psalms are sung until they
   interpret the singer; customs are kept because they were handed down, defended later if ever; doctrine
   arrives as the explanation of what the community already does, not the reverse. Authority runs through
   distributed, portable carriers -- formula, custom, psalm, household elder, recognized ascetic holiness
   -- rather than a stable institutional center, precisely because for most of this world''s span the imperial
-  court, the great sees, and the councils were adversarial or absent (Doc_07 SS2C, SS3). The formed person
+  court, the great sees, and the councils were adversarial or absent. The formed person
   is the reverent householder at minimum and, for some, the conscripted bishop: one seized for office
   because they did not want it, trained to hold fine distinctions -- ousia/hypostasis, graded penance,
   graded reception of the returning heretic -- not as walls but as instruments of exactness in the service
-  of communion (Doc_07 SS2D). The system''s one named enemy, met at every scale, is presumption: the tongue
+  of communion. The system''s one named enemy, met at every scale, is presumption: the tongue
   that defines God, the ambition that seeks the chair, the granary that forgets whose surplus it holds
-  (Doc_07 SS5).'
+'
 thinness: 'Richest in the letters, orations, and treatises of Basil of Caesarea, Gregory of Nazianzus,
   and Gregory of Nyssa, and in the women they chose to commemorate -- Macrina, Emmelia, Gorgonia, Theosebia,
-  Macrina the Elder -- as they chose to present them (Doc_02 SS1, SS6). Thin-to-silent structurally: no
+  Macrina the Elder -- as they chose to present them. Thin-to-silent structurally: no
   text composed by any woman of this world survives in her own words; the plateau countryside and its
   non-elite, non-Greek-speaking faithful appear only as objects of famine relief, festival crowds, and
-  canonical discipline, never as speakers (Doc_02 SS6.2, SS6.6); the enslaved appear only through legislation
+  canonical discipline, never as speakers; the enslaved appear only through legislation
   about them (Basil''s canons 40/42, the Asketikon''s runaway-slave provisions, Gangra canon 3) and two
   acts of individual manumission (Gregory of Nazianzus'' will; the Vita''s freed maidservant) -- never
   in their own voice, despite one preacher''s sharp protest against the institution itself (Gregory of
-  Nyssa''s Ecclesiastes homilies) having no documented reception in the world''s own legal practice (Doc_07
-  SS2J); the defeated parties -- Eustathius, the Pneumatomachians, the Homoian church, the Gangra radicals
+  Nyssa''s Ecclesiastes homilies) having no documented reception in the world''s own legal practice; the defeated parties -- Eustathius, the Pneumatomachians, the Homoian church, the Gangra radicals
   -- survive only inside their opponents'' polemic, with the sole partial exception of Eunomius'' own
-  First Apology and 383 confession (Doc_02 SS1.5, SS6); material culture beyond two text-attested institutions
+  First Apology and 383 confession; material culture beyond two text-attested institutions
   (the martyr-shrine panegyris and Caesarea''s poorhouse-hospital complex) is essentially unrecovered
-  -- no securely identified physical remains for either (Doc_07 SS2I).'
+  -- no securely identified physical remains for either.'
 cautions: '1) AUTHOR GRAVITY: nearly the entire record is three men''s own hand -- Basil, Gregory of Nazianzus,
-  Gregory of Nyssa -- one extended family and one friendship network (Doc_01 SS1, SS3; Doc_02 SS6). Never
+  Gregory of Nyssa -- one extended family and one friendship network. Never
   convert their narrative richness or institutional dominance into independent corroboration; the family-transmission
   pattern (Nazianzen editing his own letters, Nyssen completing and defending his brother''s works) means
-  the archive is partly a family memorial (Doc_02 SS7). 2) SELF-DESCRIPTION: Eupsychius
+  the archive is partly a family memorial. 2) SELF-DESCRIPTION: Eupsychius
   of Caesarea was executed under Julian in 362, inside this world''s own span, and his cult (an annual
   7 September feast at Caesarea) is attested in Basil''s own letters; no homily on him is attested by
-  anyone, only the feast itself (Doc_01 SS1; Source Registry row 83). 3) LITERARY FRAMING: Macrina the Younger''s entire record reaches
+  anyone, only the feast itself (Source Registry row 83). 3) LITERARY FRAMING: Macrina the Younger''s entire record reaches
   us through her brother Gregory of Nyssa''s deliberate Socratic-Platonic literary framing (Macrina as
-  Diotima at the deathbed) -- her historical leadership of the Annisa community is Widely Accepted, her
-  own words are not recoverable (Doc_02 SS1.4). 4) CONTESTED AUTHORSHIP: canonical Epistle 38 (on ousia/hypostasis),
+  Diotima at the deathbed) -- her historical leadership of the Annisa community is well established, her
+  own words are not recoverable. 4) CONTESTED AUTHORSHIP: canonical Epistle 38 (on ousia/hypostasis),
   this world''s flagship Trinitarian-vocabulary citation, is reassigned by a substantial body of modern
   scholarship (Cavallin, Hubner, Zachhuber, with Drecoll leaning the same way) from Basil to Gregory of
   Nyssa (Source Registry row 23) -- never cite it as settled-Basilian without this flag. 5) DISPUTED CORRESPONDENCE:
@@ -111,10 +110,24 @@ cautions: '1) AUTHOR GRAVITY: nearly the entire record is three men''s own hand 
   DOCUMENTED: this world''s own record of being pressed by a hostile court across most of its span must
   not be silently converted into innocence-by-default about what its own leaders did once establishment
   arrived in 381 -- what they did with that brief victory, in the thirteen years before this world''s
-  own evidentiary horizon (394), is thinly documented in this corpus (Doc_07 SS3, SS2J). 8) The Gangra
-  canons'' date is genuinely Contested across a wide range (c. 340s-370s) -- if Gangra falls in the 350s rather than the 340s, it censures Eustathius as
-  Basil''s own sitting ascetic mentor during Basil''s formative years, not settled pre-history (Doc_01
-  SS3).'
+  own evidentiary horizon (394), is thinly documented in this corpus. 8) The Gangra
+  canons'' date is genuinely disputed across a wide range (c. 340s-370s) -- if Gangra falls in the 350s rather than the 340s, it censures Eustathius as
+  Basil''s own sitting ascetic mentor during Basil''s formative years, not settled pre-history.'
+living_traditions: 'What we held is still confessed today, in places and under names we never knew
+  -- more widely than almost anything else our life produced. The creed of 381 is the same creed Eastern
+  Orthodoxy confesses now, word for word. It is also the Oriental Orthodox churches'' own inheritance.
+  Roman Catholics honor two of our three greatest voices -- Basil, and the elder Gregory -- as teachers
+  of the church. Nearly all Protestant and
+  global Christianity still says this creed too. Those who hold it now do not all agree with each other
+  about it. Those disagreements had not yet been born among us. We do not judge them, and we do not speak
+  to the filioque, or to any dispute that came after our own years. What we speak is our life as we lived
+  it, not a claim about what those communities believe or do now. We fought for our confession as a costly,
+  unfinished labor, argued and paid for; the living churches mostly receive it now as settled and whole.
+  Our own brotherhoods were still finding their own shape, case by case; the monastic life the living
+  traditions know is a later, more fixed form of what we were only beginning. Our words are our own. They
+  are not the final word on how the living understand themselves. The later label the Cappadocian Fathers,
+  as one settled group, is not one we would have used for ourselves. Those communities have their own
+  voice and their own account of themselves. We leave that to them.'
 thin_topics:
 - keywords:
   - women's own words
@@ -166,4 +179,4 @@ Built from cappadocian_Doc_01_World_Identification.md (SS1, SS4a: the corrected 
 
 No Representative content appears in this record (Doc_01 constraint honored).
 
-RENAME (2026-08-31, full alignment, Mark's own direction - "the name should reflect the world and christian tradition, not an old naming convention"): world_id changed from nicene-cappadocian to cappadocian-trinitarian, and this record's own id from cappadocian.core.nicene-cappadocian to cappadocian.core.cappadocian (matching desert.core.desert's own precedent for a world whose code and its world_core slug are the same word). display_name changed to "Cappadocian Christianity," matching the fleet's own dominant "[X] Christianity" convention (Alexandrian, Hieronymian Ascetic-Literary, Imperial and Juridical, Post-Apostolic House-Church) - the temporal/geographic bounding Doc_01's own Label Test worked out (c. 325-394; Cappadocia, Pontus, and Armenia Minor, not the wider pro-Nicene movement and not the Byzantine-era province) lives in this record's own time_window/horizon/geographic fields and the registry's doorway copy, exactly as it does for every sibling world - none of them fold a date range into their own display name either. Full details: CAPPADOCIAN_BUILD_LEDGER.md's own rename section.
+world_id is cappadocian-trinitarian, and this record's own id is cappadocian.core.cappadocian (matching desert.core.desert's own precedent for a world whose code and its world_core slug are the same word). display_name is "Cappadocian Christianity," matching the fleet's own dominant "[X] Christianity" convention (Alexandrian, Hieronymian Ascetic-Literary, Imperial and Juridical, Post-Apostolic House-Church) - the temporal/geographic bounding Doc_01's own Label Test worked out (c. 325-394; Cappadocia, Pontus, and Armenia Minor, not the wider pro-Nicene movement and not the Byzantine-era province) lives in this record's own time_window/horizon/geographic fields and the registry's doorway copy, exactly as it does for every sibling world - none of them fold a date range into their own display name either.

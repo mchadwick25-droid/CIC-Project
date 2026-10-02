@@ -1,11 +1,12 @@
 # Robinson's 1891 edition: Latin/Greek text of both the Passio S. Perpetuae
 # and, as its own stated Appendix, the Passio Sanctorum Scillitanorum.
-# Vendored 2026-09-08. Two distinct works, two distinct existing corpus-map
+# Two distinct works, two distinct existing corpus-map
 # placements -- see each assignment's own note.
 source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 
 assignments:
-  - work: "The Passion of the Scillitan Martyrs"
+  - row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-scillitan-martyrs
+    work: "The Passion of the Scillitan Martyrs"
     author: passion-of-scillitan-martyrs
     locus: "pp. 112-117 of the printed volume (the Appendix), plus two later Latin recensions at pp. 118-121"
     atlas_ids:
@@ -21,7 +22,8 @@ assignments:
       file does not change that disposition -- mirrors the existing entry's
       own role and confidence exactly, rather than asserting a new one.
 
-  - work: "The Passion of the Holy Martyrs Perpetua and Felicitas"
+  - row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
+    work: "The Passion of the Holy Martyrs Perpetua and Felicitas"
     author: passion_of_perpetua
     locus: "pp. 60-95 of the printed volume"
     atlas_ids:
@@ -30,24 +32,13 @@ assignments:
     confidence: assigned
     note: >
       Latin/Greek second witness for the ALREADY-PRESENT English-language
-      entry in latin-apologists.yaml (source_file anf03_tertullian.xml,
-      corrected here, independent review Round 25's own L5, from an
-      earlier draft's own "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml,"
-      carried over by mistake from the sibling Scillitan-Martyrs assignment
-      above in this same file; anf03_tertullian.xml carries the work in
-      full, printed as an Appendix, while anf09 names it only in editorial
-      footnotes), per Mark's own 2026-08-26 ruling assigning this work
-      there rather than to any Latin-pastoral bucket. This file does not
-      reassign it -- mirrors the existing ruling exactly. Re-pointed
-      2026-09-21 (source-readiness dossier pass on the Greek and Latin
-      apologist candidates): the atlas_id tertullian-s-voice this
-      entry named is retired -- Mark's 2026-09-10 ruling (recorded in
-      worlds/latap/Step0_Movement_Scope_Confirmation.md Rev. 6) merged
-      tertullian-s-voice (I.17) into latin-apologists (I.43), and every one
-      of Tertullian's own 32 works in anf03/anf04 was repointed accordingly
-      by that ruling's own merge run -- this single sibling file was missed.
-      (Contrary to this file's own accompanying task brief, which described
-      Perpetua's Passion as "not yet assigned to any world's corpus map" --
-      independently checked before writing this entry and found already
-      assigned, per the ruling cited above; corrected here rather than
-      silently re-asserted.)
+      entry in latin-apologists.yaml (source_file anf03_tertullian.xml;
+      anf03_tertullian.xml carries the work in full, printed as an Appendix,
+      while anf09_gospel-of-peter-diatessaron-origen-commentaries.xml names
+      it only in editorial footnotes, so anf03 is the correct sibling entry,
+      not anf09). This work belongs with latin-apologists rather than any
+      Latin-pastoral bucket. This file does not reassign it -- mirrors the
+      existing assignment exactly. The atlas_id here is latin-apologists
+      (I.43); tertullian-s-voice (I.17), which this entry once named, has
+      since been merged into it, along with the rest of Tertullian's own
+      works in anf03/anf04.

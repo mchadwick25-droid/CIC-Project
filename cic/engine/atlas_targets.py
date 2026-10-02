@@ -6,12 +6,9 @@ colours, floor reasoning, sourcing notes. An assignment thread needs four
 fields from it - id, name, dates, region - plus the status, and reading
 the rest is how a parsing job turns into an opinion about which worlds
 matter. The entry count and Built & Live count are computed fresh from the
-census every run (render(), below) rather than stated here, precisely
-because this file's own first draft hardcoded "274 entries" and "six
-worlds" into prose and both went stale the next time a world went live or
-a batch of entries was added - caught 2026-09-02, when the real numbers
-had already drifted to 292 and seven without this docstring or render()'s
-own output noticing.
+census every run (render(), below), never hardcoded into this docstring -
+a hardcoded count goes stale the next time a world goes live or a batch
+of entries is added, with nothing to notice the drift.
 
 So this is the census reduced to what places a work, grouped by era. It is
 regenerated, never hand-edited, and lives beside the map it feeds.
@@ -52,8 +49,8 @@ def render() -> str:
         "described from outside, never as its own voice.\n",
         f"The {built_live} *Built & Live* entries are the {built_live} worlds that exist today. "
         "There is one taxonomy here, not two. (This count, like the total above, is computed "
-        "from the census every run - both were hand-typed as fixed numbers in this file's first "
-        "draft and had already drifted once, unnoticed, by the time that was caught 2026-09-02.)\n",
+        "from the census every run, rather than hand-typed, since a hand-typed number goes "
+        "stale the next time a world goes live or a batch of entries is added.)\n",
     ]
 
     by_era: dict[int, list[dict]] = {}

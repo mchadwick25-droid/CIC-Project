@@ -43,8 +43,8 @@ def resolve_term_ids(reader_modern_terms: list[dict], modern_terms: dict[str, di
     The reader is instructed to return "term_id: a short snake_case id you
     invent for it" - so live it returns things like "trinity_doctrine" or
     "the_trinity", while engine.m5.routing intersects those against a set
-    of fleet record ids (_fleet.modern.trinity). Measured live on
-    2026-08-24: the intersection was empty every time, and bridge_turn -
+    of fleet record ids (_fleet.modern.trinity). Measured live: the
+    intersection was empty every time, and bridge_turn -
     fully built and passing its own tests - could not be reached by any
     real session. This closes that seam in code rather than by asking the
     model to guess an id out of a catalogue it cannot see.
@@ -85,8 +85,8 @@ def terms_in_message(message: str, modern_terms: dict[str, dict], *, already_fou
     wrote, with no model in the loop.
 
     resolve_term_ids above fixes the id the reader returns; it cannot fix
-    the reader not returning one. Measured on 2026-08-24, same world, same
-    day, same question in identical words: the reader flagged "Trinity" on
+    the reader not returning one. Measured: same world, same
+    day, same question in identical words, and the reader flagged "Trinity" on
     two attempts and returned modern_terms: [] on a third. The bridge is
     not a judgement call - the word is either in the message or it is not,
     and the fleet record's display_terms are the authored list of what

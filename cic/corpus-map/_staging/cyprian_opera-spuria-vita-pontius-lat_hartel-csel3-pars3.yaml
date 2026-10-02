@@ -1,23 +1,28 @@
 # Hartel's CSEL 3 Pars III (1871): Cyprian's spuria, the Vita Caecilii Cypriani
-# attributed to Pontius, and the Acta Proconsularia. Latin source vendored
-# 2026-09-08, closing Source_Acquisition_Manifest G1's own Pars III gap.
+# attributed to Pontius, and the Acta Proconsularia. This Latin source
+# closes Source_Acquisition_Manifest G1's own Pars III gap.
 source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
 
 assignments:
-  - work: "Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)"
+  - row_id: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--cyprian-s-opera-spuria-works-transmitted-under-cyprian-s
+    work: "Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)"
     author: cyprian
-    locus: "opening of file through the Vita's own preceding material; kept under Cyprian's name per the corpus map's own 2026-08-26 ruling (transmitted-author shelf, not re-attributed), the same treatment Registry row 6 already establishes for the English-language pseudo-Cyprianic body"
+    locus: "opening of file through the Vita's own preceding material"
     atlas_ids:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
     note: >
-      Latin second witness for a corpus this world holds only as
+      Kept under Cyprian's name, the transmitted-author shelf (not
+      re-attributed) - the same treatment Registry row 6 already
+      establishes for the English-language pseudo-Cyprianic body. Latin
+      second witness for a corpus this world holds only as
       Confidence-C, not-currently-licensed material (Source_Registry.md row
       6). Provisional, matching that row's own confidence, not upgraded by
       this vendoring alone.
 
-  - work: "Vita Caecilii Cypriani (attributed to Pontius the deacon)"
+  - row_id: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--vita-caecilii-cypriani-attributed-to-pontius-the-deacon
+    work: "Vita Caecilii Cypriani (attributed to Pontius the deacon)"
     author: pontius
     locus: "pp. XC-CIX of the printed volume (this file's own header gives the exact line range)"
     atlas_ids:
@@ -30,7 +35,8 @@ assignments:
       own election and the Curubis exile passage this world's own Doc_01
       draws on directly are both in this Latin text.
 
-  - work: "Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)"
+  - row_id: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--acta-proconsularia-sancti-cypriani-cyprian-s-own-trial-and
+    work: "Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)"
     author: cyprian
     locus: "pp. CX-CXIV of the printed volume, immediately following the Vita"
     atlas_ids:

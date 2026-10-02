@@ -3,22 +3,23 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: desert-monasticism
 works:
-- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+- row_id: anan-isho_paradise-v2-sayings_budge1907--the-paradise-of-the-holy-fathers-volume-ii-the-sayings-of
+  work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
   locus: whole file; fourteen thematic chapters plus the Questions and Answers, sayings numbered
   role: tradition
   confidence: assigned
-  note: 'The Apophthegmata Patrum - this world''s central teaching corpus, and the source
-    its build was structured around while having no readable edition of it. Vendored at last
-    on 2026-08-27. THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek alphabetical
-    collection: numbering and often wording differ, so any quote is verbatim FOR BUDGE and
-    must say so in its locus. Amma Sarah is present (six sayings, as "Mother Sarah"); Syncletica
-    and Theodora are NOT, under any spelling - the Greek collection carries them and has no
-    public-domain English (desert.search.greek-alphabetical-pd-english).
+  note: 'The Apophthegmata Patrum - this world''s central teaching corpus, the source its
+    build is structured around. THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek
+    alphabetical collection: numbering and often wording differ, so any quote is verbatim
+    FOR BUDGE and must say so in its locus. Amma Sarah is present (six sayings, as "Mother
+    Sarah"); Syncletica and Theodora are NOT, under any spelling - the Greek collection carries
+    them and has no public-domain English (desert.search.greek-alphabetical-pd-english).
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
-- work: Personal Letters of Athanasius
+- row_id: npnf204_athanasius--personal-letters-of-athanasius
+  work: Personal Letters of Athanasius
   author: athanasius
   locus: div3 under div2 25.3 — Personal Letters (Letters 46-64)
   role: tradition
@@ -30,7 +31,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: The Life of Saint Anthony by Athanasius (Syriac recension)
+- row_id: palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension
+  work: The Life of Saint Anthony by Athanasius (Syriac recension)
   author: athanasius
   locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about
     14,800 words
@@ -44,7 +46,8 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- work: Vita Antonii (Life of Antony)
+- row_id: npnf204_athanasius--vita-antonii-life-of-antony
+  work: Vita Antonii (Life of Antony)
   author: athanasius
   locus: div1 'Life of Antony'
   role: tradition
@@ -56,7 +59,33 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Budge's Preface and Introduction to the Paradise (1907)
+- row_id: bell_jews-christians-egypt-meletian-papyri_1924--jews-and-christians-in-egypt-part-ii-the-meletian-schism-pp
+  work: 'Jews and Christians in Egypt, Part II: The Meletian Schism (pp. 38-99)'
+  author: bell
+  locus: Part II — the Pageus/Hathor archive, incl. the dated 334 CE deputy-appointment contract
+    (P.Lond. 1918, Phamenoth 23)
+  role: tradition
+  confidence: provisional
+  note: 'Found by desert.source.bell-jews-christians-egypt (no corpus-map assignment given
+    at intake time); not previously assigned to any Atlas entry. Independently re-verified
+    directly against the vendored file, not just the source record''s own account: `grep`
+    on the raw text confirms 16 occurrences of "Pageus" and 13 of "Hathor", and the 334 CE
+    contract itself is present verbatim ("In the consulship of Flavius Optatus, Patrician,
+    and Anicius Paulinus the most illustrious, Phamenoth 23. Aurelius Pageus son of Horus...")
+    naming his brother Gerontius as deputy before departing for a council at Caesarea "concerning
+    the purgation of the holy Christian body". Real, dated, primary documentary evidence of
+    an actual eastern-desert monastic community (Hathor, upper Cynopolite nome, 330s-340s)
+    — its own legal and personal papers, not later commentary about it, so `role: tradition`
+    on the same footing this build gives its other papyrus-archive evidence. `confidence:
+    provisional`: the community is Melitian (schismatic), not Nicene-communion, and whether
+    it is representative of this world''s mainstream ascetic strands is not established (see
+    Doc_01 and this world''s own Open_Gaps_Tracking.md). No quote, story, or doctrinal_witness
+    record cites it; it is registered as available only.
+
+    '
+  source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
+- row_id: palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907
+  work: Budge's Preface and Introduction to the Paradise (1907)
   author: budge
   locus: the opening front matter - the Mosul manuscript's discovery and contents, and Palladius'
     life and travels
@@ -69,7 +98,8 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de
+  work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
   role: tradition
@@ -78,17 +108,17 @@ works:
     question from a single source. This is the desert tradition''s own author writing Christology
     - assigned to desert to widen exactly that base - and it was commissioned in Rome by the
     archdeacon Leo in 430 as part of the Western church''s response to Nestorius on the eve
-    of Ephesus, which is ijc''s world. Re-pointed 2026-09-08: same author-tradition basis
-    as the Institutes and Conferences rows above - Cassian''s own authored corpus, written
-    while he led the Marseilles houses, belongs to the Gallic monastic-ascetic entry (era
-    2, c. 360-450) even though its content is Christological rather than about Gallic monastic
+    of Ephesus, which is ijc''s world. Also filed under the Gallic monastic-ascetic entry
+    (era 2, c. 360-450) on the same author-tradition basis as the Institutes and Conferences
+    rows above: Cassian''s own authored corpus, written while he led the Marseilles houses,
+    belongs there even though its content is Christological rather than about Gallic monastic
     life directly. The case document that surfaced the entry (CASE-gallic-monasticism.md)
-    counted this work in Cassian''s own 364,648-word figure but the corpus map had not yet
-    been re-pointed to match.
+    counts this work in Cassian''s own 364,648-word figure.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Conferences of John Cassian
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian
+  work: The Conferences of John Cassian
   author: cassian
   locus: div2 4.4-4.6 — Conferences I-XXIV (three parts, one work)
   role: tradition
@@ -97,12 +127,13 @@ works:
     - the largest body of desert teaching anywhere in the vendored corpus, and desert''s best
     route out of single-source answers. Same Gallic and Benedictine reception homes as the
     Institutes, with the same era caveat. Conference XIII is the classic so-called semi-Pelagian
-    text; a pelagianism context link is arguable but not asserted here. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    text; a pelagianism context link is arguable but not asserted here. Same placement as
+    the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity (era 2,
+    c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry this
+    work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Twelve Books on the Institutes of the Coenobia
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia
+  work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
   locus: div2 4.3 — The Institutes
   role: tradition
@@ -112,12 +143,25 @@ works:
     home, and this directly addresses the audit''s finding that desert answers from too narrow
     a base. Written c. 420 for Gallic monasteries (dedicated to Castor of Apt) and commended
     by the Rule of Benedict ch. 73: the two later monastic entries are reception homes that
-    both postdate Cassian - a reviewer who wants strict era fit should trim those two, not
-    desert. Re-pointed 2026-08-26: the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity
-    (era 2, c. 360-450) was added to the census on record, and this work now names it rather
-    than the Merovingian entry it antedates.'
+    both postdate Cassian. Same placement as the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity
+    (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
+    entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
+- row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria-3
+  work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
+  author: egeria
+  locus: her visits to monks in the Thebaid and Sinai; see the editors' introduction near
+    file lines 561 and 1095 for what survives of those sections
+  role: context
+  confidence: needs-ruling
+  note: 'The manuscript loses the start of the journey, so only fragments and the editors''
+    reconstruction speak to the Egyptian monks. Whether that thin material warrants a shelf
+    place is a ruling for the desert world''s own builders, not for this pass.
+
+    '
+  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
+- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-iii-the-symbolical-homily-on-the
+  work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
   author: ethiopic_homily_on_the_ten_associations
   locus: pp. 685-689; "And again a third ordinance"; the five evil associations (hyenas, dogs,
     wolves, shakals, goats) and the five good (sheep, doves, turtle-doves, bees, deer)
@@ -133,7 +177,8 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- work: The Praktikos
+- row_id: evagrius_praktikos_dysinger--the-praktikos
+  work: The Praktikos
   author: evagrius
   locus: whole file
   role: tradition
@@ -146,7 +191,26 @@ works:
 
     '
   source_file: evagrius_praktikos_dysinger.txt
-- work: Letter XXII (To Eustochium, on virginity)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-pachomius
+  work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"
+    (file line 42250)
+  author: gennadius
+  locus: div2 4.4, Chapter VII "Pachomius the presbyter-monk"
+  role: context
+  confidence: assigned
+  note: 'Found by desert.source.jerome-de-viris, same record as the Jerome/Antonius row above.
+    Independently re-verified directly at the cited locus: line 42250 reads "Pachomius the
+    monk, a man endowed with apostolic grace both in teaching and in performing miracles,
+    and founder of the Egyptian monasteries, wrote an Order of discipline..." with the endnote
+    "Born about 292, died 348" the record cites as a dating witness for the figure record
+    (flagged there, correctly, as the edition''s own note rather than ancient testimony).
+    `role: context` for the same reason as the Jerome row: an external biographical notice
+    about Pachomius and his writings, not desert monasticism''s own primary voice.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity
+  work: Letter XXII (To Eustochium, on virginity)
   author: jerome
   locus: div2 5.22 - 'To Eustochium', n=XXII, ~18,609 words
   role: tradition
@@ -159,7 +223,29 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Life of Paulus the First Hermit
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-antonius
+  work: Lives of Illustrious Men (De Viris Illustribus), ch. "Antonius the monk" (file line
+    41173)
+  author: jerome
+  locus: div2 4.3, Chapter LXXXVIII "Antonius the monk"
+  role: context
+  confidence: assigned
+  note: 'Found by desert.source.jerome-de-viris (kind: vendored; no corpus-map assignment
+    given at intake time). Independently re-verified directly against the vendored file at
+    the record''s own cited locus: line 41173 opens "Antonius the monk...sent seven letters
+    in Coptic to various monasteries, letters truly apostolic in idea and language, and which
+    have been translated into Greek" - confirms the record''s claim that Jerome independently
+    attests seven circulating Antonian letters, cited by desert.contested.antony-literacy
+    as one leg of Rubenson''s authenticity case. `role: context`, not `tradition`: this is
+    an external literary cataloguer''s biographical notice ABOUT desert monasticism''s own
+    tradition (used as corroborating attestation), not the tradition''s own voice. The same
+    volume''s Origenist-controversy material is explicitly flagged by the source record as
+    out of this world''s own horizon and is not assigned here.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit
+  work: The Life of Paulus the First Hermit
   author: jerome
   locus: div2 6.1 (~3,900 words)
   role: tradition
@@ -169,24 +255,26 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: Fifty Spiritual Homilies of St. Macarius the Egyptian
+- row_id: macarius_fifty-spiritual-homilies_mason1921--fifty-spiritual-homilies-of-st-macarius-the-egyptian
+  work: Fifty Spiritual Homilies of St. Macarius the Egyptian
   author: macarius
   locus: whole file
   role: tradition
   confidence: assigned
-  note: 'RULED, Mark, 2026-09-02: confirmed assigned. The attribution itself is genuinely
-    contested (traditional "Macarius the Egyptian" vs. modern scholarship''s "Pseudo-Macarius,"
-    likely 4th-5th c. Syrian, tied to the Messalian movement - the file''s own header states
-    both positions at length), but the placement was never actually in question: whichever
-    the true authorship, the homilies sit squarely in the Egyptian desert ascetic-teaching
-    tradition and are already cited by desert.source.macarian-homilies and desert.quote.sin-and-
-    grace-in-one-soul. Per the brief''s own scope (SS9), the identity question is a content
-    matter for whichever world cites it, not a corpus-map placement question - carried forward
-    here as a caveat, not as a reason to withhold assignment.
+  note: 'Confirmed assigned. The attribution itself is genuinely contested (traditional "Macarius
+    the Egyptian" vs. modern scholarship''s "Pseudo-Macarius," likely 4th-5th c. Syrian, tied
+    to the Messalian movement - the file''s own header states both positions at length), but
+    the placement was never actually in question: whichever the true authorship, the homilies
+    sit squarely in the Egyptian desert ascetic-teaching tradition and are already cited by
+    desert.source.macarian-homilies and desert.quote.sin-and- grace-in-one-soul. Per the brief''s
+    own scope (SS9), the identity question is a content matter for whichever world cites it,
+    not a corpus-map placement question - carried forward here as a caveat, not as a reason
+    to withhold assignment.
 
     '
   source_file: macarius_fifty-spiritual-homilies_mason1921.txt
-- work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
+- row_id: anf09-desert-additions--commentary-on-the-gospel-of-matthew-books-i-ii-and-x-xiv
+  work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
   author: origen
   locus: ch. 30, The Sinning Brother, on Matthew 18:15, at file line 36205
   role: antecedent
@@ -206,16 +294,16 @@ works:
 
     '
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: De Principiis (On First Principles), in Rufinus' Latin
+- row_id: anf04-desert-additions--de-principiis-on-first-principles-in-rufinus-latin
+  work: De Principiis (On First Principles), in Rufinus' Latin
   author: origen
   locus: Book I ch. 1 sec. 6 on God's incorporeality, at file line 22800; Rufinus' prologue
     precedes the work
   role: context
   confidence: assigned
   note: 'Opened for one narrow reason: this world''s closing force is the Origenist controversy,
-    and until now it could report that a fight happened over Origen without stating a line
-    of what was fought over. Book I ch. 1 is the anthropomorphite dispute''s actual content
-    - if God has no body then the image of God in Genesis is not a face.
+    and Book I ch. 1 is the anthropomorphite dispute''s actual content - if God has no body
+    then the image of God in Genesis is not a face.
 
     THE TEXT IS RUFINUS'', NOT ORIGEN''S GREEK, and Rufinus translated it in 398, during the
     controversy, saying in his own prologue that he corrected what he judged corrupted. A
@@ -224,7 +312,8 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: The Philocalia of Origen
+- row_id: origen-desert-additions--the-philocalia-of-origen
+  work: The Philocalia of Origen
   author: origen
   locus: twenty-seven chapters; I-XV on scriptural interpretation, XXI-XXVII on free will,
     fate and providence; ch. I drawn "From the work on Principles", ch. XIII the Letter to
@@ -244,7 +333,8 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
-- work: The Rules of Pachomius, Part I (the angel's ordinance)
+- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance
+  work: The Rules of Pachomius, Part I (the angel's ordinance)
   author: pachomius
   locus: pp. 681-683; "In the name of the holy Trinity. The ordinance which the angel of the
     Lord commanded to Abba Pachomius"
@@ -258,13 +348,13 @@ works:
     authentic enough for all practical purposes". Quote it as Pachomian-foundation legislation
     in the Ethiopic recension, never as Pachomius'' own words.
 
-    A CORRECTION THIS FILE FORCES: the angel and the iron tablet are inside the rule document
-    itself, not merely in Palladius'' and Sozomen''s framing of it. Records describing the
-    frame as belonging to the reports rather than to the text were wrong.
+    The angel and the iron tablet are inside the rule document itself, not merely in Palladius''
+    and Sozomen''s framing of it.
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
+- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-ii-the-second-word-of-the-holy
+  work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
   author: pachomius
   locus: pp. 683-685; "In the name of the Father and of the Son and of the Holy Ghost. An
     ordinance and command of the holy Abba Pachomius"
@@ -281,7 +371,8 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- work: Lausiac History
+- row_id: palladius_lausiac-history--lausiac-history
+  work: Lausiac History
   author: palladius
   locus: whole work (single-work volume)
   role: tradition
@@ -292,7 +383,8 @@ works:
 
     '
   source_file: palladius_lausiac-history_clarke1918.txt
-- work: The Paradise of Palladius, Book I (Syriac recension)
+- row_id: palladius_paradise-v1-syriac_budge1907--the-paradise-of-palladius-book-i-syriac-recension
+  work: The Paradise of Palladius, Book I (Syriac recension)
   author: palladius
   locus: from "The Paradise of Palladius"; sixty-six chapters, including Chapter xxxv "The
     Triumphant Deeds and Exploits and Histories of Holy Women"
@@ -310,7 +402,8 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- work: Schodde's introduction to the Rules (1885)
+- row_id: pachomius_rules-ethiopic_schodde1885--schodde-s-introduction-to-the-rules-1885
+  work: Schodde's introduction to the Rules (1885)
   author: schodde
   locus: pp. 679-681, including Sozomen's summary in Valesius' Latin and the Acta Sanctorum
     notice
@@ -326,7 +419,8 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
-- work: The Ecclesiastical History of Socrates Scholasticus
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
+  work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
     Novatianist notices throughout
@@ -343,7 +437,8 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- work: The Ecclesiastical History of Sozomen
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
+  work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)
@@ -359,16 +454,15 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- work: Dialogues of Sulpitius Severus
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus
+  work: Dialogues of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus
   role: tradition
   confidence: assigned
   note: 'Dialogue I is Postumianus'' first-hand travel account of the Egyptian desert monks
     - direct evidence for the built desert world from a Gallic visitor, which is why desert
-    leads. Dialogues II-III continue the Martin material and carry the same Gallic-gap doubt
-    as the Life; provisional for that reason, not for the desert claim. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    leads. Dialogues II-III continue the Martin material and take the same placement as the
+    Life: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul
+    entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml

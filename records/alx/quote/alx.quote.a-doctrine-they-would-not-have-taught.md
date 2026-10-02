@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: alx.dw.resurrection
 ---
-Opened 2026-08-27. alx.dw.resurrection has cited this argument since it was written and could
+alx.dw.resurrection has cited this argument since it was written and could
 not show it: C-E was served by that witness alone, with no quote and no story, which the Program
 Spec's coverage rule forbids ("never only propositional records").
 

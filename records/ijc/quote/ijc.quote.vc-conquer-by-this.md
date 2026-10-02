@@ -21,6 +21,11 @@ text: He said that about noon, when the day was already beginning to decline, he
   the trophy of a cross of light in the heavens, above the sun, and bearing the inscription, Conquer by
   this. At this sight he himself was struck with amazement, and his whole army also, which followed him
   on this expedition, and witnessed the miracle.
+modern_rendering: >-
+  He said that around noon, when the day had already begun to decline, he saw with his own
+  eyes a trophy: a cross of light in the sky, above the sun. It bore the inscription
+  'Conquer by this.' At this sight, he himself was struck with amazement. So was his whole
+  army, which was following him on this expedition and witnessed the miracle.
 speaker_or_author: ijc.figure.eusebius-caesarea
 license: verbatim
 modern_lens_note: >-
@@ -34,7 +39,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (editorial
+Text verified verbatim against the vendored file (editorial
 footnotes stripped; the edition interleaves notes doubting this very
 account, which is part of the record's honesty). Eusebius reports
 Constantine's own telling, "long afterwards," confirmed by oath - the

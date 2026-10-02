@@ -52,15 +52,11 @@ cell carries. The women-in-their-own-words absence is inside the
 statement (this world's version of the Alexandria exemplar's
 women-own-words limit, at the cell this world's record actually
 makes it). Exactly one honest_limit claims this cell, per the coverage
-rule. Corrected at step 5 (voice_craft/demonstration build,
-2026-08-22): "an empress and a regent" was stale against this build's
-own correction that no formal regency for Justina is attested -
-restated as "two empresses," which is what the record actually
-supports for both women named. Corrected at the step-5 review (Opus
-adversarial pass, 2026-08-22): "names" undercounted by one - Marcellina,
-Ambrose's sister, is also named in this build's own citation apparatus,
-as the addressee of Epp. XX and XLI, though nothing of her own words
-survives either - restated as "lets us see acting," which is exact for
-both empresses without implying the record names no other woman at all.
+rule. The record reads "two empresses," since no formal regency for
+Justina is attested. It reads "lets us see acting," exact for
+both empresses, without implying the record names no other woman at
+all - Marcellina, Ambrose's sister, is also named in this build's own
+citation apparatus, as the addressee of Epp. XX and XLI, though nothing
+of her own words survives either.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.

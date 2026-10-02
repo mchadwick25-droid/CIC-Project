@@ -41,36 +41,58 @@ relations:
 - type: associated-with
   target: don.contested.maximianist-reception
 name: Purity-Rigor vs. Institutional Reception (the Maximianist precedent) [TENSIONAL]
-description: 'Doc_04 SS3.6: TENSIONAL. Two genuinely distinct poles with real institutional separation:
-  (a) the stated, absolute logic that schismatic or invalidly-ordained clergy require rebaptism and reordination
-  (G1/G2); (b) the mainstream Donatist party''s own actual practice toward the Maximianist clergy on their
-  return -- reception into office and communion WITHOUT repeating either ordination or baptism, a fact
-  Augustine directly and repeatedly quotes from primary Donatist-adjacent material and turns into his
-  single central argument against the Donatists'' own rebaptism logic (Doc_02 SS1, verified against On
-  Baptism and Answer to the Letters of Petilian). Institutional separation is real: a specific, named,
-  historically bounded episode (the 393 Maximianist schism and its 394 Bagai condemnation and reception)
-  with its own documentary record (the Bagai and Cebarsussi sentences), not an abstract inconsistency.
-  Tests: Repetition PASS; Dependency PASS (G1''s own internal coherence is what this tension specifically
-  tests); Interaction PASS (directly reshapes G1). Confidence: Documented -- the most rigorously and repeatedly
-  directly-quoted internal tension in this world''s entire vendored corpus (Registry rows 3, 4, 47). FORCES-CONNECTION
-  (Doc_04 SS3.6): Cell 2B -- Doc_01 SS5''s own six-cell sketch names the Maximianist fracture (393-398)
-  there explicitly, as an internal-ongoing pressure internal to G4''s own conciliar machinery, not one
-  imposed by any external force. Doc_08 SS5 confirms this is this gravity''s own single connected force
-  (2B-4), the narrowest connection count of any classified gravity in either document -- Doc_08 SS9 Open
-  Items item 2 is explicit that this is not itself a confidence-divergence signal (unlike D-A''s own scope-qualification):
-  T2 is a tightly-scoped, single-episode Tensional gravity whose entire evidentiary base is the Maximianist
-  affair, so a single connected force is exactly what its own narrow scope predicts, not a gap. INTERACTION
-  MATRIX (Doc_04 SS6): X (reshaping) with G1 (the Maximianist reception-without-reordination precedent
-  directly reshapes G1''s own internal consistency; Augustine turns this exact reshaping into his central
-  argument), G2 (as with G1, directly tested and complicated), and G4 (an event internal to this hierarchy''s
-  own conciliar machinery, which could not exist without G4''s own institutional complexity to fracture
-  within); narrow R with D-A (the Maximianist suppression''s own reported Circumcellion involvement, itself
-  hostile-mediated and not treated as independently confirming D-A''s own character). **NO DEMONSTRATED
-  RELATIONSHIP WITH T1** -- Doc_04 SS6 states this explicitly, and it is named here for the identical
-  reason stated in T1''s own record: these two tensions operate on different axes (external state relations
-  versus internal disciplinary consistency) and no evidence in this world''s record connects them directly;
-  naming this absence is itself a finding, not an oversight, and is not encoded as a relations[] entry
-  for the same reason T1''s own record states.'
+description: >-
+  This is a real, unresolved tension. It has two truly distinct poles, and they are separated in
+  actual institutions.
+
+  On one side stands the stated, absolute rule. Clergy who were schismatic or invalidly ordained
+  must be rebaptized and reordained. This rule comes from the purity doctrine and from rebaptism
+  as the rite that marks the boundary.
+
+  On the other side stands what the main Donatist party actually did. When the Maximianist clergy
+  returned, the party received them back into office and communion. It did not repeat their
+  ordination or their baptism.
+
+  Augustine quotes this fact directly and repeatedly, from primary material close to the
+  Donatists. He turns it into his single central argument against their logic of rebaptism. This
+  has been checked against his On Baptism and Answer to the Letters of Petilian.
+
+  The separation is real. This is a specific, named episode with clear limits in time. It covers
+  the Maximianist schism of 393, its condemnation at Bagai in 394, and the reception that
+  followed. It has its own documents: the sentences of Bagai and Cebarsussi. It is not an abstract
+  inconsistency.
+
+  The pattern recurs in the record. What it tests, specifically, is the inner coherence of the
+  purity doctrine. And it directly reshapes that doctrine.
+
+  Confidence is high, at this world's top evidentiary tier. Of all the tensions inside this world, this one is quoted directly
+  most rigorously and most often across the texts we hold.
+
+  The pressure came from inside, not from any outside force. The Maximianist split (393-398) was
+  an ongoing strain within the councils of the movement's own parallel hierarchy.
+
+  That split is the only force this tension connects to. It is the narrowest link of any
+  pattern in this world's account. The narrowness is not a sign of doubt about our confidence.
+  The Circumcellion pattern is different: there, a narrowing of scope does raise that doubt.
+
+  This tension is tightly scoped to one episode. Its whole evidence base is the Maximianist
+  affair. So one connected force is exactly what we should expect. It is not a gap.
+
+  It reshapes three patterns. First, it reshapes the purity doctrine. Receiving the Maximianists
+  without reordination strikes directly at the doctrine's inner consistency, and Augustine makes
+  that his central argument. Second, it tests and complicates rebaptism in the same direct way.
+  Third, it reshapes the parallel hierarchy. The split happened inside the hierarchy's own
+  councils. It could not have happened without an institution that complex to break apart.
+
+  It has a narrow reinforcing link to the Circumcellions. Circumcellions were reportedly involved
+  in suppressing the Maximianists. But that report comes through hostile sources. It is not
+  treated as independent proof of what the Circumcellions were like.
+
+  It has no demonstrated link to this world's other tension: principled refusal of the state
+  against pragmatic turns to it. The reason is the same one given there. The two work on different
+  axes. One concerns relations with the state. The other concerns consistency of discipline inside
+  the church. No evidence in this world's record connects them directly. Naming that absence is
+  itself a finding, not an oversight.
 manifestations:
 - the mainstream Donatist party's own council at Bagai (394) receiving the Maximianist clergy back without
   repeating either ordination or baptism

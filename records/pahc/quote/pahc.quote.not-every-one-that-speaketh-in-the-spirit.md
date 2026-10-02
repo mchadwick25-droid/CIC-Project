@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   But not every one that speaketh in the Spirit is a prophet; but only if he hold the ways of the Lord. Therefore from their ways shall the false prophet and the prophet be known. And every prophet who ordereth a meal in the Spirit eateth not from it, except indeed he be a false prophet...
+modern_rendering: >-
+  But not everyone who speaks in the Spirit is a prophet -- only if he holds to the ways
+  of the Lord. So the false prophet and the true prophet will be known by their ways. And
+  any prophet who orders a meal in the Spirit does not eat from it himself -- unless he is
+  in fact a false prophet...
 speaker_or_author: the manual known as the Didache
 license: verbatim
 modern_lens_note: >-
@@ -35,9 +40,7 @@ relations:
 - type: associated-with
   target: pahc.term.prophetes
 ---
-Opened 2026-08-27 for F1-E, served by pahc.term.prophetes alone, which cites chs. 11-13 and had
-nothing quotable.
+This quote serves F1-E together with pahc.term.prophetes, which cites chs. 11-13.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "false prophet" was invented -
-the source continues into two further, separately-numbered tests (verses 10-11) outside this record's
-own cited locus (XI.8-9). Marked with a trailing ellipsis rather than restored.
+The source continues into two further, separately-numbered tests (verses 10-11) outside this
+record's own cited locus (XI.8-9); marked with a trailing ellipsis rather than restored.

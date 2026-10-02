@@ -64,27 +64,19 @@ relations:
 - type: associated-with
   target: cappadocian.dw.macrina-and-its-cost
 modern_rendering: >-
-  When the young man died, the marriage her father had arranged for her
-  was undone. But she said the arrangement itself counted as good as an
-  actual marriage. So she resolved to stay single from then on, as if the
-  marriage had really taken place. Her resolve held firmer than anyone
-  would have expected from someone her age.
-
-
-  Her parents kept bringing her fresh proposals - her beauty attracted
-  many suitors. Each time, she said the same thing. It made no sense, she
-  said, and it wasn't right, to break faith with the marriage her father
-  had already arranged, just to consider someone else. By nature, she
-  said, a person has only one marriage. Just as they have one birth and
-  one death.
-
-
-  She insisted that the man bound to her by her parents' arrangement was
-  not dead. Because of the hope of the resurrection, she believed he was
-  alive with God - only away, not gone. So it would be wrong, she said,
-  not to stay faithful to a husband who was merely absent.
+  When the young man died, the marriage her father had arranged for her was undone. But
+  she said the arrangement itself counted as good as an actual marriage. So she resolved
+  to stay single from then on, as if the marriage had really taken place. Her resolve held
+  firmer than anyone would have expected from someone her age. Her parents kept bringing
+  her fresh proposals -- her beauty attracted many suitors. Each time, she said it was
+  absurd and unlawful not to keep faith with the marriage her father had arranged for her,
+  yet be compelled to consider another. In the nature of things, she said, there is only
+  one marriage, just as there is one birth and one death. She insisted that the man bound
+  to her by her parents' arrangement was not dead. Because of the hope of the
+  resurrection, she believed he was alive with God -- only away, not gone. So it would be
+  wrong, she said, not to stay faithful to a husband who was merely absent.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 gregory-nyssa_life-of-macrina_clarke1916.txt, under its own section header
 "DEATH OF THE YOUNG MAN" (line 126), the paragraph immediately following
 at line 128 (found via `grep -n -i -E "betroth|marriage|espous|widow|marry"`
@@ -119,7 +111,4 @@ same mediation this world's cappadocian.figure.macrina and
 cappadocian.story.macrina-refusal already carry openly rather than paper
 over.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

@@ -99,6 +99,40 @@ def test_an_apostrophe_stays_inside_the_word():
     assert prose.content_words("God's own word") == {"god's", "word"}
 
 
+# ------------------------------------------------------ GUARD_MARKERS
+
+def test_never_attribute_is_recognized_as_a_barred_claim_guard():
+    """m1:retrieval-negatives-structured (engine/m1/gates.py) found ijc's
+    real, deliberately-authored claim_guards entry
+    (records/ijc/source/ijc.source.ammianus-marcellinus.md, added to stop a
+    measured live over-attribution defect - see that commit's message) not
+    reading as a guard at all, because none of the original GUARD_MARKERS
+    phrases happen to appear in it. The content was never in question - it
+    is exactly the shape gate_retrieval_negatives_structured exists to
+    allow (a barred proposition the Representative must never assert) -
+    only the keyword set was too narrow to see it. "never attribute" is
+    the actual phrase this real entry uses, added narrowly rather than
+    reworded away to dodge the check; a fleet-wide scan at the time this
+    was added found this phrase in exactly one place in records/, so it
+    does not risk reclassifying any existing prefer_instead redirect as a
+    guard clause."""
+    real_entry = (
+        "never attribute content beyond Book 27.3 (the 366 election riot, "
+        "the Sicininus casualty figure, the bishopric-wealth remark) - no "
+        "other passage of the Res Gestae is vendored or verified in this "
+        "build, including the public-post/synod-travel material at 21.16.18"
+    )
+    assert prose.is_guard_marker_line(real_entry)
+
+
+def test_guard_markers_still_excludes_an_ordinary_redirect():
+    """The mirror side of the check above: an ordinary retrieval-scoping
+    redirect (no barred claim, just "ask about this instead") must not
+    start matching as a guard clause because of the new marker."""
+    redirect = "ask about the desert fathers instead - this record only covers the city"
+    assert not prose.is_guard_marker_line(redirect)
+
+
 # --------------------------------------------------------------- sentences
 
 def test_a_sentence_break_needs_whitespace_after_the_stop():
@@ -176,6 +210,20 @@ def test_a_stop_inside_a_quotation_does_not_end_the_sentence():
 def test_single_and_double_quotes_both_hold_a_sentence_together():
     single = "He said: 'Go out. Sit in your cell.'"
     assert prose.quote_aware_sentences(single) == [single]
+
+
+def test_curly_quotation_marks_hold_a_sentence_together():
+    double = "Clement wrote: “Behold the might of the new song! It has made men out of stones.”"
+    single = "He said: ‘Go out. Sit in your cell.’"
+    assert prose.quote_aware_sentences(double) == [double]
+    assert prose.quote_aware_sentences(single) == [single]
+
+
+def test_a_curly_apostrophe_inside_a_word_opens_nothing():
+    text = "God’s word is first. The rest follows."
+    assert prose.quote_aware_sentences(text) == [
+        "God’s word is first.", "The rest follows.",
+    ]
 
 
 def test_an_apostrophe_inside_a_word_opens_nothing():

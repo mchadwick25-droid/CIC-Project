@@ -1,0 +1,31 @@
+source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
+assignments:
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--fasciculus-rerum-expetendarum-et-fugiendarum-brown-1690
+  work: Fasciculus rerum expetendarum et fugiendarum (Brown, 1690), volume I
+  author: gratius
+  locus: whole volume
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: context
+  confidence: provisional
+  note: 'A Catholic reformers'' collection of texts (Ortwin Gratius, 1535; Brown, 1690). It is not the
+    Unity''s voice except in the one item below. Second witness for now, not quotable: a 1690 print with
+    the long s read as f, italic and roman confused, and stray glyphs (for example Lcttorcm for Lectorem).
+    The Confession is readable in outline. Check every wording against the page image; the earlier Cologne
+    printing of 1535 is a separate item on Internet Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
+- row_id: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690--the-bohemian-brethren-s-latin-confession-to-king-vladislav
+  work: The Bohemian Brethren's Latin Confession to King Vladislav (in the Fasciculus)
+  author: unity-of-the-brethren
+  locus: running head "Ad Vladislaum Hung. Reg. missa", volume page 163, opening "Omnem videlicet fidei
+    veritatem"
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: 'The Brethren''s own Latin confession of faith to their king, printed in this collection. Whether
+    it is the 1504 Confession or the 1508 text is not settled by the volume''s headings and needs a check
+    against the Unity''s own editions before either date is used. Second witness for now, not quotable:
+    a 1690 print with the long s read as f, italic and roman confused, and stray glyphs (for example Lcttorcm
+    for Lectorem). The Confession is readable in outline. Check every wording against the page image;
+    the earlier Cologne printing of 1535 is a separate item on Internet Archive (dlibra.kul.pl.P.XVI.804)
+    and was not vendored.'

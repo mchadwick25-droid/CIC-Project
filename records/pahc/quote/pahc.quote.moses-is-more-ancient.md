@@ -21,6 +21,12 @@ sources:
   license: public-domain
 text: >-
   For Moses is more ancient than all the Greek writers. And whatever both philosophers and poets have said concerning the immortality of the soul, or punishments after death, or contemplation of things heavenly, or doctrines of the like kind, they have received such suggestions from the prophets as have enabled them to understand and interpret these things.
+modern_rendering: >-
+  Moses is more ancient than all the Greek writers. Both philosophers and poets have said
+  many things about the immortality of the soul, about punishments after death, about
+  contemplation of heavenly things, and about teachings of that kind. Whatever they said
+  on all of this, they received as suggestions from the prophets. Those suggestions let
+  them understand and explain these things.
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-
@@ -35,10 +41,8 @@ relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony
 ---
-Opened 2026-08-27 for F2-T, which was served by pahc.witness.scripture-and-testimony alone with
-no quote behind it.
+This quote serves F2-T together with pahc.witness.scripture-and-testimony.
 
-ONE CORRECTION TO THE WITNESS, made here rather than left silent. That record cites First Apology
-59-60 for this claim. The argument is there, but its most compact statement is ch. 44, and this
-record cites 44 because that is where the sentence quoted actually stands. Both loci carry the
-same claim; neither citation is wrong, and the record now shows which sentence came from where.
+pahc.witness.scripture-and-testimony cites First Apology 59-60 for this claim. This record
+cites ch. 44, where the quoted sentence itself stands. Both loci carry the same claim; neither
+citation is wrong.

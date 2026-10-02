@@ -8,7 +8,7 @@ VOLUME-level question: "which vendored volumes does this world name an author of
 while never opening that author's works?" That instrument is blind to a whole class
 of gap — an *assigned work sitting inside a volume the world has already opened*.
 
-Alexandria is the worked example (OG-6, 2026-09-09): it opens `anf06` for two works
+Alexandria is the worked example (OG-6): it opens `anf06` for two works
 (Gregory's Address, Dionysius's Extant Fragments), so anf06 was never an "unopened
 volume" — while twelve further anf06 works assigned to it, including Peter of
 Alexandria's Canonical Epistle and the Theognostus and Pierus fragments, had zero
@@ -160,7 +160,7 @@ def doc_frequency(records: list[tuple[Path, str]]) -> dict[str, float]:
 def filename_only(text: str, token: str, source_file: str) -> bool:
     """True if every occurrence of `token` sits inside a vendored-filename string.
 
-    Guards the exact false positive that fooled a human reviewer on Alexandria:
+    Guards the exact false positive found on Alexandria:
     `peter` matching `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml`
     inside an `edition:` field, on lines that mention no Peter at all.
     """

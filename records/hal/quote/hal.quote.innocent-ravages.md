@@ -22,10 +22,11 @@ text: 'The holy virgins Eustochium and Paula have deplored to me the ravages, mu
   district belonging to their church; for with wonderful clemency and generosity they
   have left untold the name and motive of his human agent.'
 modern_rendering: >-
-  Eustochium and Paula, two holy women, told me what happened. In their
-  church's district, they said, the devil brought destruction: murders,
-  fires, and every kind of outrage. But they showed wonderful mercy. They
-  never named who did it, or why.
+  The holy virgins Eustochium and Paula have deplored to me the ravages,
+  murders, fires, and outrages of all kinds. They say the devil has
+  perpetrated these in their church's district. But with wonderful
+  clemency and generosity, they have left untold the name and motive of
+  his human agent.
 speaker_or_author: 'Pope Innocent I, Letter 137 (to John of Jerusalem)'
 license: verbatim
 modern_lens_note: '"Outrages" in this register names violent physical injuries, not the modern primary sense of indignation or scandal. "The devil... his human agent" reflects the era''s genuine attribution of the violence to demonic agency working through an unnamed person, not rhetorical hyperbole.'
@@ -35,7 +36,7 @@ retrieval:
   - "participant asks whether they were ever attacked, and who intervened"
   - "participant asks what happened to the women of the household in a raid"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 137, div
+Verified verbatim against the vendored npnf206 (Ep. 137, div
 v.CXXXVII; 'Paula' here is the younger Paula, Eustochium's niece, per the
 volume's own note). THE TRACE OF THE WOMEN'S LOST LETTER: the fullest
 surviving account of the 416 attack is a pope's summary, in his own
@@ -45,8 +46,4 @@ perpetrator). Their letter to him did not survive; his letter reporting
 it did. Serves F6-P, and grounds hal.limit.f5-women-own-words's sharpest
 fact.
 
-Clarified per independent review Round 1 (2026-08-21): this letter is
-addressed to John of Jerusalem, not to the women - the closing line
-reworded so it cannot read as though Innocent answered them directly.
-
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

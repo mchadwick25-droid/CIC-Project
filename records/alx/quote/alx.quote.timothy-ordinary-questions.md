@@ -47,23 +47,12 @@ retrieval:
 relations:
 - {type: illustrates, target: alx.gravity.learning-community-tension}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf214 line
+Verified verbatim against the vendored file at npnf214 line
 44104. DISCLOSED: these are Questions I, VIII, X and XI of a longer
 series, presented in the file's own order with the intervening questions
 omitted; no words are altered inside any retained question or answer,
 and the editor's inline note ("Beveridge's Synodicon gives notes by
 Balsamon only") is excluded.
-
-Quote-verbatim gate fix (2026-09-22): the `text` field itself previously
-dropped the Roman numerals and marked no gap between the four selected
-questions, so it read as one continuous exchange rather than the
-disclosed, deliberate selection the body prose below already describes.
-Restored each Roman numeral ("Question I.", "Question VIII.", "Question
-X.", "Question XI.") and inserted an ellipsis at the two points where
-intervening numbered questions (II-VII, IX) are skipped - none between
-Question X and XI, which are genuinely adjacent in the source. This
-brings the quoted text into line with what the DISCLOSED paragraph
-already claimed; the selection itself and its reasoning are unchanged.
 
 WHY THESE FOUR AND NOT THE OTHERS. Timothy's series runs to eighteen
 questions and several of the omitted ones rule on women's bodies -
@@ -77,14 +66,14 @@ kept here are the ones that show the same thing without that distortion:
 a bishop deciding, case by case, about a child, a woman recovering from
 birth, a sick man, and a priest asked to bless a marriage he suspects.
 
-THIS IS THE ONLY PLACE IN THIS WORLD'S CORPUS WHERE ORDINARY LIFE IS
-RULED ON. Twenty sources of Clement, Origen, Athanasius and the
+THIS IS THE ONLY PLACE IN THIS WORLD'S CORPUS WHERE ORDINARY LIFE COMES
+TO A BISHOP'S DESK FOR A DECISION. Twenty sources of Clement, Origen, Athanasius and the
 historians - teaching, argument, and the ascent of the soul. The world's
 own registry entry admits it is "thinner on ordinary believers." This is
 the Alexandrian church at a desk, answering what a person should
 actually do.
 
-MODERN RENDERING AUTHORED (2026-08-29, alx register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+MODERN RENDERING AUTHORED: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3.
 
 The text field's rendering of Question I's answer reads "Let him be
 illuminated, i.e. baptized, for he is called by God," matching npnf214

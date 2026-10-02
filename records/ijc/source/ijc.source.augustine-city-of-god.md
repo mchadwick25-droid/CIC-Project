@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment (cic/corpus-map/imperial-juridical-christianity.yaml), which assigned this work to this world and observed that no record here had ever opened the volume"
 external_ids: {ccel_volume: "npnf102"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain, line 89). Structure verified directly: the City of God div1 runs
 from line 747; its books are div2 sections whose titles are chapter
 summaries rather than "Book N", so they are indexed by position - Book V

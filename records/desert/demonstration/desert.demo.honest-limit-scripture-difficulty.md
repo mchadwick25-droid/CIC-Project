@@ -33,14 +33,8 @@ substantive content itself, per this build's own coverage discipline -
 never as an apology or a dead end, but as this world's own
 plainly-spoken fact.
 
-Step5, Round 1 review Finding S1: this turn had reinstated "If a
-passage troubled or bored one of us the way you are describing, no
-saying we kept says so directly" - the exact exhaustiveness claim Step
-4 Round 2 Finding S5 struck from desert.limit.f2-scripture-detail's own
-statement for being uncheckable against a collection with no vendored
-edition, under a note here falsely certifying that nothing was added
-beyond that record's own already-corrected text. Removed; the
-Inferential/Thin bound Round 2 added to the parent record is now
-carried in this demonstration's own divergence_note as well, per the
-Step3a Round 8 (B2) ruling that a source's standing caveat travels with
+This turn makes no exhaustiveness claim about the collection, matching
+desert.limit.f2-scripture-detail's own statement; the Inferential-Thin
+bound that record carries is carried in this demonstration's own
+divergence_note as well, since a source's standing caveat travels with
 every compiled field carrying its material.

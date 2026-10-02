@@ -21,6 +21,10 @@ sources:
 text: 'This preface to the Scriptures may serve as a "helmeted" introduction to all the
   books which we turn from Hebrew into Latin, so that we may be assured that what is not
   found in our list must be placed amongst the Apocryphal writings.'
+modern_rendering: >-
+  This preface can serve as a "helmeted" introduction to all the books that we turn from
+  Hebrew into Latin. It is meant to assure us that whatever is not found in our list must
+  be placed among the Apocryphal writings.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Helmeted" is a martial metaphor - a preface functioning as armor/defense for the translated books that follow - unusual and easily missed by a modern ear expecting a neutral scholarly introduction.'
@@ -30,7 +34,7 @@ retrieval:
   - "participant asks which books they counted as scripture and why"
   - "participant asks how they defended a new translation to people who disliked it"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Prefaces to the
+Verified verbatim against the vendored npnf206 (Prefaces to the
 Vulgate OT, div vii.iii). The continuation naming names is verified in the
 same passage: 'Wisdom, therefore, which generally bears the name of
 Solomon, and the book of Jesus, the Son of Sirach, and Judith, and Tobias,
@@ -41,6 +45,3 @@ Latin church did not follow him on this point - his own translation came
 to carry the very books his preface set apart. Serves F2-T ("Did you
 believe the Bible was the only authority?") and F2-I ("Which writings did
 your people treat as scripture - was your Bible the same as ours?").
-
-Gloss corrected per independent review Round 1 (2026-08-21), which found
-the two canon questions conflated into one parenthetical.

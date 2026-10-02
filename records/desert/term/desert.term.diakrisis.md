@@ -58,25 +58,15 @@ Re-derived from Doc_06 SS1.5 (Tier 1; anchors gravity 5) and Doc_05
 SS11's ecological-hub finding (diakrisis is the most cross-referenced
 term in the lexicon - reflected in this record's six relations, the
 graph's hub). The fabricated "mother of all virtues"/Cassian
-attribution the prior build's Doc_04 Round 1 removed is deliberately
-NOT reintroduced; Conference II is cited as Cassian's record of the
-teaching, no epithet claimed.
+attribution is deliberately not reintroduced; Conference II is cited
+as Cassian's record of the teaching, no epithet claimed.
 
-Step3a Review Round 8, Finding B3: the Cassian export screen is an
-"every citation" standing rule (retrospective Latin curation, decades
-later, for a new audience); this record carried it only as an
-apparatus label in its non-compiled locus ("export screen applies"),
-never in the evidential sense actually citing the Conference. Added in
-plain terms - this record's own body already notes Cassian's framing
-of this exact term is where a fabricated attribution once had to be
-caught and removed, so the retrospection is worth stating, not just
-naming.
-
-Step3a Review Round 7, Finding S3: the informational sense's claim that
-this recurs "regardless of settlement" rests on the sayings collection,
-whose own source record states every citation carries the compiler
-screen (selection, arrangement, and possible cross-strand harmonization
-are the editors' work) and whose fidelity to original strand-specific
-context is Doc_02 SS9's own Contested axis - a caveat this record
-carried nowhere. Added to the evidential sense, matching xeniteia's
-already-cleared phrasing for the same source.
+The Cassian export screen - retrospective Latin curation, decades
+later, for a new audience - is stated in the evidential sense itself,
+where the Conference is actually cited, not only as a locus label. The
+informational sense's claim that this recurs "regardless of settlement"
+rests on the sayings collection, whose own source record states every
+citation carries the compiler screen (selection, arrangement, and
+possible cross-strand harmonization are the editors' work); that
+caveat is carried in the evidential sense, matching xeniteia's phrasing
+for the same source.

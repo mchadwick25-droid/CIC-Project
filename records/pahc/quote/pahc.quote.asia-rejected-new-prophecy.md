@@ -27,11 +27,11 @@ text: For when the faithful throughout Asia met together often and in many place
   to be spurious, and rejected them as heretical, they were in consequence of that expelled from the
   Church and debarred from communion.
 modern_rendering: >-
-  Believers all over Asia kept meeting - again and again, in many
-  different places - to examine these new teachings closely. They judged
-  them false and rejected them as heresy. Because of that, the followers
-  of the New Prophecy were put out of the church and cut off from
-  communion.
+  Believers all over Asia kept meeting for deliberation on this. This
+  happened again and again, in many different places. They subjected
+  these new teachings to examination. They declared them false, and
+  rejected them as heresy. Because of that, they were expelled from the
+  Church and debarred from communion.
 speaker_or_author: "The Anonymous anti-Montanist writer (c. 192-193 CE), addressing Avircius
   Marcellus; printed by ANF under the conjectural name 'Asterius Urbanus,' not treated as a real
   attribution here"
@@ -52,14 +52,11 @@ retrieval:
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}
 ---
-Discovered 2026-09-09 in a supplemental source review: pahc.source.anti-
-montanist-fragments was registered at this build's Step 2 to answer Doc_01
-SS8.3's Montanism disclosure obligation, but no quote or gravity record had
-drawn on it since. Text verified directly against cic/texts/anf07_lactantius
--apostolic-constitutions-didache-liturgies.xml at line 11308, no elisions.
-The quoted
-text was independently re-diffed against the vendored file and
-confirmed byte-for-byte accurate throughout.
+pahc.source.anti-montanist-fragments was registered to answer Doc_01
+SS8.3's Montanism disclosure obligation; this quote draws on it. Text
+is verified directly against cic/texts/anf07_lactantius-apostolic-
+constitutions-didache-liturgies.xml at line 11308, no elisions, and is
+byte-for-byte accurate throughout.
 
 WHAT THIS DOES AND DOES NOT DO FOR G05. pahc.gravity.boundary-drawing's own
 record states plainly that Doc_01's naming of Marcion, Valentinian teaching,

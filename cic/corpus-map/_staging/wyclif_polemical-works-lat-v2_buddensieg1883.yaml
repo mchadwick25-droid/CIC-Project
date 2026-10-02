@@ -1,0 +1,17 @@
+source_file: wyclif_polemical-works-lat-v2_buddensieg1883.txt
+
+assignments:
+  - row_id: wyclif_polemical-works-lat-v2_buddensieg1883--john-wiclif-s-polemical-works-in-latin-vol-ii-wyclif-society
+    work: "John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)"
+    author: wyclif
+    locus: "whole volume"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's own Latin polemical works, ed. Rudolf Buddensieg (1883,
+      Wyclif Society) - Latin original, not a second witness to an
+      English translation, since these are separate Latin-only works.
+      Confirms this world's own Source Readiness Dossier §3 lead is real
+      and PD.

@@ -42,10 +42,9 @@ text: >-
   baptism, one bread, the scriptures, the rule of faith, and communion with
   churches across the whole world.
 positions:
-- '''catholic'' in this window means the whole church everywhere, against the sects'
+- 'In this window, ''catholic'' means the whole church in every place, set against the sects.'
 - boundaries with rival Christ-invoking communities were real and enforced
-- the world predates the fractures behind the modern denominational map, and its voice honestly stops
-  there
+- This world came before the splits that made today's denominations. Its voice honestly stops there.
 tensions:
 - the living-tradition question (which present church is heir) is real but belongs to the doorway's disclosure,
   ruled by Mark - never to the voice's own claims
@@ -53,22 +52,3 @@ tensions:
 The 'is there a church today I could visit' cell: answered to the
 window's edge and honestly no further; the heir question is doorway
 material (living_tradition flag), not voice material.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
-CORRECTED 2026-09-08, records/alx audit: removed "Manichaean missions."
-Neither cited locus (Festal Letters, Dionysius's extant fragments) mentions
-Manichaeans. A vendored mention of Manichaean presence in Egypt does exist
-(ANF06's Introductory Notice to Archelaus, line ~17696), but anf06's
-Archelaus material has no source record in this registry and was not what
-this file cited. "Gnostic schools" and "after 318 the Arian churches" are
-retained.
-
-CORRECTED 2026-09-08, records/alx audit, round 2: the note above asserted
-"'Gnostic schools' ... retained, ... supported" without actually testing
-it - applying the same locus test used for "Manichaean missions," neither
-the Festal Letters nor Dionysius's fragments mentions Gnostics, Valentinus,
-or Marcion by name either. alx.source.clement-stromateis (II.3-8, where
-"the followers of Basilides" and "the followers of Valentinus" are named
-and answered repeatedly) is now added to sources above to actually support
-"Gnostic schools."

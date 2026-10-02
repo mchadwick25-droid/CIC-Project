@@ -30,6 +30,11 @@ text: >-
   of the association as far as their names are concerned, but their actions are like those of the
   hyena. They spend the day fasting with the holy brethren, and in the evening, at the time for
   sleeping, instead of the watch of the night, they go forth in the darkness like a hyena.
+modern_rendering: >-
+  Those who are like the hyenas you have seen are the monks who remain with their brothers in the
+  community in name only. Their actions are like those of the hyena. They spend the day fasting with
+  the holy brothers. But in the evening, at the hour for sleep, instead of keeping the night watch,
+  they go out into the darkness like a hyena.
 speaker_or_author: the late Ethiopic homily on the ten associations, carried under Pachomius' name
 license: verbatim
 modern_lens_note: >-
@@ -54,15 +59,12 @@ relations:
 - type: associated-with
   target: desert.quote.no-one-seize-the-hand
 ---
-CELL CORRECTED 2026-08-27, on a retrieval measurement: this record carried
-F3-I alone and belongs first in F6-I, whose canon questions are "Was there
-anything about your own community that troubled you?" and "What did your
-people never settle?". A federation's own homily about monks whose names
-are on the roll and whose nights are not is an F6-I record before it is
-anything else, and under-classifying it made it unreachable from the
-question it most directly answers.
+This record carries canon cell F6-I first, and F3-I as well, since F6-I's own canon questions are
+"Was there anything about your own community that troubled you?" and "What did your people never
+settle?" A federation's own homily about monks whose names are on the roll and whose nights are not
+is an F6-I record before it is anything else.
 
-Verified verbatim 2026-08-27 against the vendored file, Part III, pp.
+Verified verbatim against the vendored file, Part III, pp.
 686-687. The quotation stops at "like a hyena" because the sentence
 continues across the p. 687 page break; what follows in the file is an
 explicit charge of fornication in the women's cloister, which is in the

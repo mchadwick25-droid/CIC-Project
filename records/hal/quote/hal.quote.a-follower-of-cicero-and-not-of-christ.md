@@ -23,13 +23,15 @@ sources:
 text: >-
   Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: "I am a Christian." But He who presided said: "Thou liest, thou art a follower of Cicero and not of Christ. For 'where thy treasure is, there will thy heart be also.'" Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience...
 modern_rendering: >-
-  Suddenly I was caught up in the spirit and dragged before the Judge's seat.
-  The light was so bright, and the people standing around so radiant, that I
-  threw myself on the ground and did not dare look up. I was asked who and
-  what I was. I answered: 'I am a Christian.' But the one presiding said: 'You
-  lie. You follow Cicero, not Christ. For where your treasure is, there your
-  heart will be also.' I went silent. And while I was being whipped - for he
-  had ordered me beaten - my conscience burned me worse than the lash.
+  Suddenly I was caught up in the spirit and dragged before the judgment
+  seat of the Judge. The light was so bright, and the people standing
+  around so radiant, that I threw myself on the ground and did not dare
+  look up. I was asked who and what I was. I answered: 'I am a
+  Christian.' But the one presiding said: 'You lie. You follow Cicero,
+  not Christ. For where your treasure is, there your heart will be
+  also.' I went silent. And amid the strokes of the lash - for he had
+  ordered me to be scourged - I was tortured more severely still by the
+  fire of conscience.
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
@@ -44,25 +46,24 @@ relations:
 - type: associated-with
   target: hal.dw.inner-life
 ---
-Opened 2026-08-27. hal.dw.inner-life cites Letter XXII for the restless mind and its discipline
-and had no quote behind it; F4-P was served by that witness alone.
+hal.dw.inner-life cites Letter XXII for the restless mind and its discipline;
+this quote gives that witness its grounding for F4-P.
 
-Worth reading beside ijc.quote.i-scorned-to-be-a-little-one, opened the same day in another world.
+Worth reading beside ijc.quote.i-scorned-to-be-a-little-one, in another world.
 Two Latin-trained men, a generation apart, both stopped by Cicero on the way to scripture - Jerome
 scourged in a dream for loving the prose, Augustine refusing scripture because its prose was too
 plain. Neither world knows the other's record; the pair is a fleet-level observation, not a claim
 either world makes.
 
-MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+The spoken form is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+The rendering is written at the register bar: short sentences, everyday words, translation fidelity kept; the original stays as text for Level 3.
 
-Quote-verbatim gate fix (2026-09-22): removed stray literal backslash characters before quote marks
-in `text` and `modern_lens_note` (a YAML folded-scalar authoring bug - backslash isn't an escape
-character there, so these were literal characters in the source's own words, not real punctuation).
-Separately, the record's own period after "fire of conscience" was invented - the source's sentence
-continues with a comma into an extended repentance narrative (crying out for mercy, the bystanders
-pleading on the dreamer's behalf, mercy granted). Marked with a trailing ellipsis rather than restored:
-the record's gloss and retrieval framing are about the accusation-and-punishment moment, not its
-resolution, and importing the repentance/mercy narrative would change what this quote is being used to
-show, not just extend it.
+No stray literal backslash characters appear before quote marks in
+`text` or `modern_lens_note`. The quote ends at "fire of conscience"
+marked with a trailing ellipsis: the source's sentence continues with a
+comma into an extended repentance narrative (crying out for mercy, the
+bystanders pleading on the dreamer's behalf, mercy granted), which would
+change what this quote is being used to show, not just extend it - the
+record's gloss and retrieval framing are about the accusation-and-
+punishment moment, not its resolution.

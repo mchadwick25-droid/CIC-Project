@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-imperial-church-justinianic
 works:
-- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts
+  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11 — acts extracts, Definition 11.13, canons 11.18 (the Tome split out below)
   role: tradition
@@ -15,7 +16,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the
+  work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
   author: council-of-constantinople-553
   locus: div1 12 — sentence 12.6, capitula 12.7, anathemas 12.9-12.10, Vigilius' decretal
@@ -27,48 +29,50 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Encyclical Letter of Gennadius of Constantinople and his synod
+- row_id: npnf214_seven-ecumenical-councils--the-encyclical-letter-of-gennadius-of-constantinople-and-his
+  work: The Encyclical Letter of Gennadius of Constantinople and his synod
   author: gennadius_constantinople
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.32 (~179 words)
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it. Patriarch 458-471, inside that entry's 451-622 window.
-- work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it. Patriarch 458-471, inside that entry's 451-622 window.
+- row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
+  work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: context
   confidence: assigned
-  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
-    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
-    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
-    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
-    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
-    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
-    writing to.
+  note: 'CONTEXT row: four entries that are not Gregory''s. The letters are evidence ABOUT
+    these worlds from outside them: monastic discipline in Italy and Sicily, the letters to
+    Brunichild and the Frankish court, Book VI and Book XI''s Responsa launching and steering
+    the mission to Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical
+    patriarch''. Leaving them as `tradition` would have made Gregory a voice of four traditions
+    he was writing to.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix-2
+  work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
   author: gregory
   locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books
     I-VIII)
   role: context
   confidence: assigned
-  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
-    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
-    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
-    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
-    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
-    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
-    writing to.
+  note: 'CONTEXT row: four entries that are not Gregory''s. The letters are evidence ABOUT
+    these worlds from outside them: monastic discipline in Italy and Sicily, the letters to
+    Brunichild and the Frankish court, Book VI and Book XI''s Responsa launching and steering
+    the mission to Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical
+    patriarch''. Leaving them as `tradition` would have made Gregory a voice of four traditions
+    he was writing to.
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- work: The Letters of Leo the Great
+- row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great
+  work: The Letters of Leo the Great
   author: leo
   locus: div2 2.4 — Letters (including Letter XXVIII, the Tome)
   role: tradition

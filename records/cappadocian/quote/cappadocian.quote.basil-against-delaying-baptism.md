@@ -24,14 +24,13 @@ confidence:
     different, more favorable gap than cappadocian.source.basil-against-eunomius documents for the
     three-book treatise: there, the Prolegomena only discusses the work in third-person summary with no
     quotation at all; here, real quoted, translated, section-numbered sermon prose is genuinely present -
-    just as a curated excerpt rather than the homily's complete text. CORRECTED (independent adversarial
-    review, 2026-09-02): verification_state was originally set to verified-direct, overselling this record's
-    own actual provenance chain - the text is checked directly against what the vendored file prints, but
-    what the file prints is itself the NPNF editor's own selected citation of Basil's homily, not the
-    homily's own complete, independently-checkable text (which is not vendored at all, per world_core's own
-    caution and this world's established verification_state mapping: A-grade direct primary-text access is
-    verified-direct; content resting on a citing authority's own selection/quotation is verified-via-authority).
-    Corrected to verified-via-authority to match that established rule."
+    just as a curated excerpt rather than the homily's complete text. The text is checked directly against
+    what the vendored file prints, but what the file prints is itself the NPNF editor's own selected
+    citation of Basil's homily, not the homily's own complete, independently-checkable text (which is not
+    vendored at all, per world_core's own caution and this world's established verification_state mapping:
+    A-grade direct primary-text access is verified-direct; content resting on a citing authority's own
+    selection/quotation is verified-via-authority). That is why this record's verification_state is
+    verified-via-authority."
 sources:
 - source_id: cappadocian.source.basil-antiphonal-psalmody-baptismal-letters
   locus: "Homily XIII, On Holy Baptism, §5 (per endnote 646) - quoted within the Prolegomena's own 'Works:
@@ -66,13 +65,12 @@ relations:
 - type: associated-with
   target: cappadocian.dw.baptism-and-new-birth
 modern_rendering: >-
-  Are you young? Then guard your youth with baptism's bridle. Has your best
-  years already passed you by? Then don't go without the provisions you'll
-  need for the road ahead. Don't throw away your protection. Don't treat
-  the eleventh hour as if it were the first. Even at the very start of
-  life, we ought to already be keeping the end in view.
+  Are you young? Guard your youth with baptism's bridle. Has your prime passed by? Do not
+  go without your viaticum. Do not lose your safeguard. Do not treat the eleventh hour as
+  if it were the first. Even at the beginning of life, it is fitting that we already have
+  the end in view.
 ---
-Found 2026-09-02 following the build brief's own trail. `grep -n "Homily
+Found by following the build brief's own trail. `grep -n "Homily
 XIII"` on `cic/texts/npnf208_basil-letters-select-works.xml` returns one
 hit, line 7005: "In Homily XIII., on Holy Baptism, St. Basil combats an
 error which had naturally arisen out of the practice of postponing
@@ -111,22 +109,16 @@ of the three concerns baptismal delay (young-men is on classical
 literature for students, the ascetic rules govern monastic life, and the
 Morison volume is a modern secondary study). A file-wide sweep for
 `viaticum|eleventh hour|delay.*baptism|postpon.*baptism|hour of death`
-turns up THREE other hits, all irrelevant - CORRECTED (independent
-adversarial review, 2026-09-02): this note originally said "two other
-hits" and named only two, missing a real third match the same regex
-returns at line 26901 ("the hour of death, the imminent sentence of
-God"), inside an unrelated letter of consolation to a fallen virgin
-meditating on her own mortality - not baptism at all. All three are
-correctly irrelevant to baptismal delay specifically (line 38202 is a
-Benedictine editorial endnote on Canon 217 about unbaptized men, Ambrose
-of Milan and Nectarius, being elevated straight to a bishopric, not
-about deathbed baptism of ordinary believers; line 38533 is Canon 217
-§73 on restoring a lapsed apostate to communion "in the hour of death,"
-a penance question, not a baptism one; line 26901 is a mortality
-meditation, not a baptism argument), so the substantive conclusion - no
-other Basil-on-delayed-baptism material exists in the vendored corpus -
-still holds. But the original count itself was wrong, caught only by a
-fresh re-run of the same search rather than trusting the earlier tally.
+turns up three other hits, all irrelevant to baptismal delay specifically:
+line 38202 is a Benedictine editorial endnote on Canon 217 about
+unbaptized men, Ambrose of Milan and Nectarius, being elevated straight
+to a bishopric, not about deathbed baptism of ordinary believers; line
+38533 is Canon 217 §73 on restoring a lapsed apostate to communion "in
+the hour of death," a penance question, not a baptism one; line 26901
+("the hour of death, the imminent sentence of God") is inside an
+unrelated letter of consolation to a fallen virgin meditating on her own
+mortality, not a baptism argument. No other Basil-on-delayed-baptism
+material exists in the vendored corpus.
 
 Normalization: the source hard-wraps prose and double-spaces after
 periods (e.g. "baptism.  Has thy prime"); normalized to single spaces
@@ -145,6 +137,4 @@ now reason it is too late to start: baptism should not wait for a
 self-chosen "eleventh hour," because no one is promised he will recognize
 it as his last.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
-English translation, never the archaic original; the original stays as
-the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

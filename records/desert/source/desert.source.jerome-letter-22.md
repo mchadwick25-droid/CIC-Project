@@ -22,12 +22,12 @@ attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21) as a vendorable outside witness to strand typology; volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf206"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). The SS34-36 passage verified present at file lines 6623-6740
 (passage opening at 6623; anchorite etymology note at 6630; "the third
 class, called anchorites, who go from the monasteries into the deserts"
-at 6724; range start and the edition's 'Remoboth' spelling corrected per
-Step2 Review Round 1, Findings 7-8).
+at 6724, with the range start and the edition's 'Remoboth' spelling
+matching the file exactly).
 
 Use bounds: Jerome had not visited Egypt when he wrote this; his account
 is secondhand Roman-audience synthesis, and his "remnuoth" polemic tells

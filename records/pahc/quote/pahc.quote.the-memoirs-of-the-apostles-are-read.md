@@ -22,6 +22,11 @@ sources:
   license: public-domain
 text: >-
   And on the day called Sunday, all who live in cities or in the country gather together to one place, and the memoirs of the apostles or the writings of the prophets are read, as long as time permits; then, when the reader has ceased, the president verbally instructs, and exhorts to the imitation of these good things.
+modern_rendering: >-
+  On the day called Sunday, everyone who lives in the cities or in the country gathers
+  together in one place. The memoirs of the apostles or the writings of the prophets are
+  read for as long as time allows. When the reader stops, the president speaks -- he
+  instructs us, and urges us to imitate these good things.
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-
@@ -36,11 +41,10 @@ relations:
 - type: associated-with
   target: pahc.witness.reading-scripture
 ---
-Opened 2026-08-27. pahc.witness.reading-scripture has cited this exact locus since it was
-written and could not show it: F2-I was served by that witness alone, with no quote and no story,
-which the Program Spec's own coverage rule forbids ("a cell is covered when the records serving it
-include, wherever the sources hold them, the stories that carry the answer and the licensed quotes
-that voice it - never only propositional records").
+pahc.witness.reading-scripture cites this exact locus. This quote fills F2-I with a licensed
+quote alongside that witness, per the Program Spec's own coverage rule ("a cell is covered
+when the records serving it include, wherever the sources hold them, the stories that carry
+the answer and the licensed quotes that voice it - never only propositional records").
 
 This is also the single most-cited sentence in the study of early Christian worship, and this world
 had it in a vendored file and could not speak it.

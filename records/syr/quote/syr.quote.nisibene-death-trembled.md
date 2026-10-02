@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'Sin and Hell were terrified: Death trembled and the dead rebelled; and Satan because sinners rebelled
   against him.'
+modern_rendering: >-
+  Sin and Hell were terrified. Death trembled, and the dead rebelled. And Satan did
+  likewise, because sinners rebelled against him.
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 modern_lens_note: 'Sin, Hell, Death, and Satan are personified as agents capable of

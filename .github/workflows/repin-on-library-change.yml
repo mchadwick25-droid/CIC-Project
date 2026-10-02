@@ -1,6 +1,6 @@
 name: Repin on library change
 
-# Library Access Gate D3 (Ministry/Features/Library-Access-Gate/
+# Library Access Gate D3 (Build/Ministry/Features/Library-Access-Gate/
 # D3-Converged-Design.md) SS6.3, increment 5 (Q6b). Fires on every push to
 # main that touches cic/corpus-map/** or cic/texts/** - the library itself
 # changed, so every world whose shelf drew from what changed is stale and
@@ -19,9 +19,11 @@ name: Repin on library change
 # fine-grained PAT scoped to this repo only, with Contents: Read and write
 # and Pull requests: Read and write, or an equivalent GitHub App
 # installation token. Checkout below falls back to the default token so
-# this job can still run and report cleanly without it; the actual repin
-# step (tools/repin_stale_worlds.py) requires REPIN_PR_TOKEN itself and
-# fails loudly, with these same instructions, until it exists.
+# this job can still run and report cleanly without it. tools/repin_stale_
+# worlds.py checks staleness first: a push that leaves every world's pin
+# current exits 0 without needing REPIN_PR_TOKEN at all. It only requires
+# the token, and fails loudly with these same instructions, once at least
+# one world is actually stale.
 
 on:
   push:

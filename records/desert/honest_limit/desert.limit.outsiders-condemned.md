@@ -35,18 +35,11 @@ question from what that claim meant for the personal standing of
 someone who never held it - this record does not stretch one to answer
 the other.
 
-Step4, Round 3 review Finding S1: the predecessor record for this cell
-(desert.limit.f6-t-outsiders-and-narrowness) declared the Vita silent
-on both the condemnation question and the one-true-way question; the
-second claim was false against Vita SS72-80, checked directly this
-session (see desert.dw.only-true-religion, built from that
-material). This record narrows the claim to what a full-text search
-actually confirms is absent - the word "hell" does not occur in the
-Vita at all, and "condemn" occurs four times, none of them on this
-question.
-
-Step5, Round 1 review Finding S6: this compiled statement still opened
-"I do not have an honest answer" - corrected to "We do not have an
-honest answer," matching the fleet's own strict we-voice discipline
-(fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in desert.voice.craft's
-own flavor_notes).
+This record's claim is narrowed to what a full-text search actually
+confirms is absent: the word "hell" does not occur in the Vita at all,
+and "condemn" occurs four times, none of them on this question; the
+one-true-way question, by contrast, is answered by
+desert.dw.only-true-religion, built from Vita SS72-80. The compiled
+statement opens "We do not have an honest answer," matching the
+fleet's own strict we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md
+v4, restated in desert.voice.craft's own flavor_notes).

@@ -21,6 +21,11 @@ text: Constantine was directed in a dream to cause the heavenly sign to be delin
   of his soldiers, and so to proceed to battle. He did as he had been commanded, and he marked on their
   shields the letter Χ, with a perpendicular line drawn through it and turned round thus at the top,
   being the cipher of Christ.
+modern_rendering: >-
+  In a dream, Constantine was told to have the heavenly sign drawn on his soldiers'
+  shields, and so to go into battle. He did as he had been commanded. He marked on their
+  shields the letter Χ, with a vertical line drawn through it and bent round at the top
+  like this — the cipher of Christ.
 speaker_or_author: "Lactantius, De Mortibus Persecutorum"
 license: verbatim
 modern_lens_note: >-
@@ -35,11 +40,9 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}
 ---
-Text verified verbatim against the vendored file 2026-08-21. Corrected
-at review (Opus quote-fidelity pass, 2026-08-21): the file prints the
-actual Greek letter chi (Χ, U+03A7), not a Latin "X" - this record had
-silently substituted the Latin letter without disclosing the
-substitution. The Greek character is now reproduced as printed; the
+Text verified verbatim against the vendored file: the file prints the
+actual Greek letter chi (Χ, U+03A7), not a Latin "X", and this record
+reproduces the Greek character as printed. The
 file also shows the fuller Chi-Rho ("ΧР") that follows in the same
 sentence, not quoted here since this record's span ends at "Christ."
 The earlier of the two conversion accounts - a

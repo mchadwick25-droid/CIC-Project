@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   My voice sticks in my throat; and, as I dictate, sobs choke my utterance. The City which had taken the whole world was itself taken; nay more famine was beforehand with the sword and but few citizens were left to be made captives.
+modern_rendering: >-
+  My voice sticks in my throat. As I dictate this, sobs choke my words. The City that had
+  taken the whole world was itself taken. Worse -- famine struck before the sword did, and
+  only a few citizens were left to become captives.
 speaker_or_author: Jerome, Letter CXXVII to Principia
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +39,7 @@ relations:
 - type: associated-with
   target: hal.dw.practices
 ---
-Opened 2026-08-27 for F4-T, served by hal.dw.practices alone, which cites this locus for "the
+Opened for F4-T, served by hal.dw.practices alone, which cites this locus for "the
 fall of Rome heard as judgment" and had nothing quotable.
 
 The cell's canon question is "were you born again - is that how you'd put what happened to you?"

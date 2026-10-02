@@ -9,25 +9,28 @@ ACCEPTED_OPEN here is a *different* registry from engine/m1/cross_world.py's
 own ACCEPTED_OPEN (RF-10): that one is `dict[str, str]`, a finding key to a
 one-line reason; this one is `dict[str, Waiver]`, because a library-access
 waiver additionally carries a deadline and an owner (SS4.2) - the same
-spirit ("a known defect stays visible, not suppressed"), a different shape,
+spirit (a defect stays visible, not suppressed), a different shape,
 because these are different scopes. A key here is `<layer>:<check>/<world>`,
 e.g. `"m1:reciprocity/don"`, `"m9:voicing-pair/don"`.
 
 GRANDFATHERED_WORLDS is the fixed set of worlds built before this gate
 existed - it only ever shrinks, never grows (SS4.2). A waiver naming a
-world outside it is itself a hygiene failure: grandfathering is closed.
+world outside it is itself a hygiene failure: grandfathering is closed. The
+one way through is an exception the project lead has approved: the waiver
+then carries both an owning finding (`owner`) and `approved_by` naming
+PROJECT_LEAD, and without both it stays a failure.
 `fix` is deliberately absent from that set and gets no special-case code
 to keep it out of enforcement - the fixture world must already be 100%
 clean, so if it ever isn't, that is exactly the kind of drift this gate
 exists to catch (SS4.4).
 
 Two named, disclosed exceptions, not a quiet reopening of the rule: `rzg`
-(admitted 2026-09-18) was added directly by the project lead, not
-self-granted by that world's own build/go-live thread, after that thread
-found rzg's own content fully clean on every check but `m9:shelf-row` -
-the same project-wide CM-1 gap every one of the worlds above also
-carries, blocked on infrastructure that does not exist yet for any world,
-not a quality gap specific to rzg. `witt` (2026-09-19) was added the same
+was added directly by the project lead, not self-granted by that world's
+own build/go-live thread, after that thread found rzg's own content
+fully clean on every check but `m9:shelf-row` - the same project-wide
+CM-1 gap every one of the worlds above also carries, blocked on
+infrastructure that does not exist yet for any world, not a quality gap
+specific to rzg. `witt` was added the same
 way and for the identical reason - `m9:shelf-row` only, same CM-1 gap,
 same project-lead sign-off - the standard held is the best quality,
 whatever it takes - given in answer to whether to also waive witt's own
@@ -64,26 +67,50 @@ GRANDFATHERED_WORLDS = frozenset(
     {"alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "syr", "rzg", "witt"}
 )
 
+# Not a world - the registry key gate_readability_fleet's own findings are
+# reported under (engine/m1/gates.py). Fleet content (fleet_voice,
+# modern_term) is checked once, not once per world, so it needs a stable
+# key of its own rather than being folded into any single real world's
+# count; exempted from the GRANDFATHERED_WORLDS membership check below for
+# the same reason - it was never admitted as a world and grandfathering
+# was never a question that applied to it.
+FLEET_PSEUDO_WORLD = "_fleet"
+
+
+PROJECT_LEAD = "project lead"
+
 
 @dataclass(frozen=True)
 class Waiver:
     count: int
     deadline: str  # ISO "YYYY-MM-DD" - the day this waiver must be gone
     owner: str  # the finding and thread that own the repair
+    approved_by: str = ""  # required, and must name PROJECT_LEAD, for any world outside GRANDFATHERED_WORLDS
 
 
-# Populated from the first real run against the fleet as it stood at
-# increment 4 (2026-09-15), not from D3 SS4.3's own table - that table was
-# written before engine/m9/confinement.py existed to measure anything, and
-# says so itself ("the exact values come from the first real run, not from
-# here"). At increment 4, the real run was smaller than SS4.3 predicted
-# for the m9: side: `shelf-row`, `emic-vendored-only`, `voicing-pair` and
-# `shelf-confidence` were all silent on every real world, because no real
-# source record had `kind`/`shelf_row` set yet - checks gated on those
-# fields had nothing to resolve against, so they found nothing to report,
-# correctly, not because the library was clean. Increment 7's kind-only
-# half (CO-5, Decision-Log.md entry 22) is closing that gap one world at a
-# time via `tools/set_source_kind.py`: `gallic` is migrated first (the
+def new_world_waiver_problem(waiver: Waiver) -> str | None:
+    """Why a waiver on a world outside GRANDFATHERED_WORLDS is not allowed,
+    or None when it carries both an owning finding and the project lead's
+    own approval."""
+    if not waiver.owner.strip():
+        return "it names no owning finding"
+    if waiver.approved_by.strip() != PROJECT_LEAD:
+        return f"it lacks approved_by: {PROJECT_LEAD!r}"
+    return None
+
+
+# Populated from the first real run against the fleet, not from D3 SS4.3's
+# own table - that table was written before engine/m9/confinement.py
+# existed to measure anything, and says so itself ("the exact values come
+# from the first real run, not from here"). At increment 4, the real run
+# was smaller than SS4.3 predicted for the m9: side: `shelf-row`,
+# `emic-vendored-only`, `voicing-pair` and `shelf-confidence` were all
+# silent on every real world, because no real source record had
+# `kind`/`shelf_row` set yet - checks gated on those fields had nothing to
+# resolve against, so they found nothing to report, correctly, not
+# because the library was clean. The kind-only migration is closing that
+# gap one world at a time via `Build/tools/set_source_kind.py`: `gallic` is
+# migrated first (the
 # worked pattern - it has the fleet's only `kind: absence`-eligible real
 # records to prove the tool handles correctly by skipping them), and each
 # world's move from `source-kind` alone to `source-kind` (reduced) +
@@ -122,26 +149,39 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:shelf-row/pahc": Waiver(count=23, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/syr": Waiver(count=24, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/syr": Waiver(count=38, deadline="2026-12-14", owner="syr's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
-    "m9:verbatim-in-shelf/don": Waiver(count=1, deadline="2026-12-14", owner="don.quote.emeritus-magno-argumento - OCR-defeated against the Migne Collatio; needs a re-scan or second witness (D3 SS9)"),
-    "m9:verbatim-in-shelf/hal": Waiver(count=1, deadline="2026-12-14", owner="Q7-B's one OCR no-match on hal; re-transcription owned by hal's own build thread"),
-    "m9:verbatim-in-shelf/syr": Waiver(count=2, deadline="2026-12-14", owner="Q7-B's two complement-only quotes on syr; re-transcription owned by syr's own build thread"),
     "m1:reciprocity/desert": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; desert's own build thread"),
     "m1:reciprocity/don": Waiver(count=52, deadline="2026-12-14", owner="D2 SS1.3(e) - don's own known reciprocity gap; don's build thread"),
     "m1:reciprocity/gallic": Waiver(count=14, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
     "m1:reciprocity/pahc": Waiver(count=2, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; pahc's own build thread"),
     "m1:voice-perspective/cappadocian": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; cappadocian's own build thread"),
     "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
-    "m9:shelf-row/rzg": Waiver(count=10, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:shelf-row/rzg": Waiver(count=11, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/witt": Waiver(count=47, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m1:quote-verbatim/gallic": Waiver(count=1, deadline="2026-12-14", owner="gallic.quote.salvian-on-the-unburied-dead - one footnote-marker artifact in cic/texts/salvian_on-the-government-of-god_sanford1930.txt (a bare closing curly quote glued to \"captures,\" with no matching open, unlike this edition's other two now-registered apparatus patterns) isn't a safe edition-wide regex (41 real opening curly quotes and legitimate closing-quote usage elsewhere in this same file); needs a narrower, structurally-anchored rule, not a blanket strip - Decision 8B's own gallic thread"),
+    # gate_readability covers every field engine/m1/spoken_fields.py
+    # declares under an instruction/voice-diet/evidence-head/
+    # facilitator-spoken role, not just term/honest_limit/
+    # quote.modern_rendering/voice_craft. None of these eleven counts is
+    # new drift - every one is pre-existing content the narrower gate
+    # never graded, mostly concentrated in doctrinal_witness.positions
+    # and gravity/force.description across the fleet.
+    "m1:readability/alx": Waiver(count=36, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; alx's own build thread"),
+    "m1:readability/cappadocian": Waiver(count=320, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
+    "m1:readability/desert": Waiver(count=159, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
+    "m1:readability/don": Waiver(count=330, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
+    "m1:readability/gallic": Waiver(count=109, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
+    "m1:readability/hal": Waiver(count=163, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
+    "m1:readability/ijc": Waiver(count=162, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
+    "m1:readability/pahc": Waiver(count=160, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
+    "m1:readability/rzg": Waiver(count=134, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
+    "m1:readability/syr": Waiver(count=153, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
+    "m1:readability/witt": Waiver(count=194, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
+    # gate_readability_fleet's own findings (fleet_voice and modern_term
+    # spoken fields, records/_fleet/) - counted once against the
+    # FLEET_PSEUDO_WORLD key, never against any single real world's own
+    # count, for the reason gate_readability_fleet's own docstring gives.
+    "m1:readability-fleet/_fleet": Waiver(count=7, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
 }
-
-# The five m1:readability/{desert,don,ijc,pahc,syr} waivers registered
-# 2026-09-19 alongside the gate_readability voice_craft extension (PR
-# #301) were removed the same day, once each world's own em-dash/colon-
-# chained fields were actually fixed (same root-cause pass already
-# applied to alx, hal, cappadocian, and gallic) - stale waivers get
-# removed when their finding closes, not left standing, per the
-# established pattern (commit 33cd8a717).
 
 
 def _voicing_pair_carve_out_active() -> bool:
@@ -165,10 +205,22 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
         merged: dict[str, list[str]] = {}
         for name, findings in gates.run_all(records, fleet, registry).items():
             merged[f"m1:{name}"] = findings
+        # gate_readability_floor is not in GATES (see its own docstring) -
+        # collected here under its own key, which hygiene_problems() below
+        # permanently excludes from the waiver mechanism: a sub-8 field is
+        # reported, never failed, so it needs no waiver to stay green.
+        merged["m1:readability-floor"] = gates.gate_readability_floor(records, fleet, registry)
         shelf = loader.load_shelf(world_key=world_key, census_id=entry["census_id"], records=records)
         for name, findings in confinement_run_all(records, shelf).items():
             merged[f"m9:{name}"] = findings
         by_world[world_key] = merged
+    # gate_readability_fleet grades records/_fleet/ once, not once per
+    # world (see that function's own docstring) - collected here, outside
+    # the per-world loop above, under FLEET_PSEUDO_WORLD's own key.
+    by_world[FLEET_PSEUDO_WORLD] = {
+        "m1:readability-fleet": gates.gate_readability_fleet(fleet),
+        "m1:readability-floor": gates.gate_readability_floor_fleet(fleet),
+    }
     return by_world
 
 
@@ -185,6 +237,8 @@ def hygiene_problems(by_world: dict[str, dict[str, list[str]]], *, today: str | 
         for name, findings in checks.items():
             if not findings:
                 continue
+            if name == "m1:readability-floor":
+                continue  # gate_readability_floor: FK < 8 is reported, not failed - permanent, never needs a waiver
             if name == "m9:voicing-pair" and world_key not in GRANDFATHERED_WORLDS and carve_out:
                 continue  # R-4: report-only until corpus-map lands its first real pair
             live[f"{name}/{world_key}"] = len(findings)
@@ -196,9 +250,11 @@ def hygiene_problems(by_world: dict[str, dict[str, list[str]]], *, today: str | 
         if waiver is None:
             problems.append(f"{key}: {count} unwaived finding(s) - new, undocumented drift")
             continue
-        if world_key not in GRANDFATHERED_WORLDS:
-            problems.append(f"{key}: waived, but {world_key!r} is not grandfathered - grandfathering is closed")
-            continue
+        if world_key not in GRANDFATHERED_WORLDS and world_key != FLEET_PSEUDO_WORLD:
+            reason = new_world_waiver_problem(waiver)
+            if reason is not None:
+                problems.append(f"{key}: waived, but {world_key!r} is not grandfathered - grandfathering is closed, and {reason}")
+                continue
         if waiver.count != count:
             direction = "the waiver is stale - tighten it" if waiver.count > count else "new drift beyond the waiver"
             problems.append(f"{key}: waiver says {waiver.count}, this run found {count} - {direction}")
@@ -213,17 +269,20 @@ def hygiene_problems(by_world: dict[str, dict[str, list[str]]], *, today: str | 
 
 
 def report_only(by_world: dict[str, dict[str, list[str]]]) -> list[str]:
-    """The R-4 carve-out's own visibility: voicing-pair findings on a new
-    world that hygiene_problems() above deliberately does not block on."""
-    if not _voicing_pair_carve_out_active():
-        return []
+    """Findings hygiene_problems() above deliberately never blocks on, but
+    that should still be visible somewhere: the R-4 carve-out's own
+    voicing-pair findings on a new world (temporary - ends itself once
+    corpus-map lands a real pair), and every world's readability-floor
+    observations (permanent - gate_readability_floor's own docstring)."""
     lines = []
+    carve_out = _voicing_pair_carve_out_active()
     for world_key, checks in sorted(by_world.items()):
-        if world_key in GRANDFATHERED_WORLDS:
-            continue
-        findings = checks.get("m9:voicing-pair") or []
-        if findings:
-            lines.append(f"m9:voicing-pair/{world_key}: {len(findings)} finding(s) - report-only under R-4 (no real PAIRS.yaml pair yet)")
+        if carve_out and world_key not in GRANDFATHERED_WORLDS:
+            findings = checks.get("m9:voicing-pair") or []
+            if findings:
+                lines.append(f"m9:voicing-pair/{world_key}: {len(findings)} finding(s) - report-only under R-4 (no real PAIRS.yaml pair yet)")
+        for finding in checks.get("m1:readability-floor") or []:
+            lines.append(f"m1:readability-floor/{world_key}: {finding}")
     return lines
 
 
@@ -233,7 +292,7 @@ def main(argv: list[str] | None = None) -> int:
     observations = report_only(by_world)
 
     if observations:
-        print(f"{len(observations)} report-only observation(s) (R-4 carve-out):\n")
+        print(f"{len(observations)} report-only observation(s):\n")
         for line in observations:
             print(f"  {line}")
         print()

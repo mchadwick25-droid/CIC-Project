@@ -30,6 +30,10 @@ text: >-
   Suffer each one to eat and to drink, and according to the measure of their eating give them
   their work. And prohibit neither fasting nor eating; but only as the food for the strong is
   powerful, and is weak for the weak, give them also the food of their works.
+modern_rendering: >-
+  Allow each person to eat and drink, and give them work in proportion to how much they eat. Do not
+  forbid fasting, and do not forbid eating either; but just as food is strong for the strong and
+  weak for the weak, so also give them the food of their works.
 speaker_or_author: the angel of the Lord, in the Ethiopic recension of the Rule
 license: verbatim
 modern_lens_note: >-
@@ -52,7 +56,7 @@ relations:
 - type: associated-with
   target: desert.story.angel-hands-the-tablet
 ---
-Verified verbatim 2026-08-27 against the vendored file, Part I, p. 682.
+Verified verbatim against the vendored file, Part I, p. 682.
 
 This is the first provision on the iron tablet, and until this file was
 vendored this world could reach it only through Palladius. Holding both

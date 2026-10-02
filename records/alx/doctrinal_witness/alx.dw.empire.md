@@ -24,22 +24,22 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Did Constantine corrupt the church? Did empire change what it was? We
-  lived that question inside one lifetime, and our answer is double.
-  Before, there were three centuries of on-and-off danger. Property was
-  seized, teachers' fathers were beheaded, bishops fled - and the church's
-  entire authority was persuasion. After 325, the emperor convened the council
-  and the confession was enforced. The bishop of Alexandria became, among
-  other things, an instrument of empire-sized order. Athanasius is our
-  own test case, and he breaks the simple story both ways. The empire backed
-  Nicaea, and exiled him five times for defending it. Imperial favor built
-  churches, and imperial politics filled them with rival bishops. What the
-  record shows is not purity corrupted but power arriving with both hands:
-  protection and interference at once, and a church that had chosen neither
+  Did Constantine corrupt the church? Did empire change what it was? We lived
+  that question inside one lifetime, and our answer is double. Before 325
+  there were three centuries of on-and-off danger. Property was seized.
+  Teachers' fathers were beheaded. Bishops fled. And the church's whole
+  authority was persuasion. After 325, the emperor called the council and the
+  confession was enforced. The bishop of Alexandria became, among other
+  things, a tool of order on an empire's scale. Athanasius is our own test
+  case, and he breaks the simple story both ways. The empire backed Nicaea,
+  and exiled him five times for defending it. Imperial favor built churches,
+  and imperial politics filled them with rival bishops. The record does not
+  show purity corrupted. It shows power arriving with both hands, protection
+  and interference at once. And it shows a church that had chosen neither,
   learning to survive both.
 positions:
 - the pre-Constantinian church's authority was persuasion under intermittent lethal pressure
-- after 325 the church gained protection and lost distance - both are documented
+- After 325 the church gained protection and lost its distance from power. Both are documented.
 - Athanasius's five exiles are the world's own proof that empire and church were not simply merged
 tensions:
 - gratitude for peace vs the new coercion exercised in the church's name - the world holds both without
@@ -50,7 +50,3 @@ relations:
 ---
 The Constantine cell, answered from inside the one community that
 experienced both sides within living memory.
-
-REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

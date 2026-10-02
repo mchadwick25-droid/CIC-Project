@@ -1,10 +1,10 @@
-# Worker: Lutheran Wittenberg build thread, 2026-09-15. G1 Source
-# Acquisition Manifest pass (Atlas VI.1), vendored directly per the
-# V3 launch prompt's self-disposed G1 discipline.
+# G1 Source Acquisition Manifest pass (Atlas VI.1), vendored directly
+# per the V3 launch prompt's self-disposed G1 discipline.
 source_file: luther_bondage-of-the-will_cole1823.txt
 
 assignments:
-  - work: "Martin Luther on the Bondage of the Will"
+  - row_id: luther_bondage-of-the-will_cole1823--martin-luther-on-the-bondage-of-the-will
+    work: "Martin Luther on the Bondage of the Will"
     author: luther
     locus: "whole file"
     atlas_ids:
@@ -17,8 +17,8 @@ assignments:
       candidate gravity of grace/justification (Doc_01 §1) and a
       genuinely different register from the shorter 1520 treatises
       already vendored - a sustained, single-opponent theological
-      argument. Confidence held at provisional, not assigned, because
-      this file's own OCR quality (see REGISTRY.yaml note) has not yet
-      been spot-checked at the specific passages Doc_02/Doc_04 would
-      actually cite - each citation needs its own character-by-character
-      re-verification before use, not a one-time general clearance.
+      argument. Confidence held at provisional, not assigned: this
+      file's own OCR quality (see REGISTRY.yaml note) means each
+      citation needs its own character-by-character re-verification
+      against the vendored text before use, not a one-time general
+      clearance.

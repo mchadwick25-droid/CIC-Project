@@ -25,8 +25,9 @@ text: >-
 modern_rendering: >-
   There are two ways: one of life and one of death, and there is a great
   difference between the two ways. The way of life is this. First, you shall
-  love God, who made you; second, your neighbor as yourself. And whatever you
-  would not want to happen to you, do not do to another.
+  love God, who made you; second, your neighbor as yourself. And all the
+  things you would not want to happen to you, you also must not do to
+  another.
 speaker_or_author: the manual known as the Didache, or the Teaching of the Twelve Apostles
 license: verbatim
 modern_lens_note: >-
@@ -41,7 +42,7 @@ relations:
 - type: associated-with
   target: pahc.witness.hard-texts
 ---
-Opened 2026-08-27 for F2-P, which pahc.witness.hard-texts served alone and without a quote.
+This quote serves F2-P together with pahc.witness.hard-texts.
 
 The witness answers a participant troubled by hard texts by saying, honestly, that nobody in this
 world wrote down being troubled - and then reaches for Marcion, an outsider, as the nearest
@@ -50,4 +51,4 @@ front of someone at the beginning. The Didache's own locus is already cited by t
 (chs. 1-6, the Two Ways as the primary catechetical frame); this opens the sentence behind the
 citation.
 
-MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+The modern rendering is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3.

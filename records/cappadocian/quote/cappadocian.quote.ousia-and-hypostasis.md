@@ -49,13 +49,13 @@ relations:
 - type: associated-with
   target: cappadocian.dw.was-jesus-god
 modern_rendering: >-
-  Here is what I mean. What is spoken of in a special, particular way is
-  named by the word hypostasis. Suppose we say "a human being" - the word is
-  vague; it points to the nature in general, but not to any one particular
-  person who exists. Suppose instead we say "Paul." Now, by the name itself,
-  we point to a particular, existing nature.
+  My statement, then, is this: what is spoken of in a special and particular way is
+  indicated by the name hypostasis. Suppose we say "a man." The word's indefinite meaning
+  strikes the ear only vaguely. It indicates the nature, but what subsists -- what is
+  specially and particularly indicated by the name -- is not made plain. Suppose instead
+  we say "Paul." By what the name indicates, we set forth the nature subsisting.
 ---
-Verified verbatim 2026-08-31 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter XXXVIII, sec. 3, immediately
 following the letter's own opening genus/species illustration - "Peter, for
 instance is no more man, than Andrew, John, or James" - which sets up this
@@ -77,7 +77,4 @@ its own transmitted position within Basil's corpus while naming the real
 attribution dispute explicitly, rather than picking a side the record's own
 sources do not let it settle.
 
-MODERN RENDERING AUTHORED (2026-08-31, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

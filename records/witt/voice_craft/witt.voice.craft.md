@@ -38,7 +38,7 @@ guard: "If the fitting image does not come from what actually formed us, we do n
 ---
 B-7 (S2.7) voice_craft record for the Lutheran Wittenberg world, converted from the APPROVED Doc_10
 Permanent Prompt (World-Builds/Lutheran-Wittenberg/witt_Representative_Permanent_Prompt_Nikolaus.txt,
-APPROVED TO PROCEED 2026-09-19 per witt_Doc_10_Representative_Construction_Notes_Nikolaus.md, Round-1
+APPROVED TO PROCEED per witt_Doc_10_Representative_Construction_Notes_Nikolaus.md, Round-1
 review's two substantial findings resolved and disclosed there). Field mapping, following gallic.voice.craft's
 and cappadocian.voice.craft's own discipline:
 
@@ -79,7 +79,7 @@ and cappadocian.voice.craft's own discipline:
   from the prompt's own outside-name paragraph (25), Construction Notes' Scholarly-Framework Probe
   (Section 7: "forensic justification" translated rather than adopted), and Construction Notes' own Named
   Comparanda paragraph (Section 2, Approved Source Anchoring: the Worms "Here I stand" Carlyle rendering,
-  Registry R69, "misattributed to the library's own Table Talk text in an earlier draft" per Doc_09
+  "misattributed to the library's own Table Talk text in an earlier draft" per Doc_09
   witt-S03's own correction note); "honest-limits" from the prompt's own thin-domains paragraph (31)
   carried nearly verbatim, per witt.core.witt's own body note that this same paragraph already cleared
   the identical voice-perspective bar once.
@@ -118,34 +118,6 @@ and cappadocian.voice.craft's own discipline:
   and the 1525/1543 existence-only discipline (witt.core.witt.thinness/.cautions/.thin_topics, and
   Construction Notes Section 3's own three-state correction history on this exact point).
 
-QUOTE / DOCTRINAL_WITNESS GAP (HISTORICAL - CLOSED at the Answer-the-Canon pass, 2026-09-19; corrected
-go-live adversarial review, Round 1, L-4, 2026-09-20). At the time this B-7 record was first authored,
-this world's store held zero quote records and zero doctrinal_witness records (records/witt/quote/ and
-records/witt/doctrinal_witness/ did not yet exist) - the same situation gallic.voice.craft's and
-cappadocian.voice.craft's own B-7 found and documented, before either world's own later Answer-the-Canon
-pass closed it. This is no longer the current state: this world's store now holds 7 quote records and 14
-doctrinal_witness records, and the "quotation" flavor note above (identity/flavor_notes) already reads
-the corrected, current wording ("real now, once the Answer-the-Canon pass closed our own former quote
-gap"). The paragraph below is kept as the historical record of what B-7 actually faced and why its own
-nine demonstrations cite only term/story/figure/gravity/force/contested_claim records in sources[] - the
-ijc/cappadocian/gallic B-7 pattern, run here for the identical reason - not as a description of this
-world's current store.
-
-Consequence carried into the compiled fields above, AT THAT TIME: the "quotation" flavor note barred
-verbatim quotation outright (there was no vetted wording to speak in quotation marks), and every
-demonstration in this same batch cited only term/story/figure/gravity/force/contested_claim records in
-sources[]. The gap itself was flagged for the build thread; it was out of B-7's own scope to author those
-record types. Specific items this world's own record already named that had no term, story, quote, or
-doctrinal_witness record behind their exact wording anywhere in this world's store at that time: the
-founder's own remembered saying about the tiles (the only material this world's own guard permits for
-speaking of Worms at all, per Construction Notes Section 2A's Named Comparandum resolution) and
-Vincent-class attributed material generally - standing instruction in the prompt and this record, compiled
-from here, but uncited by any B-7 demonstration for want of a quote/doctrinal_witness record to ground it.
-The tiles saying itself remains grounded only in witt.story.worms-1521 (a story record, quoted there
-verbatim against cic/texts/luther_table-talk_bell1886.txt), not in a dedicated quote/doctrinal_witness
-record of its own - checked directly (`grep -rl "tiles" records/witt/quote/ records/witt/doctrinal_witness/`
-returns no hits) rather than assumed closed alongside the general gap.
-
 CANON CELLS COVERED BY THIS BATCH'S DEMONSTRATIONS (nine): F6-P (someone-like-me, the required
 identity-collision cell), F4-I (the-way-in), F1-T (faith-alone; bread-and-cup), F3-I (who-held-authority),
 F2-T (scripture-alone), F5-I (women-own-words), F6-E (true-priests-by-no-ordination), F2-E
@@ -160,7 +132,7 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   demonstration built without any doctrinal_witness or quote record behind it would be exactly the kind
   of manufactured content the gap note above warns against; left for the Answer-the-Canon pass that closes
   the quote/doctrinal_witness gap, per the Gallic/Cappadocian precedent naming the same class of decline.
-  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19): C-I and C-P were
+  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8): C-I and C-P were
   already covered by witt.term.justification/witt.term.promise-and-testament/witt.term.sacrament-of-the-
   altar and witt.term.christ-alone respectively, predating that pass; C-E and C-T were the two genuinely
   blank Christological cells, now closed by witt.quote.second-article-of-the-creed and its own paired
@@ -183,7 +155,7 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   limit the record actually supports.
 - F3-E-03/F3-E-04 (an outsider's account, what neighbours said). No outsider witness survives among this
   world's built story or figure records at the time of this authoring pass. Declined rather than forced.
-  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19) with
+  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8) with
   witt.limit.no-outsider-witness, an honest_limit record confirming this same finding directly rather than
   forcing an answer: no independent outsider witness exists anywhere in this world's library, only the
   Roman Confutation reaching us at one remove through our own Apology. The cell's other two
@@ -194,7 +166,7 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   witt.term.sin) but were not independently read and verified by this authoring pass; rather than cite an
   unverified record's exact claims, these cells are left for a future demonstration batch. This is a
   batch-scope decision, not a finding that this world's own record cannot ground them.
-  PARTLY CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19): F1-T-01,
+  PARTLY CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8): F1-T-01,
   F4-T-01, and F4-T-04 are now independently verified and closed by witt.quote.article-ii-of-original-sin
   (F1-T-01, paired with witt.dw.born-in-sin-fed-at-the-table), and by witt.quote.article-ix-of-baptism and
   witt.quote.article-ii-of-original-sin's own baptism/new-birth clause together (F4-T-01, F4-T-04, paired
@@ -234,36 +206,3 @@ across time (the must/free reversal) or in the confession's own text (the justif
 the two-governments historical-scope contest). Both are real, load-bearing, and this world's own - not a
 weaker copy of Gallic's pattern, but the same discipline applied to a different ecology's own actual
 shape, exactly as this record's own task brief asked to be named if it came up.
-
-CORRECTION (go-live adversarial review, Round 1, 2026-09-19; B-1, BLOCKING): the `guard` field's own
-1525/1543 sentence and the `honest-limits` flavor_note's own parallel sentence both licensed this
-Representative's own voice to state the 1543 treatise's content ("whose seven measures we can state
-when asked" / "we state it exists and what it says") - directly reversing a Standing determination
-already settled in Doc_07 SS9/SS12 item 7 and Doc_08 SS11 item 7 (the disclosure's own *content* is
-Facilitator-carried, never the Representative's), and independently caught once already at Doc_10
-Round 1 review (`witt_Doc10_Review_Round1.md`; `Open_Gaps_Tracking.md` OG-15) - that correction never
-propagated from the approved `witt_Representative_Permanent_Prompt_Nikolaus.txt` (paragraph 31) into
-this compiled record. Worse, no record anywhere in this world's own store holds the treatise's actual
-content, so voicing it could only ever come from parametric memory, never a real citation. Fixed by
-porting the Permanent Prompt's own exact, already-approved language directly (existence acknowledged,
-argument not laid out, matching 1525's own treatment exactly) rather than re-paraphrasing. The adjacent
-1525 sentence, split apart from the 1543 sentence during this same record's own 2026-09-19 readability-
-budget rewrite (commit `46850d8d`), was left with no instruction of its own at that point (review
-finding H-1) - corrected in the same edit, not left stranded next to the fix it was found beside.
-
-CORRECTION (go-live adversarial review, Round 1 re-confirmation pass, 2026-09-19; H-1, project-lead
-reconciliation): the first B-1 fix gave the `guard` field's 1525 clause a real instruction ("our record
-is silent on it, and we do not fill that silence"), but that instruction was itself factually inaccurate
-- `records/witt/force/witt.force.absent-inputs-1525-and-1555.md`'s own head text carries a real, if
-tertiary-sourced and undocumented, Layer-1 characterization of the 1525 tracts (the three-sins charge,
-the call on the princes to put the rebels down by force, the timing - Widely Accepted as to content, NOT
-DOCUMENTED, no phrase quoted, R94). The library is not silent on 1525; it holds real content the
-Representative has no license to voice (Doc_07 SS9/SS12 item 7, Doc_08 SS11 item 7 - content is
-Facilitator-carried, never the Representative's). The project lead's own reconciliation, chosen from
-named alternatives: reframe both 1525 clauses (`guard` and the `honest-limits` flavor_note, the latter
-carrying the identical "our record says nothing" claim untouched by the first B-1 fix) to the same "real,
-part of our history, never denied - but its own argument is not ours to lay out" shape already used for
-1543, rather than a blanket silence claim. `worlds/witt/witt_Representative_Permanent_Prompt_Nikolaus.txt`
-paragraph 31 - the approved source every compiled field here ports from - carried the same inaccurate
-"our record is silent" sentence for 1525 and is corrected in the same reconciliation, as a named change
-order against a frozen, approved document, not a quiet edit.

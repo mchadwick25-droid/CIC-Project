@@ -84,6 +84,8 @@ relations:
   target: gallic.story.the-three-lentil-beans
 - type: associated-with
   target: gallic.figure.cassian
+- type: associated-with
+  target: gallic.quote.martin-allow-me-dear-brother
 name: "The interior road: purity of heart, discretion, the faults [SUPPORTING]"
 classification: supporting
 description: >-

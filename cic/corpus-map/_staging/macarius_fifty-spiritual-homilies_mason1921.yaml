@@ -1,9 +1,10 @@
-# Worker notes, 2026-09-02. Internet Archive scan, no ThML markup - author
+# Internet Archive scan, no ThML markup - author
 # slug from filename, matching AUTHORS.md's `macarius`. Already cited by
 # two desert quote/source records before this assignment existed.
 source_file: macarius_fifty-spiritual-homilies_mason1921.txt
 assignments:
-- work: Fifty Spiritual Homilies of St. Macarius the Egyptian
+- row_id: macarius_fifty-spiritual-homilies_mason1921--fifty-spiritual-homilies-of-st-macarius-the-egyptian
+  work: Fifty Spiritual Homilies of St. Macarius the Egyptian
   author: macarius
   locus: whole file
   atlas_ids:
@@ -11,7 +12,7 @@ assignments:
   role: tradition
   confidence: assigned
   note: >
-    RULED, Mark, 2026-09-02: confirmed assigned. The attribution itself
+    Confirmed assigned. The attribution itself
     is genuinely contested (traditional "Macarius the Egyptian" vs.
     modern scholarship's "Pseudo-Macarius," likely 4th-5th c. Syrian,
     tied to the Messalian movement - the file's own header states both

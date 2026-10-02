@@ -25,6 +25,15 @@ text: 'Damasus and Ursinus, being both immoderately eager to obtain the bishopri
   that on one day one hundred and thirty-seven dead bodies were found in the Basilica of Sicininus, which
   is a Christian church. And the populace who had been thus roused to a state of ferocity were with great
   difficulty restored to order.'
+modern_rendering: >-
+  Damasus and Ursinus both wanted the bishopric so badly that they formed rival parties
+  and fought each other bitterly. Each side's followers carried their violence all the way
+  to actual battle, in which men were wounded and killed. Juventius could not end these
+  disorders, or even calm them. Their violence finally forced him to withdraw to the
+  suburbs. In the end, Damasus won the struggle through his followers' vigorous efforts.
+  It is certain that on one day, one hundred and thirty-seven dead bodies were found in
+  the Basilica of Sicininus, which is a Christian church. The people, who had been stirred
+  up to such fury, were restored to order only with great difficulty.
 speaker_or_author: "Ammianus Marcellinus, Res Gestae XXVII.3 (a pagan historian's outside account of the 366 election)"
 license: verbatim
 modern_lens_note: >-
@@ -33,7 +42,7 @@ relations:
 - {type: illustrates, target: ijc.figure.damasus}
 - {type: associated-with, target: ijc.quote.socrates-damasus-election}
 ---
-Text verified verbatim against the vendored file 2026-09-13, from a
+Text verified verbatim against the vendored file from a
 raw djvu OCR scan (two mechanical corrections made against the scan's
 own visible artifacts, not the text itself: "1 2." and "1 4."-style
 paragraph-number splits closed to "12."/"14.", and no other correction

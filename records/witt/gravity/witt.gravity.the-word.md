@@ -86,35 +86,59 @@ relations:
   target: witt.figure.luther
 name: 'The Word: Scripture''s authority, and the agent that "must do it" [PRIMARY]'
 classification: primary
-description: 'Scripture''s authority against pope, councils and ''doctrines of men,'' stated in two senses
-  this world''s own texts keep distinct without separating: an authority sense -- ''it is a wickedly invented
-  fable... that the interpretation of Scripture or the confirmation of its interpretation belongs to the
-  pope alone... the keys were not given to Peter alone, but to the whole community'' (v2 2384-2390) --
-  and a restraint sense, tested first per Doc_03 3.1: ''the Word must do this thing, and not we poor sinners''
-  (v2 14917-14918); ''I did nothing; the Word did it all'' (14931). SIX-TEST SUMMARY (Doc_04 §3 G2): Repetition
-  passes across seven streams, six of eight coded Luther registers (disputation and conversation absent);
-  Dependency passes -- G3 (Word joined to element), G4 (the catechism as ''epitome of the entire Holy
-  Scriptures''), G7 (office defined as ministry of the Word), G8 (the restraint sense is G8''s own warrant),
-  G12 (the Word as weapon) each state their dependence explicitly; Formation passes as program, Inferential-Thin
-  as reception; Explanatory passes broadly -- the polemical register''s whole structure, the definition
-  of a sacrament, the Confession''s condemnation of the Anabaptists, and the world''s print pattern all
-  trace to it; Persistence passes 1517-1531 and into the 1539/1543 prefaces, carrying a register difference
-  (sharp vs. Melanchthon''s additive ''Scriptures... and the Church Catholic,'' AC 631-633) that Doc_04
-  reads as one rule stated two ways, not two rules; Interaction passes, reinforcing G1, G3, G4, G5, G7,
-  G9, G11, G12, reshaping G6 and G10, competing with G8 and G13 -- the G2-G8 competition is this ecology''s
-  sharpest internal tension. EVIDENTIAL CONFIDENCE: Documented -- the best-attested term in the library.
-  CLASSIFICATION: PRIMARY; the force most other candidates state their own dependence on. CONFIDENCE/GRAVITY
-  CROSS-CHECK: agree; no divergence. Register-and-voice spread: 4/4, with Karsthans''s fictional peasant
-  demanding ''the divine truth in our language'' as the non-founder trace. Reception-side status: not
-  attested beyond Wittenberg''s own congregation, which the founder himself says has ''the pure Word of
-  God'' (v2 14744-14745). FORCES-CONNECTION NOTATION (Doc_04 §3 G2; Doc_08 §5): generated as the refusal
-  of papal authority to bind conscience apart from Scripture, turned positive [1A-2 with 1A-1]; intensified
-  into the sharp ''under the bench'' form under the bull and the Leipzig polemic [2A-1]; reshaped twice
-  under the reform''s own internal pressure -- in 1522 into the restraint of ''jus verbi... but not executio''
-  against Karlstadt''s pace, and in 1529-31 into an explicitly external Word (AC V) against the ''new
-  spirits'' [2B-1]; stated additively before the Emperor [2A-2]; is ''the thing printed'' [1A-3/2B-2,
-  beyond Doc_04]; and supplies the criterion (''the external Word'') at the world''s own internal edge
-  at the window''s close [3B-1].'
+description: 'Scripture''s authority stands against pope, councils and "doctrines of men." This world''s own texts state it in
+  two senses, which they keep distinct but never separate.
+
+  The first is a sense of authority: ''it is a wickedly invented fable... that the interpretation of Scripture or
+  the confirmation of its interpretation belongs to the pope alone... the keys were not given to Peter alone, but
+  to the whole community'' (v2 2384-2390). The second is a sense of restraint: ''the Word must do this thing, and
+  not we poor sinners'' (v2 14917-14918). And: ''I did nothing; the Word did it all'' (14931).
+
+  It appears across seven separate lines of evidence, and in six of the eight registers into which Luther''s
+  writings are sorted. Only disputation and conversation lack it.
+
+  Five other gravities state outright that they depend on it. Promise and sign depends on it because the Word is
+  joined to the element, and the household catechism because the catechism is the "epitome of the entire Holy
+  Scriptures." Estate, office, and calling depends on it because office is defined as the ministry of the Word.
+  "Must" and "free" depends on it because the sense of restraint is its own warrant, and embattled Christendom
+  because the Word is the weapon.
+
+  It shaped the world as a program, though how people received it is only a thin inference.
+
+  Much of this world''s shape traces back to it: the whole structure of the polemical writings, the definition of
+  a sacrament, the Confession''s condemnation of the Anabaptists, and the pattern of what this world printed.
+
+  It lasts from 1517 to 1531 and on into the prefaces of 1539 and 1543, though the tone differs across that time.
+  One form is sharp, while Melanchthon''s form adds to Scripture: "Scriptures... and the Church Catholic" (AC
+  631-633). But this reads as one rule stated two ways, not as two rules.
+
+  It strengthens many other gravities: justified by faith alone, promise and sign, the household catechism, and
+  the terrified and comforted conscience. It also strengthens estate, office, and calling, vows, chastity, and
+  marriage, German for the people, and embattled Christendom. It reshapes the two governments and the bodily
+  presence in the Supper, and it competes with "must" and "free" and with hearers and repeaters of words. The pull
+  between the Word and "must" and "free" is the sharpest tension inside this world.
+
+  It is well documented; in fact, it is the best-attested term in the library.
+
+  This stands among the convictions this account treats as most central, since most of the other candidates state
+  that they depend on it. Nothing in the record falls short of that. The voice from outside the founders is
+  Karsthans''s fictional peasant, demanding "the divine truth in our language."
+  Its reception is not attested beyond Wittenberg''s own congregation, which the founder himself says has "the
+  pure Word of God" (v2 14744-14745).
+
+  It began as a refusal: the papacy claimed the authority to bind conscience apart from Scripture, and this world
+  refused that claim, then turned the refusal into a positive teaching. It grew from the early papal pressure,
+  inside the imperial frame. Later papal pressure, under the bull and the Leipzig polemic, sharpened it into the
+  harsh "under the bench" form.
+
+  The reform''s own radicals reshaped it twice. In 1522, set against Karlstadt''s pace, it became the restraint of
+  the Word, keeping its right to be preached but not the power to enforce it. In 1529-31, set against the "new
+  spirits," it became an explicitly external Word (AC V).
+
+  Under the Emperor''s ongoing pressure, it was stated in the additive form, adding "the Church Catholic" beside
+  Scripture without changing the underlying rule. Through print as a medium, and through handing on within the
+  world''s own life, it is "the thing printed." At the close of the period, when the world''s own inner fracture
+  was fenced off, it supplies the test at the world''s own internal edge: "the external Word."'
 manifestations:
 - '"it is a wickedly invented fable... that the interpretation of Scripture or the confirmation of its
   interpretation belongs to the pope alone... the keys were not given to Peter alone, but to the whole

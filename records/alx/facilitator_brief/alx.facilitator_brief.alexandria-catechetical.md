@@ -273,9 +273,7 @@ redirect_notes:
   - alx.limit.marriage
   - alx.demo.marriage-ending
 ---
-Authored 2026-09-19, the second facilitator_brief record built in this
-fleet, following the syr pilot (`records/syr/facilitator_brief/
-syr.facilitator_brief.syriac-edessa-nisibis.md`, merged). Migrates the
+Migrates the
 curatorial substance of this world's own hand-authored World Facilitation
 Brief (`worlds/alx/Alexandria_Facilitation_Brief_v1_0.md`, Section
 B1-B5/B7) into this record-native type, but does NOT carry forward that
@@ -312,21 +310,6 @@ consistent; the "Catechetical School" institutional caution was checked
 against `alx.contested.didaskaleion-institution` and found consistent.
 The living-tradition claim was checked most carefully, below.
 
-LIVING TRADITION, checked against `worlds/alx/Open_Gaps_Tracking.md`
-(OG-1) as well as M1 records, since the source document's own B7 cites a
-specific project-lead act ("Article 29 Living Tradition Status is
-CONFIRMED, project lead, 2026-07-17"). OG-1 confirms this really
-happened as a dated project-lead act naming the Coptic Orthodox Church -
-so this is corroborated, not a fabrication risk, though `Open_Gaps_
-Tracking.md` is not itself an M1 record this field can cite in
-`grounded_in`. The M1 record `alx.force.chalcedonian-fracture` independently
-names the Coptic stream by name as the party to this world's own
-fracture line, and its own trailing note calls the further living-heir
-question "Mark's touchpoint, not this record's" - read here as this
-record deferring confirmation elsewhere (which OG-1 supplies), not as
-disputing it. `living_tradition_handling` above is grounded in this
-record plus `alx.dw.one-church`, without citing the tracking document.
-
 DELIBERATELY NOT CARRIED FORWARD, exactly the case this task's own
 instructions anticipated for a claim that is simply unsupported (not
 contradicted):
@@ -349,8 +332,7 @@ contradicted):
    scholarly-framework probes from-inside" and the whole of B7's
    "Boundary testing: cleared conditionally, fixes applied" caution.
    `worlds/alx/Open_Gaps_Tracking.md` documents that this testing really
-   happened (Phase 5 Boundary Testing, Round 1 conditional clear, Round
-   2 full clear) - but, exactly as for the syr pilot, no M1 record
+   happened - but, exactly as for the syr pilot, no M1 record
    exists under `records/alx/` for it. Per this task's own grounding
    rule (real record ids under `records/alx/` only), this content is
    left out of `participant_type_fit` and `cautions` entirely, not
@@ -455,7 +437,7 @@ grounded in `alx.voice.craft`'s own self-reference flavor note (the
 strict we-voice ruling and its one sanctioned exception, verified
 against `alx.demo.someone-like-me`'s own use of exactly that exception);
 the Eusebius-screen item grounded in `alx.core.alexandria`'s own
-`cautions` field (its "EUSEBIUS SCREEN" item) and `alx.gravity.
+`cautions` field (its Eusebius item) and `alx.gravity.
 teacher-bishop-tension`'s own body note (confirmation rests on
 structural coexistence, never on Eusebius-mediated particulars).
 (`cautions` entries are plain strings per the schema, with no
@@ -470,8 +452,7 @@ boundary statement, and its own tension entry naming the heir question
 as the facilitator's, not the voice's).
 
 `redirect_notes`: grounded in `alx.limit.marriage` (the untranslated
-Stromateis III gap, corrected 2026-09-08 per that record's own body note
-to state a translation-policy gap rather than a manuscript-loss story)
+Stromateis III gap, a translation-policy gap rather than a manuscript-loss story)
 and `alx.demo.marriage-ending` (the demonstration record that actually
 performs this exact handoff: "the heart... the finer grain we must leave
 in the sources rather than guess at").

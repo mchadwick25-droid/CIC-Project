@@ -1,4 +1,4 @@
-# Vendored 2026-08-27, supplied by Mark. Volume 1 of the same Budge Paradise.
+# Volume 1 of the same Budge Paradise.
 source_file: palladius_paradise-v1-syriac_budge1907.txt
 authors_ruled:
   budge:
@@ -13,7 +13,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Paradise of Palladius, Book I (Syriac recension)
+- row_id: palladius_paradise-v1-syriac_budge1907--the-paradise-of-palladius-book-i-syriac-recension
+  work: The Paradise of Palladius, Book I (Syriac recension)
   author: palladius
   locus: from "The Paradise of Palladius"; sixty-six chapters, including Chapter xxxv "The Triumphant
     Deeds and Exploits and Histories of Holy Women"
@@ -32,7 +33,8 @@ assignments:
     gap.
 
     '
-- work: The Life of Saint Anthony by Athanasius (Syriac recension)
+- row_id: palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension
+  work: The Life of Saint Anthony by Athanasius (Syriac recension)
   author: athanasius
   locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about 14,800 words
   atlas_ids:
@@ -47,7 +49,8 @@ assignments:
     demonstrably variable between traditions is worth a participant knowing.
 
     '
-- work: Budge's Preface and Introduction to the Paradise (1907)
+- row_id: palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907
+  work: Budge's Preface and Introduction to the Paradise (1907)
   author: budge
   locus: the opening front matter - the Mosul manuscript's discovery and contents, and Palladius'
     life and travels

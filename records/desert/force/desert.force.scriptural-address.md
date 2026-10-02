@@ -42,9 +42,7 @@ kind: initiating maps Doc_08's own Cell 1B (initiating/internal); the
 cell code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 1 review Finding M2: divergence_note attributed the Vita's
-incident-level Contested rating to "Doc_01 SS10" - the actual rating is
-Doc_02 SS1.1's - corrected above. Finding M8: manifestations[1]'s
-"sayings tradition" claim registered no source for it -
-desert.source.apophthegmata-patrum added above, with that source's own
+divergence_note attributes the Vita's incident-level Contested rating
+to Doc_02 SS1.1. desert.source.apophthegmata-patrum is registered for
+manifestations[1]'s "sayings tradition" claim, with that source's own
 compiler screen carried in both its locus and the manifestation itself.

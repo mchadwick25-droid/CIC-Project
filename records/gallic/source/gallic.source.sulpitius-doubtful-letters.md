@@ -11,9 +11,9 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: Genuineness contested by tradition (hence 'Doubtful'); this world's own build ruled
-    2026-08-26 to carry both the attributed name and the pseudepigraphal-literature classification rather
-    than choosing one, per the Registry's own disclosure discipline.
+  divergence_note: Genuineness contested by tradition (hence 'Doubtful'); this world's own build carries
+    both the attributed name and the pseudepigraphal-literature classification rather than choosing one,
+    per the Registry's own disclosure discipline.
 sources: []
 relations: []
 author: Sulpitius Severus (attributed)

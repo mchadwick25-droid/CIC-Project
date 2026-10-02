@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   Be on your guard, therefore, against such persons. And this will be the case with you if you are not puffed up, and continue in intimate union with Jesus Christ our God, and the bishop, and the enactments of the apostles.
+modern_rendering: >-
+  So be on your guard against such people. This will be true for you if you are not puffed
+  up with pride, and if you continue in close union with Jesus Christ our God, with the
+  bishop, and with the apostles' teachings.
 speaker_or_author: Ignatius of Antioch, to the Ephesians
 license: verbatim
 modern_lens_note: >-
@@ -35,9 +39,9 @@ relations:
 - type: associated-with
   target: pahc.witness.jesus-as-god
 ---
-Opened 2026-08-27 for C-T, served by pahc.witness.jesus-as-god alone. That witness says Ignatius
+This quote serves C-T together with pahc.witness.jesus-as-god, which says Ignatius
 "calls Jesus Christ our God again and again - in how he opens his letters and in how he closes
-them" and had no quote to show it.
+them".
 
 One instance is quoted rather than a catalogue, and it is deliberately one from the middle of a
 letter rather than a salutation: the witness's own claim is that the phrase is habitual, and a

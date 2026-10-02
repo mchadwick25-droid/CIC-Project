@@ -31,6 +31,12 @@ text: >-
   cannot be believed to have within him a greater and a less, but is such that He is in all parts
   Μονάς, and, so to speak, ῾Ενάς, and is the mind and source from which all intellectual nature or
   mind takes its beginning.
+modern_rendering: >-
+  So we must not think of God as a body, or as existing inside a body. God is an uncompounded
+  intellectual nature. Nothing can be added to him in any way. So we cannot believe that he has
+  within him a greater part and a lesser part. He is, in every part, Μονάς -- and, so to speak,
+  ῾Ενάς. He is the mind and the source from which every intellectual nature, every mind, takes its
+  beginning.
 speaker_or_author: Origen, in Rufinus' Latin of De Principiis
 license: verbatim
 modern_lens_note: >-
@@ -53,17 +59,14 @@ relations:
 - type: associated-with
   target: desert.gravity.evagrian-systematization
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 22800.
-DISCLOSED: the ANF prints the Latin "Simplex intellectualis natura" as
+Verified verbatim against the vendored file at line 22800.
+The ANF prints the Latin "Simplex intellectualis natura" as
 an inline editorial note after "uncompounded intellectual nature"; the
 note is excised.
 
-Quote-verbatim gate fix (2026-09-22): the record had transliterated the source's Greek Μονάς/῾Ενάς
-into Latin letters ("Monas"/"Henas") - a real character substitution, not one of the ruled allowed
-classes. Restored the source's own Greek script exactly (including its polytonic accent forms, which
-differ at the codepoint level from the modern monotonic accented letters one would type by default).
-The concept and its gloss are unchanged; only the script the word is shown in changed back to the
-source's own.
+The text field carries the source's own Greek script for Μονάς/῾Ενάς exactly, including its
+polytonic accent forms (which differ at the codepoint level from the modern monotonic accented
+letters one would type by default), not a Latin-letter transliteration ("Monas"/"Henas").
 
 Registered because desert.force.origenist-controversy could say a fight
 happened and could not say what about. This is the content. It is the

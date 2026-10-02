@@ -15,8 +15,7 @@ confidence:
     DIVERGENT ACROSS THREE, NOT TWO, EVIDENTIARY TIERS - Doc_04 SS3.5 names this the sharpest such divergence
     in the whole gravity-discovery document, and it is carried here at that strength rather than flattened.
     TIER ONE, bare EXISTENCE: Documented on independent imperial legislative attestation, directly confirmed
-    against the law's own text (CTh 16.5.52, vendored 2026-09-07; the correction from an earlier stale 'remains
-    unvendored' claim was made 2026-09-08 by an independent maturity-gap audit). TIER TWO, the agonistici
+    against the law's own text (CTh 16.5.52, vendored). TIER TWO, the agonistici
     SELF-DESIGNATION: reaches this record only through Augustine's own report of it, treated as reliable reportage
     per Doc_02 SS6 but NOT evidentially on par with the independent existence claim, so carried at a lower
     tier than Documented for anything beyond the bare fact that the group called itself this; the world_core's
@@ -58,47 +57,67 @@ relations:
 name: Circumcellion / agonistici [SUPPORTING - scope-qualified to the Numidian regional sub-ecology]
 classification: supporting
 description: >-
-  Classified SUPPORTING FOR THE NUMIDIAN REGIONAL SUB-ECOLOGY SPECIFICALLY, and NOT for this world's ecology
-  as a whole (Doc_04 SS3.5, SS4). The scope qualifier is part of the classification, not a caveat attached
-  to it. AUTHOR-GRAVITY RISK FLAGGED AT GENERATION (Doc_04 SS1, D-A): HIGH on character and scale, Augustine/Optatus-mediated.
-  Doc_03 SS0's own three-way distinction is carried forward rather than flattened - bare existence is Low-risk
-  on independent imperial legislation, while the agonistici self-designation reaches this record only through
-  Augustine's report and is not evidentially on par with a genuinely non-mediated source, even though Doc_02
-  SS6 treats Augustine as a reliable reporter of that specific fact. SIX-TEST REASONING CARRIED IN FULL (Doc_04
-  SS3.5), and the test results here are mixed by design. REPETITION - PASS on recurrence, with a caveat: recurs
-  in Optatus, Augustine, Boyd's corroborating history, and imperial legislation - but all evidentiary weight
-  beyond bare existence and self-designation is hostile-mediated, per Doc_03's own sharpened finding that
-  even the agonistici self-designation term reaches this record only through Augustine's report. DEPENDENCY
-  - FAILS ecology-wide; PARTIAL PASS regionally: at the world level the purity, rebaptism, martyr-cult and
-  parallel-hierarchy gravities do not structurally depend on this phenomenon for their own operation - it
-  is a phenomenon WITHIN the ecology, not a force the wider ecology organises around; confined to Numidia,
-  the Maximianist suppression's own reported Circumcellion involvement does trace through this same channel,
-  so a narrower regional dependency is real, though it too remains hostile-mediated rather than independently
-  confirmed. FORMATION - FAILS ecology-wide; PASSES regionally: Doc_01 SS2's Geographic Centers names Numidia
-  specifically as this group's origin and associated region, and within that regional milieu a rural, itinerant
-  social formation is plausibly shaped by the phenomenon - but nothing in the vendored record extends that
-  formative reach to Carthage, Cirta, or Hippo. EXPLANATORY - FAILS ecology-wide; PARTIAL PASS regionally:
-  explains some specific imperial legislative attention (CTh 16.5.52) and some Maximianist-affair detail,
-  both narrowly regional or episode-specific; it does not explain the movement's central self-understanding
-  or its basic institutional shape at the ecology level, and Doc_04 does not claim it does. PERSISTENCE -
-  FAILS for ecology-wide claims; PASSES for the Numidian sub-ecology: Doc_01 SS2 names Numidia specifically
-  as the origin region of the phenomenon - a regionally concentrated thing on this world's own boundary-document
-  terms, not one attested evenly across Carthage, Cirta and Hippo. INTERACTION - PASS: interacts with the
-  refusal gravity, being the direct target of specific imperial legislation, and with the Maximianist tension
-  through the suppression's reported involvement. WHY SUPPORTING AND SCOPE-QUALIFIED RATHER THAN PRIMARY OR
-  ECOLOGY-WIDE SUPPORTING (Doc_04 SS3.5's own disposition): a candidate this evidentially divided - a well-attested
-  bare fact, an Augustine-mediated but reliable specific term, and a contested, largely hostile-mediated character
-  claim - should not be classified Primary or ecology-wide Supporting regardless of how vividly the hostile
-  sources describe it. Doc_04 states that as exactly the discipline the Confidence/Gravity Cross-Check exists
-  to enforce. CROSS-VOICE TEST (Doc_04 SS5): this is the ONE candidate that most clearly FAILS a strict cross-voice
-  standard for anything beyond bare existence and self-designation - no Donatist-voiced or non-mediated text
-  in this world's vendored corpus corroborates the group's character, scale, or typical conduct. Doc_04 names
-  this the artificially-confirmed risk the test exists to catch, and the direct evidentiary basis for refusing
-  an ecology-wide classification. FORCES-CONNECTION (Doc_04 SS3.5; Doc_08 SS5, Force Index row D-A): Cell
-  2A - the direct object of oscillating imperial legislation naming the group; Cell 2B - the Maximianist suppression's
-  own reported, hostile-mediated Circumcellion involvement. Both Doc_04 and Doc_08 state plainly that no clean
-  forces-connection is assertable beyond what the hostile record itself supplies, which neither document treats
-  as settled, and this record does not extend it either.
+  This is a supporting pattern, but only within the regional world of Numidia. It is not a
+  supporting pattern for this world as a whole. That limit on its reach is part of the
+  classification itself. It is not a caveat added afterwards.
+
+  Three kinds of evidence are kept apart here, not blurred together. The group's bare existence
+  carries low risk, because independent imperial laws attest it. The name its members used for
+  themselves, agonistici, reaches us only through Augustine's report. He is treated as a reliable
+  reporter of that specific fact. Even so, his report is not equal to a source that no hostile
+  writer passed on. Claims about the group's character are a third matter, contested and coming
+  largely through hostile sources. On the group's character and scale specifically, the risk of
+  reflecting its sources' own concerns is high.
+
+  The group does recur. Optatus, Augustine, Boyd's corroborating history and imperial laws all
+  mention it. But beyond its bare existence and its own name, all the weight of evidence comes
+  through hostile sources. Even the name agonistici reaches us only through Augustine's report.
+
+  Across this world as a whole, other patterns do not depend on it. The purity doctrine,
+  rebaptism, the martyr cult and the rival church structure all work without it. It is something
+  that happens inside this world, not a force the wider world organises itself around. Within
+  Numidia, a narrower dependency does exist. The Circumcellions reportedly took part in the
+  suppression of the Maximianists, and that runs through this same channel. But that too comes
+  through hostile sources, and nothing independent confirms it.
+
+  It does not shape people across this world as a whole, but it does within Numidia. Our account
+  of this world's main centres names Numidia as the group's origin and home region. There, it
+  plausibly shaped a rural, wandering way of life. But nothing in the sources this world draws on carries
+  that influence to Carthage, Cirta or Hippo.
+
+  It explains little for the whole world, but some things regionally. It explains some specific
+  attention from imperial law (Codex Theodosianus 16.5.52). It explains some details of the
+  Maximianist affair. Both are narrowly regional or tied to one episode. It does not explain the
+  movement's central self-understanding or its basic institutional shape. No claim is made that it
+  does.
+
+  It does not persist across the whole world, but it does within Numidia. Numidia is named as the
+  region where the phenomenon began. By our account of this world, it was concentrated in that
+  region. The sources do not attest it evenly across Carthage, Cirta and Hippo.
+
+  It does interact with other patterns. It meets the refusal of the state's religious authority,
+  because it was the direct target of specific imperial laws. It meets the unresolved tension of
+  the Maximianist affair, through its reported part in that suppression.
+
+  Why is it a regional supporting pattern, and not central or supporting for the whole world?
+  Because the evidence is sharply divided. The bare fact is well attested. The group's own name
+  comes through Augustine, but reliably. The claims about its character are contested and come
+  largely through hostile sources. Evidence this divided should not rank as central, or as
+  supporting for the whole world. That holds however vividly hostile sources describe the group.
+
+  Of everything in this account, this pattern relies least on the movement's own voice. That gap
+  covers everything beyond its bare existence and its own name. No text this world draws on, whether in a
+  Donatist voice or free of hostile shaping, backs up the group's
+  character, scale or typical conduct. That gap is exactly why the group's character and scale
+  cannot be trusted as confirmed: they look confirmed only because hostile sources repeat them. It
+  is also the direct reason this pattern is not treated as central or supporting for the whole
+  world.
+
+  Two forces touch it. Imperial laws swung back and forth, and they named the group directly and
+  targeted it. And hostile sources report that Circumcellions took part in suppressing the
+  Maximianists. Our own analysis states plainly that no clean link to wider forces can be claimed
+  beyond what the hostile record itself supplies. That analysis does not treat the hostile record
+  as settled, and this account does not extend it either.
 manifestations:
 - CTh 16.5.52 fining circumcelliones ten pounds of silver - the only rank of ten fined in silver rather than
   gold

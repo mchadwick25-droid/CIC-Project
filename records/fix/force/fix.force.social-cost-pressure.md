@@ -16,7 +16,7 @@ sources:
   - {source_id: fix.source.witness-scroll, locus: "3.2", license: public-domain}
 name: "Ongoing social cost"
 kind: ongoing
-description: "Trade and standing withdrawn from households that stayed visibly gathered; an ongoing force (not initiating or ending) that shaped how the community held together."
+description: "Households that kept meeting in view of others lost trade and standing. This is an ongoing force, not a start or an end, that shaped how the community held together."
 manifestations: [fix.story.the-long-road]
 matrix_cell: "2A"
 ---

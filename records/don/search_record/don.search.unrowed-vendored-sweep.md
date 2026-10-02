@@ -81,7 +81,7 @@ note: "FIVE FINDINGS. This sweep did NOT come back clean, unlike Cappadocian's,
   Confidence C, licensed as this world's fullest surviving primary voice IN THE
   VENDORED CORPUS, noted as 'not independently checkable outside Augustine's own
   quotation' -- and the critical Latin edition of the work preserving that voice
-  has been on disk since 2026-09-01, recorded as absent. Doc_02 SS3 states, from
+  has been on disk, recorded as absent. Doc_02 SS3 states, from
   Monceaux Tome VI, that the Gesta cum Emerito is 'a different work from the 411
   Collatio, not itself vendored or checked this session'; it is vendored, and has
   been. This world's own corpus map already half-knows all this: donatism.yaml
@@ -100,7 +100,7 @@ note: "FIVE FINDINGS. This sweep did NOT come back clean, unlike Cappadocian's,
   etymology. (b) optatus_libri-vii-critical_ziwsa1893.txt, ROW 38: Ziwsa's own
   index records 'agonisticos circumcelliones 81, 19' -- page and line, in the
   critical Latin text. (c) monceaux_histoire-litteraire-afrique-chretienne-
-  tome4_1912.txt, ROW 52 (vendored 2026-09-07 but read only to title page and
+  tome4_1912.txt, ROW 52 (vendored, but read only to title page and
   chapter headings): Monceaux supplies the missing Augustine locus VERBATIM in
   his own footnote -- 'Augustin, Enarr. in Psalm. 132, 6: Milites Christi
   Agonistici appellantur. Utinam ergo milites Christi essent, et non milites
@@ -156,7 +156,7 @@ note: "FIVE FINDINGS. This sweep did NOT come back clean, unlike Cappadocian's,
   Apocalypse commentary, the one partial in this check's own Step 2 recall score.
 
   FINDING 4 -- THREE FURTHER VENDORED FILES WITH REAL DONATIST CONTENT, NONE
-  ROWED. (a) possidius_vita-augustini_weiskotten1919.txt, vendored 2026-09-05 for
+  ROWED. (a) possidius_vita-augustini_weiskotten1919.txt, vendored for
   the Latin Pastoral-Congregational world: a genuinely bilingual critical edition
   with a COMPLETE English translation, so usable as ordinary English primary
   evidence, not merely a Latin second-witness. Direct counts: Donatist(s) plus
@@ -169,7 +169,7 @@ note: "FIVE FINDINGS. This sweep did NOT come back clean, unlike Cappadocian's,
   contemporary texture lives, and the register Shaw's Sacred Violence (row 24)
   leans on most heavily. Named as a category, not a single source; the right unit
   is a build-thread decision, not this record's. (c) augustine_epistulae-critical_
-  goldbacher-csel57-pars4.txt, same 2026-09-05 sibling-world intake: CSEL 57 =
+  goldbacher-csel57-pars4.txt, same sibling-world intake: CSEL 57 =
   Epistulae CLXXXV-CCLXX, i.e. the critical Latin edition of LETTER 185, DE
   CORRECTIONE DONATISTARUM ITSELF -- which is row 5, at Confidence B with no
   critical edition named at all. The pattern rows 38, 39 and 51 already establish
@@ -285,8 +285,7 @@ entries under `cic/texts/` against the 56-row Source Registry and the 55
 Donatism, and neither rowed nor recorded.
 
 Five findings, two of which contradict specific statements the Registry
-currently makes and one of which closes an open item the build has carried
-since 2026-09-07. Full detail in the `note` field above; the companion
+currently makes and one of which closes a long-standing open item. Full detail in the `note` field above; the companion
 write-up is `World-Builds/Donatism/donatism_B1a_B1b_Coverage_Check.md`.
 
 No Registry row and no source record is edited by this record.

@@ -482,7 +482,7 @@ narrative:
   - don.term.ecclesia
   - don.term.refusal-of-imperial-legitimacy
 ---
-Authored 2026-09-20, closing the don world_front gap: every other
+This record closes the don world_front gap: every other
 admitted world in the fleet (alx, cappadocian, desert, gallic, hal, ijc,
 pahc, rzg, syr) already has a `world_front` record; `don` was the one
 exception, and its live tradition page (`cic-website/traditions/

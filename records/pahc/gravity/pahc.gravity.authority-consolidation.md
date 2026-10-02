@@ -63,27 +63,30 @@ relations:
 name: "Authority Consolidation - the episkopos/presbyteros/diakonos question [SUPPORTING]"
 classification: supporting
 description: "Who leads, and how leadership is secured once those who walked with the Lord are gone.
-  One overseer with elders beside him in some households (Antioch, the cities of Asia Minor); a council
-  of elders with no one over them in others (Rome). Both patterns held in the same correspondence,
-  neither declared wrong. SIX-TEST SUMMARY: Repetition passes strongly (recurs across every primary
-  voice). Dependency passes strongly (liturgical presidency, disciplinary authority, boundary rhetoric
-  all depend on how this resolves). Formation passes (shapes who is obeyed, who administers rites).
-  Explanatory passes strongly (explains why the corpus is largely letters about authority disputes).
-  Persistence passes with a caveat: visible in both regions across the whole window, but its SPECIFIC
-  SHAPE changes across that span - part of what keeps this a live, unresolved question rather than a
-  settled one. Interaction: per Doc_04's own final Interaction Matrix (round 7), this is the one
-  candidate with a demonstrated relationship to EVERY other classified gravity - network (G02, plain
-  Reinforcing, the one cell resting on genuinely independent multi-voice grounding rather than one
-  shared passage); state-pressure, boundary-drawing, martyrdom-meaning, and liturgical-practice (G03,
-  G05, G04, G07, all Reinforcing but explicitly INFERENTIAL - each traced to a single shared Ignatian
-  passage doing double duty, not independent corroboration; this schema's closed relation vocabulary
-  cannot itself carry the plain/inferential distinction, so it is stated here in prose per Doc_04's own
-  finding). CONFIDENCE/GRAVITY CROSS-CHECK: classified Supporting, not Primary - the coarse
-  claim clears Widely Accepted, but the specific content that actually does this gravity's interaction
-  and dependency work (the Strand A/B differentiation itself) is exactly the Contested part; disclosure
-  is not a substitute for reclassification. CROSS-STRAND STATUS: the force (authority requires active
-  organizing) is cross-strand confirmed; the resolution is strand-bound - Strand A toward a single
-  office, Strand B toward a plural, interchangeable college."
+  Some households had one overseer with elders beside him (Antioch, the cities of Asia Minor). Others
+  had a council of elders with no one over them (Rome). Both patterns appear in the same letters, and
+  neither is called wrong.
+
+  This question runs through every main voice in this world. Much else depends on how it is answered:
+  who presides at worship, who disciplines, and how lines are drawn around the community. It shapes
+  whom members obey and who leads the rites. It also explains why most of the surviving writing is
+  letters about disputes over authority. The question stays visible in both regions across the whole
+  period. But its specific shape keeps changing, and that is part of why it stays open rather than
+  settled.
+
+  This question is linked to every other major pattern in this world. Its link to the letter network
+  between churches is the best grounded, because several independent voices support it. Its links to
+  state pressure, boundary-drawing, the meaning of martyrdom, and shared worship are weaker. Each of
+  these goes back to one passage in Ignatius, used as evidence for several links at once. That is not
+  independent confirmation.
+
+  That leadership was debated and had to be organized is widely accepted. But the part that matters
+  most here is the difference itself: one overseer in Antioch and Asia Minor, a council of elders in
+  Rome. That difference is exactly the disputed part. So this is treated as an important supporting
+  pattern, not a central one. Stating the uncertainty openly is not a reason to rank it higher. The
+  pressure is confirmed in both regions: authority had to be actively organized. The answers differed.
+  Antioch and Asia Minor moved toward a single office. Rome moved toward a group of equal elders who
+  could stand in for one another."
 manifestations:
 - "one bishop, flanked by presbyters and deacons, obeyed as the shape of unity - 'your justly renowned
   presbytery, worthy of God, is fitted as exactly to the bishop as the strings are to the harp'

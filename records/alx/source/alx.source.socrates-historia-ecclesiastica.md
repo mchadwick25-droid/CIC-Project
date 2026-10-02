@@ -15,8 +15,7 @@ confidence:
 sources: []
 author: 'Socrates Scholasticus (c. 380 - after 439 CE) - a Constantinopolitan lawyer-historian writing
   c. 439: a LATER witness, the same class as Palladius (419-420), used only for figure testimonia'
-work: Historia Ecclesiastica (Church History) - used ONLY as figure testimonia (Athanasius's death and
-  46-year episcopate, IV.20; the Didymus notice, IV.25), never as in-world voice
+work: Historia Ecclesiastica (Church History) - cited here only for facts about people (Athanasius's death and 46-year episcopate, IV.20; the Didymus notice, IV.25), not as a source of the world's teaching
 edition: trans. A.C. Zenos, NPNF series 2 vol. 2 (1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml
 kind: vendored
 rights_status: public-domain
@@ -27,7 +26,7 @@ discovery_channel: identified at step 3 as carrier of the only located primary-c
 external_ids:
   ccel_volume: npnf202
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Loci verified by direct read: Socrates HE IV.20 (file lines
 13310-13322): Athanasius 'departed this life in the second consulate of
 Gratian and Probus, having governed that church amidst the greatest

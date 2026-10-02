@@ -47,7 +47,7 @@ whoever reads this later:
 ACCUMULATING_SIGNALS = {"HARMFUL_DYNAMIC_SIGNAL", "AMBIGUOUS_LOW_CONFIDENCE"}
 
 # SS4.2's own instruction for the ambiguous case. The classifier returns no
-# dynamic_tags for it in practice (measured live, 2026-08-24: two ambiguous
+# dynamic_tags for it in practice (measured live: two ambiguous
 # messages, both with an empty tag list), so the weak signal has to be named
 # by code or it is not recorded at all - which is exactly the hole this
 # module was built to close. The check-in turn asks the participant a

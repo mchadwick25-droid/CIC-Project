@@ -17,6 +17,10 @@ sources:
   locus: "ch. XXXII - the angel's own opening instruction, in Clarke's translation"
   license: public-domain
 text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating..."
+modern_rendering: >-
+  You shall let each man eat and drink according to his own strength. In proportion to
+  the strength of those eating, assign them their labors. Do not prevent any man, either
+  from fasting or from eating...
 speaker_or_author: "an angel"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: this is administrative rule-language (eating, drinking, labor proportioned to strength), plain in any era."
@@ -33,31 +37,23 @@ relations:
 - type: associated-with
   target: desert.quote.ethiopic-rule-eat-and-drink
 ---
-Verified verbatim 2026-08-22 against the vendored file (ch. XXXII, line
-397). Added per Step 4 Round 1 review Finding S6, which found
-desert.story.pachomius-founding's own body citing this record before it
-existed - the gap the review pointed at was real, and this is the fix
-rather than a removal of the reference: the tablet's own opening clause
-genuinely is verbatim-quotable and no quote record carried it.
+Verified verbatim against the vendored file (ch. XXXII, line
+397). desert.story.pachomius-founding cites this record for the
+tablet's own opening clause, which is verbatim-quotable and carried
+here in full.
 
-Step4, Round 2 review Finding S7: speaker_or_author previously read "an
-angel, as Palladius reports Pachomius's own account of the vision" -
-checked directly against ch. XXXII, which narrates entirely in
-Palladius's own third person ("to him as he sat in his cave an angel
-appeared and said...") and names no informant, unlike ch. XXII, where
-Palladius explicitly names Cronius and Hierax as his sources. There is
-no textual basis for attributing this account to Pachomius's own
-telling specifically - corrected to name only what the text itself
-supports, the angel as the speaker within Palladius's narration. The
-same finding noted that this field, like `text`, compiles directly into
-`quotes.json` (`build_quotes_json()` emits `sources` as well, so
-`sources[].locus` also compiles - a correction to how this step's own
-STEP4-INDEX.md described the M8 fix elsewhere in this record set, not a
-claim specific to this record).
+speaker_or_author names only what the text itself supports: ch. XXXII
+narrates entirely in Palladius's own third person ("to him as he sat in
+his cave an angel appeared and said...") and names no informant, unlike
+ch. XXII, where Palladius explicitly names Cronius and Hierax as his
+sources. The angel is the speaker within Palladius's narration; this
+record does not attribute the account to Pachomius's own telling.
+`sources[].locus`, like `text`, compiles directly into `quotes.json`
+(`build_quotes_json()` emits `sources` as well).
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "fasting or eating" was invented
-- the tablet's own text continues with further instructions (task assignment, cell arrangements). This
-record was always meant to carry only "the tablet's own opening clause" (per the 2026-08-22 note
-above), so marked with a trailing ellipsis rather than restored. The record still cannot verify past
-"labours" partway through: the source has a page-break marker ("labours. |113 And prevent") the gate
-doesn't strip - flagged for Mark alongside the other footnote/pagination-apparatus findings in this PR.
+This record carries only the tablet's own opening clause, marked with a
+trailing ellipsis; the tablet's own text continues with further
+instructions (task assignment, cell arrangements) not carried here.
+Verification cannot yet clear past "labours" partway through: the
+source has a page-break marker ("labours. |113 And prevent") that the
+automated verification gate does not strip.

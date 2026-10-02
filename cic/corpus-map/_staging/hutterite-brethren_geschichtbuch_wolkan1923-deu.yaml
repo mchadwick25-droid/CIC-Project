@@ -1,0 +1,19 @@
+source_file: hutterite-brethren_geschichtbuch_wolkan1923-deu.txt
+
+assignments:
+  - row_id: hutterite-brethren_geschichtbuch_wolkan1923-deu--geschicht-buch-der-hutterischen-brueder-chronicle-of-the
+    work: "Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)"
+    author: hutterite-brethren
+    locus: "whole text, 1517-1665"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The Hutterite Brethren's own communal chronicle, German original
+      (ed. Wolkan, 1923). This scan is flagged as garbled under the
+      Library's own OCR-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md). It stays
+      second witness for that reason until a cleaner edition is
+      vendored, not because it lacks an English translation and not
+      because it's German.

@@ -3,7 +3,8 @@
 # (div2 2.3, ~41,654 words), Nazianzen Prolegomena (div2 3.2), indexes.
 source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
 assignments:
-- work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-catechetical-lectures-procatechesis-catecheses-i-xviii
+  work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
     I-V)
   author: cyril_jer
   locus: 'div1 2 (~202,666 words): Procatechesis at div2 2.4, the eighteen pre-baptismal lectures
@@ -22,7 +23,8 @@ assignments:
     fleet today (audit F-25).
 
     '
-- work: Select Orations of Saint Gregory Nazianzen
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen
+  work: Select Orations of Saint Gregory Nazianzen
   author: gregory_naz
   locus: 'div1 3 (~235,530 words) - one body of about two dozen orations (div2 3.3-3.27),
     assigned as one work; the Five Theological Orations within it are additionally listed
@@ -39,7 +41,8 @@ assignments:
     extended portraits of women - the gap every world names.
 
     '
-- work: The Five Theological Orations (Orations 27-31)
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31
+  work: The Five Theological Orations (Orations 27-31)
   author: gregory_naz
   locus: div2 3.13-3.17, with the editor's introduction at 3.12
   atlas_ids:
@@ -53,7 +56,8 @@ assignments:
     nearest entry; Mark may want to strike or rebucket.
 
     '
-- work: The Five Theological Orations (Orations 27-31)
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31-2
+  work: The Five Theological Orations (Orations 27-31)
   author: gregory_naz
   locus: div2 3.13-3.17, with the editor's introduction at 3.12
   atlas_ids:
@@ -62,17 +66,16 @@ assignments:
   confidence: assigned
   note: 'Split out from the Select Orations because these five, preached against the Eunomians
     at Constantinople, are what a reader names as a work, and they carry the anti-Arian assignment.
-    The doubt is the same as for Nyssa''s Against Eunomius: the opponents are Eunomian Anomoeans,
-    and the census''s only Arian bucket is named for the Homoian party. Assigned there as
-    nearest entry; Mark may want to strike or rebucket.
+    The opponents are Eunomian Anomoeans, distinct from the Homoian party the census''s Arian
+    bucket is named for.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
-    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
-    on record, so anti-Eunomian material now names the party it actually argues with rather
+    floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor Question)
+    is on the census, so anti-Eunomian material names the party it actually argues with rather
     than the Homoian wing it split from in 360.'
-- work: Select Letters of Saint Gregory Nazianzen
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen
+  work: Select Letters of Saint Gregory Nazianzen
   author: gregory_naz
   locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
     on the Apollinarian Controversy (4.2), Correspondence with Basil (4.3), Miscellaneous
@@ -84,10 +87,10 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
-    material, but the census has no Apollinarian entry, so the party argued against has nowhere
-    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
-    added alongside - the party this work argues with now has an entry of its own.'
-- work: Select Letters of Saint Gregory Nazianzen
+    material. apollinarian-christianity holds the party this work argues with, alongside
+    the author''s own entry.'
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen-2
+  work: Select Letters of Saint Gregory Nazianzen
   author: gregory_naz
   locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
     on the Apollinarian Controversy (4.2), Correspondence with Basil (4.3), Miscellaneous
@@ -99,9 +102,8 @@ assignments:
   role: context
   confidence: assigned
   note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
-    material, but the census has no Apollinarian entry, so the party argued against has nowhere
-    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
-    added alongside - the party this work argues with now has an entry of its own.
+    material. apollinarian-christianity holds the party this work argues with, alongside
+    the author''s own entry.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on

@@ -15,11 +15,18 @@ confidence:
 sources:
   - {source_id: fix.source.secondary-summary, locus: "5.1", license: public-domain}
 text: "What is written for the initiate alone is not for the crowd, and not for the voice to speak."
+modern_rendering: >-
+  What is written for the initiate alone is not for the crowd, and not for the voice to
+  speak.
 speaker_or_author: fix.figure.the-elder
-license: do-not-voice
+license: paraphrase-only
 modern_lens_note: "No significant modern-lens risk identified for this quote."
 ---
-The do-not-voice positive case (Artifact-1 §4): ships in quotes.json (M2) so a
-violation is recognizable, but the voice must never speak it. The quote-recording
-DEFECT mutates a copy's license field to an invalid enum value ("maybe") instead of
-one of verbatim | paraphrase-only | do-not-voice.
+The paraphrase-only positive case: this record's own divergence_note names a
+genuinely fragile attribution (the secondary summary only; the primary scroll
+never confirms the teaching was spoken aloud), so its license reflects that -
+gate_quote_mark_fidelity (engine/m1/gates.py) must never let a world_front
+render this material inside quotation marks, from either `text` or
+`modern_rendering`, regardless of whether it happens to match. The
+quote-recording DEFECT mutates a copy's license field to an invalid enum
+value ("maybe") instead of one of verbatim | paraphrase-only.

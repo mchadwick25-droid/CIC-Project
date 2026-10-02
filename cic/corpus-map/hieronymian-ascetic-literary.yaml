@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: hieronymian-ascetic-literary
 works:
-- work: Letter of Anastasius to John of Jerusalem concerning Rufinus
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--letter-of-anastasius-to-john-of-jerusalem-concerning-rufinus
+  work: Letter of Anastasius to John of Jerusalem concerning Rufinus
   author: anastasius_rome
   locus: div2 5.10
   role: context
@@ -14,24 +15,25 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence
+  work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
   author: augustine
   locus: div3 letters XXVIII, XXXIX, XL, LXVII, LXVIII, LXXI, LXXII, LXXIII, LXXV, LXXXI,
     LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII (17 letters, ~52,892 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
-    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
-    exchange, exactly) and by keyword count where it does not, taking the natural break in
-    the distribution rather than a chosen threshold. The four parts partition the 168 with
-    no overlap. This part is exact: every letter whose title names Jerome, in both directions.
-    `tradition` for BOTH entries deliberately - the exchange contains Jerome''s own letters,
-    which are the Hieronymian world''s voice, and Augustine''s, which are the Latin pastoral
-    world''s. A two-sided correspondence has voice on both sides. It is also the largest single
-    thing in this volume after the Confessions.'
+  note: 'Derived from the volume''s own markup rather than from a reading list: each letter
+    is a div3 carrying n= and type="Letter", 168 of them, and the sub-corpora are cut by ADDRESSEE
+    where the title names one (the Jerome exchange, exactly) and by keyword count where it
+    does not, taking the natural break in the distribution rather than a chosen threshold.
+    The four parts partition the 168 with no overlap. This part is exact: every letter whose
+    title names Jerome, in both directions. `tradition` for BOTH entries deliberately - the
+    exchange contains Jerome''s own letters, which are the Hieronymian world''s voice, and
+    Augustine''s, which are the Latin pastoral world''s. A two-sided correspondence has voice
+    on both sides. It is also the largest single thing in this volume after the Confessions.'
   source_file: npnf101_augustine-confessions-letters.xml
-- work: The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)
+- row_id: fleet-sweep-additions-npnf102--the-city-of-god-book-xviii-chapters-42-44-the-authority-of
+  work: The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)
   author: augustine
   locus: XVIII.43 at file line 36715, naming Jerome; XVIII.42 at 36469; the Hebrew-versus-Septuagint
     chronology question at 28189
@@ -51,23 +53,21 @@ works:
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
-- work: Gennadius, Lives of Illustrious Men (continuation)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-2
+  work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   role: context
   confidence: assigned
-  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
-    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
-    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
-    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
-    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
-    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
-    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
-    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
-    project, not membership of his circle.'
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. He has no obvious
+    census home at first glance - merovingian-gallic-christianity (c. 480-620) seems to start
+    as he ends - but Gennadius died c. 496, which is INSIDE that window rather than before
+    it: the overlap is real and he falls in it. Assigned there as his home, with hieronymian-ascetic-literary
+    kept as context: the direct continuation of Jerome''s literary project, not membership
+    of his circle.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Against Jovinianus
+- row_id: npnf206_jerome-principal-works--against-jovinianus
+  work: Against Jovinianus
   author: jerome
   locus: div2 6.6 (two books, ~71,029 words)
   role: tradition
@@ -77,7 +77,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: Against Vigilantius
+- row_id: npnf206_jerome-principal-works--against-vigilantius
+  work: Against Vigilantius
   author: jerome
   locus: div2 6.7 (~6,700 words)
   role: tradition
@@ -87,7 +88,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: Against the Pelagians
+- row_id: npnf206_jerome-principal-works--against-the-pelagians
+  work: Against the Pelagians
   author: jerome
   locus: div2 6.9 (three books, ~33,959 words)
   role: tradition
@@ -98,7 +100,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: Jerome's Apology for Himself Against the Books of Rufinus
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus
+  work: Jerome's Apology for Himself Against the Books of Rufinus
   author: jerome
   locus: div2 5.12 — three books
   role: tradition
@@ -108,7 +111,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Letter CVIII (To Eustochium - Epitaph of Paula)
+- row_id: npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula
+  work: Letter CVIII (To Eustochium - Epitaph of Paula)
   author: jerome
   locus: div2 5.108 - 'To Eustochium', n=CVIII, ~16,944 words
   role: tradition
@@ -121,7 +125,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: Letter XXII (To Eustochium, on virginity)
+- row_id: npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity
+  work: Letter XXII (To Eustochium, on virginity)
   author: jerome
   locus: div2 5.22 - 'To Eustochium', n=XXII, ~18,609 words
   role: tradition
@@ -134,7 +139,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to
+- row_id: npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas
+  work: Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to
     Paul of Concordia)
   author: jerome
   locus: div2 5.7-5.10 - 'To Chromatius, Jovinus, and Eusebius' (n=VII, ~1,732 words), 'To
@@ -149,11 +155,12 @@ works:
     (Rufinus'' Commentary on the Apostles'' Creed), and these four short letters are primary-voice
     correspondence naming Aquileian and Concordian figures by name and role, not about the
     church from outside it. Surfaced by a source-research pass on Aquileian Christianity''s
-    (I.41) sourcing gaps, 2026-09-13.
+    (I.41) sourcing gaps.
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: Lives of Illustrious Men (De Viris Illustribus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus
+  work: Lives of Illustrious Men (De Viris Illustribus)
   author: jerome
   locus: div2 4.3 — Jerome. Lives of Illustrious Men.
   role: tradition
@@ -165,7 +172,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Prefaces (to Jerome's early works, the Vulgate Old Testament, and the Commentaries)
+- row_id: npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament
+  work: Prefaces (to Jerome's early works, the Vulgate Old Testament, and the Commentaries)
   author: jerome
   locus: 'div1 7 (~18,466 words): 7.2 prefaces to the early works, 7.3 prefaces to the Vulgate
     OT books, 7.4 prefaces to the commentaries - one body of short prefaces, assigned together.
@@ -179,7 +187,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Dialogue Against the Luciferians
+- row_id: npnf206_jerome-principal-works--the-dialogue-against-the-luciferians
+  work: The Dialogue Against the Luciferians
   author: jerome
   locus: div2 6.4 (~16,292 words)
   role: tradition
@@ -192,7 +201,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Letters of St. Jerome
+- row_id: npnf206_jerome-principal-works--the-letters-of-st-jerome
+  work: The Letters of St. Jerome
   author: jerome
   locus: 'div1 5 - one body of 150 letters (div2 5.1-5.150, ~288,634 words), assigned as one
     work, not 150 assignments. Letters XXII and CVIII are additionally listed as their own
@@ -209,17 +219,18 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Life of Malchus, the Captive Monk
+- row_id: npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk
+  work: The Life of Malchus, the Captive Monk
   author: jerome
   locus: div2 6.3 (~3,513 words)
   role: tradition
   confidence: assigned
   note: 'Same doubt as the Hilarion: Syrian setting, monastic subject, and no census entry
     for fourth-century Syrian monasticism outside the Edessa/ Nisibis entry (which this is
-    not). Desert-monasticism as nearest monastic bucket, flagged. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.'
+    not). palestinian-ascetic-monasticism-early, added for this movement, holds it directly.'
   source_file: npnf206_jerome-principal-works.xml
-- work: The Life of Paulus the First Hermit
+- row_id: npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit
+  work: The Life of Paulus the First Hermit
   author: jerome
   locus: div2 6.1 (~3,900 words)
   role: tradition
@@ -229,18 +240,19 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Life of S. Hilarion
+- row_id: npnf206_jerome-principal-works--the-life-of-s-hilarion
+  work: The Life of S. Hilarion
   author: jerome
   locus: div2 6.2 (~11,619 words)
   role: tradition
   confidence: assigned
   note: Hilarion carries Antony's pattern to Palestine, so the subject is monasticism outside
-    the desert entry's stated region (Egypt, Nile Valley). No census entry covers fourth-century
-    Palestinian monasticism (the Judean-desert/Gaza entry begins c. 450), so desert-monasticism
-    is the nearest bucket; flagged rather than silently stretched. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.
+    the desert entry's stated region (Egypt, Nile Valley). No census entry covered fourth-century
+    Palestinian monasticism until palestinian-ascetic-monasticism-early was added for this
+    movement; it holds it directly now.
   source_file: npnf206_jerome-principal-works.xml
-- work: The Perpetual Virginity of Blessed Mary (Against Helvidius)
+- row_id: npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius
+  work: The Perpetual Virginity of Blessed Mary (Against Helvidius)
   author: jerome
   locus: div2 6.5 (~11,404 words)
   role: tradition
@@ -249,19 +261,74 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: To Pammachius Against John of Jerusalem
+- row_id: npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem
+  work: To Pammachius Against John of Jerusalem
   author: jerome
   locus: div2 6.8 (~23,662 words)
   role: tradition
   confidence: assigned
   note: 'Origenist-controversy polemic against the bishop of Jerusalem. It describes the Jerusalem
     church only as an adversary in a Christian quarrel, so it is not assigned to the Jerusalem
-    entry and is not `context` under Mark''s definition (Jerome speaks as a Christian); noted
-    here in case a reviewer wants the Jerusalem cross-reference.
+    entry and is not `context` under this project''s own definition (Jerome speaks as a Christian);
+    flagged here as a cross-reference to the Jerusalem entry.
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)
+- row_id: origen_philocalia_lewis1911--the-philocalia-of-origen-3
+  work: The Philocalia of Origen
+  author: origen
+  locus: 'Chapter I, esp. its own self-description "From the work on ''Principles''" (file
+    line 44)
+
+    '
+  role: context
+  confidence: assigned
+  note: 'This world''s own source record (hal.source.origen-philocalia) uses the Philocalia
+    as the control on Rufinus: the Origenist controversy at hal''s own center turns on whether
+    Rufinus''s Latin De Principiis softened what Origen actually wrote, and the Greek of De
+    Principiis is otherwise lost. The Philocalia preserves genuine surviving Greek excerpts
+    from that very work - Chapter I states of itself "From the work on ''Principles''", verified
+    directly at the file''s own opening line (line 44), matching the source record''s claim
+    exactly.
+
+    `role: context`, not `tradition`: evidence FOR testing the Rufinus-vs-Jerome dispute,
+    not itself Hieronymian voice or tradition - a fourth-century anthology (traditionally,
+    though not textually, ascribed to Basil and Gregory Nazianzen) that lets the accusation
+    be checked against surviving Greek rather than repeated on faith. hal''s own record is
+    explicit about the limit: this may not be treated as the whole of Origen, or the selection''s
+    mildness taken as proof the controversy was manufactured - hal.contested.origenist-substance
+    holds that question open and this is evidence in it, not a verdict.
+
+    '
+  source_file: origen_philocalia_lewis1911.txt
+- row_id: palladius_lausiac-history--lausiac-history-5
+  work: Lausiac History
+  author: palladius
+  locus: 'Chapters XXXVI (Posidonius on Jerome''s temper and the prophecy about Paula, file
+    line 435) and XLI (Holy Women: Paula "hindered by a certain Jerome from Dalmatia," Eustochium''s
+    convent of fifty virgins, file line 475)
+
+    '
+  role: context
+  confidence: assigned
+  note: 'This world''s own source record (hal.source.palladius-lausiac) names this "the principal
+    hostile independent near-contemporary witness to this world." Verified directly against
+    the file: ch. 36 (line 435) carries Posidonius''s remark that Jerome "showed qualities
+    of temper so disastrous that they threw into the shade his splendid achievements" and
+    his prophecy that Paula "will die first and be freed from his bad temper"; ch. 41 (line
+    475) states Paula "was hindered by a certain Jerome from Dalmatia... he hindered her by
+    his jealousy, having induced her to serve his own plan," and gives Eustochium''s Bethlehem
+    convent as "fifty virgins" - the only extant headcount for either Bethlehem community,
+    uncorroborated elsewhere. Both passages match this world''s own source record exactly.
+
+    `role: context`, not `tradition`: Palladius writes from an Origenist-adjacent, Evagrian-influenced
+    milieu, about a community that defined itself against Origenism - hostile testimony, valuable
+    precisely for its independence, not this world''s own voice. See hal.contested.paula-jerome-relationship.
+
+    '
+  source_file: palladius_lausiac-history_clarke1918.txt
+- row_id: fleet-sweep-additions-budge-v1--the-paradise-of-palladius-book-i-ch-l-of-the-blessed-man
+  work: The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)
   author: palladius
   locus: Chapter l - the Possidonius report about "Hieronymus" and Paula
   role: context
@@ -281,7 +348,8 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--pamphilus-defence-of-origen-rufinus-translation-with-rufinus
+  work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
     Librorum Origenis)
   author: rufinus
   locus: div2 5.5-5.6
@@ -296,7 +364,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Prologue of Rufinus (to De Principiis)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis
+  work: Prologue of Rufinus (to De Principiis)
   author: rufinus
   locus: div2 6.4 - Prologue of Rufinus
   role: tradition
@@ -308,7 +377,8 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: Rufinus' Apology in Defence of Himself (Apologia ad Anastasium)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--rufinus-apology-in-defence-of-himself-apologia-ad-anastasium
+  work: Rufinus' Apology in Defence of Himself (Apologia ad Anastasium)
   author: rufinus
   locus: div2 5.9
   role: tradition
@@ -320,7 +390,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: The Apology of Rufinus (Against Jerome, to Apronianus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-apology-of-rufinus-against-jerome-to-apronianus
+  work: The Apology of Rufinus (Against Jerome, to Apronianus)
   author: rufinus
   locus: div2 5.11 — two books
   role: tradition
@@ -333,17 +404,43 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Commentary on the Apocalypse of the Blessed John
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus-2
+  work: Dialogues of Sulpitius Severus
+  author: sulpiciusseverus
+  locus: div2 2.4 — Dialogues of Sulpitius Severus, Dialogue I.7-9 (Postumianus's account
+    of visiting Bethlehem)
+  role: context
+  confidence: assigned
+  note: 'Dialogue I.7-9 is an admiring, independent, contemporary outside witness to the Bethlehem
+    community c. 400. Verified directly against the file at all four cited passages: I.8,
+    "the presbyter Jerome rules the church of this place; for it is a parish of the bishop
+    who has possession of Jerusalem" and "learned not only in Latin and Greek, but also Hebrew"
+    (lines 2896); I.9, "always occupied in reading, always at his books" (line 2960) and "the
+    heretics hate him" (line 2954); I.7, the widely-quoted line that Hieronymus, "a man truly
+    Catholic," once thought a follower of Origen, "now, above most others, went the length
+    of condemning the whole of his writings" (line 2859) - matching this world''s own source
+    and quote records (hal.source.sulpitius-dialogues, hal.quote.a-man-truly-catholic) exactly.
+
+    `role: context`, not `tradition`: this world''s own quote record marks the evidence Contested
+    and notes Sulpitius writes "in Gaul, admiringly and at a distance" - an outside Gallic
+    monastic writer''s view of Jerome''s reputation and standing, not the Hieronymian voice
+    speaking for itself. Same Dialogue as the existing desert-monasticism/gallic-monastic-ascetic-christianity
+    tradition row above (Dialogue I as a whole, Postumianus''s Egyptian travels); this row
+    narrows to I.7-9 specifically, the Bethlehem passage, for hal.
+
+    '
+  source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john-2
+  work: Commentary on the Apocalypse of the Blessed John
   author: victorinus
   locus: div2 6.2
   role: transmission
   confidence: assigned
-  note: 'Added 2026-08-27 with the `transmission` role. The commentary is Victorinus'' - his
-    voice is on danubian-latin-christianity - but the text anyone can read is Jerome''s reissue,
-    with the millenarian ending rewritten. The relation is custody: this entry''s people are
-    why we still have it, and why we do not have quite what was written. That is the boundary
+  note: 'Carries the `transmission` role. The commentary is Victorinus'' - his voice is on
+    danubian-latin-christianity - but the text anyone can read is Jerome''s reissue, with
+    the millenarian ending rewritten. The relation is custody: this entry''s people are why
+    we still have it, and why we do not have quite what was written. That is the boundary
     the role was defined on.
-
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml

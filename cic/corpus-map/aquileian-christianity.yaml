@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: aquileian-christianity
 works:
-- work: Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to
+- row_id: npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas
+  work: Letters VII-X (to Chromatius, Jovinus, and Eusebius; to Niceas; to Chrysogonus; to
     Paul of Concordia)
   author: jerome
   locus: div2 5.7-5.10 - 'To Chromatius, Jovinus, and Eusebius' (n=VII, ~1,732 words), 'To
@@ -18,18 +19,18 @@ works:
     (Rufinus'' Commentary on the Apostles'' Creed), and these four short letters are primary-voice
     correspondence naming Aquileian and Concordian figures by name and role, not about the
     church from outside it. Surfaced by a source-research pass on Aquileian Christianity''s
-    (I.41) sourcing gaps, 2026-09-13.
+    (I.41) sourcing gaps.
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: A Commentary on the Apostles' Creed (Rufinus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--a-commentary-on-the-apostles-creed-rufinus
+  work: A Commentary on the Apostles' Creed (Rufinus)
   author: rufinus
   locus: div2 5.13
   role: tradition
   confidence: assigned
-  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404). RULED
-    2026-08-27: aquileian-christianity (I.41) was minted for it. The worker''s objection was
-    exact - the content has nothing to do with the Jerome quarrel, and hieronymian-ascetic-literary
+  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404). aquileian-christianity
+    (I.41) was minted for it: the content has nothing to do with the Jerome quarrel, and hieronymian-ascetic-literary
     is a controversy while this is a catechesis. It is also the earliest evidence that the
     Western churches did not all say the same words at the font: Rufinus expounds his own
     church''s creed and notes where Rome''s differs.

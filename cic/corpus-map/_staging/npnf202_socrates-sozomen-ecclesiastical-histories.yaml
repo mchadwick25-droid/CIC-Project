@@ -2,7 +2,8 @@ source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
 
 assignments:
   # ---- Socrates Scholasticus (div1 2) ----
-  - work: "The Ecclesiastical History of Socrates Scholasticus"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus
+    work: "The Ecclesiastical History of Socrates Scholasticus"
     author: socrates
     locus: "div1 2 — Books I-VII, 305-439"
     atlas_ids:
@@ -17,7 +18,8 @@ assignments:
       Constantinopolitan-lay-historian bucket, and ijc (Rome, Constantinople,
       Milan, 312-451) is where he stands.
 
-  - work: "The Ecclesiastical History of Socrates Scholasticus"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
+    work: "The Ecclesiastical History of Socrates Scholasticus"
     author: socrates
     locus: "div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom), Novatianist notices throughout"
     atlas_ids:
@@ -39,8 +41,34 @@ assignments:
       is a primary narrative of Chrysostom's episcopate and fall. Movements
       merely mentioned are not assigned.
 
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-3
+    work: "The Ecclesiastical History of Socrates Scholasticus"
+    author: socrates
+    locus: "div1 2 — IV.20 (Athanasius's death and 46-year episcopate) and IV.25 (Of Didymus the Blind Man)"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: assigned
+    note: >
+      Two figure-testimonia loci, verified directly against the file:
+      IV.20 (lines 13310-13322) states Athanasius "departed this life in
+      the second consulate of Gratian and Probus, having governed that
+      church amidst the greatest perils forty-six years" - the edition's
+      own endnote reads that consulate as 371 and flags Jerome's Chronicle
+      as placing it in 373 (the now-accepted date), a discrepancy alx's
+      own source record carries honestly rather than silently picking one.
+      IV.25 (line 13797) is the third independent Didymus testimonium
+      beside Palladius and Jerome - its own endnote cross-references
+      Sozomen III.15, Theodoret IV.26 and Palladius Hist. Lausiac. 4,
+      confirming this is the same figure-attestation cluster those other
+      staging files also carry. Context, not tradition: Socrates is a
+      later (c. 439) Constantinopolitan outsider to the Alexandrian
+      catechetical tradition, used only for testimonia, never as
+      in-world voice (alx.source.socrates-historia-ecclesiastica).
+
   # ---- Sozomen (div1 3) ----
-  - work: "The Ecclesiastical History of Sozomen"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen
+    work: "The Ecclesiastical History of Sozomen"
     author: sozomen
     locus: "div1 3 — Books I-IX, 324-425, with the Address to Theodosius II (div2 3.5)"
     atlas_ids:
@@ -53,7 +81,8 @@ assignments:
       laws and emperors. As with Socrates, ijc is his own entry's nearest
       home in the census.
 
-  - work: "The Ecclesiastical History of Sozomen"
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
+    work: "The Ecclesiastical History of Sozomen"
     author: sozomen
     locus: "div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16 (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)"
     atlas_ids:
@@ -74,3 +103,36 @@ assignments:
       notice of Ephraim and Syriac letters. Books I-IV narrate the
       Arian/homoian ascendancy; Book VIII is a book-length account of
       Chrysostom. Each id above rests on sustained treatment, not mention.
+
+  # ---- also assigned to cappadocian-nicene-pastoral-monastic-tradition ----
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-4
+    work: "The Ecclesiastical History of Socrates Scholasticus"
+    author: socrates
+    locus: "div1 2, Book II, Chapter XLI (id ii.v.xli) - the Synod of Constantinople, 360 CE"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+    note: >
+      Found by cappadocian.source.church-historians-socrates-sozomen-theodoret
+      (kind: vendored, verification_state: named-not-rechecked): this
+      file had not yet been re-verified against the specific loci Doc_02
+      cites. That review is done here. The record cites "Constantinople 360 (via
+      Socrates HE 2.41, SS2)" for "the Homoian-establishment
+      reconstruction" - read directly at that exact chapter: it opens on
+      the Acacian party's Synod at Constantinople after Ariminum, and
+      transcribes the creed itself in full, including its explicit
+      rejection of "ousia" and "hypostasis" language ("we affirm that
+      the Son is like the Father, in such a manner as the sacred
+      Scriptures declare and teach... Let therefore all heresies... be
+      anathema") - the historical Homoian confession of 360 the record's
+      own framing points to, genuinely present and substantive, not a
+      bare mention. `role: context`: an outside Constantinopolitan lay
+      historian's narrative, never this world's own voice, matching the
+      source record's own explicit framing verbatim ("secondary
+      narrative sources, never this world's own voice"). The record's
+      other named claim ("the Julian-persecution episode") is also
+      genuinely present in this volume (Socrates Book II, chs. 11-12, and
+      Sozomen Book III, chs. 3, 5, 17, all on Julian's measures against
+      Christians) but was not checked against a specific quoted claim, so
+      it is noted rather than separately asserted as verified content.

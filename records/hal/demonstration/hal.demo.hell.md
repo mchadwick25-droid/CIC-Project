@@ -33,11 +33,9 @@ are carried exactly as the witness record states them, including that the
 renunciation happened under controversy pressure and the record keeps the
 fight rather than a resolution (hal.force.origenist-controversy).
 
-CORRECTED per independent Opus adversarial review: "baptized" had been
-silently dropped from the mercy clause, widening the witness's own scope
-(mercy for the baptized who had fallen, i.e. an inside distinction) into
-a broader claim of mercy for anyone fallen - exactly the distinction the
-participant's own question turns on. Restored to match hal.dw.hell
-verbatim.
+The mercy clause names mercy for the baptized who had fallen - an inside
+distinction, not a broader claim of mercy for anyone fallen - matching
+hal.dw.hell verbatim, exactly the distinction the participant's own
+question turns on.
 
-REGISTER TRANSLATION (2026-08-29, the hal pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English (here mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence the demos' own review notes bind. Record layer, not the prompt (no-fix-on-fix).
+The spoken field is written in plain modern English (mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint is preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence. This sits at the record layer, not the prompt.

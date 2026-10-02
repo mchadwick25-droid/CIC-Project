@@ -1,8 +1,9 @@
-# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
-# filename, matching AUTHORS.md's `basil`.
+# Pearse file, no ThML markup - author slug from filename, matching
+# AUTHORS.md's `basil`.
 source_file: basil_ascetic-works-longer-shorter-rules_clarke1925.txt
 assignments:
-- work: The Ascetic Works of Saint Basil (the Great Asketikon - Longer Rules
+- row_id: basil_ascetic-works-longer-shorter-rules_clarke1925--the-ascetic-works-of-saint-basil-the-great-asketikon-longer
+  work: The Ascetic Works of Saint Basil (the Great Asketikon - Longer Rules
     and Shorter Rules, plus the Moralia and shorter ascetic treatises)
   author: basil
   locus: whole file

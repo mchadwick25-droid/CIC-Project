@@ -28,6 +28,12 @@ text: >-
   not been censured thrice for the same form of sin, say, reviling, with which revilers abuse their
   neighbours, or those who are carried away by passion, or for over-drinking, or lying and idle
   words, or any of those things which exist in the masses.
+modern_rendering: >-
+  This rule seems very harsh. I do not think anyone could easily be found who has not
+  been rebuked three times for the same kind of sin. Take insults, the kind insulting
+  people hurl at their neighbors. Or take those who are carried away by anger, or by
+  heavy drinking, or by lying and idle talk, or by any of the other sins common among
+  ordinary people.
 speaker_or_author: Origen, in the Commentary on Matthew
 license: verbatim
 modern_lens_note: >-
@@ -51,7 +57,7 @@ relations:
 - type: associated-with
   target: desert.gravity.diakrisis
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 36205.
+Verified verbatim against the vendored file at line 36205.
 
 The pairing is the point and is set out in
 desert.source.origen-commentary-matthew: Origen builds the procedure for

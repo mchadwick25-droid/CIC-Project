@@ -22,6 +22,13 @@ text: When we, Constantine and Licinius, emperors, had an interview at Milan, an
   are profitable to mankind in general, the reverence paid to the Divinity merited our first and chief
   attention, and that it was proper that the Christians and all others should have liberty to follow
   that mode of religion which to each of them appeared best...
+modern_rendering: >-
+  We, Constantine and Licinius, emperors, met together at Milan. We discussed matters
+  concerning the good and safety of the common good. Among the things that benefit mankind
+  in general, one thing seemed to us to deserve our first and chief attention. That thing
+  was the reverence paid to God. It also seemed proper to us that Christians, and everyone
+  else, should have the freedom to follow whichever form of religion seemed best to each
+  of them...
 speaker_or_author: ijc.figure.constantine
 license: verbatim
 modern_lens_note: >-
@@ -35,19 +42,14 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 ---
-Text verified verbatim against the vendored file 2026-08-21. The
+Text verified verbatim against the vendored file. The
 so-called Edict of Milan's own opening, as Lactantius preserves the
 promulgated text (jointly issued with Licinius; the speaker attribution
 carries Constantine as the world's own figure, with Licinius named in
 the text itself). The world's legal beginning in its own words:
 liberty of religion first, restitution of church property following in
-the same document. Disclosed at a follow-up confirmation review
-(2026-08-22): this quote is truncated at "appeared best" with a period
-substituted for the file's own semicolon, which continues "so that
+the same document. This quote is truncated at "appeared best"
+with a trailing ellipsis, which continues "so that
 that God, who is seated in heaven, might be benign and propitious to
-us..." - the truncation itself is a defensible editorial choice (the
-sentence's core clause is complete); the undisclosed punctuation
-substitution was not.
-
-Quote-verbatim gate fix (2026-09-22): the flagged punctuation substitution is corrected - the invented
-period is replaced with a trailing ellipsis, honestly marking the already-judged-defensible truncation.
+us..." - the truncation itself is a defensible editorial choice: the
+sentence's core clause is complete at that point.

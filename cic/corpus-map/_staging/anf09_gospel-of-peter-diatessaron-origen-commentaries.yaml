@@ -1,4 +1,4 @@
-# Corpus assignment worker, 2026-08-26. Anonymous-and-collective group.
+# Anonymous-and-collective group.
 # Apparatus (title pages, preface, per-work Introductions where marked,
 # indexes) is skipped. The "Synoptical Table" under the Gospel of Peter
 # (div2 3.3) is the editor's comparison apparatus, not a source, and gets no
@@ -71,7 +71,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Gospel of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-gospel-of-peter
+  work: The Gospel of Peter
   author: gospel-of-peter
   locus: div2 3.2 (Akhmim fragment)
   atlas_ids:
@@ -81,12 +82,12 @@ assignments:
   confidence: assigned
   note: '2nd-century passion gospel in use at Rhossus in Antioch''s orbit — pahc''s era and
     region — but Serapion of Antioch condemned its docetic use (his letter is in anf08 div2
-    10.13, cross-referenced there). Whether a gospel the entry''s own bishops rejected is
-    pahc ''tradition'' is exactly a Mark question; it is not Scripture in the sense brief
-    6.5 excludes, so it is assigned rather than dropped. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
-- work: The Diatessaron of Tatian
+    10.13, cross-referenced there). It is not Scripture in the sense brief
+    6.5 excludes, so it is assigned rather than dropped. apocryphal-and-pseudepigraphal-literature
+    holds this class alongside pahc; pahc is kept where the subject matter is genuinely
+    apostolic-era, and this entry names what the TEXT is.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-diatessaron-of-tatian
+  work: The Diatessaron of Tatian
   author: tatian
   locus: div2 4.3 (with subscriptions, 4.4)
   atlas_ids:
@@ -99,7 +100,8 @@ assignments:
     is in anf02 (another worker''s file). His Encratism has no census entry; noted, not assigned.
 
     '
-- work: The Apocalypse of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-peter
+  work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
   atlas_ids:
@@ -111,10 +113,11 @@ assignments:
   note: 'c. 100-150; stood near the canon''s edge (Muratorian fragment; cited by Clement of
     Alexandria, whence the alexandria guess; Egyptian or Palestinian provenance argued). The
     census has no bucket for early apocryphal apocalypses as a class; both ids are guesses.
-    2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class these
-    notes kept saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
-    this entry names what the TEXT is.'
-- work: The Vision of Paul
+    apocryphal-and-pseudepigraphal-literature holds this class alongside the other two; pahc
+    is kept where the subject matter is genuinely apostolic-era, and this entry names what
+    the TEXT is.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-vision-of-paul
+  work: The Vision of Paul
   author: apocalypse-of-paul
   locus: div2 6.2
   atlas_ids:
@@ -123,10 +126,11 @@ assignments:
   confidence: assigned
   note: '= The Apocalypse of Paul, c. 380-400, likely Egyptian, immensely popular among monks
     and in the medieval West. The same work is staged from anf08 (div2 7.40, ''Revelation
-    of Paul'') with the same id and the same doubt — one ruling settles both. desert-monasticism
-    is arguably next-best given its monastic circulation. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    was added to hold exactly this class, and alexandria was a provenance guess only.'
-- work: The Apocalypse of the Virgin
+    of Paul'') with the same id and the same doubt — one assignment settles both. desert-monasticism
+    is arguably next-best given its monastic circulation. apocryphal-and-pseudepigraphal-literature
+    holds exactly this class; alexandria was only ever a provenance guess.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-the-virgin
+  work: The Apocalypse of the Virgin
   author: apocalypse-of-the-virgin
   locus: div2 7.2
   atlas_ids:
@@ -134,13 +138,14 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Medieval Greek tour-of-hell apocalypse; its possible dates span several Byzantine
-    entries, and an Ante-Nicene volume is not evidence of an ante-Nicene work. Needs a ruling
-    on which segment, if any. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+    entries, and an Ante-Nicene volume is not evidence of an ante-Nicene work. Which segment,
+    if any, is the harder question; this entry places it in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.'
-- work: The Apocalypse of Sedrach
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-sedrach
+  work: The Apocalypse of Sedrach
   author: apocalypse-of-sedrach
   locus: div2 8.2
   atlas_ids:
@@ -148,12 +153,13 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Byzantine-era Greek apocalypse on older Jewish material; same which-segment doubt
-    as the Apocalypse of the Virgin. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+    as the Apocalypse of the Virgin. This entry places it in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.'
-- work: The Testament of Abraham
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-testament-of-abraham
+  work: The Testament of Abraham
   author: testament-of-abraham
   locus: div2 9.3
   atlas_ids:
@@ -162,10 +168,10 @@ assignments:
   confidence: assigned
   note: 'Jewish pseudepigraphon (Egypt, 1st-2nd c. argued) in Christian transmission — the
     census has no bucket for the class (same problem as anf08''s Revelation of Moses and Testaments
-    of the Twelve Patriarchs); alexandria is a provenance guess only. Re-pointed 2026-08-26:
-    apocryphal-and-pseudepigraphal-literature was added to hold exactly this class, and alexandria
-    was a provenance guess only.'
-- work: The Acts of Xanthippe and Polyxena
+    of the Twelve Patriarchs); alexandria is a provenance guess only. apocryphal-and-pseudepigraphal-literature
+    holds exactly this class.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-acts-of-xanthippe-and-polyxena
+  work: The Acts of Xanthippe and Polyxena
   author: acts-of-xanthippe-and-polyxena
   locus: div2 10.2
   atlas_ids:
@@ -175,10 +181,11 @@ assignments:
   confidence: assigned
   note: 'Greek romance dependent on the Paul-and-Thecla tradition, but composed well after
     it (3rd c. or later); pahc is carried over from its literary parent, not from evidence
-    about this text. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside
-    - the class these notes kept saying had no bucket. pahc is kept where the subject matter
-    is genuinely apostolic-era; this entry names what the TEXT is.'
-- work: The Narrative of Zosimus
+    about this text. apocryphal-and-pseudepigraphal-literature holds this class alongside
+    pahc; pahc is kept where the subject matter is genuinely apostolic-era, and this entry
+    names what the TEXT is.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-narrative-of-zosimus
+  work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2
   atlas_ids:
@@ -187,10 +194,11 @@ assignments:
   confidence: assigned
   note: 'Legend of the Blessed Ones (the Rechabites), Jewish core with Christian reworking,
     date and provenance uncertain; pahc stands in for ''early Christian transmission milieu''
-    only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class
-    these notes kept saying had no bucket. pahc is kept where the subject matter is genuinely
-    apostolic-era; this entry names what the TEXT is.'
-- work: The Narrative of Zosimus
+    only. apocryphal-and-pseudepigraphal-literature holds this class alongside pahc; pahc
+    is kept where the subject matter is genuinely apostolic-era, and this entry names what
+    the TEXT is.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-narrative-of-zosimus-2
+  work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2
   atlas_ids:
@@ -199,13 +207,13 @@ assignments:
   confidence: assigned
   note: 'Legend of the Blessed Ones (the Rechabites), Jewish core with Christian reworking,
     date and provenance uncertain; pahc stands in for ''early Christian transmission milieu''
-    only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class
-    these notes kept saying had no bucket. pahc is kept where the subject matter is genuinely
-    apostolic-era; this entry names what the TEXT is. Role ruled 2026-08-26: `transmission`,
-    the fourth relation, added on Mark''s ruling. The relation is CUSTODY - this tradition
-    preserved a work that is not its own voice. Jewish core with Christian reworking; preserved
-    in Christian transmission, not composed here.'
-- work: The First Epistle of Clement to the Corinthians
+    only. apocryphal-and-pseudepigraphal-literature holds this class alongside pahc; pahc
+    is kept where the subject matter is genuinely apostolic-era, and this entry names what
+    the TEXT is. `transmission`, the fourth relation, applies here: the relation is CUSTODY
+    - this tradition preserved a work that is not its own voice. Jewish core with Christian
+    reworking; preserved in Christian transmission, not composed here.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-first-epistle-of-clement-to-the-corinthians
+  work: The First Epistle of Clement to the Corinthians
   author: clement_rome
   locus: div2 12.4
   atlas_ids:
@@ -218,7 +226,8 @@ assignments:
     file); two source files in one bucket is what the merge expects.
 
     '
-- work: The Second Epistle of Clement (an ancient homily)
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-second-epistle-of-clement-an-ancient-homily
+  work: The Second Epistle of Clement (an ancient homily)
   author: second-clement
   locus: div2 12.6
   atlas_ids:
@@ -229,7 +238,8 @@ assignments:
     deliberately.
 
     '
-- work: The Apology of Aristides the Philosopher
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
   author: aristides
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   atlas_ids:
@@ -237,13 +247,13 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: assigned
-  note: 'The earliest apology surviving whole (c. 125, Athens, to Hadrian per the Introduction).
+  note: 'The earliest apology surviving whole (Hadrian, c. 125, per the ANF Introduction; the Syriac superscription names Antoninus Pius, 138-161, which Harris 1893 and Harnack 1897 prefer: Contested, both inside the entry''s window).
     Athens is outside pahc''s named regions, but the era and church-world are pahc''s — same
     treatment as Quadratus in anf08. Its Syriac preservation is a transmission fact, not an
-    Edessene assignment. 2026-08-26: greek-apologists-second-century added alongside - the
-    entry the corpus assignment showed was missing, for the era''s outward-facing writing.
-    pahc is kept: the era and church-world really are its.'
-- work: The Passion of the Scillitan Martyrs
+    Edessene assignment. greek-apologists-second-century holds this work for the era''s outward-facing
+    writing; pahc is kept because the era and church-world are genuinely its.'
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-passion-of-the-scillitan-martyrs
+  work: The Passion of the Scillitan Martyrs
   author: passion-of-scillitan-martyrs
   locus: div2 14.3
   atlas_ids:
@@ -256,7 +266,8 @@ assignments:
     Latin-African bucket exists.
 
     '
-- work: Letter of Origen to Gregory
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--letter-of-origen-to-gregory
+  work: Letter of Origen to Gregory
   author: origen
   locus: div2 15.2
   atlas_ids:
@@ -268,7 +279,8 @@ assignments:
     through Gregory''s memory there, noted rather than asserted.
 
     '
-- work: Origen's Commentary on the Gospel of John
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-john
+  work: Origen's Commentary on the Gospel of John
   author: origen
   locus: div2 15.3
   atlas_ids:
@@ -281,7 +293,8 @@ assignments:
     files).
 
     '
-- work: Origen's Commentary on the Gospel of Matthew
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-matthew
+  work: Origen's Commentary on the Gospel of Matthew
   author: origen
   locus: div2 16.2
   atlas_ids:

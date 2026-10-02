@@ -27,14 +27,17 @@ text: As for us, then, we scrupulously observe the exact day, neither adding nor
   the world, and have read through all Holy Scripture, am not frightened at the things which are said
   to terrify us. For those who are greater than I have said, "We ought to obey God rather than men."
 modern_rendering: >-
-  As for us, we keep the exact day, adding nothing and taking nothing away.
-  Great lights of the faith have died here in Asia, and they will rise again
-  on the day the Lord comes. I, Polycrates, the least of you all, follow the
-  tradition of my family. Seven of my relatives were bishops, and I am the
-  eighth. I am sixty-five years old in the Lord, brothers. I have met
-  believers from all over the world, and I have read the whole of Holy
-  Scripture. And I am not frightened by threats. Men greater than I have said:
-  'We ought to obey God rather than men.'
+  As for us, we keep the exact day with great care, adding nothing and
+  taking nothing away. For in Asia great luminaries have gone to their
+  rest, and they will rise again on the day the Lord comes. And I too,
+  Polycrates, the least of you all, follow the tradition of my
+  relatives, some of whom I have succeeded. Seven of my relatives were
+  bishops, and I am the eighth. My relatives always kept the day when
+  the people put away the leaven. I myself, brothers, am sixty-five
+  years old in the Lord. I have met the brothers in every part of the
+  world, and I have read through all of Holy Scripture. So I am not
+  frightened by the things people say to terrify us. For those greater
+  than I have said: "We ought to obey God rather than men."
 speaker_or_author: Polycrates, bishop of Ephesus, writing to Victor of Rome
 license: verbatim
 modern_lens_note: >-
@@ -53,7 +56,7 @@ relations:
 - {type: illustrates, target: pahc.gravity.translocal-network}
 - {type: illustrates, target: pahc.gravity.authority-consolidation}
 ---
-Verified verbatim against the vendored file 2026-08-27 at anf08 line
+Text is verified verbatim against the vendored file at anf08 line
 72582. DISCLOSED, two elisions, both at clause or sentence boundaries:
 after "coming of the Lord" the file continues "when He cometh with glory
 from heaven and shall raise again all the saints," followed by the roll
@@ -63,16 +66,13 @@ passover on the fourteenth day of the month, in accordance with the
 Gospel"; and the ANF's interleaved Greek glosses and bracketed editorial
 notes are excluded throughout.
 
-Quote-verbatim gate fix (2026-09-22): the `text` field itself carried neither disclosed elision as an
-actual ellipsis mark, so the gate (and any reader checking the quote against its own citation) had no
-way to see the gap the paragraph above already discloses. Two separate fixes: the roll-of-the-dead
-elision is now marked with a real "..." rather than silently absent - it's long, heavily interrupted
-by the edition's own endnotes, and already deliberately elided by this record's own reasoning, so
-ellipsis is the honest marker, not restoration. The second, shorter elision ("and my relatives always
-observed the day when the people put away the leaven") is fully restored instead - it's short, clean
-once the edition's own endnote is stripped, and the record's previous "I am the eighth - I myself"
-also had the wrong punctuation (the source has no dash there at all; the real dash sits at "leaven-I
-myself"). No claim in this record changes either way.
+Both disclosed elisions are marked in the `text` field itself, so the gap the paragraph above
+discloses is visible there too. The roll-of-the-dead elision is marked with a real "..." - it is
+long, heavily interrupted by the edition's own endnotes, and deliberately elided by this record's
+own reasoning, so an ellipsis is the honest marker, not a restoration. The second, shorter elision
+("and my relatives always observed the day when the people put away the leaven") is fully restored,
+once the edition's own endnote is stripped. The punctuation follows the source exactly: there is no
+dash after "I am the eighth"; the real dash sits at "leaven-I myself".
 
 THIS IS A PRIMARY GRAVITY'S HARDEST CASE AND IT WAS MISSING.
 pahc.gravity.translocal-network is about the letters that held scattered
@@ -83,6 +83,9 @@ sides claiming apostolic descent for their practice. Polycrates' answer
 is not an argument from scripture or from reason - it is a list of the
 dead, and a count of his own family's bishops, and a refusal.
 
-MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+The modern rendering is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3. It follows the project's approved register: short sentences, everyday words, translation fidelity kept.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+"Who am sixty-five years old... and have fallen in with the brethren... and have read through
+all Holy Scripture" is, in the source, the stated grounds for "am not frightened," not a
+separate list of facts. The rendering ties them with "So" before "I am not frightened," rather
+than as four disconnected sentences.

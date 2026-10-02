@@ -24,7 +24,7 @@ attribution_status: "attributed per fragment; the attributions are Eusebius' and
 discovery_channel: "found by the cross-world corpus assignment, which assigned twenty-three anf08 works to this world and observed no record here had opened the volume"
 external_ids: {ccel_volume: "anf08"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights are verified from the file's own DC.Rights header (Public
 Domain). Section loci verified directly: Quadratus 70010, Aristo 70047,
 Melito 70117, Hegesippus 71396, Dionysius of Corinth 71715, Rhodon
 71796, Claudius Apollinaris 72428, Polycrates 72521, Serapion 72678,
@@ -63,8 +63,7 @@ the Letter of the Churches of Lyons and Vienne, which the corpus map
 carries as `provisional` on the attribution and which deserves its own
 record rather than a mention here.
 
-ALSO NOT YET DRAWN ON (flagged 2026-09-09, supplemental review, not
-acted on): Apollonius's own fragments against Montanism (anf08 lines
+NOT YET DRAWN ON: Apollonius's own fragments against Montanism (anf08 lines
 72746-72790, c. 211 CE) - a further independent primary-voice witness
 to the New Prophecy controversy, distinct from the Anonymous/"Asterius
 Urbanus" material already drawn on at pahc.quote.asia-rejected-new-

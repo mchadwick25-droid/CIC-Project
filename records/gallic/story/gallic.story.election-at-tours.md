@@ -56,6 +56,12 @@ relations:
   target: gallic.gravity.authority-ambivalence
 - type: associated-with
   target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.quote.ruricius-and-the-vote-for-tours
+- type: associated-with
+  target: gallic.quote.the-psalm-that-answered-defensor
+- type: associated-with
+  target: gallic.quote.martin-kept-the-virtues-of-a-monk
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with the appropriate caveats. Direct textual attestation
@@ -81,33 +87,29 @@ text: >-
   In his Life of St. Martin, Sulpitius Severus records how Martin, a monk, was made bishop of Tours -
   against his own wish, by a trick, and against some of the bishops.
 
-  Martin "was called upon to undertake the episcopate of the church at Tours; but when he could not
-  easily be drawn forth from his monastery, a certain Ruricius, one of the citizens, pretending that
-  his wife was ill, and casting himself down at his knees, prevailed on him to go forth." It was an
-  ambush of kindness: "multitudes of the citizens having previously been posted by the road on which he
-  traveled, he is thus under a kind of guard escorted to the city." An enormous crowd had gathered to
-  give their votes, from Tours and from the neighboring cities, and "there was but one wish among all
-  ... that Martin was most worthy of the episcopate, and that the church would be happy with such a
-  priest."
+  Martin was asked to take the bishopric of Tours, but he would not easily leave his monastery. So a
+  citizen named Ruricius pretended his wife was sick, knelt before Martin, and begged him to come out -
+  and once Martin agreed, citizens lining the road escorted him into the city as if under guard
+  (gallic.quote.ruricius-and-the-vote-for-tours). An enormous crowd had gathered to vote, from Tours and
+  the neighboring towns, and nearly everyone agreed: Martin deserved the office, and the church would be
+  fortunate to have him as its priest.
 
-  Not everyone. "A few persons, however, and among these some of the bishops, who had been summoned to
-  appoint a chief priest, were impiously offering resistance, asserting forsooth that Martin's person
-  was contemptible, that he was unworthy of the episcopate, that he was a man despicable in
-  countenance, that his clothing was mean, and his hair disgusting." The people laughed at them,
-  Sulpitius says, since "such objectors only proclaimed the illustrious character of the man, while
-  they sought to slander him." One bishop, Defensor, "is said to have specially offered opposition."
+  Not everyone. A few people, including some of the bishops summoned to consecrate the new priest,
+  fought the choice - they called Martin's person contemptible, his face plain, his clothes shabby, and
+  his hair disgusting. The crowd only laughed, since the objection proved the very holiness it tried to
+  deny. One bishop, Defensor, led the opposition.
 
-  What answered him was the psalter. The reader whose turn it was that day "being blocked out by the
-  people, failed to appear"; the officials waited in confusion; and "one of those standing by, laying
-  hold of the Psalter, seized upon the first verse which presented itself to him": Out of the mouth of
-  babes and sucklings thou hast perfected praise because of thine enemies, that thou mightest destroy
-  the enemy and the avenger. "On these words being read, a shout was raised by the people, and the
-  opposite party were confounded. It was believed that this Psalm had been chosen by Divine ordination,
-  that Defensor might hear a testimony to his own work."
+  What answered him was the psalter. The reader due to speak that day could not get through the crowd
+  and never appeared. While the officials stood confused, someone nearby seized the psalter and opened
+  it to whatever verse came first: Out of the mouth of babes and sucklings thou hast perfected praise
+  because of thine enemies, that thou mightest destroy the enemy and the avenger. The crowd shouted at
+  the reading, and Defensor's side fell silent. People believed the verse had been chosen by God
+  himself, so that Defensor could hear, in Martin's case, a testimony to his own resistance
+  (gallic.quote.the-psalm-that-answered-defensor).
 
-  And then, Sulpitius goes on in the next chapter, the new bishop did not change: "he kept up the
-  position of a bishop properly, yet in such a way as not to lay aside the objects and virtues of a
-  monk."
+  And then, Sulpitius goes on in the next chapter, the new bishop did not change: he carried himself
+  with the dignity a bishop's office required, without giving up the plain habits of a monk
+  (gallic.quote.martin-kept-the-virtues-of-a-monk).
 absent_detail: >-
   The text gives no year for the election and does not name the monastery Martin was drawn from. The
   objecting bishops' own side is not heard; Sulpitius is no friend to them. The two nodes never cite
@@ -121,24 +123,10 @@ modern_contrast: >-
   mean clothes, disgusting hair. The south's formation teaching would have added the warning Tours
   never needed to state: vainglory "creates a wish to take holy orders."
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory004_election-at-tours.md (Tier 1, Tours
-node, Registry row 1). Story Text carried faithfully; the chunk's post-review corrections respected
-(H2: "the monk of Ligugé" absent; M8: the defensor-name identification withdrawn). Cross-node pairing
-with gallic.story.bishop-archebius and gallic.story.honoratus-and-the-island declared as
-associated-with story-to-story relations, because the chunk's own Usage Guidance directs that the three
-capture-stories be retrieved alongside one another - with the pairing stated in the record as a finding
-of the construction (Doc_07 §2C), never as the world's own comparison.
-
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as the founding narrative of G1 - the monk-bishop (Primary,
-cross-node; this world's distinct-world criterion, Doc_01 §1) at the Tours node - the northern half of
-Doc_07 §2C's "narrated at every house as capture," and the drain Doc_08 Force 2A-2 names; G9 -
-ambivalence toward episcopal authority (Tensional, opposed valences) in its northern valence at the
-moment of origin - the monk-bishop made against bishops; and G6 - virtus applied to a book, the psalter
-opened at random (Doc_05 §6C mode 6: "Scripture as oracle - G6's logic applied to a book"). The story
-layer reconciles what the gravity layer holds as a competition (G1 x G9, Doc_04 §4).
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.monk-bishop and
-illustrates gallic.gravity.authority-ambivalence; associated-with gallic.gravity.virtus - each
-connection named above, with the reciprocal back-edge (illustrated-by / associated-with) declared on
-every one of those gravity records.
+The cross-node pairing with gallic.story.bishop-archebius and gallic.story.honoratus-and-the-island,
+declared as story-to-story relations above, is a finding of the construction - the three capture
+stories are retrieved alongside one another - never a comparison the world's own sources make
+themselves. Illustrates gallic.gravity.monk-bishop as the founding narrative of the office made against
+bishops at the Tours node, and gallic.gravity.authority-ambivalence in its northern valence at the
+moment of origin; associated-with gallic.gravity.virtus, since the psalter opened at random is virtus
+applied to a book.

@@ -32,7 +32,7 @@ note: 'Augustine''s Contra Gaudentium Donatistarum Episcopum, Libri II (c. 420) 
   quotation method only -- neither book''s specific content has been read for any claim. RESOLVES ONE
   OF B-1''s TWO NAMED DISCREPANCIES: wb_don_s21.py''s own docstring flagged row 56 as having no cic/corpus-map/donatism.yaml
   entry at all. Checked directly this sweep: row 56 was added after the corpus map''s own most recent
-  merge, and the row''s own text already discloses this ("added 2026-09-08", after the corpus map''s own
+  merge, and the row''s own text already discloses this (added after the corpus map''s own
   donatism.yaml entries were last generated) -- a currency gap in a generated file, not an error in the
   row. Named here as a candidate for the corpus map''s own next regeneration pass, not silently left implying
   the row is defective.'

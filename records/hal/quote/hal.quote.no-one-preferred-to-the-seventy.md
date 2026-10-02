@@ -29,6 +29,14 @@ text: >-
   his to be faithful, while they contend that the Septuagint translators have erred in many places,
   still the churches of Christ judge that no one should be preferred to the authority of so many
   men, chosen for this very great work by Eleazar, who was then high priest...
+modern_rendering: >-
+  Our age has had the advantage of the presbyter Jerome, a very learned man, skilled in
+  all three languages. He translated these same Scriptures into Latin -- not from the
+  Greek, but from the Hebrew. The Jews themselves admit that this learned work of his is
+  faithful. Yet they also argue that the Septuagint translators erred in many places.
+  Still, the churches of Christ judge one thing: no one should be preferred over the
+  authority of so many men -- men chosen for this very great work by Eleazar, who was high
+  priest at the time...
 speaker_or_author: Augustine of Hippo, in the City of God
 license: verbatim
 modern_lens_note: >-
@@ -53,7 +61,7 @@ relations:
 - type: tension-with
   target: hal.gravity.hebraica-veritas
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 36715.
+Verified verbatim against the vendored file at line 36715.
 DISCLOSED: the NPNF prints a bracketed editorial note by Philip Schaff
 after "not from the Greek, but from the Hebrew", giving Jerome's dates and
 the Vulgate's later standing; it is excised here as nineteenth-century
@@ -64,9 +72,11 @@ Declared `tension-with` hal.gravity.hebraica-veritas rather than
 against, stated at full strength by someone who admired the man he was
 overruling.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "high priest" was invented -
-the source's sentence continues with a semicolon into a further, separate argument (that a sign of
-divinity appearing in the seventy translators, not just scholarly consensus, validates them). Marked
-with a trailing ellipsis rather than restored: the record's gloss is specifically about the
-concession-then-refusal structure, complete at "high priest"; the further argument is a different
-theological point modern_lens_note doesn't address.
+The quote ends at "high priest" marked with a trailing ellipsis: the
+source's sentence continues with a semicolon into a further, separate
+argument (that a sign of divinity appearing in the seventy translators,
+not just scholarly consensus, validates them) - a different theological
+point modern_lens_note doesn't address, so the ellipsis marks the
+truncation honestly rather than restoring it. The record's gloss is
+specifically about the concession-then-refusal structure, complete at
+"high priest".

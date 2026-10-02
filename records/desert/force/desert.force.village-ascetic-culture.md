@@ -43,8 +43,5 @@ kind: initiating maps Doc_08's own Cell 1B (initiating/internal); the
 cell code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 1 review Finding M2: divergence_note attributed the Vita's
-incident-level Contested rating to "Doc_01 SS10," which presents
-Brakke's reading as a critical position but assigns no confidence level
-to the Vita's incident-level reliability itself; the actual rating is
-Doc_02 SS1.1's, verbatim - corrected above.
+divergence_note attributes the Vita's incident-level Contested rating
+to Doc_02 SS1.1, verbatim.

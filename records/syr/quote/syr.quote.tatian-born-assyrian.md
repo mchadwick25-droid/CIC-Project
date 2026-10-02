@@ -20,6 +20,10 @@ sources:
 text: These things, O Greeks, I Tatian, a disciple of the barbarian philosophy, have composed for you.
   I was born in the land of the Assyrians, having been first instructed in your doctrines, and afterwards
   in those which I now undertake to proclaim.
+modern_rendering: >-
+  I, Tatian, a follower of non-Greek philosophy, have composed these things for you,
+  Greeks. I was born in the land of the Assyrians. I was first instructed in your
+  teachings, and afterward in the ones I now proclaim.
 speaker_or_author: syr.figure.tatian
 license: verbatim
 modern_lens_note: >-
@@ -34,7 +38,7 @@ retrieval:
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---
-Verified verbatim against the vendored file 2026-08-27 at anf02 line
+Verified verbatim against the vendored file at anf02 line
 7460. DISCLOSED: the ANF editors' bracketed cross-reference "[Comp. cap.
 xxix. p. 77, supra.]" stands in the file between "barbarian philosophy,"
 and "have composed for you" and is excised here; nothing else is
@@ -50,9 +54,6 @@ against. The Syriac churches' claim on the Diatessaron's maker has
 always rested on this sentence. This world had been making the claim on
 Eusebius' authority; it is now made on his own.
 
-CELL ASSIGNED 2026-08-27. This record was created earlier the same day with
-canon_cells empty, which put it in no coverage cell at all - unreachable by
-retrieval except through the last-resort full-text fallback. F2-I is where
-this world's own records discuss Tatian (measured: every cell-bearing record
-mentioning him is F2-I), and the passage is the preface to his turning from
-Greek instruction to the "barbaric writings".
+F2-I is where this world's own records discuss Tatian (measured: every
+cell-bearing record mentioning him is F2-I), and the passage is the preface
+to his turning from Greek instruction to the "barbaric writings".

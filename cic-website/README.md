@@ -2,7 +2,7 @@
 
 A plain static site (no build step, no framework) for churchinconversation.com
 (primary) and churchinconversation.org (kept registered, redirects to .com).
-Brand system: `Ministry/Communication/Brand-Assets/`
+Brand system: `Build/Ministry/Communication/Brand-Assets/`
 and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 ## Pages
@@ -10,27 +10,23 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 - `index.html` — Home
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
 - `support.html` — "Get Involved," rewritten with real cost figures; see its own
-  header comment and `Ministry/Features/Funding-Strategy/Decision-Log.md` for the
-  derivation. **Removed from nav again 2026-09-19** (Mark, direct instruction) —
-  page needs a content refresh; the homepage's own "Keep the Door Open" section
-  carries the real Stripe give links directly, so giving still works with this
-  page unlinked. Originally
-  named two funds (Accessibility, Academic Review) — **Academic Review Fund dropped
-  2026-08-25** (Mark, direct instruction, not doing that ask yet); just the
-  Accessibility Fund now. **Real checkout is live since 2026-08-25** — two Stripe
-  Payment Links (one-time and monthly), both feeding that one fund, no server
-  involved; see the page's own header comment for which link is which.
+  header comment and the funding-strategy decision record under
+  `Build/Ministry/Features/Funding-Strategy/` for the full derivation. Currently
+  unlinked from the site nav — needs a content refresh; the homepage's own
+  "Keep the Door Open" section carries the real Stripe give links directly,
+  so giving still works with this page unlinked. Names one fund,
+  Accessibility, with real checkout live — two Stripe Payment Links
+  (one-time and monthly), both feeding that one fund, no server involved;
+  see the page's own header comment for which link is which.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
-**Entity status (updated 2026-07-27): Faithways Studio, Inc. is incorporated**
-(Colorado Public Benefit Corporation, Entity ID 20261918758, Formation Date
-07/27/2026; not a nonprofit,
-no 501(c)(3), contributions are not tax-deductible). The Support page's giving
-mechanics (live since 2026-08-25, see the Pages section above) are built around
-the monetization ladder in `Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`,
-not charitable-deductibility framing — see that file before changing the ask
-copy or amounts.
+**Faithways Studio, Inc. is incorporated** (Colorado Public Benefit
+Corporation, Entity ID 20261918758; not a nonprofit, no 501(c)(3),
+contributions are not tax-deductible). The Support page's giving mechanics
+(see the Pages section above) are built around the monetization ladder in
+`Build/Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`, not charitable-deductibility
+framing — see that file before changing the ask copy or amounts.
 
 ## Deploying (Cloudflare Pages — free tier, recommended)
 
@@ -62,11 +58,6 @@ Claude Artifact, so no need to self-host or inline the font files.
 
 ## Known follow-ups, not yet done
 
-- **Resolved, 2026-07-21:** every page's contact link now points to
-  `info@churchinconversation.com` — Mark confirmed this is the real mailbox
-  he set up for the general website link (matching the product-identity Zoho
-  mailbox from the entity-formation update). The earlier `hello@` address
-  this site briefly used is retired.
 - The "How It Works" and "Safety & Disclosure" sections on the About page
   were written directly from the Vision doc and Constitution's own
   commitments (Article 17/Article 6-adjacent language) — worth a brand-kit

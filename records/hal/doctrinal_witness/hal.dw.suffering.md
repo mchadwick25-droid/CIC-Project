@@ -56,4 +56,4 @@ F6-personal answer-ground for the suffering questions. Companion quote:
 hal.quote.city-taken (verified verbatim); companion stories:
 hal.story.marcella-death, hal.story.attack-416, hal.story.rome-crisis.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

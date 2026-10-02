@@ -35,6 +35,15 @@ text: >-
   this old woman arrived at such a state of impassibility that when I entered into
   her presence and sat down by her side, she stretched out her hands and laid them upon my
   shoulders, in the boldness and freedom which she had acquired in Christ.
+modern_rendering: >-
+  Sixty virgins lived with her, following the path and rule of the ascetic life in
+  purity. They lived a happy life under the teaching of this good old woman, whom they
+  loved and depended on. They poured out such great affection on her that the key was
+  never taken away from any one of them. This was unlike the custom in other religious
+  houses for women. Through her divine teaching, she changed them into a state of
+  incorruption. This old woman reached such a state of dispassion that when I came into
+  her presence and sat down beside her, she stretched out her hands and laid them on my
+  shoulders. She did this with the boldness and freedom she had gained in Christ.
 speaker_or_author: Palladius, on Mother Talida of Antinoe
 license: verbatim
 modern_lens_note: >-
@@ -61,7 +70,7 @@ relations:
 - type: associated-with
   target: desert.term.apatheia
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Verified verbatim against the vendored file.
 
 The most useful single passage in this file for this world. It carries an
 amma running a house of sixty under her own teaching, a named informant
@@ -69,7 +78,6 @@ chain, a first-hand scene, an incidental fact about how OTHER women's
 houses were run, and a technical claim about apatheia attached to a
 woman - all in one paragraph.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "for women" was invented - the
-source's sentence continues with a real clause ("and through her divine doctrine she changed them
-into a state of incorruptibility"), silently dropped. Restored; a natural continuation of the same
-point about her teaching, not a change of claim.
+The text field carries the source's sentence in full past "for women," including the clause "and
+through her divine doctrine she changed them into a state of incorruptibility" - a natural
+continuation of the same point about her teaching.

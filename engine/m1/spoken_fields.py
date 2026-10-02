@@ -46,6 +46,18 @@ because the same field can reach different surfaces differently:
   functions (`_figure_label`, `_quote_label`), not reimplemented here;
   this registry only declares which fields feed them, so a future field
   those helpers start reading has to be declared too.
+- "facilitator-spoken": composed, multi-sentence prose the Facilitator's
+  own apparatus (not the world's Representative voice) puts in front of
+  a participant, whether spoken verbatim in a turn
+  (`engine/m4/facilitator_turns.py` `bridge_turn()`) or read on an
+  expanded citation card. A different speaker/surface from every role
+  above (all four of those reach the participant, if at all, through the
+  world's own voice), so it is its own role rather than folded into
+  "participant-label" — a label is a short display string by design (a
+  term's `world_word` is defined to BE one word; a card's headline is
+  one line); this is full composed sentences a real person reads or
+  hears, and grading it for reading level is exactly the job
+  `gate_readability` already does for every other spoken-prose role.
 
 A field carrying more than one role is deliberate, not an error — most
 fields reach a participant through more than one surface at once.
@@ -56,7 +68,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class SpokenField:
-    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label"
+    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label" | "facilitator-spoken"
     note: str = ""
 
 
@@ -76,6 +88,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "identity": SpokenField("instruction"),
         "guard": SpokenField("instruction"),
         "characteristic_concerns": SpokenField("instruction", "list[str]"),
+        "source_anchor": SpokenField("instruction", "present only when the world carries an approved-source anchoring paragraph"),
         "flavor_notes": SpokenField("instruction", "list of {segment, note}; .note is the spoken text"),
     },
     "world_core": {
@@ -83,6 +96,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "formation_logic": SpokenField("voice-diet"),
         "thinness": SpokenField("voice-diet"),
         "cautions": SpokenField("voice-diet"),
+        "living_traditions": SpokenField("voice-diet", "present only when Article 29 is CONFIRMED for this world"),
     },
     "term": {
         "plain_meaning": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head"),
@@ -130,6 +144,12 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     "ambient": {
         "detail": SpokenField("voice-diet", "_chunk_text only"),
     },
+    "modern_term": {
+        "display_terms": SpokenField("participant-label", "citation-card label (comma-joined) via citation_cards._LABEL_FIELDS"),
+        "modern_sense": SpokenField("facilitator-spoken", "spoken verbatim by the Facilitator's own composed bridge_turn text, never the world's voice; also carried on the citation card"),
+        "underlying_subject": SpokenField("voice-diet", "the term-free message facilitator_turns.bridge_turn hands the voice as its own ground; the Facilitator's composed text also speaks it verbatim to the participant"),
+        "distinguishing_claim": SpokenField("facilitator-spoken", "multi-sentence citation-card prose via citation_cards.resolve_source_card - real composed prose, not a short label, so it is graded the same way modern_sense is"),
+    },
 }
 
 
@@ -170,7 +190,7 @@ def fields_with_role(record_type: str, *roles: str) -> list[str]:
 # engine/m1/gates.py gate_no_build_attribution's own field scan.
 ATTRIBUTION_FIELDS: dict[str, list[str]] = {
     "voice_craft": ["identity", "guard"],
-    "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
+    "world_core": ["horizon", "formation_logic", "thinness", "cautions", "living_traditions"],
     "term": ["plain_meaning", "quick_meaning", "world_word"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],

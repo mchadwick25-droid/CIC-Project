@@ -36,6 +36,13 @@ text: >-
   blessed man Possidonius had dwelt with him for many days, and he told me that the free-woman
   Paula, who had taken care of him, departed from this world before her time in order that she
   might escape from his envy...
+modern_rendering: >-
+  A certain elder named Hieronymus lived in these parts. He was extremely skilled in the
+  art and practice of grammar and eloquence. He was also greatly skilled in the Latin
+  language. But he had the vices of envy and evil-eyedness. These vices entirely hid the
+  excellence of his very great skill and ability. The blessed man Possidonius had lived
+  with him for many days. He told me that the free-woman Paula, who had taken care of him,
+  left this world before her time in order to escape his envy...
 speaker_or_author: Palladius, reporting Possidonius, in the Syriac recension of the Paradise
 license: verbatim
 modern_lens_note: >-
@@ -59,7 +66,7 @@ relations:
 - type: associated-with
   target: hal.figure.paula
 ---
-Verified verbatim 2026-08-27 against the vendored file, Book I, ch. l.
+Verified verbatim against the vendored file, Book I, ch. l.
 
 Registered ALONGSIDE hal.quote.hindered-by-jerome, never in place of it.
 That record carries the Greek-based line this world's contested claim was
@@ -75,9 +82,10 @@ Clarke numbers 41, which opens with her and carries the "hindered by a
 certain Jerome" sentence, has no counterpart naming her. Searched
 directly - her name occurs once in the whole file, here.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "his envy" was invented - the
-source's sentence continues with a comma into an account of the same man's envy against other,
-unrelated people (his own brother, then several named monks). Marked with a trailing ellipsis rather
-than restored: this record's scope, per its own divergence_note and modern_lens_note, is specifically
-Paula's death as a consequence of his envy; the further victims are a different, broader claim this
-record isn't making.
+The quote ends at "his envy" marked with a trailing ellipsis: the
+source's sentence continues with a comma into an account of the same
+man's envy against other, unrelated people (his own brother, then
+several named monks) - a different, broader claim this record isn't
+making. This record's scope, per its own divergence_note and
+modern_lens_note, is specifically Paula's death as a consequence of his
+envy.

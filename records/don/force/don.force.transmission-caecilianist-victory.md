@@ -35,24 +35,33 @@ relations:
   target: don.force.transmission-hostile-manuscript-tradition
 name: Transmission -- the Caecilianist Party's Own Institutional Victory Determines What Survives
 kind: ending
-description: 'Doc_08 Cell 3B, Force 3B-2 -- the Transmission dimension this cell is required to address
-  explicitly (Doc_08 SS9 completion certification), synthesized fully at Doc_08 Section 6. LAYER 1 --
-  HISTORICAL EVENT: the Caecilianist party''s eventual institutional victory determined what got copied.
-  Donatist literature survives almost entirely as quotation embedded inside its own refutations (Optatus,
-  Augustine), with a small independently-surviving remainder -- Tyconius''s Liber Regularum, the Passio
-  Marculi, the Passio Isaac et Maximiani, the commemorative sermon -- and a material/epigraphic record
-  (the Deo laudes acclamation) that survived largely because it was never textual to begin with. Documented
-  (Doc_01 SS5, Cell 3B). LAYER 2 -- WORLD''S OWN EXPERIENCE: not recoverable from surviving sources --
-  this world''s own participants left no account of what they understood themselves to be preserving as
-  their own institutional position weakened, or of what they expected would or would not survive them.
-  LAYER 3 -- FORMATION IMPACT: this is the single most consequential force shaping what this entire construction
-  can and cannot know. G3''s own textual survival IS substantially this world''s own surviving voice --
-  precisely because the martyr texts and the epigraphy sit partly or wholly outside the manuscript channel
-  this force otherwise controls. CROSS-CELL CONNECTION (Doc_08 Section 4, Connection 8): <- Force 2B-2
-  -- the pattern established during the ongoing phase (survival through the hostile party''s own quotation
-  and refutation) becomes definitive and irreversible once the Caecilianist party''s institutional victory
-  is complete: the same mechanism operating throughout the window is what locks in, at the ending, exactly
-  which small remainder of this world''s own voice survives independently of it.'
+description: >-
+  In the end, the Caecilianist party won the institutional contest, and that victory decided what
+  got copied.
+
+  Donatist writing survives almost entirely as quotation. It is embedded inside the works written
+  to refute it, by Optatus and by Augustine. A small remainder survives on its own: Tyconius's
+  Liber Regularum, the Passio Marculi, the Passio Isaac et Maximiani, and the commemorative sermon.
+
+  There is also a documented record carved in stone: the Deo laudes acclamation. It survived
+  largely because it was never a text to begin with.
+
+  How this felt from inside cannot be recovered from the sources that survive. This world's own
+  people left no account of what they believed they were preserving as their institutional
+  position weakened. Nor did they say what they expected would, or would not, survive them.
+
+  More than any other single force, this one shapes what this account can and cannot know about
+  this world. The surviving texts of this world's martyr cult are, in large part, this world's own
+  surviving voice: its identity as "the Church of the Martyrs."
+
+  That is precisely because the martyr texts and the inscriptions sit outside the manuscript
+  channel this force otherwise controls, partly or wholly.
+
+  The pattern began earlier, while the movement was still active. Its words survived through the
+  hostile party's own quotations and refutations. Once the Caecilianist victory was complete, that
+  pattern became final. It could not be reversed. The same mechanism ran through the whole period.
+  At the end, it fixed exactly which small remainder of this world's own voice survives apart from
+  it.
 manifestations:
 - Tyconius's Liber Regularum, surviving specifically because of its own influence on Augustine's De doctrina
   christiana III (a transmission mechanism Doc_02 SS2 explicitly does not resolve, and does not need to

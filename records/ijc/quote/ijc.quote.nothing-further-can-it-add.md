@@ -21,6 +21,17 @@ sources:
   license: public-domain
 text: >-
   As the holy and blessed and Ecumenical Synod holds fast and follows the rule of faith...which was set forth by the fathers at Nice, it also confirms the faith set forth by the Synod of 150 fathers gathered at Constantinople at the bidding of the great Theodosius of blessed memory. Moreover the exposition of their faith, of the illustrious Cyril of blessed memory set forth at the Council of Ephesus (in which Nestorius was condemned) is received. And in the third place the writings of that blessed man, Leo, Archbishop of all the churches, who condemned the heresy of Nestorius and Eutyches, shew what the true faith is. Likewise the holy Synod holds this faith, this it follows—nothing further can it add nor can it take aught away.
+modern_rendering: >-
+  The holy, blessed, and Ecumenical Synod holds fast to and follows the rule of
+  faith...which was set forth by the fathers at Nicaea. It also confirms the faith set
+  forth by the Synod of one hundred fifty fathers gathered at Constantinople at the
+  command of the great Theodosius of blessed memory. It also accepts the exposition of the
+  faith made by the illustrious Cyril of blessed memory at the Council of Ephesus, at
+  which Nestorius was condemned. And, in the third place, the writings of that blessed man
+  Leo show what the true faith is. Leo was Archbishop of all the churches, and he
+  condemned the heresy of Nestorius and Eutyches. In the same way, the holy Synod holds
+  this faith and follows it — it can add nothing further to it, nor can it take anything
+  away.
 speaker_or_author: Paschasinus, legate of Rome, at Chalcedon, Session IV
 license: verbatim
 modern_lens_note: >-
@@ -35,13 +46,13 @@ relations:
 - type: associated-with
   target: ijc.dw.received-not-seen
 ---
-Opened 2026-08-27 for C-E, served by ijc.dw.received-not-seen alone, which cites "Session IV (the
+Opened for C-E, served by ijc.dw.received-not-seen alone, which cites "Session IV (the
 rule of faith recited)" for the claim that this world's access to Jesus is inheritance rather than
 memory, and could not show it.
 
 The legate's recitation was chosen over the bishops' acclamation that answers it, because the cell asks
 what the world HAD: the acclamation is assent, the recitation is the actual list.
 
-Quote-verbatim gate fix (2026-09-22): the already-disclosed Latin-gloss omission had no ellipsis mark
-in the `text` field itself - added. Also fixed the closing dash's spacing to match the source's
-unspaced em dash ("follows—nothing", not "follows - nothing").
+The Latin-gloss omission is marked with an ellipsis in the `text` field
+itself. The closing dash matches the source's unspaced em dash
+("follows—nothing", not "follows - nothing").

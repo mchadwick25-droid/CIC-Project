@@ -3,30 +3,32 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: anatolian-church-third-century
 works:
-- work: A Metaphrase of the Book of Ecclesiastes
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-metaphrase-of-the-book-of-ecclesiastes
+  work: A Metaphrase of the Book of Ecclesiastes
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   role: tradition
   confidence: assigned
-  note: 'Paraphrase in the Greek rhetorical manner; nothing ties it to the Cappadocian entry
-    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry. Re-pointed
-    2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added on record, and
-    it is the entry this note was asking for - the gap is regional, not per-author. post-apostolic-house-church
-    ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.'
+  note: Paraphrase in the Greek rhetorical manner; nothing ties it to the Cappadocian entry
+    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry. anatolian-church-third-century
+    (era 1, c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
+    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
+    there and Nicaea.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Canonical Epistle
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--canonical-epistle
+  work: Canonical Epistle
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   role: tradition
   confidence: assigned
-  note: 'Church discipline for Pontic congregations after the Gothic raids of the 250s - concrete
+  note: Church discipline for Pontic congregations after the Gothic raids of the 250s - concrete
     pastoral-canonical practice from the region the Cappadocians inherited. Same missing-entry
-    problem as above. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312)
-    was added on record, and it is the entry this note was asking for - the gap is regional,
-    not per-author. post-apostolic-house-church ends at 200 and nothing catholic covers Asia
-    Minor between there and Nicaea.'
+    problem as above. anatolian-church-third-century (era 1, c. 240-312) is the entry this
+    note was asking for - the gap is regional, not per-author. post-apostolic-house-church
+    ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--dubious-or-spurious-writings-of-gregory-thaumaturgus
+  work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
     On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
     On All the Saints; On the Gospel According to Matthew)
   author: gregory_thau
@@ -34,92 +36,109 @@ works:
   role: tradition
   confidence: assigned
   note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
-    (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
-    whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files
-    under the attributed name at all is an attribution ruling no new entry answers. The Sectional
-    Confession is widely held an Apollinarian production, and apollinarian-christianity now
-    exists to receive it if the bundle is ever split. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    (the Sectional Confession is widely held an Apollinarian production). Shelved with anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    The Sectional Confession is widely held an Apollinarian production, and apollinarian-christianity
+    now exists to receive it if the bundle is ever split. On whether a spurious corpus files
+    under the attributed name at all: this is one of nine works across six entries asking
+    the same underlying question, resolved under a single principle rather than one by one.
+    IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather
+    than re-attribute from outside knowledge, so the transmitted-author shelf stands: that
+    is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
+- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-thaumaturgus-on-those-who
+  work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
   author: gregory_thau
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.7 (~495 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE: anf06 carries the
-    same work, already assigned to this entry. Two vendored witnesses to one text, which is
-    worth knowing before anyone counts words.'
-- work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so this split covers 17.5-17.32. This row is one father''s
+    share of it. A duplicate: anf06 carries the same work, already assigned to this entry.
+    Two vendored witnesses to one text, which is worth knowing before anyone counts words.'
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen-3
+  work: The Oration and Panegyric Addressed to Origen
+  author: gregory_thau
+  locus: div3 under 3.3 'Acknowledged Writings'
+  role: tradition
+  confidence: assigned
+  note: 'A third row for this work, alongside its alexandria-catechetical (the school''s pedagogy)
+    and cappadocian-nicene-pastoral-monastic-tradition (the later tradition''s forerunner)
+    assignments above - this one is Gregory''s own voice, for his own entry, not evidence
+    about someone else''s school or a later tradition''s inheritance. Verified directly against
+    the file: the endnote dates it "Circa a.d. 238" and says it was delivered "when about
+    to leave for his own country" - Gregory''s farewell to Origen''s school at Caesarea on
+    the eve of his return to Pontus, where he became bishop of Neocaesarea. anatolian-church-third-century
+    (era 1, c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
+    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
+    there and Nicaea. Assigned rather than provisional: unlike the Cappadocian row, this is
+    not a later tradition reaching back to claim a forerunner - it is Gregory''s own document,
+    delivered right at the edge of this world''s own window.
+
+    '
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-methodius-general-fragments-on-the-cross-and
+  work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
     fragments)
   author: methodius
   locus: div2 11.6, 11.10-11.12 - assigned as one body
   role: tradition
   confidence: assigned
-  note: 'Fragment collection including anti-Origenist and homiletic material; same shelf and
-    same missing-home flag as the rest of Methodius. Re-pointed 2026-08-26: anatolian-church-third-century
-    (era 1, c. 240-312) was added on record, and it is the entry this note was asking for
-    - the gap is regional, not per-author.'
+  note: Fragment collection including anti-Origenist and homiletic material; same shelf and
+    same missing-home flag as the rest of Methodius. anatolian-church-third-century (era 1,
+    c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Oration Concerning Simeon and Anna
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-concerning-simeon-and-anna
+  work: Oration Concerning Simeon and Anna
   author: methodius
   locus: div2 11.8
   role: tradition
   confidence: assigned
   note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
-    (the feast''s development postdates him). Shelved with his section pending a ruling on
-    the spurious pieces. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature
-    alongside for the pseudonymous character. STILL `needs-ruling`: the question this note
-    asks - whether a spurious corpus files under the attributed name at all - is an attribution
-    ruling that no new entry answers. Worth noting for whoever rules it: the Sectional Confession
-    is widely held an Apollinarian production, and apollinarian-christianity now exists to
-    receive it if the bundle is ever split. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Oration on the Palms
-  author: methodius
-  locus: div2 11.9
-  role: tradition
-  confidence: assigned
-  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: the question this note asks - whether
-    a spurious corpus files under the attributed name at all - is an attribution ruling that
-    no new entry answers. Worth noting for whoever rules it: the Sectional Confession is widely
-    held an Apollinarian production, and apollinarian-christianity now exists to receive it
-    if the bundle is ever split. RULED 2026-08-26, under a principle rather than one by one
-    - nine works across six entries were asking the same question, whether a spurious corpus
-    files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+    (the feast''s development postdates him). Shelved with his section, in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
     6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
     transmitted-author shelf stands: that is how the corpus presents it and how a reader will
     look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
     under a name that is not its author''s is a pseudepigraphon by definition. The two together
     say the whole truth - where it sits, and what it is - without re-attributing anything.
-    Mark can reverse this in one pass if he wants the spurious corpora detached from their
-    attributed authors instead.'
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Banquet of the Ten Virgins (Symposium; Concerning Chastity)
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-on-the-palms
+  work: Oration on the Palms
+  author: methodius
+  locus: div2 11.9
+  role: tradition
+  confidence: assigned
+  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Shelved in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+    6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
+    transmitted-author shelf stands: that is how the corpus presents it and how a reader will
+    look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
+    under a name that is not its author''s is a pseudepigraphon by definition. The two together
+    say the whole truth - where it sits, and what it is - without re-attributing anything.
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-banquet-of-the-ten-virgins-symposium-concerning-chastity
+  work: The Banquet of the Ten Virgins (Symposium; Concerning Chastity)
   author: methodius
   locus: div2 11.3
   role: tradition
@@ -128,8 +147,34 @@ works:
     a Christian rewriting of Plato''s Symposium, foundational for all later ascetic literature.
     Pre-Constantinian Anatolian asceticism has no census entry; shelved with the Cappadocian
     pastoral-monastic entry as the nearest Anatolian ascetic tradition, explicitly as a best
-    guess. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added
-    on record, and it is the entry this note was asking for - the gap is regional, not per-author.
-    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
-    there and Nicaea.'
+    guess. anatolian-church-third-century (era 1, c. 240-312) is the entry this note was asking
+    for - the gap is regional, not per-author. post-apostolic-house-church ends at 200 and
+    nothing catholic covers Asia Minor between there and Nicaea.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- row_id: origen_philocalia_lewis1911--the-philocalia-of-origen-4
+  work: The Philocalia of Origen
+  author: origen
+  locus: 'Chapter XIII, "The letter to Gregory" (file lines 148-159, the full chapter)
+
+    '
+  role: context
+  confidence: assigned
+  note: 'Origen''s own letter to Gregory Thaumaturgus, the future bishop of Neocaesarea in
+    Pontus and this world''s own central figure - not previously cross-linked here, though
+    the whole-work row above (for alexandria-catechetical) already notes in passing that "ch.
+    XIII carries Origen''s Letter to Gregory." Verified directly against the file: it opens
+    "Greeting in God, from Origen to my good lord and most reverend son, Gregory" (line 149)
+    and is Origen''s own advice that Gregory make philosophy and the sciences "a kind of preparation
+    for Christianity," developing the "spoiling the Egyptians" image at length - a short,
+    widely-accepted primary document and the one surviving piece of correspondence tying the
+    Alexandrian/Caesarean catechetical master directly to the pupil this world is built around.
+
+    `role: context`, not `tradition`: Origen''s own voice addressed TO this world''s figure,
+    written from Caesarea, not Gregory''s own words or this world''s own tradition - the same
+    distinction already drawn for the alexandria-catechetical (tradition, Origen''s own school)
+    and hieronymian-ascetic-literary (context, evidence about a dispute) rows above. Checked
+    directly: nothing else in the file''s other 26 chapters names Gregory, Neocaesarea, or
+    Pontus - this is the one locus that ties the volume to this world specifically.
+
+    '
+  source_file: origen_philocalia_lewis1911.txt

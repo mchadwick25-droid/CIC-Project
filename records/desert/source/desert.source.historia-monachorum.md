@@ -32,13 +32,12 @@ no verbatim quotation; narrative content usable at corroborating weight
 via consult-only checking, with the travelogue screen (marvel-collecting
 visitors, numbers inflated in the genre's manner) stated wherever used.
 
-STILL NOT VENDORED, 2026-08-27 - AND THIS CORRECTS AN EXPECTATION SET
-EARLIER THE SAME DAY. Budge's Paradise vol. 1 was placed on the fetch
+Budge's Paradise vol. 1 was placed on the fetch
 list on the stated ground that it "carries Palladius plus the History of
 the Monks", which is how the archive.org record describes the printed
-volume. Mark supplied it and it is vendored as
-cic/texts/palladius_paradise-v1-syriac_budge1907.txt. IT DOES NOT
-CONTAIN THIS WORK.
+volume. It is vendored as
+cic/texts/palladius_paradise-v1-syriac_budge1907.txt, and it does not
+contain this work.
 
 What the file actually holds: Budge's 1907 Preface and Introduction, the
 Syriac Life of Antony, and Palladius Book I, ending "Here endeth the
@@ -51,21 +50,19 @@ So this source remains consult-only and unquotable, and the honest limit
 it carries stands. If the rest of the printed volume is ever obtained,
 this is the first thing to look for in it.
 
-ADDENDUM, 2026-09-13. The remaining candidate this note did not yet
-address - Budge's Paradise vol. 2 - has since been vendored
+Budge's Paradise vol. 2 - has since been vendored
 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt, "Budge vol. 2
 vendored: manifest request G1 fulfilled") and inspected directly for
 other purposes (upgrading this world's own paraphrase-only quotes to
 verbatim). It is the Apophthegmata - fourteen thematic chapters, sayings
 numbered, matching the manifest's own original description of vol. 2 as
 "the Sayings of the Fathers" - not this work either. Between vol. 1
-(checked directly above) and vol. 2 (checked here), both halves of the
-manifest's own G1 acquisition are now accounted for, and neither
-contains the Historia Monachorum. A further general search for any
-other public-domain English rendering (reported by the fleet's
-cross-world research thread, 2026-09-13, independently consistent with
-this record's own 2026-08-21 search) found none beyond the already-known
-Norman Russell 1981 translation, copyrighted and consult-only.
+and vol. 2, both halves of the manifest's own G1 acquisition are now
+accounted for, and neither contains the Historia Monachorum. A further
+general search for any other public-domain English rendering, run
+independently by the fleet's cross-world research thread, found none
+beyond the already-known Norman Russell 1981 translation, copyrighted
+and consult-only.
 
 This source's own status accordingly moves from "public-domain edition
 expected, not yet obtained" to a documented limit: no public-domain

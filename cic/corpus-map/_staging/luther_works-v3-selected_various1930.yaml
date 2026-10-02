@@ -1,10 +1,39 @@
-# Worker: Lutheran Wittenberg build thread, 2026-09-15. G1 Source
-# Acquisition Manifest pass (Atlas VI.1), vendored directly per the
-# V3 launch prompt's self-disposed G1 discipline.
+# G1 Source Acquisition Manifest pass (Atlas VI.1), vendored directly
+# per the V3 launch prompt's self-disposed G1 discipline.
 source_file: luther_works-v3-selected_various1930.txt
 
 assignments:
-  - work: "An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull"
+  - row_id: luther_works-v3-selected_various1930--the-magnificat-translated-and-explained
+    work: "The Magnificat: Translated and Explained"
+    author: luther
+    locus: "lines ~6281-10440 (dedication to Duke John Frederick from
+      6499; the full verse-by-verse commentary follows; the volume's next
+      work, An Earnest Exhortation, begins at 10441)"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      1520-21, intro./trans. A. T. W. Steinhaeuser - Luther's own
+      verse-by-verse exposition of the Magnificat (Luke 1:46-55) for the
+      young Duke John Frederick, including the devotional-exegetical
+      register Doc_01/Doc_02 flagged as thin in this corpus and his ideal
+      of a woman's life (Mary at household tasks) - usable only for that,
+      never as a woman's own voice. The witt source registry listed it as
+      "Not in the corpus-map"; the
+      registry's own note identifies this as "the v3 work whose OCR title
+      the intake header called unreadable." Confidence held at
+      provisional, matching this file's sibling entries: the start (6281),
+      dedication (6499), and end boundary (10440, immediately before the
+      Earnest Exhortation heading at 10441) were confirmed directly
+      against the vendored file this pass - a firmer boundary than the
+      sibling entries' own "see Contents page" loci - but the body text is
+      only spot-read, not fully verified, and carries the same OCR
+      degradation as the rest of this volume (e.g. "SerRENE HIGHNESS,"
+      "JoHN FREDERICK" in the dedication heading itself).
+
+  - row_id: luther_works-v3-selected_various1930--an-argument-in-defense-of-all-the-articles-of-dr-martin
+    work: "An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -12,11 +41,12 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      1521. Confidence held at provisional rather than assigned because the
-      file's own OCR-degraded Contents page has not yet been cross-checked
-      section-by-section against the body text to confirm exact locus
-      boundaries for each of this volume's several works - a Doc_02 task.
-  - work: "An Earnest Exhortation for All Christians, Warning Them Against Insurrection"
+      1521. Confidence held at provisional rather than assigned: the
+      file's own Contents page is OCR-degraded, and exact locus
+      boundaries for each of this volume's several works are not
+      independently confirmed against the body text.
+  - row_id: luther_works-v3-selected_various1930--an-earnest-exhortation-for-all-christians-warning-them
+    work: "An Earnest Exhortation for All Christians, Warning Them Against Insurrection"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -30,7 +60,8 @@ assignments:
       1525 "Against the Murderous, Thieving Hordes of Peasants" tract
       itself, which remains unvendored (see this world's own G1 manifest).
       Should not be conflated with that later, harsher text.
-  - work: "Secular Authority: To What Extent It Should Be Obeyed"
+  - row_id: luther_works-v3-selected_various1930--secular-authority-to-what-extent-it-should-be-obeyed
+    work: "Secular Authority: To What Extent It Should Be Obeyed"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -40,7 +71,8 @@ assignments:
     note: >
       1523, trans. C. J. Schindel. Directly bears on this world's own
       territorial-authority settlement (Doc_01 §3, §5).
-  - work: "To the Knights of the Teutonic Order"
+  - row_id: luther_works-v3-selected_various1930--to-the-knights-of-the-teutonic-order
+    work: "To the Knights of the Teutonic Order"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:
@@ -49,7 +81,8 @@ assignments:
     confidence: provisional
     note: >
       1523, trans. W. A. Lambert.
-  - work: "Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser)"
+  - row_id: luther_works-v3-selected_various1930--reply-to-the-answer-of-the-leipzig-goat-answer-to-the
+    work: "Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser)"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"
     atlas_ids:

@@ -1,11 +1,12 @@
-# Worker notes, 2026-09-02. Not a Pearse file - from the Guide to Evagrius
-# Ponticus (evagriusponticus.net), CC BY 4.0, no ThML markup. Author slug
-# from filename, matching AUTHORS.md's `evagrius`. Already cited by ten
-# desert quote/source/term records before this assignment existed - this
-# closes a real gap, not a speculative placement.
+# Not a Pearse file - from the Guide to Evagrius Ponticus
+# (evagriusponticus.net), CC BY 4.0, no ThML markup. Author slug from
+# filename, matching AUTHORS.md's `evagrius`. Already cited by ten
+# desert quote/source/term records before this assignment existed -
+# this closes a real gap, not a speculative placement.
 source_file: evagrius_praktikos_dysinger.txt
 assignments:
-- work: The Praktikos
+- row_id: evagrius_praktikos_dysinger--the-praktikos
+  work: The Praktikos
   author: evagrius
   locus: whole file
   atlas_ids:

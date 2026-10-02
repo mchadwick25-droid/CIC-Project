@@ -40,9 +40,8 @@ p{margin:0 0 1rem}
 .sans{font-family:var(--sans)}
 .muted{color:var(--muted)}
 /* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
-   all four don't fit alongside the rest in one row at this header's own
-   1024px width. */
+   row: the nav collapses into a "Menu" dropdown since all four don't fit
+   alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
@@ -51,11 +50,11 @@ p{margin:0 0 1rem}
 /* Centered in the space actually available between the logo and the menu
    button, not naive full-row-width centering (that ignores the wordmark's
    and menu button's own widths and can visually collide with the
-   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
-   max-content/1fr/max-content sizes the outer two columns to the
-   wordmark's and menu's own content exactly, so the middle column is
-   whatever's genuinely left, with no risk of overlapping either side --
-   only turned on above the width where the whole row fits unwrapped. */
+   wordmark). Grid's max-content/1fr/max-content sizes the outer two
+   columns to the wordmark's and menu's own content exactly, so the
+   middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -67,9 +66,8 @@ p{margin:0 0 1rem}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
 /* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
    real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
-   "you shouldn't have to click to get it to allow you to move in the hover
-   mode"). The ::before bridges the .5rem visual gap so :hover survives the
+   which drops :hover before the pointer reaches the menu. The ::before
+   bridges the .5rem visual gap so :hover survives the
    crossing while keeping the breathing room. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
@@ -147,6 +145,9 @@ details.docstory-item summary::-webkit-details-marker{display:none}
 details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
 details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .docstory{padding:0 0 .9rem}
+.narration{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:.3rem 0 .8rem}
+.narration audio{display:block;height:1.9rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin:0}
 .orient-relations{max-width:var(--measure)}
 .orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
 .orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
@@ -241,17 +242,15 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <!-- Kept standalone when the "Who is speaking" section (its original home)
-           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
-           not gap/thinness content, and CLAUDE.md's own safety priority holds
-           regardless of what else moves - see cic-website/traditions/*.html's
-           pre-redesign `who_speaks` section for its prior placement. -->
+      <!-- This is a safety disclosure, not
+           gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves. -->
       <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
         <h2 id="story-title">How this tradition took shape</h2>
-        <div class="reading"><p>This world&#39;s own record runs from about 360 to 450 CE, in Roman Gaul. It holds two separate households of monks that never once wrote to each other. One grew up in the Loire valley, around the town of Tours. The other grew up on an island called Lérins, off the Mediterranean coast, and in the nearby city of Marseilles. Nothing in this world&#39;s own evidence puts the two households in contact. What holds them together is a shared idea, not a shared conversation. Neither house claims to have invented its own way of life. Both call themselves keepers of what came before them, never authors of something new.</p>
+        <div class="reading"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/gallic-monastic-ascetic-christianity/story.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>This world&#39;s own record runs from about 360 to 450 CE, in Roman Gaul. It holds two separate households of monks that never once wrote to each other. One grew up in the Loire valley, around the town of Tours. The other grew up on an island called Lérins, off the Mediterranean coast, and in the nearby city of Marseilles. Nothing in this world&#39;s own evidence puts the two households in contact. What holds them together is a shared idea, not a shared conversation. Neither house claims to have invented its own way of life. Both call themselves keepers of what came before them, never authors of something new.</p>
       <p>The northern household&#39;s founder was a soldier named Martin. Around 360, before a battle, the army was giving out a gift of money to the troops. When his turn came, Martin asked for his discharge instead. He told the commander, named in the record only as Julian Caesar, that he had served him as a soldier long enough; now he would serve Christ, and it was not right for him to fight. Accused of cowardice, Martin offered to walk out unarmed between the two armies the next morning, trusting only the sign of the cross. He never had to. The enemy asked for peace overnight, and the battle never happened. Martin got his discharge and went to Hilary, the bishop of Poitiers.</p>
       <p>Years later, the people of Tours wanted Martin as their own bishop. He did not want the office. A citizen named Ruricius lied that his own wife was sick, to draw Martin out of his monastery. Once he was on the road, a crowd blocked every way back, so he could not turn around. A few bishops objected: his clothes were poor and his hair a mess, unfit for so great an honor. The reader picked to read that day&#39;s psalm could not get through the crowd. Someone else grabbed the psalter instead and read out whatever verse came open, a line about strength made perfect against enemies. The people cheered, and the objectors fell silent. As bishop, Martin kept living like a monk outside the city walls, and many monks he trained were later made bishops themselves.</p>
       <p>Two generations after Martin, a different pattern appeared in the south. A man named Honoratus went alone to a small island off the coast, a place so overrun with snakes that no one else would live there. He went unafraid, singing a psalm, and the record says the snakes gave way before him. He built what his own community later called a camp of God, in a place made for no life at all. Honoratus wanted nothing more than to stay a monk on his island. The office found him anyway: he was made bishop of the nearby city of Arles. Another monk trained on the same island, Faustus, later became bishop of Riez. This world&#39;s own record says almost nothing about an ordinary day on the island - only how its founder arrived, and how the office came looking for him.</p>
@@ -297,10 +296,10 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">Accused of cowardice for refusing to fight, a soldier offers to walk unarmed toward the enemy line - and the enemy surrenders before morning.</p>
       <details class="docstory-item" id="gallic-monastic-ascetic-christianity-story-0">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><p>In his Life of St. Martin, Sulpitius Severus records how Martin left the army - the scene the whole of Tours&#39;s memory of him turns on.
-      The barbarians, Sulpitius writes, &quot;were rushing within the two divisions of Gaul,&quot; and Julian Caesar, gathering an army at the city of the Vaugiones, &quot;began to distribute a donative to the soldiers.&quot; The men were called forward one by one. When it came to Martin&#39;s turn he judged it the moment to ask for his discharge, because &quot;he did not think it would be proper for him, if he were not to continue in the service, to receive a donative,&quot; and said to Caesar: &quot;Hitherto I have served you as a soldier: allow me now to become a soldier to God: let the man who is to serve thee receive thy donative: I am the soldier of Christ: it is not lawful for me to fight.&quot;
-      Julian - &quot;the tyrant,&quot; in Sulpitius&#39;s word - stormed, and said the man was withdrawing &quot;from fear of the battle, which was to take place on the morrow, and not from any religious feeling.&quot; Martin, &quot;all the more resolute from the danger that had been set before him,&quot; answered: &quot;If this conduct of mine is ascribed to cowardice, and not to faith, I will take my stand unarmed before the line of battle tomorrow, and in the name of the Lord Jesus, protected by the sign of the cross, and not by shield or helmet, I will safely penetrate the ranks of the enemy.&quot; He was put back in prison, &quot;determined on proving his words true by exposing himself unarmed to the barbarians.&quot;
-      &quot;But, on the following day,&quot; Sulpitius writes, &quot;the enemy sent ambassadors to treat about peace and surrendered both themselves and all their possessions.&quot; There was no battle. Sulpitius does not leave the reader to draw the conclusion: &quot;who can doubt that this victory was due to the saintly man?&quot; - it was granted him that he should not be sent unarmed to the fight, and the good Lord, &quot;that his blessed eyes might not be pained by witnessing the death of others,&quot; removed all necessity for fighting, so that &quot;the enemy being subdued without bloodshed, no one should suffer death.&quot;</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/gallic-monastic-ascetic-christianity/docstory-0.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>In his Life of St. Martin, Sulpitius Severus records how Martin left the army - the scene the whole of Tours&#39;s memory of him turns on.
+      As barbarian raiders pushed into both divisions of Gaul, Julian Caesar gathered an army at the city of the Vaugiones and began handing a donative to his soldiers, calling them forward one by one. When it came to Martin&#39;s turn, he judged it the moment to ask for his discharge: since he did not mean to stay in the service, he did not think it right to take the money. He told Caesar he had served him as a soldier long enough, and now asked to become a soldier to God instead - as the soldier of Christ, he said, it was not lawful for him to fight (his exact words are kept in gallic.quote.martin-refuses-the-donative).
+      Julian - &quot;the tyrant,&quot; in Sulpitius&#39;s word - stormed, and accused Martin of withdrawing from fear of the coming battle, not from faith. Martin, only the more resolute for the accusation, answered that if his conduct were taken for cowardice rather than faith, he would stand unarmed before the enemy line the next day, protected by nothing but the sign of the cross (his exact reply is kept in gallic.quote.martin-offers-to-stand-unarmed). He was put back in prison, ready to prove his words true by facing the barbarians unarmed.
+      On the following day the enemy sent envoys to ask for peace, and surrendered themselves and everything they had. There was no battle. Sulpitius does not leave the reader to draw the conclusion: he asks who can doubt the victory was due to the saintly man, and reads it as the good Lord sparing Martin the sight of others dying - the enemy yielded without bloodshed, and no one was killed.</p></div>
       </details>
       </div>
       <div class="docstory-entry">
@@ -309,12 +308,13 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">To stop tribunes from being sent to hunt heretics in Spain, a bishop takes communion with men he despises - and never fully forgives himself.</p>
       <details class="docstory-item" id="gallic-monastic-ascetic-christianity-story-1">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><p>In his Dialogues, Sulpitius Severus has Gallus - one of Martin&#39;s own disciples - tell &quot;an event which he always concealed, owing to the character of the times, but which he could not conceal from us.&quot; Sulpitius&#39;s Sacred History narrates an earlier phase of the same underlying affair, in his own voice.
-      After Priscillian had been put to death, the emperor Maximus &quot;protected by his royal power Ithacius the bishop, who had been the accuser of Priscillian.&quot; The bishops gathered at Treves were &quot;daily communicating with Ithacius&quot; and &quot;had made common cause with him.&quot; Martin was on his way to the court &quot;constrained ... by many serious causes of people involved in suffering&quot; - and among the things being prepared there was an order &quot;to send some tribunes armed with absolute power into the two Spains, to search out heretics, and, when found, to deprive them of their life or goods,&quot; a hunt in which, Gallus says, &quot;one was deemed a heretic rather on his turning pale from fear, or wearing a particular garment, than by the faith which he professed.&quot;
-      The bishops, &quot;conscious of evil as they were,&quot; feared that Martin would refuse them communion and that others would follow him. They had the emperor&#39;s officials meet him on the road and forbid him the city unless he would &quot;maintain peace with the bishops who were living there.&quot; He answered &quot;that he would come among them with the peace of Christ,&quot; entered at night, prayed, and next day went to the palace. His chief request was &quot;that tribunes, with the power of life and death, should not be sent into the Spains&quot; - &quot;not only to save from danger the true Christians in these regions ... but to protect even heretics themselves.&quot; In the Sacred History Sulpitius states the principle in his own words: Martin &quot;maintained that it was quite sufficient punishment that, having been declared heretics by a sentence of the bishops, they should have been expelled from the churches; and that it was, besides, a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause.&quot;
-      The bishops went to the emperor in terror, saying &quot;that nothing had really been accomplished by the death of Priscillian, if Martin were to act the part of his avenger,&quot; and begged him to use his power against this one man. Maximus tried persuasion first, then anger; and when Martin was unmoved, &quot;without delay, executioners are appointed for those in whose behalf Martin had made supplication.&quot;
-      &quot;When this became known to Martin, he rushed to the palace, though it was now night. He pledges himself that, if these people were spared, he would communicate; only let the tribunes ... be recalled.&quot; Maximus granted everything. Next day, at the ordination of a bishop named Felix, &quot;Martin took part in the communion of that day, judging it better to yield for the moment, than to disregard the safety of those over whose heads a sword was hanging&quot; - though the bishops could not make him sign his name to it. Leaving the city the day after, &quot;he was filled with mourning and lamentation that he had even for an hour been mixed up with the evil communion,&quot; and near a village named Andethanna he sat down alone in the woods, &quot;alternately accusing and defending the cause of his grief and conduct.&quot; Then, Gallus says, &quot;an angel stood by him and said, &#39;Justly, O Martin, do you feel compunction, but you could not otherwise get out of your difficulty. Renew your virtue, resume your courage, lest you not only now expose your fame, but your very salvation, to danger.&#39;&quot;
-      Afterwards, &quot;when it happened that he cured some of the possessed more slowly and with less grace than usual, he at once confessed to us with tears that he felt a diminution of his power on account of the evil of that communion in which he had taken part for a moment through necessity, and not with a cordial spirit. He lived sixteen years after this, but never again did he attend a synod, and kept carefully aloof from all assemblies of bishops.&quot;</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/gallic-monastic-ascetic-christianity/docstory-1.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>In his Dialogues, Sulpitius Severus has Gallus - one of Martin&#39;s own disciples - tell a story Martin had always kept quiet, except from his own household. Sulpitius&#39;s Sacred History narrates an earlier phase of the same underlying affair, in his own voice.
+      After Priscillian had been put to death, the emperor Maximus used his power to shield the bishop Ithacius, who had accused Priscillian in the first place. The bishops gathered at Treves stayed in close touch with Ithacius and backed him. Martin was on his way to the court, pressed by many urgent pleas from people in danger - and the emperor was already preparing to send tribunes with full power into the two Spains, to hunt down heretics and, once found, take their lives or their property. Gallus says a person could be judged a heretic simply for turning pale with fear or wearing the wrong clothing, rather than for what they actually believed. (See gallic.quote.gallus-on-the-tribunes-for-the-spains for Gallus&#39;s own words.)
+      The bishops knew their own conduct would not sit well with Martin, and feared he would refuse to share communion with them once he arrived. They had the emperor&#39;s officials meet him on the road and block him from the city unless he promised to keep peace with them. Martin answered that he would come instead with the peace of Christ. He entered at night, prayed, and went to the palace the next day. His main request was that no tribunes with power over life and death be sent into the Spains - not only to protect the true Christians there, but the heretics too.
+      In the Sacred History, Sulpitius states the same principle in his own voice: Martin held that being cast out of the churches by the bishops&#39; own sentence was already punishment enough, and that it was a shocking wrong for a secular ruler to sit in judgment over a matter that belonged to the church. (See gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause.)
+      The bishops went to the emperor in terror, arguing that Priscillian&#39;s death would count for nothing if Martin were now allowed to act as his avenger, and begged Maximus to use his power against Martin himself. Maximus tried persuasion first, then anger; and when Martin would not yield, he ordered executioners for the very people Martin had pleaded for.
+      When Martin heard this, he rushed to the palace, though it was now night. He promised that he would take communion himself if these people&#39;s lives were spared and the tribunes recalled. Maximus granted everything. The next day, at the ordination of a bishop named Felix, Martin took communion, judging it better to yield for the moment than to risk the lives hanging in the balance - though the bishops could never get him to put his name to it in writing. Leaving the city the day after, he was overcome with grief that he had shared, even for an hour, in what he saw as a corrupt communion. Near a village named Andethanna, he sat down alone in the woods, torn between blaming himself and defending what he had done. Then, Gallus says, an angel appeared to him and told him that his compunction was just, but that he could not have escaped his difficulty any other way - and urged him to renew his courage, for both his reputation and his very salvation were now at stake. (See gallic.quote.gallus-on-the-forced-communion-and-the-angel for the angel&#39;s exact words.)
+      Afterward, whenever Martin&#39;s healing came more slowly or with less power than before, he admitted with tears that he felt this loss came from that one compromised communion, taken briefly and against his own will. He lived sixteen years after this, but never again attended a synod, and stayed carefully away from every gathering of bishops.</p></div>
       </details>
       </div>
       </div>
@@ -323,7 +323,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <section aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
-        <div class="reading"><p>This world&#39;s own record stops before its central argument was settled. It says so itself: what comes after is not its to tell. One generation later, the argument about grace and effort continued. But it was no longer monks writing to fellow monks. A bishop trained on the same island took it up instead, writing at the direct request of two church councils. This world&#39;s own record ends at the edge of that change, not inside it.</p></div>
+        <div class="reading"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/gallic-monastic-ascetic-christianity/legacy.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>This world&#39;s own record stops before its central argument was settled. It says so itself: what comes after is not its to tell. One generation later, the argument about grace and effort continued. But it was no longer monks writing to fellow monks. A bishop trained on the same island took it up instead, writing at the direct request of two church councils. This world&#39;s own record ends at the edge of that change, not inside it.</p></div>
       </section>
 
       <section aria-labelledby="relations-summary-title">
@@ -344,8 +344,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </section>
 
       <!-- Judgment call (flagged in this generator's own report): the glossary
-           and pull-quotes fields are the two world_front units with no section
-           of their own in the old hand-built pages. Rather than two more
+           and pull-quotes fields are the two world_front units with no
+           dedicated section of their own. Rather than two more
            full-width sections, they share one compact strip - pull quotes as
            blockquotes, then a small glossary grid - placed after Sources and
            before the closing Questions section. -->
@@ -371,7 +371,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <h2 id="questions-title">Start with the hard one</h2>
         <ul class="questions">
       <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&mode=interview&from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask>Did you believe people are saved by faith alone, not works?<span class="vh"> — ask Renatus</span></a><span class="from">contested claim: “The monks and clergy of Marseilles and Lerins were &quot;the Massilians&quot; - &quot;the remnants of the Pelagians,&quot; the semi-Pelagian party - a school of one doctrine,…”</span></li>
-      <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&mode=interview&from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask>Your church used power against Christians who disagreed. Defend that.<span class="vh"> — ask Renatus</span></a><span class="from">story: “In his Dialogues, Sulpitius Severus has Gallus - one of Martin&#39;s own disciples - tell &quot;an event which he always concealed, owing to the character of the times,…”</span></li>
+      <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&mode=interview&from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask>Your church used power against Christians who disagreed. Defend that.<span class="vh"> — ask Renatus</span></a><span class="from">story: “In his Dialogues, Sulpitius Severus has Gallus - one of Martin&#39;s own disciples - tell a story Martin had always kept quiet, except from his own household.”</span></li>
       <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&mode=interview&from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask>What did your way of life offer someone who struggled to quiet their own mind?<span class="vh"> — ask Renatus</span></a><span class="from">core conviction: “Purity of heart as the goal, discretion as its regulator, the eight faults as its combats - the whole southern formation program: &#39;the immediate aim or goal,…”</span></li>
       <li><a href="../talk.html?worlds=gallic-monastic-ascetic-christianity&mode=interview&from=traditions%2Fgallic-monastic-ascetic-christianity.html" data-ask>Who chose your leaders — were bishops appointed, elected, or something else?<span class="vh"> — ask Renatus</span></a><span class="from">story: “In his Life of St. Martin, Sulpitius Severus records how Martin, a monk, was made bishop of Tours - against his own wish, by a trick, and against some of the…” &middot; contested claim: “The monk-bishop came to office as a captive, never as a candidate.”</span></li>
       </ul>

@@ -14,7 +14,7 @@ confidence:
   divergence_note: 'Inferential-Thin, per Doc_09''s own assignment and per Tier 3''s own Cross-Walk entry
     for events whose historical occurrence cannot be verified. Bacon''s own language marks this as tradition,
     not direct report: the anecdote is "related" (twice, at both loci read), not documented by Bacon from
-    his own witness or from a dated primary source (Doc_09 witt-S10; Source Registry R66). A further,
+    his own witness or from a dated primary source. A further,
     narrower point this record adds on direct re-reading: the vendored text names the singer under Luther''s
     window only as "a wanderer from Prussia," never as Speratus himself in person - Speratus is named,
     directly and only, as the hymn''s own author, one of three of Paul Speratus''s hymns among the four
@@ -91,7 +91,7 @@ the hymn's author - so this record narrates the anecdote at the narrower, more c
 the primary text itself supports, the same discipline the Gallic precedent applied when an editorial
 place-name (Amiens) was excluded from a story's own narrated text because the primary author's own
 words did not supply it. This is a narrowing of how the anecdote is narrated, not a disagreement with
-Doc_09's tier or confidence assignment, both of which are carried forward unchanged. Source Registry R66
+Doc_09's tier or confidence assignment, both of which are carried forward unchanged. Source Registry
 (Native, Secondary).
 
 Register note: close-third-person throughout; the anecdote is repeatedly marked as "the tradition" or

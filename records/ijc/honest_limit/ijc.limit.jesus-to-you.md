@@ -29,12 +29,11 @@ why_sources_cannot_answer: 'The surviving corpus is doctrinal, juridical, and ad
   canons, letters between office-holders. Personal devotion to Jesus certainly existed (men do not
   accept exile over words that mean nothing to them), but no first-person devotional testimony from
   an ordinary believer survives in this world''s own base; the nearest things are public instruments
-  and public worship glimpsed once, under siege. Added at review (Opus canon-structure pass,
-  2026-08-21): Leo''s own Nativity preaching comes closer than anything else in the record to a direct
+  and public worship glimpsed once, under siege. Leo''s own Nativity preaching comes closer than anything else in the record to a direct
   address on "would Jesus have wanted anything to do with someone like me" - "Let the sinner be glad
   in that he is invited to pardon. Let the gentile take courage in that he is called to life" (Sermon
   XXI.I) is preached, second/third-person invitation, not private testimony, but it is this world''s
-  own closest approach to that question and is added as nearest_material below rather than left
+  own closest approach to that question and is given as nearest_material below rather than left
   unfound.'
 nearest_material:
 - ijc.dw.jesus
@@ -51,4 +50,4 @@ indirect - carried by the vigil (people prepared to die with their
 bishop) and the penance (a guilty man received back), listed as
 nearest material.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.

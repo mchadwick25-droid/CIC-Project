@@ -36,15 +36,17 @@ text: "For there is no need, to persons of intelligence, to attempt to prove, fr
   as regards the flesh, He concealed the signs of His Deity, although He was the true God existing
   before all ages."
 modern_rendering: >-
-  There's no need for a long proof here. Just look at what Christ did
-  after he was baptized. His body and soul were real. He was a real human
-  being, like us - not a trick of the mind. His miracles after his
-  baptism showed the world that God was hidden in his flesh. He was God
-  and a real man at the same time. His miracles in his last three years
-  proved he was God. The thirty years before that proved he was human. In
-  those years he kept his God-nature hidden, because he lived as a
-  humble, ordinary man - even though he was true God from before all time
-  began.
+  For persons of intelligence, there is no need to prove, from what
+  Christ did after his baptism, that his soul and his body, his human
+  nature like ours, were real, and no phantom of the imagination. For
+  the deeds Christ did after his baptism, and especially his miracles,
+  gave indication and assurance to the world of the Deity hidden in his
+  flesh. For, being at once both God and perfect man, he gave us sure
+  indications of his two natures. He showed his Deity by his miracles
+  in the three years after his baptism. He showed his humanity in the
+  thirty similar years before his baptism. In those years, because of
+  his lowly condition in the flesh, he hid the signs of his Deity,
+  though he was true God from before all ages.
 speaker_or_author: "Melito, bishop of Sardis (attributed - see this record's own confidence note on
   how securely)"
 license: verbatim
@@ -64,26 +66,19 @@ retrieval:
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}
 ---
-Discovered 2026-09-09 in a supplemental source review: this fragment sits
-inside pahc.source.second-third-century-remains, a source record already
-compiled for this world (registered for its Polycrates/translocal-network
-material) but never checked for content relevant to boundary-drawing (G05).
-Text verified directly against cic/texts/anf08_twelve-patriarchs-clementina-
-apocrypha-edessa-syriac.xml at lines 71176-71206 (the full fragment, title
-through closing sentence), no elisions. ROUND-2 CORRECTION (2026-09-09,
-self-verified against an independent adversarial review): the locus
-originally cited only the fragment's opening (through line 71195, mid-
-sentence) and one internal punctuation mark was silently changed - the
-vendored text's own colon after "two natures" (line 71198) had been typed
-here as a dash. Both fixed; re-diffed character-by-character against the
-vendored file to confirm no other divergence. THE CAVEAT THAT MATTERS MOST
-still stands: this fragment's own transmission note (anf08's endnote 3635)
-names its source as Anastasius of Sinai, not Eusebius - nearly four
-centuries later than the Eusebian chain behind this same source record's
-Polycrates material, and roughly five centuries after Melito's own death.
-This world's own standing discipline (Ignatius's three-way dating dispute,
-the anti-Montanist "Asterius Urbanus" pseudonym rejected) is to name a
-weak attribution chain rather than let a vivid quotation's rhetorical
-force stand in for it. This record does that: used at pahc.gravity.
-boundary-drawing as a named, flagged candidate for a second anti-docetic
-voice, not as secured Repetition-test corroboration.
+This fragment sits inside pahc.source.second-third-century-remains, a
+source record already compiled for this world for its Polycrates/
+translocal-network material, and it also bears on boundary-drawing (G05).
+Text is verified directly against cic/texts/anf08_twelve-patriarchs-
+clementina-apocrypha-edessa-syriac.xml at lines 71176-71206: the full
+fragment, title through closing sentence, no elisions. The caveat that
+matters most: this fragment's own transmission note (anf08's endnote
+3635) names its source as Anastasius of Sinai, not Eusebius - nearly
+four centuries later than the Eusebian chain behind this same source
+record's Polycrates material, and roughly five centuries after Melito's
+own death. This world's own standing discipline (Ignatius's three-way
+dating dispute, the anti-Montanist "Asterius Urbanus" pseudonym rejected)
+is to name a weak attribution chain rather than let a vivid quotation's
+rhetorical force stand in for it. This record does that: used at
+pahc.gravity.boundary-drawing as a named, flagged candidate for a second
+anti-docetic voice, not as secured Repetition-test corroboration.

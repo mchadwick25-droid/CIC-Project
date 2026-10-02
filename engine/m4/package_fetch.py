@@ -1,5 +1,5 @@
 """The seam between object storage (engine.m4.object_storage) and
-LazyWorldLoader (WO-1, 2026-09-16). ensure_package_local() is the only
+LazyWorldLoader (WO-1). ensure_package_local() is the only
 thing engine/api/wiring.py needs to call before world_loader.load() -
 it guarantees a package's files are on local disk somewhere, but does
 NOT verify their content is correct. That stays load()'s own,

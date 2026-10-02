@@ -32,6 +32,16 @@ text: >-
   rejoice in their good fortune?" He confessed that he shared in them both. To whom the old man: "You
   should know," said he, "that in the world to come also you will be judged in the lot of those with
   whom in this life you have been affected by sharing in their gain or loss, or joy or sorrow."
+modern_rendering: >-
+  As I said, a man came to the elder I mentioned. He said the hermit's way of life deserved no
+  special admiration. He claimed it took greater virtue to live a life of perfection among other
+  people than in the desert. Blessed Antony asked him where he himself lived. The man said he lived
+  close to his relatives. He boasted that their support freed him from all the worry and work of
+  daily life. This let him give himself completely to reading and prayer, without any distraction.
+  Blessed Antony asked again: "Tell me, my good friend -- do you grieve over their griefs and
+  misfortunes? Do you rejoice in the same way over their good fortune?" The man admitted he shared
+  in both. The elder said to him: "You should know this: in the world to come, you will also be
+  judged along with those whose gains and losses, joys and sorrows, have affected you in this life."
 speaker_or_author: Antony, as Abbot Abraham told it and Cassian wrote it down
 license: verbatim
 modern_lens_note: >-
@@ -48,16 +58,10 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
-47578.
-
-Quote-verbatim gate fix (2026-09-22): the three smoothing edits the 2026-08-27 note above disclosed
-("as I said" dropped, the "reading and prayer" clause elided, the "said he" interruption removed) were
-all undisclosed-in-the-text-field word substitutions and a silent omission, none of them marked. Full
-sentence restored to match the source exactly, including "as I said" (the phrase points back to
+Verified verbatim against the vendored file at npnf211 line
+47578. The text field matches the source exactly, including "as I said" (the phrase points back to
 Abraham's own framing outside the excerpt, but is still part of the source's actual sentence), the
-"reading and prayer" clause, and the "said he" mid-quote interruption. None of this changes the point
-the record is cited for.
+"reading and prayer" clause, and the "said he" mid-quote interruption.
 
 WHAT THIS MOVES, AND WHY IT IS THE SHARPEST OF THE FOUR.
 desert.term.xeniteia rested on the Apophthegmata ALONE. It is now

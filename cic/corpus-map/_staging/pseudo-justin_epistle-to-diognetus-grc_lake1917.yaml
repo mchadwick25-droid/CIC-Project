@@ -1,0 +1,25 @@
+# Greek original (Lake, Loeb 1917, Perseus / First1KGreek TEI) of the Epistle to Diognetus, already
+# assigned to greek-apologists-second-century and post-apostolic-house-church from ANF01 (under the
+# author slug mathetes).
+source_file: pseudo-justin_epistle-to-diognetus-grc_lake1917.txt
+
+assignments:
+  - row_id: pseudo-justin_epistle-to-diognetus-grc_lake1917--epistle-to-diognetus
+    work: "Epistle to Diognetus"
+    author: mathetes
+    locus: "file line 87 (TEI <head> 'EPISTOLE PROS DIOGNETON', Greek chapter 1 follows)"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Greek original of the ALREADY-PRESENT English entry for this work (source_file
+      anf01_apostolic-fathers-justin-irenaeus.xml) in the bucket(s) named here. PRIMARY ORIGINAL
+      per cic/texts/INTAKE.md: Lake, The Apostolic Fathers vol. 2
+      (Loeb, 1917), hand-keyed in the Perseus / Open Greek and Latin TEI (Greek only; the facing
+      English is not in the file). Ready to quote once each quote is verified verbatim against
+      this file (INTAKE section 6); the English a Representative speaks is rendered from it, with
+      the vendored English as a cross-check. CC BY-SA 4.0, so attribution and share-alike travel
+      with any quotation. Mirrors the English twin's role and confidence exactly.
+

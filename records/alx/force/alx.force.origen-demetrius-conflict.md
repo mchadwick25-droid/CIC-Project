@@ -29,12 +29,7 @@ relations:
   target: alx.story.origen-daring-deed
 name: The Origen-Demetrius Conflict and Its Aftermath, c. 230s [3B - ending/internal]
 kind: ending
-description: 'The teacher-bishop tension reaching acute institutional expression: Origen''s departure
-  for Caesarea (c. 231-234), Demetrius''s condemnation of the irregular ordination, the disruption of
-  the school tradition''s most productive period. In the world''s own experience: when the teacher and
-  the office came to open conflict, the one whose seeing the school most prized was sent away - a wound
-  within the household, not an attack from outside it. Structural fact Widely Accepted; the specific details
-  are DMR, Eusebius-mediated, HIGH author-gravity risk.'
+description: 'The teacher-bishop tension reached sharp institutional form. Origen left for Caesarea (c. 231-234). Demetrius condemned the irregular ordination. The school tradition''s most fruitful period was broken. Teacher and office came into open conflict. The one the school most prized for his seeing was sent away. This was a wound within the household. It was not an attack from outside. The structure is well attested. The details rest on Eusebius.'
 manifestations:
 - Origen's Caesarean period as the rupture's visible result (Contra Celsum written there)
 - the beginning of learning-formation's attenuation
@@ -45,8 +40,3 @@ and BEGINS learning-formation's attenuation (both associated-with). The
 Eusebius screen at maximum strength here: this is the single most
 screen-dependent event in the world's story - tellable as structural
 fact with mediated particulars, never with invented interior detail.
-
-Reciprocal relation added 2026-09-20 (alx `world_front` build): new
-sibling record `alx.story.origen-daring-deed` (the earlier, incident-level
-episode Demetrius later cited against Origen) declares `associated-with`
-this record; the reciprocal is added here (gate_reciprocity).

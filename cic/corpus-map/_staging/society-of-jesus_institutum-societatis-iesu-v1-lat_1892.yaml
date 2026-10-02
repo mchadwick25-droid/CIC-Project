@@ -1,0 +1,18 @@
+source_file: society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt
+assignments:
+- row_id: society-of-jesus_institutum-societatis-iesu-v1-lat_1892--institutum-societatis-iesu-vol-1-the-papal-bulls-and-briefs
+  work: 'Institutum Societatis Iesu, Vol. 1: the papal bulls and briefs for the Society, the perpetual
+    calendar and the compendium of privileges'
+  author: society-of-jesus
+  locus: whole volume - volume 1 of 3
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'The Society''s own collected Latin text of the papal bulls and briefs for the Society, the perpetual
+    calendar and the compendium of privileges. The 1540 and 1550 charters and the later bulls are printed
+    here in the Society''s own text. Society-authored and corporate; no single writer. Primary original
+    evidence for the movement, and the cleanest Latin scan in this group: modern typeset Latin with marginal
+    rubrics, clean apart from occasional letter-level misreads and line-end hyphens read as a stray sign.
+    Word-form coverage against a clean Latin vocabulary is 0.86, the same range as the machine-corrected
+    TEI files. Quote after checking the page image.'

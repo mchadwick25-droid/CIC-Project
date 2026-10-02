@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: alexandria-catechetical
 works:
-- work: Epistles on the Arian Heresy and the Deposition of Arius
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--epistles-on-the-arian-heresy-and-the-deposition-of-arius
+  work: Epistles on the Arian Heresy and the Deposition of Arius
   author: alexander_alexandria
   locus: div2 10.3
   role: tradition
@@ -17,7 +18,8 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Letter of Anastasius to John of Jerusalem concerning Rufinus
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--letter-of-anastasius-to-john-of-jerusalem-concerning-rufinus
+  work: Letter of Anastasius to John of Jerusalem concerning Rufinus
   author: anastasius_rome
   locus: div2 5.10
   role: context
@@ -28,7 +30,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: The Paschal Canon of Anatolius of Alexandria, with fragments of the Books on Arithmetic
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-paschal-canon-of-anatolius-of-alexandria-with-fragments
+  work: The Paschal Canon of Anatolius of Alexandria, with fragments of the Books on Arithmetic
   author: anatolius
   locus: div2 6.3 - two div3 pieces, assigned as one body
   role: tradition
@@ -39,19 +42,21 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Apocalypse of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-peter
+  work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
   role: tradition
   confidence: assigned
-  note: 'c. 100-150; stood near the canon''s edge (Muratorian fragment; cited by Clement of
+  note: c. 100-150; stood near the canon's edge (Muratorian fragment; cited by Clement of
     Alexandria, whence the alexandria guess; Egyptian or Palestinian provenance argued). The
     census has no bucket for early apocryphal apocalypses as a class; both ids are guesses.
-    2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class these
-    notes kept saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
-    this entry names what the TEXT is.'
+    apocryphal-and-pseudepigraphal-literature holds this class alongside the other two; pahc
+    is kept where the subject matter is genuinely apostolic-era, and this entry names what
+    the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: Against the Heathen (Contra Gentes)
+- row_id: npnf204_athanasius--against-the-heathen-contra-gentes
+  work: Against the Heathen (Contra Gentes)
   author: athanasius
   locus: div1 6 — Contra Gentes
   role: tradition
@@ -62,7 +67,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Apology to the Emperor (Apologia ad Constantium)
+- row_id: npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium
+  work: Apology to the Emperor (Apologia ad Constantium)
   author: athanasius
   locus: div1 18 — Apologia ad Constantium (357)
   role: tradition
@@ -73,7 +79,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Arian History (Historia Arianorum ad Monachos)
+- row_id: npnf204_athanasius--arian-history-historia-arianorum-ad-monachos
+  work: Arian History (Historia Arianorum ad Monachos)
   author: athanasius
   locus: div1 20 — Historia Arianorum (358)
   role: tradition
@@ -86,7 +93,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Defence Against the Arians (Apologia Contra Arianos)
+- row_id: npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos
+  work: Defence Against the Arians (Apologia Contra Arianos)
   author: athanasius
   locus: div1 13 — Apologia Contra Arianos
   role: tradition
@@ -97,7 +105,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Defence of Dionysius (De Sententia Dionysii)
+- row_id: npnf204_athanasius--defence-of-dionysius-de-sententia-dionysii
+  work: Defence of Dionysius (De Sententia Dionysii)
   author: athanasius
   locus: div1 15 — De Sententia Dionysii
   role: tradition
@@ -107,7 +116,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Defence of His Flight (Apologia de Fuga)
+- row_id: npnf204_athanasius--defence-of-his-flight-apologia-de-fuga
+  work: Defence of His Flight (Apologia de Fuga)
   author: athanasius
   locus: div1 19 — Apologia de Fuga (357-8)
   role: tradition
@@ -117,7 +127,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Defence of the Nicene Definition (De Decretis)
+- row_id: npnf204_athanasius--defence-of-the-nicene-definition-de-decretis
+  work: Defence of the Nicene Definition (De Decretis)
   author: athanasius
   locus: div1 14 — De Decretis
   role: tradition
@@ -127,7 +138,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Deposition of Arius (Depositio Arii, with Alexander's Encyclical)
+- row_id: npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s
+  work: Deposition of Arius (Depositio Arii, with Alexander's Encyclical)
   author: athanasius
   locus: div1 8 — Deposition of Arius
   role: tradition
@@ -141,7 +153,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Encyclical Letter (Epistola Encyclica)
+- row_id: npnf204_athanasius--encyclical-letter-epistola-encyclica
+  work: Encyclical Letter (Epistola Encyclica)
   author: athanasius
   locus: div1 12 — Epistola Encyclica (339)
   role: tradition
@@ -151,7 +164,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Four Discourses Against the Arians (Orationes contra Arianos IV)
+- row_id: npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos
+  work: Four Discourses Against the Arians (Orationes contra Arianos IV)
   author: athanasius
   locus: div1 21 — Against the Arians, Discourses I-IV
   role: tradition
@@ -164,7 +178,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: On Luke x. 22 (In Illud Omnia Mihi Tradita Sunt)
+- row_id: npnf204_athanasius--on-luke-x-22-in-illud-omnia-mihi-tradita-sunt
+  work: On Luke x. 22 (In Illud Omnia Mihi Tradita Sunt)
   author: athanasius
   locus: div1 11 — On Luke x. 22
   role: tradition
@@ -174,7 +189,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: On the Councils of Ariminum and Seleucia (De Synodis)
+- row_id: npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis
+  work: On the Councils of Ariminum and Seleucia (De Synodis)
   author: athanasius
   locus: div1 22 — De Synodis (359-361)
   role: tradition
@@ -186,19 +202,20 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: On the Incarnation of the Word (De Incarnatione)
+- row_id: npnf204_athanasius--on-the-incarnation-of-the-word-de-incarnatione
+  work: On the Incarnation of the Word (De Incarnatione)
   author: athanasius
   locus: div1 7 — On the Incarnation of the Word
   role: tradition
   confidence: assigned
   note: 'Second half of the diptych and the classic statement of Alexandrian incarnational
     theology. Brief §3 marks imperial-juridical-christianity as ''arguably'' a second home;
-    not asserted here - the work predates the Constantinian entanglement of the later corpus
-    - but flagged for Mark if ijc wants it.
+    not asserted here - the work predates the Constantinian entanglement of the later corpus.
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Personal Letters of Athanasius
+- row_id: npnf204_athanasius--personal-letters-of-athanasius
+  work: Personal Letters of Athanasius
   author: athanasius
   locus: div3 under div2 25.3 — Personal Letters (Letters 46-64)
   role: tradition
@@ -210,7 +227,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Statement of Faith (Expositio Fidei)
+- row_id: npnf204_athanasius--statement-of-faith-expositio-fidei
+  work: Statement of Faith (Expositio Fidei)
   author: athanasius
   locus: div1 10 — Expositio Fidei
   role: tradition
@@ -219,7 +237,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)
+- row_id: npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola
+  work: Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)
   author: athanasius
   locus: div1 24 — Ad Afros
   role: tradition
@@ -229,7 +248,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Synodal Letter to the People of Antioch (Tomus ad Antiochenos)
+- row_id: npnf204_athanasius--synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos
+  work: Synodal Letter to the People of Antioch (Tomus ad Antiochenos)
   author: athanasius
   locus: div1 23 — Tomus ad Antiochenos (362)
   role: tradition
@@ -240,7 +260,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: The Festal Letters (with the Festal Index)
+- row_id: npnf204_athanasius--the-festal-letters-with-the-festal-index
+  work: The Festal Letters (with the Festal Index)
   author: athanasius
   locus: div3s under div2 25.3 — Index; Festal Letters
   role: tradition
@@ -252,7 +273,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: The Life of Saint Anthony by Athanasius (Syriac recension)
+- row_id: palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension
+  work: The Life of Saint Anthony by Athanasius (Syriac recension)
   author: athanasius
   locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about
     14,800 words
@@ -266,18 +288,20 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
-- work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
+- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-athanasius-to-ammus-from-the-xxxix
+  work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
     Ruffinian)
   author: athanasius
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.8-17.10 (3 pieces, ~903 words)
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
-- work: To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
+- row_id: npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae
+  work: To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)
   author: athanasius
   locus: div1 17 — Circular to Bishops of Egypt and Libya (356)
   role: tradition
@@ -287,7 +311,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Vita Antonii (Life of Antony)
+- row_id: npnf204_athanasius--vita-antonii-life-of-antony
+  work: Vita Antonii (Life of Antony)
   author: athanasius
   locus: div1 'Life of Antony'
   role: tradition
@@ -299,7 +324,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Exhortation to the Heathen (Protrepticus)
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus
+  work: Exhortation to the Heathen (Protrepticus)
   author: clement_alex
   locus: div2 6.2 under div1 'CLEMENT OF ALEXANDRIA'
   role: tradition
@@ -308,7 +334,8 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: The Instructor (Paedagogus)
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-instructor-paedagogus
+  work: The Instructor (Paedagogus)
   author: clement_alex
   locus: div2 6.3 under div1 'CLEMENT OF ALEXANDRIA'
   role: tradition
@@ -317,7 +344,8 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: The Stromata, or Miscellanies
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies
+  work: The Stromata, or Miscellanies
   author: clement_alex
   locus: div2 6.4 under div1 'CLEMENT OF ALEXANDRIA'
   role: tradition
@@ -327,7 +355,8 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Who is the Rich Man that shall be saved?
+- row_id: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--who-is-the-rich-man-that-shall-be-saved
+  work: Who is the Rich Man that shall be saved?
   author: clement_alex
   locus: div2 6.5 under div1 'CLEMENT OF ALEXANDRIA'
   role: tradition
@@ -336,7 +365,8 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2
+  work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
   author: council-of-constantinople-553
   locus: div1 12
@@ -351,13 +381,12 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: De Trinitate (On the Trinity, Three Books)
+- row_id: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769--de-trinitate-on-the-trinity-three-books
+  work: De Trinitate (On the Trinity, Three Books)
   author: didymus-alexandria
   locus: Book I proper begins at line 7019 of the vendored file (the file's second 'LIBER
-    PRIMUS' heading) — corrected 2026-09-08, Round 2 Opus review, from a stale 'line 7002'
-    reference the Round 1 header fix itself invalidated by adding 17 lines to the file. Line
-    435's 'LIBER PRIMUS' heading is Mingarelli's own prolegomena, not Didymus's text, and
-    is not this locus
+    PRIMUS' heading). Line 435's 'LIBER PRIMUS' heading is Mingarelli's own prolegomena, not
+    Didymus's text, and is not this locus
   role: tradition
   confidence: assigned
   note: 'Didymus''s own major surviving theological treatise, the sole witness to the Greek
@@ -367,15 +396,16 @@ works:
     contributed zero primary text to this world''s vendored corpus. Mingarelli''s own critical
     note at the prolegomena''s own Liber Primus opening (line 435) independently cross-references
     Didymus''s other attested work, "De Spiritu Sancto" (transmitted only via Jerome''s Latin
-    translation, not itself vendored here), as securely his own. **Corrected 2026-09-08, Round
-    1 Opus review:** the vendored file carries no recoverable Greek text anywhere (a full
-    Unicode census found zero Greek characters in the 3.29 MB body); what this entry actually
-    assigns is Mingarelli''s Latin translation of Didymus, not the Greek text itself, though
-    the Greek is what the volume''s own title page claims to present.
+    translation, not itself vendored here), as securely his own. The vendored file carries
+    no recoverable Greek text anywhere (a full Unicode census found zero Greek characters
+    in the 3.29 MB body); what this entry actually assigns is Mingarelli''s Latin translation
+    of Didymus, not the Greek text itself, though the Greek is what the volume''s own title
+    page claims to present.
 
     '
   source_file: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
-- work: Exegetical Fragments of Dionysius of Alexandria
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria
+  work: Exegetical Fragments of Dionysius of Alexandria
   author: dionysius_gr
   locus: div2 4.4 - on Ecclesiastes, Luke, John; Of the One Substance; On the Reception of
     the Lapsed to Penitence
@@ -385,7 +415,8 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Extant Fragments of Dionysius of Alexandria (works and epistles)
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--extant-fragments-of-dionysius-of-alexandria-works-and
+  work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
   locus: 'div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and
     epistles/fragments of epistles'
@@ -399,26 +430,28 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The canonical letter of Dionysius of Alexandria to Basilides
+- row_id: npnf214_seven-ecumenical-councils--the-canonical-letter-of-dionysius-of-alexandria-to-basilides
+  work: The canonical letter of Dionysius of Alexandria to Basilides
   author: dionysius_gr
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.5 (~490 words)
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
-- work: The Church History of Eusebius (Historia Ecclesiastica)
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
+- row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-2
+  work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Books II-VII in particular
   role: context
   confidence: assigned
-  note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
-    from outside and later, and for each of them the History is real evidence, not a passing
-    mention. Books II-V are the principal external frame for the post-apostolic church and
-    preserve otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book
-    VI is the fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
+  note: 'Same work, context row (per brief §11a): Eusebius describes these movements from
+    outside and later, and for each of them the History is real evidence, not a passing mention.
+    Books II-V are the principal external frame for the post-apostolic church and preserve
+    otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book VI is the
+    fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
     Clement and Dionysius. Book V.14-19 preserves the anti-Montanist dossier (the Anonymous,
     Apollonius) on which that Contested-Evidentiary entry largely rests. Books VI.43-45 and
     VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
@@ -427,28 +460,29 @@ works:
     Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
     inside this world''s own window, and his letters preserved here are primary Roman-church
     material, not merely external testimony to novatianism. Surfaced by a source-research
-    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+    pass on Roman Church Third Century''s (I.33) sourcing gaps.
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- work: Excerpts of Theodotus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--excerpts-of-theodotus
+  work: Excerpts of Theodotus
   author: excerpts-of-theodotus
   locus: div2 4.3
   role: tradition
   confidence: assigned
-  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md):
-    despite its title, this vendored text is the Eclogae Propheticae (Selections from the
-    Prophetic Scriptures), NOT the genuine Excerpta ex Theodoto. It carries no Valentinian
-    technical vocabulary (a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/
-    Ogdoad, and "Theodotus" only in the editorial title), and the ANF editor''s own headnote
-    disowns the Clement attribution ("corrupt or forged documents, for which Clement''s name
-    has been borrowed"), guessing an unknown Montanist compiler instead. It is NOT a Valentinian
-    voice and must not be cited as one; the genuine Excerpta ex Theodoto is not vendored anywhere
-    in this corpus.
+  note: 'Despite its title, this vendored text is the Eclogae Propheticae (Selections from
+    the Prophetic Scriptures), NOT the genuine Excerpta ex Theodoto (records/alx audit, alx.source.excerpts-of-theodotus.md).
+    It carries no Valentinian technical vocabulary (a full-text scan found zero occurrences
+    of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad, and "Theodotus" only in the editorial
+    title), and the ANF editor''s own headnote disowns the Clement attribution ("corrupt or
+    forged documents, for which Clement''s name has been borrowed"), guessing an unknown Montanist
+    compiler instead. It is NOT a Valentinian voice and must not be cited as one; the genuine
+    Excerpta ex Theodoto is not vendored anywhere in this corpus.
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Oration and Panegyric Addressed to Origen
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen
+  work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   role: tradition
@@ -459,7 +493,8 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Historia Acephala
+- row_id: npnf204_athanasius--the-historia-acephala
+  work: The Historia Acephala
   author: historia_acephala
   locus: div3 under div1 25 — The Historia Acephala
   role: tradition
@@ -471,7 +506,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Jerome's Apology for Himself Against the Books of Rufinus
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus-2
+  work: Jerome's Apology for Himself Against the Books of Rufinus
   author: jerome
   locus: div2 5.12
   role: context
@@ -482,7 +518,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: A Letter to Origen from Africanus About the History of Susanna
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-to-origen-from-africanus-about-the-history-of
+  work: A Letter to Origen from Africanus About the History of Susanna
   author: juliusafricanus
   locus: div2 6.6
   role: tradition
@@ -494,25 +531,25 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: The Divine Liturgy of Mark
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-mark
+  work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark
   locus: div2 12.3
   role: tradition
   confidence: provisional
-  note: 'DECLINED FOR alexandria-catechetical 2026-08-27, on the EDITION''S OWN EVIDENCE rather
-    than a judgement call. The ANF text carries an editorial note at the Only-begotten Son
-    troparion: "It is so worded that it must be dated later than the Council of Ephesus, a.d.
-    431." alexandria-catechetical''s window is c. 150-400, so the received text this file
-    prints is later than the world it was assigned to, by the file''s own reckoning. The rite
-    is genuinely Alexandrian and the assignment is not wrong about that - what is wrong is
-    treating a post-431 recension as a source for a world that ends at 400. Kept `provisional`
-    and left unopened deliberately; if a world for the later Alexandrian rite is ever built,
-    this is its material.
-
+  note: 'Declined for `alexandria-catechetical`, on the edition''s own evidence rather than
+    a judgement call. The ANF text carries an editorial note at the Only-begotten Son troparion:
+    "It is so worded that it must be dated later than the Council of Ephesus, a.d. 431." alexandria-catechetical''s
+    window is c. 150-400, so the received text this file prints is later than the world it
+    was assigned to, by the file''s own reckoning. The rite is genuinely Alexandrian and the
+    assignment is not wrong about that - what is wrong is treating a post-431 recension as
+    a source for a world that ends at 400. Kept `provisional` and left unopened deliberately;
+    if a world for the later Alexandrian rite is ever built, this is its material.
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: From the Discourse on the Resurrection
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--from-the-discourse-on-the-resurrection
+  work: From the Discourse on the Resurrection
   author: methodius
   locus: div2 11.5
   role: tradition
@@ -525,7 +562,8 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: A Letter from Origen to Africanus
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-africanus
+  work: A Letter from Origen to Africanus
   author: origen
   locus: div2 6.7
   role: tradition
@@ -535,7 +573,8 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: A Letter from Origen to Gregory
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-gregory
+  work: A Letter from Origen to Gregory
   author: origen
   locus: div2 6.8
   role: tradition
@@ -546,7 +585,8 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: De Oratione (Περὶ εὐχῆς, On Prayer)
+- row_id: origen_de-oratione-grc_koetschau1899--de-oratione-on-prayer
+  work: De Oratione (Περὶ εὐχῆς, On Prayer)
   author: origen
   locus: 'whole work, Koetschau''s 34 chapters (GCS 3 pp. 295-403, the only part of the volume
     vendored): ch. I opens directly under the file''s OCR''d title lines "2PITENOYZ / UEPIEYXH2."
@@ -567,17 +607,17 @@ works:
     drawn from it is a session''s own rendering and must be labelled as such, never presented
     as a Representative''s English evidence. Origen''s own text throughout, addressed to Ambrose
     and Tatiana (ch. II, XXXIV); tradition for the world whose catechetical school he led.
-    Vendored 2026-09-08 after an adversarial review found this world''s build had struck its
-    De Oratione citations as "never vendored — no pre-1929 English edition exists" while the
-    same commit vendored an original-language Didymus edition by the identical route. Whether
-    any of the struck claims (alexlex028_prayer, alexlex027_fasting, alexlex044_holy-spirit,
-    alexlex007_participation, alexlex002_divine-pedagogy, alexstory010, Doc_02 §3.6, Doc_04
-    C2, Doc_05) can be re-grounded on this Greek text is a build-thread judgment, not made
-    here (assignment is not interpretation).
+    This world''s build had struck its De Oratione citations as "never vendored — no pre-1929
+    English edition exists" while the same commit vendored an original-language Didymus edition
+    by the identical route; this file closes that inconsistency. Whether any of the struck
+    claims (alexlex028_prayer, alexlex027_fasting, alexlex044_holy-spirit, alexlex007_participation,
+    alexlex002_divine-pedagogy, alexstory010, Doc_02 §3.6, Doc_04 C2, Doc_05) can be re-grounded
+    on this Greek text is a build-thread judgment, not made here (assignment is not interpretation).
 
     '
   source_file: origen_de-oratione-grc_koetschau1899.txt
-- work: De Principiis (On First Principles)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--de-principiis-on-first-principles
+  work: De Principiis (On First Principles)
   author: origen
   locus: div2 6.5 - Origen De Principiis
   role: tradition
@@ -588,7 +628,8 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: Letter of Origen to Gregory
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--letter-of-origen-to-gregory
+  work: Letter of Origen to Gregory
   author: origen
   locus: div2 15.2
   role: tradition
@@ -599,7 +640,8 @@ works:
 
     '
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: Origen Against Celsus (Contra Celsum)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--origen-against-celsus-contra-celsum
+  work: Origen Against Celsus (Contra Celsum)
   author: origen
   locus: div2 6.9 - Origen Against Celsus (8 books, ~255k words)
   role: tradition
@@ -614,7 +656,8 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: Origen's Commentary on the Gospel of John
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-john
+  work: Origen's Commentary on the Gospel of John
   author: origen
   locus: div2 15.3
   role: tradition
@@ -626,7 +669,8 @@ works:
 
     '
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: Origen's Commentary on the Gospel of Matthew
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-matthew
+  work: Origen's Commentary on the Gospel of Matthew
   author: origen
   locus: div2 16.2
   role: tradition
@@ -636,7 +680,8 @@ works:
 
     '
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Philocalia of Origen
+- row_id: origen_philocalia_lewis1911--the-philocalia-of-origen
+  work: The Philocalia of Origen
   author: origen
   locus: 'whole work (single-work volume, ~85,172 words): 27 chapters listed in the file''s
     own table of contents, on Scripture, its inspiration and interpretation, free will and
@@ -652,7 +697,26 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
-- work: Fragments of Pamphilus (exposition on the Acts of the Apostles)
+- row_id: palladius_lausiac-history--lausiac-history-3
+  work: Lausiac History
+  author: palladius
+  locus: 'Chapter IV: Didymus the Blind'
+  role: context
+  confidence: assigned
+  note: 'Verified directly against the vendored file (line 211): "Among these was Didymus
+    the blind author. I met him four times in all, visiting him at intervals during a period
+    of ten years... He was blind, having lost his sight at the age of four, so he told me,
+    and he had never learned to read nor gone to school." An outsider-visitor''s eyewitness
+    vignette (Palladius wrote c. 419-420, at the horizon''s edge) used in alx ONLY for this
+    personally-witnessed Alexandria-adjacent material, never for received desert accounts,
+    which stay this candidate''s own cross-build attribution question (alx.source.palladius-lausiac-
+    history). Context, not tradition: an outsider''s late testimony about the man, not the
+    catechetical tradition''s own texts.
+
+    '
+  source_file: palladius_lausiac-history_clarke1918.txt
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pamphilus-exposition-on-the-acts-of-the
+  work: Fragments of Pamphilus (exposition on the Acts of the Apostles)
   author: pamphilus
   locus: div2 6.9
   role: tradition
@@ -664,7 +728,8 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Fragments of Pantaenus
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-pantaenus
+  work: Fragments of Pantaenus
   author: pantaenus
   locus: div2 10.15
   role: tradition
@@ -674,25 +739,26 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Fragments from the Writings of Peter of Alexandria (On the Godhead, On the Advent,
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-from-the-writings-of-peter-of-alexandria-on-the
+  work: Fragments from the Writings of Peter of Alexandria (On the Godhead, On the Advent,
     On the Soul, and the Paschal fragments)
   author: peter_alexandria
   locus: div2 9.6
   role: tradition
   confidence: assigned
-  note: 'Doctrinal fragments of Peter, bishop of Alexandria (300-311) and martyr. NOTE, corrected
-    2026-09-09 (OG-6): the previous note called him "the bishop-martyr who also headed the
-    catechetical school." Nothing in the vendored material attests that - the whole anf06
-    div1 ix division nowhere links Peter to the school, and both its introductory notices
-    call him bishop, martyr, and a diligent student of Scripture only. The school-headship
-    tradition descends from Philip of Side, which is not vendored here. Fragment VI ("Of the
-    Soul and Body") is his demonstration against the pre-existence of souls - pre-Nicene Alexandrian
-    episcopal boundary-drawing against Origen - but reaches us via the Sacra Parallela, a
-    7th-8th c. florilegium.
+  note: 'Doctrinal fragments of Peter, bishop of Alexandria (300-311) and martyr. He is not
+    documented as head of the catechetical school - nothing in the vendored material attests
+    that: the whole anf06 div1 ix division nowhere links Peter to the school, and both its
+    introductory notices call him bishop, martyr, and a diligent student of Scripture only.
+    The school-headship tradition descends from Philip of Side, which is not vendored here.
+    Fragment VI ("Of the Soul and Body") is his demonstration against the pre-existence of
+    souls - pre-Nicene Alexandrian episcopal boundary-drawing against Origen - but reaches
+    us via the Sacra Parallela, a 7th-8th c. florilegium.
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Canonical Epistle of Peter of Alexandria
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-canonical-epistle-of-peter-of-alexandria
+  work: The Canonical Epistle of Peter of Alexandria
   author: peter_alexandria
   locus: div2 9.4 - with the commentaries of Balsamon and Zonaras interleaved
   role: tradition
@@ -705,7 +771,8 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Genuine Acts of Peter of Alexandria
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-genuine-acts-of-peter-of-alexandria
+  work: The Genuine Acts of Peter of Alexandria
   author: peter_alexandria
   locus: div2 9.3
   role: tradition
@@ -716,19 +783,21 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The canons of Peter of Alexandria, from his Sermon on Penitence
+- row_id: npnf214_seven-ecumenical-councils--the-canons-of-peter-of-alexandria-from-his-sermon-on
+  work: The canons of Peter of Alexandria, from his Sermon on Penitence
   author: peter_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.6 (~551 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE, as with Gregory Thaumaturgus:
-    anf06 div2 9.4 carries ''The Canonical Epistle of Peter of Alexandria'' with Balsamon''s
-    commentaries, already assigned to this entry. Two vendored witnesses to one text.'
-- work: Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so this split covers 17.5-17.32. This row is one father''s
+    share of it. A duplicate, as with Gregory Thaumaturgus: anf06 div2 9.4 carries ''The Canonical
+    Epistle of Peter of Alexandria'' with Balsamon''s commentaries, already assigned to this
+    entry. Two vendored witnesses to one text.'
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-phileas-epistle-to-the-people-of-thmuis-on-the
+  work: Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)
   author: phileas
   locus: div2 6.8
   role: tradition
@@ -740,22 +809,23 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Fragments of Pierus of Alexandria
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pierus-of-alexandria
+  work: Fragments of Pierus of Alexandria
   author: pierus
   locus: div2 6.6
   role: tradition
   confidence: assigned
   note: 'Alexandrian presbyter and teacher, called "Origen the younger" by Jerome; fragments
-    of his teaching. NOTE, corrected 2026-09-09 (OG-6): the previous note called him "Head
-    of the catechetical school." This world''s own vendored Eusebius contradicts that - HE
-    VII.32 places ACHILLAS over the school, and NPNF''s editor concludes Photius'' contrary
-    report "is false and rests upon a combination of the accounts of Eusebius and Jerome."
-    Note also how thin this is: one four-line quotation preserved in Jerome''s Ep. ad Pammachium,
-    plus a hostile Photius summary (Bibl. cod. 119).
+    of his teaching. He is not documented head of the catechetical school - this world''s
+    own vendored Eusebius contradicts that reading: HE VII.32 places ACHILLAS over the school,
+    and NPNF''s editor concludes Photius'' contrary report "is false and rests upon a combination
+    of the accounts of Eusebius and Jerome." Note also how thin this is: one four-line quotation
+    preserved in Jerome''s Ep. ad Pammachium, plus a hostile Photius summary (Bibl. cod. 119).
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--pamphilus-defence-of-origen-rufinus-translation-with-rufinus
+  work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
     Librorum Origenis)
   author: rufinus
   locus: div2 5.5-5.6
@@ -770,7 +840,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Prologue of Rufinus (to De Principiis)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis
+  work: Prologue of Rufinus (to De Principiis)
   author: rufinus
   locus: div2 6.4 - Prologue of Rufinus
   role: tradition
@@ -782,7 +853,8 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--rufinus-translation-prefaces-and-perorations-recognitions-of
+  work: Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on
     Psalms 36-38; Origen on Romans)
   author: rufinus
   locus: div2 5.14, 5.17-5.19 (the prefaces STRUCTURE.md marks as apparatus are skipped)
@@ -790,30 +862,52 @@ works:
   confidence: provisional
   note: 'Grouped as one small body: Rufinus'' own prefaces to his translations, documenting
     how and why Origen and the Clementine literature were carried into Latin. Context for
-    alexandria as transmission evidence. Provisional because these are paratexts; a reviewer
-    may prefer to drop them as sub-work-level.
+    alexandria as transmission evidence. Provisional because these are paratexts; they may
+    be worth dropping to sub-work-level instead.
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-3
+  work: The Ecclesiastical History of Socrates Scholasticus
+  author: socrates
+  locus: div1 2 — IV.20 (Athanasius's death and 46-year episcopate) and IV.25 (Of Didymus
+    the Blind Man)
+  role: context
+  confidence: assigned
+  note: 'Two figure-testimonia loci, verified directly against the file: IV.20 (lines 13310-13322)
+    states Athanasius "departed this life in the second consulate of Gratian and Probus, having
+    governed that church amidst the greatest perils forty-six years" - the edition''s own
+    endnote reads that consulate as 371 and flags Jerome''s Chronicle as placing it in 373
+    (the now-accepted date), a discrepancy alx''s own source record carries honestly rather
+    than silently picking one. IV.25 (line 13797) is the third independent Didymus testimonium
+    beside Palladius and Jerome - its own endnote cross-references Sozomen III.15, Theodoret
+    IV.26 and Palladius Hist. Lausiac. 4, confirming this is the same figure-attestation cluster
+    those other staging files also carry. Context, not tradition: Socrates is a later (c.
+    439) Constantinopolitan outsider to the Alexandrian catechetical tradition, used only
+    for testimonia, never as in-world voice (alx.source.socrates-historia-ecclesiastica).
+
+    '
+  source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-theognostus-of-alexandria-from-the-hypotyposes
+  work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
   author: theognostus
   locus: div2 6.5
   role: tradition
   confidence: assigned
   note: 'Alexandrian teacher of the later third century (fl. c. 260); the Hypotyposes fragments,
-    Origenian in cast. NOTE, corrected 2026-09-09 (OG-6): the previous note stated "Head of
-    the catechetical school after Dionysius" as fact. It is an inference - ANF6''s notice
-    says only that he is titled exegetes and that "Dodwell and others are of opinion" this
-    means the school''s presidency. Two things matter for use: he is ABSENT FROM EUSEBIUS
-    entirely (ANF6: "we have no account by either Eusebius or Jerome"), so the Eusebius HIGH-risk
-    screen does not apply to him; but all three fragments reach us through ATHANASIUS quoting
-    him in post-Nicene anti-Arian polemic (De Decretis 25; Ep. 4 ad Serapionem 11), which
-    carries its own selection screen. He is also a disciple of Origen (ANF6, from Photius),
-    so he cannot lift the Origen SYSTEMIC screen.
+    Origenian in cast. Whether he headed the catechetical school after Dionysius is an inference,
+    not documented fact - ANF6''s notice says only that he is titled exegetes and that "Dodwell
+    and others are of opinion" this means the school''s presidency. Two things matter for
+    use: he is ABSENT FROM EUSEBIUS entirely (ANF6: "we have no account by either Eusebius
+    or Jerome"), so the Eusebius HIGH-risk screen does not apply to him; but all three fragments
+    reach us through ATHANASIUS quoting him in post-Nicene anti-Arian polemic (De Decretis
+    25; Ep. 4 ad Serapionem 11), which carries its own selection screen. He is also a disciple
+    of Origen (ANF6, from Photius), so he cannot lift the Origen SYSTEMIC screen.
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Epistle of Theonas to Lucianus
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-theonas-to-lucianus
+  work: The Epistle of Theonas to Lucianus
   author: theonas
   locus: div2 6.7
   role: tradition
@@ -824,26 +918,28 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas;
+- row_id: npnf214_seven-ecumenical-councils--the-canons-of-theophilus-of-alexandria-prosphonesus
+  work: The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas;
     on the Cathari)
   author: theophilus_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.25-17.29 (5 pieces, ~817 words)
   role: tradition
   confidence: provisional
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. `provisional` on the date, not the
-    author: Theophilus died in 412 and alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition
-    does not begin until 451. He falls in the gap between them.'
-- work: The Canonical Answers of Timothy of Alexandria
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so this split covers 17.5-17.32. This row is one father''s
+    share of it. `provisional` on the date, not the author: Theophilus died in 412 and alexandria-catechetical
+    ends at 400, while cyrilline-miaphysite-egyptian-tradition does not begin until 451. He
+    falls in the gap between them.'
+- row_id: npnf214_seven-ecumenical-councils--the-canonical-answers-of-timothy-of-alexandria
+  work: The Canonical Answers of Timothy of Alexandria
   author: timothy_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.24 (~629 words)
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.

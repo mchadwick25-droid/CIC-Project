@@ -33,12 +33,10 @@ required, not through a developed Christology this world's own record
 does not carry (see desert.limit.doubt-and-doctrine for that
 narrower, honestly-named gap).
 
-Step5, Round 1 review Finding M9: the turn's own recasting had
-compressed desert.story.antony-call's own two-stage renunciation (a
-first giving that kept back a little for his sister's sake, a second
-giving weeks or longer later that gave away the remainder and placed
-her) into a single same-day act, dropping the sister detail entirely.
-Restored above to the story's own two-hearing shape, with a closing
-line naming the compression itself as part of the point (the command
-was total but not instantaneously executed even for the man most
-associated with hearing and obeying it at once).
+The turn matches desert.story.antony-call's own two-stage renunciation
+(a first giving that kept back a little for his sister's sake, a
+second giving weeks or longer later that gave away the remainder and
+placed her), with a closing line naming the two-hearing shape itself
+as part of the point: the command was total but not instantaneously
+executed even for the man most associated with hearing and obeying it
+at once.

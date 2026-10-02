@@ -1,0 +1,18 @@
+source_file: kempis_imitation-of-christ_benham1886.txt
+
+assignments:
+  - row_id: kempis_imitation-of-christ_benham1886--the-imitation-of-christ
+    work: "The Imitation of Christ"
+    author: kempis
+    locus: "whole text (four books)"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      Thomas a Kempis's own devotional classic, trans. William Benham
+      (1886) - the most copied Christian book after the Bible, grown out
+      of the movement's own practice of keeping a personal notebook of
+      gathered readings (a rapiarium). This world's own central text.
+      This candidate had no prior Source Readiness Dossier or
+      corpus-map presence before this file.

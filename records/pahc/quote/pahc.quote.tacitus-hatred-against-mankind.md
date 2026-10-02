@@ -37,6 +37,16 @@ text: >-
   centre and become popular. Accordingly, an arrest was first made of all who pleaded guilty; then,
   upon their information, an immense multitude was convicted, not so much of the crime of firing
   the city, as of hatred against mankind.
+modern_rendering: >-
+  So, to get rid of the rumor, Nero blamed a group hated for their vile acts. The people
+  called them Christians. He put them through the most exquisite tortures. Christus, from
+  whom the name came, was executed under Tiberius. One of our governors, Pontius Pilate,
+  carried out the execution. This harmful superstition was checked for a moment. But it
+  broke out again. It broke out not only in Judea, where the evil began, but even in Rome.
+  In Rome, every horrible and shameful thing from the whole world gathers and becomes
+  popular. So those who confessed were arrested first. Then, from their information, a
+  huge number were convicted. They were convicted not so much for burning the city as for
+  hatred of mankind.
 speaker_or_author: Tacitus, in the Annals
 license: verbatim
 modern_lens_note: >-
@@ -61,7 +71,7 @@ relations:
 - type: illustrates
   target: pahc.gravity.state-pressure
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Text is verified verbatim against the vendored file.
 
 This world had carried Tacitus since the prior build as a
 paraphrase-only row, because no public-domain English was in the corpus.

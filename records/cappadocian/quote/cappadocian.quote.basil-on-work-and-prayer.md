@@ -56,23 +56,18 @@ relations:
 - type: associated-with
   target: cappadocian.dw.ordinary-day
 modern_rendering: >-
-  Some of you try to get out of work by claiming prayer or
-  psalm-singing needs the time instead. But understand: every task has
-  its own proper hour, just as Ecclesiastes says, "There is a time for
-  everything." Prayer and psalm-singing are different. Any hour at all
-  will do for those.
-
-
-  So we can praise God with psalms, hymns, and spiritual songs while
-  our hands stay busy at work. Aloud, if the task allows it, and it
-  won't pull anyone else's mind off the faith. Silently in the heart,
-  if it won't. Either way, we give thanks to the God who gave us the
-  strength to work with our hands, and the sense to know how. He also
-  supplied the tools we use and the trade we practice, whatever that
-  work may be. And we pray, too, that what our hands make will be
-  aimed at pleasing him.
+  Now some of you try to get out of work under the pretext of prayers and psalmody.
+  Understand that for each separate task there is a special time, as Ecclesiastes says:
+  'There is a time for everything.' But for prayer and psalmody, as for many other things,
+  every time is suitable. So we praise God with psalms, hymns, and spiritual songs while
+  our hands stay busy at work. We do this aloud, if that is possible and helps build up
+  the faith, but if not, then in the heart -- giving thanks to him who gave us both
+  strength of hand to work and wisdom of mind to know how to work, and who also gave us
+  the means to work, both in the tools we use and the arts we practice, whatever the work
+  may be. And we pray, too, that the works of our hands may be directed toward pleasing
+  him.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,
 Rule/Question XXXVII ("Whether We Must Neglect Work for the Sake of the
 Prayers and Psalmody..."), lines 17072-17096 (grep -n -i "get off work
@@ -87,22 +82,20 @@ apparatus, not text; the line-end hyphenation "every-\nthing" was
 rejoined as "everything". No wording was added, dropped, or reordered;
 the source's own em dash ("faith,—but") is kept as printed.
 
-Quote-verbatim gate fix (2026-09-22, supersedes the 2026-09-02
-"normalized to a single straight double quote" call above): the source's
-opening "“‘" before "There is a time for everything" is a genuine nested
-quotation mark, not print noise - Basil is quoting Ecclesiastes 3:1
-inside his own reported speech, exactly the construction a nested mark
-exists to punctuate. Per Mark's ruling that a nested mark must be
-corrected to match the source, not normalized away, restored as a
-straight apostrophe after the opening straight double-quote ('"' '
-There...'). The record still cannot verify past this point: the source
-also carries the "®" footnote-marker artifact directly between
-"everything.\"" and "But" (no whitespace-only gap can skip a literal
-character), which is the same footnote/column-apparatus gate gap named
-above, not a content problem in the record - flagged for Mark alongside
+The source's opening "“‘" before "There is a time for everything" is a
+genuine nested quotation mark, not print noise - Basil is quoting
+Ecclesiastes 3:1 inside his own reported speech, exactly the
+construction a nested mark exists to punctuate. A nested mark is
+corrected to match the source rather than normalized away: it is
+restored as a straight apostrophe after the opening straight
+double-quote ('"' There...'). The record still cannot verify past this
+point: the source also carries the "®" footnote-marker artifact directly
+between "everything.\"" and "But" (no whitespace-only gap can skip a
+literal character) - the same footnote/column-apparatus gap open in
 cappadocian.quote.basil-on-common-life and
-cappadocian.quote.gregory-nyssa-on-becoming-god (same root cause, this
-vendored edition's own footnote/column-letter apparatus).
+cappadocian.quote.gregory-nyssa-on-becoming-god, all three from this
+vendored edition's own footnote/column-letter apparatus, not a content
+problem in any of the three records.
 
 Chosen for F5-I specifically because this is Basil's own reasoning for
 why manual labor and fixed prayer do not compete for the same hours in
@@ -118,7 +111,4 @@ ground cappadocian.quote.basil-on-common-life already covers (Longer
 Rule VII, F4-I) from the same Asketikon, so the two records draw on the
 same book without overlapping in what they actually witness to.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own
-standing quote discipline: the spoken form is a modern-English
-translation, never the archaic original; the original stays as the
-record's own text field, shown at Level 3).
+The spoken form is spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

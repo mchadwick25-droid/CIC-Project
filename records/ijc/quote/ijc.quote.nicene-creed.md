@@ -25,6 +25,15 @@ text: We believe in one God, the Father Almighty, maker of all things visible an
   salvation came down [from heaven] and was incarnate and was made man. He suffered and the third day he
   rose again, and ascended into heaven. And he shall come again to judge both the quick and the dead. And
   [we believe] in the Holy Ghost.
+modern_rendering: >-
+  We believe in one God, the Father Almighty, maker of all things visible and invisible.
+  And we believe in one Lord Jesus Christ, the Son of God, the only-begotten of his
+  Father, of the substance of the Father, God from God, Light from Light, true God from
+  true God, begotten...not made, of one substance...with the Father. Through him all
+  things were made, both what is in heaven and what is on earth. For us and for our
+  salvation, he came down [from heaven], and became flesh, and was made man. He suffered,
+  and on the third day he rose again, and ascended into heaven. And he will come again to
+  judge both the living and the dead. And [we believe] in the Holy Spirit.
 speaker_or_author: "The Council of Nicaea (325)"
 license: verbatim
 modern_lens_note: >-
@@ -39,18 +48,16 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---
-Text verified verbatim against the vendored file 2026-08-21 - the
-Creed of 325 proper (not the fuller 381 form). Corrected at review
-(Opus quote-fidelity pass, 2026-08-21): the edition's own square
+Text verified verbatim against the vendored file - the
+Creed of 325 proper (not the fuller 381 form). The edition's own square
 brackets ("[from heaven]", "[we believe]") mark words supplied by the
 translator for English sense that are part of the printed creed itself
-- kept here, brackets included, rather than silently dropped or
-silently unbracketed as the first-pass draft inconsistently did. Only
+- kept here, brackets included. Only
 the interlinear Greek-script glosses and their Latin equivalent
 (after "begotten" and "one substance") are omitted, as apparatus
 rather than quoted text - the single convention this record actually
 follows. The world's central confessed answer to who Jesus is - the
 words the century's whole enforcement contest was about.
 
-Quote-verbatim gate fix (2026-09-22): the two already-disclosed gloss omissions had no ellipsis mark
-in the `text` field itself - added at both points, so the gap is honestly shown rather than silent.
+The two gloss omissions are each marked with an ellipsis in the `text`
+field itself, so the gap is shown honestly rather than silent.

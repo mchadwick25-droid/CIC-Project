@@ -1,7 +1,7 @@
-# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
-# the Reformed Cities build (Atlas VI.2), per this world's own Source
-# Readiness Dossier. A partial extract (two sections only) from a much
-# larger Schaff reference volume - see the file's own intake header.
+# Proactively vendored ahead of the Reformed Cities build (Atlas VI.2),
+# per this world's own Source Readiness Dossier. A partial extract
+# (two sections only) from a much larger Schaff reference volume - see
+# the file's own intake header.
 source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
 
 authors_ruled:
@@ -28,7 +28,8 @@ authors_ruled:
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
 
 assignments:
-  - work: "The Second Helvetic Confession (1566)"
+  - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566
+    work: "The Second Helvetic Confession (1566)"
     author: bullinger
     locus: "Sec. 55 of the source volume (original pp. 390-421)"
     atlas_ids:
@@ -42,7 +43,8 @@ assignments:
       XI (Christ's full deity and humanity) directly verified against
       this vendored text.
 
-  - work: "The Heidelberg Catechism (1563)"
+  - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563
+    work: "The Heidelberg Catechism (1563)"
     author: ursinus-olevianus
     locus: "Sec. 69 of the source volume (original pp. 529-554)"
     atlas_ids:

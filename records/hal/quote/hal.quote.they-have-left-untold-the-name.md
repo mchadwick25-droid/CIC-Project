@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   The holy virgins Eustochium and Paula have deplored to me the ravages, murders, fires and outrages of all kinds, which they say that the devil has perpetrated in the district belonging to their church; for with wonderful clemency and generosity they have left untold the name and motive of his human agent.
+modern_rendering: >-
+  The holy virgins Eustochium and Paula have told me about the ravages. They speak of
+  murders, fires, and outrages of every kind, which they say the devil did in their
+  church's district. Yet with remarkable clemency and generosity, they have left untold
+  the name and motive of his human agent.
 speaker_or_author: Innocent of Rome, Letter to John of Jerusalem (Jerome, Ep. CXXXVII)
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +40,7 @@ relations:
 - type: associated-with
   target: hal.limit.martyrdom
 ---
-Opened 2026-08-27 for F6-E, which the rewritten classifier moved out of LIMIT-ONLY: hal.limit.martyrdom
+Opened for F6-E, which the rewritten classifier moved out of LIMIT-ONLY: hal.limit.martyrdom
 is the cell's only serving record and cites Ep. 137 specifically, so the limit can be voiced by the
 passage it points at.
 

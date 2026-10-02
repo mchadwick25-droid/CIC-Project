@@ -30,6 +30,14 @@ text: >-
   scriptural sense. This is the meaning of the word; by "was borne" the Syrians, he says,
   understand: it cherished the nature of the waters as one sees a bird cover the eggs with her body
   and impart to them vital force from her own warmth.
+modern_rendering: >-
+  How then did the Spirit of God move upon the waters? The explanation I am about to give
+  you is not my own. It comes from a Syrian, who knew little of this world's wisdom but
+  much of the knowledge of the Truth. He said that the Syriac word was more expressive.
+  Because it was closer to the Hebrew term, it came nearer to the meaning of Scripture.
+  Here is the meaning of the word: by 'was borne,' the Syrians understand that it
+  cherished the nature of the waters -- the way a bird covers her eggs with her body and
+  gives them life from her own warmth.
 speaker_or_author: Basil of Caesarea, in the Hexaemeron
 license: verbatim
 modern_lens_note: >-
@@ -53,22 +61,18 @@ relations:
 - type: illustrates
   target: syr.gravity.raza-shrara-method
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 16729.
-DISCLOSED: the NPNF prints an endnote marker after "Syrian," carrying the
+Verified verbatim against the vendored file at line 16729. DISCLOSED:
+the NPNF prints an endnote marker after "Syrian," carrying the
 Tillemont and Benedictine identifications; excised here and its content
 carried in divergence_note rather than dropped.
 
-Quote-verbatim gate fix (2026-09-22): the 2026-08-27 note above was wrong
-about what follows "cherished" - it is not scripture-reference markup,
-it is Basil's own sentence continuing past that verb to its direct
-object and the bird-and-eggs image ("cherished the nature of the waters
-as one sees a bird cover the eggs..."). The record's own period after
-"cherished" was invented, silently cutting the sentence there. Restored
-through the sentence's own natural end at "her own warmth." - this is
-the exact bird-brooding image modern_lens_note below already describes
-("renders a verb of brooding, as a bird over eggs"), so the fix brings
-the quote in line with what the record already claimed about it, rather
-than changing the claim. The following sentence ("Such is, as nearly as
+The quote runs through the sentence's own natural end at "her own
+warmth": what follows "cherished" is not scripture-reference markup,
+but Basil's own sentence continuing past that verb to its direct object
+and the bird-and-eggs image ("cherished the nature of the waters as one
+sees a bird cover the eggs..."). This is the exact bird-brooding image
+modern_lens_note below describes ("renders a verb of brooding, as a
+bird over eggs"). The following sentence ("Such is, as nearly as
 possible, the meaning of these words...") is Basil's own restatement of
 the same point and is not included.
 

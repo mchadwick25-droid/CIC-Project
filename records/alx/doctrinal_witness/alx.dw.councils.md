@@ -32,22 +32,21 @@ retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  Who had the right to decide, when belief was disputed? And how did it
-  actually work? Our own history shows three ways of deciding. Early on,
-  disputes were fought out by teachers - in books,
-  lectures, and letters - and authority followed proven wisdom. In the middle
+  Who had the right to decide, when belief was disputed? How did it work? Our
+  own history shows three ways of deciding. Early on, teachers argued in
+  books, lectures, and letters. Authority went to proven wisdom. In the middle
   years, the bishop's judgment grew. Demetrius condemned Origen's ordination.
-  Dionysius, a teacher who had become bishop, settled the Arsinoite dispute
-  with three days of public persuasion while the whole countryside listened.
-  At the end came the council: Nicaea, bishops gathered from everywhere,
-  ruling on the disputed confession for all, with the emperor convening and
-  enforcing it. Our own best picture of deciding well is Dionysius at
-  Arsinoe - patient public argument, loving the man while honoring the truth
-  more. Our harder picture is the same authority with an empire behind it.
+  Dionysius was a teacher who had become bishop. He settled the Arsinoite
+  dispute with three days of public persuasion. The whole countryside
+  listened. At the end came the council. At Nicaea, bishops from everywhere
+  ruled on the disputed confession for all. The emperor called it and backed
+  it with force. Our best picture of deciding well is Dionysius at Arsinoe. It
+  was patient public argument, loving the man while honoring the truth more.
+  Our harder picture is the same power with an empire behind it.
 positions:
 - 'decision migrated across the window: teacher''s argument, bishop''s judgment, council''s ruling'
-- 'the ideal the tradition itself praised: open examination, persuasion, love with truth above it'
-- Nicaea's authority was received as the churches' common mind, not a new invention
+- 'The tradition praised an open search, persuasion, and love that put truth first.'
+- The churches took Nicaea's authority as their own shared mind. It was not a new invention.
 tensions:
 - '''I''ve heard a council voted Jesus into being God'' - answered by the council''s own participant:
   the vote fenced existing worship (De Decretis)'
@@ -56,6 +55,6 @@ tensions:
 ---
 The councils cell, grounded in the world's own decision-practice range.
 
-REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+BAR SWEEP: text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

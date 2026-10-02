@@ -48,26 +48,32 @@ name: 'Transmission at the window''s edge and past it: the founder''s anticipate
   - ending-transforming/internal]'
 kind: ending
 matrix_cell: 3B
-description: 'LAYER 1 (Historical Event). In-window, the world''s own acts: the 1539 preface (''I would
-  gladly have seen all my books forgotten and destroyed'') and the 1545 preface''s own retrospect (''Such
-  a Saul was I''); the 1543 hymnal''s authorship fence; Spangenberg''s 1545 preface to the CITHARA LUTHERI,
-  an in-window, non-founder, laudatory and partisan assessment of the hymns'' reception. At the edge:
-  Melanchthon''s edition of the Latin works ''immediately after Luther''s death''; his funeral oration.
-  THE WINDOW''S CLOSING IS ITSELF A SELECTION EFFECT: the library ends at 1545 because it is a founder
-  corpus and the founder''s last prefaces are dated 1545. Past the window, the transmitting lineages,
-  named, with their stated interests: the Philadelphia Edition committee, working toward ''the approaching
-  jubilee of the Reformation in 1917,'' selecting treatises ''of most permanent value'' and excluding
-  ON MONASTIC VOWS ''because of its size''; Bente and Dau''s CONCORDIA TRIGLOTTA (1921), the Missouri
-  Synod''s confessional edition; Robert E. Smith''s Project Wittenberg Small Catechism, released to the
-  public domain WITHOUT the 1529 preface; Henry Cole''s 1823 BONDAGE, urged by a Reformed-Anglican patron.
-  LAYER 2 (World''s Own Experience). That its books should not outlive the Book: ''I would gladly have
-  seen all my books forgotten and destroyed... comforted with the thought that my books will yet be forgotten
-  in the dust'' (v1 260-300). What the successor communities understood themselves to be preserving after
-  1545 is outside the window and not characterized. LAYER 3 (Formation Impact). What can and cannot be
-  reconstructed because of how transmission worked: the founder''s argued doctrine survives abundantly;
-  the parish, the women, the 1525/1543 boundaries, the Marburg boundary, and the service orders are absent
-  ''for the same modern reason -- a twentieth-century translation economy and a twenty-first-century hosting
-  problem, not sixteenth-century suppression.'''
+description: 'Within the period this library covers, this world acted on its own record. In his 1539 preface Luther wrote, "I
+  would gladly have seen all my books forgotten and destroyed," and his 1545 preface looks back: "Such a Saul was
+  I." The 1543 hymnal put a fence around its own authorship. In 1545 Spangenberg wrote a preface to the Cithara
+  Lutheri, an assessment of how the hymns were received, written within the period by someone other than the
+  founder; it praises the hymns and takes a side. At the edge of the period, Melanchthon published an edition of
+  the Latin works "immediately after Luther''s death," and he also gave Luther''s funeral oration.
+
+  The point where the period closes is itself a filter on what survives. The library ends at 1545 because it is
+  built around the founder''s writings, and his last prefaces are dated 1545. After the period, the works passed
+  through named lines of editors, each with its own stated interests. The Philadelphia Edition committee worked
+  toward "the approaching jubilee of the Reformation in 1917," choosing treatises "of most permanent value" and
+  leaving out On Monastic Vows "because of its size." Bente and Dau published the Concordia Triglotta, the
+  Missouri Synod''s confessional edition, in 1921. Robert E. Smith''s Project Wittenberg released the Small
+  Catechism into the public domain without its 1529 preface, and Henry Cole''s 1823 translation of On the Bondage
+  of the Will was urged by a Reformed-Anglican patron.
+
+  This world held that its own books should not outlive the Bible. Luther wrote: "I would gladly have seen all my
+  books forgotten and destroyed... comforted with the thought that my books will yet be forgotten in the dust" (v1
+  260-300). The communities that came after 1545 had their own sense of what they were preserving, but that falls
+  outside the period, and this record does not describe it.
+
+  The way these writings were handed down decides what can and cannot be rebuilt. The founder''s argued doctrine
+  survives in abundance, while other things are missing: the parish, the women, the boundaries of 1525 and 1543,
+  the Marburg boundary, and the service orders. They are all missing "for the same modern reason -- a
+  twentieth-century translation economy and a twenty-first-century hosting problem, not sixteenth-century
+  suppression."'
 manifestations:
 - '"I would gladly have seen all my books forgotten and destroyed... comforted with the thought that my
   books will yet be forgotten in the dust" (v1 260-300)'

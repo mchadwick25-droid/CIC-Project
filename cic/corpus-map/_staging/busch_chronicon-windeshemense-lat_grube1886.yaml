@@ -1,0 +1,20 @@
+source_file: busch_chronicon-windeshemense-lat_grube1886.txt
+
+assignments:
+  - row_id: busch_chronicon-windeshemense-lat_grube1886--chronicon-windeshemense-und-liber-de-reformatione
+    work: "Chronicon Windeshemense und Liber de Reformatione Monasteriorum"
+    author: busch
+    locus: "whole volume"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: context
+    confidence: assigned
+    note: >
+      The major chronicle of the Windesheim Congregation, ed. Grube
+      (1886), previously wholly unrepresented in this world's vendored
+      corpus. Per the Library's non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

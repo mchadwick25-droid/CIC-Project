@@ -1,0 +1,25 @@
+source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
+
+assignments:
+  - row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren
+    work: "Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)"
+    author: unity-of-the-brethren
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: assigned
+    note: >
+      The Unity of the Brethren's own institutional constitution (1632/33),
+      Latin original with English translation, ed. Seifferth (1866). Per
+      this world's own window (c. 1402-1517,
+      moved back from Hus's own preaching at Bethlehem Chapel, held at
+      1517 so the later Unity material stays with the separate
+      czech-churches-last-century census entry, 1517-c. 1627), this text
+      falls outside this world's own temporal window - it is the later
+      Unity generation's own voice, but not this world's own tradition
+      voice. role: context, not tradition: useful here as a comparison/
+      continuation reference (how the movement's own discipline
+      developed after this world's own close), not as a floor-test or
+      binding source. Its own proper tradition placement belongs to
+      whichever Doc_02 eventually builds czech-churches-last-century.

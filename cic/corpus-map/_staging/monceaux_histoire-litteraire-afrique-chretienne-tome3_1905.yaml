@@ -1,7 +1,8 @@
 source_file: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
 
 assignments:
-  - work: "Histoire litteraire de l'Afrique chretienne, Tome Troisieme: Le IVe siecle, d'Arnobe a Victorin"
+  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905--histoire-litteraire-de-l-afrique-chretienne-tome-troisieme
+    work: "Histoire litteraire de l'Afrique chretienne, Tome Troisieme: Le IVe siecle, d'Arnobe a Victorin"
     author: monceaux
     locus: "whole file"
     atlas_ids:

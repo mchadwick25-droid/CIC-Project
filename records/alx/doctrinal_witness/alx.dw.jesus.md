@@ -41,7 +41,7 @@ positions:
 - Jesus is the eternal Logos of God, become genuinely human
 - 'his coming is remedial: creation healed and completed, not abandoned'
 - salvation is participation in God's own life (theosis), not only pardon
-- 'the cross and resurrection are one movement: the Word entering death to unmake it'
+- 'The cross and the resurrection are one movement: the Word enters death to undo it.'
 tensions:
 - the pre-Nicene writers speak of the Logos with subordinationist-sounding language later ruled out -
   the world's own century of clarification, held honestly
@@ -49,11 +49,3 @@ tensions:
 ---
 The Center cell's answer-ground. Companion quotes: clement-new-song,
 athanasius-made-god.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). anastasis labeled at the resurrection line of the center identity witness. Claims unchanged; the label is the whole edit.

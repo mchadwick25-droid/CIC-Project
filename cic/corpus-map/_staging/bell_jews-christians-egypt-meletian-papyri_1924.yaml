@@ -1,0 +1,32 @@
+source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
+
+assignments:
+  - row_id: bell_jews-christians-egypt-meletian-papyri_1924--jews-and-christians-in-egypt-part-ii-the-meletian-schism-pp
+    work: "Jews and Christians in Egypt, Part II: The Meletian Schism (pp. 38-99)"
+    author: bell
+    locus: "Part II — the Pageus/Hathor archive, incl. the dated 334 CE deputy-appointment contract (P.Lond. 1918, Phamenoth 23)"
+    atlas_ids:
+      - desert-monasticism
+    role: tradition
+    confidence: provisional
+    note: >
+      Found by desert.source.bell-jews-christians-egypt (no corpus-map
+      assignment given at intake time); not previously assigned to any
+      Atlas entry. Independently re-verified directly against the vendored
+      file, not just the source record's own account: `grep` on the raw
+      text confirms 16 occurrences of "Pageus" and 13 of "Hathor", and the
+      334 CE contract itself is present verbatim ("In the consulship of
+      Flavius Optatus, Patrician, and Anicius Paulinus the most illustrious,
+      Phamenoth 23. Aurelius Pageus son of Horus...") naming his brother
+      Gerontius as deputy before departing for a council at Caesarea "concerning
+      the purgation of the holy Christian body". Real, dated, primary
+      documentary evidence of an actual eastern-desert monastic community
+      (Hathor, upper Cynopolite nome, 330s-340s) — its own legal and personal
+      papers, not later commentary about it, so `role: tradition` on the same
+      footing this build gives its other papyrus-archive evidence.
+      `confidence: provisional`: the community is Melitian (schismatic),
+      not Nicene-communion, and whether it is representative of this
+      world's mainstream ascetic strands is not established (see Doc_01
+      and this world's own Open_Gaps_Tracking.md). No quote,
+      story, or doctrinal_witness record cites it; it is registered as
+      available only.

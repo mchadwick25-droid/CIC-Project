@@ -1,0 +1,34 @@
+source_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+
+assignments:
+  - row_id: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606--constitutiones-societatis-iesu-cum-earum-declarationibus
+    work: "Constitutiones Societatis Iesu, cum earum Declarationibus"
+    author: society-of-jesus
+    locus: "whole text, including the Primum ac generale examen"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      The Society's own governing document, Latin original (1606 Rome
+      printing). This 1606 print is flagged as garbled under the
+      Library's own OCR-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md). It
+      stays second witness for that reason until a cleaner edition is
+      vendored. It closes an identified source gap for this world,
+      though it is not yet quotable verbatim.
+
+authors_ruled:
+  society-of-jesus:
+    kind: anonymous
+    evidence: >
+      The Constitutions were principally drafted by Ignatius of Loyola,
+      but this printed edition's own title page presents the text as the
+      Society's own corporate governing document, approved and issued by
+      the order as a body (confirmed by Popes Paul III, Julius III, and
+      Paul IV per the title page's own "Institutum... confirmatum"
+      language) rather than as an individually authored work under
+      Ignatius's own name. Used here as a collective-body slug, the same
+      footing this file's own `authors_ruled` convention gives an
+      anonymous or institutionally-issued work.
+    from_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt

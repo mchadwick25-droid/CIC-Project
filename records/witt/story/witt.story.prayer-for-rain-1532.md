@@ -16,8 +16,7 @@ confidence:
     the precise sequence and timing of the rain said to have followed. The account is dated with unusual
     precision for a Table Talk entry - 9 June 1532, stated twice within the passage itself - which speaks
     to the tradition's own care in preserving it, but does not convert a collected reminiscence, reaching
-    this library through Table Talk's own compilers, into a contemporaneous document of the day itself
-    (Doc_09 witt-S12; Source Registry R31).
+    this library through Table Talk's own compilers, into a contemporaneous document of the day itself.
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: '"Of Luther''s Prayer for a gracious Rain," TT lines 3154-3192: the 1532 drought, "Luther called
@@ -86,11 +85,9 @@ modern_contrast: A modern reader may be tempted either to dismiss this story out
   this as answered prayer, and this library records that as a fact about what the community believed happened,
   not as an independently verified meteorological finding.
 ---
-Converted at B-4 from Doc_09 witt-S12 (witt_Doc_09_Story_Inventory.md SS2) - the story new to that
-document's own drafting pass, surfaced by a bounded reading of TT lines 3154-3192 run specifically to
-close a flagged open item (Doc_09 SS0 Discipline 2). Quotations verified verbatim by this authoring pass
-directly against cic/texts/luther_table-talk_bell1886.txt, lines 3150-3192 ("Of Luther's Prayer for a
-gracious Rain").
+Grounded in a reading of TT lines 3154-3192 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
+verbatim directly against cic/texts/luther_table-talk_bell1886.txt, lines 3150-3192 ("Of Luther's Prayer
+for a gracious Rain").
 
 Register note: close-third-person throughout; Luther's own prayer is quoted directly as reported speech
 within the narration, matching the account's own form.

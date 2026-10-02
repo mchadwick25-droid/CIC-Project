@@ -1,0 +1,17 @@
+source_file: dirk-philips_enchiridion_kolb1910.txt
+
+assignments:
+  - row_id: dirk-philips_enchiridion_kolb1910--enchiridion-or-hand-book-a-hand-book-of-the-christian
+    work: "Enchiridion, or Hand Book: A Hand Book of the Christian Doctrine and Religion"
+    author: dirk-philips
+    locus: "whole text"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      Dirk Philips's own doctrinal handbook, trans. A.B. Kolb (1910) - the
+      Dutch Anabaptist wing's third primary pillar alongside Menno Simons
+      and the Martyrs Mirror. OCR quality caveat: see
+      this file's own header - front matter is severely garbled, body
+      clean on spot-check.

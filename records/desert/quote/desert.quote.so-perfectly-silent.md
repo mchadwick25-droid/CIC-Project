@@ -32,11 +32,14 @@ text: "When, then, they meet together to celebrate the aforementioned rites, whi
   there is no spitting, no clearing of the throat, or noise of coughing, no sleepy yawning with open
   mouths, and gaping, and no groans or sighs are uttered, likely to distract those standing near."
 modern_rendering: >-
-  They called their gathering the synaxis. When they met, the whole
-  group stayed silent. You would have thought no one was there, except
-  the one person standing to chant the psalm. This was true most of all
-  during prayer. No spitting. No throat-clearing. No coughing or
-  yawning. No sighing. Nothing to distract the people standing nearby.
+  They met to celebrate their rites, which they called synaxes. Though a
+  large number of the brethren were gathered, they stayed so perfectly
+  silent that you would have thought no one was there, except the one
+  person standing to chant the psalm in the midst. This was true most of
+  all during prayer. There was no spitting, no clearing of the throat,
+  and no coughing. There was no sleepy yawning with open mouths and
+  gaping. No groans or sighs were uttered, of the kind likely to distract
+  those standing near.
 speaker_or_author: John Cassian, describing Egyptian monastic prayer gatherings
 license: verbatim
 modern_lens_note: >-
@@ -54,15 +57,11 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.term.synaxis}
 ---
-Added 2026-09-09, in response to an independent adversarial review of
-this same session's earlier Institutes II.5/II.18 additions: the review
-found that Institutes II.10 - Cassian's own naming and glossing of
-"synaxes" - was a better, more directly on-point passage sitting one
-chapter away, unused. Verified directly against
+Institutes II.10 is Cassian's own naming and glossing of "synaxes."
+Verified directly against
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml at line
-17396. DISCLOSED ELISION: the quoted text stops at "distract those
-standing near"; the chapter continues with a second paragraph on
-involuntary groaning during fervent prayer and the double fault of
-audible distraction - substantively interesting but not needed to
-carry this term's own point, and cut to keep the quote to one
-self-contained idea (the silence itself) rather than two.
+17396. The quoted text stops at "distract those standing near"; the
+chapter continues with a second paragraph on involuntary groaning
+during fervent prayer and the double fault of audible distraction.
+That material is not needed to carry this term's own point, so the
+quote keeps to one self-contained idea: the silence itself.

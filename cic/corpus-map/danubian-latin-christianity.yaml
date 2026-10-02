@@ -3,31 +3,29 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: danubian-latin-christianity
 works:
-- work: Commentary on the Apocalypse of the Blessed John
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john
+  work: Commentary on the Apocalypse of the Blessed John
   author: victorinus
   locus: div2 6.2
   role: tradition
   confidence: assigned
-  note: 'Same author and same ruling as On the Creation of the World: moved to danubian-latin-christianity
-    2026-08-27. Millenarian exegesis, and the transmitted text is Jerome''s revision - he
-    rewrote the chiliast ending. That is custody, not authorship, so it is carried as a SEPARATE
-    `transmission` row on hieronymian-ascetic-literary rather than as a second claim on the
-    voice.
-
+  note: 'Same author and same placement as On the Creation of the World: `danubian-latin-christianity`.
+    Millenarian exegesis, and the transmitted text is Jerome''s revision - he rewrote the
+    chiliast ending. That is custody, not authorship, so it is carried as a separate `transmission`
+    row on hieronymian-ascetic-literary rather than as a second claim on the voice.
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: On the Creation of the World
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-the-creation-of-the-world
+  work: On the Creation of the World
   author: victorinus
   locus: div2 6.1
   role: tradition
   confidence: assigned
   note: 'Victorinus of Pettau (Poetovio, Pannonia; martyred c. 304), the earliest Latin exegete.
-    RULED 2026-08-27: danubian-latin-christianity (I.40, era 1, c. 250-400) was minted for
-    exactly this gap - the worker''s note said the Latin-pastoral entry was a language-only
-    guess with the wrong region, and it was right. Mark overrode the pile bar (two works)
-    because an accurate thin entry beats an inaccurate thick one.
-
+    `danubian-latin-christianity` (I.40, era 1, c. 250-400) was minted for exactly this gap
+    - a Latin-pastoral entry would have been a language-only guess with the wrong region.
+    An accurate thin entry beats an inaccurate thick one.
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml

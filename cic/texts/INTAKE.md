@@ -21,11 +21,40 @@ every future session can search and cite.
 **Two shapes of source, same pipeline, different rights checklist.** Most of
 this corpus so far is an English translation of an ancient work. Starting
 2026-09-02, Mark is also sourcing **original-language texts** (Greek, Latin,
-Syriac, ...) as second witnesses — never primary evidence for a
-Representative (this project's evidence language is English), but legitimate,
-rights-clean material for when two English translations disagree, or when no
-English translation exists at all yet. Everything below applies to both;
-where they differ, both paths are stated.
+Syriac, ...) directly. Everything below applies to both; where they differ,
+both paths are stated.
+
+**A clean public-domain original can be primary evidence (Mark's ruling,
+2026-09-25).** Language is not what decides whether a source is primary —
+credibility and truth are. If a work is a primary source to the world it
+belongs to, that holds regardless of what language it survives in. In
+practice:
+
+- A quote record holds the original-language text, verified against the
+  vendored file, the same verification discipline every English quote
+  already gets.
+- The modern English a Representative actually speaks is an Opus
+  translation of that original, independently Opus-checked, and marked in
+  the record as rendered from the original rather than quoted from an
+  existing English edition.
+- A public-domain English translation, where one exists, is a cross-check
+  against the Opus rendering — useful, not required. Its absence is not a
+  reason to treat the original as unusable.
+- **Scan quality decides quotability, not language.** A garbled OCR
+  scan — long ſ, þ, ð and similar systematic encoding failures aside,
+  which the quote gate normalizes deterministically — stays second witness
+  until a clean witness of the same work is vendored. See `REGISTRY.yaml`
+  for `apparatus` mappings recording a specific edition's own OCR
+  substitution pattern (e.g. Arnold's and Matthew's Wyclif editions
+  rendering þ as `])`/`]?`), each one verified against page images before
+  it's trusted. No model ever retypes a source to work around a bad scan.
+
+This replaces this file's own prior framing (in force 2026-09-02 through
+2026-09-25) that an original-language text was a second witness by
+definition, never primary evidence, because the project's evidence language
+was English. The reasoning for the change, and the ruling's own words, are
+recorded in `worlds/_cross-world/LIBRARY-DECISION-LOG.md` — this file states
+the current rule plainly, not its history.
 
 ---
 
@@ -158,11 +187,15 @@ python cic/engine/corpus_map_merge.py --check    # validate staging, write nothi
 python cic/engine/corpus_map_merge.py            # merge into the real buckets
 ```
 
-**Original-language files carry the second-witness caveat into this step
-too.** Its `note` field should say plainly that this is a witness for
-cross-checking an English rendering, not itself citable as a Representative's
-evidence — the same caveat that will need to travel again into any world's
-own `source` record that eventually cites it (its `USE DISCIPLINE` prose).
+**Original-language files get the same assignment treatment as an English
+translation — primary where the work itself is primary to the world.** Its
+`note` field should say what kind of witness this is: a primary
+original-language voice, ready to quote once verified against the scan; or
+a second witness for cross-checking an English rendering because the scan
+itself is too garbled to quote from directly yet (§2's scan-quality rule).
+Whichever it is, state it plainly — this is what any world's own `source`
+record that eventually cites it (its `USE DISCIPLINE` prose) will need to
+carry forward.
 
 ## 7. If it's a new Expression of a known Work, say so in WORKS.yaml
 
@@ -190,8 +223,9 @@ risk, just a wasted trip for whoever searches next.
 State plainly: what was vendored, its rights basis, which Atlas entries it
 was assigned to and why (flag `confidence: needs-ruling` rather than guess a
 world it doesn't clearly belong to), and — for an original-language file —
-restate the second-witness caveat explicitly, so it's never later cited as
-if it were English evidence.
+state which it is: primary evidence, ready to quote once verified against
+the scan, or second witness because the scan itself isn't clean enough to
+quote from yet (§2's scan-quality rule) — never leave that ambiguous.
 
 ---
 

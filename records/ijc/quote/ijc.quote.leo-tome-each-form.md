@@ -23,6 +23,12 @@ text: 'For He who is true God is also true man: and in this union there is no li
   of pity, so man is not swallowed up by the dignity. For each form does what is proper to it with the
   co-operation of the other ; that is the Word performing what appertains to the Word, and the flesh
   carrying out what appertains to the flesh.'
+modern_rendering: >-
+  He who is true God is also true man. In this union there is no falsehood, since the
+  lowliness of manhood and the majesty of the Godhead both meet there. Just as God is not
+  changed by showing mercy, so man is not swallowed up by that dignity. Each form does
+  what belongs to it, working together with the other: the Word performs what belongs to
+  the Word, and the flesh carries out what belongs to the flesh.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-
@@ -36,12 +42,12 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (the
+Text verified verbatim against the vendored file (the
 edition's inline footnote markers stripped; "carrying out what
 appertains to the flesh" completes the sentence past the extraction
 window, verified in place). The Tome's most-quoted movement - the
 two-natures teaching Chalcedon's Definition takes up, in the letter
 that carried Rome's standing to a council its bishop did not attend.
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own spaces before two punctuation marks
-("lie ," and "other ;") that the record had closed up. No wording changed.
+The text carries the source's own spaces before its two punctuation
+marks ("lie ," and "other ;"). No wording is changed.

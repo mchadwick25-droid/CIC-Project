@@ -1,0 +1,14 @@
+source_file: cyprian_oeuvres-completes-tome1-traites-fra_guillon1837.txt
+
+assignments:
+  - row_id: cyprian_oeuvres-completes-tome1-traites-fra_guillon1837--cyprian-oeuvres-completes-tome-1-the-treatises-french
+    work: "Cyprian, Oeuvres completes, tome 1: the treatises (French, Guillon 1837)"
+    author: cyprian
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A French translation of the treatises, not the original. The Latin (Hartel) is the
+      tradition entry. Registry row 233.

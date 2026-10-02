@@ -68,33 +68,52 @@ relations:
   target: witt.figure.luther
 name: Vows, "false chastity," and marriage [SUPPORTING]
 classification: supporting
-description: 'The monastic estate refused, the married household and the married pastor affirmed: the
-  Teutonic Knights told to ''give up your unchaste chastity and to marry'' (v3 20887-20908); marriage
-  as ''the most common and noblest estate, which pervades all Christendom'' (LC 1687-1727); ''men, and
-  that, priests, are cruelly put to death, contrary to the intent of the Canons, for no other cause than
-  marriage'' (AC 751-767). SIX-TEST SUMMARY (Doc_04 §3 G9): Repetition passes across seven streams including
-  institutional evidence (the Teutonic Order''s secularization); Dependency passes -- G4''s household
-  site is the married household, G7''s ''most common and noblest estate,'' G6''s magistrates punish ''the
-  scandals'' of impure celibacy; Formation passes as taught and as the founder''s own household (Kate,
-  at one remove), Inferential-Thin beyond it; Explanatory passes; Persistence passes 1520-1531 into the
-  1530s-40s Table Talk, but regionally only Wittenberg and Prussia (editorial); Interaction passes with
-  THREE empty cells (no demonstrated relationship to G10, G11, G13 as read) -- the second-thinnest row,
-  the mark of a gravity that organizes a bounded region. EVIDENTIAL CONFIDENCE: Documented for the argument;
-  Widely Accepted for the practice (pastors'' wives; the Order''s secularization, editorial). CLASSIFICATION:
-  SUPPORTING -- it organizes the household and monastic-refusal dimensions, but within G1 (vows refused
-  as merit-works), G7 (marriage as estate), and G2 (''no man''s law, no vow, can annul the commandment
-  and ordinance of God,'' AC 726-727). CONFIDENCE/GRAVITY CROSS-CHECK: agree; one flag carried rather
-  than a divergence -- the SEEDBED QUESTION, whether this vocabulary is this world''s own or the inherited
-  Augustinian order''s, is a comparative question this library cannot answer, logged as a cross-build
-  item rather than resolved. Register-and-voice spread: 3/4 plus one filtered household sentence (Kate,
-  as object of patience, not a voice on the term). Reception-side status: the founder''s own household,
-  at triple remove. FORCES-CONNECTION NOTATION (Doc_04 §3 G9; Doc_08 §5): generated from the inherited
-  monastic apparatus refused -- the founder was a friar, the world''s martyrs were monks, and the ''unchaste
-  chastity'' it names is its own former estate [1B-3]; intensified in both directions under the papal
-  and territorial forces -- married priests ''cruelly put to death'' is the confession''s own report of
-  persecution, and the Teutonic Order''s conversion into a hereditary duchy is the gravity''s largest
-  institutional effect [2A-1/2A-3]; held into the confessional register, Articles XXIII and XXVII [2A-2];
-  the treatise that argued it in full, On Monastic Vows, was never vendored [3B-2].'
+description: 'This world refuses the monastic estate and affirms the married household and the married pastor. The Teutonic
+  Knights are told to ''give up your unchaste chastity and to marry'' (v3 20887-20908). Marriage is ''the most
+  common and noblest estate, which pervades all Christendom'' (LC 1687-1727). ''Men, and that, priests, are
+  cruelly put to death, contrary to the intent of the Canons, for no other cause than marriage'' (AC 751-767).
+
+  This theme appears across seven separate lines of evidence, one of them institutional: the Teutonic Order was
+  turned into a secular state. Other gravities rest on it. The household catechism''s setting is the married
+  household. Estate, office, and calling speaks of "the most common and noblest estate," and under the two
+  governments, magistrates punish "the scandals" of impure celibacy.
+
+  It shaped the world through teaching and through the founder''s own household, which we see only at one remove,
+  through Kate. Beyond it, any shaping is only a thin inference.
+
+  It has real power to explain this world, and it lasts from 1520 to 1531 and on into the Table Talk of the 1530s
+  and 1540s. By region, though, it reaches only Wittenberg and Prussia, and the modern editors are the ones who
+  report Prussia.
+
+  As read, it shows no link at all to three gravities: the bodily presence in the Supper, German for the people,
+  and hearers and repeaters of words. Only one gravity has fewer links, which is the mark of a gravity that
+  organizes a bounded region of life.
+
+  The argument is well documented, and the practice is widely accepted: pastors'' wives, and the Order''s change
+  into a secular state, which the editors report.
+
+  It organizes the household and the refusal of monastic life, but it works inside three of this world''s other
+  convictions. Under justified by faith alone, vows are refused as works done to earn merit, and under estate,
+  office, and calling, marriage is an estate. Under the Word, "no man''s law, no vow, can annul the commandment and
+  ordinance of God" (AC 726-727).
+
+  The evidence matches that account. One question is flagged without being counted as a gap between what we say
+  and the evidence: where this vocabulary first grew. Is it this world''s own, or inherited from the Augustinian
+  order? This library cannot answer that comparative question, so it is logged for study across other world builds
+  rather than resolved here.
+
+  It appears across several kinds of writing, plus one filtered household sentence in which Kate is the one who
+  needs patience, not a voice speaking on the subject. On how it was received, we have only the founder''s own
+  household, seen at three removes.
+
+  It grew from the refusal of the monastic system this world inherited: the founder was a friar, the world''s
+  martyrs were monks, and the "unchaste chastity" it names was its own former estate.
+
+  Papal and territorial-princely pressure intensified it, pushing from both sides, and married priests "cruelly
+  put to death" is the Confession''s own report of persecution. The Teutonic Order''s change into a hereditary
+  duchy is this gravity''s largest effect on institutions. Under the Emperor''s ongoing pressure, it held firm in
+  the Confession, in Articles XXIII and XXVII, though the treatise that argued it in full, On Monastic Vows, was
+  never passed down into this library.'
 manifestations:
 - the Teutonic Knights told to "give up your unchaste chastity and to marry" (v3 20887-20908)
 - marriage as "the most common and noblest estate, which pervades all Christendom" (LC 1687-1727)

@@ -1,0 +1,15 @@
+source_file: augustine_sermones-1-340-lat_migne-pl38.txt
+
+assignments:
+  - row_id: augustine_sermones-1-340-lat_migne-pl38--augustine-s-sermones-1-340-maurist-text-migne-pl-38
+    work: "Augustine's Sermones 1-340 (Maurist text, Migne PL 38)"
+    author: augustine
+    locus: "whole file"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin of the sermons preached to Augustine's congregations, the defining material of
+      this entry. The English body is npnf106 (about 97 sermons, Registry row 19); this file
+      is the Maurist Latin for all 340. Registry row 216. Two-column OCR.

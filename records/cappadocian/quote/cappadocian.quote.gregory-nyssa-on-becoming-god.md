@@ -62,22 +62,22 @@ relations:
 - type: associated-with
   target: cappadocian.dw.who-was-jesus
 modern_rendering: >-
-  It shouldn't strike anyone as strange that God was born into our
-  nature. Not if you actually look at the universe and see God present
-  in everything - holding it all together, filling it. Everything that
-  exists depends on him. Nothing exists apart from him. So why call it
-  scandalous that God was born among us - the same God who was never
-  really absent from us to begin with?
-
-
-  Here is the difference. Before, he sustained our nature invisibly,
-  from within it. Now, at the incarnation, he was poured directly into
-  our nature - so that our nature itself, through that union, might
-  become divine. Rescued from death, and placed beyond the reach of
-  our enemy's schemes. His own rising from death becomes, for the rest
-  of us mortals, the beginning of our own rising into unending life.
+  That God should be born in our nature ought not to seem strange to anyone who does not
+  take too narrow a view of things. For who, when he surveys the universe, is so simple
+  as not to believe that God is in everything -- penetrating it, embracing it, and seated
+  in it? All things depend on him who is. Nothing can exist that does not have its being
+  in him. If, then, all things are in him, and he is in all things, why are people
+  scandalized at the plan of Revelation? It teaches that God was born among men -- that
+  same God whom we are convinced is even now not outside mankind. Although this last form
+  of God's presence among us is not the same as that former presence, his existence among
+  us is shown equally, both then and now. Only now, he who holds nature together in
+  existence is transfused in us. At that other time, he was transfused throughout our
+  nature, so that our nature, through this transfusion of the divine, might itself become
+  divine -- rescued from death, and placed beyond the reach of our enemy's caprice. His
+  return from death becomes, for our mortal race, the beginning of our own return to
+  immortal life.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf205_gregory-nyssa-dogmatic-treatises.txt. Located via `grep -n -i
 "Great Catechism\|Catechetical\|On Perfection\|Against Apollinaris"`:
 line 433 lists "385. The Great Catechism." in this volume's own table of
@@ -123,6 +123,4 @@ an equating of creature with Creator. The chapter's own closing sentence
 our return to the immortal life" - ties the same passage to the dw's
 resurrection claim as well, without needing a second citation.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
-English translation, never the archaic original; the original stays as
-the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

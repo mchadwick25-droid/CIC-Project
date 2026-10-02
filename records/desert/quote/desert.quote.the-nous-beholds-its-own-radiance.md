@@ -18,6 +18,9 @@ sources:
   address: "cic:evagrius_praktikos_dysinger.txt:64"
   license: cc-by-4.0
 text: "The proof of apatheia is that the nous begins to behold its [own] proper gentle radiance; that it remains tranquil in the presence of visions during sleep; and that it looks at matters calmly."
+modern_rendering: >-
+  The proof of apatheia is this: the nous begins to see its own gentle radiance. It
+  stays calm in the presence of visions during sleep. And it looks at events calmly.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
 modern_lens_note: "A test, not a promise. Evagrius gives three checkable signs - the mind's own light, calm in dreams, calm before events - because the state is easy to claim and hard to have. Dreams as diagnostic of the waking soul is his own idea and recurs at ch. 56."

@@ -18,6 +18,12 @@ sources:
   locus: "42"
   license: public-domain
 text: "The apostles have preached the Gospel to us from the Lord Jesus Christ; Jesus Christ [has done so] from God. Christ therefore was sent forth by God, and the apostles by Christ... And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe."
+modern_rendering: >-
+  The apostles preached the Gospel to us from the Lord Jesus Christ. Jesus Christ did the
+  same from God. So Christ was sent by God, and the apostles were sent by Christ...
+  Preaching in this way through countries and cities, they appointed the first-fruits of
+  their labor as bishops and deacons of those who would afterward believe, having first
+  tested them by the Spirit.
 speaker_or_author: "pahc.figure.church-of-rome"
 license: verbatim
 modern_lens_note: >

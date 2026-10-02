@@ -1,8 +1,9 @@
-# Written 2026-08-27 by the fleet unopened-volume sweep. The volume was already
-# vendored; this row records that syriac-edessa-nisibis now opens it.
+# The volume was already vendored; this row records that
+# syriac-edessa-nisibis now opens it.
 source_file: npnf208_basil-letters-select-works.xml
 assignments:
-- work: The Hexaemeron, Homily II (on Genesis 1:2)
+- row_id: fleet-sweep-additions-npnf208--the-hexaemeron-homily-ii-on-genesis-1-2
+  work: The Hexaemeron, Homily II (on Genesis 1:2)
   author: basil
   locus: the passage crediting an unnamed Syrian with the reading of Genesis 1:2, at file line 16729,
     with the NPNF's own endnote on his identity

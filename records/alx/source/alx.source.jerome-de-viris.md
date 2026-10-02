@@ -16,8 +16,7 @@ sources: []
 author: 'Jerome (c. 347-420 CE) - NOT an Alexandrian voice: a Latin secondary witness; his later anti-Origenist
   turn (post-393) colors retrospective treatment of Origen-associated figures, but the De viris chapters
   used here (written 392/3) predate the quarrel''s heat'
-work: De viris illustribus (Lives of Illustrious Men, 392/3 CE) - used ONLY as figure testimonia (dates,
-  works-lists, succession notices), never as in-world voice
+work: De viris illustribus (Lives of Illustrious Men, 392/3 CE) - cited here only for facts about people (dates, lists of works, succession notices), not as a source of the world's teaching
 edition: trans. Ernest Cushing Richardson, NPNF series 2 vol. 3 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
 kind: vendored
 rights_status: public-domain
@@ -28,7 +27,7 @@ discovery_channel: identified at step 3 as the carrier of primary figure-date at
 external_ids:
   ccel_volume: npnf203
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Loci verified by direct read: De viris 36 (Pantaenus, div
 v.iii.xxxviii, file lines 40202-40222: taught under Severus and
 Caracalla), 38 (Clement, ~line 40249: pupil of Pantaenus, led the school

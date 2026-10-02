@@ -54,6 +54,10 @@ relations:
   target: gallic.gravity.monk-bishop
 - type: associated-with
   target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.quote.martin-refuses-the-donative
+- type: associated-with
+  target: gallic.quote.martin-offers-to-stand-unarmed
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with its caveats stated. Direct textual attestation within
@@ -78,28 +82,24 @@ text: >-
   In his Life of St. Martin, Sulpitius Severus records how Martin left the army - the scene the whole of
   Tours's memory of him turns on.
 
-  The barbarians, Sulpitius writes, "were rushing within the two divisions of Gaul," and Julian Caesar,
-  gathering an army at the city of the Vaugiones, "began to distribute a donative to the soldiers." The
-  men were called forward one by one. When it came to Martin's turn he judged it the moment to ask for
-  his discharge, because "he did not think it would be proper for him, if he were not to continue in
-  the service, to receive a donative," and said to Caesar: "Hitherto I have served you as a soldier:
-  allow me now to become a soldier to God: let the man who is to serve thee receive thy donative: I am
-  the soldier of Christ: it is not lawful for me to fight."
+  As barbarian raiders pushed into both divisions of Gaul, Julian Caesar gathered an army at the city
+  of the Vaugiones and began handing a donative to his soldiers, calling them forward one by one. When
+  it came to Martin's turn, he judged it the moment to ask for his discharge: since he did not mean to
+  stay in the service, he did not think it right to take the money. He told Caesar he had served him as
+  a soldier long enough, and now asked to become a soldier to God instead - as the soldier of Christ, he
+  said, it was not lawful for him to fight (his exact words are kept in gallic.quote.martin-refuses-the-donative).
 
-  Julian - "the tyrant," in Sulpitius's word - stormed, and said the man was withdrawing "from fear of
-  the battle, which was to take place on the morrow, and not from any religious feeling." Martin, "all
-  the more resolute from the danger that had been set before him," answered: "If this conduct of mine
-  is ascribed to cowardice, and not to faith, I will take my stand unarmed before the line of battle
-  tomorrow, and in the name of the Lord Jesus, protected by the sign of the cross, and not by shield or
-  helmet, I will safely penetrate the ranks of the enemy." He was put back in prison, "determined on
-  proving his words true by exposing himself unarmed to the barbarians."
+  Julian - "the tyrant," in Sulpitius's word - stormed, and accused Martin of withdrawing from fear of
+  the coming battle, not from faith. Martin, only the more resolute for the accusation, answered that if
+  his conduct were taken for cowardice rather than faith, he would stand unarmed before the enemy line
+  the next day, protected by nothing but the sign of the cross (his exact reply is kept in
+  gallic.quote.martin-offers-to-stand-unarmed). He was put back in prison, ready to prove his words true
+  by facing the barbarians unarmed.
 
-  "But, on the following day," Sulpitius writes, "the enemy sent ambassadors to treat about peace and
-  surrendered both themselves and all their possessions." There was no battle. Sulpitius does not leave
-  the reader to draw the conclusion: "who can doubt that this victory was due to the saintly man?" - it
-  was granted him that he should not be sent unarmed to the fight, and the good Lord, "that his blessed
-  eyes might not be pained by witnessing the death of others," removed all necessity for fighting, so
-  that "the enemy being subdued without bloodshed, no one should suffer death."
+  On the following day the enemy sent envoys to ask for peace, and surrendered themselves and everything
+  they had. There was no battle. Sulpitius does not leave the reader to draw the conclusion: he asks who
+  can doubt the victory was due to the saintly man, and reads it as the good Lord sparing Martin the
+  sight of others dying - the enemy yielded without bloodshed, and no one was killed.
 absent_detail: >-
   The text gives no year and names the emperor only as "Julian Caesar" and the place only as "the city
   of the Vaugiones"; Sulpitius was not present, and no witness to the scene other than his own Life
@@ -113,21 +113,10 @@ modern_contrast: >-
   idiom - Cassian's "a monk, then, as a soldier of Christ," the "young soldiers who had just taken the
   oath" at Martin's funeral - reads back to this donative, this Caesar, this prison.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory002_discharge-before-caesar.md (Tier 1,
-Tours node, Registry row 1). Story Text carried faithfully; no element added. The ancient text's own
-"Julian Caesar" and "the city of the Vaugiones" retained, per the chunk's own construction note, not
-Roberts's "Worms."
+The ancient text's own "Julian Caesar" and "the city of the Vaugiones" are kept, not Roberts's
+editorial identification of the city as Worms.
 
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world, so nothing
-in relations[] points at one - the Cappadocian B-4 precedent): the chunk's own Formation Ecology
-Connection names this as the founding scene of G8 - the soldier of Christ (Supporting, cross-node) in
-its literal northern form ("literalized by the initiating force," Doc_04 G8); the entry act of G1 - the
-monk-bishop (Primary), since Doc_04 §2.2 folds renunciation into G1 "as its first half" and Doc_08
-Force 1A-2 finds "a man who changes service does not leave the service; he can be posted"; and G6 -
-virtus (Tensional, northern) named as weaponry - "the sign of the cross, and not by shield or helmet"
-(Doc_04 §4, G6xG8). Doc_07 §2C calls the scene "the biography's hinge."
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates
-gallic.gravity.soldier-of-christ; associated-with gallic.gravity.monk-bishop, gallic.gravity.virtus
-- each connection named above, with the reciprocal back-edge (illustrated-by / associated-with)
-declared on every one of those gravity records.
+Martin's two speeches - refusing the donative, and offering to stand unarmed before the enemy line -
+are carried in full, verbatim, in gallic.quote.martin-refuses-the-donative and
+gallic.quote.martin-offers-to-stand-unarmed; this record paraphrases them in its own voice and points
+to those records for the exact wording.

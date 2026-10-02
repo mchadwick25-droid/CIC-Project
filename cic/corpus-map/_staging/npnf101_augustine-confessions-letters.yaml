@@ -1,7 +1,8 @@
 
 source_file: npnf101_augustine-confessions-letters.xml
 assignments:
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions
   atlas_ids:
@@ -13,7 +14,8 @@ assignments:
     primary evidence.
 
     '
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions-2
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, esp. Books III-V
   atlas_ids:
@@ -23,13 +25,14 @@ assignments:
   note: 'Books III-V are a firsthand account of nine years as a Manichaean auditor — testimony
     about the movement''s teachers (Faustus by name), cosmology and appeal that the doctrinal-floor
     entry has from almost no other Latin source. Provisional because it is testimony embedded
-    in a Catholic conversion narrative, not a treatise about the movement; a reviewer may
-    prefer to let npnf104''s dedicated refutations carry this bucket alone.
+    in a Catholic conversion narrative, not a treatise about the movement; npnf104''s dedicated
+    refutations could carry this bucket alone instead.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions-3
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, esp. Books V-IX
   atlas_ids:
@@ -43,7 +46,8 @@ assignments:
     not lose its best eyewitness while npnf210 carries only Ambrose''s own side.
 
     '
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
   atlas_ids:
   - hieronymian-ascetic-literary
@@ -52,9 +56,9 @@ assignments:
   confidence: assigned
   locus: div3 letters XXVIII, XXXIX, XL, LXVII, LXVIII, LXXI, LXXII, LXXIII, LXXV, LXXXI,
     LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII (17 letters, ~52,892 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. This part is exact: every letter whose title names Jerome, in both directions.
@@ -62,7 +66,8 @@ assignments:
     which are the Hieronymian world''s voice, and Augustine''s, which are the Latin pastoral
     world''s. A two-sided correspondence has voice on both sides. It is also the largest single
     thing in this volume after the Confessions.'
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-donatist-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the Donatist correspondence'
   atlas_ids:
   - donatism
@@ -70,9 +75,9 @@ assignments:
   confidence: assigned
   locus: div3 letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX,
     CLXXIII (11 letters, ~54,523 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. Cut at eight or more occurrences of the Donatist vocabulary (Donatist, Donatus,
@@ -82,16 +87,17 @@ assignments:
     words and carries 31 of the hits on its own. `context`, not `tradition`: Augustine is
     the Catholic opponent, per the role normalisation already applied to his anti-Donatist
     treatises.'
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-pelagian-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the Pelagian correspondence'
   atlas_ids:
   - pelagianism
   role: context
   confidence: assigned
   locus: div3 letters CXLVI, CXCI (2 letters, ~1,182 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. One extraction bug was caught and fixed before any of this was written: the
@@ -103,16 +109,41 @@ assignments:
     a real body inside this volume; measured, they do not. The substance is in npnf105, which
     is where the anti-Pelagian treatises are and where pelagianism draws 15 works from. Recorded
     because an absence someone expected is worth as much as a presence.'
-- author: augustine
+- row_id: npnf101_augustine-confessions-letters--the-confessions-4
+  work: The Confessions
+  author: augustine
+  locus: div1 6 — The Confessions, Book IX ch. 7 ONLY
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: 'Deliberately narrow, per this world''s own source record (ijc.source.augustine-confessions):
+    only Book 9 ch. 7 is licensed - Augustine''s eyewitness account, as a young Milan rhetoric
+    professor, of the 386 basilica standoff: the congregation''s vigil, the introduction of
+    antiphonal hymn-singing "after the manner of the Eastern Church," and the finding of Gervasius
+    and Protasius. Verified directly against the file: "after the manner of the Eastern Church,
+    hymns and psalms should be sung" (line 13771), matching this world''s own quote record
+    (ijc.quote.hymns-and-psalms-should-be-sung) verbatim.
+
+    `role: context`, not `tradition`, per that source record''s own explicit Boundary Check ruling
+    (legacy Registry rows 8/26): "Augustine''s formation, theology, and the rest of the Confessions
+    belong to the Latin Pastoral-Congregational world... do not extend this license." This one
+    passage is Native to ijc only as independent eyewitness corroboration of Ambrose''s own conduct
+    in the standoff - "the only such corroboration this world''s record has for any of Ambrose''s
+    own claims about his own confrontations" - not as a claim on the rest of the work.
+
+    '
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence
+  author: augustine
   work: 'Letters of St. Augustin: the general correspondence'
   atlas_ids:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
   locus: div3, the remaining 138 letters (~258,018 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. Everything not claimed by the three controversies above - the bulk of the

@@ -22,6 +22,10 @@ sources:
   license: public-domain
 text: >-
   Damasus, bishop of Rome, had a fine talent for making verses and published many brief works in heroic metre. He died in the reign of the Emperor Theodosius at the age of almost eighty.
+modern_rendering: >-
+  Damasus, bishop of Rome, had a real talent for writing verse. He published many short
+  works in heroic meter. He died during the reign of Emperor Theodosius, at almost eighty
+  years old.
 speaker_or_author: Jerome, Lives of Illustrious Men
 license: verbatim
 modern_lens_note: >-
@@ -38,7 +42,7 @@ relations:
 - type: associated-with
   target: ijc.term.martyrium
 ---
-Opened 2026-08-27 for F3-T and F5-E together - both cells were served by a term record citing
+Opened for F3-T and F5-E together - both cells were served by a term record citing
 this same chapter, and one sentence honestly answers both. ijc.term.primatus cites it for "the
 epigraphic program's contemporary witness"; ijc.term.martyrium for "the verse program's".
 

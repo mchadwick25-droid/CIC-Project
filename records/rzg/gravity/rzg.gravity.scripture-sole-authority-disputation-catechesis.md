@@ -13,7 +13,17 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: null
-sources: []
+sources:
+- source_id: rzg.source.zwingli-selected-works
+  locus: the Acts of the First and Second Zurich Disputations (1523) - contemporary institutional record,
+    not a later reconstruction
+  license: public-domain
+- source_id: rzg.source.calvin-geneva-catechism
+  locus: whole file - Calvin's own catechetical enactment of the same conviction at Geneva
+  license: public-domain
+- source_id: rzg.source.heidelberg-catechism
+  locus: whole file - a later, fixed statement of the same founding conviction
+  license: public-domain
 relations:
 - type: tension-with
   target: rzg.term.sola-scriptura

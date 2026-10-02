@@ -1,0 +1,36 @@
+source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+
+assignments:
+  - row_id: mcglothlin_baptist-confessions-of-faith_1911--the-schleitheim-confession-1527
+    work: "The Schleitheim Confession (1527)"
+    author: swiss-brethren
+    locus: "pp. 3-9 of the printed volume"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: provisional
+    note: >
+      The foundational Swiss Brethren confessional statement, in
+      McGlothlin's Baptist Confessions of Faith (1911). Provisional:
+      McGlothlin's own text states this
+      translation is "a translation of his [Zwingli's Latin]
+      translation," not direct from the German original, which survives
+      only in archival manuscript - a real provenance gap worth a
+      build thread's own eyes rather than silently treated as equivalent
+      to a direct German-English rendering. The rest of this same
+      printed volume (confessions of other, non-Anabaptist Baptist
+      bodies) is not assigned here and not reviewed this pass.
+
+authors_ruled:
+  swiss-brethren:
+    kind: anonymous
+    evidence: >
+      The Schleitheim Confession's own historical authorship is
+      traditionally associated with Michael Sattler, but this vendored
+      translation (McGlothlin, 1911, pp. 3-9) carries no individual
+      author attribution in its own text or headnote - it is presented
+      as a collective confessional statement issued by the assembled
+      Swiss Brethren, not a named individual's own composition. Used
+      here as a collective-body slug, the same footing this file's own
+      `authors_ruled` convention gives an anonymous work.
+    from_file: mcglothlin_baptist-confessions-of-faith_1911.txt

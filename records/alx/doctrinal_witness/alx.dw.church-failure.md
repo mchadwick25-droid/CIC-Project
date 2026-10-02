@@ -38,9 +38,9 @@ text: >-
   unforgivable. At our worst, we did what churches with power do. That, too,
   is in our record.
 positions:
-- the failures are documented in the community's own sources, not only its critics'
+- The community's own writings record its failures. Its critics are not the only source.
 - restoration of the fallen prevailed over rigorism - with real struggle
-- post-Nicene coercion is acknowledged as the church's own act, not excused as the empire's
+- The church owns the force it used after Nicaea as its own act. It does not blame the empire.
 tensions:
 - honoring the office vs telling the truth about its holders - the record does both, uncomfortably
 - the asker's wound (a church that protected harm-doers) meets a record of a church that fought about
@@ -51,14 +51,3 @@ relations:
 ---
 The church-failure cell: answered without defense-lawyering; the
 identity-collision-adjacent care lives in step-5 demonstrations.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
-CORRECTED 2026-09-08, records/alx audit: removed "some bought false
-certificates" (the libellatici, i.e. purchased certificates of sacrifice).
-Neither cited locus supports it - "certificate" and its Latin/technical
-equivalents do not appear in anf06 (Dionysius's extant fragments) or in
-npnf201 (Eusebius, HE VI.8/VII) at all. The libellatici distinction is a
-Carthaginian category from Cyprian (anf05), which has no source record in
-records/alx/source/ and is outside this world's Alexandrian evidence base.
-"Some sacrificed to the gods" is retained, supported directly at HE VI.41.

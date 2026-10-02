@@ -21,6 +21,14 @@ sources:
   license: public-domain
 text: >-
   It has been brought to my knowledge that certain persons, in the course of a controversy which they have been raising in your Holiness’ jurisdiction on matters of faith or on other points, have made mention of my name. I venture to believe that your Holiness, who have been trained from your infancy in the strict principles of the Church, has refused to listen to any calumnies which may have been directed against an absent person, and one who has been favourably known to you as united with you in the faith and love of God. Nevertheless, since I hear it reported that my reputation has been attacked, I have thought it right to make my position clear to your Holiness in writing.
+modern_rendering: >-
+  It has come to my knowledge that certain persons have mentioned my name. They did this
+  in a controversy they have raised in your Holiness's jurisdiction, on matters of faith
+  or on other points. I venture to believe one thing: your Holiness was trained since
+  infancy in the Church's strict principles, and so has refused to listen to any slander
+  against an absent person. That person is one already known to you, united with you in
+  faith and love of God. All the same, I hear that my reputation has been attacked. So I
+  have thought it right to make my position clear to your Holiness in writing.
 speaker_or_author: Rufinus of Aquileia, Apology to Anastasius, sec. 1
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +43,7 @@ relations:
 - type: associated-with
   target: hal.dw.authority
 ---
-Opened 2026-08-27 for F1-E, served by hal.dw.authority alone, whose two loci both read 'whole work' -
+Opened for F1-E, served by hal.dw.authority alone, whose two loci both read 'whole work' -
 a body of text rather than a place in one, which is why the instrument ruled this cell NEEDS READING.
 
 Read from the other side first. The cell's question is who had the right to decide; Rufinus's opening

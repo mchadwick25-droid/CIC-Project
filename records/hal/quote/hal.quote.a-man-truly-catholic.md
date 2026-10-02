@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   This fact influenced me greatly, that Hieronymus, a man truly Catholic and most skillful in the holy law, was thought at first to have been a follower of Origen, yet now, above most others, went the length of condemning the whole of his writings.
+modern_rendering: >-
+  This fact influenced me greatly: Hieronymus was a man of true Catholic faith, and highly
+  skilled in the holy law. People once thought he had followed Origen. Yet now, more than
+  almost anyone else, he went so far as to condemn the whole of his writings.
 speaker_or_author: Sulpitius Severus, Dialogues
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +39,7 @@ relations:
 - type: associated-with
   target: hal.dw.one-church
 ---
-Opened 2026-08-27 for F3-T, served by hal.dw.one-church alone, which cites this dialogue for
+Opened for F3-T, served by hal.dw.one-church alone, which cites this dialogue for
 "a man truly Catholic" and could not show it.
 
 Kept as an OUTSIDE view deliberately, and its register field says emic only because Sulpitius

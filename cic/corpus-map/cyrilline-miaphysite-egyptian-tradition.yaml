@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrilline-miaphysite-egyptian-tradition
 works:
-- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts-2
+  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11
   role: context
@@ -13,7 +14,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+- row_id: npnf214_seven-ecumenical-councils--the-council-of-ephesus-431-extracts-from-the-acts-decree
+  work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10 — acts extracts, decree against Nestorius 10.11, Coelestine's letter 10.13,
     canons 10.16 (Cyril's epistles split out below)
@@ -27,7 +29,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+- row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters
+  work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
   author: cyril_alexandria
   locus: div2 10.5, 10.8-10.9, 11.5 — split out of the Ephesus and Chalcedon acts as the works
@@ -41,21 +44,22 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
+- row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-cyril-of-alexandria-on-the-hymns
+  work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
     and Pentapolis)
   author: cyril_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.30-17.31 (~336 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. Follows the placement already in the
-    map: Cyril''s Epistles and XII Anathematisms sit in the Cyrilline entry, though he died
-    in 444 and that entry opens at 451. Consistent with the precedent rather than newly stretched
-    here.'
-- work: The Letters of Leo the Great
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so this split covers 17.5-17.32. This row is one father''s
+    share of it. Follows the placement already in the map: Cyril''s Epistles and XII Anathematisms
+    sit in the Cyrilline entry, though he died in 444 and that entry opens at 451. Consistent
+    with the precedent rather than newly stretched here.'
+- row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great-2
+  work: The Letters of Leo the Great
   author: leo
   locus: div2 2.4 — Letters
   role: context
@@ -64,11 +68,12 @@ works:
     of the movement the Cyrilline/miaphysite entry names, and the Tome is the document whose
     rejection defines that tradition. Context, not its voice. The census holds a near-duplicate
     era-3 id (cyrilline-miaphysite-egyptian-christianity, 451-642); the on-record Step-0 deferred
-    entry is used here - a ruling on which of the two carries corpus would help every worker.
+    entry is used here - a ruling on which of the two carries corpus is still needed.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- work: Dialogues (Eranistes)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes-2
+  work: Dialogues (Eranistes)
   author: theodoret
   locus: div2 3.9
   role: context
@@ -82,7 +87,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: The Anathemas of Cyril with the Counter-statements of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-anathemas-of-cyril-with-the-counter-statements-of
+  work: The Anathemas of Cyril with the Counter-statements of Theodoret
   author: theodoret
   locus: div2 3.6-3.7 — The Anathemas of Cyril in Opposition to Nestorius; Counter-statements
     of Theodoret

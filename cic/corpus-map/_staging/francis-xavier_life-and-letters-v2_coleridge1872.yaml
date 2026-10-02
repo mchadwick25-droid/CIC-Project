@@ -1,0 +1,16 @@
+source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
+
+assignments:
+  - row_id: francis-xavier_life-and-letters-v2_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-ii
+    work: "The Life and Letters of St. Francis Xavier, Vol. II"
+    author: francis-xavier
+    locus: "whole text - Japan and China missions, Xavier's death 1552"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Compiled by Henry James Coleridge, S.J. (1872) - Xavier's later
+      years, the Japan and China missions, and his death in 1552.
+      Companion to Vol. I (university years,
+      India/Fishery Coast, Malacca/Moluccas, 1541-1548).

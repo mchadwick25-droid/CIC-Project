@@ -39,17 +39,23 @@ name: Institutional attrition under sustained legal pressure [3B - ending/intern
 kind: ending
 matrix_cell: 3B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 3B, Force 3B-1): this world's institutional life underwent sustained
-  attrition under legal pressure and property confiscation across the ending phase, though it was not extinguished
-  within the construction window; the movement's later history, continuing past 439 under Vandal and then
-  Byzantine rule, is attested only by the record falling silent, not by any surviving Donatist voice narrating
-  its own decline. LAYER 2 - THE WORLD'S OWN EXPERIENCE: NOT RECOVERABLE FROM SURVIVING SOURCES. No direct
-  account of what this attrition felt like from inside is preserved. Reported-Experience Status applied; Doc_08
-  SS8 records this as the shortest such entry in that document, trimmed to its bare statement on purpose.
-  LAYER 3 - FORMATION IMPACT: this force is what Doc_01 SS7 item 8 explicitly binds a future compilation to
-  record honestly - a real, later, more gradual decline, not smoothed into a sudden ending at 439. It is the
-  specific reason confidence about the parallel hierarchy's own institutional continuity ends precisely where
-  the vendored record does, not where the movement itself actually ended.
+  This world's institutions wore away steadily in its final phase, ground down by sustained legal
+  pressure and the confiscation of property. The movement was not extinguished within this world's
+  own time window.
+
+  It carried on past 439, first under Vandal rule and then under Byzantine rule. We know about
+  that continuation only because the surviving record falls silent, not because any Donatist voice
+  narrates its own decline.
+
+  What this slow institutional erosion felt like from inside cannot be recovered from the
+  surviving sources. No direct account of it survives to be read.
+
+  The decline was real, and its actual end came after 439, not at that date. It unfolded
+  gradually, not in one sudden ending.
+
+  This force is also the reason our confidence stops precisely where it does. We can trace the
+  survival of this movement's own bishops, basilicas and councils only as far as the surviving
+  record goes. That is not the point where the movement itself actually ended.
 manifestations:
 - sustained legal pressure and property confiscation across the ending phase, attrition rather than extinction
 - the movement continuing past 439 under Vandal and then Byzantine rule

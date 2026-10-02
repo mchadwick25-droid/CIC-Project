@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Let the ancient customs in Egypt, Libya and Pentapolis prevail, that the Bishop of Alexandria have jurisdiction in all these, since the like is customary for the Bishop of Rome also. Likewise in Antioch and the other provinces, let the Churches retain their privileges.
+modern_rendering: >-
+  Let the ancient customs in Egypt, Libya, and Pentapolis continue. The Bishop of
+  Alexandria holds authority over all these regions, since the same is customary for the
+  Bishop of Rome as well. In the same way, in Antioch and the other provinces, let the
+  Churches keep their own privileges.
 speaker_or_author: the Council of Nicaea, Canon VI
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +40,7 @@ relations:
 - type: associated-with
   target: ijc.dw.how-we-read
 ---
-Opened 2026-08-27 for F2-I, served by ijc.dw.how-we-read alone, which cites Canon 6 for
+Opened for F2-I, served by ijc.dw.how-we-read alone, which cites Canon 6 for
 "precedent read as law" and could not show it.
 
 Chosen over Leo's Sermon III, the other locus that witness names, because the cell asks how this

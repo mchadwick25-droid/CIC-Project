@@ -18,21 +18,34 @@ class RecordParseError(ValueError):
     pass
 
 
-def parse_record_file(path: Path) -> dict:
-    text = path.read_text(encoding="utf-8")
+def _split_record_text(text: str, label: str) -> tuple[dict, str]:
     lines = text.splitlines()
     if not lines or lines[0].strip() != FENCE:
-        raise RecordParseError(f"{path}: does not open with a {FENCE} front-matter fence")
+        raise RecordParseError(f"{label}: does not open with a {FENCE} front-matter fence")
     try:
         close = lines[1:].index(FENCE) + 1
     except ValueError as e:
-        raise RecordParseError(f"{path}: no closing {FENCE} fence found") from e
+        raise RecordParseError(f"{label}: no closing {FENCE} fence found") from e
     front_matter_text = "\n".join(lines[1:close])
     body = "\n".join(lines[close + 1 :]).strip()
     record = yaml.safe_load(front_matter_text) or {}
     if not isinstance(record, dict):
-        raise RecordParseError(f"{path}: front matter did not parse to a mapping")
+        raise RecordParseError(f"{label}: front matter did not parse to a mapping")
+    return record, body
+
+
+def parse_record_file(path: Path) -> dict:
+    record, body = _split_record_text(path.read_text(encoding="utf-8"), str(path))
     record["_path"] = str(path.relative_to(REPO_ROOT))
+    record["_body"] = body
+    return record
+
+
+def parse_record_text(text: str, label: str) -> dict:
+    """A record read from somewhere other than the working tree (e.g. a past
+    version from git). `label` names the source in error messages; there is
+    no `_path`, since the text has no file in this checkout."""
+    record, body = _split_record_text(text, label)
     record["_body"] = body
     return record
 
@@ -54,8 +67,8 @@ def load_world_records(world_key: str, records_root: Path = RECORDS_ROOT) -> dic
 
 @lru_cache(maxsize=4)
 def load_fleet_records(records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
-    """Cached (2026-08-28 foundation audit): parsing the ~95 fleet files
-    measured 57-63ms warm, and the turn path called this THREE times per
+    """Cached: parsing the ~95 fleet files
+    measures 57-63ms warm, and the turn path calls this THREE times per
     participant message - ~190ms of GIL-held CPU per message re-parsing
     identical, image-immutable files. The cache returns one shared dict:
     callers treat it as read-only (every current caller does; the

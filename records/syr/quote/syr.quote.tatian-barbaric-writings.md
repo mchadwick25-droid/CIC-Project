@@ -23,6 +23,14 @@ text: Retiring by myself, I sought how I might be able to discover the truth. An
   I was led to put faith in these by the unpretending cast of the language, the inartificial character
   of the writers, the foreknowledge displayed of future events, the excellent quality of the precepts,
   and the declaration of the government of the universe as centred in one Being.
+modern_rendering: >-
+  Retiring by myself, I sought how I might discover the truth. While I was giving my most
+  earnest attention to the matter, I happened to meet certain non-Greek writings -- too
+  old to compare with the opinions of the Greeks, and too divine to compare with their
+  errors. I was led to put faith in these writings by several things. The language was
+  plain. The writers were unpolished. They showed foreknowledge of future events.
+  Their precepts were excellent. And there was the declaration that the government of
+  the universe is centered in one Being.
 speaker_or_author: syr.figure.tatian
 license: verbatim
 modern_lens_note: >-
@@ -38,7 +46,7 @@ retrieval:
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---
-Verified verbatim against the vendored file 2026-08-27 at anf02 line
+Verified verbatim against the vendored file at anf02 line
 6972. DISCLOSED: the sentence beginning "Retiring by myself" is the
 continuation of a longer sentence whose earlier clauses list the pagan
 cults Tatian is rejecting; the excerpt starts at a clause boundary and
@@ -55,7 +63,7 @@ plainness rather than through argument about it. Carried as
 `corroborating` rather than load-bearing: it illuminates the harmony's
 maker, it does not establish anything about the harmony.
 
-CELL ASSIGNED 2026-08-27, same omission as its companion record. F2-I asks
+F2-I asks
 "How did you read your scriptures? What did you look for in them?" and this
 is a convert saying what he found in them and why he preferred them to the
 philosophy he was trained in.

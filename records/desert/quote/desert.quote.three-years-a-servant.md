@@ -28,6 +28,10 @@ text: >-
   But he that comes to dwell with them, let them not receive him into the association before he
   has completed three years, but they shall employ him only as a servant; and after his completion
   of three years, let him enter.
+modern_rendering: >-
+  If a man comes to live with them, they must not accept him into the community until he
+  has completed three years. During that time, they shall employ him only as a servant.
+  After he completes three years, let him enter.
 speaker_or_author: the angel of the Lord, in the Ethiopic recension of the Rule
 license: verbatim
 modern_lens_note: >-
@@ -47,7 +51,7 @@ relations:
 - type: associated-with
   target: desert.term.apotage
 ---
-Verified verbatim 2026-08-27 against the vendored file, Part I, p. 682.
+Verified verbatim against the vendored file, Part I, p. 682.
 
 Registered because desert.gravity.koinonia's own manifestations list has
 carried "a three-year probation" since the prior build on the strength of

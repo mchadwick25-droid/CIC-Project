@@ -3,188 +3,202 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: apocryphal-and-pseudepigraphal-literature
 works:
-- work: Acts and Martyrdom of the Holy Apostle Andrew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-and-martyrdom-of-the-holy-apostle-andrew
+  work: Acts and Martyrdom of the Holy Apostle Andrew
   author: acts-of-andrew
   locus: div2 7.29
   role: tradition
   confidence: assigned
-  note: 'Derived from the 2nd-3rd-century Acts of Andrew (encratite in temper); the received
-    Greek is later. pahc is an era guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: Derived from the 2nd-3rd-century Acts of Andrew (encratite in temper); the received
+    Greek is later. pahc is an era guess. apocryphal-and-pseudepigraphal-literature holds
+    that class and names what the TEXT is; pahc is kept where the subject matter is genuinely
+    apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of Andrew and Matthias
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-andrew-and-matthias
+  work: Acts of Andrew and Matthias
   author: acts-of-andrew-and-matthias
   locus: div2 7.30
   role: tradition
   confidence: assigned
-  note: 'Later romance (city of the man-eaters), 4th-6th c.; no good census bucket — pahc
-    carried over from the Andrew cycle for consistency. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: Later romance (city of the man-eaters), 4th-6th c.; no census bucket of its own —
+    pahc carried over from the Andrew cycle for consistency. apocryphal-and-pseudepigraphal-literature
+    holds that class and names what the TEXT is; pahc is kept where the subject matter is
+    genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Acts of Barnabas
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-acts-of-barnabas
+  work: The Acts of Barnabas
   author: acts-of-barnabas
   locus: div2 7.27
   role: tradition
   confidence: assigned
-  note: 'Cypriot composition commonly tied to the 5th-century case for Cyprus''s autocephaly;
-    the Justinianic entry is the nearest era bucket, not a fit. Ruled 2026-08-26: moved to
-    apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900 to cover
-    its own material. Every note in this group said the same thing - the entry it sat in was
-    whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
-    centuries. An era guess is not a placement; the class is.'
+  note: Cypriot composition commonly tied to the 5th-century case for Cyprus's autocephaly;
+    the Justinianic entry was the nearest era bucket, not a fit. Placed in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of the Holy Apostle and Evangelist John the Theologian
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostle-and-evangelist-john-the-theologian
+  work: Acts of the Holy Apostle and Evangelist John the Theologian
   author: acts-of-john-the-theologian
   locus: div2 7.37
   role: tradition
   confidence: assigned
-  note: 'Later Greek John material (not the 2nd-century Acts of John as such); Ephesus subject
-    matter, received text much later — pahc is a region-of-subject guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: Later Greek John material (not the 2nd-century Acts of John as such); Ephesus subject
+    matter, received text much later — pahc is a region-of-subject guess. apocryphal-and-pseudepigraphal-literature
+    holds that class and names what the TEXT is; pahc is kept where the subject matter is
+    genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts and Martyrdom of St. Matthew the Apostle
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-and-martyrdom-of-st-matthew-the-apostle
+  work: Acts and Martyrdom of St. Matthew the Apostle
   author: acts-of-matthew
   locus: div2 7.32
   role: tradition
   confidence: assigned
-  note: 'Late Greek hagiographic romance (5th-7th c.?); the Justinianic entry is an era guess
-    for a work with no strong bucket. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+  note: Late Greek hagiographic romance (5th-7th c.?); the Justinianic entry was an era guess
+    for a work with no strong bucket. Placed in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+    the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of Peter and Andrew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-peter-and-andrew
+  work: Acts of Peter and Andrew
   author: acts-of-peter-and-andrew
   locus: div2 7.31
   role: tradition
   confidence: assigned
-  note: 'Sequel to Andrew and Matthias; same class, same doubt. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: Sequel to Andrew and Matthias; same class, same doubt. apocryphal-and-pseudepigraphal-literature
+    holds that class and names what the TEXT is; pahc is kept where the subject matter is
+    genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of the Holy Apostles Peter and Paul
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostles-peter-and-paul
+  work: Acts of the Holy Apostles Peter and Paul
   author: acts-of-peter-and-paul
   locus: div2 7.25
   role: tradition
   confidence: assigned
-  note: 'Later Greek passio of the Roman martyrdoms (3rd-5th c. in its received form); pahc
-    holds the apostolic-Rome subject matter but the text postdates the entry''s window. 2026-08-26:
-    apocryphal-and-pseudepigraphal-literature added alongside - the class these notes kept
-    saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
-    this entry names what the TEXT is.'
+  note: Later Greek passio of the Roman martyrdoms (3rd-5th c. in its received form); pahc
+    holds the apostolic-Rome subject matter but the text postdates the entry's window. apocryphal-and-pseudepigraphal-literature
+    holds that class and names what the TEXT is; pahc is kept where the subject matter is
+    genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Acts of Philip
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-acts-of-philip
+  work: The Acts of Philip
   author: acts-of-philip
   locus: div2 7.28
   role: tradition
   confidence: assigned
-  note: '4th-5th-century Greek in received form, set at Hierapolis; scholarship links its
-    milieu to Phrygian ascetic (even Montanist-adjacent) circles. pahc is a region-of-subject
-    guess; flagged for a real ruling. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: 4th-5th-century Greek in received form, set at Hierapolis; scholarship links its milieu
+    to Phrygian ascetic (even Montanist-adjacent) circles. pahc is a region-of-subject guess.
+    apocryphal-and-pseudepigraphal-literature holds that class and names what the TEXT is;
+    pahc is kept where the subject matter is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Acts of Xanthippe and Polyxena
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-acts-of-xanthippe-and-polyxena
+  work: The Acts of Xanthippe and Polyxena
   author: acts-of-xanthippe-and-polyxena
   locus: div2 10.2
   role: tradition
   confidence: assigned
-  note: 'Greek romance dependent on the Paul-and-Thecla tradition, but composed well after
+  note: Greek romance dependent on the Paul-and-Thecla tradition, but composed well after
     it (3rd c. or later); pahc is carried over from its literary parent, not from evidence
-    about this text. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside
-    - the class these notes kept saying had no bucket. pahc is kept where the subject matter
-    is genuinely apostolic-era; this entry names what the TEXT is.'
+    about this text. apocryphal-and-pseudepigraphal-literature holds this class alongside
+    pahc; pahc is kept where the subject matter is genuinely apostolic-era, and this entry
+    names what the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: Revelation of Paul
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-paul
+  work: Revelation of Paul
   author: apocalypse-of-paul
   locus: div2 7.40
   role: tradition
   confidence: assigned
-  note: 'The Apocalypse of Paul, c. 380-400, likely Egyptian, hugely popular in monastic circles
-    and the medieval West. The SAME WORK appears in anf09 as ''The Vision of Paul'' and is
-    staged identically there; alexandria is a provenance-and-era guess (desert-monasticism
-    is arguably next-best given its monastic circulation). One ruling should settle both instances.
-    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly
-    this class, and alexandria was a provenance guess only.'
+  note: The Apocalypse of Paul, c. 380-400, likely Egyptian, hugely popular in monastic circles
+    and the medieval West. The SAME WORK appears in anf09 as 'The Vision of Paul' and is staged
+    identically there. apocryphal-and-pseudepigraphal-literature holds exactly this class;
+    an alexandria placement would only have been a provenance-and-era guess (desert-monasticism
+    arguably next-best given its monastic circulation), so it is not used here.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Vision of Paul
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-vision-of-paul
+  work: The Vision of Paul
   author: apocalypse-of-paul
   locus: div2 6.2
   role: tradition
   confidence: assigned
-  note: '= The Apocalypse of Paul, c. 380-400, likely Egyptian, immensely popular among monks
-    and in the medieval West. The same work is staged from anf08 (div2 7.40, ''Revelation
-    of Paul'') with the same id and the same doubt — one ruling settles both. desert-monasticism
-    is arguably next-best given its monastic circulation. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    was added to hold exactly this class, and alexandria was a provenance guess only.'
+  note: = The Apocalypse of Paul, c. 380-400, likely Egyptian, immensely popular among monks
+    and in the medieval West. The same work is staged from anf08 (div2 7.40, 'Revelation of
+    Paul') with the same id and the same doubt — one assignment settles both. desert-monasticism
+    is arguably next-best given its monastic circulation. apocryphal-and-pseudepigraphal-literature
+    holds exactly this class; alexandria was only ever a provenance guess.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apocalypse of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-peter
+  work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
   role: tradition
   confidence: assigned
-  note: 'c. 100-150; stood near the canon''s edge (Muratorian fragment; cited by Clement of
+  note: c. 100-150; stood near the canon's edge (Muratorian fragment; cited by Clement of
     Alexandria, whence the alexandria guess; Egyptian or Palestinian provenance argued). The
     census has no bucket for early apocryphal apocalypses as a class; both ids are guesses.
-    2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class these
-    notes kept saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
-    this entry names what the TEXT is.'
+    apocryphal-and-pseudepigraphal-literature holds this class alongside the other two; pahc
+    is kept where the subject matter is genuinely apostolic-era, and this entry names what
+    the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apocalypse of Sedrach
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-sedrach
+  work: The Apocalypse of Sedrach
   author: apocalypse-of-sedrach
   locus: div2 8.2
   role: tradition
   confidence: assigned
-  note: 'Byzantine-era Greek apocalypse on older Jewish material; same which-segment doubt
-    as the Apocalypse of the Virgin. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+  note: Byzantine-era Greek apocalypse on older Jewish material; same which-segment doubt
+    as the Apocalypse of the Virgin. This entry places it in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+    the class is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apocalypse of the Virgin
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-the-virgin
+  work: The Apocalypse of the Virgin
   author: apocalypse-of-the-virgin
   locus: div2 7.2
   role: tradition
   confidence: assigned
-  note: 'Medieval Greek tour-of-hell apocalypse; its possible dates span several Byzantine
-    entries, and an Ante-Nicene volume is not evidence of an ante-Nicene work. Needs a ruling
-    on which segment, if any. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+  note: Medieval Greek tour-of-hell apocalypse; its possible dates span several Byzantine
+    entries, and an Ante-Nicene volume is not evidence of an ante-Nicene work. Which segment,
+    if any, is the harder question; this entry places it in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+    the class is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apostolical Canons
+- row_id: npnf214_seven-ecumenical-councils--the-apostolical-canons
+  work: The Apostolical Canons
   author: apostolic-canons
   locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
   role: tradition
   confidence: assigned
-  note: 'The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
+  note: The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
     Pseudonymous church-order material of the 4th century with no census entry of its own;
     best guess is the imperial-era church-law corpus, but its sibling text (the Apostolic
-    Constitutions, of which these canons form the close) is in anf07 under another worker,
-    and one ruling should place the pair together. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside for the pseudo-apostolic character. ijc is kept - these functioned as
-    church law in the imperial-era East, which is what this entry is.'
+    Constitutions, of which these canons form the close) is in anf07 under another worker.
+    Whether the pair should be placed together under one ruling is still open. apocryphal-and-pseudepigraphal-literature
+    is added alongside for the pseudo-apostolic character. ijc is kept - these functioned
+    as church law in the imperial-era East, which is what this entry is.
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Arabic Gospel of the Infancy of the Saviour
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-arabic-gospel-of-the-infancy-of-the-saviour
+  work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   role: tradition
   confidence: assigned
-  note: 'Compiled from Syriac sources, commonly dated 5th-6th century; the West Syriac entry
-    is a transmission-milieu guess. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+  note: Compiled from Syriac sources, commonly dated 5th-6th century; the West Syriac entry
+    was a transmission-milieu guess. Placed in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+    the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
+- row_id: anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on
+  work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian
   locus: div2 4.7 - four pieces, assigned as one body
@@ -192,82 +206,84 @@ works:
   confidence: assigned
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
     Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
-    in modern scholarship, which is why novatianism appears here - needs a ruling on whether
-    the attribution question should move them. RULED 2026-08-26, under a principle rather
-    than one by one - nine works across six entries were asking the same question, whether
-    a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
-    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    in modern scholarship, which is why novatianism appears here. On whether the attribution
+    question should move them: this is one of nine works across six entries asking the same
+    underlying question, whether a spurious corpus files under the attributed name at all
+    - resolved under a single principle rather than one by one. IT DOES, AND IT ALSO FILES
+    AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
     knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
     and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
     because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Book of John Concerning the Falling Asleep of Mary
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-book-of-john-concerning-the-falling-asleep-of-mary
+  work: The Book of John Concerning the Falling Asleep of Mary
   author: falling-asleep-of-mary
   locus: div2 7.42
   role: tradition
   confidence: assigned
-  note: 'Greek Dormition narrative, 5th-6th c.; the Dormition traditions and their feasts
-    center on Jerusalem, but the text postdates the entry''s 325-450 window — needs a ruling
-    on where Dormition literature lives. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+  note: Greek Dormition narrative, 5th-6th c.; the Dormition traditions and their feasts center
+    on Jerusalem, but the text postdates the entry's 325-450 window. Placed in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+    the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Gospel of the Nativity of Mary
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-the-nativity-of-mary
+  work: The Gospel of the Nativity of Mary
   author: gospel-of-nativity-of-mary
   locus: div2 7.6
   role: tradition
   confidence: assigned
-  note: 'Later Latin abridgement of Pseudo-Matthew, generally placed in the Carolingian period;
-    the id is a dating guess only. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
-    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
-    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+  note: Later Latin abridgement of Pseudo-Matthew, generally placed in the Carolingian period;
+    the id was a dating guess only. Placed in apocryphal-and-pseudepigraphal-literature, whose
+    window is widened to c. 900 to cover its own material. Every note in this group said the
+    same thing - the entry it sat in was whichever era bucket happened to be nearest, on a
+    date its own note calls a guess spanning centuries. An era guess is not a placement; the
+    class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-nicodemus-acts-of-pilate-and-descent-into-hell
+  work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
   author: gospel-of-nicodemus
   locus: div2 7.12-7.17
   role: tradition
   confidence: assigned
-  note: 'Greek Acts of Pilate commonly dated to the 4th century (possibly answering the pagan
-    ''Acts of Pilate'' circulated under Maximin), with the Descensus attached later; provenance
-    unknown. ijc is an era guess only — the work is popular piety, not imperial-juridical
-    argument. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to
-    hold this class, and the note above already said ijc was an era guess for a work that
-    is popular piety rather than imperial-juridical argument.'
+  note: Greek Acts of Pilate commonly dated to the 4th century (possibly answering the pagan
+    'Acts of Pilate' circulated under Maximin), with the Descensus attached later; provenance
+    unknown. ijc was an era guess only — the work is popular piety, not imperial-juridical
+    argument. apocryphal-and-pseudepigraphal-literature holds this class, since the work is
+    popular piety rather than imperial-juridical argument.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Gospel of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-gospel-of-peter
+  work: The Gospel of Peter
   author: gospel-of-peter
   locus: div2 3.2 (Akhmim fragment)
   role: tradition
   confidence: assigned
-  note: '2nd-century passion gospel in use at Rhossus in Antioch''s orbit — pahc''s era and
-    region — but Serapion of Antioch condemned its docetic use (his letter is in anf08 div2
-    10.13, cross-referenced there). Whether a gospel the entry''s own bishops rejected is
-    pahc ''tradition'' is exactly a Mark question; it is not Scripture in the sense brief
-    6.5 excludes, so it is assigned rather than dropped. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: 2nd-century passion gospel in use at Rhossus in Antioch's orbit — pahc's era and region
+    — but Serapion of Antioch condemned its docetic use (his letter is in anf08 div2 10.13,
+    cross-referenced there). It is not Scripture in the sense brief 6.5 excludes, so it is
+    assigned rather than dropped. apocryphal-and-pseudepigraphal-literature holds this class
+    alongside pahc; pahc is kept where the subject matter is genuinely apostolic-era, and
+    this entry names what the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Gospel of Pseudo-Matthew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-pseudo-matthew
+  work: The Gospel of Pseudo-Matthew
   author: gospel-of-pseudo-matthew
   locus: div2 7.5
   role: tradition
   confidence: assigned
-  note: 'Early-medieval Latin reworking of the Protevangelium tradition (commonly dated c.
-    600-625, Frankish milieu argued). The Merovingian entry is a dating guess; an Ante-Nicene
-    volume housing a 7th-century work is worth a reviewer''s note in itself. Ruled 2026-08-26:
-    moved to apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900
-    to cover its own material. Every note in this group said the same thing - the entry it
-    sat in was whichever era bucket happened to be nearest, on a date its own note calls a
-    guess spanning centuries. An era guess is not a placement; the class is.'
+  note: Early-medieval Latin reworking of the Protevangelium tradition (commonly dated c.
+    600-625, Frankish milieu argued). An Ante-Nicene volume housing a 7th-century work is
+    notable in itself. Placed in apocryphal-and-pseudepigraphal-literature, whose window is
+    widened to c. 900 to cover its own material. Every note in this group said the same thing
+    - the entry it sat in was whichever era bucket happened to be nearest, on a date its own
+    note calls a guess spanning centuries. An era guess is not a placement; the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--dubious-or-spurious-writings-of-gregory-thaumaturgus
+  work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
     On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
     On All the Saints; On the Gospel According to Matthew)
   author: gregory_thau
@@ -275,24 +291,22 @@ works:
   role: tradition
   confidence: assigned
   note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
-    (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
-    whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files
-    under the attributed name at all is an attribution ruling no new entry answers. The Sectional
-    Confession is widely held an Apollinarian production, and apollinarian-christianity now
-    exists to receive it if the bundle is ever split. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    (the Sectional Confession is widely held an Apollinarian production). Shelved with anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    The Sectional Confession is widely held an Apollinarian production, and apollinarian-christianity
+    now exists to receive it if the bundle is ever split. On whether a spurious corpus files
+    under the attributed name at all: this is one of nine works across six entries asking
+    the same underlying question, resolved under a single principle rather than one by one.
+    IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather
+    than re-attribute from outside knowledge, so the transmitted-author shelf stands: that
+    is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--appendix-to-the-works-of-hippolytus-dubious-and-spurious
+  work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
   author: hippolytus
   locus: div2 3.5 - incl. discourse on the end of the world, lists of the Twelve and Seventy
     Apostles, canons ascribed to Hippolytus
@@ -300,142 +314,144 @@ works:
   confidence: assigned
   note: 'STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
     material (editor''s own title says dubious and spurious), kept rather than dropped. Needs
-    a ruling both on the shelf (no Hippolytus home) and on whether a spurious corpus files
-    under the attributed name. Re-pointed 2026-08-26 to the census entry added on record for
-    this movement. RULED 2026-08-26, under a principle rather than one by one - nine works
-    across six entries were asking the same question, whether a spurious corpus files under
-    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
-    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
-    shelf stands: that is how the corpus presents it and how a reader will look for it. And
-    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
-    name that is not its author''s is a pseudepigraphon by definition. The two together say
-    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
-    can reverse this in one pass if he wants the spurious corpora detached from their attributed
-    authors instead.'
+    a ruling on the shelf (no Hippolytus home) - points to the census entry added for this
+    movement in the meantime. On whether a spurious corpus files under the attributed name:
+    it does, and it also files as what it is - one of nine works across six entries asking
+    the same underlying question, resolved under a single principle rather than one by one.
+    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
+    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
+    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
+    circulating under a name that is not its author''s is a pseudepigraphon by definition.
+    The two together say the whole truth - where it sits, and what it is - without re-attributing
+    anything. The spurious corpora could instead be detached from their attributed authors
+    in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The History of Joseph the Carpenter
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter
+  work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   role: tradition
   confidence: assigned
-  note: 'Egyptian composition (Coptic/Arabic transmission), commonly dated 4th-7th century,
-    tied to the Coptic feast of Joseph; the Egyptian Miaphysite entry is a provenance guess
-    across an uncertain date range. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
-    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
-    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+  note: Egyptian composition (Coptic/Arabic transmission), commonly dated 4th-7th century,
+    tied to the Coptic feast of Joseph; the Egyptian Miaphysite entry was a provenance guess
+    across an uncertain date range. Placed in apocryphal-and-pseudepigraphal-literature, whose
+    window is widened to c. 900 to cover its own material. Every note in this group said the
+    same thing - the entry it sat in was whichever era bucket happened to be nearest, on a
+    date its own note calls a guess spanning centuries. An era guess is not a placement; the
+    class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Infancy Gospel of Thomas (three forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-infancy-gospel-of-thomas-three-forms
+  work: The Infancy Gospel of Thomas (three forms)
   author: infancy-gospel-of-thomas
   locus: div2 7.8-7.10
   role: tradition
   confidence: assigned
-  note: '2nd-century childhood-miracles gospel (the boy Jesus), within pahc''s era; provenance
-    unknown. Not the Nag Hammadi Gospel of Thomas. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside - the class these notes kept saying had no bucket. pahc is kept where
-    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: 2nd-century childhood-miracles gospel (the boy Jesus), within pahc's era; provenance
+    unknown. Not the Nag Hammadi Gospel of Thomas. apocryphal-and-pseudepigraphal-literature
+    holds that class and names what the TEXT is; pahc is kept where the subject matter is
+    genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Narrative of Events Happening in Persia on the Birth of Christ
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--narrative-of-events-happening-in-persia-on-the-birth-of
+  work: Narrative of Events Happening in Persia on the Birth of Christ
   author: juliusafricanus
   locus: div2 5.4
   role: tradition
   confidence: assigned
   note: 'Printed under Africanus but generally regarded as a later pseudonymous legend; kept
-    under the attributed name pending a ruling, on the same shelf as his section. Re-pointed
-    2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly this class,
-    and alexandria was a provenance guess only. STILL `needs-ruling`: the attribution doubt
-    in this note is untouched by a new entry. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
+    under the attributed name, on the same shelf as his section. apocryphal-and-pseudepigraphal-literature
+    holds exactly this class; alexandria was a provenance guess only. On whether a spurious
+    corpus files under the attributed name at all: this is one of nine works across six entries
+    asking the same underlying question, resolved under a single principle rather than one
+    by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup
+    rather than re-attribute from outside knowledge, so the transmitted-author shelf stands:
+    that is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Martyrdom of the Holy and Glorious Apostle Bartholomew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--martyrdom-of-the-holy-and-glorious-apostle-bartholomew
+  work: Martyrdom of the Holy and Glorious Apostle Bartholomew
   author: martyrdom-of-bartholomew
   locus: div2 7.35
   role: tradition
   confidence: assigned
-  note: 'Late Greek romance; era guess only, same class as the Matthew acts. Ruled 2026-08-26:
-    moved to apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900
-    to cover its own material. Every note in this group said the same thing - the entry it
-    sat in was whichever era bucket happened to be nearest, on a date its own note calls a
-    guess spanning centuries. An era guess is not a placement; the class is.'
+  note: Late Greek romance; era guess only, same class as the Matthew acts. Placed in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Oration Concerning Simeon and Anna
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-concerning-simeon-and-anna
+  work: Oration Concerning Simeon and Anna
   author: methodius
   locus: div2 11.8
   role: tradition
   confidence: assigned
   note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
-    (the feast''s development postdates him). Shelved with his section pending a ruling on
-    the spurious pieces. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature
-    alongside for the pseudonymous character. STILL `needs-ruling`: the question this note
-    asks - whether a spurious corpus files under the attributed name at all - is an attribution
-    ruling that no new entry answers. Worth noting for whoever rules it: the Sectional Confession
-    is widely held an Apollinarian production, and apollinarian-christianity now exists to
-    receive it if the bundle is ever split. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Oration on the Palms
-  author: methodius
-  locus: div2 11.9
-  role: tradition
-  confidence: assigned
-  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: the question this note asks - whether
-    a spurious corpus files under the attributed name at all - is an attribution ruling that
-    no new entry answers. Worth noting for whoever rules it: the Sectional Confession is widely
-    held an Apollinarian production, and apollinarian-christianity now exists to receive it
-    if the bundle is ever split. RULED 2026-08-26, under a principle rather than one by one
-    - nine works across six entries were asking the same question, whether a spurious corpus
-    files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+    (the feast''s development postdates him). Shelved with his section, in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
     6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
     transmitted-author shelf stands: that is how the corpus presents it and how a reader will
     look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
     under a name that is not its author''s is a pseudepigraphon by definition. The two together
     say the whole truth - where it sits, and what it is - without re-attributing anything.
-    Mark can reverse this in one pass if he wants the spurious corpora detached from their
-    attributed authors instead.'
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Narrative of Zosimus
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-on-the-palms
+  work: Oration on the Palms
+  author: methodius
+  locus: div2 11.9
+  role: tradition
+  confidence: assigned
+  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Shelved in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+    6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
+    transmitted-author shelf stands: that is how the corpus presents it and how a reader will
+    look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
+    under a name that is not its author''s is a pseudepigraphon by definition. The two together
+    say the whole truth - where it sits, and what it is - without re-attributing anything.
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-narrative-of-zosimus
+  work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2
   role: tradition
   confidence: assigned
-  note: 'Legend of the Blessed Ones (the Rechabites), Jewish core with Christian reworking,
-    date and provenance uncertain; pahc stands in for ''early Christian transmission milieu''
-    only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class
-    these notes kept saying had no bucket. pahc is kept where the subject matter is genuinely
-    apostolic-era; this entry names what the TEXT is.'
+  note: Legend of the Blessed Ones (the Rechabites), Jewish core with Christian reworking,
+    date and provenance uncertain; pahc stands in for 'early Christian transmission milieu'
+    only. apocryphal-and-pseudepigraphal-literature holds this class alongside pahc; pahc
+    is kept where the subject matter is genuinely apostolic-era, and this entry names what
+    the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Passing of Mary (two Latin forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-passing-of-mary-two-latin-forms
+  work: The Passing of Mary (two Latin forms)
   author: passing-of-mary
   locus: div2 7.43-7.44
   role: tradition
   confidence: assigned
-  note: 'Latin Transitus Mariae (circulating under Melito''s name); same class and same doubt
-    as the Falling Asleep of Mary. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
-    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
-    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+  note: Latin Transitus Mariae (circulating under Melito's name); same class and same doubt
+    as the Falling Asleep of Mary. Placed in apocryphal-and-pseudepigraphal-literature, whose
+    window is widened to c. 900 to cover its own material. Every note in this group said the
+    same thing - the entry it sat in was whichever era bucket happened to be nearest, on a
+    date its own note calls a guess spanning centuries. An era guess is not a placement; the
+    class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Pilate Cycle (letters, reports and legends of Pilate)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-pilate-cycle-letters-reports-and-legends-of-pilate
+  work: The Pilate Cycle (letters, reports and legends of Pilate)
   author: pilate-cycle
   locus: div2 7.18-7.24
   role: tradition
@@ -443,111 +459,113 @@ works:
   note: 'Grouped as one body: Letter of Pontius Pilate; Report of Pilate (two forms); The
     Giving Up of Pilate; The Death of Pilate; The Narrative of Joseph; The Avenging of the
     Saviour. Christian compositions under Roman official personae, late antique to medieval;
-    same era-guess placement and the same doubt as the Gospel of Nicodemus they travel with.
-    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold this
-    class, and the note above already said ijc was an era guess for a work that is popular
-    piety rather than imperial-juridical argument.'
+    same class and the same doubt as the Gospel of Nicodemus they travel with. apocryphal-and-pseudepigraphal-literature
+    holds this class, since these are popular piety rather than imperial-juridical argument.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Protevangelium of James
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-protevangelium-of-james
+  work: The Protevangelium of James
   author: protevangelium-of-james
   locus: div2 7.4
   role: tradition
   confidence: assigned
-  note: 'Mid-2nd-century Marian infancy gospel, enormously influential; within pahc''s era
-    though its provenance (Syria? Egypt?) is unknown. The census has no bucket for popular
-    apocryphal literature as a class — a recurring problem in this volume, flagged once here
-    and applied throughout. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside
-    - the class these notes kept saying had no bucket. pahc is kept where the subject matter
-    is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: Mid-2nd-century Marian infancy gospel, enormously influential; within pahc's era though
+    its provenance (Syria? Egypt?) is unknown. The census has no bucket of its own for popular
+    apocryphal literature as a class — a recurring problem in this volume, noted once here
+    and applying throughout. apocryphal-and-pseudepigraphal-literature holds that class and
+    names what the TEXT is; pahc is kept where the subject matter is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Spurious Epistles of Ignatius
+- row_id: anf01_apostolic-fathers-justin-irenaeus--spurious-epistles-of-ignatius
+  work: Spurious Epistles of Ignatius
   author: pseudo_ignatius
   locus: div2 5.14-5.23 under div1 'IGNATIUS'
   role: tradition
   confidence: assigned
-  note: 'Later pseudepigrapha (the volume''s own intro at 5.13 calls them spurious, generally
-    dated 4th c.). Best guess is the entry whose figure they impersonate, but a 4th-century
-    forgery sitting as `tradition` in a 70-200 CE entry is exactly the kind of call Mark should
-    make, not me. Resolved 2026-08-26: this is the pseudepigrapha case exactly - a 4th-century
-    forgery in a first-century figure''s name - and apocryphal-and-pseudepigraphal-literature
-    was added to hold that class. pahc is kept because the figure they impersonate is its.'
+  note: Later pseudepigrapha (the volume's own intro at 5.13 calls them spurious, generally
+    dated 4th c.). Best guess is the entry whose figure they impersonate. This is the pseudepigrapha
+    case exactly - a 4th-century forgery in a first-century figure's name - and apocryphal-and-pseudepigraphal-literature
+    holds that class. pahc is kept because the figure they impersonate is its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Against All Heresies (spurious appendix)
+- row_id: anf03_tertullian--against-all-heresies-spurious-appendix-2
+  work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian
   locus: div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)
   role: tradition
   confidence: assigned
   note: 'An ancient heresy catalogue, not 19th-century editorial matter, though STRUCTURE.md''s
     apparatus marker caught it via its "Appendix" title - flagged rather than silently skipped.
-    The volume''s own editor calls it spurious (see ruling above). Needs a ruling on both
-    counts: whether a pseudo-Tertullianic catalogue is wanted at all, and where; its notices
-    cover many more movements than these two entries. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    The volume''s own editor calls it spurious (see the pseudonymity note above). Its notices
+    cover many more movements than these two entries. This follows one principle rather than
+    a case-by-case call - nine works across six entries raise the same question, whether a
+    spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
+    and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. Detaching the spurious corpora from their attributed
+    authors instead is a possible alternative shelving choice.'
   source_file: anf03_tertullian.xml
-- work: Revelation of Esdras
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-esdras
+  work: Revelation of Esdras
   author: revelation-of-esdras
   locus: div2 7.39
   role: tradition
   confidence: assigned
-  note: 'Byzantine-era Greek apocalypse on Jewish Esdras material; its date range spans several
-    Byzantine entries — needs a ruling on which segment, if any. Ruled 2026-08-26: moved to
-    apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900 to cover
-    its own material. Every note in this group said the same thing - the entry it sat in was
-    whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
-    centuries. An era guess is not a placement; the class is.'
+  note: Byzantine-era Greek apocalypse on Jewish Esdras material; its date range spans several
+    Byzantine entries, with no single segment clearly fitting. Placed in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Revelation of John (apocryphal)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-john-apocryphal
+  work: Revelation of John (apocryphal)
   author: revelation-of-john
   locus: div2 7.41
   role: tradition
   confidence: assigned
-  note: 'Apocryphal Apocalypse of John, Byzantine-era Greek (5th-9th c.?); same which-Byzantine-segment
-    doubt as the Revelation of Esdras. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
-    whose window was widened to c. 900 to cover its own material. Every note in this group
+  note: Apocryphal Apocalypse of John, Byzantine-era Greek (5th-9th c.?); same which-Byzantine-segment
+    doubt as the Revelation of Esdras. Placed in apocryphal-and-pseudepigraphal-literature,
+    whose window is widened to c. 900 to cover its own material. Every note in this group
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
-    the class is.'
+    the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Revelation of Moses
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-moses
+  work: Revelation of Moses
   author: revelation-of-moses
   locus: div2 7.38
   role: tradition
   confidence: assigned
-  note: 'The Greek Life of Adam and Eve — a Jewish pseudepigraphon in Christian transmission.
-    The census has no bucket for the class (same problem as the Testaments of the Twelve Patriarchs
-    and anf09''s Testament of Abraham); pahc stands in for ''early Christian transmission
-    milieu'' only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside -
-    the class these notes kept saying had no bucket. pahc is kept where the subject matter
-    is genuinely apostolic-era; this entry names what the TEXT is.'
+  note: The Greek Life of Adam and Eve — a Jewish pseudepigraphon in Christian transmission.
+    The census has no bucket of its own for the class (same problem as the Testaments of the
+    Twelve Patriarchs and anf09's Testament of Abraham); pahc stands in for 'early Christian
+    transmission milieu' only. apocryphal-and-pseudepigraphal-literature holds that class
+    and names what the TEXT is; pahc is kept where the subject matter is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Doubtful Letters of Sulpitius Severus
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus
+  work: The Doubtful Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.5 — The Doubtful Letters
   role: tradition
   confidence: assigned
   note: 'Seven letters the edition itself marks doubtful - the attribution doubt is the editors''
-    own, on top of the Gallic-gap doubt shared with the Martin works. Re-pointed 2026-08-26
-    to gallic-monastic-ascetic-christianity, the era-2 entry added on record. Still `needs-ruling`:
-    the editors'' own attribution doubt is untouched by the new entry. RULED 2026-08-26, under
-    a principle rather than one by one - nine works across six entries were asking the same
-    question, whether a spurious corpus files under the attributed name at all. IT DOES, AND
-    IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute
-    from outside knowledge, so the transmitted-author shelf stands: that is how the corpus
-    presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    own, on top of the Gallic-gap doubt shared with the Martin works. Filed under gallic-monastic-ascetic-christianity,
+    the era-2 entry for pre-Merovingian Gaul.
+
+    The editors'' own attribution doubt is a separate question from the placement, and is
+    decided under a general principle rather than case by case: nine works across six entries
+    raise the same question, whether a spurious corpus files under the attributed name at
+    all. It does, and it also files as what it is. Brief 6.2 says derive from the markup rather
+    than re-attribute from outside knowledge, so the transmitted-author shelf stands - that
+    is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
     is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. This can be reversed in one pass if the spurious corpora
+    should instead be detached from their attributed authors.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--appendix-of-poems-ascribed-to-tertullian-strains-of-jonah
+  work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
     Five Books in Reply to Marcion)
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
@@ -556,53 +574,51 @@ works:
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
-    Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
-    pieces belong. RULED 2026-08-26, under a principle rather than one by one - nine works
-    across six entries were asking the same question, whether a spurious corpus files under
-    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
-    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
-    shelf stands: that is how the corpus presents it and how a reader will look for it. And
-    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
-    name that is not its author''s is a pseudepigraphon by definition. The two together say
-    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
-    can reverse this in one pass if he wants the spurious corpora detached from their attributed
-    authors instead.'
+    Whether spurious verse files under tertullian at all, and where non-Marcion pieces belong,
+    comes down to one principle: nine works across six entries ask the same question, whether
+    a spurious corpus files under the attributed name at all. It does, and it also files as
+    what it is. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
+    and how a reader will look for it. apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. This can be reversed in one pass if the spurious corpora
+    should be detached from their attributed authors instead.'
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: The Testament of Abraham
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-testament-of-abraham
+  work: The Testament of Abraham
   author: testament-of-abraham
   locus: div2 9.3
   role: tradition
   confidence: assigned
-  note: 'Jewish pseudepigraphon (Egypt, 1st-2nd c. argued) in Christian transmission — the
-    census has no bucket for the class (same problem as anf08''s Revelation of Moses and Testaments
-    of the Twelve Patriarchs); alexandria is a provenance guess only. Re-pointed 2026-08-26:
-    apocryphal-and-pseudepigraphal-literature was added to hold exactly this class, and alexandria
-    was a provenance guess only.'
+  note: Jewish pseudepigraphon (Egypt, 1st-2nd c. argued) in Christian transmission — the
+    census has no bucket for the class (same problem as anf08's Revelation of Moses and Testaments
+    of the Twelve Patriarchs); alexandria is a provenance guess only. apocryphal-and-pseudepigraphal-literature
+    holds exactly this class.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Testaments of the Twelve Patriarchs
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-testaments-of-the-twelve-patriarchs
+  work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)
   role: tradition
   confidence: assigned
-  note: 'Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian
-    composition on Jewish sources — the introductory notice itself rehearses the dispute.
-    The census has no entry for Jewish pseudepigrapha in Christian transmission; both ids
-    are guesses (Jewish-Christian milieu; 2nd-century Christian use) and Mark should rule
-    the class. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the
-    class these notes kept saying had no bucket. pahc is kept where the subject matter is
-    genuinely apostolic-era; this entry names what the TEXT is.'
+  note: Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian composition
+    on Jewish sources — the introductory notice itself rehearses the dispute. The census has
+    no entry of its own for Jewish pseudepigrapha in Christian transmission; apocryphal-and-pseudepigraphal-literature
+    holds that class and names what the TEXT is, and pahc is kept where the subject matter
+    is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Two Epistles Concerning Virginity
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--two-epistles-concerning-virginity
+  work: Two Epistles Concerning Virginity
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4
   role: tradition
   confidence: assigned
-  note: 'Pseudo-Clementine ascetic letters, generally placed in 3rd-century Syria/Palestine
+  note: Pseudo-Clementine ascetic letters, generally placed in 3rd-century Syria/Palestine
     and preserved in Syriac. syr is a region-and-era guess, not a demonstrated Edessene provenance;
     the ascetic-celibate milieu also touches traditions with no census entry of their own.
-    Ruled 2026-08-26: kept with syriac-edessa-nisibis for the Syriac preservation and third-century
-    Syrian milieu, and given apocryphal-and-pseudepigraphal-literature alongside, which is
-    what these are - pseudo-Clementine letters written under a name that is not theirs. The
-    ascetic-milieu question in the original note is not resolved by either; it is noted and
-    not forced.'
+    Kept with syriac-edessa-nisibis for the Syriac preservation and third-century Syrian milieu,
+    and given apocryphal-and-pseudepigraphal-literature alongside, which is what these are
+    - pseudo-Clementine letters written under a name that is not theirs. The ascetic-milieu
+    question in the original note is not resolved by either; it is noted and not forced.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

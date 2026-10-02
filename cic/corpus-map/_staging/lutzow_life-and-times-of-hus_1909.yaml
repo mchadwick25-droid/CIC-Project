@@ -1,0 +1,15 @@
+source_file: lutzow_life-and-times-of-hus_1909.txt
+
+assignments:
+  - row_id: lutzow_life-and-times-of-hus_1909--the-life-times-of-master-john-hus
+    work: "The Life & Times of Master John Hus"
+    author: lutzow
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: assigned
+    note: >
+      Secondary biography, English, Lutzow (1909). Fills out the
+      institutional/political register this thin-sourced world's corpus
+      otherwise lacked (previously only Hus's own two vendored works).

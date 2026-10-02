@@ -63,18 +63,14 @@ matching how pahc.demo.center-jesus-as-god handles the same corpus
 ("One of us, Ignatius, calls..."); the closing Didache thanksgiving is
 kept as the cross-strand counterweight.
 
-CENTER-CELL OPENING (2026-08-30, Mark's ruling after four live probes:
-"make the record edit"): the spoken opening no longer hard-binds the
-first-mention introduction formula ("One of us, Ignatius,") to the
-answer - the plain name speaks, and introducing the figure is the
-system's job (the name-bridge mark for a first meeting, the
-already-introduced signal for later ones). Probes showed the compiled
-exemplar answering its own canon question verbatim, formula included,
-on every later mention. Only the opening words changed.
+The spoken opening does not hard-bind the first-mention
+introduction formula ("One of us, Ignatius,") to the answer - the
+plain name speaks, and introducing the figure is the system's job (the
+name-bridge mark for a first meeting, the already-introduced signal
+for later ones). The compiled exemplar answers its own canon question
+verbatim, formula included, on every later mention.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
-thanks over the cup, eucaruest (in purple)" - plain meaning first, the
-world's own word after it as a label, so the lexicon scan can light it
-into the glossary). eucharistia labeled at its own line (mirrors the witness). Register bar's own form: "a scholar's term
-only after its plain meaning, as a label." Claims unchanged; the label
-is the whole edit.
+Lexicon labels give the plain meaning first, with the world's own word
+after it as a label, so the lexicon scan can light it into the
+glossary: eucharistia is labeled at its own line (mirrors the
+witness).

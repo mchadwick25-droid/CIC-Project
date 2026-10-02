@@ -1,0 +1,35 @@
+source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+
+assignments:
+  - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council
+    work: "The Canons and Decrees of the Sacred and Oecumenical Council of Trent"
+    author: council-of-trent
+    locus: "whole text"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: assigned
+    note: >
+      Trent's own official canons and decrees, trans. Rev. J. Waterworth
+      (preface 1848) - this world's own
+      doctrinal anchor implemented by the Jesuits as one of Trent's most
+      vigorous executors - role context here, not tradition, since this
+      is not the Society's own composed voice. Double-placed to
+      the-tridentine-church (VI.22), where the same text is role
+      tradition instead: that world's own defining conciliar voice.
+  - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council-2
+    work: "The Canons and Decrees of the Sacred and Oecumenical Council of Trent"
+    author: council-of-trent
+    locus: "whole text"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Trent's own official canons and decrees, trans. Rev. J. Waterworth
+      (preface 1848). Native/foundational
+      here - this is the-tridentine-church's own defining conciliar voice,
+      role tradition. Double-placed to the-society-of-jesus, where the
+      same text is role context instead: this world's own doctrinal
+      anchor as the Jesuits implemented it, not the Society's own
+      composed voice.

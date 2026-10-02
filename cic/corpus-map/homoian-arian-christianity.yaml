@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: homoian-arian-christianity
 works:
-- work: Epistles on the Arian Heresy and the Deposition of Arius
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--epistles-on-the-arian-heresy-and-the-deposition-of-arius-2
+  work: Epistles on the Arian Heresy and the Deposition of Arius
   author: alexander_alexandria
   locus: div2 10.3
   role: context
@@ -19,7 +20,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Exposition of the Christian Faith (De Fide)
+- row_id: npnf210_ambrose--exposition-of-the-christian-faith-de-fide-2
+  work: Exposition of the Christian Faith (De Fide)
   author: ambrose
   locus: div2 4.4 — Exposition of the Christian Faith
   role: context
@@ -30,7 +32,8 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
-- work: Arian History (Historia Arianorum ad Monachos)
+- row_id: npnf204_athanasius--arian-history-historia-arianorum-ad-monachos-2
+  work: Arian History (Historia Arianorum ad Monachos)
   author: athanasius
   locus: div1 20 — Historia Arianorum (358)
   role: context
@@ -45,7 +48,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Defence Against the Arians (Apologia Contra Arianos)
+- row_id: npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos-2
+  work: Defence Against the Arians (Apologia Contra Arianos)
   author: athanasius
   locus: div1 13 — Apologia Contra Arianos
   role: context
@@ -58,7 +62,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Defence of His Flight (Apologia de Fuga)
+- row_id: npnf204_athanasius--defence-of-his-flight-apologia-de-fuga-2
+  work: Defence of His Flight (Apologia de Fuga)
   author: athanasius
   locus: div1 19 — Apologia de Fuga (357-8)
   role: context
@@ -70,7 +75,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Defence of the Nicene Definition (De Decretis)
+- row_id: npnf204_athanasius--defence-of-the-nicene-definition-de-decretis-2
+  work: Defence of the Nicene Definition (De Decretis)
   author: athanasius
   locus: div1 14 — De Decretis
   role: context
@@ -82,7 +88,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Deposition of Arius (Depositio Arii, with Alexander's Encyclical)
+- row_id: npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s-2
+  work: Deposition of Arius (Depositio Arii, with Alexander's Encyclical)
   author: athanasius
   locus: div1 8 — Deposition of Arius
   role: context
@@ -98,7 +105,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Encyclical Letter (Epistola Encyclica)
+- row_id: npnf204_athanasius--encyclical-letter-epistola-encyclica-2
+  work: Encyclical Letter (Epistola Encyclica)
   author: athanasius
   locus: div1 12 — Epistola Encyclica (339)
   role: context
@@ -110,7 +118,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Four Discourses Against the Arians (Orationes contra Arianos IV)
+- row_id: npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos-2
+  work: Four Discourses Against the Arians (Orationes contra Arianos IV)
   author: athanasius
   locus: div1 21 — Against the Arians, Discourses I-IV
   role: context
@@ -125,7 +134,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: On the Councils of Ariminum and Seleucia (De Synodis)
+- row_id: npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis-2
+  work: On the Councils of Ariminum and Seleucia (De Synodis)
   author: athanasius
   locus: div1 22 — De Synodis (359-361)
   role: context
@@ -139,7 +149,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)
+- row_id: npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola-2
+  work: Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)
   author: athanasius
   locus: div1 24 — Ad Afros
   role: context
@@ -151,7 +162,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)
+- row_id: npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae-2
+  work: To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)
   author: athanasius
   locus: div1 17 — Circular to Bishops of Egypt and Libya (356)
   role: context
@@ -163,19 +175,19 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
+  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
   role: context
   confidence: assigned
-  note: 'Canon 1 anathematizes Eunomians, Arians, Semi-Arians and Macedonians by name - the
-    formal record of the parties the homoian entry names, from their condemners. 2026-08-26:
-    anomoean-eunomian-christianity added alongside, since canon 1 names Eunomians and Arians
-    as separate parties and this work is the record of both. 2026-08-26: canon 1 condemns
-    Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as separate parties;
-    each now has its own entry and this work is the record of all of them.'
+  note: Canon 1 anathematizes Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
+    by name, as separate parties - the formal record of the parties each of these entries
+    names, from their condemners. Each now has its own entry, and this work is the record
+    of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
+- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-nicaea-325-creed-canons-synodal-letter-2
+  work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
   author: council-of-nicaea-325
   locus: div1 7
   role: context
@@ -185,7 +197,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
+- row_id: npnf204_athanasius--letter-of-eusebius-of-caesarea-to-his-flock-epistola-eusebii
+  work: Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)
   author: eusebius
   locus: div1 9 — Letter of Eusebius
   role: context
@@ -200,7 +213,8 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: De Synodis (On the Councils)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils-2
+  work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   role: context
@@ -208,38 +222,37 @@ works:
   note: 'Written to the Gallic bishops to explain the eastern creeds before Ariminum/Seleucia
     - a direct primary account of the Homoian conciliar creeds, so the homoian assignment
     is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
-    home. Same unresolved question as De Trinitate: no census entry exists for Hilary''s own
-    Gallic church.
+    home. Same home question as De Trinitate: gallic-nicene-episcopate now holds Hilary''s
+    own Gallic church.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Cleared 2026-08-26: as De Trinitate - the doubt
-    was Hilary''s home, and gallic-nicene-episcopate now holds it. The homoian context assignment
-    was always the firm half.'
+    floor material only as `register: etic`. The homoian context assignment is the firm half
+    throughout.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
-- work: De Trinitate (On the Trinity)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-trinitate-on-the-trinity-2
+  work: De Trinitate (On the Trinity)
   author: hilary_poit
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
     2
   role: context
   confidence: assigned
-  note: 'The doubt is Hilary''s home, not the work: the census has NO entry for fourth-century
-    Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin anti-Arian voice
-    of the West has no author-entry to belong to. The homoian-arian-christianity assignment
-    is the firm half - this is the major Latin work written against the Arian ascendancy and
-    belongs in that excluded entry''s material. imperial-juridical is the best-guess home:
-    Hilary''s career was made by imperial church politics (exiled by Constantius, restored
-    under Julian), but Gaul is outside that entry''s stated region. Mark to rule where Hilary
-    himself lives.
+  note: 'Hilary''s home was the doubt, not the work: the census has NO entry of its own for
+    fourth-century Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin
+    anti-Arian voice of the West had no author-entry to belong to. gallic-nicene-episcopate
+    now holds him. The homoian-arian-christianity assignment is the firm half besides - this
+    is the major Latin work written against the Arian ascendancy and belongs in that entry''s
+    material. imperial-juridical was considered as a best-guess home too: Hilary''s career
+    was made by imperial church politics (exiled by Constantius, restored under Julian), but
+    Gaul is outside that entry''s stated region.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Cleared 2026-08-26: this note''s own words were
-    that the homoian assignment is the firm half and the doubt was Hilary''s HOME. gallic-nicene-episcopate
-    was added on record and now holds him, so nothing here is open. The context relation to
-    the Arian party stands unchanged.'
+    floor material only as `register: etic`. The context relation to the Arian party stands
+    unchanged.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
-- work: The Dialogue Against the Luciferians
+- row_id: npnf206_jerome-principal-works--the-dialogue-against-the-luciferians-2
+  work: The Dialogue Against the Luciferians
   author: jerome
   locus: div2 6.4 (~16,292 words)
   role: context
@@ -254,7 +267,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf206_jerome-principal-works.xml
-- work: The Ecclesiastical History of Socrates Scholasticus
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
+  work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
     Novatianist notices throughout
@@ -271,7 +285,8 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- work: The Ecclesiastical History of Sozomen
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
+  work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)
@@ -287,7 +302,8 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- work: The Ecclesiastical History of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-2
+  work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — esp. Books I-II (Arian controversy), V (Ambrose and Theodosius)
   role: context
@@ -302,7 +318,7 @@ works:
     Also assigned to ambrosian-milan-standalone: Book V''s Ambrose-Theodosius penance narrative
     is a near-contemporary (c. 449) external account of Ambrose''s own single most famous
     act, a second voice this Confessions-and-NPNF210-only world otherwise lacks entirely.
-    Surfaced by a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps, 2026-09-13.
+    Surfaced through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml

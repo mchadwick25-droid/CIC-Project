@@ -1,10 +1,12 @@
-# Written 2026-08-27 by desert's unopened-volume sweep
-# (desert.search.unopened-volume-sweep). These three volumes were already
-# vendored and already assigned to other Atlas entries; what is new is that
-# desert-monasticism now opens them, so its bucket must show it.
+# Desert's unopened-volume sweep
+# (desert.search.unopened-volume-sweep). These three volumes were
+# already vendored and already assigned to other Atlas entries; what
+# is new is that desert-monasticism now opens them, so its bucket must
+# show it.
 source_file: origen_philocalia_lewis1911.txt
 assignments:
-- work: The Philocalia of Origen
+- row_id: origen-desert-additions--the-philocalia-of-origen
+  work: The Philocalia of Origen
   author: origen
   locus: twenty-seven chapters; I-XV on scriptural interpretation, XXI-XXVII on free will, fate and
     providence; ch. I drawn "From the work on Principles", ch. XIII the Letter to Gregory

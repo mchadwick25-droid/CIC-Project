@@ -40,9 +40,9 @@ bridge_line: the Persian sage whose dated letters survive where his life does no
 ---
 narratable FALSE is deliberate: outside his own text nothing of his
 life is known - even his name arrives late, and his episcopal status
-is a genuinely open question (world_core caution 3; Doc_01 SS6:
-Wright's argument from Demonstration 14's synodal letter is real but
-narrow and 19th-century; do not cite a 'live current debate' either).
+is a genuinely open question (world_core caution 3): Wright's argument
+from Demonstration 14's synodal letter is real but narrow and
+19th-century, and there is no "live current debate" to cite either.
 His WORDS are the Persian side's primary material. Stories 'about
 Aphrahat' would be invention; the persecution he wrote inside is
 narratable through Sozomen's account and his own Demonstration texts.

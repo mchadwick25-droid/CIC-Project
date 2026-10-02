@@ -1,4 +1,3 @@
-# Worker: npnf210-214 group, 2026-08-26.
 # Skipped as apparatus: title pages, prefatory notes, the Leo introduction
 # (div2 2.3), the Gregory prolegomena (div2 3.3), and the indexes (div1 4).
 source_file: npnf212_leo-great-gregory-great.xml
@@ -14,7 +13,8 @@ authors_ruled:
       Gregory the Great; the slug is CCEL's own.
 
 assignments:
-  - work: "The Letters of Leo the Great"
+  - row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great
+    work: "The Letters of Leo the Great"
     author: leo
     locus: "div2 2.4 — Letters (including Letter XXVIII, the Tome)"
     atlas_ids:
@@ -32,7 +32,8 @@ assignments:
       split-by-era question, not on the material's importance. Note the Tome
       is also carried in npnf214 (Chalcedon, div2 11.7).
 
-  - work: "The Letters of Leo the Great"
+  - row_id: npnf212_leo-great-gregory-great--the-letters-of-leo-the-great-2
+    work: "The Letters of Leo the Great"
     author: leo
     locus: "div2 2.4 — Letters"
     atlas_ids:
@@ -46,9 +47,10 @@ assignments:
       Context, not its voice. The census holds a near-duplicate era-3 id
       (cyrilline-miaphysite-egyptian-christianity, 451-642); the on-record
       Step-0 deferred entry is used here - a ruling on which of the two
-      carries corpus would help every worker.
+      carries corpus is still needed.
 
-  - work: "The Sermons of Leo the Great"
+  - row_id: npnf212_leo-great-gregory-great--the-sermons-of-leo-the-great
+    work: "The Sermons of Leo the Great"
     author: leo
     locus: "div2 2.5 — Sermons"
     atlas_ids:
@@ -62,35 +64,37 @@ assignments:
       statement of the Roman see's self-understanding. Runs slightly past
       ijc's 451 boundary; kept whole as one body per the granularity rule.
 
-  - work: The Book of Pastoral Rule
+  - row_id: npnf212_leo-great-gregory-great--the-book-of-pastoral-rule
+    work: The Book of Pastoral Rule
     author: gregory
     locus: div2 3.4 — The Book of Pastoral Rule
     atlas_ids:
     - roman-church-gregorian
     role: tradition
     confidence: assigned
-    note: 'RULED 2026-08-27: roman-church-gregorian (II.18, c. 560-604) was minted, and the worker''s objection
-      is answered directly - the Pastoral Rule is an episcopal manual, not a monastic one, and now sits
-      with the episcopate rather than with the monastery. Its enormous later reception (Carolingian legislation,
+    note: 'roman-church-gregorian (II.18, c. 560-604) holds this: the Pastoral Rule is an
+      episcopal manual, not a monastic one, so it sits with the episcopate rather than with
+      the monastery. Its enormous later reception (Carolingian legislation,
       Alfred''s translation) stays noted rather than asserted as assignments.
 
       '
 
-  - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+  - row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i
+    work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
     author: gregory
     locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
     atlas_ids:
     - roman-church-gregorian
     role: tradition
     confidence: assigned
-    note: 'RE-POINTED 2026-08-27. The old note ended ''no era-3 Roman entry exists, so the Register is placed
-      with the entries its correspondence founds or documents'' - roman-church-gregorian (II.18) now exists,
-      so the Register comes home. This row is the TRADITION row: fourteen years of a bishop administering
+    note: 'roman-church-gregorian (II.18) is the Register''s home. This row is the TRADITION row:
+      fourteen years of a bishop administering
       a city, which is this entry''s own voice and nobody else''s. The four entries the letters describe
-      keep their rows, as `context`, which is what they always were.
+      keep their rows, as `context`.
 
       '
-  - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+  - row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
+    work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
     author: gregory
     locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
     atlas_ids:
@@ -100,7 +104,7 @@ assignments:
     - byzantine-imperial-church-justinianic
     role: context
     confidence: assigned
-    note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on four entries
+    note: 'CONTEXT row: four entries
       that are not Gregory''s. The letters are evidence ABOUT these worlds from outside them: monastic discipline
       in Italy and Sicily, the letters to Brunichild and the Frankish court, Book VI and Book XI''s Responsa
       launching and steering the mission to Kent, and the quarrel with Maurice and John the Faster over

@@ -20,6 +20,10 @@ sources:
 text: 'While I myself beginning as a young man have with much toil and effort partially
   acquired the Hebrew tongue and study it now unceasingly lest if I leave it, it also may
   leave me'
+modern_rendering: >-
+  As for me, I began as a young man and with much toil and effort partially acquired the
+  Hebrew tongue. I study it now without ceasing, in case, if I leave it, it too leaves
+  me.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
@@ -29,7 +33,7 @@ retrieval:
   - "participant asks how they learned Hebrew and how well"
   - "participant asks how confident they really were in the languages they used"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108, the
+Verified verbatim against the vendored npnf206 (Ep. 108, the
 passage on Paula's Hebrew; the file's line-wrap artifact in 'unceasingly'
 normalized). AN EVIDENTIARY ASSET FOR THE FLUENCY CONTEST, located on this
 branch: Jerome's own within-corpus modest self-assessment ('partially
@@ -38,7 +42,3 @@ evidence the Williams analysis appeals to, present in the world's own
 vendored text. Serves F2-E: when a participant asks how much of the
 Hebrew-mastery story holds up, this world's own words supply the honest
 range. See hal.contested.hebrew-fluency.
-
-Locus corrected per independent review Round 1 (2026-08-21): sec. 26 was
-off by one against the print-edition numbering (the "27." marker appears
-in the vendored file immediately before this passage) - now sec. 27.

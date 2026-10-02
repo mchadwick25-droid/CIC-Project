@@ -40,14 +40,24 @@ text: "And when each man in proportion to his own fervour—and unmindful of the
   enunciated, he finished the twelfth with a response of Alleluia, and then, by his sudden
   disappearance from the eyes of all, put an end at once to their discussion and their service."
 modern_rendering: >-
-  The elders once argued over how many psalms to sing at each service.
-  Each man judged by his own strength, not the weaker brothers', and some
-  wanted fifty, some sixty, some even more. The argument was still going
-  when it came time for evening prayer. So one of them stood up to chant
-  anyway. The rest sat and listened, as is still the Egyptian custom. He
-  sang eleven psalms, each followed by a prayer, then closed the twelfth
-  with "Alleluia" - and vanished before their eyes. That ended the
-  argument and the service both.
+  Each man, in proportion to his own fervor, and unmindful of the
+  weakness of others, thought that whatever he judged easy by his own
+  faith and strength should be the rule. He took too little account of
+  what would be possible for the whole mass of the brethren, among whom a
+  great many are always weak. Each strove, in different degrees,
+  according to his own powers, to fix an enormous number of psalms. Some
+  were for fifty, others for sixty, and some, not content even with this
+  number, thought they ought to go beyond it. There was such a holy
+  difference of opinion in their pious discussion on the rule of their
+  religion that the time for evening prayer came before the sacred
+  question was decided. As they gathered to celebrate their daily
+  prayers, one rose up in the midst to chant the psalms to the Lord. They
+  were all sitting, as is still the custom in Egypt, with their minds
+  intently fixed on the words of the chanter. He chanted eleven psalms,
+  separated by prayers introduced between them, every verse evenly sung.
+  Then he finished the twelfth with a response of Alleluia. By his sudden
+  disappearance from the eyes of all, he put an end at once to their
+  discussion and their service.
 speaker_or_author: John Cassian, reporting a story told among the Egyptian elders
 license: verbatim
 modern_lens_note: >-
@@ -67,15 +77,13 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.term.synaxis}
 ---
-Discovered 2026-09-09 in a supplemental source review: CiC_W3_Doc02
-Source_Ecology names "this world's actual liturgical content beyond
+CiC_W3_Doc02 Source_Ecology names "this world's actual liturgical content beyond
 structure and rhythm" as genuinely thin (Section 4), carried into the
 live world_core record's own thin_topics entry for
 [liturgy, worship, psalter, prayer, synaxis]. desert.source.cassian-
-institutes was already vendored and compiled for this world (cited for
-Book IV's fear-of-the-Lord ladder) but Books II-III, the actual
-canonical-psalmody content, had never been drawn into any term, quote,
-or gravity record. Text verified directly against
+institutes is already compiled for this world (cited for Book IV's
+fear-of-the-Lord ladder); this record draws on Books II-III, the actual
+canonical-psalmody content. Text verified directly against
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml at line
 17133, no elisions within the quoted span (Institutes II.5 is a single
 continuous paragraph; this quote takes its back half, from "And when
@@ -92,5 +100,5 @@ desert.term.synaxis alongside desert.quote.never-kneel-saturday-to-
 sunday, with that caution carried in both records' own confidence
 blocks rather than left to be inferred.
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own space before a closing parenthesis
-("Egypt )") that the record had closed up. No wording changed.
+The text field carries the source's own space before the closing parenthesis ("Egypt )"), matching
+the source exactly.

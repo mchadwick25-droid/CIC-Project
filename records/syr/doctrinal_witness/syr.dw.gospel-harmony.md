@@ -54,12 +54,8 @@ Serves the evidential Center cell without overclaiming: the
 seed argument verified in Dem VIII; the pledge language in the
 Homily. The legend-vs-record split is syr.contested.edessa-origins.
 
-REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+The spoken field is a plain modern-English translation, not a summary; every sourced claim and name is preserved.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+Written in short sentences, at the approved register level, with all claims and hedges kept.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). the harmony's own name labeled in the what-we-had witness, its exact territory. Claims unchanged; the label is the whole edit.
+The harmony's own name is labeled in the what-we-had witness, at its exact territory: plain meaning first, the world's own word after it as a label.

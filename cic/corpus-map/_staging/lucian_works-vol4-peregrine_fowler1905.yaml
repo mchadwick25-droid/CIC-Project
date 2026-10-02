@@ -1,4 +1,4 @@
-# Vendored 2026-08-27, supplied by Mark. Fulfils part of the acquisition
+# Fulfils part of the acquisition
 # pahc.search.roman-historians-english-pd left open as not_found.
 source_file: lucian_works-vol4-peregrine_fowler1905.txt
 authors_ruled:
@@ -12,7 +12,8 @@ authors_ruled:
 
       '
 assignments:
-- work: 'The Death of Peregrine (De Morte Peregrini)'
+- row_id: lucian_works-vol4-peregrine_fowler1905--the-death-of-peregrine-de-morte-peregrini
+  work: 'The Death of Peregrine (De Morte Peregrini)'
   author: lucian
   locus: pp. 79-94; the Christian material concentrated in the Palestine episode and the
     imprisonment
@@ -34,7 +35,8 @@ assignments:
     content and a record using it must say so.
 
     '
-- work: 'The Works of Lucian of Samosata, Volume IV: the other seventeen pieces'
+- row_id: lucian_works-vol4-peregrine_fowler1905--the-works-of-lucian-of-samosata-volume-iv-the-other
+  work: 'The Works of Lucian of Samosata, Volume IV: the other seventeen pieces'
   author: lucian
   locus: 'Slander a Warning; The Hall; Patriotism; Dipsas; A Word with Hesiod; The Ship; Dialogues
     of the Hetaerae; The Runaways; Saturnalia; Cronosolon; four Saturnalian Letters; A Feast of
@@ -52,7 +54,8 @@ assignments:
     nobody has to conclude it holds only the Peregrine.
 
     '
-- work: 'Notes Explanatory of Allusions to Persons, &c. (1905)'
+- row_id: lucian_works-vol4-peregrine_fowler1905--notes-explanatory-of-allusions-to-persons-c-1905
+  work: 'Notes Explanatory of Allusions to Persons, &c. (1905)'
   author: fowler_brothers
   locus: pp. 191-244, plus the alphabetical table
   atlas_ids:

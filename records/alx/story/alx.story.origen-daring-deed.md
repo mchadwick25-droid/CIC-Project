@@ -39,8 +39,7 @@ narrative_tier_justification: 'Tier 2 (collected traditional material): Eusebius
   VI.8), written decades after the event from Alexandrian church memory, not a first-person account. The
   structural sequence is Widely Accepted as what Eusebius reports; whether the underlying act is historical
   fact is Contested, per the confidence block above.'
-tellable_as: the remembered account of a hard, literal reading Origen once acted on, and how his own bishop
-  later turned it against him
+tellable_as: The remembered account of a hard verse that Origen once took at its word and acted on. Later his own bishop turned it against him.
 text: 'While Origen was still young and teaching the faith in Alexandria, he did something Eusebius calls
   both immature and a proof of unusual faith. He took a hard verse from Matthew - about those who "have
   made themselves eunuchs for the kingdom of heaven''s sake" - in the most literal sense possible, and
@@ -67,39 +66,3 @@ modern_contrast: >
   together, and it states plainly, on the strength of Origen's own later
   writing, that he came to judge the verse differently himself.
 ---
-Authored 2026-09-19/20: the alx `world_front` build's own
-documented_stories reconciliation. `atlas-v3.html`'s alexandria-catechetical
-`documentedStories` array holds three entries; two ("Nursing the
-Plague-Stricken While the City Fled", "Three Days of Argument at
-Arsinoe") matched existing records directly (`alx.story.plague-nursing`,
-`alx.story.arsinoite-conference`). The third, "Origen's Rash Act and the
-Bishop Who Turned on Him," covers material - Origen's youthful act on
-Matthew 19:12 and Demetrius's later use of it against him - that no
-existing alx story record narrates: `alx.story.origen-demetrius` covers
-the SAME underlying teacher-bishop rupture but was deliberately built
-"structural-only," explicitly refusing motive-level and incident-level
-detail per its own body note ("any expansion must come from the sources,
-not from filling"). Rather than either inventing detail to match the
-site's own telling, or silently dropping a real, sourceable historical
-episode, this record was authored fresh, verified directly against the
-vendored Eusebius file at the cited lines (not against the site's own
-prose, which was read only to identify what needed reconciling).
-
-The site's own version states "modern scholars are divided over whether
-the mutilation happened at all," citing Henri Crouzel's 1989 Origen
-biography - a work not vendored in this corpus and not independently
-checked here. This record does not repeat that specific attribution.
-What IS independently verified, directly in the vendored primary
-source's own apparatus, is that the 1890 NPNF translator's endnote to
-this very passage records nineteenth-century scholarly doubt by name
-(Boehringer, Schnitzer, Baur) before arguing against it - a real,
-citable disagreement this record grounds `formation_confidence: Contested`
-in, without asserting the site's own "modern scholars" framing beyond
-what this corpus can independently verify.
-
-Handled with the same restraint this world's other difficult material
-uses (compare `alx.story.leonides-martyrdom`'s own modern_contrast on a
-teenager's wish to die alongside his father): no graphic elaboration
-beyond what Eusebius himself states, and modern_contrast names both a
-glorifying and a pathologizing modern misreading rather than endorsing
-either.

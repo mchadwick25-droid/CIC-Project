@@ -1,0 +1,20 @@
+source_file: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt
+
+assignments:
+  - row_id: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595--adnotationes-et-meditationes-in-evangelia
+    work: "Adnotationes et Meditationes in Evangelia"
+    author: nadal
+    locus: "whole text"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Jeronimo Nadal's own Gospel annotations and meditations, Latin
+      original (1595) - a major first-generation Jesuit theological
+      voice. This 1595 print is flagged as garbled under the Library's
+      own OCR-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md). It
+      stays second witness for that reason until a cleaner edition is
+      vendored. It closes an identified source gap for this world,
+      though it is not yet quotable verbatim.

@@ -20,6 +20,11 @@ sources:
 text: These are they who promoted thee to such glory, that being made a holy nation, a chosen people,
   a priestly and royal state , and the head of the world through the blessed Peter's holy See thou didst
   attain a wider sway by the worship of God than by earthly government.
+modern_rendering: >-
+  These are the ones who raised you to such glory. You were made a holy nation, a chosen
+  people, a priestly and royal state, and the head of the world through the blessed
+  Peter's holy see. Through this, you gained a wider rule by the worship of God than by
+  earthly government.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +40,7 @@ relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (editorial
+Text verified verbatim against the vendored file (editorial
 notes stripped; addressed to Rome herself on the feast of Peter and
 Paul). The primacy claim in its preached, devotional register: the
 martyr-apostles as the ground of the see's standing - "a wider sway by
@@ -44,5 +49,5 @@ the charge that its claim is merely political, and simultaneously the
 clearest exhibit of sanctity being converted into institutional
 standing (the Tensional gravity's Strand A face).
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own space before a comma ("state ,") that
-the record had closed up. No wording changed.
+The text carries the source's own space before the comma ("state ,").
+No wording is changed.

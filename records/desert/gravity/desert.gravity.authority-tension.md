@@ -43,7 +43,23 @@ relations:
 - type: illustrated-by
   target: desert.quote.monks-like-hyenas
 name: "Person-based (elder) vs. office-based (Rule) authority [TENSIONAL]"
-description: "Two different, coexisting operative models of how legitimate spiritual authority is constituted and transmitted in the same world in the same decades: authority earned through recognized discernment and personal relationship (gravity 3), against authority conferred by a written Rule and appointed office (gravity 6). Not a separately generated force but the named friction between those two - by construction, its Interaction is with those two gravities specifically. Recurs at the Strand A/C-B boundary; governs succession, discipline, and community stability differently depending which model locally prevails; shapes markedly different participant experience (personal apprenticeship vs. regulated communal life); explains why Strand B required a written Rule at all, given the elder-model Strand A/C already had; and persists, unresolved, across this world's whole c. 320s-c. 430 span. Emerges, alongside gravity 6, from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names."
+description: "Two different models of legitimate spiritual authority stood side by side in this world, in the same decades. In one,
+  authority is earned through discernment and a personal bond. A living elder holds it through example and counsel, not
+  through an office. In the other, authority comes from a written Rule and an appointed office. This is the model of
+  koinonia, the Pachomian federation's own system of shared rule and shared property.
+
+
+  This is not a separate force of its own. It is the friction between those two models. So by definition, it only
+  involves those two patterns. It shows up wherever the Pachomian federation meets the solitary hermits and the
+  settlements of Nitria, Kellia, and Scetis. Succession, discipline, and community life all worked differently,
+  depending on which model held in a given place. Life under each felt very different too: learning at an elder's side,
+  or living under communal rule.
+
+
+  This tension explains why the Pachomian federation needed a written Rule at all. The hermits and the cell-based
+  settlements already had the elder model instead. The tension persists, unresolved, across this world's whole span,
+  from about the 320s to about 430. Like koinonia, it grows out of one specific problem this world faced: how to copy
+  Antony's path at a larger scale."
 classification: tensional
 manifestations:
 - "the Apophthegmata's entire organizing structure (by elder name) - itself the later compilers' own arrangement, not a transcript of authority's shape in real time - standing against the Pachomian Rule's formal offices, as the Latin Rule tradition transmits them (housemaster, steward; neither Palladius nor Sozomen supplies the office names directly)"
@@ -75,7 +91,6 @@ construction, with gravities 3 and 6 specifically, and neither force
 relation introduces a parallel tension-with edge that scoping does not
 contemplate.
 
-Step4: desert.story.pachomius-founding added as a reciprocal relation,
-per Step 4 Round 1 review Finding C9 - that story's own body already
-invoked this gravity's own contrast (office-based Rule against
-person-based elder authority) without a declared relation.
+desert.story.pachomius-founding is declared as a reciprocal relation:
+that story's own body invokes this gravity's own contrast (office-based
+Rule against person-based elder authority).

@@ -1,0 +1,36 @@
+source_file: van-braght_martyrs-mirror_sohm1886.txt
+
+assignments:
+  - row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless
+    work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians"
+    author: van-braght
+    locus: "whole text"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      Thieleman J. van Braght's 1660 martyrological compilation, trans.
+      Joseph F. Sohm (1886 English edition) - embeds named primary
+      documents including Michael Sattler's trial record and Anneken
+      Jans's prison testament. Assigned as
+      one body per the corpus's own large-volume granularity rule; a
+      future pass may want to split out the specific named martyr
+      accounts as separate works once a build thread reaches this
+      material.
+
+  - row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2
+    work: "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and Taborite sections"
+    author: van-braght
+    locus: "file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived' and the sections on the Taborites (lines 47499-47566)"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: provisional
+    note: >
+      A Dutch Mennonite martyrologist's 1660 account, in the 1886
+      English edition, of Hus and of the Taborites (it calls them
+      Waldenses). It reaches this world at three removes and from an
+      Anabaptist point of view, and it includes a "Taborite confession
+      of 1431" whose own source is not vendored. Not Hussite voice;
+      a witness to how a later movement read them.

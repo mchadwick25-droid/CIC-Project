@@ -1,0 +1,18 @@
+# Closes a Verified Acquisition Lead from the Reformed Cities dossier
+# (Atlas VI.2) - see calvin_letters-vol1_bonnet1858.yaml for the full
+# 4-volume set's status.
+source_file: calvin_letters-vol2_bonnet1858.txt
+
+assignments:
+  - row_id: calvin_letters-vol2_bonnet1858--letters-of-john-calvin-compiled-from-the-original
+    work: "Letters of John Calvin, Compiled from the Original Manuscripts
+      and Edited with Historical Notes, Vol. II"
+    author: calvin
+    locus: "whole file - Vol. II"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Continues Calvin's correspondence from Vol. I, same edition and
+      vendoring basis.

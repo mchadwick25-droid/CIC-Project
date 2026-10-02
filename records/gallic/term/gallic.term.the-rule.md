@@ -20,7 +20,7 @@ confidence:
     in-file instance, and the same rule that guarded the Massilian position was later turned against it
     (post-window). Relationship to present-day traditions: the "Vincentian canon" in Anglican, Roman
     Catholic and Orthodox argument; Heurtley's footnote at ch. 17 [44] quotes Newman (about Origen),
-    not Vincent's own progress passage (corrected at Round 2 spot-check). Single-voice (Vincent) as a
+    not Vincent's own progress passage. Single-voice (Vincent) as a
     formulated rule of faith; Cassian's Inst. I.2 states the same three-part test for monastic custom,
     and Martin applies its instinct to a cult - parallels, not attestations of the formula. Vincent's own
     Latin for "rule" is not given in the vendored translation.
@@ -138,7 +138,7 @@ distortion_risk: high
 ---
 Built from Doc_06 entry 011 (Tier 1, [AS] [CT] Historical scope and Present-day; chunk
 galliclex011_the-rule.md; Doc_03 7.2). Register emic. Quotations verified at locus by the build's own
-Doc_06 pass, including the Round 2 correction that Heurtley's ch. 17 footnote quotes Newman, not
+Doc_06 pass, including that Heurtley's ch. 17 footnote quotes Newman, not
 Vincent's progress passage; not re-read here. Both contests are carried in divergence_note; the
 editorial apparatus is cited as a source only to locate the contests, labeled as such. The relation to
 novelty vs. antiquity is typed presupposes: the rule is the procedure, the axis is the value it runs

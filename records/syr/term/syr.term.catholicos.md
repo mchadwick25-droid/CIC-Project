@@ -45,9 +45,7 @@ quick_meaning: '''Catholicos'' is the later title for the Persian church''s head
   years no one used it; the leadership was real but contested and untitled.'
 distortion_risk: high
 ---
-Re-derived from syrlex009 (Tier 2, flag-only corrective entry -
-reclassified from Tier 3 in the legacy Round 2 fix). No relations by
-design: not part of this world's own conceptual cluster. Serves F3-I
-correctively (the authority question), alongside the open
-authority-structure records (syr.contested.aphrahat-episcopacy,
-syr.contested.papa-primacy).
+A Tier 2, flag-only corrective entry. No relations by design: not part
+of this world's own conceptual cluster. Serves F3-I correctively (the
+authority question), alongside the open authority-structure records
+(syr.contested.aphrahat-episcopacy, syr.contested.papa-primacy).

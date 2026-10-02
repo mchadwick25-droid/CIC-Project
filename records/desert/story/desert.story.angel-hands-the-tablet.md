@@ -43,17 +43,21 @@ relations:
   target: desert.story.pachomius-founding
 - type: associated-with
   target: desert.quote.ethiopic-rule-eat-and-drink
+- type: associated-with
+  target: desert.quote.pachomian-rule-opening-superscription
 narrative_tier: 2
 narrative_tier_justification: >-
-  Tier 2 (Tradition's Own Telling). The document is real, dated and quotable, and the opening is
-  verbatim; the vision it narrates is the tradition's account of its own authorisation and is told
-  as that. Not Tier 1, because nothing outside the tradition witnesses the event; not Tier 3,
-  because the telling is not free - it is fixed in the received text of the legislation itself.
+  Tier 2 (Tradition's Own Telling). The document is real and dated, and this record's own `text`
+  field paraphrases its opening superscription, held verbatim in
+  desert.quote.pachomian-rule-opening-superscription; the vision it narrates is the tradition's
+  account of its own authorisation and is told as that. Not Tier 1, because nothing outside the
+  tradition witnesses the event; not Tier 3, because the telling is not free - it is fixed in the
+  received text of the legislation itself.
 tellable_as: "the rule that begins by saying where it came from - an angel, a cave, and a tablet of iron"
 text: >-
   The Ethiopic rule of Pachomius does not begin with its first provision. It
-  begins by saying who gave it: 'In the name of the holy Trinity. The
-  ordinance which the angel of the Lord commanded to Abba Pachomius.' Then it
+  begins by saying who gave it, in the name of the holy Trinity, as an
+  ordinance the angel of the Lord commanded to Abba Pachomius. Then it
   tells the story. At Tabennesis in the Thebaid there was a man who lived a
   clean life and was given knowledge and the sight of angels. As he sat in his
   cave, the angel of the Lord came and told him that he himself was finished -
@@ -78,7 +82,7 @@ modern_contrast: >-
   wrote its legislation as something received rather than drafted, and a modern reader who takes
   the frame for later decoration will misread what kind of authority the house thought it had.
 ---
-Registered 2026-08-27, on the vendoring of
+Registered on the vendoring of
 cic/texts/pachomius_rules-ethiopic_schodde1885.txt.
 
 THIS RECORD EXISTS BECAUSE THIS WORLD WAS WRONG ABOUT SOMETHING. Records
@@ -96,4 +100,8 @@ tells a narrower and different thing: how the document itself opens. A
 participant asking "did it happen" wants the first; a participant asking
 "why would anyone obey this" wants the second.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The record's own opening superscription is paraphrased above rather than
+quoted directly; its verbatim wording, source locus, and modern-English
+rendering are carried in full by
+desert.quote.pachomian-rule-opening-superscription, already declared in
+this record's own relations.

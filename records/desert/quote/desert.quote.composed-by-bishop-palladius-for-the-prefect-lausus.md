@@ -21,6 +21,9 @@ sources:
   license: public-domain
 text: >-
   And again, we begin, by the power of our Lord, the Third (sic) Part with the Counsels of the holy Old Men, and the Questions and the Answers [which they gave] to the Brethren
+modern_rendering: >-
+  And again, by the power of our Lord, we begin the Third Part. We begin it with the counsels of the
+  holy elders, and the questions and answers they gave to the brothers.
 speaker_or_author: the compiler's rubric opening Book the First
 license: verbatim
 modern_lens_note: >-
@@ -35,9 +38,8 @@ relations:
 - type: associated-with
   target: desert.term.apophthegma
 ---
-Opened 2026-08-27 for F2-E, served by desert.term.apophthegma alone, whose vendored locus reads 'the
-collections as a whole (Alphabetical and Systematic)' - which is why the instrument ruled this NEEDS
-READING, and rightly this time.
+This record fills canon cell F2-E. desert.term.apophthegma alone serves this cell, and its vendored
+locus reads only 'the collections as a whole (Alphabetical and Systematic)' - not a quotable line.
 
 Reading the collection for a voice that answers the cell found the answer before the sayings start.
 This is a compiler's rubric, not an elder's saying, and that is exactly why it belongs here: the cell

@@ -40,9 +40,8 @@ p{margin:0 0 1rem}
 .sans{font-family:var(--sans)}
 .muted{color:var(--muted)}
 /* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
-   all four don't fit alongside the rest in one row at this header's own
-   1024px width. */
+   row: the nav collapses into a "Menu" dropdown since all four don't fit
+   alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
@@ -51,11 +50,11 @@ p{margin:0 0 1rem}
 /* Centered in the space actually available between the logo and the menu
    button, not naive full-row-width centering (that ignores the wordmark's
    and menu button's own widths and can visually collide with the
-   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
-   max-content/1fr/max-content sizes the outer two columns to the
-   wordmark's and menu's own content exactly, so the middle column is
-   whatever's genuinely left, with no risk of overlapping either side --
-   only turned on above the width where the whole row fits unwrapped. */
+   wordmark). Grid's max-content/1fr/max-content sizes the outer two
+   columns to the wordmark's and menu's own content exactly, so the
+   middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -67,9 +66,8 @@ p{margin:0 0 1rem}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
 /* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
    real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
-   "you shouldn't have to click to get it to allow you to move in the hover
-   mode"). The ::before bridges the .5rem visual gap so :hover survives the
+   which drops :hover before the pointer reaches the menu. The ::before
+   bridges the .5rem visual gap so :hover survives the
    crossing while keeping the breathing room. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
@@ -147,6 +145,9 @@ details.docstory-item summary::-webkit-details-marker{display:none}
 details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
 details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .docstory{padding:0 0 .9rem}
+.narration{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:.3rem 0 .8rem}
+.narration audio{display:block;height:1.9rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin:0}
 .orient-relations{max-width:var(--measure)}
 .orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
 .orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
@@ -241,17 +242,15 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <!-- Kept standalone when the "Who is speaking" section (its original home)
-           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
-           not gap/thinness content, and CLAUDE.md's own safety priority holds
-           regardless of what else moves - see cic-website/traditions/*.html's
-           pre-redesign `who_speaks` section for its prior placement. -->
+      <!-- This is a safety disclosure, not
+           gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves. -->
       <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
         <p class="eyebrow">The Story</p>
         <h2 id="story-title">How this tradition took shape</h2>
-        <div class="reading"><p>This world&#39;s own record runs from 312 to 451 CE, in Rome, Constantinople, and Milan. It opens when the emperor Constantine allied himself with a church he had once hunted. It closes at the Council of Chalcedon, the last council of the age to legislate as though everyone could still agree. Three claims run through the whole span. Rome grounds its authority in the apostle Peter. Constantinople grounds its rank in nearness to the emperor. And a third voice, from Milan, grounds authority in a bishop&#39;s own sacramental and moral standing over any ruler.</p>
+        <div class="reading"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/imperial-juridical-christianity/story.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>This world&#39;s own record runs from 312 to 451 CE, in Rome, Constantinople, and Milan. It opens when the emperor Constantine allied himself with a church he had once hunted. It closes at the Council of Chalcedon, the last council of the age to legislate as though everyone could still agree. Three claims run through the whole span. Rome grounds its authority in the apostle Peter. Constantinople grounds its rank in nearness to the emperor. And a third voice, from Milan, grounds authority in a bishop&#39;s own sacramental and moral standing over any ruler.</p>
       <p>In 312, at the Milvian Bridge, Constantine won the battle that made him sole ruler of the West. What exactly turned him toward Christ is not settled, even in this world&#39;s own record. Eusebius, his own admiring historian, says he saw a cross of light at midday, with his whole army watching. Lactantius, writing earlier and independently, has him ordered in a dream, the night before, to mark his soldiers&#39; shields with Christ&#39;s sign. The two stories do not agree, and this world does not force them to. What is certain is the consequence. Within a year, toleration was law, and a persecuted church became a funded one.</p>
       <p>That alliance is the fact everything else in this world moves within. Emperors now protected bishops. They asked for their advice. They made laws about their faith. And they expected obedience in return. But the alliance never held one shape for long. Which faith the empire favored changed with whoever wore the crown. Every side in this world had to live inside that instability.</p>
       <p>For roughly two decades, under the emperors Constantius II and Valens, the empire&#39;s own church held a different creed. It confessed the Son as merely &quot;like&quot; the Father, not of one substance with him. This confession was called Homoian. It was not a fringe belief in this window. It was the establishment itself, held at the emperor&#39;s own command. Bishops who confessed the rival word - homoousios, &quot;of one substance&quot; - were the ones removed and exiled. What survives of the Homoian side&#39;s own voice is almost nothing. One damaged fragment survives. A fellow believer preserved it, then partly erased it as heresy before it reached later readers. Nearly everything else comes down through the account of the side that eventually won.</p>
@@ -305,7 +304,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">A Christian mob burns a Jewish community&#39;s synagogue. The same bishop who elsewhere makes an emperor kneel uses his leverage here to shield the arsonists from paying for it.</p>
       <details class="docstory-item" id="imperial-juridical-christianity-story-0">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><p>At Callinicum, on the eastern frontier, a Christian mob burned the town&#39;s synagogue - at the local bishop&#39;s own urging. Monks separately burned a Valentinian meeting-house. Theodosius heard of it and ordered the ordinary remedy: the bishop would pay to rebuild the synagogue, and the monks would be punished. Ambrose wrote directly to the emperor to get the order reversed. Not because he denied the burning. He judged it intolerable for a bishop to be forced to fund a synagogue - and worse, in his own words, for the burning of a Valentinian house, which he called worse than heathen, to be answered at all. When the order stood, Ambrose preached in front of Theodosius in church. He refused to offer the sacrament until the emperor promised, on the spot, to withdraw the order. Theodosius gave in. Refusing the emperor the sacrament was the same tool Ambrose used, in another story, to make an emperor repent of a massacre. Here the same tool was used to protect the arsonists, so they never had to pay for what they burned. It left a burned community with no recourse.</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/imperial-juridical-christianity/docstory-0.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>At Callinicum, on the eastern frontier, a Christian mob burned the town&#39;s synagogue - at the local bishop&#39;s own urging. Monks separately burned a Valentinian meeting-house. Theodosius heard of it and ordered the ordinary remedy: the bishop would pay to rebuild the synagogue, and the monks would be punished. Ambrose wrote directly to the emperor to get the order reversed. Not because he denied the burning. He judged it intolerable for a bishop to be forced to fund a synagogue - and worse, in his own words, for the burning of a Valentinian house, which he called worse than heathen, to be answered at all. When the order stood, Ambrose preached in front of Theodosius in church. He refused to offer the sacrament until the emperor promised, on the spot, to withdraw the order. Theodosius gave in. Refusing the emperor the sacrament was the same tool Ambrose used, in another story, to make an emperor repent of a massacre. Here the same tool was used to protect the arsonists, so they never had to pay for what they burned. It left a burned community with no recourse.</p></div>
       </details>
       </div>
       <div class="docstory-entry">
@@ -314,7 +313,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">A pagan senator asks the state to fund the old rites again. The bishop of Milan answers him twice - and the establishment wins, with the loser&#39;s own eloquent plea preserved right beside it.</p>
       <details class="docstory-item" id="imperial-juridical-christianity-story-1">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><p>The altar of Victory had stood in the Senate house for centuries. The emperors had it removed. In the year 384, Symmachus, prefect of Rome and the old religion&#39;s most eloquent voice, petitioned the young emperor to bring it back. His plea survives, grave and moving: Rome&#39;s ancient worship had guarded Rome&#39;s ancient greatness, and so great a secret could not be reached by one road alone. Ambrose answered him twice, in writing, and the answers survive beside the plea. The emperor is a Christian, he argued. The state may not fund what the faith knows to be false. And what Symmachus called reverence for the past was the past&#39;s own long error. The altar stayed removed. The exchange is our establishment speaking at its most confident. It is also the rare place in our record where the defeated side is heard making its own case, in its own words, at full strength.</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/imperial-juridical-christianity/docstory-1.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>The altar of Victory had stood in the Senate house for centuries. The emperors had it removed. In the year 384, Symmachus, prefect of Rome and the old religion&#39;s most eloquent voice, petitioned the young emperor to bring it back. His plea survives, grave and moving: Rome&#39;s ancient worship had guarded Rome&#39;s ancient greatness, and so great a secret could not be reached by one road alone. Ambrose answered him twice, in writing, and the answers survive beside the plea. The emperor is a Christian, he argued. The state may not fund what the faith knows to be false. And what Symmachus called reverence for the past was the past&#39;s own long error. The altar stayed removed. The exchange is our establishment speaking at its most confident. It is also the rare place in our record where the defeated side is heard making its own case, in its own words, at full strength.</p></div>
       </details>
       </div>
       <div class="docstory-entry">
@@ -323,7 +322,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <p class="teaser">A fallen chamberlain who stripped the church of its right of refuge runs to the altar himself. The bishop who shelters him preaches his ruin as a warning - and loses him to execution anyway.</p>
       <details class="docstory-item" id="imperial-juridical-christianity-story-2">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><p>Eutropius was a eunuch who rose to be chamberlain to the emperor Arcadius, and in 399 he became the first eunuch ever made consul. Among the things he did with that power: he procured laws that cut off the church&#39;s ancient right of refuge, so that a fugitive at the altar could be taken. Then he fell. He ran to the Great Church and grabbed the altar - the one protection he had himself destroyed - and the soldiers came for him. The bishop, John, preached with him lying there. He did not preach comfort. He preached the emptiness of everything Eutropius had spent his life getting, in front of the man and in front of the city: where is the consulship now, where are the torches, the flatteries, the swarm of hangers-on? Then he turned on his own congregation, who wanted the man given up. He told them they were servants of a crucified man who had said, forgive them. Yes, he granted - this is the man who abolished refuge here. And he has learned by experience what he did. The emperor held the army off, but it did not hold. Eutropius left the church, was taken, exiled, and executed. John preached a second time, about that too.</p></div>
+      <div class="docstory"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/imperial-juridical-christianity/docstory-2.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>Eutropius was a eunuch who rose to be chamberlain to the emperor Arcadius, and in 399 he became the first eunuch ever made consul. Among the things he did with that power: he procured laws that cut off the church&#39;s ancient right of refuge, so that a fugitive at the altar could be taken. Then he fell. He ran to the Great Church and grabbed the altar - the one protection he had himself destroyed - and the soldiers came for him. The bishop, John, preached with him lying there. He did not preach comfort. He preached the emptiness of everything Eutropius had spent his life getting, in front of the man and in front of the city: where is the consulship now, where are the torches, the flatteries, the swarm of hangers-on? Then he turned on his own congregation, who wanted the man given up. He told them they were servants of a crucified man who had said, forgive them. Yes, he granted - this is the man who abolished refuge here. And he has learned by experience what he did. The emperor held the army off, but it did not hold. Eutropius left the church, was taken, exiled, and executed. John preached a second time, about that too.</p></div>
       </details>
       </div>
       </div>
@@ -332,7 +331,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       <section aria-labelledby="legacy-title">
         <p class="eyebrow">Legacy</p>
         <h2 id="legacy-title">What came after</h2>
-        <div class="reading"><p>This world&#39;s own final council did not close in agreement. Chalcedon&#39;s settlement on Christ&#39;s two natures was final for those who accepted it. But whole regions rejected it at once, starting in Egypt, at the council itself. This rejection did not fade the way earlier disputes had. It hardened into lasting division. This world&#39;s own record ends right as that fracture opens. It does not know how the fracture will end.</p>
+        <div class="reading"><div class="narration"><audio controls preload="none"><source src="../audio/worlds/imperial-juridical-christianity/legacy.mp3" type="audio/mpeg"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>This world&#39;s own final council did not close in agreement. Chalcedon&#39;s settlement on Christ&#39;s two natures was final for those who accepted it. But whole regions rejected it at once, starting in Egypt, at the council itself. This rejection did not fade the way earlier disputes had. It hardened into lasting division. This world&#39;s own record ends right as that fracture opens. It does not know how the fracture will end.</p>
       <p>The two rival claims this world argued over never stopped being argued over. Does this world&#39;s own record already amount to a settled papacy? Or is it a claim still being worked out? Later traditions still argue that question, from these same documents. Constantinople&#39;s own rank raises a second, related fight. This world&#39;s own closing council granted that rank on one ground: nearness to the throne, not an apostle&#39;s grave. The tradition that received the rank reads it one way. The see that refused it reads it another way. This world&#39;s own record opens that disagreement. It does not close it.</p></div>
       </section>
 
@@ -354,8 +353,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </section>
 
       <!-- Judgment call (flagged in this generator's own report): the glossary
-           and pull-quotes fields are the two world_front units with no section
-           of their own in the old hand-built pages. Rather than two more
+           and pull-quotes fields are the two world_front units with no
+           dedicated section of their own. Rather than two more
            full-width sections, they share one compact strip - pull quotes as
            blockquotes, then a small glossary grid - placed after Sources and
            before the closing Questions section. -->
@@ -365,7 +364,7 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
         <div class="orient-pull-quotes">
       <blockquote class="orient-pull-quote"><p>I have no reason, I say, to charge you with defiance; but I do have reason to fear. I dare not offer the sacrifice if you intend to be present. Is something that is not allowed after the blood of one innocent person has been shed, allowed after the blood of many? I do not think so.</p><cite>Ambrose</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>We are the servants of the crucified one, who said, &#39;Forgive them, for they do not know what they are doing.&#39; But, you say, this man cut off the right of refuge here with his decrees and his many kinds of laws. Yes! And now he has learned by experience what it was he did. He himself, by his own actions, has been the first to break his law, and he has become a spectacle to the whole world.</p><cite>John Chrysostom, bishop of Constantinople, preaching in 399 while Eutropius clung to the altar behind him</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>We are the servants of the crucified one, who said, &#39;Forgive them, for they do not know what they are doing.&#39; But, you say, this man cut off the right of refuge here with his decrees and his many kinds of laws. Yes! And now he has learned by experience what it was he did. He himself, by his own actions, has been the first to break his law, and he has become a spectacle to the whole world. Silent though he is, he still speaks - a warning to everyone: &#39;Do not do as I have done, so that you do not suffer as I now suffer.&#39;</p><cite>John Chrysostom, bishop of Constantinople, preaching in 399 while Eutropius clung to the altar behind him</cite></blockquote>
       <blockquote class="orient-pull-quote"><p>Let the saint rejoice: he draws near to victory. Let the sinner be glad: he is invited to pardon. Let the gentile take courage: he is called to life.</p><cite>Leo</cite></blockquote>
       <blockquote class="orient-pull-quote"><p>The most distinguished Presidents and the most honorable Assessors said: &#39;These vulgar outcries are not worthy of bishops, and they will not help either side. Allow, therefore, the reading of all the documents.&#39;</p><cite>the imperial Presidents and Assessors at Chalcedon, Session I</cite></blockquote>
       </div><dl class="orient-glossary">

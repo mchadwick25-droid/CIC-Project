@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'Get for her a set of letters made of boxwood or of ivory and called each by its
   proper name. Let her play with these, so that even her play may teach her something.'
+modern_rendering: >-
+  Get her a set of letters made of boxwood or ivory, and name each one by its proper
+  name. Let her play with these letters, so that even her play teaches her something.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Letters" here means individual alphabet-block toys (like modern alphabet blocks), not correspondence - a collision worth naming since this corpus''s dominant sense of "letter" elsewhere is epistula, the medium of formation itself.'
@@ -28,7 +31,7 @@ retrieval:
   - "participant asks how children were taught to read and by whom"
   - "participant asks what they thought education should start with"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 107 sec. 4,
+Verified verbatim against the vendored npnf206 (Ep. 107 sec. 4,
 div v.CVII). The community's pedagogy at its most concrete and humane - an
 alphabet as toys, designed by letter from Bethlehem for a child in Rome.
 Prescription, not description: this is what Jerome ADVISED for the younger

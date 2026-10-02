@@ -22,6 +22,14 @@ text: The pious people kept guard in the church, prepared to die with their bish
   this time it was instituted that, after the manner of the Eastern Church, hymns and psalms should be
   sung, lest the people should pine away in the tediousness of sorrow; which custom, retained from then
   till now, is imitated by many, yea, by almost all of Thy congregations throughout the rest of the world.
+modern_rendering: >-
+  The devout people kept watch in the church, ready to die with their bishop, your
+  servant. There my mother, your servant, carrying the greatest share of those worries and
+  long nights of watching, lived in prayer. ... At this time, it was established that,
+  following the custom of the Eastern Church, hymns and psalms should be sung, so that the
+  people would not waste away from the weariness of grief. That custom has lasted from
+  then until now, and is copied by many — indeed, by almost all of your congregations
+  throughout the rest of the world.
 speaker_or_author: "Augustine of Hippo, Confessions 9.7"
 license: verbatim
 modern_lens_note: >-
@@ -36,7 +44,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---
-Text verified verbatim against the vendored file 2026-08-21. The
+Text verified verbatim against the vendored file. The
 ellipsis marks one omitted sentence ("We, still unmelted by the heat of
 Thy Spirit, were yet moved by the astonished and disturbed city") -
 Augustine's own interior state, left out with the omission MARKED
@@ -46,11 +54,7 @@ independent eyewitness to any Ambrose confrontation, and the record's
 one direct glimpse of an ordinary congregation's interior - fear given
 singing to stand inside.
 
-FIXED 2026-08-26 (cross-world transparency audit): speaker_or_author
-used to carry "(licensed for this world as eyewitness to Milan, 386,
-only)" - a build-team scope note that citation_cards.py/StoryMark.tsx
-render verbatim to the participant as this quote's speaker line. The
-speaker line now just names Augustine and the locus. NARROW LICENSE:
+The speaker line names Augustine and the locus only. NARROW LICENSE:
 this quote is licensed for use in this world (ijc) specifically, as
 Augustine's own eyewitness testimony to events at Milan in 386 - not
 for reuse as general testimony in any other world's corpus.

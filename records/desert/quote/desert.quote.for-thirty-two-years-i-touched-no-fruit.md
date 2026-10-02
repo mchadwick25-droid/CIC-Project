@@ -21,6 +21,12 @@ sources:
   license: public-domain
 text: >-
   He renounced the world in the days of Julian the infamous Emperor, and spoke to him with boldness. Julian ordered him to be shaved and buffeted by boys. He endured the ordeal patiently and expressed his thanks to Julian, as he told us himself. ... He told us this: "For thirty-two years I touched no fruit." Once when timidity attacked him, in order to get rid of it, he shut himself up in a tomb for six years.
+modern_rendering: >-
+  He renounced the world in the days of the infamous Emperor Julian. He spoke to Julian with
+  boldness. Julian ordered him shaved and beaten by boys. He endured this ordeal patiently, and he
+  expressed his thanks to Julian, as he himself told us. ... He told us this: "For thirty-two years,
+  I did not touch fruit." Once, when fear attacked him, in order to get rid of it, he shut himself in
+  a tomb for six years.
 speaker_or_author: Palladius, reporting Philoromus of Galatia in his own words
 license: verbatim
 modern_lens_note: >-
@@ -35,15 +41,15 @@ relations:
 - type: associated-with
   target: desert.dw.born-again
 ---
-Opened 2026-08-27 for F4-T, served by desert.dw.born-again alone, which cites this chapter for
-"the day he took up this life, in his own words".
+This record fills canon cell F4-T. desert.dw.born-again alone serves this cell, citing this chapter
+for "the day he took up this life, in his own words".
 
 Chosen over the alternative locus the same cell offered (Vita SS16, on the shortness of life
 against the ages to come) because this one is a participant speaking in the first person about his
 own turning, which is what the cell's question actually asks for.
 
-Quote-verbatim gate fix (2026-09-22): removed stray literal backslashes before quote marks (a YAML
-folded-scalar authoring bug, not real source characters). The record still cannot verify past "world"
-early in the first sentence: the source has a page-break marker ("world |146 in the days") that the
-gate doesn't strip - flagged for Mark alongside the other footnote/pagination-apparatus findings in
-this PR (a pipe-plus-digits form, distinct from the bare-digit and bracketed forms already found).
+The text field carries no stray literal backslashes before quote marks (a YAML folded-scalar
+authoring artifact, not real source characters). Verification cannot yet clear past "world" early in
+the first sentence: the source has a page-break marker ("world |146 in the days") that the automated
+verification gate does not strip - a pipe-plus-digits form, distinct from the bare-digit and
+bracketed forms already found elsewhere.

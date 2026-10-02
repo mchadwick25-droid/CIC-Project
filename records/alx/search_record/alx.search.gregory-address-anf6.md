@@ -17,9 +17,9 @@ query: "Gregory Thaumaturgus, Oration and Panegyric Addressed to Origen (Address
 channel: "web search (WebSearch), 2026-08-20; verified on en.wikisource.org, newadvent.org, archive.org"
 result: found
 found_sources: [alx.source.gregory-address-to-origen]
-note: "2026-08-20 update: the searched-for edition (Salmond, ANF vol. 6) was supplied via the vendored corpus (cic/texts/anf06_...xml, Mark, 2026-08-15); source record created with rights verified from the file's own DC.Rights header, the Address's division confirmed at file line 2288. The Nautin caveat is carried in the source record's work field."
+note: "The searched-for edition (Salmond, ANF vol. 6) was supplied via the vendored corpus (cic/texts/anf06_...xml); source record created with rights verified from the file's own DC.Rights header, the Address's division confirmed at file line 2288. The Nautin caveat is carried in the source record's work field."
 ---
-Search run 2026-08-20. The one first-person student's-eye account of
+The one first-person student's-eye account of
 Alexandrian-school formation (delivered c. 238, at Caesarea): the best single
 witness for "how did a person actually learn there" (canon F4-I, F3-I
 teacher-authority cells). Carries a named scholarly caveat from the old

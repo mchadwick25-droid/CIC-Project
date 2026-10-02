@@ -5,7 +5,8 @@ source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
 # Translator's Preface, the Subject Index, and the Indexes.
 
 assignments:
-  - work: "City of God"
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--city-of-god
+    work: "City of God"
     author: augustine
     locus: "div1 4 — City of God (Books I-XXII)"
     atlas_ids:
@@ -17,9 +18,10 @@ assignments:
       his own entry. Deliberately NOT scattered further: Books I-X answer
       pagan critics and Book X engages Porphyry, but the census has no pagan
       bucket and the Platonist engagement is Augustine's, not Alexandria's —
-      restraint here per Mark's per-work framing.
+      this restraint follows a deliberate per-work framing.
 
-  - work: "City of God"
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--city-of-god-2
+    work: "City of God"
     author: augustine
     locus: "div1 4 — City of God, esp. Books I-V and XIX"
     atlas_ids:
@@ -35,7 +37,8 @@ assignments:
       Rome-Constantinople-Milan imperial church; it is evidence for ijc's
       themes rather than a work from inside it.
 
-  - work: "On Christian Doctrine"
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine
+    work: "On Christian Doctrine"
     author: augustine
     locus: "div1 5 — On Christian Doctrine (Books I-IV)"
     atlas_ids:
@@ -46,3 +49,39 @@ assignments:
       Augustine's manual for interpreters and preachers of Scripture, Book IV
       on Christian eloquence — congregational teaching practice itself, the
       core of the pastoral entry. No second entry suggests itself.
+
+  - row_id: npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine-book-iii-chs-30-37-the-rules-of
+    work: "On Christian Doctrine, Book III, chs. 30-37 (\"The Rules of Tichonius the Donatist Examined\")"
+    author: augustine
+    locus: "div1 5 — Book III, Chapter 30 (v.vi.xxx) through Chapter 37, at file lines ~53014-54200"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      Found by don.source.augustine-de-doctrina-christiana-book3 and its
+      near-duplicate don.source.augustine-de-doctrina-christiana-iii (same
+      claim, two separate record ids — worth a housekeeping pass to
+      deduplicate, flagged here, not fixed, since it's outside a corpus-map
+      assignment's own scope). Both records confirmed the file's presence and
+      27 occurrences of "Tichonius" but explicitly left Book III's own
+      Tyconian-rules content unread, flagging it for "priority second-opinion
+      review before supporting any claim more specific than the influence
+      relationship itself." That review is done here: read directly at the
+      cited locus, not trusted from either record's own account. Chapter 30
+      (line 53014) opens "One Tichonius, who, although a Donatist himself,
+      has written most triumphantly against the Donatists... wrote a book
+      which he called the Book of Rules, because in it he laid down seven
+      rules" and names all seven (the Lord and his body; the Lord's body's
+      twofold division; the promises and the law; species and genus; times;
+      recapitulation; the devil and his body). Chapters 31-37 each expound one
+      rule in turn with Augustine's own critical commentary. Genuine,
+      substantial, verified content — not a bare name-check. `role: context`:
+      this is Augustine (the movement's principal doctrinal opponent, writing
+      as a Catholic bishop) examining a Donatist theologian's own work from
+      outside — real corroborating evidence for the world's own note that
+      Tyconius is its "one substantial interpretive theologian," but not
+      itself Donatism's own primary voice. `confidence: assigned` because,
+      unlike the two source records this draws on, the specific content at
+      this exact locus has now actually been independently read and confirms
+      the claim.

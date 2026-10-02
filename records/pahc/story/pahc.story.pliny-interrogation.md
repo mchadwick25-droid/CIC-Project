@@ -88,11 +88,6 @@ contested reading directly, rather than
 relying solely on the disclosure already carried in
 pahc.term.ministrae and pahc.figure.ministrae.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
 
-CENTER-CELL MAPPING (2026-08-30, Mark's pilot read: the center cells
-had no story or term to offer - "i don't see the full 3 level
-transparency with glossary terms, stories and quotes"; his approved
-scope: one story and one term per center cell where they genuinely
-belong, not everything that could fit). Added to C-T: "Was Jesus God?" - the outside witness's own line, "to sing responsively a song to Christ as God," is this world's plainest evidence that they worshiped him as God before any argument existed for how. Content unchanged;
-this note and the added cell are the whole edit.
+This world's center-cell material adds to C-T: "Was Jesus God?" - the outside witness's own line, "to sing responsively a song to Christ as God," is this world's plainest evidence that they worshiped him as God before any argument existed for how.

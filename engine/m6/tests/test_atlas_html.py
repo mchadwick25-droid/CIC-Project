@@ -95,6 +95,20 @@ def test_apply_movement_updates_inserts_missing_field(tmp_path):
     assert m["why"] == "Movement B's why."  # untouched
 
 
+def test_inserted_field_preserves_the_closing_brace_indentation(tmp_path):
+    """Regression: an earlier version of _insert_field rstripped the
+    whitespace before the object's own closing brace along with the
+    trailing comma it was adding, then never put it back - every object
+    that ever gained a new field this way lost its closing brace's own
+    indentation, moving it and every following sibling line in the diff.
+    movement-a is not the array's last object, so a lost/misplaced brace
+    here would also break movement-b's own object boundary."""
+    path = _write_fixture(tmp_path)
+    atlas_html.apply_movement_updates(path, {"movement-a": {"newField": "hello"}})
+    text = path.read_text(encoding="utf-8")
+    assert '\n  },\n  {\n   "id": "movement-b"' in text
+
+
 def test_apply_movement_updates_preserves_surrounding_formatting(tmp_path):
     path = _write_fixture(tmp_path)
     atlas_html.apply_movement_updates(path, {"movement-a": {"why": "New why text."}})

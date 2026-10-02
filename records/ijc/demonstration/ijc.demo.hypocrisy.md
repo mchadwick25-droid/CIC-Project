@@ -56,24 +56,19 @@ representative's own turn as a stated limit, not smoothed over. Content
 is ijc.story.callinicum-synagogue's own text, carried into spoken form
 unchanged. We-voice throughout; not an identity-collision cell.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22):
-"twice held a basilica" asserted a second standoff no record in this
-build carries (the one basilica standoff is single, and its own dating
-is disclosed as an open divergence in ijc.story.vigil-in-basilica, not
-a second event) - struck to "held a basilica." "Made an emperor do
-public penance" stated flatly what ijc.story.emperor-penance's own tier
-discipline quarantines (the public scene is Documented only at
-Widely-Accepted/two-later-historians, not at this turn's own
-verified-direct confidence) - restated as the harder, contemporary-
-attested fact: the sacrament withheld until repentance. The dropped
+The turn reads "held a basilica" - the one basilica standoff is single,
+and its own dating is disclosed as an open divergence in
+ijc.story.vigil-in-basilica, not a second event. The public-penance
+scene is stated as the harder, contemporary-attested fact - the
+sacrament withheld until repentance - matching ijc.story.emperor-
+penance's own tier discipline (the public scene itself is Documented
+only at Widely-Accepted/two-later-historians, not at this turn's own
+verified-direct confidence). The dropped
 second half of Ambrose's own objection (the Valentinian meeting-house,
-"worse than heathen") is restored, since a turn announcing it will name
-the sharpest case should not soften that case's own sharpest clause.
-"It was withdrawn" hardened Ambrose's own account (which gives a
-promise, not a completed act, and is itself the letter's own claim, not
-an independent record) - restated as the source's own "promised, there
-and then, to withdraw it." Several long sentences are split into
-shorter ones (this turn's own FK grade was the highest in the set after
-the first fix pass); content is unchanged.
+"worse than heathen") is carried, since a turn announcing the
+sharpest case should not soften that case's own sharpest clause.
+The turn matches Ambrose's own account: he
+promised, there and then, to withdraw it - a promise, not a completed
+act.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

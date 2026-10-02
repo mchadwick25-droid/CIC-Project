@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   For this reason, therefore, inasmuch as they had obtained a perfect fore-knowledge of this, they appointed those [ministers] already mentioned, and afterwards gave instructions, that when these should fall asleep, other approved men should succeed them in their ministry.
+modern_rendering: >-
+  For this reason, they appointed the ministers already mentioned. They had full
+  foreknowledge of this. Afterward, they gave instructions: when these men died, other
+  approved men should succeed them in their ministry.
 speaker_or_author: the letter known as First Clement, to the church at Corinth
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +39,7 @@ relations:
 - type: associated-with
   target: pahc.witness.how-we-know
 ---
-Opened 2026-08-27 for C-E, served by pahc.witness.how-we-know alone, which cites chs. 42 and 44
+This quote serves C-E together with pahc.witness.how-we-know, which cites chs. 42 and 44
 for the apostolic chain of appointment.
 
 The lens note carries the textual problem because the sentence cannot honestly be offered without

@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'You are bishops whose jurisdiction is within the Church: I also am a bishop, ordained by God to
   overlook whatever is external to the Church.'
+modern_rendering: >-
+  You are bishops whose authority lies within the Church. I too am a bishop, appointed by
+  God to oversee whatever lies outside the Church.
 speaker_or_author: ijc.figure.constantine
 license: verbatim
 modern_lens_note: >-
@@ -33,7 +36,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
 ---
-Text verified verbatim against the vendored file 2026-08-21. Reported
+Text verified verbatim against the vendored file. Reported
 by Eusebius from table-talk ("addressing them in my hearing") in a
 posthumous panegyric - single-source, meaning contested; the full
 contest is ijc.contested.bishop-of-those-outside. The scholarly

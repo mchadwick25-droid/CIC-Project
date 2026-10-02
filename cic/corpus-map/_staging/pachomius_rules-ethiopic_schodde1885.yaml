@@ -1,7 +1,8 @@
-# Vendored 2026-08-27, supplied by Mark. Fulfils the lead recorded in
-# desert.search.pachomian-rule-schodde-1885, which the earlier search had wrongly
-# marked not_found because it asked only for pre-1929 printed PD translations and
-# then failed to look in the periodical literature.
+# Fulfils the lead recorded in
+# desert.search.pachomian-rule-schodde-1885, which the earlier search
+# had wrongly marked not_found because it asked only for pre-1929
+# printed PD translations and then failed to look in the periodical
+# literature.
 source_file: pachomius_rules-ethiopic_schodde1885.txt
 authors_ruled:
   schodde:
@@ -27,7 +28,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Rules of Pachomius, Part I (the angel's ordinance)
+- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance
+  work: The Rules of Pachomius, Part I (the angel's ordinance)
   author: pachomius
   locus: pp. 681-683; "In the name of the holy Trinity. The ordinance which the angel of the Lord
     commanded to Abba Pachomius"
@@ -43,12 +45,12 @@ assignments:
     enough for all practical purposes". Quote it as Pachomian-foundation legislation in the
     Ethiopic recension, never as Pachomius'' own words.
 
-    A CORRECTION THIS FILE FORCES: the angel and the iron tablet are inside the rule document
-    itself, not merely in Palladius'' and Sozomen''s framing of it. Records describing the frame
-    as belonging to the reports rather than to the text were wrong.
+    The angel and the iron tablet are inside the rule document
+    itself, not merely in Palladius'' and Sozomen''s framing of it.
 
     '
-- work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
+- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-ii-the-second-word-of-the-holy
+  work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
   author: pachomius
   locus: pp. 683-685; "In the name of the Father and of the Son and of the Holy Ghost. An ordinance
     and command of the holy Abba Pachomius"
@@ -66,7 +68,8 @@ assignments:
     face nor hear the other''s voice.
 
     '
-- work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
+- row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-iii-the-symbolical-homily-on-the
+  work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
   author: ethiopic_homily_on_the_ten_associations
   locus: pp. 685-689; "And again a third ordinance"; the five evil associations (hyenas, dogs,
     wolves, shakals, goats) and the five good (sheep, doves, turtle-doves, bees, deer)
@@ -82,7 +85,8 @@ assignments:
     preserved it. Cite it as the late Ethiopic homily, never as Pachomian legislation.
 
     '
-- work: Schodde's introduction to the Rules (1885)
+- row_id: pachomius_rules-ethiopic_schodde1885--schodde-s-introduction-to-the-rules-1885
+  work: Schodde's introduction to the Rules (1885)
   author: schodde
   locus: pp. 679-681, including Sozomen's summary in Valesius' Latin and the Acta Sanctorum notice
   atlas_ids:

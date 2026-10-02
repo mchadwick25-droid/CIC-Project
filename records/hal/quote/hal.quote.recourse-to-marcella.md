@@ -21,8 +21,8 @@ sources:
 text: 'Consequently after my departure from Rome, in case of a dispute arising as to the
   testimony of scripture on any subject, recourse was had to her to settle it.'
 modern_rendering: >-
-  So after I left Rome, this is what happened. Whenever people disagreed
-  about what scripture said, they went to her. She was the one who settled
+  So after I left Rome, people turned to her whenever a dispute arose
+  about what scripture said on any subject. She was the one who settled
   it.
 speaker_or_author: hal.figure.jerome
 license: verbatim
@@ -33,7 +33,7 @@ retrieval:
   - "participant asks who people went to when they disagreed about a text"
   - "participant asks whether a woman held any recognised authority"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec. 7).
+Verified verbatim against the vendored npnf206 (Ep. 127 sec. 7).
 THE sole attestation of Marcella's post-385 standing - Documented as
 Jerome's claim, Contested as to how much independent agency it reflects
 (hal.contested.marcella-agency). The immediate continuation matters and
@@ -45,4 +45,4 @@ in which she exercised it (whether her own prudence, the age's constraint,
 or Jerome's framing - not resolvable). Serves F6-P (woman-authority
 identity-collision) and F3-I (who held authority).
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

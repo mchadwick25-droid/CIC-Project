@@ -30,6 +30,13 @@ text: >-
   interpretation of the sacred Scriptures, so that, what the pupils of the philosophers say about
   geometry and music, grammar, rhetoric, and astronomy, viz. that they are the handmaidens of
   philosophy, we may say of philosophy itself in relation to Christianity.
+modern_rendering: >-
+  I strongly want you to take from Greek philosophy whatever can serve as basic training
+  for our schools. Let this training be a kind of preparation for Christianity. Take
+  also the parts of geometry and astronomy that can help you interpret the sacred
+  Scriptures. The students of the philosophers have a saying about geometry, music,
+  grammar, rhetoric, and astronomy. They call these the handmaidens of philosophy. In
+  the same way, we can say that philosophy itself is the handmaiden of Christianity.
 speaker_or_author: Origen, in the Letter to Gregory
 license: verbatim
 modern_lens_note: >-
@@ -50,7 +57,7 @@ relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 149.
+Verified verbatim against the vendored file at line 149.
 
 The same letter is printed in ANF vol. 4 as well, so this world holds it
 twice; cited here from the Philocalia because that is the compiler's own

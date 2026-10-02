@@ -24,4 +24,4 @@ discovery_channel: builder-direct-read; Source Registry row 38; Apology file; 20
 external_ids:
   witt_source_registry_row: 38
 ---
-Confessional defense in Melanchthon's own name; Article XXIV as the fullest statement of claimed Sunday practice (public Mass every Lord's Day, examination and absolution before communion, Latin lessons retained, German hymns mingled); the Confutation as adversary (context, R39); "in our Churches no Anabaptists have arisen". (Source Registry row 38; Confidence A.)
+Confessional defense in Melanchthon's own name; Article XXIV as the fullest statement of claimed Sunday practice (public Mass every Lord's Day, examination and absolution before communion, Latin lessons retained, German hymns mingled); the Confutation as adversary (context); "in our Churches no Anabaptists have arisen". (Source Registry row 38; Confidence A.)

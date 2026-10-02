@@ -25,8 +25,8 @@ absence_probes:
   - "letters from the outlying households"
   - "correspondence from the borderlands"
 ---
-Library Access Gate increment 2 (Q5, Decision-Log 7): the fixture world's
-third positive case for `absence-probe`. `fix.search.lost-letters-search`
+Library Access Gate increment 2: the fixture world's third positive case
+for `absence-probe`. `fix.search.lost-letters-search`
 already documents that a search for "letters from Testland's outlying
 households" came back `not_found`; this record makes that absence
 mechanically checkable - the compiler reads `cic/texts/fixture-synthetic_

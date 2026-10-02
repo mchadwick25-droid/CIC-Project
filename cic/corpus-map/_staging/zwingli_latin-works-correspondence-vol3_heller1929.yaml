@@ -1,0 +1,24 @@
+# Closes a Verified Acquisition Lead from the Reformed Cities dossier
+# (Atlas VI.2).
+source_file: zwingli_latin-works-correspondence-vol3_heller1929.txt
+
+assignments:
+  - row_id: zwingli_latin-works-correspondence-vol3_heller1929--the-latin-works-of-huldreich-zwingli-vol-iii-de-vera-et
+    work: "The Latin Works of Huldreich Zwingli, Vol. III (\"De Vera et
+      Falsa Religione\" / Of True and False Religion, and the Antibolon)"
+    author: zwingli
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      A third, independent volume of Zwingli's own voice alongside the
+      Selected Works (Jackson 1901) and the Latin Works Vol. I (Jackson
+      1912) - ed. Clarence Nevin Heller (Philadelphia: The Heidelberg
+      Press, 1929). Contains "Of True and False Religion" (1525), called
+      the earliest truly comprehensive treatise on Protestant theology per
+      this volume's own preface, and Zwingli's 1524 reply to Jerome Emser
+      (the Antibolon). Not itemized by individual sub-work within this
+      row; the file's own intake header discloses this as a two-work
+      compilation.

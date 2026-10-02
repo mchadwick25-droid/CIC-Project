@@ -1,0 +1,37 @@
+# Supersedes the dossier's originally-named
+# archive.org item (firstprinciples00buchgoog, a Google Books scan found
+# materially OCR-degraded on inspection) with a cleaner alternate scan of
+# the same 1885 edition - see cic/texts/REGISTRY.yaml's own entry for
+# the full sampling record.
+source_file: luther_first-principles-reformation_wace-buchheim1885.txt
+
+assignments:
+  - row_id: luther_first-principles-reformation_wace-buchheim1885--first-principles-of-the-reformation-the-ninety-five-theses
+    work: "First Principles of the Reformation: The Ninety-Five Theses,
+      the Address to the Nobility of the German Nation, On Christian
+      Liberty, and On the Babylonish Captivity of the Church"
+    author: luther
+    locus: "whole text (four works: Theses and two Latin treatises trans.
+      R. S. Grignon; the Address to the Nobility trans. C. A. Buchheim,
+      checked by Henry Wace, from German)"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      An independent, earlier (1885) English rendering of four works
+      already vendored in this corpus under separate, distinct
+      translations (luther_works-v1-selected_jacobs-spaeth1915.txt for
+      the Theses; luther_works-v2-selected_jacobs-spaeth1916.txt for the
+      Open Letter to the Christian Nobility, Christian Liberty, and the
+      Babylonian Captivity). Vendored not to fill a content gap but as a
+      genuinely different translator's wording, useful for cross-checking
+      a quote's exact phrasing against the Jacobs/Spaeth versions already
+      cited. Confidence held at provisional rather than assigned: this
+      file has not itself been used as the wording source for any quote
+      yet, and a build thread reaching for it should treat the
+      already-assigned Jacobs/Spaeth entries as this world's own primary
+      citation copies unless there is a specific reason to prefer this
+      translation's wording instead. Quality-verified this pass (six
+      sample points across the file, head to tail) as consistently clean
+      OCR, in contrast to the dossier's originally-named item.

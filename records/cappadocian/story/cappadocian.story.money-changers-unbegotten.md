@@ -44,7 +44,7 @@ text: >-
   that this fact by itself settles the Son's lesser status - had leaked
   into completely ordinary transactions, exasperating a preacher who
   wanted the argument handled with more care than a street exchange
-  allows. What is Documented is that Gregory made a complaint of this
+  allows. What is well attested is that Gregory made a complaint of this
   substance, as part of his own preaching against that argument; the
   precise wording popularly attributed to it is not independently checked
   against a secured translation, so none of it is quoted here as verbatim.

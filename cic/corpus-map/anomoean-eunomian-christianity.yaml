@@ -3,39 +3,36 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: anomoean-eunomian-christianity
 works:
-- work: Homily on the Paralytic Let Down Through the Roof
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-on-the-paralytic-let-down-through-the-roof-2
+  work: Homily on the Paralytic Let Down Through the Roof
   author: chrysostom
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
     and the Son'
   role: context
   confidence: assigned
-  note: 'The Antiochene home id is safe; the doubt is the second one. The volume''s own notes
-    say this homily proves the equality of Father and Son against the Anomoeans (editorial
-    note at xii, and index entry ''Anomoeans, heresy of''). The Anomoeans/Eunomians are not
-    strictly Homoians, and the census has no Anomoean entry — homoian-arian-christianity is
-    the nearest ''Arian'' doctrinal-floor bucket. Needs Mark''s ruling on whether that entry
-    covers anti-Anomoean material or the second id should be dropped.
+  note: 'The Antiochene home id is safe. The volume''s own notes say this homily proves the
+    equality of Father and Son against the Anomoeans (editorial note at xii, and index entry
+    ''Anomoeans, heresy of''). The Anomoeans/Eunomians are not strictly Homoians.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
-    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
-    on record, so anti-Eunomian material now names the party it actually argues with rather
-    than the Homoian wing it split from in 360.'
+    floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor
+    Question) is on the census, so anti-Eunomian material names the party it actually argues
+    with rather than the Homoian wing it split from in 360.'
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+- row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
+  work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
   role: context
   confidence: assigned
-  note: 'Canon 1 anathematizes Eunomians, Arians, Semi-Arians and Macedonians by name - the
-    formal record of the parties the homoian entry names, from their condemners. 2026-08-26:
-    anomoean-eunomian-christianity added alongside, since canon 1 names Eunomians and Arians
-    as separate parties and this work is the record of both. 2026-08-26: canon 1 condemns
-    Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as separate parties;
-    each now has its own entry and this work is the record of all of them.'
+  note: Canon 1 anathematizes Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
+    by name, as separate parties - the formal record of the parties each of these entries
+    names, from their condemners. Each now has its own entry, and this work is the record
+    of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The First Apology (Liber Apologeticus)
+- row_id: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus
+  work: The First Apology (Liber Apologeticus)
   author: eunomius
   locus: whole file - chapters I-XXVIII (Whiston's numbering, Vaggione's re-numbering per
     Pearse's edition) plus 23 footnotes
@@ -50,25 +47,25 @@ works:
 
     '
   source_file: eunomius_first-apology_whiston1711.txt
-- work: The Five Theological Orations (Orations 27-31)
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31-2
+  work: The Five Theological Orations (Orations 27-31)
   author: gregory_naz
   locus: div2 3.13-3.17, with the editor's introduction at 3.12
   role: context
   confidence: assigned
   note: 'Split out from the Select Orations because these five, preached against the Eunomians
     at Constantinople, are what a reader names as a work, and they carry the anti-Arian assignment.
-    The doubt is the same as for Nyssa''s Against Eunomius: the opponents are Eunomian Anomoeans,
-    and the census''s only Arian bucket is named for the Homoian party. Assigned there as
-    nearest entry; Mark may want to strike or rebucket.
+    The opponents are Eunomian Anomoeans, distinct from the Homoian party the census''s Arian
+    bucket is named for.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
-    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
-    on record, so anti-Eunomian material now names the party it actually argues with rather
-    than the Homoian wing it split from in 360.'
+    floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor
+    Question) is on the census, so anti-Eunomian material names the party it actually argues
+    with rather than the Homoian wing it split from in 360.'
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
-- work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
+- row_id: npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius-2
+  work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
   author: gregory_nyssa
   locus: 'txt heading "Gregory of Nyssa Against Eunomius" (line 2765), Books I-XII from line
     2885, "Answer to Eunomius'' Second Book" at line 22219; the volume''s own date table dates
@@ -77,19 +74,16 @@ works:
     '
   role: context
   confidence: assigned
-  note: 'Cappadocian home is firm. The second id is the doubt: this is anti-EUNOMIAN (Anomoean)
-    polemic, and the census''s only Arian bucket is named for the Homoian party - a different
-    wing of the controversy. Assigned there as the nearest entry for material about fourth-century
-    Arianism; a reviewer may strike it or Mark may want a distinct bucket.
-
+  note: 'Cappadocian home is firm. This is anti-EUNOMIAN (Anomoean) polemic, and the census''s
+    only Arian bucket was named for the Homoian party - a different wing of the controversy.
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
-    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
-    on record, so anti-Eunomian material now names the party it actually argues with rather
-    than the Homoian wing it split from in 360.'
+    floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor
+    Question) was added to the census so that anti-Eunomian material names the party it actually
+    argues with rather than the Homoian wing it split from in 360.'
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
-- work: Ecclesiastical History (surviving only as Photius' Epitome)
+- row_id: philostorgius_ecclesiastical-history_walford1855--ecclesiastical-history-surviving-only-as-photius-epitome
+  work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file - all twelve books
   role: tradition

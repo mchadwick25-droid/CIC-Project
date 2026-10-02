@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   Becoming indignant at the deception thus attempted the king commanded that the tribe of the magi should be decimated. When this was effected he permitted Maruthas to erect churches wherever he wished; and from that time the Christian religion was diffused among the Persians.
+modern_rendering: >-
+  Angered by the deception attempted against him, the king commanded that the tribe of the
+  magi be decimated. When this was done, he allowed Maruthas to build churches wherever he
+  wished. From that time on, the Christian religion spread among the Persians.
 speaker_or_author: Socrates Scholasticus, Ecclesiastical History VII.8
 license: verbatim
 modern_lens_note: >-
@@ -35,9 +39,9 @@ relations:
 - type: associated-with
   target: syr.dw.decides
 ---
-Opened 2026-08-27 for F1-E, served by syr.dw.decides alone, which cites "VII.8 (the synod's door
-opened at the close)" for its central admission - that no settled machinery stood over the whole world
-until the very end - and could not show it.
+This quote serves F1-E; syr.dw.decides alone grounds that cell, citing "VII.8 (the synod's door opened
+at the close)" for its central admission - that no settled machinery stood over the whole world until
+the very end. This quote shows that passage directly.
 
 Registered ETIC to match syr.source.socrates-historia-ecclesiastica: this is a Greek historian's notice
 about a Persian church, and the world's own voice is not in it. That is part of what the cell has to

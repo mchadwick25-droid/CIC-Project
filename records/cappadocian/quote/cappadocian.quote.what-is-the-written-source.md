@@ -48,17 +48,18 @@ relations:
 - type: associated-with
   target: cappadocian.dw.unwritten-carries-too
 modern_rendering: >-
-  I could spend the rest of the day naming the unwritten mysteries of the
-  church. I'll leave the rest aside. But tell me this: where is it written -
-  the very confession of our faith in Father, Son, and Holy Spirit? We were
-  baptized using those words, and we believe using those same words,
-  following the tradition handed down to us at our baptism. So let my
-  opponents grant me the same consistency in how I give glory that they
-  grant me in how I confess the faith. If they reject my doxology because
-  it has no written authority, then let them show me, in writing, the
-  confession of the faith itself - and everything else I have just named.
+  Time would fail me if I attempted to recount the unwritten mysteries of the church. I'll
+  say nothing of the rest. But of the very confession of our faith in Father, Son, and Holy
+  Spirit -- what is the written source? Suppose it is granted that, just as we are
+  baptized, so too under the obligation to believe, we make our confession in the same
+  terms as our baptism. Suppose it is granted that this follows the tradition of our
+  baptism and conforms to the principles of true religion. Then let our opponents grant us
+  the same consistency in our ascription of glory as in our confession of faith. If they
+  object to our doxology on the ground that it lacks written authority, let them give us
+  the written evidence for the confession of our faith, and for the other matters we have
+  enumerated.
 ---
-Verified verbatim 2026-08-31 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, the
 treatise's own numbered sec. 67, the paragraph immediately following the
 "unwritten mysteries" catalogue - facing east, standing to pray, the
@@ -74,7 +75,4 @@ customs is the stronger match for F4-E (apostolic origin of practices) and
 is quoted there instead - two distinct, genuinely separate excerpts from
 the same chapter, not one quote stretched to cover two cells.
 
-MODERN RENDERING AUTHORED (2026-08-31, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   ...and those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus, and men like them; and among the barbarians, Abraham, and Ananias, and Azarias, and Mishael, and Elias, and many others...
+modern_rendering: >-
+  ...and those who lived reasonably are Christians, even though people have thought them
+  atheists. Among the Greeks, such people were Socrates and Heraclitus, and men like
+  them. Among non-Greeks, they were Abraham, Ananias, Azarias, Mishael, Elijah, and many
+  others...
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +40,7 @@ relations:
 - type: associated-with
   target: pahc.witness.god-and-argument
 ---
-Opened 2026-08-27 for F1-I, served by pahc.witness.god-and-argument alone, which cites this exact
+This quote serves F1-I together with pahc.witness.god-and-argument, which cites this exact
 chapter for "the Logos present in every race of men".
 
 The ellipsis marks the excerpt starting inside Justin's sentence, whose first half says the Word is
@@ -43,10 +48,8 @@ that of which the whole race of men were partakers. The list of names is kept be
 part that startles: two Greek philosophers and four figures from Daniel, all called Christians
 before Christ.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "many others" was invented - the
-source's sentence continues into a sharper, different claim about those who lived without reason
-being hostile to Christ. Added a trailing ellipsis rather than restoring, matching the same call made
-on pahc.quote.justin-reasonable-livers (the same source sentence, quoted from a different starting
-point for a different cell) and for the same reason: that further claim isn't part of what this
-record's gloss addresses. Also removed stray literal backslashes before quote marks in
-modern_lens_note (the same YAML folded-scalar authoring bug found elsewhere in this PR).
+The quoted sentence ends at "many others," marked with a trailing ellipsis: the source's
+sentence continues into a sharper, different claim about those who lived without reason being
+hostile to Christ, matching pahc.quote.justin-reasonable-livers (the same source sentence, quoted
+from a different starting point for a different cell) - that further claim isn't part of what
+this record's gloss addresses. The quote marks in modern_lens_note match the source exactly.

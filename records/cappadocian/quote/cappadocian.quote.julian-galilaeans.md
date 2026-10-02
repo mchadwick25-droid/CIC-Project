@@ -42,12 +42,11 @@ relations:
 - type: associated-with
   target: cappadocian.dw.a-stranger-weather
 modern_rendering: >-
-  But if they think those writers were wrong about the gods we honor most,
-  let them go teach in the churches of the Galilaeans instead. Let them
-  explain Matthew and Luke there. After all, you Galilaeans obey those
-  books when you order people to stay away from temple worship.
+  But if they think those writers were wrong about the gods we honor most, let them go to
+  the churches of the Galilaeans to expound Matthew and Luke. That is because you
+  Galilaeans obey those books when you order people to stay away from temple worship.
 ---
-Verified verbatim 2026-08-31 directly against the vendored
+Verified verbatim directly against the vendored
 julian_letters-1-73_wright1923.txt (Letter 36, the Rescript on Christian
 Teachers, confirmed present in full per that file's own header note). No
 wording added, dropped, or reordered.
@@ -62,7 +61,4 @@ paired dw (cappadocian.dw.a-stranger-weather) names his material as his
 own telling throughout, the same discipline cappadocian.story.julian-schools
 already applies.
 
-MODERN RENDERING AUTHORED (2026-08-31, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

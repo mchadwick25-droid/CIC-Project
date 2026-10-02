@@ -63,18 +63,15 @@ modern_contrast: >-
   own logic (what an already-Christian state may fund), not as a debate between a neutral state and
   two private religions.
 ---
-A registry-append story closing the legacy build's own flagged gap
-(Open_Gaps item 6: no Registry row for the Altar of Victory
+A registry-append story closing a flagged gap in this world's own
+Registry (no row for the Altar of Victory
 controversy despite Doc_05 SS5 naming it real and central): the
 vendored npnf210 prints Symmachus's Memorial with Ambrose's replies,
 so the episode enters this build fully sourced. Symmachus's Memorial
-gained its own source record at review (Opus canon-structure pass,
-2026-08-21), separate from ijc.source.ambrose-epistles - Symmachus is a
+has its own source record, separate from ijc.source.ambrose-epistles - Symmachus is a
 distinct, non-Christian author, not Ambrose, even though both texts
-share one vendored file. Corrected at review
-(Opus canon-structure pass, 2026-08-21): retagged from F3-I (a loose
-association - none of that cell's own questions concern this episode)
-to F3-E (did Constantine corrupt the church - did the empire change
+share one vendored file. This story carries F3-E (did Constantine
+corrupt the church - did the empire change
 what you were), which this episode answers directly: a pagan senator's
 petition loses because the church now commands the emperor's ear.
 canon_cells: F3-E, F6-T ("isn't Christianity too
@@ -83,4 +80,4 @@ cannot attain to so great a secret by one road" is that very question
 asked FROM the other side, in the world's own record, and the world's
 answer is on the record beside it).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

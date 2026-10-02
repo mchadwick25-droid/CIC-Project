@@ -13,21 +13,20 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented for Cassian's own position and for the controversy's existence and shape (Conf.
-    III.19, XIII.7, XIII.11, XIII.13, XIII.18; Augustine's report at Praed. ch. 2, row 15, context
-    only; Gennadius chs. LXXXV-LXXXVI; the editorial transmission record). CONTESTED, carried and
-    not resolved: (i) whether Vincent held the position - Heurtley's editorial reading of the
-    Commonitory's silence on Augustine's name (iii.i), against Heurtley's own stated doubt that 'the
-    express enunciation of it is nowhere to be found' (Doc_02 §1.3; Doc_08 3B-3); (ii) the relative
-    chronology of Conf. XIII and Augustine's replies (Chadwick vs. Casiday, Doc_01 §7); (iii) the
-    meaning of Cassian's 'co-operates'/'precedes' and the application of 'semi-Pelagian,' a label
-    present only in the editors' apparatus ([CT] at Doc_06 §3). Faustus's De gratia (row 24) is
-    post-window and its body unread; Lérins supplies no in-window attestation. CONFIDENCE/GRAVITY
-    CROSS-CHECK DIVERGENCE, in the unusual direction and stated rather than resolved (Doc_04 §3,
-    §5): evidential confidence (Documented) EXCEEDS the world-level organizing breadth Doc_04 can
-    demonstrate; the classification is held down by cross-node reach - Tours's corpus closed before
-    the question was posed - not by evidence, and 'a reviewer should not read "Supporting" as doubt
-    about the evidence.' The classification is provisional on the one-world-or-two question (Doc_04
-    §10 item 2), which this record does not touch.
+    III.19, XIII.7, XIII.11, XIII.13, XIII.18; Augustine's report at Praed. ch. 2, context only;
+    Gennadius chs. LXXXV-LXXXVI; the editorial transmission record). Contested, carried and not
+    resolved: (i) whether Vincent held the position - an editor's reading of the Commonitory's
+    silence on Augustine's name, against that same editor's own stated doubt that "the express
+    enunciation of it is nowhere to be found"; (ii) the relative chronology of Conf. XIII and
+    Augustine's replies; (iii) the meaning of Cassian's "co-operates"/"precedes" and the application
+    of "semi-Pelagian," a label present only in the editors' own apparatus. Faustus's De gratia is
+    post-window and its body unread; Lérins supplies no in-window attestation. A real divergence,
+    stated rather than resolved: evidential confidence here (Documented) exceeds the world-level
+    organizing breadth this world's own gravity survey can demonstrate; the classification is held
+    down by cross-node reach - Tours's corpus closed before the question was posed - not by
+    evidence, and this modest classification should not be read as doubt about the evidence itself.
+    The classification is provisional on the one-world-or-two question, which this record does not
+    touch.
 sources:
 - source_id: gallic.source.cassian-conferences-part-i
   locus: "III.19 (iv.iv.iv.xix): 'the beginning of our good will is given to us by the inspiration of the Lord ... but that it is in our own power to follow up the encouragement'"
@@ -94,50 +93,66 @@ relations:
   target: gallic.contested.beginning-of-good-will
 - type: associated-with
   target: gallic.contested.massilian-label
-name: "The grace-and-effort argument [SUPPORTING - provisional; Primary within the southern node]"
+- type: associated-with
+  target: gallic.quote.chaeremon-grace-requires-our-effort
+- type: associated-with
+  target: gallic.quote.without-grievous-blasphemy-all-men-to-be-saved
+- type: associated-with
+  target: gallic.quote.chaeremon-three-stages-of-grace
+- type: associated-with
+  target: gallic.quote.massilians-clung-to-their-views
+- type: associated-with
+  target: gallic.quote.not-i-but-the-grace-of-god-with-me
+name: "The grace-and-effort argument"
 classification: supporting
 description: >-
-  That human effort and free will are real and matter, argued under pressure from Augustine's later
-  teaching: 'the grace of God always co-operates with our will for its advantage' (Conf. XIII.13);
-  'how can we imagine without grievous blasphemy that He does not generally will all men, but only
-  some instead of all to be saved?' (XIII.7); the double error of those who assert either side 'more
-  widely than is right' (XIII.11); and the position's own declared limit - 'how God works all things
-  in us and yet everything can be ascribed to free will, cannot be fully grasped by the mind and
-  reason of man' (XIII.18). What the outside reported is Augustine's (Praed. ch. 2, context only);
-  what came back is known through Gibson's editorial prolegomena (Prosper's appeal; Celestine's
-  letter; Contra Collatorem 'an examination of the thirteenth Conference'; the Massilians who 'clung
-  to their views in spite of the authority of the Pope'); Gennadius independently attests the fight.
-  Tours: nothing - 'the absence is chronological before it is ecological.' AUTHOR GRAVITY FLAG
-  (Doc_04 §2.1, corrected at the Round 1 fix round and disclosed as such at §5): single-voice
-  (Cassian) within this world's own Native voices, and node-bound risk - Vincent's participation is
-  Contested and rests on editorial reading, Faustus is post-window as bishop and his text unread,
-  Gennadius and Augustine are reporters about the position rather than participants holding it.
-  SIX-TEST SUMMARY (Doc_04 §3): Repetition passes across streams (C, Gn, A, E, V-contested) but
-  within one node; Dependency passes (Doc_03's whole §5 cluster, Doc_01 §7's 'what it was refusing,'
-  the world's relationship to Augustine and Rome, and a transmission history in which a Conference
-  was redacted for orthodoxy depend on it); Formation passes in scope (Conf. XIII is Chaeremon's
-  answer to a formation question, but two Conferences of twenty-four, not the pervasive frame -
-  which is G7); Explanatory passes (Prosper, Celestine, Contra Collatorem, Faustus's De Gratia, the
-  Dionysius redaction, the Victorian editors' anxiety); Persistence FAILS across nodes,
-  chronologically confounded; Interaction passes with two '-' cells. CROSS-NODE: node-bound
-  (southern) - 'not evidence that Tours would have disagreed; evidence that the argument is not what
-  organized Tours.' CLASSIFICATION: SUPPORTING at world level (provisional); Primary within the
-  southern node - 'the most consequential provisional classification in the document.' Doc_01 §1
-  rightly calls it distinctive; 'distinctive is not the same as organizing broadly.' If Step 0 reads
-  Tours as an earlier phase of one continuous world the classification should be revisited upward
-  with the chronological confound weighed; if two strands, Article 21 fixes it at Supporting
-  regardless - carried here exactly as Doc_04 leaves it, not decided. CONFIDENCE/GRAVITY
-  CROSS-CHECK: divergence in the unusual direction - confidence exceeds demonstrable world-level
-  reach; stated, not resolved. FORCES NOTATION (Doc_04 §3; Doc_08 §5): intensified, then relocated -
-  the world's response to the pastoral problem of teaching grace, effort, and perseverance to monks
-  actually living the ascetic life; under Prosper and Celestine it intensified, and its carriers
-  relocated from monks addressing monks (Cassian, not later than 426) to a Lérins-formed bishop
-  writing at synodal commission (Faustus, c. 473-475); its transmission then fractured - Dionysius
-  Carthusianus's paraphrase 'omits all that savours of Semi-Pelagianism,' so the gravity reaches the
-  modern reader 'through a text one intermediary tried to remove it from.' Doc_08 §5 adds why it is
-  famous: from within, a remedy for pride at the summit of the formation manual (Inst. XII; 'Not I,
-  but the grace of God with me') that an outside report turned into 'the Massilian position' - a
-  name the world never used of itself.
+  Human effort and free choice are real, and they matter. This world argues that point under
+  pressure from Augustine's own later teaching on grace.
+
+  Cassian's own text states the position directly. He gives it through the teaching he attributes
+  to Abbot Chaeremon. God's grace always works together with a person's own will, for that will's
+  own good. But it sometimes waits on some real effort from the person before it is given (Conf.
+  XIII.13). To deny that God wants everyone saved, and not just some, Chaeremon says, would be a
+  grave blasphemy (Conf. XIII.7). Neither side of the argument should be pushed too far, Chaeremon
+  warns. Exactly how grace and free will fit together, in the end, is a question human reason cannot
+  fully answer (Conf. XIII.11, XIII.18). Elsewhere, Cassian's own manual for monks, in its
+  climactic book, gives plain advice. A monk who feels he is making progress should credit it all
+  to God's grace, and not to himself (Inst. XII.9).
+
+  What the wider Church heard about this teaching came mostly at second hand. Augustine himself
+  reports that the Gallic monks he is answering already grant one point: that God's grace goes ahead
+  of the human will. But they remain unsettled on the question of predestination. That is a report
+  from the other side, not this world's own voice. What is known of Rome's own reply survives only
+  at a distance - Prosper's appeal to the Pope, Celestine's letter to the Gallic bishops, a Roman
+  critique of Cassian's own thirteenth Conference. None of it comes from a text this world wrote
+  itself; it comes through a modern editor's own account of that history. Gennadius, writing on his
+  own, confirms only that a dispute between Cassian and Prosper existed at all. At Tours, there is
+  simply nothing on this question. The corpus there closed before it was ever raised.
+
+  At Lérins, the current runs the other way, though how far Vincent himself took part is genuinely
+  disputed. He quotes Pope Celestine's own words, that novelty must give way to old and settled
+  teaching. He reads those words as backing his own side. But nothing in his surviving text names
+  Augustine, or the fight itself, outright.
+
+  This argument is Cassian's own, within this world's own voices. No other Native voice in this
+  world independently holds it. Yet it matters enormously wherever it appears. Several other parts
+  of this world's own literature depend on it. It turned one whole Conference, out of twenty-four,
+  into a direct answer to a crisis in formation. And it explains a great deal of what survives about
+  Prosper, Celestine, and a Roman critique of Cassian himself. But it does not appear evenly across
+  this world's whole span. Tours has nothing to say about it, for reasons of plain timing, not
+  disagreement. For that reason, this record calls it a supporting idea at the level of the whole
+  world. Within the southern house alone, though, it is treated as the leading concern. The evidence
+  for the position is strong. Yet its reach across the whole world stays narrow. That gap is itself
+  a real and disclosed tension in how this record is classified. A reader should not mistake the
+  modest classification for any doubt about what Cassian and Chaeremon actually taught.
+
+  Under pressure from Rome, the argument grew stronger, and who carried it
+  changed too. It began as monks writing for other monks. It ended, a
+  generation later, with a bishop, trained at Lérins, writing at the order of
+  a church council. Inside this world's own literature, though, it began as
+  something much simpler. It was a remedy for the pride of a monk who feels,
+  at last, that he is making progress - offered long before anyone outside
+  gave it any name at all.
 manifestations:
 - "Conf. XIII: Germanus's scruple at morning service over whether effort accomplishes anything, and Chaeremon's two-sided answer ending in a declared limit of human reason (XIII.1, XIII.18)"
 - "Inst. XII.9-33: the monk who feels progress is to say 'Not I, but the grace of God with me'; 'not giving my own opinion, but that of the elders'; the work's closing sentence on grace"
@@ -147,37 +162,22 @@ manifestations:
 - "Faustus's prologue: a council gathered 'for the condemning of the error of predestination,' the treatise written at its commission (row 24, rough OCR, Inferential/Thin wording; post-window)"
 - "Dionysius Carthusianus's fifteenth-century paraphrase cutting Conf. XIII 'to make Cassian orthodox' (Gibson, editorial) - the gravity's fracture in transmission"
 ---
-Re-derived from the approved Doc_04 (§2.1 candidate G3 -> §3 G3 -> §8 row G3; Supporting,
-provisional; Primary within S). Interaction Matrix (Doc_04 §4, row/col G3): reinforcing (R) with G4
-('the position is defended AS antiquity against novelty (XIII.18; Vincent's title, at Heurtley's
-editorial reading)'), G5 ('Cassian's authority is that he heard Chaeremon; Prosper attacks "a man of
-priestly rank" without naming him'), G7 ('the argument exists to protect the formation program;
-XIII.18's "perfection of heart"'), and G8 ('Job the athlete (XIII.14); grace "require[s] ... some
-efforts of good will" (XIII.13)'); reshaping (S) with G1 (carriers move from monks to a bishop at
-synodal commission), G2 ('Chaeremon's received teaching becomes Gaul's own argument'), and G9 ('the
-argument draws Celestine's letter; Gallican defiance; institutional register shift') - all seven
-carried as associated-with, R/S character preserved here; no competing cell in this row. DECLARED
-ABSENCES, both the matrix's own '-' cells and both disclosed by Doc_04's own S7 fix: (1) G6 (virtus)
-- the matrix cell's own reasoning, quoted: 'shared lemma gratia only; Doc_03 6.2 keeps the senses
-apart'; and §6 point 3: G3 is southern, G6 northern, 'and its counter-teaching in the south (Conf.
-XV.7) is Egyptian, not a response to Tours - the two literatures do not address each other'; §6's
-closing weighs 'the fact that G3 and G6, the two gravities that give each node its particular
-character, never meet in any text' as 'the strongest [argument] for two' - input to Step 0, not a
-finding. (2) G10 (judgment), '- (thin)': the cell's own reasoning, quoted: 'co-located only in Comm.
-1 [2] ("judgment" and "new heretics"), and Vincent's link to G3 is Contested.' Neither absence is
-converted into a relation here. Forces-connection (Doc_08 §5, A.2 - eight forces, the largest set
-with G4's): produced from within by 2B-1 (gallic.force.received-programs-logic - 'the teaching as a
-remedy for pride at the manual's summit, before any report') - carried as enabled-by, reciprocal
-precondition-for on that record; intensified and named by 2A-1 (africa-and-rome-pressure), grounded
-by 1A-1 (egyptian-standard - 'the argument exists to defend the received program') and 1B-2
-(legitimacy-by-reception - pleaded as 'all the Catholic fathers'), fractured by 2B-2 (transmission -
-Dionysius; Gibson's headnotes), transformed in register by 3A-1 (synodal-commission), shaped in how
-it was remembered by 3B-3 (contest-over-antiquity - 'under the opponents' name for it'), and thinned
-on its Lérins side by 3B-2 (transmission-in-ending - Faustus in Latin only; Letters 225-226 absent)
-- all seven associated-with. Story and figure links closed at B-5: illustrated-by
-gallic.story.germanus-scruple-at-morning-service (the argument at the moment the tradition's own
-text says it began); associated-with gallic.figure.cassian (single-voice within Native voices) and
-gallic.figure.vincent (at Contested strength, per that record's own note) - reciprocal edges
-declared on each. Gennadius's Pelagianism charge against Sulpitius is NOT connected here, per
-gallic.figure.sulpitius's own note: Tours 'has no doctrine of grace, by chronology.' Canon_cells
-left empty, matching fleet convention for gravity/force records.
+Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Vincent
+of Lérins) and, for Augustine's own report, cic/texts/npnf105_augustine-anti-pelagian-writings.xml
+(Augustine of Hippo, context only). This description paraphrases the primary sources in its own
+voice; their verbatim wording,
+locus, and speaker attribution are each carried in full in
+gallic.quote.without-grievous-blasphemy-all-men-to-be-saved,
+gallic.quote.not-i-but-the-grace-of-god-with-me,
+gallic.quote.chaeremon-grace-requires-our-effort, gallic.quote.chaeremon-three-stages-of-grace,
+and gallic.quote.massilians-clung-to-their-views.
+
+This argument and the north's own virtus gravity never meet in any surviving text - the closest
+either comes is Cassian's own counter-teaching on miracle-working (Conf. XV.7), which is Egyptian
+teaching Cassian carries west, not a response to anything Tours wrote. Illustrated by
+gallic.story.germanus-scruple-at-morning-service, the moment the tradition's own text says the
+argument began. Gennadius's Pelagianism charge against Sulpitius is not connected here: Tours has
+no doctrine of grace, by plain chronology - its corpus closed before the question was raised. This
+gravity's own further relations to this world's other gravities and forces are declared in full in
+its own `relations[]` field above, reciprocal edges declared on each target. Canon_cells left
+empty, matching fleet convention for gravity/force records.

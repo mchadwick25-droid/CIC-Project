@@ -1,8 +1,9 @@
-# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
-# filename, matching AUTHORS.md's `basil`.
+# Pearse file, no ThML markup - author slug from filename, matching
+# AUTHORS.md's `basil`.
 source_file: basil_address-to-young-men_padelford1902.txt
 assignments:
-- work: Address to Young Men on the Right Use of Greek Literature
+- row_id: basil_address-to-young-men_padelford1902--address-to-young-men-on-the-right-use-of-greek-literature
+  work: Address to Young Men on the Right Use of Greek Literature
   author: basil
   locus: whole file - Outline, chapters I-X, closing paragraph, 68 footnotes
   atlas_ids:

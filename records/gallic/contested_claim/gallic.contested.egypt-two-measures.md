@@ -134,8 +134,8 @@ the build does record - the two nodes' incompatible measures - which is an in-wo
 the sense the Cappadocian precedent requires (cappadocian.contested.homoian-nicene-reversal's own
 distinction), not the build-classification question G2's split-mode qualifier already carries.
 
-Also re-read directly this pass: Conf. XV.7 (iv.v.vi.vii, opening and the exorcist sentence at file line
-39904), Dial. II.5 (Postumianus as speaker - Doc_08 Round 1 finding 5's correction confirmed against the
+Also read directly: Conf. XV.7 (iv.v.vi.vii, opening and the exorcist sentence at file line
+39904), Dial. II.5 (Postumianus as speaker, confirmed against the
 file), and Dial. III.17's opening. Everything else rests on Doc_04's verified reads, hence
 verified-via-authority at B. Dial. I.26 is named as Excluded (Registry row 4) per Doc_04 section 2.3 and
 is not cited in sources[]; Salvian VIII.4 is not cited, Doc_04 having found it "reference point only,

@@ -26,6 +26,13 @@ text: >-
   evenness and roundness required. But if anyone tries to finish it without ascertaining its centre—though
   with the utmost confidence in his art and ability, it is impossible for him to keep the circumference
   even, without any error...
+modern_rendering: >-
+  So a monk's whole attention should be fixed on one point. Every thought that rises and circles in
+  his mind should be firmly held to that one point: the remembrance of God. Think of a builder
+  raising a round vault. He must constantly draw a line out from its exact center. That fixed
+  standard lets him work out, by the rules of building, the evenness and roundness the vault needs.
+  But suppose someone tries to finish the vault without first fixing its center. Even with great
+  confidence in his skill and ability, he cannot keep the curve even, without some error...
 speaker_or_author: Abbot Abraham of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-
@@ -41,18 +48,15 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
-47378. DISCLOSED: the excerpt stops mid-sentence at "without any error"
+Verified verbatim against the vendored file at npnf211 line
+47378. The excerpt stops mid-sentence at "without any error"
 - the file continues "or to find out simply by looking at it how much he
 has taken off by his mistake from the beauty of real roundness, unless
 he always has recourse to that test of truth" - and the ANF's inline
 Latin gloss "Unius puncti lege." further down is outside the excerpt.
-
-Quote-verbatim gate fix (2026-09-22): two defects, both now fixed. First, undisclosed: the record had
-silently dropped a real clause mid-sentence ("though with the utmost confidence in his art and
-ability") and substituted a comma for the source's own em dash - restored, real content, not
-apparatus. Second, the already-disclosed truncation at "without any error" had no ellipsis mark in the
-`text` field itself - added. No other wording altered.
+The `text` field marks that truncation with an ellipsis. It also carries
+the source's own clause "though with the utmost confidence in his art
+and ability" and the source's own em dash, in full.
 
 WHAT THIS MOVES. desert.term.nepsis rested on the Apophthegmata and
 Evagrius, both unreadable, so this world could not quote a line about

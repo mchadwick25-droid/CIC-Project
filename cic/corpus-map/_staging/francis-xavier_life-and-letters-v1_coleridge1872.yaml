@@ -1,0 +1,16 @@
+source_file: francis-xavier_life-and-letters-v1_coleridge1872.txt
+
+assignments:
+  - row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i
+    work: "The Life and Letters of St. Francis Xavier, Vol. I"
+    author: francis-xavier
+    locus: "whole text - university years through the Malacca/Moluccas mission, 1541-1548"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Compiled by Henry James Coleridge, S.J. (1872), embedding extensive
+      Xavier-Ignatius correspondence and Xavier's own letters from the
+      India/Fishery Coast and Malacca/Moluccas mission. Companion to
+      Vol. II (Japan/China years).

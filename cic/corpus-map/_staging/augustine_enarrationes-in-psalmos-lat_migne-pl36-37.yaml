@@ -1,7 +1,8 @@
 source_file: augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
 
 assignments:
-  - work: "Augustine's Expositions on the Psalms (Enarrationes in Psalmos), complete, Psalms 1-150"
+  - row_id: augustine_enarrationes-in-psalmos-lat_migne-pl36-37--augustine-s-expositions-on-the-psalms-enarrationes-in
+    work: "Augustine's Expositions on the Psalms (Enarrationes in Psalmos), complete, Psalms 1-150"
     author: augustine
     locus: "whole file; Migne PL 36 (Psalms 1-79) and PL 37 (Psalms 80-150) bound in one scan"
     atlas_ids:
@@ -12,7 +13,7 @@ assignments:
       Latin original (Migne's 1861 Maurist-text printing, not a modern
       critical edition) standing behind the already-vendored NPNF1-08 English
       translation (Registry row 20) -- this world's single largest vendored work.
-      Vendored 2026-09-08; not a Manifest G-item, closing a prior total absence of
+      Not a Manifest G-item, closing a prior total absence of
       an original-language witness. One appendix (an alternate Psalm 14
       exposition) is flagged by the Maurist editors themselves as not Augustine's
       own -- see this file's own header.

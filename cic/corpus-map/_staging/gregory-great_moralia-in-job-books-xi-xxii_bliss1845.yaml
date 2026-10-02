@@ -1,0 +1,17 @@
+source_file: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
+
+assignments:
+  - row_id: gregory-great_moralia-in-job-books-xi-xxii_bliss1845--morals-on-the-book-of-job-moralia-in-job-books-xi-xxii
+    work: "Morals on the Book of Job (Moralia in Job), Books XI-XXII"
+    author: gregory
+    locus: "whole text - Vol. II, Parts III-IV, Books XI-XXII"
+    atlas_ids:
+      - roman-church-gregorian
+    role: tradition
+    confidence: assigned
+    note: >
+      Second of four parts that together complete the
+      whole Moralia (Books I-XXXV, no gaps, no overlaps) - see
+      gregory-great_moralia-in-job-books-i-x_bliss1844.yaml's own note for
+      the full set and the dossier reference. Tradition per this entry's own
+      standing rule for Gregory's own voice.

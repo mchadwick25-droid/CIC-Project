@@ -42,7 +42,7 @@ field lets a term record mark specific forms "ordinary"; those alone
 fall back to the OLD citation-anchored rule (fire only inside a sentence
 the turn already cited to this same term record) - scoped per-form, not
 reintroduced project-wide, so it never reopens the zero-fires failure
-the 2026-08-30 ruling fixed. A form the field doesn't name, and every
+this rule fixed. A form the field doesn't name, and every
 term record fleet-wide that predates the field, defaults to "technical"
 - today's exact behavior, unchanged.
 """
@@ -109,7 +109,7 @@ def _form_kind(term_record: dict, form: str) -> str:
 
 
 def _ordinary_form_match(pattern: str, flags: int, text: str, own_cited_sentences: list[str]) -> tuple[int, str] | None:
-    """The pre-2026-08-30 citation-anchored rule, scoped to one form: only
+    """The prior citation-anchored rule, scoped to one form: only
     a match sitting inside a sentence this turn already cited to the
     form's own term record counts. `own_cited_sentences` are that
     record's own citation sentences (already filtered by the caller);
@@ -139,7 +139,8 @@ def find_glosses_used(text: str, citations: list[dict], repository_records: dict
     engine.m4.name_bridge.find_figures_used:
 
     - Word-boundary, case-insensitive; matched_name is the text's own
-      substring (the frontend locates it with a plain indexOf).
+      substring, and text_start is where it begins in `text` (read by
+      engine.m4.transparency_plan to place the word's own mark).
     - Two records tying on the exact same (position, matched text) - e.g.
       alx.term.baptism's "photismos" piece against alx.term.photismos
       itself - resolve deterministically to the lowest id, consuming one
@@ -182,13 +183,14 @@ def find_glosses_used(text: str, citations: list[dict], repository_records: dict
     hits.sort(key=lambda h: h[0])
 
     out = []
-    for _pos, record, matched_name in hits:
+    for pos, record, matched_name in hits:
         sentence = next((c for c in citations if matched_name in c.get("sentence", "")), None)
         sourced_by = [source for card in (sentence.get("sources") or [] if sentence else []) for source in card["sources"]]
         out.append(
             {
                 "id": record["id"],
                 "matched_name": matched_name,
+                "text_start": pos,
                 "plain_meaning": record.get("plain_meaning"),
                 "quick_meaning": record.get("quick_meaning"),
                 "translational_sense": (record.get("senses") or {}).get("translational"),

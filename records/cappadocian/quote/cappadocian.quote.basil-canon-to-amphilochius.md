@@ -49,15 +49,15 @@ relations:
 - type: associated-with
   target: cappadocian.dw.power-and-its-discipline
 modern_rendering: >-
-  If a man takes a wife by seduction, whether secretly or by force, he is
-  guilty of fornication. The penalty for that is four years. In the
-  first year he is barred from the services entirely and must stand
-  weeping at the church door. In the second, he may come in to hear the
-  sermon. In the third, he moves into the penitents' stage. In the
-  fourth, he stands with the congregation but still does not receive
-  communion. Only after that is he readmitted to the Eucharist.
+  If a man takes a wife by seduction, whether secretly or by force, he must be held guilty
+  of fornication. The punishment for fornicators is fixed at four years. In the first
+  year, they must be expelled from prayer, and weep at the door of the church. In the
+  second, they may be received to hear the sermon. In the third, they may be received to
+  penance. In the fourth, they may be received to standing with the people, while they
+  are still withheld from the oblation. Finally, they may be admitted to the communion of
+  the good gift.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter CXCIX, headed in the file
 itself "Canonica Secunda" / "To Amphilochius, concerning the Canons",
 Canon XXII, lines 36326-36343, id="ix.cc-p21", grep -n -i "canon" and a
@@ -83,7 +83,4 @@ citation note; this canon was chosen instead because its graded, staged
 penalty is the sharper, most literal match to the dw's own three-part
 claim.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own standing
-quote discipline: the spoken form is a modern-English translation, never
-the archaic original; the original stays as the record's own text field,
-shown at Level 3).
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

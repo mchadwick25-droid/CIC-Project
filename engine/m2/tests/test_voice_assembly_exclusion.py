@@ -1,6 +1,6 @@
 """world_front and facilitator_brief must NEVER reach the Representative's
-own voice assembly (Website V2 world_front design, approved to proceed
-2026-09-19). Proven here, not assumed, against every path that could
+own voice assembly (Website V2 world_front design, approved to proceed).
+Proven here, not assumed, against every path that could
 possibly carry a record type into a live turn:
 
   - build_prompt / build_capsule / build_chunks: allowlists

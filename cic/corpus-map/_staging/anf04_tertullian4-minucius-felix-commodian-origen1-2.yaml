@@ -1,5 +1,3 @@
-# Worker notes, 2026-08-26.
-#
 # CCEL DC.Creator for this volume: commodian, felix, origen, tertullian. ANF
 # div1s are author sections: 3 Tertullian Part Fourth, 4 Minucius Felix,
 # 5 Commodianus, 6 Origen. The unattributed div1 "Introductory Notice." in
@@ -20,7 +18,8 @@
 # a primary document of the Origenist controversy, not 19th-c. editorial matter.
 source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 assignments:
-- work: On the Pallium (De Pallio)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-the-pallium-de-pallio
+  work: On the Pallium (De Pallio)
   author: tertullian
   locus: div2 3.2 - On the Pallium
   atlas_ids:
@@ -31,7 +30,8 @@ assignments:
     markers in the text.
 
     '
-- work: On the Apparel of Women (De Cultu Feminarum)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-the-apparel-of-women-de-cultu-feminarum
+  work: On the Apparel of Women (De Cultu Feminarum)
   author: tertullian
   locus: div2 3.3 - On the Apparel of Women
   atlas_ids:
@@ -41,7 +41,8 @@ assignments:
   note: 'Disciplinary treatise on dress and adornment; no New Prophecy markers in the text.
 
     '
-- work: On the Veiling of Virgins (De Virginibus Velandis)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-the-veiling-of-virgins-de-virginibus-velandis
+  work: On the Veiling of Virgins (De Virginibus Velandis)
   author: tertullian
   locus: div2 3.4 - On the Veiling of Virgins
   atlas_ids:
@@ -54,7 +55,8 @@ assignments:
     appeals - provisional because the work never names the movement.
 
     '
-- work: To His Wife (Ad Uxorem)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--to-his-wife-ad-uxorem
+  work: To His Wife (Ad Uxorem)
   author: tertullian
   locus: div2 3.5 - To His Wife
   atlas_ids:
@@ -65,7 +67,8 @@ assignments:
     markers in the text.
 
     '
-- work: On Exhortation to Chastity (De Exhortatione Castitatis)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-exhortation-to-chastity-de-exhortatione-castitatis
+  work: On Exhortation to Chastity (De Exhortatione Castitatis)
   author: tertullian
   locus: div2 3.6 - On Exhortation to Chastity
   atlas_ids:
@@ -78,7 +81,8 @@ assignments:
     because the treatise is transitional rather than openly sectarian.
 
     '
-- work: On Monogamy (De Monogamia)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-monogamy-de-monogamia
+  work: On Monogamy (De Monogamia)
   author: tertullian
   locus: div2 3.7 - On Monogamy
   atlas_ids:
@@ -91,7 +95,8 @@ assignments:
     of it.
 
     '
-- work: On Modesty (De Pudicitia)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-modesty-de-pudicitia
+  work: On Modesty (De Pudicitia)
   author: tertullian
   locus: div2 3.8 - On Modesty
   atlas_ids:
@@ -104,7 +109,8 @@ assignments:
     Cyprianic and Donatist disputes later fought over - noted here, not assigned there.
 
     '
-- work: On Fasting, in Opposition to the Psychics (De Jejunio)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-fasting-in-opposition-to-the-psychics-de-jejunio
+  work: On Fasting, in Opposition to the Psychics (De Jejunio)
   author: tertullian
   locus: div2 3.9 - On Fasting
   atlas_ids:
@@ -116,7 +122,8 @@ assignments:
     Montanus. Among the most explicitly Montanist works in the corpus.
 
     '
-- work: De Fuga in Persecutione (Flight in Persecution)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--de-fuga-in-persecutione-flight-in-persecution
+  work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
   locus: div2 3.10 - De Fuga in Persecutione
   atlas_ids:
@@ -129,7 +136,8 @@ assignments:
     the rigorist position and standard dating rather than internal markers - hence provisional.
 
     '
-- work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--appendix-of-poems-ascribed-to-tertullian-strains-of-jonah
+  work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
     Five Books in Reply to Marcion)
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
@@ -141,18 +149,18 @@ assignments:
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
-    Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
-    pieces belong. RULED 2026-08-26, under a principle rather than one by one - nine works
-    across six entries were asking the same question, whether a spurious corpus files under
-    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
-    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
-    shelf stands: that is how the corpus presents it and how a reader will look for it. And
-    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
-    name that is not its author''s is a pseudepigraphon by definition. The two together say
-    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
-    can reverse this in one pass if he wants the spurious corpora detached from their attributed
-    authors instead.'
-- work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
+    Whether spurious verse files under tertullian at all, and where non-Marcion pieces belong,
+    comes down to one principle: nine works across six entries ask the same question, whether
+    a spurious corpus files under the attributed name at all. It does, and it also files as
+    what it is. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it and
+    how a reader will look for it. apocryphal-and-pseudepigraphal-literature is added, because
+    a work circulating under a name that is not its author''s is a pseudepigraphon by definition.
+    The two together say the whole truth - where it sits, and what it is - without re-attributing
+    anything. This can be reversed in one pass if the spurious corpora should be detached from
+    their attributed authors instead.'
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--appendix-of-poems-ascribed-to-tertullian-strains-of-jonah-2
+  work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
     Five Books in Reply to Marcion)
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
@@ -163,52 +171,54 @@ assignments:
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
-    Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
-    pieces belong.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
-- work: The Octavius of Minucius Felix
+    floor material only as `register: etic`. Whether spurious verse files under tertullian
+    at all, and where non-Marcion pieces belong, comes down to one principle: nine works
+    across six entries ask the same question, whether a spurious corpus files under the
+    attributed name at all. It does, and it also files as what it is. Brief 6.2 says derive
+    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
+    shelf stands: that is how the corpus presents it and how a reader will look for it.
+    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
+    name that is not its author''s is a pseudepigraphon by definition. The two together say
+    the whole truth - where it sits, and what it is - without re-attributing anything. This
+    can be reversed in one pass if the spurious corpora should be detached from their attributed
+    authors instead.'
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--the-octavius-of-minucius-felix
+  work: The Octavius of Minucius Felix
   author: felix
   locus: div2 4.3 - The Octavius of Minucius Felix
   atlas_ids:
   - latin-apologists
   role: tradition
   confidence: assigned
-  note: 'Earliest surviving Latin apologetic dialogue (Rome/Ostia, late 2nd-3rd c.). RULED 2026-08-27:
-    latin-apologists (I.43) was minted for this gap, on the I.35 precedent - the Greek apologists had
+  note: 'Earliest surviving Latin apologetic dialogue (Rome/Ostia, late 2nd-3rd c.). latin-apologists
+    (I.43) was minted for this gap, on the I.35 precedent - the Greek apologists had
     been registered on the same reasoning and the Latin case had simply never been made. Note kept for
     later use: the first half, Caecilius'' speech, is one of the fullest surviving statements of the pagan
     case against Christians - strong context value even though the work itself is Christian.
 
 
     '
-- work: The Instructions of Commodianus (Instructiones)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--the-instructions-of-commodianus-instructiones
+  work: The Instructions of Commodianus (Instructiones)
   author: commodian
   locus: div2 5.2 - The Instructions of Commodianus
   atlas_ids:
   - latin-apologists
   role: tradition
   confidence: provisional
-  note: 'Latin Christian acrostic verse instruction, moved to latin-apologists 2026-08-27 with the rest
-    of the Latin apologetic body. PROVISIONAL, NOT ASSIGNED, and the reason is the date rather than the
+  note: 'Latin Christian acrostic verse instruction, placed with the rest
+    of the Latin apologetic body under latin-apologists. PROVISIONAL, NOT ASSIGNED, and the reason is the date rather than the
     shelf: proposals run from the 3rd century to the 5th, and only the early ones put him inside this
     entry''s window. The entry is right if the usual 3rd-c. North African dating holds and wrong if the
     5th-c. Gallic one does. Nothing in the corpus settles it.
 
 
     '
-- work: De Principiis (On First Principles)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--de-principiis-on-first-principles
+  work: De Principiis (On First Principles)
   author: origen
   locus: div2 6.5 - Origen De Principiis
   atlas_ids:
@@ -220,7 +230,8 @@ assignments:
     parallel where they survive.
 
     '
-- work: Prologue of Rufinus (to De Principiis)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis
+  work: Prologue of Rufinus (to De Principiis)
   author: rufinus
   locus: div2 6.4 - Prologue of Rufinus
   atlas_ids:
@@ -234,7 +245,8 @@ assignments:
     transmission and to the Hieronymian entry whose central quarrel it ignited.
 
     '
-- work: A Letter to Origen from Africanus About the History of Susanna
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-to-origen-from-africanus-about-the-history-of
+  work: A Letter to Origen from Africanus About the History of Susanna
   author: juliusafricanus
   locus: div2 6.6
   atlas_ids:
@@ -247,7 +259,8 @@ assignments:
     section.
 
     '
-- work: A Letter from Origen to Africanus
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-africanus
+  work: A Letter from Origen to Africanus
   author: origen
   locus: div2 6.7
   atlas_ids:
@@ -258,7 +271,8 @@ assignments:
     Alexandrian textual scholarship.
 
     '
-- work: A Letter from Origen to Gregory
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-gregory
+  work: A Letter from Origen to Gregory
   author: origen
   locus: div2 6.8
   atlas_ids:
@@ -270,7 +284,8 @@ assignments:
     the same teacher-student relationship.
 
     '
-- work: Origen Against Celsus (Contra Celsum)
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--origen-against-celsus-contra-celsum
+  work: Origen Against Celsus (Contra Celsum)
   author: origen
   locus: div2 6.9 - Origen Against Celsus (8 books, ~255k words)
   atlas_ids:

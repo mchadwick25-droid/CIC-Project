@@ -162,6 +162,7 @@ def open_table_round(
     track_a_last: dict | None,
     rounds_completed: int,
     anachronistic_term_ids: set,
+    daily_cap_reached: bool = False,
 ) -> RoundOpening:
     """Resolve one gated participant message into the round it opens.
     Mirrors engine.m4.turn.run_turn's branches with the table's own
@@ -185,6 +186,14 @@ def open_table_round(
     # call is spent). C4: the table unit is completed ROUNDS - see
     # TABLE_SESSION_ROUND_CAP's own comment for the resolution and its
     # measured basis.
+    if not is_acute_crisis and daily_cap_reached:
+        return RoundOpening(
+            routing_action="session_cap_turn",
+            **{**common, "routing_reason": "visitor daily message cap reached"},
+            facilitator_events=[facilitator_turns.daily_cap_turn()],
+            voices_speak=False,
+            session_capped=True,
+        )
     if not is_acute_crisis and rounds_completed >= TABLE_SESSION_ROUND_CAP:
         return RoundOpening(
             routing_action="session_cap_turn",
@@ -213,10 +222,9 @@ def open_table_round(
 
     if action == "safety_turn":
         # Track B non-acute: a dependency dynamic, not a crisis - no
-        # resources and no session freeze, same as the interview. Governed
-        # (Program-Spec SS8, amendment 2026-09-20): the voices are silenced
-        # here exactly as at is_acute_crisis above, not kept speaking
-        # alongside the check the way this branch used to.
+        # resources and no session freeze, same as the interview
+        # (Program-Spec SS8). The voices are silenced here exactly as at
+        # is_acute_crisis above, not kept speaking alongside the check.
         return RoundOpening(
             routing_action=action,
             **common,
@@ -236,7 +244,7 @@ def open_table_round(
 
     if action == "bridge_turn":
         fired = _fired_terms(gate_run.gate, anachronistic_term_ids)
-        facilitator_event, _underlying_subject = facilitator_turns.bridge_turn(fired)
+        facilitator_event, _underlying_subject = facilitator_turns.bridge_turn(fired, load_fleet_records())
         # Same record-what-the-voices-were-handed discipline as the
         # interview's bridge branch: the gate payload's directive is updated
         # to the barred-terms directive BEFORE the caller writes it, so the

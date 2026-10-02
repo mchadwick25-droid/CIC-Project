@@ -1,0 +1,21 @@
+source_file: faber_memoriale-lat_1873.txt
+
+assignments:
+  - row_id: faber_memoriale-lat_1873--memoriale-beati-petri-fabri
+    work: "Memoriale Beati Petri Fabri"
+    author: faber
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Faber's own spiritual diary - genuine primary Faber material, not
+      a biography quoting him. This world's corpus previously held only
+      the Boero secondary biography for Faber. Per the Library's
+      non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

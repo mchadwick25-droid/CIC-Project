@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: pelagianism
 works:
-- work: Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)
+- row_id: npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas
+  work: Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)
   author: augustine
   locus: div1 18 — A Treatise Against Two Letters of the Pelagians (4 books)
   role: tradition
@@ -14,27 +15,28 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: 'Letters of St. Augustin: the Pelagian correspondence'
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-pelagian-correspondence
+  work: 'Letters of St. Augustin: the Pelagian correspondence'
   author: augustine
   locus: div3 letters CXLVI, CXCI (2 letters, ~1,182 words)
   role: context
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
-    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
-    exchange, exactly) and by keyword count where it does not, taking the natural break in
-    the distribution rather than a chosen threshold. The four parts partition the 168 with
-    no overlap. One extraction bug was caught and fixed before any of this was written: the
-    last letter''s span ran to end-of-file and swallowed the indexes, reading CCLXIX as 15,011
-    words when it is 238. It had put a Pelagian sub-corpus of 16,193 words on the map that
-    does not exist. WITH THAT FIXED THIS SUB-CORPUS IS ALMOST NOTHING: two letters, 1,182
-    words - Letter CXLVI to Pelagius himself (204 words, cordial, before the controversy)
-    and Letter CXCI to Sixtus. The original note assumed ''anti-Pelagian letters'' formed
-    a real body inside this volume; measured, they do not. The substance is in npnf105, which
-    is where the anti-Pelagian treatises are and where pelagianism draws 15 works from. Recorded
-    because an absence someone expected is worth as much as a presence.'
+  note: 'Derived from the volume''s own markup rather than from a reading list: each letter
+    is a div3 carrying n= and type="Letter", 168 of them, and the sub-corpora are cut by ADDRESSEE
+    where the title names one (the Jerome exchange, exactly) and by keyword count where it
+    does not, taking the natural break in the distribution rather than a chosen threshold.
+    The four parts partition the 168 with no overlap. One extraction bug was caught and fixed
+    before any of this was written: the last letter''s span ran to end-of-file and swallowed
+    the indexes, reading CCLXIX as 15,011 words when it is 238. It had put a Pelagian sub-corpus
+    of 16,193 words on the map that does not exist. WITH THAT FIXED THIS SUB-CORPUS IS ALMOST
+    NOTHING: two letters, 1,182 words - Letter CXLVI to Pelagius himself (204 words, cordial,
+    before the controversy) and Letter CXCI to Sixtus. The original note assumed ''anti-Pelagian
+    letters'' formed a real body inside this volume; measured, they do not. The substance
+    is in npnf105, which is where the anti-Pelagian treatises are and where pelagianism draws
+    15 works from. Recorded because an absence someone expected is worth as much as a presence.'
   source_file: npnf101_augustine-confessions-letters.xml
-- work: On Grace and Free Will (De gratia et libero arbitrio)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-grace-and-free-will-de-gratia-et-libero-arbitrio
+  work: On Grace and Free Will (De gratia et libero arbitrio)
   author: augustine
   locus: div1 19 — A Treatise on Grace and Free Will
   role: tradition
@@ -45,7 +47,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Man's Perfection in Righteousness (De perfectione justitiae hominis)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-man-s-perfection-in-righteousness-de-perfectione
+  work: On Man's Perfection in Righteousness (De perfectione justitiae hominis)
   author: augustine
   locus: div1 13 — A Treatise Concerning Man's Perfection in Righteousness
   role: tradition
@@ -55,7 +58,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Marriage and Concupiscence (De nuptiis et concupiscentia)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-marriage-and-concupiscence-de-nuptiis-et-concupiscentia
+  work: On Marriage and Concupiscence (De nuptiis et concupiscentia)
   author: augustine
   locus: div1 16 — On Marriage and Concupiscence (2 books)
   role: tradition
@@ -65,7 +69,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Nature and Grace (De natura et gratia)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-nature-and-grace-de-natura-et-gratia
+  work: On Nature and Grace (De natura et gratia)
   author: augustine
   locus: div1 12 — A Treatise on Nature and Grace
   role: tradition
@@ -75,7 +80,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Rebuke and Grace (De correptione et gratia)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia
+  work: On Rebuke and Grace (De correptione et gratia)
   author: augustine
   locus: div1 20 — A Treatise on Rebuke and Grace
   role: tradition
@@ -86,19 +92,17 @@ works:
     provoked the Gallic monks'' own pastoral objections (reported to Augustine by Prosper
     of Aquitaine and a correspondent named Hilary) that div1 21''s two treatises directly
     answer — the opponent side of that world''s own Gravity Discovery (Doc_04) needs this
-    as the provoking text, not only the two replies. Re-pointed 2026-09-08 for the Gallic
-    monastic-ascetic entry (era 2, c. 360-450), added 2026-08-26. **Corrected 2026-09-08**
-    (Doc_02 review Round 1, finding S25): this Hilary''s identity is Contested, not Hilary
-    of Arles — this world''s own vendored Commonitory introduction (npnf211) places Hilary
-    of Arles among the Massilian party being reported on, not among the reporters, and npnf105''s
-    own apparatus proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
-    §1.4). The prior correction (Doc_01 Round 2 finding N6a) was applied to this world''s
-    own corpus-map bucket but not propagated back to this staging file, the actual source
-    of the generated bucket — fixed here at the root.
+    as the provoking text, not only the two replies. This covers the Gallic monastic-ascetic
+    entry (era 2, c. 360-450). This Hilary''s identity is Contested, not Hilary of Arles —
+    this world''s own vendored Commonitory introduction (npnf211) places Hilary of Arles among
+    the Massilian party being reported on, not among the reporters, and npnf105''s own apparatus
+    proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
+    §1.4).
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Gift of Perseverance (De dono perseverantiae)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae
+  work: On the Gift of Perseverance (De dono perseverantiae)
   author: augustine
   locus: div1 21, div2 type=Book 'A Treatise on the Gift of Perseverance' (structure path
     21.3)
@@ -106,14 +110,14 @@ works:
   confidence: assigned
   note: '428/429, the companion and continuation of De praedestinatione sanctorum, transmitted
     as a separate work; the div2 is itself titled ''A Treatise''. Second half of the div1
-    21 split. Re-pointed 2026-09-08 on the same basis as the Predestination treatise above
-    — addressed to the same Prosper/Hilary audience, same controversy. **Corrected 2026-09-08**
-    (Doc_02 Round 1, S25): same Hilary-identity correction as the two rows above — Contested,
-    not "of Arles."
+    21 split, addressed to the same Prosper/Hilary audience and the same controversy as the
+    Predestination treatise above. Same Hilary-identity note as the two rows above applies
+    here: Contested, not "of Arles."
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-grace-of-christ-and-on-original-sin-de-gratia-christi
+  work: On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)
   author: augustine
   locus: 'div1 15 — A Treatise on the Grace of Christ, and on Original Sin (two books: On
     the Grace of Christ; On Original Sin)'
@@ -124,7 +128,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-merits-and-forgiveness-of-sins-and-on-the-baptism-of
+  work: On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum
     meritis et remissione)
   author: augustine
   locus: div1 10 — A Treatise on the Merits and Forgiveness of Sins, and on the Baptism of
@@ -137,7 +142,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Predestination of the Saints (De praedestinatione sanctorum)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione
+  work: On the Predestination of the Saints (De praedestinatione sanctorum)
   author: augustine
   locus: div1 21, Book I (structure path 21.2) — under the volume heading 'A Treatise on the
     Predestination of the Saints'
@@ -145,18 +151,18 @@ works:
   confidence: assigned
   note: '428/429, to Prosper and a correspondent named Hilary, against the objections of the
     Gallic monks. NPNF prints two distinct treatises under one div1; this is the first. Split
-    per the granularity rule for headings holding several distinct works. Re-pointed 2026-09-08:
-    directly addressed to Prosper of Aquitaine and Hilary — the opponent''s-side documentation
-    of the Gallic monastic-ascetic entry''s own controversy over grace and predestination
-    (era 2, c. 360-450, added to the census 2026-08-26). **Corrected 2026-09-08** (Doc_02
-    Round 1, S25): "Hilary of Arles" was wrong and is removed — see the correction note on
-    the Rebuke and Grace row above. This Hilary''s identity is Contested; npnf105''s own apparatus
-    favors "Hilary of Sicily," a genuine rival to this world''s own preferred Gallic-lay-monk
-    reading (Doc_01 §10), not a confirmation of it.
+    per the granularity rule for headings holding several distinct works. Directly addressed
+    to Prosper of Aquitaine and Hilary, this is the opponent''s-side documentation of the
+    Gallic monastic-ascetic entry''s own controversy over grace and predestination (era 2,
+    c. 360-450). This Hilary''s identity is Contested, not "Hilary of Arles" — see the identity
+    note on the Rebuke and Grace row above; npnf105''s own apparatus favors "Hilary of Sicily,"
+    a genuine rival to this world''s own preferred Gallic-lay-monk reading (Doc_01 §10), not
+    a confirmation of it.
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Proceedings of Pelagius (De gestis Pelagii)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-proceedings-of-pelagius-de-gestis-pelagii
+  work: On the Proceedings of Pelagius (De gestis Pelagii)
   author: augustine
   locus: div1 14 — A Work on the Proceedings of Pelagius
   role: tradition
@@ -167,7 +173,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Soul and its Origin (De anima et ejus origine)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-soul-and-its-origin-de-anima-et-ejus-origine
+  work: On the Soul and its Origin (De anima et ejus origine)
   author: augustine
   locus: div1 17 — A Treatise on the Soul and its Origin (4 books)
   role: tradition
@@ -179,7 +186,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Spirit and the Letter (De spiritu et littera)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-spirit-and-the-letter-de-spiritu-et-littera
+  work: On the Spirit and the Letter (De spiritu et littera)
   author: augustine
   locus: div1 11 — A Treatise on the Spirit and the Letter
   role: tradition
@@ -189,7 +197,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: Against the Pelagians
+- row_id: npnf206_jerome-principal-works--against-the-pelagians
+  work: Against the Pelagians
   author: jerome
   locus: div2 6.9 (three books, ~33,959 words)
   role: tradition

@@ -26,13 +26,7 @@ author: "Uncertain. Traditionally bound as an appendix to Clement of Alexandria'
   editor's own best guess is a Montanist compiler, not Clement -- though the editor does not rule out a
   Theodotus, only rules out identifying which one: 'it is hard to say precisely who of three or four
   named Theodotus (all heretics), may have made the compilation'."
-work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of notes on scriptural
-  texts, printed in this edition under the running title 'Excerpts of Theodotus; or, Selections from
-  the Prophetic Scriptures' and often cited as 'the Eclogues.' This is NOT the genuine Excerpta ex
-  Theodoto (the real Valentinian-teaching notebook of that name, which is not vendored in this
-  corpus). Despite the shared title, the vendored text carries no Valentinian technical vocabulary
-  and does not present itself as a record of Theodotus's teaching; 'our Pantænus' (one occurrence) is
-  the only substantive link to Clement or to Alexandria at all."
+work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of notes on scriptural texts, printed in this edition under the running title 'Excerpts of Theodotus; or, Selections from the Prophetic Scriptures' and often cited as 'the Eclogues.' This is NOT the genuine Excerpta ex Theodoto (the real Valentinian-teaching notebook of that name, which is not in this library). Despite the shared title, this text carries no Valentinian technical vocabulary and does not present itself as a record of Theodotus's teaching; 'our Pantænus' (one occurrence) is the only substantive link to Clement or to Alexandria at all."
 edition: "trans. Rev. William Wilson, M.A., Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml (div1 at line 3788)"
 kind: vendored
 rights_status: public-domain
@@ -40,18 +34,8 @@ attribution_status: "disputed by the edition's own editor; not securely Clement'
 discovery_channel: "found by the cross-world corpus assignment, which assigned it to this world; alx held four Clement sources and not this one, and had no source at all for the movement its own alx.force.gnostic-challenge is about (that gap is NOT closed by this record - see body)"
 external_ids: {ccel_volume: "anf08"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain); div1 "Excerpts of Theodotus" at line 3788.
-
-CORRECTED 2026-09-08, records/alx audit. This record formerly claimed the
-vendored text was Clement's own notebook of extracts from the Valentinian
-teacher Theodotus, and used that claim to argue this world holds one of
-only two genuine floor-movement voices in the whole corpus map. Direct
-inspection of the vendored body found no Valentinian vocabulary at all
-and confirmed the ANF editor's own headnote disowns the Clement
-attribution outright, prefering an unknown Montanist compiler. The two
-works only share a printed title in this 1886 edition; the actual
-Excerpta ex Theodoto is a different, real, not-vendored work.
 
 WHAT THIS MEANS FOR alx.force.gnostic-challenge. The gap this record was
 recruited to close - this world having no source in which Valentinian

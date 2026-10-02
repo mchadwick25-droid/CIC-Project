@@ -1,0 +1,22 @@
+source_file: wycliffite-bible_forshall-madden1850.txt
+
+assignments:
+  - row_id: wycliffite-bible_forshall-madden1850--the-wycliffite-bible-complete-edition-earlier-and-later
+    work: "The Wycliffite Bible (complete edition, Earlier and Later Versions)"
+    author: wycliffite-bible
+    locus: "whole text"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      The complete Wycliffite Bible, ed. Forshall & Madden (1850) - the
+      translation project's own collective product, filed under the
+      collective-body slug `wycliffite-bible` rather than an individual
+      name, since the Earlier and Later Versions are the work of a group
+      of translators over time, not Wyclif's own personal composition.
+      Around 250 manuscripts of this translation survive, more than of
+      any other Middle English text (per this world's own census entry).
+      Confirms this world's own Source Readiness Dossier §3 lead is
+      genuinely accessible, not just bibliographically real. A very
+      large file; word-count not yet extracted.

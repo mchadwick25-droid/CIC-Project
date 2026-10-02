@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: manichaeism
 works:
-- work: Of the Manichaeans (Alexander of Lycopolis)
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--of-the-manichaeans-alexander-of-lycopolis
+  work: Of the Manichaeans (Alexander of Lycopolis)
   author: alexander_lyc
   locus: div2 8.3
   role: context
@@ -19,7 +20,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Acts of the Disputation with the Heresiarch Manes (with the fragment of the same
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-acts-of-the-disputation-with-the-heresiarch-manes-with
+  work: The Acts of the Disputation with the Heresiarch Manes (with the fragment of the same
     disputation)
   author: archelaus
   locus: div2 7.3-7.4 - the Acts and the appended fragment, assigned as one work
@@ -38,7 +40,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Acts or Disputation Against Fortunatus the Manichaean
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean-2
+  work: Acts or Disputation Against Fortunatus the Manichaean
   author: augustine
   locus: div2 4.7 — Acts or Disputation Against Fortunatus the Manichæan
   role: context
@@ -52,7 +55,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: Against the Epistle of Manichaeus, Called Fundamental
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental-2
+  work: Against the Epistle of Manichaeus, Called Fundamental
   author: augustine
   locus: div2 4.8 — Against the Epistle of Manichæus, Called Fundamental
   role: context
@@ -64,7 +68,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: Concerning the Nature of Good, Against the Manichaeans
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans-2
+  work: Concerning the Nature of Good, Against the Manichaeans
   author: augustine
   locus: div2 4.10 — Concerning the Nature of Good, Against the Manichæans
   role: context
@@ -76,7 +81,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: On Two Souls, Against the Manichaeans
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans-2
+  work: On Two Souls, Against the Manichaeans
   author: augustine
   locus: div2 4.6 — On Two Souls, Against the Manichæans
   role: context
@@ -88,7 +94,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: On the Morals of the Catholic Church
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church-2
+  work: On the Morals of the Catholic Church
   author: augustine
   locus: div2 4.4 — On the Morals of the Catholic Church
   role: context
@@ -101,7 +108,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: On the Morals of the Manichaeans
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans-2
+  work: On the Morals of the Manichaeans
   author: augustine
   locus: div2 4.5 — On the Morals of the Manichæans
   role: context
@@ -114,7 +122,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: On the Profit of Believing (De Utilitate Credendi)
+- row_id: npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi-2
+  work: On the Profit of Believing (De Utilitate Credendi)
   author: augustine
   locus: div2 4.6 — On the Profit of Believing
   role: context
@@ -128,7 +137,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-- work: Reply to Faustus the Manichaean (Contra Faustum)
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum-2
+  work: Reply to Faustus the Manichaean (Contra Faustum)
   author: augustine
   locus: div2 4.9 — Reply to Faustus the Manichæan (33 books, ~176k words)
   role: context
@@ -142,7 +152,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: The Confessions
+- row_id: npnf101_augustine-confessions-letters--the-confessions-2
+  work: The Confessions
   author: augustine
   locus: div1 6 — The Confessions, esp. Books III-V
   role: context
@@ -150,14 +161,15 @@ works:
   note: 'Books III-V are a firsthand account of nine years as a Manichaean auditor — testimony
     about the movement''s teachers (Faustus by name), cosmology and appeal that the doctrinal-floor
     entry has from almost no other Latin source. Provisional because it is testimony embedded
-    in a Catholic conversion narrative, not a treatise about the movement; a reviewer may
-    prefer to let npnf104''s dedicated refutations carry this bucket alone.
+    in a Catholic conversion narrative, not a treatise about the movement; npnf104''s dedicated
+    refutations could carry this bucket alone instead.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf101_augustine-confessions-letters.xml
-- work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-against-marcionists-and-manichaeans-on-matt-xxvi-19-2
+  work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
   author: chrysostom
   locus: div1 11 — Against Marcionists and Manichaeans
   role: context
@@ -170,7 +182,8 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Against Mani
+- row_id: ephraim_prose-refutations_mitchell1912-1921--against-mani-2
+  work: Against Mani
   author: ephraim
   locus: Vol. II, as above
   role: context
@@ -181,7 +194,8 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- work: Discourses to Hypatius (Five Discourses Against the False Teachings)
+- row_id: ephraim_prose-refutations_mitchell1912-1921--discourses-to-hypatius-five-discourses-against-the-false-2
+  work: Discourses to Hypatius (Five Discourses Against the False Teachings)
   author: ephraim
   locus: Vol. I, as above
   role: context
