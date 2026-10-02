@@ -66,3 +66,13 @@ In both cases the message is never screened.
 **Not known.** The rate (small sample, one world), whether it happens in other worlds, and when it began. Replies are not stored in git, so history cannot date it. The route in each case was `voice_with_directive`, so this turn's private directive from `engine/m4/turn_prep.py` is involved or at least present. Cause not confirmed.
 
 **Next:** run the same probe in two more worlds before any change to a prompt or directive.
+
+## 6. Restating of the participant's words: Mark is removing it (2026-10-02)
+
+**Status:** IN PROGRESS, owned by Mark and the voice work, not this module. Follows entry 5.
+
+**Direction (Mark):** the Representative no longer restates the participant's question or statements before answering. Entry 5 stays open until a re-run shows replies open with the answer.
+
+**What this module needs from it:** a re-run of the same turn-1 probe (the opener message with and without a question) and the 3-turn free sample after the change, since the free allowance's first impression depends on it. The 3-turn sample's cost also changes if replies get shorter (entry 12).
+
+**Not done here:** no prompt, directive or engine file was edited by this module.
