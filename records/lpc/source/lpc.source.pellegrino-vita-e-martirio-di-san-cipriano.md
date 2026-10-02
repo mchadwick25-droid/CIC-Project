@@ -22,6 +22,7 @@ author: Michele Pellegrino (editor); Pontius the Deacon (author)
 work: 'Ponzio: Vita e martirio di San Cipriano (Alba: Edizioni Paoline, 1955)'
 edition: Edizioni Paoline, 1955 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3);
   in copyright as of 1955 in most jurisdictions, unlike Harnack's 1913 edition (row 40, now row 205)
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

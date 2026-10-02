@@ -19,6 +19,7 @@ work: 'Possidius of Calama: A Study of the North African Episcopate in the Age o
   Christian Studies (Oxford: Oxford University Press, 2008)'
 edition: Oxford University Press, 2008 -- consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

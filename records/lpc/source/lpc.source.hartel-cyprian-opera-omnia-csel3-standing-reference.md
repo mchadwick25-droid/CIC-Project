@@ -26,6 +26,7 @@ edition: NOT the base text of the vendored ANF05 translation (ANF05's own introd
   Pars I-II now vendored as row 191 (2026-09-05); Pars III now also vendored as row 194 (2026-09-08) --
   this row is kept as the standing reference to the edition as a whole; rows 191 and 194 carry the actually-committed
   files.
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

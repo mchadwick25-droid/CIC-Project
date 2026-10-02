@@ -21,6 +21,7 @@ relations: []
 author: Augustine of Hippo
 work: Letter XCIII (to Vincentius, a.d. 408 on the NPNF heading)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

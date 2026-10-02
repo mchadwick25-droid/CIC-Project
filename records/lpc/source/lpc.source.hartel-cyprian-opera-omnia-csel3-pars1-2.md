@@ -28,6 +28,7 @@ author: Wilhelm (Guilelmus) Hartel (editor); Cyprian of Carthage (author)
 work: S. Thasci Caecili Cypriani opera omnia, CSEL 3, Pars I (treatises, 1868) and Pars II (Epistulae
   I-LXXXI, 1871)
 edition: Vendored as cic/texts/cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

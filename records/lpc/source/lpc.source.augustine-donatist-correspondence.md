@@ -29,6 +29,7 @@ work: 'Letters -- the Donatist correspondence (11 of the vendored volume''s own 
   (lpc.source.augustine-on-baptism-against-the-donatists, lpc.source.augustine-answer-to-petilian)
   as `role: tradition`, so this cluster''s role differs from theirs.'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This cluster is documented in the corpus map's own
   staging file (cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml, whose atlas_ids is
   donatism alone) and was promoted into the main corpus map, as an entry of cic/corpus-map/donatism.yaml,

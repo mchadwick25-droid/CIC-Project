@@ -20,6 +20,7 @@ work: 'Retractationum libri II, CCSL 57 (Turnhout: Brepols, 1984)'
 edition: Brepols, 1984 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate. Knöll's own CSEL 36 edition of the same text (row 78) is the public-domain route, now vendored
   as row 209.
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

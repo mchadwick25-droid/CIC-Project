@@ -19,6 +19,7 @@ author: Annemaré Kotzé
 work: '''Reading Psalm 4 to the Manichaeans,'' Vigiliae Christianae 55 (2001): 119-136'
 edition: Vigiliae Christianae, 2001 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3);
   not a vendoring candidate
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

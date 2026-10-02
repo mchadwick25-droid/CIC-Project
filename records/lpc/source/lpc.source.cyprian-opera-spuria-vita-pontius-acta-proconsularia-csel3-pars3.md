@@ -24,6 +24,7 @@ author: Wilhelm (Guilelmus) Hartel (editor); disputed works transmitted under Cy
 work: Cyprian, Opera Spuria (disputed works transmitted under his name); Vita Caecilii Cypriani, attributed
   to Pontius the deacon; Acta Proconsularia Sancti Cypriani -- CSEL 3, Pars III
 edition: 'Vindobonae: C. Geroldi filius, 1871; vendored as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

@@ -24,6 +24,7 @@ relations: []
 author: Carl Hermann Bruder (editor); Augustine of Hippo (author)
 work: De Doctrina Christiana Libri Quatuor, et Enchiridion ad Laurentium (Maurist text, editio stereotypa)
 edition: 'Lipsiae: C. Tauchnitii, 1838; vendored as cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

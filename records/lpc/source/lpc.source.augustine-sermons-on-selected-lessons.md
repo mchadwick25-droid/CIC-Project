@@ -23,6 +23,7 @@ work: 'Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 w
   this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz
   find added 26 further sermons (published 1996; row 50), not represented here'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'
