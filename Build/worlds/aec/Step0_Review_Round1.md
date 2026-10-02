@@ -65,7 +65,7 @@ All three documents need SUBSTANTIAL REVISION. Every finding below was checked i
 
 **M4 (MEDIUM), Registry "Named acquisition gaps."** Refuses rows for sources it doesn't hold, contradicting the Template's own "every source currently known" instruction and this Registry's own rows 17–18 (Young, Kelly — also not held). Missing: the dossier's own §2 declined cross-links (Athanasius, Serapion, Malchion); §4's Diodore and Theodore/Mingana; Harkins 1979 (named in §9 with no row); census-named Wilken 1983, Meeks and Wilken 1978, Meyer's Palladius translation.
 
-**M5 (MEDIUM), §9.1.** "Logged to WANTS-REGISTER.md-style tracking" — nothing was logged, and no `worlds/aec/Open_Gaps_Tracking.md` exists. Reword the negative-search-result phrasing on the *Adversus Judaeos* translation to "not searched," which is accurate; a search was never actually attempted this session.
+**M5 (MEDIUM), §9.1.** "Logged to WANTS-REGISTER.md-style tracking" — nothing was logged, and no `Build/worlds/aec/Open_Gaps_Tracking.md` exists. Reword the negative-search-result phrasing on the *Adversus Judaeos* translation to "not searched," which is accurate; a search was never actually attempted this session.
 
 **M6 (MEDIUM), §6.** "The Anomoeans survive only through Chrysostom's framing" — but Eunomius's own *First Apology* and Philostorgius (Anomoean-sympathetic, via Photius) are vendored. Name them as own-voice candidates.
 

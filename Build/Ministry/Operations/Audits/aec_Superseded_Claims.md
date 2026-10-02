@@ -1,5 +1,7 @@
 # Superseded Claims — Antiochene Exegetical Christianity (Chrysostom-centered)
 
+Filed here on 2026-10-02. The documents named below are at `Build/worlds/aec/`, and the review files at `Build/worlds/aec/Step0_Review_Round<n>.md` and `Build/worlds/aec/Review-Artifacts/`. Section numbers and review-round names below are those of the documents as they stood before the filing.
+
 Companion to `Step0_Movement_Scope_Confirmation.md`, `Doc_01_World_Identification_Boundaries_Orientation.md`, `Doc_02_Source_Ecology.md`, and `Source_Registry.md`. It holds the claims those documents have withdrawn that a reader of the current text might otherwise expect to find in them, so the live documents themselves can state current claims only, per CLAUDE.md's "keep the live/canonical surfaces clean" rule (the same treatment `worlds/lpc/Doc_04_Superseded_Claims.md` established for this project).
 
 Entries record what was claimed, what was wrong with it, and which review round established that. They are not an account of any round's own full work — see `Review-Artifacts/RoundN_Library_Stage_Review.md` for that, and each document's own Document Log for the review sequence. Nothing here is a live claim.
