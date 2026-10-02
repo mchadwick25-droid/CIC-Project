@@ -1,6 +1,7 @@
 import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
+import { DoorNarration } from '../components/DoorNarration';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { ReadAloudControl } from '../components/ReadAloudControl';
 import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
@@ -54,6 +55,7 @@ function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: Con
 export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
   const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
   const readAloudAvailable = useReadAloudAvailability();
+  const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
 
   return (
     <div className="conversation">
@@ -94,6 +96,7 @@ export function Conversation({ world, turns, draft = '', sessionCode, closed, is
                     {j === 0 && turn.kind === 'bridge' && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
                   </p>
                 ))}
+                {turn.kind === 'door' && <DoorNarration worldKey={world.worldKey} participantTurns={participantTurns} />}
               </div>
             );
           }

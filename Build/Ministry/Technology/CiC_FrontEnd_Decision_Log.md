@@ -5227,3 +5227,42 @@ voices; Bill is general American English.
 ### Next action
 
 1. Mark listens on the live site.
+
+## 2026-10-02 — The Facilitator's welcome spoken in the one-to-one conversation
+
+**Decision.** The Facilitator's welcome for the conversation of one is spoken
+in a female host voice. Mark chose it by ear from four American female
+voices (Rachel, Sarah, Jessica, Laura). The multi-voice Table is left out for
+now: its welcome names whichever worlds are seated, so it cannot be recorded in
+advance the same way. Mark also asked that the welcome start by itself after a
+brief pause when the conversation page loads, and that it carry no speed control
+because it is short.
+
+**Settings, as printed by the run.** Voice `21m00Tcm4TlvDq8ikWAM`, model
+`eleven_v4`, stability 0.55, similarity 0.8, style 0.1, speaker boost on,
+64 kbps (`mp3_44100_64`).
+
+**Cost.** 3,555 characters across the eleven admitted worlds, 476 credits,
+plus 168 for the four samples. The text is built by `door_turn` itself in
+`Build/tools/generate_door_narration.py`, so the audio cannot drift from the
+transcript. Files are `cic-poc/frontend/public/audio/door/<world-key>.mp3`
+with a manifest of each text's fingerprint, voice and settings.
+
+**Wired.** A `DoorNarration` control sits under the door turn in the
+conversation screen. It starts after 1.2 seconds. A browser that refuses
+unprompted sound leaves a plain "Hear the welcome" button instead. It stops
+when the participant sends a message or leaves the screen, shows nothing if the
+file is missing, and carries the synthesized-voice note. The browser
+read-aloud control is cancelled when it starts, so the two never overlap.
+
+**Checked.** Component tests, the frontend suite and typecheck pass. In
+Chromium with the strict autoplay policy and the API stubbed, the file was
+fetched and the welcome began after the pause. It was not checked against the
+real backend, whose packages in this checkout lack their compiled files, or on
+an iPhone.
+
+### Next action
+
+1. Mark listens on the live conversation page, including on an iPhone.
+2. A welcome for the Table, and a greeting in each Representative's own voice,
+   stay open as separate decisions.
