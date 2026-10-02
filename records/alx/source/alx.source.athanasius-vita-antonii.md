@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
-work: "Vita Antonii (Life of Antony), c. 356-362 CE - hagiographic genre; the formation ideal it communicates is credible evidence, its miracle episodes are not historical reporting; desert-content world-attribution is CROSS-BUILD, held open with the Desert world"
+work: "Vita Antonii (Life of Antony), c. 356-362 CE - hagiographic genre; the formation ideal it communicates is credible evidence, its miracle episodes are not historical reporting"
 edition: "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
 kind: vendored
 work_id: athanasius-vita-antonii
@@ -35,7 +35,7 @@ corpus's established per-work translator discipline; re-confirm from the
 division's own title page at first quote.
 
 Requested for its Athanasian, Alexandria-facing side (the formation ideal,
-the bishop-monk link). The cross-build flag is in the work field: no
+the bishop-monk link). The cross-build rule: no
 Alexandrian record may treat desert formation logic as constitutively
 Alexandrian on this text's authority; Rubenson's literate-Antony argument
 (copyrighted, consult-only) further complicates the "unlettered monk"
