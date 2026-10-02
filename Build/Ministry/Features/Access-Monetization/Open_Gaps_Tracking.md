@@ -34,3 +34,35 @@ In both cases the message is never screened.
 **Consequence.** A pack priced from 10-turn cost is under-priced if buyers use deeper conversations. The paid depth and the price must be set together. The 5x markup question from the Opus round 1 review is worse with depth.
 
 **Next step.** One measured run at the candidate paid depth, with realistic message lengths and a mid-conversation pause. See decision 11.
+
+## 3. Measured cost of a 15-turn conversation and the prompt-cache lapse (2026-10-02)
+
+**Status:** OPEN. Follows entry 2. A scratch run, not committed: 15 scripted turns, world alx, Sonnet 4.5 voice and Haiku 4.5 safety on Bedrock (us-east-1), one 6-minute pause after turn 7, priced with the repo's own cost function (Anthropic rate card, not an AWS invoice).
+
+**Result.** Total $0.706 for 15 turns. Turn 1 $0.025, turn 7 $0.043, turn 14 $0.063. Uncached history grew from 1,105 to 12,564 tokens by turn 14. The cached system prompt is now 15,040 tokens (12,456 in the August run). After the 6-minute pause the cache had lapsed: turn 8 cost $0.094 against about $0.046 expected. The first 10 turns cost $0.42 including that rewrite.
+
+**Against entry 2's projection.** About $0.50 was projected for 15 turns. The measured $0.706 is about 40% higher, because participant messages and replies were longer than in the August run. The August 10-turn figure ($0.29) was a best case.
+
+**Caveats.** One world, one scripted conversation, one pause, fixed message text. Not a sample of real participants.
+
+## 4. Replies end mid-sentence at the 1,024-token output limit (2026-10-02)
+
+**Status:** OPEN. Found in the run of entry 3.
+
+**What happens.** 7 of 15 replies (turns 6, 7, 9, 11, 12, 13, 14) end mid-sentence, for example turn 7 ends "At our worst—". Most replies run 550 to 830 words. Output hit exactly 1,024 tokens on 8 turns. `max_tokens` defaults to 1024 in both `engine/m4/generation.py` and `engine/m4/streaming.py`, and `wiring.handle_message` calls the same `run_turn`.
+
+**Why it matters here.** The access design's protection rule says a cut-off reply never costs a unit. If cut-off replies are this common in deep conversations, the rule would be waived often, or the limit has to change first. Raising the limit raises cost and works against the readability target, so this is also a voice-length question.
+
+**Open:** whether production truncates the same way. The scratch run used `run_turn` directly, so the production display path is not confirmed.
+
+## 5. Representative sometimes repeats the participant's words instead of answering (2026-10-02)
+
+**Status:** OPEN. Raised by Mark after the 3-turn sample.
+
+**What happens.** When the first message opens with a first-person statement ("I grew up in a church where nobody asked hard questions. Who was Jesus to your people?"), some replies open by repeating it. Across the six replies seen to that message, one echoed it in the first person ("I grew up in a church&hellip; I want to know:"), two repeated it in the second person ("You grew up in a church where nobody asked hard questions. Then you belong with us."), and three answered cleanly. Two replies to the same question without the opener, and two to the opener as a statement with no question mark, were clean.
+
+**Rule broken.** The alx prompt says the first sentence answers the first ask. No instruction asks for restating.
+
+**Not known.** The rate (small sample, one world), whether it happens in other worlds, and when it began. Replies are not stored in git, so history cannot date it. The route in each case was `voice_with_directive`, so this turn's private directive from `engine/m4/turn_prep.py` is involved or at least present. Cause not confirmed.
+
+**Next:** run the same probe in two more worlds before any change to a prompt or directive.
