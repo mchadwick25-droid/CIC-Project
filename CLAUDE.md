@@ -1,15 +1,19 @@
 # CIC-Project — Working Rules
 
-These rules apply to every session in this repo. Read them before doing anything else. They're listed in priority order — where two sections would pull in different directions, the higher one wins. Safety and fidelity are never traded away for speed, cost, or convenience.
+These rules apply to every session in this repo. Read them before doing anything else. They're listed in priority order — where two sections would pull in different directions, the higher one wins. Trust, safety and fidelity are never traded away for speed, cost, or convenience.
 
 This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
 
-## Safety comes first
+## Trust comes first
+
+- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
+- Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
+
+## Safety
 
 - A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
-- Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
-- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes. Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
-- The live governing doc is `CiC_L3D_Facilitator_Governance_V3.6`. The newer AcuteDistress/HarmfulDynamic mechanism is still a draft proposal, not yet merged into it — don't treat the draft mechanism's specifics as settled, but "redirect is Facilitator-only, never the Representative" is a decided rule.
+- Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
+- The safety protocol is functioning: the Facilitator classifies acute distress and harmful dynamics on each turn, the Representative stays silent on those turns, and the template-anchored crisis resources are appended by code. The governing doc is `CiC_L3D_Facilitator_Governance_V3.6`.
 
 ## Source fidelity — never invent
 
