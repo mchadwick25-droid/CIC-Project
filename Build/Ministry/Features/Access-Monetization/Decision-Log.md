@@ -25,3 +25,11 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Basis:** Opus round 1 review, substantial finding on constraints. Auto-reload is recurring charging in practice and conflicts with the one-time constraint.
 
 **Open:** may be reconsidered as an opt-in once pilot data shows demand. That would be a new decision, not a quiet edit.
+
+## 4. Church and class offer is a one-time shared pool (2026-10-02)
+
+**Decision (Mark):** the church and class offer, when built, is a one-time shared pool of conversations that members draw from. No annual licence.
+
+**Basis:** Opus round 1 review, substantial finding on constraints. A yearly licence is a subscription.
+
+**Open:** whether it ships with the first individual packs or follows them, the pool's size and price, and how members join. A shared church or class network also affects the anonymous free allowance, because the current per-IP seeding caps newcomers after about five first visits from one network a day.
