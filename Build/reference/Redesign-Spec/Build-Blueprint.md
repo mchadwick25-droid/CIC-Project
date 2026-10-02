@@ -1,6 +1,6 @@
 # CiC Build Blueprint — the handoff charter
 
-**Status: APPROVED by Mark, 2026-08-20.** This is the document a fresh build thread launches from. It tells that thread what to build, in what order, under what laws, with what freedom, and when to stop and ask. The design record it executes is `CiC-Program-Spec.md` + Artifacts 1–6, all in this folder, all on branch `claude/cic-redesign-spec-fcjzz6`.
+**Status: Approved to proceed.** This is the document a fresh build thread launches from. It tells that thread what to build, in what order, under what laws, with what freedom, and when to stop and ask. The design record it executes is `CiC-Program-Spec.md` + Artifacts 1–6, all in this folder, all on branch `claude/cic-redesign-spec-fcjzz6`.
 
 ---
 
@@ -23,7 +23,7 @@ You are **not** building: the multi-voice Table (separate product, separate thre
 3. **Prompt = how to speak; records = what's true.** The per-world half of any prompt is a record, never code.
 4. **One registry; everything derived.** No world identifier in code. No hand-synced lists, anywhere, ever.
 5. **Safety is sealed.** Its call shares nothing with iterated machinery; any change to it triggers the full live safety rerun (19/20 floor). Crisis resources appended by code, never model-recalled.
-6. **Fail open toward the pre-guard state, with the direction stated per check — and never silently** (degraded flags, async re-classification for safety).
+6. **Fail open toward the pre-guard state, with the direction stated per check — and never silently** (degraded flags). The safety call is the one exception: it fails closed to the Facilitator check-in (Artifact 4 §4).
 7. **The participant's words are never rewritten;** directives are code-assembled from schemas, never model-composed.
 8. **Honest thinness beats invented depth, absolutely.** Honest-limit answers are the voice's own; the identity-collision framing rule (spoken non-judgment) is canon law.
 9. **Generated artifacts verify against their source**: determinism twice in CI, regenerate-and-diff staleness, load-time hash refusal. No hand edits of compiled files.

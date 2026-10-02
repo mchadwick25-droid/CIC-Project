@@ -1932,3 +1932,9 @@ The pilot readiness PR edits `app.css` for button contrast, input size and viewp
 - The site served different visitors different page versions on the same URL right after a deploy. This was confirmed against the live site: Cloudflare's edge returned `cf-cache-status: HIT` on repeated HTML fetches despite the default revalidate header. `no-store` fixed it.
 - If pages ever serve stale again, the remaining lever is a Cloudflare dashboard Cache Rule overriding origin headers. It is not visible or changeable from this repo.
 - `/assets/*` keeps a short cache, because a long one would strand returning visitors on old CSS or images after an in-place edit.
+
+The same PR edits `Build/reference/Redesign-Spec/` (Artifact-4 §4, Artifact-6's failure table, the Build-Blueprint and Program-Spec principle 6) for the safety-gate ruling, P1-Security Decision-Log entry 11. The four flagged lines in those files were cleared in the same pass. Their provenance is recorded here:
+- **Artifact-4 `risk_subject`.** Added 2026-08-21, after live safety-script batch 3, scenario s12.
+- **Artifact-4 rule 2 (`AMBIGUOUS_LOW_CONFIDENCE` → check-in).** Added 2026-08-21, after live safety-script batch 2. In scenario s9, an adversarial hypothetical-framed disclosure, `AMBIGUOUS_LOW_CONFIDENCE` fell through to ordinary routing under the original rule set.
+- **Artifact-6 turn cap.** The cap of 10 turns was decided by Mark on 2026-08-25. Before that it was `DECIDABLE`, with a default of 40. The decision followed the live memory-growth measurement.
+- **Build-Blueprint status.** Mark approved the Build-Blueprint on 2026-08-20. The status line now reads "Approved to proceed", which is the project's current vocabulary.

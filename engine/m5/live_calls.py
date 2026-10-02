@@ -165,7 +165,15 @@ _READER_TOOL = {
 }
 
 
-def _forced_tool_call(client, model_id: str, *, system: str, tool: dict, user_content: str, timeout: float = 4.0) -> CallOutcome:
+SAFETY_TIMEOUT_SECONDS = 15.0
+SAFETY_MAX_RETRIES = 1
+
+
+def _forced_tool_call(
+    client, model_id: str, *, system: str, tool: dict, user_content: str, timeout: float = 4.0, max_retries: int | None = None,
+) -> CallOutcome:
+    if max_retries is not None and hasattr(client, "with_options"):
+        client = client.with_options(max_retries=max_retries)
     try:
         response = client.messages.create(
             model=model_id,
@@ -194,7 +202,10 @@ def call_safety(client, model_id: str, *, message: str, recent_window: list[str]
         f"Accumulator so far: {json.dumps(accumulator)}\n\n"
         f"Participant's latest message:\n{message}"
     )
-    return _forced_tool_call(client, model_id, system=SAFETY_SYSTEM_PROMPT, tool=_SAFETY_TOOL, user_content=user_content)
+    return _forced_tool_call(
+        client, model_id, system=SAFETY_SYSTEM_PROMPT, tool=_SAFETY_TOOL, user_content=user_content,
+        timeout=SAFETY_TIMEOUT_SECONDS, max_retries=SAFETY_MAX_RETRIES,
+    )
 
 
 def call_reader(client, model_id: str, *, message: str) -> CallOutcome:
