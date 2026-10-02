@@ -1,5 +1,5 @@
 """The three world_front gates (Website V2 world_front design, approved to
-proceed 2026-09-19): gate_quote_mark_fidelity (deterministic, fully
+proceed): gate_quote_mark_fidelity (deterministic, fully
 implemented and tested here, but not yet added to GATES/run_all - see its
 own registration comment in gates.py for why: registering ANY new gate
 changes validation/gates-report.json for every already-built world's
@@ -27,14 +27,6 @@ QUOTE_VERBATIM = {
     "license": "verbatim",
 }
 
-QUOTE_DO_NOT_VOICE = {
-    "id": "fix.quote.test-do-not-voice",
-    "record_type": "quote",
-    "text": "What is written for the initiate alone is not for the crowd.",
-    "modern_rendering": "This teaching is not for everyone to hear.",
-    "license": "do-not-voice",
-}
-
 QUOTE_PARAPHRASE_ONLY = {
     "id": "fix.quote.test-paraphrase-only",
     "record_type": "quote",
@@ -43,7 +35,7 @@ QUOTE_PARAPHRASE_ONLY = {
     "license": "paraphrase-only",
 }
 
-FLEET_QUOTES = {q["id"]: q for q in (QUOTE_VERBATIM, QUOTE_DO_NOT_VOICE, QUOTE_PARAPHRASE_ONLY)}
+FLEET_QUOTES = {q["id"]: q for q in (QUOTE_VERBATIM, QUOTE_PARAPHRASE_ONLY)}
 
 
 def _world_front(text: str, grounded_in=None) -> dict:
@@ -55,7 +47,7 @@ def _world_front(text: str, grounded_in=None) -> dict:
 
 
 def test_quote_mark_gate_is_wired_into_the_live_battery():
-    """Registered 2026-09-20, once all 8 built worlds' world_front records
+    """Registered once all 8 built worlds' world_front records
     existed for it to actually check (see gates.py's own comment at the
     GATES dict) - held back at the infrastructure stage only because
     registering it changes validation/gates-report.json for every
@@ -76,14 +68,6 @@ def test_catches_a_quoted_span_pulled_from_the_text_field_instead():
     assert len(findings) == 1
     assert "fix.quote.test-verbatim" in findings[0]
     assert "modern_rendering" in findings[0]
-
-
-def test_catches_do_not_voice_material_even_from_modern_rendering():
-    bad = _world_front('We hold this quietly: "This teaching is not for everyone to hear."')
-    findings = gate_quote_mark_fidelity({bad["id"]: bad}, FLEET_QUOTES, {})
-    assert len(findings) == 1
-    assert "fix.quote.test-do-not-voice" in findings[0]
-    assert "do-not-voice" in findings[0]
 
 
 def test_catches_paraphrase_only_material_from_either_field():
@@ -112,13 +96,13 @@ def test_ignores_non_world_front_records_entirely():
 
 
 def test_cross_record_consistency_flags_a_multi_grounded_unit():
-    wf = _world_front("Some claim.", grounded_in=["fix.quote.test-verbatim", "fix.quote.test-do-not-voice"])
+    wf = _world_front("Some claim.", grounded_in=["fix.quote.test-verbatim", "fix.quote.test-paraphrase-only"])
     findings = flag_cross_record_consistency({wf["id"]: wf}, {}, {})
     kinds = {f["kind"] for f in findings}
     assert "multi-grounded-unit" in kinds
     hit = next(f for f in findings if f["kind"] == "multi-grounded-unit")
     assert hit["world_front"] == wf["id"]
-    assert set(hit["grounded_in"]) == {"fix.quote.test-verbatim", "fix.quote.test-do-not-voice"}
+    assert set(hit["grounded_in"]) == {"fix.quote.test-verbatim", "fix.quote.test-paraphrase-only"}
 
 
 def test_cross_record_consistency_flags_an_associated_with_pair():

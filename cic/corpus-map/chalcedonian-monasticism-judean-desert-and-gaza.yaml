@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: chalcedonian-monasticism-judean-desert-and-gaza
 works:
-- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+- row_id: npnf214_seven-ecumenical-councils--the-council-of-chalcedon-451-extracts-from-the-acts
+  work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11 — acts extracts, Definition 11.13, canons 11.18 (the Tome split out below)
   role: tradition
@@ -15,7 +16,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: Vita Euthymii
+- row_id: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681--vita-euthymii
+  work: Vita Euthymii
   author: cyril-scythopolis
   locus: confirmed present ('EUTHYMII VITA' header found)
   role: context
@@ -26,7 +28,8 @@ works:
 
     '
   source_file: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
-- work: Vita Sabae
+- row_id: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681--vita-sabae
+  work: Vita Sabae
   author: cyril-scythopolis
   locus: confirmed present; ch. 83-90 not individually pinpointed - see the file's own header
   role: tradition
@@ -43,7 +46,8 @@ works:
 
     '
   source_file: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
-- work: Doctrinae Diversae
+- row_id: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88--doctrinae-diversae
+  work: Doctrinae Diversae
   author: dorotheus-gaza
   locus: whole file
   role: tradition

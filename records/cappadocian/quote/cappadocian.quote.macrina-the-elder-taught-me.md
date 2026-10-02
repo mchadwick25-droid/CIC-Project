@@ -75,7 +75,7 @@ modern_rendering: >-
   Wherever I found people walking by the rule of godliness that had been
   handed down, those I took for my fathers.
 ---
-Verified verbatim 2026-09-09 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. The letter is headed "Letter CCIV." with
 "Placed in 375." and the title "To the Neocaesareans." carried as adjacent
 apparatus rather than as one printed line; its element id is "ix.ccv", one Roman
@@ -86,15 +86,14 @@ The quoted sentences are at id "ix.ccv-p26", lines 37060-37068. Double-spacing i
 the source file's own typesetting normalized to single spaces; no wording added,
 dropped, or reordered.
 
-Quote-verbatim gate fix (2026-09-22): the `text` field previously closed with an
-invented full stop where the source has "those I set down as fathers,]" - a comma,
-then Newman's own closing bracket marking exactly where his translation ends (see
-below). Restored the literal comma and closing bracket in place of the invented
-period. This is not a restoration of the NPNF translator's continuation ("and made
-them my soul's guides in my journey to God") - that text is deliberately still
-excluded, for the reason given below (mixing two translators inside one quotation
-would misrepresent both); only the punctuation marking Newman's own boundary is
-now shown as the source actually prints it.
+The `text` field closes with the source's own punctuation, "those I set down as
+fathers,]" - a comma, then Newman's own closing bracket marking exactly where his
+translation ends (see below), not an invented full stop. This is not a
+restoration of the NPNF translator's continuation ("and made them my soul's
+guides in my journey to God") - that text is deliberately excluded, for the
+reason given below (mixing two translators inside one quotation would
+misrepresent both); only the punctuation marking Newman's own boundary is shown
+as the source actually prints it.
 
 WHERE THE QUOTATION STOPS, AND WHY EXACTLY THERE. This volume prints Letter CCIV
 as a braid of two English versions, and states in that letter's own prefatory

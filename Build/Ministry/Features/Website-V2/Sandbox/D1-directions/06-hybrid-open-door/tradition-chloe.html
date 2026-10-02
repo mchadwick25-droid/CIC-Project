@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The House-Churches — Chloe — Church in Conversation</title>
+<meta name="description" content="Chloe, Household Leader, the voice of the house-churches of Antioch, Asia Minor, and Rome, 70–200 CE: who is speaking, where the record is quiet, the hardest questions people bring, and the record behind the voice — before you sit down.">
+<!-- ===================================================================
+     WEBSITE V2 · SANDBOX · Direction 06 — HYBRID, "the open door"
+     The inner page: one tradition, one voice, one chair — reached one
+     click deep from the homepage's chairs or from a held question.
+
+     PARENTAGE (full account in README.md):
+       The page's spine is the merge the D2 record converged on from two
+       directions independently — Direction 01's Representative chapter
+       (provenance → "Where we are quiet" → the tradition's own hardest
+       questions first → the door; D2-01 defense §5.1) and Direction 03's
+       tradition.html (collection → assembly → trust → chair, placed as a
+       SECOND screen, one click deep; D2-03 defense §2.5, §4.1). Where the
+       two conflict, the person-shaped content (01) comes before the record
+       (03), because the visitor who arrives here has already chosen a
+       voice and the next thing they need is a reason to trust it — which
+       is disclosure about the TRADITION, not methodology about the project
+       (D2-03 review §3.3's distinction, adopted by its own defense).
+       Chloe's own record carries her voice: four honest_limit records and
+       two doctrinal_witness records in records/pahc/, in the "we" register
+       (D2-01 defense §5.3), where a record stands behind every line
+       (D2-01 defense §2.3's rule for the margin apparatus).
+
+     COPY MARKING — data-copy=
+       "protected" · "brand" · "live" · "census" (world-census.json, verbatim)
+       "record"    a records/pahc/* statement/text field, verbatim — the
+                   record itself is status: draft in the store
+       "canon"     records/_fleet/canon_question, verbatim, canon_status: seed
+       "starters"  Build/worlds/pahc/
+                   CiC_W1_Guided_Starters_V0_1_DRAFT.md, verbatim opening
+                   questions — DRAFT, awaiting Mark's review
+       "brief"     the World 1 reviewer's brief, arranged (via D1-03)
+       "draft"     prose written for this mockup — NOT final; visible tag
+
+     MOTION: none. The header carries the wordmark only; the mark does not
+     appear on this page, so its sentence is not owed here. Nothing
+     transitions, reveals, lifts, or dims. Level-2 cards and the Level-3
+     panel appear and disappear instantly.
+     =================================================================== -->
+<link rel="icon" href="../../../../../../cic-website/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --gold-wash:#FBF2E2;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --gold-leaf:#B45309; --tyrian:#6B3FA0; --lapis:#1E40AF; --graphite:#8A837C; --rule:#E6DFD3;
+  --ground:var(--parchment); --surface:var(--vellum); --leaf:var(--gold-wash);
+  --text:var(--ink); --muted:var(--ink-faded);
+  --action:var(--madder); --action-hover:var(--madder-deep);
+  --gold-text:var(--gold-leaf); --tyrian-text:var(--tyrian); --tyrian-wash:#F3EFFA; --lapis-text:var(--lapis);
+  --control:var(--graphite);
+  --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
+  --tint:#7c3aed;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem; --margin:17rem;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#17130F; --surface:#1E1913; --leaf:#241C13;
+    --text:#F1E9DD; --muted:#B8AEA1; --action:#E08C74; --action-hover:#F0A98F;
+    --gold-text:#E0A458; --tyrian-text:#C9A6E8; --tyrian-wash:#2A2133; --lapis-text:#9DB4F0;
+    --control:#A39B92; --rule:rgba(241,233,221,.16);
+    --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+    --tint:#955FF0;   /* the tradition's tint, lightened to 4.55:1 on the dark ground */
+  }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.draft{font-family:var(--sans);font-size:.8125rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--tyrian-text);background:var(--tyrian-wash);border:1px solid var(--tyrian-text);border-radius:2px;padding:0 .35em;margin-left:.35em;vertical-align:.1em;white-space:normal;font-style:normal;line-height:1.3;display:inline}
+.sandbox-note{font-family:var(--sans);font-size:.8125rem;color:var(--muted);border-bottom:1px solid var(--rule);padding:.3rem 1.25rem;text-align:center;margin:0}
+@media (max-width:640px){ .site-header .row{padding:.5rem 1.25rem} }
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+
+/* Header — as the homepage: wraps, never clips */
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;flex-wrap:wrap;align-items:center;gap:0 1.1rem}
+.site-nav a{color:var(--text);text-decoration:none;padding:.7rem .1rem;border-bottom:2px solid transparent;min-height:44px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--action)}
+.site-nav .side-door{color:var(--muted);font-style:italic}
+.site-nav .side-door:hover,.site-nav .side-door:focus-visible{color:var(--text)}
+@media (max-width:640px){ .site-nav .sd-long{display:none} }
+
+.page{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
+.crumbs{font-family:var(--sans);font-size:.875rem;color:var(--muted);padding:1rem 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";margin-right:.5rem}
+.crumbs a{color:var(--muted);display:inline-block;padding:.35rem 0}
+
+/* Title block */
+.titleblock{display:grid;gap:1.5rem;padding:1.2rem 0 1.6rem;align-items:start}
+@media (min-width:900px){ .titleblock{grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:3rem} }
+.titleblock .ident{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .5rem}
+.titleblock h1{font-size:clamp(2.1rem,4.8vw,3.2rem);line-height:1.05;margin:0 0 .5rem}
+.titleblock .formal{font-style:italic;color:var(--muted);margin:0 0 1rem}
+.titleblock .tile{font-size:1.15rem;line-height:1.5;max-width:var(--measure)}
+.status{font-family:var(--sans);font-size:.875rem;color:var(--text);border-left:3px solid var(--tint);padding-left:.7rem;margin:0 0 1rem}
+.plate{max-width:20rem}
+.plate figure{margin:0}
+.plate img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border:1px solid var(--rule);background:var(--surface)}
+.plate figcaption{font-family:var(--sans);font-size:.875rem;color:var(--muted);line-height:1.45;margin-top:.6rem}
+.plate figcaption b{color:var(--text);font-weight:600}
+
+/* The seat line — quiet, NOT sticky. The chair is offered here and again at
+   the end; nothing follows the visitor down the page. */
+.seat{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.9rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;font-family:var(--sans);font-size:.95rem}
+.seat .seated{margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:.95rem;line-height:1.2;padding:.6rem 1.1rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
+.btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
+.btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
+.seat .also{color:var(--muted)}
+.seat .also a{display:inline-flex;align-items:center;min-height:44px}
+
+/* Reading column with a reserved margin for sidenotes (Direction 01's
+   implementation: the note sits inside the paragraph right after the
+   sentence it sources, so it reads in order; it floats into the margin at
+   ≥1100px and sets as an indented note in the flow below that). */
+.article{padding:1.6rem 0 .5rem}
+.article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
+.article>section:first-child{border-top:none;padding-top:.6rem}
+.reading{max-width:var(--measure);font-size:1.125rem;line-height:1.6}
+.reading p{text-wrap:pretty}
+@media (min-width:1100px){ .page.has-margin{max-width:calc(var(--col) + var(--margin))} .reading{padding-right:0} .article{padding-right:var(--margin)} }
+.article h2{font-size:clamp(1.5rem,3vw,1.9rem);margin:0 0 .3rem}
+.article h3{font-size:1.15rem;font-weight:700;margin:1.3rem 0 .5rem}
+.stepref{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tyrian-text);font-weight:600;margin:0 0 .9rem}
+.epigraph{font-style:italic;font-size:1.3rem;line-height:1.35;color:var(--muted);max-width:26rem;margin:.5rem 0 1.3rem}
+.sidenote{display:block;font-family:var(--sans);font-size:.875rem;line-height:1.45;color:var(--muted);border-top:1px solid var(--rule);padding-top:.45rem;margin:.6em 0 1em 1.4rem;font-style:normal;text-align:left}
+.sidenote b{font-weight:700;color:var(--text)}
+@media (min-width:1100px){ .sidenote{float:right;clear:right;width:15rem;margin:.1em calc(-1 * var(--margin)) .9rem 0} }
+.provenance p{border-left:2px solid var(--control);padding-left:1rem}
+.distress{font-family:var(--sans);font-size:.95rem;color:var(--muted);max-width:var(--measure)}
+
+/* Where we are quiet — four silences in the tradition's own voice */
+.quiet-list{list-style:none;margin:0;padding:0}
+.quiet-list li{padding:.9rem 0;border-top:1px solid var(--rule)}
+.quiet-list li:first-child{border-top:none;padding-top:0}
+.quiet-list h3{margin:0 0 .35rem;font-size:1.05rem;font-family:var(--sans);letter-spacing:.06em;text-transform:uppercase;font-weight:700}
+.quiet-list p{margin:0}
+
+/* Questions — hardest first; each is a door into a real interview */
+.questions{list-style:none;margin:.5rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.questions li{border-bottom:1px solid var(--rule);padding:.5rem 0}
+.questions a{display:flex;align-items:flex-start;gap:.6rem;color:var(--text);text-decoration:none;font-style:italic;font-size:1.1rem;line-height:1.4;padding:.5rem .1rem;min-height:44px}
+.questions a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
+.questions a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;padding-left:.6rem;flex:0 0 auto}
+.questions a:hover,.questions a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
+.questions .from{display:block;font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:.1rem 0 .3rem 1.5rem;line-height:1.45}
+
+/* Lexicon — the app's own grammar, with Level 2 reachable by assistive tech:
+   the term is a button; its short gloss is a sibling note the button is
+   described by (read whether or not the card is showing); "Full entry" is
+   a real control inside the card; click/Enter on the term opens Level 3.
+   On touch, first tap shows the card, second opens the entry. */
+.lex-wrap{position:relative;display:inline}
+.lex{font:inherit;color:inherit;background:none;border:0;padding:0 .05em;margin:0;cursor:pointer;text-decoration:underline dotted var(--tyrian-text);text-decoration-thickness:.09em;text-underline-offset:.2em;border-radius:2px}
+.lex:hover,.lex:focus-visible{background:var(--tyrian-wash)}
+/* At rest the card is out of layout (display:none), so a hidden card never
+   widens the page; its text still reaches assistive tech, because a node
+   referenced by aria-describedby is read even when hidden. Below 1100px the
+   card is the phone grammar: a fixed popover above the thumb, never off-screen. */
+.lex-card{display:none;position:absolute;left:0;top:calc(100% + .5rem);z-index:15;width:20rem;background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--tyrian-text);border-radius:0 6px 6px 0;padding:.8rem 1rem .85rem;font-family:var(--sans);font-size:.92rem;line-height:1.45;color:var(--text);text-align:left;font-style:normal}
+.lex-wrap:hover .lex-card,.lex:focus-visible+.lex-card,.lex[aria-expanded="true"]+.lex-card,.lex-card:focus-within{display:block}
+.lex-card .word{font-family:var(--serif);font-style:italic;font-size:1.05rem;color:var(--tyrian-text);display:block;margin-bottom:.2rem}
+.lex-card .full{display:inline-flex;align-items:center;min-height:32px;margin-top:.5rem;font:inherit;font-weight:600;color:var(--action);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:.16em}
+@media (max-width:1099.98px){ .lex-card{position:fixed;left:1rem;right:1rem;top:auto;bottom:1.25rem;width:auto;max-width:28rem} }
+.panel{position:fixed;top:0;right:0;height:100vh;width:min(420px,100vw);background:var(--surface);border-left:1px solid var(--rule);padding:1.6rem 1.6rem 2rem;overflow-y:auto;z-index:30;visibility:hidden}
+.panel.open{visibility:visible}
+@media (max-width:640px){ .panel{top:auto;bottom:0;height:auto;max-height:55vh;width:100vw;border-left:0;border-top:1px solid var(--rule);border-radius:12px 12px 0 0} }
+.panel .kicker{font-family:var(--sans);font-size:.8125rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tyrian-text);font-weight:600;margin:0 0 .5rem}
+.panel h2{font-family:var(--serif);font-weight:400;font-style:italic;font-size:1.7rem;margin:0 0 .2rem;color:var(--tyrian-text)}
+.panel .plain{font-family:var(--sans);font-size:1rem;color:var(--muted);margin:0 0 1rem}
+.panel p{font-size:1.05rem;line-height:1.5}
+.panel .src{font-family:var(--sans);font-size:.875rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:.7rem;margin-top:1rem}
+.panel .close{position:absolute;top:.8rem;right:.8rem;width:44px;height:44px;border-radius:50%;border:1px solid var(--control);background:var(--ground);color:var(--text);font-size:1.2rem;line-height:1;cursor:pointer;font-family:var(--sans)}
+.voice-note{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:0 0 1rem}
+
+/* The record — Direction 03's finding aid, compact, second screen */
+.record-intro{color:var(--muted);max-width:var(--measure)}
+.srcs{border-collapse:collapse;width:100%;font-size:.95rem;margin:.5rem 0 .8rem}
+.srcs th,.srcs td{text-align:left;vertical-align:top;padding:.5rem .7rem .5rem 0;border-bottom:1px solid var(--rule)}
+.srcs thead th{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.srcs tbody th{font-weight:600}
+.srcs td{font-family:var(--sans);font-size:.92rem}
+.tbl-wrap{overflow-x:auto}
+.gravities{list-style:none;margin:0;padding:0}
+.gravities li{display:grid;grid-template-columns:8rem minmax(0,1fr);gap:.2rem 1rem;padding:.6rem 0;border-bottom:1px solid var(--rule)}
+.gravities li:last-child{border-bottom:none}
+.gravities .tier{font-family:var(--sans);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.8125rem;color:var(--tyrian-text);padding-top:.25rem}
+.gravities .tier.declined{color:var(--muted)}
+.gravities p{margin:0}
+.gravities .why{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin-top:.15rem}
+@media (max-width:640px){ .gravities li{grid-template-columns:minmax(0,1fr)} }
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;font-family:var(--sans);font-size:.875rem;margin:.4rem 0 1rem}
+.legend span{display:inline-flex;align-items:center;gap:.4rem;color:var(--tyrian-text);font-weight:700}
+.legend svg{width:16px;height:16px}
+.contested{border-left:3px solid var(--tyrian-text);padding:.1rem 0 .1rem 1rem;margin:1rem 0}
+.contested h3{margin-top:0}
+.contested ul{margin:0;padding-left:1.1rem}
+.floornote{background:var(--surface);border:1px solid var(--rule);padding:.9rem 1.1rem;margin-top:1.1rem;max-width:var(--measure)}
+.floornote .label{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .35rem;font-weight:600}
+.floornote p{margin:0}
+.voices{list-style:none;margin:0;padding:0}
+.voices li{padding:.5rem 0;border-bottom:1px solid var(--rule)}
+.voices li:last-child{border-bottom:none}
+.status-grid{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);margin:.8rem 0}
+@media (min-width:640px){ .status-grid{grid-template-columns:1fr 1fr} }
+.status-grid div{background:var(--ground);padding:.8rem 1rem}
+.status-grid dt{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem;font-weight:600}
+.status-grid dd{margin:0}
+.press{list-style:none;margin:0;padding:0;counter-reset:q}
+.press li{counter-increment:q;position:relative;padding:.6rem 0 .6rem 2.3rem;border-bottom:1px solid var(--rule)}
+.press li:last-child{border-bottom:none}
+.press li::before{content:counter(q);position:absolute;left:0;top:.6rem;width:1.6rem;height:1.6rem;border:1.5px solid var(--tyrian-text);color:var(--tyrian-text);border-radius:50%;font-family:var(--sans);font-size:.875rem;font-weight:700;display:grid;place-items:center}
+
+/* Closing */
+.door{border-top:1px solid var(--rule);background:var(--surface);text-align:center;padding:2.5rem 1.25rem 2.5rem}
+.door h2{font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 .7rem}
+.door p{max-width:var(--measure);margin-left:auto;margin-right:auto}
+.door .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.8rem;margin:1.2rem 0 1rem}
+.door .also{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.door .also a{display:inline-flex;align-items:center;min-height:44px}
+
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.seat,.door .actions,.panel,.skip-link{display:none} .sidenote{float:none;width:auto;margin-right:0} }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<p class="sandbox-note" role="note">Sandbox mockup · Website V2 · Direction 06, a hybrid with named parentage · the inner page · not the live site</p>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="homepage.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="homepage.html">Home</a>
+      <a href="../../../../../../cic-website/about.html">About</a>
+      <a href="../../../../../../cic-website/whats-next.html">What's Next</a>
+      <a href="../../../../../../cic-website/atlas-v3.html">Map</a>
+      <a href="../../../../../../cic-website/support.html">Get Involved</a>
+      <a class="side-door" href="https://cic-engine.onrender.com/" data-app data-copy="draft"><span class="sd-long">Been here before? </span>Go straight in →</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="homepage.html#who">Who's at the table</a></li>
+        <li aria-current="page">The House-Churches</li>
+      </ol>
+    </nav>
+
+    <div class="titleblock">
+      <div>
+        <p class="ident" data-copy="census">The Early Church Era · 70–200 CE · Antioch, Asia Minor, Rome</p>
+        <h1 data-copy="census">The House-Churches</h1>
+        <p class="formal" data-copy="census">Post-Apostolic House-Church Christianity</p>
+        <p class="status" data-copy="census">Open for conversation — you can sit down with this tradition now.</p>
+        <p class="tile" data-copy="census">The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means.</p>
+      </div>
+      <aside class="plate" aria-label="Portrait">
+        <figure>
+          <img src="../../../../../../cic-website/assets/portraits/house-churches.png" alt="Chloe: a woman in a veil drawn up over her head and a rose-colored tunic, holding a plain cup in both hands, painted against a warm neutral ground." width="530" height="530">
+          <figcaption data-copy="draft"><b>Chloe, Household Leader.</b> The voice of this tradition — a painted portrait, not a photograph: a face from this tradition, not one person. The veil, the plain wool, and the shared cup are grounded in the tradition's own sources; her complexion is an inference from where she lived, and is labeled so.<mark class="draft">draft</mark></figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <!-- The chair, offered once here — outlined, not filled — and again at the
+         end, filled, after the record. Nothing sticky (D2-03 review §4.5;
+         D2-01 review §4.1). -->
+    <div class="seat" role="region" aria-label="Chloe is seated">
+      <p class="seated" data-copy="draft">Chloe is seated. Begin when you're ready — or read on.</p>
+      <a class="btn quiet" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app target="_blank" rel="noopener">Begin a conversation with Chloe<span class="vh"> (opens in a new tab)</span></a>
+      <span class="also"><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=table" data-app target="_blank" rel="noopener">Bring Chloe to the Table →<span class="vh"> (opens in a new tab)</span></a></span>
+    </div>
+  </div>
+
+  <div class="page has-margin">
+    <div class="article">
+
+      <!-- 1. WHO IS SPEAKING — the AI question raised first, in the project's
+           voice, at full contrast, before Chloe says a word (D1-01's provenance
+           block, merged with D1-03's §8 "The Representative"). -->
+      <section class="provenance" id="who-speaks" aria-labelledby="who-speaks-title">
+        <p class="eyebrow" data-copy="draft">Who is speaking</p>
+        <h2 id="who-speaks-title" data-copy="draft">An AI system, speaking for a whole people</h2>
+        <div class="reading">
+          <p data-copy="draft">Chloe is a voice, not a person who lived, and she never pretends otherwise. She is this tradition's own surviving witnesses — Ignatius, Polycarp, Clement of Rome, Hermas, Justin, the Didache — given one voice, and she speaks the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em>. Where those witnesses disagreed, she keeps the disagreement visible rather than settling it for them. Her name and her role are the only invented things about her; every claim she makes belongs to the record, and she will tell you plainly when the record runs out.<mark class="draft">draft</mark><span class="sidenote" role="note"><b>Source.</b> The voice's own identity record, <code>pahc.craft.chloe-voice</code>: "her name and role are the only sanctioned fabrications this build allows; every quote and claim behind them belongs to this world's own surviving voices."</span></p>
+          <p class="distress" data-copy="live">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+        </div>
+      </section>
+
+      <!-- 2. WHERE WE ARE QUIET — before anything else, what this record cannot
+           tell you, in the tradition's own voice, from its own honest_limit
+           records (D1-01's section, placed first per its own defense §5.1 and
+           its review's condition; content is the record's, not the mockup's). -->
+      <section id="quiet" aria-labelledby="quiet-title">
+        <p class="eyebrow" data-copy="draft">Where we are quiet</p>
+        <h2 id="quiet-title" data-copy="draft">What this record cannot tell you — said first</h2>
+        <div class="reading">
+          <p class="epigraph" data-copy="protected">Where the historical record is thin, we let the silence stand.</p>
+          <p class="voice-note" data-copy="draft">In Chloe's own voice, from the tradition's own record. These are the silences the voice carries into every conversation.<mark class="draft">draft</mark></p>
+          <ul class="quiet-list" data-copy="record">
+            <li>
+              <h3>The enslaved among us</h3>
+              <p>Enslaved people were among us. Our instruction speaks to them directly, in the same breath as everyone else. Two enslaved women among us were called ministrae — servants, deacons — and when a Roman governor wanted to know what we did, it was those two he had tortured for answers. So we can tell you they were here. We can tell you they served, and that they suffered for us. What we cannot give you is a single word any of them chose to write or say for themselves. What an enslaved sister or brother made of our teaching, of our meal, of serving a Lord who took the form of a slave — none of that survives in their own voice. Everything we know of them passed through other hands. We would rather tell you that plainly than put words in their mouths now.<span class="sidenote" role="note"><b>Source.</b> Pliny, <i>Letters</i> 10.96 — the two enslaved women called <i>ministrae</i>, examined under torture: the only place an enslaved member of this tradition comes individually into view, and through an interrogator's pen. Record: <code>pahc.limit.enslaved-voices</code>.</span></p>
+            </li>
+            <li>
+              <h3>Women's own words</h3>
+              <p>Women were taught among us, greeted by name in our letters, and remembered as leaders of households where we gathered. Two women among us carried the name ministrae — a title of service, of office. We can show you women being addressed, described, honored, and in one terrible case interrogated. What we cannot show you is a sentence any woman of ours wrote or spoke in her own words, saved in her own words. Every woman you will meet in our record arrives through a man's pen. Whether she would have told our story the way our letters tell it — what the meal, the teaching, the gathering in her own house looked like from where she stood — our record cannot say. That silence is real, and we will not fill it with a voice we do not have.<span class="sidenote" role="note"><b>Source.</b> No female-authored text exists anywhere in this tradition's evidentiary base; every named or titled woman is attested only in letters, orders, and reports written by men. Record: <code>pahc.limit.womens-own-words</code>.</span></p>
+            </li>
+            <li>
+              <h3>The quiet majority</h3>
+              <p>Most of us could not read. Most of us left no letters because we could not have written one. Everything we left behind was written by the few among us who could write — and it is a city record: Antioch, the towns of Asia Minor, Rome. What an ordinary believer made of the teaching as it was read aloud, what faith sounded like in a village rather than a city street, how the gospel traveled where no letters went — our own words cannot show you. When we tell you what we taught and how we gathered, know that you are hearing our writers, and our cities. The quiet majority of us never made it onto the page. You will have to imagine them: present at every meal, and silent in every text.<span class="sidenote" role="note"><b>Source.</b> Every registered text of this tradition is literary and urban in origin; none is of rural provenance or non-literate authorship. Record: <code>pahc.limit.ordinary-majority</code>.</span></p>
+            </li>
+            <li>
+              <h3>The rooms themselves</h3>
+              <p>You ask what a dig would find at the place we met. You ask how historians even know about ordinary days like ours. We cannot say. No building tied to us survives. No burial or inscription does either. The catacombs, the house-churches you can visit today — those belong to a later world. Ours had already closed. What we left behind is letters. Arguments about who should lead. Instructions for how to gather. Words passed between one household and another. Once, a Roman governor went looking for us. He found two of our women and had them tortured to make them talk. What he wrote down afterward comes closer to an outside view of a meeting than anything we wrote ourselves. Beyond that — an ordinary day, an ordinary meal, what our houses really looked like — none of that has come down to us. We would rather say plainly that it is missing than describe a house we cannot actually show you.<span class="sidenote" role="note"><b>Source.</b> No archaeological or material-culture source is registered for this tradition; the earliest candidate remains (Dura-Europos, the Roman catacombs) fall at or after its close around 200. Record: <code>pahc.limit.material-remains</code>.</span></p>
+            </li>
+            <li>
+              <h3>One voice, under guard</h3>
+              <p>What our own life did not leave behind, we say plainly is missing, rather than describe what we cannot show. One line further, where our own record's own measured thinness demands it: our strongest claims about a single overseer's own necessity, and about what a death for the name meant, often rest on a single voice, Ignatius, writing under armed guard toward his own execution. That is real testimony, not invented. It is not the same thing as many voices agreeing, and it is never spoken of as if it were.<span class="sidenote" role="note"><b>Source.</b> The guard line the voice carries, from <code>pahc.craft.chloe-voice</code>; the authenticity and date of the Ignatian letters are carried in the record as contested.</span></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3. QUESTIONS PEOPLE BRING — the hardest and most personal first
+           (D2-01 defense §5.1: the "For the Wrestling" set with the fear
+           question first, the historian's after). Each is a real door into
+           a real interview; the question is asked in the room. -->
+      <section id="questions" aria-labelledby="questions-title">
+        <p class="eyebrow" data-copy="draft">Questions people bring to this table</p>
+        <h2 id="questions-title" data-copy="draft">Start with the hard one</h2>
+        <div class="reading">
+          <p data-copy="draft">These are doors, not a syllabus. You are never confined to them, and a question none of them anticipated meets Chloe on the same terms. Each opens a conversation with her; you ask it yourself in the room — nothing is sent ahead. Under each, where her record can answer from.<mark class="draft">draft</mark></p>
+          <ul class="questions">
+            <li><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-copy="canon" target="_blank" rel="noopener">I grew up being told doubt was sin. Was there room among your people for doubt?<span class="vh"> — ask Chloe (opens in a new tab)</span></a><span class="from" data-copy="draft">Hermas, <i>Mandate</i> 9 — doubt named as a condition to work against, not a disqualification.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-copy="canon" target="_blank" rel="noopener">I pray and nothing happens. Did your people know that silence?<span class="vh"> — ask Chloe (opens in a new tab)</span></a><span class="from" data-copy="draft">Hermas, <i>Mandate</i> 9 — a slow answer is not a refusal; <i>Didache</i> 14–15 on reconciliation before the offering.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-copy="canon" target="_blank" rel="noopener">The church that raised me protected people who caused harm. Your churches had failures too — what did you do with them?<span class="vh"> — ask Chloe (opens in a new tab)</span></a><span class="from" data-copy="draft"><i>1 Clement</i> 1, 44, 47 — the one dispute the record preserves, and only one side's account of it.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-copy="canon" target="_blank" rel="noopener">You've told me what women's days were like — but could a woman carry real authority among you, and what did it cost her?<span class="vh"> — ask Chloe (opens in a new tab)</span></a><span class="from" data-copy="draft">Pliny, <i>Letters</i> 10.96 (the <i>ministrae</i>); Hermas, <i>Vision</i> 2.4 (Grapte) — and the silence named above.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-copy="starters" target="_blank" rel="noopener">The clearest outside account of what your worship actually looked like came from torturing two enslaved women. Doesn't that taint everything we think we know from it?<span class="vh"> — ask Chloe (opens in a new tab)</span></a><span class="from" data-copy="draft">Pliny, <i>Letters</i> 10.96 — the tradition holds this account with its provenance visible.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-copy="starters" target="_blank" rel="noopener">If one of your churches has a bishop and another doesn't even recognize that office, how can you honestly call yourselves the same church?<span class="vh"> — ask Chloe (opens in a new tab)</span></a><span class="from" data-copy="draft">Ignatius, <i>Ephesians</i> 4 against <i>1 Clement</i> 42, 44 — held unresolved, on purpose.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-copy="starters" target="_blank" rel="noopener">Isn't "we're still arguing about it" just a nicer way of saying you don't actually know?<span class="vh"> — ask Chloe (opens in a new tab)</span></a><span class="from" data-copy="draft">The tradition's own distinction between what antiquity contested and what the evidence cannot generalize — press whether it is doing real work.</span></li>
+          </ul>
+          <p class="voice-note" style="margin-top:1rem" data-copy="draft">The first four are from the project's own question set; the last three are from this tradition's own starter draft. Both await Mark's review before print.<mark class="draft">draft</mark></p>
+        </div>
+      </section>
+
+      <!-- 4. IN HER OWN WORDS — two of the tradition's own witness records, in
+           the voice that speaks in the room, with the app's lexicon grammar
+           live on the four words this tradition will not translate away. -->
+      <section id="voice" aria-labelledby="voice-title">
+        <p class="eyebrow" data-copy="draft">In her own words</p>
+        <h2 id="voice-title" data-copy="draft">The hardest true thing about us</h2>
+        <div class="reading">
+          <p class="voice-note" data-copy="draft">What Chloe says when asked what her people never settled, and whether there was room for doubt — from the record, as the voice carries it. The dotted words open the tradition's own lexicon: hover or focus for the plain meaning, click or tap through for the full entry.<mark class="draft">draft</mark></p>
+          <p class="vh" id="lexhint">Lexicon term. Activate for the full entry.</p>
+          <p data-copy="record">If you want the hardest true thing about us, it is this: we never agreed on who should lead. In some of our towns, one bishop — the <span class="lex-wrap"><button class="lex" type="button" aria-expanded="false" aria-controls="g-episkopos" aria-describedby="g-episkopos-text" data-lex="episkopos">episkopos</button><span class="lex-card" id="g-episkopos" role="note"><span class="word">episkopos</span><span id="g-episkopos-text">The overseer: the one who watches over a community's table and its unity. Whether every church should have one such man, or whether the elders share that trust together, is a question still being argued.</span> <button type="button" class="full" tabindex="-1" data-open="episkopos">Full entry →</button></span></span> — with elders and deacons beside him, was the whole shape of how we held together. <span class="lex-wrap"><button class="lex" type="button" aria-expanded="false" aria-controls="g-presbyteros" aria-describedby="g-presbyteros-text" data-lex="presbyteros">Presbyteros</button><span class="lex-card" id="g-presbyteros" role="note"><span class="word">presbyteros</span><span id="g-presbyteros-text">The elders who share the governing of a community. In some churches they are a council holding the whole trust themselves; in others they gather around one overseer.</span> <button type="button" class="full" tabindex="-1" data-open="presbyteros">Full entry →</button></span></span> and <span class="lex-wrap"><button class="lex" type="button" aria-expanded="false" aria-controls="g-diakonos" aria-describedby="g-diakonos-text" data-lex="diakonos">diakonos</button><span class="lex-card" id="g-diakonos" role="note"><span class="word">diakonos</span><span id="g-diakonos-text">Those set apart to serve: they carry help to the widow, the prisoner, and the stranger who cannot repay.</span> <button type="button" class="full" tabindex="-1" data-open="diakonos">Full entry →</button></span></span> were our own words for the elder and the deacon. In others, a council of elders — the <span class="lex-wrap"><button class="lex" type="button" aria-expanded="false" aria-controls="g-presbyterion" aria-describedby="g-presbyterion-text" data-lex="presbyterion">presbyterion</button><span class="lex-card" id="g-presbyterion" role="note"><span class="word">presbyterion</span><span id="g-presbyterion-text">The council of elders around the overseer. One letter says they are tuned to him the way strings are tuned to a harp.</span> <button type="button" class="full" tabindex="-1" data-open="presbyterion">Full entry →</button></span></span> — led, and no one felt anything was missing from that. Both went on, unresolved, for as long as our own story runs — it was only settled afterward, by people who came after us. And there is a second hard truth, just as real: almost none of the people who actually filled our rooms left any words of their own. Everything you can hear from us was written by someone who could read and write, and mostly by someone who already led. The poor among us, the enslaved among us, the ones who were simply there — we cannot let you hear them. They were never given the chance to be heard in the first place.<span class="sidenote" role="note"><b>Source.</b> Ignatius's letters (the single-bishop program) held against <i>1 Clement</i> 42, 44 (the plural college). Record: <code>pahc.witness.what-we-never-settled</code>, confidence Widely Accepted.</span></p>
+          <p data-copy="record">One of us, Hermas, was told plainly: put doubting away from yourself. Do not hold back from asking, even after you have sinned badly, as though God kept score the way people do. He does not remember evils the way we do. Ask without doubting and you will receive what you ask — and if the answer is slow, look first at what is holding it up in you, rather than deciding you were refused. Doubt was named for what it is: something that weakens a person, not something that disqualifies one. We were taught to work against it, not to pretend we never felt it.<span class="sidenote" role="note"><b>Source.</b> Hermas, <i>Mandate</i> 9. The record's own caution: this comes from one Roman visionary text, addressed mainly to sin and second repentance — it speaks for how this one figure was taught to answer doubt, not for every household. Record: <code>pahc.witness.doubt-and-asking</code>, confidence Documented.</span></p>
+        </div>
+      </section>
+
+      <!-- 5. THE RECORD — Direction 03's finding aid in its own founding order
+           (collection → assembly → trust), compact, one screen deep, for the
+           visitor who has met the voice and now asks what she is built from. -->
+      <section id="record" aria-labelledby="record-title">
+        <p class="eyebrow" data-copy="draft">The record behind the voice</p>
+        <h2 id="record-title" data-copy="draft">What she is built from, and how much of it can be trusted</h2>
+        <div class="reading">
+          <p class="record-intro" data-copy="draft">Everything above is drawn from here. What follows is the record's own account of itself: what the tradition is, whose words survive, what the reconstruction rests on, where it is contested, and what a reviewer would press first.<mark class="draft">draft</mark></p>
+
+          <h3 id="scope">What this tradition is</h3>
+          <p data-copy="census">After the apostles died, Christianity had no buildings of its own, no clergy in any later sense, and no agreed list of Scriptures — it had houses. Believers gathered in a member's dining room or the back of a workshop, ate a meal together, read aloud whatever apostolic letters had reached them, and stayed connected to distant congregations by hand-carried correspondence and travelling teachers. Across these decades the shape of the church slowly emerged in practice rather than by decree. Who should preside, how to receive people through baptism, what to do when a member handed in his neighbours under interrogation, what to make of the fact that faithfulness kept costing people their lives. Ignatius of Antioch wrote to churches along his route while under armed guard on the way to his own execution in Rome; Justin Martyr, teaching in a rented room above a bathhouse in the same city, wrote down what a Sunday gathering actually looked like. And both were killed for it.</p>
+
+          <h3 id="voices">Voices in the record</h3>
+          <ul class="voices" data-copy="census">
+            <li><strong>Ignatius of Antioch</strong> — bishop who wrote seven letters to congregations while being marched to his execution in Rome, c. 107-117</li>
+            <li><strong>Clement of Rome</strong> — wrote from the Roman church to the Corinthians around 96 to settle a dispute over deposed leaders, the earliest Christian letter outside the New Testament</li>
+            <li><strong>Polycarp of Smyrna</strong> — bishop who had known the apostolic generation, put to death at Smyrna around 155, his death recorded by his own congregation</li>
+            <li><strong>Justin Martyr</strong> — a philosopher who kept teaching Christianity as a school in Rome and left the earliest detailed description of Christian Sunday worship</li>
+            <li>Most of these communities' hosts and householders are unnamed in the record — the gatherings met in the homes of people history did not bother to write down</li>
+          </ul>
+
+          <h3 id="sources">What it rests on</h3>
+          <p data-copy="census">The record's own one-line assessment: <em>Moderate; communal voice rich, individual interior voice thin (disclosed on its tile).</em></p>
+          <div class="tbl-wrap">
+            <table class="srcs" data-copy="brief">
+              <caption class="vh">Primary and external sources, with disclosed dependencies</caption>
+              <thead><tr><th scope="col">Source</th><th scope="col">Standing</th><th scope="col">Disclosed dependency</th></tr></thead>
+              <tbody>
+                <tr><th scope="row"><i>1 Clement</i></th><td>Primary voice</td><td>—</td></tr>
+                <tr><th scope="row">Ignatius, seven letters</th><td>Primary voice</td><td>A three-way authenticity dispute carried as live and contested, not resolved.</td></tr>
+                <tr><th scope="row">Polycarp</th><td>Primary voice</td><td>—</td></tr>
+                <tr><th scope="row">The Shepherd of Hermas</th><td>Primary voice</td><td>Single-manuscript dependency.</td></tr>
+                <tr><th scope="row">The Didache</th><td>Primary voice</td><td>Single-manuscript dependency; recovered from one surviving manuscript only in the 1870s.</td></tr>
+                <tr><th scope="row">Justin Martyr</th><td>Primary voice</td><td>—</td></tr>
+                <tr><th scope="row">Pliny · Tacitus · Suetonius · Lucian</th><td>External Roman witnesses</td><td>Hostile or indifferent outsiders; used as such.</td></tr>
+                <tr><th scope="row">Egypt</th><td>Excluded from this record</td><td>On a flagged single-source dependency.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="voice-note" data-copy="draft">Standings and dependencies are this tradition's reviewer's brief's own words, arranged as a table.<mark class="draft">draft</mark></p>
+
+          <h3 id="gravity">What organizes it</h3>
+          <p data-copy="draft">A "gravity" is a force the evidence shows actually organizing the community's life. Each candidate was tested six ways and classed by how much of the record carries it; one did not clear the bar and is kept on record as a tested non-finding.<mark class="draft">draft</mark></p>
+          <ol class="gravities" data-copy="brief">
+            <li><span class="tier">Primary</span><div><p>The translocal correspondence network.</p><p class="why">Three independent voices attesting the same behavior.</p></div></li>
+            <li><span class="tier">Primary</span><div><p>Eucharistic practice as the site of variation and convergence.</p><p class="why">Three genuinely distinct surviving orders — Didache, Justin, Ignatius — held apart rather than harmonized.</p></div></li>
+            <li><span class="tier">Supporting</span><div><p>Authority consolidation — bishop versus presbyter-college.</p><p class="why">Reclassified down from Primary because its specific resolution is contested.</p></div></li>
+            <li><span class="tier">Supporting</span><div><p>State pressure and legal precarity.</p><p class="why">Scattered and uneven — not empire-wide policy.</p></div></li>
+            <li><span class="tier">Supporting</span><div><p>Martyrdom as meaning-response.</p><p class="why">Resting on exactly two data points — Ignatius and Polycarp — and explicitly not extended further.</p></div></li>
+            <li><span class="tier">Tensional</span><div><p>Boundary-drawing against rival movements.</p><p class="why">The thinnest gravity evidentially, classified accordingly.</p></div></li>
+            <li><span class="tier declined">Declined</span><div><p>The household (<em>oikos</em>) as a technical meeting-unit.</p><p class="why">Did not clear the evidence bar; recorded as a tested non-finding.</p></div></li>
+          </ol>
+
+          <h3 id="confidence">Confidence and contested ground</h3>
+          <p data-copy="draft">Every term and story in this record carries one of five labels, strongest to weakest — the same five words you will meet inside the conversation, never adjusted for who is asking.<mark class="draft">draft</mark></p>
+          <div class="legend" aria-label="The five confidence levels">
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>Documented</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3 A9 9 0 1 1 3 12 L12 12 Z" fill="currentColor"/></svg>Widely Accepted</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/></svg>Dominant Modern Reconstruction</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3 A9 9 0 0 1 21 12 L12 12 Z" fill="currentColor"/></svg>Contested</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="3 2.5"/></svg>Inferential / Thin</span>
+          </div>
+          <div class="contested" data-copy="brief">
+            <h3>Where this record is contested, by its own account</h3>
+            <ul>
+              <li>The authenticity and date of the Ignatian letters — carried as contested, without dismissing the corpus or resting the record on it.</li>
+              <li>Whether leadership was consolidating toward a single bishop or a college of presbyters — reclassified down to Supporting for exactly this reason.</li>
+              <li>How typical any "network-wide" practice was — the evidence is occasional letters answering local trouble, and the Representative says so.</li>
+            </ul>
+          </div>
+          <div class="floornote">
+            <p class="label" data-copy="draft">Where it stands on the Creed — the census's floor note</p>
+            <p data-copy="census">These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.</p>
+          </div>
+
+          <h3 id="legacy">Legacy, and where to stand today</h3>
+          <p data-copy="census">Almost everything on this map descends from these gatherings. The basic shape of Christian worship — assembling on the first day of the week, reading Scripture aloud, a shared table — was set here, along with the offices of bishop, presbyter and deacon, and the habit of reading apostolic letters in public until they became Scripture by use rather than by ruling. Their networks of hospitality between cities became the nervous system of the ancient church, and their correspondence — Clement, Ignatius, Polycarp — has been read ever since. The Didache, by contrast, was lost for centuries and recovered from a single surviving manuscript only in the 1870s.</p>
+          <ul data-copy="census">
+            <li><a href="https://en.wikipedia.org/wiki/Dura-Europos_church">The Dura-Europos house-church, Syria</a> — an ordinary home converted for worship between about 233 and 256, the earliest identified Christian church building, preserved because a Roman defensive rampart buried it</li>
+            <li><a href="https://artgallery.yale.edu/collections/objects/34496">Yale University Art Gallery, New Haven</a> — the Dura-Europos baptistery wall paintings, probably the oldest surviving Christian paintings anywhere, are on display</li>
+          </ul>
+
+          <h3 id="review">Review status, and where a reviewer might press first</h3>
+          <dl class="status-grid" data-copy="draft">
+            <div><dt>Internal review</dt><dd>Each of the ten build steps was review-gated. Revision is expected, and recorded.</dd></div>
+            <div><dt>External academic review</dt><dd>Not yet begun. A reviewer's brief is on file; an advisory board to facilitate independent review is being formed and needs funding and volunteers.</dd></div>
+          </dl>
+          <p data-copy="draft">Published on purpose — the four questions the record's own authors would most want a scholar of the period to test.<mark class="draft">draft</mark></p>
+          <ol class="press" data-copy="brief">
+            <li>Is the Ignatian authenticity dispute weighted fairly — carried as contested without either dismissing the corpus or resting the tradition on it?</li>
+            <li>Does the two-strand structure respect the evidence, or over-schematize it?</li>
+            <li>Are the confidence labels calibrated the way the field would set them — especially the deliberate downgrades?</li>
+            <li>Does the eucharistic diversity-first treatment (three orders, unharmonized) hold up?</li>
+          </ol>
+          <p class="voice-note" style="margin-top:1rem" data-copy="draft">If this is your field: <a href="mailto:info@churchinconversation.com?subject=Academic%20review%20%E2%80%94%20The%20House-Churches">info@churchinconversation.com</a>. And the live test: ask Chloe what she cannot know, and see whether she answers like a witness.<mark class="draft">draft</mark></p>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<!-- The chair, filled, after the record. -->
+<section class="door" aria-labelledby="door-title">
+  <p class="eyebrow" data-copy="draft">The Table</p>
+  <h2 id="door-title" data-copy="protected">Come and join us at the Table</h2>
+  <p data-copy="draft">You have read what Chloe is built from, where it is thin, and what she will not claim. The chair has been pulled out the whole time.<mark class="draft">draft</mark></p>
+  <div class="actions">
+    <a class="btn" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app target="_blank" rel="noopener">Begin a conversation with Chloe<span class="vh"> (opens in a new tab)</span></a>
+    <a class="btn quiet" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=table" data-app target="_blank" rel="noopener">Bring Chloe to the Table<span class="vh"> (opens in a new tab)</span></a>
+  </div>
+  <p class="also" data-copy="live">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  <p class="also"><a href="homepage.html#who">The other six chairs →</a></p>
+</section>
+
+<!-- Level 3: one panel, filled from the entry that was clicked. A side panel
+     on desktop, a bottom sheet on phone; never a modal over the text. -->
+<aside class="panel" id="lexPanel" aria-labelledby="lexPanelTitle" tabindex="-1">
+  <button class="close" id="lexPanelClose" type="button" aria-label="Close entry">&times;</button>
+  <p class="kicker">Lexicon · The House-Churches</p>
+  <h2 id="lexPanelTitle"></h2>
+  <p class="plain" id="lexPanelPlain"></p>
+  <div id="lexPanelBody"></div>
+  <p class="src" id="lexPanelSrc"></p>
+</aside>
+
+<!-- Entry text: the plain meaning is the term record's own; the fuller entry
+     is drafted from the record's sources and is marked as such. -->
+<template id="lex-episkopos"><h3>episkopos</h3><p class="plain">The overseer: the one who watches over a community's table and its unity.</p><p>In Antioch and Asia Minor the word was coming to mean one man at the head of each assembly, with elders and deacons around him — the strongest case for why that mattered comes from Ignatius alone. In Rome the same word, where it appears at all, names one of several. This tradition never resolved the difference, and its voice is built to keep both patterns visible as real and unchosen-between.</p><p class="src">Plain meaning: the record's own (<code>pahc.term.episkopos</code>, confidence Contested). Fuller entry: draft. Sources: Ignatius, <i>Ephesians</i> 4, <i>Smyrnaeans</i> 8; <i>1 Clement</i> 42, 44; Hermas, <i>Vision</i> 2.4.3; <i>Didache</i> 15.</p></template>
+<template id="lex-presbyteros"><h3>presbyteros</h3><p class="plain">The elders who share the governing of a community.</p><p>In some churches they are a council holding the whole trust themselves; in others they gather around one overseer. Rome wrote to Corinth to defend elders who had been put out of office; in Asia Minor the same men were the council fitted to the overseer. The record does not always let us tell whether the word means age, standing, or office.</p><p class="src">Plain meaning: the record's own (<code>pahc.term.presbyteros</code>, confidence Contested). Fuller entry: draft. Sources: <i>1 Clement</i> 42, 44, 47, 54, 57; Polycarp, <i>Philippians</i> (salutation); Hermas, <i>Vision</i> 2.4.3; Ignatius, passim.</p></template>
+<template id="lex-presbyterion"><h3>presbyterion</h3><p class="plain">The council of elders around the overseer.</p><p>One letter says they are tuned to him the way strings are tuned to a harp. The word belongs to the strand of this tradition that pressed toward a single bishop; the other strand has the elders, and no one above them.</p><p class="src">Plain meaning: the record's own (<code>pahc.term.presbyterion</code>, confidence Documented). Fuller entry: draft. Sources: Ignatius, <i>Ephesians</i> 4; <i>Trallians</i> 3.</p></template>
+<template id="lex-diakonos"><h3>diakonos</h3><p class="plain">Those set apart to serve: they carry help to the widow, the prisoner, and the stranger who cannot repay.</p><p>Named with the bishop and the elders as one three-part pattern in Ignatius's letters; in Justin's description of a Sunday, the deacons carry the bread and cup to those who could not come. The Didache tells a community to appoint bishops and deacons for itself.</p><p class="src">Plain meaning: the record's own (<code>pahc.term.diakonos</code>, confidence Widely Accepted). Fuller entry: draft. Sources: Ignatius, passim; Justin, <i>First Apology</i> 65, 67; <i>Didache</i> 15.</p></template>
+
+<footer class="site-footer">
+  <div class="row">
+    <span data-copy="live">&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../../../../../../cic-website/about.html">About</a>
+      <a href="../../../../../../cic-website/pilot-feedback.html">Feedback</a>
+      <a href="../../../../../../cic-website/privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
+var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+Array.prototype.forEach.call(document.querySelectorAll('a[data-app]'), function(a){
+  a.href = a.href.replace('https://cic-engine.onrender.com', APP);
+  a.addEventListener('click', function(){ try { localStorage.setItem('cic-returning','1'); } catch(e){} });
+});
+
+// Lexicon grammar — hover/focus = Level 2 (CSS); click/Enter = Level 3.
+// Touch: first tap shows the card, second opens the entry (the app's
+// tap → popover → "Full entry" rule). Without this script the term is a
+// button whose description is the gloss; the card shows on hover/focus.
+var panel = document.getElementById('lexPanel');
+var closeBtn = document.getElementById('lexPanelClose');
+var titleEl = document.getElementById('lexPanelTitle');
+var plainEl = document.getElementById('lexPanelPlain');
+var bodyEl = document.getElementById('lexPanelBody');
+var srcEl = document.getElementById('lexPanelSrc');
+var lastFocus = null;
+var coarse = window.matchMedia('(hover: none)').matches;
+function collapseAll(){ Array.prototype.forEach.call(document.querySelectorAll('.lex[aria-expanded="true"]'), function(o){ o.setAttribute('aria-expanded','false'); }); }
+function openPanel(key, from){
+  var tpl = document.getElementById('lex-' + key);
+  if (!tpl) return;
+  var frag = tpl.content.cloneNode(true);
+  titleEl.textContent = frag.querySelector('h3').textContent;
+  plainEl.textContent = frag.querySelector('.plain').textContent;
+  srcEl.innerHTML = frag.querySelector('.src').innerHTML;
+  bodyEl.innerHTML = '';
+  Array.prototype.forEach.call(frag.querySelectorAll('p:not(.plain):not(.src)'), function(p){ bodyEl.appendChild(p); });
+  lastFocus = from;
+  collapseAll();
+  panel.classList.add('open');
+  closeBtn.focus();
+  document.addEventListener('keydown', onKey);
+}
+function closePanel(){
+  panel.classList.remove('open');
+  document.removeEventListener('keydown', onKey);
+  if (lastFocus) lastFocus.focus();
+}
+function onKey(e){ if (e.key === 'Escape') closePanel(); }
+closeBtn.addEventListener('click', closePanel);
+Array.prototype.forEach.call(document.querySelectorAll('.lex'), function(btn){
+  btn.addEventListener('click', function(){
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    if (coarse && !expanded) { collapseAll(); btn.setAttribute('aria-expanded','true'); return; }
+    openPanel(btn.getAttribute('data-lex'), btn);
+  });
+  // Keyboard: hold the card open while focus is anywhere inside the wrap, so
+  // Tab can travel from the term into "Full entry" (the browser blurs the term
+  // before it focuses the next control; a card hidden on blur would swallow
+  // the focus).
+  // Not on touch: there the first tap's own click handler shows the card.
+  if (!coarse) btn.addEventListener('focus', function(){ collapseAll(); btn.setAttribute('aria-expanded','true'); });
+});
+Array.prototype.forEach.call(document.querySelectorAll('.lex-wrap'), function(wrap){
+  wrap.addEventListener('focusout', function(e){ if (!e.relatedTarget || !wrap.contains(e.relatedTarget)) wrap.querySelector('.lex').setAttribute('aria-expanded','false'); });
+});
+Array.prototype.forEach.call(document.querySelectorAll('.lex-card .full'), function(b){
+  b.addEventListener('click', function(){ openPanel(b.getAttribute('data-open'), b.parentNode.previousElementSibling); });
+});
+document.addEventListener('click', function(e){ if (!e.target.closest('.lex-wrap')) collapseAll(); });
+})();
+</script>
+</body>
+</html>

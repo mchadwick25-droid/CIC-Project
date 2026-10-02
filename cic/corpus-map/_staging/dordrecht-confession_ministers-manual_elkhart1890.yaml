@@ -1,7 +1,8 @@
 source_file: dordrecht-confession_ministers-manual_elkhart1890.txt
 
 assignments:
-  - work: "Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone edition)"
+  - row_id: dordrecht-confession_ministers-manual_elkhart1890--confession-of-faith-and-minister-s-manual-dordrecht
+    work: "Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone edition)"
     author: dordrecht-confession
     locus: "whole volume"
     atlas_ids:
@@ -13,5 +14,4 @@ assignments:
       (1632) with the movement's own catechism and sacramental forms -
       distinct from and independent of the Confession's reproduction
       inside the already-vendored Martyrs Mirror
-      (van-braght_martyrs-mirror_sohm1886.txt). Vendored 2026-09-25 as
-      part of a post-Step0-Revision-2 PD source-acquisition pass.
+      (van-braght_martyrs-mirror_sohm1886.txt).

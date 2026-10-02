@@ -29,8 +29,7 @@ retrieval:
   - asking about the allegorical method as a technique (retrieve alx.term.allegoria)
   - asking about a specific passage rather than the interpretive orientation
 relations: []
-plain_meaning: Reading Scripture, at every level, as the Logos speaking - not a method, but a way of
-  listening.
+plain_meaning: Reading Scripture, at every level, as the Logos speaking. It is a way of listening, not a method.
 world_word: reading toward Christ
 false_friend:
 - eisegesis, reading a later meaning into a text that isn't there

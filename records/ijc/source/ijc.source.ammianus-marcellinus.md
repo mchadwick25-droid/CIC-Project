@@ -13,6 +13,11 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
+claim_guards:
+- never attribute content beyond Book 27.3 (the 366 election riot, the Sicininus
+  casualty figure, the bishopric-wealth remark) - no other passage of the Res Gestae
+  is vendored or verified in this build, including the public-post/synod-travel
+  material at 21.16.18
 author: "Ammianus Marcellinus (c. 330-c. 391), pagan Roman historian"
 work: "Res Gestae, Book 27.3 - the 366 election riot between Damasus's and Ursinus's parties, with a
   casualty figure for the basilica of Sicininus and a remark on the wealth at stake in the Roman
@@ -29,11 +34,9 @@ discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md
   a fleet cross-world research thread's handoff, acted on and verified directly by this thread"
 external_ids: {}
 ---
-VENDORED 2026-09-13: the fleet's own cross-world research thread
-independently found and verified the Yonge edition on the Internet
-Archive (reachable from this sandbox even where ccel.org/newadvent.org/
-tertullian.org are not) and handed the lead to this thread, which
-fetched, verified, and vendored it directly (see
+The Yonge edition is vendored from the Internet Archive
+(reachable from this sandbox even where ccel.org/newadvent.org/
+tertullian.org are not; see
 cic/engine/texts_registry.py's own ENTRIES note). Book XXVII.3.12-13 -
 the casualty figure this build had previously carried only via
 npnf202's own editorial endnote quoting Ammianus (see

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: syriac-orthodox-west-syriac-christianity
 works:
-- work: The Arabic Gospel of the Infancy of the Saviour
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-arabic-gospel-of-the-infancy-of-the-saviour-2
+  work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   role: transmission
@@ -16,7 +17,8 @@ works:
     the class is. Compiled from Syriac sources and transmitted in Arabic through that milieu;
     custody, not composition.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Chronicle of Edessa
+- row_id: chronicle-of-edessa_cowper--the-chronicle-of-edessa-2
+  work: The Chronicle of Edessa
   author: chronicle-of-edessa
   locus: whole work (single-work volume)
   role: context
@@ -29,7 +31,8 @@ works:
 
     '
   source_file: chronicle-of-edessa_cowper.txt
-- work: A Canticle of Mar Jacob the Teacher on Edessa
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--a-canticle-of-mar-jacob-the-teacher-on-edessa
+  work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
   locus: div2 9.4
   role: tradition
@@ -39,7 +42,8 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Lives of the Eastern Saints (I)
+- row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--lives-of-the-eastern-saints-i
+  work: Lives of the Eastern Saints (I)
   author: john-ephesus
   locus: whole fascicule
   role: tradition
@@ -52,7 +56,8 @@ works:
 
     '
   source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
-- work: Lives of the Eastern Saints (II)
+- row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--lives-of-the-eastern-saints-ii
+  work: Lives of the Eastern Saints (II)
   author: john-ephesus
   locus: whole fascicule
   role: tradition
@@ -62,7 +67,8 @@ works:
 
     '
   source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
-- work: Lives of the Eastern Saints (X)
+- row_id: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926--lives-of-the-eastern-saints-x
+  work: Lives of the Eastern Saints (X)
   author: john-ephesus
   locus: one article within a mixed 1926 periodical fascicule - see the file's own header
   role: tradition
@@ -76,7 +82,8 @@ works:
 
     '
   source_file: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt
-- work: The Third Part of the Ecclesiastical History of John, Bishop of Ephesus
+- row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--the-third-part-of-the-ecclesiastical-history-of-john-bishop
+  work: The Third Part of the Ecclesiastical History of John, Bishop of Ephesus
   author: john-ephesus
   locus: whole file
   role: tradition
@@ -92,7 +99,134 @@ works:
 
     '
   source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
-- work: The Divine Liturgy of James
+- row_id: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860--ecclesiastical-history-part-iii
+  work: Ecclesiastical History, Part III
+  author: john-of-ephesus
+  locus: Books I-VI in translation (body headings confirmed at lines 5883, 9233, 12719, 16886,
+    17506, and before 5883 for Book I); III.36-37 directly verified as John's own narrative
+  role: tradition
+  confidence: assigned
+  note: 'John''s own contemporary account of Justinian- and Justin II-era persecution of the
+    Miaphysite party from the persecuted side. The vendored file carries Books I-VI in translation,
+    confirmed by direct body-heading checks at the line numbers above (an earlier pass understated
+    this as "Book III, and fragments of Books IV-VI via the index" - corrected).
+
+    Book I carries, at c. lines 4471-4577, the doctrinal BACKGROUND of a Tritheist/Trinitarian
+    controversy within the Monophysite party itself - but this stretch specifically is the
+    1860 TRANSLATOR''s own editorial excursus (Payne Smith, drawing explicitly and by name
+    on the 13th-century chronicler Bar-Hebraeus), not John''s own contemporary narrative:
+    the excursus closes with the editor''s own words, "We may now, however, return to our
+    author, whose narrative will be found to confirm the above statements of Bar-Hebraeus"
+    (c. lines 4575-4577). The excursus itself (the Ascunages creed, the Condobaudites'' name
+    and doctrine, the reported four-day public disputation) is Payne Smith''s own 1860 scholarly
+    apparatus relaying Bar-Hebraeus - real historical information but not John of Ephesus''s
+    own eyewitness testimony; a source record citing it must attribute it correctly and not
+    present it as John''s own words.
+
+    John''s own text resumes at c. line 4580 with Conon''s arrest - and this is real, substantial,
+    directly quotable narrative in his own voice, not merely apparatus: it is Book V material
+    the translator relocated into this stretch of Book I ("Their history is continued in the
+    fifth book... we propose to proceed with it here," c. line 4602). It covers, at real length
+    (through c. line 4880): the Tritheites'' own attempt to recruit John of Ephesus as the
+    third bishop canon law required them to have (their only two bishops, Conon and Eugenius,
+    had been deposed) - they tried to bribe him into joining them; he refused and argued they
+    were heretics; they recruited a previously deposed bishop, Theonas, instead (c. lines
+    4613-4651); a debate ordered before the patriarch and synod (c. lines 4686-4690); and
+    John''s own naming of "John Grammaticus of Alexandria" (the translator''s own note, c.
+    line 4770, identifies this as John Philoponus) as the one whose writings "first led them
+    into error" (c. lines 4777-4790). A source record citing this material correctly attributes
+    it to John''s own reporting.
+
+    The dispute itself, per Ascunages''s own creed as quoted in the excursus ("I acknowledge
+    one nature of Christ the Incarnate Word, but in the Trinity I reckon the natures and substances
+    and Godheads according to the number of the persons"), is a Trinitarian controversy arising
+    inside the anti-Chalcedonian camp - the Tritheists agreed with the movement''s own mainstream
+    on Christ''s own one nature; they diverged by applying a parallel count-by-number-of-persons
+    logic to the Trinity itself, yielding three Godheads. Not a rival reading of the Christological
+    "one nature" formula itself - characterizing it that way overstates the overlap with this
+    world''s own defining Chalcedon-era dispute and should be avoided.
+
+    Book III.36-37 (not III.38, which opens a different topic): John''s own commissioned mission
+    (542 CE) to the pagan hill country of Asia, Caria, Lydia and Phrygia - the Derira temple
+    conversion, imperial funding, the Tralles jurisdiction dispute - directly verified as
+    John''s own narrative voice.
+
+    The Preface (lines 208-224) states the mission''s own "seventy thousand" baptism figure,
+    attributing it to Part II extracts of John''s own work preserved in the Chronicle of Dionysius
+    (per Assemani''s Bibliotheca Orientalis, vol. ii) - not this Part III volume''s own editorial
+    summary. The correct next step for locating this figure in John''s own words is those
+    Part II/Chronicle-of-Zuqnin fragments (not vendored here).
+
+    Book II.44 (confirmed around line 9000, "ninety-nine new churches and twelve monasteries")
+    does survive in this volume - an earlier pass wrongly stated it did not.
+
+    '
+  source_file: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+- row_id: john-of-ephesus_lives-of-the-eastern-saints_brooks1923--lives-of-the-eastern-saints
+  work: Lives of the Eastern Saints
+  author: john-of-ephesus
+  locus: whole work (58 chapters, Patrologia Orientalis 17-19); ch. 49 directly verified
+  role: tradition
+  confidence: assigned
+  note: 'Fifty-eight portraits of miaphysite ascetics, bishops and confessors by an insider
+    - John of Ephesus (c. 507-588) was himself a Miaphysite bishop, missionary and historian,
+    and a personal acquaintance of many of his subjects. This world''s single richest inside-voice
+    source.
+
+    Directly verified against the file, not assumed from a summary: ch. 49, "The Forty-Ninth
+    History, of the Blessed James the Bishop and Brave and Valiant Combatant" (line 26185),
+    is the portrait of Jacob Baradaeus - Brooks'' translation renders his name "James," not
+    "Jacob," a naming variance any record citing him should carry forward. The chapter confirms:
+    his origin at Thella and training at the monastery of "Psiltha"/"Fsiltha" (OCR-uncertain
+    vowel; matches the modern scholarly "Pesilta"); c. 15 years'' quiet residence at Constantinople
+    under the believing queen''s (Theodora''s) protection before consecration; joint consecration
+    with a second bishop, Theodore, for "Hirtha of the Saracens" (the Ghassanid capital),
+    confirming the Ghassanid-Arab federate connection; and, in the footnote at line 26301,
+    the direct etymology of his nickname: "Prom [From] this attire he got the nickname ''Burd''ava''
+    or ''Burd''ana'' (the man of the patchwork garment)" - confirming "Baradaeus" derives
+    from a real, attested patchwork/felt garment, cut by James himself from "one thick and
+    ugly cloak of withes" for both clothing and covering. The census''s own pre-drafted story
+    ("The Bishop in the Horse-Blanket") calls this garment a "horse-blanket"/"horse-cloth"
+    - that specific image is not what this passage itself says (it describes a cut cloak,
+    not a horse accoutrement); whoever writes the eventual quote/story record should use the
+    passage''s own wording rather than the pre-drafted teaser''s color.
+
+    Not yet independently located in this file: ch. 47, which the census''s second pre-drafted
+    story cites (on the Tralles/Asia Minor pagan mission) as a second witness alongside the
+    Ecclesiastical History''s own account (verified there instead - see that file''s corpus-map
+    entry). A task for whoever next works this file closely.
+
+    OCR caveat, stated once here rather than on every row: this edition interleaves Syriac-script
+    and English-translation text; large stretches OCR as unreadable Syriac-script garbage.
+    Only English stretches are quotable; each citation needs its own locus check before use
+    (see REGISTRY.yaml entry for this file).
+
+    '
+  source_file: john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt
+- row_id: joshua-the-stylite_chronicle_wright1882--the-chronicle-of-joshua-the-stylite
+  work: The Chronicle of Joshua the Stylite
+  author: joshua-the-stylite
+  locus: whole work (single-work volume)
+  role: context
+  confidence: provisional
+  note: 'Composed 507 CE, describing 494/5-506 (the Anastasian War and its build-up, centered
+    on Edessa) - inside this world''s window and its core city, but role marked `context`,
+    not `tradition`, on the same open-question footing the Chronicle of Edessa already carries
+    in this bucket (see Build/worlds/_cross-world/NEEDS-RULING.md). The chronicler''s own
+    theological allegiance is not established either way from a first pass: unlike the Chronicle
+    of Edessa (explicitly Chalcedonian, per its own introduction), this chronicle is largely
+    civic and military in focus and does not obviously argue either side of 451. Authorship
+    itself is traditional, not secure - the text survives only embedded in the later Chronicle
+    of Zuqnin (c. 775), which names a monk called Joshua; modern scholarship does not treat
+    this as a settled identification. Whether this belongs at `tradition` (an Edessene voice
+    from inside the world''s own core territory, whatever the chronicler''s own confession)
+    or stays `context` (an outside civic record, like the Chronicle of Edessa) is a live open
+    question for Doc_02, not resolved here.
+
+    '
+  source_file: joshua-the-stylite_chronicle_wright1882.txt
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
+  work: The Divine Liturgy of James
   author: liturgy-of-st-james
   locus: div2 12.2
   role: tradition
@@ -104,3 +238,75 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: philoxenus-of-mabbug_discourses_budge1894--the-discourses-of-philoxenus
+  work: The Discourses of Philoxenus
+  author: philoxenus-of-mabbug
+  locus: whole work (13 ascetic Discourses, Vol. II translation) plus the same volume's own
+    Creed, Confession of Faith, and anti-Nestorian/anti-"two natures" doctrinal texts (contents
+    page, lines 325-348)
+  role: tradition
+  confidence: assigned
+  note: 'Philoxenus (c. 440-523), bishop of Mabbug 485-519, was one of the movement''s leading
+    anti-Chalcedonian theologians and polemicists, deposed and exiled by Justin I in 519 for
+    that stance - his episcopate and his role in the movement sit squarely inside this world''s
+    own window even though his birth (c. 440) precedes its 451 opening.
+
+    The same vendored volume''s own contents page (lines 325-348) lists, alongside the thirteen
+    ascetic Discourses: "The Creed of Philoxenus," "A Confession of Faith," "Against Those
+    Who Divide Our Lord," "Against Those Who Maintain Two Natures," "Against Every Nestorian,"
+    "Against Nestorius," and "On the Heresies of Mani, Nestorius, and Others" - Philoxenus''s
+    own directly Christological/doctrinal writing, bound and translated in this same Budge
+    1894 Vol. II. Their content is not individually read or quote-verified against the file
+    (a task for whoever next cites them specifically); only their presence in the vendored
+    file''s own contents listing is confirmed.
+
+    '
+  source_file: philoxenus-of-mabbug_discourses_budge1894.txt
+- row_id: zachariah-rhetor_chronicle_hamiltonbrooks1899--the-syriac-chronicle-known-as-that-of-zachariah-of-mitylene
+  work: The Syriac Chronicle known as that of Zachariah of Mitylene
+  author: pseudo-zachariah-rhetor
+  locus: whole compilation (Books I-XII as received; Books III-VI corrected to own-voice,
+    see note)
+  role: tradition
+  confidence: provisional
+  note: 'A composite work, not one author''s own voice throughout - corrected from this file''s
+    own Revision 1, which had the compilation''s own internal voice backwards. Books III-VI
+    derive from Zacharias Scholasticus of Gaza, a companion and defender of Severus of Antioch
+    (see authors_ruled evidence above) - own-voice, sympathetic testimony from within the
+    anti-Chalcedonian camp, not opponent-voice as Revision 1 stated. Books I-II and VII-XII
+    were assembled and continued by an anonymous compiler c. 569, not yet individually assessed
+    for own-voice/opponent-voice status. `role: tradition` at `confidence: provisional` for
+    the WHOLE work still overstates what is known before a book-by-book pass completes the
+    continuator material''s own assessment - Books III-VI alone could reasonably be `assigned`,
+    but the continuator books remain genuinely unassessed. Own-voice/opponent-voice tagging
+    book-by-book, not a single whole-work role, remains Doc_02''s own task for the continuator
+    material specifically.
+
+    '
+  source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+- row_id: severus-of-antioch_select-letters-book6-part1_brooks1903--the-sixth-book-of-the-select-letters-of-severus-of-antioch
+  work: The Sixth Book of the Select Letters of Severus of Antioch
+  author: severus-of-antioch
+  locus: Part I (Text and Translation Society, 1903)
+  role: tradition
+  confidence: assigned
+  note: 'Severus of Antioch (c. 459-538), patriarch of Antioch 512-518 and the movement''s
+    foremost theologian, in his own words - real administrative and pastoral correspondence
+    from a working patriarch and, after his 518 deposition, an exile writing to sustain a
+    scattered communion. This is only the Sixth Book of his letters (123 letters survive of
+    it); it is not his complete correspondence - see REGISTRY.yaml for what else exists and
+    is not yet vendored.
+
+    '
+  source_file: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
+- row_id: severus-of-antioch_select-letters-book6-part2_brooks1904--the-sixth-book-of-the-select-letters-of-severus-of-antioch
+  work: The Sixth Book of the Select Letters of Severus of Antioch
+  author: severus-of-antioch
+  locus: Part II (Text and Translation Society, 1904)
+  role: tradition
+  confidence: assigned
+  note: 'Continuation of severus-of-antioch_select-letters-book6-part1_ brooks1903.txt - same
+    work, same author, same reasoning.
+
+    '
+  source_file: severus-of-antioch_select-letters-book6-part2_brooks1904.txt

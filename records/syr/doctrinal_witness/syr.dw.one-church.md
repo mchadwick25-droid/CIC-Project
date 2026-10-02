@@ -53,4 +53,4 @@ text; its provenance (the comparandum's own dialogue) is stated in
 tensions rather than laundered. The living-tradition question is
 routed to the doorway per the spec (living_tradition_flag true).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+Written in short sentences, at the approved register level, with all claims and hedges kept.

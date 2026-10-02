@@ -1,7 +1,8 @@
 source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
 
 assignments:
-  - work: "The Third Part of the Ecclesiastical History of John, Bishop of Ephesus"
+  - row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--the-third-part-of-the-ecclesiastical-history-of-john-bishop
+    work: "The Third Part of the Ecclesiastical History of John, Bishop of Ephesus"
     author: john-ephesus
     locus: "whole file"
     atlas_ids:

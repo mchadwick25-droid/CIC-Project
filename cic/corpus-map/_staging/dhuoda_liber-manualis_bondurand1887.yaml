@@ -1,7 +1,8 @@
 source_file: dhuoda_liber-manualis_bondurand1887.txt
 
 assignments:
-  - work: "Liber Manualis"
+  - row_id: dhuoda_liber-manualis_bondurand1887--liber-manualis
+    work: "Liber Manualis"
     author: dhuoda
     locus: "whole file"
     atlas_ids:

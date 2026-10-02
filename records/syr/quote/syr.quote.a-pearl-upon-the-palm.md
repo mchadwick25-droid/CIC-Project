@@ -41,11 +41,11 @@ relations:
 - type: associated-with
   target: syr.term.raza-shrara
 ---
-Opened 2026-08-27 for F2-P, served by syr.term.raza-shrara, whose one vendored locus is 'The Pearl
+This quote serves F2-P; syr.term.raza-shrara grounds that cell, and its one vendored locus is 'The Pearl
 I-VII (the method performed)'.
 
 The cell's discipline note in CELL-VOICE-WORKLIST.md warned about this exact passage: the pearl is
 turned on the palm BEFORE the conclusion, and cutting to the memorable phrase loses the seeing that
 produced it. The quote is cut to keep the turning and stop before the doctrine.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.

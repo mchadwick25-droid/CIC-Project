@@ -32,7 +32,7 @@ from engine.m1.spoken_fields import SPOKEN_FIELDS, fields_with_role
 def test_attribution_fields_relocated_unchanged():
     assert gates._ATTRIBUTION_FIELDS == {
         "voice_craft": ["identity", "guard"],
-        "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
+        "world_core": ["horizon", "formation_logic", "thinness", "cautions", "living_traditions"],
         "term": ["plain_meaning", "quick_meaning", "world_word"],
         "doctrinal_witness": ["text"],
         "honest_limit": ["statement"],
@@ -89,8 +89,8 @@ def test_cross_world_participant_fields_are_all_declared():
 # quote/story's emit() calls) and build_fleet_preamble() (fleet_voice's own
 # six fields).
 _BUILD_PROMPT_READS = {
-    "voice_craft": ["identity", "guard", "characteristic_concerns", "flavor_notes"],
-    "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
+    "voice_craft": ["identity", "guard", "characteristic_concerns", "source_anchor", "flavor_notes"],
+    "world_core": ["horizon", "formation_logic", "thinness", "cautions", "living_traditions"],
     "term": ["plain_meaning", "quick_meaning", "world_word"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
@@ -174,7 +174,7 @@ def test_fields_with_role_filters_correctly():
     assert fields_with_role("story") == ["tellable_as", "text"]
     assert fields_with_role("story", "voice-diet") == ["tellable_as", "text"]
     assert fields_with_role("voice_craft", "instruction") == [
-        "identity", "guard", "characteristic_concerns", "flavor_notes",
+        "identity", "guard", "characteristic_concerns", "source_anchor", "flavor_notes",
     ]
     assert fields_with_role("nonexistent-type") == []
     assert fields_with_role("nonexistent-type", "voice-diet") == []

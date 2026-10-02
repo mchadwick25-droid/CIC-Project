@@ -20,4 +20,4 @@ found_sources:
 - hal.source.augustine-letters
 note: "Seventeen letters titled To/From Jerome enumerated directly (XXVIII, XXXIX, XL, LXVII, LXVIII, LXXI, LXXII, LXXIII, LXXV, LXXXI, LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII). Letter LXXI (the Oea report and the plea for the Septuagint) confirmed present; Letter LXXV = Jerome's Ep. 112."
 ---
-Run 2026-08-21. Rights read from the file's own DC.Rights header (line 85).
+Rights read from the file's own DC.Rights header (line 85).

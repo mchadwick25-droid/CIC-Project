@@ -1,7 +1,8 @@
 source_file: john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt
 
 assignments:
-  - work: "In Sanctum Lucianum Martyrem"
+  - row_id: john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50--in-sanctum-lucianum-martyrem
+    work: "In Sanctum Lucianum Martyrem"
     author: chrysostom
     locus: "whole file"
     atlas_ids:

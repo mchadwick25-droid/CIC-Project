@@ -2,10 +2,9 @@
 SQLite stores on cic-engine's Render Disk (engine.m4.store.Store's
 events DB, engine.m8.log_store.UsageLogStore's usage DB).
 
-Written for Tech-Readiness Package 2 (Operations, 2026-09-21). Ministry/
-Operations/Standing/CiC_Backup_Restore_Runbook.md is the procedure this
-module implements; read that first for RPO/RTO and the one-time R2
-bucket setup.
+Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md is the
+procedure this module implements; read that first for RPO/RTO and the
+one-time R2 bucket setup.
 
 Why in-process, not a Render Cron Job (verified, not assumed): Render
 mounts a Persistent Disk to exactly one running service, and a Cron Job

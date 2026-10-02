@@ -1,7 +1,8 @@
 source_file: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
 
 assignments:
-  - work: "Preface to the Homilies on Numbers (in Origenes Werke Bd. 7)"
+  - row_id: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921--preface-to-the-homilies-on-numbers-in-origenes-werke-bd-7
+    work: "Preface to the Homilies on Numbers (in Origenes Werke Bd. 7)"
     author: rufinus
     locus: "preface to Donatus, raw-scan lines ~2370-2400"
     atlas_ids:
@@ -18,7 +19,8 @@ assignments:
       someone else's. Contrast the Homilies themselves, immediately
       below: those are Origen's own composition, and Rufinus's role
       there is transmission, not tradition.
-  - work: "Homilies on Numbers"
+  - row_id: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921--homilies-on-numbers
+    work: "Homilies on Numbers"
     author: origen
     locus: "whole file from raw-scan line ~2503 (\"HOMILIA PRIMA.\", the first
       of the 99 homilies) onward"

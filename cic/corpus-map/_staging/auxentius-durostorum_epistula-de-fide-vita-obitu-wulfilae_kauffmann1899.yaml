@@ -1,7 +1,8 @@
 source_file: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
 
 assignments:
-  - work: "Epistula de Fide, Vita et Obitu Wulfilae"
+  - row_id: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899--epistula-de-fide-vita-et-obitu-wulfilae
+    work: "Epistula de Fide, Vita et Obitu Wulfilae"
     author: auxentius-durostorum
     locus: "whole file"
     atlas_ids:

@@ -1,7 +1,8 @@
 source_file: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt
 
 assignments:
-  - work: "Relatio Motionis and Disputatio Bizyae"
+  - row_id: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90--relatio-motionis-and-disputatio-bizyae
+    work: "Relatio Motionis and Disputatio Bizyae"
     author: maximus-confessor
     locus: "whole file"
     atlas_ids:

@@ -33,10 +33,6 @@ note: "Original sin: Leo's Ep. LIX.4 (npnf212 line 7398) states the transmission
   claimed all three F1-T questions were unaddressed, is corrected and narrowed to the one question this
   sweep confirms genuinely has no answer."
 ---
-Added at review (Opus canon-structure pass, 2026-08-21) as the
-structural fix for Review 3's H5 finding: the root cause of the three
-false honest_limit claims (F1-T original sin and eucharist; F5-T
-marriage) was that no cell-scoped negative search had ever actually
-been run before this build's first pass wrote those refusals. This
-record and ijc.search.f5-t-negative-sweep are the searches that should
-have preceded the original drafts.
+This record and ijc.search.f5-t-negative-sweep are the dedicated,
+cell-scoped negative searches grounding this world's F1-T (original sin
+and eucharist) and F5-T (marriage) honest_limit claims.

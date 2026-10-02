@@ -23,15 +23,14 @@ result: not_found
 found_sources: []
 note: "No account of private prayer's interior (restlessness, silence, unanswered petition) survives in
   this world's own licensed base outside the one attested public scene (the besieged basilica's singing,
-  already licensed and used). Corrected at a second follow-up confirmation review (2026-08-22): this
-  record originally named only one documented remission case (Ambrose withholding communion from
-  Theodosius until shown repentance, Ep. LI); a second exists in the same licensed corpus - Callinicum
+  already licensed and used). Two documented remission cases exist in the licensed corpus: Ambrose
+  withholding communion from Theodosius until shown repentance (Ep. LI), and Callinicum
   (ijc.story.callinicum-synagogue, Epp. XL-XLI), where the same bishop secures the same emperor's
-  reversal of a punitive order. Both, like the Theodosius case, are public discipline and public
+  reversal of a punitive order. Both are public discipline and public
   remission exercised in view of the court, not private forgiveness extended by one person to another
-  who remains unrepentant. CONSEQUENCE: the honest_limit's claim that devotional interiority is not what
-  this record preserves is confirmed rather than merely asserted."
+  who remains unrepentant. This confirms the honest_limit's claim that devotional interiority is not what
+  this record preserves."
 ---
-Added at a follow-up confirmation review (2026-08-22) per that
-review's M7 finding - see ijc.search.c-p-negative-sweep for the shared
-root-cause statement.
+This cell's negative claim is grounded by a dedicated, cell-scoped
+negative search, matching the discipline described at
+ijc.search.c-p-negative-sweep.

@@ -1,7 +1,8 @@
 source_file: john-nikiu_chronicle_charles1916.txt
 
 assignments:
-  - work: "The Chronicle of John, Bishop of Nikiu"
+  - row_id: john-nikiu_chronicle_charles1916--the-chronicle-of-john-bishop-of-nikiu
+    work: "The Chronicle of John, Bishop of Nikiu"
     author: john-nikiu
     locus: "whole file"
     atlas_ids:

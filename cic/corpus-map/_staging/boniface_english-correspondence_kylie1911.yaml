@@ -1,7 +1,8 @@
 source_file: boniface_english-correspondence_kylie1911.txt
 
 assignments:
-  - work: "The English Correspondence of Saint Boniface"
+  - row_id: boniface_english-correspondence_kylie1911--the-english-correspondence-of-saint-boniface
+    work: "The English Correspondence of Saint Boniface"
     author: boniface
     locus: "whole file"
     atlas_ids:

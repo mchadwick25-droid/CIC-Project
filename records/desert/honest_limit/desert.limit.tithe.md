@@ -35,20 +35,12 @@ giving question the "tithe" framing assumes, which this record states
 plainly rather than forcing an answer the corpus's own logic does not
 support.
 
-Step4, Round 3 review Finding S2: the predecessor record for this cell
-(desert.limit.f4-t-born-again-and-tithe) declared "born again" absent
-from "this corpus's own registered vocabulary at all" and certified
-itself "checked against its own full narrative" - both false: the
-phrase does occur, once, in vendored Palladius ch. XLV (see
-desert.dw.born-again, built from that material), and the bare
-exhaustiveness phrase was never actually backed by a full-text count.
-This record narrows the claim to what a full-text search of both
-vendored files actually confirms is absent (tithing specifically) and
-states the search performed, matching the model desert.limit.f1-t-
-original-sin-eucharist-faith already sets for this record set.
-
-Step5, Round 1 review Finding S6: this compiled statement still opened
-"I do not have a clear answer" - corrected to "We do not have a clear
-answer," matching the fleet's own strict we-voice discipline
-(fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in desert.voice.craft's
-own flavor_notes).
+This record's claim is narrowed to what a full-text search of both
+vendored files actually confirms is absent (tithing specifically), and
+states the search performed, matching the model
+desert.limit.f1-t-original-sin-eucharist-faith sets for this record
+set; "born again" does occur, once, in vendored Palladius ch. XLV (see
+desert.dw.born-again, built from that material). The compiled
+statement opens "We do not have a clear answer," matching the fleet's
+own strict we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4,
+restated in desert.voice.craft's own flavor_notes).

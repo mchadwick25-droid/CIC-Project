@@ -57,7 +57,7 @@ def test_acute_distress_does_not_accumulate():
 
 
 def test_an_ambiguous_signal_leaves_a_trace_even_with_no_tags_returned():
-    """Measured live 2026-08-24: both AMBIGUOUS_LOW_CONFIDENCE messages came
+    """Measured live: both AMBIGUOUS_LOW_CONFIDENCE messages came
     back with an empty tag list. SS4.2 says the weak signal is logged, so code
     names it or it is not recorded at all - and the check-in turn asks the
     participant a question whose answer would otherwise reach a gate with no

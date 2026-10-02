@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-christianity-conversion-era
 works:
-- work: History of the Armenians
+- row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--history-of-the-armenians
+  work: History of the Armenians
   author: moses-khoren
   locus: the Mashtots alphabet narrative confirmed present; III.47-54 not cross-checked against
     this translation's own numbering
@@ -17,7 +18,8 @@ works:
 
     '
   source_file: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
-- work: 'Moses of Chorene: History of Armenia (extract)'
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--moses-of-chorene-history-of-armenia-extract
+  work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene
   locus: div2 9.13
   role: tradition

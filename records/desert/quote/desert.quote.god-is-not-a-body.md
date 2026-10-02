@@ -59,17 +59,14 @@ relations:
 - type: associated-with
   target: desert.gravity.evagrian-systematization
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 22800.
-DISCLOSED: the ANF prints the Latin "Simplex intellectualis natura" as
+Verified verbatim against the vendored file at line 22800.
+The ANF prints the Latin "Simplex intellectualis natura" as
 an inline editorial note after "uncompounded intellectual nature"; the
 note is excised.
 
-Quote-verbatim gate fix (2026-09-22): the record had transliterated the source's Greek Μονάς/῾Ενάς
-into Latin letters ("Monas"/"Henas") - a real character substitution, not one of the ruled allowed
-classes. Restored the source's own Greek script exactly (including its polytonic accent forms, which
-differ at the codepoint level from the modern monotonic accented letters one would type by default).
-The concept and its gloss are unchanged; only the script the word is shown in changed back to the
-source's own.
+The text field carries the source's own Greek script for Μονάς/῾Ενάς exactly, including its
+polytonic accent forms (which differ at the codepoint level from the modern monotonic accented
+letters one would type by default), not a Latin-letter transliteration ("Monas"/"Henas").
 
 Registered because desert.force.origenist-controversy could say a fight
 happened and could not say what about. This is the content. It is the

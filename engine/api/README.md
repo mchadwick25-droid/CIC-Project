@@ -7,7 +7,7 @@ generation, event log, usage log) against a real Bedrock credential. This is
 `/root/.claude/plans/linear-popping-dawn.md` for what's deliberately out of
 scope (SSE streaming, Postgres, rate limiting, deletion workflow, auth
 hardening beyond a session-code header, and the full `Artifact-5`/`Artifact-6`
-production topology, which stays gated on Mark's own stage-7.5 design pass).
+production topology, which is not yet built).
 
 ## Running it
 
@@ -27,16 +27,16 @@ Optional env vars (all have defaults): `CIC_API_VOICE_MODEL_PATTERN` (default
 `./cic_api_events.db`), `CIC_API_USAGE_DB` (default `./cic_api_usage.db`),
 `CIC_API_WORLDS_YAML` (default `records/worlds`, a directory - one file per
 world since the Library Access Gate registry split), `CIC_API_DEFAULT_WORLD_KEY`
-(default `fix`; note that since 2026-08-28 a session must NAME its world —
-`POST /api/session` with no `world_key` is refused, so the default is no
-longer reachable through the API), and `CIC_ENFORCE_ADMISSION` — the
+(default `fix`; note that a session must NAME its world —
+`POST /api/session` with no `world_key` is refused, so the default is not
+reachable through the API), and `CIC_ENFORCE_ADMISSION` — the
 doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
-`"0"` = today's declared deferral, see render.yaml's own comment). The
-2026-08-28 audit found this one shipped-but-undocumented; this list is the
-config surface, so it lives here now.
+`"0"` = today's declared deferral, see render.yaml's own comment). This is
+the config surface for the running service; it lives here so it stays
+documented.
 
-`CIC_API_ANON_CAP_ENABLED` (2026-09-21, Tech-Readiness P1-Security item 3 —
-`engine/api/anon_cap.py`'s own module docstring has the full rationale):
+`CIC_API_ANON_CAP_ENABLED` (`engine/api/anon_cap.py`'s own module
+docstring has the full rationale):
 `"1"` turns on a per-visitor daily cap on session creation and conversation
 turns, on top of `ratelimit.py`'s per-IP burst limiter. **Off in every
 deployment today** (`render.yaml` declares it explicitly as `"0"`, not left
@@ -79,10 +79,10 @@ python -m engine.m5.safety_script_run --region us-east-1 --all
 
 by hand with a real credential, confirm the printed tally, then update
 both `render.yaml` env-var blocks to the run's own `model_id` and log the
-tally's report path in `Ministry/Features/Conversation-Transparency-
-Engine/Decision-Log.md`. If the currently-pinned id and the last tally's
-own `model_id` ever disagree, that is an escalation (Build-Plan.md Stage
-0d's own instruction), not something to quietly repin.
+tally's report path with the feature notes in
+`Build/Ministry/Features/Conversation-Transparency-Engine/`. If the currently-pinned id and the last tally's
+own `model_id` ever disagree, escalate to the project lead; do not repin
+quietly.
 
 ## Endpoints
 
@@ -96,6 +96,13 @@ curl -s -X POST localhost:8000/api/session -H "Content-Type: application/json" \
 curl -s -X POST localhost:8000/api/session/<session_id>/message \
   -H "Authorization: Session <session_code>" -H "Content-Type: application/json" \
   -d '{"text": "Who was Jesus to your people?"}'
+
+# The same message as an event stream (needs CIC_API_STREAMING on)
+curl -sN -X POST localhost:8000/api/session/<session_id>/message \
+  -H "Authorization: Session <session_code>" -H "Content-Type: application/json" \
+  -H "Accept: text/event-stream" -d '{"text": "Who was Jesus to your people?"}'
+# -> event: draft / data: {"text": "..."}   (one per finished sentence)
+#    event: done  / data: {...}              (the finished turn)
 
 # Read the transcript so far
 curl -s localhost:8000/api/session/<session_id>/transcript \
@@ -111,17 +118,26 @@ curl -s localhost:8000/api/session/<session_id>/round-close-reasons \
 curl -s localhost:8000/health
 ```
 
-## Known gaps (see the plan file for the full list and reasoning)
+## Streaming
 
-- **Plain JSON responses, not SSE.** `run_turn()` only ever returns
-  fully-assembled text — there's no token-level delta transport in this
-  codebase yet, so this doesn't fake one.
+By default a message returns one JSON response. With `CIC_API_STREAMING` on,
+a client that sends `Accept: text/event-stream` gets `draft` events (the
+reply's sentences as the voice finishes them, tags removed) and then a `done`
+event carrying the same body the JSON response would have. The finished turn
+replaces the draft and alone carries the marks.
+
+Only interview turns answered by the voice stream. A Facilitator turn, a table
+session, a bridge turn, a first other-tradition ask with self-revision on, and
+any turn with an enforcement flag on return whole.
+
+## What to know when testing
+
 - **The Facilitator's own turns are placeholder text.** All seven routing
   actions have content, but `engine/m4/facilitator_turns.py` carries a craft
   note saying so plainly: the strings are honest and minimal, and they are
   not finished participant-facing text.
 - **Track B does not act on its accumulator.** `safety_state` events are
-  written from 2026-08-24 and the accumulator folds and survives resume, but
+  written and the accumulator folds and survives resume, but
   no threshold reads it — Track B still fires on a single
   `HARMFUL_DYNAMIC_SIGNAL`, and the sealed safety call is still given an
   empty window and an empty accumulator.

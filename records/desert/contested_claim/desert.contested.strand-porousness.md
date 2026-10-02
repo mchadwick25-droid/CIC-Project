@@ -74,39 +74,23 @@ Alexandria build's own contested_claim register convention - this
 record states and weighs an open interpretive question in this build's
 own analytic voice.
 
-Step3c, Round 1 review Finding S2: the founding-link source citation
-above pointed at desert.source.athanasius-vita-antonii; the Vita
-contains no Kellia material at all (grepped: zero hits in the vendored
-file's own body) and its one Amoun section (SS60) narrates his death
-and Antony's vision, not a founding or advice. The correct citation -
-already present one line below in this record's own sources[] - is the
-Apophthegmata tradition, paraphrase-only under the compiler screen;
-Doc_01 SS2.2's own hedge ("reportedly") is restored in held_against[0],
-dropped by the earlier draft. Finding S7: held_against[2] restated,
-rather than argued against, the claim's own typology-completeness
-clause - the clause is removed from claim (the record's actual subject
-is lived-versus-artifact, not typology completeness) and held_against[2]
-reworded to argue the point it actually makes: an unplaceable community
-as evidence that boundaries were less crisp than assumed, not a
-concession relabeled as an objection.
-
-Step3c, Round 2 review Finding C6: the S2 fix moved the founding-link
-citation to the Apophthegmata without noting that Doc_01 SS2.2's own
-hedged sentence names no source at all for the claim - the Apophthegmata
-is this record's own best inference for where a "reportedly" claim of
-this shape would live, not a pinned citation. Noted explicitly in the
-locus above so the attribution is not later mistaken for a verified one.
-
-Step3c, Round 3 review Finding M1: canon_cells (F3-T) was justified
-twice, at Round 1 and again at Round 2, on the record's Nepheros-as-
-unplaceable-community material specifically - but F3-T's own two fleet
-canon questions ("Was your church 'Catholic'?"; "Did you have
-denominations...") are both about ecclesial/denominational identity,
-the axis this record's own body explicitly declines to cover, and
-neither rewrite actually separated the cell's real content from that
-axis. Moved to no cells, matching desert.contested.alexandria-continuity's
-own convention, rather than attempt a third justification for a fit
-that has not held.
+The founding-link citation points to the Apophthegmata tradition,
+paraphrase-only under the compiler screen: the Vita contains no Kellia
+material at all, and its one Amoun section (SS60) narrates his death
+and Antony's vision, not a founding or advice. Doc_01 SS2.2's own hedge
+("reportedly") is restored in held_against[0]. Doc_01 SS2.2's own
+hedged sentence names no source at all for the claim, so the
+Apophthegmata attribution above is this record's own best inference for
+where a claim of this shape would live, not a pinned citation, noted
+explicitly so it is not later mistaken for a verified one. held_against[2]
+argues the point it actually makes: an unplaceable community as
+evidence that boundaries were less crisp than assumed, not a concession
+relabeled as an objection; the claim's own typology-completeness clause
+is removed, since the record's actual subject is lived-versus-artifact,
+not typology completeness. canon_cells names no cells, matching
+desert.contested.alexandria-continuity's own convention: F3-T's own two
+fleet canon questions are both about ecclesial/denominational identity,
+an axis this record's own body explicitly declines to cover.
 
 Doc_08: desert.force.melitian-rivalry added as a reciprocal relation -
 that force's own generating pressure is this record's own organizational-

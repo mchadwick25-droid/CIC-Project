@@ -10,7 +10,8 @@ authors_ruled:
     from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
 
 assignments:
-  - work: "Capitulatio de partibus Saxoniae"
+  - row_id: capitulatio-de-partibus-saxoniae_pertz1881--capitulatio-de-partibus-saxoniae
+    work: "Capitulatio de partibus Saxoniae"
     author: capitulatio-partibus-saxoniae
     locus: "whole file"
     atlas_ids:

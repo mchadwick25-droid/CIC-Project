@@ -5,7 +5,7 @@ from engine.m4.named_claim_grounding import (
 )
 
 # The real pahc records OG-9's own regression traces
-# (worlds/pahc/Open_Gaps_Tracking.md, entry OG-9), copied verbatim from
+# (Build/worlds/pahc/Open_Gaps_Tracking.md, entry OG-9), copied verbatim from
 # records/pahc/story/pahc.story.one-eucharist-under-bishop.md and
 # records/pahc/source/pahc.source.ignatius-letters.md - not a synthetic
 # paraphrase, so this pins the actual fleet record this defect was found

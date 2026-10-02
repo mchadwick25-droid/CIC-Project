@@ -1,7 +1,8 @@
 source_file: prudentius-troyes_annales-bertiniani_waitz1883.txt
 
 assignments:
-  - work: "Annales Bertiniani"
+  - row_id: prudentius-troyes_annales-bertiniani_waitz1883--annales-bertiniani
+    work: "Annales Bertiniani"
     author: prudentius-troyes
     locus: "a. 844, a. 850"
     atlas_ids:

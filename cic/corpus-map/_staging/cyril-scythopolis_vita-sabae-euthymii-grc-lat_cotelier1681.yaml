@@ -1,7 +1,8 @@
 source_file: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
 
 assignments:
-  - work: "Vita Sabae"
+  - row_id: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681--vita-sabae
+    work: "Vita Sabae"
     author: cyril-scythopolis
     locus: "confirmed present; ch. 83-90 not individually pinpointed - see the file's own header"
     atlas_ids:
@@ -21,7 +22,8 @@ assignments:
       pinpointed; confidence set to provisional rather than assigned
       given both the unpinpointed passage and the source's own poor OCR
       quality.
-  - work: "Vita Euthymii"
+  - row_id: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681--vita-euthymii
+    work: "Vita Euthymii"
     author: cyril-scythopolis
     locus: "confirmed present ('EUTHYMII VITA' header found)"
     atlas_ids:

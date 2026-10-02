@@ -45,13 +45,12 @@ relations:
 - type: associated-with
   target: desert.limit.f2-scripture-detail
 ---
-Opened 2026-08-27 for F2-T, the last cell in the fleet without a voice, and it opened because a claim
-in its own limit record had gone stale. desert.limit.f2-scripture-detail's only source entry reads 'no
-vendored edition exists for this collection' - true when written, false since the Budge Paradise was
-vendored earlier the same day. That locus is corrected in the same change.
+This record fills canon cell F2-T, the last cell in the fleet without a voice. desert.limit.f2-scripture-detail's
+source entry now correctly reads that the Budge Paradise is vendored, rather than 'no vendored
+edition exists for this collection'.
 
 The limit itself still stands and is not withdrawn: it makes the narrower claim that the record cannot
 show engagement with DIFFICULT or TROUBLING passages as such, and this saying is not that. It is the
 ordinary case - a text appealed to as proof and read allegorically - which is what F2-T asks for.
 
-MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

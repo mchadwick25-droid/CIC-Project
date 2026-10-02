@@ -353,3 +353,55 @@ def test_cross_language_report_grades_only_the_non_english_subset(monkeypatch, t
     assert report["findings"][0]["language"] == "lat"
     assert report["findings"][0]["verdict"] == "translation"
     assert report["grader_scope"] == "single Haiku run; first-pass screen, not a V1.8 two-grader pass"
+
+
+# --- two_grader_verdict: V1.8's own two-grader, two-run pass -------------
+
+
+def test_two_grader_verdict_clean_when_all_four_runs_say_translation(monkeypatch):
+    clients = iter([
+        FakeGraderClient([{"verdict": "translation", "reasoning": "ok"}, {"verdict": "translation", "reasoning": "ok"}]),
+        FakeGraderClient([{"verdict": "translation", "reasoning": "ok"}, {"verdict": "translation", "reasoning": "ok"}]),
+    ])
+    monkeypatch.setattr("engine.provider.bedrock.resolve_model_id", lambda pattern, region: f"fake-{pattern}")
+    monkeypatch.setattr("engine.provider.bedrock.make_client", lambda region: next(clients))
+
+    result = rendering_fidelity.two_grader_verdict(region="fake-region", original="A and B.", modern_rendering="A and B, in modern words.")
+
+    assert result["clean"] is True
+    assert len(result["runs"]) == 4
+    assert {r["grader"] for r in result["runs"]} == {"haiku-4.5", "sonnet-4.6"}
+    assert all(r["run"] in (1, 2) for r in result["runs"])
+
+
+def test_two_grader_verdict_not_clean_when_a_single_run_from_either_grader_flags(monkeypatch):
+    clients = iter([
+        FakeGraderClient([{"verdict": "translation", "reasoning": "ok"}, {"verdict": "translation", "reasoning": "ok"}]),
+        FakeGraderClient([{"verdict": "summary", "reasoning": "drops a clause"}, {"verdict": "translation", "reasoning": "ok"}]),
+    ])
+    monkeypatch.setattr("engine.provider.bedrock.resolve_model_id", lambda pattern, region: f"fake-{pattern}")
+    monkeypatch.setattr("engine.provider.bedrock.make_client", lambda region: next(clients))
+
+    result = rendering_fidelity.two_grader_verdict(region="fake-region", original="A and B.", modern_rendering="A.")
+
+    assert result["clean"] is False
+    flagged = [r for r in result["runs"] if r["verdict"] != "translation"]
+    assert len(flagged) == 1
+    assert flagged[0]["grader"] == "sonnet-4.6"
+    assert flagged[0]["run"] == 1
+
+
+def test_two_grader_verdict_not_clean_on_a_call_error(monkeypatch):
+    clients = iter([
+        FakeGraderClient([APITimeoutError(request=None), {"verdict": "translation", "reasoning": "ok"}]),
+        FakeGraderClient([{"verdict": "translation", "reasoning": "ok"}, {"verdict": "translation", "reasoning": "ok"}]),
+    ])
+    monkeypatch.setattr("engine.provider.bedrock.resolve_model_id", lambda pattern, region: f"fake-{pattern}")
+    monkeypatch.setattr("engine.provider.bedrock.make_client", lambda region: next(clients))
+
+    result = rendering_fidelity.two_grader_verdict(region="fake-region", original="X.", modern_rendering="X.")
+
+    assert result["clean"] is False
+    errored = [r for r in result["runs"] if r["error"] is not None]
+    assert len(errored) == 1
+    assert errored[0]["grader"] == "haiku-4.5"

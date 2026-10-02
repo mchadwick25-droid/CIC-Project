@@ -1,7 +1,8 @@
 source_file: gregory-tours_history-of-the-franks-v2_dalton1927.txt
 
 assignments:
-  - work: "The History of the Franks, Volume II"
+  - row_id: gregory-tours_history-of-the-franks-v2_dalton1927--the-history-of-the-franks-volume-ii
+    work: "The History of the Franks, Volume II"
     author: gregory-tours
     locus: "whole file (Books VI-X plus Dalton's translator's notes)"
     atlas_ids:

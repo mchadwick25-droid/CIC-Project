@@ -60,7 +60,7 @@ text: >-
   church, was taken, exiled, and executed. John preached a second time, about
   that too.
 ---
-Verified directly against the vendored file 2026-08-27, every element
+Verified directly against the vendored file every element
 above at a named line: the office and the consulship in the section's
 own title and introduction (npnf109 div1 at 17363); the exordium at
 17591; the defence of admitting him at 17704; the right-of-refuge
@@ -86,4 +86,4 @@ edition prints the sequel in the same division. A telling that stops at
 the altar would be this world flattering itself with its own source
 open on the table.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

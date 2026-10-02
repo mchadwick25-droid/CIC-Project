@@ -1,7 +1,8 @@
 source_file: wyclif_select-english-works-v1_arnold1869.txt
 
 assignments:
-  - work: "Select English Works of John Wyclif, Vol. I (Sermons on the Gospels for Sundays and Festivals)"
+  - row_id: wyclif_select-english-works-v1_arnold1869--select-english-works-of-john-wyclif-vol-i-sermons-on-the
+    work: "Select English Works of John Wyclif, Vol. I (Sermons on the Gospels for Sundays and Festivals)"
     author: wyclif
     locus: "whole volume"
     atlas_ids:
@@ -12,5 +13,4 @@ assignments:
       Wyclif's own Middle English sermons on the Sunday and festival
       Gospels, ed. Thomas Arnold (1869) - real PD substitute for the
       in-copyright modern editions the census named, per this world's own
-      Source Readiness Dossier §3. Vendored 2026-09-25 as part of a
-      pre-Doc_02 source-acquisition pass for lollardy.
+      Source Readiness Dossier §3.

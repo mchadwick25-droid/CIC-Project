@@ -3,7 +3,8 @@
 source_file: luther_table-talk_bell1886.txt
 
 assignments:
-  - work: Selections from the Table Talk of Martin Luther
+  - row_id: luther_table-talk_bell1886--selections-from-the-table-talk-of-martin-luther
+    work: Selections from the Table Talk of Martin Luther
     author: luther
     locus: "whole file"
     atlas_ids:

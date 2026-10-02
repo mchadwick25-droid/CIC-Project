@@ -983,24 +983,56 @@ def test_gate_quote_verbatim_via_run_all_skips_residue_and_finds_nothing_fleet_w
 
 
 def test_the_letterform_normalization_ruling_changes_no_real_fleet_verdict():
-    """Confirms letterform normalization changes no existing quote's
-    verdict unexpectedly. No real quote today carries a long s, thorn, or
-    eth at all, so the fleet's own verified count is untouched by this
-    normalization either way. The split below is pinned here as a
-    permanent regression guard against a future change silently breaking
-    a currently-verified quote - re-measure and update both numbers
-    together if the fleet's own quote count legitimately changes."""
+    """Confirms letterform normalization changes no real quote's verdict
+    it should not change - without pinning the fleet's own size, which
+    grows every time a PR adds a quote and has nothing to do with what
+    this ruling actually protects.
+
+    For every real quote record whose own `text` and matched source span
+    carry none of the archaic letterforms this ruling covers (long s,
+    thorn, eth), the verdict with normalization applied must equal the
+    verdict with normalization turned off - normalization should never
+    be doing invisible work on a record that never needed it. A record
+    whose text or matched span DOES carry one of these letterforms is
+    skipped: normalization is expected to matter there, and the ruling
+    explicitly permits such quotes to exist. Deliberately no assertion on
+    how many quotes exist, how many verify, or how many carry a
+    letterform - pinning any of those numbers is the same brittleness
+    this test used to have."""
+    import re
+
     from engine.m1.loader import load_fleet_records, load_world_records
     from engine.m1.registry import formation_world_keys, load_registry
 
+    archaic_letterform = re.compile("[ſþÞðÐ]")
+
     registry = load_registry()
     fleet = load_fleet_records()
-    verdicts: dict[str, bool] = {}
+    checked = 0
     for w in formation_world_keys(registry):
         records = load_world_records(w)
         for rid, rec in records.items():
             if rec.get("record_type") != "quote":
                 continue
-            verdicts[rid] = verify_quote_record(rec, records, fleet).verified
-    assert len(verdicts) == 357, f"fleet quote-record count changed ({len(verdicts)}) - re-measure the pinned baseline above"
-    assert sum(verdicts.values()) == 350, f"fleet verified-quote count changed ({sum(verdicts.values())}) - re-measure the pinned baseline above"
+            quote_text = rec.get("text") or ""
+            with_normalization = verify_quote_record(rec, records, fleet)
+            # classes_used already names, per matched segment, exactly
+            # which side (quote or source) needed long_s/thorn/eth
+            # reconciled (verify_quote_text's own per-match XOR crediting)
+            # - together with a direct check of the quote's own raw text,
+            # this is the full "text and matched source span" carrier
+            # check without re-deriving the matched span here.
+            carries_letterform = bool(archaic_letterform.search(quote_text)) or bool(
+                with_normalization.classes_used & {"long_s", "thorn", "eth"}
+            )
+            if carries_letterform:
+                continue
+            without_normalization = verify_quote_record(rec, records, fleet, apply_letterform_normalization=False)
+            assert without_normalization.verified == with_normalization.verified, (
+                f"{rid}: verdict changed when letterform normalization was turned off "
+                f"({with_normalization.verified} -> {without_normalization.verified}) even though neither its "
+                f"text nor its matched source span carries a long s, thorn, or eth - normalization should be a "
+                f"no-op here"
+            )
+            checked += 1
+    assert checked > 0, "no real quote record was eligible to check - the fleet loader or registry may be broken"

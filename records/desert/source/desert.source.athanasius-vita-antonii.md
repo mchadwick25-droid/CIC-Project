@@ -32,7 +32,7 @@ attribution_status: attributed
 discovery_channel: "carried from the prior Desert build's cleared Doc_02 SS1.1 (World-Builds/Desert-Monasticism, 2026-07-11) and re-verified in the vendored CCEL corpus (supplied by Mark 2026-08-15-18, vendored on world/alexandria 2026-08-20, copied to this branch 2026-08-21); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf204"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work division located at line 30411; the daily-martyrdom passage
 (SS46-47) verified verbatim at file lines 32364-32400. Translator credited
 per-work (Ellershaw), per the corpus's per-work translator discipline;
@@ -60,7 +60,7 @@ narrative source about the world's own founding figure; the question of
 whether desert formation logic is Alexandria's own is worked at this
 build's gravity discovery, not assumed from this text.
 
-SYRIAC WITNESS VENDORED 2026-08-27:
+SYRIAC WITNESS VENDORED:
 cic/texts/palladius_paradise-v1-syriac_budge1907.txt opens with the Life
 of Antony in the Syriac recension - about 14,800 words against roughly
 32,000 in the NPNF Greek this record is built on. IT IS ABRIDGED, and

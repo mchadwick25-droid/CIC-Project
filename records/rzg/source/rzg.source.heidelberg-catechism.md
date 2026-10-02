@@ -15,7 +15,7 @@ confidence:
     continuity not independently verified this pass (Doc_02 SS1, SS8). This same file's own apparatus
     (lines 2751, 2869, 2878) quotes the Synod of Dort's 148th Session (1 May 1619) verdict approving this
     Catechism, a real vendored touch-point with Dort distinct from the Zurich/Geneva delegation question
-    (Doc_01 SS7, updated at Doc_02 Round 2 review). Joint authorship traditional, not independently adjudicated
+    (Doc_01 SS7). Joint authorship traditional, not independently adjudicated
     - do not cite this row as settling that question.
 sources: []
 relations: []

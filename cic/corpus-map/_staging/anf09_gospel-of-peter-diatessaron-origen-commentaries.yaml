@@ -71,7 +71,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Gospel of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-gospel-of-peter
+  work: The Gospel of Peter
   author: gospel-of-peter
   locus: div2 3.2 (Akhmim fragment)
   atlas_ids:
@@ -85,7 +86,8 @@ assignments:
     6.5 excludes, so it is assigned rather than dropped. apocryphal-and-pseudepigraphal-literature
     holds this class alongside pahc; pahc is kept where the subject matter is genuinely
     apostolic-era, and this entry names what the TEXT is.'
-- work: The Diatessaron of Tatian
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-diatessaron-of-tatian
+  work: The Diatessaron of Tatian
   author: tatian
   locus: div2 4.3 (with subscriptions, 4.4)
   atlas_ids:
@@ -98,7 +100,8 @@ assignments:
     is in anf02 (another worker''s file). His Encratism has no census entry; noted, not assigned.
 
     '
-- work: The Apocalypse of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-peter
+  work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
   atlas_ids:
@@ -113,7 +116,8 @@ assignments:
     apocryphal-and-pseudepigraphal-literature holds this class alongside the other two; pahc
     is kept where the subject matter is genuinely apostolic-era, and this entry names what
     the TEXT is.'
-- work: The Vision of Paul
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-vision-of-paul
+  work: The Vision of Paul
   author: apocalypse-of-paul
   locus: div2 6.2
   atlas_ids:
@@ -125,7 +129,8 @@ assignments:
     of Paul'') with the same id and the same doubt — one assignment settles both. desert-monasticism
     is arguably next-best given its monastic circulation. apocryphal-and-pseudepigraphal-literature
     holds exactly this class; alexandria was only ever a provenance guess.'
-- work: The Apocalypse of the Virgin
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-the-virgin
+  work: The Apocalypse of the Virgin
   author: apocalypse-of-the-virgin
   locus: div2 7.2
   atlas_ids:
@@ -139,7 +144,8 @@ assignments:
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.'
-- work: The Apocalypse of Sedrach
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-sedrach
+  work: The Apocalypse of Sedrach
   author: apocalypse-of-sedrach
   locus: div2 8.2
   atlas_ids:
@@ -152,7 +158,8 @@ assignments:
     said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.'
-- work: The Testament of Abraham
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-testament-of-abraham
+  work: The Testament of Abraham
   author: testament-of-abraham
   locus: div2 9.3
   atlas_ids:
@@ -163,7 +170,8 @@ assignments:
     census has no bucket for the class (same problem as anf08''s Revelation of Moses and Testaments
     of the Twelve Patriarchs); alexandria is a provenance guess only. apocryphal-and-pseudepigraphal-literature
     holds exactly this class.'
-- work: The Acts of Xanthippe and Polyxena
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-acts-of-xanthippe-and-polyxena
+  work: The Acts of Xanthippe and Polyxena
   author: acts-of-xanthippe-and-polyxena
   locus: div2 10.2
   atlas_ids:
@@ -176,7 +184,8 @@ assignments:
     about this text. apocryphal-and-pseudepigraphal-literature holds this class alongside
     pahc; pahc is kept where the subject matter is genuinely apostolic-era, and this entry
     names what the TEXT is.'
-- work: The Narrative of Zosimus
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-narrative-of-zosimus
+  work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2
   atlas_ids:
@@ -188,7 +197,8 @@ assignments:
     only. apocryphal-and-pseudepigraphal-literature holds this class alongside pahc; pahc
     is kept where the subject matter is genuinely apostolic-era, and this entry names what
     the TEXT is.'
-- work: The Narrative of Zosimus
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-narrative-of-zosimus-2
+  work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2
   atlas_ids:
@@ -202,7 +212,8 @@ assignments:
     the TEXT is. `transmission`, the fourth relation, applies here: the relation is CUSTODY
     - this tradition preserved a work that is not its own voice. Jewish core with Christian
     reworking; preserved in Christian transmission, not composed here.'
-- work: The First Epistle of Clement to the Corinthians
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-first-epistle-of-clement-to-the-corinthians
+  work: The First Epistle of Clement to the Corinthians
   author: clement_rome
   locus: div2 12.4
   atlas_ids:
@@ -215,7 +226,8 @@ assignments:
     file); two source files in one bucket is what the merge expects.
 
     '
-- work: The Second Epistle of Clement (an ancient homily)
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-second-epistle-of-clement-an-ancient-homily
+  work: The Second Epistle of Clement (an ancient homily)
   author: second-clement
   locus: div2 12.6
   atlas_ids:
@@ -226,7 +238,8 @@ assignments:
     deliberately.
 
     '
-- work: The Apology of Aristides the Philosopher
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher
+  work: The Apology of Aristides the Philosopher
   author: aristides
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   atlas_ids:
@@ -234,12 +247,13 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: assigned
-  note: 'The earliest apology surviving whole (c. 125, Athens, to Hadrian per the Introduction).
+  note: 'The earliest apology surviving whole (Hadrian, c. 125, per the ANF Introduction; the Syriac superscription names Antoninus Pius, 138-161, which Harris 1893 and Harnack 1897 prefer: Contested, both inside the entry''s window).
     Athens is outside pahc''s named regions, but the era and church-world are pahc''s — same
     treatment as Quadratus in anf08. Its Syriac preservation is a transmission fact, not an
     Edessene assignment. greek-apologists-second-century holds this work for the era''s outward-facing
     writing; pahc is kept because the era and church-world are genuinely its.'
-- work: The Passion of the Scillitan Martyrs
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-passion-of-the-scillitan-martyrs
+  work: The Passion of the Scillitan Martyrs
   author: passion-of-scillitan-martyrs
   locus: div2 14.3
   atlas_ids:
@@ -252,7 +266,8 @@ assignments:
     Latin-African bucket exists.
 
     '
-- work: Letter of Origen to Gregory
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--letter-of-origen-to-gregory
+  work: Letter of Origen to Gregory
   author: origen
   locus: div2 15.2
   atlas_ids:
@@ -264,7 +279,8 @@ assignments:
     through Gregory''s memory there, noted rather than asserted.
 
     '
-- work: Origen's Commentary on the Gospel of John
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-john
+  work: Origen's Commentary on the Gospel of John
   author: origen
   locus: div2 15.3
   atlas_ids:
@@ -277,7 +293,8 @@ assignments:
     files).
 
     '
-- work: Origen's Commentary on the Gospel of Matthew
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-matthew
+  work: Origen's Commentary on the Gospel of Matthew
   author: origen
   locus: div2 16.2
   atlas_ids:
@@ -288,7 +305,8 @@ assignments:
     commentary.
 
     '
-- work: Homilies on Numbers
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--homilies-on-numbers
+  work: Homilies on Numbers
   author: origen
   source_file: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
   locus: 'whole file from raw-scan line ~2503 ("HOMILIA PRIMA.", the first of the 99 homilies)

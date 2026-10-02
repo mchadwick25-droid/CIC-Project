@@ -1,7 +1,8 @@
 source_file: vonsoden_cyprianische-briefsammlung-deu_1904.txt
 
 assignments:
-  - work: "Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Ueberlieferung"
+  - row_id: vonsoden_cyprianische-briefsammlung-deu_1904--die-cyprianische-briefsammlung-geschichte-ihrer-entstehung
+    work: "Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Ueberlieferung"
     author: vonsoden
     locus: "whole file"
     atlas_ids:

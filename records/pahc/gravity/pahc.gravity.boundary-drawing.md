@@ -116,12 +116,10 @@ not later or settled heresies - this gravity is the internal boundary
 this world drew against them in real time, and the boundary itself was
 not yet secured.
 
-SUPPLEMENTAL SOURCE REVIEW (2026-09-09, this build's own new addition):
-two new sources and two new illustrating quote records added -
+Two sources and two illustrating quote records support this gravity:
 pahc.source.second-third-century-remains (Melito of Sardis's Fragment
-VII) and pahc.source.anti-montanist-fragments - both already vendored
-and compiled for this world but never previously checked against this
-gravity's own open items. See the description's own SUPPLEMENTAL SOURCE
-REVIEW paragraph for what each does and does not resolve. Neither
-changes this gravity's classification (Tensional) or its underlying
-Repetition finding for the anti-docetic claim itself.
+VII) and pahc.source.anti-montanist-fragments. See the description's
+own paragraphs above on Melito's fragment and the anti-Montanist
+fragments for what each does and does not resolve. Neither changes
+this gravity's classification (Tensional) or its underlying Repetition
+finding for the anti-docetic claim itself.

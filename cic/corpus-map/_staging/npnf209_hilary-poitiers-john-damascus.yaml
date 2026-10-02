@@ -11,7 +11,8 @@
 # Era 4 entries, not to any entry his volume-mates share.
 source_file: npnf209_hilary-poitiers-john-damascus.xml
 assignments:
-- work: De Trinitate (On the Trinity)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-trinitate-on-the-trinity
+  work: De Trinitate (On the Trinity)
   author: hilary_poit
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
     2
@@ -27,7 +28,8 @@ assignments:
     material. imperial-juridical was considered as a best-guess home too: Hilary''s career
     was made by imperial church politics (exiled by Constantius, restored under Julian), but
     Gaul is outside that entry''s stated region.'
-- work: De Trinitate (On the Trinity)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-trinitate-on-the-trinity-2
+  work: De Trinitate (On the Trinity)
   author: hilary_poit
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
     2
@@ -48,7 +50,8 @@ assignments:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`. The context relation to the Arian party stands
     unchanged.'
-- work: De Synodis (On the Councils)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils
+  work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   atlas_ids:
@@ -60,7 +63,8 @@ assignments:
     is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
     home. Same home question as De Trinitate: gallic-nicene-episcopate now holds Hilary''s
     own Gallic church. The homoian half of the assignment stands alongside it.'
-- work: De Synodis (On the Councils)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils-2
+  work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   atlas_ids:
@@ -77,7 +81,8 @@ assignments:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`. The homoian context assignment is the firm half
     throughout.'
-- work: De Synodis (On the Councils)
+- row_id: npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils-3
+  work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   atlas_ids:
@@ -104,7 +109,8 @@ assignments:
     distinction already governing the homoian-arian-christianity context row above.
 
     '
-- work: Homilies on Psalms I, LIII, CXXX
+- row_id: npnf209_hilary-poitiers-john-damascus--homilies-on-psalms-i-liii-cxxx
+  work: Homilies on Psalms I, LIII, CXXX
   author: hilary_poit
   locus: div2 2.6 (~12,517 words), nested under the apparatus-flagged div1 2
   atlas_ids:
@@ -114,7 +120,8 @@ assignments:
   note: 'Pastoral exegesis with no anti-Arian frame, so the homoian bucket does not fit.
     gallic-nicene-episcopate holds Hilary''s own home entry, and carries all three of his
     works alike.'
-- work: An Exact Exposition of the Orthodox Faith (De Fide Orthodoxa)
+- row_id: npnf209_hilary-poitiers-john-damascus--an-exact-exposition-of-the-orthodox-faith-de-fide-orthodoxa
+  work: An Exact Exposition of the Orthodox Faith (De Fide Orthodoxa)
   author: damascus
   locus: 'div1 3 (~94,912 words): Prologue at div2 3.3, the Exposition at 3.4'
   atlas_ids:

@@ -39,8 +39,7 @@ relations:
   target: alx.term.didaskalos
 - type: associated-with
   target: alx.term.ekklesia
-plain_meaning: Not a church administrator. The bishop governs the community's formation and guards what
-  it received.
+plain_meaning: Not a church manager. The bishop governs how the community is formed and guards what it received.
 world_word: episkopos (overseer)
 false_friend:
 - a diocesan executive who manages clergy and finances

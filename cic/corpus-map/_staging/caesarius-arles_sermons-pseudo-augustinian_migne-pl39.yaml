@@ -1,7 +1,8 @@
 source_file: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
 
 assignments:
-  - work: "Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)"
+  - row_id: caesarius-arles_sermons-pseudo-augustinian_migne-pl39--sermones-pseudo-augustinian-attributed-to-caesarius-of-arles
+    work: "Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)"
     author: caesarius-arles
     locus: "Sermo XIII, Sermo LXXIV confirmed by header; Sermo L-LIX range confirmed as a block"
     atlas_ids:

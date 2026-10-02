@@ -26,8 +26,7 @@ attribution_status: 'verified real, and CALIBRATED (legacy Doc_02 SS4): one cont
 discovery_channel: carried from the approved legacy Doc_02 SS4 (independent scholarly-expertise verification,
   reviewed and approved 2026-07-08); registered at this step per the Step 0 source directive
 ---
-Doc_01 Round 2's correction requires this source be engaged, and its
-finding stands in the record: a real, positively-attested tradition of
-Bardaisan's institutional standing - which does not change the
-doctrinal-content determination, since ecclesial standing and A2
+This source's finding stands in the record: a real, positively-attested
+tradition of Bardaisan's institutional standing - which does not change
+the doctrinal-content determination, since ecclesial standing and A2
 content are separate tests.

@@ -92,4 +92,4 @@ that source doesn't carry. Built under the same Writing-From-Inside
 discipline Doc_09 itself names (Constitution Article 23), carried into
 this schema's own emic register.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

@@ -43,9 +43,8 @@ Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, ch. 46 (viii.ii.xlvi). Direct textual ground
 for pahc.witness.outside-our-community.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "many others" was invented - the
-source's sentence continues into a different, sharper claim (naming those who lived without reason as
-wicked and hostile to Christ, and accusing them of slaying those who lived reasonably). Marked with a
-trailing ellipsis rather than restored: this record's gloss is about who counts as Christian before
-Christ, not about that further accusation, which pahc.quote.those-who-lived-reasonably-are-christians
-also stops short of for the same reason.
+The quoted sentence ends at "many others," marked with a trailing ellipsis: the source's sentence
+continues into a different, sharper claim (naming those who lived without reason as wicked and
+hostile to Christ, and accusing them of slaying those who lived reasonably), which is about who
+counts as Christian before Christ, not about that further accusation - the same reason
+pahc.quote.those-who-lived-reasonably-are-christians also stops short of it.

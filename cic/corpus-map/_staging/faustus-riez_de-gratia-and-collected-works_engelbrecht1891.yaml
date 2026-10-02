@@ -12,7 +12,8 @@ source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
 # Apollinaris and may belong to a different world entirely).
 
 assignments:
-  - work: "De Gratia libri duo (Two Books on Grace)"
+  - row_id: faustus-riez_de-gratia-and-collected-works_engelbrecht1891--de-gratia-libri-duo-two-books-on-grace
+    work: "De Gratia libri duo (Two Books on Grace)"
     author: faustus-riez
     locus: "the volume's own edition, pp. 1-98 (Prolegomena aside)"
     atlas_ids:

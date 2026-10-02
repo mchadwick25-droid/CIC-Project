@@ -25,8 +25,8 @@ attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; the volume was unopened here"
 external_ids: {ccel_volume: "npnf109"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
-Domain, line 88); the Eulogy at line 9928, whose heading names Ignatius
+Rights are verified from the file's own DC.Rights header (Public
+Domain, line 88); the Eulogy sits at line 9928, whose heading names Ignatius
 "the god-bearer, arch-bishop of Antioch the great, who was carried off
 to Rome, and there suffered martyrdom, and thence was conveyed back
 again to Antioch."

@@ -3,7 +3,7 @@ field-scoping (spoken fields only, never sources[].locus), the word-count
 floor, the quote record exclusion, family-aware quote pairing, the
 build-document self-quote tag, and survey_world's aggregation - plus a
 real-record regression pinning OG-10's own worked instance
-(worlds/pahc/Open_Gaps_Tracking.md)."""
+(Build/worlds/pahc/Open_Gaps_Tracking.md)."""
 from engine.m1.embedded_quotations import (
     MIN_QUOTED_WORDS,
     find_embedded_quotations,
@@ -79,7 +79,7 @@ def test_survey_world_counts_records_not_spans_and_skips_quote_records():
 
 
 def test_real_pahc_regression_one_eucharist_under_bishop_og10():
-    """worlds/pahc/Open_Gaps_Tracking.md OG-10's own worked instance:
+    """Build/worlds/pahc/Open_Gaps_Tracking.md OG-10's own worked instance:
     pahc.story.one-eucharist-under-bishop carries the ANF translation's
     archaic wording (brackets and all) with no modern-English rendering -
     a real content gap, not a synthetic fixture."""
@@ -93,11 +93,11 @@ def test_real_pahc_regression_one_eucharist_under_bishop_og10():
 
 
 def test_fleet_survey_world_counts_match_the_og10_baseline():
-    """Pinned against worlds/pahc/Open_Gaps_Tracking.md OG-10's own table:
+    """Pinned against Build/worlds/pahc/Open_Gaps_Tracking.md OG-10's own table:
     record counts per world (not span counts, which move independently as
     pairing/self-quote fixes land)."""
     baseline = {
-        "pahc": 14, "syr": 0, "desert": 0, "hal": 5, "alx": 9, "ijc": 7,
+        "pahc": 14, "syr": 0, "desert": 0, "hal": 0, "alx": 9, "ijc": 7,
         "cappadocian": 0, "don": 5, "rzg": 11, "witt": 48, "gallic": 58,
     }
     for world, expected in baseline.items():

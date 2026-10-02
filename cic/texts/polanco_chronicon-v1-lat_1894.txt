@@ -1,9 +1,11 @@
 Title: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia
-  (Polanco's Chronicon), Vol. I
+  (Polanco's Chronicon), Tomus V (covering the year 1555) - not "Vol. I"
+  as the filename and archive.org item title suggest; the body text
+  itself opens "TOMUS QUINTUS (1555)"
 Creator: Juan Alfonso de Polanco (1517-1576)
-Publisher: Madrid: Monumenta Historica Societatis Jesu, 1894
+Publisher: Madrid: Monumenta Historica Societatis Jesu, printed 1897
 Rights: Public Domain
-Rights basis: Published 1894; public domain by date. Archive.org
+Rights basis: Published 1897; public domain by date. Archive.org
   item metadata carries an explicit `NOT_IN_COPYRIGHT`
   possible-copyright-status, checked directly against the item's own
   metadata, 2026-09-25, this session.
@@ -14,12 +16,14 @@ Source: Internet Archive item vitaignatiiloio01polagoog
   2026-09-25, this session.
 Provenance note: Body text unaltered including its own OCR errors
   (Latin/Spanish/Italian). Ignatius's own secretary's historical
-  chronicle, Vol. I of a 6-vol. series; vols. II-VI not
-  independently checked or vendored this pass. Vendored
-  2026-09-25 as part of a post-Step0-Revision-2 PD
-  source-acquisition pass. Per this project's own INTAKE.md rule,
-  this text is a second witness, never primary evidence for a
-  Representative.
+  chronicle, Tomus V of a multi-tomus series, covering only the year
+  1555; the other tomi are not independently checked or vendored this
+  pass. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
+  source-acquisition pass. Per this project's own INTAKE.md rule (scan quality decides
+  quotability, not language), this Latin text is primary evidence
+  for the movement; the scan carries occasional letter-level
+  misreads, so any wording is verified against the page image before
+  it is quoted.
 
 This  is  a  digitai  copy  of  a  book  that  was  preserved  for  generations  on  library  shelves  before  it  was  carefully  scanned  by  Google  as  part  of  a  project 
 to  make  the  world's  books  discoverable  online. 

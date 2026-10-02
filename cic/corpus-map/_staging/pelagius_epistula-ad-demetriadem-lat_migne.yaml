@@ -1,7 +1,8 @@
 source_file: pelagius_epistula-ad-demetriadem-lat_migne.txt
 
 assignments:
-  - work: "Epistola I: Ad Demetriadem"
+  - row_id: pelagius_epistula-ad-demetriadem-lat_migne--epistola-i-ad-demetriadem
+    work: "Epistola I: Ad Demetriadem"
     author: pelagius
     locus: "whole file (partial extract of Migne PL 30, cols. containing Epistola I)"
     atlas_ids:

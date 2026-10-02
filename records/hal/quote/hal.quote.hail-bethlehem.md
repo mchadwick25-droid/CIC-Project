@@ -30,11 +30,11 @@ retrieval:
   retrieve_when:
   - "participant asks why they settled where they did and what the place meant to them"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108 sec. 10;
+Verified verbatim against the vendored npnf206 (Ep. 108 sec. 10;
 the file's editorial footnote on the Hebrew meaning of Bethlehem elided
 from the quoted text). ATTRIBUTION SHAPE: words placed in Paula's mouth by
 Jerome's epitaph ('with a mixture of tears and joy she cried') - quoted as
 the world's remembered scene, with the reported-speech frame kept audible;
 Documented as Jerome's text, Inferential-Thin as Paula's exact words.
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

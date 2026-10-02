@@ -34,7 +34,7 @@ exactly one of four verdicts:
               "per Mark", a reviewer's name, a review round, an ISO date
               attached to a change). The reason stays, rewritten in plain
               present tense; the who/when/entry/round moves to
-              Ministry/Operations/Audits/Tech-Readiness-2026-09/
+              Build/Ministry/Operations/Audits/Tech-Readiness-2026-09/
               Live-Surface-Cleanup/Decision-Log.md (or the Decision-Log
               the material already belongs to).
 
@@ -53,7 +53,7 @@ exactly one of four verdicts:
 Classification order, once a line matches a pattern: PROTECTED is decided
 first (path- and field-level, independent of the line's own wording).
 Within an unprotected line: ROUTE if it carries an open-item cue (still
-unresolved, not yet fixed); else REWRITE if it carries a provenance cue
+an item left for later, not yet fixed); else REWRITE if it carries a provenance cue
 (the primary patterns below, besides ROUTE's own); else KEEP.
 
 A second, narrower rule (SPOKEN_VOCAB_PATTERNS below) catches a different
@@ -84,16 +84,21 @@ Usage:
                                             JSON (used by the test suite and
                                             by PR C/D to enumerate work)
 
-Exit code: always 0. This is a report, not a gate - see the module-level
-CI job (.github/workflows/ci.yml, "Live-surface commentary scan") that
-runs it on every push and never fails the run.
+Exit code: 0 by default, a report. With `--base REF --enforce` the scan is
+limited to files a change adds or edits relative to the merge-base with REF,
+and the exit code is 1 when any of those files still carries a REWRITE or
+ROUTE line: a change that edits a live file also removes the commentary
+already in it. KEEP and PROTECTED lines never fail the run.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import re
+import io
+import subprocess
 import sys
+import tokenize
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -122,10 +127,10 @@ SURFACES: dict[str, tuple[str, ...]] = {
     "cic-engine": ("cic/engine",),
     "cic-corpus-map": ("cic/corpus-map",),
     "records": ("records",),
-    "worlds": ("worlds",),
+    "worlds": ("Build/worlds",),
     "cic-poc-frontend": ("cic-poc/frontend",),
     "cic-website": ("cic-website",),
-    "reference": ("reference",),
+    "reference": ("Build/reference",),
     "fixtures": ("fixtures",),
     "packages": ("packages",),
     "canon": ("canon",),
@@ -154,7 +159,8 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "ruled": re.compile(r"\bRULED\b"),
     "iso-date": re.compile(r"\b20\d\d-\d\d-\d\d\b"),
     "era-gate": re.compile(
-        r"\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?(?:gate|Freeze)\b|\bthe Freeze\b",
+        r"\bat (?:the|that) (?:Era\s+\d+\s+(?:same\s+)?|same\s+)gate\b|\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?Freeze\b|\bthe Freeze\b|"
+        r"\b(?:corrected|checked|cleared|caught|found|fixed|run|verified|held|resolved|flagged|reconciled|settled|dated|decided)\b[^.]{0,40}\bat (?:the|that) gate\b",
         re.IGNORECASE,
     ),
 }
@@ -340,7 +346,147 @@ _BARE_DATE_LINE = re.compile(
 _BARE_DATE_HEADER_LINE = re.compile(
     r"^\s*\*\*[^*]+:?\*\*:?\s*['\"]?20\d\d-\d\d-\d\d['\"]?\s*$"
 )
-_STRUCTURED_DATE_KWARG = re.compile(r"\bdeadline\s*=\s*[\"']20\d\d-\d\d-\d\d[\"']")
+# Widened from the single name `deadline` to any identifier: a Python
+# kwarg/attribute assignment whose value is nothing but a quoted ISO date
+# (`date="2026-08-27"`, `verified_date="2026-09-01"`, `added="2026-07-14"`)
+# is structured data by construction, the same reasoning `deadline=...`
+# already had - the specific name was never the load-bearing part of the
+# original rule, the shape was (an assignment target holding exactly a
+# date, nothing else). Confirmed live in engine/'s own test fixtures and
+# seed literals (`today="2026-09-15"`, `SEALED_AT = "2026-08-20"`) - no
+# `Build/worlds/*/scripts/*.py` file happens to use exactly this bare
+# kwarg=date shape today (their own per-row provenance dict fields carry
+# a longer descriptive string alongside the date, which this rule
+# correctly leaves alone; see `divergence_note` below). A kwarg whose
+# value is a longer string that merely CONTAINS a date
+# ("divergence_note='Reworded 2026-09-15 to fix wording'") still does not
+# match - only a bare, quote-wrapped date and nothing else as the value.
+_STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d-\d\d-\d\d[\"']")
+
+# A Source Registry keeps a per-row date. Its Template's entry schema has an
+# `Added` field ("Date and who/what added it"), and Framework V7.4 Step 2 has
+# every source row carry `discovery_channel`, `discovery_instrument` and
+# `discovery_date`; a world's Registry may lay those out as an `Added` column
+# and a `Discovery (channel / instrument / date)` column. Neither document
+# requires an ISO date, so the exemption follows the table's own header row.
+# In a `Source_Registry.md` or `<code>_Source_Registry.md` table, an ISO date
+# is not narration only inside a cell whose column header is `Added` or names a
+# discovery or date column. Every other cell, and every other cue anywhere
+# (review history in a Discovery cell included), keeps its classification.
+_DATE_COLUMN_HEADER = re.compile(r"^(?:added|discover(?:y|ed)\b.*|date\b.*)$", re.IGNORECASE)
+_ISO_DATE = re.compile(r"20\d\d-\d\d-\d\d")
+_TABLE_SEPARATOR = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)*\|?\s*$")
+
+
+def _table_cells(line: str) -> list[str]:
+    body = line.strip()
+    if body.startswith("|"):
+        body = body[1:]
+    if body.endswith("|"):
+        body = body[:-1]
+    return [c.strip() for c in body.split("|")]
+
+
+def _source_registry_date_lines(raw_lines: list[str]) -> tuple[set[int], set[int]]:
+    """(rows whose every ISO date sits in a column headed `Added` or a
+    discovery/date column of that table's own header row, rows of a table that
+    has a recognisable header row at all). A table with a header is judged by
+    its columns alone; only a table with none falls back to the cell-shape rule
+    below."""
+    out: set[int] = set()
+    with_header: set[int] = set()
+    header: list[bool] | None = None
+    last_header: list[bool] = []  # a table continued after a prose paragraph has no header row of its own
+    for i, line in enumerate(raw_lines, start=1):
+        if not line.lstrip().startswith("|"):
+            header = None
+            continue
+        nxt = raw_lines[i] if i < len(raw_lines) else ""
+        if header is None:
+            if _TABLE_SEPARATOR.match(nxt):
+                header = last_header = [bool(_DATE_COLUMN_HEADER.match(re.sub(r"[*`_]", "", c).strip())) for c in _table_cells(line)]
+                continue
+            if len(_table_cells(line)) != len(last_header):
+                header = []
+                continue
+            header = last_header
+        if _TABLE_SEPARATOR.match(line):
+            continue
+        if header:
+            with_header.add(i)
+        cells = _table_cells(line)
+        dated = [n for n, cell in enumerate(cells) if _ISO_DATE.search(cell)]
+        if dated and all(n < len(header) and header[n] for n in dated):
+            out.add(i)
+    return out, with_header
+
+
+# A markdown table row (2+ `|` cells) whose every ISO-date occurrence sits
+# inside its own cell that is otherwise just a short provenance fragment -
+# a bare date, or a short channel/label phrase plus a date ("web search,
+# 2026-07-14", "Added 2026-07-14") - never a longer narrative sentence.
+# Same reasoning as `_BARE_DATE_LINE`/`_BARE_DATE_HEADER_LINE` (a
+# structured-data date, not a date embedded in prose), extended from "the
+# whole line is bare" to "this one table column is bare," since a
+# Source_Registry.md row packs many such columns (row #, title, confidence,
+# Added, Discovery channel/date, ...) onto one physical line together with
+# citations and prose that legitimately still get scanned.
+#
+# Deliberately scoped to a `*Source_Registry.md`-named file only, not any
+# markdown table anywhere - confirmed live that a structurally identical
+# short "channel, date" table cell is NOT always fine to leave alone:
+# `Build/worlds/_cross-world/DOWNLOAD-QUEUE.md`'s own last column ("direct
+# WebSearch verification, 2026-09-02") is hand-labelled REWRITE, since
+# that file tracks a proactive, still-changing verification pass rather
+# than Source_Registry.md's own permanent, never-revised "when this source
+# was first vendored" record - the same distinction between a source
+# record's own permanent `discovery_channel` field and a status field that
+# can go stale. Confirmed live: witt/lpc/don/cappadocian's own "Added"/
+# "Discovery channel/date" columns account for the large majority of each
+# file's remaining iso-date hits before this exemption; a genuinely
+# narrative table cell (e.g. Doc_03's own multi-hundred-word evidentiary
+# cells) is never this short, so it is never wrongly swept in by this
+# check even within a Source_Registry.md file itself.
+# Handles both cell orderings found live: "label, then date" (witt's own
+# "web search, 2026-07-14") and "date, then label" (lpc/don's own "Added"
+# column: "2026-09-01, `lpc` build thread"; cappadocian's "2026-08-31,
+# build thread") - the earlier version only allowed a trailing bare comma
+# after the date, so it could never match the date-first convention at
+# all, leaving lpc/don/cappadocian's own "Added" columns flagged even
+# though they're the identical structured-provenance shape witt's own
+# column already gets exempted for.
+_BARE_DATE_TABLE_CELL = re.compile(
+    r"^(?:[\w][\w .,'()`/-]{0,39})?,?\s*20\d\d-\d\d-\d\d\s*(?:,\s*[\w .,'()`/-]{0,59})?$"
+)
+_REGISTRY_DATE_CELL = re.compile(
+    r"^20\d\d-\d\d-\d\d(?:\s*\([^)]{1,60}\))?(?:\s*;\s*20\d\d-\d\d-\d\d(?:\s*\([^)]{1,60}\))?)*$"
+)
+_SOURCE_REGISTRY_FILENAME = re.compile(r"(?i)(^|_)source_registry\.md$")
+_REGISTRY_STATUS_CUE = re.compile(r"(?i)\bnot yet acquired\b")
+_FILENAME_WITH_DATE = re.compile(r"[\w./-]*20\d\d-\d\d-\d\d[\w./-]*\.(?:json|md|txt|yaml|yml|html|csv)\b")
+_PUBLIC_STATUS_LABEL = re.compile(r'^\s*"statusWord"\s*:')
+_VERIFIED_BY_FIELD = re.compile(r"^\s*(?:-\s+)?verified_by\s*:")
+
+
+def _iso_date_only_in_filenames(line: str) -> bool:
+    """True when every ISO date on the line sits inside a file name
+    (`live-table-report-witt-rzg-2026-09-19.json`): the date is part of the
+    name being cited, not a date written into prose."""
+    return not re.search(r"20\d\d-\d\d-\d\d", _FILENAME_WITH_DATE.sub("", line))
+
+
+def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool) -> bool:
+    if not in_source_registry_file or line.count("|") < 2:
+        return False
+    cells = line.strip().strip("|").split("|")
+    found_any_date = False
+    for index, cell in enumerate(cells):
+        if re.search(r"20\d\d-\d\d-\d\d", cell):
+            found_any_date = True
+            in_provenance_columns = index >= len(cells) - 2
+            if not (in_provenance_columns or _iso_date_only_in_filenames(cell) or _BARE_DATE_TABLE_CELL.match(cell.strip()) or _REGISTRY_DATE_CELL.match(cell.strip())):
+                return False
+    return found_any_date
 
 # Cues that mark a line as an open defect or open question rather than a
 # decided, still-true fact - ROUTE, whether or not the line also carries one
@@ -350,9 +496,16 @@ _STRUCTURED_DATE_KWARG = re.compile(r"\bdeadline\s*=\s*[\"']20\d\d-\d\d-\d\d[\"'
 # catch - still gets flagged. Found live in cic/corpus-map/: entries that
 # say a cross-check "has not yet been done" or a claim is "flagged for
 # Mark" carry no other pattern at all and were being silently skipped.
+# The words "unresolved", "open question" and "still open" alone are not cues. Each
+# states a real uncertainty in a source or a tension a world holds, and "unresolved" and
+# "still open" are also code terms in engine/. Each is a cue only with a qualifier that
+# marks the author's own scope or timing ("unresolved here", "open question for now").
 ROUTE_CUES = re.compile(
-    r"\b(TODO|FIXME|open question|open gap|open item|not yet (resolved|fixed|answered|acquired)|"
-    r"unresolved|still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
+    r"\b(TODO|FIXME|open question (here|for now|pending|on purpose|until|for (Mark|the project lead))|"
+    r"open gap|open item|not yet (resolved|fixed|answered|acquired)|"
+    r"unresolved (here|for now|pending|on purpose|until)|"
+    r"still pending|still open (here|for now|pending|until|for (Mark|the project lead))|"
+    r"follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
     r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
     re.IGNORECASE,
@@ -361,13 +514,13 @@ ROUTE_CUES = re.compile(
 # A "round" hit that is not a review round (round-trip, round number, round
 # up/down, a round object) - keeps review-round from over-firing on ordinary
 # engineering prose.
-NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b", re.IGNORECASE)
+NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b|\bopens? round \d+\b", re.IGNORECASE)
 
 # A "reviewer" hit that names a generic or hypothetical third party, not this
 # project's own review process - "an external reviewer" (a donor-facing ask
 # to introduce one), "a reviewer checking only for X" (an illustrative
 # worked example of what a reader might miss). Confirmed live in
-# cic-website/support.html:127 and reference/Project-Reference/
+# cic-website/support.html:127 and Build/reference/Project-Reference/
 # CiC_Cleaning_Pattern_Log.md (lines 35, 69, 151, 203, 305): every one of
 # these begins with an indefinite article or "external"/"academic" right
 # before "reviewer", where a genuine provenance citation instead names the
@@ -383,8 +536,44 @@ GENERIC_REVIEWER = re.compile(r"\b(a|an|external|academic)\s+reviewer\b", re.IGN
 # records/witt/source/*.md. Line-level, not per-occurrence: once a line
 # names the Source Registry or a row, every R-number on that same line is
 # read in that context.
+#
+# Also matches a bare "Registry" word - not just the literal "Source
+# Registry" phrase above - but only when an R-number sits close by (within
+# ~50 characters), not merely present anywhere on the line: Build/worlds/
+# construction documents cite their own world's registry by shorter forms
+# the literal phrase misses entirely - "**Registry cross-reference:** R2,
+# Native, Primary" (witt), "**Registry:** R1, R2, R12" (a field label
+# alone) - each confirmed live and never itself the project ruling-
+# tracking vocabulary (Decision-Log/RULED/Mark's-ruling/per-Mark, every one
+# of which stays its own separate pattern above). The proximity bound is
+# for this bare-"Registry" case specifically, not the literal-phrase case
+# above: a line can genuinely discuss "its own Registry list for that
+# entry" and separately cite an unrelated R-number as a real project
+# ruling many words later in the same sentence (Build/reference/method/
+# CiC_Record_Native_World_Build_Process_V1.9.md:627's "guards and redirects
+# (R11)" - R11 there is this project's own rule-citation convention, not a
+# registry row - confirmed live, and the reason a bracket/parenthesis-
+# wrapped bare R-number was tried and dropped as its own separate
+# exemption: that shape alone does not reliably distinguish the two). The
+# literal "Source Registry" phrase above stays unconditional (no proximity
+# bound) as it always was - confirmed live that it and its cited R-number
+# can sit far apart in the same long sentence (witt_Source_Registry.md:9's
+# own apparatus prose, witt.source.marburg-articles.md:29's "the Reformed
+# side's own account is R57 (Excluded)... (Source Registry row 56...)" -
+# tightening that established, unconditional case to the same 50-character
+# bound broke it).
+# `Registry(?!\.yaml)`: excludes `cic/texts/REGISTRY.yaml` - this
+# project's vendored-source rights/apparatus file, a different registry
+# than the world's own Source Registry this exemption is about. Confirmed
+# live: Build/reference/method/CiC_Record_Native_World_Build_Process_
+# V1.9.md:619 cites `cic/texts/REGISTRY.yaml` and, separately in the same
+# sentence, "(R33)" - a genuine project ruling in this same document's own
+# established "(R##)" citation convention (R11, R13, R19 nearby), not a
+# registry row; the bare coincidence of "REGISTRY.yaml" sitting within 50
+# characters of it must not suppress a real ruling citation.
 SOURCE_REGISTRY_REF = re.compile(
-    r"Source\s+Registry|\brow\b.{0,10}R\d+|R\d+.{0,10}\brow\b",
+    r"Source\s+Registry|Registry(?!\.yaml)\b.{0,50}?R\d+|R\d+.{0,50}?\bRegistry(?!\.yaml)\b|"
+    r"\brow\b.{0,10}R\d+|R\d+.{0,10}\brow\b",
     re.IGNORECASE,
 )
 
@@ -413,7 +602,7 @@ PATTERNS["change-history-cue"] = CHANGE_HISTORY_CUES
 # docstring on why a baseline would let drift go quiet.
 # ---------------------------------------------------------------------------
 
-# Schema-defined source-provenance fields (reference/Redesign-Spec/
+# Schema-defined source-provenance fields (Build/reference/Redesign-Spec/
 # Artifact-1-Record-Schema.md §4, record type `source`: "author, work,
 # edition, rights_status, attribution_status, discovery channel, external
 # ids") plus `channel` (the equivalent field on `search_record` - verified
@@ -443,9 +632,7 @@ def _front_matter_field_lines(text: str) -> tuple[dict[str, set[int]], str | Non
     block-tracking logic (what counts as "still this field's value") is
     written and gets it right exactly once."""
     lines = text.splitlines()
-    if not lines or lines[0].strip() != "---":
-        return {}, None
-    end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+    end = _yaml_frontmatter_end(lines)
     if end is None:
         return {}, None
     record_type = None
@@ -530,6 +717,19 @@ def _paragraph_lines(lines: list[str], line_no: int) -> list[int]:
     return list(range(start, end + 1))
 
 
+def _yaml_frontmatter_end(lines: list[str]) -> int | None:
+    """1-indexed line number of the closing `---` of a YAML front-matter
+    block starting at line 1, or None if the file has no such block (no
+    opening `---` at line 1, or no closing `---` found anywhere below it).
+    Factored out of `_source_record_body_lines` (which used to derive this
+    inline) so `_front_matter_field_lines` and the change-history widening
+    in `scan_file` share the exact same detection rather than each
+    re-deriving it."""
+    if not lines or lines[0].strip() != "---":
+        return None
+    return next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+
+
 def _source_record_body_lines(text: str, record_type: str | None) -> set[int]:
     """Every line after a `record_type: source` record's own closing
     front-matter delimiter - its own apparatus prose, where a Source
@@ -541,31 +741,150 @@ def _source_record_body_lines(text: str, record_type: str | None) -> set[int]:
     if record_type != "source":
         return set()
     lines = text.splitlines()
-    if not lines or lines[0].strip() != "---":
-        return set()
-    end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+    end = _yaml_frontmatter_end(lines)
     if end is None:
         return set()
     return set(range(end + 2, len(lines) + 1))
 
 
+def _yaml_scalar_block_lines(field_lines: dict[str, set[int]], line_no: int) -> list[int]:
+    """Widen a change-history cue found inside a YAML front-matter block to
+    just the lines of the single top-level key whose value contains it
+    (`field_lines`, as `_front_matter_field_lines` already computes it),
+    instead of `_paragraph_lines`' blank-line-delimited paragraph.
+
+    Front matter typically has NO blank lines between sibling top-level
+    keys at all (`id:`, `world_id:`, `confidence:`, ...), so a cue inside
+    one field's value (e.g. a `divergence_note: >` block, or a `rights_
+    status:` sentence mentioning "adversarial review") used to sweep every
+    unrelated sibling key into the same flagged "paragraph" - the entire
+    front-matter block, all the way to the next real blank line or EOF.
+    Confirmed live: records/lpc/source/lpc.source.hartel-cyprian-opera-
+    omnia-csel3-standing-reference.md's `rights_status` sentence naming
+    "Doc_01's own nine adversarial review rounds" used to flood all 20
+    sibling front-matter lines (id, world_id, schema_version, sources,
+    relations, ...) as REWRITE.
+
+    A genuine multi-line scalar value stays widened together as one unit:
+    its continuation lines are indented (or blank, while still inside the
+    block), so they never match `_YAML_KEY`'s own top-level (zero-indent)
+    shape and so never act as a sibling-key boundary - only the next real
+    top-level key, a blank line, or the closing `---`/EOF ends the block,
+    exactly as `_front_matter_field_lines` already tracks it.
+
+    Falls back to widening to just `line_no` itself when the cue line
+    isn't inside any recognized top-level key's own block - the front-
+    matter delimiter lines themselves, or a line before the first key -
+    since there is no sibling field to protect against there anyway."""
+    for key_lines in field_lines.values():
+        if line_no in key_lines:
+            return sorted(key_lines)
+    return [line_no]
+
+
+_REVIEW_DOC_FILENAME_KEYWORDS = (
+    "review",
+    "spotcheck",
+    "checkpoint",
+    "unused_source_verification",
+    # Five more found once the survey widened past its original sample,
+    # each individually confirmed real by reading the file: "audit"
+    # (_cross-world's CiC_Cross_System_Consistency_Audit), "verification"
+    # (pahc's Independent_Verification and ...B7_Verification, also covers
+    # "unused_source_verification" above as a substring), "coverage_check"
+    # (gallic's B1a_B1b_Coverage_Check), "transcripts" (pahc's own
+    # LiveDeepInterview transcripts), "boundary_testing"/"boundarytesting"
+    # (ijc's Boundary_Testing_Record, pahc's own BoundaryTesting - two
+    # spellings, both found live), "livetest" (hal's Phase5_LiveTest_*_
+    # RoundN transcripts), "validation_documentation" (desert's Doc09c
+    # Validation Documentation - deliberately the full compound, not bare
+    # "validation", so a real numbered construction document like a
+    # world's own Doc_09c_Validation_Layer.md - genuinely cleanable, not a
+    # review artifact - stays unmatched).
+    #
+    # A batch review's own suggestion to also add a bare "finding" keyword
+    # and a blanket `Analysis/` directory rule was tried and dropped: the
+    # existing hand-labelled sample already carries counter-evidence for
+    # both - `alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md:13`
+    # and `ijc/Post_Admission_Source_Finding_...md:279` are each real,
+    # still-open construction-thread narrative (an active DRAFT's own
+    # round-by-round disposition tracking), not a frozen review record -
+    # confirming that "Finding"/"Analysis" in a name does not reliably
+    # distinguish the two the way the keywords above do.
+    "audit",
+    "verification",
+    "coverage_check",
+    "transcripts",
+    "boundary_testing",
+    "boundarytesting",
+    "livetest",
+    "validation_documentation",
+)
+# "zellcheck" alone, as a plain substring, does not match
+# "ZellFinalCheck.md" (witt) - "final" sits between "zell" and "check".
+# A separate regex catches both "ZellCheck" and "ZellFinalCheck".
+_ZELL_CHECK_RE = re.compile(r"(?i)zell\w*check")
+
+
 def _is_review_doc(rel: Path) -> bool:
     """worlds/<code>/... review documents (CLAUDE.md places reviews under
-    worlds/ by design). Two real naming conventions found on disk: a
-    dedicated `Review-Artifacts/` directory (alx, cappadocian, don, grkap,
-    ...), or a loose file in the world's own root whose name contains
-    "Review" (desert, gallic, hal, ...). Both covered; neither guessed."""
+    worlds/ by design). A dedicated `Review-Artifacts/` directory (alx,
+    cappadocian, don, grkap, ...), or a loose file in the world's own root
+    whose name signals it's an independent verification pass on an
+    already-drafted document - every real naming convention found on disk
+    so far, each individually confirmed real by reading the file, not
+    guessed from the name alone: "Review" (desert, gallic, hal, ...),
+    "SpotCheck" (gallic, witt), "Critic_Checkpoint...Simulated"
+    (cappadocian), "Unused_Source_Verification" (cappadocian), "ZellCheck"/
+    "ZellFinalCheck" (witt, a per-person-named check pass, same function
+    as a review round), plus the keywords named above. All of these are
+    the review's own evidentiary record of what a document said or a
+    search found at the time of that check, not expected to track the
+    corrected live text afterward - the same reason a `Review-Artifacts/`
+    file is protected."""
     parts = rel.parts
-    if len(parts) < 3 or parts[0] != "worlds":
+    if len(parts) < 4 or parts[0] != "Build" or parts[1] != "worlds":
         return False
     if "Review-Artifacts" in parts:
         return True
-    return "review" in parts[-1].lower()
+    name = parts[-1].lower()
+    return any(keyword in name for keyword in _REVIEW_DOC_FILENAME_KEYWORDS) or bool(_ZELL_CHECK_RE.search(name))
+
+
+_BUILD_LEDGER_FILENAME = re.compile(r"(?i)(^needs-ruling\.md$|_superseded_claims\.md$|(^|_)source_acquisition_manifest\.md$)")
+
+
+def _is_build_ledger(rel: Path) -> bool:
+    """A ledger-shaped file functioning the same way Open_Gaps_Tracking.md
+    and a `*_Decision_Log.md` do (an append-only record cited by other
+    documents rather than restated) under a different name - same
+    reasoning as `_is_gaps_ledger`/`_is_decision_log`, for two sibling
+    shapes each confirmed by reading the file's own stated content:
+    `NEEDS-RULING.md` (`_cross-world`'s own open-items ledger, structurally
+    identical to Open_Gaps_Tracking.md) and a Doc_0X `*_Superseded_
+    Claims.md` companion ("Entries record what was claimed, what is wrong
+    with it, and which review round established that" - a dedicated
+    correction-history record for one document, the same role a Decision
+    Log plays for a whole world). Scanning either for the same patterns a
+    construction document is held to would flag their own required,
+    designed shape as leaked commentary.
+
+    Deliberately does NOT include a generic `*_LEDGER.md` suffix - tried
+    for `CAPPADOCIAN_BUILD_LEDGER.md` (a batch review's own suggestion)
+    and dropped: the existing hand-labelled sample already carries
+    counter-evidence at `CAPPADOCIAN_BUILD_LEDGER.md:463`, a genuine
+    still-open verification note, not designed ledger content - unlike
+    NEEDS-RULING.md/Superseded-Claims, this file mixes real narrative in
+    with its ledger entries and cannot be blanket-exempted."""
+    parts = rel.parts
+    if len(parts) < 3 or parts[0] != "Build" or parts[1] != "worlds":
+        return False
+    return bool(_BUILD_LEDGER_FILENAME.search(parts[-1]))
 
 
 def _is_world_build_dir(rel: Path) -> bool:
     parts = rel.parts
-    return len(parts) >= 3 and parts[0] == "worlds" and parts[2] == "build"
+    return len(parts) >= 4 and parts[0] == "Build" and parts[1] == "worlds" and parts[3] == "build"
 
 
 def _is_gaps_ledger(rel: Path) -> bool:
@@ -576,7 +895,28 @@ def _is_gaps_ledger(rel: Path) -> bool:
     exceptions explicitly"). Scanning it would flag the ledger's own
     required shape as if it were leaked commentary."""
     parts = rel.parts
-    return len(parts) >= 2 and parts[0] == "worlds" and parts[-1] == "Open_Gaps_Tracking.md"
+    return len(parts) >= 3 and parts[0] == "Build" and parts[1] == "worlds" and parts[-1] == "Open_Gaps_Tracking.md"
+
+
+_DECISION_LOG_FILENAME = re.compile(r"(?i)decision[-_]log\.md$")
+
+
+def _is_decision_log(rel: Path) -> bool:
+    """A per-world (or fleet-level) decision log under Build/worlds/ - e.g.
+    lpc_Decision_Log.md, CiC_W7_Decision_Log.md, LIBRARY-DECISION-LOG.md.
+    Same reasoning as _is_gaps_ledger, just for a sibling kind of ledger:
+    confirmed live against lpc_Decision_Log.md's own header ("This log
+    holds project-lead decisions, escalation resolutions, and revision
+    rationale for this world's build, so the construction documents
+    themselves stay clean, substantive content") - the file exists
+    specifically so dated, review-round, project-lead-attributed history
+    doesn't have to live in the construction documents it explains. Not a
+    construction document itself, so scanning it for the same patterns a
+    construction document is held to would flag its own required shape as
+    leaked commentary, the same mistake _is_gaps_ledger already guards
+    against for the gaps ledger."""
+    parts = rel.parts
+    return len(parts) >= 3 and parts[0] == "Build" and parts[1] == "worlds" and bool(_DECISION_LOG_FILENAME.search(parts[-1]))
 
 
 # Historical content whose own subject matter is a ruling/verdict, not this
@@ -600,6 +940,310 @@ PROTECTED_HISTORICAL_FILES = {
 # would ask this program to rewrite the very file CLAUDE.md's own rule
 # describes decision logs as belonging in.
 PROTECTED_REGISTRY_LOG = "records/WORLDS_REGISTRY_LOG.md"
+
+
+def _is_doc_construction_file(rel: Path) -> bool:
+    """Any .md file under Build/worlds/<code>/ - the canonical per-world
+    construction documents and their siblings (Source_Registry.md,
+    Representative Phase/Ecology/Validation/Construction-Notes/Identity-
+    Decision files, Force/Story Index, Claims/Superseded-Claims Register,
+    Coverage-Check, Scope-and-Source-Acquisition-Manifest, ...) CLAUDE.md
+    names under "Keep the live/canonical surfaces clean".
+
+    This was originally filename-gated to bare Doc_0[1-9]_*.md, on the
+    documented grounds that alx/don/ijc/lpc/rzg/syr share that filename
+    shape but hal/gallic/witt/cappadocian's own world-prefixed variants
+    (hal_Doc_01_..., gallic_Doc07_..., witt_Doc_01_...,
+    cappadocian_Doc_01_...) don't, and extending the filename match there
+    would have been guessing rather than verifying. That guess is no
+    longer needed: six independent verification passes (one per
+    Build/worlds/ batch in the 2026-09-26 fleet-wide narrative cleanup),
+    each re-implementing this function's own protected-lines algorithm
+    and diffing it against every real hit by hand before touching
+    anything, confirmed the identical load-bearing Status-header/tail
+    pattern in every prefixed-naming world surveyed (hal, gallic, witt,
+    cappadocian, pahc's own CiC_W1_Doc0N_..._FINAL.md, desert's own
+    CiC_W3_Doc01_...md) AND in every one of the sibling document types
+    named above, none of which share a single fixed filename shape either.
+    Given that much independent confirmation that filename was never the
+    right signal, this now protects by content alone (the header-field and
+    tail-heading checks below, both already narrow and independently
+    verified clean by that same survey) across every file the surface
+    covers, rather than maintaining a filename allowlist that a seventh
+    world would just as easily miss again."""
+    parts = rel.parts
+    return (
+        len(parts) >= 4
+        and parts[0] == "Build"
+        and parts[1] == "worlds"
+        and rel.suffix == ".md"
+    )
+
+
+# A bold field-label opening a line, e.g. "**Status:**", "**Produced
+# at:**", "**World file-code (provisional):**" - deliberately narrow
+# (letters/digits/space/parens/hyphen only between the asterisks and the
+# colon) so it does NOT match a header's own free-prose disclosure
+# paragraphs, which use full sentences and so carry an apostrophe, a
+# comma, or other punctuation this class excludes - e.g. ijc Doc_04's
+# "**Note on this document's own place in this project's methodology:**"
+# or ijc Doc_05's "**Writing-From-Inside note, stated accurately:**".
+# Those stay flagged like any other prose; only a genuine short
+# field-name line is protected.
+_DOC_HEADER_FIELD_RE = re.compile(r"^\*\*([A-Z][\w /()\-]*):\*\*")
+
+# A label the punctuation filter above lets through (no comma or
+# apostrophe) but that is still a changelog entry, not a metadata field -
+# found once _is_doc_construction_file's scope widened past the bare
+# Doc_0X sample it was tuned against: "**Revision 2 (2026-07-09):**"/
+# "**Revision 3...**" (pahc, literal numbered changelog entries -
+# "Revision history:" itself, naming no number, is a real field and stays
+# protected), "**Schema note:**" (gallic, opens "This claim was made
+# falsely twice before it was true..."), "**Filename note:**" (don),
+# "**Terminology note carried forward from this drafting pass:**"
+# (desert), "**Note on...:**" (ijc - the punctuation filter's own worked
+# example in the comment above was itself a false negative for a label
+# with no internal comma).
+_DOC_HEADER_FIELD_NARRATIVE_LABEL_RE = re.compile(
+    r"(?i)^(revision\s+\d|schema note|filename note|terminology note\b|note on\b|correction\b|addendum\b)"
+)
+
+# Any heading (## or deeper) that starts or continues this project's own
+# tail administrative block - every wording actually found across the
+# surveyed sample: "Open Items and Handoff" (alx), "Handoff and Open
+# Items" (don), "Open items carried forward [to later steps]" (ijc/witt/
+# rzg), "Open Issues Flagged for Downstream Documents" (hal-style),
+# "Document Log" / "Document log" (gallic, witt, lpc - where the
+# disagreement log and escalation check actually live, one heading after
+# "Open Items"), "Disposition" / "Review and Disposition" / "Overall
+# Disposition" (ijc, hal, rzg, lpc, don). A document with none of these
+# headings (lpc's Doc_08, syr's Doc_09) matches nothing here - correctly:
+# there is no tail block to protect.
+#
+# Anchored to where the heading's own title starts (after an optional
+# leading number/"Section N"/"Part N" and an optional "Overall"/"Final"/
+# "General") or ends - not a bare substring search anywhere in the
+# heading. An unanchored version, tuned against the bare Doc_0X sample,
+# over-matched once applied fleet-wide: a heading merely *mentioning* one
+# of these words mid-title - "## 4. Deeper Dynamic Encounter Validation
+# Exchange (addresses Open Item 8)" (syr), "## ADDENDUM (2026-07-19,
+# System Hub) - the Facilitator-handoff mechanism now exists" (pahc),
+# "## 5. Overall Disposition (REWRITTEN per independent review)" (don) -
+# is not itself a tail section, and hid real body narrative underneath it
+# ("Correction made during revision after Round 1 review..." in syr's
+# case).
+# Three more synonyms found once the survey above widened past its
+# original alx/don/ijc/lpc/rzg/syr sample, each individually confirmed
+# real by reading the file, not guessed from the name alone: "Revision
+# Log" (witt/hal, cappadocian, syr, lpc's Representative Phase docs and
+# lpc_World_Profile's own "World Profile Completion Status" heading -
+# the same disagreement-log/escalation content "Document Log" already
+# names, under this world-family's own preferred wording instead),
+# "Document Status" (hal's own Facilitation Brief), "Completion
+# Certification"/"Completion Status" (witt Doc_08's "Doc_08 Completion
+# Certification", lpc's "World Profile Completion Status"), "Open
+# Questions" (a third variant alongside "Open Items"/"Open Issues"), and
+# "Revision Triggers" as a closing phrase (cappadocian/desert's "Open
+# Questions, Revision Triggers, and Decisions Requiring the Project Lead").
+#
+# "Coverage limits" was tried (witt_Doc_03_Lexicon_Candidate_List.md's own
+# "## 12. Coverage limits" heading) and dropped: unlike the headings above,
+# that section is not administrative tail-tracking at all - it is real,
+# load-bearing audit-finding content woven into the document's own
+# argument ("The audit found the Papacy at Rome item and four more items
+# making the same 'in full' overclaim..." at line 732), the same genre as
+# a Doc_08 "Discipline N" section, which this checker never protects. A
+# batch review's own framing ("witt Doc_03's own dated coverage-limits
+# section... a checker gap") assumed this without reading the section;
+# reading it shows the opposite.
+_HEADING_NUMBERING_PREFIX_RE = re.compile(
+    r"(?i)^(?:\d+(?:\.\d+)*\.?\s+|section\s+\d+\s*[-—:]\s*|part\s+\d+\s*[-—:]\s*)"
+)
+_DOC_TAIL_HEADING_START_RE = re.compile(
+    r"(?i)^(?:overall\s+|final\s+|general\s+)?(?:open items?|open issues?|open questions?|"
+    r"handoff|document log|document status|disposition|review and disposition|"
+    r"revision log|completion status|completion certification)\b"
+)
+_DOC_TAIL_HEADING_END_RE = re.compile(
+    r"(?i)(?:open items?|open issues?|open questions?|handoff|document log|document status|"
+    r"disposition|revision log|completion status|completion certification|"
+    r"revision triggers)$"
+)
+
+
+def _is_doc_tail_heading(heading_text: str) -> bool:
+    stripped = _HEADING_NUMBERING_PREFIX_RE.sub("", heading_text).strip()
+    return bool(_DOC_TAIL_HEADING_START_RE.match(stripped) or _DOC_TAIL_HEADING_END_RE.search(stripped))
+
+
+# The labels a per-section identification block carries, read off every
+# such block in the fleet (Doc_07's "Section 1 — Document Identity and
+# Confirmed Inputs", Doc_08/Doc_09's "Section 1 — World Identification",
+# the World Profile's "Section 1 — World Identity", a Phase 6 brief's own
+# header block): the world's name and code, the Representative's name, the
+# builder or branch, when it was produced, and any date or upstream-
+# document version ("Doc_08 completion date", "Date of World Profile
+# completion", "Doc_02 (Source Ecology) version this analysis draws
+# from"). Nothing else. Templates across the fleet use the same bold-label
+# shape for analytical content fields too - "Temporal scope", "Primary
+# sources of authority", "Register derivation", "Strand attribution",
+# "What external scholarly review should focus on", a lexicon entry's
+# "Ecological Function", a story's "Tier justification" - often two or
+# more in a row straight after a heading. Those are the document's
+# substance, not its metadata, and stay scanned like any other prose.
+_SECTION_METADATA_LABEL_RE = re.compile(
+    r"(?i)^(?:world name\b|world code$|representative name$|builder$|branch$|produced$|"
+    r"template version$|.*\b(?:date|version)\b)"
+)
+
+
+def _post_heading_header_field_lines(lines: list[str]) -> set[int]:
+    """A per-section metadata block: a run of `_DOC_HEADER_FIELD_RE` lines
+    (tolerating one blank line between siblings, matching this repo's own
+    convention of one blank line between fields) starting right after a
+    heading (## or deeper), carrying at least 2 fields whose label is
+    identification/provenance metadata (`_SECTION_METADATA_LABEL_RE`) -
+    the same header-field convention `_doc_construction_protected_lines`'s
+    own top-of-file scan already protects, repeated after a LATER section
+    heading rather than only at the document's very top. Example:
+    witt_Doc_08_Forces_Document.md's "## 1. Section 1 — World
+    Identification", followed by World name/World code/Representative
+    name/Doc_08 completion date/Builder/Doc_02 version/Doc_04 version,
+    well past the top header's first `---`.
+
+    Only the metadata-labelled lines in the run are protected; a content
+    field sitting in the same run (a World Profile's "Temporal scope" or
+    "Community character" between its "World code" and "Builder") is not.
+    A run is walked past such content fields, not stopped at them, since
+    the World Profile template puts its Builder/Date fields after them.
+
+    At least 2 metadata fields are required: a single field-shaped bold
+    lead ("**What it is not:**", "**Registry cross-reference:**") is never
+    a metadata block on its own."""
+    heading_re = re.compile(r"^(#{2,})\s+(.*)$")
+    protected: set[int] = set()
+    n = len(lines)
+    for i, line in enumerate(lines):
+        if not heading_re.match(line):
+            continue
+        j = i + 1
+        metadata_run: list[int] = []
+        blanks_in_a_row = 0
+        while j < n and blanks_in_a_row <= 1:
+            stripped = lines[j].strip()
+            if stripped == "":
+                blanks_in_a_row += 1
+                j += 1
+                continue
+            field_match = _DOC_HEADER_FIELD_RE.match(lines[j])
+            if field_match and not _DOC_HEADER_FIELD_NARRATIVE_LABEL_RE.match(field_match.group(1)):
+                if _SECTION_METADATA_LABEL_RE.match(field_match.group(1).strip()):
+                    metadata_run.append(j)
+                blanks_in_a_row = 0
+                j += 1
+                continue
+            break
+        if len(metadata_run) >= 2:
+            protected.update(idx + 1 for idx in metadata_run)
+    return protected
+
+
+def _doc_construction_protected_lines(rel: Path, text: str) -> set[int]:
+    """Line numbers of a Doc_0[1-9] construction document's own inline
+    review-status tracking - decided directly with Mark: this is
+    load-bearing build-cycle pipeline state (`cic-build-cycle`, CLAUDE.md's
+    "Scaling the build"), not narrative drift to be cleaned, and a fuller
+    companion-file migration of it is a separate, later project, not this
+    one. Survey of 8+ files across alx/don/ijc/lpc/rzg/syr, multiple Doc
+    numbers, found no single fixed heading and no fixed two-field header,
+    so this protects at line/heading level rather than by a blanket file
+    or whole-header-block skip - any other narrative in the same file (a
+    header's own free-prose disclosure paragraph, a mid-document aside)
+    stays flagged exactly as before:
+
+    1. A header metadata line matching _DOC_HEADER_FIELD_RE, plus that
+       field's own continuation lines. This repo's actual convention is
+       one field per single, often very long, physical line; continuation
+       handling is defensive, for a field that does wrap. A run stops at
+       the next field-label line, a blank line, or a `---` divider.
+       Bounded to before the file's first `---` divider (found within the
+       first 40 lines - every surveyed file has one there) or, failing
+       that, a defensive 15-line cap.
+    2. The tail administrative block: any heading (## or deeper) matching
+       _is_doc_tail_heading, protected to the next heading of the same or
+       shallower level, or EOF. Two such headings in a row (an "Open
+       Items" section immediately followed by a separate "Document Log"
+       holding the disagreement log and escalation check - the actual
+       gallic Doc_07 shape) each start their own run, so both are
+       covered.
+    3. A per-section metadata block later in the document (see
+       _post_heading_header_field_lines) - the same header-field
+       convention as (1), repeated right after a later heading rather than
+       only at the document's own top, found live in witt Doc_08's own
+       "## 1. Section 1 — World Identification" block (its own completion-
+       date/version fields, well past the top header's first `---`).
+    """
+    if not _is_doc_construction_file(rel):
+        return set()
+
+    lines = text.splitlines()
+    protected: set[int] = set()
+    protected |= _post_heading_header_field_lines(lines)
+
+    # 1. Header metadata fields (plus continuation lines).
+    header_end = next(
+        (i for i, line in enumerate(lines[:40]) if line.strip() == "---"),
+        min(15, len(lines)),
+    )
+    i = 0
+    while i < header_end:
+        field_match = _DOC_HEADER_FIELD_RE.match(lines[i])
+        if field_match and not _DOC_HEADER_FIELD_NARRATIVE_LABEL_RE.match(field_match.group(1)):
+            protected.add(i + 1)
+            # Continuation lines, for a field whose value wraps - this
+            # repo's actual convention is one field per single (often very
+            # long) physical line, so this rarely if ever fires; it stops
+            # at a blank line, a `---` divider, OR any line starting with
+            # "**" - not only one matching the narrow field-label shape.
+            # That second check matters: a header's own free-prose
+            # disclosure paragraph also opens with a bold lead (e.g. ijc
+            # Doc_04's "**Note on this document's own place in this
+            # project's methodology:**"), and must end this field's run
+            # rather than being swept into it - it gets its own, separate
+            # (and correctly negative) test against the field-label regex
+            # on the next outer iteration.
+            j = i + 1
+            while (
+                j < header_end
+                and lines[j].strip() not in ("", "---")
+                and not lines[j].lstrip().startswith("**")
+            ):
+                protected.add(j + 1)
+                j += 1
+            i = j
+        else:
+            i += 1
+
+    # 2. Tail administrative block(s), heading-keyword driven.
+    heading_re = re.compile(r"^(#{2,})\s+(.*)$")
+    headings = []  # (0-indexed line, level, heading text)
+    for idx, line in enumerate(lines):
+        m = heading_re.match(line)
+        if m:
+            headings.append((idx, len(m.group(1)), m.group(2)))
+
+    for pos, (idx, level, htext) in enumerate(headings):
+        if not _is_doc_tail_heading(htext):
+            continue
+        end = len(lines)
+        for idx2, level2, _ in headings[pos + 1:]:
+            if level2 <= level:
+                end = idx2
+                break
+        for k in range(idx, end):
+            protected.add(k + 1)
+
+    return protected
 
 
 def _is_engine_report(rel: Path) -> bool:
@@ -626,7 +1270,14 @@ def is_protected(rel: Path, line_no: int, protected_field_lines: set[int]) -> bo
         return True
     if rel_s in PROTECTED_HISTORICAL_FILES:
         return True
-    if _is_review_doc(rel) or _is_world_build_dir(rel) or _is_gaps_ledger(rel) or _is_engine_report(rel):
+    if (
+        _is_review_doc(rel)
+        or _is_world_build_dir(rel)
+        or _is_gaps_ledger(rel)
+        or _is_decision_log(rel)
+        or _is_build_ledger(rel)
+        or _is_engine_report(rel)
+    ):
         return True
     if line_no in protected_field_lines:
         return True
@@ -650,13 +1301,35 @@ class Hit:
         return f"{self.path}:{self.line}:{self.category} ({','.join(self.patterns)})"
 
 
-def classify_line(line: str, matched: list[str], in_source_record_body: bool = False) -> str:
-    if ROUTE_CUES.search(line):
+def _route_cue(line: str, in_source_registry_file: bool = False) -> bool:
+    """ROUTE_CUES, except where the wording is the line's own subject: a
+    public status label (`"statusWord": "Creedal question - not yet
+    resolved"`) and the acquisition-status value in a Source Registry table
+    row (`NOT YET ACQUIRED`)."""
+    if _PUBLIC_STATUS_LABEL.match(line):
+        return False
+    if not ROUTE_CUES.search(line):
+        return False
+    if in_source_registry_file and line.lstrip().startswith("|"):
+        return bool(ROUTE_CUES.search(_REGISTRY_STATUS_CUE.sub("", line)))
+    return True
+
+
+def classify_line(
+    line: str,
+    matched: list[str],
+    in_source_record_body: bool = False,
+    in_source_registry_file: bool = False,
+    date_in_provenance_cell: bool = False,
+    table_has_header: bool = False,
+) -> str:
+    if _route_cue(line, in_source_registry_file):
         return "ROUTE"
     real_matches = [
         name for name in matched
         if not (name == "review-round" and NON_REVIEW_ROUND.search(line))
         and not (name == "reviewer" and GENERIC_REVIEWER.search(line))
+        and not (name == "change-history-cue" and _VERIFIED_BY_FIELD.match(line))
         and not (
             name == "ruling-number"
             and (in_source_record_body or SOURCE_REGISTRY_REF.search(line))
@@ -667,6 +1340,10 @@ def classify_line(line: str, matched: list[str], in_source_record_body: bool = F
                 _BARE_DATE_LINE.match(line)
                 or _BARE_DATE_HEADER_LINE.match(line)
                 or _STRUCTURED_DATE_KWARG.search(line)
+                or date_in_provenance_cell
+                or _iso_date_only_in_filenames(line)
+                or _VERIFIED_BY_FIELD.match(line)
+                or _iso_date_is_bare_table_provenance(line, in_source_registry_file and not table_has_header)
             )
         )
     ]
@@ -675,8 +1352,137 @@ def classify_line(line: str, matched: list[str], in_source_record_body: bool = F
     return "KEEP"
 
 
+# ---------------------------------------------------------------------------
+# The build gates (engine/m10) name the process vocabulary they detect, and
+# the review-file header fixes the field names "Reviewer model" and "Drafter
+# model". Those code lines and header fields are the subject of the code, not
+# narration. The rule is narrow: only these three cases, nothing broader.
+# ---------------------------------------------------------------------------
+_GATE_MODULE = re.compile(r"^engine/m10/[^/]+\.py$")
+_GATE_TEST_MODULE = re.compile(r"^engine/m10/tests/[^/]+\.py$")
+_GATE_KEEP_PATTERNS = {"reviewer", "route-cue"}
+_REVIEW_HEADER_FIELD = re.compile(r"^\s*(?:Reviewer|Drafter) (?:model|agent)\s*:")
+
+
+def _python_code_lines(text: str) -> set[int]:
+    """Line numbers that hold code: a token other than a comment or a bare
+    string statement (a docstring), and no comment on the line."""
+    code: set[int] = set()
+    commented: set[int] = set()
+    previous = tokenize.NEWLINE
+    tokens = []
+    try:
+        tokens = list(tokenize.generate_tokens(io.StringIO(text).readline))
+    except (tokenize.TokenError, IndentationError, SyntaxError):
+        return set()
+    structural = {tokenize.NEWLINE, tokenize.NL, tokenize.INDENT, tokenize.DEDENT, tokenize.ENDMARKER}
+    for index, tok in enumerate(tokens):
+        if tok.type == tokenize.COMMENT:
+            commented.add(tok.start[0])
+        elif tok.type in structural:
+            pass
+        else:
+            following = next((t for t in tokens[index + 1 :] if t.type not in (tokenize.COMMENT, tokenize.NL)), None)
+            bare_string = (
+                tok.type == tokenize.STRING
+                and previous in (tokenize.NEWLINE, tokenize.INDENT, tokenize.DEDENT, tokenize.NL)
+                and following is not None
+                and following.type in (tokenize.NEWLINE, tokenize.ENDMARKER)
+            )
+            if not bare_string:
+                code.update(range(tok.start[0], tok.end[0] + 1))
+        if tok.type not in (tokenize.COMMENT, tokenize.NL):
+            previous = tok.type
+    return code - commented
+
+
+def _gate_vocabulary_category(rel: Path, line: str, matched: list[str], category: str, code_lines: set[int], line_no: int) -> str:
+    rel_s = rel.as_posix()
+    if category not in BLOCKING_CATEGORIES:
+        return category
+    if rel.suffix == ".md" and _REVIEW_HEADER_FIELD.match(line):
+        return "KEEP"
+    if line_no in code_lines:
+        if _GATE_MODULE.match(rel_s) and set(matched) <= _GATE_KEEP_PATTERNS:
+            return "KEEP"
+        if _GATE_TEST_MODULE.match(rel_s):
+            return "PROTECTED"
+    return category
+
+
+# ---------------------------------------------------------------------------
+# The governing method files describe the review process, so words such as
+# reviewer, round, route and era gate are their subject, not narration. In
+# those files (and only there) a REWRITE or ROUTE hit is KEEP when every
+# matched pattern is process vocabulary and the line has neither a history
+# shape nor a status cue. Dates, ruling numbers, decision-log pointers and
+# provenance attributions are untouched and still flagged.
+# ---------------------------------------------------------------------------
+_METHOD_DOC = re.compile(
+    r"^Build/reference/(?:method/(?:CiC_Record_Native_World_Build_Process_V[\d.]+|CiC_World_Build_Completion_Standard_V[\d.]+|CiC_Adversarial_Review_Standard_Practice)\.md"
+    r"|method/skills/[^/]+/SKILL\.md|L4-Templates/[^/]+\.md)$"
+)
+_METHOD_VOCAB = {
+    "reviewer", "review-round", "era-gate", "route-cue", "change-history-cue", "change-history-block", "marks-word",
+}
+_METHOD_HISTORY = re.compile(
+    r"^\s*[-*]?\s*\**Round\s+\d+\**\s*[:(]"
+    r"|\bround\s+\d+\s+(?:found|caught|flagged|named)\b"
+    r"|\b(?:previously|formerly|no longer|used to|was changed|were changed|earlier (?:draft|version)s?)\b",
+    re.I,
+)
+_METHOD_STATUS = re.compile(
+    r"\b(?:TODO|FIXME|not yet (?:resolved|fixed|answered|acquired)|still (?:pending|open)"
+    r"|known (?:gap|issue|defect)|has not yet (?:been|done))\b",
+    re.I,
+)
+_MARKS_ROLE = re.compile(r"\bMark'?s\s+(?:word|call)\b", re.I)
+
+
+def _method_vocabulary_category(rel: Path, line: str, matched: list[str], category: str) -> str:
+    if category not in BLOCKING_CATEGORIES or not _METHOD_DOC.match(rel.as_posix()):
+        return category
+    if not set(matched) <= _METHOD_VOCAB:
+        return category
+    if "marks-word" in matched and not _MARKS_ROLE.search(line):
+        return category
+    if _METHOD_HISTORY.search(line) or _METHOD_STATUS.search(line):
+        return category
+    return "KEEP"
+
+
+# A package's manifest.json is generated output: a list of file paths and hashes
+# that `engine.m2.cli build` writes. Its text is record ids, never prose, so a
+# process word inside a record id (a file named ...-unresolved.md) is not commentary,
+# and rewording cannot remove it without renaming the record.
+_PACKAGE_MANIFEST = re.compile(r"^packages/[^/]+/[^/]+/manifest\.json$")
+
+
+def is_generated_manifest(rel: Path) -> bool:
+    return bool(_PACKAGE_MANIFEST.match(rel.as_posix()))
+
+
+_NAME_LINE = re.compile(r"^\s*(?:-\s+)?name:")
+_TAXONOMY_TAG = r"\[(?:PRIMARY|SUPPORTING|TENSIONAL|[1-3][AB](?:-\d+)?)\b[^\]]*\]"
+_LEADING_NAME_TAG = re.compile(r"(?<=[:\s\"'])" + _TAXONOMY_TAG + r"\s*")
+_TRAILING_NAME_TAG = re.compile(r"\s*" + _TAXONOMY_TAG + r"(?=[\"']?\s*$)")
+
+
+def _without_name_taxonomy_tag(line: str) -> str:
+    """A gravity or force record's `name:` ends in (or, in two rzg records,
+    starts with) a bracketed build tag such as [2A - ongoing/external] or
+    [PRIMARY]. engine.prose.strip_name_taxonomy_tag removes it before the
+    name reaches the compiled prompt or a citation card, so the tag itself
+    is not participant-facing text."""
+    if not _NAME_LINE.match(line):
+        return line
+    return _TRAILING_NAME_TAG.sub("", _LEADING_NAME_TAG.sub("", line, count=1), count=1)
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
+    if is_generated_manifest(rel):
+        return []
     try:
         text = path.read_text(encoding="utf-8", errors="replace")
     except OSError:
@@ -684,26 +1490,49 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
 
     raw_lines = text.splitlines()
 
+    in_source_registry_file = bool(_SOURCE_REGISTRY_FILENAME.search(rel.name))
+    provenance_date_lines, headed_table_lines = _source_registry_date_lines(raw_lines) if in_source_registry_file else (set(), set())
     protected_field_lines: set[int] = set()
     spoken_field_lines: set[int] = set()
     source_record_body_lines: set[int] = set()
+    # Computed for every file, not just records/: cheap (an immediate
+    # return when the file has no leading `---`), and needed fleet-wide
+    # below for change-history widening, not only for records/'s own
+    # PROTECTED-field/spoken-field logic.
+    frontmatter_field_lines, record_type = _front_matter_field_lines(text)
     if path.suffix == ".md" and rel.parts[0] == "records":
-        field_lines, record_type = _front_matter_field_lines(text)
-        protected_field_lines = _protected_record_field_lines(field_lines, record_type)
-        spoken_field_lines = _spoken_field_lines(field_lines, record_type)
+        protected_field_lines = _protected_record_field_lines(frontmatter_field_lines, record_type)
+        spoken_field_lines = _spoken_field_lines(frontmatter_field_lines, record_type)
         source_record_body_lines = _source_record_body_lines(text, record_type)
+    protected_field_lines |= _doc_construction_protected_lines(rel, text)
 
+    # A change-history cue inside a YAML front-matter block widens only to
+    # its own top-level key's lines (_yaml_scalar_block_lines) - front
+    # matter has no blank lines between sibling keys, so the ordinary
+    # blank-line paragraph widening would otherwise flood every unrelated
+    # sibling field. A cue outside front matter (the record's own body
+    # prose after the closing `---`, a file with no front matter at all,
+    # plain Markdown, a Python/JS comment, ...) still widens by
+    # _paragraph_lines, unchanged.
+    frontmatter_end = _yaml_frontmatter_end(raw_lines)
     change_history_block_lines: set[int] = set()
     for i, line in enumerate(raw_lines, start=1):
-        if CHANGE_HISTORY_CUES.search(line):
-            change_history_block_lines.update(_paragraph_lines(raw_lines, i))
+        if CHANGE_HISTORY_CUES.search(line) and not _VERIFIED_BY_FIELD.match(line):
+            if frontmatter_end is not None and i <= frontmatter_end:
+                change_history_block_lines.update(_yaml_scalar_block_lines(frontmatter_field_lines, i))
+            else:
+                change_history_block_lines.update(_paragraph_lines(raw_lines, i))
 
+    code_lines = _python_code_lines(text) if path.suffix == ".py" else set()
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
+        if i in code_lines:
+            matched = [name for name in matched if name != "ruling-identifier"]
         if i in spoken_field_lines:
-            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(line)]
-        if not matched and ROUTE_CUES.search(line):
+            spoken_text = _without_name_taxonomy_tag(line)
+            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(spoken_text)]
+        if not matched and _route_cue(line, in_source_registry_file):
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
             matched = ["change-history-block"]
@@ -712,7 +1541,9 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         if is_protected(rel, i, protected_field_lines):
             category = "PROTECTED"
         else:
-            category = classify_line(line, matched, i in source_record_body_lines)
+            category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file, i in provenance_date_lines, i in headed_table_lines)
+            category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
+            category = _method_vocabulary_category(rel, line, matched, category)
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
 
@@ -744,21 +1575,69 @@ def run(repo: Path, surfaces: list[str]) -> list[Hit]:
     return hits
 
 
+def surface_of(rel: Path) -> str | None:
+    """The scan surface a repo-relative path belongs to, if any."""
+    rel_s = rel.as_posix()
+    for surface, roots in SURFACES.items():
+        if any(rel_s == root or rel_s.startswith(root + "/") for root in roots):
+            return surface
+    return None
+
+
+def changed_files(repo: Path, base: str) -> list[Path]:
+    """Files added or modified since the merge-base with `base`, working
+    tree included, plus untracked files. Deleted files carry no commentary."""
+    def git(*args: str) -> str:
+        return subprocess.run(["git", *args], cwd=repo, check=True, capture_output=True, text=True).stdout
+
+    merge_base = git("merge-base", base, "HEAD").strip()
+    names = git("diff", "--name-only", "--diff-filter=ACMR", merge_base).splitlines()
+    names += git("ls-files", "--others", "--exclude-standard").splitlines()
+    return sorted({repo / n for n in names if n})
+
+
+def run_changed(repo: Path, files: list[Path]) -> list[Hit]:
+    hits: list[Hit] = []
+    for path in files:
+        rel = path.relative_to(repo)
+        surface = surface_of(rel)
+        if surface is None or not path.is_file():
+            continue
+        if any(part in SKIP_DIR_NAMES for part in rel.parts):
+            continue
+        if path.suffix in SKIP_SUFFIXES or path.suffix not in TEXT_SUFFIXES:
+            continue
+        hits.extend(scan_file(repo, path, surface))
+    return hits
+
+
+BLOCKING_CATEGORIES = ("REWRITE", "ROUTE")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--surface", choices=sorted(SURFACES), default=None)
     parser.add_argument("--json", type=Path, default=None)
+    parser.add_argument("--base", default=None, help="scan only files changed since the merge-base with this git ref")
+    parser.add_argument("--enforce", action="store_true", help="exit 1 when a scanned file carries REWRITE or ROUTE lines (needs --base)")
     args = parser.parse_args(argv)
+    if args.enforce and not args.base:
+        parser.error("--enforce needs --base: the rule is scoped to the files a change edits")
 
-    surfaces = [args.surface] if args.surface else sorted(SURFACES)
-    hits = run(REPO, surfaces)
+    if args.base:
+        surfaces = [args.surface] if args.surface else sorted(SURFACES)
+        hits = [h for h in run_changed(REPO, changed_files(REPO, args.base)) if h.surface in surfaces]
+    else:
+        surfaces = [args.surface] if args.surface else sorted(SURFACES)
+        hits = run(REPO, surfaces)
 
     counts: dict[str, dict[str, int]] = {}
     for hit in hits:
         counts.setdefault(hit.surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
         counts[hit.surface][hit.category] += 1
 
-    print("Live-surface commentary scan (report-only; see tools/check_live_commentary.py)\n")
+    scope = f"files changed since the merge-base with {args.base}" if args.base else "whole tree"
+    print(f"Live-surface commentary scan ({scope}; see tools/check_live_commentary.py)\n")
     for surface in surfaces:
         c = counts.get(surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
         total = sum(c.values())
@@ -773,6 +1652,14 @@ def main(argv: list[str] | None = None) -> int:
             json.dumps([hit.__dict__ for hit in hits], indent=2) + "\n", encoding="utf-8"
         )
 
+    blocking = [h for h in hits if h.category in BLOCKING_CATEGORIES]
+    if args.enforce and blocking:
+        print(f"\n{len(blocking)} REWRITE/ROUTE line(s) in files this change edits: remove the commentary "
+              "(rewrite the reason in plain present tense; move provenance to Build/Ministry, open items to "
+              "Open_Gaps_Tracking.md).", file=sys.stderr)
+        for hit in blocking:
+            print(f"  {hit.row()}", file=sys.stderr)
+        return 1
     return 0
 
 

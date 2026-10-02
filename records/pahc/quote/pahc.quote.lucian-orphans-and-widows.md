@@ -65,7 +65,7 @@ relations:
 - type: associated-with
   target: pahc.quote.lucian-all-brothers
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Text is verified verbatim against the vendored file.
 
 Registered on the vendoring of
 cic/texts/lucian_works-vol4-peregrine_fowler1905.txt, which closes the
@@ -77,4 +77,4 @@ that translation.
 The em dashes and the quotation marks around "the modern Socrates" are
 the 1905 text's own.
 
-MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+The modern rendering is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3.

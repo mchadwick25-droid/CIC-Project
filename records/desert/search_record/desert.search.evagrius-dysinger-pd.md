@@ -11,7 +11,7 @@ confidence:
   verification_state: unverified
   evidentiary_weight: corroborating
   formation_confidence: Contested
-  divergence_note: 'RESOLVED 2026-08-27 - see the CLEARED note at the foot of this record. Retained as written because the reasoning that follows was correct at the time and the correction is instructive: the lead was weaker than Schodde and must not have been treated as equivalent. A translator''s
+  divergence_note: 'See the CLEARED note at the foot of this record. The reasoning below stands as its own record: the lead was weaker than Schodde and must not have been treated as equivalent. A translator''s
     own dedication to the public domain is a rights claim by a living author, not an expiry by date,
     and this one reportedly acknowledges a debt to Simon Tugwell''s 1987 translation, which is in
     copyright. That combination needs a real look at the dedication''s terms before anything is

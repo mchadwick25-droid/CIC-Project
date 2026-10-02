@@ -1,7 +1,8 @@
 source_file: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
 
 assignments:
-  - work: "History of the Armenians"
+  - row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--history-of-the-armenians
+    work: "History of the Armenians"
     author: moses-khoren
     locus: "the Mashtots alphabet narrative confirmed present; III.47-54 not cross-checked against this translation's own numbering"
     atlas_ids:

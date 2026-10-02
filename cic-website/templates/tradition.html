@@ -4,7 +4,7 @@
   content).
 
   This is not a whole HTML document and is never served on its own. It is
-  read and filled by tools/generate_tradition_pages.py, which splices the
+  read and filled by Build/tools/generate_tradition_pages.py, which splices the
   result into the <div class="article"> block of each built world's own
   EXISTING page at cic-website/traditions/<slug>.html - the title block,
   portrait, ai-line, seat/CTA, door, footer and script (everything this
@@ -46,7 +46,7 @@
   speaking" (who_speaks, a meta-summary of the voice roster) and "Where
   we are quiet" (quiet, a section built entirely around evidentiary
   silence) - and the Voices section below renders without its "This
-  world's own hedge" callout (tools/render_orientation_cli.mjs passes
+  world's own hedge" callout (Build/tools/render_orientation_cli.mjs passes
   {showHedge: false} to renderVoices for this template only; the Atlas
   panel keeps hedges, since it imports the renderer directly with no
   opts). Gap/thinness content isn't deleted from the project - it's
@@ -69,6 +69,9 @@ details.docstory-item summary::-webkit-details-marker{display:none}
 details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
 details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .docstory{padding:0 0 .9rem}
+.narration{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:.3rem 0 .8rem}
+.narration audio{display:block;height:1.9rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin:0}
 .orient-relations{max-width:var(--measure)}
 .orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
 .orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}

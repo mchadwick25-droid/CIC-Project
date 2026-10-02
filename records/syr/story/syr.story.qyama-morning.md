@@ -80,4 +80,4 @@ sources[] and the tier justification. NO TIER 5: nothing here is
 invented narrative; every element traces, and the reconstruction
 character is stated inside the telling's own frame.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

@@ -1,8 +1,7 @@
-"""Stage 2d (Build-Plan.md): the holdings report - one row per vendored
-file, per world, naming whether it is in scope, already named in this
-world's own records, actually drawn on, and its own disposition from a
-closed vocabulary. Report-only, per the stage's own bar ("nothing
-blocks"); gate only after R13 (Rulings-Pending.md).
+"""The holdings report - one row per vendored file, per world, naming
+whether it is in scope, already named in this world's own records, actually
+drawn on, and its own disposition from a closed vocabulary. Report-only:
+nothing here blocks a build.
 
 Reuses `engine.m1.cross_world`'s own `corpus_tier`/`BY_DESIGN`/
 `observe_second_hand_sources` rather than duplicating that judgment, and
@@ -12,22 +11,12 @@ A file's "drawn on" status is a full-text scan of this world's own
 same technique `texts_registry.citing_records()` already uses fleet-wide
 (catching a citation that lives in a quote record's body prose, not just
 a source record's `edition` field), scoped here to one world.
-
-KNOWN GAP, NOT HIDDEN: Build-Plan.md's own 2d spec also asks to relocate
-COVERAGE/REGIONS/AUTHORS out of `engine/m1/cross_world.py` into a
-library-side file under `cic/corpus-map/`, and to have
-`observe_second_hand_sources` read `cic/texts/AUTHORS.md`/
-`cic/corpus-map/AUTHOR-IDS.yaml` directly instead of its own hand-typed
-`AUTHORS` table. That relocation touches data
-`worlds/_cross-world/gen_corpus_table.py` and several worlds' own
-Review-Artifacts already depend on - real, separate work, deliberately
-not attempted in the same pass as this report, filed as a named
-remainder rather than silently dropped.
 """
 from __future__ import annotations
 
 import re
 import sys
+from pathlib import Path
 
 from engine.m1.cross_world import BY_DESIGN, corpus_key, corpus_tier, observe_second_hand_sources
 from engine.m1.loader import load_world_records
@@ -37,6 +26,10 @@ sys.path.insert(0, str(REPO_ROOT / "cic" / "engine"))
 from texts_registry import discovered_files  # noqa: E402
 
 _RECORDS_DIR = REPO_ROOT / "records"
+
+
+class HoldingsError(ValueError):
+    """The registry cannot answer what the report needs, named by file and field."""
 _EDITION_PATH = re.compile(r"cic/texts/([\w.-]+)")
 
 # Mechanically derived, in priority order, from corpus_tier's own four
@@ -59,8 +52,8 @@ DISPOSITIONS = (
 )
 
 
-def _drawn_on_files(world: str) -> set[str]:
-    world_dir = _RECORDS_DIR / world
+def _drawn_on_files(world: str, records_dir: Path = _RECORDS_DIR) -> set[str]:
+    world_dir = records_dir / world
     found: set[str] = set()
     if not world_dir.is_dir():
         return found
@@ -81,13 +74,21 @@ def _named_files(world: str, records: dict) -> set[str]:
     return named
 
 
-def holdings_for(world: str) -> list[dict]:
+def holdings_for(world: str, root: Path = REPO_ROOT) -> list[dict]:
     """One row per vendored file for `world`: in_scope, named_in_records,
-    drawn_on, and a disposition drawn from DISPOSITIONS above."""
-    registry = load_registry()
-    window = registry[world]["time_window"]
-    records = load_world_records(world)
-    drawn = _drawn_on_files(world)
+    drawn_on, and a disposition drawn from DISPOSITIONS above. A world with a
+    registry entry and no records/<world>/ directory yet (Steps 0 to 2 of a new
+    world) holds no records: nothing is named or drawn on."""
+    records_dir = root / "records"
+    entry_path = f"records/worlds/{world}.yaml"
+    registry = load_registry(records_dir / "worlds")
+    if world not in registry:
+        raise HoldingsError(f"{entry_path} does not exist: {world!r} is not a registered world")
+    window = registry[world].get("time_window")
+    if not isinstance(window, dict) or "start" not in window or "end" not in window:
+        raise HoldingsError(f"{entry_path} has no time_window with start and end; the holdings report sorts vendored files by the world's time window")
+    records = load_world_records(world, records_root=records_dir) if (records_dir / world).is_dir() else {}
+    drawn = _drawn_on_files(world, records_dir)
     named = _named_files(world, records)
 
     rows = []
@@ -123,7 +124,10 @@ def holdings_for(world: str) -> list[dict]:
 
 
 def report(world: str) -> str:
-    rows = holdings_for(world)
+    try:
+        rows = holdings_for(world)
+    except HoldingsError as exc:
+        raise SystemExit(f"holdings: {exc}") from None
     counts: dict[str, int] = {}
     for r in rows:
         counts[r["disposition"]] = counts.get(r["disposition"], 0) + 1

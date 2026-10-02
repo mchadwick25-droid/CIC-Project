@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrilline-miaphysite-egyptian-christianity
 works:
-- work: The Ecclesiastical History of Evagrius (A.D. 431-594)
+- row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--the-ecclesiastical-history-of-evagrius-a-d-431-594-2
+  work: The Ecclesiastical History of Evagrius (A.D. 431-594)
   author: evagrius-scholasticus
   locus: whole file
   role: context
@@ -16,7 +17,8 @@ works:
 
     '
   source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
-- work: The History of Joseph the Carpenter
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter-2
+  work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   role: transmission
@@ -30,7 +32,8 @@ works:
     class is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church is
     why we have it, which is custody rather than a date guess.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Chronicle of John, Bishop of Nikiu
+- row_id: john-nikiu_chronicle_charles1916--the-chronicle-of-john-bishop-of-nikiu
+  work: The Chronicle of John, Bishop of Nikiu
   author: john-nikiu
   locus: whole file
   role: tradition
@@ -41,7 +44,21 @@ works:
 
     '
   source_file: john-nikiu_chronicle_charles1916.txt
-- work: The Divine Liturgy of Mark
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-mark
+  work: Liturgy of S. Mark
+  author: liturgy-of-st-mark
+  locus: file lines about 2259-3050
+  role: context
+  confidence: needs-ruling
+  note: 'The Alexandrian rite in Neale''s English. Placed with the Egyptian entry on the guess
+    that the Greek Liturgy of Mark belongs to Alexandria''s church, but the rite''s date (its
+    written form is later than the era that entry covers) has not been checked against that
+    entry''s window, so it is flagged, not forced.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-mark
+  work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark
   locus: div2 12.3
   role: tradition
@@ -57,7 +74,8 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: History of the Patriarchs of the Coptic Church of Alexandria
+- row_id: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904--history-of-the-patriarchs-of-the-coptic-church-of-alexandria
+  work: History of the Patriarchs of the Coptic Church of Alexandria
   author: severus-al-muqaffa
   locus: whole file, esp. the Benjamin I entry
   role: tradition

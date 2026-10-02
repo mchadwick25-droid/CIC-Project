@@ -1,7 +1,8 @@
 source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
 
 assignments:
-  - work: "Lives of the Eastern Saints (II)"
+  - row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--lives-of-the-eastern-saints-ii
+    work: "Lives of the Eastern Saints (II)"
     author: john-ephesus
     locus: "whole fascicule"
     atlas_ids:

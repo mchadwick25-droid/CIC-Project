@@ -37,8 +37,4 @@ Innocent's summary, a named deacon's death) Inferential-Thin - do not
 manufacture precision the sources withhold. See
 hal.search.womens-own-texts.
 
-CORRECTED per independent review Round 1 (2026-08-21): the `work` field's
-former quoted string for Ep. 139 ("my own monastery has been destroyed")
-does not appear in the letter; replaced with a verbatim phrase from the
-letter's own closing line, re-verified directly against the vendored
-file. The exact text is quoted in full at hal.quote.house-destroyed.
+The exact text is quoted in full at hal.quote.house-destroyed.

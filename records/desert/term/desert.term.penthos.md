@@ -47,7 +47,5 @@ loose thematic stretch would be forcing. The do-not-retrieve fence
 exists because the modern-hearing risk here is not misunderstanding
 but misapplication to a participant's own disclosed distress.
 
-Step3a Review Round 3, Finding J3: the evidential sense's "(compiler
-screen applies)" used this build's own source-criticism label,
-imported from the step-2 source records rather than Doc_06 - reworded
-to state the compiler-mediation fact in plain terms.
+The evidential sense states the compiler-mediation fact in plain terms:
+the sayings tradition is filtered through later, anonymous compilers.

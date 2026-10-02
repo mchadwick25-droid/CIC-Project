@@ -67,7 +67,7 @@ modern_rendering: >-
   may be. And we pray, too, that the works of our hands may be directed toward pleasing
   him.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,
 Rule/Question XXXVII ("Whether We Must Neglect Work for the Sake of the
 Prayers and Psalmody..."), lines 17072-17096 (grep -n -i "get off work
@@ -82,22 +82,20 @@ apparatus, not text; the line-end hyphenation "every-\nthing" was
 rejoined as "everything". No wording was added, dropped, or reordered;
 the source's own em dash ("faith,—but") is kept as printed.
 
-Quote-verbatim gate fix (2026-09-22, supersedes the 2026-09-02
-"normalized to a single straight double quote" call above): the source's
-opening "“‘" before "There is a time for everything" is a genuine nested
-quotation mark, not print noise - Basil is quoting Ecclesiastes 3:1
-inside his own reported speech, exactly the construction a nested mark
-exists to punctuate. Per Mark's ruling that a nested mark must be
-corrected to match the source, not normalized away, restored as a
-straight apostrophe after the opening straight double-quote ('"' '
-There...'). The record still cannot verify past this point: the source
-also carries the "®" footnote-marker artifact directly between
-"everything.\"" and "But" (no whitespace-only gap can skip a literal
-character), which is the same footnote/column-apparatus gate gap named
-above, not a content problem in the record - flagged for Mark alongside
+The source's opening "“‘" before "There is a time for everything" is a
+genuine nested quotation mark, not print noise - Basil is quoting
+Ecclesiastes 3:1 inside his own reported speech, exactly the
+construction a nested mark exists to punctuate. A nested mark is
+corrected to match the source rather than normalized away: it is
+restored as a straight apostrophe after the opening straight
+double-quote ('"' There...'). The record still cannot verify past this
+point: the source also carries the "®" footnote-marker artifact directly
+between "everything.\"" and "But" (no whitespace-only gap can skip a
+literal character) - the same footnote/column-apparatus gap open in
 cappadocian.quote.basil-on-common-life and
-cappadocian.quote.gregory-nyssa-on-becoming-god (same root cause, this
-vendored edition's own footnote/column-letter apparatus).
+cappadocian.quote.gregory-nyssa-on-becoming-god, all three from this
+vendored edition's own footnote/column-letter apparatus, not a content
+problem in any of the three records.
 
 Chosen for F5-I specifically because this is Basil's own reasoning for
 why manual labor and fixed prayer do not compete for the same hours in
@@ -113,7 +111,4 @@ ground cappadocian.quote.basil-on-common-life already covers (Longer
 Rule VII, F4-I) from the same Asketikon, so the two records draw on the
 same book without overlapping in what they actually witness to.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own
-standing quote discipline: the spoken form is a modern-English
-translation, never the archaic original; the original stays as the
-record's own text field, shown at Level 3).
+The spoken form is spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

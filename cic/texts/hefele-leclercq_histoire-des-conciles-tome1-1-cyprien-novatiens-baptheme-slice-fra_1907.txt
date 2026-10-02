@@ -1,0 +1,1423 @@
+Title: Histoire des conciles d'apres les documents originaux, Tome I, premiere partie (nouvelle traduction francaise faite sur la deuxieme edition allemande, corrigee et augmentee de notes critiques et bibliographiques par Dom H. Leclercq) - sections 5 and 6 (the Carthage councils under Cyprian, 251 to 256)
+Creator: Karl Josef von Hefele; Dom Henri Leclercq (translator and annotator)
+Publisher: Paris: Letouzey et Ane, editeurs
+Publication Date: 1907 (printed on the title page, item lines 52-56 of the file)
+Rights: Public Domain (pd-us-by-date: published 1907)
+Language: fra
+Source: archive.org item p1histoiredesconci01hefe (volume "1, pt.1", catalogue date 1907), full text at https://archive.org/download/p1histoiredesconci01hefe/p1histoiredesconci01hefe_djvu.txt. Fetched and opened directly 2026-09-30 by the lpc library sweep (second pass); the byte count of the whole downloaded djvu.txt (2,185,876) equals the size archive.org lists. The title page in the OCR reads "Histoire des conciles ... Tome I, premiere partie. Paris, Letouzey et Ane, editeurs ... 1907" (item lines 14-56).
+Provenance note: Mechanically extracted as a line-range slice (lines 9020-10431 of the item's djvu.txt): from the heading "5. Premiers conciles a Carthage et a Rome dans l'affaire des novatiens et a l'occasion des lapsi (251)" (item line 9020) to the line before the heading "7. Concile de Narbonne (255-260)" (item line 10432). Nothing was normalized or corrected. Rights basis: 1907 publication date, pd-us-by-date.
+Content note: The French of Hefele's account of the Carthage councils of 251, 252, 253, 255 and 256 under Cyprian and of the baptism controversy with Rome, with footnotes citing Cyprian's letters by number (for example Epist. lii, liv, lv, lxviii, lxxi, lxxiii, lxxiv) and the De rebaptismate, with Patrologia Latina column numbers. The slice contains section 5 (item line 9020) and section 6, "Synodes de 255 et 256 relatifs au bapteme des heretiques" (item line 9389), and stops before section 7. A bibliography on Cyprian and the heretic-baptism question, including Benson (1897), is at about item line 9440. Secondary, consultation-only per cic/texts/INTAKE.md.
+
+______________________________________________________________________
+
+5.  Premiers  conciles  à   Carthage  et  à  Rome  dans  ïaffaire 
+des  novatiens  et  à  l'occasion  des  lapsi  (251). 
+
+
+Bientôt  après  le  schisme  de  Félicissimus  et  la  controverse  nova- 
+tienne  occasionnèrent  plusieurs  synodes.  Lorsque,  en  248,  saint 
+(Cyprien  fut  élu  évêque  de  Carthage,  il  y  eut  un  petit  parti  de  mé- 
+contents, composé  de  cinq  prêtres,  dont  il  parle  lui-même  dans  sa 
+XL*'  lettre  ^.  Peu  après    l'explosion   de   la  persécution   de    Dèce  (au 
+
+1.  Voir  plus  haut,  p.  156. 
+
+2.  Pr.  Maran,  Vita  S.  Cypriani,  c.  iv,  P.  Z.,  t.  iv,  col.  84-85;  Tillemont, 
+Mém.  hist.  ecclés.,  1701,  t.  iv,  p.  60,  604.  |H.  L.) 
+
+o.  Le  prédécesseur  de  saint  Cyprien  était  ce  Donatus  que  nous  avons  ren- 
+contré à  propos  du  prétendu  concile  de  Lambèse.  La  date  de  l'avènement  de 
+Cyprien  ne  fait  pas  dedoute.  £pi.st.^L\,6,  P.  L.,  t.  m, col.  830.  Tillemont,  Mém. 
+hist.  ecclés.,  t.  iv,  p.  54-55,  suivi  par  Hefele  propose  la  date  248  ;  Benson,  dans 
+Dictionn.  of  christ,  biogr.,  t.  i,  p.  741,  se  rapproche  plus  de  la  vérité  lorsqu'il 
+place  l'élection  entre  juillet  248  et  avril  249.  Saint  Cyprien  écrit  à  Corneille  en 
+252,  après  les  ides  de  mai,  qu'il  est  «  approuvé  de  son  peuple  depuis  quatre 
+ans  que  dure  son  épiscopat  t>.  A  compter  suivant  la  manière  des  Romains,  Cy- 
+prien était  alors  dans  la  quatrième  année  de  son  épiscopat,  il  avait  donc  été 
+élu  dans  les  premiers  mois  de  l'année  249.  Sur  l'élection  et  la  cabale  des  cinq 
+prêtres,  cf.  Pontius,  Vita  Cypriani,  c.  v,  P.  L.,t.  m,  col.  1545-1546;  Epist.,\L, 
+1,  /'./,.,  t.  IV,  col.  341-342;  P.  Monceaux,  Hist.  liltér.  de  l'Jfri(/.  chrét., 
+t.  II,  p.  208  sq.  (H.  L.| 
+
+
+166  LtVRF.    I,    CHAPITRE     II 
+
+commencement  de  250),  loppositîon  contre  Cyprien  s'étendit  et  s'ac- 
+ctMitua,  parce  que,  dans  rintérèt  de  la  discipline  de  l'Eglise,  il  ne 
+voulait  pas  avoir  toujours  égard  aux  lettres  de  paix  que  quelques 
+martyrs  donnaient  imprudemment  aux  hipsi^.  On  l'accusa  d'une 
+dureté  exagérée,  et  son  absence  (de  lévrier  -  250  jusqu'au  mois 
+d'avril  ou  de  mai  ^  251)  favorisa  les  progrès  du  parti  qui  se  formait 
+contre  lui.  Une  circonstance  fortuite  fit  éclater  le  schisme  *.  Cyprien 
+avait,  du  fond  de  sa  retraite,  envoyé  deux  évêques  et  deux  prêtres 
+à  Carthage  pour  distribuer  des  secours  aux  fidèles  pauvres  (plusieurs 
+avaient  été  ruinés  par  la  persécution).  Le  diacre  Félicissimus  s'op- 
+posa aux  envoyés  de  Cyprien,  peut-être  parce  qu'il  considérait  r|j^2 
+le  soin  des  pauvres  comme  un  droit  exclusif  des  diacres,  et  qu'il  ne 
+voulait  pas  tolérer  pour  une  affaire  semblable  les  commissaires  spé- 
+ciaux de  l'évêque.  Ceci  se  passait  à  la  fin  de  250  ou  au  commence- 
+ment de  l'année  suivante.  Félicissimus  avait  été  ordonné  diacre  par 
+le  prêtre  Novat,  à  l'insude  Cyprien,  probablement  pendant  la  retraite 
+forcée  de  celui-ci.  Or,  abstraction  faite  de  ce  qu  une  pareille  ordi- 
+nation avait  de  contraire  à  tous  les  canons  de  l'Eglise,  Félicissimus 
+était  personnellement  indigne  de  toute  promotion,  à  cause  de  son 
+caractère  astucieux  et  de  ses  mœurs  corrompues.  Cyprien,  averti  par 
+ses  commissaires,  excommunia  Félicissimus  et  quelques-uns  de  ses 
+partisans,  rebelles  comme  lui  à  l'autorité  épiscopale;  mais  le  signal 
+de  la  révolte  était  donné,  et  Félicissimus  eut  bientôt  avec  lui  les 
+cinq  prêtres,  anciens  adversaires  de  Cyprien,  ainsi  que  tous  ceux  qui 
+accusaient  lévêque  d'être  trop  sévère  a  l'égard  des  lapsi  et  de  mé- 
+priser les  lettres  des  martyrs  ^.  Ceux-ci  contribuèrent  il  donner  h 
+l'opposition  un  tout  autre  caractère  ^.   Jusqu  alors    elle  n'avait    été 
+
+1.  La  question  des  lapsi  se  posa  pendant  la  persécution,  cf.  H.  Leclercq, 
+L'Afrique  chrétienne,  t.  i,  p.  175-193  ;  P.  Monceaux,  op.  cit.,  t.  ii,  p.  26-29. 
+
+2.  Ce  lut  au  mois  de  janvier  que  saint  Cyprien  s'éloigna  de  Carltiage,  Epist., 
+v-viii,  P.  L.,  t.  IV,  col.  237-252.  (H.  L.) 
+
+3.  Quelques  jours  après  Pâques,  Epist.,  xl,  7,  P.  L.,  t.  iv,  col.  3i7  ;  De  lap- 
+ais, c.  I,  ibid.,  col.  479.  ^11.  L.) 
+
+4.  Sur  les  jugements  sévères  portés  par  les  contemporains  sur  le  départ  de 
+l'évêque,  cf.  P.  Monceaux,  op.  cit.,  t.  a,  p.  210  sq.  (H.  L.) 
+
+5.  Dès  les  premiers  mois  de  l'année  251  l'excommunication  lut  lancée  contre 
+Félicissimus  et  quelques-uns  de  ses  partisans,  peut-être  même  contre  les 
+cinq  prêtres  hostiles.  Ces  condamnations  portées  avant  Pâques  furent  con- 
+firmées peu  après  par  le  concile  qui  se  tint  au  priutemps  de  cette  année,  à 
+Carthage.  (H.  L.) 
+
+6.  L'usage  de  ce  temps  accordait  aux  confesseurs  de  la  foi  une  dignité  et  une 
+
+
+5.  PREMIERS  CONCILES  A  CARTHAGE  ET  A  ROME         167 
+
+composée  que  de  quelques  prêtres  désobéissants;  désormais  le  parti 
+prit  pour  cri  de  guerre  la  dureté  de  l'évêque  à  légard  des  lapsi  : 
+aussi  non  seulement  les  lapsi,  mais  encore  quelques  confessores  qui 
+avaient  été  blessés  du  peu  d'égards  de  Cyprien  pour  les  libelli pacis^ 
+crrossirent  les  rangs  de  la  révolte  '.  On  ne  sait  si  Novat  était  du 
+nombre  des  cinq  prêtres  qui  formèrent  le  premier  noyau  du  parti.  Cer- 
+tains auteurs  l'affirment,  d'autres  prétendent  le  contraire  2.  Après 
+avoir  rappelé  on  vain  à  l'obéissance  le  parti  rebelle,  Cyprien  revint 
+à  Carthage  après  les  fêtes  de  Pâques  de  251  ^,  et  il  écrivit  son  livre 
+De  lapsis  comme  préambule  au  synode  qu'il  réunit  aussitôt  après, 
+probablement  durant  le  mois  de  mai  251  ^.  Le  concile  se  composa 
+d'un  grand  nombre  d'évêques  et  de  quelques  prêtres  et  diacres;  il 
+excommunia  i'élicissimus  et  les  cinq  prêtres,  après  les  avoir  enten- 
+dus, et  exposa  en  même  temps  les  principes  à  suivre  à  l'égard  des 
+131  l'^P^i-,  après  avoir  scrupuleusement  examiné  les  passages  de  l'Écri- 
+ture ayant  trait  à  cette  question  ^.  Les  décrets  sur  cette  matière  furent 
+réunis  dans  un  livre  ^  qu'on  peut  considérer  comme  le  premier  livre 
+
+
+autorité  particulières.  On  admettait  que  leurs  immenses  mérites  étaient,  en 
+partie,  réversibles  sur  les  fidèles.  Dès  la  lin  du  11'  siècle,  ïertullien,  Ad  mar- 
+tyr., c.  I  ;  De  pudicitia,c.  xxii,  P .  Z.,  t.  i,coI.  671  sq.  ;  t.  11,  col.  1080  sq.,  signale 
+l'abus  qui  se  lait  des  billets  d'indulgence  délivrés  par  les  confesseurs.  Les 
+lapsi  n'attendirent  pas  la  lin  de  la  persécution  pour  importuner  les  confesseurs 
+encore  emprisonnés.  Ceux-ci  délivrèrent  des  libelli  impliquant  un  pardon  com- 
+plet, sans  conditions,  sans  le  visa  des  évèques.  A  un  certain  moment  on  distri- 
+buait cbaque  jour  plusieurs  milliers  de  libelli  et  parfois  une  de  ces  formules 
+admettait  à  la  communion  tout  un  groupe  de  lapsi.  Cf.  P.  BatilFol,  Etudes 
+d'histoire  et  de  théologie  positive,  in-12,  Paris,  1902,  p.  119.  (H.  L.) 
+
+1.  Les  libelli  étaient  transmis  aux  chefs  de  la  communauté  pour  en  vérifier 
+l'authenticité.  Un  refus  exposait  à  des  avanies  de  toute  sorte  et  parfois  à  des 
+émeutes  ;  on  en  signale  plusieurs  en  Afrique  à  ce  sujet.  Soit  intimidation,  soit 
+opposition  à  l'évêque  Cyprien,  le  clergé  de  Carthage  se  montra  accueillant  à 
+l'excès  pour  les  renégats  porteurs  de  libelli.  Dès  lors  il  y  eut  deux  partis  dans 
+l'Église  de  Carthage.  (H.  L.) 
+
+2.  i\oval  faisait  partie  des  cinq,  cf.  P.  Monceaux,  op.  cit.,  t.  11,  p,  30-31. 
+(H.  L.) 
+
+3.  Epist.  XL,  7,  P.  L.,  t.  IV,  col.  347. 
+
+4.  De  lapsis,  P.  L.,  t.  iv,  coi.  479.  Ce  traité  fut  composé  dans  les  jours  qui 
+suivirent  le  retour  d'exil,  avec  le  De  cathoUcx  Ecclesise  unitate ;  tous  deux  furent 
+lus  au  concile  tenu  en  ruai  251.  Celte  date  est  absolument  certaine.  Cf.  P.  Mon- 
+ceaux, op.  cit.,  t.  H,  p.  42-43.  (U.  L.) 
+
+5.  S.  Cyprien,  Epist.,  lu,  P.  L.,  t.  m,  col.  821-856  passjm. 
+
+6.  Ibid.  De  ce  concile,  rien  ne  reste,  quoiqu'il  ait  donné  lieu  à  des  rédactions 
+importantes  ;    entre    autres   une   lettre   circulaire  adressée  à  tous  les  évèques 
+
+
+168 
+
+
+I.IVRK     F,     CHAPirnK    II 
+
+
+pt'riilontlalre  ([iii  ail  paru  dans  ri'l«^lis(!;  inalli(Mir(;iisoni(Mit  il  n'existe 
+plus.  C\  j)i'ieii  nous  eu  lail  (tonnaîlrcî  les  piiu('ij)ales  dispositions  dans 
+sa  i.u"  lellre  ;  elles  jxiileut  :  (|u  il  ne  laiit  pas  enlever  aux /^//as/ toute 
+espéranee,  pour  ne  pas  les  pousser,  en  les  excluant  de  l'Kglise,  à 
+abandonner  la  foi,  à  retomber  dans  la  vie  païenne;  que  cependant 
+il  laul  leu!'  imposer  une  longue  pénitence,  et  les  punir  propoition- 
+nellenienl  ii  leui'  laule.  Il  est  ('vident,  continue  Cyprien,  qu'il  faut 
+a>;ir  din'crcniuuMit  avec  ceux  qui  sont  ailes  poui'  ainsi  dire  au-devant 
+de  l'apostasie,  en  prenant  spontanément  part  aux  sacrilices  impies 
+des  païens,  et  ceux  (jui  ont  été  en  quehjue  sorte  contraints  à  cet 
+odieux  sacrilège  après  de  longues  luttes  et  de  cruelles  souffrances; 
+avec  ceux  qui  ont  entraîné  dans  leur  crime  leur  femme,  leurs 
+enfants,  leurs  domestiques,  leurs  amis,  leur  faisant  ainsi  partager 
+leur  défection,  et  ceux  (jui  n'ont  été  que  des  victimes,  qui  ont 
+sacrifié  aux  dieux  pour  pouvoir  sauver  leurs  familles  et  leurs  maisons; 
+qu'on  faisait  déjii  une  différence  entre  les  sacrificati  et  les  Uhellatici^ 
+c'est-à-dire  entre  ceux  qui  avaient  réellement  sacrifié  aux  dieux  et 
+ceux  qui,  sans  faire  acte  formel  d'apostasie,  avaient  profité  de  la 
+faiblesse  des  fonctionnaires  romains,  les  avaient  séduits  et  s'étaient 
+fait  donner  de  fausses  attestations  ;  qu'il  fallait  réconcilier  immédia- 
+tement les  liheUalici^  mais  soumettre  les  sacrificati  à  une  longue 
+pénitence  et  ne  les  réconcilier  qu'au  moment  de  leur  mort;  enfin 
+que,  quant  aux  évèques  et  aux  prêtres,  il  fallait  aussi  les  admet- 
+tre à  la  pénitence,  mais  ne  plus  leur  permettre  aucune  fonction  épis- 
+copale  ou  sacerdotale. 
+
+Jovin  et  Maxime,  deux  évèques  du  parti  de  Félicissimus,  qui 
+avaient  été  déjà  repris  auparavant  par  neuf  évèques  pour  avoir  sacrifié 
+aux  dieux  et  pour  avoir  commis  d'abominables  sacrilèges,  compa- 
+rurent devant  le  synode  de  Carthage.  Le  synode  renouvela  la  sen- 
+tence portée  antérieurement  contre  eux  ;  mais,  malgré  cet  arrêt,  ils 
+osèrent  encore  se  présenter  avec  plusieurs  de  leurs  partisans  au 
+synode  de  Carthage  tenu  l'année  suivante. 
+
+Cyprien  et  les  évèques  réunis  autour  de  lui  envoyèrent  leurs  déci-  1  114 
+
+(l'Ali'i(|iie  les  avisant  de  la  reconnaissance  de  l'éleclion  de  Corneille  au  sit-ge  de 
+Home.  Il  y  avait  en  oulre  :  1"  des  canons  fixant  la  procédure  de  réconciliation  et 
+de  réintégration  des  lapsi  ;  2"  une  expédition  de  la  lellre  adressée  an  pape 
+Corneille  pour  l'avertir  des  décisions  portées  par  l'Eglise  d'Alritjue  ;  !)"  uni- 
+excommunication  lancée  contre  Félicissimus.  Les  pièces  2  et  o  étaient  probable- 
+ment jointes  au  recueil  des  canons  (en  duplicata).  Dans  l'automne  de  251,  un 
+concile  de  Rome  aiiopta  les  fti^cisions  du  concile  de  Carthage,  |H,  L,) 
+
+
+5.     PREMIERS    CONCILES    A    C.VRTHAGE    ET    A    ROME  169 
+
+sions  synodales  de  251,  à  Rome,  au  pape  Corneille,  pour  obtenir 
+son  assentiment  à  l'égard  des  mesures  prises  contre  les  lapsi  :  il 
+était  d'autant  plus  nécessaire  de  s'entendre  au  sujet  de  ces  mesures, 
+que  l'Eglise  romaine  avait  également  été  troublée  par  une  double  élec- 
+tion papale,  celle  de  Corneille  et  de  Novatien.  Le  pape  Corneille 
+réunit  à  Rome,  dès  l'automne,  probablement  au  mois  d'octobre  251, 
+un  synode  composé  de  soixante  évèques^  sans  compter  les  prêtres 
+et  les  diacres  ;  le  synode  confirma  les  décrets  de  celui  de  Carthage 
+et  excommunia  Novatien  et  ses  partisans.  Les  deux  auteurs  qui 
+nous  ont  conservé  ces  faits  sont  Cyprien  et  Eusèbe.  Il  faut  remar- 
+quer que  plusieurs  éditeurs  des  actes  des  conciles  et  plusieurs  his- 
+toriens, comprenant  mal  les  documents  originaux,  ont  fait  des  deux 
+synodes  de  Carthage  et  de  Rome  (251)  quatre  conciles  ^.  Le  Libellas 
+synodicus  parle  d'un  autre  concile  tenu  à  la  même  époque  (252),  h 
+Antioche,  au  sujet  des  novatiens;  Denys  le  Grand,  d'Alexandrie,  con- 
+firme la  tenue  de  ce  dernier  concile  2. 
+
+Le  schisme  de  Novatien  ne  put  être  extirpé  par  ces  synodes  ; 
+les  partisans  de  Félicissimus  et  de  Novatien  firent  de  grands  efforts 
+pour  dominer  la  situation,  les  novatiens  de  Carthage  parvinrent 
+même  à  mettre  à  leur  tête  un  évêque  de  leur  parti  nommé  Maxime 
+et  ils  envoyèrent  à  Rome  les  plaintes  les  plus  vives  au  sujet  de  la 
+prétendue  sévérité  de  Cyprien  ;  comme  d'un  autre  côté  la  persécu- 
+tion qui  s'annonçait  obligeait  à  prendre  de  nouvelles  mesures  à 
+5]  l'égard  des  lapsi,  Cyprien  réunit  aux  ides  de  mai  (le  15  mai)  252 
+un  nouveau  concile  à  Carthage,  auquel  se  rendirent  soixante-six 
+évêques  ^.    C'est    probablement   le   concile  où   furent   aussi  traités 
+
+
+1.  Tillemont,  Mém.  hist.  ecclés.,  in-4,  Bruxelles,  1732,  t.  m,  p.  197  et  note  5, 
+sur  S.  Corneille,  p.  348;  C.  Walch,  Entwurf  einer  yollstandigen  Historié  der 
+Kïrchenversammlungen,   in-8,  Leipzig,  1759,  p.  102. 
+
+2.  Eusèbe,  Hist.  eccles.,  1.  VI,  c.  xlvi,  P.  G.,  t.  xx,  col.  636;  Labbe,  Cotic, 
+t.  I,  col.  719;  Coleli,  Conc,  1. 1,  col.  737  ;  R.  Ceillier,  ^/sf.  génér.  desaut.  ecclés. 
+(1732)  t. III,  p.  585  ;  (1865),  t.  ii,  p.  558  ;  Hardouin,  Coll.  conc,  t.  v.  col.  1498; 
+Mansi,  Concil.  ampliss.  coll.,  t.  i,  col.  867,  871  ;  C.  Walch,  op,  cit.,  p.  103  ; 
+Diltrich,  Dionysius  der  Grosse  von  Alexandrien,  eine  Monographie,  in-8,  Frei- 
+burg,  1867,  p.  54.  (H.  L.) 
+
+3.  La  letlre  synodale  ne  porte  que  les  noms  de  42  évêques.  P.  Monceaux, 
+op.  cit.,  t.  11^  p.  52,  75,  place  l'affaire  du  baptême  des  nouveau-nés  lors  du 
+concile  de  253.  Mansi,  Conc.  anipl.  coll.,  t.  i,  col.  899  sq.,  et  Helele  n'ont  pas 
+observé  que  le  concile  de  252  ne  comptait  que  42  évêques  et  que  celui  qui 
+répondit  à  la  question  de  Fidus  en  comptait  66,  ce  qui  est  le  nombre  des  pré- 
+sents au  concile  de  253;  cf.  A.  Audollent,  Carthage  romaine,  p.  490.  (H.  L.) 
+
+
+170  LIVRE    I,    CHAPITRE    II 
+
+deux  points  soumis  aux  Pères  par  l'évêque  africain  Fidus  *.  Fidus 
+se  plaignit  d'abord  de  ce  que  Thérapius,  évèque  de  Bulla  (près 
+d  llippoue)^  avait  reçu  trop  tôt  dans  la  communion  de  TEglise  le 
+prêtre  Victor,  et  sans  lui  avoir  imposé  au  préalable  la  pénitence 
+qu'il  méritait.  Le  synode  déclara  que  c'était  évidemment  contraire 
+aux  d(HMsi(>us  antérieures  des  conciles  ;  mais  qu'il  voulait  se  con- 
+tenter pour  cette  fois  de  blâmer  l'évêque  Thérapius,  sans  déclarer 
+invalide  la  réconciliation  du  prêtre  Victor.  En  second  lieu,  Fidus 
+émit  l'opinion  qu'il  fallait  baptiser  les  enfants,  non  pas  le  jour  de 
+leur  naissance,  mais  huit  jours  après,  pour  observer  à  l'égard  du 
+baptême  le  délai  prescrit  autrefois  pour  la  circoncision.  Le  synode 
+condamna  unanimement  cette  opinion^  déclarant  qu'on  ne  pouvait 
+retarder  ainsi  pendant  huit  jours  de  conférer  la  grâce  aux  nouveau- 
+nés  2. 
+
+Mais  l'affaire  principale  du  synode  fut  celle  des  lapsi  3,  et  la  liv®  let- 
+
+1.  La  lettre  synodale  n'en  dit  rien.  (H.  L.) 
+
+2.  Epist.,  Lix,  P.  L.,  t.  III,  col.  1048  sq.  [W.  Metsch,  S.  Cypriani  historia 
+psedobaptismi  restituta,  in-4,  Erfordii,  1798;  G.  Cassandre,  De  baptismo  inj'ari- 
+tum  testimonia  vetenim  ecclesiasticoritm  scriptorum,  in-8,  Colonise,  1563  ; 
+R.  Clément,  Etude  biblique  sur  le  baptême  ou  le pédobaptisme  et  l'Église,  in-8, 
+Lausanne,  1857  ;  E.  S.  Cyprian,  Historia  psedobaptismatis,  in-4,  Gothœ.  1705; 
+History  of  infant  baptism,  dans  South  res'iew^  1873,  t.  xiv,  p.  331;  Infant  bop- 
+tism  in  early  Churcii,  dans  Boston  /•etieiv,  1861,  t.  i,  p.  21  ;  J.  Lenoir,  Essai 
+biblique,  historique  et  dogmatique  sur  le  baptême  des  enfants,  in-18,  Paris, 
+1856;  J.  F.  Mayer,  Dissertatio  de  pœdobaptismo  Apostolorum  temporibus  œvo, 
+in-8,  Gryphiswaldae,  1708;  W.  Wall,  History  of  infant  baptism,  2  vol.  in-8, 
+London,  1705  ;  2°  édit.,  with  large  additions,  in-4,  London,  1707  ;  3*  édit., 
+2  vol.  in-4,  London,  1709;  4"  édit.,  3  vol.  in-8,  London,  1819  ;  with  J.  Gale  s 
+re/Iections,  in-8,  London,  1711  ;  and  IValis  defence,  in-8,  1720  ;  4  in-8,  Oxford, 
+édit.  H.  Cotton,  1836;  1845;  2  vol.  in-8,  1862;  2  vol.  in-S»,  London,  1900. 
+Cf.  Emelin,  Wall  s  history  of  infant  baptism  improved,  in-4,  London,  1709  ; 
+J.  G.  Walch,  Historia  psèdobaptismi  quatuor  priornm  sseculorum,  in-4,  Jena>, 
+1739.  (H.  L.) 
+
+3.  Sur  les  lapsi  l'ancienne  bibliographie  olfre  à  quelques  exceptions  près 
+tous  les  textes  relatifs  <\  la  question.  J.  Aulievill,  De  disciplina  primiti^'ie 
+Ecclesise  circa  lapsos  et  psenitentes,  in-4,  Upsalœ,  1756  ;  J.  B.  Bebel,  De  veteri 
+in  lapsis  disciplina  Ecclesiae,  in-4,  Lipsiae,  1786  ;  J.  F.  Brand,  De  publica  lap- 
+sorum  cum  Ecclesia  reconciliatione  magno  rêvera  hene/icio,  in-4,  Regiomonti, 
+1723  ;  Errores  de  primorum  lapsorum  crrore.  in-4,  s.  1.  n.  d,  ;  J.  Morin,  De  dis- 
+ciplina in  administr.  sacr.  psenitentix.  in-fol.,  Parisiis,  1651;  Orsi,  Dissertât, 
+qua  ostenditur  cath.  Ecclesiani  tribus  prioribus  sxculis  capitalium  criminum  reis 
+pacem  et  absolutionem  neutiquam  denegasse,  in-4,  Komo',  1730  ;  C.  Schwart/., 
+De  lapsis  primitiwe  Ecclesiae.  in-4,  Lipsiœ,  1706.  Nous  ne  transcrirons  pas  les 
+titres  des  ouvrages  traitant  d'iiiif  manière  générale  do  la  pr'niteiice  ou  île  l'iiis- 
+
+
+5.  PREMIERS  CONCILES   A  CARTHAGE  ET  A  ROME         171 
+
+tre  de  saint  Cyprien  nous  rend  compte  de  ce  qui  se  passa  à 
+ce  sujet.  Le  synode,  dit-il,  décida  qu'eu  égard  à  la  persécution 
+imminente,  on  pourrait  réconcilier  immédiatement  tous  ceux  qui 
+auraient  témoigné  du  repentir^  afin  de  les  préparer  au  combat  parles 
+sacrements  :  Idoneus  esse  non  potest  ad  martyrii/m  qui  ab  Ecclesia 
+non  armatur  ad  prseliiim  '.  En  adressant  sa  lettre  synodale  au 
+pape  Corneille  (c'est  précisément  la  liv"  lettre  de  saint  Cyprien), 
+le  concile  dit  formellement  :  Plaçait  nobis,  sancto  Spiritu  sugge- 
+rente  2. 
+6]  L'hérétique  Privatus,  de  la  colonia  La?nbesitana,  probablement 
+évéque  de  cette  ville,  qui,  comme  nous  l'avons  vu,  avait  déjà  été 
+condamné,  voulut  paraître  au  concile  ;  mais  il  ne  fut  point  admis  ^. 
+On  n'admit  pas  non  plus  les  évèques  Jovin  et  Maxime,  partisans  de 
+Félicissimus,  condamnés  comme  lui,  et  le  faux  évêque  Félix,  sacré 
+par  Privatus  lorsc|u'il  était  déjà  hérétique.  Ils  se  réunirent  alors 
+avec  l'évéque  Repostus  Suturnicensis  *,  et  ils  donnèrent  pour  évêque 
+intrus  de  Carthage.  au  parti  relâché  ^'',  le  prêtre  Fortunatus,  un  des 
+cinq  adversaires  primitifs  de  saint  Cyprien. 
+
+Quelque  temps  après  ^,  un   nouveau  synode  se    réunit  à  Carthage 
+au  sujet  des  évèques  espagnols  Martial  et  Basilides  '^.  Tous  les  deux 
+
+
+toirc  des  trois  premiers  siècles.  Pour  les  papyrus  retrouvés  depuis  quelques 
+années  et  portant  des  certilicats  d'apostasie,  et.  H.  Leclcrcq,  L  Afrique  chré- 
+tienne, 1904,  t.  I,  p.  176,  note  3.  En  dehors  des  travaux  relatifs  à  saint  Cyprien, 
+Novatien  et  Donat  dans  lesquels  on  ne  peut  éviter  de  traiter  l'affaire  des  lapsi, 
+on  doit  consulter  plus  particulièrement  A.  Haruack,  Lapsi,  dans  Real-Ency- 
+klopadie  fur  protestant.  Theol.  und  Kircke,  édit.  Hauck,  t.  xi,  p.  283-287  • 
+P.  Batiffol,  Etudes  d  liistoire  et  de  théologie positi\>e,  in-12,  Paris,  1904,  p.  111- 
+li5;  H.  Leclercq,  L  Afrique  chrétienne,  t.  i,  p.  200-203;  C.  Goetz,  Die  Buss- 
+lehre  Cyprians,  eine  étudie  zur  Geschichte  der  Busssacraments,  in-8,  Kônigs- 
+berg,  1895.  (H.  L.) 
+
+1.  S.  Cyprien,  Epist.,  liv,  4,  P.  L.,  t.  m,  col.  885  [et  la  note  de  dom  Cons- 
+tant sur  ce  passage.  Routh,  Heliquise  sacrse,  in-8,  Oxonii,  1846,  t.  m,  p.  69 
+sq.,  108  sq.  (H.  L.)] 
+
+2.  Epist.,  LIV,  5,  P.  L.,  t.  m,  col.  887. 
+
+3.  Privatus  se  prétendait  en  mesure  de  réunir  à  Carthage  vingt-cinq  évèques 
+numides  de  son  parti.  (H.  L.) 
+
+4.  Suturmicensis  ?  Quoturnicensis  .^  Sutun-Urcensis  ?  Uturnarcensis  ? 
+{=z  Tuburnica  ?)  Cf.  E.  Benson  dans  Dictionnary  of  Christian  biography,  t.  iv, 
+p.  543.  (H.  L.) 
+
+5.  S.  Cyprien,  Epist.,  lv,  P.  L.,   t.  m,  col.  821  sq. 
+
+6.  A  la  fin  de  l'année  254.  (H.  L.) 
+
+7.  P.  Monceaux,  Hist.  litt.   de  l'Afriq.   chrét.,   t.  11,   p.  54  sq,  ;  H.  Leclercq, 
+
+
+172  LIVRF.    l,     CHAPITRE    II 
+
+avaient  été  déposés  pour  (1rs  faiitos  ofravos,  notamment  pour  avoir 
+renié  la  foi.  Basilitles  s'était  jugé  lui-même  indigne  de  la  chai'ge 
+épiseopale,  et  déclaré  satisfait  si,  après  avoir  subi  sa  pénitence,  il 
+était  reçu  à  la  communion  lai(|ue.  Martial  avait  également  avoué  sa 
+faute.  Mais,  au  bout  de  ([uclque  temps,  ils  s'adressèrent  tous  les 
+deux  à  Rome,  et,  au  moyen  de  faux  rapports,  parvinrent  à  tromper 
+le  pape  Etienne,  qui  demanda  le  rétablissement  de  Basilidcs  dans 
+son  Eglise,  quoique  Sabiniis  lui  eut  déjà  été  donné  pour  successeur. 
+Plusieurs  évèques  espagnols  soutinrent  les  prétentions  de  Basilides 
+et  de  Martial,  et  se  rangèrent,  paï"aît-il,  de  leur  côté  ;  mais  les 
+Eglises  de  Léon,  des  Asturies  et  d'Emérita  écrivirent  à  ce  sujet  aux 
+évèques  africains,  et  leur  envoyèrent  deux  députés^  les  évoques 
+Sabinus  et  Félix,  probablement  les  successeurs  élus  de  Basilides  et 
+de  Martial.  L'évêque  de  Saragossc  Félix  les  appuya  par  une  lettre 
+particulière.  Saint  Cvprien  réunit  alors  un  concile  composé  de 
+trente-sept  évèques  ;  nous  possédons  dans  sa  lxviii"  épitre  la  lettre 
+synodale  de  l'assemblée,  qui  confirma  la  déposition  de  INIartial  et  de 
+Basilides,  déclara  légitime  et  régulière  l'élection  de  leurs  successeurs, 
+et  blâma  les  évèques  qui  avaient  parlé  en  faveur  des  évèques  dépo-  [11*3 
+ses  et  engagé  le  peuple   à  entrer  en  communion  avec  eux^. 
+
+
+6.  Synodes  de  255  et  256  relatifs  au  baptême  des  hérétiques. 
+
+
+Aux  synodes  concernant  les  Inpsi  succédèrent  trois  conciles  afri- 
+cainspour  décider  delà  valeurdu  baptême  conféré  par  les  hérétiques. 
+Nous  avons  vu  que  trois  synodes  antérieurs,  l'un  à  Carthagc  pré- 
+sidé par  Agrippinus,  deux  en  Asie-Mineure  (celui  d'Iconium  présidé 
+par  Firmilien  et  celui  de  Synnada  tenu  à  la  même  époque),  avaient 
+déclaré  l'invalidation  du  baptême  conféi'é  par  des  héréti({ues  -. 
+Ce  principe  et  la  pratique  conforme  de  r.\sie-Mineure  occasionnè- 
+rent,  vers  la   fin    de    253,  un  conilit  entre    le  })ape   Etienne    et  les 
+
+L'Espagne  chvclieiine.  in-12,   Paris,   1902,  p.  50-52;   B.  Gjims,  Die   Kirclienges- 
+chichte  von  Spanien,  in-8,  Kegcnsburg,  1862,  t.  i,  p.  236-264.  (H.  L.) 
+
+1.  S.  Cyprien,  Kpist.,  i.xviii,  P.  L.,  t.  m,  col.  1057  sq.  ;  IJoulti,  7?e//<yi//.r 
+sacrx,  2'  édit.,  l.  ni,  j).  101-131,  149-217. 
+
+2.  L.  Duchesnc,  IJisl.  anc.  de  IKgUse,  1906,  I.  i,  p.  423,  442.  (H.  L.) 
+
+
+6.  SYNODES  RELATIFS  AU  BAPTEME  DES  HERETIQUES       173 
+
+évêques  de  l'Asie-Mineure,  Hélénus  de  Tarse  et  Firmilien  de  Césa- 
+rée,  soutenus  par  tous  les  évèques  de  Cilicie,  de  Cappadoce,  et  des 
+provinces  voisines  ;  cette  querelle  s'envenima  au  point  qu'Etienne, 
+écrit  Denys  le  Grand  *,  menaça  ces  évêques  de  l'excommunication 
+parce  qu'ils  réitéraient  le  baptême  conféré  par  les  hérétiques.  Denys 
+le  Grand  intervint  auprès  du  pape  en  faveur  des  évèques  de  l'Asie- 
+Mineure,  et  la  lettre  qu'il  écrivit  empêcha  qu'ils  ne  fussent  exclus 
+de  l'Eglise  -. 
+
+1.  Eusèbe,  Hist.  eccles.,  1.  VII,  c.  v,  P.  G.,  t.  xx,  col.  645.  La  lettre  de 
+Denys  en  disait  plus  que  ce  que  nous  apprend  le  fragment  conservé  par  Eusèbe  ; 
+elle  contenait  entre  autres  choses  une  prière  en  faveur  des  évêques  de  l'Asie- 
+Mineure,  ainsi  que  le  laisse  clairement  entendre  cette  phrase  :  xal  Ttepi  tojtwv 
+aÙTOj  TvivTwv  ôcÔ!J.£vo;  k-Kimzù.a..  [Tillemont,  Mém.  hist.  eccl.,  in-4,  Paris,  1701, 
+t.  IV,  p.  155-156.  Denys  d'Alexandrie  se  montre  modéré  dans  sa  conduite,  mais 
+résolument  attaché  à  l'opinion  du  pape  Etienne.  Quoi  qu'en  dise  saint  Jérôme, 
+De  vivis  illustr.,  c.  lxix,  édit.  Richardson,  p.  38-39,  Denys  n'était  pas  partisan 
+des  idées  de  saint  Cyprion.  Les  fragments  conservés  par  Eusèbe  laissent,  il 
+est  vrai,  place  au  doute,  le  rôle  de  conciliateur  et  la  conduite  tenue  par  lui  sou- 
+lèvent d'autres  difficultés.  S.  Basile,  Epist.,  clxxxviii,  can.  \,  P.  G.,  t.  xxxn, 
+col.  664,  668,  assure  que  Denys  admettait  le  baptême  administré  par  les 
+montanistes.  C'est  uu  indice  qui  garde  sou  prix  parce  que  le  fragment  syriaque 
+attribué  à  Denys  est  d'une  authenticité  trop  douteuse  pour  dirimer  la  question. 
+Cf.  Ch.  Feltoe,  The  letters  and  other  remains  of  Dionysius  of  Alexandrie/, 
+p.  48,  49.  (H.  L.l] 
+
+2.  Eusèbe,  Hisl.  eccles.,  1.  VU,  c.  ni,  P.  L.,  t.  xx,  col.  641.  La  question  du 
+baptême  des  hérétiques  et  du  différend  survenu  à  ce  sujet  entre  le  pape  Etienne 
+et  l'évêqueCypriena  donné  naissance  à  une  imposante  littérature.  Dans  les  titres 
+qui  suivent  nous  ne  donnons  que  les  travaux  principaux.  E.  Wh.  Benson,  Cy- 
+prian,  his  life,  his  finies,  his  nurlc,  in-8,  London,  1897  ;  Bonwestch,  Ketziaufe, 
+'\iins  Real-Encyklupâdie  fùv  protestant.  Théologie  und  Kirche,  éd.  Hauck,  t.  x, 
+p.  270-275  ;  J.  D.ivid,  Dissertation  où  l'on  montre  en  quel  temps  et  pour 
+quelles  raisons  l'Église  universelle  consentit  à  recevoir  le  baptême  des  héréti- 
+ques, in-8,  Paris,  1670,  et  J.  de  Launoi,  Remarques  sur  la  dissertation  (précé- 
+dente), in-8,  Paris,  1871;  J.  Delarochelle,  L'idée  de  l'Église  dans  saint  Cyprien, 
+dans  la  Bévue  d'htst.  et  de  littér.  relig.,  1896,  t.  i,  p.  519-533  ;  J.  Ernst,  Zur 
+Auffa.ssung  Cyprians  von  der  Ketzertaufe,  d^ns  Zeitschrift  fur  kathol.  Théologie, 
+1893,  t.  XVII,  p.  79-103  ;  Die  Echthiet  des  Briefes  Firmilians  iiber  den  Ketzer- 
+taufstreit  in  neuer  Beleuchtung,  duna  la  même  revue,  1893,  p.  209  sq.  ;  War  der 
+heilige  Cyprian  excommunicirt  ?  dans  la  même  revue,  1894,  t.  xviii,  p.  473-499  ; 
+Der  angebliche  Widerruf  des  heilige  Cyprian  in  der  Ketezrtaufrage,  dans  la 
+même  revue,  1895,  t.  xix,  p.  234-272;  War  und  wo  wurde  der  Liber  de  rebap- 
+tismateverfasst,  diina  Ilistorisches  Jarhbuch  d.  Gorresgesellschaft,  1899,  fasc.  4; 
+Fechtrup,  Ketzertuufstreit,  dans  Welter  und  Welte's  Kirchenlexicon,  1891, 
+t.  VII,  p  406-419  ;  H.  Grisar,  Cyprians  «  Oppositions  concil  »  gegen  Papst  Ste- 
+phun,  dans  Zeitschrift  fur  kathol.  Théologie.  1881,  t.  v,  p.  193-221  ;  P.  V.  Hoens- 
+
+
+174  LIVRE    l,    CHAPnUli    II 
+
+Les  Orientaux  siiscilèrenl  donc  la  controverse  du  baptême  des 
+hérétiques  avant  saint  Cyprien,  et  lorsque  Eusèbe  dit:  llpwToç  twv 
+tôt£  Kurptavbç,  y.,  t.  X.,  il  faut  entendre  ainsi  ce  passage:  Cyprien 
+lut  le  plus  cunsidérable,  et  en  ce  sens  le  premier  de  ceux  (|ui  de- 
+mandèrent qu'on  rebaptisât  les  héréti([ues. 
+
+Voici  maintenant  quel  a  été  le  rôle  de  l'Eglise  latine  d'Afrique, 
+et  en  particulier  de  saint  Cyprien^  dans  cette  controverse.  Quelques  L^^' 
+évèques  alVIi-ains  étant  d'avis  ([u'il  ne  fallait  pas  rebaptiser  ceux 
+qui  abandonnaient  les  sectes  béiétiques  pour  rentrer  dans  l'Eglise, 
+dix-huit  évèques  de  Numidie,  qui  étaient  d'une  opinion  différente 
+et  rejetaient  le  baptême  des  hérétiques  et  schismatiques,  deman- 
+dèrent au  synode  de  Carthage  de  255  s'il  fallait  rebaptiser,  au 
+moment  oîi  ils  rentraient  dans  l'Eglise,  ceux  qui  avaient  été  baptisés 
+par  les  hérétiques  ou  les  schismatiques.  Ce  synode,  présidé  par 
+saint  Cyprien,  comptait  trente  et  un  évèques  ;  la  lxx®  lettre  de 
+Cyprien  n'est  autre  chose  que  la  réponse  du  synode  aux  dix-huit 
+évèques  numides  ;  elle  déclare  «  que  leur  opinion  par  rapport  au 
+baptême  des  hérétiques  est  parfaitement  juste  :  car  personne  ne 
+peut  être  baptisé  hors  de  l'Eglise,  vu  qu'il  n'y  a  qu'un  baptême, 
+lecpiel  est  dans  l'Eglise  ». 
+
+Peu  après  Cyprien,  de  nouveau  consulté  sur  la  même  question 
+par  Quintus  évêque  en  Maurétanie,  qui  lui  envoya  le  prêtre  Lucien, 
+adressa  en  réponse  la  lettre  synodale  du  concile  qui  venait  de 
+se  séparer   de  plus  dans  une  lettre  particulière  (ep.  lxxi)  jointe    à 
+
+
+bi'oech,  Zar  Auffassung  Cyprians  yoji  der  Ketzertaiife.  dans  la  même  revue, 
+1891,  t.  XV,  p.  727-736  ;  E.  Hufmayr,  Die  pseitdo-Cyprianische  Schrift  a  De  Pas- 
+cha  coniputus  »,  in-8,  Augsburg  1896;  Marchetti,  Essercitazioni  Ciprianiche  :  il 
+hattesimo  degli  eretici,  m-4,  Roma,  1787;  L.  Nelke,  Die  Chronologie  der  Korres- 
+pondenz  Cyprians  und  der  pseiido-Cyprianischen  Schriften  Ad  Novatianum  iind 
+Liber  de  rebaptismate,  in-8,  Thorn,  1902,  p.  113-149  ;  J.  Peters,  Die  Lehre  des 
+lieiligen  Cyprians  \'on  der  Einheit  der  Kirclie,  gegeniiher  den  heiden  Schismcn 
+in  Karthago  und  Rom,  in-8,  Luxemburg,  1871  ;  G.  P.  Preu,  Cypriani  ac  Firmi- 
+liani  epistolarum  adversus  Stephani  I papse  decretum  de  hsereticorum  baptismo 
+vindicise,  in-8,  Ien<e,  1738  ;  J.  H.  Sbaralea,  Germana  S.  Cypriani  et  Aphroriiin 
+necnon  Firmiliani  et  Orientalium  opinio  de  hiereticorum  haptismate.  in-'i,  Mono- 
+niae,  1791  ;  Schwane,  Histoire  des  dogmes  (IrAd.  Belet-DegertI,  in-8,  Paris,  1903, 
+t.  I,  p.  737-745  ;  TixeronI,  Histoire  des  dogmes,  in-12,  Paris,  1905,  t.  i,  p.  392- 
+403  ;  V.  Tizzani,  La  célèbre  contesa  fra  S.  Stefano  e  S.  Cipriano,  in-8,  Roma, 
+1862  ;  J.  Turmel,  Saint  Cyprien  et  la  papauté  pendant  la  controverse  baptis- 
+male dans  la  Revue  catholique  des  Églises,  1905,  t.  ii,  p.  i54-»72,  577-598. 
+(H.  L.) 
+
+
+6.     SYNODES    RELATIFS    AU    BAPTEME    DES    HERETIQUES  175 
+
+cette  pièce  officielle  il  développa  son  opinion  personnelle  sur 
+l'invalidité  du  baptême  des  hérétiques,  et  il  répondit  à  quelques 
+objections. 
+
+Tous  les  évèques  d'Afrique  ne  furent  probablement  pas  satisfaits 
+de  ces  décisions  ^  et  quelque  temps  après,  vers  256  '^,  Cyprien  se 
+vit  obligé  de  réunir  un  second  et  plus  grand  concile  à  Carthage, 
+auquel  assistèrent  jusqu'à  soixante  et  onze  évèques.  On  y  traita, 
+rapporte  saint  Cyprien,  «  une  foule  de  questions  ;  »  mais  le  point 
+capital  fut  le  baptême  des  hérétiques.  La  lettre  synodale  de  cette 
+19]  grande  assemblée  ^,  adressée  au  pape  Etienne,  forme  la  lxxii"  lettre 
+de  saint  Cyprien.  Le  concile  envoya  aussi  au  pape  la  lettre  du  synode 
+précédent  aux  dix-huit  évèques  numides,  ainsi  que  la  lettre  de 
+saint  Cyprien  à  Quintus,  et  il  déclara  très  explicitement  «  que  celui 
+qui  abandonnait  une  secte  devait  être  rebaptisé  »,  en  ajoutant  «  qu'il 
+ne  suffisait  pas  (paru/n  est)  d'imposer  les  mains  à  de  tels  convertis, 
+ad accipiendum  Spiritumsanctum,  s'ils  ne  recevaient  aussi  le  baptême 
+de  l'Église  ».  Le  même  synode  décida  que  les  prêtres  et  les  diacres 
+qui  avaient  abandonné  l'Eglise  catholique  pour  embrasser  une  secte, 
+de  même  que  ceux  qui  avaient  été  ordonnés  par  de  faux  évèques 
+sectaires,  ne  pouvaient,  en  rentrant  dans  l'Eglise,  être  admis  qu'à 
+la  communion  laïque.  A  la  fin  de  sa  lettre,  le  synode  exprime  l'es- 
+poir que  ces  décisions  obtiendront  l'assentiment  d'Etienne.  «  Ces 
+paroles,  a  remarqué  Mattes  *,  trahissent,  ou  bien  le  désir  qu'ont  les 
+évèques  d'Afrique  de  voir  Etienne  produire  par  son  autorité  l'accord 
+qui  n'existait  pas  encore  et  qu'il  n'était  pas  facile  d'établir,  ou  bien 
+leurs  appréhensions  parce  qu'ils  savent  qu'il  y  a  à  Rome  une  prati- 
+que qui  ne  s'accorde  pas  avec  l'opinion  de  Cyprien.  » 
+
+[A  Rome_,  où,  depuis  plus  d'un  an,  il  fallait  souffrir  les  gronderies 
+des  évèques  africains,  on  fit  un  accueil  des  plus  froids  aux  envoyés 
+du  concile  de  Carthage.  La  lecture  de  la  lettre  dont  ils  étaient  por- 
+teurs n'était  pas  faite  pour  adoucir  les  esprits.  On  y  lisait  des  récri- 
+minations dans  le  goût  suivant  :  «  Nous  savons  que  certaines  gens  ne 
+
+
+1.  S.  Cyprien,  Epist.,  lxxi,  1,  P.  L.,  t.  iv,  col.  421  :  Nescio  etenim  qua  prœ- 
+sumptione  ducantur  quidam  de  collegis  nostris,  ut  putent  eos,  qui  apud  hsere- 
+ticos  tincti  sunt,  quando  ad  nos  venerint,   baptizari  non  oportere.  Cette  lettre 
+
+'est  de  l'année  255. 
+
+2.  Au  printemps  de  l'année  256.  (H.  L.) 
+
+3.  Epist.,  Lxxii,  1,  P.  L.,  t.  III,  col.  1083. 
+
+4.  Mattes,  Abhandlung  ûher  die  Ketzerlaufe,  dans  Tubing.  llieol.  Quartal- 
+schrift,  1849,  t.  xxxi,  p.  586. 
+
+
+176  LIVRK    I,     CHAPITHK    II 
+
+se  résignent  jamais  à  ren()iu;or  aux  idées  dont  ils  sont  imbus  et 
+ne  changent  pas  aisément  d'avis  ;  ils  conservent  les  liens  de  la  paix 
+et  de  la  concorde  avec  leurs  collègues,  mais  ils  s'obstinent  dans  leurs 
+propres  usages.  Nous  non  plus,  nous  n'entendons  faire  violence  à 
+qui  (|ne  ce  soit,  ni  imposer  la  loi  à  autrui.  Chaque  chef  d'Eglise  est 
+libre  de  régler  son  administration  comme  il  l'entend,  saul  àen  rendre 
+compte  au  Seigneur.  »  Un  langage  si  âpre  fit  perdre  patience  et  les 
+Romains  s'empoitèrent  jus(ju'à  des  injures,  ils  traitèrentCvprien  de 
+lanx  christ,  de  Taux  prophète,  de  mauvais  ouvrier.  Le  pape  refusa 
+toute  audience  aux  légats  africains  et  il  interdit  même  aux  laïques 
+de  les  recevoir  ^.  Mais  il  ne  s'en  tint  pas  là  et  il  en  vint  à  une  grave 
+mesure.  11  signifia  aux  évêques  d'Afrique  l'ordre  d'avoir  à  se  confor- 
+mer à  l'usage  romain  sous  peine  de  rupture.  La  même  sommation 
+fut  adressée  en  Orient  où  on  ne  se  montrait  guère  plus  endu- 
+rant qu'à  Rome.  L'évêquc  Firmilien  de  Césarée  en  Cappadoce 
+compare  le  pape  Etienne  au  traître  Judas  -,  le  taxe  de  déloyauté, 
+d'insolence  ^,  veut  montrer  à  tous  «  sa  sottise  si  évidente  et  si  mani- 
+feste »  *  qui  le  pousse  à  se  considérer  comme  le  seul  héritier  de 
+saint  Pierre.  Il  l'invective  ainsi  de  toutes  façons,  lui  impute  la 
+rupture  de  lapaix  ^et  le  proclame  pire  que  tous  les  héréti(jues  ^.  (H.L.)) 
+Le  pape  Etienne  se  prononça  donc  très  explicitement  et,  con- 
+trairement à  l'opinion  des  évêques  africains,  pour  la  validité  du 
+baptême  des  hérétiques  ;  il  condamna  ainsi  la  coutume  de  réitérer 
+le  baptême  de  ceux  qui  l'avaient  déjà  reçu  des  hérétiques.  On  a 
+malheureusement  perdu  la  lettre  qu'il  écrivit  à  cette  occasion  à 
+Cvprien  "^  ;  mais  celui-ci  et  Firmilien  nous  en  ont  conservé  quelques 
+fragments,  et  ce  sont  ces  courts  extraits  qui,  avec  les  commentaires 
+de  Cyprien  et  de  Firmilien  ^,  peuvent  nous  laire  connaître  avec 
+quelque  certitude  la  manière  dont  Etienne  envisageait  la  question 
+du  baptême  des  hérétiques. 
+
+
+1.  Epist.,  I.XXV,  25,  P.  L.,  t.  ui,  col.  1223. 
+
+2.  Epist..  i.xxv,  2. 
+
+3.  Ibid.,  3. 
+
+4.  Ibid.,  17. 
+
+5.  Ibid..  6. 
+
+6.  Ibid.,  23. 
+
+7.  Cette  lettre  lui  parvint  dans  le  courant  de  l'été  de  l'année  256.  Cf.  A.  Har- 
+nack,  Uebcr  yerlorcne  Brii'fc  and  Actonstucke  die  sich  aus  der  Cyprianiechen 
+Briefsaiinnliinii  orinittoln  la.ssfii,  in-8,  Leipzig,  19U2.  (H.  L.) 
+
+8.  Epist.,  Lxxiv,  i.\\\,P.  L.,  t.  m,  col.  1173,  1201. 
+
+
+G.     SYNODES     RELATIFS    AU     !5APTÈME     DES    HÉkÉTIQU  KS  177 
+
+On  admet  communcnient  ({lie  suint  Gyprieii  répoiullt  à  celte  déci- 
+sion d'Etienne  en  convoci liant  un  troisième  concile  à  Carlliaoc  • 
+mais  il  est  possible  aussi  que  rassemblée  ait  en  lieu  avant  l'arrivée 
+de  la  lettre  de  Rome  ''.  Elle  se  composa  de  quatre-vingt-sept  évêques 
+(deux  étaient  représentés  par  nn  même  mandataire,  Natalis,  évêque 
+d'Oëa),  venns  de  rAfrique  proconsulaire,  de  la  Numidie  et  de  la 
+Maurétanie  ;  d'un  grand  nombre  de  prêtres  et  de  diacres  ;  une  foule 
+de  peuple  assista  anssi  au  synode.  Les  actes  de  ce  synode,  qui  exis- 
+tent encore,  nous  apprennent  qu'il  s'ouvrit  le  l*""  septembre,  mais 
+l'année  n'est  pas   indiquée  -.  Il  est  probable  que  ce  fut  en  256  3, 
+
+On  lut  d'abord  la  lettre  de  l'évêque  africain  Jubaianus  à  Cypricn 
+sur  le  baptême  des  bérétiques,  et  la  réponse  de  Cyprien*;  puis 
+une  seconde  lettre  de  Jubaianus,  dans  laquelle  celui-ci  déclarait  se 
+rattacher  désormais  à  l'opinion  de  Cyprien.  L'évê([ue  de  Carthao-e 
+demanda  alors  que  chaque  évêque  présent  exprimât  librement  son 
+opinion  sur  le  baptême  des  hérétiques^  il  déclara  qu'on  ne  ino-erait 
+ou  n'excommunierait  personne  pour  des  différences  d'opinion  ^;  car, 
+>()1  ajoutait-il,  personne  dans  l'assemblée  ne  veut  se  donner  comme 
+Vepiscopus  epincoporam  et  ne  songe  à  contraindre  ses  collègues  à  lui 
+céder,  en  leur  inspirant  une  crainte  tyrannique  (peut-être  était-ce 
+une  allusion  au  pape  Etienne).  Là-dessus  les  évêques  donnèrent  leur 
+vote  suivant  l'ordre  hiérarchique,  Cyprien  le  dernier^  déclarant  tous 
+que  le  baptême  conféré  par  les  hérétiques  était  invalide  et  qu'il  Aillait 
+rebaptiser,  avant  de  les  admettre  dans  l'Eglise,  ceux  qui  auraient 
+été  baptisés    par  les  hérétiques.   Il   est  certain  que  ^   (^vprien  com- 
+
+
+1.  Siipposilion  înexacle;  aîusi  que  nous  le  montrons  dans  V Appendice,  IV* 
+il  y  eut,  en  256,  deux  conciles,  l'un  au  printemps,  l'autre  le  l^r  septembre. 
+(H.  L.)  . 
+
+2.  Le  pape  Etienne  étant  mort  le  2  août  257,  la  réunion  tenue  le  ter  sojjlembre 
+doit  nécessairement  se  placer  en  256.  (H.  L.). 
+
+3.  Voir    la    note   précédenlc.    Sur   ce    concile,    voir    Coll.  rogia    (16'ii),    t.    i 
+col.   508;  I.abbe,  Conc.  (1671).   t.  i,  col.  786-818;  Lambecius,  nihlioth.    Vindo- 
+hon.  (1679),   t.  vni,  p.  439-'iil  ;  Hardouin,  Coll.   concil.  (1714),  t.  i,  p.  159  sq.  ; 
+Coleli,    Concil.    (1728),    t.  i,   col.  805,  817;   Mansi,    Conc.   ampli.ss.   coll.,    t.   i, 
+col.  951.  (H.  L.) 
+
+4.  Epist.,   Lxxni,  P.  L.,  t.  ni,  col.  1158. 
+
+5.  «  Il  n'est  pas  aisé  de  concilier  cette  permission  (de  suivre  1  usage  qu'on 
+préfère)  avec  la  réprobation  absolue  dont  Cyprien  poursuit  l'usage  contraire  au 
+sien.  »  L.  Duchesne,  Ilist.  une.  de  iEgli.se,  in-8,  Paris,  1906,  t.  i,  p.  425,  note  2. 
+(H.  L.) 
+
+6.  Cette  chronologie  de  Hefele  est  inexacte  faute  d'admettre  les  deux  conciles 
+CONCILES  —  I  —  12 
+
+
+178  LIVHE    l,    CHAPITIU;    II 
+
+nuiniqiia  cette  décision  au  pape  Etienne  et  ce  lut  vraiseinl)lal)lcmenl 
+à  ce   moment   ^^et   non  pas   après  le   deuxième  concile  de  Carthagc)  j 
+
+(lue  le    pape    se   montra    liés  mécontent  des    décisions  prises  par  le  I 
+
+concile,  ainsi  (|ue  le  rapporte  Firmilien,  à  tel  point  qu'il  ne  permit 
+pas  aux  envoyés  des  évô([ues  africains  de  se  présenter  devant  lui, 
+(|u'il  délendil  aux  fidèles  de  les  recevoir  dans  leurs  maisons,  et  qu'il 
+appela  saint  Cyprien  un  taux  clirélien,  un  faux  apôtre  et  dolosus 
+operariua. 
+
+Vers  la  même  épo([ue  ^,  Cypiien  envoya  le  diacre  Rogatien  avec 
+une  lettre  à  Firmilien,  évéque  de  Césarée,  pour  lui  apprendre 
+comment  avait  été  résolue  en  Afrique  la  question  du  baptême  des 
+hérétiques.  Il  lui  communiqua  eu  même  temps,  à  ce  qu'il  paraît, 
+les  actes  et  les  documents  qui  avaient  trait  à  cette  afiaire.  Firmilien 
+se  hâta  d'exprimer,  dans  une  lettre  qui  existe  encore,  son  plein  assen-  1  |21 
+liment  aux  principes  de  Cyprien.  Cette  lettre  de  Firmilien  forme 
+le  n°  Lxxv  du  recueil  des  lettres  de  saint  Cyprien  ^  ;  son  contenu 
+n'est,  en  général,  qu'un  écho  de  l'opinion  de  saint  Cyprien  et  des 
+sriefs  de  ce  dernier  contre  Etienne  ;  seulement  on  constate  chez 
+Firmilien  une  plus  grande  vivacité  et  une  plus  violente  passion  contre 
+le  pape  Etienne,  à  tel  point  que  Molkcnbuhr  a  toujours  pensé  qu'une 
+lettre  aussi  irrévérencieuse  envers  le  pape  ne  pouvait  être  authen- 
+tique ^  et  qu'il  blâme  également  la  lettre  lxxiv"  de  saint  Cyprien  *. 
+Mgr  Tizzani  soutient  aussi  la  même  opinion,  il  veut  démontrer  que 
+la  controverse  entre  le  pape  Etienne  et  saint  Cyprien  n'est  pas  prou- 
+vée par  l'étude  de  l'histoire  et  il  modifie  le  chapitre  de  l'Histoire  de 
+l'Eglise  d'Eusèbe_,  qui  se  rapporte  à  cette  question  ^. 
+
+
+de  l'année  256.  Nous  ne  nous  attarderons  pas  à  la  discuter  ici,  puisqu'il    eu  sera 
+parlé  en  détail  à  Y  Appendice,  IV«.  (H.  L.) 
+
+1.  Rogatianus  partit  deCarthage  avant  le  concile  du  1"  septembre  256,  d'après 
+Monceaux  ;  aussitôt  après  ce  concile,  d'après  L.  Duchesue.  (H.  L.) 
+
+2.  Epist.,  i-xxv,  P.  L.,  t.  m,  col.  1101  sq. 
+
+3.  M.  Molkenbuhr,  Binae  dissertationes  de  S.  Firmiliano.  in-4,  Mouast. 
+Guestph.  1790,  réimprimées  dans/*.  L.,  t.  lu,  col.  l'tll-1474. 
+
+4.  Epist.,  Lxxiv,  P.  L.,  t.  ni,  col.  1173  sq. 
+
+5.  V.  Tizzani,  La  célèbre  contesa  fra  S.  Utefano  e  S.  Cipriano,  iu-8,  Roma, 
+1862.  [L  authenticité  de  cette  lettre  a  plus  récemment  été  mise  en  doute  par 
+O.  Ristchl,  Cyprian  \'on  Karthago  und  die  Verfassiing  der  Kirche.  in-8,  Gôttiu- 
+gen,  1885,  p.  126-134  ;  A.  Harnack,  Gesch.  d.  altchr.  Literatur,  iu-8,  Leip/.ig, 
+1893,  t.  1,  p.  407  ;  cette  authenticité  est  maintenue  par  J.  Ernst,  Die  Echtheit 
+des  liriefes  Firmilians  iiher  dcn  Ketzcrtaiifstreit  in  neuer  Beleuchtitng,  dans 
+Zeitschiift  /'.  kailtul.    Théologie,    1894,  t.  xviii,  p.  209-259;    Zur  Frage  Uber  die 
+
+
+6.    SYNODES    RELATIFS    AU    BAPTEME    DES    HÉRÉTIQUES  179 
+
+On  ignore  complètement  ce  qui  se  passa  ensuite  entre  Cyprien  et 
+Etienne  ;  mais  il  est  certain  (juc  la  communion  ecclésiastique  ne 
+("ut  pas  rompue  entre  eux. 
+
+La  persécution  qui  éclata  bientôt  après  contre  les  chrétiens,  sous 
+l'empereur  Valérien,  en  257  ^,  apaisa  probablement  la  controverse  ^ 
+qui  s'était  élevée  entre  ces  deux  grands  personnages.  Le  pape  Etienne 
+mourut  martyr  durant  cette  persécution,  au  mois  d'août  257  ^  ;  son 
+successeur  Xyste  reçut  de  Denys  le  Grand,  qui  avait  déjà  été  média- 
+teur dans  cette  controverse  du  baptême  des  hérétiques,  trois  lettres 
+dans  lesquelles  l'auteur  s'efforçait  d'amener  une  conciliation  ; 
+le  prêtre  romain  Philémon  en  reçut  aussi  une  de  Denys  *.  Ces  ten- 
+tatives furent  couronnées  de  succès  :  car  Pontius,  diacre  de  Cvprien 
+5]  et  son  biographe,  nomme  le  pape  Xyste  bonus  et  pacifici/s  sacerdos, 
+et  l'on  écrivit  le  nom  de  ce  pape  dans  les  diptyques  d'Alrique  ^. 
+La  Lxxxii"  lettre  de  Cyprien  prouve  aussi  que  le  lien  entre  Rome 
+et  Cartilage  ne  fut  pas  rompu,  puisque  Cyprien  envoya  une  dépu- 
+tation  à  Rome  durant  la  persécution  pour  avoir  des  renseignements 
+sur  le  sort  de  l'Eglise  romaine,  sur  celui  du  pape  Xyste,  et  en  géné- 
+ral sur  la  marche  de  la  persécution  ^.  Bientôt  après,  le  14  septem- 
+bre 258,  Cyprien  tomba  à  son  tour  victime  de  la  persécution  de 
+Valérien  ''.  x. 
+
+Il  nous  reste,  pour  comprendre  complètement  la  controverse  du 
+baptême  des  hérétiques,  à  exposer  avec  plus  de  précision  les  opi- 
+nions et  les  assertions  de  Cyprien  et  d'Etienne. 
+
+1.  On  se  demande  avant  tout  lequel  des  deux  avait  l'antiquité 
+chrétienne  de  son  côté. 
+
+
+Echtheit  des  Briefes  Firmilians  an  Cyprian  in  Ketzertaufstveit,  dans  la  même 
+revue,  1896,  t.  xx,  p.  364-367  ;  E.  W.  Benson,  Cyprian,  Itis  life,  his  Urnes,  kis 
+work,  1897,  p.  377-386  ;  P.  Monceaux,  Hist.  litt.  de  l'Afrique  chrét.,  1902,  t.  ii, 
+p.  230,  note  6  ;  O.  Baidenhewer^  Gesch.  d.  alikirchl.  Literatur,  1903,  t.  ii, 
+p.  269-272.  (H.  L.)] 
+
+1.  Au  mois  d  août  257.  (H.  L.) 
+
+2.  D'après  saint  Augustin,  De  baptismo,  1.  I,   c.  vu,   P.  L.,   t.  xliii,  col.  113, 
+d  autres  conciles  furent  tenus  à  cette  occasion. 
+
+3.  Le  2  août  257,    cf.  Le  Liber  pontificalis,  in-4,    Paris,    1884,  t.   i,    p.  cclx. 
+(H.  L.) 
+
+4.  Eusèbe,  Hist.  écoles.,  1.  VII,  c.  vu,  v,  ix,   P.  G.,  t.  xx,  col.  641  sq. 
+
+5.  Pontius,   Vita  Cypriani,  c.  xiv,  P.  Z.,  t.  m,  col.  1553. 
+
+6.  Epist.,  Lxxxii,  P.  L.,  c.  IV,  col.  442, 
+
+7.  P.  Monceaux.  Ilist.  litt.  de  l'Afriq.  chrét.,  1902,  t.   u,  p.  234-237  ;  H.  Le- 
+clercq,  L'Afrique  chrétienne,  1904,  t.  i,  p.  220-228.  (H.  L.) 
+
+
+180 
+
+
+i.iviii:   I,   r.iiAPniti".   ii 
+
+
+a)  Cypticii  (lil  dans  sa  i.xxiii"  lellrc  ^  :  «  L'usage  n'est  pas  nouveau 
+parmi  nous  do  l)aptiscr  les  héi'éti([ues  (|ui  icnli'cnt  dans  l'Kgllse  : 
+ear  il  y  a  déjii  bien  des  années  (jue,  sous  l'épiscopat  d'Agrippinus, 
+de  sainte  ménioii'e,  un  gi-and  nonihre  d'évôques  résolurent  cette 
+question  dans  un  synode,  et,  depuis  lors  juscju'à  nos  jours,  des  mil- 
+liers d'hérétiques  ont  reçu  le  baptême  sans  difficulté.  »  Gyprien 
+veut  démontrer  l'antiquité  de  cet  usage,  mais  il  ne  peut  le  faire 
+remonter  au  delà  d'Agrippinus,  c'est-à-dire  au  delà  du  commence- 
+ment du  m"  siècle  (environ  220)  ^,  et  ses  propres  paroles,  surtout  le 
+«  depuis  lors  »  {e,rinde),  constatent  (|ue  ce  fut  Agrippinus  qui 
+introduisit  cette  pratique  en  Afrique. 
+
+b)  Dans  un  autre  passage  de  cette  lettre,  Cyprien  ajoute  ^  :  a  Les 
+défenseurs  du  baptême  des  hérétiques,  ayant  été  vaincus  par  nos 
+raisonnements  [ratione),  nous  opposent  la  coutume  {rjui  ratione 
+i'inciinlur,  consuetndinei)i  nobis  opponunt).  »  Si  Cyprien  avait  pu  nier 
+que  la  pratique  de  ses  adversaires  fût  la  plus  ancienne,  il  aurait  dit  : 
+Ils  ont  tort  s'ils  en  appellent  à  la  coutume,  elle  est  évidemment 
+contre  eux.  Mais  Cyprien  ne  dit  rien  de  semblable,  il  reconnaît  que 
+ses  adversaires  ont  la  coutume  pour  eux,  et  il  ne  cherche  qu'à  enle- 
+ver à  ce  fait  sa  force  probante  en  demandant  :  «  La  coutume  a-t-elle 
+donc  plus  de  prix  que  laxéihé? (ffiias-i consiictiido  major sit  veritate),-»  [12. 
+et  eu  ajoutant  *  :  «  Dans  les  choses  spirituelles  il  laut  observer  ce 
+que  le  Saint-Esprit  a  révélé  de  meilleur  dans  la  suite  [id  in  spi/ilna- 
+libiis  sequendnni,  qiiod  in  meliiis  fncrit  a  Spirilu  sa  ncto  recelât  uni).  » 
+Il  rattache  par  conséquent  la  pratique  qu'il  préconise  à  l'idée  d'un 
+progrès  opéré  par  les  révélations  successives  du  Saint-Esprit. 
+
+c)  Dans  un  troisième  passage  de  celte  lettre  ^,  saint  Cyprien  re- 
+connaît explicitement  ([ue  lancienne  coutume  était  de  ne  pas  rebap- 
+tiser ceux  qui  avaient  été  baptisés  par  les  hérétiques.  «  On  pour- 
+rait dit-il,  me  faire  cette  objection  :  Que  sont  devenus  ceux  qui, 
+dans  le  passé,  rentrant  de  l'hérésie  dans  l'Eglise,  n'ont  pas  été 
+rebaptisés?  »  Il  reconnaît  donc  que,  dans  le  passé  (m /?/'a?ie///M/w), 
+
+
+1.  Epist.,  Lxxiii,  3,  P.  L.,  t.  III,  col.  1157. 
+
+2.  Nous  avons  indiqué  plus  haiil  la  date  198  environ  ;  c'esl  la  date  adoptée 
+par  P.  Monceaux,  op.  cit.,  l.  ii,  p.  19-20.  A.  Audollenl,  Cartha^e  romaine, 
+1901,  p.  447,  prend  «  l'opinion  moyenne  »   et  s'arrèle  entre  218  et  222.  (H.   L.) 
+
+3.  Episl.,  i.xxiii,  V^,  P.  I..   t.  1".  col.  1163. 
+'i.  Ihid. 
+5.  Epist.,  1.XX1II,  22,  P.  1...  t.  m,  col.   1170  sq. 
+
+
+6.     SYXODES     RELATIFS    AU     RAPTÉME    DES    HÉRÉTIQUES  181 
+
+les  convertis  n'ont  pas  été  rebaptisés.  Cyprien  répond  à  cette  ques- 
+tion :  «  La  miséricorde  divine  saura  bien  venir  à  leur  aide;  mais 
+parce  qu'on  a  erré  autrefois,  ce  n'est  pas  une  raison  pour  errer  tou- 
+jours [non  tainen  quia  aliquajidn  erraliun  est,  ideo  semper  erran- 
+diun  est)  :  »  c'est-à-dire  autrefois  on  n'a  pas  rebaptisé  les  convertis, 
+mais  c'était  une  faute,  et,  comme  il  l'a  déjà  dit,  ce  qui  se  fait  main- 
+tenant est  in  melius  a  Spiritu  sancto  revelatum. 
+
+d)  Quand  le  pape  Etienne  en  appelle  à  la  tradition^  Cyprien  ne 
+répond  pas  en  niant  le  fait,  il  le  reconnaît  ;  mais  il  cherche  à  en 
+diminuer  la  valeur  en  nommant  cette  tradition,  humana  traditio, 
+légitima  ^. 
+
+è)  Firmilien  soutenait  aussi  ^  que  la  tradition  à  laquelle  en  appe- 
+lait Etienne  était  purement  liiinuuia,  et  il  ajoutait  que  l'Eglise 
+romaine  avait  encore  en  d'autres  points  dévié  de  la  pratique  de 
+l'Eglise  primitive,  par  exemple  dans  la  célébration  de  la  Pâque.  Cet 
+exemple  n'était  cependant  pas  bien  choisi,  puisque  la  pratique  pas- 
+cale de  1  Eglise  romaine  remontait  au  prince  des  apôtres  ^, 
+
+f)  Firmilien  dit,  dans  un  autre  passage  de  cette  même  lettre,  que 
+c'était  aussi  anciennement  la  coutume  des  Eglises  d  Afrique  de  ne 
+pas  rebaptiser  les  convertis  :  ((  Vous  autres  Africains,  écrit-il,  vous 
+pouvez  répondre  à  Etienne  qu'avant  reconnu  la  vérité,  vous  avez 
+renoncé  à  l'erreur  de  votre    (ancienne)   coutume  :  [Vos  dicere  Afri 
+
+J41  potestis,  cognita  veritate  errorem  ços  consuetudinis  reliquisse  ).  » 
+Toutefois,  Firmilien  croit  qu'il  en  était  autrement  en  Asie-Mineure, 
+et  que  l'habitude  d'y  rebaptiser  les  convertis  remontait  à  une  époque 
+très  éloignée  ;  mais  dès  cju'il  veut  en  donner  la  preuve,  il  ne  trouve 
+que  celle-ci  *  :  «  Nous  ne  nous  souvenons  pas  c^uand  cette  pratique 
+a  commencé  chez  nous.  »  Il  en  appelle  en  dernier  lieu  au  synode 
+d'Iconium,  qui,  on  le  sait,  n'a  été  célébré  que  vers  l'an  230  ^. 
+
+g)  Même  en  Afrique,  tous  les  évêques  ne  se  prononcèrent  pas  pour 
+la  nécessité  d'un  nouveau  baptême  ^,  ce  qui  aurait  certainement  eu 
+
+
+1.  Epist.,  Lxxiv,  3,  4,  P.  L.,  t.  m,  col.  1176  sq. 
+
+2.  Au  sujet  de  cette  affirmation,  dont  ou  s'étonne  que  le  pape  Anicet  ne  se 
+soit  pas  prévalu  contre  saint  Polycarpe  qui  se  réclamait  de  la  coutume  de 
+saint  Jean,  nous  renvoyons  à  V Appendice,  III.  (H.  L.) 
+
+3.  Epist.,  Lxxv,  19,   P.  L.,  t.  m,  col.  1218. 
+
+4.  Epist.,  LXXV,  19,  P .  L.,  t.  m,  col.  1218  :  Nec  meminimus  hoc  apud  nos 
+aliquando  cœpisse. 
+
+5.  Pour  la  date  de  ce  concile,  voir  plus  haut,  p.  161. 
+
+6.  Cette  affirmation  est  inexacte.  Les  quatre-vingt-cinq  votes  motivés  formant 
+
+
+182  LIVRE  I,   CHAPirni':  ii 
+
+
+lieu  si  la  pratique  d'Agrippinus  et  de  Cyprien   avait  toujours  et  de 
+tout  temps  prédominé  en  Afrique  ^. 
+
+//)  Un  témoignage  fort  grave  en  laveur  d'Etienne  et  qui  prouve 
+que  rancienne  coutume  était  de  ne  pas  rebaptiser,  est  celui  de  l'au- 
+teur anonyme  du  livre  De  rebaptismate,  contemporain  et  probable- 
+ment collègue  de  Cyprien  2.  Cet  auteur  dit  que  la  pratique  soutenue 
+par  Etienne,  celle  qui  consistait  à  imposer  simplement  les  mains  aux 
+convertis    sans   les  rebaptiser,  est  consacrée  vetustissima  consuetii- 
+
+
+les  Sententise  episcoporum  sont  absolument  unanimes  sur  le  fond  de  la  ques- 
+tions ;  les  considérants  dilfèrent,  mais  la  conviction  est  identique.  Nous  igno- 
+rons sur  quel  fondement  Helele  a  pu  faire  reposer  son  affirmation.  Aucun 
+texte,  aucuu  moDU)ueut  ne  l'autorise  et  un  texte  précis  et  authentique  la  con- 
+damne. Peut-être  a-t-il  cru  pouvoir  inférer  la  non-unanimité  d'après  les  con- 
+sultations de  l'évéque  Quintus  et  de  quelques  autres.  (H.  L.) 
+
+1.  Cette  conclusion  est  inacceptable,  voir  la  note  précédente.  (H.  L.) 
+
+2.  Cette  question   n'est  pas  vidée.    L'opuscule  date  probablement  de  l'année 
+256,  mais   on  n'est    pas  d'accord   sur  sou  pays    d'origine.  Les  données  du  texte 
+sont   obscures  et   les    idées    qu'on   y  soutient  étant  celles  du  pape  Lticnne,  ou 
+peut  soutenir   que   ce  pamphlet   fut  composé  en  Italie  et  répandu  en  Afrique  à 
+profusion  par  ordre  du  pape.  Cf.  le  texte,  P.L.,\.  m,  col.  1251-1259  ;  S.  Cyprien, 
+Operà,   édit.  Hartel,   1868-1871,    t.  m,  p.  69-92  ;  Routh,   Reliquise  sacrœ,  t.  v, 
+p.  281-328  ;  J.  Erust,  Wann  und  wo  wurde  der  Liber  de  rebaptismate  verfasst  ? 
+dans  Zeilschrift  /'.  kathul.  Tlieolog.,  1896,  t.  xx,  p.  19o-255  ,  NachtiagUches  zur 
+Abhandlung   ûber   den    Uraprung   des  Liber   de   rebaptismate,    dans    la   même 
+revue,  1896,  t.  xx,  p.  360-362  ;  Zur  handschriftlichen   Ueberlieferung  des  Liber 
+de  rebaptismate,  dans    la  même  revue,  1898,    t.  xxii,  p.  179-180,   propose  de 
+l'identifier  avec  le  pamphlet  qui  circulait  en  Maurétanie  en  256  et  que  Jubaianus 
+envoya  à  Cyprien  ;  Benson,  Cjprian,  1897,  p.  390-399;  \V.  bchiiler,  Derpseudo- 
+cypridJiisclie    Tractât  De  rebaptismate   nach  Zcit  und    Oit  seiner    Entstehuiig 
+untersucht,  dans  Zeitschrift  fur  wissenscliaf'tl.    Théologie,    1897,  t.  xl,  p.  555- 
+608,  propose  de  le  faire   écrire  en  Italie  peu  après  le  concile  du  If"   septembre 
+256  •   contredit  par  J.  Ernst,  fVann   und  wo  wurde  der  Liber  de   reb;iptismate 
+verfasst?  dans  Histor.  Jahrbuch,  1898,    t.  xix,  399-422   (  =  499-522),    737-771  ; 
+A.  Beck,  Z»er  Liber  de  n  baptismate  und  die    Taufe .   Sind  cap,  xvi-xviliecht  ? 
+dans  Der  Katholik,  1900,  p.  40-64  (conclut  à   l'inauthenticito  des  ch.  xvi-xviii)  ; 
+J.  Ernst,  Die  Lehre  des  Liber  de  rebaptismale  \-on  der  Taufe   dans    Zeitschrift 
+f.  kathoL,  Theol.,   1900,  p.    425-462  (réfute  Beck)  ;   Nelke,  Die  Kronologie  der 
+Korrespondenz     Cyprians   und   der  pseudo-cyprianischen    Schriften    Ad    Nova- 
+tianum  und  Liber   de    rebaptismate,    in-8,  Thorn,  1902,  p.    171-203  ;  P.    Mon- 
+ceaux, Hist.  littér.  de   l'Afriq.   chrét.,    1902,  t.  n,   p.  91-97  :    a  II  est   donc   très 
+probable  que  le   De  rebaptismate   a    été    composé   par    un  évoque   africain   du 
+temps.  En    tous  cas  cet  ouvrage  a  un  rapport  étroit  avec  les   controverses  qui 
+agitèrent   en    256    toutes  les  églises  de  la  contrée.  »   Beck,  Kirchliche   StuJien 
+und  Quellen,  iu-8,  Amberg,  1903,  p.  1-81.  (H.  L.) 
+
+
+6.     SYNODES     RELATIFS    AU     BAPTÊME     DES    HÉRÉTIQUES  183 
+
+dine  ac  tradilione  ecclesiastica,  consacrée  comme  pi^isca  et  memora- 
+hilis  cunctoruin  emeritorum  sanctornm  et  fideliiun  solemni.ssima 
+observatio,  qui  d^i^onr  eWe  auctoritas  omniiun  Ecclesiariiiyi,  mais  dont 
+malheureusement  quelques-uns  se  sont  écartés  par  la  manie  des 
+innovations  ^. 
+
+i)  Saint  Vincent  de  Lérins  est  d'accord  avec  l'auteur  que  nous 
+venons  de  citer,  quand  il  dit  qu'Agrippinus  de  Carthage  fut  le  pre- 
+mier qui  introduisit  la  coutume  de  rebaptiser,  contra  dwitium  cano- 
+nem^  et  contra  universalis  Ecclesise  regulam,  et  contra  morem  atqiie 
+instituta  majoium;  mais  que  le  pape  Etienne  condamna  l'innovation 
+251    et  rétablit  la  tradition,  retenta  est  antiquitas,  explosa  novitas  ^. 
+
+k)  Saint  Augustin  croit  aussi  que  la  coutume  de  ne  pas  rebaptiser 
+les  hérétiques  est  de  tradition  apostolique  [credo  ex  apostolica  tra- 
+dilione venienleni),  et  que  ce  fut  Agrippinus  qui  le  premier  abolit 
+cette  saluberrinia  consuetudo,  sans  réussir  à  la  remplacer  par  une 
+coutume  meilleure,  ainsi  que  le  pensait  saint  Cyprien  ^. 
+
+l)  Mais  le  témoignage  le  plus  grave  dans  cette  question  est  celui 
+des  Philosophoumena,  dans  lesquels  Hippolyte,  qui  écrivait  vers  230, 
+atteste  explicitement  que  l'usage  de  rebaptiser  ne  lut  admis  que  sous 
+le  pape  Gallixte,  par  conséquent  entre  218  et  222  *. 
+
+m)  Avant  d'arriver  à  la  conclusion  qui  se  déduit  de  toutes  ces 
+preuves,  il  nous  reste  à  examiner  quelques  textes  qui  paraissent  en 
+opposition  avec  ceux  que  nous  venons  de  citer. 
+
+a)  Tout  d'abord  dans  son  livre  De  baptismo  ^,  qu'il  écrivit  étant 
+encore  catholique,  et  avant  cet  ouvrage  dans  un  écrit  grec,  Tertullien 
+laisse  voir  qu'il  ne  croit  pas  à  la  valeur  du  baptême  conféré  par  des 
+hérétiques.  Mais,  en  y  regardant  de  près,  on  trouve  qu'il  ne  parlait 
+pas  de  tout  baptême  d'hérétique,  mais  uniquement  du  baptême  des 
+hérétiques  qui  avaient  un  autre  Dieu  et  un  autre  Christ.  D'ailleurs, 
+abstraction  faite  de  cette  question,  on  sait  que  Tertullien  est  toujours 
+porté  au  rigorisme;  et  puis,  vivant  au  commencement  du  m®  siècle  à 
+Carthage,  étant  par   conséquent  contemporain  d'Agrippinus,  peut- 
+
+1.  De  rebaptisniate,  1,  P.  L.,  t.  m,  col.  1233. 
+
+2.  Vincent  de  Léiius,  CommonitoriuiHj  c.  ix,  P.  Z.,  t.  L,  col.  649. 
+
+3.  S.  Augustin,  De  baptismo  contra  Donatistas,  1.  II,  c.  vu,  P.  Z.,  t.  xliii, 
+col.  113  sq. 
+
+4.  Nous  ne  reviendrons  plus  sur  la  question  de  l'origine  et  de  la  date  des  Phi- 
+losophoumena. 
+
+5.  Tertullien,  De  baptismo,  c.  xv,  P.  Z.,  t.  i,  col.  1324  sq.  [Ecrit  entre  200 
+et  206.  (H.  L.)] 
+
+
+18^ 
+
+
+LIVRE     I,    CHAIMTHK     II 
+
+
+èti'(>  mèinc  laisaiit  partie  do  son  cleri^c',  il  a  ilù  rtro  [xn'lc  à  résoudre 
+(•(•tic  ([iiostioii  comiiie  Agrippiims  la  résolvait,  el  son  livre  De  bap- 
+tisnn)  a  hirn  pu  cxcifcr  une  inllucuce  déoisivc  sur  les  l'ésolutions 
+du  synode  de  ('arthage  *.  Terlullieu  ne  prélend  pas  du  reste  (pie  la 
+coutiiiue  primitive  de  l'Kolise  (Vit  de  iel>aptiser  ;  ses  paroles  indicpient 
+pliiltd  (ju'il  croit  le  contraire.  Il  dit  :  Scil  circd  Itivrolicos  s(ine  (juid 
+custodienduin  si/,  di^ne  qitis  retractet,  c'est-à-dire  :  a  II  serait  utile 
+que  ([uelnu'uii  étudiât  de  nouveau  (ou  examinât  de  plus  près)  ce  qu'il 
+y  a  à  faire  par  rapport  aux  hérétiques,  c'est-à-dire  par  rapport  à  leur 
+baptême  -.  » 
+
+iS.  Denys  le  Grand  paraît  être  d'un  avis  contraire  à  celui  d'Etienne  [1-^] 
+et  il  dit  dans  un  passage  qui  nous  a  été  conservé  par  Eusèbe  -^  :  «  Ce 
+ne  sont  pas  les  Africains  qui  les  premiers  ont  introduit  cette  prati- 
+que (de  rebaptiser  les  convertis);  elle  est  plus  ancienne,  elle  a  été 
+autorisée  par  des  évèques  qui  ont  vécu  bien  avant  eux,  et  dans  les 
+Eglises  les  plus  nombreuses.  »  Comme  cependant  il  ne  cite,  avant  les 
+Alricains,  que  les  synodes  d'Iconium  etdeSynnada,  son  expression  : 
+elle  est  bien  antérieure,  ne  peut  se  rapporter  qu'à  ces  assemblées  et  ne 
+renlorce  d'aucun  témoignage  plus  ancien  l'opinion  de  saint  Cyprien. 
+
+Y-  Clément  d'Alexandrie  parle  très  dédaigneusement  du  baptême 
+des  hérétiques  et  le  nomme  «  une  eau  étrangère  »  '*;  il  ne  dit  cepen- 
+dant pas  qu'on  soit  dans  l'habitude  de  renouveler  ce  baptême  ^. 
+
+c.  Les  canons  apostoliques  45  et  46  (ou  46  et  47  d'après  un  autre 
+ordre)  parlent  de  l'invalidité  du  baptême  des  hérétiques^;  mais  la 
+question  est  de  savoir  quelle  est  la  date  de  ces  deuxcanons,  peut-être 
+sont-ils  contemporains  des  synodes  d'Iconium  et  de  Synnada,  peut- 
+être  même  plus  récents  ^. 
+
+1.  C'est  l'opinion  de  Dôllinger,  Hippolytiis  und  Kollistus,  p.  191,  déjà  par- 
+tagée plus  haut  par  Hefele. 
+
+2.  Mattes,  Abhandlung  lilier  die  Ketzertaufe,  dans  Tiih.  t/ieol.  Qiiartals., 
+1849,  t.  XXXI,  p.  594. 
+
+3.  Eusèbe,  /fist.  eccles.,  1.  VII,  c.  vu,  P.  L.,  t.  xx,  col.  652.  [Cf.  J.  Tixeront. 
+Histoire  des  do^irnes,  in-12,  Paris,  1905,  t.  i,  p.  394,  et  note  3.  (H,  L.)] 
+
+4.  Clément  d'Alexandrie,  Stromata,  I.  I,  c.  xix,  P.  G.,  t.  vui,  col.  812. 
+
+5.  Mattes,  op.  cit.,  p.  59.'>. 
+
+6.  Hardouin,  Coricil.  vol!.,  t.  i,  col.  22;  Mansi,  Conc.  ampliss.  adl.,  t.  i, 
+col.  39. 
+
+7.  J.  Drey,  Aeue  l'ntersuchuii^cn  iil)er  die  Constitutioiien  und  Canones  der 
+Apostel,  ein  liistorisc/drilisc/n-r  lieitra-i  ziir  Litciatiir  der  Kirclienfiescliichtt', 
+und  der  Kirchenreclit,  in-8,  Tùbingen,  1832,  p.  260.  Dôllinger,  op.  cit., 
+p.  192.  les  tient   pour   moins    anciens  que    les    synodes    d'Iconium   et    Synnada, 
+
+
+6.  SYXODES  RELATIFS  AU  BAPTEME  DES  HÉRÉTIQUES       185 
+
+Ces  textes  ne  peuvent  done  coniproniettre  la  valeur  historique 
+de  la  conclusion_,  qui  ressort  de  tous  les  documents  que  nous  avons 
+cités  plus  haut,  c'est  que  dans  l'ancienne  Eglise  ceux  qui  reve- 
+naient à  la  foi  orthodoxe,  après  avoir  été  haptisés  par  les  hérétiques, 
+n'étaient  pas  rebaptisés,  s'ils  avaient  reçu  ce  baptême  an  nom  de  la 
+Trinité  ou  de  Jésus. 
+
+2.  Voyons  maintenant  si  le  pape  Etienne  tenait  pour  valide  le 
+baptême  conféré  par  tous  les  hérétiques,  sans  aucune  exception 
+ni  condition.  On  sait  que  le  synode  d'Arles  de  314  *,  ainsi  que  le 
+concile  de  Trente  -,  enseignent  que  le  baptême  des  hérétiques 
+n'est  valide  qu'autant  qu'il  a  été  administré  au  nom  du  Père,  du 
+Fils  et  du  Saint-Esprit.  Les  opinions  et  les  assertions  d'Etienne 
+étaient-elles  conformes  à  cette  doctrine  de  l'Eglise  ? 
+
+A  première  vue,  Etienne  parait  avoir  été  trop  loin  et  avoir  admis 
+tout  baptême  d'hérétique  de  quelque  manière  qu'il  eût  été  conféré. 
+Sa  proposition  capitale,  telle  que  nous  la  lisons  dans  saint  Cyprien, 
+n-\  est  conçue  en  ces  termes  :  Si  quis  ergo  a  quacujn(jue  hseresi  venerit 
+ad  nos,  nil  innoçetur  nisi  quod  traditum  est,  ut  manus  illi  impona- 
+tur  in  pxnilentiam  ■'^.  Il  semble  donc  déclarer  valide  tout  baptême 
+d'hérétique,  de  quelque  manière  qu'il  ait  été  administré,  avec  ou 
+sans  formule  de  la  Trinité.  Cyprien  argumente  parfois  comme 
+s'il  comprenait  dans  ce  sens  la  proposition  d'Etienne  *.  Cependant, 
+
+a.  Par  plusieurs  passages  des  lettres  de  saint  Cyprien,  on  voit 
+que  le  pape  Etienne  ne  l'entendait  pas  ainsi. 
+
+a.  Ainsi  Cyprien  dit  :  a  Les  défenseurs  du  baptême  des  hérétiques 
+font  valoir  que  ceux  mêmes  qui  avaient  été  baptisés  par  Marcion 
+n'étaient  pas  rebaptisés,  parce  qu'ils  avaient  déjà  été  baptisés  au 
+nom  de  Jésus-Christ  ^.  »  Cyprien  reconnaît  donc  qu'Etienne 
+et  ceux  qui  pensent    comme  lui  ^  n'attribuent  de  valeur  au   baptême 
+
+
+vers  230-235,  tandis    que  Drey  les  tient   pour  plus   anciens.  Nous   reviendrons 
+dans  un  des  volumes  suivants  sur  les  canons  des  Apôtres. 
+
+1.  Canon  8*. 
+
+2.  Session  vu,  can.  4,  De  haptismo. 
+
+3.  S.  Cyprien,  Epist.,  lxxiv,  1,  P.  Z.,  t.  m,  col,  1174. 
+
+4.  Ibid.,  col.  1175-1176. 
+
+5.  S,  Cyprien,  Epist.,  lxxiii,  4,  P.  L.,  t,  m,  col.  1158. 
+
+6.  On  doit  admettre  que  ceux-ci  étaient  d'accord  entre  eux,  comme  saint 
+Cyprien  l'était  avec  ses  adhérents.  Cf.  Maltes,  op.  cit.,  p.  605.  [Il  suffirait  de 
+dire  «  on  peut  admettre  »,  etc.  L'unanimité,  si  elle  existait,  laissait  place  comme 
+chez  Denys  d'Alexandrie  à  des  degrés  divers  d'interprétation.  (H.  L.)] 
+
+
+186  LIVRE    I,    CHAPITRE    II 
+
+des  hérétiques  qu'autant  qu'il  aura  été  administré  au  nom  de  Jésus- 
+Christ. 
+
+p.  Cyprien  reconnaît  dans  la  même  lettre  que  les  hérétiques  bap- 
+tisent in  nomine  C/tristi"^. 
+
+Y-  Encore  dans  cette  lettre,  il  répète  deux  fois  que  ses  adversaires 
+considèrent  comme  suffisant  le  baptême  administré  hors  de  l'Eglise, 
+mais  administré  in  nomine  Chiisti^. 
+
+B.  Cyprien,  répondant  à  cette  question  particulière  :  si  le  baptême 
+des  marcionites  est  valide,  reconnaît  qu'ils  baptisent  au  nom  de  la 
+Trinité  ;  mais  il  fait  remarquer  que,  sous  le  nom  de  Père,  de  Fils 
+et  de  Saint-Esprit,  ils  entendent  autre  chose  que  ce  que  l'Eglise 
+entend  ^.  (^ette  argumentation  permet  de  conclure  que  les  adversai- 
+res de  saint  Cyprien  considéraient  le  baptême  des  marcionites 
+comme  valide,  parce  qu'il  était  conféré  au  nom  de  la  Trinité. 
+
+ù.  Firmilien  rend  aussi  témoignage  en  faveur  d'Etienne. 
+
+a.  Il  raconte  en  effet  qu'environ  vingt-deux  ans  auparavant  il  avait 
+baptisé  dans  sa  patrie  une  femme  qui  se  donnait  pour  prophétesse, 
+mais  qui^  dans  le  fait,  était  possédée  par  un  mauvais  esprit.  Or, 
+demande-t-il,  Etienne  et  ses  partisans  approuveront-ils  aussi  le  rj)^ 
+baptême  qu'elle  avait  déjà  reçu,  parce  qu  il  avait  eu  lieu  avec  la 
+formule  de  la  Trinité,  maxime  cui  nec  symbolum  Trinitatis  de- 
+fuil  *  ? 
+
+(3.  Dans  la  môme  lettre,  Firmilien  résume  en  ces  termes  l'opi- 
+nion d'Etienne  :  In  multum  proficit  nomen  Christi  ad  fideni  et  bap- 
+tismi  sanctifie ationem,  ut  quicumque  et  ubiciimque  L\  yoML\E  cuhiSTi 
+BAI'TIZAIUS  f'uerit,  consequatur  statim  gratiam  Christi^. 
+
+c.  Si  donc  saint  Cyprien  et  Firmilien  attestent  que  le  pape  Etienne 
+ne  tint  pour  valide  que  le  baptême  conféré  au  nom  du  Christ,  nous 
+n'avons  pas  besoin  de  recourir  au  témoignage  soit  de  saint  Jérôme 
+soit  de  saint  Augustin,  soit  de  saint  Vincent  de  Lérins,  qui  l'attes- 
+tent également  ^. 
+
+d.  11  n'est  pas  moins  certain  que  l'auteur  anonyme  du  livre  De 
+7'ebaptismate,  c'est-à-dire  un  contemporain  même  de  saint  Cyprien, 
+commence  son  écrit  en  ces  termes  :  «  Un  a  disputé  sur  la  manière 
+
+1.  JSpist.f  Lxxiii,  25,  P.  L.,  t.  III,  col.  1172. 
+
+2.  Ibid. 
+
+3.  Epist.,  Lxxiii,  5,  P.  Z.,  t.  ni,  col.  1158. 
+
+4.  Epist.,  Lxxv,  11,  P.  L.,  t.  m,  col.  1213. 
+
+5.  Ibid.,  18,  P.  L.,  t.  m,  col.  1218. 
+
+6.  Malles,  op.  cit.,  p.  603. 
+
+
+6.     SYNODES    RELATIFS    AU    BAPTEME     DES    HÉRÉTIQUES  187 
+
+dont  il  fallait  agir  envers  ceux  qui  in  hceresi  quidem,  sed  in  yoMLXE 
+Dei  yosTR^  Jesv  Christi,  sunt  tincd^. 
+
+e.  On  peut  se  demander  encore  si  Etienne  exigeait  formellement 
+qu'on  nommât  les  trois  personnes  divines  en  administrant  le  bap- 
+tême, et  s  il  1  exigeait  comme  condition  sine  qua  non,  ou  bien  s'il 
+considérait  comme  suffisant  le  baptême  conféré  uniquement  au  nom 
+de  Jésus-Christ.  Saint  Cyprien  semble  indiquer  -  que  ce  dernier 
+sentiment  était  celui  du  pape  Etienne  :  mais  il  ne  le  dit  positivement 
+nulle  part,  et,  l'aurait-il  dit,  qu'on  ne  pourrait  légitimement  en  rien 
+conclure  contre  le  pape  Etienne,  car  Cyprien  prend  toujours  dans 
+le  sens  le  plus  mauvais  les  paroles  de  ses  adversaires  ;  ce  que  nous 
+avons  rapporté  (p.  185-186)  tend  à  prouver  que  le  pape  Etienne 
+regardait  comme  nécessaire  la  formule  de  la  Trinité.  L'Écriture 
+sainte  avait  introduit  l'usage  d'appeler  baptême  au  nom  du  Christ 
+tout  baptême  conféré  en  vertu  de  la  foi  en  Jésus-Christ  et  conformé- 
+ment à  ses  préceptes,  par  conséquent  au  nom  de  la  sainte  Trinité, 
+
+9]  ainsi  qu'on  le  voit  dans  les  Actes  des  Apôtres  ^  et  dans  VEpître  aux 
+Romains  *  ;  il  n'est  donc  pas  étonnant  que  le  pape  Etienne  se  soit 
+servi  d'une  expression  qui  à  cette  époque  était  parfaitement  intelli- 
+gible. 
+
+f.  Dans  cette  discussion,  tout  ce  que  l'on  peut  dire  contre  le  pape 
+Etienne,  c'est  qu'il  semble  croire  que  tous  les  hérétiques  de  son 
+temps  se  servent  de  la  véritable  forme  du  baptême,  par  consé- 
+quent que  la  forme  est  identique  pour  tous,  et  la  même  que  celle  de 
+l'Eglise.  Il  émet  assez  clairement  ce  sentiment  dans  ces  paroles 
+de  sa  lettre  rapportées  par  Firmilien  :  Stepkaniis  in  sua  epistola 
+dixit  hœreticos  quoque  ipsos  in  haptismo  com^enire,  et  c'était 
+pour  ce  motif,  ajoutait  le  pape,  que  les  hérétiques  ne  rebaptisaient 
+pas  ceux  qui  passaient  dune  secte  dans  une  autre  ^.  Parler  ainsi, 
+c'était  dire  évidemment  que  toutes  les  sectes  s'accordaient  pour 
+administrer  le  baptême  avec  une  seule  forme,  celle  prescrite  par 
+Notre-Seigneur. 
+
+Saint  Cyprien  prête  aussi  au  pape  Etienne  des  paroles  qui  s'ex- 
+pliquent très  bien,  si  on  les  place  en  regard  de  celles  qui  sont  citées 
+
+
+1.  De  rebaptismate,  1,  P.  L.,  t.  m,  col.  1231. 
+
+2.  Epist.,  Lxxin,  P.  L.,  t.  ni,  col.  1165-1174. 
+
+3.  Act.,  II,  32;  viii,  16;  xix,  5, 
+
+4.  Rom.,  VI,  3. 
+
+5.  Epist.,  Lxxv,  6,  P.  L.,  t.  m,  col.  1207. 
+
+
+188  T.IVnE  I,    CHAPITRE   H 
+
+par  Firmilien  ;  d'après  saint  Cyprlon  *,  Etienne  aurait  dit  :  Il  ne 
+laut  pas  rebaptiser  ceux  (jul  ont  ('t(''  l)aptis(''s  par  les  hérétiques, 
+l'uni  i/)si  /in'rt'tici  proprie  allerutriini  <n(  se  çe/iienics  non  bnptizent^ 
+c'est-à-dire  :  les  diflerentes  sectes  n'ont  pas  de  baptême  particulier, 
+proprie  non  hapfizenf,  et  c'est  pour  cette  raison  que  les  hérétiques 
+ne  rebaptisent  pas  ceux  ([ui  passent  d'une  secte  dans  une  autre.  Or 
+si  les  difFérentes  sectes  n'ont  pas  de  baptême  particulier,  si  com>e- 
+niiint  in   haptismo,  comme  Firmilien    le  fait   dire   au  pape   Etienne,  J 
+
+elles  ont  nécessairement   le   mode  universel  et  primitif  du  baptême         1 
+des  chrétiens,  par  conséquent  elles    se   servent  de    la  formule  trini- 
+taire. 
+
+Il  est  difficile  de  dire  si,  en  admettant  cette  hypothèse,  Etienne 
+tombait  dans  une  erreur  historique  ;  car,  d'une  part,  saint  Irénée  ^ 
+accuse  les  gnostiques  d'avoir  falsifié  la  formule  baptismale  et  d'avoir 
+emplové  diverses  formules  erronées,  et  en  quoi  il  contredit  Etien- 
+ne; d'autre  part,  saint  Augustin  parait  se  rattacher  à  l'opinion  du 
+pape,  en  disant:  Facilius  inveniuntur  hœretici  qui  omnino  non  hap- 
+tizent  ([iiam  qui  non  illis  verbis  (in  nomine  Patris  etc.)  haptizent  ^. 
+
+g.  On  pourrait  être  porté  à  faire  une  objection  contre  Etienne  [130 
+au  sujet  des  montanistes.  Il  n'est  pas  douteux,  en  cfTet,  qu'Etienne 
+considéra  le  baptême  de  ces  hérétiques  comme  valide,  tandis  que 
+rÉglise  le  déclara  plus  tard  sans  valeur  *.  Mais  l'opinion  d'Etienne 
+n'est  pas  en  cela  en  contradiction  avec  la  doctrine  de  l'Eglise  ;  le 
+concile  de  Nicée  (can.  19)  n'a  pas  non  plus  nommé  les  montanistes 
+parmi  ceux  dont  il  rejeta  le  baptême,  il  ne  le  pouvait  pas  plus 
+qu'Etienne  ;  car  ce  n'est  cjue  longtemps  après  Etienne  et  le  concile 
+de  Nicée  (ju'une  secte  dégénéi'ée  de  montanistes  professa  formelle- 
+ment l'anti-trinitarisme  ^. 
+
+3.11  nous  reste  à  préciser  ce  que,  suivant  la  décision  d'Etienne, 
+on  devait  faire  des  convertis,  après  leur  réintégration  dans  1  Eglise. 
+Voici  à  ce  sujet  les  paroles  du  pape  ^  :  Si    quis  ergo   a   quacumque 
+
+
+\.  Epist.,  Lxxiv,  1,  P.  Z.,  t.  m,  col.  1175. 
+
+2.  S.  Irénée,  Adv.  haer.,  1.  I,  c.  xxi,  3,  P.  G.,  t.  vu,  col.  661. 
+
+3.  S.  Augustin,  De   baptismo  contra  Dvnatistas^  1.  VI,  c.  xxv,    n.  47,  P.  /.., 
+t.  XI.UI,  col.  213-214. 
+
+4.  Dans  le  canon  7^  atlribuo  au  IIp    concile   œcuménique,  mais    qui  n'est  pas 
+de  lui. 
+
+5.  Voir  ma  dissertalion  sur  Montan  dans  k-  Freihurger  Kirchenlexikon,  t.  vu, 
+p.  264-265. 
+
+6.  S.  Cyprien,  Epist.  i.xxiv,   1,  P.  /..,  t.  m,  col.  1175.  Voir  à  ce  sujet  Schwane, 
+
+
+6.     SYNODES    RELATIFS    AU     BAPTEME    DES    HÉRÉTIQUES  189 
+
+hœresi  vcnevil  ad  nos,  nil  innovetu?-  nisi  quod  traditum  est,  ut  /nantis 
+illi  imponatur  in  psenitentiam.  Déjà  Vincent  de  Léiins  "*  et  saint 
+Augustin  2  ont  donné  à  ce  passage  le  sens  suivant  :  «  Oh  ninnovera 
+pas,  seulement  on  se  conformera  à  la  tradition,  on  imposera  les 
+mains  à  ce  converti  en  signe  de  pénitence.  »  D'autres  auteurs  tra- 
+duisent au  contraire  ce  passage  de  la  manière  suivante  :  «  On  ne 
+changera  rien  à  légard  du  converti,  que  ce  qu'il  est  conforme  à  la 
+tradition  de  changer,  c'est-à-dire  qu'on  lui  imposera  les  mains  en 
+signe  de  pénitence  ^.  »  Si  nous  voulons  savoir  laquelle  de  ces  deux 
+interprétations  —  qui,  il  faut  le  remarquer,  s'accordent  sur  le  point 
+capital  —  est  à  retenir,  recherchons  ce  qu  il  faut  entendre  par 
+manus  imposilio  ad  ptenilentiam .  Certains  savants  de  notre  époque, 
+en  particulier  le  D''  Mattes  dans  la  dissertation  que  nous  avons  déjà 
+souvent  citée,  sont  d'avis  que  le  pape  Etienne  exigeait  l'imposition 
+des  mains  aussi  bien  en  vue  de  la  confirmation  des  convertis,  qu'en 
+vue  de  leur  réconciliation  par  le  sacrement  de  pénitence,  tandis  que 
+d'autres  auteurs  encore  plus  récents  tels  que  le  professeur  D''  Schwane 
+de  Munster  ne  veulent  voir  dans  l'imposition  des  mains  qu'un  rite  de 
+réconciliation.  Le  texte  cité  s'accorde  avec  cette  dernière  opinion  ; 
+nous  nous  contenterons  d'ajouter  qu'une  pénitence  était  imposée 
+aux  convertis  lorsqu'ils  changeaient  de  religion  et  qu'une  première 
+imposition  des  mains  leur  était  faite  au  moment  de  leur  entrée  dans 
+le  sein  de  l'Eglise  sans  attendre  que  leur  admission  fût  confirmée  par 
+une  deuxième  imposition  des  mains  '*. 
+
+4.  11  appartient  à  la  dogmatique  plutôt  qu'à  une  histoire  des  con- 
+ciles de  faire  voir  comment  Cyprien  se  trompait  en  exigeant  que 
+ceux  qui  avaient  été  baptisés  par  les  hérétiques  au  nom  de  la  Trinité 
+fussent  rebaptisés.  Quelques  explications  sur  ce  point  ne  seront  pas 
+hors  de  propos. 
+
+Saint  Cyprien  reprit  l'argumentation  de  Tertidlien,  sans  toutefois 
+le  nommer,  et  la  résuma  ainsi  :  «  De  même  qu  il  n'v  a  qu'un  Christ, 
+il  n'y  a   aussi  qu'une  Eglise  ;    elle  seule  est  la  médiatrice   du  salut, 
+
+Dogmengeschichte,  in-8,  Munster,  1862.  Le  même  auteur  avait  déjà  écrit  deux 
+ans  auparavant  une  Dissertation  :  De  coiitroversia,  quae  de  valore  baptismi 
+hxreticorum  irter  S.  Stephanum  et  S.  Cyprianum  agitata  sit,  commentatio 
+historico-dogmatica,   in-8,  Munster,  1860. 
+
+1.  Vincent  de  Lérins,  Conunonitoriuin,  c.  vi,  P.  Z.,  t.  i.,  col.  6'i5. 
+
+2.  S.    Augustin,   De  baptis/nu  contra  Donatistas,  I.  V,  c.  x.w,  P.  L.,  t.  xliii, 
+col.   194. 
+
+3.  Cf.  Schwane,    Histoire  des  dogmes  (trad.  Belet-Degert),  t.  i,  p.  761  sq. 
+
+4.  Frank,  Die  Bussdisziplin,  in-8,  Mainz,  1867,  p.  810. 
+
+
+190  LIVRE    I,     CHAPITItK     11 
+
+elle  seule  peut  administrer  les  sacrements  ;  hors  d'elle  aucun  sacre- 
+ment ne  peut  être  validement  conféré  '•.  »  Il  ajoute  :  «  Le  baptême 
+remet  les  péchés;  or  le  Christ  n'a  laissé  qu'aux  apôtres  le  pouvoir 
+de  remettre  les  péchés  ;  donc  les  hérétiques  ne  peuvent  le  posséder, 
+et  par  consé([uent  il  leur  est  impossible  de  baptiser  ^.  »  Enfin  il 
+conclut  :  «  Le  baptême  est  une  renaissance  ;  c  est  par  lui  que  sont 
+engendrés  à  Dieu  des  enfants  en  Jésus-Christ  ;  or  l'Eglise  seule  est 
+la  fiancée  du  Christ,  elle  seule  peut  par  conséquent  être  la  média- 
+trice de  cette  renaissance  ^.  » 
+
+Dans  sa  controverse  contre  les  donatistes  (qui  renouvelaient  sur 
+ce  point  la  doctrine  de  saint  Cyprien),  saint  Augustin  démontra, 
+cent  cinquante  ans  après,  que  cette  argumentation  était  insoutenable, 
+et  que  les  motifs  les  plus  forts  militaient  en  faveur  de  la  pratique 
+de  l'Eglise  défendue  par  Etienne.  La  démonstration  de  l'évéque 
+d'Hippone  est  aussi  simple  que  puissante  *.  Il  développa  ces  trois 
+considérations  : 
+
+a.  Les  pécheurs  sont  séparés  de  l'Eglise  spiritualiter  comme  les 
+hérétiques  le  sont  corporalitcr  ;  les  premiers  sont  aussi  réellement 
+hors  de  l'Église  que  les  seconds  ;  si  les  hérétiques  ne  pouvaient 
+baptiser  validement,  les  pécheurs  ne  le  pourraient  pas  davantage  : 
+et  ainsi  la  validité  du  sacrement  dépendrait  absolument  des  dispo- 
+sitions intérieures  du  ministre  ; 
+
+b.  Il  faut  distinguer  entre  la  grâce  du    baptême  et  Vacte  du  bap- 
+tême \  le  ministre  agit,  mais    c'est  Dieu  qui    confère  la  grâce,  et  il    i  i  i^- 
+peut  la  conférer  même  en  se  servant  d'un  ministre  indigne  ; 
+
+c.  L'hérétique  est  sans  aucun  doute  hors  de  l'Eglise  ;  mais  le 
+baptême  qu'il  confère  n'est  pas  son  baptême,  n'est  pas  le  baptême 
+d'un  autre,  c'est  le  baptême  du  Christ  qu'il  veut  conférer,  et  par 
+conséquent  il   v  a  un  vrai   baptême,  fût-il    même   conféré  hors  de 
+
+1.  S.  Cyprien,  £j9J5<.,  lxxi,lxxiii,  lxxiv,  P.  L.,  t.  in,  col.  1150  sq.,  1173  eq  ; 
+t.  IV,  col.   421  sq. 
+
+2.  Id.,  Epist.,  Lxx,  Lxxiii,  P.  L.,  t.  m,  col.  1073  sq.,  1158  sq. 
+
+3.  Id.,  Epist.,  LXXIV,  P.  L.,  t.  m,  col.  1173. 
+
+4.  S.  Augiislii),  De  baptismo  contra  Donatistns,  P.  L.,  I.  xnii,  col.  107-245. 
+Cf.  H.  Leclercq,  L'Afrique  chrétienne,  t.  i,  p.  211  ;  Malles,  Ahhandlung  ither 
+Ketzertaufe,  dans  Tûbing.  Quartals.,  1850,  t.  xxxii,  p.  24  sq.  ;  J.  Ernst,  Der 
+heil.  Augustin  ûber  die  Entscheidung  der  Ketzertauffrtige  durcit  ein  Plenar- 
+concil,  dans  Zcitschrift  fiir  kathol.  Théologie.  1900,  p.  282-325  ;  I.e  même,  Die 
+Ketzertaufangelegenheit  in  der  altchristlichen  Kirche  nach  Cyprian,  dans 
+Forschungen  zur  christlichen  Literatur  und  Dogtnengeschichte.  de  Ehrlmrd 
+el  Kirscli,  Mainz,  1901,  t.  ii,  fnsc.  4.  (H.  L.) 
+
+
+6.  SYNODES  RELATIFS  AU  BAPTEME  DES  HÉRÉTIQUES       191 
+
+l'Église  ;  en  quittant  l'Église,  les  hérétiques  en  ont  emporté  diver- 
+ses choses,  notamment  la  foi  en  Jésus-Christ  et  le  baptême.  Ce 
+sont  ces  éléments  encore  purs,  ces  fragments  de  vérité  (et  non  ce 
+qu'ils  ont  comme  hérétiques)  qui  leur  permettent  d'engendrer  par 
+le  baptême  des  enfants  de  Dieu  i. 
+
+Après  saint  Augustin,  saint  Thomas  d'Aquin,  saint  Bonaventure, 
+les  rédacteurs  du  catéchisme  romain  et  d'autres  ont  de  nouveau 
+étudié  la  question,  et  leurs  démonstrations  se  résument  ainsi  : 
+
+a.  Celui  qui  baptise  est  un  simple  instrument,  et  le  Christ  peut 
+se  servir  d'un  instrument  quelconque,  pourvu  que  celui-ci  fasse  ce 
+que  le  Christ  (l'Église)  veut  qu'il  fasse.  Cet  instrument  ne  fait  qu'exé- 
+cuter l'acte  du  baptême;  la.  grâce  du  baptême  vient  de  Dieu.  Aussi 
+tout  homme,  même  un  païen,  peut-il  conférer  le  baptême,  pourvu 
+qu'il  veuille  faire  ce  que  fait  l'Église  ;  cette  latitude  par  rapport 
+au  ministre  du  baptême  a  sa  raison  d'être  :  elle  est  fondée  sur  ce 
+que  le  baptême  est  nécessaire  de  nécessité  de  moyen  pour  être  sauvé. 
+
+,3.  Le  baptême  conféré  par  un  hérétique  sera  donc  valide,  s'il  a 
+été  administré  au  nom  du  Père,  du  Fils  et  du  Saint-Esprit,  et  avec 
+l'intention  de  faire  ce  que  fait  l'Eglise. 
+
+Y.  Celui  quia  été  ainsi  baptisé  vient-il,  après  un  long  séjour  dansl'hé- 
+résie,  à  reconnaître  son  égarement  et  sa  séparation  de  la  véritable 
+Église,  il  doit,  pour  être  admis  dans  cette  Église,  se  soumettre  à 
+une  pénitence,  recevoir  la  maniis  inipositio  ad  pienitentiam,  mais 
+il  n'est  pas  nécessaire  de  le  rebaptiser. 
+
+S.  Les  sacrements  sont  souvent  comparés  à  des  canaux  par  les- 
+quels la  grâce  vient  jusqu'à  nous.  Donc  lorsque  quelqu'un  est  bap- 
+tisé dans  une  secte  hérétique,  mais  est  baptisé  selon  les  règles,  le 
+)oi  canal  de  la  grâce  est  véritablement  établi  en  lui,  et  il  reçoit  par  ce 
+canal  non  seulement  la  remissio  peccatorum,  mais  encore  sanctifi- 
+catio  et  renovatio  interioris  hominis,  c'est-à-dire  qu'il  reçoit  la  grâce 
+du  baptême. 
+
+1.  Mattes,  op.  cit.,  p.  30-45,  expose  dans  le  détail  l'argumentation  de  saint 
+Augustin.  [L'étude  récente  de  Schanz  supplée  amplement  à  celle  de  Mattes  ; 
+Schanz,  Die  Lehre  der  heil.  Augustinus  ûher  das  Sakrament  der  Busse,  dans 
+Theolog.  Qiiartalschr.,  1895,  t.  lxxvii,  3«  fascicule,  (H.  L.)] 
+
+
+192  LlVRi;    I,     CIIAPIinE    II 
+

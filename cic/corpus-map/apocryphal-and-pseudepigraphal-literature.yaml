@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: apocryphal-and-pseudepigraphal-literature
 works:
-- work: Acts and Martyrdom of the Holy Apostle Andrew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-and-martyrdom-of-the-holy-apostle-andrew
+  work: Acts and Martyrdom of the Holy Apostle Andrew
   author: acts-of-andrew
   locus: div2 7.29
   role: tradition
@@ -13,7 +14,8 @@ works:
     that class and names what the TEXT is; pahc is kept where the subject matter is genuinely
     apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of Andrew and Matthias
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-andrew-and-matthias
+  work: Acts of Andrew and Matthias
   author: acts-of-andrew-and-matthias
   locus: div2 7.30
   role: tradition
@@ -23,7 +25,8 @@ works:
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Acts of Barnabas
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-acts-of-barnabas
+  work: The Acts of Barnabas
   author: acts-of-barnabas
   locus: div2 7.27
   role: tradition
@@ -35,7 +38,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of the Holy Apostle and Evangelist John the Theologian
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostle-and-evangelist-john-the-theologian
+  work: Acts of the Holy Apostle and Evangelist John the Theologian
   author: acts-of-john-the-theologian
   locus: div2 7.37
   role: tradition
@@ -45,7 +49,8 @@ works:
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts and Martyrdom of St. Matthew the Apostle
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-and-martyrdom-of-st-matthew-the-apostle
+  work: Acts and Martyrdom of St. Matthew the Apostle
   author: acts-of-matthew
   locus: div2 7.32
   role: tradition
@@ -57,7 +62,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of Peter and Andrew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-peter-and-andrew
+  work: Acts of Peter and Andrew
   author: acts-of-peter-and-andrew
   locus: div2 7.31
   role: tradition
@@ -66,7 +72,8 @@ works:
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts of the Holy Apostles Peter and Paul
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--acts-of-the-holy-apostles-peter-and-paul
+  work: Acts of the Holy Apostles Peter and Paul
   author: acts-of-peter-and-paul
   locus: div2 7.25
   role: tradition
@@ -76,7 +83,8 @@ works:
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Acts of Philip
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-acts-of-philip
+  work: The Acts of Philip
   author: acts-of-philip
   locus: div2 7.28
   role: tradition
@@ -86,7 +94,8 @@ works:
     apocryphal-and-pseudepigraphal-literature holds that class and names what the TEXT is;
     pahc is kept where the subject matter is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Acts of Xanthippe and Polyxena
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-acts-of-xanthippe-and-polyxena
+  work: The Acts of Xanthippe and Polyxena
   author: acts-of-xanthippe-and-polyxena
   locus: div2 10.2
   role: tradition
@@ -97,7 +106,8 @@ works:
     pahc; pahc is kept where the subject matter is genuinely apostolic-era, and this entry
     names what the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: Revelation of Paul
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-paul
+  work: Revelation of Paul
   author: apocalypse-of-paul
   locus: div2 7.40
   role: tradition
@@ -108,7 +118,8 @@ works:
     an alexandria placement would only have been a provenance-and-era guess (desert-monasticism
     arguably next-best given its monastic circulation), so it is not used here.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Vision of Paul
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-vision-of-paul
+  work: The Vision of Paul
   author: apocalypse-of-paul
   locus: div2 6.2
   role: tradition
@@ -119,7 +130,8 @@ works:
     is arguably next-best given its monastic circulation. apocryphal-and-pseudepigraphal-literature
     holds exactly this class; alexandria was only ever a provenance guess.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apocalypse of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-peter
+  work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
   role: tradition
@@ -131,7 +143,8 @@ works:
     is kept where the subject matter is genuinely apostolic-era, and this entry names what
     the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apocalypse of Sedrach
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-sedrach
+  work: The Apocalypse of Sedrach
   author: apocalypse-of-sedrach
   locus: div2 8.2
   role: tradition
@@ -143,7 +156,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apocalypse of the Virgin
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-the-virgin
+  work: The Apocalypse of the Virgin
   author: apocalypse-of-the-virgin
   locus: div2 7.2
   role: tradition
@@ -156,7 +170,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Apostolical Canons
+- row_id: npnf214_seven-ecumenical-councils--the-apostolical-canons
+  work: The Apostolical Canons
   author: apostolic-canons
   locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
   role: tradition
@@ -169,7 +184,8 @@ works:
     is added alongside for the pseudo-apostolic character. ijc is kept - these functioned
     as church law in the imperial-era East, which is what this entry is.
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Arabic Gospel of the Infancy of the Saviour
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-arabic-gospel-of-the-infancy-of-the-saviour
+  work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   role: tradition
@@ -181,7 +197,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
+- row_id: anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on
+  work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian
   locus: div2 4.7 - four pieces, assigned as one body
@@ -201,7 +218,8 @@ works:
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Book of John Concerning the Falling Asleep of Mary
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-book-of-john-concerning-the-falling-asleep-of-mary
+  work: The Book of John Concerning the Falling Asleep of Mary
   author: falling-asleep-of-mary
   locus: div2 7.42
   role: tradition
@@ -213,7 +231,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Gospel of the Nativity of Mary
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-the-nativity-of-mary
+  work: The Gospel of the Nativity of Mary
   author: gospel-of-nativity-of-mary
   locus: div2 7.6
   role: tradition
@@ -225,7 +244,8 @@ works:
     date its own note calls a guess spanning centuries. An era guess is not a placement; the
     class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-nicodemus-acts-of-pilate-and-descent-into-hell
+  work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
   author: gospel-of-nicodemus
   locus: div2 7.12-7.17
   role: tradition
@@ -236,7 +256,8 @@ works:
     argument. apocryphal-and-pseudepigraphal-literature holds this class, since the work is
     popular piety rather than imperial-juridical argument.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Gospel of Peter
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-gospel-of-peter
+  work: The Gospel of Peter
   author: gospel-of-peter
   locus: div2 3.2 (Akhmim fragment)
   role: tradition
@@ -248,7 +269,8 @@ works:
     alongside pahc; pahc is kept where the subject matter is genuinely apostolic-era, and
     this entry names what the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Gospel of Pseudo-Matthew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-gospel-of-pseudo-matthew
+  work: The Gospel of Pseudo-Matthew
   author: gospel-of-pseudo-matthew
   locus: div2 7.5
   role: tradition
@@ -260,7 +282,8 @@ works:
     - the entry it sat in was whichever era bucket happened to be nearest, on a date its own
     note calls a guess spanning centuries. An era guess is not a placement; the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--dubious-or-spurious-writings-of-gregory-thaumaturgus
+  work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
     On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
     On All the Saints; On the Gospel According to Matthew)
   author: gregory_thau
@@ -282,7 +305,8 @@ works:
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors in a future pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--appendix-to-the-works-of-hippolytus-dubious-and-spurious
+  work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
   author: hippolytus
   locus: div2 3.5 - incl. discourse on the end of the world, lists of the Twelve and Seventy
     Apostles, canons ascribed to Hippolytus
@@ -302,7 +326,8 @@ works:
     anything. The spurious corpora could instead be detached from their attributed authors
     in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The History of Joseph the Carpenter
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter
+  work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   role: tradition
@@ -315,7 +340,8 @@ works:
     date its own note calls a guess spanning centuries. An era guess is not a placement; the
     class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Infancy Gospel of Thomas (three forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-infancy-gospel-of-thomas-three-forms
+  work: The Infancy Gospel of Thomas (three forms)
   author: infancy-gospel-of-thomas
   locus: div2 7.8-7.10
   role: tradition
@@ -325,7 +351,8 @@ works:
     holds that class and names what the TEXT is; pahc is kept where the subject matter is
     genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Narrative of Events Happening in Persia on the Birth of Christ
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--narrative-of-events-happening-in-persia-on-the-birth-of
+  work: Narrative of Events Happening in Persia on the Birth of Christ
   author: juliusafricanus
   locus: div2 5.4
   role: tradition
@@ -343,7 +370,8 @@ works:
     without re-attributing anything. The spurious corpora could instead be detached from their
     attributed authors.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Martyrdom of the Holy and Glorious Apostle Bartholomew
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--martyrdom-of-the-holy-and-glorious-apostle-bartholomew
+  work: Martyrdom of the Holy and Glorious Apostle Bartholomew
   author: martyrdom-of-bartholomew
   locus: div2 7.35
   role: tradition
@@ -354,7 +382,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Oration Concerning Simeon and Anna
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-concerning-simeon-and-anna
+  work: Oration Concerning Simeon and Anna
   author: methodius
   locus: div2 11.8
   role: tradition
@@ -375,7 +404,8 @@ works:
     The spurious corpora could instead be detached from their attributed authors in a future
     pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Oration on the Palms
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--oration-on-the-palms
+  work: Oration on the Palms
   author: methodius
   locus: div2 11.9
   role: tradition
@@ -395,7 +425,8 @@ works:
     The spurious corpora could instead be detached from their attributed authors in a future
     pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Narrative of Zosimus
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-narrative-of-zosimus
+  work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2
   role: tradition
@@ -406,7 +437,8 @@ works:
     is kept where the subject matter is genuinely apostolic-era, and this entry names what
     the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Passing of Mary (two Latin forms)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-passing-of-mary-two-latin-forms
+  work: The Passing of Mary (two Latin forms)
   author: passing-of-mary
   locus: div2 7.43-7.44
   role: tradition
@@ -418,7 +450,8 @@ works:
     date its own note calls a guess spanning centuries. An era guess is not a placement; the
     class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Pilate Cycle (letters, reports and legends of Pilate)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-pilate-cycle-letters-reports-and-legends-of-pilate
+  work: The Pilate Cycle (letters, reports and legends of Pilate)
   author: pilate-cycle
   locus: div2 7.18-7.24
   role: tradition
@@ -429,7 +462,8 @@ works:
     same class and the same doubt as the Gospel of Nicodemus they travel with. apocryphal-and-pseudepigraphal-literature
     holds this class, since these are popular piety rather than imperial-juridical argument.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Protevangelium of James
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-protevangelium-of-james
+  work: The Protevangelium of James
   author: protevangelium-of-james
   locus: div2 7.4
   role: tradition
@@ -440,7 +474,8 @@ works:
     and applying throughout. apocryphal-and-pseudepigraphal-literature holds that class and
     names what the TEXT is; pahc is kept where the subject matter is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Spurious Epistles of Ignatius
+- row_id: anf01_apostolic-fathers-justin-irenaeus--spurious-epistles-of-ignatius
+  work: Spurious Epistles of Ignatius
   author: pseudo_ignatius
   locus: div2 5.14-5.23 under div1 'IGNATIUS'
   role: tradition
@@ -450,7 +485,8 @@ works:
     case exactly - a 4th-century forgery in a first-century figure's name - and apocryphal-and-pseudepigraphal-literature
     holds that class. pahc is kept because the figure they impersonate is its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Against All Heresies (spurious appendix)
+- row_id: anf03_tertullian--against-all-heresies-spurious-appendix-2
+  work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian
   locus: div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)
   role: tradition
@@ -469,7 +505,8 @@ works:
     without re-attributing anything. Detaching the spurious corpora from their attributed
     authors instead is a possible alternative shelving choice.'
   source_file: anf03_tertullian.xml
-- work: Revelation of Esdras
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-esdras
+  work: Revelation of Esdras
   author: revelation-of-esdras
   locus: div2 7.39
   role: tradition
@@ -481,7 +518,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Revelation of John (apocryphal)
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-john-apocryphal
+  work: Revelation of John (apocryphal)
   author: revelation-of-john
   locus: div2 7.41
   role: tradition
@@ -493,7 +531,8 @@ works:
     on a date its own note calls a guess spanning centuries. An era guess is not a placement;
     the class is.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Revelation of Moses
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--revelation-of-moses
+  work: Revelation of Moses
   author: revelation-of-moses
   locus: div2 7.38
   role: tradition
@@ -504,7 +543,8 @@ works:
     transmission milieu' only. apocryphal-and-pseudepigraphal-literature holds that class
     and names what the TEXT is; pahc is kept where the subject matter is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Doubtful Letters of Sulpitius Severus
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus
+  work: The Doubtful Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.5 — The Doubtful Letters
   role: tradition
@@ -524,7 +564,8 @@ works:
     without re-attributing anything. This can be reversed in one pass if the spurious corpora
     should instead be detached from their attributed authors.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
+- row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--appendix-of-poems-ascribed-to-tertullian-strains-of-jonah
+  work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
     Five Books in Reply to Marcion)
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
@@ -544,7 +585,8 @@ works:
     without re-attributing anything. This can be reversed in one pass if the spurious corpora
     should be detached from their attributed authors instead.'
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: The Testament of Abraham
+- row_id: anf09_gospel-of-peter-diatessaron-origen-commentaries--the-testament-of-abraham
+  work: The Testament of Abraham
   author: testament-of-abraham
   locus: div2 9.3
   role: tradition
@@ -554,7 +596,8 @@ works:
     of the Twelve Patriarchs); alexandria is a provenance guess only. apocryphal-and-pseudepigraphal-literature
     holds exactly this class.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
-- work: The Testaments of the Twelve Patriarchs
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-testaments-of-the-twelve-patriarchs
+  work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)
   role: tradition
@@ -565,7 +608,8 @@ works:
     holds that class and names what the TEXT is, and pahc is kept where the subject matter
     is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Two Epistles Concerning Virginity
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--two-epistles-concerning-virginity
+  work: Two Epistles Concerning Virginity
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4
   role: tradition

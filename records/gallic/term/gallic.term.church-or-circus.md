@@ -105,8 +105,8 @@ quick_meaning: >-
   and how often it lost.
 distortion_risk: medium
 ---
-New term, authored 2026-09-14, not part of the original 81-term Doc_06 lexicon batch. Built directly
-from a fresh read of Gov. VI.5-7, alongside gallic.term.bagaudae and gallic.story.circuses-amid-the-
+This term is not part of the original 81-term Doc_06 lexicon batch. Built directly
+from a direct read of Gov. VI.5-7, alongside gallic.term.bagaudae and gallic.story.circuses-amid-the-
 ruins, in response to the same Doc_05 §10A finding and the same project-lead instruction those two
 records name. Kept distinct from gallic.term.lukewarmness by audience and register (a monk's interior
 cooling vs. a layperson's public behavior) rather than folded into it, since the two terms answer

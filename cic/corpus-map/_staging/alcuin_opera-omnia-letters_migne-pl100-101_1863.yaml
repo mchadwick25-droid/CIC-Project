@@ -1,7 +1,8 @@
 source_file: alcuin_opera-omnia-letters_migne-pl100-101_1863.txt
 
 assignments:
-  - work: "Alcuini Opera Omnia (letters)"
+  - row_id: alcuin_opera-omnia-letters_migne-pl100-101_1863--alcuini-opera-omnia-letters
+    work: "Alcuini Opera Omnia (letters)"
     author: alcuin
     locus: "whole file - see the file's own header for the letter-numbering caveat"
     atlas_ids:

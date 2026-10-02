@@ -45,6 +45,13 @@ WORKDIR /frontend
 COPY cic-poc/frontend/package.json cic-poc/frontend/package-lock.json ./
 RUN npm ci
 COPY cic-poc/frontend/ ./
+# Render injects a service's own env vars as build args of the same name -
+# this ARG is how VITE_READ_ALOUD (unset by default, so every existing
+# deploy is unaffected) reaches `npm run build`'s Vite process; ARG alone
+# isn't visible to a RUN step's own environment, so it's forwarded to ENV
+# first. cic-poc/frontend/.env.example has the full flag rationale.
+ARG VITE_READ_ALOUD
+ENV VITE_READ_ALOUD=$VITE_READ_ALOUD
 RUN npm run build
 
 FROM python:3.11-slim

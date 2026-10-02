@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: merovingian-gallic-christianity
 works:
-- work: Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)
+- row_id: caesarius-arles_sermons-pseudo-augustinian_migne-pl39--sermones-pseudo-augustinian-attributed-to-caesarius-of-arles
+  work: Sermones (Pseudo-Augustinian, attributed to Caesarius of Arles)
   author: caesarius-arles
   locus: Sermo XIII, Sermo LXXIV confirmed by header; Sermo L-LIX range confirmed as a block
   role: tradition
@@ -15,7 +16,8 @@ works:
 
     '
   source_file: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
-- work: Gennadius, Lives of Illustrious Men (continuation)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation
+  work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   role: tradition
@@ -27,7 +29,8 @@ works:
     kept as context: the direct continuation of Jerome''s literary project, not membership
     of his circle.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+- row_id: npnf212_leo-great-gregory-great--register-of-the-epistles-of-st-gregory-the-great-books-i-2
+  work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: context
@@ -41,7 +44,8 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+- row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix-2
+  work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
   author: gregory
   locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books
     I-VIII)
@@ -56,7 +60,8 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
-- work: The History of the Franks, Volume II
+- row_id: gregory-tours_history-of-the-franks-v2_dalton1927--the-history-of-the-franks-volume-ii
+  work: The History of the Franks, Volume II
   author: gregory-tours
   locus: whole file (Books VI-X plus Dalton's translator's notes)
   role: tradition
@@ -71,7 +76,8 @@ works:
 
     '
   source_file: gregory-tours_history-of-the-franks-v2_dalton1927.txt
-- work: On Easter (De Pascha)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
+  work: On Easter (De Pascha)
   author: venantius
   locus: div1 4 — Venantius
   role: tradition

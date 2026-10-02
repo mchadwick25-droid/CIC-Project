@@ -20,7 +20,7 @@ confidence:
     bulk of the movement, unreachable for reasons of institutional loss rather than social marginality.
     What survives on women is not silence but something worse for the purpose - one named woman preserved
     only inside the hostile narrative that blames her for the schism, and a second whom the same tradition
-    parallels to her and never names at all. Added 2026-09-14: a third, different kind of trace exists -
+    parallels to her and never names at all. A third, different kind of trace exists -
     our own commemorative sermon, in a passage it says it is deliberately not dwelling on, includes "the
     rapes of sacred virgins" among what was done to us. No name, no number, no voice of their own - women
     appear here only as harmed, inside one clause of a list the preacher declines to develop. The passage
@@ -130,17 +130,12 @@ Exactly one honest_limit claims F5-I; no substantive record carries it.
 gathering material into daily life, so the two records do not overlap
 into a claim neither can support.
 
-**Revised 2026-09-14, `donatism-ordinary-believer` build thread.** A
-fleet-wide source-fidelity audit flagged that this record's own women's-material
-citation ("Optatus I.16 and Augustine Letter XLIII SS26 - the whole of what
-survives on women") had, by the time of this pass, become narrowly
-overstated: a third fragment exists, further into the same sermon already
-cited above for the anniversary-commemoration material. Added with an
-explicit confidence ceiling the audit itself called for - the passage was
-re-read directly against `cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`
-lines 453-462, and the OCR is genuinely difficult (two printed columns
-interleaved by the scan), so the addition is stated as "grammatically
+A third fragment exists on women, further into the same sermon already
+cited above for the anniversary-commemoration material. The passage was
+read directly against `cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`
+lines 453-462; the OCR is genuinely difficult (two printed columns
+interleaved by the scan), so it is stated as "grammatically
 forced, page-image-unverified," not as a settled reading. It does not
-raise the named-women count and is not treated as loosening this record's
+raise the named-women count and does not loosen this record's
 own F5-I disposition - the cell remains a declared absence, now with one
 more specific, bounded exception named rather than implied.

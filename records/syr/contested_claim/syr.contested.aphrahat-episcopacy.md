@@ -35,8 +35,6 @@ concedes: 'Demonstration 14 is real: someone whose community received his teachi
   world''s records never resolve it - any statement of his office beyond ''unknown'' outruns the evidence.'
 divergence_partners: []
 ---
-Carried from Doc_01 SS6 (the Round 2/3 correction history: 'Mar
-Aqiba' removed; the clean non-episcopal contrast found unsupportable)
-and Doc_02 SS11's finding on the thin citation web. Standing
-instruction from Doc_01 SS10: every later record treats this as open,
-never settled either way - enforced here as a first-class record.
+This claim rests on a thin citation web (see `held_against` above).
+Every later record treats it as genuinely open, never settled either
+way.

@@ -3,32 +3,34 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-anabaptist-movements
 works:
-- work: 'Ausbund, das ist: etliche schoene christliche Lieder'
+- row_id: ausbund_lancaster1846-deu--ausbund-das-ist-etliche-schoene-christliche-lieder
+  work: 'Ausbund, das ist: etliche schoene christliche Lieder'
   author: ausbund
   locus: whole volume
   role: tradition
   confidence: assigned
   note: 'The movement''s own hymnal, an 1846 Lancaster PA printing, still in liturgical use
-    among the Amish. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass. Flagged under Mark''s OCR ruling "a" (2026-09-25, worlds/_cross-world/LIBRARY-DECISION-LOG.md)
-    as a garbled scan - stays second witness for scan-quality reasons, not language, until
-    a cleaner edition is vendored.
+    among the Amish. Per the Library''s scan-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this is a garbled scan - stays second witness for scan-quality reasons, not language,
+    until a cleaner edition is vendored.
 
     '
   source_file: ausbund_lancaster1846-deu.txt
-- work: 'Enchiridion, or Hand Book: A Hand Book of the Christian Doctrine and Religion'
+- row_id: dirk-philips_enchiridion_kolb1910--enchiridion-or-hand-book-a-hand-book-of-the-christian
+  work: 'Enchiridion, or Hand Book: A Hand Book of the Christian Doctrine and Religion'
   author: dirk-philips
   locus: whole text
   role: tradition
   confidence: assigned
   note: 'Dirk Philips''s own doctrinal handbook, trans. A.B. Kolb (1910) - the Dutch Anabaptist
-    wing''s third primary pillar alongside Menno Simons and the Martyrs Mirror. Vendored 2026-09-24
-    as part of a pre-Doc_02 source-acquisition pass for this candidate. OCR quality caveat:
-    see this file''s own header - front matter is severely garbled, body clean on spot-check.
+    wing''s third primary pillar alongside Menno Simons and the Martyrs Mirror. OCR quality
+    caveat: see this file''s own header - front matter is severely garbled, body clean on
+    spot-check.
 
     '
   source_file: dirk-philips_enchiridion_kolb1910.txt
-- work: Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone
+- row_id: dordrecht-confession_ministers-manual_elkhart1890--confession-of-faith-and-minister-s-manual-dordrecht
+  work: Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone
     edition)
   author: dordrecht-confession
   locus: whole volume
@@ -37,46 +39,43 @@ works:
   note: 'A standalone 1890 English publication of the Dordrecht Confession (1632) with the
     movement''s own catechism and sacramental forms - distinct from and independent of the
     Confession''s reproduction inside the already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm1886.txt).
-    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
 
     '
   source_file: dordrecht-confession_ministers-manual_elkhart1890.txt
-- work: Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)
+- row_id: hutterite-brethren_geschichtbuch_wolkan1923-deu--geschicht-buch-der-hutterischen-brueder-chronicle-of-the
+  work: Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)
   author: hutterite-brethren
   locus: whole text, 1517-1665
   role: tradition
   confidence: assigned
-  note: 'The Hutterite Brethren''s own communal chronicle, German original (ed. Wolkan, 1923)
-    - Correction (2026-09-25): this note previously called the file PRIMARY content on the
-    grounds that no PD English translation exists. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
-    an original''s language no longer decides this - scan quality does, and this scan is flagged
-    under Mark''s OCR ruling "a" as garbled. It stays second witness for that reason until
-    a cleaner edition is vendored, not because it lacks an English translation and not because
-    it''s German.
+  note: 'The Hutterite Brethren''s own communal chronicle, German original (ed. Wolkan, 1923).
+    This scan is flagged as garbled under the Library''s own OCR-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md).
+    It stays second witness for that reason until a cleaner edition is vendored, not because
+    it lacks an English translation and not because it''s German.
 
     '
   source_file: hutterite-brethren_geschichtbuch_wolkan1923-deu.txt
-- work: The Complete Works of Menno Simon(s)
+- row_id: menno-simons_complete-works_funk1871--the-complete-works-of-menno-simon-s
+  work: The Complete Works of Menno Simon(s)
   author: menno-simons
   locus: whole text, 2 volumes in 1
   role: tradition
   confidence: assigned
   note: 'Menno Simons''s own collected writings, trans. John F. Funk (1871) - the central
-    primary voice of the Dutch Anabaptist wing. Vendored 2026-09-24 as part of a pre-Doc_02
-    source-acquisition pass for this candidate. Not yet split into individual constituent
+    primary voice of the Dutch Anabaptist wing. Not yet split into individual constituent
     treatises; assigned as one body per the corpus''s own large-volume granularity rule.
 
     '
   source_file: menno-simons_complete-works_funk1871.txt
-- work: The Schleitheim Confession (1527)
+- row_id: mcglothlin_baptist-confessions-of-faith_1911--the-schleitheim-confession-1527
+  work: The Schleitheim Confession (1527)
   author: swiss-brethren
   locus: pp. 3-9 of the printed volume
   role: tradition
   confidence: provisional
   note: 'The foundational Swiss Brethren confessional statement, in McGlothlin''s Baptist
-    Confessions of Faith (1911). Vendored 2026-09-24 as part of a pre-Doc_02 source-acquisition
-    pass for this candidate. Provisional: McGlothlin''s own text states this translation is
-    "a translation of his [Zwingli''s Latin] translation," not direct from the German original,
+    Confessions of Faith (1911). Provisional: McGlothlin''s own text states this translation
+    is "a translation of his [Zwingli''s Latin] translation," not direct from the German original,
     which survives only in archival manuscript - a real provenance gap worth a build thread''s
     own eyes rather than silently treated as equivalent to a direct German-English rendering.
     The rest of this same printed volume (confessions of other, non-Anabaptist Baptist bodies)
@@ -84,21 +83,22 @@ works:
 
     '
   source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
-- work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians
+- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless
+  work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians
   author: van-braght
   locus: whole text
   role: tradition
   confidence: assigned
   note: 'Thieleman J. van Braght''s 1660 martyrological compilation, trans. Joseph F. Sohm
     (1886 English edition) - embeds named primary documents including Michael Sattler''s trial
-    record and Anneken Jans''s prison testament. Vendored 2026-09-24 as part of a pre-Doc_02
-    source-acquisition pass for this candidate. Assigned as one body per the corpus''s own
+    record and Anneken Jans''s prison testament. Assigned as one body per the corpus''s own
     large-volume granularity rule; a future pass may want to split out the specific named
     martyr accounts as separate works once a build thread reaches this material.
 
     '
   source_file: van-braght_martyrs-mirror_sohm1886.txt
-- work: 'Balthasar Hubmaier: The Leader of the Anabaptists (incl. Appendix: full translation
+- row_id: vedder_balthasar-hubmaier_1905--balthasar-hubmaier-the-leader-of-the-anabaptists-incl
+  work: 'Balthasar Hubmaier: The Leader of the Anabaptists (incl. Appendix: full translation
     of Hubmaier''s ''On the Sword,'' 1527)'
   author: vedder
   locus: Appendix, pp. 273-322 (Hubmaier's own primary voice)
@@ -111,8 +111,7 @@ works:
     Corrects that prior closed verdict; reopens the Hubmaier sourcing gap partially. Compiler
     slug (vedder) used for the whole volume per this project''s own Boero/Faber precedent,
     since the volume is majority biography with the primary-voice appendix as a bounded, locatable
-    portion. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass.
+    portion.
 
     '
   source_file: vedder_balthasar-hubmaier_1905.txt

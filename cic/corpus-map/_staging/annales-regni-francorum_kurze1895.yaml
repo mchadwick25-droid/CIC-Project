@@ -12,7 +12,8 @@ authors_ruled:
     from_file: annales-regni-francorum_kurze1895.txt
 
 assignments:
-  - work: "Annales regni Francorum"
+  - row_id: annales-regni-francorum_kurze1895--annales-regni-francorum
+    work: "Annales regni Francorum"
     author: annales-regni-francorum
     locus: "a. 782"
     atlas_ids:

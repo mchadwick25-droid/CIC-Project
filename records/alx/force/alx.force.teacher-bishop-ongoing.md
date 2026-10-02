@@ -26,12 +26,7 @@ relations:
   target: alx.gravity.learning-community-tension
 name: The Teacher-Bishop / Learning-Community Tension as Ongoing Force [2B - ongoing/internal]
 kind: ongoing
-description: 'The continuously operative double tension - authority-from-wisdom vs authority-from-office,
-  and school-depth vs community-breadth - as a force shaping the ecology across the whole horizon, not
-  only in its acute episodes. In the world''s own experience: two things were true at once and could not
-  be made one - the teacher trusted because others saw that he saw, and the bishop holding the office
-  handed down; and beneath it, the knowing that the depth given the few was not how most of the community
-  was being formed.'
+description: 'This is the continuously operative double tension. One pole is authority-from-wisdom against authority-from-office. The other is school-depth against community-breadth. It shaped the ecology across the whole horizon, not only in its acute episodes. Two things were true at once and could not be made one. The teacher was trusted because others saw that he saw. The bishop held the office handed down. Beneath this lay a further knowing. The depth given to the few was not how most of the community was being formed.'
 manifestations:
 - the standing coexistence of school head and bishop across four generations
 - the two formation channels running in parallel (school; sacramental whole-community)

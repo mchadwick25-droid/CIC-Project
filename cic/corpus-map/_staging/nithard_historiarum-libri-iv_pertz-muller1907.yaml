@@ -1,7 +1,8 @@
 source_file: nithard_historiarum-libri-iv_pertz-muller1907.txt
 
 assignments:
-  - work: "Historiarum Libri IIII"
+  - row_id: nithard_historiarum-libri-iv_pertz-muller1907--historiarum-libri-iiii
+    work: "Historiarum Libri IIII"
     author: nithard
     locus: "whole file, esp. Books III and IV"
     atlas_ids:

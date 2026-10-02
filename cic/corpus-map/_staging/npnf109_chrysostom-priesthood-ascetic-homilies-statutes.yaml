@@ -13,7 +13,8 @@ authors_ruled:
 
       '
 assignments:
-- work: Treatise Concerning the Christian Priesthood (De Sacerdotio)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--treatise-concerning-the-christian-priesthood-de-sacerdotio
+  work: Treatise Concerning the Christian Priesthood (De Sacerdotio)
   author: chrysostom
   locus: div1 4 — Treatise Concerning the Christian Priesthood, Books I-VI
   atlas_ids:
@@ -25,7 +26,8 @@ assignments:
     to carry a second id; if one appears in a later era survey this work has a claim on it.
 
     '
-- work: An Exhortation to Theodore After His Fall
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--an-exhortation-to-theodore-after-his-fall
+  work: An Exhortation to Theodore After His Fall
   author: chrysostom
   locus: div1 5 — Letters I-II to Theodore
   atlas_ids:
@@ -38,7 +40,8 @@ assignments:
     Flagged rather than forced.
 
     '
-- work: Letter to a Young Widow
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letter-to-a-young-widow
+  work: Letter to a Young Widow
   author: chrysostom
   locus: div1 6 — Letter to a Young Widow
   atlas_ids:
@@ -49,7 +52,8 @@ assignments:
     to Theodore: an ascetic claim with no fitting second entry in the census.
 
     '
-- work: Eulogy on S. Ignatius
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--eulogy-on-s-ignatius
+  work: Eulogy on S. Ignatius
   author: chrysostom
   locus: div1 7, div2 7.3 — Eulogy (on S. Ignatius of Antioch)
   atlas_ids:
@@ -62,7 +66,8 @@ assignments:
     on the Vita Antonii pattern — this is 4th-century cult, not 2nd-century evidence.
 
     '
-- work: On the Holy Martyr, S. Babylas
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--on-the-holy-martyr-s-babylas
+  work: On the Holy Martyr, S. Babylas
   author: chrysostom
   locus: div1 7, div2 7.4 — On the Holy Martyr, S. Babylas
   atlas_ids:
@@ -73,14 +78,16 @@ assignments:
     in Chrysostom''s own voice.
 
     '
-- work: Homily Concerning Lowliness of Mind
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-concerning-lowliness-of-mind
+  work: Homily Concerning Lowliness of Mind
   author: chrysostom
   locus: div1 8 — Concerning Lowliness of Mind
   atlas_ids:
   - antiochene-exegetical-christianity-chrysostom-ce
   role: tradition
   confidence: assigned
-- work: Instructions to Catechumens
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--instructions-to-catechumens
+  work: Instructions to Catechumens
   author: chrysostom
   locus: div1 9 — First and Second Instruction
   atlas_ids:
@@ -91,14 +98,16 @@ assignments:
     of the Alexandrian catechetical tradition; stays home.
 
     '
-- work: Three Homilies Concerning the Power of Demons
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--three-homilies-concerning-the-power-of-demons
+  work: Three Homilies Concerning the Power of Demons
   author: chrysostom
   locus: div1 10 — Homilies I-III
   atlas_ids:
   - antiochene-exegetical-christianity-chrysostom-ce
   role: tradition
   confidence: assigned
-- work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-against-marcionists-and-manichaeans-on-matt-xxvi-19
+  work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
   author: chrysostom
   locus: div1 11 — Against Marcionists and Manichaeans
   atlas_ids:
@@ -110,7 +119,8 @@ assignments:
     to the entry it opposes.
 
     '
-- work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-against-marcionists-and-manichaeans-on-matt-xxvi-19-2
+  work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
   author: chrysostom
   locus: div1 11 — Against Marcionists and Manichaeans
   atlas_ids:
@@ -125,7 +135,8 @@ assignments:
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
-- work: Homily on the Paralytic Let Down Through the Roof
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-on-the-paralytic-let-down-through-the-roof
+  work: Homily on the Paralytic Let Down Through the Roof
   author: chrysostom
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
     and the Son'
@@ -138,7 +149,8 @@ assignments:
     note at xii, and index entry ''Anomoeans, heresy of''). The Anomoeans/Eunomians are not
     strictly Homoians. anomoean-eunomian-christianity is now on the census for exactly the
     party the volume''s own index calls ''Anomoeans, heresy of'', and is the second id here.'
-- work: Homily on the Paralytic Let Down Through the Roof
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-on-the-paralytic-let-down-through-the-roof-2
+  work: Homily on the Paralytic Let Down Through the Roof
   author: chrysostom
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
     and the Son'
@@ -156,21 +168,24 @@ assignments:
     floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor Question)
     is on the census, so anti-Eunomian material names the party it actually argues with rather
     than the Homoian wing it split from in 360.'
-- work: Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-to-those-who-had-not-attended-the-assembly-on-rom-xii
+  work: Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)
   author: chrysostom
   locus: div1 13 — To Those Who Had Not Attended the Assembly
   atlas_ids:
   - antiochene-exegetical-christianity-chrysostom-ce
   role: tradition
   confidence: assigned
-- work: Homily Against Publishing the Errors of the Brethren
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-against-publishing-the-errors-of-the-brethren
+  work: Homily Against Publishing the Errors of the Brethren
   author: chrysostom
   locus: div1 14 — Against Publishing the Errors of the Brethren
   atlas_ids:
   - antiochene-exegetical-christianity-chrysostom-ce
   role: tradition
   confidence: assigned
-- work: Two Homilies on Eutropius
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--two-homilies-on-eutropius
+  work: Two Homilies on Eutropius
   author: chrysostom
   locus: div1 15 — Homilies I-II on Eutropius
   atlas_ids:
@@ -185,7 +200,8 @@ assignments:
     his episcopate''s church-state material lands.
 
     '
-- work: A Treatise to Prove that No One Can Harm the Man Who Does Not Injure Himself
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--a-treatise-to-prove-that-no-one-can-harm-the-man-who-does
+  work: A Treatise to Prove that No One Can Harm the Man Who Does Not Injure Himself
   author: chrysostom
   locus: div1 16 — A Treatise to Prove that No One Can Harm...
   atlas_ids:
@@ -196,7 +212,8 @@ assignments:
     its matter is moral consolation, not church-state.
 
     '
-- work: Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-olympias-with-letter-to-the
+  work: Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)
   author: chrysostom
   locus: div1 17 — Letters to Olympias (div2 17.3-17.7) and to Castus, Valerius, Diophantus,
     Cyriacus, Presbyters of Antioch (17.8)
@@ -211,7 +228,8 @@ assignments:
     granularity rule.
 
     '
-- work: Letters of St. Chrysostom to Innocent, Bishop of Rome
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-innocent-bishop-of-rome
+  work: Letters of St. Chrysostom to Innocent, Bishop of Rome
   author: chrysostom
   locus: div1 18, div2 18.3-18.4 — Chrysostom's two letters to Innocent
   atlas_ids:
@@ -223,7 +241,8 @@ assignments:
     material; second id as with the Olympias letters.
 
     '
-- work: Letters of Innocent of Rome concerning Chrysostom
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-innocent-of-rome-concerning-chrysostom
+  work: Letters of Innocent of Rome concerning Chrysostom
   author: innocent_rome
   locus: div1 18, div2 18.5-18.6 — Innocent to John; Innocent to the clergy and people of
     Constantinople
@@ -239,7 +258,8 @@ assignments:
     two authors is this worker''s ruling.
 
     '
-- work: The Homilies on the Statues to the People of Antioch
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--the-homilies-on-the-statues-to-the-people-of-antioch
+  work: The Homilies on the Statues to the People of Antioch
   author: chrysostom
   locus: div1 19 — Homilies I-XXI, one series preached at Antioch after the riot of 387; assigned
     as one work

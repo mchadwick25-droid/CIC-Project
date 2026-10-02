@@ -105,15 +105,12 @@ thin_topics:
 - keywords: [Jewish, Judaism, synagogue, rabbis]
   note: the Jewish side of Aphrahat's polemical exchange is unrecorded; the record is entirely one-sided
 ---
-Draft world_core for the record-native rebuild of World #7, derived from the
-approved legacy build: Doc_01 (approved to proceed by Mark, 2026-07-08, three
-review rounds - temporal window 200-410, three-part geography, strand-singular
-determination, Bardaisan Named-Comparandum ruling) and Doc_02 (approved
-2026-07-08, two rounds; thinness/missing-voices findings in its SS7). The
-post-approval corrections are honored: School of Nisibis founded c. 489-496
-(GEDSH, via Doc_03 SS3.1 - not 350), the Ephrem malpana/choir-organizing
-overclaim removed (Doc_02 revision log, 2026-07-08), Jacob of Nisibis's death
-year left open (338 vs 350).
+world_core for the record-native rebuild of World #7: temporal window 200-410,
+three-part geography, strand-singular determination, Bardaisan named as a
+comparandum rather than a founding voice; thinness/missing-voices findings
+carried in `thin_topics`. The School of Nisibis is dated c. 489-496 (GEDSH -
+not 350), the Ephrem malpana/choir-organizing overclaim is removed, and
+Jacob of Nisibis's death year is left open (338 vs 350).
 
 Strand determination (Doc_01 SS6): strand-singular, resting on solidly
 evidenced continuity of formation emphasis, practice, Diatessaron scriptural

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: pelagianism
 works:
-- work: Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)
+- row_id: npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas
+  work: Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)
   author: augustine
   locus: div1 18 — A Treatise Against Two Letters of the Pelagians (4 books)
   role: tradition
@@ -14,7 +15,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: 'Letters of St. Augustin: the Pelagian correspondence'
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-pelagian-correspondence
+  work: 'Letters of St. Augustin: the Pelagian correspondence'
   author: augustine
   locus: div3 letters CXLVI, CXCI (2 letters, ~1,182 words)
   role: context
@@ -33,7 +35,8 @@ works:
     is in npnf105, which is where the anti-Pelagian treatises are and where pelagianism draws
     15 works from. Recorded because an absence someone expected is worth as much as a presence.'
   source_file: npnf101_augustine-confessions-letters.xml
-- work: On Grace and Free Will (De gratia et libero arbitrio)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-grace-and-free-will-de-gratia-et-libero-arbitrio
+  work: On Grace and Free Will (De gratia et libero arbitrio)
   author: augustine
   locus: div1 19 — A Treatise on Grace and Free Will
   role: tradition
@@ -44,7 +47,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Man's Perfection in Righteousness (De perfectione justitiae hominis)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-man-s-perfection-in-righteousness-de-perfectione
+  work: On Man's Perfection in Righteousness (De perfectione justitiae hominis)
   author: augustine
   locus: div1 13 — A Treatise Concerning Man's Perfection in Righteousness
   role: tradition
@@ -54,7 +58,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Marriage and Concupiscence (De nuptiis et concupiscentia)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-marriage-and-concupiscence-de-nuptiis-et-concupiscentia
+  work: On Marriage and Concupiscence (De nuptiis et concupiscentia)
   author: augustine
   locus: div1 16 — On Marriage and Concupiscence (2 books)
   role: tradition
@@ -64,7 +69,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Nature and Grace (De natura et gratia)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-nature-and-grace-de-natura-et-gratia
+  work: On Nature and Grace (De natura et gratia)
   author: augustine
   locus: div1 12 — A Treatise on Nature and Grace
   role: tradition
@@ -74,7 +80,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On Rebuke and Grace (De correptione et gratia)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia
+  work: On Rebuke and Grace (De correptione et gratia)
   author: augustine
   locus: div1 20 — A Treatise on Rebuke and Grace
   role: tradition
@@ -94,7 +101,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Gift of Perseverance (De dono perseverantiae)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae
+  work: On the Gift of Perseverance (De dono perseverantiae)
   author: augustine
   locus: div1 21, div2 type=Book 'A Treatise on the Gift of Perseverance' (structure path
     21.3)
@@ -108,7 +116,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-grace-of-christ-and-on-original-sin-de-gratia-christi
+  work: On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)
   author: augustine
   locus: 'div1 15 — A Treatise on the Grace of Christ, and on Original Sin (two books: On
     the Grace of Christ; On Original Sin)'
@@ -119,7 +128,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-merits-and-forgiveness-of-sins-and-on-the-baptism-of
+  work: On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum
     meritis et remissione)
   author: augustine
   locus: div1 10 — A Treatise on the Merits and Forgiveness of Sins, and on the Baptism of
@@ -132,7 +142,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Predestination of the Saints (De praedestinatione sanctorum)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione
+  work: On the Predestination of the Saints (De praedestinatione sanctorum)
   author: augustine
   locus: div1 21, Book I (structure path 21.2) — under the volume heading 'A Treatise on the
     Predestination of the Saints'
@@ -150,7 +161,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Proceedings of Pelagius (De gestis Pelagii)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-proceedings-of-pelagius-de-gestis-pelagii
+  work: On the Proceedings of Pelagius (De gestis Pelagii)
   author: augustine
   locus: div1 14 — A Work on the Proceedings of Pelagius
   role: tradition
@@ -161,7 +173,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Soul and its Origin (De anima et ejus origine)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-soul-and-its-origin-de-anima-et-ejus-origine
+  work: On the Soul and its Origin (De anima et ejus origine)
   author: augustine
   locus: div1 17 — A Treatise on the Soul and its Origin (4 books)
   role: tradition
@@ -173,7 +186,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Spirit and the Letter (De spiritu et littera)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-spirit-and-the-letter-de-spiritu-et-littera
+  work: On the Spirit and the Letter (De spiritu et littera)
   author: augustine
   locus: div1 11 — A Treatise on the Spirit and the Letter
   role: tradition
@@ -183,7 +197,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: Against the Pelagians
+- row_id: npnf206_jerome-principal-works--against-the-pelagians
+  work: Against the Pelagians
   author: jerome
   locus: div2 6.9 (three books, ~33,959 words)
   role: tradition
@@ -194,7 +209,8 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: 'Epistola I: Ad Demetriadem'
+- row_id: pelagius_epistula-ad-demetriadem-lat_migne--epistola-i-ad-demetriadem
+  work: 'Epistola I: Ad Demetriadem'
   author: pelagius
   locus: whole file (partial extract of Migne PL 30, cols. containing Epistola I)
   role: tradition

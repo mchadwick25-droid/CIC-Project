@@ -1,7 +1,8 @@
 source_file: egeria_pilgrimage-of-silvia_bernard1896.txt
 
 assignments:
-  - work: "The Pilgrimage of S. Silvia [Egeria] of Aquitania to the Holy Places"
+  - row_id: egeria_pilgrimage-of-silvia_bernard1896--the-pilgrimage-of-s-silvia-egeria-of-aquitania-to-the-holy
+    work: "The Pilgrimage of S. Silvia [Egeria] of Aquitania to the Holy Places"
     author: egeria
     locus: "whole file (Bernard's translation begins mid-volume, ~raw-scan line 7685)"
     atlas_ids:

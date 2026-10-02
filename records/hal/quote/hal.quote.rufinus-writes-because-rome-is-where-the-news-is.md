@@ -43,7 +43,7 @@ relations:
 - type: associated-with
   target: hal.dw.authority
 ---
-Opened 2026-08-27 for F1-E, served by hal.dw.authority alone, whose two loci both read 'whole work' -
+Opened for F1-E, served by hal.dw.authority alone, whose two loci both read 'whole work' -
 a body of text rather than a place in one, which is why the instrument ruled this cell NEEDS READING.
 
 Read from the other side first. The cell's question is who had the right to decide; Rufinus's opening

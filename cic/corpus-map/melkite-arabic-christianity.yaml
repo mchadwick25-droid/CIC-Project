@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: melkite-arabic-christianity
 works:
-- work: An Exact Exposition of the Orthodox Faith (De Fide Orthodoxa)
+- row_id: npnf209_hilary-poitiers-john-damascus--an-exact-exposition-of-the-orthodox-faith-de-fide-orthodoxa
+  work: An Exact Exposition of the Orthodox Faith (De Fide Orthodoxa)
   author: damascus
   locus: 'div1 3 (~94,912 words): Prologue at div2 3.3, the Exposition at 3.4'
   role: tradition

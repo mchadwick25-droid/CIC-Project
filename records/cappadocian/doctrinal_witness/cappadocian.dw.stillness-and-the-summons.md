@@ -67,4 +67,4 @@ world's own record does not contain. The reach-boundary already carried
 on cappadocian.term.hesychia (formed, literate core only) is preserved
 rather than widened for convenience.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-his-retreat, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-on-his-retreat.

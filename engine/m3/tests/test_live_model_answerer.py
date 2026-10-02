@@ -82,13 +82,9 @@ def test_answer_assembles_evidence_and_returns_grounded_citations():
 
 
 def test_an_ungrounded_answer_is_graded_as_written_no_appended_floor_line():
-    """Parity fix (2026-08-28 foundation audit): the answerer used to
-    append the Fork-2 degradation statement when nothing grounded - a
-    behavior engine.m4.turn had measured and REMOVED for real participant
-    turns ("no code-appended floor line... the honest limit is the voice's
-    own testimony, not a system apology"). Admission now grades exactly
-    what the voice wrote: an ungrounded answer stands as itself, with no
-    citations - so a weak answer is seen as weak, not papered over."""
+    """Admission grades exactly what the voice wrote: an ungrounded answer
+    stands as itself, with no citations - so a weak answer is seen as
+    weak, not papered over."""
     coverage = {"C-I": {**_EMPTY_CELL, "honest_limit": ["fix.limit.who-is-jesus"]}}
     world = _world(coverage)
     client = FakeClient(stream_chunks=["We enjoy talking about many things."])
@@ -123,10 +119,7 @@ def test_admission_text_shape_is_productions_own_apply_net_verbatim():
     sentence and one sentence whose tag resolves to nothing must come back
     from the answerer EXACTLY as engine.m4.turn.apply_net shapes it - the
     fabricating sentence retained in the text (checks gate decoration,
-    never the text) with its tag stripped, and excluded from citations.
-    This is the drift the 2026-08-28 audit found: the old answerer deleted
-    that sentence, so admission graded a text production refuses to
-    produce."""
+    never the text) with its tag stripped, and excluded from citations."""
     from engine.m4.turn import apply_net
 
     raw = (

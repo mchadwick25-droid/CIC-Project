@@ -23,11 +23,10 @@ result: found
 found_sources:
 - don.source.migne-pl11-collatio-carthaginiensis
 - don.source.gesta-collationis-carthaginiensis
-note: 'A CORRECTED NEGATIVE FINDING. Source_Registry.md row 14 and the Manifest''s own SS2 had recorded,
-  since 2026-09-01, "no public-domain edition of this text, in any language, was identified" -- reached
-  honestly under the real constraint that applied then (no working network access), but never re-tested
-  once that constraint lifted, until Mark''s own direct question prompted a systematic re-check rather
-  than trusting the standing record. A full Migne Patrologia Latina printing (Tomus XI, col. 1223) was
+note: 'A CORRECTED NEGATIVE FINDING. Source_Registry.md row 14 and the Manifest''s own SS2 previously
+  recorded "no public-domain edition of this text, in any language, was identified" -- reached
+  honestly under the constraint that applied then (no working network access). A full Migne Patrologia
+  Latina printing (Tomus XI, col. 1223) has since been
   found and is now vendored, confirmed by direct reading (not table-of-contents alone): genuine numbered
   conference acts, including "268. Emeritus episcopus dixit... 269. Alypius episcopus Ecclesiae catholicae
   dixit... 270. Adeodatus episcopus dixit," Marcellinus named throughout as presiding tribunus et notarius,

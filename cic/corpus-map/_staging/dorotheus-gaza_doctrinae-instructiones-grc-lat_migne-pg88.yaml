@@ -1,7 +1,8 @@
 source_file: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
 
 assignments:
-  - work: "Doctrinae Diversae"
+  - row_id: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88--doctrinae-diversae
+    work: "Doctrinae Diversae"
     author: dorotheus-gaza
     locus: "whole file"
     atlas_ids:

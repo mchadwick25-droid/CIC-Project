@@ -1,0 +1,14 @@
+source_file: severus-of-antioch_select-letters-book6-part2_brooks1904.txt
+
+assignments:
+  - row_id: severus-of-antioch_select-letters-book6-part2_brooks1904--the-sixth-book-of-the-select-letters-of-severus-of-antioch
+    work: "The Sixth Book of the Select Letters of Severus of Antioch"
+    author: severus-of-antioch
+    locus: "Part II (Text and Translation Society, 1904)"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Continuation of severus-of-antioch_select-letters-book6-part1_
+      brooks1903.txt - same work, same author, same reasoning.

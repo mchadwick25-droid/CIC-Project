@@ -1,7 +1,8 @@
 source_file: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt
 
 assignments:
-  - work: "Lives of the Eastern Saints (X)"
+  - row_id: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926--lives-of-the-eastern-saints-x
+    work: "Lives of the Eastern Saints (X)"
     author: john-ephesus
     locus: "one article within a mixed 1926 periodical fascicule - see the file's own header"
     atlas_ids:

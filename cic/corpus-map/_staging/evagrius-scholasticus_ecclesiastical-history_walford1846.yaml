@@ -1,7 +1,8 @@
 source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
 
 assignments:
-  - work: "The Ecclesiastical History of Evagrius (A.D. 431-594)"
+  - row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--the-ecclesiastical-history-of-evagrius-a-d-431-594
+    work: "The Ecclesiastical History of Evagrius (A.D. 431-594)"
     author: evagrius-scholasticus
     locus: "whole file"
     atlas_ids:
@@ -16,7 +17,8 @@ assignments:
       exists; its report-claimed "grc+eng" bilingual status was not
       independently verified, so this confirmed 1846 all-English
       Walford translation is used instead.
-  - work: "The Ecclesiastical History of Evagrius (A.D. 431-594)"
+  - row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--the-ecclesiastical-history-of-evagrius-a-d-431-594-2
+    work: "The Ecclesiastical History of Evagrius (A.D. 431-594)"
     author: evagrius-scholasticus
     locus: "whole file"
     atlas_ids:

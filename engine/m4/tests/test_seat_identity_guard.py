@@ -1,5 +1,5 @@
-"""Pins the exact staging repro (Decision-Log.md Entry 47, 2026-09-22) and
-the exact August live-table-battery repro
+"""Pins the exact staging repro and
+the exact live-table-battery repro
 (engine/m4/reports/live-table-battery-F1-2026-08-28.json,
 L4-no-foreknowledge) as real, real-world-shaped regression cases - not just
 synthetic ones a narrower implementation could still pass."""
@@ -13,7 +13,7 @@ PAPNOUTE_BARE = "Papnoute"
 
 
 def test_catches_the_exact_staging_repro():
-    # 2026-09-22, cic-engine-staging: a Table round (Theon, Papnoute,
+    # cic-engine-staging: a Table round (Theon, Papnoute,
     # Chloe; "who is jesus") produced a turn labelled Papnoute whose text
     # began impersonating the Facilitator, then a second seat, mid-turn.
     text = (
@@ -81,7 +81,7 @@ def test_a_name_or_facilitator_mentioned_in_running_prose_is_not_flagged():
 
 
 def test_speakers_own_label_is_never_guarded_against():
-    # Mark's own ruling (Entry 47): self-labeling is a separate, milder,
+    # Self-labeling is a separate, milder,
     # cosmetic defect, out of this guard's scope - callers must never
     # include the speaking voice's own label in `labels`. This test pins
     # that the function itself is agnostic to which labels it's handed and

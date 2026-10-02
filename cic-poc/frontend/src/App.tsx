@@ -254,6 +254,7 @@ function App() {
         <Conversation
           world={world}
           turns={conversation.turns}
+          draft={conversation.draft}
           sessionCode={conversation.sessionCode}
           closed={conversation.closed}
           isLoading={conversation.isLoading}

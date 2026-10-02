@@ -2,9 +2,13 @@ import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { ReadAloudControl } from '../components/ReadAloudControl';
+import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
+import { readAloudEnabled } from '../lib/flags';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
 // critical/etic) rather than the first 3 alphabetically - carried from the
@@ -21,6 +25,8 @@ function sampleStarters(starters: WorldStarter[]): WorldStarter[] {
 interface ConversationProps {
   world: WorldEntry;
   turns: ConversationTurn[];
+  // The reply so far while the voice is still writing it; empty otherwise.
+  draft?: string;
   sessionCode: string | null;
   closed: boolean;
   isLoading: boolean;
@@ -35,19 +41,40 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-export function Conversation({ world, turns, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
+// Read-aloud step 1 always targets the latest completed voice/Facilitator
+// turn - never the participant's own typed text (see ReadAloudControl's
+// own docstring for why this is one global control, not a per-turn one).
+function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: ConversationTurn } | null {
+  for (let i = turns.length - 1; i >= 0; i--) {
+    if (turns[i].speaker !== 'participant') return { index: i, turn: turns[i] };
+  }
+  return null;
+}
+
+export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
+  const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
+  const readAloudAvailable = useReadAloudAvailability();
+
   return (
     <div className="conversation">
       <div className="conversation__bar">
         <BrandMark size={16} />
-        {sessionCode && (
-          <div className="conversation__bar-note sans">
-            Not saved to an account — this conversation lives in this tab
-          </div>
-        )}
+        <div className="conversation__bar-right">
+          {sessionCode && (
+            <div className="conversation__bar-note sans">
+              Not saved to an account — this conversation lives in this tab
+            </div>
+          )}
+          {readAloudAvailable && latestSpoken && (
+            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />
+          )}
+        </div>
       </div>
+      {readAloudAvailable && latestSpoken && (
+        <ReadAloudDisclosure representativeName={world.representativeName} turnKey={latestSpoken.index} />
+      )}
 
-      <div className="conversation__transcript">
+      <div className="conversation__transcript" role="log" aria-label="Conversation">
         <Arrival world={world} />
         {turns.map((turn, i) => {
           if (turn.speaker === 'participant') {
@@ -80,10 +107,19 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
             </div>
           );
         })}
+        {draft && (
+          <div className="turn turn--voice">
+            <div className="turn__speaker sans" style={{ color: world.accentColor }}>
+              <img className="turn__avatar" src={world.portraitImage} alt="" />
+              {world.representativeName} · {world.cardName}
+            </div>
+            <VoiceTurnBody text={draft} citations={[]} />
+          </div>
+        )}
       </div>
 
-      {isLoading && !closed && (
-        <p className="waiting-note sans">
+      {isLoading && !closed && !draft && (
+        <p className="waiting-note sans" role="status">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">
             <span></span>
@@ -93,7 +129,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
         </p>
       )}
       {error && (
-        <div className="conversation__error">
+        <div className="conversation__error" role="alert">
           {error}
           {errorRecoverable && (
             <button type="button" className="error-restart sans" onClick={onRestart}>
@@ -120,6 +156,11 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
                 </button>
               ))}
             </div>
+          )}
+          {!turns.some((t) => t.speaker === 'participant') && (
+            <p className="ai-note sans">
+              {world.representativeName} is an AI voice built only from the surviving writings of this tradition. It is not a real person, and it does not speak for any church today.
+            </p>
           )}
           <ChatInput
             onSend={onSend}

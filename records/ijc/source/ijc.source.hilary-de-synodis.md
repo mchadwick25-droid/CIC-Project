@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "surfaced by this build's own step-2 ecology work (search: ijc.search.npnf209-hilary), a registry append under the legacy Registry's own living-document discipline; supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf209"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Translators verified from the volume's own front matter ("The
 Rev. E. W. Watson, M.A.", "The Rev. L. Pullan, M.A.", lines 338-341).
 Work presence verified: "De Synodis or On the Councils" divisions at

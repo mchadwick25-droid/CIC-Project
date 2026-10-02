@@ -119,11 +119,9 @@ later. The relation to don.figure.donatus above records that hypothesis
 as a hypothesis; it must never be narrated as this text's settled
 authorship.
 
-THE DATE INSIDE THE STORY WAS ITSELF A CORRECTED ERROR. Doc_09's Round 1
-review found the chunk's first draft had converted "a.d. IV Idus
-Martias" as the fourth of March; the ordinary Roman convention gives
-the twelfth, which Doc_02 and the Registry already carried correctly.
-The corrected date is the one used here.
+THE DATE. "a.d. IV Idus Martias" gives the twelfth of March by the
+ordinary Roman convention, not the fourth, matching what Doc_02 and
+the Registry already carry. That date is the one used here.
 
 HOMONYM, FOUND AT THIS STEP AND NOT PREVIOUSLY FLAGGED ANYWHERE IN THIS
 WORLD'S DOCUMENTS: the tribune Marcellinus named in this sermon is not
@@ -134,8 +132,7 @@ is exactly the shape of confusion don.core.donatism's cautions item 7
 already warns about for the two Maximians and the two Optatuses. See
 don.figure.marcellinus, which carries the distinction.
 
-**Reciprocal edge added 2026-09-14** (`donatism-ordinary-believer` build
-thread): `don.dw.what-belonging-cost` now cites this sermon's chapter XIII
+`don.dw.what-belonging-cost` cites this sermon's chapter XIII
 (the kin-searching-the-dead scene, past this record's own quoted material,
 which stops at the Advocata bishop's death) for F5-P's family-cost
 question. Confirmed directly against `cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt`

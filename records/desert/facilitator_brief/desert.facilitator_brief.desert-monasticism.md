@@ -237,7 +237,7 @@ pairing_guidance:
 cautions:
 - "Evagrius Ponticus, whose systematized psychology this world credits as a real, if strand-specific, contemporary elder, was posthumously condemned as an Origenist heretic in 553 CE - over a century after this world's own record closes, and after part of his own writing had already begun transmitting under another name to survive that later reputation. Within this world's own span his standing is inheritance mixed with real unease, not condemnation, and this world's own voice has no knowledge of the later condemnation."
 - "This world's single most influential text about its own founding figure was written by a bishop pursuing his own anti-Arian, pro-episcopal purposes, not by a neutral witness - and a live scholarly dispute exists over whether that text's portrait of an unschooled founder can be squared with a set of letters that may genuinely be his own and read as showing real philosophical training. Facilitators should treat this world's account of its own founding figure as a shaped, testified telling, not an uncontested transcript."
-- "A specific fabrication was found and corrected in this world's own record on 2026-09-20: a Greek-only clause about Amma Sarah's own words ('by nature I am a woman, but not by my own thoughts') cannot be checked against any public-domain English translation and was declared unquotable, yet it had still been carried in a sibling story record and in a demonstration record scripting the Representative's own voice. Only the corrected wording this world's record can actually support - 'it is I who am the man, and you who are the women' - is sourced anywhere in this world's record now, and a Facilitator should not expect or supply the fuller, unquotable form."
+- "A specific fabrication was found and corrected in this world's own record: a Greek-only clause about Amma Sarah's own words ('by nature I am a woman, but not by my own thoughts') cannot be checked against any public-domain English translation and was declared unquotable, yet it had still been carried in a sibling story record and in a demonstration record scripting the Representative's own voice. Only the corrected wording this world's record can actually support - 'it is I who am the man, and you who are the women' - is sourced anywhere in this world's record now, and a Facilitator should not expect or supply the fuller, unquotable form."
 living_tradition_handling:
   text: >-
     This world's own record closes around 430 CE, before the Council of
@@ -271,7 +271,7 @@ redirect_notes:
   grounded_in:
   - desert.limit.doubt-and-doctrine
 ---
-Authored 2026-09-19, one of several parallel facilitator_brief builds
+This is one of several parallel facilitator_brief builds
 following the syr pilot (`records/syr/facilitator_brief/
 syr.facilitator_brief.syriac-edessa-nisibis.md`, the first record of
 this type built in this fleet). Migrates the curatorial substance of
@@ -321,8 +321,8 @@ entries 4 and 5; summarized here per this task's own instruction.
 1. B3 states the named ammas "are attested in the Apophthegmata, but
    only as preserved sayings, not as any extended first-person
    narrative comparable to the Vita Antonii's treatment of Antony."
-   `desert.core.desert`'s own AMENDED note (added 2026-08-27, on
-   vendoring the Syriac Paradise - predating Phase Six's own 2026-07-13
+   `desert.core.desert`'s own AMENDED note (added on
+   vendoring the Syriac Paradise, after Phase Six's own
    production date, so this is Phase Six being overtaken by later
    evidence, not a defect in either document on its own terms) states
    the opposite of that claim's second half: "About fifteen narrated
@@ -346,7 +346,7 @@ entries 4 and 5; summarized here per this task's own instruction.
    not a documented meeting of equals), and its own `concedes` field
    allows only that one disputed reading of the founding figure's own
    letters "raises, without settling, a question of conceptual
-   affinity" - a record's own Step3c Round 2 review finding states
+   affinity" - that record's own body states
    explicitly that this is "a disputed question raised, not a point of
    contact conceded." `pairing_guidance` above therefore grounds the
    Alexandria pairing candidate in the two worlds' genuine, well-
@@ -388,7 +388,7 @@ this task's own instructions anticipated:
    from naming what his own world diagnosed to unilaterally diagnosing
    the participant) and B7's matching "Recruitment-risk boundary, named
    and tested" caution: both trace only to Doc_10 SS4/SS7 and the
-   2026-07-11 live-testing transcripts, none of which are M1 records
+   live-testing transcripts, none of which are M1 records
    this compiler can resolve. No current record under `records/desert/`
    states this specific diagnostic-fusion-slide risk as a finding about
    this world's own formation (the nearest real material,
@@ -520,7 +520,7 @@ brakke-athanasius` directly, restating `desert.core.desert`'s own
 caution 1 ("SINGLE-VOICE CONCENTRATION") in plainer language; the
 Sarah-clause caution grounded directly in `desert.quote.sarah-man-
 among-you`'s own divergence_note (the "unquotable" ruling) and
-`desert.story.sarah-answer`'s own CORRECTED 2026-09-20 body note,
+`desert.story.sarah-answer`'s own body note,
 cross-referenced to `worlds/desert/Open_Gaps_Tracking.md` entries 1-3
 for the fuller propagation-failure history. (`cautions` entries are
 plain strings per the schema, with no `grounded_in` field of their own;

@@ -1,7 +1,8 @@
 source_file: bede_ecclesiastical-history-english-people_giles1903.txt
 
 assignments:
-  - work: "The Ecclesiastical History of the English Nation"
+  - row_id: bede_ecclesiastical-history-english-people_giles1903--the-ecclesiastical-history-of-the-english-nation
+    work: "The Ecclesiastical History of the English Nation"
     author: bede
     locus: "whole file"
     atlas_ids:

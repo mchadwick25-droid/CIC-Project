@@ -1,7 +1,8 @@
 source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
 
 assignments:
-  - work: "Lives of the Eastern Saints (I)"
+  - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--lives-of-the-eastern-saints-i
+    work: "Lives of the Eastern Saints (I)"
     author: john-ephesus
     locus: "whole fascicule"
     atlas_ids:
