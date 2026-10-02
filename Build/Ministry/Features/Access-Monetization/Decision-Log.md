@@ -212,3 +212,9 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Decision (Mark):** this module covers the pay analysis and the pay-as-you-go build. It does not design the larger system. The Facilitator's last response at the end of the turn cap is already planned elsewhere and is not designed here, so the zero-balance Facilitator path proposed in an earlier draft of the integration plan is withdrawn.
 
 **Stays in scope:** pricing and cost analysis, the ledger, the Stripe flow, reconciliation, and the points where the engine calls the ledger.
+
+## 22. The ladder and numbers decided so far are final for the build (2026-10-02)
+
+**Decision (Mark):** the packs ($7 for 5, $15 for 13, $30 for 30), the 3-turn free and 7-turn paid conversations, and the other decisions above are what the build uses. The funding thread is a separate strategy discussion and is not a gate. The cost ceiling item and the "final pricing goes to the funding thread first" conditions in entries 15, 16 and 17 no longer apply.
+
+**Open for the build:** the repricing trigger (entry 17) and the final prices still change only by a new decision.
