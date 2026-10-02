@@ -816,6 +816,7 @@ def _build_real_app() -> FastAPI:
         anon_daily_session_limit=settings.anon_daily_session_limit,
         anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
+        self_revision_enabled=settings.self_revision_enabled,
         streaming_enabled=settings.streaming_enabled,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
