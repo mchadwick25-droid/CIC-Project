@@ -163,3 +163,16 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Costs of the choice:** Stripe's fee is 7.2% at $7, against 5.9% at $10. A $15 dispute fee is about two entry packs, so refunds are made easy rather than leaving buyers to dispute. The free allowance remains a separate bucket funded from contributions.
 
 **Open:** final pricing goes to the funding thread with the research and measured costs. The cost ceiling is still missing.
+
+## 17. The pilot offers the full ladder: $7, $15 and $30 (2026-10-02)
+
+**Decision (Mark):** the pilot offers all three packs, $7 for 5, $15 for 13 and $30 for 30 conversations. The options considered were entry only and entry plus one larger pack.
+
+**Basis:** a complete test of willingness to pay, and better margin on large buyers because Stripe's fixed fee weighs less on a larger charge.
+
+**Exposure this accepts:** the $30 pack commits 30 non-expiring conversations at $1.00 each, priced from a cost measured once. If the real bill runs 1.35 times the rate card, that pack's contribution falls from 67% to about 58%. Counsel's review (entry 9) covers the larger refund and dispute exposure.
+
+**Open:**
+- A repricing trigger: the measured cost per paid conversation at which pack sizes are changed for new purchases. Sold conversations are honored at the sold rate. The threshold is not set.
+- The gift and group packs, which are not part of the pilot ladder.
+- Final prices, which go to the funding thread first.
