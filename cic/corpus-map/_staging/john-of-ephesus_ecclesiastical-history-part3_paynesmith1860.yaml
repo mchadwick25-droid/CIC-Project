@@ -1,0 +1,82 @@
+source_file: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+
+assignments:
+  - row_id: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860--ecclesiastical-history-part-iii
+    work: "Ecclesiastical History, Part III"
+    author: john-of-ephesus
+    locus: "Books I-VI in translation (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506, and before 5883 for Book I); III.36-37 directly verified as John's own narrative"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      John's own contemporary account of Justinian- and Justin II-era
+      persecution of the Miaphysite party from the persecuted side. The
+      vendored file carries Books I-VI in translation, confirmed by direct
+      body-heading checks at the line numbers above (an earlier pass
+      understated this as "Book III, and fragments of Books IV-VI via the
+      index" - corrected).
+
+      Book I carries, at c. lines 4471-4577, the doctrinal BACKGROUND of a
+      Tritheist/Trinitarian controversy within the Monophysite party
+      itself - but this stretch specifically is the 1860 TRANSLATOR's own
+      editorial excursus (Payne Smith, drawing explicitly and by name on
+      the 13th-century chronicler Bar-Hebraeus), not John's own
+      contemporary narrative: the excursus closes with the editor's own
+      words, "We may now, however, return to our author, whose narrative
+      will be found to confirm the above statements of Bar-Hebraeus" (c.
+      lines 4575-4577). The excursus itself (the Ascunages creed, the
+      Condobaudites' name and doctrine, the reported four-day public
+      disputation) is Payne Smith's own 1860 scholarly apparatus relaying
+      Bar-Hebraeus - real historical information but not John of Ephesus's
+      own eyewitness testimony; a source record citing it must attribute
+      it correctly and not present it as John's own words.
+
+      John's own text resumes at c. line 4580 with Conon's arrest - and
+      this is real, substantial, directly quotable narrative in his own
+      voice, not merely apparatus: it is Book V material the translator
+      relocated into this stretch of Book I ("Their history is continued
+      in the fifth book... we propose to proceed with it here," c. line
+      4602). It covers, at real length (through c. line 4880): the
+      Tritheites' own attempt to recruit John of Ephesus as the third
+      bishop canon law required them to have (their only two bishops,
+      Conon and Eugenius, had been deposed) - they tried to bribe him into
+      joining them; he refused and argued they were heretics; they
+      recruited a previously deposed bishop, Theonas, instead (c. lines
+      4613-4651); a debate ordered before the patriarch and synod (c.
+      lines 4686-4690); and John's own naming of "John Grammaticus of
+      Alexandria" (the translator's own note, c. line 4770, identifies
+      this as John Philoponus) as the one whose writings "first led them
+      into error" (c. lines 4777-4790). A source record citing this
+      material correctly attributes it to John's own reporting.
+
+      The dispute itself, per Ascunages's own creed as quoted in the
+      excursus ("I acknowledge one nature of Christ the Incarnate Word,
+      but in the Trinity I reckon the natures and substances and Godheads
+      according to the number of the persons"), is a Trinitarian
+      controversy arising inside the anti-Chalcedonian camp - the
+      Tritheists agreed with the movement's own mainstream on Christ's own
+      one nature; they diverged by applying a parallel
+      count-by-number-of-persons logic to the Trinity itself, yielding
+      three Godheads. Not a rival reading of the Christological "one
+      nature" formula itself - characterizing it that way overstates the
+      overlap with this world's own defining Chalcedon-era dispute and
+      should be avoided.
+
+      Book III.36-37 (not III.38, which opens a different topic): John's
+      own commissioned mission (542 CE) to the pagan hill country of Asia,
+      Caria, Lydia and Phrygia - the Derira temple conversion, imperial
+      funding, the Tralles jurisdiction dispute - directly verified as
+      John's own narrative voice.
+
+      The Preface (lines 208-224) states the mission's own "seventy
+      thousand" baptism figure, attributing it to Part II extracts of
+      John's own work preserved in the Chronicle of Dionysius (per
+      Assemani's Bibliotheca Orientalis, vol. ii) - not this Part III
+      volume's own editorial summary. The correct next step for locating
+      this figure in John's own words is those Part II/Chronicle-of-Zuqnin
+      fragments (not vendored here).
+
+      Book II.44 (confirmed around line 9000, "ninety-nine new churches
+      and twelve monasteries") does survive in this volume - an earlier
+      pass wrongly stated it did not.

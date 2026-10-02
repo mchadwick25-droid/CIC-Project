@@ -6015,3 +6015,124 @@
     38th homily), Bibliothek der Kirchenvaeter (Kempten, Koesel, 1878). Fetched directly (curl) from
     Internet Archive item 11376810bsb (Bayerische Staatsbibliothek digitisation). RIGHTS: pd-us-by-
     date, 1878 printed in the file; no rights tag on the item.
+- filename: john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    Lives of the Eastern Saints, John of Ephesus, ed./trans. E. W. Brooks,
+    Patrologia Orientalis 17-19 (1923-1926). pd-us-by-date (published
+    1923-1926, >95 years). Vendored from Robert Bedrosian's compiled Internet
+    Archive upload (identifier john-of-ephesus-lives-eastern-saints), which
+    also bundles two OTHER files this build did NOT vendor and flags here so
+    nobody mistakes them for cleared: John_of_Ephesus_Resources_djvu.txt (a
+    bibliography, not primary text - simply not needed) and
+    ZuqninIII_Second_Part_Ecclesiastical_History_Harrak_1999_djvu.txt, which
+    is Amir Harrak's 1999 translation (Pontifical Institute of Mediaeval
+    Studies) - still in copyright, NOT public domain, and must never be
+    vendored from this bundle or any other source without a separate rights
+    clearance.
+    OCR caveat: this edition prints Syriac text and English translation
+    together (three parts run continuously in one download); large stretches
+    of the file are Syriac-script OCR garbage, not English. Every citation
+    must be individually confirmed to land in an actual English passage
+    before it is treated as quotable - see this world's Doc_02 Source
+    Registry for the loci already confirmed this way (directly verified:
+    ch. 49, "The Forty-Ninth History, of the Blessed James the Bishop," the
+    Jacob/James Baradaeus portrait, incl. the footnote deriving his
+    nickname from Burd'ana/Burd'ana, "the man of the patchwork garment").
+    Brooks' translation renders the bishop's name as "James," not "Jacob" -
+    carry this naming variance forward into any record that cites him.
+- filename: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Third Part of the Ecclesiastical History of John, Bishop of Ephesus,
+    trans. R. Payne Smith (Oxford, 1860), from the Syriac manuscript W.
+    Cureton had published in 1853. pd-us-by-date. Parts I-II of the History
+    do not survive except in later excerpts (via Michael the Syrian and
+    others) and are NOT in this file - only Part III, covering events from
+    roughly the 550s-580s. Directly verified: Book III.36-38 (pp. 229-234,
+    the Tralles mission - temple-to-monastery conversion at Derira, 24 new
+    churches, 4 monasteries, the dispute with the bishop of Tralles) is
+    present and reads as clean English narrative. The translator's own
+    Preface (p. vii) states the "seventy thousand" baptism figure explicitly
+    ("in the space of four years he baptized no less than seventy thousand
+    persons"), citing "the 230th and following pages" (III.36 onward) - this
+    build confirmed the narrative those pages contain but did NOT locate the
+    number itself restated in John's own first-person/third-person narrative
+    voice within III.36-38 as checked; it may sit in II.44 (not in this
+    volume) or later in III (past the stretch checked). Treat the "seventy
+    thousand" figure as the 1860 editor's summary of John's own count,
+    independently attested but not yet pinned to an exact locus in this
+    file - a task for whoever writes the first quote record citing it.
+- filename: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Sixth Book of the Select Letters of Severus, Patriarch of Antioch, in
+    the Syriac Version of Athanasius of Nisibis - Vol. II (Translation), Part
+    I, ed./trans. E. W. Brooks (Text and Translation Society, 1903).
+    pd-us-by-date. English-translation volume; Vol. I (the Syriac text
+    itself) is a separate archive.org item, not vendored here. Covers only
+    the Sixth Book of Severus's letters (123 letters survive of this one
+    book) - not his complete correspondence; other letter collections
+    (further Select Letters volumes, the separate Brooks 1915 "Collection of
+    Letters" fascicules) are real acquisition targets, not yet vendored -
+    see WANTS-REGISTER.md / download-queue-seed.yaml.
+- filename: severus-of-antioch_select-letters-book6-part2_brooks1904.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    Companion volume to severus-of-antioch_select-letters-book6-part1_
+    brooks1903.txt - Vol. II (Translation), Part II (Text and Translation
+    Society, 1904). pd-us-by-date. Together Parts I-II are the complete
+    English translation of the Sixth Book.
+- filename: philoxenus-of-mabbug_discourses_budge1894.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Discourses of Philoxenus, Bishop of Mabbogh, A.D. 485-519, ed./trans.
+    E. A. Wallis Budge (Asher & Co. for the Royal Society of Literature,
+    1894) - Vol. II, the English translation (Vol. I, the Syriac text, is a
+    separate archive.org item, not vendored here). pd-us-by-date. Thirteen
+    discourses on the ascetic life; Philoxenus predates this world's own
+    opening date (451) by birth (c. 440) but his episcopate (485-523) and
+    his role as a leading anti-Chalcedonian theologian sit squarely inside
+    it - a boundary-adjacent figure, not a clean fit at either edge, worth
+    the same treatment Doc_01 gives other boundary figures.
+- filename: joshua-the-stylite_chronicle_wright1882.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Chronicle of Joshua the Stylite, Composed in Syriac A.D. 507, ed./
+    trans. William Wright (Cambridge, 1882). pd-us-by-date. Authorship is
+    traditional/uncertain: the chronicle survives only embedded within the
+    later Chronicle of Zuqnin (compiled c. 775), attributed there to a monk
+    named Joshua; modern scholarship treats "Joshua the Stylite" as the
+    manuscript tradition's own label, not a securely identified author -
+    flag as such wherever this build names him. Covers 494/5-506 CE (the
+    Roman-Persian Anastasian War and its build-up around Edessa) - the
+    chronicler's own theological allegiance is not overtly Chalcedonian or
+    anti-Chalcedonian in the way the Chronicle of Edessa's is; role
+    (context vs. tradition) needs a considered call, not an assumption
+    inherited from that precedent. OCR quality: clean in the English
+    narrative body; footnotes carrying Syriac/Arabic transliteration are
+    frequently garbled and are apparatus, not text to quote.
+- filename: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Syriac Chronicle Known as That of Zachariah of Mitylene, trans. F. J.
+    Hamilton and E. W. Brooks (Methuen & Co., 1899), from BM Add. 17,202.
+    pd-us-by-date. Composite work: the received Chronicle is a compilation
+    whose Books III-VI derive from the historical Zacharias Scholasticus of
+    Gaza (a Chalcedonian, not this world's own voice) and whose surrounding
+    books were assembled and added to by an anonymous continuator writing
+    c. 569 - modern scholarship (the Greatrex/Phenix/Horn 2011 Translated
+    Texts for Historians edition, NOT vendored here, still in copyright)
+    calls the whole compilation "Pseudo-Zachariah Rhetor" for this reason.
+    This 1899 edition predates that authorship analysis and titles it
+    simply for Zachariah; own-voice/opponent-voice/compiler-voice tagging
+    must be done book-by-book and section-by-section, not assumed uniform
+    across the whole file - a live task for Doc_02's own source registry,
+    not resolved by this note.
