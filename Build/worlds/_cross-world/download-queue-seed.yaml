@@ -2270,3 +2270,28 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "archive.org /metadata/ API check - confirms a DjVuTXT file exists (selectlettersse00broogoog_djvu.txt, ~195KB) and a pre-1930 print basis consistent with the sibling translation volumes; not independently downloaded or read this session"
     status: not-yet-downloaded
+
+  - title: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vols. II-VIII"
+    author: "John Wesley"
+    translator: "ed. Nehemiah Curnock"
+    year: "[1909?]-1916"
+    world: "meth (the-methodist-revival)"
+    why: >
+      Vol. I (a613690401wesluoft) is already vendored for this world
+      (cic/texts/wesley-j_journal-v1_curnock1909.txt), covering only birth
+      through mid-1738 - the movement's own entire working ministry
+      (1738-1790) sits in Vols. II-VIII. The Internet Archive holds this
+      edition as a sequential identifier family; host-verified for Vol. II
+      (a613690402wesluoft), Vol. III (a613690403wesluoft), Vol. IV
+      (a613690404wesluoft), and Vol. VIII (a613690408wesluoft) - all four
+      return the identical title, publisher (R. Culley, London), date
+      ([1909?]-1916), and "Permission Granted to Digitize Item" rights status
+      as the already-vendored Vol. I. Vols. V-VII were not individually
+      checked but almost certainly follow the same identifier pattern
+      (a613690405wesluoft through a613690407wesluoft) - a quick
+      confirmation for whichever thread picks this up next, not a fresh
+      search.
+    url: "https://archive.org/details/a613690402wesluoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Methodist Revival build thread (meth) - direct archive.org metadata check on four of the seven remaining volumes"
+    status: not-yet-downloaded
