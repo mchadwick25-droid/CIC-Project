@@ -9,8 +9,8 @@ exists.
 **Region(s):** Rome and its Sicilian/Italian estates; the mission field
 beyond (Anglo-Saxon England, Merovingian Gaul, Visigothic Spain reached
 through Gregory's own correspondence)
-**Dossier author / date:** source-research thread, 2026-09-21
-**Corpus-map / `cic/texts/` state as of:** commit `009caaf0`, 2026-09-21
+**Dossier author:** source-research thread
+**Corpus-map / `cic/texts/` state as of:** commit `009caaf0`
 
 **A note on this candidate's own status.** Added to the census on record in
 2026, not via a Step 0 survey verdict — the census's own `why` field names
@@ -99,8 +99,8 @@ a title match.
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Dialogues of Saint Gregory, surnamed the Great (complete, all four Books) | Gregory I | "P.W.", ed. Edmund G. Gardner | 1911 | `archive.org/details/dialoguesofsaint00greg` | Explicit `NOT_IN_COPYRIGHT` on the item page | Direct WebFetch of the item page, 2026-09-21 |
-| Morals on the Book of Job (*Moralia in Job*), complete in 4 parts (Parts I–V, Books I–XXXV) | Gregory I | James Bliss, Library of the Fathers series | 1844–1850 | `archive.org/details/moralsonbookjob00igoog` (and `01`/`02`/`03igoog` for the other parts) | Explicit `NOT_IN_COPYRIGHT` confirmed on the Part V/Books XXX–XXXV item; the four parts are one Google-digitized set | Direct WebFetch of one part's item page, 2026-09-21; the other three identifiers located by the same search but not each individually opened this session |
+| The Dialogues of Saint Gregory, surnamed the Great (complete, all four Books) | Gregory I | "P.W.", ed. Edmund G. Gardner | 1911 | `archive.org/details/dialoguesofsaint00greg` | Explicit `NOT_IN_COPYRIGHT` on the item page | Direct WebFetch of the item page |
+| Morals on the Book of Job (*Moralia in Job*), complete in 4 parts (Parts I–V, Books I–XXXV) | Gregory I | James Bliss, Library of the Fathers series | 1844–1850 | `archive.org/details/moralsonbookjob00igoog` (and `01`/`02`/`03igoog` for the other parts) | Explicit `NOT_IN_COPYRIGHT` confirmed on the Part V/Books XXX–XXXV item; the four parts are one Google-digitized set | Direct WebFetch of one part's item page; the other three identifiers located by the same search but not each individually opened this session |
 
 **Why these matter beyond general completeness.** The Dialogues, Book II,
 is *the only surviving Life of St. Benedict* — acquiring it would give

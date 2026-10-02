@@ -1,7 +1,7 @@
 # Adversarial Review, Round 1: `rcg` library stage (Step 0, Doc_01, Doc_02 + Source_Registry)
 
 **Reviewer:** independent Opus review agent, dispatched 2026-09-25, per `anthropic-skills:cic-build-cycle`.
-**Scope:** `worlds/rcg/Step0_Movement_Scope_Confirmation.md`, `worlds/rcg/Doc_01_World_Identification_Boundaries_Orientation.md`, `worlds/rcg/Doc_02_Source_Ecology.md`, `worlds/rcg/Source_Registry.md`, as drafted 2026-09-25, before this round's revisions.
+**Scope:** `Build/worlds/rcg/Step0_Movement_Scope_Confirmation.md`, `Build/worlds/rcg/Doc_01_World_Identification_Boundaries_Orientation.md`, `Build/worlds/rcg/Doc_02_Source_Ecology.md`, `Build/worlds/rcg/Source_Registry.md`, as drafted 2026-09-25, before this round's revisions.
 
 Reviewed against the cic-build-cycle skill, which the reviewer found at `/root/.claude/skills/synced/*/cic-build-cycle/SKILL.md`. The reviewer re-checked every direct quotation against the vendored files and re-ran or simulated the tools the documents rely on.
 
@@ -18,7 +18,7 @@ The failures are misattributed project-data quotes, wrong loci and verification 
 
 ---
 
-## Step 0 (`worlds/rcg/Step0_Movement_Scope_Confirmation.md`)
+## Step 0 (`Build/worlds/rcg/Step0_Movement_Scope_Confirmation.md`)
 
 **S0-1 HIGH: census "why" quote is misattributed (§0, repeated in §3 B2 and §5.1).**
 The document "quotes" `world-census.json` II.18 `why` as posing an eligibility question ("whether these decades are a world or the opening of the medieval papacy..."); the live census `why` field says nothing like this — it is a narrative note about Gregory's 590 election, the Sicilian estates, the Lombard dukes and the 596 mission. The wording traces to the Source Readiness Dossier, itself sourcing an older prototype file. Fix: attribute the question to where it actually lives; quote the live census exactly.
@@ -44,7 +44,7 @@ The Methodology's own Section B text says it is "a phase-level process... never 
 
 ---
 
-## Doc_01 (`worlds/rcg/Doc_01_World_Identification_Boundaries_Orientation.md`)
+## Doc_01 (`Build/worlds/rcg/Doc_01_World_Identification_Boundaries_Orientation.md`)
 
 **D1-1 HIGH: the *servus servorum Dei* reading is tagged "Dominant Modern Reconstruction" against the verified evidence (§5; also Doc_02 §1, §3, §7).** The formula heads Ep. I.1 (September 590); the Universal Bishop protest is 595 (Book V). The NPNF endnote at `iii.v.i.i-p8` says the title predates Gregory (Damasus, Augustine) and occurs "four times only" in the Register. A 590 usage cannot be explained as a rebuke of a 595 dispute. Fix: downgrade to Contested, disclose the chronology and predecessors, remove the unverified reading.
 
@@ -64,7 +64,7 @@ The Methodology's own Section B text says it is "a phase-level process... never 
 
 ---
 
-## Doc_02 + Source_Registry (`worlds/rcg/Doc_02_Source_Ecology.md`, `worlds/rcg/Source_Registry.md`)
+## Doc_02 + Source_Registry (`Build/worlds/rcg/Doc_02_Source_Ecology.md`, `Build/worlds/rcg/Source_Registry.md`)
 
 **D2-1 HIGH: the Dialogues "verification" is really the vendoring header, so Confidence A is inflated (§1; Registry row 8).** Lines 15–20 are the vendoring header's own Content note, not the body text. Fix: re-verify against the body text directly (~line 3395–3408) and cite that.
 
