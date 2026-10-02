@@ -6135,3 +6135,13 @@ Invented ids, withheld marks and cut-offs are noisy at this sample size: several
 Eleven dimensions are not computed yet, each named in the band file with the slice or instrument that supplies it: meaning fit, citation support, honest-limit honesty, first sentence answers the first ask, asks covered, restating the participant, horizon leaks, future-leak rate, quote verbatim, safety routing, and full-turn cost and delay.
 
 Open: the risk guard's staleness half. The suite's test fails when the band file is missing or does not reproduce from the transcripts. It does not yet fail when a later slice changes a measured surface without a fresh band; that needs a definition of the measured surfaces, which slice 3 (the shape segment, the first change to one) supplies.
+
+**Entry 84 — 2026-10-02.** Matcher recall measured before E1, at no API cost, from the 33 baseline runs. This is the risk guard set for the case: a poor number redesigns E1 rather than running it.
+
+- Of the distinct records a reply cited, 30.7% carry the probe's own cell in `canon_cells`, so a one-cell dossier would have held them. With two cells, the second chosen with hindsight to cover the most citations, the share is 68.9%. This is an upper bound.
+- Lowest one-cell worlds: cappadocian 15.4%, gallic 20.1%, rzg 22.5%. Highest: alx 43.3%.
+- 416 of the 3,787 cited records (11%) have no cell and sit outside every dossier; cappadocian 188, gallic 91, witt 59.
+- The deterministic matcher (`engine.m4.evidence.match_asks_to_cells`, top 2, no ask decomposition) puts the sealed cell first on 76 of 308 probes (24.7%) and in its top two on 101 (32.8%).
+- Caveat: today's replies draw on the whole world, so a low share shows how broadly the voice cites, not that every out-of-dossier citation was needed.
+
+The guard tripped. The project lead ruled the same day: hold E1 and diagnose first. Two checks come before a redesigned E1 is brought back to him: (1) recall measured again once the records with no cells are routed, which the use-note work already plans; (2) an Opus grade of a sample of the out-of-dossier citations, load-bearing or not, run offline at batch price, sample first, with settings printed and a cap stated.
