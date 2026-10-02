@@ -592,3 +592,13 @@ The force is about how later centuries sorted this world's writings. Its descrip
 Not fixed here. The wording cannot be cleaned without changing what the force says, because its whole subject is the later sorting. Fixing it needs a ruling on whether a force that is retrospective by design is voice material, or is read by the Facilitator only. The same fleet check on 2026-10-02 fixed four single-sentence cases in `desert` and `gallic` and the `pahc.gravity.martyrdom-meaning` description, wording only.
 
 Status: OPEN — ruling needed.
+
+### OG-20. Ruling on the retrospective force `pahc.force.selective-canonization`, 2026-10-02.
+
+The project lead ruled that this record is Facilitator-side material. It is real scholarship about how pahc's writings survived, but it is written from after the world's window, so the Representative should not read it.
+
+Nothing is changed in the record. No record flag exists today to keep a record away from the Representative: the record status values are draft, ready and frozen only, and a new flag is a methodology change. The conversation engine redesign is to define how a record is marked Facilitator-side. Until then the record stays as written.
+
+OG-19 (2026-10-02) states the gap this ruling answers.
+
+Status: RULED — Facilitator-side only. Open until the engine redesign defines the mark and the record carries it.
