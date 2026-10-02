@@ -49,7 +49,7 @@ def resolve_gate(
     anachronistic_term_ids: set[str],
     message: str,
 ) -> GateResult:
-    # Safety fails or times out (after its own retry, engine.m5.live_calls)
+    # Safety fails or times out
     # -> the Facilitator's check-in, whatever the reader said. A message no
     # one has read for risk never reaches the voice; the participant sees a
     # check-in, never a missed crisis.

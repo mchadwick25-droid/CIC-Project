@@ -48,9 +48,9 @@ The directive is assembled by code from the schema — never free-composed by a 
 
 ## 4. Timeouts and failure semantics
 
-- Budget: both calls dispatched concurrently; **p95 ≤ 2.5 s**. The reader has a **hard timeout of 4 s**. The safety call has a **hard timeout of 15 s per attempt and one retry**, so it gives up only when Bedrock is genuinely unavailable, not merely slow.
+- Budget: both calls dispatched concurrently; **p95 ≤ 2.5 s, hard timeout 4 s** each.
 - **Reader fails/times out** → pass-through: the voice answers the raw message with no directive (the pre-guard state); `gate_decision.degraded = true`; turn flagged for priority audit.
-- **Safety call fails/times out, after its retry** → the Facilitator check-in turn (rule 2), whatever the reader returned; `degraded = true`. The voice never answers a message no one has read for risk. The participant sees, at worst, a slower reply or a check-in, never a missed crisis.
+- **Safety call fails/times out** → the Facilitator check-in turn (rule 2), whatever the reader returned; `degraded = true`. The voice never answers a message no one has read for risk. The participant sees, at worst, a slower reply or a check-in, never a missed crisis.
 - **Both fail** → the Facilitator check-in turn, as for a safety failure; two consecutive degraded turns page the operator (Artifact 6).
 - Structured-output parse failure = failure (no salvage parsing).
 

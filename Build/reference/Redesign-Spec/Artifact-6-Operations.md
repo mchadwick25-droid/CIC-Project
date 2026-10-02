@@ -51,7 +51,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.6). Defaults sized for pilot; ever
 | Bedrock down | Facilitator chrome: "we're having trouble speaking just now — your conversation is saved; your code will bring you back" | no queueing; turns not committed; health page reflects it |
 | Store (Postgres) down | new sessions refused with honest message; in-flight turns complete but cannot commit → participant told to keep their code | no silent data loss; instances hold no authoritative state |
 | Gate reader down | conversation continues (pass-through, no directive) | `degraded` flags; priority audit; page on repetition |
-| Safety call down | after one retry, the Facilitator check-in replaces the voice's turn; degraded flag | fails closed, never silent (Artifact 4 §4) |
+| Safety call down | the Facilitator check-in replaces the voice's turn; degraded flag | fails closed, never silent (Artifact 4 §4) |
 | One world's package corrupt | that world "temporarily unavailable"; others unaffected | hash-mismatch refusal; page operator |
 | S3 down (cold loads only) | warm worlds unaffected; cold worlds unavailable with honest doorway message | retry with backoff |
 
