@@ -28,11 +28,9 @@ names:
 - name: Origen of Alexandria (Origenes Adamantius, c. 185-c. 253/4)
   tag: scholarly
 dates:
-  born: 'c. 185 (derived: HE VII.1 has him dying at 69 under Gallus, 251-253)'
-  died: c. 253/4, Tyre, after imprisonment and torture under Decius - 'At this time Origen died, being
-    sixty-nine years of age' (HE VII.1, npnf201 line 39163, verified verbatim)
-  floruit: head of catechetical instruction from his eighteenth year (HE VI.3, npnf201 line 32732, verified);
-    Alexandria until the Demetrius rupture c. 231-234, then Caesarea
+  born: 'c. 185 (worked out from Eusebius, who has him dying at 69 under Gallus, 251-253)'
+  died: 'c. 253/4, Tyre, after imprisonment and torture under Decius: ''At this time Origen died, being sixty-nine years of age'' (Eusebius)'
+  floruit: 'head of catechetical instruction from his eighteenth year (Eusebius); Alexandria until the Demetrius rupture c. 231-234, then Caesarea'
 narratable: true
 bridge_line: The school's greatest and most contested teacher. The tradition honored him, built on his work, and warned about him. In part it later condemned him. All of this happened within living memory of his chair.
 ---
