@@ -1,0 +1,27 @@
+source_file: smith-thomas_account-of-the-greek-church_1680.txt
+
+assignments:
+  - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites
+    work: "An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account of the Greek church under Cyrillus Lucaris"
+    author: smith-thomas
+    locus: "whole text; the Lucaris section under running heads 'The State of the Greek Church' from about file line 12798"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      An Oxford divine's outside description of Greek doctrine and worship with a life of
+      Lucaris. Second witness only; better OCR than Rycaut (about 87 percent of text lines
+      mostly real words) but check any quotation against page images.
+  - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites-2
+    work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account of the
+      Greek church under Cyrillus Lucaris
+    author: smith-thomas
+    locus: whole text; the Lucaris section under running heads 'The State of the Greek Church' from about
+      file line 12798
+    atlas_ids:
+    - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: Placed on
+      the entry's window (1650-1821). An Anglican chaplain's outside account of 1680.

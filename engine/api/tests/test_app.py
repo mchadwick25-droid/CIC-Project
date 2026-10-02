@@ -39,7 +39,7 @@ def test_list_worlds(store, usage_store, world_loader, registry):
     assert resp.status_code == 200
     worlds = resp.json()["worlds"]
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation")
+    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation" and v.get("package"))
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["horizon"]
@@ -319,7 +319,7 @@ def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, 
 
 
 def test_r27_enforce_hands_a_twice_rejected_turn_to_the_facilitator_end_to_end(store, usage_store, world_loader, registry):
-    """Full wiring: create_app(r27_enforce=True) through
+    """Full wiring: create_app with uncited-claim enforcement on, through
     wiring.handle_message, not the unit-level engine.m4.turn test - the
     voice's raw answer hard-fails (a real wholly_uncited_paragraph
     offense - "Even a broken priest could not block his grace." carries

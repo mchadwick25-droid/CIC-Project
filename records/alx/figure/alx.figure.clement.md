@@ -28,9 +28,8 @@ names:
 - name: Clement of Alexandria (Titus Flavius Clemens, c. 150-c. 215)
   tag: scholarly
 dates:
-  born: c. 150 (scholarly convention; not primary-attested)
-  died: c. 215 (convention; the NPNF De viris 38 editor annotates 'born about 160, died about 217' - an
-    editorial note, not Jerome's text)
+  born: 'c. 150 (traditional date; no ancient source states it)'
+  died: 'c. 215 (traditional date). A modern editor of Jerome''s On Illustrious Men notes ''born about 160, died about 217''. That is the editor''s note, not Jerome''s text.'
   floruit: 'c. 180-202/3 teaching in Alexandria (left during the Severan persecution); Jerome De viris
     38: pupil of Pantaenus, led the school after his master''s death'
 narratable: false

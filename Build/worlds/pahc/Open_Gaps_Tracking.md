@@ -584,3 +584,27 @@ Not a token-swap fix: in every one of the seven records, the analytic scaffoldin
 ### OG-18. pahc's `[self-reference]` note added to meet the V2.0 `deployed` check, 2026-09-29.
 
 `engine.m10.cli deployed pahc` failed because the compiled prompt had no `[self-reference]` note. `records/pahc/voice_craft/pahc.craft.chloe-voice.md` now has a `self-reference` note carrying the four rules from cappadocian OG-18 in the exact wording the check requires. The sanctioned line is "I am a representative of the Scattered Households." Mark chose it on 2026-09-29 from two options; the second was "the house churches of Antioch, Asia Minor, and Rome," which leans on a modern label. The record totals 634 of 900 words. The package was rebuilt and repinned (`packages/pahc/2026-09-30T00-25-00Z`). `deployed pahc`, `determinism-check` and `engine.m9.cli check` pass. Still open and separate: pahc flags a living tradition but has no `living_traditions` text. The commentary check on this PR flagged the route-cue word "unresolved" in this record, where it states the world's own stance; the segment tag `unresolved-authority` is now `open-authority`, the note says "open", and `Build/worlds/pahc/build/VOICE-INDEX.md` is updated to match. The facilitator brief's compound phrase "unresolved-authority-as-belonging" is not in this PR's files and is unchanged. Editing the `leadership` note also put it under the `regate` readability gate, which it failed at FRE 56.2; it is now split into shorter sentences at FRE 66.5 with the same content ("the college of presbyters" for "presbyter-college"; "neither is chosen" for "unchosen-between"), and `m1:readability/pahc` is tightened from 162 to 161. The wording has not been tested for live behavior; see cappadocian OG-27.
+
+### OG-19. `pahc.force.selective-canonization` is written from after the window, so the voice reads later-era wording, 2026-10-02.
+
+The force is about how later centuries sorted this world's writings. Its description speaks of "today's evidence," of how the writings "would later be sorted," of Codex Sinaiticus, the 367 Festal Letter and the Didache's eighteen centuries out of use. The voice reads this description when the force is retrieved. R26 says the voice knows only what its own time would have known.
+
+Not fixed here. The wording cannot be cleaned without changing what the force says, because its whole subject is the later sorting. Fixing it needs a ruling on whether a force that is retrospective by design is voice material, or is read by the Facilitator only. The same fleet check on 2026-10-02 fixed four single-sentence cases in `desert` and `gallic` and the `pahc.gravity.martyrdom-meaning` description, wording only.
+
+Status: OPEN — ruling needed.
+
+### OG-20. Ruling on the retrospective force `pahc.force.selective-canonization`, 2026-10-02.
+
+The project lead ruled that this record is Facilitator-side material. It is real scholarship about how pahc's writings survived, but it is written from after the world's window, so the Representative should not read it.
+
+Nothing is changed in the record. No record flag exists today to keep a record away from the Representative: the record status values are draft, ready and frozen only, and a new flag is a methodology change. The conversation engine redesign is to define how a record is marked Facilitator-side. Until then the record stays as written.
+
+OG-19 (2026-10-02) states the gap this ruling answers.
+
+Status: RULED — Facilitator-side only. Open until the engine redesign defines the mark and the record carries it.
+
+### OG-21. The horizon rule answers OG-19 and OG-20, and both close when the horizon gate lands, 2026-10-02.
+
+The conversation system design, approved to proceed on 2026-10-02 (System Hub Decision Log, "Conversation system design: approved to proceed, Design C"), gives the mark the ruling of 2026-10-02 waited for. A build gate checks each record's voice-facing text against the world's window. A force written from after the window is classed analytic and kept out of what the Representative reads. `pahc.force.selective-canonization` is that case. OG-19 (2026-10-02) and OG-20 (2026-10-02) close under this rule when slice 5, the horizon gate, lands and pahc passes it. Nothing changes in the record before then.
+
+Status: OPEN until slice 5 lands.

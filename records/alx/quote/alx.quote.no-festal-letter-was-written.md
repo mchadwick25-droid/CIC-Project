@@ -22,10 +22,10 @@ sources:
 text: >-
   Then Georgius entered on the thirtieth of Mechir, and acted with excessive violence. But Athanasius, the Bishop, had fled, and was sought for in the city with much oppression, many being in danger on this account. Therefore no Festal Letter was written
 modern_rendering: >-
-  Then George entered the city on the thirtieth of Mechir and acted with
-  excessive violence. But Athanasius the Bishop had fled and was hunted for
-  in the city with much oppression; many people were put in danger because
-  of it. Therefore no Festal Letter was written.
+  Then George entered on the thirtieth of Mechir and acted with excessive
+  violence. But Athanasius the Bishop had fled, and men searched the city for
+  him with great harshness, so that many people were in danger because of it.
+  Therefore no Festal Letter was written.
 speaker_or_author: the Festal Index of the Alexandrian church, year XXIX (356-7)
 license: verbatim
 modern_lens_note: >-

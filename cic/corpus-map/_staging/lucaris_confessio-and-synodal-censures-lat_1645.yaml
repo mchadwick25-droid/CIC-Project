@@ -1,0 +1,51 @@
+source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+
+authors_ruled:
+  synodal-censures-of-lucaris:
+    kind: anonymous
+    evidence: >
+      The title page calls these 'gemina ejusdem Confessionis Censura Synodalis' promulgated
+      by two Patriarchs of Constantinople, Cyril of Berrhoea and Parthenius: synodal acts
+      under two patriarchs' names, not the personal work of one author, so the slug names the
+      work.
+    from_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+
+assignments:
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris
+    work: "Confessio Christianae fidei (Latin), Cyril Lucaris"
+    author: lucaris
+    locus: "the Confession of Faith from about file line 367 to 2360; publisher's prefaces at lines 39-150"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      Lucaris's Latin Confession as printed with its censures, following the Geneva edition of
+      1633. Latin only in this OCR: the Greek columns are not recovered, and long s is read as
+      f throughout, so second witness and not quotable without a page-image check. Its
+      authorship and its relation to the Eastern Church are contested.
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--synodal-censures-of-the-confession-of-lucaris-by-cyril-of
+    work: "Synodal Censures of the Confession of Lucaris, by Cyril of Berrhoea (1639) and Parthenius (1642), Latin"
+    author: synodal-censures-of-lucaris
+    locus: "Censure of Cyril of Berrhoea from about file line 2369; Censure of Parthenius from about line 3419"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      The two Patriarchs of Constantinople's synodal rejections of the Confession, in the
+      Latin of this edition. Latin only in this OCR, with the same long-s scan caution; second
+      witness.
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-2
+    work: Confessio Christianae fidei (Latin), Cyril Lucaris
+    author: lucaris
+    locus: the Confession of Faith from about file line 367 to 2360; publisher's prefaces at lines 39-150
+    atlas_ids:
+    - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: Lucaris's
+      Confession of 1629-33 was printed at Geneva and reads as Reformed in doctrine; whether Lucaris himself
+      was a Calvinist is disputed, and the Orthodox synods of 1638-72 condemned it as Calvinist. Placed
+      as the view from an Orthodox patriarch's confession that overlaps Reformed teaching, never as the
+      Reformed cities' own voice.

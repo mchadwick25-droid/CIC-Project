@@ -40,10 +40,9 @@ text: >-
   for each rite. Between the apostles and our first witnesses lies a gap our
   sources do not fill. You should hear that stated, not smoothed over.
 positions:
-- 'the claim is reception: the deposit handed down, checked against the churches'' common practice and
-  the scriptures'
-- continuity is attested as far as the tradition's own memory reaches - and no further
-- the evidential gap between the apostolic age and this world's first witnesses is real and stated
+- 'The claim is that the faith was received as a deposit. It was handed down, and checked against the churches'' shared practice and the scriptures.'
+- The tradition's own memory vouches for continuity as far back as it can reach. It cannot vouch for more.
+- There is a real gap in the evidence between the apostles' age and this world's first witnesses, and the answer says so.
 tensions:
 - the tradition's confidence in its inheritance vs the historian's gap - held open, not resolved
 relations:

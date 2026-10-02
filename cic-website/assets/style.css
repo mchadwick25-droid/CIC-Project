@@ -244,6 +244,9 @@ nav.site-nav a[aria-current="page"] { color: var(--madder); }
 .btn.secondary:hover { background: rgba(161,62,43,0.07); }
 
 /* Sections */
+.narration { display: flex; align-items: center; gap: .55rem; flex-wrap: wrap; margin: .3rem 0 .8rem; }
+.narration audio { display: block; height: 1.9rem; max-width: 220px; width: 220px; flex: 0 0 auto; }
+.narration-disclosure { font-size: .78rem; color: var(--muted); margin: 0; }
 main { padding-bottom: 4rem; }
 section.page-section {
   max-width: 40rem;
@@ -398,7 +401,7 @@ header.site-header, footer.site-footer, .world-card, .callout { background: #1E1
 .brand { color: #F1E9DD; }
 nav.site-nav a { color: #F1E9DD; }
 .hero p.lede, .page-section p, footer.site-footer, footer.site-footer a { color: #B8AEA1; }
-:root { --rule: rgba(241,233,221,0.16); }
+:root { --rule: rgba(241,233,221,0.16); --muted: #B8AEA1; }
 /* --madder/--gold-leaf stay unchanged (button fills need the darker value for
    contrast against light text) - these overrides lighten the SAME hues only
    where they're used as text/border color on the near-black background. */

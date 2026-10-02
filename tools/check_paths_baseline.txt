@@ -30,6 +30,7 @@ Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: records/worl
 Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/README.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: cic/engine/shelf_open.py
+Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: engine/m4/grounding.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: records/worlds.yaml
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D1-Directions.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/engine/corpus_index.files_for_entry
@@ -60,7 +61,6 @@ Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/01-editorial-longform-rev
 Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/02-atlas-first-spatial-defense.md: Sandbox/D2-struggle/02-atlas-first-spatial-review.md
 Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/02-atlas-first-spatial-review.md: Sandbox/D1-directions/02-atlas-first-spatial
 Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/05-product-led-clarity-defense.md: cic-website/assets/tour-captures
-Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md: World-Builds/
 Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md: Build/Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md: World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md
 Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md: World-Builds/Desert-Monasticism/CiC_W3_Living_Tradition_Differentiation_Review.md

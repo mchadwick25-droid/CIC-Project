@@ -1,0 +1,8 @@
+kind: formation
+world_id: the-society-of-jesus
+display_name: "The Society of Jesus"
+time_window: {start: 1540, end: 1650}
+census_id: "the-society-of-jesus"
+state: candidate
+safety_adjacent: true
+living_tradition_flag: true

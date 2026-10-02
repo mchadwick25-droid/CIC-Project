@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: jerusalem-liturgical-pilgrimage-christianity
 works:
-- work: Fragments of Alexander of Cappadocia
+- row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-alexander-of-cappadocia
+  work: Fragments of Alexander of Cappadocia
   author: alexander_capp
   locus: div2 6.4
   role: tradition
@@ -16,7 +17,8 @@ works:
     piles turned out to be this one hole - Alexandria was standing in for it on the strength
     of correspondence with Origen, who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
+- row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-catechetical-lectures-procatechesis-catecheses-i-xviii
+  work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
     I-V)
   author: cyril_jer
   locus: 'div1 2 (~202,666 words): Procatechesis at div2 2.4, the eighteen pre-baptismal lectures
@@ -34,7 +36,35 @@ works:
 
     '
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
-- work: On Pilgrimages
+- row_id: egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria
+  work: Peregrinatio Aetheriae (Pilgrimage of Etheria)
+  author: egeria
+  locus: whole text; the Jerusalem liturgy (Lent, Holy Week, Easter octave, Epiphany, catechumens)
+    from about file line 3800 on; the Abgar letter at Edessa, file lines 3329-3522
+  role: tradition
+  confidence: assigned
+  note: 'First-hand description of the Jerusalem liturgical year, c. 381-384, by a Western
+    pilgrim. The queue row that opened this vendoring. English translation only; no Latin
+    witness is vendored. The editors'' introduction (before about line 3300) is 1919 scholarship,
+    not Egeria''s voice.
+
+    '
+  source_file: egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt
+- row_id: egeria_pilgrimage-of-silvia_bernard1896--the-pilgrimage-of-s-silvia-egeria-of-aquitania-to-the-holy
+  work: The Pilgrimage of S. Silvia [Egeria] of Aquitania to the Holy Places
+  author: egeria
+  locus: whole file (Bernard's translation begins mid-volume, ~raw-scan line 7685)
+  role: tradition
+  confidence: assigned
+  note: 'A first-person 4th-century pilgrim''s own account of Jerusalem''s liturgical life
+    - the eponymous primary source for this atlas entry. This is Bernard''s 1896-97 translation,
+    a separate edition from the McClure & Feltoe 1919 translation also tracked in worlds/_cross-world/download-queue-seed.yaml
+    (identifier pilgrimageofethe00mccliala) - the two are not the same file.
+
+    '
+  source_file: egeria_pilgrimage-of-silvia_bernard1896.txt
+- row_id: npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages
+  work: On Pilgrimages
   author: gregory_nyssa
   locus: txt heading at line 33740 (part II, Ascetic and Moral)
   role: tradition
@@ -46,7 +76,8 @@ works:
 
     '
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
-- work: Letter CVIII (To Eustochium - Epitaph of Paula)
+- row_id: npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula
+  work: Letter CVIII (To Eustochium - Epitaph of Paula)
   author: jerome
   locus: div2 5.108 - 'To Eustochium', n=CVIII, ~16,944 words
   role: tradition
@@ -59,7 +90,20 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Divine Liturgy of James
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-james
+  work: Liturgy of S. James
+  author: liturgy-of-st-james
+  locus: file lines 3064-4800 (page header 'SAINT JAMES' at 3064 and 3622)
+  role: context
+  confidence: assigned
+  note: 'Neale''s English of the Jerusalem rite. Same work as the James liturgy in the vendored
+    ANF volume 7 (a different translator and text tradition); this is a second witness for
+    comparison. Attribution to James is traditional.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-james
+  work: The Divine Liturgy of James
   author: liturgy-of-st-james
   locus: div2 12.2
   role: tradition

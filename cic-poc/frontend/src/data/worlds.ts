@@ -37,21 +37,21 @@ export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappa
 export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // Stays distinct from gold-leaf and from --color-representative's own
   // reserved dark-safe value (#DC9A3E).
-  alx: { portraitImage: '/images/portraits/alexandria.png', accentColor: '#DE670B' },
-  pahc: { portraitImage: '/images/portraits/house-churches.png', accentColor: '#439975' },
-  desert: { portraitImage: '/images/portraits/desert.png', accentColor: '#9D893B' },
-  hal: { portraitImage: '/images/portraits/bethlehem.png', accentColor: '#B77889' },
-  syr: { portraitImage: '/images/portraits/syriac.png', accentColor: '#5493A0' },
-  ijc: { portraitImage: '/images/portraits/empire.png', accentColor: '#B67D50' },
+  alx: { portraitImage: '/images/portraits/thumb/alexandria.webp', accentColor: '#DE670B' },
+  pahc: { portraitImage: '/images/portraits/thumb/house-churches.webp', accentColor: '#439975' },
+  desert: { portraitImage: '/images/portraits/thumb/desert.webp', accentColor: '#9D893B' },
+  hal: { portraitImage: '/images/portraits/thumb/bethlehem.webp', accentColor: '#B77889' },
+  syr: { portraitImage: '/images/portraits/thumb/syriac.webp', accentColor: '#5493A0' },
+  ijc: { portraitImage: '/images/portraits/thumb/empire.webp', accentColor: '#B67D50' },
   // Hue grounded in #A0522D (a warm sienna/terracotta, echoing the loaf's own baked crust) -
   // checked against every color above and the two reserved semantic tokens (--color-tyrian
   // #6B3FA0, the lexicon/transparency apparatus's own pigment; --color-participant/"lapis"
   // #1E40AF) for a distinct hue.
-  cappadocian: { portraitImage: '/images/portraits/cappadocian.jpg', accentColor: '#CB7247' },
+  cappadocian: { portraitImage: '/images/portraits/thumb/cappadocian.webp', accentColor: '#CB7247' },
   // Hue grounded in #5A6B74 (a cool slate blue-grey, this world's own repeated
   // cold-of-Gaul theme) - checked against every color above and the two reserved semantic tokens
   // for a distinct hue and temperature (per gallic_Representative_Portrait_Grounding_Brief.md).
-  gallic: { portraitImage: '/images/portraits/gallic.jpg', accentColor: '#798D97' },
+  gallic: { portraitImage: '/images/portraits/thumb/gallic.webp', accentColor: '#798D97' },
   // Hue grounded in #6A2525 (a deep oxblood/martyrdom
   // red, this world's own martyrs'-graves-read-aloud practice and the Deo laudes
   // acclamation) - checked against every color above and the two reserved semantic tokens for a
@@ -59,7 +59,7 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // H/S held from the grounding value, L raised to 61.8% - the first point clearing both
   // thresholds (>=5.3:1 vs the dark ground, >=5.07:1 vs --color-surface #1E1913 as dark
   // text on top of it as a fill).
-  don: { portraitImage: '/images/portraits/donatism.png', accentColor: '#CD6F6F' },
+  don: { portraitImage: '/images/portraits/thumb/donatism.webp', accentColor: '#CD6F6F' },
   // No light-mode-derived hue for this world; computed directly for the
   // dark ground. Hue/saturation grounded in this world's own repeated austerity/subtraction theme
   // (the silenced Zurich organ, the plain black gown, worship built around subtraction
@@ -73,13 +73,13 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // reserved semantic tokens (--color-tyrian #6B3FA0, --color-participant/"lapis"
   // #1E40AF) for hue distance; nearest neighbor is lapis at 14.1deg, low collision risk
   // given the near-fourfold saturation gap between them.
-  rzg: { portraitImage: '/images/portraits/theophilus.jpg', accentColor: '#8787A1' },
+  rzg: { portraitImage: '/images/portraits/thumb/theophilus.webp', accentColor: '#8787A1' },
   // Reuses the accent color already fixed for this world in
   // cic-website/table.html rather than picking a new one - #579C40, a moderate forest green.
   // Verified against this file's own two dark-mode thresholds: 5.49:1 vs the dark
   // ground #17130F (clears >=5.3:1) and 5.18:1 vs --color-surface #1E1913 as dark text on top of it
   // as a fill (clears >=5.0:1).
-  witt: { portraitImage: '/images/portraits/nikolaus.jpg', accentColor: '#579C40' },
+  witt: { portraitImage: '/images/portraits/thumb/nikolaus.webp', accentColor: '#579C40' },
 };
 
 export interface WorldStarter {

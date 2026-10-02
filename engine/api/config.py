@@ -102,14 +102,13 @@ class Settings:
 
     # Self-revision at generation on other_tradition-routed turns.
     # Default on; the kill-switch exists for cost or incident use only.
-    # Unlike r27_enforce above, this is generation, not enforcement - no
+    # Unlike the enforcement flag above, this is generation, not enforcement - no
     # withhold, no Facilitator handoff.
     self_revision_enabled: bool
 
-    # The engine's own sentence-buffered streaming module
-    # (engine.m4.streaming). Off by default. No code path reads this flag
-    # yet - it exists so the module can be built and tested against a
-    # real setting rather than a hypothetical one.
+    # Lets a client that asks for an event stream (Accept: text/event-stream)
+    # read an interview reply sentence by sentence while it is written
+    # (engine.api.app._stream_message). Off by default.
     streaming_enabled: bool
 
     @classmethod

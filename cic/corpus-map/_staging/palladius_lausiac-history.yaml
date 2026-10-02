@@ -2,7 +2,8 @@
 source_file: palladius_lausiac-history_clarke1918.txt
 
 assignments:
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history
+    work: "Lausiac History"
     author: palladius
     locus: "whole work (single-work volume)"
     atlas_ids:
@@ -15,7 +16,8 @@ assignments:
       public-domain English - see WANTS-REGISTER.md, where Evagrius sits at
       value 14 under "no edition exists".
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-2
+    work: "Lausiac History"
     author: palladius
     locus: "Chapters XLVIII-LIV: Elpidius, Sisinnius, Gaddanas, Elias, Sabas,
       Abramius, and the Elder Melania"
@@ -50,7 +52,8 @@ assignments:
       footing as Jerome's Hilarion and Malchus, is a judgement this
       dossier pass is not positioned to make on its own.
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-3
+    work: "Lausiac History"
     author: palladius
     locus: "Chapter IV: Didymus the Blind"
     atlas_ids:
@@ -71,7 +74,8 @@ assignments:
       history). Context, not tradition: an outsider's late testimony
       about the man, not the catechetical tradition's own texts.
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-4
+    work: "Lausiac History"
     author: palladius
     locus: "Chapter XL: Ephraim"
     atlas_ids:
@@ -94,7 +98,8 @@ assignments:
       the same vendored file serves the Alexandria and Desert worlds too;
       only this Ephraim chapter is licensed material for syr.
 
-  - work: "Lausiac History"
+  - row_id: palladius_lausiac-history--lausiac-history-5
+    work: "Lausiac History"
     author: palladius
     locus: >
       Chapters XXXVI (Posidonius on Jerome's temper and the prophecy about
@@ -124,3 +129,31 @@ assignments:
       defined itself against Origenism - hostile testimony, valuable
       precisely for its independence, not this world's own voice. See
       hal.contested.paula-jerome-relationship.
+
+  - row_id: palladius_lausiac-history--lausiac-history-6
+    work: "Lausiac History"
+    author: palladius
+    locus: >
+      Chapter LVI (Olympias, file lines 547-549); Chapter XLI (Holy Women: the
+      deaconess Sabaniana, aunt of John the bishop of Constantinople, file line
+      477); Chapter XXXV (Palladius "embroiled in the disturbance connected with
+      the blessed John", file line 427); Chapter LXI (Palladius's journey to Rome
+      "because of the blessed bishop John", file line 583)
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: context
+    confidence: provisional
+    note: >
+      Placed for the Antiochene Exegetical Christianity world's Source Ecology
+      (Doc_02 section 6), which draws on it for one question: whether Olympias,
+      the deaconess to whom much of Chrysostom's exile correspondence is
+      addressed, is attested by a second author. Read directly against the
+      vendored file: Chapter LVI praises her and names her descent; Chapter XLI
+      names Sabaniana. The same text shows Palladius is not independent of
+      Chrysostom's circle: Chapter XXXV says he was "embroiled in the
+      disturbance connected with the blessed John", and Chapter LXI says he
+      went to Rome "because of the blessed bishop John". `role: context`, because
+      he is a partisan of Chrysostom writing about a figure in his circle, not an
+      Antiochene voice; `provisional`, because only these four chapters bear on
+      this world. The same file stays with the desert, Palestinian, Alexandrian,
+      Edessan and Hieronymian assignments above.

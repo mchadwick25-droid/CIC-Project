@@ -19,7 +19,8 @@ authors_ruled:
 
       '
 assignments:
-- work: The Ecclesiastical History of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret
+  work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — The Ecclesiastical History of Theodoret (323-428)
   atlas_ids:
@@ -32,7 +33,8 @@ assignments:
     no better own-entry exists for him in the census.
 
     '
-- work: The Ecclesiastical History of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-2
+  work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — esp. Books I-II (Arian controversy), V (Ambrose and Theodosius)
   atlas_ids:
@@ -54,7 +56,8 @@ assignments:
     through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
 
     '
-- work: The Ecclesiastical History of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-3
+  work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — II.26 (the siege of Nisibis and 'the apostolic conversation' of Bishop Jacobus), IV.26
     (Of Didymus of Alexandria and Ephraim the Syrian)
@@ -71,7 +74,8 @@ assignments:
     a century after the events, hagiographically shaping the Nisibis narrative (syr.source.theodoret-historia-ecclesiastica).
 
     '
-- work: Dialogues (Eranistes)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes
+  work: Dialogues (Eranistes)
   author: theodoret
   locus: div2 3.9 — The 'Eranistes' or 'Polymorphus'
   atlas_ids:
@@ -82,7 +86,8 @@ assignments:
     with its florilegia of patristic proof-texts.
 
     '
-- work: Dialogues (Eranistes)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes-2
+  work: Dialogues (Eranistes)
   author: theodoret
   locus: div2 3.9
   atlas_ids:
@@ -97,7 +102,8 @@ assignments:
     the controversy''s own years.
 
     '
-- work: The Anathemas of Cyril with the Counter-statements of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-anathemas-of-cyril-with-the-counter-statements-of
+  work: The Anathemas of Cyril with the Counter-statements of Theodoret
   author: theodoret
   locus: div2 3.6-3.7 — The Anathemas of Cyril in Opposition to Nestorius; Counter-statements
     of Theodoret
@@ -113,7 +119,8 @@ assignments:
     filed under theodoret, whose counter-statements frame the text as printed.
 
     '
-- work: Letters of the Blessed Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--letters-of-the-blessed-theodoret
+  work: Letters of the Blessed Theodoret
   author: theodoret
   locus: div2 3.10 — Letters of the Blessed Theodoret, Bishop of Cyprus [sic; Cyrus]
   atlas_ids:
@@ -126,7 +133,8 @@ assignments:
     here.
 
     '
-- work: The Ecclesiastical History of Theodoret, Book IV, Chapter XVI ("Of the holy Basilius,
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-book-iv-chapter-xvi
+  work: The Ecclesiastical History of Theodoret, Book IV, Chapter XVI ("Of the holy Basilius,
     Bishop of Caesarea, and the measures taken against him by Valens and the prefect Modestus")
   author: theodoret
   locus: div2 3.8 — Book IV, Chapter XVI (id iv.viii.iv.xvi, file line 14072)
@@ -148,7 +156,8 @@ assignments:
     the record itself states ("secondary narrative sources, never this world''s own voice").
 
     '
-- work: Jerome, Lives of Illustrious Men (De Viris Illustribus) - entries on Basil, Gregory
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-entries
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus) - entries on Basil, Gregory
     Nazianzen, Gregory of Nyssa, and Amphilochius
   author: jerome
   locus: div2 4.3 — Chapters CXVI (Basil, id v.iii.cxviii), CXVII (Gregory Nazianzen, id v.iii.cxix),
@@ -177,7 +186,8 @@ assignments:
     keeping visible at review.
 
     '
-- work: Lives of Illustrious Men (De Viris Illustribus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus
+  work: Lives of Illustrious Men (De Viris Illustribus)
   author: jerome
   locus: div2 4.3 — Jerome. Lives of Illustrious Men.
   atlas_ids:
@@ -190,7 +200,8 @@ assignments:
     Rufinus below are in npnf203.
 
     '
-- work: Lives of Illustrious Men (De Viris Illustribus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-2
+  work: Lives of Illustrious Men (De Viris Illustribus)
   author: jerome
   locus: div2 4.3 — the 'Bardesanes the heresiarch' and 'Ephrem the deacon' chapters
   atlas_ids:
@@ -205,7 +216,8 @@ assignments:
     Ephrem in Greek translation), outside the Edessa/Nisibis tradition itself (syr.source.jerome-de-viris).
 
     '
-- work: Lives of Illustrious Men (De Viris Illustribus), ch. "Antonius the monk" (file line
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-antonius
+  work: Lives of Illustrious Men (De Viris Illustribus), ch. "Antonius the monk" (file line
     41173)
   author: jerome
   locus: div2 4.3, Chapter LXXXVIII "Antonius the monk"
@@ -226,7 +238,8 @@ assignments:
     and is not assigned here.
 
     '
-- work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-lxxvii
+  work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
     (file line 40990)
   author: jerome
   locus: div2 5.3, Chapter LXXVII "Lucianus the presbyter"
@@ -249,7 +262,8 @@ assignments:
     dossier''s own §5 floor-question note, which this does not resolve).
 
     '
-- work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-pachomius
+  work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"
     (file line 42250)
   author: gennadius
   locus: div2 4.4, Chapter VII "Pachomius the presbyter-monk"
@@ -267,7 +281,8 @@ assignments:
     his writings, not desert monasticism''s own primary voice.
 
     '
-- work: Gennadius, Lives of Illustrious Men (continuation)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation
+  work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   atlas_ids:
@@ -280,7 +295,8 @@ assignments:
     before it: the overlap is real and he falls in it. Assigned there as his home, with
     hieronymian-ascetic-literary kept as context: the direct continuation of Jerome''s literary
     project, not membership of his circle.'
-- work: Gennadius, Lives of Illustrious Men (continuation)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-2
+  work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   atlas_ids:
@@ -293,7 +309,8 @@ assignments:
     before it: the overlap is real and he falls in it. Assigned there as his home, with
     hieronymian-ascetic-literary kept as context: the direct continuation of Jerome''s literary
     project, not membership of his circle.'
-- work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--pamphilus-defence-of-origen-rufinus-translation-with-rufinus
+  work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
     Librorum Origenis)
   author: rufinus
   locus: div2 5.5-5.6
@@ -310,7 +327,8 @@ assignments:
     credits rufinus, whose corpus this section is.
 
     '
-- work: Rufinus' Apology in Defence of Himself (Apologia ad Anastasium)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--rufinus-apology-in-defence-of-himself-apologia-ad-anastasium
+  work: Rufinus' Apology in Defence of Himself (Apologia ad Anastasium)
   author: rufinus
   locus: div2 5.9
   atlas_ids:
@@ -323,7 +341,8 @@ assignments:
     as Jerome''s own voice, this becomes context.
 
     '
-- work: Letter of Anastasius to John of Jerusalem concerning Rufinus
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--letter-of-anastasius-to-john-of-jerusalem-concerning-rufinus
+  work: Letter of Anastasius to John of Jerusalem concerning Rufinus
   author: anastasius_rome
   locus: div2 5.10
   atlas_ids:
@@ -336,7 +355,8 @@ assignments:
     entries the controversy touches. Author ruled above from the section''s own title.
 
     '
-- work: The Apology of Rufinus (Against Jerome, to Apronianus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-apology-of-rufinus-against-jerome-to-apronianus
+  work: The Apology of Rufinus (Against Jerome, to Apronianus)
   author: rufinus
   locus: div2 5.11 — two books
   atlas_ids:
@@ -350,7 +370,8 @@ assignments:
     see the context row on Jerome''s Apology below, which covers the same ground for alexandria.
 
     '
-- work: Jerome's Apology for Himself Against the Books of Rufinus
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus
+  work: Jerome's Apology for Himself Against the Books of Rufinus
   author: jerome
   locus: div2 5.12 — three books
   atlas_ids:
@@ -361,7 +382,8 @@ assignments:
     Core hal material; the rest of Jerome is in npnf206.
 
     '
-- work: Jerome's Apology for Himself Against the Books of Rufinus
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus-2
+  work: Jerome's Apology for Himself Against the Books of Rufinus
   author: jerome
   locus: div2 5.12
   atlas_ids:
@@ -373,7 +395,8 @@ assignments:
     tradition''s reception, from outside it.
 
     '
-- work: A Commentary on the Apostles' Creed (Rufinus)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--a-commentary-on-the-apostles-creed-rufinus
+  work: A Commentary on the Apostles' Creed (Rufinus)
   author: rufinus
   locus: div2 5.13
   atlas_ids:
@@ -388,7 +411,8 @@ assignments:
 
 
     '
-- work: Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--rufinus-translation-prefaces-and-perorations-recognitions-of
+  work: Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on
     Psalms 36-38; Origen on Romans)
   author: rufinus
   locus: div2 5.14, 5.17-5.19 (the prefaces STRUCTURE.md marks as apparatus are skipped)
@@ -402,7 +426,8 @@ assignments:
     be worth dropping to sub-work-level instead.
 
     '
-- work: Gennadius, Lives of Illustrious Men (continuation)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-3
+  work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: 'div2 4.4, chapters XIX (Sulpitius Severus), LXII (Cassianus/Cassian), LXIV (Eucherius
     of Lyons), LXV (Vincentius of Lerins), LXX (Hilary of Arles), LXXXV (Prosper of Aquitaine),

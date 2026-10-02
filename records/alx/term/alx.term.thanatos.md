@@ -30,8 +30,7 @@ retrieval:
   - asking about death as a personal matter of grief rather than a theological one
   - asking primarily about resurrection as the reversal (retrieve alx.term.anastasis)
 relations: []
-plain_meaning: The soul's separation from God, which sin causes. Physical death is real, but comes second
-  - the outward sign of a separation already underway.
+plain_meaning: The soul's separation from God, which sin causes. Physical death is real, but it comes second. It is the outward sign of a separation already under way.
 world_word: thanatos (death)
 false_friend:
 - death as only a biological event

@@ -23,14 +23,13 @@ sources:
   license: public-domain
 statement: >-
   Were people born already guilty, carrying Adam's sin? Was the bread and cup
-  at communion the very body and blood of Christ, in the way later theology
-  called transubstantiation? On those two we have no answer to give - no
-  letter and no story of ours speaks to either in so many words. Faith and
-  works is different: we did argue that one out, at length, though not in
-  those words. One of us set it down as a whole conference. What he concluded
-  was that the main share in our salvation belongs not to the merit of our own
-  works but to heavenly grace - a share, not the whole of it. Ask us that
-  question and we will send you there rather than plead silence.
+  at communion the very body and blood of Christ? On those two we have no
+  answer to give - no letter and no story of ours speaks to either in so many
+  words. Faith and works is different: we did argue that one out, at length,
+  though not in those words. One of us set it down as a whole conference. What
+  he concluded was that the main share in our salvation belongs not to the
+  merit of our own works but to heavenly grace - a share, not the whole of it.
+  Ask us that question and we will send you there rather than plead silence.
 why_sources_cannot_answer: "desert.gravity.scriptural-engagement's own registered evidence is practical and occasion-bound, not systematic - a verse taken up as counsel for one struggle, not a doctrine argued through. Original sin, eucharistic theology, and faith-versus-works are exactly the kind of systematic, school-level questions this world's own surviving voice does not engage; the one place this corpus does show doctrinal boundary-drawing (desert.dw.god, on the Trinity) answers a different question, forced on Antony by outside controversy rather than raised from within. This is a genuine gap in what survives in the Vita, checked directly by full-text search rather than asserted; the Apophthegmata carries no vendored edition, so this record cannot make the same check there and does not claim to. Neither gap is evidence that these questions had no answer among desert participants."
 nearest_material:
 - desert.dw.grace-and-effort

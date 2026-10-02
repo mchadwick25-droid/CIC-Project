@@ -518,7 +518,7 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     worlds = wiring.list_worlds(world_loader=world_loader, registry=registry)
 
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation"}
+    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation" and v.get("package")}
 
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
@@ -535,8 +535,8 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
 # (a) does not hold - only the question's own words, plus what the
 # conversation revealed before it.
 def _voice_directive_text(client, call_index=0):
-    system = client.messages.stream_calls[call_index]["system"]
-    return system[1]["text"] if len(system) > 1 else ""
+    content = client.messages.stream_calls[call_index]["messages"][-1]["content"]
+    return content[0]["text"] if isinstance(content, list) else ""
 
 
 def test_an_other_tradition_ask_about_a_later_tradition_limits_the_pivot_to_the_question(store, usage_store, world_loader, registry):

@@ -1,0 +1,16 @@
+source_file: nadal_epistolae-v3-lat_1902.txt
+assignments:
+- row_id: nadal_epistolae-v3-lat_1902--epistolae-p-hieronymi-nadal-tomus-iii-1566-1577
+  work: Epistolae P. Hieronymi Nadal, Tomus III (1566-1577)
+  author: nadal
+  locus: whole volume - Tomus III, 1566-1577
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: 'Nadal''s own letters, 1566-1577, in the languages written, from the years of his visitations
+    of the Society. It carries Nadal''s voice on from the vendored Tomus I, which stops in 1562. Primary
+    original evidence for the movement, quotable once each wording is checked against the page image:
+    the scan is legible with occasional letter-level misreads. Word-form coverage against a clean Latin
+    vocabulary is 0.61; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
+    is a comparison across files and not a measure of accuracy.'

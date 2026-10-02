@@ -3,7 +3,8 @@
 # two desert quote/source records before this assignment existed.
 source_file: macarius_fifty-spiritual-homilies_mason1921.txt
 assignments:
-- work: Fifty Spiritual Homilies of St. Macarius the Egyptian
+- row_id: macarius_fifty-spiritual-homilies_mason1921--fifty-spiritual-homilies-of-st-macarius-the-egyptian
+  work: Fifty Spiritual Homilies of St. Macarius the Egyptian
   author: macarius
   locus: whole file
   atlas_ids:

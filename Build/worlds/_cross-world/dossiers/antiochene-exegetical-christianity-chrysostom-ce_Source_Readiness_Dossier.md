@@ -6,8 +6,8 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `antiochene-exegetical-christianity-chrysostom-ce`
 **Time window:** c. 350–430
 **Region(s):** Antioch
-**Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** PR #179 (merged 2026-09-13)
+**Dossier author:** source-research thread
+**Corpus-map / `cic/texts/` state as of:** PR #179
 
 ## 1. Already assigned
 
@@ -32,9 +32,9 @@ Checked exhaustively (every corpus-map staging file mentioning "Chrysostom" or "
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Dialogue of Palladius Concerning the Life of Chrysostom | Palladius, Bishop of Aspuna | Herbert Moore | 1921 | https://archive.org/details/thedialogueofpal00mooruoft | pd-us-by-date | direct WebFetch verification, 2026-09-13 (publisher, date, translator, `NOT_IN_COPYRIGHT` tag, full-text downloadability all confirmed against the host directly). Queued, status `not-yet-downloaded`. |
+| The Dialogue of Palladius Concerning the Life of Chrysostom | Palladius, Bishop of Aspuna | Herbert Moore | 1921 | https://archive.org/details/thedialogueofpal00mooruoft | pd-us-by-date | direct WebFetch verification (publisher, date, translator, `NOT_IN_COPYRIGHT` tag, full-text downloadability all confirmed against the host directly). Vendored as `palladius_dialogue-life-of-chrysostom_moore1921.txt`. |
 
-A contemporary, sympathetic eyewitness account of Chrysostom's fall and exile — the same shape of gap Possidius' *Life of Augustine* closes for `lpc`. Not currently vendored; only Palladius's separate *Lausiac History* is.
+A contemporary, sympathetic eyewitness account of Chrysostom's fall and exile — the same shape of gap Possidius' *Life of Augustine* closes for `lpc`. Vendored, and assigned to this world's corpus-map bucket; Palladius's separate *Lausiac History* is also vendored.
 
 ## 4. Checked and closed
 

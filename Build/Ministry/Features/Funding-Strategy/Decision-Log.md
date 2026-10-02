@@ -1039,3 +1039,11 @@ contribution data should inform that decision when it comes, not this thread.
 **Next action:** Mark is coordinating directly with the Pilot Spend/Usage Limit thread to launch a
 build thread — no dispatch document needed from here; this entry is the record of what was decided
 and why.
+
+## 2026-10-01 — Notes moved out of `support.html` (pilot readiness fixes)
+
+The comments above the doctype in `cic-website/support.html` were removed, under CLAUDE.md's rule that live files carry no process notes. What they said is kept here.
+
+- **Payment Links.** The page uses two Stripe Payment Links, one-time and monthly, with no server and no account. If either link is rotated, copy the new ID from the Stripe Dashboard's own "Copy link" action rather than retyping it. Confirm the link's mode (one-time or recurring) by opening it. The domain (buy.stripe.com or donate.stripe.com) does not reliably show which mode a link uses.
+- **Cost framing.** The cost section says cost is real and per-turn, says real effort has gone into lowering it, and asks for help. It gives no dollar figure and no itemized breakdown. The measured numbers stay in `engine/m8/reports/`.
+- **Still open.** The page's framing and wording had not been confirmed as the project's public voice. The figures behind it are measured. This needs the project lead's review, and the pay-as-you-go study (2026-10-01) is likely to change it.

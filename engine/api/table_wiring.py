@@ -1051,6 +1051,7 @@ def _handle_table_message_unlocked(
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    daily_turn_cap_reached: bool = False,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1095,6 +1096,7 @@ def _handle_table_message_unlocked(
         track_a_last=state.safety.track_a_last,
         rounds_completed=state.turn_count,
         anachronistic_term_ids=anachronistic_ids,
+        daily_cap_reached=daily_turn_cap_reached,
     )
 
     # The gate payload is written AFTER open_table_round - the bridge branch

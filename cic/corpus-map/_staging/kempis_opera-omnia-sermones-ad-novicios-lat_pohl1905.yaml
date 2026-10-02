@@ -1,7 +1,8 @@
 source_file: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt
 
 assignments:
-  - work: "Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis)"
+  - row_id: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905--opera-omnia-sermones-ad-novicios-vita-lidewigis-virginis
+    work: "Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis)"
     author: kempis
     locus: "Sermones ad Novicios; Vita Lidewigis Virginis"
     atlas_ids:

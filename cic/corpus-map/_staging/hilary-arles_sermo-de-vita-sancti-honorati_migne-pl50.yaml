@@ -1,7 +1,8 @@
 source_file: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
 
 assignments:
-  - work: "Sermo de Vita Sancti Honorati Episcopi Arelatensis (Sermon on the Life of St. Honoratus)"
+  - row_id: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50--sermo-de-vita-sancti-honorati-episcopi-arelatensis-sermon-on
+    work: "Sermo de Vita Sancti Honorati Episcopi Arelatensis (Sermon on the Life of St. Honoratus)"
     author: hilary-arles
     locus: "the sermon itself, Migne PL 50 (extracted excerpt, see file's own header for boundaries -- the file also carries at least one further short genuine letter of Hilary's not separately bounded here, see that header)"
     atlas_ids:

@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: antiochene-exegetical-christianity-chrysostom-ce
 works:
-- work: Res Gestae, Book XXII (this edition''s own Ch. XIII-XIV) - the burning of the temple
+- row_id: ammianus-marcellinus_roman-history_yonge1862--res-gestae-book-xxii-this-edition-s-own-ch-xiii-xiv-the
+  work: Res Gestae, Book XXII (this edition''s own Ch. XIII-XIV) - the burning of the temple
     of Apollo at Daphne, the shutting of the great church of Antioch, and the Antiochenes'
     quarrel with Julian that produced the Misopogon
   author: ammianus-marcellinus
@@ -33,7 +34,8 @@ works:
 
     '
   source_file: ammianus-marcellinus_roman-history_yonge1862.txt
-- work: Constitutions of the Holy Apostles (Apostolic Constitutions)
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--constitutions-of-the-holy-apostles-apostolic-constitutions
+  work: Constitutions of the Holy Apostles (Apostolic Constitutions)
   author: apostolic-constitutions
   locus: div1 9, Books I-VIII
   role: tradition
@@ -47,7 +49,8 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de-2
+  work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
   role: context
@@ -59,7 +62,8 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: A Treatise to Prove that No One Can Harm the Man Who Does Not Injure Himself
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--a-treatise-to-prove-that-no-one-can-harm-the-man-who-does
+  work: A Treatise to Prove that No One Can Harm the Man Who Does Not Injure Himself
   author: chrysostom
   locus: div1 16 — A Treatise to Prove that No One Can Harm...
   role: tradition
@@ -69,7 +73,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: An Exhortation to Theodore After His Fall
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--an-exhortation-to-theodore-after-his-fall
+  work: An Exhortation to Theodore After His Fall
   author: chrysostom
   locus: div1 5 — Letters I-II to Theodore
   role: tradition
@@ -81,13 +86,15 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Commentary on Galatians
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--commentary-on-galatians
+  work: Commentary on Galatians
   author: chrysostom
   locus: div1 3, div2 3.3 — Commentary on Galatians (continuous commentary, not a homily series)
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Eulogy on S. Ignatius
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--eulogy-on-s-ignatius
+  work: Eulogy on S. Ignatius
   author: chrysostom
   locus: div1 7, div2 7.3 — Eulogy (on S. Ignatius of Antioch)
   role: tradition
@@ -98,98 +105,114 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Homilies on Colossians
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-colossians
+  work: Homilies on Colossians
   author: chrysostom
   locus: div1 4, div2 4.4 — the full Colossians series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on Ephesians
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-ephesians
+  work: Homilies on Ephesians
   author: chrysostom
   locus: div1 3, div2 3.4 — the full Ephesians series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on First Corinthians
+- row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-first-corinthians
+  work: Homilies on First Corinthians
   author: chrysostom
   locus: div1 4 — the full 1 Corinthians series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf112_chrysostom-homilies-corinthians.xml
-- work: Homilies on First Thessalonians
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-thessalonians
+  work: Homilies on First Thessalonians
   author: chrysostom
   locus: div1 4, div2 4.5 — the full 1 Thessalonians series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on First Timothy
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-timothy
+  work: Homilies on First Timothy
   author: chrysostom
   locus: div1 5, div2 5.3 — the full 1 Timothy series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on Philemon
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philemon
+  work: Homilies on Philemon
   author: chrysostom
   locus: div1 5, div2 5.6 — the full Philemon series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on Philippians
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philippians
+  work: Homilies on Philippians
   author: chrysostom
   locus: div1 4, div2 4.3 — the full Philippians series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on Second Corinthians
+- row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-second-corinthians
+  work: Homilies on Second Corinthians
   author: chrysostom
   locus: div1 5 — the full 2 Corinthians series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf112_chrysostom-homilies-corinthians.xml
-- work: Homilies on Second Thessalonians
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-thessalonians
+  work: Homilies on Second Thessalonians
   author: chrysostom
   locus: div1 4, div2 4.6 — the full 2 Thessalonians series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on Second Timothy
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-timothy
+  work: Homilies on Second Timothy
   author: chrysostom
   locus: div1 5, div2 5.4 — the full 2 Timothy series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on Titus
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-titus
+  work: Homilies on Titus
   author: chrysostom
   locus: div1 5, div2 5.5 — the full Titus series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
-- work: Homilies on the Acts of the Apostles
+- row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-acts-of-the-apostles
+  work: Homilies on the Acts of the Apostles
   author: chrysostom
   locus: div1 6 — 'A Commentary on the Acts of the Apostles', the full series of fifty-five
     homilies, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf111_chrysostom-homilies-acts-romans.xml
-- work: Homilies on the Epistle to the Hebrews
+- row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-epistle-to-the-hebrews
+  work: Homilies on the Epistle to the Hebrews
   author: chrysostom
   locus: div1 5 — the full Hebrews series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf114_chrysostom-homilies-john-hebrews.xml
-- work: Homilies on the Epistle to the Romans
+- row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-epistle-to-the-romans
+  work: Homilies on the Epistle to the Romans
   author: chrysostom
   locus: div1 7 — the full Romans series, assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf111_chrysostom-homilies-acts-romans.xml
-- work: Homilies on the Gospel of St. John
+- row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-gospel-of-st-john
+  work: Homilies on the Gospel of St. John
   author: chrysostom
   locus: div1 4 — the full John series (eighty-eight homilies), assigned as one work
   role: tradition
   confidence: assigned
   source_file: npnf114_chrysostom-homilies-john-hebrews.xml
-- work: Homilies on the Gospel of St. Matthew
+- row_id: npnf110_chrysostom-homilies-matthew--homilies-on-the-gospel-of-st-matthew
+  work: Homilies on the Gospel of St. Matthew
   author: chrysostom
   locus: div1 3 — the full series of ninety homilies (div2 3.4-3.89), assigned as one work
   role: tradition
@@ -200,7 +223,8 @@ works:
 
     '
   source_file: npnf110_chrysostom-homilies-matthew.xml
-- work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-against-marcionists-and-manichaeans-on-matt-xxvi-19
+  work: Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)
   author: chrysostom
   locus: div1 11 — Against Marcionists and Manichaeans
   role: tradition
@@ -211,19 +235,22 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Homily Against Publishing the Errors of the Brethren
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-against-publishing-the-errors-of-the-brethren
+  work: Homily Against Publishing the Errors of the Brethren
   author: chrysostom
   locus: div1 14 — Against Publishing the Errors of the Brethren
   role: tradition
   confidence: assigned
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Homily Concerning Lowliness of Mind
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-concerning-lowliness-of-mind
+  work: Homily Concerning Lowliness of Mind
   author: chrysostom
   locus: div1 8 — Concerning Lowliness of Mind
   role: tradition
   confidence: assigned
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Homily on the Paralytic Let Down Through the Roof
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-on-the-paralytic-let-down-through-the-roof
+  work: Homily on the Paralytic Let Down Through the Roof
   author: chrysostom
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
     and the Son'
@@ -235,13 +262,15 @@ works:
     is now on the census for exactly the party the volume's own index calls 'Anomoeans, heresy
     of', and is the second id here.
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--homily-to-those-who-had-not-attended-the-assembly-on-rom-xii
+  work: Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)
   author: chrysostom
   locus: div1 13 — To Those Who Had Not Attended the Assembly
   role: tradition
   confidence: assigned
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Instructions to Catechumens
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--instructions-to-catechumens
+  work: Instructions to Catechumens
   author: chrysostom
   locus: div1 9 — First and Second Instruction
   role: tradition
@@ -251,7 +280,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Letter to a Young Widow
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letter-to-a-young-widow
+  work: Letter to a Young Widow
   author: chrysostom
   locus: div1 6 — Letter to a Young Widow
   role: tradition
@@ -261,7 +291,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Letters of St. Chrysostom to Innocent, Bishop of Rome
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-innocent-bishop-of-rome
+  work: Letters of St. Chrysostom to Innocent, Bishop of Rome
   author: chrysostom
   locus: div1 18, div2 18.3-18.4 — Chrysostom's two letters to Innocent
   role: tradition
@@ -271,7 +302,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-st-chrysostom-to-olympias-with-letter-to-the
+  work: Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)
   author: chrysostom
   locus: div1 17 — Letters to Olympias (div2 17.3-17.7) and to Castus, Valerius, Diophantus,
     Cyriacus, Presbyters of Antioch (17.8)
@@ -284,7 +316,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: On the Holy Martyr, S. Babylas
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--on-the-holy-martyr-s-babylas
+  work: On the Holy Martyr, S. Babylas
   author: chrysostom
   locus: div1 7, div2 7.4 — On the Holy Martyr, S. Babylas
   role: tradition
@@ -294,7 +327,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: The Homilies on the Statues to the People of Antioch
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--the-homilies-on-the-statues-to-the-people-of-antioch
+  work: The Homilies on the Statues to the People of Antioch
   author: chrysostom
   locus: div1 19 — Homilies I-XXI, one series preached at Antioch after the riot of 387; assigned
     as one work
@@ -308,13 +342,15 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Three Homilies Concerning the Power of Demons
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--three-homilies-concerning-the-power-of-demons
+  work: Three Homilies Concerning the Power of Demons
   author: chrysostom
   locus: div1 10 — Homilies I-III
   role: tradition
   confidence: assigned
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Treatise Concerning the Christian Priesthood (De Sacerdotio)
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--treatise-concerning-the-christian-priesthood-de-sacerdotio
+  work: Treatise Concerning the Christian Priesthood (De Sacerdotio)
   author: chrysostom
   locus: div1 4 — Treatise Concerning the Christian Priesthood, Books I-VI
   role: tradition
@@ -325,7 +361,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: Two Homilies on Eutropius
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--two-homilies-on-eutropius
+  work: Two Homilies on Eutropius
   author: chrysostom
   locus: div1 15 — Homilies I-II on Eutropius
   role: tradition
@@ -338,7 +375,8 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+- row_id: npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2
+  work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
     Anathemas Against Origen'
   author: council-of-constantinople-553
   locus: div1 12
@@ -353,7 +391,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+- row_id: npnf214_seven-ecumenical-councils--the-council-of-ephesus-431-extracts-from-the-acts-decree-2
+  work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10
   role: context
@@ -365,7 +404,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+- row_id: npnf214_seven-ecumenical-councils--the-epistles-of-cyril-of-alexandria-second-and-third-letters-2
+  work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
     Anathematisms, and the Letter to John of Antioch)
   author: cyril_alexandria
   locus: div2 10.5, 10.8-10.9, 11.5
@@ -377,7 +417,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: Letters of Innocent of Rome concerning Chrysostom
+- row_id: npnf109_chrysostom-priesthood-ascetic-homilies-statutes--letters-of-innocent-of-rome-concerning-chrysostom
+  work: Letters of Innocent of Rome concerning Chrysostom
   author: innocent_rome
   locus: div1 18, div2 18.5-18.6 — Innocent to John; Innocent to the clergy and people of
     Constantinople
@@ -391,7 +432,61 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: The Ecclesiastical History of Socrates Scholasticus
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-john-chrysostom-byzantine-form
+  work: Liturgy of S. John Chrysostom (Byzantine form)
+  author: liturgy-of-st-john-chrysostom
+  locus: file lines about 5500-7300 (the Chrysostom section; page header 'SAINT CHRYSOSTOM'
+    runs from line 5821 to 7242)
+  role: context
+  confidence: assigned
+  note: 'The rite attributed to John Chrysostom, in Neale''s English. Context only: the surviving
+    Byzantine text is a later redaction and cannot be shown to be his. His own sermons and
+    treatises are the tradition''s voice.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+- row_id: palladius_dialogue-life-of-chrysostom_moore1921--dialogue-concerning-the-life-of-chrysostom
+  work: Dialogue Concerning the Life of Chrysostom
+  author: palladius
+  locus: whole text; the Synod of the Oak and Theophilus, file lines about 2000-2800; Chrysostom's
+    exile, about 6150-6320
+  role: tradition
+  confidence: assigned
+  note: 'A partisan defence of Chrysostom written within about twenty years of his death by
+    an ally, so it is an inside voice with an agenda. Vendored to answer this world''s Palladius
+    source-readiness gap. The author''s identity is Herbert Moore''s argued identification
+    with the Palladius of the Lausiac History; the file does not settle it. The Greek OCR
+    is garbled, the English is readable. Moore''s introduction and notes are 1921 commentary.
+
+    '
+  source_file: palladius_dialogue-life-of-chrysostom_moore1921.txt
+- row_id: palladius_lausiac-history--lausiac-history-6
+  work: Lausiac History
+  author: palladius
+  locus: 'Chapter LVI (Olympias, file lines 547-549); Chapter XLI (Holy Women: the deaconess
+    Sabaniana, aunt of John the bishop of Constantinople, file line 477); Chapter XXXV (Palladius
+    "embroiled in the disturbance connected with the blessed John", file line 427); Chapter
+    LXI (Palladius''s journey to Rome "because of the blessed bishop John", file line 583)
+
+    '
+  role: context
+  confidence: provisional
+  note: 'Placed for the Antiochene Exegetical Christianity world''s Source Ecology (Doc_02
+    section 6), which draws on it for one question: whether Olympias, the deaconess to whom
+    much of Chrysostom''s exile correspondence is addressed, is attested by a second author.
+    Read directly against the vendored file: Chapter LVI praises her and names her descent;
+    Chapter XLI names Sabaniana. The same text shows Palladius is not independent of Chrysostom''s
+    circle: Chapter XXXV says he was "embroiled in the disturbance connected with the blessed
+    John", and Chapter LXI says he went to Rome "because of the blessed bishop John". `role:
+    context`, because he is a partisan of Chrysostom writing about a figure in his circle,
+    not an Antiochene voice; `provisional`, because only these four chapters bear on this
+    world. The same file stays with the desert, Palestinian, Alexandrian, Edessan and Hieronymian
+    assignments above.
+
+    '
+  source_file: palladius_lausiac-history_clarke1918.txt
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2
+  work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
     Novatianist notices throughout
@@ -408,7 +503,8 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- work: The Ecclesiastical History of Sozomen
+- row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
+  work: The Ecclesiastical History of Sozomen
   author: sozomen
   locus: div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16
     (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)
@@ -424,7 +520,8 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
-- work: Dialogues (Eranistes)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes
+  work: Dialogues (Eranistes)
   author: theodoret
   locus: div2 3.9 — The 'Eranistes' or 'Polymorphus'
   role: tradition
@@ -434,7 +531,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Letters of the Blessed Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--letters-of-the-blessed-theodoret
+  work: Letters of the Blessed Theodoret
   author: theodoret
   locus: div2 3.10 — Letters of the Blessed Theodoret, Bishop of Cyprus [sic; Cyrus]
   role: tradition
@@ -446,7 +544,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: The Anathemas of Cyril with the Counter-statements of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-anathemas-of-cyril-with-the-counter-statements-of
+  work: The Anathemas of Cyril with the Counter-statements of Theodoret
   author: theodoret
   locus: div2 3.6-3.7 — The Anathemas of Cyril in Opposition to Nestorius; Counter-statements
     of Theodoret
@@ -460,7 +559,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: The Ecclesiastical History of Theodoret
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret
+  work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — The Ecclesiastical History of Theodoret (323-428)
   role: tradition

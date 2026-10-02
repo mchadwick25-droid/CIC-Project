@@ -2,13 +2,11 @@
 (Tech-Readiness P1-Security item 3 — OWASP LLM Top 10 "unbounded
 consumption"). Feature-flagged via CIC_API_ANON_CAP_ENABLED — the code
 default stays off (a fresh/local/test app opts in explicitly), but both
-real deployments turn it on (render.yaml, Mark, 2026-09-28: turning the
-whole feature on, cap and visitor cookie together, was the simpler of the
-two options weighed against decoupling them). The cap mechanism/numbers
-below are still the PROPOSED default, not independently re-tuned as part
-of that decision; see Build/Ministry/Operations/Audits/Tech-Readiness-
-2026-09/P1-Security/Report.md for the 2-3 options this was chosen from
-and why.
+real deployments turn it on (render.yaml), so the cap and the visitor
+cookie run together. The cap mechanism/numbers below are the proposed
+default; see Build/Ministry/Operations/Audits/Tech-Readiness-
+2026-09/P1-Security/Report.md for the options this was chosen from and
+why.
 
 Why a second, per-visitor mechanism on top of engine/api/ratelimit.py's
 per-IP sliding window: that limiter already bounds *burst* rate (6
@@ -34,7 +32,7 @@ restart resets every visitor's count to zero; that's an acceptable
 false-negative for a soft abuse deterrent, not a hard security boundary,
 and matches the existing limiter's own accepted tradeoff.
 
-The visitor id itself is a second thing entirely (Mark, 2026-09-28):
+The visitor id itself is a separate concern:
 install() below also hands the verified-or-freshly-minted id to the
 request as `request.state.visitor_id`, BEFORE the route handler runs, so
 engine.api.wiring.create_session can write it onto that session's own
@@ -73,10 +71,9 @@ DEFAULT_DAILY_TURN_LIMIT = 150
 # Chrome (and Chromium-based browsers) caps any Set-Cookie Max-Age at 400
 # days and silently clamps a longer one, so asking for more would just be
 # asking for the same 400 with extra steps. Needs to be long because the
-# usage dashboard's unique-visitor count (Mark, 2026-09-28) depends on
-# this cookie surviving from one visit to the next across a pilot that
-# may run for months — the old 2-day value was sized only for the daily
-# cap's own bucket, never for recognizing a returning visitor.
+# usage dashboard's unique-visitor count depends on this cookie surviving
+# from one visit to the next across a pilot that may run for months; the
+# daily cap's own bucket would need only a couple of days.
 VISITOR_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 400
 
 CAP_DETAIL = "You've reached today's limit for new conversations - please come back tomorrow, or reach out if this doesn't seem right."
@@ -245,6 +242,14 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
         bucket_key = visitor_id or f"ip:{ip}"
 
         allowed = limiter.allow_session(bucket_key) if is_create else limiter.allow_turn(bucket_key)
+        if not allowed and request.url.path.endswith("/message"):
+            # A participant message over the daily cap still reaches the
+            # safety gate, so a real crisis gets the Facilitator's redirect.
+            # Anything else closes the session there (engine.m4.turn.run_turn,
+            # engine.m4.round.open_table_round). It is not counted, and no
+            # token is minted for it.
+            request.state.daily_turn_cap_reached = True
+            return await call_next(request)
         if not allowed:
             return JSONResponse(status_code=429, content={"detail": CAP_DETAIL if is_create else TURN_CAP_DETAIL})
 

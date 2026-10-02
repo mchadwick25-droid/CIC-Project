@@ -1,7 +1,8 @@
 source_file: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt
 
 assignments:
-  - work: "Morals on the Book of Job (Moralia in Job), Books XXX-XXXV"
+  - row_id: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850--morals-on-the-book-of-job-moralia-in-job-books-xxx-xxxv
+    work: "Morals on the Book of Job (Moralia in Job), Books XXX-XXXV"
     author: gregory
     locus: "whole text - Vol. III, Second Part, Books XXX-XXXV (completing
       the work)"

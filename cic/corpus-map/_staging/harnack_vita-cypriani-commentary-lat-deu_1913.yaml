@@ -1,7 +1,8 @@
 source_file: harnack_vita-cypriani-commentary-lat-deu_1913.txt
 
 assignments:
-  - work: "Das Leben Cyprians von Pontius: Die erste christliche Biographie, untersucht von Adolf Harnack"
+  - row_id: harnack_vita-cypriani-commentary-lat-deu_1913--das-leben-cyprians-von-pontius-die-erste-christliche
+    work: "Das Leben Cyprians von Pontius: Die erste christliche Biographie, untersucht von Adolf Harnack"
     author: harnack
     locus: "whole file (Latin text of the Vita with Harnack's own critical notes, German commentary, and German translation)"
     atlas_ids:

@@ -5,7 +5,8 @@
 source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
 
 assignments:
-  - work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix
+    work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
     author: gregory
     locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books I-VIII)
     atlas_ids:
@@ -19,7 +20,8 @@ assignments:
 
       '
 
-  - work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--register-of-the-epistles-of-st-gregory-the-great-books-ix-2
+    work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
     author: gregory
     locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books I-VIII)
     atlas_ids:
@@ -38,7 +40,8 @@ assignments:
 
       '
 
-  - work: "The Nisibene Hymns"
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--the-nisibene-hymns
+    work: "The Nisibene Hymns"
     author: ephraim
     locus: "div2 3.4 — Ephraim Syrus: The Nisibene Hymns"
     atlas_ids:
@@ -51,7 +54,8 @@ assignments:
       Prose Refutations are a standalone volume held by another worker; note
       the author split across files.
 
-  - work: "Nineteen Hymns on the Nativity of Christ in the Flesh"
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--nineteen-hymns-on-the-nativity-of-christ-in-the-flesh
+    work: "Nineteen Hymns on the Nativity of Christ in the Flesh"
     author: ephraim
     locus: "div2 3.5 — Hymns on the Nativity"
     atlas_ids:
@@ -62,7 +66,8 @@ assignments:
       Ephraim's Nativity cycle - Syriac symbolic theology at full strength;
       core tradition material for the built world.
 
-  - work: "Fifteen Hymns for the Feast of the Epiphany"
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--fifteen-hymns-for-the-feast-of-the-epiphany
+    work: "Fifteen Hymns for the Feast of the Epiphany"
     author: ephraim
     locus: "div2 3.6 — Hymns for the Feast of the Epiphany"
     atlas_ids:
@@ -74,7 +79,8 @@ assignments:
       authenticity for parts of the cycle, but CCEL attributes the section
       to ephraim and that attribution is followed.
 
-  - work: "The Pearl: Seven Hymns on the Faith"
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--the-pearl-seven-hymns-on-the-faith
+    work: "The Pearl: Seven Hymns on the Faith"
     author: ephraim
     locus: "div2 3.7 — The Pearl"
     atlas_ids:
@@ -85,7 +91,8 @@ assignments:
       Seven hymns from the Hymns on the Faith, on the pearl as image of
       Christ and the faith.
 
-  - work: "Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)"
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--three-homilies-on-our-lord-on-admonition-and-repentance-on
+    work: "Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)"
     author: ephraim
     locus: "div2 3.8 — Ephraim Syrus: Three Homilies"
     atlas_ids:
@@ -96,7 +103,8 @@ assignments:
       The volume's selection of Ephraim's metrical homilies, kept as the one
       body the heading presents.
 
-  - work: "Select Demonstrations of Aphrahat"
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat
+    work: "Select Demonstrations of Aphrahat"
     author: aphrahat
     locus: "div2 3.9 — Aphrahat: Select Demonstrations"
     atlas_ids:

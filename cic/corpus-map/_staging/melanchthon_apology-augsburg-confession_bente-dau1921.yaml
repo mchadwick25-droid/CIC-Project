@@ -3,7 +3,8 @@
 source_file: melanchthon_apology-augsburg-confession_bente-dau1921.txt
 
 assignments:
-  - work: The Apology of the Augsburg Confession
+  - row_id: melanchthon_apology-augsburg-confession_bente-dau1921--the-apology-of-the-augsburg-confession
+    work: The Apology of the Augsburg Confession
     author: melanchthon
     locus: "whole file"
     atlas_ids:

@@ -1,7 +1,8 @@
 source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
 
 assignments:
-  - work: "The Spiritual Exercises of St. Ignatius"
+  - row_id: ignatius-loyola_spiritual-exercises_mullan1914--the-spiritual-exercises-of-st-ignatius
+    work: "The Spiritual Exercises of St. Ignatius"
     author: ignatius-loyola
     locus: "whole text"
     atlas_ids:

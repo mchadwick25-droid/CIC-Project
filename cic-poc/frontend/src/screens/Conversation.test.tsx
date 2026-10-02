@@ -44,6 +44,21 @@ const baseProps = {
 };
 
 describe('Conversation', () => {
+  it('shows the reply so far while the voice is still writing, and drops the waiting note', () => {
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} isLoading draft="We told what we had been told. " />);
+    expect(container.querySelectorAll('.turn--voice')).toHaveLength(1);
+    expect(container.querySelector('.turn--voice')?.textContent).toContain('We told what we had been told.');
+    expect(queryByText(/is considering/)).toBeNull();
+  });
+
+  it('keeps the waiting note until the first sentence of the reply arrives', () => {
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} isLoading draft="" />);
+    expect(container.querySelectorAll('.turn--voice')).toHaveLength(0);
+    expect(queryByText(/is considering/)).not.toBeNull();
+  });
+
   it('does not render a modern-term mark for a facilitator turn with no cards', () => {
     const turns: ConversationTurn[] = [{ speaker: 'facilitator', text: 'Welcome.', kind: 'door' }];
     const { container } = render(<Conversation {...baseProps} turns={turns} />);
@@ -87,5 +102,13 @@ describe('Conversation', () => {
     ];
     const { container } = render(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(0);
+  });
+
+  it('states that the voice is AI before the first message, and not after', () => {
+    const { container, rerender } = render(<Conversation {...baseProps} turns={[]} />);
+    expect(container.querySelector('.ai-note')?.textContent).toContain('Vera is an AI voice');
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Hello' }];
+    rerender(<Conversation {...baseProps} turns={turns} />);
+    expect(container.querySelector('.ai-note')).toBeNull();
   });
 });

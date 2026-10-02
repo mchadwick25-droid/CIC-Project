@@ -6107,3 +6107,67 @@ mechanism works, and this entry does not claim it is. Before
 false-positive class named above needs either a fix or a measured
 sense of how often it fires - neither exists yet. That is the managing
 thread's own next decision to make, not assumed here.
+
+**Entry 80 — 2026-10-02.** Coordination entry before editing `engine/m4/turn.py`, `engine/m4/round.py` and `engine/m4/facilitator_turns.py`, for the P1-Security daily-cap ruling (P1-Security Decision-Log entry 10, "Item 9b ruled"). `run_turn` and `open_table_round` gain a `daily_cap_reached` flag, checked beside the session cap after the gate and before any voice call, with the same acute-crisis exemption. `facilitator_turns` gains `daily_cap_turn`, a close-kind template. No change to the gate, routing, grounding, citation or transparency code this workstream owns.
+
+**Entry 81 — 2026-10-02.** The conversation system design was approved to proceed (System Hub Decision Log, "Conversation system design: approved to proceed, Design C"). Its five change orders on the Program Spec are entered in `Rulings-Pending.md` as R43 to R47. R47, the citation mechanism, is ruled (Mark's decision 10): native API citations replace the hand-copied citation ids, and R9, R10, R17 and the R27 family keep their meaning, marks, placement and cap. It is not trusted until E1's third arm proves it. R43 to R46 are pending. No code changes in this entry.
+
+**Entry 82 — 2026-10-02.** Slice 0 of the conversation system design: the standing-measure suite and the baseline band. `engine/m7/standing_measure.py` scores each world-run from the saved admission transcripts with no model call, and computes the band across the three baseline runs (`engine/m7/band/baseline-2026-10-02.json`). The transcripts are 33 runs, 11 worlds three times each, on the packages pinned on 2026-10-02, voice model `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, self-revision not in the harness path, in `engine/m3/reports/baseline-2026-10-02/`. Every world passed 28 of 28 in every run. Metered cost of the baseline including its sample: $16.81.
+
+Fleet row (mean of world means, with the lowest and highest world):
+
+| Dimension | Mean | Min | Max |
+|---|---|---|---|
+| cutoff_rate | 0.016234 | 0.0 | 0.059524 |
+| distinctness_overlap | 0.015662 | 0.013656 | 0.017018 |
+| invented_ids_per_100_sentences | 0.448152 | 0.0 | 1.392335 |
+| pass_rate | 1.0 | 1.0 | 1.0 |
+| readability_fk_median | 8.23147 | 7.000698 | 10.078949 |
+| readability_fre_median | 68.175673 | 59.098508 | 73.835535 |
+| seconds_to_first_text_median | 1.466182 | 1.342167 | 1.6205 |
+| seconds_total_median | 12.31597 | 10.461833 | 14.68 |
+| usd_per_reply_mean | 0.017526 | 0.011972 | 0.025153 |
+| withheld_mark_rate | 0.074007 | 0.029055 | 0.108164 |
+| words_median | 270.681818 | 237.0 | 320.5 |
+
+Invented ids, withheld marks and cut-offs are noisy at this sample size: several worlds' half-range exceeds a third of their mean, because each world has only a handful of such events in 84 replies. The other dimensions are steady across runs.
+
+Eleven dimensions are not computed yet, each named in the band file with the slice or instrument that supplies it: meaning fit, citation support, honest-limit honesty, first sentence answers the first ask, asks covered, restating the participant, horizon leaks, future-leak rate, quote verbatim, safety routing, and full-turn cost and delay.
+
+Open: the risk guard's staleness half. The suite's test fails when the band file is missing or does not reproduce from the transcripts. It does not yet fail when a later slice changes a measured surface without a fresh band; that needs a definition of the measured surfaces, which slice 3 (the shape segment, the first change to one) supplies.
+
+**Entry 83 — 2026-10-02.** Slice 1 of the conversation system design, the remaining two production fixes. The self-revision setting was fixed earlier the same day (#699). (1) The voice model is pinned in `render.yaml` on both services to `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, the exact profile the baseline band was measured on, the way the safety model was already pinned. It no longer floats on a pattern. (2) `engine/m8/price_tables.py` prices by model: `price_for_model` matches the model family inside the provider's model id, and `price_for_call` keeps preflight unpriced. The usage dashboard (`engine/api/wiring.py`) now prices each call by the model it actually ran on, not by its call kind, so a model change can no longer be priced at the old model's rates. Rows exist for Sonnet 4.5, Haiku 4.5, Sonnet 5.5 and Opus 5.5. The 5-family rates are Anthropic's published first-party rates; Bedrock's rates for them are not independently verified. The offline run scripts in `engine/m8` and `engine/m4` still price by call kind for their fixed models; they move when they next change.
+
+**Entry 84 — 2026-10-02.** Matcher recall measured before E1, at no API cost, from the 33 baseline runs. This is the risk guard set for the case: a poor number redesigns E1 rather than running it.
+
+- Of the distinct records a reply cited, 30.7% carry the probe's own cell in `canon_cells`, so a one-cell dossier would have held them. With two cells, the second chosen with hindsight to cover the most citations, the share is 68.9%. This is an upper bound.
+- Lowest one-cell worlds: cappadocian 15.4%, gallic 20.1%, rzg 22.5%. Highest: alx 43.3%.
+- 416 of the 3,787 cited records (11%) have no cell and sit outside every dossier; cappadocian 188, gallic 91, witt 59.
+- The deterministic matcher (`engine.m4.evidence.match_asks_to_cells`, top 2, no ask decomposition) puts the sealed cell first on 76 of 308 probes (24.7%) and in its top two on 101 (32.8%).
+- Caveat: today's replies draw on the whole world, so a low share shows how broadly the voice cites, not that every out-of-dossier citation was needed.
+
+The guard tripped. The project lead ruled the same day: hold E1 and diagnose first. Two checks come before a redesigned E1 is brought back to him: (1) recall measured again once the records with no cells are routed, which the use-note work already plans; (2) an Opus grade of a sample of the out-of-dossier citations, load-bearing or not, run offline at batch price, sample first, with settings printed and a cap stated.
+
+**Entry 85 — 2026-10-02.** First diagnostic for the E1 hold (Entry 84), free. Counting only cited records that carry at least one cell, one-cell dossier recall is 34.5% fleet-wide (3,371 cited records; alx 43.6%, rzg 23.5%, gallic 25.6%), against 30.7% over all cited records. Missing cells explain about four points. The rest is breadth: replies cite records filed under other cells (cited kinds: 905 terms, 796 doctrinal witnesses, 481 quotes, 459 stories, 342 gravities, 232 honest limits). Whether those out-of-cell citations are load-bearing is the deciding question, and the Opus sample grade answers it.
+
+**Entry 86 — 2026-10-02.** Second diagnostic for the E1 hold (Entry 84): are out-of-dossier citations load-bearing? Sample: 110 cited records outside the probe's cell, 10 per world, drawn with seed 20261002 by `engine/m3/dossier_citation_grade.py` from run 1 of the baseline. The answers are the engine's own (Bedrock Sonnet 4.5, the baseline replies). The review was done by Opus inside the build session, not through Bedrock: the project lead ruled the same day that Bedrock spend is for generating conversation, and review runs internally. An earlier 11-item sample through the script with Sonnet 4.5 as grader cost $0.027 and is not counted in the result.
+
+Result: 53 load-bearing (48%), 47 supporting, 10 incidental. By record type, load-bearing share: doctrinal witnesses 20 of 28 (71%), stories 16 of 24 (67%), gravities 5 of 11, honest limits 2 of 4, quotes 4 of 15 (27%), terms 6 of 27 (22%). By world it ranges from rzg 2 of 10 to pahc and witt 7 of 10. Read with Entry 84: about two thirds of what replies cite sits outside the probe's cell, and about half of that carries the claim, so a one-cell dossier would drop roughly a third of load-bearing citations. Witnesses and stories do their work across cells; terms mostly add colour.
+
+Side finding: in about 8 of the 110 the reviewers judged that the sentence claims more than its cited record says, or draws on a different record than the one cited. This is a grounding matter independent of layout, and the meaning-fit grader is to track it.
+
+Opus 5.5 and Opus 4.8 are refused for these AWS credentials (403); Sonnet 4.5 and Haiku 4.5 are the models available on Bedrock.
+
+**Entry 87 — 2026-10-02.** The project lead ruled on the E1 redesign (System Hub decision 20, change order CO-7): a cell's dossier holds the cell's own records plus all of the world's doctrinal witnesses and stories, and terms reach the voice through the index and the glosses. Free re-measure on the baseline: the share of cited records the dossier would hold rises from 30.7% to 54.3% fleet-wide (lowest rzg 38%, highest desert and hal 63%). Witnesses and stories are about 10% to 27% of a world's records by size, and an average cell about 1% to 5%. The share of load-bearing citations held is higher than 54%, since witnesses and stories carried most of the load-bearing out-of-cell citations (Entry 86). E1's settings, run on this layout, come back to the project lead before it runs.
+
+**Entry 88 — 2026-10-02.** E1 prototype, and the layout decision it led to (System Hub decision 21, change order CO-8). `engine/m3/e1_layout.py` splits a compiled prompt into header, per-record blocks, the shared Gravities and Quotes lists, and footer, and rejoins it byte for byte on all eleven worlds. Assembled under decision 20 (the matched cells' records plus every doctrinal witness and story, plus a one-line index of the world), the cell-dossier prompt came to 74% (gallic) to 95% (pahc) of the whole-world prompt, 84% to 92% for most worlds, because witnesses, stories and the shared lists carry most of a world's text. The project lead ruled the same day: one whole-world prompt for every world. E1 narrows to native citations against the hand-copied ids on that prompt (`WholeWorldNativeAnswerer`, arm `native-whole`): every per-record block and every line of the Gravities and Quotes lists is one citable document titled with its record id, the Citation contract body becomes one sentence, the cache breakpoint sits on the last document, and nothing else changes. The twenty cross-cell questions drafted for the dossier test are shelved with it and were never sealed.
+
+He also stated the boundary rule for the voice in his words: "the representitive should always be bound by what the world would know. i dont know is better than stepping outside of the world sources", and "if pressure on the representitive is strong, the facilitator can step in and explain the boundry."
+
+**Entry 89 — 2026-10-02.** E1 result: native citations on the whole-world prompt, all eleven worlds, one run each (`engine/m3/reports/e1/`), metered $7.97 including the alx sample. Every world passed 28 of 28. Against the baseline, the native arm cited fewer distinct records per reply in seven of eleven worlds (alx, don, gallic, hal, ijc, pahc, syr), with reply length about the same, and still left hand-typed `[[id]]` tags in the text in five worlds (pahc 10 replies, ijc 3, syr 2, desert 1, hal 1), because the turn's evidence block prints ids.
+
+Blind review: 33 pairs, three per world, baseline run 1 against the native run, arm labels hidden and shuffled, reviewed by Opus inside the build session. Better grounded: baseline 15, native 7, tie 11. Specific claims not carried by a cited record's text: native 66 of 276 (23.9%), baseline 54 of 272 (19.9%). Meaning fit "stretched": native 9 of 33, baseline 6 of 33. One answer per arm stepped outside its world (the same pair, both answers). The reviewer counted claims that plausibly sat past the 700-character record excerpt as supported.
+
+The project lead ruled the same day (System Hub decision 22): decision 10's change is not adopted. R9, R10, R17 and the R27 family stay on the hand-copied citation-id contract, and R47 records the outcome. The native arm is shelved with these findings; a retry would first need an evidence block that prints no ids.
+
+Separately, about one specific claim in five in today's replies is not carried by the text of a record it cites. That is the grounding gap the meaning-fit dimension exists to measure, and it moves forward: claim support against cited records becomes a measured dimension, reviewed internally by Opus, ahead of the use-note work.

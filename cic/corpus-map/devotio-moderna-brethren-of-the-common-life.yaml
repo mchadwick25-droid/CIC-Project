@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: devotio-moderna-brethren-of-the-common-life
 works:
-- work: Chronicon Windeshemense und Liber de Reformatione Monasteriorum
+- row_id: busch_chronicon-windeshemense-lat_grube1886--chronicon-windeshemense-und-liber-de-reformatione
+  work: Chronicon Windeshemense und Liber de Reformatione Monasteriorum
   author: busch
   locus: whole volume
   role: context
@@ -17,7 +18,8 @@ works:
 
     '
   source_file: busch_chronicon-windeshemense-lat_grube1886.txt
-- work: Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)
+- row_id: groote_epistolae-xiv-lat_acquoy1857--gerardi-magni-epistolae-xiv-fourteen-letters-of-gerard
+  work: Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)
   author: groote
   locus: whole text (fourteen letters, Latin, with editor's scholarly introductions)
   role: tradition
@@ -31,7 +33,8 @@ works:
 
     '
   source_file: groote_epistolae-xiv-lat_acquoy1857.txt
-- work: Opera Omnia (De Vera Compunctione, Sermones)
+- row_id: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902--opera-omnia-de-vera-compunctione-sermones
+  work: Opera Omnia (De Vera Compunctione, Sermones)
   author: kempis
   locus: De vera compunctione, Sermones IX, and further sermon material
   role: tradition
@@ -45,7 +48,8 @@ works:
 
     '
   source_file: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt
-- work: Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis)
+- row_id: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905--opera-omnia-sermones-ad-novicios-vita-lidewigis-virginis
+  work: Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis)
   author: kempis
   locus: Sermones ad Novicios; Vita Lidewigis Virginis
   role: tradition
@@ -60,7 +64,8 @@ works:
 
     '
   source_file: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt
-- work: Opera Omnia (Tractatus Prioris Pars Prior)
+- row_id: kempis_opera-omnia-tractatus-lat_pohl1902--opera-omnia-tractatus-prioris-pars-prior
+  work: Opera Omnia (Tractatus Prioris Pars Prior)
   author: kempis
   locus: Tractatus prioris pars prior
   role: tradition
@@ -74,7 +79,8 @@ works:
 
     '
   source_file: kempis_opera-omnia-tractatus-lat_pohl1902.txt
-- work: Opera Omnia (Vallis Liliorum, and further minor works)
+- row_id: kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918--opera-omnia-vallis-liliorum-and-further-minor-works
+  work: Opera Omnia (Vallis Liliorum, and further minor works)
   author: kempis
   locus: Vallis Liliorum and following
   role: tradition
@@ -88,7 +94,8 @@ works:
 
     '
   source_file: kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt
-- work: The Chronicle of the Canons Regular of Mount St. Agnes
+- row_id: kempis_chronicle-of-mount-st-agnes_arthur1906--the-chronicle-of-the-canons-regular-of-mount-st-agnes
+  work: The Chronicle of the Canons Regular of Mount St. Agnes
   author: kempis
   locus: whole volume
   role: tradition
@@ -99,7 +106,8 @@ works:
 
     '
   source_file: kempis_chronicle-of-mount-st-agnes_arthur1906.txt
-- work: 'The Founders of the New Devotion: Being the Lives of Gerard Groote, Florentius Radewin
+- row_id: kempis_founders-of-the-new-devotion_arthur1905--the-founders-of-the-new-devotion-being-the-lives-of-gerard
+  work: 'The Founders of the New Devotion: Being the Lives of Gerard Groote, Florentius Radewin
     and Their Followers'
   author: kempis
   locus: whole text
@@ -111,7 +119,8 @@ works:
 
     '
   source_file: kempis_founders-of-the-new-devotion_arthur1905.txt
-- work: The Imitation of Christ
+- row_id: kempis_imitation-of-christ_benham1886--the-imitation-of-christ
+  work: The Imitation of Christ
   author: kempis
   locus: whole text (four books)
   role: tradition
@@ -124,7 +133,8 @@ works:
 
     '
   source_file: kempis_imitation-of-christ_benham1886.txt
-- work: The Little Garden of Roses and Valley of Lilies
+- row_id: kempis_little-garden-of-roses-and-valley-of-lilies_1867--the-little-garden-of-roses-and-valley-of-lilies
+  work: The Little Garden of Roses and Valley of Lilies
   author: kempis
   locus: whole volume
   role: tradition
@@ -133,7 +143,8 @@ works:
 
     '
   source_file: kempis_little-garden-of-roses-and-valley-of-lilies_1867.txt
-- work: 'The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus)'
+- row_id: zerbolt_spiritual-ascent_arthur1908--the-spiritual-ascent-a-devotional-treatise-de-spiritualibus
+  work: 'The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus)'
   author: zerbolt
   locus: whole volume
   role: tradition

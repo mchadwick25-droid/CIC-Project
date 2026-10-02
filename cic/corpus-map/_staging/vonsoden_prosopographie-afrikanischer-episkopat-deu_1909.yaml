@@ -1,7 +1,8 @@
 source_file: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
 
 assignments:
-  - work: "Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians"
+  - row_id: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909--die-prosopographie-des-afrikanischen-episkopats-zur-zeit
+    work: "Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians"
     author: vonsoden
     locus: "whole file (pp. 247-270 of Quellen und Forschungen aus italienischen Archiven und Bibliotheken, Band XII)"
     atlas_ids:

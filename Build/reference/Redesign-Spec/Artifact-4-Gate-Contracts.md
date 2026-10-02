@@ -17,7 +17,7 @@ Never shares a prompt, code path, or deploy with anything that gets iterated on.
 }
 ```
 
-`acute_level`: a1 = distress/passive ideation; a2 = plan or intent. Both route identically (Facilitator safety turn, resources appended by code); the level is recorded for audit priority. `risk_subject` (added 2026-08-21, live safety-script batch 3 scenario s12): whose risk ACUTE_DISTRESS describes — `self` when the participant's own words describe risk to themselves, `third_party` when the participant is relaying someone else's disclosed risk (a family member, a friend). Only meaningful when `signal == ACUTE_DISTRESS`; `not_applicable` for every other signal, same discipline as `acute_level`. A third-party disclosure still routes to the Facilitator safety turn (rule 1) — `risk_subject` doesn't change routing, it's carried through so the safety turn's content (and audit trail) can address the actual situation rather than assuming the participant is personally at risk. Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code, never asked of any model.
+`acute_level`: a1 = distress/passive ideation; a2 = plan or intent. Both route identically (Facilitator safety turn, resources appended by code); the level is recorded for audit priority. `risk_subject`: whose risk ACUTE_DISTRESS describes — `self` when the participant's own words describe risk to themselves, `third_party` when the participant is relaying someone else's disclosed risk (a family member, a friend). Only meaningful when `signal == ACUTE_DISTRESS`; `not_applicable` for every other signal, same discipline as `acute_level`. A third-party disclosure still routes to the Facilitator safety turn (rule 1) — `risk_subject` doesn't change routing, it's carried through so the safety turn's content (and audit trail) can address the actual situation rather than assuming the participant is personally at risk. Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code, never asked of any model.
 
 ## 2. Call B — unified reader
 
@@ -38,7 +38,7 @@ Never shares a prompt, code path, or deploy with anything that gets iterated on.
 ## 3. Routing (deterministic merge, in priority order)
 
 1. `safety.signal ∈ {ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL}` → Facilitator safety turn (immediate, no ladder); Track A/B behavior per spec §8; message withheld from the voice while safety has the floor (with Mark's empathy-routing nuance as specified).
-2. `safety.signal == AMBIGUOUS_LOW_CONFIDENCE` → Facilitator check-in turn: a softer, safety-aware acknowledgment short of the full safety turn (no resources appended, no track opened) — outranks rules 3-5 below, so a possible disclosure the safety call itself flagged as uncertain is never silently answered as if it were an ordinary or out-of-scope question. Added 2026-08-21 after live safety-script batch 2 (scenario s9, an adversarial hypothetical-framed disclosure) showed AMBIGUOUS_LOW_CONFIDENCE falling through to ordinary routing under the original rule set.
+2. `safety.signal == AMBIGUOUS_LOW_CONFIDENCE` → Facilitator check-in turn: a softer, safety-aware acknowledgment short of the full safety turn (no resources appended, no track opened) — outranks rules 3-5 below, so a possible disclosure the safety call itself flagged as uncertain is never silently answered as if it were an ordinary or out-of-scope question.
 3. `out_of_scope.class == system_nature` → Facilitator answers plainly, immediately: "we use AI to …".
 4. `modern_terms` non-empty and anachronistic for this world (computed from the registry time window) → bridge: Facilitator frames; voice receives the term-free `underlying_subject`.
 5. `out_of_scope.class ∈ {later_age, other_tradition}` and `pressed == false` → pass to voice (in-world first answer); `pressed == true` → Facilitator etic explanation.
@@ -50,8 +50,8 @@ The directive is assembled by code from the schema — never free-composed by a 
 
 - Budget: both calls dispatched concurrently; **p95 ≤ 2.5 s, hard timeout 4 s** each.
 - **Reader fails/times out** → pass-through: the voice answers the raw message with no directive (the pre-guard state); `gate_decision.degraded = true`; turn flagged for priority audit.
-- **Safety call fails/times out** → the turn proceeds (fail open toward the pre-guard state — the ruled direction), AND: `degraded = true`, the message is re-classified async immediately after; if the retro-classification fires acute, the Facilitator interjects on the next event with the safety turn and resources. This is the stated answer to "a gate failure is a safety question": the participant is never blocked by our failure, and the failure is never silent.
-- **Both fail** → plain pass-through + audit flag; two consecutive degraded turns page the operator (Artifact 6).
+- **Safety call fails/times out** → the Facilitator check-in turn (rule 2), whatever the reader returned; `degraded = true`. The voice never answers a message no one has read for risk. The participant sees, at worst, a slower reply or a check-in, never a missed crisis.
+- **Both fail** → the Facilitator check-in turn, as for a safety failure; two consecutive degraded turns page the operator (Artifact 6).
 - Structured-output parse failure = failure (no salvage parsing).
 
 ## 5. Deploy discipline

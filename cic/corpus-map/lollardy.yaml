@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: lollardy
 works:
-- work: Fasciculi Zizaniorum Magistri Johannis Wyclif cum Tritico (Rolls Series)
+- row_id: fasciculi-zizaniorum_shirley1858--fasciculi-zizaniorum-magistri-johannis-wyclif-cum-tritico
+  work: Fasciculi Zizaniorum Magistri Johannis Wyclif cum Tritico (Rolls Series)
   author: fasciculi-zizaniorum
   locus: whole volume, esp. the Twelve Conclusions of the Lollards and the Sautre/Purvey trial
     records
@@ -22,7 +23,8 @@ works:
 
     '
   source_file: fasciculi-zizaniorum_shirley1858.txt
-- work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)
+- row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--the-acts-and-monuments-of-john-foxe-vol-iii-cattley-townsend
+  work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)
   author: foxe
   locus: Lollard-era martyrology (William Thorpe's Examination, William Sautre, John Badby,
     Walter Brute, Sir John Oldcastle)
@@ -37,7 +39,8 @@ works:
 
     '
   source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
-- work: De Veritate Sacrae Scripturae
+- row_id: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907--de-veritate-sacrae-scripturae
+  work: De Veritate Sacrae Scripturae
   author: wyclif
   locus: whole volume
   role: tradition
@@ -53,7 +56,8 @@ works:
 
     '
   source_file: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt
-- work: John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)
+- row_id: wyclif_polemical-works-lat-v2_buddensieg1883--john-wiclif-s-polemical-works-in-latin-vol-ii-wyclif-society
+  work: John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)
   author: wyclif
   locus: whole volume
   role: tradition
@@ -65,7 +69,8 @@ works:
 
     '
   source_file: wyclif_polemical-works-lat-v2_buddensieg1883.txt
-- work: Select English Works of John Wyclif, Vol. I (Sermons on the Gospels for Sundays and
+- row_id: wyclif_select-english-works-v1_arnold1869--select-english-works-of-john-wyclif-vol-i-sermons-on-the
+  work: Select English Works of John Wyclif, Vol. I (Sermons on the Gospels for Sundays and
     Festivals)
   author: wyclif
   locus: whole volume
@@ -77,7 +82,8 @@ works:
 
     '
   source_file: wyclif_select-english-works-v1_arnold1869.txt
-- work: Select English Works of John Wyclif, Vol. II (Gospel Sermons)
+- row_id: wyclif_select-english-works-v2_arnold1871--select-english-works-of-john-wyclif-vol-ii-gospel-sermons
+  work: Select English Works of John Wyclif, Vol. II (Gospel Sermons)
   author: wyclif
   locus: whole volume
   role: tradition
@@ -87,7 +93,8 @@ works:
 
     '
   source_file: wyclif_select-english-works-v2_arnold1871.txt
-- work: Select English Works of John Wyclif, Vol. III (Miscellaneous Works)
+- row_id: wyclif_select-english-works-v3_arnold1871--select-english-works-of-john-wyclif-vol-iii-miscellaneous
+  work: Select English Works of John Wyclif, Vol. III (Miscellaneous Works)
   author: wyclif
   locus: whole volume
   role: tradition
@@ -98,7 +105,8 @@ works:
 
     '
   source_file: wyclif_select-english-works-v3_arnold1871.txt
-- work: The English Works of Wyclif Hitherto Unprinted (EETS O.S. 74)
+- row_id: wyclif_english-works-hitherto-unprinted_matthew1880--the-english-works-of-wyclif-hitherto-unprinted-eets-o-s-74
+  work: The English Works of Wyclif Hitherto Unprinted (EETS O.S. 74)
   author: wyclif
   locus: whole volume
   role: tradition
@@ -109,7 +117,8 @@ works:
 
     '
   source_file: wyclif_english-works-hitherto-unprinted_matthew1880.txt
-- work: Tractatus de Ecclesia
+- row_id: wyclif_de-ecclesia-lat_loserth1886--tractatus-de-ecclesia
+  work: Tractatus de Ecclesia
   author: wyclif
   locus: whole volume
   role: tradition
@@ -125,7 +134,8 @@ works:
 
     '
   source_file: wyclif_de-ecclesia-lat_loserth1886.txt
-- work: Tracts and Treatises of John de Wycliffe, with Selections and Translations from His
+- row_id: wyclif_tracts-and-treatises_vaughan1845--tracts-and-treatises-of-john-de-wycliffe-with-selections-and
+  work: Tracts and Treatises of John de Wycliffe, with Selections and Translations from His
     Manuscripts, and Latin Works
   author: wyclif
   locus: whole volume
@@ -141,7 +151,8 @@ works:
 
     '
   source_file: wyclif_tracts-and-treatises_vaughan1845.txt
-- work: The Wycliffite Bible (complete edition, Earlier and Later Versions)
+- row_id: wycliffite-bible_forshall-madden1850--the-wycliffite-bible-complete-edition-earlier-and-later
+  work: The Wycliffite Bible (complete edition, Earlier and Later Versions)
   author: wycliffite-bible
   locus: whole text
   role: tradition

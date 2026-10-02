@@ -1,22 +1,19 @@
 # CIC-Project — Working Rules
 
-These rules apply to every session in this repo. Read them before doing anything else. They're listed in priority order — where two sections would pull in different directions, the higher one wins. Safety and fidelity are never traded away for speed, cost, or convenience.
+These rules apply to every session in this repo. Read them before doing anything else. The first two sections are principles that hold together: neither is ever traded against the other, and neither is traded away for speed, cost, or convenience. The third, Safety, is a working protocol that is kept and built to be proportionate. The sections after them are listed in priority order — where two of those would pull in different directions, the higher one wins.
 
-This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
+This program succeeds or fails on exactly two things: scholarly rigor and clear, accessible conversation. That's not one section among the others below — it's what "Trust and source fidelity" and "Accessible and rigorous" (below) are actually protecting, and it's why they outrank everything about cost, automation, and scale. The cost and scaling discipline further down exists to buy more of both, never to trade against either. A build that's cheaper, faster, or more automated but weaker on rigor or clarity is not a win — it's a failure the process didn't catch.
 
-## Safety comes first
+## Trust and source fidelity — never invent
 
-- A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
-- Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
-- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes. Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
-- The live governing doc is `CiC_L3D_Facilitator_Governance_V3.6`. The newer AcuteDistress/HarmfulDynamic mechanism is still a draft proposal, not yet merged into it — don't treat the draft mechanism's specifics as settled, but "redirect is Facilitator-only, never the Representative" is a decided rule.
+The people in these conversations rely on what we say and on how we read them. Accessibility (the next section) holds together with this.
 
-## Source fidelity — never invent
-
+- Fabrication at moments of maximum stakes is the single most serious governance failure this project recognizes.
 - No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
 - A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
 - Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust.
 - Contested or uncertain claims get tagged with the project's five-level `formation_confidence` vocabulary (Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin), with a `contested_claim` record where warranted. Never present a disputed claim as settled. "Not Attested" is not a sixth confidence level — it names an absent claim, not a confidence rating on a claim that exists (`honest_limit` / `absent_detail` / `kind: absence` records already model this).
+- Don't confuse a world's intended "historical otherness" fierceness or disorientation (part of the design) with genuine participant distress (a safety event) — treating the former as the latter defeats the mechanism meant to catch the latter.
 
 ## Accessible and rigorous — participant-facing content
 
@@ -26,6 +23,13 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 - A Representative's hedge language is emic, not etic — a world's own way of naming its own uncertainty, not the generic academic phrasing ("historians disagree") that a Facilitator, speaking from outside every world, may use directly.
 - No AI tells. Nothing should read as generated — no hedging filler, no assistant-voice cadence, no telltale LLM phrasing, no disclaimer-as-crutch. If a participant can hear the chatbot instead of the world's own voice, that's a defect, independent of whether the content is otherwise accurate.
 - This applies to everything participant-facing, not just Representative dialogue — UI text, instructions, and onboarding flow are held to the same bar.
+
+## Safety
+
+- A Representative never handles real crisis or distress itself. Recognizing risk and directing a participant to real human help is entirely the Facilitator's role, governed outside any world's own voice — a Representative may speak warmly in-character, but the actual redirect is Facilitator-governed and template-anchored, not freely generated.
+- Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
+- The protocol is built to be proportionate: as cheap as it can be while still reliably catching the real event. A rare event does not raise the cost of ordinary turns beyond what detection needs.
+- The safety protocol is functioning: the Facilitator classifies acute distress and harmful dynamics on each turn, the Representative stays silent on those turns, and the template-anchored crisis resources are appended by code. The governing doc is `CiC_L3D_Facilitator_Governance_V3.6`, a Word file at `Archive/Syriac-Build-2026-07/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.6.docx`.
 
 ## Fix it right
 
@@ -106,7 +110,7 @@ The build-cycle discipline already self-governs: escalation is limited to four c
 - The source-research thread runs long and accumulates enormous context (multi-day continuous sessions have run past a billion cached tokens). Split its work into fresh sessions per batch (an era/region at a time) rather than growing one thread indefinitely — an ever-larger context makes every later turn more expensive regardless of how good the research is.
 - Representative identity and image are decided together, once, as a single packaged choice among 2–4 named candidates with trade-offs (per `Representative_Construction_Notes_Template.md`) — never open-ended, never split across two separate interruptions.
 - Doc_04 (Gravity Discovery) and Doc_10 (Representative construction) are the build's instances of the "complex design and research" framing work described under Fable, below — the strategic classification and the voice the rest of a world depends on. Doc_02 (Source Ecology) belongs to the Library thread.
-- **Review cycles are capped, not open-ended.** The bar is acceptable scholarly rigor, not perfection — a review flagging that a document *could* be stronger or more thorough, with nothing in it actually wrong, unsupported, or misleading, is not a substantial finding and does not justify another revision round. Three rounds of substantial revision on the same document without it clearing review is itself an "unresolved tension the pipeline can't close on its own" (an existing escalation category) — stop and escalate rather than attempt a fourth round. Every review file on a document counts toward the three, whatever its kind or verdict (the `roundcount` gate enforces it). Why this cap exists: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`. Full mechanics: the `cic-build-cycle` skill's own Revision decision section.
+- **Review cycles are capped, not open-ended.** The bar is acceptable scholarly rigor, not perfection — a review flagging that a document *could* be stronger or more thorough, with nothing in it actually wrong, unsupported, or misleading, is not a substantial finding and does not justify another revision round. Three rounds of substantial revision on the same document without it clearing review is itself an "unresolved tension the pipeline can't close on its own" (an existing escalation category) — stop and escalate rather than attempt a fourth round. Every review file on a document counts toward the three, whatever its kind or verdict (the `roundcount` gate enforces it). The one exception: once a document has escalated to Mark at the cap, a review he orders in his ruling does not count, when a "Cap ruling" entry in the System Hub Decision Log names its file. Why this cap exists: `Build/Ministry/Operations/Standing/CiC_Governance_Rationale_Log.md`. Full mechanics: the `cic-build-cycle` skill's own Revision decision section.
 
 ## Usage/credit discipline
 

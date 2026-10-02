@@ -5883,3 +5883,215 @@ and where their values come from. The text now matches the code on the stale che
 for a new world, and on `row_id` and `shelf_row`. It also records the builder traps (the census entry
 already exists, the project lead sets `safety_adjacent`, the repin order, which gates take `--root`) and
 which commands are slow.
+
+## 2026-09-30 - Round cap: a review ordered after an escalation does not count (change order to rule A)
+
+**Ruling (project lead, 2026-09-30): option A.** The cap of three exists to send a stuck document to the
+project lead. Once he has ruled on an escalated document, his ruling governs what follows. A review he orders
+after the escalation does not count toward the cap, when a decision-log entry headed "Cap ruling" names its
+file. Rule A of the same date is otherwise unchanged: every review file counts.
+
+Alternatives considered:
+
+- A. The cap ends at the escalation, and a review the project lead orders afterward is covered by his ruling.
+  Chosen. It matches how the cap already works, and it settles the conflict once for every world.
+- B. Rule A holds as written, with a one-time exception for `jes` Step 0. Rejected. Every later escalation
+  would raise the same question again.
+- C. Redo the closing step within the cap. Rejected. Review files are not deleted, so the count cannot go down.
+
+**Gate.** `roundcount`, the handoff gate (checks 2 to 4) and the re-baseline declaration read the entries
+headed "Cap ruling". A file named in one, in backticks, is not counted when three files already precede it in
+round order. A ruling covers only the files it names. It cannot excuse any of the first three.
+
+**Documents.** `CLAUDE.md`, V2.0 rule 11 and the V2.0 round-counter row state the exception.
+
+## 2026-09-30 - Cap ruling: jes Step 0
+
+Step 0 of `jes` (the Society of Jesus) reached the cap at Round 3 on 2026-09-25, with one substantial finding
+open: the institutional coverage window after 1556 was overstated. The project lead ruled option 1 of the Round
+3 disposition: a bounded spot-check of that one correction, not a new revision round. The spot-check is
+`Step0_Review_Round4_SpotCheck.md`. It returned Clear with 0 P0, 0 P1 and 2 P2. It is the only review this
+ruling covers.
+
+## 2026-09-30 - Round counter: the Cycle reset and the Cap ruling work together
+
+**Recorded at the merge of `main` into the branch that carries the Cycle reset.** Both rulings are the project lead's, and they apply together. The counter reads the review files of the current cycle: the first round, or the latest round whose file carries an earned `Cycle reset` header field. From those files it takes away the review files a "Cap ruling" entry names, once three counted files of the cycle precede the named one in round order. What is left is the count. Every file stays on record either way. A named file is excused only when three counted files of the cycle precede it.
+
+The engine (`engine/m10/rounds.py`, `reviewfile.py`, `handoff.py`, `rebaseline.py`), `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md` and the tests state the same rule. One test in `engine/m10/tests/test_rounds.py` runs both rules on one document.
+
+
+## 2026-10-01 - Atlas voice implementation: complete and live
+
+The project lead reports the Atlas voice implementation is complete and live on the website. It covers the world
+stories (193) and the specific stories (about 550). The work is closed.
+
+Atlas navigation is future work and has not been started. It gets its own entry when the project lead opens it.
+
+## 2026-10-01 - Readability gate does not score participant turns (ruling of 2026-09-25, re-landed)
+
+**Ruling.** The project lead ruled "a" on 2026-09-25 (lpc OG-25). A participant's line in a demonstration or
+transcript record is a record of what was said, like `quote.text`, not prose the project authors. The readability
+gate never scores it. The world's own lines (Representative, Facilitator, narration) are scored as before.
+
+**Why.** Tested transcripts must stay verbatim. Scoring a participant's own words would push a build to rewrite
+what a participant said so that it passes a gate.
+
+**Where.**
+- `engine/m1/gates.py`: `_READABILITY_EXCLUDED_SPEAKERS` skips `demonstration.exchange` turns whose `speaker` is
+  `participant`. That is the only field that carries participant turns, and the schema limits `speaker` to
+  `participant` or `representative`.
+- Tests in `engine/m1/tests/test_gate_readability.py`.
+- One rule sentence next to the NorthStar rule in `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md`.
+
+**Measured effect** (failing readability findings, waiver before to after, counted on 2026-10-01):
+
+| world | before | after |
+|---|---|---|
+| alx | 149 | 148 |
+| desert | 162 | 159 |
+| gallic | 110 | 109 |
+| hal | 164 | 163 |
+| pahc | 161 | 160 |
+| rzg | 136 | 134 |
+| syr | 154 | 153 |
+
+cappadocian, don, ijc, witt and the fleet records are unchanged. The seven waivers in `engine/m9/enforce.py` are
+set to the new counts. The full gate run reports every finding waived and every waiver current.
+
+**Re-landing.** The first PR for this ruling (#622) was cut before the repository restructure and carried waiver
+counts that no longer matched. It was closed and the change re-applied on the current tree.
+
+## 2026-10-01 - The do-not-voice quote license is dropped fleet-wide (ruling of 2026-09-25, confirmed and applied)
+
+**Ruling.** The project lead, 2026-09-25: "remove all the do not voice gates, this was something that came out of a
+discussion a long time ago, but wasn't supposed to be a rule, it was a misunderstanding of what no fabrication
+meant." And: "we are honest with the church traditions, we dont hide anything." The ruling was confirmed on
+2026-10-01 and applied to the current tree. The first PR for it (#588) was cut before the repository restructure and
+before later engine changes, so it was closed and the change re-applied from `main`.
+
+**What it changes.** A quote's `license` is `verbatim` or `paraphrase-only`. Nothing is marked as unsayable, and no
+gate checks for it.
+- `engine/m1/schemas.py` and `engine/m1/gates.py`: `do-not-voice` leaves the license values and the never-quotable set.
+- `engine/m4/turn.py`: the violation check and its `voice_event` field are removed. `engine/m4/grounding.py` and its
+  tests are deleted, because the module existed only for that check.
+- `engine/m7/instruments.py` and `engine/m7/session_reader.py`: the audit reader no longer reports the field.
+- Records: `fix.quote.private-teaching` is relicensed `paraphrase-only`. `syr.quote.aphrahat-anti-jewish-frame` is
+  relicensed `verbatim`, and its `modern_lens_note` is rewritten by Opus from the world's own records, with no
+  disclaimer and no invented balancing voice. `syr.term.anti-jewish-polemic` is updated to match.
+- The Redesign-Spec files, the V2.0 process document and the fixtures README no longer describe the license.
+- The syr and fix packages are rebuilt and repinned. The syr Open Gaps file carries the matching entry.
+
+**Left as history.** Earlier decision logs, review files and planning documents that name the license are not
+edited. They record what was true when they were written.
+
+## 2026-09-30 — Library Access Gate CM-1: a stable `row_id` on every corpus-map row
+
+**Commissioned by the project lead, 2026-09-30.** Process V2.0 gives new worlds no waivers, and the M9
+`shelf-row` check needs every vendored source record to name a `shelf_row` that is a `row_id` on the
+world's shelf. No bucket row carried one, so a new world could not author a valid source record. CM-1 is
+the one dependency in `D3-Converged-Design.md` §3 that is mechanical, so it was done alone.
+
+**The id rule.** `<file-stem>--<work-slug>`, where the stem is the staging volume's filename without
+`.yaml`. The slug is the work title folded to ASCII and lower-cased, every run of other characters becomes
+one hyphen, and it is cut at a hyphen boundary to at most 60 characters. Two rows of one volume with the
+same slug take `-2`, `-3` in staging order. `python cic/engine/corpus_map_merge.py --assign-ids` writes the
+id into the staging file as the row's first key, by editing the file text so comments survive. It skips any
+row that already has an id, so a later title correction never moves one, and a second run changes nothing.
+`row_id` is in `_KEEP`, so a merge carries it into the buckets. Why this shape: the stem keeps ids
+unique across volumes without a registry, and the slug keeps them readable in a record.
+
+**One id can sit in several buckets.** A staging row lands in every bucket its `atlas_ids` names, so
+uniqueness is per row, not per bucket entry. `corpus_map.validate()` requires an id on every row, forbids
+a repeat inside one bucket, and forbids one id naming two different works anywhere in the map.
+
+**Result.** 837 staging rows across 222 volumes received ids; 138 needed a collision suffix.
+
+**Still out of scope.** CM-2 to CM-8 (`voice_of`, `PAIRS`, `locus_ids`, missing rows, `documented_exchange`).
+No world's records were touched, and no `shelf_row` was added to any existing source record; that is a
+separate per-world migration, each needing a repin.
+
+## 2026-10-01 - Cap ruling: jes Step 0, spot-check file under its new name
+
+The Library thread filed the `jes` Step 0 spot-check under its round's number, as the Library-stage rule
+requires, and renamed it from `Step0_Review_Round4_SpotCheck.md` to `Step0_Review_Round3_SpotCheck.md`. The
+ruling of 2026-09-30 ("Cap ruling: jes Step 0") covers the same review under its new name. The only review this
+entry covers is `Step0_Review_Round3_SpotCheck.md`. The entry of 2026-09-30 is unchanged and still names the
+review under its earlier name.
+
+
+## 2026-10-02 - Claude threads merge their own pull requests
+
+The project lead ruled that a Claude thread merges the pull requests it opens, instead of leaving the merge button to the project lead. In the project lead's words: "if i am just pushing buttons i would rather you do that." He confirmed the practice again on 2026-10-02 with "yes you merge."
+
+The rule: a thread merges its own pull request, by merge commit, once every required check is green on the current head, the pull request is mergeable, and no review finding is open. Path-gated checks that show "skipped" count as passing.
+
+One exception stays with the project lead: the production promotion, the pull request that moves reviewed work onto the live branch.
+
+## 2026-10-02 - Conversation system design: approved to proceed, Design C
+
+The project lead converged with the design thread on the conversation system design on 2026-10-02, in his words "Converged, auto mode." The design is approved to proceed. A separate build thread implements it in slices 0 to 12. Nothing closes until Phase Five boundary testing and full-system review are complete.
+
+The design, with its appendix pages (rigor ledger, gap hunt, records), is published at `https://claude.ai/artifact/MBPbubWhcJrTddiEbte6P1`. The field comparison behind decision 10 is at `https://claude.ai/artifact/Ae3eKobJ8v3CAvx2kj4icj`.
+
+**The project lead's decisions.**
+
+1. The design thread's spend cap was 15% of the week. The build thread sets its own with the project lead; on 2026-10-02 he set it at 20% of the week, with a checkpoint at every gate and never more than 90 minutes apart.
+2. The Program Spec's principles stay. The architecture is open. Any departure from the spec is a named change order.
+3. Design C, cell dossiers, with Design A as its single-dossier case for a world. Experiment E1 decides the split per world.
+4. The meaning bar is scholarly acceptance, not perfection, on meaningful (load-bearing) content. Invented facts and misattributed quotes stay at zero.
+5. Use notes: Opus drafts the notes on quotes and doctrinal witnesses against the vendored source. Sonnet drafts the rest. Opus reviews every note.
+6. The reader call is tested for removal (E2). The safety call stays sealed and blocking.
+7. The quality-control store keeps questions indefinitely, answers for 90 days, and scores. It holds no session id, visitor id, code hash, IP address or exact time.
+8. Non-world kinds leave the worlds. The horizon gate decides forces record by record. Figures feed cards, not dossiers. `lpc` and ambient are parked untouched.
+9. Three paid runs are approved as designed, each sample-first, with every setting printed and the cap stated: the baseline three times (about $35), E1 with its third arm (about $23), and E2 (about $6). Total cap about $64. Offline work runs through the Batches API at half price.
+10. The API's native citations replace the hand-copied citation-id contract. This is a change order on the mechanism behind rulings R9, R10, R17 and the R27 family, and it is proven by E1's third arm before it is trusted.
+11. A world may move to Package v2 with provisional, unreviewed use notes, flagged as such in its manifest. The meaning dimension reports but does not block until the reviewed notes land.
+12. The Table stays at two or three seats. No design or build work accommodates more seats until participants ask for it.
+13. The build thread's first pull request, before any code, is this record.
+14. The self-revision wiring is fixed now, ahead of the baseline, as a mechanical fix. `engine/api/config.py` parses `CIC_SELF_REVISION`, but `_build_real_app` in `engine/api/app.py` never passes it to `create_app`, whose default is on. The deploy file's "0" therefore does nothing, against the ruling of 2026-09-30 in `Build/worlds/cappadocian/Open_Gaps_Tracking.md`, and every other-tradition first ask pays for a second Sonnet call.
+15. Nothing is sequenced around old dates. In the project lead's words: "nothing should be delayed, remove that, we want to build as we can, the old schedules are meaningless." Readability findings are fixed as worlds are touched and as capacity allows. The 14 December waiver deadline is not a planning constraint. The `ACCEPTED_OPEN` readability waivers in `engine/m9/enforce.py` are re-dated to the real per-world plan in the first change that touches them, not left to lapse.
+16. The privacy page is corrected now, in words the project lead approves: the visitor cookie, the backups, the quality-control rule, and deletion on request until the deletion feature ships.
+17. Draft PR #690 is closed with a note pointing to the design. pahc OG-19 closes under the horizon rule, as analytic, when slice 5 lands.
+18. A public methods page is drafted now (Sonnet drafts, Opus reviews, the project lead approves). It lands once the baseline numbers exist.
+19. Pay as you go, with conversations kept apart from identity and deleted after 90 days. In the project lead's words: "we are setting up a pay as you go with payment and tracking information, so we should be saying your name and information is never linked or in the same system as the recorded conversations. also after analysis of question and answer trends we delete the conversation (90) days automaticly, but keep the questions to track the most asked questions to better tune the system." Payment runs through the Stripe system already on the site for voluntary contributions, which participants will also use to buy more time; he confirmed this the same day. Name, email and payment details live only in Stripe, which never holds conversations, and the conversation store holds nothing that joins back to them. Conversations are deleted automatically after 90 days. The questions are kept, scrubbed and unlinked, to find the most-asked questions. He added the same day: "we have to track the ip or have a way to track time of users, but we won't connect the names and personal information with the actual questions and conversations. we will protect against the ability to say \"so and so said this or that\"". So three stores are kept that cannot be joined: Stripe (name, email, payment), a time meter (IP address or visitor cookie, time used and bought), and the conversation store (what was said, with no name, email, IP address, visitor id or key shared with the meter). The privacy page in these words goes live in the same change that makes it true; until then the site states today's facts (decision 16).
+
+**Change orders named on the design page.** These are departures from the Program Spec or from the approved design. They are recorded here as named; the first four still wait on the project lead's word, with the design's recommendation stated. Each is tracked in `Build/Ministry/Features/Conversation-Transparency-Engine/Rulings-Pending.md`.
+
+- CO-1. The M5 two-call gate becomes one sealed call if E2 passes. Recommended; decided by the test.
+- CO-2. R30's streaming granularity: release per sentence instead of holding the opening paragraph. Recommended; the paragraph hold guarded checks that now run per sentence.
+- CO-3. Artifact-5 and Artifact-7 are rewritten to match the routes and Table rules the code actually has, plus the new streaming route. Recommended; the alternative is changing the code to match the spec.
+- CO-4. The spec's module list gains M9 (confinement) and M10 (validation and handoff), which exist in the code and not in the spec.
+- CO-6, retention and identity (decision 19). Ruled. The approved design had no accounts, and its 90-day rule covered answers in the quality-control store only. Under decision 19 the 90-day deletion applies to whole conversations in the conversation store, and backups clear 14 days later (slices 2 and 12). The time meter and Stripe must share no key with the conversation store: no IP address, visitor id, session id or session-code hash beside conversation text, and no conversation key in the meter.
+- CO-5, the citation mechanism (decision 10). Ruled. R9, R10, R17 and the R27 family keep their meaning, marks, placement and cap. Only the mechanism changes, from ids the model copies by hand to the citation blocks the API returns. It is not trusted until E1's third arm shows it inside the band or better on invented ids, citation count and meaning fit.
+
+**The merge rule.** The design brief said the project lead's merge rule had never been logged. It was logged on 2026-10-02, in the entry "Claude threads merge their own pull requests" above: merge once every required check is green, except the production promotion, which stays with the project lead. Nothing further is added here.
+
+## 2026-10-02 - Conversation system design: dossiers carry witnesses and stories (decision 20, change order CO-7)
+
+Matcher recall was measured before E1, as the risk guard requires, and the guard tripped: a dossier holding only the matched cell's records would hold 30.7% of what baseline replies cite, and the matcher picks the right cell on 24.7% of probes. An Opus review of 110 out-of-cell citations found 48% load-bearing, chiefly doctrinal witnesses (71%) and stories (67%). The measurements are in the Conversation-Transparency-Engine Decision-Log, Entries 84 to 87.
+
+The project lead ruled on 2026-10-02:
+
+20. A cell's dossier holds the cell's own records plus all of the world's doctrinal witnesses and stories. Terms reach the voice through the index and the glosses. This is change order CO-7 on Design C's staging (decision 3), where a dossier held only the records whose notes name the cell. On the baseline it raises the share of cited records held from 30.7% to 54.3%. E1 is redesigned on this layout, and its settings come back to the project lead before it runs.
+
+He also ruled the same day that Bedrock spend is for generating conversation, and review and grading run inside the build session.
+
+## 2026-10-02 - Conversation system design: one whole-world prompt for every world (decision 21, change order CO-8)
+
+Under decision 20, a cell's dossier came to 74% to 95% of the whole-world prompt, because the world's doctrinal witnesses, stories and shared lists carry most of its text (Conversation-Transparency-Engine Decision-Log, Entry 88). The cost case for cell dossiers mostly went with it, while the wrong-cell risk stayed.
+
+21. Every world uses one whole-world prompt, the design's Design A, as change order CO-8 on decision 3 and superseding the layout in decision 20. The engine shape segment, caching, use notes and the gates stand. E1 narrows to native citations against the hand-copied citation ids on the whole-world prompt, under the cap already approved. The cross-cell questions drafted for the dossier test are shelved.
+
+The project lead also stated the voice's boundary in his words: "the representitive should always be bound by what the world would know. i dont know is better than stepping outside of the world sources", and "if pressure on the representitive is strong, the facilitator can step in and explain the boundry."
+
+## 2026-10-02 - Native citations not adopted (decision 22)
+
+E1 ran native API citations against the hand-copied citation ids on the whole-world prompt, all eleven worlds, for $7.97. A blind Opus review of 33 paired replies judged the hand-copied ids better grounded in 15 pairs and native citations in 7, with 11 ties. Claims not carried by a cited record: 19.9% against 23.9%. Native replies also cited fewer records and still carried hand-typed tags in five worlds. Details: Conversation-Transparency-Engine Decision-Log, Entry 89.
+
+22. Decision 10's change is not adopted. Change order CO-5 (R47) closes without adoption: R9, R10, R17 and the R27 family stay on the hand-copied citation-id contract. The native arm is shelved; a retry would first need an evidence block that prints no ids. Claim support against cited records becomes a measured dimension, reviewed internally by Opus, ahead of the use-note work.
+
+## 2026-10-02 - cic/texts size triggers raised (decision 23)
+
+`cic/texts/` holds 634 MB in 451 files, against a 700 MB planning trigger. The plan (`Build/worlds/_cross-world/PLAN-texts-store-scaling.md`) says to re-open it at that size, and it was re-read against current measurements. The whole repository packs to 2.22 GiB. The 875 MB of MP3 narration under `cic-website/` is larger than the texts and grows with the narration work. A 27-source vendoring in review adds about 37 MB to the texts.
+
+23. The planning triggers move to 1 GB (re-read the plan) and 1.5 GB (act on it), and `cic/texts/` stays in plain git. The project lead chose this over splitting the store into its own repository now and over moving the audio out first. A split still needs the rights gate to learn a "store not checked out" state, and it stays a later, separate sign-off. Where audio is stored is a separate decision and is not made here. The plan now asks for a measured fresh-session start time before the next trigger is set.

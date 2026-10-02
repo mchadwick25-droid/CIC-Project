@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: gallic-monastic-ascetic-christianity
 works:
-- work: On Rebuke and Grace (De correptione et gratia)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia
+  work: On Rebuke and Grace (De correptione et gratia)
   author: augustine
   locus: div1 20 — A Treatise on Rebuke and Grace
   role: tradition
@@ -23,7 +24,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Gift of Perseverance (De dono perseverantiae)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae
+  work: On the Gift of Perseverance (De dono perseverantiae)
   author: augustine
   locus: div1 21, div2 type=Book 'A Treatise on the Gift of Perseverance' (structure path
     21.3)
@@ -37,7 +39,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Predestination of the Saints (De praedestinatione sanctorum)
+- row_id: npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione
+  work: On the Predestination of the Saints (De praedestinatione sanctorum)
   author: augustine
   locus: div1 21, Book I (structure path 21.2) — under the volume heading 'A Treatise on the
     Predestination of the Saints'
@@ -55,7 +58,8 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de
+  work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
   role: tradition
@@ -73,7 +77,8 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Conferences of John Cassian
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian
+  work: The Conferences of John Cassian
   author: cassian
   locus: div2 4.4-4.6 — Conferences I-XXIV (three parts, one work)
   role: tradition
@@ -87,7 +92,8 @@ works:
     c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry this
     work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Twelve Books on the Institutes of the Coenobia
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia
+  work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
   locus: div2 4.3 — The Institutes
   role: tradition
@@ -101,7 +107,8 @@ works:
     (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
     entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: De Contemptu Mundi ("The World Contemned"), an Epistle to His Kinsman Valerianus
+- row_id: eucherius-lyon_de-contemptu-mundi_vaughan1654--de-contemptu-mundi-the-world-contemned-an-epistle-to-his
+  work: De Contemptu Mundi ("The World Contemned"), an Epistle to His Kinsman Valerianus
   author: eucherius-lyon
   locus: full letter, tr. Henry Vaughan 1654 (CCEL PDF pp. 6-25)
   role: tradition
@@ -112,7 +119,8 @@ works:
 
     '
   source_file: eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
-- work: De Laude Eremi ad Hilarium Lirinensem Presbyterum (In Praise of the Desert, to Hilary
+- row_id: eucherius-lyon_de-laude-eremi_migne-pl50--de-laude-eremi-ad-hilarium-lirinensem-presbyterum-in-praise
+  work: De Laude Eremi ad Hilarium Lirinensem Presbyterum (In Praise of the Desert, to Hilary
     of Lerins)
   author: eucherius-lyon
   locus: full letter, Migne PL 50 (extracted excerpt, see file's own header for boundaries)
@@ -124,7 +132,8 @@ works:
 
     '
   source_file: eucherius-lyon_de-laude-eremi_migne-pl50.txt
-- work: De Gratia libri duo (Two Books on Grace)
+- row_id: faustus-riez_de-gratia-and-collected-works_engelbrecht1891--de-gratia-libri-duo-two-books-on-grace
+  work: De Gratia libri duo (Two Books on Grace)
   author: faustus-riez
   locus: the volume's own edition, pp. 1-98 (Prolegomena aside)
   role: tradition
@@ -137,7 +146,8 @@ works:
 
     '
   source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
-- work: Gennadius, Lives of Illustrious Men (continuation)
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-3
+  work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4, chapters XIX (Sulpitius Severus), LXII (Cassianus/Cassian), LXIV (Eucherius
     of Lyons), LXV (Vincentius of Lerins), LXX (Hilary of Arles), LXXXV (Prosper of Aquitaine),
@@ -167,7 +177,8 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: Sermo de Vita Sancti Honorati Episcopi Arelatensis (Sermon on the Life of St. Honoratus)
+- row_id: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50--sermo-de-vita-sancti-honorati-episcopi-arelatensis-sermon-on
+  work: Sermo de Vita Sancti Honorati Episcopi Arelatensis (Sermon on the Life of St. Honoratus)
   author: hilary-arles
   locus: the sermon itself, Migne PL 50 (extracted excerpt, see file's own header for boundaries
     -- the file also carries at least one further short genuine letter of Hilary's not separately
@@ -181,7 +192,8 @@ works:
 
     '
   source_file: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
-- work: On the Government of God (De Gubernatione Dei)
+- row_id: salvian_on-the-government-of-god_sanford1930--on-the-government-of-god-de-gubernatione-dei
+  work: On the Government of God (De Gubernatione Dei)
   author: salvian
   locus: full work, tr. Sanford 1930 (all eight books, plus the dedicatory Preface)
   role: tradition
@@ -198,7 +210,8 @@ works:
 
     '
   source_file: salvian_on-the-government-of-god_sanford1930.txt
-- work: Dialogues of Sulpitius Severus
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus
+  work: Dialogues of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus
   role: tradition
@@ -209,7 +222,8 @@ works:
     Life: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul
     entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: On the Life of St. Martin
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin
+  work: On the Life of St. Martin
   author: sulpiciusseverus
   locus: div2 2.2 — On the Life of St. Martin
   role: tradition
@@ -221,7 +235,8 @@ works:
     entry (c. 480-620) that the Martin cult founds but that this work antedates by nearly
     a century.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Doubtful Letters of Sulpitius Severus
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus
+  work: The Doubtful Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.5 — The Doubtful Letters
   role: tradition
@@ -241,7 +256,8 @@ works:
     without re-attributing anything. This can be reversed in one pass if the spurious corpora
     should instead be detached from their attributed authors.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Letters of Sulpitius Severus
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus
+  work: The Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.3 — The Letters of Sulpitius Severus
   role: tradition
@@ -250,7 +266,8 @@ works:
     as the Life of St. Martin: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the
     pre-Merovingian Gaul entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Sacred History (Chronica)
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica
+  work: The Sacred History (Chronica)
   author: sulpiciusseverus
   locus: div2 2.6 — The Sacred History of Sulpitius Severus
   role: tradition
@@ -266,7 +283,8 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: The Commonitory of Vincent of Lerins
+- row_id: npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins
+  work: The Commonitory of Vincent of Lerins
   author: vincent_lerins
   locus: div1 3 — The Commonitory
   role: tradition

@@ -1,6 +1,7 @@
 import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
+import { DoorNarration } from '../components/DoorNarration';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { ReadAloudControl } from '../components/ReadAloudControl';
 import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
@@ -25,6 +26,8 @@ function sampleStarters(starters: WorldStarter[]): WorldStarter[] {
 interface ConversationProps {
   world: WorldEntry;
   turns: ConversationTurn[];
+  // The reply so far while the voice is still writing it; empty otherwise.
+  draft?: string;
   sessionCode: string | null;
   closed: boolean;
   isLoading: boolean;
@@ -49,9 +52,10 @@ function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: Con
   return null;
 }
 
-export function Conversation({ world, turns, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
+export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
   const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
   const readAloudAvailable = useReadAloudAvailability();
+  const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
 
   return (
     <div className="conversation">
@@ -72,7 +76,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
         <ReadAloudDisclosure representativeName={world.representativeName} turnKey={latestSpoken.index} />
       )}
 
-      <div className="conversation__transcript">
+      <div className="conversation__transcript" role="log" aria-label="Conversation">
         <Arrival world={world} />
         {turns.map((turn, i) => {
           if (turn.speaker === 'participant') {
@@ -92,6 +96,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
                     {j === 0 && turn.kind === 'bridge' && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
                   </p>
                 ))}
+                {turn.kind === 'door' && <DoorNarration worldKey={world.worldKey} participantTurns={participantTurns} />}
               </div>
             );
           }
@@ -105,10 +110,19 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
             </div>
           );
         })}
+        {draft && (
+          <div className="turn turn--voice">
+            <div className="turn__speaker sans" style={{ color: world.accentColor }}>
+              <img className="turn__avatar" src={world.portraitImage} alt="" />
+              {world.representativeName} · {world.cardName}
+            </div>
+            <VoiceTurnBody text={draft} citations={[]} />
+          </div>
+        )}
       </div>
 
-      {isLoading && !closed && (
-        <p className="waiting-note sans">
+      {isLoading && !closed && !draft && (
+        <p className="waiting-note sans" role="status">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">
             <span></span>
@@ -118,7 +132,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
         </p>
       )}
       {error && (
-        <div className="conversation__error">
+        <div className="conversation__error" role="alert">
           {error}
           {errorRecoverable && (
             <button type="button" className="error-restart sans" onClick={onRestart}>
@@ -145,6 +159,11 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
                 </button>
               ))}
             </div>
+          )}
+          {!turns.some((t) => t.speaker === 'participant') && (
+            <p className="ai-note sans">
+              {world.representativeName} is an AI voice built only from the surviving writings of this tradition. It is not a real person, and it does not speak for any church today.
+            </p>
           )}
           <ChatInput
             onSend={onSend}

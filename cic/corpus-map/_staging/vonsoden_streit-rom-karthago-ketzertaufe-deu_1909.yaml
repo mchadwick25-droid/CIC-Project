@@ -1,7 +1,8 @@
 source_file: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt
 
 assignments:
-  - work: "von Soden, Der Streit zwischen Rom und Karthago ueber die Ketzertaufe (1909)"
+  - row_id: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909--von-soden-der-streit-zwischen-rom-und-karthago-ueber-die
+    work: "von Soden, Der Streit zwischen Rom und Karthago ueber die Ketzertaufe (1909)"
     author: vonsoden
     locus: "pp. 1-42"
     atlas_ids:

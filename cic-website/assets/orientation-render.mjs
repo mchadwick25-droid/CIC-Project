@@ -67,8 +67,8 @@ function figureDateSpan(figure) {
 function narrationPlayer(url) {
   if (!url) return "";
   return [
-    '<div class="narration"><audio controls preload="none">',
-    `<source src="${escapeHtml(url)}" type="audio/mpeg"></audio>`,
+    '<div class="narration">',
+    `<audio controls preload="none" src="${escapeHtml(url)}"></audio>`,
     '<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>',
   ].join("");
 }

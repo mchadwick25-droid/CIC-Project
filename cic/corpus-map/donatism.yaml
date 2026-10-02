@@ -3,7 +3,8 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: donatism
 works:
-- work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
+- row_id: optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i
+  work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
   author: anti-donatist-dossier
   locus: 'headings "APPENDIX I." through "APPENDIX XVI.": Acta Purgationis Felicis (314),
     Gesta apud Zenophilum (320), Constantine''s letters, the Council of Arles'' letter to
@@ -20,7 +21,31 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
-- work: Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's own appendix)
+- row_id: optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia
+  work: Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's appendix, TEI)
+  author: anti-donatist-dossier
+  locus: file line 107 (heading 'Appendix decem monumentorum ueterum ad Donatistarum historiam
+    pertinentium'); urn:cts:latinLit:stoa0215a.stoa002.opp-lat1; scan twin optatus_libri-vii-critical_ziwsa1893.txt
+    lines 13206-15283
+  role: context
+  confidence: provisional
+  note: 'Ziwsa''s own ten-document appendix of official acts and imperial letters on the Donatist
+    schism: Gesta apud Zenophilum, Acta purgationis Felicis, letters of Constantine, the letter
+    of the Council of Arles to Silvester. PRIMARY ORIGINAL per cic/texts/INTAKE.md: CSEL 26
+    (Vienna, 1893) in the University of Leipzig''s machine-corrected TEI (the project''s OCR
+    correction of the printed edition, not a fresh human edition). Verify each quote against
+    the printed apparatus in the scan optatus_libri-vii-critical_ziwsa1893.txt (scan lines
+    13206-15283), which carries the manuscript sigla and the variant readings in place on
+    the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA
+    4.0, so attribution and share-alike travel with any quotation. Provisional as the scan
+    row: the ten documents are related in kind to, but not confirmed identical in content
+    with, the sixteen-item appendix mapped from the English Optatus volume (optatus_against-the-donatists.txt),
+    until the two sets are compared.
+
+    '
+  source_file: optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei.txt
+- row_id: optatus_libri-vii-critical_ziwsa1893--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia
+  work: Decem Monumenta Vetera ad Donatistarum Historiam Pertinentia (Ziwsa's own appendix)
   author: anti-donatist-dossier
   locus: appendix following the seven books
   role: context
@@ -32,7 +57,8 @@ works:
 
     '
   source_file: optatus_libri-vii-critical_ziwsa1893.txt
-- work: Answer to the Letters of Petilian, the Donatist
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist
+  work: Answer to the Letters of Petilian, the Donatist
   author: augustine
   locus: div2 5.5 — Answer to the Letters of Petilian (3 books, ~102k words)
   role: tradition
@@ -44,7 +70,8 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: 'Augustine''s anti-Donatist works (Maurist text, Migne PL 43): Breviculus collationis,
+- row_id: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43--augustine-s-anti-donatist-works-maurist-text-migne-pl-43
+  work: 'Augustine''s anti-Donatist works (Maurist text, Migne PL 43): Breviculus collationis,
     Ad Donatistas post collationem, Sermo ad Caesariensis, De gestis cum Emerito, Contra Gaudentium'
   author: augustine
   locus: whole file
@@ -56,20 +83,49 @@ works:
 
     '
   source_file: augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt
-- work: Contra (Adversus) Fulgentium Donatistam
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis
+  work: Breviculus Collationis cum Donatistis
   author: augustine
-  locus: Pars III, short item
+  locus: Pars III (CSEL 53); file line 62770 (heading 'BREVICVLVS', 'COLLATIONIS CVM DONATISTIS'
+    at 62771)
   role: tradition
-  confidence: provisional
-  note: 'A short, otherwise-unvendored reply to a Donatist named Fulgentius about whom little
-    else survives in this corpus — provisional pending a check on how substantial and independently
-    attested this exchange actually is before it supports a specific claim.
+  confidence: assigned
+  note: 'Augustine''s summary of the three-day Conference of Carthage of 411, held on the
+    emperor Honorius''s order between Catholic and Donatist bishops, cut down from the very
+    long acts and numbered to match their parts. It gives this world the Catholic side''s
+    own short account of the conference at which the Donatist bishops were judged defeated.
+    No English translation is vendored. The editor writes that no manuscript has been found
+    since the Amerbach edition, so the text rests on the printed editions. PRIMARY ORIGINAL
+    per cic/texts/INTAKE.md: Petschenig''s critical text (CSEL 53, Vienna, 1910). The scan
+    is raw, uncorrected OCR of a dense critical edition with the apparatus interleaved (the
+    file''s own header and registry notes say so; about 88 to 90 percent of its word forms
+    match the vocabulary of the clean TEI files, against 93 to 97 percent for those). So this
+    row is primary for authorship and content, and a second witness for exact wording: each
+    quote is checked against the printed page or a clean witness before it is used, and the
+    English a Representative speaks is rendered from the verified Latin.
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Contra Cresconium (libri quattuor)
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam
+  work: Contra (Adversus) Fulgentium Donatistam
   author: augustine
-  locus: Pars III, following Pars I without a second title page in this scan
+  locus: Pars III (CSEL 53), Appendix II; file line 78985 (heading 'LIBELLVS ADVERSVS FVLGENTIVM
+    DONATISTAM')
+  role: tradition
+  confidence: provisional
+  note: 'A short reply to a Donatist named Fulgentius, printed in Petschenig''s Appendix among
+    the two opuscula he prints as spurious, not Augustine''s (the Appendix''s own Praefatio,
+    file lines 60842-60857). The manuscript title is "Libellus adversus Fulgentium Donatistam".
+    The author slug is augustine because no other slug exists for the work; the ascription
+    does not hold in the edition itself, so the confidence is provisional.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor
+  work: Contra Cresconium (libri quattuor)
+  author: augustine
+  locus: Pars II (CSEL 52); file line 41778 (heading 'CONTRA CRESCONIVM GRAMMATICVM ET DONATISTAM
+    LIBRI IIII')
   role: tradition
   confidence: assigned
   note: 'No English translation vendored anywhere in this corpus — primary content, not a
@@ -82,9 +138,10 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: Contra Epistulam Parmeniani (libri tres)
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres
+  work: Contra Epistulam Parmeniani (libri tres)
   author: augustine
-  locus: Pars I
+  locus: Pars I (CSEL 51); file line 2086 (heading 'CONTRA EPISTULAM PARMENIANI LIBRI III')
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of Augustine''s reply to Parmenian''s own letter —
@@ -96,9 +153,80 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: De Baptismo (libri septem)
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii
+  work: Contra Gaudentium Donatistarum Episcopum (libri II)
   author: augustine
-  locus: Pars I
+  locus: Pars III (CSEL 53); file line 73262 (heading 'CONTRA GAVDENTIVM DONATISTARVM EPISCOPVM',
+    'LIBRI II' at 73265)
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s reply, about 420, to Gaudentius, the Donatist bishop of Thamugadi, who
+    threatened to burn himself and his congregation in their church rather than yield to the
+    tribune Dulcitius. Book I answers his two letters sentence by sentence, quoting them;
+    book II answers his reply. Gaudentius''s words survive quoted inside it: embedded voice,
+    the work itself is Augustine''s. One manuscript survives, with a large gap in book I (chapters
+    20 to 36). No English translation is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
+    Petschenig''s critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR
+    of a dense critical edition with the apparatus interleaved (the file''s own header and
+    registry notes say so; about 88 to 90 percent of its word forms match the vocabulary of
+    the clean TEI files, against 93 to 97 percent for those). So this row is primary for authorship
+    and content, and a second witness for exact wording: each quote is checked against the
+    printed page or a clean witness before it is used, and the English a Representative speaks
+    is rendered from the verified Latin.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres
+  work: Contra Litteras Petiliani (libri tres)
+  author: augustine
+  locus: Pars II (CSEL 52); file line 24749 (heading 'CONTRA LITTERAS PETILIANI', 'LIBRI TRES.'
+    at 24750)
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s reply to the Donatist bishop Petilian of Cirta, whose letters on baptism
+    and the true church accused the Catholics of being traitors and persecutors. Book I is
+    Augustine''s short letter to Catholics answering the first part of Petilian''s letter,
+    book II answers the whole letter point by point, and book III answers Petilian''s angry
+    second letter (the editor''s Praefatio). The Latin original of \"Answer to the Letters
+    of Petilian\" in the vendored npnf104, so a cross-check on that English. Petilian''s own
+    words survive quoted inside Augustine''s replies: embedded voice, the work itself is Augustine''s.
+    PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig''s critical text (CSEL 52, Vienna,
+    1909). The scan is raw, uncorrected OCR of a dense critical edition with the apparatus
+    interleaved (the file''s own header and registry notes say so; about 88 to 90 percent
+    of its word forms match the vocabulary of the clean TEI files, against 93 to 97 percent
+    for those). So this row is primary for authorship and content, and a second witness for
+    exact wording: each quote is checked against the printed page or a clean witness before
+    it is used, and the English a Representative speaks is rendered from the verified Latin.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta
+  work: Contra Partem Donati post Gesta
+  author: augustine
+  locus: Pars III (CSEL 53); file line 66508 (heading 'CONTRA PARTEM DONATI', 'POST GESTA'
+    at 66509)
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s address, soon after the 411 conference, to the Donatist laity, warning
+    them not to be led on by their bishops. It answers the charge that the judge Marcellinus
+    had been bribed, and argues that the Donatist bishops had themselves brought scripture
+    testimonies against their own side. The editor keeps the title ''Contra partem Donati
+    post gesta'' and notes that the Retractationes (II 66) word it differently. Five manuscripts,
+    all French, from one old exemplar with gaps. No English translation is vendored. PRIMARY
+    ORIGINAL per cic/texts/INTAKE.md: Petschenig''s critical text (CSEL 53, Vienna, 1910).
+    The scan is raw, uncorrected OCR of a dense critical edition with the apparatus interleaved
+    (the file''s own header and registry notes say so; about 88 to 90 percent of its word
+    forms match the vocabulary of the clean TEI files, against 93 to 97 percent for those).
+    So this row is primary for authorship and content, and a second witness for exact wording:
+    each quote is checked against the printed page or a clean witness before it is used, and
+    the English a Representative speaks is rendered from the verified Latin.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem
+  work: De Baptismo (libri septem)
+  author: augustine
+  locus: Pars I (CSEL 51); file line 8474 (heading 'DE BAPTISMO LIBRI VII')
   role: tradition
   confidence: assigned
   note: 'Latin critical text (CSEL 51) of the same work already vendored in English as "On
@@ -110,9 +238,10 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: De Unico Baptismo contra Petilianum
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum
+  work: De Unico Baptismo contra Petilianum
   author: augustine
-  locus: Pars III
+  locus: Pars III (CSEL 53); file line 60949 (heading 'DE VNICO BAPTISMO')
   role: tradition
   confidence: assigned
   note: 'No English translation vendored anywhere in this corpus. Companion to the already-vendored
@@ -123,7 +252,58 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: 'Letters of St. Augustin: the Donatist correspondence'
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum
+  work: Epistula ad Catholicos de Secta Donatistarum
+  author: augustine
+  locus: Pars II (CSEL 52); file line 36698 (heading 'EPISTVLA AD CATHOLICOS', 'DE SECTA DONATISTARVM.'
+    at 36699)
+  role: tradition
+  confidence: assigned
+  note: 'A pastoral letter to Catholic congregations on where the true church is, taught from
+    the law, the prophets, the psalms, the gospel and the apostles; the editor takes it as
+    an appendix to book II of the reply to Petilian. Older editions title it ''De unitate
+    ecclesiae''. No English translation is vendored, so this is new primary content for both
+    entries. Authorship: the Maurists doubted that it is Augustine''s; Petschenig answers
+    their arguments in his Praefatio and finds nothing against it, and notes that Augustine''s
+    Retractationes do not mention it. Assigned on the editor''s judgment, and the doubt is
+    recorded here so a later quote record carries it. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
+    Petschenig''s critical text (CSEL 52, Vienna, 1909). The scan is raw, uncorrected OCR
+    of a dense critical edition with the apparatus interleaved (the file''s own header and
+    registry notes say so; about 88 to 90 percent of its word forms match the vocabulary of
+    the clean TEI files, against 93 to 97 percent for those). So this row is primary for authorship
+    and content, and a second witness for exact wording: each quote is checked against the
+    printed page or a clean witness before it is used, and the English a Representative speaks
+    is rendered from the verified Latin.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista
+  work: Gesta cum Emerito Donatista
+  author: augustine
+  locus: Pars III (CSEL 53); file line 72781 (the text's opening, heading 'GESTA CUM EMERITO
+    DONATISTA, LIBER UNUS.'); the work's own title page, 'GESTA CVM EMERITO', is at file line
+    72034
+  role: tradition
+  confidence: assigned
+  note: 'The record of the 418 debate at Caesarea in Mauretania between Augustine and the
+    Donatist bishop Emeritus, before the bishops of the province and the congregation, with
+    Augustine''s own introduction. The editor cites the Retractationes (II 77) for it, and
+    notes that its opening words differ between the Retractationes and the manuscript, which
+    he follows; the one late manuscript is the same as for the Sermo. It gives this world
+    a face-to-face exchange with a Donatist bishop, as far as the Catholic side reports it.
+    No English translation is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Petschenig''s
+    critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR of a dense critical
+    edition with the apparatus interleaved (the file''s own header and registry notes say
+    so; about 88 to 90 percent of its word forms match the vocabulary of the clean TEI files,
+    against 93 to 97 percent for those). So this row is primary for authorship and content,
+    and a second witness for exact wording: each quote is checked against the printed page
+    or a clean witness before it is used, and the English a Representative speaks is rendered
+    from the verified Latin.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- row_id: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-donatist-correspondence
+  work: 'Letters of St. Augustin: the Donatist correspondence'
   author: augustine
   locus: div3 letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX,
     CLXXIII (11 letters, ~54,523 words)
@@ -141,7 +321,8 @@ works:
     not `tradition`: Augustine is the Catholic opponent, per the role normalisation already
     applied to his anti-Donatist treatises.'
   source_file: npnf101_augustine-confessions-letters.xml
-- work: On Baptism, Against the Donatists
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists
+  work: On Baptism, Against the Donatists
   author: augustine
   locus: div2 5.4 — On Baptism, Against the Donatists (7 books)
   role: tradition
@@ -153,7 +334,8 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: On Christian Doctrine, Book III, chs. 30-37 ("The Rules of Tichonius the Donatist
+- row_id: npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine-book-iii-chs-30-37-the-rules-of
+  work: On Christian Doctrine, Book III, chs. 30-37 ("The Rules of Tichonius the Donatist
     Examined")
   author: augustine
   locus: div1 5 — Book III, Chapter 30 (v.vi.xxx) through Chapter 37, at file lines ~53014-54200
@@ -182,9 +364,11 @@ works:
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
-- work: Psalmus contra Partem Donati
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati
+  work: Psalmus contra Partem Donati
   author: augustine
-  locus: Pars I, opening item
+  locus: Pars I (CSEL 51); file line 1254 (heading 'PSALMUS', followed by 'CONTRA PARTEM DONATI'
+    at 1255)
   role: tradition
   confidence: assigned
   note: 'Augustine''s own abecedarian song against the Donatists, written for ordinary Catholic
@@ -195,7 +379,33 @@ works:
 
     '
   source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-- work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
+- row_id: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem
+  work: Sermo ad Caesariensis Ecclesiae Plebem
+  author: augustine
+  locus: Pars III (CSEL 53); file line 71496 (heading 'SERMO' at 71494, 'AD CAESARIENSIS ECCLESIAE
+    PLEBEM.' at 71496)
+  role: tradition
+  confidence: assigned
+  note: 'Augustine''s sermon to the congregation of Caesarea in Mauretania in 418, given with
+    the Donatist bishop Emeritus present, to persuade him to become Catholic (the editor''s
+    Praefatio). It gives this world a pastoral sermon in the middle of the dispute, on the
+    Maximianist schism inside Donatism (the Gesta cum Emerito say it dealt with the Maximianists
+    only). The editor remarks that by style alone one would hardly take it for Augustine''s
+    and still prints it as his own. One late manuscript, which the editor calls of little
+    value and which he shares with the Gesta cum Emerito, so the text is less secure than
+    the others here. No English translation is vendored. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
+    Petschenig''s critical text (CSEL 53, Vienna, 1910). The scan is raw, uncorrected OCR
+    of a dense critical edition with the apparatus interleaved (the file''s own header and
+    registry notes say so; about 88 to 90 percent of its word forms match the vocabulary of
+    the clean TEI files, against 93 to 97 percent for those). So this row is primary for authorship
+    and content, and a second witness for exact wording: each quote is checked against the
+    printed page or a clean witness before it is used, and the English a Representative speaks
+    is rendered from the verified Latin.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- row_id: npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum
+  work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
   role: tradition
@@ -206,7 +416,8 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: The Ecclesiastical Edicts of the Theodosian Code
+- row_id: boyd_ecclesiastical-edicts-theodosian-code_1905--the-ecclesiastical-edicts-of-the-theodosian-code
+  work: The Ecclesiastical Edicts of the Theodosian Code
   author: boyd
   locus: study 2 of 3 in this bound volume
   role: context
@@ -219,7 +430,8 @@ works:
 
     '
   source_file: boyd_ecclesiastical-edicts-theodosian-code_1905.txt
-- work: 'Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones Provinciae Numidiae'
+- row_id: cil8-supplementum-numidiae_cagnat-schmidt1894--corpus-inscriptionum-latinarum-viii-supplementum
+  work: 'Corpus Inscriptionum Latinarum VIII, Supplementum: Inscriptiones Provinciae Numidiae'
   author: cil8-numidia
   locus: whole volume
   role: context
@@ -232,7 +444,8 @@ works:
 
     '
   source_file: cil8-supplementum-numidiae_cagnat-schmidt1894.txt
-- work: Gesta Collationis Carthaginiensis (Acts of the 411 Conference of Carthage)
+- row_id: pl11-zeno-optatus-collatio-carthaginiensis_migne--gesta-collationis-carthaginiensis-acts-of-the-411-conference
+  work: Gesta Collationis Carthaginiensis (Acts of the 411 Conference of Carthage)
   author: collatio-carthaginiensis
   locus: the Collatio cluster, from col. 759 on
   role: context
@@ -250,7 +463,8 @@ works:
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
-- work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
+- row_id: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--the-code-of-canons-of-the-african-church-codex-canonum-2
+  work: The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council
     of Carthage, 419)
   author: council-of-carthage-419
   locus: pp. 155-202 of the printed volume
@@ -264,7 +478,8 @@ works:
 
     '
   source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
-- work: The Code of Canons of the African Church (Council of Carthage, 419)
+- row_id: npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage-2
+  work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4
   role: context
@@ -275,7 +490,8 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
+- row_id: npnf214_seven-ecumenical-councils--the-acts-of-the-council-of-carthage-under-cyprian-256-on
+  work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
   author: council-of-carthage-under-cyprian
   locus: div2 15.6 — The Council of Carthage held under Cyprian
   role: tradition
@@ -287,7 +503,75 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
-- work: On the Lapsed (De Lapsis)
+- row_id: cyprian_de-lapsis-lat_hartel1868-csel3-tei--de-lapsis-csel-3-latin-text-tei-2
+  work: De Lapsis, CSEL 3 Latin text (TEI)
+  author: cyprian
+  locus: file line 109 (first text of the TEI body, opening 'Pax ecce, dilectissimi fratres');
+    urn:cts:latinLit:stoa0104a.stoa007.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    lines 8650-9708
+  role: antecedent
+  confidence: assigned
+  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
+    hold: Cyprian''s treatise on those who lapsed in the Decian persecution and how the church
+    receives them back. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text
+    (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected TEI
+    (the project''s OCR correction of the printed edition, not a fresh human edition). Ready
+    to quote once each quote is verified verbatim against this file (INTAKE section 6); the
+    English a Representative speaks is rendered from it. Verify quotes against the printed
+    apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines
+    8650-9708), which carries the manuscript sigla and the variant readings in place on the
+    printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA 4.0,
+    so attribution and share-alike travel with any quotation. Mirrors the English twin''s
+    roles and confidence exactly.
+
+    '
+  source_file: cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt
+- row_id: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei--de-unitate-ecclesiae-catholicae-csel-3-latin-text-tei-2
+  work: De Unitate Ecclesiae Catholicae, CSEL 3 Latin text (TEI)
+  author: cyprian
+  locus: file line 109 (first text of the TEI body, opening 'Cum moneat Dominus et dicat');
+    urn:cts:latinLit:stoa0104a.stoa010.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    lines 7685-8633
+  role: antecedent
+  confidence: assigned
+  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
+    hold: Cyprian''s treatise on the unity of the church. PRIMARY ORIGINAL per cic/texts/INTAKE.md:
+    Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s
+    machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh
+    human edition). Ready to quote once each quote is verified verbatim against this file
+    (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes
+    against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    (scan lines 7685-8633), which carries the manuscript sigla and the variant readings in
+    place on the printed page; this file keeps the footnotes only as unaligned note text.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s roles and confidence exactly.
+
+    '
+  source_file: cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt
+- row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin-2
+  work: Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)
+  author: cyprian
+  locus: file line 116 (first text of the TEI body, opening 'Grauiter conmoti sumus ego et
+    collegae mei'); urn:cts:latinLit:stoa0104a.stoa012.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    lines 16500-30929
+  role: antecedent
+  confidence: assigned
+  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
+    hold: the correspondence of Cyprian, including letters written to him. PRIMARY ORIGINAL
+    per cic/texts/INTAKE.md: Hartel''s critical text (Pars II, Vienna: Gerold, 1871), in the
+    University of Leipzig''s machine-corrected TEI (the project''s OCR correction of the printed
+    edition, not a fresh human edition). Ready to quote once each quote is verified verbatim
+    against this file (INTAKE section 6); the English a Representative speaks is rendered
+    from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    (scan lines 16500-30929), which carries the manuscript sigla and the variant readings
+    in place on the printed page; this file keeps the footnotes only as unaligned note text.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
+    twin''s roles and confidence exactly.
+
+    '
+  source_file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
+- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2
+  work: On the Lapsed (De Lapsis)
   author: cyprian
   locus: div3 under 4.5 - Treatise III
   role: antecedent
@@ -301,7 +585,8 @@ works:
     sources argue from the text. Measured here rather than asserted - Augustine''s On Baptism,
     Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: On the Unity of the Church (De Unitate)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2
+  work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
   role: antecedent
@@ -311,7 +596,32 @@ works:
     for donatism: both sides of that controversy argued from this text and Augustine''s On
     Baptism works through it at length; Cyprian himself predates the schism by fifty years.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Epistles of Cyprian
+- row_id: cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei--sententiae-episcoporum-numero-lxxxvii-de-haereticis-2
+  work: Sententiae Episcoporum numero LXXXVII de haereticis baptizandis, CSEL 3 Latin text
+    (TEI)
+  author: cyprian
+  locus: file line 107 (first text of the TEI body, opening 'Cum in unum Cartaginem conuenissent');
+    urn:cts:latinLit:stoa0104a.stoa013.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+    lines 15567-16433
+  role: antecedent
+  confidence: assigned
+  note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
+    hold: the opinions of the 87 bishops at the Seventh Council of Carthage under Cyprian
+    on the baptism of heretics. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical
+    text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected
+    TEI (the project''s OCR correction of the printed edition, not a fresh human edition).
+    Ready to quote once each quote is verified verbatim against this file (INTAKE section
+    6); the English a Representative speaks is rendered from it. Verify quotes against the
+    printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan
+    lines 15567-16433), which carries the manuscript sigla and the variant readings in place
+    on the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA
+    4.0, so attribution and share-alike travel with any quotation. Mirrors the English twin''s
+    roles and confidence exactly.
+
+    '
+  source_file: cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt
+- row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2
+  work: The Epistles of Cyprian
   author: cyprian
   locus: div2 4.4
   role: antecedent
@@ -326,7 +636,8 @@ works:
     own vendored sources argue from the text. Measured here rather than asserted - Augustine''s
     On Baptism, Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
+- row_id: anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2
+  work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
   author: cyprian
   locus: div2 4.6
   role: antecedent
@@ -341,7 +652,8 @@ works:
     here rather than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian
     306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: 'Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8): Acta
+- row_id: monumenta-vetera-donatistarum-303-340_migne-pl8--monumenta-vetera-ad-donatistarum-historiam-pertinentia-303
+  work: 'Monumenta vetera ad Donatistarum historiam pertinentia, 303-340 (Migne PL 8): Acta
     Felicis, Acta Saturnini, Gesta purgationis, Cirta'
   author: donatist-anonymous
   locus: whole file, a slice of PL 8
@@ -352,7 +664,8 @@ works:
 
     '
   source_file: monumenta-vetera-donatistarum-303-340_migne-pl8.txt
-- work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
+- row_id: monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum
+  work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
     (MS title: De passione sanctorum Donati et Advocati)'
   author: donatist-anonymous
   locus: item 1 of 3
@@ -366,7 +679,8 @@ works:
 
     '
   source_file: monumenta-vetera-donatistarum_migne-pl8.txt
-- work: Passio Benedicti Martyris Marculi
+- row_id: monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi
+  work: Passio Benedicti Martyris Marculi
   author: donatist-anonymous-passio-authors
   locus: item 2 of 3
   role: tradition
@@ -377,7 +691,8 @@ works:
 
     '
   source_file: monumenta-vetera-donatistarum_migne-pl8.txt
-- work: Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad ecclesiam Carthaginiensem
+- row_id: monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii
+  work: Passio SS. Martyrum Isaac et Maximiani, cum epistula Macrobii ad ecclesiam Carthaginiensem
   author: donatist-anonymous-passio-authors
   locus: item 3 of 3, with the appended letter of the martyr Macrobius
   role: tradition
@@ -388,7 +703,8 @@ works:
 
     '
   source_file: monumenta-vetera-donatistarum_migne-pl8.txt
-- work: Epistolae Selectae (selected letters concerning the African Donatist remnant)
+- row_id: gregory-great_epistolae-selectae_turchi1907--epistolae-selectae-selected-letters-concerning-the-african
+  work: Epistolae Selectae (selected letters concerning the African Donatist remnant)
   author: gregory-great
   locus: selection within this Turchi 1907 edition
   role: context
@@ -401,7 +717,8 @@ works:
 
     '
   source_file: gregory-great_epistolae-selectae_turchi1907.txt
-- work: Liber Genealogus
+- row_id: chronica-minora-liber-genealogus_mommsen1892--liber-genealogus
+  work: Liber Genealogus
   author: liber-genealogus
   locus: Additamentum II to the Chronographus Anni CCCLIIII
   role: tradition
@@ -415,7 +732,8 @@ works:
 
     '
   source_file: chronica-minora-liber-genealogus_mommsen1892.txt
-- work: 'Histoire littéraire de l''Afrique chrétienne, Tome IV: Le Donatisme'
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912--histoire-litteraire-de-l-afrique-chretienne-tome-iv-le
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome IV: Le Donatisme'
   author: monceaux
   locus: whole volume
   role: context
@@ -427,7 +745,8 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt
-- work: 'Histoire littéraire de l''Afrique chrétienne, Tome V: Saint Optat et les premiers
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920--histoire-litteraire-de-l-afrique-chretienne-tome-v-saint
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome V: Saint Optat et les premiers
     écrivains donatistes'
   author: monceaux
   locus: whole volume
@@ -439,7 +758,8 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt
-- work: 'Histoire littéraire de l''Afrique chrétienne, Tome VI: La Littérature Donatiste (au
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922--histoire-litteraire-de-l-afrique-chretienne-tome-vi-la
+  work: 'Histoire littéraire de l''Afrique chrétienne, Tome VI: La Littérature Donatiste (au
     temps de saint Augustin)'
   author: monceaux
   locus: whole volume
@@ -451,7 +771,8 @@ works:
 
     '
   source_file: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
-- work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
+- row_id: optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2
+  work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
   author: optatus
   locus: as above
   role: context
@@ -464,7 +785,8 @@ works:
 
     '
   source_file: optatus_against-the-donatists.txt
-- work: S. Optati Milevitani Libri VII (critical Latin edition)
+- row_id: optatus_libri-vii-critical_ziwsa1893--s-optati-milevitani-libri-vii-critical-latin-edition
+  work: S. Optati Milevitani Libri VII (critical Latin edition)
   author: optatus
   locus: the seven books
   role: context
@@ -476,7 +798,28 @@ works:
 
     '
   source_file: optatus_libri-vii-critical_ziwsa1893.txt
-- work: Prosper of Aquitaine's Epitoma Chronicon, with its African continuations
+- row_id: optatus_libri-vii-lat_ziwsa1893-csel26-tei--s-optati-milevitani-libri-vii-critical-latin-text-tei
+  work: S. Optati Milevitani Libri VII (critical Latin text, TEI)
+  author: optatus
+  locus: file line 111 (first text of the TEI body, opening 'Cunctos nos christianos'); urn:cts:latinLit:stoa0215a.stoa001.opp-lat1;
+    scan twin optatus_libri-vii-critical_ziwsa1893.txt lines 2229-13189
+  role: context
+  confidence: assigned
+  note: 'Optatus'' seven books on the Donatist schism: the fullest surviving account of its
+    origins, written from the Catholic side. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Ziwsa''s
+    critical text (CSEL 26, Vienna, 1893), in the University of Leipzig''s machine-corrected
+    TEI (the project''s OCR correction of the printed edition, not a fresh human edition).
+    Machine-corrected TEI: verify each quote against the printed apparatus in the scan optatus_libri-vii-critical_ziwsa1893.txt
+    (scan lines 2229-13189), which carries the manuscript sigla and the variant readings in
+    place on the printed page; this file keeps the footnotes only as unaligned note text.
+    CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Same entry and
+    role as the scan row: context for donatism, since Optatus describes the Donatists rather
+    than speaking as one; usable for Donatism only etically.
+
+    '
+  source_file: optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt
+- row_id: prosper_chronica-minora-1-lat_mommsen1892--prosper-of-aquitaine-s-epitoma-chronicon-with-its-african-2
+  work: Prosper of Aquitaine's Epitoma Chronicon, with its African continuations
   author: prosper
   locus: pp. 385-485 of the printed volume
   role: context
@@ -489,7 +832,8 @@ works:
 
     '
   source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
-- work: Ribbeck, Donatus und Augustinus, first half (1857)
+- row_id: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857--ribbeck-donatus-und-augustinus-first-half-1857
+  work: Ribbeck, Donatus und Augustinus, first half (1857)
   author: ribbeck
   locus: whole file
   role: context
@@ -498,7 +842,8 @@ works:
 
     '
   source_file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
-- work: Theodosiani Libri XVI (Book 16, critical Latin text)
+- row_id: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text
+  work: Theodosiani Libri XVI (Book 16, critical Latin text)
   author: theodosian-code
   locus: Book 16
   role: context
@@ -511,7 +856,8 @@ works:
 
     '
   source_file: theodosianus-16_mommsen-meyer1905.txt
-- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+- row_id: codex-theodosianus_latinlibrary--codex-theodosianus-imperatori-theodosiani-codex-full-text-2
+  work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
   author: theodosian-code-compilers
   locus: whole text
   role: context
@@ -528,7 +874,8 @@ works:
 
     '
   source_file: codex-theodosianus_latinlibrary.txt
-- work: The Book of Rules (Liber Regularum)
+- row_id: tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum
+  work: The Book of Rules (Liber Regularum)
   author: tyconius
   locus: whole work
   role: tradition

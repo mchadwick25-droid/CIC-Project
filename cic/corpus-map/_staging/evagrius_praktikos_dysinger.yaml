@@ -5,7 +5,8 @@
 # this closes a real gap, not a speculative placement.
 source_file: evagrius_praktikos_dysinger.txt
 assignments:
-- work: The Praktikos
+- row_id: evagrius_praktikos_dysinger--the-praktikos
+  work: The Praktikos
   author: evagrius
   locus: whole file
   atlas_ids:

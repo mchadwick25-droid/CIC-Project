@@ -9,14 +9,18 @@ than trying to resolve model IDs or make a real, credentialed Bedrock client.
 Tests import `create_app` directly and build their own app from fakes.
 """
 import hmac
+import json
 import logging
 import os
+import queue
+import threading
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.encoders import jsonable_encoder
+from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -29,6 +33,78 @@ from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
 from engine.m7 import scheduler as m7_scheduler
 from engine.m8.log_store import UsageLogStore
+
+def _message_failure(exc: Exception, session_id: str) -> HTTPException | None:
+    """The HTTP answer for each refusal a participant message can meet, or
+    None for anything else (a programming error stays a 500 and surfaces as
+    itself rather than being reported as a provider problem)."""
+    if isinstance(exc, wiring.SessionNotFound):
+        return HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
+    if isinstance(exc, wiring.SessionClosed):
+        return HTTPException(status_code=409, detail="session already closed")
+    if isinstance(exc, table_wiring.TableRoundStillOpen):
+        return HTTPException(status_code=409, detail="round still open - continue it before the next message")
+    if isinstance(exc, table_wiring.TableAdvanceInFlight):
+        return HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
+    if isinstance(exc, wiring.DuplicateMessage):
+        return HTTPException(status_code=409, detail="duplicate message - already received")
+    if isinstance(exc, PackageRefused):
+        logger.warning("message refused: package unavailable session=%s", session_id)
+        return HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+    if isinstance(exc, wiring.ProviderCallFailed):
+        # The bound exception carries the real Bedrock error - the one
+        # signal that tells throttling apart from credentials apart
+        # from a bug. The audit found it constructed and discarded.
+        logger.error("provider call failed session=%s: %s", session_id, exc)
+        return HTTPException(status_code=502, detail="provider call failed")
+    return None
+
+
+def _sse(event: str, data: dict) -> str:
+    return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
+
+
+def _stream_message(call_kwargs: dict, session_id: str, started: float) -> StreamingResponse:
+    """One interview message answered as an event stream: "draft" events
+    carry the reply's sentences as the voice finishes writing them, and a
+    final "done" event carries the same MessageResponse the plain endpoint
+    returns - the finished turn, which replaces the draft. A refusal before
+    the first event is the same HTTP status as the plain endpoint; a failure
+    after the draft began is an "error" event carrying that status. The turn
+    runs to completion and is recorded even if the reader disconnects."""
+    events: queue.Queue = queue.Queue()
+
+    def run() -> None:
+        try:
+            result = wiring.handle_message(**call_kwargs, on_draft_text=lambda text: events.put(("draft", text)))
+        except Exception as exc:
+            events.put(("error", exc))
+        else:
+            events.put(("done", result))
+
+    threading.Thread(target=run, daemon=True).start()
+    first = events.get()
+    if first[0] == "error":
+        failure = _message_failure(first[1], session_id)
+        raise failure if failure is not None else first[1]
+
+    def body():
+        kind, payload = first
+        while True:
+            if kind == "draft":
+                yield _sse("draft", {"text": payload})
+            elif kind == "done":
+                logger.info("message handled session=%s turn=%s ms=%d streamed=true", session_id, payload.turn_no, (time.monotonic() - started) * 1000)
+                yield _sse("done", MessageResponse(**asdict(payload)).model_dump())
+                return
+            else:
+                failure = _message_failure(payload, session_id)
+                yield _sse("error", {"status": failure.status_code if failure is not None else 500})
+                return
+            kind, payload = events.get()
+
+    return StreamingResponse(body(), media_type="text/event-stream", headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+
 
 class MissingAnonCapSecret(Exception):
     """Raised at app construction when anon_cap_enabled=True but no secret
@@ -63,6 +139,9 @@ class Deps:
     package_cache_dir: Path | None = None
     r27_enforce: bool = False
     self_revision_enabled: bool = True
+    # Whether a client that asks for an event stream gets the reply sentence
+    # by sentence while it is written (the Accept header decides per request).
+    streaming_enabled: bool = False
     # Same directory m7_scheduler.start_background_scheduler already
     # writes to below - the usage-summary endpoint reads its
     # canon-candidates.json (last_run.json's own out_dir) rather than
@@ -71,8 +150,8 @@ class Deps:
     # scheduler running, nothing to read) - the endpoint degrades to
     # omitting that section rather than erroring.
     m7_audit_root: Path | None = None
-    # The dashboard's password login (engine.api.admin_auth, Mark
-    # 2026-09-28) - None when admin_token itself is unset, since a
+    # The dashboard's password login (engine.api.admin_auth) - None when
+    # admin_token itself is unset, since a
     # password login with no admin_token to bootstrap it or sign its
     # sessions makes no sense (same "the whole feature is off" posture
     # admin_token's own absence already gives pilot-summary).
@@ -211,8 +290,7 @@ class AskCandidateResponse(BaseModel):
 class UsageSummaryResponse(BaseModel):
     """Admin-only, see wiring.get_usage_summary's own docstring - the same
     operator-only tier /api/admin/pilot-summary already lives at, extended
-    with the identity/duration/cost/per-world/questions-asked scope Mark
-    converged on 2026-09-28."""
+    with the identity/duration/cost/per-world/questions-asked scope."""
     visitors: VisitorUsageResponse
     by_world: list[WorldUsageResponse]
     price_table_source: str | None
@@ -275,7 +353,7 @@ def _authenticate_admin(configured_token: str | None, authorization: str | None,
     knows exists), this route shouldn't confirm its own existence to
     anyone who lacks the token, config-not-set included.
 
-    session_token (Mark, 2026-09-28): the dashboard's password-login
+    session_token: the dashboard's password-login
     cookie (engine.api.admin_auth) is a second, equally valid way in -
     checked first since it's the common case for the browser dashboard,
     falling through to the original Bearer-token check unchanged so a
@@ -316,6 +394,7 @@ def create_app(
     anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    streaming_enabled: bool = False,
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
 ) -> FastAPI:
@@ -334,8 +413,8 @@ def create_app(
     permanently-unauthorizable state.
 
     anon_cap_enabled defaults False as a code default (see
-    engine.api.anon_cap's own module docstring - both real deploys now
-    turn it on via render.yaml, Mark 2026-09-28). Enabling it with
+    engine.api.anon_cap's own module docstring - both real deploys turn it
+    on via render.yaml). Enabling it with
     no secret is refused loudly, not silently skipped - a caller opting in
     without providing the one thing that makes the token unforgeable is a
     misconfiguration, not a valid "off" state."""
@@ -370,6 +449,7 @@ def create_app(
         package_cache_dir=package_cache_dir,
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
+        streaming_enabled=streaming_enabled,
         m7_audit_root=m7_audit_root,
         admin_auth_store=admin_auth_store,
     )
@@ -463,33 +543,22 @@ def create_app(
             package_cache_dir=deps.package_cache_dir,
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
+            daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
         )
         started = time.monotonic()
+        if deps.streaming_enabled and state.mode != "table" and "text/event-stream" in request.headers.get("accept", ""):
+            return _stream_message(call_kwargs, session_id, started)
         try:
             if state.mode == "table":
                 result = table_wiring.handle_table_message(**call_kwargs)
                 logger.info("table message handled session=%s round=%s ms=%d", session_id, result.round_no, (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result))
             result = wiring.handle_message(**call_kwargs)
-        except wiring.SessionNotFound:
-            raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
-        except wiring.SessionClosed:
-            raise HTTPException(status_code=409, detail="session already closed")
-        except table_wiring.TableRoundStillOpen:
-            raise HTTPException(status_code=409, detail="round still open - continue it before the next message")
-        except table_wiring.TableAdvanceInFlight:
-            raise HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
-        except wiring.DuplicateMessage:
-            raise HTTPException(status_code=409, detail="duplicate message - already received")
-        except PackageRefused:
-            logger.warning("message refused: package unavailable session=%s", session_id)
-            raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-        except wiring.ProviderCallFailed as exc:
-            # The bound exception carries the real Bedrock error - the one
-            # signal that tells throttling apart from credentials apart
-            # from a bug. The audit found it constructed and discarded.
-            logger.error("provider call failed session=%s: %s", session_id, exc)
-            raise HTTPException(status_code=502, detail="provider call failed")
+        except Exception as exc:
+            failure = _message_failure(exc, session_id)
+            if failure is None:
+                raise
+            raise failure
         logger.info("message handled session=%s turn=%s ms=%d", session_id, result.turn_no, (time.monotonic() - started) * 1000)
         return MessageResponse(**asdict(result))
 
@@ -598,9 +667,9 @@ def create_app(
         """Bootstraps or changes the dashboard's password - gated on the
         ORIGINAL admin_token (Bearer), never a session, since this is the
         one action that creates the credential a session would otherwise
-        prove. Mark, 2026-09-28: the raw token from Render is needed here
-        exactly once (or again, to change the password later), never
-        afterward for ordinary dashboard use."""
+        prove. The raw token from Render is needed here exactly once (or
+        again, to change the password later), never afterward for ordinary
+        dashboard use."""
         deps: Deps = request.app.state.deps
         _authenticate_admin(deps.admin_token, authorization)
         if deps.admin_auth_store is None:
@@ -644,12 +713,10 @@ def create_app(
 
     @app.get("/admin/dashboard", include_in_schema=False)
     def get_admin_dashboard():
-        """The visual half of the usage dashboard (Mark, 2026-09-28
-        scoping doc) - a static page, unauthenticated to SERVE (same
-        posture as cic-poc/frontend below: no page here carries data of
-        its own), that logs in with a password (engine.api.admin_auth,
-        Mark, 2026-09-28 revision - the original bearer-token-in-a-box
-        login was the wrong credential for a human) and calls
+        """The visual half of the usage dashboard - a static page,
+        unauthenticated to SERVE (same posture as cic-poc/frontend below:
+        no page here carries data of its own), that logs in with a
+        password (engine.api.admin_auth) and calls
         /api/admin/usage-summary + /api/admin/pilot-summary with the
         resulting session cookie. Registered BEFORE the SPA catch-all below so it isn't swallowed by
         that route's index.html fallback."""
@@ -749,6 +816,8 @@ def _build_real_app() -> FastAPI:
         anon_daily_session_limit=settings.anon_daily_session_limit,
         anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
+        self_revision_enabled=settings.self_revision_enabled,
+        streaming_enabled=settings.streaming_enabled,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).

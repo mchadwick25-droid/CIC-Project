@@ -146,14 +146,13 @@ description: >-
   a real and disclosed tension in how this record is classified. A reader should not mistake the
   modest classification for any doubt about what Cassian and Chaeremon actually taught.
 
-  Under pressure from Rome, the argument grew stronger, and who carried it changed too. It began as
-  monks writing for other monks. It ended, a generation later, with a bishop, trained at Lérins,
-  writing at the order of a church council. Its own transmission then broke apart further. A later
-  medieval editor rewrote Cassian's thirteenth Conference, on purpose, to strip out anything that
-  looked heretical. So this teaching now reaches a modern reader through a text that one editor,
-  somewhere along the way, actually tried to cut it out of. Inside this world's own literature,
-  though, it began as something much simpler. It was a remedy for the pride of a monk who feels, at
-  last, that he is making progress - offered long before anyone outside gave it any name at all.
+  Under pressure from Rome, the argument grew stronger, and who carried it
+  changed too. It began as monks writing for other monks. It ended, a
+  generation later, with a bishop, trained at Lérins, writing at the order of
+  a church council. Inside this world's own literature, though, it began as
+  something much simpler. It was a remedy for the pride of a monk who feels,
+  at last, that he is making progress - offered long before anyone outside
+  gave it any name at all.
 manifestations:
 - "Conf. XIII: Germanus's scruple at morning service over whether effort accomplishes anything, and Chaeremon's two-sided answer ending in a declared limit of human reason (XIII.1, XIII.18)"
 - "Inst. XII.9-33: the monk who feels progress is to say 'Not I, but the grace of God with me'; 'not giving my own opinion, but that of the elders'; the work's closing sentence on grace"

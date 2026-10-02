@@ -17,7 +17,7 @@ It was built under a different, later governance track than Alexandria's — the
 **Record-Native World Build Process** (V1.2/V1.3), not the Construction Framework's
 self-governing Phase A/B split — whose own states run `built → admitted → open`, not
 `Approved to proceed → Frozen`. As of the fleet's own 2026-09-16 status sweep
-(`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`), Cappadocian's row reads:
+(the Go-Live Pipeline Status document), Cappadocian's row reads:
 **"admitted | Live, package current | none pending | —."** Nothing below should be read
 as blocking that status; these are the gaps a careful reader should still know about a
 world that is, mechanically, live.
@@ -379,7 +379,7 @@ against the full gate battery before the next:
 - **OG-11 above** — the rights_status internal-narration defect (65/111 records, 59%, the
   worst rate of any world checked; fixed fleet-wide 2026-09-20, PR #321).
 - **The "Boundary Structures" vs. "Boundary Ecology" terminology inconsistency**
-  (`Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md`, item 6, 2026-09-16): the
+  (the Go-Live Pipeline Status document, item 6, 2026-09-16): the
   Constitution and Forces-Framework governing documents contradict each other on the
   canonical term; ruled `Boundary Structures` for the `lpc` world specifically, but three
   sibling worlds' Doc_05 files — **alx, don, and cappadocian** — use the other term.
@@ -411,7 +411,7 @@ This file was assembled from `CAPPADOCIAN_BUILD_LEDGER.md` (52 sections), the So
 Registry and its four review-round sets, `cappadocian_Unused_Source_Verification_2026-09-09.md`,
 `cappadocian_Representative_Identity_Options.md`, the two G3 Permanent Prompt review
 rounds, `records/worlds/cappadocian.yaml`, `Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own
-Cappadocian section, and the fleet-level `CiC_GoLive_Pipeline_Status.md` and
+Cappadocian section, and the fleet-level Go-Live Pipeline Status document and
 `CiC_System_Health_Tracking.md`. It does not re-verify every review round's own findings
 against the underlying primary sources a second time — where the ledger itself already
 records that discipline (and it does so unusually often, and unusually self-critically,
@@ -621,3 +621,11 @@ Mark decided on 2026-09-30 that the voice is fixed at generation, with cleaning 
 ### OG-31. Fleet-level: 18 build-narration lines in records and the corpus map are recorded for the batched pass, 2026-09-30.
 
 The second narrowing of the live-surface commentary check stops flagging bare "open question" and "still open", a physical "at the gate", ruling-named identifiers in Python code, the taxonomy tag on a `name:` line, and "opens round N" (see `Build/Ministry/Operations/Audits/Live_Commentary_Second_Narrowing_2026-09-30.md`). Reading every dropped line in records and the corpus map found 18 that narrate the build or the mapping: 12 in records (cappadocian, don, lpc, syr, witt) and 6 in the corpus map. They are listed in that audit. Five are lpc's, whose build thread owns them. The fix is the same batched pass as OG-29, which moves build narration to `Build/Ministry/`. The pass is not scheduled. Until it runs, these lines are unflagged and still present.
+
+### OG-32. Fleet-level: `figure-dates-keys/cappadocian` closed by a frontend fix, 2026-10-01.
+
+The fix is in the frontend, so no record changed. `cic-poc/frontend/src/components/FigureBridgeMark.tsx` now labels born, died and floruit for the participant ("Born:", "Died:", "Active:"). It shows `display` and `note` as sentences with no key in front, so participants no longer read "display:". `engine/m1/cross_world.py` `check_figure_dates_keys` now flags only keys outside that shared vocabulary (`FIGURE_DATE_KEYS`), instead of keys a strict majority of worlds does not use. All eleven `figure-dates-keys/*` waivers no longer fire and are removed. This world's `display` dates stay as authored. The pilot readiness review found this, 2026-10-01.
+
+### OG-33. Fleet-level: the self-revision switch now reaches the app, 2026-10-02.
+
+The entry "self-revision switched off in production" (2026-09-30) set `CIC_SELF_REVISION` to `"0"` in `render.yaml`, but the setting never reached the running app. `engine/api/config.py` parsed it, and `_build_real_app` in `engine/api/app.py` did not pass it to `create_app`, whose default is on. Self-revision therefore kept running on the first ask of every other-tradition question, at the cost of one extra Sonnet call each time. `_build_real_app` now passes `self_revision_enabled` through. A new test, `engine/api/tests/test_settings_wiring.py`, fails if any setting that `Settings.from_env` parses is not read by `_build_real_app`. Every parsed setting is now read, `streaming_enabled` included. This is decision 14 of the conversation system design (System Hub Decision Log, "Conversation system design: approved to proceed, Design C").

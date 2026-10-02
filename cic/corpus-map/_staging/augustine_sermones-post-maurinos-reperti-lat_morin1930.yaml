@@ -1,7 +1,8 @@
 source_file: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
 
 assignments:
-  - work: "Augustine's Sermones post Maurinos reperti (Morin, Miscellanea Agostiniana I)"
+  - row_id: augustine_sermones-post-maurinos-reperti-lat_morin1930--augustine-s-sermones-post-maurinos-reperti-morin-miscellanea
+    work: "Augustine's Sermones post Maurinos reperti (Morin, Miscellanea Agostiniana I)"
     author: augustine
     locus: "whole file"
     atlas_ids:

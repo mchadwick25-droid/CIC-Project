@@ -31,6 +31,7 @@ of promotion. See "How things move" for the promotion path.
 | `cic/` | **the Library**: `texts/` (vendored public-domain editions, flat, one copy of each), `corpus-map/` (which works belong to which tradition, at which locus, in what role), `engine/` (corpus tools) | Render (`cic/texts/` only, for the in-image compile), engine gates at build time; never at runtime |
 | `cic-poc/` | the participant-facing frontend (interview and table); the proof-of-concept backend it was named for is retired | Render (Docker COPY `frontend/`), CI |
 | `cic-website/` | the public site and the Atlas; `data/world-census.json` is the census | Cloudflare (assets directory), CI |
+| `cic-worker/` | the Cloudflare Worker in front of the site's assets: answers byte-range requests under `/audio/` (iPhone Safari needs them to play and seek narration); everything else is served unchanged | Cloudflare (`wrangler.jsonc`) |
 
 ## Build — everything that builds or governs the system, not itself part of what runs it
 
@@ -43,7 +44,7 @@ root `tools/`; everything else in `tools/` — scripts nothing in CI invokes —
 
 | entry | what it is |
 |---|---|
-| `Build/worlds/` | one home per world, keyed by registry code (phase 2 of the cleanup, 2026-09-15): construction documents (Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative) at `Build/worlds/<code>/`, indexes/build log/source manifest at `Build/worlds/<code>/build/`; `_cross-world/` holds fleet-level build documents and their generators. Six not-yet-coded worlds (Anabaptist Movements, Devotio Moderna and the Brethren of the Common Life, the Hussite and Bohemian Brethren Movement, Lollardy, Society of Jesus, Tridentine Church) stay under `Build/World-Builds/` at their long names until each gets a registry code |
+| `Build/worlds/` | one home per world, keyed by registry code (phase 2 of the cleanup, 2026-09-15): construction documents (Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative) at `Build/worlds/<code>/`, indexes/build log/source manifest at `Build/worlds/<code>/build/`; `_cross-world/` holds fleet-level build documents and their generators. Four not-yet-coded worlds (Anabaptist Movements, Devotio Moderna and the Brethren of the Common Life, Lollardy, Tridentine Church) stay under `Build/World-Builds/` at their long names until each gets a registry code |
 | `Build/reference/L0-Reference/` … `Build/reference/L4-Templates/` | the Level system: foundation, architecture, entry, status, operations, shared methodology, world-build methodology (including the closed Phase One World Selection), Representative methodology, encounter methodology, templates. A template exists once, here |
 | `Build/reference/Redesign-Spec/` | the record-native program spec and its artifacts (1–8), the build blueprint, the launch plan |
 | `Build/reference/method/` | the current-era build process, completion standard, register bar, naming and role discipline, voice style guide, adversarial-review practice, and the voice-rebuild decisions the readability target rests on |
@@ -62,7 +63,7 @@ root `tools/`; everything else in `tools/` — scripts nothing in CI invokes —
 
 | entry | what it is |
 |---|---|
-| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping, superseded method documents. Nothing here is current; nothing here is deleted without instruction |
+| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping, superseded method documents, superseded engine code, superseded world drafts. Nothing here is current; nothing here is deleted without instruction |
 
 ## How a world is named
 
