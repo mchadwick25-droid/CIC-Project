@@ -176,3 +176,13 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 - A repricing trigger: the measured cost per paid conversation at which pack sizes are changed for new purchases. Sold conversations are honored at the sold rate. The threshold is not set.
 - The gift and group packs, which are not part of the pilot ladder.
 - Final prices, which go to the funding thread first.
+
+## 18. The pilot is a priced demand test with real checkout (2026-10-02)
+
+**Decision (Mark):** the pilot's purpose is a priced demand test with real checkout, not a revenue line. Revenue is a bonus, not the target.
+
+**Basis:** Opus market buy-in review (verdict: Unlikely as a primary financial engine at pilot scale, Plausible as a demand signal). It estimates 1 to 2.5% of people who start a conversation will buy, about $30 to $380 gross over three months at 300 to 1,500 starters. Real checkout stays in test mode until counsel's review (entry 9).
+
+**Review's proposed thresholds, not yet adopted:** over the first 500 starters or 90 days, continue at 2% or more of starters (or 8% or more of those who use up the free allowance), redesign the offer at 0.5 to 2%, and lead with church, class and donations below 0.5% or when under 30% finish turn 1.
+
+**Open:** the thresholds above, a per-visitor log plan that never joins payment to conversation text, and the review's remaining questions: whether the echo, streaming and reply-length fixes must land before paid launch, when the church and class pool ships, whether a buyer may give an email for balance recovery only, whether to seek a named scholar before charging, and what replaces the "about five conversations" wording.

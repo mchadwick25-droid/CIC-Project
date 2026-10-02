@@ -76,3 +76,11 @@ In both cases the message is never screened.
 **What this module needs from it:** a re-run of the same turn-1 probe (the opener message with and without a question) and the 3-turn free sample after the change, since the free allowance's first impression depends on it. The 3-turn sample's cost also changes if replies get shorter (entry 12).
 
 **Not done here:** no prompt, directive or engine file was edited by this module.
+
+## 7. Replies arrive in one block after 17 to 34 seconds (2026-10-02)
+
+**Status:** OPEN. Raised by the Opus market buy-in review and checked in the code on 2026-10-02.
+
+**What happens.** `engine/api/config.py` defines `streaming_enabled` (`CIC_API_STREAMING`), and no other file reads it. The message endpoint returns a full reply, so a participant sees nothing until the whole reply is ready. The 15-turn run measured 17 to 34 seconds per turn.
+
+**Why it matters here.** The free allowance's first impression is a 25-second wait for a long reply. The buy-in review names this, the echo (entry 5) and reply length (entry 12) as the three defects to fix before a paid launch.
