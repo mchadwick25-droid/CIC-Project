@@ -1455,10 +1455,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
     ("engine/m9/enforce.py", 138, "KEEP"),
-    # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
-    # file's lines by +7 above this point; re-pinned to the same
-    # r27_regenerated assertion, now at 1131.
-    ("engine/api/tests/test_app.py", 322, "REWRITE"),
+    # Refreshed 2026-10-02 (commit 30550bec): the engine/api/tests/
+    # test_app.py:322 r27 docstring was cleaned and stopped matching.
+    # Re-pinned to a stable Build/reference/ example: build-status
+    # narration ("the build log records Mark confirming...") inline in a
+    # spec table.
+    ("Build/reference/Redesign-Spec/World-Cards.md", 68, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1487,7 +1489,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # removes the commentary already in it"). Re-pinned to a fresh
     # gravity-classification-label hit, not yet touched by any re-voicing
     # PR.
-    ("records/alx/force/alx.force.scripture-ongoing.md", 29, "REWRITE"),
+    # Refreshed 2026-10-02 (commit 468d97ff): the re-pinned
+    # alx.force.scripture-ongoing.md:29 line was itself cleaned by that
+    # commit. Re-pinned to a stable Build/reference/ example: process
+    # narration ("retried and refused again, which is why the deletion
+    # ran") inline in a launch spec.
+    ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 282, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52

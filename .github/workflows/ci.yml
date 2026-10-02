@@ -205,9 +205,19 @@ jobs:
             # (tools/tests/test_check_live_commentary.py) previously ran
             # nowhere in CI - the same gap crossworld above closed for
             # gen_needs_ruling.py.
+            # The hand-labelled sample in test_check_live_commentary.py is
+            # pinned to real file:line positions in every tree listed
+            # below, so an edit to any of them can break it.
             checkertests:
               - 'tools/**'
               - '.github/workflows/**'
+              - 'engine/**'
+              - 'records/**'
+              - 'fixtures/**'
+              - 'canon/**'
+              - 'cic-website/**'
+              - 'Build/worlds/**'
+              - 'Build/reference/**'
             # docker-build on pull_request runs only for changes that can
             # break image assembly (the Dockerfile itself, the pinned
             # requirement files it installs, the frontend it builds, the M2
@@ -587,7 +597,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_paths.py -q
+      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_live_commentary_gates.py tools/tests/test_check_paths.py tools/tests/test_repin_stale_worlds.py -q
 
   docker-build:
     needs: changes
