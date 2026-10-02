@@ -9,3 +9,11 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Basis:** Opus round 1 review, blocking finding 1. See `Open_Gaps_Tracking.md`, entry 1.
 
 **Scope:** applies to the ledger design and to the two existing paths named in the gap entry.
+
+## 2. The Facilitator speaks the close and the offer (2026-10-02)
+
+**Decision (Mark):** the Facilitator speaks the close of a conversation and any mention of buying more. The Representative never speaks the ask.
+
+**Basis:** Opus round 1 review, blocking finding 2. Today's close is a Facilitator template, and the research's Closing Page and Threshold Sheet directions carry the offer in the Facilitator's register.
+
+**Open:** the exact wording of the close and the offer. It is drafted later and held to the participant-facing readability and no-AI-tells standard in `CLAUDE.md`.
