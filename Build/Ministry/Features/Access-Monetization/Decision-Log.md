@@ -108,3 +108,16 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Decision (Mark):** a purchase buys more conversations that can go deeper than a free one. The candidate paid depth is 15 turns. Free conversations keep the 10-turn cap.
 
 **Status:** a candidate, not a final cap. The cap and the pack price are set together once a measured run at 15 turns exists. See `Open_Gaps_Tracking.md`, entry 2.
+
+## 12. No cut-off replies; keep them short by pressure on the generator, not by a cap (2026-10-02)
+
+**Decision (Mark):** a reply is never cut off at an output limit. The generator is pressured to keep replies shorter through how it is prompted, with no hard cap that truncates a reply.
+
+**Basis:** `Open_Gaps_Tracking.md`, entries 3 and 4. In the 15-turn run, 7 of 15 replies ended mid-sentence at the 1,024-token limit, and most replies ran 550 to 830 words against the readability target.
+
+**Consequences for this module:** a cut-off reply no longer arises, so the protection rule that a failed or cut-off reply never costs a unit applies to errors only. Cost per turn can rise if replies run longer than the old limit allowed, so the 15-turn candidate (entry 11) must be re-measured once the change is made.
+
+**Open, and not decided here:**
+- The API still needs a numeric `max_tokens`. "No cap" is read as a high safety ceiling that replies should never reach, not a truncation point. The value is not chosen.
+- How the generator is pressured toward shorter replies (prompt wording, the per-turn directive, or both). That change belongs to the voice and engine work and goes through its review. No engine file or prompt is edited by this module.
+- A measured run after the change, to confirm replies end cleanly and to price the paid depth.
