@@ -6018,3 +6018,11 @@ ruling of 2026-09-30 ("Cap ruling: jes Step 0") covers the same review under its
 entry covers is `Step0_Review_Round3_SpotCheck.md`. The entry of 2026-09-30 is unchanged and still names the
 review under its earlier name.
 
+
+## 2026-10-02 - Claude threads merge their own pull requests
+
+The project lead ruled that a Claude thread merges the pull requests it opens, instead of leaving the merge button to the project lead. In the project lead's words: "if i am just pushing buttons i would rather you do that." He confirmed the practice again on 2026-10-02 with "yes you merge."
+
+The rule: a thread merges its own pull request, by merge commit, once every required check is green on the current head, the pull request is mergeable, and no review finding is open. Path-gated checks that show "skipped" count as passing.
+
+One exception stays with the project lead: the production promotion, the pull request that moves reviewed work onto the live branch.
