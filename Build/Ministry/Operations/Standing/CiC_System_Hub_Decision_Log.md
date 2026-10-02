@@ -6075,3 +6075,9 @@ The project lead ruled on 2026-10-02:
 20. A cell's dossier holds the cell's own records plus all of the world's doctrinal witnesses and stories. Terms reach the voice through the index and the glosses. This is change order CO-7 on Design C's staging (decision 3), where a dossier held only the records whose notes name the cell. On the baseline it raises the share of cited records held from 30.7% to 54.3%. E1 is redesigned on this layout, and its settings come back to the project lead before it runs.
 
 He also ruled the same day that Bedrock spend is for generating conversation, and review and grading run inside the build session.
+
+## 2026-10-02 - Participant-facing content is modern English only (decision 23)
+
+The project lead ruled: "make sure everything that is participant facing is translated into modern english, we translate quotes and stories and use that in the conversation."
+
+23. Quotes reach the voice and the participant only as their `modern_rendering`, stories only as their `tellable_as`. The source wording never reaches the voice or the app. Asked what a quote's citation card should show at its deepest level, where it showed the original wording, he chose the modern rendering plus the source reference (author, work, section, edition), so anyone who wants the original can follow the reference. The fix and the repin of every world: Conversation-Transparency-Engine Decision-Log, Entry 90.

@@ -265,7 +265,11 @@ def _head_text(record: dict) -> str:
     if record_type == "term":
         return record.get("plain_meaning") or ""
     if record_type == "story":
-        return record.get("tellable_as") or record.get("text") or ""
+        tellable = record.get("tellable_as")
+        if not tellable:
+            raise ValueError(f"{record.get('id')}: story has no tellable_as - "
+                             f"refusing to fall back to text, which is never voiced")
+        return tellable
     if record_type in ("quote",):
         # The speakable form is ALWAYS modern_rendering, never `text` - a
         # non-English or archaic original is primary evidence (the library
