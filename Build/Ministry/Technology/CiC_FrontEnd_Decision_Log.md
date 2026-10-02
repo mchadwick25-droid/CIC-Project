@@ -5109,3 +5109,51 @@ rest; closing the card stops everything. No script errors.
 
 1. Merge; Mark or a tester tries a world card on an iPhone (sound from the
    first second), the speed buttons, and tapping a portrait on the map.
+
+## 2026-10-02 — iPhone narration still silent after the tap fix: the audio host ignores Range requests
+
+**What happened.** The change that starts a built world's narration inside the
+tap (PR #692) did not stop the silence on Mark's iPhone: playback advances with
+no voice until it is stopped and started. Speed buttons and the portrait tap
+work. So the earlier diagnosis (playback started outside the tap) was incomplete;
+the in-tap start is kept, since iPhone Safari does require it, but it is not the
+whole cause.
+
+**Evidence for the cause.** A request with `Range: bytes=0-1` to any narration
+file on the live site returns **200 with the whole file** (12.8 MB for the
+Donatist story), no `Accept-Ranges`, no `Content-Range`. Cloudflare's static-asset
+serving ignores Range. iPhone Safari's first request for media is `bytes=0-1` and
+it only accepts a 206 answer; a server that ignores Range gives it a stream it
+cannot seek or treat as complete, which fits a first play that advances silently
+and a second play, served from the browser's cache, that works. Seeking on a
+phone needs the same support.
+
+**Not confirmed.** There is no iPhone or WebKit in this environment, so the link
+between this defect and the silence is judged from the evidence above and from
+published reports of Safari requiring byte ranges, not observed. A test that
+would confirm it on the phone: with "Start narration automatically" off, press
+play on a story that has never been played; if the first play is silent and a
+stop-and-start fixes it, the cause is the file load, not the autoplay.
+
+**Fix.** `cic-worker/worker.mjs`, a Cloudflare Worker that runs only for
+`/audio/*` (`run_worker_first` in `wrangler.jsonc`): it reads the asset, answers a
+single `bytes=` range with 206, `Content-Range` and `Accept-Ranges: bytes`, 416 for
+an unsatisfiable range, and advertises `Accept-Ranges` on full responses. Every
+other path is served straight from the assets as before.
+
+**Checked.** Eleven unit tests; and the real Workers runtime locally
+(`wrangler dev`): the Safari probe returns 206 with the right two bytes, middle
+and open-ended slices match the file byte for byte, full requests return 200 with
+`Accept-Ranges`, HEAD works, an out-of-range request returns 416, pages and JSON
+are unchanged, the site's security headers still apply to audio, and Chromium
+plays and seeks the file with 206 responses.
+
+**Risk.** This changes how production serves audio. The Worker adds an
+invocation per audio request and holds one file in memory per ranged request
+(up to about 13 MB). If it misbehaves, reverting `wrangler.jsonc` restores the
+previous behaviour.
+
+### Next action
+
+1. Merge only after the Cloudflare build for the PR succeeds; Mark retests a
+   world card and the first play of a never-played story on the iPhone.
