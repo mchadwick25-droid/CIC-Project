@@ -33,3 +33,11 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Basis:** Opus round 1 review, substantial finding on constraints. A yearly licence is a subscription.
 
 **Open:** whether it ships with the first individual packs or follows them, the pool's size and price, and how members join. A shared church or class network also affects the anonymous free allowance, because the current per-IP seeding caps newcomers after about five first visits from one network a day.
+
+## 5. Donations stay separate from paid access at pilot (2026-10-02)
+
+**Decision (Mark):** paid access uses its own checkout. Donations stay on the existing website donation links. No donation round-up inside the purchase flow.
+
+**Basis:** Opus round 1 review, substantial finding. Mixing a sale with a charitable ask raises Stripe restricted-category and Colorado solicitation questions, and Faithways is a public benefit corporation.
+
+**Open:** a Sponsored Seat or combined flow is a later phase and needs counsel review first.
