@@ -88,12 +88,17 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 
 ## 10. The Church Family Tree stays free and is the front door to conversations (2026-10-02)
 
-**Decision (Mark):** the Church Family Tree stays fully free with no cap. Its role is to be the free front door that feeds conversations. Revenue comes from the conversations and from a quiet support lane kept apart from paid access (entry 5). The "always free" constraint is unchanged.
+**Decision (Mark):** the Church Family Tree stays fully free with no cap. Its role is to be the free front door that feeds conversations, with a quiet support lane kept apart from paid access (entry 5). The "always free" constraint is unchanged.
 
-**Basis:** the tree has no per-visit API cost, and Mark expects people to spend most of their time there. A combination of the free front door and a separate support lane keeps the promise and uses the tree's traffic. Institutional funding through the shared pool (entry 4) is a later phase.
+**How it works today (confirmed in `cic-website/`, 2026-10-02):**
+- Each tree page for a tradition that is open for conversation links to `talk.html` with the tradition and mode preset ("Have a Conversation About This Movement"). That is the bridge.
+- The homepage "Keep the Door Open" section and `support.html` carry two Stripe Payment Links, one one-time and one monthly, both feeding the Accessibility fund. That is the support lane.
+- The tradition pages carry the line "Because of cost, we're asking each participant to keep to about five conversations for now. We can't enforce this yet, only ask."
+
+**Basis:** the tree has no per-visit API cost, and Mark expects people to spend most of their time there. This decision keeps what exists and adds paid access behind the bridge.
 
 **Open:**
-- How a visitor moves from a tradition in the tree into a conversation, and how the free allowance appears there.
-- Whether and where a support lane appears in the tree. It must be rare, plain, and never use a Representative's voice.
+- How the free allowance and paid access appear at the point where the bridge leads into a conversation.
 - How time spent in the tree is measured, within the visitor-tracking change order (entry 6). None is measured today.
-- The tree's development and upkeep cost is not covered directly by this decision. It is carried by the conversations it feeds, which the funding thread should confirm.
+- The monthly donation link is recurring giving, which sits beside entry 3's no-recurring-billing rule for access. Entry 5 keeps donations separate, so this stays as is unless Mark rules otherwise.
+- The tree's development and upkeep cost is not covered directly by this decision. The conversations it feeds carry it, which the funding thread should confirm.
