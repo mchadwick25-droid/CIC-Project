@@ -6075,3 +6075,17 @@ The project lead ruled on 2026-10-02:
 20. A cell's dossier holds the cell's own records plus all of the world's doctrinal witnesses and stories. Terms reach the voice through the index and the glosses. This is change order CO-7 on Design C's staging (decision 3), where a dossier held only the records whose notes name the cell. On the baseline it raises the share of cited records held from 30.7% to 54.3%. E1 is redesigned on this layout, and its settings come back to the project lead before it runs.
 
 He also ruled the same day that Bedrock spend is for generating conversation, and review and grading run inside the build session.
+
+## 2026-10-02 - Conversation system design: one whole-world prompt for every world (decision 21, change order CO-8)
+
+Under decision 20, a cell's dossier came to 74% to 95% of the whole-world prompt, because the world's doctrinal witnesses, stories and shared lists carry most of its text (Conversation-Transparency-Engine Decision-Log, Entry 88). The cost case for cell dossiers mostly went with it, while the wrong-cell risk stayed.
+
+21. Every world uses one whole-world prompt, the design's Design A, as change order CO-8 on decision 3 and superseding the layout in decision 20. The engine shape segment, caching, use notes and the gates stand. E1 narrows to native citations against the hand-copied citation ids on the whole-world prompt, under the cap already approved. The cross-cell questions drafted for the dossier test are shelved.
+
+The project lead also stated the voice's boundary in his words: "the representitive should always be bound by what the world would know. i dont know is better than stepping outside of the world sources", and "if pressure on the representitive is strong, the facilitator can step in and explain the boundry."
+
+## 2026-10-02 - Native citations not adopted (decision 22)
+
+E1 ran native API citations against the hand-copied citation ids on the whole-world prompt, all eleven worlds, for $7.97. A blind Opus review of 33 paired replies judged the hand-copied ids better grounded in 15 pairs and native citations in 7, with 11 ties. Claims not carried by a cited record: 19.9% against 23.9%. Native replies also cited fewer records and still carried hand-typed tags in five worlds. Details: Conversation-Transparency-Engine Decision-Log, Entry 89.
+
+22. Decision 10's change is not adopted. Change order CO-5 (R47) closes without adoption: R9, R10, R17 and the R27 family stay on the hand-copied citation-id contract. The native arm is shelved; a retry would first need an evidence block that prints no ids. Claim support against cited records becomes a measured dimension, reviewed internally by Opus, ahead of the use-note work.

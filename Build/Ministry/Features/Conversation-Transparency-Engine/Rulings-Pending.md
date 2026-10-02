@@ -996,8 +996,9 @@ not in the spec's module list. The change adds them as written.
 **Recommend adding them.**
 
 ### R47 — CO-5: native API citations replace the hand-copied citation ids
-**Status:** RULED — 2026-10-02, Mark's decision 10. Not trusted until
-proven by E1's third arm.
+**Status:** CLOSED, NOT ADOPTED — 2026-10-02, Mark's decision 22, after
+E1 (Decision-Log Entry 89). The hand-copied id contract stays. The text
+below records the ruling as it stood before E1.
 
 **Ruled:** R9, R10, R17 and the R27 family keep their meaning, their
 marks, their placement and their cap. Only the mechanism changes. Today
