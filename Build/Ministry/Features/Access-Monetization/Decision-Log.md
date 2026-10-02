@@ -186,3 +186,13 @@ Append-only and numbered. Only decisions Mark has reached are recorded here.
 **Review's proposed thresholds, not yet adopted:** over the first 500 starters or 90 days, continue at 2% or more of starters (or 8% or more of those who use up the free allowance), redesign the offer at 0.5 to 2%, and lead with church, class and donations below 0.5% or when under 30% finish turn 1.
 
 **Open:** the thresholds above, a per-visitor log plan that never joins payment to conversation text, and the review's remaining questions: whether the echo, streaming and reply-length fixes must land before paid launch, when the church and class pool ships, whether a buyer may give an email for balance recovery only, whether to seek a named scholar before charging, and what replaces the "about five conversations" wording.
+
+## 19. The echo, the blank wait and long replies are fixed before real checkout opens (2026-10-02)
+
+**Decision (Mark):** all three defects are fixed before paid launch: the Representative restating the participant's words (gap entry 5, in progress with Mark), the blank wait while a reply is built (gap entry 7), and long replies (decision 12).
+
+**Basis:** Opus market buy-in review. The free allowance is the first impression, and charging before the fixes risks reading the demand test as a verdict on the product when it is a verdict on those defects.
+
+**What this module does meanwhile:** builds and tests in Stripe test mode and in `Sandbox/access-ledger/` only. No live checkout opens until the three fixes are confirmed by a re-run of the 3-turn free sample, and counsel's review (entry 9) is done.
+
+**Open:** who builds streaming, which is an engine change that goes through review, and the order of the three fixes.
