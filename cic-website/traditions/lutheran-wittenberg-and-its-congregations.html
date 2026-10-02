@@ -139,6 +139,38 @@ p{margin:0 0 1rem}
 .tree-link{font-family:var(--sans);font-size:.95rem;margin:1rem 0;padding:.8rem 1rem;background:var(--surface);border-left:3px solid var(--action);border-radius:4px}
 .tree-link a{font-weight:600;color:var(--action)}
 .tree-link a:hover{color:var(--action-hover)}
+/* BEGIN orientation-content-css */
+.orient-voices{display:flex;flex-direction:column;gap:1.1rem}
+.orient-voice{max-width:var(--measure)}
+.orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
+.orient-voice-dates{font-weight:400;color:var(--muted)}
+.orient-voice-text{font-size:1.0625rem;line-height:1.6}
+.docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
+.docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
+.docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
+.docstory-entry>.teaser{font-style:italic;color:var(--muted);margin:0 0 .5rem}
+details.docstory-item{border:1px solid var(--rule);border-radius:4px;background:var(--surface);padding:.15rem .9rem}
+details.docstory-item summary{cursor:pointer;list-style:none;font-family:var(--sans);font-weight:600;font-size:.875rem;padding:.6rem 0;color:var(--action)}
+details.docstory-item summary::-webkit-details-marker{display:none}
+details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
+details.docstory-item[open] summary::before{transform:rotate(90deg)}
+.docstory{padding:0 0 .9rem}
+.narration{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:.3rem 0 .8rem}
+.narration audio{display:block;height:1.9rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin:0}
+.orient-relations{max-width:var(--measure)}
+.orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
+.orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
+.orient-read-first-work{font-family:var(--sans);font-weight:600;display:block}
+.orient-read-first-note{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.orient-glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem 1.5rem;max-width:var(--wide);margin:0}
+.orient-glossary-item dt{font-family:var(--sans);font-weight:700;color:var(--action);margin:0}
+.orient-glossary-item dd{font-size:.9375rem;color:var(--muted);margin:.15rem 0 0}
+.orient-pull-quotes{display:flex;flex-direction:column;gap:1rem;max-width:var(--measure)}
+.orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
+.orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
+.orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+/* END orientation-content-css */
 </style>
 </head>
 <body>
@@ -210,37 +242,152 @@ p{margin:0 0 1rem}
 
   <div class="page">
     <div class="article">
-      <section aria-labelledby="who-speaks-title">
-        <p class="eyebrow">Who is speaking</p>
-        <h2 id="who-speaks-title">A representative voice, standing where household, school, and parish meet</h2>
-        <div class="reading">
-          <p>Nikolaus is a voice, not a person who lived — this tradition's own whole documented life given one voice: sexton, schoolmaster, bell-ringer, and assistant at worship, formed entirely within the parish churches of Wittenberg and the German territorial churches that followed it. He speaks the way a household speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em> — never one life's own private history. The span runs from 1517, when an Augustinian friar sent theses against the sale of indulgences to his archbishop, to a fuller confessional book gathered by 1580, though the movement's own founder had been dead some three decades by then. It runs thickest in the first three decades: the theses, the catechism, the confession signed before the emperor at Augsburg in 1530.</p>
-          <p>Where this tradition's own record shows real disagreement, Nikolaus keeps it visible rather than smoothing it into one mind that was never actually of one mind. In 1522 the same voice restrains a household moving too fast toward its own newly-preached freedom; by 1529 that same word, "liberty," is the charge leveled against a household grown careless — the reversal is named, not hidden. The confession itself states, in the same breath, that faith makes us "accounted righteous" and that faith "makes an unrighteous person righteous," without ranking which wording is fundamental. And whether the founder's own two uses of "kingdom" — church against state, Christ against Satan — are truly one doctrine, the way a later age's label ("two kingdoms") treats them, is a live question this record does not resolve either way.</p>
-          <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
-        </div>
+      <!-- This is a safety disclosure, not
+           gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+
+      <section aria-labelledby="story-title">
+        <p class="eyebrow">The Story</p>
+        <h2 id="story-title">How this tradition took shape</h2>
+        <div class="reading"><p>This world runs from 1517 to 1580. It opens with theses against the sale of indulgences, written in 1517. It closes with a fuller book of confessions, gathered in 1580 from documents written decades before. The record runs deepest to about 1531 and thins sharply after that. The founder&#39;s life ended in the mid-1540s, and the years after reach us only through the 1580 book. This record does not describe those years as if it had lived them.</p>
+      <p>On 31 October 1517, a friar named Martin Luther wrote to Albrecht, the Archbishop of Mainz. Luther taught theology at the young university in Wittenberg. Indulgences for building St. Peter&#39;s in Rome were being preached under the archbishop&#39;s name. Luther grieved over what people now believed. He asked the archbishop to withdraw the preachers&#39; instructions. He sent ninety-five statements with it, to be debated. The letter asks for correction. It says nothing of a hammer or a church door. That scene comes from a much later editor, and scholars dispute it.</p>
+      <p>Rome pressed him to take his words back. Years later, at his own table, Luther told students about Augsburg in 1518. Before the papal legate, Cardinal Cajetan, he was urged to say one word: Revoco, I recant. A bull of June 1520 condemned forty-one of his statements. In 1521 he stood before the Emperor and the princes at Worms. By his own later account, he said he could not give up his teaching, though he was willing to be corrected on his harsher polemics. The famous sentence about taking his stand at Worms is absent from his own account as this record holds it, and scholars dispute its authenticity.</p>
+      <p>The reform soon ran ahead of its founder. In March 1522, Luther left the Wartburg without his prince&#39;s leave and rode back to Wittenberg. His colleague Karlstadt had led a fast change in worship, and the city was in disorder. Luther preached eight days in a row. He told his congregation they had gone too fast and that he saw little love among them. He told them a faith without love was not faith at all. He taught that what is free should never be made compulsory. By 1529 he turned the word liberty against pastors grown careless. The record keeps both uses.</p>
+      <p>The reform&#39;s chief tool was the household catechism of 1529. It has three parts: the Ten Commandments, the Creed, and the Lord&#39;s Prayer. A household was to say them at rising, at table, and at night. A father was to question his children and servants at least once a week. A child who could not say the words was to get no food or drink until he could. After each part came one question: what does this mean? Servants and masters each had their own words for confession. This is the program as written, and the record does not show any household keeping it.</p>
+      <p>The commandments, as this world read them, show a person what he cannot do. A terrified conscience then has nowhere to rest. The promises of God stand ready: a sinner is freely made right for Christ&#39;s sake, through faith. The sacraments carry that promise. Baptism is daily, and absolution is given as though from God himself. At the Supper, the promise is spoken to each person who receives. The Mass was kept, and none came to the Supper without being examined. This world holds that Christ&#39;s body and blood are truly present, in and under the bread and wine, and it gives no explanation of how.</p>
+      <p>German hymns were sung inside the Mass to teach the people. Latin stayed for those learning it. Johann Walter remembered, some forty years later, being kept three weeks at Wittenberg. He and Luther chose how to sing the Epistle and Gospel in German during that time. Wittenberg&#39;s first hymn-book came out in 1524. It held four hymns, and Paul Speratus wrote three of them. A tradition says a wanderer from Prussia once sang one under Luther&#39;s window. The record holds it only as tradition, and it neither names the singer nor says the singer was Speratus.</p>
+      <p>On 1 July 1523, two young monks, John and Henry, were burned at Brussels. Theologians from Louvain had pressed them to give up what they now taught. They refused. Within months, Luther wrote a ballad about them. It is the only martyr-song in this record. It is also the only case in this record where the movement&#39;s teaching cost lives. The ballad says that, stripped of their habits and their ordination, they became true priests of God&#39;s own making. Its details, such as their last words, are the ballad&#39;s own telling, and no other source confirms them. The record gives no family names or ages for either man.</p>
+      <p>In 1530 the Emperor called the Diet of Augsburg to plan a defense against the Turk and to hear the religious divisions. A confession of this world&#39;s teaching, drafted by Melanchthon, was read and signed. Luther is not among the nine signers in this record. They were an elector, princes, and the senates of two free cities. The document is closer to a treaty than a manifesto, and it takes the form of a loyal address. Rome&#39;s theologians answered it in writing. This world replied in a second document, the Apology.</p>
+      <p>This world broke plainly with the cities that read the Lord&#39;s Supper differently. The break came at Marburg in 1529. This world held that Christ&#39;s body and blood are truly present, in and under the bread and wine, and it rejected those who teach otherwise. The record holds that position and the fact of the break but not the argument. The Marburg Articles of October 1529 are known, but this library does not have them. The name Zwingli does not appear in the texts searched. What the break felt like from this side has not come down to this record.</p>
+      <p>Two real parts of this world&#39;s history are not available to quote. In 1525, Luther wrote against the peasants&#39; rising. In 1543, he wrote a treatise against the Jews. Both are part of this history, and neither is denied. The record holds only that each exists. It holds neither text, and it does not lay out their arguments. Scholars disagree about the treatise&#39;s effect in later centuries. This record cannot settle that, because it has read neither side.</p>
+      <p>The record is quietest on how people lived all this. The Saxon church inspected its parishes from 1527 and wrote down what it found. Those reports exist, but this record does not hold them. Luther said more than once that common people took the Gospel too lightly. This is his own testimony, and no parish report in this record confirms it. No woman&#39;s own text survives in this library. This record holds one question of Katharina von Bora&#39;s, remembered by a student. No outsider&#39;s own account of this world is held here either. Rome&#39;s reply reaches us only as quoted and answered in this world&#39;s own Apology.</p></div>
       </section>
 
-      <section aria-labelledby="quiet-title">
-        <p class="eyebrow">Where we are quiet</p>
-        <h2 id="quiet-title">Whose voice you are really hearing</h2>
-        <div class="reading">
-          <p>This tradition's own richest record is the founder's own catechisms, treatises, and confessional documents, and this movement's own account of its founding decade, 1517 to 1531 — the theses, the catechism, the confession signed at Augsburg. What is thin to silent is any household's or parish's own report of actually receiving that formation: the Saxon church inspected its own parishes starting in 1527 and wrote down what it found, but those visitation records are not in this library. What we hold instead is the founder's own testimony, given more than once across two decades, that ordinary people held the Gospel too lightly and that some pastors were negligent — his own real complaint, never a verified report from any actual parish standing beside it to check it against.</p>
-          <p>No woman's own words survive in this record beyond a single question, asked once at the founder's own table, about why prayer felt colder under the new teaching than it had under the old. This fellowship broke plainly with the cities that read the Lord's Supper differently, but the argument itself, and what it felt like from our own side, has not come down to us — their names barely appear in what we hold at all. And two real parts of this history are disclosed as existing without being available to quote from directly: a 1525 tract the founder wrote against a rising of the common people, and a 1543 treatise against the Jews. We say only that they exist and, when asked, what they are documented to contain — never their own wording.</p>
-        </div>
+      <section aria-labelledby="voices-title">
+        <p class="eyebrow">Voices</p>
+        <h2 id="voices-title">The people behind this account</h2>
+        <div class="orient-voices">
+      <div class="orient-voice">
+      <p class="orient-voice-name">Doctor Martin Luther</p>
+      <p class="orient-voice-text">Luther was the friar and Wittenberg professor who wrote to Archbishop Albrecht about indulgences in 1517. He later told his students of facing a papal legate in 1518 and the Empire&#39;s assembly at Worms in 1521. In 1522 he came home to calm his own congregation. This record holds him in his own letters, sermons, catechisms, and a ballad. It also holds table talk that students collected. His life closed in the mid-1540s.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Melanchthon</p>
+      <p class="orient-voice-text">Melanchthon wrote the Augsburg Confession. It was read to the Emperor in 1530, and princes and city senates signed it. It was a shared statement of what the movement taught.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Kate, Luther&#39;s wife</p>
+      <p class="orient-voice-text">Katharina von Bora was Luther&#39;s wife. One question of hers survives in this record. She asked why the old church prayed with such fervor while their own household prayed so coldly. A student remembered it and wrote it down years later.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Johann Walter, Luther&#39;s musical collaborator</p>
+      <p class="orient-voice-text">Johann Walter worked with Luther on the music. He remembered being kept three weeks at Wittenberg while the two of them chose how to sing the Epistle and Gospel in German. His letter is the one account of worship there that does not come from Luther himself.</p>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="documented-stories-title">
+        <p class="eyebrow">Documented stories</p>
+        <h2 id="documented-stories-title">Stories worth telling in full</h2>
+        <div class="docstories-row">
+      <div class="docstory-entry">
+      <h4>A Letter to an Archbishop</h4>
+      <p class="meta">31 October 1517, Wittenberg</p>
+      <p class="teaser">A friar wrote to the archbishop whose name sold the indulgences. He asked for correction. The famous door and hammer come from a later editor, and his letter never mentions them.</p>
+      <details class="docstory-item" id="lutheran-wittenberg-and-its-congregations-story-0">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>On the last day of October, 1517, a friar of the Augustinian order named Martin Luther, who taught theology at the young university in Wittenberg, sat down to write to a man very far above him in rank: Albrecht, Archbishop of Magdeburg and Mainz, Primate of the German church. He addressed him with every mark of deference the age required - &quot;Most Reverend Father in Christ and Most Illustrious Prince&quot; - and named himself, in the same breath, &quot;the dregs of humanity,&quot; astonished at his own boldness in writing at all.
+      The reason he gave was plain. Indulgences for the building of St. Peter&#39;s in Rome were being preached under the Archbishop&#39;s own name, and Luther did not attack the preaching itself, which he said he had not heard - he grieved instead over what the people who heard it now believed. They believed, he wrote, that a letter of indulgence made their salvation sure the moment it was purchased; that souls flew out of purgatory the instant a coin struck the bottom of the collection box; that no sin was too great to be absolved this way, &quot;even, as they say - though the thing is impossible - if one had violated the Mother of God&quot;; and that the letters freed a person from guilt as well as penalty. &quot;O God, most good!&quot; he wrote. &quot;Thus souls committed to your care, good Father, are taught to their death.&quot; He asked the Archbishop, as a father would be asked, to look at the matter and withdraw the instruction the preachers were working from, before someone else did it in public and to the Archbishop&#39;s own shame. He closed asking the Lord to keep &quot;your Most Reverend Fatherhood eternally,&quot; signed himself simply &quot;Brother Martin Luther,&quot; and added one line more: if it pleased the Most Reverend Father, he might look over &quot;these my Disputations&quot; - the ninety-five statements Luther had drawn up for university debate, sent along with the letter, on how doubtful a thing the preachers&#39; confidence about indulgences really was.
+      That is the act this library can show directly, dated and in Luther&#39;s own hand: a formal protest, addressed upward through the church&#39;s own channels, to a superior, asking for correction rather than announcing a break. What happened to the Theses after that - whether they were also nailed, that same day or another, to the door of Wittenberg&#39;s Castle Church, the way announcements for university debate were customarily posted - is a separate and much less certain question. The account of a door and a hammer that many people know today comes from a much later editor&#39;s own narrative telling, not from Luther&#39;s own words, and modern scholars have disputed whether it happened at all. The letter to Albrecht is not in question. The door is.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>Eight Days of Preaching</h4>
+      <p class="meta">March 1522, Wittenberg</p>
+      <p class="teaser">Luther came back from hiding without his prince&#39;s leave. He found the city in disorder and told his own congregation they had learned the words of reform and not yet its love.</p>
+      <details class="docstory-item" id="lutheran-wittenberg-and-its-congregations-story-1">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>In March of 1522, Luther left the Wartburg - the fortress where he had been sheltered, against his own will, after Worms - and rode back to Wittenberg without the Elector&#39;s leave. The reform he had set moving had begun to run ahead of him in his absence, under the leadership of his own colleague Karlstadt, and Wittenberg, by the account this library holds, had fallen into disorder over exactly how fast the old forms of worship should be swept away.
+      Luther preached eight days running on his return, and the first of those sermons survives in this library, though not from its very beginning - a witness named Kessler, who was present, recalled afterward that Luther set aside his prepared opening and spoke directly to &quot;the present affair&quot; instead, and the printed text as this library holds it begins already inside that address.
+      What Luther told his own congregation, in that sermon, was not gentle. &quot;And here, dear friends,&quot; he said, &quot;have you not grievously failed? I see no signs of love among you.&quot; He told them plainly that learning the doctrine was not the same as living it: &quot;Let us beware lest Wittenberg become Capernaum... an ass can almost intone the lessons, and why should you not be able to repeat the doctrines and formulas?&quot; The kingdom of God, he said, &quot;consists not in speech or in words, but in deeds, in works and exercises. God does not want hearers and repeaters of words, but doers and followers who exercise themselves in the faith that worketh by love.&quot; A faith without love, he told them, was not faith at all - &quot;a counterfeit of faith.&quot;
+      That sermon, and the seven that followed it across the same week, are this library&#39;s clearest single instance of Luther restraining his own movement&#39;s fastest wing rather than driving it forward - returning, uninvited, to slow down a change he himself had set in motion.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>A Confession Signed by Princes</h4>
+      <p class="meta">1530, the Diet of Augsburg</p>
+      <p class="teaser">Melanchthon wrote it, and it was read before the Emperor. An elector, princes, and two city senates signed. In this record, Luther did not sign.</p>
+      <details class="docstory-item" id="lutheran-wittenberg-and-its-congregations-story-2">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>In 1530, the Emperor summoned a Diet of the Empire to Augsburg - called, by the confession&#39;s own preface, to deliberate &quot;concerning measures against the Turk, that most atrocious, hereditary, and ancient enemy of the Christian name and religion,&quot; and, alongside that, to hear out the religious divisions splitting the German lands. Before that assembly, a confession of the movement&#39;s own teaching was read and presented: drafted by Melanchthon, addressed directly to &quot;Most Invincible Emperor, Caesar Augustus, Most Clement Lord.&quot;
+      What makes this document unlike every other story in this library is who stands behind it. It is not signed by Luther, and it does not speak in one man&#39;s voice. It closes with a list of names: John, Duke of Saxony and Elector; George, Margrave of Brandenburg; Ernest, Duke of Lueneburg; Philip, Landgrave of Hesse; John Frederick, Duke of Saxony; Francis, Duke of Lueneburg; Wolfgang, Prince of Anhalt; and the Senate and Magistracy of Nuremberg and of Reutlingen among the free cities - princes and city councils together, naming themselves before the Emperor as &quot;your Imperial Majesty&#39;s faithful subjects.&quot;
+      This is the movement&#39;s own act of confessional self-definition, made not as a protest but as a formal, corporate act of loyal address - the same posture, at institutional scale, that Luther&#39;s own letter to Albrecht had opened in 1517: correction offered upward, through the proper channel, rather than a break announced from outside it.</p></div>
+      </details>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="legacy-title">
+        <p class="eyebrow">Legacy</p>
+        <h2 id="legacy-title">What came after</h2>
+        <div class="reading"><p>This world&#39;s own record says that a confessional family grew from these churches. It still teaches a catechism like this world&#39;s own and still sings in the language of the people, under many names. This record speaks from the world&#39;s own formation, as it was lived. It makes no claim about what those communities believe or practice now.</p>
+      <p>Three things are not carried forward. This record does not say what came after the prince-and-council church that this world lived under. It closes within a few years of the founder&#39;s death, though the confession it holds was gathered by 1580. The tradition went on for centuries beyond that point, in ways not told here. The 1543 treatise is real and part of this world&#39;s own history. This record does not say how the churches that came after have answered for it.</p></div>
+      </section>
+
+      <section aria-labelledby="relations-summary-title">
+        <p class="eyebrow">In its own record</p>
+        <h2 id="relations-summary-title">How this world relates to others</h2>
+        <p class="orient-relations"><i>This world knew itself partly by what it refused. It refused the claim that authority over doctrine sits with the pope, and it refused the sale of indulgences. Rome answered with a bull in 1520 and a written reply at Augsburg in 1530. It also set limits against the radicals of 1522, and its confession names and condemns the Anabaptists. And it broke with the cities that read the Supper differently, at Marburg in 1529. The Roman side reaches this record only as quoted by the side that answered it.</i></p>
+      </section>
+
+      <section aria-labelledby="sourcing-title">
+        <p class="eyebrow">Sources</p>
+        <h2 id="sourcing-title">What this account is built from</h2>
+        <div class="reading"><p>This record is richest in the founder&#39;s catechisms, treatises, and confessional documents. It is also rich in the movement&#39;s own account of its founding decade, 1517 to 1531. It is thinner elsewhere. No parish&#39;s own report of receiving this teaching is held. The Saxon visitation records exist but are not in this library. No woman&#39;s own text is in this library. The felt experience of the 1529 break at Marburg has not come down to this record. The years after 1531, up to the declared close of 1580, are thin. This library holds no object or outside witness that confirms this world&#39;s account of itself. Two real parts of its history are not available to quote: the 1525 tract against the peasants and the 1543 treatise against the Jews.</p>
+      <ul class="orient-read-first">
+      <li><span class="orient-read-first-work">Luther, The Small Catechism</span> <span class="orient-read-first-note">The household program in the founder&#39;s own words: the three parts, the weekly questions, and the scripts for confession. This edition lacks Luther&#39;s 1529 preface. It describes what a household was to do and holds nothing of what any household did.</span></li>
+      <li><span class="orient-read-first-work">Luther, The Large Catechism</span> <span class="orient-read-first-note">The founder&#39;s own account of why the catechism was needed. It sets out the father&#39;s weekly duty to examine his household. His complaint that people held the Gospel lightly is his own word, and no parish report backs it.</span></li>
+      <li><span class="orient-read-first-work">Melanchthon (drafter), The Augsburg Confession</span> <span class="orient-read-first-note">This world&#39;s own statement of its teaching, signed before the Emperor at Augsburg in 1530 by an elector, princes, and two city senates. It speaks as a shared voice.</span></li>
+      </ul></div>
+      </section>
+
+      <!-- Judgment call (flagged in this generator's own report): the glossary
+           and pull-quotes fields are the two world_front units with no
+           dedicated section of their own. Rather than two more
+           full-width sections, they share one compact strip - pull quotes as
+           blockquotes, then a small glossary grid - placed after Sources and
+           before the closing Questions section. -->
+
+      <section aria-labelledby="glossary-and-quotes-title">
+        <p class="eyebrow">In this world's own words</p>
+        <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
+        <div class="orient-pull-quotes">
+      <blockquote class="orient-pull-quote"><p>And I believe in Jesus Christ, God&#39;s only Son, our Lord -- conceived by the Holy Spirit, born of the Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried. He went down to the dead, and on the third day he rose again. He went up to heaven and sits at the right hand of God the Father, the Almighty. From there he will come to judge the living and the dead.
+      What does this mean?
+      I believe that Jesus Christ is truly God, born of the Father before time began, and just as truly man, born of the Virgin Mary. He is my Lord. He has bought me back -- a lost person, condemned -- and freed me from every sin, from death, and from the devil&#39;s power. It cost him nothing made of gold or silver. It cost him his own holy, precious blood, and his own innocent life and death. Because of this I belong to him. I will live under him in his kingdom, and serve him, made right, innocent, and blessed forever -- exactly as he himself is risen from death and lives and reigns forever. Yes, this is true.</p><cite>the Small Catechism&#39;s Second Article -- the creed and its explanation, said by the household itself, in its own first person, as &#39;I believe&#39;</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>We also teach that one holy Church will go on forever. The Church is the community of saints, in which the good news is taught rightly and the sacraments are given rightly.
+      For the true unity of the Church, it is enough to agree on the teaching of the good news and on how the sacraments are given. Nor is it necessary for human traditions -- that is, rites or ceremonies set up by people -- to be alike everywhere. As Paul says, there is one faith, one baptism, one God and Father of all, and so on.</p><cite>the Augsburg Confession, Article VII -- signed at the 1530 Diet of Augsburg by the electors, princes, and free cities who confessed it, not one preacher&#39;s own private teaching</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>But be careful of this. A poor man comes to you -- there are so many now -- someone who buys his daily bread with a day&#39;s wage and lives on that. Say you treat him harshly. Say you act as though everyone lived only by your favor. Say you squeeze him to the bone, then turn him away with pride, when you owed him help for nothing. He will go away wretched and sorrowful. He has no one else to complain to, so he will cry out to heaven. Be careful of that, I say again, the way you would be careful of the devil himself. That cry is no small thing. It carries a weight too heavy for you, and for the whole world besides. It reaches the one who cares for the poor and the sorrowful. He will not let it go unanswered.</p><cite>the Large Catechism, the Seventh Commandment&#39;s own household explanation</cite></blockquote>
+      </div><dl class="orient-glossary">
+      <div class="orient-glossary-item"><dt>conscience -- &#39;terrified,&#39; &#39;anxious,&#39; &#39;captive&#39;; the court where our doctrine is decided</dt><dd>Conscience is the inner court where our whole teaching plays out. Under God&#39;s Law, it feels terror. Under God&#39;s promise, it finds comfort. It is not a guide that tells us right from wrong. It is a court that stands accused, then is set free.</dd></div>
+      <div class="orient-glossary-item"><dt>faith -- trust that clings to God&#39;s promise, &#39;faith alone&#39;</dt><dd>Faith is trust that holds onto God&#39;s own promise. It is not simply believing a story is true. This trust alone makes us right with God, apart from our works. But faith never stands on nothing. It rests on the Word and the sacraments.</dd></div>
+      <div class="orient-glossary-item"><dt>the household -- father, wife, children, servants; the catechism&#39;s own site</dt><dd>The household is where our catechism is taught. A father questions his family and servants every week. He leads prayer three times a day. This is how ordinary people learn the faith.</dd></div>
+      <div class="orient-glossary-item"><dt>the two governments -- God&#39;s spiritual rule by the Word, and secular rule by the sword</dt><dd>God rules us two ways. Through the Word, he rules the spiritual kingdom, and makes us Christians. Through the sword, he rules the civil kingdom, and restrains evil. We keep both, and confuse neither with the other.</dd></div>
+      <div class="orient-glossary-item"><dt>&#39;we are all priests&#39; -- consecrated in baptism, no estate difference, only office</dt><dd>Baptism makes every one of us a priest. There is no rank among us, only different tasks. A father is a priest in his own home. Still, no one may preach in public without being properly called.</dd></div>
+      </dl>
       </section>
 
       <section aria-labelledby="questions-title">
         <p class="eyebrow">Questions people bring to this table</p>
         <h2 id="questions-title">Start with the hard one</h2>
-        <div class="reading">
-          <ul class="questions">
-            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Did you believe people who never heard of Christ were condemned forever?<span class="vh"> — ask Nikolaus</span></a><span class="from">Augsburg Confession, Article XVII (1530) — "ungodly men and the devils He will condemn to be tormented without end."</span></li>
-            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Are we born already guilty, before we've done anything wrong?<span class="vh"> — ask Nikolaus</span></a><span class="from">Augsburg Confession, Article II (1530) — "born with sin, that is, without the fear of God, without trust in God, and with concupiscence."</span></li>
-            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Was Jesus really God — and really a man?<span class="vh"> — ask Nikolaus</span></a><span class="from">Small Catechism, the Second Article — "I believe that Jesus Christ is truly God, born of the Father in eternity and also truly man, born of the Virgin Mary."</span></li>
-            <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&amp;mode=interview&amp;from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Did the households who learned this from you actually keep it?<span class="vh"> — ask Nikolaus</span></a><span class="from">This world's own honest limit: the household program survives to the hour — what any household actually made of it does not survive in our own words.</span></li>
-          </ul>
-        </div>
+        <ul class="questions">
+      <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&mode=interview&from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>Did you believe people are saved by faith alone, not works?<span class="vh"> — ask Nikolaus</span></a><span class="from">core conviction: “The sinner is &#39;freely justified for Christ&#39;s sake, through faith&#39; (AC IV, 234-239).” &middot; contested claim: “In the confessional voice&#39;s own doctrine of justification, &quot;accounted righteous&quot; (imputed, forensic) names the term&#39;s real and controlling sense, and &quot;the…”</span></li>
+      <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&mode=interview&from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>How did a person actually become one of you? Walk me through it.<span class="vh"> — ask Nikolaus</span></a><span class="from">core conviction: “The three parts every Christian must know are to be taught by the father, examined weekly, and sung and prayed morning and evening.” &middot; story: “No single household&#39;s own record survives in this library - no diary, no visitation report, no letter from inside a Saxon home.”</span></li>
+      <li><a href="../talk.html?worlds=lutheran-wittenberg-and-its-congregations&mode=interview&from=traditions%2Flutheran-wittenberg-and-its-congregations.html" data-ask>What was life like for the women among you — in their own words, where your record has them?<span class="vh"> — ask Nikolaus</span></a><span class="from">story: “Among the sayings his students recorded at Luther&#39;s own table is one about patience.”</span></li>
+      </ul>
       </section>
+
     </div>
   </div>
 </main>
