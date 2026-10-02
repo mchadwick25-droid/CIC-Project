@@ -79,10 +79,10 @@ python -m engine.m5.safety_script_run --region us-east-1 --all
 
 by hand with a real credential, confirm the printed tally, then update
 both `render.yaml` env-var blocks to the run's own `model_id` and log the
-tally's report path in `Build/Ministry/Features/Conversation-Transparency-
-Engine/Decision-Log.md`. If the currently-pinned id and the last tally's
-own `model_id` ever disagree, that is an escalation (Build-Plan.md Stage
-0d's own instruction), not something to quietly repin.
+tally's report path with the feature notes in
+`Build/Ministry/Features/Conversation-Transparency-Engine/`. If the currently-pinned id and the last tally's
+own `model_id` ever disagree, escalate to the project lead; do not repin
+quietly.
 
 ## Endpoints
 
@@ -118,17 +118,20 @@ curl -s localhost:8000/api/session/<session_id>/round-close-reasons \
 curl -s localhost:8000/health
 ```
 
-## Known gaps (see the plan file for the full list and reasoning)
+## Streaming
 
-- **Streaming is opt-in and draft-only.** By default a message returns one
-  JSON response. With `CIC_API_STREAMING` on, a client that sends
-  `Accept: text/event-stream` gets `draft` events (the reply's sentences as
-  the voice finishes them, tags removed) and then a `done` event carrying the
-  same body the JSON response would have. The finished turn replaces the
-  draft and alone carries the marks. Only interview turns answered by the
-  voice stream; a Facilitator turn, a table session, a bridge turn, a first
-  other-tradition ask with self-revision on, and any turn with an enforcement
-  flag on return whole.
+By default a message returns one JSON response. With `CIC_API_STREAMING` on,
+a client that sends `Accept: text/event-stream` gets `draft` events (the
+reply's sentences as the voice finishes them, tags removed) and then a `done`
+event carrying the same body the JSON response would have. The finished turn
+replaces the draft and alone carries the marks.
+
+Only interview turns answered by the voice stream. A Facilitator turn, a table
+session, a bridge turn, a first other-tradition ask with self-revision on, and
+any turn with an enforcement flag on return whole.
+
+## What to know when testing
+
 - **The Facilitator's own turns are placeholder text.** All seven routing
   actions have content, but `engine/m4/facilitator_turns.py` carries a craft
   note saying so plainly: the strings are honest and minimal, and they are
