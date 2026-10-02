@@ -1010,21 +1010,19 @@ authors:
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
   pseudo-zachariah-rhetor:
     kind: pseudonymous
-    evidence: 'The received Chronicle is a composite, corrected from this staging file''s
-      own Revision 1, which mischaracterized the compilation''s internal authorship split.
-      Per the vendored 1899 edition''s own introduction (lines 255-370, independently verified
-      against the file during this world''s Doc_02 Round 2 revision): Books III-VI derive
-      from Zacharias Scholasticus of Gaza, who studied law together with Severus of Antioch
-      at Alexandria and Berytus, wrote his own Ecclesiastical History (covering 450-491) between
-      491 and 518, and also wrote a separate Life of Severus defending him - real documentary
-      evidence that Zacharias was Severus''s own companion and supporter, not a Chalcedonian
-      outside witness, when he wrote this material. The same introduction states he was made
-      bishop of Mitylene only "at a later time, conforming perhaps to the Chalcedonian faith"
-      - i.e., any conformity to Chalcedon, if it happened at all, postdates the History itself
-      and is presented by the 1899 edition''s own introduction as uncertain ("perhaps"), not
-      as settled fact. Books I-II and VII-XII were assembled and continued by a separate,
-      anonymous compiler writing c. 569, who used Zacharias'' own material (among other sources)
-      without being Zacharias himself. Modern scholarship (Greatrex, Phenix & Horn, The Chronicle
+    evidence: 'The received Chronicle is a composite. Per the vendored 1899 edition''s own
+      introduction (lines 255-370, verified against the file): Books III-VI derive from Zacharias
+      Scholasticus of Gaza, who studied law together with Severus of Antioch at Alexandria
+      and Berytus, wrote his own Ecclesiastical History (covering 450-491) between 491 and
+      518, and also wrote a separate Life of Severus defending him - real documentary evidence
+      that Zacharias was Severus''s own companion and supporter, not a Chalcedonian outside
+      witness, when he wrote this material. The same introduction states he was made bishop
+      of Mitylene only "at a later time, conforming perhaps to the Chalcedonian faith" - i.e.,
+      any conformity to Chalcedon, if it happened at all, postdates the History itself and
+      is presented by the 1899 edition''s own introduction as uncertain ("perhaps"), not as
+      settled fact. Books I-II and VII-XII were assembled and continued by a separate, anonymous
+      compiler writing c. 569, who used Zacharias'' own material (among other sources) without
+      being Zacharias himself. Modern scholarship (Greatrex, Phenix & Horn, The Chronicle
       of Pseudo-Zachariah Rhetor, Translated Texts for Historians 55, Liverpool University
       Press, 2011 - not vendored here, still in copyright) names the whole compilation "Pseudo-Zachariah
       Rhetor" on this same compiler/source distinction.

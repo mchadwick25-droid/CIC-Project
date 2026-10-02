@@ -1,22 +1,6 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 5. **Approved to proceed.** Escalated after a
-third review round found this document set still required substantial
-revision at the project's own three-round cap; the project lead authorized
-a fourth round directly, then — after a fourth review round found one
-precisely-specified wording error remaining in this document's own §6
-source note (the Tritheites tried to bribe John of Ephesus into joining
-them *as* the third bishop they needed, not into consecrating one for
-them) — authorized that final correction directly rather than a fifth
-review round. Full record: Step 0's own status line and
-`Open_Gaps_Tracking.md` item 18. Follows Step 0 (`Step0_Movement_Scope_Confirmation.md`,
-Revision 2) and an independent Opus adversarial review of Revision 1
-(`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
-REVISION REQUIRED). This revision corrects every finding that review
-confirmed against the vendored primary sources directly — see that review
-document for the full evidentiary record; this document states the
-corrected claims, not a point-by-point rebuttal. Not yet re-reviewed.
-Census Atlas ID II.2, id `syriac-orthodox-west-syriac-christianity`.
+**Status:** Approved to proceed. Review record: `Review-Artifacts/Doc01_Round1_Review.md`, `Review-Artifacts/Doc01_Round2_Review.md`, `Review-Artifacts/Doc01_Round3_Review.md`; open items in `Open_Gaps_Tracking.md`. Follows `Step0_Movement_Scope_Confirmation.md`. Census Atlas ID II.2, id `syriac-orthodox-west-syriac-christianity`.
 
 ---
 
@@ -176,7 +160,7 @@ Mesopotamian frontier (where the movement also organized a hierarchy under
 Sasanian rule — see below), and the desert-frontier territory under
 Ghassanid Arab phylarchal authority.
 
-**Political status — corrected from Revision 1.** This world's own core
+**Political status.** This world's own core
 territory is **not** under continuous Roman/Byzantine control throughout
 451-636: Sasanian Persia held Syria, Palestine, and Egypt c. 610-628 (§2).
 Nor is this world's own hierarchy confined to Roman territory even in
@@ -185,10 +169,8 @@ the Persian side of the frontier as well: Ahudemmeh, consecrated by Jacob
 Baradaeus c. 559 as "Metropolitan of the East" for the miaphysite
 communities in Sasanian Mesopotamia, based at Tagrit; this Persian-side
 structure grew into the Maphrianate of Tagrit, formally established 629.
-This document's own Revision 1 overstated the case when it said this
-world's "core geography sits entirely inside the Eastern Roman/Byzantine
-Empire throughout its own window" and "does not span two states" — both
-claims are corrected here. The more accurate characterization: this
+This world's core geography does not sit entirely inside one empire, and
+it does span two states. The more accurate characterization: this
 world's own core territory and hierarchy are centered in Roman Syria and
 Mesopotamia, but the movement itself, like `syr` before it, did not stay
 confined to one empire's own territory, and Roman control of even its own
@@ -196,15 +178,11 @@ core territory was not continuous across the whole 451-636 window.
 
 **Ghassanid patronage, restated.** The Ghassanids were Rome's own federate
 allies (a *foederati* client relationship), so their patronage is a
-Roman-client-structure story, not an outside-the-empire one — this part of
-Revision 1's characterization is not overturned.
+Roman-client-structure story, not an outside-the-empire one.
 
-**Corrected relationship to `ijc`, `syr`, and the empire.** Revision 1's
-attempt to draw a clean contrast ("this world operated within Roman
-provincial geography throughout... `syr`'s own scope genuinely spans two
-empires... this world's own core geography sits entirely inside" one) does
-not survive review. The more precise statement: this world resembles `syr`
-more than Revision 1 allowed — both are formations whose own hierarchy and
+**Relationship to `ijc`, `syr`, and the empire.** A clean contrast
+between this world, inside one empire, and `syr`, spanning two, does not
+hold. This world resembles `syr` closely: both are formations whose own hierarchy and
 membership extend across a Roman/Persian political boundary, though for
 different periods and for different reasons (`syr`'s own frontier
 geography is permanent across its whole window; this world's is a
@@ -223,11 +201,9 @@ Ephesus and Philoxenus of Mabbug represent the world's own vernacular-
 Syriac literary register directly. — **Confidence: Widely Accepted** for
 Severus's own Greek authorship and its Syriac transmission.
 
-**Confessional self-understanding — corrected from Revision 1.** Revision
-1 stated this tradition's own self-designation was "not located in any
-vendored source" and rated the question Inferential-Thin. This document's
-own review found this wrong: the vendored sources use it repeatedly, in
-John of Ephesus's own narrative voice, not an opponent's characterization.
+**Confessional self-understanding.** The vendored sources use this
+tradition's own self-designation repeatedly, in John of Ephesus's own
+narrative voice, not an opponent's characterization.
 "The party of the believers" (e.g. Lives, line 8166 and elsewhere) and
 "the orthodox party"/"the orthodox" (e.g. Ecclesiastical History, Part III,
 lines 709, 2807, 2906, 2966, and elsewhere) are both directly attested,
@@ -393,7 +369,7 @@ at Chalcedon (451)" into an East Syriac line and a West Syriac line, with
 Ephrem's own legacy assigned specifically to the Roman/West side. This
 document's own review found this is not what `syr`'s own Doc_01 §8 says,
 and is not historically accurate. `syr` Doc_01 §8 never mentions Chalcedon
-at all; it names "the institutionally organized Church of the East"
+at all; it names the institutionally organized Church of the East
 (constituted at the 410 Synod of Seleucia-Ctesiphon) as `syr`'s own
 successor, and explicitly assigns **Ephrem's own hymnic corpus and
 exegetical method** to that East Syriac successor line — not to a
@@ -433,7 +409,7 @@ covenant-order pattern).
 field names `syriac-orthodox-under-islam`, not yet built. This world's own
 636 end point (§2) is chosen to open onto it.
 
-## 9. Summary of Working Decisions (for reviewer convenience)
+## 9. Summary of Working Decisions
 
 1. Beginning point: **451 CE** (Council of Chalcedon) — unchanged from
    Revision 1.
@@ -478,14 +454,13 @@ field names `syriac-orthodox-under-islam`, not yet built. This world's own
    Revision 1 missed: letters attributed to Jacob may survive in Syriac
    (principally via Chabot's *Documenta ad origines monophysitarum
    illustrandas*, CSCO) and an anaphora is traditionally ascribed to him —
-   not yet independently confirmed as vendorable or vendored. Reclassified
-   from "no surviving writing of his own exists" (Revision 1's claim,
-   found unsupported) to a real, unconfirmed acquisition lead.
+   not yet independently confirmed as vendorable or vendored. Treated
+   as a real, unconfirmed acquisition lead, not as a settled absence.
 2. Whether the Tritheist controversy and/or the Paulite schism (§6) should
    be modeled as Article-21 strands, boundary cases, or internal
    controversies — genuinely open, not decided by this document.
 3. The Chronicle of Edessa's own corpus-map placement question, inherited
-   unresolved from `worlds/_cross-world/NEEDS-RULING.md`. Not decided by
+   unresolved from `Build/worlds/_cross-world/NEEDS-RULING.md`. Not decided by
    this document.
 4. The Chronicle of Joshua the Stylite's own role (`context` vs.
    `tradition`) — genuinely open.
@@ -506,5 +481,5 @@ field names `syriac-orthodox-under-islam`, not yet built. This world's own
    vendored Select Letters themselves already carry real doctrinal
    argument (e.g. Severus's own anti-Eutyches, anti-Chalcedon language in
    Letter I.1) — the actual gap is his separate treatises and homilies
-   specifically, not "his Christological argument in his own words"
+   specifically, not his Christological argument in his own words
    generally, which is already partly in hand.

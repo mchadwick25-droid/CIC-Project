@@ -1,30 +1,6 @@
 # Step 0 — Movement-Scope Confirmation: Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 5. **Approved to proceed.** A third independent
-adversarial review round found this document set (together with Doc_01 and
-Doc_02) still required substantial revision after two revision rounds,
-reaching this project's own three-round review cap; per `cic-build-cycle`
-this was escalated rather than revised a fourth time unilaterally. The
-project lead reviewed the escalation directly, authorized a fourth round
-(Mark, in chat, 2026-09-25: "Go ahead and fix the five passages, run round
-4"), and — after a fourth review round found the fix correct everywhere
-except one precisely-specified remaining wording error in two spots (not
-in this document) — authorized that final correction directly rather than
-a fifth review round ("go ahead, apply it"), since it was independently
-verifiable against the exact source lines already cited. Full record:
-`Open_Gaps_Tracking.md` item 18 and
-`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`. Prepared as
-the first step of the library stage
-(Steps 0-2) for **syriac-orthodox-west-syriac-christianity** (census Atlas ID
-II.2), commissioned directly by the project lead on 2026-09-25 ("world batch
-c") as "the first miaphysite-family world, and Syriac after Chalcedon," era
-3, 451-636 CE, Syria/Mesopotamia. Revision 2 follows an independent Opus
-adversarial review of Revision 1
-(`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
-REVISION REQUIRED) and corrects every finding that review confirmed against
-the vendored primary sources directly. Not yet re-reviewed. **World
-file-code proposed:** `wsyr` (parallels `syr`'s own code; no collision found
-against any existing registry code, census id, or corpus-map bucket name).
+**Status:** Approved to proceed. Review record: `Step0_Review_Round1.md`, `Step0_Review_Round2.md`, `Step0_Review_Round3.md`; open items in `Open_Gaps_Tracking.md`. First step of the library stage (Steps 0 to 2) for **syriac-orthodox-west-syriac-christianity** (census Atlas ID II.2, era 3, 451-636 CE, Syria and Mesopotamia). World file-code: `wsyr`, which collides with no existing registry code, census id or corpus-map bucket name.
 
 ## 0. What this document is, and what it is not
 
@@ -35,8 +11,8 @@ characterization). It is not, and does not substitute for, a **phase-level
 seed survey** of the kind `CiC_Step0_Conclusion_FINAL_v2.docx` ran for Phase
 One (70-451 CE, the project's first nine worlds). That document's own stated
 scope ends at Chalcedon (451 CE) by design, and it explicitly names the
-Cyrilline/Miaphysite Egyptian tradition as "the natural first candidate for
-whatever phase picks up where this one's 451 ceiling ends" — but it does
+Cyrilline/Miaphysite Egyptian tradition as the natural first candidate for
+whatever phase picks up where this one's 451 ceiling ends — but it does
 **not** separately name, survey, or screen the Syrian/Mesopotamian
 anti-Chalcedonian movement this document confirms. No portfolio-level "Phase
 Two" Step 0 Conclusion yet exists that vets this candidate against its own
@@ -74,8 +50,8 @@ council's Christological formula — the exact kind of case A1 anticipates
 needs its own reasoning, not a one-line pass.
 
 The Council of Chalcedon (451) defined Christ as existing "in two natures"
-(*en dyo physesin*), "without confusion, without change, without division,
-without separation" — a formula meant to guard against both blending Christ's
+(*en dyo physesin*), without confusion, without change, without division,
+without separation — a formula meant to guard against both blending Christ's
 divine and human natures into one hybrid (the Eutychian error, which the
 council itself condemned) and separating them into two persons (the
 Nestorian error, condemned earlier at Ephesus in 431). Severus of Antioch and
@@ -204,7 +180,7 @@ naming explicitly:
   rival, not a separately screened candidate — it appears inside this
   world's own reconstruction as the opposing position it defines itself
   against (already the pattern the vendored Chronicle of Edessa sets up,
-  per `worlds/_cross-world/NEEDS-RULING.md`: a Chalcedonian chronicler
+  per `Build/worlds/_cross-world/NEEDS-RULING.md`: a Chalcedonian chronicler
   documenting this world's ground "from the rival side of 451").
 - Per Article 21, whether this movement is strand-singular or strand-plural
   is a Doc_01 question, not resolved here. **Revision 1's preliminary read
@@ -317,8 +293,7 @@ and Doc_02's fuller treatment, is what a build thread does to move a
 Pre-Survey Candidate toward an actually-registered, in-progress world. This
 document does not itself change the census's own `status` field — that is
 downstream site-data synchronization work, out of Steps 0-2's own scope, and
-is named here as an open item rather than done silently (see
-`Open_Gaps_Tracking.md`).
+is recorded in `Open_Gaps_Tracking.md`.
 
 ## 4. No collision with an existing built or in-progress world
 
@@ -341,19 +316,12 @@ or corpus-map bucket filename.
 waiver needed, on the corrected two-claim basis in §1 above. Section B
 characterization supports proceeding.** This document recommends Doc_01
 (World Identification, Boundaries, Orientation) proceed on that basis,
-carrying forward, as named open items rather than resolved questions: the
+carrying forward, as unresolved questions: the
 strand-singular/strand-plural determination (Article 21, §1 above — now
 genuinely open per Doc_01 §6, not a preliminary finding), the Tritheist and
 Julianist internal factions as boundary/strand cases (§1 above), the
 Chronicle of Edessa placement question inherited from
-`worlds/_cross-world/NEEDS-RULING.md`, and the absence of a completed Phase
+`Build/worlds/_cross-world/NEEDS-RULING.md`, and the absence of a completed Phase
 Two portfolio survey (§0 above, named for the project lead's own awareness,
 not something this document asks to be resolved before Doc_01 begins).
-This tradition's own attested self-designation, flagged open in Revision 1,
-is resolved (§1 above).
-
-**Revision 2, not yet independently re-reviewed.** Revision 1 was reviewed
-(`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
-REVISION REQUIRED); this revision corrects every finding that review
-confirmed. Per `cic-build-cycle`, this document remains drafted, not
-disposed of, until a review round clears it.
+This tradition's own attested self-designation is resolved (§1 above).

@@ -1,31 +1,13 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity — Source Ecology
 
-**Status:** DRAFT, Revision 5. **Approved to proceed.** A third independent
-review round found this document's own §1/§3/§8 (in Revision 3) still
-overcorrected the Tritheist-material misattribution fixed elsewhere: it
-wrongly stated John of Ephesus is not a source for the Tritheist
-controversy at all, when his own narrative (per the vendored file, c. line
-4580 onward — his own refusal of the Tritheites' bribes, his own naming of
-John Philoponus) covers it at length. The project lead authorized a fourth
-revision round directly (`Open_Gaps_Tracking.md` item 18); a fourth review
-round then found the fix correct everywhere except one wording error (§3's
-John of Ephesus entry mischaracterized what the Tritheites wanted from
-him), which the project lead authorized correcting directly rather than a
-fifth review round. Both fixes independently re-verified against the
-vendored file before writing. Follows Doc_01 Revision 2 and
-an independent
-Opus adversarial review of Revision 1
-(`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
-REVISION REQUIRED). This revision corrects every finding that review
-confirmed against the vendored primary sources directly. Not yet
-re-reviewed.
+**Status:** Approved to proceed. Review record: `Review-Artifacts/Doc02_Round1_Review.md`, `Review-Artifacts/Doc02_Round2_Review.md`, `Review-Artifacts/Doc02_Round3_Review.md`; open items in `Open_Gaps_Tracking.md`. Follows `Doc_01_World_Identification_Boundaries_Orientation.md`.
 
 ---
 
 ## 0. Purpose and Scope
 
 This document performs Step 2 (Source Ecology) per
-`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md` §2.
+`Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md` §4.
 
 ## 1. Source Ecology Overview
 
@@ -58,7 +40,7 @@ exists (§11).
 | *Lives of the Eastern Saints* | John of Ephesus (c. 507-588) | c. 566-568 | 58 chapters (Syriac + English, PO 17-19) | `john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt` | Own-voice throughout | **Verify locus-by-locus** — mixed Syriac-script/English OCR; ch. 49-50 confirmed clean and quotable | Documented (ch. 49-50 content); file-wide quotability Inferential-Thin pending further checks |
 | *Ecclesiastical History*, Part III | John of Ephesus, **except one c. 100-line stretch (c. lines 4471-4577), which is the 1860 translator's own editorial excursus, not John's own text — see note** | events to c. 585 | **Books I-VI in translation** (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506; Book I before 5883) — the Tritheist-controversy narrative at c. lines 4580-4880 is Book V material the translator relocated into this stretch of Book I | `john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt` | Own-voice, except the noted excursus (the translator's own apparatus, relaying the 13th-century chronicler Bar-Hebraeus) | **Verbatim-ready** for Book III.36-37 (Tralles mission, John's own narrative) and for the Book V/Tritheist-controversy narrative from Conon's arrest onward (c. line 4580), both directly checked as John's own voice; the excursus itself (c. lines 4471-4577) is real historical information but is Payne Smith's/Bar-Hebraeus's own material, not quotable as John's | Documented for the loci checked; Widely Accepted for the rest, pending individual verification |
 | *The Sixth Book of the Select Letters* | Severus of Antioch (c. 459-538) | letters written 512-538 | 123 letters (Parts I-II, complete English translation) | `severus-of-antioch_select-letters-book6-part1_brooks1903.txt`, `...part2_brooks1904.txt` | Own-voice | **Verbatim-ready** for Letter I.1 (directly checked, contains real anti-Chalcedon/anti-Eutyches doctrinal argument — see §11); rest of the collection second-witness pending individual checks | Documented for I.1; Widely Accepted/Inferential-Thin per-letter for the rest |
-| *The Discourses of Philoxenus*, **plus the same volume's own Creed, Confession of Faith, and anti-Nestorian/anti-"two natures" polemical texts** | Philoxenus of Mabbug (c. 440-523) | ascetic homilies undated within 485-519; doctrinal texts undated | 13 discourses **and** the doctrinal texts listed in the volume's own contents (Vol. II translation) | `philoxenus-of-mabbug_discourses_budge1894.txt` | Own-voice | The doctrinal texts' own table-of-contents titles are confirmed present (lines 325-348); their content has not yet been individually read and quote-verified — corrected from Revision 1, which wrongly stated this volume held no Christological material at all | Documented that the titles exist in this vendored file; Inferential-Thin per-passage pending a closer read |
+| *The Discourses of Philoxenus*, **plus the same volume's own Creed, Confession of Faith, and anti-Nestorian/anti-"two natures" polemical texts** | Philoxenus of Mabbug (c. 440-523) | ascetic homilies undated within 485-519; doctrinal texts undated | 13 discourses **and** the doctrinal texts listed in the volume's own contents (Vol. II translation) | `philoxenus-of-mabbug_discourses_budge1894.txt` | Own-voice | The doctrinal texts' own table-of-contents titles are confirmed present (lines 325-348); their content is not yet individually read or quote-verified | Documented that the titles exist in this vendored file; Inferential-Thin per-passage pending a closer read |
 | *The Chronicle of Joshua the Stylite* | Traditional attribution, uncertain | composed 507, covers 494/5-506 | Whole work | `joshua-the-stylite_chronicle_wright1882.txt` | **Undetermined** — see `Open_Gaps_Tracking.md` item 3; not established as this world's own voice or as context. A new lead this revision: the chronicler praises Flavian II of Antioch (line 3895) — the patriarch Severus replaced in 512 — worth weighing in that determination | Verbatim-ready in the clean English narrative body; footnote apparatus not quotable | Widely Accepted for the events narrated; role classification Contested/open |
 | *The Syriac Chronicle known as that of Zachariah of Mitylene* | Composite: **Zacharias Scholasticus, writing 491-518 as a companion and defender of Severus of Antioch (author of a Life of Severus per the same 1899 introduction), possibly conforming to Chalcedonian office only later, if at all, when made a bishop** — corrected from Revision 1, which wrongly called him "Chalcedonian" throughout — plus an anonymous continuator, c. 569 | events to c. 569 | Whole compilation | `zachariah-rhetor_chronicle_hamiltonbrooks1899.txt` | **Books III-VI (Zacharias's own material): own-voice, sympathetic to Severus and the anti-Chalcedonian position — reversed from Revision 1.** Books I-II, VII-XII (the continuator's): not yet individually assessed | Second witness only, pending a full book-by-book pass | Widely Accepted that the compilation is genuine; own-voice status of Books III-VI now Documented per the file's own introduction (lines 255-370), reversing Revision 1's finding |
 
@@ -66,8 +48,8 @@ exists (§11).
 quote record can cite as checked):
 
 - `john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt`, line 26185
-  onward: ch. 49, "The Forty-Ninth History, of the Blessed James the Bishop
-  and Brave and Valiant Combatant" — the Jacob Baradaeus portrait. Confirms
+  onward: ch. 49, the forty-ninth history, of the blessed James the bishop
+  and brave and valiant combatant — the Jacob Baradaeus portrait. Confirms
   his origin at Thella, training at "Psiltha"/"Fsiltha," c. 15 years at
   Constantinople under Theodora's protection, consecration **for** Edessa
   (in absentia — he was not physically present in Edessa to be
@@ -90,8 +72,7 @@ quote record can cite as checked):
     Preface (lines 208-224) attributes it not to its own editorial
     summary but to Part II extracts of John's own work preserved in the
     Chronicle of Dionysius (per Assemani's *Bibliotheca Orientalis*,
-    vol. ii) — **corrected from Revision 1**, which wrongly called this
-    "the 1860 editor's own summary." The correct next step for locating
+    vol. ii). The next step for locating
     this figure in John's own words is those Part II/Chronicle-of-Zuqnin
     fragments, not further searching within Part III.
   - c. lines 4471-4577: the doctrinal background of a Tritheist/
@@ -106,7 +87,7 @@ quote record can cite as checked):
     13th-century chronicler Bar-Hebraeus and closing in the translator's
     own voice ("We may now, however, return to our author, whose
     narrative will be found to confirm the above statements of
-    Bar-Hebraeus," c. lines 4575-4577) — not John's own eyewitness
+    Bar-Hebræus," c. lines 4575-4577) — not John's own eyewitness
     testimony, and not to be cited as such.
   - c. lines 4580-4880: John's own narrative resumes here (Conon's
     arrest) and continues at real length — Book V material the translator
@@ -166,6 +147,35 @@ wrongly stated the tool ran fully clean).
 | The Chronicle of Edessa | chronicle-of-edessa | context | provisional | `chronicle-of-edessa_cowper.txt` | Reviewed. Placement question inherited unresolved from `NEEDS-RULING.md` — not decided |
 | A Canticle of Mar Jacob the Teacher on Edessa | jacob-of-sarug | tradition | assigned | `anf08_...` | Unreviewed this session |
 | The Divine Liturgy of James | liturgy-of-st-james | tradition | provisional | `anf07_...` | Reviewed; see Doc_01 §4 — provisional status affirmed |
+
+### Table C — Dossier cross-links (Source Readiness Dossier §2)
+
+| Cross-link | Disposition | Reason |
+|---|---|---|
+| **`syr`'s own corpus** (Ephrem, Aphrahat) was checked directly for any explicit engagement with this world's own post-451 controversy | Out of scope | None found. `syr`'s window (200-410) ends four decades before this world's opens (Doc_01 §8), so no direct cross-link is expected |
+| **`ijc`'s own corpus** (Imperial and Juridical Christianity, 312-451) for pre-451 material touching this movement's antecedents, such as the Christological build-up to Chalcedon and Cyril of Alexandria's *mia physis* language | Deferred | Not checked at this stage. The next pass checks `ijc`'s bucket for Cyril-adjacent material before assuming none exists |
+| No cross-link to a not-yet-built Egyptian miaphysite world was pursued | Deferred | No corpus-map bucket for such a world exists yet. The two candidates share a theological family but differ structurally (Doc_01 §8, B3). `Open_Gaps_Tracking.md` item 19 carries the question forward |
+
+### Table D — Holdings dispositions (`python -m engine.m9.cli holdings wsyr`)
+
+Each file is marked "in scope, unread" by the holdings report. None of these files is assigned in this world's corpus-map bucket. No claim in Steps 0 to 2 rests on any of them. All are deferred: in scope by the file's own coverage dates against the 451-636 window, not read at this stage.
+
+| Vendored file | Disposition | Reason |
+|---|---|---|
+| `anan-isho_paradise-v2-sayings_budge1907.txt` | Deferred | In scope by date; assigned to the Edessa and Nisibis Syriac bucket and to the desert bucket, not this world's. Not read at this stage |
+| `chronicle-of-edessa_cowper.txt` | Used | Table B row; its placement question is carried in `Open_Gaps_Tracking.md` item 2 |
+| `cil8-supplementum-numidiae_cagnat-schmidt1894.txt` | Deferred | In scope by date; North African inscriptions, assigned to other worlds' buckets. Not read at this stage |
+| `gregory-great_dialogues_gardner1911.txt` | Deferred | In scope by date; assigned to the Gregorian Roman bucket. Not read at this stage |
+| `gregory-great_epistolae-selectae_turchi1907.txt` | Deferred | In scope by date; assigned to another world's bucket. Not read at this stage |
+| `gregory-great_moralia-in-job-books-i-x_bliss1844.txt` | Deferred | In scope by date; assigned to the Gregorian Roman bucket. Not read at this stage |
+| `gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt` | Deferred | As the Moralia volume above |
+| `gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt` | Deferred | As the Moralia volume above |
+| `gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt` | Deferred | As the Moralia volume above |
+| `npnf203_theodoret-jerome-gennadius-rufinus.xml` | Deferred | In scope by date; a multi-author Nicene and Post-Nicene volume assigned to other worlds' buckets. Not read at this stage |
+| `npnf209_hilary-poitiers-john-damascus.xml` | Deferred | In scope by date; assigned to other worlds' buckets. Not read at this stage |
+| `npnf212_leo-great-gregory-great.xml` | Deferred | In scope by date; assigned to other worlds' buckets. Not read at this stage |
+| `npnf213_gregory-great-ephraim-syrus-aphrahat.xml` | Deferred | In scope by date; assigned to other worlds' buckets, among them the Edessa and Nisibis Syriac bucket. Not read at this stage |
+| `npnf214_seven-ecumenical-councils.xml` | Deferred | In scope by date; assigned to other worlds' buckets. Not read at this stage |
 
 ## 3. Author Gravity Assessment (Constitution Article 16; preliminary — full classification is Doc_04's own job)
 
@@ -313,7 +323,7 @@ unresolved-question sense.
 
 ## 11. Resolution of Doc_01's Carried-Forward Items
 
-Doc_01 Revision 2 (§10) restates its own open items in light of this
+Doc_01 (§10) restates its own carried-forward items in light of this
 document's corrections; this section adds the specific primary-source
 grounding for each correction, not repeated here to avoid duplication —
 see Doc_01 §10 directly. One item not owned by Doc_01: the "seventy

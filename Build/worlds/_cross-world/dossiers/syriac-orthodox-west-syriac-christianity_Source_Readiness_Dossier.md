@@ -1,24 +1,18 @@
 # Source Readiness Dossier — Syriac Orthodox (West Syriac) Christianity
 
-See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
+See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 **Atlas ID:** II.2
 **Corpus-map slug:** `syriac-orthodox-west-syriac-christianity`
 **Time window:** 451-636 CE
 **Region(s):** Syria, Mesopotamia
-**Dossier author / date:** wsyr library-stage build thread, 2026-09-25
-(Revision 2, following an independent Opus adversarial review of Revision 1
-— `worlds/wsyr/Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md` — that
-corrected several claims in this dossier's own §1 and §3, noted inline
-below)
-**Corpus-map / `cic/texts/` state as of:** this session (2026-09-25) — the
-seven files in Table 1 and the corpus-map assignments in §1 below were
-added by this same session; nothing here predates a checkable commit.
+**Dossier author:** wsyr library-stage build thread
+**Corpus-map / `cic/texts/` state:** the seven files in Table 1 and the corpus-map assignments in §1 below were added by the library stage for this world.
 
 ## 1. Already assigned
 
 **Newly vendored and assigned this session** (full detail and verification
-loci: `worlds/wsyr/Doc_02_Source_Ecology.md` §2 Table A):
+loci: `Build/worlds/wsyr/Doc_02_Source_Ecology.md` §2 Table A):
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -75,8 +69,8 @@ confirmed against its actual host this session (archive.org, via its own
 
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Sixth Book of the Select Letters of Severus of Antioch, Vol. I (Syriac text) | Severus of Antioch | E. W. Brooks (editor) | 1902 (per the parallel translation volumes' own dating) | https://archive.org/details/selectlettersse00broogoog (and sibling scans — several duplicate archive.org items exist for this volume, not yet disambiguated) | pd-us-by-date | Located via archive.org search, 2026-09-25; metadata fetched, NOT downloaded or vendored this session (original-language Syriac text, lower priority than the translation volumes already vendored — see `cic/texts/INTAKE.md` §"original-language texts" for why this is a real, not merely optional, acquisition path if a future session wants Severus's own Syriac text as primary evidence rather than only in English translation) |
-| Zacharias Scholasticus, *Life of Severus* (Vie de Sévère) | Zacharias Scholasticus of Gaza | **Corrected Revision 2, uncertain — not confirmed as Kugener.** The Brooks 1903 introduction itself names "M. Nau" as the French translator; a separate Kugener translation of the same Life (Patrologia Orientalis 2, 1907) is also real and well known in the scholarship, but Revision 1 of this dossier wrongly presented the Brooks quote as supporting the Kugener edition specifically. Not disambiguated this session — either or both may be real, independent translations. | Nau: not independently checked. Kugener/PO 2: 1907 | not checked against a specific archive.org identifier for either translator this session | pd-us-by-date (likely, not independently confirmed for either) | Named in the Brooks 1903 introduction as the primary biographical source for Severus's own early life. A real, named, not-yet-verified acquisition lead — Mark should independently confirm which translator/edition and its archive.org identifier before this is treated as a cleared lead. |
+| The Sixth Book of the Select Letters of Severus of Antioch, Vol. I (Syriac text) | Severus of Antioch | E. W. Brooks (editor) | 1902 (per the parallel translation volumes' own dating) | https://archive.org/details/selectlettersse00broogoog (and sibling scans — several duplicate archive.org items exist for this volume, not yet disambiguated) | pd-us-by-date | Located via archive.org search; metadata fetched, NOT downloaded or vendored this session (original-language Syriac text, lower priority than the translation volumes already vendored — see `cic/texts/INTAKE.md` §"original-language texts" for why this is a real, not merely optional, acquisition path if a future session wants Severus's own Syriac text as primary evidence rather than only in English translation) |
+| Zacharias Scholasticus, *Life of Severus* (Vie de Sévère) | Zacharias Scholasticus of Gaza | **Uncertain, not confirmed as Kugener.** The Brooks 1903 introduction itself names "M. Nau" as the French translator; a separate Kugener translation of the same Life (Patrologia Orientalis 2, 1907) is also real and well known in the scholarship. Not disambiguated: either or both may be real, independent translations. | Nau: not independently checked. Kugener/PO 2: 1907 | not checked against a specific archive.org identifier for either translator this session | pd-us-by-date (likely, not independently confirmed for either) | Named in the Brooks 1903 introduction as the primary biographical source for Severus's own early life. A real, named, not-yet-verified acquisition lead — Mark should independently confirm which translator/edition and its archive.org identifier before this is treated as a cleared lead. |
 | Severus of Antioch, Cathedral Homilies (selections) | Severus of Antioch | Maurice Brière (French, Patrologia Orientalis, various volumes) | early-to-mid 20th c. | not checked this session | pd-us-by-date (likely for the earliest volumes; needs per-volume date check) | Named here as a real target for Severus's own doctrinal voice (Doc_02 §11 item 8's own gap), not independently verified this session — French translation, not English, which the project's own intake rule (`INTAKE.md`) treats as acceptable primary evidence but a harder verification task for an English-reading build thread. |
 
 ## 4. Checked and closed
@@ -91,7 +85,7 @@ confirmed against its actual host this session (archive.org, via its own
 
 - **The Chronicle of Edessa's own role** (`chronicle-of-edessa_cowper.txt`,
   already in this bucket before this session): inherited unresolved from
-  `worlds/_cross-world/NEEDS-RULING.md` — whether a Chalcedonian
+  `Build/worlds/_cross-world/NEEDS-RULING.md` — whether a Chalcedonian
   composition-era (c. 540s) civic chronicle documenting this world's own
   ground "from the rival side of 451" belongs here at all, and at what
   role. Named, not decided, by this dossier.

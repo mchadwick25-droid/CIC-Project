@@ -2252,11 +2252,11 @@ queue:
     world: "syriac-orthodox-west-syriac-christianity (wsyr)"
     why: >
       Found while acquiring this world's own primary sources for the
-      library-stage build (Steps 0-2, 2026-09-25). The English translation
+      library-stage build (Steps 0-2). The English translation
       (Vol. II, Parts I-II) is already vendored as
       severus-of-antioch_select-letters-book6-part1_brooks1903.txt and
       ...part2_brooks1904.txt. This is the companion Syriac-text volume -
-      per cic/texts/INTAKE.md's 2026-09-25 ruling that a clean public-domain
+      per cic/texts/INTAKE.md's ruling that a clean public-domain
       original can itself be primary evidence, this is a real acquisition
       target (Severus's own Syriac words, not only their English
       rendering), not merely a duplicate of what is already vendored.
@@ -2268,5 +2268,5 @@ queue:
       cross-verified against every duplicate.
     url: "https://archive.org/details/selectlettersse00broogoog"
     rights_basis: pd-us-by-date
-    verified_by: "archive.org /metadata/ API check, 2026-09-25 - confirms a DjVuTXT file exists (selectlettersse00broogoog_djvu.txt, ~195KB) and a pre-1930 print basis consistent with the sibling translation volumes; not independently downloaded or read this session"
+    verified_by: "archive.org /metadata/ API check - confirms a DjVuTXT file exists (selectlettersse00broogoog_djvu.txt, ~195KB) and a pre-1930 print basis consistent with the sibling translation volumes; not independently downloaded or read this session"
     status: not-yet-downloaded

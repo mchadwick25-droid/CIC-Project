@@ -14,7 +14,7 @@ when.
 
 1. **This tradition's own attested self-designation.** RESOLVED, Revision
    2. Revision 1 rated this Inferential-Thin and unlocated. An independent
-   adversarial review (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`)
+   adversarial review (`Review-Artifacts/Doc01_Round1_Review.md`)
    found the vendored primary sources already checked for other claims
    contain it directly: "the party of the believers" and "the orthodox
    party"/"the orthodox" (Greek *ὀρθόδοξοι*), both used repeatedly in John
@@ -23,7 +23,7 @@ when.
    lines 709, 2807, 2906, 2966). See Step 0 §1, Doc_01 §4, Doc_02 §2.
 
 2. **The Chronicle of Edessa's own corpus-map role.** OPEN, inherited.
-   First raised in `worlds/_cross-world/NEEDS-RULING.md` (not by this
+   First raised in `Build/worlds/_cross-world/NEEDS-RULING.md` (not by this
    build thread): whether a Chalcedonian, composition-era (c. 540s) civic
    chronicle documenting this world's own ground "from the rival side of
    451" belongs in this world's own bucket at all, and at what role
@@ -107,7 +107,7 @@ when.
    OPEN. Only Book VI (123 letters, both parts, English translation) is
    vendored. The companion Syriac-text volume for Book VI is a named,
    host-verified but not-yet-vendored lead (added to
-   `worlds/_cross-world/download-queue-seed.yaml` this session). Severus's
+   `Build/worlds/_cross-world/download-queue-seed.yaml` this session). Severus's
    correspondence beyond Book VI was not searched this session at all.
 
 8. **Four secondary/reference works named for this world are not
@@ -152,29 +152,14 @@ when.
     question per CLAUDE.md's own escalation table — always ask, never a
     build thread's own call.
 
-12. **`records/wsyr/`'s own engine-consistency waivers.** OPEN,
-    procedural — logged here for visibility even though its real home is
-    `engine/m1/cross_world.py`'s own `ACCEPTED_OPEN` dict. Registering
-    `records/worlds/wsyr.yaml` ahead of any actual record (per V1.8's
-    registry-first rule) introduced six new fleet-consistency defects, all
-    waived there with a dated, reasoned entry (missing doorway
-    fields/package/representative; no package pin; no app-side world
-    assets, ordering, site portrait page, or table.html seat) —
-    `card_name` was cheap and safe to set now (a short label matching the
-    census's own `shortName`) and is not among them. Every waived defect
-    is expected to disappear on its own once a later build thread advances
-    this world past the library stage; none is filled in early just to
-    silence the checker. `state: library-stage` is deliberately set
-    outside the registry's own admitted/open/built vocabulary
-    (`engine/m1/registry.py`) so this world is never picked up by any
-    "is this world live" gate until a later session actually advances it
-    there. `representative` is deliberately unset: Representative identity
-    is an M1 checkpoint/escalation-category decision (grounded-options
-    format, the project lead directly) that happens after Doc_09 — a
-    library-stage build thread does not get to name or hint at one.
-    `python -m engine.m1.cross_world` runs clean (exit 0) with these
-    waivers in place, reconfirmed after this session's own Revision 2
-    corrections.
+12. **`records/wsyr/` and the registry entry.** RESOLVED. The registry
+    entry `records/worlds/wsyr.yaml` carries `state: candidate`, the
+    state the engine's own checks treat as a library-stage world with an
+    entry and no package yet, so `python -m engine.m1.cross_world` runs
+    clean with no `ACCEPTED_OPEN` waiver for this world. `representative`
+    is deliberately unset: Representative identity is decided later in
+    the build, a library-stage thread does not name or hint at one.
+    `safety_adjacent` is unset: the project lead sets it at handoff.
 
 13. **Mechanical tool output, attribution corrected, Revision 2.**
     Revision 1's Doc_02 claimed `python cic/engine/texts_registry.py` ran
@@ -234,11 +219,10 @@ when.
     clearing review; per `cic-build-cycle`, this is now an unresolved
     tension for the project lead, not a fourth revision attempt.** A third
     independent adversarial review round
-    (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, its own
-    "Round 3" section) found that Revision 3's own fix for the Tritheist-
-    material misattribution (item above, and this file's own former item
-    5) overcorrected: five passages (Doc_02 lines ~25-27, ~158-160,
-    ~238-240; Doc_01 §6; this file's own former item 5) now wrongly state
+    (`Review-Artifacts/Doc01_Round3_Review.md`) found that Revision 3's own fix for the Tritheist-
+    material misattribution (the Tritheist-material entry in this file)
+    overcorrected: five passages (Doc_02 lines ~25-27, ~158-160,
+    ~238-240; Doc_01 §6; this file's own Tritheist-material entry) now wrongly state
     John of Ephesus is not a source for the Tritheist controversy at all.
     He is: his own narrative, directly verified against the vendored file
     from c. line 4580 onward (Conon's arrest through the Cononite/
@@ -264,7 +248,7 @@ when.
     authorized a fourth revision round, applying the exact fix specified
     above (Mark, in chat, 2026-09-25: "Go ahead and fix the five passages,
     run round 4"). Revision 4 applies it — see Doc_01 §6, Doc_02 §1/§3/§8,
-    and this item's own sibling entry (item 5) for the corrected text.
+    and this file's own Tritheist-material entry for the corrected text.
     Independently re-verified directly against the vendored file before
     fixing (not merely trusted from the review): John of Ephesus's own
     narrative, from Conon's arrest (c. line 4580) through the
@@ -302,3 +286,23 @@ when.
     `texts_registry.py`) all pass with no new drift. **Steps 0-2's own
     review cycle is now closed** — Step 0, Doc_01, and Doc_02 are Approved
     to proceed (see each document's own status line).
+
+19. **Shared corpus-map entries with a not-yet-built Egyptian miaphysite
+    world.** OPEN. Whether this world and a not-yet-built Egyptian
+    miaphysite world should share any corpus-map entries (for example a
+    future vendored Cyril of Alexandria doctrinal text, since Severus's
+    own Christology builds on Cyril's *mia physis* language) cannot be
+    assessed until that world's own bucket exists. It is carried forward
+    for whoever builds that world, not decided here. It is also a
+    cross-world question for the project lead.
+
+20. **Jacob Baradaeus's own theory of ordination authority.** OPEN. Doc_01
+    names it as the remaining open question in §6. Letters attributed to
+    Jacob may survive in Syriac (principally via Chabot's *Documenta ad
+    origines monophysitarum illustrandas*, CSCO), and an anaphora is
+    traditionally ascribed to him. Neither is confirmed as vendorable or
+    vendored. Carried forward to the later build steps.
+
+21. **Ghassanid patronage and Tritheist-controversy chronology.** OPEN.
+    Doc_01 §10 and Doc_02 §12 flag both for closer primary-source
+    confirmation before Doc_04 gravity work.

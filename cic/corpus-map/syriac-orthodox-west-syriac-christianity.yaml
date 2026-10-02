@@ -155,15 +155,15 @@ works:
   note: 'Composed 507 CE, describing 494/5-506 (the Anastasian War and its build-up, centered
     on Edessa) - inside this world''s window and its core city, but role marked `context`,
     not `tradition`, on the same open-question footing the Chronicle of Edessa already carries
-    in this bucket (see worlds/_cross-world/NEEDS-RULING.md). The chronicler''s own theological
-    allegiance is not established either way from a first pass: unlike the Chronicle of Edessa
-    (explicitly Chalcedonian, per its own introduction), this chronicle is largely civic and
-    military in focus and does not obviously argue either side of 451. Authorship itself is
-    traditional, not secure - the text survives only embedded in the later Chronicle of Zuqnin
-    (c. 775), which names a monk called Joshua; modern scholarship does not treat this as
-    a settled identification. Whether this belongs at `tradition` (an Edessene voice from
-    inside the world''s own core territory, whatever the chronicler''s own confession) or
-    stays `context` (an outside civic record, like the Chronicle of Edessa) is a live open
+    in this bucket (see Build/worlds/_cross-world/NEEDS-RULING.md). The chronicler''s own
+    theological allegiance is not established either way from a first pass: unlike the Chronicle
+    of Edessa (explicitly Chalcedonian, per its own introduction), this chronicle is largely
+    civic and military in focus and does not obviously argue either side of 451. Authorship
+    itself is traditional, not secure - the text survives only embedded in the later Chronicle
+    of Zuqnin (c. 775), which names a monk called Joshua; modern scholarship does not treat
+    this as a settled identification. Whether this belongs at `tradition` (an Edessene voice
+    from inside the world''s own core territory, whatever the chronicler''s own confession)
+    or stays `context` (an outside civic record, like the Chronicle of Edessa) is a live open
     question for Doc_02, not resolved here.
 
     '
@@ -194,18 +194,14 @@ works:
     that stance - his episcopate and his role in the movement sit squarely inside this world''s
     own window even though his birth (c. 440) precedes its 451 opening.
 
-    Corrected (this world''s Doc_02 Round 2 revision): this note previously stated the Discourses
-    were "ascetic-spiritual homilies... not Christological polemic" and that a source record
-    needing Christological argument "should look elsewhere in his corpus, not assume this
-    volume carries it." That was wrong about the file itself. The SAME vendored volume''s
-    own contents page (lines 325-348) lists, alongside the thirteen ascetic Discourses: "The
-    Creed of Philoxenus," "A Confession of Faith," "Against Those Who Divide Our Lord," "Against
-    Those Who Maintain Two Natures," "Against Every Nestorian," "Against Nestorius," and "On
-    the Heresies of Mani, Nestorius, and Others" - Philoxenus''s own directly Christological/doctrinal
-    writing, bound and translated in this same Budge 1894 Vol. II. Their content has not yet
-    been individually read and quote-verified against the file (a task for whoever next cites
-    them specifically) - only their presence in the vendored file''s own contents listing
-    is confirmed as of this note.
+    The same vendored volume''s own contents page (lines 325-348) lists, alongside the thirteen
+    ascetic Discourses: "The Creed of Philoxenus," "A Confession of Faith," "Against Those
+    Who Divide Our Lord," "Against Those Who Maintain Two Natures," "Against Every Nestorian,"
+    "Against Nestorius," and "On the Heresies of Mani, Nestorius, and Others" - Philoxenus''s
+    own directly Christological/doctrinal writing, bound and translated in this same Budge
+    1894 Vol. II. Their content is not individually read or quote-verified against the file
+    (a task for whoever next cites them specifically); only their presence in the vendored
+    file''s own contents listing is confirmed.
 
     '
   source_file: philoxenus-of-mabbug_discourses_budge1894.txt
