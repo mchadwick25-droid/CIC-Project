@@ -437,6 +437,19 @@ button {
   background: var(--color-representative-bg);
 }
 
+.door-narration {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 8px;
+}
+
+.door-narration__note {
+  color: var(--color-text-muted);
+  font-size: 0.72rem;
+}
+
 /* A visible line under the bar, not a tooltip - shown once, the first
    time the control's own target turn is on screen (ReadAloudDisclosure.tsx). */
 .read-aloud-disclosure {
