@@ -81,13 +81,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     # entry once lpc is registered.
     "unregistered-world-dir/lpc": "CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
     #
-    # required-site-json/witt: check_required_record_types_and_site_json's
-    # own finding. witt (admitted) carries its world_front and
-    # facilitator_brief records but has no compiled cic-website/data/worlds/
-    # lutheran-wittenberg-and-its-congregations.json - the Website V2
-    # migration has not compiled witt's site JSON yet. Belongs to witt's own
-    # build thread.
-    "required-site-json/witt": "CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; the world_front record exists but the site JSON is not yet compiled; belongs to a witt build thread",
     # required-record-type/rzg/search_record: rzg (admitted) carries a
     # world_front and a facilitator_brief record and its site JSON is
     # compiled and committed, but it has zero search_record records - the
