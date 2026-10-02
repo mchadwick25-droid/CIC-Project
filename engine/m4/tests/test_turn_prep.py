@@ -1,7 +1,6 @@
 """Hermetic tests for engine.m4.turn_prep.prepare_voice_turn_inputs - the
-shared setup engine.m4.turn._run_ordinary_voice_turn and (once wired)
-engine.m4.streaming's own caller both need before a generation call: the
-evidence-assembled user message and the per-turn private directive.
+setup engine.m4.turn._run_ordinary_voice_turn needs before a generation
+call: the evidence-assembled user message and the per-turn private directive.
 _build_turn_directive/_other_tradition_directive's own extensive coverage
 stays in engine/m4/tests/test_turn.py (moved here unchanged, still
 importable as turn_module._build_turn_directive/_other_tradition_directive

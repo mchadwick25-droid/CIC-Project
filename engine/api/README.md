@@ -97,6 +97,13 @@ curl -s -X POST localhost:8000/api/session/<session_id>/message \
   -H "Authorization: Session <session_code>" -H "Content-Type: application/json" \
   -d '{"text": "Who was Jesus to your people?"}'
 
+# The same message as an event stream (needs CIC_API_STREAMING on)
+curl -sN -X POST localhost:8000/api/session/<session_id>/message \
+  -H "Authorization: Session <session_code>" -H "Content-Type: application/json" \
+  -H "Accept: text/event-stream" -d '{"text": "Who was Jesus to your people?"}'
+# -> event: draft / data: {"text": "..."}   (one per finished sentence)
+#    event: done  / data: {...}              (the finished turn)
+
 # Read the transcript so far
 curl -s localhost:8000/api/session/<session_id>/transcript \
   -H "Authorization: Session <session_code>"
@@ -113,9 +120,15 @@ curl -s localhost:8000/health
 
 ## Known gaps (see the plan file for the full list and reasoning)
 
-- **Plain JSON responses, not SSE.** `run_turn()` only ever returns
-  fully-assembled text — there's no token-level delta transport in this
-  codebase yet, so this doesn't fake one.
+- **Streaming is opt-in and draft-only.** By default a message returns one
+  JSON response. With `CIC_API_STREAMING` on, a client that sends
+  `Accept: text/event-stream` gets `draft` events (the reply's sentences as
+  the voice finishes them, tags removed) and then a `done` event carrying the
+  same body the JSON response would have. The finished turn replaces the
+  draft and alone carries the marks. Only interview turns answered by the
+  voice stream; a Facilitator turn, a table session, a bridge turn, a first
+  other-tradition ask with self-revision on, and any turn with an enforcement
+  flag on return whole.
 - **The Facilitator's own turns are placeholder text.** All seven routing
   actions have content, but `engine/m4/facilitator_turns.py` carries a craft
   note saying so plainly: the strings are honest and minimal, and they are
