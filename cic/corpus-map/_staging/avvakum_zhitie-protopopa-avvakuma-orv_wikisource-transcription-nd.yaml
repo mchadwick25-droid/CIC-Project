@@ -10,24 +10,14 @@ assignments:
     confidence: assigned
     note: >
       The same autobiography in its own original language. This world's own
-      primary evidence in its own right, per INTAKE.md's real, current rule
-      (Mark's ruling, 2026-09-25): language does not decide whether a source is
-      primary, credibility and truth do. CORRECTED 2026-09-25 (independent review
-      Findings 2/3/13): an earlier version of this note cited this same ruling but
-      could not verify it in this build thread's checkout at that time, and was
-      walked back to second-witness-only under INTAKE.md's older 2026-09-02
-      framing. CORRECTION-OF-A-CORRECTION 2026-09-25 (following the coordinator's
-      own direct check): that walk-back was itself wrong - the build thread's
-      checkout was stale (merge-base 41afa0f8, ~150 commits behind real
-      origin/main), and the 2026-09-25 ruling was real and already merged to real
-      origin/main. After merging origin/main (commit 169dc5cb) and independently
-      re-reading the real INTAKE.md, primary-evidence status is restored here.
-      Two real quotability caveats remain, independent of that question: this file
-      carries 116 bracketed modern-Russian editorial glosses
-      interpolated into the running text - strip before quoting - and this
-      transcription's own chain from manuscript to critical edition to az.lib.ru
-      to Wikisource has not been independently verified hop by hop (az.lib.ru
-      itself was unreachable from this session). Quotability flag: primary
-      evidence in its own right; verbatim-ready where clean of the bracketed
-      glosses, second-witness cross-check elsewhere. See this world's Doc_02 and
+      primary evidence in its own right, per INTAKE.md's rule: language does not
+      decide whether a source is primary, credibility and truth do. Two
+      quotability caveats remain, independent of that rule: this file carries 116
+      bracketed modern-Russian editorial glosses interpolated into the running
+      text (strip before quoting), and this transcription's own chain from
+      manuscript to critical edition to az.lib.ru to Wikisource is not
+      independently verified hop by hop (az.lib.ru is outside the build
+      environment's network allowlist). Quotability flag: primary evidence in its
+      own right; verbatim-ready where clean of the bracketed glosses,
+      second-witness cross-check elsewhere. See this world's Doc_02 and
       Open_Gaps_Tracking.md.

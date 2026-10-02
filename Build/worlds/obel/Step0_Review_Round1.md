@@ -6,16 +6,16 @@ draft the material under review.
 **Date:** 2026-09-25
 **Branch reviewed:** `worktree-agent-add54097ad81169da` at `f7abe22`
 **Documents under review:**
-- `worlds/obel/Step0_Movement_Scope_Confirmation.md`
-- `worlds/obel/Doc_01_World_Identification_Boundaries_Orientation.md`
-- `worlds/obel/Doc_02_Source_Ecology.md` + `worlds/obel/obel_Source_Registry.md`
+- `Build/worlds/obel/Step0_Movement_Scope_Confirmation.md`
+- `Build/worlds/obel/Doc_01_World_Identification_Boundaries_Orientation.md`
+- `Build/worlds/obel/Doc_02_Source_Ecology.md` + `Build/worlds/obel/Source_Registry.md`
 
 **Also read and checked against:** `CLAUDE.md`; the `cic-build-cycle` skill;
-`worlds/obel/Open_Gaps_Tracking.md`;
-`worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`;
+`Build/worlds/obel/Open_Gaps_Tracking.md`;
+`Build/worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`;
 `records/worlds/obel.yaml`; `cic-website/data/world-census.json`;
-`Ministry/Features/Atlas-World-Map/Decision-Log.md`;
-`reference/L3B-World-Build-Methodology/Source_Registry_Template.md`;
+`Build/Ministry/Features/Atlas-World-Map/Decision-Log.md`;
+`Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md`;
 `cic/texts/INTAKE.md`; `cic/corpus-map/the-old-believers.yaml`;
 `cic/texts/REGISTRY.yaml`; `engine/m1/cross_world.py`; and both vendored
 source files, opened and searched directly.
@@ -195,7 +195,7 @@ can and should be corrected now.
 `cic/corpus-map/the-old-believers.yaml`;
 `cic/corpus-map/_staging/avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.yaml`;
 `cic/texts/REGISTRY.yaml` (~line 2448);
-`worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`.
+`Build/worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`.
 
 Doc_02 §7 states: "Per `cic/texts/INTAKE.md`'s 2026-09-25 ruling (a clean
 public-domain original can be primary evidence regardless of language,
@@ -521,7 +521,7 @@ check the brief asked for, inside a single section).
 
 ## Finding 11 — Registry R7 misattributes the Pomorian Answers to Semyon Denisov
 
-**Where:** `obel_Source_Registry.md` R7; propagated to
+**Where:** `Source_Registry.md` R7; propagated to
 `Open_Gaps_Tracking.md` entry 4 and the Dossier §4.
 
 R7 reads: "**Semyon Denisov** (Vyg community), *Otvety pustynnozhiteley na
@@ -553,8 +553,8 @@ precisely what the Registry exists to prevent downstream).
 
 ## Finding 12 — The Registry's A–E confidence tiers are misapplied in five of nine rows, and R2's tier is over-claimed
 
-**Where:** `obel_Source_Registry.md` R2, R5, R6, R7, R8, R9, against
-`reference/L3B-World-Build-Methodology/Source_Registry_Template.md`.
+**Where:** `Source_Registry.md` R2, R5, R6, R7, R8, R9, against
+`Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md`.
 
 The template defines:
 
@@ -618,7 +618,7 @@ editor's bracketed glosses, which are not Avvakum's words"); reconsider the
 
 ---
 
-## Finding 14 — Doc_01 §4 leaves as "unresolved" a question the evidence in hand settles, and states a false premise in doing so
+## Finding 14 — Doc_01 §4 leaves undecided a question the evidence in hand settles, and states a false premise in doing so
 
 **Where:** `Doc_01` §4; `Doc_02` §7; `Open_Gaps_Tracking.md` entry 5.
 
@@ -779,7 +779,7 @@ citation needs to be right.
 
 Step 0 §1: "Era 8 itself is explicitly scoped as **1650-1815 in the gate's own
 heading** ('A1.E8 (1650-1815)')."
-Doc_01 §2.2: "…`Ministry/Features/Atlas-World-Map/Decision-Log.md`,
+Doc_01 §2.2: "…`Build/Ministry/Features/Atlas-World-Map/Decision-Log.md`,
 **2026-08-03**, 'A1.E8 (1650-1815)'."
 
 The string "A1.E8 (1650–1815)" occurs in the **2026-08-02 Era 7 Frozen
@@ -807,9 +807,9 @@ as load-bearing).
 
 **Independently verified — entry 7's core claim is correct:**
 
-- `reference/method/CiC_Record_Native_World_Build_Process_V1.8.md` **does not
-  exist** in this checkout. `ls reference/method/` shows V1.5 and no V1.8.
-- `git log --all -- reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`
+- `CiC_Record_Native_World_Build_Process_V1.8.md` **does not
+  exist** in this checkout. `ls Build/reference/method/` shows V1.5 and no V1.8.
+- `git log --all -- CiC_Record_Native_World_Build_Process_V1.8.md`
   returns **nothing**.
 - No V1.8 commit is an ancestor of this branch's HEAD.
 
@@ -869,10 +869,10 @@ verify.
 Step 0 §5: "**Approved to proceed.** … Reviewed per the build-cycle
 discipline; see `obel_Step0_Review_Round1.md`."
 
-`worlds/obel/` contains exactly five files:
+`Build/worlds/obel/` contains exactly five files:
 `Doc_01_World_Identification_Boundaries_Orientation.md`,
 `Doc_02_Source_Ecology.md`, `Open_Gaps_Tracking.md`,
-`Step0_Movement_Scope_Confirmation.md`, `obel_Source_Registry.md`.
+`Step0_Movement_Scope_Confirmation.md`, `Source_Registry.md`.
 **There is no `obel_Step0_Review_Round1.md`.**
 
 The build-cycle skill is unambiguous on both halves of this:
@@ -1041,7 +1041,7 @@ instruction is being used to license a claim the primary source contradicts.
 
 ## Finding 27 — The Dossier attributes a finding to `CLAUDE.md` that is not in it
 
-**Where:** `worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`,
+**Where:** `Build/worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`,
 header block.
 
 "…(no prior Old Believer/Avvakum material existed in either before this pass —
@@ -1151,8 +1151,8 @@ instances across three documents, including a full section.
    original-language question is §4. (The ruling itself is Finding 2.)
 5. **Paths broken across line wraps into non-resolvable strings**:
    `the-old-/believers_Source_Readiness_Dossier.md` (Doc_01 §11),
-   `Ministry/Features/Atlas-World- Map/Decision-Log.md` (Step 0 §1),
-   `cic/corpus-map/the-old-believers_Source_Readiness_ Dossier.md` (Doc_02 §0),
+   `Build/Ministry/Features/Atlas-World- Map/Decision-Log.md` (Step 0 §1),
+   `the-old-believers_Source_Readiness_ Dossier.md` (Doc_02 §0),
    `avvakum_life-of-archpriest-avvakum_ harrison-mirrlees1924.txt` (Doc_01 §9).
 6. **Markdown headings broken mid-phrase across lines**, which renders badly
    and breaks anchors: Doc_01 §2.2, §7, §9; Doc_02 §1.1, §12.
@@ -1236,7 +1236,7 @@ content was read via `git show` against unmerged commits.
 **Confirmed, on the core claim:**
 
 ```
-$ ls reference/method/
+$ ls Build/reference/method/
 CiC_Adversarial_Review_Standard_Practice.md
 CiC_Record_Native_World_Build_Process_V1.5.md
 CiC_Register_Bar_2026-08-29.md
@@ -1245,10 +1245,10 @@ CiC_Voice_Style_Guide_and_Scaling_Plan.md
 CiC_World_Build_Completion_Standard_V1.3.md
 Pass2-decisions
 
-$ ls reference/method/CiC_Record_Native_World_Build_Process_V1.8.md
+$ ls CiC_Record_Native_World_Build_Process_V1.8.md
 ls: cannot access '...': No such file or directory
 
-$ git log --all -- reference/method/CiC_Record_Native_World_Build_Process_V1.8.md
+$ git log --all -- CiC_Record_Native_World_Build_Process_V1.8.md
 (no output)
 ```
 

@@ -6035,7 +6035,7 @@ never stated:
 - **The escalated item does not change the document's own conclusions** → the document
   proceeds to "Approved to proceed" on the build thread's own self-disposition under
   CO-022, and the item is registered as a named open item in that world's
-  `Open_Gaps_Tracking.md`, or in `worlds/_cross-world/NEEDS-RULING.md` where it is
+  `Open_Gaps_Tracking.md`, or in `Build/worlds/_cross-world/NEEDS-RULING.md` where it is
   cross-world. The item waits; the document does not.
 - **The escalated item does change them** — Mark's own three examples: a Representative's
   identity, the world's boundary, the core classification → the document waits.
@@ -6059,11 +6059,11 @@ floor comfortably, on the Creed's shared content, and the schism is ritual-and-t
 rather than a rival confession — does not depend on how the census is worded, and no
 Representative identity, world boundary or core classification turns on it. First branch:
 Step 0, Doc_01, Doc_02 and the Source Registry proceed; the census item waits, registered
-in `worlds/obel/Open_Gaps_Tracking.md` and, because it is portfolio-level and touches a
+in `Build/worlds/obel/Open_Gaps_Tracking.md` and, because it is portfolio-level and touches a
 Frozen gate artifact, also in `NEEDS-RULING.md`'s hand-maintained tail.
 
 **Still owed, and not done here.** The two-branch rule belongs in the governing process
-documents — `reference/method/CiC_Record_Native_World_Build_Process_V1.8.md` and the
+documents — `CiC_Record_Native_World_Build_Process_V1.8.md` and the
 `cic-build-cycle` skill's own Disposition and Escalation sections — so the next world does
 not re-derive it. Editing those is a coach thread's authority, not a build or review
 thread's; flagged here for one. Until it lands, this entry is the ruling of record.
@@ -6071,5 +6071,5 @@ thread's; flagged here for one. Until it lands, this entry is the ruling of reco
 **Recorded by** the `obel` Round 2 review thread, which also applied it to that world's four
 documents. Worth naming for the audit trail: that thread reviewed the package it then
 dispositioned, so the disposition rests on Mark's ruling above plus the independent
-confirmation recorded at `obel_Step0_Doc01_Doc02_Review_Round2_Recheck.md` §10, not on the
+confirmation recorded at `Step0_Review_Round2.md` §10, not on the
 disposing thread's own view of the documents' quality.

@@ -4,6 +4,7 @@ census_id: "the-old-believers"
 display_name: "The Old Believers"
 time_window: {start: 1666, end: 1815}
 place: "Central and northern Muscovite Russia at the movement's own founding (Moscow; the Russian north and the White Sea coast, including the Solovetsky Monastery and the Vyg community), extending into Siberia (the Dauria region beyond Lake Baikal, the Tobolsk-Yeniseysk corridor) through the movement's own exile and dispersal"
+state: candidate
 doorway_place: "Moscow and the Russian north, at the moment of the 1666-1667 council's anathema against those who refused Patriarch Nikon's corrected service books and rituals"
 doorway_description: >-
   In the 1650s, Patriarch Nikon corrected the Russian church's service

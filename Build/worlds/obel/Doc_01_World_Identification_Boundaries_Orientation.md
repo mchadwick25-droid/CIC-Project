@@ -14,9 +14,9 @@ as one of six integration points (§7 below).
 
 **Built from:** `Step0_Movement_Scope_Confirmation.md`; `cic-website/
 data/world-census.json`'s own `the-old-believers` entry (VII.7);
-`Ministry/Features/Atlas-World-Map/Decision-Log.md`'s Era 7 and Era 8
-gate entries; `reference/method/CiC_Record_Native_World_Build_
-Process_V1.8.md`; `cic/texts/INTAKE.md`'s 2026-09-25 ruling on
+`Build/Ministry/Features/Atlas-World-Map/Decision-Log.md`'s Era 7 and
+Era 8 gate entries; `Build/reference/method/CiC_Record_Native_World_Build_
+Process_V2.0.md`; `cic/texts/INTAKE.md`'s rule on
 original-language primary evidence; this world's own two vendored
 primary-source files, read directly for every claim below that they can
 settle — `avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt`
@@ -26,8 +26,8 @@ and `avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt`.
 
 ## 1. Distinct World Criteria
 
-What makes this a distinct formation world, not merely "17th-century
-Russian Orthodoxy in general":
+What makes this a distinct formation world, not merely 17th-century
+Russian Orthodoxy in general:
 
 - **A single, datable rupture with a named cause.** In the 1650s, Patriarch
   Nikon corrected the Russian liturgical books and certain ritual
@@ -42,8 +42,7 @@ Russian Orthodoxy in general":
   substantial part of the Russian church refused these changes as
   innovations rather than corrections. The Moscow council of 1666-1667
   anathematized those who refused — **[Widely Accepted]**, on the
-  census's own record and the Decision-Log's own Era 8 gate entry
-  (§2.1). This is a single, nameable event with a named cause (Nikon's
+  census's own record (§2.1). This is a single, nameable event with a named cause (Nikon's
   reforms) and a named consequence (anathema), not a diffuse regional or
   generational drift.
 - **A recurring, sharply evidenced self-understanding: fidelity to
@@ -57,9 +56,9 @@ Russian Orthodoxy in general":
   - English (p. 121): "Meletina of Antioch, Theodoret, the Heart Bishop of
     Cyrene, Peter of Damascus and Maxim the Greek."
   - Russian (same locus): "Мелетия антиохийскаго и Феодора Блаженнаго,
-    епископа киринейскаго, Петра Дамаскина и Максима Грека" — "Meletios
-    of Antioch and Theodore the Blessed, bishop of Cyrene, Peter of
-    Damascus and Maxim the Greek."
+    епископа киринейскаго, Петра Дамаскина и Максима Грека" — in
+    English, Meletios of Antioch and Theodore the Blessed, bishop of
+    Cyrene, Peter of Damascus and Maxim the Greek.
 
   Read against each other, the two witnesses name the same **four**
   authorities: Meletios/"Meletina" of Antioch **[Documented]**; Theodore/
@@ -92,11 +91,8 @@ Russian Orthodoxy in general":
   writing), this world is the ritual-and-textual position the 1666
   council's own anathema was directed against, not the anathematizing
   body. This world (VII.7) is a separate Atlas entry from the Synodal
-  church's own entry, already banked before the Era 8 gate pass that
-  drafted the Synodal church's own entry alongside it: the 2026-08-02
-  Era 7 Frozen entry records "NOT written: VI.24→VII.4, VI.23→VII.7
-  (era 8's)," and the same entry's own forward-reference note names "Old
-  Believers at era 8" among Era 8's banked flags (§2.2). §9 states
+  church's own entry, and the Era 7 gate left it banked for Era 8
+  (§2.2). §9 states
   plainly why the ritual/doctrinal distinction between these two
   entries is real, and narrower than a purely ritual dispute.
 
@@ -122,25 +118,20 @@ current library, carried to Doc_02 and `Open_Gaps_Tracking.md`.
 ### 2.2 Ending point: 1815 — the Era 8 portfolio boundary, not an argued
 movement-specific closing point
 
-Era 8 is fleet-scoped as 1650-1815, per a forward-reference note at the
-close of the immediately preceding Era 7 Frozen entry
-(`Ministry/Features/Atlas-World-Map/Decision-Log.md`, 2026-08-02):
-"Next: A1.E8 (1650–1815) with its banked forward flags... Old Believers
-at era 8..." — this world is named directly, confirming it was already
-in view when this boundary was set. The Era 8 gate's own Frozen entry
-(2026-08-03, "ERA 8 FROZEN by Mark") separately records that this gate
-pass "replaced" a "round-1800 artifact cluster" across several Era 8
-entries "with honest 1815 caps" — i.e., 1815 is the fleet's own
-portfolio-level closing year for the whole era, applied across multiple
-movements at the same gate pass, not a date independently argued from
-this movement's own history.
+Era 8 is fleet-scoped as 1650-1815, and the Era 7 gate named this world
+among Era 8's banked flags, confirming it was already in view when this
+boundary was set. The Era 8 gate also replaced a round-1800 artifact
+cluster across several Era 8 entries with honest 1815 caps. 1815 is
+therefore the fleet's own portfolio-level closing year for the whole era,
+applied across multiple movements in the same Era 8 pass, not a date
+independently argued from this movement's own history.
 
 Within that boundary, the nearest genuinely Old-Believer-relevant event is
 **Edinoverie's establishment in 1800** — the first formal reconciliation
 mechanism between the Synodal church and old-rite worship, permitting
 communities to keep the pre-Nikonian rite under Synodal episcopal
-oversight. The census's own `statusDescription` names this as giving the
-mechanical 1815 cap a substantive nearby anchor. Edinoverie (1800) is the
+oversight. The census's own `statusDescription` names this as the stated reason for
+the 1815 cap. Edinoverie (1800) is the
 real, substantive event nearest the window's close; 1815 itself is the
 administrative boundary — a distinction Doc_02 and later documents
 should preserve rather than collapse.
@@ -168,7 +159,7 @@ the Vyg community's Pomorian Answers (1723).
   read by the movement itself as judgment. Neither the petition nor a
   siege account is vendored (Doc_02 §3): **[Widely Accepted]**, on
   secondary works named in the census (Crummey; Michels), not
-  independently re-checked this session.
+  independently re-checked at this stage.
 - **1670s-1680s — the mass self-immolations, and the movement's own
   internal disagreement about them.** Not a single settled practice but a
   contested one within the movement's own record. Avvakum's own
@@ -212,7 +203,7 @@ autobiography — this is not a secondary or inferred detail but the
 setting of a large fraction of the Life's own narrative. **[Documented]**,
 verified directly against the vendored file (the exile narrative runs
 continuously across a large portion of the autobiography's own middle
-section, including the Markovna passage at p. 80, discussed at §9).
+section, including the Markovna passage at p. 80).
 
 **Expansion within window:** the movement's own later dispersal into
 Siberia (as ongoing refuge, not only Avvakum's own imposed exile), the
@@ -254,9 +245,9 @@ own direct comparison of both files.
 
 The Russian text of this passage is quotable as this world's own
 primary evidence in its own right, not only as a cross-check on the
-English translation — under this project's own real, current rule
-(INTAKE.md, Mark's ruling of 2026-09-25): language is not what decides
-whether a source is primary; credibility and truth are. Quoted exactly
+English translation — under this project's own current rule
+(`cic/texts/INTAKE.md`): language is not what decides whether a source is
+primary; credibility and truth are. Quoted exactly
 as the vendored file prints it:
 
 > "не позазрите просторечию нашему, понеже люблю свой русской природной
@@ -305,8 +296,8 @@ century, empire, and register: fourth-century Cappadocia's own formation
 logic is Trinitarian-doctrinal, this world's is ritual-and-authority, and
 no figure, text, or controversy is shared between them.
 `imperial-juridical-christianity` (312-451) is also Built & Live, on a
-lane that only half-overlaps this one ("Greek East / Latin West
-bridge") — set aside in the same breath, since fifth-century imperial
+lane that only half-overlaps this one (a Greek East and Latin West
+bridge) — set aside in the same breath, since fifth-century imperial
 law is no comparandum for seventeenth-century Muscovy. No genuine
 cross-world overlap or boundary tension was found with either, or with
 any other built or candidate world in this fleet (Doc_02 §8 confirms the
@@ -336,13 +327,13 @@ positions. Reasoning about the strand question from Avvakum's own text
 alone risks reading a later division backward into a source that
 predates it. Second, the Representative-identity decision (the M1
 checkpoint, after Doc_09 in this project's own document sequence, per
-`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`) is the
+`Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md`) is the
 point at which this question's practical weight actually bears — and
 deciding a strand determination now, before that library is built out,
 risks constraining that later, more consequential decision on a thinner
 evidentiary base than it deserves.
 
-**Carried to `Open_Gaps_Tracking.md` (entry 1)** as a live boundary
+**Carried to `Open_Gaps_Tracking.md` (the strand-determination entry)** as a live boundary
 question for the next stage of this world's own build to resolve once
 further research has filled in the priestless/priestly division's own
 evidentiary base.
@@ -405,10 +396,12 @@ own eighth article — the Nikonian correction's removal of "истиннаго"
 and Life-giving" — Avvakum writes, quoted verbatim:
 
 > "It were better in the Creed not to pronounce the word Lord, which is
-> an accidental name, than to cut out "True", for in that name is
-> contained the essence of God. But we, the True Believers, confess both
-> names, and we believe in the Holy Spirit, the True and Life-giving
-> Lord, our Light, worshipped together..."
+> an accidental name, than to cut out" the word True, "for in that name
+> [is] contained the essence of God."
+
+The bracketed *is* repairs the vendored file's OCR letters "zs"; the
+sentence goes on through the Creed's own next words, which the file's
+scan breaks across lines and stray marks, so they are not quoted here.
 
 And the same passage in the vendored original-language file (verified
 directly, exact string match):
@@ -424,15 +417,14 @@ divine essence, by this world's central voice, about the Creed's own
 wording. The same opening section of the file also ties the threefold
 "Alleluia" dispute to the Latin *filioque*. Two separate passages, 577
 characters apart with an unrelated passage on the threefold Trinity and
-the anathema between them, are each quoted here on their own rather than
-joined by an ellipsis that would understate the distance between them:
+the anathema between them, are each quoted on their own:
 first, on the Roman practice generally, "по-римски святую тройцу в
-четверицу глаголют" ("in the Roman manner they make the Holy Trinity
-into a foursome"); second, on the Spirit's procession specifically, "духу
-и от сына исхождение являют" ("and they hold that the Spirit proceeds
-from the Son also"). The same passage pronounces anathema on those who
-sing the Alleluia fourfold: "Да будет проклят сице поюще" ("Cursed be
-those who sing it so").
+четверицу глаголют" (in English: in the Roman manner they make the Holy
+Trinity into a foursome); second, on the Spirit's procession specifically,
+"духу и от сына исхождение являют" (in English: they hold that the Spirit
+proceeds from the Son also). The same passage pronounces anathema on those
+who sing the Alleluia fourfold: "Да будет проклят сице поюще" (in English:
+cursed be those who sing it so).
 
 **The floor, stated at the precision the evidence supports:** the
 schism was not a collision between two different confessions of faith.
@@ -474,20 +466,26 @@ immediately by the next page's own running head, confirmed independently
 at two separate page breaks in this file — the patriarchs' own question
 spans pp. 120-121, and Avvakum's own reply is entirely on p. 121):
 
-> "Why," said they, "art thou stubborn? The folk of Palestine, Serbia,
-> Albania, the Wallachians, they of Rome and Poland, all these do cross
-> themselves with three fingers, only thou standest out in thine
-> obstinacy and dost cross thyself with two fingers; it is not seemly."
+> "Why", said they, "art thou stubborn? The folk of Palestine, Serbia,
+> Albania, the ... Wallachians, they of Rome and Poland, all ... these do
+> cross themselves with three fingers, ... only thou standest out in thine
+> obstinacy and ... dost cross thyself with two fingers; it is not seemly."
 
-And Avvakum's own reply, quoted verbatim from p. 121:
+The ellipses here mark stray marks and a page break that the vendored
+scan prints inside the sentence; no word is left out. Avvakum's own reply,
+quoted verbatim from p. 121, runs in two sentences:
 
 > "By the gift of God among us there is autocracy; till the time of
 > Nikon, the apostate, in our Russia under our pious princes and tsars
 > the orthodox faith was pure and undefiled, and in the Church was no
-> sedition. Nikon, the wolf, together with the devil, ordained that men
-> should cross themselves with three fingers, but our first shepherds
-> made the sign of the cross and blessed men as of old with two fingers,
-> according to the tradition of our holy fathers..."
+> sedition."
+
+And he goes on:
+
+> "Nikon, the wolf, together with the devil, ordained that men should
+> cross themselves with three fingers, but our first shepherds made the
+> sign of the cross and blessed men as of old with two fingers,
+> according to the tradition of our holy fathers."
 
 This exchange itself does not raise a question about the Creed's
 content — it is fought entirely on the ground of inherited practice and
@@ -537,11 +535,10 @@ own wording.
 - Genuine, real acquisition leads not yet closed: the Solovetsky
   petitions, the Pomorian Answers (1723, primarily Andrei Denisov), and
   Evfrosin's 1691 tract — see the Source Readiness Dossier
-  (`worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_
-  Dossier.md`) §4.
+  (`Build/worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`) §4.
 - Secondary scholarship (Crummey, Michels) is cited throughout this
   document at the confidence actually supported (named in the census,
-  not independently re-checked this session) and is not independently
+  not independently re-checked at this stage) and is not independently
   vendored — per project convention, secondary works are cited
   bibliographically, not vendored into `cic/texts/`.
 
@@ -550,105 +547,3 @@ own wording.
 ## 12. Open items carried forward
 
 See `Open_Gaps_Tracking.md` for the full, numbered, append-only record.
-
----
-
-## 13. Document log
-
-- **Round 1 draft**, 2026-09-25, this build thread.
-- **Round 1 self-review**, 2026-09-25, applied directly before
-  independent review landed: corrected a silently-normalized name
-  ("Meletina" printed as "Meletius"), split an over-broad confidence tag,
-  and fixed an en-dash/citation-precision error in a Decision-Log quote.
-- **Round 1 independent review** (`obel_Step0_Doc01_Doc02_
-  Review_Round1.md`, plus its own reconciliation addendum against the
-  self-review commits): **substantial revision required.** Findings
-  against this document: 1 (blocking — the floor claim contradicted by
-  this world's own vendored source at p. 34), 4, 5, 6, 7, 9, 10, 11, 14,
-  16, 18, 19, 23, 26, 28, plus shared findings 2, 3 (blocking — a
-  fabricated INTAKE.md citation), 20 (blocking — three canonical
-  documents cited a specification, V1.8, not present in this checkout),
-  and 29 (process narration embedded in canonical text).
-- **Round 2 revision**, 2026-09-25, this build thread. Every finding
-  fixed: the two/three-fingers authority list is re-quoted exactly
-  against both vendored witnesses, correcting a misread that had wrongly
-  called "Cyrene" a corruption and missed the real one ("Heart" for
-  "Blest"); three of four quotable-passage loci are corrected from a
-  page-numbering method that was backward (§9, Doc_02 §1.1); the
-  Pomorian Answers' misattribution to Semyon Denisov alone is corrected
-  to Andrei Denisov, with Semyon Denisov and Trifon Petrov as
-  participants; a false claim that no Orthodox-lane world is built is
-  corrected to name `cappadocian` and argue why it is still not a
-  comparandum (§5, §8); a self-contradiction in §8 is resolved; the
-  cultural-scope section (§4) is rebuilt in full around a genuine
-  edition finding (the English translation omits Avvakum's own
-  plain-speech apologia) in place of a withdrawn, rule-violating use of
-  the Russian text as free-standing evidence; the floor claim (§9) is
-  restated in full around the p. 34 Creed-wording passage the source
-  itself supplies; census-only claims are re-tagged Widely Accepted
-  rather than Documented throughout; and the V1.8 citations are
-  re-grounded on V1.5, the specification actually present in this
-  checkout. Process narration is removed from the body text; this log
-  entry, together with `Open_Gaps_Tracking.md`, is where that history
-  now lives.
-- **Correction-of-a-correction, 2026-09-25, this build thread, following
-  the coordinator's own direct check.** This worktree's checkout had
-  branched from a stale local `main`, itself already well behind real
-  `origin/main` before this session started. Both `reference/method/
-  CiC_Record_Native_World_Build_Process_V1.8.md` and `cic/texts/
-  INTAKE.md`'s real 2026-09-25 ruling ("a clean public-domain original
-  can be primary evidence... language is not what decides whether a
-  source is primary — credibility and truth are") were already merged to
-  the real `origin/main` hours before this session began; this
-  checkout's own copy of `INTAKE.md` simply predated the commit that
-  added that ruling. The citation was not fabricated — it was real and
-  current, unreadable only from this stale checkout. After merging
-  `origin/main` and independently re-reading the real, current
-  `INTAKE.md` directly (not taken on the coordinator's word a second
-  time), the Russian text's status as this world's own primary evidence
-  is restored at §4 above, in `Doc_02`, the Registry, `cic/texts/
-  REGISTRY.yaml`, `cic/corpus-map/`, and the Dossier — each disclosed as
-  a dated correction-of-a-correction in `Open_Gaps_Tracking.md`, not
-  silently flipped back. The genuine, still-live quotability caveats
-  (the unverified transcription chain; the bracketed editorial glosses
-  elsewhere in the file) are unaffected by this correction and remain
-  disclosed. V1.8 citations are likewise re-grounded back onto V1.8,
-  which is now present in this checkout after the same merge.
-- **Round 2 targeted recheck** (`obel_Step0_Doc01_Doc02_Review_
-  Round2_Recheck.md`): **substantial revision required, narrowly.** All
-  six of Round 1's blocking findings confirmed closed; every quotation
-  and locus independently re-verified and found correct. Against this
-  document specifically: the bracketed-gloss count ("roughly ninety")
-  found to be a byte-versus-character measurement artifact, the real
-  figure 116; §8's "same window" claim found over-broad against the
-  three named `russian-church-*` candidates, only one of which
-  (`russian-church-nikon-to-holy-synod`) actually overlaps this world's
-  window; §5's same-lane enumeration found to omit
-  `imperial-juridical-christianity`; and the filioque quotation at §9
-  found to bridge a 577-character gap under a single ellipsis wider than
-  a reader would assume.
-- **Round 3 revision**, 2026-09-25, this build thread. The gloss count
-  corrected to 116 throughout (§4, §11); §8 narrowed to name
-  `russian-church-nikon-to-holy-synod` as the one genuinely overlapping
-  candidate and the other two as adjacent, non-overlapping; §5 corrected
-  to name `imperial-juridical-christianity` and set it aside by the same
-  method as `cappadocian`; the filioque quotation at §9 split into its
-  two actual fragments, each quoted and introduced on its own rather than
-  joined by an ellipsis. A transcription convention (silent OCR repair
-  and smart-quote normalization, disclosed once) is stated at Doc_02 §7
-  rather than left undisclosed, closing a cosmetic item the recheck
-  raised again after Round 1.
-- **Escalated to Mark, not resolved by this document:** the census's own
-  `floorNote`/`statusDescription`, which carry the overstated absolute
-  floor phrasing this revision corrected (§9), were cited approvingly at
-  a Frozen portfolio gate — correcting them is portfolio-level. A second,
-  distinct governance/methodology question (whether naming an escalation
-  category in a Disposition section bars self-disposition under CO-022)
-  is escalated alongside it, per Step 0 §5. Nothing else from this
-  world's own build remains escalated as a governance question: the
-  INTAKE.md and V1.8 items above were a stale-checkout problem, now
-  resolved by merging forward, not an open policy question.
-- **Approved to proceed.** The full disposition record — the review
-  artifacts it rests on, the one item that waits, and who applied it —
-  is at `Open_Gaps_Tracking.md` entry 18. Not Frozen; nothing here is
-  closed.

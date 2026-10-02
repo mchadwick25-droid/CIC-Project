@@ -12,39 +12,29 @@
 (atlasId VII.7) carries:
 
 - `status: "Pre-Survey Candidate"`, `chip/glyph: "psc"`
-- `statusWord: "Researched — strong candidate (Era 8 Step 0)"`
-- `statusDescription`: "Reviewed at the Era 8 Step 0 run and tiered Strong
-  (Tier 1) on a rich inside voice: Avvakum's autobiography, verified in the
-  source pass, is a first-person masterpiece. Its floorNote was cited
-  approvingly at the gate as a clean example that the floor is the Creed
-  and not liturgical correctness. Its end moved to 1815, with Edinoverie
-  (1800) named so that a previously near-principled accident became a
-  stated reason."
+- `statusWord: "Researched — strong candidate"`
+- `statusDescription`: "Tiered Strong (Tier 1) on a rich inside voice:
+  Avvakum's autobiography, verified against the source, is a first-person
+  masterpiece. Its note on the doctrinal floor is a clean example that the
+  floor is the Creed, not liturgical correctness. Its window ends in 1815,
+  with Edinoverie (1800) named as the stated reason."
 
 This world (VII.7) is a separate Atlas entry from the official Synodal
-Russian church's own entry, already banked before the Era 8 gate pass
-that drafted the Synodal church's entry alongside it: the 2026-08-02 Era
-7 Frozen entry records "NOT written: VI.24→VII.4, VI.23→VII.7 (era 8's),"
-and the same entry's own forward-reference note names "Old Believers at
-era 8" among Era 8's banked flags (quoted again just below). This
-world's Frozen status is separately confirmed ("ERA 8 FROZEN by Mark;
-census 221→233... Mark's ruling, verbatim: 'yes to all, move forward.'").
+Russian church's own entry. It is a banked Era 8 entry: the Era 7 gate
+left the Old Believers among Era 8's banked flags, and its Frozen
+status is confirmed in the Atlas decision log.
 
-**On the 1815 end date:** the same Decision-Log entry records that this
-gate pass "replaced" a "round-1800 artifact cluster" across several Era 8
-entries "with honest 1815 caps." Era 8 itself is explicitly scoped as
-**1650-1815** in a forward-reference note at the close of the
-immediately preceding Era 7 Frozen entry (2026-08-02): "Next: A1.E8
-(1650–1815) with its banked forward flags... Old Believers at era 8..."
-This means 1815 is **the fleet's own Era 8 portfolio boundary, not a
-historical event specific to the Old Believer movement's own
-trajectory**. The nearest genuinely Old-Believer-relevant event before
+**On the 1815 end date:** the Era 8 gate replaced a round-1800 artifact
+cluster across several Era 8 entries with honest 1815 caps. Era 8 itself
+is scoped as 1650-1815, so 1815 is **the fleet's own Era 8 portfolio
+boundary, not a historical event specific to the Old Believer movement's
+own trajectory**. The nearest genuinely Old-Believer-relevant event before
 that boundary is Edinoverie's establishment in 1800 (the first formal
 reconciliation channel between the Synodal church and old-rite worship),
 which the census's own `statusDescription` names as giving the mechanical
 1815 cap a substantive nearby anchor. The movement's next major
-structural turn — the priestly Old Believers' restoration of their own
-episcopate (Belokrinitsa hierarchy, 1846) — falls outside this window
+structural turn, the priestly Old Believers' restoration of their own
+episcopate (Belokrinitsa hierarchy, 1846), falls outside this window
 and is noted in Doc_01 as a later development, not in scope.
 
 **No conflict found** between the census's own record and this
@@ -54,8 +44,8 @@ re-litigates that gate's own decision.
 
 ## 2. The floor test (Constitution Article 4 — Movement-Scope Principle)
 
-The census's own `floorNote`, which the Era 8 gate cited approvingly "as a
-clean example that the floor is the Creed and not liturgical correctness":
+The census's own `floorNote`, which the census's `statusDescription` calls
+a clean example that the floor is the Creed, not liturgical correctness:
 
 > "No question of doctrine arises here at all. Old Believers held exactly
 > the same creed as the church they left — the split was about ritual:
@@ -129,7 +119,7 @@ stage**. Doc_01 states the question and this Step 0's own reasoning for
 leaving it open; a firm decision is deferred until closer to the M1
 Representative-identity checkpoint, when the actual weight of each
 strand's own evidentiary base is better known. Logged in this world's
-`Open_Gaps_Tracking.md` (entry 1).
+`Open_Gaps_Tracking.md` (the strand-determination entry).
 
 ## 5. Disposition
 
@@ -138,12 +128,12 @@ claims nothing more — not that this document is complete, correct, or
 closed. Frozen is the project lead's to assign.
 
 One item waits, and it is named rather than carried silently: the
-census's own `floorNote`/`statusDescription` state an absolute — "no
-question of doctrine arises here at all" — that this world's own vendored
-primary source contradicts at p. 34 (§2). Correcting the census is
+census's own `floorNote` states an absolute — "no question of doctrine
+arises here at all" — that this world's own vendored primary source
+contradicts at p. 34 (§2). Correcting the census is
 portfolio-level, not this world's. It is registered at
-`Open_Gaps_Tracking.md` entry 11 and in
-`worlds/_cross-world/NEEDS-RULING.md`.
+`Open_Gaps_Tracking.md` (the census floor entry) and in
+`Build/worlds/_cross-world/NEEDS-RULING.md`.
 
 That item does not hold this document. A named escalated item holds a
 document only where it would change the document's own conclusions — a
@@ -152,75 +142,3 @@ Correcting the census moves the census toward what this document already
 says, and the finding that this world clears Constitution Article 4's
 floor, on the Creed's shared content, does not depend on the census's
 wording.
-
-## 6. Document log
-
-- **Round 1 draft**, 2026-09-25, this build thread.
-- **Round 1 self-review**, 2026-09-25, applied directly before
-  independent review landed: corrected a misread Decision-Log citation
-  for the Era 8 window, and withdrew a premature "Approved to proceed"
-  self-disposition that had been applied before any review ran.
-- **Round 1 independent review** (`obel_Step0_Doc01_Doc02_Review_
-  Round1.md`, plus its own reconciliation addendum against the
-  self-review commits): **substantial revision required.** Findings
-  against this document: 1 (blocking — the floor claim, §2), 18 (a
-  misreading of the Decision-Log's own "12 drafts" list as evidence this
-  world was drafted at the Era 8 gate, §1), 19 (confirmed already fixed
-  by the self-review pass), 21 (confirmed already fixed by the
-  self-review pass), plus shared findings 2/3 (blocking — a fabricated
-  INTAKE.md citation) and 20 (blocking — citing V1.8, a specification not
-  present in this checkout).
-- **Round 2 revision**, 2026-09-25, this build thread. §1 corrected to
-  state precisely what the Decision-Log actually shows (this world
-  pre-existed the Era 8 gate pass as a banked entry, rather than having
-  been drafted at it). §2 restated in full around the p. 34 Creed-wording
-  passage this world's own vendored source supplies, in place of the
-  census's own overstated absolute floor claim. Process narration is
-  removed from the body text above; this log entry is where that history
-  now lives. This same revision also (at the time, apparently correctly)
-  withdrew a citation to a 2026-09-25 INTAKE.md ruling as unfounded, and
-  re-grounded this world's citations to the process specification on
-  V1.5 rather than V1.8, on the finding that neither the ruling nor V1.8
-  was present in this checkout — see the next entry.
-- **Correction-of-a-correction, 2026-09-25, this build thread, following
-  the coordinator's own direct check.** This worktree's checkout had
-  branched from a stale local `main` (merge-base `41afa0f8`), roughly 150
-  commits behind the real `origin/main` (`58fed0f6`). Both the
-  2026-09-25 INTAKE.md ruling and `CiC_Record_Native_World_Build_Process_
-  V1.8.md` were already merged to real `origin/main` — via PR #594 and
-  commit `077b84fe` respectively — hours before this build thread
-  started; this checkout simply predated them and could not see them.
-  The citation was not fabricated — it was real and current, unreadable
-  only from this stale checkout. After merging `origin/main` (merge
-  commit `169dc5cb`) and independently re-reading the real, current
-  `INTAKE.md` and `V1.8.md` directly (not taking the coordinator's word a
-  second time), this document's escalation is narrowed at §5 above to
-  the one item that was never a stale-checkout artifact: the census's
-  own floor-claim overstatement. The corresponding restoration of the
-  Russian source's own primary-evidence status, and the re-grounding of
-  citations from V1.5 back onto V1.8, are made in `Doc_01` §4/§10/§13,
-  `Doc_02` §0/§1.1/§7/§16/§17, the `obel_Source_Registry.md`,
-  `cic/texts/REGISTRY.yaml`, `cic/corpus-map/`, and the Dossier — each
-  disclosed there as its own dated correction-of-a-correction, and in
-  `Open_Gaps_Tracking.md`. This entry, and the ones it points to, are
-  left standing alongside the Round 2 entry above rather than replacing
-  it, so the record shows both what was believed at the time and why it
-  changed.
-- **Round 2 targeted recheck** (`obel_Step0_Doc01_Doc02_Review_
-  Round2_Recheck.md`): **substantial revision required, narrowly.** All
-  six of Round 1's blocking findings confirmed closed; every quotation
-  and locus re-verified independently and found correct. What remained
-  against this document: the §1 aside naming this section's own
-  jurisdiction (removed above, Finding 29); this section's own
-  self-disposition sentence, read against the escalation categories it
-  names in the same breath (N6 — put to Mark rather than resolved here,
-  above).
-- **Round 3 revision**, 2026-09-25, this build thread. §1's jurisdictional
-  aside removed. §5 no longer self-dispositions; disposition of the
-  whole package is deferred to Mark, and the tension between naming an
-  escalation category and self-disposing under CO-022 is itself named as
-  a second escalation item (N6) rather than resolved by this thread.
-- **Approved to proceed.** The full disposition record — the review
-  artifacts it rests on, the one item that waits, and who applied it —
-  is at `Open_Gaps_Tracking.md` entry 18. Not Frozen; nothing here is
-  closed.

@@ -6,29 +6,29 @@ under review, and did not write the Round 1 review.
 **Date:** 2026-09-25
 **Branch reviewed:** `worktree-agent-add54097ad81169da` at `6d06fbb`
 **Scope:** targeted recheck against the 29 numbered findings of
-`obel_Step0_Doc01_Doc02_Review_Round1.md` (read in full, including its §8
+`Step0_Review_Round1.md` (read in full, including its §8
 Addendum of 2026-09-25) and against the diff that answered them — per
 `CLAUDE.md`'s review-cost discipline ("From round 2 onward, do a targeted
 recheck (only what changed, against prior findings) instead of a full
 re-review from scratch") and the `cic-build-cycle` skill's matching rule.
 
 **Documents rechecked:**
-- `worlds/obel/Step0_Movement_Scope_Confirmation.md`
-- `worlds/obel/Doc_01_World_Identification_Boundaries_Orientation.md`
-- `worlds/obel/Doc_02_Source_Ecology.md`
-- `worlds/obel/obel_Source_Registry.md`
+- `Build/worlds/obel/Step0_Movement_Scope_Confirmation.md`
+- `Build/worlds/obel/Doc_01_World_Identification_Boundaries_Orientation.md`
+- `Build/worlds/obel/Doc_02_Source_Ecology.md`
+- `Build/worlds/obel/Source_Registry.md`
 
 **Also opened and checked directly, because findings name them:** both
-vendored source files; `worlds/obel/Open_Gaps_Tracking.md`;
+vendored source files; `Build/worlds/obel/Open_Gaps_Tracking.md`;
 `records/worlds/obel.yaml`; `cic/texts/INTAKE.md`; `cic/texts/REGISTRY.yaml`;
 `cic/corpus-map/the-old-believers.yaml` and both corpus-map staging files;
 `cic/corpus-map/fixture-synthetic.yaml`;
-`worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`;
+`Build/worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_Dossier.md`;
 `cic-website/data/world-census.json`; `engine/m1/cross_world.py`;
-`engine/m9/holdings.py`; `Ministry/Features/Atlas-World-Map/Decision-Log.md`;
-`reference/L3B-World-Build-Methodology/Source_Registry_Template.md`;
-`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`; and
-`reference/method/` as a directory listing.
+`engine/m9/holdings.py`; `Build/Ministry/Features/Atlas-World-Map/Decision-Log.md`;
+`Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md`;
+`CiC_Record_Native_World_Build_Process_V1.5.md`; and
+`Build/reference/method/` as a directory listing.
 
 I re-derived every quotation and every page locus myself, from the vendored
 files, before looking at what the documents claim. I did not treat a finding
@@ -147,7 +147,7 @@ against the fix's own account of itself.
 | 17 | Two witnesses contradict on the opening's authorship | **CLOSED** | Both readings re-verified exactly — the English footnote at p. 33 and the Russian "писано моею рукою грешною". Disclosed at Doc_02 §1.1, carried into §6's thin-evidence map as a Contested row, and into §7 and Open_Gaps 13, without preferring either witness. Minor: "attached to the opening dedication" is an inference (the OCR carries no footnote marker) stated as fact — reasonable, and I would not revise for it. |
 | 18 | Step 0 §1 misread the "12 drafts" list | **CLOSED** | Re-verified: the log says "12 drafts (VII.18–VII.29)", which excludes VII.7, and the 2026-08-02 entry's "NOT written: VI.24→VII.4, VI.23→VII.7 (era 8's)" confirms VII.7 pre-existed as a banked receiver. Step 0 §1 and Doc_01 §1 now state exactly that, and no longer claim this world was drafted at the Era 8 gate. |
 | 19 | "A1.E8 (1650–1815)" misattributed | **CLOSED** (was already closed at the addendum) | Re-verified myself: the string is at line 3990, inside the "Next:" line closing the **2026-08-02** Era 7 Frozen entry (heading at line 3958), not in either 2026-08-03 Era 8 heading. Both documents now attribute it there, and both render the en dash. |
-| 20 | Three canonical documents governed by a spec not in the tree (**blocking**) | **CLOSED** on the documents; escalation open | Re-confirmed V1.8 is absent (`reference/method/` holds V1.5, no V1.8) and V1.5 is present. Every governing citation is re-grounded on V1.5; the surviving V1.8 mentions are the open-item disclosure (Doc_01 §10), the escalation statements, and the document logs — none of them load-bearing. Two observations at §3 N6 and §6. |
+| 20 | Three canonical documents governed by a spec not in the tree (**blocking**) | **CLOSED** on the documents; escalation open | Re-confirmed V1.8 is absent (`Build/reference/method/` holds V1.5, no V1.8) and V1.5 is present. Every governing citation is re-grounded on V1.5; the surviving V1.8 mentions are the open-item disclosure (Doc_01 §10), the escalation statements, and the document logs — none of them load-bearing. Two observations at §3 N6 and §6. |
 | 21 | Step 0 dispositioned on a nonexistent review file (**blocking**) | **CLOSED** | The disposition is withdrawn and the pointer now names the combined Round 1 file, which exists. The sequencing irregularity the addendum noted cannot be undone; it is disclosed in the logs and is materially mitigated by all three documents now being reviewed as one package. **A new instance of the same failure mode appears elsewhere — see §3 N3.** |
 | 22 | Open_Gaps entry 8 pointed at review files that do not exist (**blocking**) | **CLOSED** | Correction appended to entry 8 (append-only, correctly); the single combined review artifact exists and is named. The tool-surface discrepancy is left open and disclosed rather than resolved, which is the right call. |
 | 23 | "Documented" resting on the census | **CLOSED** | §2.1 (1666–1667 council) and §3 (geographic core) are re-tagged **Widely Accepted**; §2.3's Solovetsky basis is restated as what was actually done. I checked all three surviving [Documented] tags in Doc_01 — three fingers (§1), Meletios/"Meletina" (§1), Siberia/Dauria (§3) — and each rests on direct verification against a vendored file. The Meletios upgrade follows the Round 1 addendum's own recommendation. |
@@ -189,7 +189,7 @@ Finding 29:
 - Milder: **Doc_02 §0's** "Before this pass, nothing was vendored for it. This
   session vendored two files."
 
-**The Registry is where this went backwards.** `obel_Source_Registry.md` now
+**The Registry is where this went backwards.** `Source_Registry.md` now
 carries:
 
 - a header parenthesis: "**corrected, Round 2, cosmetic Finding 3** — an
@@ -236,8 +236,8 @@ the kind Round 1 found; the two substantial items are both process.
 **Severity: substantial (process).**
 Doc_01 §13's last line: "See this world's final handoff report for the
 complete list." `find . -iname "*handoff*"` returns handoff documents for
-other workstreams and worlds (`worlds/alx/build/HANDOFF-TO-BUILD-THREAD.md`,
-several under `Ministry/`, one under `worlds/lpc/`) and **none for `obel`**.
+other workstreams and worlds (`Build/worlds/alx/build/HANDOFF-TO-BUILD-THREAD.md`,
+several under `Ministry/`, one under `Build/worlds/lpc/`) and **none for `obel`**.
 The line is new in the Round 2 revision commit (`db91d0a`).
 
 This is the same failure mode as Findings 21 and 22, in the same package, one
@@ -399,7 +399,7 @@ Reported under the brief's point (g) rather than repeated here.
 
 ### N9 — the Source Registry Template contradicts itself about tier B
 **Severity: low. Not this world's defect; for the coach thread.**
-`reference/L3B-World-Build-Methodology/Source_Registry_Template.md` line 44
+`Build/reference/L3B-World-Build-Methodology/Source_Registry_Template.md` line 44
 defines **B** as "Specific work/locus named, not independently re-checked this
 session." Line 83's parenthetical says the opposite happened: "The prior rule…
 assumed the Confidence letter's B still meant 'specific work/locus named';
@@ -515,7 +515,7 @@ wide gap. Nothing I checked is fabricated, misattributed, or unverifiable.
 ## (c) `Open_Gaps_Tracking.md` — append-only, no rewrites of prior entries
 
 **Mostly correct; one real violation and two omissions.** I checked this
-against `git diff db91d0a^ HEAD -- worlds/obel/Open_Gaps_Tracking.md` rather
+against `git diff db91d0a^ HEAD -- Build/worlds/obel/Open_Gaps_Tracking.md` rather
 than by reading the file alone, because a rewrite is invisible from the file.
 
 **Correct:** entries 4, 7, 8 and 9 each keep their original text untouched and
@@ -583,7 +583,7 @@ statements ("not independently re-checked this session," "not vendored,"
   across `*.md`, `*.yaml`, `*.py` and `*.json`, excluding the Round 1 review
   file, returns **two** hits, and neither is an assertion of the fabricated
   ruling: `cic/texts/REGISTRY.yaml` line 2455 and
-  `worlds/obel/Open_Gaps_Tracking.md` line 215 are both explicit retractions
+  `Build/worlds/obel/Open_Gaps_Tracking.md` line 215 are both explicit retractions
   naming it as fabricated.
 - **`cic/texts/REGISTRY.yaml`:** the avvakum-Russian entry's note now cites the
   real 2026-09-02 rule and carries a `CORRECTION` block retracting the
@@ -597,7 +597,7 @@ statements ("not independently re-checked this session," "not vendored,"
 - **Corpus-map staging files** (`_staging/avvakum_life-…yaml` and
   `_staging/avvakum_zhitie-…yaml`): clean; the staging note matches the
   generated bucket, so a re-merge will not reintroduce it.
-- **The Dossier** (`worlds/_cross-world/dossiers/the-old-believers_Source_
+- **The Dossier** (`Build/worlds/_cross-world/dossiers/the-old-believers_Source_
   Readiness_Dossier.md`): clean, and separately corrected for Finding 27 and
   Finding 11.
 
@@ -700,7 +700,7 @@ not the same thing.
 
 Small, specific, and all of it mechanical except the last:
 
-1. **Strip revision-history narration from `obel_Source_Registry.md`** —
+1. **Strip revision-history narration from `Source_Registry.md`** —
    header, status line, the eight row-level "corrected Round 2, Finding N"
    parentheses, and the footer. Keep every correction; move the account of what
    an earlier draft said to `Open_Gaps_Tracking.md` and this review file. Move
@@ -781,7 +781,7 @@ Both of the things Round 1 found missing were already merged to
   "replaces this file's own prior framing (in force 2026-09-02 through
   2026-09-25) that an original-language text was a second witness by
   definition."
-- **`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`
+- **`CiC_Record_Native_World_Build_Process_V1.8.md`
   exists.** Verified by directory listing on a current checkout.
 
 So Round 1's Finding 2 was not a fabrication finding. The drafting
@@ -886,7 +886,7 @@ put it to Mark rather than answering it. He ruled, 2026-09-26:
 
 So the gate is two-branch, and the test is whether the escalated item
 would change the document's own conclusions. Recorded in full at
-`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, 2026-09-26.
+`Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, 2026-09-26.
 
 **Applied.** `obel`'s one remaining escalation is the census's own
 `floorNote`/`statusDescription`. It falls on the first branch: correcting
@@ -895,7 +895,7 @@ conclusion that this world clears Article 4's floor on the Creed's shared
 content does not depend on the census's wording. Step 0, Doc_01, Doc_02
 and the Source Registry are **Approved to proceed**; the census item
 waits at `Open_Gaps_Tracking.md` entries 11 and 18 and in
-`worlds/_cross-world/NEEDS-RULING.md` (item 5, hand-maintained tail,
+`Build/worlds/_cross-world/NEEDS-RULING.md` (item 5, hand-maintained tail,
 below the preservation marker so a regeneration keeps it).
 
 **This recheck's §1 verdict is superseded.** It read "substantial
@@ -923,3 +923,6 @@ the only world that was parked on this reasoning — checked across
 
 *Addendum written 2026-09-26. Nothing in §§1–8 is edited; §§9–11 are
 appended in order.*
+
+
+Disposition: Approved to proceed
