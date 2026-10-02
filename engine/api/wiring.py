@@ -38,7 +38,7 @@ from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
 from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
-from engine.m8.price_tables import price_for_call_kind
+from engine.m8.price_tables import price_for_call
 
 class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
@@ -383,7 +383,7 @@ class WorldUsage:
     output_tokens: int
     cache_creation_input_tokens: int
     cache_read_input_tokens: int
-    # Sum of only the calls engine.m8.price_tables.price_for_call_kind
+    # Sum of only the calls engine.m8.price_tables.price_for_call
     # could price - unpriced_calls says how many of `calls` are NOT
     # reflected in priced_dollars, so this never silently understates
     # itself as a complete total (spec principle 13: no guessed figure).
@@ -494,7 +494,7 @@ def get_usage_summary(
         bucket["output_tokens"] += record.usage.output_tokens
         bucket["cache_creation_input_tokens"] += record.usage.cache_creation_input_tokens
         bucket["cache_read_input_tokens"] += record.usage.cache_read_input_tokens
-        price_table = price_for_call_kind(record.call_kind)
+        price_table = price_for_call(record.call_kind, record.model_id)
         if price_table is None:
             bucket["unpriced_calls"] += 1
         else:
