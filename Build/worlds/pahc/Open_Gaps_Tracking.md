@@ -602,3 +602,9 @@ Nothing is changed in the record. No record flag exists today to keep a record a
 OG-19 (2026-10-02) states the gap this ruling answers.
 
 Status: RULED — Facilitator-side only. Open until the engine redesign defines the mark and the record carries it.
+
+### OG-21. The horizon rule answers OG-19 and OG-20, and both close when the horizon gate lands, 2026-10-02.
+
+The conversation system design, approved to proceed on 2026-10-02 (System Hub Decision Log, "Conversation system design: approved to proceed, Design C"), gives the mark the ruling of 2026-10-02 waited for. A build gate checks each record's voice-facing text against the world's window. A force written from after the window is classed analytic and kept out of what the Representative reads. `pahc.force.selective-canonization` is that case. OG-19 (2026-10-02) and OG-20 (2026-10-02) close under this rule when slice 5, the horizon gate, lands and pahc passes it. Nothing changes in the record before then.
+
+Status: OPEN until slice 5 lands.
