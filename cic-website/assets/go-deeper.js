@@ -99,7 +99,37 @@
     }
   }
 
-  var api = { handOff: handOff, makeReference: makeReference, purchaseUrl: purchaseUrl, readReference: readReference, startPurchase: startPurchase, claimCodes: claimCodes, POLL_MS: POLL_MS, MAX_TRIES: MAX_TRIES };
+  function returnUrl(appOrigin, code) {
+    return appOrigin + "/#cic-code=" + encodeURIComponent(String(code).replace(/\s+/g, ""));
+  }
+
+  // Gets one code into the buyer's conversation without a paste. First the
+  // window that opened this one, which answers once it has saved the code;
+  // if nothing answers, or there is no such window, this window goes to the
+  // app with the code in the address fragment, which the app reads and clears
+  // at once. A pack of several codes is left on the page to share out.
+  function deliver(codes, env) {
+    if (!codes || codes.length !== 1) return Promise.resolve("shown");
+    return new Promise(function (resolve) {
+      var finished = false;
+      function redirect() {
+        if (finished) return;
+        finished = true;
+        env.redirect(returnUrl(env.appOrigin, codes[0]));
+        resolve("redirected");
+      }
+      if (!handOff(env.opener, codes, env.appOrigin)) return redirect();
+      env.onMessage(function (event) {
+        if (finished || event.origin !== env.appOrigin || !event.data || event.data.type !== "cic-deeper-saved") return;
+        finished = true;
+        env.close();
+        resolve("closed");
+      });
+      env.later(redirect, env.waitMs);
+    });
+  }
+
+  var api = { deliver: deliver, returnUrl: returnUrl, handOff: handOff, makeReference: makeReference, purchaseUrl: purchaseUrl, readReference: readReference, startPurchase: startPurchase, claimCodes: claimCodes, POLL_MS: POLL_MS, MAX_TRIES: MAX_TRIES };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.GoDeeper = api;
 })(typeof window !== "undefined" ? window : this);

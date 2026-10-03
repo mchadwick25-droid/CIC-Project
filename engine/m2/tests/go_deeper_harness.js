@@ -79,6 +79,51 @@ const scenarios = {
     const d = GD.handOff({ closed: false, postMessage: () => { throw new Error("blocked"); } }, ["ABCD"], "https://app.test");
     return { a, b, c, d, sent };
   },
+  async deliver() {
+    const log = [];
+    function env(opener, answer) {
+      let listener = null;
+      const later = [];
+      return {
+        env: {
+          opener,
+          appOrigin: "https://app.test",
+          onMessage: (fn) => (listener = fn),
+          later: (fn) => later.push(fn),
+          waitMs: 3000,
+          close: () => log.push("close"),
+          redirect: (u) => log.push("redirect " + u),
+        },
+        answer: () => answer && listener && listener(answer),
+        timeout: () => later.forEach((fn) => fn()),
+      };
+    }
+    const open = () => ({ closed: false, postMessage: () => {} });
+    const out = {};
+    // several codes: left on the page
+    out.pack = await GD.deliver(["A", "B"], env(open(), null).env);
+    // an answering opener: closes, never redirects
+    let t = env(open(), { origin: "https://app.test", data: { type: "cic-deeper-saved" } });
+    let p = GD.deliver(["ABCD 2345"], t.env);
+    t.answer();
+    out.answered = await p;
+    // an opener that never answers: redirects after the wait
+    t = env(open(), null);
+    p = GD.deliver(["ABCD 2345"], t.env);
+    t.timeout();
+    out.silent = await p;
+    // an answer from the wrong origin does not count
+    t = env(open(), { origin: "https://evil.test", data: { type: "cic-deeper-saved" } });
+    p = GD.deliver(["ABCD 2345"], t.env);
+    t.answer();
+    t.timeout();
+    out.wrongOrigin = await p;
+    // no opener at all: straight to the app
+    t = env(null, null);
+    out.noOpener = await GD.deliver(["ABCD 2345"], t.env);
+    out.log = log;
+    return out;
+  },
   limits: () => ({ poll: GD.POLL_MS, tries: GD.MAX_TRIES }),
 };
 

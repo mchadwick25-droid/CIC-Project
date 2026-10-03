@@ -75,8 +75,9 @@
       <p>Thank you. Here is your code.</p>
       <ul class="code-list" id="code-list"></ul>
       <p>Copy it now. This page shows your code for up to an hour, then we cannot show it again.</p>
-      <p id="handed-off" hidden>If your conversation is still open in the other window, the code is already saved there. You can close this window.</p>
-      <p id="not-handed-off">Then open a conversation, choose "I have a code" under the message box, and enter it.</p>
+      <p id="saving" role="status">Saving your code to your conversation…</p>
+      <p id="saved" hidden>Your code is saved. You can close this window.</p>
+      <p id="by-hand" hidden>Then open a conversation, choose "I have a code" under the message box, and enter it.</p>
       <div class="hero-actions" style="margin:1.2rem 0 1rem;">
         <a class="btn primary" id="open-app" href="https://cic-engine.onrender.com/">Open a conversation</a>
       </div>
@@ -153,11 +154,25 @@ if (!reference) {
   }).then(function(result){
     if (result.status === 'ready') {
       result.codes.forEach(addCode);
-      if (window.GoDeeper.handOff(window.opener, result.codes, APP)) {
-        document.getElementById('handed-off').hidden = false;
-        document.getElementById('not-handed-off').hidden = true;
-      }
       show('ready');
+      window.GoDeeper.deliver(result.codes, {
+        opener: window.opener,
+        appOrigin: APP,
+        onMessage: function(fn){ window.addEventListener('message', fn); },
+        later: function(fn, ms){ setTimeout(fn, ms); },
+        waitMs: 3000,
+        close: function(){
+          document.getElementById('saving').hidden = true;
+          document.getElementById('saved').hidden = false;
+          window.close();
+        },
+        redirect: function(url){ window.location.replace(url); }
+      }).then(function(how){
+        if (how === 'shown') {
+          document.getElementById('saving').hidden = true;
+          document.getElementById('by-hand').hidden = false;
+        }
+      });
     }
     else if (result.status === 'missing') { show('missing'); }
     else { show('error'); }
