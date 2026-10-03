@@ -1240,6 +1240,33 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 - c. An unknown balance counted as empty in the getting-low check. It now counts as possibly carrying on, so the line shows only when no other code might.
 - d. The balance fetch had no test for cookies; it has one.
 - e. Wording for Mark: the balance line says "on your code" while it adds several codes together, and "Remove code" now removes one at a time. Proposed: "N exchanges left" (no "on your code"), and keep "Remove code".
+
+## 2026-10-03 — Go Deeper: the unit is tokens (Mark's ruling, a named change order)
+
+**Ruling.** A code holds tokens, one currency for everything. This is a named change order on the 2026-10-03 ruling "a code holds exchanges". Basis: the Token Proportions Study (https://claude.ai/artifact/NHompAUFtzwLVXEBYgbjJ8), including the approved three-seat Table run of 2026-10-03 ($0.62 at the rate card). Full text: the ruling block on the Handoff page.
+
+| | Tokens |
+|---|---|
+| Solo: open a conversation | 50 |
+| Solo: a round, rounds 1 to 3 | 20 |
+| Solo: a round from round 4 | 25 |
+| Table: open | 50 a seat (100 at two seats, 150 at three) |
+| Table: a round at two seats / three seats | 60 / 100 |
+| Table: a round from round 4, two / three seats | 75 / 125 |
+| Free: a day | 330 |
+| Free: a conversation stops after | 3 rounds; a code lifts the cap |
+| Packs | $7 = 1,100, $15 = 2,750, $30 = 6,600; nothing under $7 |
+
+**What this slice does (T0, no behaviour change).** The numbers go into `engine/deeper/ops/go-deeper.yaml` under `tokens`, read and checked at startup (whole numbers; a later round never cheaper than an earlier one; three seats never cheaper than two; packs rise in price and tokens; none under $7). The arithmetic is a pure module, `engine/deeper/tokens.py`. Nothing yet draws tokens: the meter still counts exchanges until T1.
+
+**How I read the opening amount, for Mark to confirm.** A conversation draws its opening amount with its first admitted round, on top of that round's own amount: a solo conversation of three rounds draws 50 + 3 x 20 = 110. The basis page says the $7 pack is 10 conversations and the free day is three solo conversations of three rounds; only 110 a conversation makes both true (1,100 / 110 = 10; 330 / 110 = 3). A test holds those facts.
+
+**What the ruling changes next, one slice each, nothing built yet.**
+- T1, the meter: reserve and settle in tokens, by round number and seat count; `table_round_cost` and the exchange count in `X-Cic-Remaining` retire. N7 and decision 36 (a Table round costs 3 exchanges) are superseded by this ruling.
+- T2, the free path: a free conversation stops at three rounds and a free visitor has 330 tokens a day instead of 150 messages and five sittings. That touches the free allowance constants in the engine and `anon_cap.py`, which are the engine redesign's ground; coordinate before editing.
+- T3, the words: every "exchange" in the app, the site pages and the Facilitator's texts becomes tokens, and the pack page offers three packs. Words are Mark's.
+- T4, the door (S5): its priced sum and stages are in dollars already; the paid-voice-quality run (B5) is sized by the longest sitting a pack allows, now 60 conversations at the $30 pack.
+- `low_balance_at` becomes a token number; it is 5 today and must be reset by Mark.
 **Opus review of the popup, round one (#744 and #745).** Three blocking findings, notes a to d on the site and a to c on the app, all fixed.
 - #744 finding 1 and #745 finding 1: the address carried the code, and a link could plant or replace one. Now the address carries the reference, the app clears it at once and asks "A code came with this link. Use it?" and says when it would replace a code, and only a yes fetches the code.
 - #745 finding 2: a code saved in another tab never reached an open conversation. The app now follows the stored code across tabs.
