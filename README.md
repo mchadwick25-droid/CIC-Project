@@ -23,7 +23,7 @@ of promotion. See "How things move" for the promotion path.
 
 | entry | module | read by |
 |---|---|---|
-| `engine/` | interview engine, table engine, facilitator (m5), build engine (m1–m3), audit and cost (m7, m8), API | Render (Docker COPY), CI, engine |
+| `engine/` | interview engine, table engine, facilitator (m5), build engine (m1–m3), audit and cost (m7, m8), API, `deeper/` (the pay-as-you-go meter, switched off) | Render (Docker COPY), CI, engine |
 | `records/` | world truth — one directory per world by registry code; `_fleet/` is fleet-shared; `worlds/<code>.yaml` is the registry, one file per world | Render, CI, engine |
 | `packages/` | compiled world packages, derived from `records/`; only pinned manifests are tracked | Render, CI, engine |
 | `canon/` | sealed admission probes (fleet-shared) | CI, engine |

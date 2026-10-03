@@ -123,6 +123,28 @@ class Store:
             row = conn.execute("SELECT 1 FROM session_events WHERE event_uuid = ?", (event_uuid,)).fetchone()
             return row is not None
 
+    def delete_session(self, session_id: str) -> int:
+        """Delete every event of one session (a participant's deletion
+        request). Returns the number of events deleted."""
+        with self._connect() as conn:
+            deleted = conn.execute("DELETE FROM session_events WHERE session_id = ?", (session_id,)).rowcount
+            conn.commit()
+        return deleted
+
+    def purge_inactive(self, cutoff: str) -> int:
+        """Delete every event of every session whose latest event is older
+        than `cutoff` (ISO-8601, compared as text like list_session_ids).
+        Returns the number of sessions deleted. The 90-day conversation
+        retention (System Hub decision 34) calls this daily."""
+        with self._connect() as conn:
+            stale = [sid for (sid,) in conn.execute(
+                "SELECT session_id FROM session_events GROUP BY session_id HAVING MAX(created_at) < ?", (cutoff,)
+            )]
+            for sid in stale:
+                conn.execute("DELETE FROM session_events WHERE session_id = ?", (sid,))
+            conn.commit()
+        return len(stale)
+
     def list_session_ids(self, since: str | None = None) -> list[str]:
         """Every session in the log, oldest-first by first event - the M7
         batch sweep's entry point (Artifact-8 §2). `since` filters on the

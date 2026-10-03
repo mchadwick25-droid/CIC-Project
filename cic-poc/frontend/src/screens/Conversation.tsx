@@ -1,11 +1,13 @@
 import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
+import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
 import { DoorNarration } from '../components/DoorNarration';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
+import { useState } from 'react';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
 // critical/etic) rather than the first 3 alphabetically - carried from the
@@ -32,13 +34,19 @@ interface ConversationProps {
   onSend: (text: string) => void;
   onEnd: () => void;
   onRestart: () => void;
+  onDelete?: () => Promise<void>;
 }
 
 function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
+export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
+  const [deleted, setDeleted] = useState(false);
+  const handleDelete = async () => {
+    await onDelete?.();
+    setDeleted(true);
+  };
   const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
 
   return (
@@ -120,7 +128,9 @@ export function Conversation({ world, turns, draft = '', sessionCode, closed, is
         </div>
       )}
 
-      {closed ? (
+      {deleted ? (
+        <DeletedNotice onRestart={onRestart} restartLabel="Meet another world" />
+      ) : closed ? (
         <div className="conversation__composer">
           <button type="button" className="doorway__begin" onClick={onRestart}>
             Meet another world
@@ -151,6 +161,7 @@ export function Conversation({ world, turns, draft = '', sessionCode, closed, is
           />
         </>
       )}
+      {!deleted && sessionCode && onDelete && <DeleteConversation onDelete={handleDelete} />}
     </div>
   );
 }

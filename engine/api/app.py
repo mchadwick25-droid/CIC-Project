@@ -20,18 +20,23 @@ from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.encoders import jsonable_encoder
-from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
+from fastapi.responses import FileResponse, JSONResponse, Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, deeper_routes, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
+from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
+from engine.m7 import erase
+from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
+from engine.m7.qc_store import QCStore
+from engine.api.qc_recorder import QCRecorder
 from engine.m8.log_store import UsageLogStore
 
 def _message_failure(exc: Exception, session_id: str) -> HTTPException | None:
@@ -42,6 +47,8 @@ def _message_failure(exc: Exception, session_id: str) -> HTTPException | None:
         return HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
     if isinstance(exc, wiring.SessionClosed):
         return HTTPException(status_code=409, detail="session already closed")
+    if isinstance(exc, wiring.MessageTooLong):
+        return HTTPException(status_code=422, detail=f"message too long (at most {wiring.MAX_MESSAGE_LENGTH} characters)")
     if isinstance(exc, table_wiring.TableRoundStillOpen):
         return HTTPException(status_code=409, detail="round still open - continue it before the next message")
     if isinstance(exc, table_wiring.TableAdvanceInFlight):
@@ -140,6 +147,7 @@ class Deps:
     r27_enforce: bool = False
     self_revision_enabled: bool = True
     citation_attach_enabled: bool = False
+    qc_recorder: object | None = None
     # Whether a client that asks for an event stream gets the reply sentence
     # by sentence while it is written (the Accept header decides per request).
     streaming_enabled: bool = False
@@ -175,7 +183,10 @@ class SessionCreateResponse(BaseModel):
     round_cap: int | None = None
 
 
-_MAX_MESSAGE_LENGTH = 4000  # ~800-1000 words - generous for a real participant turn, bounded against a payload attack
+# The hard bound on what the API accepts at all, against a payload attack.
+# Anything over wiring.MAX_MESSAGE_LENGTH (4,000) is read by the safety call
+# and then refused unless it routes to safety (System Hub decision 35).
+_HARD_MAX_MESSAGE_LENGTH = 20000
 
 
 class MessageRequest(BaseModel):
@@ -184,7 +195,7 @@ class MessageRequest(BaseModel):
     # stored verbatim, at up to 40 messages/min per IP. Output is bounded
     # by max_tokens on the generation call; this bounds input the same
     # way.
-    text: str = Field(max_length=_MAX_MESSAGE_LENGTH)
+    text: str = Field(max_length=_HARD_MAX_MESSAGE_LENGTH)
     client_msg_id: str | None = None
 
 
@@ -396,9 +407,11 @@ def create_app(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
     streaming_enabled: bool = False,
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
+    deeper: deeper_routes.DeeperRuntime | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -452,6 +465,7 @@ def create_app(
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
+        qc_recorder=qc_recorder,
         streaming_enabled=streaming_enabled,
         m7_audit_root=m7_audit_root,
         admin_auth_store=admin_auth_store,
@@ -460,6 +474,15 @@ def create_app(
     @app.get("/health")
     def health():
         return {"status": "ok"}
+
+    if deeper is not None:
+        def _admin_check(request: Request, authorization: str | None) -> None:
+            _authenticate_admin(
+                request.app.state.deps.admin_token, authorization,
+                session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME),
+            )
+
+        deeper_routes.install(app, deeper, authenticate_admin=_admin_check)
 
     @app.get("/api/worlds", response_model=WorldListResponse)
     def list_worlds_endpoint(request: Request):
@@ -547,6 +570,7 @@ def create_app(
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
+            qc_recorder=deps.qc_recorder,
             daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
         )
         started = time.monotonic()
@@ -588,6 +612,7 @@ def create_app(
                 r27_enforce=deps.r27_enforce,
                 self_revision_enabled=deps.self_revision_enabled,
                 citation_attach_enabled=deps.citation_attach_enabled,
+                qc_recorder=deps.qc_recorder,
             )
         except wiring.SessionNotFound:
             raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
@@ -615,6 +640,19 @@ def create_app(
             mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
             round_cap=table_wiring.round_cap_for(state.mode),
         )
+
+    @app.delete("/api/session/{session_id}", status_code=204)
+    def delete_session_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
+        """A participant's deletion request, authorised by the session's own
+        code: the conversation leaves the event log and the M7 audit files
+        now, and the daily backups within their 14-day rotation. The
+        anonymous quality-control store holds nothing that links to it."""
+        deps: Deps = request.app.state.deps
+        _authenticate(deps.store, session_id, authorization)
+        events_deleted = deps.store.delete_session(session_id)
+        audit_files = erase.erase_session(deps.m7_audit_root, session_id) if deps.m7_audit_root else 0
+        logger.info("session deleted session=%s events=%d audit_files=%d", session_id, events_deleted, audit_files)
+        return Response(status_code=204)
 
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
     def get_round_close_reasons_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
@@ -800,8 +838,26 @@ def _build_real_app() -> FastAPI:
     # fatal) until that bucket is configured (setup steps in
     # Build/Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md),
     # same deferred-until-configured pattern as CIC_API_PACKAGE_BUCKET.
+    data_dir = Path(settings.events_db_path).parent
+    deeper_config = DeeperConfig.from_env(str(data_dir))
+    deeper_runtime = None
+    if deeper_config.enabled:
+        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ))
+        deeper_routes.install_access_log_filter()
+        deeper_routes.start_retention_thread(deeper_runtime)
     db_backup.start_background_scheduler(
-        settings.events_db_path, settings.usage_db_path, Path(settings.events_db_path).parent / "backups-staging"
+        settings.events_db_path, settings.usage_db_path, data_dir / "backups-staging",
+        qc_db_path=settings.qc_db_path,
+        extra_dbs={"meter": deeper_config.meter_db_path} if deeper_runtime is not None else None,
+    )
+
+    # The anonymous quality-control store and the daily retention job
+    # (System Hub decision 34): conversations inactive for 90 days leave
+    # the event log; QC answer text older than 90 days is deleted.
+    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
+    retention.start_background_scheduler(
+        settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
+        audit_root=Path(settings.events_db_path).parent / "m7-audits",
     )
 
     return create_app(
@@ -825,7 +881,9 @@ def _build_real_app() -> FastAPI:
         r27_enforce=settings.r27_enforce,
         self_revision_enabled=settings.self_revision_enabled,
         citation_attach_enabled=settings.citation_attach_enabled,
+        qc_recorder=qc_recorder,
         streaming_enabled=settings.streaming_enabled,
+        deeper=deeper_runtime,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).

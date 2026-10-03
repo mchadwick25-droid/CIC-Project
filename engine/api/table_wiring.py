@@ -33,7 +33,9 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from engine.api.wiring import (
+    MAX_MESSAGE_LENGTH,
     DuplicateMessage,
+    MessageTooLong,
     ProviderCallFailed,
     SessionClosed,
     SessionNotFound,
@@ -55,7 +57,7 @@ from engine.m4.round import (
 )
 from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
-from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
+from engine.m4.turn import SAFETY_ROUTES, UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
@@ -672,6 +674,7 @@ def _advance_open_round(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
 ) -> TableMessageResult:
     """One voice-turn advance of the open round - selector step, then the
     selected voice's turn, then the close when the cap lands. Re-projects
@@ -1019,6 +1022,17 @@ def _advance_open_round(
     for rec in usage_records:
         usage_store.append(rec)
 
+    if qc_recorder is not None:
+        set_aside = voice_event.get("seat_identity_guard_exhausted") or voice_event.get("r27_enforcement_exhausted")
+        qc_recorder.record_safely(
+            session_id=session_id, world_key=selection.world_key, world=world,
+            package_hash=(state.package_manifest_hashes or {}).get(selection.world_key),
+            model_id=None if set_aside else voice_model_id, question=participant_text,
+            routing_action=routing_action, safety=_last_gate_payload(state).get("safety"),
+            voice_event=None if set_aside else voice_event,
+            answer_text=common["facilitator"][-1].get("text") if set_aside else voice_event.get("text"),
+        )
+
     turns_now = position
     if config.cap_reached(turns_now, num_seats=num_seats):
         # `state` still reflects pre-turn bookkeeping, and round_no/turn_count
@@ -1033,6 +1047,60 @@ def _advance_open_round(
         )
     return TableMessageResult(
         **common, round_open=True, turn_selected=selected_payload, voice=voice_event, position=position, turn_no=None
+    )
+
+
+def _screen_refused_table_message(
+    *,
+    store: Store,
+    usage_store: UsageLogStore,
+    state: SessionState,
+    worlds: dict[str, LoadedWorld],
+    session_id: str,
+    text: str,
+    safety_client,
+    safety_model_id: str,
+) -> TableMessageResult | None:
+    """System Hub decision 35, at the table: a message about to be refused
+    unread (a closed session, an open round, an over-long message) goes
+    through the safety call first. On a safety route, an open round is
+    closed (reason "safety", no further voice speaks in it) and the message
+    becomes a governed round whose whole content is the Facilitator's safety
+    turn, exactly as an opening message would; a closed session stays
+    closed. Otherwise None, and the caller raises its refusal as before."""
+    gate_run = run_gate(
+        session_id=session_id, safety_client=safety_client, safety_model_id=safety_model_id,
+        participant_message=text, pressed=state.pressed, anachronistic_term_ids=set(),
+        track_b_accumulator=state.safety.track_b_accumulator,
+    )
+    for rec in gate_run.usage_records:
+        usage_store.append(rec)
+    if gate_run.gate_result.routing.action not in SAFETY_ROUTES:
+        return None
+    representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
+    opening = open_table_round(
+        gate_run=gate_run, representative_names=representative_names, track_a_last=state.safety.track_a_last,
+        rounds_completed=state.turn_count, anachronistic_term_ids=set(), daily_cap_reached=False,
+    )
+    if state.round_open:
+        _close_round(store, state, reason="safety", turns=state.round_turns)
+    participant_payload = {"text": text, "client_msg_id": str(uuid.uuid4())}
+    events.validate("participant_message", participant_payload)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="participant_message", payload=participant_payload)
+    events.validate("gate_decision", opening.gate)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="gate_decision", payload=opening.gate)
+    for safety_state in opening.safety_state_events:
+        events.validate("safety_state", safety_state)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="safety_state", payload=safety_state)
+    for fe in opening.facilitator_events:
+        events.validate("facilitator_turn", fe)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
+    governed_state = project_fresh(session_id, store)
+    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
+    return TableMessageResult(
+        round_no=governed_state.round_no, round_open=False, routing_action=opening.routing_action,
+        routing_reason=opening.routing_reason, degraded=opening.degraded,
+        facilitator=opening.facilitator_events, turn_selected=None, voice=None, position=None, turn_no=turn_no,
     )
 
 
@@ -1054,6 +1122,7 @@ def _handle_table_message_unlocked(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
     daily_turn_cap_reached: bool = False,
 ) -> TableMessageResult:
     config = config or RoundConfig()
@@ -1062,14 +1131,25 @@ def _handle_table_message_unlocked(
         raise SessionNotFound(session_id)
     # An idle close (engine.m4.idle_close) is reporting-only - see
     # engine.api.wiring.handle_message's own identical comment.
-    if state.closed and state.close_reason != "idle":
-        raise SessionClosed(session_id)
     if state.mode != "table":
         raise TableRoundNotOpen(f"session {session_id} is not a table session")
-    if state.round_open:
-        raise TableRoundStillOpen(session_id)
+    refusal: Exception | None = None
+    if state.closed and state.close_reason != "idle":
+        refusal = SessionClosed(session_id)
+    elif state.round_open:
+        refusal = TableRoundStillOpen(session_id)
+    elif len(text) > MAX_MESSAGE_LENGTH:
+        refusal = MessageTooLong(session_id)
 
     worlds = _seated_worlds(state, world_loader, registry, package_cache_dir=package_cache_dir)
+    if refusal is not None:
+        screened = _screen_refused_table_message(
+            store=store, usage_store=usage_store, state=state, worlds=worlds, session_id=session_id, text=text,
+            safety_client=safety_client, safety_model_id=safety_model_id,
+        )
+        if screened is None:
+            raise refusal
+        return screened
     representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
     anachronistic_ids = _round_anachronistic_term_ids(worlds)
 
@@ -1144,6 +1224,13 @@ def _handle_table_message_unlocked(
     if not opening.voices_speak:
         # A governed round: the Facilitator's events above are the whole
         # round (Artifact-7 SS2) - closed immediately, turns: 0.
+        if qc_recorder is not None:
+            qc_recorder.record_safely(
+                session_id=session_id, world_key="table:" + "+".join(sorted(worlds)), world=None,
+                package_hash=None, model_id=None, question=text, routing_action=opening.routing_action,
+                safety=opening.gate.get("safety"), voice_event=None,
+                answer_text=opening.facilitator_events[-1].get("text") if opening.facilitator_events else None,
+            )
         governed_state = project_fresh(session_id, store)
         turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
         return TableMessageResult(
@@ -1163,6 +1250,7 @@ def _handle_table_message_unlocked(
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
+        qc_recorder=qc_recorder,
     )
 
 
@@ -1182,6 +1270,7 @@ def _continue_table_round_unlocked(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1209,6 +1298,7 @@ def _continue_table_round_unlocked(
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
+        qc_recorder=qc_recorder,
     )
 
 
