@@ -141,12 +141,9 @@ def run_gate(
     if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
         usage_records.append(rec)
 
-    # WHICH MODERN TERMS ARE IN PLAY, settled here once, before anything
-    # downstream reads them, so routing's intersection and the bridge's
-    # re-derivation see the same list. Whether the participant used a fleet
-    # modern term is a dictionary lookup (terms_in_message), not a judgement
-    # left to the reader, which flagged "Trinity" on two attempts at the
-    # same question and missed it on a third (R43, System Hub decision 43).
+    # The modern terms in play, settled once so routing and the bridge read
+    # the same list. Whether the participant used a fleet modern term is a
+    # dictionary lookup of the message, not the reader's judgement.
     if reader_outcome.value is not None:
         reader_outcome.value["modern_terms"] = terms_in_message(participant_message, load_fleet_records())
 
