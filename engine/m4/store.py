@@ -123,6 +123,14 @@ class Store:
             row = conn.execute("SELECT 1 FROM session_events WHERE event_uuid = ?", (event_uuid,)).fetchone()
             return row is not None
 
+    def delete_session(self, session_id: str) -> int:
+        """Delete every event of one session (a participant's deletion
+        request). Returns the number of events deleted."""
+        with self._connect() as conn:
+            deleted = conn.execute("DELETE FROM session_events WHERE session_id = ?", (session_id,)).rowcount
+            conn.commit()
+        return deleted
+
     def list_session_ids(self, since: str | None = None) -> list[str]:
         """Every session in the log, oldest-first by first event - the M7
         batch sweep's entry point (Artifact-8 §2). `since` filters on the
