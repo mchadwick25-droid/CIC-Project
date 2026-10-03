@@ -170,7 +170,10 @@ describe('a purchase reference carried in the address', () => {
     vi.stubGlobal('fetch', fetchMock);
     const mod = await load(true);
     expect(await mod.acceptClaim()).toBe(true);
-    expect(fetchMock).toHaveBeenCalledWith('/api/deeper/claim', expect.objectContaining({ method: 'POST', body: JSON.stringify({ reference: REF }) }));
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/deeper/claim',
+      expect.objectContaining({ method: 'POST', credentials: 'omit', referrerPolicy: 'no-referrer', body: JSON.stringify({ reference: REF }) })
+    );
     expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
   });
 

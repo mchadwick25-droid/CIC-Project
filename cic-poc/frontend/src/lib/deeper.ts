@@ -153,8 +153,12 @@ export async function acceptClaim(): Promise<boolean> {
   if (!deeperEnabled || !claim) return false;
   update({ ...state, claim: { ...claim, status: 'working' } });
   try {
+    // No cookies: the reference is held beside the buyer's name at Stripe, and the
+    // visitor cookie sits beside conversations. They must never travel together.
     const response = await fetch('/api/deeper/claim', {
       method: 'POST',
+      credentials: 'omit',
+      referrerPolicy: 'no-referrer',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ reference: claim.reference }),
     });
