@@ -254,6 +254,7 @@ def run_backup_once(
     staging_dir: Path,
     *,
     service_label: str = "cic-engine",
+    qc_db_path: str | None = None,
 ) -> dict:
     """One backup pass over both DBs. Never raises: a failed pass becomes a
     status entry (same convention as engine.m7.scheduler.run_once), so the
@@ -267,7 +268,8 @@ def run_backup_once(
     staging_dir.mkdir(parents=True, exist_ok=True)
     status: dict = {"run_at": run_at.isoformat(), "results": {}}
 
-    for label, db_path in (("events", events_db_path), ("usage", usage_db_path)):
+    sources = [("events", events_db_path), ("usage", usage_db_path)] + ([("qc", qc_db_path)] if qc_db_path else [])
+    for label, db_path in sources:
         local_backup = staging_dir / f"{label}-{stamp}.db"
         try:
             if not Path(db_path).exists():
@@ -305,7 +307,7 @@ def _next_run_at(now: datetime, hour: int = _DEFAULT_HOUR, minute: int = _DEFAUL
     return candidate
 
 
-def start_background_scheduler(events_db_path: str, usage_db_path: str, staging_dir: Path) -> None:
+def start_background_scheduler(events_db_path: str, usage_db_path: str, staging_dir: Path, qc_db_path: str | None = None) -> None:
     """Starts a daemon thread that runs run_backup_once daily. Fire-and-
     forget, same lifecycle contract as engine.m7.scheduler and
     engine.m4.idle_close's own schedulers: exits with the process, no
@@ -316,7 +318,7 @@ def start_background_scheduler(events_db_path: str, usage_db_path: str, staging_
             now = datetime.now(timezone.utc)
             next_run = _next_run_at(now)
             time.sleep(max(0.0, (next_run - now).total_seconds()))
-            run_backup_once(events_db_path, usage_db_path, staging_dir)
+            run_backup_once(events_db_path, usage_db_path, staging_dir, qc_db_path=qc_db_path)
 
     threading.Thread(target=_loop, name="db-daily-backup", daemon=True).start()
 
