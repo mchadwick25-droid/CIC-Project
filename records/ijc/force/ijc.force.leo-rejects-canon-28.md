@@ -40,9 +40,8 @@ manifestations:
 - Canon 28 passing anyway - the claim contested at the very council Leo is remembered for dominating
 - three rejection letters, each refusing the same ground in its recipient's own register
 ---
-Rebuilt from the reviewed Doc_08 Force 3B-1 (carrying its Round 2
-correction: THIS force, not 3A-1, is what Doc_04 names "the world's own
-closing event... itself a primacy-claiming collision"). Gravity
+Derived from Doc_08 Force 3B-1: THIS force, not 3A-1, is what Doc_04 names "the world's own
+closing event... itself a primacy-claiming collision". Gravity
 connection per the inverted table: ijc.gravity.primacy-claiming's
 direct closing evidentiary instance. Cross-cell: produced at delay by
 2A-1 (the imperial-proximity logic it keeps alive) and reactive to

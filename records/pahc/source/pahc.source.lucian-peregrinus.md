@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "VENDORED 2026-08-27; the paraphrase-only restriction is lifted and the wording is locally re-checkable. The USE DISCIPLINE below is unchanged and is now the operative limit: Peregrinus' own portrait is satire and unusable, and only the incidentally-preserved practice pattern is evidence. ONE NEW LIMIT: the Fowlers' 1905 English is deliberately colloquial - pounds sterling, 'clap-trap', 'a made man', 'misguided creatures' - so a quote carries Edwardian register as well as second-century content, and a record must name the translation rather than let the diction read as Lucian's own tone."
+  divergence_note: "Vendored; the wording is locally re-checkable. The USE DISCIPLINE below is the operative limit: Peregrinus' own portrait is satire and unusable, and only the incidentally-preserved practice pattern is evidence. ONE LIMIT: the Fowlers' 1905 English is deliberately colloquial - pounds sterling, 'clap-trap', 'a made man', 'misguided creatures' - so a quote carries Edwardian register as well as second-century content, and a record must name the translation rather than let the diction read as Lucian's own tone."
 sources: []
 author: "Lucian of Samosata (satirist; hostile outside witness)"
 work: "The Passing of Peregrinus, c. 165 CE - a satire whose mockery incidentally preserves genuine communal practice: widows and orphans waiting at the prison, officials bribed, visitors traveling from the cities of Asia at communal expense, sacred books read aloud"

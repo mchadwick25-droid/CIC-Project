@@ -175,10 +175,10 @@ NEW AT B-4: this is the one story in this world's inventory that Doc_09
 did not build. Doc_09 Section 8 item 2 names it as an Absent Story and
 states exactly why it was absent - not because the source could not be
 found, but because the vendored transcript had not been read. Registry
-row 14's own 2026-09-01 "confirmed unavailable in the public domain"
-determination was made without working network access and was corrected
-on 2026-09-07 when a full Migne Patrologia Latina printing was located
-and vendored as Registry row 55. Doc_02 Section 9 item 1a(i) then named
+row 14's own "confirmed unavailable in the public domain"
+determination was made without working network access; a full Migne
+Patrologia Latina printing has since been located and vendored as
+Registry row 55. Doc_02 Section 9 item 1a(i) then named
 a systematic reading of the Donatist bishops' recorded interventions as
 real, substantive future work. This record is that reading, performed
 directly against cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_

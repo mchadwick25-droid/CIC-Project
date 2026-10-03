@@ -71,7 +71,6 @@ this build as the mechanism's clearest single exercised instance
 communio to the Ambrosian material). canon_cells: F3-I (who held
 authority and how it was enforced), F4-I (when someone wronged the
 community, how was it handled - and could they come back: exclusion and
-restoration is this world's documented answer-shape). Added at review
-(Opus canon-structure pass, 2026-08-21): F5-P (what held distant
+restoration is this world's documented answer-shape), and F5-P (what held distant
 believers together) - the same communion-standing mechanism that
-excludes also connects; this term was answering the question untagged.
+excludes also connects.

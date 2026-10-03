@@ -72,9 +72,7 @@ testimony given under threat of ordinary punishment, not from the two
 ministrae's torture, which the letter reports separately and after
 (see pahc.source.pliny-letters).
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
-thanks over the cup, eucaruest (in purple)" - plain meaning first, the
-world's own word after it as a label, so the lexicon scan can light it
-into the glossary). ministrae labeled with the record's own framing (Pliny's word, not the community's own). Register bar's own form: "a scholar's term
-only after its plain meaning, as a label." Claims unchanged; the label
-is the whole edit.
+Lexicon labels give the plain meaning first, with the world's own word
+after it as a label, so the lexicon scan can light it into the
+glossary: ministrae is labeled with the record's own framing (Pliny's
+word, not the community's own).

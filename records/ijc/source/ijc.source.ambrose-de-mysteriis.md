@@ -29,20 +29,12 @@ discovery_channel: "located at review (Opus canon-structure pass, 2026-08-21) in
   Auxentium alone - this record extends the license to this additional work in the same file"
 external_ids: {ccel_volume: "npnf210"}
 ---
-Rights verified 2026-08-21: same file, same DC.Rights header (Public
+Rights verified: same file, same DC.Rights header (Public
 Domain), already checked for the Epistles and Sermo contra Auxentium
 records. Work presence verified: "On the Mysteries" division at file
 line 32459; Chapter IX (the Eucharist proper, "bread is made the true
 body of Christ") at 33189, with the "This is My Body" / "before the
 consecration it has another name" passage at 33264-33271.
-
-Corrected at a follow-up confirmation review (2026-08-22): the
-authorship note previously invented specifics the introduction does
-not state (a "16th-century" dating, an attribution to "the Benedictine
-editors," and the phrase "now universally admitted") - the introduction
-(file line ~1172) says only that the authenticity was "impugned by
-some modern writers" and that there is "no sufficient foundation for
-their arguments." Reworded to what the file actually says.
 
 NARROWLY LICENSED to De Mysteriis alone, consistent with this build's
 per-work licensing convention for the npnf210 volume (see

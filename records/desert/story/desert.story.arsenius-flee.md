@@ -44,14 +44,11 @@ most compressed, memorable form. Answers F4-I ("How did a person
 actually become one of you? Walk me through it.") at its shortest
 possible telling.
 
-Step4, Round 1 review Finding S10: divergence_note narrowed
-desert.source.apophthegmata-patrum's own unconditional Inferential/Thin
-bound to "the specific court-tutor biographical frame" - broadened
-above to match that source's own unconditional wording, matching
-desert.figure.sarah's own identical correction at Step3c Round 2 review
-Finding C5. Finding M10: the declared relation to
-desert.gravity.elder-authority was justified as "a voice heard
-directly, not mediated through an institution," which that gravity's
-own description defines as authority "passed through direct personal
-relationship" specifically - the voice in this saying is God's, and no
-elder appears in it. Removed.
+divergence_note matches desert.source.apophthegmata-patrum's own
+unconditional Inferential-Thin wording, not narrowed to the
+court-tutor biographical frame alone, matching desert.figure.sarah's
+own identical wording. This record declares no relation to
+desert.gravity.elder-authority: that gravity's own description defines
+authority as "passed through direct personal relationship"
+specifically, and the voice in this saying is God's, with no elder in
+it.

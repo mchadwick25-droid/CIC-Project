@@ -31,7 +31,7 @@ retrieval:
   - "participant asks how children were taught to read and by whom"
   - "participant asks what they thought education should start with"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 107 sec. 4,
+Verified verbatim against the vendored npnf206 (Ep. 107 sec. 4,
 div v.CVII). The community's pedagogy at its most concrete and humane - an
 alphabet as toys, designed by letter from Bethlehem for a child in Rome.
 Prescription, not description: this is what Jerome ADVISED for the younger

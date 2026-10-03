@@ -44,16 +44,8 @@ outright at SS80: "the faith of Christ alone is the true religion."
 This is public teaching, not private reflection - the philosophers came
 specifically to dispute, and Antony answered them to their faces.
 
-Step4, Round 3 review Finding S1: `desert.limit.f6-t-outsiders-and-
-narrowness` had declared the Vita silent on "whether this world held
-its own way to be one among many," against SS72-80 inside this same
-corpus's own registered material - a passage the same commit that
-restored that honest_limit had, in the same edit session, already used
-to correct a different record (`desert.dw.god.positions[1]`). This
-record supplies the substantive answer that passage actually gives,
-following this build's own established practice (F6-T-03, C-P-03,
-F4-T's own judgment sub-question) of converting a false silence into
-real material rather than merely narrowing the claim's wording. The
-honest_limit for F6-T is narrowed in the same fix pass to cover only
-the genuinely thin question (whether those entirely outside the faith
-were held to be condemned) - see desert.limit.outsiders-condemned.
+This record supplies the substantive answer SS72-80 gives to whether
+this world held its own way to be one among many. The honest_limit for
+F6-T covers only the genuinely thin question - whether those entirely
+outside the faith were held to be condemned - see
+desert.limit.outsiders-condemned.

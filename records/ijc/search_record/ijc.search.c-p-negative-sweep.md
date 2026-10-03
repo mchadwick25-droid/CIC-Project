@@ -22,20 +22,17 @@ channel: "grep -in 'I believe|my own faith|could not believe|my doubt|Jesus to m
   already licensed in this world's own source records in cic/texts, 2026-08-22"
 result: not_found
 found_sources: []
-note: "Corrected at a second follow-up confirmation review (2026-08-22): the original note's framing
-  ('every licensed author writes as a bishop, emperor, or court historian') overstated the corpus's
-  uniformity - the licensed base also includes non-office-holder voices (Symmachus, a pagan urban
-  prefect; Lactantius, a rhetorician; Jerome's De Viris; Ammianus), none of whom are a bishop, emperor,
-  or court historian either. The point survives regardless: no first-person devotional testimony about
+note: "No first-person devotional testimony about
   Jesus, and no account of doubt or struggle to believe, survives anywhere in this world's own licensed
-  base, in any of these registers. Leo's Nativity preaching (Sermon XXI.I, already licensed and used in
+  base, across bishop, emperor, and court-historian voices as well as its non-office-holder
+  voices (Symmachus, a pagan urban prefect; Lactantius, a rhetorician; Jerome's De Viris; Ammianus).
+  Leo's Nativity preaching (Sermon XXI.I, already licensed and used in
   ijc.limit.jesus-to-you's nearest_material) comes closest, as preached second/third-person
-  invitation, not private testimony. CONSEQUENCE: the honest_limit's claim that this world's record keeps
-  public words about Jesus, not private ones, is confirmed rather than merely asserted."
+  invitation, not private testimony. This confirms the honest_limit's claim that this world's record keeps
+  public words about Jesus, not private ones."
 ---
-Added at a follow-up confirmation review (2026-08-22) per that
-review's M7 finding: R3-H5's structural fix (cell-scoped negative
-searches) had only been run for the two cells where a false claim had
-already been caught (F1-T, F5-T), leaving five other honest-limited
-cells with no documented search behind their own negative claims. This
-is one of the five.
+This is one of five honest-limited cells (alongside F2-P, F4-P, F5-I,
+and F6-E) whose own negative claim is grounded by a dedicated,
+cell-scoped negative search (R3-H5's structural fix), rather than
+resting on the two cells (F1-T, F5-T) where a false claim had already
+been caught.

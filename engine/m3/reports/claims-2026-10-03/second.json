@@ -1,0 +1,569 @@
+{
+ "grader": "second",
+ "replies": [
+  {
+   "reply": "alx:f4-t-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Doctrinal claim that new birth occurred in baptismal water, no citation."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Claim about what birth language meant, no citation."
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "unsupported",
+     "note": "Doubt record is about questioning and teachers; it says nothing about years of preparation or learning to pray before baptism."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Claim about when the birth happened, no citation."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Claim about formation continuing after baptism, no citation."
+    },
+    {
+     "s": 9,
+     "label": "no_claim"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Interpretive claim about how seriously baptism was taken, no citation."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Doctrinal claim, no citation."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Doctrinal claim about what water did, no citation."
+    }
+   ]
+  },
+  {
+   "reply": "desert:c-t-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "stretched",
+     "note": "Record lists three things, but a different three; \"no more than that\" adds an exclusivity the record does not state."
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Claim about the basis of belief carries no citation, though dw.jesus has the line."
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Claim about an unbending public position, no citation."
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "supported"
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Claim about lacking a developed Trinitarian teaching, no citation."
+    },
+    {
+     "s": 19,
+     "label": "uncited",
+     "note": "Claim of holding the wider church's position, no citation."
+    },
+    {
+     "s": 20,
+     "label": "uncited",
+     "note": "Claim about lived rather than argued doctrine, no citation."
+    }
+   ]
+  },
+  {
+   "reply": "don:f3-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Fragment asserting persecution did not mean hiding; carries a claim but cites nothing."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Fragment asserting persecution meant being visited; carries a claim but cites nothing."
+    }
+   ]
+  },
+  {
+   "reply": "gallic:c-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "unsupported",
+     "note": "Cited record covers psalms and prayers at the hours, not books or lessons read; the reading of books is in a different record."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "unsupported",
+     "note": "The rule uses the doctors' consent to settle the faith and how Scripture is read, not to say which books are Scripture."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Claim that practices arrived through a named carrier, no citation."
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "ijc:c-t-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Fragment contrasting homoousios with likeness to God; carries a doctrinal claim, cites nothing."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Fragment contrasting homoousios with similarity to God; carries a doctrinal claim, cites nothing."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "stretched",
+     "note": "Gravity names homoousios as one instance of a supporting precision drive, not independently organizing; \"defined our whole era\" overstates it."
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Claim that it was not a fringe position, no citation."
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Claim about Constantinople 381 settling the Spirit question, no citation."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Specific creedal wording about the Spirit, no citation."
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    },
+    {
+     "s": 20,
+     "label": "supported"
+    },
+    {
+     "s": 21,
+     "label": "supported"
+    },
+    {
+     "s": 22,
+     "label": "supported"
+    }
+   ]
+  },
+  {
+   "reply": "ijc:f5-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific architectural details (columns, apse, chair, altar), no citation."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Claim that the buildings lasted, no citation."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Claim that some still stand in Rome, no citation."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claims about Milan in 386 and the Homoian court, no citation."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Claim that soldiers surrounded the building, no citation."
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Damasus' verse inscriptions and pilgrim roads asserted without citation."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Interpretive claim about apostolic memory claims, no citation."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Claim about why they lasted, no citation."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Claim about which furnishings would not survive, no citation."
+    },
+    {
+     "s": 12,
+     "label": "no_claim"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Claim that such objects existed, no citation."
+    },
+    {
+     "s": 14,
+     "label": "stretched",
+     "note": "Record says the voices are bishops and emperors; the detail about noticing buildings only when fought over or paid for is added."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Claim about what enters the record, no citation."
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Claim about daily objects being absent from the record, no citation."
+    }
+   ]
+  },
+  {
+   "reply": "witt:f6-p-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claims about examination at school gate and before the Supper, no citation."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Claim that no one came unexamined, no citation."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Weekly household examination on the three parts asserted, no citation."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Claim about the examination's standard, no citation."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Claim about who was counted a member, no citation."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Claim that no force was used, no citation."
+    },
+    {
+     "s": 9,
+     "label": "unsupported",
+     "note": "Record: love binds liberty for the weak; nothing on not forcing the promise, and \"only free things pressed\" contradicts \"do not make free a must\"."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Claim about how examination was conducted, no citation."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Claim about pastoral assumptions, no citation."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Doctrinal claim about estates and holiness, no citation."
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Claim about the pulpit needing a regular call; no citation given in this sentence."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Claim about the father's priesthood, no citation."
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Mostly a statement of limits, but asserts a program every household was told to follow; no citation."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Specific claim about Saxon visitations from 1527, no citation."
+    },
+    {
+     "s": 19,
+     "label": "no_claim"
+    },
+    {
+     "s": 20,
+     "label": "no_claim"
+    },
+    {
+     "s": 21,
+     "label": "no_claim"
+    },
+    {
+     "s": 22,
+     "label": "uncited",
+     "note": "Claim about what anyone was examined on, no citation."
+    },
+    {
+     "s": 23,
+     "label": "no_claim"
+    }
+   ]
+  }
+ ]
+}

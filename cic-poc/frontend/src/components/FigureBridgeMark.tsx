@@ -1,7 +1,7 @@
 /**
- * The name/figure bridge's own inline mark (VR_1A_Transparency_Gap_
- * 2026-08-09.md): a figure named in a turn's text, using InlineBridge's
- * shared hover/click (desktop) and tap/tap-through (phone) grammar.
+ * The name/figure bridge's own inline mark: a figure named in a turn's
+ * text, using InlineBridge's shared hover/click (desktop) and
+ * tap/tap-through (phone) grammar.
  *
  * Level 3 leads with what's actually being said here and where it comes
  * from (`sourced_by` - the real primary sources behind this sentence, per
@@ -16,10 +16,21 @@ import type { FigureUsed } from '../types/conversation';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
-function formatDates(dates: FigureUsed['dates']): string | null {
+// Keys with a label are short date fields; any other key (display, note)
+// holds a full sentence that reads on its own, so it shows unlabelled.
+// engine/m1/cross_world.py's FIGURE_DATE_KEYS lists the same vocabulary.
+const DATE_LABELS: Record<string, string | null> = {
+  born: 'Born',
+  died: 'Died',
+  floruit: 'Active',
+  display: null,
+  note: null,
+};
+
+export function formatDates(dates: FigureUsed['dates']): string | null {
   const parts = Object.entries(dates)
-    .filter(([, value]) => value)
-    .map(([key, value]) => `${key}: ${value}`);
+    .filter(([key, value]) => value && key in DATE_LABELS)
+    .map(([key, value]) => (DATE_LABELS[key] ? `${DATE_LABELS[key]}: ${value}` : value));
   return parts.length ? parts.join(' · ') : null;
 }
 

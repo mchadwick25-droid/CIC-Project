@@ -96,41 +96,26 @@ threaten their classification, since each is independently attested
 across the wider Apophthegmata tradition and the Pachomian corpus, not
 solely through Antony's own characterization.
 
-Step3c, Round 1 review Finding M8: the paragraph above previously
-merged those two distinct pairs into one ("both gravity records he is
-associated with... withdrawal, elder-authority"), asserting a relation
-this record does not declare (elder-authority) while dropping one it
-does (spiritual-combat). Corrected to name both pairs separately.
-Finding M1: David Brakke's reading, load-bearing in this record's own
-divergence_note, was unregistered - desert.source.brakke-athanasius
-added to sources[]. Finding M4: the bridge_line attributed the
-illiteracy claim to "those who knew him" (plural) where this record's
-own single-voice-concentration caution requires naming the one
-hagiographer; "never taught to read" shifted agency away from what the
-Vita's SS1 actually narrates (a refusal, not an absence of teaching);
-and the philosophers clause carried no hedge once the attribution
-phrase had closed. Reworded to keep the whole sentence under one
-attribution and to match SS72's own "had not learned letters." Finding
-M5: "at nineteen or twenty" was an unmarked derivation from Vita SS2's
-own "about eighteen or twenty" - corrected to the source's own words.
-Finding M15: the Vita locus named SS89-90 for "his death"; SS89-90 is
-his final visit and age near death, and the death itself is at SS92-93,
-which this record's own dates.died already cited correctly - the locus
-corrected to match.
+This record's own relations[] name the two gravities Antony's own
+career is associated with (withdrawal and spiritual-combat) separately
+from Doc_04 SS3's routing of the literacy contest's own Cross-Check
+treatment to withdrawal and elder-authority - it is withdrawal's and
+elder-authority's own gravity records, not spiritual-combat's, that
+each state the contest does not threaten their classification.
+desert.source.brakke-athanasius, load-bearing in this record's own
+divergence_note, is registered in sources[]. The bridge_line attributes
+the illiteracy claim to the one hagiographer under a single attribution,
+matching SS72's own "had not learned letters," and "about eighteen or
+twenty" matches Vita SS2's own words. The Vita locus for "his death"
+names SS92-93, matching this record's own dates.died; SS89-90 is his
+final visit and age near death.
 
-Step3c, Round 2 review Finding C3: "gave away everything" overstated
-SS2, reopened for the M5 fix above, which has him reserve "a little...
-for his sister's sake" - full renunciation comes later, at SS3.
-Corrected to "gave away nearly everything." Finding M3: the Round 1 fix
-for M8 re-merged the two pairs it was written to keep apart, attributing
-to "his associated gravity records" (withdrawal, spiritual-combat) a
-does-not-threaten-classification statement that elder-authority - not
-spiritual-combat - actually carries. Reworded to state each fact
-separately without merging which records say what.
+The bridge_line states "gave away nearly everything," matching SS2,
+which has him reserve "a little... for his sister's sake" - full
+renunciation comes later, at SS3.
 
-World_front pilot (2026-09-19): reciprocal associated-with relation
-added to desert.story.antony-secret-burial, a new story record on
-Antony's death and burial instructions (Vita SS89-92), reconciling
-cic-website/atlas-v3.html's own "Antony Has Himself Buried Where No One
-Will Find Him" documentedStories entry against this world's own record
-set.
+desert.story.antony-secret-burial, a story record on Antony's death and
+burial instructions (Vita SS89-92), reconciles cic-website/atlas-v3.html's
+own "Antony Has Himself Buried Where No One Will Find Him"
+documentedStories entry against this world's own record set, with a
+reciprocal associated-with relation.

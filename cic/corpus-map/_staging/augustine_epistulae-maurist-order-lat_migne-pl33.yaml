@@ -1,0 +1,15 @@
+source_file: augustine_epistulae-maurist-order-lat_migne-pl33.txt
+
+assignments:
+  - row_id: augustine_epistulae-maurist-order-lat_migne-pl33--augustine-s-epistolae-maurist-order-migne-pl-33
+    work: "Augustine's Epistolae (Maurist order, Migne PL 33)"
+    author: augustine
+    locus: "whole file, four classes and Appendix"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Maurist Latin of the letters, in the numbering the npnf101 volume follows, so it lines
+      up with the Goldbacher files already in the map. It includes the Donatist letters, which
+      the staging file for npnf101 assigns to donatism only; not split here. Registry row 231.

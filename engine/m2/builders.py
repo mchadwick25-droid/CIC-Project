@@ -115,8 +115,8 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
     emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
     # Stories and quotes are never screened by the register:
     # stories arrive through their own tellable_as retellings;
-    # quotes speak their build-authored modern_rendering where one exists,
-    # originals on the click page.
+    # quotes always speak their build-authored modern_rendering, never the
+    # original - originals stay reachable only on the click page.
     emit("Stories and quotes", record.get("story_quote_reach"))
     emit("Limit discipline", record.get("limit_discipline"))
     return segments
@@ -172,8 +172,10 @@ def _candidate_head_text(record: dict) -> str:
     if record_type == "term":
         return " ".join(filter(None, [record.get("plain_meaning"), record.get("quick_meaning")]))
     if record_type == "story":
-        return " ".join(filter(None, [record.get("tellable_as"), record.get("text")]))
-    if record_type in ("quote", "doctrinal_witness"):
+        return record.get("tellable_as") or ""
+    if record_type == "quote":
+        return record.get("modern_rendering") or ""
+    if record_type == "doctrinal_witness":
         return record.get("text") or ""
     if record_type == "honest_limit":
         return record.get("statement") or ""
@@ -286,12 +288,17 @@ def _quote_speaker(quote: dict) -> str:
 
 
 def _quote_opening(quote: dict, width: int = 60) -> str:
-    # The opening words shown are the SPEAKABLE form - the build-authored
-    # modern_rendering where one exists (archaic quotes are translated
-    # in the build, originals on the click
-    # page), the original text otherwise - so the index matches what the
-    # voice would actually say at the table.
-    text = " ".join((quote.get("modern_rendering") or quote.get("text") or "").split())
+    # The opening words shown are ALWAYS the speakable form, modern_rendering
+    # - never `text`, which is never voiced (gate_quote_recording requires
+    # every quote to carry modern_rendering, so this should be unreachable;
+    # fail loudly at build time rather than silently index the archaic
+    # original if that invariant is ever broken) - so the index matches
+    # what the voice would actually say at the table.
+    rendering = quote.get("modern_rendering")
+    if not rendering:
+        raise ValueError(f"{quote.get('id')}: quote has no modern_rendering - "
+                         f"refusing to fall back to text, which is never voiced")
+    text = " ".join(rendering.split())
     return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
@@ -324,6 +331,8 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
 # about the world that we happen to have met in our own instruction is
 # carried by the record that holds it, from below the line or from the
 # turn's ground - never by an address for the instruction.
+SOURCE_ANCHOR_HEADER = "Where our images come from"
+
 _GROUND_LINE = """## Below this line is our world's own record
 
 Everything above this line is our own standing instruction - our register, our
@@ -429,7 +438,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # evidence block at all (44 input tokens, turn 1) fabricated the most.
     #
     # ADJACENCY WAS NOT ENOUGH, measured again on the same six-turn shape
-    # 2026-08-27 against a package where every canon cell had a voice.
+    # against a package where every canon cell had a voice.
     # Fabrication fell from 14 uses in 47 to 2 in 27 - but both survivors
     # were [[desert.cautions]], emitted from the section headed "Cautions",
     # which by then DID carry [[desert.core.desert]] beside it. The earlier
@@ -466,6 +475,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         concerns = craft.get("characteristic_concerns") or []
         if concerns:
             instruct("What we keep returning to", "\n".join(f"- {c}" for c in concerns))
+        instruct(SOURCE_ANCHOR_HEADER, craft.get("source_anchor"))
         notes = craft.get("flavor_notes") or []
         if notes:
             instruct(
@@ -475,12 +485,20 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
 
     core = _one(records, "world_core")
     if core:
-        # four sections, one record - they are all fields of world_core, and
+        # Five sections, one record - they are all fields of world_core, and
         # saying so is what stops "Formation logic" becoming a namespace.
+        # Living traditions is the fifth and newest (engine/m1/schemas.py's
+        # world_core.living_traditions, added per Open_Gaps_Tracking.md
+        # OG-45/OG-48): present only for a world with a CONFIRMED Article 29
+        # determination and something to say, so most worlds emit four
+        # sections here, not five - `emit()` already no-ops on an unset
+        # field, the same way it does for any other optional world_core
+        # content.
         emit("Horizon", core.get("horizon"), core["id"])
         emit("Formation logic", core.get("formation_logic"), core["id"])
         emit("Thinness", core.get("thinness"), core["id"])
         emit("Cautions", core.get("cautions"), core["id"])
+        emit("Living traditions", core.get("living_traditions"), core["id"])
 
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))
@@ -540,7 +558,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # full text, for the quotes a turn actually needs.
     #
     # The opening words are labelled as an opening. A voice that quotes
-    # beyond them is caught by the verbatim check the citation contract
+    # beyond them trips the verbatim check the citation contract
     # already runs ("a quote with no tag, or words not found in the tagged
     # record, is not spoken") - so the cost of the excerpt is a withheld
     # sentence, never a misquotation reaching a participant.
@@ -554,8 +572,11 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         )
 
     for story in _by_type(records, "story"):
-        body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
-        emit("Story", body, story["id"])
+        tellable = story.get("tellable_as")
+        if not tellable:
+            raise ValueError(f"{story['id']}: story has no tellable_as - refusing to compile "
+                             f"the source text, which is never voiced")
+        emit("Story", tellable, story["id"])
 
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []
@@ -605,7 +626,7 @@ def build_capsule(records: dict, registry_entry: dict) -> bytes:
 # SS3 lists doctrinal_witness as a fourth chunk-feeding (retrieval-block)
 # type. Adding a fourth directory that follows the same one-file-per-record
 # pattern is the minimal, fully-determined resolution of that gap - DECIDABLE
-# (Build-Blueprint.md SS4), not a spec contradiction needing a ruling.
+# (Build-Blueprint.md SS4), never a spec contradiction to work around.
 
 
 def _chunk_text(record: dict) -> str:
@@ -614,7 +635,7 @@ def _chunk_text(record: dict) -> str:
     if record_type == "term":
         lines += [record.get("plain_meaning", ""), "", f"world_word: {record.get('world_word', '')}", "", record.get("quick_meaning", "")]
     elif record_type == "story":
-        lines += [record.get("tellable_as", ""), "", record.get("text", "")]
+        lines += [record.get("tellable_as", "")]
     elif record_type == "ambient":
         lines += [record.get("detail", "")]
     elif record_type == "doctrinal_witness":
@@ -727,10 +748,8 @@ def build_quotes_json(records: dict) -> bytes:
         {
             "id": q["id"],
             "text": q.get("text"),
-            # Build-authored translation for archaic originals:
-            # the spoken form; text above stays the
-            # original for the click page. Absent when the original's
-            # English is already plain.
+            # The spoken form. `text` above is the verbatim source,
+            # kept for the citation net's verbatim check and never shown.
             "modern_rendering": q.get("modern_rendering"),
             "speaker_or_author": q.get("speaker_or_author"),
             "license": q.get("license"),
@@ -759,7 +778,7 @@ def build_figures_json(records: dict) -> bytes:
 # BUILD PROVENANCE NEVER SHIPS: all world
 # build and active files need to be clean for exactly what they exist
 # to do. The record STORE is the workshop - bodies, search records, and
-# reviewer-facing fields are its mandated audit trail and stay untouched.
+# review-facing fields are its mandated audit trail and stay untouched.
 # The compiled PACKAGE is the instrument, and two kinds of build residue
 # were shipping in it, measured fleet-wide before this change (~250
 # instances):
@@ -772,14 +791,14 @@ def build_figures_json(records: dict) -> bytes:
 #   sharing a word with a search note could surface one as evidence.
 #   Excluded from the package entirely.
 # - why_sources_cannot_answer / modern_lens_note / discovery_channel /
-#   narrative_tier_justification: reviewer- and author-facing prose on
+#   narrative_tier_justification: review- and author-facing prose on
 #   honest_limit, quote, source, and story records (admission-run
 #   citations, authoring cautions, how-this-was-found notes, tier
 #   justifications). The operative content of each record lives in its
 #   other fields; none of these four has a runtime consumer (verified by
 #   grep outside gates/schemas; the fallback already excluded
 #   modern_lens_note by name) and all are stripped at compile.
-# - facilitator_brief rows (added 2026-09-21, website-card-redesign-to-main):
+# - facilitator_brief rows (added for the website-card-redesign-to-main effort):
 #   `audience: facilitator` by the record's own schema - a compiled brief
 #   for the human Facilitator, never a claim the Representative's own voice
 #   speaks from (CLAUDE.md's "Safety comes first": redirect and crisis
@@ -788,7 +807,7 @@ def build_figures_json(records: dict) -> bytes:
 #   applies here with higher stakes - excluded from the package entirely,
 #   same as search_record, until a real Facilitator-surface consumer needs
 #   its own dedicated, audience-checked read path.
-# - world_front rows (added 2026-09-21, website-card-redesign-to-main): each
+# - world_front rows (added for the website-card-redesign-to-main effort): each
 #   one's own divergence_note calls it "a compiled front door over this
 #   world's own already-rated records," and its `export.include_types`
 #   names exactly those already-retrievable atomic types (story, quote,
@@ -802,7 +821,7 @@ def build_figures_json(records: dict) -> bytes:
 # M1 gates still validate everything on the records themselves - this
 # changes what ships, never what is authored or checked.
 #
-# world_front/facilitator_brief added to this set 2026-09-19 (Website V2
+# world_front/facilitator_brief added to this set (Website V2
 # world_front design, approved to proceed) for a sharper reason than build
 # residue: this is the ONE place in the M2 compiler that processes every
 # record type by default (a denylist, not an allowlist like CHUNK_DIR_BY_

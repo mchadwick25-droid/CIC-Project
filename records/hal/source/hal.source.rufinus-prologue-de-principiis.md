@@ -25,7 +25,7 @@ relations:
 - type: associated-with
   target: hal.source.origen-philocalia
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). The Prologue is at line 22273 and was read there.
 
 THIS IS THE DOCUMENT THE QUARREL IS ABOUT, and this world held every

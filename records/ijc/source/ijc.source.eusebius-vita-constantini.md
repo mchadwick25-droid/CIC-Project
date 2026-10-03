@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf201-eusebius); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf201"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: "The Life of Constantine" division at
 file line 60256 (its own title page at 54277); the vision narrative
 (I.28-31) from line 61185; Constantine's "bishop... of those without"

@@ -53,10 +53,6 @@ relations:
 F2-T: the raza method applied to the translational questions,
 grounded in the same verified textual base as the method gravity.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+Written in short sentences, at the approved register level, with all claims and hedges kept.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). raza and shrara labeled at the reading witness's own symbol line (the plural razê restated in the singular the lexicon speaks; the claim is identical). Claims unchanged; the label is the whole edit.
+raza and shrara are labeled at the reading witness's own symbol line (the plural razê restated in the singular the lexicon speaks; the claim is identical): plain meaning first, the world's own word after it as a label.

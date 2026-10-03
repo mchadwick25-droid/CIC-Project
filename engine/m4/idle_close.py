@@ -37,7 +37,7 @@ from .store import Store
 
 logger = logging.getLogger("cic.api")
 
-# IDLE_AFTER (Ministry/Operations/Standing/
+# IDLE_AFTER (Build/Ministry/Operations/Standing/
 # CiC_Cross_System_Analysis_Tracking.md, "Pilot-summary endpoint confirmed
 # live" entry): generous enough that a participant picking a conversation
 # back up a few days later never finds their own session idle-closed.

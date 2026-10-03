@@ -20,4 +20,4 @@ found_sources:
 - hal.source.sulpitius-dialogues
 note: "Located and collated: 'the presbyter Jerome rules the church of this place; for it is a parish of the bishop who has possession of Jerusalem'; 'learned not only in Latin and Greek, but also Hebrew'; 'He is always occupied in reading, always at his books with his whole heart.' A source the prior build did not register - added on this branch as one of very few non-Jerome attestations of Bethlehem within the window (admiring direction, balancing Palladius's hostile one)."
 ---
-Run 2026-08-21. Rights read from the file's own DC.Rights header.
+Rights read from the file's own DC.Rights header.

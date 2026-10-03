@@ -192,9 +192,8 @@ def main() -> int:
     print(f"report written: {out}")
     print(f"isolation violations: {len(report['isolation_violations'])}")
 
-    # H-3 (witt go-live adversarial review, 2026-09-19) - see
-    # engine.m4.output_check.find_shipped_defects for why this is checked
-    # here rather than left to a reviewer reading the raw JSON.
+    # See engine.m4.output_check.find_shipped_defects for why this is
+    # checked here rather than left to be found by reading the raw JSON.
     shipped_defects = find_shipped_defects(report)
     if shipped_defects:
         print(f"SHIPPED OUTPUT DEFECT(S): {len(shipped_defects)} - see output_defects in the report above", flush=True)

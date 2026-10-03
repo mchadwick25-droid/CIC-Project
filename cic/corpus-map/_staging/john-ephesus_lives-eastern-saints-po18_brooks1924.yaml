@@ -1,0 +1,14 @@
+source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+
+assignments:
+  - row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--lives-of-the-eastern-saints-ii
+    work: "Lives of the Eastern Saints (II)"
+    author: john-ephesus
+    locus: "whole fascicule"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Second installment, continuing directly from PO17. Same disclosed
+      chapter 49-50 boundary imprecision noted there applies here too.

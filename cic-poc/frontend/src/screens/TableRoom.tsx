@@ -15,9 +15,14 @@
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { ModernTermMark } from '../components/ModernTermMark';
+import { ReadAloudControl } from '../components/ReadAloudControl';
+import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
+import { readAloudEnabled } from '../lib/flags';
+import { pickVoiceForSeat } from '../lib/readAloud';
 
 interface TableRoomProps {
   seatedWorlds: WorldEntry[];
@@ -39,24 +44,57 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
+// Same "latest completed voice/Facilitator turn only" target as
+// Conversation.tsx - see ReadAloudControl's own docstring.
+function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: ConversationTurn } | null {
+  for (let i = turns.length - 1; i >= 0; i--) {
+    if (turns[i].speaker !== 'participant') return { index: i, turn: turns[i] };
+  }
+  return null;
+}
+
 export function TableRoom({
   seatedWorlds, turns, sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart,
 }: TableRoomProps) {
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
-
+  const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
+  const readAloudAvailable = useReadAloudAvailability();
+  // A Table seats more than one Representative - the disclosure sentence's
+  // single {representative_name} slot can't name all of them, and the
+  // very first spoken turn in every session is the Facilitator's own door
+  // turn (useConversation.ts), before any seated voice has spoken at all.
+  // The first seated voice stands in - a documented simplification, not a
+  // claim that voice specifically said anything.
+  const readAloudRepresentativeName = seatedWorlds[0]?.representativeName ?? '';
+  // Distinct voice per seated Representative (best effort - see
+  // pickVoiceForSeat's own docstring for what a device without enough
+  // voices falls back to). undefined for the Facilitator's own turns,
+  // which have no seat to assign one from.
+  const readAloudVoice =
+    latestSpoken && byKey.has(latestSpoken.turn.speaker)
+      ? pickVoiceForSeat(seatedWorlds.map((w) => w.worldKey), latestSpoken.turn.speaker)
+      : undefined;
   return (
     <div className="conversation">
       <div className="conversation__bar">
         <BrandMark size={16} />
-        {sessionCode && (
-          <div className="conversation__bar-note sans">
-            Not saved to an account — this conversation lives in this tab
-          </div>
-        )}
+        <div className="conversation__bar-right">
+          {sessionCode && (
+            <div className="conversation__bar-note sans">
+              Not saved to an account — this conversation lives in this tab
+            </div>
+          )}
+          {readAloudAvailable && latestSpoken && (
+            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} voice={readAloudVoice} />
+          )}
+        </div>
       </div>
+      {readAloudAvailable && latestSpoken && readAloudRepresentativeName && (
+        <ReadAloudDisclosure representativeName={readAloudRepresentativeName} turnKey={latestSpoken.index} />
+      )}
 
-      <div className="conversation__transcript">
+      <div className="conversation__transcript" role="log" aria-label="Conversation">
         <div className="arrival arrival--table">
           <div className="arrival__seats">
             {seatedWorlds.map((w) => (
@@ -137,11 +175,11 @@ export function TableRoom({
           );
         })}
 
-        {isLoading && !closed && <p className="waiting-note sans">The table is speaking — voices answer in turn…</p>}
+        {isLoading && !closed && <p className="waiting-note sans" role="status">The table is speaking — voices answer in turn…</p>}
       </div>
 
       {error && (
-        <div className="conversation__error">
+        <div className="conversation__error" role="alert">
           {error}
           {errorRecoverable && (
             <button type="button" className="error-restart sans" onClick={onRestart}>

@@ -47,29 +47,21 @@ relations:
 - type: associated-with
   target: pahc.quote.first-clement-apostolic-chain
 ---
-Opened 2026-08-27 for F2-E, "how do you know" about this world's scriptures, which was served by
-pahc.witness.scholarly-standing alone with nothing quotable in it.
+This quote serves F2-E, "how do you know" about this world's scriptures, together with
+pahc.witness.scholarly-standing.
 
 Kept for the altered citation as much as for the claim. A world that says it was working from
-apostolic testimony alongside written scripture should be shown doing exactly that - reaching for
+apostolic testimony alongside written scripture is shown doing exactly that - reaching for
 Isaiah, and bending it - rather than only asserted to have done it. The ANF editor caught the
 alteration in 1885 and the note travels with the quote.
 
-F6-I ADDED 2026-08-27, rather than duplicating the passage into a second
-record. pahc.witness.what-we-never-settled cites chs. 42 and 44 for the
-plural "bishops and deacons" held against Ignatius's single bishop, and
-served that cell with no quote. The tension is IN this sentence - Clement
-writes bishops in the plural for one city, and pahc.quote.jesus-christ-our-god
-has Ignatius binding a congregation to THE bishop, singular. Two records
-opened the same day, from the same corpus, that do not agree about how a
-church is governed. Neither is corrected toward the other.
+This quote also serves F6-I, alongside pahc.witness.what-we-never-settled, which cites chs. 42
+and 44 for the plural "bishops and deacons" held against Ignatius's single bishop. The tension
+is IN this sentence - Clement writes bishops in the plural for one city, and
+pahc.quote.jesus-christ-our-god has Ignatius binding a congregation to THE bishop, singular.
+Two records from the same corpus that do not agree about how a church is governed. Neither is
+corrected toward the other.
 
-Quote-verbatim gate fix (2026-09-22): removed a stray literal backslash before each quote mark
-around the Isaiah citation (a YAML folded-scalar authoring bug, not a real source character) and
-matched the source's actual quote marks. No wording changed.
+The Isaiah citation's quote marks match the source's actual quote marks exactly.
 
-MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
-
-MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+The modern rendering is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3. It follows the project's approved register: short sentences, everyday words, translation fidelity kept.

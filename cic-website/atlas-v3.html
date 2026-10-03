@@ -111,15 +111,11 @@ svg#world{display:block;overflow:visible}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
-/* Portrait plates -- one of the scope note's own "real proposed rules, just
-   not built here yet": a Built & Live world's actual Representative, framed
-   as a roundel set into the page rather than a photo dropped flat, per the
-   project's own Atlas storyboard draft. Same organic-only visibility as .lbl
-   (a face is a reward for zooming in to read a name, not clutter at full
-   extent), and pointer-events:none so the plate never competes with a
-   different, later-painted node for a click -- the existing dot underneath
-   already owns that job. */
-.portrait-plate{display:none;pointer-events:none}
+/* Portrait plates: a Built & Live world's Representative, framed as a roundel
+   above the world's dot. Shown only at organic (zoomed-in) detail, like .lbl.
+   The plate sits inside the node group, so tapping the face opens the world
+   exactly as tapping the dot does. */
+.portrait-plate{display:none;pointer-events:auto;cursor:pointer}
 /* Multiply, not stack: two opaque fills winding into the same space (rule 3 --
    they make room for neighbors, they don't stay in lanes) otherwise means
    whichever river paints last simply erases the other where they cross. Multiply
@@ -211,6 +207,17 @@ svg#world{display:block;overflow:visible}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
+#panel .narration{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:.3rem 0 .8rem}
+#panel .narration audio{display:block;height:1.9rem;max-width:180px;width:180px;flex:0 0 auto}
+#panel .narration-disclosure{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
+  color:var(--ink-faded);margin:0}
+#panel .narration-opts{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem;
+  font-family:"Alegreya Sans",sans-serif;font-size:.78rem;color:var(--ink-faded);margin:.3rem 0 .4rem}
+#panel .narration-opts label{display:inline-flex;align-items:center;gap:.35rem;margin:0}
+#panel .narration-speed{display:inline-flex;align-items:center;gap:.25rem}
+#panel .narration-speed button{font:inherit;color:var(--iron-gall);background:transparent;cursor:pointer;
+  border:1px solid var(--ink-faded);border-radius:3px;min-width:2.5rem;min-height:2rem;padding:0 .35rem}
+#panel .narration-speed button[aria-pressed="true"]{background:var(--tyrian);border-color:var(--tyrian);color:var(--parchment)}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
@@ -252,7 +259,7 @@ svg#world{display:block;overflow:visible}
    built worlds' own fetched Orientation content (#orient-fetch-slot,
    populated by loadBuiltWorldOrientation() from cic-website/assets/
    orientation-render.mjs's shared markup - the same markup
-   tools/generate_tradition_pages.py renders into each world's own static
+   Build/tools/generate_tradition_pages.py renders into each world's own static
    tradition page). Scoped under the #orient-fetch-slot id specifically
    (higher specificity than the .docstories-row/.docstory-item rules just
    above) so it never touches those rules' own effect on the 284 non-built
@@ -409,7 +416,7 @@ const DATA = {
  "meta": {
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
-  "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
+  "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "totalEntries": 292,
   "liveCount": 11,
   "statusCounts": {
@@ -3210,7 +3217,7 @@ const DATA = {
    "shortName": "Latin Pastoral",
    "informalName": "The Latin Pastoral Congregations",
    "dates": "c. 240s-430",
-   "start": 240,
+   "start": 246,
    "end": 430,
    "region": "Carthage, Hippo Regius",
    "regions": [
@@ -15981,8 +15988,8 @@ const DATA = {
    "name": "The Hussite & Bohemian Brethren Movement",
    "shortName": "Hussites",
    "informalName": "The Hussites and the Bohemian Brethren",
-   "dates": "1415-1517",
-   "start": 1415,
+   "dates": "1402-1517",
+   "start": 1402,
    "end": 1517,
    "region": "Bohemia",
    "regions": [
@@ -40269,8 +40276,8 @@ laneKeys.forEach(k=>{if(k!==0&&laneParent[k]==null&&LANE_PARENT_FROM_RECORD[k]!=
 // Four lanes are left with no parent at all -- checked, not skipped, and each
 // stays a plain spring for a different, specific reason its own record gives:
 //  - Latin West (Tertullian's Voice): the record itself calls him "a dropped
-//    voice... where he belongs is an open question for a future pass." No
-//    invented certainty where the project's own record has none.
+//    voice" whose lane is not settled. No invented certainty where the
+//    project's own record has none.
 //  - The Latin/Prot bridge (Taize & Iona): "heirs of monastic lines" (plural,
 //    unspecific) -- real, but not one traceable source to draw a line from.
 //  - Global Revival & Pentecostal (the 1904-07 Revival Family): its record
@@ -40870,6 +40877,11 @@ function render(){
   // movement's halo and every other already-placed portrait.
   const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;
   const portraitOffsetById={}, placedPortraits=[];
+  // Story book marks are drawn above the nodes, so a portrait that lands under
+  // one has its face covered and its click taken by the story. They count as
+  // obstacles like any other dot.
+  const storyMarks=(DATA.stories||[]).map(s=>{const y=yearToY(s.year);return {x:laneCenterX(s.laneOrder,y),y};});
+  const STORY_CLEAR=PORTRAIT_R+4+8;
   DATA.movements.filter(m=>m.status==='Built & Live' && PORTRAIT_DATA[m.id]).forEach(m=>{
     let offset=PORTRAIT_OFFSET, clear=false;
     while(offset<=PORTRAIT_MAX_OFFSET){
@@ -40878,7 +40890,16 @@ function render(){
         Math.hypot(other._x-m._x, other._y-py)>=PORTRAIT_CLEAR);
       const clearOfPortraits=placedPortraits.every(p=>
         Math.hypot(p.x-m._x, p.y-py)>=(PORTRAIT_R+4)*2+5);
-      if(clearOfDots&&clearOfPortraits){clear=true;break;}
+      // The world's name sits under its portrait, so a story mark must clear
+      // that box too, not only the face.
+      const lbX0=m._x+7, lbX1=lbX0+(m.shortName||m.name).length*7;
+      const lbY0=py+PORTRAIT_R+4, lbY1=lbY0+18;
+      const clearOfStories=storyMarks.every(sm=>{
+        if(Math.hypot(sm.x-m._x, sm.y-py)<STORY_CLEAR)return false;
+        const cx=Math.max(lbX0,Math.min(sm.x,lbX1)), cy=Math.max(lbY0,Math.min(sm.y,lbY1));
+        return Math.hypot(sm.x-cx, sm.y-cy)>=8;
+      });
+      if(clearOfDots&&clearOfPortraits&&clearOfStories){clear=true;break;}
       offset+=PORTRAIT_STEP;
     }
     // No tested step ever cleared everything -- an honest cap rather than an
@@ -41182,6 +41203,96 @@ function hideTip(){tip.style.display='none';}
 
 /* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
+/* ---- Narration: starts when a card opens, stops when it closes ---- */
+const NARR_KEY='cic.narration.auto';
+function narrAuto(){try{return localStorage.getItem(NARR_KEY)!=='0';}catch(e){return true;}}
+function narrSetAuto(on){try{localStorage.setItem(NARR_KEY,on?'1':'0');}catch(e){}}
+function stopNarration(){
+  panelBody.querySelectorAll('audio').forEach(a=>{a.pause();try{a.currentTime=0;}catch(e){}});
+}
+function mainNarration(){
+  return [...panelBody.querySelectorAll('audio')].find(a=>!a.closest('details.docstory-item'));
+}
+// Browsers refuse sound that starts without a click (a shared ?world= link,
+// a slow load); the rejection is expected and leaves the play button as is.
+function startNarration(a){
+  if(!a||!narrAuto())return;
+  const p=a.play();
+  if(p&&p.catch)p.catch(()=>{});
+}
+// Which built worlds have narration, read once at load so a world card can draw
+// its story player in the same tap that opens it (see openPanel).
+let worldAudio=null;
+fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).then(j=>{worldAudio=j;}).catch(()=>{worldAudio={};});
+function narrPlayerHTML(url,attrs){
+  return '<div class="narration"'+(attrs||'')+'><audio controls preload="none" src="'+esc(url)+'"></audio>'
+    +'<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>';
+}
+const NARR_RATE_KEY='cic.narration.rate';
+const NARR_RATES=[1,1.25,1.5,2];
+function narrRate(){
+  try{const r=parseFloat(localStorage.getItem(NARR_RATE_KEY));return NARR_RATES.includes(r)?r:1;}catch(e){return 1;}
+}
+function narrApplyRate(a){
+  const r=narrRate();
+  a.defaultPlaybackRate=r; a.playbackRate=r;
+  a.preservesPitch=true; a.webkitPreservesPitch=true;
+}
+function narrAddControls(){
+  const first=panelBody.querySelector('.narration');
+  if(!first||panelBody.querySelector('.narration-opts'))return;
+  const wrap=document.createElement('div');
+  wrap.className='narration-opts';
+  const label=document.createElement('label');
+  const box=document.createElement('input');
+  box.type='checkbox'; box.checked=narrAuto();
+  box.addEventListener('change',()=>narrSetAuto(box.checked));
+  label.appendChild(box); label.appendChild(document.createTextNode('Start narration automatically'));
+  const speed=document.createElement('span');
+  speed.className='narration-speed'; speed.setAttribute('role','group'); speed.setAttribute('aria-label','Narration speed');
+  speed.appendChild(document.createTextNode('Speed'));
+  const buttons=NARR_RATES.map(r=>{
+    const btn=document.createElement('button');
+    btn.type='button'; btn.dataset.rate=String(r); btn.textContent=r+'\u00d7';
+    btn.addEventListener('click',()=>{
+      try{localStorage.setItem(NARR_RATE_KEY,String(r));}catch(e){}
+      panelBody.querySelectorAll('audio').forEach(narrApplyRate);
+      syncButtons();
+    });
+    speed.appendChild(btn);
+    return btn;
+  });
+  function syncButtons(){buttons.forEach(btn=>btn.setAttribute('aria-pressed',String(parseFloat(btn.dataset.rate)===narrRate())));}
+  syncButtons();
+  wrap.appendChild(label); wrap.appendChild(speed);
+  first.parentNode.insertBefore(wrap,first);
+  panelBody.querySelectorAll('audio').forEach(narrApplyRate);
+}function narrCardReady(){narrAddControls();startNarration(mainNarration());}
+// One voice at a time; opening a story inside a card starts it, closing stops it.
+panelBody.addEventListener('play',ev=>{
+  if(!ev.target||ev.target.tagName!=='AUDIO')return;
+  narrApplyRate(ev.target);
+  panelBody.querySelectorAll('audio').forEach(a=>{if(a!==ev.target)a.pause();});
+},true);
+panelBody.addEventListener('loadedmetadata',ev=>{
+  if(ev.target&&ev.target.tagName==='AUDIO')narrApplyRate(ev.target);
+},true);
+// A story opened with its arrow starts inside the click itself: iPhone Safari
+// plays sound only when playback begins in the tap, not a moment later.
+panelBody.addEventListener('click',ev=>{
+  const sum=ev.target.closest&&ev.target.closest('details.docstory-item>summary');
+  if(!sum)return;
+  const d=sum.parentElement, a=d.querySelector('audio');
+  if(!a)return;
+  if(d.open){a.pause();try{a.currentTime=0;}catch(e){}} else startNarration(a);
+},true);
+panelBody.addEventListener('toggle',ev=>{
+  const d=ev.target;
+  if(!d||!d.matches||!d.matches('details.docstory-item'))return;
+  const a=d.querySelector('audio');
+  if(!a)return;
+  if(!d.open){a.pause();try{a.currentTime=0;}catch(e){}}
+},true);
 // Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
 // contract already shipping in atlas-v3.html and index.html -- reused, not
 // reinvented, so a link into this map's worlds lands the same place a link
@@ -41214,7 +41325,7 @@ function sectionSources(list){
 // sourcing) is fetched at panel-open
 // time from cic-website/data/worlds/<census_id>.json (engine.m2.
 // site_compiler's own output, Part 1) and rendered through the exact same
-// functions tools/generate_tradition_pages.py runs (via Node) to build
+// functions Build/tools/generate_tradition_pages.py runs (via Node) to build
 // each world's own static tradition page, so the two surfaces can never
 // quietly drift apart into two independently-maintained templates - see
 // cic-website/assets/orientation-render.mjs, imported as
@@ -41258,18 +41369,25 @@ async function loadBuiltWorldOrientation(censusId){
   try{
     const compiled=await fetchBuiltWorldData(censusId);
     const R=window.OrientationRender||await window.__orientationRenderPromise;
+    const wm=await fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
+    const narr=window.OrientationNarrationUrls?window.OrientationNarrationUrls(wm[censusId],'audio/worlds/'):null;
+    const nopts=narr?{narration:narr}:{};
+    const syncStory=!!document.querySelector('#panel [data-sync-story]');
+    const storyOpts=syncStory&&narr?{narration:{...narr,story:null}}:nopts;
     let h='';
     const o=compiled.orientation||{};
-    if(o.story&&o.story.length)h+='<h3>The Story</h3>'+R.story(compiled);
-    if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId});
+    if(o.story&&o.story.length)h+=(syncStory?'':'<h3>The Story</h3>')+R.story(compiled,storyOpts);
+    if(o.documented_stories&&o.documented_stories.length)h+='<h3>Documented stories</h3>'+R.documented_stories(compiled,{idPrefix:censusId,...nopts});
     if(o.voices&&o.voices.length)h+='<h3>Voices</h3>'+R.voices(compiled);
     if(o.floor_note&&o.floor_note.text)h+='<h3>Doctrinal floor note</h3>'+R.floor_note(compiled);
-    if(o.legacy&&o.legacy.length)h+='<h3>Legacy</h3>'+R.legacy(compiled);
+    if(o.legacy&&o.legacy.length)h+='<h3>Legacy</h3>'+R.legacy(compiled,nopts);
     if(o.relations_summary&&o.relations_summary.text)h+='<h3>In its own record</h3>'+R.relations_summary(compiled);
     if((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length))h+='<h3>Sources</h3>'+R.sourcing(compiled);
     if(!h)h='<p class="meta">No further orientation content recorded for this world yet.</p>';
     slot.innerHTML=h;
     slot.classList.remove('orient-loading');
+    panelBody.querySelectorAll('audio').forEach(narrApplyRate);
+    if(!syncStory&&slot.isConnected&&panel.classList.contains('open'))narrCardReady();
   }catch(err){
     slot.innerHTML='<p class="meta">This world’s fuller record could not be loaded right now. Try reopening this panel.</p>';
     slot.classList.remove('orient-loading');
@@ -41306,9 +41424,19 @@ function openPanel(m){
   // verifiedSources, why below) is unaffected: those fields are never
   // removed from DATA for a built world.
   if(isBuiltWorld){
+    const wa=worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
+    if(wa)h+='<h3>The Story</h3>'+narrPlayerHTML('audio/worlds/'+wa.file,' data-sync-story="1"');
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
   }
-  if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
+  // Narration: every non-built movement's own longDescription is already
+  // synthesized (cic-website/audio/tree/<id>.mp3) - the built worlds' own
+  // narration is deliberately not wired in here yet, since their audio
+  // still narrates the superseded longDescription text rather than their
+  // real, current orientation.story (see tools/generate_tree_narration.mjs).
+  if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'
+    +'<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(m.id)+'.mp3"></audio>'
+    +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
+    +m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
   // stories, and not a restatement of longDescription above) -- a deeper
@@ -41389,7 +41517,7 @@ function openPanel(m){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
     if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   }
-  panelBody.innerHTML=h; showPanel(); hideTip();
+  stopNarration(); panelBody.innerHTML=h; showPanel(); hideTip(); narrCardReady();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   // Built worlds' own documented stories arrive later (loadBuiltWorldOrientation,
   // fetched below) and carry no hover-tooltip teaser of their own - the
@@ -41399,6 +41527,16 @@ function openPanel(m){
   // still-embedded m.documentedStories.
   panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
     const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
+    // Narration exists only for stories listed in the audio manifest.
+    const audioKey=m.id+'-'+item.dataset.storyIdx;
+    docStoryAudioKeys().then(keys=>{
+      const slot=item.querySelector('.docstory h4');
+      if(keys.has(audioKey)&&slot&&!item.querySelector('.narration'))slot.insertAdjacentHTML('afterend',
+        '<div class="narration"><audio controls preload="none" src="audio/docstories/'+esc(audioKey)+'.mp3"></audio>'
+        +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>');
+      const na=item.querySelector('.narration audio');
+      if(na)narrApplyRate(na);
+    });
     summary.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
     summary.addEventListener('mousemove',positionTip);
     summary.addEventListener('mouseleave',hideTip);
@@ -41409,13 +41547,18 @@ function openPanel(m){
   if(isBuiltWorld)loadBuiltWorldOrientation(m.id);
   syncWorldURL(m.id);
 }
+let _docStoryAudioKeys=null;
+function docStoryAudioKeys(){
+  if(!_docStoryAudioKeys)_docStoryAudioKeys=fetch('audio/docstories/manifest.json').then(r=>r.ok?r.json():{}).then(j=>new Set(Object.keys(j))).catch(()=>new Set());
+  return _docStoryAudioKeys;
+}
 function openPanelStory(s){
   hideTip();
   let h=`<h2 id="panelTitle">${esc(s.title)}</h2>
     <p class="meta">${esc(String(s.year))} · ${esc(s.region||'')}</p>
     <span class="statuspill">${esc(s.confidence)} · a story, not a movement</span>`;
   if(s.teaser)h+=`<p class="teaser">${esc(s.teaser)}</p>`;
-  if(s.text)h+=`<h3>The Story</h3><p>${esc(s.text)}</p>`;
+  if(s.text)h+=`<h3>The Story</h3><div class="narration"><audio controls preload="none" src="audio/stories/${esc(s.id)}.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>${esc(s.text)}</p>`;
   if(s.caveat)h+=`<h3>What's solid, what's retold</h3><p>${esc(s.caveat)}</p>`;
   if(hasContent(s.relationsSummary))h+=`<h3>How it connects</h3><p><i>${esc(s.relationsSummary)}</i></p>`;
   const related=(s.relatedIds||[]).map(id=>byId[id]).filter(Boolean);
@@ -41428,7 +41571,8 @@ function openPanelStory(s){
       return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
     }).join('');
   }
-  panelBody.innerHTML=h;
+  stopNarration(); panelBody.innerHTML=h;
+  narrCardReady();
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41437,7 +41581,7 @@ function openPanelStory(s){
 }
 function openPanelEdge(edg,a,b){
   hideTip();
-  panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
+  stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
     <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
     <p>${esc(edg.note)}</p>`;
   showPanel();
@@ -41501,7 +41645,7 @@ function openPanelRiver(f,members){
   h+=`<h3>Movements in this river</h3><ul class="voices">${members.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(m.dates)}</li>`
   ).join('')}</ul>`;
-  panelBody.innerHTML=h;
+  stopNarration(); panelBody.innerHTML=h;
   panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
@@ -41528,6 +41672,7 @@ function showPanel(){
   document.getElementById('panelClose').focus();
 }
 function closePanel(){
+  stopNarration();
   panel.classList.remove('open');
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
@@ -41846,7 +41991,7 @@ centerView();
 </script>
 <!-- Website V2 world_front design, site cutover Part 3: the shared
      renderer both this panel and each built world's own static tradition
-     page (tools/generate_tradition_pages.py, run through Node) render
+     page (Build/tools/generate_tradition_pages.py, run through Node) render
      from - one function per surface, not two independently-maintained
      templates. A module script (not the classic script above) so it can
      `import` a plain ES module with no build step; it only needs to run
@@ -41855,8 +42000,9 @@ centerView();
      DEFINED, so its exact position relative to the classic script above
      does not matter. -->
 <script type="module">
-import { RENDERERS } from './assets/orientation-render.mjs';
+import { RENDERERS, narrationUrls } from './assets/orientation-render.mjs';
 window.OrientationRender = RENDERERS;
+window.OrientationNarrationUrls = narrationUrls;
 if (window.__orientationRenderResolve) window.__orientationRenderResolve(RENDERERS);
 </script>
 </body>

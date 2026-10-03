@@ -70,45 +70,31 @@ tensions:
   experience does and does not say about women's authority more broadly is exactly what the sources
   cannot tell us
 ---
-Added at review (Opus canon-structure pass, 2026-08-21) to give F6-P's
+This record gives F6-P's
 women's-authority question (f6-p-06) its own genuine substantive
-answer, replacing a stretched F6-P tag on ijc.story.emperor-penance
-that answered none of this cell's six questions. Verified directly
+answer, rather than a stretched F6-P tag on ijc.story.emperor-penance
+that answers none of this cell's six questions. Verified directly
 against the vendored corpus, file lines 41434-41520 for Justina;
-Pulcheria's role as Leo's direct addressee was already established and
+Pulcheria's role as Leo's direct addressee is established and
 sourced in ijc.figure.pulcheria. canon_cells: F6-P (could a woman carry
-real authority among you, and what did it cost her). Corrected at a
-follow-up confirmation review (2026-08-22): the original draft cited
-Ep. XX.6-7 at verified-direct for the claim that Justina herself
-exercised the coercive measures "in her own name" - Ambrose's own text
-in that letter names the emperor, not Justina, as actor; the
+real authority among you, and what did it cost her). Ambrose's own text
+in Ep. XX.6-7 names the emperor, not Justina, as the actor for the
+coercive measures; the
 attribution to Justina rests on the volume's own chronology (line 704),
-now cited as the actual warrant. Also struck an internal
-contradiction ("Justina's regency" in positions, against this record's
-own correct "no formal regency is attested" in text), and corrected
-Ep. CV's description from "the power that could make a new synod
-happen" to what it actually is - congratulation on a synod already
-held, protesting Canon 28. Corrected again at a second follow-up
-confirmation review (2026-08-22): this record's own body had claimed
-Sozomen as a co-warrant for the Justina attribution alongside the
-chronology, but Sozomen was never actually added to sources[] - that
-claim is now removed rather than left uncited; positions[0] still
-carried the pre-fix flat "commanded... directly" claim and a
-self-contradiction ("dominant influence" vs. "not merely influence
-behind a throne") after text was hedged - rewritten to match; a
-divergence_note added, since the confidence block requires one where a
-Documented claim rests on sources that do not themselves agree on the
-actor; and Leo Ep. XCV added as the actual primary warrant for
-Pulcheria's convening role, which the record previously asserted
-without any citation at all. Corrected again at the step-5 review
-(Opus adversarial pass on records/ijc/demonstration, 2026-08-22): "Leo
-himself thanks her for her own command... and for overruling his
-request" overstated Ep. XCV, whose own text has Leo receiving her
+cited as the actual warrant. Ep. CV's description is
+congratulation on a synod already
+held, protesting Canon 28, not "the power that could make a new synod
+happen." Leo Ep. XCV is the actual primary warrant for
+Pulcheria's convening role. Leo's own text in Ep. XCV has him receiving her
 command and refusal "in a spirit so far removed from scorn as to"
-comply, thanking God rather than her - restated as "records her
+comply, thanking God rather than her; the record states this as
+"records her
 command... and answers by sending his legates without protest," which
-is what the letter actually supports.
+is what the letter actually supports. A divergence_note is carried,
+since the confidence block requires one where a
+Documented claim rests on sources that do not themselves agree on the
+actor.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

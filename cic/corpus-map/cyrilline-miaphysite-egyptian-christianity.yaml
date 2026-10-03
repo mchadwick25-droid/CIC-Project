@@ -3,7 +3,22 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrilline-miaphysite-egyptian-christianity
 works:
-- work: The History of Joseph the Carpenter
+- row_id: evagrius-scholasticus_ecclesiastical-history_walford1846--the-ecclesiastical-history-of-evagrius-a-d-431-594-2
+  work: The Ecclesiastical History of Evagrius (A.D. 431-594)
+  author: evagrius-scholasticus
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'A Chalcedonian outsider''s account of Dioscorus, Alexandria''s deposed miaphysite
+    patriarch (confirmed present, raw-scan line ~1723) - Evagrius (b. c. 536) is a later historian
+    writing decades after Dioscorus''s 451 deposition, not a contemporary. Per README''s own
+    definition, "the view from outside: a pagan critic, a civil historian, or a contemporary
+    opponent," not this entry''s own voice.
+
+    '
+  source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+- row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--the-history-of-joseph-the-carpenter-2
+  work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   role: transmission
@@ -17,7 +32,33 @@ works:
     class is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church is
     why we have it, which is custody rather than a date guess.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Divine Liturgy of Mark
+- row_id: john-nikiu_chronicle_charles1916--the-chronicle-of-john-bishop-of-nikiu
+  work: The Chronicle of John, Bishop of Nikiu
+  author: john-nikiu
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'A Coptic (miaphysite) chronicle running through the Arab conquest of Egypt (639-642),
+    squarely inside this atlas entry''s own window (451-642). "Chapter CXXI...Abba Benjamin"
+    confirmed present in this file.
+
+    '
+  source_file: john-nikiu_chronicle_charles1916.txt
+- row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-mark
+  work: Liturgy of S. Mark
+  author: liturgy-of-st-mark
+  locus: file lines about 2259-3050
+  role: context
+  confidence: needs-ruling
+  note: 'The Alexandrian rite in Neale''s English. Placed with the Egyptian entry on the guess
+    that the Greek Liturgy of Mark belongs to Alexandria''s church, but the rite''s date (its
+    written form is later than the era that entry covers) has not been checked against that
+    entry''s window, so it is flagged, not forced.
+
+    '
+  source_file: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt
+- row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-divine-liturgy-of-mark
+  work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark
   locus: div2 12.3
   role: tradition
@@ -33,3 +74,16 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904--history-of-the-patriarchs-of-the-coptic-church-of-alexandria
+  work: History of the Patriarchs of the Coptic Church of Alexandria
+  author: severus-al-muqaffa
+  locus: whole file, esp. the Benjamin I entry
+  role: tradition
+  confidence: assigned
+  note: 'Benjamin I, 38th Patriarch (r. 626-665 CE), confirmed present. His reign spans the
+    Arab conquest of Egypt (639-642), the exact boundary between these two atlas entries (451-642
+    and 642-1013 respectively) - assigned to both rather than one alone, since the same entry''s
+    material speaks to the church on both sides of that political change.
+
+    '
+  source_file: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt

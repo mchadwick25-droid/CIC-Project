@@ -34,13 +34,13 @@
 # AWS_SESSION_TOKEN if the identity uses temporary credentials).
 # PHASE-1-LAUNCH.md Stage 3's own caution still holds: cic-bedrock-dev is
 # a DEV identity - production wants its own, scoped to Bedrock invoke on
-# the models actually used. CIC_API_VOICE_MODEL_PATTERN is still left at
-# its code default; CIC_API_SAFETY_MODEL_PATTERN is pinned below (Stage
-# 0d, Build-Plan.md) to the exact profile id the safety battery was last
-# tallied against, not the loose pattern.
+# the models actually used. CIC_API_VOICE_MODEL_PATTERN and
+# CIC_API_SAFETY_MODEL_PATTERN are both pinned below to exact profile ids:
+# the voice to the one the standing-measure baseline was measured on, the
+# safety model to the one the safety battery was last tallied against.
 #
 # TWO SERVICES, one blueprint, D3's promotion model (Repo Structure
-# Cleanup phase 3, 2026-09-15 - Ministry/Operations/Standing/
+# Cleanup phase 3, 2026-09-15 - Build/Ministry/Operations/Standing/
 # CiC_Repo_Structure_Tracking.md). `main` is the integration sandbox;
 # `live` is the protected branch production actually deploys from,
 # advanced only by a deliberate, logged promotion (a reviewed PR from
@@ -61,7 +61,7 @@
 # same account cic-website already uses - CIC_API_PACKAGE_BUCKET/
 # _ENDPOINT/_ACCESS_KEY_ID/_SECRET_ACCESS_KEY are all sync: false, unset
 # until Mark completes the one-time R2 setup in
-# Ministry/Operations/Standing/CiC_Object_Storage_Runbook.md. Until then
+# Build/Ministry/Operations/Standing/CiC_Object_Storage_Runbook.md. Until then
 # CIC_API_PACKAGE_BUCKET stays empty and every world loads exactly as it
 # always did, straight off this image's own baked-in packages/ - object
 # storage is a fallback for a world installed since the last deploy, not
@@ -88,7 +88,7 @@
 # retention converts data LOSS into unbounded GROWTH.
 #
 # Backups (Tech-Readiness Package 2, 2026-09-21 -
-# Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md). The disk
+# Build/Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md). The disk
 # above is the only copy of events.db/usage.db until this is set up - a
 # 1GB Render Disk is not itself a backup target (it IS the primary; a
 # backup that lives beside what it backs up protects against nothing).
@@ -137,6 +137,11 @@ services:
       # (engine/api/README.md has the full rationale).
       - key: CIC_API_SAFETY_MODEL_PATTERN
         value: us.anthropic.claude-haiku-4-5-20251001-v1:0
+      # The exact voice profile the standing-measure baseline band was
+      # measured on (engine/m7/band/). A voice model change is admitted
+      # only through a run inside that band; repin alongside one.
+      - key: CIC_API_VOICE_MODEL_PATTERN
+        value: us.anthropic.claude-sonnet-4-5-20250929-v1:0
       # THE ADMISSION GATE - ON. The doors were opened by Mark, 2026-08-28,
       # in session ("open the doors, flip the switch"), the same day he
       # admitted all six worlds ("yes i admit all six worlds") on the
@@ -150,6 +155,8 @@ services:
       # its own registry comment always required.
       - key: CIC_ENFORCE_ADMISSION
         value: "1"
+      - key: CIC_SELF_REVISION
+        value: "0"
       - key: AWS_ACCESS_KEY_ID
         sync: false
       - key: AWS_SECRET_ACCESS_KEY
@@ -162,16 +169,16 @@ services:
       - key: CIC_API_ADMIN_TOKEN
         sync: false
       # Anonymous per-visitor daily cap (Tech-Readiness P1-Security item 3,
-      # 2026-09-21 - engine/api/anon_cap.py). Declared here, explicitly
-      # off, rather than left unset entirely: this is the escalation this
-      # package raised (mechanism/numbers proposed, not yet decided by
-      # Mark - see that package's Report.md), so the switch should have a
-      # visible, reviewable home in config-as-code once he decides, not a
-      # dashboard-only toggle nobody else can see the state of. Flipping
-      # to "1" also requires setting CIC_API_ANON_VISITOR_SECRET below (any
-      # random string) - the app refuses to start otherwise.
+      # 2026-09-21 - engine/api/anon_cap.py). ON (Mark, 2026-09-28, usage-
+      # dashboard scoping doc): this now does two jobs at once - the daily
+      # abuse cap it was originally built for, and issuing the persisted
+      # visitor cookie the usage dashboard's unique-visitor count depends
+      # on (engine.api.wiring.get_usage_summary). Turning it on requires
+      # CIC_API_ANON_VISITOR_SECRET (below) to actually be set in the
+      # Render dashboard before this deploys - unset, the app refuses to
+      # start (MissingAnonCapSecret), it does not silently run uncapped.
       - key: CIC_API_ANON_CAP_ENABLED
-        value: "0"
+        value: "1"
       - key: CIC_API_ANON_VISITOR_SECRET
         sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR
@@ -227,12 +234,29 @@ services:
         value: /data/cic_api_usage.db
       - key: CIC_ENFORCE_ADMISSION
         value: "0"
+      - key: CIC_SELF_REVISION
+        value: "0"
+      # Reply streaming (engine/api/README.md, Streaming): staging only,
+      # cic-engine (prod) does not set this.
+      - key: CIC_API_STREAMING
+        value: "1"
+      # Read-aloud step 1/2 (Build/Ministry/Technology/CiC_ReadAloud_Step1_
+      # Design_Note.md), staging only, for a real-browser listen-through - cic-engine
+      # (prod) does not set this. Free browser speechSynthesis, no new
+      # backend, no recurring cost either way.
+      - key: VITE_READ_ALOUD
+        value: "on"
       # Same pin, same reason, as cic-engine's own CIC_API_SAFETY_MODEL_
       # PATTERN comment above (Stage 0d, Build-Plan.md) - staging validates
       # against the same tallied model production runs, not a floating
       # pattern that could quietly diverge from it.
       - key: CIC_API_SAFETY_MODEL_PATTERN
         value: us.anthropic.claude-haiku-4-5-20251001-v1:0
+      # The exact voice profile the standing-measure baseline band was
+      # measured on (engine/m7/band/). A voice model change is admitted
+      # only through a run inside that band; repin alongside one.
+      - key: CIC_API_VOICE_MODEL_PATTERN
+        value: us.anthropic.claude-sonnet-4-5-20250929-v1:0
       # Own credentials, own scope - never the prod keys pointed at a
       # second service. PHASE-1-LAUNCH.md Stage 3's caution (a DEV
       # identity is not a production one) runs the other direction here:
@@ -247,7 +271,7 @@ services:
         sync: false
       # Same feature, own secret - see cic-engine's own comment above.
       - key: CIC_API_ANON_CAP_ENABLED
-        value: "0"
+        value: "1"
       - key: CIC_API_ANON_VISITOR_SECRET
         sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR

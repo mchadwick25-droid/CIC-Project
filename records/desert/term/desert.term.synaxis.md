@@ -60,42 +60,20 @@ Strand attribution fenced both ways (Strand C's name; Strand B's
 different rhythm). Liturgical-content thinness (Doc_02 SS4/SS9)
 carried in the evidential sense.
 
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop "vendored, directly-checked" in favor of in-world evidence talk.
+The evidential sense names the three settlements (Nitria, Kellia,
+Scetis) directly rather than this build's own lettered taxonomy. The
+informational sense names "the priests who served it," matching what
+Palladius actually names - eight priests, an office - and the
+evidential sense's own "eight priests" already on record.
 
-Step3a Review Round 4, Finding S1: the evidential sense's "the Strand
-C settlements" used this build's own lettered taxonomy with no legend
-in the field - reworded to name the three settlements directly.
-
-Step3a Review Round 5, Finding C6: the informational sense's "resident
-elders" substituted for what Palladius actually names - eight priests,
-an office - cutting against this lexicon's own office-vs-elder-
-authority distinction maintained elsewhere (geron-abba-amma, koinonia).
-Corrected to "the priests who served it," matching the evidential
-sense's own "eight priests" already on record.
-
-SUPPLEMENTAL SOURCE REVIEW (2026-09-09, this build's own new addition,
-not a Doc_02 finding): desert.source.cassian-institutes was already
-vendored and compiled for this world but only Book IV (the fear-of-the-
-Lord ladder) had been drawn on; Books II-III, the actual canonical-
-psalmody content, sat unused despite Doc_02 SS4 naming exactly this gap
-("what was actually prayed, beyond the Psalter and the Lord's Prayer").
-Added Institutes II.5 and II.18 as sources, with two new illustrating
-quote records. Deliberately did NOT upgrade formation_confidence or
-citation_specificity on the strength of this addition: Cassian is one
-later, Gaul-facing, systematizing voice claiming pan-Egyptian
-uniformity, not a second Nitria/Kellia/Scetis eyewitness the way
-Palladius is - the thinness this world names is about content, which
-this addition genuinely deepens, not about strand-specific attestation,
-which it does not resolve.
-
-ROUND-2 ADDITION (2026-09-09, after independent adversarial review):
-the review found a better, more directly on-point passage one chapter
-away from II.5 - Institutes II.10, where Cassian himself names and
-glosses the word "synaxes." Added as desert.quote.so-perfectly-silent.
-The review also flagged, as a separate and not-yet-acted-on finding,
-that other already-vendored desert sources with a stated purpose
-(desert.source.jerome-de-viris, desert.source.jerome-letter-22,
-desert.source.athanasius-festal-letters) sit uncited by any record
-their own discovery_channel names them for - outside this term's own
-scope, logged in this world's own decision log rather than chased here.
+desert.source.cassian-institutes's Books II-III, the canonical-psalmody
+content, are drawn on here (Institutes II.5, II.10, II.18), closing the
+gap Doc_02 SS4 names ("what was actually prayed, beyond the Psalter and
+the Lord's Prayer") - alongside two illustrating quote records,
+including desert.quote.so-perfectly-silent (Institutes II.10, where
+Cassian himself names and glosses the word "synaxes"). This addition
+deepens the content this world can show but does not resolve
+strand-specific attestation: Cassian is one later, Gaul-facing,
+systematizing voice claiming pan-Egyptian uniformity, not a second
+Nitria/Kellia/Scetis eyewitness the way Palladius is, so
+formation_confidence and citation_specificity are unchanged by it.

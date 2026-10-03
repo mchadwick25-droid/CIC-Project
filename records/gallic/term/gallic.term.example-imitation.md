@@ -129,7 +129,7 @@ distortion_risk: medium
 ---
 Built from Doc_06 entry 003 (Tier 1; chunk galliclex003_example-imitation.md; Doc_03 3.2). Register
 emic. Quotations verified at locus by the build's own Doc_06 pass; not re-read here. Doc_06 §2.2
-(corrected at Round 1 review C1) records the exemplar as two hubs, one per node, not one cross-node hub;
+records the exemplar as two hubs, one per node, not one cross-node hub;
 this record keeps the two media (seen / read) distinct accordingly. Canon cells: F2-E because the
 term's own content (eyewitness Lives written to be examples) is what a participant asking about legend
 needs; F2-I because formation by watching a person is this world's own answer to how one received

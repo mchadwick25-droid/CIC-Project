@@ -37,8 +37,8 @@ concedes: Jacob's episcopate from c. 309, his presence at Nicaea in 325, and his
   date is to be silently adopted.
 divergence_partners: []
 ---
-Carried from Doc_01 SS2/SS10 and Doc_02 SS11 (still open; a closer
-critical-edition pass on Theodoret's Historia Religiosa was named as
-the path to resolution if the date ever becomes load-bearing).
-canon_cells EMPTY: a dating question with no participant-facing cell;
-the figure and story records carry the honest hedge.
+This date stays genuinely open (a closer critical-edition pass on
+Theodoret's Historia Religiosa is the path to resolution if it ever
+becomes load-bearing). canon_cells is empty: a dating question with no
+participant-facing cell; the figure and story records carry the honest
+hedge.

@@ -56,7 +56,7 @@ relations:
 - type: associated-with
   target: desert.quote.monks-like-hyenas
 ---
-Verified verbatim 2026-08-27 against the vendored file, Part II, pp.
+Verified verbatim against the vendored file, Part II, pp.
 684-685.
 
 This is the horarium at its most concrete, and it earns its place here

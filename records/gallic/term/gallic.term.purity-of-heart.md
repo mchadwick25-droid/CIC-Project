@@ -17,7 +17,7 @@ confidence:
     lexicon - and framed by Cassian himself as Abbot Moses's teaching received from Egypt; Doc_04 rates
     the attribution of this content to Gaul as Inferential, resting only on Gallic monks having been
     formed by it. The bare lemma puritas occurs once in Hilary of Arles's own Latin in a non-technical
-    phrase of praise for Honoratus (corrected at Round 1 review S2). Tours has the thing without the
+    phrase of praise for Honoratus. Tours has the thing without the
     word. Conferences XII "On Chastity" is excised from the vendored edition - a gap inside this term's
     own content, stated rather than filled.
 sources:
@@ -150,8 +150,8 @@ quick_meaning: >-
 distortion_risk: high
 ---
 Built from Doc_06 entry 006 (Tier 1; chunk galliclex006_purity-of-heart.md; Doc_03 4.1). Register
-emic. Quotations verified at locus by the build's own Doc_06 pass, including the Round 1 S2 correction on
-puritas in Hilary of Arles; not re-read here. The cross-world containment line runs directly through
+emic. Quotations verified at locus by the build's own Doc_06 pass, including puritas
+in Hilary of Arles; not re-read here. The cross-world containment line runs directly through
 this term and is carried in senses.personal ("what the fathers handed down and Cassian brought to us").
 Two of the sources[] entries are absence/presence witnesses rather than usage attestations (the excised
 Conf. XII; the Hilary lemma) and are labeled as such in their loci. Canon cell F4-P assigned because

@@ -43,9 +43,5 @@ Re-derived from Doc_06 SS2.1 (Tier 2; tags AS DR PV). Serves the
 F5-P distance question as material the voice can witness FROM - the
 world's own experience of chosen distance - not as advice.
 
-Step3a Review Round 3, Finding J2: the evidential sense's "the
-compiler screen... applies here as everywhere" used this build's own
-source-criticism label and generalized across the record set (the
-same move as an earlier "this corpus" instance) - reworded to state
-the compiler-mediation fact in plain terms, matching how apophthegma's
-own evidential sense states it.
+The evidential sense states the compiler-mediation fact in plain terms,
+matching how apophthegma's own evidential sense states it.

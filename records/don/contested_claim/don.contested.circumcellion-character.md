@@ -56,8 +56,7 @@ concedes: 'The group''s bare existence, and the imperial state''s own targeted c
   specifically, and does not resolve, narrow, or take any position on the separately-reserved Constitution
   Article 23 question about them (whether the movement''s own petition material naming them ''leaders
   of the saints'' constitutes deployable mediation through a figure of contested standing) -- that question
-  remains reserved for the project lead, per don_Decision_Log.md''s Phase Five Round 2 entry, untouched
-  by this record in either direction.**'
+  remains reserved, untouched by this record in either direction.**'
 divergence_partners:
 - don.source.codex-theodosianus-book-16
 - don.source.optatus-against-donatists

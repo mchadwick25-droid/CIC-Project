@@ -55,6 +55,6 @@ note: 'NO LIVE EQUIVALENT OF THE RETIRED BACKEND''S B-1b MECHANISM EXISTS. Confi
   the primary route); the two Latin critical second-witness editions and the Possidius scope question
   this sweep itself raises. None of these blocks this world''s own construction sequence, which the standing
   ''vendor now, integrate later in one batched pass'' discipline (used successfully for G1-G7 and for
-  the 2026-09-07 Doc_02 revision) already covers.'
+  the Doc_02 revision) already covers.'
 ---
 This record is this sweep's own instrument for the intent B-1a/B-1b together name: row every genuine miss, declare every non-row with a reason, and say plainly where saturation genuinely stands -- done here via the schema and gate battery the live system actually provides (search_record + gate_completion_per_type), not via the retired backend's own ten-item-test artifact format, which this record does not attempt to reproduce.

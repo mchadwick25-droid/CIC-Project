@@ -1,0 +1,21 @@
+source_file: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt
+
+assignments:
+  - row_id: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90--relatio-motionis-and-disputatio-bizyae
+    work: "Relatio Motionis and Disputatio Bizyae"
+    author: maximus-confessor
+    locus: "whole file"
+    atlas_ids:
+      - byzantine-imperial-church-heraclian-iconoclast
+    role: context
+    confidence: assigned
+    note: >
+      The record of Maximus's own 655 trial and 656 dispute at Bizya -
+      confirmed present verbatim by its own Latin title phrase. Judged
+      against README's own definitions: this text was compiled and
+      circulated by Maximus's own dissident circle to record his
+      resistance to Monothelitism, not produced by the Heraclian
+      imperial church that prosecuted him - a contemporary opponent's
+      account of that church, matching "context," not this entry's own
+      voice, even though the imperial officials' own words are quoted
+      within the dialogue.

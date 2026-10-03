@@ -57,4 +57,4 @@ gaps. Grounds the same territory ijc.force.transmission-archival and
 ijc.contested.damasine-decretals cover at the mechanism level, here in
 answer-ground form.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.

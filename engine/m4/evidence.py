@@ -1,5 +1,5 @@
-"""Evidence assembly - Live-Generation Design §3 (LIVE-GENERATION-DESIGN.md,
-forks signed off §9.5, 2026-08-22): Stages A, B, D, E. Stage C is
+"""Evidence assembly - Live-Generation Design §3 (LIVE-GENERATION-DESIGN.md
+§9.5): Stages A, B, D, E. Stage C is
 grounding_net.scope_completion, imported here rather than reimplemented -
 one tension-walk, owned once, same discipline as the m1/m4 grounding split.
 
@@ -57,7 +57,7 @@ __all__ = [
     "degradation_statement",
 ]
 
-# Fork 2 (LIVE-GENERATION-DESIGN.md §9.5: RULED, in-voice honest-limit
+# Fork 2 (LIVE-GENERATION-DESIGN.md §9.5: in-voice honest-limit
 # statement, code-appended) - same "appended by CODE, never recalled by a
 # model" precedent as engine.m4.crisis_resources.ACUTE_DISTRESS_RESOURCES,
 # for the one case that precedent doesn't cover: no cell matched this turn
@@ -103,7 +103,7 @@ def degradation_statement(turn_evidence: dict) -> str:
 _MIN_ASK_MATCH_WORDS = 2
 
 # ...but a query cannot be asked to share more words than it has.
-# Measured 2026-08-27 on the 60-question reach benchmark: of nine
+# Measured on the 60-question reach benchmark: of nine
 # questions returning an entirely empty ground, four shared exactly one
 # word with exactly the right cell and were discarded before scoring.
 # desert's "What did you do all day?" has ONE content word, `day`, and
@@ -198,8 +198,8 @@ def _tier_prior(record: dict) -> float:
     return _TIER_PRIOR.get(tier, 0.0)
 
 
-# R11's redirect half (Rulings-Pending.md; Decision-Log.md Entries 21-25):
-# "prefer_instead demotes, never excludes" (Build-Plan.md Stage 4a). Each
+# The prefer_instead redirect rule: "prefer_instead demotes, never
+# excludes" (Build-Plan.md Stage 4a). Each
 # note is free text - a condition ("participant asks X") plus its own
 # " - retrieve <id>" redirect - authored for a human reader, not a
 # machine-parseable rule, so this asks the identical word-overlap question
@@ -265,13 +265,26 @@ def _head_text(record: dict) -> str:
     if record_type == "term":
         return record.get("plain_meaning") or ""
     if record_type == "story":
-        return record.get("tellable_as") or record.get("text") or ""
+        tellable = record.get("tellable_as")
+        if not tellable:
+            raise ValueError(f"{record.get('id')}: story has no tellable_as - "
+                             f"refusing to fall back to text, which is never voiced")
+        return tellable
     if record_type in ("quote",):
-        # The speakable form: the build-authored modern_rendering where one
-        # exists (archaic quotes are translated
-        # in the build, never improvised live), the original otherwise. The
-        # original stays reachable to the net via all_text either way.
-        return record.get("modern_rendering") or record.get("text") or ""
+        # The speakable form is ALWAYS modern_rendering, never `text` - a
+        # non-English or archaic original is primary evidence (the library
+        # ruling that original-language sources can be primary evidence),
+        # with modern_rendering as its own translation; `text` itself is
+        # never voiced. gate_quote_recording (engine/m1/gates.py) requires
+        # every quote record to carry modern_rendering, so this should be
+        # unreachable in practice - fail loudly rather than silently speak
+        # the original if that invariant is ever broken. The original stays
+        # reachable to the net via all_text either way.
+        rendering = record.get("modern_rendering")
+        if not rendering:
+            raise ValueError(f"{record.get('id')}: quote has no modern_rendering - "
+                             f"refusing to fall back to text, which is never voiced")
+        return rendering
     if record_type == "doctrinal_witness":
         return record.get("text") or "; ".join(record.get("positions") or [])
     if record_type == "honest_limit":
@@ -400,8 +413,8 @@ def _stems(words: set[str]) -> set[str]:
 
 # THE CELL SCORER'S WEIGHTING. Stage A used to score a cell as
 # len(shared) / min(len(query), len(cell_vocabulary)) - an overlap
-# coefficient in which every shared word counts the same. Measured
-# 2026-08-27, that is what let a broad cell beat the right one:
+# coefficient in which every shared word counts the same. Measured: that is
+# what let a broad cell beat the right one:
 # "Does God ever feel like anything, or is it only believed?" went to F6-P
 # (the hard places) on `ever`, `god`, `like`, and nothing living in F1-P
 # could be reached afterwards, because only the top-scoring cells survive
@@ -572,7 +585,7 @@ def match_asks_to_cells(
     return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
 
 
-# Entity routing (added 2026-08-27 on a measured failure - see
+# Entity routing (added on a measured failure - see
 # engine.m1.canon.entity_cells for the failing turn). Every tier above
 # compares content words and weighs a proper noun no more heavily than any
 # other word, so naming a figure did nothing.
@@ -732,9 +745,9 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     coverage entry had no candidates of that type at all and Stage B2
     filled the slot instead (see the comment on _retrieval_fill_scores) -
     absent, not False, on every ordinary coverage-seeded entry. An entry
-    also carries "claim_guards": [...] when the record has any - R11's
-    guard half (Rulings-Pending.md), rendered as a rider on this exact
-    candidate's own line by render_evidence_block, not a separate section
+    also carries "claim_guards": [...] when the record has any - the
+    prefer_instead redirect rule's guard half, rendered as a rider on this
+    exact candidate's own line by render_evidence_block, not a separate section
     - absent, not an empty list, on every record with none."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
@@ -849,7 +862,7 @@ def apply_session_exclusion(*, selected: list[dict], already_told_ids: set[str] 
 
 
 # RETRIEVAL HAS NO MEMORY OF ITS OWN, AND THE MODEL DOES. Found by a live
-# turn on 2026-08-27, not by inspection. Asked "You've given me two
+# turn, not by inspection. Asked "You've given me two
 # different pictures there. Did your own people disagree about this?", the
 # voice answered at length, and well, about whether women could be elders -
 # a question nobody had asked. The conversation was in the prompt and
@@ -1077,7 +1090,7 @@ def render_evidence_block(evidence: dict) -> str:
     the citation-tag grammar (§4.1, [[<record.id>]]) uses - this block and
     the model's own tags share one id vocabulary by construction.
 
-    AVAILABLE IS NOT THE SAME AS ALREADY SAID, and until 2026-08-27 only
+    AVAILABLE IS NOT THE SAME AS ALREADY SAID, and previously only
     one of the two channels said which it was. A six-turn live run on
     desert answered a question about women by opening "Sarah, whose words
     we already gave you" - and the two turns before it were about Jesus.
@@ -1137,7 +1150,8 @@ def render_evidence_block(evidence: dict) -> str:
         line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
         guards = candidate.get("claim_guards")
         if guards:
-            # R11's guard half, rendered as a rider on this exact
+            # The prefer_instead redirect rule's guard half, rendered as a
+            # rider on this exact
             # candidate's own line (Adjusted-Design.md: "Guards render as
             # a rider on the candidate line inside the existing evidence
             # budget - upstream prevention, the mechanism that actually

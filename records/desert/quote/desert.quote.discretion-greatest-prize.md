@@ -46,7 +46,7 @@ retrieval:
 relations:
 - {type: illustrates, target: desert.gravity.diakrisis}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf211 line
+Verified verbatim against the vendored file at npnf211 line
 27181; one continuous passage, unaltered, ending at the chapter break.
 
 THIS RE-GROUNDS A GRAVITY FROM UNREADABLE TO VERBATIM.

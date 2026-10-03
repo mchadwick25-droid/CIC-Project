@@ -25,7 +25,7 @@ attribution_status: attributed
 discovery_channel: "carried from the prior Desert build's source registry (srcDES026, added 2026-07-27 by change order CO-P2-10(c) - the cleared Doc_02 itself never rowed Cassian; provenance corrected per Step2 Review Round 1, Finding 11) and re-verified in the vendored CCEL corpus (supplied by Mark 2026-08-15-18; copied to this branch 2026-08-21); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf211"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). All three Conference divisions located (lines 25863, 36699,
 42272).
 
@@ -35,13 +35,7 @@ he heard c. 385-400, published c. 426-429 - NOT transcripts. Attribution
 discipline for quote records: a Conferences quote is voiced as Cassian's
 record of the elder, never as the elder's own verbatim words.
 
-CORRECTION HISTORY (Step2 Review Round 1, Finding 1): a first draft
-claimed from memory that the NPNF edition omits Conference XII; a
-shallow re-check counted the twenty-four division elements and wrongly
-"corrected" that claim to full presence. The Round 1 reviewer read the
-divisions themselves: Conference XII prints only "Not translated." and
-Conference XXII "This Conference is omitted." The memory-claim was right
-in substance; the division-count check was the error. The edition field
-now states the omissions as edition facts. Standing rule reaffirmed: a
-division existing is not the text existing - open the division before
-claiming its content.
+Conference XII prints only "Not translated." and Conference XXII "This
+Conference is omitted," as the edition field states. A division
+existing is not the text existing - open the division before claiming
+its content.

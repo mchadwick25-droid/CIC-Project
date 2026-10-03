@@ -15,8 +15,8 @@ orientation:
     text: "This is a synthetic fixture world, built only to exercise the gate battery, the M2 compiler, and the admission harness - never a real formation world."
     grounded_in: [fix.core.fixture-world]
 ---
-Website V2 world_front design (approved to proceed 2026-09-19): a real,
-schema-valid world_front example living in the fixture world, quoting
+A Website V2 world_front design: a real, schema-valid world_front example
+living in the fixture world, quoting
 fix.quote.identity-collision-saying's own modern_rendering field
 correctly (gate_quote_mark_fidelity, engine/m1/gates.py, passes it
 cleanly - proven directly by engine/m1/tests/test_world_front_gates.py,

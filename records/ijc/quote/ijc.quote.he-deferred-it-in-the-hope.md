@@ -42,5 +42,5 @@ relations:
 - type: associated-with
   target: ijc.dw.baptism-threshold
 ---
-Opened 2026-08-27 for F4-T, served by ijc.dw.baptism-threshold alone, which cites this locus and
+Opened for F4-T, served by ijc.dw.baptism-threshold alone, which cites this locus and
 could not show it. Verified by reading at the file line the record itself names.

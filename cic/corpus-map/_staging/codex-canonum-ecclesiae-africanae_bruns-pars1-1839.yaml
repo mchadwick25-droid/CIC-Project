@@ -4,7 +4,8 @@
 source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
 
 assignments:
-  - work: "The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council of Carthage, 419)"
+  - row_id: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--the-code-of-canons-of-the-african-church-codex-canonum
+    work: "The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council of Carthage, 419)"
     author: council-of-carthage-419
     locus: "pp. 155-202 of the printed volume (this file's own header gives the exact line range); the surrounding conciliar material in the same scanned volume (Carthage I-IV, the Breviarium Hipponense, a Toledo conciliar collection) is present in the file but not separately catalogued as distinct census works, per this Registry's own large-multi-part-body convention"
     atlas_ids:
@@ -16,7 +17,8 @@ assignments:
       translation (Registry row 26) -- this world's own institutional
       skeleton for its conciliar life, including the Apiarius affair.
 
-  - work: "The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council of Carthage, 419)"
+  - row_id: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--the-code-of-canons-of-the-african-church-codex-canonum-2
+    work: "The Code of Canons of the African Church (Codex Canonum Ecclesiae Africanae, Council of Carthage, 419)"
     author: council-of-carthage-419
     locus: "pp. 155-202 of the printed volume"
     atlas_ids:

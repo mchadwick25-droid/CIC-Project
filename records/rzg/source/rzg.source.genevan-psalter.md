@@ -11,9 +11,7 @@ confidence:
   verification_state: unverified
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: This world's own Author Gravity Assessment (Doc_02 SS2) currently characterizes this
-    text from the census's own descriptive note and general knowledge only - no vendored text backs any
-    specific quotation from it (Source_Acquisition_Manifest.md G2).
+  divergence_note: 'The complete 1562 Psalter (French) is vendored as `marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt`.'
 sources: []
 relations: []
 author: Clement Marot and Theodore Beza (versification); various (tunes)

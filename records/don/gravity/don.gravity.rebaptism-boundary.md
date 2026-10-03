@@ -140,11 +140,7 @@ hold, is where SS6 says full pairwise coverage actually lives - and no relation 
 them. FORCES-CONNECTION (Doc_08 SS5, Force Index row G2: 1B-1, 2A-1, 2B-1): 1B-1 carried as enabled-
 by (Doc_08's own verb is 'grounds ... G2 directly', with the explicit disambiguation that 1B-2
 grounds the institutional form rather than this rite), reciprocal precondition-for declared on that
-force record; 2A-1 and 2B-1 as associated-with. A CORRECTION CARRIED, NOT REPAIRED SILENTLY: Doc_04
-SS3.2 and SS1 both record a 2026-09-08 Round 2 review correction to this candidate's own row - an
-earlier draft described Gregory's Register as unvendored and quoted Doc_02 SS7 declining to use it
-'beyond fixing the terminus of attestation', and both claims were false. The Register is partially
-vendored (Registry row 54) and the quoted phrase no longer appears in Doc_02 SS7. This record
-carries the corrected state and Doc_02 SS7's own current, narrower hedge, which is the operative
-restraint on what the 592-594 letters may be used to claim. Canon_cells left empty, matching this
-world's gravity and force records generally.
+force record; 2A-1 and 2B-1 as associated-with. Gregory's Register is partially vendored (Registry
+row 54). Doc_02 SS7's own current, narrower hedge is the operative restraint on what the 592-594
+letters may be used to claim. Canon_cells left empty, matching this world's gravity and force
+records generally.

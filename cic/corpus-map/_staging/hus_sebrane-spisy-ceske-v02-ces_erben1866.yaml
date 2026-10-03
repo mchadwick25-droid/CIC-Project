@@ -1,0 +1,16 @@
+source_file: hus_sebrane-spisy-ceske-v02-ces_erben1866.txt
+assignments:
+- row_id: hus_sebrane-spisy-ceske-v02-ces_erben1866--mistra-jana-husi-sebrane-spisy-ceske-vol-2-hus-s-czech
+  work: 'Mistra Jana Husi Sebrané spisy české, vol. 2: Hus''s Czech Postilla, from the manuscript of 1414'
+  author: hus
+  locus: whole volume - volume 2 of 3
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: assigned
+  note: Hus's Czech Postilla, from the manuscript of 1414, in Czech, in a critical edition from the oldest
+    known sources. These are Hus's own Czech pastoral works, which the vendored English letters and De
+    Ecclesia do not reach. Primary original evidence for the movement in Czech, quotable once each wording
+    is checked against the page image. The Czech reads clearly with its diacritics in the sample; the
+    1865-68 orthography is the old one (for example sé, viery, pravé), and the OCR misreads some letters
+    of the marginal scripture citations.

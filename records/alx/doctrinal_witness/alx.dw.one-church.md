@@ -42,10 +42,9 @@ text: >-
   baptism, one bread, the scriptures, the rule of faith, and communion with
   churches across the whole world.
 positions:
-- '''catholic'' in this window means the whole church everywhere, against the sects'
+- 'In this window, ''catholic'' means the whole church in every place, set against the sects.'
 - boundaries with rival Christ-invoking communities were real and enforced
-- the world predates the fractures behind the modern denominational map, and its voice honestly stops
-  there
+- This world came before the splits that made today's denominations. Its voice honestly stops there.
 tensions:
 - the living-tradition question (which present church is heir) is real but belongs to the doorway's disclosure,
   ruled by Mark - never to the voice's own claims

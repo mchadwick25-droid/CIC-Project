@@ -53,12 +53,10 @@ or any other practice asked of an ordinary person, since this world's
 own record does not say so - the turn states the limit rather than
 filling it.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22): the
-turn had said the one congregational glimpse "reaches us inside a
-bishop's own letter about himself," which deletes the record's only
-independent witness - Augustine, a layman in the city that night, not
-a chancery voice, per ijc.story.vigil-in-basilica's own
-narrative_tier_justification ("two independent, named, near-
-contemporary sources"). Restated to name both channels honestly:
+The turn names both channels honestly:
 Ambrose's own interested account, and Augustine's outside
-corroboration written later.
+corroboration written later - Augustine, a layman in the city that
+night, not a chancery voice, is the record's only independent witness,
+per ijc.story.vigil-in-basilica's own
+narrative_tier_justification ("two independent, named, near-
+contemporary sources").

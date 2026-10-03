@@ -1,0 +1,25 @@
+# Otto's 1861 edition of Theophilus, Ad Autolycum, Greek with Latin translation. The Greek layer of
+# this scan is unusable (zero Greek characters), so this is a second witness for Otto's Latin
+# translation and notes only. Same atlas entries, role and confidence as its English twin (ANF02).
+source_file: theophilus_ad-autolycum-grc-lat_otto1861.txt
+
+assignments:
+  - row_id: theophilus_ad-autolycum-grc-lat_otto1861--theophilus-to-autolycus
+    work: "Theophilus to Autolycus"
+    author: theophilus
+    locus: "file line 2571 (heading 'LIBER PRIMUS' (Book I, after the prolegomena))"
+    atlas_ids:
+      - greek-apologists-second-century
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin translation (Otto) second witness of the ALREADY-PRESENT English entry for this work
+      (source_file anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml) in the
+      bucket(s) named here. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md
+      section 2 and 6): the OCR of this scan holds zero Greek-script characters: every Greek
+      passage is Latin-letter noise. Only Otto's Latin translation and Latin notes are real text.
+      Not to be quoted as the original until a clean witness is vendored or the page image is
+      checked. Otto, Corpus apologetarum vol. VIII (Jena, 1861). No clean Greek Theophilus is
+      vendored. Mirrors the English twin's role and confidence exactly.
+

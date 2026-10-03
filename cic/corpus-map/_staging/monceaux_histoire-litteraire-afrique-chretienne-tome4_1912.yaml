@@ -1,7 +1,8 @@
 source_file: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt
 
 assignments:
-  - work: "Histoire littéraire de l'Afrique chrétienne, Tome IV: Le
+  - row_id: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912--histoire-litteraire-de-l-afrique-chretienne-tome-iv-le
+    work: "Histoire littéraire de l'Afrique chrétienne, Tome IV: Le
       Donatisme"
     author: monceaux
     locus: "whole volume"

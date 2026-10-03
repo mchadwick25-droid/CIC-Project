@@ -44,7 +44,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---
-Text verified verbatim against the vendored file 2026-08-21. The
+Text verified verbatim against the vendored file. The
 ellipsis marks one omitted sentence ("We, still unmelted by the heat of
 Thy Spirit, were yet moved by the astonished and disturbed city") -
 Augustine's own interior state, left out with the omission MARKED
@@ -54,11 +54,7 @@ independent eyewitness to any Ambrose confrontation, and the record's
 one direct glimpse of an ordinary congregation's interior - fear given
 singing to stand inside.
 
-FIXED 2026-08-26 (cross-world transparency audit): speaker_or_author
-used to carry "(licensed for this world as eyewitness to Milan, 386,
-only)" - a build-team scope note that citation_cards.py/StoryMark.tsx
-render verbatim to the participant as this quote's speaker line. The
-speaker line now just names Augustine and the locus. NARROW LICENSE:
+The speaker line names Augustine and the locus only. NARROW LICENSE:
 this quote is licensed for use in this world (ijc) specifically, as
 Augustine's own eyewitness testimony to events at Milan in 386 - not
 for reuse as general testimony in any other world's corpus.

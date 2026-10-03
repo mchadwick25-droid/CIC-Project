@@ -43,13 +43,8 @@ saying desert.figure.sarah's own bridge_line already paraphrases in
 brief; this record supplies the fuller narrated encounter that
 record's shorter compiled field does not carry.
 
-Step4, Round 1 review Finding C4: the added motive gloss ("since she
-was known and respected and they wanted to see whether she would grow
-proud of visitors coming to see a mere woman") was not present in
-Doc_09a's own telling, where the elders' words are quoted as a
-caution against conceit rather than narrated with an attributed
-motive - removed; the elders' challenge is now given in their own
-terms only, matching Doc_09a's own account.
+The elders' challenge is given in their own terms only, matching
+Doc_09a's own account, with no added motive gloss attributed to them.
 
 Formation significance: this world's own single clearest direct textual
 evidence for a named amma's own teaching voice, exercising
@@ -62,19 +57,11 @@ challenge to her own place with the same discernment the tradition
 elsewhere credits to men, not by denying the challenge's terms but by
 inverting them.
 
-CORRECTED 2026-09-20, found by an Opus adversarial review of an unrelated
-system-design document that spot-checked this record against
-desert.quote.sarah-man-among-you. This record's own `text` still carried
-"by nature I am a woman, yes - but not by my own thoughts" before "It is
-I who am the man here, and you who are the women" - the exact Greek-
-alphabetical-collection clause desert.quote.sarah-man-among-you's own
-2026-08-27 correction found is NOT in the vendored Budge/Syriac recension
-and declared unquotable, since no public-domain English of the Greek
-exists to check it against. That correction was never carried over to
-this sibling record, so this record kept shipping the barred clause -
-and a participant-facing page (cic-website/traditions/desert-monasticism.
-html) rendered it in quotation marks as of 2026-09-19. Both are now fixed:
-this record's `text` now matches desert.quote.sarah-man-among-you's own
-modern_rendering ("It is I who am the man, and you who are the women"),
-and the site copy was corrected to match. Logged in
-worlds/desert/Open_Gaps_Tracking.md.
+This record's `text` matches desert.quote.sarah-man-among-you's own
+modern_rendering exactly: "It is I who am the man, and you who are the
+women." The clause "by nature I am a woman, yes - but not by my own
+thoughts" belongs to the Greek alphabetical collection, not to the
+vendored Budge/Syriac recension this record and desert.quote.sarah-man-among-you
+both draw on, and no public-domain English of the Greek exists to check
+it against, so it is not carried here. The participant-facing page
+(cic-website/traditions/desert-monasticism.html) matches this record.

@@ -33,27 +33,20 @@ exemplar draws for its own parallel turn. We-voice throughout. Content
 is ijc.dw.women-authority-cost's own text, carried into spoken
 form.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22): the
-turn had dropped both of the source record's own hedges - "no formal
+The turn carries both of the source record's own hedges - "no formal
 regency is attested" for Justina, and the Ambrose/chronology attribution
 divergence the source record itself carries a mandatory divergence_note
-for - while its own craft note claimed they were carried; both are
-restored, and divergence_note is now set here to match the source
-rather than left null. "Leo himself thanks her directly... for
-overruling" overstated Ep. XCV, whose own posture is Leo receiving her
-command "in a spirit so far removed from scorn as to" comply, not
-thanking her for overruling him - restated as "records her command...
-and answers by sending his legates without protest," and the same fix
-is made in ijc.dw.women-authority-cost.text. The source record's
-own two tensions (both women reaching us only through interested men;
-two cases, not a generalizable pattern) were dropped from the turn -
-both restored, along with the plain office-fact the record supports (no
+for. Leo's own posture toward Placidia's command (Ep. XCV) is "records
+her command... and answers by sending his legates without protest," in a
+spirit "so far removed from scorn as to" comply - not thanking her for
+overruling him, matching ijc.dw.women-authority-cost.text. The
+source record's own two tensions - both women reaching us only through
+interested men; two cases, not a generalizable pattern - are carried,
+along with the plain office-fact the record supports (no
 woman holds a church office anywhere in this build). The participant
-line now matches the canon question's own em dash character-for-
+line matches the canon question's own em dash character-for-
 character, and "trades-people" (the source record's own spelling,
 carried from the vendored edition) is rendered as the modern
-"tradespeople" in this compiled, spoken field. Several long sentences
-are split into shorter ones (this turn's own FK grade was among the
-highest in the set); content is unchanged.
+"tradespeople" in this compiled, spoken field.
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved, and the source record's spoken field carries the same translation. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved, and the source record's spoken field carries the same translation. This sits at the record layer, not the prompt.

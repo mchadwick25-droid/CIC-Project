@@ -23,48 +23,34 @@ nearest_material:
 - desert.dw.god
 - desert.dw.jesus
 ---
-Narrowed from its original draft (canon_cells: [C-P, C-T, F1-P]) after
-Step 4 Round 1 review Finding S2/M17: C-P is no longer claimed here,
-since desert.dw.someone-like-me now substantively answers C-P-03
-(real material this record's first draft did not open); C-T is no
-longer claimed for "was Jesus God" specifically, since
-desert.quote.antony-nicene-formula now answers that sub-question
-directly - this record's own remaining C-T claim is narrowed to the
-atonement-mechanics and personal-Lord sub-questions specifically, which
-remain genuinely unanswered in this world's own voice.
+This record's canon_cells claim is narrowed to the atonement-mechanics
+and personal-Lord sub-questions specifically, which remain genuinely
+unanswered in this world's own voice: C-P is answered instead by
+desert.dw.someone-like-me; C-T for "was Jesus God" specifically is
+answered instead by desert.quote.antony-nicene-formula.
 desert.dw.god and desert.dw.jesus supply the nearest this
 corpus comes on the remaining ground - boundary-drawing and lived
 pattern, not argument or confession - and this record states plainly
 why that is not the same thing.
 
-Step4, Round 3 review Finding M3: the compiled statement's "once, in
-public, when we were asked" was the same overclaim Round 2's M2 charged
-on desert.dw.god.positions[1] - unswept here, and landing in a
-field that actually compiles (`build_prompt()` emits `honest_limit.
-statement` directly, unlike `positions`). Vita SS72-80 has Antony
-disputing publicly with Greek philosophers on more than one occasion,
-beyond the single Arian confrontation at SS69 - corrected above to "in
-public, more than once, when we were pressed," matching the fix already
-made on the sibling record.
-
-Step5, Round 1 review Finding S6: this compiled statement still opened
-"I do not have a good answer" - the fleet's own strict we-voice
-discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
-desert.voice.craft's own flavor_notes) reserves "I" for a named,
+The compiled statement says "in public, more than once, when we were
+pressed": Vita SS72-80 has Antony disputing publicly with Greek
+philosophers on more than one occasion, beyond the single Arian
+confrontation at SS69. The compiled statement opens "We do not have a
+good answer," matching the fleet's own strict we-voice discipline
+(fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
+desert.voice.craft's own flavor_notes), which reserves "I" for a named,
 attributed figure's own quoted words or the one sanctioned self-naming
 exception, neither of which applies to an honest_limit's own admission
-of ignorance - corrected to "We do not have a good answer," matching
-the rest of this record's own already-plural voice.
+of ignorance.
 
-NARROWED 2026-08-27, and the narrowing corrects an overclaim this
-record was carrying. Its statement said flatly that "how his death
-actually saves you... is not something we wrote down." Vita SS74 does
-say why he came, and gives a mechanism for it: the Word took a human
-body "for the salvation and well-being of man, that having shared in
-human birth He might make man partake in the divine and spiritual
-nature" (desert.quote.the-word-took-a-human-body, opened this pass).
-SS75 adds that the deeds of Christ "prove Him to be God come upon earth
-for the salvation of men."
+The statement does not claim flatly that "how his death actually saves
+you... is not something we wrote down." Vita SS74 does say why he came,
+and gives a mechanism for it: the Word took a human body "for the
+salvation and well-being of man, that having shared in human birth He
+might make man partake in the divine and spiritual nature"
+(desert.quote.the-word-took-a-human-body). SS75 adds that the deeds of
+Christ "prove Him to be God come upon earth for the salvation of men."
 
 That is a soteriology. It is not the one the question usually means,
 and the real gap is narrower than the old wording claimed: this world

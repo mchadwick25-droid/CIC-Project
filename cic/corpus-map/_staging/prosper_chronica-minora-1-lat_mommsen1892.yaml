@@ -7,7 +7,8 @@
 source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
 
 assignments:
-  - work: "Prosper of Aquitaine's Epitoma Chronicon, with its African continuations (Additamenta Africana, Epitome Carthaginiensis)"
+  - row_id: prosper_chronica-minora-1-lat_mommsen1892--prosper-of-aquitaine-s-epitoma-chronicon-with-its-african
+    work: "Prosper of Aquitaine's Epitoma Chronicon, with its African continuations (Additamenta Africana, Epitome Carthaginiensis)"
     author: prosper
     locus: "pp. 385-485 of the printed volume (Mommsen's own preface to it at pp. 341-384; the Additamenta Africana and Epitome Carthaginiensis at pp. 486-497); this file's own header gives the exact line ranges"
     atlas_ids:
@@ -22,7 +23,8 @@ assignments:
       located and quoted in this file's own header. Closes a prior total
       absence of a contemporary chronicle witness to this world's own close.
 
-  - work: "Prosper of Aquitaine's Epitoma Chronicon, with its African continuations"
+  - row_id: prosper_chronica-minora-1-lat_mommsen1892--prosper-of-aquitaine-s-epitoma-chronicon-with-its-african-2
+    work: "Prosper of Aquitaine's Epitoma Chronicon, with its African continuations"
     author: prosper
     locus: "pp. 385-485 of the printed volume"
     atlas_ids:

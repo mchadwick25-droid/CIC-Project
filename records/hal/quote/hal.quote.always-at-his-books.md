@@ -32,7 +32,7 @@ retrieval:
   - "participant asks what an ordinary day of work looked like"
   - "participant asks how a visitor described the household from outside"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf211. An outside
+Verified verbatim against the vendored npnf211. An outside
 visitor's eyewitness sketch of the Bethlehem scholar at work, c. 400 - the
 admiring counterpart to Palladius's hostile notice, and one of very few
 non-Jerome windows onto the community at all. The same chapter's harder

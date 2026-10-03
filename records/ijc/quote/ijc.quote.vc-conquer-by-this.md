@@ -39,7 +39,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (editorial
+Text verified verbatim against the vendored file (editorial
 footnotes stripped; the edition interleaves notes doubting this very
 account, which is part of the record's honesty). Eusebius reports
 Constantine's own telling, "long afterwards," confirmed by oath - the

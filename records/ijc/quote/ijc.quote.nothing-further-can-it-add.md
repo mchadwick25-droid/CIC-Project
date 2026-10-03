@@ -46,13 +46,13 @@ relations:
 - type: associated-with
   target: ijc.dw.received-not-seen
 ---
-Opened 2026-08-27 for C-E, served by ijc.dw.received-not-seen alone, which cites "Session IV (the
+Opened for C-E, served by ijc.dw.received-not-seen alone, which cites "Session IV (the
 rule of faith recited)" for the claim that this world's access to Jesus is inheritance rather than
 memory, and could not show it.
 
 The legate's recitation was chosen over the bishops' acclamation that answers it, because the cell asks
 what the world HAD: the acclamation is assent, the recitation is the actual list.
 
-Quote-verbatim gate fix (2026-09-22): the already-disclosed Latin-gloss omission had no ellipsis mark
-in the `text` field itself - added. Also fixed the closing dash's spacing to match the source's
-unspaced em dash ("follows—nothing", not "follows - nothing").
+The Latin-gloss omission is marked with an ellipsis in the `text` field
+itself. The closing dash matches the source's unspaced em dash
+("follows—nothing", not "follows - nothing").

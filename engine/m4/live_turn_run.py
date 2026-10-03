@@ -1,8 +1,8 @@
 """Live evidence for the stage-5 gate items that need a real generation
 call: crisis append against a live routing decision (not just the hermetic
-fake-client tests) and an ordinary voice turn end to end (real citations,
-grounding, and the do-not-voice guard) against the real, committed fixture
-world package. Real, billed Bedrock calls - like
+fake-client tests) and an ordinary voice turn end to end (real citations
+and grounding) against the real, committed fixture world package. Real,
+billed Bedrock calls - like
 engine/provider/preflight.py and engine/m5/safety_script_run.py, a by-hand,
 credentialed run, not a CI job.
 """
@@ -31,8 +31,7 @@ WORLD_REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-turn-rep
 SCENARIOS = [
     {"id": "ordinary-turn", "message": "Who was Jesus to your people?"},
     {
-        # Portfolio decision 2026-09-08 (CiC_System_Hub_Decision_Log.md):
-        # no voice speaks once ACUTE_DISTRESS fires, so there is no longer a
+        # No voice speaks once ACUTE_DISTRESS fires, so there is no longer a
         # "real stream" vs "forced empty stream" distinction to probe here -
         # engine.m4.turn's safety_turn branch never attempts a voice call on
         # this signal at all. One scenario proves the crisis append fires
@@ -165,11 +164,11 @@ def main() -> int:
     path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
-    # H-3 (witt go-live adversarial review, 2026-09-19): a report can carry
+    # A report can carry
     # a non-empty output_defects[] - already-shipped, participant-facing
     # text a defect was found on - while every turn's own `degraded` reads
-    # false, so nothing here flagged it until a reviewer read the raw JSON
-    # by hand. Surfaced loudly and gated, not silently folded into
+    # false, so nothing here flags it without reading the raw JSON by
+    # hand. Surfaced loudly and gated, not silently folded into
     # crisis_append_proven, which tests something else entirely.
     shipped_defects = find_shipped_defects(report)
     if shipped_defects:

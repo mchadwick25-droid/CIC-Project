@@ -40,15 +40,16 @@ itself, and it is right); these four are.
   pronoun        the strict we-voice. First-person singular outside the one
                  sanctioned self-naming line, and outside quoted historical
                  speech, which keeps its own original wording by rule.
-  guard_proximity a sentence that cites a record R11 (Rulings-Pending.md)
-                 marked with a claim_guards entry - a barred proposition -
+  guard_proximity a sentence that cites a record marked with a
+                 claim_guards entry - a barred proposition -
                  and shares that barred proposition's own subject matter
-                 (Build-Plan.md Stage 4b). Stage 1's own D1 measurement
-                 found grounding_net's per-sentence check caught a
+                 (Build-Plan.md Stage 4b). grounding_net's per-sentence
+                 check alone catches a
                  fabricated version of exactly such a claim only 2 times
-                 in 13 (Decision-Log.md); this is a second, independent
+                 in 13; this is a second, independent
                  net at the one place both the sentence and its own
-                 citation are already known together. Feeds R14 - reports
+                 citation are already known together. Feeds the m7 audit
+                 instrument at defect severity - reports
                  only, same as every family here, never removes a
                  sentence.
 
@@ -304,8 +305,8 @@ def _pronoun_findings(text: str) -> list[dict]:
     return out
 
 
-# The note-authoring convention itself (R11's own migration - Rulings-
-# Pending.md; tools/split_retrieval_guards.py), measured the same way
+# The note-authoring convention itself (from the prefer_instead redirect
+# rule's migration; Build/tools/split_retrieval_guards.py), measured the same way
 # engine/m4/evidence.py's own _PREFER_INSTEAD_CONDITION_STOPWORDS was:
 # "participant is asking whether...", "the Representative must not...",
 # "our vendored evidence..." are the note's own scaffolding, not part of
@@ -427,14 +428,14 @@ def find_shipped_defects(report: dict) -> list[dict]:
     report shape, read directly rather than re-derived, so this can never
     disagree with what the report itself recorded.
 
-    WHY THIS EXISTS (H-3, witt go-live adversarial review, 2026-09-19). A
-    live-turn report carried a false conversational-memory defect
+    WHY THIS EXISTS: a live-turn report can carry a false
+    conversational-memory defect
     (check_output's own family, this module's ONE perfectly-decidable
     class) on a turn presented as `degraded: false`. `degraded` on these
     reports means "a gate call failed," not "the turn was good" - it says
-    nothing about output_defects, and nothing else read the field before a
-    reviewer had to open the raw JSON by hand to find it. This module's
-    own REPORTS, NEVER EDITS stance is right for a live participant turn
+    nothing about output_defects, and nothing else reads the field, so it
+    would otherwise only be found by opening the raw JSON by hand. This
+    module's own REPORTS, NEVER EDITS stance is right for a live participant turn
     (the module's header explains why); it does not follow that a REVIEW
     of an already-shipped report should have the same blind spot. A gate
     reading a finished report is downstream of generation, not upstream of

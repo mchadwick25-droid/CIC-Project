@@ -1,0 +1,43 @@
+# Tome III part 2 of the Maurist edition of Augustine in Migne's Patrologia Latina (PL 35, Garnier
+# reissue): the Tractates on John and on 1 John are assigned here. The volume's other works
+# (Quaestiones Evangeliorum, the Pauline expositions, the appendix) are not assigned.
+source_file: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
+
+assignments:
+  - row_id: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2--tractatus-in-ioannis-evangelium-cxxiv-maurist-edition-migne
+    work: "Tractatus in Ioannis Evangelium CXXIV (Maurist edition, Migne reissue)"
+    author: augustine
+    locus: "file line 4549 ('TRACTATUS I. CAPUT I.'); last tractate 'TRACTATUS CXXIV. CAPUT XXI.' at file line 46242"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin of the ALREADY-PRESENT English entry 'Tractates on the Gospel of John (In Evangelium
+      Ioannis tractatus)' (source_file npnf107_augustine-homilies-john-soliloquies.xml) in this
+      bucket. SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the
+      OCR carries scattered letter misreads (c for e, l for t, i for l) at about one word in ten (0.70
+      to 0.75 of word forms found in a vocabulary test against the clean TEI Augustine files, against
+      0.93 to 0.96 for the clean TEI files tested the same way). Not to be quoted until the passage is
+      checked against the page image or a clean witness is vendored. The text is the pre-critical
+      Maurist edition, reissued in Migne's Patrologia Latina (PL 35). Mirrors the English twin's role
+      and confidence exactly.
+
+  - row_id: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2--in-epistolam-ioannis-ad-parthos-tractatus-x-maurist-edition
+    work: "In Epistolam Ioannis ad Parthos Tractatus X (Maurist edition, Migne reissue)"
+    author: augustine
+    locus: "file line 46895 (heading 'IN EPISTOLAM JOANNIS AD PARTHOS'); first tractate at file line 46795"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin of the ALREADY-PRESENT English entry 'Ten Homilies on the First Epistle of John (In
+      epistulam Ioannis ad Parthos tractatus)' (source_file npnf107_augustine-homilies-john-
+      soliloquies.xml) in this bucket. SECOND WITNESS ONLY, because of scan quality
+      (cic/texts/INTAKE.md section 2 and 6): the OCR carries scattered letter misreads (c for e, l for
+      t, i for l) at about one word in ten (0.70 to 0.75 of word forms found in a vocabulary test
+      against the clean TEI Augustine files, against 0.93 to 0.96 for the clean TEI files tested the
+      same way). Not to be quoted until the passage is checked against the page image or a clean
+      witness is vendored. The text is the pre-critical Maurist edition, reissued in Migne's
+      Patrologia Latina (PL 35). Mirrors the English twin's role and confidence exactly.

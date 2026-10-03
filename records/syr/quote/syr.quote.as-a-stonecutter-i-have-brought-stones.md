@@ -44,14 +44,14 @@ relations:
 - type: associated-with
   target: syr.dw.doubt
 ---
-Opened 2026-08-27. syr.dw.doubt cites Demonstration I for faith as a building that rises and had
-nothing quotable behind it; F1-P was served by that witness alone.
+syr.dw.doubt cites Demonstration I for faith as a building that rises; this quote gives that citation
+a quotable passage. F1-P is served by that witness alone.
 
 This is the sentence that makes the witness's claim checkable. A world whose answer to "was there
 room for doubt" is "faith is a building, laid stone by stone" should be shown its own teacher
 saying so, and saying it in the register that matters here - enquire, receive what edifies,
 demolish what does not, and let others carve the stones I brought.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "lay them in the building" was invented - the source's sentence continues with a semicolon, not a full stop ("...lay them in the building; and all the labourers that toil in the building shall receive reward from the Lord of the house."). Restored the full sentence rather than using an ellipsis: it is the same building metaphor's own natural continuation (laborers rewarded by the Lord of the house), doesn't change or complicate the witness this record cites it for, and modern_rendering is extended to match.
+The quote runs the full sentence rather than stopping at "lay them in the building": the source continues with a semicolon, not a full stop ("...lay them in the building; and all the labourers that toil in the building shall receive reward from the Lord of the house."), and the full sentence is the same building metaphor's own natural continuation (laborers rewarded by the Lord of the house). modern_rendering matches.

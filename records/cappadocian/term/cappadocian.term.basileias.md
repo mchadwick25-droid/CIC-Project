@@ -11,14 +11,9 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: 'Corrected 2026-08-31 (B-2 authoring pass): Doc_06 entry 23, this record''s own source,
-    still presents "Basileias" as this world''s own admiring nickname -- but Doc_02 SS2''s own correction
-    (already applied throughout Doc_05, Doc_07 2I, Doc_09, and the rebuilt Permanent Prompt this same
-    session) establishes that "Basileias" is a later name (Sozomen and subsequent usage), not attested
+  divergence_note: '"Basileias" is a later name (Sozomen and subsequent usage), not attested
     in this world''s own period; "the new city" (Nazianzen''s own phrase, Oration 43) is the period-correct
-    self-description. This was named as a residual, not-yet-fixed item at CAPPADOCIAN_BUILD_LEDGER.md
-    SS11 ("a future pass should close it") -- closed here, since world_word feeds the live participant-facing
-    glossary directly and should not carry an anachronism the rest of this build has already corrected.
+    self-description, and the term this record''s own world_word uses.
     The complex''s real existence and its negotiation with governors are Documented via Oration 43 and
     Basil''s own correspondence. Its physical remains are unidentified -- stated plainly rather than smoothed
     past -- and the ''first hospital'' framing sometimes attached to it in popular retelling is an overstatement

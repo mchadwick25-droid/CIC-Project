@@ -1,0 +1,37 @@
+source_file: wesley-j_large-minutes_1850.txt
+
+authors_ruled:
+  wesleyan-conference:
+    kind: anonymous
+    evidence: >
+      A corporate author, not a person. The header names John Wesley as
+      compiler and the Wesleyan Methodist Conference, and the vendored
+      Advertisement says the Conference revised the Rules left by its late
+      founder. The work speaks in the Conference's own voice.
+
+assignments:
+  - row_id: wesley-j_large-minutes_1850--minutes-of-several-conversations-the-large-minutes-section-i
+    work: "Minutes of Several Conversations (the Large Minutes) - Section I,
+      'The Design of God in Sending the Methodist Preachers,' and Section II,
+      'The Rise of Methodism'"
+    author: wesleyan-conference
+    locus: "lines 359-387; the Rise-of-Methodism catechism question begins
+      line 379 and runs through line 387 - note: this reprint's own OCR
+      misreads the year '1729' as '1/29' (line 380), a character-level
+      digit error, not this world's own claim; the correct year,
+      independently well attested (the 'Holy Club' at Oxford), is 1729"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      The connexion's own catechism-form self-account of its own origin and
+      purpose - "messengers sent... to reform the nation, by spreading
+      scriptural holiness over the land." Institutional (Conference) voice,
+      not Wesley's own first-person voice: the vendored text's own
+      Advertisement states the Conference "carefully revised the Rules
+      drawn up and left us by our late venerable Father in the Gospel," and
+      the Q&A text itself refers to Wesley in the third person past tense
+      throughout ("the late Mr. Wesley"). It speaks about him and inherits
+      his own original 1743-89 catechism structure, but is not voiced by
+      him directly. No opponent voice mixed in.

@@ -40,6 +40,6 @@ relations:
 - type: associated-with
   target: syr.dw.remains
 ---
-Opened 2026-08-27 for F5-E, the second of two: the cell asks both what would be dug up and how anyone
+This is the second of two quotes for F5-E: the cell asks both what would be dug up and how anyone
 knows, and one sentence could not honestly answer both. This is the same entry as
 syr.quote.the-temple-of-the-church-of-the-christians, read to its end.

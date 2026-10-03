@@ -48,17 +48,13 @@ relations:
 Opened for F3-T, served by alx.term.episkopos alone, which cites this exact section
 and had nothing quotable.
 
-TEXT EXTENDED (2026-09-25): the original text stopped at "...according
-to the Gospel," which is the end of a subordinate "Since..." clause
-with no main clause of its own in the record - a truncated excerpt, not
-a wording choice. Extended verbatim through the sentence that clause
-was actually grounding ("For these taken up in the clouds..."), which
-completes the thought: the ranks mirror an economy that carries a
-progression of its own. Re-verified against the vendored file
+The quote runs from the subordinate "Since..." clause through the
+sentence it grounds ("For these taken up in the clouds..."), completing
+the thought: the ranks mirror an economy that carries a progression of
+its own. Verified verbatim against the vendored file
 (engine.m1.quote_verbatim), including the translator's own bracketed
-"[as deacons]", and modern_rendering rewritten to cover the fuller
-passage. First rendering pass used "that is why," reversing the
-source's own direction; the source's "For" gives the second sentence as
-evidence FOR the first sentence's claim, not a consequence flowing FROM
-it. Corrected to "For those taken up in the clouds..." to keep the
-author's own direction, per Mark's splitting rule.
+"[as deacons]". modern_rendering keeps the source's own logical
+direction: its "For" gives the second sentence as evidence for the
+first sentence's claim, not a consequence flowing from it, so the
+rendering reads "For those taken up in the clouds..." rather than "that
+is why."

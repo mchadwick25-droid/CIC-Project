@@ -39,7 +39,7 @@ def _world_shelves(registry: dict) -> dict[str, dict]:
     from engine.api.config import REPO_ROOT
     shelves: dict[str, dict] = {}
     for key, entry in registry.items():
-        if not isinstance(entry, dict) or entry.get("kind") != "formation":
+        if not isinstance(entry, dict) or entry.get("kind") != "formation" or not entry.get("package"):
             continue
         repo_path = REPO_ROOT / entry["package"]["location"] / "compiled" / "repository.json"
         if not repo_path.exists():
