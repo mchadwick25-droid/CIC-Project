@@ -236,6 +236,10 @@ services:
         value: "0"
       - key: CIC_SELF_REVISION
         value: "0"
+      # Verified citation attachment (engine/m4/citation_attach.py): staging
+      # only; cic-engine (prod) does not set this.
+      - key: CIC_CITATION_ATTACH
+        value: "1"
       # Reply streaming (engine/api/README.md, Streaming): staging only,
       # cic-engine (prod) does not set this.
       - key: CIC_API_STREAMING

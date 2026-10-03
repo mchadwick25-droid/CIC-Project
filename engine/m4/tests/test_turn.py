@@ -1627,3 +1627,37 @@ def test_self_revision_a_draft_with_no_tags_never_spends_a_call():
     assert len(client.messages.captured_stream_calls) == 1
     assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
     assert voice_event["attempts_meta"]["self_revision"]["fallback_reason"] == "no_tagged_records"
+
+
+def test_citation_attach_adds_verified_citations_without_touching_the_text(monkeypatch):
+    import engine.m4.turn as turn_module
+    seen = {}
+
+    def fake_attach(**kw):
+        seen.update(kw)
+        return [{"sentence": kw["net_result"]["sentences"][0]["sentence"], "record_ids": ["fix.witness.who-is-jesus"], "attached": True}], ["U"], [{"verdict": "carries"}]
+
+    monkeypatch.setattr(turn_module, "attach_citations", fake_attach)
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+                               stream_scripts=[["Even a broken priest could not block his grace."]])
+    voice_event, usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(), participant_message="who was Jesus",
+        directive=None, session_id="test-session", citation_attach_model_id="haiku",
+    )
+    assert seen["model_id"] == "haiku" and seen["client"] is client
+    assert voice_event["text"] == "Even a broken priest could not block his grace."
+    assert [c["record_ids"] for c in voice_event["citations"]] == [["fix.witness.who-is-jesus"]]
+    assert "U" in usage
+    assert voice_event["attempts_meta"]["citation_attach"]["added"] == ["Even a broken priest could not block his grace."]
+
+
+def test_citation_attach_is_never_called_when_off(monkeypatch):
+    import engine.m4.turn as turn_module
+    monkeypatch.setattr(turn_module, "attach_citations", lambda **kw: (_ for _ in ()).throw(AssertionError("called")))
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+                               stream_scripts=[["Even a broken priest could not block his grace."]])
+    voice_event, _ = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(), participant_message="who was Jesus",
+        directive=None, session_id="test-session",
+    )
+    assert voice_event["attempts_meta"]["citation_attach"] == {"enabled": False, "added": [], "trail": []}

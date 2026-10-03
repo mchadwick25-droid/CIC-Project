@@ -6162,3 +6162,9 @@ documents. Worth naming for the audit trail: that thread reviewed the package it
 dispositioned, so the disposition rests on Mark's ruling above plus the independent
 confirmation recorded at `Step0_Review_Round2.md` §10, not on the
 disposing thread's own view of the documents' quality.
+
+## 2026-10-03 - Verified citation attachment adopted behind a switch (decision 26, change order CO-9)
+
+An Opus diagnostic of 193 uncited claims found 74% carried by a record in the world and 3.6% from outside it: the gap is the citation, not the boundary. Asking the voice to cite more or to stay inside its records did not hold across the fleet. A second, checked step did: on 187 real drafts a Haiku call proposes the record that carries each uncited claim, a second Haiku call checks the proposal against that record's text, and only a confirmed citation is attached. Opus adjudicated all 489 added citations: 79.1% carry the claim, 19.4% partly, 1.4% wrong; on the graded replies the claim-support gate measure fell from 45.2% to 33.1% while the share of cited claims their record carries held at 78%. Details: Conversation-Transparency-Engine Decision-Log, Entries 95 to 97.
+
+26. Verified citation attachment is adopted as change order CO-9, alongside decision 22: the voice's hand-copied citation ids stay, and this adds a second, verified source of citations. The voice's text is never changed. The step is built behind a switch (`CIC_CITATION_ATTACH`), off in production, on in staging; the gate measure is re-run on the live turn path before the project lead decides on production. The project lead chose this over also pushing the voice to cite on its own, over gathering more evidence first, and over not adopting it.
