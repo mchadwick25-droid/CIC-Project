@@ -1,0 +1,969 @@
+{
+  "run_settings": {
+    "worlds": [
+      "alx"
+    ],
+    "probes_per_world": 28,
+    "probes": "f4-i-probe-01",
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "region": "us-east-1",
+    "mode": "pair",
+    "arms": [
+      "off",
+      "records_only"
+    ],
+    "records_only_directive": "\n## Staying inside your records\nSay only what your own records hold. Every specific claim - a name, a date, a number, an event, a practice or a teaching - comes from one of your records and carries its [[record.id]] tag. Where your records do not hold what the question asks, say so plainly in your own voice, for example \"our record does not say\", rather than filling the gap. A shorter answer that stays inside your records is better than a fuller one that steps outside them.",
+    "self_revision": "off (production)",
+    "sentence_enforce": "off (production)",
+    "max_usd": 0.12,
+    "authorized_by": "Mark Chadwick (keep going, 2026-10-03; fleet records-only check, cap $7)",
+    "package_manifest_hash": {
+      "alx": "sha256:7acc6a45dbfd6a46a4aaffe3b56ce83f5922b5ed490f6d57660e3884b5199380"
+    }
+  },
+  "started": "2026-10-03T02:28:11+00:00",
+  "worlds": {
+    "alx": [
+      {
+        "probe_id": "f4-i-probe-01",
+        "cell": "F4-I",
+        "routing_action": "voice_with_directive",
+        "arms": {
+          "off": {
+            "answer_text": "The road to baptism - the *photismos*, the enlightening - was long and had stages. We walked it with people, and we did not rush them.\n\nThe first step was the turn itself - *pistis*, not agreeing with a list yet, but the soul's first real orientation toward God. A person came because someone brought them, or because they had heard the Scriptures read. They asked to be taught. That asking was the beginning.\n\nThen came the teaching - *katechesis* - and it lasted years, not weeks. They were called catechumens, hearers. They came to the assembly. They heard the Scriptures read and expounded. They learned the prayers. They learned how to live - what to put off, what to take up, how to order a household toward God. In the school, this teaching could go very deep - Gregory tells of years under his teacher, asking questions, testing arguments, until 'like a spark falling on our innermost soul, love was kindled'. For most, it was simpler and shorter, but never instant. The Word himself was working through the teaching - our teachers called him the Instructor, the one who 'cures the unnatural desires of the soul'.\n\nThey learned the *kanon* - the rule of faith, the short summary of what the apostles handed down. Father, Son, and Spirit. The Incarnation. The resurrection. The judgment. That rule set the bounds for everything else.\n\nAt some point - when the teachers judged they were ready, not when a calendar said so - they were enrolled for baptism. In the final stretch before the water, the teaching intensified. The *mysteria* were opened to them - not puzzles to solve, but depths they would know from inside after they had crossed.\n\nThen came the baptism itself - the *photismos*, the illumination. They went down into the water. They were baptized into the threefold name: Father, Son, and Holy Spirit. They came up. Athanasius says of the Scriptures, 'These are fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold' - and the newly baptized drank deeply, because now they could hear the depths. They had crossed.\n\nAfter the water came the table. They joined the assembly fully now, no longer dismissed before the prayers. The bread, the cup - the *eucharistia*, the thanksgiving - was set before them for the first time as baptized members. And the formation did not stop. Scripture was read to them every week, and the reading itself kept forming them, because the Logos who speaks through it does not run dry. Origen taught that 'just as a human being consists of body, soul, and spirit, so too does Scripture' - there were always more senses to find, always more depth.\n\nThat is the shape we can show you. The timing varied - how long someone stayed a hearer depended on their own readiness and the teacher's judgment, not a fixed rule. And we are honest about who this picture represents: it is the urban, Greek-speaking ecology we can document. The villages up the river had the same baptism and the same table, but how the teaching reached them in their own tongue, step by step, our record leaves mostly silent. We will not fill that silence with guesses.\n\nOne more thing, because it belongs to honesty. Some who walked this road fell away under persecution - the *lapsi*, those who gave way. When peace came, the church fought bitterly over them. The tradition that won here brought the repentant back, even at the deathbed. The road could be walked twice. That, too, was part of how people joined us - or rejoined us.",
+            "citation_entries": [
+              {
+                "sentence": "The road to baptism - the *photismos*, the enlightening - was long and had stages.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.katechesis",
+                    "record_type": "term",
+                    "label": "katechesis",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-contra-celsum",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "Contra Celsum (Against Celsus)",
+                        "locus": "III.51",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The first step was the turn itself - *pistis*, not agreeing with a list yet, but the soul's first real orientation toward God.",
+                "record_ids": [
+                  "alx.term.pistis"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.pistis",
+                    "record_type": "term",
+                    "label": "pistis",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "II.2-6",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-contra-celsum",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "Contra Celsum (Against Celsus)",
+                        "locus": "I.9-13",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Then came the teaching - *katechesis* - and it lasted years, not weeks.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.katechesis",
+                    "record_type": "term",
+                    "label": "katechesis",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-contra-celsum",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "Contra Celsum (Against Celsus)",
+                        "locus": "III.51",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "In the school, this teaching could go very deep - Gregory tells of years under his teacher, asking questions, testing arguments, until 'like a spark falling on our innermost soul, love was kindled'.",
+                "record_ids": [
+                  "alx.quote.gregory-spark",
+                  "alx.story.gregory-formation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.gregory-spark",
+                    "record_type": "quote",
+                    "label": "Oration and Panegyric Addressed to Origen, VI — Gregory",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.gregory-address-to-origen",
+                        "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                        "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                        "locus": "VI (anf06 lines 3016-3022)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      }
+                    ],
+                    "spoken_rendering": "And so, like a spark falling on our innermost soul, love was kindled and burst into flame within us. It was love at once for the Holy Word, the most lovely object of all, who draws everyone irresistibly toward himself by his unutterable beauty. And it was love for this man, his friend and advocate.",
+                    "speaker": "Gregory"
+                  },
+                  {
+                    "record_id": "alx.story.gregory-formation",
+                    "record_type": "story",
+                    "label": "The student Gregory's own account of how Origen taught him. He gave it at his farewell.",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.gregory-address-to-origen",
+                        "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                        "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                        "locus": "VI-XVI (anf06 from line 2288)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The Word himself was working through the teaching - our teachers called him the Instructor, the one who 'cures the unnatural desires of the soul'.",
+                "record_ids": [
+                  "alx.quote.clement-instructor",
+                  "alx.gravity.soul-transformation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.clement-instructor",
+                    "record_type": "quote",
+                    "label": "Paedagogus, I.2 — Clement",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I.2 (anf02 line 18785)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      }
+                    ],
+                    "spoken_rendering": "So our Instructor, the Word, cures the unnatural desires of the soul, and he does this by urging us on.",
+                    "speaker": "Clement"
+                  },
+                  {
+                    "record_id": "alx.gravity.soul-transformation",
+                    "record_type": "gravity",
+                    "label": "Transformation of the Soul Toward God",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I (the Instructor's pedagogy)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.gregory-address-to-origen",
+                        "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                        "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                        "locus": "VI-IX",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      },
+                      {
+                        "source_id": "alx.source.athanasius-de-incarnatione",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                        "locus": "54 ('made man that we might be made God', npnf204 line 18744, verified)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "They learned the *kanon* - the rule of faith, the short summary of what the apostles handed down.",
+                "record_ids": [
+                  "alx.dw.apostolic"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.dw.apostolic",
+                    "record_type": "doctrinal_witness",
+                    "label": "How do you know your practices went back to the apostles, and were not later inventions?…",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.origen-de-principiis",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages",
+                        "locus": "praef.",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      },
+                      {
+                        "source_id": "alx.source.athanasius-festal-letters",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The edition's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - that is, the rest of the letter is not given here.",
+                        "locus": "Letter 39 (the received scriptures)",
+                        "rights_status": "public-domain",
+                        "edition": "NPNF series 2 vol. 4 (1892, ed. Robertson; the Festal Letters translation derives from the 1854 Library-of-the-Fathers rendering of the Syriac corpus - per-work translator credit to be re-read from the division's own front matter at first quote), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The *mysteria* were opened to them - not puzzles to solve, but depths they would know from inside after they had crossed.",
+                "record_ids": [
+                  "alx.term.mysterion"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.mysterion",
+                    "record_type": "term",
+                    "label": "mysterion",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "I, V",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-de-principiis",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages",
+                        "locus": "IV",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Then came the baptism itself - the *photismos*, the illumination.",
+                "record_ids": [
+                  "alx.term.baptism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.baptism",
+                    "record_type": "term",
+                    "label": "baptism, photismos (illumination)",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I.6-7",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Athanasius says of the Scriptures, 'These are fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold' - and the newly baptized drank deeply, because now they could hear the depths.",
+                "record_ids": [
+                  "alx.quote.athanasius-fountains"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.athanasius-fountains",
+                    "record_type": "quote",
+                    "label": "Festal Letters, Letter 39, of 367 — Athanasius",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.athanasius-festal-letters",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The edition's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - that is, the rest of the letter is not given here.",
+                        "locus": "Letter 39, of 367 (npnf204 lines 68808-68812)",
+                        "rights_status": "public-domain",
+                        "edition": "NPNF series 2 vol. 4 (1892, ed. Robertson; the Festal Letters translation derives from the 1854 Library-of-the-Fathers rendering of the Syriac corpus - per-work translator credit to be re-read from the division's own front matter at first quote), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ],
+                    "spoken_rendering": "These are fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold. The teaching of godliness is proclaimed in these alone. Let no one add to them, and let no one take anything away.",
+                    "speaker": "Athanasius"
+                  }
+                ]
+              },
+              {
+                "sentence": "The bread, the cup - the *eucharistia*, the thanksgiving - was set before them for the first time as baptized members.",
+                "record_ids": [
+                  "alx.term.eucharistia"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.eucharistia",
+                    "record_type": "term",
+                    "label": "eucharistia",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I.6 (the bread: \"the bread which I will give is My flesh\") and II.2 (the cup)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Scripture was read to them every week, and the reading itself kept forming them, because the Logos who speaks through it does not run dry.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.gravity.scripture-formative",
+                    "record_type": "gravity",
+                    "label": "Scripture as Deep Formative Reality",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.origen-philocalia",
+                        "author": "Origen (c. 185-254 CE); anthology compiled in-horizon by Basil the Great and Gregory Nazianzen",
+                        "work": "Philocalia - the Greek anthology of Origen's writings, a Greek witness to set beside Rufinus's softened Latin (where a passage exists in both, the Philocalia's Greek is the stronger witness, especially De Principiis IV on the senses of Scripture)",
+                        "locus": "I (senses of Scripture; line 76)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. George Lewis (T. & T. Clark, Edinburgh, 1911) - translator identification carried on external bibliographic grounds (archive.org/details/philocaliaoforig00orig), not stated inline in the transcription; vendored as cic/texts/origen_philocalia_lewis1911.txt"
+                      },
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "passim",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.athanasius-festal-letters",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The edition's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - that is, the rest of the letter is not given here.",
+                        "locus": "Letter 39",
+                        "rights_status": "public-domain",
+                        "edition": "NPNF series 2 vol. 4 (1892, ed. Robertson; the Festal Letters translation derives from the 1854 Library-of-the-Fathers rendering of the Syriac corpus - per-work translator credit to be re-read from the division's own front matter at first quote), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Origen taught that 'just as a human being consists of body, soul, and spirit, so too does Scripture' - there were always more senses to find, always more depth.",
+                "record_ids": [
+                  "alx.quote.origen-scripture-senses"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.origen-scripture-senses",
+                    "record_type": "quote",
+                    "label": "Philocalia - the Greek anthology of Origen's writings, a Greek witness to set beside Rufinus's softened Latin, I.11 — Origen",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.origen-philocalia",
+                        "author": "Origen (c. 185-254 CE); anthology compiled in-horizon by Basil the Great and Gregory Nazianzen",
+                        "work": "Philocalia - the Greek anthology of Origen's writings, a Greek witness to set beside Rufinus's softened Latin (where a passage exists in both, the Philocalia's Greek is the stronger witness, especially De Principiis IV on the senses of Scripture)",
+                        "locus": "I.11 (file line 76)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. George Lewis (T. & T. Clark, Edinburgh, 1911) - translator identification carried on external bibliographic grounds (archive.org/details/philocaliaoforig00orig), not stated inline in the transcription; vendored as cic/texts/origen_philocalia_lewis1911.txt"
+                      },
+                      {
+                        "source_id": "alx.source.origen-de-principiis",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages",
+                        "locus": "IV.1.11 (the same doctrine via Rufinus's Latin)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ],
+                    "spoken_rendering": "Just as a human being consists of body, soul, and spirit, so too does Scripture. It too was given by God, for the salvation of humankind.",
+                    "speaker": "Origen"
+                  }
+                ]
+              },
+              {
+                "sentence": "Some who walked this road fell away under persecution - the *lapsi*, those who gave way.",
+                "record_ids": [
+                  "alx.term.lapsi"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.lapsi",
+                    "record_type": "term",
+                    "label": "the lapsed (lapsi)",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.dionysius-extant-fragments",
+                        "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                        "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                        "locus": "the Decian-era letters",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "handed_to_facilitator": false,
+            "uncited_claim_sentences": [
+              "A person came because someone brought them, or because they had heard the Scriptures read.",
+              "They asked to be taught.",
+              "That asking was the beginning.",
+              "They were called catechumens, hearers.",
+              "They came to the assembly.",
+              "They heard the Scriptures read and expounded.",
+              "They learned the prayers.",
+              "They learned how to live - what to put off, what to take up, how to order a household toward God.",
+              "For most, it was simpler and shorter, but never instant.",
+              "Father, Son, and Spirit.",
+              "The Incarnation.",
+              "The resurrection.",
+              "The judgment.",
+              "That rule set the bounds for everything else.",
+              "At some point - when the teachers judged they were ready, not when a calendar said so - they were enrolled for baptism.",
+              "In the final stretch before the water, the teaching intensified.",
+              "They went down into the water.",
+              "They were baptized into the threefold name: Father, Son, and Holy Spirit.",
+              "They came up.",
+              "They had crossed.",
+              "After the water came the table.",
+              "They joined the assembly fully now, no longer dismissed before the prayers.",
+              "And the formation did not stop.",
+              "The timing varied - how long someone stayed a hearer depended on their own readiness and the teacher's judgment, not a fixed rule.",
+              "And we are honest about who this picture represents: it is the urban, Greek-speaking ecology we can document.",
+              "The villages up the river had the same baptism and the same table, but how the teaching reached them in their own tongue, step by step, our record leaves mostly silent.",
+              "One more thing, because it belongs to honesty.",
+              "When peace came, the church fought bitterly over them.",
+              "The tradition that won here brought the repentant back, even at the deathbed.",
+              "The road could be walked twice.",
+              "That, too, was part of how people joined us - or rejoined us."
+            ]
+          },
+          "records_only": {
+            "answer_text": "The road to baptism was long, and it moved through stages. We will walk you through it as our record shows it.\n\n**First came the turning.** Not agreeing with a list of claims, but the soul's first real movement toward God - that was pistis, faith, and it was where the path began. Someone heard the Gospel read aloud, or saw how the community answered suffering, or met a teacher whose life bore the mark of what he taught. The student Gregory said it plainly: 'like a spark falling on our innermost soul, love was kindled and burst into flame within us'. That spark was not forced. It came through friendship, through time spent near.\n\n**Then came the long teaching - the katechesis.** The one turning toward baptism entered instruction that could last years. In the school tradition, this was face-to-face with a teacher: reading Scripture at depth, learning to see the divine mysteries it held, asking hard questions, being corrected, growing. The teaching was not information piled up. It was formation - 'our Instructor, the Word, cures the unnatural desires of the soul, and he does this by urging us on'. The student was being changed by what he studied, not merely filled with it.\n\nWhat was taught? The rule of faith first - the short summary of what the apostles handed down, which set the bounds for all reading. Then Scripture itself, read for its depth: 'just as a human being consists of body, soul, and spirit, so too does Scripture'. The plain sense, and the deeper senses that open only to a soul learning to see. The reading was not analysis applied to a closed text. It was meeting the Logos who speaks through it.\n\n**Then came scrutiny and readiness.** We know the teaching was staged and that readiness was tested, but our record does not give us the ceremony's own shape in detail. What we do know: the catechumen was moving toward the water, and the community was watching to see if the life matched the learning.\n\n**Then came the baptism itself - the crossing.** The body went under the water and came up. It was not a ceremony announcing a choice already made. It was a real crossing, the body sharing in Christ's death and rising. The one baptized was called photismos - the enlightened one. The light given at that moment was not metaphor.\n\n**After the water came the table.** The newly baptized joined the community at the Eucharist - the bread and cup - for the first time as a full member. Athanasius called the Scriptures 'fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold', and the same could be said of the table: it was the community's shared thanksgiving, and the newly baptized now stood at it.\n\n**The formation did not end there.** The baptized person kept learning, kept reading Scripture at deeper levels, kept being changed. One of our teachers compared the church's ranks - bishops, presbyters, deacons - to stages in a school, each one a further step in knowing God. Formation was not a doorway you passed through once. It was the whole path.\n\nThis is what we can show you from the record. Two cautions. First, this picture comes mostly from the urban, literate stream - the school and its surrounding world. How the villages up the river brought someone to the water, in their own practice and their own words, our record mostly does not say. Second, even in the city, we are giving you the path's shape, not a ceremony's script. The mysterion - the depth known only from inside - was not written out for spectators.",
+            "citation_entries": [
+              {
+                "sentence": "The road to baptism was long, and it moved through stages.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.katechesis",
+                    "record_type": "term",
+                    "label": "katechesis",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-contra-celsum",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "Contra Celsum (Against Celsus)",
+                        "locus": "III.51",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "**First came the turning.** Not agreeing with a list of claims, but the soul's first real movement toward God - that was pistis, faith, and it was where the path began.",
+                "record_ids": [
+                  "alx.term.pistis"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.pistis",
+                    "record_type": "term",
+                    "label": "pistis",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "II.2-6",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-contra-celsum",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "Contra Celsum (Against Celsus)",
+                        "locus": "I.9-13",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The student Gregory said it plainly: 'like a spark falling on our innermost soul, love was kindled and burst into flame within us'.",
+                "record_ids": [
+                  "alx.quote.gregory-spark"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.gregory-spark",
+                    "record_type": "quote",
+                    "label": "Oration and Panegyric Addressed to Origen, VI — Gregory",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.gregory-address-to-origen",
+                        "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                        "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                        "locus": "VI (anf06 lines 3016-3022)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      }
+                    ],
+                    "spoken_rendering": "And so, like a spark falling on our innermost soul, love was kindled and burst into flame within us. It was love at once for the Holy Word, the most lovely object of all, who draws everyone irresistibly toward himself by his unutterable beauty. And it was love for this man, his friend and advocate.",
+                    "speaker": "Gregory"
+                  }
+                ]
+              },
+              {
+                "sentence": "**Then came the long teaching - the katechesis.** The one turning toward baptism entered instruction that could last years.",
+                "record_ids": [
+                  "alx.term.katechesis"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.katechesis",
+                    "record_type": "term",
+                    "label": "katechesis",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-contra-celsum",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "Contra Celsum (Against Celsus)",
+                        "locus": "III.51",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie (books VII-VIII with W.H. Cairns), Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "In the school tradition, this was face-to-face with a teacher: reading Scripture at depth, learning to see the divine mysteries it held, asking hard questions, being corrected, growing.",
+                "record_ids": [
+                  "alx.story.gregory-formation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.story.gregory-formation",
+                    "record_type": "story",
+                    "label": "The student Gregory's own account of how Origen taught him. He gave it at his farewell.",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.gregory-address-to-origen",
+                        "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                        "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                        "locus": "VI-XVI (anf06 from line 2288)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "It was formation - 'our Instructor, the Word, cures the unnatural desires of the soul, and he does this by urging us on'.",
+                "record_ids": [
+                  "alx.quote.clement-instructor"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.clement-instructor",
+                    "record_type": "quote",
+                    "label": "Paedagogus, I.2 — Clement",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I.2 (anf02 line 18785)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      }
+                    ],
+                    "spoken_rendering": "So our Instructor, the Word, cures the unnatural desires of the soul, and he does this by urging us on.",
+                    "speaker": "Clement"
+                  }
+                ]
+              },
+              {
+                "sentence": "The student was being changed by what he studied, not merely filled with it.",
+                "record_ids": [
+                  "alx.gravity.learning-formation",
+                  "alx.gravity.soul-transformation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.gravity.learning-formation",
+                    "record_type": "gravity",
+                    "label": "Learning-Formation Integration",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.gregory-address-to-origen",
+                        "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                        "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                        "locus": "VII-IX, XIII (\"theology\" in the manifestations list below is Argument XIII (\"The Method Which Origen Used in His Theological and Metaphysical Instructions,\" anf06 line 3661), outside the VII-IX range; VII=logic, VIII=physics/geometry/astronomy, IX=ethics)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      },
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "I-II",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      }
+                    ]
+                  },
+                  {
+                    "record_id": "alx.gravity.soul-transformation",
+                    "record_type": "gravity",
+                    "label": "Transformation of the Soul Toward God",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I (the Instructor's pedagogy)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.gregory-address-to-origen",
+                        "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                        "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt",
+                        "locus": "VI-IX",
+                        "rights_status": "public-domain",
+                        "edition": "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+                      },
+                      {
+                        "source_id": "alx.source.athanasius-de-incarnatione",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "De Incarnatione Verbi Dei (On the Incarnation of the Word)",
+                        "locus": "54 ('made man that we might be made God', npnf204 line 18744, verified)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The rule of faith first - the short summary of what the apostles handed down, which set the bounds for all reading.",
+                "record_ids": [
+                  "alx.dw.apostolic"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.dw.apostolic",
+                    "record_type": "doctrinal_witness",
+                    "label": "How do you know your practices went back to the apostles, and were not later inventions?…",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.origen-de-principiis",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages",
+                        "locus": "praef.",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      },
+                      {
+                        "source_id": "alx.source.athanasius-festal-letters",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The edition's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - that is, the rest of the letter is not given here.",
+                        "locus": "Letter 39 (the received scriptures)",
+                        "rights_status": "public-domain",
+                        "edition": "NPNF series 2 vol. 4 (1892, ed. Robertson; the Festal Letters translation derives from the 1854 Library-of-the-Fathers rendering of the Syriac corpus - per-work translator credit to be re-read from the division's own front matter at first quote), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Then Scripture itself, read for its depth: 'just as a human being consists of body, soul, and spirit, so too does Scripture'.",
+                "record_ids": [
+                  "alx.quote.origen-scripture-senses"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.origen-scripture-senses",
+                    "record_type": "quote",
+                    "label": "Philocalia - the Greek anthology of Origen's writings, a Greek witness to set beside Rufinus's softened Latin, I.11 — Origen",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.origen-philocalia",
+                        "author": "Origen (c. 185-254 CE); anthology compiled in-horizon by Basil the Great and Gregory Nazianzen",
+                        "work": "Philocalia - the Greek anthology of Origen's writings, a Greek witness to set beside Rufinus's softened Latin (where a passage exists in both, the Philocalia's Greek is the stronger witness, especially De Principiis IV on the senses of Scripture)",
+                        "locus": "I.11 (file line 76)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. George Lewis (T. & T. Clark, Edinburgh, 1911) - translator identification carried on external bibliographic grounds (archive.org/details/philocaliaoforig00orig), not stated inline in the transcription; vendored as cic/texts/origen_philocalia_lewis1911.txt"
+                      },
+                      {
+                        "source_id": "alx.source.origen-de-principiis",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages",
+                        "locus": "IV.1.11 (the same doctrine via Rufinus's Latin)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ],
+                    "spoken_rendering": "Just as a human being consists of body, soul, and spirit, so too does Scripture. It too was given by God, for the salvation of humankind.",
+                    "speaker": "Origen"
+                  }
+                ]
+              },
+              {
+                "sentence": "The plain sense, and the deeper senses that open only to a soul learning to see.",
+                "record_ids": [
+                  "alx.gravity.scripture-formative"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.gravity.scripture-formative",
+                    "record_type": "gravity",
+                    "label": "Scripture as Deep Formative Reality",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.origen-philocalia",
+                        "author": "Origen (c. 185-254 CE); anthology compiled in-horizon by Basil the Great and Gregory Nazianzen",
+                        "work": "Philocalia - the Greek anthology of Origen's writings, a Greek witness to set beside Rufinus's softened Latin (where a passage exists in both, the Philocalia's Greek is the stronger witness, especially De Principiis IV on the senses of Scripture)",
+                        "locus": "I (senses of Scripture; line 76)",
+                        "rights_status": "public-domain",
+                        "edition": "trans. George Lewis (T. & T. Clark, Edinburgh, 1911) - translator identification carried on external bibliographic grounds (archive.org/details/philocaliaoforig00orig), not stated inline in the transcription; vendored as cic/texts/origen_philocalia_lewis1911.txt"
+                      },
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "passim",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.athanasius-festal-letters",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The edition's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - that is, the rest of the letter is not given here.",
+                        "locus": "Letter 39",
+                        "rights_status": "public-domain",
+                        "edition": "NPNF series 2 vol. 4 (1892, ed. Robertson; the Festal Letters translation derives from the 1854 Library-of-the-Fathers rendering of the Syriac corpus - per-work translator credit to be re-read from the division's own front matter at first quote), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "It was meeting the Logos who speaks through it.",
+                "record_ids": [
+                  "alx.term.interpretation"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.interpretation",
+                    "record_type": "term",
+                    "label": "interpretation",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.origen-de-principiis",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages",
+                        "locus": "IV",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      },
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "I, V, VI",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The light given at that moment was not metaphor.",
+                "record_ids": [
+                  "alx.term.baptism"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.baptism",
+                    "record_type": "term",
+                    "label": "baptism, photismos (illumination)",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-paidagogos",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Paedagogus (The Instructor)",
+                        "locus": "I.6-7",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Athanasius called the Scriptures 'fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold', and the same could be said of the table: it was the community's shared thanksgiving, and the newly baptized now stood at it.",
+                "record_ids": [
+                  "alx.quote.athanasius-fountains"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.quote.athanasius-fountains",
+                    "record_type": "quote",
+                    "label": "Festal Letters, Letter 39, of 367 — Athanasius",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.athanasius-festal-letters",
+                        "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                        "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The edition's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - that is, the rest of the letter is not given here.",
+                        "locus": "Letter 39, of 367 (npnf204 lines 68808-68812)",
+                        "rights_status": "public-domain",
+                        "edition": "NPNF series 2 vol. 4 (1892, ed. Robertson; the Festal Letters translation derives from the 1854 Library-of-the-Fathers rendering of the Syriac corpus - per-work translator credit to be re-read from the division's own front matter at first quote), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+                      }
+                    ],
+                    "spoken_rendering": "These are fountains of salvation, so that anyone who thirsts may be satisfied by the living words they hold. The teaching of godliness is proclaimed in these alone. Let no one add to them, and let no one take anything away.",
+                    "speaker": "Athanasius"
+                  }
+                ]
+              },
+              {
+                "sentence": "The mysterion - the depth known only from inside - was not written out for spectators.",
+                "record_ids": [
+                  "alx.term.mysterion"
+                ],
+                "sources": [
+                  {
+                    "record_id": "alx.term.mysterion",
+                    "record_type": "term",
+                    "label": "mysterion",
+                    "sources": [
+                      {
+                        "source_id": "alx.source.clement-stromateis",
+                        "author": "Clement of Alexandria (c. 150-215 CE)",
+                        "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                        "locus": "I, V",
+                        "rights_status": "public-domain",
+                        "edition": "trans. William Wilson, Ante-Nicene Fathers vol. 2 (1885), vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+                      },
+                      {
+                        "source_id": "alx.source.origen-de-principiis",
+                        "author": "Origen (c. 185-254 CE)",
+                        "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, which softened some doctrinally suspect passages",
+                        "locus": "IV",
+                        "rights_status": "public-domain",
+                        "edition": "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "handed_to_facilitator": false,
+            "uncited_claim_sentences": [
+              "Someone heard the Gospel read aloud, or saw how the community answered suffering, or met a teacher whose life bore the mark of what he taught.",
+              "That spark was not forced.",
+              "It came through friendship, through time spent near.",
+              "The teaching was not information piled up.",
+              "The reading was not analysis applied to a closed text.",
+              "What we do know: the catechumen was moving toward the water, and the community was watching to see if the life matched the learning.",
+              "**Then came the baptism itself - the crossing.** The body went under the water and came up.",
+              "It was not a ceremony announcing a choice already made.",
+              "It was a real crossing, the body sharing in Christ's death and rising.",
+              "The one baptized was called photismos - the enlightened one.",
+              "**After the water came the table.** The newly baptized joined the community at the Eucharist - the bread and cup - for the first time as a full member.",
+              "**The formation did not end there.** The baptized person kept learning, kept reading Scripture at deeper levels, kept being changed.",
+              "One of our teachers compared the church's ranks - bishops, presbyters, deacons - to stages in a school, each one a further step in knowing God.",
+              "Formation was not a doorway you passed through once.",
+              "It was the whole path.",
+              "Two cautions.",
+              "First, this picture comes mostly from the urban, literate stream - the school and its surrounding world.",
+              "How the villages up the river brought someone to the water, in their own practice and their own words, our record mostly does not say.",
+              "Second, even in the city, we are giving you the path's shape, not a ceremony's script."
+            ]
+          }
+        },
+        "usd": 0.049603,
+        "seconds": 51.87,
+        "out_of_scope_class": null
+      }
+    ]
+  },
+  "actual_usd_spent": 0.049603,
+  "aborted_reason": null
+}
