@@ -79,7 +79,6 @@ def _resolve_story(story_id: str | None, records: dict) -> dict | None:
         return None
     return {
         "id": story_id,
-        "text": rec.get("text"),
         "tellable_as": rec.get("tellable_as"),
         "confidence": _confidence_label(rec),
     }
@@ -162,7 +161,7 @@ def _resolve_doctrinal_witness(dw_id: str | None, records: dict) -> dict | None:
 # rule) rather than here.
 _CITE_TEXT_FIELD_BY_TYPE = {
     "doctrinal_witness": "text",
-    "story": "text",
+    "story": "tellable_as",
     "honest_limit": "statement",
     "contested_claim": "claim",
     "gravity": "description",
@@ -214,11 +213,11 @@ def _orientation(world_front: dict, records: dict) -> dict:
                 "story_id": entry.get("story_id"),
                 # title/when/teaser are the world_front's OWN curated
                 # framing (the story record itself has no such fields) -
-                # text/confidence are pulled from the story record.
+                # tellable_as/confidence are pulled from the story record.
                 "title": entry.get("title"),
                 "when": entry.get("when"),
                 "teaser": entry.get("teaser"),
-                "text": story.get("text") if story else None,
+                "tellable_as": story.get("tellable_as") if story else None,
                 "confidence": story.get("confidence") if story else None,
             }
         )

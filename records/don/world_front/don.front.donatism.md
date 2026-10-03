@@ -317,11 +317,11 @@ orientation:
     grounded_in: [don.figure.emeritus, don.quote.emeritus-magno-argumento, don.story.conference-of-carthage-411]
     hedge: >-
       Even this best-attested voice has real limits. The transcript
-      survives in this corpus's single worst-damaged scan, and only
-      roughly nineteen hundred of its 144,733 lines have been read so
-      far - a systematic search on Emeritus's own name, not the whole
+      survives in this corpus's single worst-damaged scan. Only roughly
+      nineteen hundred of its 144,733 lines have been read so far. That
+      was a systematic search on Emeritus's own name, not the whole
       document. His later dialogue with Augustine in 418 is a separate
-      work that has not yet been incorporated here at all.
+      work. This world does not draw on it at all.
   - figure: don.figure.marculus
     text: >-
       This world remembers Marculus as a man who had already given up

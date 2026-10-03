@@ -1,0 +1,38 @@
+world_code: obel
+process_version: V2.0
+completion_standard_version: V1.4
+started: 2026-09-25
+pilot_world: false
+current_step: Steps 0-2 approved to proceed on the project lead's ruling of 2026-09-26, filed to the current gates; Doc_03 may start only after the handoff gate passes and the project lead sets safety_adjacent; the census floorNote item waits; Representative identity is decided later, at M1 and Doc_10; not Frozen
+status: in_progress
+pause_point: none
+documents:
+  - id: Step_0
+    status: approved to proceed (project lead's ruling of 2026-09-26 on the Round 2 recheck's escalation question)
+    rounds_used: 2
+    review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md]
+  - id: Doc_01
+    status: approved to proceed (project lead's ruling of 2026-09-26 on the Round 2 recheck's escalation question)
+    rounds_used: 2
+    drafter_model: Sonnet 5.5
+    reviewer_model: Opus
+    review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Doc01_Round2_Review.md]
+    gates_result:
+  - id: Doc_02
+    status: approved to proceed (project lead's ruling of 2026-09-26 on the Round 2 recheck's escalation question); the Source Registry is the companion file Source_Registry.md
+    rounds_used: 2
+    drafter_model: Sonnet 5.5
+    reviewer_model: Opus
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md]
+    gates_result:
+  - id: Representative_identity
+    status: decided later in the build, at M1 and Doc_10
+    decided_by_mark:
+    decision_date:
+open_items_pointer: Open_Gaps_Tracking.md
+ledger_pointer:
+handoff_manifest_pointer: build/obel_Handoff_Manifest.md
+metered_ceiling:
+escalations:
+  - the census floorNote states an absolute that this world's vendored source contradicts at p. 34; correcting the census is portfolio-level and waits for the project lead (Open_Gaps_Tracking.md; Build/worlds/_cross-world/NEEDS-RULING.md item 5)
+freeze_package_pointer:

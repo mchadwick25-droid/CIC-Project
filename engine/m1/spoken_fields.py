@@ -109,13 +109,13 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     },
     "quote": {
         "modern_rendering": SpokenField("evidence-head"),
-        "text": SpokenField("evidence-head", "fallback when modern_rendering absent; verbatim, never readability-graded by design"),
+        "text": SpokenField("evidence-head", "verbatim source wording, never voiced or shown; kept on this role so the gates still scan it, never readability-graded by design"),
         "speaker_or_author": SpokenField("participant-label", "feeds _quote_label via _quote_speaker_label"),
         "sources": SpokenField("participant-label", "list of {source_id, locus}; feeds _quote_label"),
     },
     "story": {
         "tellable_as": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head + citation-card label"),
-        "text": SpokenField("voice-diet", "fallback when tellable_as absent; never readability-graded by design"),
+        "text": SpokenField("voice-diet", "source wording, never voiced or shown; kept on this role so the gates still scan it, never readability-graded by design"),
     },
     "demonstration": {
         "exchange": SpokenField("voice-diet", "list of {speaker, text}"),

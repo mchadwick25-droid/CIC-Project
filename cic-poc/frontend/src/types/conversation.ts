@@ -17,6 +17,7 @@ export interface SourceReference {
   work: string | null;
   locus: string | null;
   rights_status: string | null;
+  edition?: string | null;
 }
 
 export interface SourceCard {
@@ -24,11 +25,10 @@ export interface SourceCard {
   record_type: string;
   label: string;
   sources: SourceReference[];
-  // Quote records spoken in a build-authored modern rendering carry both
-  // forms: what was said at the table and the original wording, shown on
-  // the click page.
+  // Quote cards carry the modern rendering the voice speaks and the
+  // speaker; the source reference is in `sources`.
   spoken_rendering?: string | null;
-  original_wording?: string | null;
+  speaker?: string | null;
   // engine/m4/citation_cards.py's own modern_term enrichment: present only
   // when record_type is "modern_term" - the plain-English sense of a
   // modern word the Facilitator bridged away from the voice, plus the

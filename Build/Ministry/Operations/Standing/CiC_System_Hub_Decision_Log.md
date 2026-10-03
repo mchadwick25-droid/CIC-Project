@@ -6018,7 +6018,6 @@ ruling of 2026-09-30 ("Cap ruling: jes Step 0") covers the same review under its
 entry covers is `Step0_Review_Round3_SpotCheck.md`. The entry of 2026-09-30 is unchanged and still names the
 review under its earlier name.
 
-
 ## 2026-10-02 - Claude threads merge their own pull requests
 
 The project lead ruled that a Claude thread merges the pull requests it opens, instead of leaving the merge button to the project lead. In the project lead's words: "if i am just pushing buttons i would rather you do that." He confirmed the practice again on 2026-10-02 with "yes you merge."
@@ -6075,3 +6074,91 @@ The project lead ruled on 2026-10-02:
 20. A cell's dossier holds the cell's own records plus all of the world's doctrinal witnesses and stories. Terms reach the voice through the index and the glosses. This is change order CO-7 on Design C's staging (decision 3), where a dossier held only the records whose notes name the cell. On the baseline it raises the share of cited records held from 30.7% to 54.3%. E1 is redesigned on this layout, and its settings come back to the project lead before it runs.
 
 He also ruled the same day that Bedrock spend is for generating conversation, and review and grading run inside the build session.
+
+## 2026-10-02 - Conversation system design: one whole-world prompt for every world (decision 21, change order CO-8)
+
+Under decision 20, a cell's dossier came to 74% to 95% of the whole-world prompt, because the world's doctrinal witnesses, stories and shared lists carry most of its text (Conversation-Transparency-Engine Decision-Log, Entry 88). The cost case for cell dossiers mostly went with it, while the wrong-cell risk stayed.
+
+21. Every world uses one whole-world prompt, the design's Design A, as change order CO-8 on decision 3 and superseding the layout in decision 20. The engine shape segment, caching, use notes and the gates stand. E1 narrows to native citations against the hand-copied citation ids on the whole-world prompt, under the cap already approved. The cross-cell questions drafted for the dossier test are shelved.
+
+The project lead also stated the voice's boundary in his words: "the representitive should always be bound by what the world would know. i dont know is better than stepping outside of the world sources", and "if pressure on the representitive is strong, the facilitator can step in and explain the boundry."
+
+## 2026-10-02 - Native citations not adopted (decision 22)
+
+E1 ran native API citations against the hand-copied citation ids on the whole-world prompt, all eleven worlds, for $7.97. A blind Opus review of 33 paired replies judged the hand-copied ids better grounded in 15 pairs and native citations in 7, with 11 ties. Claims not carried by a cited record: 19.9% against 23.9%. Native replies also cited fewer records and still carried hand-typed tags in five worlds. Details: Conversation-Transparency-Engine Decision-Log, Entry 89.
+
+22. Decision 10's change is not adopted. Change order CO-5 (R47) closes without adoption: R9, R10, R17 and the R27 family stay on the hand-copied citation-id contract. The native arm is shelved; a retry would first need an evidence block that prints no ids. Claim support against cited records becomes a measured dimension, reviewed internally by Opus, ahead of the use-note work.
+
+## 2026-10-02 - cic/texts size triggers raised (decision 23)
+
+`cic/texts/` holds 634 MB in 451 files, against a 700 MB planning trigger. The plan (`Build/worlds/_cross-world/PLAN-texts-store-scaling.md`) says to re-open it at that size, and it was re-read against current measurements. The whole repository packs to 2.22 GiB. The 875 MB of MP3 narration under `cic-website/` is larger than the texts and grows with the narration work. A 27-source vendoring in review adds about 37 MB to the texts.
+
+23. The planning triggers move to 1 GB (re-read the plan) and 1.5 GB (act on it), and `cic/texts/` stays in plain git. The project lead chose this over splitting the store into its own repository now and over moving the audio out first. A split still needs the rights gate to learn a "store not checked out" state, and it stays a later, separate sign-off. Where audio is stored is a separate decision and is not made here. The plan now asks for a measured fresh-session start time before the next trigger is set.
+
+## 2026-10-02 - Participant-facing content is modern English only (decision 24)
+
+The project lead ruled: "make sure everything that is participant facing is translated into modern english, we translate quotes and stories and use that in the conversation."
+
+24. Quotes reach the voice and the participant only as their `modern_rendering`, stories only as their `tellable_as`. The source wording never reaches the voice or the app. Asked what a quote's citation card should show at its deepest level, where it showed the original wording, he chose the modern rendering plus the source reference (author, work, section, edition), so anyone who wants the original can follow the reference. The fix and the repin of every world: Conversation-Transparency-Engine Decision-Log, Entry 90.
+
+## 2026-10-03 - Claim support becomes a gate: unsupported plus uncited (decision 25)
+
+The first claim-support measurement (Transparency Engine Decision-Log Entry 92) graded 33 confirm-pass replies, 461 specific claims, with internal Opus review: supported 43%, stretched 11.5%, unsupported 3.7%, uncited 42%. A blind second reviewer agreed on 96.6% of sentences, clearing the 85% bar set with the method.
+
+25. Claim support is a gate. A specific claim fails when the participant cannot trace it to a record that carries it: unsupported (its cited record does not carry it) or uncited (it cites nothing). Today's fleet figure is 45.6%. The threshold is set after the voice is changed to cite every specific claim, measured the same way. The project lead chose this over counting unsupported alone (3.7%, which leaves uncited claims unmeasured), over unsupported plus stretched, and over keeping it as a tracked measure only. It follows his rule that the Representative is bound by its world's sources.
+
+---
+
+## 2026-09-26 — Escalation does not park the document: a named escalated item waits, the document proceeds
+
+**Ruling.** Mark, 2026-09-26: "The document can proceed; only the named item waits. It goes
+to NEEDS-RULING or the world's Open_Gaps file, as long as it doesn't change the document's
+own conclusions. If it does change them (a Representative's identity, the world's boundary,
+the core classification), the document waits."
+
+So the `cic-build-cycle` gate — "If any apply, stop and escalate directly to the project
+lead — do not self-dispose, regardless of how clean the review came back" — is not a
+whole-document hold. It has two branches, and which one applies turns on a test the gate
+never stated:
+
+- **The escalated item does not change the document's own conclusions** → the document
+  proceeds to "Approved to proceed" on the build thread's own self-disposition under
+  CO-022, and the item is registered as a named open item in that world's
+  `Open_Gaps_Tracking.md`, or in `Build/worlds/_cross-world/NEEDS-RULING.md` where it is
+  cross-world. The item waits; the document does not.
+- **The escalated item does change them** — Mark's own three examples: a Representative's
+  identity, the world's boundary, the core classification → the document waits.
+
+**Why it was asked.** The `obel` (Old Believers) package raised it. Its Round 2 independent
+recheck flagged that Step 0 §5 and Doc_02 both named governance/methodology and
+portfolio-level escalations and then announced the thread would self-dispose anyway, which
+read against the gate's plain words; the build thread then parked all four documents on Mark
+rather than answer a question about its own package. Neither reading was obviously wrong,
+which is what made it a real escalation rather than a thread's uncertainty. `obel` is the
+only world that was parked this way — checked across `worlds/` — so there is no fleet-wide
+backlog of documents to release.
+
+**Applied to `obel` the same day.** Its one remaining escalation is the census's own
+`floorNote`/`statusDescription`, which carry an absolute "no question of doctrine arises
+here at all" that this world's own vendored primary source contradicts at p. 34 of the
+Avvakum *Zhitie*, and which were cited approvingly at a Frozen portfolio gate. Tested
+against the ruling: correcting the census moves the census *toward* what these documents
+already say. The documents' own conclusion — the world clears Constitution Article 4's
+floor comfortably, on the Creed's shared content, and the schism is ritual-and-textual
+rather than a rival confession — does not depend on how the census is worded, and no
+Representative identity, world boundary or core classification turns on it. First branch:
+Step 0, Doc_01, Doc_02 and the Source Registry proceed; the census item waits, registered
+in `Build/worlds/obel/Open_Gaps_Tracking.md` and, because it is portfolio-level and touches a
+Frozen gate artifact, also in `NEEDS-RULING.md`'s hand-maintained tail.
+
+**Still owed, and not done here.** The two-branch rule belongs in the governing process
+documents — `CiC_Record_Native_World_Build_Process_V1.8.md` and the
+`cic-build-cycle` skill's own Disposition and Escalation sections — so the next world does
+not re-derive it. Editing those is a coach thread's authority, not a build or review
+thread's; flagged here for one. Until it lands, this entry is the ruling of record.
+
+**Recorded by** the `obel` Round 2 review thread, which also applied it to that world's four
+documents. Worth naming for the audit trail: that thread reviewed the package it then
+dispositioned, so the disposition rests on Mark's ruling above plus the independent
+confirmation recorded at `Step0_Review_Round2.md` §10, not on the
+disposing thread's own view of the documents' quality.

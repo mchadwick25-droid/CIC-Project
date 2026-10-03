@@ -121,7 +121,7 @@ export function renderDocumentedStories(compiled, opts) {
     const head = [`<h4>${escapeHtml(s.title || "")}</h4>`];
     if (s.when) head.push(`<p class="meta">${escapeHtml(s.when)}</p>`);
     if (s.teaser) head.push(`<p class="teaser">${escapeHtml(s.teaser)}</p>`);
-    const body = (s.text ? narrationPlayer(opts && opts.narration && opts.narration.documented && opts.narration.documented[i]) : "") + (s.text ? paragraphs(s.text) : "");
+    const body = (s.tellable_as ? narrationPlayer(opts && opts.narration && opts.narration.documented && opts.narration.documented[i]) : "") + (s.tellable_as ? paragraphs(s.tellable_as) : "");
     return [
       '<div class="docstory-entry">',
       ...head,

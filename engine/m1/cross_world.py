@@ -74,13 +74,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     # census-linked and frontend-wired in the same pass - real, disclosed,
     # and structurally expected while it awaits M3 admission, not a
     # build-thread task to close early.
-    # check_unregistered_world_dirs's own first real finding. records/lpc/
-    # exists but carries no records/worlds/lpc.yaml entry, so lpc is
-    # invisible to load_registry() and everything downstream of it, gates
-    # and checks alike. Belongs to lpc's own build thread; remove this
-    # entry once lpc is registered.
-    "unregistered-world-dir/lpc": "CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
-    #
     # required-record-type/rzg/search_record: rzg (admitted) carries a
     # world_front and a facilitator_brief record and its site JSON is
     # compiled and committed, but it has zero search_record records - the

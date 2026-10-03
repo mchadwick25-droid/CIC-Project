@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.lancel-actes-de-la-conference-de-carthage-411
   locus: consulted for orientation on what the acts contain, not as a substitute for reading them
-  license: public-domain
+  license: in-copyright-consultation
 relations:
 - type: associated-with
   target: lpc.gravity.conciliar-authority-theory

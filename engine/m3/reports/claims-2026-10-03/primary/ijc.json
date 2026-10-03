@@ -1,0 +1,276 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "ijc:f6-i-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    },
+    {
+     "s": 17,
+     "label": "no_claim"
+    },
+    {
+     "s": 18,
+     "label": "supported"
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    },
+    {
+     "s": 20,
+     "label": "supported"
+    },
+    {
+     "s": 21,
+     "label": "supported"
+    }
+   ]
+  },
+  {
+   "reply": "ijc:c-t-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Contrast with 'like God' asserted with no citation."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Contrast with 'similar to God' asserted with no citation."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "stretched",
+     "note": "Record lists homoousios as one instance of precision-seeking and calls it not independently organizing; 'defined our whole era' is stronger."
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Claim that the Homoian position was not fringe has no citation."
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Constantinople 381 settling the Spirit question cited to no record."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Spirit's titles and co-worship given with no citation."
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    },
+    {
+     "s": 20,
+     "label": "supported"
+    },
+    {
+     "s": 21,
+     "label": "supported"
+    },
+    {
+     "s": 22,
+     "label": "supported"
+    }
+   ]
+  },
+  {
+   "reply": "ijc:f5-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "stretched",
+     "note": "Record says foundations, floors and successor churches survive and patronage was imperial and episcopal; 'would stand' and 'emperor paid for' go further."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Architectural description (columns, apse, bishop's chair, altar) cited to no record."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Claim of survival cited to no record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Claim that Roman basilicas still stand has no citation."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Milan 386 standoff details cited to no record."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Soldiers surrounding the basilica cited to no record."
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Damasus's inscriptions and access roads cited to no record."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Apostolic-memory claim about shrines has no citation."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Causal claim about why shrines lasted has no citation."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Claim about which furnishings would not survive has no citation."
+    },
+    {
+     "s": 12,
+     "label": "no_claim"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Asserts the objects existed; specific claim with no citation."
+    },
+    {
+     "s": 14,
+     "label": "stretched",
+     "note": "Record supports that the voices are office-holders; 'noticed buildings when fought over or paid for' is not in it."
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Claim about what enters the record has no citation."
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Claim about daily objects in the record has no citation."
+    }
+   ]
+  }
+ ]
+}
