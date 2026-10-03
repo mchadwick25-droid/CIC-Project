@@ -64,6 +64,12 @@ ADMIN_LIMIT = (60.0, 10)
 # lockout, not ADMIN_LIMIT's looser 10/min (sized for an operator polling
 # an API with a long random token, a different threat model).
 ADMIN_LOGIN_LIMIT = (900.0, 5)
+# Go Deeper's claim and balance routes get a bucket of their own, apart from
+# conversation traffic; a code is 100 random bits, so this is about load, not
+# guessing. The signed webhook is exempt: Stripe sends from a few addresses and
+# the signature, not the address, is what admits a request.
+DEEPER_LIMIT = (60.0, 60)
+DEEPER_WEBHOOK_PATH = "/api/deeper/webhook"
 
 # Participant-facing words (full inventory in the decision log, alongside
 # the move-3 error layer): plain, no blame, says what to do.
@@ -114,6 +120,7 @@ def install(app):
     converse_limiter = SlidingWindowLimiter(*CONVERSE_LIMIT)
     admin_limiter = SlidingWindowLimiter(*ADMIN_LIMIT)
     admin_login_limiter = SlidingWindowLimiter(*ADMIN_LOGIN_LIMIT)
+    deeper_limiter = SlidingWindowLimiter(*DEEPER_LIMIT)
 
     @app.middleware("http")
     async def _rate_limit(request: Request, call_next):
@@ -138,6 +145,10 @@ def install(app):
             limiter = admin_login_limiter
         elif path.startswith("/api/admin"):
             limiter = admin_limiter
+        elif path == DEEPER_WEBHOOK_PATH:
+            return await call_next(request)
+        elif path.startswith("/api/deeper/"):
+            limiter = deeper_limiter
         else:
             return await call_next(request)
         if not limiter.allow(client_ip(request)):
