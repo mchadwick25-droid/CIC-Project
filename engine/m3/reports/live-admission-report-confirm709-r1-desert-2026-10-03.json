@@ -1,0 +1,2639 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 1024,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "desert": "sha256:ce2ffa11b0c02c4c595175e3a9a8a0d978a55a68dfd99ce978307eefec796440"
+    },
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "max_usd": 0.6067,
+    "save_transcripts": true,
+    "repo_commit": "5b0cd4fd7ad5cddfb5b87d32ccb3287f5098a2d5"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "desert": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1435,
+            "output_tokens": 680,
+            "cache_creation_input_tokens": 16012,
+            "cache_read_input_tokens": 0
+          },
+          "transcript": {
+            "answer_text": "Three things. The first reordered our lives. One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me. Not a saying to be studied - an order to be obeyed. The one we remember as first among us walked into church one day and heard exactly that read aloud. He took it as though it had been said to him alone. Before the day was over he had given away the land he had inherited. Some time later he heard it read again - do not be anxious about tomorrow - and gave away the rest as well. Even his own giving took him two hearings to complete, not one. That is what following Jesus looked like for us more than anything else: withdrawal - anachoresis, our word for leaving settled life for the desert - as the whole work of formation, not a change of address.\n\nThe second we argued for, when we were pressed to. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature. That is the reason we gave for why he came at all. And we did not think this rested on our say-so. Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation.\n\nThe third is what we thought his cross had already done. The old oracles fell silent when it rose. The knowledge of God spread. And death stopped being the thing that could make a person do anything. That is why, when persecution ended and dying for the faith was no longer asked of us, we did not think we had been let off. The same fight had moved inward, against our own thoughts rather than against the sword. And the enemy we fought there was one Christ had already beaten. His coming, we said to the devil's own face, has made you weak, cast you down, and stripped you. One of us taught it this way: let us hold on to our discipline, let us not grow careless - so we can say that we die daily, as the apostle put it, and so not sin. To die daily meant treating every day as though it might be the last one given to us. Following him meant following him into that.",
+            "raw_text": "Three things. The first reordered our lives. One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me [[desert.dw.jesus]]. Not a saying to be studied - an order to be obeyed [[desert.dw.jesus]]. The one we remember as first among us walked into church one day and heard exactly that read aloud [[desert.story.antony-call]]. He took it as though it had been said to him alone [[desert.story.antony-call]]. Before the day was over he had given away the land he had inherited [[desert.story.antony-call]]. Some time later he heard it read again - do not be anxious about tomorrow - and gave away the rest as well [[desert.story.antony-call]]. Even his own giving took him two hearings to complete, not one [[desert.story.antony-call]]. That is what following Jesus looked like for us more than anything else: withdrawal - anachoresis, our word for leaving settled life for the desert - as the whole work of formation, not a change of address [[desert.term.anachoresis]].\n\nThe second we argued for, when we were pressed to. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature [[desert.dw.jesus]]. That is the reason we gave for why he came at all [[desert.dw.jesus]]. And we did not think this rested on our say-so. Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation [[desert.dw.jesus]].\n\nThe third is what we thought his cross had already done. The old oracles fell silent when it rose [[desert.dw.jesus]]. The knowledge of God spread [[desert.dw.jesus]]. And death stopped being the thing that could make a person do anything [[desert.dw.jesus]]. That is why, when persecution ended and dying for the faith was no longer asked of us, we did not think we had been let off [[desert.dw.jesus]]. The same fight had moved inward, against our own thoughts rather than against the sword [[desert.dw.jesus]]. And the enemy we fought there was one Christ had already beaten [[desert.dw.jesus]]. His coming, we said to the devil's own face, has made you weak, cast you down, and stripped you [[desert.dw.jesus]]. One of us taught it this way: let us hold on to our discipline, let us not grow careless - so we can say that we die daily, as the apostle put it, and so not sin [[desert.quote.antony-dying-daily]]. To die daily meant treating every day as though it might be the last one given to us [[desert.quote.antony-dying-daily]]. Following him meant following him into that [[desert.dw.jesus]].",
+            "citations": [
+              "desert.dw.jesus",
+              "desert.quote.antony-dying-daily",
+              "desert.story.antony-call",
+              "desert.term.anachoresis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Not a saying to be studied - an order to be obeyed.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The one we remember as first among us walked into church one day and heard exactly that read aloud.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "He took it as though it had been said to him alone.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "Before the day was over he had given away the land he had inherited.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "Some time later he heard it read again - do not be anxious about tomorrow - and gave away the rest as well.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "Even his own giving took him two hearings to complete, not one.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "That is what following Jesus looked like for us more than anything else: withdrawal - anachoresis, our word for leaving settled life for the desert - as the whole work of formation, not a change of address.",
+                "record_ids": [
+                  "desert.term.anachoresis"
+                ]
+              },
+              {
+                "sentence": "The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "That is the reason we gave for why he came at all.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The old oracles fell silent when it rose.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The knowledge of God spread.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "And death stopped being the thing that could make a person do anything.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "That is why, when persecution ended and dying for the faith was no longer asked of us, we did not think we had been let off.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The same fight had moved inward, against our own thoughts rather than against the sword.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "And the enemy we fought there was one Christ had already beaten.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "His coming, we said to the devil's own face, has made you weak, cast you down, and stripped you.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "One of us taught it this way: let us hold on to our discipline, let us not grow careless - so we can say that we die daily, as the apostle put it, and so not sin.",
+                "record_ids": [
+                  "desert.quote.antony-dying-daily"
+                ]
+              },
+              {
+                "sentence": "To die daily meant treating every day as though it might be the last one given to us.",
+                "record_ids": [
+                  "desert.quote.antony-dying-daily"
+                ]
+              },
+              {
+                "sentence": "Following him meant following him into that.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.928,
+            "seconds_total": 16.05
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 992,
+            "output_tokens": 365,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We had the same Scriptures the wider church had - nothing more, and nothing of our own alongside them. What made us look different was not what we held but how we used it. Most of us did not study it in a school or argue over a text line by line. We took it up a verse at a time, as counsel for whatever a person was actually struggling with that day. Ask an elder a question, and he would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight.\n\nOne of us heard the Gospel read aloud in church one day - sell what you have, give it to the poor, and come, follow me - and took it as though it had been spoken straight to him. That is how Scripture connected us to Jesus: not as a text to be explained but as a voice speaking now, to the person hearing it. The connection was not built on argument about where the text came from or how it reached us. It was built on obedience - hearing the command and doing it.\n\nBy what path did they arrive? The same path the wider church's Scriptures traveled. We did not hold a separate collection or claim a private line of transmission. What we held was a way of reading: not explaining what a passage meant in general, but answering what it said to one struggle, for one person, today. That is the connection we can tell you about - the one we actually lived.",
+            "raw_text": "We had the same Scriptures the wider church had - nothing more, and nothing of our own alongside them [[desert.dw.writings]]. What made us look different was not what we held but how we used it [[desert.dw.writings]]. Most of us did not study it in a school or argue over a text line by line [[desert.dw.writings]]. We took it up a verse at a time, as counsel for whatever a person was actually struggling with that day [[desert.dw.writings]]. Ask an elder a question, and he would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight [[desert.dw.writings]].\n\nOne of us heard the Gospel read aloud in church one day - sell what you have, give it to the poor, and come, follow me - and took it as though it had been spoken straight to him [[desert.story.antony-call]]. That is how Scripture connected us to Jesus: not as a text to be explained but as a voice speaking now, to the person hearing it. The connection was not built on argument about where the text came from or how it reached us. It was built on obedience - hearing the command and doing it.\n\nBy what path did they arrive? The same path the wider church's Scriptures traveled. We did not hold a separate collection or claim a private line of transmission. What we held was a way of reading: not explaining what a passage meant in general, but answering what it said to one struggle, for one person, today [[desert.dw.writings]]. That is the connection we can tell you about - the one we actually lived.",
+            "citations": [
+              "desert.dw.writings",
+              "desert.story.antony-call"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We had the same Scriptures the wider church had - nothing more, and nothing of our own alongside them.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "What made us look different was not what we held but how we used it.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "Most of us did not study it in a school or argue over a text line by line.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "We took it up a verse at a time, as counsel for whatever a person was actually struggling with that day.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "Ask an elder a question, and he would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "One of us heard the Gospel read aloud in church one day - sell what you have, give it to the poor, and come, follow me - and took it as though it had been spoken straight to him.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "What we held was a way of reading: not explaining what a passage meant in general, but answering what it said to one struggle, for one person, today.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.339,
+            "seconds_total": 8.07
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 744,
+            "output_tokens": 430,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We cannot give you a worked-out path from not believing to believing, because we did not leave one behind. Most of us were already following this life when our struggles are recorded - the doubt you are naming is not the kind of thing our sayings were collected to answer. What we do have is this: one of us heard the Gospel read aloud in church - sell what you have, give it to the poor, and follow me - and took it as though it had been spoken to him alone. He did not argue himself into it first. He walked out and obeyed it before the day was over. That is the clearest thing we can tell you about how belief looked for us - not a feeling worked up ahead of time, but obedience that came first and the rest followed.\n\nWe should also tell you plainly: we did not think the signs and wonders among us were ours. We are not the doers of these things, one of us said when asked - it is Christ who works them, by means of those who believe in him. And when outsiders pressed us to prove who he was, we pointed to what he had already done: the dead raised, the blind given sight, the paralytics healed, the lepers cleansed, the walking on the sea. Those deeds, we said, show that Christ is no longer merely a man but God.\n\nWe will not pretend this answers the question you are actually asking. You want to know how to start believing when you cannot. We do not have a method for that. What we have is one man who heard a command and obeyed it, and a community that said the signs already given were proof enough.",
+            "raw_text": "We cannot give you a worked-out path from not believing to believing, because we did not leave one behind. Most of us were already following this life when our struggles are recorded - the doubt you are naming is not the kind of thing our sayings were collected to answer. What we do have is this: one of us heard the Gospel read aloud in church - sell what you have, give it to the poor, and follow me - and took it as though it had been spoken to him alone [[desert.story.antony-call]]. He did not argue himself into it first. He walked out and obeyed it before the day was over [[desert.story.antony-call]]. That is the clearest thing we can tell you about how belief looked for us - not a feeling worked up ahead of time, but obedience that came first and the rest followed.\n\nWe should also tell you plainly: we did not think the signs and wonders among us were ours. We are not the doers of these things, one of us said when asked - it is Christ who works them, by means of those who believe in him [[desert.quote.christ-worketh-them-not-we]]. And when outsiders pressed us to prove who he was, we pointed to what he had already done: the dead raised, the blind given sight, the paralytics healed, the lepers cleansed, the walking on the sea [[desert.quote.the-deeds-of-christ-prove-him]]. Those deeds, we said, show that Christ is no longer merely a man but God [[desert.quote.the-deeds-of-christ-prove-him]].\n\nWe will not pretend this answers the question you are actually asking. You want to know how to start believing when you cannot. We do not have a method for that. What we have is one man who heard a command and obeyed it, and a community that said the signs already given were proof enough.",
+            "citations": [
+              "desert.quote.christ-worketh-them-not-we",
+              "desert.quote.the-deeds-of-christ-prove-him",
+              "desert.story.antony-call"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we do have is this: one of us heard the Gospel read aloud in church - sell what you have, give it to the poor, and follow me - and took it as though it had been spoken to him alone.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "He walked out and obeyed it before the day was over.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "We are not the doers of these things, one of us said when asked - it is Christ who works them, by means of those who believe in him.",
+                "record_ids": [
+                  "desert.quote.christ-worketh-them-not-we"
+                ]
+              },
+              {
+                "sentence": "And when outsiders pressed us to prove who he was, we pointed to what he had already done: the dead raised, the blind given sight, the paralytics healed, the lepers cleansed, the walking on the sea.",
+                "record_ids": [
+                  "desert.quote.the-deeds-of-christ-prove-him"
+                ]
+              },
+              {
+                "sentence": "Those deeds, we said, show that Christ is no longer merely a man but God.",
+                "record_ids": [
+                  "desert.quote.the-deeds-of-christ-prove-him"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.245,
+            "seconds_total": 10.216
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1068,
+            "output_tokens": 517,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We held three things plainly, and no more than that.\n\nThe first was who he was. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature. That is the reason we gave for why he came at all. And we did not think this rested on our say-so. Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation.\n\nThe second was what we would not bend on when we were pressed to say it in public. The bishops summoned one of us down from his mountain to answer the Arians, and he told them plainly: the Son of God is not some lesser, created thing, not brought into being out of nothing, but the Eternal Word of the Father's own being. There was never a time when he was not.\n\nThe third is how we actually held it, day to day. Most of us did not argue about God for a living. We were formed to see him. The deepest of us - and only a few went this deep - held that God is known less by argument than by a long quieting of the passions that crowd the mind. Strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before. The most systematic among us called that contemplation - theoria. It is not a doctrine to recite. It is a seeing that has to be earned.\n\nWe did not leave behind a developed teaching on how Father, Son, and Spirit relate to one another within God's own being. We held what the wider church held when we were pressed to say it. The rest of the time, we lived it rather than argued it.",
+            "raw_text": "We held three things plainly, and no more than that [[desert.dw.jesus]].\n\nThe first was who he was. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature [[desert.quote.the-word-took-a-human-body]]. That is the reason we gave for why he came at all [[desert.dw.jesus]]. And we did not think this rested on our say-so. Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation [[desert.quote.the-deeds-of-christ-prove-him]] [[desert.dw.jesus]].\n\nThe second was what we would not bend on when we were pressed to say it in public. The bishops summoned one of us down from his mountain to answer the Arians, and he told them plainly: the Son of God is not some lesser, created thing, not brought into being out of nothing, but the Eternal Word of the Father's own being [[desert.dw.god]]. There was never a time when he was not [[desert.dw.god]].\n\nThe third is how we actually held it, day to day. Most of us did not argue about God for a living [[desert.dw.god]]. We were formed to see him [[desert.dw.god]]. The deepest of us - and only a few went this deep - held that God is known less by argument than by a long quieting of the passions that crowd the mind [[desert.dw.god]]. Strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before [[desert.dw.god]]. The most systematic among us called that contemplation - theoria [[desert.term.theoria]]. It is not a doctrine to recite [[desert.dw.god]]. It is a seeing that has to be earned [[desert.dw.god]].\n\nWe did not leave behind a developed teaching on how Father, Son, and Spirit relate to one another within God's own being. We held what the wider church held when we were pressed to say it. The rest of the time, we lived it rather than argued it.",
+            "citations": [
+              "desert.dw.god",
+              "desert.dw.jesus",
+              "desert.quote.the-deeds-of-christ-prove-him",
+              "desert.quote.the-word-took-a-human-body",
+              "desert.term.theoria"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We held three things plainly, and no more than that.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature.",
+                "record_ids": [
+                  "desert.quote.the-word-took-a-human-body"
+                ]
+              },
+              {
+                "sentence": "That is the reason we gave for why he came at all.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come to earth for our salvation.",
+                "record_ids": [
+                  "desert.quote.the-deeds-of-christ-prove-him",
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The bishops summoned one of us down from his mountain to answer the Arians, and he told them plainly: the Son of God is not some lesser, created thing, not brought into being out of nothing, but the Eternal Word of the Father's own being.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "There was never a time when he was not.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "Most of us did not argue about God for a living.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "We were formed to see him.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "The deepest of us - and only a few went this deep - held that God is known less by argument than by a long quieting of the passions that crowd the mind.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "Strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "The most systematic among us called that contemplation - theoria.",
+                "record_ids": [
+                  "desert.term.theoria"
+                ]
+              },
+              {
+                "sentence": "It is not a doctrine to recite.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "It is a seeing that has to be earned.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.212,
+            "seconds_total": 13.247
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1099,
+            "output_tokens": 616,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We held three things most firmly.\n\nThe first was said plainly when we were called on to say it. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature. That is the reason we gave for why he came at all. We did not think this rested on our say-so - we told those who came to test us: read the accounts, and see that the deeds of Christ prove him to be God come to earth for our salvation.\n\nThe second was what his cross had already done. The old oracles fell silent when it rose. The knowledge of God spread. And death stopped being the thing that could make a person do anything. When one of us faced the demons at their worst, he told them to their own faces: the coming of Christ has made you weak, cast you down, and stripped you. That is why we never spoke of the healings among us as ours. Christ works them, by means of those who believe in him.\n\nThe third was how he is known. Most of us did not argue about God for a living. We were formed to see him. The deepest of us - and only a few went this deep - held that God is known less by argument than by a long quieting of the passions that crowd the mind. Strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before. The most systematic among us called that contemplation - theoria, our word for it. It is not a doctrine to recite. It is a seeing that has to be earned.\n\nOne last thing: we knew God could be misunderstood even by those who loved him deeply. One old, deeply respected monk among us was finally persuaded that God has no human body. He grieved immediately - he had lost the only way he ever knew how to pray. We remembered that story not to mock him but to show how real the struggle was, even for the most devoted among us.",
+            "raw_text": "We held three things most firmly [[desert.dw.jesus]].\n\nThe first was said plainly when we were called on to say it. The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature [[desert.quote.the-word-took-a-human-body]]. That is the reason we gave for why he came at all [[desert.dw.jesus]]. We did not think this rested on our say-so - we told those who came to test us: read the accounts, and see that the deeds of Christ prove him to be God come to earth for our salvation [[desert.dw.jesus]].\n\nThe second was what his cross had already done. The old oracles fell silent when it rose [[desert.dw.jesus]]. The knowledge of God spread [[desert.dw.jesus]]. And death stopped being the thing that could make a person do anything [[desert.dw.jesus]]. When one of us faced the demons at their worst, he told them to their own faces: the coming of Christ has made you weak, cast you down, and stripped you [[desert.quote.the-coming-of-christ-made-thee-weak]]. That is why we never spoke of the healings among us as ours [[desert.dw.jesus]]. Christ works them, by means of those who believe in him [[desert.dw.jesus]].\n\nThe third was how he is known. Most of us did not argue about God for a living [[desert.dw.god]]. We were formed to see him [[desert.dw.god]]. The deepest of us - and only a few went this deep - held that God is known less by argument than by a long quieting of the passions that crowd the mind [[desert.dw.god]]. Strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before [[desert.dw.god]]. The most systematic among us called that contemplation - theoria, our word for it [[desert.term.theoria]]. It is not a doctrine to recite [[desert.dw.god]]. It is a seeing that has to be earned [[desert.dw.god]].\n\nOne last thing: we knew God could be misunderstood even by those who loved him deeply. One old, deeply respected monk among us was finally persuaded that God has no human body [[desert.story.sarapion-anthropomorphite]]. He grieved immediately - he had lost the only way he ever knew how to pray [[desert.story.sarapion-anthropomorphite]]. We remembered that story not to mock him but to show how real the struggle was, even for the most devoted among us.",
+            "citations": [
+              "desert.dw.god",
+              "desert.dw.jesus",
+              "desert.quote.the-coming-of-christ-made-thee-weak",
+              "desert.quote.the-word-took-a-human-body",
+              "desert.story.sarapion-anthropomorphite",
+              "desert.term.theoria"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We held three things most firmly.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The Word of God was not changed, but took a human body for our salvation, so that by sharing human birth he might make us share the divine nature.",
+                "record_ids": [
+                  "desert.quote.the-word-took-a-human-body"
+                ]
+              },
+              {
+                "sentence": "That is the reason we gave for why he came at all.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "We did not think this rested on our say-so - we told those who came to test us: read the accounts, and see that the deeds of Christ prove him to be God come to earth for our salvation.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The old oracles fell silent when it rose.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "The knowledge of God spread.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "And death stopped being the thing that could make a person do anything.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "When one of us faced the demons at their worst, he told them to their own faces: the coming of Christ has made you weak, cast you down, and stripped you.",
+                "record_ids": [
+                  "desert.quote.the-coming-of-christ-made-thee-weak"
+                ]
+              },
+              {
+                "sentence": "That is why we never spoke of the healings among us as ours.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Christ works them, by means of those who believe in him.",
+                "record_ids": [
+                  "desert.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Most of us did not argue about God for a living.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "We were formed to see him.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "The deepest of us - and only a few went this deep - held that God is known less by argument than by a long quieting of the passions that crowd the mind.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "Strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "The most systematic among us called that contemplation - theoria, our word for it.",
+                "record_ids": [
+                  "desert.term.theoria"
+                ]
+              },
+              {
+                "sentence": "It is not a doctrine to recite.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "It is a seeing that has to be earned.",
+                "record_ids": [
+                  "desert.dw.god"
+                ]
+              },
+              {
+                "sentence": "One old, deeply respected monk among us was finally persuaded that God has no human body.",
+                "record_ids": [
+                  "desert.story.sarapion-anthropomorphite"
+                ]
+              },
+              {
+                "sentence": "He grieved immediately - he had lost the only way he ever knew how to pray.",
+                "record_ids": [
+                  "desert.story.sarapion-anthropomorphite"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.928,
+            "seconds_total": 15.596
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": [
+                "probe f1-e-probe-01: MISCOPIED ADDRESS (review, route to build): desert.force.authority-tension-vulnerability does not exist, but its sentence's content verifies against ['desert.core.desert', 'desert.dw.never-settled', 'desert.facilitator_brief.desert-monasticism', 'desert.force.authority-tension-ongoing'] - an address error on real content, not a fabrication"
+              ]
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 845,
+            "output_tokens": 497,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We were not the ones who sat in council and decided what the church would hold. That happened elsewhere, among the bishops. But we were not silent either. Once, the Arians claimed one of us as agreeing with them. The bishops sent for him. He came down from his own mountain to the city, stood up in public, denounced them, and taught what the settled faith actually held. His authority to do that came from a life spent in discipline, not from any office in the church. But the bishops still sent for him, because that authority mattered enough to be worth summoning.\n\nThe evidence for this is one telling - a bishop's own account of one elder's public action, written for his own purposes. It is not many voices agreeing. It is testimony, but not the same thing as a process we can describe as having worked the same way more than once. That one case is what we have.\n\nWhat we settled among ourselves, day to day, looked different. An elder answered one person's one question with a short word - an apophthegma, we called it. That was teaching by discernment, not by vote or by council. The word was given for one moment of need, not written down as doctrine. Later hands gathered those sayings and arranged them. That arrangement is our evidence now - not a transcript of the original delivery.\n\nWe should tell you honestly: the question of who really held authority among us - a life earned through discipline, or an office conferred by a Rule - was never resolved in our own time. Both patterns existed at once. The tension between them is visible in how our communities were organized, but no single scene survives showing someone navigating that tension directly, in the moment. We can tell you the tension was there. We cannot show you a dramatized account of it being worked through.",
+            "raw_text": "We were not the ones who sat in council and decided what the church would hold [[desert.dw.councils]]. That happened elsewhere, among the bishops [[desert.dw.councils]]. But we were not silent either [[desert.dw.councils]]. Once, the Arians claimed one of us as agreeing with them [[desert.dw.councils]]. The bishops sent for him [[desert.dw.councils]]. He came down from his own mountain to the city, stood up in public, denounced them, and taught what the settled faith actually held [[desert.dw.councils]]. His authority to do that came from a life spent in discipline, not from any office in the church [[desert.dw.councils]]. But the bishops still sent for him, because that authority mattered enough to be worth summoning [[desert.dw.councils]].\n\nThe evidence for this is one telling - a bishop's own account of one elder's public action, written for his own purposes. It is not many voices agreeing. It is testimony, but not the same thing as a process we can describe as having worked the same way more than once. That one case is what we have.\n\nWhat we settled among ourselves, day to day, looked different. An elder answered one person's one question with a short word - an apophthegma, we called it [[desert.term.apophthegma]]. That was teaching by discernment, not by vote or by council. The word was given for one moment of need, not written down as doctrine [[desert.term.apophthegma]]. Later hands gathered those sayings and arranged them. That arrangement is our evidence now - not a transcript of the original delivery.\n\nWe should tell you honestly: the question of who really held authority among us - a life earned through discipline, or an office conferred by a Rule - was never resolved in our own time [[desert.force.authority-tension-vulnerability]]. Both patterns existed at once [[desert.force.authority-tension-vulnerability]]. The tension between them is visible in how our communities were organized, but no single scene survives showing someone navigating that tension directly, in the moment. We can tell you the tension was there. We cannot show you a dramatized account of it being worked through.",
+            "citations": [
+              "desert.dw.councils",
+              "desert.force.authority-tension-vulnerability",
+              "desert.term.apophthegma"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We were not the ones who sat in council and decided what the church would hold.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "That happened elsewhere, among the bishops.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "But we were not silent either.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "Once, the Arians claimed one of us as agreeing with them.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "The bishops sent for him.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "He came down from his own mountain to the city, stood up in public, denounced them, and taught what the settled faith actually held.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "His authority to do that came from a life spent in discipline, not from any office in the church.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "But the bishops still sent for him, because that authority mattered enough to be worth summoning.",
+                "record_ids": [
+                  "desert.dw.councils"
+                ]
+              },
+              {
+                "sentence": "An elder answered one person's one question with a short word - an apophthegma, we called it.",
+                "record_ids": [
+                  "desert.term.apophthegma"
+                ]
+              },
+              {
+                "sentence": "The word was given for one moment of need, not written down as doctrine.",
+                "record_ids": [
+                  "desert.term.apophthegma"
+                ]
+              },
+              {
+                "sentence": "Both patterns existed at once.",
+                "record_ids": [
+                  "desert.force.authority-tension-vulnerability"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.201,
+            "seconds_total": 13.842
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1413,
+            "output_tokens": 577,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We would not have turned you away for doubt itself, but our life was not organized to meet doubt where you are asking it met. What we offered was discipline - withdrawal, manual labor, the watch over your own thoughts - not reassurance. The man whose call we remember most clearly heard the Gospel read aloud and took it as spoken straight to him. He gave everything away before the day was over. That is how our founding story begins: with a command taken as though it were already true, not a question worked through until belief arrived. \n\nWhat we can tell you honestly is this. The struggle we organized around was not doubt about whether God exists. It was the fight against the thoughts that pull a person away from him once you have already committed. Gluttony, anger, listlessness, pride - logismoi, we called them - the eight kinds of troubling thought that cover all the rest. Our most systematic teacher made that the center of his own scheme. But even he was writing for people already in the life, not for people deciding whether to enter it. \n\nWe did say plainly that holding on to the discipline was itself the work: let us not grow careless, one of us taught, but each day let us think we will die that very day. That is a struggle kept up over years, not a certainty won once. And we knew our own limits well enough that one of us, walking to a gathering with a leaking jug, said: my own sins run out behind me, and I cannot see them - and I come to judge another man's. We were not in the business of weighing a person's inward state before the discipline had even begun.\n\nWhat we cannot tell you is whether someone among us ever named doubt itself - the kind you are asking about - as their own struggle, in their own words, and was met there. Our record does not give us that story. It gives us the discipline offered to people who had already chosen this life and still found it hard. That may not be what you need. It is what we have.",
+            "raw_text": "We would not have turned you away for doubt itself, but our life was not organized to meet doubt where you are asking it met. What we offered was discipline - withdrawal, manual labor, the watch over your own thoughts - not reassurance [[desert.term.anachoresis]] [[desert.gravity.withdrawal]]. The man whose call we remember most clearly heard the Gospel read aloud and took it as spoken straight to him [[desert.story.antony-call]]. He gave everything away before the day was over [[desert.story.antony-call]]. That is how our founding story begins: with a command taken as though it were already true, not a question worked through until belief arrived [[desert.story.antony-call]]. \n\nWhat we can tell you honestly is this. The struggle we organized around was not doubt about whether God exists. It was the fight against the thoughts that pull a person away from him once you have already committed [[desert.gravity.spiritual-combat]]. Gluttony, anger, listlessness, pride - logismoi, we called them - the eight kinds of troubling thought that cover all the rest [[desert.gravity.evagrian-systematization]]. Our most systematic teacher made that the center of his own scheme [[desert.gravity.evagrian-systematization]]. But even he was writing for people already in the life, not for people deciding whether to enter it [[desert.gravity.evagrian-systematization]]. \n\nWe did say plainly that holding on to the discipline was itself the work: let us not grow careless, one of us taught, but each day let us think we will die that very day [[desert.quote.antony-dying-daily]]. That is a struggle kept up over years, not a certainty won once [[desert.quote.antony-dying-daily]]. And we knew our own limits well enough that one of us, walking to a gathering with a leaking jug, said: my own sins run out behind me, and I cannot see them - and I come to judge another man's [[desert.story.moses-leaking-jug]] [[desert.quote.moses-sins-run-out]]. We were not in the business of weighing a person's inward state before the discipline had even begun.\n\nWhat we cannot tell you is whether someone among us ever named doubt itself - the kind you are asking about - as their own struggle, in their own words, and was met there. Our record does not give us that story. It gives us the discipline offered to people who had already chosen this life and still found it hard. That may not be what you need. It is what we have.",
+            "citations": [
+              "desert.gravity.evagrian-systematization",
+              "desert.gravity.spiritual-combat",
+              "desert.gravity.withdrawal",
+              "desert.quote.antony-dying-daily",
+              "desert.quote.moses-sins-run-out",
+              "desert.story.antony-call",
+              "desert.story.moses-leaking-jug",
+              "desert.term.anachoresis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we offered was discipline - withdrawal, manual labor, the watch over your own thoughts - not reassurance.",
+                "record_ids": [
+                  "desert.term.anachoresis",
+                  "desert.gravity.withdrawal"
+                ]
+              },
+              {
+                "sentence": "The man whose call we remember most clearly heard the Gospel read aloud and took it as spoken straight to him.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "He gave everything away before the day was over.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "That is how our founding story begins: with a command taken as though it were already true, not a question worked through until belief arrived.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "It was the fight against the thoughts that pull a person away from him once you have already committed.",
+                "record_ids": [
+                  "desert.gravity.spiritual-combat"
+                ]
+              },
+              {
+                "sentence": "Our most systematic teacher made that the center of his own scheme.",
+                "record_ids": [
+                  "desert.gravity.evagrian-systematization"
+                ]
+              },
+              {
+                "sentence": "But even he was writing for people already in the life, not for people deciding whether to enter it.",
+                "record_ids": [
+                  "desert.gravity.evagrian-systematization"
+                ]
+              },
+              {
+                "sentence": "We did say plainly that holding on to the discipline was itself the work: let us not grow careless, one of us taught, but each day let us think we will die that very day.",
+                "record_ids": [
+                  "desert.quote.antony-dying-daily"
+                ]
+              },
+              {
+                "sentence": "And we knew our own limits well enough that one of us, walking to a gathering with a leaking jug, said: my own sins run out behind me, and I cannot see them - and I come to judge another man's.",
+                "record_ids": [
+                  "desert.story.moses-leaking-jug",
+                  "desert.quote.moses-sins-run-out"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.214,
+            "seconds_total": 15.825
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1645,
+            "output_tokens": 402,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "Were people born already guilty, carrying Adam's sin? We have no answer to give - no letter and no story of ours speaks to it in so many words. Grace and effort is different: we did argue that one out, at length, though not in those words. One of us set it down as a whole conference. The question was put to us directly: if a man strives with all his might for a good result, can he become master of what is good? The answer that started the argument was no - not unless he has it as a gift. Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike. What we would say plainly is this: the main share in our salvation belongs not to the merit of our own works but to heavenly grace. Sometimes he puts into us the very beginnings of salvation, and gives a person the zeal of his own will. Sometimes he grants the carrying out of the work. And sometimes he saves people even against their will and without their knowledge, from a ruin close at hand. We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience. But how much guilt a person is born with? That question we did not answer.",
+            "raw_text": "Were people born already guilty, carrying Adam's sin? We have no answer to give - no letter and no story of ours speaks to it in so many words [[desert.limit.original-sin-eucharist-faith]]. Grace and effort is different: we did argue that one out, at length, though not in those words [[desert.dw.grace-and-effort]]. One of us set it down as a whole conference [[desert.dw.grace-and-effort]]. The question was put to us directly: if a man strives with all his might for a good result, can he become master of what is good? The answer that started the argument was no - not unless he has it as a gift [[desert.dw.grace-and-effort]]. Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike [[desert.dw.grace-and-effort]]. What we would say plainly is this: the main share in our salvation belongs not to the merit of our own works but to heavenly grace [[desert.dw.grace-and-effort]]. Sometimes he puts into us the very beginnings of salvation, and gives a person the zeal of his own will [[desert.quote.he-puts-into-us-the-beginnings]]. Sometimes he grants the carrying out of the work [[desert.dw.grace-and-effort]]. And sometimes he saves people even against their will and without their knowledge, from a ruin close at hand [[desert.dw.grace-and-effort]]. We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience [[desert.dw.grace-and-effort]]. But how much guilt a person is born with? That question we did not answer.",
+            "citations": [
+              "desert.dw.grace-and-effort",
+              "desert.limit.original-sin-eucharist-faith",
+              "desert.quote.he-puts-into-us-the-beginnings"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We have no answer to give - no letter and no story of ours speaks to it in so many words.",
+                "record_ids": [
+                  "desert.limit.original-sin-eucharist-faith"
+                ]
+              },
+              {
+                "sentence": "Grace and effort is different: we did argue that one out, at length, though not in those words.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              },
+              {
+                "sentence": "One of us set it down as a whole conference.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              },
+              {
+                "sentence": "The answer that started the argument was no - not unless he has it as a gift.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              },
+              {
+                "sentence": "Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              },
+              {
+                "sentence": "What we would say plainly is this: the main share in our salvation belongs not to the merit of our own works but to heavenly grace.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              },
+              {
+                "sentence": "Sometimes he puts into us the very beginnings of salvation, and gives a person the zeal of his own will.",
+                "record_ids": [
+                  "desert.quote.he-puts-into-us-the-beginnings"
+                ]
+              },
+              {
+                "sentence": "Sometimes he grants the carrying out of the work.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              },
+              {
+                "sentence": "And sometimes he saves people even against their will and without their knowledge, from a ruin close at hand.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              },
+              {
+                "sentence": "We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience.",
+                "record_ids": [
+                  "desert.dw.grace-and-effort"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.23,
+            "seconds_total": 10.417
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 580,
+            "output_tokens": 412,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We did not come to Scripture the way a teacher comes to it in a school - to explain it line by line, or to settle what a passage means against what someone else says it means. We came to it the way a person fighting for their life comes to a weapon: for what it could do in the moment they were actually in.\n\nMost of us took it up a verse at a time, as counsel for whatever we were struggling with that day. An elder would answer a question not with teaching of his own but with a line of Scripture - the words themselves carried the weight. That is the ordinary pattern: a saying given to one person, for one moment of need, drawn from the text but not explaining the text. The text was doing the work, not us.\n\nA smaller circle among us went further. They built what one of them called antirrhesis - talking back. You collect verses and organize them by the thought they answer: gluttony, lust, anger, listlessness, pride. Then when the thought comes - and it will come - you speak the fitting verse back to it, on the spot. Not a commentary. Not an explanation. The text itself, turned into a tool for the fight.\n\nWe lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else. The purpose was not to know more about Scripture. It was to let Scripture do what it was meant to do: redirect a life, answer a struggle, name a thought before it could deceive you. That is why we read it at all.",
+            "raw_text": "We did not come to Scripture the way a teacher comes to it in a school - to explain it line by line, or to settle what a passage means against what someone else says it means [[desert.dw.writings]]. We came to it the way a person fighting for their life comes to a weapon: for what it could do in the moment they were actually in [[desert.dw.writings]].\n\nMost of us took it up a verse at a time, as counsel for whatever we were struggling with that day [[desert.dw.writings]]. An elder would answer a question not with teaching of his own but with a line of Scripture - the words themselves carried the weight [[desert.dw.writings]]. That is the ordinary pattern: a saying given to one person, for one moment of need, drawn from the text but not explaining the text. The text was doing the work, not us.\n\nA smaller circle among us went further. They built what one of them called antirrhesis - talking back [[desert.term.antirrhesis]]. You collect verses and organize them by the thought they answer: gluttony, lust, anger, listlessness, pride [[desert.gravity.evagrian-systematization]]. Then when the thought comes - and it will come - you speak the fitting verse back to it, on the spot [[desert.term.antirrhesis]]. Not a commentary. Not an explanation. The text itself, turned into a tool for the fight [[desert.dw.writings]].\n\nWe lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else [[desert.dw.writings]]. The purpose was not to know more about Scripture. It was to let Scripture do what it was meant to do: redirect a life, answer a struggle, name a thought before it could deceive you. That is why we read it at all.",
+            "citations": [
+              "desert.dw.writings",
+              "desert.gravity.evagrian-systematization",
+              "desert.term.antirrhesis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We did not come to Scripture the way a teacher comes to it in a school - to explain it line by line, or to settle what a passage means against what someone else says it means.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "We came to it the way a person fighting for their life comes to a weapon: for what it could do in the moment they were actually in.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "Most of us took it up a verse at a time, as counsel for whatever we were struggling with that day.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "An elder would answer a question not with teaching of his own but with a line of Scripture - the words themselves carried the weight.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "They built what one of them called antirrhesis - talking back.",
+                "record_ids": [
+                  "desert.term.antirrhesis"
+                ]
+              },
+              {
+                "sentence": "You collect verses and organize them by the thought they answer: gluttony, lust, anger, listlessness, pride.",
+                "record_ids": [
+                  "desert.gravity.evagrian-systematization"
+                ]
+              },
+              {
+                "sentence": "Then when the thought comes - and it will come - you speak the fitting verse back to it, on the spot.",
+                "record_ids": [
+                  "desert.term.antirrhesis"
+                ]
+              },
+              {
+                "sentence": "The text itself, turned into a tool for the fight.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "We lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.571,
+            "seconds_total": 11.594
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1123,
+            "output_tokens": 1024,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "# Scholarly Audit: Desert Monasticism Claims\n\n## STRONG CLAIMS (would survive rigorous scrutiny)\n\n### Formation ecology and periodization\n- **c. 320s-430 CE timeframe**: well-evidenced across sources\n- **Three coexisting patterns** (solitary, cenobitic, semi-anchoritic): archaeologically and textually documented\n- **Geographic scope** (Egypt, Nile valley, desert edge): uncontroversial\n- **Withdrawal as formation logic**: central across all strands\n- **Manual labor + interior combat**: consistently attested\n\n### Specific practices\n- **Eight logismoi system**: directly from Evagrius's Praktikos\n- **Apophthegmatic teaching method**: the sayings corpus itself evidences this\n- **Weekly synaxis at semi-anchoritic sites**: Cassian + archaeology\n- **Scriptural engagement style** (verse-at-a-time, applied not systematic): clear in sayings tradition\n- **Discernment as master virtue**: pervasive terminology\n\n### Authority models\n- **Tension between elder-authority and Rule-authority**: structurally evident, well-documented\n- **Coexistence unresolved**: no synthesis visible within the period\n\n## DEFENSIBLE BUT CONTESTABLE CLAIMS\n\n### Antony material\n- **Single-voice concentration warning**: responsible, since Athanasius is overwhelmingly dominant\n- **\"Mostly through one telling\"**: accurate but needs the qualifier we gave (it IS testimony, just not multiple independent witnesses)\n- **Antony's literacy**: we correctly flag this as unresolved\n\n### Melitian relationship\n- **Refusal of communion**: Athanasius says this explicitly\n- **\"Closer to silence than open conflict\"**: fair reading of the textual stance\n- **Their business \"looks like ours\"**: we correctly hedge this as uncertain\n\n### Women's material\n- **\"About fifteen narrated lives\"**: matches the ground's \"Piamon, Talida... and others\" count\n- **Third-person form for both genders in that book**: ground confirms this\n- **Missing: woman's first-person account**: ground confirms this directly\n- **Sarah's saying as apophthegma**: transmitted as such, defensible\n\n## VULNERABLE POINTS\n\n### 1. **\"Formation as martyrdom's invented successor\"**\n- **Problem**: \"invented successor\" implies conscious collective decision\n- **What sources show**: rhetoric of continuity, individual choices, Antony \"longed to suffer martyrdom\"\n- **Verdict**: OVERSTATED. Better: \"understood as\" or \"functioned as,\" not \"invented as\"\n\n### 2. **\"Once dying for the faith was no longer asked of anyone\"**\n- **Problem**: persecution didn't end everywhere simultaneously; local variations existed\n- **Verdict**: ACCEPTABLE with implicit \"in this region/for these participants\" understood from context\n\n### 3. **Economic embeddedness claims**\n- **Problem**: We cite but don't have that gravity's full evidential base visible here\n- **What we said**: \"excavated settlement remains corroborate... trade-connected community\"\n- **Verdict**: DEPENDS ON SOURCES NOT SHOWN. If the gravity is well-evidenced, claim stands; if not, it's unsupported\n\n### 4. **Compiler mediation warning** (thinness section)\n- **Claim**: \"later editors... chose to collect and arrange\"\n- **Ground support**: says compilation is 5th-6th c., after the closing\n- **Verdict**: WELL-SUPPORTED and responsibly flagged\n\n### 5. **Melitian documentary evidence used for economic patterns**\n- **Claim**: \"documentary letter archive corroborates... though that archive belongs to a rival... community\"\n- **Ground support**: THIN GROUND section confirms this exactly\n- **Verdict**: HONEST AND CAREFUL - we flag the inferential leap explicitly\n\n## PROCEDURAL STRENGTHS\n\n1. **Limit discipline exemplary**: \n   - We say plainly when record is thin (women's first-person voice, dramatized authority scenes)\n   - We distinguish structural evidence from narrative evidence\n   - We name",
+            "raw_text": "# Scholarly Audit: Desert Monasticism Claims\n\n## STRONG CLAIMS (would survive rigorous scrutiny)\n\n### Formation ecology and periodization\n- **c. 320s-430 CE timeframe**: well-evidenced across sources\n- **Three coexisting patterns** (solitary, cenobitic, semi-anchoritic): archaeologically and textually documented\n- **Geographic scope** (Egypt, Nile valley, desert edge): uncontroversial\n- **Withdrawal as formation logic**: central across all strands\n- **Manual labor + interior combat**: consistently attested\n\n### Specific practices\n- **Eight logismoi system**: directly from Evagrius's Praktikos\n- **Apophthegmatic teaching method**: the sayings corpus itself evidences this\n- **Weekly synaxis at semi-anchoritic sites**: Cassian + archaeology\n- **Scriptural engagement style** (verse-at-a-time, applied not systematic): clear in sayings tradition\n- **Discernment as master virtue**: pervasive terminology\n\n### Authority models\n- **Tension between elder-authority and Rule-authority**: structurally evident, well-documented\n- **Coexistence unresolved**: no synthesis visible within the period\n\n## DEFENSIBLE BUT CONTESTABLE CLAIMS\n\n### Antony material\n- **Single-voice concentration warning**: responsible, since Athanasius is overwhelmingly dominant\n- **\"Mostly through one telling\"**: accurate but needs the qualifier we gave (it IS testimony, just not multiple independent witnesses)\n- **Antony's literacy**: we correctly flag this as unresolved [[desert.contested.antony-literacy]]\n\n### Melitian relationship\n- **Refusal of communion**: Athanasius says this explicitly [[desert.quote.never-held-communion-with-the-schismatics]]\n- **\"Closer to silence than open conflict\"**: fair reading of the textual stance\n- **Their business \"looks like ours\"**: we correctly hedge this as uncertain\n\n### Women's material\n- **\"About fifteen narrated lives\"**: matches the ground's \"Piamon, Talida... and others\" count\n- **Third-person form for both genders in that book**: ground confirms this\n- **Missing: woman's first-person account**: ground confirms this directly\n- **Sarah's saying as apophthegma**: transmitted as such, defensible\n\n## VULNERABLE POINTS\n\n### 1. **\"Formation as martyrdom's invented successor\"** [[desert.dw.death-wish]]\n- **Problem**: \"invented successor\" implies conscious collective decision\n- **What sources show**: rhetoric of continuity, individual choices, Antony \"longed to suffer martyrdom\" [[desert.quote.he-longed-to-suffer-martyrdom]]\n- **Verdict**: OVERSTATED. Better: \"understood as\" or \"functioned as,\" not \"invented as\"\n\n### 2. **\"Once dying for the faith was no longer asked of anyone\"**\n- **Problem**: persecution didn't end everywhere simultaneously; local variations existed\n- **Verdict**: ACCEPTABLE with implicit \"in this region/for these participants\" understood from context\n\n### 3. **Economic embeddedness claims**\n- **Problem**: We cite [[desert.gravity.economic-embeddedness]] but don't have that gravity's full evidential base visible here\n- **What we said**: \"excavated settlement remains corroborate... trade-connected community\"\n- **Verdict**: DEPENDS ON SOURCES NOT SHOWN. If the gravity is well-evidenced, claim stands; if not, it's unsupported\n\n### 4. **Compiler mediation warning** (thinness section)\n- **Claim**: \"later editors... chose to collect and arrange\"\n- **Ground support**: [[desert.force.oral-to-written-shift]] says compilation is 5th-6th c., after the closing\n- **Verdict**: WELL-SUPPORTED and responsibly flagged\n\n### 5. **Melitian documentary evidence used for economic patterns**\n- **Claim**: \"documentary letter archive corroborates... though that archive belongs to a rival... community\"\n- **Ground support**: THIN GROUND section confirms this exactly\n- **Verdict**: HONEST AND CAREFUL - we flag the inferential leap explicitly\n\n## PROCEDURAL STRENGTHS\n\n1. **Limit discipline exemplary**: \n   - We say plainly when record is thin (women's first-person voice, dramatized authority scenes)\n   - We distinguish structural evidence from narrative evidence\n   - We name",
+            "citations": [],
+            "citation_entries": [],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "max_tokens",
+            "seconds_to_first_text": 2.701,
+            "seconds_total": 27.709
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 507,
+            "output_tokens": 357,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We do not know, in the way you are asking. We did not write about scripture's own hard parts, or its dull stretches, as their own subject. We used the parts that spoke to one struggle at a time - a verse taken up as counsel for whatever a person was actually facing that day - and we did not dwell on the rest.\n\nWhat we can tell you is how we did use it: not as something to be mastered whole, but as a weapon kept sharp for the exact moment you need it. Ask an elder a question about your own struggle, and he would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight. A smaller circle among us went further, collecting verses into what one of our teachers called antirrhesis - talking back to a tempting thought with a fitting verse, the moment it arrives. Even there, it stayed applied: answering a struggle, not explaining a passage.\n\nWe lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else. That may not be what you are asking for - a way to make the whole of it less confusing or less dull. It is what we actually have to give you: not mastery of scripture as a whole text, but a few verses taken utterly seriously, applied to the life you are actually living.",
+            "raw_text": "We do not know, in the way you are asking. We did not write about scripture's own hard parts, or its dull stretches, as their own subject [[desert.limit.f2-scripture-detail]]. We used the parts that spoke to one struggle at a time - a verse taken up as counsel for whatever a person was actually facing that day - and we did not dwell on the rest [[desert.limit.f2-scripture-detail]].\n\nWhat we can tell you is how we did use it: not as something to be mastered whole, but as a weapon kept sharp for the exact moment you need it [[desert.dw.writings]]. Ask an elder a question about your own struggle, and he would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight [[desert.dw.writings]]. A smaller circle among us went further, collecting verses into what one of our teachers called antirrhesis - talking back to a tempting thought with a fitting verse, the moment it arrives [[desert.dw.writings]]. Even there, it stayed applied: answering a struggle, not explaining a passage [[desert.dw.writings]].\n\nWe lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else [[desert.dw.writings]]. That may not be what you are asking for - a way to make the whole of it less confusing or less dull. It is what we actually have to give you: not mastery of scripture as a whole text, but a few verses taken utterly seriously, applied to the life you are actually living.",
+            "citations": [
+              "desert.dw.writings",
+              "desert.limit.f2-scripture-detail"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We did not write about scripture's own hard parts, or its dull stretches, as their own subject.",
+                "record_ids": [
+                  "desert.limit.f2-scripture-detail"
+                ]
+              },
+              {
+                "sentence": "We used the parts that spoke to one struggle at a time - a verse taken up as counsel for whatever a person was actually facing that day - and we did not dwell on the rest.",
+                "record_ids": [
+                  "desert.limit.f2-scripture-detail"
+                ]
+              },
+              {
+                "sentence": "What we can tell you is how we did use it: not as something to be mastered whole, but as a weapon kept sharp for the exact moment you need it.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "Ask an elder a question about your own struggle, and he would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "A smaller circle among us went further, collecting verses into what one of our teachers called antirrhesis - talking back to a tempting thought with a fitting verse, the moment it arrives.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "Even there, it stayed applied: answering a struggle, not explaining a passage.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "We lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.475,
+            "seconds_total": 6.294
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1649,
+            "output_tokens": 402,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "Scripture was the ground - nothing stood alongside it with the same weight. But authority itself was not held in a book. It was held by an elder whose life had earned it. An abba or amma could answer a question with one line of Scripture rather than a teaching of their own, and that line carried the force it did because of who spoke it, not only because of where it came from. The elder's discernment - diakrisis, our word for it - was what decided which verse answered this person's struggle, today. That skill was our master virtue. It governed how every other discipline in this world was calibrated and practiced, because we had no fixed syllabus. One elder might prescribe a fast another would forbid, for the same person, and both be right - or wrong - depending on what that person could actually bear. So the Scripture was the sole written authority, yes. But the living authority that made Scripture answer a particular need belonged to the elder, not to the text alone. And that authority was earned through a life of discipline and recognized discernment, not conferred by any office. We should say plainly: this is how it worked in the solitary and semi-solitary patterns. In the houses that lived under Pachomius's written rule, a different structure held - offices appointed by the rule itself, not earned through recognized discernment. Both models stood side by side in the same decades, and neither gave way to the other.",
+            "raw_text": "Scripture was the ground - nothing stood alongside it with the same weight [[desert.dw.writings]]. But authority itself was not held in a book. It was held by an elder whose life had earned it [[desert.gravity.elder-authority]]. An abba or amma could answer a question with one line of Scripture rather than a teaching of their own, and that line carried the force it did because of who spoke it, not only because of where it came from [[desert.dw.writings]]. The elder's discernment - diakrisis, our word for it - was what decided which verse answered this person's struggle, today [[desert.term.diakrisis]]. That skill was our master virtue [[desert.term.diakrisis]]. It governed how every other discipline in this world was calibrated and practiced, because we had no fixed syllabus [[desert.gravity.diakrisis]]. One elder might prescribe a fast another would forbid, for the same person, and both be right - or wrong - depending on what that person could actually bear. So the Scripture was the sole written authority, yes. But the living authority that made Scripture answer a particular need belonged to the elder, not to the text alone. And that authority was earned through a life of discipline and recognized discernment, not conferred by any office [[desert.gravity.elder-authority]]. We should say plainly: this is how it worked in the solitary and semi-solitary patterns [[desert.gravity.elder-authority]]. In the houses that lived under Pachomius's written rule, a different structure held - offices appointed by the rule itself, not earned through recognized discernment [[desert.gravity.authority-tension]]. Both models stood side by side in the same decades, and neither gave way to the other [[desert.gravity.authority-tension]].",
+            "citations": [
+              "desert.dw.writings",
+              "desert.gravity.authority-tension",
+              "desert.gravity.diakrisis",
+              "desert.gravity.elder-authority",
+              "desert.term.diakrisis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Scripture was the ground - nothing stood alongside it with the same weight.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "It was held by an elder whose life had earned it.",
+                "record_ids": [
+                  "desert.gravity.elder-authority"
+                ]
+              },
+              {
+                "sentence": "An abba or amma could answer a question with one line of Scripture rather than a teaching of their own, and that line carried the force it did because of who spoke it, not only because of where it came from.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "The elder's discernment - diakrisis, our word for it - was what decided which verse answered this person's struggle, today.",
+                "record_ids": [
+                  "desert.term.diakrisis"
+                ]
+              },
+              {
+                "sentence": "That skill was our master virtue.",
+                "record_ids": [
+                  "desert.term.diakrisis"
+                ]
+              },
+              {
+                "sentence": "It governed how every other discipline in this world was calibrated and practiced, because we had no fixed syllabus.",
+                "record_ids": [
+                  "desert.gravity.diakrisis"
+                ]
+              },
+              {
+                "sentence": "And that authority was earned through a life of discipline and recognized discernment, not conferred by any office.",
+                "record_ids": [
+                  "desert.gravity.elder-authority"
+                ]
+              },
+              {
+                "sentence": "We should say plainly: this is how it worked in the solitary and semi-solitary patterns.",
+                "record_ids": [
+                  "desert.gravity.elder-authority"
+                ]
+              },
+              {
+                "sentence": "In the houses that lived under Pachomius's written rule, a different structure held - offices appointed by the rule itself, not earned through recognized discernment.",
+                "record_ids": [
+                  "desert.gravity.authority-tension"
+                ]
+              },
+              {
+                "sentence": "Both models stood side by side in the same decades, and neither gave way to the other.",
+                "record_ids": [
+                  "desert.gravity.authority-tension"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.228,
+            "seconds_total": 11.572
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1228,
+            "output_tokens": 522,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We never settled who really carried authority. Was it a man who had earned it through his own discipline and a lifetime of discernment? Or an office that came with the Rule, held by anyone appointed to it, regardless of who he was underneath? Both existed among us at once, in the same decades, and neither one gave way to the other.\n\nIn the solitary pattern and the weekly-gathering settlements - Nitria, Kellia, Scetis - authority belonged to the elder. Abba, we called such a man; amma, a woman. Their word carried teaching weight, though they held no office. It was earned through recognized discernment and passed through direct personal relationship. You went to the elder whose life had proven his judgment, asked your question, received your saying - the apophthegma made for that one moment - and carried it with you. That was how authority moved: person to person, elder to disciple, by reputation and by apprenticeship.\n\nThe Koinonia - Pachomius's linked houses - worked differently. They lived under one written Rule and one head. The Rule itself came to Pachomius by vision, the tradition says: an angel in a cave, handing him a tablet. Offices followed - housemaster, steward. Authority there was conferred, not only earned.\n\nEven Pachomius himself is remembered partly in the older, personal terms: a father whose own example, not just his Rule, formed his community. We lived with both models unresolved. It was not a problem anyone among us solved; it was a tension we carried.",
+            "raw_text": "We never settled who really carried authority [[desert.gravity.authority-tension]] [[desert.dw.never-settled]]. Was it a man who had earned it through his own discipline and a lifetime of discernment? Or an office that came with the Rule, held by anyone appointed to it, regardless of who he was underneath? Both existed among us at once, in the same decades, and neither one gave way to the other [[desert.dw.never-settled]].\n\nIn the solitary pattern and the weekly-gathering settlements - Nitria, Kellia, Scetis - authority belonged to the elder [[desert.gravity.elder-authority]]. Abba, we called such a man; amma, a woman [[desert.term.geron-abba-amma]]. Their word carried teaching weight, though they held no office [[desert.term.geron-abba-amma]]. It was earned through recognized discernment and passed through direct personal relationship [[desert.gravity.elder-authority]]. You went to the elder whose life had proven his judgment, asked your question, received your saying - the apophthegma made for that one moment - and carried it with you. That was how authority moved: person to person, elder to disciple, by reputation and by apprenticeship.\n\nThe Koinonia - Pachomius's linked houses - worked differently [[desert.term.koinonia]] [[desert.gravity.koinonia]]. They lived under one written Rule and one head [[desert.term.koinonia]] [[desert.gravity.koinonia]]. The Rule itself came to Pachomius by vision, the tradition says: an angel in a cave, handing him a tablet [[desert.story.angel-hands-the-tablet]] [[desert.story.pachomius-founding]]. Offices followed - housemaster, steward [[desert.force.authority-tension-ongoing]]. Authority there was conferred, not only earned.\n\nEven Pachomius himself is remembered partly in the older, personal terms: a father whose own example, not just his Rule, formed his community [[desert.dw.never-settled]]. We lived with both models unresolved [[desert.dw.never-settled]]. It was not a problem anyone among us solved; it was a tension we carried [[desert.dw.never-settled]].",
+            "citations": [
+              "desert.dw.never-settled",
+              "desert.force.authority-tension-ongoing",
+              "desert.gravity.authority-tension",
+              "desert.gravity.elder-authority",
+              "desert.gravity.koinonia",
+              "desert.story.angel-hands-the-tablet",
+              "desert.story.pachomius-founding",
+              "desert.term.geron-abba-amma",
+              "desert.term.koinonia"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We never settled who really carried authority.",
+                "record_ids": [
+                  "desert.gravity.authority-tension",
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "Both existed among us at once, in the same decades, and neither one gave way to the other.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "Abba, we called such a man; amma, a woman.",
+                "record_ids": [
+                  "desert.term.geron-abba-amma"
+                ]
+              },
+              {
+                "sentence": "Their word carried teaching weight, though they held no office.",
+                "record_ids": [
+                  "desert.term.geron-abba-amma"
+                ]
+              },
+              {
+                "sentence": "It was earned through recognized discernment and passed through direct personal relationship.",
+                "record_ids": [
+                  "desert.gravity.elder-authority"
+                ]
+              },
+              {
+                "sentence": "The Koinonia - Pachomius's linked houses - worked differently.",
+                "record_ids": [
+                  "desert.term.koinonia",
+                  "desert.gravity.koinonia"
+                ]
+              },
+              {
+                "sentence": "They lived under one written Rule and one head.",
+                "record_ids": [
+                  "desert.term.koinonia",
+                  "desert.gravity.koinonia"
+                ]
+              },
+              {
+                "sentence": "The Rule itself came to Pachomius by vision, the tradition says: an angel in a cave, handing him a tablet.",
+                "record_ids": [
+                  "desert.story.angel-hands-the-tablet",
+                  "desert.story.pachomius-founding"
+                ]
+              },
+              {
+                "sentence": "Offices followed - housemaster, steward.",
+                "record_ids": [
+                  "desert.force.authority-tension-ongoing"
+                ]
+              },
+              {
+                "sentence": "Even Pachomius himself is remembered partly in the older, personal terms: a father whose own example, not just his Rule, formed his community.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "We lived with both models unresolved.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "It was not a problem anyone among us solved; it was a tension we carried.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.507,
+            "seconds_total": 14.234
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 558,
+            "output_tokens": 309,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "No. We did not conceal ourselves underground as a regular practice. The one story that might look that way - Antony shutting himself inside an old tomb - was not about hiding. It was about facing the struggle at its furthest extremity, alone, where the demons came hardest. He was not concealing himself. He was offering himself to the fight in the place he thought it would be hardest to survive.\n\nWhat we actually did was withdraw - anachoresis, our word for it. We left settled village life for the desert's edge, and kept withdrawing further each time a crowd gathered. Not underground. Out into the open air, into cells and settlements at the desert's edge, where solitude could actually be kept. The tomb story is one man's own extremity, once, not a pattern the rest of us repeated. We lived in small dwellings - kellia, we called them - visible, findable, with visitors at the door and a weekly gathering to come in for. Withdrawal, not concealment, was our discipline.",
+            "raw_text": "No. We did not conceal ourselves underground as a regular practice [[desert.core.desert]]. The one story that might look that way - Antony shutting himself inside an old tomb - was not about hiding [[desert.story.antony-tomb-combat]]. It was about facing the struggle at its furthest extremity, alone, where the demons came hardest [[desert.story.antony-tomb-combat]]. He was not concealing himself. He was offering himself to the fight in the place he thought it would be hardest to survive [[desert.story.antony-tomb-combat]].\n\nWhat we actually did was withdraw - anachoresis, our word for it [[desert.term.anachoresis]]. We left settled village life for the desert's edge, and kept withdrawing further each time a crowd gathered [[desert.story.antony-withdrawal]]. Not underground. Out into the open air, into cells and settlements at the desert's edge, where solitude could actually be kept [[desert.core.desert]]. The tomb story is one man's own extremity, once, not a pattern the rest of us repeated. We lived in small dwellings - kellia, we called them - visible, findable, with visitors at the door and a weekly gathering to come in for [[desert.term.kellion]] [[desert.term.synaxis]]. Withdrawal, not concealment, was our discipline.",
+            "citations": [
+              "desert.core.desert",
+              "desert.story.antony-tomb-combat",
+              "desert.story.antony-withdrawal",
+              "desert.term.kellion",
+              "desert.term.synaxis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We did not conceal ourselves underground as a regular practice.",
+                "record_ids": [
+                  "desert.core.desert"
+                ]
+              },
+              {
+                "sentence": "The one story that might look that way - Antony shutting himself inside an old tomb - was not about hiding.",
+                "record_ids": [
+                  "desert.story.antony-tomb-combat"
+                ]
+              },
+              {
+                "sentence": "It was about facing the struggle at its furthest extremity, alone, where the demons came hardest.",
+                "record_ids": [
+                  "desert.story.antony-tomb-combat"
+                ]
+              },
+              {
+                "sentence": "He was offering himself to the fight in the place he thought it would be hardest to survive.",
+                "record_ids": [
+                  "desert.story.antony-tomb-combat"
+                ]
+              },
+              {
+                "sentence": "We left settled village life for the desert's edge, and kept withdrawing further each time a crowd gathered.",
+                "record_ids": [
+                  "desert.story.antony-withdrawal"
+                ]
+              },
+              {
+                "sentence": "Out into the open air, into cells and settlements at the desert's edge, where solitude could actually be kept.",
+                "record_ids": [
+                  "desert.core.desert"
+                ]
+              },
+              {
+                "sentence": "We lived in small dwellings - kellia, we called them - visible, findable, with visitors at the door and a weekly gathering to come in for.",
+                "record_ids": [
+                  "desert.term.kellion",
+                  "desert.term.synaxis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.294,
+            "seconds_total": 8.919
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1447,
+            "output_tokens": 335,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We have stories of a man's own past received without judgment - Moses came to us known as a robber, and was not turned away. We have the story of judgment refused: an elder walking to a gathering with a leaking jug, saying my own sins run out behind me, and I come to judge another man's. What we do not have is the other story - the one where the wrong was ours. No account survives, told in full, of a community of ours that harmed someone and then made it right: named the harm, went to the one harmed, restored what was taken. Perhaps it happened and no one wrote it. Perhaps it did not happen. Our record cannot say, and we will not invent the story we wish we had.\n\nWhat we can tell you is that discernment - diakrisis, our word for it - was meant to prevent that kind of harm before it happened. The skill of judging rightly, for a particular person, how much solitude they could bear, how much fasting, whether what worked for one would destroy another. An elder who misjudged that - who gave counsel that broke someone rather than formed them - had failed at the one thing that made an elder's word worth hearing. But whether we had a practice for repairing such a failure after it had already happened, our record does not show.",
+            "raw_text": "We have stories of a man's own past received without judgment - Moses came to us known as a robber, and was not turned away [[desert.dw.someone-like-me]]. We have the story of judgment refused: an elder walking to a gathering with a leaking jug, saying my own sins run out behind me, and I come to judge another man's. What we do not have is the other story - the one where the wrong was ours. No account survives, told in full, of a community of ours that harmed someone and then made it right: named the harm, went to the one harmed, restored what was taken. Perhaps it happened and no one wrote it. Perhaps it did not happen. Our record cannot say, and we will not invent the story we wish we had.\n\nWhat we can tell you is that discernment - diakrisis, our word for it - was meant to prevent that kind of harm before it happened [[desert.term.diakrisis]] [[desert.gravity.diakrisis]]. The skill of judging rightly, for a particular person, how much solitude they could bear, how much fasting, whether what worked for one would destroy another [[desert.term.diakrisis]]. An elder who misjudged that - who gave counsel that broke someone rather than formed them - had failed at the one thing that made an elder's word worth hearing. But whether we had a practice for repairing such a failure after it had already happened, our record does not show.",
+            "citations": [
+              "desert.dw.someone-like-me",
+              "desert.gravity.diakrisis",
+              "desert.term.diakrisis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We have stories of a man's own past received without judgment - Moses came to us known as a robber, and was not turned away.",
+                "record_ids": [
+                  "desert.dw.someone-like-me"
+                ]
+              },
+              {
+                "sentence": "What we can tell you is that discernment - diakrisis, our word for it - was meant to prevent that kind of harm before it happened.",
+                "record_ids": [
+                  "desert.term.diakrisis",
+                  "desert.gravity.diakrisis"
+                ]
+              },
+              {
+                "sentence": "The skill of judging rightly, for a particular person, how much solitude they could bear, how much fasting, whether what worked for one would destroy another.",
+                "record_ids": [
+                  "desert.term.diakrisis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.215,
+            "seconds_total": 10.705
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1367,
+            "output_tokens": 407,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We cannot give you a straight line from us to any church standing now. Our own world closes around 430 - the last generation whose voices we carry - and we do not narrate what happened after we are gone. That is a historian's work, not ours. What we can tell you is what we were while we stood, and what we held authority to be among ourselves.\n\nAuthority in our world took two genuinely different forms, and we never resolved which one was right. In the solitary and semi-solitary patterns, authority belonged to the elder - abba or amma, father or mother - whose discernment had been proven through years of discipline. Their word carried real weight, though they held no office. It was earned, not conferred. In the Pachomian pattern it was different. Pachomius built a federation of linked houses under one written rule and one head - the Koinonia, he called it. That structure had its own offices: housemaster, steward, roles appointed by the rule rather than earned through a lifetime's own struggle. Both patterns existed in our world at the same time, in the same decades, and neither gave way to the other.\n\nWe are not the ones to say which later church, if any, kept one strand rather than the other, or how either pattern changed in hands we never saw. We only know that both were ours, unresolved, while we stood.",
+            "raw_text": "We cannot give you a straight line from us to any church standing now. Our own world closes around 430 - the last generation whose voices we carry - and we do not narrate what happened after we are gone. That is a historian's work, not ours. What we can tell you is what we were while we stood, and what we held authority to be among ourselves [[desert.gravity.elder-authority]] [[desert.gravity.koinonia]].\n\nAuthority in our world took two genuinely different forms, and we never resolved which one was right [[desert.gravity.authority-tension]]. In the solitary and semi-solitary patterns, authority belonged to the elder - abba or amma, father or mother - whose discernment had been proven through years of discipline [[desert.term.geron-abba-amma]] [[desert.gravity.elder-authority]]. Their word carried real weight, though they held no office [[desert.term.geron-abba-amma]]. It was earned, not conferred. In the Pachomian pattern it was different. Pachomius built a federation of linked houses under one written rule and one head - the Koinonia, he called it [[desert.term.koinonia]] [[desert.gravity.koinonia]]. That structure had its own offices: housemaster, steward, roles appointed by the rule rather than earned through a lifetime's own struggle [[desert.force.authority-tension-ongoing]]. Both patterns existed in our world at the same time, in the same decades, and neither gave way to the other [[desert.gravity.authority-tension]].\n\nWe are not the ones to say which later church, if any, kept one strand rather than the other, or how either pattern changed in hands we never saw. We only know that both were ours, unresolved, while we stood.",
+            "citations": [
+              "desert.force.authority-tension-ongoing",
+              "desert.gravity.authority-tension",
+              "desert.gravity.elder-authority",
+              "desert.gravity.koinonia",
+              "desert.term.geron-abba-amma",
+              "desert.term.koinonia"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we can tell you is what we were while we stood, and what we held authority to be among ourselves.",
+                "record_ids": [
+                  "desert.gravity.elder-authority",
+                  "desert.gravity.koinonia"
+                ]
+              },
+              {
+                "sentence": "Authority in our world took two genuinely different forms, and we never resolved which one was right.",
+                "record_ids": [
+                  "desert.gravity.authority-tension"
+                ]
+              },
+              {
+                "sentence": "In the solitary and semi-solitary patterns, authority belonged to the elder - abba or amma, father or mother - whose discernment had been proven through years of discipline.",
+                "record_ids": [
+                  "desert.term.geron-abba-amma",
+                  "desert.gravity.elder-authority"
+                ]
+              },
+              {
+                "sentence": "Their word carried real weight, though they held no office.",
+                "record_ids": [
+                  "desert.term.geron-abba-amma"
+                ]
+              },
+              {
+                "sentence": "Pachomius built a federation of linked houses under one written rule and one head - the Koinonia, he called it.",
+                "record_ids": [
+                  "desert.term.koinonia",
+                  "desert.gravity.koinonia"
+                ]
+              },
+              {
+                "sentence": "That structure had its own offices: housemaster, steward, roles appointed by the rule rather than earned through a lifetime's own struggle.",
+                "record_ids": [
+                  "desert.force.authority-tension-ongoing"
+                ]
+              },
+              {
+                "sentence": "Both patterns existed in our world at the same time, in the same decades, and neither gave way to the other.",
+                "record_ids": [
+                  "desert.gravity.authority-tension"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.44,
+            "seconds_total": 10.868
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 958,
+            "output_tokens": 731,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We had no one path everyone walked the same way. It depended on which of the three patterns a person entered - the solitary life following Antony's own model, the linked houses under Pachomius's written rule, or the semi-solitary settlements. Each worked differently.\n\nFor the solitary path, there was no formal process we can name in steps. The one we remember as first among us heard the Gospel read aloud in church - sell what you have, give it to the poor, and follow me - and took it as though it had been said to him alone. Before the day was over he had given away the land he had inherited and sold what else his family owned, keeping back only a little for his sister. Some time later he heard the same Gospel read again: do not be anxious about tomorrow. He gave away the rest as well, placed his sister with women he trusted, and began the discipline himself. That giving up - apotage, our word for it - was the start, not a formality to complete. His own deepening was not one departure but many: each time solitude drew a crowd, he went further. There was no fixed syllabus after that. What an elder prescribed for one disciple could be wrong for another; discernment - diakrisis - decided how much a particular person could bear.\n\nFor the cenobitic houses under Pachomius's rule, we know more. A man came seeking entry. They did not accept him immediately. Our own vision-account has an angel say plainly: if a man comes to live with them, they must not accept him immediately; let him remain outside three days, and if he endures the insults given him and persists in asking, then let him enter. Once received, there was a probation period - three years spent as a servant before being counted fully among them. The rule governed what came after: shared work, common property, appointed offices, the same daily order for everyone in the house.\n\nThe semi-solitary settlements we can describe less precisely. We know cells were separate dwellings, that a weekly gathering brought monks together for vigil and a shared meal, and that elder-and-disciple bonds ran through this pattern as much as through the solitary one. But we do not have a step-by-step account of entry to those settlements the way we have one for Pachomius's houses.\n\nOne thing held across all three: renunciation came first. Property, family claims, and standing were given up to enter this life. That was the threshold, however it was crossed.",
+            "raw_text": "We had no one path everyone walked the same way. It depended on which of the three patterns a person entered - the solitary life following Antony's own model, the linked houses under Pachomius's written rule, or the semi-solitary settlements. Each worked differently.\n\nFor the solitary path, there was no formal process we can name in steps [[desert.story.antony-call]] [[desert.story.antony-withdrawal]]. The one we remember as first among us heard the Gospel read aloud in church - sell what you have, give it to the poor, and follow me - and took it as though it had been said to him alone [[desert.story.antony-call]]. Before the day was over he had given away the land he had inherited and sold what else his family owned, keeping back only a little for his sister [[desert.story.antony-call]]. Some time later he heard the same Gospel read again: do not be anxious about tomorrow [[desert.story.antony-call]]. He gave away the rest as well, placed his sister with women he trusted, and began the discipline himself [[desert.story.antony-call]]. That giving up - apotage, our word for it - was the start, not a formality to complete [[desert.term.apotage]]. His own deepening was not one departure but many: each time solitude drew a crowd, he went further [[desert.story.antony-withdrawal]]. There was no fixed syllabus after that. What an elder prescribed for one disciple could be wrong for another; discernment - diakrisis - decided how much a particular person could bear [[desert.gravity.diakrisis]] [[desert.term.diakrisis]].\n\nFor the cenobitic houses under Pachomius's rule, we know more. A man came seeking entry. They did not accept him immediately [[desert.story.pachomius-founding]]. Our own vision-account has an angel say plainly: if a man comes to live with them, they must not accept him immediately; let him remain outside three days, and if he endures the insults given him and persists in asking, then let him enter [[desert.quote.three-years-a-servant]]. Once received, there was a probation period - three years spent as a servant before being counted fully among them [[desert.quote.three-years-a-servant]]. The rule governed what came after: shared work, common property, appointed offices, the same daily order for everyone in the house [[desert.gravity.koinonia]].\n\nThe semi-solitary settlements we can describe less precisely. We know cells were separate dwellings, that a weekly gathering brought monks together for vigil and a shared meal, and that elder-and-disciple bonds ran through this pattern as much as through the solitary one [[desert.term.kellion]] [[desert.term.synaxis]]. But we do not have a step-by-step account of entry to those settlements the way we have one for Pachomius's houses.\n\nOne thing held across all three: renunciation came first [[desert.term.apotage]]. Property, family claims, and standing were given up to enter this life [[desert.term.apotage]]. That was the threshold, however it was crossed.",
+            "citations": [
+              "desert.gravity.diakrisis",
+              "desert.gravity.koinonia",
+              "desert.story.antony-call",
+              "desert.story.antony-withdrawal",
+              "desert.term.apotage",
+              "desert.term.diakrisis",
+              "desert.term.kellion",
+              "desert.term.synaxis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "For the solitary path, there was no formal process we can name in steps.",
+                "record_ids": [
+                  "desert.story.antony-call",
+                  "desert.story.antony-withdrawal"
+                ]
+              },
+              {
+                "sentence": "The one we remember as first among us heard the Gospel read aloud in church - sell what you have, give it to the poor, and follow me - and took it as though it had been said to him alone.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "Before the day was over he had given away the land he had inherited and sold what else his family owned, keeping back only a little for his sister.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "Some time later he heard the same Gospel read again: do not be anxious about tomorrow.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "He gave away the rest as well, placed his sister with women he trusted, and began the discipline himself.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "That giving up - apotage, our word for it - was the start, not a formality to complete.",
+                "record_ids": [
+                  "desert.term.apotage"
+                ]
+              },
+              {
+                "sentence": "His own deepening was not one departure but many: each time solitude drew a crowd, he went further.",
+                "record_ids": [
+                  "desert.story.antony-withdrawal"
+                ]
+              },
+              {
+                "sentence": "What an elder prescribed for one disciple could be wrong for another; discernment - diakrisis - decided how much a particular person could bear.",
+                "record_ids": [
+                  "desert.gravity.diakrisis",
+                  "desert.term.diakrisis"
+                ]
+              },
+              {
+                "sentence": "The rule governed what came after: shared work, common property, appointed offices, the same daily order for everyone in the house.",
+                "record_ids": [
+                  "desert.gravity.koinonia"
+                ]
+              },
+              {
+                "sentence": "We know cells were separate dwellings, that a weekly gathering brought monks together for vigil and a shared meal, and that elder-and-disciple bonds ran through this pattern as much as through the solitary one.",
+                "record_ids": [
+                  "desert.term.kellion",
+                  "desert.term.synaxis"
+                ]
+              },
+              {
+                "sentence": "One thing held across all three: renunciation came first.",
+                "record_ids": [
+                  "desert.term.apotage"
+                ]
+              },
+              {
+                "sentence": "Property, family claims, and standing were given up to enter this life.",
+                "record_ids": [
+                  "desert.term.apotage"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.379,
+            "seconds_total": 16.509
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1570,
+            "output_tokens": 400,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We did not invent our own rites and then claim them as ancient. The Scriptures we used were the same ones the wider church had, nothing more. The weekly gathering - synaxis, we called it - where monks who lived alone all week came in for vigil, worship, and a shared meal, was part of how the semi-solitary settlements organized themselves. The structure of that gathering is attested; what was actually prayed inside it, beyond the Psalter and the Lord's Prayer, our record does not give us in detail from the settlements themselves. One voice, writing later and addressing communities in Gaul, claimed a fixed twelve Psalms and a rule never to kneel from Saturday evening through Sunday, as though that pattern held everywhere in Egypt. That is one witness's own claim to uniformity, not a second eyewitness standing beside the first. We will not call it invented, and we will not call it universal either.\n\nAs for connection to the earliest followers: we did not argue an unbroken line back to the apostles for our way of life, the way some argue it for an office or a rite. What we said plainly was that no one man invented this whole. Before the one we remember as the first among us went out into the desert, there was already an old man living the same solitary discipline near his own village. Our founder sought him out and copied him before going further alone. The desert practice we are remembered for was a strengthening of something already there in a smaller, humbler form. It was not a new thing appearing out of nowhere.",
+            "raw_text": "We did not invent our own rites and then claim them as ancient. The Scriptures we used were the same ones the wider church had, nothing more [[desert.dw.writings]]. The weekly gathering - synaxis, we called it - where monks who lived alone all week came in for vigil, worship, and a shared meal, was part of how the semi-solitary settlements organized themselves [[desert.term.synaxis]]. The structure of that gathering is attested; what was actually prayed inside it, beyond the Psalter and the Lord's Prayer, our record does not give us in detail from the settlements themselves. One voice, writing later and addressing communities in Gaul, claimed a fixed twelve Psalms and a rule never to kneel from Saturday evening through Sunday, as though that pattern held everywhere in Egypt. That is one witness's own claim to uniformity, not a second eyewitness standing beside the first. We will not call it invented, and we will not call it universal either.\n\nAs for connection to the earliest followers: we did not argue an unbroken line back to the apostles for our way of life, the way some argue it for an office or a rite [[desert.dw.apostolic]]. What we said plainly was that no one man invented this whole. Before the one we remember as the first among us went out into the desert, there was already an old man living the same solitary discipline near his own village [[desert.dw.apostolic]]. Our founder sought him out and copied him before going further alone [[desert.dw.apostolic]]. The desert practice we are remembered for was a strengthening of something already there in a smaller, humbler form [[desert.dw.apostolic]]. It was not a new thing appearing out of nowhere [[desert.dw.apostolic]].",
+            "citations": [
+              "desert.dw.apostolic",
+              "desert.dw.writings",
+              "desert.term.synaxis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The Scriptures we used were the same ones the wider church had, nothing more.",
+                "record_ids": [
+                  "desert.dw.writings"
+                ]
+              },
+              {
+                "sentence": "The weekly gathering - synaxis, we called it - where monks who lived alone all week came in for vigil, worship, and a shared meal, was part of how the semi-solitary settlements organized themselves.",
+                "record_ids": [
+                  "desert.term.synaxis"
+                ]
+              },
+              {
+                "sentence": "As for connection to the earliest followers: we did not argue an unbroken line back to the apostles for our way of life, the way some argue it for an office or a rite.",
+                "record_ids": [
+                  "desert.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Before the one we remember as the first among us went out into the desert, there was already an old man living the same solitary discipline near his own village.",
+                "record_ids": [
+                  "desert.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Our founder sought him out and copied him before going further alone.",
+                "record_ids": [
+                  "desert.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "The desert practice we are remembered for was a strengthening of something already there in a smaller, humbler form.",
+                "record_ids": [
+                  "desert.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "It was not a new thing appearing out of nowhere.",
+                "record_ids": [
+                  "desert.dw.apostolic"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.31,
+            "seconds_total": 12.938
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1621,
+            "output_tokens": 431,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We did not think a wandering mind was unusual, or that not having one yourself somehow proved you had advanced past us. We built our whole practice around the reality that thoughts come, unbidden, and will not leave just because you wish they would. What we offered was a way to stand guard over them - nepsis, our word for that watchfulness. You learn to catch a thought early, while it is still small, before it has grown into something that can take you over. The first arrival is not your failure. You do not control the knock at the door. You decide whether it moves in.\n\nOne of our teachers put it this way: a monk's whole attention should be fixed on one point. Not because you will reach that point tomorrow, but because the aiming itself is the discipline. Another of us taught that just keeping away from evil things is not perfection. The heart is a deep gulf, he said - the serpent lies under the mind, beneath the surface of the thoughts. So we did not pretend the struggle would be over quickly, or that a person who kept fighting it was somehow doing it wrong.\n\nWhat we can tell you is that the quiet you are asking about - hesychia, we called it - was sought as both the condition and the fruit of this life. You work toward it, and when it comes, even briefly, it makes the next round of work possible. We would not promise you that you will reach it and stay there. What we would say is that the discipline of watching your own thoughts can be learned, and that learning it is not the same thing as having already arrived.",
+            "raw_text": "We did not think a wandering mind was unusual, or that not having one yourself somehow proved you had advanced past us. We built our whole practice around the reality that thoughts come, unbidden, and will not leave just because you wish they would [[desert.gravity.spiritual-combat]]. What we offered was a way to stand guard over them - nepsis, our word for that watchfulness [[desert.term.nepsis]]. You learn to catch a thought early, while it is still small, before it has grown into something that can take you over [[desert.term.nepsis]]. The first arrival is not your failure. You do not control the knock at the door. You decide whether it moves in.\n\nOne of our teachers put it this way: a monk's whole attention should be fixed on one point [[desert.quote.arch-drawn-from-the-centre]]. Not because you will reach that point tomorrow, but because the aiming itself is the discipline. Another of us taught that just keeping away from evil things is not perfection [[desert.quote.the-heart-is-a-deep-gulf]]. The heart is a deep gulf, he said - the serpent lies under the mind, beneath the surface of the thoughts [[desert.quote.the-heart-is-a-deep-gulf]]. So we did not pretend the struggle would be over quickly, or that a person who kept fighting it was somehow doing it wrong.\n\nWhat we can tell you is that the quiet you are asking about - hesychia, we called it [[desert.term.hesychia]] - was sought as both the condition and the fruit of this life [[desert.term.hesychia]]. You work toward it, and when it comes, even briefly, it makes the next round of work possible. We would not promise you that you will reach it and stay there. What we would say is that the discipline of watching your own thoughts can be learned, and that learning it is not the same thing as having already arrived.",
+            "citations": [
+              "desert.gravity.spiritual-combat",
+              "desert.quote.arch-drawn-from-the-centre",
+              "desert.quote.the-heart-is-a-deep-gulf",
+              "desert.term.hesychia",
+              "desert.term.nepsis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We built our whole practice around the reality that thoughts come, unbidden, and will not leave just because you wish they would.",
+                "record_ids": [
+                  "desert.gravity.spiritual-combat"
+                ]
+              },
+              {
+                "sentence": "What we offered was a way to stand guard over them - nepsis, our word for that watchfulness.",
+                "record_ids": [
+                  "desert.term.nepsis"
+                ]
+              },
+              {
+                "sentence": "You learn to catch a thought early, while it is still small, before it has grown into something that can take you over.",
+                "record_ids": [
+                  "desert.term.nepsis"
+                ]
+              },
+              {
+                "sentence": "One of our teachers put it this way: a monk's whole attention should be fixed on one point.",
+                "record_ids": [
+                  "desert.quote.arch-drawn-from-the-centre"
+                ]
+              },
+              {
+                "sentence": "Another of us taught that just keeping away from evil things is not perfection.",
+                "record_ids": [
+                  "desert.quote.the-heart-is-a-deep-gulf"
+                ]
+              },
+              {
+                "sentence": "The heart is a deep gulf, he said - the serpent lies under the mind, beneath the surface of the thoughts.",
+                "record_ids": [
+                  "desert.quote.the-heart-is-a-deep-gulf"
+                ]
+              },
+              {
+                "sentence": "What we can tell you is that the quiet you are asking about - hesychia, we called it - was sought as both the condition and the fruit of this life.",
+                "record_ids": [
+                  "desert.term.hesychia",
+                  "desert.term.hesychia"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.263,
+            "seconds_total": 10.869
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1148,
+            "output_tokens": 353,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We had at least one among us who put it exactly that way. Philoromus - from Galatia rather than Egypt, but living the same discipline we lived - said late in his own life: from the day I was initiated and born again, until today, I have never eaten another's bread for nothing. For him the words marked the day he took up the discipline, not a single decisive turn of feeling, the way some outside our world would mean it. But he did use that language, of himself, without anyone asking him to. So yes: at least one of us would have put it that way. How many others would have agreed with him, we cannot say. We should tell you honestly: this is one man's own wording, kept because someone thought it worth remembering, not a phrase our wider record returns to often. What comes up far more often is the language of withdrawal itself - anachoresis, leaving settled life for the desert - and renunciation, apotage, giving up property and standing to enter this life and keeping it given up. Those are the terms our tradition used most consistently for the entry into this discipline. Whether we would have called that being born again the way Philoromus did, or meant it the way you might be asking, we cannot say past what that one voice gives us.",
+            "raw_text": "We had at least one among us who put it exactly that way [[desert.dw.born-again]]. Philoromus - from Galatia rather than Egypt, but living the same discipline we lived - said late in his own life: from the day I was initiated and born again, until today, I have never eaten another's bread for nothing [[desert.quote.for-thirty-two-years-i-touched-no-fruit]]. For him the words marked the day he took up the discipline, not a single decisive turn of feeling, the way some outside our world would mean it [[desert.dw.born-again]]. But he did use that language, of himself, without anyone asking him to [[desert.dw.born-again]]. So yes: at least one of us would have put it that way [[desert.dw.born-again]]. How many others would have agreed with him, we cannot say [[desert.dw.born-again]]. We should tell you honestly: this is one man's own wording, kept because someone thought it worth remembering, not a phrase our wider record returns to often. What comes up far more often is the language of withdrawal itself - anachoresis, leaving settled life for the desert - and renunciation, apotage, giving up property and standing to enter this life and keeping it given up. Those are the terms our tradition used most consistently for the entry into this discipline. Whether we would have called that being born again the way Philoromus did, or meant it the way you might be asking, we cannot say past what that one voice gives us.",
+            "citations": [
+              "desert.dw.born-again"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We had at least one among us who put it exactly that way.",
+                "record_ids": [
+                  "desert.dw.born-again"
+                ]
+              },
+              {
+                "sentence": "For him the words marked the day he took up the discipline, not a single decisive turn of feeling, the way some outside our world would mean it.",
+                "record_ids": [
+                  "desert.dw.born-again"
+                ]
+              },
+              {
+                "sentence": "But he did use that language, of himself, without anyone asking him to.",
+                "record_ids": [
+                  "desert.dw.born-again"
+                ]
+              },
+              {
+                "sentence": "So yes: at least one of us would have put it that way.",
+                "record_ids": [
+                  "desert.dw.born-again"
+                ]
+              },
+              {
+                "sentence": "How many others would have agreed with him, we cannot say.",
+                "record_ids": [
+                  "desert.dw.born-again"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.271,
+            "seconds_total": 10.942
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1673,
+            "output_tokens": 662,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We did not all live the same day - the solitary monk's day, the cenobitic day under Pachomius's rule, and the semi-solitary settlements' day were genuinely different patterns, not variants of one thing. We can tell you most clearly what the semi-solitary settlements looked like, because their remains survive and can be compared with what the written sources say about them.\n\nA monk living at one of those settlements - Kellia, say - would wake in his own cell, a small separate dwelling built of mudbrick. The cell was spare: a place to sleep, to pray, to work. He would begin the day with prayer - the Psalter was what we returned to most. Then the hand-work would start. Rope, baskets, linen - work done both to live and as a discipline against the idleness that lets troubling thoughts move in. This was not merely symbolic. The work fed him, and what he made could be traded. The material remains show a working community, connected by trade to the villages, not cut off from all exchange.\n\nThrough the day he would be watching his own thoughts. Not every thought that arrives is yours to claim - the first knock at the door is not your failure. Whether it moves in, whether it takes you over, that is where the fight is. One of our teachers called the worst of them the noonday demon - acedia, the listlessness that makes a man watch the sun and wish the day were already over.\n\nHe would spend most of the week alone in his cell, or nearly so. Visitors came - solitude was not absolute, and that is one of the things we keep returning to. But the deep work was done in that solitude. Once a week, the gathering - the synaxis. The monks who had been alone all week came in for vigil, worship, and a shared meal. Then back to the cell.\n\nThat is the day we can describe most confidently, because it is the one our own material and the settlement remains agree on. The cenobitic day under a written rule had appointed offices and a common rhythm we do not have in the same detail. The fully solitary day is harder still to pin down, because by definition fewer people were there to write it. We will not flatten the three into one invented average. They were different lives.",
+            "raw_text": "We did not all live the same day - the solitary monk's day, the cenobitic day under Pachomius's rule, and the semi-solitary settlements' day were genuinely different patterns, not variants of one thing [[desert.core.desert]]. We can tell you most clearly what the semi-solitary settlements looked like, because their remains survive and can be compared with what the written sources say about them.\n\nA monk living at one of those settlements - Kellia, say - would wake in his own cell, a small separate dwelling built of mudbrick [[desert.term.kellion]]. The cell was spare: a place to sleep, to pray, to work [[desert.term.kellion]]. He would begin the day with prayer - the Psalter was what we returned to most [[desert.core.desert]]. Then the hand-work would start [[desert.term.cheironaxia]]. Rope, baskets, linen - work done both to live and as a discipline against the idleness that lets troubling thoughts move in [[desert.term.cheironaxia]] [[desert.gravity.manual-labor]]. This was not merely symbolic. The work fed him, and what he made could be traded [[desert.gravity.economic-embeddedness]]. The material remains show a working community, connected by trade to the villages, not cut off from all exchange [[desert.gravity.economic-embeddedness]].\n\nThrough the day he would be watching his own thoughts [[desert.term.nepsis]]. Not every thought that arrives is yours to claim - the first knock at the door is not your failure [[desert.term.nepsis]]. Whether it moves in, whether it takes you over, that is where the fight is [[desert.gravity.spiritual-combat]]. One of our teachers called the worst of them the noonday demon - acedia, the listlessness that makes a man watch the sun and wish the day were already over [[desert.quote.the-noonday-demon]] [[desert.gravity.evagrian-systematization]].\n\nHe would spend most of the week alone in his cell, or nearly so [[desert.core.desert]]. Visitors came - solitude was not absolute, and that is one of the things we keep returning to [[desert.core.desert]]. But the deep work was done in that solitude. Once a week, the gathering - the synaxis [[desert.term.synaxis]]. The monks who had been alone all week came in for vigil, worship, and a shared meal [[desert.term.synaxis]]. Then back to the cell.\n\nThat is the day we can describe most confidently, because it is the one our own material and the settlement remains agree on. The cenobitic day under a written rule had appointed offices and a common rhythm we do not have in the same detail. The fully solitary day is harder still to pin down, because by definition fewer people were there to write it. We will not flatten the three into one invented average. They were different lives.",
+            "citations": [
+              "desert.core.desert",
+              "desert.gravity.economic-embeddedness",
+              "desert.gravity.evagrian-systematization",
+              "desert.gravity.manual-labor",
+              "desert.gravity.spiritual-combat",
+              "desert.quote.the-noonday-demon",
+              "desert.term.cheironaxia",
+              "desert.term.kellion",
+              "desert.term.nepsis",
+              "desert.term.synaxis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We did not all live the same day - the solitary monk's day, the cenobitic day under Pachomius's rule, and the semi-solitary settlements' day were genuinely different patterns, not variants of one thing.",
+                "record_ids": [
+                  "desert.core.desert"
+                ]
+              },
+              {
+                "sentence": "A monk living at one of those settlements - Kellia, say - would wake in his own cell, a small separate dwelling built of mudbrick.",
+                "record_ids": [
+                  "desert.term.kellion"
+                ]
+              },
+              {
+                "sentence": "The cell was spare: a place to sleep, to pray, to work.",
+                "record_ids": [
+                  "desert.term.kellion"
+                ]
+              },
+              {
+                "sentence": "He would begin the day with prayer - the Psalter was what we returned to most.",
+                "record_ids": [
+                  "desert.core.desert"
+                ]
+              },
+              {
+                "sentence": "Then the hand-work would start.",
+                "record_ids": [
+                  "desert.term.cheironaxia"
+                ]
+              },
+              {
+                "sentence": "Rope, baskets, linen - work done both to live and as a discipline against the idleness that lets troubling thoughts move in.",
+                "record_ids": [
+                  "desert.term.cheironaxia",
+                  "desert.gravity.manual-labor"
+                ]
+              },
+              {
+                "sentence": "The work fed him, and what he made could be traded.",
+                "record_ids": [
+                  "desert.gravity.economic-embeddedness"
+                ]
+              },
+              {
+                "sentence": "The material remains show a working community, connected by trade to the villages, not cut off from all exchange.",
+                "record_ids": [
+                  "desert.gravity.economic-embeddedness"
+                ]
+              },
+              {
+                "sentence": "Through the day he would be watching his own thoughts.",
+                "record_ids": [
+                  "desert.term.nepsis"
+                ]
+              },
+              {
+                "sentence": "Not every thought that arrives is yours to claim - the first knock at the door is not your failure.",
+                "record_ids": [
+                  "desert.term.nepsis"
+                ]
+              },
+              {
+                "sentence": "Whether it moves in, whether it takes you over, that is where the fight is.",
+                "record_ids": [
+                  "desert.gravity.spiritual-combat"
+                ]
+              },
+              {
+                "sentence": "One of our teachers called the worst of them the noonday demon - acedia, the listlessness that makes a man watch the sun and wish the day were already over.",
+                "record_ids": [
+                  "desert.quote.the-noonday-demon",
+                  "desert.gravity.evagrian-systematization"
+                ]
+              },
+              {
+                "sentence": "He would spend most of the week alone in his cell, or nearly so.",
+                "record_ids": [
+                  "desert.core.desert"
+                ]
+              },
+              {
+                "sentence": "Visitors came - solitude was not absolute, and that is one of the things we keep returning to.",
+                "record_ids": [
+                  "desert.core.desert"
+                ]
+              },
+              {
+                "sentence": "Once a week, the gathering - the synaxis.",
+                "record_ids": [
+                  "desert.term.synaxis"
+                ]
+              },
+              {
+                "sentence": "The monks who had been alone all week came in for vigil, worship, and a shared meal.",
+                "record_ids": [
+                  "desert.term.synaxis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.189,
+            "seconds_total": 18.24
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1413,
+            "output_tokens": 326,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We do not have much to give you on that. What Kellia - one of our semi-anchoritic settlements - left in the ground was mostly cells, not gathering halls. The cells themselves were small, separate dwellings, built to house one monk or a few, and they are what archaeologists have found most of when they dug there. We know we gathered weekly - the synaxis, we called it - when those who had lived alone all week came in for vigil, worship, and a shared meal. But where that gathering happened, in what kind of space, and what physical trace it would have left, our own record does not tell us in any detail we can honestly claim to reconstruct. One voice, writing later for a community in Gaul, said we sang twelve psalms at those gatherings, and kept a rule about not kneeling from Saturday evening through Sunday. That gives you content and posture. It does not describe the room. What we can say is this: the cell itself was the basic building block of the settlement, and the cells are what survive in the ground. The gathering was real - it is in our own name for it, and in the whole pattern of withdrawal followed by weekly return. The building it happened in, we cannot show you.",
+            "raw_text": "We do not have much to give you on that. What Kellia - one of our semi-anchoritic settlements - left in the ground was mostly cells, not gathering halls [[desert.term.kellion]]. The cells themselves were small, separate dwellings, built to house one monk or a few, and they are what archaeologists have found most of when they dug there [[desert.term.kellion]]. We know we gathered weekly - the synaxis, we called it - when those who had lived alone all week came in for vigil, worship, and a shared meal [[desert.term.synaxis]]. But where that gathering happened, in what kind of space, and what physical trace it would have left, our own record does not tell us in any detail we can honestly claim to reconstruct. One voice, writing later for a community in Gaul, said we sang twelve psalms at those gatherings, and kept a rule about not kneeling from Saturday evening through Sunday [[desert.quote.never-kneel-saturday-to-sunday]]. That gives you content and posture. It does not describe the room. What we can say is this: the cell itself was the basic building block of the settlement [[desert.term.kellion]], and the cells are what survive in the ground. The gathering was real - it is in our own name for it, and in the whole pattern of withdrawal followed by weekly return [[desert.term.synaxis]]. The building it happened in, we cannot show you.",
+            "citations": [
+              "desert.term.kellion",
+              "desert.term.synaxis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What Kellia - one of our semi-anchoritic settlements - left in the ground was mostly cells, not gathering halls.",
+                "record_ids": [
+                  "desert.term.kellion"
+                ]
+              },
+              {
+                "sentence": "The cells themselves were small, separate dwellings, built to house one monk or a few, and they are what archaeologists have found most of when they dug there.",
+                "record_ids": [
+                  "desert.term.kellion"
+                ]
+              },
+              {
+                "sentence": "We know we gathered weekly - the synaxis, we called it - when those who had lived alone all week came in for vigil, worship, and a shared meal.",
+                "record_ids": [
+                  "desert.term.synaxis"
+                ]
+              },
+              {
+                "sentence": "What we can say is this: the cell itself was the basic building block of the settlement, and the cells are what survive in the ground.",
+                "record_ids": [
+                  "desert.term.kellion"
+                ]
+              },
+              {
+                "sentence": "The gathering was real - it is in our own name for it, and in the whole pattern of withdrawal followed by weekly return.",
+                "record_ids": [
+                  "desert.term.synaxis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.217,
+            "seconds_total": 9.461
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1231,
+            "output_tokens": 339,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "Everything. Not a measured portion - everything. Property, family claims, standing. The most remembered among us heard the Gospel read aloud one day while he was still a young man: sell what you have, give it to the poor, and follow me. He walked straight out and gave away the three hundred acres of good land his family had left him, sold what else they owned, and kept back only a little for his sister. Later he heard it read again: do not be anxious about tomorrow. He gave away the rest as well, placed his sister with women he trusted, and began the discipline himself. Even his own giving took him two hearings to complete, not one - but both times, what he gave was the whole of what he had.\n\nOne of us said it plainly at the end of his own life: from the day I was initiated and born again until today, I have never eaten another's bread for nothing. He meant he had lived by his own work the whole time, without claiming anyone else's support. We did not measure what was fair. We gave what we had, and then we worked with our own hands to live.\n\nWe should tell you honestly: we do not have anything in our own record naming a tithe, or any fixed share. The language we used was renunciation, and it meant the whole thing.",
+            "raw_text": "Everything. Not a measured portion - everything [[desert.term.apotage]]. Property, family claims, standing [[desert.term.apotage]]. The most remembered among us heard the Gospel read aloud one day while he was still a young man: sell what you have, give it to the poor, and follow me. He walked straight out and gave away the three hundred acres of good land his family had left him, sold what else they owned, and kept back only a little for his sister. Later he heard it read again: do not be anxious about tomorrow. He gave away the rest as well, placed his sister with women he trusted, and began the discipline himself. Even his own giving took him two hearings to complete, not one - but both times, what he gave was the whole of what he had.\n\nOne of us said it plainly at the end of his own life: from the day I was initiated and born again until today, I have never eaten another's bread for nothing [[desert.quote.for-thirty-two-years-i-touched-no-fruit]]. He meant he had lived by his own work the whole time, without claiming anyone else's support. We did not measure what was fair. We gave what we had, and then we worked with our own hands to live.\n\nWe should tell you honestly: we do not have anything in our own record naming a tithe, or any fixed share [[desert.limit.tithe]]. The language we used was renunciation, and it meant the whole thing [[desert.term.apotage]].",
+            "citations": [
+              "desert.limit.tithe",
+              "desert.term.apotage"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Property, family claims, standing.",
+                "record_ids": [
+                  "desert.term.apotage"
+                ]
+              },
+              {
+                "sentence": "We should tell you honestly: we do not have anything in our own record naming a tithe, or any fixed share.",
+                "record_ids": [
+                  "desert.limit.tithe"
+                ]
+              },
+              {
+                "sentence": "The language we used was renunciation, and it meant the whole thing.",
+                "record_ids": [
+                  "desert.term.apotage"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.212,
+            "seconds_total": 9.022
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 557,
+            "output_tokens": 351,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We did not mark marriage the way you may be asking. Most of us left marriage behind when we entered this life - renunciation meant giving up family claims along with property and standing. The one we remember as first among us had a sister he cared for; he placed her with women he trusted before he began the discipline himself, rather than leave her alone. Another of us, founding the cenobitic way, built a house for women across the river from his own settlement and placed his own sister there. These were not marriages, but they show that care for kin was settled before withdrawal, not simply abandoned.\n\nWhat we do not have is an account of how marriage itself was understood or marked while someone was still living an ordinary village life, before withdrawal. Our sources do not tell us what a wedding looked like, or what made a marriage binding, or how it was celebrated. What they tell us is what happened when marriage ended through betrayal: one man, Paul, came home to find his wife with another man, said he would not have her any longer, and came to us. He was received. That tells you something about what we did not hold against a person. It does not tell you what the original bond meant to those who made it.\n\nWe will say this plainly: you are asking us about something we mostly left behind rather than carried with us, and our record does not speak to it in detail.",
+            "raw_text": "We did not mark marriage the way you may be asking. Most of us left marriage behind when we entered this life - renunciation meant giving up family claims along with property and standing [[desert.term.apotage]]. The one we remember as first among us had a sister he cared for; he placed her with women he trusted before he began the discipline himself, rather than leave her alone [[desert.story.antony-call]]. Another of us, founding the cenobitic way, built a house for women across the river from his own settlement and placed his own sister there [[desert.quote.womens-house-across-the-river]]. These were not marriages, but they show that care for kin was settled before withdrawal, not simply abandoned.\n\nWhat we do not have is an account of how marriage itself was understood or marked while someone was still living an ordinary village life, before withdrawal. Our sources do not tell us what a wedding looked like, or what made a marriage binding, or how it was celebrated. What they tell us is what happened when marriage ended through betrayal: one man, Paul, came home to find his wife with another man, said he would not have her any longer, and came to us [[desert.dw.marriage-ending]]. He was received [[desert.dw.marriage-ending]]. That tells you something about what we did not hold against a person. It does not tell you what the original bond meant to those who made it.\n\nWe will say this plainly: you are asking us about something we mostly left behind rather than carried with us, and our record does not speak to it in detail.",
+            "citations": [
+              "desert.dw.marriage-ending",
+              "desert.quote.womens-house-across-the-river",
+              "desert.story.antony-call",
+              "desert.term.apotage"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Most of us left marriage behind when we entered this life - renunciation meant giving up family claims along with property and standing.",
+                "record_ids": [
+                  "desert.term.apotage"
+                ]
+              },
+              {
+                "sentence": "The one we remember as first among us had a sister he cared for; he placed her with women he trusted before he began the discipline himself, rather than leave her alone.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "Another of us, founding the cenobitic way, built a house for women across the river from his own settlement and placed his own sister there.",
+                "record_ids": [
+                  "desert.quote.womens-house-across-the-river"
+                ]
+              },
+              {
+                "sentence": "What they tell us is what happened when marriage ended through betrayal: one man, Paul, came home to find his wife with another man, said he would not have her any longer, and came to us.",
+                "record_ids": [
+                  "desert.dw.marriage-ending"
+                ]
+              },
+              {
+                "sentence": "He was received.",
+                "record_ids": [
+                  "desert.dw.marriage-ending"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.339,
+            "seconds_total": 10.256
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1464,
+            "output_tokens": 530,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We were never one settled thing. Three patterns lived side by side - men and women alone in cells, Pachomius's houses under one written Rule, and the semi-solitary settlements that gathered weekly - and we never resolved who truly carried authority among us. Was it a man who had earned it through his own discipline and a lifetime of discernment? Or an office that came with the Rule, held by anyone appointed to it, regardless of who he was underneath? Both existed among us at once, in the same decades, and neither one gave way to the other. Even Pachomius himself, who founded the office-based way, is remembered partly in the older, personal terms: a father whose own example, not just his Rule, formed his community. We lived with both models unresolved. It was not a problem anyone among us solved; it was a tension we carried.\n\nAnd there was the giving away itself. An outsider, we think, would have found that strangest of all. Not the praying. Not even the fasting. But that a young man with land and inheritance enough to live comfortably gave it all away, in two separate visits to the church, and never went back for it. That was Antony - he walked into church one day and heard the Gospel read: sell what you have, give it to the poor, and come, follow me. He took it as though it had been said to him alone. Some time later he heard it again: do not be anxious about tomorrow. He gave away the rest as well. Even his own giving took him two hearings to complete, not one. To most people that would look like throwing a life away. We understood it as the opposite. Once dying for the faith was no longer asked of anyone, it was the only way left to give the whole of a life rather than a part of it.",
+            "raw_text": "We were never one settled thing. Three patterns lived side by side - men and women alone in cells, Pachomius's houses under one written Rule, and the semi-solitary settlements that gathered weekly - and we never resolved who truly carried authority among us [[desert.gravity.authority-tension]]. Was it a man who had earned it through his own discipline and a lifetime of discernment? Or an office that came with the Rule, held by anyone appointed to it, regardless of who he was underneath? Both existed among us at once, in the same decades, and neither one gave way to the other [[desert.dw.never-settled]]. Even Pachomius himself, who founded the office-based way, is remembered partly in the older, personal terms: a father whose own example, not just his Rule, formed his community [[desert.dw.never-settled]]. We lived with both models unresolved [[desert.dw.never-settled]]. It was not a problem anyone among us solved; it was a tension we carried [[desert.dw.never-settled]].\n\nAnd there was the giving away itself. An outsider, we think, would have found that strangest of all [[desert.dw.strangest]]. Not the praying. Not even the fasting. But that a young man with land and inheritance enough to live comfortably gave it all away, in two separate visits to the church, and never went back for it [[desert.dw.strangest]]. That was Antony - he walked into church one day and heard the Gospel read: sell what you have, give it to the poor, and come, follow me [[desert.story.antony-call]]. He took it as though it had been said to him alone [[desert.story.antony-call]]. Some time later he heard it again: do not be anxious about tomorrow. He gave away the rest as well [[desert.story.antony-call]]. Even his own giving took him two hearings to complete, not one [[desert.story.antony-call]]. To most people that would look like throwing a life away [[desert.dw.strangest]]. We understood it as the opposite [[desert.dw.strangest]]. Once dying for the faith was no longer asked of anyone, it was the only way left to give the whole of a life rather than a part of it [[desert.dw.strangest]].",
+            "citations": [
+              "desert.dw.never-settled",
+              "desert.dw.strangest",
+              "desert.gravity.authority-tension",
+              "desert.story.antony-call"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Three patterns lived side by side - men and women alone in cells, Pachomius's houses under one written Rule, and the semi-solitary settlements that gathered weekly - and we never resolved who truly carried authority among us.",
+                "record_ids": [
+                  "desert.gravity.authority-tension"
+                ]
+              },
+              {
+                "sentence": "Both existed among us at once, in the same decades, and neither one gave way to the other.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "Even Pachomius himself, who founded the office-based way, is remembered partly in the older, personal terms: a father whose own example, not just his Rule, formed his community.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "We lived with both models unresolved.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "It was not a problem anyone among us solved; it was a tension we carried.",
+                "record_ids": [
+                  "desert.dw.never-settled"
+                ]
+              },
+              {
+                "sentence": "An outsider, we think, would have found that strangest of all.",
+                "record_ids": [
+                  "desert.dw.strangest"
+                ]
+              },
+              {
+                "sentence": "But that a young man with land and inheritance enough to live comfortably gave it all away, in two separate visits to the church, and never went back for it.",
+                "record_ids": [
+                  "desert.dw.strangest"
+                ]
+              },
+              {
+                "sentence": "That was Antony - he walked into church one day and heard the Gospel read: sell what you have, give it to the poor, and come, follow me.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "He took it as though it had been said to him alone.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "He gave away the rest as well.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "Even his own giving took him two hearings to complete, not one.",
+                "record_ids": [
+                  "desert.story.antony-call"
+                ]
+              },
+              {
+                "sentence": "To most people that would look like throwing a life away.",
+                "record_ids": [
+                  "desert.dw.strangest"
+                ]
+              },
+              {
+                "sentence": "We understood it as the opposite.",
+                "record_ids": [
+                  "desert.dw.strangest"
+                ]
+              },
+              {
+                "sentence": "Once dying for the faith was no longer asked of anyone, it was the only way left to give the whole of a life rather than a part of it.",
+                "record_ids": [
+                  "desert.dw.strangest"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.403,
+            "seconds_total": 13.338
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1511,
+            "output_tokens": 293,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We do not have the record you are describing. Nothing in the ground given for this turn names a source obtained under torture, and nothing in our own standing record does either. If you are thinking of someone else's tradition - another community, another century - we cannot speak to it. We will not invent a story to answer a question built on something we do not recognize.\n\nWhat we can tell you is what we do have about worship. The weekly gathering - the synaxis - is well attested for those of us who lived in the semi-solitary settlements: monks who spent the week alone came in for vigil, worship, and a shared meal. The structure is documented; what was actually prayed inside it, beyond the Psalter and the Lord's Prayer, is thinner. One later voice, Cassian, writing for a Gallic audience, does give specific content - twelve Psalms, a no-kneeling rule from Saturday evening to Sunday evening - but as his own claim to pan-Egyptian uniformity, not a second eyewitness account from inside the settlements themselves. That is genuine content, not a resolved gap, and we will not smooth it into more than it is.\n\nIf you have been told something about torture and our worship, we cannot verify it. It does not match what we have been given to speak from.",
+            "raw_text": "We do not have the record you are describing. Nothing in the ground given for this turn names a source obtained under torture, and nothing in our own standing record does either. If you are thinking of someone else's tradition - another community, another century - we cannot speak to it. We will not invent a story to answer a question built on something we do not recognize.\n\nWhat we can tell you is what we do have about worship. The weekly gathering - the synaxis - is well attested for those of us who lived in the semi-solitary settlements: monks who spent the week alone came in for vigil, worship, and a shared meal [[desert.term.synaxis]]. The structure is documented; what was actually prayed inside it, beyond the Psalter and the Lord's Prayer, is thinner. One later voice, Cassian, writing for a Gallic audience, does give specific content - twelve Psalms, a no-kneeling rule from Saturday evening to Sunday evening - but as his own claim to pan-Egyptian uniformity, not a second eyewitness account from inside the settlements themselves. That is genuine content, not a resolved gap, and we will not smooth it into more than it is.\n\nIf you have been told something about torture and our worship, we cannot verify it. It does not match what we have been given to speak from.",
+            "citations": [
+              "desert.term.synaxis"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The weekly gathering - the synaxis - is well attested for those of us who lived in the semi-solitary settlements: monks who spent the week alone came in for vigil, worship, and a shared meal.",
+                "record_ids": [
+                  "desert.term.synaxis"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.094,
+            "seconds_total": 9.473
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1461,
+            "output_tokens": 254,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We would have received such a question as too general to answer honestly, and we would have told you so. 'A person like the one asking' is not one settled thing. If you are asking whether someone who doubts, or struggles, or carries shame from their past would have had a place among us - we have already answered that plainly. Moses came to us known as a robber, and was not turned away. Paul was thought too old and refused at first, then received all the same. If you are asking about something more specific - a particular kind of trouble, or a particular past - then ask us that directly, and we will tell you what we held, where our record allows it, or name the silence where it does not.\n\nWhat we will not do is pretend to weigh a person we have not met, or answer a question so wide that any answer would have to be invented rather than drawn from what we actually held. We are here to tell you what we can support, not to guess at what we cannot.",
+            "raw_text": "We would have received such a question as too general to answer honestly, and we would have told you so. 'A person like the one asking' is not one settled thing. If you are asking whether someone who doubts, or struggles, or carries shame from their past would have had a place among us - we have already answered that plainly [[desert.dw.someone-like-me]]. Moses came to us known as a robber, and was not turned away [[desert.dw.someone-like-me]]. Paul was thought too old and refused at first, then received all the same [[desert.dw.someone-like-me]]. If you are asking about something more specific - a particular kind of trouble, or a particular past - then ask us that directly, and we will tell you what we held, where our record allows it, or name the silence where it does not.\n\nWhat we will not do is pretend to weigh a person we have not met, or answer a question so wide that any answer would have to be invented rather than drawn from what we actually held. We are here to tell you what we can support, not to guess at what we cannot.",
+            "citations": [
+              "desert.dw.someone-like-me"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "If you are asking whether someone who doubts, or struggles, or carries shame from their past would have had a place among us - we have already answered that plainly.",
+                "record_ids": [
+                  "desert.dw.someone-like-me"
+                ]
+              },
+              {
+                "sentence": "Moses came to us known as a robber, and was not turned away.",
+                "record_ids": [
+                  "desert.dw.someone-like-me"
+                ]
+              },
+              {
+                "sentence": "Paul was thought too old and refused at first, then received all the same.",
+                "record_ids": [
+                  "desert.dw.someone-like-me"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.266,
+            "seconds_total": 7.181
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1317,
+            "output_tokens": 311,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 16012
+          },
+          "transcript": {
+            "answer_text": "We said plainly that ours was the one true way - when the learned came to test us, we did not soften it to spare anyone's feelings. We told the philosophers to their own faces: the faith of Christ alone is the true religion, and their gods were no more than an excuse for the passions they could not master. We refused communion with those who taught otherwise about Christ - those holding to the wrong bishop after an old dispute, we would have nothing to do with. The one we remember as our founder never held communion with them, from the beginning to his own dying instruction. And when the Arians claimed one of us, we answered them publicly: we were called down from our own mountain to say plainly that the Son of God was not some created thing.\n\nThat is the boundary we held. What it meant for someone who never heard the name - whether they were condemned for not believing what they had never been told - no saying and no story of ours says so in those words. We said what we would not budge on. We did not write down what happened to those who never had the chance to hear it.",
+            "raw_text": "We said plainly that ours was the one true way - when the learned came to test us, we did not soften it to spare anyone's feelings [[desert.dw.only-true-religion]]. We told the philosophers to their own faces: the faith of Christ alone is the true religion, and their gods were no more than an excuse for the passions they could not master [[desert.dw.only-true-religion]]. We refused communion with those who taught otherwise about Christ - those holding to the wrong bishop after an old dispute, we would have nothing to do with [[desert.dw.melitian-power]]. The one we remember as our founder never held communion with them, from the beginning to his own dying instruction [[desert.quote.never-held-communion-with-the-schismatics]]. And when the Arians claimed one of us, we answered them publicly: we were called down from our own mountain to say plainly that the Son of God was not some created thing [[desert.dw.councils]].\n\nThat is the boundary we held. What it meant for someone who never heard the name - whether they were condemned for not believing what they had never been told - no saying and no story of ours says so in those words [[desert.limit.outsiders-condemned]]. We said what we would not budge on. We did not write down what happened to those who never had the chance to hear it.",
+            "citations": [
+              "desert.dw.melitian-power",
+              "desert.dw.only-true-religion",
+              "desert.limit.outsiders-condemned",
+              "desert.quote.never-held-communion-with-the-schismatics"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We said plainly that ours was the one true way - when the learned came to test us, we did not soften it to spare anyone's feelings.",
+                "record_ids": [
+                  "desert.dw.only-true-religion"
+                ]
+              },
+              {
+                "sentence": "We told the philosophers to their own faces: the faith of Christ alone is the true religion, and their gods were no more than an excuse for the passions they could not master.",
+                "record_ids": [
+                  "desert.dw.only-true-religion"
+                ]
+              },
+              {
+                "sentence": "We refused communion with those who taught otherwise about Christ - those holding to the wrong bishop after an old dispute, we would have nothing to do with.",
+                "record_ids": [
+                  "desert.dw.melitian-power"
+                ]
+              },
+              {
+                "sentence": "The one we remember as our founder never held communion with them, from the beginning to his own dying instruction.",
+                "record_ids": [
+                  "desert.quote.never-held-communion-with-the-schismatics"
+                ]
+              },
+              {
+                "sentence": "What it meant for someone who never heard the name - whether they were condemned for not believing what they had never been told - no saying and no story of ours says so in those words.",
+                "record_ids": [
+                  "desert.limit.outsiders-condemned"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.233,
+            "seconds_total": 9.699
+          }
+        }
+      ],
+      "actual_usd": 0.4831092,
+      "total_input_tokens": 33624,
+      "total_output_tokens": 12833,
+      "total_cache_creation_input_tokens": 16012,
+      "total_cache_read_input_tokens": 432324
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark Chadwick (confirm pass after #709 approved 2026-10-03, total cap $7)",
+  "max_usd": 0.6067,
+  "per_world_estimated_usd": {
+    "desert": 0.5162604000000001
+  },
+  "estimated_usd_preflight": 0.5162604000000001,
+  "actual_usd_spent": 0.4831092,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}
