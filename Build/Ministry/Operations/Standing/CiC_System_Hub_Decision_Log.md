@@ -6171,6 +6171,6 @@ An Opus diagnostic of 193 uncited claims found 74% carried by a record in the wo
 
 ## 2026-10-03 - Citation attachment: production path (decision 27)
 
-On the live turn path (Conversation-Transparency-Engine Decision-Log, Entry 98) the step lowered uncited claim sentences from 37.5% to 24.2% over 186 turns, and Opus found 1.1% of its 460 added citations wrong. A parallel test showed the risk: the step runs on the same Haiku quota as the safety call, and rate limits pushed the safety call to fail closed into a Facilitator check-in on 57 probes.
+On the live turn path (Conversation-Transparency-Engine Decision-Log, Entry 99) the step lowered uncited claim sentences from 37.5% to 24.2% over 186 turns, and Opus found 1.1% of its 460 added citations wrong. A parallel test showed the risk: the step runs on the same Haiku quota as the safety call, and rate limits pushed the safety call to fail closed into a Facilitator check-in on 57 probes.
 
 27. The project lead checks the account's Haiku 4.5 quota in the AWS console (raising it if it is low), then sets `CIC_CITATION_ATTACH=1` on the production service when he promotes. Before that, the step is guarded in code so it yields to the safety call under load: at most two turns attach at once, a rate limit pauses the step for a minute server-wide, and a turn makes at most eight check calls. He chose this over switching it on with the next promotion and over keeping it on staging only.
