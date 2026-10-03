@@ -14,14 +14,17 @@ from typing import Callable
 class TurnGrant:
     cap: int
     facilitator_only: bool = False
+    # Which close text a refused turn speaks. None is the default text; any
+    # other value is a key into the Facilitator's close variants.
+    close_variant: str | None = None
 
 
 # completed units so far, whether today's allowance is spent -> the grant
 GrantProvider = Callable[[int, bool], TurnGrant]
 
 
-def free_grant(cap: int, daily_cap_reached: bool = False) -> TurnGrant:
-    return TurnGrant(cap=cap, facilitator_only=daily_cap_reached)
+def free_grant(cap: int, daily_cap_reached: bool = False, close_variant: str | None = None) -> TurnGrant:
+    return TurnGrant(cap=cap, facilitator_only=daily_cap_reached, close_variant=close_variant)
 
 
 def resolve(provider: GrantProvider | None, *, completed: int, free_cap: int, daily_cap_reached: bool) -> TurnGrant:

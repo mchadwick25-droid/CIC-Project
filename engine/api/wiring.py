@@ -895,6 +895,7 @@ def handle_message(
             daily_cap_reached=False,
             turn_cap=grant.cap,
             facilitator_only=grant.facilitator_only,
+            close_variant=grant.close_variant,
             on_draft_text=on_draft_text,
             citation_attach_enabled=citation_attach_enabled,
         )

@@ -8,6 +8,7 @@ thread found (e.g. ijc's display_name "Imperial and Juridical
 Christianity" vs. its card_name "Church and Empire")."""
 from engine.api.wiring import ADMITTED_STATES
 from engine.m1.registry import formation_world_keys, load_registry
+import pytest
 from engine.m4 import facilitator_turns
 from engine.m4.facilitator_turns import SYSTEM_NATURE
 
@@ -96,3 +97,38 @@ def test_voice_rejected_turn_names_the_representative_and_carries_its_own_kind()
     assert "Vera" in event["text"]
     assert "Facilitator" in event["text"]
     assert "Table" not in event["text"]
+
+
+# --- close variants (a sitting whose limit can be lifted) ---
+
+from engine.m4.facilitator_turns import CLOSE_VARIANTS, close_variant_text
+from engine.m7.turn_readability import score_turn
+
+
+def test_every_close_variant_reads_at_the_target_level_and_stays_a_close():
+    for name in CLOSE_VARIANTS:
+        for text in (close_variant_text(name, "Clement"), close_variant_text(name, None, daily=True)):
+            assert score_turn(text).passed, (name, text)
+    assert score_turn(facilitator_turns.DAILY_OPEN).passed
+
+
+def test_variants_fill_the_voice_names_and_leave_no_slot_open():
+    assert "Clement" in facilitator_turns.session_cap_turn("Clement", "open")["text"]
+    assert "Clement or Papnoute" in facilitator_turns.table_session_cap_turn(["Clement", "Papnoute"], "open")["text"]
+    for name in CLOSE_VARIANTS:
+        for turn in (
+            facilitator_turns.session_cap_turn("Clement", name),
+            facilitator_turns.daily_cap_turn(name),
+            facilitator_turns.table_session_cap_turn(["Clement", "Papnoute"], name),
+        ):
+            assert turn["kind"] == "close" and "{" not in turn["text"]
+
+
+def test_no_variant_leaves_the_default_text_unchanged():
+    assert facilitator_turns.session_cap_turn("Clement") == facilitator_turns.session_cap_turn("Clement", None)
+    assert facilitator_turns.daily_cap_turn()["text"] == facilitator_turns.DAILY_CAP.text
+
+
+def test_unknown_variant_is_refused_not_guessed():
+    with pytest.raises(KeyError):
+        close_variant_text("nonsense", "Clement")
