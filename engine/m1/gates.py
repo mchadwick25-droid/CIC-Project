@@ -14,6 +14,7 @@ from engine.prose import is_guard_marker_line, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade, fre_score
+from .loader import voiced_records
 from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, fields_with_role
@@ -750,9 +751,11 @@ def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
 
 
 def gate_canon_coverage(records, fleet, registry) -> list[str]:
+    # Only voiced records reach compiled/coverage.json, so only they cover a cell.
     findings = []
+    voiced = voiced_records(records)
     for cell in sorted(canon.valid_cells(fleet)):
-        classification = canon.classify_cell(cell, records)
+        classification = canon.classify_cell(cell, voiced)
         if classification["status"] == "multiple_honest_limit":
             n = len(classification["honest_limit"])
             findings.append(f"cell {cell}: {n} honest_limit records claim it - exactly one is allowed")
@@ -1435,6 +1438,79 @@ def check_mode3_claim_fidelity(source_text: str, adapted_text: str, *, source_fi
     )
 
 
+# Record types the compiler never ships to the voice (builders.py's
+# build_repository_json exclusions) plus source records, which are cited, not
+# spoken.
+_UNSHIPPED_TYPES = frozenset({"search_record", "world_front", "facilitator_brief", "source"})
+
+
+def _window_end(records, registry) -> int | None:
+    world_id = next((r.get("world_id") for r in records.values() if r.get("world_id")), None)
+    entry = next((e for e in registry.values() if e.get("world_id") == world_id), None)
+    return ((entry or {}).get("time_window") or {}).get("end")
+
+
+def gate_status_ready(records, fleet, registry) -> list[str]:
+    """A record the voice may speak from is finished: a draft record that
+    would compile into the package fails."""
+    return [
+        f"{rid}: status draft, but it compiles into the package; finish it and mark it ready, or mark it voice: analytic"
+        for rid, r in sorted(voiced_records(records).items())
+        if r.get("status") == "draft" and r.get("record_type") not in _UNSHIPPED_TYPES
+    ]
+
+
+# The voiced record types cell routing serves (compiled/coverage.json and the
+# evidence matcher read canon_cells). Figures feed cards, not cells, and
+# ambient records are parked (System Hub decision 8).
+CELLS_REQUIRED_TYPES = frozenset({
+    "term", "story", "quote", "doctrinal_witness", "honest_limit", "contested_claim", "gravity", "force", "demonstration",
+})
+
+
+def gate_cells_required(records, fleet, registry) -> list[str]:
+    """A voiced record that cell routing serves names at least one canon cell;
+    with none it is unreachable by routing."""
+    return [
+        f"{rid}: no canon_cells; name the canon cells it serves so routing can reach it, or mark it voice: analytic"
+        for rid, r in sorted(voiced_records(records).items())
+        if r.get("record_type") in CELLS_REQUIRED_TYPES and not r.get("canon_cells")
+    ]
+
+
+# world_core fields whose job is to name the world's edge; they may name the
+# later thing as the edge.
+_EDGE_FIELDS = {("world_core", "horizon"), ("world_core", "cautions")}
+# Fields the voice-facing roles declare that the voice never reads: the
+# source wording of a quote or story (decision 24).
+_UNVOICED_FIELDS = {("quote", "text"), ("story", "text")}
+
+
+def gate_horizon(records, fleet, registry) -> list[str]:
+    """A voiced record's voice-facing text stays inside the world's window:
+    no gazetteer event, modern term, explicit year or century after the
+    window's end (engine.m1.horizon)."""
+    from .horizon import dated_terms, post_window_mentions
+
+    end = _window_end(records, registry)
+    if end is None:
+        return []
+    terms = dated_terms(fleet)
+    findings = []
+    for rid, r in sorted(voiced_records(records).items()):
+        rtype = r.get("record_type")
+        for field in fields_with_role(rtype, "voice-diet", "evidence-head"):
+            if (rtype, field) in _EDGE_FIELDS or (rtype, field) in _UNVOICED_FIELDS:
+                continue
+            value = r.get(field)
+            texts = [value] if isinstance(value, str) else [v for v in value if isinstance(v, str)] if isinstance(value, list) else []
+            mentions = [m for text in texts for m in post_window_mentions(text, end, terms)]
+            if mentions:
+                findings.append(f"{rid}.{field}: names {', '.join(dict.fromkeys(mentions))}, after the window closes in {end}; "
+                                "rewrite it from inside the window, or mark the record voice: analytic")
+    return findings
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,
@@ -1453,6 +1529,9 @@ GATES = {
     "readability": gate_readability,
     "voice-craft-prompt-budget": gate_voice_craft_prompt_budget,
     "canon-coverage": gate_canon_coverage,
+    "status-ready": gate_status_ready,
+    "cells-required": gate_cells_required,
+    "horizon": gate_horizon,
     "no-build-attribution": gate_no_build_attribution,
     "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,

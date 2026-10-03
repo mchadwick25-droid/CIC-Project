@@ -205,6 +205,27 @@ defects:
     mutation: {op: remove_record}
     expected_failure: "canon cell F6-T now has neither a substantive record nor an honest_limit - blank cell, coverage gate must fail (Artifact-1 §6 coverage rule)"
 
+  - id: status-ready-draft-ships
+    gate: status-ready
+    layer: M1
+    target_record: records/fix/story/fix.story.the-long-road.md
+    mutation: {op: set_field, path: status, value: draft}
+    expected_failure: "a voiced story marked draft would compile into the package - the status gate must fail it"
+
+  - id: cells-required-term-unroutable
+    gate: cells-required
+    layer: M1
+    target_record: records/fix/term/fix.term.the-three.md
+    mutation: {op: set_field, path: canon_cells, value: []}
+    expected_failure: "a voiced term with no canon_cells cannot be reached by cell routing - the cells-required gate must fail it"
+
+  - id: horizon-post-window-event
+    gate: horizon
+    layer: M1
+    target_record: records/fix/doctrinal_witness/fix.witness.who-is-jesus.md
+    mutation: {op: set_field, path: text, value: "We did not claim to have seen him ourselves, and the Council of Chalcedon settled the rest."}
+    expected_failure: "the fixture's window closes in 100; a voiced witness naming the Council of Chalcedon (451) must fail the horizon gate"
+
   - id: id-convention-cell-code-in-slug
     gate: id-convention
     layer: M1

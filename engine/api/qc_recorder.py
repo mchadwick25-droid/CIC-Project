@@ -85,6 +85,7 @@ class QCRecorder:
         scores = {
             "uncited_claims": len((voice_event or {}).get("uncited_claims") or []),
             "degraded_by_net": bool((voice_event or {}).get("degraded_by_net")),
+            "horizon_mentions": sum(1 for d in (voice_event or {}).get("output_defects") or [] if d.get("family") == "horizon"),
         }
         names = self._names_for(world)
         keep_text = not flags["text_free"]

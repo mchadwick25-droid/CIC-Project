@@ -19,6 +19,13 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
   (one-time and monthly), both feeding that one fund, no server involved;
   see the page's own header comment for which link is which.
 
+- `go-deeper.html` and `go-deeper-return.html` — Go Deeper: how a code lets a
+  conversation carry on, and the page Stripe sends a buyer back to, which shows
+  the code. Switched off: nothing links to them, they are marked noindex, and
+  the buy button stays hidden until a Payment Link is set in the page. The
+  shared script is `assets/go-deeper.js`. Decision record under
+  `Build/Ministry/Features/Funding-Strategy/`.
+
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
 **Faithways Studio, Inc. is incorporated** (Colorado Public Benefit
