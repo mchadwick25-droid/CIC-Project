@@ -26,7 +26,7 @@ def test_the_shipped_file_loads_with_every_note():
     assert ops.table_round_cost == 3 and ops.group_daily_ceiling > 0 and ops.group_burst_multiplier > 0 and ops.low_balance_at > 0
 
 
-def test_the_token_rates_and_packs_are_the_ones_ruled_on_2026_10_03():
+def test_the_token_rates_and_packs_are_the_ruled_ones():
     from engine.deeper.tokens import Pack, TokenRates
 
     ops = load_ops()

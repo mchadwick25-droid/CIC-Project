@@ -1,4 +1,4 @@
-"""The token arithmetic, checked against Mark's ruling of 2026-10-03."""
+"""The token arithmetic."""
 import pytest
 
 from engine.deeper.tokens import TokenRates, charge, conversation_cost, opening_cost, round_cost

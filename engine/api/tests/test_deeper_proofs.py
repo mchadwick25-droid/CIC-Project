@@ -227,7 +227,7 @@ REQUIRED = {
         "test_the_packs_are_whole_numbers_of_those_conversations",
     ],
     "engine/api/tests/test_deeper_ops.py": [
-        "test_the_token_rates_and_packs_are_the_ones_ruled_on_2026_10_03",
+        "test_the_token_rates_and_packs_are_the_ruled_ones",
         "test_a_bad_token_section_is_refused",
         "test_a_malformed_file_is_refused",
         "test_the_stored_pause_names_no_code_and_no_money",
