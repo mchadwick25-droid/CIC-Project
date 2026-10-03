@@ -1194,3 +1194,15 @@ S10 adds `engine/api/tests/test_deeper_proofs.py`, which runs in the engine job 
 - j. Keeping a sitting open costs one safety check for each further message without a code. The bound is the daily message count: 150 messages a visitor, about $0.75 at most. Mark accepted this when ruling.
 - k. #738 merged with three blocking findings open. #739 removes what it carried. From here a slice is merged only after the review thread has cleared its blocking findings, and the checkpoint says so.
 - Flag-on suite: three older tests assert the module-off contract (a session closes for good at the cap). They now say so with an explicit `deeper=None`. With the module on, a limit pauses, and the new tests cover that.
+
+## 2026-10-03 — Go Deeper S7: the website pages
+
+S7 adds two static pages to `cic-website`: the go-deeper page and the return page. The wording is a draft for Mark.
+
+- **Switched off.** Nothing links to either page, both are marked noindex, and the buy button stays hidden until a Stripe Payment Link is set in the page when sales open. A test checks that no other page links to them.
+- **The purchase click.** The browser makes a reference of 22 base64url characters from 16 random bytes (128 bits), a new one for every click, keeps it in local storage for an hour, and sends the buyer to the Payment Link with it as `client_reference_id`. Nothing else is sent.
+- **The return page.** It reads the reference from local storage, never from the address, and asks the server for the code with one request that carries only the reference, with no cookies and no referrer. If the code is not there yet it asks again every three seconds for up to a minute, then says so in words. A reload within the hour shows the code again, because the server's claim lasts an hour. It writes nothing to the console.
+- **The words.** No price or money figure appears; Stripe shows the amount. The Table round cost on the page is read by a test against the operations file, so the two cannot drift.
+- **Held.** The privacy section about codes waits for CO-6 and S11, as the review ruled: until then the privacy page keeps stating today's facts. The draft is with Mark. The door's one-line state on the home and Get Involved pages belongs to S5. Refund, expiry and lost-code policy are Mark's; the pages promise none.
+- **Facts for Mark to verify before S11:** that a Payment Link carries `client_reference_id` through to the completion event, and that its after-payment redirect can point at the return page. The server must also allow the site's origin (`CIC_DEEPER_SITE_ORIGIN`) for the claim request.
+- **Tests.** Readability of both pages, no money figure, the operations-file number, the two contribution links unchanged, the reference's length and uniqueness, the hour's expiry, the claim's retry and give-up, and no reference in the address or console. They run in the site job with Node.

@@ -705,6 +705,12 @@ jobs:
           cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m2/tests/test_site_compiler.py engine/m2/tests/test_site_staleness.py -q
+      # Go Deeper pages: their words, their purchase click and their claim call.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: pip install -r engine/api/requirements.txt
+      - run: python -m pytest engine/m2/tests/test_go_deeper_pages.py -q
       - run: python -m engine.m2.site_cli staleness-check
 
   no-embedded-world-data:
