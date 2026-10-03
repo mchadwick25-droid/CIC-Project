@@ -118,6 +118,18 @@ export async function createTableSession(worldKeys: string[]): Promise<CreateSes
   return response.json();
 }
 
+// The participant's own deletion request: the server removes the
+// conversation now (204), or refuses with the usual 401 for a wrong code.
+export async function deleteSession(sessionId: string, sessionCode: string): Promise<void> {
+  const response = await fetch(`${API_BASE}/session/${sessionId}`, {
+    method: 'DELETE',
+    headers: { ...authHeader(sessionCode) },
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+}
+
 // Advance the open table round by one voice turn (Artifact-7 SS6's
 // turn-at-a-time transport) - called repeatedly while round_open is true,
 // so each voice's words reach the participant as they land rather than
