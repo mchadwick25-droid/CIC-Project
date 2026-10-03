@@ -20,7 +20,7 @@ from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.encoders import jsonable_encoder
-from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
+from fastapi.responses import FileResponse, JSONResponse, Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -31,6 +31,7 @@ from engine.m4 import idle_close, session_code
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
+from engine.m7 import erase
 from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
 from engine.m7.qc_store import QCStore
@@ -629,6 +630,19 @@ def create_app(
             round_cap=table_wiring.round_cap_for(state.mode),
         )
 
+    @app.delete("/api/session/{session_id}", status_code=204)
+    def delete_session_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
+        """A participant's deletion request, authorised by the session's own
+        code: the conversation leaves the event log and the M7 audit files
+        now, and the daily backups within their 14-day rotation. The
+        anonymous quality-control store holds nothing that links to it."""
+        deps: Deps = request.app.state.deps
+        _authenticate(deps.store, session_id, authorization)
+        events_deleted = deps.store.delete_session(session_id)
+        audit_files = erase.erase_session(deps.m7_audit_root, session_id) if deps.m7_audit_root else 0
+        logger.info("session deleted session=%s events=%d audit_files=%d", session_id, events_deleted, audit_files)
+        return Response(status_code=204)
+
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
     def get_round_close_reasons_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
         """Diagnostic-only: gated by the same per-session code as the
@@ -823,7 +837,8 @@ def _build_real_app() -> FastAPI:
     # the event log; QC answer text older than 90 days is deleted.
     qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
     retention.start_background_scheduler(
-        settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention"
+        settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
+        audit_root=Path(settings.events_db_path).parent / "m7-audits",
     )
 
     return create_app(

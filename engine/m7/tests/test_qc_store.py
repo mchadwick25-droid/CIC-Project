@@ -91,3 +91,14 @@ def test_scrub_is_deterministic():
     text = "Tell me, Anna, about Jerome's letters."
     known = known_names(["Jerome"])
     assert scrub(text, known) == scrub(text, known) == "Tell me, [name], about Jerome's letters."
+
+
+def test_retention_prunes_audit_runs_past_ninety_days(tmp_path):
+    events, qc = Store(tmp_path / "events.db"), QCStore(tmp_path / "qc.db")
+    root = tmp_path / "m7-audits"
+    (root / "2026-06-01T03-17-00Z").mkdir(parents=True)
+    (root / "2026-09-30T03-17-00Z").mkdir(parents=True)
+    status = retention.run_once(events.db_path, qc.db_path, tmp_path / "status", audit_root=root,
+                                now=datetime(2026, 10, 3, tzinfo=timezone.utc))
+    assert status["audit_runs_pruned"] == 1
+    assert [p.name for p in root.iterdir()] == ["2026-09-30T03-17-00Z"]

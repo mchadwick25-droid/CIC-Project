@@ -14,6 +14,7 @@
  */
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
+import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { ReadAloudControl } from '../components/ReadAloudControl';
 import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
@@ -23,6 +24,7 @@ import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
 import { readAloudEnabled } from '../lib/flags';
 import { pickVoiceForSeat } from '../lib/readAloud';
+import { useState } from 'react';
 
 interface TableRoomProps {
   seatedWorlds: WorldEntry[];
@@ -38,6 +40,7 @@ interface TableRoomProps {
   onResumeRound: () => void;
   onEnd: () => void;
   onRestart: () => void;
+  onDelete?: () => Promise<void>;
 }
 
 function facilitatorParagraphs(text: string): string[] {
@@ -54,8 +57,13 @@ function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: Con
 }
 
 export function TableRoom({
-  seatedWorlds, turns, sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart,
+  seatedWorlds, turns, sessionCode, closed, roundOpen, roundCap, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart, onDelete,
 }: TableRoomProps) {
+  const [deleted, setDeleted] = useState(false);
+  const handleDelete = async () => {
+    await onDelete?.();
+    setDeleted(true);
+  };
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
   const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
@@ -194,7 +202,9 @@ export function TableRoom({
         </div>
       )}
 
-      {closed ? (
+      {deleted ? (
+        <DeletedNotice onRestart={onRestart} restartLabel="Return to the worlds" />
+      ) : closed ? (
         <div className="conversation__composer">
           <p className="conversation__bar-note sans" style={{ marginBottom: 'var(--spacing-sm)' }}>
             {roundCap != null
@@ -213,6 +223,7 @@ export function TableRoom({
           placeholder={roundOpen ? 'The table is still speaking…' : 'Bring your question to the table…'}
         />
       )}
+      {!deleted && sessionCode && onDelete && <DeleteConversation onDelete={handleDelete} />}
     </div>
   );
 }

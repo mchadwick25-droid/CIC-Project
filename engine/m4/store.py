@@ -123,6 +123,14 @@ class Store:
             row = conn.execute("SELECT 1 FROM session_events WHERE event_uuid = ?", (event_uuid,)).fetchone()
             return row is not None
 
+    def delete_session(self, session_id: str) -> int:
+        """Delete every event of one session (a participant's deletion
+        request). Returns the number of events deleted."""
+        with self._connect() as conn:
+            deleted = conn.execute("DELETE FROM session_events WHERE session_id = ?", (session_id,)).rowcount
+            conn.commit()
+        return deleted
+
     def purge_inactive(self, cutoff: str) -> int:
         """Delete every event of every session whose latest event is older
         than `cutoff` (ISO-8601, compared as text like list_session_ids).
