@@ -655,6 +655,7 @@ def handle_message(
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    citation_attach_enabled: bool = False,
     daily_turn_cap_reached: bool = False,
     on_draft_text: Callable[[str], None] | None = None,
 ) -> MessageResult:
@@ -793,6 +794,7 @@ def handle_message(
             self_revision_enabled=self_revision_enabled,
             daily_cap_reached=daily_turn_cap_reached,
             on_draft_text=on_draft_text,
+            citation_attach_enabled=citation_attach_enabled,
         )
     except UnhandledRoutingAction:
         # Not caught and softened into a note about a test build: all seven

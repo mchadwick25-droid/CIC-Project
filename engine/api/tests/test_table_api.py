@@ -1129,3 +1129,25 @@ def test_what_another_representative_said_reaches_the_next_seat_r37_b(
     assert f"- {theon}" in directive_text
     # The round's own question is still never quoted back.
     assert "what did you make of the Donatists?" not in directive_text
+
+
+def test_continue_forwards_the_turn_switches(store, usage_store, world_loader, registry, monkeypatch):
+    seen = {}
+
+    def fake_continue(**kwargs):
+        seen.update(kwargs)
+        raise table_wiring.TableRoundNotOpen()
+
+    from engine.api import table_wiring
+    monkeypatch.setattr(table_wiring, "continue_table_round", fake_continue)
+    client = _table_client(selector_script=[], stream_scripts=[])
+    app = create_app(
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        default_world_key="fix", r27_enforce=True, self_revision_enabled=False, citation_attach_enabled=True,
+    )
+    http = TestClient(app)
+    resp = http.post("/api/session", json={"world_key": "fix"})
+    auth = {"Authorization": f"Session {resp.json()['session_code']}"}
+    http.post(f"/api/session/{resp.json()['session_id']}/continue", headers=auth)
+    assert (seen["r27_enforce"], seen["self_revision_enabled"], seen["citation_attach_enabled"]) == (True, False, True)

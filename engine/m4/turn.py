@@ -48,6 +48,7 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns, grounding_net
 from engine.m4.draft_stream import DraftStream
 from engine.m4.generation import stream_voice_turn
+from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
@@ -431,6 +432,7 @@ def _run_ordinary_voice_turn(
     self_revision_enabled: bool = True,
     sentence_enforce: bool = False,
     on_draft_text: Callable[[str], None] | None = None,
+    citation_attach_model_id: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -956,6 +958,21 @@ def _run_ordinary_voice_turn(
             named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
             fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
 
+    # Verified citation attachment (engine.m4.citation_attach), off unless
+    # citation_attach_model_id is set: runs on the settled text, adds a
+    # citation to an uncited claim sentence only when a check call confirms
+    # the record carries it, and never changes the text.
+    citation_attach_meta = {"enabled": citation_attach_model_id is not None, "added": [], "trail": []}
+    if citation_attach_model_id is not None and answer_text:
+        added_citations, attach_usage, attach_trail = attach_citations(
+            client=voice_client, model_id=citation_attach_model_id, prompt_text=world.prompt_text,
+            repository_records=repository_records, net_result=net_result, session_id=session_id,
+            world_key=usage_world_key,
+        )
+        usage_records.extend(attach_usage)
+        citations = citations + added_citations
+        citation_attach_meta.update(added=[c["sentence"] for c in added_citations], trail=attach_trail)
+
     # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
     # for both the citations a sentence already carries and whichever
@@ -1013,6 +1030,7 @@ def _run_ordinary_voice_turn(
         "attempts_meta": {
             "empty_stream_retries": 0, "r27_regenerated": attempts_meta_r27_regenerated,
             "self_revision": self_revision_meta,
+            "citation_attach": citation_attach_meta,
         },
         "grounding": net_result,
         "transparency": transparency,
@@ -1128,6 +1146,7 @@ def run_turn(
     sentence_enforce: bool = False,
     daily_cap_reached: bool = False,
     on_draft_text: Callable[[str], None] | None = None,
+    citation_attach_enabled: bool = False,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
@@ -1352,6 +1371,7 @@ def run_turn(
             already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
+            citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -1379,6 +1399,7 @@ def run_turn(
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
             on_draft_text=on_draft_text,
+            citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
         )
         return TurnResult(
             routing_action=action,
