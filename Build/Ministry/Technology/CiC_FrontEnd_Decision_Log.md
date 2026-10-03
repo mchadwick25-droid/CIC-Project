@@ -5375,3 +5375,95 @@ documented story starts that one and pauses the first; no horizontal overflow at
 ### Next action
 
 1. Mark tries the player on the live site, including on the iPhone.
+
+## 2026-10-03 — Narration cleanup audit: stale and replaced material
+
+**Audit.** Every recording and its manifest were checked against what the pages
+and data actually use. All pass: 281 tree recordings (every one a non-built
+movement with a description), 515 documented-story recordings matching the 515
+census stories, 54 world recordings matching their manifest, 62 gap-story
+recordings each matching a story on the map, 6 site recordings and 11 welcome
+recordings, each with a manifest entry. No recording is unreferenced and no
+manifest entry lacks its file. The built-world set agrees between the map and the
+tree-page generator (11 worlds).
+
+**Fixed.**
+- Two comments said built worlds' narration was "not wired yet" and that their
+  recordings "still narrate the superseded text". Both are false since the world
+  recordings shipped and the old ones were deleted; they now describe what the
+  code does. The generator function `hasMismatchedNarration` is renamed
+  `hasOwnWorldStory`.
+- The tree-page generator wrote the description player on three lines; the
+  committed pages carry it on one. The generator now matches the pages, so a
+  rebuild no longer changes every narrated page.
+- Regenerating the tree pages with the aligned generator corrected one stale
+  page: the Hussite and Bohemian Brethren page showed 1415-1517 while the census
+  says 1402-1517. The Wittenberg tree page lost a stray blank line.
+
+**Not stale, kept on purpose.** Earlier decision-log entries (history), the
+`.narration audio` rules in the page stylesheets (the fallback when JavaScript is
+off), and the three-review-round files under `Build/worlds/witt/`.
+
+### Next action
+
+None.
+
+## 2026-10-03 — Narration audio converted to 64 kbps mono
+
+**Decision.** Mark asked about the audio folder (887 MB of the site's 916 MB) and
+chose to convert the files above 64 kbps after listening to three side-by-side
+samples (a world story, a tree description, a gap story) and hearing no
+difference.
+
+**What was found first.** The 62 gap stories, 281 tree descriptions and 54 world
+recordings were true 128 kbps files, because the world and tree tools did not ask
+ElevenLabs for a format and got its 128 kbps default. The 515 documented stories
+were already 64 kbps. An earlier statement that the world files were a doubled
+64 kbps was wrong and is corrected here.
+
+**Done.** The 397 files above 64 kbps were re-encoded to 64 kbps mono, 44.1 kHz,
+metadata stripped; 515 MB became 258 MB, and the audio folder 887 MB to 632 MB.
+Names, voices, speeds and lengths are unchanged, so no page, manifest or player
+needed an edit. Every converted file was checked two ways: its stored length
+against the original (0 mismatches) and a full decode (0 decoder errors, longest
+difference 0.085 s). A converted tree file and a converted world story play and
+seek in Chromium. `Build/tools/generate_world_narration.mjs` and
+`generate_tree_narration.mjs` now request `mp3_44100_64` and encode at 64 kbps
+mono, and the world manifest records `outputFormat` for newly generated pieces.
+
+**What this does not fix.** Git keeps the old 128 kbps files in history, and this
+commit adds the 258 MB of new files to it, so a fresh clone is larger until the
+history is cleaned or the audio moves out of git (an infrastructure decision for
+Mark). The working tree is smaller.
+
+### Next action
+
+None for the conversion. Moving the audio to object storage remains open.
+
+## 2026-10-03 — The free browser read-aloud is removed
+
+**Decision.** Mark ordered the free browser voice removed from the conversation:
+it sounds poor, and if the voice cannot be high quality it is not offered. This
+settles the open question from the voice handoff (keep the free browser read-aloud
+in live conversations or not). The conversation is text; the only spoken parts are
+the Facilitator's recorded welcome and the recorded narration elsewhere on the site.
+
+**What it was.** A "Read aloud" button in the one-to-one conversation and at the
+Table, using the browser's built-in speech synthesis, behind the `VITE_READ_ALOUD`
+flag. It was off in production and switched on only in the staging service.
+
+**Removed.** `ReadAloudControl`, `ReadAloudDisclosure`, `lib/readAloud`,
+`useReadAloudAvailability` with their tests; the flag in `lib/flags.ts`; their use
+in `Conversation.tsx`, `TableRoom.tsx` and `DoorNarration.tsx`; the button and
+disclosure styles; the `VITE_READ_ALOUD` build argument in `engine/Dockerfile`, its
+setting in `render.yaml`, and its note in `.env.example`; and the matching test in
+`TableRoom.test.tsx`. The design note
+`Build/Ministry/Technology/CiC_ReadAloud_Step1_Design_Note.md` stays as history.
+
+**Checked.** The frontend suite (53 tests), typecheck and build pass; a search of
+the live code finds no remaining reference; `render.yaml` still parses; the cited
+paths and commentary checks pass.
+
+### Next action
+
+None.

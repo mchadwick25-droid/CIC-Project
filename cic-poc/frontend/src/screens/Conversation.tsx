@@ -4,13 +4,9 @@ import { ChatInput } from '../components/ChatInput';
 import { DeleteConversation, DeletedNotice } from '../components/DeleteConversation';
 import { DoorNarration } from '../components/DoorNarration';
 import { ModernTermMark } from '../components/ModernTermMark';
-import { ReadAloudControl } from '../components/ReadAloudControl';
-import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
-import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
-import { readAloudEnabled } from '../lib/flags';
 import { useState } from 'react';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
@@ -45,24 +41,12 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-// Read-aloud step 1 always targets the latest completed voice/Facilitator
-// turn - never the participant's own typed text (see ReadAloudControl's
-// own docstring for why this is one global control, not a per-turn one).
-function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: ConversationTurn } | null {
-  for (let i = turns.length - 1; i >= 0; i--) {
-    if (turns[i].speaker !== 'participant') return { index: i, turn: turns[i] };
-  }
-  return null;
-}
-
 export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
   const [deleted, setDeleted] = useState(false);
   const handleDelete = async () => {
     await onDelete?.();
     setDeleted(true);
   };
-  const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
-  const readAloudAvailable = useReadAloudAvailability();
   const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
 
   return (
@@ -75,14 +59,8 @@ export function Conversation({ world, turns, draft = '', sessionCode, closed, is
               Not saved to an account — this conversation lives in this tab
             </div>
           )}
-          {readAloudAvailable && latestSpoken && (
-            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />
-          )}
         </div>
       </div>
-      {readAloudAvailable && latestSpoken && (
-        <ReadAloudDisclosure representativeName={world.representativeName} turnKey={latestSpoken.index} />
-      )}
 
       <div className="conversation__transcript" role="log" aria-label="Conversation">
         <Arrival world={world} />
