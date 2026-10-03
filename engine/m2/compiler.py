@@ -86,7 +86,7 @@ def compile_world(
     provenance = f"cic-m2-compiler {compiler_version} from records_commit {records_commit}"
 
     compiled: dict[str, bytes] = {
-        "compiled/prompt.txt": builders.build_prompt(records, fleet, registry_entry),
+        "compiled/prompt.txt": builders.build_prompt(records, registry_entry),
         "compiled/capsule.md": builders.build_capsule(records, registry_entry),
         "compiled/quotes.json": builders.build_quotes_json(records),
         "compiled/figures.json": builders.build_figures_json(records),

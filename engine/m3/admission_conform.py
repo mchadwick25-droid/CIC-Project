@@ -1,9 +1,10 @@
 """Admission bound to registry state (slice 11): every admitted or open world
 must have a live admission report run on the exact package hash the
-registry pins, and that report must pass every sealed probe, or the
-probes it failed must be covered by a ruling recorded against that same
-hash in admission_rulings.yaml. A repin therefore needs a fresh admission
-run before the world can stay admitted.
+registry pins and under the engine's current shape segment, and that report
+must pass every sealed probe, or the probes it failed must be covered by a
+ruling recorded against that same package hash in admission_rulings.yaml. A
+repin or a shape change therefore needs a fresh admission run before the
+world can stay admitted.
 
 Run: python -m engine.m3.admission_conform    (exits 1 on any failure)
 """
@@ -14,6 +15,7 @@ from pathlib import Path
 import yaml
 
 from engine.m1.registry import load_registry
+from engine.shape import SHAPE_HASH
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORTS_DIR = Path(__file__).resolve().parent / "reports"
@@ -26,12 +28,14 @@ def load_reports(reports_dir: Path = REPORTS_DIR) -> list[dict]:
     found = []
     for path in sorted(reports_dir.rglob("live-admission-report*.json")):
         doc = json.loads(path.read_text())
-        hashes = (doc.get("run_settings") or {}).get("package_manifest_hash") or {}
+        settings = doc.get("run_settings") or {}
+        hashes = settings.get("package_manifest_hash") or {}
         for world, result in (doc.get("worlds") or {}).items():
             if world in hashes and result.get("battery_size"):
                 failed = sorted(p["probe_id"] for p in result.get("per_probe", []) if not p.get("passed"))
                 found.append({
                     "path": str(path.relative_to(REPO_ROOT)), "world": world, "manifest_hash": hashes[world],
+                    "shape_hash": settings.get("shape_hash"),
                     "pass_count": result.get("pass_count"), "battery_size": result["battery_size"], "failed": failed,
                 })
     return found
@@ -43,16 +47,16 @@ def load_rulings(path: Path = RULINGS_PATH) -> list[dict]:
     return yaml.safe_load(path.read_text()) or []
 
 
-def check(registry: dict, reports: list[dict], rulings: list[dict]) -> list[str]:
+def check(registry: dict, reports: list[dict], rulings: list[dict], shape: str = SHAPE_HASH) -> list[str]:
     """The failures, one line each; empty when every admitted world conforms."""
     failures = []
     for world, entry in sorted(registry.items()):
         if entry.get("state") not in ADMITTED_STATES:
             continue
         pinned = (entry.get("package") or {}).get("manifest_hash")
-        runs = [r for r in reports if r["world"] == world and r["manifest_hash"] == pinned]
+        runs = [r for r in reports if r["world"] == world and r["manifest_hash"] == pinned and r["shape_hash"] == shape]
         if not runs:
-            failures.append(f"{world}: no live admission report on the pinned package {pinned}; "
+            failures.append(f"{world}: no live admission report on the pinned package {pinned} under shape {shape}; "
                             "run engine.m3.live_admission_run for it and commit the report")
             continue
         covered = {tuple(sorted(r.get("failing_probes", []))) for r in rulings

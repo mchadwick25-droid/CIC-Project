@@ -451,6 +451,9 @@ jobs:
       # actually run; the real calls themselves are by-hand evidence
       # runs, never CI.
       - run: python -m pytest engine/m4/tests -q
+      # The engine shape segment: one segment for every world, pinned by
+      # SHAPE_HASH; it refuses to load when the hash and the segment disagree.
+      - run: python -m pytest engine/shape/tests -q
 
       # M5 Facilitator gate routing + failure semantics. Added stage 5
       # (partial). The Facilitator gate's deterministic routing merge and

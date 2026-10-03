@@ -62,6 +62,7 @@ from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import SONNET_4_5_PRICE_TABLE
 from engine.provider.bedrock import NormalizedUsage, make_client, normalize_usage, resolve_model_id
+from engine.shape import shape_hash, shape_text
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORTS_DIR = Path(__file__).resolve().parent / "reports"
@@ -287,6 +288,7 @@ def run_settings(*, registry: dict, world_keys: list[str], region: str, voice_mo
         "self_revision": "off - not in the admission harness path",
         "region": region,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in world_keys},
+        "shape_hash": shape_hash(shape_text()),
         "seal_hash": seal_hash(),
         "battery_size": len(protocol.battery()),
         "max_usd": max_usd,

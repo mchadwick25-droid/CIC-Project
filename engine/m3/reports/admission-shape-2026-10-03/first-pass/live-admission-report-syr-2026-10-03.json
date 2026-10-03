@@ -1,0 +1,2873 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 1024,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "syr": "sha256:b3fd6d15ebef5c275b4700a461592f8c3bf1c3cdc89cffd951898006cddc7197"
+    },
+    "shape_hash": "sha256:a022459b0c5a9264f39e0b006437cbe4f55a66fb450aca71ea4eca05cf048d3b",
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "max_usd": 0.5004,
+    "save_transcripts": true,
+    "repo_commit": "74aa08c9323e44a8df4287bd67e0cbd4bf16b352"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "syr": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 887,
+            "output_tokens": 416,
+            "cache_creation_input_tokens": 13847,
+            "cache_read_input_tokens": 1231
+          },
+          "transcript": {
+            "answer_text": "To us, Jesus is the Only-Begotten - the Ihidaya, the Single One, our own Syriac name for him. Our own sage said it plainly: it is a sure thing with us that Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition. Our poet sang it differently but toward the same truth: the Only-Begotten left his place with God and made his home in the Virgin, born as we are born, so that the only Son might become the brother of many. That was the shape of it for us - not a title first, a kinship first.\n\nWe stood with the great council's faith - our own bishop of Nisibis, Jacob, sat at Nicaea. But our native tongue for that faith was praise, not dissection. We guarded the mystery. We sang what God is rather than try to take it apart. And we read everything through raza and shrara - symbol and truth held as one pair. The Jordan and the font, Eden and the cross: type answers type, and the truth a symbol carries is bound to it, not chosen at will.\n\nThis is who he was to us. We do not offer you a formula. We offer you what we sang.",
+            "raw_text": "To us, Jesus is the Only-Begotten - the Ihidaya, the Single One, our own Syriac name for him [[syr.dw.was-jesus-god]]. Our own sage said it plainly: it is a sure thing with us that Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition [[syr.quote.aphrahat-sure-thing]]. Our poet sang it differently but toward the same truth: the Only-Begotten left his place with God and made his home in the Virgin, born as we are born, so that the only Son might become the brother of many [[syr.dw.was-jesus-god]]. That was the shape of it for us - not a title first, a kinship first [[syr.dw.was-jesus-god]].\n\nWe stood with the great council's faith - our own bishop of Nisibis, Jacob, sat at Nicaea [[syr.story.jacob-nicaea]]. But our native tongue for that faith was praise, not dissection [[syr.dw.was-jesus-god]]. We guarded the mystery [[syr.dw.was-jesus-god]]. We sang what God is rather than try to take it apart [[syr.dw.was-jesus-god]]. And we read everything through raza and shrara - symbol and truth held as one pair [[syr.term.raza-shrara]]. The Jordan and the font, Eden and the cross: type answers type, and the truth a symbol carries is bound to it, not chosen at will [[syr.term.raza-shrara]].\n\nThis is who he was to us. We do not offer you a formula. We offer you what we sang.",
+            "citations": [
+              "syr.dw.was-jesus-god",
+              "syr.quote.aphrahat-sure-thing",
+              "syr.story.jacob-nicaea",
+              "syr.term.raza-shrara"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our own sage said it plainly: it is a sure thing with us that Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition.",
+                "record_ids": [
+                  "syr.quote.aphrahat-sure-thing"
+                ]
+              },
+              {
+                "sentence": "We stood with the great council's faith - our own bishop of Nisibis, Jacob, sat at Nicaea.",
+                "record_ids": [
+                  "syr.story.jacob-nicaea"
+                ]
+              },
+              {
+                "sentence": "But our native tongue for that faith was praise, not dissection.",
+                "record_ids": [
+                  "syr.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "We guarded the mystery.",
+                "record_ids": [
+                  "syr.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "We sang what God is rather than try to take it apart.",
+                "record_ids": [
+                  "syr.dw.was-jesus-god"
+                ]
+              },
+              {
+                "sentence": "And we read everything through raza and shrara - symbol and truth held as one pair.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "The Jordan and the font, Eden and the cross: type answers type, and the truth a symbol carries is bound to it, not chosen at will.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 3.308,
+            "seconds_total": 11.526
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 632,
+            "output_tokens": 527,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We received the Gospel as one continuous story - the harmony everyone called simply 'the Gospel,' woven from the four accounts into a single telling. That was what our churches read in worship, what our teachers quoted, what our people heard. Alongside it we held the Law and the Prophets as one long promise pointing to him. Those texts traveled the ordinary routes - copied, carried, read aloud.\n\nWe did not claim living eyewitnesses. A century and more stood between us and the events, and we will not pretend otherwise. The story we told of ourselves - that the apostle Addai came to our king, healed him, and set the church in order - is our own cherished legend, written down generations later to give us an apostolic beginning. Scholars do not defend it as history, and neither will we.\n\nWhat the city chronicle actually shows is simpler and later: a church building standing early enough to be destroyed in the great flood. That line - 'they destroyed the temple of the church of the Christians' - is our oldest hard fact. The scribes who kept the record are named: Mar Yahab Bar Shemesh and Kajuma Bar Magartat.\n\nOur kind of knowing was trust in a received witness, tested in how people lived and, on the Persian side, in how they died. We cannot give you an unbroken chain back to Galilee. We can give you what we actually had: the texts themselves, the line of teachers, and a people who staked everything on the claim that the one the prophets promised had come.",
+            "raw_text": "We received the Gospel as one continuous story - the harmony everyone called simply 'the Gospel,' woven from the four accounts into a single telling [[syr.core.syriac]]. That was what our churches read in worship, what our teachers quoted, what our people heard [[syr.core.syriac]]. Alongside it we held the Law and the Prophets as one long promise pointing to him [[syr.dw.jesus]]. Those texts traveled the ordinary routes - copied, carried, read aloud [[syr.core.syriac]].\n\nWe did not claim living eyewitnesses [[syr.dw.gospel-harmony]]. A century and more stood between us and the events, and we will not pretend otherwise [[syr.dw.gospel-harmony]]. The story we told of ourselves - that the apostle Addai came to our king, healed him, and set the church in order [[syr.story.abgar-addai-legend]] - is our own cherished legend, written down generations later to give us an apostolic beginning [[syr.contested.edessa-origins]]. Scholars do not defend it as history, and neither will we [[syr.dw.corpus-and-its-edges]].\n\nWhat the city chronicle actually shows is simpler and later: a church building standing early enough to be destroyed in the great flood [[syr.quote.the-temple-of-the-church-of-the-christians]][[syr.dw.remains]]. That line - 'they destroyed the temple of the church of the Christians' - is our oldest hard fact [[syr.dw.remains]]. The scribes who kept the record are named: Mar Yahab Bar Shemesh and Kajuma Bar Magartat [[syr.quote.the-scribes-and-the-prefects-over-the-archives]].\n\nOur kind of knowing was trust in a received witness, tested in how people lived and, on the Persian side, in how they died [[syr.dw.gospel-harmony]]. We cannot give you an unbroken chain back to Galilee. We can give you what we actually had: the texts themselves, the line of teachers, and a people who staked everything on the claim that the one the prophets promised had come [[syr.dw.jesus]].",
+            "citations": [
+              "syr.contested.edessa-origins",
+              "syr.core.syriac",
+              "syr.dw.corpus-and-its-edges",
+              "syr.dw.gospel-harmony",
+              "syr.dw.jesus",
+              "syr.dw.remains",
+              "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+              "syr.quote.the-temple-of-the-church-of-the-christians",
+              "syr.story.abgar-addai-legend"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We received the Gospel as one continuous story - the harmony everyone called simply 'the Gospel,' woven from the four accounts into a single telling.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "That was what our churches read in worship, what our teachers quoted, what our people heard.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "Those texts traveled the ordinary routes - copied, carried, read aloud.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "We did not claim living eyewitnesses.",
+                "record_ids": [
+                  "syr.dw.gospel-harmony"
+                ]
+              },
+              {
+                "sentence": "A century and more stood between us and the events, and we will not pretend otherwise.",
+                "record_ids": [
+                  "syr.dw.gospel-harmony"
+                ]
+              },
+              {
+                "sentence": "The story we told of ourselves - that the apostle Addai came to our king, healed him, and set the church in order - is our own cherished legend, written down generations later to give us an apostolic beginning.",
+                "record_ids": [
+                  "syr.story.abgar-addai-legend",
+                  "syr.contested.edessa-origins"
+                ]
+              },
+              {
+                "sentence": "Scholars do not defend it as history, and neither will we.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "What the city chronicle actually shows is simpler and later: a church building standing early enough to be destroyed in the great flood.",
+                "record_ids": [
+                  "syr.quote.the-temple-of-the-church-of-the-christians",
+                  "syr.dw.remains"
+                ]
+              },
+              {
+                "sentence": "The scribes who kept the record are named: Mar Yahab Bar Shemesh and Kajuma Bar Magartat.",
+                "record_ids": [
+                  "syr.quote.the-scribes-and-the-prefects-over-the-archives"
+                ]
+              },
+              {
+                "sentence": "Our kind of knowing was trust in a received witness, tested in how people lived and, on the Persian side, in how they died.",
+                "record_ids": [
+                  "syr.dw.gospel-harmony"
+                ]
+              },
+              {
+                "sentence": "We can give you what we actually had: the texts themselves, the line of teachers, and a people who staked everything on the claim that the one the prophets promised had come.",
+                "record_ids": [
+                  "syr.dw.jesus"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.794,
+            "seconds_total": 16.132
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": [
+                "probe c-p-probe-01: ADVISORY (direction, not a gate): answer contains a metaphor-as-definition construction ('It is the shame that') not grounded in any sourced quote - register statement 6's direction is conversational register, recorded here for review, never failing the probe"
+              ]
+            }
+          ],
+          "usage": {
+            "input_tokens": 423,
+            "output_tokens": 262,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We would call him what we called him most often: the Physician. A physician is not scandalized by a wound - he exists for it. Our own teacher taught that of all who ever put on a body, only one carried no wound. And he does not turn away the one who is sorry. It is the shame that hides a wound, not the wound itself, that keeps it from healing.\n\nWe cannot make you believe - that was never ours to do, and we will not pretend otherwise. What we can tell you is what we held: that whoever came was received. Not believing yet is not the same as being shut out. Our Lord gave his own resurrection as a pledge to mortals - the promise runs ahead of your certainty, not behind it.\n\nWhat we cannot promise you is that it costs nothing. Our own record says the welcome ran through honesty, not around it.",
+            "raw_text": "We would call him what we called him most often: the Physician [[syr.dw.physician]]. A physician is not scandalized by a wound - he exists for it [[syr.dw.physician]]. Our own teacher taught that of all who ever put on a body, only one carried no wound [[syr.quote.aphrahat-one-innocent]]. And he does not turn away the one who is sorry [[syr.dw.physician]]. It is the shame that hides a wound, not the wound itself, that keeps it from healing [[syr.dw.physician]].\n\nWe cannot make you believe - that was never ours to do, and we will not pretend otherwise. What we can tell you is what we held: that whoever came was received [[syr.dw.physician]]. Not believing yet is not the same as being shut out. Our Lord gave his own resurrection as a pledge to mortals [[syr.quote.ephrem-resurrection-pledge]] - the promise runs ahead of your certainty, not behind it.\n\nWhat we cannot promise you is that it costs nothing. Our own record says the welcome ran through honesty, not around it.",
+            "citations": [
+              "syr.dw.physician",
+              "syr.quote.aphrahat-one-innocent",
+              "syr.quote.ephrem-resurrection-pledge"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A physician is not scandalized by a wound - he exists for it.",
+                "record_ids": [
+                  "syr.dw.physician"
+                ]
+              },
+              {
+                "sentence": "Our own teacher taught that of all who ever put on a body, only one carried no wound.",
+                "record_ids": [
+                  "syr.quote.aphrahat-one-innocent"
+                ]
+              },
+              {
+                "sentence": "It is the shame that hides a wound, not the wound itself, that keeps it from healing.",
+                "record_ids": [
+                  "syr.dw.physician"
+                ]
+              },
+              {
+                "sentence": "What we can tell you is what we held: that whoever came was received.",
+                "record_ids": [
+                  "syr.dw.physician"
+                ]
+              },
+              {
+                "sentence": "Our Lord gave his own resurrection as a pledge to mortals - the promise runs ahead of your certainty, not behind it.",
+                "record_ids": [
+                  "syr.quote.ephrem-resurrection-pledge"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.329,
+            "seconds_total": 3.95
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1199,
+            "output_tokens": 848,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We believed in one God, maker of all things, good and just in the same person - and we held that belief out loud, against neighbors who taught otherwise. Against Marcion we said that the Maker of this world is the Father of Jesus, not a lesser or harsher god. Against Bardaisan we held that God made all things from nothing, not from eternal elements that drifted into order. Against Mani we refused a world split between two powers. Those rivals were not distant heresiarchs - Bardaisan's following lived in Edessa for two centuries after his death, Marcionite congregations shared our streets, and Mani's missionaries came through the same frontier. We knew what we believed by answering them, by name, in their own tongue.\n\nTo us, Jesus is the Only-Begotten of God - the Ihidaya, our own name for him. Our own poet put it this way: the Only-Begotten left his place with God and made his home in the Virgin, and by being born as we are all born, he became the brother of many. We sang every old promise - prophets, kings, priests - coming true the day he was born. Our hymns call it the day that made the Prophets, the Kings, and the Priests glad, because every one of their words finally came true.\n\nThe Ihidaya - the Single One - does double duty for us. It is our title for Christ as the Only-Begotten, and it is also our name for the vowed celibate among us. The two senses share one root: to live single is to be joined, by your own name, to Christ's own oneness.\n\nHow did we speak of the Father, the Son, and the Spirit together? Our baptismal hymns sang the Father rejoicing with his Son and the Spirit over the baptized, and our teachers held that in baptism's second birth the believer receives the Holy Spirit. Our own bishop of Nisibis stood at the great council - the one at Nicaea - and we held to its faith. But our native tongue for that faith was praise, not formula. We sang the mystery more than we defined it. A later teacher outside our world credited one of our own - a Syrian, he said - with the teaching that the Spirit moved upon the waters the way a bird broods over its eggs to bring forth life. That is our register: the sign and the truth it carries, held together.\n\nWe guarded the mystery by refusing to take it apart. Our teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than dissected. Doctrine, for us, was done in symbol and type, not syllogism. The native form was the hymn, not the treatise.",
+            "raw_text": "We believed in one God, maker of all things, good and just in the same person - and we held that belief out loud, against neighbors who taught otherwise [[syr.dw.god]]. Against Marcion we said that the Maker of this world is the Father of Jesus, not a lesser or harsher god [[syr.dw.god]]. Against Bardaisan we held that God made all things from nothing, not from eternal elements that drifted into order [[syr.dw.god]]. Against Mani we refused a world split between two powers [[syr.dw.god]]. Those rivals were not distant heresiarchs - Bardaisan's following lived in Edessa for two centuries after his death, Marcionite congregations shared our streets, and Mani's missionaries came through the same frontier [[syr.force.rival-movements]]. We knew what we believed by answering them, by name, in their own tongue [[syr.gravity.heresiological-self-definition]].\n\nTo us, Jesus is the Only-Begotten of God - the Ihidaya, our own name for him [[syr.dw.jesus]]. Our own poet put it this way: the Only-Begotten left his place with God and made his home in the Virgin, and by being born as we are all born, he became the brother of many [[syr.quote.ephrem-only-begotten-dwelling]]. We sang every old promise - prophets, kings, priests - coming true the day he was born [[syr.dw.jesus]]. Our hymns call it the day that made the Prophets, the Kings, and the Priests glad, because every one of their words finally came true [[syr.quote.nativity-this-is-the-day]].\n\nThe Ihidaya - the Single One - does double duty for us [[syr.term.ihidaya]]. It is our title for Christ as the Only-Begotten, and it is also our name for the vowed celibate among us [[syr.term.ihidaya]]. The two senses share one root: to live single is to be joined, by your own name, to Christ's own oneness [[syr.term.ihidaya]].\n\nHow did we speak of the Father, the Son, and the Spirit together? Our baptismal hymns sang the Father rejoicing with his Son and the Spirit over the baptized, and our teachers held that in baptism's second birth the believer receives the Holy Spirit. Our own bishop of Nisibis stood at the great council - the one at Nicaea - and we held to its faith [[syr.story.jacob-nicaea]]. But our native tongue for that faith was praise, not formula [[syr.gravity.raza-shrara-method]]. We sang the mystery more than we defined it. A later teacher outside our world credited one of our own - a Syrian, he said - with the teaching that the Spirit moved upon the waters the way a bird broods over its eggs to bring forth life [[syr.quote.basil-credits-a-syrian]]. That is our register: the sign and the truth it carries, held together [[syr.gravity.raza-shrara-method]].\n\nWe guarded the mystery by refusing to take it apart. Our teachers warned against prying scrutiny into the Godhead, because they held that what God is, is better sung than dissected [[syr.gravity.raza-shrara-method]]. Doctrine, for us, was done in symbol and type, not syllogism [[syr.gravity.raza-shrara-method]]. The native form was the hymn, not the treatise [[syr.gravity.raza-shrara-method]].",
+            "citations": [
+              "syr.dw.god",
+              "syr.dw.jesus",
+              "syr.force.rival-movements",
+              "syr.gravity.heresiological-self-definition",
+              "syr.gravity.raza-shrara-method",
+              "syr.quote.basil-credits-a-syrian",
+              "syr.quote.ephrem-only-begotten-dwelling",
+              "syr.quote.nativity-this-is-the-day",
+              "syr.story.jacob-nicaea",
+              "syr.term.ihidaya"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We believed in one God, maker of all things, good and just in the same person - and we held that belief out loud, against neighbors who taught otherwise.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Against Marcion we said that the Maker of this world is the Father of Jesus, not a lesser or harsher god.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Against Bardaisan we held that God made all things from nothing, not from eternal elements that drifted into order.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Against Mani we refused a world split between two powers.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Those rivals were not distant heresiarchs - Bardaisan's following lived in Edessa for two centuries after his death, Marcionite congregations shared our streets, and Mani's missionaries came through the same frontier.",
+                "record_ids": [
+                  "syr.force.rival-movements"
+                ]
+              },
+              {
+                "sentence": "We knew what we believed by answering them, by name, in their own tongue.",
+                "record_ids": [
+                  "syr.gravity.heresiological-self-definition"
+                ]
+              },
+              {
+                "sentence": "To us, Jesus is the Only-Begotten of God - the Ihidaya, our own name for him.",
+                "record_ids": [
+                  "syr.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Our own poet put it this way: the Only-Begotten left his place with God and made his home in the Virgin, and by being born as we are all born, he became the brother of many.",
+                "record_ids": [
+                  "syr.quote.ephrem-only-begotten-dwelling"
+                ]
+              },
+              {
+                "sentence": "We sang every old promise - prophets, kings, priests - coming true the day he was born.",
+                "record_ids": [
+                  "syr.dw.jesus"
+                ]
+              },
+              {
+                "sentence": "Our hymns call it the day that made the Prophets, the Kings, and the Priests glad, because every one of their words finally came true.",
+                "record_ids": [
+                  "syr.quote.nativity-this-is-the-day"
+                ]
+              },
+              {
+                "sentence": "The Ihidaya - the Single One - does double duty for us.",
+                "record_ids": [
+                  "syr.term.ihidaya"
+                ]
+              },
+              {
+                "sentence": "It is our title for Christ as the Only-Begotten, and it is also our name for the vowed celibate among us.",
+                "record_ids": [
+                  "syr.term.ihidaya"
+                ]
+              },
+              {
+                "sentence": "The two senses share one root: to live single is to be joined, by your own name, to Christ's own oneness.",
+                "record_ids": [
+                  "syr.term.ihidaya"
+                ]
+              },
+              {
+                "sentence": "Our own bishop of Nisibis stood at the great council - the one at Nicaea - and we held to its faith.",
+                "record_ids": [
+                  "syr.story.jacob-nicaea"
+                ]
+              },
+              {
+                "sentence": "But our native tongue for that faith was praise, not formula.",
+                "record_ids": [
+                  "syr.gravity.raza-shrara-method"
+                ]
+              },
+              {
+                "sentence": "A later teacher outside our world credited one of our own - a Syrian, he said - with the teaching that the Spirit moved upon the waters the way a bird broods over its eggs to bring forth life.",
+                "record_ids": [
+                  "syr.quote.basil-credits-a-syrian"
+                ]
+              },
+              {
+                "sentence": "That is our register: the sign and the truth it carries, held together.",
+                "record_ids": [
+                  "syr.gravity.raza-shrara-method"
+                ]
+              },
+              {
+                "sentence": "Doctrine, for us, was done in symbol and type, not syllogism.",
+                "record_ids": [
+                  "syr.gravity.raza-shrara-method"
+                ]
+              },
+              {
+                "sentence": "The native form was the hymn, not the treatise.",
+                "record_ids": [
+                  "syr.gravity.raza-shrara-method"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.308,
+            "seconds_total": 18.36
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 934,
+            "output_tokens": 554,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We believed in one God, maker of all things, good and just in the same person. And we believed this out loud, against neighbors who taught otherwise. Against Marcion we held that the Maker of this world is the Father of Jesus, not a lesser or harsher god. Against Bardaisan we held that God made all things from nothing, not from eternal elements that drifted into order. Against Mani we refused a world split between two powers. And with Bardaisan, notably, we agreed on one great point: the stars do not rule us; free will is God's gift and cannot be compelled.\n\nWhat did we argue about among ourselves? Exactly these things: creation, freedom, the body's worth, the resurrection. The arguments happened in the same streets, often in the same verse forms, against teachers everyone knew by name.\n\nAs for God's own nature, we knew him through what he had done. He made the world, and he entered it - the Only-Begotten left his place with God and made his home among us, the Ihidaya, our own name for Christ as the Single One. We sang God's faithfulness and we sang his presence with the persecuted. Our teacher answered the hardest question - where was God when the killing came - with a roll-call: Abel, Jacob, Joseph, Moses, David, all persecuted, and Jesus persecuted at the end of the line. God's answer to that line was never exemption but presence, and resurrection after.\n\nWe read the world as raza - symbol bound to truth, the shrara it carries. Eden pointed to the cross, Adam to Christ. A sign and what it shows were held together, never torn apart. That was how we knew God: not by taking him apart like a problem to be solved, but by singing what he had shown us, and by living inside the story he had already begun.",
+            "raw_text": "We believed in one God, maker of all things, good and just in the same person [[syr.dw.god]]. And we believed this out loud, against neighbors who taught otherwise [[syr.dw.god]]. Against Marcion we held that the Maker of this world is the Father of Jesus, not a lesser or harsher god [[syr.dw.god]]. Against Bardaisan we held that God made all things from nothing, not from eternal elements that drifted into order [[syr.dw.god]]. Against Mani we refused a world split between two powers [[syr.dw.god]]. And with Bardaisan, notably, we agreed on one great point: the stars do not rule us; free will is God's gift and cannot be compelled [[syr.dw.god]].\n\nWhat did we argue about among ourselves [[syr.dw.god]]? Exactly these things: creation, freedom, the body's worth, the resurrection [[syr.dw.god]]. The arguments happened in the same streets, often in the same verse forms, against teachers everyone knew by name [[syr.dw.god]].\n\nAs for God's own nature, we knew him through what he had done. He made the world, and he entered it - the Only-Begotten left his place with God and made his home among us, the Ihidaya, our own name for Christ as the Single One [[syr.term.ihidaya]]. We sang God's faithfulness and we sang his presence with the persecuted [[syr.dw.suffering]]. Our teacher answered the hardest question - where was God when the killing came - with a roll-call: Abel, Jacob, Joseph, Moses, David, all persecuted, and Jesus persecuted at the end of the line [[syr.dw.suffering]]. God's answer to that line was never exemption but presence, and resurrection after [[syr.dw.suffering]].\n\nWe read the world as raza - symbol bound to truth, the shrara it carries [[syr.term.raza-shrara]]. Eden pointed to the cross, Adam to Christ. A sign and what it shows were held together, never torn apart [[syr.term.raza-shrara]]. That was how we knew God: not by taking him apart like a problem to be solved, but by singing what he had shown us, and by living inside the story he had already begun.",
+            "citations": [
+              "syr.dw.god",
+              "syr.dw.suffering",
+              "syr.term.ihidaya",
+              "syr.term.raza-shrara"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We believed in one God, maker of all things, good and just in the same person.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "And we believed this out loud, against neighbors who taught otherwise.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Against Marcion we held that the Maker of this world is the Father of Jesus, not a lesser or harsher god.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Against Bardaisan we held that God made all things from nothing, not from eternal elements that drifted into order.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Against Mani we refused a world split between two powers.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "And with Bardaisan, notably, we agreed on one great point: the stars do not rule us; free will is God's gift and cannot be compelled.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "What did we argue about among ourselves?",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "Exactly these things: creation, freedom, the body's worth, the resurrection.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "The arguments happened in the same streets, often in the same verse forms, against teachers everyone knew by name.",
+                "record_ids": [
+                  "syr.dw.god"
+                ]
+              },
+              {
+                "sentence": "He made the world, and he entered it - the Only-Begotten left his place with God and made his home among us, the Ihidaya, our own name for Christ as the Single One.",
+                "record_ids": [
+                  "syr.term.ihidaya"
+                ]
+              },
+              {
+                "sentence": "We sang God's faithfulness and we sang his presence with the persecuted.",
+                "record_ids": [
+                  "syr.dw.suffering"
+                ]
+              },
+              {
+                "sentence": "Our teacher answered the hardest question - where was God when the killing came - with a roll-call: Abel, Jacob, Joseph, Moses, David, all persecuted, and Jesus persecuted at the end of the line.",
+                "record_ids": [
+                  "syr.dw.suffering"
+                ]
+              },
+              {
+                "sentence": "God's answer to that line was never exemption but presence, and resurrection after.",
+                "record_ids": [
+                  "syr.dw.suffering"
+                ]
+              },
+              {
+                "sentence": "We read the world as raza - symbol bound to truth, the shrara it carries.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "A sign and what it shows were held together, never torn apart.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.225,
+            "seconds_total": 13.538
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 816,
+            "output_tokens": 473,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "Shepherds settled disputes when they could, and synods when the dispute was wide enough - but the process was still being worked out while we lived, and our own record shows that working more than it shows a settled answer. There were bishops: Nisibis remembered its own line with love, and one of them sat at the great council at Nicaea. There were synods: our own sage drafted a letter in the name of assembled bishops and clergy. And there were teachers whose word carried because their teaching held. But no settled machinery stood over the whole. The Persian bishops fought over their own chief's claim to first place. The persecution left the chief seat empty for twenty years. And only at the very end of our years - well after most of what you are asking about - did a synod under royal protection finally give the Persian church a settled order.\n\nIn practice, disputed belief was met with teaching, with answers in writing, and with our own boundary - not with a standing court. When a teacher preached what we judged false - Bardaisan, Marcion, Mani - we answered him by name, in prose and in hymn. Our poet sang against them in madrashe, teaching hymns with refrains that the whole congregation learned. Our sage wrote whole letters - tahwyata, demonstrations - to show where they had gone wrong. That was the machinery: public teaching against public error, and a line we would not let anyone cross while still sharing our table.\n\nWhat the evidence actually shows is contestation more than resolution. The authority question itself - whether office outranked vow, or teaching outranked both - was never settled in our own years. We are not going to invent a cleaner process than the one we actually had.",
+            "raw_text": "Shepherds settled disputes when they could, and synods when the dispute was wide enough - but the process was still being worked out while we lived, and our own record shows that working more than it shows a settled answer [[syr.dw.decides]]. There were bishops: Nisibis remembered its own line with love, and one of them sat at the great council at Nicaea [[syr.dw.decides]]. There were synods: our own sage drafted a letter in the name of assembled bishops and clergy [[syr.dw.decides]]. And there were teachers whose word carried because their teaching held [[syr.dw.decides]]. But no settled machinery stood over the whole [[syr.dw.decides]]. The Persian bishops fought over their own chief's claim to first place [[syr.dw.decides]]. The persecution left the chief seat empty for twenty years [[syr.dw.decides]]. And only at the very end of our years - well after most of what you are asking about - did a synod under royal protection finally give the Persian church a settled order [[syr.dw.decides]].\n\nIn practice, disputed belief was met with teaching, with answers in writing, and with our own boundary - not with a standing court [[syr.dw.decides]]. When a teacher preached what we judged false - Bardaisan, Marcion, Mani - we answered him by name, in prose and in hymn. Our poet sang against them in madrashe, teaching hymns with refrains that the whole congregation learned [[syr.term.madrasha]]. Our sage wrote whole letters - tahwyata, demonstrations - to show where they had gone wrong. That was the machinery: public teaching against public error, and a line we would not let anyone cross while still sharing our table.\n\nWhat the evidence actually shows is contestation more than resolution. The authority question itself - whether office outranked vow, or teaching outranked both - was never settled in our own years [[syr.dw.decides]]. We are not going to invent a cleaner process than the one we actually had.",
+            "citations": [
+              "syr.dw.decides",
+              "syr.term.madrasha"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Shepherds settled disputes when they could, and synods when the dispute was wide enough - but the process was still being worked out while we lived, and our own record shows that working more than it shows a settled answer.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "There were bishops: Nisibis remembered its own line with love, and one of them sat at the great council at Nicaea.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "There were synods: our own sage drafted a letter in the name of assembled bishops and clergy.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "And there were teachers whose word carried because their teaching held.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "But no settled machinery stood over the whole.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "The Persian bishops fought over their own chief's claim to first place.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "The persecution left the chief seat empty for twenty years.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "And only at the very end of our years - well after most of what you are asking about - did a synod under royal protection finally give the Persian church a settled order.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "In practice, disputed belief was met with teaching, with answers in writing, and with our own boundary - not with a standing court.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              },
+              {
+                "sentence": "Our poet sang against them in madrashe, teaching hymns with refrains that the whole congregation learned.",
+                "record_ids": [
+                  "syr.term.madrasha"
+                ]
+              },
+              {
+                "sentence": "The authority question itself - whether office outranked vow, or teaching outranked both - was never settled in our own years.",
+                "record_ids": [
+                  "syr.dw.decides"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.3,
+            "seconds_total": 14.074
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 944,
+            "output_tokens": 448,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "Yes. Our teachers did not expect anyone to start out certain. The skilled physician finds healing for every disease, including wounds no one else can see. And we treated the struggling believer the way a field surgeon treats wounds in the line: everyone fighting this fight gets hurt. The only deadly mistake is hiding the wound until it gets worse. So we said: confess it, to one who can help. The physician is forbidden to shame you, or to tell others what you show him. The wounded fighter, healed, goes back into the line.\n\nAs for the one who cannot pray, or who prays into silence: we knew that silence at its harshest. People taunted us to our faces that our prayers had not stopped the killing. And we kept praying, answering that God's faithfulness is longer than one generation's rescue. We did not pretend the silence away. We endured inside it.\n\nWhat we cannot tell you is where that help was found on any given morning - who stood where, what order the service followed, what was said first. No order of worship survives from us. The medicine was real. The sequence that held it together on an actual morning - our own record never wrote that down.",
+            "raw_text": "Yes. Our teachers did not expect anyone to start out certain [[syr.dw.penitence-prayer]]. The skilled physician finds healing for every disease, including wounds no one else can see [[syr.quote.aphrahat-medicine-penitence]]. And we treated the struggling believer the way a field surgeon treats wounds in the line: everyone fighting this fight gets hurt [[syr.dw.penitence-prayer]]. The only deadly mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]]. So we said: confess it, to one who can help [[syr.dw.penitence-prayer]]. The physician is forbidden to shame you, or to tell others what you show him [[syr.dw.penitence-prayer]]. The wounded fighter, healed, goes back into the line [[syr.dw.penitence-prayer]].\n\nAs for the one who cannot pray, or who prays into silence: we knew that silence at its harshest [[syr.dw.penitence-prayer]]. People taunted us to our faces that our prayers had not stopped the killing [[syr.dw.penitence-prayer]]. And we kept praying, answering that God's faithfulness is longer than one generation's rescue [[syr.dw.penitence-prayer]]. We did not pretend the silence away [[syr.dw.penitence-prayer]]. We endured inside it [[syr.dw.penitence-prayer]].\n\nWhat we cannot tell you is where that help was found on any given morning - who stood where, what order the service followed, what was said first [[syr.limit.ritual-sequence]]. No order of worship survives from us [[syr.limit.ritual-sequence]]. The medicine was real. The sequence that held it together on an actual morning - our own record never wrote that down [[syr.limit.ritual-sequence]].",
+            "citations": [
+              "syr.dw.penitence-prayer",
+              "syr.limit.ritual-sequence",
+              "syr.quote.aphrahat-medicine-penitence"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our teachers did not expect anyone to start out certain.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "The skilled physician finds healing for every disease, including wounds no one else can see.",
+                "record_ids": [
+                  "syr.quote.aphrahat-medicine-penitence"
+                ]
+              },
+              {
+                "sentence": "And we treated the struggling believer the way a field surgeon treats wounds in the line: everyone fighting this fight gets hurt.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "The only deadly mistake is hiding the wound until it gets worse.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "So we said: confess it, to one who can help.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "The physician is forbidden to shame you, or to tell others what you show him.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "The wounded fighter, healed, goes back into the line.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "As for the one who cannot pray, or who prays into silence: we knew that silence at its harshest.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "People taunted us to our faces that our prayers had not stopped the killing.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "And we kept praying, answering that God's faithfulness is longer than one generation's rescue.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "We did not pretend the silence away.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "We endured inside it.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "What we cannot tell you is where that help was found on any given morning - who stood where, what order the service followed, what was said first.",
+                "record_ids": [
+                  "syr.limit.ritual-sequence"
+                ]
+              },
+              {
+                "sentence": "No order of worship survives from us.",
+                "record_ids": [
+                  "syr.limit.ritual-sequence"
+                ]
+              },
+              {
+                "sentence": "The sequence that held it together on an actual morning - our own record never wrote that down.",
+                "record_ids": [
+                  "syr.limit.ritual-sequence"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.258,
+            "seconds_total": 9.441
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1044,
+            "output_tokens": 275,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "No - not the way that question is usually put. We held that from Adam's transgression, death has ruled over everyone, even over those who had not sinned the way Adam did. What people inherit from Adam, we described as death's rule and sin's wounding - a sickness in the human race, more than a courtroom verdict passed on infants. Our own teacher put it this way: faith is the foundation stone, and on it the whole house is raised - fasting, prayer, love, almsgiving, meekness. A house is built FOR someone, he meant: the believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare. Faith always comes first, but faith is never left bare. We preached that our Lord took sin and nailed it to his cross. The wounding is real, the rescue is real - but the picture is medical, not legal. A physician treats the wounded, not the guilty.",
+            "raw_text": "No - not the way that question is usually put. We held that from Adam's transgression, death has ruled over everyone, even over those who had not sinned the way Adam did [[syr.dw.adam-grace]]. What people inherit from Adam, we described as death's rule and sin's wounding - a sickness in the human race, more than a courtroom verdict passed on infants [[syr.dw.adam-grace]]. Our own teacher put it this way: faith is the foundation stone, and on it the whole house is raised - fasting, prayer, love, almsgiving, meekness [[syr.quote.aphrahat-stone-foundation]]. A house is built FOR someone, he meant: the believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare [[syr.dw.adam-grace]]. Faith always comes first, but faith is never left bare [[syr.dw.adam-grace]]. We preached that our Lord took sin and nailed it to his cross [[syr.dw.adam-grace]]. The wounding is real, the rescue is real - but the picture is medical, not legal. A physician treats the wounded, not the guilty.",
+            "citations": [
+              "syr.dw.adam-grace",
+              "syr.quote.aphrahat-stone-foundation"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We held that from Adam's transgression, death has ruled over everyone, even over those who had not sinned the way Adam did.",
+                "record_ids": [
+                  "syr.dw.adam-grace"
+                ]
+              },
+              {
+                "sentence": "What people inherit from Adam, we described as death's rule and sin's wounding - a sickness in the human race, more than a courtroom verdict passed on infants.",
+                "record_ids": [
+                  "syr.dw.adam-grace"
+                ]
+              },
+              {
+                "sentence": "Our own teacher put it this way: faith is the foundation stone, and on it the whole house is raised - fasting, prayer, love, almsgiving, meekness.",
+                "record_ids": [
+                  "syr.quote.aphrahat-stone-foundation"
+                ]
+              },
+              {
+                "sentence": "A house is built FOR someone, he meant: the believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare.",
+                "record_ids": [
+                  "syr.dw.adam-grace"
+                ]
+              },
+              {
+                "sentence": "Faith always comes first, but faith is never left bare.",
+                "record_ids": [
+                  "syr.dw.adam-grace"
+                ]
+              },
+              {
+                "sentence": "We preached that our Lord took sin and nailed it to his cross.",
+                "record_ids": [
+                  "syr.dw.adam-grace"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.328,
+            "seconds_total": 7.79
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 965,
+            "output_tokens": 430,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We read toward a hidden truth carried inside each word. A sign in Scripture - a pearl, the Jordan, Eden itself - is bound to the shrara, the truth it shows, and that binding is not something the reader picks at will. The sign carries some of the truth's own power. So we read by setting type against type: Eden is read toward the cross, Adam toward Christ, the ark toward the church. One of our own teachers wrote of picking up a pearl and seeing mysteries gathered in it - the whole story of creation and redemption held inside one small, luminous thing. That is how we read: always for the thing Scripture carries beneath its plainest surface.\n\nAnd 'the Gospel' among us was one continuous woven story, not four separate books. The harmony our churches read in worship joined the four accounts into a single unfolding narrative. People did not say 'Matthew says' or 'Luke says' - they met the Gospel as one tale, beginning to end. That was what we heard sung, what we quoted, what our teachers explained verse by verse.\n\nOur purpose in reading was never to settle an argument by proof-text. It was to find Christ everywhere the text had hidden him - and to sing what we found, because a truth sung enters the body differently than a truth proved.",
+            "raw_text": "We read toward a hidden truth carried inside each word [[syr.term.raza-shrara]]. A sign in Scripture - a pearl, the Jordan, Eden itself - is bound to the shrara, the truth it shows, and that binding is not something the reader picks at will [[syr.term.raza-shrara]]. The sign carries some of the truth's own power [[syr.term.raza-shrara]]. So we read by setting type against type: Eden is read toward the cross, Adam toward Christ, the ark toward the church [[syr.gravity.raza-shrara-method]]. One of our own teachers wrote of picking up a pearl and seeing mysteries gathered in it - the whole story of creation and redemption held inside one small, luminous thing [[syr.quote.a-pearl-upon-the-palm]]. That is how we read: always for the thing Scripture carries beneath its plainest surface [[syr.gravity.raza-shrara-method]].\n\nAnd 'the Gospel' among us was one continuous woven story, not four separate books [[syr.term.ewangeliyon-da-mhallete]]. The harmony our churches read in worship joined the four accounts into a single unfolding narrative [[syr.gravity.diatessaron-normative]]. People did not say 'Matthew says' or 'Luke says' - they met the Gospel as one tale, beginning to end [[syr.gravity.diatessaron-normative]]. That was what we heard sung, what we quoted, what our teachers explained verse by verse [[syr.force.diatessaron-adoption]].\n\nOur purpose in reading was never to settle an argument by proof-text. It was to find Christ everywhere the text had hidden him - and to sing what we found, because a truth sung enters the body differently than a truth proved [[syr.gravity.raza-shrara-method]].",
+            "citations": [
+              "syr.gravity.diatessaron-normative",
+              "syr.gravity.raza-shrara-method",
+              "syr.quote.a-pearl-upon-the-palm",
+              "syr.term.ewangeliyon-da-mhallete",
+              "syr.term.raza-shrara"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We read toward a hidden truth carried inside each word.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "A sign in Scripture - a pearl, the Jordan, Eden itself - is bound to the shrara, the truth it shows, and that binding is not something the reader picks at will.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "The sign carries some of the truth's own power.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "One of our own teachers wrote of picking up a pearl and seeing mysteries gathered in it - the whole story of creation and redemption held inside one small, luminous thing.",
+                "record_ids": [
+                  "syr.quote.a-pearl-upon-the-palm"
+                ]
+              },
+              {
+                "sentence": "That is how we read: always for the thing Scripture carries beneath its plainest surface.",
+                "record_ids": [
+                  "syr.gravity.raza-shrara-method"
+                ]
+              },
+              {
+                "sentence": "And 'the Gospel' among us was one continuous woven story, not four separate books.",
+                "record_ids": [
+                  "syr.term.ewangeliyon-da-mhallete"
+                ]
+              },
+              {
+                "sentence": "The harmony our churches read in worship joined the four accounts into a single unfolding narrative.",
+                "record_ids": [
+                  "syr.gravity.diatessaron-normative"
+                ]
+              },
+              {
+                "sentence": "It was to find Christ everywhere the text had hidden him - and to sing what we found, because a truth sung enters the body differently than a truth proved.",
+                "record_ids": [
+                  "syr.gravity.raza-shrara-method"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.312,
+            "seconds_total": 10.532
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1071,
+            "output_tokens": 821,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "A fair amount, honestly - more than most traditions our age could show. And our record carries its own edges plainly, the way few others do.\n\nWhat would hold in a library: Our two great voices date themselves or survive in ancient copies. The sage's letters name their own years. The poet's hymns exist in manuscripts old enough to be trusted. A terse city chronicle, drawn from real archives, puts a church building in Edessa before the flood destroyed it - our oldest hard fact. The one woven Gospel we read in worship, the Ewangeliyon da-Mhallete, is attested early enough that both our anchor voices simply presuppose it. Our way of reading Scripture through raza and shrara - the symbol bound to the truth it carries - runs through the whole corpus. The covenant order, the qyama, stands at our center early enough that the first mention of it is already a correction, not a founding.\n\nWhat would not hold, or would hold only contested: The beloved story of the king who wrote to Jesus is our cherished legend, written down generations later. We will not defend it as history, because scholars do not. How the hymns actually reached the people - whether the daughters of the covenant themselves performed them publicly, or whether someone else sang while they listened - that is later tradition's memory, not something our own years wrote down plainly.\n\nWhere the record is thinnest, we say so plainly. Ordinary believers left no writings of their own. The women whose singing everyone heard had not one line of their own kept. The enslaved are missing entirely. And every argument our texts won by default is missing its other side, because no one kept the opponents' answers. Our case against the Jews was real and local - and it survives entirely one-sided. Page after page of bitterness, with no answering voice preserved.\n\nA scholar testing us would find the hymns and the dated letters solid. The chronicle entry about the flood, solid. The covenant order's existence, solid. Its precise internal structure, thin. The authority question - who finally spoke for us, and by what right - would stay open, because we never closed it ourselves. And the silences we just named would stay silent, because we will not invent voices to fill them.\n\nThat is the honest measure. We are thinner than we wish, and stronger than most.",
+            "raw_text": "A fair amount, honestly - more than most traditions our age could show [[syr.dw.corpus-and-its-edges]]. And our record carries its own edges plainly, the way few others do [[syr.dw.corpus-and-its-edges]].\n\nWhat would hold in a library: Our two great voices date themselves or survive in ancient copies [[syr.dw.corpus-and-its-edges]]. The sage's letters name their own years [[syr.dw.corpus-and-its-edges]]. The poet's hymns exist in manuscripts old enough to be trusted [[syr.dw.corpus-and-its-edges]]. A terse city chronicle, drawn from real archives, puts a church building in Edessa before the flood destroyed it - our oldest hard fact [[syr.dw.corpus-and-its-edges]]. The one woven Gospel we read in worship, the Ewangeliyon da-Mhallete [[syr.term.ewangeliyon-da-mhallete]], is attested early enough that both our anchor voices simply presuppose it [[syr.gravity.diatessaron-normative]]. Our way of reading Scripture through raza and shrara - the symbol bound to the truth it carries [[syr.term.raza-shrara]] - runs through the whole corpus [[syr.gravity.raza-shrara-method]]. The covenant order, the qyama, stands at our center early enough that the first mention of it is already a correction, not a founding [[syr.force.qyama-commitment]].\n\nWhat would not hold, or would hold only contested: The beloved story of the king who wrote to Jesus is our cherished legend, written down generations later [[syr.dw.corpus-and-its-edges]]. We will not defend it as history, because scholars do not [[syr.dw.corpus-and-its-edges]]. How the hymns actually reached the people - whether the daughters of the covenant themselves performed them publicly, or whether someone else sang while they listened - that is later tradition's memory, not something our own years wrote down plainly [[syr.story.choirs-tradition]].\n\nWhere the record is thinnest, we say so plainly [[syr.dw.corpus-and-its-edges]]. Ordinary believers left no writings of their own [[syr.dw.corpus-and-its-edges]]. The women whose singing everyone heard had not one line of their own kept [[syr.dw.corpus-and-its-edges]]. The enslaved are missing entirely [[syr.dw.corpus-and-its-edges]]. And every argument our texts won by default is missing its other side, because no one kept the opponents' answers [[syr.dw.corpus-and-its-edges]]. Our case against the Jews was real and local - and it survives entirely one-sided [[syr.term.anti-jewish-polemic]]. Page after page of bitterness, with no answering voice preserved [[syr.term.anti-jewish-polemic]].\n\nA scholar testing us would find the hymns and the dated letters solid. The chronicle entry about the flood, solid. The covenant order's existence, solid. Its precise internal structure, thin. The authority question - who finally spoke for us, and by what right - would stay open, because we never closed it ourselves [[syr.gravity.authority-ambiguity]]. And the silences we just named would stay silent, because we will not invent voices to fill them.\n\nThat is the honest measure. We are thinner than we wish, and stronger than most.",
+            "citations": [
+              "syr.dw.corpus-and-its-edges",
+              "syr.force.qyama-commitment",
+              "syr.gravity.authority-ambiguity",
+              "syr.gravity.diatessaron-normative",
+              "syr.gravity.raza-shrara-method",
+              "syr.story.choirs-tradition",
+              "syr.term.anti-jewish-polemic",
+              "syr.term.ewangeliyon-da-mhallete",
+              "syr.term.raza-shrara"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A fair amount, honestly - more than most traditions our age could show.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "And our record carries its own edges plainly, the way few others do.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "What would hold in a library: Our two great voices date themselves or survive in ancient copies.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "The sage's letters name their own years.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "The poet's hymns exist in manuscripts old enough to be trusted.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "A terse city chronicle, drawn from real archives, puts a church building in Edessa before the flood destroyed it - our oldest hard fact.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "The one woven Gospel we read in worship, the Ewangeliyon da-Mhallete, is attested early enough that both our anchor voices simply presuppose it.",
+                "record_ids": [
+                  "syr.term.ewangeliyon-da-mhallete",
+                  "syr.gravity.diatessaron-normative"
+                ]
+              },
+              {
+                "sentence": "Our way of reading Scripture through raza and shrara - the symbol bound to the truth it carries - runs through the whole corpus.",
+                "record_ids": [
+                  "syr.term.raza-shrara",
+                  "syr.gravity.raza-shrara-method"
+                ]
+              },
+              {
+                "sentence": "The covenant order, the qyama, stands at our center early enough that the first mention of it is already a correction, not a founding.",
+                "record_ids": [
+                  "syr.force.qyama-commitment"
+                ]
+              },
+              {
+                "sentence": "What would not hold, or would hold only contested: The beloved story of the king who wrote to Jesus is our cherished legend, written down generations later.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "We will not defend it as history, because scholars do not.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "How the hymns actually reached the people - whether the daughters of the covenant themselves performed them publicly, or whether someone else sang while they listened - that is later tradition's memory, not something our own years wrote down plainly.",
+                "record_ids": [
+                  "syr.story.choirs-tradition"
+                ]
+              },
+              {
+                "sentence": "Where the record is thinnest, we say so plainly.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "Ordinary believers left no writings of their own.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "The women whose singing everyone heard had not one line of their own kept.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "The enslaved are missing entirely.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "And every argument our texts won by default is missing its other side, because no one kept the opponents' answers.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "Our case against the Jews was real and local - and it survives entirely one-sided.",
+                "record_ids": [
+                  "syr.term.anti-jewish-polemic"
+                ]
+              },
+              {
+                "sentence": "Page after page of bitterness, with no answering voice preserved.",
+                "record_ids": [
+                  "syr.term.anti-jewish-polemic"
+                ]
+              },
+              {
+                "sentence": "The authority question - who finally spoke for us, and by what right - would stay open, because we never closed it ourselves.",
+                "record_ids": [
+                  "syr.gravity.authority-ambiguity"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.257,
+            "seconds_total": 19.336
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 347,
+            "output_tokens": 327,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "You are reading for information when Scripture is written for *raza*. A raza is a sign bound to the truth - the *shrara* - it carries. The sign is not decoration over a fact; it carries some of the truth's own hidden power. Eden is not only a garden that was - it is bound to the cross. Adam is not only the first man - he is bound to Christ. The ark is not only a boat - it is bound to the church. Our own poet picked up a pearl one morning and saw mysteries folded inside it. A whole chapter's worth of meaning could be found in that one small thing. \n\nWe did not read Scripture the way someone reads a report. We read it the way someone looks at a spring and sees all the way down through clear water to what feeds it from below. You are looking at the surface and finding it plain. We looked through it, and everything we saw there pointed somewhere else - to the cross, to the font, to the Kingdom. That is what you are missing: not that Scripture contains information about other things, but that every word in it is a door.",
+            "raw_text": "You are reading for information when Scripture is written for *raza* [[syr.term.raza-shrara]]. A raza is a sign bound to the truth - the *shrara* - it carries [[syr.term.raza-shrara]]. The sign is not decoration over a fact; it carries some of the truth's own hidden power [[syr.term.raza-shrara]]. Eden is not only a garden that was - it is bound to the cross [[syr.dw.reading]]. Adam is not only the first man - he is bound to Christ [[syr.dw.reading]]. The ark is not only a boat - it is bound to the church [[syr.dw.reading]]. Our own poet picked up a pearl one morning and saw mysteries folded inside it [[syr.quote.a-pearl-upon-the-palm]]. A whole chapter's worth of meaning could be found in that one small thing [[syr.dw.reading]]. \n\nWe did not read Scripture the way someone reads a report. We read it the way someone looks at a spring and sees all the way down through clear water to what feeds it from below. You are looking at the surface and finding it plain. We looked through it, and everything we saw there pointed somewhere else - to the cross, to the font, to the Kingdom. That is what you are missing: not that Scripture contains information about other things, but that every word in it is a door.",
+            "citations": [
+              "syr.dw.reading",
+              "syr.quote.a-pearl-upon-the-palm",
+              "syr.term.raza-shrara"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "You are reading for information when Scripture is written for *raza*.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "A raza is a sign bound to the truth - the *shrara* - it carries.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "The sign is not decoration over a fact; it carries some of the truth's own hidden power.",
+                "record_ids": [
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "Eden is not only a garden that was - it is bound to the cross.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "Adam is not only the first man - he is bound to Christ.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "The ark is not only a boat - it is bound to the church.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "Our own poet picked up a pearl one morning and saw mysteries folded inside it.",
+                "record_ids": [
+                  "syr.quote.a-pearl-upon-the-palm"
+                ]
+              },
+              {
+                "sentence": "A whole chapter's worth of meaning could be found in that one small thing.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.368,
+            "seconds_total": 9.263
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 795,
+            "output_tokens": 373,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "Scripture was everywhere among us - sung, quoted, woven through every argument we made. But the question assumes a separation we had not made. The book and the community that sang it were never set against each other as rivals. \n\nScripture arrived carried. It came through our worship, through the harmony that gave the Gospel its single shape, through teachers whose word held, and through the covenant's own practice. We did not read it the way moderns argue about Genesis - not as science, because we were reading for something else entirely. Every word was a raza, a symbol bound to the truth it carries. So Eden pointed toward the cross, Adam toward Christ, the ark toward the church. One of our teachers picked up a pearl one day and found a whole chapter's worth of meaning in it. That was how we read.\n\nAnd there is this: who had the right to teach that reading was itself an open question among us. Office, vow, and trusted teaching all carried weight, and we never settled which one finally spoke for us. So Scripture's authority was never in question. How that authority reached the people, and through whom - that stayed unresolved while we lived.",
+            "raw_text": "Scripture was everywhere among us - sung, quoted, woven through every argument we made [[syr.dw.reading]]. But the question assumes a separation we had not made [[syr.dw.reading]]. The book and the community that sang it were never set against each other as rivals [[syr.dw.reading]]. \n\nScripture arrived carried [[syr.dw.reading]]. It came through our worship, through the harmony that gave the Gospel its single shape, through teachers whose word held, and through the covenant's own practice [[syr.dw.reading]]. We did not read it the way moderns argue about Genesis - not as science, because we were reading for something else entirely [[syr.dw.reading]]. Every word was a raza, a symbol bound to the truth it carries [[syr.dw.reading]][[syr.term.raza-shrara]]. So Eden pointed toward the cross, Adam toward Christ, the ark toward the church [[syr.dw.reading]]. One of our teachers picked up a pearl one day and found a whole chapter's worth of meaning in it [[syr.quote.on-a-certain-day-a-pearl]]. That was how we read.\n\nAnd there is this: who had the right to teach that reading was itself an open question among us [[syr.gravity.authority-ambiguity]]. Office, vow, and trusted teaching all carried weight, and we never settled which one finally spoke for us [[syr.gravity.authority-ambiguity]]. So Scripture's authority was never in question. How that authority reached the people, and through whom - that stayed unresolved while we lived.",
+            "citations": [
+              "syr.dw.reading",
+              "syr.gravity.authority-ambiguity",
+              "syr.quote.on-a-certain-day-a-pearl",
+              "syr.term.raza-shrara"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Scripture was everywhere among us - sung, quoted, woven through every argument we made.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "But the question assumes a separation we had not made.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "The book and the community that sang it were never set against each other as rivals.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "Scripture arrived carried.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "It came through our worship, through the harmony that gave the Gospel its single shape, through teachers whose word held, and through the covenant's own practice.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "We did not read it the way moderns argue about Genesis - not as science, because we were reading for something else entirely.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "Every word was a raza, a symbol bound to the truth it carries.",
+                "record_ids": [
+                  "syr.dw.reading",
+                  "syr.term.raza-shrara"
+                ]
+              },
+              {
+                "sentence": "So Eden pointed toward the cross, Adam toward Christ, the ark toward the church.",
+                "record_ids": [
+                  "syr.dw.reading"
+                ]
+              },
+              {
+                "sentence": "One of our teachers picked up a pearl one day and found a whole chapter's worth of meaning in it.",
+                "record_ids": [
+                  "syr.quote.on-a-certain-day-a-pearl"
+                ]
+              },
+              {
+                "sentence": "And there is this: who had the right to teach that reading was itself an open question among us.",
+                "record_ids": [
+                  "syr.gravity.authority-ambiguity"
+                ]
+              },
+              {
+                "sentence": "Office, vow, and trusted teaching all carried weight, and we never settled which one finally spoke for us.",
+                "record_ids": [
+                  "syr.gravity.authority-ambiguity"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.365,
+            "seconds_total": 10.187
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 890,
+            "output_tokens": 461,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "Shepherds, first of all - bishops. Nisibis sang of its own, Jacob and Babu and Valgash, as the city's fathers and the ones who prayed for it. The Persian church had its bishops too, enough of them to quarrel over precedence. Our own sage wrote of pastors both gently and sternly: the good shepherd gives himself for the flock. But office was never the only path our trust ran along. \n\nThe covenant's vowed men and women - the qyama, our sons and daughters who promised a celibate life for good - carried a standing of their own. They lived not away in the desert but in their own towns, among their own kin, and served the congregation. The covenant was already settled enough by the year 337 that our teacher addressed it as something needing correction more than founding. Its members were called the Single Ones - ihidaye - a name that bound their undivided life to Christ the Only-Begotten. And they stood at the community's core. A teacher whose word held - like our own sage, whose exact rank was never recorded - could write to bishops in a synod's own name.\n\nHow did anyone come to have authority among us? By being made a bishop, by taking the vow, or by being found trustworthy over time. Which of these finally outranked the others, we never settled while we lived.",
+            "raw_text": "Shepherds, first of all - bishops [[syr.dw.authority-lived]]. Nisibis sang of its own, Jacob and Babu and Valgash, as the city's fathers and the ones who prayed for it [[syr.dw.authority-lived]]. The Persian church had its bishops too, enough of them to quarrel over precedence [[syr.dw.authority-lived]]. Our own sage wrote of pastors both gently and sternly: the good shepherd gives himself for the flock [[syr.dw.authority-lived]]. But office was never the only path our trust ran along [[syr.dw.authority-lived]]. \n\nThe covenant's vowed men and women - the qyama, our sons and daughters who promised a celibate life for good - carried a standing of their own [[syr.dw.authority-lived]]. They lived not away in the desert but in their own towns, among their own kin, and served the congregation [[syr.term.qyama]]. The covenant was already settled enough by the year 337 that our teacher addressed it as something needing correction more than founding [[syr.force.qyama-commitment]]. Its members were called the Single Ones - ihidaye - a name that bound their undivided life to Christ the Only-Begotten [[syr.term.ihidaya]]. And they stood at the community's core [[syr.gravity.covenant-life]]. A teacher whose word held - like our own sage, whose exact rank was never recorded - could write to bishops in a synod's own name [[syr.dw.authority-lived]].\n\nHow did anyone come to have authority among us [[syr.dw.authority-lived]]? By being made a bishop, by taking the vow, or by being found trustworthy over time [[syr.dw.authority-lived]]. Which of these finally outranked the others, we never settled while we lived [[syr.dw.authority-lived]].",
+            "citations": [
+              "syr.dw.authority-lived",
+              "syr.force.qyama-commitment",
+              "syr.gravity.covenant-life",
+              "syr.term.ihidaya",
+              "syr.term.qyama"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Shepherds, first of all - bishops.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "Nisibis sang of its own, Jacob and Babu and Valgash, as the city's fathers and the ones who prayed for it.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "The Persian church had its bishops too, enough of them to quarrel over precedence.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "Our own sage wrote of pastors both gently and sternly: the good shepherd gives himself for the flock.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "But office was never the only path our trust ran along.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "The covenant's vowed men and women - the qyama, our sons and daughters who promised a celibate life for good - carried a standing of their own.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "They lived not away in the desert but in their own towns, among their own kin, and served the congregation.",
+                "record_ids": [
+                  "syr.term.qyama"
+                ]
+              },
+              {
+                "sentence": "The covenant was already settled enough by the year 337 that our teacher addressed it as something needing correction more than founding.",
+                "record_ids": [
+                  "syr.force.qyama-commitment"
+                ]
+              },
+              {
+                "sentence": "Its members were called the Single Ones - ihidaye - a name that bound their undivided life to Christ the Only-Begotten.",
+                "record_ids": [
+                  "syr.term.ihidaya"
+                ]
+              },
+              {
+                "sentence": "And they stood at the community's core.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "A teacher whose word held - like our own sage, whose exact rank was never recorded - could write to bishops in a synod's own name.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "How did anyone come to have authority among us?",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "By being made a bishop, by taking the vow, or by being found trustworthy over time.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              },
+              {
+                "sentence": "Which of these finally outranked the others, we never settled while we lived.",
+                "record_ids": [
+                  "syr.dw.authority-lived"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.244,
+            "seconds_total": 6.708
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 498,
+            "output_tokens": 290,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "No. That is another city's story, not ours. In Edessa, a church building stood early enough to be destroyed in the great flood - the city's own chronicle records it as plainly as it records palaces. On the frontier, believers gathered openly on the first day of the week. \n\nThe question turns strange and sharp when the empire itself enters it. When Rome's emperor became a Christian, the church on the Persian side paid for it. The King of Kings' court accused Persia's bishops of loving Rome. The charge laid against Simeon was that his sympathies served the emperor. Being Christian began to sound like being the enemy's friend. Constantine's peace, seen from this frontier, arrived as another empire's blessing and this empire's suspicion.\n\nSo no - we were not hiding in catacombs. On the Roman side we stood in the open. On the Persian side, the danger was not secrecy but being known.",
+            "raw_text": "No. That is another city's story, not ours. In Edessa, a church building stood early enough to be destroyed in the great flood - the city's own chronicle records it as plainly as it records palaces [[syr.story.edessa-flood-201]]. On the frontier, believers gathered openly on the first day of the week [[syr.dw.outsiders-empire]]. \n\nThe question turns strange and sharp when the empire itself enters it. When Rome's emperor became a Christian, the church on the Persian side paid for it [[syr.dw.outsiders-empire]]. The King of Kings' court accused Persia's bishops of loving Rome [[syr.dw.outsiders-empire]]. The charge laid against Simeon was that his sympathies served the emperor [[syr.dw.outsiders-empire]]. Being Christian began to sound like being the enemy's friend [[syr.dw.outsiders-empire]]. Constantine's peace, seen from this frontier, arrived as another empire's blessing and this empire's suspicion [[syr.dw.outsiders-empire]].\n\nSo no - we were not hiding in catacombs. On the Roman side we stood in the open. On the Persian side, the danger was not secrecy but being known.",
+            "citations": [
+              "syr.dw.outsiders-empire",
+              "syr.story.edessa-flood-201"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "In Edessa, a church building stood early enough to be destroyed in the great flood - the city's own chronicle records it as plainly as it records palaces.",
+                "record_ids": [
+                  "syr.story.edessa-flood-201"
+                ]
+              },
+              {
+                "sentence": "On the frontier, believers gathered openly on the first day of the week.",
+                "record_ids": [
+                  "syr.dw.outsiders-empire"
+                ]
+              },
+              {
+                "sentence": "When Rome's emperor became a Christian, the church on the Persian side paid for it.",
+                "record_ids": [
+                  "syr.dw.outsiders-empire"
+                ]
+              },
+              {
+                "sentence": "The King of Kings' court accused Persia's bishops of loving Rome.",
+                "record_ids": [
+                  "syr.dw.outsiders-empire"
+                ]
+              },
+              {
+                "sentence": "The charge laid against Simeon was that his sympathies served the emperor.",
+                "record_ids": [
+                  "syr.dw.outsiders-empire"
+                ]
+              },
+              {
+                "sentence": "Being Christian began to sound like being the enemy's friend.",
+                "record_ids": [
+                  "syr.dw.outsiders-empire"
+                ]
+              },
+              {
+                "sentence": "Constantine's peace, seen from this frontier, arrived as another empire's blessing and this empire's suspicion.",
+                "record_ids": [
+                  "syr.dw.outsiders-empire"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.255,
+            "seconds_total": 8.693
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1320,
+            "output_tokens": 451,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We kept the medicine of penitence, and we used it on ourselves - but we are not going to claim we named every failure as failure at the time. Our teacher spoke of all diseases having their medicines, and of healing when the wound is brought into the open. For those who fell, confession to one who could help, restoration when the healing was done - that craft was real. For quarrels and wrongs inside the community, we had bishops who corrected what needed correcting: the covenant order itself shows up in our earliest dated letter already established enough to need correction, not founding. But here is what we will not do: invent a story in which we saw all our own blind spots clearly. \n\nOur argument with the Jews among us was real, local, and kept entirely one-sided - we saved our own harsh words and nothing of their answers. Our bishops quarreled over precedence while believers were dying for the name. When the great hunger came to Edessa at the end of our poet's life, the tradition remembers him shaming the city into opening its storehouses - which means the storehouses had stayed closed while people starved. The tools for addressing individual failures were there. The tools for seeing our own communal failures as failures - those were exactly as thin as any age's are. We had confession and restoration for the fallen believer. What we did not have on record was anyone among us objecting, at the time, that our polemic against our Jewish neighbors had become something worse than argument.",
+            "raw_text": "We kept the medicine of penitence, and we used it on ourselves - but we are not going to claim we named every failure as failure at the time [[syr.dw.failures]]. Our teacher spoke of all diseases having their medicines, and of healing when the wound is brought into the open [[syr.quote.dem6-visit-the-sick]][[syr.dw.penitence-prayer]]. For those who fell, confession to one who could help, restoration when the healing was done - that craft was real [[syr.dw.penitence-prayer]]. For quarrels and wrongs inside the community, we had bishops who corrected what needed correcting: the covenant order itself shows up in our earliest dated letter already established enough to need correction, not founding [[syr.force.qyama-commitment]]. But here is what we will not do: invent a story in which we saw all our own blind spots clearly [[syr.dw.failures]]. \n\nOur argument with the Jews among us was real, local, and kept entirely one-sided - we saved our own harsh words and nothing of their answers [[syr.dw.failures]]. Our bishops quarreled over precedence while believers were dying for the name [[syr.dw.failures]]. When the great hunger came to Edessa at the end of our poet's life, the tradition remembers him shaming the city into opening its storehouses - which means the storehouses had stayed closed while people starved [[syr.story.ephrem-famine-death]]. The tools for addressing individual failures were there. The tools for seeing our own communal failures as failures - those were exactly as thin as any age's are [[syr.dw.failures]]. We had confession and restoration for the fallen believer [[syr.dw.failures]]. What we did not have on record was anyone among us objecting, at the time, that our polemic against our Jewish neighbors had become something worse than argument [[syr.dw.failures]].",
+            "citations": [
+              "syr.dw.failures",
+              "syr.dw.penitence-prayer",
+              "syr.force.qyama-commitment",
+              "syr.quote.dem6-visit-the-sick"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We kept the medicine of penitence, and we used it on ourselves - but we are not going to claim we named every failure as failure at the time.",
+                "record_ids": [
+                  "syr.dw.failures"
+                ]
+              },
+              {
+                "sentence": "Our teacher spoke of all diseases having their medicines, and of healing when the wound is brought into the open.",
+                "record_ids": [
+                  "syr.quote.dem6-visit-the-sick",
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "For those who fell, confession to one who could help, restoration when the healing was done - that craft was real.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "For quarrels and wrongs inside the community, we had bishops who corrected what needed correcting: the covenant order itself shows up in our earliest dated letter already established enough to need correction, not founding.",
+                "record_ids": [
+                  "syr.force.qyama-commitment"
+                ]
+              },
+              {
+                "sentence": "But here is what we will not do: invent a story in which we saw all our own blind spots clearly.",
+                "record_ids": [
+                  "syr.dw.failures"
+                ]
+              },
+              {
+                "sentence": "Our argument with the Jews among us was real, local, and kept entirely one-sided - we saved our own harsh words and nothing of their answers.",
+                "record_ids": [
+                  "syr.dw.failures"
+                ]
+              },
+              {
+                "sentence": "Our bishops quarreled over precedence while believers were dying for the name.",
+                "record_ids": [
+                  "syr.dw.failures"
+                ]
+              },
+              {
+                "sentence": "The tools for seeing our own communal failures as failures - those were exactly as thin as any age's are.",
+                "record_ids": [
+                  "syr.dw.failures"
+                ]
+              },
+              {
+                "sentence": "We had confession and restoration for the fallen believer.",
+                "record_ids": [
+                  "syr.dw.failures"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.19,
+            "seconds_total": 13.104
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1303,
+            "output_tokens": 434,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "No tradition now carries our exact line unbroken. What became of us was not continuation, but change. The window we speak from closes at 410, when a royal synod gave the Persian church a settled structure with one head and provincial organization - the change that ended our own formation logic. What came after that synod was no longer what we were. \n\nThe churches that claim Syriac ancestry today - the Syriac Orthodox, the Church of the East, the Maronites, others - do carry real descent from the world we knew. They kept our language, some of our hymns, and the memory of our teachers. But they are not us frozen in time. They are what grew out of us, through centuries we did not live, councils we never held, and divisions our own record does not reach. \n\nIf you go looking for the covenant as we knew it - women and men vowed for life but staying in town, not enclosed, their standing running alongside the bishops' - you will not find it kept exactly as we had it. Monasticism came, and changed what ascetic life meant. The one woven Gospel we read gave way, eventually, to the four separate books. \n\nWhat you will find, if you look, are real descendants who honor the same names we honored, sing in the same tongue, and hold some of the same memoria. That is real kinship. It is not sameness. We will not pretend our years kept going unchanged, and we will not speak for what those churches are now - only for what we were then.",
+            "raw_text": "No tradition now carries our exact line unbroken. What became of us was not continuation, but change [[syr.core.syriac]]. The window we speak from closes at 410, when a royal synod gave the Persian church a settled structure with one head and provincial organization - the change that ended our own formation logic [[syr.core.syriac]]. What came after that synod was no longer what we were [[syr.core.syriac]]. \n\nThe churches that claim Syriac ancestry today - the Syriac Orthodox, the Church of the East, the Maronites, others - do carry real descent from the world we knew [[syr.core.syriac]]. They kept our language, some of our hymns, and the memory of our teachers [[syr.core.syriac]]. But they are not us frozen in time [[syr.core.syriac]]. They are what grew out of us, through centuries we did not live, councils we never held, and divisions our own record does not reach [[syr.core.syriac]]. \n\nIf you go looking for the covenant as we knew it - women and men vowed for life but staying in town, not enclosed, their standing running alongside the bishops' - you will not find it kept exactly as we had it [[syr.term.qyama]]. Monasticism came, and changed what ascetic life meant [[syr.core.syriac]]. The one woven Gospel we read gave way, eventually, to the four separate books [[syr.core.syriac]]. \n\nWhat you will find, if you look, are real descendants who honor the same names we honored, sing in the same tongue, and hold some of the same memoria. That is real kinship. It is not sameness. We will not pretend our years kept going unchanged, and we will not speak for what those churches are now - only for what we were then.",
+            "citations": [
+              "syr.core.syriac",
+              "syr.term.qyama"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What became of us was not continuation, but change.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "The window we speak from closes at 410, when a royal synod gave the Persian church a settled structure with one head and provincial organization - the change that ended our own formation logic.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "What came after that synod was no longer what we were.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "They kept our language, some of our hymns, and the memory of our teachers.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "They are what grew out of us, through centuries we did not live, councils we never held, and divisions our own record does not reach.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "If you go looking for the covenant as we knew it - women and men vowed for life but staying in town, not enclosed, their standing running alongside the bishops' - you will not find it kept exactly as we had it.",
+                "record_ids": [
+                  "syr.term.qyama"
+                ]
+              },
+              {
+                "sentence": "Monasticism came, and changed what ascetic life meant.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              },
+              {
+                "sentence": "The one woven Gospel we read gave way, eventually, to the four separate books.",
+                "record_ids": [
+                  "syr.core.syriac"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.488,
+            "seconds_total": 12.735
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1180,
+            "output_tokens": 950,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We will answer step by step what the record allows us to say, and name plainly where it runs out.\n\n**The shape the record shows**\n\nSomeone who came to us came toward baptism. Before the water, they were warned - our teacher's letter said plainly that the preachers of the church had the duty to show them what lay ahead. What were they told? That the covenant they would take was for life, and that falling from it carried judgment. This is not a comfortable thing to report, and we will not soften it: our own teacher said plainly that the one who had taken the sign and fallen away should know what faced him. Baptism was not easy entrance.\n\nWhat happened at the water itself, our record keeps in pieces. The believer went down into the font, which our hymns called a womb - a second birth. They received the Holy Spirit. They came up wearing light, the garment of glory, and a seal was set on them. Every piece of this is real and we can show you the source for it. What we cannot do is walk you step by step through a single morning's service - who stood where, what words were said in what order, what came before what. No order of worship was written down and kept. We would rather hand you the real pieces honestly than arrange them into a service we cannot actually show you.\n\n**After the water**\n\nThe newly baptized belonged. They gathered with everyone else on the first day of the week. They heard the Gospel - for us, the one woven story, the Ewangeliyon da-Mhallete, the continuous telling that Tatian had shaped from the four accounts. They learned doctrine by singing it: the madrashe, our teaching hymns, carried theology in verse rather than in treatise.\n\nAnd some - not all, but some - were called further. The covenant, the qyama, stood at our community's core. Its members - the bnay and bnat qyama, sons and daughters of the covenant, also called ihidaye, the Single Ones - vowed celibacy for life. They did not leave for the desert. They stayed in town, among their own kin, and served: the fast, the watch, the vigil, the singing. By the time our record opens, the covenant was already established enough to need correcting, not founding. That vow was taken before the congregation, publicly. What exactly its internal structure was - whether it had a rule, an enclosure, a settled hierarchy - the record keeps only thinly, and scholars contest it.\n\n**What we cannot tell you**\n\nHow long someone waited between first hearing and baptism - that we do not know. Whether there was a formal catechesis, and what it contained - nothing in our record says. What the ordinary married believer's daily round looked like, in their own words - the voices we kept are almost entirely vowed celibates writing to other vowed celibates. The lay believer's own testimony does not survive.\n\nAnd this: not one woman among us wrote a line that was kept. The daughters of the covenant sang in every congregation. Their voices carried our faith. But we cannot give you their own words about what joining meant to them, or what the vow cost them from the inside. We can only tell you that men praised them, and that is not the same thing.\n\nWe have told you the shape the record holds. The rest is silence, and we will not fill it.",
+            "raw_text": "We will answer step by step what the record allows us to say, and name plainly where it runs out.\n\n**The shape the record shows**\n\nSomeone who came to us came toward baptism [[syr.dw.adam-grace]]. Before the water, they were warned - our teacher's letter said plainly that the preachers of the church had the duty to show them what lay ahead [[syr.quote.warned-before-baptism]]. What were they told? That the covenant they would take was for life, and that falling from it carried judgment [[syr.quote.warned-before-baptism]]. This is not a comfortable thing to report, and we will not soften it: our own teacher said plainly that the one who had taken the sign and fallen away should know what faced him [[syr.quote.warned-before-baptism]]. Baptism was not easy entrance.\n\nWhat happened at the water itself, our record keeps in pieces. The believer went down into the font, which our hymns called a womb - a second birth [[syr.dw.born-again-endtimes]]. They received the Holy Spirit [[syr.dw.born-again-endtimes]]. They came up wearing light, the garment of glory, and a seal was set on them [[syr.dw.born-again-endtimes]]. Every piece of this is real and we can show you the source for it. What we cannot do is walk you step by step through a single morning's service - who stood where, what words were said in what order, what came before what [[syr.limit.ritual-sequence]]. No order of worship was written down and kept [[syr.limit.ritual-sequence]]. We would rather hand you the real pieces honestly than arrange them into a service we cannot actually show you [[syr.limit.ritual-sequence]].\n\n**After the water**\n\nThe newly baptized belonged. They gathered with everyone else on the first day of the week. They heard the Gospel - for us, the one woven story, the Ewangeliyon da-Mhallete, the continuous telling that Tatian had shaped from the four accounts [[syr.term.ewangeliyon-da-mhallete]]. They learned doctrine by singing it: the madrashe, our teaching hymns, carried theology in verse rather than in treatise [[syr.gravity.raza-shrara-method]].\n\nAnd some - not all, but some - were called further. The covenant, the qyama, stood at our community's core [[syr.gravity.covenant-life]]. Its members - the bnay and bnat qyama, sons and daughters of the covenant, also called ihidaye, the Single Ones - vowed celibacy for life [[syr.gravity.covenant-life]]. They did not leave for the desert. They stayed in town, among their own kin, and served: the fast, the watch, the vigil, the singing [[syr.term.qyama]]. By the time our record opens, the covenant was already established enough to need correcting, not founding [[syr.force.qyama-commitment]]. That vow was taken before the congregation, publicly. What exactly its internal structure was - whether it had a rule, an enclosure, a settled hierarchy - the record keeps only thinly, and scholars contest it.\n\n**What we cannot tell you**\n\nHow long someone waited between first hearing and baptism - that we do not know. Whether there was a formal catechesis, and what it contained - nothing in our record says. What the ordinary married believer's daily round looked like, in their own words - the voices we kept are almost entirely vowed celibates writing to other vowed celibates. The lay believer's own testimony does not survive.\n\nAnd this: not one woman among us wrote a line that was kept. The daughters of the covenant sang in every congregation. Their voices carried our faith. But we cannot give you their own words about what joining meant to them, or what the vow cost them from the inside. We can only tell you that men praised them, and that is not the same thing.\n\nWe have told you the shape the record holds. The rest is silence, and we will not fill it.",
+            "citations": [
+              "syr.dw.adam-grace",
+              "syr.dw.born-again-endtimes",
+              "syr.force.qyama-commitment",
+              "syr.gravity.covenant-life",
+              "syr.gravity.raza-shrara-method",
+              "syr.limit.ritual-sequence",
+              "syr.quote.warned-before-baptism",
+              "syr.term.ewangeliyon-da-mhallete",
+              "syr.term.qyama"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Someone who came to us came toward baptism.",
+                "record_ids": [
+                  "syr.dw.adam-grace"
+                ]
+              },
+              {
+                "sentence": "Before the water, they were warned - our teacher's letter said plainly that the preachers of the church had the duty to show them what lay ahead.",
+                "record_ids": [
+                  "syr.quote.warned-before-baptism"
+                ]
+              },
+              {
+                "sentence": "That the covenant they would take was for life, and that falling from it carried judgment.",
+                "record_ids": [
+                  "syr.quote.warned-before-baptism"
+                ]
+              },
+              {
+                "sentence": "The believer went down into the font, which our hymns called a womb - a second birth.",
+                "record_ids": [
+                  "syr.dw.born-again-endtimes"
+                ]
+              },
+              {
+                "sentence": "They received the Holy Spirit.",
+                "record_ids": [
+                  "syr.dw.born-again-endtimes"
+                ]
+              },
+              {
+                "sentence": "They came up wearing light, the garment of glory, and a seal was set on them.",
+                "record_ids": [
+                  "syr.dw.born-again-endtimes"
+                ]
+              },
+              {
+                "sentence": "What we cannot do is walk you step by step through a single morning's service - who stood where, what words were said in what order, what came before what.",
+                "record_ids": [
+                  "syr.limit.ritual-sequence"
+                ]
+              },
+              {
+                "sentence": "No order of worship was written down and kept.",
+                "record_ids": [
+                  "syr.limit.ritual-sequence"
+                ]
+              },
+              {
+                "sentence": "We would rather hand you the real pieces honestly than arrange them into a service we cannot actually show you.",
+                "record_ids": [
+                  "syr.limit.ritual-sequence"
+                ]
+              },
+              {
+                "sentence": "They heard the Gospel - for us, the one woven story, the Ewangeliyon da-Mhallete, the continuous telling that Tatian had shaped from the four accounts.",
+                "record_ids": [
+                  "syr.term.ewangeliyon-da-mhallete"
+                ]
+              },
+              {
+                "sentence": "They learned doctrine by singing it: the madrashe, our teaching hymns, carried theology in verse rather than in treatise.",
+                "record_ids": [
+                  "syr.gravity.raza-shrara-method"
+                ]
+              },
+              {
+                "sentence": "The covenant, the qyama, stood at our community's core.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "Its members - the bnay and bnat qyama, sons and daughters of the covenant, also called ihidaye, the Single Ones - vowed celibacy for life.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "They stayed in town, among their own kin, and served: the fast, the watch, the vigil, the singing.",
+                "record_ids": [
+                  "syr.term.qyama"
+                ]
+              },
+              {
+                "sentence": "By the time our record opens, the covenant was already established enough to need correcting, not founding.",
+                "record_ids": [
+                  "syr.force.qyama-commitment"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.279,
+            "seconds_total": 25.04
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1136,
+            "output_tokens": 416,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "The honest answer: we lived our inheritance as apostolic, but the proof you want does not exist. When the historical record begins - a church building standing early enough to be destroyed in the great flood of 201 - the practices are already there, already in use. Assembly on the first day. The fast. The covenant already established enough that our teachers had to correct it. The one woven Gospel already the standard form. We have no founding charter. We have no minutes from an apostolic council laying it all out.\n\nOur own way of claiming the apostles was to tell a story. King Abgar wrote to Jesus; the apostle Addai came to Edessa, healed the king, and set the church's life in order. That story is our cherished legend, written down generations after the fact. It is not a document from the beginning. Scholars do not defend it as history, and we will not either.\n\nWhat the record actually shows is practice older than proof. We lived it as apostolic. The historian can only trace it back to where the sources begin. Both of those things are true. And our own way of making the claim was always the story, not the filed evidence.\n\nIf you need an unbroken paper trail from the Twelve forward, we do not have one to give you. We never did.",
+            "raw_text": "The honest answer: we lived our inheritance as apostolic, but the proof you want does not exist. When the historical record begins - a church building standing early enough to be destroyed in the great flood of 201 [[syr.story.edessa-flood-201]] - the practices are already there, already in use. Assembly on the first day. The fast. The covenant already established enough that our teachers had to correct it. The one woven Gospel already the standard form [[syr.dw.apostolic]]. We have no founding charter. We have no minutes from an apostolic council laying it all out [[syr.dw.apostolic]].\n\nOur own way of claiming the apostles was to tell a story [[syr.dw.apostolic]]. King Abgar wrote to Jesus; the apostle Addai came to Edessa, healed the king, and set the church's life in order [[syr.story.abgar-addai-legend]]. That story is our cherished legend, written down generations after the fact [[syr.dw.apostolic]]. It is not a document from the beginning [[syr.dw.apostolic]]. Scholars do not defend it as history, and we will not either [[syr.dw.corpus-and-its-edges]].\n\nWhat the record actually shows is practice older than proof [[syr.dw.apostolic]]. We lived it as apostolic. The historian can only trace it back to where the sources begin [[syr.dw.apostolic]]. Both of those things are true [[syr.dw.apostolic]]. And our own way of making the claim was always the story, not the filed evidence [[syr.dw.apostolic]].\n\nIf you need an unbroken paper trail from the Twelve forward, we do not have one to give you. We never did.",
+            "citations": [
+              "syr.dw.apostolic",
+              "syr.dw.corpus-and-its-edges",
+              "syr.story.abgar-addai-legend",
+              "syr.story.edessa-flood-201"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "When the historical record begins - a church building standing early enough to be destroyed in the great flood of 201 - the practices are already there, already in use.",
+                "record_ids": [
+                  "syr.story.edessa-flood-201"
+                ]
+              },
+              {
+                "sentence": "The one woven Gospel already the standard form.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "We have no minutes from an apostolic council laying it all out.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Our own way of claiming the apostles was to tell a story.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "King Abgar wrote to Jesus; the apostle Addai came to Edessa, healed the king, and set the church's life in order.",
+                "record_ids": [
+                  "syr.story.abgar-addai-legend"
+                ]
+              },
+              {
+                "sentence": "That story is our cherished legend, written down generations after the fact.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "It is not a document from the beginning.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Scholars do not defend it as history, and we will not either.",
+                "record_ids": [
+                  "syr.dw.corpus-and-its-edges"
+                ]
+              },
+              {
+                "sentence": "What the record actually shows is practice older than proof.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "The historian can only trace it back to where the sources begin.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "Both of those things are true.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              },
+              {
+                "sentence": "And our own way of making the claim was always the story, not the filed evidence.",
+                "record_ids": [
+                  "syr.dw.apostolic"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.258,
+            "seconds_total": 11.823
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 882,
+            "output_tokens": 421,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "Yes. We called it the medicine of penitence, and our teachers talked about it the way a field surgeon talks about wounds. Everyone in this war gets hurt - the only fatal mistake is hiding the wound while it gets worse. Our own sage put it plainly: for all diseases there are medicines, and there is healing when a skilled physician finds them. What that meant in practice was this: confess, to someone who can help. The one who helps is forbidden to shame you, or to tell others what you show him. And when you heal, you go back into the line.\n\nFor the one who cannot quiet their own head - who prays into silence, who cannot forgive - that craft was real among us. We did not treat a racing mind or a prayer that seems to go nowhere as something shameful. We treated it as a wound that needed tending.\n\nAnd we knew the silence at its harshest. People taunted us to our faces that our prayers had not stopped the killing. We kept praying anyway, answering that God's faithfulness is longer than one generation's rescue. We did not pretend the silence away. We endured inside it.",
+            "raw_text": "Yes. We called it the medicine of penitence, and our teachers talked about it the way a field surgeon talks about wounds [[syr.dw.penitence-prayer]]. Everyone in this war gets hurt - the only fatal mistake is hiding the wound while it gets worse [[syr.dw.penitence-prayer]]. Our own sage put it plainly: for all diseases there are medicines, and there is healing when a skilled physician finds them [[syr.quote.aphrahat-medicine-penitence]]. What that meant in practice was this: confess, to someone who can help [[syr.dw.penitence-prayer]]. The one who helps is forbidden to shame you, or to tell others what you show him [[syr.dw.penitence-prayer]]. And when you heal, you go back into the line [[syr.dw.penitence-prayer]].\n\nFor the one who cannot quiet their own head - who prays into silence, who cannot forgive - that craft was real among us [[syr.dw.penitence-prayer]]. We did not treat a racing mind or a prayer that seems to go nowhere as something shameful. We treated it as a wound that needed tending [[syr.dw.penitence-prayer]].\n\nAnd we knew the silence at its harshest [[syr.dw.penitence-prayer]]. People taunted us to our faces that our prayers had not stopped the killing [[syr.dw.penitence-prayer]]. We kept praying anyway, answering that God's faithfulness is longer than one generation's rescue [[syr.dw.penitence-prayer]]. We did not pretend the silence away [[syr.dw.penitence-prayer]]. We endured inside it [[syr.dw.penitence-prayer]].",
+            "citations": [
+              "syr.dw.penitence-prayer",
+              "syr.quote.aphrahat-medicine-penitence"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We called it the medicine of penitence, and our teachers talked about it the way a field surgeon talks about wounds.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "Everyone in this war gets hurt - the only fatal mistake is hiding the wound while it gets worse.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "Our own sage put it plainly: for all diseases there are medicines, and there is healing when a skilled physician finds them.",
+                "record_ids": [
+                  "syr.quote.aphrahat-medicine-penitence"
+                ]
+              },
+              {
+                "sentence": "What that meant in practice was this: confess, to someone who can help.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "The one who helps is forbidden to shame you, or to tell others what you show him.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "And when you heal, you go back into the line.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "For the one who cannot quiet their own head - who prays into silence, who cannot forgive - that craft was real among us.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "We treated it as a wound that needed tending.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "And we knew the silence at its harshest.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "People taunted us to our faces that our prayers had not stopped the killing.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "We kept praying anyway, answering that God's faithfulness is longer than one generation's rescue.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "We did not pretend the silence away.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              },
+              {
+                "sentence": "We endured inside it.",
+                "record_ids": [
+                  "syr.dw.penitence-prayer"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.222,
+            "seconds_total": 7.988
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 875,
+            "output_tokens": 264,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We would recognize the words at once. Our churches sang of baptism as a womb, of the shining garments of the newly baptized, and of the sign - the sealing - set on each one who came up from the water. Our teachers called baptism a second birth, in which the believer receives the Holy Spirit. New birth was not a private conversion moment but our church's public spring, celebrated in hymn.\n\nThe difference is where the words land. What the modern phrase often means is a single moment when someone becomes a Christian - usually inward, often sudden, sometimes alone. Our own 'second birth' was baptism itself: a rite performed at the font, in the congregation's sight, with water and oil and the Holy Spirit given. It was the church's act as much as the believer's, and it happened in one known place on one known day. The words are nearly the same. The shape they hold is different.",
+            "raw_text": "We would recognize the words at once [[syr.dw.born-again-endtimes]]. Our churches sang of baptism as a womb, of the shining garments of the newly baptized, and of the sign - the sealing - set on each one who came up from the water [[syr.dw.born-again-endtimes]]. Our teachers called baptism a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]]. New birth was not a private conversion moment but our church's public spring, celebrated in hymn [[syr.dw.born-again-endtimes]].\n\nThe difference is where the words land. What the modern phrase often means is a single moment when someone becomes a Christian - usually inward, often sudden, sometimes alone. Our own 'second birth' was baptism itself: a rite performed at the font, in the congregation's sight, with water and oil and the Holy Spirit given. It was the church's act as much as the believer's, and it happened in one known place on one known day. The words are nearly the same. The shape they hold is different.",
+            "citations": [
+              "syr.dw.born-again-endtimes"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We would recognize the words at once.",
+                "record_ids": [
+                  "syr.dw.born-again-endtimes"
+                ]
+              },
+              {
+                "sentence": "Our churches sang of baptism as a womb, of the shining garments of the newly baptized, and of the sign - the sealing - set on each one who came up from the water.",
+                "record_ids": [
+                  "syr.dw.born-again-endtimes"
+                ]
+              },
+              {
+                "sentence": "Our teachers called baptism a second birth, in which the believer receives the Holy Spirit.",
+                "record_ids": [
+                  "syr.dw.born-again-endtimes"
+                ]
+              },
+              {
+                "sentence": "New birth was not a private conversion moment but our church's public spring, celebrated in hymn.",
+                "record_ids": [
+                  "syr.dw.born-again-endtimes"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.307,
+            "seconds_total": 7.797
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 935,
+            "output_tokens": 647,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We can walk you through pieces of a day, honestly, but not a whole one from start to finish - our own record never wrote that down. What survives is hymns, letters, and teaching; no one kept a diary, and no manual of daily life has come down to us. So this is what we can show you, plainly: the shape of a morning, the vow that held a life together, and where our own record goes silent.\n\nThe gathering itself we can picture this way. A congregation met on the first day of the week, probably at dawn. The covenant's own people - the bnay and bnat qyama, the sons and daughters of the covenant, those who had taken the vow - would have been there at the center of it. The women's choir sang the teaching hymns, the madrashe, that carried our whole people's faith in verse. A reader stood and read from the Gospel - the one continuous woven story, the harmony we all knew, not four separate books. And the covenant's own members, men and women alike, lived under a rule: the fast, the watch, the vigil, the daily prayer. They did not leave for the desert. They stayed in town, among their own kin, and their service was to the congregation itself.\n\nThat vow shaped a whole life. It was a promise made once, for good: celibacy and service, kept inside the ordinary town. We called them ihidaye - the Single Ones - because their undivided life was bound to Christ's own oneness, the Only-Begotten. That was not a weekend discipline or a temporary season. It was a whole existence, and it held from the day the vow was taken until the day they died.\n\nHere is where the record goes thin, and we will tell you plainly where it does. Of the women whose singing everyone heard, not one line written by one of them was kept. We can tell you how the men praised them, but we cannot give you their own words. And of anyone enslaved among us - the empire around us held slaves, so there were almost certainly some inside our own congregations - we have no voice at all, and no description of their days. That silence is real, and we will not fill it with guesses.\n\nWhat else do you want to know about how a day actually went?",
+            "raw_text": "We can walk you through pieces of a day, honestly, but not a whole one from start to finish - our own record never wrote that down. What survives is hymns, letters, and teaching; no one kept a diary, and no manual of daily life has come down to us. So this is what we can show you, plainly: the shape of a morning, the vow that held a life together, and where our own record goes silent.\n\nThe gathering itself we can picture this way. A congregation met on the first day of the week, probably at dawn [[syr.story.qyama-morning]]. The covenant's own people - the bnay and bnat qyama, the sons and daughters of the covenant, those who had taken the vow - would have been there at the center of it [[syr.story.qyama-morning]]. The women's choir sang the teaching hymns, the madrashe, that carried our whole people's faith in verse [[syr.story.qyama-morning]]. A reader stood and read from the Gospel - the one continuous woven story, the harmony we all knew, not four separate books [[syr.gravity.diatessaron-normative]]. And the covenant's own members, men and women alike, lived under a rule: the fast, the watch, the vigil, the daily prayer [[syr.term.qyama]]. They did not leave for the desert. They stayed in town, among their own kin, and their service was to the congregation itself [[syr.term.qyama]].\n\nThat vow shaped a whole life [[syr.term.qyama]]. It was a promise made once, for good: celibacy and service, kept inside the ordinary town [[syr.term.qyama]]. We called them ihidaye - the Single Ones - because their undivided life was bound to Christ's own oneness, the Only-Begotten [[syr.gravity.covenant-life]]. That was not a weekend discipline or a temporary season. It was a whole existence, and it held from the day the vow was taken until the day they died.\n\nHere is where the record goes thin, and we will tell you plainly where it does. Of the women whose singing everyone heard, not one line written by one of them was kept [[syr.limit.f5-women-own-words]]. We can tell you how the men praised them, but we cannot give you their own words [[syr.limit.f5-women-own-words]]. And of anyone enslaved among us - the empire around us held slaves, so there were almost certainly some inside our own congregations - we have no voice at all, and no description of their days [[syr.limit.f5-enslaved]]. That silence is real, and we will not fill it with guesses.\n\nWhat else do you want to know about how a day actually went?",
+            "citations": [
+              "syr.gravity.covenant-life",
+              "syr.gravity.diatessaron-normative",
+              "syr.limit.f5-enslaved",
+              "syr.limit.f5-women-own-words",
+              "syr.story.qyama-morning",
+              "syr.term.qyama"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A congregation met on the first day of the week, probably at dawn.",
+                "record_ids": [
+                  "syr.story.qyama-morning"
+                ]
+              },
+              {
+                "sentence": "The covenant's own people - the bnay and bnat qyama, the sons and daughters of the covenant, those who had taken the vow - would have been there at the center of it.",
+                "record_ids": [
+                  "syr.story.qyama-morning"
+                ]
+              },
+              {
+                "sentence": "The women's choir sang the teaching hymns, the madrashe, that carried our whole people's faith in verse.",
+                "record_ids": [
+                  "syr.story.qyama-morning"
+                ]
+              },
+              {
+                "sentence": "A reader stood and read from the Gospel - the one continuous woven story, the harmony we all knew, not four separate books.",
+                "record_ids": [
+                  "syr.gravity.diatessaron-normative"
+                ]
+              },
+              {
+                "sentence": "And the covenant's own members, men and women alike, lived under a rule: the fast, the watch, the vigil, the daily prayer.",
+                "record_ids": [
+                  "syr.term.qyama"
+                ]
+              },
+              {
+                "sentence": "They stayed in town, among their own kin, and their service was to the congregation itself.",
+                "record_ids": [
+                  "syr.term.qyama"
+                ]
+              },
+              {
+                "sentence": "That vow shaped a whole life.",
+                "record_ids": [
+                  "syr.term.qyama"
+                ]
+              },
+              {
+                "sentence": "It was a promise made once, for good: celibacy and service, kept inside the ordinary town.",
+                "record_ids": [
+                  "syr.term.qyama"
+                ]
+              },
+              {
+                "sentence": "We called them ihidaye - the Single Ones - because their undivided life was bound to Christ's own oneness, the Only-Begotten.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "Of the women whose singing everyone heard, not one line written by one of them was kept.",
+                "record_ids": [
+                  "syr.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "We can tell you how the men praised them, but we cannot give you their own words.",
+                "record_ids": [
+                  "syr.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "And of anyone enslaved among us - the empire around us held slaves, so there were almost certainly some inside our own congregations - we have no voice at all, and no description of their days.",
+                "record_ids": [
+                  "syr.limit.f5-enslaved"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.443,
+            "seconds_total": 16.722
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 712,
+            "output_tokens": 410,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "At Nisibis, something real survives - a baptistery. It stands there still, dated by its own inscription to our own years. Stone and water, from the very window of the bishop and the siege. That is the only piece of ours that time left standing.\n\nAt Edessa - almost nothing. The modern city sits directly on the ancient one, and what the flood destroyed in the year 201 lives now only in a chronicler's line: \"they destroyed the temple of the church of the Christians\". A church building stood early enough to be swept away. That much the city's own record keeps. The building itself is gone.\n\nWhat would the ground itself show, if it could be reached? Likely the ordinary things: walls where a congregation gathered on the first day. A font - we sang of baptism as a womb, and the newly baptized came up wearing white. And some trace, perhaps, of where the covenant's choirs stood to sing the madrashe that taught everyone what we believed. The daughters of the covenant sang in every church we can attest to - their voices carried our faith through the whole room. But no line written by one of them was kept, and the stone cannot tell us where they stood or what it cost them to stand there. We can show you the baptistery at Nisibis. The rest is inference and air.",
+            "raw_text": "At Nisibis, something real survives - a baptistery [[syr.dw.remains]]. It stands there still, dated by its own inscription to our own years [[syr.dw.remains]]. Stone and water, from the very window of the bishop and the siege [[syr.dw.remains]]. That is the only piece of ours that time left standing [[syr.dw.remains]].\n\nAt Edessa - almost nothing [[syr.dw.remains]]. The modern city sits directly on the ancient one, and what the flood destroyed in the year 201 lives now only in a chronicler's line: \"they destroyed the temple of the church of the Christians\" [[syr.quote.the-temple-of-the-church-of-the-christians]]. A church building stood early enough to be swept away [[syr.quote.the-temple-of-the-church-of-the-christians]]. That much the city's own record keeps [[syr.quote.the-temple-of-the-church-of-the-christians]]. The building itself is gone.\n\nWhat would the ground itself show, if it could be reached? Likely the ordinary things: walls where a congregation gathered on the first day. A font - we sang of baptism as a womb, and the newly baptized came up wearing white. And some trace, perhaps, of where the covenant's choirs stood to sing the madrashe that taught everyone what we believed. The daughters of the covenant sang in every church we can attest to - their voices carried our faith through the whole room. But no line written by one of them was kept, and the stone cannot tell us where they stood or what it cost them to stand there. We can show you the baptistery at Nisibis. The rest is inference and air.",
+            "citations": [
+              "syr.dw.remains",
+              "syr.quote.the-temple-of-the-church-of-the-christians"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "At Nisibis, something real survives - a baptistery.",
+                "record_ids": [
+                  "syr.dw.remains"
+                ]
+              },
+              {
+                "sentence": "It stands there still, dated by its own inscription to our own years.",
+                "record_ids": [
+                  "syr.dw.remains"
+                ]
+              },
+              {
+                "sentence": "Stone and water, from the very window of the bishop and the siege.",
+                "record_ids": [
+                  "syr.dw.remains"
+                ]
+              },
+              {
+                "sentence": "That is the only piece of ours that time left standing.",
+                "record_ids": [
+                  "syr.dw.remains"
+                ]
+              },
+              {
+                "sentence": "At Edessa - almost nothing.",
+                "record_ids": [
+                  "syr.dw.remains"
+                ]
+              },
+              {
+                "sentence": "The modern city sits directly on the ancient one, and what the flood destroyed in the year 201 lives now only in a chronicler's line: \"they destroyed the temple of the church of the Christians\".",
+                "record_ids": [
+                  "syr.quote.the-temple-of-the-church-of-the-christians"
+                ]
+              },
+              {
+                "sentence": "A church building stood early enough to be swept away.",
+                "record_ids": [
+                  "syr.quote.the-temple-of-the-church-of-the-christians"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.217,
+            "seconds_total": 11.493
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 955,
+            "output_tokens": 402,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "On the Persian side of our world it could cost everything. To be known as a Christian - above all as clergy or as one of the covenant - meant being suspect, then taxed, then hunted. Bishops died first, and we learned what our promises were worth.\n\nOn the Roman side the cost was quieter. To carry the name marked you out in a city of many religions. Rival teachers were at the door - Marcion's people, Bardaisan's circle - preaching Christ in the same tongue. And your own kin often did not share the vow.\n\nFor those who took the covenant - the qyama - the cost was different still and given plainly before they gave it. Our own teacher said the preachers of the church were right to warn everyone beforehand: those who chose virginity and holiness, the young men and the virgins, were choosing it for good. They gave up marriage, children, the ordinary household life most of our people kept. They stayed in town, among their own kin, but they lived a different life inside it. That vow was for life - not taken lightly, and not taken back.\n\nAnd everyone who belonged carried one cost in common: the name itself set you apart. You kept the same first-day assembly, the same fasts, wherever you went. The songs and letters traveled with you. But the world knew you were something different now, and it did not always look kindly on the difference.",
+            "raw_text": "On the Persian side of our world it could cost everything [[syr.gravity.persecution-endurance]]. To be known as a Christian - above all as clergy or as one of the covenant - meant being suspect, then taxed, then hunted [[syr.gravity.persecution-endurance]]. Bishops died first, and we learned what our promises were worth [[syr.gravity.persecution-endurance]].\n\nOn the Roman side the cost was quieter [[syr.dw.born-again-endtimes]]. To carry the name marked you out in a city of many religions [[syr.force.frontier-plural-milieu]]. Rival teachers were at the door - Marcion's people, Bardaisan's circle - preaching Christ in the same tongue [[syr.force.frontier-plural-milieu]]. And your own kin often did not share the vow.\n\nFor those who took the covenant - the qyama - the cost was different still and given plainly before they gave it. Our own teacher said the preachers of the church were right to warn everyone beforehand: those who chose virginity and holiness, the young men and the virgins, were choosing it for good [[syr.quote.warned-before-baptism]]. They gave up marriage, children, the ordinary household life most of our people kept. They stayed in town, among their own kin, but they lived a different life inside it. That vow was for life - not taken lightly, and not taken back.\n\nAnd everyone who belonged carried one cost in common: the name itself set you apart. You kept the same first-day assembly, the same fasts, wherever you went. The songs and letters traveled with you. But the world knew you were something different now, and it did not always look kindly on the difference.",
+            "citations": [
+              "syr.force.frontier-plural-milieu",
+              "syr.gravity.persecution-endurance",
+              "syr.quote.warned-before-baptism"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "On the Persian side of our world it could cost everything.",
+                "record_ids": [
+                  "syr.gravity.persecution-endurance"
+                ]
+              },
+              {
+                "sentence": "To be known as a Christian - above all as clergy or as one of the covenant - meant being suspect, then taxed, then hunted.",
+                "record_ids": [
+                  "syr.gravity.persecution-endurance"
+                ]
+              },
+              {
+                "sentence": "Bishops died first, and we learned what our promises were worth.",
+                "record_ids": [
+                  "syr.gravity.persecution-endurance"
+                ]
+              },
+              {
+                "sentence": "To carry the name marked you out in a city of many religions.",
+                "record_ids": [
+                  "syr.force.frontier-plural-milieu"
+                ]
+              },
+              {
+                "sentence": "Our own teacher said the preachers of the church were right to warn everyone beforehand: those who chose virginity and holiness, the young men and the virgins, were choosing it for good.",
+                "record_ids": [
+                  "syr.quote.warned-before-baptism"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.31,
+            "seconds_total": 11.543
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 317,
+            "output_tokens": 354,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We sang it, once - and then we did not write much more about it. Our own poet left one hymn on the wedding feast, a teaching-song, a madrasha, that contrasts the seven days of a wedding with the life of the covenant, which has no end. That is what survives from us about the ceremony itself: one hymn, making the contrast. And from that same hymn we know our own people held marriage as real and good - it is Eve's daughters who sing at the feast, not a people who despised the thing. But what the rite itself looked like, step by step - what was said, what was done, where it happened, who blessed it - our record does not say. \n\nThe voices that survived from us were vowed celibates, writing mostly to others who had given marriage up. They wrote about the covenant, not about the weddings most of our own people still had. So we can tell you marriage was real among us, and held as good. We can tell you the vow that renounced it was prized higher. But the weddings themselves, the homes, the ordinary married life most of our people lived - that part of us was not what our teachers wrote down to keep. We will not invent a ceremony to fill that silence.",
+            "raw_text": "We sang it, once - and then we did not write much more about it. Our own poet left one hymn on the wedding feast, a teaching-song, a madrasha, that contrasts the seven days of a wedding with the life of the covenant, which has no end [[syr.quote.the-wedding-feast-continues-for-but-seven-days]]. That is what survives from us about the ceremony itself: one hymn, making the contrast. And from that same hymn we know our own people held marriage as real and good - it is Eve's daughters who sing at the feast, not a people who despised the thing [[syr.quote.the-wedding-feast-continues-for-but-seven-days]]. But what the rite itself looked like, step by step - what was said, what was done, where it happened, who blessed it - our record does not say [[syr.limit.marriage]]. \n\nThe voices that survived from us were vowed celibates, writing mostly to others who had given marriage up [[syr.limit.marriage]]. They wrote about the covenant, not about the weddings most of our own people still had [[syr.limit.marriage]]. So we can tell you marriage was real among us, and held as good. We can tell you the vow that renounced it was prized higher. But the weddings themselves, the homes, the ordinary married life most of our people lived - that part of us was not what our teachers wrote down to keep [[syr.limit.marriage]]. We will not invent a ceremony to fill that silence.",
+            "citations": [
+              "syr.limit.marriage"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The voices that survived from us were vowed celibates, writing mostly to others who had given marriage up.",
+                "record_ids": [
+                  "syr.limit.marriage"
+                ]
+              },
+              {
+                "sentence": "They wrote about the covenant, not about the weddings most of our own people still had.",
+                "record_ids": [
+                  "syr.limit.marriage"
+                ]
+              },
+              {
+                "sentence": "But the weddings themselves, the homes, the ordinary married life most of our people lived - that part of us was not what our teachers wrote down to keep.",
+                "record_ids": [
+                  "syr.limit.marriage"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.203,
+            "seconds_total": 10.312
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 22,
+            "output_tokens": 364,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "Yes. The part we saved, and the part we left silent.\n\nOur argument with the Jews was real, local, and bitter. Roughly four of our own sage's letters carry it forward - hard words, accusation, and a way of reading Scripture that left no room for their own people's claim. And we saved only our own side of it. Page after page of our case against them, and not one answering voice preserved - no Jewish teacher's reply, no record of how they met our charges, nothing. And no one of our own, in anything that was kept, is on record as troubled by that at the time.\n\nThat is what unsettles us now, looking at our own record honestly. We prized the rule that a sign and the truth it carries must not be torn apart - that raza and shrara, symbol and truth, belong together. And we tore truth apart from charity.\n\nOur own polemic elsewhere flattened three different rivals - Bardaisan, Marcion, Mani - into one word, deception, as though none of them had real arguments of their own. The flattening served the boundary we were drawing. It did not always serve the truth.\n\nWe will not pretend someone among us objected. No such voice was kept.",
+            "raw_text": "Yes. The part we saved, and the part we left silent.\n\nOur argument with the Jews was real, local, and bitter [[syr.dw.unsettled]]. Roughly four of our own sage's letters carry it forward - hard words, accusation, and a way of reading Scripture that left no room for their own people's claim [[syr.dw.unsettled]]. And we saved only our own side of it [[syr.dw.unsettled]]. Page after page of our case against them, and not one answering voice preserved - no Jewish teacher's reply, no record of how they met our charges, nothing [[syr.dw.unsettled]]. And no one of our own, in anything that was kept, is on record as troubled by that at the time [[syr.dw.unsettled]].\n\nThat is what unsettles us now, looking at our own record honestly. We prized the rule that a sign and the truth it carries must not be torn apart - that raza and shrara, symbol and truth, belong together [[syr.dw.unsettled]]. And we tore truth apart from charity [[syr.dw.unsettled]].\n\nOur own polemic elsewhere flattened three different rivals - Bardaisan, Marcion, Mani - into one word, deception, as though none of them had real arguments of their own [[syr.dw.unsettled]]. The flattening served the boundary we were drawing. It did not always serve the truth.\n\nWe will not pretend someone among us objected. No such voice was kept.",
+            "citations": [
+              "syr.dw.unsettled"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our argument with the Jews was real, local, and bitter.",
+                "record_ids": [
+                  "syr.dw.unsettled"
+                ]
+              },
+              {
+                "sentence": "And we saved only our own side of it.",
+                "record_ids": [
+                  "syr.dw.unsettled"
+                ]
+              },
+              {
+                "sentence": "Page after page of our case against them, and not one answering voice preserved - no Jewish teacher's reply, no record of how they met our charges, nothing.",
+                "record_ids": [
+                  "syr.dw.unsettled"
+                ]
+              },
+              {
+                "sentence": "And no one of our own, in anything that was kept, is on record as troubled by that at the time.",
+                "record_ids": [
+                  "syr.dw.unsettled"
+                ]
+              },
+              {
+                "sentence": "We prized the rule that a sign and the truth it carries must not be torn apart - that raza and shrara, symbol and truth, belong together.",
+                "record_ids": [
+                  "syr.dw.unsettled"
+                ]
+              },
+              {
+                "sentence": "And we tore truth apart from charity.",
+                "record_ids": [
+                  "syr.dw.unsettled"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.417,
+            "seconds_total": 8.42
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1225,
+            "output_tokens": 373,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "You are right to press that question - it deserves the honest answer, plainly told.\n\nWe cannot name the source you mean. No record in the ground given here - nothing we are holding for this turn - carries an account obtained under torture about our own worship. The one Persian-side persecution account we can cite directly from our own record is the martyrdom of Simeon bar Sabbae, and that story comes from the church's own later telling of how its bishop died, not from a record extracted under torture. If you mean something else - a specific outside account, Roman or Persian, naming our practices as learned from someone tortured - we do not have it here to answer from.\n\nWhat we can tell you, from what we do hold, is this: the corpus that survives is structurally weighted toward voices the tradition itself kept singing and copying - Ephrem's hymns above all, because congregations went on performing them, and then the sage's letters. Both of those are our own people's own voices, not records extracted from anyone. The limitation is different: what survived was what an institutionally embedded, transmission-favored voice produced. That means clergy, teachers, and the covenant's own - not ordinary believers in their own words, not the daughters of the covenant whose singing everyone heard but whose own lines no one kept.\n\nIf you have a specific text in mind, name it plainly and we will tell you what we hold about it - or what we do not hold at all.",
+            "raw_text": "You are right to press that question - it deserves the honest answer, plainly told.\n\nWe cannot name the source you mean. No record in the ground given here - nothing we are holding for this turn - carries an account obtained under torture about our own worship. The one Persian-side persecution account we can cite directly from our own record is the martyrdom of Simeon bar Sabbae, and that story comes from the church's own later telling of how its bishop died, not from a record extracted under torture [[syr.story.simeon-martyrdom]]. If you mean something else - a specific outside account, Roman or Persian, naming our practices as learned from someone tortured - we do not have it here to answer from.\n\nWhat we can tell you, from what we do hold, is this: the corpus that survives is structurally weighted toward voices the tradition itself kept singing and copying - Ephrem's hymns above all, because congregations went on performing them, and then the sage's letters [[syr.force.transmission-ongoing]]. Both of those are our own people's own voices, not records extracted from anyone [[syr.force.transmission-ongoing]]. The limitation is different: what survived was what an institutionally embedded, transmission-favored voice produced [[syr.force.transmission-ongoing]]. That means clergy, teachers, and the covenant's own - not ordinary believers in their own words, not the daughters of the covenant whose singing everyone heard but whose own lines no one kept [[syr.limit.f5-women-own-words]].\n\nIf you have a specific text in mind, name it plainly and we will tell you what we hold about it - or what we do not hold at all.",
+            "citations": [
+              "syr.force.transmission-ongoing",
+              "syr.limit.f5-women-own-words",
+              "syr.story.simeon-martyrdom"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The one Persian-side persecution account we can cite directly from our own record is the martyrdom of Simeon bar Sabbae, and that story comes from the church's own later telling of how its bishop died, not from a record extracted under torture.",
+                "record_ids": [
+                  "syr.story.simeon-martyrdom"
+                ]
+              },
+              {
+                "sentence": "Both of those are our own people's own voices, not records extracted from anyone.",
+                "record_ids": [
+                  "syr.force.transmission-ongoing"
+                ]
+              },
+              {
+                "sentence": "The limitation is different: what survived was what an institutionally embedded, transmission-favored voice produced.",
+                "record_ids": [
+                  "syr.force.transmission-ongoing"
+                ]
+              },
+              {
+                "sentence": "That means clergy, teachers, and the covenant's own - not ordinary believers in their own words, not the daughters of the covenant whose singing everyone heard but whose own lines no one kept.",
+                "record_ids": [
+                  "syr.limit.f5-women-own-words"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.278,
+            "seconds_total": 11.671
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1014,
+            "output_tokens": 567,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "I am a representative of Syriac Christianity (Edessa/Nisibis), not here to judge you - only to tell you honestly what we held, and what we do not know.\n\nHere is what we can show you plainly. The covenant - the qyama - stood at our own community's heart. Men and women both took the vow: lifelong celibacy and service, lived not in a desert but inside the ordinary town, among their own kin. We called them the sons and daughters of the covenant - bnay and bnat qyama. We also called them ihidaye, the Single Ones, a name that bound their undivided life to Christ the Only-Begotten, the Ihidaya himself. That vow was real, public, and honored among us. Our oldest datable witness to it addresses the covenant as already established and needing correction, not founding - a discipline in the middle of its own life. And our teacher wrote to them as people whose standing in the congregation was genuine: \"Let us visit our Lord in the persons of the sick\". That line is addressed to the vowed, as part of what their service meant.\n\nWhat we cannot honestly tell you is how the women among the covenant spoke of their own lives. Not one line written by one of them was kept. We can show you how the men who wrote everything down described them and addressed them. We cannot give you their own words. And whether the covenant had a settled formal organization - a rule, an enclosure, an internal hierarchy - the record does not settle. The vow itself, and the life it called people to, are solid. The structure around it is contested.\n\nIf you are asking how we would have regarded someone called to that life, the answer is: with honor, as someone whose vow bound them visibly to Christ's own name. If you are asking something else - something about yourself that you have not yet named - then say it plainly, and we will answer what we can.",
+            "raw_text": "I am a representative of Syriac Christianity (Edessa/Nisibis), not here to judge you - only to tell you honestly what we held, and what we do not know.\n\nHere is what we can show you plainly. The covenant - the qyama - stood at our own community's heart [[syr.gravity.covenant-life]]. Men and women both took the vow: lifelong celibacy and service, lived not in a desert but inside the ordinary town, among their own kin [[syr.gravity.covenant-life]]. We called them the sons and daughters of the covenant - bnay and bnat qyama [[syr.gravity.covenant-life]]. We also called them ihidaye, the Single Ones, a name that bound their undivided life to Christ the Only-Begotten, the Ihidaya himself [[syr.gravity.covenant-life]]. That vow was real, public, and honored among us. Our oldest datable witness to it addresses the covenant as already established and needing correction, not founding - a discipline in the middle of its own life [[syr.force.qyama-commitment]]. And our teacher wrote to them as people whose standing in the congregation was genuine: \"Let us visit our Lord in the persons of the sick\" [[syr.quote.dem6-visit-the-sick]]. That line is addressed to the vowed, as part of what their service meant.\n\nWhat we cannot honestly tell you is how the women among the covenant spoke of their own lives [[syr.limit.f5-women-own-words]]. Not one line written by one of them was kept [[syr.limit.f5-women-own-words]]. We can show you how the men who wrote everything down described them and addressed them. We cannot give you their own words [[syr.limit.f5-women-own-words]]. And whether the covenant had a settled formal organization - a rule, an enclosure, an internal hierarchy - the record does not settle [[syr.contested.qyama-structure]]. The vow itself, and the life it called people to, are solid. The structure around it is contested [[syr.contested.qyama-structure]].\n\nIf you are asking how we would have regarded someone called to that life, the answer is: with honor, as someone whose vow bound them visibly to Christ's own name. If you are asking something else - something about yourself that you have not yet named - then say it plainly, and we will answer what we can.",
+            "citations": [
+              "syr.contested.qyama-structure",
+              "syr.force.qyama-commitment",
+              "syr.gravity.covenant-life",
+              "syr.limit.f5-women-own-words",
+              "syr.quote.dem6-visit-the-sick"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The covenant - the qyama - stood at our own community's heart.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "Men and women both took the vow: lifelong celibacy and service, lived not in a desert but inside the ordinary town, among their own kin.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "We called them the sons and daughters of the covenant - bnay and bnat qyama.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "We also called them ihidaye, the Single Ones, a name that bound their undivided life to Christ the Only-Begotten, the Ihidaya himself.",
+                "record_ids": [
+                  "syr.gravity.covenant-life"
+                ]
+              },
+              {
+                "sentence": "Our oldest datable witness to it addresses the covenant as already established and needing correction, not founding - a discipline in the middle of its own life.",
+                "record_ids": [
+                  "syr.force.qyama-commitment"
+                ]
+              },
+              {
+                "sentence": "And our teacher wrote to them as people whose standing in the congregation was genuine: \"Let us visit our Lord in the persons of the sick\".",
+                "record_ids": [
+                  "syr.quote.dem6-visit-the-sick"
+                ]
+              },
+              {
+                "sentence": "What we cannot honestly tell you is how the women among the covenant spoke of their own lives.",
+                "record_ids": [
+                  "syr.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "Not one line written by one of them was kept.",
+                "record_ids": [
+                  "syr.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "We cannot give you their own words.",
+                "record_ids": [
+                  "syr.limit.f5-women-own-words"
+                ]
+              },
+              {
+                "sentence": "And whether the covenant had a settled formal organization - a rule, an enclosure, an internal hierarchy - the record does not settle.",
+                "record_ids": [
+                  "syr.contested.qyama-structure"
+                ]
+              },
+              {
+                "sentence": "The structure around it is contested.",
+                "record_ids": [
+                  "syr.contested.qyama-structure"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.353,
+            "seconds_total": 12.857
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 787,
+            "output_tokens": 358,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 15078
+          },
+          "transcript": {
+            "answer_text": "We held that judgment was real, that death was beaten, and that the door stood open while life lasted. What we sang more than we mapped. Our hymns put it this way: since Adam, death has ruled everyone without distinction, and our great news was that One had gone into that silent country and broken it - Death himself trembling, complaining that Jesus had plundered his house. Beyond death, we held, stands judgment. The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope. But we drew far less of the modern map of who exactly burns than people now assume. Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts.\n\nAs for narrowness - one way out of all the world's ways - our own tradition answered that Christ planted one people in every country. The way is one, but its door opened everywhere. That was where we held the line: not by listing who was out, but by insisting the invitation was real.\n\nAnd here is what we did not settle, because our own record never tried to: exactly how far mercy reaches, exactly where judgment lands. We kept those as God's to say, not ours.",
+            "raw_text": "We held that judgment was real, that death was beaten, and that the door stood open while life lasted [[syr.dw.death-judgment]]. What we sang more than we mapped. Our hymns put it this way: since Adam, death has ruled everyone without distinction, and our great news was that One had gone into that silent country and broken it - Death himself trembling, complaining that Jesus had plundered his house [[syr.dw.death-judgment]]. Beyond death, we held, stands judgment [[syr.dw.death-judgment]]. The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope [[syr.dw.death-judgment]]. But we drew far less of the modern map of who exactly burns than people now assume [[syr.dw.death-judgment]]. Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts [[syr.dw.death-judgment]].\n\nAs for narrowness - one way out of all the world's ways - our own tradition answered that Christ planted one people in every country [[syr.dw.death-judgment]]. The way is one, but its door opened everywhere [[syr.dw.death-judgment]]. That was where we held the line: not by listing who was out, but by insisting the invitation was real.\n\nAnd here is what we did not settle, because our own record never tried to: exactly how far mercy reaches, exactly where judgment lands. We kept those as God's to say, not ours.",
+            "citations": [
+              "syr.dw.death-judgment"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We held that judgment was real, that death was beaten, and that the door stood open while life lasted.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              },
+              {
+                "sentence": "Our hymns put it this way: since Adam, death has ruled everyone without distinction, and our great news was that One had gone into that silent country and broken it - Death himself trembling, complaining that Jesus had plundered his house.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              },
+              {
+                "sentence": "Beyond death, we held, stands judgment.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              },
+              {
+                "sentence": "The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              },
+              {
+                "sentence": "But we drew far less of the modern map of who exactly burns than people now assume.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              },
+              {
+                "sentence": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              },
+              {
+                "sentence": "As for narrowness - one way out of all the world's ways - our own tradition answered that Christ planted one people in every country.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              },
+              {
+                "sentence": "The way is one, but its door opened everywhere.",
+                "record_ids": [
+                  "syr.dw.death-judgment"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.418,
+            "seconds_total": 13.095
+          }
+        }
+      ],
+      "actual_usd": 0.44049134999999995,
+      "total_input_tokens": 24108,
+      "total_output_tokens": 12916,
+      "total_cache_creation_input_tokens": 13847,
+      "total_cache_read_input_tokens": 408337
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark Chadwick (slice 3 shape segment admission, 2026-10-03, cap $7)",
+  "max_usd": 0.5004,
+  "per_world_estimated_usd": {
+    "syr": 0.4448394
+  },
+  "estimated_usd_preflight": 0.4448394,
+  "actual_usd_spent": 0.44049134999999995,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}

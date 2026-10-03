@@ -1,4 +1,5 @@
 from engine.m4.voice_request import DIRECTIVE_CLOSE, DIRECTIVE_OPEN, build_voice_request
+from engine.shape import shape_text
 
 EPHEMERAL = {"type": "ephemeral"}
 HISTORY = [
@@ -9,9 +10,10 @@ HISTORY = [
 ]
 
 
-def test_the_system_block_is_the_world_prompt_alone_and_cached():
+def test_the_system_blocks_are_the_shape_segment_then_the_world_prompt_both_cached():
     system, _ = build_voice_request(system_prompt="WORLD", message="hi", turn_directive="DIRECTIVE")
-    assert system == [{"type": "text", "text": "WORLD", "cache_control": EPHEMERAL}]
+    assert system == [{"type": "text", "text": shape_text(), "cache_control": EPHEMERAL},
+                      {"type": "text", "text": "WORLD", "cache_control": EPHEMERAL}]
 
 
 def test_no_directive_and_no_history_sends_the_bare_message():
@@ -27,7 +29,7 @@ def test_the_directive_leads_the_final_user_message_in_a_framed_block():
     ]}]
 
 
-def test_only_the_last_history_block_carries_the_second_breakpoint():
+def test_only_the_last_history_block_carries_the_history_breakpoint():
     _, messages = build_voice_request(system_prompt="WORLD", message="next", turn_directive="D", history=HISTORY)
     assert [m["role"] for m in messages] == ["user", "assistant", "user", "assistant", "user"]
     assert messages[:3] == HISTORY[:3]
