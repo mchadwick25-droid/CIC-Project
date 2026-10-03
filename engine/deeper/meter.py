@@ -26,7 +26,7 @@ logger = logging.getLogger("cic.deeper")
 KINDS = ("single", "batch", "group")
 LIVE, SPENT, VOID = "live", "spent", "void"
 
-TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied")
+TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
 RECONCILE_RETENTION_DAYS = 90
 
 MAX_EXCHANGES_PER_CODE = 10_000
@@ -56,7 +56,8 @@ CREATE TABLE IF NOT EXISTS reconcile (
     payments_minted INTEGER NOT NULL DEFAULT 0,
     payments_voided_first INTEGER NOT NULL DEFAULT 0,
     codes_minted INTEGER NOT NULL DEFAULT 0,
-    refunds_applied INTEGER NOT NULL DEFAULT 0
+    refunds_applied INTEGER NOT NULL DEFAULT 0,
+    partial_refunds_ignored INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
@@ -317,6 +318,10 @@ class Meter:
             ).rowcount
         logger.info("voided codes=%d", changed)
         return changed
+
+    def payment_minted(self, payment_id: str) -> bool:
+        with self._lock:
+            return self._conn.execute("SELECT 1 FROM meter WHERE payment_id = ? LIMIT 1", (payment_id,)).fetchone() is not None
 
     def payment_voided(self, payment_id: str) -> bool:
         with self._lock:

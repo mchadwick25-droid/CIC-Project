@@ -1091,3 +1091,25 @@ The Go Deeper module (pay as you go, a code that buys more conversation, through
 **Stripe and legal facts unverified.** The network policy blocked stripe.com and the regulation sites, so Mark verifies each before the slice that depends on it: the client reference in the completion event (S3, S7); the signature header (S3); the redirect to the return page (S4, S7); which id refund and dispute events carry (S1, S3); event order, retries and replay (S3); quantity on a Payment Link (S3, S4); telling a go-deeper payment from a gift on one endpoint (S3, S5); whether the monthly gift link, a subscription, needs other event types (S5); what Stripe itself records about the buyer, including IP and email (S7); Stripe's fees (pricing).
 
 **Parked items filed here.** (a) The 2026-10-01 pay-as-you-go study cited in the entry "Notes moved out of `support.html`" above is not in the repo. (b) Whether the AWS account carries a budget alarm or spending limit is unverified from the repo; Mark confirms. (c) The network policy blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com; widening it is Mark's. (d) The close text marked "draft, not yet approved" in `engine/m4/facilitator_turns.py` is replaced by S8, and P1-Security entry 10's open question (a capped visitor reaching the Facilitator) is answered by the Facilitator-only sitting built in S2.
+
+## 2026-10-03 — Go Deeper: Opus round two on S1 and S3 (PR #723), and what each finding became
+
+Opus's targeted recheck (comment on PR #723) found two blocking bugs in S3, one blocking item that belongs to S2, and nine notes. #725 was merged into the S1 branch at 13:31, so #723 carries both slices.
+
+**Fixed in #723.**
+
+- R2-1. A second purchase on a claim reference that already held another buyer's codes deleted that claim. A claim is now deleted only by the call that created it; a reused reference mints nothing and shows as a gap.
+- R2-2. A Stripe retry after the claim hour minted codes nobody could reach. `put` now clears an expired row first; the caller refuses to mint, and counts a gap, when the claim cannot be stored.
+- a. The claim page answers "no codes yet" until the codes exist in the meter.
+- b. The claim file uses `journal_mode=DELETE`, so `secure_delete` scrubs it; a test reads the file after the purge.
+- c. The wrong-code delay is `await asyncio.sleep`, so it no longer holds a worker thread.
+- d. The webhook refuses a body over 256 KB before it reads the signature.
+- e. A partial refund adds to `partial_refunds_ignored` on the reconciliation. Refund policy stays the project lead's.
+- h. The module docstring now says what the flag does.
+
+**Carried to later slices.**
+
+- R2-3, blocking, S2's definition of done: the message log records each turn with its session id and a time. Once paid sittings run past ten exchanges, a turn 11 or later marks a paid session, and Stripe's payment time then links a named payment to a conversation. S2 drops the session id from the per-message success lines (kept on error lines) or logs a per-day salted hash of it. S2 does not merge without this.
+- g. S2 releases every reservation in a `finally`. A reservation time-out is left out because a long Table round would need its own limit; S2 decides.
+- f. S4's sponsor Payment Link uses a fixed quantity, and the expected `amount_total` per product is checked.
+- i. S7's return page has the browser make references of at least 22 base64url characters (128 bits), and a new reference for every purchase click, so a repeat purchase never reuses one.

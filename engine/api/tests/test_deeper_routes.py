@@ -486,3 +486,61 @@ def test_the_config_defaults_to_the_data_directory(monkeypatch, tmp_path):
     assert config.claims_db_path == str(tmp_path / "cic_deeper_claims.db")
     monkeypatch.setenv("CIC_DEEPER_ENABLED", "1")
     assert DeeperConfig.from_env(str(tmp_path)).enabled
+
+
+# ---- round two: reused references, stale claims, bounded bodies --------------
+
+def test_a_second_purchase_on_the_same_reference_leaves_the_first_claim_intact(http, runtime):
+    post_event(http, completed(payment="pi_a"))
+    first = claim(http).json()
+    post_event(http, completed(payment="pi_b"))
+    assert claim(http).json() == first
+    assert all(runtime.meter.verify(c) for c in first["codes"])
+    (day,) = runtime.meter.reconciliation()
+    assert day["payments_minted"] == 1 and day["gap"] == 1
+
+
+def test_a_retry_after_the_claim_hour_makes_codes_the_buyer_can_reach(http, runtime):
+    now = [1_800_000_000.0]
+    runtime.claims._clock = lambda: now[0]
+    runtime.claims.put(REF, [codes.generate()])
+    now[0] += 3600
+    post_event(http, completed(payment="pi_late"))
+    got = claim(http)
+    assert got.status_code == 200
+    assert all(runtime.meter.verify(c) for c in got.json()["codes"])
+    (day,) = runtime.meter.reconciliation()
+    assert day["payments_minted"] == 1 and day["gap"] == 0
+
+
+def test_a_claim_that_cannot_be_stored_mints_nothing_and_shows_as_a_gap(http, runtime, monkeypatch):
+    monkeypatch.setattr(runtime.claims, "put", lambda *a, **k: False)
+    post_event(http, completed())
+    assert runtime.meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone() == (0,)
+    assert runtime.meter.reconciliation()[0]["gap"] == 1
+
+
+def test_a_replay_never_touches_a_claim_it_did_not_make(http, runtime):
+    post_event(http, completed())
+    first = claim(http).json()
+    post_event(http, completed())
+    post_event(http, completed())
+    assert claim(http).json() == first
+
+
+def test_the_claim_page_waits_until_the_codes_exist_in_the_meter(http, runtime):
+    runtime.claims.put(REF, [codes.generate()])
+    assert claim(http).status_code == 404
+    post_event(http, completed())
+    assert claim(http).status_code == 200
+
+
+def test_an_oversized_webhook_body_is_refused_before_the_signature_is_read(http):
+    big = b"x" * (deeper_routes.MAX_WEBHOOK_BODY_BYTES + 1)
+    assert http.post("/api/deeper/webhook", content=big, headers={"Stripe-Signature": sign(big)}).status_code == 413
+
+
+def test_a_partial_refund_leaves_a_trace_on_the_reconciliation(http, runtime):
+    post_event(http, completed())
+    post_event(http, refunded(full=False))
+    assert runtime.meter.reconciliation()[0]["partial_refunds_ignored"] == 1

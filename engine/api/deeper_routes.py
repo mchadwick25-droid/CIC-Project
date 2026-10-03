@@ -2,8 +2,8 @@
 balance routes, the pause switch, and the daily reconciliation.
 
 Mounted only when CIC_DEEPER_ENABLED is on (engine.api.app.create_app is
-handed a DeeperRuntime, or none). With the flag off this module is never
-imported and no path under /api/deeper exists. The conversation engine never
+handed a DeeperRuntime, or none). With the flag off no path under /api/deeper
+exists, no file is opened and no thread starts. The conversation engine never
 sees any of this: these routes read and write the module's own two files and
 nothing else.
 
@@ -11,6 +11,7 @@ A payment is told apart from a gift by its Payment Link: only a link named in
 CIC_DEEPER_PRODUCTS makes codes. Stripe's signature is checked against the raw
 request body before anything is read from it.
 """
+import asyncio
 import hashlib
 import hmac
 import json
@@ -31,6 +32,7 @@ from engine.deeper.meter import KINDS, AlreadyMinted, Meter, PaymentVoided
 
 logger = logging.getLogger("cic.deeper")
 
+MAX_WEBHOOK_BODY_BYTES = 256 * 1024
 SIGNATURE_TOLERANCE_SECONDS = 300
 MISS_DELAY_SECONDS = 0.5
 CODE_HEADER = "x-cic-code"
@@ -136,6 +138,7 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
         return _mint_for(runtime, obj, product)
     if kind in (REFUND_EVENT, DISPUTE_EVENT):
         if kind == REFUND_EVENT and obj.get("refunded") is not True:
+            runtime.meter.tally("partial_refunds_ignored")
             return "ignored_partial_refund"
         payment = payment_id_of(event)
         if payment is None:
@@ -149,7 +152,8 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
 def _mint_for(runtime: DeeperRuntime, session: dict, product: Product) -> str:
     """Claim first, then mint: the codes are put in the claim table before they
     exist in the meter, so a crash between the two leaves a payment a replay can
-    finish, never a paid code nobody can reach."""
+    finish, never a paid code nobody can reach. A claim this call did not create
+    is never deleted."""
     payment = payment_id_of({"data": {"object": session}})
     reference = session.get("client_reference_id")
     meter, claims = runtime.meter, runtime.claims
@@ -161,35 +165,43 @@ def _mint_for(runtime: DeeperRuntime, session: dict, product: Product) -> str:
         meter.tally("payments_seen")
         meter.tally("payments_voided_first")
         return "voided_first"
+    if meter.payment_minted(payment):
+        return "replayed"
     if not valid_reference(reference):
         meter.tally("payments_seen")
         logger.error("paid checkout carried no usable claim reference; nothing minted")
         return "unmatched_no_reference"
     held = claims.get(reference)
-    if held is not None and len(held) != product.count:
-        meter.tally("payments_seen")
-        logger.error("claim reference already holds a different purchase; nothing minted")
-        return "unmatched_reference_reused"
-    prepared = held if held is not None else [codes.generate() for _ in range(product.count)]
-    made_claim = held is None
-    if made_claim:
-        claims.put(reference, prepared)
+    made_claim = False
+    if held is not None:
+        if len(held) != product.count or any(meter.status(code) is not None for code in held):
+            meter.tally("payments_seen")
+            logger.error("claim reference already holds another purchase; nothing minted")
+            return "unmatched_reference_reused"
+        prepared = held
+    else:
+        prepared = [codes.generate() for _ in range(product.count)]
+        if not claims.put(reference, prepared):
+            meter.tally("payments_seen")
+            logger.error("claim reference could not be stored; nothing minted")
+            return "unmatched_claim_conflict"
+        made_claim = True
     try:
         meter.mint(product.kind, product.exchanges, payment, product.count, daily_ceiling=product.daily_ceiling, prepared=prepared)
     except AlreadyMinted:
-        if made_claim:
-            claims.delete(reference)
         return "replayed"
     except PaymentVoided:
-        claims.delete(reference)
+        if made_claim:
+            claims.delete(reference)
         meter.tally("payments_seen")
         meter.tally("payments_voided_first")
         return "voided_first"
     except ValueError:
-        claims.delete(reference)
+        if made_claim:
+            claims.delete(reference)
         meter.tally("payments_seen")
-        logger.error("claim reference already holds codes from another purchase; nothing minted")
-        return "unmatched_reference_reused"
+        logger.error("prepared codes were refused by the meter; nothing minted")
+        return "unmatched_claim_conflict"
     claims.purge()
     return "minted"
 
@@ -256,8 +268,8 @@ def start_retention_thread(runtime: DeeperRuntime, *, hour: int = 5, minute: int
 
 
 def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callable[[Request, str | None], None]) -> None:
-    def _miss(status_code: int, detail: str):
-        time.sleep(runtime.miss_delay_seconds)
+    async def _miss(status_code: int, detail: str):
+        await asyncio.sleep(runtime.miss_delay_seconds)
         raise HTTPException(status_code=status_code, detail=detail)
 
     def _cors(request: Request, response: Response) -> None:
@@ -268,7 +280,14 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 
     @app.post("/api/deeper/webhook")
     async def webhook(request: Request, stripe_signature: str | None = Header(default=None)):
-        payload = await request.body()
+        declared = request.headers.get("content-length")
+        if declared and declared.isdigit() and int(declared) > MAX_WEBHOOK_BODY_BYTES:
+            raise HTTPException(status_code=413, detail="payload too large")
+        payload = b""
+        async for chunk in request.stream():
+            payload += chunk
+            if len(payload) > MAX_WEBHOOK_BODY_BYTES:
+                raise HTTPException(status_code=413, detail="payload too large")
         if not verify_signature(payload, stripe_signature, runtime.webhook_secret):
             raise HTTPException(status_code=400, detail="bad signature")
         try:
@@ -290,19 +309,19 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         response.status_code = 204
 
     @app.post("/api/deeper/claim", response_model=ClaimResponse)
-    def claim(req: ClaimRequest, request: Request, response: Response):
+    async def claim(req: ClaimRequest, request: Request, response: Response):
         _cors(request, response)
         made = runtime.claims.get(req.reference)
-        if made is None:
-            _miss(404, "no codes yet")
-        info = runtime.meter.status(made[0])
-        return ClaimResponse(codes=[codes.display(c) for c in made], exchanges=info.exchanges_total if info else 0)
+        info = runtime.meter.status(made[0]) if made else None
+        if info is None:
+            await _miss(404, "no codes yet")
+        return ClaimResponse(codes=[codes.display(c) for c in made], exchanges=info.exchanges_total)
 
     @app.get("/api/deeper/balance", response_model=BalanceResponse)
-    def balance(request: Request):
+    async def balance(request: Request):
         info = runtime.meter.status(request.headers.get(CODE_HEADER))
         if info is None or info.status == "void":
-            _miss(404, "that code did not work")
+            await _miss(404, "that code did not work")
         return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=runtime.meter.is_paused())
 
     @app.post("/api/admin/deeper/pause")

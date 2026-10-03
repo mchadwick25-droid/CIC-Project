@@ -78,3 +78,30 @@ def test_valid_reference():
     assert not valid_reference("a" * 15)
     assert not valid_reference("a" * 65)
     assert not valid_reference("a?b" * 8)
+
+
+def test_an_expired_row_does_not_shadow_a_new_claim_on_the_same_reference(store, clock):
+    store.put(REF, ["OLD1"])
+    clock.now += CLAIM_TTL_SECONDS
+    assert store.put(REF, ["NEW1"])
+    assert store.get(REF) == ["NEW1"]
+
+
+def test_a_live_row_still_blocks_a_second_put(store, clock):
+    store.put(REF, ["OLD1"])
+    clock.now += CLAIM_TTL_SECONDS - 1
+    assert not store.put(REF, ["NEW1"])
+    assert store.get(REF) == ["OLD1"]
+
+
+def test_no_plain_code_stays_on_disk_after_the_purge(tmp_path, clock):
+    path = tmp_path / "claims.db"
+    s = ClaimStore(str(path), clock=clock)
+    secret = "ZZZZYYYYXXXXWWWWVVVV"
+    s.put(REF, [secret])
+    clock.now += CLAIM_TTL_SECONDS
+    s.purge()
+    s.close()
+    leftovers = [p for p in tmp_path.iterdir() if p.name.startswith("claims.db")]
+    assert leftovers == [path]
+    assert secret.encode() not in path.read_bytes()

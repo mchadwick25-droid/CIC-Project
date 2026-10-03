@@ -32,7 +32,7 @@ class ClaimStore:
         self._clock = clock
         self._lock = threading.RLock()
         self._conn = sqlite3.connect(path, check_same_thread=False, isolation_level=None)
-        self._conn.execute("PRAGMA journal_mode=WAL")
+        self._conn.execute("PRAGMA journal_mode=DELETE")
         self._conn.execute("PRAGMA secure_delete=ON")
         self._conn.executescript(_SCHEMA)
 
@@ -41,10 +41,15 @@ class ClaimStore:
             self._conn.close()
 
     def put(self, reference: str, plain_codes: list[str]) -> bool:
-        """False if the reference already holds codes: a replay never overwrites."""
+        """False if the reference holds live codes: a replay never overwrites.
+        An expired row is removed first, so it cannot shadow the new one."""
         if not valid_reference(reference) or not plain_codes:
             raise ValueError("a claim needs a well-formed reference and at least one code")
         with self._lock:
+            self._conn.execute(
+                "DELETE FROM claims WHERE reference = ? AND created_epoch <= ?",
+                (reference, int(self._clock()) - CLAIM_TTL_SECONDS),
+            )
             return bool(
                 self._conn.execute(
                     "INSERT OR IGNORE INTO claims (reference, codes, created_epoch) VALUES (?, ?, ?)",
