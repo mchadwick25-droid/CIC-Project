@@ -68,6 +68,8 @@ relations:
 - type: associated-with
   target: gallic.quote.martin-offers-to-stand-unarmed
 - type: associated-with
+  target: gallic.force.army-and-rank-before
+- type: associated-with
   target: gallic.gravity.soldier-of-christ
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "began to

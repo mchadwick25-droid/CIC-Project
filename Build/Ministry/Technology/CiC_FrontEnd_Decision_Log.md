@@ -5310,3 +5310,18 @@ it, and a second test covers a grandfathered world with no waiver.
 
 1. Mark listens to a Wittenberg card on the live site.
 2. Mark rules on deleting the three unreferenced Wittenberg audio files.
+
+## 2026-10-03 — Three superseded Wittenberg audio files removed
+
+**Decision.** Mark ordered deletion of the three Wittenberg recordings left over
+after the world joined the built worlds: the older description recording
+(`audio/tree/lutheran-wittenberg-and-its-congregations.mp3`) and the two older
+story recordings (`audio/docstories/lutheran-wittenberg-and-its-congregations-0.mp3`
+and `-1.mp3`). A search of the live surfaces found nothing that points at them
+except their two entries in `audio/docstories/manifest.json`, which are removed
+with them. The map now plays Wittenberg from `audio/worlds/`. The documented-story
+narration tool reports 515 stories, all up to date, so no entry is left stale.
+
+### Next action
+
+None.

@@ -1371,20 +1371,6 @@
   "outputFormat": "mp3_44100_64",
   "chars": 1445
  },
- "lutheran-wittenberg-and-its-congregations-0": {
-  "hash": "e91e2f8a870f6d07",
-  "voiceId": "40lgdJOC1ND7hPOQX92p",
-  "model": "eleven_v4",
-  "outputFormat": "mp3_44100_64",
-  "chars": 1374
- },
- "lutheran-wittenberg-and-its-congregations-1": {
-  "hash": "dfb3ff73a4f7aa78",
-  "voiceId": "40lgdJOC1ND7hPOQX92p",
-  "model": "eleven_v4",
-  "outputFormat": "mp3_44100_64",
-  "chars": 1393
- },
  "the-anabaptist-movements-0": {
   "hash": "aa6b8335efd1f9ee",
   "voiceId": "onegjDE2z0mQtp1g0HK7",

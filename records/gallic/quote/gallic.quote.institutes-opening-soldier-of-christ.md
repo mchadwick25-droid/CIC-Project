@@ -43,6 +43,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
+- type: associated-with
+  target: gallic.force.army-and-rank-before
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "ought always to walk with his loins"` returns line 16572; read with `sed -n '16568,16574p'`, inside
