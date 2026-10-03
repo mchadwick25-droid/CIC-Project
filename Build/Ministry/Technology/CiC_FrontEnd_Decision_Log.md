@@ -5467,3 +5467,29 @@ paths and commentary checks pass.
 ### Next action
 
 None.
+
+## 2026-10-03 — Audio moves out of git to Cloudflare R2: code built
+
+**Decided (Mark, 2026-10-03).** Move the recordings out of the repository into object
+storage, behind the existing audio Worker, so no page, link or player changes.
+
+**Built.** The Worker reads the `AUDIO` R2 binding first and falls back to the
+repository copy; it answers byte ranges natively. `Build/tools/sync_audio_r2.mjs`
+uploads every recording and verifies size and MD5 (its signing is checked against the
+published AWS test vector). `audio/tree/manifest.json` is new, so the tree descriptions
+have a manifest like the other recordings. The generation tools now decide "already
+narrated" from the manifests, not from files on disk.
+
+**Not done.** The `r2_buckets` binding is not in `wrangler.jsonc`: a binding to a
+bucket that does not exist fails the deploy. Nothing is uploaded and no audio is
+removed from git. The step order is in `CiC_Audio_R2_Cutover_Runbook.md`.
+
+**Deviation from the plan as first stated.** New recordings are generated into the same
+`cic-website/audio/` folder, which becomes git-ignored at cutover, rather than into a
+folder outside the repository. The effect is the same and the tools keep one path.
+
+**Needs Mark.** Turn on R2, create the `cic-audio` bucket and an API token.
+
+### Next action
+
+Mark creates the bucket and token; then upload, verify, add the binding, check live.

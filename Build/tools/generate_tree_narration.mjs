@@ -18,8 +18,8 @@
  * atlas-v3.html itself shows for every non-built movement.
  *
  * Output: cic-website/audio/tree/<id>.mp3, one per movement that has a
- * longDescription. Idempotent - a movement already carrying an audio file
- * is skipped unless --force, so a partial run (rate limit, a crashed
+ * longDescription, and a line for each in cic-website/audio/tree/manifest.json.
+ * Idempotent - a movement already in the manifest is skipped unless --force, so a partial run (rate limit, a crashed
  * process, a paced multi-day batch) can always resume from where it left
  * off without re-spending on movements already narrated.
  *
@@ -64,6 +64,7 @@ const rootDir = path.resolve(__dirname, '..', '..');
 const censusPath = path.join(rootDir, 'cic-website/data/world-census.json');
 export const audioDir = path.join(rootDir, 'cic-website/audio/tree');
 export const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
+export const manifestPath = path.join(audioDir, 'manifest.json');
 
 const ELEVENLABS_TTS_URL = (voiceId) => `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
 
@@ -120,6 +121,10 @@ export function audioPathFor(movementId) {
   return path.join(audioDir, `${movementId}.mp3`);
 }
 
+export function readManifest(file = manifestPath) {
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf-8')) : {};
+}
+
 /**
  * The text to narrate for a movement: a built world's own compiled
  * `orientation.story` (paragraph array, each grounded in a real record)
@@ -144,7 +149,7 @@ export function narrationTextFor(movement, { dataDir = worldsDataDir, existsFn =
  * (declared) order - never a claim about which ones already have one,
  * only which ones this run should act on given the options passed.
  */
-export function planNarration(movements, { only, force, limit, charBudget = null, existsFn = fs.existsSync, textForFn = narrationTextFor }) {
+export function planNarration(movements, { only, force, limit, charBudget = null, manifest = {}, textForFn = narrationTextFor }) {
   let candidates = movements.filter((m) => m.longDescription && m.longDescription.trim());
   const skippedNoText = movements.length - candidates.length;
 
@@ -154,7 +159,7 @@ export function planNarration(movements, { only, force, limit, charBudget = null
 
   const alreadyNarrated = [];
   let toGenerate = candidates.filter((m) => {
-    const has = existsFn(audioPathFor(m.id));
+    const has = Boolean(manifest[m.id]);
     if (has && !force) {
       alreadyNarrated.push(m.id);
       return false;
@@ -232,7 +237,8 @@ export async function synthesize(text, options) {
 async function run() {
   const opts = parseArgs(process.argv.slice(2));
   const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
-  const { toGenerate, alreadyNarrated, skippedNoText, skippedBudget } = planNarration(census.movements, opts);
+  const manifest = readManifest();
+  const { toGenerate, alreadyNarrated, skippedNoText, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
   const totalChars = toGenerate.reduce((sum, m) => sum + narrationTextFor(m).length, 0);
 
   console.log(`=== Tree narration ${opts.dryRun ? '(dry run)' : ''} ===`);
@@ -284,6 +290,8 @@ async function run() {
       const text = narrationTextFor(movement);
       const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT });
       fs.writeFileSync(audioPathFor(movement.id), audio);
+      manifest[movement.id] = { file: `${movement.id}.mp3`, bytes: audio.length, chars: text.length, voiceId, model: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT };
+      fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 1) + '\n');
       succeeded++;
       credits += cost;
       console.log(`  ok: ${movement.id} voice=${voiceId} model=${opts.model} chars=${text.length} cost=${cost}`);

@@ -43,26 +43,26 @@ test('audioPathFor: one file per movement id under cic-website/audio/tree', () =
 
 test('planNarration: skips a movement with no longDescription at all', () => {
   const movements = [movement('has-text'), movement('blank', { longDescription: '   ' }), movement('missing', { longDescription: undefined })];
-  const { toGenerate, skippedNoText } = planNarration(movements, { only: null, force: false, limit: null, existsFn: () => false });
+  const { toGenerate, skippedNoText } = planNarration(movements, { only: null, force: false, limit: null });
   assert.deepEqual(toGenerate.map((m) => m.id), ['has-text']);
   assert.equal(skippedNoText, 2);
 });
 
-test('planNarration: skips a movement that already has an audio file, unless --force', () => {
+test('planNarration: skips a movement that is already in the manifest, unless --force', () => {
   const movements = [movement('narrated'), movement('not-yet')];
-  const exists = (p) => p.endsWith('narrated.mp3');
+  const manifest = { narrated: {} };
 
-  const withoutForce = planNarration(movements, { only: null, force: false, limit: null, existsFn: exists });
+  const withoutForce = planNarration(movements, { only: null, force: false, limit: null, manifest });
   assert.deepEqual(withoutForce.toGenerate.map((m) => m.id), ['not-yet']);
   assert.deepEqual(withoutForce.alreadyNarrated, ['narrated']);
 
-  const withForce = planNarration(movements, { only: null, force: true, limit: null, existsFn: exists });
+  const withForce = planNarration(movements, { only: null, force: true, limit: null, manifest });
   assert.deepEqual(withForce.toGenerate.map((m) => m.id), ['narrated', 'not-yet']);
 });
 
 test('planNarration: --only narrows to a single movement by id', () => {
   const movements = [movement('a'), movement('b'), movement('c')];
-  const { toGenerate } = planNarration(movements, { only: 'b', force: false, limit: null, existsFn: () => false });
+  const { toGenerate } = planNarration(movements, { only: 'b', force: false, limit: null });
   assert.deepEqual(toGenerate.map((m) => m.id), ['b']);
 });
 
@@ -77,7 +77,6 @@ test('planNarration: --char-budget stops before the running total would exceed i
     force: false,
     limit: null,
     charBudget: 2500,
-    existsFn: () => false,
   });
   assert.deepEqual(toGenerate.map((m) => m.id), ['a', 'b']);
   assert.equal(skippedBudget, 1);
@@ -93,7 +92,6 @@ test('planNarration: --char-budget does not skip ahead to a smaller movement tha
     force: false,
     limit: null,
     charBudget: 1000,
-    existsFn: () => false,
   });
   assert.deepEqual(toGenerate, []);
   assert.equal(skippedBudget, 2);
@@ -105,13 +103,13 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
     movement('a', { longDescription: 'x'.repeat(1000) }),
     movement('b', { longDescription: 'x'.repeat(1000) }),
   ];
-  const exists = (p) => p.endsWith('narrated.mp3');
+  const manifest = { narrated: {} };
   const { toGenerate, alreadyNarrated, skippedBudget } = planNarration(movements, {
     only: null,
     force: false,
     limit: null,
     charBudget: 1000,
-    existsFn: exists,
+    manifest,
   });
   assert.deepEqual(alreadyNarrated, ['narrated']);
   assert.deepEqual(toGenerate.map((m) => m.id), ['a']);
@@ -120,8 +118,8 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
 
 test('planNarration: --limit caps only the NEW work, not what is already narrated', () => {
   const movements = [movement('a'), movement('b'), movement('c'), movement('d')];
-  const exists = (p) => p.endsWith('a.mp3');
-  const { toGenerate, alreadyNarrated } = planNarration(movements, { only: null, force: false, limit: 2, existsFn: exists });
+  const manifest = { a: {} };
+  const { toGenerate, alreadyNarrated } = planNarration(movements, { only: null, force: false, limit: 2, manifest });
   assert.deepEqual(alreadyNarrated, ['a']);
   assert.deepEqual(toGenerate.map((m) => m.id), ['b', 'c']);
 });
@@ -168,7 +166,6 @@ test('planNarration: --char-budget uses the resolved narration text length, not 
     force: false,
     limit: null,
     charBudget: 400,
-    existsFn: () => false,
     textForFn,
   });
   assert.deepEqual(toGenerate, []);
