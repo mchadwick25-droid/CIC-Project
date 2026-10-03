@@ -1113,3 +1113,7 @@ Opus's targeted recheck (comment on PR #723) found two blocking bugs in S3, one 
 - g. S2 releases every reservation in a `finally`. A reservation time-out is left out because a long Table round would need its own limit; S2 decides.
 - f. S4's sponsor Payment Link uses a fixed quantity, and the expected `amount_total` per product is checked.
 - i. S7's return page has the browser make references of at least 22 base64url characters (128 bits), and a new reference for every purchase click, so a repeat purchase never reuses one.
+
+## 2026-10-03 — Go Deeper: S1 and S3 merged; Opus round three
+
+S1 and S3 merged to `main` together as PR #723 (merge commit 8584e600), switched off. Opus round three found no blocking finding and three non-blocking notes: the claim route served a refunded code with its full count (fixed in the S3 follow-up); the three route handlers made blocking store calls on the event loop (fixed in the same follow-up, through the thread pool); and a new column does not reach a meter file created before the change. No meter file exists yet, so nothing breaks today. Any later change to a meter column needs a migration step before the flag is first turned on. S2 stays blocked on R2-3 (the per-message log lines).

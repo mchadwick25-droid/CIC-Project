@@ -544,3 +544,10 @@ def test_a_partial_refund_leaves_a_trace_on_the_reconciliation(http, runtime):
     post_event(http, completed())
     post_event(http, refunded(full=False))
     assert runtime.meter.reconciliation()[0]["partial_refunds_ignored"] == 1
+
+
+def test_a_refunded_code_is_not_served_by_the_claim_route(http, runtime):
+    post_event(http, completed())
+    assert claim(http).status_code == 200
+    post_event(http, refunded())
+    assert claim(http).status_code == 404
