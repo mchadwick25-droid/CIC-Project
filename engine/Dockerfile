@@ -123,4 +123,9 @@ EXPOSE 8000
 # everyone together. X-Forwarded-For is set by Render's edge, and the
 # proxy is the only thing that can reach this container, so trusting it
 # is trusting the platform we already run on.
-CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT} --proxy-headers --forwarded-allow-ips='*'"]
+#
+# --no-access-log: uvicorn's access log writes each request's client IP
+# beside its path, and the path carries the session id, so it would join
+# an IP to a conversation (System Hub decisions 19 and 26). The app logs
+# each handled message itself, with the session id and never an IP.
+CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT} --proxy-headers --forwarded-allow-ips='*' --no-access-log"]
