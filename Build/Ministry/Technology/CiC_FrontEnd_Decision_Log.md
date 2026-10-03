@@ -5301,6 +5301,11 @@ files with their manifest entries. Nothing was deleted without instruction.
 checks pass. In Chromium the Wittenberg card starts its story, shows five
 players and one documented-stories section, with no page errors.
 
+**CI.** One test in `engine/m10/tests/test_regate.py` asserted that Wittenberg
+has three live waivers, so it broke when the waivers were removed. It now
+builds its own stub world and waivers, so no later fix to a real world can break
+it, and a second test covers a grandfathered world with no waiver.
+
 ### Next action
 
 1. Mark listens to a Wittenberg card on the live site.
