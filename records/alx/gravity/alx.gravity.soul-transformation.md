@@ -46,11 +46,12 @@ relations:
 - type: associated-with
   target: alx.term.katechesis
 name: Transformation of the Soul Toward God [PRIMARY - literate-attested ecology]
-description: 'Formation as genuine reorientation of the whole person toward participation in the divine
-  life - the active process (catechesis, purification, illumination, knowledge, wisdom), distinct from
-  theosis the horizon-concept. Its practice-cluster is the URBAN contemplative-ascetic-prayer/catechumenal
-  set; the intensified desert versions are excluded (cross-build). SCOPE: Primary for the literate-attested
-  ecology only; ecology-wide primacy held open.'
+description: |-
+  Formation is a real turning of the whole person toward a share in the divine life. It is active work, done step by step. The steps are catechesis, purification, illumination, knowledge, and wisdom. It is not the same as theosis. Theosis is the goal on the horizon.
+
+  Its practice is the city's. It holds contemplation, asceticism, prayer, and teaching for baptism. The intensified desert versions are not part of it.
+
+  This is the primary gravity only for the part of the community that literate sources attest. Whether it is primary for the whole community is left open.
 manifestations:
 - the staged catechumenate as a path of becoming (Paedagogus)
 - prayer and fasting as formation instruments (Festal Letters; On Prayer's English translation excluded
