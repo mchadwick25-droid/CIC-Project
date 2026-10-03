@@ -153,3 +153,20 @@ def test_the_gravities_list_strips_a_leading_tag_too_and_leaves_real_parens_alon
     prompt = build_prompt({**REPOSITORY, gravity["id"]: gravity}, REGISTRY_ENTRY).decode("utf-8")
     assert "- [[rzg.gravity.council-led-authority-vs-consistorial-independence]] Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control (Geneva)" in prompt
     assert "[TENSIONAL]" not in prompt
+
+
+def test_the_worked_line_tags_the_world_s_own_first_term_and_gravity():
+    """The citation contract in the shape segment points to this line, so the
+    voice sees the [[id]] form in its own namespace. A world whose
+    demonstrations carry no tags (rzg) otherwise had no tagged example."""
+    term = {"id": "fix.term.bread", "record_type": "term", "quick_meaning": "Bread, daily."}
+    gravity = {"id": "fix.gravity.a-tension", "record_type": "gravity", "name": "A Tension"}
+    prompt = build_prompt({**REPOSITORY, term["id"]: term, gravity["id"]: gravity}, REGISTRY_ENTRY).decode("utf-8")
+    line = prompt.split("## Our worked line\n\n", 1)[1].split("\n", 1)[0]
+    assert line.endswith("[[fix.term.bread]] [[fix.gravity.a-tension]].'")
+    assert prompt.index("## Our worked line") < prompt.index(_GROUND_LINE)
+
+
+def test_a_world_with_no_term_or_gravity_tags_its_first_citable_record():
+    prompt = _prompt()
+    assert "## Our worked line\n\n'" in prompt and "[[fix.core.fix]].'" in prompt

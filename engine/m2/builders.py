@@ -259,6 +259,28 @@ ground, and it is that id which is copied.
 # compiled again here.
 SHAPE_RESTATED_SEGMENTS = frozenset({"self-reference", "openers", "honest-limits"})
 
+WORKED_LINE_HEADER = "Our worked line"
+_WORKED_LINE_SENTENCE = "...the same bread, the same cup, was set before whoever had walked the road to it"
+
+
+def _worked_line(records: dict) -> str | None:
+    """The citation contract's worked example, tagged with this world's own
+    first term and first gravity ids, so the voice sees the [[id]] form in
+    its own namespace. A world with neither falls back to its first citable
+    record; a world with none gets no line."""
+    ids = []
+    for wanted in ("term", "gravity"):
+        pool = sorted(r["id"] for r in records.values() if r.get("record_type") == wanted)
+        if pool:
+            ids.append(pool[0])
+    if not ids:
+        fallback = sorted(r["id"] for r in records.values()
+                          if r.get("record_type") not in ("demonstration", "voice_craft", None))
+        ids = fallback[:1]
+    if not ids:
+        return None
+    return f"'{_WORKED_LINE_SENTENCE} {' '.join(f'[[{i}]]' for i in ids)}.'"
+
 
 def build_prompt(records: dict, registry_entry: dict) -> bytes:
     # Two lists, spliced at the end with _GROUND_LINE between them, so
@@ -377,6 +399,7 @@ def build_prompt(records: dict, registry_entry: dict) -> bytes:
     world_name = registry_entry.get("display_name")
     instruct("Who we are", "\n\n".join(p for p in (f"Our world's name: {world_name}." if world_name else None,
                                                     craft.get("identity")) if p))
+    instruct(WORKED_LINE_HEADER, _worked_line(records))
     if craft:
         instruct("What we hold ourselves to", craft.get("guard"))
         concerns = craft.get("characteristic_concerns") or []

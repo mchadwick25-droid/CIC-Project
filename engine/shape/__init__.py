@@ -12,7 +12,7 @@ from functools import lru_cache
 from engine.m1.loader import load_fleet_records
 from engine.m2.canonical import sha256_prefixed
 
-SHAPE_HASH = "sha256:a022459b0c5a9264f39e0b006437cbe4f55a66fb450aca71ea4eca05cf048d3b"
+SHAPE_HASH = "sha256:1174dd6ddb7521b9fd814c9838fe415c6e06b007ba5a923f204b63175b0fc09c"
 
 
 class ShapeMismatch(RuntimeError):
