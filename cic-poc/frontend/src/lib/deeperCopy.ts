@@ -1,5 +1,6 @@
 export const deeperCopy = {
   haveCode: 'I have a code',
+  getCode: 'Get a code',
   fieldLabel: 'Your code',
   useCode: 'Use this code',
   saved: 'Code saved on this device.',

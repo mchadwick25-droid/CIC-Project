@@ -9,6 +9,8 @@ import { useSyncExternalStore } from 'react';
 export const deeperEnabled = import.meta.env.VITE_DEEPER_ENABLED === 'on';
 
 const STORAGE_KEY = 'cic_code';
+const SITE_ORIGIN = import.meta.env.VITE_DEEPER_SITE_ORIGIN || 'https://churchinconversation.com';
+const MESSAGE_TYPE = 'cic-deeper-code';
 const ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
 const CODE_LENGTH = 20;
 
@@ -78,6 +80,25 @@ export function codeHeaders(): Record<string, string> {
 export function remainingFromHeader(value: string | null): number | null {
   if (value === null || !/^\d+$/.test(value)) return null;
   return Number(value);
+}
+
+/** Opens the site's page for getting a code in a popup, so the conversation stays where it is. */
+export function openGetCode(): boolean {
+  if (!deeperEnabled) return false;
+  const popup = window.open(`${SITE_ORIGIN}/go-deeper.html`, 'cic-get-code', 'popup=yes,width=520,height=760');
+  return popup !== null;
+}
+
+/**
+ * What the popup sends back when payment is done. Only the site's own origin
+ * is believed, and only a single well-formed code is kept; a pack of several
+ * codes stays in the popup for the buyer to share out.
+ */
+export function acceptCodeMessage(event: { origin: string; data: unknown }): boolean {
+  if (!deeperEnabled || event.origin !== SITE_ORIGIN) return false;
+  const data = event.data as { type?: unknown; codes?: unknown } | null;
+  if (!data || data.type !== MESSAGE_TYPE || !Array.isArray(data.codes) || data.codes.length !== 1) return false;
+  return typeof data.codes[0] === 'string' && saveCode(data.codes[0]);
 }
 
 function subscribe(listener: () => void) {

@@ -82,3 +82,48 @@ describe('with the module off', () => {
     expect(mod.codeHeaders()).toEqual({});
   });
 });
+
+describe('the code handed back from the popup', () => {
+  const SITE = 'https://churchinconversation.com';
+  const good = { type: 'cic-deeper-code', codes: ['ABCD 2345 EFGH 6789 JKLM'] };
+
+  it('is saved when it comes from the site as one well-formed code', async () => {
+    const mod = await load(true);
+    expect(mod.acceptCodeMessage({ origin: SITE, data: good })).toBe(true);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+  });
+
+  it('is ignored from any other origin, and for any other shape', async () => {
+    const mod = await load(true);
+    expect(mod.acceptCodeMessage({ origin: 'https://evil.example', data: good })).toBe(false);
+    expect(mod.acceptCodeMessage({ origin: `${SITE}.evil.example`, data: good })).toBe(false);
+    expect(mod.acceptCodeMessage({ origin: SITE, data: { ...good, type: 'other' } })).toBe(false);
+    expect(mod.acceptCodeMessage({ origin: SITE, data: { type: good.type, codes: [] } })).toBe(false);
+    expect(mod.acceptCodeMessage({ origin: SITE, data: { type: good.type, codes: [good.codes[0], good.codes[0]] } })).toBe(false);
+    expect(mod.acceptCodeMessage({ origin: SITE, data: { type: good.type, codes: ['nonsense'] } })).toBe(false);
+    expect(mod.acceptCodeMessage({ origin: SITE, data: { type: good.type, codes: [42] } })).toBe(false);
+    expect(mod.acceptCodeMessage({ origin: SITE, data: null })).toBe(false);
+    expect(mod.codeHeaders()).toEqual({});
+  });
+
+  it('opens the site page in a popup, and does nothing with the module off', async () => {
+    const open = vi.fn().mockReturnValue({});
+    vi.stubGlobal('open', open);
+    const on = await load(true);
+    expect(on.openGetCode()).toBe(true);
+    expect(open).toHaveBeenCalledWith('https://churchinconversation.com/go-deeper.html', 'cic-get-code', expect.stringContaining('popup'));
+    open.mockClear();
+    const off = await load(false);
+    expect(off.openGetCode()).toBe(false);
+    expect(off.acceptCodeMessage({ origin: SITE, data: good })).toBe(false);
+    expect(open).not.toHaveBeenCalled();
+    vi.unstubAllGlobals();
+  });
+
+  it('reports a blocked popup', async () => {
+    vi.stubGlobal('open', vi.fn().mockReturnValue(null));
+    const mod = await load(true);
+    expect(mod.openGetCode()).toBe(false);
+    vi.unstubAllGlobals();
+  });
+});

@@ -63,4 +63,23 @@ describe('CodeEntry', () => {
     expect(screen.getByRole('button', { name: 'I have a code' })).toBeInTheDocument();
     expect(deeper.codeHeaders()).toEqual({});
   });
+
+  it('offers to get a code in a popup, and saves the code the popup sends back', async () => {
+    const open = vi.fn().mockReturnValue({});
+    vi.stubGlobal('open', open);
+    const { CodeEntry } = await load(true);
+    render(<CodeEntry />);
+    fireEvent.click(screen.getByRole('button', { name: 'Get a code' }));
+    expect(open).toHaveBeenCalledWith('https://churchinconversation.com/go-deeper.html', 'cic-get-code', expect.any(String));
+    fireEvent(window, new MessageEvent('message', { origin: 'https://churchinconversation.com', data: { type: 'cic-deeper-code', codes: [CODE] } }));
+    expect(await screen.findByText('Code saved on this device.')).toBeInTheDocument();
+    vi.unstubAllGlobals();
+  });
+
+  it('does not save a code sent from anywhere else', async () => {
+    const { CodeEntry } = await load(true);
+    render(<CodeEntry />);
+    fireEvent(window, new MessageEvent('message', { origin: 'https://evil.example', data: { type: 'cic-deeper-code', codes: [CODE] } }));
+    expect(screen.getByRole('button', { name: 'I have a code' })).toBeInTheDocument();
+  });
 });

@@ -2,8 +2,8 @@
  * The way in for a participant who holds a code, and the line that says how
  * much it has left. Shown only when the app is built with the module on.
  */
-import { useState } from 'react';
-import { clearCode, deeperEnabled, saveCode, useDeeper } from '../lib/deeper';
+import { useEffect, useState } from 'react';
+import { acceptCodeMessage, clearCode, deeperEnabled, openGetCode, saveCode, useDeeper } from '../lib/deeper';
 import { deeperCopy } from '../lib/deeperCopy';
 
 export function CodeEntry() {
@@ -11,6 +11,16 @@ export function CodeEntry() {
   const [open, setOpen] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
+
+  useEffect(() => {
+    if (!deeperEnabled) return;
+    const onMessage = (event: MessageEvent) => {
+      acceptCodeMessage(event);
+    };
+    window.addEventListener('message', onMessage);
+    return () => window.removeEventListener('message', onMessage);
+  }, []);
+
   if (!deeperEnabled) return null;
 
   const submit = (e: React.FormEvent) => {
@@ -57,9 +67,14 @@ export function CodeEntry() {
           )}
         </form>
       ) : (
-        <button type="button" onClick={() => setOpen(true)}>
-          {deeperCopy.haveCode}
-        </button>
+        <>
+          <button type="button" onClick={() => setOpen(true)}>
+            {deeperCopy.haveCode}
+          </button>
+          <button type="button" onClick={openGetCode}>
+            {deeperCopy.getCode}
+          </button>
+        </>
       )}
     </div>
   );
