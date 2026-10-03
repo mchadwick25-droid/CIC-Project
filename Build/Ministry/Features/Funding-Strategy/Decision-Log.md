@@ -1047,3 +1047,47 @@ The comments above the doctype in `cic-website/support.html` were removed, under
 - **Payment Links.** The page uses two Stripe Payment Links, one-time and monthly, with no server and no account. If either link is rotated, copy the new ID from the Stripe Dashboard's own "Copy link" action rather than retyping it. Confirm the link's mode (one-time or recurring) by opening it. The domain (buy.stripe.com or donate.stripe.com) does not reliably show which mode a link uses.
 - **Cost framing.** The cost section says cost is real and per-turn, says real effort has gone into lowering it, and asks for help. It gives no dollar figure and no itemized breakdown. The measured numbers stay in `engine/m8/reports/`.
 - **Still open.** The page's framing and wording had not been confirmed as the project's public voice. The figures behind it are measured. This needs the project lead's review, and the pay-as-you-go study (2026-10-01) is likely to change it.
+
+## 2026-10-03 — Go Deeper: the design, the rulings, the carried review findings, and what was filed where
+
+The Go Deeper module (pay as you go, a code that buys more conversation, through Stripe, with no accounts) has a converged design. The build thread's first act is this record. The System Hub log carries the rulings as decisions 26 to 31, and the other logs carry the parked items below.
+
+**The record pages** (the pages are the design; the repo holds this index):
+
+- Handoff (slices S0 to S11, parking list): https://claude.ai/artifact/87s72iQMDXv1YnNukEqCVu
+- Opus review, round one (B1 to B7, N1 to N13): https://claude.ai/artifact/WFXgLYTzv9JNtD1FnYwmPQ
+- Design: https://claude.ai/artifact/79H5o1x9GdTSfHbuvZZL5B
+- Ledger, Ship Dark, Wording: https://claude.ai/artifact/H6JdTHykotWJj3B4kefnnx
+- Stages, Pilot Test, Pre-mortem: https://claude.ai/artifact/QucZMBM9C71emVDWkpsY5Y
+- Four Ways to Pay: https://claude.ai/artifact/Mu6sxQKdmBWHeNXdx3af2r
+- Cost Model: https://claude.ai/artifact/XKAx8g4YrhnNRQkbDCkA1g
+- Map: https://claude.ai/artifact/NosTTmUbjF4PGhd27RCCSD
+
+**Ruled by Mark, 2026-10-03.** The design is codes, with the browser remembering. Decision 19 is amended: the meter keys on a hash of the code, never on a cookie or an IP. Stripe, the meter and the conversation store share no key, except that the meter keeps the Stripe payment id. The door holds the free path's ceiling. A code holds exchanges. The wording is carried as drafted, for Mark's approval at each pull request. The module ships switched off behind one flag, with a runtime pause behind the admin login and a written rollback. All seven blocking findings and all thirteen notes from Opus round one carry into the build. On B3: at every limit the module adds, a message the safety check reads as unclear, or one where the safety check failed, gets the Facilitator's check-in instead of the limit message. Today's two limits are not changed by this ruling.
+
+**Build order.** S0 (this record), then S1 and S3 together, S2, S10, then S6, S7 and S8 together, S5, S9, S4 by Mark, S11. One slice per pull request. The full existing suite runs with the flag off and on in every pull request.
+
+**Carried findings and the slice that closes each.**
+
+- B1 (joins): S1, S2, S3, S7. Money words stay out of the event log; the claim reference leaves the query string; access logging is stripped for the session and deeper routes; the claim table stays out of backups; "day last used" coarsens to the week; the privacy page says "no shared key" and waits on CO-6.
+- B2 (capped visitor): S2 touches `engine/api/anon_cap.py`; S10 tests it. Wording question to Mark at S8.
+- B3 (check-in at module limits): S2 builds the exemption; S10 tests it at every module limit.
+- B4 (ceiling): S5 and S2. The meter fails open to free; the door fails closed to its last computed stage; `admit_turn` consults the door; the bound is the ceiling plus the turns in flight; the door's sum carries the measured invoice factor; the webhook tells go-deeper payments from gifts by Payment Link.
+- B5 (request-diff): S2 and S10 run the diff at turns past the free cap from a hand-built transcript. One paid voice-quality run at the longest sitting a pack allows, before S11 step 4, needs Mark's approval, sample first, every setting printed, a stated cap.
+- B6 (untrue sentences): questions to Mark at S7 and S8.
+- B7 (a class behind one IP): S2 touches `engine/api/anon_cap.py` and `engine/api/ratelimit.py`; a valid code lifts the daily session cap; the burst bucket keys per code; S10 tests 25 students behind one IP.
+- N1 to N13: S1 (N1, N2, N5, N8, N13), S3 (N2, N3, N4, N13), S2 (N7, N9), S10 (N10), S7 and S8 (N6, N11), S4 (N12). N7 needs Mark's value before S2.
+
+**Mark's, not the build's.** The price, pack sizes and the sponsor pack. How many exchanges a Table round costs against a code (N7). The door's base number, stage thresholds, gift share and invoice factor. The free allowance numbers. Expiry and refund policy. Every participant-facing word. Stripe's written answer and the Stripe setup. Whether an AWS budget alarm exists. Widening the network policy. The minors question before the first group code is sold. The one paid voice-quality run. The production promotion. Each of these goes into config with a safe default, and Mark gets one question at the slice gate that needs it.
+
+**Questions for a professional (registered, none answered).**
+
+1. Stored value: whether seller-held conversation credits fall under Stripe's stored-value restrictions (a written question to Stripe, answered before any Payment Link exists; slice S4).
+2. Gift-card law: whether a code counts, and what validity period follows.
+3. Unclaimed property: whether unspent balances carry reporting duties.
+4. Sales tax on a code.
+5. Minors: group codes for classes start in the pilot, so the answer is needed before the first group code is sold (N12), not only before public release.
+
+**Stripe and legal facts unverified.** The network policy blocked stripe.com and the regulation sites, so Mark verifies each before the slice that depends on it: the client reference in the completion event (S3, S7); the signature header (S3); the redirect to the return page (S4, S7); which id refund and dispute events carry (S1, S3); event order, retries and replay (S3); quantity on a Payment Link (S3, S4); telling a go-deeper payment from a gift on one endpoint (S3, S5); whether the monthly gift link, a subscription, needs other event types (S5); what Stripe itself records about the buyer, including IP and email (S7); Stripe's fees (pricing).
+
+**Parked items filed here.** (a) The 2026-10-01 pay-as-you-go study cited in the entry "Notes moved out of `support.html`" above is not in the repo. (b) Whether the AWS account carries a budget alarm or spending limit is unverified from the repo; Mark confirms. (c) The network policy blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com; widening it is Mark's. (d) The close text marked "draft, not yet approved" in `engine/m4/facilitator_turns.py` is replaced by S8, and P1-Security entry 10's open question (a capped visitor reaching the Facilitator) is answered by the Facilitator-only sitting built in S2.

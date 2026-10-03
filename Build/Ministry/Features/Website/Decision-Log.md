@@ -147,3 +147,8 @@ clean, immediate live status is a direct result of that fix holding.
 
 **Next action:** none for this dispatch. Reported back to the Funding Strategy
 thread's session per its own completion-criteria convention.
+
+## 2026-10-03 — Two website items found by the Go Deeper build, parked
+
+- `cic-website/table.html` (line 270) still says "keep to about five conversations for now — we can't enforce this yet, only ask." The anonymous daily cap is live and does enforce a limit. The sentence is stale. Not changed here.
+- `support.html` is not linked from the site navigation (per `cic-website/README.md`), while the Facilitator's session-cap close message points people to it by URL. Go Deeper's slice S7 adds the go-deeper page and keeps it out of navigation until S11, so the same question will apply to it. Decide whether the support page belongs in the navigation.

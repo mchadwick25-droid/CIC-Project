@@ -5325,3 +5325,53 @@ narration tool reports 515 stories, all up to date, so no entry is left stale.
 ### Next action
 
 None.
+
+## 2026-10-03 — Representative greetings and voiced starter answers: not built
+
+**Decision.** No spoken Representative greeting and no recorded answers to the
+tradition pages' "Start with the hard one" questions. The Facilitator's welcome
+(2026-10-02) stays the only spoken opening in the one-to-one conversation.
+
+**Why.** A greeting that names the Representative conflicts with the voice
+records: every Representative speaks in a strict we-voice, and the name and role
+label are never used as the voice's own self-description. A recorded answer under
+each hard question was tried next. Mark ruled it out: those questions are prompts
+the visitor asks in the conversation, so a recorded answer beside them answers the
+question the page invites the visitor to ask. The starter questions also rarely
+match the approved answers' own questions (2 of 9 in the Syriac world).
+
+**Spent.** 286 credits on two sample clips (one Wittenberg, one Syriac), not
+added to the repository. Voiced approved answers elsewhere (36 of them, about
+5,760 credits) were not generated.
+
+### Next action
+
+None.
+## 2026-10-03 — One narration player across the site, with a speed choice
+
+**Decision.** Mark chose the quiet, typographic player (option C of three working
+mock-ups) to replace the browser's small default player: a small-caps "Listen"
+control, a seekable rail, the elapsed time, and four speeds (1x, 1.25x, 1.5x,
+2x). The speed is one setting for the whole site, kept in this browser
+(`cic.narration.rate`, the key the map already used). The Unfolding Story now
+has the speed choice too.
+
+**How.** `cic-website/assets/narration-player.js` draws the control over each
+page's own `<audio>` element, which stays in the page and does the playing. The
+map's autoplay, its pause-the-others rule and its start-when-opened stories
+therefore work unchanged, and a browser without JavaScript keeps the ordinary
+controls. The script is on the landing page, the Unfolding Story, About, the
+eleven tradition pages, the 281 tree pages that have narration (and in
+`Build/tools/generate_tree_pages.mjs` for future builds) and the map. The map's
+own speed buttons were removed so the choice appears once. The Facilitator's
+welcome in the conversation takes the same look with no speed choice.
+
+**Checked.** In Chromium: every page shows one player and no native player; speed
+changes the playback rate and is remembered on the next page; seeking works
+against a byte-range server; the map card starts its story and opening a
+documented story starts that one and pauses the first; no horizontal overflow at
+390 px; the frontend suite and typecheck pass. Not checked on an iPhone.
+
+### Next action
+
+1. Mark tries the player on the live site, including on the iPhone.
