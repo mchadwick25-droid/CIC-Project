@@ -282,3 +282,12 @@ def test_multiple_defects_across_both_report_shapes_all_surface():
         "rounds": [{"message": "b", "turns": [{"round_no": 1, "position": 0, "voice": {"output_defects": [_defect("false: third")]}}]}],
     }
     assert len(find_shipped_defects(report)) == 3
+
+
+def test_the_horizon_family_reports_a_later_mention_and_needs_the_window():
+    from engine.m4.output_check import check_output
+    text = "We kept the feast. After the Council of Chalcedon we parted."
+    found = [d for d in check_output(text, window_end=400) if d["family"] == "horizon"]
+    assert found == [{"family": "horizon", "finding": "names the Council of Chalcedon (451), after the window closes in 400",
+                      "sentence": "After the Council of Chalcedon we parted."}]
+    assert not [d for d in check_output(text) if d["family"] == "horizon"]

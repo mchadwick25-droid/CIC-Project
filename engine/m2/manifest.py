@@ -40,3 +40,28 @@ def build_manifest(
 
 def manifest_hash(manifest: dict) -> str:
     return sha256_prefixed(canonical_json(manifest))
+
+
+
+def compiled_content_hash(files: dict[str, bytes]) -> str:
+    """The hash of what the runtime reads: every compiled/ file with its
+    generated-by stamp removed, so the same content built from another commit
+    hashes the same. The validation report and the frozen record copy are
+    left out, so a new gate or a build-only record field leaves it
+    unchanged."""
+    from .compiler import unstamp
+
+    digests = {path: sha256_prefixed(unstamp(path, content)) for path, content in sorted(files.items()) if path.startswith("compiled/")}
+    return sha256_prefixed(canonical_json(digests))
+
+
+def package_content_hash(package_dir) -> str | None:
+    """compiled_content_hash of a package on disk, or None when its compiled
+    files are not present (a manifest-only checkout before restore)."""
+    from pathlib import Path
+
+    root = Path(package_dir) / "compiled"
+    if not root.is_dir():
+        return None
+    files = {f"compiled/{p.relative_to(root).as_posix()}": p.read_bytes() for p in root.rglob("*") if p.is_file()}
+    return compiled_content_hash(files)

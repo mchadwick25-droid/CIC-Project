@@ -1044,6 +1044,7 @@ def _run_ordinary_voice_turn(
         "output_defects": check_output(
             answer_text, history=history, participant_message=participant_message,
             citations=citations, repository_records=repository_records,
+            window_end=(world.frame.get("time_window") or {}).get("end"),
         ),
         # Additive, same discipline as transparency above: absent/empty on
         # every call that never passes guard_labels (every interview call,

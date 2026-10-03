@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 from engine.m1.loader import REPO_ROOT as RECORDS_REPO_ROOT
-from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
+from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records, voiced_records
 from engine.m1.registry import get_world, is_fixture, load_registry
 
 from . import builders, validation
@@ -70,6 +70,19 @@ def _stamp(path: str, content: bytes, provenance: str) -> bytes:
     return canonical_json({"_generated_by": provenance, **obj})
 
 
+def unstamp(path: str, content: bytes) -> bytes:
+    """The inverse of _stamp: a compiled file's content without its
+    generated-by provenance."""
+    if path.startswith("records/") or path.startswith(_NO_STAMP_PREFIXES):
+        return content
+    if path.endswith(".svg"):
+        first, _, rest = content.partition(b"\n")
+        return rest if first.startswith(b"<!-- generated-by:") else content
+    obj = json.loads(content)
+    obj.pop("_generated_by", None)
+    return canonical_json(obj)
+
+
 def compile_world(
     *,
     world_key: str,
@@ -82,21 +95,22 @@ def compile_world(
     registry_entry = get_world(world_key, registry)
     fleet = load_fleet_records(records_root=records_root)
     records = load_world_records(world_key, records_root=records_root)
+    voiced = voiced_records(records)
 
     provenance = f"cic-m2-compiler {compiler_version} from records_commit {records_commit}"
 
     compiled: dict[str, bytes] = {
-        "compiled/prompt.txt": builders.build_prompt(records, registry_entry),
-        "compiled/capsule.md": builders.build_capsule(records, registry_entry),
-        "compiled/quotes.json": builders.build_quotes_json(records),
-        "compiled/figures.json": builders.build_figures_json(records),
-        "compiled/repository.json": builders.build_repository_json(records),
-        "compiled/coverage.json": builders.build_coverage_json(records, fleet),
-        "compiled/frame.json": builders.build_frame_json(records, fleet, registry_entry),
+        "compiled/prompt.txt": builders.build_prompt(voiced, registry_entry),
+        "compiled/capsule.md": builders.build_capsule(voiced, registry_entry),
+        "compiled/quotes.json": builders.build_quotes_json(voiced),
+        "compiled/figures.json": builders.build_figures_json(voiced),
+        "compiled/repository.json": builders.build_repository_json(voiced),
+        "compiled/coverage.json": builders.build_coverage_json(voiced, fleet),
+        "compiled/frame.json": builders.build_frame_json(voiced, fleet, registry_entry),
         "compiled/indexes/canon-map.json": builders.build_canon_map_json(fleet),
     }
-    compiled.update(builders.build_chunks(records))
-    compiled.update(builders.build_indexes(records))
+    compiled.update(builders.build_chunks(voiced))
+    compiled.update(builders.build_indexes(voiced))
     compiled.update(builders.build_media(registry_entry))
 
     validation_files = {
