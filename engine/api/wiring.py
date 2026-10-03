@@ -723,6 +723,7 @@ def handle_message(
     citation_attach_enabled: bool = False,
     daily_turn_cap_reached: bool = False,
     on_draft_text: Callable[[str], None] | None = None,
+    qc_recorder=None,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -999,6 +1000,16 @@ def handle_message(
 
     for rec in result.usage_records:
         usage_store.append(rec)
+
+    if qc_recorder is not None:
+        shown_voice = voice_payload if voice_payload and not voice_payload.get("r27_enforcement_exhausted") else None
+        qc_recorder.record_safely(
+            session_id=session_id, world_key=state.world_key, world=world,
+            package_hash=state.package_manifest_hash, model_id=voice_model_id if shown_voice else None,
+            question=text, routing_action=result.routing_action, safety=gate_payload.get("safety"),
+            voice_event=shown_voice,
+            answer_text=shown_voice["text"] if shown_voice else (facilitator_payload or {}).get("text"),
+        )
 
     return MessageResult(
         turn_no=turn_no,

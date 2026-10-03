@@ -6195,6 +6195,12 @@ On the live turn path (Conversation-Transparency-Engine Decision-Log, Entry 99) 
 
 33. The project lead checks the account's Haiku 4.5 quota in the AWS console (raising it if it is low), then sets `CIC_CITATION_ATTACH=1` on the production service when he promotes. Before that, the step is guarded in code so it yields to the safety call under load: at most two turns attach at once, a rate limit pauses the step for a minute server-wide, and a turn makes at most eight check calls. He chose this over switching it on with the next promotion and over keeping it on staging only.
 
+## 2026-10-03 - Slice 2 scope: QC store and the 90-day purge now (decision 34)
+
+A read-only survey of the engine found that today's operational store (`session_events`) keeps every conversation's text indefinitely, in the same database as the session's visitor id and session-code hash, and that the usage log is keyed by session id and exact time, so it can be joined to it. Privacy page A says so plainly and says no automatic deletion date is set. Nothing deletes conversation text today.
+
+34. Slice 2 builds the anonymous quality-control store as designed (scrubbed questions kept, answers deleted at 90 days, no column that links to a person, no key shared with the usage log or the event log) and, with it, a daily job that deletes a conversation's events from the operational store once the conversation has been inactive for 90 days; the 14-day backup rotation carries the deletion into backups. A conversation older than 90 days can no longer be resumed. The visitor-id link and the usage-log key stay until pay-as-you-go goes live with privacy page B, as the project lead set earlier. Page A's retention sentence changes, in words the project lead approves, in the same release as the purge. He chose this over cutting the identity links now and over building the QC store alone.
+
 ## 2026-10-03 - Every message reaches the safety call before any refusal (decision 35)
 
 The Go Deeper thread's Opus review found four places where a participant's message was refused before the safety call read it (Conversation-Transparency-Engine Decision-Log, Entry 98, items 1 to 4): a session already closed by its cap, a table round still open, today's session and daily limits (which exempted acute distress but turned away the check-in and the fail-closed route), and messages over 4,000 characters. A crisis typed in any of them got a refusal and no resources.
