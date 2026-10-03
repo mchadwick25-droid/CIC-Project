@@ -3,8 +3,10 @@ messages array every generation call sends (engine.m4.generation).
 
 Cache layout, front to back:
 
-    system[0]   the world's compiled prompt, breakpoint 1
-    messages    the session history, oldest first, breakpoint 2 on its last block
+    system[0]   the engine's shape segment (engine.shape), the same bytes for
+                every world, breakpoint 1
+    system[1]   the world's compiled prompt, breakpoint 2
+    messages    the session history, oldest first, breakpoint 3 on its last block
     final user  the turn directive, then the evidence block and the participant's message
 
 The directive changes every turn. Anything placed after it in the request is
@@ -15,6 +17,8 @@ engine.api.table_wiring.table_history_for both emit fixed pairs), so each call
 reads the previous call's cached prefix and writes only the new pair.
 """
 from __future__ import annotations
+
+from engine.shape import shape_text
 
 DIRECTIVE_OPEN = "[Turn instructions from the engine, not from the participant]"
 DIRECTIVE_CLOSE = "[End of turn instructions]"
@@ -45,6 +49,7 @@ def build_voice_request(
     *, system_prompt: str, message: str, turn_directive: str | None = None, history: list[dict] | None = None,
 ) -> tuple[list[dict], list[dict]]:
     """Returns (system, messages) for client.messages.stream."""
-    system = [{"type": "text", "text": system_prompt, "cache_control": _EPHEMERAL}]
+    system = [{"type": "text", "text": shape_text(), "cache_control": _EPHEMERAL},
+              {"type": "text", "text": system_prompt, "cache_control": _EPHEMERAL}]
     messages = [*_cached_history(history or []), {"role": "user", "content": _final_user_content(message, turn_directive)}]
     return system, messages

@@ -468,7 +468,7 @@ def test_parse_products_refuses_a_bad_setting(raw):
 
 
 def test_the_flag_on_refuses_to_start_without_a_webhook_secret(tmp_path):
-    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"), 300)
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
     with pytest.raises(DeeperConfigError):
         deeper_routes.build_runtime(config, {})
     runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example"})
@@ -478,7 +478,7 @@ def test_the_flag_on_refuses_to_start_without_a_webhook_secret(tmp_path):
 
 
 def test_the_config_defaults_to_the_data_directory(monkeypatch, tmp_path):
-    for name in ("CIC_DEEPER_ENABLED", "CIC_DEEPER_METER_DB", "CIC_DEEPER_CLAIMS_DB", "CIC_DEEPER_GROUP_DAILY_CEILING"):
+    for name in ("CIC_DEEPER_ENABLED", "CIC_DEEPER_METER_DB", "CIC_DEEPER_CLAIMS_DB"):
         monkeypatch.delenv(name, raising=False)
     config = DeeperConfig.from_env(str(tmp_path))
     assert not config.enabled
@@ -544,3 +544,10 @@ def test_a_partial_refund_leaves_a_trace_on_the_reconciliation(http, runtime):
     post_event(http, completed())
     post_event(http, refunded(full=False))
     assert runtime.meter.reconciliation()[0]["partial_refunds_ignored"] == 1
+
+
+def test_a_refunded_code_is_not_served_by_the_claim_route(http, runtime):
+    post_event(http, completed())
+    assert claim(http).status_code == 200
+    post_event(http, refunded())
+    assert claim(http).status_code == 404

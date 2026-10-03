@@ -24,7 +24,9 @@ from typing import Callable
 
 from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
+from starlette.concurrency import run_in_threadpool
 
+from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
@@ -55,6 +57,26 @@ class Product:
     daily_ceiling: int | None = None
 
 
+class BoundedSet:
+    """Session ids this process remembers, oldest forgotten first. They are
+    never written to disk and never reach the meter: the meter still holds no
+    session id."""
+
+    def __init__(self, limit: int = 20_000):
+        self._limit = limit
+        self._items: dict[str, None] = {}
+        self._lock = threading.Lock()
+
+    def add(self, item: str) -> None:
+        with self._lock:
+            self._items[item] = None
+            while len(self._items) > self._limit:
+                del self._items[next(iter(self._items))]
+
+    def __contains__(self, item: str) -> bool:
+        return item in self._items
+
+
 @dataclass
 class DeeperRuntime:
     meter: Meter
@@ -64,6 +86,11 @@ class DeeperRuntime:
     site_origin: str | None = None
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     clock: Callable[[], float] = field(default=time.time)
+    table_round_cost: int = field(default_factory=lambda: load_ops().table_round_cost)
+    group_burst_multiplier: int = field(default_factory=lambda: load_ops().group_burst_multiplier)
+    ops: DeeperOps | None = None
+    facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
+    paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
 
 
 def parse_products(raw: str | None) -> dict[str, Product]:
@@ -296,7 +323,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=400, detail="bad payload")
         if not isinstance(event, dict):
             raise HTTPException(status_code=400, detail="bad payload")
-        outcome = handle_event(runtime, event)
+        outcome = await run_in_threadpool(handle_event, runtime, event)
         logger.info("webhook handled type=%s outcome=%s", event.get("type"), outcome)
         return {"received": True}
 
@@ -311,18 +338,19 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/deeper/claim", response_model=ClaimResponse)
     async def claim(req: ClaimRequest, request: Request, response: Response):
         _cors(request, response)
-        made = runtime.claims.get(req.reference)
-        info = runtime.meter.status(made[0]) if made else None
-        if info is None:
+        made = await run_in_threadpool(runtime.claims.get, req.reference)
+        info = await run_in_threadpool(runtime.meter.status, made[0]) if made else None
+        if info is None or info.status == "void":
             await _miss(404, "no codes yet")
         return ClaimResponse(codes=[codes.display(c) for c in made], exchanges=info.exchanges_total)
 
     @app.get("/api/deeper/balance", response_model=BalanceResponse)
     async def balance(request: Request):
-        info = runtime.meter.status(request.headers.get(CODE_HEADER))
+        info = await run_in_threadpool(runtime.meter.status, request.headers.get(CODE_HEADER))
         if info is None or info.status == "void":
             await _miss(404, "that code did not work")
-        return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=runtime.meter.is_paused())
+        paused = await run_in_threadpool(runtime.meter.is_paused)
+        return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=paused)
 
     @app.post("/api/admin/deeper/pause")
     def pause(req: PauseRequest, request: Request, authorization: str | None = Header(default=None)):
@@ -336,16 +364,20 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"days": runtime.meter.reconciliation(days=14)}
 
 
-def build_runtime(config: DeeperConfig, env: dict) -> DeeperRuntime:
+def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open."""
     secret = env.get("CIC_DEEPER_WEBHOOK_SECRET")
     if not secret:
         raise DeeperConfigError("CIC_DEEPER_ENABLED is on but CIC_DEEPER_WEBHOOK_SECRET is unset")
+    ops = ops or load_ops()
     return DeeperRuntime(
-        meter=Meter(config.meter_db_path, group_daily_ceiling=config.group_daily_ceiling),
+        meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
         claims=ClaimStore(config.claims_db_path),
         webhook_secret=secret,
         products=parse_products(env.get("CIC_DEEPER_PRODUCTS")),
         site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
+        table_round_cost=ops.table_round_cost,
+        group_burst_multiplier=ops.group_burst_multiplier,
+        ops=ops,
     )

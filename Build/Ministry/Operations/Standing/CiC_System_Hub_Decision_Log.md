@@ -6127,6 +6127,13 @@ Report hygiene, parked and not touched here: the note in `engine/m8/reports/live
 
 Network policy: the sandbox blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com. Widening it is the project lead's, and is the open item already named under source acquisition in CLAUDE.md.
 
+
+## 2026-10-03 - Go Deeper: what a Table round costs against a code (decision 36)
+
+The Go Deeper build asked the project lead for the one number slice S2 needed (review note N7).
+
+36. A Table round costs 3 exchanges against a code, paid once when the round opens; the voices that follow in the round cost nothing more. The project lead chose this over 1 and over 2. It matches the measured cost of a round, about 2.5 to 3 times a solo turn, and it is easy to say to a participant. The number is a setting (`CIC_DEEPER_TABLE_ROUND_COST`), so a later change is one value. A code is spent only on turns the free allowance would refuse: past the free cap, or once today's allowance is used. It is never spent on a turn the Facilitator answers alone.
+
 ---
 
 ## 2026-09-26 — Escalation does not park the document: a named escalated item waits, the document proceeds
@@ -6206,3 +6213,26 @@ A read-only survey of the engine found that today's operational store (`session_
 The Go Deeper thread's Opus review found four places where a participant's message was refused before the safety call read it (Conversation-Transparency-Engine Decision-Log, Entry 98, items 1 to 4): a session already closed by its cap, a table round still open, today's session and daily limits (which exempted acute distress but turned away the check-in and the fail-closed route), and messages over 4,000 characters. A crisis typed in any of them got a refusal and no resources.
 
 35. Each of those messages now goes through the safety call first. When it routes to safety, the participant gets the Facilitator's safety turn exactly as an ordinary turn would give it: the crisis turn with resources for acute distress, the dependency check for a dependency dynamic, the check-in for an uncertain or failed safety call. An open table round is closed first (round reason "safety"); a closed session stays closed. Otherwise the refusal stands as before, and the voice is never called. Every safety route, not acute distress alone, is now exempt from both limits. The API's hard bound on message length is 20,000 characters, so the safety call can read an over-long message before it is refused at 4,000. The project lead chose all four over fixing only the closed session and the open round, and over leaving them for later.
+
+## 2026-10-03 - Admission is bound to the registry pin (decision 36)
+
+Slice 11 found that admission evidence was not tied to the package a world actually serves: most admitted worlds had been repinned since their last live admission run, so their 28/28 results described packages no longer in production.
+
+36. Every world in state admitted or open must have a committed live admission report run on the exact package hash the registry pins. The report must pass all 28 sealed probes, or the probes it failed must match a ruling recorded against that same hash in `engine/m3/admission_rulings.yaml`. `python -m engine.m3.admission_conform` checks this and runs in CI, so a repin without a fresh admission run fails the build. The project lead chose 28/28 or a recorded ruling over a pass threshold.
+
+## 2026-10-03 - The engine shape segment (decision 37, slice 3)
+
+Every world's prompt carried the same fleet rules (register, we-voice, citation contract, limit discipline, about 1,300 tokens), compiled into each package, and 11 worlds also restated the we-voice rule in their own voice notes. A change to how every Representative converses therefore meant a repin of every world.
+
+37. The fleet rules become one engine-owned shape segment (`engine/shape`), built from the fleet_voice record, identical for every world, and sent as the first cached system block of every voice call, ahead of the world's compiled prompt. `SHAPE_HASH` pins it: the segment refuses to load when the hash and the text disagree, so a change to it is a deliberate engine change, and admission now records the shape hash it ran under (decision 36's check requires the current one). The compiler stops compiling the voice notes that only restate the segment (self-reference, openers, honest-limits); identity, guard, concerns and the other flavour notes stay. The we-voice hardening lines move into the segment, the world's name moves to "Who we are", and each world keeps its own worked citation line, tagged with its own record ids, in its own prompt. The project lead chose this over a pure move that kept the repeated notes, and over adding the draft worked exemplar in the same change. Records are untouched apart from the fleet_voice record; removing the repeated notes from each world's records is that world's own cleanup. The worked exemplar waits for its own measured change.
+## 2026-10-03 - Streaming releases each sentence with its marks (decision 38, change order CO-2)
+
+Staging already streamed replies sentence by sentence, as text with no marks, with the marks arriving when the reply finished. Ruling R30 (2026-09-22) had held the opening paragraph back so that the checks could run on it before anything was shown. Those checks now run on each sentence, and since the ruling of 2026-10-02 no check removes a sentence: a sentence that fails verification only loses its mark.
+
+38. Under streaming, each sentence is released once its per-sentence checks have run, carrying the marks the finished plan gives it; the finished plan stays authoritative, and a mark the plan's cap demotes moves to the reference line, never taking a sentence back. This is change order CO-2 on R30 (R44, ruled (a)). Table turns are included: the seat-identity guard runs on each sentence before it is released. The project lead chose this over keeping R30's paragraph hold and over streaming interviews only.
+
+## 2026-10-03 - The R27 gate on streaming is retired (decision 39)
+
+The streaming design of 2026-09-22 (Conversation-Transparency-Engine Decision-Log, Entry 53) said streaming does not ship to participants before R27's own enforcement is on. R27 enforcement regenerates a turn, or hands it to the Facilitator, when a paragraph carries no citation; it has been off in both deploys since. A streamed sentence cannot be regenerated once read, so the two cannot coexist, and uncited claims are now handled without touching the text: verified citation attachment (decisions 32 and 33) and the claim-support gate at admission (decision 25).
+
+39. The Entry 53 condition is retired. Streaming may reach participants when the project lead promotes it, with R27 enforcement left off. Uncited claims are handled by verified citation attachment and by the claim-support gate, whose pass mark the project lead sets once the voice cites every specific claim. The project lead chose this over turning R27 enforcement on first (which would hold every streamed reply whole) and over keeping streaming in staging until the claim-support pass mark is met. Production promotion stays with the project lead.

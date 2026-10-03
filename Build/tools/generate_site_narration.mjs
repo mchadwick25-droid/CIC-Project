@@ -88,12 +88,12 @@ export function parseArgs(argv) {
   return opts;
 }
 
-export function planPieces(pieces, { manifest, only = null, force = false, existsFn = fs.existsSync }) {
+export function planPieces(pieces, { manifest, only = null, force = false }) {
   const chosen = only ? pieces.filter((p) => only.includes(p.key)) : pieces;
   const upToDate = [];
   const toGenerate = [];
   for (const p of chosen) {
-    const fresh = existsFn(path.join(siteAudioDir, `${p.key}.mp3`)) && manifest[p.key]?.hash === fingerprint(p.text);
+    const fresh = manifest[p.key]?.hash === fingerprint(p.text);
     (fresh && !force ? upToDate : toGenerate).push(p);
   }
   return { upToDate, toGenerate };

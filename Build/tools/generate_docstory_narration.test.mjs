@@ -14,22 +14,21 @@ test('docStoryEntries: unbuilt movements only, blank text skipped, index is the 
   assert.equal(e[1].hash, fingerprint('three'));
 });
 
-test('planDocStories: skips a story whose file exists and fingerprint matches; regenerates a changed one; --force redoes all', () => {
+test('planDocStories: skips a story whose fingerprint matches; regenerates a changed one; --force redoes all', () => {
   const e = docStoryEntries(movements, new Set(['built']));
   const manifest = { 'a-0': { hash: fingerprint('one') }, 'a-2': { hash: 'old' } };
-  const exists = () => true;
-  let p = planDocStories(e, { manifest, existsFn: exists });
+  let p = planDocStories(e, { manifest });
   assert.deepEqual(p.upToDate, ['a-0']);
   assert.deepEqual(p.toGenerate.map((x) => x.key), ['a-2']);
-  assert.deepEqual(planDocStories(e, { manifest, existsFn: exists, force: true }).toGenerate.map((x) => x.key), ['a-0', 'a-2']);
+  assert.deepEqual(planDocStories(e, { manifest, force: true }).toGenerate.map((x) => x.key), ['a-0', 'a-2']);
   assert.deepEqual(staleKeys(e, manifest), ['a-2']);
 });
 
-test('planDocStories: --only and --limit narrow the plan; a missing file is regenerated', () => {
+test('planDocStories: --only and --limit narrow the plan; an entry missing from the manifest is generated', () => {
   const e = docStoryEntries(movements, new Set(['built']));
   const manifest = { 'a-0': { hash: fingerprint('one') } };
-  assert.deepEqual(planDocStories(e, { only: ['a-2'], manifest, existsFn: () => false }).toGenerate.map((x) => x.key), ['a-2']);
-  assert.deepEqual(planDocStories(e, { limit: 1, manifest, existsFn: () => false }).toGenerate.map((x) => x.key), ['a-0']);
+  assert.deepEqual(planDocStories(e, { only: ['a-2'], manifest }).toGenerate.map((x) => x.key), ['a-2']);
+  assert.deepEqual(planDocStories(e, { limit: 1, manifest: {} }).toGenerate.map((x) => x.key), ['a-0']);
 });
 
 test('parseArgs: reads the paid settings from flags only; rejects unknown flags', () => {

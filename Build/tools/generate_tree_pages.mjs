@@ -164,11 +164,10 @@ function buildLineageHtml(movementId, movement) {
 const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
 
 // A built world with its own compiled orientation.story (cic-website/data/worlds/<id>.json)
-// has superseded its census longDescription - see tools/generate_tree_narration.mjs's own
-// narrationTextFor(). The committed audio for these still narrates the old longDescription
-// text, not narrationTextFor()'s current text, so the page here shows no narration for them
-// until they're re-narrated on the correct text - a mismatched player is worse than none.
-function hasMismatchedNarration(movementId) {
+// has superseded its census longDescription, and its narration lives in audio/worlds/
+// (see tools/generate_world_narration.mjs). The tree page therefore carries no
+// description recording for it.
+function hasOwnWorldStory(movementId) {
   const dataPath = path.join(worldsDataDir, `${movementId}.json`);
   if (!fs.existsSync(dataPath)) return false;
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
@@ -176,9 +175,12 @@ function hasMismatchedNarration(movementId) {
   return Array.isArray(story) && story.length > 0;
 }
 
+const treeManifestPath = path.join(audioDir, 'manifest.json');
+const treeAudioManifest = fs.existsSync(treeManifestPath) ? JSON.parse(fs.readFileSync(treeManifestPath, 'utf-8')) : {};
+
 function hasNarration(movementId) {
-  if (hasMismatchedNarration(movementId)) return false;
-  return fs.existsSync(path.join(audioDir, `${movementId}.mp3`));
+  if (hasOwnWorldStory(movementId)) return false;
+  return Boolean(treeAudioManifest[movementId]);
 }
 
 function generatePageHtml(movement) {
@@ -332,8 +334,7 @@ li{margin-bottom:.5rem}
     <h2>About This Movement</h2>
     ${narrated ? `
     <div class="narration">
-      <audio controls preload="none" src="../audio/tree/${movement.id}.mp3">
-      </audio>
+      <audio controls preload="none" src="../audio/tree/${movement.id}.mp3"></audio>
       <p class="narration-disclosure">Synthesized voice — not a recording.</p>
     </div>
     ` : ''}

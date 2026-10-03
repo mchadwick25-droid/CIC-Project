@@ -23,6 +23,7 @@ from pathlib import Path
 import yaml
 
 from engine.m2.loader_stub import PackageRefused
+from engine.shape import shape_text
 
 from .common import REPO_ROOT, Finding, Report, emit, read_text, registry_entry, rel
 
@@ -306,17 +307,10 @@ def check_prompt_content(code: str, prompt: str, records: dict[str, dict], entry
         findings.extend(anchor_findings)
         notes.extend(anchor_notes)
 
-    bullet = next((ln for ln in prompt.splitlines() if ln.lstrip().startswith("- [self-reference]")), None)
-    home = _voice_craft_home(code, next(iter(_by_type(records, "voice_craft")), None))
-    block = f"the [self-reference] note is compiled from the voice_craft record's flavor_notes entry with segment 'self-reference' ({home})"
-    if fixture:
-        notes.append("self-reference: the registry marks this world kind: fixture; its voice adds no rules by design (exempt)")
-    elif bullet is None:
-        findings.append(Finding(where, "k:self-reference", f"the compiled prompt has no [self-reference] note; {block}, so author the entry there, then repin"))
-    else:
-        for label, pattern in SELF_REFERENCE_STEMS:
-            if not pattern.search(bullet):
-                findings.append(Finding(where, "k:self-reference", f"the [self-reference] note lacks the hardening rule: {label}; {block}, so add the rule to that entry, then repin"))
+    shape = shape_text()
+    for label, pattern in SELF_REFERENCE_STEMS:
+        if not pattern.search(shape):
+            findings.append(Finding(where, "k:self-reference", f"the engine shape segment lacks the hardening rule: {label}; it is built from the fleet_voice record's pronoun_rule (engine/shape), so add the rule there"))
 
     for section_header, record_type in (("Quotes we hold", "quote"), ("Gravities", "gravity")):
         actual = {r["id"] for r in _by_type(records, record_type)}

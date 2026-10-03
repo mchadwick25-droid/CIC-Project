@@ -46,7 +46,9 @@ const baseProps = {
 describe('Conversation', () => {
   it('shows the reply so far while the voice is still writing, and drops the waiting note', () => {
     const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} isLoading draft="We told what we had been told. " />);
+    const { container, queryByText } = render(
+      <Conversation {...baseProps} turns={turns} isLoading streamed={[{ index: 0, lead: '', text: 'We told what we had been told.', text_start: 0, text_end: 30, elements: [], cards: [] }]} />
+    );
     expect(container.querySelectorAll('.turn--voice')).toHaveLength(1);
     expect(container.querySelector('.turn--voice')?.textContent).toContain('We told what we had been told.');
     expect(queryByText(/is considering/)).toBeNull();
@@ -54,7 +56,7 @@ describe('Conversation', () => {
 
   it('keeps the waiting note until the first sentence of the reply arrives', () => {
     const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
-    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} isLoading draft="" />);
+    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} isLoading streamed={[]} />);
     expect(container.querySelectorAll('.turn--voice')).toHaveLength(0);
     expect(queryByText(/is considering/)).not.toBeNull();
   });
@@ -110,5 +112,18 @@ describe('Conversation', () => {
     const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Hello' }];
     rerender(<Conversation {...baseProps} turns={turns} />);
     expect(container.querySelector('.ai-note')).toBeNull();
+  });
+});
+
+describe('Conversation - a pause at a limit', () => {
+  it('shows the Facilitator\'s pause with the reason beneath it and keeps the room open for another message', () => {
+    const turns: ConversationTurn[] = [
+      { speaker: 'participant', text: 'May I go on?' },
+      { speaker: 'facilitator', kind: 'limit', text: 'This sitting has reached its limit for now.', note: 'Your code has no exchanges left.' },
+    ];
+    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} />);
+    expect(container.querySelector('.turn__note')?.textContent).toBe('Your code has no exchanges left.');
+    expect(container.querySelector('textarea')).not.toBeDisabled();
+    expect(queryByText('Meet another world')).toBeNull();
   });
 });

@@ -1113,3 +1113,117 @@ Opus's targeted recheck (comment on PR #723) found two blocking bugs in S3, one 
 - g. S2 releases every reservation in a `finally`. A reservation time-out is left out because a long Table round would need its own limit; S2 decides.
 - f. S4's sponsor Payment Link uses a fixed quantity, and the expected `amount_total` per product is checked.
 - i. S7's return page has the browser make references of at least 22 base64url characters (128 bits), and a new reference for every purchase click, so a repeat purchase never reuses one.
+
+## 2026-10-03 — Go Deeper S2: the admission seam
+
+S2 is the one slice that touches the conversation engine. What it does, and the choices inside it:
+
+- **The engine receives only numbers.** `engine/m4/grants.py` defines a grant (a cap and a Facilitator-only flag). `run_turn` and `open_table_round` read the cap and the flag in place of the constants, and treat Facilitator-only exactly like a spent daily allowance. No money word, price or balance exists in the engine. The free defaults read the live constants, so tests that patch them still work.
+- **The API edge turns a code into a grant.** `engine/api/deeper_admission.py` reserves exchanges before the turn and settles them after it, in a `finally` around the interview, stream and Table calls (review note g). A turn the Facilitator answers alone, a failed voice call and a failed stream all give the exchanges back.
+- **A code is spent only on turns the free allowance refuses** (decision 36 in the System Hub log). The first ten exchanges of a sitting stay free.
+- **Check-in and crisis at every limit (B3).** The module's limits use the same branch as today's, and System Hub decision 35 already exempts every safety route from it, so the check-in and the fail-closed route are answered at the session limit, the daily limit, the free cap, zero balance, paused, a wrong code, a module error and a Facilitator-only sitting. 24 tests cover the three cases at each of eight limits.
+- **A visitor at the daily session limit opens a Facilitator-only sitting instead of getting a 429 (B2)**, only when the module is on. The marks are kept in memory, like the daily counters, so a restart forgets them.
+- **A valid code lifts the daily session limit and has its own burst bucket (B7).** A group code's bucket is six times larger. Twenty-five students behind one address, on one group code, all get through; without a code the address limit still applies.
+- **R2-3 closed.** The per-message success log lines no longer carry the session id or the turn number.
+- **The Table:** the price is charged once, when the round opens. The voices that follow in the round (`/continue`) are already paid for, so a round is never stopped part-way by a balance or a pause.
+- **Not built here:** the door (S5). The seam leaves one place for it, the free grant. When the module fails, the free path stays open; the door's fail-closed rule arrives with S5.
+- **The balance** travels in an `X-Cic-Remaining` response header (and in the stream's final event), so the app can show it after each exchange without extra calls. The code goes in an `X-Cic-Code` request header.
+- **Entry 98 items 1 to 4** were already fixed by System Hub decision 35, so the precondition for S11 step 4 that the Handoff names (the "already closed" 409) is met.
+## 2026-10-03 — Go Deeper: S1 and S3 merged; Opus round three
+
+S1 and S3 merged to `main` together as PR #723 (merge commit 8584e600), switched off. Opus round three found no blocking finding and three non-blocking notes: the claim route served a refunded code with its full count (fixed in the S3 follow-up); the three route handlers made blocking store calls on the event loop (fixed in the same follow-up, through the thread pool); and a new column does not reach a meter file created before the change. No meter file exists yet, so nothing breaks today. Any later change to a meter column needs a migration step before the flag is first turned on. S2 stays blocked on R2-3 (the per-message log lines).
+
+## 2026-10-03 — Go Deeper S2: Opus review, and what each finding became
+
+Opus reviewed S2 in full (comment on PR #736): three blocking findings and six notes.
+
+**Fixed in S2.**
+
+- S2-1. A visitor past the daily session limit could open unlimited Facilitator-only sittings, each costing the safety check, with no limit but six creations a minute. A visitor now gets one Facilitator-only sitting a day (`daily_facilitator_session_limit`); further creations answer 429, as the limit did before the module. A Facilitator-only sitting that closes still answers a later crisis message with the safety turn, through System Hub decision 35, and a test covers the fifth message.
+- S2-2. Any code, even a spent one, lifted the session limit free. Only a live code with exchanges left, with codes not paused, lifts it. A sitting opened that way is marked, and every turn in it is metered from its first. A spent or paused code gets the Facilitator-only sitting. A round already admitted keeps its `/continue` for any code that is not void, so a round paid down to zero is not stopped part-way.
+- Notes: a, the module docstring now says the process remembers session ids in memory and never stores them; b, the request-diff test now also covers the stream path and a Table round past the free rounds; f, a request's code is looked up once.
+
+**Change order on the Handoff (S2-3).** The Handoff gave S2 a `close_reason` that selects the close text. S2 does not build it. The engine cannot yet say "your code has run out" or "codes are paused" in words different from the free-cap close, so a participant refused on a paid sitting reads the free-cap text, and a refusal for a passing state (paused, exchanges held by another device) closes the sitting for good. Words are the project lead's, and an engine selector with no new words would be an empty mechanism. So S8 owns both: it adds the reason to the grant, selects the text by reason, and supplies the words; it is therefore no longer text-only. The reasons are free cap, balance out, paused, daily allowance and each door stage. S8 is a precondition of S11 step 4, the step that links the go-deeper page. Until then the module stays dark, so no participant is paid and told the wrong thing.
+
+**Accepted, recorded.**
+
+- d. The session-created log line keeps its session id. It carries no client address and no payment state, and another thread's privacy test depends on it.
+- c. Exchanges are reserved before the safety check runs, so on a pooled code with one exchange left a second device's turn is refused while the first is in flight, even if the first turns out to be a safety route. The refusal is the daily close.
+- e. A Table round is charged at its opening (decision 36). If every voice in it then fails on `/continue`, the charge stands.
+
+## 2026-10-03 — Go Deeper S10: the standing proofs
+
+S10 adds `engine/api/tests/test_deeper_proofs.py`, which runs in the engine job with the module off and again with it mounted.
+
+- **The two sentences, as imports.** The conversation engine (m1 to m10, provider, canon, prose, wiring, table_wiring) imports nothing from the module. The edge middleware (anon_cap, ratelimit) imports nothing from it. Only `app.py`, `deeper_routes.py` and `deeper_admission.py` do. The module imports only the standard library and itself. The engine core names no payment service, meter or balance header, and the grant types hold only numbers.
+- **No join between stores.** After a paid sitting with a real code, the raw bytes of the event and usage databases, including the write-ahead log, hold no plain code, no hash, no payment id, no claim reference and no balance word. The meter and claim files hold no session id, session code, visitor id or conversation text. No event payload in a paid sitting carries a money field.
+- **The guard.** A test fails if any of the named proofs is deleted, skipped or marked expected-to-fail. I broke the engine's import rule and skipped a proof on purpose; both were caught.
+- **Already in place from S1 to S3 and S2:** the request-diff (interview, stream and Table, past the free cap), the safety tests at eight limits, route absence with the flag off, never-mid-answer, the log scrub, the 25-student class, the schema tests, the race test.
+- **Still to come:** overlapping sittings against the ceiling, which needs the door (S5).
+- **Recorded next to the Facilitator-only marks:** the marks for sittings a code opens past the session limit are also kept only in memory. After a restart such a sitting is an ordinary one, with its first ten exchanges free. That is bounded, and the daily counters reset on a restart as well.
+
+## 2026-10-03 — Go Deeper S8 (mechanism): a limit is a pause, and the wording lives in one operations file
+
+**Opus round three on S8 (#738, first version).** Three blocking findings, notes a to h. The first version put close texts that mention a code inside the engine and stored them, which marked paid sittings in the conversation store, and it promised "carry on from this point" while closing the sitting for good. It was reverted in full and redone, not patched.
+
+**Rulings (Mark, 2026-10-03).**
+1. Prices and anything that may change do not live in the engine. One operations file in the repo holds them, is read at startup, and is changed by pull request. The file is `engine/deeper/ops/go-deeper.yaml`, inside the existing engine tree so it ships with it and needs no new top-level entry. It holds the module's three numbers (group daily ceiling, Table round cost, group burst multiplier) and the participant wording. Prices, pack sizes, the door numbers and the free allowance numbers join it as their slices arrive.
+2. At a limit a code can lift, the sitting stays open. The Facilitator answers, nothing writes `session_closed`, and the next message with a valid code continues the same conversation.
+
+**What S8 now is.**
+- The grant carries `limit_text`, the words the Facilitator speaks at a refusal. It is a plain string handed in from the edge. With none, the default close and the closing of the sitting are unchanged, so the module off changes nothing.
+- The stored words are one neutral line, the same for a free sitting and a paid one. They name no code, no balance and no pause. A new Facilitator kind, `limit`, marks it. The Facilitator's text in the engine never contains the word code, and a proof enforces that.
+- The reason a code could not carry the turn (no code, code not accepted, balance out, too few for a Table round, daily ceiling, paused, in use) is a separate line from the operations file. It travels only in the response, as `limit_note`, in the plain reply, the stream's final event and the Table reply. It is never stored. A test checks the store for every note text.
+- A fault in admission still leaves the free path exactly as it was, including the default close.
+- The edge reads and checks the file at startup and refuses to start on a missing, incomplete or malformed one.
+
+**Findings, one by one.**
+- 1 fixed as above. 2 fixed (option i). 3 fixed: a proof runs a free sitting and a code-driven sitting to its last exchange and compares the stored Facilitator words, and another forbids the word code in the engine's Facilitator text.
+- Note a fixed: a code with too few exchanges for a Table round has its own line. Note b fixed: a code that did not work has its own line. Note c: moot, a double-sent message no longer closes anything. Note d: readability is scored in a test for every line in the file.
+- Notes e to h, from the S10 proofs: e fixed (a named proof must assert something), f fixed (no collection hook or CI flag may drop a proof from outside its file), g fixed (a CI step runs the guard by name, so deleting it fails the build), h fixed (the S2-2 proof is now required). The new S8 proofs are required too.
+
+**Change orders and parked.**
+- Moving `SESSION_TURN_CAP`, `TABLE_SESSION_ROUND_CAP` and the `anon_cap.py` defaults into the operations file goes beyond S8 and touches the conversation engine redesign's ground. Not done; it needs that thread's agreement. The limit numbers the module reads today still come from those constants.
+- The admin page that shows the file's current values is part of S9.
+- The wording in the file is a draft held for Mark. It is shown as an Artifact and is changed by editing the file.
+- Each further message at a limit without a code costs one safety check, bounded by the daily message count. Accepted by the review.
+- The app and website must show `limit_note` and treat the `limit` kind as a pause, not an ending. That is S6 and S7.
+
+**Opus recheck of #739 (head 63000eb1): no blocking finding.** Notes i to k.
+- i. The runtime's Table round cost and burst multiplier now default to the operations file's values, so tests and production read one source. The meter keeps its own safe default for the group ceiling, because the module imports only the standard library and cannot read the file; the edge passes the file's value in.
+- j. Keeping a sitting open costs one safety check for each further message without a code. The bound is the daily message count: 150 messages a visitor, about $0.75 at most. Mark accepted this when ruling.
+- k. #738 merged with three blocking findings open. #739 removes what it carried. From here a slice is merged only after the review thread has cleared its blocking findings, and the checkpoint says so.
+- Flag-on suite: three older tests assert the module-off contract (a session closes for good at the cap). They now say so with an explicit `deeper=None`. With the module on, a limit pauses, and the new tests cover that.
+
+## 2026-10-03 — Go Deeper S7: the website pages
+
+S7 adds two static pages to `cic-website`: the go-deeper page and the return page. The wording is a draft for Mark.
+
+- **Switched off.** Nothing links to either page, both are marked noindex, and the buy button stays hidden until a Stripe Payment Link is set in the page when sales open. A test checks that no other page links to them.
+- **The purchase click.** The browser makes a reference of 22 base64url characters from 16 random bytes (128 bits), a new one for every click, keeps it in local storage for up to three hours, and sends the buyer to the Payment Link with it as `client_reference_id`. Nothing else is sent.
+- **The return page.** It reads the reference from local storage, never from the address, and asks the server for the code with one request that carries only the reference, with no cookies and no referrer. If the code is not there yet it asks again every three seconds for up to a minute, then says so in words. A reload within the hour shows the code again, because the server's claim lasts an hour. It writes nothing to the console.
+- **The words.** No price or money figure appears; Stripe shows the amount. The Table round cost on the page is read by a test against the operations file, so the two cannot drift.
+- **Held.** The privacy section about codes waits for CO-6 and S11, as the review ruled: until then the privacy page keeps stating today's facts. The draft is with Mark. The door's one-line state on the home and Get Involved pages belongs to S5. Refund, expiry and lost-code policy are Mark's; the pages promise none.
+- **Facts for Mark to verify before S11:** that a Payment Link carries `client_reference_id` through to the completion event, and that its after-payment redirect can point at the return page. The server must also allow the site's origin (`CIC_DEEPER_SITE_ORIGIN`) for the claim request.
+- **Tests.** Readability of both pages, no money figure, the operations-file number, the two contribution links unchanged, the reference's length and uniqueness, the hour's expiry, the claim's retry and give-up, and no reference in the address or console. They run in the site job with Node.
+
+**Popup flow (Mark, 2026-10-03).** To pay without leaving the conversation, "Get a code" in the app opens the site's go-deeper page in a popup. When payment finishes, the popup's return page hands the code to the conversation that opened it, which saves it. Payment Links stay the plan: no Stripe secret key on the server and no payment session route. The return page sends the code to the app's origin only, never a wildcard, and shows the code in the popup regardless, so if the browser has cut the link to the conversation the participant copies it as before. Gift and sponsor codes, minted by us, are how someone gets more time without paying; Stripe promo codes are a later option, once the amount check allows for discounts. Facts for Mark to verify: that Stripe's pages leave the opening window reachable after checkout.
+
+**No paste (Mark, 2026-10-03), as changed by the Opus review.** The return page puts a single code into the conversation by itself. If the window that opened the popup is still there, the page sends it the code, to the app's origin only, and waits up to three seconds for the app to say it saved it, then closes. If that window is gone, silent, or answers from the wrong origin, the page sends this window to the app with the purchase reference, not the code, in the address fragment (`#cic-claim=`). The first version put the code there; the review found that browsers keep visited addresses, fragment included, in history that can sync to other devices, and a code is a bearer credential. A reference stops working when the server's claim hour ends, so a copy in history is dead soon after. The app reads the reference at once and clears it from the address, then asks "A code came with this link. Use it?" before doing anything, and says so if it would replace a code the person holds, so a crafted link cannot swap or plant a code silently. On a yes the app claims the code itself from its own server. A pack of several codes is never delivered this way and stays on the page. The site's reference lasts three hours locally and the server's hour decides; once a single code is delivered the reference is removed from the site's storage. The two addresses the site talks to are in one file, `assets/go-deeper-config.js`; for S11, `CIC_DEEPER_SITE_ORIGIN` on the server and `VITE_DEEPER_SITE_ORIGIN` in the app must both equal the site's exact origin (no `www.`).
+## 2026-10-03 — Go Deeper S6: the app
+
+S6 gives the app a way to hold a code and read what the server says. It ships switched off: the app is built with `VITE_DEEPER_ENABLED` unset, and S11 sets it.
+
+- **The code.** "I have a code" under the message box opens one field. A code is checked for shape on the device (20 characters from the 32-letter alphabet, case and spacing forgiven) and kept in the browser's local storage, so it survives closing the tab. "Remove code" forgets it. With the build flag off no control shows, no header is sent, and a code left in storage by an earlier build is ignored.
+- **What is sent.** The code goes as `X-Cic-Code` on session creation, messages, Table messages and `/continue`, and on nothing else.
+- **What is shown.** The balance the server reports, in a line under the box: "12 exchanges left on your code." The number comes from the `X-Cic-Remaining` header, or from the stream's final event. The app knows no price and shows no money figure; a test checks the control's text for one.
+- **A pause is not an ending.** The new `limit` Facilitator kind keeps the room open and the box enabled. The server's reason line (`limit_note`) shows once under the pause and is not kept, so a reload shows only the pause. The room closes only on `close`, as before.
+- **Words.** The participant words are the set Mark approved on 2026-10-03, in one file, `cic-poc/frontend/src/lib/deeperCopy.ts`. The pause and its reason lines come from the operations file, not the app.
+- **Parked.** After a pause the participant sends their message again once the code is saved; the app does not resend it for them. The flag-on frontend build is checked in S11 with the rest of the turn-on.
+
+**Opus review of the popup, round one (#744 and #745).** Three blocking findings, notes a to d on the site and a to c on the app, all fixed.
+- #744 finding 1 and #745 finding 1: the address carried the code, and a link could plant or replace one. Now the address carries the reference, the app clears it at once and asks "A code came with this link. Use it?" and says when it would replace a code, and only a yes fetches the code.
+- #745 finding 2: a code saved in another tab never reached an open conversation. The app now follows the stored code across tabs.
+- #744 notes: a, the local reference lasts three hours and the server's hour decides; b, a delivered single code is removed from the site's storage; c, the site's two addresses are in one file; d, the S11 checklist names `CIC_DEEPER_SITE_ORIGIN` and `VITE_DEEPER_SITE_ORIGIN`, which must both equal the site's exact origin.
+- #745 notes: a, the same origin point; b, a blocked popup now opens the page in the same tab; c, the app answers the popup on every screen, not only where the code field shows.
+- New participant words from these fixes, for Mark's approval: "A code came with this link. Use it?", "You already have a code. Using this one will replace it.", "Use it", "Not now", "We couldn't get that code. Try the page where you paid."

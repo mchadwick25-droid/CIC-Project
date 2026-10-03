@@ -3,6 +3,13 @@ reports, and the baseline noise band across repeated runs.
 
     python -m engine.m7.standing_measure band --reports DIR --out FILE
     python -m engine.m7.standing_measure check --reports DIR --band FILE
+    python -m engine.m7.standing_measure compare --reports DIR --band FILE --out FILE
+
+compare scores one run per world against the band. A change lands only when
+every fleet mean sits inside the baseline's fleet range, or past it on the
+better side of a dimension where lower is better. Per-world cells are
+reported, not gated: three baseline runs give each world a narrow range, so
+a single run lands outside it often by noise alone.
 
 No model calls. Sentences are counted with engine.prose.quote_aware_sentences.
 Readability is engine.m7.turn_readability.score_turn.
@@ -50,6 +57,11 @@ NOT_COMPUTED = {
     "safety_routing": "the 33-scenario script, engine/m5",
     "cost_and_delay_full_turn": "the harness measures the voice call only; full turn from the production usage log",
 }
+
+LOWER_IS_BETTER = frozenset({
+    "invented_ids_per_100_sentences", "withheld_mark_rate", "cutoff_rate",
+    "seconds_to_first_text_median", "seconds_total_median", "usd_per_reply_mean",
+})
 
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 _WORD = re.compile(r"[a-z0-9']+")
@@ -246,6 +258,37 @@ def compute_band(report_dir) -> dict:
     }
 
 
+def _status(value: float, low: float, high: float, dim: str) -> str:
+    if low <= value <= high:
+        return "in"
+    if (dim in LOWER_IS_BETTER and value < low) or (dim == "pass_rate" and value > high):
+        return "better"
+    return "out"
+
+
+def compare(reports: list[dict], band: dict) -> dict:
+    """One report per world against the band: per-world cells, fleet means,
+    and the fleet dimensions that block the change."""
+    by_world = {_only_world(r)[0]: r for r in reports}
+    overlap = distinctness([by_world[w] for w in sorted(by_world)])
+    scores = {w: {**score_run(by_world[w]), "distinctness_overlap": overlap[w]} for w in sorted(by_world)}
+    dimensions = (*DIMENSIONS, "distinctness_overlap")
+    per_world = {}
+    for world, score in scores.items():
+        cells = band["worlds"].get(world)
+        per_world[world] = {dim: {"value": _r(score[dim]), **({"band_min": cells[dim]["min"], "band_max": cells[dim]["max"],
+                                  "status": _status(score[dim], cells[dim]["min"], cells[dim]["max"], dim)} if cells else {})}
+                            for dim in dimensions}
+    fleet = {}
+    for dim in dimensions:
+        mean = _mean([scores[w][dim] for w in scores])
+        ref = band["fleet"][dim]
+        fleet[dim] = {"mean": _r(mean), "band_mean": ref["mean"], "band_min": ref["min"], "band_max": ref["max"],
+                      "status": _status(mean, ref["min"], ref["max"], dim)}
+    return {"per_world": per_world, "fleet": fleet,
+            "blocking": sorted(dim for dim, cell in fleet.items() if cell["status"] == "out")}
+
+
 def _dump(band: dict) -> str:
     return json.dumps(band, indent=2, sort_keys=True) + "\n"
 
@@ -259,7 +302,20 @@ def main(argv: list[str] | None = None) -> int:
     check_cmd = sub.add_parser("check")
     check_cmd.add_argument("--reports", required=True)
     check_cmd.add_argument("--band", required=True)
+    compare_cmd = sub.add_parser("compare")
+    compare_cmd.add_argument("--reports", required=True)
+    compare_cmd.add_argument("--band", required=True)
+    compare_cmd.add_argument("--out", required=True)
     args = parser.parse_args(argv)
+
+    if args.command == "compare":
+        reports = [json.loads(p.read_text()) for p in sorted(Path(args.reports).glob("live-admission-report-*.json"))]
+        result = compare(reports, json.loads(Path(args.band).read_text()))
+        Path(args.out).write_text(_dump(result))
+        for dim, cell in result["fleet"].items():
+            print(f"{dim:34s} {cell['mean']:>11.4f}  band [{cell['band_min']:.4f}, {cell['band_max']:.4f}]  {cell['status']}")
+        print(f"blocking: {', '.join(result['blocking']) or 'none'}")
+        return 1 if result["blocking"] else 0
 
     if args.command == "band":
         out = Path(args.out)

@@ -303,3 +303,41 @@ def test_empty_turn_produces_an_empty_plan_not_an_error():
         "end_references": [],
         "unverified_claims": {"count": 0, "sentence_indexes": []},
     }
+
+
+def _el(kind, sentence_index, char_start=0, char_end=5, record_id=None):
+    return {"record_id": record_id or f"r.{kind}.{sentence_index}.{char_start}", "kind": kind,
+            "sentence_index": sentence_index, "char_start": char_start, "char_end": char_end}
+
+
+def test_the_mark_cap_scales_with_sentence_count_between_three_and_eight():
+    from engine.m4.transparency_plan import mark_cap
+    assert [mark_cap(n) for n in (1, 6, 8, 9, 16, 40)] == [3, 3, 4, 5, 8, 8]
+
+
+def test_over_the_cap_terms_then_figures_then_stories_drop_latest_first_and_quotes_never():
+    from engine.m4.transparency_plan import _drawn_within_cap
+    elements = [_el("quote", 0), _el("story", 1), _el("term", 1, 0, 3), _el("figure", 2, 0, 3),
+                _el("term", 3, 0, 3), _el("quote", 4), _el("story", 5)]
+    kept = _drawn_within_cap(elements, 6)
+    assert [e["kind"] for e in kept] == ["quote", "story", "quote"]
+    kept = _drawn_within_cap(elements, 10)
+    assert [e["kind"] for e in kept] == ["quote", "story", "figure", "quote", "story"]
+
+
+def test_an_overlapping_later_word_mark_is_not_drawn():
+    from engine.m4.transparency_plan import _drawn_within_cap
+    kept = _drawn_within_cap([_el("term", 0, 0, 6), _el("figure", 0, 3, 9), _el("term", 0, 7, 9)], 2)
+    assert [(e["kind"], e["char_start"]) for e in kept] == [("term", 0), ("term", 7)]
+
+
+def test_a_capped_plan_moves_the_dropped_record_to_end_references_and_is_stable_under_a_second_cap():
+    from engine.m4.transparency_plan import _drawn_within_cap
+    records = {f"w.story.s{i}": {"id": f"w.story.s{i}", "record_type": "story", "tellable_as": f"Story number {i} told plainly here."} for i in range(5)}
+    sentences = [{"sentence": f"Story number {i} told plainly here.", "tags": [f"w.story.s{i}"], "verdict": "ok"} for i in range(5)]
+    text = " ".join(s["sentence"] for s in sentences)
+    citations = [{"sentence": s["sentence"], "record_ids": s["tags"]} for s in sentences]
+    plan = build_transparency_plan(citations=citations, net_result={"sentences": sentences}, repository_records=records, world_key="w", text=text)
+    assert [e["record_id"] for e in plan["elements"]] == ["w.story.s0", "w.story.s1", "w.story.s2"]
+    assert [c["record_id"] for c in plan["end_references"]] == ["w.story.s3", "w.story.s4"]
+    assert _drawn_within_cap(plan["elements"], len(plan["sentences"])) == plan["elements"]

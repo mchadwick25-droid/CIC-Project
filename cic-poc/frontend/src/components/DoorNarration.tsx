@@ -11,7 +11,6 @@
  * shown at all.
  */
 import { useEffect, useRef, useState } from 'react';
-import { cancelReadAloud } from '../lib/readAloud';
 
 export const DOOR_PAUSE_MS = 1200;
 
@@ -34,7 +33,6 @@ export function DoorNarration({ worldKey, participantTurns }: DoorNarrationProps
     audio.addEventListener('error', () => setState('unavailable'));
     audioRef.current = audio;
     const timer = window.setTimeout(() => {
-      cancelReadAloud();
       audio.play().then(() => setState('playing'), () => setState('idle'));
     }, DOOR_PAUSE_MS);
     return () => {
@@ -63,7 +61,6 @@ export function DoorNarration({ worldKey, participantTurns }: DoorNarrationProps
       setState('idle');
       return;
     }
-    cancelReadAloud();
     audio.play().then(() => setState('playing'), () => setState('idle'));
   };
 

@@ -73,11 +73,11 @@ export function docStoryEntries(movements, builtIds) {
   return entries;
 }
 
-export function planDocStories(entries, { only = null, limit = null, force = false, manifest = {}, existsFn = fs.existsSync }) {
+export function planDocStories(entries, { only = null, limit = null, force = false, manifest = {} }) {
   let candidates = only ? entries.filter((e) => only.includes(e.key)) : entries;
   const upToDate = [];
   let toGenerate = candidates.filter((e) => {
-    const done = existsFn(audioPathFor(e.key)) && manifest[e.key]?.hash === e.hash;
+    const done = manifest[e.key]?.hash === e.hash;
     if (done && !force) { upToDate.push(e.key); return false; }
     return true;
   });

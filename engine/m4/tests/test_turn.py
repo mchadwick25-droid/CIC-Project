@@ -14,6 +14,7 @@ from engine.m4 import turn as turn_module
 from engine.m4.turn import run_gate, run_turn, run_voice_turn_for_world
 from engine.m4.voice_request import DIRECTIVE_OPEN
 from engine.m4.world_loader import LoadedWorld
+from engine.shape import shape_text
 
 
 class _FakeToolUse:
@@ -540,8 +541,9 @@ def test_already_told_ids_reaches_evidence_assembly_without_error():
 
 
 def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_block():
-    # The system block is the world's compiled prompt alone, byte-identical
-    # to what was compiled, so the cached prefix holds across every turn.
+    # The system blocks are the shape segment and the world's compiled prompt,
+    # byte-identical to what was compiled, so the cached prefix holds across
+    # every turn.
     # The directive differs every turn, so it leads the final user message,
     # behind the cached history.
     world = _world()
@@ -554,9 +556,8 @@ def test_the_per_turn_directive_rides_in_the_final_user_message_not_the_system_b
     run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set())
 
     system, messages = client.messages.captured_stream_calls[0]
-    assert len(system) == 1
-    assert system[0]["text"] == world.prompt_text
-    assert system[0]["cache_control"] == {"type": "ephemeral"}
+    assert [b["text"] for b in system] == [shape_text(), world.prompt_text]
+    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system)
     directive_block, message_block = messages[-1]["content"]
     assert directive_block["text"].startswith(DIRECTIVE_OPEN)
     assert "This turn's private directive" in directive_block["text"]
@@ -589,8 +590,8 @@ def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
         {"type": "text", "text": "He was God's own Word, come to us in flesh.", "cache_control": {"type": "ephemeral"}}
     ]
     assert "and what then" in messages[2]["content"][-1]["text"]  # this turn's own message, evidence block and all
-    assert system[0]["text"] == world.prompt_text
-    assert system[0]["cache_control"] == {"type": "ephemeral"}
+    assert [b["text"] for b in system] == [shape_text(), world.prompt_text]
+    assert all(b["cache_control"] == {"type": "ephemeral"} for b in system)
 
 
 def test_a_turn_with_no_history_is_unchanged():

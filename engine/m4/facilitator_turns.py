@@ -203,6 +203,12 @@ def etic_turn(out_of_scope_class: str) -> dict:
     return {"kind": "threshold", "text": text}
 
 
+def limit_turn(text: str) -> dict:
+    """A pause at a limit that can be lifted: the words come from the
+    caller, and the sitting stays open."""
+    return {"kind": "limit", "text": text}
+
+
 SESSION_CAP = FacilitatorTurn(
     kind="close",
     text=(
@@ -222,7 +228,7 @@ SESSION_CAP = FacilitatorTurn(
 )
 
 
-def session_cap_turn(representative_name: str) -> dict:
+def session_cap_turn(representative_name: str, limit_text: str | None = None) -> dict:
     """DRAFT TEXT, not yet approved - see this module's own note
     on what that approval process looks like for every other facilitator
     text here. Wired in now so the mechanism (Build/reference/Redesign-Spec/Artifact-6-
@@ -247,6 +253,8 @@ def session_cap_turn(representative_name: str) -> dict:
 
     representative_name comes from world.frame["representative"]["name"],
     same source and same reason as dependency_check_turn above."""
+    if limit_text is not None:
+        return limit_turn(limit_text)
     text = SESSION_CAP.text.format(representative_name=representative_name)
     return {"kind": SESSION_CAP.kind, "text": text}
 
@@ -260,12 +268,14 @@ DAILY_CAP = FacilitatorTurn(
 )
 
 
-def daily_cap_turn() -> dict:
+def daily_cap_turn(limit_text: str | None = None) -> dict:
     """The visitor's daily message cap, reached on a message that is not a
     crisis. Same DRAFT status as session_cap_turn; the wording is the daily
     cap's existing 429 text (engine.api.anon_cap.TURN_CAP_DETAIL), spoken
     as the Facilitator. Serves the interview and the Table alike, since it
     names no Representative."""
+    if limit_text is not None:
+        return limit_turn(limit_text)
     return {"kind": DAILY_CAP.kind, "text": DAILY_CAP.text}
 
 
@@ -365,12 +375,14 @@ TABLE_SESSION_CAP = FacilitatorTurn(
 )
 
 
-def table_session_cap_turn(representative_names: list[str]) -> dict:
+def table_session_cap_turn(representative_names: list[str], limit_text: str | None = None) -> dict:
     """Same DRAFT status, same honesty-about-cost direction, and the same
     deliberate absence of a dollar figure as session_cap_turn - see its
     docstring; the discrepancy it documents (support.html's published rate
     was measured for the Table, the interview cap's for the single path)
     cuts the other way here and is still unreconciled."""
+    if limit_text is not None:
+        return limit_turn(limit_text)
     text = TABLE_SESSION_CAP.text.format(names_phrase=names_or_phrase(representative_names))
     return {"kind": TABLE_SESSION_CAP.kind, "text": text}
 

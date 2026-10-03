@@ -128,6 +128,7 @@ def _install_deeper_default() -> None:
     """With CIC_TEST_DEEPER=1 every test app that does not say otherwise is
     built with Go Deeper mounted, so the whole suite runs with the flag on."""
     from engine.api import app as app_module
+    from engine.api.deeper_ops import load_ops
     from engine.api.deeper_routes import DeeperRuntime
     from engine.deeper.claims import ClaimStore
     from engine.deeper.meter import Meter
@@ -146,6 +147,7 @@ def _install_deeper_default() -> None:
                 claims=ClaimStore(os.path.join(scratch, f"claims-{n}.db")),
                 webhook_secret="whsec_suite",
                 products={},
+                ops=load_ops(),
             )
         return original(*args, **kwargs)
 
