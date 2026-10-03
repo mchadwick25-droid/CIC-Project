@@ -1,6 +1,6 @@
-"""The event-stream form of POST /api/session/{id}/message: draft sentences
-while the reply is written, then the finished turn, identical to the plain
-response. Fakes only - no provider call."""
+"""The event-stream form of POST /api/session/{id}/message: each sentence with
+its marks while the reply is written, then the finished turn, identical to
+the plain response. Fakes only - no provider call."""
 import json
 
 from fastapi.testclient import TestClient
@@ -40,7 +40,7 @@ def _events(response):
     return out
 
 
-def test_a_streamed_message_sends_drafts_then_the_finished_turn(store, usage_store, world_loader, registry):
+def test_a_streamed_message_sends_sentences_then_the_finished_turn(store, usage_store, world_loader, registry):
     http = _http(store, usage_store, world_loader, registry)
     session_id, auth = _session(http)
 
@@ -51,11 +51,15 @@ def test_a_streamed_message_sends_drafts_then_the_finished_turn(store, usage_sto
     events = _events(resp)
     names = [name for name, _ in events]
     assert names[-1] == "done" and names.count("done") == 1
-    drafts = "".join(data["text"] for name, data in events if name == "draft")
+    sentences = [data for name, data in events if name == "sentence"]
+    shown = "".join(s["lead"] + s["text"] for s in sentences)
     finished = events[-1][1]["voice"]["text"]
     assert finished == FINISHED
-    assert drafts and finished.startswith(drafts)
-    assert "[[" not in drafts
+    assert shown and finished.startswith(shown)
+    assert "[[" not in shown
+    plan = events[-1][1]["voice"]["transparency"]
+    for s in sentences:
+        assert plan["sentences"][s["index"]] == {"index": s["index"], "text_start": s["text_start"], "text_end": s["text_end"]}
 
 
 def test_the_finished_turn_is_the_same_as_the_plain_response(store, usage_store, world_loader, registry):
@@ -99,7 +103,7 @@ def test_with_the_flag_a_request_that_does_not_ask_for_a_stream_gets_the_plain_r
     assert resp.headers["content-type"].startswith("application/json")
 
 
-def test_a_refusal_before_any_draft_is_an_http_status_not_a_stream(store, usage_store, world_loader, registry):
+def test_a_refusal_before_any_sentence_is_an_http_status_not_a_stream(store, usage_store, world_loader, registry):
     http = _http(store, usage_store, world_loader, registry)
     session_id, _auth = _session(http)
     resp = http.post(
@@ -117,7 +121,7 @@ def test_a_duplicate_message_is_a_409_before_any_stream(store, usage_store, worl
     assert again.status_code == 409
 
 
-def test_a_turn_the_facilitator_answers_streams_no_draft(store, usage_store, world_loader, registry):
+def test_a_turn_the_facilitator_answers_streams_no_sentence(store, usage_store, world_loader, registry):
     client = FakeBedrockClient(
         safety_response=safety_response("ACUTE_DISTRESS", acute_level="a2", risk_subject="self"),
         reader_response=reader_response(), stream_chunks=CHUNKS,
@@ -130,8 +134,23 @@ def test_a_turn_the_facilitator_answers_streams_no_draft(store, usage_store, wor
     assert events[0][1]["facilitator"]
 
 
-def test_a_turn_that_may_be_regenerated_streams_no_draft(store, usage_store, world_loader, registry):
+def test_a_turn_that_may_be_regenerated_streams_no_sentence(store, usage_store, world_loader, registry):
     http = _http(store, usage_store, world_loader, registry, r27_enforce=True)
     session_id, auth = _session(http)
     events = _events(http.post(f"/api/session/{session_id}/message", headers={**auth, **STREAM}, json={"text": "who was Jesus"}))
     assert [name for name, _ in events] == ["done"]
+
+
+def test_a_failure_after_the_stream_began_is_an_error_event_with_a_stable_code(store, usage_store, world_loader, registry, monkeypatch):
+    import engine.api.app as app_module
+
+    def handle(**kwargs):
+        kwargs["on_sentence"]({"index": 0, "lead": "", "text": "We spoke.", "text_start": 0, "text_end": 9, "elements": [], "cards": []})
+        raise app_module.wiring.ProviderCallFailed(RuntimeError("throttled"))
+
+    http = _http(store, usage_store, world_loader, registry)
+    session_id, auth = _session(http)
+    monkeypatch.setattr(app_module.wiring, "handle_message", handle)
+    events = _events(http.post(f"/api/session/{session_id}/message", headers={**auth, **STREAM}, json={"text": "who was Jesus"}))
+    assert [name for name, _ in events] == ["sentence", "error"]
+    assert events[1][1] == {"code": "provider_failed", "status": 502, "detail": "provider call failed"}
