@@ -106,6 +106,12 @@ class Settings:
     # withhold, no Facilitator handoff.
     self_revision_enabled: bool
 
+    # Verified citation attachment after each voice turn (engine.m4.
+    # citation_attach): adds a citation to an uncited claim sentence only
+    # when a check call confirms the record carries it; never changes text.
+    # Default off.
+    citation_attach_enabled: bool
+
     # Lets a client that asks for an event stream (Accept: text/event-stream)
     # read an interview reply sentence by sentence while it is written
     # (engine.api.app._stream_message). Off by default.
@@ -146,5 +152,6 @@ class Settings:
             anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
             r27_enforce=os.environ.get("CIC_R27_ENFORCE", "") in ("1", "true", "yes"),
             self_revision_enabled=os.environ.get("CIC_SELF_REVISION", "1") not in ("0", "false", "no"),
+            citation_attach_enabled=os.environ.get("CIC_CITATION_ATTACH", "") in ("1", "true", "yes"),
             streaming_enabled=os.environ.get("CIC_API_STREAMING", "") in ("1", "true", "yes"),
         )

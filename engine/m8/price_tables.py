@@ -67,6 +67,8 @@ _PRICE_BY_CALL_KIND: dict[str, PriceTable] = {
     "safety_call": HAIKU_4_5_PRICE_TABLE,
     "reader_call": HAIKU_4_5_PRICE_TABLE,
     "turn_selector": HAIKU_4_5_PRICE_TABLE,
+    "citation_propose": HAIKU_4_5_PRICE_TABLE,
+    "citation_verify": HAIKU_4_5_PRICE_TABLE,
     "voice_generation": SONNET_4_5_PRICE_TABLE,
     "voice_generation_retry": SONNET_4_5_PRICE_TABLE,
     "self_revision": SONNET_4_5_PRICE_TABLE,

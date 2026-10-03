@@ -139,6 +139,7 @@ class Deps:
     package_cache_dir: Path | None = None
     r27_enforce: bool = False
     self_revision_enabled: bool = True
+    citation_attach_enabled: bool = False
     # Whether a client that asks for an event stream gets the reply sentence
     # by sentence while it is written (the Accept header decides per request).
     streaming_enabled: bool = False
@@ -394,6 +395,7 @@ def create_app(
     anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
+    citation_attach_enabled: bool = False,
     streaming_enabled: bool = False,
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
@@ -449,6 +451,7 @@ def create_app(
         package_cache_dir=package_cache_dir,
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
+        citation_attach_enabled=citation_attach_enabled,
         streaming_enabled=streaming_enabled,
         m7_audit_root=m7_audit_root,
         admin_auth_store=admin_auth_store,
@@ -543,6 +546,7 @@ def create_app(
             package_cache_dir=deps.package_cache_dir,
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
+            citation_attach_enabled=deps.citation_attach_enabled,
             daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
         )
         started = time.monotonic()
@@ -581,6 +585,9 @@ def create_app(
                 safety_model_id=deps.safety_model_id,
                 session_id=session_id,
                 package_cache_dir=deps.package_cache_dir,
+                r27_enforce=deps.r27_enforce,
+                self_revision_enabled=deps.self_revision_enabled,
+                citation_attach_enabled=deps.citation_attach_enabled,
             )
         except wiring.SessionNotFound:
             raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
@@ -817,6 +824,7 @@ def _build_real_app() -> FastAPI:
         anon_daily_turn_limit=settings.anon_daily_turn_limit,
         r27_enforce=settings.r27_enforce,
         self_revision_enabled=settings.self_revision_enabled,
+        citation_attach_enabled=settings.citation_attach_enabled,
         streaming_enabled=settings.streaming_enabled,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
