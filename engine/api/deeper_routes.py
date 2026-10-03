@@ -24,6 +24,7 @@ from typing import Callable
 
 from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
+from starlette.concurrency import run_in_threadpool
 
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
@@ -317,7 +318,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=400, detail="bad payload")
         if not isinstance(event, dict):
             raise HTTPException(status_code=400, detail="bad payload")
-        outcome = handle_event(runtime, event)
+        outcome = await run_in_threadpool(handle_event, runtime, event)
         logger.info("webhook handled type=%s outcome=%s", event.get("type"), outcome)
         return {"received": True}
 
@@ -332,18 +333,19 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/deeper/claim", response_model=ClaimResponse)
     async def claim(req: ClaimRequest, request: Request, response: Response):
         _cors(request, response)
-        made = runtime.claims.get(req.reference)
-        info = runtime.meter.status(made[0]) if made else None
-        if info is None:
+        made = await run_in_threadpool(runtime.claims.get, req.reference)
+        info = await run_in_threadpool(runtime.meter.status, made[0]) if made else None
+        if info is None or info.status == "void":
             await _miss(404, "no codes yet")
         return ClaimResponse(codes=[codes.display(c) for c in made], exchanges=info.exchanges_total)
 
     @app.get("/api/deeper/balance", response_model=BalanceResponse)
     async def balance(request: Request):
-        info = runtime.meter.status(request.headers.get(CODE_HEADER))
+        info = await run_in_threadpool(runtime.meter.status, request.headers.get(CODE_HEADER))
         if info is None or info.status == "void":
             await _miss(404, "that code did not work")
-        return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=runtime.meter.is_paused())
+        paused = await run_in_threadpool(runtime.meter.is_paused)
+        return BalanceResponse(kind=info.kind, remaining=info.remaining, paused=paused)
 
     @app.post("/api/admin/deeper/pause")
     def pause(req: PauseRequest, request: Request, authorization: str | None = Header(default=None)):

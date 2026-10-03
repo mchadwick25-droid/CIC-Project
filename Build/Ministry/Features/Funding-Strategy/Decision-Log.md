@@ -1129,3 +1129,6 @@ S2 is the one slice that touches the conversation engine. What it does, and the 
 - **Not built here:** the door (S5). The seam leaves one place for it, the free grant. When the module fails, the free path stays open; the door's fail-closed rule arrives with S5.
 - **The balance** travels in an `X-Cic-Remaining` response header (and in the stream's final event), so the app can show it after each exchange without extra calls. The code goes in an `X-Cic-Code` request header.
 - **Entry 98 items 1 to 4** were already fixed by System Hub decision 35, so the precondition for S11 step 4 that the Handoff names (the "already closed" 409) is met.
+## 2026-10-03 — Go Deeper: S1 and S3 merged; Opus round three
+
+S1 and S3 merged to `main` together as PR #723 (merge commit 8584e600), switched off. Opus round three found no blocking finding and three non-blocking notes: the claim route served a refunded code with its full count (fixed in the S3 follow-up); the three route handlers made blocking store calls on the event loop (fixed in the same follow-up, through the thread pool); and a new column does not reach a meter file created before the change. No meter file exists yet, so nothing breaks today. Any later change to a meter column needs a migration step before the flag is first turned on. S2 stays blocked on R2-3 (the per-message log lines).
