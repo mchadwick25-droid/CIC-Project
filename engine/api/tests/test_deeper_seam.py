@@ -13,6 +13,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 from engine.api.app import create_app
+from engine.api.deeper_ops import load_ops
 from engine.api.deeper_routes import DeeperRuntime
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
 from engine.deeper import codes
@@ -61,6 +62,7 @@ def runtime(tmp_path):
         webhook_secret="whsec_x",
         products={},
         miss_delay_seconds=0.0,
+        ops=load_ops(),
     )
     yield rt
     rt.meter.close()
@@ -354,7 +356,7 @@ def test_a_safety_route_is_answered_at_every_limit(
 
 
 @pytest.mark.parametrize("limit", LIMITS)
-def test_an_ordinary_message_at_a_limit_gets_a_close_and_no_voice_call(
+def test_an_ordinary_message_at_a_limit_gets_a_pause_and_no_voice_call(
     limit, store, usage_store, world_loader, registry, runtime
 ):
     client = RecordingClient()
@@ -363,8 +365,111 @@ def test_an_ordinary_message_at_a_limit_gets_a_close_and_no_voice_call(
     reply = say(http, session_id, auth, "tell me more")
     assert reply.status_code == 200
     assert reply.json()["routing_action"] == "session_cap_turn"
-    assert reply.json()["facilitator"]["kind"] == "close"
     assert len(client.voice_requests) == before
+    closed = any(e.event_type == "session_closed" for e in store.read_events(session_id))
+    if limit == "module_error":
+        # a fault in admission leaves the free path exactly as it was
+        assert reply.json()["facilitator"]["kind"] == "close" and closed
+        return
+    assert reply.json()["facilitator"]["kind"] == "limit"
+    assert reply.json()["facilitator"]["text"] == runtime.ops.limit_text
+    assert not closed
+
+
+# ---- a limit is a pause: the sitting stays open and a code continues it -----------
+
+def _stored_limit_texts(store, session_id):
+    return [e.payload["text"] for e in store.read_events(session_id) if e.event_type == "facilitator_turn" and e.payload.get("kind") == "limit"]
+
+
+def test_a_code_entered_after_the_pause_continues_the_same_conversation(store, usage_store, world_loader, registry, runtime):
+    client = RecordingClient()
+    http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+    session_id, auth = open_session(http)
+    for i in range(FREE_CAP):
+        say(http, session_id, auth, f"q{i}")
+    paused = say(http, session_id, auth, "may I go on?")
+    assert paused.json()["facilitator"]["kind"] == "limit"
+    assert paused.json()["limit_note"] == {"key": "no_code", "text": runtime.ops.notes["no_code"]}
+    assert http.get(f"/api/session/{session_id}/transcript", headers=auth).json()["closed"] is False
+    code = code_with(runtime, 2)
+    resumed = say(http, session_id, {**auth, "X-Cic-Code": code}, "now may I?")
+    assert resumed.status_code == 200 and resumed.json()["voice"] is not None
+    assert resumed.json()["limit_note"] is None
+    assert runtime.meter.status(code).remaining == 1
+    sent = client.voice_requests[-1]
+    assert "q0" in repr(sent), "the voice still sees the conversation from before the pause"
+
+
+def test_each_reason_a_code_cannot_carry_a_turn_gets_its_own_line_in_the_response(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    spent = code_with(runtime, 1)
+    runtime.meter.settle(runtime.meter.reserve(spent).reservation, True)
+    group = runtime.meter.mint("group", 50, f"pi_{codes.generate()}", daily_ceiling=1)[0]
+    runtime.meter.settle(runtime.meter.reserve(group).reservation, True)
+    cases = {"spent": spent, "daily_ceiling": group, "code_not_accepted": codes.generate()}
+    for expected, code in cases.items():
+        session_id, auth = open_session(http)
+        for i in range(FREE_CAP):
+            say(http, session_id, auth, f"q{i}")
+        reply = say(http, session_id, {**auth, "X-Cic-Code": code}, "more")
+        assert reply.json()["limit_note"]["key"] == expected, expected
+        assert reply.json()["limit_note"]["text"] == runtime.ops.notes[expected]
+    live = code_with(runtime, 5)
+    session_id, auth = open_session(http)
+    for i in range(FREE_CAP):
+        say(http, session_id, auth, f"q{i}")
+    runtime.meter.pause(True)
+    reply = say(http, session_id, {**auth, "X-Cic-Code": live}, "more")
+    assert reply.json()["limit_note"]["key"] == "paused"
+
+
+def test_the_stored_pause_is_the_same_words_for_a_free_sitting_and_a_paid_one_and_the_reason_is_never_stored(
+    store, usage_store, world_loader, registry, runtime
+):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    free_id, free_auth = open_session(http)
+    for i in range(FREE_CAP):
+        say(http, free_id, free_auth, f"q{i}")
+    say(http, free_id, free_auth, "more")
+    code = code_with(runtime, 1)
+    paid_id, paid_auth = open_session(http, **{"X-Cic-Code": code})
+    for i in range(FREE_CAP + 1):
+        say(http, paid_id, paid_auth, f"q{i}")
+    runtime.meter.pause(False)
+    out = say(http, paid_id, paid_auth, "more")
+    assert out.json()["limit_note"]["key"] == "spent"
+    assert _stored_limit_texts(store, free_id) == _stored_limit_texts(store, paid_id) == [runtime.ops.limit_text]
+    stored = repr([e.payload for e in store.read_events(paid_id)])
+    for text in runtime.ops.notes.values():
+        assert text not in stored
+
+
+def test_the_stream_path_carries_the_note_in_its_final_event(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime, streaming_enabled=True)
+    session_id, auth = open_session(http)
+    for i in range(FREE_CAP):
+        say(http, session_id, auth, f"q{i}")
+    reply = http.post(f"/api/session/{session_id}/message", json={"text": "more"}, headers={**auth, "Accept": "text/event-stream"})
+    done = parse_sse(reply.text)[-1]
+    assert done[0] == "done" and done[1]["limit_note"]["key"] == "no_code"
+
+
+def test_a_table_the_code_cannot_cover_pauses_and_stays_open(store, usage_store, world_loader, registry, runtime, alx_world, desert_world):
+    client = long_table_client(alx_world, desert_world)
+    http = table_app(store, usage_store, world_loader, registry, runtime, client)
+    code = code_with(runtime, 2)
+    created = http.post("/api/session", json={"world_keys": ["alx", "desert"]}, headers={"X-Cic-Code": code}).json()
+    auth = {"Authorization": f"Session {created['session_code']}", "X-Cic-Code": code}
+    sid = created["session_id"]
+    first = http.post(f"/api/session/{sid}/message", json={"text": "what is prayer?"}, headers=auth)
+    while first.json()["round_open"]:
+        first = http.post(f"/api/session/{sid}/continue", headers=auth)
+    second = http.post(f"/api/session/{sid}/message", json={"text": "and fasting?"}, headers=auth)
+    body = second.json()
+    assert body["routing_action"] == "session_cap_turn" and body["session_closed"] is False
+    assert body["facilitator"][0]["kind"] == "limit" and body["limit_note"]["key"] == "too_few"
+    assert not any(e.event_type == "session_closed" for e in store.read_events(sid))
 
 
 # ---- never mid-answer ------------------------------------------------------------
@@ -589,7 +694,8 @@ def test_the_facilitator_only_sitting_answers_a_crisis_on_its_fifth_message(stor
     first = say(http, session_id, auth, "hello there")
     assert first.json()["routing_action"] == "session_cap_turn"
     for _ in range(3):
-        assert say(http, session_id, auth, "anyone there?").status_code == 409
+        again = say(http, session_id, auth, "anyone there?")
+        assert again.status_code == 200 and again.json()["routing_action"] == "session_cap_turn"
     client.messages._responses["submit_safety_classification"] = copy.deepcopy(ACUTE)
     fifth = say(http, session_id, auth, "I do not want to be here")
     assert fifth.status_code == 200

@@ -1161,3 +1161,47 @@ S10 adds `engine/api/tests/test_deeper_proofs.py`, which runs in the engine job 
 - **Already in place from S1 to S3 and S2:** the request-diff (interview, stream and Table, past the free cap), the safety tests at eight limits, route absence with the flag off, never-mid-answer, the log scrub, the 25-student class, the schema tests, the race test.
 - **Still to come:** overlapping sittings against the ceiling, which needs the door (S5).
 - **Recorded next to the Facilitator-only marks:** the marks for sittings a code opens past the session limit are also kept only in memory. After a restart such a sitting is an ordinary one, with its first ten exchanges free. That is bounded, and the daily counters reset on a restart as well.
+
+## 2026-10-03 — Go Deeper S8 (mechanism): a limit is a pause, and the wording lives in one operations file
+
+**Opus round three on S8 (#738, first version).** Three blocking findings, notes a to h. The first version put close texts that mention a code inside the engine and stored them, which marked paid sittings in the conversation store, and it promised "carry on from this point" while closing the sitting for good. It was reverted in full and redone, not patched.
+
+**Rulings (Mark, 2026-10-03).**
+1. Prices and anything that may change do not live in the engine. One operations file in the repo holds them, is read at startup, and is changed by pull request. The file is `engine/deeper/ops/go-deeper.yaml`, inside the existing engine tree so it ships with it and needs no new top-level entry. It holds the module's three numbers (group daily ceiling, Table round cost, group burst multiplier) and the participant wording. Prices, pack sizes, the door numbers and the free allowance numbers join it as their slices arrive.
+2. At a limit a code can lift, the sitting stays open. The Facilitator answers, nothing writes `session_closed`, and the next message with a valid code continues the same conversation.
+
+**What S8 now is.**
+- The grant carries `limit_text`, the words the Facilitator speaks at a refusal. It is a plain string handed in from the edge. With none, the default close and the closing of the sitting are unchanged, so the module off changes nothing.
+- The stored words are one neutral line, the same for a free sitting and a paid one. They name no code, no balance and no pause. A new Facilitator kind, `limit`, marks it. The Facilitator's text in the engine never contains the word code, and a proof enforces that.
+- The reason a code could not carry the turn (no code, code not accepted, balance out, too few for a Table round, daily ceiling, paused, in use) is a separate line from the operations file. It travels only in the response, as `limit_note`, in the plain reply, the stream's final event and the Table reply. It is never stored. A test checks the store for every note text.
+- A fault in admission still leaves the free path exactly as it was, including the default close.
+- The edge reads and checks the file at startup and refuses to start on a missing, incomplete or malformed one.
+
+**Findings, one by one.**
+- 1 fixed as above. 2 fixed (option i). 3 fixed: a proof runs a free sitting and a code-driven sitting to its last exchange and compares the stored Facilitator words, and another forbids the word code in the engine's Facilitator text.
+- Note a fixed: a code with too few exchanges for a Table round has its own line. Note b fixed: a code that did not work has its own line. Note c: moot, a double-sent message no longer closes anything. Note d: readability is scored in a test for every line in the file.
+- Notes e to h, from the S10 proofs: e fixed (a named proof must assert something), f fixed (no collection hook or CI flag may drop a proof from outside its file), g fixed (a CI step runs the guard by name, so deleting it fails the build), h fixed (the S2-2 proof is now required). The new S8 proofs are required too.
+
+**Change orders and parked.**
+- Moving `SESSION_TURN_CAP`, `TABLE_SESSION_ROUND_CAP` and the `anon_cap.py` defaults into the operations file goes beyond S8 and touches the conversation engine redesign's ground. Not done; it needs that thread's agreement. The limit numbers the module reads today still come from those constants.
+- The admin page that shows the file's current values is part of S9.
+- The wording in the file is a draft held for Mark. It is shown as an Artifact and is changed by editing the file.
+- Each further message at a limit without a code costs one safety check, bounded by the daily message count. Accepted by the review.
+- The app and website must show `limit_note` and treat the `limit` kind as a pause, not an ending. That is S6 and S7.
+
+**Opus recheck of #739 (head 63000eb1): no blocking finding.** Notes i to k.
+- i. The runtime's Table round cost and burst multiplier now default to the operations file's values, so tests and production read one source. The meter keeps its own safe default for the group ceiling, because the module imports only the standard library and cannot read the file; the edge passes the file's value in.
+- j. Keeping a sitting open costs one safety check for each further message without a code. The bound is the daily message count: 150 messages a visitor, about $0.75 at most. Mark accepted this when ruling.
+- k. #738 merged with three blocking findings open. #739 removes what it carried. From here a slice is merged only after the review thread has cleared its blocking findings, and the checkpoint says so.
+- Flag-on suite: three older tests assert the module-off contract (a session closes for good at the cap). They now say so with an explicit `deeper=None`. With the module on, a limit pauses, and the new tests cover that.
+
+## 2026-10-03 — Go Deeper S6: the app
+
+S6 gives the app a way to hold a code and read what the server says. It ships switched off: the app is built with `VITE_DEEPER_ENABLED` unset, and S11 sets it.
+
+- **The code.** "I have a code" under the message box opens one field. A code is checked for shape on the device (20 characters from the 32-letter alphabet, case and spacing forgiven) and kept in the browser's local storage, so it survives closing the tab. "Remove code" forgets it. With the build flag off no control shows, no header is sent, and a code left in storage by an earlier build is ignored.
+- **What is sent.** The code goes as `X-Cic-Code` on session creation, messages, Table messages and `/continue`, and on nothing else.
+- **What is shown.** The balance the server reports, in a line under the box: "12 exchanges left on your code." The number comes from the `X-Cic-Remaining` header, or from the stream's final event. The app knows no price and shows no money figure; a test checks the control's text for one.
+- **A pause is not an ending.** The new `limit` Facilitator kind keeps the room open and the box enabled. The server's reason line (`limit_note`) shows once under the pause and is not kept, so a reload shows only the pause. The room closes only on `close`, as before.
+- **Words.** The participant words are the set Mark approved on 2026-10-03, in one file, `cic-poc/frontend/src/lib/deeperCopy.ts`. The pause and its reason lines come from the operations file, not the app.
+- **Parked.** After a pause the participant sends their message again once the code is saved; the app does not resend it for them. The flag-on frontend build is checked in S11 with the rest of the turn-on.

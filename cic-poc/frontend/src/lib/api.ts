@@ -7,6 +7,7 @@
  * authoritative. A server that answers with plain JSON is handled the same
  * way, with no sentences.
  */
+import { codeHeaders, remainingFromHeader, setRemaining } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 import type { StreamedSentence } from './streamedReply';
 
@@ -96,7 +97,7 @@ function authHeader(sessionCode: string): Record<string, string> {
 export async function createSession(worldKey: string): Promise<CreateSessionResponse> {
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...codeHeaders() },
     body: JSON.stringify({ world_key: worldKey }),
   });
   if (!response.ok) {
@@ -110,7 +111,7 @@ export async function createSession(worldKey: string): Promise<CreateSessionResp
 export async function createTableSession(worldKeys: string[]): Promise<CreateSessionResponse> {
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...codeHeaders() },
     body: JSON.stringify({ world_keys: worldKeys }),
   });
   if (!response.ok) {
@@ -138,7 +139,7 @@ export async function deleteSession(sessionId: string, sessionCode: string): Pro
 export async function continueRound(sessionId: string, sessionCode: string): Promise<TableMessageResponse> {
   const response = await fetch(`${API_BASE}/session/${sessionId}/continue`, {
     method: 'POST',
-    headers: { ...authHeader(sessionCode) },
+    headers: { ...authHeader(sessionCode), ...codeHeaders() },
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
@@ -154,12 +155,13 @@ export async function sendTableMessage(
 ): Promise<TableMessageResponse> {
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode) },
+    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode), ...codeHeaders() },
     body: JSON.stringify({ text, client_msg_id: clientMsgId }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
+  setRemaining(remainingFromHeader(response.headers.get('X-Cic-Remaining')));
   return response.json();
 }
 
@@ -192,7 +194,11 @@ async function readMessageStream(response: Response, onSentence: (sentence: Stre
       const parsed = parseStreamBlock(buffer.slice(0, boundary));
       buffer = buffer.slice(boundary + 2);
       if (parsed?.event === 'sentence') onSentence(parsed.data as StreamedSentence);
-      else if (parsed?.event === 'done') return parsed.data as MessageResponse;
+      else if (parsed?.event === 'done') {
+        const done = parsed.data as MessageResponse & { remaining?: number };
+        setRemaining(typeof done.remaining === 'number' ? done.remaining : null);
+        return done;
+      }
       else if (parsed?.event === 'error') {
         const failure = parsed.data as { code: string; status: number; detail: string };
         throw new ApiRequestError(failure.status, failure.detail);
@@ -216,6 +222,7 @@ export async function sendMessage(
       'Content-Type': 'application/json',
       ...(onSentence ? { Accept: 'text/event-stream, application/json;q=0.9' } : {}),
       ...authHeader(sessionCode),
+      ...codeHeaders(),
     },
     body: JSON.stringify({ text, client_msg_id: clientMsgId }),
   });
@@ -225,6 +232,7 @@ export async function sendMessage(
   if (onSentence && (response.headers.get('content-type') ?? '').startsWith('text/event-stream')) {
     return readMessageStream(response, onSentence);
   }
+  setRemaining(remainingFromHeader(response.headers.get('X-Cic-Remaining')));
   return response.json();
 }
 

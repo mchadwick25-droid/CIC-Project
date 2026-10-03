@@ -26,6 +26,7 @@ from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
+from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
@@ -85,8 +86,9 @@ class DeeperRuntime:
     site_origin: str | None = None
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     clock: Callable[[], float] = field(default=time.time)
-    table_round_cost: int = 3
-    group_burst_multiplier: int = 6
+    table_round_cost: int = field(default_factory=lambda: load_ops().table_round_cost)
+    group_burst_multiplier: int = field(default_factory=lambda: load_ops().group_burst_multiplier)
+    ops: DeeperOps | None = None
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
 
@@ -362,18 +364,20 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"days": runtime.meter.reconciliation(days=14)}
 
 
-def build_runtime(config: DeeperConfig, env: dict) -> DeeperRuntime:
+def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open."""
     secret = env.get("CIC_DEEPER_WEBHOOK_SECRET")
     if not secret:
         raise DeeperConfigError("CIC_DEEPER_ENABLED is on but CIC_DEEPER_WEBHOOK_SECRET is unset")
+    ops = ops or load_ops()
     return DeeperRuntime(
-        meter=Meter(config.meter_db_path, group_daily_ceiling=config.group_daily_ceiling),
+        meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
         claims=ClaimStore(config.claims_db_path),
         webhook_secret=secret,
         products=parse_products(env.get("CIC_DEEPER_PRODUCTS")),
         site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
-        table_round_cost=config.table_round_cost,
-        group_burst_multiplier=config.group_burst_multiplier,
+        table_round_cost=ops.table_round_cost,
+        group_burst_multiplier=ops.group_burst_multiplier,
+        ops=ops,
     )

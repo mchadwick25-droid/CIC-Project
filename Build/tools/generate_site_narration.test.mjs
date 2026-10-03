@@ -34,13 +34,12 @@ test('sitePieces: the story first, then one piece per About section', () => {
 test('planPieces: skips a matching fingerprint, regenerates a changed one, --force and --only narrow', () => {
   const pieces = [{ key: 'a', text: 'one' }, { key: 'b', text: 'two' }];
   const manifest = { a: { hash: fingerprint('one') }, b: { hash: 'old' } };
-  const exists = () => true;
-  const plan = planPieces(pieces, { manifest, existsFn: exists });
+  const plan = planPieces(pieces, { manifest });
   assert.deepEqual(plan.upToDate.map((p) => p.key), ['a']);
   assert.deepEqual(plan.toGenerate.map((p) => p.key), ['b']);
-  assert.deepEqual(planPieces(pieces, { manifest, existsFn: exists, force: true }).toGenerate.map((p) => p.key), ['a', 'b']);
-  assert.deepEqual(planPieces(pieces, { manifest, existsFn: exists, only: ['a'] }).upToDate.map((p) => p.key), ['a']);
-  assert.deepEqual(planPieces(pieces, { manifest, existsFn: () => false }).toGenerate.map((p) => p.key), ['a', 'b']);
+  assert.deepEqual(planPieces(pieces, { manifest, force: true }).toGenerate.map((p) => p.key), ['a', 'b']);
+  assert.deepEqual(planPieces(pieces, { manifest, only: ['a'] }).upToDate.map((p) => p.key), ['a']);
+  assert.deepEqual(planPieces(pieces, { manifest: {} }).toGenerate.map((p) => p.key), ['a', 'b']);
 });
 
 test('parseArgs: reads every paid setting and rejects unknown flags', () => {

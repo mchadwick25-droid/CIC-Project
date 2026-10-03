@@ -114,3 +114,16 @@ describe('Conversation', () => {
     expect(container.querySelector('.ai-note')).toBeNull();
   });
 });
+
+describe('Conversation - a pause at a limit', () => {
+  it('shows the Facilitator\'s pause with the reason beneath it and keeps the room open for another message', () => {
+    const turns: ConversationTurn[] = [
+      { speaker: 'participant', text: 'May I go on?' },
+      { speaker: 'facilitator', kind: 'limit', text: 'This sitting has reached its limit for now.', note: 'Your code has no exchanges left.' },
+    ];
+    const { container, queryByText } = render(<Conversation {...baseProps} turns={turns} />);
+    expect(container.querySelector('.turn__note')?.textContent).toBe('Your code has no exchanges left.');
+    expect(container.querySelector('textarea')).not.toBeDisabled();
+    expect(queryByText('Meet another world')).toBeNull();
+  });
+});

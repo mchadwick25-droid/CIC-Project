@@ -93,3 +93,68 @@ describe('sendMessage', () => {
     await expect(sendMessage('s', 'code', 'hi', 'id', () => {})).rejects.toMatchObject({ status: 409, recoverable: true });
   });
 });
+
+
+describe('the code and the balance', () => {
+  const CODE = 'ABCD2345EFGH6789JKLM';
+
+  async function loadApi(enabled: boolean) {
+    vi.resetModules();
+    vi.stubEnv('VITE_DEEPER_ENABLED', enabled ? 'on' : '');
+    localStorage.clear();
+    const deeper = await import('./deeper');
+    const api = await import('./api');
+    return { deeper, api };
+  }
+
+  afterEach(() => vi.unstubAllEnvs());
+
+  it('sends the code with every request that starts or carries a conversation, and reports the balance header', async () => {
+    const { deeper, api } = await loadApi(true);
+    deeper.saveCode(CODE);
+    const fetchMock = vi.fn().mockImplementation(
+      async () => new Response(JSON.stringify(DONE), { status: 200, headers: { 'Content-Type': 'application/json', 'X-Cic-Remaining': '4' } })
+    );
+    vi.stubGlobal('fetch', fetchMock);
+    await api.createSession('fix');
+    await api.createTableSession(['a', 'b']);
+    await api.sendMessage('s', 'c', 'hello');
+    await api.sendTableMessage('s', 'c', 'hello');
+    await api.continueRound('s', 'c');
+    for (const call of fetchMock.mock.calls) {
+      expect((call[1] as RequestInit).headers).toMatchObject({ 'X-Cic-Code': CODE });
+    }
+    expect(deeper.remainingFromHeader('4')).toBe(4);
+  });
+
+  it('reads the balance from the stream\'s final event', async () => {
+    const { deeper, api } = await loadApi(true);
+    deeper.saveCode(CODE);
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(streamOf([sse('done', { ...DONE, remaining: 9 })])));
+    const result = await api.sendMessage('s', 'c', 'hello', undefined, () => {});
+    expect(result.voice?.text).toBe('One. Two.');
+  });
+
+  it('sends no code header when no code is held', async () => {
+    const { api } = await loadApi(true);
+    const fetchMock = mockFetch(new Response(JSON.stringify(DONE), { status: 200, headers: { 'Content-Type': 'application/json' } }));
+    await api.sendMessage('s', 'c', 'hello');
+    expect((fetchMock.mock.calls[0][1] as RequestInit).headers).not.toHaveProperty('X-Cic-Code');
+  });
+
+  it('sends no code header at all when the app is built with the module off', async () => {
+    localStorage.setItem('cic_code', CODE);
+    vi.resetModules();
+    vi.stubEnv('VITE_DEEPER_ENABLED', '');
+    const api = await import('./api');
+    const fetchMock = vi.fn().mockImplementation(
+      async () => new Response(JSON.stringify(DONE), { status: 200, headers: { 'Content-Type': 'application/json' } })
+    );
+    vi.stubGlobal('fetch', fetchMock);
+    await api.sendMessage('s', 'c', 'hello');
+    await api.createSession('fix');
+    for (const call of fetchMock.mock.calls) {
+      expect((call[1] as RequestInit).headers).not.toHaveProperty('X-Cic-Code');
+    }
+  });
+});

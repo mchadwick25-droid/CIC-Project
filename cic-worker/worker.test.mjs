@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import worker, { parseRange } from './worker.mjs';
+import fs from 'node:fs';
+import worker, { parseRange, BASELINE_HEADERS } from './worker.mjs';
 
 const FILE = Buffer.from(Array.from({ length: 100 }, (_, i) => i));
 
@@ -105,4 +106,97 @@ test('non-read methods on /audio/ go straight to the assets', async () => {
   const env = envWith({ '/audio/a.mp3': FILE });
   await worker.fetch(get('/audio/a.mp3', {}, 'POST'), env);
   assert.equal(env.ASSETS.calls[0].method, 'POST');
+});
+
+// ---- the R2 bucket bound as AUDIO ----
+
+function bucketWith(objects, { throws = false } = {}) {
+  const calls = [];
+  return {
+    calls,
+    async head(key) {
+      calls.push(['head', key]);
+      if (throws) throw new Error('bucket unreachable');
+      if (!(key in objects)) return null;
+      return { size: objects[key].length, httpEtag: '"r2etag"', httpMetadata: { contentType: 'audio/mpeg' } };
+    },
+    async get(key, opts) {
+      calls.push(['get', key, opts && opts.range]);
+      if (!(key in objects)) return null;
+      const r = opts && opts.range;
+      const body = r ? objects[key].subarray(r.offset, r.offset + r.length) : objects[key];
+      return { body: new Blob([body]).stream() };
+    },
+  };
+}
+const withBucket = (files, objects, opts) => ({ ...envWith(files), AUDIO: bucketWith(objects, opts) });
+
+test('bucket: a range is read from the bucket, with a 206 and the right bytes', async () => {
+  const env = withBucket({}, { 'audio/a.mp3': FILE });
+  const res = await worker.fetch(get('/audio/a.mp3', { Range: 'bytes=10-19' }), env);
+  assert.equal(res.status, 206);
+  assert.equal(res.headers.get('Content-Range'), 'bytes 10-19/100');
+  assert.equal(res.headers.get('Content-Length'), '10');
+  assert.equal(res.headers.get('ETag'), '"r2etag"');
+  assert.deepEqual([...Buffer.from(await res.arrayBuffer())], [...FILE.subarray(10, 20)]);
+  assert.deepEqual(env.AUDIO.calls[1], ['get', 'audio/a.mp3', { offset: 10, length: 10 }]);
+  assert.equal(env.ASSETS.calls.length, 0, 'the assets are not touched');
+});
+
+test('bucket: whole file, HEAD, 416 and the conditional 304', async () => {
+  const env = withBucket({}, { 'audio/a.mp3': FILE });
+  const whole = await worker.fetch(get('/audio/a.mp3'), env);
+  assert.equal(whole.status, 200);
+  assert.equal(whole.headers.get('Accept-Ranges'), 'bytes');
+  assert.equal((await whole.arrayBuffer()).byteLength, 100);
+  const head = await worker.fetch(get('/audio/a.mp3', {}, 'HEAD'), env);
+  assert.equal(head.status, 200);
+  assert.equal(head.headers.get('Content-Length'), '100');
+  const bad = await worker.fetch(get('/audio/a.mp3', { Range: 'bytes=500-' }), env);
+  assert.equal(bad.status, 416);
+  assert.equal(bad.headers.get('Content-Range'), 'bytes */100');
+  const same = await worker.fetch(get('/audio/a.mp3', { 'If-None-Match': '"r2etag"' }), env);
+  assert.equal(same.status, 304);
+});
+
+test('bucket: a file the bucket lacks falls back to the assets', async () => {
+  const env = withBucket({ '/audio/old.mp3': FILE }, {});
+  const res = await worker.fetch(get('/audio/old.mp3', { Range: 'bytes=0-1' }), env);
+  assert.equal(res.status, 206);
+  assert.equal(env.ASSETS.calls.length, 1);
+});
+
+test('bucket: an unreachable bucket falls back to the assets instead of failing', async () => {
+  const env = withBucket({ '/audio/a.mp3': FILE }, { 'audio/a.mp3': FILE }, { throws: true });
+  const res = await worker.fetch(get('/audio/a.mp3', { Range: 'bytes=0-1' }), env);
+  assert.equal(res.status, 206);
+  assert.deepEqual([...Buffer.from(await res.arrayBuffer())], [0, 1]);
+});
+
+test('bucket: manifest and other non-recording files under /audio/ always come from the assets', async () => {
+  const env = withBucket({ '/audio/worlds/manifest.json': FILE }, { 'audio/worlds/manifest.json': FILE });
+  const res = await worker.fetch(get('/audio/worlds/manifest.json'), env);
+  assert.equal(res.status, 200);
+  assert.equal(env.AUDIO.calls.length, 0);
+  assert.equal(env.ASSETS.calls.length, 1);
+});
+
+test('bucket: a path with encoded characters is looked up by its decoded key', async () => {
+  const env = withBucket({}, { 'audio/a b.mp3': FILE });
+  const res = await worker.fetch(get('/audio/a%20b.mp3'), env);
+  assert.equal(res.status, 200);
+});
+
+test('the headers added to bucket answers match the baseline of cic-website/_headers', () => {
+  const text = fs.readFileSync(new URL('../cic-website/_headers', import.meta.url), 'utf8');
+  const block = text.split('\n').reduce((acc, line) => {
+    if (/^\/\*\s*$/.test(line)) acc.on = true;
+    else if (/^\S/.test(line) && acc.on) acc.on = false;
+    else if (acc.on && /^\s+[A-Za-z-]+:/.test(line)) {
+      const [k, ...v] = line.trim().split(':');
+      acc.map[k.trim()] = v.join(':').trim();
+    }
+    return acc;
+  }, { on: false, map: {} }).map;
+  assert.deepEqual(BASELINE_HEADERS, block);
 });

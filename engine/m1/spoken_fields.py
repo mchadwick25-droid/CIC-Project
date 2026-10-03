@@ -73,7 +73,7 @@ class SpokenField:
 
 
 # record_type -> field_name -> SpokenField. Field order within a type
-# follows first appearance in build_prompt()/build_fleet_preamble(), so a
+# follows first appearance in build_prompt()/engine.shape.build_shape(), so a
 # diff against those functions reads in the same order.
 SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     "fleet_voice": {

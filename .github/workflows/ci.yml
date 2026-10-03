@@ -451,6 +451,9 @@ jobs:
       # actually run; the real calls themselves are by-hand evidence
       # runs, never CI.
       - run: python -m pytest engine/m4/tests -q
+      # The engine shape segment: one segment for every world, pinned by
+      # SHAPE_HASH; it refuses to load when the hash and the segment disagree.
+      - run: python -m pytest engine/shape/tests -q
 
       # M5 Facilitator gate routing + failure semantics. Added stage 5
       # (partial). The Facilitator gate's deterministic routing merge and
@@ -474,6 +477,8 @@ jobs:
       # Go Deeper meter and claim stores (standard library only; imports
       # nothing from the conversation engine).
       - run: python -m pytest engine/deeper/tests -q
+      # The guard that keeps the Go Deeper proofs from being dropped must itself exist.
+      - run: python -m pytest "engine/api/tests/test_deeper_proofs.py::test_every_named_proof_exists_and_none_is_skipped_or_expected_to_fail" -q
 
       # M7 audit and per-turn readability; M10 build gates.
       - run: python -m pytest engine/m7 -q

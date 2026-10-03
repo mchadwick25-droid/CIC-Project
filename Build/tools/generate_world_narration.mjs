@@ -120,7 +120,7 @@ async function run() {
   let credits = 0;
   for (const p of pieces) {
     const finalPath = path.join(outDir, `${p.key}.mp3`);
-    if (fs.existsSync(finalPath) && !opts.force) { console.log(`  skip (exists): ${p.key}`); continue; }
+    if (entry[p.key] && !opts.force) { console.log(`  skip (in manifest): ${p.key}`); continue; }
     const partFiles = [];
     for (const [i, text] of p.parts.entries()) {
       const { audio, cost } = await synthesizeWithCost(opts.prefix + text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, voiceSettings: settings, outputFormat: NARRATION_OUTPUT_FORMAT });

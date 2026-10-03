@@ -122,6 +122,8 @@ def _stream_message(call_kwargs: dict, session_id: str, started: float, admissio
                 done = MessageResponse(**asdict(payload)).model_dump()
                 if admission is not None and admission.remaining is not None:
                     done["remaining"] = admission.remaining
+                if admission is not None:
+                    done["limit_note"] = admission.limit_note(payload.routing_action)
                 yield _sse("done", done)
                 return
             else:
@@ -226,6 +228,7 @@ class MessageResponse(BaseModel):
     degraded: bool
     facilitator: dict | None
     voice: dict | None
+    limit_note: dict | None = None
 
 
 class TableMessageResponse(BaseModel):
@@ -243,6 +246,7 @@ class TableMessageResponse(BaseModel):
     position: int | None
     turn_no: int | None
     session_closed: bool
+    limit_note: dict | None = None
 
 
 class TranscriptResponse(BaseModel):
@@ -628,7 +632,7 @@ def create_app(
                 result = table_wiring.handle_table_message(**call_kwargs)
                 voiced = result.round_open or result.voice is not None
                 logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
-                return TableMessageResponse(**asdict(result))
+                return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
             result = wiring.handle_message(**call_kwargs)
             voiced = result.voice is not None
         except Exception as exc:
@@ -642,7 +646,7 @@ def create_app(
                 if remaining is not None:
                     response.headers[deeper_admission.REMAINING_HEADER] = str(remaining)
         logger.info("message handled ms=%d", (time.monotonic() - started) * 1000)
-        return MessageResponse(**asdict(result))
+        return MessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
 
     @app.post("/api/session/{session_id}/continue", response_model=TableMessageResponse)
     def continue_round(session_id: str, request: Request, authorization: str | None = Header(default=None)):

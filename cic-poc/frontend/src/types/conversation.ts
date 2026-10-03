@@ -82,7 +82,7 @@ export interface GlossUsed {
 }
 
 export interface FacilitatorTurn {
-  kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close';
+  kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close' | 'limit';
   text: string;
   // engine/m4/facilitator_turns.py's bridge_turn: present only on a
   // 'bridge' turn - one SourceCard per modern term the Facilitator just
@@ -165,6 +165,13 @@ export interface CreateSessionResponse {
   round_cap: number | null;
 }
 
+// Why the room paused at a limit, in the server's words. It is shown once and
+// never kept: a reload shows only the pause itself.
+export interface LimitNote {
+  key: string;
+  text: string;
+}
+
 export interface MessageResponse {
   turn_no: number;
   routing_action: string | null;
@@ -172,6 +179,7 @@ export interface MessageResponse {
   degraded: boolean;
   facilitator: FacilitatorTurn | null;
   voice: VoiceTurn | null;
+  limit_note?: LimitNote | null;
 }
 
 export type TranscriptEntry =
@@ -210,6 +218,7 @@ export interface TableMessageResponse {
   position: number | null;
   turn_no: number | null;
   session_closed: boolean;
+  limit_note?: LimitNote | null;
 }
 
 export interface ApiError {
