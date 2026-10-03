@@ -1,0 +1,221 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "pahc:f6-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Asserts the torture as fact with no citation."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Report sent to the emperor cited to no record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Evaluative claim about the outsider window has no citation."
+    },
+    {
+     "s": 5,
+     "label": "no_claim"
+    },
+    {
+     "s": 6,
+     "label": "no_claim"
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Governor's aim cited to no record."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Governor's aim cited to no record."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Claim that Pliny's account matches internal texts has no citation."
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Claim that the account matches internal knowledge has no citation."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    }
+   ]
+  },
+  {
+   "reply": "pahc:f1-e-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Claim about no doctrinal council has no citation."
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Record supports anti-docetic refusal; 'the answer was not a council' is not stated in it."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Claim that the answer was a letter has no citation."
+    },
+    {
+     "s": 8,
+     "label": "stretched",
+     "note": "Story supports the guarded journey and letters but does not say he wrote against docetism."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Claim about how his letters were carried has no citation."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Claim that no gathering voted has no citation."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Claim that no authority sealed it has no citation."
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "unsupported",
+     "note": "World core mentions courier and copyist but nothing about trusting or refusing the bearer or household."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Claim that no such mechanism was built has no citation."
+    }
+   ]
+  },
+  {
+   "reply": "pahc:f6-p-probe-01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "no_claim"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Claim that teaching was given identically to everyone has no citation."
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "no_claim"
+    }
+   ]
+  }
+ ]
+}
