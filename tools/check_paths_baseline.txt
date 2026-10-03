@@ -950,7 +950,6 @@ records/don/story/don.story.macrobius-letter.md: World-Builds/Donatism/Story-Chu
 records/don/story/don.story.passio-donati-sermon.md: World-Builds/Donatism/Story-Chunks/donstory001_passio-
 records/don/story/don.story.passio-marculi.md: World-Builds/Donatism/Story-Chunks/donstory002_passio-
 records/don/story/don.story.tyconius-condemnation.md: World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
-records/don/world_core/don.core.donatism.md: records/worlds.yaml
 records/don/world_front/don.front.donatism.md: records/latin-pastoral-
 records/fix/world_core/fix.core.fixture-world.md: records/worlds.yaml
 records/gallic/facilitator_brief/gallic.facilitator_brief.gallic-monastic-ascetic-christianity.md: worlds/gallic/Open_Gaps_Tracking.md
