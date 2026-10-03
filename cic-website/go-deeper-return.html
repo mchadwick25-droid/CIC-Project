@@ -79,7 +79,7 @@
       <p id="saved" hidden>Your code is saved. You can close this window.</p>
       <p id="by-hand" hidden>Then open a conversation, choose "I have a code" under the message box, and enter it.</p>
       <div class="hero-actions" style="margin:1.2rem 0 1rem;">
-        <a class="btn primary" id="open-app" href="https://cic-engine.onrender.com/">Open a conversation</a>
+        <a class="btn primary" id="open-app" href="#">Open a conversation</a>
       </div>
     </div>
 
@@ -112,13 +112,14 @@
   </div>
 </footer>
 
+<script src="assets/go-deeper-config.js"></script>
 <script src="assets/go-deeper.js"></script>
 <script>
 (function(){
 "use strict";
-var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
-var API = isLocal ? 'http://localhost:8000' : 'https://cic-engine.onrender.com';
-var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+var API = window.GoDeeperConfig.api;
+var APP = window.GoDeeperConfig.app;
+document.getElementById('open-app').href = APP + '/';
 var states = ['waiting','ready','missing','none','error'];
 function show(name){
   states.forEach(function(s){ document.getElementById('state-' + s).hidden = (s !== name); });
@@ -158,6 +159,8 @@ if (!reference) {
       window.GoDeeper.deliver(result.codes, {
         opener: window.opener,
         appOrigin: APP,
+        reference: reference,
+        forget: function(){ try { window.localStorage.removeItem('cic_claim_ref'); } catch (e) {} },
         onMessage: function(fn){ window.addEventListener('message', fn); },
         later: function(fn, ms){ setTimeout(fn, ms); },
         waitMs: 3000,

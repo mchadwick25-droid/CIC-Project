@@ -169,20 +169,32 @@ def test_the_code_is_handed_only_to_the_opening_window_and_only_to_the_app_origi
     assert out["sent"] == [[{"type": "cic-deeper-code", "codes": ["ABCD"]}, "https://app.test"]]
 
 
-def test_the_return_page_names_the_app_origin_and_no_wildcard():
-    text = (SITE / "go-deeper-return.html").read_text()
-    assert "appOrigin: APP" in text and "window.GoDeeper.deliver(result.codes" in text
-    assert not re.search(r"postMessage\([^)]*['\"]\*['\"]", text + (SITE / "assets/go-deeper.js").read_text())
-
-
 def test_one_code_reaches_the_conversation_without_a_paste_and_a_pack_stays_on_the_page():
     out = _node("deliver")
     assert out["pack"] == "shown"
     assert out["answered"] == "closed"
     assert out["silent"] == out["wrongOrigin"] == out["noOpener"] == "redirected"
+    ref = "REF" + "r" * 19
     assert out["log"] == [
-        "close",
-        "redirect https://app.test/#cic-code=ABCD2345",
-        "redirect https://app.test/#cic-code=ABCD2345",
-        "redirect https://app.test/#cic-code=ABCD2345",
+        "forget", "close",
+        "forget", f"redirect https://app.test/#cic-claim={ref}",
+        "forget", f"redirect https://app.test/#cic-claim={ref}",
+        "forget", f"redirect https://app.test/#cic-claim={ref}",
     ]
+
+
+def test_the_address_never_carries_a_code_only_the_reference():
+    text = (SITE / "assets/go-deeper.js").read_text()
+    assert "cic-code" not in text and "#cic-claim=" in text
+
+
+def test_the_two_addresses_the_return_page_talks_to_are_written_in_one_file():
+    for name in ("go-deeper.html", "go-deeper-return.html", "assets/go-deeper.js"):
+        assert "onrender.com" not in (SITE / name).read_text(), name
+    assert (SITE / "assets/go-deeper-config.js").read_text().count("onrender.com") == 2
+
+
+def test_the_return_page_names_the_app_origin_and_no_wildcard():
+    text = (SITE / "go-deeper-return.html").read_text()
+    assert "appOrigin: APP" in text and "window.GoDeeper.deliver(result.codes" in text
+    assert not re.search(r"postMessage\([^)]*['\"]\*['\"]", text + (SITE / "assets/go-deeper.js").read_text())

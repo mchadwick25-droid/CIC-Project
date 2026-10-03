@@ -58,8 +58,8 @@ const scenarios = {
   expiry() {
     const storage = memoryStorage();
     storage.setItem("cic_claim_ref", JSON.stringify({ ref: "keepme", at: 1000 }));
-    const fresh = GD.readReference(storage, 1000 + 59 * 60 * 1000);
-    const stale = GD.readReference(storage, 1000 + 61 * 60 * 1000);
+    const fresh = GD.readReference(storage, 1000 + 179 * 60 * 1000);
+    const stale = GD.readReference(storage, 1000 + 181 * 60 * 1000);
     const staleRemoved = !storage.has("cic_claim_ref");
     storage.setItem("cic_claim_ref", "not json");
     const broken = GD.readReference(storage, 5);
@@ -91,6 +91,8 @@ const scenarios = {
           onMessage: (fn) => (listener = fn),
           later: (fn) => later.push(fn),
           waitMs: 3000,
+          reference: "REF" + "r".repeat(19),
+          forget: () => log.push("forget"),
           close: () => log.push("close"),
           redirect: (u) => log.push("redirect " + u),
         },

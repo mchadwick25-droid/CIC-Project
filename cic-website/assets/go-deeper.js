@@ -2,7 +2,7 @@
   "use strict";
 
   var REFERENCE_KEY = "cic_claim_ref";
-  var REFERENCE_TTL_MS = 60 * 60 * 1000;
+  var REFERENCE_TTL_MS = 3 * 60 * 60 * 1000;
   var POLL_MS = 3000;
   var MAX_TRIES = 20;
   var ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
@@ -99,8 +99,11 @@
     }
   }
 
-  function returnUrl(appOrigin, code) {
-    return appOrigin + "/#cic-code=" + encodeURIComponent(String(code).replace(/\s+/g, ""));
+  // The address carries the reference, never the code: a reference stops
+  // working when the server's hour ends, so a copy left in browser history
+  // is dead soon after. The app asks before using it.
+  function returnUrl(appOrigin, reference) {
+    return appOrigin + "/#cic-claim=" + encodeURIComponent(reference);
   }
 
   // Gets one code into the buyer's conversation without a paste. First the
@@ -115,13 +118,15 @@
       function redirect() {
         if (finished) return;
         finished = true;
-        env.redirect(returnUrl(env.appOrigin, codes[0]));
+        env.forget();
+        env.redirect(returnUrl(env.appOrigin, env.reference));
         resolve("redirected");
       }
       if (!handOff(env.opener, codes, env.appOrigin)) return redirect();
       env.onMessage(function (event) {
         if (finished || event.origin !== env.appOrigin || !event.data || event.data.type !== "cic-deeper-saved") return;
         finished = true;
+        env.forget();
         env.close();
         resolve("closed");
       });
