@@ -23,7 +23,7 @@ from engine.api.tests.test_deeper_seam import (  # noqa: F401
 from engine.deeper import codes
 
 ENGINE = Path(__file__).resolve().parents[2]
-EDGE_FILES = {"app.py", "deeper_routes.py", "deeper_admission.py"}
+EDGE_FILES = {"app.py", "deeper_routes.py", "deeper_admission.py", "deeper_ops.py"}
 MONEY_WORDS = re.compile(r"\b(stripe|payment|meter|x-cic)\b", re.I)
 ENGINE_CORE = [
     *(ENGINE / name for name in ("m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "provider", "canon")),
@@ -221,7 +221,14 @@ REQUIRED = {
         "test_the_stored_pause_is_the_same_words_for_a_free_sitting_and_a_paid_one_and_the_reason_is_never_stored",
         "test_a_code_entered_after_the_pause_continues_the_same_conversation",
     ],
+    "engine/deeper/tests/test_tokens.py": [
+        "test_a_solo_conversation_of_three_rounds_draws_110",
+        "test_the_free_grant_is_three_solo_conversations_of_three_rounds",
+        "test_the_packs_are_whole_numbers_of_those_conversations",
+    ],
     "engine/api/tests/test_deeper_ops.py": [
+        "test_the_token_rates_and_packs_are_the_ones_ruled_on_2026_10_03",
+        "test_a_bad_token_section_is_refused",
         "test_a_malformed_file_is_refused",
         "test_the_stored_pause_names_no_code_and_no_money",
         "test_the_flag_on_refuses_to_start_on_a_bad_file",
