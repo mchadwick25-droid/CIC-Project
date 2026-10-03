@@ -1,0 +1,314 @@
+{
+ "key": {
+  "hal:R01": {
+   "probe_id": "f1-i-probe-01",
+   "arms": [
+    "off"
+   ]
+  },
+  "hal:R02": {
+   "probe_id": "f3-i-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "hal:R03": {
+   "probe_id": "f1-e-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  },
+  "hal:R04": {
+   "probe_id": "f1-e-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "hal:R05": {
+   "probe_id": "f3-e-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "hal:R06": {
+   "probe_id": "f3-i-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  },
+  "hal:R07": {
+   "probe_id": "f3-e-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  },
+  "hal:R08": {
+   "probe_id": "f1-p-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  },
+  "hal:R09": {
+   "probe_id": "f1-i-probe-01",
+   "arms": [
+    "paragraph"
+   ]
+  },
+  "hal:R10": {
+   "probe_id": "c-e-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  },
+  "hal:R11": {
+   "probe_id": "f1-p-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "hal:R12": {
+   "probe_id": "c-e-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "hal:R13": {
+   "probe_id": "f1-i-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "rzg:c-t-probe-01": {
+   "paragraph": "FACILITATOR"
+  },
+  "rzg:R01": {
+   "probe_id": "f1-i-probe-01",
+   "arms": [
+    "off"
+   ]
+  },
+  "rzg:R02": {
+   "probe_id": "f1-i-probe-01",
+   "arms": [
+    "paragraph"
+   ]
+  },
+  "rzg:R03": {
+   "probe_id": "f3-p-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "rzg:R04": {
+   "probe_id": "f1-p-probe-01",
+   "arms": [
+    "off"
+   ]
+  },
+  "rzg:R05": {
+   "probe_id": "f1-t-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  },
+  "rzg:R06": {
+   "probe_id": "f1-p-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "rzg:R07": {
+   "probe_id": "c-t-probe-01",
+   "arms": [
+    "off"
+   ]
+  },
+  "rzg:R08": {
+   "probe_id": "f1-p-probe-01",
+   "arms": [
+    "paragraph"
+   ]
+  },
+  "rzg:R09": {
+   "probe_id": "f1-i-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "rzg:R10": {
+   "probe_id": "c-t-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "rzg:R11": {
+   "probe_id": "f1-t-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "rzg:R12": {
+   "probe_id": "f1-e-probe-01",
+   "arms": [
+    "sentence"
+   ]
+  },
+  "rzg:R13": {
+   "probe_id": "f3-p-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  },
+  "rzg:R14": {
+   "probe_id": "f1-e-probe-01",
+   "arms": [
+    "off",
+    "paragraph"
+   ]
+  }
+ },
+ "replies": [
+  {
+   "reply": "hal:R01",
+   "world": "hal",
+   "sentences": 20
+  },
+  {
+   "reply": "hal:R02",
+   "world": "hal",
+   "sentences": 18
+  },
+  {
+   "reply": "hal:R03",
+   "world": "hal",
+   "sentences": 18
+  },
+  {
+   "reply": "hal:R04",
+   "world": "hal",
+   "sentences": 16
+  },
+  {
+   "reply": "hal:R05",
+   "world": "hal",
+   "sentences": 15
+  },
+  {
+   "reply": "hal:R06",
+   "world": "hal",
+   "sentences": 29
+  },
+  {
+   "reply": "hal:R07",
+   "world": "hal",
+   "sentences": 17
+  },
+  {
+   "reply": "hal:R08",
+   "world": "hal",
+   "sentences": 15
+  },
+  {
+   "reply": "hal:R09",
+   "world": "hal",
+   "sentences": 16
+  },
+  {
+   "reply": "hal:R10",
+   "world": "hal",
+   "sentences": 17
+  },
+  {
+   "reply": "hal:R11",
+   "world": "hal",
+   "sentences": 14
+  },
+  {
+   "reply": "hal:R12",
+   "world": "hal",
+   "sentences": 13
+  },
+  {
+   "reply": "hal:R13",
+   "world": "hal",
+   "sentences": 17
+  },
+  {
+   "reply": "rzg:R01",
+   "world": "rzg",
+   "sentences": 23
+  },
+  {
+   "reply": "rzg:R02",
+   "world": "rzg",
+   "sentences": 9
+  },
+  {
+   "reply": "rzg:R03",
+   "world": "rzg",
+   "sentences": 13
+  },
+  {
+   "reply": "rzg:R04",
+   "world": "rzg",
+   "sentences": 13
+  },
+  {
+   "reply": "rzg:R05",
+   "world": "rzg",
+   "sentences": 7
+  },
+  {
+   "reply": "rzg:R06",
+   "world": "rzg",
+   "sentences": 13
+  },
+  {
+   "reply": "rzg:R07",
+   "world": "rzg",
+   "sentences": 10
+  },
+  {
+   "reply": "rzg:R08",
+   "world": "rzg",
+   "sentences": 14
+  },
+  {
+   "reply": "rzg:R09",
+   "world": "rzg",
+   "sentences": 22
+  },
+  {
+   "reply": "rzg:R10",
+   "world": "rzg",
+   "sentences": 9
+  },
+  {
+   "reply": "rzg:R11",
+   "world": "rzg",
+   "sentences": 5
+  },
+  {
+   "reply": "rzg:R12",
+   "world": "rzg",
+   "sentences": 10
+  },
+  {
+   "reply": "rzg:R13",
+   "world": "rzg",
+   "sentences": 17
+  },
+  {
+   "reply": "rzg:R14",
+   "world": "rzg",
+   "sentences": 17
+  }
+ ]
+}
