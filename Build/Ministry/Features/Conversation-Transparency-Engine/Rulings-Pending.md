@@ -963,7 +963,9 @@ first four wait on Mark's word. The fifth is ruled. Each is brought back
 to Mark one at a time as the slice that needs it is reached.
 
 ### R43 — CO-1: the M5 two-call gate becomes one sealed call if E2 passes
-**Status:** PENDING — decided by the test. Mark's decision 6 orders the
+**Status:** RULED — 2026-10-03, (b), System Hub decision 43. The reader
+stays and E2 is not run; modern terms come from the dictionary scan alone.
+Mark's decision 6 had ordered the
 test: remove the reader call and keep the safety call sealed and
 blocking. E2 runs the reader on and off on three worlds against the
 sealed probes (cap about $6, sample first).

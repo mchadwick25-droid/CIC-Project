@@ -183,19 +183,9 @@ def run_gate(
 class TurnResult:
     routing_action: str
     routing_reason: str
-    # This turn's gate_decision payload, whole (engine.m4.events' own
-    # required key set). The caller writes it to the event log verbatim -
-    # it does not rebuild one, and until this field existed it could not:
-    # every gate_decision this build ever wrote had asks, register,
-    # out_of_scope, modern_terms, safety and directive all blank, because
-    # the only thing that ever reached the caller was the route. The whole
-    # audit surface Artifact-5 SS5 and the M7 audit read from was empty.
-    #
-    # Assembled here rather than in the caller because this is where the
-    # two gate outcomes actually are, and it is deliberately the RESOLVED
-    # modern_terms that go in: reader_term_id and source: message_scan on
-    # each entry are how an auditor sees which path found a term and what
-    # the model called it first.
+    # This turn's gate_decision payload, whole (engine.m4.events' required
+    # key set), written to the event log verbatim by the caller. Its
+    # modern_terms are the dictionary scan's, each with its source.
     gate: dict = field(default_factory=dict)
     # The safety_state events this turn should append, already validated in
     # shape by engine.m5.safety_accumulation. Assembled here for the same
