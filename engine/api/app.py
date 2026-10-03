@@ -622,27 +622,26 @@ def create_app(
         )
         started = time.monotonic()
         if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
-            if is_table:
-                return _stream_turn(
-                    lambda on_sentence: table_wiring.handle_table_message(**call_kwargs, on_sentence=on_sentence),
-                    lambda result: TableMessageResponse(
-                        **asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None,
-                    ).model_dump(),
-                    lambda result: result.round_open or result.voice is not None,
-                    session_id, started, admission,
-                )
-
-            def interview_done(result) -> dict:
-                done = MessageResponse(**asdict(result)).model_dump()
+            def with_balance(done: dict, result) -> dict:
                 if admission is not None and admission.remaining is not None:
                     done["remaining"] = admission.remaining
+                    if admission.low:
+                        done["low"] = True
                 if admission is not None:
                     done["limit_note"] = admission.limit_note(result.routing_action)
                 return done
 
+            if is_table:
+                return _stream_turn(
+                    lambda on_sentence: table_wiring.handle_table_message(**call_kwargs, on_sentence=on_sentence),
+                    lambda result: with_balance(TableMessageResponse(**asdict(result)).model_dump(), result),
+                    lambda result: result.round_open or result.voice is not None,
+                    session_id, started, admission,
+                )
+
             return _stream_turn(
                 lambda on_sentence: wiring.handle_message(**call_kwargs, on_sentence=on_sentence),
-                interview_done, lambda result: result.voice is not None, session_id, started, admission,
+                lambda result: with_balance(MessageResponse(**asdict(result)).model_dump(), result), lambda result: result.voice is not None, session_id, started, admission,
             )
         voiced = False
         try:
@@ -663,6 +662,8 @@ def create_app(
                 remaining = admission.finish(voiced)
                 if remaining is not None:
                     response.headers[deeper_admission.REMAINING_HEADER] = str(remaining)
+                    if admission.low:
+                        response.headers[deeper_admission.LOW_HEADER] = "1"
         logger.info("message handled ms=%d", (time.monotonic() - started) * 1000)
         return MessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
 

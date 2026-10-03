@@ -30,7 +30,7 @@ describe('CodeEntry', () => {
     fireEvent.click(screen.getByRole('button', { name: 'I have a code' }));
     fireEvent.change(screen.getByLabelText('Your code'), { target: { value: 'abcd 2345 efgh 6789 jklm' } });
     fireEvent.click(screen.getByRole('button', { name: 'Use this code' }));
-    expect(screen.getByRole('status')).toHaveTextContent('Code saved on this device.');
+    expect(await screen.findByRole('status')).toHaveTextContent('Code saved on this device.');
     expect(screen.getByRole('button', { name: 'Remove code' })).toBeInTheDocument();
   });
 
@@ -40,7 +40,7 @@ describe('CodeEntry', () => {
     fireEvent.click(screen.getByRole('button', { name: 'I have a code' }));
     fireEvent.change(screen.getByLabelText('Your code'), { target: { value: 'hello' } });
     fireEvent.click(screen.getByRole('button', { name: 'Use this code' }));
-    expect(screen.getByRole('alert')).toHaveTextContent("That doesn't look like a code. Check it and try again.");
+    expect(await screen.findByRole('alert')).toHaveTextContent("That doesn't look like a code. Check it and try again.");
     expect(screen.getByLabelText('Your code')).toBeInTheDocument();
   });
 
@@ -48,9 +48,9 @@ describe('CodeEntry', () => {
     const { CodeEntry, deeper } = await load(true);
     deeper.saveCode(CODE);
     const { container } = render(<CodeEntry />);
-    deeper.setRemaining(12);
+    deeper.reportBalance(CODE, 12, false);
     expect(await screen.findByText('12 exchanges left on your code.')).toBeInTheDocument();
-    deeper.setRemaining(1);
+    deeper.reportBalance(CODE, 1, false);
     expect(await screen.findByText('1 exchange left on your code.')).toBeInTheDocument();
     expect(container.textContent).not.toMatch(/[$€£]|price|\bcost/i);
   });
@@ -91,26 +91,26 @@ describe('CodeEntry', () => {
     window.history.replaceState(null, '', `/#cic-claim=${'r'.repeat(22)}`);
     const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ codes: [CODE], exchanges: 40 }), { status: 200 }));
     vi.stubGlobal('fetch', fetchMock);
-    localStorage.setItem('cic_code', 'BCDE2345EFGH6789JKLM');
+    localStorage.setItem('cic_codes', JSON.stringify(['BCDE2345EFGH6789JKLM']));
     const { CodeEntry } = await load(true);
     render(<CodeEntry />);
-    expect(screen.getByText(/A code came with this link\. Use it\?/)).toHaveTextContent('You already have a code. Using this one will replace it.');
+    expect(screen.getByText(/A code came with this link\. Use it\?/)).toHaveTextContent('You already have a code. This one will be added to it.');
     expect(fetchMock).not.toHaveBeenCalled();
-    expect(localStorage.getItem('cic_code')).toBe('BCDE2345EFGH6789JKLM');
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual(['BCDE2345EFGH6789JKLM']);
     fireEvent.click(screen.getByRole('button', { name: 'Use it' }));
     expect(await screen.findByText('Code saved on this device.')).toBeInTheDocument();
-    expect(localStorage.getItem('cic_code')).toBe(CODE);
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual(['BCDE2345EFGH6789JKLM', CODE]);
     vi.unstubAllGlobals();
   });
 
   it('keeps the held code when the person says not now', async () => {
     window.history.replaceState(null, '', `/#cic-claim=${'r'.repeat(22)}`);
-    localStorage.setItem('cic_code', CODE);
+    localStorage.setItem('cic_codes', JSON.stringify([CODE]));
     const { CodeEntry } = await load(true);
     render(<CodeEntry />);
     fireEvent.click(screen.getByRole('button', { name: 'Not now' }));
     expect(await screen.findByRole('button', { name: 'Remove code' })).toBeInTheDocument();
-    expect(localStorage.getItem('cic_code')).toBe(CODE);
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([CODE]);
   });
 
   it('does not save a code sent from anywhere else', async () => {
@@ -118,5 +118,21 @@ describe('CodeEntry', () => {
     render(<CodeEntry />);
     fireEvent(window, new MessageEvent('message', { origin: 'https://evil.example', data: { type: 'cic-deeper-code', codes: [CODE] } }));
     expect(screen.getByRole('button', { name: 'I have a code' })).toBeInTheDocument();
+  });
+
+  it('shows a getting-low line and a Get more button, and never hides the way to get more', async () => {
+    const open = vi.fn().mockReturnValue({});
+    vi.stubGlobal('open', open);
+    const { CodeEntry, deeper } = await load(true);
+    deeper.saveCode(CODE);
+    render(<CodeEntry />);
+    deeper.reportBalance(CODE, 4, true);
+    expect(await screen.findByText(/4 exchanges left on your code\. Your code is running low\./)).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: 'Get more' }));
+    expect(open).toHaveBeenCalled();
+    deeper.reportBalance(CODE, 40, false);
+    expect(await screen.findByText('40 exchanges left on your code.')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Get more' })).toBeInTheDocument();
+    vi.unstubAllGlobals();
   });
 });

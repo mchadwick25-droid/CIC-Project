@@ -472,6 +472,34 @@ def test_a_table_the_code_cannot_cover_pauses_and_stays_open(store, usage_store,
     assert not any(e.event_type == "session_closed" for e in store.read_events(sid))
 
 
+# ---- the low-balance flag ---------------------------------------------------------
+
+def test_the_response_says_when_a_code_is_low_and_only_then(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    low_at = runtime.ops.low_balance_at
+    code = code_with(runtime, low_at + 2)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    for i in range(FREE_CAP):
+        say(http, session_id, auth, f"q{i}")
+    first = say(http, session_id, auth, "one")
+    second = say(http, session_id, auth, "two")
+    assert "x-cic-low" not in first.headers
+    assert second.headers["x-cic-remaining"] == str(low_at) and second.headers["x-cic-low"] == "1"
+    no_code_id, no_code_auth = open_session(http)
+    assert "x-cic-low" not in say(http, no_code_id, no_code_auth, "hello").headers
+
+
+def test_the_stream_says_low_in_its_final_event(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime, streaming_enabled=True)
+    code = code_with(runtime, runtime.ops.low_balance_at)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    for i in range(FREE_CAP):
+        say(http, session_id, auth, f"q{i}")
+    reply = http.post(f"/api/session/{session_id}/message", json={"text": "more"}, headers={**auth, "Accept": "text/event-stream"})
+    done = parse_sse(reply.text)[-1][1]
+    assert done["low"] is True and done["remaining"] == runtime.ops.low_balance_at - 1
+
+
 # ---- never mid-answer ------------------------------------------------------------
 
 def test_admission_is_decided_before_the_voice_and_never_during_it(store, usage_store, world_loader, registry, runtime, monkeypatch):
