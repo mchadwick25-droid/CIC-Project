@@ -4,8 +4,7 @@ interface DeleteConversationProps {
   onDelete: () => Promise<void>;
 }
 
-// The participant's own deletion request. Wording approved by the project
-// lead, 2026-10-03.
+// The participant's own deletion request.
 export function DeleteConversation({ onDelete }: DeleteConversationProps) {
   const [confirming, setConfirming] = useState(false);
   const [deleting, setDeleting] = useState(false);
