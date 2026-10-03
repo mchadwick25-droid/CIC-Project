@@ -1120,7 +1120,7 @@ S2 is the one slice that touches the conversation engine. What it does, and the 
 
 - **The engine receives only numbers.** `engine/m4/grants.py` defines a grant (a cap and a Facilitator-only flag). `run_turn` and `open_table_round` read the cap and the flag in place of the constants, and treat Facilitator-only exactly like a spent daily allowance. No money word, price or balance exists in the engine. The free defaults read the live constants, so tests that patch them still work.
 - **The API edge turns a code into a grant.** `engine/api/deeper_admission.py` reserves exchanges before the turn and settles them after it, in a `finally` around the interview, stream and Table calls (review note g). A turn the Facilitator answers alone, a failed voice call and a failed stream all give the exchanges back.
-- **A code is spent only on turns the free allowance refuses** (decision 36 in the System Hub log). The first ten exchanges of a sitting stay free.
+- **A code is spent only on turns the free allowance refuses** (decision 42 in the System Hub log). The first ten exchanges of a sitting stay free.
 - **Check-in and crisis at every limit (B3).** The module's limits use the same branch as today's, and System Hub decision 35 already exempts every safety route from it, so the check-in and the fail-closed route are answered at the session limit, the daily limit, the free cap, zero balance, paused, a wrong code, a module error and a Facilitator-only sitting. 24 tests cover the three cases at each of eight limits.
 - **A visitor at the daily session limit opens a Facilitator-only sitting instead of getting a 429 (B2)**, only when the module is on. The marks are kept in memory, like the daily counters, so a restart forgets them.
 - **A valid code lifts the daily session limit and has its own burst bucket (B7).** A group code's bucket is six times larger. Twenty-five students behind one address, on one group code, all get through; without a code the address limit still applies.
@@ -1149,7 +1149,7 @@ Opus reviewed S2 in full (comment on PR #736): three blocking findings and six n
 
 - d. The session-created log line keeps its session id. It carries no client address and no payment state, and another thread's privacy test depends on it.
 - c. Exchanges are reserved before the safety check runs, so on a pooled code with one exchange left a second device's turn is refused while the first is in flight, even if the first turns out to be a safety route. The refusal is the daily close.
-- e. A Table round is charged at its opening (decision 36). If every voice in it then fails on `/continue`, the charge stands.
+- e. A Table round is charged at its opening (decision 42). If every voice in it then fails on `/continue`, the charge stands.
 
 ## 2026-10-03 — Go Deeper S10: the standing proofs
 
@@ -1259,10 +1259,10 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 
 **What this slice does (T0, no behaviour change).** The numbers go into `engine/deeper/ops/go-deeper.yaml` under `tokens`, read and checked at startup (whole numbers; a later round never cheaper than an earlier one; three seats never cheaper than two; packs rise in price and tokens; none under $7). The arithmetic is a pure module, `engine/deeper/tokens.py`. Nothing yet draws tokens: the meter still counts exchanges until T1.
 
-**How I read the opening amount, for Mark to confirm.** A conversation draws its opening amount with its first admitted round, on top of that round's own amount: a solo conversation of three rounds draws 50 + 3 x 20 = 110. The basis page says the $7 pack is 10 conversations and the free day is three solo conversations of three rounds; only 110 a conversation makes both true (1,100 / 110 = 10; 330 / 110 = 3). A test holds those facts.
+**The opening amount (decided by Mark, 2026-10-03).** A conversation draws its opening amount with its first admitted round, on top of that round's own amount: a solo conversation of three rounds draws 50 + 3 x 20 = 110, so the $7 pack is 10 conversations and the free day is three. A Table at three seats is 150 to open plus 100 a round. Nothing is drawn by opening a conversation and leaving without a message. A test holds these facts.
 
 **What the ruling changes next, one slice each, nothing built yet.**
-- T1, the meter: reserve and settle in tokens, by round number and seat count; `table_round_cost` and the exchange count in `X-Cic-Remaining` retire. N7 and decision 36 (a Table round costs 3 exchanges) are superseded by this ruling.
+- T1, the meter: reserve and settle in tokens, by round number and seat count; `table_round_cost` and the exchange count in `X-Cic-Remaining` retire. N7 and decision 42 (a Table round costs 3 exchanges; first numbered 36, corrected) are superseded by this ruling, recorded as System Hub decision 43.
 - T2, the free path: a free conversation stops at three rounds and a free visitor has 330 tokens a day instead of 150 messages and five sittings. That touches the free allowance constants in the engine and `anon_cap.py`, which are the engine redesign's ground; coordinate before editing.
 - T3, the words: every "exchange" in the app, the site pages and the Facilitator's texts becomes tokens, and the pack page offers three packs. Words are Mark's.
 - T4, the door (S5): its priced sum and stages are in dollars already; the paid-voice-quality run (B5) is sized by the longest sitting a pack allows, now 60 conversations at the $30 pack.

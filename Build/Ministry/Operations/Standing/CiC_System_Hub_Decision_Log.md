@@ -6128,11 +6128,13 @@ Report hygiene, parked and not touched here: the note in `engine/m8/reports/live
 Network policy: the sandbox blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com. Widening it is the project lead's, and is the open item already named under source acquisition in CLAUDE.md.
 
 
-## 2026-10-03 - Go Deeper: what a Table round costs against a code (decision 36)
+## 2026-10-03 - Go Deeper: what a Table round costs against a code (decision 42)
 
 The Go Deeper build asked the project lead for the one number slice S2 needed (review note N7).
 
-36. A Table round costs 3 exchanges against a code, paid once when the round opens; the voices that follow in the round cost nothing more. The project lead chose this over 1 and over 2. It matches the measured cost of a round, about 2.5 to 3 times a solo turn, and it is easy to say to a participant. The number is a setting (`CIC_DEEPER_TABLE_ROUND_COST`), so a later change is one value. A code is spent only on turns the free allowance would refuse: past the free cap, or once today's allowance is used. It is never spent on a turn the Facilitator answers alone.
+42. A Table round costs 3 exchanges against a code, paid once when the round opens; the voices that follow in the round cost nothing more. The project lead chose this over 1 and over 2. It matches the measured cost of a round, about 2.5 to 3 times a solo turn, and it is easy to say to a participant. The number is a setting (`CIC_DEEPER_TABLE_ROUND_COST`), so a later change is one value. A code is spent only on turns the free allowance would refuse: past the free cap, or once today's allowance is used. It is never spent on a turn the Facilitator answers alone.
+
+Number corrected 2026-10-03: this entry was first numbered 36, which "Admission is bound to the registry pin" also carries. Decision 36 now means the admission decision; this one is decision 42. The substance of both entries is unchanged.
 
 ---
 
@@ -6248,3 +6250,9 @@ The approved design called for a horizon gate (speaking only from inside a world
 Under decision 36 a world's admission evidence was bound to its whole package hash, so a new gate, which changes only the package's validation report, would force fresh admission runs for every world although nothing the voice reads had changed.
 
 41. Admission binds to the package's compiled content (every compiled/ file with its generated-by stamp removed, `engine.m2.manifest.compiled_content_hash`) and to the current shape hash. Admission reports record this content hash; the conform check requires a passing report on the pinned package's content hash and the current shape, and accepts a report written before content hashes were recorded when it ran on the pinned package itself. A change to what the voice reads, or to the shape, still forces re-admission; a change only to the validation report or the frozen record copy does not. The registry pin and load-time verification stay on the full manifest. The project lead chose this over keeping the whole-package hash and over exempting only the validation report.
+
+## 2026-10-03 - Go Deeper: the unit is tokens (decision 43, a named change order)
+
+The project lead ruled that a code holds tokens, one currency for conversations and rounds alike. Basis: the Token Proportions Study (https://claude.ai/artifact/NHompAUFtzwLVXEBYgbjJ8). The Funding-Strategy log carries the build entry.
+
+43. A code holds tokens. Solo: 50 to open a conversation, 20 a round for rounds 1 to 3, 25 a round from round 4. Table: 50 a seat to open (100 at two seats, 150 at three); a round costs 60 at two seats and 100 at three, and from round 4 it costs 75 and 125. The free allowance is 330 tokens a day, and a free conversation stops after 3 rounds; a code lifts that stop. Packs: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing is sold under $7. A conversation's opening amount is drawn with its first admitted round, on top of that round's own amount, so a three-round solo conversation draws 50 + 3 x 20 = 110: the $7 pack is 10 conversations and the free day is three. Nothing is drawn by opening a conversation and leaving without a message. This supersedes the 2026-10-03 ruling "a code holds exchanges" and decision 42 (a Table round costs 3 exchanges). The meter, the free path, the words and the door change in later slices, one each.
