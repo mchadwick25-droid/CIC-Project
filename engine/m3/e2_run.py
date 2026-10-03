@@ -20,7 +20,8 @@ regeneration:
 
 - "records_only" (--mode records-only): a separate first draft whose
   turn directive carries RECORDS_ONLY below; no regeneration. Compared
-  against the "off" draft of the same probes.
+  against the "off" draft of the same probes. --mode pair writes both
+  drafts from one gate call: "off" and "records_only".
 
 Paid run: every setting is printed before the first billed call, and
 spend is checked against --max-usd after every probe.
@@ -86,7 +87,7 @@ def _transcript(event: dict, *, facilitator: bool = False) -> dict:
 
 def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client, voice_model_id: str,
               safety_model_id: str, spent_before: float, max_usd: float, limit: int | None,
-              mode: str = "arms") -> tuple[list[dict], float, str | None]:
+              mode: str = "arms", probes: list[str] | None = None) -> tuple[list[dict], float, str | None]:
     entry = registry[world_key]
     world, _ = loader.load(world_key, package_dir=REPO_ROOT / entry["package"]["location"],
                            expected_manifest_hash=entry["package"]["manifest_hash"])
@@ -94,7 +95,8 @@ def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client
     names = known_tradition_names(registry, exclude_world_key=world_key)
     spent = spent_before
     out = []
-    for seal in protocol.battery()[:limit]:
+    battery = [s for s in protocol.battery() if probes is None or s["probe_id"] in probes]
+    for seal in battery[:limit]:
         if spent >= max_usd:
             return out, spent, f"stopped before {world_key}:{seal['probe_id']}: spent {spent:.4f} >= cap {max_usd}"
         message = sealed_probes.read_probe(seal["probe_id"])["text"]
@@ -115,7 +117,11 @@ def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client
                       directive=gate.gate_result.routing.directive, session_id=session_id, usage_world_key=world_key,
                       is_other_tradition_first_ask=oos == "other_tradition", self_revision_enabled=False)
 
-        if mode == "records-only":
+        if mode in ("records-only", "pair"):
+            if mode == "pair":
+                draft, rec = _run_ordinary_voice_turn(**common)
+                usage += rec
+                row["arms"]["off"] = _transcript(draft)
             draft, rec = _run_ordinary_voice_turn(**common, correction=RECORDS_ONLY)
             usage += rec
             row["arms"]["records_only"] = _transcript(draft)
@@ -124,7 +130,7 @@ def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client
             row.update(usd=round(cost, 6), seconds=round(time.monotonic() - t0, 2), out_of_scope_class=oos)
             out.append(row)
             print(json.dumps({"world": world_key, "probe": seal["probe_id"], "usd": round(cost, 4), "spent": round(spent, 4),
-                              "records_only": len(row["arms"]["records_only"]["uncited_claim_sentences"])}), flush=True)
+                              **{a: len(v["uncited_claim_sentences"]) for a, v in row["arms"].items()}}), flush=True)
             continue
 
         draft, rec = _run_ordinary_voice_turn(**common)
@@ -166,7 +172,8 @@ def main(argv=None) -> int:
     p.add_argument("--max-usd", type=float, required=True)
     p.add_argument("--authorized-by", required=True)
     p.add_argument("--limit", type=int, default=None, help="first N probes per world (default all)")
-    p.add_argument("--mode", choices=("arms", "records-only"), default="arms")
+    p.add_argument("--probes", default=None, help="comma-separated probe ids to run (default the whole battery)")
+    p.add_argument("--mode", choices=("arms", "records-only", "pair"), default="arms")
     p.add_argument("--settings-only", action="store_true")
     p.add_argument("--out", default=None)
     args = p.parse_args(argv)
@@ -176,10 +183,10 @@ def main(argv=None) -> int:
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", args.region)
     safety_model_id = resolve_model_id("us.anthropic.claude-haiku-4-5", args.region)
     settings = {
-        "worlds": worlds, "probes_per_world": args.limit or len(protocol.battery()),
+        "worlds": worlds, "probes_per_world": args.limit or len(protocol.battery()), "probes": args.probes,
         "voice_model_id": voice_model_id, "safety_model_id": safety_model_id, "region": args.region,
-        "mode": args.mode, "arms": ["records_only"] if args.mode == "records-only" else list(ARMS),
-        "records_only_directive": RECORDS_ONLY if args.mode == "records-only" else None, "self_revision": "off (production)", "sentence_enforce": "off (production)",
+        "mode": args.mode, "arms": {"records-only": ["records_only"], "pair": ["off", "records_only"]}.get(args.mode, list(ARMS)),
+        "records_only_directive": RECORDS_ONLY if args.mode != "arms" else None, "self_revision": "off (production)", "sentence_enforce": "off (production)",
         "max_usd": args.max_usd, "authorized_by": args.authorized_by,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in worlds},
     }
@@ -194,7 +201,7 @@ def main(argv=None) -> int:
     for w in worlds:
         rows, spent, aborted = run_world(w, registry=registry, loader=loader, client=client, voice_model_id=voice_model_id,
                                          safety_model_id=safety_model_id, spent_before=spent, max_usd=args.max_usd, limit=args.limit,
-                                         mode=args.mode)
+                                         mode=args.mode, probes=args.probes.split(",") if args.probes else None)
         report["worlds"][w] = rows
         if aborted:
             break
