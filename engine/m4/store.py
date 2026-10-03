@@ -127,7 +127,7 @@ class Store:
         """Delete every event of every session whose latest event is older
         than `cutoff` (ISO-8601, compared as text like list_session_ids).
         Returns the number of sessions deleted. The 90-day conversation
-        retention (System Hub decision 28) calls this daily."""
+        retention (System Hub decision 34) calls this daily."""
         with self._connect() as conn:
             stale = [sid for (sid,) in conn.execute(
                 "SELECT session_id FROM session_events GROUP BY session_id HAVING MAX(created_at) < ?", (cutoff,)

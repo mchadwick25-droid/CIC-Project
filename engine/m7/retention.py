@@ -1,4 +1,4 @@
-"""Daily retention (System Hub decision 28), run in-process inside the
+"""Daily retention (System Hub decision 34), run in-process inside the
 cic-engine web service like the other daily jobs (engine/m7/scheduler.py's
 module docstring says why it cannot be a separate Render service):
 conversations inactive for 90 days are deleted from the event log, and

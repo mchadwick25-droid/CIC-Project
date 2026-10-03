@@ -814,7 +814,7 @@ def _build_real_app() -> FastAPI:
     )
 
     # The anonymous quality-control store and the daily retention job
-    # (System Hub decision 28): conversations inactive for 90 days leave
+    # (System Hub decision 34): conversations inactive for 90 days leave
     # the event log; QC answer text older than 90 days is deleted.
     qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
     retention.start_background_scheduler(

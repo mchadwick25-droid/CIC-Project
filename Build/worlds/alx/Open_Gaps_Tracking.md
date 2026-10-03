@@ -379,3 +379,17 @@ Not decided here: whether term senses, quote lens notes and story contrast shoul
 Related: OG-12 (`alx.term.theosis` carries `world_word: theosis`, a later noun).
 
 Status: OPEN — no record changed.
+
+### OG-14. Seven alx force, gravity and world_core fields cleared of builder tags, 2026-10-03 — closes the seven-field part of OG-12; the post-400 question stays open
+
+OG-12 left seven fields carrying builder tags, because each failed the readability gate when edited. They are now rewritten in plain prose and pass the gate: `alx.force.persecution`, `alx.force.platonic-environment`, `alx.force.transmission-ending`, `alx.force.transmission-ongoing`, `alx.gravity.martyrdom-contemplative-tension`, `alx.gravity.soul-transformation`, and the thinness field of `alx.core.alexandria`.
+
+How it was done: long names and terms stayed (Diocletianic, theosis, the Cappadocian synthesis, catechesis, the Paedagogus). Short sentences cleared the floor. Where a build word became plain words, the plain words carry the same meaning: hagiography and martyrology became "saints' lives and martyr records", and "the literate-attested ecology" became "the part of the community that literate sources attest". An Opus reviewer checked every claim against the old text and the vendored texts, found no added name, date or source, and required 14 wording fixes, all applied. Dropped as build apparatus: the "In the world's own experience:" labels, "cross-build", "SCOPE:", the TRANSMITTED / LOST / TRANSFORMED headings, in-prose confidence tags (now said in plain words), and the pointer "see thin_topics above".
+
+One reason went with its tag: the soul-transformation field said the intensified desert versions are excluded "(cross-build)". It now says they are not part of it. That they belong to the desert world's own build no longer appears in the field.
+
+Not checked against a vendored source by the reviewer: Numenius and Albinus (Middle Platonism), the Antonine persecution, and the Era of the Martyrs. One observation, not changed here: the martyrdom field gives toleration as 311 and 313. The vendored Eusebius edition's editor note dates the Constantine and Licinius edict to 312 (npnf201 lines 50257-50258). That is an editor's note and not Eusebius's own text.
+
+Still carried from OG-12: the `[2A - ...]` style tag in each force and gravity `name`, as in every world, and the question of whether to review force and gravity records for post-400 content.
+
+Status: CLOSED for the seven fields. OG-12 stays OPEN for the post-400 question.

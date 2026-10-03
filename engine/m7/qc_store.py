@@ -1,4 +1,4 @@
-"""The quality-control store (System Hub decisions 7, 19 and 28): one row per
+"""The quality-control store (System Hub decisions 7, 19 and 34): one row per
 turn, kept apart from the event log and the usage log and holding nothing
 that leads back to a person. A turn is found by a random conversation
 token that exists only here and in the running server's memory, never in
