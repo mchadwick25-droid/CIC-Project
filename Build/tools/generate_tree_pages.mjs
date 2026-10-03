@@ -175,9 +175,12 @@ function hasOwnWorldStory(movementId) {
   return Array.isArray(story) && story.length > 0;
 }
 
+const treeManifestPath = path.join(audioDir, 'manifest.json');
+const treeAudioManifest = fs.existsSync(treeManifestPath) ? JSON.parse(fs.readFileSync(treeManifestPath, 'utf-8')) : {};
+
 function hasNarration(movementId) {
   if (hasOwnWorldStory(movementId)) return false;
-  return fs.existsSync(path.join(audioDir, `${movementId}.mp3`));
+  return Boolean(treeAudioManifest[movementId]);
 }
 
 function generatePageHtml(movement) {
