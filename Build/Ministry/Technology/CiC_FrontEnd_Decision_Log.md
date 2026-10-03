@@ -5326,6 +5326,27 @@ narration tool reports 515 stories, all up to date, so no entry is left stale.
 
 None.
 
+## 2026-10-03 — Representative greetings and voiced starter answers: not built
+
+**Decision.** No spoken Representative greeting and no recorded answers to the
+tradition pages' "Start with the hard one" questions. The Facilitator's welcome
+(2026-10-02) stays the only spoken opening in the one-to-one conversation.
+
+**Why.** A greeting that names the Representative conflicts with the voice
+records: every Representative speaks in a strict we-voice, and the name and role
+label are never used as the voice's own self-description. A recorded answer under
+each hard question was tried next. Mark ruled it out: those questions are prompts
+the visitor asks in the conversation, so a recorded answer beside them answers the
+question the page invites the visitor to ask. The starter questions also rarely
+match the approved answers' own questions (2 of 9 in the Syriac world).
+
+**Spent.** 286 credits on two sample clips (one Wittenberg, one Syriac), not
+added to the repository. Voiced approved answers elsewhere (36 of them, about
+5,760 credits) were not generated.
+
+### Next action
+
+None.
 ## 2026-10-03 — One narration player across the site, with a speed choice
 
 **Decision.** Mark chose the quiet, typographic player (option C of three working
