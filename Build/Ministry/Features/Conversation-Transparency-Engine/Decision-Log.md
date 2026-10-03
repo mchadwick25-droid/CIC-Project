@@ -6221,3 +6221,13 @@ Step two, verify: one short call per proposed pair, the sentence and that record
 Added: 489 citations. Opus adjudication of every one against its record's text (`engine/m3/reports/e3/adjudication/`): carries 387 (79.1%), partly 95 (19.4%), wrong 7 (1.4%). On the 33 graded replies (three per world, Entries 94 and 95), substituting those verdicts into the off grades: gate measure 45.2% to 33.1%, uncited 41.6% to 29.3%, and the share of cited claims the record carries 76.7% to 78.1%. Of the variants tried this is the only one that lowers the gate measure and keeps citations at least as honest as the voice's own.
 
 Cost: about $0.01 per turn (Haiku), against about $0.018 for the voice call. The step runs after the reply is complete, so new marks would appear a few seconds after the text. Adopting it is a change to how citations are produced (decision 22 kept the voice's hand-copied ids; this adds a second, verified source of marks), for the project lead.
+
+**Entry 98 — 2026-10-03.** Engine items parked by the Go Deeper build and its Opus review. The Go Deeper module does not fix them; each belongs to this thread. The safety-adjacent ones come first.
+
+1. A crisis message sent to a session already closed by a cap gets only "already closed" (`engine/api/wiring.py:669-671`, raised as `SessionClosed`), with no safety gate and no resources. Recommended: route a message to a cap-closed session through the gate before answering. Go Deeper's slice S11 step 4 (linking the go-deeper page) waits on this fix.
+2. A message sent while a Table round is open gets a 409 before the gate (`engine/api/table_wiring.py:1066-1067`). A crisis message typed mid-round goes unread.
+3. At today's session and daily caps, the check-in and the fail-closed route are capped away (`engine/m4/turn.py:1219-1233`); only acute distress is exempt. Go Deeper's ruling on B3 (decision 31) exempts them at the limits the module adds and leaves today's two limits to this thread.
+4. A message over 4,000 characters is refused before the gate (`engine/api/app.py:186`).
+5. Today's access logs pair client IPs with session-id paths, with or without the module (`engine/Dockerfile:126` runs `--proxy-headers`). This conflicts with CO-6's intent that no IP sits beside a session.
+6. The per-IP burst limits (6 session creations and 40 messages a minute) and the daily visitor cap squeeze any class on one network, paid or free. Go Deeper lifts them only for a valid code.
+7. No cache TTL is set, so the five-minute default applies. The cost model shows about a threefold swing between warm and cold at the project's own pacing convention, and the one-hour write costs 60% more per write. A cost lever for this thread.
