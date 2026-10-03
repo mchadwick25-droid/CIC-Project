@@ -73,6 +73,13 @@ const ELEVENLABS_TTS_URL = (voiceId) => `https://api.elevenlabs.io/v1/text-to-sp
  * pulled down slightly to soften the character, aiming for a reflective,
  * considered read rather than the performed, over-dramatic default.
  */
+/**
+ * Narration is requested and stored as 64 kbps mono: speech needs no more, and
+ * the audio folder is the bulk of the site's size.
+ */
+export const NARRATION_OUTPUT_FORMAT = 'mp3_44100_64';
+export const NARRATION_BITRATE = '64k';
+
 export const defaultVoiceSettings = { stability: 0.95, similarity_boost: 0.68, style: 0.0, use_speaker_boost: true };
 
 export function parseArgs(argv) {
@@ -275,7 +282,7 @@ async function run() {
     try {
       const voiceId = resolveVoiceId(movement.id, { defaultVoiceId });
       const text = narrationTextFor(movement);
-      const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model });
+      const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT });
       fs.writeFileSync(audioPathFor(movement.id), audio);
       succeeded++;
       credits += cost;

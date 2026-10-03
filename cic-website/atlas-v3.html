@@ -41349,11 +41349,9 @@ function openPanel(m){
     if(wa)h+='<h3>The Story</h3>'+narrPlayerHTML('audio/worlds/'+wa.file,' data-sync-story="1"');
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
   }
-  // Narration: every non-built movement's own longDescription is already
-  // synthesized (cic-website/audio/tree/<id>.mp3) - the built worlds' own
-  // narration is deliberately not wired in here yet, since their audio
-  // still narrates the superseded longDescription text rather than their
-  // real, current orientation.story (see tools/generate_tree_narration.mjs).
+  // Narration: a non-built movement's longDescription is read from
+  // audio/tree/<id>.mp3. A built world's story, documented stories and legacy
+  // are read from audio/worlds/ (see worldAudio above).
   if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'
     +'<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(m.id)+'.mp3"></audio>'
     +'<p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
