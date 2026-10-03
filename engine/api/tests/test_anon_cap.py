@@ -75,6 +75,7 @@ def _app(
         anon_visitor_secret=secret,
         anon_daily_session_limit=daily_session_limit,
         anon_daily_turn_limit=daily_turn_limit,
+        deeper=None,
     )
     # base_url must be https: the visitor cookie is Secure (correctly, per
     # this service always sitting behind Render's TLS termination), and
@@ -219,7 +220,7 @@ def test_harvesting_tokens_by_repeatedly_dropping_the_cookie_is_bounded_not_unli
     app = create_app(
         voice_client=fake, voice_model_id="m", safety_client=fake, safety_model_id="m", store=store, usage_store=usage_store,
         world_loader=world_loader, registry=registry, default_world_key="fix", anon_cap_enabled=True, anon_visitor_secret="s3cret",
-        anon_daily_session_limit=limit, anon_daily_turn_limit=150,
+        anon_daily_session_limit=limit, anon_daily_turn_limit=150, deeper=None,
     )
     client = TestClient(app, base_url="https://testserver")
 
