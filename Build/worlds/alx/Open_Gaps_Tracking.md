@@ -362,3 +362,20 @@ Still carrying builder tags: `alx.force.persecution`, `alx.force.platonic-enviro
 Not decided here: whether to review force and gravity records for post-400 content. `alx.force.arab-conquest` (641) and `alx.force.chalcedonian-fracture` (451) are entirely about events after the window, and `alx.term.theosis` carries `world_word: theosis`, a later noun. A first review pass was started and set aside because it changed world content.
 
 Status: OPEN — the seven fields above and the post-400 question.
+
+
+### OG-13. Nineteen of 24 alx term glosses state their meaning against a modern idea, or go beyond what the sources say, 2026-10-03 — no record changed, the rewording waits for the engine build
+
+Twenty-four alx term records open their `plain_meaning` with a "Not…" gloss. They were checked against the vendored texts. The full audit, with every source line and its file and line number, is `Build/Ministry/Operations/Audits/CiC_alx_Term_Gloss_Audit_2026-10-03.md`.
+
+Result: 5 are traced to the sources' own words (ekklesia, metanoia, son-of-god, transformation, word-of-god). 13 say less or something softer than a source states plainly (agape, arete, elpis, homoiosis, interpretation, methexis, mysterion, pistis, prayer, psyche, salvation, sophia, theosis). 5 answer a modern idea the sources never discuss (baptism, christ, episkopos, fasting, oikos). 1 was labelled "source contrary" by the audit (pneuma-hagion) and is better read as unverified. Two of the 13, sophia and pneuma-hagion, are weaker than the audit states; the reviewer note at the top of the audit file says why.
+
+Why it matters: the compiled prompt gives the voice only each term's `plain_meaning` and `quick_meaning`. The four `senses`, the `false_friend` list, a quote's `modern_lens_note` and a story's `modern_contrast` are authored but do not reach the voice (`modern_lens_note` is stripped at compile, `engine/m2/builders.py`). So a soft gloss shapes every answer, not only answers about that term. Two live replies showed it. Theon said "Not that we become gods". That line is in `alx.demo.who-was-jesus` and in `alx.term.theosis`. Clement says "how man may become God" (Protrepticus I, anf02 line 15351). Athanasius says "if we become sons by adoption and grace" (Against the Arians II, npnf204 line 49175). Theon also said baptism is "not a ceremony marking a choice". That line is in `alx.term.baptism` and answers a view the sources never discuss.
+
+Working rules for the check, as stated by the project lead on 2026-10-03: compare each term at three layers (the words, the world's meaning and context, the translation for a modern reader); use the primary texts read fresh together with the world's own records, and flag where they disagree; use historical background only to understand what a statement meant, first from period sources, and only then from a widely accepted, academically neutral later perspective, never as a source, quote or citation; set aside denominational readings and the editors' notes and headings in the vendored editions.
+
+Not decided here: whether term senses, quote lens notes and story contrast should reach the voice. That is an engine-design question and belongs with the current engine build. The project lead decided on 2026-10-03 to let that build finish and be tested before any rewording, then adapt. A first round was proposed (theosis, methexis, prayer, salvation, mysterion, homoiosis, the sample answer `alx.demo.who-was-jesus`, and the baptism line) and has not started.
+
+Related: OG-12 (`alx.term.theosis` carries `world_word: theosis`, a later noun).
+
+Status: OPEN — no record changed.
