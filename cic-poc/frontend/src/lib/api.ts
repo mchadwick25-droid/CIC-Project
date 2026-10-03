@@ -1,13 +1,14 @@
 /**
  * Thin client for engine/api's endpoints (engine/api/app.py). `sendMessage`
- * resolves with the full MessageResponse. Given an `onDraft` callback it
- * also asks for the reply as an event stream: each draft is the next
- * sentences of the reply as the voice finishes them, and the resolved
- * MessageResponse is still the finished turn, which replaces the draft.
- * A server that answers with plain JSON is handled the same way, with no
- * drafts.
+ * resolves with the full MessageResponse. Given an `onSentence` callback it
+ * also asks for the reply as an event stream: each "sentence" event is the
+ * next sentence of the reply, with its marks, as the voice finishes it, and
+ * the resolved MessageResponse is still the finished turn, whose plan is
+ * authoritative. A server that answers with plain JSON is handled the same
+ * way, with no sentences.
  */
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
+import type { StreamedSentence } from './streamedReply';
 
 const API_BASE = '/api';
 
@@ -178,7 +179,7 @@ function parseStreamBlock(block: string): StreamEvent | null {
   return { event, data: JSON.parse(data.join('\n')) };
 }
 
-async function readMessageStream(response: Response, onDraft: (text: string) => void): Promise<MessageResponse> {
+async function readMessageStream(response: Response, onSentence: (sentence: StreamedSentence) => void): Promise<MessageResponse> {
   if (!response.body) throw new ApiRequestError(502, 'the reply stream had no body');
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
@@ -190,9 +191,12 @@ async function readMessageStream(response: Response, onDraft: (text: string) => 
     while (boundary !== -1) {
       const parsed = parseStreamBlock(buffer.slice(0, boundary));
       buffer = buffer.slice(boundary + 2);
-      if (parsed?.event === 'draft') onDraft((parsed.data as { text: string }).text);
+      if (parsed?.event === 'sentence') onSentence(parsed.data as StreamedSentence);
       else if (parsed?.event === 'done') return parsed.data as MessageResponse;
-      else if (parsed?.event === 'error') throw new ApiRequestError((parsed.data as { status: number }).status, 'the reply stream reported an error');
+      else if (parsed?.event === 'error') {
+        const failure = parsed.data as { code: string; status: number; detail: string };
+        throw new ApiRequestError(failure.status, failure.detail);
+      }
       boundary = buffer.indexOf('\n\n');
     }
     if (done) throw new ApiRequestError(502, 'the reply stream ended before the reply finished');
@@ -204,13 +208,13 @@ export async function sendMessage(
   sessionCode: string,
   text: string,
   clientMsgId?: string,
-  onDraft?: (text: string) => void
+  onSentence?: (sentence: StreamedSentence) => void
 ): Promise<MessageResponse> {
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      ...(onDraft ? { Accept: 'text/event-stream, application/json;q=0.9' } : {}),
+      ...(onSentence ? { Accept: 'text/event-stream, application/json;q=0.9' } : {}),
       ...authHeader(sessionCode),
     },
     body: JSON.stringify({ text, client_msg_id: clientMsgId }),
@@ -218,8 +222,8 @@ export async function sendMessage(
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  if (onDraft && (response.headers.get('content-type') ?? '').startsWith('text/event-stream')) {
-    return readMessageStream(response, onDraft);
+  if (onSentence && (response.headers.get('content-type') ?? '').startsWith('text/event-stream')) {
+    return readMessageStream(response, onSentence);
   }
   return response.json();
 }

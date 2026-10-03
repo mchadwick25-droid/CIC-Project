@@ -6219,3 +6219,15 @@ The Go Deeper thread's Opus review found four places where a participant's messa
 Slice 11 found that admission evidence was not tied to the package a world actually serves: most admitted worlds had been repinned since their last live admission run, so their 28/28 results described packages no longer in production.
 
 36. Every world in state admitted or open must have a committed live admission report run on the exact package hash the registry pins. The report must pass all 28 sealed probes, or the probes it failed must match a ruling recorded against that same hash in `engine/m3/admission_rulings.yaml`. `python -m engine.m3.admission_conform` checks this and runs in CI, so a repin without a fresh admission run fails the build. The project lead chose 28/28 or a recorded ruling over a pass threshold.
+
+## 2026-10-03 - Streaming releases each sentence with its marks (decision 38, change order CO-2)
+
+Staging already streamed replies sentence by sentence, as text with no marks, with the marks arriving when the reply finished. Ruling R30 (2026-09-22) had held the opening paragraph back so that the checks could run on it before anything was shown. Those checks now run on each sentence, and since the ruling of 2026-10-02 no check removes a sentence: a sentence that fails verification only loses its mark.
+
+38. Under streaming, each sentence is released once its per-sentence checks have run, carrying the marks the finished plan gives it; the finished plan stays authoritative, and a mark the plan's cap demotes moves to the reference line, never taking a sentence back. This is change order CO-2 on R30 (R44, ruled (a)). Table turns are included: the seat-identity guard runs on each sentence before it is released. The project lead chose this over keeping R30's paragraph hold and over streaming interviews only.
+
+## 2026-10-03 - The R27 gate on streaming is retired (decision 39)
+
+The streaming design of 2026-09-22 (Conversation-Transparency-Engine Decision-Log, Entry 53) said streaming does not ship to participants before R27's own enforcement is on. R27 enforcement regenerates a turn, or hands it to the Facilitator, when a paragraph carries no citation; it has been off in both deploys since. A streamed sentence cannot be regenerated once read, so the two cannot coexist, and uncited claims are now handled without touching the text: verified citation attachment (decisions 32 and 33) and the claim-support gate at admission (decision 25).
+
+39. The Entry 53 condition is retired. Streaming may reach participants when the project lead promotes it, with R27 enforcement left off. Uncited claims are handled by verified citation attachment and by the claim-support gate, whose pass mark the project lead sets once the voice cites every specific claim. The project lead chose this over turning R27 enforcement on first (which would hold every streamed reply whole) and over keeping streaming in staging until the claim-support pass mark is met. Production promotion stays with the project lead.

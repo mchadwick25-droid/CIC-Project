@@ -37,8 +37,9 @@ tagged text before any of it is treated as this turn's answer.
 
 The reply a participant keeps is placed on TurnResult.voice_event only
 after apply_net has checked every sentence. A caller may also ask for a
-draft while the reply is written (on_draft_text, engine.m4.draft_stream):
-the draft is display text only, and the finished reply replaces it.
+stream of the reply's sentences while it is written (on_sentence,
+engine.m4.sentence_stream): each sentence carries the marks the finished
+plan gives it, and the finished reply's plan is authoritative.
 """
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
@@ -46,12 +47,12 @@ from typing import Callable
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns, grounding_net
-from engine.m4.draft_stream import DraftStream
 from engine.m4.generation import stream_voice_turn
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
+from engine.m4.sentence_stream import SentenceStream
 from engine.m4.self_revision import self_revise
 from engine.m4.named_claim_grounding import find_named_claim_flags
 from engine.m4.sentence_fact_check import find_unsupported_named_claims
@@ -431,7 +432,7 @@ def _run_ordinary_voice_turn(
     known_tradition_names: list[str] | None = None,
     self_revision_enabled: bool = True,
     sentence_enforce: bool = False,
-    on_draft_text: Callable[[str], None] | None = None,
+    on_sentence: Callable[[dict], None] | None = None,
     citation_attach_model_id: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
@@ -608,8 +609,8 @@ def _run_ordinary_voice_turn(
     same caller-computed shape as other_tradition_evidence_ids, read at
     the same single place (_other_tradition_directive).
 
-    on_draft_text receives the display text of each sentence as the voice
-    finishes writing it (engine.m4.draft_stream), so a caller can show the
+    on_sentence receives each sentence, with its marks, as the voice
+    finishes writing it (engine.m4.sentence_stream), so a caller can show the
     reply while it is still being written. It is called only when the
     finished reply is guaranteed to be exactly that text (_draft_is_final_text);
     on any other turn it is never called and the caller waits for the whole
@@ -649,15 +650,15 @@ def _run_ordinary_voice_turn(
     user_message = prepared.user_message
     turn_directive = prepared.turn_directive
     on_text = None
-    if on_draft_text is not None and _draft_is_final_text(
+    if on_sentence is not None and _draft_is_final_text(
         guard_labels=guard_labels, is_other_tradition_first_ask=is_other_tradition_first_ask,
         self_revision_enabled=self_revision_enabled, r27_enforce=r27_enforce, sentence_enforce=sentence_enforce,
     ):
-        draft = DraftStream()
+        sentences = SentenceStream(repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics)
 
         def on_text(chunk: str) -> None:
-            if shown := draft.feed(chunk):
-                on_draft_text(shown)
+            for event in sentences.feed(chunk):
+                on_sentence(event)
 
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
@@ -1174,7 +1175,7 @@ def run_turn(
     daily_cap_reached: bool = False,
     turn_cap: int | None = None,
     facilitator_only: bool = False,
-    on_draft_text: Callable[[str], None] | None = None,
+    on_sentence: Callable[[dict], None] | None = None,
     citation_attach_enabled: bool = False,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
@@ -1236,9 +1237,9 @@ def run_turn(
     allowance. A sitting held to either limit still gives a safety route its
     Facilitator turn.
 
-    on_draft_text is passed to the two plain voice routes only. The bridge
+    on_sentence is passed to the two plain voice routes only. The bridge
     route is left out on purpose: its Facilitator turn is read before the
-    voice, so a voice draft shown first would arrive out of order."""
+    voice, so a voice sentence shown first would arrive out of order."""
     # The gate pass, extracted whole to run_gate (Artifact-7 - a table
     # round gates once per message, then runs several voice turns
     # against the same decision). The locals below keep their old names so
@@ -1386,7 +1387,7 @@ def run_turn(
             other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
-            on_draft_text=on_draft_text,
+            on_sentence=on_sentence,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
         )
         return TurnResult(

@@ -6,6 +6,7 @@ import { DoorNarration } from '../components/DoorNarration';
 import { ModernTermMark } from '../components/ModernTermMark';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
+import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
 import { useState } from 'react';
 
@@ -25,7 +26,7 @@ interface ConversationProps {
   world: WorldEntry;
   turns: ConversationTurn[];
   // The reply so far while the voice is still writing it; empty otherwise.
-  draft?: string;
+  streamed?: StreamedSentence[];
   sessionCode: string | null;
   closed: boolean;
   isLoading: boolean;
@@ -41,13 +42,14 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
-export function Conversation({ world, turns, draft = '', sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
+export function Conversation({ world, turns, streamed = [], sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart, onDelete }: ConversationProps) {
   const [deleted, setDeleted] = useState(false);
   const handleDelete = async () => {
     await onDelete?.();
     setDeleted(true);
   };
   const participantTurns = turns.filter((t) => t.speaker === 'participant').length;
+  const reply = streamedReply(streamed, world.worldKey);
 
   return (
     <div className="conversation">
@@ -96,18 +98,18 @@ export function Conversation({ world, turns, draft = '', sessionCode, closed, is
             </div>
           );
         })}
-        {draft && (
+        {reply && (
           <div className="turn turn--voice">
             <div className="turn__speaker sans" style={{ color: world.accentColor }}>
               <img className="turn__avatar" src={world.portraitImage} alt="" />
               {world.representativeName} · {world.cardName}
             </div>
-            <VoiceTurnBody text={draft} citations={[]} />
+            <VoiceTurnBody text={reply.text} citations={[]} transparency={reply.transparency} />
           </div>
         )}
       </div>
 
-      {isLoading && !closed && !draft && (
+      {isLoading && !closed && !reply && (
         <p className="waiting-note sans" role="status">
           {world.representativeName} is considering
           <span className="typing-dots" aria-hidden="true">
