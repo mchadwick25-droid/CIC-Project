@@ -3,14 +3,15 @@
  * much it has left. Shown only when the app is built with the module on.
  */
 import { useState } from 'react';
-import { clearCode, deeperEnabled, saveCode, useDeeper } from '../lib/deeper';
+import { acceptClaim, clearCode, declineClaim, deeperEnabled, getCodeUrl, openGetCode, saveCode, useDeeper } from '../lib/deeper';
 import { deeperCopy } from '../lib/deeperCopy';
 
 export function CodeEntry() {
-  const { code, remaining } = useDeeper();
+  const { code, remaining, claim } = useDeeper();
   const [open, setOpen] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
+
   if (!deeperEnabled) return null;
 
   const submit = (e: React.FormEvent) => {
@@ -23,6 +24,34 @@ export function CodeEntry() {
       setBad(true);
     }
   };
+
+  const getCode = () => {
+    if (!openGetCode()) window.location.assign(getCodeUrl());
+  };
+
+  if (claim) {
+    return (
+      <div className="code-entry sans">
+        <div className="code-entry__form" role="group" aria-label={deeperCopy.claimAsk}>
+          <p className="code-entry__note">
+            {deeperCopy.claimAsk}
+            {code ? ` ${deeperCopy.claimReplace}` : ''}
+          </p>
+          <button type="button" onClick={acceptClaim} disabled={claim.status === 'working'}>
+            {deeperCopy.claimUse}
+          </button>
+          <button type="button" onClick={declineClaim}>
+            {deeperCopy.claimLater}
+          </button>
+          {claim.status === 'failed' && (
+            <p className="code-entry__error" role="alert">
+              {deeperCopy.claimFailed}
+            </p>
+          )}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="code-entry sans">
@@ -57,9 +86,14 @@ export function CodeEntry() {
           )}
         </form>
       ) : (
-        <button type="button" onClick={() => setOpen(true)}>
-          {deeperCopy.haveCode}
-        </button>
+        <>
+          <button type="button" onClick={() => setOpen(true)}>
+            {deeperCopy.haveCode}
+          </button>
+          <button type="button" onClick={getCode}>
+            {deeperCopy.getCode}
+          </button>
+        </>
       )}
     </div>
   );

@@ -1,9 +1,15 @@
 export const deeperCopy = {
   haveCode: 'I have a code',
+  getCode: 'Get a code',
   fieldLabel: 'Your code',
   useCode: 'Use this code',
   saved: 'Code saved on this device.',
   removeCode: 'Remove code',
   badCode: "That doesn't look like a code. Check it and try again.",
+  claimAsk: 'A code came with this link. Use it?',
+  claimReplace: 'You already have a code. Using this one will replace it.',
+  claimUse: 'Use it',
+  claimLater: 'Not now',
+  claimFailed: "We couldn't get that code. Try the page where you paid.",
   balance: (n: number) => (n === 1 ? '1 exchange left on your code.' : `${n} exchanges left on your code.`),
 };
