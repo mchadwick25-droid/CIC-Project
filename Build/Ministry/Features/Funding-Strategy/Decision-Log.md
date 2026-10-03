@@ -1188,3 +1188,9 @@ S10 adds `engine/api/tests/test_deeper_proofs.py`, which runs in the engine job 
 - The wording in the file is a draft held for Mark. It is shown as an Artifact and is changed by editing the file.
 - Each further message at a limit without a code costs one safety check, bounded by the daily message count. Accepted by the review.
 - The app and website must show `limit_note` and treat the `limit` kind as a pause, not an ending. That is S6 and S7.
+
+**Opus recheck of #739 (head 63000eb1): no blocking finding.** Notes i to k.
+- i. The runtime's Table round cost and burst multiplier now default to the operations file's values, so tests and production read one source. The meter keeps its own safe default for the group ceiling, because the module imports only the standard library and cannot read the file; the edge passes the file's value in.
+- j. Keeping a sitting open costs one safety check for each further message without a code. The bound is the daily message count: 150 messages a visitor, about $0.75 at most. Mark accepted this when ruling.
+- k. #738 merged with three blocking findings open. #739 removes what it carried. From here a slice is merged only after the review thread has cleared its blocking findings, and the checkpoint says so.
+- Flag-on suite: three older tests assert the module-off contract (a session closes for good at the cap). They now say so with an explicit `deeper=None`. With the module on, a limit pauses, and the new tests cover that.

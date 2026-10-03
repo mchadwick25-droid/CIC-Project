@@ -86,8 +86,8 @@ class DeeperRuntime:
     site_origin: str | None = None
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     clock: Callable[[], float] = field(default=time.time)
-    table_round_cost: int = 3
-    group_burst_multiplier: int = 6
+    table_round_cost: int = field(default_factory=lambda: load_ops().table_round_cost)
+    group_burst_multiplier: int = field(default_factory=lambda: load_ops().group_burst_multiplier)
     ops: DeeperOps | None = None
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
