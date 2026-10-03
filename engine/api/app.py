@@ -113,6 +113,8 @@ def _stream_message(call_kwargs: dict, session_id: str, started: float, admissio
                 done = MessageResponse(**asdict(payload)).model_dump()
                 if admission is not None and admission.remaining is not None:
                     done["remaining"] = admission.remaining
+                    if admission.low:
+                        done["low"] = True
                 if admission is not None:
                     done["limit_note"] = admission.limit_note(payload.routing_action)
                 yield _sse("done", done)
@@ -636,6 +638,8 @@ def create_app(
                 remaining = admission.finish(voiced)
                 if remaining is not None:
                     response.headers[deeper_admission.REMAINING_HEADER] = str(remaining)
+                    if admission.low:
+                        response.headers[deeper_admission.LOW_HEADER] = "1"
         logger.info("message handled ms=%d", (time.monotonic() - started) * 1000)
         return MessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
 

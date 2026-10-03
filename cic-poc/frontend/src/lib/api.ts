@@ -7,7 +7,7 @@
  * A server that answers with plain JSON is handled the same way, with no
  * drafts.
  */
-import { codeHeaders, remainingFromHeader, setRemaining } from './deeper';
+import { codeHeaders, remainingFromHeader, reportBalance } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 
 const API_BASE = '/api';
@@ -160,7 +160,7 @@ export async function sendTableMessage(
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  setRemaining(remainingFromHeader(response.headers.get('X-Cic-Remaining')));
+  reportBalance(remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
   return response.json();
 }
 
@@ -194,8 +194,8 @@ async function readMessageStream(response: Response, onDraft: (text: string) => 
       buffer = buffer.slice(boundary + 2);
       if (parsed?.event === 'draft') onDraft((parsed.data as { text: string }).text);
       else if (parsed?.event === 'done') {
-        const done = parsed.data as MessageResponse & { remaining?: number };
-        setRemaining(typeof done.remaining === 'number' ? done.remaining : null);
+        const done = parsed.data as MessageResponse & { remaining?: number; low?: boolean };
+        reportBalance(typeof done.remaining === 'number' ? done.remaining : null, done.low === true);
         return done;
       }
       else if (parsed?.event === 'error') throw new ApiRequestError((parsed.data as { status: number }).status, 'the reply stream reported an error');
@@ -228,7 +228,7 @@ export async function sendMessage(
   if (onDraft && (response.headers.get('content-type') ?? '').startsWith('text/event-stream')) {
     return readMessageStream(response, onDraft);
   }
-  setRemaining(remainingFromHeader(response.headers.get('X-Cic-Remaining')));
+  reportBalance(remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
   return response.json();
 }
 

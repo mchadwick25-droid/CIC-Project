@@ -1205,3 +1205,15 @@ S6 gives the app a way to hold a code and read what the server says. It ships sw
 - **A pause is not an ending.** The new `limit` Facilitator kind keeps the room open and the box enabled. The server's reason line (`limit_note`) shows once under the pause and is not kept, so a reload shows only the pause. The room closes only on `close`, as before.
 - **Words.** The participant words are the set Mark approved on 2026-10-03, in one file, `cic-poc/frontend/src/lib/deeperCopy.ts`. The pause and its reason lines come from the operations file, not the app.
 - **Parked.** After a pause the participant sends their message again once the code is saved; the app does not resend it for them. The flag-on frontend build is checked in S11 with the rest of the turn-on.
+
+## 2026-10-03 — Go Deeper S6, balances: several codes, a getting-low line, Get more always
+
+Mark's description of the product, 2026-10-03: the buying sits beside the conversation; at any time a person can open the popup, buy, and the access updates without leaving; they are told how much they have, and told again when they are getting close to needing more. Mark also said the price will be worked out later, using a token system that balances opening new conversations and rounds. This slice builds only what does not depend on that.
+
+- **Several codes.** The app holds a short list of codes, each once, in the order they came. It sends the first one not known to be spent. When the one in use runs out the app moves to the next and drops the spent one; the last code is kept even when spent, so the server can say why it cannot carry on. A code added while one is held is added to it, not swapped, which also settles the review's note d on the popup. The balance line shows what the codes hold together, from each reply and from the server's own balance route, asked with no cookies.
+- **Getting low.** The server says when the code in use is at or below `low_balance_at` in the operations file (5 today, Mark's number to set). It sends `X-Cic-Low` on the reply and `low` in the stream's final event. The app shows its getting-low line only when no other code is held to carry on with.
+- **Get more is always there**, with a code held or not, beside the balance line.
+- **A typed code is checked on the spot** against the server's balance route, so a wrong one is refused in plain words instead of being saved; if the server cannot be reached the code is kept and the next reply says.
+- **Tokens.** The meter counts a plain whole number. A token system with different costs for opening a conversation and for a round changes what is charged at which step, not how a balance is held, so this slice does not stand in its way. The charge at opening a conversation is a separate change at the engine seam and waits for Mark's numbers.
+- **New participant words, for Mark:** "Get more", "Your code is running low.", and the changed line "You already have a code. This one will be added to it."
+- **Stale local build.** A frontend build left in `cic-poc/frontend/dist` makes the engine answer 405 where a test expects 404; the build output is derived and ignored, so nothing is committed.

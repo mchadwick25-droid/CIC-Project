@@ -9,7 +9,7 @@ import { useSyncExternalStore } from 'react';
 
 export const deeperEnabled = import.meta.env.VITE_DEEPER_ENABLED === 'on';
 
-const STORAGE_KEY = 'cic_code';
+const STORAGE_KEY = 'cic_codes';
 const SITE_ORIGIN = import.meta.env.VITE_DEEPER_SITE_ORIGIN || 'https://churchinconversation.com';
 const MESSAGE_TYPE = 'cic-deeper-code';
 const ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
@@ -31,21 +31,51 @@ export interface PendingClaim {
 }
 
 interface DeeperState {
-  code: string | null;
+  codes: string[];
+  balances: Record<string, number | null>;
+  // What the codes held add up to, or null before anything has reported.
   remaining: number | null;
+  // The code in use is nearly spent and nothing else is held to carry on with.
+  low: boolean;
   claim: PendingClaim | null;
 }
 
-function readStoredCode(): string | null {
+function readStoredCodes(): string[] {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? normalizeCode(raw) : null;
+    return raw ? parseCodes(raw) : [];
   } catch {
-    return null;
+    return [];
   }
 }
 
-let state: DeeperState = { code: deeperEnabled ? readStoredCode() : null, remaining: null, claim: null };
+function parseCodes(raw: string): string[] {
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    const seen: string[] = [];
+    for (const item of parsed) {
+      const code = typeof item === 'string' ? normalizeCode(item) : null;
+      if (code && !seen.includes(code)) seen.push(code);
+    }
+    return seen;
+  } catch {
+    return [];
+  }
+}
+
+function writeStoredCodes(codes: string[]) {
+  try {
+    if (codes.length === 0) localStorage.removeItem(STORAGE_KEY);
+    else localStorage.setItem(STORAGE_KEY, JSON.stringify(codes));
+  } catch {
+    // Storage blocked: the codes still work until the tab closes.
+  }
+}
+
+const emptyState = (codes: string[]): DeeperState => ({ codes, balances: {}, remaining: null, low: false, claim: null });
+
+let state: DeeperState = emptyState(deeperEnabled ? readStoredCodes() : []);
 const listeners = new Set<() => void>();
 
 function update(next: DeeperState) {
@@ -53,37 +83,106 @@ function update(next: DeeperState) {
   listeners.forEach((listener) => listener());
 }
 
-/** Saves a code this browser will send from now on. Returns false when the text is not a code. */
+function total(codes: string[], balances: Record<string, number | null>): number | null {
+  const known = codes.map((code) => balances[code]).filter((n): n is number => typeof n === 'number');
+  return known.length === 0 ? null : known.reduce((sum, n) => sum + n, 0);
+}
+
+/** The code the next request carries: the first one not known to be spent, else the last held. */
+function activeCode(): string | null {
+  const usable = state.codes.find((code) => state.balances[code] !== 0);
+  return usable ?? state.codes[state.codes.length - 1] ?? null;
+}
+
+/** What the server says one code has left, by asking on the code's own account. */
+async function refreshBalance(code: string) {
+  try {
+    const response = await fetch('/api/deeper/balance', { credentials: 'omit', headers: { 'X-Cic-Code': code } });
+    if (response.status === 404) {
+      forget(code);
+      return;
+    }
+    if (!response.ok) return;
+    const body = (await response.json()) as { remaining?: unknown };
+    if (typeof body.remaining === 'number') setBalanceOf(code, body.remaining);
+  } catch {
+    // The balance shows when the next reply reports it.
+  }
+}
+
+function setBalanceOf(code: string, remaining: number) {
+  if (!state.codes.includes(code)) return;
+  let codes = state.codes;
+  const balances = { ...state.balances, [code]: remaining };
+  // A spent code is dropped once another is held to carry on with.
+  if (remaining === 0 && codes.length > 1) {
+    codes = codes.filter((c) => c !== code);
+    delete balances[code];
+    writeStoredCodes(codes);
+  }
+  update({ ...state, codes, balances, remaining: total(codes, balances) });
+}
+
+function forget(code: string) {
+  const codes = state.codes.filter((c) => c !== code);
+  const balances = { ...state.balances };
+  delete balances[code];
+  writeStoredCodes(codes);
+  update({ ...state, codes, balances, remaining: total(codes, balances), low: false });
+}
+
+/** Adds a code to the ones this browser holds. Returns false when the text is not a code. */
 export function saveCode(raw: string): boolean {
   const code = normalizeCode(raw);
   if (!code) return false;
-  try {
-    localStorage.setItem(STORAGE_KEY, code);
-  } catch {
-    // Storage blocked: the code still works until the tab closes.
+  if (state.codes.includes(code)) {
+    update({ ...state, claim: null });
+    return true;
   }
-  update({ code, remaining: null, claim: null });
+  const codes = [...state.codes, code];
+  writeStoredCodes(codes);
+  update({ ...state, codes, claim: null });
+  void refreshBalance(code);
   return true;
 }
 
-export function clearCode() {
+/**
+ * A code the person typed: checked with the server first, so a wrong one is
+ * refused on the spot. If the server cannot be reached the code is kept and
+ * checked by the next reply.
+ */
+export async function addCode(raw: string): Promise<boolean> {
+  const code = normalizeCode(raw);
+  if (!code) return false;
   try {
-    localStorage.removeItem(STORAGE_KEY);
+    const response = await fetch('/api/deeper/balance', { credentials: 'omit', headers: { 'X-Cic-Code': code } });
+    if (response.status === 404) return false;
   } catch {
-    // Nothing to clean up if storage isn't available.
+    // Unreachable: keep it and let the next reply say.
   }
-  update({ ...state, code: null, remaining: null });
+  return saveCode(code);
 }
 
-/** The balance a response reported, or null when it reported none. */
-export function setRemaining(remaining: number | null) {
-  if (!deeperEnabled || state.remaining === remaining) return;
-  update({ ...state, remaining });
+export function clearCode() {
+  writeStoredCodes([]);
+  update(emptyState([]));
+}
+
+/** What a reply reported for the code it was sent with, and whether the server called it low. */
+export function reportBalance(remaining: number | null, low: boolean) {
+  if (!deeperEnabled) return;
+  const code = activeCode();
+  if (code === null || remaining === null) return;
+  const others = state.codes.filter((c) => c !== code).reduce((sum, c) => sum + (state.balances[c] ?? 0), 0);
+  setBalanceOf(code, remaining);
+  const nextLow = low && others === 0;
+  if (state.low !== nextLow) update({ ...state, low: nextLow });
 }
 
 /** The header every request carries while a code is held. */
 export function codeHeaders(): Record<string, string> {
-  return deeperEnabled && state.code ? { 'X-Cic-Code': state.code } : {};
+  const code = deeperEnabled ? activeCode() : null;
+  return code ? { 'X-Cic-Code': code } : {};
 }
 
 export function remainingFromHeader(value: string | null): number | null {
@@ -178,6 +277,11 @@ function subscribe(listener: () => void) {
   return () => listeners.delete(listener);
 }
 
+/** The current state without a component, for tests. */
+export function deeperSnapshot(): DeeperState {
+  return state;
+}
+
 export function useDeeper(): DeeperState {
   return useSyncExternalStore(subscribe, () => state);
 }
@@ -190,8 +294,10 @@ export function useDeeper(): DeeperState {
 if (deeperEnabled && typeof window !== 'undefined') {
   window.addEventListener('storage', (event) => {
     if (event.key !== STORAGE_KEY) return;
-    const code = event.newValue ? normalizeCode(event.newValue) : null;
-    if (code !== state.code) update({ ...state, code, remaining: null });
+    const codes = event.newValue ? parseCodes(event.newValue) : [];
+    if (codes.join() === state.codes.join()) return;
+    const balances = Object.fromEntries(Object.entries(state.balances).filter(([code]) => codes.includes(code)));
+    update({ ...state, codes, balances, remaining: total(codes, balances) });
   });
   window.addEventListener('message', (event) => {
     acceptCodeMessage(event);
