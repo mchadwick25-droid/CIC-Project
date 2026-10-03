@@ -76,16 +76,6 @@ def burst_key(runtime: DeeperRuntime, request: Request) -> tuple[str, int] | Non
     return f"code:{codes.hash_code(normal)[:16]}", scale
 
 
-# why a held code could not carry the turn -> which close text is spoken
-_CLOSE_VARIANT = {
-    "spent": "extended_used",
-    "insufficient": "extended_used",
-    "daily_ceiling": "extended_daily",
-    "in_use": "extended_busy",
-    "paused": "extended_paused",
-}
-
-
 class Admission:
     """One request's admission. Build it, hand .provider to the engine, and
     call .finish(voiced) exactly once when the turn is over."""
@@ -108,8 +98,7 @@ class Admission:
             if admission.ok:
                 self._reservation = admission.reservation
                 return TurnGrant(cap=completed + 1, facilitator_only=False)
-            return free_grant(self._free_cap, limited, _CLOSE_VARIANT.get(admission.reason, "open"))
-        return free_grant(self._free_cap, limited, "open" if beyond_free else None)
+        return free_grant(self._free_cap, limited)
 
     def finish(self, voiced: bool) -> int | None:
         """Spends the held exchanges when the turn was voiced, returns them

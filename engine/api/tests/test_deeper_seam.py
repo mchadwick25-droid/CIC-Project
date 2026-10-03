@@ -367,61 +367,6 @@ def test_an_ordinary_message_at_a_limit_gets_a_close_and_no_voice_call(
     assert len(client.voice_requests) == before
 
 
-# ---- which close a limit speaks -------------------------------------------------
-
-from engine.m4 import facilitator_turns as _ft
-
-
-def _close_text(http, session_id, auth):
-    reply = say(http, session_id, auth, "one more")
-    assert reply.json()["routing_action"] == "session_cap_turn"
-    return reply.json()["facilitator"]["text"]
-
-
-def test_a_sitting_with_no_code_at_the_free_cap_speaks_the_open_close(store, usage_store, world_loader, registry, runtime):
-    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
-    session_id, auth = open_session(http)
-    for i in range(FREE_CAP):
-        say(http, session_id, auth, f"q{i}")
-    assert "If you hold a code" in _close_text(http, session_id, auth)
-
-
-def test_a_spent_code_speaks_its_own_close(store, usage_store, world_loader, registry, runtime):
-    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
-    code = code_with(runtime, 1)
-    session_id, auth = open_session(http, **{"X-Cic-Code": code})
-    for i in range(FREE_CAP + 1):
-        say(http, session_id, auth, f"q{i}")
-    assert _close_text(http, session_id, auth) == _ft.CLOSE_VARIANTS["extended_used"]
-
-
-def test_a_group_code_at_its_daily_ceiling_speaks_the_daily_close(store, usage_store, world_loader, registry, runtime):
-    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
-    code = runtime.meter.mint("group", 50, f"pi_{codes.generate()}", daily_ceiling=1)[0]
-    session_id, auth = open_session(http, **{"X-Cic-Code": code})
-    for i in range(FREE_CAP + 1):
-        say(http, session_id, auth, f"q{i}")
-    assert _close_text(http, session_id, auth) == _ft.CLOSE_VARIANTS["extended_daily"]
-
-
-def test_paused_codes_speak_the_paused_close(store, usage_store, world_loader, registry, runtime):
-    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
-    code = code_with(runtime, 5)
-    runtime.meter.pause(True)
-    session_id, auth = open_session(http, **{"X-Cic-Code": code})
-    for i in range(FREE_CAP):
-        say(http, session_id, auth, f"q{i}")
-    assert _close_text(http, session_id, auth) == _ft.CLOSE_VARIANTS["extended_paused"]
-
-
-def test_without_the_module_the_close_is_the_default_text(store, usage_store, world_loader, registry):
-    http = build(store, usage_store, world_loader, registry, RecordingClient())
-    session_id, auth = open_session(http)
-    for i in range(FREE_CAP):
-        say(http, session_id, auth, f"q{i}")
-    assert "hold a code" not in _close_text(http, session_id, auth)
-
-
 # ---- never mid-answer ------------------------------------------------------------
 
 def test_admission_is_decided_before_the_voice_and_never_during_it(store, usage_store, world_loader, registry, runtime, monkeypatch):
