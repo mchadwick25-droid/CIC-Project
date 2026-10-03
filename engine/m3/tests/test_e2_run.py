@@ -109,3 +109,31 @@ def test_pair_mode_writes_off_then_records_only_from_one_gate(monkeypatch):
                               spent_before=0.0, max_usd=1.0, limit=None, mode="pair")
     assert gates == [1] and fake.corrections == [None, e2.RECORDS_ONLY]
     assert rows[0]["arms"]["off"]["answer_text"] == "plain" and rows[0]["arms"]["records_only"]["answer_text"] == "inside"
+
+
+def test_live_attach_mode_turns_attachment_on_and_records_before_and_after(monkeypatch):
+    calls = []
+
+    def turn(**kw):
+        calls.append(kw.get("citation_attach_model_id"))
+        event = {"text": "A. B.", "citations": [{"sentence": "A.", "record_ids": ["w.x"], "attached": True}],
+                 "grounding": {"sentences": []},
+                 "attempts_meta": {"citation_attach": {"enabled": True, "added": ["A."], "trail": []}}}
+        return event, []
+
+    routing = SimpleNamespace(action="voice_pass_through", out_of_scope_class=None, directive=None)
+    monkeypatch.setattr(e2, "run_gate", lambda **kw: SimpleNamespace(gate_result=SimpleNamespace(routing=routing), usage_records=[]))
+    monkeypatch.setattr(e2, "_run_ordinary_voice_turn", turn)
+    monkeypatch.setattr(e2, "find_uncited_claims", lambda sentences: [{"sentence": "A."}, {"sentence": "B."}])
+    monkeypatch.setattr(e2, "_usd", lambda records: 0.0)
+    monkeypatch.setattr(e2.protocol, "battery", lambda: [{"probe_id": "p1", "cell": "C-I"}])
+    monkeypatch.setattr(e2.sealed_probes, "read_probe", lambda pid: {"text": "q"})
+    monkeypatch.setattr(e2.evidence, "repository_records_by_id", lambda repo: {})
+    monkeypatch.setattr(e2, "known_tradition_names", lambda registry, exclude_world_key: [])
+    loader = SimpleNamespace(load=lambda *a, **kw: (SimpleNamespace(repository=None), None))
+    registry = {"w": {"package": {"location": "x", "manifest_hash": "h"}}}
+    rows, _, _ = e2.run_world("w", registry=registry, loader=loader, client=None, voice_model_id="v", safety_model_id="s",
+                              spent_before=0.0, max_usd=1.0, limit=None, mode="live-attach")
+    arm = rows[0]["arms"]["live_attach"]
+    assert calls == ["s"]
+    assert arm["uncited_before_attach"] == ["A.", "B."] and arm["uncited_claim_sentences"] == ["B."]

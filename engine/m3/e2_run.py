@@ -22,6 +22,9 @@ regeneration:
   turn directive carries RECORDS_ONLY below; no regeneration. Compared
   against the "off" draft of the same probes. --mode pair writes both
   drafts from one gate call: "off" and "records_only".
+- "live_attach" (--mode live-attach): one draft on the production turn
+  path with verified citation attachment on (engine/m4/citation_attach.py);
+  the transcript keeps which citations the step added.
 
 Paid run: every setting is printed before the first billed call, and
 spend is checked against --max-usd after every probe.
@@ -117,6 +120,26 @@ def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client
                       directive=gate.gate_result.routing.directive, session_id=session_id, usage_world_key=world_key,
                       is_other_tradition_first_ask=oos == "other_tradition", self_revision_enabled=False)
 
+        if mode == "live-attach":
+            draft, rec = _run_ordinary_voice_turn(**common, citation_attach_model_id=safety_model_id)
+            usage += rec
+            meta = draft["attempts_meta"]["citation_attach"]
+            base = _transcript(draft)
+            row["arms"]["live_attach"] = {
+                **base, "citation_attach": meta,
+                "uncited_before_attach": base["uncited_claim_sentences"],
+                "uncited_claim_sentences": [x for x in base["uncited_claim_sentences"] if x not in set(meta["added"])],
+            }
+            cost = _usd(usage)
+            spent += cost
+            row.update(usd=round(cost, 6), seconds=round(time.monotonic() - t0, 2), out_of_scope_class=oos)
+            out.append(row)
+            print(json.dumps({"world": world_key, "probe": seal["probe_id"], "usd": round(cost, 4), "spent": round(spent, 4),
+                              "uncited_before": len(base["uncited_claim_sentences"]),
+                              "uncited_after": len(row["arms"]["live_attach"]["uncited_claim_sentences"]),
+                              "attached": len(meta["added"])}), flush=True)
+            continue
+
         if mode in ("records-only", "pair"):
             if mode == "pair":
                 draft, rec = _run_ordinary_voice_turn(**common)
@@ -173,7 +196,7 @@ def main(argv=None) -> int:
     p.add_argument("--authorized-by", required=True)
     p.add_argument("--limit", type=int, default=None, help="first N probes per world (default all)")
     p.add_argument("--probes", default=None, help="comma-separated probe ids to run (default the whole battery)")
-    p.add_argument("--mode", choices=("arms", "records-only", "pair"), default="arms")
+    p.add_argument("--mode", choices=("arms", "records-only", "pair", "live-attach"), default="arms")
     p.add_argument("--settings-only", action="store_true")
     p.add_argument("--out", default=None)
     args = p.parse_args(argv)
@@ -185,8 +208,9 @@ def main(argv=None) -> int:
     settings = {
         "worlds": worlds, "probes_per_world": args.limit or len(protocol.battery()), "probes": args.probes,
         "voice_model_id": voice_model_id, "safety_model_id": safety_model_id, "region": args.region,
-        "mode": args.mode, "arms": {"records-only": ["records_only"], "pair": ["off", "records_only"]}.get(args.mode, list(ARMS)),
-        "records_only_directive": RECORDS_ONLY if args.mode != "arms" else None, "self_revision": "off (production)", "sentence_enforce": "off (production)",
+        "mode": args.mode, "arms": {"records-only": ["records_only"], "pair": ["off", "records_only"], "live-attach": ["live_attach"]}.get(args.mode, list(ARMS)),
+        "records_only_directive": RECORDS_ONLY if args.mode in ("records-only", "pair") else None,
+        "citation_attach": "on, safety model" if args.mode == "live-attach" else "off", "self_revision": "off (production)", "sentence_enforce": "off (production)",
         "max_usd": args.max_usd, "authorized_by": args.authorized_by,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in worlds},
     }

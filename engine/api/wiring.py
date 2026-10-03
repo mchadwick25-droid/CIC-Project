@@ -108,7 +108,7 @@ def screen_refused_message(
     safety_model_id: str,
     representative_name: str,
 ) -> "MessageResult | None":
-    """System Hub decision 29: a message the service is about to refuse
+    """System Hub decision 35: a message the service is about to refuse
     unread (a closed session, an over-long message) goes through the safety
     call first. When the safety call routes it to the Facilitator, the
     message, the gate decision and the Facilitator's safety turn are

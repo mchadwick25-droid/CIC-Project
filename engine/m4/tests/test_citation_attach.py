@@ -74,3 +74,47 @@ def test_no_uncited_claims_means_no_calls():
 
 def test_citable_ids_are_prompt_ids_that_are_real_records():
     assert ca.citable_ids(PROMPT + "[[w.ghost]]", RECORDS) == ["w.dw.a", "w.dw.b"]
+
+
+def _reset_guards(monkeypatch):
+    monkeypatch.setattr(ca, "_slots", __import__("threading").BoundedSemaphore(ca.MAX_CONCURRENT))
+    monkeypatch.setattr(ca, "_cooldown_until", 0.0)
+
+
+def test_a_rate_limit_pauses_the_step_for_later_turns(monkeypatch):
+    _reset_guards(monkeypatch)
+
+    class Limited(_Client):
+        def create(self, **kw):
+            self.calls.append(kw)
+            raise anthropic.RateLimitError("slow down", response=httpx.Response(429, request=httpx.Request("POST", "https://x")), body=None)
+
+    added, _, trail = _attach(Limited([], []))
+    assert added == [] and "error" in trail[-1]
+    later = _Client([{"id": "S1", "record_id": "w.dw.a"}], ["carries"])
+    added, usage, trail = _attach(later)
+    assert later.calls == [] and trail == [{"skipped": "cooling down after a rate limit"}]
+
+
+def test_a_turn_with_no_free_slot_skips_the_step(monkeypatch):
+    _reset_guards(monkeypatch)
+    for _ in range(ca.MAX_CONCURRENT):
+        ca._slots.acquire()
+    client = _Client([{"id": "S1", "record_id": "w.dw.a"}], ["carries"])
+    added, _, trail = _attach(client)
+    assert client.calls == [] and trail == [{"skipped": "concurrency cap reached"}]
+
+
+def test_slots_are_released_after_each_turn(monkeypatch):
+    _reset_guards(monkeypatch)
+    for _ in range(ca.MAX_CONCURRENT + 1):
+        added, _, _ = _attach(_Client([{"id": "S1", "record_id": "w.dw.a"}], ["carries"]))
+        assert len(added) == 1
+
+
+def test_check_calls_per_turn_are_capped(monkeypatch):
+    _reset_guards(monkeypatch)
+    monkeypatch.setattr(ca, "MAX_CHECKS_PER_TURN", 1)
+    client = _Client([{"id": "S1", "record_id": "w.dw.a"}, {"id": "S2", "record_id": "w.dw.b"}], ["carries"])
+    added, _, trail = _attach(client)
+    assert len(client.calls) == 2 and trail[-1]["verdict"] == "skipped: check cap"

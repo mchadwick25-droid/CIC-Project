@@ -1132,7 +1132,7 @@ def safety_route_facilitator_events(gate_run, *, representative_name: str, track
     check-in, which is deliberately not an answer. One owner for these
     turns, so a message the service would otherwise refuse unread (a
     closed session, an open table round, an over-long message - decision
-    29) gets exactly what an ordinary turn would."""
+    35) gets exactly what an ordinary turn would."""
     action = gate_run.gate_result.routing.action
     if action == "check_in_turn":
         return [facilitator_turns.check_in_turn()]
@@ -1265,7 +1265,7 @@ def run_turn(
     # Every safety route is exempt from both caps, not acute distress
     # alone: a check-in (an uncertain or failed safety call) and a
     # dependency check are safety turns too, and a limit must never turn
-    # them away (System Hub decision 29).
+    # them away (System Hub decision 35).
     is_safety_route = action in SAFETY_ROUTES
     if not is_safety_route and daily_cap_reached:
         return TurnResult(

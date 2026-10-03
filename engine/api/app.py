@@ -179,7 +179,7 @@ class SessionCreateResponse(BaseModel):
 
 # The hard bound on what the API accepts at all, against a payload attack.
 # Anything over wiring.MAX_MESSAGE_LENGTH (4,000) is read by the safety call
-# and then refused unless it routes to safety (System Hub decision 29).
+# and then refused unless it routes to safety (System Hub decision 35).
 _HARD_MAX_MESSAGE_LENGTH = 20000
 
 

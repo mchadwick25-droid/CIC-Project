@@ -109,7 +109,7 @@ def test_message_over_the_hard_bound_is_refused_before_any_provider_call(store, 
 
 
 def test_an_over_long_message_is_read_by_the_safety_call_then_refused_without_a_voice_call(store, usage_store, world_loader, registry):
-    """System Hub decision 29: between 4,000 characters and the hard bound,
+    """System Hub decision 35: between 4,000 characters and the hard bound,
     the safety call reads the message first; with no safety route it is
     refused as before, and the voice is never called."""
     from engine.api.wiring import MAX_MESSAGE_LENGTH

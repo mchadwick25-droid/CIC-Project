@@ -1049,7 +1049,7 @@ def _screen_refused_table_message(
     safety_client,
     safety_model_id: str,
 ) -> TableMessageResult | None:
-    """System Hub decision 29, at the table: a message about to be refused
+    """System Hub decision 35, at the table: a message about to be refused
     unread (a closed session, an open round, an over-long message) goes
     through the safety call first. On a safety route, an open round is
     closed (reason "safety", no further voice speaks in it) and the message

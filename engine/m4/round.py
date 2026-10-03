@@ -183,7 +183,7 @@ def open_table_round(
     )
     # THE CAP OVERRIDES EVERYTHING EXCEPT A SAFETY ROUTE - same rule, same
     # placement as the interview (checked after routing, before any voice
-    # call is spent; System Hub decision 29). C4: the table unit is
+    # call is spent; System Hub decision 35). C4: the table unit is
     # completed ROUNDS - see TABLE_SESSION_ROUND_CAP's own comment for the
     # resolution and its measured basis.
     is_safety_route = action in SAFETY_ROUTES
