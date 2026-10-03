@@ -26,7 +26,7 @@ from dataclasses import dataclass
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns
-from engine.m4.turn import GateRun
+from engine.m4.turn import SAFETY_ROUTES, GateRun
 from engine.m5.routing import Directive, directive_without_terms
 
 
@@ -181,12 +181,13 @@ def open_table_round(
     is_acute_crisis = (
         action == "safety_turn" and not safety_outcome.failed and safety_outcome.value.get("signal") == "ACUTE_DISTRESS"
     )
-    # THE CAP OVERRIDES EVERYTHING EXCEPT A REAL CRISIS - same rule, same
+    # THE CAP OVERRIDES EVERYTHING EXCEPT A SAFETY ROUTE - same rule, same
     # placement as the interview (checked after routing, before any voice
-    # call is spent). C4: the table unit is completed ROUNDS - see
-    # TABLE_SESSION_ROUND_CAP's own comment for the resolution and its
-    # measured basis.
-    if not is_acute_crisis and daily_cap_reached:
+    # call is spent; System Hub decision 29). C4: the table unit is
+    # completed ROUNDS - see TABLE_SESSION_ROUND_CAP's own comment for the
+    # resolution and its measured basis.
+    is_safety_route = action in SAFETY_ROUTES
+    if not is_safety_route and daily_cap_reached:
         return RoundOpening(
             routing_action="session_cap_turn",
             **{**common, "routing_reason": "visitor daily message cap reached"},
@@ -194,7 +195,7 @@ def open_table_round(
             voices_speak=False,
             session_capped=True,
         )
-    if not is_acute_crisis and rounds_completed >= TABLE_SESSION_ROUND_CAP:
+    if not is_safety_route and rounds_completed >= TABLE_SESSION_ROUND_CAP:
         return RoundOpening(
             routing_action="session_cap_turn",
             **{**common, "routing_reason": f"session round cap reached ({TABLE_SESSION_ROUND_CAP} rounds)"},

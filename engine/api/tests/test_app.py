@@ -91,22 +91,39 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
     assert body["voice"]["text"] == "We did not claim to have seen him ourselves."
 
 
-def test_message_over_the_length_cap_is_refused_before_any_provider_call(store, usage_store, world_loader, registry):
-    """Participant text has a length bound in the request path: unbounded
-    input would be forwarded to Bedrock twice per turn (safety gate +
-    voice). Pydantic's own validation rejects an over-length body before
-    the route handler (and so before any provider call) ever runs."""
-    from engine.api.app import _MAX_MESSAGE_LENGTH
+def test_message_over_the_hard_bound_is_refused_before_any_provider_call(store, usage_store, world_loader, registry):
+    """The API's hard bound still stops a payload attack before the route
+    handler, and so before any provider call."""
+    from engine.api.app import _HARD_MAX_MESSAGE_LENGTH
 
-    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
     created = http.post("/api/session", json={"world_key": "fix"}).json()
-
     resp = http.post(
         f"/api/session/{created['session_id']}/message",
         headers={"Authorization": f"Session {created['session_code']}"},
-        json={"text": "x" * (_MAX_MESSAGE_LENGTH + 1)},
+        json={"text": "x" * (_HARD_MAX_MESSAGE_LENGTH + 1)},
     )
     assert resp.status_code == 422
+    assert client.messages.stream_calls == []
+
+
+def test_an_over_long_message_is_read_by_the_safety_call_then_refused_without_a_voice_call(store, usage_store, world_loader, registry):
+    """System Hub decision 29: between 4,000 characters and the hard bound,
+    the safety call reads the message first; with no safety route it is
+    refused as before, and the voice is never called."""
+    from engine.api.wiring import MAX_MESSAGE_LENGTH
+
+    client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
+    resp = http.post(
+        f"/api/session/{created['session_id']}/message",
+        headers={"Authorization": f"Session {created['session_code']}"},
+        json={"text": "x" * (MAX_MESSAGE_LENGTH + 1)},
+    )
+    assert resp.status_code == 422 and "too long" in resp.json()["detail"]
+    assert client.messages.stream_calls == []
 
 
 def test_message_wrong_code_and_missing_session_are_identical_401(store, usage_store, world_loader, registry):

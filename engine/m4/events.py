@@ -69,7 +69,7 @@ REQUIRED_KEYS: dict[str, set[str]] = {
 
 ENUMS: dict[tuple[str, str], set[str]] = {
     ("session_started", "mode"): {"interview", "table"},  # interview: Phase 1's single-voice mode; table: Artifact-7, the multi-voice extension spec O9 priced in
-    ("round_closed", "reason"): {"selector_closed", "cap", "floor_unmet_exhausted"},  # Artifact-7 SS2
+    ("round_closed", "reason"): {"selector_closed", "cap", "floor_unmet_exhausted", "safety"},  # Artifact-7 SS2; "safety": a safety route mid-round (decision 29)
     # seat_correction: the Facilitator taking a turn back after
     # the seat-identity guard exhausted its one regeneration - a distinct
     # kind from "safety" (TABLE_DEPENDENCY_CHECK's own kind), which is
