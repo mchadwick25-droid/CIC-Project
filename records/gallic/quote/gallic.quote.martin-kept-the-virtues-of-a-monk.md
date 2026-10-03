@@ -43,6 +43,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours
+- type: associated-with
+  target: gallic.gravity.monk-bishop
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 `grep -n "objects and virtues of a monk"` returns one hit, line 1125. The chapter div is `<div3

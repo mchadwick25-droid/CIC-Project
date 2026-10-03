@@ -220,10 +220,22 @@ def test_a_waiver_for_a_required_type_on_a_new_world_is_itself_a_failure(monkeyp
     assert any(f.check == "waiver-not-allowed" for f in report.findings)
 
 
-def test_a_grandfathered_world_with_a_live_waiver_reports_the_missing_type_without_failing():
-    report = regate.run_records("witt")
-    assert report.ok
-    assert sum("waived for a grandfathered world" in n for n in report.notes) == 3
+def test_a_grandfathered_world_with_a_live_waiver_reports_the_missing_type_without_failing(monkeypatch):
+    _stub_world(monkeypatch, "zzz", [])
+    monkeypatch.setattr(regate, "GRANDFATHERED_WORLDS", frozenset({*regate.GRANDFATHERED_WORLDS, "zzz"}))
+    waivers = {f"required-record-type/zzz/{t}": "owning finding" for t in ("world_front", "facilitator_brief", "search_record")}
+    waivers["required-site-json/zzz"] = "owning finding"
+    monkeypatch.setattr(cross_world, "ACCEPTED_OPEN", {**cross_world.ACCEPTED_OPEN, **waivers})
+    report = regate.run_records("zzz")
+    assert report.ok, [f.line() for f in report.findings]
+    assert sum("waived for a grandfathered world" in n for n in report.notes) == 4
+
+
+def test_a_grandfathered_world_without_a_waiver_still_fails_for_a_missing_type(monkeypatch):
+    _stub_world(monkeypatch, "zzz", ["world_front"])
+    monkeypatch.setattr(regate, "GRANDFATHERED_WORLDS", frozenset({*regate.GRANDFATHERED_WORLDS, "zzz"}))
+    report = regate.run_records("zzz")
+    assert any(f.check == "required-record-type" and "facilitator_brief" in f.reason for f in report.findings)
 
 
 def test_the_subcommands_register_and_dispatch():

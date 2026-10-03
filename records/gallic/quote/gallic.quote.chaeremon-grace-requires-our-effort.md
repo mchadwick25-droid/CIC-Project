@@ -63,6 +63,8 @@ relations:
   target: gallic.story.germanus-scruple-at-morning-service
 - type: associated-with
   target: gallic.gravity.grace-and-effort
+- type: associated-with
+  target: gallic.force.africa-and-rome-pressure
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "co-operates with our will"`
