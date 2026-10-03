@@ -1161,3 +1161,11 @@ S10 adds `engine/api/tests/test_deeper_proofs.py`, which runs in the engine job 
 - **Already in place from S1 to S3 and S2:** the request-diff (interview, stream and Table, past the free cap), the safety tests at eight limits, route absence with the flag off, never-mid-answer, the log scrub, the 25-student class, the schema tests, the race test.
 - **Still to come:** overlapping sittings against the ceiling, which needs the door (S5).
 - **Recorded next to the Facilitator-only marks:** the marks for sittings a code opens past the session limit are also kept only in memory. After a restart such a sitting is an ordinary one, with its first ten exchanges free. That is bounded, and the daily counters reset on a restart as well.
+
+## 2026-10-03 — Go Deeper S8 (mechanism): which close a limit speaks
+
+S8 carries out the S2-3 change order. The grant now holds a `close_variant`, a plain key. The engine passes it to the Facilitator's close text and looks the key up; it does not know why the key was chosen.
+
+- **Keys.** `open` (no usable code), `extended_used` (balance out, or too few exchanges for a Table round), `extended_daily` (a pooled code at its daily ceiling), `extended_paused`, `extended_busy` (exchanges held by another message). With no variant the default text is unchanged, so the module off changes nothing a participant reads.
+- **Words.** All variant texts are drafts. They are shown to Mark as an Artifact and none can be reached until the flag is on. Each is scored by the turn readability check in a test. Door-stage texts come with S5.
+- **Accepted, recorded.** An `extended_busy` refusal still closes the sitting, as the free path does for a refused turn. Two messages sent at once on one code is rare; a close that can be undone is a separate change.
