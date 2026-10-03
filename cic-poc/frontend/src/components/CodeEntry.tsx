@@ -2,24 +2,15 @@
  * The way in for a participant who holds a code, and the line that says how
  * much it has left. Shown only when the app is built with the module on.
  */
-import { useEffect, useState } from 'react';
-import { acceptCodeMessage, clearCode, deeperEnabled, openGetCode, saveCode, useDeeper } from '../lib/deeper';
+import { useState } from 'react';
+import { acceptClaim, clearCode, declineClaim, deeperEnabled, getCodeUrl, openGetCode, saveCode, useDeeper } from '../lib/deeper';
 import { deeperCopy } from '../lib/deeperCopy';
 
 export function CodeEntry() {
-  const { code, remaining } = useDeeper();
+  const { code, remaining, claim } = useDeeper();
   const [open, setOpen] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
-
-  useEffect(() => {
-    if (!deeperEnabled) return;
-    const onMessage = (event: MessageEvent) => {
-      acceptCodeMessage(event);
-    };
-    window.addEventListener('message', onMessage);
-    return () => window.removeEventListener('message', onMessage);
-  }, []);
 
   if (!deeperEnabled) return null;
 
@@ -33,6 +24,34 @@ export function CodeEntry() {
       setBad(true);
     }
   };
+
+  const getCode = () => {
+    if (!openGetCode()) window.location.assign(getCodeUrl());
+  };
+
+  if (claim) {
+    return (
+      <div className="code-entry sans">
+        <div className="code-entry__form" role="group" aria-label={deeperCopy.claimAsk}>
+          <p className="code-entry__note">
+            {deeperCopy.claimAsk}
+            {code ? ` ${deeperCopy.claimReplace}` : ''}
+          </p>
+          <button type="button" onClick={acceptClaim} disabled={claim.status === 'working'}>
+            {deeperCopy.claimUse}
+          </button>
+          <button type="button" onClick={declineClaim}>
+            {deeperCopy.claimLater}
+          </button>
+          {claim.status === 'failed' && (
+            <p className="code-entry__error" role="alert">
+              {deeperCopy.claimFailed}
+            </p>
+          )}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="code-entry sans">
@@ -71,7 +90,7 @@ export function CodeEntry() {
           <button type="button" onClick={() => setOpen(true)}>
             {deeperCopy.haveCode}
           </button>
-          <button type="button" onClick={openGetCode}>
+          <button type="button" onClick={getCode}>
             {deeperCopy.getCode}
           </button>
         </>

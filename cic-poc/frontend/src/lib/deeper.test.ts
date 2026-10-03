@@ -128,31 +128,75 @@ describe('the code handed back from the popup', () => {
   });
 });
 
-describe('a code carried in the address', () => {
+describe('a purchase reference carried in the address', () => {
+  const REF = 'r'.repeat(22);
   afterEach(() => {
     window.history.replaceState(null, '', '/');
+    vi.unstubAllGlobals();
   });
 
-  it('is saved at load and removed from the address at once', async () => {
-    window.history.replaceState(null, '', '/?mode=table#cic-code=ABCD2345EFGH6789JKLM');
+  it('is removed from the address at once and held, saving nothing until the person agrees', async () => {
+    window.history.replaceState(null, '', `/?mode=table#cic-claim=${REF}`);
     const mod = await load(true);
-    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
     expect(window.location.hash).toBe('');
     expect(window.location.search).toBe('?mode=table');
+    expect(mod.codeHeaders()).toEqual({});
+    expect(localStorage.getItem('cic_code')).toBeNull();
   });
 
-  it('is cleared from the address even when it is not a code, and saves nothing', async () => {
-    window.history.replaceState(null, '', '/#cic-code=nonsense');
+  it('is cleared from the address even when it is not a reference, and nothing is held', async () => {
+    window.history.replaceState(null, '', '/#cic-claim=short');
+    const mod = await load(true);
+    expect(window.location.hash).toBe('');
+    expect(mod.codeHeaders()).toEqual({});
+  });
+
+  it('a code planted in the address is not taken at all', async () => {
+    window.history.replaceState(null, '', '/#cic-code=ABCD2345EFGH6789JKLM');
     const mod = await load(true);
     expect(mod.codeHeaders()).toEqual({});
-    expect(window.location.hash).toBe('');
+    expect(window.location.hash).toBe('#cic-code=ABCD2345EFGH6789JKLM');
   });
 
   it('is left alone when the module is off', async () => {
-    window.history.replaceState(null, '', '/#cic-code=ABCD2345EFGH6789JKLM');
-    const mod = await load(false);
-    expect(mod.codeHeaders()).toEqual({});
-    expect(window.location.hash).toBe('#cic-code=ABCD2345EFGH6789JKLM');
+    window.history.replaceState(null, '', `/#cic-claim=${REF}`);
+    await load(false);
+    expect(window.location.hash).toBe(`#cic-claim=${REF}`);
+  });
+
+  it('on a yes, the app asks its own server and keeps exactly one code', async () => {
+    window.history.replaceState(null, '', `/#cic-claim=${REF}`);
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ codes: ['ABCD 2345 EFGH 6789 JKLM'], exchanges: 40 }), { status: 200 }));
+    vi.stubGlobal('fetch', fetchMock);
+    const mod = await load(true);
+    expect(await mod.acceptClaim()).toBe(true);
+    expect(fetchMock).toHaveBeenCalledWith('/api/deeper/claim', expect.objectContaining({ method: 'POST', body: JSON.stringify({ reference: REF }) }));
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+  });
+
+  it('keeps nothing when the purchase holds several codes, or the server has none, or it cannot be reached', async () => {
+    for (const reply of [
+      () => Promise.resolve(new Response(JSON.stringify({ codes: [CODE, CODE.replace('A', 'B')], exchanges: 40 }), { status: 200 })),
+      () => Promise.resolve(new Response('{}', { status: 404 })),
+      () => Promise.reject(new Error('offline')),
+    ]) {
+      window.history.replaceState(null, '', `/#cic-claim=${REF}`);
+      vi.stubGlobal('fetch', vi.fn().mockImplementation(reply));
+      localStorage.clear();
+      const mod = await load(true);
+      expect(await mod.acceptClaim()).toBe(false);
+      expect(mod.codeHeaders()).toEqual({});
+    }
+  });
+
+  it('is dropped when the person says not now', async () => {
+    window.history.replaceState(null, '', `/#cic-claim=${REF}`);
+    const fetchMock = vi.fn();
+    vi.stubGlobal('fetch', fetchMock);
+    const mod = await load(true);
+    mod.declineClaim();
+    expect(await mod.acceptClaim()).toBe(false);
+    expect(fetchMock).not.toHaveBeenCalled();
   });
 
   it('tells the popup its code is saved, to the site origin only', async () => {
@@ -164,5 +208,35 @@ describe('a code carried in the address', () => {
       source: { postMessage: reply },
     });
     expect(reply).toHaveBeenCalledWith({ type: 'cic-deeper-saved' }, 'https://churchinconversation.com');
+  });
+});
+
+describe('a code saved or removed in another tab', () => {
+  it('is followed by this tab, so a conversation already open uses it', async () => {
+    const mod = await load(true);
+    expect(mod.codeHeaders()).toEqual({});
+    localStorage.setItem('cic_code', CODE);
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: CODE }));
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: null }));
+    expect(mod.codeHeaders()).toEqual({});
+  });
+
+  it('ignores other keys and values that are not codes, and does nothing with the module off', async () => {
+    const on = await load(true);
+    window.dispatchEvent(new StorageEvent('storage', { key: 'something_else', newValue: CODE }));
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: 'nonsense' }));
+    expect(on.codeHeaders()).toEqual({});
+    const off = await load(false);
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_code', newValue: CODE }));
+    expect(off.codeHeaders()).toEqual({});
+  });
+});
+
+describe('a message from the popup', () => {
+  it('is answered on any screen, not only where the code field shows', async () => {
+    const mod = await load(true);
+    window.dispatchEvent(new MessageEvent('message', { origin: 'https://churchinconversation.com', data: { type: 'cic-deeper-code', codes: [CODE] } }));
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
   });
 });
