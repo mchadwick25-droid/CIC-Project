@@ -37,6 +37,25 @@ function readStoredCode(): string | null {
 }
 
 let state: DeeperState = { code: deeperEnabled ? readStoredCode() : null, remaining: null };
+
+/**
+ * A code the return page sent in the address fragment: saved, and removed from
+ * the address at once, so it never sits in the history or a copied link.
+ * A fragment is never sent to a server.
+ */
+export function takeCodeFromAddress(): boolean {
+  if (!deeperEnabled || typeof window === 'undefined') return false;
+  const match = /^#cic-code=([^&]*)$/.exec(window.location.hash);
+  if (!match) return false;
+  let raw = '';
+  try {
+    raw = decodeURIComponent(match[1]);
+  } catch {
+    raw = '';
+  }
+  window.history.replaceState(null, '', window.location.pathname + window.location.search);
+  return saveCode(raw);
+}
 const listeners = new Set<() => void>();
 
 function update(next: DeeperState) {
@@ -94,11 +113,18 @@ export function openGetCode(): boolean {
  * is believed, and only a single well-formed code is kept; a pack of several
  * codes stays in the popup for the buyer to share out.
  */
-export function acceptCodeMessage(event: { origin: string; data: unknown }): boolean {
+export function acceptCodeMessage(event: { origin: string; data: unknown; source?: unknown }): boolean {
   if (!deeperEnabled || event.origin !== SITE_ORIGIN) return false;
   const data = event.data as { type?: unknown; codes?: unknown } | null;
   if (!data || data.type !== MESSAGE_TYPE || !Array.isArray(data.codes) || data.codes.length !== 1) return false;
-  return typeof data.codes[0] === 'string' && saveCode(data.codes[0]);
+  if (typeof data.codes[0] !== 'string' || !saveCode(data.codes[0])) return false;
+  // Tell the popup the code is saved, so it can close; to the site's origin only.
+  try {
+    (event.source as { postMessage: (message: unknown, origin: string) => void } | null)?.postMessage({ type: 'cic-deeper-saved' }, SITE_ORIGIN);
+  } catch {
+    // The popup is gone; it will fall back to sending its own window here.
+  }
+  return true;
 }
 
 function subscribe(listener: () => void) {
@@ -109,6 +135,8 @@ function subscribe(listener: () => void) {
 export function useDeeper(): DeeperState {
   return useSyncExternalStore(subscribe, () => state);
 }
+
+takeCodeFromAddress();
 
 /** For tests: put the module back as a fresh load would find it. */
 export function resetDeeperForTests(code: string | null = null) {

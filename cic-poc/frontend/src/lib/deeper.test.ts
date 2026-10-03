@@ -127,3 +127,42 @@ describe('the code handed back from the popup', () => {
     vi.unstubAllGlobals();
   });
 });
+
+describe('a code carried in the address', () => {
+  afterEach(() => {
+    window.history.replaceState(null, '', '/');
+  });
+
+  it('is saved at load and removed from the address at once', async () => {
+    window.history.replaceState(null, '', '/?mode=table#cic-code=ABCD2345EFGH6789JKLM');
+    const mod = await load(true);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
+    expect(window.location.hash).toBe('');
+    expect(window.location.search).toBe('?mode=table');
+  });
+
+  it('is cleared from the address even when it is not a code, and saves nothing', async () => {
+    window.history.replaceState(null, '', '/#cic-code=nonsense');
+    const mod = await load(true);
+    expect(mod.codeHeaders()).toEqual({});
+    expect(window.location.hash).toBe('');
+  });
+
+  it('is left alone when the module is off', async () => {
+    window.history.replaceState(null, '', '/#cic-code=ABCD2345EFGH6789JKLM');
+    const mod = await load(false);
+    expect(mod.codeHeaders()).toEqual({});
+    expect(window.location.hash).toBe('#cic-code=ABCD2345EFGH6789JKLM');
+  });
+
+  it('tells the popup its code is saved, to the site origin only', async () => {
+    const mod = await load(true);
+    const reply = vi.fn();
+    mod.acceptCodeMessage({
+      origin: 'https://churchinconversation.com',
+      data: { type: 'cic-deeper-code', codes: ['ABCD 2345 EFGH 6789 JKLM'] },
+      source: { postMessage: reply },
+    });
+    expect(reply).toHaveBeenCalledWith({ type: 'cic-deeper-saved' }, 'https://churchinconversation.com');
+  });
+});
