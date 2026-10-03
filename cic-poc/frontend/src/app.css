@@ -445,6 +445,40 @@ button {
   margin-top: 8px;
 }
 
+.door-narration__play {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--color-mark-dot);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.door-narration__play:hover {
+  filter: brightness(1.15);
+}
+
+.door-narration__play:focus-visible {
+  outline: 2px solid var(--color-mark-dot);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.door-narration__icon {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+  flex: none;
+}
+
 .door-narration__note {
   color: var(--color-text-muted);
   font-size: 0.72rem;

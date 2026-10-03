@@ -214,10 +214,6 @@ svg#world{display:block;overflow:visible}
 #panel .narration-opts{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem;
   font-family:"Alegreya Sans",sans-serif;font-size:.78rem;color:var(--ink-faded);margin:.3rem 0 .4rem}
 #panel .narration-opts label{display:inline-flex;align-items:center;gap:.35rem;margin:0}
-#panel .narration-speed{display:inline-flex;align-items:center;gap:.25rem}
-#panel .narration-speed button{font:inherit;color:var(--iron-gall);background:transparent;cursor:pointer;
-  border:1px solid var(--ink-faded);border-radius:3px;min-width:2.5rem;min-height:2rem;padding:0 .35rem}
-#panel .narration-speed button[aria-pressed="true"]{background:var(--tyrian);border-color:var(--tyrian);color:var(--parchment)}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
@@ -41189,23 +41185,7 @@ function narrAddControls(){
   box.type='checkbox'; box.checked=narrAuto();
   box.addEventListener('change',()=>narrSetAuto(box.checked));
   label.appendChild(box); label.appendChild(document.createTextNode('Start narration automatically'));
-  const speed=document.createElement('span');
-  speed.className='narration-speed'; speed.setAttribute('role','group'); speed.setAttribute('aria-label','Narration speed');
-  speed.appendChild(document.createTextNode('Speed'));
-  const buttons=NARR_RATES.map(r=>{
-    const btn=document.createElement('button');
-    btn.type='button'; btn.dataset.rate=String(r); btn.textContent=r+'\u00d7';
-    btn.addEventListener('click',()=>{
-      try{localStorage.setItem(NARR_RATE_KEY,String(r));}catch(e){}
-      panelBody.querySelectorAll('audio').forEach(narrApplyRate);
-      syncButtons();
-    });
-    speed.appendChild(btn);
-    return btn;
-  });
-  function syncButtons(){buttons.forEach(btn=>btn.setAttribute('aria-pressed',String(parseFloat(btn.dataset.rate)===narrRate())));}
-  syncButtons();
-  wrap.appendChild(label); wrap.appendChild(speed);
+  wrap.appendChild(label);
   first.parentNode.insertBefore(wrap,first);
   panelBody.querySelectorAll('audio').forEach(narrApplyRate);
 }function narrCardReady(){narrAddControls();startNarration(mainNarration());}
@@ -41946,5 +41926,6 @@ window.OrientationRender = RENDERERS;
 window.OrientationNarrationUrls = narrationUrls;
 if (window.__orientationRenderResolve) window.__orientationRenderResolve(RENDERERS);
 </script>
+<script src="assets/narration-player.js" defer></script>
 </body>
 </html>

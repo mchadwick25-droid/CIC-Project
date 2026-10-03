@@ -133,7 +133,6 @@ Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: cic-
 Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: cic-poc/frontend/src/data/worldIcons.tsx
 Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: cic/texts/npnf211_...xml
 Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: records/worlds.yaml
-Build/worlds/_cross-world/dossiers/roman-church-gregorian_Source_Readiness_Dossier.md: worlds/rcg
 Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md: packages/alx/2026-09-04T16-41-49Z
 Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md: records/worlds.yaml
 Build/worlds/alx/Doc_02_Source_Ecology.md: records/worlds.yaml
@@ -730,7 +729,6 @@ Build/worlds/lpc/lpc_Decision_Log.md: World-Builds/Latin-Pastoral-Congregational
 Build/worlds/lpc/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
 Build/worlds/lpc/lpc_Decision_Log.md: packages/lpc
 Build/worlds/lpc/lpc_Decision_Log.md: records/worlds.yaml
-Build/worlds/lpc/lpc_Decision_Log.md: records/worlds/lpc.yaml
 Build/worlds/lpc/lpc_World_Profile.md: L4-Templates/World_Profile_Template.md
 Build/worlds/lpc/lpc_World_Profile.md: World-Builds/Donatism/don_Decision_Log.md
 Build/worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md: Build/Ministry/Operations/CiC_L1-L5_Systematic_Audit_2026-07-19.md
