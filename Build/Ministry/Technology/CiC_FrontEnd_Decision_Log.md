@@ -5407,3 +5407,35 @@ off), and the three-review-round files under `Build/worlds/witt/`.
 ### Next action
 
 None.
+
+## 2026-10-03 — Narration audio converted to 64 kbps mono
+
+**Decision.** Mark asked about the audio folder (887 MB of the site's 916 MB) and
+chose to convert the files above 64 kbps after listening to three side-by-side
+samples (a world story, a tree description, a gap story) and hearing no
+difference.
+
+**What was found first.** The 62 gap stories, 281 tree descriptions and 54 world
+recordings were true 128 kbps files, because the world and tree tools did not ask
+ElevenLabs for a format and got its 128 kbps default. The 515 documented stories
+were already 64 kbps. An earlier statement that the world files were a doubled
+64 kbps was wrong and is corrected here.
+
+**Done.** The 397 files above 64 kbps were re-encoded to 64 kbps mono, 44.1 kHz,
+metadata stripped; 515 MB became 258 MB, and the audio folder 887 MB to 632 MB.
+Names, voices, speeds and lengths are unchanged, so no page, manifest or player
+needed an edit. Every converted file was checked two ways: its stored length
+against the original (0 mismatches) and a full decode (0 decoder errors, longest
+difference 0.085 s). A converted tree file and a converted world story play and
+seek in Chromium. `Build/tools/generate_world_narration.mjs` and
+`generate_tree_narration.mjs` now request `mp3_44100_64` and encode at 64 kbps
+mono, and the world manifest records `outputFormat` for newly generated pieces.
+
+**What this does not fix.** Git keeps the old 128 kbps files in history, and this
+commit adds the 258 MB of new files to it, so a fresh clone is larger until the
+history is cleaned or the audio moves out of git (an infrastructure decision for
+Mark). The working tree is smaller.
+
+### Next action
+
+None for the conversion. Moving the audio to object storage remains open.
