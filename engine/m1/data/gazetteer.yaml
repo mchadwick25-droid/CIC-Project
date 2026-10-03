@@ -1,0 +1,34 @@
+# Dated events the horizon gate checks a world's voice-facing text against.
+# Each entry: the year the event happened (or the thing it names first
+# existed) and the whole-word patterns that name it. A world whose window
+# ends before that year may not speak of it. The fleet modern_term records'
+# origin years are read alongside this list (engine.m1.horizon).
+- {label: "the Diocletianic persecution", year: 303, patterns: ["Great Persecution", "Diocletianic persecution"]}
+- {label: "the Edict of Milan", year: 313, patterns: ["Edict of Milan"]}
+- {label: "the Council of Nicaea", year: 325, patterns: ["Council of Nicaea", "Nicene Council", "Nicene Creed"]}
+- {label: "Athanasius' Thirty-Ninth Festal Letter", year: 367, patterns: ["Festal Letter of 367", "Thirty-Ninth Festal Letter", "39th Festal Letter"]}
+- {label: "the Edict of Thessalonica", year: 380, patterns: ["Edict of Thessalonica"]}
+- {label: "the Council of Constantinople", year: 381, patterns: ["Council of Constantinople", "Niceno-Constantinopolitan"]}
+- {label: "the Conference of Carthage", year: 411, patterns: ["Conference of Carthage"]}
+- {label: "the Council of Ephesus", year: 431, patterns: ["Council of Ephesus"]}
+- {label: "the Council of Chalcedon", year: 451, patterns: ["Council of Chalcedon", "Chalcedonian"]}
+- {label: "the end of the western empire", year: 476, patterns: ["Romulus Augustulus", "fall of the Western Empire", "fall of the western Roman Empire"]}
+- {label: "the Second Council of Orange", year: 529, patterns: ["Council of Orange", "Second Council of Orange"]}
+- {label: "the Hijra", year: 622, patterns: ["Hijra", "Hegira"]}
+- {label: "the Arab conquest of Egypt", year: 641, patterns: ["Arab conquest", "Muslim conquest", "Islamic conquest"]}
+- {label: "the Synod of Whitby", year: 664, patterns: ["Synod of Whitby"]}
+- {label: "Charlemagne's coronation", year: 800, patterns: ["Charlemagne"]}
+- {label: "the East-West Schism", year: 1054, patterns: ["Great Schism", "East-West Schism"]}
+- {label: "the First Crusade", year: 1095, patterns: ["First Crusade", "Crusades", "Crusade"]}
+- {label: "the Fourth Lateran Council", year: 1215, patterns: ["Fourth Lateran", "Lateran IV", "transubstantiation"]}
+- {label: "Luther's Ninety-five Theses", year: 1517, patterns: ["Ninety-five Theses", "95 Theses"]}
+- {label: "the protest at Speyer", year: 1529, patterns: ["Protestant", "Protestants", "Protestantism"]}
+- {label: "the Augsburg Confession", year: 1530, patterns: ["Augsburg Confession"]}
+- {label: "the Geneva Ecclesiastical Ordinances", year: 1541, patterns: ["Ecclesiastical Ordinances"]}
+- {label: "the Council of Trent", year: 1545, patterns: ["Council of Trent", "Tridentine"]}
+- {label: "the Book of Common Prayer", year: 1549, patterns: ["Book of Common Prayer"]}
+- {label: "the King James Bible", year: 1611, patterns: ["King James Bible", "King James Version", "Authorized Version"]}
+- {label: "the Synod of Dort", year: 1618, patterns: ["Synod of Dort", "Canons of Dort"]}
+- {label: "the Thirty Years' War", year: 1618, patterns: ["Thirty Years' War", "Thirty Years War"]}
+- {label: "the Westminster Confession", year: 1646, patterns: ["Westminster Confession"]}
+- {label: "the Peace of Westphalia", year: 1648, patterns: ["Peace of Westphalia"]}

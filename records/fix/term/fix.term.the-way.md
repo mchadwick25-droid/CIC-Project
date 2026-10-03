@@ -5,7 +5,7 @@ record_type: term
 schema_version: 2
 status: ready
 register: emic
-canon_cells: []
+canon_cells: [C-I]
 confidence:
   citation_specificity: B
   verification_state: named-not-rechecked
