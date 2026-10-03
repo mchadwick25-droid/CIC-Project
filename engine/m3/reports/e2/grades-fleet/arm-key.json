@@ -1,0 +1,451 @@
+{
+ "key": {
+  "alx:Q01": {
+   "probe_id": "c-p-probe-01",
+   "arm": "records_only"
+  },
+  "alx:Q02": {
+   "probe_id": "f3-t-probe-01",
+   "arm": "off"
+  },
+  "alx:Q03": {
+   "probe_id": "f2-p-probe-01",
+   "arm": "off"
+  },
+  "alx:Q04": {
+   "probe_id": "f3-t-probe-01",
+   "arm": "records_only"
+  },
+  "alx:Q05": {
+   "probe_id": "f2-p-probe-01",
+   "arm": "records_only"
+  },
+  "alx:Q06": {
+   "probe_id": "c-p-probe-01",
+   "arm": "off"
+  },
+  "cappadocian:Q01": {
+   "probe_id": "c-i-probe-01",
+   "arm": "off"
+  },
+  "cappadocian:Q02": {
+   "probe_id": "f3-t-probe-01",
+   "arm": "off"
+  },
+  "cappadocian:Q03": {
+   "probe_id": "c-i-probe-01",
+   "arm": "records_only"
+  },
+  "cappadocian:Q04": {
+   "probe_id": "f3-t-probe-01",
+   "arm": "records_only"
+  },
+  "cappadocian:Q05": {
+   "probe_id": "f4-i-probe-01",
+   "arm": "records_only"
+  },
+  "cappadocian:Q06": {
+   "probe_id": "f4-i-probe-01",
+   "arm": "off"
+  },
+  "desert:Q01": {
+   "probe_id": "f3-i-probe-01",
+   "arm": "off"
+  },
+  "desert:Q02": {
+   "probe_id": "f1-i-probe-01",
+   "arm": "records_only"
+  },
+  "desert:Q03": {
+   "probe_id": "f3-i-probe-01",
+   "arm": "records_only"
+  },
+  "desert:Q04": {
+   "probe_id": "f1-i-probe-01",
+   "arm": "off"
+  },
+  "desert:Q05": {
+   "probe_id": "f3-p-probe-01",
+   "arm": "off"
+  },
+  "desert:Q06": {
+   "probe_id": "f3-p-probe-01",
+   "arm": "records_only"
+  },
+  "don:Q01": {
+   "probe_id": "c-p-probe-01",
+   "arm": "records_only"
+  },
+  "don:Q02": {
+   "probe_id": "f1-p-probe-01",
+   "arm": "off"
+  },
+  "don:Q03": {
+   "probe_id": "c-p-probe-01",
+   "arm": "off"
+  },
+  "don:Q04": {
+   "probe_id": "f1-e-probe-01",
+   "arm": "off"
+  },
+  "don:Q05": {
+   "probe_id": "f1-p-probe-01",
+   "arm": "records_only"
+  },
+  "don:Q06": {
+   "probe_id": "f1-e-probe-01",
+   "arm": "records_only"
+  },
+  "gallic:Q01": {
+   "probe_id": "f3-t-probe-01",
+   "arm": "records_only"
+  },
+  "gallic:Q02": {
+   "probe_id": "f3-t-probe-01",
+   "arm": "off"
+  },
+  "gallic:Q03": {
+   "probe_id": "f3-i-probe-01",
+   "arm": "records_only"
+  },
+  "gallic:Q04": {
+   "probe_id": "c-p-probe-01",
+   "arm": "records_only"
+  },
+  "gallic:Q05": {
+   "probe_id": "f3-i-probe-01",
+   "arm": "off"
+  },
+  "gallic:Q06": {
+   "probe_id": "c-p-probe-01",
+   "arm": "off"
+  },
+  "ijc:Q01": {
+   "probe_id": "f1-i-probe-01",
+   "arm": "records_only"
+  },
+  "ijc:Q02": {
+   "probe_id": "f2-t-probe-01",
+   "arm": "off"
+  },
+  "ijc:Q03": {
+   "probe_id": "c-t-probe-01",
+   "arm": "records_only"
+  },
+  "ijc:Q04": {
+   "probe_id": "f2-t-probe-01",
+   "arm": "records_only"
+  },
+  "ijc:Q05": {
+   "probe_id": "c-t-probe-01",
+   "arm": "off"
+  },
+  "ijc:Q06": {
+   "probe_id": "f1-i-probe-01",
+   "arm": "off"
+  },
+  "pahc:Q01": {
+   "probe_id": "f1-p-probe-01",
+   "arm": "records_only"
+  },
+  "pahc:Q02": {
+   "probe_id": "c-t-probe-01",
+   "arm": "off"
+  },
+  "pahc:Q03": {
+   "probe_id": "c-i-probe-01",
+   "arm": "records_only"
+  },
+  "pahc:Q04": {
+   "probe_id": "c-i-probe-01",
+   "arm": "off"
+  },
+  "pahc:Q05": {
+   "probe_id": "c-t-probe-01",
+   "arm": "records_only"
+  },
+  "pahc:Q06": {
+   "probe_id": "f1-p-probe-01",
+   "arm": "off"
+  },
+  "syr:Q01": {
+   "probe_id": "f3-i-probe-01",
+   "arm": "records_only"
+  },
+  "syr:Q02": {
+   "probe_id": "f2-p-probe-01",
+   "arm": "records_only"
+  },
+  "syr:Q03": {
+   "probe_id": "f2-t-probe-01",
+   "arm": "records_only"
+  },
+  "syr:Q04": {
+   "probe_id": "f2-t-probe-01",
+   "arm": "off"
+  },
+  "syr:Q05": {
+   "probe_id": "f2-p-probe-01",
+   "arm": "off"
+  },
+  "syr:Q06": {
+   "probe_id": "f3-i-probe-01",
+   "arm": "off"
+  },
+  "witt:Q01": {
+   "probe_id": "f1-t-probe-01",
+   "arm": "records_only"
+  },
+  "witt:Q02": {
+   "probe_id": "f4-i-probe-01",
+   "arm": "off"
+  },
+  "witt:Q03": {
+   "probe_id": "f2-i-probe-01",
+   "arm": "off"
+  },
+  "witt:Q04": {
+   "probe_id": "f4-i-probe-01",
+   "arm": "records_only"
+  },
+  "witt:Q05": {
+   "probe_id": "f1-t-probe-01",
+   "arm": "off"
+  },
+  "witt:Q06": {
+   "probe_id": "f2-i-probe-01",
+   "arm": "records_only"
+  }
+ },
+ "replies": [
+  {
+   "reply": "alx:Q01",
+   "sentences": 18
+  },
+  {
+   "reply": "alx:Q02",
+   "sentences": 16
+  },
+  {
+   "reply": "alx:Q03",
+   "sentences": 18
+  },
+  {
+   "reply": "alx:Q04",
+   "sentences": 12
+  },
+  {
+   "reply": "alx:Q05",
+   "sentences": 17
+  },
+  {
+   "reply": "alx:Q06",
+   "sentences": 33
+  },
+  {
+   "reply": "cappadocian:Q01",
+   "sentences": 20
+  },
+  {
+   "reply": "cappadocian:Q02",
+   "sentences": 15
+  },
+  {
+   "reply": "cappadocian:Q03",
+   "sentences": 14
+  },
+  {
+   "reply": "cappadocian:Q04",
+   "sentences": 18
+  },
+  {
+   "reply": "cappadocian:Q05",
+   "sentences": 17
+  },
+  {
+   "reply": "cappadocian:Q06",
+   "sentences": 17
+  },
+  {
+   "reply": "desert:Q01",
+   "sentences": 16
+  },
+  {
+   "reply": "desert:Q02",
+   "sentences": 25
+  },
+  {
+   "reply": "desert:Q03",
+   "sentences": 22
+  },
+  {
+   "reply": "desert:Q04",
+   "sentences": 17
+  },
+  {
+   "reply": "desert:Q05",
+   "sentences": 12
+  },
+  {
+   "reply": "desert:Q06",
+   "sentences": 7
+  },
+  {
+   "reply": "don:Q01",
+   "sentences": 18
+  },
+  {
+   "reply": "don:Q02",
+   "sentences": 23
+  },
+  {
+   "reply": "don:Q03",
+   "sentences": 27
+  },
+  {
+   "reply": "don:Q04",
+   "sentences": 30
+  },
+  {
+   "reply": "don:Q05",
+   "sentences": 14
+  },
+  {
+   "reply": "don:Q06",
+   "sentences": 19
+  },
+  {
+   "reply": "gallic:Q01",
+   "sentences": 13
+  },
+  {
+   "reply": "gallic:Q02",
+   "sentences": 12
+  },
+  {
+   "reply": "gallic:Q03",
+   "sentences": 25
+  },
+  {
+   "reply": "gallic:Q04",
+   "sentences": 19
+  },
+  {
+   "reply": "gallic:Q05",
+   "sentences": 25
+  },
+  {
+   "reply": "gallic:Q06",
+   "sentences": 28
+  },
+  {
+   "reply": "ijc:Q01",
+   "sentences": 17
+  },
+  {
+   "reply": "ijc:Q02",
+   "sentences": 11
+  },
+  {
+   "reply": "ijc:Q03",
+   "sentences": 21
+  },
+  {
+   "reply": "ijc:Q04",
+   "sentences": 17
+  },
+  {
+   "reply": "ijc:Q05",
+   "sentences": 19
+  },
+  {
+   "reply": "ijc:Q06",
+   "sentences": 23
+  },
+  {
+   "reply": "pahc:Q01",
+   "sentences": 15
+  },
+  {
+   "reply": "pahc:Q02",
+   "sentences": 23
+  },
+  {
+   "reply": "pahc:Q03",
+   "sentences": 14
+  },
+  {
+   "reply": "pahc:Q04",
+   "sentences": 17
+  },
+  {
+   "reply": "pahc:Q05",
+   "sentences": 18
+  },
+  {
+   "reply": "pahc:Q06",
+   "sentences": 18
+  },
+  {
+   "reply": "syr:Q01",
+   "sentences": 14
+  },
+  {
+   "reply": "syr:Q02",
+   "sentences": 17
+  },
+  {
+   "reply": "syr:Q03",
+   "sentences": 13
+  },
+  {
+   "reply": "syr:Q04",
+   "sentences": 17
+  },
+  {
+   "reply": "syr:Q05",
+   "sentences": 23
+  },
+  {
+   "reply": "syr:Q06",
+   "sentences": 19
+  },
+  {
+   "reply": "witt:Q01",
+   "sentences": 6
+  },
+  {
+   "reply": "witt:Q02",
+   "sentences": 25
+  },
+  {
+   "reply": "witt:Q03",
+   "sentences": 15
+  },
+  {
+   "reply": "witt:Q04",
+   "sentences": 30
+  },
+  {
+   "reply": "witt:Q05",
+   "sentences": 7
+  },
+  {
+   "reply": "witt:Q06",
+   "sentences": 19
+  }
+ ],
+ "second": [
+  "alx:Q03",
+  "cappadocian:Q01",
+  "cappadocian:Q02",
+  "cappadocian:Q03",
+  "desert:Q03",
+  "don:Q02",
+  "gallic:Q06",
+  "ijc:Q01",
+  "ijc:Q02",
+  "ijc:Q04",
+  "pahc:Q06"
+ ]
+}

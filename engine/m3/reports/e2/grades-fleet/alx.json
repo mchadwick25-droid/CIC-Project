@@ -1,0 +1,554 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "alx:Q01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 3,
+     "label": "stretched",
+     "note": "Foundation-not-ceiling carried; Greek term pistis and darkness imagery not in record."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Quote matches; framing that belief came 'from the side' while studying is interpretation beyond record."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 9,
+     "label": "no_claim"
+    },
+    {
+     "s": 10,
+     "label": "stretched",
+     "note": "Record has Origen pointing to disciples; 'not an argument from scripture' contrast is not carried."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Matches resurrection record text but cites nothing."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Sealed-in-blood claim cites nothing."
+    },
+    {
+     "s": 14,
+     "label": "no_claim"
+    },
+    {
+     "s": 15,
+     "label": "no_claim"
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    },
+    {
+     "s": 17,
+     "label": "no_claim"
+    },
+    {
+     "s": 18,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "alx:Q02",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "unsupported",
+     "note": "Record says the present-church question reaches past what it can see; it does not assert no church continues it."
+    },
+    {
+     "s": 2,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Text is in one-church record but sentence cites nothing."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "unsupported",
+     "note": "Listed beliefs carried, but main claim that the deposit passed into all later churches is not in records."
+    },
+    {
+     "s": 14,
+     "label": "unsupported",
+     "note": "Learning-as-formation carried; allegory and claim about present-day churches not in cited record."
+    },
+    {
+     "s": 15,
+     "label": "no_claim"
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Claim to be 'the thing that was whole' cites nothing."
+    }
+   ]
+  },
+  {
+   "reply": "alx:Q03",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "stretched",
+     "note": "Address vs information carried; 'the one thing that made the text live' is a stronger exclusive claim."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "no_claim"
+    },
+    {
+     "s": 4,
+     "label": "no_claim"
+    },
+    {
+     "s": 5,
+     "label": "stretched",
+     "note": "Depth carried; genealogies showing Logos entering history at every joint not in record."
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 14,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    }
+   ]
+  },
+  {
+   "reply": "alx:Q04",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "supported"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "no_claim"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 8,
+     "label": "no_claim"
+    },
+    {
+     "s": 9,
+     "label": "stretched",
+     "note": "God, Logos, Spirit, transformation carried; three-fold-name baptism and shared bread and cup not in cited records."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 12,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "alx:Q05",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 5,
+     "label": "stretched",
+     "note": "Deeper senses carried; claim those senses were what changed the reader not in allegoria record."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "unsupported",
+     "note": "Scripture-formative record does not carry hard passages placed on purpose to drive reader deeper."
+    },
+    {
+     "s": 10,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 16,
+     "label": "no_claim"
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    }
+   ]
+  },
+  {
+   "reply": "alx:Q06",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 8,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 14,
+     "label": "no_claim"
+    },
+    {
+     "s": 15,
+     "label": "no_claim"
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 19,
+     "label": "stretched",
+     "note": "Story carried; 'not on yourself' not in record's wording of John's speech."
+    },
+    {
+     "s": 20,
+     "label": "no_claim"
+    },
+    {
+     "s": 21,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 22,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 23,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 24,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 25,
+     "label": "no_claim"
+    },
+    {
+     "s": 26,
+     "label": "no_claim"
+    },
+    {
+     "s": 27,
+     "label": "no_claim"
+    },
+    {
+     "s": 28,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 29,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 30,
+     "label": "uncited",
+     "note": "Specific claim with no record cited."
+    },
+    {
+     "s": 31,
+     "label": "no_claim"
+    },
+    {
+     "s": 32,
+     "label": "no_claim"
+    },
+    {
+     "s": 33,
+     "label": "no_claim"
+    }
+   ]
+  }
+ ]
+}

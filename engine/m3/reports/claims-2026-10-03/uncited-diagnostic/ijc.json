@@ -1,0 +1,19 @@
+{"world": "ijc", "items": [
+{"id": "U01", "label": "in_world", "record_id": "ijc.term.homoousios", "note": "Term record: 'Not merely like God - sharing the very being.'"},
+{"id": "U02", "label": "framing", "record_id": null, "note": "Restates U01 in other words; no new claim."},
+{"id": "U03", "label": "partly", "record_id": "ijc.term.homoios", "note": "Records say the Homoian position was not fringe; applying 'not fringe, not defeated early' to the referent here is ambiguous. Less favourable label chosen."},
+{"id": "U04", "label": "in_world", "record_id": "ijc.gravity.precision-seeking", "note": "Gravity: 'the Spirit's full divinity at Constantinople'; the 381 date is in the core and the canons source."},
+{"id": "U05", "label": "partly", "record_id": "ijc.gravity.precision-seeking", "note": "Spirit's divinity is carried; the creed wording 'Lord and life-giver, worshiped and glorified together' is not in the world."},
+{"id": "U06", "label": "partly", "record_id": "ijc.term.basilica", "note": "Hall-style church carried; adds stone walls, columns, apse, bishop's chair, altar placement."},
+{"id": "U07", "label": "in_world", "record_id": "ijc.term.basilica", "note": "Evidential sense: these buildings are what archaeology can still touch."},
+{"id": "U08", "label": "partly", "record_id": "ijc.term.basilica", "note": "Record has foundations and successor churches on the same sites; says nothing of Rome's buildings still standing."},
+{"id": "U09", "label": "in_world", "record_id": "ijc.story.vigil-in-basilica", "note": "Court demanded the basilica for Homoian worship; Ambrose refused; 386."},
+{"id": "U10", "label": "in_world", "record_id": "ijc.story.vigil-in-basilica", "note": "'Soldiers came and stood around the building.'"},
+{"id": "U11", "label": "partly", "record_id": "ijc.term.martyrium", "note": "Verse inscriptions at martyr graves carried; literal 'access roads' adds to a figurative 'pilgrim roads of verse' (dw.ancient-custom)."},
+{"id": "U12", "label": "partly", "record_id": "ijc.term.martyrium", "note": "Claim of Rome's apostolic memory is carried; the rivalry over which city held which apostle is added."},
+{"id": "U13", "label": "in_world", "record_id": "ijc.term.martyrium", "note": "Inscriptions survive; memory made permanent by design."},
+{"id": "U14", "label": "outside", "record_id": null, "note": "Nothing in the world covers which physical furnishings archaeology would or would not recover."},
+{"id": "U15", "label": "framing", "record_id": null, "note": "Interpretive caveat about a silence; no checkable claim."},
+{"id": "U16", "label": "in_world", "record_id": "ijc.term.basilica", "note": "Basilicas built under imperial patronage; this world's record notices them."},
+{"id": "U17", "label": "framing", "record_id": null, "note": "Honest limit restating the office-holder skew (cf. ijc.limit.f5-ordinary-day)."}
+]}

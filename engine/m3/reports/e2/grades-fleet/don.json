@@ -1,0 +1,603 @@
+{
+ "grader": "primary",
+ "replies": [
+  {
+   "reply": "don:Q01",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "stretched",
+     "note": "Record says coming to believe was not a private settling; extending this to the hearer's unbelief is an added application."
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "uncited",
+     "note": "Uncited fragment asserting two bishops."
+    },
+    {
+     "s": 6,
+     "label": "uncited",
+     "note": "Uncited fragment asserting two basilicas."
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "uncited",
+     "note": "Doctrinal claim that the crossing was the believing; no citation."
+    },
+    {
+     "s": 10,
+     "label": "no_claim"
+    },
+    {
+     "s": 11,
+     "label": "no_claim"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Claim about what survives and why; no citation."
+    },
+    {
+     "s": 14,
+     "label": "stretched",
+     "note": "Record has walking to a font; offering 'a body to walk into' to an unbeliever is added framing."
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "stretched",
+     "note": "Counterfactual pastoral claim; record says no pastoral saying survives, only that belief was not private settling."
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Claim about what they would ask; no citation."
+    }
+   ]
+  },
+  {
+   "reply": "don:Q02",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "supported"
+    },
+    {
+     "s": 18,
+     "label": "no_claim"
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    },
+    {
+     "s": 20,
+     "label": "no_claim"
+    },
+    {
+     "s": 21,
+     "label": "no_claim"
+    },
+    {
+     "s": 22,
+     "label": "supported"
+    },
+    {
+     "s": 23,
+     "label": "supported"
+    }
+   ]
+  },
+  {
+   "reply": "don:Q03",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "unsupported",
+     "note": "Cited record says nothing about lacking a method for summoning belief."
+    },
+    {
+     "s": 3,
+     "label": "uncited",
+     "note": "Claim about how they never argued; no citation."
+    },
+    {
+     "s": 4,
+     "label": "stretched",
+     "note": "Record lists two bishops, basilicas, men; that 'we argued outward' from this is not stated."
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "supported"
+    },
+    {
+     "s": 7,
+     "label": "no_claim"
+    },
+    {
+     "s": 8,
+     "label": "no_claim"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "supported"
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "uncited",
+     "note": "Claim that the hands mattered; no citation."
+    },
+    {
+     "s": 16,
+     "label": "supported"
+    },
+    {
+     "s": 17,
+     "label": "supported"
+    },
+    {
+     "s": 18,
+     "label": "uncited",
+     "note": "Doctrinal claim about asking whose hands; no citation."
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    },
+    {
+     "s": 20,
+     "label": "no_claim"
+    },
+    {
+     "s": 21,
+     "label": "uncited",
+     "note": "Specific claim of absence of writing on fear and unanswered prayer; no citation."
+    },
+    {
+     "s": 22,
+     "label": "uncited",
+     "note": "Claim about hostile-mediated record and martyr texts; no citation."
+    },
+    {
+     "s": 23,
+     "label": "no_claim"
+    },
+    {
+     "s": 24,
+     "label": "no_claim"
+    },
+    {
+     "s": 25,
+     "label": "supported"
+    },
+    {
+     "s": 26,
+     "label": "supported"
+    },
+    {
+     "s": 27,
+     "label": "uncited",
+     "note": "Interpretive claim the door was wider; no citation."
+    }
+   ]
+  },
+  {
+   "reply": "don:Q04",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "uncited",
+     "note": "Claim they never disagreed about doctrine; no citation."
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "unsupported",
+     "note": "Cited record speaks of the same books quoted at Carthage, not the same creed recited in every town for a century."
+    },
+    {
+     "s": 4,
+     "label": "uncited",
+     "note": "Trinitarian creed in same Latin words; no citation."
+    },
+    {
+     "s": 5,
+     "label": "unsupported",
+     "note": "Record says nothing about being called schismatics but never heretics."
+    },
+    {
+     "s": 6,
+     "label": "unsupported",
+     "note": "Record does not say the fight was unbearable for lack of doctrinal difference."
+    },
+    {
+     "s": 7,
+     "label": "uncited",
+     "note": "Claim the only question was who could say the words; no citation."
+    },
+    {
+     "s": 8,
+     "label": "unsupported",
+     "note": "Cited record does not say there were no doctrinal disputes."
+    },
+    {
+     "s": 9,
+     "label": "stretched",
+     "note": "Record names original sin, the bread, faith and works; 'how the cross saves' is not in it."
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "stretched",
+     "note": "Record says councils decided who the true church was; recasting internal arguments as 'standing not doctrine' goes beyond it."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "supported"
+    },
+    {
+     "s": 14,
+     "label": "supported"
+    },
+    {
+     "s": 15,
+     "label": "supported"
+    },
+    {
+     "s": 16,
+     "label": "uncited",
+     "note": "Sentence from the record but no citation attached."
+    },
+    {
+     "s": 17,
+     "label": "supported"
+    },
+    {
+     "s": 18,
+     "label": "supported"
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    },
+    {
+     "s": 20,
+     "label": "supported"
+    },
+    {
+     "s": 21,
+     "label": "supported"
+    },
+    {
+     "s": 22,
+     "label": "uncited",
+     "note": "Procedural claim with no citation."
+    },
+    {
+     "s": 23,
+     "label": "supported"
+    },
+    {
+     "s": 24,
+     "label": "supported"
+    },
+    {
+     "s": 25,
+     "label": "supported"
+    },
+    {
+     "s": 26,
+     "label": "stretched",
+     "note": "Record carries the argument; the implication that we cut ourselves off is not in what-we-never-settled."
+    },
+    {
+     "s": 27,
+     "label": "stretched",
+     "note": "Record says the bishop told him never to preach it; 'saw where it led, wrote to him' is not in the cited record."
+    },
+    {
+     "s": 28,
+     "label": "supported"
+    },
+    {
+     "s": 29,
+     "label": "stretched",
+     "note": "Record says he did not recant and was cut off; 'went on saying it from inside' goes beyond the cited text."
+    },
+    {
+     "s": 30,
+     "label": "supported"
+    }
+   ]
+  },
+  {
+   "reply": "don:Q05",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "no_claim"
+    },
+    {
+     "s": 2,
+     "label": "supported"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "stretched",
+     "note": "Force record says experience is unrecoverable; listing fear, doubt, wavering, defection is not in it."
+    },
+    {
+     "s": 5,
+     "label": "stretched",
+     "note": "Force record says martyr texts preserved commemoration; 'vindication, defiant joy' is not in it."
+    },
+    {
+     "s": 6,
+     "label": "no_claim"
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "supported"
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "uncited",
+     "note": "Claim the door was wider than the language; no citation."
+    },
+    {
+     "s": 12,
+     "label": "supported"
+    },
+    {
+     "s": 13,
+     "label": "uncited",
+     "note": "Interpretive claim about the line in practice; no citation."
+    },
+    {
+     "s": 14,
+     "label": "no_claim"
+    }
+   ]
+  },
+  {
+   "reply": "don:Q06",
+   "sentences": [
+    {
+     "s": 1,
+     "label": "stretched",
+     "note": "Record says bishops govern by council and judged dissidents; generalizing that every disagreement was settled by council is added."
+    },
+    {
+     "s": 2,
+     "label": "no_claim"
+    },
+    {
+     "s": 3,
+     "label": "supported"
+    },
+    {
+     "s": 4,
+     "label": "supported"
+    },
+    {
+     "s": 5,
+     "label": "supported"
+    },
+    {
+     "s": 6,
+     "label": "stretched",
+     "note": "Story narrates Tyconius's dispute; the claim it is the one real doctrinal dispute in the record is not carried."
+    },
+    {
+     "s": 7,
+     "label": "supported"
+    },
+    {
+     "s": 8,
+     "label": "stretched",
+     "note": "Record says the bishop told him never to preach it; 'saw where that led, wrote to him' is not in room-for-dissent."
+    },
+    {
+     "s": 9,
+     "label": "supported"
+    },
+    {
+     "s": 10,
+     "label": "supported"
+    },
+    {
+     "s": 11,
+     "label": "unsupported",
+     "note": "Record says he kept saying it after being cut off, so 'enforce silence' is contradicted; condemnation by council is not in the record."
+    },
+    {
+     "s": 12,
+     "label": "uncited",
+     "note": "Claim he was not persuaded; no citation."
+    },
+    {
+     "s": 13,
+     "label": "stretched",
+     "note": "Record carries book's survival and lack of following; using it as evidence he was not persuaded is added inference."
+    },
+    {
+     "s": 14,
+     "label": "stretched",
+     "note": "Record keeps a 'reported' hedge on the condemnation; 'we know' drops it."
+    },
+    {
+     "s": 15,
+     "label": "stretched",
+     "note": "Record says he did not recant; inferring it from what the book said is an added cause."
+    },
+    {
+     "s": 16,
+     "label": "stretched",
+     "note": "Record says he was cut off and never taken back; 'the council's word' and the inference are added."
+    },
+    {
+     "s": 17,
+     "label": "uncited",
+     "note": "Claim no other doctrinal disputes are in the record; no citation."
+    },
+    {
+     "s": 18,
+     "label": "supported"
+    },
+    {
+     "s": 19,
+     "label": "supported"
+    }
+   ]
+  }
+ ]
+}
