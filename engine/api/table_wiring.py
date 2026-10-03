@@ -672,6 +672,7 @@ def _advance_open_round(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
 ) -> TableMessageResult:
     """One voice-turn advance of the open round - selector step, then the
     selected voice's turn, then the close when the cap lands. Re-projects
@@ -1019,6 +1020,17 @@ def _advance_open_round(
     for rec in usage_records:
         usage_store.append(rec)
 
+    if qc_recorder is not None:
+        set_aside = voice_event.get("seat_identity_guard_exhausted") or voice_event.get("r27_enforcement_exhausted")
+        qc_recorder.record_safely(
+            session_id=session_id, world_key=selection.world_key, world=world,
+            package_hash=(state.package_manifest_hashes or {}).get(selection.world_key),
+            model_id=None if set_aside else voice_model_id, question=participant_text,
+            routing_action=routing_action, safety=_last_gate_payload(state).get("safety"),
+            voice_event=None if set_aside else voice_event,
+            answer_text=common["facilitator"][-1].get("text") if set_aside else voice_event.get("text"),
+        )
+
     turns_now = position
     if config.cap_reached(turns_now, num_seats=num_seats):
         # `state` still reflects pre-turn bookkeeping, and round_no/turn_count
@@ -1054,6 +1066,7 @@ def _handle_table_message_unlocked(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
     daily_turn_cap_reached: bool = False,
 ) -> TableMessageResult:
     config = config or RoundConfig()
@@ -1144,6 +1157,13 @@ def _handle_table_message_unlocked(
     if not opening.voices_speak:
         # A governed round: the Facilitator's events above are the whole
         # round (Artifact-7 SS2) - closed immediately, turns: 0.
+        if qc_recorder is not None:
+            qc_recorder.record_safely(
+                session_id=session_id, world_key="table:" + "+".join(sorted(worlds)), world=None,
+                package_hash=None, model_id=None, question=text, routing_action=opening.routing_action,
+                safety=opening.gate.get("safety"), voice_event=None,
+                answer_text=opening.facilitator_events[-1].get("text") if opening.facilitator_events else None,
+            )
         governed_state = project_fresh(session_id, store)
         turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
         return TableMessageResult(
@@ -1163,6 +1183,7 @@ def _handle_table_message_unlocked(
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
+        qc_recorder=qc_recorder,
     )
 
 
@@ -1182,6 +1203,7 @@ def _continue_table_round_unlocked(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1209,6 +1231,7 @@ def _continue_table_round_unlocked(
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
+        qc_recorder=qc_recorder,
     )
 
 
