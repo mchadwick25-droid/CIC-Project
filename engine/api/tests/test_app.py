@@ -9,7 +9,7 @@ from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety
 from engine.api.wiring import history_from_transcript as _history_from
 
 
-def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix", r27_enforce=False):
+def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix", r27_enforce=False, **extra):
     client = voice_client or FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
     app = create_app(
         voice_client=client,
@@ -22,6 +22,7 @@ def _client(*, store, usage_store, world_loader, registry, voice_client=None, sa
         registry=registry,
         default_world_key=default_world_key,
         r27_enforce=r27_enforce,
+        **extra,
     )
     return TestClient(app)
 
@@ -315,7 +316,8 @@ def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, 
         safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
         stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
     )
-    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
+    # The close-for-good at the cap is the module-off contract; with the module on, a limit pauses.
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client, deeper=None)
     created = http.post("/api/session", json={"world_key": "fix"}).json()
     headers = {"Authorization": f"Session {created['session_code']}"}
 

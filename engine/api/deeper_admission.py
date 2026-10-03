@@ -76,13 +76,14 @@ def burst_key(runtime: DeeperRuntime, request: Request) -> tuple[str, int] | Non
     return f"code:{codes.hash_code(normal)[:16]}", scale
 
 
-# why a held code could not carry the turn -> which close text is spoken
-_CLOSE_VARIANT = {
-    "spent": "extended_used",
-    "insufficient": "extended_used",
-    "daily_ceiling": "extended_daily",
-    "in_use": "extended_busy",
-    "paused": "extended_paused",
+# why a held code could not carry the turn -> which line of the operations
+# file the participant is shown (in the response only, never stored)
+_NOTE_FOR_REASON = {
+    "spent": "spent",
+    "insufficient": "too_few",
+    "daily_ceiling": "daily_ceiling",
+    "in_use": "in_use",
+    "paused": "paused",
 }
 
 
@@ -98,7 +99,11 @@ class Admission:
         self._facilitator_only = session_id in runtime.facilitator_only_sessions
         self._paid_sitting = session_id in runtime.paid_sessions
         self._reservation = None
+        self._note_key: str | None = None
         self.remaining: int | None = None
+
+    def _limit_text(self) -> str | None:
+        return self._runtime.ops.limit_text if self._runtime.ops is not None else None
 
     def provider(self, completed: int, daily_cap_reached: bool) -> TurnGrant:
         limited = daily_cap_reached or self._facilitator_only or self._paid_sitting
@@ -108,8 +113,21 @@ class Admission:
             if admission.ok:
                 self._reservation = admission.reservation
                 return TurnGrant(cap=completed + 1, facilitator_only=False)
-            return free_grant(self._free_cap, limited, _CLOSE_VARIANT.get(admission.reason, "open"))
-        return free_grant(self._free_cap, limited, "open" if beyond_free else None)
+            self._note_key = _NOTE_FOR_REASON.get(admission.reason, "code_not_accepted")
+            return free_grant(self._free_cap, limited, self._limit_text())
+        if beyond_free:
+            self._note_key = "no_code"
+            return free_grant(self._free_cap, limited, self._limit_text())
+        return free_grant(self._free_cap, limited)
+
+    def limit_note(self, routing_action: str | None) -> dict | None:
+        """The line explaining a refusal, for the response only. It names why
+        the code could not carry the turn, in the operations file's words; the
+        conversation store holds only the neutral limit text."""
+        ops = self._runtime.ops
+        if routing_action != "session_cap_turn" or self._note_key is None or ops is None:
+            return None
+        return {"key": self._note_key, "text": ops.notes[self._note_key]}
 
     def finish(self, voiced: bool) -> int | None:
         """Spends the held exchanges when the turn was voiced, returns them

@@ -81,7 +81,7 @@ ENUMS: dict[tuple[str, str], set[str]] = {
     # different (unsupported/uncited content, not identity impersonation),
     # even though the mechanism (regenerate once, then hand off) is the
     # same one reused.
-    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "seat_correction", "grounding_correction"},
+    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "limit", "seat_correction", "grounding_correction"},
     ("safety_state", "track"): {"A", "B"},
     ("escalation_pressed", "class"): {"later_age", "other_tradition"},
     ("session_closed", "reason"): {"participant", "idle", "cap"},

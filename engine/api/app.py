@@ -45,27 +45,35 @@ def _message_failure(exc: Exception, session_id: str) -> HTTPException | None:
     """The HTTP answer for each refusal a participant message can meet, or
     None for anything else (a programming error stays a 500 and surfaces as
     itself rather than being reported as a provider problem)."""
+    refusal = _refusal(exc, session_id)
+    return HTTPException(status_code=refusal[0], detail=refusal[1]) if refusal else None
+
+
+def _refusal(exc: Exception, session_id: str) -> tuple[int, str, str] | None:
+    """(status, detail, code) for a refusal. The detail strings are the ones
+    the plain endpoint has always returned; the code is the stable name a
+    stream's error event carries beside it."""
     if isinstance(exc, wiring.SessionNotFound):
-        return HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
+        return 401, _INVALID_SESSION_DETAIL, "invalid_session"
     if isinstance(exc, wiring.SessionClosed):
-        return HTTPException(status_code=409, detail="session already closed")
+        return 409, "session already closed", "session_closed"
     if isinstance(exc, wiring.MessageTooLong):
-        return HTTPException(status_code=422, detail=f"message too long (at most {wiring.MAX_MESSAGE_LENGTH} characters)")
+        return 422, f"message too long (at most {wiring.MAX_MESSAGE_LENGTH} characters)", "message_too_long"
     if isinstance(exc, table_wiring.TableRoundStillOpen):
-        return HTTPException(status_code=409, detail="round still open - continue it before the next message")
+        return 409, "round still open - continue it before the next message", "round_open"
     if isinstance(exc, table_wiring.TableAdvanceInFlight):
-        return HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
+        return 409, "advance already in flight - the table is already speaking", "advance_in_flight"
     if isinstance(exc, wiring.DuplicateMessage):
-        return HTTPException(status_code=409, detail="duplicate message - already received")
+        return 409, "duplicate message - already received", "duplicate_message"
     if isinstance(exc, PackageRefused):
         logger.warning("message refused: package unavailable session=%s", session_id)
-        return HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+        return 503, _WORLD_UNAVAILABLE_DETAIL, "world_unavailable"
     if isinstance(exc, wiring.ProviderCallFailed):
         # The bound exception carries the real Bedrock error - the one
         # signal that tells throttling apart from credentials apart
-        # from a bug. The audit found it constructed and discarded.
+        # from a bug.
         logger.error("provider call failed session=%s: %s", session_id, exc)
-        return HTTPException(status_code=502, detail="provider call failed")
+        return 502, "provider call failed", "provider_failed"
     return None
 
 
@@ -74,19 +82,20 @@ def _sse(event: str, data: dict) -> str:
 
 
 def _stream_message(call_kwargs: dict, session_id: str, started: float, admission=None) -> StreamingResponse:
-    """One interview message answered as an event stream: "draft" events
-    carry the reply's sentences as the voice finishes writing them, and a
-    final "done" event carries the same MessageResponse the plain endpoint
-    returns - the finished turn, which replaces the draft. A refusal before
-    the first event is the same HTTP status as the plain endpoint; a failure
-    after the draft began is an "error" event carrying that status. The turn
-    runs to completion and is recorded even if the reader disconnects."""
+    """One interview message answered as an event stream: a "sentence" event
+    for each sentence as the voice finishes writing it, with the marks the
+    finished plan gives it (engine.m4.sentence_stream), and a final "done"
+    event carrying the same MessageResponse the plain endpoint returns, whose
+    plan is authoritative. A refusal before the first event is the same HTTP
+    status and detail as the plain endpoint; a failure after the stream began
+    is an "error" event carrying {code, status, detail}. The turn runs to
+    completion and is recorded even if the reader disconnects."""
     events: queue.Queue = queue.Queue()
 
     def run() -> None:
         voiced = False
         try:
-            result = wiring.handle_message(**call_kwargs, on_draft_text=lambda text: events.put(("draft", text)))
+            result = wiring.handle_message(**call_kwargs, on_sentence=lambda event: events.put(("sentence", event)))
             voiced = result.voice is not None
         except Exception as exc:
             if admission is not None:
@@ -106,18 +115,20 @@ def _stream_message(call_kwargs: dict, session_id: str, started: float, admissio
     def body():
         kind, payload = first
         while True:
-            if kind == "draft":
-                yield _sse("draft", {"text": payload})
+            if kind == "sentence":
+                yield _sse("sentence", payload)
             elif kind == "done":
                 logger.info("message handled ms=%d streamed=true", (time.monotonic() - started) * 1000)
                 done = MessageResponse(**asdict(payload)).model_dump()
                 if admission is not None and admission.remaining is not None:
                     done["remaining"] = admission.remaining
+                if admission is not None:
+                    done["limit_note"] = admission.limit_note(payload.routing_action)
                 yield _sse("done", done)
                 return
             else:
-                failure = _message_failure(payload, session_id)
-                yield _sse("error", {"status": failure.status_code if failure is not None else 500})
+                status, detail, code = _refusal(payload, session_id) or (500, "internal error", "internal")
+                yield _sse("error", {"code": code, "status": status, "detail": detail})
                 return
             kind, payload = events.get()
 
@@ -217,6 +228,7 @@ class MessageResponse(BaseModel):
     degraded: bool
     facilitator: dict | None
     voice: dict | None
+    limit_note: dict | None = None
 
 
 class TableMessageResponse(BaseModel):
@@ -234,6 +246,7 @@ class TableMessageResponse(BaseModel):
     position: int | None
     turn_no: int | None
     session_closed: bool
+    limit_note: dict | None = None
 
 
 class TranscriptResponse(BaseModel):
@@ -619,7 +632,7 @@ def create_app(
                 result = table_wiring.handle_table_message(**call_kwargs)
                 voiced = result.round_open or result.voice is not None
                 logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
-                return TableMessageResponse(**asdict(result))
+                return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
             result = wiring.handle_message(**call_kwargs)
             voiced = result.voice is not None
         except Exception as exc:
@@ -633,7 +646,7 @@ def create_app(
                 if remaining is not None:
                     response.headers[deeper_admission.REMAINING_HEADER] = str(remaining)
         logger.info("message handled ms=%d", (time.monotonic() - started) * 1000)
-        return MessageResponse(**asdict(result))
+        return MessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
 
     @app.post("/api/session/{session_id}/continue", response_model=TableMessageResponse)
     def continue_round(session_id: str, request: Request, authorization: str | None = Header(default=None)):
