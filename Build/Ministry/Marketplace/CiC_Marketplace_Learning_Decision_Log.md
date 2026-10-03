@@ -234,3 +234,7 @@ checklist against it so the two documents agree rather than silently conflict.
 **Next action:** this thread picks this up as its next deliverable
 (`CiC_Marketplace_Feature_Function_Checklist_V0_1.md`, suggested filename). Tracked by
 the System Hub as an open task.
+
+## 2026-10-03 — Stale statement found by the Go Deeper build: "no engagement metrics collected"
+
+`Build/Ministry/Marketplace/CiC_Marketplace_Differentiation_and_Lessons_V0_1.md` (line 196) lists "no engagement metrics collected" among the project's differences. The live admin dashboard shows a unique-visitor count, and Go Deeper adds keyless daily totals (codes sold, exchanges bought and used). The statement is no longer true as written. Not changed here; the Marketplace thread decides whether to restate it (for example, "no individual tracking; anonymous daily totals only").

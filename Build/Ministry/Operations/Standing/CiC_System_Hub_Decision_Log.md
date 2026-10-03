@@ -6107,6 +6107,26 @@ The first claim-support measurement (Transparency Engine Decision-Log Entry 92) 
 
 25. Claim support is a gate. A specific claim fails when the participant cannot trace it to a record that carries it: unsupported (its cited record does not carry it) or uncited (it cites nothing). Today's fleet figure is 45.6%. The threshold is set after the voice is changed to cite every specific claim, measured the same way. The project lead chose this over counting unsupported alone (3.7%, which leaves uncited claims unmeasured), over unsupported plus stretched, and over keeping it as a tracked measure only. It follows his rule that the Representative is bound by its world's sources.
 
+
+## 2026-10-03 - Go Deeper module: design, decision 19 as amended, and the carried review findings (decisions 26 to 31)
+
+The project lead ruled on the Go Deeper design, the module that sells more conversation through a code and Stripe. Decision 19's text above stands as written; decision 26 amends it as a named change order. Funding-Strategy Decision-Log (2026-10-03) holds the page links, the slice map and the professional questions.
+
+26. The design is codes, with the browser remembering. This amends decision 19. The time meter keys on a hash of the code, never on a visitor cookie or an IP address. Stripe, the meter and the conversation store share no key, with one exception, decision 29. The privacy page in these words goes live in the same change that makes it true (decision 16 still governs until then).
+27. The door holds the free path's ceiling. A weekly ceiling rises with net gifts and net purchases over a rolling seven days; as priced spend nears it, free caps narrow in stages, and paid codes are admitted while any headroom remains. The public sees the door's state, never dollars. The base number, stage thresholds, gift share and invoice factor are the project lead's.
+28. A code holds exchanges, the engine's own unit. Price, pack sizes, the sponsor pack and how many exchanges a Table round costs are the project lead's.
+29. The meter keeps the Stripe payment id, so a refund or dispute voids its code and a sponsor's batch can be voided in one step. Conversations share nothing with either store.
+30. All seven blocking findings (B1 to B7) and all thirteen notes (N1 to N13) from Opus round one carry into the build, each closed in the slice the review names. The smallest changes amend the Handoff slices; where they differ, the review and these rulings win.
+31. B3 ruling. At every limit the module adds (code run out, codes paused, each door stage, and the Facilitator-only sitting), a message the safety check reads as unclear, or one where the safety check failed, gets the Facilitator's check-in instead of the limit message. This is the same exemption acute distress already has. Today's two limits (ten exchanges a sitting, the daily cap) are not changed; the engine thread owns them (Conversation-Transparency-Engine Decision-Log, Entry 98).
+
+**Scope.** The conversation engine never learns that money exists, and the module never learns about worlds, records, voices or quotes. A pull request that breaks either sentence is wrong. The module ships switched off behind one flag, with a runtime pause behind the admin login and a written rollback (slice S11).
+
+**Parked items filed.** Engine items: Conversation-Transparency-Engine Decision-Log, Entry 98. The daily-cap record: P1-Security Decision-Log, entry 13. The marketplace statement: Marketplace Decision Log, 2026-10-03. The website items: Website Decision-Log, 2026-10-03. The report note: below. The missing study, the AWS alarm and the network policy: Funding-Strategy Decision-Log, 2026-10-03.
+
+Report hygiene, parked and not touched here: the note in `engine/m8/reports/live-memory-growth-report.json` says six turns, and the file holds ten. The engine reports are the System Health owner's to correct.
+
+Network policy: the sandbox blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com. Widening it is the project lead's, and is the open item already named under source acquisition in CLAUDE.md.
+
 ---
 
 ## 2026-09-26 — Escalation does not park the document: a named escalated item waits, the document proceeds
