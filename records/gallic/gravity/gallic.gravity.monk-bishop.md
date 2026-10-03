@@ -109,35 +109,28 @@ relations:
   target: gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative
 name: "The monk-bishop: renunciation that does not leave the Church"
 classification: primary
-description: >-
-  Ascetic withdrawal that keeps producing bishops - renunciation as the entry act and the episcopate
-  as where the renunciant is overtaken: Martin kept up the position of a bishop properly, yet in
-  such a way as not to lay aside the objects and virtues of a monk, and of Marmoutier's eighty
-  disciples we have seen numbers of these afterwards made bishops (Vita ch. X); Cassian's whole
-  output addressed to bishops or to men who became bishops, Honoratus's monk-to-bishop transition
-  happening between two dedications (Conf. Prefs. II-III), and Archebius carried west as the
-  Egyptian counter-case, expelled from the monastic system as unworthy of it (Conf. XI.2). Hilary's
-  sermon on Honoratus in the south's own Latin tells of the priestly fillet fastening on its
-  fugitive, the dignity coming to him (row 27, wording Inferential/Thin). This world's distinct-world
-  criterion - a seminary that looked like a monastery. AUTHOR GRAVITY FLAG AT GENERATION: none -
-  attested in every primary voice and independently by Gennadius. Passes all six -
-  Repetition across S, C, V, L, Gn, I, F, E; Dependency (the addressee structure of the entire
-  Cassianic corpus, the temporal-ceiling argument, and the distinct-world criteria depend on
-  it); Formation (Marmoutier forms men after the example of the saintly master and they become
-  bishops; Cassian writes formation literature for a bishop's new monastery); Explanatory (why the
-  withdrawal is geographically modest - Hilary's a desert near the city - why the grace argument
-  reaches Rome, why the ending is a change of institutional register rather than a collapse);
-  Persistence across both nodes, all voices, every stream; Interaction (eight demonstrated pairs).
-  CROSS-NODE: confirmed - the strongest cross-node convergence in this document, and the only one
-  attested by an insider Latin source in the south independent of Cassian. CONFIDENCE/GRAVITY
-  CROSS-CHECK: Documented; strength and confidence agree, no divergence. FORCES NOTATION: held and
-  intensified - under the grace controversy (Celestine's letter naming Cassian's own bishop Venerius
-  first and warning that priests ought not to teach so as to invade the episcopal prerogative,
-  Gibson, editorial) it did not fracture but intensified into the Lérins episcopal network, and by
-  the 470s the argument itself is carried by a Lérins-formed bishop at synodal commission (Faustus);
-  under barbarian pressure it is the institution left standing - Gennadius's two monasteries ...
-  which are still standing, c. 495, from the same city. The forces did not shift this gravity; they
-  made it the world's exit mechanism.
+description: |-
+  Renunciation kept producing bishops. Men renounced the world to become monks, and then the office of bishop overtook them.
+
+  Martin shows the pattern. He kept up the position of a bishop properly, yet he did not lay aside the aims and virtues of a monk.
+
+  Of the eighty disciples at Marmoutier, numbers were afterwards made bishops (Vita, ch. X). The disciples were trained after their master's example.
+
+  Everything Cassian wrote was addressed to bishops, or to men who became bishops. His formation writing was for a bishop's new monastery. Honoratus moves from monk to bishop between two of his dedications (Conferences, prefaces II and III).
+
+  Archebius is the Egyptian counter-case. He counted his appointment as expulsion from the monastic system, as unworthy of it. Cassian carried his story west (Conferences XI.2).
+
+  Hilary of Arles preached on Honoratus in the south's own Latin. He tells how the priest's headband fastened on a man who fled from it, and how the honor came to him. The Latin is there in the source, but this English wording of it is rated Inferential/Thin.
+
+  What sets this world apart is a seminary that looked like a monastery. Every primary voice attests this pattern, and Gennadius confirms it independently. It holds in both north and south, more strongly than any other pattern in this world. It is the only one that a Latin insider in the south, Hilary, attests apart from Cassian.
+
+  It explains three things. The withdrawal stayed close to the city. The grace argument reached Rome. The ending was a change in how the institution spoke, not a collapse.
+
+  The controversy over grace did not break the pattern. It strengthened it into the Lérins network of bishops. Celestine's letter named Venerius, Cassian's own bishop, first (Gibson's editorial introduction). It warned that priests ought not to teach so as to invade the bishops' rights.
+
+  By the 470s a bishop formed at Lérins, Faustus, carried the argument at the commission of synods. Under barbarian pressure this was the institution left standing. Gennadius, writing from the same city about 495, reports two monasteries still standing.
+
+  These pressures did not change the pattern. They made it the way the world ended.
 manifestations:
 - "Martin in the army 'regarded not so much as being a soldier as a monk' (Vita II); made bishop while some bishops objected that 'his clothing was mean, and his hair disgusting' (Vita IX); keeping 'the objects and virtues of a monk' in office (Vita X)"
 - "Marmoutier's eighty disciples, 'numbers of these afterwards made bishops' - 'what city or church would there be that would not desire to have its priests from among those in the monastery of Martin?' (Vita X)"

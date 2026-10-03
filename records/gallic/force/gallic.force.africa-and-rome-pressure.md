@@ -89,39 +89,28 @@ relations:
 name: "The pressure from Africa and Rome on the grace teaching (Lérins-Marseilles)"
 kind: ongoing
 matrix_cell: 2A
-description: >-
-  Augustine's later teaching, reported from Gaul, and the Roman see's response constitute the one
-  sustained external doctrinal pressure this world's texts register - and they register it almost
-  entirely through outside report and editorial apparatus, not in the world's own name. What the
-  world held is Cassian's: the grace of God always co-operates with our will for its advantage
-  (Conf. XIII.13), the refusal as grievous blasphemy of the view that God does not generally will
-  all men ... to be saved (XIII.7), and on the other side the profane notion of some who attribute
-  everything to free will (XIII.16). What the outside reported is Augustine's: the brethren as yet
-  ... in darkness on the question concerning the predestination of the saints (Praed. ch. 2). What
-  came back is known through Gibson's editorial prolegomena - Celestine's letter to the Gallican
-  bishops with Venerius of Marseilles first, warning that priests ought not to teach so as to
-  invade the episcopal prerogative; the Massilians who clung to their views in spite of the
-  authority of the Pope; Contra Collatorem, an examination of the thirteenth Conference, whose
-  author never once names him directly - and, new to the build through Heurtley's Appendices,
-  Prosper's own charge that they defend their obstinacy by antiquity and Celestine's line that
-  novelty should cease to assail antiquity, as Vincent quotes it. Gennadius independently attests
-  the fight. From within, the brethren were not answering a man; they were keeping the faith of the
-  fathers, giving not their own opinion but the elders' (Inst. XII.14). They did not name the bishop
-  across the sea; the world's own text nowhere does. What they refused they refused as blasphemy
-  against God's will that all be saved and as a taking away of the labour the fathers had commanded;
-  what they refused on the other side was Pelagius, whose kind are an ephemeral, moribund set of
-  frogs, fleas, and flies. And when the letter came from the Apostolic See saying that novelty
-  should cease to assail antiquity, the keeper at Lérins read it as written for his side. The name
-  the reporters gave them - Massilians, remnants of the Pelagians - was not a name they used of
-  themselves. FORMATION IMPACT (Layer 3): gave G3 its external occasion and its fame - partly an
-  artifact of how it was reported: the position sat inside the formation manual as a remedy for
-  pride (2B-1) before any report made it the Massilian position. Under this pressure G2 hardened
-  (Egypt pleaded as all the Catholic fathers) and G4 hardened into a formal rule in 434; it
-  produced G9's southern valence - defiance of the Apostolic See on the editor's account; it bore on
-  the formation manual's own summit, not on a separable doctrine, and so pressed the whole southern
-  program; and it generated the loop in which the world's own boundary-instrument was applied to it
-  from outside and the world's response was to plead the instrument harder. Tours's corpus was
-  closed before the question was posed.
+description: |-
+  Two things made up the one sustained outside doctrinal pressure this world's texts record. They were Augustine's later teaching, reported from Gaul, and the response of the Roman see. The texts record it almost entirely through outside report and editors' notes, and not in the world's own name.
+
+  What the world held was Cassian's view. The grace of God always works together with our will, for its good (Conferences XIII.13). Cassian called it grievous blasphemy to say that God does not will all people generally to be saved, but only some (XIII.7). On the other side he rejected the profane notion of some who put everything down to free will (XIII.16).
+
+  What the outside reported was Augustine's view. Augustine wrote that these brethren were as yet in darkness. The question was the predestination of the saints (On the Predestination of the Saints, ch. 2).
+
+  What came back is known through Gibson's editorial introduction. Celestine wrote to the bishops of Gaul and named Venerius of Marseilles first. He warned that priests ought not to teach so as to invade the bishops' rights. The Massilians clung to their views despite the Pope's authority.
+
+  Gibson also reports Contra Collatorem, which examines the thirteenth Conference and never once names Cassian directly. Heurtley's appendices add Prosper's charge that they defended their obstinacy by antiquity. They also add Celestine's line that novelty should cease to assail antiquity, as Vincent quotes it. Gennadius independently attests the fight.
+
+  From within, the brethren were not answering a man. They were keeping the faith of the fathers, giving the elders' view and not their own (Institutes XII.14). They did not name the bishop across the sea, and the world's own text nowhere does.
+
+  They refused one error as blasphemy against God's will that all be saved. They refused it also as a taking away of the labor the fathers had commanded. On the other side they refused Pelagius. Vincent of Lérins, in his Commonitory, called such people an ephemeral, moribund set of frogs, fleas, and flies.
+
+  When the letter came from the Apostolic See, it said that novelty should cease to assail antiquity. Vincent, at Lérins, read it as written for his side. The name the reporters gave them, Massilians and remnants of the Pelagians, was not a name they used of themselves.
+
+  This pressure gave the grace argument its outside occasion and its fame. Part of that fame is an artifact of how it was reported. The position sat inside the formation manual as a remedy for pride before any report made it the Massilian position.
+
+  Under the pressure, the appeal to Egypt hardened into a plea of all the Catholic fathers. The appeal to received tradition hardened into a formal rule of antiquity in 434. Authority ambivalence took its southern form, defiance of the Apostolic See, on the editor's account.
+
+  It bore on the formation manual's own summit and not on a separable doctrine, so it pressed the whole southern program. It also started a loop. The world's own rule of antiquity was applied to it from outside, and the world's answer was to plead that rule harder. The Tours writings were finished before the question was asked.
 manifestations:
 - "Conf. XIII's two-sided position - grace always co-operating with a will 'open to either side'; the refusal of limited saving will as 'grievous blasphemy'"
 - "Augustine's report that the brethren are 'in darkness' on predestination (Praed. ch. 2, context only); Warfield's editorial 'remnants of the Pelagians'"

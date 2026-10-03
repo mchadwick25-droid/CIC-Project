@@ -50,35 +50,30 @@ relations:
 name: "The synodal commission - the churches absorbing the argument and the network (Lérins-Marseilles)"
 kind: ending
 matrix_cell: 3A
-description: >-
-  The world's real change in kind is not c. 450 but the 470s: the grace argument carried no longer
-  by monks addressing monks but by a Lérins-formed bishop writing at the express commission of two
-  episcopal synods, Arles and Lyons (c. 473-475), while the Lérins network consolidated across the
-  sees of southern Gaul. Faustus's own prologue to De gratia, his letter to Leontius of Arles,
-  states the commission in the bishop's own voice - that Leontius, for the condemning of the error
-  of predestination, had gathered a council of the highest bishops and entrusted to weak shoulders
-  the setting in order of what was brought forth in public conference; that he takes up the zeal of
-  asserting grace fitly and wholesomely who joins to it the obedience of labour's servant; that
-  leaving the royal road one may fall to the right while believing others decline to the left; and
-  that after the subscription of the council of Arles, new errors having been detected, the synod
-  of Lyons required some things to be added - all reconstructed from corrupt OCR except the
-  fragments named in the divergence_note. Gennadius summarizes the doctrine: the grace of God
-  always invites, precedes and helps our will. The ending was not felt as one. From within, the man
-  who had been formed at Lérins to fear the office and had been seized for it now wrote, as a
-  bishop, at the bidding of a council of bishops, the same faith of the fathers in the same
-  two-sided shape - the zeal for grace joined to the obedience of labour; neither the right-hand
-  ditch nor the left - and called what he opposed, as the founders had, a novelty and an error.
-  What had changed was who spoke and at whose command: not a brother in a cell talking with the
-  fathers by questions and answers, but a bishop for a synod. The world's own interpretation of
-  this as an ending is not recoverable; its participants understood themselves to be continuing.
-  FORMATION IMPACT (Layer 3): transformed the register of the world's most characteristic
-  doctrinal product (G3) from formation literature to synodal commission - and resolved G9 in one
-  direction: the network became the episcopate it once fled. It carried G1 to its end-state as the
-  institution left standing and G4 with it (the argument still pleaded as the fathers' faith, now
-  by a synod's commission). What it passed to successor communities is the personnel and the sees,
-  and, downstream, the books; what it did not pass on is the genre - the conference addressed to
-  brother-monks - and with it the formation-community register in which the argument had been a
-  remedy for pride rather than a synodal cause. The north's distinct form did not end this way.
+description: |-
+  The world's real change came in the 470s, not about 450. Until then monks addressed monks about grace. Now a bishop formed at Lérins, Faustus, wrote at the express commission of two synods, Arles and Lyons (about 473 to 475). The Lérins network, meanwhile, tightened its hold across the sees of southern Gaul.
+
+  Faustus states the commission in his own voice, in the prologue to On Grace, a letter to Leontius of Arles. Leontius had gathered a council of the highest bishops to condemn the error of predestination. He gave the task of setting in order what had been brought forward in public conference to weak shoulders.
+
+  Faustus says that whoever takes up the zeal for asserting grace fitly and wholesomely joins to it the obedience of labor's servant. He warns that someone who leaves the royal road may fall to the right while believing that others slip to the left. After the council of Arles had signed, new errors were found, and the synod of Lyons required some things to be added.
+
+  All of this about the prologue is rebuilt from a corrupt scan of the text. The exception is the fragments named in the record's divergence note.
+
+  Gennadius sums up the teaching: the grace of God always invites, goes before, and helps our will.
+
+  The people of the time did not feel this as an ending. Faustus had been formed at Lérins to fear office, and he had been seized for it. Now he wrote as a bishop, at the bidding of a council of bishops.
+
+  He set out the same faith of the fathers in the same two-sided shape. That shape was zeal for grace joined to the obedience of labor. It had neither the ditch to the right nor the ditch to the left. Like the founders, he called what he opposed a novelty and an error.
+
+  What had changed was who spoke and at whose command. It was no longer a brother in a cell talking with the fathers by question and answer. It was a bishop writing for a synod.
+
+  The world's own reading of this as an ending cannot be recovered. Its people took themselves to be carrying on.
+
+  The grace argument was the world's most characteristic teaching. It moved from formation literature to synodal commission. The network became the episcopate it once fled, which settled the tension over authority in one direction.
+
+  The change carried the monk-bishop pattern to its end as the institution left standing. It carried the plea for received tradition too, since the argument was still pleaded as the fathers' faith, now by a synod's commission.
+
+  What passed to later communities was the people and the sees, and later the books. The genre did not pass: the conference addressed to brother-monks. With it went the formation-community setting in which the argument had been a remedy for pride and not a cause for synods. The north's distinct form did not end this way.
 manifestations:
 - "Faustus's prologue to Leontius: a council 'of the highest bishops' gathered 'for the condemning of the error of predestination,' the treatise written at its commission (row 24, rough OCR, Inferential/Thin except named fragments)"
 - "'He takes up the zeal of asserting grace fitly and wholesomely who joins to it the obedience of labour's servant' - the founders' two-sided shape in a bishop's mouth"
