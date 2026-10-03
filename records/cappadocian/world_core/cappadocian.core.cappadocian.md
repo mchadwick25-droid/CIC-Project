@@ -175,6 +175,3 @@ thin_topics:
   note: No securely identified physical remains exist for either of this world's two documented institutions
     (the martyr shrine, the poorhouse-hospital complex).
 ---
-No Representative content appears in this record (Doc_01 constraint honored).
-
-world_id is cappadocian-trinitarian, and this record's own id is cappadocian.core.cappadocian (matching desert.core.desert's own precedent for a world whose code and its world_core slug are the same word). display_name is "Cappadocian Christianity," matching the fleet's own dominant "[X] Christianity" convention (Alexandrian, Hieronymian Ascetic-Literary, Imperial and Juridical, Post-Apostolic House-Church) - the temporal/geographic bounding Doc_01's own Label Test worked out (c. 325-394; Cappadocia, Pontus, and Armenia Minor, not the wider pro-Nicene movement and not the Byzantine-era province) lives in this record's own time_window/horizon/geographic fields and the registry's doorway copy, exactly as it does for every sibling world - none of them fold a date range into their own display name either.
