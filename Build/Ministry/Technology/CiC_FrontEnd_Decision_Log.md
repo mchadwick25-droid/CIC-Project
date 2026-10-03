@@ -5439,3 +5439,31 @@ Mark). The working tree is smaller.
 ### Next action
 
 None for the conversion. Moving the audio to object storage remains open.
+
+## 2026-10-03 — The free browser read-aloud is removed
+
+**Decision.** Mark ordered the free browser voice removed from the conversation:
+it sounds poor, and if the voice cannot be high quality it is not offered. This
+settles the open question from the voice handoff (keep the free browser read-aloud
+in live conversations or not). The conversation is text; the only spoken parts are
+the Facilitator's recorded welcome and the recorded narration elsewhere on the site.
+
+**What it was.** A "Read aloud" button in the one-to-one conversation and at the
+Table, using the browser's built-in speech synthesis, behind the `VITE_READ_ALOUD`
+flag. It was off in production and switched on only in the staging service.
+
+**Removed.** `ReadAloudControl`, `ReadAloudDisclosure`, `lib/readAloud`,
+`useReadAloudAvailability` with their tests; the flag in `lib/flags.ts`; their use
+in `Conversation.tsx`, `TableRoom.tsx` and `DoorNarration.tsx`; the button and
+disclosure styles; the `VITE_READ_ALOUD` build argument in `engine/Dockerfile`, its
+setting in `render.yaml`, and its note in `.env.example`; and the matching test in
+`TableRoom.test.tsx`. The design note
+`Build/Ministry/Technology/CiC_ReadAloud_Step1_Design_Note.md` stays as history.
+
+**Checked.** The frontend suite (53 tests), typecheck and build pass; a search of
+the live code finds no remaining reference; `render.yaml` still parses; the cited
+paths and commentary checks pass.
+
+### Next action
+
+None.

@@ -1,9 +1,8 @@
 /**
  * Per-movement ElevenLabs voice overrides for Church Family Tree narration.
  *
- * Atlas narration only - this never touches live-conversation voice, which
- * stays free browser speechSynthesis per its own separate decision (kept
- * free for now, live with the rough edges).
+ * Atlas narration only - this never touches the conversation, which is text
+ * apart from the Facilitator's recorded welcome.
  *
  * Every movement narrates with the single consistent narrator set by the
  * ELEVENLABS_VOICE_ID env var (e.g. "Josh"), UNLESS its id appears below
