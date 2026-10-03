@@ -1418,7 +1418,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # wanting an academic reviewer for the project's own scholarship, not
     # narration of this project's internal review process - the same
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
-    ("cic-website/support.html", 127, "KEEP"),
+    # Refreshed 2026-10-03: the public-page cleanup (commit 6a42ed96) moved
+    # this same line from 127 to 108. Same text, same label.
+    ("cic-website/support.html", 108, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
@@ -1458,7 +1460,11 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
     # file's lines by +7 above this point; re-pinned to the same
     # r27_regenerated assertion, now at 1131.
-    ("engine/api/tests/test_app.py", 322, "REWRITE"),
+    # Refreshed 2026-10-03: the docstring rewording in commit 30550bec
+    # stopped this line matching. Re-pinned to a "Drafted ... commit" line
+    # in a historical decision log under Build/reference/, a surface edited
+    # rarely and not part of any cleanup pass.
+    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 29, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1487,7 +1493,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # removes the commentary already in it"). Re-pinned to a fresh
     # gravity-classification-label hit, not yet touched by any re-voicing
     # PR.
-    ("records/alx/force/alx.force.scripture-ongoing.md", 29, "REWRITE"),
+    # Refreshed 2026-10-03: the alx tag strip (commit 468d97ff) cleaned this
+    # line. Re-pinned to the same decision log as the row above.
+    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 41, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
