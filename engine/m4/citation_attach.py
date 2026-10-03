@@ -11,6 +11,8 @@ exactly as the voice wrote it.
 """
 import json
 import re
+import threading
+import time
 
 import anthropic
 
@@ -21,6 +23,30 @@ from engine.provider.bedrock import normalize_usage
 
 PROPOSE_MAX_TOKENS = 2000
 VERIFY_MAX_TOKENS = 5
+
+# Load guards. Both calls run on the safety model and share its quota, so
+# the step yields under load rather than compete with the safety call: at
+# most MAX_CONCURRENT turns attach at once (a turn that finds no free slot
+# skips the step), any rate limit pauses the step server-wide for
+# COOLDOWN_SECONDS, and one turn makes at most MAX_CHECKS_PER_TURN check
+# calls.
+MAX_CONCURRENT = 2
+COOLDOWN_SECONDS = 60.0
+MAX_CHECKS_PER_TURN = 8
+_slots = threading.BoundedSemaphore(MAX_CONCURRENT)
+_cooldown_lock = threading.Lock()
+_cooldown_until = 0.0
+
+
+def _cooling_down() -> bool:
+    with _cooldown_lock:
+        return time.monotonic() < _cooldown_until
+
+
+def _start_cooldown() -> None:
+    global _cooldown_until
+    with _cooldown_lock:
+        _cooldown_until = time.monotonic() + COOLDOWN_SECONDS
 
 PROPOSE_INSTRUCTION = (
     "You check citations for the Representative whose world is described above. Below are sentences it said "
@@ -91,10 +117,15 @@ def attach_citations(
     valid = citable_ids(prompt_text, repository_records)
     if not uncited or not valid:
         return [], [], []
+    if _cooling_down():
+        return [], [], [{"skipped": "cooling down after a rate limit"}]
+    if not _slots.acquire(blocking=False):
+        return [], [], [{"skipped": "concurrency cap reached"}]
 
     usage: list[UsageRecord] = []
     trail: list[dict] = []
     added: list[dict] = []
+    checks = 0
     try:
         lines = []
         for n, sentence in enumerate(uncited, 1):
@@ -121,6 +152,10 @@ def attach_citations(
             if record_id not in valid:
                 trail.append({"sentence": sentence, "proposed": record_id, "verdict": "rejected"})
                 continue
+            if checks >= MAX_CHECKS_PER_TURN:
+                trail.append({"sentence": sentence, "proposed": record_id, "verdict": "skipped: check cap"})
+                continue
+            checks += 1
             check = client.messages.create(
                 model=model_id, max_tokens=VERIFY_MAX_TOKENS, system=VERIFY_INSTRUCTION,
                 messages=[{"role": "user", "content": f"Sentence: {sentence}\n\nRecord {record_id}:\n{_groundable_text(repository_records[record_id])}"}],
@@ -133,5 +168,9 @@ def attach_citations(
     except anthropic.APIError as exc:
         # Decoration only: a failed call ends attachment for this turn and
         # keeps what was already verified; the text is untouched either way.
+        if isinstance(exc, anthropic.RateLimitError):
+            _start_cooldown()
         trail.append({"error": f"{type(exc).__name__}: {exc}"[:300]})
+    finally:
+        _slots.release()
     return added, usage, trail
