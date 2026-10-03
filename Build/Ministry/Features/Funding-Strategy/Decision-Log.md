@@ -1194,3 +1194,14 @@ S10 adds `engine/api/tests/test_deeper_proofs.py`, which runs in the engine job 
 - j. Keeping a sitting open costs one safety check for each further message without a code. The bound is the daily message count: 150 messages a visitor, about $0.75 at most. Mark accepted this when ruling.
 - k. #738 merged with three blocking findings open. #739 removes what it carried. From here a slice is merged only after the review thread has cleared its blocking findings, and the checkpoint says so.
 - Flag-on suite: three older tests assert the module-off contract (a session closes for good at the cap). They now say so with an explicit `deeper=None`. With the module on, a limit pauses, and the new tests cover that.
+
+## 2026-10-03 — Go Deeper S6: the app
+
+S6 gives the app a way to hold a code and read what the server says. It ships switched off: the app is built with `VITE_DEEPER_ENABLED` unset, and S11 sets it.
+
+- **The code.** "I have a code" under the message box opens one field. A code is checked for shape on the device (20 characters from the 32-letter alphabet, case and spacing forgiven) and kept in the browser's local storage, so it survives closing the tab. "Remove code" forgets it. With the build flag off no control shows, no header is sent, and a code left in storage by an earlier build is ignored.
+- **What is sent.** The code goes as `X-Cic-Code` on session creation, messages, Table messages and `/continue`, and on nothing else.
+- **What is shown.** The balance the server reports, in a line under the box: "12 exchanges left on your code." The number comes from the `X-Cic-Remaining` header, or from the stream's final event. The app knows no price and shows no money figure; a test checks the control's text for one.
+- **A pause is not an ending.** The new `limit` Facilitator kind keeps the room open and the box enabled. The server's reason line (`limit_note`) shows once under the pause and is not kept, so a reload shows only the pause. The room closes only on `close`, as before.
+- **Words.** The participant words are the set Mark approved on 2026-10-03, in one file, `cic-poc/frontend/src/lib/deeperCopy.ts`. The pause and its reason lines come from the operations file, not the app.
+- **Parked.** After a pause the participant sends their message again once the code is saved; the app does not resend it for them. The flag-on frontend build is checked in S11 with the rest of the turn-on.
