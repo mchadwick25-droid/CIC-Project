@@ -87,3 +87,22 @@ def test_check_flags_missing_and_stale_band(tmp_path, monkeypatch, fresh_band):
     shutil.copy(BAND, stale)
     stale.write_text(stale.read_text().replace('"pass_rate"', '"pass_rate "', 1))
     assert sm.main(["check", "--reports", str(REPORTS), "--band", str(stale)]) == 1
+
+
+def test_status_lets_a_lower_is_better_dimension_improve_past_the_band():
+    assert sm._status(0.1, 0.2, 0.5, "invented_ids_per_100_sentences") == "better"
+    assert sm._status(0.6, 0.2, 0.5, "invented_ids_per_100_sentences") == "out"
+    assert sm._status(250, 260, 300, "words_median") == "out"
+    assert sm._status(280, 260, 300, "words_median") == "in"
+
+
+def test_compare_blocks_only_on_a_fleet_mean_outside_the_band(monkeypatch):
+    band = json.loads(BAND.read_text())
+    reports = [json.loads(p.read_text()) for p in sorted(REPORTS.glob("live-admission-report-baseline-r1-*.json"))]
+    result = sm.compare(reports, band)
+    assert result["blocking"] == []
+    assert set(result["per_world"]) == set(band["worlds"])
+
+    real = sm.score_run
+    monkeypatch.setattr(sm, "score_run", lambda r: {**real(r), "words_median": 900.0})
+    assert sm.compare(reports, band)["blocking"] == ["words_median"]
