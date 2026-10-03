@@ -94,11 +94,12 @@ class CodeStatus:
 class Reservation:
     """One exchange held against a code. Carries the code's hash, never the code."""
 
-    __slots__ = ("code_hash", "day", "done")
+    __slots__ = ("code_hash", "day", "count", "done")
 
-    def __init__(self, code_hash: str, day: str):
+    def __init__(self, code_hash: str, day: str, count: int = 1):
         self.code_hash = code_hash
         self.day = day
+        self.count = count
         self.done = False
 
 
@@ -246,10 +247,13 @@ class Meter:
             return None
         return CodeStatus(kind=row[1], status=row[4], exchanges_total=row[2], exchanges_used=row[3], daily_ceiling=row[5])
 
-    def reserve(self, code: str | None) -> Admission:
-        """Holds one exchange, or says why not. Reasons: paused, unknown, void,
-        spent, in_use (every remaining exchange is already held by a sitting in
+    def reserve(self, code: str | None, count: int = 1) -> Admission:
+        """Holds count exchanges (one for a solo turn, more for a Table round),
+        or says why not. Reasons: paused, unknown, void, spent, insufficient
+        (fewer than count remain), in_use (the rest are held by sittings in
         flight), daily_ceiling (a group code's day is full)."""
+        if count < 1:
+            raise ValueError("count must be at least 1")
         with self._lock:
             if self.is_paused():
                 return Admission(False, "paused")
@@ -261,14 +265,16 @@ class Meter:
                 return Admission(False, "void")
             if used >= total:
                 return Admission(False, "spent")
+            if total - used < count:
+                return Admission(False, "insufficient")
             held = self._reserved.get(code_hash, 0)
-            if total - used - held <= 0:
+            if total - used - held < count:
                 return Admission(False, "in_use")
             today = self._clock().isoformat()
-            if ceiling is not None and self._used_today(code_hash, today) + held >= ceiling:
+            if ceiling is not None and self._used_today(code_hash, today) + held + count > ceiling:
                 return Admission(False, "daily_ceiling")
-            self._reserved[code_hash] = held + 1
-            return Admission(True, reservation=Reservation(code_hash, today), remaining=total - used)
+            self._reserved[code_hash] = held + count
+            return Admission(True, reservation=Reservation(code_hash, today, count), remaining=total - used)
 
     def _used_today(self, code_hash: str, today: str) -> int:
         day, count = self._day_used.get(code_hash, (today, 0))
@@ -281,7 +287,7 @@ class Meter:
             if reservation.done:
                 return None
             reservation.done = True
-            held = self._reserved.get(reservation.code_hash, 0) - 1
+            held = self._reserved.get(reservation.code_hash, 0) - reservation.count
             if held > 0:
                 self._reserved[reservation.code_hash] = held
             else:
@@ -291,15 +297,17 @@ class Meter:
                 return None if row is None or row[4] == VOID else row[2] - row[3]
             today = self._clock()
             updated = self._conn.execute(
-                "UPDATE meter SET exchanges_used = exchanges_used + 1, week_last_used = ?,"
-                " status = CASE WHEN exchanges_used + 1 >= exchanges_total THEN 'spent' ELSE status END"
-                " WHERE code_hash = ? AND status != 'void' AND exchanges_used < exchanges_total",
-                (week_of(today), reservation.code_hash),
+                "UPDATE meter SET exchanges_used = exchanges_used + ?, week_last_used = ?,"
+                " status = CASE WHEN exchanges_used + ? >= exchanges_total THEN 'spent' ELSE status END"
+                " WHERE code_hash = ? AND status != 'void' AND exchanges_used + ? <= exchanges_total",
+                (reservation.count, week_of(today), reservation.count, reservation.code_hash, reservation.count),
             ).rowcount
             if not updated:
                 return None
             day, count = self._day_used.get(reservation.code_hash, (today.isoformat(), 0))
-            self._day_used[reservation.code_hash] = (day, count + 1) if day == today.isoformat() else (today.isoformat(), 1)
+            self._day_used[reservation.code_hash] = (
+                (day, count + reservation.count) if day == today.isoformat() else (today.isoformat(), reservation.count)
+            )
             row = self._row(reservation.code_hash)
             return row[2] - row[3]
 

@@ -1114,6 +1114,39 @@ Opus's targeted recheck (comment on PR #723) found two blocking bugs in S3, one 
 - f. S4's sponsor Payment Link uses a fixed quantity, and the expected `amount_total` per product is checked.
 - i. S7's return page has the browser make references of at least 22 base64url characters (128 bits), and a new reference for every purchase click, so a repeat purchase never reuses one.
 
+## 2026-10-03 — Go Deeper S2: the admission seam
+
+S2 is the one slice that touches the conversation engine. What it does, and the choices inside it:
+
+- **The engine receives only numbers.** `engine/m4/grants.py` defines a grant (a cap and a Facilitator-only flag). `run_turn` and `open_table_round` read the cap and the flag in place of the constants, and treat Facilitator-only exactly like a spent daily allowance. No money word, price or balance exists in the engine. The free defaults read the live constants, so tests that patch them still work.
+- **The API edge turns a code into a grant.** `engine/api/deeper_admission.py` reserves exchanges before the turn and settles them after it, in a `finally` around the interview, stream and Table calls (review note g). A turn the Facilitator answers alone, a failed voice call and a failed stream all give the exchanges back.
+- **A code is spent only on turns the free allowance refuses** (decision 36 in the System Hub log). The first ten exchanges of a sitting stay free.
+- **Check-in and crisis at every limit (B3).** The module's limits use the same branch as today's, and System Hub decision 35 already exempts every safety route from it, so the check-in and the fail-closed route are answered at the session limit, the daily limit, the free cap, zero balance, paused, a wrong code, a module error and a Facilitator-only sitting. 24 tests cover the three cases at each of eight limits.
+- **A visitor at the daily session limit opens a Facilitator-only sitting instead of getting a 429 (B2)**, only when the module is on. The marks are kept in memory, like the daily counters, so a restart forgets them.
+- **A valid code lifts the daily session limit and has its own burst bucket (B7).** A group code's bucket is six times larger. Twenty-five students behind one address, on one group code, all get through; without a code the address limit still applies.
+- **R2-3 closed.** The per-message success log lines no longer carry the session id or the turn number.
+- **The Table:** the price is charged once, when the round opens. The voices that follow in the round (`/continue`) are already paid for, so a round is never stopped part-way by a balance or a pause.
+- **Not built here:** the door (S5). The seam leaves one place for it, the free grant. When the module fails, the free path stays open; the door's fail-closed rule arrives with S5.
+- **The balance** travels in an `X-Cic-Remaining` response header (and in the stream's final event), so the app can show it after each exchange without extra calls. The code goes in an `X-Cic-Code` request header.
+- **Entry 98 items 1 to 4** were already fixed by System Hub decision 35, so the precondition for S11 step 4 that the Handoff names (the "already closed" 409) is met.
 ## 2026-10-03 — Go Deeper: S1 and S3 merged; Opus round three
 
 S1 and S3 merged to `main` together as PR #723 (merge commit 8584e600), switched off. Opus round three found no blocking finding and three non-blocking notes: the claim route served a refunded code with its full count (fixed in the S3 follow-up); the three route handlers made blocking store calls on the event loop (fixed in the same follow-up, through the thread pool); and a new column does not reach a meter file created before the change. No meter file exists yet, so nothing breaks today. Any later change to a meter column needs a migration step before the flag is first turned on. S2 stays blocked on R2-3 (the per-message log lines).
+
+## 2026-10-03 — Go Deeper S2: Opus review, and what each finding became
+
+Opus reviewed S2 in full (comment on PR #736): three blocking findings and six notes.
+
+**Fixed in S2.**
+
+- S2-1. A visitor past the daily session limit could open unlimited Facilitator-only sittings, each costing the safety check, with no limit but six creations a minute. A visitor now gets one Facilitator-only sitting a day (`daily_facilitator_session_limit`); further creations answer 429, as the limit did before the module. A Facilitator-only sitting that closes still answers a later crisis message with the safety turn, through System Hub decision 35, and a test covers the fifth message.
+- S2-2. Any code, even a spent one, lifted the session limit free. Only a live code with exchanges left, with codes not paused, lifts it. A sitting opened that way is marked, and every turn in it is metered from its first. A spent or paused code gets the Facilitator-only sitting. A round already admitted keeps its `/continue` for any code that is not void, so a round paid down to zero is not stopped part-way.
+- Notes: a, the module docstring now says the process remembers session ids in memory and never stores them; b, the request-diff test now also covers the stream path and a Table round past the free rounds; f, a request's code is looked up once.
+
+**Change order on the Handoff (S2-3).** The Handoff gave S2 a `close_reason` that selects the close text. S2 does not build it. The engine cannot yet say "your code has run out" or "codes are paused" in words different from the free-cap close, so a participant refused on a paid sitting reads the free-cap text, and a refusal for a passing state (paused, exchanges held by another device) closes the sitting for good. Words are the project lead's, and an engine selector with no new words would be an empty mechanism. So S8 owns both: it adds the reason to the grant, selects the text by reason, and supplies the words; it is therefore no longer text-only. The reasons are free cap, balance out, paused, daily allowance and each door stage. S8 is a precondition of S11 step 4, the step that links the go-deeper page. Until then the module stays dark, so no participant is paid and told the wrong thing.
+
+**Accepted, recorded.**
+
+- d. The session-created log line keeps its session id. It carries no client address and no payment state, and another thread's privacy test depends on it.
+- c. Exchanges are reserved before the safety check runs, so on a pooled code with one exchange left a second device's turn is refused while the first is in flight, even if the first turns out to be a safety route. The refusal is the daily close.
+- e. A Table round is charged at its opening (decision 36). If every voice in it then fails on `/continue`, the charge stands.

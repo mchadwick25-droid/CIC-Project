@@ -48,6 +48,7 @@ import threading
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from typing import Callable
 
 from fastapi import Request
 from fastapi.responses import JSONResponse
@@ -113,6 +114,7 @@ class _DailyCounts:
     day: str
     sessions: int = 0
     turns: int = 0
+    facilitator_sessions: int = 0
 
 
 class DailyVisitorLimiter:
@@ -121,9 +123,10 @@ class DailyVisitorLimiter:
     same "cheap enough, no background sweep needed" choice ratelimit.py
     makes for its own map growth."""
 
-    def __init__(self, daily_session_limit: int, daily_turn_limit: int):
+    def __init__(self, daily_session_limit: int, daily_turn_limit: int, daily_facilitator_session_limit: int = 1):
         self.daily_session_limit = daily_session_limit
         self.daily_turn_limit = daily_turn_limit
+        self.daily_facilitator_session_limit = daily_facilitator_session_limit
         self._counts: dict[str, _DailyCounts] = {}
         self._lock = threading.Lock()
 
@@ -152,6 +155,17 @@ class DailyVisitorLimiter:
             if bucket.sessions >= self.daily_session_limit:
                 return False
             bucket.sessions += 1
+            return True
+
+    def allow_facilitator_session(self, key: str) -> bool:
+        """The few Facilitator-only sittings a visitor past the session limit
+        may still open in a day. Each costs the safety check on its messages,
+        so the count is small and is not lifted by anything."""
+        with self._lock:
+            bucket = self._bucket_locked(key)
+            if bucket.facilitator_sessions >= self.daily_facilitator_session_limit:
+                return False
+            bucket.facilitator_sessions += 1
             return True
 
     def allow_turn(self, key: str) -> bool:
@@ -188,11 +202,23 @@ class DailyVisitorLimiter:
             ip_bucket = self._bucket_locked(f"ip:{ip}")
             token = issue_token(secret)
             visitor_id = token.split(_SEPARATOR, 1)[0]
-            self._counts[visitor_id] = _DailyCounts(day=ip_bucket.day, sessions=ip_bucket.sessions, turns=ip_bucket.turns)
+            self._counts[visitor_id] = _DailyCounts(
+                day=ip_bucket.day, sessions=ip_bucket.sessions, turns=ip_bucket.turns,
+                facilitator_sessions=ip_bucket.facilitator_sessions,
+            )
             return token
 
 
-def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSION_LIMIT, daily_turn_limit: int = DEFAULT_DAILY_TURN_LIMIT):
+def install(
+    app,
+    *,
+    secret: str,
+    daily_session_limit: int = DEFAULT_DAILY_SESSION_LIMIT,
+    daily_turn_limit: int = DEFAULT_DAILY_TURN_LIMIT,
+    exempt: Callable[[Request, bool], bool] | None = None,
+    session_cap_facilitator_only: bool = False,
+    daily_facilitator_session_limit: int = 1,
+):
     """HTTP middleware, only ever installed when CIC_API_ANON_CAP_ENABLED
     is on (see engine.api.app._build_real_app). Installed BEFORE
     ratelimit.install() in engine.api.app.create_app so that ratelimit's
@@ -224,7 +250,7 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
     read it. Reordering relative to call_next doesn't change what
     mint_seeded_token sees: it reads the ip: bucket's count, and nothing
     call_next does touches that bucket."""
-    limiter = DailyVisitorLimiter(daily_session_limit, daily_turn_limit)
+    limiter = DailyVisitorLimiter(daily_session_limit, daily_turn_limit, daily_facilitator_session_limit)
 
     @app.middleware("http")
     async def _anon_cap(request: Request, call_next):
@@ -241,7 +267,22 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
         ip = client_ip(request)
         bucket_key = visitor_id or f"ip:{ip}"
 
-        allowed = limiter.allow_session(bucket_key) if is_create else limiter.allow_turn(bucket_key)
+        # exempt(request, is_create) says whether the caller vouches for the
+        # request. A vouched creation past the session limit opens a sitting
+        # the caller meters from its first turn; an unvouched one may open one
+        # of the few Facilitator-only sittings; a vouched /continue is not
+        # turned away mid-round. The free counters keep running throughout.
+        vouched = bool(exempt and exempt(request, is_create))
+        if is_create:
+            allowed = limiter.allow_session(bucket_key)
+            if not allowed and vouched:
+                request.state.paid_session = True
+                allowed = True
+            elif not allowed and session_cap_facilitator_only and limiter.allow_facilitator_session(bucket_key):
+                request.state.facilitator_only_session = True
+                allowed = True
+        else:
+            allowed = limiter.allow_turn(bucket_key) or (vouched and not request.url.path.endswith("/message"))
         if not allowed and request.url.path.endswith("/message"):
             # A participant message over the daily cap still reaches the
             # safety gate, so a real crisis gets the Facilitator's redirect.
