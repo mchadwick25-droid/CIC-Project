@@ -107,4 +107,4 @@ def test_a_story_with_no_tellable_as_fails_compilation_instead_of_falling_back_t
 
     records = {"fix.story.bare": {"id": "fix.story.bare", "record_type": "story", "canon_cells": [], "text": "Source wording."}}
     with pytest.raises(ValueError, match="no tellable_as"):
-        build_prompt(records, {}, {})
+        build_prompt(records, {})

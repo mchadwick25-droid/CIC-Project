@@ -37,91 +37,6 @@ def _one(records: dict, record_type: str) -> dict | None:
 
 # ---- compiled/prompt.txt ----------------------------------------------
 
-# LIVE-GENERATION-DESIGN.md §5.2: the fleet's one register/pronoun/
-# citation-contract/limit-discipline segment, compiled from the fleet's
-# own fleet_voice record (records/_fleet/fleet_voice/) rather than
-# hand-edited per world (principle 3: prompt content is records, never
-# code) - first in the file, so it reads as the voice's own standing
-# instruction, ahead of any one world's own identity.
-def _fleet_voice_record(fleet: dict) -> dict | None:
-    return _one(fleet, "fleet_voice")
-
-
-# The citation contract's worked example ships PLACEHOLDER ids, and the fleet
-# record says so itself: they exist "only so citation_contract is a complete,
-# self-explanatory paragraph on its own - never the line a model is actually
-# shown", with the per-world substitution named there as open M2 work. It was
-# never implemented, so all seven packages shipped the literal token `world`
-# into live model input - and a model reads that as the namespace, emitting
-# world.story.pliny-interrogation, world.term.hesychia: right shape, no such
-# record, sentence withheld. Filled from the world's own records, exactly as
-# `{world}` in pronoun_rule already is.
-def _fill_citation_example(contract: str, records: dict) -> str:
-    for placeholder in ("world.term.example", "world.gravity.example"):
-        if f"[[{placeholder}]]" not in contract:
-            continue
-        wanted = placeholder.split(".")[1]
-        ids = sorted(r["id"] for r in records.values() if r.get("record_type") == wanted) or sorted(
-            r["id"] for r in records.values() if r.get("record_type") != "demonstration"
-        )
-        real = next((i for i in ids if f"[[{i}]]" not in contract), None)
-        # A placeholder with no substitute is dropped, never shipped: an absent
-        # second tag still reads as a correct worked line; an unresolvable one
-        # teaches a fabrication.
-        contract = (contract.replace(f"[[{placeholder}]]", f"[[{real}]]") if real
-                    else contract.replace(f" [[{placeholder}]]", "").replace(f"[[{placeholder}]]", ""))
-    return contract
-
-
-def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None = None) -> list[str]:
-    """Returns the preamble's own emitted segments (already `## Header`-
-    formatted, same shape build_prompt's other segments use) - a list, not
-    bytes, so build_prompt can splice it in front of everything else with
-    no format translation. Empty list (not an error) when the fleet record
-    doesn't exist yet, or hasn't cleared its completion gate - a package
-    can still compile without it, same as any other not-yet-required field.
-
-    The pronoun rule's `{world}` placeholder is filled from this world's
-    own registry `display_name` - real, already-existing registry data,
-    never a fresh, hand-composed-per-world phrase (the fleet record's own
-    trailing body names this exact substitution as the compiler's call to
-    make; using the registry's own name field, rather than inventing a new
-    poetic epithet per world, keeps the fill mechanical and DECIDABLE)."""
-    record = _fleet_voice_record(fleet)
-    if record is None:
-        return []
-
-    segments: list[str] = []
-
-    def emit(header: str, body: str | None) -> None:
-        if body and body.strip():
-            segments.append(f"## {header}\n\n{body.strip()}\n")
-
-    statements = sorted(record.get("register_statements") or [], key=lambda s: s["number"])
-    if statements:
-        body = "\n".join(f"{s['number']}. {s['statement']}" for s in statements)
-        # register_hold: how the seven hold under load - emitted beneath the
-        # numbered statements, never as an eighth statement.
-        hold = (record.get("register_hold") or "").strip()
-        if hold:
-            body = f"{body}\n\n{hold}"
-        emit("Register", body)
-
-    world_name = registry_entry.get("display_name") or "this world"
-    pronoun_rule = record.get("pronoun_rule")
-    if pronoun_rule:
-        emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
-
-    emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
-    # Stories and quotes are never screened by the register:
-    # stories arrive through their own tellable_as retellings;
-    # quotes always speak their build-authored modern_rendering, never the
-    # original - originals stay reachable only on the click page.
-    emit("Stories and quotes", record.get("story_quote_reach"))
-    emit("Limit discipline", record.get("limit_discipline"))
-    return segments
-
-
 # Demonstration citation tagging (LIVE-GENERATION-DESIGN.md §5.3): demos
 # are rendered "with citation tags derived from the demonstration record's
 # own sources field" per the design's own words - but a real-record check
@@ -302,26 +217,13 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
     return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
-# THE PROMPT HAS TWO HALVES, and until now only one of them was named.
-#
-# One half is records of the world, each section addressed by an id the
-# voice copies when it draws on that section. The other is standing
-# instruction - the fleet's own register/pronoun/citation/limit segment -
-# which carries no ids, needs none, and has never had one invented for it:
-# nobody has ever seen [[fleet.voice.register]] in a live turn.
-#
-# Both regions existed already. What did not exist was any statement of
-# where one stopped and the other began: the boundary was wherever
-# build_fleet_preamble's output happened to end, and nothing on the page
-# said so. voice_craft - the voice's own identity, guard, concerns and
-# flavor notes, which are instruction about how we speak, not evidence
-# about the world - sat on the wrong side of that unnamed boundary, and was
-# given an id so the model would stop inventing one.
-#
-# This constant is the boundary, written out. It replaces the id that
-# voice_craft was carrying; see the fabrication history on emit() below for
-# what that id cost and why it was reached for, and instruct() for why
-# moving the content is a better answer than keeping the id.
+# THE PROMPT HAS TWO HALVES. Above the line is standing instruction: the
+# engine's shape segment (engine.shape, sent as its own system block ahead of
+# this prompt) and the world's voice_craft sections. It carries no ids. Below
+# the line are records of the world, each section addressed by the id the
+# voice copies when it draws on that section. voice_craft is instruction about
+# how we speak, not evidence about the world, so it sits above the line with
+# no id; see emit() below for what an id on it cost.
 #
 # The wording is the lesson of the adjacency failure, run the other way.
 # Printing an id beside a heading told a model the id existed without
@@ -351,18 +253,21 @@ ground, and it is that id which is copied.
 """
 
 
-def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
-    # Two lists, spliced at the end with _GROUND_LINE between them, because
-    # the halves are no longer interleaved: voice_craft's four sections used
-    # to be emitted around world_core's four, and a reader (or a model) had
-    # nothing to tell instruction from record but the prose itself.
-    standing: list[str] = build_fleet_preamble(fleet, registry_entry, records)
+# voice_craft flavor-note segments that only restate the shape segment's own
+# rules (the we-voice and its hardening, answer-first, limits spoken plainly).
+# The shape segment carries each once for every world, so they are not
+# compiled again here.
+SHAPE_RESTATED_SEGMENTS = frozenset({"self-reference", "openers", "honest-limits"})
+
+
+def build_prompt(records: dict, registry_entry: dict) -> bytes:
+    # Two lists, spliced at the end with _GROUND_LINE between them, so
+    # instruction and record never interleave.
+    standing: list[str] = []
     ground: list[str] = []
 
-    # A STANDING-INSTRUCTION SECTION NEVER CARRIES AN ID. Same two-argument
-    # shape build_fleet_preamble's own emit() has always had, and for the
-    # same reason - there is no third argument to pass, because there is no
-    # address for content that is not a record of the world.
+    # A STANDING-INSTRUCTION SECTION NEVER CARRIES AN ID: there is no address
+    # for content that is not a record of the world.
     #
     # This is where voice_craft now compiles. Every voice_craft record in the
     # fleet carries `sources: []` on purpose (spec principle 14: a
@@ -468,15 +373,17 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # point: four contiguous sections in the voice's own we-form, in the same
     # run as the register and the pronoun rule, read as one block of standing
     # instruction. Interleaved with Horizon and Cautions they read as content.
-    craft = _one(records, "voice_craft")
+    craft = _one(records, "voice_craft") or {}
+    world_name = registry_entry.get("display_name")
+    instruct("Who we are", "\n\n".join(p for p in (f"Our world's name: {world_name}." if world_name else None,
+                                                    craft.get("identity")) if p))
     if craft:
-        instruct("Who we are", craft.get("identity"))
         instruct("What we hold ourselves to", craft.get("guard"))
         concerns = craft.get("characteristic_concerns") or []
         if concerns:
             instruct("What we keep returning to", "\n".join(f"- {c}" for c in concerns))
         instruct(SOURCE_ANCHOR_HEADER, craft.get("source_anchor"))
-        notes = craft.get("flavor_notes") or []
+        notes = [n for n in craft.get("flavor_notes") or [] if n.get("segment") not in SHAPE_RESTATED_SEGMENTS]
         if notes:
             instruct(
                 "How we word things",
@@ -589,12 +496,9 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
             lines.append(f"{turn['speaker']}: {text}")
         emit("Demonstration", "\n".join(lines), demo["id"])
 
-    # The line is a boundary, so it is only written where there are two sides
-    # to divide. A prompt with no standing instruction at all (a bare-records
-    # unit fixture, never a real compile - every world loads the fleet record)
-    # would otherwise open with a paragraph about material above it that is
-    # not there.
-    segments = standing + ([_GROUND_LINE] + ground if standing and ground else ground)
+    # The shape segment always stands above this prompt, so the line is
+    # written whenever there are records below it.
+    segments = standing + ([_GROUND_LINE] + ground if ground else [])
     return ("\n".join(segments) + "\n").encode("utf-8")
 
 
