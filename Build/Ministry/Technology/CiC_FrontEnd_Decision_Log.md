@@ -5375,3 +5375,35 @@ documented story starts that one and pauses the first; no horizontal overflow at
 ### Next action
 
 1. Mark tries the player on the live site, including on the iPhone.
+
+## 2026-10-03 — Narration cleanup audit: stale and replaced material
+
+**Audit.** Every recording and its manifest were checked against what the pages
+and data actually use. All pass: 281 tree recordings (every one a non-built
+movement with a description), 515 documented-story recordings matching the 515
+census stories, 54 world recordings matching their manifest, 62 gap-story
+recordings each matching a story on the map, 6 site recordings and 11 welcome
+recordings, each with a manifest entry. No recording is unreferenced and no
+manifest entry lacks its file. The built-world set agrees between the map and the
+tree-page generator (11 worlds).
+
+**Fixed.**
+- Two comments said built worlds' narration was "not wired yet" and that their
+  recordings "still narrate the superseded text". Both are false since the world
+  recordings shipped and the old ones were deleted; they now describe what the
+  code does. The generator function `hasMismatchedNarration` is renamed
+  `hasOwnWorldStory`.
+- The tree-page generator wrote the description player on three lines; the
+  committed pages carry it on one. The generator now matches the pages, so a
+  rebuild no longer changes every narrated page.
+- Regenerating the tree pages with the aligned generator corrected one stale
+  page: the Hussite and Bohemian Brethren page showed 1415-1517 while the census
+  says 1402-1517. The Wittenberg tree page lost a stray blank line.
+
+**Not stale, kept on purpose.** Earlier decision-log entries (history), the
+`.narration audio` rules in the page stylesheets (the fallback when JavaScript is
+off), and the three-review-round files under `Build/worlds/witt/`.
+
+### Next action
+
+None.
