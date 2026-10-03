@@ -6101,3 +6101,9 @@ E1 ran native API citations against the hand-copied citation ids on the whole-wo
 The project lead ruled: "make sure everything that is participant facing is translated into modern english, we translate quotes and stories and use that in the conversation."
 
 24. Quotes reach the voice and the participant only as their `modern_rendering`, stories only as their `tellable_as`. The source wording never reaches the voice or the app. Asked what a quote's citation card should show at its deepest level, where it showed the original wording, he chose the modern rendering plus the source reference (author, work, section, edition), so anyone who wants the original can follow the reference. The fix and the repin of every world: Conversation-Transparency-Engine Decision-Log, Entry 90.
+
+## 2026-10-03 - Claim support becomes a gate: unsupported plus uncited (decision 25)
+
+The first claim-support measurement (Transparency Engine Decision-Log Entry 92) graded 33 confirm-pass replies, 461 specific claims, with internal Opus review: supported 43%, stretched 11.5%, unsupported 3.7%, uncited 42%. A blind second reviewer agreed on 96.6% of sentences, clearing the 85% bar set with the method.
+
+25. Claim support is a gate. A specific claim fails when the participant cannot trace it to a record that carries it: unsupported (its cited record does not carry it) or uncited (it cites nothing). Today's fleet figure is 45.6%. The threshold is set after the voice is changed to cite every specific claim, measured the same way. The project lead chose this over counting unsupported alone (3.7%, which leaves uncited claims unmeasured), over unsupported plus stretched, and over keeping it as a tracked measure only. It follows his rule that the Representative is bound by its world's sources.
