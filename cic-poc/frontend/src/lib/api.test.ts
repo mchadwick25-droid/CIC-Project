@@ -12,7 +12,7 @@ const DONE = {
 };
 
 function sentence(index: number, lead: string, text: string, start: number): StreamedSentence {
-  return { index, lead, text, text_start: start, text_end: start + text.length, elements: [], cards: [] };
+  return { index, speaker: 'w', lead, text, text_start: start, text_end: start + text.length, elements: [], cards: [] };
 }
 
 const ONE = sentence(0, '', 'One.', 0);

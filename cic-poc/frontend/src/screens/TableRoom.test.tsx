@@ -95,3 +95,15 @@ describe('TableRoom', () => {
     expect(container.querySelector('.turn__note')?.textContent).toBe('Your code does not have enough exchanges left for a Table round.');
   });
 });
+
+describe('TableRoom streaming', () => {
+  it('shows the speaking seat\'s sentences under its own name while it speaks, and drops the waiting note', () => {
+    const turns: ConversationTurn[] = [{ speaker: 'participant', text: 'Who was Jesus?' }];
+    const streamed = [{ index: 0, speaker: 'alx', lead: '', text: 'We told what we had been told.', text_start: 0, text_end: 30, elements: [], cards: [] }];
+    const { container, queryByText } = render(<TableRoom {...baseProps} turns={turns} isLoading streamed={streamed} />);
+    const voice = container.querySelector('.turn--voice');
+    expect(voice?.textContent).toContain('Theon');
+    expect(voice?.textContent).toContain('We told what we had been told.');
+    expect(queryByText(/The table is speaking/)).toBeNull();
+  });
+});

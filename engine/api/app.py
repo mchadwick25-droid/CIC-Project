@@ -63,6 +63,8 @@ def _refusal(exc: Exception, session_id: str) -> tuple[int, str, str] | None:
         return 409, "round still open - continue it before the next message", "round_open"
     if isinstance(exc, table_wiring.TableAdvanceInFlight):
         return 409, "advance already in flight - the table is already speaking", "advance_in_flight"
+    if isinstance(exc, table_wiring.TableRoundNotOpen):
+        return 409, "no open round to continue", "no_open_round"
     if isinstance(exc, wiring.DuplicateMessage):
         return 409, "duplicate message - already received", "duplicate_message"
     if isinstance(exc, PackageRefused):
@@ -81,29 +83,29 @@ def _sse(event: str, data: dict) -> str:
     return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
 
 
-def _stream_message(call_kwargs: dict, session_id: str, started: float, admission=None) -> StreamingResponse:
-    """One interview message answered as an event stream: a "sentence" event
-    for each sentence as the voice finishes writing it, with the marks the
-    finished plan gives it (engine.m4.sentence_stream), and a final "done"
-    event carrying the same MessageResponse the plain endpoint returns, whose
-    plan is authoritative. A refusal before the first event is the same HTTP
-    status and detail as the plain endpoint; a failure after the stream began
-    is an "error" event carrying {code, status, detail}. The turn runs to
-    completion and is recorded even if the reader disconnects."""
+def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None) -> StreamingResponse:
+    """One turn answered as an event stream: a "sentence" event for each
+    sentence as the voice finishes writing it, with the marks the finished
+    plan gives it (engine.m4.sentence_stream), and a final "done" event
+    carrying the same body the plain endpoint returns, whose plan is
+    authoritative. `handle(on_sentence)` runs the turn, `done_body(result)`
+    builds the done body and `voiced(result)` says whether a voice spoke. A
+    refusal before the first event is the same HTTP status and detail as the
+    plain endpoint; a failure after the stream began is an "error" event
+    carrying {code, status, detail}. The turn runs to completion and is
+    recorded even if the reader disconnects."""
     events: queue.Queue = queue.Queue()
 
     def run() -> None:
-        voiced = False
         try:
-            result = wiring.handle_message(**call_kwargs, on_sentence=lambda event: events.put(("sentence", event)))
-            voiced = result.voice is not None
+            result = handle(lambda event: events.put(("sentence", event)))
         except Exception as exc:
             if admission is not None:
                 admission.finish(False)
             events.put(("error", exc))
         else:
             if admission is not None:
-                admission.finish(voiced)
+                admission.finish(voiced(result))
             events.put(("done", result))
 
     threading.Thread(target=run, daemon=True).start()
@@ -118,13 +120,8 @@ def _stream_message(call_kwargs: dict, session_id: str, started: float, admissio
             if kind == "sentence":
                 yield _sse("sentence", payload)
             elif kind == "done":
-                logger.info("message handled ms=%d streamed=true", (time.monotonic() - started) * 1000)
-                done = MessageResponse(**asdict(payload)).model_dump()
-                if admission is not None and admission.remaining is not None:
-                    done["remaining"] = admission.remaining
-                if admission is not None:
-                    done["limit_note"] = admission.limit_note(payload.routing_action)
-                yield _sse("done", done)
+                logger.info("turn handled ms=%d streamed=true", (time.monotonic() - started) * 1000)
+                yield _sse("done", done_body(payload))
                 return
             else:
                 status, detail, code = _refusal(payload, session_id) or (500, "internal error", "internal")
@@ -624,8 +621,29 @@ def create_app(
             grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
-        if deps.streaming_enabled and not is_table and "text/event-stream" in request.headers.get("accept", ""):
-            return _stream_message(call_kwargs, session_id, started, admission)
+        if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
+            if is_table:
+                return _stream_turn(
+                    lambda on_sentence: table_wiring.handle_table_message(**call_kwargs, on_sentence=on_sentence),
+                    lambda result: TableMessageResponse(
+                        **asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None,
+                    ).model_dump(),
+                    lambda result: result.round_open or result.voice is not None,
+                    session_id, started, admission,
+                )
+
+            def interview_done(result) -> dict:
+                done = MessageResponse(**asdict(result)).model_dump()
+                if admission is not None and admission.remaining is not None:
+                    done["remaining"] = admission.remaining
+                if admission is not None:
+                    done["limit_note"] = admission.limit_note(result.routing_action)
+                return done
+
+            return _stream_turn(
+                lambda on_sentence: wiring.handle_message(**call_kwargs, on_sentence=on_sentence),
+                interview_done, lambda result: result.voice is not None, session_id, started, admission,
+            )
         voiced = False
         try:
             if is_table:
@@ -655,37 +673,27 @@ def create_app(
         interview session, which never has one."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
-        try:
-            result = table_wiring.continue_table_round(
-                store=deps.store,
-                usage_store=deps.usage_store,
-                world_loader=deps.world_loader,
-                registry=deps.registry,
-                voice_client=deps.voice_client,
-                voice_model_id=deps.voice_model_id,
-                safety_client=deps.safety_client,
-                safety_model_id=deps.safety_model_id,
-                session_id=session_id,
-                package_cache_dir=deps.package_cache_dir,
-                r27_enforce=deps.r27_enforce,
-                self_revision_enabled=deps.self_revision_enabled,
-                citation_attach_enabled=deps.citation_attach_enabled,
-                qc_recorder=deps.qc_recorder,
+        continue_kwargs = dict(
+            store=deps.store, usage_store=deps.usage_store, world_loader=deps.world_loader, registry=deps.registry,
+            voice_client=deps.voice_client, voice_model_id=deps.voice_model_id,
+            safety_client=deps.safety_client, safety_model_id=deps.safety_model_id,
+            session_id=session_id, package_cache_dir=deps.package_cache_dir, r27_enforce=deps.r27_enforce,
+            self_revision_enabled=deps.self_revision_enabled, citation_attach_enabled=deps.citation_attach_enabled,
+            qc_recorder=deps.qc_recorder,
+        )
+        if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
+            return _stream_turn(
+                lambda on_sentence: table_wiring.continue_table_round(**continue_kwargs, on_sentence=on_sentence),
+                lambda result: TableMessageResponse(**asdict(result)).model_dump(),
+                lambda result: result.voice is not None, session_id, time.monotonic(),
             )
-        except wiring.SessionNotFound:
-            raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
-        except wiring.SessionClosed:
-            raise HTTPException(status_code=409, detail="session already closed")
-        except table_wiring.TableRoundNotOpen:
-            raise HTTPException(status_code=409, detail="no open round to continue")
-        except table_wiring.TableAdvanceInFlight:
-            raise HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
-        except PackageRefused:
-            logger.warning("continue refused: package unavailable session=%s", session_id)
-            raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-        except wiring.ProviderCallFailed as exc:
-            logger.error("provider call failed session=%s (continue): %s", session_id, exc)
-            raise HTTPException(status_code=502, detail="provider call failed")
+        try:
+            result = table_wiring.continue_table_round(**continue_kwargs)
+        except Exception as exc:
+            failure = _message_failure(exc, session_id)
+            if failure is None:
+                raise
+            raise failure from exc
         return TableMessageResponse(**asdict(result))
 
     @app.get("/api/session/{session_id}/transcript", response_model=TranscriptResponse)

@@ -337,14 +337,16 @@ def _append_sentence_fact_check_correction(turn_directive: str | None, flags: li
 
 
 def _draft_is_final_text(
-    *, guard_labels: list[str] | None, is_other_tradition_first_ask: bool, self_revision_enabled: bool,
-    r27_enforce: bool, sentence_enforce: bool,
+    *, is_other_tradition_first_ask: bool, self_revision_enabled: bool, r27_enforce: bool, sentence_enforce: bool,
 ) -> bool:
-    """Whether the first generation is certain to be the reply a participant
-    keeps. A regeneration (seat-identity guard, the two enforcement flags) or
-    a rewrite (self-revision, which runs on a first other-tradition ask)
-    would replace text already shown, so on those turns nothing is drafted."""
-    return not (guard_labels or (is_other_tradition_first_ask and self_revision_enabled) or r27_enforce or sentence_enforce)
+    """Whether every sentence released is certain to be in the reply a
+    participant keeps. A regeneration (the two enforcement flags) or a
+    rewrite (self-revision, which runs on a first other-tradition ask) would
+    replace text already shown, so on those turns nothing streams. The
+    seat-identity guard does not stop a Table turn streaming: it reads each
+    sentence before release (engine.m4.sentence_stream), regenerates when it
+    catches the first one, and cuts the turn at a later one (decision 38)."""
+    return not ((is_other_tradition_first_ask and self_revision_enabled) or r27_enforce or sentence_enforce)
 
 
 def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
@@ -650,11 +652,15 @@ def _run_ordinary_voice_turn(
     user_message = prepared.user_message
     turn_directive = prepared.turn_directive
     on_text = None
+    sentences = None
     if on_sentence is not None and _draft_is_final_text(
-        guard_labels=guard_labels, is_other_tradition_first_ask=is_other_tradition_first_ask,
+        is_other_tradition_first_ask=is_other_tradition_first_ask,
         self_revision_enabled=self_revision_enabled, r27_enforce=r27_enforce, sentence_enforce=sentence_enforce,
     ):
-        sentences = SentenceStream(repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics)
+        sentences = SentenceStream(
+            repository_records=repository_records, world_key=world.world_key, thin_topics=thin_topics,
+            guard=(lambda raw: find_seat_identity_violation(raw, guard_labels)) if guard_labels else None,
+        )
 
         def on_text(chunk: str) -> None:
             for event in sentences.feed(chunk):
@@ -677,7 +683,24 @@ def _run_ordinary_voice_turn(
     raw_text = stream_outcome.value.text
     seat_identity_violations: list[dict] = []
     seat_identity_guard_exhausted = False
+    # A streamed Table turn the guard caught after sentences were already
+    # shown cannot be regenerated: it ends at its last released sentence,
+    # and the caller adds the Facilitator's seat-cut line.
+    seat_identity_cut = False
+    if sentences is not None and (kept := sentences.cut(raw_text)) is not None:
+        seat_identity_violations.append({
+            "world_key": world.world_key, "attempt": "streamed",
+            "offending_prefix": find_seat_identity_violation(raw_text[len(kept):], guard_labels),
+        })
+        raw_text = kept
+        seat_identity_cut = True
     offending = find_seat_identity_violation(raw_text, guard_labels) if guard_labels else None
+    if offending and sentences is not None and sentences.released:
+        # Inside a sentence the splitter kept whole (a quotation spanning a
+        # full stop), so the per-sentence check passed it and it is already
+        # shown: recorded, never regenerated over text a participant has read.
+        seat_identity_violations.append({"world_key": world.world_key, "offending_prefix": offending, "attempt": "shown"})
+        offending = None
     if offending:
         seat_identity_violations.append({"world_key": world.world_key, "offending_prefix": offending, "attempt": "first"})
         retry_outcome = stream_voice_turn(
@@ -1059,6 +1082,7 @@ def _run_ordinary_voice_turn(
         # as this seat's real answer.
         "seat_identity_violations": seat_identity_violations,
         "seat_identity_guard_exhausted": seat_identity_guard_exhausted,
+        "seat_identity_cut": seat_identity_cut,
         # Additive: [] on every clean turn. Base class
         # "uncited_claim" only - see this function's own note above.
         "uncited_claims": uncited_claims,

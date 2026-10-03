@@ -678,6 +678,7 @@ def _advance_open_round(
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
+    on_sentence=None,
 ) -> TableMessageResult:
     """One voice-turn advance of the open round - selector step, then the
     selected voice's turn, then the close when the cap lands. Re-projects
@@ -958,6 +959,7 @@ def _advance_open_round(
             known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
             self_revision_enabled=self_revision_enabled,
             citation_attach_model_id=safety_model_id if citation_attach_enabled else None,
+            on_sentence=on_sentence,
         )
     except UnhandledRoutingAction:
         raise
@@ -1002,6 +1004,12 @@ def _advance_open_round(
     if uncited_event is not None:
         events.validate("uncited_claims", uncited_event)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="uncited_claims", payload=uncited_event)
+
+    if voice_event.get("seat_identity_cut"):
+        cut_event = facilitator_turns.table_seat_cut_turn(world.frame["representative"]["name"])
+        events.validate("facilitator_turn", cut_event)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=cut_event)
+        common["facilitator"] = [*common["facilitator"], cut_event]
 
     if voice_event.get("seat_identity_guard_exhausted"):
         fallback_event = facilitator_turns.table_seat_correction_turn(world.frame["representative"]["name"])
@@ -1128,6 +1136,7 @@ def _handle_table_message_unlocked(
     qc_recorder=None,
     daily_turn_cap_reached: bool = False,
     grant_for: GrantProvider | None = None,
+    on_sentence=None,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1261,6 +1270,7 @@ def _handle_table_message_unlocked(
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
         qc_recorder=qc_recorder,
+        on_sentence=on_sentence,
     )
 
 
@@ -1281,6 +1291,7 @@ def _continue_table_round_unlocked(
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     qc_recorder=None,
+    on_sentence=None,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1309,6 +1320,7 @@ def _continue_table_round_unlocked(
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
         qc_recorder=qc_recorder,
+        on_sentence=on_sentence,
     )
 
 
