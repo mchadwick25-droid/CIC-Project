@@ -95,10 +95,19 @@ def test_the_module_imports_only_the_standard_library_and_itself():
             )
 
 
+def test_the_engines_own_words_never_name_a_code():
+    text = (ENGINE / "m4" / "facilitator_turns.py").read_text()
+    assert not re.search(r"\bcodes?\b", text), "the Facilitator's text in the engine must not mention a code"
+
+
 def test_the_grant_types_know_only_numbers():
     tree = ast.parse((ENGINE / "m4" / "grants.py").read_text())
     names = {n.id for n in ast.walk(tree) if isinstance(n, ast.Name)} | {n.arg for n in ast.walk(tree) if isinstance(n, ast.arg)}
     assert not names & {"code", "price", "balance", "payment", "stripe", "money"}
+    # the only words a grant carries are the ones the caller handed it
+    assert {f.name for f in __import__("dataclasses").fields(__import__("engine.m4.grants", fromlist=["TurnGrant"]).TurnGrant)} == {
+        "cap", "facilitator_only", "limit_text",
+    }
 
 
 # ---- no join between the stores ----------------------------------------------
@@ -171,6 +180,30 @@ def test_no_event_in_a_paid_sitting_carries_a_money_field(store, usage_store, wo
         assert not re.search(r"remaining|exchanges_|payment|stripe|x-cic|\bpaid\b", text), (event.event_type, text[:200])
 
 
+def test_a_sitting_driven_to_its_last_exchange_stores_no_code_or_balance_wording(store, usage_store, world_loader, registry, runtime):
+    from engine.api.tests.test_deeper_seam import FREE_CAP
+
+    client = RecordingClient()
+    free = capped_app(store, usage_store, world_loader, registry, runtime, client)
+    free_id, free_auth = open_session(free)
+    for i in range(FREE_CAP + 1):
+        say(free, free_id, free_auth, f"question {i}")
+    code = code_with(runtime, 2)
+    paid_id, paid_auth = open_session(free, **{"X-Cic-Code": code})
+    for i in range(FREE_CAP + 3):
+        say(free, paid_id, paid_auth, f"question {i}")
+    assert runtime.meter.status(code).remaining == 0
+
+    def facilitator_texts(session_id):
+        return [e.payload["text"] for e in store.read_events(session_id) if e.event_type == "facilitator_turn"]
+
+    assert facilitator_texts(free_id) == facilitator_texts(paid_id), "a paid sitting's stored words differ from a free one's"
+    for text in facilitator_texts(paid_id):
+        assert not re.search(r"\b(codes?|exchanges?|balance|paused|payment|stripe)\b", text, re.I), text
+    for event in store.read_events(paid_id):
+        assert not re.search(r"remaining|exchanges_|payment|stripe|x-cic|\bpaid\b", repr(event.payload).lower()), event.event_type
+
+
 # ---- the guard ---------------------------------------------------------------
 
 REQUIRED = {
@@ -179,11 +212,19 @@ REQUIRED = {
         "test_the_voice_request_is_identical_on_the_stream_path_past_the_free_cap",
         "test_the_voice_requests_are_identical_for_a_table_round_past_the_free_rounds",
         "test_a_safety_route_is_answered_at_every_limit",
-        "test_an_ordinary_message_at_a_limit_gets_a_close_and_no_voice_call",
+        "test_an_ordinary_message_at_a_limit_gets_a_pause_and_no_voice_call",
         "test_admission_is_decided_before_the_voice_and_never_during_it",
         "test_twenty_five_students_behind_one_address_all_get_through_on_a_group_code",
         "test_a_visitor_past_the_session_limit_gets_one_facilitator_only_sitting_a_day",
         "test_a_spent_code_does_not_lift_the_session_limit",
+        "test_an_extra_sitting_opened_by_a_live_code_draws_down_from_its_first_turn",
+        "test_the_stored_pause_is_the_same_words_for_a_free_sitting_and_a_paid_one_and_the_reason_is_never_stored",
+        "test_a_code_entered_after_the_pause_continues_the_same_conversation",
+    ],
+    "engine/api/tests/test_deeper_ops.py": [
+        "test_a_malformed_file_is_refused",
+        "test_the_stored_pause_names_no_code_and_no_money",
+        "test_the_flag_on_refuses_to_start_on_a_bad_file",
     ],
     "engine/api/tests/test_deeper_routes.py": [
         "test_flag_off_mounts_no_deeper_route",
@@ -206,6 +247,8 @@ REQUIRED = {
         "test_only_the_api_edge_imports_the_module",
         "test_a_paid_sitting_leaves_no_trace_of_the_code_or_the_payment_in_the_conversation_stores",
         "test_the_meter_and_the_claim_file_hold_no_session_visitor_or_conversation_text",
+        "test_a_sitting_driven_to_its_last_exchange_stores_no_code_or_balance_wording",
+        "test_the_engines_own_words_never_name_a_code",
     ],
 }
 REPO = Path(__file__).resolve().parents[3]
@@ -233,4 +276,22 @@ def test_every_named_proof_exists_and_none_is_skipped_or_expected_to_fail():
             body = ast.unparse(node)
             if re.search(r"pytest\.(skip|xfail)\(|importorskip", body):
                 problems.append(f"{relative}: {name} skips itself")
+            asserts = any(
+                isinstance(n, ast.Assert) or (isinstance(n, ast.Call) and re.search(r"raises$|^assert", ast.unparse(n.func).split(".")[-1]))
+                for n in ast.walk(node)
+            )
+            if not asserts:
+                problems.append(f"{relative}: {name} asserts nothing")
+    assert not problems, problems
+
+
+def test_no_collection_hook_or_ci_flag_drops_a_proof_from_outside_its_file():
+    outside = [REPO / "engine/conftest.py", REPO / "engine/api/tests/conftest.py", REPO / "conftest.py", REPO / ".github/workflows/ci.yml"]
+    problems = []
+    for path in outside:
+        if not path.exists():
+            continue
+        for number, line in enumerate(path.read_text().splitlines(), 1):
+            if re.search(r"collect_ignore|pytest_collection_modifyitems|--deselect|--ignore|pytest[^#\n]* -k ", line):
+                problems.append(f"{path.relative_to(REPO)}:{number}: {line.strip()}")
     assert not problems, problems

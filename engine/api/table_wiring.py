@@ -1189,7 +1189,7 @@ def _handle_table_message_unlocked(
         daily_cap_reached=False,
         round_cap=grant.cap,
         facilitator_only=grant.facilitator_only,
-        close_variant=grant.close_variant,
+        limit_text=grant.limit_text,
     )
 
     # The gate payload is written AFTER open_table_round - the bridge branch

@@ -203,6 +203,12 @@ def etic_turn(out_of_scope_class: str) -> dict:
     return {"kind": "threshold", "text": text}
 
 
+def limit_turn(text: str) -> dict:
+    """A pause at a limit that can be lifted: the words come from the
+    caller, and the sitting stays open."""
+    return {"kind": "limit", "text": text}
+
+
 SESSION_CAP = FacilitatorTurn(
     kind="close",
     text=(
@@ -222,7 +228,7 @@ SESSION_CAP = FacilitatorTurn(
 )
 
 
-def session_cap_turn(representative_name: str, variant: str | None = None) -> dict:
+def session_cap_turn(representative_name: str, limit_text: str | None = None) -> dict:
     """DRAFT TEXT, not yet approved - see this module's own note
     on what that approval process looks like for every other facilitator
     text here. Wired in now so the mechanism (Build/reference/Redesign-Spec/Artifact-6-
@@ -247,57 +253,10 @@ def session_cap_turn(representative_name: str, variant: str | None = None) -> di
 
     representative_name comes from world.frame["representative"]["name"],
     same source and same reason as dependency_check_turn above."""
-    if variant is not None:
-        return {"kind": "close", "text": close_variant_text(variant, representative_name)}
+    if limit_text is not None:
+        return limit_turn(limit_text)
     text = SESSION_CAP.text.format(representative_name=representative_name)
     return {"kind": SESSION_CAP.kind, "text": text}
-
-
-# Close texts for a sitting whose limit can be lifted. A grant names one by
-# key; the engine only looks the key up. DRAFT TEXT, held for Mark's wording
-# before any of it can be reached (the flag that selects a variant ships off).
-CLOSE_VARIANTS = {
-    "open": (
-        "This is the Facilitator. We have reached the end of the free part of this sitting with {who}.\n\n"
-        "If you hold a code, enter it and you can carry on from this exact point. "
-        "Nothing here is lost while you decide.\n\n"
-        "You are also welcome to start fresh, with {who} again or with another world."
-    ),
-    "extended_used": (
-        "This is the Facilitator. The code you entered has no exchanges left, so this conversation closes here.\n\n"
-        "Nothing in it is lost. A new code lets you carry on from this point, "
-        "or you can start fresh with any world."
-    ),
-    "extended_daily": (
-        "This is the Facilitator. The code you entered has reached its limit for today, "
-        "so this conversation closes here.\n\n"
-        "Come back tomorrow and carry on, or start fresh with any world."
-    ),
-    "extended_paused": (
-        "This is the Facilitator. Codes are paused for now, so this conversation closes here.\n\n"
-        "Nothing in it is lost. Your code is safe, and you can carry on from this point when codes resume. "
-        "You are also welcome to start fresh."
-    ),
-    "extended_busy": (
-        "This is the Facilitator. Your code is finishing another exchange, so this conversation closes here.\n\n"
-        "Nothing in it is lost. Start fresh, or come back and carry on from this point."
-    ),
-}
-
-DAILY_OPEN = (
-    "This is the Facilitator. You have reached today's limit for messages, so this conversation closes here.\n\n"
-    "If you hold a code, enter it and you can carry on today. Otherwise, come back tomorrow."
-)
-
-
-def close_variant_text(variant: str, who: str | None, *, daily: bool = False) -> str:
-    """The text for one close variant. who fills the sitting's voice or voices,
-    and is only used by "open"."""
-    if variant not in CLOSE_VARIANTS:
-        raise KeyError(f"no close variant {variant!r} - known: {sorted(CLOSE_VARIANTS)}")
-    if variant == "open":
-        return DAILY_OPEN if daily else CLOSE_VARIANTS["open"].format(who=who or "this voice")
-    return CLOSE_VARIANTS[variant]
 
 
 DAILY_CAP = FacilitatorTurn(
@@ -309,14 +268,14 @@ DAILY_CAP = FacilitatorTurn(
 )
 
 
-def daily_cap_turn(variant: str | None = None) -> dict:
+def daily_cap_turn(limit_text: str | None = None) -> dict:
     """The visitor's daily message cap, reached on a message that is not a
     crisis. Same DRAFT status as session_cap_turn; the wording is the daily
     cap's existing 429 text (engine.api.anon_cap.TURN_CAP_DETAIL), spoken
     as the Facilitator. Serves the interview and the Table alike, since it
     names no Representative."""
-    if variant is not None:
-        return {"kind": "close", "text": close_variant_text(variant, None, daily=True)}
+    if limit_text is not None:
+        return limit_turn(limit_text)
     return {"kind": DAILY_CAP.kind, "text": DAILY_CAP.text}
 
 
@@ -416,14 +375,14 @@ TABLE_SESSION_CAP = FacilitatorTurn(
 )
 
 
-def table_session_cap_turn(representative_names: list[str], variant: str | None = None) -> dict:
+def table_session_cap_turn(representative_names: list[str], limit_text: str | None = None) -> dict:
     """Same DRAFT status, same honesty-about-cost direction, and the same
     deliberate absence of a dollar figure as session_cap_turn - see its
     docstring; the discrepancy it documents (support.html's published rate
     was measured for the Table, the interview cap's for the single path)
     cuts the other way here and is still unreconciled."""
-    if variant is not None:
-        return {"kind": "close", "text": close_variant_text(variant, names_or_phrase(representative_names))}
+    if limit_text is not None:
+        return limit_turn(limit_text)
     text = TABLE_SESSION_CAP.text.format(names_phrase=names_or_phrase(representative_names))
     return {"kind": TABLE_SESSION_CAP.kind, "text": text}
 

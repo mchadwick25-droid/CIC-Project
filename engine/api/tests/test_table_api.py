@@ -81,11 +81,11 @@ def grounded_sentence(world) -> tuple[str, str]:
     raise AssertionError("no repository record with enough content words")
 
 
-def _http(*, store, usage_store, world_loader, registry, client):
+def _http(*, store, usage_store, world_loader, registry, client, **extra):
     app = create_app(
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-        default_world_key="fix",
+        default_world_key="fix", **extra,
     )
     return TestClient(app)
 
@@ -577,7 +577,8 @@ def test_session_cap_at_table_unit(store, usage_store, world_loader, registry, m
         ],
         stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence]],
     )
-    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    # The close-for-good at the cap is the module-off contract; with the module on, a limit pauses.
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client, deeper=None)
     session_id, auth = _create_table(http)
     result = http.post(f"/api/session/{session_id}/message", json={"text": "one"}, headers=auth).json()
     while result["round_open"]:

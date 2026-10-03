@@ -1174,7 +1174,7 @@ def run_turn(
     daily_cap_reached: bool = False,
     turn_cap: int | None = None,
     facilitator_only: bool = False,
-    close_variant: str | None = None,
+    limit_text: str | None = None,
     on_draft_text: Callable[[str], None] | None = None,
     citation_attach_enabled: bool = False,
 ) -> TurnResult:
@@ -1280,7 +1280,7 @@ def run_turn(
         return TurnResult(
             routing_action="session_cap_turn", routing_reason="visitor daily message cap reached",
             gate=gate, safety_state_events=safety_states,
-            facilitator_events=[facilitator_turns.daily_cap_turn(close_variant)],
+            facilitator_events=[facilitator_turns.daily_cap_turn(limit_text)],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
     turn_cap = SESSION_TURN_CAP if turn_cap is None else turn_cap
@@ -1288,7 +1288,7 @@ def run_turn(
         return TurnResult(
             routing_action="session_cap_turn", routing_reason=f"session turn cap reached ({turn_cap} turns)",
             gate=gate, safety_state_events=safety_states,
-            facilitator_events=[facilitator_turns.session_cap_turn(world.frame["representative"]["name"], close_variant)],
+            facilitator_events=[facilitator_turns.session_cap_turn(world.frame["representative"]["name"], limit_text)],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
 

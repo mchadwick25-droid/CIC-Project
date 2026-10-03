@@ -82,7 +82,7 @@ export interface GlossUsed {
 }
 
 export interface FacilitatorTurn {
-  kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close';
+  kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close' | 'limit';
   text: string;
   // engine/m4/facilitator_turns.py's bridge_turn: present only on a
   // 'bridge' turn - one SourceCard per modern term the Facilitator just

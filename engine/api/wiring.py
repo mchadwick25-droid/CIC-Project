@@ -895,7 +895,7 @@ def handle_message(
             daily_cap_reached=False,
             turn_cap=grant.cap,
             facilitator_only=grant.facilitator_only,
-            close_variant=grant.close_variant,
+            limit_text=grant.limit_text,
             on_draft_text=on_draft_text,
             citation_attach_enabled=citation_attach_enabled,
         )
@@ -973,7 +973,7 @@ def handle_message(
     # before this turn cap existed to fire it. Appended after the
     # facilitator_turn so a reader replaying the log sees the closing words
     # before the event that makes them final.
-    if result.routing_action == "session_cap_turn":
+    if result.routing_action == "session_cap_turn" and grant.limit_text is None:
         closed_payload = {"reason": "cap"}
         events.validate("session_closed", closed_payload)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="session_closed", payload=closed_payload)

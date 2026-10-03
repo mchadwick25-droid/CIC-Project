@@ -165,7 +165,7 @@ def open_table_round(
     daily_cap_reached: bool = False,
     round_cap: int | None = None,
     facilitator_only: bool = False,
-    close_variant: str | None = None,
+    limit_text: str | None = None,
 ) -> RoundOpening:
     """Resolve one gated participant message into the round it opens.
     Mirrors engine.m4.turn.run_turn's branches with the table's own
@@ -194,18 +194,18 @@ def open_table_round(
         return RoundOpening(
             routing_action="session_cap_turn",
             **{**common, "routing_reason": "visitor daily message cap reached"},
-            facilitator_events=[facilitator_turns.daily_cap_turn(close_variant)],
+            facilitator_events=[facilitator_turns.daily_cap_turn(limit_text)],
             voices_speak=False,
-            session_capped=True,
+            session_capped=limit_text is None,
         )
     round_cap = TABLE_SESSION_ROUND_CAP if round_cap is None else round_cap
     if not is_safety_route and rounds_completed >= round_cap:
         return RoundOpening(
             routing_action="session_cap_turn",
             **{**common, "routing_reason": f"session round cap reached ({round_cap} rounds)"},
-            facilitator_events=[facilitator_turns.table_session_cap_turn(representative_names, close_variant)],
+            facilitator_events=[facilitator_turns.table_session_cap_turn(representative_names, limit_text)],
             voices_speak=False,
-            session_capped=True,
+            session_capped=limit_text is None,
         )
 
     if is_acute_crisis:
