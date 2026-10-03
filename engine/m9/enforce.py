@@ -181,6 +181,32 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # FLEET_PSEUDO_WORLD key, never against any single real world's own
     # count, for the reason gate_readability_fleet's own docstring gives.
     "m1:readability-fleet/_fleet": Waiver(count=7, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
+    # Slice 5 (System Hub decision 40): the status, cells-required and horizon
+    # gates' findings on content that predates them.
+    "m1:cells-required/alx": Waiver(count=4, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; alx's own build thread"),
+    "m1:horizon/alx": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; alx's own build thread"),
+    "m1:cells-required/cappadocian": Waiver(count=91, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; cappadocian's own build thread"),
+    "m1:horizon/cappadocian": Waiver(count=5, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; cappadocian's own build thread"),
+    "m1:status-ready/desert": Waiver(count=1, deadline="2027-03-15", owner="slice 5 status gate: each draft record is finished and marked ready, or marked voice: analytic; desert's own build thread"),
+    "m1:cells-required/desert": Waiver(count=5, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; desert's own build thread"),
+    "m1:horizon/desert": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; desert's own build thread"),
+    "m1:status-ready/don": Waiver(count=25, deadline="2027-03-15", owner="slice 5 status gate: each draft record is finished and marked ready, or marked voice: analytic; don's own build thread"),
+    "m1:cells-required/don": Waiver(count=30, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; don's own build thread"),
+    "m1:status-ready/gallic": Waiver(count=3, deadline="2027-03-15", owner="slice 5 status gate: each draft record is finished and marked ready, or marked voice: analytic; gallic's own build thread"),
+    "m1:cells-required/gallic": Waiver(count=132, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; gallic's own build thread"),
+    "m1:horizon/gallic": Waiver(count=5, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; gallic's own build thread"),
+    "m1:cells-required/hal": Waiver(count=5, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; hal's own build thread"),
+    "m1:horizon/hal": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; hal's own build thread"),
+    "m1:cells-required/ijc": Waiver(count=4, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; ijc's own build thread"),
+    "m1:horizon/ijc": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; ijc's own build thread"),
+    "m1:status-ready/pahc": Waiver(count=2, deadline="2027-03-15", owner="slice 5 status gate: each draft record is finished and marked ready, or marked voice: analytic; pahc's own build thread"),
+    "m1:cells-required/pahc": Waiver(count=8, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; pahc's own build thread"),
+    "m1:horizon/pahc": Waiver(count=6, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; pahc's own build thread"),
+    "m1:cells-required/rzg": Waiver(count=9, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; rzg's own build thread"),
+    "m1:cells-required/syr": Waiver(count=9, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; syr's own build thread"),
+    "m1:horizon/syr": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; syr's own build thread"),
+    "m1:cells-required/witt": Waiver(count=50, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; witt's own build thread"),
+    "m1:horizon/witt": Waiver(count=2, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; witt's own build thread"),
 }
 
 

@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: ready
 register: emic
-canon_cells: []
+canon_cells: [C-P]
 confidence:
   citation_specificity: C
   verification_state: named-not-rechecked

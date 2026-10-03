@@ -56,6 +56,7 @@ from pathlib import Path
 from engine.m1.loader import load_fleet_records, load_world_records
 from engine.m1.registry import formation_world_keys, load_registry
 from engine.m3 import harness, protocol, results
+from engine.m2.manifest import package_content_hash
 from engine.m3.generation import LiveModelAnswerer
 from engine.m4.generation import stream_voice_turn
 from engine.m4.world_loader import LazyWorldLoader
@@ -288,6 +289,7 @@ def run_settings(*, registry: dict, world_keys: list[str], region: str, voice_mo
         "self_revision": "off - not in the admission harness path",
         "region": region,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in world_keys},
+        "package_content_hash": {w: package_content_hash(REPO_ROOT / registry[w]["package"]["location"]) for w in world_keys},
         "shape_hash": shape_hash(shape_text()),
         "seal_hash": seal_hash(),
         "battery_size": len(protocol.battery()),
