@@ -1091,3 +1091,73 @@ The Go Deeper module (pay as you go, a code that buys more conversation, through
 **Stripe and legal facts unverified.** The network policy blocked stripe.com and the regulation sites, so Mark verifies each before the slice that depends on it: the client reference in the completion event (S3, S7); the signature header (S3); the redirect to the return page (S4, S7); which id refund and dispute events carry (S1, S3); event order, retries and replay (S3); quantity on a Payment Link (S3, S4); telling a go-deeper payment from a gift on one endpoint (S3, S5); whether the monthly gift link, a subscription, needs other event types (S5); what Stripe itself records about the buyer, including IP and email (S7); Stripe's fees (pricing).
 
 **Parked items filed here.** (a) The 2026-10-01 pay-as-you-go study cited in the entry "Notes moved out of `support.html`" above is not in the repo. (b) Whether the AWS account carries a budget alarm or spending limit is unverified from the repo; Mark confirms. (c) The network policy blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com; widening it is Mark's. (d) The close text marked "draft, not yet approved" in `engine/m4/facilitator_turns.py` is replaced by S8, and P1-Security entry 10's open question (a capped visitor reaching the Facilitator) is answered by the Facilitator-only sitting built in S2.
+
+## 2026-10-03 — Go Deeper: Opus round two on S1 and S3 (PR #723), and what each finding became
+
+Opus's targeted recheck (comment on PR #723) found two blocking bugs in S3, one blocking item that belongs to S2, and nine notes. #725 was merged into the S1 branch at 13:31, so #723 carries both slices.
+
+**Fixed in #723.**
+
+- R2-1. A second purchase on a claim reference that already held another buyer's codes deleted that claim. A claim is now deleted only by the call that created it; a reused reference mints nothing and shows as a gap.
+- R2-2. A Stripe retry after the claim hour minted codes nobody could reach. `put` now clears an expired row first; the caller refuses to mint, and counts a gap, when the claim cannot be stored.
+- a. The claim page answers "no codes yet" until the codes exist in the meter.
+- b. The claim file uses `journal_mode=DELETE`, so `secure_delete` scrubs it; a test reads the file after the purge.
+- c. The wrong-code delay is `await asyncio.sleep`, so it no longer holds a worker thread.
+- d. The webhook refuses a body over 256 KB before it reads the signature.
+- e. A partial refund adds to `partial_refunds_ignored` on the reconciliation. Refund policy stays the project lead's.
+- h. The module docstring now says what the flag does.
+
+**Carried to later slices.**
+
+- R2-3, blocking, S2's definition of done: the message log records each turn with its session id and a time. Once paid sittings run past ten exchanges, a turn 11 or later marks a paid session, and Stripe's payment time then links a named payment to a conversation. S2 drops the session id from the per-message success lines (kept on error lines) or logs a per-day salted hash of it. S2 does not merge without this.
+- g. S2 releases every reservation in a `finally`. A reservation time-out is left out because a long Table round would need its own limit; S2 decides.
+- f. S4's sponsor Payment Link uses a fixed quantity, and the expected `amount_total` per product is checked.
+- i. S7's return page has the browser make references of at least 22 base64url characters (128 bits), and a new reference for every purchase click, so a repeat purchase never reuses one.
+
+## 2026-10-03 — Go Deeper S2: the admission seam
+
+S2 is the one slice that touches the conversation engine. What it does, and the choices inside it:
+
+- **The engine receives only numbers.** `engine/m4/grants.py` defines a grant (a cap and a Facilitator-only flag). `run_turn` and `open_table_round` read the cap and the flag in place of the constants, and treat Facilitator-only exactly like a spent daily allowance. No money word, price or balance exists in the engine. The free defaults read the live constants, so tests that patch them still work.
+- **The API edge turns a code into a grant.** `engine/api/deeper_admission.py` reserves exchanges before the turn and settles them after it, in a `finally` around the interview, stream and Table calls (review note g). A turn the Facilitator answers alone, a failed voice call and a failed stream all give the exchanges back.
+- **A code is spent only on turns the free allowance refuses** (decision 36 in the System Hub log). The first ten exchanges of a sitting stay free.
+- **Check-in and crisis at every limit (B3).** The module's limits use the same branch as today's, and System Hub decision 35 already exempts every safety route from it, so the check-in and the fail-closed route are answered at the session limit, the daily limit, the free cap, zero balance, paused, a wrong code, a module error and a Facilitator-only sitting. 24 tests cover the three cases at each of eight limits.
+- **A visitor at the daily session limit opens a Facilitator-only sitting instead of getting a 429 (B2)**, only when the module is on. The marks are kept in memory, like the daily counters, so a restart forgets them.
+- **A valid code lifts the daily session limit and has its own burst bucket (B7).** A group code's bucket is six times larger. Twenty-five students behind one address, on one group code, all get through; without a code the address limit still applies.
+- **R2-3 closed.** The per-message success log lines no longer carry the session id or the turn number.
+- **The Table:** the price is charged once, when the round opens. The voices that follow in the round (`/continue`) are already paid for, so a round is never stopped part-way by a balance or a pause.
+- **Not built here:** the door (S5). The seam leaves one place for it, the free grant. When the module fails, the free path stays open; the door's fail-closed rule arrives with S5.
+- **The balance** travels in an `X-Cic-Remaining` response header (and in the stream's final event), so the app can show it after each exchange without extra calls. The code goes in an `X-Cic-Code` request header.
+- **Entry 98 items 1 to 4** were already fixed by System Hub decision 35, so the precondition for S11 step 4 that the Handoff names (the "already closed" 409) is met.
+## 2026-10-03 — Go Deeper: S1 and S3 merged; Opus round three
+
+S1 and S3 merged to `main` together as PR #723 (merge commit 8584e600), switched off. Opus round three found no blocking finding and three non-blocking notes: the claim route served a refunded code with its full count (fixed in the S3 follow-up); the three route handlers made blocking store calls on the event loop (fixed in the same follow-up, through the thread pool); and a new column does not reach a meter file created before the change. No meter file exists yet, so nothing breaks today. Any later change to a meter column needs a migration step before the flag is first turned on. S2 stays blocked on R2-3 (the per-message log lines).
+
+## 2026-10-03 — Go Deeper S2: Opus review, and what each finding became
+
+Opus reviewed S2 in full (comment on PR #736): three blocking findings and six notes.
+
+**Fixed in S2.**
+
+- S2-1. A visitor past the daily session limit could open unlimited Facilitator-only sittings, each costing the safety check, with no limit but six creations a minute. A visitor now gets one Facilitator-only sitting a day (`daily_facilitator_session_limit`); further creations answer 429, as the limit did before the module. A Facilitator-only sitting that closes still answers a later crisis message with the safety turn, through System Hub decision 35, and a test covers the fifth message.
+- S2-2. Any code, even a spent one, lifted the session limit free. Only a live code with exchanges left, with codes not paused, lifts it. A sitting opened that way is marked, and every turn in it is metered from its first. A spent or paused code gets the Facilitator-only sitting. A round already admitted keeps its `/continue` for any code that is not void, so a round paid down to zero is not stopped part-way.
+- Notes: a, the module docstring now says the process remembers session ids in memory and never stores them; b, the request-diff test now also covers the stream path and a Table round past the free rounds; f, a request's code is looked up once.
+
+**Change order on the Handoff (S2-3).** The Handoff gave S2 a `close_reason` that selects the close text. S2 does not build it. The engine cannot yet say "your code has run out" or "codes are paused" in words different from the free-cap close, so a participant refused on a paid sitting reads the free-cap text, and a refusal for a passing state (paused, exchanges held by another device) closes the sitting for good. Words are the project lead's, and an engine selector with no new words would be an empty mechanism. So S8 owns both: it adds the reason to the grant, selects the text by reason, and supplies the words; it is therefore no longer text-only. The reasons are free cap, balance out, paused, daily allowance and each door stage. S8 is a precondition of S11 step 4, the step that links the go-deeper page. Until then the module stays dark, so no participant is paid and told the wrong thing.
+
+**Accepted, recorded.**
+
+- d. The session-created log line keeps its session id. It carries no client address and no payment state, and another thread's privacy test depends on it.
+- c. Exchanges are reserved before the safety check runs, so on a pooled code with one exchange left a second device's turn is refused while the first is in flight, even if the first turns out to be a safety route. The refusal is the daily close.
+- e. A Table round is charged at its opening (decision 36). If every voice in it then fails on `/continue`, the charge stands.
+
+## 2026-10-03 — Go Deeper S10: the standing proofs
+
+S10 adds `engine/api/tests/test_deeper_proofs.py`, which runs in the engine job with the module off and again with it mounted.
+
+- **The two sentences, as imports.** The conversation engine (m1 to m10, provider, canon, prose, wiring, table_wiring) imports nothing from the module. The edge middleware (anon_cap, ratelimit) imports nothing from it. Only `app.py`, `deeper_routes.py` and `deeper_admission.py` do. The module imports only the standard library and itself. The engine core names no payment service, meter or balance header, and the grant types hold only numbers.
+- **No join between stores.** After a paid sitting with a real code, the raw bytes of the event and usage databases, including the write-ahead log, hold no plain code, no hash, no payment id, no claim reference and no balance word. The meter and claim files hold no session id, session code, visitor id or conversation text. No event payload in a paid sitting carries a money field.
+- **The guard.** A test fails if any of the named proofs is deleted, skipped or marked expected-to-fail. I broke the engine's import rule and skipped a proof on purpose; both were caught.
+- **Already in place from S1 to S3 and S2:** the request-diff (interview, stream and Table, past the free cap), the safety tests at eight limits, route absence with the flag off, never-mid-answer, the log scrub, the 25-student class, the schema tests, the race test.
+- **Still to come:** overlapping sittings against the ceiling, which needs the door (S5).
+- **Recorded next to the Facilitator-only marks:** the marks for sittings a code opens past the session limit are also kept only in memory. After a restart such a sitting is an ordinary one, with its first ten exchanges free. That is bounded, and the daily counters reset on a restart as well.

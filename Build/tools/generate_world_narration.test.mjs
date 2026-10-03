@@ -30,3 +30,9 @@ test('parseArgs: --prefix is read from the command and defaults to empty', () =>
   assert.equal(parseArgs(['--prefix', '[tag] ']).prefix, '[tag] ');
   assert.equal(parseArgs([]).prefix, '');
 });
+
+test('narration is requested and stored at the same 64 kbps mono size', async () => {
+  const { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT } = await import('./generate_tree_narration.mjs');
+  assert.equal(NARRATION_OUTPUT_FORMAT, 'mp3_44100_64');
+  assert.equal(NARRATION_BITRATE, '64k');
+});

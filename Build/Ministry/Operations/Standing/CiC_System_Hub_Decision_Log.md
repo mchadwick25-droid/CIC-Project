@@ -6127,6 +6127,13 @@ Report hygiene, parked and not touched here: the note in `engine/m8/reports/live
 
 Network policy: the sandbox blocks stripe.com, docs.stripe.com, ecfr.gov, consumerfinance.gov, ftc.gov, mullvad.net, meta.wikimedia.org and render.com. Widening it is the project lead's, and is the open item already named under source acquisition in CLAUDE.md.
 
+
+## 2026-10-03 - Go Deeper: what a Table round costs against a code (decision 36)
+
+The Go Deeper build asked the project lead for the one number slice S2 needed (review note N7).
+
+36. A Table round costs 3 exchanges against a code, paid once when the round opens; the voices that follow in the round cost nothing more. The project lead chose this over 1 and over 2. It matches the measured cost of a round, about 2.5 to 3 times a solo turn, and it is easy to say to a participant. The number is a setting (`CIC_DEEPER_TABLE_ROUND_COST`), so a later change is one value. A code is spent only on turns the free allowance would refuse: past the free cap, or once today's allowance is used. It is never spent on a turn the Facilitator answers alone.
+
 ---
 
 ## 2026-09-26 — Escalation does not park the document: a named escalated item waits, the document proceeds

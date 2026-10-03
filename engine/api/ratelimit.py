@@ -42,6 +42,7 @@ receive verbatim from the request itself.
 import threading
 import time
 from collections import deque
+from typing import Callable
 
 from fastapi import Request
 from fastapi.responses import JSONResponse
@@ -64,6 +65,12 @@ ADMIN_LIMIT = (60.0, 10)
 # lockout, not ADMIN_LIMIT's looser 10/min (sized for an operator polling
 # an API with a long random token, a different threat model).
 ADMIN_LOGIN_LIMIT = (900.0, 5)
+# Go Deeper's claim and balance routes get a bucket of their own, apart from
+# conversation traffic; a code is 100 random bits, so this is about load, not
+# guessing. The signed webhook is exempt: Stripe sends from a few addresses and
+# the signature, not the address, is what admits a request.
+DEEPER_LIMIT = (60.0, 60)
+DEEPER_WEBHOOK_PATH = "/api/deeper/webhook"
 
 # Participant-facing words (full inventory in the decision log, alongside
 # the move-3 error layer): plain, no blame, says what to do.
@@ -77,14 +84,14 @@ class SlidingWindowLimiter:
         self._hits: dict[str, deque] = {}
         self._lock = threading.Lock()
 
-    def allow(self, key: str, now: float | None = None) -> bool:
+    def allow(self, key: str, now: float | None = None, scale: int = 1) -> bool:
         now = time.monotonic() if now is None else now
         with self._lock:
             q = self._hits.setdefault(key, deque())
             cutoff = now - self.window
             while q and q[0] <= cutoff:
                 q.popleft()
-            if len(q) >= self.max_requests:
+            if len(q) >= self.max_requests * scale:
                 return False
             q.append(now)
             # Keep the map from growing one entry per IP forever: drop
@@ -103,7 +110,7 @@ def client_ip(request: Request) -> str:
     return request.client.host if request.client else "unknown"
 
 
-def install(app):
+def install(app, bucket_for: Callable[[Request], tuple[str, int] | None] | None = None):
     """HTTP middleware: session creation, conversation traffic (including
     the two per-session GET reads, not just the two message POSTs - see
     below), and admin requests each get their own per-IP bucket;
@@ -114,6 +121,7 @@ def install(app):
     converse_limiter = SlidingWindowLimiter(*CONVERSE_LIMIT)
     admin_limiter = SlidingWindowLimiter(*ADMIN_LIMIT)
     admin_login_limiter = SlidingWindowLimiter(*ADMIN_LOGIN_LIMIT)
+    deeper_limiter = SlidingWindowLimiter(*DEEPER_LIMIT)
 
     @app.middleware("http")
     async def _rate_limit(request: Request, call_next):
@@ -138,9 +146,20 @@ def install(app):
             limiter = admin_login_limiter
         elif path.startswith("/api/admin"):
             limiter = admin_limiter
+        elif path == DEEPER_WEBHOOK_PATH:
+            return await call_next(request)
+        elif path.startswith("/api/deeper/"):
+            limiter = deeper_limiter
         else:
             return await call_next(request)
-        if not limiter.allow(client_ip(request)):
+        key, scale = client_ip(request), 1
+        if bucket_for is not None and limiter in (create_limiter, converse_limiter):
+            # A request carrying a usable code is counted under that code, so
+            # a class sharing one network address is not counted as one person.
+            own = bucket_for(request)
+            if own is not None:
+                key, scale = own
+        if not limiter.allow(key, scale=scale):
             return JSONResponse(
                 status_code=429,
                 content={"detail": RETRY_DETAIL},

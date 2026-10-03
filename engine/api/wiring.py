@@ -23,7 +23,17 @@ from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
 from engine.m4 import evidence as ev
-from engine.m4.turn import SAFETY_ROUTES, TurnResult, UnhandledRoutingAction, run_gate, run_turn, safety_route_facilitator_events
+from engine.m4 import turn as turn_module
+from engine.m4.grants import GrantProvider
+from engine.m4.grants import resolve as resolve_grant
+from engine.m4.turn import (
+    SAFETY_ROUTES,
+    TurnResult,
+    UnhandledRoutingAction,
+    run_gate,
+    run_turn,
+    safety_route_facilitator_events,
+)
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
     conversation_revealed_excerpts,
@@ -722,6 +732,7 @@ def handle_message(
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
     daily_turn_cap_reached: bool = False,
+    grant_for: GrantProvider | None = None,
     on_draft_text: Callable[[str], None] | None = None,
     qc_recorder=None,
 ) -> MessageResult:
@@ -855,6 +866,9 @@ def handle_message(
         if named_tradition_key else None
     )
 
+    grant = resolve_grant(
+        grant_for, completed=len(history) // 2, free_cap=turn_module.SESSION_TURN_CAP, daily_cap_reached=daily_turn_cap_reached
+    )
     try:
         result: TurnResult = run_turn(
             session_id=session_id,
@@ -878,7 +892,9 @@ def handle_message(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
-            daily_cap_reached=daily_turn_cap_reached,
+            daily_cap_reached=False,
+            turn_cap=grant.cap,
+            facilitator_only=grant.facilitator_only,
             on_draft_text=on_draft_text,
             citation_attach_enabled=citation_attach_enabled,
         )
