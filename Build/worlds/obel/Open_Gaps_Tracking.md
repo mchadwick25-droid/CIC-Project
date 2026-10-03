@@ -1,0 +1,574 @@
+# Open Gaps Tracking — The Old Believers (obel)
+
+Append-only, numbered. A merged entry's number never changes;
+cross-references cite subject + date, not a bare number, per `CLAUDE.md`.
+
+---
+
+**1. (2026-09-25, Doc_01 §6, Step 0 §4) Strand determination
+(popovtsy/bezpopovtsy) not decided.** The movement's internal division
+between priestly and priestless communities is real and consequential but
+not resolved at Steps 0-2. Carried forward to the world-build thread
+(Step 3 onward per V1.8) to decide once Doc_03-Doc_09's own research has
+built out the evidentiary base for each side. Does not touch the Creed
+(Doc_01 §9) but does raise doctrine-adjacent ecclesiological questions
+(whether a valid priesthood can be had at all) that a future document
+should not treat as settled by this world's own ritual-schism floor claim.
+**Correction, 2026-09-25, Round 2 (independent review Finding 20):**
+between this entry's original text and this correction, this build
+thread's own checkout could not locate V1.8 in its working tree and
+re-grounded its governing citations on V1.5 instead; see the 2026-09-25 V1.8 merge-state entry's own
+correction for the detail. **Correction-of-a-correction, 2026-09-25
+(following the coordinator's own direct check):** that was a stale-
+checkout artifact, not a real absence — V1.8 was already merged to real
+`origin/main` before this build thread started. After merging
+`origin/main` (commit `169dc5cb`), V1.8 is present in this checkout, and
+this entry's own "Step 3 onward per V1.8" citation is accurate as
+originally written and does not need re-grounding. See the 2026-09-25 V1.8 merge-state entry's own
+correction-of-a-correction and `Doc_01`/`Doc_02`'s Document Logs for the
+full account.
+
+**2. (2026-09-25, Doc_01 §2.1) The 1666-1667 Moscow council's own
+proceedings are not independently verified against a primary source.**
+This world's current library (Avvakum's autobiography, both languages)
+narrates his own life, not the council's own institutional proceedings.
+A real acquisition gap, not yet closed — see the Source Readiness
+Dossier §4.
+
+**3. (2026-09-25, Doc_01 §2.3) Self-immolation death-toll figures are
+Contested, not independently verified.** The census's own sourcing note
+states state reports, Old Believer martyrologies, and hostile accounts
+"agree on the fact and disagree on the numbers." This world's current
+library does not contain a primary account of any specific incident
+(Paleostrovsky Monastery, 1687, or otherwise). Any future document citing
+a specific death toll must tag it Contested and cite its actual source,
+not treat any one figure as settled.
+
+**4. (2026-09-25, Doc_02) Real, unclosed acquisition leads: the
+Solovetsky petitions (esp. the Fifth Petition, 1667), the Pomorian
+Answers (1723, Semyon Denisov et al.), and Evfrosin's *Otrazitel'noe
+pisanie o novoizobretennom puti samoubiistvennykh smertei* (1691).**
+None found in a clean, downloadable, full-text form this pass — see the
+Source Readiness Dossier §4 ("Checked and closed") for exactly what was
+tried and why each remains open, rather than closed as non-existent.
+**Correction, 2026-09-25, Round 2 (independent review Finding 11): the
+Pomorian Answers' primary authorship is Andrei Denisov, not Semyon
+Denisov as this entry's original text names — the misattribution was
+this world's own package's error, not the census's; Semyon Denisov and
+Trifon Petrov are named participants, not the primary author. Corrected
+at Doc_01, Doc_02, the Registry, and the Dossier; this entry's own
+original text is left as written above, per the append-only rule, with
+this correction appended rather than the text rewritten.**
+
+**5. (2026-09-25, Doc_01 §4) English-translation / original-language
+opening-passage discrepancy, unresolved.** The vendored 1924 Harrison &
+Mirrlees English translation's own narrative opens at "Avvakum, archpriest,
+was bidden by the monk Epiphanius... to write down my life" (p. 32). The
+vendored original-language (Wikisource) text opens instead with Avvakum's
+own rhetorical declaration about plain speech and philosophical verses,
+which does not appear at the equivalent point in the English translation
+as vendored. This document does not know whether the English translators
+abridged, relocated, or otherwise handled this passage differently, and
+does not resolve it by assumption. A future document (most likely Doc_02
+or Doc_03) should either locate the missing passage elsewhere in the
+English text, or record its absence as a documented translation choice,
+rather than silently treat the two vendored texts as page-for-page
+equivalent.
+**Correction, 2026-09-25, Round 2 (independent review Findings 7, 14):
+two things this entry states have both since been settled.** The
+dedication and Epiphanius footnote sit on p. 33, not p. 32 as this
+entry's own original text names — the same backward pagination-convention
+error as the 2026-09-25 authority-list names entry's own correction. And the question this entry says is
+unresolved is in fact resolved: the two openings are positionally
+aligned (same Epiphanius attribution, same "Amen", identical following
+Trinity paragraph) with the plain-speech apologia and the Pauline
+citation dropped from the English translation's middle, and no
+equivalent passage exists anywhere else in the vendored English file
+(checked directly, `grep` for plain-speech/vernacular phrasing across
+the whole file returns no equivalent). Doc_01 §4 now states this as a
+documented, disclosed translation omission rather than an open question.
+
+**6. (2026-09-25, Doc_02) The original-language file's own transcription
+chain is not independently verified hop-by-hop.** The vendored
+`avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt`
+descends, by its own Wikisource page's own citation, from az.lib.ru
+(Maksim Moshkov's library), whose own source (a specific dated critical
+edition) is not stated on the page and was not independently checked —
+az.lib.ru itself was unreachable from this session (network egress
+allowlist). This is an **honest_limit**: the text is vendored and usable
+as a second witness, but its quotability flag is second-witness-only, not
+verbatim-ready, until a future session either reaches az.lib.ru directly
+or locates the specific critical edition (likely a Soviet-era Academy of
+Sciences "Pamyatniki literatury Drevney Rusi" volume, or the Robinson
+1963 edition — not confirmed) and checks this transcription against it.
+
+**7. (2026-09-25, Doc_02) `CiC_Record_Native_World_Build_Process_V1.8.md` is not yet merged to `main`.** This world's build
+was instructed to follow V1.8 as authoritative, but as of this pass, only
+V1.5 exists on this worktree's checked-out branch (`git log --all` shows
+V1.8's own commits — `33c0c4f3`, `f85b8080`, `e2ca4dc3`, `a6d4d639` —
+exist in the repository's history but are not ancestors of `main`/this
+branch's own HEAD, i.e. they sit in one or more still-open, unmerged pull
+requests, referenced in that history as PRs 591, 594 and 595 (2026-09-25)). This
+thread read V1.8's actual content directly via `git show` against the
+commit that carries it, rather than work from V1.5 or from memory, and
+followed it as instructed — but this is flagged here plainly rather than
+silently assumed resolved, since a future thread reading this world's
+build from a fresh `main` checkout will not find V1.8 in its own working
+tree until those PRs merge. Not treated as a methodology-change
+escalation (the content itself was available and followed; this is a
+housekeeping/merge-state gap, not a disputed process question) but
+worth Mark's attention so the merge actually happens.
+**Correction, 2026-09-25, Round 2 (independent review, Finding 20 and
+its own §5): this entry's evidence was independently checked and found
+overstated in one respect — this checkout is a shallow (`--depth 50`),
+single-branch clone, so a fresh checkout of this branch cannot itself
+reproduce `git log --all` surfacing the four commit hashes this entry
+names as observed; they were observed in the drafting session's own
+environment (which had broader git history available), not necessarily
+verifiable from every future checkout of this branch alone. More
+seriously: the review reclassified this entry's own disposition.
+Building three canonical documents (Doc_01 §6; Doc_02 §3, §5, §9;
+this file's 2026-09-25 strand-determination entry) against a specification not present in the
+checkout makes their compliance with it unauditable by anyone but the
+thread that wrote them — a governance/methodology matter (escalation
+category 3), not a housekeeping gap, and it should have stopped the
+pass before drafting rather than been noted afterward. Doc_01 and
+Doc_02 are re-grounded on V1.5 (which IS in this checkout) this
+revision; whether V1.8 should govern this build at all, and when it
+merges, is escalated to Mark rather than decided by this build thread.**
+**Correction-of-a-correction, 2026-09-25 (following the coordinator's own
+direct check): the premise above was wrong, for a narrower reason than
+either this entry or the correction above stated.** This build thread's
+checkout had branched from a stale local `main` (merge-base `41afa0f8`),
+roughly 150 commits behind real `origin/main` (`58fed0f6`); V1.8 was
+already merged to real `origin/main` (PR 594, 2026-09-25) hours before this build
+thread started, and the four commit hashes above are simply that merge's
+own history, reachable from real `origin/main` all along — not evidence
+of an unmerged PR. This checkout simply predated the merge and could not
+see it. There was no governance/methodology question to escalate: after
+merging `origin/main` (commit `169dc5cb`) and independently re-reading
+V1.8 directly, it is present, and every citation this build thread had
+re-grounded on V1.5 is re-grounded back onto V1.8 in Doc_01, Doc_02, and
+this entry's own 2026-09-25 strand-determination correction above. The escalation is withdrawn,
+not because Mark ruled on it, but because the question itself dissolves
+once the real, current state of `origin/main` is visible — there was
+never a live V1.8-versus-V1.5 choice for Mark to make.**
+
+**8. (2026-09-25, general) No independent Opus review subagent tool was
+available in this session's environment.** The task instructions call for
+each draft's review to be run by a freshly spawned subagent on the Opus
+model, isolated from the drafting context. This session's tool surface
+does not include a same-context "Agent"/"Task" subagent-spawning tool; the
+closest available mechanism is spawning a full separate Claude Code
+Remote session (`create_session`), which this thread used for each
+document's Round 1 review (see each document's own review file for
+confirmation of which mechanism was actually used). Flagged here as an
+environment/tooling gap, not a methodology dispute — the build-cycle
+skill's own review requirement was honored using the best available
+mechanism, and this note exists so a later reader does not assume a
+same-context Task-tool review happened when it did not.
+**Correction, 2026-09-25, Round 2 (independent review Finding 22): at
+the time Round 1 review ran, this entry's own pointer to "each
+document's own review file" named files that did not yet exist — the
+review itself caught this as an instance of the exact failure it warns
+against ("review content claimed as shown when it wasn't included"),
+not a disclosure of it. That has since been corrected: a single combined
+review file,
+`Build/worlds/obel/Step0_Review_Round1.md`, now exists and is
+the actual Round 1 review artifact for all three documents. The
+reviewer also noted that an `Agent` tool was present in its own
+environment, which this drafting thread's own environment did not
+expose under that name — left as an open, disclosed discrepancy between
+the two sessions' tool surfaces, not resolved here.**
+
+**9. (2026-09-25, Doc_02 §3, self-review finding) `row_id`/`voice_of` are
+not yet emitted by the real corpus-map tooling for any world — a
+fleet-wide gap, not this world's own.** V1.8 §2 explicitly requires
+"corpus-map rows with `row_id`, corrected `role` and `voice_of`."
+`cic/engine/corpus_map_merge.py`'s own `_KEEP` tuple does not carry
+either field, and `cic/corpus-map/fixture-synthetic.yaml`'s own header
+confirms this directly: `row_id`, `voice_of`, `locus_ids`, and
+`documented_exchange` are named, in-progress schema increments
+("CM-1/CM-2/CM-4/CM-8") that "real buckets don't carry yet," proven so
+far only against synthetic fixture data by a separate "corpus-map's own
+thread." This world's Doc_02 satisfies V1.8's functional intent by
+recording own-voice/opponent-voice directly in prose instead (§1.1's
+table) — a workaround, not a fix, since the structural requirement
+itself cannot be met until that separate thread's migration reaches real
+buckets. Not this build thread's own defect to fix, and not escalated
+(it is a known, already-disclosed, actively-owned piece of work
+elsewhere, not an unresolved tension this pipeline can't close) — flagged
+so a future document doesn't assume the gap was specific to `obel`.
+**Correction, 2026-09-25, Round 2 (independent review Finding 20):**
+this entry's own reasoning cited "V1.8's functional intent" — the same
+unreadable specification named in the 2026-09-25 V1.8 merge-state entry. The underlying tooling fact
+(the fixture-synthetic disclosure) stands independent of which process
+document is asked; Doc_02 §3 now states this without leaning on V1.8's
+own unverifiable text.
+
+**10. (2026-09-25, Doc_01 §1) Two names in Avvakum's own list of
+authorities for the two-fingered sign of the cross are unidentified.**
+The vendored file (p. 120) names, in its own exact spelling, "Meletina of
+Antioch" and "the Heart Bishop of Cyrene." "Meletina" is plausibly this
+translation's own rendering of Meletius of Antioch (a genuine 4th-century
+patristic authority), and "the Heart Bishop of Cyrene" plausibly a
+corruption of "the Bishop of Cyrus" (Theodoret of Cyrus, already named
+separately in the same list) — but neither identification is confirmed,
+and this document does not silently substitute the more familiar form for
+either. Not load-bearing for any confidence claim currently made (the
+two-fingers practice itself is independently well-attested by the
+surrounding dialogue regardless of who these two names actually are), so
+not flagged for priority acquisition — but a real, disclosed loose end
+for Doc_02/Doc_03's own further checking if either name becomes
+load-bearing later.
+**Correction, 2026-09-25, Round 2 (independent review Finding 4): this
+entry's own guesses were checked against the vendored Russian witness
+and found wrong on every point.** "Cyrene" is the faithful reading, not a
+corruption — Russian *киринейскаго* plainly means "of Cyrene." The
+actual OCR corruption is "Heart," almost certainly a misread of
+"Blest"/"Blessed" (Russian *Блаженнаго*). The Russian witness names
+"Феодора" (Theodore), not "Феодорит" (Theodoret), as the one figure
+carrying both the epithet and the see — and there is no earlier,
+separate "Theodoret" anywhere else in this same four-name list for the
+English phrase to duplicate, contrary to this entry's own original
+guess. The real open question is narrower and better-formed than the
+original entry stated: whether the English translators' "Theodoret" for
+Russian "Феодора" is their own rendering choice, a transliteration slip,
+or reflects a different manuscript reading — and, more substantively,
+the identity of the "Феодорит"/"Феодор" whom Old Believers cited as
+authority for the two-fingered sign (the pseudepigraphic *Slovo
+Feodoritovo*) is itself a live crux in the secondary literature. Both
+are registered as `contested_claim` candidates for Doc_02/Doc_03, not
+merely thin evidence as this entry originally tagged them
+([Inferential-Thin] is corrected to [Contested] at Doc_01 §1). Same
+correction, on the locus: the authority list sits on p. 121, not p. 120
+as this entry's own original text names (Finding 6) — the pagination
+convention this entry used, matching a page number to the marker line
+immediately preceding it, is backward for this edition, whose page
+numbers print at the foot of the page they number; Doc_01 §1 now cites
+p. 121.
+
+**11. (2026-09-25, Round 2 revision, independent review Finding 1) The
+schism reached the Nicene Creed's own wording, not only ritual practice
+— a `contested_claim` candidate, not a settled floor claim.** Round 1
+review found that Step 0 §2 and Doc_01 §9's original claim ("no question
+of doctrine arises here at all," echoing the census's own `floorNote`)
+is contradicted by this world's own vendored primary source: at p. 34,
+Avvakum argues that the Nikonian removal of "the True" from the Creed's
+own eighth article ("and in the Holy Spirit, the Lord, the True and
+Life-giving") empties it of "the essence of God." Both Step 0 and Doc_01
+are corrected this revision to state the floor accurately (the movement
+clears Article 4's floor test on the Creed's overall shared content, not
+on an absolute "no doctrine at all" claim the source itself refutes).
+The Creed-wording dispute itself is real, evidenced, and open for a
+future `contested_claim` record rather than smoothed over. **Because the
+census's own `floorNote` and `statusDescription` carry the same
+overstated absolute phrasing, and were cited approvingly at a Frozen
+portfolio gate, correcting the census itself is a portfolio-level matter
+— escalated to Mark, not resolved by this build thread.**
+
+**12. (2026-09-25, Round 2 revision, independent review Finding 2/3) A
+citation to a nonexistent "`cic/texts/INTAKE.md` 2026-09-25 ruling" was
+fabricated somewhere upstream of this pass and propagated by this build
+thread into six locations** (Doc_01, Doc_02, `cic/corpus-map/the-old-
+believers.yaml`, a corpus-map staging file, `cic/texts/REGISTRY.yaml`,
+and the Source Readiness Dossier) **before being caught by independent
+review.** INTAKE.md contains no 2026-09-25 entry at all; its real,
+dated (2026-09-02) rule says the opposite of what was cited — an
+original-language text is a second witness only, never itself primary
+evidence. This build thread's own original task instructions asserted
+this ruling's existence and told this thread to "read that ruling's own
+full text before drafting Doc_02" — an instruction this thread should
+have treated as something to independently verify by locating the
+actual dated text, not as ground truth to cite forward, and did not.
+All six locations are corrected this revision to cite INTAKE.md's real,
+2026-09-02 rule instead, and the substantive claim that depended on the
+fabricated version (Doc_01 §4's use of the Russian opening declaration
+as free-standing evidence) is withdrawn rather than reworded. **Where
+the fabricated citation actually originated, and whether the underlying
+editorial practice (English primary, Russian second-witness for a work
+like this one) should become a real, written INTAKE.md rule, is a
+governance/methodology question escalated to Mark, not resolved here.**
+**Correction-of-a-correction, 2026-09-25 (following the coordinator's own
+direct check): the citation was not fabricated.** This build thread's
+checkout had branched from a stale local `main` (merge-base `41afa0f8`),
+roughly 150 commits behind real `origin/main` (`58fed0f6`). The
+2026-09-25 INTAKE.md ruling — that language does not decide whether a
+source is primary, credibility and truth do — was already merged to
+real `origin/main` hours before this build thread started; this
+checkout simply predated it and could not read it. Stated plainly: the
+claim was initially, and reasonably given what this checkout could see,
+treated as unfounded, and is restored once the real rule was confirmed
+post-merge. After merging `origin/main` (commit `169dc5cb`) and
+independently re-reading the real, current `INTAKE.md` directly (not
+taking the coordinator's word for it a second time), the Russian
+witness's status as this world's own primary evidence is restored at
+all six locations this entry names, plus the Source Registry and this
+entry itself — each disclosed there as its own dated
+correction-of-a-correction. The two real, disclosed quotability caveats
+this world's library carries independent of that question (the
+transcription chain, and the bracketed editorial glosses — entries 6 and
+15) are untouched by this reversal and remain fully in force. No
+governance/methodology question remains open on this point: there was
+never a real ruling to write, because the real ruling already existed.**
+
+**13. (2026-09-25, Round 2 revision, independent review Finding 15/17)
+The *Zhitie*'s redaction identity is unknown for both vendored
+witnesses, and the two witnesses directly contradict each other about
+who physically wrote the opening dedication.** The English edition's own
+footnote says Epiphanius wrote it; the Russian witness has Avvakum say
+he wrote it "by my own sinful hand." This is very likely a redaction
+difference (the *Zhitie* survives in several redactions), not a simple
+error in either witness, but this world's library does not yet identify
+which redaction either file represents. A real bibliographic gap for a
+future pass, disclosed at Doc_02 §1.1 and §7 rather than resolved by
+preferring either witness.
+
+**14. (2026-09-25, Round 2 revision, independent review Finding 16) The
+vendored English edition's own Chronological Table gives Avvakum's
+execution as "1681, April" — one year earlier than the correct, widely
+attested 14 April 1682 this world's own documents use throughout (from
+the census).** This is an error in the vendored edition's own apparatus,
+not a claim this world's documents repeat; disclosed at Doc_02 §1.1 as a
+caution about this edition's own front/back matter, since a future
+thread reading the file directly could otherwise pick it up uncorrected.
+
+**15. (2026-09-25, Round 2 revision, independent review Finding 13) The
+vendored Russian-language file's own `orv` (Old East Slavic) language tag
+is loose.** The file carries 116 bracketed modern-Russian
+editorial glosses interpolated directly into Avvakum's own sentences,
+and is in modernized orthography throughout (no final ъ, no ѣ) — an
+annotated modern reading edition of a 17th-century text, not an Old East
+Slavic diplomatic transcription. Disclosed at Doc_02 §7 and Registry R2.
+Not renamed this pass (a rename touches every existing reference to this
+file); a future pass should either rename the file to drop the `orv` tag
+or determine that a modernized-Russian tag is itself acceptable under
+INTAKE.md's own naming convention, and should in any case strip the
+bracketed glosses before quoting the file for anything.
+
+**16. (2026-09-25, Round 2 revision, general) Process narration was
+found embedded in all three canonical documents (Step 0, Doc_01,
+Doc_02) and the Registry, contrary to `CLAUDE.md`'s rule that
+`worlds/` holds only what constitutes the finished record.** Independent
+review (Finding 29) named roughly a dozen instances, including a full
+self-assessment section in Doc_02. Removed this revision; what remains
+in each document is a stated fact, a confidence tag, or a disclosed
+limit — never commentary about the document's own choices or a defense
+of them addressed to a reviewer. That kind of material belongs here and
+in the review files, per `CLAUDE.md`'s own exception for this file.
+**Correction, 2026-09-25, Round 2 targeted recheck: not fully closed.**
+The independent recheck found four instances Finding 29 named by name
+still present in the three narrative documents (Doc_02 §16's
+"Escalation check" section, Doc_02 §15, Step 0 §5's disposition
+reasoning, Step 0 §1's "outside this thread's authority" aside), and
+found the Registry itself made worse rather than better — roughly a
+dozen "corrected Round 2, Finding N — an earlier draft said X" instances
+added to its header, status line, eight of nine rows, and footer, plus a
+paragraph arguing the Registry's own exemption from the Template's
+append-only rule to a reviewer. A further revision moves this material
+to this file and to the review files, keeping only the corrections
+themselves in the canonical documents.
+**Correction, 2026-09-25, Round 3: closed.** The four surviving instances
+are removed from Step 0 and Doc_02's body text (Doc_02's former §15 is
+merged into §14; its former §16 and §17 are renumbered §15 and §16). The
+Registry is rewritten in full: no "corrected Round N, Finding N"
+narration remains in its header, status line, rows, or footer, and the
+"Living-document protocol" paragraph is removed; its own revision history
+now lives in a Document Log section, added to that file for the first
+time this round, matching the pattern the three narrative documents
+already use.
+
+**17. (2026-09-25, following the coordinator's own direct check)
+Correction-of-a-correction: this build thread's checkout of `main` was
+stale, and two Round 2 findings that looked like real governance
+problems were artifacts of that, not real problems.** This worktree's
+checkout had branched from a stale local `main` (merge-base `41afa0f8`),
+roughly 150 commits behind real `origin/main` (`58fed0f6`). Both
+`CiC_Record_Native_World_Build_Process_V1.8.md` (merged
+via PR #594) and the 2026-09-25 `cic/texts/INTAKE.md` ruling that
+language does not decide whether a source is primary — credibility and
+truth do (commit `077b84fe`) — were already merged to real
+`origin/main` hours before this build thread started; this checkout
+simply predated them and could not see them from inside it. Both
+findings (entries 7 and 12 above) were, at the time, reasonably treated
+as real problems given what this checkout could actually see — a
+missing specification, an unverifiable citation — and were fixed in
+Round 2 by re-grounding on V1.5 and withdrawing the Russian witness's
+primary-evidence status. Once the coordinator raised the possibility of
+a stale checkout, this build thread independently re-verified both
+claims itself (not on the coordinator's word alone): merged
+`origin/main` (merge commit `169dc5cb`), then read the real, current
+`INTAKE.md` and `V1.8.md` directly via the merged history. Both were
+confirmed real and current. This build thread then reversed its own
+Round 2 fixes as disclosed, dated corrections-of-corrections, restoring
+the Russian source's primary-evidence status (the 2026-09-25 INTAKE ruling entry above; `Doc_01`
+§4/§10/§13; `Doc_02` §0/§1.1/§7/§16/§17; `Source_Registry.md` R2;
+`cic/texts/REGISTRY.yaml`; `cic/corpus-map/`; the vendored file's own
+header; and the Source Readiness Dossier) and re-grounding every V1.8
+citation back onto V1.8 (the 2026-09-25 strand-determination entry above; `Doc_01`; `Doc_02`; Step 0). The
+genuinely separate, real quotability caveats on the Russian witness (the
+unverified transcription chain, the 2026-09-25 transcription-chain entry; the 116 bracketed editorial
+glosses, the 2026-09-25 `orv` tag entry) are unaffected by either reversal and remain fully in
+force. Nothing about this correction-of-a-correction touches the
+census's own overstated `floorNote`/`statusDescription` (the 2026-09-25 census floor entry
+above), which the coordinator has confirmed remains correctly escalated
+as a genuine portfolio-level matter, separate from the stale-checkout
+problem this entry corrects, and is not to be edited by this build
+thread.
+
+**18. (2026-09-26, disposition) Mark ruled the CO-022 escalation question,
+and Step 0, Doc_01, Doc_02 and the Source Registry are now Approved to
+proceed; the census item is the one thing still waiting.** The 2026-09-25 stale-checkout entry left
+open whether naming a governance/methodology escalation in a Disposition
+section bars a package from self-disposing under CO-022. Mark's ruling,
+2026-09-26: "The document can proceed; only the named item waits. It goes
+to NEEDS-RULING or the world's Open_Gaps file, as long as it doesn't
+change the document's own conclusions. If it does change them (a
+Representative's identity, the world's boundary, the core classification),
+the document waits." Recorded in full at
+`Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, 2026-09-26.
+
+Applied here: the one remaining escalation is the census's own
+`floorNote`/`statusDescription` (the 2026-09-25 census floor entry — the absolute "no question of
+doctrine arises here at all" that this world's own vendored source
+contradicts at p. 34, cited approvingly at a Frozen portfolio gate).
+Tested against the ruling, it falls on the first branch: correcting the
+census moves the census *toward* what these documents already say, and
+this world's own conclusion — it clears Constitution Article 4's floor
+comfortably, on the Creed's shared content, and the schism is
+ritual-and-textual rather than a rival confession — does not depend on
+the census's wording. No Representative identity, world boundary or core
+classification turns on it. So the four documents proceed and the census
+item waits, registered here and, because it is portfolio-level and
+touches a Frozen gate artifact, also in
+`Build/worlds/_cross-world/NEEDS-RULING.md`'s hand-maintained tail.
+
+"Approved to proceed" unblocks Doc_03 and claims nothing more. Only Mark
+assigns Frozen, and nothing in this world is closed.
+
+**Two things to hold against this entry.** The disposition was applied by
+the same thread that reviewed the package — the Round 2 review thread —
+so it rests on Mark's ruling above plus the independent confirmation at
+`Step0_Review_Round2.md` §10, not on the
+disposing thread's own view of the documents' quality. And the two-branch
+rule is not yet in the governing process documents (V1.8, and the
+`cic-build-cycle` skill's Disposition and Escalation sections); editing
+those is a coach thread's authority, so the next world will re-derive the
+question until one lands it. Flagged in the decision-log entry.
+
+**19. (2026-09-26, live-surface hygiene) `tools/check_live_commentary.py`
+flags provenance commentary in all four of this world's construction
+documents — pre-existing, fleet-wide, and not fixed here.** The check
+reports roughly 94 REWRITE/ROUTE lines across
+`Step0_Movement_Scope_Confirmation.md`, `Doc_01`, `Doc_02` and
+`Source_Registry.md`: review-round names, ISO dates attached to
+changes, Decision-Log pointers, and "Mark's ruling" attributions, almost
+all of it inside each document's own **Document Log** section. This file
+and the review artifacts are PROTECTED by the checker and are not part of
+the count.
+
+Two things make this an entry rather than an edit. First, the rule and the
+`cic-build-cycle` skill pull opposite ways here: the checker's rule says
+provenance belongs in `Ministry/` and this file, while the skill requires
+a document's disposition be logged with its review outcome, round count
+and artifact paths — which is what the Document Log sections are. Nothing
+has ruled which wins, and stripping them unilaterally would delete build
+history the skill asks for. Second, the same pattern is present across
+`worlds/` generally (`witt`, and others), so this is the
+Live-Surface-Cleanup program's own scope (its Step 1 classifier is what
+reported it; its later passes do the edits), not one world's cleanup.
+
+What was fixed in this pass: only the provenance this pass itself
+introduced. The disposition text in Step 0 §5 and Doc_02 §15 states the
+rule in plain present tense with no ruling date, name, or Decision-Log
+pointer, and the four Document Log disposition lines carry no round
+names or dates — each points here, to the 2026-09-26 disposition entry, for the full record.
+The four remaining `marks-word` hits in the construction documents
+(Doc_01 §4, Doc_02 §7, Step 0 §1, Registry R2) are the build thread's
+own INTAKE.md and Decision-Log citations, left as found.
+
+**20. (2026-10-02, Doc_01 §10 and §11, carried-forward items) Items Doc_01
+carries forward, each given its own ledger line.** The Solovetsky petition
+and siege are not yet independently verified against a primary source
+(Doc_01 §2.3; acquisition lead in the Source Readiness Dossier §4). The
+Russian original's own quotability caveats remain live even though its
+status as this world's own primary evidence is settled (Doc_01 §4): its
+transcription chain (manuscript → critical edition → az.lib.ru →
+Wikisource) is not independently verified hop-by-hop, and the file carries
+116 bracketed editorial glosses elsewhere that must be stripped before
+quoting any passage that contains them. This world's only vendored primary
+material is Avvakum's own autobiography, in both English translation (1924,
+Harrison & Mirrlees) and the original language (a modernized Russian
+reading edition, via a Wikisource transcription citing az.lib.ru as its own
+source), carrying 116 modern-editorial bracketed glosses interpolated into
+the running text. Secondary scholarship (Crummey, Michels) is cited
+throughout Doc_01 at the confidence actually supported (named in the
+census, not independently re-checked) and is not independently vendored;
+per project convention, secondary works are cited bibliographically, not
+vendored into `cic/texts/`.
+
+**21. (2026-10-02, Step 0 §1, §2 and §5, census wording) The census entry
+for `the-old-believers` now reads differently from the text Step 0 quoted;
+its `floorNote` still carries the absolute.** The census's `statusWord` is
+now "Researched — strong candidate", and its `statusDescription` now reads
+"Tiered Strong (Tier 1) on a rich inside voice: Avvakum's autobiography,
+verified against the source, is a first-person masterpiece. Its note on the
+doctrinal floor is a clean example that the floor is the Creed, not
+liturgical correctness. Its window ends in 1815, with Edinoverie (1800)
+named as the stated reason." The earlier `statusDescription` that Step 0
+quoted (it named an Era 8 Step 0 run and said the `floorNote` was cited
+approvingly at the gate) is no longer in the census. Step 0 now quotes the
+current text. The `floorNote` is unchanged and still states "No question
+of doctrine arises here at all", which this world's vendored source
+contradicts at p. 34. What remains for the project lead: the census-floor
+entry of 2026-09-25 and the hand-maintained item 5 in
+`Build/worlds/_cross-world/NEEDS-RULING.md` still name `floorNote` and
+`statusDescription` together, and the System Hub Decision Log entry of
+2026-09-26 does the same. The `statusDescription` no longer states the
+absolute; whether those three records are amended is a cross-world
+decision, not made here.
+
+**22. (2026-10-02, Source Readiness Dossier section 5) Open cross-world
+question: Greek-authority cross-link.** No question is specific to another
+sibling world's own territory. `cappadocian-nicene-pastoral-monastic-tradition`
+is Built and Live in the same Greek East and Orthodoxy lane, and the
+century, empire, language and absence of any shared figure, text or
+controversy support no plausible overlap. If a later Greek-East or Balkan
+Orthodox world's own research turns up Nikon-era Greek-authority material
+(the Greek patriarchs whose approval Nikon cited), that would be the first
+genuine cross-link; flag it back here if found.
+
+**23. (2026-10-02, Doc_02 §5) The two vendored Avvakum files have no entry in
+the COVERAGE table that `engine/m1/cross_world.py` reads.**
+`python -m engine.m9.cli holdings obel` reports both as `no coverage entry`.
+Whether to add them is a judgment for whoever owns that table. No file in
+the holdings report is marked `in scope, unread`.
+
+**24. (2026-10-02, quotation fidelity, Doc_01 §9 and Doc_02 §7) The English
+file's OCR carries stray marks and running heads inside quoted sentences.**
+The quotation gate reads the file as printed, so quotations from pp. 34,
+120 and 121 are given in segments joined by an ellipsis, with one bracketed
+repair of the OCR letters "zs". The sentence at p. 34 that runs on through
+the Creed's own words ("the Holy Spirit, the True and Life-giving Lord") is
+broken across lines and stray marks, and is not quoted. Doc_02 §7 states
+the convention. The staging note for the English file no longer calls the
+OCR clean.
+
+**25. (2026-10-02, filing to the current gates) The documents are filed
+under `Build/worlds/obel/`, and the history is routed out of them.** The
+four documents' Document Log sections, the dated INTAKE and Decision-Log
+citations and the stale-checkout account are removed from Step 0, Doc_01,
+Doc_02, the Source Registry, the Source Readiness Dossier and the two
+corpus-map staging notes, and are kept at
+`Build/Ministry/Operations/Audits/obel_Filing_2026-10-02.md`. That settles
+the live-surface hygiene finding of 2026-09-26. Review files carry the names
+`Step0_Review_Round<n>.md` and `Doc01_Round<n>_Review.md` and
+`Doc02_Round<n>_Review.md` for n = 1 and 2, identical copies of the one
+combined review of each round. The Source Registry rows are numbered 1 to
+12 in place of R1 to R9: earlier entries and the review files cite the
+first nine as R1 to R9. Rows 10 to 12 are new (the Tale of Boyarynya
+Morozova lead, the census-named modern translations, and *Vinograd
+rossiiskii*). The `row_id` and `voice_of` entry of 2026-09-25 is stale on
+one point: the Library has since issued a `row_id` on both corpus-map rows,
+with `--assign-ids`. `safety_adjacent` in `records/worlds/obel.yaml` is
+unset; the project lead sets it at handoff.
