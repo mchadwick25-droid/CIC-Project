@@ -26,6 +26,9 @@ logger = logging.getLogger("cic.deeper")
 KINDS = ("single", "batch", "group")
 LIVE, SPENT, VOID = "live", "spent", "void"
 
+TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied")
+RECONCILE_RETENTION_DAYS = 90
+
 MAX_EXCHANGES_PER_CODE = 10_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
@@ -46,6 +49,14 @@ CREATE INDEX IF NOT EXISTS meter_payment ON meter (payment_id);
 CREATE TABLE IF NOT EXISTS voided_payments (
     payment_id TEXT PRIMARY KEY,
     week_voided TEXT NOT NULL
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS reconcile (
+    day TEXT PRIMARY KEY,
+    payments_seen INTEGER NOT NULL DEFAULT 0,
+    payments_minted INTEGER NOT NULL DEFAULT 0,
+    payments_voided_first INTEGER NOT NULL DEFAULT 0,
+    codes_minted INTEGER NOT NULL DEFAULT 0,
+    refunds_applied INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
@@ -135,11 +146,22 @@ class Meter:
             self._conn.close()
 
     def mint(
-        self, kind: str, exchanges: int, payment_id: str, count: int = 1, *, daily_ceiling: int | None = None
+        self,
+        kind: str,
+        exchanges: int,
+        payment_id: str,
+        count: int = 1,
+        *,
+        daily_ceiling: int | None = None,
+        prepared: list[str] | None = None,
     ) -> list[str]:
         """Makes the codes for one payment and returns them in plain form, the
         only moment they exist outside a person's hands. Raises AlreadyMinted
-        for a payment that has codes, PaymentVoided for one refunded first."""
+        for a payment that has codes, PaymentVoided for one refunded first.
+
+        prepared: codes the caller generated and has already put somewhere
+        safe, so a crash between the two steps loses nothing. The payment's
+        reconciliation counts commit in the same transaction as its codes."""
         if kind not in KINDS:
             raise ValueError(f"unknown kind {kind!r}")
         if not isinstance(exchanges, int) or not 0 < exchanges <= MAX_EXCHANGES_PER_CODE:
@@ -151,6 +173,10 @@ class Meter:
                 raise ValueError("batch count out of range")
         elif count != 1:
             raise ValueError(f"a {kind} purchase makes exactly one code")
+        if prepared is not None and (
+            len(prepared) != count or len(set(prepared)) != count or any(codes.normalize(c) != c for c in prepared)
+        ):
+            raise ValueError("prepared codes must be distinct, well-formed, and as many as the purchase makes")
         ceiling = None
         if kind == "group":
             ceiling = daily_ceiling if daily_ceiling is not None else self._group_daily_ceiling
@@ -166,7 +192,7 @@ class Meter:
                 today = self._clock().isoformat()
                 made: list[str] = []
                 while len(made) < count:
-                    code = codes.generate()
+                    code = prepared[len(made)] if prepared is not None else codes.generate()
                     inserted = self._conn.execute(
                         "INSERT OR IGNORE INTO meter (code_hash, kind, exchanges_total, payment_id, day_created, daily_ceiling)"
                         " VALUES (?, ?, ?, ?, ?, ?)",
@@ -174,6 +200,14 @@ class Meter:
                     ).rowcount
                     if inserted:
                         made.append(code)
+                    elif prepared is not None:
+                        raise ValueError("a prepared code is already in the meter")
+                self._conn.execute("INSERT OR IGNORE INTO reconcile (day) VALUES (?)", (today,))
+                self._conn.execute(
+                    "UPDATE reconcile SET payments_seen = payments_seen + 1, payments_minted = payments_minted + 1,"
+                    " codes_minted = codes_minted + ? WHERE day = ?",
+                    (count, today),
+                )
                 self._conn.execute("COMMIT")
             except BaseException:
                 self._conn.execute("ROLLBACK")
@@ -284,6 +318,10 @@ class Meter:
         logger.info("voided codes=%d", changed)
         return changed
 
+    def payment_voided(self, payment_id: str) -> bool:
+        with self._lock:
+            return self._conn.execute("SELECT 1 FROM voided_payments WHERE payment_id = ?", (payment_id,)).fetchone() is not None
+
     def pause(self, on: bool) -> None:
         with self._lock:
             self._conn.execute(
@@ -296,6 +334,30 @@ class Meter:
         with self._lock:
             row = self._conn.execute("SELECT value FROM state WHERE key = 'paused'").fetchone()
         return bool(row) and row[0] == "1"
+
+    def tally(self, field: str, amount: int = 1) -> None:
+        """Adds to today's reconciliation count. The counts are daily totals
+        with no key beyond the day."""
+        if field not in TALLY_FIELDS:
+            raise ValueError(f"unknown tally {field!r}")
+        day = self._clock().isoformat()
+        with self._lock:
+            self._conn.execute("INSERT OR IGNORE INTO reconcile (day) VALUES (?)", (day,))
+            self._conn.execute(f"UPDATE reconcile SET {field} = {field} + ? WHERE day = ?", (amount, day))
+
+    def reconciliation(self, days: int = 7) -> list[dict]:
+        """Payments seen against payments that made codes, newest day first.
+        gap is what is still owed: seen, minus minted, minus refunded first."""
+        with self._lock:
+            rows = self._conn.execute(
+                f"SELECT day, {', '.join(TALLY_FIELDS)} FROM reconcile ORDER BY day DESC LIMIT ?", (days,)
+            ).fetchall()
+        report = []
+        for day, *counts in rows:
+            entry = {"day": day, **dict(zip(TALLY_FIELDS, counts))}
+            entry["gap"] = entry["payments_seen"] - entry["payments_minted"] - entry["payments_voided_first"]
+            report.append(entry)
+        return report
 
     def purge(self) -> int:
         """Deletes spent and void rows 30 days after the end of the week they
@@ -314,4 +376,7 @@ class Meter:
                     if _end_of_week(week) <= cutoff:
                         self._conn.execute(f"DELETE FROM {table} WHERE {key} = ?", (key_value,))
                         removed += 1
+            removed += self._conn.execute(
+                "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
+            ).rowcount
         return removed

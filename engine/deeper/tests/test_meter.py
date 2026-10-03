@@ -274,3 +274,31 @@ def test_balances_survive_a_restart_but_reservations_do_not(tmp_path, clock):
     assert second.status(code).remaining == 2
     assert second.reserve(code).ok
     second.close()
+
+
+def test_reconciliation_counts_by_day_and_reports_the_gap(meter, clock):
+    meter.tally("payments_seen", 3)
+    meter.tally("payments_minted", 2)
+    meter.tally("codes_minted", 5)
+    meter.tally("payments_voided_first")
+    clock.day = date(2026, 10, 6)
+    meter.tally("payments_seen")
+    report = meter.reconciliation()
+    assert [r["day"] for r in report] == [clock.day.isoformat(), date(2026, 10, 5).isoformat()]
+    assert report[0]["gap"] == 1
+    assert report[1]["gap"] == 0
+    assert report[1]["codes_minted"] == 5
+
+
+def test_tally_refuses_an_unknown_field(meter):
+    with pytest.raises(ValueError):
+        meter.tally("revenue")
+
+
+def test_purge_drops_reconciliation_days_after_ninety(meter, clock):
+    meter.tally("payments_seen")
+    clock.day = date(2027, 1, 2)
+    assert meter.purge() == 0
+    clock.day = date(2027, 1, 3)
+    assert meter.purge() == 1
+    assert meter.reconciliation() == []

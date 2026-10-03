@@ -101,7 +101,10 @@ credentials exported:
 ```
 python -m engine.api.db_backup list events --service-label cic-engine
 python -m engine.api.db_backup list usage --service-label cic-engine
+python -m engine.api.db_backup list meter --service-label cic-engine
 ```
+
+When Go Deeper is switched on, its meter file (`/data/cic_deeper_meter.db`) joins the daily pass under the `meter` label, and restores the same way (`--target /data/cic_deeper_meter.db`). Its claim file (`/data/cic_deeper_claims.db`) is never backed up: it holds plain codes for one hour.
 
 ## Restore procedure
 

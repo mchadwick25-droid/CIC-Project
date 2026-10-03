@@ -61,6 +61,10 @@ class ClaimStore:
             return None
         return row[0].split("\n")
 
+    def delete(self, reference: str) -> None:
+        with self._lock:
+            self._conn.execute("DELETE FROM claims WHERE reference = ?", (reference,))
+
     def purge(self) -> int:
         with self._lock:
             return self._conn.execute(

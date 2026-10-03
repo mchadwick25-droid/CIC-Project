@@ -34,6 +34,7 @@ def used_meter(tmp_path):
     m.mint("batch", 2, "pi_b", count=2)
     m.mint("group", 9, "pi_c")
     m.void("pi_b")
+    m.tally("payments_seen")
     m.pause(True)
     m.close()
     return path
@@ -41,7 +42,7 @@ def used_meter(tmp_path):
 
 def test_meter_columns_name_nothing_personal_and_no_fine_time(used_meter):
     tables, _ = _tables(used_meter)
-    assert set(tables) == {"meter", "voided_payments", "state"}
+    assert set(tables) == {"meter", "voided_payments", "state", "reconcile"}
     for table, columns in tables.items():
         for _cid, name, ctype, *_ in columns:
             assert not BANNED_NAME.search(name), f"{table}.{name}"
@@ -60,7 +61,7 @@ def test_meter_tables_have_no_rowid(used_meter):
 
 def test_meter_holds_no_time_finer_than_a_day(used_meter):
     conn = sqlite3.connect(used_meter)
-    for table in ("meter", "voided_payments", "state"):
+    for table in ("meter", "voided_payments", "state", "reconcile"):
         for row in conn.execute(f"SELECT * FROM {table}"):
             for value in row:
                 text = str(value)

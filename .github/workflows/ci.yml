@@ -496,6 +496,8 @@ jobs:
       # client + the real committed fixture-world package, never a live
       # AWS call.
       - run: python -m pytest engine/api/tests -q
+      # The same suite again with Go Deeper mounted on every test app.
+      - run: CIC_TEST_DEEPER=1 python -m pytest engine/api/tests -q
 
   # M2 staleness and M9 confinement, merged 2026-09-23 (see top-of-file
   # comment). Deliberately kept separate from engine-tests above: both
