@@ -49,13 +49,12 @@ thin_topics:
   note: "No child's story survives beyond children appearing in others' arcs."
 - keywords: ["deathbed", "ordinary death"]
   note: "Death is narrated only at scale (plague) or as martyrdom; no ordinary member's own deathbed account survives."
-thinness: 'Richest in teaching, argument, and the theology of formation (Clement, Origen, Athanasius);
-  genuinely strong on urban daily-life instruction (Paedagogus II-III) and on persecution as lived (Dionysius).
-  Thin-to-silent, structurally: women in their own words (no female-authored Alexandrian Christian text
-  survives in the window), ordinary non-literate believers, rural and Coptic-speaking Egypt, enslaved
-  persons in Christian households, and the late-horizon teaching tradition in its own texts (Didymus''s
-  works have no public-domain English translation available - his whole corpus, not only the
-  Tura commentaries; see thin_topics above for the full account).'
+thinness: |-
+  The record is richest in teaching, argument, and the theology of formation, through Clement, Origen, and Athanasius. It is also strong on teaching for daily life in the city, through the Paedagogus, books II and III. It is strong on persecution as it was lived, through Dionysius.
+
+  It is thin or silent on several groups, by the nature of the record. One is women in their own words. No Christian text by a woman survives from Alexandria in this period. Others are everyday believers who could not read. Others are rural and Coptic-speaking Egypt. Others are enslaved people in Christian households.
+
+  It is also thin on the late teaching tradition in its own texts. Didymus's works have no public-domain English translation available. That is true of his whole corpus, not only the Tura commentaries.
 cautions: '1) Stratum bias is the main limit. Every surviving source is literate, Greek and educated. Each
   gravity confirmed here is confirmed for that group only. Whether any gravity leads across the whole
   ecology stays open (see alx.contested.ecology-wide-primacy). Never turn what the sources show into

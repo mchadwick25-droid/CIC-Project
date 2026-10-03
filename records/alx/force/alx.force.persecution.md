@@ -28,11 +28,12 @@ relations:
   target: alx.gravity.divine-pedagogy
 name: Episodic Persecution, c. 165-311 [2A - ongoing/external]
 kind: ongoing
-description: 'Antonine, Severan, Decian (249-251), and Diocletianic (303-311) persecutions, the last two
-  most formation-significant; Origen''s father Leonides martyred under Severus, Origen himself imprisoned
-  and tortured under Decius. In the world''s own experience: the threat, when it came, was the moment
-  of testing - when what formation had built in the soul was either equal to the ultimate choice or was
-  not. Events Documented/Widely Accepted; the memory BETWEEN episodes is reconstruction (DMR).'
+description: |-
+  There were four persecutions: the Antonine, the Severan, the Decian (249 to 251) and the Diocletianic (303 to 311). The last two did most to shape formation. Origen's father, Leonides, died a martyr under Severus. Origen himself was jailed and tortured under Decius.
+
+  When the threat came, it was a test. It showed whether what formation had built in the soul was equal to the ultimate choice, or not.
+
+  The events are well attested. The memory kept between them is a modern reconstruction, the dominant one.
 manifestations:
 - Leonides's martyrdom (HE VI.1-2)
 - Dionysius's Decian-era letters - flight, confession, the lapsed and their return
