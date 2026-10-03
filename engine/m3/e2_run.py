@@ -18,6 +18,10 @@ regeneration:
   sentence; the retry stands whatever it contains. Not production
   behaviour.
 
+- "records_only" (--mode records-only): a separate first draft whose
+  turn directive carries RECORDS_ONLY below; no regeneration. Compared
+  against the "off" draft of the same probes.
+
 Paid run: every setting is printed before the first billed call, and
 spend is checked against --max-usd after every probe.
 """
@@ -42,6 +46,14 @@ from engine.provider.bedrock import make_client, resolve_model_id
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_DIR = Path(__file__).resolve().parent / "reports" / "e2"
 ARMS = ("off", "paragraph", "sentence")
+RECORDS_ONLY = (
+    "\n## Staying inside your records\n"
+    "Say only what your own records hold. Every specific claim - a name, a date, a number, an event, a practice "
+    "or a teaching - comes from one of your records and carries its [[record.id]] tag. Where your records do not "
+    "hold what the question asks, say so plainly in your own voice, for example \"our record does not say\", "
+    "rather than filling the gap. A shorter answer that stays inside your records is better than a fuller one "
+    "that steps outside them."
+)
 
 
 def _usd(records) -> float:
@@ -73,7 +85,8 @@ def _transcript(event: dict, *, facilitator: bool = False) -> dict:
 
 
 def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client, voice_model_id: str,
-              safety_model_id: str, spent_before: float, max_usd: float, limit: int | None) -> tuple[list[dict], float, str | None]:
+              safety_model_id: str, spent_before: float, max_usd: float, limit: int | None,
+              mode: str = "arms") -> tuple[list[dict], float, str | None]:
     entry = registry[world_key]
     world, _ = loader.load(world_key, package_dir=REPO_ROOT / entry["package"]["location"],
                            expected_manifest_hash=entry["package"]["manifest_hash"])
@@ -101,6 +114,18 @@ def run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, client
         common = dict(voice_client=client, voice_model_id=voice_model_id, world=world, participant_message=message,
                       directive=gate.gate_result.routing.directive, session_id=session_id, usage_world_key=world_key,
                       is_other_tradition_first_ask=oos == "other_tradition", self_revision_enabled=False)
+
+        if mode == "records-only":
+            draft, rec = _run_ordinary_voice_turn(**common, correction=RECORDS_ONLY)
+            usage += rec
+            row["arms"]["records_only"] = _transcript(draft)
+            cost = _usd(usage)
+            spent += cost
+            row.update(usd=round(cost, 6), seconds=round(time.monotonic() - t0, 2), out_of_scope_class=oos)
+            out.append(row)
+            print(json.dumps({"world": world_key, "probe": seal["probe_id"], "usd": round(cost, 4), "spent": round(spent, 4),
+                              "records_only": len(row["arms"]["records_only"]["uncited_claim_sentences"])}), flush=True)
+            continue
 
         draft, rec = _run_ordinary_voice_turn(**common)
         usage += rec
@@ -141,6 +166,7 @@ def main(argv=None) -> int:
     p.add_argument("--max-usd", type=float, required=True)
     p.add_argument("--authorized-by", required=True)
     p.add_argument("--limit", type=int, default=None, help="first N probes per world (default all)")
+    p.add_argument("--mode", choices=("arms", "records-only"), default="arms")
     p.add_argument("--settings-only", action="store_true")
     p.add_argument("--out", default=None)
     args = p.parse_args(argv)
@@ -152,7 +178,8 @@ def main(argv=None) -> int:
     settings = {
         "worlds": worlds, "probes_per_world": args.limit or len(protocol.battery()),
         "voice_model_id": voice_model_id, "safety_model_id": safety_model_id, "region": args.region,
-        "arms": list(ARMS), "self_revision": "off (production)", "sentence_enforce": "off (production)",
+        "mode": args.mode, "arms": ["records_only"] if args.mode == "records-only" else list(ARMS),
+        "records_only_directive": RECORDS_ONLY if args.mode == "records-only" else None, "self_revision": "off (production)", "sentence_enforce": "off (production)",
         "max_usd": args.max_usd, "authorized_by": args.authorized_by,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in worlds},
     }
@@ -166,7 +193,8 @@ def main(argv=None) -> int:
     spent, aborted = 0.0, None
     for w in worlds:
         rows, spent, aborted = run_world(w, registry=registry, loader=loader, client=client, voice_model_id=voice_model_id,
-                                         safety_model_id=safety_model_id, spent_before=spent, max_usd=args.max_usd, limit=args.limit)
+                                         safety_model_id=safety_model_id, spent_before=spent, max_usd=args.max_usd, limit=args.limit,
+                                         mode=args.mode)
         report["worlds"][w] = rows
         if aborted:
             break
