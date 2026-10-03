@@ -467,6 +467,10 @@ jobs:
       # only the hermetic unit tests - never a live Bedrock call.
       - run: python -m pytest engine/m8/tests -q
 
+      # Go Deeper meter and claim stores (standard library only; imports
+      # nothing from the conversation engine).
+      - run: python -m pytest engine/deeper/tests -q
+
       # M7 audit and per-turn readability; M10 build gates.
       - run: python -m pytest engine/m7 -q
       - run: python -m pytest engine/m10 -q
