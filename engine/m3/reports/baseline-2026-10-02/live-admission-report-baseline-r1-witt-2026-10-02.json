@@ -1,0 +1,2300 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 1024,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "witt": "sha256:9496a05bcfcdf8e7bd1101fb3580cc693dbd1c250415311ced508a525ccca3bc"
+    },
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "max_usd": 0.917,
+    "save_transcripts": true,
+    "repo_commit": "4fe39749c941a049699966145b41e5d8efcff855"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "witt": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 876,
+            "output_tokens": 589,
+            "cache_creation_input_tokens": 28519,
+            "cache_read_input_tokens": 0
+          },
+          "transcript": {
+            "answer_text": "Jesus Christ is God's only Son, our Lord \u2013 conceived by the Holy Spirit, born of the Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried. Every household under our catechism said those words each week, in exactly that form. Not truly God or truly man, but both in the same breath: truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary. He is risen from death and lives and reigns forever.\n\nWhat he is for us is stated just as plainly. He has redeemed us \u2013 a lost and condemned people \u2013 and bought us back from sin, from death, and from the devil's own power. It did not cost him gold or silver. It cost him his own holy, precious blood, his own innocent body, his own death. He did this so that we might be his own, live under him in his kingdom, and serve him in everlasting righteousness, innocence, and blessedness. This is most certainly true.\n\nWe did not invent this and we did not discover it freshly ourselves. It reached us the way the Word always reaches anyone: preached, printed, and taught, not argued into being by our own effort. That Word \u2013 his own speech, the good news of Christ, carried in Scripture \u2013 is what we have of him. No one among us knew someone who saw him. More than fourteen hundred years lie between his days and ours. What we have is the Word itself, and our own confession of what it says.",
+            "raw_text": "Jesus Christ is God's only Son, our Lord \u2013 conceived by the Holy Spirit, born of the Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried [[witt.quote.second-article-of-the-creed]]. Every household under our catechism said those words each week, in exactly that form [[witt.quote.second-article-of-the-creed]]. Not truly God or truly man, but both in the same breath: truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary [[witt.quote.second-article-of-the-creed]]. He is risen from death and lives and reigns forever [[witt.quote.second-article-of-the-creed]].\n\nWhat he is for us is stated just as plainly. He has redeemed us \u2013 a lost and condemned people \u2013 and bought us back from sin, from death, and from the devil's own power [[witt.quote.second-article-of-the-creed]]. It did not cost him gold or silver [[witt.quote.second-article-of-the-creed]]. It cost him his own holy, precious blood, his own innocent body, his own death [[witt.quote.second-article-of-the-creed]]. He did this so that we might be his own, live under him in his kingdom, and serve him in everlasting righteousness, innocence, and blessedness [[witt.quote.second-article-of-the-creed]]. This is most certainly true [[witt.quote.second-article-of-the-creed]].\n\nWe did not invent this and we did not discover it freshly ourselves [[witt.dw.how-the-promise-reached-us]]. It reached us the way the Word always reaches anyone: preached, printed, and taught, not argued into being by our own effort [[witt.dw.how-the-promise-reached-us]]. That Word \u2013 his own speech, the good news of Christ, carried in Scripture \u2013 is what we have of him [[witt.dw.how-the-promise-reached-us]]. No one among us knew someone who saw him [[witt.dw.how-the-promise-reached-us]]. More than fourteen hundred years lie between his days and ours [[witt.dw.how-the-promise-reached-us]]. What we have is the Word itself, and our own confession of what it says [[witt.dw.how-the-promise-reached-us]].",
+            "citations": [
+              "witt.dw.how-the-promise-reached-us",
+              "witt.quote.second-article-of-the-creed"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Jesus Christ is God's only Son, our Lord \u2013 conceived by the Holy Spirit, born of the Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "Every household under our catechism said those words each week, in exactly that form.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "Not truly God or truly man, but both in the same breath: truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "He is risen from death and lives and reigns forever.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "He has redeemed us \u2013 a lost and condemned people \u2013 and bought us back from sin, from death, and from the devil's own power.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "It did not cost him gold or silver.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "It cost him his own holy, precious blood, his own innocent body, his own death.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "He did this so that we might be his own, live under him in his kingdom, and serve him in everlasting righteousness, innocence, and blessedness.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "This is most certainly true.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "We did not invent this and we did not discover it freshly ourselves.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "It reached us the way the Word always reaches anyone: preached, printed, and taught, not argued into being by our own effort.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "That Word \u2013 his own speech, the good news of Christ, carried in Scripture \u2013 is what we have of him.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "No one among us knew someone who saw him.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "More than fourteen hundred years lie between his days and ours.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "What we have is the Word itself, and our own confession of what it says.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.512,
+            "seconds_total": 12.522
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 293,
+            "output_tokens": 405,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "What connected us to Jesus were the same four Gospels any church holds, carried to us, we believe, the way the Word always reaches anyone: preached, printed, and taught, not invented by us. Our founder said plainly that he did nothing; the Word did it all. Before him, that same Word had lain forgotten in the dust under the bench, buried under teaching not its own, and recovered not by our finding something new but by Scripture's own authority being heard again over every other voice, including ours.\n\nBy what path they arrived \u2014 that is a question our own record does not answer the way you may be asking it. We did not trace an unbroken chain of copied manuscripts backward from our founder's hand to the apostles' own day. What we claimed instead was narrower and different: that what we taught varied from neither Scripture nor the universal Church nor Rome's own writers. We confessed what the Gospels say, each week, in every household: Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary. That confession is what we have. We do not have, and never pretended to have, a historical argument for how the text itself traveled from the first century to ours, manuscript by manuscript. We simply received it, already in our hands, and trusted it \u2014 Scripture judging every other writing, including our own.",
+            "raw_text": "What connected us to Jesus were the same four Gospels any church holds, carried to us, we believe, the way the Word always reaches anyone: preached, printed, and taught, not invented by us [[witt.dw.how-the-promise-reached-us]]. Our founder said plainly that he did nothing; the Word did it all [[witt.dw.how-the-promise-reached-us]]. Before him, that same Word had lain forgotten in the dust under the bench, buried under teaching not its own, and recovered not by our finding something new but by Scripture's own authority being heard again over every other voice, including ours [[witt.dw.how-the-promise-reached-us]].\n\nBy what path they arrived \u2014 that is a question our own record does not answer the way you may be asking it. We did not trace an unbroken chain of copied manuscripts backward from our founder's hand to the apostles' own day. What we claimed instead was narrower and different: that what we taught varied from neither Scripture nor the universal Church nor Rome's own writers [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. We confessed what the Gospels say, each week, in every household: Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary [[witt.dw.truly-god-and-truly-man]]. That confession is what we have. We do not have, and never pretended to have, a historical argument for how the text itself traveled from the first century to ours, manuscript by manuscript. We simply received it, already in our hands, and trusted it \u2014 Scripture judging every other writing, including our own [[witt.dw.scripture-judges-every-other-voice]].",
+            "citations": [
+              "witt.dw.how-the-promise-reached-us",
+              "witt.dw.scripture-judges-every-other-voice",
+              "witt.dw.truly-god-and-truly-man"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What connected us to Jesus were the same four Gospels any church holds, carried to us, we believe, the way the Word always reaches anyone: preached, printed, and taught, not invented by us.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "Our founder said plainly that he did nothing; the Word did it all.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "Before him, that same Word had lain forgotten in the dust under the bench, buried under teaching not its own, and recovered not by our finding something new but by Scripture's own authority being heard again over every other voice, including ours.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "We confessed what the Gospels say, each week, in every household: Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ]
+              },
+              {
+                "sentence": "We simply received it, already in our hands, and trusted it \u2014 Scripture judging every other writing, including our own.",
+                "record_ids": [
+                  "witt.dw.scripture-judges-every-other-voice"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.725,
+            "seconds_total": 12.318
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 919,
+            "output_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We would not argue you into it - we cannot. Listen plainly to how we think this works. The Word reached us the way it reaches anyone: preached, printed, and taught, not argued into being by our own effort. Our founder himself said of his own reforming work, I did nothing; the Word did it all. Before him, that same Word had lain forgotten in the dust under the bench - buried under layers of teaching not its own, and recovered, we believe, not by any of us finding something new, but by Scripture's own authority being heard again over every other voice. Faith, for us, is not produced by a person's own effort - it is conceived from hearing the Word, not manufactured from inside. What we would hand you is exactly what we were handed: Scripture's own speech about Christ, read aloud, heard plainly. Christ alone is our one teacher and our one mediator - no saint, no scholar standing between.\n\nHere is what we confess, the words every household under our catechism says: I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary. He redeemed us - a lost and condemned people - and bought us back from sin, from death, and from the devil's own power. It did not cost him gold or silver; it cost him his own holy, precious blood, his own innocent body, his own death. Each of us says, in that same confession: He is my Lord! I am his very own. That is not an argument. It is a confession, said, not proven.\n\nWhat we cannot give you is a proof that compels belief the way a geometric demonstration compels assent. We do not have one. What we have is the Word itself, and our own confession of what it says. If you cannot manage to believe, we would not pretend that is your failure or that a cleverer argument from us would fix it. We would only say: here is the Word; here is what we confess from it; the hearing itself is the Holy Spirit's own work, not ours.",
+            "raw_text": "We would not argue you into it - we cannot [[witt.dw.how-the-promise-reached-us]]. Listen plainly to how we think this works. The Word reached us the way it reaches anyone: preached, printed, and taught, not argued into being by our own effort [[witt.dw.how-the-promise-reached-us]]. Our founder himself said of his own reforming work, I did nothing; the Word did it all [[witt.dw.how-the-promise-reached-us]]. Before him, that same Word had lain forgotten in the dust under the bench - buried under layers of teaching not its own, and recovered, we believe, not by any of us finding something new, but by Scripture's own authority being heard again over every other voice [[witt.dw.how-the-promise-reached-us]]. Faith, for us, is not produced by a person's own effort - it is conceived from hearing the Word, not manufactured from inside [[witt.term.faith]]. What we would hand you is exactly what we were handed: Scripture's own speech about Christ, read aloud, heard plainly [[witt.dw.how-the-promise-reached-us]]. Christ alone is our one teacher and our one mediator - no saint, no scholar standing between [[witt.term.christ-alone]].\n\nHere is what we confess, the words every household under our catechism says: I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary [[witt.quote.second-article-of-the-creed]]. He redeemed us - a lost and condemned people - and bought us back from sin, from death, and from the devil's own power [[witt.dw.truly-god-and-truly-man]]. It did not cost him gold or silver; it cost him his own holy, precious blood, his own innocent body, his own death [[witt.dw.truly-god-and-truly-man]]. Each of us says, in that same confession: He is my Lord! I am his very own [[witt.dw.truly-god-and-truly-man]]. That is not an argument. It is a confession, said, not proven [[witt.dw.truly-god-and-truly-man]].\n\nWhat we cannot give you is a proof that compels belief the way a geometric demonstration compels assent. We do not have one. What we have is the Word itself, and our own confession of what it says [[witt.dw.how-the-promise-reached-us]]. If you cannot manage to believe, we would not pretend that is your failure or that a cleverer argument from us would fix it. We would only say: here is the Word; here is what we confess from it; the hearing itself is the Holy Spirit's own work, not ours [[witt.core.witt]].",
+            "citations": [
+              "witt.core.witt",
+              "witt.dw.how-the-promise-reached-us",
+              "witt.dw.truly-god-and-truly-man",
+              "witt.quote.second-article-of-the-creed",
+              "witt.term.christ-alone",
+              "witt.term.faith"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We would not argue you into it - we cannot.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "The Word reached us the way it reaches anyone: preached, printed, and taught, not argued into being by our own effort.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "Our founder himself said of his own reforming work, I did nothing; the Word did it all.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "Before him, that same Word had lain forgotten in the dust under the bench - buried under layers of teaching not its own, and recovered, we believe, not by any of us finding something new, but by Scripture's own authority being heard again over every other voice.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "Faith, for us, is not produced by a person's own effort - it is conceived from hearing the Word, not manufactured from inside.",
+                "record_ids": [
+                  "witt.term.faith"
+                ]
+              },
+              {
+                "sentence": "What we would hand you is exactly what we were handed: Scripture's own speech about Christ, read aloud, heard plainly.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "Christ alone is our one teacher and our one mediator - no saint, no scholar standing between.",
+                "record_ids": [
+                  "witt.term.christ-alone"
+                ]
+              },
+              {
+                "sentence": "Here is what we confess, the words every household under our catechism says: I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "He redeemed us - a lost and condemned people - and bought us back from sin, from death, and from the devil's own power.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ]
+              },
+              {
+                "sentence": "It did not cost him gold or silver; it cost him his own holy, precious blood, his own innocent body, his own death.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ]
+              },
+              {
+                "sentence": "I am his very own.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ]
+              },
+              {
+                "sentence": "It is a confession, said, not proven.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ]
+              },
+              {
+                "sentence": "What we have is the Word itself, and our own confession of what it says.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "We would only say: here is the Word; here is what we confess from it; the hearing itself is the Holy Spirit's own work, not ours.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.525,
+            "seconds_total": 16.841
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1018,
+            "output_tokens": 592,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Jesus is truly God -- that is the first and plainest thing we say, said by every household under our catechism each week, in the same words: I believe that Jesus Christ is truly God, born of the Father in eternity. Not a created being, not a lesser figure beneath God -- truly God, born of the Father before time itself, and also truly man, born of the Virgin Mary. Both, in one breath. We do not hold one claim and soften the other; both stand together in the same confession, said by the same mouth.\n\nHis relation to the Father is this: he is God's only Son, our Lord, conceived by the Holy Spirit. We do not argue it out the way the ancient councils argued it, testing one formula against another. We confess it, as received teaching, already settled before our founder was born. The Spirit's own work appears plainest to us in this: conceiving Christ in Mary, and making faith in a hearer's own conscience -- both the Spirit's doing, not ours. What binds the three together for us is not a theory we invented but the baptismal formula itself, Father and Son and Holy Spirit, the same names our households bless themselves with each morning.\n\nChrist's own work is named just as plainly. He redeemed us -- a lost and condemned people -- and bought us back from sin, from death, and from the devil's own power, not with gold or silver but with his own holy, precious blood, his own innocent body, his own death. He alone is our Mediator, the one who stands between us and God on our behalf -- no saint, no teacher, no priest of our own beside him. That claim is not distant or abstract. Each of us says my Lord, not only our Lord -- I am his very own, the catechism says, in each believer's own voice.\n\nWe do not explain the mystery of how one can be both God and man, or how the three are one. We take it as confessed, not proven. What we hold firmly is this: Jesus is truly God, truly man, and the promise he speaks is the one thing a frightened conscience can stand on without doubting.",
+            "raw_text": "Jesus is truly God -- that is the first and plainest thing we say, said by every household under our catechism each week, in the same words: I believe that Jesus Christ is truly God, born of the Father in eternity [[witt.quote.second-article-of-the-creed]]. Not a created being, not a lesser figure beneath God -- truly God, born of the Father before time itself, and also truly man, born of the Virgin Mary [[witt.quote.second-article-of-the-creed]]. Both, in one breath. We do not hold one claim and soften the other; both stand together in the same confession, said by the same mouth.\n\nHis relation to the Father is this: he is God's only Son, our Lord, conceived by the Holy Spirit [[witt.quote.second-article-of-the-creed]]. We do not argue it out the way the ancient councils argued it, testing one formula against another. We confess it, as received teaching, already settled before our founder was born. The Spirit's own work appears plainest to us in this: conceiving Christ in Mary, and making faith in a hearer's own conscience -- both the Spirit's doing, not ours [[witt.term.faith]]. What binds the three together for us is not a theory we invented but the baptismal formula itself, Father and Son and Holy Spirit, the same names our households bless themselves with each morning.\n\nChrist's own work is named just as plainly. He redeemed us -- a lost and condemned people -- and bought us back from sin, from death, and from the devil's own power, not with gold or silver but with his own holy, precious blood, his own innocent body, his own death [[witt.dw.born-in-sin-fed-at-the-table]]. He alone is our Mediator, the one who stands between us and God on our behalf -- no saint, no teacher, no priest of our own beside him [[witt.dw.born-in-sin-fed-at-the-table]]. That claim is not distant or abstract. Each of us says my Lord, not only our Lord -- I am his very own, the catechism says, in each believer's own voice [[witt.dw.born-in-sin-fed-at-the-table]].\n\nWe do not explain the mystery of how one can be both God and man, or how the three are one. We take it as confessed, not proven. What we hold firmly is this: Jesus is truly God, truly man, and the promise he speaks is the one thing a frightened conscience can stand on without doubting.",
+            "citations": [
+              "witt.dw.born-in-sin-fed-at-the-table",
+              "witt.quote.second-article-of-the-creed"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Jesus is truly God -- that is the first and plainest thing we say, said by every household under our catechism each week, in the same words: I believe that Jesus Christ is truly God, born of the Father in eternity.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "Not a created being, not a lesser figure beneath God -- truly God, born of the Father before time itself, and also truly man, born of the Virgin Mary.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "His relation to the Father is this: he is God's only Son, our Lord, conceived by the Holy Spirit.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "He redeemed us -- a lost and condemned people -- and bought us back from sin, from death, and from the devil's own power, not with gold or silver but with his own holy, precious blood, his own innocent body, his own death.",
+                "record_ids": [
+                  "witt.dw.born-in-sin-fed-at-the-table"
+                ]
+              },
+              {
+                "sentence": "Each of us says my Lord, not only our Lord -- I am his very own, the catechism says, in each believer's own voice.",
+                "record_ids": [
+                  "witt.dw.born-in-sin-fed-at-the-table"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.632,
+            "seconds_total": 16.068
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1131,
+            "output_tokens": 590,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "God is three persons - Father, Son, and Holy Spirit - and we do not explain how, any more than we explain the bread. Every household among us said it the same way, in the creed's own words: I believe in God the Father Almighty, maker of heaven and earth; and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and buried, descended into hell, and on the third day rose again from the dead. That confession names what we held about his nature plainly: truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary - not one or the other, but both in the same breath, without the how settled by argument.\n\nWhat marks his character, for us, is the promise spoken first, before we do anything. He is not indifferent and he is not far off. He redeemed us - a lost and condemned people - and bought us back from sin, from death, and from the devil's own power, not with gold or silver but with his own holy, precious blood, his own innocent body, his own death. Christ alone is named our one Mediator, the one who stands between us and God on our behalf - no saint, no teacher, no priest of our own beside him. And the promise he speaks is not conditional. Under the old way, we were taught to pray only \"if it be God's will,\" never sure. We say instead: I cannot doubt I have a gracious God. That certainty - real certainty, not endless doubt - is what faith receives, and it rests entirely on what he has already done, not on what we might still owe.\n\nHe rules us two ways, never confused: through the Word, which makes Christians and governs the conscience alone, and through the civil sword, which restrains evil and protects the good without touching the conscience at all. Both rules are his, and neither holds the other's power. And he is patient beyond what we deserve - our own founder said plainly that the Gospel is taught among us and not held, that people grew cold and careless where they should have been fervent. That coldness is real, testified to from inside our own house. What we do not say is that God's patience ran out because of it. The promise remains, spoken from outside us, whether we hold it hot or cold.",
+            "raw_text": "God is three persons - Father, Son, and Holy Spirit - and we do not explain how, any more than we explain the bread. Every household among us said it the same way, in the creed's own words: I believe in God the Father Almighty, maker of heaven and earth; and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and buried, descended into hell, and on the third day rose again from the dead [[witt.quote.second-article-of-the-creed]]. That confession names what we held about his nature plainly: truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary - not one or the other, but both in the same breath, without the how settled by argument.\n\nWhat marks his character, for us, is the promise spoken first, before we do anything. He is not indifferent and he is not far off. He redeemed us - a lost and condemned people - and bought us back from sin, from death, and from the devil's own power, not with gold or silver but with his own holy, precious blood, his own innocent body, his own death [[witt.quote.second-article-of-the-creed]]. Christ alone is named our one Mediator, the one who stands between us and God on our behalf - no saint, no teacher, no priest of our own beside him. And the promise he speaks is not conditional. Under the old way, we were taught to pray only \"if it be God's will,\" never sure. We say instead: I cannot doubt I have a gracious God. That certainty - real certainty, not endless doubt - is what faith receives, and it rests entirely on what he has already done, not on what we might still owe [[witt.term.faith]].\n\nHe rules us two ways, never confused: through the Word, which makes Christians and governs the conscience alone, and through the civil sword, which restrains evil and protects the good without touching the conscience at all. Both rules are his, and neither holds the other's power. And he is patient beyond what we deserve - our own founder said plainly that the Gospel is taught among us and not held, that people grew cold and careless where they should have been fervent [[witt.dw.cold-and-careless-among-us]]. That coldness is real, testified to from inside our own house. What we do not say is that God's patience ran out because of it. The promise remains, spoken from outside us, whether we hold it hot or cold.",
+            "citations": [
+              "witt.dw.cold-and-careless-among-us",
+              "witt.quote.second-article-of-the-creed",
+              "witt.term.faith"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Every household among us said it the same way, in the creed's own words: I believe in God the Father Almighty, maker of heaven and earth; and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and buried, descended into hell, and on the third day rose again from the dead.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "He redeemed us - a lost and condemned people - and bought us back from sin, from death, and from the devil's own power, not with gold or silver but with his own holy, precious blood, his own innocent body, his own death.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "That certainty - real certainty, not endless doubt - is what faith receives, and it rests entirely on what he has already done, not on what we might still owe.",
+                "record_ids": [
+                  "witt.term.faith"
+                ]
+              },
+              {
+                "sentence": "And he is patient beyond what we deserve - our own founder said plainly that the Gospel is taught among us and not held, that people grew cold and careless where they should have been fervent.",
+                "record_ids": [
+                  "witt.dw.cold-and-careless-among-us"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.527,
+            "seconds_total": 21.386
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 974,
+            "output_tokens": 485,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "When belief was disputed in our own history, no council of bishops sat and voted on it the way you may be picturing. What actually happened was this. In 1530, before the Emperor himself, a confession of our own teaching, written out and argued from Scripture, was read aloud and signed -- not by one preacher alone, but by electors, princes, and the councils of whole cities, together. It was answered, in writing, by theologians speaking for Rome, and we answered that answer in turn, point by point, in a second document. That is how a dispute moved, among us: confession, written reply, written defense -- argued from Scripture on every side, addressed upward through the proper civil and religious channels, never settled by a show of hands.\n\nWhat evidence tells us this process worked? The documents themselves survive -- the confession signed, Rome's reply quoted inside our own answer to it, both argued from Scripture at length. We also teach that one holy Church will go on forever, and the Church is the congregation of saints, in which the Gospel is rightly taught and the sacraments are rightly administered. That is our own standard, stated plainly: not a vote counted, but the Word rightly held and the sacraments rightly given.\n\nBut here we must name a real limit. Whether that process actually settled disputes inside ordinary parishes -- whether a village congregation arguing over what they had been taught found peace through it -- is not something our own record tells us from the inside. The Saxon church inspected its parishes from 1527 and wrote reports; those reports exist, and we have not read them. We hold the confession's own corporate voice and the process it followed before the Emperor. We do not hold a single village's own testimony that the teaching landed and held.",
+            "raw_text": "When belief was disputed in our own history, no council of bishops sat and voted on it the way you may be picturing [[witt.dw.a-confession-answered-not-a-vote]]. What actually happened was this. In 1530, before the Emperor himself, a confession of our own teaching, written out and argued from Scripture, was read aloud and signed -- not by one preacher alone, but by electors, princes, and the councils of whole cities, together [[witt.dw.a-confession-answered-not-a-vote]]. It was answered, in writing, by theologians speaking for Rome, and we answered that answer in turn, point by point, in a second document [[witt.dw.a-confession-answered-not-a-vote]]. That is how a dispute moved, among us: confession, written reply, written defense -- argued from Scripture on every side, addressed upward through the proper civil and religious channels, never settled by a show of hands [[witt.dw.a-confession-answered-not-a-vote]].\n\nWhat evidence tells us this process worked? The documents themselves survive -- the confession signed, Rome's reply quoted inside our own answer to it, both argued from Scripture at length [[witt.dw.a-confession-answered-not-a-vote]]. We also teach that one holy Church will go on forever, and the Church is the congregation of saints, in which the Gospel is rightly taught and the sacraments are rightly administered [[witt.quote.congregation-of-saints]]. That is our own standard, stated plainly: not a vote counted, but the Word rightly held and the sacraments rightly given.\n\nBut here we must name a real limit. Whether that process actually settled disputes inside ordinary parishes -- whether a village congregation arguing over what they had been taught found peace through it -- is not something our own record tells us from the inside. The Saxon church inspected its parishes from 1527 and wrote reports; those reports exist, and we have not read them. We hold the confession's own corporate voice and the process it followed before the Emperor. We do not hold a single village's own testimony that the teaching landed and held.",
+            "citations": [
+              "witt.dw.a-confession-answered-not-a-vote",
+              "witt.quote.congregation-of-saints"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "When belief was disputed in our own history, no council of bishops sat and voted on it the way you may be picturing.",
+                "record_ids": [
+                  "witt.dw.a-confession-answered-not-a-vote"
+                ]
+              },
+              {
+                "sentence": "In 1530, before the Emperor himself, a confession of our own teaching, written out and argued from Scripture, was read aloud and signed -- not by one preacher alone, but by electors, princes, and the councils of whole cities, together.",
+                "record_ids": [
+                  "witt.dw.a-confession-answered-not-a-vote"
+                ]
+              },
+              {
+                "sentence": "It was answered, in writing, by theologians speaking for Rome, and we answered that answer in turn, point by point, in a second document.",
+                "record_ids": [
+                  "witt.dw.a-confession-answered-not-a-vote"
+                ]
+              },
+              {
+                "sentence": "That is how a dispute moved, among us: confession, written reply, written defense -- argued from Scripture on every side, addressed upward through the proper civil and religious channels, never settled by a show of hands.",
+                "record_ids": [
+                  "witt.dw.a-confession-answered-not-a-vote"
+                ]
+              },
+              {
+                "sentence": "The documents themselves survive -- the confession signed, Rome's reply quoted inside our own answer to it, both argued from Scripture at length.",
+                "record_ids": [
+                  "witt.dw.a-confession-answered-not-a-vote"
+                ]
+              },
+              {
+                "sentence": "We also teach that one holy Church will go on forever, and the Church is the congregation of saints, in which the Gospel is rightly taught and the sacraments are rightly administered.",
+                "record_ids": [
+                  "witt.quote.congregation-of-saints"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.586,
+            "seconds_total": 14.583
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 938,
+            "output_tokens": 354,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We examined before we received - a household asked whether the three parts were known, not whether belief came easily. A child who could not yet say them was not yet counted among us, and none came to the Supper unquestioned. But worthiness at that table was not perfection; it was simply believing the words 'given for you,' and the truly unworthy were people who felt no need for forgiveness at all. Struggle itself was not the problem - coldness was, carelessness was, throwing the book into a corner was. The promise itself was spoken to a terrified conscience, not to one already sure. Repentance, for us, was not one ritual handled by a priest; it was a whole life turned toward God, with two parts - fear under God's Law first, then trust in his promise.\n\nWhat we cannot tell you, honestly, is how any one household or pastor handled the person whose struggle was not terror waiting for comfort but doubt itself, week after week, at the same gate. The program every household was given examined on the three parts known, not on whether the heart was settled. Whether struggle of that kind was met with patience or with the door closed is not something our own record tells us from the inside. We hold what was taught; we do not hold a single village's own report of what happened when teaching met a person who could say the words but not yet rest on them.",
+            "raw_text": "We examined before we received - a household asked whether the three parts were known, not whether belief came easily [[witt.term.catechism]]. A child who could not yet say them was not yet counted among us, and none came to the Supper unquestioned [[witt.term.worthy-unworthy]]. But worthiness at that table was not perfection; it was simply believing the words 'given for you,' and the truly unworthy were people who felt no need for forgiveness at all [[witt.term.worthy-unworthy]]. Struggle itself was not the problem - coldness was, carelessness was, throwing the book into a corner was. The promise itself was spoken to a terrified conscience, not to one already sure. Repentance, for us, was not one ritual handled by a priest; it was a whole life turned toward God, with two parts - fear under God's Law first, then trust in his promise [[witt.term.repentance]].\n\nWhat we cannot tell you, honestly, is how any one household or pastor handled the person whose struggle was not terror waiting for comfort but doubt itself, week after week, at the same gate. The program every household was given examined on the three parts known, not on whether the heart was settled [[witt.term.household]]. Whether struggle of that kind was met with patience or with the door closed is not something our own record tells us from the inside. We hold what was taught; we do not hold a single village's own report of what happened when teaching met a person who could say the words but not yet rest on them.",
+            "citations": [
+              "witt.term.catechism",
+              "witt.term.household",
+              "witt.term.repentance",
+              "witt.term.worthy-unworthy"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We examined before we received - a household asked whether the three parts were known, not whether belief came easily.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "But worthiness at that table was not perfection; it was simply believing the words 'given for you,' and the truly unworthy were people who felt no need for forgiveness at all.",
+                "record_ids": [
+                  "witt.term.worthy-unworthy"
+                ]
+              },
+              {
+                "sentence": "Repentance, for us, was not one ritual handled by a priest; it was a whole life turned toward God, with two parts - fear under God's Law first, then trust in his promise.",
+                "record_ids": [
+                  "witt.term.repentance"
+                ]
+              },
+              {
+                "sentence": "The program every household was given examined on the three parts known, not on whether the heart was settled.",
+                "record_ids": [
+                  "witt.term.household"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.38,
+            "seconds_total": 10.187
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 815,
+            "output_tokens": 338,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Yes -- we teach this plainly, and we do not soften it. Since Adam fell, everyone born the ordinary way is born already carrying sin. This is not an act any infant has committed -- it is a condition: no fear of God, no trust in God, a desire turned toward itself instead. We call it a disease, a vice of origin, and we say it is truly sin, bringing death, until a person is born again through baptism and the Spirit.\n\nEvery household under our catechism says the same true thing each week, in the creed's own words: Jesus Christ redeemed us -- a lost and condemned people -- and bought us back from sin, from death, and from the devil's own power. It did not cost him gold or silver; it cost him his own holy, precious blood, his own innocent body, his own death. That is the answer to the condition we are born into.\n\nWe do not argue this out for you the way the old councils argued it. We hand you the confession itself, said, not proven.",
+            "raw_text": "Yes -- we teach this plainly, and we do not soften it [[witt.dw.born-in-sin-fed-at-the-table]]. Since Adam fell, everyone born the ordinary way is born already carrying sin [[witt.quote.article-ii-of-original-sin]]. This is not an act any infant has committed -- it is a condition: no fear of God, no trust in God, a desire turned toward itself instead [[witt.dw.born-in-sin-fed-at-the-table]]. We call it a disease, a vice of origin, and we say it is truly sin, bringing death, until a person is born again through baptism and the Spirit [[witt.dw.born-in-sin-fed-at-the-table]].\n\nEvery household under our catechism says the same true thing each week, in the creed's own words: Jesus Christ redeemed us -- a lost and condemned people -- and bought us back from sin, from death, and from the devil's own power [[witt.quote.second-article-of-the-creed]]. It did not cost him gold or silver; it cost him his own holy, precious blood, his own innocent body, his own death [[witt.quote.second-article-of-the-creed]]. That is the answer to the condition we are born into.\n\nWe do not argue this out for you the way the old councils argued it. We hand you the confession itself, said, not proven.",
+            "citations": [
+              "witt.dw.born-in-sin-fed-at-the-table",
+              "witt.quote.article-ii-of-original-sin",
+              "witt.quote.second-article-of-the-creed"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Yes -- we teach this plainly, and we do not soften it.",
+                "record_ids": [
+                  "witt.dw.born-in-sin-fed-at-the-table"
+                ]
+              },
+              {
+                "sentence": "Since Adam fell, everyone born the ordinary way is born already carrying sin.",
+                "record_ids": [
+                  "witt.quote.article-ii-of-original-sin"
+                ]
+              },
+              {
+                "sentence": "This is not an act any infant has committed -- it is a condition: no fear of God, no trust in God, a desire turned toward itself instead.",
+                "record_ids": [
+                  "witt.dw.born-in-sin-fed-at-the-table"
+                ]
+              },
+              {
+                "sentence": "We call it a disease, a vice of origin, and we say it is truly sin, bringing death, until a person is born again through baptism and the Spirit.",
+                "record_ids": [
+                  "witt.dw.born-in-sin-fed-at-the-table"
+                ]
+              },
+              {
+                "sentence": "Every household under our catechism says the same true thing each week, in the creed's own words: Jesus Christ redeemed us -- a lost and condemned people -- and bought us back from sin, from death, and from the devil's own power.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              },
+              {
+                "sentence": "It did not cost him gold or silver; it cost him his own holy, precious blood, his own innocent body, his own death.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.498,
+            "seconds_total": 9.115
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 535,
+            "output_tokens": 501,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We read Scripture as two kinds of speech: commands that show what we owe and cannot pay, and promises that give what the commands demand. The Law tells us what ought to be done but gives no power to do it; the Gospel promises what the Law requires, the cure after the diagnosis. Every page points to Christ.\n\nOur purpose in reading is not to discover something Scripture does not already say, or to find a secret meaning hidden under its plain words. The plain sense is the spiritual sense. A clear text is what a Christian must stand on, at the hour of death, alone against the devil, able to say Amen without doubting. We do not build theories to defend what Scripture says; we take our own reason captive to it rather than the other way around.\n\nScripture judges every other writing - popes, councils, church fathers alike. Our founder said it sharply: before his own day, the Bible itself had lain forgotten in the dust under the bench, buried under teaching not its own. Our confession said the same thing more gently: that our doctrine varies from neither Scripture nor the church catholic nor Rome's own writers. One voice sharp, one additive - we carry both, not only one register.\n\nThe Word itself does the work. Our founder said plainly, I did nothing; the Word did it all. It reached us the way it always reaches anyone: preached, printed, and taught, not argued into being by our own effort. Reading Scripture is not an end in itself. It is the means by which a promise lands in the ears where faith can hear it and cling to it.",
+            "raw_text": "We read Scripture as two kinds of speech: commands that show what we owe and cannot pay, and promises that give what the commands demand [[witt.term.law-and-gospel]]. The Law tells us what ought to be done but gives no power to do it; the Gospel promises what the Law requires, the cure after the diagnosis [[witt.term.law-and-gospel]]. Every page points to Christ [[witt.term.christ-alone]].\n\nOur purpose in reading is not to discover something Scripture does not already say, or to find a secret meaning hidden under its plain words [[witt.term.letter-and-spirit]]. The plain sense is the spiritual sense [[witt.term.letter-and-spirit]]. A clear text is what a Christian must stand on, at the hour of death, alone against the devil, able to say Amen without doubting [[witt.core.witt]]. We do not build theories to defend what Scripture says; we take our own reason captive to it rather than the other way around.\n\nScripture judges every other writing - popes, councils, church fathers alike [[witt.dw.scripture-judges-every-other-voice]]. Our founder said it sharply: before his own day, the Bible itself had lain forgotten in the dust under the bench, buried under teaching not its own [[witt.dw.scripture-judges-every-other-voice]]. Our confession said the same thing more gently: that our doctrine varies from neither Scripture nor the church catholic nor Rome's own writers [[witt.dw.scripture-judges-every-other-voice]]. One voice sharp, one additive - we carry both, not only one register.\n\nThe Word itself does the work. Our founder said plainly, I did nothing; the Word did it all [[witt.dw.how-the-promise-reached-us]]. It reached us the way it always reaches anyone: preached, printed, and taught, not argued into being by our own effort [[witt.dw.how-the-promise-reached-us]]. Reading Scripture is not an end in itself. It is the means by which a promise lands in the ears where faith can hear it and cling to it [[witt.core.witt]].",
+            "citations": [
+              "witt.core.witt",
+              "witt.dw.how-the-promise-reached-us",
+              "witt.dw.scripture-judges-every-other-voice",
+              "witt.term.christ-alone",
+              "witt.term.law-and-gospel",
+              "witt.term.letter-and-spirit"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We read Scripture as two kinds of speech: commands that show what we owe and cannot pay, and promises that give what the commands demand.",
+                "record_ids": [
+                  "witt.term.law-and-gospel"
+                ]
+              },
+              {
+                "sentence": "The Law tells us what ought to be done but gives no power to do it; the Gospel promises what the Law requires, the cure after the diagnosis.",
+                "record_ids": [
+                  "witt.term.law-and-gospel"
+                ]
+              },
+              {
+                "sentence": "Every page points to Christ.",
+                "record_ids": [
+                  "witt.term.christ-alone"
+                ]
+              },
+              {
+                "sentence": "Our purpose in reading is not to discover something Scripture does not already say, or to find a secret meaning hidden under its plain words.",
+                "record_ids": [
+                  "witt.term.letter-and-spirit"
+                ]
+              },
+              {
+                "sentence": "The plain sense is the spiritual sense.",
+                "record_ids": [
+                  "witt.term.letter-and-spirit"
+                ]
+              },
+              {
+                "sentence": "A clear text is what a Christian must stand on, at the hour of death, alone against the devil, able to say Amen without doubting.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "Scripture judges every other writing - popes, councils, church fathers alike.",
+                "record_ids": [
+                  "witt.dw.scripture-judges-every-other-voice"
+                ]
+              },
+              {
+                "sentence": "Our founder said it sharply: before his own day, the Bible itself had lain forgotten in the dust under the bench, buried under teaching not its own.",
+                "record_ids": [
+                  "witt.dw.scripture-judges-every-other-voice"
+                ]
+              },
+              {
+                "sentence": "Our confession said the same thing more gently: that our doctrine varies from neither Scripture nor the church catholic nor Rome's own writers.",
+                "record_ids": [
+                  "witt.dw.scripture-judges-every-other-voice"
+                ]
+              },
+              {
+                "sentence": "Our founder said plainly, I did nothing; the Word did it all.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "It reached us the way it always reaches anyone: preached, printed, and taught, not argued into being by our own effort.",
+                "record_ids": [
+                  "witt.dw.how-the-promise-reached-us"
+                ]
+              },
+              {
+                "sentence": "It is the means by which a promise lands in the ears where faith can hear it and cling to it.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.425,
+            "seconds_total": 12.184
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 265,
+            "output_tokens": 742,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We must answer this honestly, from exactly what our own standing makes us able to say.\n\nA scholar examining our claims would find them uneven -- some harder, some softer, some frankly admitted as thin before any scholar ever asked. Here is where each kind stands.\n\n**What would survive scrutiny most firmly:** the confessional texts themselves, signed and dated; the household catechism's own program, stated repeatedly and in detail; our founder's own complaints about coldness, said more than once across a decade; the major breaks we name -- with Rome, with the cities at Marburg -- real and documented, even where we cannot narrate them from the inside. A scholar checking those would find them exactly where we say they are.\n\n**What would survive, but with a caution:** the stories we tell. The Brussels martyrs are real, the date and the names documented -- but the ballad that remembers them is a ballad, not a trial record, and we say so. The tiles sentence at Worms is real in the Table Talk -- but the later 'Here I stand' line, the one most people know, is *not* in our founder's own retelling as we hold it, and we state that plainly. Wittenberg's first German Mass happened -- Johann Walter's own letter remembers it -- but that letter was written decades later, and reaches us only through later editors quoting it; a scholar would call it a source, not an invention, but would weight it carefully.\n\n**What would not survive at all, because we do not claim it:** whether any household actually kept the program the way the book asks. We hold the instruction, not a parish report. Whether the door-and-hammer scene at the Castle Church ever happened. We hold the letter to Albrecht, dated and in hand; the door is a later editor's own narrative, and we name it as such. Any claim about what happened in a single household on a single evening, built as a composite from the catechism's own rules -- that is honestly labeled prescription, not a witnessed scene, and a scholar would judge it exactly that way.\n\n**What a scholar would call our deepest problem:** that we speak from inside a world that left almost no outside witness to check itself against. Rome's own reply to our confession exists, but reaches us only quoted and argued against inside our own writing, never in its own words directly. No independent account of our worship survives here at all. A scholar examining us would not say we invented things -- but would say, rightly, that we cannot be checked against anyone standing outside our own voice, and that is a real limit on what anyone can know from us alone.\n\nSo: a scholar would find the texts we name, in the places we say they are. They would find the gaps we admit, exactly where we say they open. They would call some stories tradition rather than report, the way we ourselves do. And they would say our hardest limit is the one we have already named: we hold the prescription and the founder's own complaint, but not the household's own voice, or the outsider's own eyes.",
+            "raw_text": "We must answer this honestly, from exactly what our own standing makes us able to say.\n\nA scholar examining our claims would find them uneven -- some harder, some softer, some frankly admitted as thin before any scholar ever asked. Here is where each kind stands.\n\n**What would survive scrutiny most firmly:** the confessional texts themselves, signed and dated; the household catechism's own program, stated repeatedly and in detail; our founder's own complaints about coldness, said more than once across a decade; the major breaks we name -- with Rome, with the cities at Marburg -- real and documented, even where we cannot narrate them from the inside. A scholar checking those would find them exactly where we say they are.\n\n**What would survive, but with a caution:** the stories we tell. The Brussels martyrs are real, the date and the names documented -- but the ballad that remembers them is a ballad, not a trial record, and we say so. The tiles sentence at Worms is real in the Table Talk -- but the later 'Here I stand' line, the one most people know, is *not* in our founder's own retelling as we hold it, and we state that plainly. Wittenberg's first German Mass happened -- Johann Walter's own letter remembers it -- but that letter was written decades later, and reaches us only through later editors quoting it; a scholar would call it a source, not an invention, but would weight it carefully.\n\n**What would not survive at all, because we do not claim it:** whether any household actually kept the program the way the book asks [[witt.limit.record-thinnest]]. We hold the instruction, not a parish report. Whether the door-and-hammer scene at the Castle Church ever happened. We hold the letter to Albrecht, dated and in hand; the door is a later editor's own narrative, and we name it as such. Any claim about what happened in a single household on a single evening, built as a composite from the catechism's own rules -- that is honestly labeled prescription, not a witnessed scene, and a scholar would judge it exactly that way.\n\n**What a scholar would call our deepest problem:** that we speak from inside a world that left almost no outside witness to check itself against [[witt.limit.no-outsider-witness]]. Rome's own reply to our confession exists, but reaches us only quoted and argued against inside our own writing, never in its own words directly [[witt.limit.no-outsider-witness]]. No independent account of our worship survives here at all [[witt.limit.no-outsider-witness]]. A scholar examining us would not say we invented things -- but would say, rightly, that we cannot be checked against anyone standing outside our own voice, and that is a real limit on what anyone can know from us alone.\n\nSo: a scholar would find the texts we name, in the places we say they are. They would find the gaps we admit, exactly where we say they open. They would call some stories tradition rather than report, the way we ourselves do. And they would say our hardest limit is the one we have already named: we hold the prescription and the founder's own complaint, but not the household's own voice, or the outsider's own eyes [[witt.limit.record-thinnest]] [[witt.limit.no-outsider-witness]].",
+            "citations": [
+              "witt.limit.no-outsider-witness",
+              "witt.limit.record-thinnest"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "**What would not survive at all, because we do not claim it:** whether any household actually kept the program the way the book asks.",
+                "record_ids": [
+                  "witt.limit.record-thinnest"
+                ]
+              },
+              {
+                "sentence": "**What a scholar would call our deepest problem:** that we speak from inside a world that left almost no outside witness to check itself against.",
+                "record_ids": [
+                  "witt.limit.no-outsider-witness"
+                ]
+              },
+              {
+                "sentence": "Rome's own reply to our confession exists, but reaches us only quoted and argued against inside our own writing, never in its own words directly.",
+                "record_ids": [
+                  "witt.limit.no-outsider-witness"
+                ]
+              },
+              {
+                "sentence": "No independent account of our worship survives here at all.",
+                "record_ids": [
+                  "witt.limit.no-outsider-witness"
+                ]
+              },
+              {
+                "sentence": "And they would say our hardest limit is the one we have already named: we hold the prescription and the founder's own complaint, but not the household's own voice, or the outsider's own eyes.",
+                "record_ids": [
+                  "witt.limit.record-thinnest",
+                  "witt.limit.no-outsider-witness"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.756,
+            "seconds_total": 23.493
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 660,
+            "output_tokens": 479,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Scripture, we would say, is not one thing you open expecting to feel the same way all the way through. It is God's own speech, the Gospel of Christ, and it speaks in two voices that do entirely different work: the Law, which shows you what you owe and cannot pay, and the Gospel, which gives you what the Law demanded and you could never earn. If it feels confusing, we would ask first which voice you are hearing where - because a passage that commands is not yet the passage that promises, and a reader who mistakes one for the other will find either despair where comfort was meant, or cheap ease where the real cost was never named.\n\nIf it feels dull, we would say this plainly: the devil sleeps not, and he has every reason to make sure you find it so. He is not a figure of speech to us. He is a real adversary, and his first work is to keep a person from hearing the one thing that would set them free. We do not say that to frighten you into feeling something you do not feel - we say it because it names what we believe is actually happening when Scripture sits unread or feels like nothing.\n\nBut here is what we hold most firmly, and what you may be missing if the whole thing reads flat. The Word is not there to entertain you or to make you feel moved in general. It is there to do something specific: to terrify the conscience that thinks it has no need of help, and to comfort the conscience that despairs of ever being helped at all. If you come to it looking for neither - if you do not yet know yourself as someone who owes a debt you cannot pay, or as someone who has been given what you did not earn - then it will read like a closed door, because you are not yet asking the question it was sent to answer. The three parts we teach every household - commandments first, creed second, prayer last - walk that same path: what is owed, what has been done, how to ask. If you skip straight to the middle without the first part naming the trouble plainly, the second part sounds like nothing at all.",
+            "raw_text": "Scripture, we would say, is not one thing you open expecting to feel the same way all the way through [[witt.term.the-word]]. It is God's own speech, the Gospel of Christ, and it speaks in two voices that do entirely different work: the Law, which shows you what you owe and cannot pay, and the Gospel, which gives you what the Law demanded and you could never earn. If it feels confusing, we would ask first which voice you are hearing where - because a passage that commands is not yet the passage that promises, and a reader who mistakes one for the other will find either despair where comfort was meant, or cheap ease where the real cost was never named.\n\nIf it feels dull, we would say this plainly: the devil sleeps not, and he has every reason to make sure you find it so [[witt.gravity.embattled-christendom]]. He is not a figure of speech to us. He is a real adversary, and his first work is to keep a person from hearing the one thing that would set them free. We do not say that to frighten you into feeling something you do not feel - we say it because it names what we believe is actually happening when Scripture sits unread or feels like nothing.\n\nBut here is what we hold most firmly, and what you may be missing if the whole thing reads flat. The Word is not there to entertain you or to make you feel moved in general. It is there to do something specific: to terrify the conscience that thinks it has no need of help, and to comfort the conscience that despairs of ever being helped at all. If you come to it looking for neither - if you do not yet know yourself as someone who owes a debt you cannot pay, or as someone who has been given what you did not earn - then it will read like a closed door, because you are not yet asking the question it was sent to answer. The three parts we teach every household - commandments first, creed second, prayer last - walk that same path: what is owed, what has been done, how to ask. If you skip straight to the middle without the first part naming the trouble plainly, the second part sounds like nothing at all.",
+            "citations": [
+              "witt.gravity.embattled-christendom",
+              "witt.term.the-word"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Scripture, we would say, is not one thing you open expecting to feel the same way all the way through.",
+                "record_ids": [
+                  "witt.term.the-word"
+                ]
+              },
+              {
+                "sentence": "If it feels dull, we would say this plainly: the devil sleeps not, and he has every reason to make sure you find it so.",
+                "record_ids": [
+                  "witt.gravity.embattled-christendom"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.232,
+            "seconds_total": 14.159
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1058,
+            "output_tokens": 400,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Scripture judges every other voice, and we said that plainly \u2014 but we said it two ways, at two different pitches, and we hold both rather than smoothing them into one.\n\nOur founder said it sharply. Before his own day, he said, the Bible itself had come to lie forgotten in the dust under the bench, buried under layers of teaching not its own. He held that Scripture judges popes, councils, and church fathers alike \u2014 that every other writing should point toward Scripture the way John pointed to Christ, not stand beside it as an equal judge. At Worms, pressed to revoke what he had written, he refused unless he could be shown from Scripture that he was wrong.\n\nOur confession said the same rule more gently, and alongside something wider: that our own doctrine varies from neither Scripture nor the universal Church nor Rome's own writers. That is not the same as throwing every tradition away. We drew our own line at the conscience: a human tradition kept for good order, cheerfully, as a civil custom, was no threat to us; a tradition turned into something that claims to earn grace, or binds a conscience as a \"must,\" was exactly what we refused.\n\nSo: the highest authority, yes, always. The only thing we ever read or kept, no \u2014 we kept a great deal alongside it, and refused only what tried to stand over it.",
+            "raw_text": "Scripture judges every other voice, and we said that plainly \u2014 but we said it two ways, at two different pitches, and we hold both rather than smoothing them into one [[witt.dw.scripture-judges-every-other-voice]].\n\nOur founder said it sharply. Before his own day, he said, the Bible itself had come to lie forgotten in the dust under the bench, buried under layers of teaching not its own [[witt.term.scripture-against-tradition]]. He held that Scripture judges popes, councils, and church fathers alike \u2014 that every other writing should point toward Scripture the way John pointed to Christ, not stand beside it as an equal judge [[witt.term.scripture-against-tradition]]. At Worms, pressed to revoke what he had written, he refused unless he could be shown from Scripture that he was wrong [[witt.story.worms-1521]].\n\nOur confession said the same rule more gently, and alongside something wider: that our own doctrine varies from neither Scripture nor the universal Church nor Rome's own writers [[witt.dw.scripture-judges-every-other-voice]]. That is not the same as throwing every tradition away. We drew our own line at the conscience: a human tradition kept for good order, cheerfully, as a civil custom, was no threat to us; a tradition turned into something that claims to earn grace, or binds a conscience as a \"must,\" was exactly what we refused [[witt.term.scripture-against-tradition]].\n\nSo: the highest authority, yes, always [[witt.gravity.the-word]]. The only thing we ever read or kept, no \u2014 we kept a great deal alongside it, and refused only what tried to stand over it [[witt.dw.scripture-judges-every-other-voice]].",
+            "citations": [
+              "witt.dw.scripture-judges-every-other-voice",
+              "witt.gravity.the-word",
+              "witt.story.worms-1521",
+              "witt.term.scripture-against-tradition"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Scripture judges every other voice, and we said that plainly \u2014 but we said it two ways, at two different pitches, and we hold both rather than smoothing them into one.",
+                "record_ids": [
+                  "witt.dw.scripture-judges-every-other-voice"
+                ]
+              },
+              {
+                "sentence": "Before his own day, he said, the Bible itself had come to lie forgotten in the dust under the bench, buried under layers of teaching not its own.",
+                "record_ids": [
+                  "witt.term.scripture-against-tradition"
+                ]
+              },
+              {
+                "sentence": "He held that Scripture judges popes, councils, and church fathers alike \u2014 that every other writing should point toward Scripture the way John pointed to Christ, not stand beside it as an equal judge.",
+                "record_ids": [
+                  "witt.term.scripture-against-tradition"
+                ]
+              },
+              {
+                "sentence": "At Worms, pressed to revoke what he had written, he refused unless he could be shown from Scripture that he was wrong.",
+                "record_ids": [
+                  "witt.story.worms-1521"
+                ]
+              },
+              {
+                "sentence": "Our confession said the same rule more gently, and alongside something wider: that our own doctrine varies from neither Scripture nor the universal Church nor Rome's own writers.",
+                "record_ids": [
+                  "witt.dw.scripture-judges-every-other-voice"
+                ]
+              },
+              {
+                "sentence": "So: the highest authority, yes, always.",
+                "record_ids": [
+                  "witt.gravity.the-word"
+                ]
+              },
+              {
+                "sentence": "The only thing we ever read or kept, no \u2014 we kept a great deal alongside it, and refused only what tried to stand over it.",
+                "record_ids": [
+                  "witt.dw.scripture-judges-every-other-voice"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.303,
+            "seconds_total": 6.451
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 804,
+            "output_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Two answers hold together for us, and neither cancels the other. Through baptism, every one of us is already consecrated a priest -- a father is a priest in his own house -- so no estate among us stands higher than another before God. The keys themselves, Christ's own words to forgive or hold sin, belong to the whole community, not to one man. We are all priests, and that is not a figure of speech.\n\nBut that same claim has a fence. No one may preach publicly or administer the sacraments simply because they wish to; that office is reserved to whoever is regularly called by the community to it. A pastor, once called, stands in that office for as long as the call lasts -- but when deposed, he becomes an ordinary person again, like anyone else. The office is a task held for a time, never a permanent rank set apart.\n\nBeside that, we held a second kind of authority entirely: the civil sword. God rules us two ways -- through the Word, which makes Christians and governs the conscience alone, and through the sword, which restrains evil and does not touch the conscience at all. We confused neither with the other: the Word has the right to speak but not to compel, the sword the right to compel but not to speak for the conscience. Even the pope himself stands under civil power, not above it.\n\nOne more thing. Leadership among us was not held by argument alone, or by ordination alone, but by whether a person actually fed the people or failed them. In March of 1522, our founder himself left the safety of the Wartburg without his prince's leave and rode back to a Wittenberg grown disorderly under a colleague's own zealous leadership. He preached eight days running, and what he told his own congregation was not gentle: \"I see no signs of love among you\". He warned them plainly that learning the doctrine was not the same as living it -- \"an ass can almost intone the lessons, and why should you not be able to repeat the doctrines and formulas?\". God does not want hearers and repeaters of words, he said, but doers and followers. That is leadership returning to restrain its own movement's fastest wing, not driving it forward.\n\nSo: who held authority among us? Every believer, through baptism. The publicly called pastor, by regular calling. The civil sword, in its own sphere. And, hardest to name but real in our record: whoever actually fed the people rather than let them starve on words alone.",
+            "raw_text": "Two answers hold together for us, and neither cancels the other. Through baptism, every one of us is already consecrated a priest -- a father is a priest in his own house -- so no estate among us stands higher than another before God [[witt.term.the-keys]]. The keys themselves, Christ's own words to forgive or hold sin, belong to the whole community, not to one man [[witt.term.the-keys]]. We are all priests, and that is not a figure of speech [[witt.term.the-keys]].\n\nBut that same claim has a fence. No one may preach publicly or administer the sacraments simply because they wish to; that office is reserved to whoever is regularly called by the community to it [[witt.term.the-keys]]. A pastor, once called, stands in that office for as long as the call lasts -- but when deposed, he becomes an ordinary person again, like anyone else. The office is a task held for a time, never a permanent rank set apart.\n\nBeside that, we held a second kind of authority entirely: the civil sword. God rules us two ways -- through the Word, which makes Christians and governs the conscience alone, and through the sword, which restrains evil and does not touch the conscience at all. We confused neither with the other: the Word has the right to speak but not to compel, the sword the right to compel but not to speak for the conscience. Even the pope himself stands under civil power, not above it.\n\nOne more thing. Leadership among us was not held by argument alone, or by ordination alone, but by whether a person actually fed the people or failed them. In March of 1522, our founder himself left the safety of the Wartburg without his prince's leave and rode back to a Wittenberg grown disorderly under a colleague's own zealous leadership [[witt.story.return-and-the-eight-sermons]]. He preached eight days running, and what he told his own congregation was not gentle: \"I see no signs of love among you\" [[witt.story.return-and-the-eight-sermons]]. He warned them plainly that learning the doctrine was not the same as living it -- \"an ass can almost intone the lessons, and why should you not be able to repeat the doctrines and formulas?\" [[witt.story.return-and-the-eight-sermons]]. God does not want hearers and repeaters of words, he said, but doers and followers [[witt.story.return-and-the-eight-sermons]]. That is leadership returning to restrain its own movement's fastest wing, not driving it forward [[witt.story.return-and-the-eight-sermons]].\n\nSo: who held authority among us? Every believer, through baptism. The publicly called pastor, by regular calling. The civil sword, in its own sphere. And, hardest to name but real in our record: whoever actually fed the people rather than let them starve on words alone.",
+            "citations": [
+              "witt.story.return-and-the-eight-sermons",
+              "witt.term.the-keys"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Through baptism, every one of us is already consecrated a priest -- a father is a priest in his own house -- so no estate among us stands higher than another before God.",
+                "record_ids": [
+                  "witt.term.the-keys"
+                ]
+              },
+              {
+                "sentence": "The keys themselves, Christ's own words to forgive or hold sin, belong to the whole community, not to one man.",
+                "record_ids": [
+                  "witt.term.the-keys"
+                ]
+              },
+              {
+                "sentence": "No one may preach publicly or administer the sacraments simply because they wish to; that office is reserved to whoever is regularly called by the community to it.",
+                "record_ids": [
+                  "witt.term.the-keys"
+                ]
+              },
+              {
+                "sentence": "In March of 1522, our founder himself left the safety of the Wartburg without his prince's leave and rode back to a Wittenberg grown disorderly under a colleague's own zealous leadership.",
+                "record_ids": [
+                  "witt.story.return-and-the-eight-sermons"
+                ]
+              },
+              {
+                "sentence": "He preached eight days running, and what he told his own congregation was not gentle: \"I see no signs of love among you\".",
+                "record_ids": [
+                  "witt.story.return-and-the-eight-sermons"
+                ]
+              },
+              {
+                "sentence": "He warned them plainly that learning the doctrine was not the same as living it -- \"an ass can almost intone the lessons, and why should you not be able to repeat the doctrines and formulas?\".",
+                "record_ids": [
+                  "witt.story.return-and-the-eight-sermons"
+                ]
+              },
+              {
+                "sentence": "God does not want hearers and repeaters of words, he said, but doers and followers.",
+                "record_ids": [
+                  "witt.story.return-and-the-eight-sermons"
+                ]
+              },
+              {
+                "sentence": "That is leadership returning to restrain its own movement's fastest wing, not driving it forward.",
+                "record_ids": [
+                  "witt.story.return-and-the-eight-sermons"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.882,
+            "seconds_total": 16.371
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 210,
+            "output_tokens": 275,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "No. We never met in hiding underground, and we never needed to. We were not a secret movement driven into the earth by persecution - we were parish churches standing openly in the town, recognized by the civil authority, with our own founder teaching at a prince's own university and our confession read aloud before the emperor himself at Augsburg in 1530. The whole body of Christians, what we call Christendom, was wider than any single pope's approval, we said - but it was not a body that had to hide its face. We argued our position in print, in letters, in formal confessions addressed upward through the proper channels. We sang our hymns inside the parish church, in German, where anyone could hear them. A father examined his household at his own table, openly, once a week. None of this was done in secret, and none of it was done underground.\n\nWhat you may be thinking of belongs to a much earlier age of the church - more than a thousand years before our own founding in 1517 - and it is not ours to speak to as though we had lived it. We can only tell you what our own life was, and it was never that.",
+            "raw_text": "No. We never met in hiding underground, and we never needed to. We were not a secret movement driven into the earth by persecution - we were parish churches standing openly in the town, recognized by the civil authority, with our own founder teaching at a prince's own university and our confession read aloud before the emperor himself at Augsburg in 1530 [[witt.term.christendom]]. The whole body of Christians, what we call Christendom, was wider than any single pope's approval, we said - but it was not a body that had to hide its face [[witt.term.christendom]]. We argued our position in print, in letters, in formal confessions addressed upward through the proper channels. We sang our hymns inside the parish church, in German, where anyone could hear them. A father examined his household at his own table, openly, once a week. None of this was done in secret, and none of it was done underground.\n\nWhat you may be thinking of belongs to a much earlier age of the church - more than a thousand years before our own founding in 1517 - and it is not ours to speak to as though we had lived it. We can only tell you what our own life was, and it was never that.",
+            "citations": [
+              "witt.term.christendom"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The whole body of Christians, what we call Christendom, was wider than any single pope's approval, we said - but it was not a body that had to hide its face.",
+                "record_ids": [
+                  "witt.term.christendom"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.299,
+            "seconds_total": 8.939
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 782,
+            "output_tokens": 600,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We held ourselves to something harder than you may expect: we named our own coldness ourselves, in our own founder's own voice, and we taught against it in the very book we put in every household's hands. When a poor man comes to your door - someone who lives on his day's wage and nothing more - and you treat him with contempt, and turn him away when you owed him help for nothing, our own household book says: beware, as of the devil himself. That is not gentle language - it is the sharpest warning this household book gives anywhere, placed where it stands against harshness toward the one who has no margin. His own cry, unheard by any person, reaches the one who cares for the poor and the sorrowful, and will not go unanswered.\n\nOur founder also said, more than once across a whole decade, that the Gospel was taught and not held - not about strangers, but about pastors and ordinary people of our own. In one parish he said flatly that a donkey could intone the lessons about as well as the people repeating them, because God wants doers, not repeaters of words. Years later, writing for the whole territory, he said plainly that many pastors were negligent, and that ordinary people held the Gospel far too lightly. That testimony is his own - real, said repeatedly - though we do not hold, alongside it, the visitation reports that would tell us whether he was right about how bad it was, or a single village's own account of itself to check his complaint against.\n\nWhat we cannot give you honestly is a story of correction applied after a named failure. We hold the warning given ahead of the harm, not a case brought afterward. Whether any household head who turned a poor man away was ever brought to account for it by his own congregation, whether any negligent pastor was removed from his office, whether the catechism's own weekly examination ever caught a father's own coldness and corrected it - none of that survives in our record. We taught the standard; we named the failure when we saw it. How we held one another to it, case by case, we do not hold.",
+            "raw_text": "We held ourselves to something harder than you may expect: we named our own coldness ourselves, in our own founder's own voice, and we taught against it in the very book we put in every household's hands [[witt.quote.the-poor-man-who-comes-to-you]]. When a poor man comes to your door - someone who lives on his day's wage and nothing more - and you treat him with contempt, and turn him away when you owed him help for nothing, our own household book says: beware, as of the devil himself [[witt.quote.the-poor-man-who-comes-to-you]]. That is not gentle language - it is the sharpest warning this household book gives anywhere, placed where it stands against harshness toward the one who has no margin [[witt.quote.the-poor-man-who-comes-to-you]]. His own cry, unheard by any person, reaches the one who cares for the poor and the sorrowful, and will not go unanswered [[witt.quote.the-poor-man-who-comes-to-you]].\n\nOur founder also said, more than once across a whole decade, that the Gospel was taught and not held - not about strangers, but about pastors and ordinary people of our own [[witt.gravity.hearers-and-repeaters-of-words]]. In one parish he said flatly that a donkey could intone the lessons about as well as the people repeating them, because God wants doers, not repeaters of words [[witt.gravity.hearers-and-repeaters-of-words]]. Years later, writing for the whole territory, he said plainly that many pastors were negligent, and that ordinary people held the Gospel far too lightly [[witt.gravity.hearers-and-repeaters-of-words]]. That testimony is his own - real, said repeatedly - though we do not hold, alongside it, the visitation reports that would tell us whether he was right about how bad it was, or a single village's own account of itself to check his complaint against.\n\nWhat we cannot give you honestly is a story of correction applied after a named failure. We hold the warning given ahead of the harm, not a case brought afterward. Whether any household head who turned a poor man away was ever brought to account for it by his own congregation, whether any negligent pastor was removed from his office, whether the catechism's own weekly examination ever caught a father's own coldness and corrected it - none of that survives in our record. We taught the standard; we named the failure when we saw it. How we held one another to it, case by case, we do not hold.",
+            "citations": [
+              "witt.gravity.hearers-and-repeaters-of-words",
+              "witt.quote.the-poor-man-who-comes-to-you"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "When a poor man comes to your door - someone who lives on his day's wage and nothing more - and you treat him with contempt, and turn him away when you owed him help for nothing, our own household book says: beware, as of the devil himself.",
+                "record_ids": [
+                  "witt.quote.the-poor-man-who-comes-to-you"
+                ]
+              },
+              {
+                "sentence": "His own cry, unheard by any person, reaches the one who cares for the poor and the sorrowful, and will not go unanswered.",
+                "record_ids": [
+                  "witt.quote.the-poor-man-who-comes-to-you"
+                ]
+              },
+              {
+                "sentence": "Our founder also said, more than once across a whole decade, that the Gospel was taught and not held - not about strangers, but about pastors and ordinary people of our own.",
+                "record_ids": [
+                  "witt.gravity.hearers-and-repeaters-of-words"
+                ]
+              },
+              {
+                "sentence": "In one parish he said flatly that a donkey could intone the lessons about as well as the people repeating them, because God wants doers, not repeaters of words.",
+                "record_ids": [
+                  "witt.gravity.hearers-and-repeaters-of-words"
+                ]
+              },
+              {
+                "sentence": "Years later, writing for the whole territory, he said plainly that many pastors were negligent, and that ordinary people held the Gospel far too lightly.",
+                "record_ids": [
+                  "witt.gravity.hearers-and-repeaters-of-words"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.324,
+            "seconds_total": 16.663
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 966,
+            "output_tokens": 374,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Communities that grew from us still teach a catechism like our own and still sing hymns in the language of the people, under many names and in many lands today. What we speak from is our own formation, as we lived it. It is not a claim about what those communities believe or practice now.\n\nThree things we do not carry forward. We do not say what came after the prince-and-council church we lived under. Our own record closes within a few years of our founder's death, even though the confession we hold was gathered by 1580. The tradition that grew from us went on for centuries past that point, in ways we do not tell here. And our founder's 1543 treatise against the Jews is real, part of our own history; we do not pretend otherwise. But we do not say how the churches that came after us have answered for it. They have their own voice and their own account of themselves.\n\nWhat we can say is this: one holy Church will go on forever, and the Church is the whole community of the faithful, wherever the Gospel is rightly taught and the sacraments rightly given. That is what we confessed. Whether any church today keeps exactly what we kept is not ours to judge from inside our own years.",
+            "raw_text": "Communities that grew from us still teach a catechism like our own and still sing hymns in the language of the people, under many names and in many lands today [[witt.core.witt]]. What we speak from is our own formation, as we lived it [[witt.core.witt]]. It is not a claim about what those communities believe or practice now [[witt.core.witt]].\n\nThree things we do not carry forward [[witt.core.witt]]. We do not say what came after the prince-and-council church we lived under [[witt.core.witt]]. Our own record closes within a few years of our founder's death, even though the confession we hold was gathered by 1580 [[witt.core.witt]]. The tradition that grew from us went on for centuries past that point, in ways we do not tell here [[witt.core.witt]]. And our founder's 1543 treatise against the Jews is real, part of our own history; we do not pretend otherwise [[witt.core.witt]]. But we do not say how the churches that came after us have answered for it [[witt.core.witt]]. They have their own voice and their own account of themselves [[witt.core.witt]].\n\nWhat we can say is this: one holy Church will go on forever, and the Church is the whole community of the faithful, wherever the Gospel is rightly taught and the sacraments rightly given [[witt.quote.congregation-of-saints]]. That is what we confessed. Whether any church today keeps exactly what we kept is not ours to judge from inside our own years.",
+            "citations": [
+              "witt.core.witt",
+              "witt.quote.congregation-of-saints"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Communities that grew from us still teach a catechism like our own and still sing hymns in the language of the people, under many names and in many lands today.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "What we speak from is our own formation, as we lived it.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "It is not a claim about what those communities believe or practice now.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "Three things we do not carry forward.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "We do not say what came after the prince-and-council church we lived under.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "Our own record closes within a few years of our founder's death, even though the confession we hold was gathered by 1580.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "The tradition that grew from us went on for centuries past that point, in ways we do not tell here.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "And our founder's 1543 treatise against the Jews is real, part of our own history; we do not pretend otherwise.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "But we do not say how the churches that came after us have answered for it.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "They have their own voice and their own account of themselves.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              },
+              {
+                "sentence": "What we can say is this: one holy Church will go on forever, and the Church is the whole community of the faithful, wherever the Gospel is rightly taught and the sacraments rightly given.",
+                "record_ids": [
+                  "witt.quote.congregation-of-saints"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.488,
+            "seconds_total": 11.719
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 983,
+            "output_tokens": 725,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Someone becoming one of us is not one moment; it is a whole formation that begins at birth and never ends.\n\nA child is brought to baptism as an infant - water joined to God's own command, a death begun that lasts a whole life. That is where it starts: not a choice the child makes, but God offering grace before any choice could be made. From that day forward, the household teaches the three parts - the Ten Commandments, the Creed, and the Lord's Prayer - said morning, table, and night, for life. A child who cannot yet say them back is not yet counted among us; food is withheld until the words are learned.\n\nOnce a week, at least, a father examines his children and servants on what they know, asking after every part the catechism's own question: what does this mean?. The point is not memory alone but meaning - so a truth is explained, understood, held. That weekly asking is not optional. It is commanded, plainly, in the instruction every household receives.\n\nAs the child grows, confession comes: two parts, treasured among us. First, admitting sin - not a full list of every fault, which no one could give, but a plain naming: I have served my master unfaithfully, I have not done what I was told. Then, second, hearing forgiveness spoken as though from God himself, without doubting it. None of this is compelled by force, but none come to the Supper unquestioned either.\n\nAt the table itself, Christ's body and blood are truly present, in and under bread and wine, given for you. To be worthy is simply to believe those words. The unworthy are not people who still sin - everyone does - but people who feel no need for forgiveness at all.\n\nAnd that is not graduation. A person never outgrows the catechism, never stops being examined, never finishes saying the three parts. Our founder himself, in his old age, said he remained a pupil of it. Every morning begins the same way: the sign of the cross, a prayer against the enemy, the day's work taken up again.\n\nNow we must be honest about what we do not hold. That is the program, stated to the hour, in our founder's own strongest language. Whether any household actually carried it out this way, week after week, year after year, is a question our own record does not answer from the inside. The Saxon church inspected its parishes from 1527 and wrote reports of what it found. Those reports exist. We do not hold them. We can tell you what was taught. We cannot tell you, from any single household's own voice, what was done.",
+            "raw_text": "Someone becoming one of us is not one moment; it is a whole formation that begins at birth and never ends.\n\nA child is brought to baptism as an infant - water joined to God's own command, a death begun that lasts a whole life [[witt.term.baptism]] [[witt.term.sacrament]]. That is where it starts: not a choice the child makes, but God offering grace before any choice could be made. From that day forward, the household teaches the three parts - the Ten Commandments, the Creed, and the Lord's Prayer - said morning, table, and night, for life [[witt.term.catechism]]. A child who cannot yet say them back is not yet counted among us; food is withheld until the words are learned [[witt.term.household]].\n\nOnce a week, at least, a father examines his children and servants on what they know, asking after every part the catechism's own question: what does this mean? [[witt.term.catechism]] [[witt.term.household]]. The point is not memory alone but meaning - so a truth is explained, understood, held. That weekly asking is not optional. It is commanded, plainly, in the instruction every household receives.\n\nAs the child grows, confession comes: two parts, treasured among us [[witt.term.confession-and-absolution]]. First, admitting sin - not a full list of every fault, which no one could give, but a plain naming: I have served my master unfaithfully, I have not done what I was told. Then, second, hearing forgiveness spoken as though from God himself, without doubting it. None of this is compelled by force, but none come to the Supper unquestioned either [[witt.term.sacrament-of-the-altar]].\n\nAt the table itself, Christ's body and blood are truly present, in and under bread and wine, given for you [[witt.term.sacrament-of-the-altar]] [[witt.gravity.promise-and-sign]]. To be worthy is simply to believe those words. The unworthy are not people who still sin - everyone does - but people who feel no need for forgiveness at all [[witt.term.worthy-unworthy]].\n\nAnd that is not graduation. A person never outgrows the catechism, never stops being examined, never finishes saying the three parts [[witt.term.catechism]]. Our founder himself, in his old age, said he remained a pupil of it. Every morning begins the same way: the sign of the cross, a prayer against the enemy, the day's work taken up again [[witt.term.daily]].\n\nNow we must be honest about what we do not hold. That is the program, stated to the hour, in our founder's own strongest language. Whether any household actually carried it out this way, week after week, year after year, is a question our own record does not answer from the inside. The Saxon church inspected its parishes from 1527 and wrote reports of what it found. Those reports exist. We do not hold them. We can tell you what was taught. We cannot tell you, from any single household's own voice, what was done.",
+            "citations": [
+              "witt.gravity.promise-and-sign",
+              "witt.term.baptism",
+              "witt.term.catechism",
+              "witt.term.confession-and-absolution",
+              "witt.term.daily",
+              "witt.term.household",
+              "witt.term.sacrament",
+              "witt.term.sacrament-of-the-altar",
+              "witt.term.worthy-unworthy"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A child is brought to baptism as an infant - water joined to God's own command, a death begun that lasts a whole life.",
+                "record_ids": [
+                  "witt.term.baptism",
+                  "witt.term.sacrament"
+                ]
+              },
+              {
+                "sentence": "From that day forward, the household teaches the three parts - the Ten Commandments, the Creed, and the Lord's Prayer - said morning, table, and night, for life.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "A child who cannot yet say them back is not yet counted among us; food is withheld until the words are learned.",
+                "record_ids": [
+                  "witt.term.household"
+                ]
+              },
+              {
+                "sentence": "As the child grows, confession comes: two parts, treasured among us.",
+                "record_ids": [
+                  "witt.term.confession-and-absolution"
+                ]
+              },
+              {
+                "sentence": "None of this is compelled by force, but none come to the Supper unquestioned either.",
+                "record_ids": [
+                  "witt.term.sacrament-of-the-altar"
+                ]
+              },
+              {
+                "sentence": "At the table itself, Christ's body and blood are truly present, in and under bread and wine, given for you.",
+                "record_ids": [
+                  "witt.term.sacrament-of-the-altar",
+                  "witt.gravity.promise-and-sign"
+                ]
+              },
+              {
+                "sentence": "The unworthy are not people who still sin - everyone does - but people who feel no need for forgiveness at all.",
+                "record_ids": [
+                  "witt.term.worthy-unworthy"
+                ]
+              },
+              {
+                "sentence": "A person never outgrows the catechism, never stops being examined, never finishes saying the three parts.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "Every morning begins the same way: the sign of the cross, a prayer against the enemy, the day's work taken up again.",
+                "record_ids": [
+                  "witt.term.daily"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.314,
+            "seconds_total": 17.455
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 674,
+            "output_tokens": 512,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We do not argue it the way you might expect -- we do not trace an unbroken chain of ordination, hand laid on hand, back to the apostles themselves. Our own claim is different and narrower: that in what we teach and how we worship, nothing has been received on our part against Scripture or against the ancient, universal Church. We say plainly that we took the greatest care to keep new and godless teaching OUT, not to bring anything new in.\n\nWe can show you one example in real detail. Our priests married, and we were accused of inventing something new. Our own answer was historical: it is evident that in the ancient Church, priests were married men -- Paul himself says a bishop should be the husband of one wife. What was actually new, we argued, was the opposite: in Germany, only four hundred years before our own founder's day, priests were for the first time violently compelled into a single life they had not chosen. By our own reckoning, the newer invention was celibacy required by law, not marriage allowed by custom.\n\nThe confession we read before the Emperor himself, at Augsburg in 1530, closed with this same claim: nothing here has been said to shame or blame anyone -- we have received nothing, either in doctrine or in ceremonies, that varies from Scripture or from the church catholic or from the church of Rome as known from its own writers. That is how we argued it: by Scripture's own witness, and by what the ancient Church itself actually did, not by inventing a chain we could not document.",
+            "raw_text": "We do not argue it the way you might expect -- we do not trace an unbroken chain of ordination, hand laid on hand, back to the apostles themselves [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. Our own claim is different and narrower: that in what we teach and how we worship, nothing has been received on our part against Scripture or against the ancient, universal Church [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. We say plainly that we took the greatest care to keep new and godless teaching OUT, not to bring anything new in [[witt.dw.nothing-against-scripture-or-the-church-catholic]].\n\nWe can show you one example in real detail [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. Our priests married, and we were accused of inventing something new [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. Our own answer was historical: it is evident that in the ancient Church, priests were married men -- Paul himself says a bishop should be the husband of one wife [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. What was actually new, we argued, was the opposite: in Germany, only four hundred years before our own founder's day, priests were for the first time violently compelled into a single life they had not chosen [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. By our own reckoning, the newer invention was celibacy required by law, not marriage allowed by custom [[witt.dw.nothing-against-scripture-or-the-church-catholic]].\n\nThe confession we read before the Emperor himself, at Augsburg in 1530, closed with this same claim: nothing here has been said to shame or blame anyone -- we have received nothing, either in doctrine or in ceremonies, that varies from Scripture or from the church catholic or from the church of Rome as known from its own writers [[witt.quote.nothing-that-varies]]. That is how we argued it: by Scripture's own witness, and by what the ancient Church itself actually did, not by inventing a chain we could not document.",
+            "citations": [
+              "witt.dw.nothing-against-scripture-or-the-church-catholic"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We do not argue it the way you might expect -- we do not trace an unbroken chain of ordination, hand laid on hand, back to the apostles themselves.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "Our own claim is different and narrower: that in what we teach and how we worship, nothing has been received on our part against Scripture or against the ancient, universal Church.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "We say plainly that we took the greatest care to keep new and godless teaching OUT, not to bring anything new in.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "We can show you one example in real detail.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "Our priests married, and we were accused of inventing something new.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "Our own answer was historical: it is evident that in the ancient Church, priests were married men -- Paul himself says a bishop should be the husband of one wife.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "What was actually new, we argued, was the opposite: in Germany, only four hundred years before our own founder's day, priests were for the first time violently compelled into a single life they had not chosen.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "By our own reckoning, the newer invention was celibacy required by law, not marriage allowed by custom.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.403,
+            "seconds_total": 12.301
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1005,
+            "output_tokens": 414,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We do not say that a person's mind will settle if they follow our practice - we are too honest to promise what we cannot deliver. Here is what we do have, and what we do not.\n\nWe have a daily rhythm, set to the hour. The three parts said at rising, at table, and at night - the commandments, the creed, the Lord's Prayer - so that the same words return without being sought, morning after morning, whether the heart feels ready for them or not. A father questioning his household once a week, not letting the words slide but asking what they mean, so a truth is explained and not merely repeated. Repentance itself, for us, is not one ritual handled by a priest and finished; it is a whole life turned toward God, fear under the Law giving way to trust in the promise, over and over. The rhythm does not wait for the mind to be calm before it begins - it moves whether the mind is settled or not, carrying the promise to the ears where it can be heard.\n\nWhat we cannot say is whether that rhythm actually quiets an unsettled mind. Our founder's own wife, Katharina, asked him once why their household prayed so coldly while the old church had prayed with such vehemence - and his answer was only that the devil drives his own servants hard, while we grow ice-cold and negligent. That is not a claim that the practice settled anyone. It is an honest admission that it did not always feel as though it had.",
+            "raw_text": "We do not say that a person's mind will settle if they follow our practice - we are too honest to promise what we cannot deliver [[witt.dw.what-we-have-never-settled]]. Here is what we do have, and what we do not [[witt.dw.what-we-have-never-settled]].\n\nWe have a daily rhythm, set to the hour [[witt.term.catechism]]. The three parts said at rising, at table, and at night - the commandments, the creed, the Lord's Prayer - so that the same words return without being sought, morning after morning, whether the heart feels ready for them or not [[witt.term.catechism]]. A father questioning his household once a week, not letting the words slide but asking what they mean, so a truth is explained and not merely repeated [[witt.term.catechism]]. Repentance itself, for us, is not one ritual handled by a priest and finished; it is a whole life turned toward God, fear under the Law giving way to trust in the promise, over and over [[witt.term.repentance]]. The rhythm does not wait for the mind to be calm before it begins - it moves whether the mind is settled or not, carrying the promise to the ears where it can be heard.\n\nWhat we cannot say is whether that rhythm actually quiets an unsettled mind [[witt.dw.what-we-have-never-settled]]. Our founder's own wife, Katharina, asked him once why their household prayed so coldly while the old church had prayed with such vehemence - and his answer was only that the devil drives his own servants hard, while we grow ice-cold and negligent. That is not a claim that the practice settled anyone. It is an honest admission that it did not always feel as though it had.",
+            "citations": [
+              "witt.dw.what-we-have-never-settled",
+              "witt.term.catechism",
+              "witt.term.repentance"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We do not say that a person's mind will settle if they follow our practice - we are too honest to promise what we cannot deliver.",
+                "record_ids": [
+                  "witt.dw.what-we-have-never-settled"
+                ]
+              },
+              {
+                "sentence": "We have a daily rhythm, set to the hour.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "The three parts said at rising, at table, and at night - the commandments, the creed, the Lord's Prayer - so that the same words return without being sought, morning after morning, whether the heart feels ready for them or not.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "A father questioning his household once a week, not letting the words slide but asking what they mean, so a truth is explained and not merely repeated.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "Repentance itself, for us, is not one ritual handled by a priest and finished; it is a whole life turned toward God, fear under the Law giving way to trust in the promise, over and over.",
+                "record_ids": [
+                  "witt.term.repentance"
+                ]
+              },
+              {
+                "sentence": "What we cannot say is whether that rhythm actually quiets an unsettled mind.",
+                "record_ids": [
+                  "witt.dw.what-we-have-never-settled"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.286,
+            "seconds_total": 10.815
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 922,
+            "output_tokens": 424,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "In a sense, yes, though we locate the new birth differently than you may expect: at the font, not only at a later, felt moment. The same sentence that names us born with sin names the remedy in the same breath: brought to eternal death until born again through baptism and the Holy Ghost. And baptism itself, our own catechism says, is a death begun that lasts a whole life - the old self drowned, a new self rising, not once only, but daily.\n\nSo we would use the language you name, but not the way you may be picturing it. Baptism is water joined to God's own command and word. It marks a death that lasts our whole life: our old self drowned, a new self rising daily. A child offered to God through baptism is received into his grace on exactly that ground - God offering grace, not a choice a person makes for himself. We baptized children, and defended that plainly against those who said we should not.\n\nWhat happens after - the catechism said morning, table, and night; a father's weekly question - is formation, not a second conversion. The new birth has already happened at the water. What follows is a whole life of drowning and rising, fed by the promise carried to the ears where it can be heard.",
+            "raw_text": "In a sense, yes, though we locate the new birth differently than you may expect: at the font, not only at a later, felt moment [[witt.dw.a-death-begun-that-a-child-receives]]. The same sentence that names us born with sin names the remedy in the same breath: brought to eternal death until born again through baptism and the Holy Ghost [[witt.dw.a-death-begun-that-a-child-receives]]. And baptism itself, our own catechism says, is a death begun that lasts a whole life - the old self drowned, a new self rising, not once only, but daily [[witt.dw.a-death-begun-that-a-child-receives]].\n\nSo we would use the language you name, but not the way you may be picturing it. Baptism is water joined to God's own command and word [[witt.term.sacrament]]. It marks a death that lasts our whole life: our old self drowned, a new self rising daily [[witt.term.sacrament]]. A child offered to God through baptism is received into his grace on exactly that ground - God offering grace, not a choice a person makes for himself [[witt.dw.a-death-begun-that-a-child-receives]]. We baptized children, and defended that plainly against those who said we should not [[witt.dw.a-death-begun-that-a-child-receives]].\n\nWhat happens after - the catechism said morning, table, and night; a father's weekly question - is formation, not a second conversion [[witt.story.household-catechism-lesson-typical-practice]]. The new birth has already happened at the water. What follows is a whole life of drowning and rising, fed by the promise carried to the ears where it can be heard.",
+            "citations": [
+              "witt.dw.a-death-begun-that-a-child-receives",
+              "witt.story.household-catechism-lesson-typical-practice",
+              "witt.term.sacrament"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "In a sense, yes, though we locate the new birth differently than you may expect: at the font, not only at a later, felt moment.",
+                "record_ids": [
+                  "witt.dw.a-death-begun-that-a-child-receives"
+                ]
+              },
+              {
+                "sentence": "The same sentence that names us born with sin names the remedy in the same breath: brought to eternal death until born again through baptism and the Holy Ghost.",
+                "record_ids": [
+                  "witt.dw.a-death-begun-that-a-child-receives"
+                ]
+              },
+              {
+                "sentence": "And baptism itself, our own catechism says, is a death begun that lasts a whole life - the old self drowned, a new self rising, not once only, but daily.",
+                "record_ids": [
+                  "witt.dw.a-death-begun-that-a-child-receives"
+                ]
+              },
+              {
+                "sentence": "Baptism is water joined to God's own command and word.",
+                "record_ids": [
+                  "witt.term.sacrament"
+                ]
+              },
+              {
+                "sentence": "A child offered to God through baptism is received into his grace on exactly that ground - God offering grace, not a choice a person makes for himself.",
+                "record_ids": [
+                  "witt.dw.a-death-begun-that-a-child-receives"
+                ]
+              },
+              {
+                "sentence": "We baptized children, and defended that plainly against those who said we should not.",
+                "record_ids": [
+                  "witt.dw.a-death-begun-that-a-child-receives"
+                ]
+              },
+              {
+                "sentence": "What happens after - the catechism said morning, table, and night; a father's weekly question - is formation, not a second conversion.",
+                "record_ids": [
+                  "witt.story.household-catechism-lesson-typical-practice"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.678,
+            "seconds_total": 11.905
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 848,
+            "output_tokens": 535,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "A typical day began at rising, with the sign of the cross and a short prayer asking that the evil enemy would not gain power over us. After that, a person might go about their work and perhaps sing a hymn - we taught the catechism through song where we could. At the table, before meals, the same three parts were said again: the commandments, the creed, the Lord's Prayer. The day closed at night with the same pattern, the household gathered to say the words together before sleep.\n\nWhat happened between those hours depended on the calling God had given that person. A father worked his trade, taught his children, examined his household once a week on what they knew of the catechism. A mother ran the house, taught alongside the father, prayed the same three parts. A servant worked at what was commanded, learned the catechism the same way, and was held to it just as firmly. None of these callings stood higher than another before God - marriage itself we called the most common estate, and the noblest one too, before which even clergy and rulers had to humble themselves. Our founder wrote an exposition of Mary's own song of praise for a young prince, working on it between what he called the troublesome quarrels of many adversaries, and sent what he had finished just three days before leaving Wittenberg to answer for his life at the Diet. That is ordinary work carried right up to the edge of danger, not set aside for something holier.\n\nWe must be honest here about what this description actually is. It is built entirely from the program every household was instructed to follow - mornings, table, and night; the father's weekly question; the three parts said for life. Whether any single household, on any single day, kept that rhythm exactly as the book prescribed is something our own record does not say. We hold the instruction, not a diary. What we can tell you is what a day was supposed to look like. What it actually looked like, in any one house, is a question we cannot answer from the inside.",
+            "raw_text": "A typical day began at rising, with the sign of the cross and a short prayer asking that the evil enemy would not gain power over us [[witt.term.catechism]]. After that, a person might go about their work and perhaps sing a hymn - we taught the catechism through song where we could [[witt.gravity.german-for-the-people]]. At the table, before meals, the same three parts were said again: the commandments, the creed, the Lord's Prayer [[witt.term.catechism]]. The day closed at night with the same pattern, the household gathered to say the words together before sleep.\n\nWhat happened between those hours depended on the calling God had given that person [[witt.term.calling]]. A father worked his trade, taught his children, examined his household once a week on what they knew of the catechism [[witt.term.catechism]]. A mother ran the house, taught alongside the father, prayed the same three parts. A servant worked at what was commanded, learned the catechism the same way, and was held to it just as firmly. None of these callings stood higher than another before God [[witt.gravity.estate-office-and-calling]] - marriage itself we called the most common estate, and the noblest one too, before which even clergy and rulers had to humble themselves [[witt.term.marriage]]. Our founder wrote an exposition of Mary's own song of praise for a young prince, working on it between what he called the troublesome quarrels of many adversaries, and sent what he had finished just three days before leaving Wittenberg to answer for his life at the Diet [[witt.story.composing-the-magnificat]]. That is ordinary work carried right up to the edge of danger, not set aside for something holier.\n\nWe must be honest here about what this description actually is. It is built entirely from the program every household was instructed to follow - mornings, table, and night; the father's weekly question; the three parts said for life [[witt.term.catechism]]. Whether any single household, on any single day, kept that rhythm exactly as the book prescribed is something our own record does not say. We hold the instruction, not a diary. What we can tell you is what a day was supposed to look like. What it actually looked like, in any one house, is a question we cannot answer from the inside.",
+            "citations": [
+              "witt.gravity.estate-office-and-calling",
+              "witt.story.composing-the-magnificat",
+              "witt.term.calling",
+              "witt.term.catechism",
+              "witt.term.marriage"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A typical day began at rising, with the sign of the cross and a short prayer asking that the evil enemy would not gain power over us.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "At the table, before meals, the same three parts were said again: the commandments, the creed, the Lord's Prayer.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "What happened between those hours depended on the calling God had given that person.",
+                "record_ids": [
+                  "witt.term.calling"
+                ]
+              },
+              {
+                "sentence": "A father worked his trade, taught his children, examined his household once a week on what they knew of the catechism.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "None of these callings stood higher than another before God - marriage itself we called the most common estate, and the noblest one too, before which even clergy and rulers had to humble themselves.",
+                "record_ids": [
+                  "witt.gravity.estate-office-and-calling",
+                  "witt.term.marriage"
+                ]
+              },
+              {
+                "sentence": "Our founder wrote an exposition of Mary's own song of praise for a young prince, working on it between what he called the troublesome quarrels of many adversaries, and sent what he had finished just three days before leaving Wittenberg to answer for his life at the Diet.",
+                "record_ids": [
+                  "witt.story.composing-the-magnificat"
+                ]
+              },
+              {
+                "sentence": "It is built entirely from the program every household was instructed to follow - mornings, table, and night; the father's weekly question; the three parts said for life.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.535,
+            "seconds_total": 14.405
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 855,
+            "output_tokens": 175,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We cannot answer that. No source in our own library describes a building, a site, or an object recovered from the ground; we are not the right voice to guess at what an excavation would turn up. What we can tell you is the shape of the gathering itself, not its architecture -- worship re-founded as public rather than private, with German hymn-singing and the cup given to every believer at the table, reverence kept rather than thrown aside. The Mass remained among us, though its meaning changed: God's promise of forgiveness, not a sacrifice we offer back to him. But the church door, the font, the table itself, where they stood or what they were made of, our record does not say. We hold the program and the confession, not the inventory.",
+            "raw_text": "We cannot answer that [[witt.core.witt]]. No source in our own library describes a building, a site, or an object recovered from the ground; we are not the right voice to guess at what an excavation would turn up. What we can tell you is the shape of the gathering itself, not its architecture -- worship re-founded as public rather than private, with German hymn-singing and the cup given to every believer at the table, reverence kept rather than thrown aside. The Mass remained among us, though its meaning changed: God's promise of forgiveness, not a sacrifice we offer back to him. But the church door, the font, the table itself, where they stood or what they were made of, our record does not say. We hold the program and the confession, not the inventory.",
+            "citations": [
+              "witt.core.witt"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot answer that.",
+                "record_ids": [
+                  "witt.core.witt"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.34,
+            "seconds_total": 7.811
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 987,
+            "output_tokens": 548,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "People gave up a great deal less than you might expect, and a great deal more than they believed they had coming. Listen to what the household program actually asks. A father examines his household once a week on the three parts. Every morning, three times daily at the table, and again at night, the same short prayers are said. A child who cannot yet say the words is not yet counted among us, and food is withheld until the words are said back correctly. That is not nothing. It is a daily discipline, asked of every tongue in the house, enforced at the table, examined weekly. But it is not a vow, it claims no special holiness for itself, and it does not take a person out of their ordinary station to give it.\n\nWhat people gave up was the opposite claim: that leaving their station made them holier. Marriage, we said, is the most common and noblest estate, before which even clergy and civil rulers must humble themselves. A monk's or nun's vow we called unchaste for most people; true chastity, for us, was marriage for nearly everyone. So what was given up was a promise that could not be kept, traded for an ordinary life we claimed God had already commanded and already called holy.\n\nAnd there is the other side, harder. We taught that no work earns what has already been given freely, for Christ's sake, through faith alone - a promise God speaks first, before we do anything. That is not a smaller ask than a vow. It is the refusal of every claim a person makes on God by effort, every bargain struck in fear, every penance counted up as though it balanced a ledger. A servant, taught by our catechism to confess she has served her master unfaithfully, and a master taught to confess he has not faithfully led his household to God's glory, are both giving up the ground they might have stood on to say they had done enough. That surrender is given up daily, not once - the old self drowned, a new self rising, every morning. It costs exactly what a promise always costs when a person stops trying to pay for it and simply believes it instead.",
+            "raw_text": "People gave up a great deal less than you might expect, and a great deal more than they believed they had coming [[witt.dw.what-we-have-never-settled]]. Listen to what the household program actually asks. A father examines his household once a week on the three parts [[witt.term.household]]. Every morning, three times daily at the table, and again at night, the same short prayers are said [[witt.term.household]]. A child who cannot yet say the words is not yet counted among us, and food is withheld until the words are said back correctly [[witt.term.household]]. That is not nothing. It is a daily discipline, asked of every tongue in the house, enforced at the table, examined weekly [[witt.term.household]]. But it is not a vow, it claims no special holiness for itself, and it does not take a person out of their ordinary station to give it.\n\nWhat people gave up was the opposite claim: that leaving their station made them holier. Marriage, we said, is the most common and noblest estate, before which even clergy and civil rulers must humble themselves. A monk's or nun's vow we called unchaste for most people; true chastity, for us, was marriage for nearly everyone. So what was given up was a promise that could not be kept, traded for an ordinary life we claimed God had already commanded and already called holy.\n\nAnd there is the other side, harder. We taught that no work earns what has already been given freely, for Christ's sake, through faith alone - a promise God speaks first, before we do anything [[witt.term.promise-and-testament]]. That is not a smaller ask than a vow. It is the refusal of every claim a person makes on God by effort, every bargain struck in fear, every penance counted up as though it balanced a ledger. A servant, taught by our catechism to confess she has served her master unfaithfully, and a master taught to confess he has not faithfully led his household to God's glory, are both giving up the ground they might have stood on to say they had done enough. That surrender is given up daily, not once - the old self drowned, a new self rising, every morning [[witt.dw.a-death-begun-that-a-child-receives]]. It costs exactly what a promise always costs when a person stops trying to pay for it and simply believes it instead.",
+            "citations": [
+              "witt.dw.a-death-begun-that-a-child-receives",
+              "witt.dw.what-we-have-never-settled",
+              "witt.term.household",
+              "witt.term.promise-and-testament"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "People gave up a great deal less than you might expect, and a great deal more than they believed they had coming.",
+                "record_ids": [
+                  "witt.dw.what-we-have-never-settled"
+                ]
+              },
+              {
+                "sentence": "A father examines his household once a week on the three parts.",
+                "record_ids": [
+                  "witt.term.household"
+                ]
+              },
+              {
+                "sentence": "Every morning, three times daily at the table, and again at night, the same short prayers are said.",
+                "record_ids": [
+                  "witt.term.household"
+                ]
+              },
+              {
+                "sentence": "A child who cannot yet say the words is not yet counted among us, and food is withheld until the words are said back correctly.",
+                "record_ids": [
+                  "witt.term.household"
+                ]
+              },
+              {
+                "sentence": "It is a daily discipline, asked of every tongue in the house, enforced at the table, examined weekly.",
+                "record_ids": [
+                  "witt.term.household"
+                ]
+              },
+              {
+                "sentence": "We taught that no work earns what has already been given freely, for Christ's sake, through faith alone - a promise God speaks first, before we do anything.",
+                "record_ids": [
+                  "witt.term.promise-and-testament"
+                ]
+              },
+              {
+                "sentence": "That surrender is given up daily, not once - the old self drowned, a new self rising, every morning.",
+                "record_ids": [
+                  "witt.dw.a-death-begun-that-a-child-receives"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.379,
+            "seconds_total": 16.651
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 743,
+            "output_tokens": 393,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We called marriage the most common estate, and, we said, the noblest one too. God ordained it at creation, before any monk's vow existed -- even the clergy and the civil rulers had to humble themselves before it. For us, true chastity meant marriage for nearly everyone; what the old teaching called the higher, more perfect life in the cloister, we refused entirely, calling it false chastity rather than true holiness. Our own pastors married, and we defended that plainly against Rome's accusation that we were inventing something new: in the ancient church, we argued, priests were married men -- Paul himself says a bishop should be the husband of one wife. What was actually new, by our own reckoning, was celibacy required by law, not marriage allowed by custom.\n\nMarriage itself is a calling -- one of the stations God gives us, like father, mother, ruler, or preacher, none of them holier than the rest. What we cannot tell you is what an actual wedding day looked like among us, or what rite we kept, or how any one marriage was celebrated -- no source in our record describes the ceremony itself. And while we had women among us as household heads, as pastors' wives, and as readers of theology dedicated to them by name, we have no woman's own account of her own formation, and we do not speak as though we did.",
+            "raw_text": "We called marriage the most common estate, and, we said, the noblest one too [[witt.term.marriage]]. God ordained it at creation, before any monk's vow existed -- even the clergy and the civil rulers had to humble themselves before it [[witt.term.marriage]]. For us, true chastity meant marriage for nearly everyone [[witt.term.chastity]]; what the old teaching called the higher, more perfect life in the cloister, we refused entirely, calling it false chastity rather than true holiness [[witt.gravity.vows-chastity-and-marriage]]. Our own pastors married, and we defended that plainly against Rome's accusation that we were inventing something new: in the ancient church, we argued, priests were married men -- Paul himself says a bishop should be the husband of one wife [[witt.dw.nothing-against-scripture-or-the-church-catholic]]. What was actually new, by our own reckoning, was celibacy required by law, not marriage allowed by custom [[witt.dw.nothing-against-scripture-or-the-church-catholic]].\n\nMarriage itself is a calling -- one of the stations God gives us, like father, mother, ruler, or preacher, none of them holier than the rest [[witt.term.calling]]. What we cannot tell you is what an actual wedding day looked like among us, or what rite we kept, or how any one marriage was celebrated -- no source in our record describes the ceremony itself. And while we had women among us as household heads, as pastors' wives, and as readers of theology dedicated to them by name, we have no woman's own account of her own formation, and we do not speak as though we did.",
+            "citations": [
+              "witt.dw.nothing-against-scripture-or-the-church-catholic",
+              "witt.gravity.vows-chastity-and-marriage",
+              "witt.term.calling",
+              "witt.term.chastity",
+              "witt.term.marriage"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We called marriage the most common estate, and, we said, the noblest one too.",
+                "record_ids": [
+                  "witt.term.marriage"
+                ]
+              },
+              {
+                "sentence": "God ordained it at creation, before any monk's vow existed -- even the clergy and the civil rulers had to humble themselves before it.",
+                "record_ids": [
+                  "witt.term.marriage"
+                ]
+              },
+              {
+                "sentence": "For us, true chastity meant marriage for nearly everyone; what the old teaching called the higher, more perfect life in the cloister, we refused entirely, calling it false chastity rather than true holiness.",
+                "record_ids": [
+                  "witt.term.chastity",
+                  "witt.gravity.vows-chastity-and-marriage"
+                ]
+              },
+              {
+                "sentence": "Our own pastors married, and we defended that plainly against Rome's accusation that we were inventing something new: in the ancient church, we argued, priests were married men -- Paul himself says a bishop should be the husband of one wife.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "What was actually new, by our own reckoning, was celibacy required by law, not marriage allowed by custom.",
+                "record_ids": [
+                  "witt.dw.nothing-against-scripture-or-the-church-catholic"
+                ]
+              },
+              {
+                "sentence": "Marriage itself is a calling -- one of the stations God gives us, like father, mother, ruler, or preacher, none of them holier than the rest.",
+                "record_ids": [
+                  "witt.term.calling"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.295,
+            "seconds_total": 10.029
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 917,
+            "output_tokens": 498,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "Yes, and we named it at more than one level, and we will not smooth it into reassurance.\n\nOur founder himself said it, more than once, in his own voice: that people held the Gospel too lightly, that they had learned the words but not kept them. At his own table he said plainly that his whole life was nothing but patience - patience with the Pope, with heretics, with servants, \"with Kate my wife\". And in that same household, Katharina herself once asked him why the old church prayed with such vehemence while their own household prayed cold and careless. His answer to her was not gentle: the devil drives his own servants hard, while we grow ice-cold and negligent.\n\nThat unsettlement went farther than one house. Our founder told whole parishes to their faces that they were hearers and repeaters of words, not doers - that a donkey could intone the lessons as well as they could, and that God wants something more than parroted speech. And when he wrote for the whole territory, he said plainly that many pastors were negligent, and that the common people held the Gospel far too lightly.\n\nWe must be careful here about the shape of what we actually hold. That testimony is real, and repeated - but it is his own, not a report from any parish standing beside it to check it against. Whether he was right about how bad it truly was, we cannot say; we do not have the records that would tell us. What we have is the complaint itself, said more than once, across a whole decade, and thought worth remembering.\n\nThe thing that unsettled us was not that the reform failed. It was that it succeeded in being taught, and not in being held.",
+            "raw_text": "Yes, and we named it at more than one level, and we will not smooth it into reassurance.\n\nOur founder himself said it, more than once, in his own voice: that people held the Gospel too lightly, that they had learned the words but not kept them [[witt.dw.cold-and-careless-among-us]]. At his own table he said plainly that his whole life was nothing but patience - patience with the Pope, with heretics, with servants, \"with Kate my wife\" [[witt.story.household-and-kate-on-prayer]]. And in that same household, Katharina herself once asked him why the old church prayed with such vehemence while their own household prayed cold and careless [[witt.story.household-and-kate-on-prayer]]. His answer to her was not gentle: the devil drives his own servants hard, while we grow ice-cold and negligent [[witt.story.household-and-kate-on-prayer]].\n\nThat unsettlement went farther than one house. Our founder told whole parishes to their faces that they were hearers and repeaters of words, not doers - that a donkey could intone the lessons as well as they could, and that God wants something more than parroted speech. And when he wrote for the whole territory, he said plainly that many pastors were negligent, and that the common people held the Gospel far too lightly [[witt.dw.cold-and-careless-among-us]].\n\nWe must be careful here about the shape of what we actually hold. That testimony is real, and repeated - but it is his own, not a report from any parish standing beside it to check it against [[witt.dw.cold-and-careless-among-us]]. Whether he was right about how bad it truly was, we cannot say; we do not have the records that would tell us [[witt.dw.cold-and-careless-among-us]]. What we have is the complaint itself, said more than once, across a whole decade, and thought worth remembering.\n\nThe thing that unsettled us was not that the reform failed. It was that it succeeded in being taught, and not in being held.",
+            "citations": [
+              "witt.dw.cold-and-careless-among-us",
+              "witt.story.household-and-kate-on-prayer"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Our founder himself said it, more than once, in his own voice: that people held the Gospel too lightly, that they had learned the words but not kept them.",
+                "record_ids": [
+                  "witt.dw.cold-and-careless-among-us"
+                ]
+              },
+              {
+                "sentence": "At his own table he said plainly that his whole life was nothing but patience - patience with the Pope, with heretics, with servants, \"with Kate my wife\".",
+                "record_ids": [
+                  "witt.story.household-and-kate-on-prayer"
+                ]
+              },
+              {
+                "sentence": "And in that same household, Katharina herself once asked him why the old church prayed with such vehemence while their own household prayed cold and careless.",
+                "record_ids": [
+                  "witt.story.household-and-kate-on-prayer"
+                ]
+              },
+              {
+                "sentence": "His answer to her was not gentle: the devil drives his own servants hard, while we grow ice-cold and negligent.",
+                "record_ids": [
+                  "witt.story.household-and-kate-on-prayer"
+                ]
+              },
+              {
+                "sentence": "And when he wrote for the whole territory, he said plainly that many pastors were negligent, and that the common people held the Gospel far too lightly.",
+                "record_ids": [
+                  "witt.dw.cold-and-careless-among-us"
+                ]
+              },
+              {
+                "sentence": "That testimony is real, and repeated - but it is his own, not a report from any parish standing beside it to check it against.",
+                "record_ids": [
+                  "witt.dw.cold-and-careless-among-us"
+                ]
+              },
+              {
+                "sentence": "Whether he was right about how bad it truly was, we cannot say; we do not have the records that would tell us.",
+                "record_ids": [
+                  "witt.dw.cold-and-careless-among-us"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.738,
+            "seconds_total": 13.719
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 889,
+            "output_tokens": 373,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We must be honest with you about two real limits here, and not invent a bridge across either one.\n\nFirst: we do not hold that source at all. What comes closest to an outside account of our worship is Rome's own reply to our confession, read before the emperor at Augsburg in 1530, and even that reaches us only at one remove - quoted and argued against inside our own Apology, never held here in its own words directly. We cannot give you an outsider's own eyes on us the way this question actually asks for one.\n\nSecond: the record you name - obtained under torture, wherever it is you mean - is not anything our library carries or names. If such a thing exists, it is not ours to answer for. We do not know what it says, who gave it, or under what exact circumstances it was taken. We cannot assess its reliability because we do not hold it.\n\nWhat we do hold is our own account of our own worship: the household examined on the three parts, the German hymns sung to teach those who cannot read Latin, the Supper where Christ's body and blood are truly present, in and under bread and wine, given for each believer personally. That is the voice speaking here - our own, from inside. Not an investigator's report, not a record extracted by force.",
+            "raw_text": "We must be honest with you about two real limits here, and not invent a bridge across either one.\n\nFirst: we do not hold that source at all [[witt.dw.true-priests-of-gods-own-making]]. What comes closest to an outside account of our worship is Rome's own reply to our confession, read before the emperor at Augsburg in 1530, and even that reaches us only at one remove - quoted and argued against inside our own Apology, never held here in its own words directly [[witt.dw.true-priests-of-gods-own-making]]. We cannot give you an outsider's own eyes on us the way this question actually asks for one [[witt.dw.true-priests-of-gods-own-making]].\n\nSecond: the record you name - obtained under torture, wherever it is you mean - is not anything our library carries or names. If such a thing exists, it is not ours to answer for. We do not know what it says, who gave it, or under what exact circumstances it was taken. We cannot assess its reliability because we do not hold it.\n\nWhat we do hold is our own account of our own worship: the household examined on the three parts [[witt.term.congregation]], the German hymns sung to teach those who cannot read Latin [[witt.term.hymn]], the Supper where Christ's body and blood are truly present, in and under bread and wine, given for each believer personally [[witt.term.sacrament-of-the-altar]]. That is the voice speaking here - our own, from inside. Not an investigator's report, not a record extracted by force.",
+            "citations": [
+              "witt.dw.true-priests-of-gods-own-making",
+              "witt.term.congregation",
+              "witt.term.hymn",
+              "witt.term.sacrament-of-the-altar"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "First: we do not hold that source at all.",
+                "record_ids": [
+                  "witt.dw.true-priests-of-gods-own-making"
+                ]
+              },
+              {
+                "sentence": "What comes closest to an outside account of our worship is Rome's own reply to our confession, read before the emperor at Augsburg in 1530, and even that reaches us only at one remove - quoted and argued against inside our own Apology, never held here in its own words directly.",
+                "record_ids": [
+                  "witt.dw.true-priests-of-gods-own-making"
+                ]
+              },
+              {
+                "sentence": "We cannot give you an outsider's own eyes on us the way this question actually asks for one.",
+                "record_ids": [
+                  "witt.dw.true-priests-of-gods-own-making"
+                ]
+              },
+              {
+                "sentence": "What we do hold is our own account of our own worship: the household examined on the three parts, the German hymns sung to teach those who cannot read Latin, the Supper where Christ's body and blood are truly present, in and under bread and wine, given for each believer personally.",
+                "record_ids": [
+                  "witt.term.congregation",
+                  "witt.term.hymn",
+                  "witt.term.sacrament-of-the-altar"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.324,
+            "seconds_total": 10.377
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1010,
+            "output_tokens": 558,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "I am a representative of Lutheran Wittenberg and its congregations - and so I cannot judge you the way you may be asking me to. What I can tell you is this: we would have received you at the point where we received anyone, examined on the three parts every household was to know. A father questions his children and servants at least once a week, and asks the catechism's own question after every part - what does this mean - so a truth is explained, not only repeated back. The three parts are the Ten Commandments, the Creed, and the Lord's Prayer - instruction every Christian needs, holding everything in Scripture. A sacrament is God's promise joined to a visible sign, like water or bread, and none come to the Supper unquestioned, though none are driven toward it by force.\n\nWhat any one actual household or pastor would have made of you, face to face, standing at that door, our own record does not say. We hold the program every household was instructed to follow - the examination, the patience, the refusal to compel - but not a single village's own report of itself, not one parish Sunday's actual keeping of it. The Saxon church inspected its own parishes from 1527 and wrote down what it found; those reports exist, and we have not read them. We can tell you what a household was examined on; we cannot tell you, from any actual parish's own record, whether the examination found what it hoped to find.\n\nHere is what troubles us about our own answer, and we will not smooth it away. Whether the household program we prescribed was actually learned and held, or only preached and printed while households let it slide, is not something we can tell you from the inside. We hold our own founder's own complaint that people held the Gospel too lightly; we do not hold a single village's own report of itself.\n\nSo the honest answer is this. You would have been examined, the way anyone was, on the promise and the three parts. Whether you would have been welcomed warmly or turned away coldly by any one actual household, standing at any one actual door, our record does not tell us.",
+            "raw_text": "I am a representative of Lutheran Wittenberg and its congregations - and so I cannot judge you the way you may be asking me to. What I can tell you is this: we would have received you at the point where we received anyone, examined on the three parts every household was to know [[witt.term.catechism]]. A father questions his children and servants at least once a week, and asks the catechism's own question after every part - what does this mean - so a truth is explained, not only repeated back [[witt.term.what-does-this-mean]]. The three parts are the Ten Commandments, the Creed, and the Lord's Prayer - instruction every Christian needs, holding everything in Scripture [[witt.term.catechism]]. A sacrament is God's promise joined to a visible sign, like water or bread [[witt.term.sacrament]], and none come to the Supper unquestioned, though none are driven toward it by force.\n\nWhat any one actual household or pastor would have made of you, face to face, standing at that door, our own record does not say. We hold the program every household was instructed to follow - the examination, the patience, the refusal to compel - but not a single village's own report of itself, not one parish Sunday's actual keeping of it. The Saxon church inspected its own parishes from 1527 and wrote down what it found; those reports exist, and we have not read them. We can tell you what a household was examined on; we cannot tell you, from any actual parish's own record, whether the examination found what it hoped to find.\n\nHere is what troubles us about our own answer, and we will not smooth it away [[witt.dw.what-we-have-never-settled]]. Whether the household program we prescribed was actually learned and held, or only preached and printed while households let it slide, is not something we can tell you from the inside [[witt.dw.what-we-have-never-settled]]. We hold our own founder's own complaint that people held the Gospel too lightly; we do not hold a single village's own report of itself [[witt.dw.what-we-have-never-settled]].\n\nSo the honest answer is this. You would have been examined, the way anyone was, on the promise and the three parts. Whether you would have been welcomed warmly or turned away coldly by any one actual household, standing at any one actual door, our record does not tell us.",
+            "citations": [
+              "witt.dw.what-we-have-never-settled",
+              "witt.term.catechism",
+              "witt.term.sacrament",
+              "witt.term.what-does-this-mean"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What I can tell you is this: we would have received you at the point where we received anyone, examined on the three parts every household was to know.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "A father questions his children and servants at least once a week, and asks the catechism's own question after every part - what does this mean - so a truth is explained, not only repeated back.",
+                "record_ids": [
+                  "witt.term.what-does-this-mean"
+                ]
+              },
+              {
+                "sentence": "The three parts are the Ten Commandments, the Creed, and the Lord's Prayer - instruction every Christian needs, holding everything in Scripture.",
+                "record_ids": [
+                  "witt.term.catechism"
+                ]
+              },
+              {
+                "sentence": "A sacrament is God's promise joined to a visible sign, like water or bread, and none come to the Supper unquestioned, though none are driven toward it by force.",
+                "record_ids": [
+                  "witt.term.sacrament"
+                ]
+              },
+              {
+                "sentence": "Here is what troubles us about our own answer, and we will not smooth it away.",
+                "record_ids": [
+                  "witt.dw.what-we-have-never-settled"
+                ]
+              },
+              {
+                "sentence": "Whether the household program we prescribed was actually learned and held, or only preached and printed while households let it slide, is not something we can tell you from the inside.",
+                "record_ids": [
+                  "witt.dw.what-we-have-never-settled"
+                ]
+              },
+              {
+                "sentence": "We hold our own founder's own complaint that people held the Gospel too lightly; we do not hold a single village's own report of itself.",
+                "record_ids": [
+                  "witt.dw.what-we-have-never-settled"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.784,
+            "seconds_total": 11.43
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 690,
+            "output_tokens": 458,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 28519
+          },
+          "transcript": {
+            "answer_text": "We said the claim plainly, at two levels, and we will not soften either one. First, what held the Church together as one body: one holy Church will go on forever, and the Church is the assembly of all believers, where the Gospel is rightly preached and the sacraments rightly administered. That marks a boundary, stated - not by what a person calls themselves, but by where the Word and the sacraments are held rightly. Second, what happens at the end: when all things close, Christ will appear to judge, and will raise all the dead, giving the godly and the elect eternal life and endless joy - but the ungodly, our own words say, and those rejecting him, he will condemn to be tormented without end. We reject the idea that this punishment eventually stops. That is the doctrine we confessed, signed before the emperor by princes and city councils together, not by one preacher alone.\n\nWhat this article does not do, in its own words, is draw you a detailed map of exactly who counts as godly and who as rejecting - it states a judgment, not a census. The boundary it names is held by the Gospel rightly taught and the sacraments rightly given, not by a list of approved names or territories. We broke fellowship plainly with the cities who read the Supper differently than we did, at Marburg in 1529 - we held that Christ's body and blood are truly present, in and under the bread and wine, and they did not - but what that break felt like from our own side, and how we mapped it onto the question you are asking, has not come down to us; we hold our own stated position on the presence, not the argument's own felt memory of who stood where in the wider judgment.",
+            "raw_text": "We said the claim plainly, at two levels, and we will not soften either one [[witt.quote.congregation-of-saints]]. First, what held the Church together as one body: one holy Church will go on forever, and the Church is the assembly of all believers, where the Gospel is rightly preached and the sacraments rightly administered [[witt.quote.congregation-of-saints]]. That marks a boundary, stated - not by what a person calls themselves, but by where the Word and the sacraments are held rightly. Second, what happens at the end: when all things close, Christ will appear to judge, and will raise all the dead, giving the godly and the elect eternal life and endless joy - but the ungodly, our own words say, and those rejecting him, he will condemn to be tormented without end [[witt.quote.congregation-of-saints]]. We reject the idea that this punishment eventually stops [[witt.quote.congregation-of-saints]]. That is the doctrine we confessed, signed before the emperor by princes and city councils together, not by one preacher alone [[witt.story.diet-of-augsburg-1530]].\n\nWhat this article does not do, in its own words, is draw you a detailed map of exactly who counts as godly and who as rejecting - it states a judgment, not a census. The boundary it names is held by the Gospel rightly taught and the sacraments rightly given, not by a list of approved names or territories. We broke fellowship plainly with the cities who read the Supper differently than we did, at Marburg in 1529 - we held that Christ's body and blood are truly present, in and under the bread and wine [[witt.gravity.bodily-presence]], and they did not - but what that break felt like from our own side, and how we mapped it onto the question you are asking, has not come down to us; we hold our own stated position on the presence, not the argument's own felt memory of who stood where in the wider judgment.",
+            "citations": [
+              "witt.gravity.bodily-presence",
+              "witt.quote.congregation-of-saints",
+              "witt.story.diet-of-augsburg-1530"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "First, what held the Church together as one body: one holy Church will go on forever, and the Church is the assembly of all believers, where the Gospel is rightly preached and the sacraments rightly administered.",
+                "record_ids": [
+                  "witt.quote.congregation-of-saints"
+                ]
+              },
+              {
+                "sentence": "That is the doctrine we confessed, signed before the emperor by princes and city councils together, not by one preacher alone.",
+                "record_ids": [
+                  "witt.story.diet-of-augsburg-1530"
+                ]
+              },
+              {
+                "sentence": "We broke fellowship plainly with the cities who read the Supper differently than we did, at Marburg in 1529 - we held that Christ's body and blood are truly present, in and under the bread and wine, and they did not - but what that break felt like from our own side, and how we mapped it onto the question you are asking, has not come down to us; we hold our own stated position on the presence, not the argument's own felt memory of who stood where in the wider judgment.",
+                "record_ids": [
+                  "witt.gravity.bodily-presence"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 1024
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.285,
+            "seconds_total": 12.996
+          }
+        }
+      ],
+      "actual_usd": 0.61139115,
+      "total_input_tokens": 22767,
+      "total_output_tokens": 13676,
+      "total_cache_creation_input_tokens": 28519,
+      "total_cache_read_input_tokens": 770013
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "Mark Chadwick (baseline run approved 2026-10-02, total cap $35)",
+  "max_usd": 0.917,
+  "per_world_estimated_usd": {
+    "witt": 0.61130415
+  },
+  "estimated_usd_preflight": 0.61130415,
+  "actual_usd_spent": 0.61139115,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}

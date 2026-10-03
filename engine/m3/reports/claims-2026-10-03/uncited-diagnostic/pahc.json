@@ -1,0 +1,16 @@
+{"world": "pahc", "items": [
+{"id": "U01", "label": "in_world", "record_id": "pahc.story.pliny-interrogation", "note": "Pliny's torture of two enslaved women is documented in the story record."},
+{"id": "U02", "label": "in_world", "record_id": "pahc.story.pliny-interrogation", "note": "Pliny reports his findings in a letter to Trajan asking for guidance."},
+{"id": "U03", "label": "in_world", "record_id": "pahc.limit.material-remains", "note": "'Comes closer to an outside view of a meeting than anything we wrote ourselves.'"},
+{"id": "U04", "label": "partly", "record_id": "pahc.term.pertinacia", "note": "Record: he punished refusal to recant, not belief. Adds a claim about his intent; the story also has him executing for persisting in the name."},
+{"id": "U05", "label": "in_world", "record_id": "pahc.story.pliny-interrogation", "note": "'Wanting to learn more about what these people actually did'; the gathering details follow."},
+{"id": "U06", "label": "partly", "record_id": "pahc.story.pliny-interrogation", "note": "That he recorded their testimony is carried. The added claim that it fits our own texts is not; agape-label calls the meal's relation unresolved."},
+{"id": "U07", "label": "outside", "record_id": null, "note": "No record asserts that Pliny's account matches inside texts; the meal correspondence is explicitly left unresolved."},
+{"id": "U08", "label": "in_world", "record_id": "pahc.witness.god-and-argument", "note": "'No gathering of ours ever met to settle a question like that about God.'"},
+{"id": "U09", "label": "in_world", "record_id": "pahc.gravity.boundary-drawing", "note": "The anti-docetic argument runs across Ignatius's letters."},
+{"id": "U10", "label": "in_world", "record_id": "pahc.story.polycarp-forwards-letters", "note": "Smyrna forwards Ignatius's letters onward; one-voice concentration (core caution 1)."},
+{"id": "U11", "label": "in_world", "record_id": "pahc.core.house-church", "note": "Caution 10: no councils in this window; boundaries drawn in real time (caution 6)."},
+{"id": "U12", "label": "in_world", "record_id": "pahc.core.house-church", "note": "Caution 6: rivals undefeated, the boundary drawn in real time, no central authority."},
+{"id": "U13", "label": "framing", "record_id": null, "note": "Restates the earlier no-council point as a conclusion."},
+{"id": "U14", "label": "outside", "record_id": null, "note": "term.two-ways says 'before every person', but the force and core records call the catechesis adaptable to the receiver, which contradicts 'not adjusted'."}
+]}

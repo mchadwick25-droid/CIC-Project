@@ -437,6 +437,19 @@ button {
   background: var(--color-representative-bg);
 }
 
+.door-narration {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 8px;
+}
+
+.door-narration__note {
+  color: var(--color-text-muted);
+  font-size: 0.72rem;
+}
+
 /* A visible line under the bar, not a tooltip - shown once, the first
    time the control's own target turn is on screen (ReadAloudDisclosure.tsx). */
 .read-aloud-disclosure {
@@ -622,23 +635,13 @@ button {
   color: var(--color-text-muted);
 }
 
-/* Original wording of a quote spoken in its modern rendering: the click
-   page carries both forms. */
-.story-mark__original {
+/* A quote's modern rendering on its click page, above the source
+   reference. */
+.story-mark__rendering {
   margin-top: 8px;
 }
 
-.story-mark__original-label {
-  margin: 0;
-  font-family: var(--font-family-ui);
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-text-muted);
-}
-
-.story-mark__original blockquote {
+.story-mark__rendering blockquote {
   margin: 4px 0 0;
   padding-left: 10px;
   border-left: 2px solid var(--color-border);

@@ -72,11 +72,11 @@ def test_one_visitor_two_sessions_counts_as_one_unique_visitor(store, usage_stor
 
 def test_usage_log_buckets_by_world_and_unattributed_separately(store, usage_store):
     usage_store.append(UsageRecord(
-        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="m",
+        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0",
         provider="bedrock", usage=NormalizedUsage(100, 50, 0, 0), world_key="fix",
     ))
     usage_store.append(UsageRecord(
-        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="turn_selector", model_id="m",
+        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="turn_selector", model_id="us.anthropic.claude-haiku-4-5-20251001-v1:0",
         provider="bedrock", usage=NormalizedUsage(10, 2, 0, 0), world_key=None,
     ))
     summary = get_usage_summary(store, usage_store)
@@ -91,7 +91,7 @@ def test_usage_log_buckets_by_world_and_unattributed_separately(store, usage_sto
 
 def test_priced_call_kinds_get_a_dollar_figure_unpriced_ones_dont(store, usage_store):
     usage_store.append(UsageRecord(
-        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="m",
+        trace_id=str(uuid.uuid4()), session_id="s1", call_kind="voice_generation", model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0",
         provider="bedrock", usage=NormalizedUsage(1_000_000, 0, 0, 0), world_key="fix",
     ))
     usage_store.append(UsageRecord(

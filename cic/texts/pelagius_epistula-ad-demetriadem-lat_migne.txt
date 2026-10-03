@@ -1,0 +1,1795 @@
+     ______________________________________________________________________
+
+          Title: Epistola I: Ad Demetriadem (in Patrologiae Cursus Completus, Series
+                  Latina, Tomus XXX - printed among the spuria attributed to Jerome)
+     Creator(s): Pelagius (c. 354-c. 418 CE)
+                 J.-P. Migne (General editor/compiler of this Patrologia Latina
+                  reprint)
+    Print Basis: Paris: Migne, Patrologiae Cursus Completus, Series Latina, Tomus XXX,
+                  1846
+         Rights: Public Domain
+       Language: lat
+   Rights Basis: The Migne Patrologia Latina series was compiled and printed in the
+                  1840s-1850s, over 170 years before this session (2026) - the same PD-
+                  by-date basis already accepted in this corpus for other Migne PL
+                  volumes (e.g. pl11-zeno-optatus-collatio-carthaginiensis_migne.txt).
+Source Collection: Internet Archive (archive.org), identifier
+                  patrologiae_cursus_completus_lat_vol_030
+   Content note: PARTIAL EXTRACT: this file contains only the editorial "Monitum in
+                  epistolam sequentem" and Epistola I (Ad Demetriadem) - raw-scan lines
+                  407-2164 of the full ~79,941-line volume - not the whole Migne PL 30
+                  volume, which is a large multi-work anthology (mostly Jerome's own
+                  genuine and spurious works) unrelated to Pelagius beyond this one
+                  letter. The Monitum itself explains the letter's own attribution
+                  history: long wrongly transmitted as Jerome's, but identified as
+                  Pelagius's own work (citing Augustine, De Gratia Christi, and
+                  Orosius). Latin text only, no English translation in this edition.
+     ______________________________________________________________________
+
+NOTE ON THIS TRANSCRIPTION: the source is a raw OCR (djvu) text layer from
+a scanned physical volume, not a clean digital edition. Runs of 2+ spaces
+between words (a systematic OCR-layout artifact of the scan, not a feature
+of the printed text) have been collapsed to single spaces throughout; no
+word, spelling, or punctuation has been altered. OCR misreads may remain
+uncorrected elsewhere in the file; any passage this build quotes verbatim
+has been checked by eye against this file directly, not assumed correct
+from the OCR alone.
+
+PARS PRIMA. - EPISTOLAS. 
+
+
+MONITUM IN EPISTOLAM SEQUENTEM. 
+
+Diu nutilumqua est , quod magno Hieronymo htee Hunc, inqutt , librum nonnulli notum studiose le- 
+rjus , ut magis mirer e, nequissimi hostis Pelagii epi- gentes , s.incii el catholici doctoris Hieronymi esse 
+stola , sire liber ascribitur. Btda Com. in Cantica : (emere arbitrantur, minime pervidentes , quod et 
+
+
+Digitized by v^.ooQle 
+
+
+45 
+
+
+S. HIERONYMI OPERUM MANTISSA. 
+
+
+16 
+
+
+suavitas eloquenti» demulcentis , et haereseos per- 
+versitas seducentis manifeste probant, hoc illius opu- 
+sculum non esse. Satis equidem erudite , nam et sty - 
+lus palam arguit non esse Hieronymi , et quod conti - 
+henter insinuat haereticum dogma illud ipsum est 
+Pelaqianorum, quod S. Pater proprio Opere , locis ex 
+hac tpsa scriptione indicatis , subvertit . Hac certe de 
+causa aliis atque aliis ex illa haereticorum factione 
+scriptoribus tributa subinde est : et cumprimis Ju- 
+liano ; ut dudum laudatus Beda existimabat , et non- 
+nulli codices mss., e quibus vetustior unus Bibliothecae 
+S. Victoris, asserunt, tum Ccelestio, cujus nomen Mar- 
+tia netus testatur in aliis , quos laudat , antiquis libris 
+praescriptum invenisse . Verum , quod dicebamus, ex 
+ipsiusmet Pelagii calamo projecta est : idque certo 
+scire licet ex Augustini lib. de Gratia Christi , cap. 
+20 et seqq ., et luculentius ex ejusdem libri cap . 37, quo 
+loco se auctorem ipse declarat Pelagius in suis ad In- 
+nocentium litteris scribens : Legant, quam ad sacraro 
+Christi virginem Demetriadem in Oriente conscrip- 
+simus, et invenient nos ita hominis laudare naturam, 
+ut Dei semper grati» addamus auxilium. Sunt et 
+quaedam ex hujusmel epistolae contextu sub cap. 1 fi- 
+nem , quae Pelagium in Epistola ad Constantium pro 
+suis agnovisse , idem Augustinus loco laudato scribit. 
+Orosius quoque ejus auctorem Pelagium facit : tantum 
+quod notat , fuisse illi verba ab alio suppeditata : ille 
+e ero alius facile fuerit Anianus pseudodiaconus Ce- 
+ledensis , ut Hieronymo dicitur epist. in nostra recen- 
+sione 143, qui, ait, copiosissime pascitur, ut alienae 
+blasphemi» verba frivola subministret. Scriptionis 
+tempus quod spectat, noalum ante nos PP.Bcnedi- 
+ctinis Augustinianorum operum editoribus, datam an. 
+413 , quo Demetriadi virginitatis velamen suscipienti 
+litteras miserunt certatim Hieronymus, Augustinus, 
+et Innocentius ? aut certe ann. 414, posteaquam illa se 
+Hornam recepisset ; id quod significare videtur Pela- 
+gius hic in cap. 23. Vide quce nos de vera Hierony - 
+miam illa ad Demetriadem Epistola , quce numerum 
+obtinet in nostra Editione 130 diximus. 
+
+EPISTOLA I. 
+
+PELAGII AD DEMETRIADEM. 
+
+Cap. I. — Si summo ingenio parique fretus scien- 
+tia, officium scribendi facile me implere posse crede- 
+rem ; tamen tam arduum hoc opus ingredi , sine 
+magno difficultatis timore non possem. Scribendum 
+tamen est ad Demetriadem virginem Christi , virgi- 
+nem nobilem, virginem divitem, et quod his majus 
+est, ardore Odei, nobilitatem divitiasque calcantem. 
+Quam utique, pro tam insignis [AI. insigni] admira- 
+tione virtutis, ut laudare omnibus facile, ita docere 
+difficile est. Cui enim oratio deesse possit in ejus 
+laude celebranda : quae summo loco nata, in summis 
+opibus deliciisque nutrita , tantis tamque variis hu- 
+jus vitae blandimentis, velut tenacissimis quibusdam 
+irretita vinculis , subito eruperit , cunctaque simul 
+corporis bona, animi virtute mutaverit? Quae florem 
+adhuc ipsum ineuntis aetatis , quodam fidei gladio. 
+Id est, voluntate quccideril? Et crucifigens cum 
+Christo carnem suam , vivam , sanctamque hostiam 
+sacraverit Deo , ac nobilissimi sanguinis posterita- 
+tem, virginitatis amore contempserit? Prona autem 
+et facilis dicendi via est, quae ipsa ubertate materi» 
+cursum orationis accendii : sed nobis alio magis iti- 
+nere pergendum est, quibus propositum est, institu- 
+tionem virginis, non laudem scribere : nec tam pa- 
+ratu jam virtutes ejus exprimere , quam parandas ; 
+
+
+l magisque reliquam ordinare vitam , quam ornare 
+praeteritam. Est autem difficillimum cum ejus per- 
+sona facere , in qua cupiditas tanta discendi est, 
+tanlusque perfectionis ardor, ut ei quamlibet per- 
+fecta doctrina par esse vix possit. Meminit enim 
+recteqoe meminit, quas mundi opes gloriamque re- 
+spuerit, quibus voluptatibus renuntiaverit, quas de* 
+nique contempserit vil» praesentis illecebras. Et 
+ideo contenta non est communi hoc mediocriquc 
+genere vivendi ; et quod facile ipsa multorum socie- 
+tate vilescat, novum aliquid et inusitatum requirit : 
+praecipuum ac singulare quoddam flagitat. Non mi- 
+nus conversationem suam quam conversionem cupit 
+esse mirabilem. In saeculo nobilis, apud Deum cupit 
+esse nobilior. Tam pretiosa requirit in moribus, 
+
+> quam contempsit in rebus. Hunc utique [AI. itaque] 
+tam devot» mentis ardorem, hanc tanl» perfectio* 
+nis sitim , quod umquam satiabit flumen ingenii ? 
+Qu» vis aliquando oraiionis, qu» copia tantum ver- 
+bis exprimere poterit, quantum parata est virgo re- 
+bus implere? Nobis vero donanda est venia , qui ad 
+ornandum Domini labernaculom, secundum vires no- 
+stras munus offerimus. Nec veremur ne temere scri- 
+bendo, ad tant» nobilitatis virginem, ultro nos mor- 
+sibus tradamus invidi». Scribimus enim petente 
+sancta matre ejus , immo jubente , idque a nobis 
+transmarinis litieris, miro cum desiderio animi fla- 
+gitante : qu» facile ostendit, quo studio quantaque 
+cura in (ilia germen coeleste plantaverit, dum illud 
+tam sollicite cupit ab aliis irrigari. Remoti igitur a 
+temeritate, et ab ambitione liberi, proposito insude- 
+mus operi. Nec de mediocritate diffidimus [AI. dif- 
+fidamus] ingenii , quod credimus , et fide matris, et 
+merito virginis adjuvari. 
+
+Cap. 11. — Quoties mihi de institutione morum, 
+et sanet» vitae conversatione dicendum e&t, soleo 
+prius liuman» natur» vim qualitatemque monstrare, 
+et quid effleere possit, ostendere : ac jam inde 
+audientis animum ad species incitare virtutum : ne 
+nihil prosit ad ea vocari, qu» forte sibi impossibilia 
+esse pr»sumpseril. Nequaquam enim [AI. pr»sen- 
+serit. Numquam enim] virtutum viam valemus in- 
+gredi, nisi spe ducamur comite. Siquidem appetendi 
+omnis conatus perit consequendi desperatione. 
+Quem ego exhortationis ordinem, cum in aliis qno- 
+l que Opusculis tenuerim , tunc hic maxime obser- 
+vandum puto : ubi eo plenius natur» bonum decla- 
+rari debet , quo instituenda est vita perfectior, ne 
+tanto remissior sit ad virtutem animus ac tardior, 
+quanto minus se posse credat : et dum quod inesso 
+sibi ignorat, id se existimat non habere. Proferenda 
+scroper in notitiam ea res est, cnjus usus desidera- 
+tur, et explicandum est, quidquid bonum natura po- 
+test, cum quidquid posse probatur, implendum est. 
+IIxc igitur prima sanet» ac spiritualis vil» funda- 
+menta jaciantur, ut vires suas virgo agnoscat : quas 
+demum bene exercere poterit , cum cas se habere 
+didicerit. Optima enim animi incitamenta sunt, 
+cum docetur aliquis posse quod cupiat. Nam et ia 
+
+
+Digitized by v^.ooQle 
+
+
+!7 PELAGII AD DEMETRIADEM EPISTOLA. Jft 
+
+bello ea exhortatio maxima est , eaque plurimum A tarii boni munere [AI. munire], et liberi arbitrii po- 
+
+auctoriiatis habet, quae pugnatorem de viribus suis testate donare : utriusque partis possibilitatem lio- 
+
+admonet. Primum itaque debes naturae humanae bo- mini inserendo, proprium ejus fecit esse quod velit, 
+
+num de ejus auctore metiri , Deo scilicet, qui cum ut boni ac mali capax naturaliter utrumque posset i 
+
+universa mundi, et quae intra mundum sunt, opera et ad alterutrum voluntatem deflecteret. Neque enim 
+
+bona, et valde bona fecisse referatur : quanto, putas, aliter spontaneum babere poterat bonum : nisi [At. 
+
+praestantiorem ipsum hominem fecit : propter quem nisi aeque etiam] ea creatura, quae etiam malum ha- 
+
+omnia etiam intelligitur illa condidisse ! Quem dum bcre potuisset. Utrumque nos posse voluit optimus 
+
+ad imaginem et similitudinem suam facere disponit Creator, sed unum facere, bonum scilicet, quod et 
+
+[AI. disposuit], antequam faciat, qualem sit [AI. es- imperavit: malique facultatem ad hoc tantum dedit, 
+
+set] facturus, ostendit. Deinde cum subjecit ei uni- ut voluntatem ejus ex nostra voluntate faceremus, 
+
+versa animalia : eumque etiam constituit eorum do- Quod cum ita sil, hoc quoque ipsum quod etiam mala 
+
+minum, quae vel mole corporis, vel virium mngnftu- facere possumus, bonum est. Bonum, inquam, quia 
+
+dine , vel armis dentium multo valentlora homine boni partem meliorem faeit. Facit enim ipsam rolun- 
+
+fecerit : satis declarat , quanto pulchrius sit homo tariarn sui juris : non necessitate devinctam, sed ju- 
+
+ipse conditus , quem vel ex hoc voluit naturas suae B dicio liberam. Licet quippe nobis eligere, refutare, 
+
+inleliigere dignitatem , dum fortia sibi subjecta mi- probare, respuere. Nec est quo magis rationabilis 
+
+ratur animalia. Neque eniin nudum illum , ac sine creatura exteris praeferatur, nisi quod cum omnia 
+
+prxsidio reliquit, nec diversis periculis velutexpo- alia conditionis tantum, ac necessitatis bonum ha- 
+
+suit infirmum. Sed quem inermem extrinsecus fece- beant, haec sola habeat etiam voluntatis. Sed plerique 
+
+rat , melius intus armavit : ratione scilicet atque impie, non minus quam imperite, cum super statu 
+
+prudentia , ut per intellectum vigoremque mentis, hominis quaeritur (vereor dicere), quasi repreben- 
+
+quo exteris prxstabat animalibus, factorem omnium dentes opus Domini, talem illum aiunt debuisse fleri, 
+
+solus agnosceret : et inde serviret Deo, unde aliis qui omnino facere non posset malum. Dicit itaque 
+
+dominabatur. Quem tamen justitiae * exsecutorem figmentum ei, qui se finxit : Quid me fecisti sic 
+
+Dominus voluntarium esso voluit, non coactum. Et ( Rom . ix)? Et improbissimi hominum, dum dissimu- 
+
+ideo reliquit eum in manu consilii sui ( Eccii . xv). lant idipsum bene administrare quod facti sunt : ol»- 
+
+Posuitque 'ante eum vitam et mortem , bonum et ter se factos fuisse malunt, ut qui vitam suam cmen- 
+
+malum< et quod placuerit ei, dabitur illi. Unde dare uolunt, videantur emendare velle naturam, 
+
+etiam in Deuteronomio legimus: Vitam et mortem Cujus bonum ita generaliter cunctis institutum est, 
+
+dedi ante facient tuam , benedictionem et maledictio - G ut in gentilibus quoque hominibus, qui sine ullo cultu 
+
+nem : elige tibi vitam , ut [AI. ei] vivas {Deuter. xxx). Dei sunt, se nonnumquam ostendat, ac proferat. 
+
+Cap. III. — llinc jam providendum est , ne forte b Quam mullos enim philosophorum et audivimus 
+
+illud remordeat tc, in quo temere imperitum vulgus et legimus, et ipsi vidimus castos, patientes, mode- 
+
+offendit. Et ideo non vere bonum factum hominem slos, liberales, abstinentes, benignos, et honores 
+
+putes, quia is facere malum potest : nec ipsa natura mundi simul, et delicias respuentes, et amatores ju- 
+
+violentia astringitur [AI. astringatur] ad immuta- slitix non minus quam scientia [AI. sapientia] ! Unde, 
+
+bilis boni necessitatem. Nam si diligenter retractes, quxso, hominibus alienis a Deo placent? Unde autem 
+
+ct ad subtiliorem intellectum cogas animum : hinc [AI. hxc] illis bona nisi de natura bono? c Et cum 
+
+tibi melior status hominis ac superior apparebit, ista qux dixi, vel omnia in uno, vel singula in sin- 
+ende putatur inferior. In hoc enim gemini itineris gulis haberi videamus, cum omnium natura una sit, 
+
+discrimine, in hac utriusque libertate partis, ratio- exemplo suo invicem sibi ostendunt, omnia in om- 
+
+na bilis anima decus positum est. Hinc, inquam, to- nibus esse posse, qua vel omnia in omnibus, vel sin- 
+
+tus natura nostra honor consistit : hinc dignitas, gula in singulis inveniantur. Quod si etiam sine Deo 
+hinc denique optimi quique laudem merentur, hinc homines ostendunt, quales a Deo facti sunt : vide 
+pramium. Nec esset omnino virtus ulla in bono per- D quid Christiani facere possunt, quorum in melius 
+
+severantis si is ad inalum transire non potuisset, per Christum natura et vita instructa est : et qui di- 
+
+Volens namque Deus rationabilem creaturam votiin- vina quoque gratia juvantur auxilio. 
+
+a Erasmus, eumque secutus Martian.cus , ro esse- ver it, hominibus et magna magnis9 et parva largitur 
+
+cutorem prxiermiltunt : quod verbum c* aliis libris parvulis. 
+
+suffecimus. c Reponit Beda hxc : Contradicit Scriptura , qnm 
+
+b Qua his, atque aliis infra responderunt S. Au- ait : Nec enim omnia possunt esse in omnibus , quoniam 
+
+gustinus, et Leo, nemo ignorat : placet vero uno non est filius hominis immortalis (Eccles. xvu, 29). 
+
+atterove loco speciminis gratia laudare Bedam : Qui - Ubi manifeste insinuatur , quia cum mortale hoc in- 
+
+cumque (inquit) philosophorum Christum Dei virtutem dueril immortalitatem , tunc demum possunt esse omnia 
+
+et Dei sapientiam nescierunt , hi nullam veram virtvtem9 in omnibus tona virtutum; et ne tunc quidem de natu- 
+
+nec ullam veram sapientiam habere potuerunt . Jnquan - ree bono , sed per gratiam ejus de quo scriptum est : Ut 
+
+tum vero vel gustum aliquem sapientia: cujus libet, vel sil Deus ouhia in omnibus. Sed et quotidiana nostra 
+
+virtutis imaginem habebant , totum hoc desuper ac ce- fragilitatis argumenta probant, non omnia in omnibus 
+perunt: non solum munere primee conditionis, rerum *esse posse, ubi tam multi inveniuntur , qui summa ni - 
+etiam quotidiana ejus gratia, qui ( creaturam suam nec lentes instantia, nequaquam ad eas, quas alios vident 
+se deserentem deserens) dona sua, prout ipse judica - habere, vz&um vervenire virtutes. 
+
+
+Digitized by 
+
+
+Google 
+
+
+19 S. HIERONYMI OPERUM MANTISSA. *0 
+
+Ckf. IV. — Age jam ad animae nostrae secreta ve- A ferret (Gen. v, 24). Noe justus in generatione sua , et 
+niamns : seipsum unusquisque attentius respiciat. In- perfectus , asseritur : cujus sanctitas co magis est ad- 
+terrogemus quid de hoc sentiant propriae cogitationes, mirabilis, quod, toto prorsus a justitia declinante 
+Ferat sententiam de naturae bono ipsa conscientia mundo, solus justus inventus est : nec ab alio sancti- 
+bona [AI. tacet bona]: instruamur domestico magis- talis quaesivit exemplum, sed ipse praebuit. Et ideo, 
+tcrio animi : et mentis bona non aliunde magis quae- totius orbis imminente naufragio, solus cx omnibus 
+que, quam ab ipsa mente discamus. Quid illud, ob- meruit audire : Intra tu et domus tua in arcam: quia 
+secro, est, quod ad omne peccatum, aut erubescimus, te vidi justum in generatione ista coram me. Ante 
+aut timemus : ct culpam facti, nunc rubore vultus, Deum autem ille justus probatur, qui et corpore 
+nunc pallore monstramus : ac trepidante animo, sanctus est et corde. Melchisedec sacerdos Dei Ic- 
+etiam in minimis deliciis testem effugimus; con- gitur (Gen. xiv, 18): cujus meritum facile cx lioc 
+scientia remordemur? ex diverso aulemin omni bono intelligi potest, quod inulto post futurum Domini sa- 
+lacti, constantes, intrepidi sumus; idque si occultum cramentum ante signavit : ac sacrificio panis et vini, 
+est, palam etiam fieri cupimus, et volumus : nisi mysterium corporis et sanguinis expressit : ac sa- 
+quod testimonio sibi est ipsa natura, quae hoc ipso cerdotii sui typo, CbrUli sacerdotium figuravit, cui 
+declarat bonum suum, quo ei malum displicet ; et B a Patre dicitur : Tu es sacerdos in aeternum secundum 
+
+
+dum in bono tantum opere confidit : quid solum eam 
+deceat, ostendit? Hinc est illud quod frequenter car- 
+nifice occulto, in auctorem sceleris, conscientiae tor- 
+menta desaeviunt: et latentem reum, secreta mentis 
+poena persequitur. Nec ullus post culpam impunitati 
+locus est, cutn sit [AI. fit] reatus ipse suppticium. 
+Hinc est quod ccontrario innocens etiam inter ipsa 
+tormenta fruitur conscientiae securitate : et cum de 
+poena metuat, de innocentia gloriatur. Est enim, in- 
+quam, in animis nostris naturalis quaedam (ut ita 
+dixerim) sanctitas: quae par velul in arce animi prae- 
+sidens, exercet mali bonique judicium : et ut ho- 
+nestis rectisque actibus favet : ita sinistra opera 
+condemnat, atque ad conscientiae testimonium di- 
+versas partes domestica quadam lege dijudicat. Nec 
+illo prorsus ingenio, aut fucato aliquo argumentorum 
+colore decipit : ipsis nos cogitationibus fidelissimis et 
+integerrimis sane testibus, aut arguit, aut defendit. 
+Hujus legis, scribens ad Romanos, meminit Apo- 
+stolus : quam omnibus hominibus [AI. tacet homi- 
+nibus] insitam velul in quibusdam tabulis cordis 
+scriptam esse, testatur : Cum enim , inquit, gentes, 
+quee legem non habent , naturaliter quae legis sunt , fa- 
+ciunt: hujuscemodi legem non habentes, ipsi sibi sunt 
+lex. Qui ostendunt opus legis scriptum in cordibus suis: 
+testimonium reddente eis conscientia eorum , et inter se 
+invicem accusantium cogitationum , aut etiam defen- 
+dentium [Hom. ii, 14, 15]. Hac lege usi suut omnes, 
+quos inter Adam atque Moysen sancte vixisse, atque 
+placuisse Deo, Scriptura commemorat. Quorum tibi, 
+exempli causa, aliqui proponendi sunt : ut facile in- 
+lelligas, quantum sit naturae bonum, cum eam legis 
+vice docuisse justitiam probaveris. 
+
+Gap. V. — Abel primus hanc magistram secutus, 
+ita Dominum promeruit, ut dum ei offerret hostiam, 
+tam grate sacrificium ejus acceptum Deo fuerit, ut 
+fratrem iu invidiam concitaret (Gen. xxiv, seq.). Qnem 
+justum in Evangelio Dominus ipse commemorans 
+(Matth. xxui, 35), breviter perfectionem ejus expo- 
+suit. Omnis enim virtutum species, uno justitiae no- 
+mine continetur. Beatum Enoch ita placuisse Deo 
+legimus, ut eum e medio mortalium raperet : et iu 
+mundo consummatum, do mundi habitatione trans- 
+
+
+ordinem Melchisedec (Psal. cix , 4). Nam el quod be- 
+nedicit Abraham principem Patriarcharum, qui per 
+circumcisiunetn pater Judaeorum est [AI. tacet est], 
+per fident gentium : illius signatissime ostendit figu- 
+ram, qui per fidem suam et Judaeis donavit benedic- 
+tionem et gentibus. Lot quoque, sancti Noe virtutem 
+secutus, inter tot peccantium exempla, justitiam non 
+reliquit. Et ut illum lotius mundi exemplum non 
+vicit : ita hic lota illa, in qua babitat [AI. habitabat], 
+regione peccante, contra multitudinis vilia tenuit 
+sanctitatem. Qui (ut beatus Petrus ait) visu et auditu 
+justus erat (11 Pelr. ii, 8) : et inter pessimos positus , 
+mala eorum et oculis aversabatur et auribus : atque 
+ideo simili exemplo , ut ille diluvio , ita hic est ereptus 
+incendio. 
+
+Quid Abraham amicum Dei, quid Isaac et Jacob 
+memorem ? Quam perfecte impleverint Domini 
+voluntatem , vel hinc possumus aestimare , quod 
+familiari quadam cl praecipua dignitate, eorum sc 
+Deum voluit nominari. Ego sum, inquit, Deus 
+Abraham , Deus Isaac , el [AL tacet et] Deus Jacob 
+(Matth. xxn, 32; Luc. xx, 37). Hoc nomen nieuui 
+sempiternum et memoriale in generationes genera- 
+tionum. Josepli fidelis Domini famulus a puero, tri- 
+bulationibus magis justus et perfectus ostenditur 
+[AI. magnis justus ostenditur] : qui primum a 
+fratribus, Ismaelilis, in servum addictus est (Gen. 
+xxxvii, 28) : ab eisque venditus, a quibus sc 
+videratadorandum. Deinde ASgyptio Domino traditus, 
+
+1 semper tamen ingenuam animae tenuit dignitatem : 
+docuitque exemplo suo, et servos et liberos in pec- 
+cando, non [AI. in non peccando; et non, ete .] con- 
+di lipnem cuiquam obesse, sed mentem. Hic, qu;cso, 
+remorare paulisper : et castum animum, sollicite, 
+virgo, considera. Concupiscitur a domina [AI. ad. fe- 
+mina] Joseph adolescens : nec ad concupiscentiam 
+provocatur: rogatur, ct fugit. Una hac in re et blan- 
+ditur et supplicat, quae in caeteris imperabat. Amor 
+[Aug. Amator] Dei, mulieris amore non vincitur. 
+Castum animum, nec aetas adoloscentiae permovet, 
+nec diligentis auctoritas. Contempla frequenter do- 
+miba, propiores adolescenti insidias tendit. In secreto 
+ac sine testibus, manu impudens apprehendit: ac 
+
+
+Digitized by v^.ooQle 
+
+
+2) PELAGII AD DEMETRIADEM EPISTOLA. 22 
+
+procacioribus verbis horiatur ad crimen. No bic A Et hoc non verbis tantam, sed ipsius quoque rebus 
+
+quidem vincitur, sed ut verba verbis, ita res rebus probavit : qui cum omnia perderet , non dolebat , 
+
+refert. Nam qui frequenter rogatus negaverat : nunc dicebat que per singula : Dominus dedit , Dominus ab - 
+
+comprehensus [Aug. astringitur] aufugit, et antequam stulit : sicut Domino placuit , ita factum est : sit no- 
+
+illud evangelicum diceretur : Qui viderit mulierem ad men Domini benedictum in saecula. Nudus exivi de 
+
+concupiscendum eam, jam moechatus est eam in cordi utero matris mem , nudus redeam illuc (Job. i, 2i ). 
+
+suo (Matth. v, 28) : ille non aspectu solum, sed ipso Quo enim affectu possideamus aliquid, docemus cum 
+
+pene complexu provocatus a femina, feminam non id amittimus : et cupiditatem froendi, carendi dolor 
+
+concupivit. Castitatis viriuiem hucusque mirata es: prodii ; quam qui in carendo non habuit, in possi- 
+
+nunc respice benignitatem. Priusquam Propheta di- dendo quonam modo habuit V 0 virum ante Evan- 
+
+ceret : Unusquisque malitiam proximi sui non remi - getium evangelicum, et apeetoiicum ante apostolica 
+
+niscatur in corde suo (Levit, xix, 18): ille pro odio prmeepta ! disoipulum apostolorum : qui aperiens 
+
+reddidit charitatem, et eum videret fratres suos, occultas divitias natura, et in medium proferens, 
+
+immo inimicos ex fratribus, cumque ab eis cognosci ex se quid omnes possimus, ostendit : docuitqne 
+
+vellet, dilectionis affectum pro dolore testatus est : quantus sit iUe thesaurus anima, quem nos sine usii 
+
+Deosculabatur singulos (Gen. xlv, 15); et irriguis fle - B possidemus : et quod proferre nolumus, nec liabere 
+
+
+tibus , paventium colla perfundens , odium fratrum 
+charitatis lacrgmis abluebat: quos tam vivo patre 
+quam mortuo, germano semper dilexit amore. Nec 
+recordatus est illum, in quo ob necem fuit dejectus, 
+laciim. Non cogitavit addictam germanitatem pretio, 
+sed pro malis bonum retribuens ( Rom. xii, 17), 
+aposiolicum praeceptum sub naluroe adhuc lege com- 
+plevit. 
+
+Cap. Vl. — Quid de beato Job dicam , famosissimo 
+illo athleta Dei : qui podt direptas opes , et funditus 
+deleta patrimonia : post filiorum ac filiarum uuum 
+subito interitum, ad ultimum proprio contra dia- 
+bolum corpore dimicavit (Job i, ii)? Aufereban- 
+tur omnia, qua extrinsecus possidebat, et extranea 
+bona repente decidebant, ut magis propria claresce- 
+rent [AI. clarescant]. Omuibus prorsus volui indu- * 
+mentis exuitur, ut expeditius ac fortius nudus trium- 
+phet, et hostem, quem ferendo damna ante supe- 
+raverat, rursus tolerando supplicia devincat. De quo 
+tale ipMus Domini testimonium est ; Numquid con- 
+siderasti puerum meum Job? Non est enim similis ei 
+quisquam in terris : horne sine querela , verus Dei cultor , 
+abstinens se ab omni malo (IbieL). Nec immerito. 
+Semper enim, ut ipse ait, tamquam tumentes super 
+sc fluctus, timebat Dominum, et prmsentim ejus 
+pondus ferre non poterat : nec audebat aliquando 
+couieinnere, quem semper adesse credebat ; dice- 
+baique : Securus sum , non emm reprehendit me cor 
+meum in omni vita tnea(Ibid. ). Qui antequam Do- 
+minus inimicos praeciperet esse diligendos , dicere 
+poterat : Si in malis inimici mei gavisus sum : si 
+dixi in corde meo , Bene factum est (Job xxxi, 52). 
+Necdum Evangelicum illud sonuerat : Omni petenti 
+te tribue (Luc. vi, 30), cl jam ille dicebat : Si exire 
+passus sum inopem januam meam sinu vacuo [Aug. 
+sine viatico]. Nondum legerat illud Apostoli: Domi- 
+ni, quod justum est et (equum , servis preestate 
+( Coi . iv, 1 ) : et confidens clamabat ad Dominum : 
+Si servo nocui, si ancillam lassi, omnia tu scis , Do- 
+mine. Priusquam idem Apostolus praeciperet diviti- 
+bus non sublime sapere, neque sperare in incerto di- 
+vitiarum (1 Tim. vi, 17) : sic habuit ille divitias m 
+se alibi divitem esse monstraret. In divitiis, inquit , 
+non confidebam , nec in lapide pretioso (Job . xxxv, 24). 
+
+
+nos credimus. 
+
+Cap. VII. — Post multa qum de natura diximus : 
+etiam sanctorum exemplis bonum ejus ostendimus , 
+ac probavimus. Et ne econtrario ad ejus culpam per- 
+tinere potetur, quod aliqoi iniqui fuerint, Scriptu- 
+rarum utar testimoniis, quae peccantes ubique cri- 
+mine voluntatis gravant, non excusant necessitate 
+naturae. In Genesi legi mos : Simeon et Levi fratres 
+* consummaverunt iniquitatem suam , ex volontate sua 
+(Gen. xlix, 0). Ad Jerusalem Dominus locutus est : 
+Propter quod ipsi dimiserunt viam meam , quam dedi 
+ante faciem eorum : et non exaudierunt vocem meam , 
+sed abierunt post voluntatem cordis sui mali. 
+(Jer. ix, 13). Et rursus idem propheta : Et peccastis 
+Beo, es non exaudistis vocem ejus, et in mandatis illius , 
+et in legitimis, et in testimoniis ejus ambulare noluis- 
+tis ( Ibid. xliv, 10). Per Isaiam quoque prophetam 
+Dominus locutus est : 81 volueritis et audieritis me, 
+qum sunt bona terree, manducabitis. Si autem nolueri- 
+tis , neque audieritis me : gladius vos consumet 
+(Lai. i, 19). Et rursum : Omnes vos occisioni deci- 
+detis: quia vocavi vos , et non exaudistis : locutus sum, 
+et neglexistis : et fecistis malum ante conspectum meum 
+[AL Domini], et qum nolebam , elegistis. Ipse quoquo 
+Dominus »n Evangelio ait : Jerusalem, Jerusalem , 
+qum occidis prophetas, et lapidas eos qui ad te missi 
+sunt : quoties volui congregare filios tuos, quemadmo- 
+dum gallina congregat pullos suos sub alis suist el no- 
+luisti (Matth. xxiii, 57 )! Ubi velie videmus et nolle, 
+eligere et refutare, ibi non vis naturae, sed libertas 
+iutclligitur voluntatis. Plena sunt utriusque Testa- 
+menti volumina hujuscemodi testimoniis : quibus 
+tam bonum omue quam malum , voluntarium sem- 
+per esse scribitur , quae nos modo brevitatis causa 
+omittimus : maxime cum sciamus te sacrae lectioni 
+deditam, de ipso uberius fonte potare. 
+
+Cap. Vin. — Neque vero nos ita defendimus na- 
+turae bonum, ut eam dicamus malum non posse fa- 
+cere, quam utique boni ac mali capacem etiam pro- 
+fitemur, sed ab hac cam tantummodo injuria vindi- 
+camus, ne ejus vitfo ad malum viduamur impelli , 
+qui nec bonum sine voluntate faciamus, ncc malum : 
+ct quibus liberum est tinum semper cx duobus age- 
+re, cum semper utrumque possimus. Unde enim alii 
+
+
+Digitized by v^.ooQle 
+
+
+23 S. HIERONYMI OPERUM MANTISSA. 2« 
+
+judicaturi sunt, alii judicandi : nisi quod in eadem A Cap. IX. — Et quoniam sufficienter de his, ut 
+
+
+natura aispar voluntas est : et quia cum omnes 
+idem possimus , diversa faciamus ? Itaque ut hoc 
+ipsum clarius lucere possit , aliqua exempla sunt 
+proferenda. Adam de paradiso ejicitur, Enoch de 
+mundo rapitur. In utroque Dominus libertatem ar- 
+bitrii ostendit. Ut enim placere poiuit ille qui deli- 
+quit : ita potuit peccare iste qui placuit. Non enim 
+a justo Deo aut ille puniri meruisset, aut hic eligi : 
+nisi uterque utrumque potuisset. Hoc de Cain et 
+Abel fratribus, hoc etiam de Jacob et Esau geminis 
+intelligendum est. Ac sciendum solam voluntatis 
+causam esse, cum in eadem natura merita diversa 
+sint. Exstinctum peccatis suis diluvio mundum, Noe 
+justus redarguit, et Sodomorum crimina Lot sancti- 
+tas judicavit. Nec illud est parvum argumentum ad 
+comprobandum naturae bonum , quod illi primi ho- 
+mines per tot annorum spatia , absque ulla admoni- 
+tione legis fuerunt : non utique quod Deo aliquando 
+creaturae suae cura non fuerit : sed quia se talem 
+sciebat hominum fecisse naturam, ut eis pro lege ad 
+exercendam justitiam sufficeret. Denique quamdiu 
+recentioris adhuc naturae usus viguit : nec humanae 
+rationi vclut quamdam caliginem , longus usus pec- 
+candi obduxit , sine lege dimissa est natura. Ad 
+quam Dominus nimiis jam vitiis obrutam, etquadain 
+ignorantiae rubigine infectam, limam legis admovit, 
+ut hujus frequenti admonitione expoliretur, et ad 
+suum posset redire fulgorem. Neque vero alia nobis 
+causa difficultatem benefaciendi [AI videndi] facit, 
+quam longa consuetudo vitiorum, quae nos infecit a G 
+parvo : paulatimque per multos corrupit annos, et 
+ita postea obligatos sibi et addictos tenet, ut vim 
+quodammodo videatur habere naturae. Omne il- 
+lud tempus, quo negligenter edocti , id est, ad 
+vitia eruditi sumus : quo mali etiam esse studui- 
+mus , cum ad incitamenta nequitiae , innocentia pro 
+stultitia duceretur : nunc nobis resistit , contra- 
+quc nos veuit : et novam voluntatem impugnat U6us 
+vetus ; et miramur cur nobis per otium atque desi- 
+dias nescientibus, etiam quasi ab alio sanctitas con- 
+feratur : qui nullam consuetudinem boni facimus , 
+cum malum tamdiu didicerimus ? Ilaec de naturae 
+bono cursim , quasi in alio opere dicta sint : quod 
+ideo a nobis faciendum fuil, ut tibi planiorem viam 
+ad perfectam justitiam sterneremus, quam eo facilius D 
+currere possis, quo in ea nihil asperum, nihil inac- 
+cessibile esse cognoveris. Nam si etiam ante legem, 
+ut diximus, et mulio ante Domini nostri Salvatoris 
+adventum juste quidam vixisse et sancte referantur 
+[AI. referuntur] : quanto magis post illustrationem 
+adventus ejus, nos id posse credendum est, qui in- 
+structi per Christi gratiam, et in meliorem hominem 
+renati sumus : qui sanguine ejus expiati atque mun- 
+dati, illiusque exemplo ad perfectam justitiam inci- 
+tati , meliores iliis esse debemus , qui ante legem 
+fuerunt : meliores etiam quam fuerunt sub lege, di- 
+cente Apostolo : Peccatum in vqbis jam non dominabitur. 
+Non enim estis sub lege , sed sub gratia ( floro . vi, 14). 
+
+
+puto , diximus : nunc instituamus perrectam virgi- 
+nem, quse ex utroque semper accensa, et naturae 
+simul et gratiae bonum morum sanctitate testetur. 
+Prima igitur virginis cura, primumque studium sit , 
+scire voluntatem Domini sui, et quid ei placeat, quid- 
+ve displiceat, diligenter inquirere, ut secundum 
+Apostolum rationabile beo reddat obsequium (Ibid. 
+xii, 1 ) : totumque vitae su n cursum ex ejus possit 
+ohlinare sententia. Impossibile est enim ei quem- 
+quam placere , cui quid placeat , ignorat : fierique 
+potest, ut etiam obsequendi volo offendat, cui quo- 
+modo obsequi debeat, ante non didicit. Et ut majus 
+e6t, voluntatem Domini facere quam nosse : ita 
+prius est nosse, quam facere. Illud enim merito 
+praecedit : hoc ordine. Unde Propheta dicit : Et tu, 
+Israel, noli ignorare . Et beatus Paulus : Qui autem 
+ignorat , ignorabitur . Idcmque alibi : Propterea nolite 
+fieri imprudentes , sed intelligentes , quee sit voluntas 
+Domini ( Ephes . v, 17 ). Initium obedientiae est quid 
+praecipiatur, velle cognoscere : et pars est obsequii 
+didicisse quid facias. Scito itaque in Scripturis divi- 
+nis, per quas solas potes plenam Dei intelligerc vo- 
+luntatem, prohiberi quaedam, concedi aliqua , non- 
+nulla suaderi. Prohibentur mala, praecipiuntur bona : 
+conceduntur media , perfecta suadentur. In duobus 
+illis quae priori loco sunt, peccatum omne concludi- 
+tur : in*utroque enim Dei continetur imperium. Et 
+non solum praecipere , sed et prohibere ipsum , ju- 
+bentis est. Generaliter namque omnibus mandatur 
+justitia : quam Salvator in Evangelio, breviter qui- 
+dem, sed plenissime comprehendens, ait : Quacum- 
+que vultis ut faciant vobis homines, haec et vos facite 
+illis (Matt. vii, 12) : hoc est, ut nihil mali infera- 
+mus aliis, sed praestemus omne, quod bonum est : 
+quia volumus hoc ab aliis in nos utrumque servari. 
+Haec sententia aequo jure praecepti universos tenet. 
+Nec ulli omnino transgredi licet, quod omnibus im- 
+peratum est : aper tusque contemptus Dei est, vel 
+facere prohibita, vel jussa non facere. Duo vero re- 
+liqua, quae sequuntur : quorum unum conceditur, et 
+suadetur aliud, in nostra potestate dimissa sunt : ut 
+aut cum minori gloria concessis utamur, aut ob ma- 
+jus praemium etiam ea , quae nobis permissa sunt , 
+respuamus. Conceduntur quidem nuptiae , carnium 
+1 usus et vini : sed horum omnium abstinentia, con- 
+silio perfectiore suadetur. Ad virginitatis honorem 
+pertinet licentia nuptiarum : et escarum indulgentia 
+virtutem abstinentiae clariorem facit. Contempsisti , 
+virgo, conjugium licitum tibi, priusquam contemne- 
+retur. Majoris praemii amore flagrans , vovisti Deo 
+non imperatam, sed laudatam virginitatem : et con- 
+silio Apostoli , legem tuam fecisti latiorem. Certa- 
+minis ingressa campum : non tam laborem cursus , 
+quam bravium victoriae cogitasti. Legeras, credo, 
+illud evangelicum de perpetua castitate praeconium : 
+et ipsius te Domini sermo ad amorem servandae vir- 
+ginitatis accenderat, qui Petri super hoc sententiam, 
+ipsa rei magnitudine ac difficultate laudavit : et vo- 
+
+
+Digitized by v^.ooQle 
+
+
+35 PELAGII AD DEMETRIADEM EPISTOLA. 3« 
+
+lunlariis spadonibus regnum coelorum promittens , A ipse ait : Multi dicent mihi in illa die : Domine , Do- 
+ait: Qui potest capere , capiat ( Matth. xix, 13). Rem mine, nonne in nomine tuo dcemonia ejecimus ? et in 
+itaque tam magnam non impero , non impono, sed nomine tuo virtutes multas fecimus? et tunc confitebor 
+
+offero. Neque quemquam ad hoc cogo, sed provoco, illis : Arnen dico vobis , nescio vos, discedite a me om- 
+
+Quamquam de viris tantum sonare videatur, non solis nes , qui operamini iniquitatem ( Luc. xin, 36, 37). 
+
+tamen viris dicitur, sed aequalis utrique sexui virgi- Tibi vero longe est alia via ingrediendum, quae, sac- 
+
+nitaiis palma promittitur. Et Apostolus de virginibus culi amore calcato, semper cogitando quae Dei sunt, 
+
+praeceptum quidem se dicit non habere Domini apostolicam te exhibere vis virginem, quae tam spi- 
+
+[AI. Dei], sed dat consilium. Dicit itaque : An expe- ritu sancta quam corpore, Domini praestolaris ad- 
+
+ri mentum quaeritis ejus , qui in me loquitur Christus ventum : et animae tuae lampadi, sanctorum jugiter 
+
+(II Cor. xiii, 5)? operum infundis oleum, et sapientibus juncta virgi- 
+
+Gap. X. — Perfectionis igitur secuta consilium, nibus, in sponsi obviam praepararis. Fugienda tibi 
+
+beatitudinem specialis aggressa propositi, serva ge- lata illa via est, quam multorum ad mortem euntium 
+
+nerale mandatum. Dixi, idemque nunc repeto. In comitatus terit. Et ad vitam aeternam, angusti illius 
+
+causa justitiae omnes unum debemus : virgo, vidua, itineris, quod pauci reperiunt, callis tenendus est. 
+
+nupta, summus, medius, et imus gradus, aequaliter B Deposuisti jam impedimenta vel maxima, et omne 
+
+
+jubentor implere praecepta. Nec a lege solvitur, qui 
+supra legem facere proponit. Quinimmo nullus ma- 
+gis illicita vitare debet, quam qui respuit quae lice- 
+bant. Nec quisquam ita a se mandata pollicetur 
+implenda, ut ille qui amore perfectionis supra man- 
+data conscendit, et dum amplius statuit facere quam 
+praeceptum est, ostendit minus sibi praecepturo esse 
+quam potuerit. Deinde qui tantae se esse obedieutiae 
+profitetur, ut etiam consilium divinum libenter au- 
+diat, quomodo non debet audire praeceptum? Illa 
+eniin res electionis [Aug. perfectionis] est, ista ne- 
+cessitatis. De virginitate dicitur : Qui potest capere , 
+capiat (Matth. vit, 19). De justitia non dicitur : Qui 
+potest facere , faciat. Sed omnis arbor quee non facit 
+fructum bonum, excidetur9 et in ignem mittetur. Con- 
+sidera , quaeso, quantum a consilio distet imperium. 
+Ibi aliquos excipit : hic generaliter omnes com- 
+prehendit. Iui praemium proponit, Itic poenam. Ibi 
+invitat ut facias : hic nisi feceris, comminatur. Haec 
+igitur optima ratione distinguens, animadverte quid 
+offeras, animadverte quid debeas. Immo quia utrum- 
+que jam debes, et virginitatem, quam ultro obtulisti 
+Deo, et justitiam quam ipse praecepit, integrum 
+utrumque persolve! Ille servus Domino placet, qui 
+ita aliquid ultro operis exercet, ut tamen etiam im- 
+perata perficiat : qui non facit aliud pro alio, sed 
+utrumque : nec mutat, sed addit obsequium. Nec te 
+earum exempla decipiant, quae sibi in sola casti- 
+tate plaudentes, ut postsuas voluntates [Aug. volupta- 
+tes] eant, Det voluntatem abjiciunt. Quae perpetuae ca- 
+stitatis bonum non cum justitia, sed pro justitia offerre 
+volunt, et in compensatione peccatorum, praemium 
+virginitatis annumerant : atque pro praemio, impu- 
+nitatem petunt : vel certe impudentiori vecordia 
+coronandas esse se putant, et in regno coelorum 
+caeleris praeferendas, quae sibi mandatorum trans- 
+gressione aditum clausere regni coelorum. Non om- 
+nis, Christus inquit, qui dicit mihi, Domine , Domine9 
+intrabit m regnum caelorum : sed qui facit voluntatem 
+Patris mei, qm in caelis est , ipse intrabit in regnum cae- 
+lorum (Matth. vti, 31). Meminerint stultas virgines 
+a sponsi januis repellendas; dicendum eis : Nescio 
+vos : Illisque jungendas esse, de quibus Dominus 
+
+
+quidquid a spiritualis vita cursu, vel retardat, vel 
+revocat, prima staiim conversione vicisti. Respuisti 
+conjugii voluptatem, posteritatis coram, illecebras 
+deliciarum, saeculi pompam, divitiarum cupidinem, 
+et cum Paulo potes dicere : Mihi mundus crucifixus 
+est , et ego mundo ( Gal. vi, 14). Cujus tale principium 
+est, qualis debet esse perfectio? Hanc mihi tu virtu- 
+tem : hunc animum etiam in reliquis affer : eaqtte vi 
+mentis, qua vitiorum occasiones depulisti, vitia nunc 
+ipsa respue. Ornetur morum sanctitate virginitas, et 
+perfectum gradum vitae perfectio subsequatur. Certe 
+si saccularis vita tibi placuisset, dares operam, ne 
+quis te divitiis, ne quis corporalibus ornamentis, ne 
+quis rerum omnium pompa [Ai. copia ], et honore 
+! praecederet : nunc quoniam diversum studium [AI. 
+diversitas studiis] diversam vitam desiderat :cura, 
+ne quis te in bene vivendo transcendat : ne quis mo- 
+rum sanctitate superet : ne quis tibi in virtutibus 
+praeferatur. Et in illis, quae ante diximus, non erat 
+tuum, ut aul tu omnes vinceres, aut nemo te. Cun- 
+cta enim illa foris petuntur : cl quidquid aliunde 
+speratur, alienum est. Haec vero in tua potestate 
+sunt, et vere propria, quae ( non extrinsecus veniunt, 
+sed in ipso corde generantur. Illa enim, nec omnis, 
+qui quaerit, invenit; nec qui invenerit, semper tenet: 
+quia ut ea commodare, ita et eripere casus potest. 
+Haec autem et omnis qui quaerit, invenit : et qui in- 
+venerit, eripi sibi numquam limet. Ista enim sola 
+bona sunt : quae sine voluntate, nec invenimus ali- 
+quando, nec perdimus. 
+
+Cap. XI. — Habes ergo et hic per quae merito prae- 
+ponaris aliis, immo hic magis. Nam corporalis nobi- 
+. litas atque opulentia, tuorum intelliguntur esse, non 
+) tua. Spirituales vero divitias nullus tibi, praeter te, 
+conferre poterii. In his ergo jure laudanda es : in bis 
+merito caeleris praeferenda es : quae nisi ex te, et in 
+te esse non possunt. An sola ista vita e?t, quae cer- 
+tamen non habeat de profectu, et in qua unusquisque 
+hoc tantum debeat permanere quod coepit, nec ullo 
+augmenti desiderio ad majora contendat? Et cum in 
+omnibus mundi studiis, profectu non salientur ho- 
+mines, hic tantum coepisse sufficiet ? Ferventissiroi 
+in terrenis, frigidissimi in coelestibus sumus. Et 
+
+
+Digitized by v^.ooQle 
+
+
+37 S.. HIERONYMI OPERUM MANTISSA. 38 
+
+summam in retas parris exhibentes alacritatem, ad A conversionis, novus semper ardor accendat, et in 
+majora torpescimus. Considerare pudet, quantus sit tenera adhuc aetate facilius sancta conversationis 
+fervor in saculo , qua cura singula quxque studia usus inolescat. Quidquid in te primum institueris, 
+hominum quotidie ad perfectiora nitantur. Littera* hoc manebit, et ad initiorum tuorum regulam reli- 
+rum ardor nulla prorsus alate exstinguitur, immo qua vita decurret. Finis in ipso exordio cogitandas 
+(ut saecularis auctoris utar sententia ) ipsa magis ae* est. Qualis ad illum ultimum diem pervenire cupis, 
+tate inflammatur. Divitiarum amor insatiabilis est, nunc jam esse conare. Consuetudo est, qu® aut 
+
+expleri nescit honorum cupido. Celerem habitura vitia, aut virtutes alii, qweque in his plurimum va • 
+res finem, sine fine quaeruntur. Nos divinam sapien- cum quibus ab ineunto state simul creverit, 
+tiam, coelestes divitias, immortales honores pigra Optimi sunt ad institutionem morum primi quique 
+quadam dissimulatione negligimus : et spirituales anni. Habent enim [AI. etiam] in se lentum quiddam 
+divitias, aut ue attingimus quidem, aut ai leviter de- molio, quod facile formari queat : atque ad arbi- 
+gustaverimus, continuo noa putamus esse satiatos, trium volentis trahi : et in cunctis fere rebus citius 
+Aliter nos divina Sapientia ad suas invitat epulas, assuescitur omne quod tenerum est. Novellas adhuc 
+Qui edunt me, inquit, adhuc esurient : et qui me bi- fifmae radicis arbusculas, dum ad omnem du- 
+
+buntj adhuc sitient ( Eccl. xxiv, 39). Nultus umquam B clum sequaces sunt, in quamlibet partem flecti fa- 
+talibus expletur epulis : nec aliquando patitur de sa- c^e Qane naR,ra plerumque curvatae, cito ad 
+
+lieiate fastidium. Tanto unusquisque capacior, tanto "bitriuro colentis corriguntur. Tenera [ AI. ad. ad- 
+avidior erit, quaulo inde plus hauserit. Dominus in ^uc] P***111® adhuc aetatis animalia, sino labore 
+Evangelio : Beati , ait, qui esuriunt et sitiunt justitiam : domari Quantoque citius a vagandi libertate 
+
+quoniam ipsi saturabuntur {Matth. v, 6), vult enim dissueta* sunt : tanto facilius vel colla jugo, vel fre- 
+
+esurire nos hic semper ac sitire justitiam, ut in fu- »*» ora insuescunt. Ipsa quoque litterarum studia te- 
+luro, justitiae retribdtione satiemur. neris rocliu# inseramur ingeniis. Idque penitus inl»*- 
+
+rere sensibus solet, quod primitus sederit in mente. 
+Cap. XII. Consideranda vis ipsa verborum est, Hoc idem plurjinll(I1 ctiam in ^ vivendi ralionc 
+
+et ita nobis desideranda est justitia : ut in fame, vel valet: dum adhuc mobilis est aetas, et animus duci 
+
+siti, citas desideratur ac polus. Et hoc in commune faci|ig . exerccnda boni consuetudo, et jugi medita- 
+
+omnibus est dicendum iis, qui vil® immortalis pro- lione confirinanda Occupandum est optimis re- 
+missa desiderant. Jam tuum esi aestimare quantum bug |ngeitiaai ; et sanctae conversationis usus altius 
+
+animo praestare debeas : quae majoris praemii desi- inferendug est. Tunc vero ad perfectionis fastigium 
+
+derio, plus facere proposuisti, quam vel alias facere ^ anjniua ascendit : et longae consuetudinis beneficio 
+necesse est. Apostolus definiens Christi virginem utUur ad ^ vivcndi focullaleul. Et virtutes suas 
+
+longe eam separavit a nupta : et diversis studiis, . c|itB1 miralus gecumf q||oda|n roodo in ge pula_ 
+
+singularitatis meritum conjugiique divisit : Innupta , Mt nalum cgsc quod didicil [AL 
+
+inquit, et virgo cogitat qua: Dei sunt : quomodo placeat Cap> X1 y __ Regpicef ol)gecr0f quanlum a ^ Mn. 
+DeOy ut sit sancta corpore et spiritu. Quoe autem m«- stilatis avia materque exspectant; quae cum te quasi 
+
+pta est , cogitat qua: sunt mundi , quomodo placeat viro novum el iUuslre quoddam iumCn generi Suo nalum 
+
+(ICor. vii, 33,33, 54). Quae corpore et spiritu san- csge pUlanl ^/# puieni] ; nunc in te solam omnem 
+
+cta est, nec in membris, nec in mente delinquit, curam animi transtulerunt; et propositi lui cursum, 
+
+Delinquere autem non in causa castitatis tantum mirig gludiis ac favore succendunU Cuinque |psx te 
+
+esse potest, sed etiam in quacumque parte justitiae. ad hone8lalein roorum ab ineumc xtalc formavc- 
+
+Quamvis enim virgo corpore, virgo sit spiritu : et rjnl . nunc a ,e vjnc| CUpiun|t mamque victoriam 
+
+nihilominus, aut manibus, aut oculis, aut auribus, guam laudem esse putant : quarum egregia erga 
+
+peccet, aut lingua: quomodo corpore sancta dicenda fides ,n profes8ione tua maxime claruit, 
+
+est [A/, tacet et]? Deinde si vel odio infecta, vel in- cum le jam nuptiis prxparatam, simul atque aliud 
+
+vidia, vel avaritia, vel iracundia sit : quomodo spi- ^ vei|e didjccrunif mira continuo assensus celeritate, 
+
+ritu oblinet sanctitatem? Et si nupta, quae amore ad jd quod elegeras, cohortatae sunt. Et trepidam 
+
+conjugii cogitat, quomodo placeat viro suo (Ibid. vn, 54): pro xtale sententiam , voluntatis sux auctoritate fir- 
+
+quantum liberis relinquat, quae variis mundi astricta maverunt : tuumque votum commune fecerunt: quae 
+
+curis, rarius ad voluntatem Dei respicit: tamen de cum multos suorum in altissimo dignitatis gradu 
+
+peccatis excusare se non potest : quid faciet virgo , viderinl f de nullo ila f ul de te f . aiiquando betat® 
+
+qu® soluta ab omnibus hujus mundi impedimen- guu|# enjm l;im magnum, nihil tam praeda- 
+tis, ac libera, scholam quamdam castitatis ingressa quoq„am viderant. Sola quippe praslitisti 
+
+esl* generi tuo, quod longa retro state non habuit. Li- 
+
+Cap. XIII. — Si vis itaque propositi lui magnilu- cet ediderit virilis sexus memorabiles consulatus: et 
+
+dinem aequare moribus, et per omnia Deo copulari: amplissimi ordinis fastus [AI. status], illustris fa- 
+
+si leve ac suave jugum Christi, suavius tibi leviu9- mili® nomina frequens audierit : nihil umqtism ta- 
+
+que vis facere : nunc maxime in beata vita curam roen in genere vestro hoc tuo honore fnit prxdan- 
+
+impende : nunc stude, ut calentem recentis fidem titis, qui non corporali albo [AI. alvo], sed in libra 
+
+
+Digitized by v^.ooQle 
+
+
+» PELAGII AD DEMETRIADEM EPISTOLA. 50 
+
+memoriae immortalis insertus est. Cum exceperint A et non auxisse, culpabile esi. Non ideo aliqua putos 
+illi theatrales toto orbe plausus : miraque acola- contemnenda esse mandata , quia leviora sunt. Tam 
+mandi conspiratione insignia consulum merita , lx- enim maxima illa quam minima a Deo imperata sunt: 
+tum vulgus expresserit: longe tamen lui honoris et contemptus cujuseumque prncepli , praecipientis 
+est gloria major, qu» gaudium in coelis fecit, ange* injuria est. Unde beatus Paulus clamat, et docet : 
+lisque Ixtiiiam. Per te enim non meretricula: loeu- Omnia facilt tine murmuratione et haesitatione : ut si - 
+plelantur, sed aluntur virgines Christi : non vena* tis irreprehensibiles, et simplices , sicut (ilii Driimma- 
+tor et auriga ditantur, sed sustentantur pauperes culaii , in medio nationis prava: et pertersae : inter 
+Christi. Ad consulatum eorum diversae totius orbis quos lucetis sicut luminaria in hoc mundo ( Phil . u, 
+provinciae, ad quas domus vestrae potentia extendi- 44, 15). 
+
+lur, peregrinas feras et ignota animalia transmise- * Cap. XVI. — Remoremur hio , virgo , paulisper : 
+runf , quae crudelis arenae solum vel suo « vel horni- ct pretiosissimas margaritas , quibus exornanda est 
+num sanguine cruentarent. Ad te vero electae quae- sponsa Clirisii, per singula Apostoli verba pensemus, 
+que virgines mittuntur : quas tu pretiosissimum Omnia, inquit, facile. Non enim quasi ad arbitrium 
+munus offeras Deo , tuoque exemplo ad perpetuam nostrum, quaedam ex mandatis Dei debemus eligere, 
+provoees castitatem : non tibi , sed lecum Deo, ser- 6 sed generaliter universa complere. Nec aliqua prae- 
+
+
+vii uras. Hxc professionis tuae gloria rumore celebri 
+vulgata est per cunctos , et ita ad conversationem 
+[AI. conversionem] tuam totus exsultavit orbis , ut 
+quod prx ingenti gaudio vixadbuc homines credere 
+poterant, id semper videantur optasse. Mullum bis 
+initiis , multum famae tuae odore suspensi, omnes 
+mirum de te nescio quid audire desiderant. Et qui 
+profectionis tuae cognovere virtutem : nunc convor- 
+sationis exspectant. In te nunc puta cunctorum ora 
+oculosque conversos , et ad spectaculum vitae tuae 
+totum consedisse mundum. Cave, ne per te tanto- 
+rum animi offendantur : nec minus in te inveniant 
+quam [-4/. quae] requirunt. Veium quid ego lecum 
+de hominibus ago , corumque de te exspectationem 
+.ad cohortationem luam traho ? Deus ipse omnium 
+rector ac Dominus, cum otnni angelorum militia 
+certamen tuum spectat : libi contra diabolum dimi- 
+canti parat aeternitatis coronam, et coeleste praemium 
+incitamentum victoriae facit. Huic tanto spectaculo 
+vide quem animum, quam debeas efferre virtutem : 
+et certaminis magnitudinem deT spectantium digni- 
+tate metire. 
+
+Cap. XV. — Hxc itaque tibi ia Itoc agone sub- 
+eundo praecipua cura sit : hic primus accinctus, in- 
+ternecionis bellum virtute devincere, et adversum 
+diaboli castra in omnia praecepta Dei jurare : nec 
+tantummodo declinare vetita , ged jussa complere. 
+Neque enim tibi [AI. tac. libi] sufficit a malis otio- 
+sam esse , si otiosa fueris a bonis : cum lex Dei du- 
+plici mandatorum geuere distincta sit, et mala pro- 
+hibens , bona imperet : atque ab utraqne parte 
+contemptum sui velet. Non enim solum ille servus 
+contempsit Dominum , qui prohibita fecerit , sed et 
+qui jussa non fecerit. Dicta a nobis paulo ante sen- 
+tentia est : Omnis arbor quae non facit frudum bonum , 
+excidetur, et in ignem mittetur ( Matt . vii, 49). Et blan- 
+dimur nobis si malis fructibus non gravemur, qui 
+damnandi sumus , si a bonis steriles manserimus 
+(Joan. xv, 2)? Juxta banc inlelligeniiam, abscindet 
+Pater omnem palmitem fructum non ferentem in 
+Filio. Et qui acceptum talentum in sudario abscon- 
+dit, quasi inutilis sergus et nequam, damnatur a 
+Domino (Matt. xxv, 30). Nec minuisse solum, sed 
+
+
+cepia ejus quasi vilia munuscula ae parva contemne- 
+re ; sed imperantis in omnibus majestatem aspicere. 
+Nullum quippe mandatum Dei contemptibile nobis 
+videri potest , si ejus semper cogitemus auctorem, 
+sine murmuratione et haesitatione. Viles et ignobiles 
+dominos palam contemni videmus a servulis : eisque 
+ad minima quaeque praecepta in faciem resisti solere. 
+At hoc in personas nobiles jam non admittitur : 
+quantoque poteniiores demini , tanto servi ad oko- 
+dientiem proniores suat : cumque difficiliora praer 
+cipiunt, libentius audiuntur. Certe ad regis tmpor 
+ritim , ita omnes parati sunt, ei in procinctu obe- 
+dientix constituti , ut etiam optent juberi. Et nou 
+solum bene merituros esse se credunt, si jussa fece- 
+rint, sed tamquam jam meruissent quod jussi sunt, 
+ita pro dignitate praeripientis servitium beneficii 
+loce ducitur. Nobis vero Dens ipse, aeterna illa ma- 
+jestas ineffabilis atque inaestimabilis potestas : sacras 
+litteras et vere adorandos praeceptorum suorum api- 
+ces mittit, et non stutim cum gaudio ac veneratione 
+suscipimus : nec pro magno ducimus beneficio , 
+tantae ac tam illustris potestatis imperium : maxime 
+cum non jubentis quaeritur commodum , sed utilitas 
+obsequentis [A/, subsequentis], verum ccontrario 
+fastidiose ac remisso animo , superborum Bequam 
+•ervorum more , in os Domini reclamamus et dici- 
+mus : Durum est , arduum est , non possumus, ho- 
+mines sumus, fragili carne circumdamur. 0 exeam 
+insaniam ! 0 profanam temeritatem t Duplici ignu- 
+\ rantia accusamus Deum scientiae , nt videatur ne- 
+scire quod ferit, nescire quod jussit : quasi oblitus 
+fragilitatis humanae, cujus auctor ipso est, imposue- 
+rit bomini mandata quae ferre non possit. Simulque 
+(proh nefas!) ascribimus iniquitatem justo, pio 
+crudelitatem : dum eum primo impossibile aliquid 
+praecepisse conquerimur : deinde pro bii damnan- 
+dum putamus hominem , ab eo qux vitare uon po- 
+tuit: ut (quod etiam suspicari sacrilegium est) vi- 
+deatur Deus non tam salutem nostram quassisse 
+quam poenam. Itaquo Apostolus, sciens a Domino 
+justitix ac majestatis nihil impossibile esse prae- 
+ceptum, aufert a nobis vitium murmurandi. Quod 
+tunc utique nasci solet , cum aut iniqua sunt quae 
+
+
+Digitized by i^.ooQle 
+
+
+51 S. HIERONYMI OPERUM MANTISSA. c 52 
+
+jubentur, aut jubentis minus digna persona est. A es : cui non tam expellenda sunt vitia , quam refel- 
+
+Quid tergiversamur incassum , et praecipienti oppo- lenda ! Quae utique non suscipere facilius est, quam 
+
+nimus naturae fragilitatem? Nemo magis novit men- semel suscepta deponere. 
+
+suram virium nostrarum , quam qui ipsas vires no- Cap. XVIII. — Nec vero eorum tanta dulcedo est, ut 
+
+bis dedit. Nec quisquam melius quantum possimus ea debeamus praeferre virtutibus, cum nec in omnibus 
+
+iotelligit , quam qui ipsam virtutem nobis nostri sit delectationis illecebra, et a plerisque ea etiam, 
+
+[AI. tacet nostri] posse donavit. Nec impossibile quae videntur dulcissima, respuantur. Duo namquo 
+
+aliquid voluit [AI. potuit] imperare, qui justus est; sunt ex omnibus vitia, quae maxime homines dcci- 
+
+nec damnaturus hominem fuit , pro eo quod vitare pinnt sui voluptate, gula scilicet ac libido, quae de- 
+
+non potuit, qui pius est.. ponere eo difficilius est, quo eis uti dulcius est; et 
+
+Cap. XYU. — Sequitur: Ut sitis irreprehensibiles tamen haec vilia tam molesta, tamque delectatione 
+
+et simplices ad omnem morum perfectionem. Unum sui periculosa, ita a multis calcari vidimus, ut tota 
+
+hoc sufficere verbum potest, quod etiam in episcopo aetate virgines permanserint in summa abstinentia, 
+
+eligendo Deus quaeri jubet. Quam enim circtimspe- Ut de illis taceam, quae post deliciarum longum flu- 
+cta vita est , quam sancta est, quae nihil reprehen- xum [AI. luxum], et inveteratum usum libidinis, ca- 
+
+sionis incurrit? Quis autem sanctior potest esse, B stitati ac temperantiae se dederint ; ct utrumque vi- 
+quam qui, verae simplicitatis virtutem tenens, num- tium , contraria sibi virtute mutaverint. Aliorum 
+
+quam aliud corde promittit, aliud ore vultuque men- vero vitiorum est longe diversa ratio, quae cum nihil 
+
+tilur. Sicut filii Dei immaculati. Non est exhortatio habeant jucunditatis, taroeu [AI. tam] multum ama- 
+
+vehementior, quam qua nos Scriptura divina filios riiudinis habent, quaeque cum ad vitandum multo 
+
+Dei vocat. Quis enim non erubescat, et metuat sint faciliora, raro a quibus vitentur, invenies. Quid, 
+
+lanto patre agere aliquid indignum , ut qui dicitur oro te, invido, delectationis praestat invidia, quem 
+
+Dei filius, ipse efficiatur vitii servus? Et idcirco ad- secretis quibusdam conscientiae ungulis livor ipse 
+
+jungit, Ut simus immaculati. Neque enim [AI. etiam] decerpit, et alienam felicitatem tormentum ejus fa- 
+
+convenit in filiis Dei, quia Ipse est fons justitiae, cit? Quid vero alter ab odio mercedis accipit, n:si 
+
+peccati maculam reperiri. In medio nationis pravw , horribiles animae tenebras, et confusae mentis lior- 
+
+et perversos , hoc est dicere : Quamvis infinita vos rorem ? Qui vultu semper animoque moerente, voto 
+
+cingat peccantium multitudo, et innumera sint quo alteri vult nocere, seipsum cruciat ? Quid autem 
+
+exempla vitiorum: vos tamen ita coelestis nativita- iracundo furor suus confert, quem saevissimis exagi- 
+
+lis memores esse debetis , ut inter malos viventes, tatum stimulis conscientiae, ita ab omni consilio ac 
+
+omne malum vincatis. Inter quos lucetis , ait, sicut ® mente deturbat, ut dum irascitur, insanire credatur? 
+luminaria in hoc mundo. Et rursum in Evangelio Similiter curre per singula, invenies tot animae tor- 
+legimus : Tunc justi fulgebunt sicutsol in regno patris menta quot vitia : quae utique eo facilius vinci pos- 
+eorum ( Matt . xm). Comparatur vita praemio, ut qui sunt, quo nulla illiciunt nos voluptate. Quanto illud 
+in futuro solis fulgore donandi sunt , hic jamr simili difficilius, quanto durius, ut de castitatis labore 
+
+justitiae claritate resplendeant, et infidelium caecita- taceam, abstinere a vino carnibusque, ipso quoque 
+
+tem , operibus sanctitatis illuminent. Huic loco ille etiam oleo, et vilem sine his cibum post biduum 
+sensus aptandus est , quem ad Corinthios idem Apo- interdum triduumque, vix capere ! fracta jejuniis vjgi- 
+
+stolus disserens, ait : Alia claritas solis , alia claritas liisque membra, fomenta balnei contemnere, neces- 
+
+luncet alia claritas stellarum . Stella autem a stella sarias res negare corpori, et vim quamdam inferre 
+
+differt in claritate , sic ei resurrectio mortuorum (I Cor . naturae ! Da tantam in caeleris magnitudinem animi, 
+
+xv, 4i, 42). Dispares sunt in regno coelorum per sin- et vide quid non possis efficere. Sed nos, proli pudor ! 
+
+gitloruni merita mansiones. Diversitas enim operum, quadam delectatione peccati, cum in quibusdam os- 
+
+diversitatem facit praemiorum: quantumque aliquis hic tendimus quamdam vim naturae nostrae, in aliis om- 
+
+in sanctitate fulserit , tantum ibi fulgebit in honore, nino torpescimus, ct qui voluptates corporis, virtu- 
+
+Nunc ergo ad omnem morum perfectionem mentis u tum amore contempsimus, rursum amore vitiorum 
+aciem intende, etad coeleste praemium coelestem vitam tormenta suscipimus. Atque ita malis nostris cedi- 
+
+para. Resplendeat omnibus clarissimi in modum si- mus, ut ea nec putemus posse deponi. Quod hoc, 
+
+deris sanctitas virginis : et futuri praemii magnitudi- quaeso, consilium, quaenam haec nova vivendi ratio 
+
+nem, de novitate conversationis ostendat. Tibi faci- est? Res difficiles et laboris plenas securus aggredior, 
+
+lior in bonis cursus est, quam malorum animi con- @1 faciliora non posse fieri credo. Vinco maxima, 
+suetudo non retinet. Nec timemus ne te a virtutibus vincendus a parvis. Excelsa, et ardua indefessus ex- 
+viiia retardent , et maligna diaboli semina Christi supero, et cum venitur ad plana, deficio. Libenter 
+frugem necent. Nam si etiam illi qui longo peccandi fugio quod delectat, et nolo vitare quod cruciat. Ve- 
+usu, bonum quodammodo obruere naturae, instaurari rum haec eorum sunt, qui, Dei voluntate contempta, 
+per poenitentiam possunt : ct mutata voluntate vi- id solum petunt, quod laudem facilius invenit, quod 
+vendi , consuetudinem consuetudine exstinguere, ac cito exit in famam : morum vero bona quae secre- 
+optimi quique [AI. quoque] de pessimis fieri : quanto tiora sunt negligunt. Tu veao, quae calcasti mundum 
+magis tu potes illa superare a quibus superata non et concupiscentias ejus, ut, calcato eo, gradum tibi 
+
+
+Digitized by v^.ooQle 
+
+
+53 PELAGII AD DEMETRIADEM EPISTULA. 34 
+
+quemdam escendendi ad coelum faceres, mundi glo- A clionem. Scripturae memor esto/qu» dicil : Non eris 
+riaro ne requiras [AI. requires]. Illi tantum placere consentaneus derogantibus adversus proximum tuum, 
+
+stude, cui saepe displicet, quod hominibus placet, et et non accipies super illo peccatum (Levit, ix, 18). Et 
+
+qui ipsa hominum Judicia judicaturus est. Abstinen- alibi ; Sepi aures tuas spinis, et noti audire linguam 
+
+lia tua et jejunium eo magis Deo grata sunt, quo nequam (Eui. xxvm, 55). Accusator est enim audi- 
+tum sanctis moribus offeruntur , ut quae in aliis tor, qui facit detractorem, qui si avertat aures, et 
+
+suot umbracula vitiorum, in te sint ornamenta vir- vultum contrahat, ac oculos abnuendo contineat, 
+
+tutum. male loquentem etiam tacens arguit, ut discat non 
+
+Cap. XIX. — Respice, obsecro, ad ipsam, qua libenter dicere, quod didicerit non libenter audiri, 
+apud Deuro illustrata es, dignitatem, qua per ba- Sollicitam satis ori luo custodiam pone. Non enim 
+ptismum in Dei filiam renata es, rursumque per est quidquam irt nobis, quo facilius peccare possi- 
+consecrationem virginitatis, sponsa Christi essecoe- mus -quam lingua. Unde sanctus Jacobus illum esse 
+pisti. Ex utroque, hic tuus honor te ad sollicitudi- perfectum asserit, qui non offendit in verbo ( Jac , ni, 
+nem tui propositi admoneat. At nullus debet esse 2). Et Scriptura dicit : Mors et vita est in manibus 
+ibi negligentiae locus, ubi tam praeclara servanda linguae (Sap. i, 11). Mentiri autem, maledicere atque 
+' sunt. Pretiosior custoditur [AI. pretiosior quoque B jurare lingua tua nesciat. Quia et os quod mentitur, 
+vestis diligentia timidiore custoditur] quaeque vestis occidit animam : Et qui maledicunt , regnum Dei |non 
+timidius a macula. Multo quaesita auro gemma, possidebunt, juxta Apostolum (I Cor. v, 11). Et jurare 
+majori sollicitudine possidetur, et generaliter grandi ipse Christus prohibuit, qui dixit : Ego autem dico 
+cura magna quaeque servantur. Unde et tu si te- vobis, non jurare omnino. Et rursum : Sit autem sermo 
+ipsam bene custodire cupis, debes honorem tuum vester, est, est : non, non : quod autem amplius est , a 
+semper pretium cogitare.Tanlo enim se unusquisque malo est (Matth. v, 34, 37). Apostolus, breviter oris 
+negligentius utitur, quanto se existimat viliorem, vitia resecans, ait : Omnis sermo malus ex ore vestro 
+
+Non ob aliam causam magis nobis in Scripturis di- non procedat ; sed si quis bonus ad cedi ficati onem fi- 
+
+vinis tam frequenter filiorum Dei nomen imponitur, dei, ut det gratiam audientibus (Ephes. iv, 29). Sit 
+ut illud quod dicitur per prophetam : Et ego ero vobis autem sermo virginis prudens [AI. pudens], niode- 
+tn patrem , et vos eritis mihi in filios et filias [AI. tac. stus et rarus, nec tam eloquentia pretiosus quam 
+et filias ] (Phil. m, 17), dicit Dominus omnipotens, pudore. Mirentur omnes tuam, te tacente, verecun- 
+Et Apostolus : Estote imitatores Dei, sicut filii charis- diam; te loquente, prudentiam. Mite ac placidum 
+simi. Et beatus Joannes inquit :Charissimi, nunc filii semper eloquium tuum. Ornet mixta cum gravitate 
+Dei sumus, et nondum apparuit quid erimus. Scimus (5 suavitas, cum pudore sapientia. Sit certa atque li- 
+quoniam cum apparuerunt , similes ei erimus , quoniam brata, suique opportunitate gratissima, silentii ver- 
+videbimus eum sicuti est, ut qui habet hanc spem in eo, hique ratio. Nec umquam omnino virginis os loqua- 
+sanctificet se, sicut ct ille sanctus est (I Joan. m, 2, 3). tur, ut tacuisse melius sit. Cum ingenti cautione de- 
+Yult nobis coelestis doctrinae dignitatem qua donati bet loqui, cui non solum malus, sed etiam otiosus 
+sumus , frequenter ingerere, et honorem nostrum sermo vitandus est : 
+
+peccandi pudorem facere. Unde etiam Dominus ipse, Cap. XX. — Summa tibi scientia sit, notitia summa, 
+
+ad perfectam nos benignitatem vocans, ait : Diligite vitia, virtutesque distinguere, quae quamquam sem- 
+inimicos vestros , benefacite his qui oderunt vos. Et : per contraria sibi sint , aliqua tamen ex eis tanta 
+Orale pro persequentibus , et calumniantibus vos, ut junguntur similitudine, ut discerni omnino vix pos- 
+sitis filii patris vestri, qui in coelis est (Matth. v, sint. Quam mulli enim superbiam libertatis loco du- 
+45). Non est enim quod sic homines Deo faciat ama- eunt, adulationem pro humilitate suscipiunt, mali- 
+
+hiles, ut pietas mentis, et bonitas, quae tanta in Citri- tiam prudentiae amplectuntur vice, et stultitiae sim- 
+
+stianoesse debet, ut etiam in malis abundet. Deique plicitatis nomen [At. stultitiam simplicitatis nomini] 
+
+imitetur benevolentiam, qui solem suum oriri facit imponunt, atque fallaci ac pessima decepti similitu- 
+
+super bonos et malos, et pluit super justos et injustos D dine, vitiis pro virtutibus gloriantur. Et quamquam 
+
+(Rom. m, 13). Hoc itaque tibi, vel in primis absit, lurc omnia subtilissima intelligenlia debeas separare, 
+
+nt nemini vel in verbo etiam noceas, ut in omnibus cunctasque virtutes cum suis lineis insequendo, nus- 
+
+quibuscumque poteris, prodesse studeas, et nc vicem quam prorsus abscedere : praecipue tamen fictam 
+
+quidem mali reddens, pro malis bona, dicente Apo- humilitatem fugiens, illam sectare quas vera est, 
+
+stolo, restituas. Numquam detractio ex ore virginis quam Christus docuit, humilitatem, in qua non sit 
+
+procedat.Vilium satis hominum est, et suam laudem superbia inclusa. Multi enim hujus virtutis umbram, 
+
+quaerentium, Ilios viles facere ; quia alterius vitupe- veritatem ejus sequuntur pauci. Perfacile est enim 
+
+ratione se laudari putant ;et qui suo merito placere aliquam vestem habere contentam, salutare submis- 
+
+non possunt, placere volunt in comparatione pejo- sius, manus et genua deosculari, inclinato in ter- 
+
+rum. Parum diximus, non solum ipsa non detrahas, ram capite, oculisque dejectis, humilitatem ac man- 
+
+sed ne detrahenti quidem aliquando credas. Pessi- suetudinem polliceri, lenta voce tenuique sermones 
+
+inum est hoc vilium, quod alterum vilem facit vi* infringere, suspirare crebrius, et ad omne verbum 
+
+deri. Non minus auribus quam lingua fugias detra- peccatorem ac miserum se clamare. Et si vel levi 
+
+
+Digitized by v^.ooQle 
+
+
+35 S. HIERONYMI OPERUM MANTISSA. S6 
+
+t ermone offensus sil, continuo attollere supercilium, A nem, neque bibere vilium, Apostollca voce laudatum 
+levare cervicem, et delicatum illum oris sonum in- est (Rom. xu, 15, 21 ). Quidquid illud est quod in- 
+sano repente clamore mutare. Aliam nos humilita- flimmare corpus potest, quod fomentum suggerit 
+lem Christus docuit, qui iios ad exemplum suum Voluptati, castitatis amore fugiendum est. Nec tamen 
+hortatur, dicens : Discite a me, quia mitis sum et Uu- ita inagno hujus rei labore gravari te volumus : ut 
+milis corde (Maith. xi, 29). Qui cum malediceretur, sub ipso sialim onere succumbas, per quod multi 
+non maledicebat ; cum pateretur, non comminabatur, dum nimio fervore mentis rationem suarum virium 
+Qmin nobis humilitatem beatus Petrus insinuat: non haberent [AI. habent] , subito conciderunt, et 
+Misericordes, u\qnh, et humiles, non reddentes malum pene ante debilitatem, quam sanctitatem de pro- 
+pro malo, nec maledictum pro maledicto (f Pet. u, 22). posito suo consecuti sunl. Optimus est in omni re 
+
+Auferantur omnia figmenta veiborum, cessent si- modus , et laudabilis ubique mensura. Corpus non 
+
+mulati gestus, et ante occasionem sermo placidus, frangendum, sed regendum est. Sint ergo moderata 
+Yenun [AL virum] humilem patientia ostendit inju- sancta , et simplicia in omni mentis humilitate je~ 
+
+ria\ Nullus ergo (unquam iri mente tua ullius sil vi- junia, quae ita attenuent corpus, ne animum elevent, 
+
+tii Incus. Nihil in te superbum, nibil arrogans, nibil ne res humilitatis gignat superbiam , et vitia de 
+denique fastidiorum. Apud Deum non est quidquam B virtute nascantur. Ego, inquit, ctott mihi molesti 
+humilitate sublimius. Ipse loquitur per prophetam : essent, induebar cilicio , et humiliabam in jejunio ani - 
+Super quem alium requiescam [AI. respiciam], nisi su- mam meam ( P&al . xxxv, 13). Vestis abjectio, cibi 
+per humilem, et quieum , et trementem sermones meos vilitas , jejunii lassitudo , exstinguere debent , non 
+(Isa. lxyi, 2) ? Et numquam in iram exardescat ani- nutrire superbiam. Quis rem medicinae vulnus faciat? 
+mus, quod est seminarium odii. Tantus mentem et inde sana laedat qua que, nude jam laesa curanda 
+tuam repleat timor Dei, ut indignari omnino non au- sunl? Aut qu;c supererit spes salutis, si isia animae 
+deas, et iram metu vincas. Beatus Apostolus, mundans remedia sint venena ? 
+
+animam nostram, cainquc in habitaculum Dei prae- Cap. XXII. — Labmem jejunii tui, misericordiae 
+p.trans, clamat et dicit : Omnis amaritudo, et ira , et opera cutnmcodent, et abstinentia tua , pauperum 
+
+indignatio, et clamor, et blasphemia auferatur a vobis refectione sit gratior. Dominus loquitur per proplie- 
+
+cum omni malitia (Eph. iv, 31). lam: Misericordiam volo, et non sacri pexum (Ose. vt, 
+
+Cap. XXI. — Adulatores ut inimicos cave, quorum 6). In Evangelio Christi verba legimus: Beati mi- 
+sermones stiper oleum molles , et ipsi sunl jacula, sericordes , quoniam ipsi misericordiam con sequentur 
+Corrumpunt lictis laudibus leves animas et male (Matth. v, 7). Sed quxso hanc curam vice tua avia 
+credulis mentibus blandum vulnus infligunt |A/, in- C materque suscipiant. Illae bas partes pro te agant, 
+lingunt]. Crevit hoc iu nostra aetate vitium , et in IU® thesaurum tuum in coelum levent. Illarum sit 
+ultimo line stetit , nec jam augeri potest. In hanc esurientes alere cibo, vestire nudos, visitare inflr- 
+
+omnes nos scholam studiumque dedimus, ut offi- mos, peregrinos tecto suscipere, et aeterni spe prae- 
+
+dum putemus illudere. Quodque ipsi ab aliis libenter mii , Christo iu pauperibus fenerari : qui dixit ; 
+accipimus, id aliis quasi quoddam munus offerimus. Quodcumque fecistis uni ex his fratribus meis mini • 
+Et spe recipiendae laudis , eos a quibus laudari vo- tuis, mihi fecistis (Mali, xxv, 46). Tibi vero, maxime 
+lumus, ante laudamus. Sape adulantium resistimus dum in proposito maturescat animus , ab omnibus 
+verbis ad faciem , et in secreto mentis favemus , occupationibus recedendum est , et omne 6ludium 
+inaximumque fructum cepisse nos ducimus , si vel omnisque cura in ornandis moribus exhibenda. Qui- 
+fictis laudibus praedicamur. Nec cogitamus quid ipsi bus ita vacare debes , et lotam occupare mentem , 
+simus [AI. sumus] , sed quid alteris esse videamur ut non divitem le sentias e6se, nec dominam. Nobi- 
+[Al. videmur]. Unde eo perducta res est , ut , ne- litatis ad hoc tantum memineris , ut cum claritate 
+
+glecla veritate meriti , de sola opinione curemus , generis, morum sanctitate contendas : et cum nobi- 
+
+qui testimonium vitae nostrae , non a conscientia litate corporis ; animi virtute nobilior proficias : 
+
+nostra , sed a fama petimus. Beata mens est , quae ® magisque illa nobilitate glorieris , qua filios Dei et 
+
+perfecte hoc vilium vincit, et nec adulatur aliquando, cohaeredes Christi facit. Ad quam si semper iospi- 
+
+nec adulanti credit. Qua nec decipit alterum , nec cias : dum credis gaudium te habere quod majus est, 
+
+ipsa decipitur, lanlumque hoc malum nec facit ali- dcUnia de eo quod minus esi gloriari. Omnis ista 
+
+quando, nec patitur. Nihil umquam in te fictum sit, praclari generis dignitas, et illustre Anicii sanguinis 
+
+nihil omnino fucatum. Conscientiam tuam, quae certe decus, ad animam transferantur. Ille clarus, ille 
+
+Deo semper palet , iu multitudine versari pala, sublimis, ille sit nobilis , ille tunc integram nobili- 
+
+Numquam aliud corde teneas, aliud ore proferas talem suam servare se putet, si dedfgneiur servire 
+
+[Ai. corde , aliud ore praueudas]. Quidquid pudet viiiis , ab eisque non superari : A quo enim quis sit- 
+
+dicere, pudeat etiam cogitare. Illud vero notum jam peratur , hujus et servus est (Ii Pet. u, 15). Quid enim 
+
+omnibus atque divulgatum est, quam utilis quamque hac servitute animi indignius, quid ve turpius, quam 
+
+buic proposito necessaria est , jejuniorum et absti- cum in eo, aut dominatur odium, aut regnat invidia? 
+
+nenlue virtus, maxime in his annis, in quibus cor- qu.un cum eum aut avaritia possidet, aut captum ira 
+
+pori major scitus ineat. Non manducare itaque car- tenet, vel certe coeicra sibi vitia vindicant? Non eat 
+
+
+Digitized by v^ooole 
+
+
+(7 PELAGII AD DEMETRIADEM EPISTOLA. 3» 
+
+quod sibi aliquis de nobilitate generis blandiatur : A «is iu reprehensionem intemperans cadit, quodque 
+si ex meliore parte sit famulus. Mullo est indignius laudabile est in tempore suo , fit de nimietate sui 
+mente servire , quam corpore. Superfluum arbitror culpabile. 
+
+te monere, quam parca in procedendo debeas esse, Gap. XXIV. — Generaliter quidem , sed breviter 
+quam rara : cum te hoc etiam sxcularis ab infantia strictimque dicendum est : in bonis quoque rebus 
+honestas docuerit , et facile intetligas id tibi multo quidquid modum excesserit, vitium est. Magna est, 
+magis in hac vita esse servandum , quam maxime magna, inquam, et quae grandi studio constat, per- 
+secretum decet. Illud admoneo, ut ipsis quoque fectxvitx ratio, consommatxquc sapientiae est, scire 
+salutationibus , quae tibi in cubiculo tuo exhibendae quid qua insequaris modo, ct ad omnem actum prae- 
+sunt, certissimum modum ponas : non sint nimiae, ferendo consilium : nihil facere quod fecisse poeniteat. 
+
+neque quotidianae , ne non tain officium , quam in* lutra unius horae spatium mutatur habitus : jejunare, 
+
+quietudinem praestare videantur. Abstinere, psallere, vigilare, non tam studio opus 
+
+Gap. XXIII.— Et quamquam omne vitae tuae tempus habent, quam voluntate. Quidlibet incipiens , sialim 
+divino debeas operi consecrare : et nullam prorsus ut voluerit, ad ipsa perfectus est : immo illi hoc fa- 
+iioram a spirituali profectu vacuam esse conveniat, eilius facere possunt, qui recentes corporis vires de 
+curo tibi in lege Domini die ac nocte meditandum B saeculo ad propositum afferunt. Mores vero mutare, 
+sit (PtaL i) ; debet tamen aliquis esse determinatus singulasque virtutes animi formare in se, atque per- 
+ci constitutus horaium numerus, quo plenius Deo ficere , grandis studii est , et longae consuetudinis, 
+vaces , ct qui te ad summam animi intentionem , Itaque mulli in [A/, add. hoc] proposito senescimus, 
+velut quadam lege contineat. Optimum est ergo buio et ea , propter quae ad ipsum propositum venimus , 
+operi malulimpn deputari tempus , id est meliorem non habemus. Tua vero conversatio nova esse debet, 
+diei partem , ct usque ad horam tertiam animam mira gravitas, patientia, mansuetudo, pietas : quid- 
+quolidie in coelesti agone certantem , hoc velut spi- quid sanctius est atque perfectius , quidquid magis 
+ritualis quodam paleslrx exerceri gymnasio. Ilis tu Deo te commendare potest, et majorem in cocto farerc, 
+per singulos dies horis in secretioris domus parte id semper sequere , id semper amplectere ( I Cor. 
+ora , clauso cubiculo tuo ( Matih . vi, 6). Adbibe tibi vii , 34 ). Sponsa Christi nihil debet esse ornatius, 
+etiam in urbe [AI. orbe] solitudinem, et remota pau- Tanto majore placendi studio opus est, quanto major 
+I sper ab hominibus, propius Deo jungere : aspectui* est ille cui placendum esi. Saeculi vero virgines, quae 
+que tuorum reddita, lectionis fructum et orationis se nuptiis prxi arant, et indulgentiam magis A po- 
+osiende. Nihil enim in hoc secreto magis ageredebes, stoli , quam consilium sequi malunt, magisque nm- 
+quam animam divinis eloquiis pascere. Et quantum C plectuntur incontinentiae remedium, quam praemium 
+ci per totam sufficere possit diem , hoc eam vetuli continentiae, ut sponsis placeant, eosque in amorem 
+iibo pinguiore satiare. Ita Scripturas sacras lege, sui magis incitent, mira se sollicitudine formare 
+ni semper memineris Dei illa verba esse, qui logem student, et naturalem corporis pulchritudinem, or- 
+suam non solum sciri, sed etiam impleri jubet. Nihil nandi arte commendant. Haec est illis per dies sin- 
+
+c.iim prodest facienda didicisse, et non facere. Opti- gulos cura praecipua : decentibus fucis colorare fa* 
+
+me uteris lectione divina, si eam libi adhibens speculi ciem, implicare auro crinem, et ardentes concharum 
+vice, ut ibi velut ad imaginem suam anima respiciat, lapides, capitis honorem facere, suspendere cx nu- 
+et vel foeda quaeque corrigat, vel pulchra plus ornet, ribus patrimonia, brachia ornare monilibus ac latera^ 
+Lectionem frequenter interrumpat oratio, et animam et inclusas auro gemmas a collo in pectus demittere, 
+jugiter adhaerentem Deo, grata vicissitudo sancti Non minorem sponsus tuus requiiit ornatum , qui 
+operis accendat. Nunc te igitur ordo instruat eoe- cum universam Ecclesiam salutaris aquae lavacro 
+
+Icstis historias : nunft sanctum David oblectet can- purificatam sino macula rugaque reddiderit, quotidie 
+
+ticum : nunc Salomonis erudiat Sapientia : nunc ad cupit eam fieri pulchriorem , ut semel a vitiis pec* 
+
+timorem Domini, increpationes incilent propheta- Catisque mundata , semper ornetur decore virtutum 
+i uni : nunc Evangelica et Aposlolica perfectio te ® ( Ephes . v, 26, 27). I(l si hoc a tota requirit Ecclesia; 
+Christo iu omni morum sanctitate conjungat. Qux inquaet vidux continentur etiiuplx: quantum, putas, 
+
+paranda sunt , meinorix penitus insere : eaque jugi exspectat a virgine, qux ex pulcherrimo hoc quodam 
+
+meditatione conserva. Qux maturanda sunt , fre- Ecclcsix parato, velut augustior quidam flos videtur 
+
+quenler revolve, ut divinum hoc studium, et coe!c* electa ! Assume ergo omnem illum ornatum , per 
+
+siis schola, ct mores simul virginis ornent et sensum, quem placere Christo potes. Satis pulchram Deo crede 
+
+iradantque tibi cum sapientia sanctitatem. Unde faciem luam , si hominibus pulchra apparere non 
+
+Scriptura dicit : -Qui quwruni Deum , invenient $a- studeas. Istud ornamentum serva capitis , quod ac* 
+
+pietatum cum justitia. Sit autem ipsa lectio temperata, quisivisti Chrismatis sacramento , cum tibi In coe* 
+
+cui finem consilium, non lassitudo imponat. Nam ut Icstis regni mysterium , diadema quoddam regalis 
+
+immoderata jejunia ct ardor absiiuemix, et enormes unctionis impositum est. Opiima ornamento sunt 
+
+- iiiordinaixque vigilix, intemperanlix coarguuntur, aurium , verba Dei. Ad ea sola paratus esse debet 
+
+idque nimietate sui pariunt, ut hxc ipsa postea, nec auditus virginis : eaque pretiosissimis lapidibus ante* 
+
+mediocriter quidem fieri possint ; ita studium lectio* ferre. Omnia proreus membra decorentur operibus 
+
+
+Digitized by v^.ooQle 
+
+
+89 S. HIERONYMI OPERUM MANTISSA. 40 
+
+sanctitatis : totaque virginalis animi pulchritudo , A praesume victoriam. Haec enim si tu omuia instru- 
+gemmati monilis instar, vario virtutum fulgore re- menta possideas , secura procedes ad praelium spi- 
+splendeat. Tunc vere concupiscet rex decorem tuum, rituale, nec pavebis diabolum cum toto exercitu 
+dicetque tibi : Tota formosa es, proxima mea , et ma - suo. Cadent enim a latere tuo tnille9 ei decem millia 
+cula non est in te (Cant.v, 7). Et haec tibi ornamenta a dextris tuis : ad te autem non appropinquabunt 
+
+quae dixi, etiam erunt munimenta maxima : et quae ( Psat. xct, 7 ). Beatus quoque Jacobus ille Christi 
+
+ipsa te [At. te ipsam] ornare Deo, et contra diaboluiu miles emeritus non minor nobis auctoritate de hoc 
+
+armare possint, qui per leve interdum quodeumque bello victoriam pollicetur : Subditi , inquit, estote 
+
+vilium ad animam ingreditur : et si virtutum propu- Deo : resistite autem diabolo, et fugiet a vobis ( Jac. 
+gnacula non resistant , nostro nos repellit loco , et iv, 7 ). Ostendit quomodo resistere debeamus dia- 
+continuo de boste fit dominus. Propter quod Scriptura bolo, si utique simus subditi Deo, ejusque faciendo 
+
+nos udhofiuiuT9eld\c\i : Si spiritus potestatem habentis voluntatem, ut divinam etiam mereamur gratiam : 
+ascenderit super te, locum tuumne dimiseris (Eccl.x, 1). et facilius nequam spiritui, auxilio sancti Spiritus 
+
+Cap. XXV.— Ab eo jam tempore, quo primum per resistamus. Neque vero aperta contra nos pugnat 
+
+virgiuitaiis professionem Domino consecrata es, ad- acie, nec publica nobiscum fronte congreditur, sed 
+versarii in te crevit odium. Et qui aliena lucra pro B dolo vincit ac fraude, nostraque contra nos utitur 
+suis damnis habet, se amisisse ducit, quidquid te voluntate. De consensu nostro adversarius vires 
+
+possessuram dolet. Grandi tibi opus est vigilantia, [ At. de consensu adversariorum vires ] accipit , 
+grandique cura : et tanto sollicitius cavendus est nostroque nos, ut dici solei, jugulat gladio. Infirmus 
+inimicus, quanto apud Deum ditior esse coepisti, hostis est qui non potest vincere nisi volentem. 
+Vacuus viator et nudus non timet latronis insidias. Procul a nobis desperatio, procul omnis ab animo 
+Securus a nocturnis furibus dormit pauper, etiam recedat pavor adversariorum. Non adjuvemus, sed 
+
+si claustra non muniat. Diviti vero opes suae latro- vincamus adversarios. Dant illi quidem consilium, 
+
+nis semper imaginantur occursura, et jugi sollici- sed nostrum est vel eligere, vel respuere quod sug- 
+
+tudine, noctium somnum adimunt. Unde tuae quo- gerunt. Non enim cogendo, sed suadendo nocent, 
+
+que divitiae, coelestis thesaurus, ista cautione indi- Non extorquent a nobis consensuro, sed expetunt, 
+
+gent atque custodia. Quanto ditior es, tanto debes Unde etiam Ananiae dicitur: Quare lentavit cor tuum 
+
+esse vigilantior. Qui enim plus possidet, plus debet Satanas mentiri te Spiritui sancto ( Actor. v, 3)? 
+
+timere ne perdat. Invidere non cessat auctor invi- Quod utique illi Apostolus numquam imputaret, si 
+diae. Et qui seuiel a Deo ipse projectus est , tanto id absque ipsius voluntate diabolus fecisset. Ipsa 
+majori livore torquetur, quanto aliquem apud eum C etiam Eva ideo [AI. jam] condemnatur a Domino 
+viderit clariorem. Qui invidit E vae paradisum, quanto ( Gen . ii) : quia abeo quem poterat superare, supe- 
+
+magis invidet tibi regnum coelorum! Cuncta, mibi rata est. Nec enim meruisset a Domino, injustitiae 
+
+crede, ille nunc circumit, ut beatus Petrus ait, de- puniri quae victa est, nisi vincere ipsa potuisset, 
+
+vorandi te cupidus (I Pet . v, 8): in modum rugien- Gap. XXVI. — Hujus nequissimi hostis est illa vel 
+lis leonis ingreditur, vel more dolosi hostis universa prima calliditas, et ars doli plena, faiigqrc cogita- 
+
+perlustrans, explorat omnes aditus animae tuae : an lionibus rudes aniinas : et novellis in proposito 
+
+ait aliquid infirmum ct minus tutum, per quod pos- mentibus de ipsa interdum conversatione alTerre 
+
+ait irrepere. Rimatur nunc ilie omnia, et singula moerorem : ut facile ab hujus rei profectu deterrea- 
+
+quacque pertentans, quaerit vulneri locum : cujus tu tur animus, cujus initia amara cognoverit* Itaque 
+
+insidias sollicite debes providere, ul qux cum Paulo solet tam sordidas nonnumquam et impias cogita- 
+
+non ignores astutias ejus (II Cor. n, ii). Qui cum tioues inserere menti, ut qui lentatur, dum suum 
+
+terribiles diaboli potestates principatusque deseri- illud putat esse quod cogitat, deteriorem se per 
+
+bat, nos nihilominus hortatur ad pugnam, hostium- spiritum immundum proposito suo arbitretur efle- 
+
+que vim pandit, ut augeat sollicitudinem militum, clum; multoque puriorem animam habuisse se 
+
+Non enim vult nos esse timidos, sed paratos. Deni- D credat, cum adbuc res saeculi amaret. Vult enim 
+
+que non fugam suadet, sed arma suggerit: Propterea , his, quibus invidet callidissimus iuimicus horrorem 
+
+inquit, accipite arma Dei , ut possitis resistere in die propositi ex desperatione facere sanctitatis, ut eos, 
+
+malo , ac in omnibus perfecti stare ( Ephes. vi, 13). obsidente tristitia, et si a proposito non revocat. 
+
+Ac staliro instrumenta singula spiritualis pugnae certe retineat a profectu. Propter quod maxime 
+
+tradens, addidit et dixit : State ergo succincti lumbos sanctarum tibi Scripturarum studium diligendum 
+
+vestros in veritate : et induti loricam justitia, et cal - est : illuminanda divinis eloquiis anima : et corn- 
+icari pedes in pr reparatione Evangelii pacis , tn omnibus scante Dei verbo, diaboli repellendae sunt tenebrae. 
+
+assumentes scutum fidei , in quo possitis omnia tela Cito enim fugit ille ab ea anima, quam sermo divi- 
+
+nequissimi ignea exstinguere : et galeam salutis assu- nus illuminat, quae coelestibus semper cogitationi- 
+
+mite, et gladium sphitus9 quod est verbum Dei9 per bus occupatur, in qua assiduum est Dei verbum, 
+
+omnem rationem et obsecrationem . Et quoniam de cujus vim nequam spiritus non potest ferre. Et id- 
+
+hoc bello licet etiam feminis triumphare, suscipe circo beatus illud Apostolus spiritalis belli inter 
+
+haec arma Pauli, ct tanti hortatione ducis certam caetera instrumenta gladio comparavit {Ephes. v, 17). 
+
+
+Digitized by 
+
+
+Google 
+
+
+4| PELAGII AD DEMETRIADEM EPISTOLA. 42 
+
+Est autem tutissimum atque perrectum, ut assuescat A cti. Qua de re debes (‘‘tepe enim repeto quod fieri 
+animus sollicita sciuper pervigilique custodia dis- semper [AI. semel] volo) sanctas Scripturas sine 
+
+cernere cogitationes suas : ct ad primum animi intermissione meditari , hisque tuam replere men- 
+
+motum [AI. deerat moturo] vel probare, vel repro- tem : et malis cogitationibus locum auferens, divinis 
+
+bare, quod cogitat : ut vel bonas cogitationes alat, animum sedsibus occupare : quantumque Deum 
+
+vel statim exstinguat malas. Hic namque fons est diligas, ex dilectione legis ejus ostendere. Unde 
+
+boni, [AU Hinc.... et quod origo] et origo pec- Scriptura dicit : Qui timent Dominum , inquirent 
+
+candi, omnisque ingeniis delicti in corde principium quod beneplacitum est illi: et qui diligunt eum9 reple - 
+
+est cogitatio [AU cogitatione principium est, quae], buntur lege ejus ( EccU ii, 7). Tunc sentiens quantum 
+
+quae unumquodque opus velut in* quadam cordis ad ejus amorem adjuvet te sapientia : quantum sit 
+
+tabula depingit, antequam faciat. Nam sive ille in te divinae legis auxilium, et Domino cum Dayid 
+
+actus, sive sermo sit, ut proferatur, ante disponi- lacta cantabis, In corde meo abscondi eloquia tua , ut 
+
+fur, et cogitationum consilio discernitur quod fu- non peccem tibi (Ps. cxvm, 16, 51 et seqq.). E.v- 
+
+lurum est. Vides quam brevi interdum momento citandus est enim spiritualibus stimulis semper 
+
+quarque ista quis cogitet, cogitataque perficiat : nec animus, et majori quotidie ardore renovandus.. Ora- 
+
+quicqunm omnino, vel lingua, vel manu, exterisque B lionis instantia, illuminatio lectionis, sollicitudo 
+membris agitur, nisi cogitationes ante dictaverint, vigiliarum, et diurna, ct noctnrna ejus incitamenta 
+
+Unde et Dominus in Evangelio dicit : De corde lio- sunt. Nihil enim in hoc proposito otio deterius est : 
+
+minis procedunt cogitationes mala, adulterium , for - quod non solummodo non acquirit nova: sed etiam 
+
+nicalio , homicidia , furta , falsa testimonia , avaritia , parta [AI. parata] consumit. Sanctae vitas ratio pro- 
+
+n equilia, dolus , impudicitia , oculus malus , blasphe- cessu gaudet ct crescit : cessatione torpescit, et 
+
+mia , superbia , stultitia. Hac sunt quae coinquinant deficit. Quotidianis ac recentibus virtutum incre- 
+
+homines ( Matth . xv, 19, 20). Omnis ergo sollicitudo mentis mens instauranda est : et vivendi nobis hoc 
+
+tua, omnis intentio debet esse in custodia [AU cor- iter, non de transacto, sed de reliquo metiendum, 
+
+dis custodia]. Ibi le maxime oportet observare pec- Quamdiu sumus in hoc corpore, numquatn nos ad 
+
+catum, ubi nasci solet : slatimque ad primam tenta- perfectum venisse credamus : sic enim melius per- 
+
+tinnis repugnare faciem : et malum antequam venitur. Tamdiu non relabimur retro, quamdiu ad 
+
+crescat, exstinguere. Nec enim exspectandum est priora contendimus. At ubi coeperimus stare, de- 
+
+augmentum ejus rei, quae timeri debet a parvo : et sccndimus : nostrumque non progredi, jam reverti 
+
+qurc tnnto facilius vincitur, quanto ei citius repu- est. Cesset omnis ignavia, et inutilis de praeterito 
+
+gnatur. Ideo clamat Scriptura divina : Omni custodia C labore securitas. Si volumus non redire, currendum 
+serva cor tuum: ex eo enim exitus vita ( Prov . iv, 21). est. Beatus Apostolus de die in diem vivens Deo 
+
+Cap. XXVII. — Distinguendum est autem inter non quid ante fecisset, sed quid facere deberet sera» 
+
+istas cogitationes, quibus voluntas favet, quas cum per attendens, dicebat: Fratres , ego me non arbitror 
+
+dilectione amplectitur, ct inter eas cogitationes, comprehendisse aliquid. Unum autem , qua quidem 
+
+quae tenuis umbra modo praetervolare mentem so- sunt retro obliviscens , ad ea vero qua sunt priora me 
+
+lent, seseque tantummodo, vel transeundo mon- extendens , ad destinatum persequor bravium superna 
+
+slrare : quas Graeci tvttouc vorant : vel certe inter vocationis Dei ( Phil . ni, 15, 14). Si beatus Paulus 
+
+illas qux repugnanti ac invito animo suggerunt, vas electionis, qui ita Christum indutus erat, ut 
+
+quibus mens cum horrore quodam renititur ac rc- diceret : Vivo autem jam non ego , vivit vero in me 
+
+sistit : quibus ut contristatur admissis, ita gaudet Christus ( Gal. n, 20); adhuc tamen se extendit, ad- 
+
+expulsis. In illis quidem qu» se leviter menti osten- huc crescit el proficit : quid nos facere debemus, 
+
+dunt, et quasi fugiendo demonstrant se , nec pec- quibus optandum est, ul in fine nostro, Pauli prin- 
+
+catum omnino, nec pugna est. In iis autem , cum cipio comparemur? Ergo tu hunc imitare qui dixit : 
+
+quibus aliquandiu anima luctatur, quibus resistit Imitatores mei estote , sicut et ego Christi (1 Cor . 
+
+voluntas [AI. voluptas], aequale certamen est. Aut® iv, II ). Obliviscere omne praeteritum : ct quotidie 
+enim consentimus, et vincimur : aut respuimus et inchoare te puta : ue pro prasenti die, quo debes 
+
+vincimus , et acquirimus de pugna [AI. pugnationej servire Deo, pnetei itum imputes. Optime quaesita 
+
+victoriam. In illa ergo tantummodo cogitatione custodies, si semper inquiras. Damnum parata sen- 
+
+pcccatum est, qune suggestioni consensum mentis lient, si parare cessaveris, 
+
+dedit : quae malum suum blande fovet : quae in fa- Cap. XXVlli. — Dicas forsitan : Grandis labor esr. 
+ctnm gestit erumpere. Hujusmodi, cogitatio etiamsi Sed respice quod promissum est : Omne opus leve 
+
+ex aliquo impedita casu , non impleat voluntatem, fieri solet, cum ejus pretium cogitatur : et spes prae- 
+
+nihilominus nciione criminis condemnatur a Do- inii solaliuni est laboris. Sic durus agricola inaratum 
+
+mino : ut illud in Evangelio legimus : Qui viderit, diu campum, et pinguiores otio glebas violento vo- 
+
+inqnit, mulierem ad concupiscendum eam , jam mcc- mere scidisse se gaudet, et mirum in modum ipsa 
+
+chatus est eam in corde suo ( Matt. v, 28 ). Apud operis difficultate laetus spem segetis de labore meti- 
+
+Deiim, cui nota sunt omnia etiam antequam fiant, tur. Sic negotiator avidus maria contemnit : specta- 
+
+voluntas perfecta faciendi, reputer pro opere fu- rc aqsos 11 uq luunt spumas rafciproque ventorum, 
+
+PmoL. XXX, , a 
+
+
+Digitized by 
+
+
+Google 
+
+
+43 
+
+
+S. HIERONYMI OPERUM MANTISSA. 
+
+
+44 
+
+
+Dumquc in omni labore ac periculo lucrum cogitat, A 
+ei lassitudinem simul obliviscitur el timorem. Con- 
+sidera, quaeso, magnitudinem praemii lui, si tamen 
+considerari potest quidquid immensum est. Post 
+abscessum animae, post carnis interitum, post favil- 
+las et cinerem, in meliorem statum virgo reparanda 
+cs. Mandatum terrae corpus in coelum elevandum est : 
+ct mortale tuum immortalitatis honore mutandum 
+est. Post haec angelorum es donanda consortio : re- 
+gnum acceptura coelorum, ac in perpetuum mansura 
+cum Christo. Quid ergo retribues Domino pro omni- 
+bus quae retribuit libi (P&al. cxv)? Quid tanto remu- 
+neratore durum putabis, cujus tanta sunt prxmia? 
+Unde beatus Apostolus, Nulla*, inquit, sunt condigna: 
+passiones hujus temporis ad futuram gloriam , quae re- 
+velabitur in nobis (Rom. vm, 18). Quid enim dignum fe 
+Vel facere, vel pati po sumus iu brevi hoc tempore 
+vitae nostrae : cum id immortalitate sit compensan- 
+dum ? 
+
+Cap. XXIX. — Propter quod idem Apostolus ait : 
+
+Jd enim quod in prcesenli stvculo est momentaneum ac 
+leve tribulationis nostra; : supra modum in sublimitalef 
+(Ulernum gloria: pondus operatur in nobis ( II Cor. 
+iv, 17). Respuantur honores, deficiantur divitiae. 
+Ipsa quoque vita nostra martyrii amore com temna- 
+tur. Et hxo omnia etiam si pro aeternitatis praemio 
+non darentur, essent tamen quandoque peritura. 
+Amittunt etiam hoc illi qui scniper cupiunt possidere. 
+Quam multos memoria nostra relinet in maximis ho- 
+noribus ac divitiis constitutos, repente de summo 
+illo potentiae fastigio concidisse : et eos qui tumore C 
+elati, aliud quiddam quam homines esse se putabant, 
+exitu tandem suo docuisse nos quid fuerint. Quid 
+enim in hoc mundo stabile? Quid vero firmum est? 
+Quid porro non breve el incertum, et casui non ser- 
+viens? Quale istud bonum est, quod semper timeas 
+amittere? quod vel auferendum abs te metuas, vel a 
+1e relinquendum scias? Nam et si nullo id eripiatur 
+rasu, vel morte certe perdendum csl. Et si vita no- 
+stra tendatur per mille annos : el ad extremum illum 
+totius diem nelatis, quotidiana deliciarum voluptate 
+veniamus : quale hoc, quxso, diu est, quod line de- 
+letur ! Aut quis illius voluptatis fructus est, qui sta*»- 
+tim ut cessaverit, videbitur tibi non fuisse?Agejam, 
+transactum vilrc lux tempus animo revolve. Nonne 
+videbitur libi umbra quxdam fuisse quod transiit : ® 
+cl ad instar somnii tenuis, incertum esse omne quod 
+videtur? Iloc idem el decrepitus senex sentire pot- 
+est, cui convenit dicere cum propheta : Diesmei sic- 
+ut umbra declinaverunt , el ego sicut fenum arui 
+(Psal. xxi). 
+
+Cap. XXX. — Quod si hxc etiam hic possumus di- 
+cere : ubi quamvis brevis, tamen quia prxsens est 
+vita ista, magni penditur : quid in futuro dicturi su- 
+mus, ubi majore aeternitatis prxsenlia [AI. scientia] 
+transactum omne pro nihilo est? Hxc lu tccum dili- 
+genter revolvens, el brevitatem vitae hujus aeternitatis 
+contemplatione despiciens , ipsum quoque contem- 
+ptum mundi, majori animi virtute contemne ; et ad 
+
+
+illum tantum diem totam [AL tac. totam] para te, in 
+quo mundi gloria finienda est. Illum, inquam, diem, 
+quem Salvator diluvio comparavit : qui multos fal- 
+laci securitate deceptos, furlivo, ul ait Apostolus, 
+comprehendet adventu (1 ThesSi v , 2). Quem beatus 
+quoque Petrus describens ait : Adveniet autem dies 
+Domini sicut fur : in qua caeli magno impetu trans- 
+ibunt. Elementa vero a calore resolventur. Cum igitur 
+[AI. tacet igitur] haec omnia dissolvenda sint, quales 
+oportet nos esse in sanctis conversationibus el pietatibus 
+exspectantes el properantes in adventum Domini Dei, 
+in quo caeli ardentes solventur , et elementa ignis calore 
+tabescent (II Pet. in, 10)? Recens factum est, et quod 
+ipsa audisti, cum ad stridulae buccinx sonum, Gotho- 
+rumque clamorem, lugubri oppressa metu domina 
+orbis Roma contremuit. Chi tunc nobilitatis ordo? 
+ubi certi et distincti illius dignitatis gradus ? Permix- 
+ta omnia, et liinorc confusa, omni domui planctus, 
+el aequalis fuit per cunctos pavor. Unum erat senus 
+el nobilis. Eadem omnibus imago mortis : nisi quia 
+magis eam timebant illi, quibus fuerat vita jucun- 
+dior. Si ita mortalis limemus hostis humanam 
+manum : quid faciemus cum clangore terribili tuba 
+intonare de coelo coeperit : el ad illam archangcli 
+vocem, omni buccina clariorem, totus simul remu- 
+giet mundus? cum viderimus super nos non manu- 
+facta arma conculi, sed et virtutes coelorum commo- 
+veri, sicut Propheta dicit : Cum venerit Dominus po- 
+nere orbem terrae desertum : et peccatores perdere ex 
+eo ( lsa . xui, i) : quis tunc nobis pavor, quae caligo, 
+qux tenebrae, cum nos saepius ac toties admonitos , 
+et tamen imparatos dies ille repererit? Tunc, inquit, 
+plangent super se omnes tribus terrae : et videbunt Fi- 
+lium hominis venientem in nubibus coeli cum virtute 
+multa ct majestate . Tunc dicent montibus. Cadite super 
+nos: ct collibus , Operite nos : et petris. Aperite vos nobis 
+( Matth . xxiv, 30 et seqq. Luc. xxi, 27 et seqq.). Ve- 
+rum hxc eorum sint, qui variis hujus mundi detenti 
+curis, de mundi non cogitant fine. Tu vero cui ad- 
+ventus Christi dieruin noctiumque meditatio est, 
+cui pro conscientiae puritate, Domini est optanda 
+praiseulia : quae consummationem saeculi quasi cer- 
+tum praemii tui tempus exspectas, exsultationem 
+de cado capies, non timorem. Tunc enim tu san- 
+ctorum mixta choris, el sanctis comitata virginibus* 
+sponso obviam subvolabis, et dices : Inveni quem 
+quaesivit anima mea (Cant. iii, 4 ). Nec ullius jam 
+temporis separationem timebis, qux semel immor- 
+talitatis gloria, cl incorruplionis splendore donanda 
+es : et cum Christo semper futura es , Apostolo 
+dicente : Quoniam ipse Dominus in jussu et in voce 
+archangcli , el in tuba Dei descendet de coelo :et mortui 
+qui in Christo sunt , resurgent primi. Deinde nos qui 
+vivimus : qui relinquimur , simul rapiemur cum illis 
+in nubibus obviam Domino in aere: el ita semper cum 
+Christo erimus (I Thess. iv, 16, 17). Hxc sit igitur 
+cura tua semper, hoc studium : hxc jugiter virginis 
+corde volvantur. In his totius dici versetur labor. 
+In bis nocturnus [AC noctis] somnus reponatur. In 
+
+
+Digitized by v^.ooQle 
+
+

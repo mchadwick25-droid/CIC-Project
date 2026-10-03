@@ -1,0 +1,7 @@
+kind: formation
+world_id: roman-church-gregorian
+display_name: "The Roman Church in the Age of Gregory the Great"
+time_window: {start: 560, end: 604}
+place: "Rome, its Sicilian and Italian estates, and the mission field beyond"
+state: building
+census_id: "roman-church-gregorian"

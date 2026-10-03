@@ -332,8 +332,7 @@ li{margin-bottom:.5rem}
     <h2>About This Movement</h2>
     ${narrated ? `
     <div class="narration">
-      <audio controls preload="none">
-        <source src="../audio/tree/${movement.id}.mp3" type="audio/mpeg">
+      <audio controls preload="none" src="../audio/tree/${movement.id}.mp3">
       </audio>
       <p class="narration-disclosure">Synthesized voice — not a recording.</p>
     </div>

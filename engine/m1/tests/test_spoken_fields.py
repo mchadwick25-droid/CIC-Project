@@ -95,7 +95,7 @@ _BUILD_PROMPT_READS = {
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
     "gravity": ["name"],
-    "story": ["tellable_as", "text"],
+    "story": ["tellable_as"],
     "demonstration": ["exchange"],
     "fleet_voice": [
         "register_statements", "register_hold", "pronoun_rule",
@@ -106,7 +106,7 @@ _BUILD_PROMPT_READS = {
 # Hand-verified against engine/m2/builders.py _chunk_text().
 _CHUNK_TEXT_READS = {
     "term": ["plain_meaning", "world_word", "quick_meaning"],
-    "story": ["tellable_as", "text"],
+    "story": ["tellable_as"],
     "ambient": ["detail"],
     "doctrinal_witness": ["text"],
 }
@@ -114,8 +114,8 @@ _CHUNK_TEXT_READS = {
 # Hand-verified against engine/m4/evidence.py _head_text().
 _HEAD_TEXT_READS = {
     "term": ["plain_meaning"],
-    "story": ["tellable_as", "text"],
-    "quote": ["modern_rendering", "text"],
+    "story": ["tellable_as"],
+    "quote": ["modern_rendering"],
     "doctrinal_witness": ["text", "positions"],
     "honest_limit": ["statement"],
     "gravity": ["description"],

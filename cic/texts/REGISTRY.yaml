@@ -3305,6 +3305,7 @@
     The Joys of the Blessed, Robert Bellarmine, trans. Thomas Foxton, with an
     essay by Joseph Addison (1722). pd-us-by-date. The Addison essay is context,
     not Bellarmine's own voice.
+
 - filename: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
@@ -3332,6 +3333,433 @@
     Archive identifier BSG_8A817_2INV992RES_P1 (Bibliotheque
     Sainte-Genevieve copy), host-marked "Domaine public"; 1562 publication
     clears pd-us-by-date outright.
+- filename: alcuin_opera-omnia-letters_migne-pl100-101_1863.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    Alcuin's Opera Omnia including his letters, Migne PL 100-101 (1863). Same batch as
+    above. The report cited Letters 110, 111, 113 in Dummler's later MGH numbering (to
+    Charlemagne, Megenfrid, and Arn, 796, on not burdening newly-converted Saxons with
+    tithes); this earlier Migne edition uses different numbering, so those three letters
+    were NOT individually pinpointed by number - a disclosed, unresolved gap. What is
+    confirmed: extensive genuine Alcuin/Arn correspondence, and the volume's own topical
+    index directly summarizing the same tithe-relief substance at vol. I p. 51. A second,
+    1873 Jaffe-Wattenbach edition (monumentaalcuin00wattgoog) was also checked - genuine
+    content, including a letter numbered 110 there but about a lunar eclipse, confirming yet
+    another distinct numbering scheme - but its OCR quality was too poor to usefully vendor,
+    so only this Migne edition is included. Serves carolingian-reform-christianity.
+
+- filename: annales-regni-francorum_kurze1895.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Annales regni Francorum, ed. Friedrich Kurze (MGH, 1895). Same batch as above. The 782
+    annal and its apparatus (confirming the Verden killings) are present. Report identifier
+    annalesregnifran00anna1895 corrected to annalesregnifran00anna. Serves carolingian-
+    reform-christianity.
+
+- filename: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Auxentius of Durostorum's letter on Ulfila, ed. Friedrich Kauffmann (1899) - one of 12
+    works fetched, verified, and vendored this pass against the "found, but check before
+    vendoring" tier (11 works) of a user-supplied Atlas source-gap report ("Sources the
+    Atlas Cannot Read", 2026-09-16). The report flagged this as a Google Books scan with "no
+    plain-text derivative" - that flag is WRONG: a full, legible djvu.txt exists and was
+    fetched directly. Report identifier ausderschuledes00maxigoog1899 corrected to
+    ausderschuledes00maxigoog. Serves homoian-arian-christianity.
+
+- filename: bede_ecclesiastical-history-english-people_giles1903.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    Bede, Ecclesiastical History of the English Nation. Temple Classics (London: J.M. Dent,
+    1903), edited by L. Cecil Jane, trans. J.A. Giles (1840 translation, revising Stevens's
+    1723 edition) - both facts stated directly in this edition's own front matter, not
+    carried from outside catalog metadata. One of 13 works fetched, verified, and vendored
+    this pass against a 30-work Atlas source-gap report ("Sources the Atlas Cannot Read",
+    2026-09-16) listing works cited by Atlas-documented stories not yet in cic/texts/. The
+    report's own archive.org identifier had a display-year artifact concatenated onto it
+    (ecclesiasticalh00bede1903 -> real identifier ecclesiasticalh00bede); stripped and
+    independently re-verified via direct metadata fetch before use, as with all 13
+    identifiers in this pass. Serves anglo-saxon-christianity.
+
+- filename: boniface_english-correspondence_kylie1911.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    The English Correspondence of Saint Boniface, trans./ed. Edward Kylie (1911). Same batch
+    as above; report identifier cihm_847471911 corrected to cihm_84747. Contains Lioba
+    material (confirmed present, not "Leoba" as in some secondary literature). Serves anglo-
+    saxon-christianity.
+
+- filename: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    Sermons attributed to Caesarius of Arles among the Pseudo-Augustinian sermons, Migne PL
+    39 (1865). Same batch as above. The report's own supplied identifier ("patrologia-
+    latina_1-221") was not a usable archive.org identifier; a clean PL 39 identifier
+    (patrologiae_cursus_completus_lat_vol_039) was found independently by direct search.
+    Sermo XIII and Sermo LXXIV both confirmed present by exact header; the Sermo L-LIX range
+    confirmed present as a block, though individual boundaries among LI-LVIII were not
+    pinpointed (Roman-numeral OCR noise). A secondary German 30-sermon selection the report
+    also listed (11811933bsb, 1896) was checked and confirmed genuine but not vendored as
+    redundant. Serves merovingian-gallic-christianity.
+
+- filename: capitulatio-de-partibus-saxoniae_pertz1881.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Capitulatio de partibus Saxoniae (MGH Leges I, 1881). Same batch as above. Full
+    capitulary text confirmed present. A second candidate the report also listed
+    (monumentagerman07mittgoog1883, "Legum sectio II") was checked and does NOT contain this
+    document - a different Capitularia volume - and is not used. Serves carolingian-reform-
+    christianity.
+
+- filename: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Cyril of Scythopolis's Vita Sabae and Vita Euthymii, in Cotelier's Ecclesiae Graecae
+    Monumenta (1681) - the only public-domain edition, since Schwartz's standard 1939
+    critical edition is still in copyright (as the source-gap report itself notes). SECOND
+    WITNESS ONLY: zero Greek-script characters are recoverable from this scan, so Cyril's
+    own Greek voice is not present here - only Cotelier's Latin translation is genuinely
+    readable. Both vitae confirmed genuinely present in the Latin, but this is a
+    17th-century typeface scan with heavy OCR corruption; the specific ch. 83-90 "New
+    Laura" passage the report cites was NOT pinpointed, and any future quotation drawn from
+    this file needs unusually careful individual eye-verification given the OCR quality -
+    flagged explicitly in the file's own header. Serves
+    chalcedonian-monasticism-judean-desert-and-gaza.
+
+- filename: dhuoda_liber-manualis_bondurand1887.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Dhuoda, Liber Manualis, ed. Edouard Bondurand (1887). Same batch as above. Bondurand's
+    introduction directly names Guillaume, Dhuoda's addressee-son. Report identifier
+    lemanueldedhuoda00dhuo1887 corrected to lemanueldedhuoda00dhuo. Serves carolingian-
+    reform-christianity.
+
+- filename: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Dorotheus of Gaza's Doctrinae, Migne PG 88 (1860). Same batch as above. IMPORTANT: the
+    report cited this same identifier for BOTH Dorotheus's own Discourses AND Barsanuphius
+    and John's Letters 72-123 to Andrew. Only Dorotheus's material is confirmed present here
+    - Barsanuphius/John's own correspondence was NOT found beyond one incidental
+    heresiological cross-reference, and real doubt exists whether it is in this volume at
+    all (their standard edition history runs through Nicodemus's 1816 Venice printing, not
+    Migne). Filed under Dorotheus's own name rather than the report's joint framing; the
+    Barsanuphius/John "I Carry Half Your Burden" citation this report's story needs remains
+    an open, unresolved sourcing gap, not silently closed. Serves chalcedonian-monasticism-
+    judean-desert-and-gaza.
+
+- filename: egeria_pilgrimage-of-silvia_bernard1896.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    The Pilgrimage of S. Silvia [Egeria], trans. J.H. Bernard, in Library of the Palestine
+    Pilgrims' Text Society vol. I (1896-97). Internet Archive identifier
+    libraryofpalesti01paleuoft. A separate edition from the McClure & Feltoe 1919
+    translation of the same work, also tracked independently in
+    worlds/_cross-world/download-queue-seed.yaml (identifier pilgrimageofethe00mccliala) -
+    the two are not the same file. Serves jerusalem-liturgical-pilgrimage-christianity.
+
+- filename: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    The Ecclesiastical History of Evagrius (A.D. 431-594), trans. E. Walford (London:
+    Samuel Bagster and Sons, 1846). Same batch; report identifier ecclesiasticalhi0000evag1846
+    corrected to ecclesiasticalhi0000evag. Extensive Dioscorus material confirmed present
+    (raw-scan line ~1723) - Evagrius, an Antiochene Chalcedonian, gives an outside/hostile
+    account of Alexandria's deposed miaphysite patriarch. A separate 1898 Bidez-Parmentier
+    edition (identifier ecclesiasticalhi00evag) was checked but not fetched in full - its
+    report-claimed "grc+eng" bilingual status was not independently verified, so this 1846
+    all-English Walford translation is used as the confirmed source instead. Serves
+    byzantine-imperial-church-justinianic and cyrilline-miaphysite-egyptian-christianity.
+
+- filename: gregory-tours_history-of-the-franks-v2_dalton1927.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Gregory of Tours, History of the Franks, vol. II, trans. O.M. Dalton (1927). Same batch;
+    report identifier historyoffranks0002greg1927 corrected to historyoffranks0002greg.
+    Sichar/Chramnesind feud confirmed present. The specific "Radegund walks out of the
+    palace" passage the report's story cited was NOT located on this pass - only a
+    different, unrelated Radegund-monastery story (a nun named Disciola) was found. Vendored
+    regardless since the volume is genuine and on-topic; that one specific passage's
+    presence is an open, disclosed gap, not resolved by this entry. Serves merovingian-
+    gallic-christianity.
+
+- filename: john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    John Chrysostom's homily on the martyr Lucian of Antioch, Migne PG 50 (1862), Latin
+    translation by Fronton du Duc. Same batch as above; the report itself only suggested
+    "Patrologia Graeca vol. 50" as a search direction. "IN S. MARTYREM LUCIANUM" confirmed
+    present (identifier patrologicursusc0050unse), with the editorial Monitum naming
+    Lucian's death by starvation under Maximinus, matching the story's own framing.
+    IMPORTANT: a first, more standard-looking identifier for this same volume
+    (patrologiae_cursus_completus_gr_vol_050) was also fetched and found completely unusable
+    - its OCR applied a Greek-only character recognizer to the whole bilingual page,
+    garbling both the Greek and the Latin translation into unreadable pseudo-Greek text (0%
+    Latin-alphabet-legible by direct measurement) - do not use that identifier for this
+    volume. This file's own identifier is materially better but is not itself fully clean:
+    zero Greek-script characters are recoverable from it either, so Chrysostom's own Greek
+    is not present here - only Fronton du Duc's Latin translation is genuinely readable.
+    Serves antiochene-church-third-century.
+
+- filename: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    The Third Part of the Ecclesiastical History of John, Bishop of Ephesus, trans. R. Payne
+    Smith (1860). IDENTIFIER CORRECTION (the largest of this pass): the report cited
+    identifier thirdpartofeccl00john1860 as "Payne Smith's translation, 1860," but that
+    identifier's real metadata is dated 1853 with creator "Cureton, William" - Cureton's
+    Syriac-only critical edition, confirmed unusable by its own garbled non-Latin-script OCR
+    when fetched and checked directly (saved to /tmp/thirdpart_check.txt, discarded). The
+    real Payne Smith 1860 English translation was found by an independent archive.org search
+    at a different identifier, ecclesiasticalhi00johnuoft, and confirmed via its own preface
+    ("R. PAYNE SMITH. OXFORD. FEB. 1860") and its own account of Cureton publishing the
+    Syriac in 1853 without completing the intended English translation, which Payne Smith
+    then supplied. This is the identifier actually vendored here. Serves syriac-orthodox-
+    west-syriac-christianity.
+
+- filename: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Patrologia Orientalis tome XVII, Lives of the Eastern Saints (I), by John of Ephesus,
+    ed./trans. E.W. Brooks (1923, confirmed from this file's own imprimatur date). Same
+    batch; confirmed substantially on-topic (the serialized Lives of the Eastern Saints
+    itself, not a mixed issue). The exact chapter 49-50 (Jacob and Theodore) boundary the
+    report's story cited was not pinpointed across this or the following two fascicules -
+    OCR noise defeated a Roman-numeral chapter search - a disclosed, unresolved imprecision.
+    Serves syriac-orthodox-west-syriac-christianity.
+
+- filename: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Patrologia Orientalis tome XVIII, Lives of the Eastern Saints (II), by John of Ephesus,
+    ed./trans. E.W. Brooks. Same batch; publication year 1924 inferred from this serialized
+    work's own sequence (PO17 and PO19 independently confirmed 1923 and 1926 respectively
+    from their own front matter) rather than independently re-verified against this specific
+    file's own colophon - disclosed as an inference, not a fabricated fact. Same chapter-
+    boundary imprecision as PO17 applies. Serves syriac-orthodox-west-syriac-christianity.
+
+- filename: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Patrologia Orientalis tome XIX (1926), a mixed periodical fascicule whose own contents
+    list (independently verified, lines 1-30 of the raw scan) shows John of Ephesus's Lives
+    of the Eastern Saints (X) as only one of several unrelated articles (an Armenian
+    Synaxarion, Byzantine homilies, a Georgian Synaxarion, Arabic Logia). Vendored whole,
+    with the mixed contents disclosed in the file's own header, rather than extracted, since
+    the John of Ephesus portion's exact start/end boundary inside the issue was not pinned
+    down. Serves syriac-orthodox-west-syriac-christianity.
+
+- filename: john-nikiu_chronicle_charles1916.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    The Chronicle of John, Bishop of Nikiu, trans. R.H. Charles (1916). Same batch; report
+    identifier JohnOfNikiuChronicle19161916 corrected to JohnOfNikiuChronicle1916 (the
+    actual server filename uses underscores: John_of_Nikiu_Chronicle_1916_djvu.txt, not the
+    plain concatenation first guessed). "Chapter CXXI...Abba Benjamin" content confirmed
+    present. Serves cyrilline-miaphysite-egyptian-christianity.
+
+- filename: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    The Relatio Motionis and Disputatio Bizyae (the record of Maximus the Confessor's 655
+    trial and 656 dispute), Migne PG 90 (1860). Same batch as above. The phrase "relatio
+    motionis facte inter S. Maximum et socium ejus atque principes" confirmed present
+    verbatim, with better OCR quality than the PG88 volume above. Serves byzantine-imperial-
+    church-heraclian-iconoclast.
+
+- filename: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    Moses of Khoren, History of the Armenians, Italian version by the Armenian
+    Mechitarist monks of San Lazzaro, Venice (second edition, 1850) - the only
+    public-domain rendering, since no PD English translation exists. The
+    overall translation is credited on this scan's own title page to the
+    Mechitarist monks, not to Niccolo Tommaseo; Tommaseo is named only at
+    scattered points in the body where the monks'
+    translation quotes his separately-published verse renderings of specific
+    passages. Mashtots's own alphabet-invention narrative confirmed genuinely
+    present; this translation's own book/chapter division was not independently
+    cross-checked against a modern critical edition's numbering. Serves
+    armenian-christianity-conversion-era.
+
+- filename: nithard_historiarum-libri-iv_pertz-muller1907.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Nithard, Historiarum Libri IV, ed. Pertz/Muller (MGH, 1907). Same batch as above. All
+    four books confirmed present; the exact III.2/IV.6 chapter boundaries the report cites
+    were not individually pinpointed - a disclosed, unresolved imprecision. Serves
+    carolingian-reform-christianity.
+
+- filename: pelagius_epistula-ad-demetriadem-lat_migne.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Pelagius, Epistola I (Ad Demetriadem), extracted from Migne, Patrologiae Cursus
+    Completus, Series Latina, Tomus XXX (1846), where it is printed among Jerome's spuria.
+    Same batch; report identifier patrologiae_cursus_completus_lat_vol_0301846 corrected to
+    patrologiae_cursus_completus_lat_vol_030. PARTIAL EXTRACT (raw-scan lines 407-2164 of
+    the ~79,941-line full volume) following the same disclosed-partial-extraction pattern
+    already used in this corpus for calvin-bullinger_consensus-tigurinus...beveridge1844.txt
+    - the surrounding volume is a large multi-work anthology unrelated to Pelagius beyond
+    this one letter. Latin text only, no English translation in this edition. Serves
+    pelagianism.
+
+- filename: prudentius-troyes_annales-bertiniani_waitz1883.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; not independently re-verified
+    against archive.org this pass - relies on the original sourcing
+    pass's own disclosed rigor, per this file's own notes)
+  date_added: '2026-09-25'
+  notes: >-
+    Annales Bertiniani, auctore Prudentio (Bishop of Troyes), ed. Georg Waitz (MGH, 1883).
+    Same batch as above, cited as corroboration for the Dhuoda-adjacent Nithard material at
+    s.a. 844 and 850. Both years confirmed present, still under Prudentius's own authorship
+    heading. Report identifier annalesbertinian00wait1883 corrected to
+    annalesbertinian00wait. Serves carolingian-reform-christianity.
+
+- filename: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    Rufinus of Aquileia's Latin rendering of Origen's Homilies on Numbers, ed. W.A. Baehrens
+    (GCS, 1921) - one of 2 works fetched and vendored this pass against the "no public-
+    domain edition found" tier of a user-supplied Atlas source-gap report ("Sources the
+    Atlas Cannot Read", 2026-09-16), which itself only suggested this edition as a search
+    direction rather than a resolved identifier. Found by direct archive.org search.
+    Rufinus's own preface to Donatus is confirmed present and directly names the cited
+    autobiographical detail: writing in Sicily while a Barbarian force burned the town of
+    Regium (Reggio) just across the strait, c. 410 CE. Serves aquileian-christianity.
+
+- filename: severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located acquisition; among the 8 files independently
+    re-verified against archive.org directly before vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    History of the Patriarchs of the Coptic Church of Alexandria, attrib. Severus ibn
+    al-Muqaffa, ed./trans. B. Evetts - Patrologia Orientalis Tome I, Fasc. 2 ("Saint Mark
+    to Theonas", 1904) and Fasc. 4 ("Peter I to Benjamin I", 1907), bound together in
+    this one scan, per the scan's own two part-title pages (see the vendored file's own
+    header). Report identifier historyofpatriar0000beve_d4b41904 corrected to
+    historyofpatriar0000beve_d4b4. An unrelated bound-in work, "Mina - Vie d'Isaac", sits
+    between the two fascicules under a different Tome/Fascicule header. Benjamin I, 38th
+    Patriarch, confirmed present within the Fasc. 4 (1907) material. Benjamin I's reign
+    (626-665) spans the Arab conquest (639-642), so this file is cross-assigned to both
+    cyrilline-miaphysite-egyptian-christianity and coptic-christianity-under-early-islam
+    rather than one alone.
 - filename: romanos-melodist_cantica-grc_pitra1888.txt
   supplied_by: >-
     Claude (tech-readiness build thread: re-vendored from a stale, unmerged
@@ -6106,3 +6534,227 @@
     38th homily), Bibliothek der Kirchenvaeter (Kempten, Koesel, 1878). Fetched directly (curl) from
     Internet Archive item 11376810bsb (Bayerische Staatsbibliothek digitisation). RIGHTS: pd-us-by-
     date, 1878 printed in the file; no rights tag on the item.
+- filename: john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    Lives of the Eastern Saints, John of Ephesus, ed./trans. E. W. Brooks,
+    Patrologia Orientalis 17-19 (1923-1926). pd-us-by-date (published
+    1923-1926, >95 years). Vendored from Robert Bedrosian's compiled Internet
+    Archive upload (identifier john-of-ephesus-lives-eastern-saints), which
+    also bundles two OTHER files this build did NOT vendor and flags here so
+    nobody mistakes them for cleared: John_of_Ephesus_Resources_djvu.txt (a
+    bibliography, not primary text - simply not needed) and
+    ZuqninIII_Second_Part_Ecclesiastical_History_Harrak_1999_djvu.txt, which
+    is Amir Harrak's 1999 translation (Pontifical Institute of Mediaeval
+    Studies) - still in copyright, NOT public domain, and must never be
+    vendored from this bundle or any other source without a separate rights
+    clearance.
+    OCR caveat: this edition prints Syriac text and English translation
+    together (three parts run continuously in one download); large stretches
+    of the file are Syriac-script OCR garbage, not English. Every citation
+    must be individually confirmed to land in an actual English passage
+    before it is treated as quotable - see this world's Doc_02 Source
+    Registry for the loci already confirmed this way (directly verified:
+    ch. 49, "The Forty-Ninth History, of the Blessed James the Bishop," the
+    Jacob/James Baradaeus portrait, incl. the footnote deriving his
+    nickname from Burd'ana/Burd'ana, "the man of the patchwork garment").
+    Brooks' translation renders the bishop's name as "James," not "Jacob" -
+    carry this naming variance forward into any record that cites him.
+- filename: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Third Part of the Ecclesiastical History of John, Bishop of Ephesus,
+    trans. R. Payne Smith (Oxford, 1860), from the Syriac manuscript W.
+    Cureton had published in 1853. pd-us-by-date. Parts I-II of the History
+    do not survive except in later excerpts (via Michael the Syrian and
+    others) and are NOT in this file - only Part III, covering events from
+    roughly the 550s-580s. Directly verified: Book III.36-38 (pp. 229-234,
+    the Tralles mission - temple-to-monastery conversion at Derira, 24 new
+    churches, 4 monasteries, the dispute with the bishop of Tralles) is
+    present and reads as clean English narrative. The translator's own
+    Preface (p. vii) states the "seventy thousand" baptism figure explicitly
+    ("in the space of four years he baptized no less than seventy thousand
+    persons"), citing "the 230th and following pages" (III.36 onward) - this
+    build confirmed the narrative those pages contain but did NOT locate the
+    number itself restated in John's own first-person/third-person narrative
+    voice within III.36-38 as checked; it may sit in II.44 (not in this
+    volume) or later in III (past the stretch checked). Treat the "seventy
+    thousand" figure as the 1860 editor's summary of John's own count,
+    independently attested but not yet pinned to an exact locus in this
+    file - a task for whoever writes the first quote record citing it.
+- filename: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Sixth Book of the Select Letters of Severus, Patriarch of Antioch, in
+    the Syriac Version of Athanasius of Nisibis - Vol. II (Translation), Part
+    I, ed./trans. E. W. Brooks (Text and Translation Society, 1903).
+    pd-us-by-date. English-translation volume; Vol. I (the Syriac text
+    itself) is a separate archive.org item, not vendored here. Covers only
+    the Sixth Book of Severus's letters (123 letters survive of this one
+    book) - not his complete correspondence; other letter collections
+    (further Select Letters volumes, the separate Brooks 1915 "Collection of
+    Letters" fascicules) are real acquisition targets, not yet vendored -
+    see WANTS-REGISTER.md / download-queue-seed.yaml.
+- filename: severus-of-antioch_select-letters-book6-part2_brooks1904.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    Companion volume to severus-of-antioch_select-letters-book6-part1_
+    brooks1903.txt - Vol. II (Translation), Part II (Text and Translation
+    Society, 1904). pd-us-by-date. Together Parts I-II are the complete
+    English translation of the Sixth Book.
+- filename: philoxenus-of-mabbug_discourses_budge1894.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Discourses of Philoxenus, Bishop of Mabbogh, A.D. 485-519, ed./trans.
+    E. A. Wallis Budge (Asher & Co. for the Royal Society of Literature,
+    1894) - Vol. II, the English translation (Vol. I, the Syriac text, is a
+    separate archive.org item, not vendored here). pd-us-by-date. Thirteen
+    discourses on the ascetic life; Philoxenus predates this world's own
+    opening date (451) by birth (c. 440) but his episcopate (485-523) and
+    his role as a leading anti-Chalcedonian theologian sit squarely inside
+    it - a boundary-adjacent figure, not a clean fit at either edge, worth
+    the same treatment Doc_01 gives other boundary figures.
+- filename: joshua-the-stylite_chronicle_wright1882.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Chronicle of Joshua the Stylite, Composed in Syriac A.D. 507, ed./
+    trans. William Wright (Cambridge, 1882). pd-us-by-date. Authorship is
+    traditional/uncertain: the chronicle survives only embedded within the
+    later Chronicle of Zuqnin (compiled c. 775), attributed there to a monk
+    named Joshua; modern scholarship treats "Joshua the Stylite" as the
+    manuscript tradition's own label, not a securely identified author -
+    flag as such wherever this build names him. Covers 494/5-506 CE (the
+    Roman-Persian Anastasian War and its build-up around Edessa) - the
+    chronicler's own theological allegiance is not overtly Chalcedonian or
+    anti-Chalcedonian in the way the Chronicle of Edessa's is; role
+    (context vs. tradition) needs a considered call, not an assumption
+    inherited from that precedent. OCR quality: clean in the English
+    narrative body; footnotes carrying Syriac/Arabic transliteration are
+    frequently garbled and are apparatus, not text to quote.
+- filename: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+  supplied_by: Claude (library-stage build thread, syriac-orthodox-west-syriac-christianity, Steps 0-2)
+  date_added: '2026-09-25'
+  notes: >-
+    The Syriac Chronicle Known as That of Zachariah of Mitylene, trans. F. J.
+    Hamilton and E. W. Brooks (Methuen & Co., 1899), from BM Add. 17,202.
+    pd-us-by-date. Composite work: the received Chronicle is a compilation
+    whose Books III-VI derive from the historical Zacharias Scholasticus of
+    Gaza (a Chalcedonian, not this world's own voice) and whose surrounding
+    books were assembled and added to by an anonymous continuator writing
+    c. 569 - modern scholarship (the Greatrex/Phenix/Horn 2011 Translated
+    Texts for Historians edition, NOT vendored here, still in copyright)
+    calls the whole compilation "Pseudo-Zachariah Rhetor" for this reason.
+    This 1899 edition predates that authorship analysis and titles it
+    simply for Zachariah; own-voice/opponent-voice/compiler-voice tagging
+    must be done book-by-book and section-by-section, not assumed uniform
+    across the whole file - a live task for Doc_02's own source registry,
+    not resolved by this note.
+- filename: wesley-j_journal-v1_curnock1909.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    The Journal of the Rev. John Wesley, A.M., ed. Nehemiah Curnock (London: R. Culley,
+    [1909?]-1916), Vol. I of 8 - the standard scholarly "Curnock edition" of Wesley's
+    Journal. RIGHTS: public domain by date, publication complete by 1916, independently
+    corroborated by the Internet Archive item's own "Permission Granted to Digitize Item"
+    notice. Fetched directly (curl, raw bytes) from Internet Archive item
+    a613690401wesluoft (archive.org/details/a613690401wesluoft), the item's own _djvu.txt
+    full-text derivative; header prepended per cic/texts/INTAKE.md, body otherwise
+    unaltered including its own OCR errors. VOLUME SCOPE FLAG: Volume I only, covering
+    Wesley's early life through the Aldersgate "heart strangely warmed" entry (24 May
+    1738); Volumes II-VIII (1738 onward, the bulk of the movement's own working life) are
+    NOT vendored in this pass - a real, disclosed acquisition gap, not a silent one (see
+    this world's Open_Gaps_Tracking.md).
+- filename: wesley-j_sermons-v1_1771.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Sermons on Several Occasions, Vol. I (Bristol: William Pine, 1771) - Wesley's own
+    first collected edition of his prose works, containing Sermons I-XVI of the
+    Forty-Four Standard Sermons (Salvation by Faith; The Almost Christian; "Awake, Thou
+    That Sleepest"; Scriptural Christianity; Justification by Faith; The Righteousness of
+    Faith; the Sermon on Mark i.15; The First-Fruits of the Spirit; The Spirit of Bondage
+    and of Adoption; The Witness of the Spirit I-II; The Witness of Our Own Spirit; and
+    beyond). RIGHTS: public domain by date, an 18th-century original edition. Fetched
+    directly (curl, raw bytes) from Project Gutenberg eBook #59743
+    (gutenberg.org/ebooks/59743), the plain-text (.txt.utf-8) release; header prepended
+    per cic/texts/INTAKE.md, Gutenberg's own license boilerplate left in place, body
+    otherwise unaltered. Sermon I begins at line 490 of the vendored file (a table of
+    contents and a preface precede it).
+- filename: wesley-j_large-minutes_1850.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Minutes of Several Conversations, between the Rev. John Wesley, A.M., and the
+    Preachers in Connexion with Him - "the Large Minutes," Methodism's own cumulative
+    discipline document (distinct from a single year's annual Conference Minutes). This
+    reprint (Reprinted for the Methodist Book-Room, 1850) states its own underlying text
+    as "London, Printed for G. Whitfield, 1797" - a posthumous printing reflecting the
+    Minutes as they stood soon after Wesley's 1791 death, NOT the final 1789 edition
+    issued in Wesley's own lifetime; disclosed here rather than silently equated with the
+    1789 text. RIGHTS: public domain by date either way. Fetched directly (curl, raw
+    bytes) from Internet Archive item minutesofseveral00wesliala
+    (archive.org/details/minutesofseveral00wesliala, "NOT_IN_COPYRIGHT" per the item's
+    own metadata), the item's own _djvu.txt full-text derivative; header prepended per
+    cic/texts/INTAKE.md, body otherwise unaltered.
+- filename: wesley-c_hymns-methodists_1780.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    A Collection of Hymns, for the Use of the People Called Methodists (London: J.
+    Paramore, at the Foundry, 1780) - 525 hymns, the great majority Charles Wesley's own
+    composition, compiled and prefaced in John Wesley's name (Preface signed "John
+    Wesley," 20 Oct. 1779). RIGHTS: public domain by date. Fetched directly (curl, raw
+    bytes) from Internet Archive item
+    bim_eighteenth-century_a-collection-of-hymns-f_wesley-john_1780, the item's own
+    _djvu.txt full-text derivative; header prepended per cic/texts/INTAKE.md. LONG-S
+    NORMALIZED: 13,050 occurrences of the historical long-s glyph mechanically converted
+    to modern round-s throughout (one-to-one, unambiguous). A small number (fewer than
+    20) of stray thorn/eth-shaped OCR-misread glyphs (page ornaments, rule marks, one
+    misread "baptize") were left UNTOUCHED rather than guessed at - the correct
+    underlying character cannot be recovered with certainty in every case, and guessing
+    would itself be a fabrication risk; anyone verifying a quote whose locus falls near
+    one of these glyphs should check the scanned page image directly. Nothing else
+    altered.
+- filename: asbury_journal-v1_1821.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    The Journal of the Rev. Francis Asbury, Bishop of the Methodist Episcopal Church,
+    from August 7, 1771, to December 7, 1815. In Three Volumes. Vol. I (Aug. 1771-Jul.
+    1786) (New York: N. Bangs and T. Mason, for the Methodist Episcopal Church, 1821) -
+    the original first American edition. RIGHTS: public domain by date. NOT the modern
+    critical edition (Clark, Potts & Payton, eds., The Journal and Letters of Francis
+    Asbury, 3 vols., Epworth/Abingdon, 1958), which remains in copyright and is not
+    vendored here - disclosed explicitly to prevent confusion between the two. Fetched
+    directly (curl, raw bytes) from Internet Archive item 00612616.emory.edu (Pitts
+    Theology Library / Emory University digital collection, whose own online notice
+    states the edition is public domain), the item's own _djvu.txt full-text derivative;
+    header prepended per cic/texts/INTAKE.md, body otherwise unaltered.
+- filename: asbury_journal-v2_1821.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Same work as asbury_journal-v1_1821.txt, Vol. II (Jul. 1786-Nov. 1800). RIGHTS and
+    edition caveats as stated for Vol. I. Fetched directly (curl, raw bytes) from
+    Internet Archive item journalofrevfran00asbu (a New York Public Library copy), the
+    item's own _djvu.txt full-text derivative; header prepended per
+    cic/texts/INTAKE.md, body otherwise unaltered. The file's own title page reads
+    Vol. II, so this identifier is Volume II.
+- filename: asbury_journal-v3_1821.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Same work as asbury_journal-v1_1821.txt, Vol. III (Nov. 1800-Dec. 1815). RIGHTS and
+    edition caveats as stated for Vol. I. Fetched directly (curl, raw bytes) from
+    Internet Archive item 00612616.874.emory.edu (Pitts Theology Library / Emory
+    University digital collection), the item's own _djvu.txt full-text derivative;
+    header prepended per cic/texts/INTAKE.md, body otherwise unaltered. This volume's
+    own closing errata note (retained verbatim) flags one date correction against Vol.
+    II (a misprint of 1797 for 1799).

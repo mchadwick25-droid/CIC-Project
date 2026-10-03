@@ -592,3 +592,19 @@ The force is about how later centuries sorted this world's writings. Its descrip
 Not fixed here. The wording cannot be cleaned without changing what the force says, because its whole subject is the later sorting. Fixing it needs a ruling on whether a force that is retrospective by design is voice material, or is read by the Facilitator only. The same fleet check on 2026-10-02 fixed four single-sentence cases in `desert` and `gallic` and the `pahc.gravity.martyrdom-meaning` description, wording only.
 
 Status: OPEN — ruling needed.
+
+### OG-20. Ruling on the retrospective force `pahc.force.selective-canonization`, 2026-10-02.
+
+The project lead ruled that this record is Facilitator-side material. It is real scholarship about how pahc's writings survived, but it is written from after the world's window, so the Representative should not read it.
+
+Nothing is changed in the record. No record flag exists today to keep a record away from the Representative: the record status values are draft, ready and frozen only, and a new flag is a methodology change. The conversation engine redesign is to define how a record is marked Facilitator-side. Until then the record stays as written.
+
+OG-19 (2026-10-02) states the gap this ruling answers.
+
+Status: RULED — Facilitator-side only. Open until the engine redesign defines the mark and the record carries it.
+
+### OG-21. The horizon rule answers OG-19 and OG-20, and both close when the horizon gate lands, 2026-10-02.
+
+The conversation system design, approved to proceed on 2026-10-02 (System Hub Decision Log, "Conversation system design: approved to proceed, Design C"), gives the mark the ruling of 2026-10-02 waited for. A build gate checks each record's voice-facing text against the world's window. A force written from after the window is classed analytic and kept out of what the Representative reads. `pahc.force.selective-canonization` is that case. OG-19 (2026-10-02) and OG-20 (2026-10-02) close under this rule when slice 5, the horizon gate, lands and pahc passes it. Nothing changes in the record before then.
+
+Status: OPEN until slice 5 lands.

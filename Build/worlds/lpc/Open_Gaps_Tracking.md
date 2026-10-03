@@ -1517,3 +1517,10 @@ Logged 2026-09-30. Two threads ran the field-bibliography sweep on the same sour
 - **Letters and confidence.** Where the two sides gave a different letter for the same file (Koch and Benson: B on `main`, C on the branch) or a different corpus-map confidence (`assigned` against `provisional`), the more cautious value was kept: C and `provisional`.
 - **Counts.** The corpus-map census in Doc_02 §1 was recounted on the merged map: 213 raw entries, 168 `tradition`, 166 distinct `tradition` titles in this world's file. The two earlier counts are kept there with their dates.
 
+### OG-27. Two `records/lpc` source records corrected on the project lead's instruction, 2026-09-30; related copies still open.
+
+Logged 2026-09-30 by the Library thread. It updates the `records/lpc` bullet of OG-24, which said those records were not edited.
+
+- **Corrected.** `source/lpc.source.lancel-actes-de-la-conference-de-carthage-411.md`: `rights_status` now says Lancel's edition is in copyright and consultation-only, and the *Gesta* text is public domain by date in the Migne PL 11 and Mansi tom. 4 printings; the act count is thirteen (act 158 is a subscription); and the record says Doc_04 relies on act 158. `honest_limit/lpc.limit.411-gesta-unread.md`: the source's `license` is `in-copyright-consultation`.
+- **World core corrected.** `world_core/lpc.core.latin-pastoral-congregational-christianity.md` (the horizon and caution 9) now says thirteen acts and names the one fact drawn from the *Gesta*, that act 158 is a signature on the mandate.
+- **Still open.** Three readability findings predate these edits and are unchanged: the 411-Gesta limit record's statement scores FRE 55.2, and the world core's horizon and formation_logic score FRE 55.1 and 56.4, against the floor of 60.

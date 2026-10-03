@@ -175,6 +175,19 @@ works:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
   source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899--epistula-de-fide-vita-et-obitu-wulfilae
+  work: Epistula de Fide, Vita et Obitu Wulfilae
+  author: auxentius-durostorum
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'A disciple''s own eyewitness confession of Ulfila''s Homoian faith - the closest
+    thing to a first-person Homoian Gothic confessional statement in the corpus. Confirmed
+    genuinely legible despite the supplying report''s own (incorrect) flag that no plain-text
+    derivative existed.
+
+    '
+  source_file: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
 - row_id: npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons-2
   work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381

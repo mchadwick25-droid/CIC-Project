@@ -12,6 +12,7 @@ import uuid
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from typing import Callable
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
@@ -37,7 +38,7 @@ from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
 from engine.m8.cost import estimate_cost
 from engine.m8.log_store import UsageLogStore
-from engine.m8.price_tables import price_for_call_kind
+from engine.m8.price_tables import price_for_call
 
 class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
@@ -382,7 +383,7 @@ class WorldUsage:
     output_tokens: int
     cache_creation_input_tokens: int
     cache_read_input_tokens: int
-    # Sum of only the calls engine.m8.price_tables.price_for_call_kind
+    # Sum of only the calls engine.m8.price_tables.price_for_call
     # could price - unpriced_calls says how many of `calls` are NOT
     # reflected in priced_dollars, so this never silently understates
     # itself as a complete total (spec principle 13: no guessed figure).
@@ -493,7 +494,7 @@ def get_usage_summary(
         bucket["output_tokens"] += record.usage.output_tokens
         bucket["cache_creation_input_tokens"] += record.usage.cache_creation_input_tokens
         bucket["cache_read_input_tokens"] += record.usage.cache_read_input_tokens
-        price_table = price_for_call_kind(record.call_kind)
+        price_table = price_for_call(record.call_kind, record.model_id)
         if price_table is None:
             bucket["unpriced_calls"] += 1
         else:
@@ -655,6 +656,7 @@ def handle_message(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     daily_turn_cap_reached: bool = False,
+    on_draft_text: Callable[[str], None] | None = None,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -790,6 +792,7 @@ def handle_message(
             other_tradition_revealed=other_tradition_revealed,
             self_revision_enabled=self_revision_enabled,
             daily_cap_reached=daily_turn_cap_reached,
+            on_draft_text=on_draft_text,
         )
     except UnhandledRoutingAction:
         # Not caught and softened into a note about a test build: all seven
