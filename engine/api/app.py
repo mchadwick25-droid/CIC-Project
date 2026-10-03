@@ -24,8 +24,9 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, deeper_routes, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
+from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
 from engine.m4.projection import project_fresh
@@ -410,6 +411,7 @@ def create_app(
     streaming_enabled: bool = False,
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
+    deeper: deeper_routes.DeeperRuntime | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -472,6 +474,15 @@ def create_app(
     @app.get("/health")
     def health():
         return {"status": "ok"}
+
+    if deeper is not None:
+        def _admin_check(request: Request, authorization: str | None) -> None:
+            _authenticate_admin(
+                request.app.state.deps.admin_token, authorization,
+                session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME),
+            )
+
+        deeper_routes.install(app, deeper, authenticate_admin=_admin_check)
 
     @app.get("/api/worlds", response_model=WorldListResponse)
     def list_worlds_endpoint(request: Request):
@@ -827,9 +838,17 @@ def _build_real_app() -> FastAPI:
     # fatal) until that bucket is configured (setup steps in
     # Build/Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md),
     # same deferred-until-configured pattern as CIC_API_PACKAGE_BUCKET.
+    data_dir = Path(settings.events_db_path).parent
+    deeper_config = DeeperConfig.from_env(str(data_dir))
+    deeper_runtime = None
+    if deeper_config.enabled:
+        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ))
+        deeper_routes.install_access_log_filter()
+        deeper_routes.start_retention_thread(deeper_runtime)
     db_backup.start_background_scheduler(
-        settings.events_db_path, settings.usage_db_path, Path(settings.events_db_path).parent / "backups-staging",
+        settings.events_db_path, settings.usage_db_path, data_dir / "backups-staging",
         qc_db_path=settings.qc_db_path,
+        extra_dbs={"meter": deeper_config.meter_db_path} if deeper_runtime is not None else None,
     )
 
     # The anonymous quality-control store and the daily retention job
@@ -864,6 +883,7 @@ def _build_real_app() -> FastAPI:
         citation_attach_enabled=settings.citation_attach_enabled,
         qc_recorder=qc_recorder,
         streaming_enabled=settings.streaming_enabled,
+        deeper=deeper_runtime,
         # Same path m7_scheduler.start_background_scheduler was already
         # given above - one directory, two readers (the daily job writes
         # it, the usage-summary endpoint reads it).

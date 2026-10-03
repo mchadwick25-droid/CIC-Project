@@ -467,6 +467,10 @@ jobs:
       # only the hermetic unit tests - never a live Bedrock call.
       - run: python -m pytest engine/m8/tests -q
 
+      # Go Deeper meter and claim stores (standard library only; imports
+      # nothing from the conversation engine).
+      - run: python -m pytest engine/deeper/tests -q
+
       # M7 audit and per-turn readability; M10 build gates.
       - run: python -m pytest engine/m7 -q
       - run: python -m pytest engine/m10 -q
@@ -492,6 +496,8 @@ jobs:
       # client + the real committed fixture-world package, never a live
       # AWS call.
       - run: python -m pytest engine/api/tests -q
+      # The same suite again with Go Deeper mounted on every test app.
+      - run: CIC_TEST_DEEPER=1 python -m pytest engine/api/tests -q
 
   # M2 staleness and M9 confinement, merged 2026-09-23 (see top-of-file
   # comment). Deliberately kept separate from engine-tests above: both
