@@ -112,6 +112,10 @@ class Settings:
     # Default off.
     citation_attach_enabled: bool
 
+    # The anonymous quality-control store (engine.m7.qc_store): a separate
+    # SQLite file, sharing no key with the event log or the usage log.
+    qc_db_path: str
+
     # Lets a client that asks for an event stream (Accept: text/event-stream)
     # read an interview reply sentence by sentence while it is written
     # (engine.api.app._stream_message). Off by default.
@@ -153,5 +157,6 @@ class Settings:
             r27_enforce=os.environ.get("CIC_R27_ENFORCE", "") in ("1", "true", "yes"),
             self_revision_enabled=os.environ.get("CIC_SELF_REVISION", "1") not in ("0", "false", "no"),
             citation_attach_enabled=os.environ.get("CIC_CITATION_ATTACH", "") in ("1", "true", "yes"),
+            qc_db_path=os.environ.get("CIC_API_QC_DB", "./cic_api_qc.db"),
             streaming_enabled=os.environ.get("CIC_API_STREAMING", "") in ("1", "true", "yes"),
         )

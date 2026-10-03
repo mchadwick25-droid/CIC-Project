@@ -1151,3 +1151,29 @@ def test_continue_forwards_the_turn_switches(store, usage_store, world_loader, r
     auth = {"Authorization": f"Session {resp.json()['session_code']}"}
     http.post(f"/api/session/{resp.json()['session_id']}/continue", headers=auth)
     assert (seen["r27_enforce"], seen["self_revision_enabled"], seen["citation_attach_enabled"]) == (True, False, True)
+
+
+def test_table_voice_turns_write_qc_rows_including_continues(tmp_path, store, usage_store, world_loader, registry, alx_world, desert_world):
+    from engine.api.qc_recorder import QCRecorder
+    from engine.m7.qc_store import QCStore
+
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "most directly positioned"}],
+        stream_scripts=[[alx_sentence], [desert_sentence]],
+    )
+    qc = QCStore(tmp_path / "qc.db")
+    app = create_app(
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        default_world_key="fix", qc_recorder=QCRecorder(qc, registry),
+    )
+    http = TestClient(app)
+    session_id, auth = _create_table(http)
+    http.post(f"/api/session/{session_id}/message", json={"text": "what is prayer?"}, headers=auth)
+    http.post(f"/api/session/{session_id}/continue", headers=auth)
+    rows = qc.rows()
+    assert [(r["world"], r["round"]) for r in rows] == [("alx", 1), ("desert", 2)]
+    assert len({r["conversation_token"] for r in rows}) == 1
+    assert all(r["question_text"] == "what is prayer?" for r in rows)
