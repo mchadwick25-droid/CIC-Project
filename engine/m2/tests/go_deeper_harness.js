@@ -70,6 +70,15 @@ const scenarios = {
   claimMissing: () => claimWith([{ status: 404 }]),
   claimServerError: () => claimWith([{ status: 500 }]),
   claimOffline: () => claimWith(["network"]),
+  handOff() {
+    const sent = [];
+    const live = { closed: false, postMessage: (m, o) => sent.push([m, o]) };
+    const a = GD.handOff(live, ["ABCD"], "https://app.test");
+    const b = GD.handOff({ closed: true, postMessage: () => sent.push("closed") }, ["ABCD"], "https://app.test");
+    const c = GD.handOff(null, ["ABCD"], "https://app.test");
+    const d = GD.handOff({ closed: false, postMessage: () => { throw new Error("blocked"); } }, ["ABCD"], "https://app.test");
+    return { a, b, c, d, sent };
+  },
   limits: () => ({ poll: GD.POLL_MS, tries: GD.MAX_TRIES }),
 };
 

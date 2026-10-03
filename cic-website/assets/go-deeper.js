@@ -87,7 +87,19 @@
     return attempt();
   }
 
-  var api = { makeReference: makeReference, purchaseUrl: purchaseUrl, readReference: readReference, startPurchase: startPurchase, claimCodes: claimCodes, POLL_MS: POLL_MS, MAX_TRIES: MAX_TRIES };
+  // Hands the code to the conversation that opened this window, if it is still
+  // there, to that one origin only. The caller shows the code regardless.
+  function handOff(opener, codes, appOrigin) {
+    try {
+      if (!opener || opener.closed) return false;
+      opener.postMessage({ type: "cic-deeper-code", codes: codes }, appOrigin);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  var api = { handOff: handOff, makeReference: makeReference, purchaseUrl: purchaseUrl, readReference: readReference, startPurchase: startPurchase, claimCodes: claimCodes, POLL_MS: POLL_MS, MAX_TRIES: MAX_TRIES };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.GoDeeper = api;
 })(typeof window !== "undefined" ? window : this);

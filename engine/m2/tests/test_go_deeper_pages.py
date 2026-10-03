@@ -161,3 +161,15 @@ def test_a_server_fault_is_an_error_at_once_and_a_dropped_connection_is_retried(
     assert len(_node("claimServerError")["calls"]) == 1
     offline = _node("claimOffline")
     assert offline["result"] == {"status": "error"} and len(offline["calls"]) == _node("limits")["tries"]
+
+
+def test_the_code_is_handed_only_to_the_opening_window_and_only_to_the_app_origin():
+    out = _node("handOff")
+    assert (out["a"], out["b"], out["c"], out["d"]) == (True, False, False, False)
+    assert out["sent"] == [[{"type": "cic-deeper-code", "codes": ["ABCD"]}, "https://app.test"]]
+
+
+def test_the_return_page_names_the_app_origin_and_no_wildcard():
+    text = (SITE / "go-deeper-return.html").read_text()
+    assert "handOff(window.opener, result.codes, APP)" in text
+    assert not re.search(r"postMessage\([^)]*['\"]\*['\"]", text + (SITE / "assets/go-deeper.js").read_text())

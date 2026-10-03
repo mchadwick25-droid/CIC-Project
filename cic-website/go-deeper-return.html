@@ -75,7 +75,8 @@
       <p>Thank you. Here is your code.</p>
       <ul class="code-list" id="code-list"></ul>
       <p>Copy it now. This page shows your code for up to an hour, then we cannot show it again.</p>
-      <p>Then open a conversation, choose "I have a code" under the message box, and enter it.</p>
+      <p id="handed-off" hidden>If your conversation is still open in the other window, the code is already saved there. You can close this window.</p>
+      <p id="not-handed-off">Then open a conversation, choose "I have a code" under the message box, and enter it.</p>
       <div class="hero-actions" style="margin:1.2rem 0 1rem;">
         <a class="btn primary" id="open-app" href="https://cic-engine.onrender.com/">Open a conversation</a>
       </div>
@@ -116,6 +117,7 @@
 "use strict";
 var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
 var API = isLocal ? 'http://localhost:8000' : 'https://cic-engine.onrender.com';
+var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
 var states = ['waiting','ready','missing','none','error'];
 function show(name){
   states.forEach(function(s){ document.getElementById('state-' + s).hidden = (s !== name); });
@@ -149,7 +151,14 @@ if (!reference) {
     storage: window.localStorage,
     sleep: function(ms){ return new Promise(function(resolve){ setTimeout(resolve, ms); }); }
   }).then(function(result){
-    if (result.status === 'ready') { result.codes.forEach(addCode); show('ready'); }
+    if (result.status === 'ready') {
+      result.codes.forEach(addCode);
+      if (window.GoDeeper.handOff(window.opener, result.codes, APP)) {
+        document.getElementById('handed-off').hidden = false;
+        document.getElementById('not-handed-off').hidden = true;
+      }
+      show('ready');
+    }
     else if (result.status === 'missing') { show('missing'); }
     else { show('error'); }
   });
