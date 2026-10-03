@@ -1,6 +1,8 @@
 # Read-Aloud, Step 1 — Design Note
 
-**Status: RULED 2026-09-22, engine-side verification done 2026-09-27,
+**Status: SUPERSEDED 2026-10-03. The feature was removed (see `CiC_FrontEnd_Decision_Log.md`, the entry "The free browser read-aloud is removed; the conversation has no voice"). The note below records what was built.**
+
+**Earlier status: RULED 2026-09-22, engine-side verification done 2026-09-27,
 awaiting Mark's own live-audio check.** Mark ruled on Q7 — Option A,
 exactly, shown as a visible line under the bar (§7 below). Two
 verifications were open: the Conversation Transparency Engine thread's

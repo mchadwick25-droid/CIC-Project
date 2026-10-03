@@ -5375,3 +5375,29 @@ documented story starts that one and pauses the first; no horizontal overflow at
 ### Next action
 
 1. Mark tries the player on the live site, including on the iPhone.
+
+## 2026-10-03 — The free browser read-aloud is removed; the conversation has no voice
+
+**Ruling (project lead, 2026-10-03).** "Remove the free version we tested, it sounds bad and if we can't do high
+quality voice we will do none." The conversation screens no longer read a reply aloud with the browser's own speech.
+
+**What was removed.** The Read aloud button and the one-time disclosure line on the conversation and table screens,
+the sentence-by-sentence speech library with its per-seat voice picker, the availability hook, the
+`VITE_READ_ALOUD` flag, its staging setting in `render.yaml`, its styles, and the tests that covered them. The
+recorded welcome on the conversation page no longer stops a browser voice before it plays, because none exists.
+
+**What stays.** Every recorded narration: the world stories, documented stories and legacy on the tradition pages and
+the map, the tree descriptions, and the recorded welcome. They are ElevenLabs recordings in the Representatives' and
+narrators' voices.
+
+Alternatives considered:
+
+- A. Remove the free voice entirely. Chosen. A voice that sounds bad on a participant's own device reflects on the
+  Representative, and the browser's voices differ by device, so the quality cannot be controlled.
+- B. Leave the code in place with the flag off everywhere. Rejected. It carries a feature nobody will turn on, with
+  tests and a staging setting that suggest otherwise.
+- C. Replace it now with an ElevenLabs voice for each reply. Not done. It adds a cost on every reply and needs engine
+  work that does not exist. It stays a separate decision.
+
+The design note `CiC_ReadAloud_Step1_Design_Note.md` records the removed feature and is marked superseded.
+
