@@ -1120,6 +1120,33 @@ def _run_ordinary_voice_turn(
 run_voice_turn_for_world = _run_ordinary_voice_turn
 
 
+SAFETY_ROUTES = ("safety_turn", "check_in_turn")
+
+
+def safety_route_facilitator_events(gate_run, *, representative_name: str, track_a_last: dict | None) -> list[dict]:
+    """The Facilitator's turn for a message routed to safety - the voice is
+    never called on these routes. ACUTE_DISTRESS gets the crisis turn with
+    resources appended by code; any other safety_turn signal (a dependency
+    dynamic, Track B) gets the dependency check with no resources and no
+    freeze; check_in_turn (an uncertain or failed safety call) gets the
+    check-in, which is deliberately not an answer. One owner for these
+    turns, so a message the service would otherwise refuse unread (a
+    closed session, an open table round, an over-long message - decision
+    35) gets exactly what an ordinary turn would."""
+    action = gate_run.gate_result.routing.action
+    if action == "check_in_turn":
+        return [facilitator_turns.check_in_turn()]
+    safety = gate_run.safety_outcome.value
+    if safety["signal"] != "ACUTE_DISTRESS":
+        return [facilitator_turns.dependency_check_turn(representative_name)]
+    return [crisis_resources.append_crisis_resources_turn(
+        signal=safety["signal"], stream_text=None, stream_failed=True,
+        representative_name=representative_name,
+        acute_level=safety["acute_level"],
+        already_fired=track_a_last is not None,
+    )]
+
+
 def run_turn(
     *,
     session_id: str,
@@ -1235,15 +1262,19 @@ def run_turn(
     # system-nature - is something a capped session stops doing uniformly,
     # not selectively, so the ending reads as one clear boundary rather than
     # a handful of routes quietly behaving differently.
-    is_acute_crisis = action == "safety_turn" and not safety_outcome.failed and safety_outcome.value.get("signal") == "ACUTE_DISTRESS"
-    if not is_acute_crisis and daily_cap_reached:
+    # Every safety route is exempt from both caps, not acute distress
+    # alone: a check-in (an uncertain or failed safety call) and a
+    # dependency check are safety turns too, and a limit must never turn
+    # them away (System Hub decision 35).
+    is_safety_route = action in SAFETY_ROUTES
+    if not is_safety_route and daily_cap_reached:
         return TurnResult(
             routing_action="session_cap_turn", routing_reason="visitor daily message cap reached",
             gate=gate, safety_state_events=safety_states,
             facilitator_events=[facilitator_turns.daily_cap_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
-    if not is_acute_crisis and len(history or []) // 2 >= SESSION_TURN_CAP:
+    if not is_safety_route and len(history or []) // 2 >= SESSION_TURN_CAP:
         return TurnResult(
             routing_action="session_cap_turn", routing_reason=f"session turn cap reached ({SESSION_TURN_CAP} turns)",
             gate=gate, safety_state_events=safety_states,
@@ -1251,66 +1282,14 @@ def run_turn(
             degraded=gate_result.degraded, usage_records=usage_records,
         )
 
-    if action == "safety_turn":
-        signal = safety_outcome.value["signal"]  # safety_turn only reachable when safety succeeded and fired ACUTE/HARMFUL - engine.m5.routing rule 1
-        if signal != "ACUTE_DISTRESS":
-            # Track B: a dependency dynamic, not a crisis. No resources
-            # (crisis_resources.resources_for_signal already refuses them for
-            # this signal) and no session freeze. Governed (Program-Spec SS8,
-            # amendment: never respond, let the facilitator handle it) - the voice is
-            # silenced here exactly as it already is on Track A below, and
-            # the message is withheld from it the same way. Before this
-            # amendment the voice spoke "alongside" the Facilitator's own
-            # dependency_check_turn, which meant a per-world voice_craft
-            # guard line was needed to stop it freelancing outside-help
-            # language - a rule only 2 of 11 worlds ever carried. With the
-            # voice never called here, that per-world prohibition is
-            # unnecessary by construction, not merely unneeded to restate.
-            return TurnResult(
-                routing_action=action, routing_reason=gate_result.routing.reason,
-                gate=gate, safety_state_events=safety_states,
-                facilitator_events=[facilitator_turns.dependency_check_turn(world.frame["representative"]["name"])],
-                voice_event=None, degraded=gate_result.degraded,
-                usage_records=usage_records,
-            )
-
-        # Governed (CiC_System_Hub_Decision_Log.md, a portfolio decision):
-        # no voice speaks once ACUTE_DISTRESS fires, in the interview any
-        # more than at a table (engine.m4.round's own
-        # is_acute_crisis branch, Artifact-7 SS2) - the Representative
-        # never steps out of its world, full stop, and the crisis-resources
-        # append below never depended on a voice call's output anyway
-        # (crisis_resources' own stage-5 proof point).
-        voice_event = None
-        stream_text, stream_failed = None, True
-
-        facilitator_event = crisis_resources.append_crisis_resources_turn(
-            signal=signal, stream_text=stream_text, stream_failed=stream_failed,
-            representative_name=world.frame["representative"]["name"],
-            acute_level=safety_outcome.value["acute_level"],  # schema-required (Artifact-4 SS1), same direct-index discipline as signal above
-            already_fired=track_a_last is not None,
-        )
-        return TurnResult(
-            routing_action=action,
-            gate=gate, safety_state_events=safety_states,
-            routing_reason=gate_result.routing.reason,
-            facilitator_events=[facilitator_event],
-            voice_event=voice_event,
-            degraded=gate_result.degraded,
-            usage_records=usage_records,
-        )
-
-    if action == "check_in_turn":
-        # Softer than the safety turn and deliberately not an answer: the
-        # safety call was uncertain, so the message is not passed to the
-        # voice this turn (Artifact-4 SS3 rule 2 ranks this above ordinary
-        # routing precisely so a possible disclosure is never answered as if
-        # it were an ordinary question).
+    if action in SAFETY_ROUTES:
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
             gate=gate, safety_state_events=safety_states,
-            facilitator_events=[facilitator_turns.check_in_turn()],
-            degraded=gate_result.degraded, usage_records=usage_records,
+            facilitator_events=safety_route_facilitator_events(
+                gate_run, representative_name=world.frame["representative"]["name"], track_a_last=track_a_last,
+            ),
+            voice_event=None, degraded=gate_result.degraded, usage_records=usage_records,
         )
 
     if action == "system_nature_turn":
