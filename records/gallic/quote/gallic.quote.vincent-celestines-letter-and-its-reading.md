@@ -68,6 +68,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.contest-over-antiquity
+- type: associated-with
+  target: gallic.force.africa-and-rome-pressure
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "85\.\] Holy Pope Celestine"` returns line 14615; read with `sed -n '14614,14632p'`, inside `<div2
