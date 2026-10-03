@@ -1006,6 +1006,57 @@ button {
   cursor: pointer;
 }
 
+.code-entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xs, 0.25rem);
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+}
+
+.code-entry button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--color-text-light);
+  font-family: var(--font-family-ui);
+  font-size: 0.78rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.code-entry__form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.code-entry__form input {
+  min-width: 0;
+  width: 15rem;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  letter-spacing: 0.06em;
+}
+
+.code-entry__error {
+  flex-basis: 100%;
+  margin: 0;
+  text-align: center;
+  color: var(--color-error);
+}
+
+.turn--facilitator p.turn__note {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+
 .conversation__error {
   margin: 0 var(--spacing-lg);
   padding: var(--spacing-sm) var(--spacing-md);

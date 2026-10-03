@@ -16,6 +16,7 @@ export interface ConversationTurn {
   speaker: 'participant' | 'facilitator' | string; // world_key for a voice turn
   text: string;
   kind?: FacilitatorTurn['kind'];
+  note?: string;
   modernTerms?: FacilitatorTurn['modern_terms'];
   citations?: VoiceTurn['citations'];
   figuresUsed?: VoiceTurn['figures_used'];
@@ -116,7 +117,7 @@ export function useConversation() {
         const result = await sendMessage(sessionId, sessionCode, text, attempt.id, (more) => setState((prev) => ({ ...prev, draft: prev.draft + more })));
         setState((prev) => {
           const appended: ConversationTurn[] = [];
-          if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind, modernTerms: result.facilitator.modern_terms });
+          if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind, modernTerms: result.facilitator.modern_terms, note: result.limit_note?.text });
           if (result.voice) {
             appended.push({
               speaker: result.voice.speaker,
