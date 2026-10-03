@@ -48,9 +48,9 @@ describe('CodeEntry', () => {
     const { CodeEntry, deeper } = await load(true);
     deeper.saveCode(CODE);
     const { container } = render(<CodeEntry />);
-    deeper.reportBalance(12, false);
+    deeper.reportBalance(CODE, 12, false);
     expect(await screen.findByText('12 exchanges left on your code.')).toBeInTheDocument();
-    deeper.reportBalance(1, false);
+    deeper.reportBalance(CODE, 1, false);
     expect(await screen.findByText('1 exchange left on your code.')).toBeInTheDocument();
     expect(container.textContent).not.toMatch(/[$€£]|price|\bcost/i);
   });
@@ -126,11 +126,11 @@ describe('CodeEntry', () => {
     const { CodeEntry, deeper } = await load(true);
     deeper.saveCode(CODE);
     render(<CodeEntry />);
-    deeper.reportBalance(4, true);
+    deeper.reportBalance(CODE, 4, true);
     expect(await screen.findByText(/4 exchanges left on your code\. Your code is running low\./)).toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: 'Get more' }));
     expect(open).toHaveBeenCalled();
-    deeper.reportBalance(40, false);
+    deeper.reportBalance(CODE, 40, false);
     expect(await screen.findByText('40 exchanges left on your code.')).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Get more' })).toBeInTheDocument();
     vi.unstubAllGlobals();

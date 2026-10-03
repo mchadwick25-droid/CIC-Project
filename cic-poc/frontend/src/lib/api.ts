@@ -7,7 +7,7 @@
  * authoritative. A server that answers with plain JSON is handled the same
  * way, with no sentences.
  */
-import { codeHeaders, remainingFromHeader, reportBalance } from './deeper';
+import { codeHeaders, currentCode, remainingFromHeader, reportBalance } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 import type { StreamedSentence } from './streamedReply';
 
@@ -153,6 +153,7 @@ export async function sendTableMessage(
   text: string,
   clientMsgId?: string
 ): Promise<TableMessageResponse> {
+  const sentWith = currentCode();
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode), ...codeHeaders() },
@@ -161,7 +162,7 @@ export async function sendTableMessage(
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  reportBalance(remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
+  reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
   return response.json();
 }
 
@@ -181,7 +182,7 @@ function parseStreamBlock(block: string): StreamEvent | null {
   return { event, data: JSON.parse(data.join('\n')) };
 }
 
-async function readMessageStream(response: Response, onSentence: (sentence: StreamedSentence) => void): Promise<MessageResponse> {
+async function readMessageStream(response: Response, onSentence: (sentence: StreamedSentence) => void, sentWith: string | null): Promise<MessageResponse> {
   if (!response.body) throw new ApiRequestError(502, 'the reply stream had no body');
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
@@ -196,7 +197,7 @@ async function readMessageStream(response: Response, onSentence: (sentence: Stre
       if (parsed?.event === 'sentence') onSentence(parsed.data as StreamedSentence);
       else if (parsed?.event === 'done') {
         const done = parsed.data as MessageResponse & { remaining?: number; low?: boolean };
-        reportBalance(typeof done.remaining === 'number' ? done.remaining : null, done.low === true);
+        reportBalance(sentWith, typeof done.remaining === 'number' ? done.remaining : null, done.low === true);
         return done;
       }
       else if (parsed?.event === 'error') {
@@ -216,6 +217,7 @@ export async function sendMessage(
   clientMsgId?: string,
   onSentence?: (sentence: StreamedSentence) => void
 ): Promise<MessageResponse> {
+  const sentWith = currentCode();
   const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
     method: 'POST',
     headers: {
@@ -230,9 +232,9 @@ export async function sendMessage(
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
   if (onSentence && (response.headers.get('content-type') ?? '').startsWith('text/event-stream')) {
-    return readMessageStream(response, onSentence);
+    return readMessageStream(response, onSentence, sentWith);
   }
-  reportBalance(remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
+  reportBalance(sentWith, remainingFromHeader(response.headers.get('X-Cic-Remaining')), response.headers.get('X-Cic-Low') === '1');
   return response.json();
 }
 

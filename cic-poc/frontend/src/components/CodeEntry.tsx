@@ -3,7 +3,7 @@
  * much it has left. Shown only when the app is built with the module on.
  */
 import { useState } from 'react';
-import { acceptClaim, addCode, clearCode, declineClaim, deeperEnabled, getCodeUrl, openGetCode, useDeeper } from '../lib/deeper';
+import { acceptClaim, addCode, declineClaim, deeperEnabled, getCodeUrl, openGetCode, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy } from '../lib/deeperCopy';
 
 export function CodeEntry() {
@@ -68,7 +68,7 @@ export function CodeEntry() {
           <button type="button" onClick={() => setOpen(true)}>
             {deeperCopy.haveCode}
           </button>
-          <button type="button" onClick={clearCode}>
+          <button type="button" onClick={removeCode}>
             {deeperCopy.removeCode}
           </button>
         </>

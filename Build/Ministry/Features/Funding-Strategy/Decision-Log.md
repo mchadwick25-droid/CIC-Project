@@ -1217,3 +1217,11 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 - **Tokens.** The meter counts a plain whole number. A token system with different costs for opening a conversation and for a round changes what is charged at which step, not how a balance is held, so this slice does not stand in its way. The charge at opening a conversation is a separate change at the engine seam and waits for Mark's numbers.
 - **New participant words, for Mark:** "Get more", "Your code is running low.", and the changed line "You already have a code. This one will be added to it."
 - **Stale local build.** A frontend build left in `cic-poc/frontend/dist` makes the engine answer 405 where a test expects 404; the build output is derived and ignored, so nothing is committed.
+
+**Opus review of the balances (#747), round one.** One blocking finding and notes a to e.
+- Blocking: a reply's balance was credited to whichever code was in use when the reply arrived, not the code the request carried; a change made by another tab while the request was out could drop a live paid code. A reply is now credited to the code its request was sent with, and ignored if that code is no longer held.
+- a. Two tabs changing the list at once could lose a code. Every change now starts from what is stored, not from the tab's memory.
+- b. One tap removed every held code. "Remove code" now removes only the code in use.
+- c. An unknown balance counted as empty in the getting-low check. It now counts as possibly carrying on, so the line shows only when no other code might.
+- d. The balance fetch had no test for cookies; it has one.
+- e. Wording for Mark: the balance line says "on your code" while it adds several codes together, and "Remove code" now removes one at a time. Proposed: "N exchanges left" (no "on your code"), and keep "Remove code".

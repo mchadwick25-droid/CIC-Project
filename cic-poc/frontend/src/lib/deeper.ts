@@ -64,13 +64,27 @@ function parseCodes(raw: string): string[] {
   }
 }
 
-function writeStoredCodes(codes: string[]) {
+/**
+ * Changes the stored list from what is stored right now, not from this tab's
+ * memory, so two tabs changing it at once cannot overwrite each other. Returns
+ * the list as written.
+ */
+function changeStoredCodes(change: (stored: string[]) => string[]): string[] {
+  let current = state.codes;
   try {
-    if (codes.length === 0) localStorage.removeItem(STORAGE_KEY);
-    else localStorage.setItem(STORAGE_KEY, JSON.stringify(codes));
+    const raw = localStorage.getItem(STORAGE_KEY);
+    current = raw ? parseCodes(raw) : [];
+  } catch {
+    // Storage blocked: work from this tab's own list.
+  }
+  const next = change(current);
+  try {
+    if (next.length === 0) localStorage.removeItem(STORAGE_KEY);
+    else localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
   } catch {
     // Storage blocked: the codes still work until the tab closes.
   }
+  return next;
 }
 
 const emptyState = (codes: string[]): DeeperState => ({ codes, balances: {}, remaining: null, low: false, claim: null });
@@ -92,6 +106,11 @@ function total(codes: string[], balances: Record<string, number | null>): number
 function activeCode(): string | null {
   const usable = state.codes.find((code) => state.balances[code] !== 0);
   return usable ?? state.codes[state.codes.length - 1] ?? null;
+}
+
+/** The code a request sent now would carry, to be given back with its reply. */
+export function currentCode(): string | null {
+  return deeperEnabled ? activeCode() : null;
 }
 
 /** What the server says one code has left, by asking on the code's own account. */
@@ -116,18 +135,16 @@ function setBalanceOf(code: string, remaining: number) {
   const balances = { ...state.balances, [code]: remaining };
   // A spent code is dropped once another is held to carry on with.
   if (remaining === 0 && codes.length > 1) {
-    codes = codes.filter((c) => c !== code);
+    codes = changeStoredCodes((stored) => stored.filter((c) => c !== code));
     delete balances[code];
-    writeStoredCodes(codes);
   }
   update({ ...state, codes, balances, remaining: total(codes, balances) });
 }
 
 function forget(code: string) {
-  const codes = state.codes.filter((c) => c !== code);
+  const codes = changeStoredCodes((stored) => stored.filter((c) => c !== code));
   const balances = { ...state.balances };
   delete balances[code];
-  writeStoredCodes(codes);
   update({ ...state, codes, balances, remaining: total(codes, balances), low: false });
 }
 
@@ -139,8 +156,7 @@ export function saveCode(raw: string): boolean {
     update({ ...state, claim: null });
     return true;
   }
-  const codes = [...state.codes, code];
-  writeStoredCodes(codes);
+  const codes = changeStoredCodes((stored) => (stored.includes(code) ? stored : [...stored, code]));
   update({ ...state, codes, claim: null });
   void refreshBalance(code);
   return true;
@@ -163,19 +179,29 @@ export async function addCode(raw: string): Promise<boolean> {
   return saveCode(code);
 }
 
+/** Removes every held code. */
 export function clearCode() {
-  writeStoredCodes([]);
+  changeStoredCodes(() => []);
   update(emptyState([]));
 }
 
-/** What a reply reported for the code it was sent with, and whether the server called it low. */
-export function reportBalance(remaining: number | null, low: boolean) {
-  if (!deeperEnabled) return;
+/** Removes the code in use, and only that one. */
+export function removeCode() {
   const code = activeCode();
-  if (code === null || remaining === null) return;
-  const others = state.codes.filter((c) => c !== code).reduce((sum, c) => sum + (state.balances[c] ?? 0), 0);
-  setBalanceOf(code, remaining);
-  const nextLow = low && others === 0;
+  if (code !== null) forget(code);
+}
+
+/**
+ * What a reply reported, credited to the code the request carried. The list may
+ * have changed while the request was in flight, so the code is never worked out
+ * again here; a reply for a code no longer held is ignored.
+ */
+export function reportBalance(sentWith: string | null, remaining: number | null, low: boolean) {
+  if (!deeperEnabled || sentWith === null || remaining === null || !state.codes.includes(sentWith)) return;
+  // Another code might carry on unless it is known to be spent: an unknown balance counts as might.
+  const otherMayCarry = state.codes.some((c) => c !== sentWith && state.balances[c] !== 0);
+  setBalanceOf(sentWith, remaining);
+  const nextLow = low && !otherMayCarry;
   if (state.low !== nextLow) update({ ...state, low: nextLow });
 }
 

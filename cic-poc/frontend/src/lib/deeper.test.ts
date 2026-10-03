@@ -46,7 +46,7 @@ describe('with the module on', () => {
   it('forgets the code and the balance when it is removed', async () => {
     const mod = await load(true);
     mod.saveCode(CODE);
-    mod.reportBalance(7, false);
+    mod.reportBalance(CODE, 7, false);
     mod.clearCode();
     expect(mod.codeHeaders()).toEqual({});
     expect(localStorage.getItem('cic_codes')).toBeNull();
@@ -263,7 +263,7 @@ describe('several codes held together', () => {
     const mod = await load(true);
     mod.saveCode(CODE);
     mod.saveCode(OTHER);
-    mod.reportBalance(0, false);
+    mod.reportBalance(CODE, 0, false);
     expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': OTHER });
     expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([OTHER]);
   });
@@ -271,7 +271,7 @@ describe('several codes held together', () => {
   it('keeps the last code even when spent, so the server can say why it cannot carry on', async () => {
     const mod = await load(true);
     mod.saveCode(CODE);
-    mod.reportBalance(0, false);
+    mod.reportBalance(CODE, 0, false);
     expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
   });
 
@@ -284,13 +284,13 @@ describe('several codes held together', () => {
     mod.saveCode(CODE);
     mod.saveCode(OTHER);
     await vi.waitFor(() => expect(mod.deeperSnapshot().remaining).toBe(34));
-    mod.reportBalance(4, true);
+    mod.reportBalance(CODE, 4, true);
     expect(mod.deeperSnapshot().low).toBe(false);
     mod.clearCode();
     mod.saveCode(CODE);
-    mod.reportBalance(4, true);
+    mod.reportBalance(CODE, 4, true);
     expect(mod.deeperSnapshot().low).toBe(true);
-    mod.reportBalance(40, false);
+    mod.reportBalance(CODE, 40, false);
     expect(mod.deeperSnapshot().low).toBe(false);
   });
 
@@ -310,5 +310,88 @@ describe('several codes held together', () => {
     const mod = await load(true);
     await mod.addCode(CODE);
     expect(fetchMock).toHaveBeenCalledWith('/api/deeper/balance', expect.objectContaining({ credentials: 'omit' }));
+  });
+});
+
+describe('a reply is credited to the code the request carried', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+  const THIRD = 'CDEF2345GHJK6789LMNP';
+
+  afterEach(() => vi.unstubAllGlobals());
+
+  it('not to whichever code happens to be in use when the reply arrives', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.saveCode(THIRD);
+    const sentWith = mod.currentCode();
+    expect(sentWith).toBe(CODE);
+    // while the request is in flight, another tab spends the first code to zero and drops it
+    const stored = JSON.stringify([OTHER, THIRD]);
+    localStorage.setItem('cic_codes', stored);
+    window.dispatchEvent(new StorageEvent('storage', { key: 'cic_codes', newValue: stored }));
+    // the reply says the first code is at zero: the codes still held must not be touched
+    mod.reportBalance(sentWith, 0, false);
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([OTHER, THIRD]);
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': OTHER });
+  });
+
+  it('and a reply for a code no longer held is ignored', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.reportBalance(OTHER, 0, true);
+    expect(mod.deeperSnapshot().remaining).toBeNull();
+    expect(mod.deeperSnapshot().low).toBe(false);
+  });
+});
+
+describe('two tabs changing the list at once', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+
+  it('keep both codes: a change starts from what is stored, not from this tab\'s memory', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    // another tab adds a code that this tab has not heard about yet
+    localStorage.setItem('cic_codes', JSON.stringify([CODE, OTHER]));
+    mod.saveCode('CDEF2345GHJK6789LMNP');
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([CODE, OTHER, 'CDEF2345GHJK6789LMNP']);
+  });
+});
+
+describe('removing a code', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+
+  it('removes only the one in use, one tap at a time', async () => {
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.removeCode();
+    expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual([OTHER]);
+    mod.removeCode();
+    expect(localStorage.getItem('cic_codes')).toBeNull();
+  });
+});
+
+describe('the getting-low line and balances not yet known', () => {
+  const OTHER = 'BCDE2345EFGH6789JKLM';
+
+  it('is not shown while another held code has not reported, since it may carry on', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockReturnValue(new Promise(() => {})));
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    mod.saveCode(OTHER);
+    mod.reportBalance(CODE, 4, true);
+    expect(mod.deeperSnapshot().low).toBe(false);
+    vi.unstubAllGlobals();
+  });
+
+  it('asks each code its balance with no cookies', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ remaining: 3 }), { status: 200 }));
+    vi.stubGlobal('fetch', fetchMock);
+    const mod = await load(true);
+    mod.saveCode(CODE);
+    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalled());
+    expect(fetchMock).toHaveBeenCalledWith('/api/deeper/balance', expect.objectContaining({ credentials: 'omit', headers: { 'X-Cic-Code': CODE } }));
+    vi.unstubAllGlobals();
   });
 });
