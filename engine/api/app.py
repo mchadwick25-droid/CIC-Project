@@ -45,6 +45,8 @@ def _message_failure(exc: Exception, session_id: str) -> HTTPException | None:
         return HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
     if isinstance(exc, wiring.SessionClosed):
         return HTTPException(status_code=409, detail="session already closed")
+    if isinstance(exc, wiring.MessageTooLong):
+        return HTTPException(status_code=422, detail=f"message too long (at most {wiring.MAX_MESSAGE_LENGTH} characters)")
     if isinstance(exc, table_wiring.TableRoundStillOpen):
         return HTTPException(status_code=409, detail="round still open - continue it before the next message")
     if isinstance(exc, table_wiring.TableAdvanceInFlight):
@@ -179,7 +181,10 @@ class SessionCreateResponse(BaseModel):
     round_cap: int | None = None
 
 
-_MAX_MESSAGE_LENGTH = 4000  # ~800-1000 words - generous for a real participant turn, bounded against a payload attack
+# The hard bound on what the API accepts at all, against a payload attack.
+# Anything over wiring.MAX_MESSAGE_LENGTH (4,000) is read by the safety call
+# and then refused unless it routes to safety (System Hub decision 35).
+_HARD_MAX_MESSAGE_LENGTH = 20000
 
 
 class MessageRequest(BaseModel):
@@ -188,7 +193,7 @@ class MessageRequest(BaseModel):
     # stored verbatim, at up to 40 messages/min per IP. Output is bounded
     # by max_tokens on the generation call; this bounds input the same
     # way.
-    text: str = Field(max_length=_MAX_MESSAGE_LENGTH)
+    text: str = Field(max_length=_HARD_MAX_MESSAGE_LENGTH)
     client_msg_id: str | None = None
 
 

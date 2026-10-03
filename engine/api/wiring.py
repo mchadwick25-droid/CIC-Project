@@ -16,13 +16,14 @@ from typing import Callable
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
+from engine.m2.loader_stub import PackageRefused
 from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
 from engine.m4 import evidence as ev
-from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
+from engine.m4.turn import SAFETY_ROUTES, TurnResult, UnhandledRoutingAction, run_gate, run_turn, safety_route_facilitator_events
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
     conversation_revealed_excerpts,
@@ -80,8 +81,72 @@ class SessionClosed(Exception):
     """A session_closed event is already on record (engine.m4.projection's
     SessionState.closed) - the session ended, most often via
     engine.m4.turn.SESSION_TURN_CAP's own graceful redirect, and no further
-    message is processed. Raised here, before run_turn is ever called, so a
-    closed session costs nothing to refuse."""
+    message is answered. The message is still read by the safety call
+    first (screen_refused_message), so a crisis typed into a closed session
+    gets the Facilitator's safety turn rather than this refusal."""
+
+
+class MessageTooLong(Exception):
+    """The message is longer than MAX_MESSAGE_LENGTH. Like SessionClosed,
+    raised only after the safety call has read it and found no safety route."""
+
+
+# The longest message answered. A longer one (up to the API's hard bound)
+# is still read by the safety call before it is refused.
+MAX_MESSAGE_LENGTH = 4000
+
+
+def screen_refused_message(
+    *,
+    store: Store,
+    usage_store: UsageLogStore,
+    state,
+    session_id: str,
+    text: str,
+    client_msg_id: str | None,
+    safety_client,
+    safety_model_id: str,
+    representative_name: str,
+) -> "MessageResult | None":
+    """System Hub decision 35: a message the service is about to refuse
+    unread (a closed session, an over-long message) goes through the safety
+    call first. When the safety call routes it to the Facilitator, the
+    message, the gate decision and the Facilitator's safety turn are
+    recorded and returned like any turn, and the session's state is
+    otherwise unchanged (a closed session stays closed). Otherwise None,
+    and the caller raises its refusal as before. The screen's own usage is
+    always recorded."""
+    gate_run = run_gate(
+        session_id=session_id, safety_client=safety_client, safety_model_id=safety_model_id,
+        participant_message=text, pressed=state.pressed, anachronistic_term_ids=set(),
+        track_b_accumulator=state.safety.track_b_accumulator,
+    )
+    for rec in gate_run.usage_records:
+        usage_store.append(rec)
+    action = gate_run.gate_result.routing.action
+    if action not in SAFETY_ROUTES:
+        return None
+    facilitator_events = safety_route_facilitator_events(
+        gate_run, representative_name=representative_name, track_a_last=state.safety.track_a_last,
+    )
+    msg_uuid = client_msg_id or str(uuid.uuid4())
+    participant_payload = {"text": text, "client_msg_id": msg_uuid}
+    events.validate("participant_message", participant_payload)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="participant_message", payload=participant_payload)
+    events.validate("gate_decision", gate_run.gate)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="gate_decision", payload=gate_run.gate)
+    for safety_state in gate_run.safety_state_events:
+        events.validate("safety_state", safety_state)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="safety_state", payload=safety_state)
+    for fe in facilitator_events:
+        events.validate("facilitator_turn", fe)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
+    turn_no = state.turn_count + 1
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
+    return MessageResult(
+        turn_no=turn_no, routing_action=action, routing_reason=gate_run.gate_result.routing.reason,
+        degraded=gate_run.gate_result.degraded, facilitator=facilitator_events[-1], voice=None,
+    )
 
 
 class ProviderCallFailed(Exception):
@@ -668,8 +733,28 @@ def handle_message(
     # it, unlike a real (cap/participant) close. project_fresh's own fold
     # already reopens state.closed once this message lands, so this is
     # the one place that still needs to look past it before that happens.
+    refusal: Exception | None = None
     if state.closed and state.close_reason != "idle":
-        raise SessionClosed(session_id)
+        refusal = SessionClosed(session_id)
+    elif len(text) > MAX_MESSAGE_LENGTH:
+        refusal = MessageTooLong(session_id)
+    if refusal is not None:
+        try:
+            refused_world = _load_world(
+                world_loader, registry, state.world_key, expected_manifest_hash=state.package_manifest_hash,
+                package_location_override=state.package_location, package_cache_dir=package_cache_dir,
+            )
+            representative_name = refused_world.frame["representative"]["name"]
+        except PackageRefused:
+            representative_name = "the Representative"
+        screened = screen_refused_message(
+            store=store, usage_store=usage_store, state=state, session_id=session_id, text=text,
+            client_msg_id=client_msg_id, safety_client=safety_client, safety_model_id=safety_model_id,
+            representative_name=representative_name,
+        )
+        if screened is None:
+            raise refusal
+        return screened
 
     # The world pinned at session creation, not the registry's current value -
     # a mid-session recompile can't silently swap what serves an in-flight
