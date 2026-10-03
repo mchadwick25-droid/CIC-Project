@@ -11,6 +11,7 @@ import { useCallback, useRef, useState } from 'react';
 import { ApiRequestError, createSession, getTranscript, sendMessage } from '../lib/api';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { FacilitatorTurn, TranscriptEntry, VoiceTurn } from '../types/conversation';
+import type { StreamedSentence } from '../lib/streamedReply';
 
 export interface ConversationTurn {
   speaker: 'participant' | 'facilitator' | string; // world_key for a voice turn
@@ -42,9 +43,10 @@ interface ConversationState {
   sessionCode: string | null;
   worldKey: string | null;
   turns: ConversationTurn[];
-  // The reply so far while the voice is still writing it - display text
-  // only, replaced by the finished turn. Empty whenever nothing is streaming.
-  draft: string;
+  // The reply's sentences so far while the voice is still writing it, each
+  // with its marks; replaced by the finished turn. Empty whenever nothing
+  // is streaming.
+  streamed: StreamedSentence[];
   closed: boolean;
   isLoading: boolean;
   error: string | null;
@@ -58,7 +60,7 @@ const initialState: ConversationState = {
   sessionCode: null,
   worldKey: null,
   turns: [],
-  draft: '',
+  streamed: [],
   closed: false,
   isLoading: false,
   error: null,
@@ -88,7 +90,7 @@ export function useConversation() {
         sessionCode: session_code,
         worldKey,
         turns: transcript.transcript.map(toTurn),
-        draft: '',
+        streamed: [],
         closed: transcript.closed,
         isLoading: false,
         error: null,
@@ -110,11 +112,11 @@ export function useConversation() {
         setState((prev) => ({ ...prev, error: 'No active session' }));
         return false;
       }
-      setState((prev) => ({ ...prev, isLoading: true, draft: '', error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
+      setState((prev) => ({ ...prev, isLoading: true, streamed: [], error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
       try {
         const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
-        const result = await sendMessage(sessionId, sessionCode, text, attempt.id, (more) => setState((prev) => ({ ...prev, draft: prev.draft + more })));
+        const result = await sendMessage(sessionId, sessionCode, text, attempt.id, (sentence) => setState((prev) => ({ ...prev, streamed: [...prev.streamed, sentence] })));
         setState((prev) => {
           const appended: ConversationTurn[] = [];
           if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind, modernTerms: result.facilitator.modern_terms, note: result.limit_note?.text });
@@ -130,13 +132,13 @@ export function useConversation() {
           }
           const closed = result.facilitator?.kind === 'close' || prev.closed;
           if (closed) clearStored();
-          return { ...prev, isLoading: false, draft: '', turns: [...prev.turns, ...appended], closed };
+          return { ...prev, isLoading: false, streamed: [], turns: [...prev.turns, ...appended], closed };
         });
         return true;
       } catch (error) {
         const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
         const recoverable = error instanceof ApiRequestError && error.recoverable;
-        setState((prev) => ({ ...prev, isLoading: false, draft: '', error: message, errorRecoverable: recoverable }));
+        setState((prev) => ({ ...prev, isLoading: false, streamed: [], error: message, errorRecoverable: recoverable }));
         return false;
       }
     },
@@ -157,7 +159,7 @@ export function useConversation() {
         sessionCode: stored.sessionCode,
         worldKey: stored.worldKey,
         turns: transcript.transcript.map(toTurn),
-        draft: '',
+        streamed: [],
         closed: transcript.closed,
         isLoading: false,
         error: null,
@@ -180,7 +182,7 @@ export function useConversation() {
     sessionCode: state.sessionCode,
     worldKey: state.worldKey,
     turns: state.turns,
-    draft: state.draft,
+    streamed: state.streamed,
     closed: state.closed,
     isLoading: state.isLoading,
     error: state.error,

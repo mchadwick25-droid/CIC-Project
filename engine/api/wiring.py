@@ -733,7 +733,7 @@ def handle_message(
     citation_attach_enabled: bool = False,
     daily_turn_cap_reached: bool = False,
     grant_for: GrantProvider | None = None,
-    on_draft_text: Callable[[str], None] | None = None,
+    on_sentence: Callable[[dict], None] | None = None,
     qc_recorder=None,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
@@ -896,7 +896,7 @@ def handle_message(
             turn_cap=grant.cap,
             facilitator_only=grant.facilitator_only,
             limit_text=grant.limit_text,
-            on_draft_text=on_draft_text,
+            on_sentence=on_sentence,
             citation_attach_enabled=citation_attach_enabled,
         )
     except UnhandledRoutingAction:

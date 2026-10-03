@@ -101,8 +101,8 @@ curl -s -X POST localhost:8000/api/session/<session_id>/message \
 curl -sN -X POST localhost:8000/api/session/<session_id>/message \
   -H "Authorization: Session <session_code>" -H "Content-Type: application/json" \
   -H "Accept: text/event-stream" -d '{"text": "Who was Jesus to your people?"}'
-# -> event: draft / data: {"text": "..."}   (one per finished sentence)
-#    event: done  / data: {...}              (the finished turn)
+# -> event: sentence / data: {"index", "lead", "text", "text_start", "text_end", "elements", "cards"}
+#    event: done     / data: {...}           (the finished turn)
 
 # Read the transcript so far
 curl -s localhost:8000/api/session/<session_id>/transcript \
@@ -121,10 +121,18 @@ curl -s localhost:8000/health
 ## Streaming
 
 By default a message returns one JSON response. With `CIC_API_STREAMING` on,
-a client that sends `Accept: text/event-stream` gets `draft` events (the
-reply's sentences as the voice finishes them, tags removed) and then a `done`
-event carrying the same body the JSON response would have. The finished turn
-replaces the draft and alone carries the marks.
+a client that sends `Accept: text/event-stream` gets a `sentence` event for
+each sentence as the voice finishes it (`engine/m4/sentence_stream.py`), then a
+`done` event carrying the same body the JSON response would have. A sentence
+event carries the display text before it (`lead`), its own text and offsets in
+the finished reply, and the quote and story marks the finished plan gives it,
+with their source cards. Term and figure marks, the mark cap, and citations
+added by attachment arrive in `done`, whose plan is authoritative. A failure
+after the stream began is an `error` event: `{code, status, detail}`, where
+`detail` is the string the JSON response would carry and `code` is stable
+(`invalid_session`, `session_closed`, `message_too_long`, `round_open`,
+`advance_in_flight`, `duplicate_message`, `world_unavailable`,
+`provider_failed`, `internal`).
 
 Only interview turns answered by the voice stream. A Facilitator turn, a table
 session, a bridge turn, a first other-tradition ask with self-revision on, and

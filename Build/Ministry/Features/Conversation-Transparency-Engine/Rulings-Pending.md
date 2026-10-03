@@ -973,7 +973,8 @@ becomes a dictionary lookup. (b) Keep both calls.
 **Recommend (a), decided by the test.** Lands in slice 8.
 
 ### R44 — CO-2: R30's streaming granularity
-**Status:** PENDING.
+**Status:** RULED — 2026-10-03, (a), System Hub decision 38. Table turns
+included: the seat-identity guard runs on each sentence before release.
 (a) Release each sentence once its backstops have run, instead of
 holding the opening paragraph. (b) Keep R30's paragraph hold under
 streaming.
