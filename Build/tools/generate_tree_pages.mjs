@@ -356,7 +356,7 @@ li{margin-bottom:.5rem}
     <p>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</p>
   </div>
 </footer>
-</body>
+${narrated ? '<script src="../assets/narration-player.js" defer></script>\n' : ''}</body>
 </html>`;
 
   return html;

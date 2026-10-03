@@ -69,8 +69,11 @@ export function DoorNarration({ worldKey, participantTurns }: DoorNarrationProps
 
   return (
     <div className="door-narration sans">
-      <button type="button" className="read-aloud-control sans" onClick={handleClick} aria-pressed={state === 'playing'}>
-        {state === 'playing' ? 'Stop the welcome' : 'Hear the welcome'}
+      <button type="button" className="door-narration__play" onClick={handleClick} aria-pressed={state === 'playing'}>
+        <svg viewBox="0 0 24 24" aria-hidden="true" className="door-narration__icon">
+          {state === 'playing' ? <path d="M6 4h4v16H6zM14 4h4v16h-4z" /> : <path d="M7 4.5v15l13-7.5z" />}
+        </svg>
+        <span>{state === 'playing' ? 'Stop the welcome' : 'Hear the welcome'}</span>
       </button>
       <span className="door-narration__note">Synthesized voice — not a recording.</span>
     </div>
