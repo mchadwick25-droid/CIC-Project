@@ -440,7 +440,7 @@ def test_era_frozen_status_phrase_not_flagged_as_era_gate(tmp_path):
 
 
 def test_generic_reviewer_keeps(tmp_path):
-    # cic-website/support.html:127 and Build/reference/Project-Reference/
+    # cic-website/support.html:108 and Build/reference/Project-Reference/
     # CiC_Cleaning_Pattern_Log.md's own real KEEP examples: a generic or
     # hypothetical third-party reviewer, not this project's own review
     # process.
@@ -1418,7 +1418,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # wanting an academic reviewer for the project's own scholarship, not
     # narration of this project's internal review process - the same
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
-    ("cic-website/support.html", 127, "KEEP"),
+    ("cic-website/support.html", 108, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
@@ -1458,7 +1458,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
     # file's lines by +7 above this point; re-pinned to the same
     # r27_regenerated assertion, now at 1131.
-    ("engine/api/tests/test_app.py", 322, "REWRITE"),
+    ("engine/m7/scheduler.py", 7, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1487,7 +1487,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # removes the commentary already in it"). Re-pinned to a fresh
     # gravity-classification-label hit, not yet touched by any re-voicing
     # PR.
-    ("records/alx/force/alx.force.scripture-ongoing.md", 29, "REWRITE"),
+    ("records/cappadocian/force/cappadocian.force.famine-crisis.md", 33, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
     # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
