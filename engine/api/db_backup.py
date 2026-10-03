@@ -254,6 +254,7 @@ def run_backup_once(
     staging_dir: Path,
     *,
     service_label: str = "cic-engine",
+    qc_db_path: str | None = None,
     extra_dbs: dict[str, str] | None = None,
 ) -> dict:
     """One backup pass over both DBs, plus any extra_dbs (label -> path) the
@@ -269,7 +270,11 @@ def run_backup_once(
     staging_dir.mkdir(parents=True, exist_ok=True)
     status: dict = {"run_at": run_at.isoformat(), "results": {}}
 
-    for label, db_path in (("events", events_db_path), ("usage", usage_db_path), *(extra_dbs or {}).items()):
+    sources = [("events", events_db_path), ("usage", usage_db_path)]
+    if qc_db_path:
+        sources.append(("qc", qc_db_path))
+    sources.extend((extra_dbs or {}).items())
+    for label, db_path in sources:
         local_backup = staging_dir / f"{label}-{stamp}.db"
         try:
             if not Path(db_path).exists():
@@ -308,7 +313,12 @@ def _next_run_at(now: datetime, hour: int = _DEFAULT_HOUR, minute: int = _DEFAUL
 
 
 def start_background_scheduler(
-    events_db_path: str, usage_db_path: str, staging_dir: Path, *, extra_dbs: dict[str, str] | None = None
+    events_db_path: str,
+    usage_db_path: str,
+    staging_dir: Path,
+    qc_db_path: str | None = None,
+    *,
+    extra_dbs: dict[str, str] | None = None,
 ) -> None:
     """Starts a daemon thread that runs run_backup_once daily. Fire-and-
     forget, same lifecycle contract as engine.m7.scheduler and
@@ -320,7 +330,7 @@ def start_background_scheduler(
             now = datetime.now(timezone.utc)
             next_run = _next_run_at(now)
             time.sleep(max(0.0, (next_run - now).total_seconds()))
-            run_backup_once(events_db_path, usage_db_path, staging_dir, extra_dbs=extra_dbs)
+            run_backup_once(events_db_path, usage_db_path, staging_dir, qc_db_path=qc_db_path, extra_dbs=extra_dbs)
 
     threading.Thread(target=_loop, name="db-daily-backup", daemon=True).start()
 

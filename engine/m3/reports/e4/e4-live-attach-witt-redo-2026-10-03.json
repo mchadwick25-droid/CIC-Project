@@ -1,0 +1,508 @@
+{
+  "run_settings": {
+    "worlds": [
+      "witt"
+    ],
+    "probes_per_world": 28,
+    "probes": "c-t-probe-01",
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "region": "us-east-1",
+    "mode": "live-attach",
+    "arms": [
+      "live_attach"
+    ],
+    "records_only_directive": null,
+    "citation_attach": "on, safety model",
+    "self_revision": "off (production)",
+    "sentence_enforce": "off (production)",
+    "max_usd": 0.6,
+    "authorized_by": "Mark Chadwick (spend what we need, carefully, 2026-10-03; live-path attach check, rerun of rate-limited probes)",
+    "package_manifest_hash": {
+      "witt": "sha256:371d8e67598da84e91683ee46222a1cd433bf770ffc920bae95d41d777ca9f23"
+    }
+  },
+  "started": "2026-10-03T12:26:46+00:00",
+  "worlds": {
+    "witt": [
+      {
+        "probe_id": "c-t-probe-01",
+        "cell": "C-T",
+        "routing_action": "voice_with_directive",
+        "arms": {
+          "live_attach": {
+            "answer_text": "Every household under our own catechism said the answer each week, in the same words: *I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary*. Not one or the other. Both, in the same sentence, said by the same mouth. The same confession goes on: conceived by the Holy Spirit, born of the Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried. We do not argue this out for you the way the old councils argued it; we hand you the confession itself, said, not proven.\n\nWhat that means for us, plainly, is this. He is God's only Son, our Lord -- and the explanation our catechism gives says that he redeemed us, a lost and condemned people, and bought us back from sin, from death, and from the devil's own power. It did not cost him gold or silver -- it cost him his own holy, precious blood, his own innocent body, his own death. Christ alone is named our one Mediator, our one High Priest, the one who stands between us and God on our behalf -- no saint, no teacher, no priest of our own beside him. That claim is not private in the way a later phrase might mean -- it is said by a whole household together, the same words on every tongue -- but it is not distant either: each of us says *my Lord*, not only *our Lord*.\n\nWe carry the creed's own threefold naming -- Father, Son, and Holy Spirit -- as received teaching, centuries older than our own floor. We do not theorize it further than Scripture does. The Father sends the Son. The Spirit conceives him in Mary's womb. The Son redeems us by his own death. The Spirit gives faith where the Word is preached. We confuse none of these with the others, and we refuse to explain what Scripture itself does not explain. The plain sense of Scripture is the spiritual sense. A clear text is what a Christian must stand on.",
+            "citation_entries": [
+              {
+                "sentence": "Every household under our own catechism said the answer each week, in the same words: *I believe that Jesus Christ is truly God, born of the Father in eternity, and also truly man, born of the Virgin Mary*.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Both, in the same sentence, said by the same mouth.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The same confession goes on: conceived by the Holy Spirit, born of the Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried.",
+                "record_ids": [
+                  "witt.quote.second-article-of-the-creed"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.quote.second-article-of-the-creed",
+                    "record_type": "quote",
+                    "label": "The Small Catechism, The Second Article, On Redemption, and its own explanation — the Small Catechism's Second Article -- the creed and its explanation, said by the household itself, in its own first person, as 'I believe'",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-small-catechism",
+                        "author": "Luther",
+                        "work": "The Small Catechism",
+                        "locus": "The Second Article, On Redemption, and its own explanation (cic:luther_small-catechism_smith1994.txt lines 186-205): the creed's own confession and the household's own 'I believe that Jesus Christ is truly God... and also truly man'",
+                        "rights_status": "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level",
+                        "edition": "(1529), trans. Robert E. Smith, Project Wittenberg (1994/2002/2004) — without Luther's 1529 preface; vendored as cic/texts/luther_small-catechism_smith1994.txt"
+                      }
+                    ],
+                    "spoken_rendering": "And I believe in Jesus Christ, God's only Son, our Lord -- conceived by the Holy Spirit, born of the Virgin Mary, made to suffer under Pontius Pilate, crucified, died, and buried. He went down to the dead, and on the third day he rose again. He went up to heaven and sits at the right hand of God the Father, the Almighty. From there he will come to judge the living and the dead.\nWhat does this mean?\nI believe that Jesus Christ is truly God, born of the Father before time began, and just as truly man, born of the Virgin Mary. He is my Lord. He has bought me back -- a lost person, condemned -- and freed me from every sin, from death, and from the devil's power. It cost him nothing made of gold or silver. It cost him his own holy, precious blood, and his own innocent life and death. Because of this I belong to him. I will live under him in his kingdom, and serve him, made right, innocent, and blessed forever -- exactly as he himself is risen from death and lives and reigns forever. Yes, this is true.",
+                    "speaker": "the Small Catechism's Second Article -- the creed and its explanation, said by the household itself, in its own first person, as 'I believe'"
+                  }
+                ]
+              },
+              {
+                "sentence": "We do not argue this out for you the way the old councils argued it; we hand you the confession itself, said, not proven.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "He is God's only Son, our Lord -- and the explanation our catechism gives says that he redeemed us, a lost and condemned people, and bought us back from sin, from death, and from the devil's own power.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "It did not cost him gold or silver -- it cost him his own holy, precious blood, his own innocent body, his own death.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "Christ alone is named our one Mediator, our one High Priest, the one who stands between us and God on our behalf -- no saint, no teacher, no priest of our own beside him.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "That claim is not private in the way a later phrase might mean -- it is said by a whole household together, the same words on every tongue -- but it is not distant either: each of us says *my Lord*, not only *our Lord*.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The plain sense of Scripture is the spiritual sense.",
+                "record_ids": [
+                  "witt.term.letter-and-spirit"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.letter-and-spirit",
+                    "record_type": "term",
+                    "label": "the letter and the spirit -- the plain sense IS the spiritual sense",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-answer-to-the-superchristian-superspiritual",
+                        "author": "Luther",
+                        "work": "Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser of Leipzig, with a Glance at His Comrade Murner",
+                        "locus": "Answer to Emser, 'The Letter and the Spirit' section only",
+                        "rights_status": "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level",
+                        "edition": "(March 1521), trans. Steimle, vol. III; vendored as cic/texts/luther_works-v3-selected_various1930.txt"
+                      },
+                      {
+                        "source_id": "witt.source.philadelphia-vols-i-iii-general-introduction",
+                        "author": "Philadelphia Edition editorial apparatus",
+                        "work": "vols. I–III: general introduction and translators' note",
+                        "locus": "per Doc_06 §5 entry 3.5's own Key Sources line",
+                        "rights_status": "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level",
+                        "edition": "(H. E. Jacobs, 1915), and the per-work introductions by C. M. Jacobs, A. T. W. Steinhaeuser, W. A. Lambert, J. J. Schindel, A. Steimle, T. E. Schmauk, J. L. Neve, with H. E. Jacobs and A. Spaeth as general editors; vol. III under Muhlenberg Press / ULCA Board of Publication (1930); vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt, cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt, cic/texts/luther_works-v3-selected_various1930.txt"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "A clear text is what a Christian must stand on.",
+                "record_ids": [
+                  "witt.term.letter-and-spirit"
+                ],
+                "sources": [
+                  {
+                    "record_id": "witt.term.letter-and-spirit",
+                    "record_type": "term",
+                    "label": "the letter and the spirit -- the plain sense IS the spiritual sense",
+                    "sources": [
+                      {
+                        "source_id": "witt.source.luther-answer-to-the-superchristian-superspiritual",
+                        "author": "Luther",
+                        "work": "Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser of Leipzig, with a Glance at His Comrade Murner",
+                        "locus": "Answer to Emser, 'The Letter and the Spirit' section only",
+                        "rights_status": "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level",
+                        "edition": "(March 1521), trans. Steimle, vol. III; vendored as cic/texts/luther_works-v3-selected_various1930.txt"
+                      },
+                      {
+                        "source_id": "witt.source.philadelphia-vols-i-iii-general-introduction",
+                        "author": "Philadelphia Edition editorial apparatus",
+                        "work": "vols. I–III: general introduction and translators' note",
+                        "locus": "per Doc_06 §5 entry 3.5's own Key Sources line",
+                        "rights_status": "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level",
+                        "edition": "(H. E. Jacobs, 1915), and the per-work introductions by C. M. Jacobs, A. T. W. Steinhaeuser, W. A. Lambert, J. J. Schindel, A. Steimle, T. E. Schmauk, J. L. Neve, with H. E. Jacobs and A. Spaeth as general editors; vol. III under Muhlenberg Press / ULCA Board of Publication (1930); vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt, cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt, cic/texts/luther_works-v3-selected_various1930.txt"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentence": "The Son redeems us by his own death.",
+                "record_ids": [
+                  "witt.dw.truly-god-and-truly-man"
+                ],
+                "attached": true,
+                "sources": [
+                  {
+                    "record_id": "witt.dw.truly-god-and-truly-man",
+                    "record_type": "doctrinal_witness",
+                    "label": "Was Jesus God? Every household under our own catechism said the answer each week, in the…",
+                    "sources": [
+                      {
+                        "source_id": "witt.quote.second-article-of-the-creed",
+                        "author": null,
+                        "work": null,
+                        "locus": "the whole quote: 'truly God... and also truly man'; 'redeemed me... bought and won me... it did not cost Him gold or silver, but His holy, precious blood'; 'He is my Lord!'",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.justification",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the merits of another, namely, of Christ alone'; the promise received by faith alone, for Christ's sake",
+                        "rights_status": null,
+                        "edition": null
+                      },
+                      {
+                        "source_id": "witt.term.christ-alone",
+                        "author": null,
+                        "work": null,
+                        "locus": "'the one Christ as the Mediator, Propitiation, High Priest, and Intercessor'",
+                        "rights_status": null,
+                        "edition": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "handed_to_facilitator": false,
+            "uncited_claim_sentences": [
+              "Not one or the other.",
+              "What that means for us, plainly, is this.",
+              "We carry the creed's own threefold naming -- Father, Son, and Holy Spirit -- as received teaching, centuries older than our own floor.",
+              "The Father sends the Son.",
+              "The Spirit conceives him in Mary's womb.",
+              "The Spirit gives faith where the Word is preached."
+            ],
+            "citation_attach": {
+              "enabled": true,
+              "added": [
+                "The Son redeems us by his own death."
+              ],
+              "trail": [
+                {
+                  "sentence": "Not one or the other.",
+                  "proposed": "witt.quote.second-article-of-the-creed",
+                  "verdict": "no"
+                },
+                {
+                  "sentence": "What that means for us, plainly, is this.",
+                  "proposed": null,
+                  "verdict": "none"
+                },
+                {
+                  "sentence": "We carry the creed's own threefold naming -- Father, Son, and Holy Spirit -- as received teaching, centuries older than our own floor.",
+                  "proposed": null,
+                  "verdict": "none"
+                },
+                {
+                  "sentence": "The Father sends the Son.",
+                  "proposed": null,
+                  "verdict": "none"
+                },
+                {
+                  "sentence": "The Spirit conceives him in Mary's womb.",
+                  "proposed": null,
+                  "verdict": "none"
+                },
+                {
+                  "sentence": "The Son redeems us by his own death.",
+                  "proposed": "witt.dw.truly-god-and-truly-man",
+                  "verdict": "carries"
+                },
+                {
+                  "sentence": "The Spirit gives faith where the Word is preached.",
+                  "proposed": null,
+                  "verdict": "none"
+                }
+              ]
+            },
+            "uncited_before_attach": [
+              "Not one or the other.",
+              "What that means for us, plainly, is this.",
+              "We carry the creed's own threefold naming -- Father, Son, and Holy Spirit -- as received teaching, centuries older than our own floor.",
+              "The Father sends the Son.",
+              "The Spirit conceives him in Mary's womb.",
+              "The Son redeems us by his own death.",
+              "The Spirit gives faith where the Word is preached."
+            ]
+          }
+        },
+        "usd": 0.136861,
+        "seconds": 19.82,
+        "out_of_scope_class": null
+      }
+    ]
+  },
+  "actual_usd_spent": 0.136861,
+  "aborted_reason": null
+}

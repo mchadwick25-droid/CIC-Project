@@ -32,7 +32,10 @@ from engine.m4 import idle_close, session_code
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
+from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
+from engine.m7.qc_store import QCStore
+from engine.api.qc_recorder import QCRecorder
 from engine.m8.log_store import UsageLogStore
 
 def _message_failure(exc: Exception, session_id: str) -> HTTPException | None:
@@ -141,6 +144,7 @@ class Deps:
     r27_enforce: bool = False
     self_revision_enabled: bool = True
     citation_attach_enabled: bool = False
+    qc_recorder: object | None = None
     # Whether a client that asks for an event stream gets the reply sentence
     # by sentence while it is written (the Accept header decides per request).
     streaming_enabled: bool = False
@@ -397,6 +401,7 @@ def create_app(
     r27_enforce: bool = False,
     self_revision_enabled: bool = True,
     citation_attach_enabled: bool = False,
+    qc_recorder=None,
     streaming_enabled: bool = False,
     m7_audit_root: Path | None = None,
     admin_auth_store: admin_auth.AdminAuthStore | None = None,
@@ -454,6 +459,7 @@ def create_app(
         r27_enforce=r27_enforce,
         self_revision_enabled=self_revision_enabled,
         citation_attach_enabled=citation_attach_enabled,
+        qc_recorder=qc_recorder,
         streaming_enabled=streaming_enabled,
         m7_audit_root=m7_audit_root,
         admin_auth_store=admin_auth_store,
@@ -558,6 +564,7 @@ def create_app(
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
+            qc_recorder=deps.qc_recorder,
             daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
         )
         started = time.monotonic()
@@ -599,6 +606,7 @@ def create_app(
                 r27_enforce=deps.r27_enforce,
                 self_revision_enabled=deps.self_revision_enabled,
                 citation_attach_enabled=deps.citation_attach_enabled,
+                qc_recorder=deps.qc_recorder,
             )
         except wiring.SessionNotFound:
             raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
@@ -820,7 +828,16 @@ def _build_real_app() -> FastAPI:
         deeper_routes.start_retention_thread(deeper_runtime)
     db_backup.start_background_scheduler(
         settings.events_db_path, settings.usage_db_path, data_dir / "backups-staging",
+        qc_db_path=settings.qc_db_path,
         extra_dbs={"meter": deeper_config.meter_db_path} if deeper_runtime is not None else None,
+    )
+
+    # The anonymous quality-control store and the daily retention job
+    # (System Hub decision 34): conversations inactive for 90 days leave
+    # the event log; QC answer text older than 90 days is deleted.
+    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry)
+    retention.start_background_scheduler(
+        settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention"
     )
 
     return create_app(
@@ -844,6 +861,7 @@ def _build_real_app() -> FastAPI:
         r27_enforce=settings.r27_enforce,
         self_revision_enabled=settings.self_revision_enabled,
         citation_attach_enabled=settings.citation_attach_enabled,
+        qc_recorder=qc_recorder,
         streaming_enabled=settings.streaming_enabled,
         deeper=deeper_runtime,
         # Same path m7_scheduler.start_background_scheduler was already
