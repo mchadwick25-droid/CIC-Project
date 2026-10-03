@@ -45,6 +45,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.received-programs-logic
+- type: associated-with
+  target: gallic.force.africa-and-rome-pressure
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "nobody can ever attain it"` returns line 25170; read with `sed -n '25163,25171p'`, inside `<div4

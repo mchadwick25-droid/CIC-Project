@@ -6018,7 +6018,6 @@ ruling of 2026-09-30 ("Cap ruling: jes Step 0") covers the same review under its
 entry covers is `Step0_Review_Round3_SpotCheck.md`. The entry of 2026-09-30 is unchanged and still names the
 review under its earlier name.
 
-
 ## 2026-10-02 - Claude threads merge their own pull requests
 
 The project lead ruled that a Claude thread merges the pull requests it opens, instead of leaving the merge button to the project lead. In the project lead's words: "if i am just pushing buttons i would rather you do that." He confirmed the practice again on 2026-10-02 with "yes you merge."
@@ -6107,6 +6106,62 @@ The project lead ruled: "make sure everything that is participant facing is tran
 The first claim-support measurement (Transparency Engine Decision-Log Entry 92) graded 33 confirm-pass replies, 461 specific claims, with internal Opus review: supported 43%, stretched 11.5%, unsupported 3.7%, uncited 42%. A blind second reviewer agreed on 96.6% of sentences, clearing the 85% bar set with the method.
 
 25. Claim support is a gate. A specific claim fails when the participant cannot trace it to a record that carries it: unsupported (its cited record does not carry it) or uncited (it cites nothing). Today's fleet figure is 45.6%. The threshold is set after the voice is changed to cite every specific claim, measured the same way. The project lead chose this over counting unsupported alone (3.7%, which leaves uncited claims unmeasured), over unsupported plus stretched, and over keeping it as a tracked measure only. It follows his rule that the Representative is bound by its world's sources.
+
+---
+
+## 2026-09-26 — Escalation does not park the document: a named escalated item waits, the document proceeds
+
+**Ruling.** Mark, 2026-09-26: "The document can proceed; only the named item waits. It goes
+to NEEDS-RULING or the world's Open_Gaps file, as long as it doesn't change the document's
+own conclusions. If it does change them (a Representative's identity, the world's boundary,
+the core classification), the document waits."
+
+So the `cic-build-cycle` gate — "If any apply, stop and escalate directly to the project
+lead — do not self-dispose, regardless of how clean the review came back" — is not a
+whole-document hold. It has two branches, and which one applies turns on a test the gate
+never stated:
+
+- **The escalated item does not change the document's own conclusions** → the document
+  proceeds to "Approved to proceed" on the build thread's own self-disposition under
+  CO-022, and the item is registered as a named open item in that world's
+  `Open_Gaps_Tracking.md`, or in `Build/worlds/_cross-world/NEEDS-RULING.md` where it is
+  cross-world. The item waits; the document does not.
+- **The escalated item does change them** — Mark's own three examples: a Representative's
+  identity, the world's boundary, the core classification → the document waits.
+
+**Why it was asked.** The `obel` (Old Believers) package raised it. Its Round 2 independent
+recheck flagged that Step 0 §5 and Doc_02 both named governance/methodology and
+portfolio-level escalations and then announced the thread would self-dispose anyway, which
+read against the gate's plain words; the build thread then parked all four documents on Mark
+rather than answer a question about its own package. Neither reading was obviously wrong,
+which is what made it a real escalation rather than a thread's uncertainty. `obel` is the
+only world that was parked this way — checked across `worlds/` — so there is no fleet-wide
+backlog of documents to release.
+
+**Applied to `obel` the same day.** Its one remaining escalation is the census's own
+`floorNote`/`statusDescription`, which carry an absolute "no question of doctrine arises
+here at all" that this world's own vendored primary source contradicts at p. 34 of the
+Avvakum *Zhitie*, and which were cited approvingly at a Frozen portfolio gate. Tested
+against the ruling: correcting the census moves the census *toward* what these documents
+already say. The documents' own conclusion — the world clears Constitution Article 4's
+floor comfortably, on the Creed's shared content, and the schism is ritual-and-textual
+rather than a rival confession — does not depend on how the census is worded, and no
+Representative identity, world boundary or core classification turns on it. First branch:
+Step 0, Doc_01, Doc_02 and the Source Registry proceed; the census item waits, registered
+in `Build/worlds/obel/Open_Gaps_Tracking.md` and, because it is portfolio-level and touches a
+Frozen gate artifact, also in `NEEDS-RULING.md`'s hand-maintained tail.
+
+**Still owed, and not done here.** The two-branch rule belongs in the governing process
+documents — `CiC_Record_Native_World_Build_Process_V1.8.md` and the
+`cic-build-cycle` skill's own Disposition and Escalation sections — so the next world does
+not re-derive it. Editing those is a coach thread's authority, not a build or review
+thread's; flagged here for one. Until it lands, this entry is the ruling of record.
+
+**Recorded by** the `obel` Round 2 review thread, which also applied it to that world's four
+documents. Worth naming for the audit trail: that thread reviewed the package it then
+dispositioned, so the disposition rests on Mark's ruling above plus the independent
+confirmation recorded at `Step0_Review_Round2.md` §10, not on the
+disposing thread's own view of the documents' quality.
 
 ## 2026-10-03 - Verified citation attachment adopted behind a switch (decision 26, change order CO-9)
 
