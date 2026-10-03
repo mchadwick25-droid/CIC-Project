@@ -57,7 +57,9 @@ class Product:
 
 
 class BoundedSet:
-    """Session ids held for the process lifetime, oldest forgotten first."""
+    """Session ids this process remembers, oldest forgotten first. They are
+    never written to disk and never reach the meter: the meter still holds no
+    session id."""
 
     def __init__(self, limit: int = 20_000):
         self._limit = limit
@@ -86,6 +88,7 @@ class DeeperRuntime:
     table_round_cost: int = 3
     group_burst_multiplier: int = 6
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
+    paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
 
 
 def parse_products(raw: str | None) -> dict[str, Product]:

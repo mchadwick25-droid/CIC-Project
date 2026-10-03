@@ -557,3 +557,154 @@ def test_a_forged_code_gets_no_bucket_of_its_own(store, usage_store, world_loade
         http.cookies.clear()
         results.append(http.post("/api/session", json={"world_key": "fix"}, headers={"X-Cic-Code": codes.generate()}).status_code)
     assert 429 in results
+
+
+# ---- review S2-1: Facilitator-only sittings are few ------------------------------
+
+def test_a_visitor_past_the_session_limit_gets_one_facilitator_only_sitting_a_day(
+    store, usage_store, world_loader, registry, runtime
+):
+    http = capped_app(store, usage_store, world_loader, registry, runtime, RecordingClient(), anon_daily_session_limit=0)
+    first = http.post("/api/session", json={"world_key": "fix"})
+    assert first.status_code == 201
+    assert http.post("/api/session", json={"world_key": "fix"}).status_code == 429
+    http.cookies.clear()
+    assert http.post("/api/session", json={"world_key": "fix"}).status_code == 429
+
+
+def test_a_script_opening_sittings_in_a_loop_is_stopped_after_the_first(store, usage_store, world_loader, registry, runtime):
+    http = capped_app(store, usage_store, world_loader, registry, runtime, RecordingClient(), anon_daily_session_limit=0)
+    results = []
+    for _ in range(30):
+        http.cookies.clear()
+        results.append(http.post("/api/session", json={"world_key": "fix"}).status_code)
+    assert results.count(201) <= 2
+    assert len(store.list_session_ids()) <= 2
+
+
+def test_the_facilitator_only_sitting_answers_a_crisis_on_its_fifth_message(store, usage_store, world_loader, registry, runtime):
+    client = RecordingClient()
+    http = capped_app(store, usage_store, world_loader, registry, runtime, client, anon_daily_session_limit=0)
+    session_id, auth = open_session(http)
+    first = say(http, session_id, auth, "hello there")
+    assert first.json()["routing_action"] == "session_cap_turn"
+    for _ in range(3):
+        assert say(http, session_id, auth, "anyone there?").status_code == 409
+    client.messages._responses["submit_safety_classification"] = copy.deepcopy(ACUTE)
+    fifth = say(http, session_id, auth, "I do not want to be here")
+    assert fifth.status_code == 200
+    assert fifth.json()["routing_action"] == "safety_turn" and fifth.json()["facilitator"]["resources_appended"]
+    assert client.voice_requests == []
+
+
+# ---- review S2-2: only a live code with exchanges left lifts the limit -------------
+
+def test_a_spent_code_does_not_lift_the_session_limit(store, usage_store, world_loader, registry, runtime):
+    client = RecordingClient()
+    http = capped_app(store, usage_store, world_loader, registry, runtime, client, anon_daily_session_limit=0)
+    code = code_with(runtime, 1)
+    runtime.meter.settle(runtime.meter.reserve(code).reservation, True)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    reply = say(http, session_id, auth, "hello there")
+    assert reply.json()["routing_action"] == "session_cap_turn" and reply.json()["voice"] is None
+    assert client.voice_requests == []
+
+
+def test_a_paused_code_does_not_lift_the_session_limit(store, usage_store, world_loader, registry, runtime):
+    client = RecordingClient()
+    http = capped_app(store, usage_store, world_loader, registry, runtime, client, anon_daily_session_limit=0)
+    code = code_with(runtime, 5)
+    runtime.meter.pause(True)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    assert say(http, session_id, auth, "hello there").json()["voice"] is None
+    assert runtime.meter.status(code).remaining == 5
+
+
+def test_an_extra_sitting_opened_by_a_live_code_draws_down_from_its_first_turn(store, usage_store, world_loader, registry, runtime):
+    client = RecordingClient()
+    http = capped_app(store, usage_store, world_loader, registry, runtime, client, anon_daily_session_limit=0)
+    code = code_with(runtime, 2)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    first = say(http, session_id, auth, "one")
+    second = say(http, session_id, auth, "two")
+    third = say(http, session_id, auth, "three")
+    assert first.json()["voice"] is not None and first.headers["x-cic-remaining"] == "1"
+    assert second.json()["voice"] is not None and second.headers["x-cic-remaining"] == "0"
+    assert third.json()["routing_action"] == "session_cap_turn"
+    assert len(client.voice_requests) == 2
+
+
+def test_a_code_under_the_session_limit_keeps_its_first_exchanges_free(store, usage_store, world_loader, registry, runtime):
+    http = capped_app(store, usage_store, world_loader, registry, runtime, RecordingClient())
+    code = code_with(runtime, 2)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    replies = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP)]
+    assert [r.headers["x-cic-remaining"] for r in replies] == ["2", "2"]
+
+
+def test_a_round_the_code_just_paid_to_zero_can_still_be_continued_past_the_daily_count(
+    store, usage_store, world_loader, registry, runtime, alx_world, desert_world, monkeypatch
+):
+    monkeypatch.setattr("engine.m4.round.TABLE_SESSION_ROUND_CAP", 0)
+    client = long_table_client(alx_world, desert_world)
+    http = capped_app(store, usage_store, world_loader, registry, runtime, client, anon_daily_turn_limit=1)
+    code = code_with(runtime, 3)
+    created = http.post("/api/session", json={"world_keys": ["alx", "desert"]}, headers={"X-Cic-Code": code}).json()
+    auth = {"Authorization": f"Session {created['session_code']}", "X-Cic-Code": code}
+    opened = http.post(f"/api/session/{created['session_id']}/message", json={"text": "what is prayer?"}, headers=auth)
+    assert opened.status_code == 200 and opened.headers["x-cic-remaining"] == "0"
+    while opened.json()["round_open"]:
+        opened = http.post(f"/api/session/{created['session_id']}/continue", headers=auth)
+        assert opened.status_code == 200
+
+
+# ---- review S2 notes: the request diff on the stream path and the table ------------
+
+def test_the_voice_request_is_identical_on_the_stream_path_past_the_free_cap(
+    store, usage_store, world_loader, registry, runtime, monkeypatch
+):
+    turns = FREE_CAP + 1
+
+    def run(deeper, code, cap):
+        monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", cap)
+        client = RecordingClient()
+        http = build(store, usage_store, world_loader, registry, client, deeper=deeper, streaming_enabled=True)
+        headers = {"X-Cic-Code": code} if code else {}
+        session_id, auth = open_session(http, **headers)
+        for i in range(turns):
+            reply = http.post(
+                f"/api/session/{session_id}/message", json={"text": f"question number {i}"},
+                headers={**auth, "Accept": "text/event-stream"},
+            )
+            assert parse_sse(reply.text)[-1][0] == "done"
+        return client.voice_requests[turns - 1]
+
+    off = run(None, None, 50)
+    free = run(runtime, None, 50)
+    paid = run(runtime, code_with(runtime, 3), FREE_CAP)
+    assert off == free == paid
+
+
+def test_the_voice_requests_are_identical_for_a_table_round_past_the_free_rounds(
+    store, usage_store, world_loader, registry, runtime, alx_world, desert_world, monkeypatch
+):
+    def run(deeper, code, cap):
+        monkeypatch.setattr("engine.m4.round.TABLE_SESSION_ROUND_CAP", cap)
+        client = long_table_client(alx_world, desert_world)
+        http = build(store, usage_store, world_loader, registry, client, deeper=deeper)
+        headers = {"X-Cic-Code": code} if code else {}
+        created = http.post("/api/session", json={"world_keys": ["alx", "desert"]}, headers=headers).json()
+        auth = {"Authorization": f"Session {created['session_code']}", **headers}
+        marks = []
+        for text in ("what is prayer?", "and fasting?"):
+            reply = http.post(f"/api/session/{created['session_id']}/message", json={"text": text}, headers=auth)
+            assert reply.status_code == 200
+            marks.append(len(client.messages.stream_calls))
+            while reply.json()["round_open"]:
+                reply = http.post(f"/api/session/{created['session_id']}/continue", headers=auth)
+        return client.messages.stream_calls[marks[0] :]
+
+    off = run(None, None, 5)
+    free = run(runtime, None, 5)
+    paid = run(runtime, code_with(runtime, 6), 1)
+    assert off and off == free == paid

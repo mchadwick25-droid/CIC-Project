@@ -458,7 +458,10 @@ def create_app(
     if anon_cap_enabled:
         anon_cap.install(
             app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
-            exempt=(lambda request: deeper_admission.code_is_usable(deeper, request)) if deeper is not None else None,
+            exempt=(
+                (lambda request, is_create: deeper_admission.code_is_usable(deeper, request, strict=is_create))
+                if deeper is not None else None
+            ),
             session_cap_facilitator_only=deeper is not None,
         )
     if rate_limit:
@@ -492,8 +495,12 @@ def create_app(
         return {"status": "ok"}
 
     def _note_facilitator_only(request: Request, session_id: str) -> None:
-        if deeper is not None and getattr(request.state, "facilitator_only_session", False):
+        if deeper is None:
+            return
+        if getattr(request.state, "facilitator_only_session", False):
             deeper.facilitator_only_sessions.add(session_id)
+        if getattr(request.state, "paid_session", False):
+            deeper.paid_sessions.add(session_id)
 
     if deeper is not None:
         def _admin_check(request: Request, authorization: str | None) -> None:

@@ -29,14 +29,37 @@ def code_from(request: Request) -> str | None:
     return request.headers.get(CODE_HEADER)
 
 
-def code_is_usable(runtime: DeeperRuntime, request: Request) -> bool:
-    """A code that exists and is not void: enough to lift the daily session
-    cap and to key the burst limit."""
+def _status(runtime: DeeperRuntime, request: Request):
+    """The request's code status, looked up once per request."""
+    cached = getattr(request.state, "deeper_status", _UNSET)
+    if cached is not _UNSET:
+        return cached
     try:
         info = runtime.meter.status(code_from(request))
     except Exception:  # noqa: BLE001 - admission must not break the free path
+        info = None
+    request.state.deeper_status = info
+    return info
+
+
+_UNSET = object()
+
+
+def code_is_usable(runtime: DeeperRuntime, request: Request, *, strict: bool = True) -> bool:
+    """Whether the code on the request vouches for it. Strict, for opening a
+    sitting past the daily session limit: a live code with exchanges left and
+    codes not paused. Loose, for continuing a round already admitted: any code
+    that is not void."""
+    info = _status(runtime, request)
+    if info is None or info.status == "void":
         return False
-    return info is not None and info.status != "void"
+    if not strict:
+        return True
+    try:
+        paused = runtime.meter.is_paused()
+    except Exception:  # noqa: BLE001
+        return False
+    return info.status == "live" and info.remaining > 0 and not paused
 
 
 def burst_key(runtime: DeeperRuntime, request: Request) -> tuple[str, int] | None:
@@ -45,10 +68,7 @@ def burst_key(runtime: DeeperRuntime, request: Request) -> tuple[str, int] | Non
     raw = code_from(request)
     if not raw:
         return None
-    try:
-        info = runtime.meter.status(raw)
-    except Exception:  # noqa: BLE001
-        return None
+    info = _status(runtime, request)
     if info is None or info.status == "void":
         return None
     normal = codes.normalize(raw)
@@ -66,11 +86,12 @@ class Admission:
         self._free_cap = free_cap
         self._unit_cost = unit_cost
         self._facilitator_only = session_id in runtime.facilitator_only_sessions
+        self._paid_sitting = session_id in runtime.paid_sessions
         self._reservation = None
         self.remaining: int | None = None
 
     def provider(self, completed: int, daily_cap_reached: bool) -> TurnGrant:
-        limited = daily_cap_reached or self._facilitator_only
+        limited = daily_cap_reached or self._facilitator_only or self._paid_sitting
         beyond_free = limited or completed >= self._free_cap
         if self._code and beyond_free:
             admission = self._runtime.meter.reserve(self._code, self._unit_cost)
