@@ -172,8 +172,10 @@ def _candidate_head_text(record: dict) -> str:
     if record_type == "term":
         return " ".join(filter(None, [record.get("plain_meaning"), record.get("quick_meaning")]))
     if record_type == "story":
-        return " ".join(filter(None, [record.get("tellable_as"), record.get("text")]))
-    if record_type in ("quote", "doctrinal_witness"):
+        return record.get("tellable_as") or ""
+    if record_type == "quote":
+        return record.get("modern_rendering") or ""
+    if record_type == "doctrinal_witness":
         return record.get("text") or ""
     if record_type == "honest_limit":
         return record.get("statement") or ""
@@ -570,8 +572,11 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         )
 
     for story in _by_type(records, "story"):
-        body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
-        emit("Story", body, story["id"])
+        tellable = story.get("tellable_as")
+        if not tellable:
+            raise ValueError(f"{story['id']}: story has no tellable_as - refusing to compile "
+                             f"the source text, which is never voiced")
+        emit("Story", tellable, story["id"])
 
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []
@@ -630,7 +635,7 @@ def _chunk_text(record: dict) -> str:
     if record_type == "term":
         lines += [record.get("plain_meaning", ""), "", f"world_word: {record.get('world_word', '')}", "", record.get("quick_meaning", "")]
     elif record_type == "story":
-        lines += [record.get("tellable_as", ""), "", record.get("text", "")]
+        lines += [record.get("tellable_as", "")]
     elif record_type == "ambient":
         lines += [record.get("detail", "")]
     elif record_type == "doctrinal_witness":
@@ -743,10 +748,8 @@ def build_quotes_json(records: dict) -> bytes:
         {
             "id": q["id"],
             "text": q.get("text"),
-            # Build-authored translation for archaic originals:
-            # the spoken form; text above stays the
-            # original for the click page. Absent when the original's
-            # English is already plain.
+            # The spoken form. `text` above is the verbatim source,
+            # kept for the citation net's verbatim check and never shown.
             "modern_rendering": q.get("modern_rendering"),
             "speaker_or_author": q.get("speaker_or_author"),
             "license": q.get("license"),

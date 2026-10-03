@@ -6095,3 +6095,9 @@ E1 ran native API citations against the hand-copied citation ids on the whole-wo
 `cic/texts/` holds 634 MB in 451 files, against a 700 MB planning trigger. The plan (`Build/worlds/_cross-world/PLAN-texts-store-scaling.md`) says to re-open it at that size, and it was re-read against current measurements. The whole repository packs to 2.22 GiB. The 875 MB of MP3 narration under `cic-website/` is larger than the texts and grows with the narration work. A 27-source vendoring in review adds about 37 MB to the texts.
 
 23. The planning triggers move to 1 GB (re-read the plan) and 1.5 GB (act on it), and `cic/texts/` stays in plain git. The project lead chose this over splitting the store into its own repository now and over moving the audio out first. A split still needs the rights gate to learn a "store not checked out" state, and it stays a later, separate sign-off. Where audio is stored is a separate decision and is not made here. The plan now asks for a measured fresh-session start time before the next trigger is set.
+
+## 2026-10-02 - Participant-facing content is modern English only (decision 24)
+
+The project lead ruled: "make sure everything that is participant facing is translated into modern english, we translate quotes and stories and use that in the conversation."
+
+24. Quotes reach the voice and the participant only as their `modern_rendering`, stories only as their `tellable_as`. The source wording never reaches the voice or the app. Asked what a quote's citation card should show at its deepest level, where it showed the original wording, he chose the modern rendering plus the source reference (author, work, section, edition), so anyone who wants the original can follow the reference. The fix and the repin of every world: Conversation-Transparency-Engine Decision-Log, Entry 90.
