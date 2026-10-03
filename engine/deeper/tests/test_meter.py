@@ -302,3 +302,35 @@ def test_purge_drops_reconciliation_days_after_ninety(meter, clock):
     clock.day = date(2027, 1, 3)
     assert meter.purge() == 1
     assert meter.reconciliation() == []
+
+
+def test_a_table_round_reserves_and_spends_several_exchanges_at_once(meter):
+    (code,) = meter.mint("single", 7, "pi_t1")
+    first = meter.reserve(code, 3)
+    assert first.ok
+    assert meter.settle(first.reservation, True) == 4
+    second = meter.reserve(code, 3)
+    assert meter.settle(second.reservation, True) == 1
+    assert meter.reserve(code, 3).reason == "insufficient"
+    assert meter.reserve(code, 1).ok
+
+
+def test_a_released_round_returns_all_its_exchanges(meter):
+    (code,) = meter.mint("single", 3, "pi_t2")
+    held = meter.reserve(code, 3)
+    assert meter.reserve(code, 1).reason == "in_use"
+    meter.release(held.reservation)
+    assert meter.reserve(code, 3).ok
+    assert meter.status(code).remaining == 3
+
+
+def test_a_round_counts_in_full_against_a_group_ceiling(meter):
+    (code,) = meter.mint("group", 100, "pi_t3")
+    assert meter.reserve(code, 3).ok
+    assert meter.reserve(code, 1).reason == "daily_ceiling"
+
+
+def test_reserve_refuses_a_count_below_one(meter):
+    (code,) = meter.mint("single", 3, "pi_t4")
+    with pytest.raises(ValueError):
+        meter.reserve(code, 0)

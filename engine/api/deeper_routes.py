@@ -55,6 +55,24 @@ class Product:
     daily_ceiling: int | None = None
 
 
+class BoundedSet:
+    """Session ids held for the process lifetime, oldest forgotten first."""
+
+    def __init__(self, limit: int = 20_000):
+        self._limit = limit
+        self._items: dict[str, None] = {}
+        self._lock = threading.Lock()
+
+    def add(self, item: str) -> None:
+        with self._lock:
+            self._items[item] = None
+            while len(self._items) > self._limit:
+                del self._items[next(iter(self._items))]
+
+    def __contains__(self, item: str) -> bool:
+        return item in self._items
+
+
 @dataclass
 class DeeperRuntime:
     meter: Meter
@@ -64,6 +82,9 @@ class DeeperRuntime:
     site_origin: str | None = None
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     clock: Callable[[], float] = field(default=time.time)
+    table_round_cost: int = 3
+    group_burst_multiplier: int = 6
+    facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
 
 
 def parse_products(raw: str | None) -> dict[str, Product]:
@@ -348,4 +369,6 @@ def build_runtime(config: DeeperConfig, env: dict) -> DeeperRuntime:
         webhook_secret=secret,
         products=parse_products(env.get("CIC_DEEPER_PRODUCTS")),
         site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
+        table_round_cost=config.table_round_cost,
+        group_burst_multiplier=config.group_burst_multiplier,
     )

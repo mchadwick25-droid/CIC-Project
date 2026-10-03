@@ -1172,6 +1172,8 @@ def run_turn(
     self_revision_enabled: bool = True,
     sentence_enforce: bool = False,
     daily_cap_reached: bool = False,
+    turn_cap: int | None = None,
+    facilitator_only: bool = False,
     on_draft_text: Callable[[str], None] | None = None,
     citation_attach_enabled: bool = False,
 ) -> TurnResult:
@@ -1228,6 +1230,12 @@ def run_turn(
     the session turn cap does, at the same point, and a real crisis is
     exempt from it the same way.
 
+    turn_cap is how many completed voice turns this sitting may hold, and
+    facilitator_only makes the sitting answer through the Facilitator with no
+    voice call; both come from engine.m4.grants and default to the free
+    allowance. A sitting held to either limit still gives a safety route its
+    Facilitator turn.
+
     on_draft_text is passed to the two plain voice routes only. The bridge
     route is left out on purpose: its Facilitator turn is read before the
     voice, so a voice draft shown first would arrive out of order."""
@@ -1267,16 +1275,17 @@ def run_turn(
     # dependency check are safety turns too, and a limit must never turn
     # them away (System Hub decision 35).
     is_safety_route = action in SAFETY_ROUTES
-    if not is_safety_route and daily_cap_reached:
+    if not is_safety_route and (daily_cap_reached or facilitator_only):
         return TurnResult(
             routing_action="session_cap_turn", routing_reason="visitor daily message cap reached",
             gate=gate, safety_state_events=safety_states,
             facilitator_events=[facilitator_turns.daily_cap_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
-    if not is_safety_route and len(history or []) // 2 >= SESSION_TURN_CAP:
+    turn_cap = SESSION_TURN_CAP if turn_cap is None else turn_cap
+    if not is_safety_route and len(history or []) // 2 >= turn_cap:
         return TurnResult(
-            routing_action="session_cap_turn", routing_reason=f"session turn cap reached ({SESSION_TURN_CAP} turns)",
+            routing_action="session_cap_turn", routing_reason=f"session turn cap reached ({turn_cap} turns)",
             gate=gate, safety_state_events=safety_states,
             facilitator_events=[facilitator_turns.session_cap_turn(world.frame["representative"]["name"])],
             degraded=gate_result.degraded, usage_records=usage_records,

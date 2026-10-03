@@ -48,6 +48,7 @@ import threading
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from typing import Callable
 
 from fastapi import Request
 from fastapi.responses import JSONResponse
@@ -192,7 +193,15 @@ class DailyVisitorLimiter:
             return token
 
 
-def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSION_LIMIT, daily_turn_limit: int = DEFAULT_DAILY_TURN_LIMIT):
+def install(
+    app,
+    *,
+    secret: str,
+    daily_session_limit: int = DEFAULT_DAILY_SESSION_LIMIT,
+    daily_turn_limit: int = DEFAULT_DAILY_TURN_LIMIT,
+    exempt: Callable[[Request], bool] | None = None,
+    session_cap_facilitator_only: bool = False,
+):
     """HTTP middleware, only ever installed when CIC_API_ANON_CAP_ENABLED
     is on (see engine.api.app._build_real_app). Installed BEFORE
     ratelimit.install() in engine.api.app.create_app so that ratelimit's
@@ -241,7 +250,18 @@ def install(app, *, secret: str, daily_session_limit: int = DEFAULT_DAILY_SESSIO
         ip = client_ip(request)
         bucket_key = visitor_id or f"ip:{ip}"
 
-        allowed = limiter.allow_session(bucket_key) if is_create else limiter.allow_turn(bucket_key)
+        # A request the caller vouches for (exempt) lifts the daily session
+        # cap and is not turned away mid-round; the free counters still run.
+        vouched = bool(exempt and exempt(request))
+        if is_create:
+            allowed = vouched or limiter.allow_session(bucket_key)
+            if not allowed and session_cap_facilitator_only:
+                # The conversation still opens, answered by the Facilitator
+                # alone: a person at the limit can reach the safety check.
+                request.state.facilitator_only_session = True
+                allowed = True
+        else:
+            allowed = limiter.allow_turn(bucket_key) or (vouched and not request.url.path.endswith("/message"))
         if not allowed and request.url.path.endswith("/message"):
             # A participant message over the daily cap still reaches the
             # safety gate, so a real crisis gets the Facilitator's redirect.

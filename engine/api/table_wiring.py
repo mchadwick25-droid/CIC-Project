@@ -47,7 +47,10 @@ from engine.api.wiring import (
 from engine.m1.loader import load_fleet_records
 from engine.m4 import events, facilitator_turns, session_code
 from engine.m4 import evidence as ev
+from engine.m4 import round as round_module
 from engine.m4.entrance import open_session
+from engine.m4.grants import GrantProvider
+from engine.m4.grants import resolve as resolve_grant
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.round import (
     TABLE_SESSION_ROUND_CAP,
@@ -1124,6 +1127,7 @@ def _handle_table_message_unlocked(
     citation_attach_enabled: bool = False,
     qc_recorder=None,
     daily_turn_cap_reached: bool = False,
+    grant_for: GrantProvider | None = None,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1173,13 +1177,18 @@ def _handle_table_message_unlocked(
         anachronistic_term_ids=anachronistic_ids,
         track_b_accumulator=state.safety.track_b_accumulator,
     )
+    grant = resolve_grant(
+        grant_for, completed=state.turn_count, free_cap=round_module.TABLE_SESSION_ROUND_CAP, daily_cap_reached=daily_turn_cap_reached
+    )
     opening = open_table_round(
         gate_run=gate_run,
         representative_names=representative_names,
         track_a_last=state.safety.track_a_last,
         rounds_completed=state.turn_count,
         anachronistic_term_ids=anachronistic_ids,
-        daily_cap_reached=daily_turn_cap_reached,
+        daily_cap_reached=False,
+        round_cap=grant.cap,
+        facilitator_only=grant.facilitator_only,
     )
 
     # The gate payload is written AFTER open_table_round - the bridge branch

@@ -24,11 +24,13 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import admin_auth, anon_cap, db_backup, deeper_routes, ratelimit, table_wiring, wiring
+from engine.api import admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.deeper.config import DeeperConfig
 from engine.m1.registry import load_registry
 from engine.m4 import idle_close, session_code
+from engine.m4 import round as round_module
+from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
@@ -71,7 +73,7 @@ def _sse(event: str, data: dict) -> str:
     return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
 
 
-def _stream_message(call_kwargs: dict, session_id: str, started: float) -> StreamingResponse:
+def _stream_message(call_kwargs: dict, session_id: str, started: float, admission=None) -> StreamingResponse:
     """One interview message answered as an event stream: "draft" events
     carry the reply's sentences as the voice finishes writing them, and a
     final "done" event carries the same MessageResponse the plain endpoint
@@ -82,11 +84,17 @@ def _stream_message(call_kwargs: dict, session_id: str, started: float) -> Strea
     events: queue.Queue = queue.Queue()
 
     def run() -> None:
+        voiced = False
         try:
             result = wiring.handle_message(**call_kwargs, on_draft_text=lambda text: events.put(("draft", text)))
+            voiced = result.voice is not None
         except Exception as exc:
+            if admission is not None:
+                admission.finish(False)
             events.put(("error", exc))
         else:
+            if admission is not None:
+                admission.finish(voiced)
             events.put(("done", result))
 
     threading.Thread(target=run, daemon=True).start()
@@ -101,8 +109,11 @@ def _stream_message(call_kwargs: dict, session_id: str, started: float) -> Strea
             if kind == "draft":
                 yield _sse("draft", {"text": payload})
             elif kind == "done":
-                logger.info("message handled session=%s turn=%s ms=%d streamed=true", session_id, payload.turn_no, (time.monotonic() - started) * 1000)
-                yield _sse("done", MessageResponse(**asdict(payload)).model_dump())
+                logger.info("message handled ms=%d streamed=true", (time.monotonic() - started) * 1000)
+                done = MessageResponse(**asdict(payload)).model_dump()
+                if admission is not None and admission.remaining is not None:
+                    done["remaining"] = admission.remaining
+                yield _sse("done", done)
                 return
             else:
                 failure = _message_failure(payload, session_id)
@@ -443,12 +454,17 @@ def create_app(
     # meets (see anon_cap.install's own docstring for why that matters -
     # a burst-rejected request should never reach anon_cap's daily-quota
     # accounting at all).
+    app.state.deeper = deeper
     if anon_cap_enabled:
         anon_cap.install(
             app, secret=anon_visitor_secret, daily_session_limit=anon_daily_session_limit, daily_turn_limit=anon_daily_turn_limit,
+            exempt=(lambda request: deeper_admission.code_is_usable(deeper, request)) if deeper is not None else None,
+            session_cap_facilitator_only=deeper is not None,
         )
     if rate_limit:
-        ratelimit.install(app)
+        ratelimit.install(
+            app, bucket_for=(lambda request: deeper_admission.burst_key(deeper, request)) if deeper is not None else None
+        )
     app.state.deps = Deps(
         voice_client=voice_client,
         voice_model_id=voice_model_id,
@@ -474,6 +490,10 @@ def create_app(
     @app.get("/health")
     def health():
         return {"status": "ok"}
+
+    def _note_facilitator_only(request: Request, session_id: str) -> None:
+        if deeper is not None and getattr(request.state, "facilitator_only_session", False):
+            deeper.facilitator_only_sessions.add(session_id)
 
     if deeper is not None:
         def _admin_check(request: Request, authorization: str | None) -> None:
@@ -523,6 +543,7 @@ def create_app(
             except PackageRefused:
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+            _note_facilitator_only(request, session_id)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
@@ -547,13 +568,21 @@ def create_app(
         except PackageRefused:
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+        _note_facilitator_only(request, session_id)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
         return SessionCreateResponse(session_id=session_id, session_code=code)
 
     @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
-    def send_message(session_id: str, req: MessageRequest, request: Request, authorization: str | None = Header(default=None)):
+    def send_message(
+        session_id: str, req: MessageRequest, request: Request, response: Response, authorization: str | None = Header(default=None)
+    ):
         deps: Deps = request.app.state.deps
         state = _authenticate(deps.store, session_id, authorization)
+        is_table = state.mode == "table"
+        admission = deeper_admission.new_admission(
+            deeper, request, session_id=session_id,
+            free_cap=round_module.TABLE_SESSION_ROUND_CAP if is_table else turn_module.SESSION_TURN_CAP, table=is_table,
+        )
         call_kwargs = dict(
             store=deps.store,
             usage_store=deps.usage_store,
@@ -572,22 +601,31 @@ def create_app(
             citation_attach_enabled=deps.citation_attach_enabled,
             qc_recorder=deps.qc_recorder,
             daily_turn_cap_reached=getattr(request.state, "daily_turn_cap_reached", False),
+            grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
-        if deps.streaming_enabled and state.mode != "table" and "text/event-stream" in request.headers.get("accept", ""):
-            return _stream_message(call_kwargs, session_id, started)
+        if deps.streaming_enabled and not is_table and "text/event-stream" in request.headers.get("accept", ""):
+            return _stream_message(call_kwargs, session_id, started, admission)
+        voiced = False
         try:
-            if state.mode == "table":
+            if is_table:
                 result = table_wiring.handle_table_message(**call_kwargs)
-                logger.info("table message handled session=%s round=%s ms=%d", session_id, result.round_no, (time.monotonic() - started) * 1000)
+                voiced = result.round_open or result.voice is not None
+                logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result))
             result = wiring.handle_message(**call_kwargs)
+            voiced = result.voice is not None
         except Exception as exc:
             failure = _message_failure(exc, session_id)
             if failure is None:
                 raise
             raise failure
-        logger.info("message handled session=%s turn=%s ms=%d", session_id, result.turn_no, (time.monotonic() - started) * 1000)
+        finally:
+            if admission is not None:
+                remaining = admission.finish(voiced)
+                if remaining is not None:
+                    response.headers[deeper_admission.REMAINING_HEADER] = str(remaining)
+        logger.info("message handled ms=%d", (time.monotonic() - started) * 1000)
         return MessageResponse(**asdict(result))
 
     @app.post("/api/session/{session_id}/continue", response_model=TableMessageResponse)
