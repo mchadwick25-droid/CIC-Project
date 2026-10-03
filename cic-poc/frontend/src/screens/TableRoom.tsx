@@ -132,6 +132,7 @@ export function TableRoom({
                     {j === 0 && turn.kind === 'bridge' && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
                   </p>
                 ))}
+                {turn.note && <p className="turn__note sans">{turn.note}</p>}
               </div>
             );
           }
