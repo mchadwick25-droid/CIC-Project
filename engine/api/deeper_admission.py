@@ -23,6 +23,7 @@ logger = logging.getLogger("cic.deeper")
 
 CODE_HEADER = "x-cic-code"
 REMAINING_HEADER = "X-Cic-Remaining"
+LOW_HEADER = "X-Cic-Low"
 
 
 def code_from(request: Request) -> str | None:
@@ -119,6 +120,13 @@ class Admission:
             self._note_key = "no_code"
             return free_grant(self._free_cap, limited, self._limit_text())
         return free_grant(self._free_cap, limited)
+
+    @property
+    def low(self) -> bool:
+        """True when the code in use is down to the operations file's low-balance
+        number or less, so the app can offer more before it runs out."""
+        ops = self._runtime.ops
+        return ops is not None and self.remaining is not None and self.remaining <= ops.low_balance_at
 
     def limit_note(self, routing_action: str | None) -> dict | None:
         """The line explaining a refusal, for the response only. It names why

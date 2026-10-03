@@ -23,7 +23,7 @@ def _good():
 def test_the_shipped_file_loads_with_every_note():
     ops = load_ops()
     assert set(ops.notes) == set(NOTE_KEYS)
-    assert ops.table_round_cost == 3 and ops.group_daily_ceiling > 0 and ops.group_burst_multiplier > 0
+    assert ops.table_round_cost == 3 and ops.group_daily_ceiling > 0 and ops.group_burst_multiplier > 0 and ops.low_balance_at > 0
 
 
 def test_all_wording_reads_at_the_target_level():
@@ -42,6 +42,8 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d.pop("words"),
         lambda d: d["limits"].pop("table_round_cost"),
         lambda d: d["limits"].update(table_round_cost=0),
+        lambda d: d["limits"].update(low_balance_at=0),
+        lambda d: d["limits"].pop("low_balance_at"),
         lambda d: d["limits"].update(table_round_cost="3"),
         lambda d: d["limits"].update(extra=1),
         lambda d: d["words"]["notes"].pop("spent"),

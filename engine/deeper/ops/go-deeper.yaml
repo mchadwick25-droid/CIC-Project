@@ -2,6 +2,7 @@ limits:
   group_daily_ceiling: 300
   table_round_cost: 3
   group_burst_multiplier: 6
+  low_balance_at: 5
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:

@@ -3,20 +3,21 @@
  * much it has left. Shown only when the app is built with the module on.
  */
 import { useState } from 'react';
-import { acceptClaim, clearCode, declineClaim, deeperEnabled, getCodeUrl, openGetCode, saveCode, useDeeper } from '../lib/deeper';
+import { acceptClaim, addCode, declineClaim, deeperEnabled, getCodeUrl, openGetCode, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy } from '../lib/deeperCopy';
 
 export function CodeEntry() {
-  const { code, remaining, claim } = useDeeper();
+  const { codes, remaining, low, claim } = useDeeper();
+  const held = codes.length > 0;
   const [open, setOpen] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
 
   if (!deeperEnabled) return null;
 
-  const submit = (e: React.FormEvent) => {
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (saveCode(text)) {
+    if (await addCode(text)) {
       setText('');
       setBad(false);
       setOpen(false);
@@ -35,7 +36,7 @@ export function CodeEntry() {
         <div className="code-entry__form" role="group" aria-label={deeperCopy.claimAsk}>
           <p className="code-entry__note">
             {deeperCopy.claimAsk}
-            {code ? ` ${deeperCopy.claimReplace}` : ''}
+            {held ? ` ${deeperCopy.claimReplace}` : ''}
           </p>
           <button type="button" onClick={acceptClaim} disabled={claim.status === 'working'}>
             {deeperCopy.claimUse}
@@ -55,12 +56,19 @@ export function CodeEntry() {
 
   return (
     <div className="code-entry sans">
-      {code ? (
+      {held && !open ? (
         <>
           <span className="code-entry__note" role="status">
             {remaining !== null ? deeperCopy.balance(remaining) : deeperCopy.saved}
+            {low ? ` ${deeperCopy.low}` : ''}
           </span>
-          <button type="button" onClick={clearCode}>
+          <button type="button" onClick={getCode}>
+            {deeperCopy.getMore}
+          </button>
+          <button type="button" onClick={() => setOpen(true)}>
+            {deeperCopy.haveCode}
+          </button>
+          <button type="button" onClick={removeCode}>
             {deeperCopy.removeCode}
           </button>
         </>

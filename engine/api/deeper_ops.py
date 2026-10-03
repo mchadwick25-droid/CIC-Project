@@ -10,7 +10,7 @@ import yaml
 
 OPS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "deeper", "ops", "go-deeper.yaml")
 NOTE_KEYS = ("no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use")
-LIMIT_KEYS = ("group_daily_ceiling", "table_round_cost", "group_burst_multiplier")
+LIMIT_KEYS = ("group_daily_ceiling", "table_round_cost", "group_burst_multiplier", "low_balance_at")
 
 
 class OpsFileError(Exception):
@@ -22,6 +22,7 @@ class DeeperOps:
     group_daily_ceiling: int
     table_round_cost: int
     group_burst_multiplier: int
+    low_balance_at: int
     limit_text: str
     notes: dict
 
@@ -55,5 +56,5 @@ def load_ops(path: str | None = None) -> DeeperOps:
             raise OpsFileError("every piece of wording must be a non-empty string")
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"], table_round_cost=limits["table_round_cost"],
-        group_burst_multiplier=limits["group_burst_multiplier"], limit_text=words["limit"], notes=dict(notes),
+        group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes),
     )
