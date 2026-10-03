@@ -76,3 +76,10 @@ def load_fleet_records(records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
     load_world_records, which stays uncached for exactly that reason)."""
     return load_world_records("_fleet", records_root=records_root)
 
+
+
+def voiced_records(records: dict) -> dict:
+    """The records the voice may speak from: every record not marked
+    `voice: analytic`. Only these reach compiled/; the gates and the frozen
+    record copy see every record."""
+    return {rid: r for rid, r in records.items() if r.get("voice") != "analytic"}

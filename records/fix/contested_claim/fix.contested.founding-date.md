@@ -5,7 +5,7 @@ record_type: contested_claim
 schema_version: 2
 status: ready
 register: etic
-canon_cells: []
+canon_cells: [C-I]
 confidence:
   citation_specificity: C
   verification_state: named-not-rechecked

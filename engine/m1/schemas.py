@@ -315,6 +315,11 @@ ENVELOPE_PROPERTIES = {
     # would silently do nothing, which is exactly the class of typo an
     # enum (rather than a bare string) catches at the schema layer.
     "demo_tag": {"enum": ["exclude"]},
+    # analytic: the record stays in the world for building and passes the
+    # gates, but the voice never speaks from it - the compiler leaves it out
+    # of every compiled/ file. Absent means voiced. The horizon gate passes a
+    # post-window mention only on an analytic record.
+    "voice": {"enum": ["voiced", "analytic"]},
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,

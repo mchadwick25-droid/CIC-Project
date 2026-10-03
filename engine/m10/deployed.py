@@ -22,6 +22,7 @@ from pathlib import Path
 
 import yaml
 
+from engine.m1.loader import voiced_records
 from engine.m2.loader_stub import PackageRefused
 from engine.shape import shape_text
 
@@ -354,7 +355,7 @@ def check_deployed(code: str, root: Path = REPO_ROOT, *, check_stale: bool = Tru
     report.findings.extend(problems)
     if prompt is not None:
         report.notes.append(f"pin {pin}: prompt {source}")
-        found, notes = check_prompt_content(code, prompt, records, entry, pin_path)
+        found, notes = check_prompt_content(code, prompt, voiced_records(records), entry, pin_path)
         report.findings.extend(found)
         report.notes.extend(notes)
     if check_stale and (package_dir / "manifest.json").is_file():

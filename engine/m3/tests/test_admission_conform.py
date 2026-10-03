@@ -37,3 +37,27 @@ def test_a_report_under_an_older_shape_does_not_count():
 
 def test_worlds_not_admitted_are_not_checked():
     assert check({"b": REG["b"]}, [], [], shape=SHAPE) == []
+
+
+def test_a_report_on_the_same_compiled_files_counts_after_a_validation_only_repin():
+    run = {**_report("sha256:old"), "compiled_hash": "sha256:compiled"}
+    assert check(REG, [run], [], shape=SHAPE, compiled_of=lambda entry: "sha256:compiled") == []
+    assert check(REG, [run], [], shape=SHAPE, compiled_of=lambda entry: "sha256:changed") != []
+
+
+def test_a_ruling_on_the_same_compiled_files_covers_the_shortfall():
+    run = {**_report("sha256:old", failed=["c-t-probe-01"]), "compiled_hash": "sha256:compiled"}
+    ruling = {"world": "w", "compiled_hash": "sha256:compiled", "failing_probes": ["c-t-probe-01"]}
+    assert check(REG, [run], [ruling], shape=SHAPE, compiled_of=lambda entry: "sha256:compiled") == []
+
+
+def test_the_content_hash_ignores_provenance_the_validation_report_and_the_record_copy():
+    from engine.m2.compiler import compile_world
+    from engine.m2.manifest import compiled_content_hash
+    one = compile_world(world_key="fix", package_id="A", records_commit="a", compiler_version="a")
+    two = compile_world(world_key="fix", package_id="B", records_commit="b", compiler_version="b")
+    assert one["compiled/frame.json"] != two["compiled/frame.json"]
+    assert compiled_content_hash(one) == compiled_content_hash(two)
+    moved = {**one, "validation/gates-report.json": b"{}", "records/x.json": b"{}"}
+    assert compiled_content_hash(moved) == compiled_content_hash(one)
+    assert compiled_content_hash({**one, "compiled/prompt.txt": b"changed"}) != compiled_content_hash(one)
