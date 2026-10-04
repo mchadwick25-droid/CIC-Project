@@ -14,6 +14,7 @@ doorway_description: >-
   together. It ends when the Bethlehem generation dies out, around the year
   420.
 card_name: "The Bethlehem Circle"
+app: {order: 4, accent_color: "#B77889", portrait: "/images/portraits/thumb/bethlehem.webp"}
 representative: {name: Albina, role_label: "Widow of the Household"}
 state: admitted
 census_id: "hieronymian-ascetic-literary"
