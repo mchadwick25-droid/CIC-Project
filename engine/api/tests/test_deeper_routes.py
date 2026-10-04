@@ -1094,19 +1094,22 @@ def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
 
 # ---- pilot join (S12) ----------------------------------------------------------
 
-def open_pilot(runtime, **changes):
+def open_pilot(runtime, audience="general", **changes):
     import dataclasses
 
-    runtime.ops = dataclasses.replace(load_ops(), pilot_open=True, **changes)
+    ops = runtime.ops or load_ops()
+    audiences = dict(ops.pilot_audiences)
+    audiences[audience] = dataclasses.replace(audiences[audience], pilot_open=True, **changes)
+    runtime.ops = dataclasses.replace(ops, pilot_audiences=audiences)
     return runtime
 
 
-def join(http, ip="203.0.113.7"):
-    return http.post("/api/deeper/pilot-join", headers={"x-forwarded-for": ip})
+def join(http, ip="203.0.113.7", audience="general", **headers):
+    return http.post("/api/deeper/pilot-join", json={"audience": audience}, headers={"x-forwarded-for": ip, **headers})
 
 
 def test_the_shipped_pilot_is_closed_and_the_route_then_does_not_exist_to_a_visitor(http, minting):
-    assert load_ops().pilot_open is False
+    assert not any(a.pilot_open for a in load_ops().pilot_audiences.values())
     assert join(http).status_code == 404
     assert minting.meter.reconciliation(1) == []
 
@@ -1133,20 +1136,20 @@ def test_a_pilot_code_is_a_gift_not_a_payment_or_a_sale(http, runtime):
 
 
 def test_an_address_gets_its_few_and_then_is_told_so_while_another_still_joins(http, runtime):
-    open_pilot(runtime, pilot_per_address=2)
+    open_pilot(runtime, per_address=2)
     assert [join(http).status_code for _ in range(2)] == [200, 200]
     refused = join(http)
     assert refused.status_code == 409 and refused.json() == {"joined": False, "reason": "address_limit"}
     assert join(http, ip="203.0.113.8").status_code == 200
-    assert runtime.meter.pilot_total() == 3
+    assert runtime.meter.pilot_total("general") == 3
 
 
 def test_the_cap_stops_the_pilot_for_everyone_and_a_refusal_takes_nothing(http, runtime):
-    open_pilot(runtime, pilot_cap=2, pilot_per_address=5)
+    open_pilot(runtime, pilot_cap=2, per_address=5)
     assert join(http).status_code == 200 and join(http, ip="198.51.100.1").status_code == 200
     full = join(http, ip="198.51.100.2")
     assert full.status_code == 409 and full.json()["reason"] == "full"
-    assert runtime.meter.pilot_total() == 2
+    assert runtime.meter.pilot_total("general") == 2
     assert runtime.meter.reconciliation(1)[0]["pilot_codes_minted"] == 2
 
 
@@ -1171,29 +1174,33 @@ def test_a_failed_mint_keeps_the_address_count_and_the_total_unspent(runtime):
     open_pilot(runtime)
     with pytest.raises(ValueError):
         runtime.meter.join_pilot(
-            "203.0.113.5", 1100, "pi_wrong", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
+            "general", "203.0.113.5", 1100, "pi_wrong", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
         )
-    assert runtime.meter.pilot_total() == 0
+    assert runtime.meter.pilot_total("general") == 0
     assert runtime.meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == 0
 
 
 def test_the_pilot_join_answers_the_site_and_no_other_origin(http, runtime):
     open_pilot(runtime)
-    ok = http.post("/api/deeper/pilot-join", headers={"origin": "https://site.example", "x-forwarded-for": "198.51.100.9"})
+    ok = join(http, ip="198.51.100.9", origin="https://site.example")
     assert ok.headers["access-control-allow-origin"] == "https://site.example"
-    other = http.post("/api/deeper/pilot-join", headers={"origin": "https://elsewhere.example", "x-forwarded-for": "198.51.100.10"})
+    other = join(http, ip="198.51.100.10", origin="https://elsewhere.example")
     assert "access-control-allow-origin" not in other.headers
 
 
 def test_the_status_reports_the_pilot_against_its_cap(http, runtime):
     open_pilot(runtime, pilot_cap=10)
     join(http)
-    pilot = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
-    assert pilot == {"open": True, "cap": 10, "given": 1, "end_date": runtime.ops.pilot_end_date.isoformat(), "per_address": 2}
+    pilot = {row["audience"]: row for row in http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]}
+    assert pilot["general"] == {
+        "audience": "general", "open": True, "cap": 10, "given": 1,
+        "end_date": runtime.ops.pilot_audiences["general"].pilot_end_date.isoformat(), "per_address": 2,
+    }
+    assert pilot["pastors"]["open"] is False and pilot["pastors"]["given"] == 0
 
 
 def test_addresses_in_one_ipv6_block_share_a_count_and_ipv4_stays_exact(http, runtime):
-    open_pilot(runtime, pilot_per_address=2, pilot_cap=50)
+    open_pilot(runtime, per_address=2, pilot_cap=50)
     block = "2001:db8:abcd:12"
     assert [join(http, ip=f"{block}::{n}").status_code for n in (1, 2)] == [200, 200]
     assert join(http, ip=f"{block}:ffff:1:2:3").json()["reason"] == "address_limit"
@@ -1211,14 +1218,14 @@ def test_an_address_row_is_kept_for_ninety_days_and_then_deleted(runtime):
     from engine.deeper.meter import PILOT_RETENTION_DAYS
 
     meter = runtime.meter
-    meter.join_pilot("203.0.113.5", 1100, "pilot_a", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
+    meter.join_pilot("general", "203.0.113.5", 1100, "pilot_a", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
     assert PILOT_RETENTION_DAYS == 90
     first = date(2026, 10, 5)
     for days, kept in ((PILOT_RETENTION_DAYS - 1, 1), (PILOT_RETENTION_DAYS, 0)):
         meter._clock = lambda d=days: first + timedelta(days=d)
         meter.purge()
         assert meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == kept
-    assert meter.pilot_total() == 1
+    assert meter.pilot_total("general") == 1
 
 
 def test_the_deeper_rate_limit_counts_one_ipv6_block_as_one_visitor(store, usage_store, world_loader, registry, runtime):
@@ -1229,3 +1236,36 @@ def test_the_deeper_rate_limit_counts_one_ipv6_block_as_one_visitor(store, usage
     assert 429 not in statuses
     assert http.get("/api/deeper/balance", headers={"x-forwarded-for": "2001:db8:5:6:ffff::9"}).status_code == 429
     assert http.get("/api/deeper/balance", headers={"x-forwarded-for": "2001:db8:5:7::1"}).status_code != 429
+
+
+def test_each_audience_has_its_own_switch_cap_and_count(http, runtime):
+    open_pilot(runtime, "pastors", pilot_cap=1, per_address=1)
+    assert join(http, audience="general").status_code == 404
+    assert join(http, audience="pastors").status_code == 200
+    again = join(http, audience="pastors")
+    assert again.status_code == 409 and again.json()["reason"] in ("full", "address_limit")
+    assert runtime.meter.pilot_total("pastors") == 1 and runtime.meter.pilot_total("general") == 0
+    open_pilot(runtime, "pastors", pilot_cap=5, per_address=1)
+    open_pilot(runtime, "historians", pilot_cap=5, per_address=1)
+    assert join(http, ip="198.51.100.40", audience="historians").status_code == 200
+    assert join(http, ip="198.51.100.40", audience="pastors").status_code == 200
+    assert join(http, ip="198.51.100.40", audience="pastors").json()["reason"] == "address_limit"
+
+
+def test_an_unnamed_audience_is_a_404_and_a_missing_one_is_refused(http, runtime):
+    open_pilot(runtime)
+    assert join(http, audience="clergy").status_code == 404
+    assert join(http, audience="General").status_code == 404
+    assert http.post("/api/deeper/pilot-join", headers={"x-forwarded-for": "198.51.100.41"}).status_code == 422
+    assert runtime.meter.pilot_total("general") == 0
+
+
+def test_the_same_address_counts_separately_under_each_audience_without_storing_the_audience_name(http, runtime):
+    open_pilot(runtime, "pastors")
+    open_pilot(runtime, "historians")
+    join(http, ip="203.0.113.60", audience="pastors")
+    join(http, ip="203.0.113.60", audience="historians")
+    keys = [row[0] for row in runtime.meter._conn.execute("SELECT key_hash FROM pilot_joined")]
+    assert len(keys) == 2 and len(set(keys)) == 2
+    dump = "\n".join(runtime.meter._conn.iterdump())
+    assert "pastors:203" not in dump and "historians:203" not in dump

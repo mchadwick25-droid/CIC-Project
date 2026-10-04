@@ -577,21 +577,23 @@ class Meter:
         ]
 
     def join_pilot(
-        self, address: str, tokens: int, grant_id: str, *, open_: bool, end_date: date, cap: int, per_address: int,
+        self, audience: str, address: str, tokens: int, grant_id: str, *, open_: bool, end_date: date, cap: int, per_address: int,
     ) -> str:
-        """Gives one pilot code to an address, or raises PilotRefused. The checks,
+        """Gives one pilot code to an address, or raises PilotRefused. Each
+        audience has its own cap and its own count per address. The checks,
         the count and the code commit together, so two joins at once cannot both
         take the last place. The address is kept only as a keyed hash, with how
-        many codes it has had and the day of its first; the total given is one
-        number that outlives those rows."""
-        key = self.free_key(f"pilot:{address}")
+        many codes it has had and the day of its first; each audience's total
+        given is one number that outlives those rows."""
+        key = self.free_key(f"pilot:{audience}:{address}")
+        total_key = f"pilot_total:{audience}"
 
         def gate(conn: sqlite3.Connection, today: str) -> None:
             if not open_:
                 raise PilotRefused("closed")
             if date.fromisoformat(today) > end_date:
                 raise PilotRefused("ended")
-            total_row = conn.execute("SELECT value FROM state WHERE key = 'pilot_total'").fetchone()
+            total_row = conn.execute("SELECT value FROM state WHERE key = ?", (total_key,)).fetchone()
             total = int(total_row[0]) if total_row else 0
             if total >= cap:
                 raise PilotRefused("full")
@@ -604,15 +606,15 @@ class Meter:
                 (key, today),
             )
             conn.execute(
-                "INSERT INTO state (key, value) VALUES ('pilot_total', ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
-                (str(total + 1),),
+                "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
+                (total_key, str(total + 1)),
             )
 
         (code,) = self.mint("single", tokens, grant_id, 1, source="pilot", within=gate)
         return code
 
-    def pilot_total(self) -> int:
-        value = self.get_state("pilot_total")
+    def pilot_total(self, audience: str) -> int:
+        value = self.get_state(f"pilot_total:{audience}")
         return int(value) if value else 0
 
     def _add(self, measure: str, amount: int, day: str) -> None:

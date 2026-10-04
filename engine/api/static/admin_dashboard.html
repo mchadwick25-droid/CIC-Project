@@ -544,12 +544,14 @@
     deeperStatus = status;
     document.getElementById("deeper-pause-state").textContent = status.paused ? "Codes are paused. " : "Codes are working. ";
     document.getElementById("deeper-pause-toggle").textContent = status.paused ? "Unpause codes" : "Pause codes";
-    const pilot = status.pilot;
-    if (pilot) {
-      document.getElementById("t-deeper-pilot").textContent = fmtNumber(pilot.given) + " of " + fmtNumber(pilot.cap);
+    const audiences = status.pilot;
+    if (audiences && audiences.length) {
+      const given = audiences.reduce((sum, a) => sum + a.given, 0);
+      const cap = audiences.reduce((sum, a) => sum + a.cap, 0);
+      document.getElementById("t-deeper-pilot").textContent = fmtNumber(given) + " of " + fmtNumber(cap);
       document.getElementById("t-deeper-pilot-detail").textContent =
-        (pilot.open ? "Open" : "Closed") + " · ends " + pilot.end_date + " · " + pilot.per_address + " per address · " +
-        (document.getElementById("t-deeper-pilot-detail").dataset.today || "0") + " today";
+        audiences.map((a) => a.audience + " " + a.given + "/" + a.cap + (a.open ? " open" : " closed") + ", ends " + a.end_date).join(" · ") +
+        " · " + (document.getElementById("t-deeper-pilot-detail").dataset.today || "0") + " today";
     }
     const door = status.door;
     document.getElementById("t-deeper-door").textContent = door ? "Stage " + door.stage : "—";

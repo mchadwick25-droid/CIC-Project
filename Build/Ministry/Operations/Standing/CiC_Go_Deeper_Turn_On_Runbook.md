@@ -36,7 +36,7 @@ The module makes free codes; Stripe makes every percentage discount. Name each S
 
 The pilot join counts people by the address the request arrives from, taking the last entry of `X-Forwarded-For`; that holds only while Render is the one proxy in front of the service, so check it again if a CDN or second proxy is ever put in front. An IPv6 address is counted by its /64 block. Two codes an address means a shared network (a school, a church's wifi, a mobile carrier's shared address) can run out for later joiners; if a cohort reports that, raise `per_address` by pull request or give them a grant from the mint page.
 
-Never use the dashboard's cancel box for a goodwill refund: it cancels the codes. A full refund or a dispute cancels them by itself. The pilot join's cap, end date and per-address count are lines in the operations file; the dashboard shows how many have been given.
+Never use the dashboard's cancel box for a goodwill refund: it cancels the codes. A full refund or a dispute cancels them by itself. The pilot runs for named audiences (general, pastors, historians). Each has its own open switch, cap, end date and per-address count in the operations file, and its own link; the dashboard shows how many each has been given. To close the pilot to the public and keep it for pastors and historians, set `general` to `pilot_open: false`. Send the pastors and historians links yourself; the website never lists them.
 
 ## Part 1 — Before the staging rehearsal
 

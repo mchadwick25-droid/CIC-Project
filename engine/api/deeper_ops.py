@@ -4,6 +4,7 @@ and the conversation engine hold none of them; the HTTP edge reads the file
 at startup, refuses to start on a bad one, and hands each part to whoever
 needs it as plain data."""
 import os
+import re
 from dataclasses import dataclass
 from datetime import date, datetime
 
@@ -23,13 +24,23 @@ MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
 DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
-PILOT_KEYS = ("pilot_open", "pilot_cap", "pilot_end_date", "per_address", "pack_usd")
+PILOT_KEYS = ("pack_usd", "audiences")
+AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "pilot_end_date", "per_address")
+AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
 STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
 
 class OpsFileError(Exception):
     """The operations file is missing, malformed or incomplete."""
+
+
+@dataclass(frozen=True)
+class PilotAudience:
+    pilot_open: bool
+    pilot_cap: int
+    pilot_end_date: date
+    per_address: int
 
 
 @dataclass(frozen=True)
@@ -48,11 +59,8 @@ class DeeperOps:
     paid_round_cap_provisional: bool
     admin_mint_max_tokens_per_request: int
     admin_mint_max_tokens_per_day: int
-    pilot_open: bool
-    pilot_cap: int
-    pilot_end_date: date
-    pilot_per_address: int
     pilot_pack_usd: int
+    pilot_audiences: dict[str, PilotAudience]
 
 
 def _section(data: dict, name: str, keys: tuple[str, ...]) -> dict:
@@ -163,6 +171,26 @@ def _door(section) -> DoorSettings:
     return DoorSettings(base_usd=base, gift_share=gift, purchase_share=purchase, invoice_factor=factor, stages=tuple(stages))
 
 
+def _audiences(raw) -> dict[str, PilotAudience]:
+    if not isinstance(raw, dict) or not raw:
+        raise OpsFileError("pilot.audiences must name at least one audience")
+    audiences = {}
+    for name, item in raw.items():
+        if not isinstance(name, str) or not AUDIENCE_NAME.match(name):
+            raise OpsFileError("an audience name is lowercase letters, digits and hyphens, starting with a letter, up to 24 characters")
+        if not isinstance(item, dict) or set(item) != set(AUDIENCE_KEYS):
+            raise OpsFileError(f"pilot audience {name} must hold exactly {sorted(AUDIENCE_KEYS)}")
+        if not isinstance(item["pilot_open"], bool):
+            raise OpsFileError(f"pilot audience {name}: pilot_open must be true or false")
+        end = item["pilot_end_date"]
+        if isinstance(end, datetime) or not isinstance(end, date):
+            raise OpsFileError(f"pilot audience {name}: pilot_end_date must be a plain date")
+        _whole(item["pilot_cap"], f"pilot audience {name} pilot_cap")
+        _whole(item["per_address"], f"pilot audience {name} per_address")
+        audiences[name] = PilotAudience(item["pilot_open"], item["pilot_cap"], end, item["per_address"])
+    return audiences
+
+
 def load_ops(path: str | None = None) -> DeeperOps:
     path = path or os.environ.get("CIC_DEEPER_OPS_FILE") or OPS_PATH
     try:
@@ -197,22 +225,14 @@ def load_ops(path: str | None = None) -> DeeperOps:
     if admin["mint_max_tokens_per_request"] > admin["mint_max_tokens_per_day"]:
         raise OpsFileError("admin.mint_max_tokens_per_request cannot exceed admin.mint_max_tokens_per_day")
     pilot = _section(data, "pilot", PILOT_KEYS)
-    if not isinstance(pilot["pilot_open"], bool):
-        raise OpsFileError("pilot.pilot_open must be true or false")
-    end = pilot["pilot_end_date"]
-    if isinstance(end, datetime):
-        raise OpsFileError("pilot.pilot_end_date must be a plain date")
-    if not isinstance(end, date):
-        raise OpsFileError("pilot.pilot_end_date must be a date")
-    for key in ("pilot_cap", "per_address", "pack_usd"):
-        _whole(pilot[key], f"pilot.{key}")
+    _whole(pilot["pack_usd"], "pilot.pack_usd")
     if pilot["pack_usd"] not in [p.price_usd for p in packs]:
         raise OpsFileError("pilot.pack_usd must be one of the offer's packs")
+    audiences = _audiences(pilot["audiences"])
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
         door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
-        pilot_open=pilot["pilot_open"], pilot_cap=pilot["pilot_cap"], pilot_end_date=end, pilot_per_address=pilot["per_address"],
-        pilot_pack_usd=pilot["pack_usd"],
+        pilot_pack_usd=pilot["pack_usd"], pilot_audiences=audiences,
     )

@@ -335,6 +335,10 @@ class VoidRequest(BaseModel):
 MINT_MODES = ("one_code", "separate")
 
 
+class PilotJoinRequest(BaseModel):
+    audience: str = Field(..., min_length=1, max_length=24)
+
+
 class MintRequest(BaseModel):
     pack_usd: int = Field(..., description="The price of one of the offer's packs; its tokens are what each unit holds")
     count: int = Field(..., ge=1, le=meter_module.MAX_BATCH_COUNT)
@@ -463,7 +467,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 
     @app.options("/api/deeper/pilot-join")
     def pilot_preflight(request: Request, response: Response):
-        if runtime.ops is None or not runtime.ops.pilot_open:
+        if runtime.ops is None or not any(a.pilot_open for a in runtime.ops.pilot_audiences.values()):
             raise HTTPException(status_code=404)
         _cors(request, response)
         response.headers["Access-Control-Allow-Methods"] = "POST"
@@ -472,25 +476,27 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         response.status_code = 204
 
     @app.post("/api/deeper/pilot-join")
-    def pilot_join(request: Request, response: Response):
+    def pilot_join(req: PilotJoinRequest, request: Request, response: Response):
         """The pilot's one free pack. A press of the page's button makes one
-        ordinary code with no payment, shown here once. Limited by the pilot's
-        open switch, end date, cap and a count per address, all in the operations
-        file; the address is kept only as a keyed hash. Counts toward the door as
-        a gift of the pack's price."""
+        ordinary code with no payment, shown here once. Each audience (general,
+        pastors, historians) has its own open switch, end date, cap and count per
+        address in the operations file; the address is kept only as a keyed hash.
+        An audience the file does not name, or one that is closed, answers 404.
+        Counts toward the door as a gift of the pack's price."""
         _cors(request, response)
         response.headers["Cache-Control"] = "no-store"
         ops = runtime.ops
         if ops is None:
             raise HTTPException(status_code=404)
         pack = next((p for p in ops.packs if p.price_usd == ops.pilot_pack_usd), None)
-        if pack is None:
+        audience = ops.pilot_audiences.get(req.audience)
+        if pack is None or audience is None or not audience.pilot_open:
             raise HTTPException(status_code=404)
         grant_id = "pilot_" + secrets.token_hex(12)
         try:
             code = runtime.meter.join_pilot(
-                network_of(client_ip(request)), pack.tokens, grant_id, open_=ops.pilot_open, end_date=ops.pilot_end_date,
-                cap=ops.pilot_cap, per_address=ops.pilot_per_address,
+                req.audience, network_of(client_ip(request)), pack.tokens, grant_id, open_=audience.pilot_open,
+                end_date=audience.pilot_end_date, cap=audience.pilot_cap, per_address=audience.per_address,
             )
         except PilotRefused as refused:
             if refused.reason == "closed":
@@ -564,10 +570,13 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
                 "baseline_tokens": window, "window_days": runtime.token_rates.free_window_days,
                 "rounds_per_conversation": runtime.token_rates.free_rounds, "now_tokens": int(window * share),
             },
-            "pilot": None if ops is None else {
-                "open": ops.pilot_open, "cap": ops.pilot_cap, "given": runtime.meter.pilot_total(),
-                "end_date": ops.pilot_end_date.isoformat(), "per_address": ops.pilot_per_address,
-            },
+            "pilot": None if ops is None else [
+                {
+                    "audience": name, "open": a.pilot_open, "cap": a.pilot_cap, "given": runtime.meter.pilot_total(name),
+                    "end_date": a.pilot_end_date.isoformat(), "per_address": a.per_address,
+                }
+                for name, a in ops.pilot_audiences.items()
+            ],
             "packs": [{"price_usd": p.price_usd, "tokens": p.tokens} for p in ops.packs] if ops is not None else [],
             "mint_limits": None if ops is None else {
                 "tokens_per_request": ops.admin_mint_max_tokens_per_request, "tokens_per_day": ops.admin_mint_max_tokens_per_day,

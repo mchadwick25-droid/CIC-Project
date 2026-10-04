@@ -77,11 +77,17 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["admin"].update(mint_max_tokens_per_request=99999),
         lambda d: d["admin"].update(extra=1),
         lambda d: d.pop("pilot"),
-        lambda d: d["pilot"].pop("pilot_cap"),
-        lambda d: d["pilot"].update(pilot_open="yes"),
-        lambda d: d["pilot"].update(pilot_cap=0),
-        lambda d: d["pilot"].update(per_address=True),
-        lambda d: d["pilot"].update(pilot_end_date="soon"),
+        lambda d: d["pilot"].pop("audiences"),
+        lambda d: d["pilot"].update(audiences={}),
+        lambda d: d["pilot"].update(audiences=["general"]),
+        lambda d: d["pilot"]["audiences"].update(Bad_Name=dict(d["pilot"]["audiences"]["general"])),
+        lambda d: d["pilot"]["audiences"].update(**{"x" * 25: dict(d["pilot"]["audiences"]["general"])}),
+        lambda d: d["pilot"]["audiences"]["general"].pop("pilot_cap"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open="yes"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_cap=0),
+        lambda d: d["pilot"]["audiences"]["general"].update(per_address=True),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_end_date="soon"),
+        lambda d: d["pilot"]["audiences"]["general"].update(extra=1),
         lambda d: d["pilot"].update(pack_usd=9),
         lambda d: d["pilot"].update(extra=1),
     ],
@@ -249,3 +255,9 @@ def test_a_real_runtime_rebuilt_on_the_same_file_and_key_does_not_refill_a_visit
     finally:
         second.meter.close()
         second.claims.close()
+
+
+def test_the_shipped_pilot_names_its_audiences_all_closed():
+    ops = load_ops()
+    assert set(ops.pilot_audiences) == {"general", "pastors", "historians"}
+    assert not any(a.pilot_open for a in ops.pilot_audiences.values())
