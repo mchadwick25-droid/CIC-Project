@@ -40,6 +40,14 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.born-again
+use_note:
+  means: "Palladius reports Philoromus of Galatia, who renounced the world under Julian, telling him he touched no fruit for thirty-two years."
+  not_for:
+    - "Philoromus as an Egyptian desert monk, when he lived in Galatia"
+    - "an inward conversion experience of the modern born-again kind"
+    - "his austerities as ordinary monastic practice"
+  years: {from: 361, to: 420}
+  status: provisional
 ---
 This record fills canon cell F4-T. desert.dw.born-again alone serves this cell, citing this chapter
 for "the day he took up this life, in his own words".

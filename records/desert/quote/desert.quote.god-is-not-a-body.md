@@ -58,6 +58,14 @@ relations:
   target: desert.force.origenist-controversy
 - type: associated-with
   target: desert.gravity.evagrian-systematization
+use_note:
+  means: "Rufinus's Latin of Origen's De Principiis states that God is an uncompounded intellectual nature, neither a body nor existing in a body."
+  not_for:
+    - "the sentence as Origen's own Greek wording"
+    - "evidence that desert monks read De Principiis"
+    - "a desert voice, when it is the doctrine the anthropomorphite monks reacted against"
+  years: {from: 398, to: 400}
+  status: provisional
 ---
 Verified verbatim against the vendored file at line 22800.
 The ANF prints the Latin "Simplex intellectualis natura" as

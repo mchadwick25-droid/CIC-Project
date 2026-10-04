@@ -56,6 +56,14 @@ relations:
   target: desert.story.moses-leaking-jug
 - type: associated-with
   target: desert.gravity.diakrisis
+use_note:
+  means: "In his Commentary on Matthew, Origen objects that applying Matthew 18's correction procedure to small sins would catch almost everyone thrice censured."
+  not_for:
+    - "a source the desert monks read or drew on"
+    - "a desert voice, when it is an antecedent Caesarean text"
+    - "Abba Moses's refusal to judge, carried by desert.story.moses-leaking-jug"
+  years: {from: 240, to: 250}
+  status: provisional
 ---
 Verified verbatim against the vendored file at line 36205.
 

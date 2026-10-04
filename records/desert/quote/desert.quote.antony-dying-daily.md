@@ -37,6 +37,13 @@ relations:
   target: desert.figure.antony
 - type: associated-with
   target: desert.dw.judgment-and-resurrection
+use_note:
+  means: "In the Life of Antony, Athanasius has Antony urge the brothers to live as though dying daily, citing Paul, as a guard against carelessness and sin."
+  not_for:
+    - "\"dying daily\" as despair, depression, or a wish for death"
+    - "the discourse as a transcript of Antony's own words rather than speech composed within Athanasius's narrative"
+  years: {from: 356, to: 362}
+  status: provisional
 ---
 Verified verbatim against the vendored file, from the
 extended discourse (traditional SSSS16-43) Athanasius attributes to

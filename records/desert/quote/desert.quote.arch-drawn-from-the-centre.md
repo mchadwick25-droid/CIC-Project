@@ -47,6 +47,13 @@ retrieval:
   - "participant asks what they did about distraction, boredom, or a restless head during prayer"
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
+use_note:
+  means: "Cassian records Abbot Abraham comparing a monk's attention fixed on the remembrance of God to a builder striking a round arch from its centre."
+  not_for:
+    - "watchfulness as anxious self-policing or constant strain"
+    - "Abraham's exact words rather than Cassian's literary Latin, written decades later in Gaul"
+  years: {from: 385, to: 429}
+  status: provisional
 ---
 Verified verbatim against the vendored file at npnf211 line
 47378. The excerpt stops mid-sentence at "without any error"

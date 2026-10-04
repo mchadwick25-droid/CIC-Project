@@ -38,6 +38,14 @@ relations:
   target: desert.figure.antony
 - type: associated-with
   target: desert.dw.judgment-and-resurrection
+use_note:
+  means: "Athanasius reports Antony teaching publicly in Alexandria, against the Arians, that the Son was uncreated and eternally co-existent with the Father."
+  not_for:
+    - "the formula as Antony's own verbatim words rather than teaching reported indirectly by an anti-Arian bishop"
+    - "a sign that desert monks generally held articulated Trinitarian theology"
+    - "the SS68 refusal and expulsion scene, which belongs to desert.quote.antony-arians-serpents"
+  years: {from: 356, to: 362}
+  status: provisional
 ---
 Verified verbatim against the vendored file, S69 - immediately
 following the S68 passage desert.quote.antony-arians-serpents cites (the

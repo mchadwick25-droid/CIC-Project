@@ -57,6 +57,14 @@ relations:
   target: desert.gravity.withdrawal
 - type: associated-with
   target: desert.gravity.economic-embeddedness
+use_note:
+  means: "Palladius reports Melania the Great, jailed by the governor of Palestine, invoking her family rank and her rights over her property to defy him."
+  not_for:
+    - "a verbatim transcript, when Palladius was not present"
+    - "renunciation of property as renunciation of rank or birth"
+    - "her further advice on handling senseless men, which is in the source but not quoted here"
+  years: {from: 419, to: 420}
+  status: provisional
 ---
 Verified verbatim against the vendored file.
 

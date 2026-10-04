@@ -55,6 +55,14 @@ relations:
   target: desert.quote.pachomius-angel-tablet
 - type: associated-with
   target: desert.story.angel-hands-the-tablet
+use_note:
+  means: "The Ethiopic recension of the Pachomian Rule has the angel command that each monk eat and drink freely and be given work by the measure of his eating."
+  not_for:
+    - "Palladius's Greek form of the same clause, carried by desert.quote.pachomius-angel-tablet, as if the two were one text"
+    - "a diet or efficiency rule rather than a refusal of a single standard for all"
+    - "the angel's ordinance as a verified event rather than the founding narrative"
+  years: {from: 318, to: 346}
+  status: provisional
 ---
 Verified verbatim against the vendored file, Part I, p. 682.
 

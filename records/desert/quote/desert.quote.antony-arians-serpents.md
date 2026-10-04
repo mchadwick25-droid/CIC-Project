@@ -35,6 +35,14 @@ relations:
   target: desert.force.melitian-rivalry
 - type: associated-with
   target: desert.quote.antony-nicene-formula
+use_note:
+  means: "Athanasius narrates that Antony drove Arians from his mountain, saying their words were worse than the poison of serpents."
+  not_for:
+    - "the scene as an independent record of Antony's views apart from Athanasius's anti-Arian purposes"
+    - "Antony's positive statement of Nicene doctrine, which is carried by desert.quote.antony-nicene-formula (SS69), not this record"
+    - "ordinary desert monks generally as active combatants in the Arian controversy"
+  years: {from: 356, to: 362}
+  status: provisional
 ---
 Verified verbatim against the vendored file, the same
 division (SS68) desert.force.melitian-rivalry already cites for the
