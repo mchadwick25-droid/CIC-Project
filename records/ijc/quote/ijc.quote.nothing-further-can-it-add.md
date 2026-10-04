@@ -45,6 +45,13 @@ retrieval:
 relations:
 - type: associated-with
   target: ijc.dw.received-not-seen
+use_note:
+  means: "At Chalcedon, Rome's legate recites the received faith from Nicaea through Constantinople, Cyril, and Leo, and declares the synod can neither add nor subtract."
+  not_for:
+    - "a claim that the council saw itself as deciding new doctrine"
+    - "a claim that the assembled bishops spoke this recitation rather than the Roman legate Paschasinus"
+  years: {from: 451, to: 451}
+  status: provisional
 ---
 Opened for C-E, served by ijc.dw.received-not-seen alone, which cites "Session IV (the
 rule of faith recited)" for the claim that this world's access to Jesus is inheritance rather than

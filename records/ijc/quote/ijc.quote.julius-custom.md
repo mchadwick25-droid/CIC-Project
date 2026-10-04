@@ -35,6 +35,14 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.story.letter-that-outranked-a-council}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
+use_note:
+  means: "Julius of Rome, as Athanasius quotes him, protests that custom required word to be written first to Rome before judgment on Alexandria's church."
+  not_for:
+    - "a claim that Rome's appeal to custom went unchallenged by its recipients"
+    - "a claim that this is Julius's text directly rather than through Athanasius's quotation"
+    - "a claim that this is the earliest Roman primacy assertion ever made"
+  years: {from: 341, to: 341}
+  status: provisional
 ---
 Text verified verbatim against the vendored file (the quoted
 sentence ends without terminal punctuation at the clause the edition's

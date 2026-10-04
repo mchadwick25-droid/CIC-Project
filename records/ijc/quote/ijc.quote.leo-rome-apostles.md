@@ -39,6 +39,13 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
+use_note:
+  means: "Preaching on the feast of Peter and Paul, Leo tells Rome the apostles made it a holy people whose religious sway exceeds its earthly rule."
+  not_for:
+    - "a claim that the 'holy nation, chosen people, priestly and royal state' language is Leo's own political coinage rather than 1 Peter 2:9 applied"
+    - "a claim that Leo grounds Rome's standing in its earthly government"
+  years: {from: 440, to: 451}
+  status: provisional
 ---
 Text verified verbatim against the vendored file (editorial
 notes stripped; addressed to Rome herself on the feast of Peter and

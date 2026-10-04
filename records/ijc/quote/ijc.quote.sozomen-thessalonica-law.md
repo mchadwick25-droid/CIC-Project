@@ -44,6 +44,13 @@ retrieval:
   - "participant asks what happened to people who held a different faith"
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
+use_note:
+  means: "Sozomen reports that Theodosius's law of 380 reserved the name 'Catholic Church' for Trinitarian believers and ordered dissenters punished as heretics."
+  not_for:
+    - "a claim that this is the law's own text rather than a historian's report of it"
+    - "a claim that 'Catholic Church' here carries its later denominational sense"
+  years: {from: 443, to: 448}
+  status: provisional
 ---
 Text verified verbatim against the vendored file. This
 build's registered citation path for the Edict of Thessalonica: the

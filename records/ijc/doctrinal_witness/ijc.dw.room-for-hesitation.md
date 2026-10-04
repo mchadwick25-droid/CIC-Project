@@ -50,6 +50,14 @@ tensions:
 relations:
 - type: associated-with
   target: ijc.quote.he-held-aloof-for-a-short-time
+use_note:
+  means: "Hesitation over Nicaea's defining word is documented at the council itself in Eusebius's letter home, though refusing an enforced confession could cost office."
+  not_for:
+    - "a claim that the record shows ordinary believers' private doubt"
+    - "a claim that doubt was tolerated regardless of a person's standing and timing"
+    - "a claim that Nicaea's creed was accepted without hesitation"
+  years: {from: 325, to: 359}
+  status: provisional
 ---
 F1-P answered from the record's one great documented hesitation
 (Eusebius's letter, preserved in Socrates I.8 and verified) rather

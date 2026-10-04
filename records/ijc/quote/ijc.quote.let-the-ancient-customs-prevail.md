@@ -39,6 +39,14 @@ retrieval:
 relations:
 - type: associated-with
   target: ijc.dw.how-we-read
+use_note:
+  means: "Nicaea's Canon 6 confirms Alexandria's regional jurisdiction by appeal to ancient custom, citing Rome's similar custom as a parallel."
+  not_for:
+    - "a claim that this canon founds or grants Rome's primacy"
+    - "a claim that the authority appealed to is scripture or an apostolic grant"
+    - "a claim that the canon's meaning was settled rather than argued over for centuries"
+  years: {from: 325, to: 325}
+  status: provisional
 ---
 Opened for F2-I, served by ijc.dw.how-we-read alone, which cites Canon 6 for
 "precedent read as law" and could not show it.

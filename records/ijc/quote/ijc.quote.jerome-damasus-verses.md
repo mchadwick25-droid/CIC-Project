@@ -35,6 +35,14 @@ retrieval:
   - "participant asks what a bishop did with the tombs of the martyrs"
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
+use_note:
+  means: "Jerome, once Damasus's secretary, records that the Roman bishop was known for publishing many short works in verse and died under Theodosius near eighty."
+  not_for:
+    - "a claim that this notice names any inscription, archaeological find, or evidential method"
+    - "a claim that 'heroic metre' describes heroic subject matter rather than a verse form (hexameter)"
+    - "a claim that Jerome writes as a disinterested witness rather than a man who had worked in Damasus's chancery"
+  years: {from: 392, to: 393}
+  status: provisional
 ---
 Text verified verbatim against the vendored file. A
 contemporary's entire notice - two sentences, from a man who had worked

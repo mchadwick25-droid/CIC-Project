@@ -47,6 +47,13 @@ retrieval:
   - "participant asks whether a council voted on who Jesus was"
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
+use_note:
+  means: "The 325 creed confesses the Son as God of God, begotten not made, of one substance with the Father, incarnate, risen, and coming to judge."
+  not_for:
+    - "a claim that this is the fuller 381 form of the creed"
+    - "a claim that 'begotten' and 'made' mean the same thing"
+  years: {from: 325, to: 325}
+  status: provisional
 ---
 Text verified verbatim against the vendored file - the
 Creed of 325 proper (not the fuller 381 form). The edition's own square

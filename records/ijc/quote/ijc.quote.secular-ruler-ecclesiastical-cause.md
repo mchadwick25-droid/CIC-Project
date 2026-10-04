@@ -44,6 +44,13 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
+use_note:
+  means: "Sulpicius reports Martin of Tours urging that condemned heretics be only expelled, calling a secular ruler judging a church case foul and unheard-of."
+  not_for:
+    - "a claim that Martin defended Priscillian as innocent or orthodox"
+    - "a claim that these are Martin's own written words rather than his biographer's report"
+  years: {from: 400, to: 404}
+  status: provisional
 ---
 Verified verbatim against the vendored file at npnf211 line
 11649; three consecutive sentences, unaltered, with nothing elided

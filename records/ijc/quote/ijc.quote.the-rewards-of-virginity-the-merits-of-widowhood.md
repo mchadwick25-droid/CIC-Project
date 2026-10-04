@@ -40,6 +40,14 @@ retrieval:
 relations:
 - type: associated-with
   target: ijc.dw.marriage-ranked
+use_note:
+  means: "Ambrose ranks virginity, widowhood, and marriage as three roads, calling marriage good and the most travelled but the longest way to the saints."
+  not_for:
+    - "a claim that Ambrose condemns marriage"
+    - "a claim that Ambrose treats marriage as equal to virginity or widowhood"
+    - "a claim that the ranking is neutral rather than the argument of a treatise commending widowhood"
+  years: {from: 377, to: 380}
+  status: provisional
 ---
 Opened for F5-T, served by ijc.dw.marriage-ranked alone.
 

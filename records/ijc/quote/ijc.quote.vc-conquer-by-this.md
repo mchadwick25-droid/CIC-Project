@@ -38,6 +38,13 @@ retrieval:
   - "participant asks whether the vision story can be believed"
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
+use_note:
+  means: "Eusebius reports Constantine's own account of seeing, at midday, a cross of light above the sun inscribed 'Conquer by this', witnessed by his army."
+  not_for:
+    - "a claim that Eusebius's vision and Lactantius's dream are one reconcilable account"
+    - "a claim that this is a contemporary report rather than Constantine's telling long afterward"
+  years: {from: 337, to: 340}
+  status: provisional
 ---
 Text verified verbatim against the vendored file (editorial
 footnotes stripped; the edition interleaves notes doubting this very

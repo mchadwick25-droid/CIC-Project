@@ -69,6 +69,15 @@ tensions:
 - this is two data points, not a pattern the record lets us generalize with - what these two women's
   experience does and does not say about women's authority more broadly is exactly what the sources
   cannot tell us
+use_note:
+  means: "Justina, through her son's court against Ambrose, and Pulcheria, helping convene Chalcedon, held real authority on our record, but neither left her own words."
+  not_for:
+    - "a claim that Ambrose's own letter names Justina as the actor behind the coercive measures"
+    - "a claim that Justina held a formal regency"
+    - "a claim that these two cases establish a general pattern for women's authority"
+    - "a claim that these women's motives are known as securely as their actions"
+  years: {from: 386, to: 451}
+  status: provisional
 ---
 This record gives F6-P's
 women's-authority question (f6-p-06) its own genuine substantive

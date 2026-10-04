@@ -35,6 +35,13 @@ retrieval:
   - "participant asks whether a ruler could call himself a kind of bishop"
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
+use_note:
+  means: "Eusebius reports Constantine telling bishops that their jurisdiction lies within the Church, while God appointed him a bishop over what is outside it."
+  not_for:
+    - "a claim that Constantine claimed priestly or sacramental office"
+    - "a claim that the saying's meaning is settled, when it rests on Eusebius's single report in a posthumous panegyric"
+  years: {from: 337, to: 340}
+  status: provisional
 ---
 Text verified verbatim against the vendored file. Reported
 by Eusebius from table-talk ("addressing them in my hearing") in a
