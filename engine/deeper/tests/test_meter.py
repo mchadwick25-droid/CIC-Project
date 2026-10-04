@@ -425,7 +425,7 @@ def test_refusals_and_the_door_peak_are_kept_by_day(meter, clock):
     clock.day = date(2026, 10, 6)
     meter.measure("refused_spent")
     today, yesterday = meter.measures(2)
-    assert (today["day"], today["refused_spent"], today["refused_no_code"]) == ("2026-10-06", 1, 0)
+    assert (today["day"], today["refused_spent"], today["refused_no_code"]) == (clock.day.isoformat(), 1, 0)
     assert (yesterday["refused_no_code"], yesterday["door_stage"]) == (3, 2)
 
 
@@ -445,7 +445,7 @@ def test_purge_drops_measures_after_ninety_days(meter, clock):
     clock.day = date(2027, 1, 20)
     meter.measure("refused_spent")
     meter.purge()
-    assert [row["day"] for row in meter.measures(400)] == ["2027-01-20"]
+    assert [row["day"] for row in meter.measures(400)] == [clock.day.isoformat()]
 
 
 def test_a_failing_measure_never_loosens_the_group_ceiling(meter, monkeypatch):
