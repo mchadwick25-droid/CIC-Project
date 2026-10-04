@@ -164,12 +164,12 @@
         <div class="tile">
           <div class="label">Median session length</div>
           <div class="value hero" id="t-median-session">—</div>
-          <div class="caveat">Average <span id="t-average-session">—</span></div>
+          <div class="caveat">From opening to the last message or reply. Average <span id="t-average-session">—</span></div>
         </div>
         <div class="tile">
           <div class="label">Median time per visitor</div>
           <div class="value hero" id="t-median-visitor-total">—</div>
-          <div class="caveat">Summed across a visitor's own sessions that day. Average <span id="t-average-visitor-total">—</span></div>
+          <div class="caveat">Summed across all of a visitor's sessions in this range. Average <span id="t-average-visitor-total">—</span></div>
         </div>
       </div>
     </section>
@@ -184,6 +184,11 @@
         <div class="tile">
           <div class="label">Open sessions</div>
           <div class="value" id="t-open-sessions">—</div>
+        </div>
+        <div class="tile">
+          <div class="label">Opened, no message sent</div>
+          <div class="value" id="t-no-message-sessions">—</div>
+          <div class="caveat">Not counted in session length.</div>
         </div>
         <div class="tile">
           <div class="label">Sessions with a visitor id</div>
@@ -350,6 +355,7 @@
 
     document.getElementById("t-total-sessions").textContent = fmtNumber(pilot.total_sessions);
     document.getElementById("t-open-sessions").textContent = fmtNumber(pilot.open_sessions);
+    document.getElementById("t-no-message-sessions").textContent = fmtNumber(v.sessions_without_a_message);
     document.getElementById("t-attributed-sessions").textContent = fmtNumber(v.sessions_with_visitor_id);
     const pct = pilot.total_sessions > 0 ? Math.round((v.sessions_with_visitor_id / pilot.total_sessions) * 100) : null;
     document.getElementById("t-attribution-caveat").textContent = pct === null

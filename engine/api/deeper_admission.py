@@ -1,13 +1,13 @@
 """Turns the code on a request into the numbers the engine reads.
 
 The engine is handed a TurnGrant (a cap and a Facilitator-only flag) and never
-learns why. Here a valid code buys what the free allowance would refuse: a
-turn past the free cap, or any turn once today's allowance is spent. A turn the
-free allowance admits never touches the meter. What a turn draws comes from the
-round it is and the seats at the table (engine.deeper.tokens). Admission
-reserves those tokens before the turn and settles them after it, so nothing is
-spent for a turn that was answered by the Facilitator alone, and nothing is
-left held when a turn fails.
+learns why. What a turn draws comes from the round it is and the seats at the
+table (engine.deeper.tokens). The free allowance covers a conversation's first
+rounds while the visitor's free day lasts; a valid code buys what it would
+refuse: a round past the free rounds, or any turn once the free day is spent.
+Admission reserves a turn's amount before the turn and settles it after it, so
+nothing is spent for a turn that was answered by the Facilitator alone, and
+nothing is left held when a turn fails.
 
 Any fault here leaves the free grant. Admission never closes the free path.
 """
@@ -17,6 +17,7 @@ from typing import Callable
 from fastapi import Request
 
 from engine.api.deeper_routes import DeeperRuntime
+from engine.api.ratelimit import client_ip
 from engine.deeper import codes, tokens
 from engine.m4.grants import TurnGrant, free_grant
 
@@ -93,11 +94,13 @@ class Admission:
     """One request's admission. Build it, hand .provider to the engine, and
     call .finish(voiced) exactly once when the turn is over."""
 
-    def __init__(self, runtime: DeeperRuntime, code: str | None, *, session_id: str, free_cap: int, seats: int):
+    def __init__(self, runtime: DeeperRuntime, code: str | None, *, session_id: str, free_cap: int, seats: int, visitor: str):
         self._runtime = runtime
         self._code = code
         self._free_cap = free_cap
         self._seats = seats
+        self._visitor = visitor
+        self._free_reservation = None
         self._facilitator_only = session_id in runtime.facilitator_only_sessions
         self._paid_sitting = session_id in runtime.paid_sessions
         self._reservation = None
@@ -109,19 +112,26 @@ class Admission:
 
     def provider(self, completed: int, daily_cap_reached: bool) -> TurnGrant:
         limited = daily_cap_reached or self._facilitator_only or self._paid_sitting
-        beyond_free = limited or completed >= self._free_cap
-        if self._code and beyond_free:
-            round_no = completed + 1
-            admission = self._runtime.meter.reserve(self._code, tokens.charge(self._runtime.token_rates, round_no, self._seats))
+        rates = self._runtime.token_rates
+        cost = tokens.charge(rates, completed + 1, self._seats)
+        free_rounds = min(self._free_cap, rates.free_rounds)
+        if not limited and completed < free_rounds:
+            held = self._runtime.free.reserve(self._visitor, cost)
+            if held is not None:
+                self._free_reservation = held
+                return TurnGrant(cap=completed + 1, facilitator_only=False)
+        # Past the free rounds, or the free day cannot cover this turn: the grant
+        # that refuses has a cap no higher than the turns already done.
+        refusal_cap = min(self._free_cap, completed)
+        if self._code:
+            admission = self._runtime.meter.reserve(self._code, cost)
             if admission.ok:
                 self._reservation = admission.reservation
                 return TurnGrant(cap=completed + 1, facilitator_only=False)
             self._note_key = _NOTE_FOR_REASON.get(admission.reason, "code_not_accepted")
-            return free_grant(self._free_cap, limited, self._limit_text())
-        if beyond_free:
-            self._note_key = "no_code"
-            return free_grant(self._free_cap, limited, self._limit_text())
-        return free_grant(self._free_cap, limited)
+            return free_grant(refusal_cap, limited, self._limit_text())
+        self._note_key = "no_code"
+        return free_grant(refusal_cap, limited, self._limit_text())
 
     @property
     def low(self) -> bool:
@@ -144,6 +154,9 @@ class Admission:
         otherwise, and reports what the code has left."""
         meter = self._runtime.meter
         try:
+            if self._free_reservation is not None:
+                self._runtime.free.settle(self._free_reservation, voiced)
+                self._free_reservation = None
             if self._reservation is not None:
                 meter.settle(self._reservation, voiced)
                 self._reservation = None
@@ -159,5 +172,5 @@ def new_admission(runtime: DeeperRuntime | None, request: Request, *, session_id
         return None
     return Admission(
         runtime, code_from(request), session_id=session_id, free_cap=free_cap,
-        seats=seats,
+        seats=seats, visitor=getattr(request.state, "visitor_id", None) or f"ip:{client_ip(request)}",
     )

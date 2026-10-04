@@ -161,3 +161,31 @@ def test_dashboard_page_is_served(store, usage_store, world_loader, registry):
     resp = http.get("/admin/dashboard")
     assert resp.status_code == 200
     assert "text/html" in resp.headers["content-type"]
+
+
+def _event(store, session_id, event_type, payload):
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type=event_type, payload=payload)
+
+
+def test_an_idle_close_written_later_does_not_lengthen_the_session(store, usage_store, monkeypatch):
+    from engine.m7 import session_reader
+    sid = _open(store, visitor_id="visitor-a")
+    _touch(store, sid)
+    _event(store, sid, "session_closed", {"reason": "idle"})
+    events = store.read_events(sid)
+    stamps = ["2026-10-01T10:00:00+00:00", "2026-10-01T10:05:00+00:00", "2026-10-08T11:00:00+00:00"]
+    patched = [type(e)(**{**e.__dict__, "created_at": t}) for e, t in zip(events, stamps)]
+    monkeypatch.setattr(store, "read_events", lambda s: patched if s == sid else [])
+    summary = get_usage_summary(store, usage_store)
+    assert summary.visitors.median_session_seconds == 300
+    assert summary.visitors.median_visitor_total_seconds == 300
+
+
+def test_a_session_opened_without_a_message_is_counted_apart(store, usage_store):
+    _open(store, visitor_id="visitor-a")
+    b = _open(store, visitor_id="visitor-b")
+    _touch(store, b)
+    summary = get_usage_summary(store, usage_store)
+    assert summary.visitors.sessions_without_a_message == 1
+    assert summary.visitors.unique_visitors == 2
+    assert summary.visitors.sessions_with_visitor_id == 2

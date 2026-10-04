@@ -288,6 +288,19 @@ defects:
     target_record: Build/worlds/fix/build/records/search_record/fix.search.lost-letters-search.md
     mutation: {op: set_field, path: _path, value: records/fix/search_record/fix.search.lost-letters-search.md}
     expected_failure: "a search record lives in Build/worlds/<code>/build/records/, not records/<code>/"
+  - id: use-note-missing
+    gate: use-note-present
+    layer: M1
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: delete_field, path: use_note}
+    expected_failure: "a voiced term with no use_note cannot carry its meaning beside it - the use-note gate must fail it"
+
+  - id: use-note-means-as-instruction
+    gate: use-note-shape
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: use_note.means, value: "Use this only when asked about eyewitnesses. It is about trust."}
+    expected_failure: "use_note.means is two sentences and opens as an instruction; a note describes what the record means in one sentence"
 
   - id: inertness-proof
     gate: inertness

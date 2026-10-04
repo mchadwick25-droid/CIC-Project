@@ -276,7 +276,7 @@ def _repo_commit() -> str | None:
 
 
 def run_settings(*, registry: dict, world_keys: list[str], region: str, voice_model_id: str, max_usd: float,
-                 save_transcripts: bool) -> dict:
+                 save_transcripts: bool, probe_limit: int | None = None) -> dict:
     """Every setting that decides what this paid run produces, printed
     before the first billed call and kept in the report."""
     return {
@@ -292,7 +292,8 @@ def run_settings(*, registry: dict, world_keys: list[str], region: str, voice_mo
         "package_content_hash": {w: package_content_hash(REPO_ROOT / registry[w]["package"]["location"]) for w in world_keys},
         "shape_hash": shape_hash(shape_text()),
         "seal_hash": seal_hash(),
-        "battery_size": len(protocol.battery()),
+        "battery_size": len(protocol.battery()[:probe_limit]),
+        "probe_limit": probe_limit,
         "max_usd": max_usd,
         "save_transcripts": save_transcripts,
         "repo_commit": _repo_commit(),
@@ -300,7 +301,7 @@ def run_settings(*, registry: dict, world_keys: list[str], region: str, voice_mo
 
 
 def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice_model_id: str, region: str, canon_questions: dict,
-               save_transcripts: bool = False) -> dict:
+               save_transcripts: bool = False, probe_limit: int | None = None) -> dict:
     """One world's own full battery, against a real, billed streaming
     call per probe - battery size, pass count, per-probe detail, real
     token totals, and the real USD cost priced from them."""
@@ -315,7 +316,7 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice
         LiveModelAnswerer(world=world, canon_questions=canon_questions, client=recording_client, model_id=voice_model_id)
     )
 
-    battery = harness.run_battery(world_key, clean_records, answerer=answerer)
+    battery = harness.run_battery(world_key, clean_records, answerer=answerer, limit=probe_limit)
     results_doc = results.build_results(world_key, battery, mock_harness=False)
 
     usage_log = recording_client.messages.log
@@ -368,7 +369,7 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, voice
 
 def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DEFAULT_MAX_USD, authorized_by: str,
         voice_model_pattern: str = DEFAULT_VOICE_MODEL_PATTERN, save_transcripts: bool = False,
-        settings_only: bool = False) -> dict:
+        settings_only: bool = False, probe_limit: int | None = None) -> dict:
     registry = load_registry()
     formation_keys = set(formation_world_keys(registry))
     requested = world_keys or DEFAULT_WORLD_KEYS
@@ -383,7 +384,8 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
     if not authorized_by.strip():
         raise SystemExit("--authorized-by is required and cannot be blank - every live-billed run names who authorized it")
     real_costs = real_world_costs()
-    per_world_estimates = {w: estimate_world_cost_usd(w, real_costs) for w in requested}
+    share = len(protocol.battery()[:probe_limit]) / len(protocol.battery())
+    per_world_estimates = {w: estimate_world_cost_usd(w, real_costs) * share for w in requested}
     preflight_total = sum(per_world_estimates.values())
     if preflight_total > max_usd:
         breakdown = ", ".join(f"{w}=${c:.2f}" for w, c in per_world_estimates.items())
@@ -396,7 +398,7 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
     voice_model_id = resolve_model_id(voice_model_pattern, region)
     settings = run_settings(
         registry=registry, world_keys=requested, region=region, voice_model_id=voice_model_id, max_usd=max_usd,
-        save_transcripts=save_transcripts,
+        save_transcripts=save_transcripts, probe_limit=probe_limit,
     )
     print(json.dumps({"run_settings": settings, "per_world_estimated_usd": per_world_estimates,
                       "estimated_usd_preflight": preflight_total}, indent=2), file=sys.stderr, flush=True)
@@ -420,7 +422,7 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
             )
             break
         world_result = _run_world(world_key, registry=registry, loader=loader, voice_model_id=voice_model_id, region=region,
-                                  canon_questions=canon_questions, save_transcripts=save_transcripts)
+                                  canon_questions=canon_questions, save_transcripts=save_transcripts, probe_limit=probe_limit)
         spent_so_far += world_result["actual_usd"]
         per_world[world_key] = world_result
 
@@ -470,14 +472,19 @@ def main() -> int:
                              "timings) in the report; grading is unchanged")
     parser.add_argument("--settings-only", action="store_true",
                         help="print the run settings and preflight estimate, then exit before any billed call")
+    parser.add_argument("--probe-limit", type=int, default=None,
+                        help="run only the battery's first N probes, as a sample before the paid run; a sample is "
+                             "never admission evidence and must be written outside engine/m3/reports")
     parser.add_argument("--out", default=str(REPORT_PATH),
                         help="report path - use a distinct file so prior runs' records survive")
     args = parser.parse_args()
 
     world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
+    if args.probe_limit is not None and Path(args.out).resolve().is_relative_to(REPORTS_DIR.resolve()):
+        raise SystemExit("--probe-limit writes a sample, which is not admission evidence; pass --out outside engine/m3/reports")
     report = run(args.region, world_keys=world_keys, max_usd=args.max_usd, authorized_by=args.authorized_by,
                  voice_model_pattern=args.voice_model, save_transcripts=args.save_transcripts,
-                 settings_only=args.settings_only)
+                 settings_only=args.settings_only, probe_limit=args.probe_limit)
     if report.get("settings_only"):
         return 0
     out_path = Path(args.out)

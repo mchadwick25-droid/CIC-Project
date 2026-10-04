@@ -207,6 +207,17 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:horizon/syr": Waiver(count=1, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; syr's own build thread"),
     "m1:cells-required/witt": Waiver(count=50, deadline="2027-03-15", owner="slice 5 cells-required gate: each voiced record names the canon cells it serves, or is marked voice: analytic; witt's own build thread"),
     "m1:horizon/witt": Waiver(count=2, deadline="2027-03-15", owner="slice 5 horizon gate: each post-window mention is rewritten from inside the window, or its record marked voice: analytic; witt's own build thread"),
+    "m1:use-note-present/alx": Waiver(count=116, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; alx's own build thread"),
+    "m1:use-note-present/cappadocian": Waiver(count=122, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; cappadocian's own build thread"),
+    "m1:use-note-present/desert": Waiver(count=126, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; desert's own build thread"),
+    "m1:use-note-present/don": Waiver(count=98, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; don's own build thread"),
+    "m1:use-note-present/gallic": Waiver(count=229, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; gallic's own build thread"),
+    "m1:use-note-present/hal": Waiver(count=100, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; hal's own build thread"),
+    "m1:use-note-present/ijc": Waiver(count=94, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; ijc's own build thread"),
+    "m1:use-note-present/pahc": Waiver(count=89, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; pahc's own build thread"),
+    "m1:use-note-present/rzg": Waiver(count=56, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; rzg's own build thread"),
+    "m1:use-note-present/syr": Waiver(count=94, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; syr's own build thread"),
+    "m1:use-note-present/witt": Waiver(count=125, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; witt's own build thread"),
 }
 
 

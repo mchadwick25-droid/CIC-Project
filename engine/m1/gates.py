@@ -1450,6 +1450,60 @@ def _window_end(records, registry) -> int | None:
     return ((entry or {}).get("time_window") or {}).get("end")
 
 
+# The citable kinds a use note is written for (the design's order). Figures
+# feed cards and may carry a card-only note, which is not required.
+USE_NOTE_TYPES = frozenset({"quote", "doctrinal_witness", "term", "story", "honest_limit", "contested_claim", "gravity"})
+
+# A note describes; it never tells the voice what to do. A sentence or a
+# not-for line that opens with one of these reads as an instruction.
+_IMPERATIVE_OPENERS = frozenset({
+    "always", "answer", "avoid", "call", "cite", "consider", "describe", "do", "don't", "ensure", "explain",
+    "frame", "give", "keep", "make", "mention", "never", "note", "prefer", "present", "quote", "read",
+    "refer", "refuse", "remember", "say", "speak", "stop", "tell", "treat", "use",
+})
+
+
+def _opens_imperatively(text: str) -> bool:
+    first = re.match(r"\s*([A-Za-z']+)", text or "")
+    return bool(first) and first.group(1).lower() in _IMPERATIVE_OPENERS
+
+
+def gate_use_note_present(records, fleet, registry) -> list[str]:
+    """Every voiced citable record carries a use note."""
+    return [
+        f"{rid}: a voiced {r.get('record_type')} with no use_note (means, not_for, years)"
+        for rid, r in sorted(voiced_records(records).items())
+        if r.get("record_type") in USE_NOTE_TYPES and not r.get("use_note")
+    ]
+
+
+def gate_use_note_shape(records, fleet, registry) -> list[str]:
+    """A use note is one sentence of meaning, at most four not-for claims,
+    no instruction anywhere, and years that end inside the world's window."""
+    window_end = _window_end(records, registry)
+    out = []
+    for rid, r in sorted(records.items()):
+        note = r.get("use_note")
+        if not note:
+            continue
+        means = (note.get("means") or "").strip()
+        if len(quote_aware_sentences(means)) != 1:
+            out.append(f"{rid}: use_note.means is {len(quote_aware_sentences(means))} sentences; it is one")
+        if _opens_imperatively(means):
+            out.append(f"{rid}: use_note.means reads as an instruction ({means.split()[0]!r}); it describes what the record means")
+        for line in note.get("not_for") or []:
+            if _opens_imperatively(line):
+                out.append(f"{rid}: use_note.not_for line {line!r} reads as an instruction; it names a claim")
+        years = note.get("years") or {}
+        start, end = years.get("from"), years.get("to")
+        if isinstance(start, int) and isinstance(end, int):
+            if start > end:
+                out.append(f"{rid}: use_note.years runs backward ({start} to {end})")
+            if window_end is not None and end > window_end:
+                out.append(f"{rid}: use_note.years ends at {end}, after the world's window closes at {window_end}")
+    return out
+
+
 def gate_status_ready(records, fleet, registry) -> list[str]:
     """A record the voice may speak from is finished: a draft record that
     would compile into the package fails."""
@@ -1559,6 +1613,8 @@ GATES = {
     "canon-coverage": gate_canon_coverage,
     "status-ready": gate_status_ready,
     "record-home": gate_record_home,
+    "use-note-present": gate_use_note_present,
+    "use-note-shape": gate_use_note_shape,
     "cells-required": gate_cells_required,
     "horizon": gate_horizon,
     "no-build-attribution": gate_no_build_attribution,
