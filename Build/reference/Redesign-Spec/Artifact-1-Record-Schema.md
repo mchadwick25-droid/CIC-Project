@@ -5,7 +5,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.1). Status: NORMATIVE DRAFT — de
 ## 1. Physical form
 
 - One record = one file: YAML front matter between `---` fences (all structured data) + a free markdown body (provenance and build notes — never read by any builder). Proven form; carried forward.
-- Store layout: `records/<world_key>/<record_type>/<id>.md`. Fleet-level records: `records/_fleet/<record_type>/…` (canon questions, modern terms).
+- Store layout: `records/<world_key>/<record_type>/<id>.md`. Fleet-level records live with the engine module that owns each kind: `engine/shape/records/` (fleet voice), `engine/canon/records/` (canon questions), `engine/m5/records/` (modern terms and the sources and contested claim they cite).
 - Storage engine: **files in git** (the store IS a git repository; history is the audit trail). `DECIDABLE` only if scale breaks it (unlikely below ~200 worlds).
 - ID scheme: `<world_key>.<type>.<slug>` (e.g. `alx.term.logos`, `_fleet.canon.c-i-01`). IDs are permanent; slugs never recycled.
 
@@ -91,7 +91,7 @@ sources: [{source_id: alx.source.survey-corpus, locus: "registry-wide", license:
 ```
 
 ```yaml
-# records/_fleet/canon_question/_fleet.canon.c-i-01.md
+# engine/canon/records/canon_question/_fleet.canon.c-i-01.md
 id: _fleet.canon.c-i-01
 world_id: _fleet
 record_type: canon_question

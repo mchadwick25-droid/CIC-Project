@@ -319,9 +319,10 @@ jobs:
           base="origin/${{ github.base_ref }}"
           merge_base="$(git merge-base "$base" HEAD)"
           codes="$(git diff --name-only "$merge_base" HEAD -- records \
-            | awk -F/ 'NF > 2 && $2 != "_fleet" && $2 != "worlds" {print $2}' | sort -u)"
+            | awk -F/ 'NF > 2 && $2 != "worlds" {print $2}' | sort -u)"
           status=0
           for code in $codes; do
+            [ -d "records/$code" ] || continue
             echo "== $code"
             python -m engine.m10.cli records "$code" || status=1
             python -m engine.m10.cli regate "$code" --base "$base" || status=1

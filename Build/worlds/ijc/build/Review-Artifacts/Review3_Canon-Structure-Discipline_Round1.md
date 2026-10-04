@@ -1,5 +1,5 @@
 # Adversarial Review — `ijc` Record Set (branch `world/ijc`, 125 records)
-**Reviewer:** isolated adversarial pass, 2026-08-21 · **Subject:** records/ijc/ (125 records) against records/_fleet/canon_question/ (83 questions, 28 cells), engine/m1/, Build/reference/Redesign-Spec/Artifact-1-Record-Schema.md, Doc_04's Interaction Matrix, the vendored corpus, and records/worlds.yaml.
+**Reviewer:** isolated adversarial pass, 2026-08-21 · **Subject:** records/ijc/ (125 records) against engine/canon/records/canon_question/ (83 questions, 28 cells), engine/m1/, Build/reference/Redesign-Spec/Artifact-1-Record-Schema.md, Doc_04's Interaction Matrix, the vendored corpus, and records/worlds.yaml.
 
 ## Verdict: SUBSTANTIAL REVISION REQUIRED
 

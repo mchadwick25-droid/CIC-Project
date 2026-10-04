@@ -163,7 +163,7 @@ sorted by start date carrying dates and regions, a ten-era ruled table with Roma
 numerals.
 
 **I had the material and did not use it.** The fleet canon
-(`records/_fleet/canon_question/`) holds 93 questions; 23 are P-cell — the personal
+(`engine/canon/records/canon_question/`) holds 93 questions; 23 are P-cell — the personal
 cell. Among them:
 
 - *"I grew up being told doubt was sin. Was there room among your people for doubt?"*

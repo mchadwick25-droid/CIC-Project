@@ -125,7 +125,7 @@ Per the Step3a Round 8 (B2) ruling recorded at `DECISION-LOG.md:28` and marked t
 
 **M5 — `desert.story.antony-tomb-combat`'s body mis-numbers the section it says it freshly verified.** "**§10** (the beast-form combat's own dialogue and the light vision) was freshly opened and verified directly this session." The beast-form combat and Antony's taunts are **§9**; §10 is the light vision alone. The front-matter locus ("SS8-10") is correct; the certifying sentence is not.
 
-**M6 — `STEP4-INDEX.md:64` reports coverage "across all **86 fleet cells**." The canon has 28 cells.** 86 is the number of `canon_question` *records* in `records/_fleet/canon_question/`; `canon.valid_cells(fleet)` returns 28 distinct cells, and `gate_canon_coverage` iterates over those 28. The substantive claim (0 blank) is true and I re-derived it; the unit is wrong, and this build has twice rated an unre-derived count in a step index as a finding.
+**M6 — `STEP4-INDEX.md:64` reports coverage "across all **86 fleet cells**." The canon has 28 cells.** 86 is the number of `canon_question` *records* in `engine/canon/records/canon_question/`; `canon.valid_cells(fleet)` returns 28 distinct cells, and `gate_canon_coverage` iterates over those 28. The substantive claim (0 blank) is true and I re-derived it; the unit is wrong, and this build has twice rated an unre-derived count in a step index as a finding.
 
 **M7 — the commit message says "15 existing gravity/figure/force/term records"; 16 were edited.** `git diff --name-status HEAD~1 HEAD | grep '^M'` returns 3 figure + 5 force + 7 gravity + 1 term = 16. The `desert.term.diakrisis` edit is the one dropped from the count.
 
