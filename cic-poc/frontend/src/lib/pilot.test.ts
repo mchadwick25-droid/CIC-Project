@@ -26,16 +26,16 @@ afterEach(() => {
 });
 
 describe('the pilot join', () => {
-  it('asks once for a link that names an audience, saves the code and clears the address', async () => {
+  it('asks once for a link, saves the code and clears the address', async () => {
     const fetchMock = answer(200, { joined: true, code: SHOWN, tokens: 1100, conversations: 10 });
-    const { pilot, deeper } = await load(true, '#cic-pilot=pastors');
+    const { pilot, deeper } = await load(true, '#cic-pilot=pastors-link-key-0123456789');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBe('ready'));
     const joins = fetchMock.mock.calls.filter(([target]) => target === '/api/deeper/pilot-join');
     expect(joins).toHaveLength(1);
     const [url, init] = joins[0];
     expect(url).toBe('/api/deeper/pilot-join');
     expect(init).toMatchObject({ method: 'POST', credentials: 'omit', referrerPolicy: 'no-referrer' });
-    expect(JSON.parse(init.body)).toEqual({ audience: 'pastors' });
+    expect(JSON.parse(init.body)).toEqual({ link: 'pastors-link-key-0123456789' });
     expect(pilot.pilotSnapshot()).toEqual({ status: 'ready', tokens: 1100, conversations: 10 });
     expect(deeper.codeHeaders()).toEqual({ 'X-Cic-Code': CODE });
     expect(window.location.hash).toBe('');
@@ -59,7 +59,7 @@ describe('the pilot join', () => {
     expect(localStorage.getItem('cic_pilot')).toBeNull();
   });
 
-  it('shows nothing when the audience is closed or not named', async () => {
+  it('shows nothing when the link is closed or not named', async () => {
     answer(404, { detail: 'Not Found' });
     const { pilot } = await load(true, '#cic-pilot=general');
     await vi.waitFor(() => expect(pilot.pilotSnapshot().status).toBeNull());
@@ -80,7 +80,7 @@ describe('the pilot join', () => {
     expect(localStorage.getItem('cic_pilot')).toBeNull();
   });
 
-  it.each(['#cic-pilot=General', '#cic-pilot=a b', '#cic-pilot=', '#cic-pilot=x&y=1', '#cic-pilot=../x'])(
+  it.each(['#cic-pilot=a b', '#cic-pilot=', '#cic-pilot=x&y=1', '#cic-pilot=../x', `#cic-pilot=${'x'.repeat(65)}`])(
     'asks nothing for the malformed fragment %s',
     async (hash) => {
       const fetchMock = answer(200, {});

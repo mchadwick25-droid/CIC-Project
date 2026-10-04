@@ -1,6 +1,6 @@
 /**
- * The pilot's free pack. A link from the site carries the audience in the
- * address fragment (#cic-pilot=pastors); the app clears the fragment at once,
+ * The pilot's free pack. A link from the site carries the audience's name, or a
+ * private audience's secret key, in the address fragment (#cic-pilot=<link>); the app clears the fragment at once,
  * asks its own server for a code once, saves it like any other code, and keeps
  * a marker so a browser that has joined is never offered the pack again. The
  * marker and the code sit apart from conversations, and the request carries no
@@ -10,7 +10,8 @@ import { useSyncExternalStore } from 'react';
 import { deeperEnabled, openPanel, saveCode } from './deeper';
 
 const MARKER_KEY = 'cic_pilot';
-const AUDIENCE = /^[a-z][a-z0-9-]{0,23}$/;
+// A public audience's name or a private audience's secret link key: letters, digits, hyphens, underscores.
+const LINK = /^[A-Za-z0-9_-]{1,64}$/;
 const SITE_ORIGIN = import.meta.env.VITE_DEEPER_SITE_ORIGIN || 'https://churchinconversation.com';
 
 export type PilotStatus = 'joining' | 'ready' | 'already' | 'full' | 'ended' | 'address_limit' | 'failed';
@@ -50,18 +51,18 @@ export function feedbackFormUrl(): string {
   return `${SITE_ORIGIN}/pilot-feedback.html`;
 }
 
-/** The audience a link named in the address fragment, or null. The fragment is cleared whatever it holds. */
+/** The link a fragment named, or null. The fragment is cleared whatever it holds. */
 export function takePilotFromAddress(): string | null {
   if (!deeperEnabled || typeof window === 'undefined') return null;
   const match = /^#cic-pilot=([^&]*)$/.exec(window.location.hash);
   if (!match) return null;
   window.history.replaceState(null, '', window.location.pathname + window.location.search);
-  return AUDIENCE.test(match[1]) ? match[1] : null;
+  return LINK.test(match[1]) ? match[1] : null;
 }
 
 /** Asks for the pack once. A browser that already joined is told so and asks nothing. */
-export async function joinPilot(audience: string): Promise<void> {
-  if (!deeperEnabled || !AUDIENCE.test(audience) || state.status === 'joining') return;
+export async function joinPilot(link: string): Promise<void> {
+  if (!deeperEnabled || !LINK.test(link) || state.status === 'joining') return;
   if (holdsMarker()) {
     update({ ...idle, status: 'already' });
     openPanel();
@@ -76,7 +77,7 @@ export async function joinPilot(audience: string): Promise<void> {
       credentials: 'omit',
       referrerPolicy: 'no-referrer',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ audience }),
+      body: JSON.stringify({ link }),
     });
     if (response.status === 404) {
       // Closed or not named: nothing is shown, as if there were no pilot.
@@ -121,6 +122,6 @@ export function usePilot(): PilotState {
 }
 
 if (deeperEnabled && typeof window !== 'undefined') {
-  const audience = takePilotFromAddress();
-  if (audience) void joinPilot(audience);
+  const link = takePilotFromAddress();
+  if (link) void joinPilot(link);
 }

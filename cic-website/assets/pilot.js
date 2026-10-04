@@ -1,22 +1,22 @@
 (function (root) {
   "use strict";
 
-  var AUDIENCE = /^[a-z][a-z0-9-]{0,23}$/;
+  // A public audience's name or a private audience's secret key. The page cannot tell which, and does not need to.
+  var LINK = /^[A-Za-z0-9_-]{1,64}$/;
 
-  // The audience a link names in its query (?for=pastors), or general when it names none.
-  // Other parameters a link picks up on the way are ignored.
-  function audienceOf(search) {
+  // The link a page address names (?for=...), or general when it names none. Other parameters are ignored.
+  function linkOf(search) {
     var params = new URLSearchParams(search || "");
     var name = params.has("for") ? params.get("for") : "general";
-    return AUDIENCE.test(name) ? name : null;
+    return LINK.test(name) ? name : null;
   }
 
-  // The app's address for the pack: the audience travels in the fragment, which no server is sent.
-  function joinUrl(appOrigin, audience) {
-    return appOrigin.replace(/\/+$/, "") + "/#cic-pilot=" + audience;
+  // The app's address for the pack: the link travels in the fragment, which no server is sent.
+  function joinUrl(appOrigin, link) {
+    return appOrigin.replace(/\/+$/, "") + "/#cic-pilot=" + link;
   }
 
-  var api = { audienceOf: audienceOf, joinUrl: joinUrl };
+  var api = { linkOf: linkOf, joinUrl: joinUrl };
   root.CicPilot = api;
   if (typeof module !== "undefined" && module.exports) module.exports = api;
 
@@ -24,11 +24,10 @@
   var config = root.GoDeeperConfig;
   // Nothing shows until the pilot is opened in the site's config, so a link found early shows an empty page.
   if (!config.pilot) return;
-  var audience = audienceOf(root.location.search);
-  if (!audience) return;
-  var end = root.document.querySelector('[data-pilot-end="' + audience + '"]');
-  if (!end) return;
-  end.hidden = false;
-  root.document.getElementById("pilot-button").setAttribute("href", joinUrl(config.app, audience));
+  var link = linkOf(root.location.search);
+  if (!link) return;
+  // A private audience's key is a password: take it out of the address bar and the history at once.
+  if (root.history && root.history.replaceState) root.history.replaceState(null, "", root.location.pathname);
+  root.document.getElementById("pilot-button").setAttribute("href", joinUrl(config.app, link));
   root.document.getElementById("pilot-offer").hidden = false;
 })(typeof window !== "undefined" ? window : this);

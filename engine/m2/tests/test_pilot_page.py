@@ -50,10 +50,10 @@ def test_the_figures_are_the_pilot_packs_in_the_operations_file():
     assert words == NUMBER_WORDS[pack.tokens // tokens.conversation_cost(ops.rates, ops.rates.free_rounds)]
 
 
-def test_each_audience_has_its_end_date_on_the_page_from_the_operations_file():
+def test_the_pilots_one_end_date_on_the_page_is_the_operations_files():
     ops = load_ops()
-    found = dict(re.findall(r'data-pilot-end="([a-z0-9-]+)" hidden>([^<]+)<', PAGE.read_text()))
-    assert found == {name: _long_date(a.pilot_end_date) for name, a in ops.pilot_audiences.items()}
+    found = re.findall(r"<span data-pilot-end>([^<]+)</span>", PAGE.read_text())
+    assert found == [_long_date(ops.pilot_end_date)]
 
 
 def test_the_page_names_no_price_and_reads_at_the_target_level():
@@ -73,22 +73,31 @@ def test_the_page_is_unlisted_unlinked_and_empty_until_the_site_config_opens_the
             assert "pilot.html" not in path.read_text(errors="ignore"), path.name
 
 
-def test_the_audience_comes_from_the_query_and_only_a_well_formed_name_goes_into_the_app_link():
+def test_the_link_comes_from_the_query_and_only_a_well_formed_one_goes_into_the_app_link():
     out = _node(
         f"""const p = require({json.dumps(str(SCRIPT))});
         console.log(JSON.stringify([
-          p.audienceOf(''), p.audienceOf('?for=pastors'), p.audienceOf('?for=Pastors'), p.audienceOf('?for='),
-          p.audienceOf('?for=historians&fbclid=1'), p.audienceOf('?for=../x'), p.audienceOf('?utm=1'),
-          p.joinUrl('https://app.example/', 'pastors'), p.joinUrl('https://app.example', 'general')
+          p.linkOf(''), p.linkOf('?for=pastors-link-key-0123456789'), p.linkOf('?for='), p.linkOf('?for=a%20b'),
+          p.linkOf('?for=historians-key-0123456789&fbclid=1'), p.linkOf('?for=../x'), p.linkOf('?utm=1'), p.linkOf('?for=' + 'x'.repeat(65)),
+          p.joinUrl('https://app.example/', 'pastors-link-key-0123456789'), p.joinUrl('https://app.example', 'general')
         ]))"""
     )
     assert out == [
-        "general", "pastors", None, None, "historians", None, "general",
-        "https://app.example/#cic-pilot=pastors", "https://app.example/#cic-pilot=general",
+        "general", "pastors-link-key-0123456789", None, None, "historians-key-0123456789", None, "general", None,
+        "https://app.example/#cic-pilot=pastors-link-key-0123456789", "https://app.example/#cic-pilot=general",
     ]
 
 
-def test_the_audience_travels_in_the_fragment_never_the_query_to_the_app():
+def test_the_link_travels_in_the_fragment_never_the_query_to_the_app():
     text = SCRIPT.read_text()
     assert "#cic-pilot=" in text
     assert not re.search(r"""\?cic-pilot|[?&]for=["']\s*\+""", text)
+
+
+def test_the_key_is_taken_out_of_the_address_sent_no_referrer_and_met_by_no_analytics():
+    script = SCRIPT.read_text()
+    assert "history.replaceState(null, \"\", root.location.pathname)" in script
+    assert script.index("replaceState") < script.index("pilot-offer")
+    html = PAGE.read_text()
+    assert '<meta name="referrer" content="no-referrer">' in html
+    assert not re.search(r"gtag|analytics|plausible|fathom|googletagmanager|<img[^>]+src=\"https?://", html + script, re.I)

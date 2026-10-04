@@ -228,6 +228,8 @@ class Meter:
         for column in MINT_COUNT_FIELDS.values():
             if column not in have:
                 self._conn.execute(f"ALTER TABLE reconcile ADD COLUMN {column} INTEGER NOT NULL DEFAULT 0")
+        # The pilot's total was once one number; each audience now keeps its own.
+        self._conn.execute("DELETE FROM state WHERE key = 'pilot_total'")
 
     def close(self) -> None:
         with self._lock:
