@@ -1006,18 +1006,21 @@ button {
   cursor: pointer;
 }
 
-.code-entry {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: var(--spacing-sm);
+.go-deeper {
   margin-top: var(--spacing-xs, 0.25rem);
   font-size: 0.78rem;
   color: var(--color-text-light);
 }
 
-.code-entry button {
+.go-deeper__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.go-deeper button {
   background: none;
   border: none;
   min-height: 44px;
@@ -1029,15 +1032,58 @@ button {
   cursor: pointer;
 }
 
-.code-entry__form {
+.go-deeper__panel {
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-text-light);
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+@media (min-width: 900px) {
+  .go-deeper__panel {
+    top: 0;
+    left: auto;
+    width: 22rem;
+    max-height: none;
+    border-top: none;
+    border-left: 1px solid var(--color-text-light);
+  }
+}
+
+.go-deeper__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.go-deeper__head h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.go-deeper__actions,
+.go-deeper__form,
+.go-deeper__section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   gap: var(--spacing-sm);
 }
 
-.code-entry__form input {
+.go-deeper__section {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.go-deeper__form input {
   min-width: 0;
   width: 15rem;
   max-width: 100%;
@@ -1046,10 +1092,14 @@ button {
   letter-spacing: 0.06em;
 }
 
-.code-entry__error {
+.go-deeper__code {
+  margin: 0;
+  word-break: break-word;
+}
+
+.go-deeper__error {
   flex-basis: 100%;
   margin: 0;
-  text-align: center;
   color: var(--color-error);
 }
 

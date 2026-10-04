@@ -24,6 +24,11 @@ export function normalizeCode(raw: string): string | null {
   return code;
 }
 
+/** A code in the groups it is read and written in. */
+export function formatCode(code: string): string {
+  return code.match(/.{1,4}/g)?.join(' ') ?? code;
+}
+
 /** A purchase a link says is waiting, held until the person says yes. */
 export interface PendingClaim {
   reference: string;
@@ -38,6 +43,8 @@ interface DeeperState {
   // The code in use is nearly spent and nothing else is held to carry on with.
   low: boolean;
   claim: PendingClaim | null;
+  // The panel beside the conversation: opened by a limit or by the person, never on its own.
+  panelOpen: boolean;
 }
 
 function readStoredCodes(): string[] {
@@ -87,7 +94,7 @@ function changeStoredCodes(change: (stored: string[]) => string[]): string[] {
   return next;
 }
 
-const emptyState = (codes: string[]): DeeperState => ({ codes, balances: {}, remaining: null, low: false, claim: null });
+const emptyState = (codes: string[]): DeeperState => ({ codes, balances: {}, remaining: null, low: false, claim: null, panelOpen: false });
 
 let state: DeeperState = emptyState(deeperEnabled ? readStoredCodes() : []);
 const listeners = new Set<() => void>();
@@ -182,7 +189,7 @@ export async function addCode(raw: string): Promise<boolean> {
 /** Removes every held code. */
 export function clearCode() {
   changeStoredCodes(() => []);
-  update(emptyState([]));
+  update({ ...emptyState([]), panelOpen: state.panelOpen });
 }
 
 /** Removes the code in use, and only that one. */
@@ -264,8 +271,21 @@ export function takeClaimFromAddress(): boolean {
     reference = '';
   }
   if (!REFERENCE.test(reference)) return false;
-  update({ ...state, claim: { reference, status: 'asking' } });
+  update({ ...state, claim: { reference, status: 'asking' }, panelOpen: true });
   return true;
+}
+
+export function openPanel() {
+  if (deeperEnabled && !state.panelOpen) update({ ...state, panelOpen: true });
+}
+
+export function closePanel() {
+  if (state.panelOpen) update({ ...state, panelOpen: false });
+}
+
+/** A turn came back refused for want of tokens or a code: the panel opens beside it. */
+export function noteLimit() {
+  openPanel();
 }
 
 export function declineClaim() {

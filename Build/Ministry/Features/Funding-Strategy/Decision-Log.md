@@ -1273,3 +1273,14 @@ Mark's description of the product, 2026-10-03: the buying sits beside the conver
 - #744 notes: a, the local reference lasts three hours and the server's hour decides; b, a delivered single code is removed from the site's storage; c, the site's two addresses are in one file; d, the S11 checklist names `CIC_DEEPER_SITE_ORIGIN` and `VITE_DEEPER_SITE_ORIGIN`, which must both equal the site's exact origin.
 - #745 notes: a, the same origin point; b, a blocked popup now opens the page in the same tab; c, the app answers the popup on every screen, not only where the code field shows.
 - New participant words from these fixes, for Mark's approval: "A code came with this link. Use it?", "You already have a code. Using this one will replace it.", "Use it", "Not now", "We couldn't get that code. Try the page where you paid."
+
+## 2026-10-04 — Go Deeper P1: the panel beside the conversation (words approved by Mark)
+
+Carries out the panel ruling on the app. Still switched off with the build flag.
+
+- **The panel replaces the code line.** A strip under the message box shows the token count, and the panel opens when a turn comes back refused (a limit note arrives, on an interview or a Table round) or when the person asks. It never opens on its own otherwise. Escape and a Close button shut it. On a wide screen it sits beside the conversation; on a narrow one it rises from the bottom. The conversation underneath is untouched, so the sitting carries on from the pause.
+- **Inside it:** the intro, the count and the low line, Get more tokens, I have a code, a "show my code" line that reveals the code held (or each code, if several) for use on another device and hides it again, and Remove code. A code that arrives with a link opens the panel and asks first, as before.
+- **Words.** Mark approved the panel words as proposed on 2026-10-04: "Go deeper", the intro line, "N tokens left.", "Your tokens are running low.", "Get more tokens", "I have a code", "Show my code" and its reveal line, "Hide my code". "Close" is added as a plain control label. The old "Get a code" and "exchanges left on your code" are gone from the app.
+- **Not changed, because the two Stripe facts are unverified:** "Get more tokens" still opens the site's page in a popup, and a code still comes back by the popup message or a purchase reference in the address. The return to the exact sitting and any in-page checkout wait on the build thread verifying them; no sitting or session id goes into a Stripe-bound field either way.
+- The site pages and the server's refusal lines still say exchanges; T3 changes them with the three-pack page.
+- Tests: the panel's behaviour (closed until asked, opens at a limit, code reveal and hide, claim prompt, popup origin check), and that an interview turn and a Table round each open it when a limit note arrives.
