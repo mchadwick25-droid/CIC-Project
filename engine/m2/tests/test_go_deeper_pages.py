@@ -9,6 +9,7 @@ from pathlib import Path
 
 import pytest
 
+from engine.api.deeper_ops import load_ops
 from engine.m7.turn_readability import score_turn
 
 REPO = Path(__file__).resolve().parents[3]
@@ -51,10 +52,14 @@ class _MainText(HTMLParser):
             self._buf.append(data)
 
 
-def _text(page: str) -> list[str]:
+def _text_of(html: str) -> list[str]:
     parser = _MainText()
-    parser.feed((SITE / page).read_text())
+    parser.feed(html)
     return parser.blocks
+
+
+def _text(page: str) -> list[str]:
+    return _text_of((SITE / page).read_text())
 
 
 def _node(scenario: str):
@@ -72,10 +77,45 @@ def test_each_page_reads_at_the_target_level(page):
     assert score.passed, (page, score.failures)
 
 
+def _without_pack_figures(html: str) -> str:
+    return re.sub(r'<li>\$<span data-ops="pack-\d-price">\d+</span>:', "<li>", html)
+
+
 @pytest.mark.parametrize("page", PAGES)
-def test_no_page_shows_a_price_or_money_figure(page):
-    text = " ".join(_text(page))
+def test_no_page_shows_a_price_or_money_figure_outside_the_pack_lines(page):
+    html = _without_pack_figures((SITE / page).read_text())
+    text = " ".join(_text_of(html))
     assert not re.search(r"[$€£]|\b(USD|dollars?|cents?)\b|\d+\s*%", text, re.I), text
+
+
+def _ops_figures() -> dict:
+    ops = load_ops()
+    rates = ops.rates
+    figures = {"solo-open": rates.solo_open, "solo-round": rates.solo_round, "solo-round-later": rates.solo_round_later}
+    for n, pack in enumerate(ops.packs, start=1):
+        figures[f"pack-{n}-price"] = pack.price_usd
+        figures[f"pack-{n}-tokens"] = pack.tokens
+    return figures
+
+
+def test_every_figure_on_the_go_deeper_page_is_the_one_in_the_operations_file():
+    html = (SITE / "go-deeper.html").read_text()
+    found = dict(re.findall(r'data-ops="([a-z0-9-]+)">([\d,]+)<', html))
+    expected = {key: f"{value:,}" for key, value in _ops_figures().items()}
+    assert found == expected
+
+
+def test_the_pack_lines_say_how_many_three_round_conversations_each_pack_holds():
+    from engine.deeper import tokens
+
+    ops = load_ops()
+    words = {10: "ten", 25: "twenty-five", 60: "sixty"}
+    html = (SITE / "go-deeper.html").read_text()
+    lines = re.findall(r"<li>\$.*?</li>", html)
+    assert len(lines) == len(ops.packs)
+    per_conversation = tokens.conversation_cost(ops.rates, ops.rates.free_rounds)
+    for line, pack in zip(lines, ops.packs):
+        assert words[pack.tokens // per_conversation] in line
 
 
 def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():

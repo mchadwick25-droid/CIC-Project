@@ -89,10 +89,10 @@ describe('TableRoom', () => {
 
   it('shows the reason under a pause at a limit and keeps the table open', () => {
     const turns: ConversationTurn[] = [
-      { speaker: 'facilitator', kind: 'limit', text: 'This sitting has reached its limit for now.', note: 'Your code does not have enough exchanges left for a Table round.' },
+      { speaker: 'facilitator', kind: 'limit', text: 'This sitting has reached its limit for now.', note: 'You do not have enough tokens left for a Table round. Add more to carry on.' },
     ];
     const { container } = render(<TableRoom {...baseProps} turns={turns} />);
-    expect(container.querySelector('.turn__note')?.textContent).toBe('Your code does not have enough exchanges left for a Table round.');
+    expect(container.querySelector('.turn__note')?.textContent).toBe('You do not have enough tokens left for a Table round. Add more to carry on.');
   });
 });
 

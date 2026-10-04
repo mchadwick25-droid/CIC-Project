@@ -23,10 +23,10 @@ tokens:
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:
-    no_code: "If you hold a code, enter it to carry on in this conversation."
+    no_code: "To carry on in this conversation, add tokens or enter a code."
     code_not_accepted: "That code was not accepted. Check it and try again."
-    spent: "Your code has no exchanges left."
-    too_few: "Your code does not have enough exchanges left for a Table round."
+    spent: "Your tokens have run out. Add more to carry on."
+    too_few: "You do not have enough tokens left for a Table round. Add more to carry on."
     daily_ceiling: "Your code has reached its limit for today. It works again tomorrow."
     paused: "Codes are paused for now. Your code is safe."
-    in_use: "Your code is finishing another exchange. Try again in a moment."
+    in_use: "Your tokens are in use by another conversation. Try again in a moment."
