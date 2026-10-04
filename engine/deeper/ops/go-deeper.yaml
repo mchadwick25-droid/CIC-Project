@@ -21,6 +21,7 @@ tokens:
     - {price_usd: 15, tokens: 2750}
     - {price_usd: 30, tokens: 6600}
 door:
+  observe: true
   base_weekly_usd: 150
   gift_share: 0.8
   purchase_share: 0.5
@@ -31,6 +32,9 @@ door:
     - {at: 0.90, table_free_rounds: 0}
     - {at: 0.95, free_voice: false}
     - {at: 1.00, paid_voice: false}
+paid:
+  round_cap: 40
+  provisional: true
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:

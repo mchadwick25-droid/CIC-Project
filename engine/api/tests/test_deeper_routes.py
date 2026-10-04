@@ -687,7 +687,7 @@ def test_the_door_route_reports_nothing_without_a_door_and_the_state_with_one(ht
 
     runtime.door = Stub()
     assert http.get("/api/admin/deeper/door", headers=admin()).json() == {
-        "door": {"stage": 3, "ratio": 0.912, "ceiling_usd": 150.0, "free_voice": True, "paid_voice": True}
+        "door": {"stage": 3, "ratio": 0.912, "ceiling_usd": 150.0, "free_voice": True, "paid_voice": True, "observe": False}
     }
 
 
@@ -841,3 +841,46 @@ def test_the_public_door_line_carries_words_only_and_may_be_kept_a_minute(http, 
     assert set(response.json()) == {"state", "line"}
     assert response.headers["cache-control"] == "public, max-age=60"
     assert not any(key in response.text for key in ("ratio", "ceiling", "stage"))
+
+
+def test_in_observe_mode_the_public_door_line_says_nothing_even_at_a_closed_door(http, runtime):
+    runtime.door_observe = True
+    assert _public_door(http, runtime, stage=4, free_voice=False).json() == {"state": "open", "line": None}
+
+
+def test_the_admin_door_route_says_whether_the_door_is_only_observing(http, runtime):
+    from engine.deeper import door as door_module
+
+    class Stub:
+        def state(self):
+            return door_module.DoorState(stage=2, ratio=0.8, ceiling_usd=150.0)
+
+    runtime.door = Stub()
+    runtime.door_observe = True
+    assert http.get("/api/admin/deeper/door", headers=admin()).json()["door"]["observe"] is True
+
+
+def test_the_door_monitor_keeps_the_days_peak_stage_ratio_and_spend(runtime):
+    from engine.api.deeper_routes import _count_door
+    from engine.deeper import door as door_module
+
+    _count_door(runtime.meter, door_module.DoorState(stage=2, ratio=0.8, ceiling_usd=150.0))
+    _count_door(runtime.meter, door_module.DoorState(stage=1, ratio=0.5, ceiling_usd=150.0))
+    (day,) = runtime.meter.measures(1)
+    assert (day["door_stage"], day["door_ratio_permille"], day["door_spend_cents"]) == (2, 800, 12000)
+
+
+def test_a_runtime_built_for_real_keeps_the_doors_peaks_as_the_door_is_read(tmp_path):
+    from engine.m8.log_store import UsageLogStore
+
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1"}
+    rt = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
+    try:
+        assert rt.door_observe is True and rt.paid_round_cap == 40
+        rt.door.state()
+        (day,) = rt.meter.measures(1)
+        assert (day["door_stage"], day["door_ratio_permille"], day["door_spend_cents"]) == (0, 0, 0)
+    finally:
+        rt.meter.close()
+        rt.claims.close()

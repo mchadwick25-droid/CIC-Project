@@ -1357,3 +1357,124 @@ def test_a_refusal_that_cannot_be_counted_still_reports_what_the_code_has_left(r
     admission = Admission(runtime, code, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
     admission.provider(runtime.token_rates.free_rounds, False)
     assert admission.finish(False) == 5
+
+
+# ---- the paid conversation's round cap -----------------------------------------------------
+
+def test_a_paid_conversation_stops_at_its_round_cap_and_spends_nothing(runtime):
+    runtime.paid_round_cap = 5
+    code = code_with(runtime, 5000)
+    before = runtime.meter.status(code).remaining
+    grant = _turn(runtime, code=code, completed=5)
+    assert grant.cap <= 5 and grant.limit_text is not None
+    assert runtime.meter.status(code).remaining == before
+    assert _refusals(runtime) == {"paid_round_cap": 1}
+
+
+def test_a_paid_conversation_below_its_cap_is_carried(runtime):
+    runtime.paid_round_cap = 5
+    code = code_with(runtime, 5000)
+    assert _turn(runtime, code=code, completed=4).cap == 5
+    assert _refusals(runtime) == {}
+
+
+def test_no_cap_leaves_a_long_paid_conversation_alone(runtime):
+    runtime.paid_round_cap = None
+    code = code_with(runtime, 5000)
+    assert _turn(runtime, code=code, completed=60).cap == 61
+
+
+def test_the_shipped_cap_is_provisional_and_at_least_the_free_rounds():
+    ops = load_ops()
+    assert ops.paid_round_cap_provisional is True
+    assert ops.paid_round_cap > ops.rates.free_rounds
+
+
+def test_the_round_cap_refusal_gets_the_facilitator_and_no_new_words(runtime):
+    runtime.paid_round_cap = 3
+    from engine.api.deeper_admission import Admission
+
+    admission = Admission(runtime, code_with(runtime, 5000), session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    grant = admission.provider(3, False)
+    assert grant.limit_text == runtime.ops.limit_text
+    assert admission.limit_note("session_cap_turn") is None
+
+
+# ---- observe mode: the door is worked out and narrows nothing -----------------------------------
+
+def _observing(runtime, **fields):
+    runtime.door_observe = True
+    runtime.door = StubDoor(**fields)
+
+
+def test_in_observe_mode_a_closed_door_narrows_nothing(runtime):
+    _observing(runtime, free_voice=False, paid_voice=False)
+    assert _turn(runtime, code=None, completed=0).cap == 1
+    assert _turn(runtime, code=code_with(runtime, 500), completed=0).cap == 1
+    assert _refusals(runtime) == {}
+
+
+def test_in_observe_mode_a_voiced_turn_the_door_would_have_refused_is_counted(runtime):
+    from engine.api.deeper_admission import Admission
+
+    _observing(runtime, free_voice=False)
+    admission = Admission(runtime, None, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(0, False)
+    admission.finish(True)
+    assert runtime.meter.measures(1)[0]["observed_free_refused"] == 1
+
+
+def test_in_observe_mode_a_paid_turn_at_the_last_stage_is_counted(runtime):
+    from engine.api.deeper_admission import Admission
+
+    _observing(runtime, free_voice=False, paid_voice=False)
+    admission = Admission(runtime, code_with(runtime, 500), session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(0, False)
+    admission.finish(True)
+    assert runtime.meter.measures(1)[0]["observed_paid_refused"] == 1
+
+
+def test_in_observe_mode_free_rounds_the_door_would_have_cut_are_counted(runtime):
+    from engine.api.deeper_admission import Admission
+
+    _observing(runtime, solo_free_rounds=1)
+    admission = Admission(runtime, None, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(1, False)
+    admission.finish(True)
+    assert runtime.meter.measures(1)[0]["observed_free_refused"] == 1
+
+
+def test_a_turn_the_door_would_have_let_through_is_not_counted(runtime):
+    from engine.api.deeper_admission import Admission
+
+    _observing(runtime)
+    admission = Admission(runtime, None, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(0, False)
+    admission.finish(True)
+    rows = runtime.meter.measures(1)
+    assert not rows or rows[0]["observed_free_refused"] == 0
+
+
+def test_an_unvoiced_turn_is_not_counted_as_one_the_door_would_have_refused(runtime):
+    from engine.api.deeper_admission import Admission
+
+    _observing(runtime, free_voice=False)
+    admission = Admission(runtime, None, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(0, False)
+    admission.finish(False)
+    assert runtime.meter.measures(1) == [] or runtime.meter.measures(1)[0]["observed_free_refused"] == 0
+
+
+def test_the_same_closed_door_narrows_once_observe_is_off(runtime):
+    runtime.door = StubDoor(free_voice=False)
+    assert _turn(runtime, code=None, completed=0).cap <= 0
+
+
+def test_a_fault_in_observe_mode_still_leaves_the_free_grant(runtime, monkeypatch):
+    _observing(runtime, free_voice=False)
+
+    def down(*_a, **_k):
+        raise RuntimeError("free day down")
+
+    monkeypatch.setattr(runtime.free, "reserve", down)
+    assert _grant_for(runtime, code=None, completed=1).cap >= 1

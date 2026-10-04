@@ -99,6 +99,8 @@ class DeeperRuntime:
     free: DailyFreeAllowance | None = None
     gift_links: frozenset = frozenset()
     door: "DoorMonitor | None" = None
+    door_observe: bool = False
+    paid_round_cap: int | None = None
 
     def __post_init__(self):
         if self.free is None:
@@ -228,6 +230,14 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
         runtime.meter.tally("refunds_applied", voided)
         return "voided"
     return "ignored_type"
+
+
+def _count_door(meter: Meter, state) -> None:
+    """What the door computed, kept as the day's peaks. In observe mode this is
+    the whole report of what it would have done."""
+    meter.measure_peak("door_stage", state.stage)
+    meter.measure_peak("door_ratio_permille", round(state.ratio * 1000))
+    meter.measure_peak("door_spend_cents", round(state.ratio * state.ceiling_usd * 100))
 
 
 def _mint_for(runtime: DeeperRuntime, session: dict, product: Product) -> str:
@@ -418,7 +428,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         _cors(request, response)
         response.headers["Cache-Control"] = "public, max-age=60"
         words = runtime.ops.door_words if runtime.ops is not None else None
-        state = runtime.door.state() if runtime.door is not None else None
+        state = runtime.door.state() if runtime.door is not None and not runtime.door_observe else None
         if words is None or state is None or state.stage == 0:
             return {"state": "open", "line": None}
         if state.free_voice:
@@ -455,7 +465,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             return {"door": None}
         state = runtime.door.state()
         return {"door": {"stage": state.stage, "ratio": round(state.ratio, 3), "ceiling_usd": round(state.ceiling_usd, 2),
-                         "free_voice": state.free_voice, "paid_voice": state.paid_voice}}
+                         "free_voice": state.free_voice, "paid_voice": state.paid_voice, "observe": runtime.door_observe}}
 
     @app.get("/api/admin/deeper/measures")
     def measures(request: Request, authorization: str | None = Header(default=None)):
@@ -493,7 +503,7 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         door = DoorMonitor(
             ops.door, usage_store, lambda: meter.net_funds(7),
             load=lambda: meter.get_state(DOOR_STATE_KEY), save=lambda raw: meter.set_state(DOOR_STATE_KEY, raw),
-            observe=lambda state: meter.measure_peak("door_stage", state.stage),
+            observe=lambda state: _count_door(meter, state),
         )
     return DeeperRuntime(
         meter=meter,
@@ -506,4 +516,6 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         group_burst_multiplier=ops.group_burst_multiplier,
         ops=ops,
         door=door,
+        door_observe=ops.door_observe,
+        paid_round_cap=ops.paid_round_cap,
     )
