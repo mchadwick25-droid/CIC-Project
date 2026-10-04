@@ -133,7 +133,9 @@ class Admission:
         if not door.free_voice:
             return free_grant(min(self._free_cap, completed), limited, self._limit_text())
         door_rounds = self._door_rounds(door)
-        cap = self._free_cap if door_rounds is None else min(self._free_cap, door_rounds)
+        cap = min(self._free_cap, self._runtime.token_rates.free_rounds)
+        if door_rounds is not None:
+            cap = min(cap, door_rounds)
         return free_grant(cap, limited)
 
     def _decide(self, completed: int, limited: bool, door: door_module.DoorState) -> TurnGrant:

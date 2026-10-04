@@ -1283,4 +1283,4 @@ def test_a_fault_with_the_door_open_leaves_the_free_grant_as_it_was(runtime, mon
         raise RuntimeError("free day down")
 
     monkeypatch.setattr(runtime.free, "reserve", down)
-    assert _grant_for(runtime, code=None, completed=1).cap == SHIPPED_SESSION_TURN_CAP
+    assert _grant_for(runtime, code=None, completed=1).cap == runtime.token_rates.free_rounds
