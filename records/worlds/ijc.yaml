@@ -14,6 +14,7 @@ doorway_description: >-
   and of Rome's bishops building their claim to speak for the whole church.
   It closes at the Council of Chalcedon in 451.
 card_name: "Church and Empire"
+app: {order: 6, accent_color: "#B67D50", portrait: "/images/portraits/thumb/empire.webp"}
 representative: {name: Marius, role_label: "Deacon of the Letters"}
 state: admitted
 census_id: "imperial-juridical-christianity"

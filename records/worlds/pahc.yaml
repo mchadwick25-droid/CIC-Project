@@ -14,6 +14,7 @@ doorway_description: >-
   no safety in the law. There were only communities working out, generation
   by generation, what it meant to stay one church across an empire.
 card_name: "The Scattered Households"
+app: {order: 2, accent_color: "#439975", portrait: "/images/portraits/thumb/house-churches.webp"}
 representative: {name: Chloe, role_label: "Household Leader"}
 state: admitted
 census_id: "post-apostolic-house-church"

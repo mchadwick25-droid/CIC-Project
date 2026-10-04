@@ -329,6 +329,7 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
                 "horizon": frame.get("horizon"),
                 "living_tradition_flag": frame.get("living_tradition_flag", False),
                 "starters": starters,
+                "app": entry.get("app"),
             }
         )
     return worlds

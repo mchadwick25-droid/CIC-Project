@@ -13,6 +13,7 @@ doorway_description: >-
   threaten him. In this world, faith grows the way understanding grows - by
   study, questions, and a teacher's patient guidance.
 card_name: "Alexandrian Christianity"
+app: {order: 1, accent_color: "#DE670B", portrait: "/images/portraits/thumb/alexandria.webp"}
 representative: {name: Theon, role_label: "Catechetical Teacher"}
 state: admitted
 census_id: "alexandria-catechetical"

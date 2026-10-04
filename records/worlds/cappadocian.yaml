@@ -20,6 +20,7 @@ doorway_description: >-
   own vindication, and more than a decade spent living inside the
   victory.
 card_name: "The Cappadocian Churches"
+app: {order: 7, accent_color: "#CB7247", portrait: "/images/portraits/thumb/cappadocian.webp"}
 representative: {name: Chilo, role_label: "Elder of the Brotherhoods"}
 census_id: "cappadocian-nicene-pastoral-monastic-tradition"
 thinness_statement: "Richest in the letters, orations, and treatises of Basil, Gregory of Nazianzus, and Gregory of Nyssa; thinner on women's own words (none survive in their own hand), the plateau's non-elite and non-Greek-speaking faithful, the enslaved (never heard in their own voice despite one preacher's own sharp protest against the institution), and the defeated parties (Eustathius, the Homoian church, the Eunomian movement) who survive almost only inside their opponents' polemic."

@@ -253,6 +253,8 @@ export interface WorldSummary {
   horizon: string | null;
   living_tradition_flag: boolean;
   starters: WorldStarter[];
+  // The world's place in the list, portrait and accent colour (registry `app`).
+  app?: { order: number; accent_color: string; portrait: string } | null;
 }
 
 export interface WorldListResponse {

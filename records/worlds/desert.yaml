@@ -15,6 +15,7 @@ doorway_description: >-
   virtue they honored discernment: the skill of judging how much any one
   person can bear.
 card_name: "Desert Fathers and Mothers"
+app: {order: 3, accent_color: "#9D893B", portrait: "/images/portraits/thumb/desert.webp"}
 representative: {name: Papnoute, role_label: "Abba (Elder)"}
 state: admitted
 census_id: "desert-monasticism"

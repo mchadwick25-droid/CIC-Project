@@ -23,6 +23,7 @@ doorway_description: >-
   It closes with a fuller confessional book gathered by 1580. By then
   the movement's own founder had been dead some three decades.
 card_name: "The Catechized Households of Wittenberg"
+app: {order: 11, accent_color: "#579C40", portrait: "/images/portraits/thumb/nikolaus.webp"}
 representative: {name: Nikolaus, role_label: Sexton-Schoolmaster}
 state: admitted
 census_id: "lutheran-wittenberg-and-its-congregations"

@@ -17,6 +17,7 @@ doorway_description: >-
   took on a formal structure and this world's own way of life gave way to
   something more official.
 card_name: "Syriac Christianity"
+app: {order: 5, accent_color: "#5493A0", portrait: "/images/portraits/thumb/syriac.webp"}
 representative: {name: "Mar Yausep", role_label: "Teacher of the Covenant Order"}
 state: admitted
 census_id: "syriac-edessa-nisibis"
