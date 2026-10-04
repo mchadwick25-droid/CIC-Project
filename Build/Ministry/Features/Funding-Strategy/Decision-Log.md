@@ -1386,3 +1386,13 @@ Still switched off behind the flag; with the module off nothing changes.
 - **A fault never reopens a closed door.** If admission itself fails, the engine is handed a grant that keeps to the door: a refusal when free voice is closed, otherwise a free grant no longer than the door's rounds allow. The operations file refuses a free-day share of 0 (a closed free path is a stage, not a share). A restart with the usage log down still finds the door where it was left.
 - **Wiring.** The runtime builds the door when it is given the usage log (the real app is); tests without it have no door. `GET /api/admin/deeper/door` shows Mark the stage, ratio, ceiling and whether free and paid voice are open.
 - **Words:** a closed door shows existing lines only (no-code for a closed free path, the paused line for a closed paid path). A line of its own for a closed door is Mark's to approve; candidates when he wants them. The public one-line door state on the home and Get Involved pages is a later slice with Mark's words.
+
+## 2026-10-04 — Go Deeper S9: the standing measure (daily totals, no keys)
+
+Still switched off behind the flag. With the module off no route exists and the dashboard section stays hidden.
+
+- **What is kept:** one number per measure per day, in a new `daily` table in the meter file (no rowid; the key is the day and the measure name, nothing else). Codes minted by kind, tokens sold, tokens spent, the highest door stage reached, and refused turns by reason: no code, code not accepted, spent, too few, group daily limit, paused, in use, free rounds done, free day spent, door closed to free, door closed to codes. Ninety days, then dropped, like the reconciliation counts.
+- **Each refused turn counts once,** when the turn ends, by the reason admission gave, and a failed measure never changes a grant. This is the count the S5c note asked for: turns refused at a closed door, and what a visitor who keeps messaging at one adds up to.
+- **Where it shows:** `GET /api/admin/deeper/measures` (admin only) returns the last fourteen days and the reconciliation counts; a Go Deeper section on the existing admin dashboard shows today's tiles and a day-by-day table. The money not yet matched to codes is the reconciliation gap.
+- **One measure left out, stated:** crisis turns. The module never sees what a message says, so it cannot count them. A crisis count belongs on the engine's side, from the routing it already records; it is an open gap for the engine thread and for Mark to ask for.
+- **Still to come in S5:** the plan's week of observe mode (the door computing and showing its stage while narrowing nothing) is not built; the door narrows from the first week it is on. Mark decides whether to add it before turn-on (S11).

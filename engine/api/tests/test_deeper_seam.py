@@ -1284,3 +1284,63 @@ def test_a_fault_with_the_door_open_leaves_the_free_grant_as_it_was(runtime, mon
 
     monkeypatch.setattr(runtime.free, "reserve", down)
     assert _grant_for(runtime, code=None, completed=1).cap == runtime.token_rates.free_rounds
+
+
+# ---- the standing measure counts each refused turn once, by its reason ----------------------
+
+def _turn(runtime, *, code, completed, seats=1, limited=False):
+    from engine.api.deeper_admission import Admission
+
+    admission = Admission(runtime, code, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=seats, visitor="v")
+    grant = admission.provider(completed, limited)
+    admission.finish(False)
+    return grant
+
+
+def _refusals(runtime) -> dict:
+    rows = runtime.meter.measures(1)
+    return {k[len("refused_"):]: v for k, v in rows[0].items() if k.startswith("refused_") and v} if rows else {}
+
+
+def test_a_turn_with_no_code_past_the_free_rounds_counts_once(runtime):
+    _turn(runtime, code=None, completed=runtime.token_rates.free_rounds)
+    assert _refusals(runtime) == {"free_rounds_done": 1}
+
+
+def test_a_turn_the_free_day_cannot_cover_counts_as_the_free_day_spent(runtime):
+    runtime.free.settle(runtime.free.reserve("v", runtime.token_rates.free_daily), True)
+    _turn(runtime, code=None, completed=0)
+    assert _refusals(runtime) == {"free_day_spent": 1}
+
+
+def test_a_turn_at_a_closed_door_counts_as_the_door_not_the_visitor(runtime):
+    runtime.door = StubDoor(free_voice=False)
+    _turn(runtime, code=None, completed=0)
+    assert _refusals(runtime) == {"door_free_closed": 1}
+
+
+def test_a_code_the_last_stage_refuses_counts_as_the_paid_door(runtime):
+    runtime.door = StubDoor(free_voice=False, paid_voice=False)
+    _turn(runtime, code=code_with(runtime, 500), completed=0)
+    assert _refusals(runtime) == {"door_paid_closed": 1}
+
+
+def test_a_code_without_enough_tokens_counts_as_too_few_or_spent(runtime):
+    _turn(runtime, code=code_with(runtime, 5), completed=runtime.token_rates.free_rounds)
+    assert sum(_refusals(runtime).values()) == 1 and set(_refusals(runtime)) <= {"too_few", "spent"}
+
+
+def test_an_admitted_turn_counts_no_refusal(runtime):
+    _turn(runtime, code=None, completed=0)
+    assert _refusals(runtime) == {}
+
+
+def test_a_turn_is_counted_when_it_ends_not_when_it_is_decided(runtime):
+    from engine.api.deeper_admission import Admission
+
+    admission = Admission(runtime, None, session_id="s", free_cap=SHIPPED_SESSION_TURN_CAP, seats=1, visitor="v")
+    admission.provider(runtime.token_rates.free_rounds, False)
+    assert _refusals(runtime) == {}
+    admission.finish(False)
+    admission.finish(False)
+    assert _refusals(runtime) == {"free_rounds_done": 1}

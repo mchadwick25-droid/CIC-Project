@@ -442,6 +442,11 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"door": {"stage": state.stage, "ratio": round(state.ratio, 3), "ceiling_usd": round(state.ceiling_usd, 2),
                          "free_voice": state.free_voice, "paid_voice": state.paid_voice}}
 
+    @app.get("/api/admin/deeper/measures")
+    def measures(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"measures": runtime.meter.measures(14), "reconciliation": runtime.meter.reconciliation(14)}
+
     @app.get("/api/admin/deeper/funds")
     def funds(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
@@ -473,6 +478,7 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         door = DoorMonitor(
             ops.door, usage_store, lambda: meter.net_funds(7),
             load=lambda: meter.get_state(DOOR_STATE_KEY), save=lambda raw: meter.set_state(DOOR_STATE_KEY, raw),
+            observe=lambda state: meter.measure_peak("door_stage", state.stage),
         )
     return DeeperRuntime(
         meter=meter,
