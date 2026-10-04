@@ -38,7 +38,7 @@ def used_meter(tmp_path):
     m.add_funds("gift", 2500, "pi_g")
     m.add_funds("adjustment", 1000, note="a church gift")
     m.free_window_spend(m.free_key("a-visitor"), 110)
-    m.join_pilot("a-visitor", 5, "pilot_a", open_=True, end_date=date(2026, 12, 31), cap=9, per_address=2)
+    m.join_pilot("general", "a-visitor", 5, "pilot_a", open_=True, end_date=date(2026, 12, 31), cap=9, per_address=2)
     m.pause(True)
     m.close()
     return path

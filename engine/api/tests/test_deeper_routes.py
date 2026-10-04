@@ -1094,19 +1094,28 @@ def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
 
 # ---- pilot join (S12) ----------------------------------------------------------
 
-def open_pilot(runtime, **changes):
+LINK_KEYS = {"pastors": "pastors-link-key-0123456789", "historians": "historians-link-key-012345"}
+
+
+def open_pilot(runtime, audience="general", **changes):
     import dataclasses
 
-    runtime.ops = dataclasses.replace(load_ops(), pilot_open=True, **changes)
+    ops = runtime.ops or load_ops()
+    audiences = dict(ops.pilot_audiences)
+    end = changes.pop("pilot_end_date", ops.pilot_end_date)
+    audiences[audience] = dataclasses.replace(audiences[audience], pilot_open=True, **changes)
+    runtime.ops = dataclasses.replace(ops, pilot_audiences=audiences, pilot_end_date=end)
+    runtime.pilot_links = {key: name for name, key in LINK_KEYS.items()}
     return runtime
 
 
-def join(http, ip="203.0.113.7"):
-    return http.post("/api/deeper/pilot-join", headers={"x-forwarded-for": ip})
+def join(http, ip="203.0.113.7", audience="general", link=None, **headers):
+    key = link if link is not None else LINK_KEYS.get(audience, audience)
+    return http.post("/api/deeper/pilot-join", json={"link": key}, headers={"x-forwarded-for": ip, **headers})
 
 
 def test_the_shipped_pilot_is_closed_and_the_route_then_does_not_exist_to_a_visitor(http, minting):
-    assert load_ops().pilot_open is False
+    assert not any(a.pilot_open for a in load_ops().pilot_audiences.values())
     assert join(http).status_code == 404
     assert minting.meter.reconciliation(1) == []
 
@@ -1133,20 +1142,20 @@ def test_a_pilot_code_is_a_gift_not_a_payment_or_a_sale(http, runtime):
 
 
 def test_an_address_gets_its_few_and_then_is_told_so_while_another_still_joins(http, runtime):
-    open_pilot(runtime, pilot_per_address=2)
+    open_pilot(runtime, per_address=2)
     assert [join(http).status_code for _ in range(2)] == [200, 200]
     refused = join(http)
     assert refused.status_code == 409 and refused.json() == {"joined": False, "reason": "address_limit"}
     assert join(http, ip="203.0.113.8").status_code == 200
-    assert runtime.meter.pilot_total() == 3
+    assert runtime.meter.pilot_total("general") == 3
 
 
 def test_the_cap_stops_the_pilot_for_everyone_and_a_refusal_takes_nothing(http, runtime):
-    open_pilot(runtime, pilot_cap=2, pilot_per_address=5)
+    open_pilot(runtime, pilot_cap=2, per_address=5)
     assert join(http).status_code == 200 and join(http, ip="198.51.100.1").status_code == 200
     full = join(http, ip="198.51.100.2")
     assert full.status_code == 409 and full.json()["reason"] == "full"
-    assert runtime.meter.pilot_total() == 2
+    assert runtime.meter.pilot_total("general") == 2
     assert runtime.meter.reconciliation(1)[0]["pilot_codes_minted"] == 2
 
 
@@ -1171,29 +1180,35 @@ def test_a_failed_mint_keeps_the_address_count_and_the_total_unspent(runtime):
     open_pilot(runtime)
     with pytest.raises(ValueError):
         runtime.meter.join_pilot(
-            "203.0.113.5", 1100, "pi_wrong", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
+            "general", "203.0.113.5", 1100, "pi_wrong", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
         )
-    assert runtime.meter.pilot_total() == 0
+    assert runtime.meter.pilot_total("general") == 0
     assert runtime.meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == 0
 
 
 def test_the_pilot_join_answers_the_site_and_no_other_origin(http, runtime):
     open_pilot(runtime)
-    ok = http.post("/api/deeper/pilot-join", headers={"origin": "https://site.example", "x-forwarded-for": "198.51.100.9"})
+    ok = join(http, ip="198.51.100.9", origin="https://site.example")
     assert ok.headers["access-control-allow-origin"] == "https://site.example"
-    other = http.post("/api/deeper/pilot-join", headers={"origin": "https://elsewhere.example", "x-forwarded-for": "198.51.100.10"})
+    other = join(http, ip="198.51.100.10", origin="https://elsewhere.example")
     assert "access-control-allow-origin" not in other.headers
 
 
 def test_the_status_reports_the_pilot_against_its_cap(http, runtime):
     open_pilot(runtime, pilot_cap=10)
     join(http)
-    pilot = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
-    assert pilot == {"open": True, "cap": 10, "given": 1, "end_date": runtime.ops.pilot_end_date.isoformat(), "per_address": 2}
+    status = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
+    assert status["end_date"] == runtime.ops.pilot_end_date.isoformat()
+    pilot = {row["audience"]: row for row in status["audiences"]}
+    assert pilot["general"] == {
+        "audience": "general", "open": True, "cap": 10, "given": 1,
+        "per_address": 2, "public": True, "link_set": False,
+    }
+    assert pilot["pastors"]["open"] is False and pilot["pastors"]["given"] == 0
 
 
 def test_addresses_in_one_ipv6_block_share_a_count_and_ipv4_stays_exact(http, runtime):
-    open_pilot(runtime, pilot_per_address=2, pilot_cap=50)
+    open_pilot(runtime, per_address=2, pilot_cap=50)
     block = "2001:db8:abcd:12"
     assert [join(http, ip=f"{block}::{n}").status_code for n in (1, 2)] == [200, 200]
     assert join(http, ip=f"{block}:ffff:1:2:3").json()["reason"] == "address_limit"
@@ -1211,14 +1226,14 @@ def test_an_address_row_is_kept_for_ninety_days_and_then_deleted(runtime):
     from engine.deeper.meter import PILOT_RETENTION_DAYS
 
     meter = runtime.meter
-    meter.join_pilot("203.0.113.5", 1100, "pilot_a", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
+    meter.join_pilot("general", "203.0.113.5", 1100, "pilot_a", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
     assert PILOT_RETENTION_DAYS == 90
     first = date(2026, 10, 5)
     for days, kept in ((PILOT_RETENTION_DAYS - 1, 1), (PILOT_RETENTION_DAYS, 0)):
         meter._clock = lambda d=days: first + timedelta(days=d)
         meter.purge()
         assert meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == kept
-    assert meter.pilot_total() == 1
+    assert meter.pilot_total("general") == 1
 
 
 def test_the_deeper_rate_limit_counts_one_ipv6_block_as_one_visitor(store, usage_store, world_loader, registry, runtime):
@@ -1229,3 +1244,97 @@ def test_the_deeper_rate_limit_counts_one_ipv6_block_as_one_visitor(store, usage
     assert 429 not in statuses
     assert http.get("/api/deeper/balance", headers={"x-forwarded-for": "2001:db8:5:6:ffff::9"}).status_code == 429
     assert http.get("/api/deeper/balance", headers={"x-forwarded-for": "2001:db8:5:7::1"}).status_code != 429
+
+
+def test_each_audience_has_its_own_switch_cap_and_count(http, runtime):
+    open_pilot(runtime, "pastors", pilot_cap=1, per_address=1)
+    assert join(http, audience="general").status_code == 404
+    assert join(http, audience="pastors").status_code == 200
+    again = join(http, audience="pastors")
+    assert again.status_code == 409 and again.json()["reason"] in ("full", "address_limit")
+    assert runtime.meter.pilot_total("pastors") == 1 and runtime.meter.pilot_total("general") == 0
+    open_pilot(runtime, "pastors", pilot_cap=5, per_address=1)
+    open_pilot(runtime, "historians", pilot_cap=5, per_address=1)
+    assert join(http, ip="198.51.100.40", audience="historians").status_code == 200
+    assert join(http, ip="198.51.100.40", audience="pastors").status_code == 200
+    assert join(http, ip="198.51.100.40", audience="pastors").json()["reason"] == "address_limit"
+
+
+def test_a_private_audience_is_joined_only_by_its_secret_key_never_its_name(http, runtime):
+    open_pilot(runtime, "pastors")
+    assert join(http, link="pastors").status_code == 404
+    assert join(http, link="Pastors").status_code == 404
+    assert join(http, link="wrong-key-0123456789abcdef").status_code == 404
+    assert join(http, link=LINK_KEYS["historians"]).status_code == 404
+    assert join(http, link=LINK_KEYS["pastors"]).status_code == 200
+    assert runtime.meter.pilot_total("pastors") == 1
+
+
+def test_a_public_audience_is_joined_by_its_name_and_a_private_key_is_not_a_public_name(http, runtime):
+    open_pilot(runtime, "general")
+    assert join(http, link="general").status_code == 200
+    assert join(http, link="clergy").status_code == 404
+
+
+def test_a_closed_unnamed_and_missing_link_all_answer_alike_with_a_404(http, runtime):
+    assert join(http, link="general").status_code == 404
+    open_pilot(runtime, "pastors")
+    assert join(http, link="general").status_code == 404
+    assert http.post("/api/deeper/pilot-join", headers={"x-forwarded-for": "198.51.100.41"}).status_code == 404
+    assert http.post("/api/deeper/pilot-join", json={}, headers={"x-forwarded-for": "198.51.100.41"}).status_code == 404
+    assert join(http, link="x" * 65).status_code == 422
+    assert runtime.meter.pilot_total("general") == 0
+
+
+def test_the_same_address_counts_separately_under_each_audience_without_storing_the_audience_name(http, runtime):
+    open_pilot(runtime, "pastors")
+    open_pilot(runtime, "historians")
+    join(http, ip="203.0.113.60", audience="pastors")
+    join(http, ip="203.0.113.60", audience="historians")
+    keys = [row[0] for row in runtime.meter._conn.execute("SELECT key_hash FROM pilot_joined")]
+    assert len(keys) == 2 and len(set(keys)) == 2
+    dump = "\n".join(runtime.meter._conn.iterdump())
+    assert "pastors:203" not in dump and "historians:203" not in dump
+    assert LINK_KEYS["pastors"] not in dump
+
+
+def test_one_address_across_every_audience_is_bounded_by_their_counts(http, runtime):
+    for name in ("general", "pastors", "historians"):
+        open_pilot(runtime, name, per_address=2, pilot_cap=50)
+    made = [join(http, ip="203.0.113.70", audience=name).status_code for name in ("general", "pastors", "historians") for _ in range(4)]
+    assert made.count(200) == 6
+    assert runtime.meter.net_funds(7)["gift"] == 6 * 700
+
+
+def test_the_pilot_preflight_is_a_404_while_no_audience_is_open_and_answers_once_one_is(http, runtime):
+    runtime.ops = load_ops()
+    assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 404
+    open_pilot(runtime, "pastors")
+    assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 204
+
+
+def test_pilot_link_keys_are_checked_at_start():
+    from engine.api.deeper_routes import parse_pilot_links
+
+    ops = load_ops()
+    good = json.dumps({"pastors-link-key-0123456789": "pastors", "historians-link-key-012345": "historians"})
+    assert parse_pilot_links(good, ops) == {"pastors-link-key-0123456789": "pastors", "historians-link-key-012345": "historians"}
+    assert parse_pilot_links(None, ops) == {} and parse_pilot_links("", ops) == {}
+    for bad in (
+        "not json", "[]", json.dumps({"short": "pastors"}), json.dumps({"general": "pastors"}),
+        json.dumps({"pastors-link-key-0123456789": "general"}), json.dumps({"pastors-link-key-0123456789": "nobody"}),
+        json.dumps({"pastors-link-key-0123456789": "pastors", "pastors-link-key-9876543210": "pastors"}),
+        json.dumps({"bad key with spaces 12345": "pastors"}),
+    ):
+        with pytest.raises(DeeperConfigError):
+            parse_pilot_links(bad, ops)
+
+
+def test_the_old_single_pilot_total_is_dropped_when_the_file_opens(tmp_path):
+    path = str(tmp_path / "old.db")
+    meter = Meter(path, clock=lambda: date(2026, 10, 5))
+    meter.set_state("pilot_total", "7")
+    meter.close()
+    meter = Meter(path, clock=lambda: date(2026, 10, 5))
+    assert meter.get_state("pilot_total") is None
+    meter.close()

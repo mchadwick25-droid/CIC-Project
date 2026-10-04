@@ -16,6 +16,7 @@ import hashlib
 import hmac
 import json
 import logging
+import re
 import secrets
 import threading
 import time
@@ -100,6 +101,8 @@ class DeeperRuntime:
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     free: FreeAllowance | None = None
     gift_links: frozenset = frozenset()
+    # Secret link keys for the pilot's private audiences: key -> audience name. Never in the repository.
+    pilot_links: dict = field(default_factory=dict)
     door: "DoorMonitor | None" = None
     door_observe: bool = False
     paid_round_cap: int | None = None
@@ -124,6 +127,35 @@ def parse_gift_links(raw: str | None, products: dict[str, Product]) -> frozenset
     if set(links) & set(products):
         raise DeeperConfigError("a Payment Link cannot be both a gift link and a go-deeper product")
     return frozenset(links)
+
+
+PILOT_LINK_KEY = re.compile(r"^[A-Za-z0-9_-]{16,64}$")
+
+
+def parse_pilot_links(raw: str | None, ops: DeeperOps) -> dict:
+    """CIC_DEEPER_PILOT_LINKS: a JSON object of secret link keys, each naming one
+    private audience of the operations file. With none set, no private audience
+    can be joined. A key is 16 to 64 letters, digits, hyphens or underscores,
+    and is never the name of an audience."""
+    if not raw:
+        return {}
+    try:
+        links = json.loads(raw)
+    except ValueError as exc:
+        raise DeeperConfigError("CIC_DEEPER_PILOT_LINKS is not valid JSON") from exc
+    if not isinstance(links, dict):
+        raise DeeperConfigError("CIC_DEEPER_PILOT_LINKS must be a JSON object of link key to audience")
+    for key, name in links.items():
+        if not isinstance(key, str) or not PILOT_LINK_KEY.match(key):
+            raise DeeperConfigError("a CIC_DEEPER_PILOT_LINKS key must be 16 to 64 letters, digits, hyphens or underscores")
+        if key in ops.pilot_audiences:
+            raise DeeperConfigError("a CIC_DEEPER_PILOT_LINKS key cannot be the name of an audience")
+        audience = ops.pilot_audiences.get(name) if isinstance(name, str) else None
+        if audience is None or audience.public:
+            raise DeeperConfigError("a CIC_DEEPER_PILOT_LINKS key must name a private audience of the operations file")
+    if len(set(links.values())) != len(links):
+        raise DeeperConfigError("each private audience has one link key")
+    return links
 
 
 def parse_products(raw: str | None) -> dict[str, Product]:
@@ -335,6 +367,11 @@ class VoidRequest(BaseModel):
 MINT_MODES = ("one_code", "separate")
 
 
+class PilotJoinRequest(BaseModel):
+    # A public audience's name, or the secret link key of a private one. Anything else is a 404, never a hint.
+    link: str | None = Field(default=None, max_length=64)
+
+
 class MintRequest(BaseModel):
     pack_usd: int = Field(..., description="The price of one of the offer's packs; its tokens are what each unit holds")
     count: int = Field(..., ge=1, le=meter_module.MAX_BATCH_COUNT)
@@ -463,7 +500,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 
     @app.options("/api/deeper/pilot-join")
     def pilot_preflight(request: Request, response: Response):
-        if runtime.ops is None or not runtime.ops.pilot_open:
+        if runtime.ops is None or not any(a.pilot_open for a in runtime.ops.pilot_audiences.values()):
             raise HTTPException(status_code=404)
         _cors(request, response)
         response.headers["Access-Control-Allow-Methods"] = "POST"
@@ -472,25 +509,29 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         response.status_code = 204
 
     @app.post("/api/deeper/pilot-join")
-    def pilot_join(request: Request, response: Response):
+    def pilot_join(request: Request, response: Response, req: PilotJoinRequest | None = None):
         """The pilot's one free pack. A press of the page's button makes one
-        ordinary code with no payment, shown here once. Limited by the pilot's
-        open switch, end date, cap and a count per address, all in the operations
-        file; the address is kept only as a keyed hash. Counts toward the door as
-        a gift of the pack's price."""
+        ordinary code with no payment, shown here once. Each audience has its own
+        open switch, cap and count per address in the operations file, and all
+        share its end date. A public audience is joined by its name; a private one
+        only by its secret link key from the server's environment. Anything else,
+        and any closed audience, answers 404 alike. The address is kept only as a
+        keyed hash. Counts toward the door as a gift of the pack's price."""
         _cors(request, response)
         response.headers["Cache-Control"] = "no-store"
         ops = runtime.ops
         if ops is None:
             raise HTTPException(status_code=404)
         pack = next((p for p in ops.packs if p.price_usd == ops.pilot_pack_usd), None)
-        if pack is None:
+        name = _pilot_audience_of(runtime, req.link if req else None)
+        audience = ops.pilot_audiences.get(name) if name else None
+        if pack is None or audience is None or not audience.pilot_open:
             raise HTTPException(status_code=404)
         grant_id = "pilot_" + secrets.token_hex(12)
         try:
             code = runtime.meter.join_pilot(
-                network_of(client_ip(request)), pack.tokens, grant_id, open_=ops.pilot_open, end_date=ops.pilot_end_date,
-                cap=ops.pilot_cap, per_address=ops.pilot_per_address,
+                name, network_of(client_ip(request)), pack.tokens, grant_id, open_=audience.pilot_open,
+                end_date=ops.pilot_end_date, cap=audience.pilot_cap, per_address=audience.per_address,
             )
         except PilotRefused as refused:
             if refused.reason == "closed":
@@ -565,8 +606,14 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
                 "rounds_per_conversation": runtime.token_rates.free_rounds, "now_tokens": int(window * share),
             },
             "pilot": None if ops is None else {
-                "open": ops.pilot_open, "cap": ops.pilot_cap, "given": runtime.meter.pilot_total(),
-                "end_date": ops.pilot_end_date.isoformat(), "per_address": ops.pilot_per_address,
+                "end_date": ops.pilot_end_date.isoformat(),
+                "audiences": [
+                    {
+                        "audience": name, "open": a.pilot_open, "cap": a.pilot_cap, "given": runtime.meter.pilot_total(name),
+                        "per_address": a.per_address, "public": a.public, "link_set": name in runtime.pilot_links.values(),
+                    }
+                    for name, a in ops.pilot_audiences.items()
+                ],
             },
             "packs": [{"price_usd": p.price_usd, "tokens": p.tokens} for p in ops.packs] if ops is not None else [],
             "mint_limits": None if ops is None else {
@@ -627,6 +674,17 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"days": runtime.meter.reconciliation(days=14)}
 
 
+def _pilot_audience_of(runtime: DeeperRuntime, link: str | None) -> str | None:
+    """The audience a join link names: a private audience by its secret key (compared in constant time), or a public one by its name."""
+    if not link or runtime.ops is None:
+        return None
+    for key, name in runtime.pilot_links.items():
+        if hmac.compare_digest(key.encode(), link.encode()):
+            return name
+    audience = runtime.ops.pilot_audiences.get(link)
+    return link if audience is not None and audience.public else None
+
+
 def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None, usage_store=None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open, and so does a
@@ -664,6 +722,7 @@ def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None,
         webhook_secret=secret,
         products=products,
         gift_links=parse_gift_links(env.get("CIC_DEEPER_GIFT_LINKS"), products),
+        pilot_links=parse_pilot_links(env.get("CIC_DEEPER_PILOT_LINKS"), ops),
         site_origin=env.get("CIC_DEEPER_SITE_ORIGIN") or None,
         token_rates=ops.rates,
         group_burst_multiplier=ops.group_burst_multiplier,

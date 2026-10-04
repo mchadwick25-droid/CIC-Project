@@ -545,11 +545,13 @@
     document.getElementById("deeper-pause-state").textContent = status.paused ? "Codes are paused. " : "Codes are working. ";
     document.getElementById("deeper-pause-toggle").textContent = status.paused ? "Unpause codes" : "Pause codes";
     const pilot = status.pilot;
-    if (pilot) {
-      document.getElementById("t-deeper-pilot").textContent = fmtNumber(pilot.given) + " of " + fmtNumber(pilot.cap);
+    if (pilot && pilot.audiences.length) {
+      const given = pilot.audiences.reduce((sum, a) => sum + a.given, 0);
+      const cap = pilot.audiences.reduce((sum, a) => sum + a.cap, 0);
+      document.getElementById("t-deeper-pilot").textContent = fmtNumber(given) + " of " + fmtNumber(cap);
       document.getElementById("t-deeper-pilot-detail").textContent =
-        (pilot.open ? "Open" : "Closed") + " · ends " + pilot.end_date + " · " + pilot.per_address + " per address · " +
-        (document.getElementById("t-deeper-pilot-detail").dataset.today || "0") + " today";
+        pilot.audiences.map((a) => a.audience + " " + a.given + "/" + a.cap + (a.open ? " open" : " closed") + (!a.public && !a.link_set ? " (no link key set)" : "")).join(" · ") +
+        " · ends " + pilot.end_date + " · " + (document.getElementById("t-deeper-pilot-detail").dataset.today || "0") + " today";
     }
     const door = status.door;
     document.getElementById("t-deeper-door").textContent = door ? "Stage " + door.stage : "—";
