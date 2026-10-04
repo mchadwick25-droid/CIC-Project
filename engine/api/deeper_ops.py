@@ -12,15 +12,17 @@ from engine.deeper.door import DoorSettings, Stage
 from engine.deeper.tokens import Pack, TokenRates
 
 OPS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "deeper", "ops", "go-deeper.yaml")
+DOOR_WORD_KEYS = ("limited", "paused", "code_still_works")
 NOTE_KEYS = ("no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use")
 SOLO_KEYS = ("open", "round", "round_from_fourth")
 TABLE_KEYS = ("open_per_seat", "round_two_seats", "round_three_seats", "round_two_seats_from_fourth", "round_three_seats_from_fourth")
-FREE_KEYS = ("daily", "rounds_per_conversation")
+FREE_KEYS = ("window_tokens", "window_days", "rounds_per_conversation")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
-DOOR_KEYS = ("base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
-STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_day_share", "free_voice", "paid_voice"}
+DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
+PAID_KEYS = ("round_cap", "provisional")
+STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
 
 class OpsFileError(Exception):
@@ -34,9 +36,13 @@ class DeeperOps:
     low_balance_at: int
     limit_text: str
     notes: dict
+    door_words: dict
     rates: TokenRates
     packs: tuple[Pack, ...]
     door: DoorSettings
+    door_observe: bool
+    paid_round_cap: int
+    paid_round_cap_provisional: bool
 
 
 def _section(data: dict, name: str, keys: tuple[str, ...]) -> dict:
@@ -69,7 +75,7 @@ def _tokens(section) -> tuple[TokenRates, tuple[Pack, ...]]:
         solo_open=solo["open"], solo_round=solo["round"], solo_round_later=solo["round_from_fourth"],
         table_open_per_seat=table["open_per_seat"], table_round_two=table["round_two_seats"], table_round_three=table["round_three_seats"],
         table_round_two_later=table["round_two_seats_from_fourth"], table_round_three_later=table["round_three_seats_from_fourth"],
-        later_rounds_from=LATER_ROUNDS_FROM, free_daily=free["daily"], free_rounds=free["rounds_per_conversation"],
+        later_rounds_from=LATER_ROUNDS_FROM, free_window=free["window_tokens"], free_window_days=free["window_days"], free_rounds=free["rounds_per_conversation"],
     )
     raw = section["packs"]
     if not isinstance(raw, list) or not raw:
@@ -98,6 +104,8 @@ def _number(value, name: str, *, low: float, high: float | None = None, inclusiv
 
 def _door(section) -> DoorSettings:
     section = _section({"door": section}, "door", DOOR_KEYS)
+    if not isinstance(section["observe"], bool):
+        raise OpsFileError("door.observe must be true or false")
     base = _number(section["base_weekly_usd"], "door.base_weekly_usd", low=0, inclusive_low=False)
     gift = _number(section["gift_share"], "door.gift_share", low=0, high=1)
     purchase = _number(section["purchase_share"], "door.purchase_share", low=0, high=1)
@@ -107,7 +115,7 @@ def _door(section) -> DoorSettings:
         raise OpsFileError("door.stages must list at least one stage")
     stages = []
     previous_at = 0.0
-    narrowest = {"table_free_rounds": None, "solo_free_rounds": None, "free_day_share": None}
+    narrowest = {"table_free_rounds": None, "solo_free_rounds": None, "free_share": None}
     free_closed = False
     for item in raw:
         if not isinstance(item, dict) or "at" not in item or not set(item) <= STAGE_KEYS:
@@ -126,12 +134,12 @@ def _door(section) -> DoorSettings:
                     raise OpsFileError(f"door stages may only narrow: {key} cannot rise")
                 narrowest[key] = value
                 fields[key] = value
-        if "free_day_share" in item:
-            share = _number(item["free_day_share"], "door stage free_day_share", low=0, high=1)
-            if narrowest["free_day_share"] is not None and share > narrowest["free_day_share"]:
-                raise OpsFileError("door stages may only narrow: free_day_share cannot rise")
-            narrowest["free_day_share"] = share
-            fields["free_day_share"] = share
+        if "free_share" in item:
+            share = _number(item["free_share"], "door stage free_share", low=0, high=1, inclusive_low=False)
+            if narrowest["free_share"] is not None and share > narrowest["free_share"]:
+                raise OpsFileError("door stages may only narrow: free_share cannot rise")
+            narrowest["free_share"] = share
+            fields["free_share"] = share
         for key in ("free_voice", "paid_voice"):
             if key in item:
                 if item[key] is not False:
@@ -152,22 +160,29 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, door and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "door", "paid", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, door, paid and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
             raise OpsFileError(f"limits.{key} must be a positive whole number")
     words = data["words"]
-    if not isinstance(words, dict) or set(words) != {"limit", "notes"}:
-        raise OpsFileError("words must hold exactly limit and notes")
+    if not isinstance(words, dict) or set(words) != {"limit", "notes", "door"}:
+        raise OpsFileError("words must hold exactly limit, notes and door")
     notes = _section(words, "notes", NOTE_KEYS)
-    for text in (words["limit"], *notes.values()):
+    door_words = _section(words, "door", DOOR_WORD_KEYS)
+    for text in (words["limit"], *notes.values(), *door_words.values()):
         if not isinstance(text, str) or not text.strip():
             raise OpsFileError("every piece of wording must be a non-empty string")
     rates, packs = _tokens(data["tokens"])
     door = _door(data["door"])
+    paid = _section(data, "paid", PAID_KEYS)
+    if isinstance(paid["round_cap"], bool) or not isinstance(paid["round_cap"], int) or paid["round_cap"] <= 0:
+        raise OpsFileError("paid.round_cap must be a positive whole number")
+    if not isinstance(paid["provisional"], bool):
+        raise OpsFileError("paid.provisional must be true or false")
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
-        group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), rates=rates, packs=packs, door=door,
+        group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
+        door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
     )

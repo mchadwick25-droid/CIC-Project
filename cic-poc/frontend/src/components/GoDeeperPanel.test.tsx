@@ -168,7 +168,7 @@ describe('GoDeeperPanel', () => {
 
   it('opens at once for a code that came with a link, asks before using it, says it would be added to one already held, and only then saves it', async () => {
     window.history.replaceState(null, '', `/#cic-claim=${'r'.repeat(22)}`);
-    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ codes: [CODE], exchanges: 40 }), { status: 200 }));
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ codes: [CODE], tokens: 40 }), { status: 200 }));
     vi.stubGlobal('fetch', fetchMock);
     localStorage.setItem('cic_codes', JSON.stringify(['BCDE2345EFGH6789JKLM']));
     const { GoDeeperPanel } = await load(true);

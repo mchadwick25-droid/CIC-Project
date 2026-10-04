@@ -39,6 +39,15 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.term.eucharistia
+use_note:
+  means: "The Didache's thanksgiving prayer begins over the cup, thanking the Father for David's holy vine made known through Jesus."
+  not_for:
+    - "a claim that this community recited an institution narrative over the bread and cup"
+    - "a claim that this prayer speaks of Christ's body and blood or of transubstantiation"
+    - "a claim that the cup-before-bread order matches the New Testament or later liturgies"
+    - "a claim that the Didache's date and place are settled"
+  years: {from: 80, to: 150}
+  status: reviewed
 ---
 Serves F1-T alongside pahc.term.eucharistia, which cites chs. 9-10 and 14 for "cup before bread,
 no institution narrative" and cannot show either.

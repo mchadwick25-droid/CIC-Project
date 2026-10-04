@@ -77,6 +77,12 @@ manifestations:
 - "Ignatius's seven letters, written and dispatched across a guarded journey from Antioch toward Rome"
 - "Polycarp forwarding the collected Ignatius letters onward to Philippi at the Philippians' own request (ch. 13)"
 - "delegations from Ephesus, Magnesia, and Tralles meeting Ignatius at Smyrna"
+use_note:
+  means: "Letters carried between churches hold this world together across cities in place of any central structure."
+  not_for:
+    - "a central structure governing the churches"
+  years: {from: 70, to: 200}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G02) - the strongest confidence
 footing of any gravity in this world, unchanged across every review

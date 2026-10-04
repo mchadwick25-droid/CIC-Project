@@ -51,6 +51,14 @@ retrieval:
   - "participant asks specifically about the docetic controversy - this passage does not address it"
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}
+use_note:
+  means: "An anonymous hostile writer reports that Asia's faithful met repeatedly, examined the New Prophecy, rejected it as heresy, and expelled its adherents."
+  not_for:
+    - "a second voice for the anti-docetic claim that Christ's flesh was real"
+    - "a claim that the writer is a known figure named Asterius Urbanus"
+    - "a neutral account of what the New Prophecy itself taught"
+  years: {from: 192, to: 193}
+  status: reviewed
 ---
 pahc.source.anti-montanist-fragments was registered to answer Doc_01
 SS8.3's Montanism disclosure obligation; this quote draws on it. Text
