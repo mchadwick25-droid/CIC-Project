@@ -55,6 +55,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.what-is-the-written-source
+use_note:
+  means: "This witness says Basil, accused over his doxology, argued that unwritten custom, down to the baptismal confession, carried real doctrinal authority."
+  not_for:
+    - "scripture and tradition set against each other as rival powers"
+    - "a settled answer on whether the argument was inherited conviction or Basil's own forensic invention"
+    - "the catalogue of facing east and standing at prayer, which sits in cappadocian.quote.we-look-to-the-east"
+  years: {from: 375, to: 375}
+  status: provisional
 ---
 Closes F2-T, backed by a directly verified quote
 (cappadocian.quote.what-is-the-written-source) from the exact passage

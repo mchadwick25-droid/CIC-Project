@@ -66,6 +66,14 @@ modern_rendering: >-
   the means to work, both in the tools we use and the arts we practice, whatever the work
   may be. And we pray, too, that the works of our hands may be directed toward pleasing
   him.
+use_note:
+  means: "Basil's Longer Rules rejects using prayer as an excuse to avoid work, teaching that psalms can be sung aloud or in the heart while the hands work."
+  not_for:
+    - "an hour-by-hour timetable of the ascetic day, which this passage does not give and cappadocian.dw.ordinary-day only reconstructs"
+    - "rhetoric about every time suiting prayer read as proof that every worker prayed unceasingly"
+    - "a rule for lay households as well as ascetic communities"
+  years: {from: 360, to: 379}
+  status: provisional
 ---
 Verified verbatim directly against the vendored
 basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,

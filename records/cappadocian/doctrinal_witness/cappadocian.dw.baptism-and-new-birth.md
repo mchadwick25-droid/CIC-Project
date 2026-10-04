@@ -51,6 +51,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-against-delaying-baptism
+use_note:
+  means: "This witness says baptism was mostly adult, often delayed until death against preachers' warnings, and was called illumination and new birth."
+  not_for:
+    - "a settled claim about how common infant baptism was, which the record says it cannot supply"
+    - "the preachers' warnings as proof that most people delayed"
+    - "the modern evangelical sense of being born again"
+  years: {from: 360, to: 379}
+  status: provisional
 ---
 Closes F4-T on the strongest-attested variant (baptism, adult and often
 delayed), honestly declining the tithe and end-times variants this

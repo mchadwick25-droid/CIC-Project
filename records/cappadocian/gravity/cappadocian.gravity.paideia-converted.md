@@ -69,6 +69,15 @@ manifestations:
 - the Libanius correspondence
 - the whole corpus's rhetorical fabric - the era's best rhetors trained on this same ladder
 - the anti-Eunomian method itself - logic disciplined by reverence against logic worshipped
+use_note:
+  means: "The Greek school ladder was repossessed for Christ, with the classics taken as bee-flowers and rhetoric put in the pulpit, though its reach was lettered and elite."
+  not_for:
+    - "the schooling of plateau congregations, which never saw Athens"
+    - "the Basil and Libanius letters as genuine contact, since on the majority view they are a forgery"
+    - "the inner impatience with dialectic, which sits in cappadocian.gravity.athens-fishermen"
+    - "Julian's edict itself, which sits in cappadocian.story.julian-schools"
+  years: {from: 361, to: 379}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate 3 -> final Gravity 4, per §4's concordance table). Interaction
 Matrix (§6, row/col 3): reinforcing (R) with Gravity 5 (martyrs' land - "the learned panegyric serves the

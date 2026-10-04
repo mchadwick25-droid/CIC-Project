@@ -72,6 +72,14 @@ manifestations:
 - Nazianzen's Oration 2, the flight narratives, De vita sua, the Sasima wound
 - Nyssen the unwilling administrator - Basil's own complaints of his brother's unfitness for office
 - Gregory of Nazianzus's resignation at Constantinople 381 - the tension's last documented act, walking away from the throne he had just been given
+use_note:
+  means: "The pull between stillness and office shows in the careers of the three teachers, who longed for retreat yet were summoned to public office."
+  not_for:
+    - "the plateau farmer's concern, since the tension belongs to the formed core"
+    - "a settled reading of the Sasima appointment, whose telling is Gregory's alone as set out in cappadocian.story.sasima-wound"
+    - "the teaching on stillness and the summons, which sits in cappadocian.dw.stillness-and-the-summons"
+  years: {from: 329, to: 390}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate 7 -> final Gravity 8, per §4's concordance table). Interaction
 Matrix (§6, row/col 7): reshaping (S) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 6 (household),

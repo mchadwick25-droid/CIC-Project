@@ -72,5 +72,14 @@ senses:
 quick_meaning: 'Reverence: getting God''s truth exactly right and living rightly, as one and the same
   virtue.'
 distortion_risk: high
+use_note:
+  means: "Eusebeia meant reverence, one virtue covering both exact confession of God and just use of money and power."
+  not_for:
+    - "private devotional feeling"
+    - "the single seamless posture as a sentence any author wrote, when it is this record's synthesis"
+    - "the teaching on love of the poor, which sits in cappadocian.term.philoptochia"
+    - "the vice of grasping, which sits in cappadocian.term.pleonexia"
+  years: {from: 325, to: 394}
+  status: provisional
 ---
 Built from Doc_06 entry 5 (Tier 1).

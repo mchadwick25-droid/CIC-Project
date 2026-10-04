@@ -72,6 +72,15 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.julian-galilaeans
+use_note:
+  means: "This witness says the community lived just after the persecutions, under a court backing a rival creed, accused by Julian of dishonest teaching."
+  not_for:
+    - "what leaders did with power after 381, which the record says it cannot document"
+    - "Julian's rescript wording as this witness's own, when it sits in cappadocian.quote.julian-galilaeans"
+    - "the marketplace complaint as a census, when it is rhetorical exaggeration"
+    - "Christians of this period hiding in catacombs"
+  years: {from: 325, to: 381}
+  status: provisional
 ---
 Closes F3-E, backed by a directly verified quote from Julian's own
 rescript (cappadocian.quote.julian-galilaeans). Answers the cell's own

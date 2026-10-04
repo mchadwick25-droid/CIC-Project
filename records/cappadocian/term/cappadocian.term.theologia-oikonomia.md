@@ -60,5 +60,14 @@ senses:
 quick_meaning: Speech about God-in-himself versus God's dealings with the world -- and measured pastoral
   reserve.
 distortion_risk: high
+use_note:
+  means: "Theologia meant speech about the Trinity in itself, and oikonomia meant God's saving dealings and the measured pastoral reserve about how much truth to speak."
+  not_for:
+    - "theology as any religious talk"
+    - "economy as finance"
+    - "a settled verdict on Basil's reserve as wisdom or timidity"
+    - "the tension as a gravity, which sits in cappadocian.gravity.precision-reserve"
+  years: {from: 375, to: 381}
+  status: provisional
 ---
 Built from Doc_06 entry 17 (Tier 2). Doc_06 itself resolves this term [CT]-adjacent, not [CT] (Index D) -- carried at Contested claim-level via divergence_note, not treated as a full CT.

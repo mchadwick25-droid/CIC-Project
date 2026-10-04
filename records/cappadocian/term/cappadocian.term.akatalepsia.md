@@ -83,5 +83,14 @@ senses:
     surpassed. It was safety for worship, not fog for the intellect.'
 quick_meaning: The truth that no mind can fully grasp God, though God is truly known in what he has shown.
 distortion_risk: high
+use_note:
+  means: "Akatalepsia meant that no mind can fully grasp God's being, though God is truly known through what he does."
+  not_for:
+    - "a claim that nothing at all can be known about God"
+    - "Gregory of Nyssa's endless ascent as the whole circle's teaching"
+    - "how names for God arise, which sits in cappadocian.term.epinoia-energeia"
+    - "Basil's Against Eunomius as a checked text"
+  years: {from: 335, to: 394}
+  status: provisional
 ---
 Built from Doc_06 entry 2 (Tier 1). The evidential caveat on Basil's Against Eunomius follows the correction made to cappadocian.source.basil-against-eunomius during this same authoring pass (see B-2 report): the treatise's own text is not actually present in the vendored npnf208 file.

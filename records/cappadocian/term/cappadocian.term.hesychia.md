@@ -67,5 +67,14 @@ senses:
 quick_meaning: 'Stillness: the quiet the contemplative seeks with God -- always pulled against the call
   to serve.'
 distortion_risk: high
+use_note:
+  means: "Hesychia meant the stillness of a retreat for prayer, work and Scripture, a holy desire that kept yielding to the summons of office."
+  not_for:
+    - "modern self-care or retreat culture"
+    - "later Byzantine hesychasm"
+    - "the plateau farmer's experience, since the tension belongs to the formed core"
+    - "the teaching on stillness and the summons, which sits in cappadocian.dw.stillness-and-the-summons"
+  years: {from: 329, to: 390}
+  status: provisional
 ---
 Built from Doc_06 entry 10 (Tier 1). Related-terms include a Doc_06-declared one-directional link to theosis (hesychia -> theosis, no return per Index E.2 #1); encoded here as reciprocal associated-with on both records since the schema's associated-with relation type is self-inverse -- Doc_06's editorial 'one-directional' note describes the lexicon document's own field, not a constraint the WRS relation type can express.

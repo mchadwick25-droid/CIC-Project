@@ -54,5 +54,13 @@ senses:
     by right, and it was spent for others, not for the speaker''s own standing.'
 quick_meaning: 'Bold, confident speech: before God in prayer, and before power in public.'
 distortion_risk: medium
+use_note:
+  means: "Parrhesia meant bold speech, whether a purified conscience speaking freely to God or a bishop facing a hostile official without servility."
+  not_for:
+    - "speaking truth to power as a modern slogan"
+    - "Oration 43's confrontation scenes as courtroom fact, since they are an encomium's telling"
+    - "the Modestus story itself, which sits in cappadocian.story.valens-caesarea"
+  years: {from: 371, to: 394}
+  status: provisional
 ---
 Built from Doc_06 entry 26 (Tier 2).

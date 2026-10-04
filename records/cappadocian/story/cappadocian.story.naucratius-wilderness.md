@@ -55,6 +55,15 @@ modern_contrast: >-
   Naucratius as coming before any such rule existed - solitary, not
   communal - a reminder that the ordered brotherhoods this world became
   known for were not yet available to him.
+use_note:
+  means: "Naucratius left a rhetorician's career for solitary life, fed the poor by hunting and fishing, and died young, which evidences renunciation before any rule existed."
+  not_for:
+    - "life in an organized brotherhood, which sits in cappadocian.story.brotherhood-day"
+    - "Naucratius's own voice or Chrysapius's, which do not survive"
+    - "a factual account of his death beyond the family's memory as Gregory records it"
+    - "ordered monastic rule as already available to him"
+  years: {from: 351, to: 357}
+  status: provisional
 ---
 Derived from Doc_09 entry #8 (Tier 3), with Doc_02 §8's own correction
 carried forward exactly: "Naucratius lived as a solitary ascetic, not in

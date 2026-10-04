@@ -49,6 +49,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-on-antiphonal-psalmody
+use_note:
+  means: "This witness says repeated psalm-singing at fixed hours, reception before analysis, was most believers' real scriptural formation."
+  not_for:
+    - "any account of how this world felt about violence in scripture, which the record says it lacks"
+    - "the Neocaesarean night vigil, which sits in cappadocian.quote.basil-on-antiphonal-psalmody, as every community's practice"
+    - "psalmody as a lesser substitute for study"
+  years: {from: 360, to: 379}
+  status: provisional
 ---
 Closes F2-P. The "reception before analysis, repetition before
 articulation" formulation is cappadocian.core.cappadocian's own

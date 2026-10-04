@@ -43,6 +43,14 @@ modern_rendering: >-
   So we all look to the East when we pray, but few of us know that we are seeking our own
   old country -- Paradise, which God planted in Eden, in the East. We pray standing on the
   first day of the week, but not all of us know the reason.
+use_note:
+  means: "Basil, in On the Holy Spirit, notes that all face east and stand to pray on Sunday though few know the reasons, citing these as unwritten customs."
+  not_for:
+    - "the dare to show written warrant for the baptismal confession, which sits in cappadocian.quote.what-is-the-written-source"
+    - "a documentary chain proving these customs came from the apostles"
+    - "a claim that worshippers generally understood why they faced east"
+  years: {from: 375, to: 375}
+  status: provisional
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, sec.

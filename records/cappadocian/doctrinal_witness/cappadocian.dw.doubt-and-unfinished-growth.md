@@ -58,6 +58,14 @@ positions:
 tensions:
 - the "no finish line" teaching (epektasis) is Gregory of Nyssa's own individual development; we do not
   claim the whole circle taught it as one shared doctrine
+use_note:
+  means: "This witness says overconfidence, not doubt, was the danger, and reports Gregory of Nyssa's teaching of endless growth toward a limitless God."
+  not_for:
+    - "endless growth toward God as the whole circle's shared doctrine rather than Gregory of Nyssa's own development"
+    - "the ant argument against Eunomius, which sits in cappadocian.quote.basil-against-eunomius-ant"
+    - "doubt approved as a resting place"
+  years: {from: 361, to: 394}
+  status: provisional
 ---
 Closes F1-P, pairing the doubt-as-epistemology material already used for
 C-P (akatalepsia) with a genuinely different angle - epektasis - to answer

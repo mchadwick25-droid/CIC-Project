@@ -37,5 +37,13 @@ senses:
     terms here, without a strong modern-mishearing risk.
 quick_meaning: The country-bishop. Village-level oversight, under a city bishop.
 distortion_risk: low
+use_note:
+  means: "Chorepiskopos meant the country-bishop who oversaw villages under a city bishop, an office Basil disciplined, including a ban on ordinations for money."
+  not_for:
+    - "the office as identical in every church"
+    - "Basil's own words to the country-bishops, which sit in cappadocian.quote.basil-to-the-chorepiscopi"
+    - "the villagers' own voice, which does not survive"
+  years: {from: 370, to: 379}
+  status: provisional
 ---
 Built from Doc_06 entry 31 (Tier 3). Doc_06 itself declares no Related-Terms for this entry in either direction (Index E.3) -- carried here as relations: [], a decision, not an oversight.

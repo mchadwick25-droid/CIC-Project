@@ -78,6 +78,15 @@ manifestations:
 - the dogmatic-polemical stream's double posture - dialectic wielded against Eunomius and dialectic-worship denounced
 - the money-changers complaint - hostile witness to marketplace dialectic
 - the Rules' own subordination of secular learning within the brotherhoods
+use_note:
+  means: "The learned instrument stands against the simplicity it serves, pressed from outside by Julian's edict and from inside by impatience with dialectic."
+  not_for:
+    - "a plateau-wide tension, when it was felt chiefly where the lettered ladder reached"
+    - "the fishermen's own voice, which survives only in the learned reports of their critics"
+    - "Julian's edict as ordinary schooling practice, when it was a brief imperial measure of 361 to 363"
+    - "the conversion of Greek schooling as a whole, which sits in cappadocian.gravity.paideia-converted"
+  years: {from: 361, to: 379}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate 12, added and tested at Revision 1 -> final Gravity 11, per
 §4's concordance table). Interaction Matrix (§6, row/col 12): reshaping (S) with Gravity 1, Gravity 2,

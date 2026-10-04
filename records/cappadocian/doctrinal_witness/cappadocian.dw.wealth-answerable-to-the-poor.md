@@ -66,6 +66,14 @@ tensions:
 - the sharpest, most quotable lines of this world's own famine preaching come from homilies this build
   cannot independently verify against a checked text; we rest this claim on the event and its broad
   shape, not on any specific wording
+use_note:
+  means: "This witness says Basil preached against hoarding in a famine, later built a poorhouse complex, and taught that surplus belongs to the poor."
+  not_for:
+    - "quoted wording from the famine homilies, which this world's registry has not verified"
+    - "the refused remarriage as typical, when cappadocian.dw.macrina-and-its-cost treats it as one woman's resolve"
+    - "the poorhouse as built during the famine rather than later"
+  years: {from: 368, to: 379}
+  status: provisional
 ---
 Closes F5-T. Sourcing-honesty carried forward exactly as
 cappadocian.story.famine-open-barns and the philoptochia/pleonexia term

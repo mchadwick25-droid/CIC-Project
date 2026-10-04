@@ -62,6 +62,15 @@ modern_contrast: >-
   dying sister's mouth is entirely hers is not - and this world tells the
   story with both of those things held together, told as the brother told
   it, rather than one substituted for the other.
+use_note:
+  means: "Gregory of Nyssa found Macrina dying in 379 and shaped their last talk into On the Soul and the Resurrection, so her words reach us only through him."
+  not_for:
+    - "the dialogue's argument as entirely Macrina's own words"
+    - "an independent witness to her death or funeral"
+    - "her refusal of remarriage, which sits in cappadocian.story.macrina-refusal"
+    - "the ascetic community as a whole, which sits in cappadocian.term.adelphotes"
+  years: {from: 379, to: 379}
+  status: provisional
 ---
 Derived from Doc_09 entry #6 (Tier 1, with literary frame). Critic Finding
 6 is carried forward exactly as Doc_09 states it: the mediation is told as

@@ -66,6 +66,15 @@ divergence_partners:
 relations:
 - type: associated-with
   target: cappadocian.gravity.triune-confession
+use_note:
+  means: "This record holds that the world's summary of Eunomius' agennetos argument is contested as a fair account, because most of his position survives only through his refuters."
+  not_for:
+    - "Eunomius' own words as given by this world's summary of him, which is hostile paraphrase"
+    - "Basil's Against Eunomius as a checked primary text, when only a scholarly summary and one short letter are held"
+    - "the meaning and use of the word itself, which sit in cappadocian.term.agennetos"
+    - "the defeated Homoian court church's silence, which sits in cappadocian.contested.homoian-nicene-reversal"
+  years: {from: 335, to: 394}
+  status: provisional
 ---
 Unparked from Doc_06 Tier 2 entry 16 (agennētos), the lexicon's own [CT]-tagged contest - stated at
 Index D as "adversarial transmission: beyond Eunomius' one surviving Apology, his position reaches us

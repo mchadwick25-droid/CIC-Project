@@ -56,6 +56,15 @@ modern_rendering: >-
   penance. In the fourth, they may be received to standing with the people, while they
   are still withheld from the oblation. Finally, they may be admitted to the communion of
   the good gift.
+use_note:
+  means: "Canon XXII of Basil's Second Canonical Letter fixes four graded years of penance, then readmission, for a man who took a wife by seduction or violence."
+  not_for:
+    - "the penance terms for second and third marriages, which sit in cappadocian.quote.basil-canon-on-digamy"
+    - "four years as the penance for every sexual offence rather than for this named case"
+    - "a claim that this world's discipline meant permanent excommunication"
+    - "proof that discipline was always enforced as written, which a canon alone cannot show"
+  years: {from: 375, to: 375}
+  status: provisional
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter CXCIX, headed in the file

@@ -66,5 +66,14 @@ senses:
     the church prays is what the church, over time, actually comes to believe.'
 quick_meaning: 'Glory, and the giving of glory: we argued the words of worship are the faith itself.'
 distortion_risk: high
+use_note:
+  means: "Doxologia meant the giving of glory in worship, and the fight over praising the Father together with the Son and Spirit made worship's words a matter of faith."
+  not_for:
+    - "liturgical wording as taste or style"
+    - "a claim that Basil plainly called the Spirit God"
+    - "the story of the challenge itself, which sits in cappadocian.story.doxology-stand"
+    - "the unwritten customs, which sit in cappadocian.term.paradosis"
+  years: {from: 375, to: 381}
+  status: provisional
 ---
 Built from Doc_06 entry 3 (Tier 1). Related-terms per Doc_06 Index E row 3 (all mutual).

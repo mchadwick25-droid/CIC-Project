@@ -62,5 +62,14 @@ senses:
 quick_meaning: The 'New City' outside Caesarea. A poorhouse, guest-house, infirmary, and leper-house,
   all together.
 distortion_risk: medium
+use_note:
+  means: "The new city meant the poorhouse, guest-house, infirmary and leper-house complex outside Caesarea, staffed by ascetics and negotiated with governors."
+  not_for:
+    - "the first hospital anywhere"
+    - "Basileias as a name used in this period, since it is a later name"
+    - "a located or excavated site, when no remains are securely identified"
+    - "the founding famine as the complex's setting, which is told in cappadocian.story.famine-open-barns"
+  years: {from: 370, to: 379}
+  status: provisional
 ---
 Built from Doc_06 entry 23 (Tier 2).

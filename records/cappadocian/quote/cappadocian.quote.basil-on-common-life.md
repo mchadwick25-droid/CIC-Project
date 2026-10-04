@@ -79,6 +79,14 @@ modern_rendering: >-
   do have go to waste, and what you lack you simply cannot get. God our
   Creator built us to need one another, so that we would be bound
   together.
+use_note:
+  means: "Basil's Longer Rules argues that no one is self-sufficient, so living in community lets gifts and needs meet as God intended."
+  not_for:
+    - "a blanket condemnation of every hermit rather than an answer to one question about where an ascetic should live"
+    - "an exact character match to the vendored scan, when the text corrects an OCR misreading"
+    - "the ordered day of prayer and work, which sits in cappadocian.quote.basil-on-work-and-prayer"
+  years: {from: 360, to: 379}
+  status: provisional
 ---
 Verified verbatim directly against the vendored
 basil_ascetic-works-longer-shorter-rules_clarke1925.txt, Longer Rules,

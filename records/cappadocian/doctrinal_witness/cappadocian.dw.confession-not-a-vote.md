@@ -63,6 +63,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-on-the-doxology-challenge
+use_note:
+  means: "This witness denies that a council voted Jesus into being God, arguing that councils wrote down what baptism and doxology already confessed."
+  not_for:
+    - "proof of every bishop's motive or vote, which the record says it cannot show"
+    - "Basil's account of the accusation itself, which sits in cappadocian.quote.basil-on-the-doxology-challenge"
+    - "a claim that no one in the church held a different creed before 381"
+  years: {from: 325, to: 381}
+  status: provisional
 ---
 Closes F1-E, the "voted Jesus into being God" cell, using the same
 doxology-stand material this world's own C-T dw draws on but turned to a

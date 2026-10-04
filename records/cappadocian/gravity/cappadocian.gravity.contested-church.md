@@ -88,6 +88,15 @@ manifestations:
 - the provincial division of 372 and its ecclesiastical fallout
 - Or. 43's Valens material - the prefect's bench, the Epiphany visitation
 - the Nicene minority's long endurance to sudden establishment under Theodosius
+use_note:
+  means: "The church lived under a contested empire, enduring reversals from Constantius through Valens to Theodosius, a condition inside which every other gravity operated."
+  not_for:
+    - "ordinary Christians' formation as constituted by the imperial contest, when it was only conditioned by it"
+    - "a settled classification as primary rather than supporting, which stands open for external review"
+    - "the Homoian establishment's own account, which survives only through opponents as set out in cappadocian.contested.homoian-nicene-reversal"
+    - "the Julian episode as typical of the whole arc, since both sides' words survive only there"
+  years: {from: 360, to: 381}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate 8 -> final Gravity 3, per §4's concordance table - candidate
 8 as generated at §1, tested at §3.1 as "The contested church under the contested empire"). Interaction

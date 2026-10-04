@@ -57,6 +57,14 @@ modern_rendering: >-
   sweetest crop it grows me is quiet. It isn't just free of the city's
   noise - hardly anyone even passes through, except the occasional
   hunter.
+use_note:
+  means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travellers."
+  not_for:
+    - "the era's classic defence of fleeing church office, which is Gregory of Nazianzus's Oration 2, not this letter"
+    - "proof that Basil found and kept a settled hermit's life"
+    - "a method for quieting an anxious mind, which neither this letter nor cappadocian.dw.stillness-and-the-summons supplies"
+  years: {from: 360, to: 370}
+  status: provisional
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "Calypso"` located the

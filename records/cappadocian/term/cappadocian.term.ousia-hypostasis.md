@@ -80,5 +80,14 @@ senses:
 quick_meaning: 'Being and person: the two words we used to say one God is three who are each fully
   God.'
 distortion_risk: high
+use_note:
+  means: "Ousia meant what God is, one being, and hypostasis meant who God is, three persons, which together let this world confess one God in three."
+  not_for:
+    - "one agreed scheme of the three teachers, which is contested in cappadocian.contested.settlement-historiography"
+    - "Epistle 38 as certainly Basil's, since its attribution is contested"
+    - "later dogmatic formulas read back onto this era"
+    - "the wording of the letter, which sits in cappadocian.quote.ousia-and-hypostasis"
+  years: {from: 360, to: 381}
+  status: provisional
 ---
 Built from Doc_06 entry 1 (Tier 1) and the built deployment chunk cappadocianlex001_ousia-hypostasis.md, cross-checked and found matching (Doc_06's own Master Index note: lex001 matches). Related-terms drawn from Doc_06 Index E's post-revision adjacency (all five links mutual).

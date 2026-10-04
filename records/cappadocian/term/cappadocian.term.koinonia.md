@@ -76,5 +76,14 @@ senses:
     another.'
 quick_meaning: Communion, or common life. The shared life we believed every person is made for.
 distortion_risk: high
+use_note:
+  means: "Koinonia meant common life, the belief that people are made for life together, so even strict renunciation was ordered into community."
+  not_for:
+    - "community as an optional add-on to private faith"
+    - "the Gangra radicals as condemned for seeking holiness, when the charge was seceding from the common body"
+    - "the lived interior of any one house, which the legislation does not describe"
+    - "the brotherhood as an institution, which sits in cappadocian.term.adelphotes"
+  years: {from: 340, to: 379}
+  status: provisional
 ---
 Built from Doc_06 entry 6 (Tier 1). RECONCILIATION (this pass): the built deployment chunk cappadocianlex003_koinonia.md carries a stale Related-Terms line ('...hesychia, eusebeia') that Doc_06 itself flags as drifted from its own current entry (Master Index derivation note: 'lex003 has drifted... flagged for reconciliation at chunk production'). This record's relations[] are authored from Doc_06 Index E row 6's current, correct list -- adelphotes, askesis, philoptochia, hesychia, kanon-kanonikai (T3), eikon, Basileias -- not from the stale chunk.

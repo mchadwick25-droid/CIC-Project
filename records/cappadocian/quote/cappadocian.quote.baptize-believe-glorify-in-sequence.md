@@ -39,6 +39,14 @@ modern_rendering: >-
   Now they must teach us one of these things. Either we should not baptize the way baptism was handed
   down to us. Or we should not believe the way we were baptized. Or we should not give glory the way we
   have believed.
+use_note:
+  means: "Basil, in On the Holy Spirit, argues that baptizing, believing and giving glory form one sequence, so rejecting his doxology would unravel baptism and creed too."
+  not_for:
+    - "the dare to produce written evidence for the baptismal confession, which sits in cappadocian.quote.what-is-the-written-source"
+    - "belief judged by ritual compliance alone as Basil's meaning"
+    - "Basil's argument as the settled view of every party to the doxology dispute"
+  years: {from: 375, to: 375}
+  status: provisional
 ---
 Verified directly against cic/texts/npnf208_basil-letters-select-works.xml. `grep -n "They must now
 instruct us"` returns one hit, line 14168, inside sec. 68 (`id="vii.xxviii-p29"`), within chapter 27

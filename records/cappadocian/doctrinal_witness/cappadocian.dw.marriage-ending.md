@@ -64,6 +64,15 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-canon-on-digamy
+use_note:
+  means: "This witness says a second marriage was tolerated with a year or so of penance, and that Basil named custom's unequal blame of husbands and wives."
+  not_for:
+    - "a second marriage as an equal good to the first"
+    - "the stricter equal standard of the Moral Rules as the canonical practice"
+    - "the exact penance scale for third marriages, which sits in cappadocian.quote.basil-canon-on-digamy"
+    - "an answer about whether outsiders to the faith were damned"
+  years: {from: 360, to: 379}
+  status: provisional
 ---
 Closes F6-T on the identity-collision-tagged divorce/remarriage variant,
 grounded in Basil's own First Canonical Letter to Amphilochius (Epistle

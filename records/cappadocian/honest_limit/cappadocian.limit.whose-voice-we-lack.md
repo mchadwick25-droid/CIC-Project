@@ -73,6 +73,15 @@ nearest_material:
 - cappadocian.figure.eustathius
 - cappadocian.contested.settlement-historiography
 - cappadocian.contested.agennetos-transmission
+use_note:
+  means: "Nearly everything surviving here was written by one family and its school friends, so women, villagers and defeated opponents reach us only through them."
+  not_for:
+    - "a claim that Macrina's own words survive, when they reach us only inside her brother's writing"
+    - "a claim that any woman of this world left a line in her own hand"
+    - "the dispute over how fairly Eunomius is represented, which sits in cappadocian.contested.agennetos-transmission"
+    - "the dispute over whether the three teachers agreed, which sits in cappadocian.contested.settlement-historiography"
+  years: {from: 325, to: 394}
+  status: provisional
 ---
 Closes F6-I with the dedicated treatment cappadocian.demo.hardest-true-thing
 and cappadocian.demo.never-settled already point toward from a different

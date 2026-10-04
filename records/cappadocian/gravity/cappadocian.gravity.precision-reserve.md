@@ -78,6 +78,15 @@ manifestations:
 - Or. 43's posthumous defense of the oikonomia
 - 381's pneumatological article cast in doxological form - "worshipped and glorified together with" rather than homoousios
 - the Theological Orations' own opening discipline of theological speech - not to everyone, not at all times
+use_note:
+  means: "Basil argued equal glorification for the Spirit but withheld the plain word God, against allies who demanded it, in a quarrel inside the winning side."
+  not_for:
+    - "a claim that Basil plainly called the Spirit God or applied homoousios to him"
+    - "a settled verdict on why he held back, since his motives are contested"
+    - "the fight over the doxology with outside objectors, which sits in cappadocian.story.doxology-stand"
+    - "the impatient critics' own account, which survives only in the circle's telling"
+  years: {from: 375, to: 381}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate 10, added and tested at Revision 1 -> final Gravity 9, per
 §4's concordance table). Interaction Matrix (§6, row/col 10): reshaping (S) with Gravity 1, Gravity 2,

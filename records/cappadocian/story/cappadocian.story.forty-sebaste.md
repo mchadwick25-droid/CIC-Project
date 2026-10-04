@@ -60,6 +60,15 @@ modern_contrast: >-
   real cult and calendar rather than a court transcript - remembered and
   retold as this world's freshest martyr memory, not chronicled as it
   happened.
+use_note:
+  means: "Forty soldiers were left to freeze on a lake around 320, and the cult with its feast and family relics evidences this world's fresh martyr memory."
+  not_for:
+    - "the passion details as eyewitness report, since they are traditional"
+    - "the soldier who broke and the guard who took his place as attested fact"
+    - "the feast's crowd and market, which sit in cappadocian.story.panegyris-shrine"
+    - "the meaning of martyr and shrine, which sits in cappadocian.term.martys-martyrion"
+  years: {from: 320, to: 394}
+  status: provisional
 ---
 Derived from Doc_09 entry #11 (Tier 2). The family-relic thread (Emmelia)
 is included directly in the text per Doc_09's own explicit usage guidance

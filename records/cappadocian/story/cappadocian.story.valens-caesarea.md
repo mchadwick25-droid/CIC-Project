@@ -65,6 +65,15 @@ modern_contrast: >-
   delivered years later to people who remembered the events themselves -
   a treasured telling, not a stenographer's record. This story's own
   confidence rests on naming that distinction, not on hiding it.
+use_note:
+  means: "Valens's prefect Modestus threatened Basil in 371 to 372, and Gregory of Nazianzus's oration remembers Basil answering fearlessly and the emperor's Epiphany visit."
+  not_for:
+    - "a court transcript of the dialogue"
+    - "Valens as persuaded to abandon his policy, since the pressure continued"
+    - "the doctrinal content of the confession, which sits in cappadocian.story.doxology-stand"
+    - "Valens's or Modestus's own side, which does not survive"
+  years: {from: 371, to: 372}
+  status: provisional
 ---
 Derived from Doc_09 entry #3 (Tier 1, "split entry"). CLARIFICATION ON
 THE SPLIT: Doc_09's own table treats this as ONE numbered entry with two

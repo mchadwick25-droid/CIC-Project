@@ -78,6 +78,15 @@ manifestations:
 - Or. 43's public-Basil narrative - the Modestus confrontation, the Epiphany visitation
 - the canonical letters - discipline as governance
 - the poorhouse-hospital complex ("the new city") - permanent civic institution built from famine's occasion
+use_note:
+  means: "The bishop acted as public patron under famine and empire, handling grain, tax appeals, the poorhouse and the governor's mercy."
+  not_for:
+    - "Oration 43's Modestus and Epiphany scenes as courtroom fact, when they are an encomium's telling"
+    - "the whole of Basil's work, when the ascetic reordering sits in cappadocian.gravity.ascetic-reordering"
+    - "the poorhouse as already standing in the famine of 368/9, which came before it"
+    - "the bishop's patronage as a primary gravity, since it is classed supporting"
+  years: {from: 368, to: 379}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate 6 -> final Gravity 7, per §4's concordance table). Interaction
 Matrix (§6, row/col 6): reinforcing (R) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 5 (martyrs),

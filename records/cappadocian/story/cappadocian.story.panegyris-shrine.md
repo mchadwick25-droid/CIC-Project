@@ -65,6 +65,15 @@ modern_contrast: >-
   crowd, the same day, competing for the same attention - and preached, by
   their own account, against the pull of the second while standing inside
   the first.
+use_note:
+  means: "This reconstruction shows a martyr's feast at a countryside shrine, with vigil, retold passion and market crowd, composed from preachers' asides across several homilies."
+  not_for:
+    - "one named festival or dated occasion"
+    - "the market and crowd detail as well attested, since it is the weakest-sourced part"
+    - "the family's private estate chapel at Annisa, which sits in cappadocian.story.forty-sebaste"
+    - "the meaning of the word panegyris, which sits in cappadocian.term.panegyris"
+  years: {from: 325, to: 394}
+  status: provisional
 ---
 Derived from Doc_09 entry #18 (Tier 4 composite). SOURCING HONESTY CARRIED
 FORWARD, twice over: cappadocian.source.basil-martyr-homilies-forty-

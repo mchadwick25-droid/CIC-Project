@@ -39,5 +39,13 @@ senses:
     -- again, the real gap is textual access to the sermons themselves, not a difference in meaning.
 quick_meaning: Anger. A passion our own preaching named and disciplined.
 distortion_risk: low
+use_note:
+  means: "Orge meant anger, a passion preached against because it dresses itself as justice."
+  not_for:
+    - "the homily's wording, since the text is unverified"
+    - "envy, which sits in cappadocian.term.phthonos"
+    - "greed, which sits in cappadocian.term.pleonexia"
+  years: {from: 368, to: 379}
+  status: provisional
 ---
 Built from Doc_06 entry 37 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

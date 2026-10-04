@@ -51,5 +51,14 @@ senses:
     that its most famous convert-critic, Julian, tried to take the books back by law.'
 quick_meaning: The Greek school ladder, converted. Here, 'philosophy' means the renounced Christian life.
 distortion_risk: high
+use_note:
+  means: "Paideia meant Greek schooling converted to Christian use, and philosophia meant the renounced ascetic life, claimed from the pagan schools."
+  not_for:
+    - "nostalgia for a classical education"
+    - "the schooling of plateau congregations, which never saw Athens"
+    - "Julian's edict, which sits in cappadocian.story.julian-schools"
+    - "faith and reason as opponents"
+  years: {from: 361, to: 379}
+  status: provisional
 ---
 Built from Doc_06 entry 11 (Tier 2).

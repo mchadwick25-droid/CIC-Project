@@ -51,5 +51,14 @@ senses:
 quick_meaning: Baptism, or illumination. Being immersed into the Threefold Name, given as our
   own charter.
 distortion_risk: medium
+use_note:
+  means: "Baptisma meant immersion into the Threefold Name, whose formula was argued to carry the whole confession as the community's own charter."
+  not_for:
+    - "modern denominational baptism debates"
+    - "delaying baptism as endorsed, when it was a recorded pastoral complaint"
+    - "the teaching on baptism and new birth, which sits in cappadocian.dw.baptism-and-new-birth"
+    - "Eunomian re-baptism as detailed practice"
+  years: {from: 375, to: 394}
+  status: provisional
 ---
 Built from Doc_06 entry 18 (Tier 2).

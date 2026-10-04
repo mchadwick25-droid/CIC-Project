@@ -91,6 +91,15 @@ manifestations:
 - the poverty homilies - famine, barns, usury - across Basil and Nyssen, and Nazianzen's On the Love of the Poor
 - the Vita's own formation narrative - household become community
 - the guest-door - renunciation aimed toward the poor instead of against the social bond
+use_note:
+  means: "Renunciation was ordered into common life that faces the city, so that the monastic project and love of the poor form one gravity."
+  not_for:
+    - "the radicals' own aims, which survive only through their censors and are handled in cappadocian.gravity.renunciation-order"
+    - "the ordered brotherhood as an unchallenged ideal, when it was one side of a quarrel set out in cappadocian.contested.eustathian-radicals"
+    - "the Rules as a record of any one house's actual daily life"
+    - "the bishop's public patronage, which sits in cappadocian.gravity.bishop-patron"
+  years: {from: 340, to: 379}
+  status: provisional
 ---
 Re-derived from the cleared Doc_04 (candidate 2 -> final Gravity 2). Interaction Matrix (§6, row/col 2):
 reinforcing (R) with Gravity 1, Gravity 5 (martyrs' land), Gravity 7 (patron); reshaping (S) with Gravity 6

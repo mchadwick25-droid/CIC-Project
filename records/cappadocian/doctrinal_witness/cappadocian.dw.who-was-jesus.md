@@ -70,6 +70,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.gregory-nyssa-on-becoming-god
+use_note:
+  means: "This witness says Jesus was confessed as fully what the Father is, came so humans might become god, and was served in the poor."
+  not_for:
+    - "ransom language as the later penal substitution formula"
+    - "theosis as becoming equal to God"
+    - "the Catechetical Oration's wording, which sits in cappadocian.quote.gregory-nyssa-on-becoming-god, as this witness's own"
+  years: {from: 360, to: 394}
+  status: provisional
 ---
 Closes C-I. Recomposed, not copied, from the same ground the two existing
 demonstrations for this cell already stand on

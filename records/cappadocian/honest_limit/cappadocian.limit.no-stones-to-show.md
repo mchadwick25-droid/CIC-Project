@@ -54,6 +54,15 @@ nearest_material:
 - cappadocian.term.panegyris
 - cappadocian.source.caesareas-poorhouse-hospital-complex
 - cappadocian.source.annisa-estate-shrine
+use_note:
+  means: "The Annisa shrine and the Caesarea poorhouse are attested only in texts, with no securely identified remains, so this record cannot supply archaeology."
+  not_for:
+    - "a claim that either the shrine or the poorhouse has been excavated or physically identified"
+    - "a description of how either building looked, which the texts do not give"
+    - "the poorhouse's staffing and purpose, which sit in cappadocian.term.basileias and cappadocian.story.poorhouse-famine-month"
+    - "the shrine festival's crowd and calendar, which sit in cappadocian.term.panegyris"
+  years: {from: 325, to: 394}
+  status: provisional
 ---
 Closes F5-E as a genuine, declared absence rather than a strained dw: this
 world's own registered material culture is real but entirely text-attested,
