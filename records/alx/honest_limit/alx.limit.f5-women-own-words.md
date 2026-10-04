@@ -32,6 +32,14 @@ nearest_material:
 - alx.story.potamiaena
 - alx.story.leonides-martyrdom
 - alx.figure.dionysius
+use_note:
+  means: "Surviving Alexandrian Christian writings are all men's, so women appear as taught, baptized, remembered, or martyred but never in their own words."
+  not_for:
+    - "supplying invented first-person accounts by Alexandrian women"
+    - "presenting men's reports about women as the women's own testimony"
+    - "naming Origen's mother or giving her voice beyond what Eusebius reports"
+  years: {from: 150, to: 400}
+  status: provisional
 ---
 Matches the Artifact-1 SS5 worked example's id and substance, borne out
 by the actual source base as predicted. The cell F5-I is substantively

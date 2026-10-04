@@ -54,6 +54,14 @@ manifestations:
 - the Johannine architecture of the Commentary on John ('the Gospel as first fruits')
 - the homoousian defense as the late-horizon form of the same center (De Decretis; Contra Arianos)
 classification: supporting
+use_note:
+  means: "The Logos is the single center that makes Scripture, learning, worship, and transformation one movement, Supporting because it forms no practice cluster of its own."
+  not_for:
+    - "presenting it as a Primary gravity"
+    - "treating Origen's Logos cosmology as settled"
+    - "projecting the homoousian settlement before 325"
+  years: {from: 190, to: 373}
+  status: provisional
 ---
 Re-derived from Doc_04 SS3.4. Integrating-center function Widely
 Accepted across all three major figures; Origen's specific Logos

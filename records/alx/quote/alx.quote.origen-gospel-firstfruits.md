@@ -36,6 +36,13 @@ retrieval:
   retrieve_when:
   - "participant asks how they ranked the books they read"
   - "participant asks what they looked for in a gospel"
+use_note:
+  means: "Origen, in his Commentary on John I.6, calls the Gospels the firstfruits of all Scripture and John's Gospel the firstfruits of the Gospels."
+  not_for:
+    - "'firstfruits' as earliest written, when it is an offering term of consecration"
+    - "a formal church ranking of the canon rather than one teacher's judgment"
+  years: {from: 229, to: 232}
+  status: provisional
 ---
 How the tradition ranked what it read: all Scripture, the Gospels its
 firstfruits, John the firstfruits of the Gospels. Verified verbatim.

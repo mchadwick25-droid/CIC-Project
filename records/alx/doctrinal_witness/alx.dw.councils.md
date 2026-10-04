@@ -52,6 +52,14 @@ tensions:
   the vote fenced existing worship (De Decretis)'
 - 'persuasion vs enforcement: both are in the record, and the world never resolved which was its true
   face'
+use_note:
+  means: "This witness traces how disputed belief was decided: teachers' argument, then bishops' judgment like Demetrius's and Dionysius's, then Nicaea's imperially backed council."
+  not_for:
+    - "a claim that the Nicene council voted Jesus into being God"
+    - "a claim that Dionysius's patient persuasion was the world's only or usual way of deciding"
+    - "the Nepos exchange in Dionysius's own words, which sits in alx.quote.dionysius-nepos"
+  years: {from: 190, to: 356}
+  status: provisional
 ---
 The councils cell, grounded in the world's own decision-practice range.
 

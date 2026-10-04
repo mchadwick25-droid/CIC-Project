@@ -65,6 +65,14 @@ tensions:
   told as development
 - 'the translational gap: ''Trinity'' as a modern participant means post-Nicene systematization this window
   only begins'
+use_note:
+  means: "This witness says Jesus was worshiped as God's Word from the start, and Nicaea's homoousios fenced that worship rather than voting in a new God."
+  not_for:
+    - "a claim that the council invented Jesus' divinity"
+    - "a claim that this world held the later textbook doctrine of the Trinity"
+    - "a claim that all pre-Nicene language was already Nicene, when some sounds subordinationist"
+  years: {from: 190, to: 369}
+  status: provisional
 ---
 The was-Jesus-God translational cell, answered with the development
 honest and the homoousios term record alongside.

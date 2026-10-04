@@ -41,6 +41,14 @@ positions:
 tensions:
 - Origen's soul-speculations (transmission-filtered) vs the rule of faith's plain ground
 - '''original sin'' is not a phrase this world used; the question is answered from what its teachers said about the fall'
+use_note:
+  means: "This witness says Alexandria's teachers held a real, universal fall with inherited death and weakness, ratified by each soul, but no guilt at birth."
+  not_for:
+    - "a claim that this world taught original sin as inherited guilt, a phrase it did not use"
+    - "Origen's speculation on the soul's descent as doctrine"
+    - "a defined theology of infant baptism, which they received as custom"
+  years: {from: 190, to: 254}
+  status: provisional
 ---
 The F1-T cell (original sin / bread-and-cup / faith-alone questions
 share the cell; eucharistia's senses carry the second, and the

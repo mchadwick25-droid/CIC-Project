@@ -48,6 +48,14 @@ senses:
     reader perceives who was already speaking, rather than inventing a new meaning.
 quick_meaning: Reading Scripture always in relation to the Logos who is Christ.
 distortion_risk: high
+use_note:
+  means: "Reading Scripture at every level as the Logos speaking, a way of listening that governs allegorical method rather than being a technique."
+  not_for:
+    - "describing it as reading a later meaning into a text where it is not present"
+    - "claiming it erases the historical sense of the text"
+    - "limiting it to passages that seem to be about Christ"
+  years: {from: 190, to: 254}
+  status: provisional
 ---
 Imported from the old system's richer lexicon (alexlex015, "Christological Reading") at Mark's direction,
 as a draft, not a final version.

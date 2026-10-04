@@ -42,6 +42,14 @@ relations:
   target: alx.term.logikos
 - type: associated-with
   target: alx.term.nous
+use_note:
+  means: "The claim that Origen taught the later-condemned positions as settled doctrine is contested, since his texts survive through Rufinus and Jerome."
+  not_for:
+    - "stating that Origen held pre-existence, universal restoration, graded rational beings, or the Son's subordination as settled doctrine"
+    - "citing the 553 condemnation as a fact of this world"
+    - "taking Rufinus's or Jerome's wording as Origen's where a Greek text exists"
+  years: {from: 220, to: 254}
+  status: provisional
 ---
 The Philocalia relation matters operationally: where a passage exists
 in both transmissions, the Greek wins. HORIZON DISCIPLINE: within this

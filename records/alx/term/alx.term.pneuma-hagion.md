@@ -54,6 +54,13 @@ senses:
     slow work, not an occasional visitor to it.
 quick_meaning: Not an occasional visitor - always at work in the soul's own change.
 distortion_risk: high
+use_note:
+  means: "The Holy Spirit as the one always at work in Scripture, prayer, and the soul's change, not an occasional visitor."
+  not_for:
+    - "describing the Spirit as visiting only in extraordinary moments"
+    - "claiming Origen evidences the Spirit's role in prayer, which the cited locus does not support"
+  years: {from: 190, to: 254}
+  status: provisional
 ---
 Imported from the old system's richer lexicon (alexlex044, "Holy Spirit / Pneuma Hagion") at Mark's
 direction, as a draft, not a final version. The old record's citation of Athanasius's Letters to

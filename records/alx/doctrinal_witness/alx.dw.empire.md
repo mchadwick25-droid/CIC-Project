@@ -47,6 +47,14 @@ tensions:
 relations:
 - type: associated-with
   target: alx.quote.no-festal-letter-was-written
+use_note:
+  means: "This witness says imperial favour after 325 brought protection and interference at once, with Athanasius, backed for Nicaea yet exiled five times, as test case."
+  not_for:
+    - "a simple story of a pure church corrupted by Constantine"
+    - "a claim that church and empire simply merged"
+    - "the year Athanasius was hunted and no Festal Letter went out, which sits in alx.quote.no-festal-letter-was-written"
+  years: {from: 202, to: 366}
+  status: provisional
 ---
 The Constantine cell, answered from inside the one community that
 experienced both sides within living memory.

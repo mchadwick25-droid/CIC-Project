@@ -47,6 +47,14 @@ modern_lens_note: >
   survives from inside a Christian household here; see alx.core.alexandria's
   Absent Stories.) A modern reader hears 'schoolmaster' as a teacher or
   headmaster, which misses the escort/custody sense the image turns on.
+use_note:
+  means: "Clement, in Stromateis I.5, suggests philosophy was given to the Greeks as a schoolmaster leading to Christ, as the law was for the Hebrews."
+  not_for:
+    - "a claim that Clement held philosophy sufficient for salvation apart from Christ"
+    - "a claim that every Alexandrian Christian shared this view, when philosophy's standing was itself argued"
+    - "'schoolmaster' as a teacher or headmaster, when paidagogos means a child's escort and custodian"
+  years: {from: 198, to: 203}
+  status: provisional
 ---
 The charter line of the world's philosophy-and-faith posture: what the
 Greeks were given was real and was preparation. Serves F1-I (what they

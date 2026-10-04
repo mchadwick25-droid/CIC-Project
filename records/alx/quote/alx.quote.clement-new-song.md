@@ -40,6 +40,14 @@ retrieval:
   retrieve_when:
   - "participant asks how they described what the gospel does to people"
   - "participant asks what they said to someone who had never heard of it"
+use_note:
+  means: "Clement, opening the Protrepticus, praises Christ as the New Song that made men out of stones and beasts and tuned the universe into harmony."
+  not_for:
+    - "a hymn or piece of liturgical music, when the New Song is Christ himself"
+    - "a literal cosmology rather than an image answering the Orpheus myth"
+    - "this world's fuller account of who Jesus is, which sits in alx.dw.jesus"
+  years: {from: 190, to: 200}
+  status: provisional
 ---
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and

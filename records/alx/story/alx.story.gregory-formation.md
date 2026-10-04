@@ -52,6 +52,14 @@ modern_contrast: >
   His friend and advocate' - love of the Word first, with the teacher loved as
   its friend and messenger, the formation-love vocabulary of paideia rather
   than a romantic attachment.
+use_note:
+  means: "Gregory's own farewell oration recounts five years under Origen at Caesarea, a staged curriculum, and a love kindled for the Word."
+  not_for:
+    - "relocating the account to Alexandria or treating it as the ordinary Alexandrian catechumen's experience"
+    - "reading the love kindled as romantic attachment to a teacher"
+    - "supplying logistics such as fees, rooms, or other students"
+  years: {from: 233, to: 238}
+  status: provisional
 ---
 Most elements are in the Address itself, within the stated VI-XVI locus
 (the soil-testing and curriculum sequence in Arguments VII-IX, the spark

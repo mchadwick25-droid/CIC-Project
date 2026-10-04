@@ -44,6 +44,14 @@ modern_lens_note: >
   the whole community (not literally 'brothers' to the exclusion of women) - a
   modern reader may misread it as gendered. 'Psalmody' (the singing/composing
   of psalms) is a slightly unusual word but self-explanatory in context.
+use_note:
+  means: "Dionysius of Alexandria, quoted by Eusebius at VII.24, says he loves the late bishop Nepos for his faith and psalmody but loves truth more."
+  not_for:
+    - "the edition's supplied words 'I confess that' as Dionysius's own"
+    - "a claim that Dionysius conceded Nepos's reading, when he is refuting it"
+    - "the conference in the Arsinoite villages itself, which sits in alx.story.arsinoite-conference"
+  years: {from: 248, to: 264}
+  status: provisional
 ---
 How this world disagreed inside the household: love the man, honor the
 truth more. Spoken about Nepos, the Egyptian bishop whose Refutation of

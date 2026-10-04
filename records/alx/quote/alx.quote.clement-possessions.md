@@ -51,6 +51,14 @@ retrieval:
   - "participant asks whether a rich person could belong"
   - "participant asks what they did with money and property"
   - "participant asks whether they had to give everything away"
+use_note:
+  means: "Clement, in Quis Dives Salvetur 16, calls the rich man who holds wealth as God's gift for others, unenslaved by it, poor in spirit."
+  not_for:
+    - "a claim that this world required believers to give away all property"
+    - "a fixed tithe or percentage rule for giving"
+    - "evidence of how ordinary Alexandrian Christians actually handled money, rather than one teacher's sermon"
+  years: {from: 190, to: 215}
+  status: provisional
 ---
 The rich-man sermon's center: wealth held as gift and ministry, not as
 master. Serves F5-T (how did you look at money and poverty) and F4-T

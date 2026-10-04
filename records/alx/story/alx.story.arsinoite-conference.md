@@ -67,6 +67,14 @@ modern_contrast: >
   neither: authority here worked by open, patient argument aimed at restored
   shared truth (see alx.dw.councils) - not suppression, and not an
   agreement to remain divided.
+use_note:
+  means: "On Dionysius's own account he resolved a dispute over Nepos's book by three days of open argument, not condemnation, and Coracion was persuaded."
+  not_for:
+    - "presenting it as an inquisition or as a session that left the split open"
+    - "reporting the arguments exchanged, which survive only in Dionysius's summary"
+    - "describing Nepos's book or the villagers' own words as surviving"
+  years: {from: 248, to: 265}
+  status: provisional
 ---
 Serves three cells honestly: F1-E (how disputed belief was actually
 decided - by patient open argument, here), F4-T (the end-times cell:

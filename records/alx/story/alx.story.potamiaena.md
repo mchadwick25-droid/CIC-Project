@@ -54,6 +54,14 @@ modern_contrast: >
   story's own tier justification) centers neither: its point is that witness
   under extremity converted the very soldier who led her out, not the
   suffering as spectacle nor a claim to be taken as unmediated biography.
+use_note:
+  means: "The church remembered Potamiaena's martyrdom under Severus and the conversion of the soldier Basilides, a tradition already shaped by devotion."
+  not_for:
+    - "narrating the pitch, the promise, or the vision as verified fact"
+    - "calling her a disciple of Origen"
+    - "quoting her own words, none of which survive"
+  years: {from: 202, to: 211}
+  status: provisional
 ---
 One of the very few named women in the world's record - remembered, but
 not self-attested, which alx.limit.f5-women-own-words states as the

@@ -44,6 +44,15 @@ relations:
   target: alx.term.interpretation
 - type: associated-with
   target: alx.term.allegoria
+use_note:
+  means: "Origen, in On First Principles IV.1.16, argues that days without sun or sky and a God planting a garden cannot be read literally."
+  not_for:
+    - "a claim that Origen thought Genesis false or mere fiction"
+    - "an objection from modern science, when his reasons are internal to the text"
+    - "Origen's exact Greek wording, when the text survives in Rufinus's Latin"
+    - "Origen's reading generalized to all Alexandrian Christians, when he argues against literalists in his own church"
+  years: {from: 220, to: 230}
+  status: provisional
 ---
 Opened for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
 cite loci in vendored files and none could show a sentence.

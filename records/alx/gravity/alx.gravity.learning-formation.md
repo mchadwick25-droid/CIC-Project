@@ -55,6 +55,14 @@ manifestations:
 - Clement's faith-knowledge-wisdom progression (Stromateis)
 - the teacher-student succession itself (Pantaenus to Clement to Origen) as formation's chief channel
 classification: supporting
+use_note:
+  means: "In the school tradition learning was itself formation, strongly operative early and attenuating after the Origen rupture and the post-Nicene authority shift."
+  not_for:
+    - "presenting it as operative across the whole ecology beyond the literate stratum"
+    - "describing it as undiminished in the late horizon"
+    - "treating it as independent of Clement's and Origen's concentration"
+  years: {from: 150, to: 373}
+  status: provisional
 ---
 Re-derived from Doc_04 SS3.5 - the sharpest strength/confidence
 divergence in the gravity set, stated rather than resolved: Widely

@@ -54,6 +54,14 @@ senses:
     from the vine, not a branch merely propped against it.'
 quick_meaning: Real sharing in God's own life, not mere nearness to it.
 distortion_risk: high
+use_note:
+  means: "Real sharing in God's own life, not by becoming God but by becoming fully a creature, because the Logos entered human nature."
+  not_for:
+    - "describing it as mere nearness to God"
+    - "saying the creature dissolves into the divine"
+    - "claiming creatures share God's life by nature rather than by grace"
+  years: {from: 190, to: 373}
+  status: provisional
 ---
 Imported from the old system's richer lexicon (alexlex007, "Participation") at Mark's direction, as a
 draft, not a final version.

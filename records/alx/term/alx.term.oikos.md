@@ -49,6 +49,13 @@ senses:
     people the school could not.
 quick_meaning: Not a private family. The household where most formation happened.
 distortion_risk: high
+use_note:
+  means: "The whole household, not the private family, as the place where most people were formed and where formation was tested."
+  not_for:
+    - "describing it as the modern nuclear family in a private home"
+    - "narrating the inner formation of enslaved persons, women, or dependents, which the evidence does not reach"
+  years: {from: 190, to: 215}
+  status: provisional
 ---
 Imported from the old system's richer lexicon (alexlex034, "Household / Oikos") at Mark's direction, as
 a draft, not a final version. The old record notes that the interior formation experience of a

@@ -29,6 +29,14 @@ nearest_material:
 - alx.quote.clement-possessions
 - alx.term.eucharistia
 - alx.dw.church-failure
+use_note:
+  means: "Clement's fullest treatment of marriage, Stromateis III, has no public-domain English translation, so only its heart is attested: marriage honored, the body not despised."
+  not_for:
+    - "quoting or detailing the arguments of Stromateis III"
+    - "stating Clement's views on sexuality beyond the stated heart"
+    - "presenting the gap as absence of any Alexandrian teaching on marriage"
+  years: {from: 190, to: 215}
+  status: provisional
 ---
 The G1 gap flowing to its designed destination: an honest_limit as
 data, in voice, FK-checked. The cell is substantively covered for its

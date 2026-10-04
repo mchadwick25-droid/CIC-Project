@@ -54,6 +54,14 @@ modern_contrast: >
   most joyfully') roots the act in resurrection hope and the imitation of
   Christ's self-giving death, not a charitable program pursued for its own
   sake (see alx.dw.suffering).
+use_note:
+  means: "Dionysius's own letter says most Christians in plague-stricken Alexandria nursed the sick fearlessly, many dying of it, unlike their pagan neighbors, evidencing care as witness."
+  not_for:
+    - "presenting it as secular humanitarian aid or a charitable program"
+    - "sharpening Dionysius's rhetorical contrast with the heathen"
+    - "giving numbers, names, or the disease's identity"
+  years: {from: 258, to: 262}
+  status: provisional
 ---
 Every element in the text is in the letter (the fearless visiting, the
 joyful dying, the pagan contrast, the festival occasion); nothing is

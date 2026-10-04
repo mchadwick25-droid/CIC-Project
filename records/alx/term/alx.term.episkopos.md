@@ -62,6 +62,14 @@ senses:
     institution.
 quick_meaning: Not an administrator. The bishop governs formation, not budgets.
 distortion_risk: high
+use_note:
+  means: "The bishop as governor of the community's formation and guardian of what it received, not a manager of clergy and finances."
+  not_for:
+    - "describing the bishop as a diocesan executive"
+    - "presenting the bishop as the teacher's organizational superior"
+    - "projecting Athanasius's fourth-century episcopal role back onto Clement's time"
+  years: {from: 190, to: 373}
+  status: provisional
 ---
 Imported from the old system's richer lexicon (alexlex030, "Bishop / Episkopos") at Mark's direction,
 as a draft, not a final version. The old record's citation of Ignatius of Antioch's Letters is omitted

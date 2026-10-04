@@ -56,6 +56,13 @@ senses:
     for something else entirely: God's whole, unimprovised arrangement for creation's restoration.
 quick_meaning: God's whole plan for saving creation, not a last-minute rescue.
 distortion_risk: high
+use_note:
+  means: "God's whole plan for saving creation, unfolding through graduated teaching and centered on the Incarnation, not an improvised rescue."
+  not_for:
+    - "using the modern financial sense of economy"
+    - "describing it as a rescue made up after something went wrong"
+  years: {from: 190, to: 373}
+  status: provisional
 ---
 Imported from the old system's richer lexicon (alexlex041, "Oikonomia") at Mark's direction, as a draft,
 not a final version. The old record's citation of Irenaeus of Lyon is omitted here since no corresponding

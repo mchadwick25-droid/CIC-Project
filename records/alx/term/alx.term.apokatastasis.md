@@ -56,6 +56,14 @@ senses:
     contested speculation, later condemned in a century beyond its horizon.'
 quick_meaning: Origen's hope that God's healing may reach all in the end.
 distortion_risk: high
+use_note:
+  means: "Origen's hope that God's healing punishment might in the end restore every rational creature, offered as speculation whose dogmatic weight cannot be fixed."
+  not_for:
+    - "presenting it as a settled doctrine of universal salvation"
+    - "mentioning the 553 condemnation, which lies beyond this world's horizon"
+    - "asserting that Origen taught it as dogma rather than as inquiry"
+  years: {from: 220, to: 254}
+  status: provisional
 ---
 CONTEST (stated, fully): whether Origen taught it as doctrine is a
 named live scholarly debate (alx.contested.origen-positions); the 553

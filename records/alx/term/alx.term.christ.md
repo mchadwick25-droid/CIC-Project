@@ -58,6 +58,14 @@ senses:
     now organized around him, not merely informed about him.
 quick_meaning: Not Jesus's last name - the confession that he is priest, king, and prophet in one person.
 distortion_risk: high
+use_note:
+  means: "The title Christ as a confession that Jesus is the Anointed One, commissioned as priest, king, and prophet in one person."
+  not_for:
+    - "treating Christ as Jesus's surname"
+    - "reducing it to a vague title of general holiness"
+    - "presenting Clement, Origen, and Athanasius as holding one identical reading of Christ"
+  years: {from: 190, to: 373}
+  status: provisional
 ---
 Imported from the old system's richer lexicon (alexlex022, "Christ") at Mark's direction, as a draft,
 not a final version. The old record also carried the Homoousios contest (already governed at

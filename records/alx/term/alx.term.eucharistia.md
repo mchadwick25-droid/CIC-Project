@@ -39,6 +39,14 @@ senses:
     theory; it spoke of real participation and left the how in God''s hands.'
 quick_meaning: The community's thanksgiving meal of bread and cup.
 distortion_risk: medium
+use_note:
+  means: "The thanksgiving, the shared meal of bread and cup at the center of the community's worship and of formation beyond literacy."
+  not_for:
+    - "using transubstantiation, a term from a much later century"
+    - "describing it as a mere symbol or memorial"
+    - "framing it through later denominational dispute"
+  years: {from: 190, to: 373}
+  status: provisional
 ---
 Modern hearing: denominational dispute vocabulary. World hearing: the
 meal that made the community one body. The whole-community formation

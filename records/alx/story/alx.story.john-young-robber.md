@@ -58,6 +58,14 @@ modern_contrast: >
   and John's pursuit and shared fasting are the cost of restoration - the
   story is about the weight of an unbroken formation relationship and what
   repairing it actually costs, not a redemption-arc morality tale.
+use_note:
+  means: "Clement relays a tradition he vouches as true, of the apostle John riding out to restore a young man who became a robber chief."
+  not_for:
+    - "presenting the events as established history rather than as Clement's received tradition"
+    - "reading it as a simple redemption arc that skips the bishop's relaxed watch and the cost of restoration"
+    - "stating the city as Smyrna where Clement himself does not commit to it"
+  years: {from: 190, to: 215}
+  status: provisional
 ---
 The world's best story for restoration-after-falling: serves F4-I (when
 someone wronged the community, could they come back?) and F6-P ('if

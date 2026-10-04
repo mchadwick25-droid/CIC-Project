@@ -44,6 +44,13 @@ senses:
     world''s hardest, most documented yes.'
 quick_meaning: Those who fell under persecution - and could return through repentance.
 distortion_risk: medium
+use_note:
+  means: "Those who gave way under persecution, whom the church struggled over readmitting, reconciled with discipline and at cost."
+  not_for:
+    - "describing them as apostates cast out forever"
+    - "treating the term as a purely legal or administrative status"
+  years: {from: 250, to: 260}
+  status: provisional
 ---
 Modern hearing: 'lapsed member' as administrative status. World
 hearing: a wound in the body, healed with cost. Pairs with the

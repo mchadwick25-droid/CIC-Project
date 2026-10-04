@@ -50,6 +50,15 @@ modern_contrast: >
   - see alx.term.photismos, alx.term.katechesis), so Didymus is not an
   exception proving a rule against blindness but ordinary evidence of how
   formation already worked for anyone, sighted or not.
+use_note:
+  means: "Palladius, visiting late in the fourth century, met the aged blind teacher Didymus, who lost his sight at four and held Scripture in memory."
+  not_for:
+    - "framing it as an overcoming-disability story"
+    - "describing Didymus's classroom or methods, which Palladius does not record"
+    - "attributing the seer epithet to Jerome's own De Viris 109"
+    - "claiming Didymus's own books survive"
+  years: {from: 380, to: 398}
+  status: provisional
 ---
 Serves F4-P ('does your way of life have anything for someone like
 me?' - a man the world would have written off, taught and remembered

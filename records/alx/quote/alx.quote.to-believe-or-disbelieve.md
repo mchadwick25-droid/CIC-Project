@@ -41,6 +41,14 @@ relations:
   target: alx.term.autexousia
 - type: associated-with
   target: alx.dw.doubt
+use_note:
+  means: "Clement, in Stromateis IV.24, argues that believing or disbelieving, like philosophizing, lies in our power because we are equally masters of either choice."
+  not_for:
+    - "a pastoral permission for doubt, when the argument serves to make punishment intelligible"
+    - "an ordinary believer's experience of doubt"
+    - "the community's way of meeting doubters, which sits in alx.dw.doubt"
+  years: {from: 198, to: 215}
+  status: provisional
 ---
 THE LOCUS IS CORRECTED RATHER THAN COPIED. Both records cite Stromateis II.15 and IV.24 for the
 free-will argument; the sentence quoted here stands in the chapter the vendored edition heads "The
