@@ -74,9 +74,19 @@
     <p class="eyebrow">The visitor cookie</p>
     <h2>One cookie, for a daily limit</h2>
     <p>When you start a conversation or send a message, our server may set a cookie named cic_visitor. It holds a random ID and a signature that proves we issued it. It holds no name, email, or device details.</p>
-    <p>The cookie does one job. It lets us set a daily limit: 5 new conversations and 150 messages per visitor each day (UTC). The limit stops one person from running up costs for the pilot. We also count unique visitors from it.</p>
+    <p id="cookie-one-job">The cookie does one job. It lets us set a daily limit: 5 new conversations and 150 messages per visitor each day (UTC). The limit stops one person from running up costs for the pilot. We also count unique visitors from it.</p>
+    <p id="cookie-two-jobs" hidden>The cookie does two jobs. It lets us set a daily limit: 5 new conversations and 150 messages per visitor each day (UTC). The limit stops one person from running up costs for the pilot. It also keeps track of your free allowance, described in the next section. We also count unique visitors from it.</p>
     <p>The cookie is only sent to this site. It does not follow you to other sites, and we do not use it for advertising. You do not need an account.</p>
     <p>It lasts up to 400 days. You can delete it in your browser settings at any time. If you do, you get a new ID.</p>
+  </section>
+
+  <section class="page-section" id="go-deeper" hidden>
+    <p class="eyebrow">Go Deeper</p>
+    <h2>Tokens and the free allowance</h2>
+    <p>Go Deeper lets you carry on a conversation with tokens. You pay for them on Stripe's own pages. Stripe holds your name, email and payment details. Our conversation system never receives them.</p>
+    <p>A code holds your tokens. We store only a scrambled version of the code (a hash), how many tokens it holds, the Stripe payment ID, the day it was made, and the week it was last used. We do not store your name or email with it. We do not record which conversation used which code.</p>
+    <p>We keep these records apart from your conversations and from Stripe, and no ID is shared between them. Someone who could see all of them, and your Stripe account, might still be able to guess which conversation used a code, for example from how many tokens it spent and when.</p>
+    <p>Your free allowance is kept for each visitor. We store a scrambled value made from your visitor ID, the day you first used it, and how much you have used. We delete it 30 days after that first day. A backup can keep it for up to 14 more days. If you delete your cookie, we can no longer match you to it.</p>
   </section>
 
   <section class="page-section" id="retention">
@@ -145,5 +155,7 @@ if (menu && menuToggle) {
 }
 })();
 </script>
+<script src="assets/go-deeper-config.js"></script>
+<script src="assets/privacy-go-deeper.js"></script>
 </body>
 </html>

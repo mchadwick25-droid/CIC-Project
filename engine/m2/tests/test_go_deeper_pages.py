@@ -272,3 +272,38 @@ def test_the_no_link_rule_catches_a_link_without_the_extension():
     for link in ('<a href="/go-deeper">', '<a href="go-deeper.html">', "<a href='go-deeper-return.html'>"):
         assert caught.search(link), link
     assert not caught.search('<script src="assets/go-deeper-config.js"></script>')
+
+
+def test_the_privacy_page_shows_the_go_deeper_parts_only_when_go_deeper_is_on():
+    out = _node("privacy")
+    assert out["off"] == {"applied": False, "section": True, "one": False, "two": True}
+    assert out["absent"]["applied"] is False and out["notStrictlyTrue"]["applied"] is False
+    assert out["on"] == {"applied": True, "section": False, "one": True, "two": False}
+    assert out["pageWithoutTheParts"] is False
+
+
+def test_the_privacy_page_ships_with_the_go_deeper_parts_hidden_and_the_current_text_showing():
+    html = (SITE / "privacy.html").read_text()
+    assert '<section class="page-section" id="go-deeper" hidden>' in html
+    assert '<p id="cookie-two-jobs" hidden>' in html
+    assert '<p id="cookie-one-job">' in html
+    assert html.index("assets/go-deeper-config.js") < html.index("assets/privacy-go-deeper.js")
+
+
+def test_the_privacy_page_go_deeper_words_read_at_the_target_level_and_name_no_money_figure():
+    html = (SITE / "privacy.html").read_text()
+    section = html[html.index('id="go-deeper"'):html.index('id="retention"')]
+    text = " ".join(_text_of("<main>" + section + "</main>"))
+    assert text, "the section's words were not found"
+    assert score_turn(text).passed, score_turn(text).failures
+    assert not re.search(r"[$€£]|\d+\s*%", text)
+    assert "30 days" in text and "14 more days" in text
+
+
+def test_the_privacy_page_numbers_match_the_free_window_and_the_backup_keep():
+    from engine.api import db_backup
+
+    html = (SITE / "privacy.html").read_text()
+    section = html[html.index('id="go-deeper"'):html.index('id="retention"')]
+    assert f"{load_ops().rates.free_window_days} days" in section
+    assert f"{db_backup._DEFAULT_RETENTION_DAYS} more days" in section
