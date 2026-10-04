@@ -38,7 +38,7 @@ use_note:
     - "a claim that the treasure saying is the dream's own coinage; it quotes Matthew 6:21"
     - "a claim that this world forbade pagan learning outright"
   years: {from: 374, to: 384}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 22 sec. 30,
 div v.XXII). ATTRIBUTION SHAPE: these are the words of the Judge in

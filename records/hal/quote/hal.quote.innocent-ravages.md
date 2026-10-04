@@ -42,7 +42,7 @@ use_note:
     - "a claim identifying who led or carried out the attack"
     - "a claim that this Paula is the elder Paula, who died in 404"
   years: {from: 416, to: 417}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 137, div
 v.CXXXVII; 'Paula' here is the younger Paula, Eustochium's niece, per the

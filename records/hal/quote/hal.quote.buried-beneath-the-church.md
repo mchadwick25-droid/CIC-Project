@@ -45,7 +45,7 @@ use_note:
     - "a claim that the community's ordinary daily worship was trilingual"
     - "a neutral eyewitness report free of the memorial's persuasive shaping"
   years: {from: 404, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Opened for F5-E, which hal.limit.f5-material-remains served alone. The limit cites
 this letter for "the buildings named; the burial by the church" and had no quote.

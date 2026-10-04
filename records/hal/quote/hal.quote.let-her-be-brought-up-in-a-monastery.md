@@ -46,7 +46,7 @@ use_note:
     - "a claim that the girl chose this life; it was chosen for her as an infant"
     - "a description of how all children in this world were raised"
   years: {from: 403, to: 403}
-  status: provisional
+  status: reviewed
 ---
 Opened for F1-T. hal.dw.sin-grace cites this letter for "a child raised toward
 baptism and consecration" and had nothing quotable behind it.

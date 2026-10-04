@@ -57,7 +57,7 @@ use_note:
     - "a claim that monasticism descended institutionally from the apostles"
     - "a claim that the scriptural defence of the ascetic ranking went uncontested in its own day"
   years: {from: 384, to: 412}
-  status: provisional
+  status: reviewed
 ---
 F4-evidential answer-ground. The novelty admission is Ep. 127 sec. 5's own
 testimony ('In those days no highborn lady at Rome had made profession of

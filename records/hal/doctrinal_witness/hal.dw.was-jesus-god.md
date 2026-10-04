@@ -55,7 +55,7 @@ use_note:
     - "a claim that this world wrote its own treatise on the Trinity"
     - "a claim that 'personal Lord and Savior' was this world's own phrase"
   years: {from: 384, to: 403}
-  status: provisional
+  status: reviewed
 ---
 Center-translational answer-ground. The translational discipline: near
 answers marked as near ('close kin'), later formulas named as later, no

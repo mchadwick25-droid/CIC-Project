@@ -55,7 +55,7 @@ use_note:
     - "eyewitness testimony about what happened inside the council of Nicaea"
     - "a settled judgment on whether doctrine or personality decided the Origenist dispute"
   years: {from: 393, to: 403}
-  status: provisional
+  status: reviewed
 ---
 F1-evidential answer-ground. The how-do-we-know honesty for the world's
 own dispute lives at hal.contested.origenist-substance (related contest;

@@ -39,7 +39,7 @@ use_note:
     - "a confirmed fact that Jerome was a candidate to become bishop of Rome"
     - "a neutral account of why he left Rome rather than his aggrieved self-defence"
   years: {from: 382, to: 385}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 45 sec. 3,
 div v.XLV; the file's editorial footnote on the Latin elided). Written on

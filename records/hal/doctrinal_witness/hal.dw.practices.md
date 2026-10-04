@@ -60,7 +60,7 @@ use_note:
     - "a claim that this world held a rapture or calculated end-times scheme"
     - "a claim that reading Rome's fall as judgment excluded mourning it"
   years: {from: 403, to: 412}
-  status: provisional
+  status: reviewed
 ---
 F4-translational answer-ground. The no-tithe and no-rapture answers are
 honest negatives with this world's actual practices in their place. The

@@ -39,7 +39,7 @@ use_note:
     - "a claim that the church of his day, or the later Latin church, accepted Jerome's canon"
     - "a claim that the disputed books were left out of Jerome's translation as it came to be used"
   years: {from: 391, to: 392}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Prefaces to the
 Vulgate OT, div vii.iii). The continuation naming names is verified in the

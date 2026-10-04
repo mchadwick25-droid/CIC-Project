@@ -45,7 +45,7 @@ use_note:
     - "a claim that this is Jerome's own account of his orthodoxy rather than a distant admirer's view"
     - "a claim that Jerome was never thought to follow Origen"
   years: {from: 393, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Opened for F3-T, served by hal.dw.one-church alone, which cites this dialogue for
 "a man truly Catholic" and could not show it.

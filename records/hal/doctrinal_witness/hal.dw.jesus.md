@@ -55,7 +55,7 @@ use_note:
     - "a claim that Jerome's exhortations and epitaphs show the whole community's inner devotion"
     - "a claim that this place-bound devotion was shared by all Christians of the period"
   years: {from: 384, to: 404}
-  status: provisional
+  status: reviewed
 ---
 The Center cell's answer-ground. Companion quotes: hal.quote.eyes-of-faith,
 hal.quote.hail-bethlehem (both Ep. 108 sec. 10, verified verbatim);

@@ -53,7 +53,7 @@ use_note:
     - "a claim that the community truly renounced wealth rather than redirecting a senatorial fortune"
     - "a claim that Jerome's satire of Roman clergy is a neutral report"
   years: {from: 384, to: 404}
-  status: provisional
+  status: reviewed
 ---
 F3-evidential answer-ground. The catacombs answer is period-honest (open
 churches, memory of persecution) without borrowing the famous

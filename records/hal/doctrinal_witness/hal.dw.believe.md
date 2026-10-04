@@ -53,7 +53,7 @@ use_note:
     - "a claim that everyone who sought restoration received it; only the advocate's success stories survive"
     - "a claim that belief was not expected of those received"
   years: {from: 384, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Center-personal answer-ground. Grounded in the two attested arcs the world
 itself preserved (the dream, Fabiola's penance and reception) rather than

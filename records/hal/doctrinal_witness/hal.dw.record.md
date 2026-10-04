@@ -58,7 +58,7 @@ use_note:
     - "a claim that the holy places served as documentary rather than devotional evidence"
     - "a claim that correcting the text meant distrusting scripture"
   years: {from: 383, to: 405}
-  status: provisional
+  status: reviewed
 ---
 Center-evidential answer-ground. The 'eyes of faith' phrasing (Ep. 108
 sec. 10, verified) is the record's own honesty about what kind of seeing

@@ -72,7 +72,7 @@ use_note:
     - "a claim that the Greek-based Palladius says the same; there it is a guarded prediction about temper"
     - "an independent witness free of hostility to Jerome"
   years: {from: 404, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file, Book I, ch. l.
 

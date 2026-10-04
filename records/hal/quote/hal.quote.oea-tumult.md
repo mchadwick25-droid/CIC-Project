@@ -38,9 +38,8 @@ use_note:
   not_for:
     - "a claim that Jerome's translation was rejected across the churches"
     - "a neutral report; it comes from the translation project's most serious critic"
-    - "a claim that 'the Greeks' were people from Greece"
   years: {from: 403, to: 403}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf101 (div
 vii.1.LXXI). The Oea gourd incident in Augustine's own hand - the

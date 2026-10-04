@@ -39,7 +39,7 @@ use_note:
     - "a claim that 'the heretics' were non-Christians; they were Christian opponents in the Pelagian quarrel"
     - "a detailed account of the attack or of who led it"
   years: {from: 416, to: 417}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 139, div
 v.CXXXIX; the file's editorial gloss identifying 'our house' as the

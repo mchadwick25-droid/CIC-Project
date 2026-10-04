@@ -56,7 +56,7 @@ use_note:
     - "a claim that those who questioned Fabiola's remarriage agreed with Jerome's account"
     - "a claim that divorced people were excluded from the church"
   years: {from: 382, to: 400}
-  status: provisional
+  status: reviewed
 ---
 F6-translational identity-collision answer-ground (the marriage-ending
 question). The equal-law point is Ep. 77 sec. 3's own argument

@@ -45,7 +45,7 @@ use_note:
     - "a factual report of clerical conduct rather than polemical satire"
     - "a claim that all or most clergy of Rome behaved this way"
   years: {from: 384, to: 384}
-  status: provisional
+  status: reviewed
 ---
 Opened for F3-P, served by hal.dw.church-failure alone. The witness cites sec. 28
 for "clergy corruption named from inside" and could not show it.

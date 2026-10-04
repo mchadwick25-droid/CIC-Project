@@ -38,7 +38,7 @@ use_note:
     - "a claim that this was a medical institution in the modern sense"
     - "a claim that this hospital and the home for strangers at Portus were one institution"
   years: {from: 382, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 77 sec. 6,
 div v.LXXVII). The 'first person' priority claim is Jerome's own and is

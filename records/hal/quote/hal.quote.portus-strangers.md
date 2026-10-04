@@ -37,7 +37,7 @@ use_note:
     - "a literal measure of the hospice's fame rather than eulogy"
     - "a claim that 'strangers' means the general public rather than travellers and pilgrims"
   years: {from: 395, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 77, the
 Fabiola-and-Pammachius hospice at Rome's harbor). Note: the NPNF editor's

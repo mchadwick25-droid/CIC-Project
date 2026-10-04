@@ -53,7 +53,7 @@ use_note:
     - "a claim that Jerome never sympathized with universal restoration; he renounced it under controversy"
     - "a claim that the extent of his earlier sympathy is settled"
   years: {from: 401, to: 417}
-  status: provisional
+  status: reviewed
 ---
 F6-translational answer-ground for the hell and narrowness questions. The
 non-judgment discipline for the asker ('It is not ours to judge you...')

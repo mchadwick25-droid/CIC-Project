@@ -43,7 +43,7 @@ use_note:
     - "a claim that Jerome honors marriage on its own terms"
     - "a claim that all Christians of this world, or even Jerome's own friends, accepted this ranking"
   years: {from: 384, to: 384}
-  status: provisional
+  status: reviewed
 ---
 Opened for F4-E. hal.dw.apostolic cites Letter XXII secs. 21 and 36 for the
 scriptural precedents claimed for the ascetic life, and cites Against Jovinianus Book I for the

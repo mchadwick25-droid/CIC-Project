@@ -43,7 +43,7 @@ use_note:
     - "a claim that women in general could openly challenge teachers in this world"
     - "a claim that her questioning was doubt about the faith rather than study"
   years: {from: 382, to: 412}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 127 sec.
 7; 'them' = the scriptures, from the preceding sentence). Marcella's

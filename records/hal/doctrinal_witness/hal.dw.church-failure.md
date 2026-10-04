@@ -60,7 +60,7 @@ use_note:
     - "a claim that this world's church was clean or blameless"
     - "a direct ancient parallel to modern cases of institutions protecting abusers"
   years: {from: 384, to: 417}
-  status: provisional
+  status: reviewed
 ---
 F3-personal answer-ground for the church-failure and power questions. The
 protected-people-who-caused-harm modern framing has no direct ancient

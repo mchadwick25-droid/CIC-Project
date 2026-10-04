@@ -36,7 +36,7 @@ use_note:
     - "a poetic coinage; 'house of bread' is the Hebrew meaning of the place name"
     - "a claim that she spoke these words when dying; they belong to her arrival around 386"
   years: {from: 386, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 108 sec. 10;
 the file's editorial footnote on the Hebrew meaning of Bethlehem elided

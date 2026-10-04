@@ -37,7 +37,7 @@ use_note:
     - "a literal timetable of Jerome's day rather than an admiring visitor's sketch"
     - "a claim that the whole community, not Jerome alone, spent every hour at books"
   years: {from: 400, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf211. An outside
 visitor's eyewitness sketch of the Bethlehem scholar at work, c. 400 - the

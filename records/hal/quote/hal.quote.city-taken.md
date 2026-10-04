@@ -38,7 +38,7 @@ use_note:
     - "an eyewitness account; Jerome heard of the sack second-hand in Bethlehem"
     - "a precise historical account of the famine or the casualties of the sack"
   years: {from: 410, to: 412}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 127 sec.
 12, div v.CXXVII; one editorial footnote insertion in the file - 'By

@@ -61,7 +61,7 @@ use_note:
     - "a claim that this world taught transubstantiation or any worked-out eucharistic theory"
     - "a claim that this world taught salvation by faith alone or by works alone"
   years: {from: 403, to: 417}
-  status: provisional
+  status: reviewed
 ---
 F1-translational answer-ground. The eucharistic thinness is real and
 stated; no invented sacramental detail. The anti-Pelagian position is

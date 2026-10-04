@@ -42,7 +42,7 @@ use_note:
     - "a claim that Paula reported a literal vision or physical sight of the Nativity"
     - "Paula's own words; they reach us in Jerome's 404 epitaph, shaped by its genre"
   years: {from: 386, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 108 sec. 10,
 div v.CVIII). ATTRIBUTION SHAPE: Jerome reporting Paula's protestation at

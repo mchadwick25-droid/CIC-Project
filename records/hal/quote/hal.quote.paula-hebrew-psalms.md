@@ -38,7 +38,7 @@ use_note:
     - "an independently verified measure of Paula's fluency; it is epitaph praise from one hand"
     - "a claim that all the women of the community learned Hebrew"
   years: {from: 386, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 108; the
 same passage carries the claim for Eustochium: 'The same accomplishment

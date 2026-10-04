@@ -37,7 +37,7 @@ use_note:
     - "a claim that 'letters' here means correspondence rather than alphabet toys"
     - "a description of how children in general were taught in this world"
   years: {from: 403, to: 403}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 107 sec. 4,
 div v.CVII). The community's pedagogy at its most concrete and humane - an

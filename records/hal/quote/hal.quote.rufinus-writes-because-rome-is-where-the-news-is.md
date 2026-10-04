@@ -49,7 +49,7 @@ use_note:
     - "a claim that the bishop of Rome then held the authority later bishops held"
     - "a claim that the dispute ended in a formal verdict"
   years: {from: 400, to: 401}
-  status: provisional
+  status: reviewed
 ---
 Opened for F1-E, served by hal.dw.authority alone, whose two loci both read 'whole work' -
 a body of text rather than a place in one, which is why the instrument ruled this cell NEEDS READING.

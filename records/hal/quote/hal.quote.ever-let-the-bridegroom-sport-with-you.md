@@ -48,7 +48,7 @@ use_note:
     - "a doctrinal definition of Christ rather than devotional exhortation"
     - "a description of every member's prayer life rather than Jerome's counsel to one consecrated virgin"
   years: {from: 384, to: 384}
-  status: provisional
+  status: reviewed
 ---
 Opened for C-T, which hal.dw.was-jesus-god served alone with no quote. That witness
 cites this exact locus for "devotion to Christ as Lord and Bridegroom" and could not show it.

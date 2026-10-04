@@ -49,7 +49,7 @@ use_note:
     - "a claim that this world wrote any defence of unbelieving doubt"
     - "a claim about the doubts of ordinary people, which left no trace"
   years: {from: 382, to: 412}
-  status: provisional
+  status: reviewed
 ---
 F1-personal answer-ground. Marcella's disputing-to-learn is quoted
 verbatim at hal.quote.dispute-to-learn; the funeral material lives in

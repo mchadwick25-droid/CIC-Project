@@ -43,7 +43,7 @@ use_note:
     - "a medically established cause of Blaesilla's death"
     - "a claim that Jerome himself accepted the crowd's charge"
   years: {from: 384, to: 385}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 39 sec. 6,
 div v.XXXIX). ATTRIBUTION SHAPE: the Roman funeral crowd's whispers as

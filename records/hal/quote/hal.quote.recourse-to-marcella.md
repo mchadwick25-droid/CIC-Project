@@ -39,7 +39,7 @@ use_note:
     - "a claim that she taught in her own name; Jerome adds she gave her opinions as from him or others"
     - "an independently corroborated fact; Jerome's memorial is its sole attestation"
   years: {from: 385, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 127 sec. 7).
 THE sole attestation of Marcella's post-385 standing - Documented as

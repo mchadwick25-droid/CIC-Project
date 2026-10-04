@@ -49,7 +49,7 @@ use_note:
     - "a claim that Fabiola was condemned or shut out; the passage records her restoration"
     - "a neutral report rather than Jerome's advocacy for a woman he admired"
   years: {from: 382, to: 400}
-  status: provisional
+  status: reviewed
 ---
 Opened for F6-T, served by hal.dw.marriage-ending alone, which cites this locus for
 "Fabiola's divorce, remarriage, penance, restoration" and had nothing quotable.

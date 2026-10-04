@@ -38,7 +38,7 @@ use_note:
     - "a claim that Jerome had complete mastery of Hebrew"
     - "a claim that Jerome knew little Hebrew; the statement is modest, not a disavowal"
   years: {from: 404, to: 404}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 108, the
 passage on Paula's Hebrew; the file's line-wrap artifact in 'unceasingly'

@@ -58,7 +58,7 @@ use_note:
     - "a claim that its answers to suffering ended the mourning"
     - "a claim that these losses came from pagan persecutors; the 416 attack came from fellow Christians"
   years: {from: 384, to: 417}
-  status: provisional
+  status: reviewed
 ---
 F6-personal answer-ground for the suffering questions. Companion quote:
 hal.quote.city-taken (verified verbatim); companion stories:

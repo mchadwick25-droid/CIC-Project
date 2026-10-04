@@ -59,7 +59,7 @@ use_note:
     - "a claim that any present-day church is this community's sole heir"
     - "a claim that professed unity matched practice; this world fought fellow catholics bitterly"
   years: {from: 386, to: 404}
-  status: provisional
+  status: reviewed
 ---
 F3-translational answer-ground. The is-there-a-church-today answer keeps
 the bounded-reconstruction discipline in-world (visitable only through

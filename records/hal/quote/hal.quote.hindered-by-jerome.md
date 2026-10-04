@@ -53,7 +53,7 @@ use_note:
     - "this world's own voice; it is an outside, adverse witness"
     - "a claim that 'jealousy' here means romantic jealousy"
   years: {from: 386, to: 420}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored Clarke translation (a
 footnote-number artifact in the raw file, 'Paula,276', is elided from the
