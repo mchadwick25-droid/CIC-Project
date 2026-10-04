@@ -37,70 +37,24 @@ def _display_matches(display_tokens: list[str], term_tokens: list[str]) -> bool:
     )
 
 
-def resolve_term_ids(reader_modern_terms: list[dict], modern_terms: dict[str, dict]) -> list[dict]:
-    """Give the reader's flagged terms the fleet's own record ids.
-
-    The reader is instructed to return "term_id: a short snake_case id you
-    invent for it" - so live it returns things like "trinity_doctrine" or
-    "the_trinity", while engine.m5.routing intersects those against a set
-    of fleet record ids (_fleet.modern.trinity). Measured live: the
-    intersection was empty every time, and bridge_turn -
-    fully built and passing its own tests - could not be reached by any
-    real session. This closes that seam in code rather than by asking the
-    model to guess an id out of a catalogue it cannot see.
-
-    The match is on the record's authored display_terms against the
-    reader's own `display` field ("the term as the participant used it"),
-    which is the pairing those two fields were named for. The invented
-    term_id is deliberately NOT matched on: it is model-composed, and
-    routing a bridge on it would be routing on invention again. A term
-    with no match keeps whatever the reader gave it and simply never
-    intersects - the same outcome as before, for the same reason.
-    """
-    by_display = [
-        (_tokens(display_term), record["id"])
-        for record in modern_terms.values()
-        if record.get("record_type") == "modern_term"
-        for display_term in record.get("display_terms") or []
-    ]
-    resolved = []
-    for term in reader_modern_terms or []:
-        display_tokens = _tokens(term.get("display"))
-        match = next(
-            (rid for term_tokens, rid in by_display if _display_matches(display_tokens, term_tokens)),
-            None,
-        )
-        if match is None:
-            resolved.append(dict(term))
-            continue
-        # The reader's own id is kept, not overwritten in silence - the
-        # gate_decision event and any M7 audit can still see what the
-        # model actually said before code renamed it.
-        resolved.append({**term, "term_id": match, "reader_term_id": term.get("term_id")})
-    return resolved
-
-
 def terms_in_message(message: str, modern_terms: dict[str, dict], *, already_found=()) -> list[dict]:
     """Find the fleet's own modern terms in what the participant actually
     wrote, with no model in the loop.
 
-    resolve_term_ids above fixes the id the reader returns; it cannot fix
-    the reader not returning one. Measured: same world, same
-    day, same question in identical words, and the reader flagged "Trinity" on
-    two attempts and returned modern_terms: [] on a third. The bridge is
-    not a judgement call - the word is either in the message or it is not,
-    and the fleet record's display_terms are the authored list of what
-    counts. So this reads the message directly, and the reader's own
-    flagging becomes a supplement rather than the sole gate.
+    Measured: same world, same day, same question in identical words, and
+    the reader call flagged "Trinity" on two attempts and returned
+    modern_terms: [] on a third. The bridge is not a judgement call - the
+    word is either in the message or it is not, and the fleet record's
+    display_terms are the authored list of what counts. So this reads the
+    message directly, and it alone decides which modern terms are in play.
 
     Known limit, stated rather than hidden: matching is on whole tokens, so
     "Trinitarianism" does not match the authored term "Trinitarian". A
     record that wants an inflection matched lists it in display_terms
-    itself - the same rule resolve_term_ids follows, and the same reason:
-    what counts as the word is the record's decision, not this function's.
+    itself: what counts as the word is the record's decision, not this
+    function's.
 
-    already_found excludes ids the reader's own flags already resolved to,
-    so a term both paths see is carried once.
+    already_found excludes ids a caller has already resolved.
     """
     message_tokens = _tokens(message)
     found = []
