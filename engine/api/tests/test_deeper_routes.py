@@ -471,10 +471,22 @@ def test_the_flag_on_refuses_to_start_without_a_webhook_secret(tmp_path):
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
     with pytest.raises(DeeperConfigError):
         deeper_routes.build_runtime(config, {})
-    runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example"})
+    runtime = deeper_routes.build_runtime(
+        config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_DEEPER_SITE_ORIGIN": "https://site.example", "CIC_API_ANON_CAP_ENABLED": "1"}
+    )
     assert runtime.site_origin == "https://site.example" and runtime.products == {}
     runtime.meter.close()
     runtime.claims.close()
+
+
+@pytest.mark.parametrize("flag", [None, "", "0", "no"])
+def test_the_flag_on_refuses_to_start_without_the_visitor_cap(tmp_path, flag):
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET}
+    if flag is not None:
+        env["CIC_API_ANON_CAP_ENABLED"] = flag
+    with pytest.raises(DeeperConfigError):
+        deeper_routes.build_runtime(config, env)
 
 
 def test_the_config_defaults_to_the_data_directory(monkeypatch, tmp_path):
