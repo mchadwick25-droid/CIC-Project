@@ -1658,3 +1658,46 @@ def test_citation_attach_is_never_called_when_off(monkeypatch):
         directive=None, session_id="test-session",
     )
     assert voice_event["attempts_meta"]["citation_attach"] == {"enabled": False, "added": [], "trail": []}
+
+
+def _gate_with_safety_failure(exc, monkeypatch):
+    from engine.m4 import citation_attach
+
+    monkeypatch.setattr(citation_attach, "_cooldown_until", 0.0)
+
+    class _Messages:
+        def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
+            if tool_choice["name"] == "submit_safety_classification":
+                raise exc
+            return SimpleNamespace(content=[_FakeToolUse("submit_reader_output", _reader())], usage=_FAKE_USAGE)
+
+    gate_run = run_gate(
+        session_id="test-session", safety_client=SimpleNamespace(messages=_Messages()), safety_model_id="m",
+        participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set(),
+    )
+    return gate_run, citation_attach._cooling_down()
+
+
+def test_a_throttled_safety_call_pauses_citation_attachment(monkeypatch):
+    """Attachment shares the safety model's quota: a throttled safety call
+    fails closed, and attachment steps aside so the next turns' safety calls
+    get the headroom."""
+    import anthropic
+    import httpx
+
+    throttled = anthropic.RateLimitError(
+        "slow down", response=httpx.Response(429, request=httpx.Request("POST", "https://x")), body=None)
+    gate_run, cooling = _gate_with_safety_failure(throttled, monkeypatch)
+    assert gate_run.safety_outcome.failed and gate_run.safety_outcome.rate_limited
+    assert gate_run.gate_result.routing.action == "check_in_turn"
+    assert cooling
+
+
+def test_a_safety_call_that_fails_for_another_reason_leaves_attachment_running(monkeypatch):
+    import anthropic
+    import httpx
+
+    gate_run, cooling = _gate_with_safety_failure(
+        anthropic.APIConnectionError(request=httpx.Request("POST", "https://x")), monkeypatch)
+    assert gate_run.safety_outcome.failed and not gate_run.safety_outcome.rate_limited
+    assert not cooling

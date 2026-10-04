@@ -48,6 +48,7 @@ from typing import Callable
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
+from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_horizon
@@ -135,6 +136,11 @@ def run_gate(
         reader_future = pool.submit(live_calls.call_reader, safety_client, safety_model_id, message=participant_message)
         safety_outcome = safety_future.result()
         reader_outcome = reader_future.result()
+
+    # Citation attachment shares the safety model's quota; a throttled gate
+    # call pauses it so the next turns' safety calls get the headroom.
+    if safety_outcome.rate_limited or reader_outcome.rate_limited:
+        citation_attach.start_cooldown()
 
     if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id):
         usage_records.append(rec)

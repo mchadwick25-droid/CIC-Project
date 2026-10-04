@@ -13,7 +13,7 @@ a code-shape one), but the separation itself starts here, not later.
 """
 import json
 
-from anthropic import APIError, APITimeoutError
+from anthropic import APIError, APITimeoutError, RateLimitError
 
 from engine.m5.failure import CallOutcome
 
@@ -178,6 +178,8 @@ def _forced_tool_call(client, model_id: str, *, system: str, tool: dict, user_co
         )
     except APITimeoutError:
         return CallOutcome(status="timeout")
+    except RateLimitError as e:
+        return CallOutcome(status="error", value={"error": str(e), "rate_limited": True})
     except APIError as e:
         return CallOutcome(status="error", value={"error": str(e)})
 
