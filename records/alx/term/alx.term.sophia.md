@@ -49,6 +49,13 @@ senses:
     but by watching whether the quality of their life shows real contact with God.'
 quick_meaning: What formation grows in a soul, seen in how it loves and lives.
 distortion_risk: medium
+use_note:
+  means: "Sophia meant what a lifetime of formation grows in a soul, a change in how a person perceives, loves, and lives."
+  not_for:
+    - "describing it as accumulated experience or age"
+    - "treating it as theoretical mastery of ultimate questions"
+  years: {from: 180, to: 215}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (`cic-poc/backend/wrs/records/alexandria_world/term/alexlex006.md`,
 "Wisdom / Sophia") at Mark's direction, as a draft, not a final version - the fuller senses and relations

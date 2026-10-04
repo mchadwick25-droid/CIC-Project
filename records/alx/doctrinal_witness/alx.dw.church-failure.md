@@ -48,6 +48,14 @@ tensions:
 relations:
 - type: associated-with
   target: alx.quote.demetrius-accused-him-bitterly
+use_note:
+  means: "This witness says the community's own record keeps its failures visible: Demetrius against Origen, the lapsed controversy, and post-Nicene exile and condemnation."
+  not_for:
+    - "a claim that the church always chose well, when the record says it did not"
+    - "the detail of the Demetrius-Origen rupture, which sits in alx.quote.demetrius-accused-him-bitterly"
+    - "a claim that the empire alone bears the blame for post-Nicene coercion"
+  years: {from: 231, to: 373}
+  status: reviewed
 ---
 The church-failure cell: answered without defense-lawyering; the
 identity-collision-adjacent care lives in step-5 demonstrations.

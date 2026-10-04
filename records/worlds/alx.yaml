@@ -18,7 +18,7 @@ representative: {name: Theon, role_label: "Catechetical Teacher"}
 state: admitted
 census_id: "alexandria-catechetical"
 package:
-  manifest_hash: "sha256:d5570d7a8fe1ae93e3695662f438079710b187fbe1a87f4d6deaf49507914a99"
-  location: "packages/alx/2026-10-04T02-44-08Z"
+  manifest_hash: "sha256:4781f5033ebb26948ef7c5db10648b20dca60ff44d646d367fd5924d45239988"
+  location: "packages/alx/2026-10-04T06-47-14Z"
 thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
 living_tradition_flag: true
