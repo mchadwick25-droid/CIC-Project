@@ -42,6 +42,14 @@ retrieval:
   - "participant asks whether something happened to the elements"
 relations:
 - {type: illustrates, target: ijc.dw.bread-made-body}
+use_note:
+  means: "Ambrose teaches the newly baptized that the blessing changes what the bread and cup are, so that after consecration they are Christ's Body and Blood."
+  not_for:
+    - "a claim that Ambrose used the later term transubstantiation or scholastic substance-and-accidents language"
+    - "a claim that 'nature' here means the physical world or biology rather than what a thing fundamentally is"
+    - "a claim that this teaching was argued against live opponents in its own century"
+  years: {from: 385, to: 390}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (De
 Mysteriis IX.50 and IX.54, joined by a disclosed ellipsis across

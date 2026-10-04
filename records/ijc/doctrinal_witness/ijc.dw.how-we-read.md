@@ -55,6 +55,15 @@ tensions:
 relations:
 - type: associated-with
   target: ijc.quote.let-the-ancient-customs-prevail
+use_note:
+  means: "We read scripture and council rulings as binding authority for office, law, and boundary, and both Nicene sides argued from scripture's own words."
+  not_for:
+    - "a claim that fixing the biblical canon was this world's own documented business"
+    - "a claim that devotional reading was absent rather than thinly recorded"
+    - "a claim that only one side of the Nicene dispute argued from scripture"
+    - "a claim about how the unlettered received scripture beyond the channels the record shows"
+  years: {from: 325, to: 451}
+  status: reviewed
 ---
 F2-I answered from the world's documented interpretive habit (Doc_05
 SS8's finding, grounded here on vendored instances: Leo's Petrine

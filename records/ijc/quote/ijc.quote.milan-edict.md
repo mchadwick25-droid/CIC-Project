@@ -41,6 +41,12 @@ retrieval:
   - "participant asks what the law actually said"
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
+use_note:
+  means: "After meeting at Milan, Constantine and Licinius declare that Christians and all others should be free to follow whatever religion each thinks best."
+  not_for:
+    - "a claim that Constantine issued the Milan agreement alone"
+  years: {from: 313, to: 313}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 so-called Edict of Milan's own opening, as Lactantius preserves the
