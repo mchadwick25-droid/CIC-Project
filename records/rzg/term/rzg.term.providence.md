@@ -47,6 +47,12 @@ senses:
 quick_meaning: God's own continuous, active governing of everything he made - not a distant first cause,
   but ongoing care.
 distortion_risk: medium
+use_note:
+  means: "Providence is God's continuous, active care over everything he made, not that of a distant first cause who set the world going and stepped back."
+  not_for:
+    - "a claim that providence means nothing anyone does matters because every outcome is fixed"
+  years: {from: 1519, to: 1650}
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this
