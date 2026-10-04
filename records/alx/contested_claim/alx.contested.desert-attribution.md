@@ -25,6 +25,14 @@ concedes: Real transmission from Alexandria toward the desert (the knowing-impul
   model, the ascetic vocabulary) is well-attested and claimed. What is NOT claimed is the desert's formation
   logic as Alexandria's own.
 divergence_partners: []
+use_note:
+  means: "The claim that desert monasticism continues Alexandria's way of forming people is contested and held open between this world and the Desert build."
+  not_for:
+    - "presenting Antony, Pachomius, or the desert sayings as Alexandrian formation practice"
+    - "denying that real transmission from Alexandria toward the desert occurred"
+    - "resting any Alexandrian gravity, story, or claim on desert evidence"
+  years: {from: 270, to: 362}
+  status: reviewed
 ---
 CROSS-BUILD record: the open question belongs jointly to this world and
 the Desert build (spec stage 7's second world), and is resolvable only

@@ -37,22 +37,24 @@ relations:
   target: desert.core.desert
 - type: associated-with
   target: desert.force.melitian-rivalry
+use_note:
+  means: "The claim that the three organizational patterns were real boundaries felt by participants, not editorial artifacts of the compilers, is contested."
+  not_for:
+    - "Presenting how sharply participants felt the patterns' edges as settled"
+    - "Placing the Nepheros community cleanly in any one of the three patterns"
+    - "Citing Kellia's founding on Antony's advice as pinned to a source, when the attribution is inferred"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
-Re-derived from Doc_01 SS6 (open item 5) and SS11 item 5, and Doc_04
-SS7 (cross-strand testing's own six-of-ten finding), and carried
-forward explicitly at GRAVITY-INDEX.md's own open items 1 and 3 as
-this step's own contested-claim work. Two distinct questions are
-folded into one record because Doc_01/Doc_04/GRAVITY-INDEX all treat
-them as facets of the same underlying strand-boundary question, not
-because this build has collapsed them: (a) whether the three-strand
-finding itself describes participants' lived experience or a later
-compilation artifact (Doc_01 SS6), and (b) whether the Nepheros
-archive's own organizationally-intermediary community is a fourth
-pattern the typology misses (Doc_01 SS11 item 5, GRAVITY-INDEX.md open
-item 3). Neither question is resolved here - this record states both
-honestly as open, per the same discipline Doc_01 SS6 itself applied
-("reserved for Doc_04's cross-strand gravity testing," which then
-itself declined to resolve it and reserved it further, to this record).
+Two distinct questions are folded into one record because they are
+facets of the same underlying strand-boundary question, as the
+world's earlier analysis treats them, not because they have been
+collapsed: (a) whether the three-strand finding itself
+describes participants' lived experience or a later compilation
+artifact, and (b) whether the Nepheros archive's organizationally
+intermediary community is a fourth pattern the typology misses.
+Neither question is resolved here. This record states both honestly as
+unsettled.
 
 The Melitian-identity question specifically (whether Nepheros's
 Melitian, non-Nicene-communion status limits its usefulness as

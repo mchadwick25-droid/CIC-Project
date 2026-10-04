@@ -53,6 +53,14 @@ text: >
   her, not to remarry, and to take her back if she later repented. That
   fell on husband and wife alike. But repentance was not endless -
   there was, in our own teaching, only so much room for it.
+use_note:
+  means: "This world held unreconciled answers: Justin counted reasonable pagans as Christians, while one community's manual taught a stark choice between two ways."
+  not_for:
+    - "a claim that Justin's argument and the Two Ways teaching were reconciled"
+    - "a claim that the Two Ways teaching reached every community in this world"
+    - "a claim that repentance after infidelity was available without limit"
+  years: {from: 80, to: 157}
+  status: reviewed
 ---
 Justin First Apology 46 checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 viii (viii.ii.xlvi):

@@ -46,6 +46,14 @@ senses:
     carrying household rule, property, and public weight.'
 quick_meaning: A Roman woman of high rank, with wealth and real power over a great house.
 distortion_risk: medium
+use_note:
+  means: "A Roman woman of high rank who held inherited wealth and real authority over a large household."
+  not_for:
+    - "treating Paula, Marcella, and Fabiola as one interchangeable type"
+    - "reading it as housewife or as an empty title of nobility"
+    - "presenting Paula's ancestry as independently confirmed"
+  years: {from: 382, to: 410}
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 entry 10 (hal_lex10). The
 no-flattening caution is carried in false_friend.

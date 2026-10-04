@@ -64,6 +64,13 @@ senses:
     polity. Here the word''s meaning is still being shaped: council-rule in one region,
     bishop-support in another, and no umpire between them.'
 quick_meaning: The elders who govern a community. In some churches they rule as a council on their own. In others they gather around a single overseer.
+use_note:
+  means: "The elders who share the governing of a community, either as a council holding the whole trust or gathered around one overseer."
+  not_for:
+    - "priest in a later sacramental sense"
+    - "a purely advisory lay elder"
+  years: {from: 70, to: 200}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 2, Tier 1,
 CT contest: Meaning - the Polycarp self-designation question). Built as

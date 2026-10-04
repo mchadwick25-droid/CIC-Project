@@ -31,6 +31,14 @@ retrieval:
   retrieve_when:
   - "participant asks who cared for the sick and the destitute"
   - "participant asks what a wealthy woman did with her money"
+use_note:
+  means: "Jerome's memorial of Fabiola, written in 399 or 400, says she was the first to found a hospital, gathering and nursing the sick and destitute from the streets."
+  not_for:
+    - "a confirmed historical first; the priority claim is Jerome's alone and uncorroborated"
+    - "a claim that this was a medical institution in the modern sense"
+    - "a claim that this hospital and the home for strangers at Portus were one institution"
+  years: {from: 382, to: 400}
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 77 sec. 6,
 div v.LXXVII). The 'first person' priority claim is Jerome's own and is

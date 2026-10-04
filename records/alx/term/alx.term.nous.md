@@ -58,6 +58,14 @@ senses:
     a different kind of seeing, more like sight or contact than argument.'
 quick_meaning: The soul's highest power - to see God directly, not to reason toward him.
 distortion_risk: high
+use_note:
+  means: "Nous meant the soul's highest faculty, the mind's eye that perceives divine reality directly, where the image of God is most fully present."
+  not_for:
+    - "describing it as abstract reasoning or raw cleverness"
+    - "presenting Origen's pre-cosmic nous-cosmology as settled"
+    - "equating forming the nous with education or doctrinal mastery"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Origen's contested cosmology of the nous (the soul's pre-cosmic condition, later connected to condemned
 propositions) is carried here as a live, unresolved scholarly dispute rather than settled ground.

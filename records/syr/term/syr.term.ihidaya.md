@@ -63,6 +63,14 @@ senses:
 quick_meaning: 'The Single One: our word for the vowed celibate - and, at the same time, our
   title for Christ the Only-Begotten.'
 distortion_risk: medium
+use_note:
+  means: "Ihidaya, the Single One, names both the vowed celibate and Christ as the Only-Begotten, two senses sharing the root yhd and attested together in Aphrahat and Ephrem."
+  not_for:
+    - "a claim that an ihidaya was a solitary, hermit or monk"
+    - "a claim that this world's usage matches the later drifted sense of monk"
+    - "a claim that the christological and ascetic senses were unrelated"
+  years: {from: 337, to: 373}
+  status: reviewed
 ---
 Re-derived from syrlex007 (Tier 1). Kept as its own record rather than
 folded into qyama, per the legacy anti-double-counting guard: the

@@ -46,6 +46,14 @@ tensions:
 - the pre-Nicene writers speak of the Logos with subordinationist-sounding language later ruled out -
   the world's own century of clarification, held honestly
 - the intellectual register of the surviving sources vs the whole-community faith the sacraments carried
+use_note:
+  means: "This witness presents Jesus as the Logos in flesh, from Clement's New Song to Athanasius's line that he became man so we might become God."
+  not_for:
+    - "a claim that pre-Nicene writers spoke with later Nicene precision, when some sound subordinationist"
+    - "the whole community's faith, when the surviving sources are intellectual"
+    - "the Nicene question of whether Jesus was God, which sits in alx.dw.was-jesus-god"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 The Center cell's answer-ground. Companion quotes: clement-new-song,
 athanasius-made-god.

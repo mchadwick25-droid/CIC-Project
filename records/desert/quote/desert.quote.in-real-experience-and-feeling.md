@@ -35,6 +35,13 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit
+use_note:
+  means: "The Macarian Homilies, of unknown authorship, say that whoever strives to please God will see heavenly goods in real experience and feeling."
+  not_for:
+    - "the words of Macarius the Egyptian or any securely identified desert elder"
+    - "consciously felt grace as uncontested teaching, when it drew the Messalian charge"
+  years: {from: 375, to: 430}
+  status: reviewed
 ---
 The claim that made the corpus suspect, kept because a world that holds it should be shown holding
 it. desert.dw.god has this world knowing God by 'a long stilling of the passions' - an emptying. This

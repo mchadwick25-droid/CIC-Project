@@ -47,6 +47,12 @@ senses:
   translational: 'Modern ''presbytery'' names a governing body or a building. Here it names one
     region''s way of arranging leadership around a bishop, not a shape every community shared.'
 quick_meaning: The council of elders around a bishop. It is one region's shape for leadership, not everyone's.
+use_note:
+  means: "The council of elders around the overseer, which one letter says is tuned to him as strings are tuned to a harp."
+  not_for:
+    - "a denominational governing body or a building"
+  years: {from: 70, to: 200}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 6, Tier 2,
 PV tag: single-voice, no Strand B equivalent at all - Rome has no

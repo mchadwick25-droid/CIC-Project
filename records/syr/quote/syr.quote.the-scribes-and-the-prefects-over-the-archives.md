@@ -39,6 +39,14 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.remains
+use_note:
+  means: "The Chronicle of Edessa closes its year-513 flood entry by naming the two scribes who recorded the event and King Abgar's command and the two archivists who filed the record."
+  not_for:
+    - "a claim that the surviving text is the original archival document rather than a sixth-century copy"
+    - "a claim that the named scribes and archivists were Christians"
+    - "evidence that the church kept its own records in this way"
+  years: {from: 201, to: 201}
+  status: reviewed
 ---
 This is the second of two quotes for F5-E: the cell asks both what would be dug up and how anyone
 knows, and one sentence could not honestly answer both. This is the same entry as

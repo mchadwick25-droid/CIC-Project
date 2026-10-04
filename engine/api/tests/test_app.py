@@ -45,6 +45,8 @@ def test_list_worlds(store, usage_store, world_loader, registry):
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["horizon"]
     assert pahc["starters"]
+    assert pahc["app"] == registry["pahc"]["app"]
+    assert {w["app"]["order"] for w in worlds} == set(range(1, len(worlds) + 1))
 
 
 def test_create_session_with_no_world_is_refused(store, usage_store, world_loader, registry):

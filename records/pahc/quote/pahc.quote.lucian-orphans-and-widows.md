@@ -64,6 +64,14 @@ relations:
   target: pahc.force.state-pressure
 - type: associated-with
   target: pahc.quote.lucian-all-brothers
+use_note:
+  means: "Lucian's satire shows Christians tending an imprisoned Peregrinus from daybreak, their officials bribing jailers, bringing meals, and reading their sacred writings."
+  not_for:
+    - "a reliable portrait of Peregrinus himself"
+    - "a claim that the Fowlers' Edwardian phrasing reflects Lucian's own tone"
+    - "a witness independent of Lucian's passage on what Christians believed"
+  years: {from: 160, to: 170}
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file.
 

@@ -41,6 +41,12 @@ retrieval:
   - "participant asks what a bishop wrote to settle a dispute about it"
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
+use_note:
+  means: "Leo's Tome teaches that Christ is true God and true man, each form doing what is proper to it in cooperation with the other."
+  not_for:
+    - "a claim that 'form' means shape or outward appearance rather than the divine or human mode of being"
+  years: {from: 449, to: 449}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file (the
 edition's inline footnote markers stripped; "carrying out what

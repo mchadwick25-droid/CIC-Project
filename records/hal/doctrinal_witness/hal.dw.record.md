@@ -51,6 +51,14 @@ tensions:
   awareness of transmission's frailty
 - the evidential force of place is devotional, not documentary - Paula's sight of the
   manger was the sight of faith, and the record says so itself
+use_note:
+  means: "This witness holds that the community knew Jesus through scripture it carefully corrected from the Hebrew, the churches' worship, and the holy places, without any eyewitness chain."
+  not_for:
+    - "a claim that the community had eyewitness or living-memory links to Jesus"
+    - "a claim that the holy places served as documentary rather than devotional evidence"
+    - "a claim that correcting the text meant distrusting scripture"
+  years: {from: 383, to: 405}
+  status: reviewed
 ---
 Center-evidential answer-ground. The 'eyes of faith' phrasing (Ep. 108
 sec. 10, verified) is the record's own honesty about what kind of seeing

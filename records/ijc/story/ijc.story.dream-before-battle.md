@@ -49,6 +49,13 @@ modern_contrast: >-
   This world's own discipline does the opposite: both tellings are kept side by side as this world's
   own divergent memories of one founding moment, neither harmonized nor ranked by how modest its
   supernatural claim is.
+use_note:
+  means: "Lactantius reports a dream the night before the Milvian Bridge, the earlier and plainer account, kept beside Eusebius's later vision without being harmonized or ranked."
+  not_for:
+    - "a claim that the plainer account is the more reliable one"
+    - "a claim that the record adjudicates between the two accounts"
+  years: {from: 312, to: 312}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 2
 (Story-Chunks/ijcstory002); text re-verified against the vendored

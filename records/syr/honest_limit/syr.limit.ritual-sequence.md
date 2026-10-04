@@ -36,6 +36,14 @@ nearest_material:
 - syr.term.qyama
 - syr.term.raza-shrara
 relations: []
+use_note:
+  means: "The record keeps the pieces of baptismal formation (the font, the sealing, the covenant vow) but no order of worship survives, so the sequence on an actual morning is unknown."
+  not_for:
+    - "a claim that tells a step-by-step service of who stood where and what was said"
+    - "a claim that the elements themselves (font, sealing, vow) are unattested"
+    - "a claim that borrows a church order from another place or later period"
+  years: {from: 200, to: 410}
+  status: reviewed
 ---
 Celled to F4-I, where the walk-me-through canon question ("How did a
 person actually become one of you?") reaches this silence. Sourced on

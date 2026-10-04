@@ -43,6 +43,14 @@ retrieval:
   - "participant asks what they sang and why singing started"
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
+use_note:
+  means: "Augustine recalls Milan's people, his mother among them, guarding the church with their bishop in 386, when Eastern-style hymn and psalm singing began."
+  not_for:
+    - "a claim that this passage describes the first Latin hymns ever written"
+    - "a claim that the singing described was antiphonal in form"
+    - "a claim that the 'Thy servant' wording is this world's own chancery idiom rather than the translation's register for prayer to God"
+  years: {from: 397, to: 400}
+  status: reviewed
 ---
 Text verified verbatim against the vendored file. The
 ellipsis marks one omitted sentence ("We, still unmelted by the heat of

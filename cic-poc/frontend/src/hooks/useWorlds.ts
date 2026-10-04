@@ -1,17 +1,16 @@
 /**
- * Fetches GET /api/worlds once on mount and merges each summary with its
- * front-end-only assets (WORLD_ASSETS - portrait image, accent color;
- * neither lives in the registry). Ordered by WORLD_ORDER, the fixed
- * Stage 7.5 display order, not the registry's own file order.
+ * Fetches GET /api/worlds once on mount. Each world's place in the list,
+ * portrait and accent colour come with it, from its registry entry, so an
+ * admitted world appears without a new build of the app.
  */
 import { useEffect, useState } from 'react';
 import { getWorlds } from '../lib/api';
-import { WORLD_ASSETS, WORLD_ORDER, type WorldEntry } from '../data/worlds';
+import type { WorldEntry } from '../data/worlds';
 import type { WorldSummary } from '../types/conversation';
 
 function toEntry(summary: WorldSummary): WorldEntry | null {
-  const assets = WORLD_ASSETS[summary.world_key];
-  if (!assets || !summary.representative || !summary.time_window) return null;
+  const app = summary.app;
+  if (!app || !summary.representative || !summary.time_window) return null;
   return {
     worldKey: summary.world_key,
     censusId: summary.census_id,
@@ -28,8 +27,8 @@ function toEntry(summary: WorldSummary): WorldEntry | null {
     doorwayDescription: summary.doorway_description ?? summary.horizon,
     livingTraditionFlag: summary.living_tradition_flag,
     starters: summary.starters,
-    portraitImage: assets.portraitImage,
-    accentColor: assets.accentColor,
+    portraitImage: app.portrait,
+    accentColor: app.accent_color,
   };
 }
 
@@ -47,8 +46,9 @@ export function useWorlds() {
     getWorlds()
       .then(({ worlds }) => {
         if (cancelled) return;
+        const order = new Map(worlds.map((w) => [w.world_key, w.app?.order ?? Infinity]));
         const entries = worlds.map(toEntry).filter((w): w is WorldEntry => w !== null);
-        entries.sort((a, b) => WORLD_ORDER.indexOf(a.worldKey) - WORLD_ORDER.indexOf(b.worldKey));
+        entries.sort((a, b) => (order.get(a.worldKey) ?? Infinity) - (order.get(b.worldKey) ?? Infinity));
         setState({ worlds: entries, isLoading: false, error: null });
       })
       .catch(() => {
