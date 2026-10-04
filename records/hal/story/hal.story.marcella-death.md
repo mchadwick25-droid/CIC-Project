@@ -49,6 +49,14 @@ absent_detail: 'The scene reaches Jerome at second hand (''what I have heard... 
   No independent account of her death exists. Even here, at her most remembered, her own
   words are reported, not preserved.'
 modern_contrast: 'A modern reader often hears this as a directly witnessed martyrdom account. This world''s own record frames it differently: it reaches us at second hand, in epitaph genre, two years after the event ("be it mine to say what I have heard") - her composure and her thanksgiving are that genre''s conventions doing their work, not a documented transcript of her last hours.'
+use_note:
+  means: "Marcella's death after the Goths entered Rome in 410, reaching us only second-hand through Jerome's epitaph-genre memorial."
+  not_for:
+    - "presenting it as a directly witnessed martyrdom"
+    - "treating her composure and thanksgiving as documented fact"
+    - "quoting her words as preserved"
+  years: {from: 410, to: 410}
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S5. The 'be it mine to say what I have
 heard' distancing is the letter's own and is kept audible. Serves F6-P.

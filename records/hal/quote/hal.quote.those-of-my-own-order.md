@@ -39,6 +39,13 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.church-failure
+use_note:
+  means: "Jerome, himself a cleric, writing to Eustochium in 384, mocks fellow clergy who seek ordination to see women freely and fuss over dress and perfume."
+  not_for:
+    - "a factual report of clerical conduct rather than polemical satire"
+    - "a claim that all or most clergy of Rome behaved this way"
+  years: {from: 384, to: 384}
+  status: reviewed
 ---
 Opened for F3-P, served by hal.dw.church-failure alone. The witness cites sec. 28
 for "clergy corruption named from inside" and could not show it.

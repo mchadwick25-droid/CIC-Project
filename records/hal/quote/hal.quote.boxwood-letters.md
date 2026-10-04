@@ -30,6 +30,14 @@ retrieval:
   retrieve_when:
   - "participant asks how children were taught to read and by whom"
   - "participant asks what they thought education should start with"
+use_note:
+  means: "Jerome advises Laeta, around 403, to give her infant daughter Paula boxwood or ivory alphabet letters as toys so that play teaches reading."
+  not_for:
+    - "a claim that this was actually done; it is advice, and its practice is unattested"
+    - "a claim that 'letters' here means correspondence rather than alphabet toys"
+    - "a description of how children in general were taught in this world"
+  years: {from: 403, to: 403}
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 107 sec. 4,
 div v.CVII). The community's pedagogy at its most concrete and humane - an
