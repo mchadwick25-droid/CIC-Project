@@ -6248,3 +6248,9 @@ The approved design called for a horizon gate (speaking only from inside a world
 Under decision 36 a world's admission evidence was bound to its whole package hash, so a new gate, which changes only the package's validation report, would force fresh admission runs for every world although nothing the voice reads had changed.
 
 41. Admission binds to the package's compiled content (every compiled/ file with its generated-by stamp removed, `engine.m2.manifest.compiled_content_hash`) and to the current shape hash. Admission reports record this content hash; the conform check requires a passing report on the pinned package's content hash and the current shape, and accepts a report written before content hashes were recorded when it ran on the pinned package itself. A change to what the voice reads, or to the shape, still forces re-admission; a change only to the validation report or the frozen record copy does not. The registry pin and load-time verification stay on the full manifest. The project lead chose this over keeping the whole-package hash and over exempting only the validation report.
+
+## 2026-10-04 - Fleet records live with the engine modules that own them (decision 44)
+
+Decision 8 moved the non-world kinds out of the worlds; the design left the one cross-world contested claim and the two fleet sources to the project lead.
+
+44. The fleet's records leave records/_fleet/ for the engine module that owns each kind: the fleet voice record to engine/shape/records/, the canon questions to engine/canon/records/, and the modern-term record to engine/m5/records/ together with the contested claim (Theophilus's triad) and the two sources (Theophilus, To Autolycus; Tertullian, Against Praxeas) that its card cites. They keep their ids and stay under the full gate battery, the fleet readability waiver included. The project lead chose this over keeping the claim and sources in records/_fleet and over parking all three.
