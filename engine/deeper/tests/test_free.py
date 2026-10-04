@@ -78,3 +78,17 @@ def test_an_amount_below_one_is_refused(free, bad):
 def test_a_free_day_below_one_is_refused():
     with pytest.raises(ValueError):
         DailyFreeAllowance(0)
+
+
+def test_the_allowance_never_logs_or_stores_a_visitor_key():
+    import ast
+    from pathlib import Path
+
+    import engine.deeper.free as module
+
+    tree = ast.parse(Path(module.__file__).read_text())
+    imported = {a.name.split(".")[0] for n in ast.walk(tree) if isinstance(n, ast.Import) for a in n.names}
+    imported |= {n.module.split(".")[0] for n in ast.walk(tree) if isinstance(n, ast.ImportFrom) and n.module}
+    assert imported <= {"threading", "datetime", "typing"}
+    called = {n.func.id for n in ast.walk(tree) if isinstance(n, ast.Call) and isinstance(n.func, ast.Name)}
+    assert not called & {"print", "open"}

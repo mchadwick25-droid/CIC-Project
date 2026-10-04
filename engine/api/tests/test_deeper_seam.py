@@ -2,6 +2,7 @@
 is asked exactly what it would be asked for a free turn, and every limit still
 leaves the safety check in front of the participant."""
 import copy
+import dataclasses
 import json
 import logging
 import re
@@ -354,12 +355,24 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http)
         runtime.facilitator_only_sessions.add(session_id)
+    elif name == "free_day_spent":
+        http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+        runtime.free.settle(runtime.free.reserve("ip:testclient", runtime.token_rates.free_daily), True)
+        session_id, auth = open_session(http)
+    elif name == "free_rounds_done":
+        runtime.token_rates = dataclasses.replace(runtime.token_rates, free_rounds=1)
+        http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
+        session_id, auth = open_session(http)
+        assert say(http, session_id, auth, "q0").status_code == 200
     else:
         raise AssertionError(name)
     return http, session_id, auth
 
 
-LIMITS = ["session_limit", "daily_limit", "free_cap", "zero_balance", "paused", "wrong_code", "module_error", "facilitator_only"]
+LIMITS = [
+    "session_limit", "daily_limit", "free_cap", "zero_balance", "paused", "wrong_code", "module_error", "facilitator_only",
+    "free_day_spent", "free_rounds_done",
+]
 SAFETY = [
     ("acute", dict(safety=ACUTE), "safety_turn"),
     ("unclear", dict(safety=UNCLEAR), "check_in_turn"),

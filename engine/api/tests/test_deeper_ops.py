@@ -113,4 +113,4 @@ def test_the_flag_on_refuses_to_start_on_a_bad_file(tmp_path, monkeypatch):
     monkeypatch.setenv("CIC_DEEPER_OPS_FILE", _write(tmp_path, data))
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
     with pytest.raises(OpsFileError):
-        deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x"})
+        deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1"})

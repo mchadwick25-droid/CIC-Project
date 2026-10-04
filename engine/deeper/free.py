@@ -8,10 +8,14 @@ every visitor's day: this is a soft allowance, not a ledger, and it keeps no
 record of who drew what beyond the day's running number.
 """
 import threading
-from datetime import date
+from datetime import date, datetime, timezone
 from typing import Callable
 
 MAX_VISITORS = 50_000
+
+
+def _utc_today() -> date:
+    return datetime.now(timezone.utc).date()
 
 
 class FreeReservation:
@@ -29,7 +33,7 @@ class DailyFreeAllowance:
         if daily_amount < 1:
             raise ValueError("the free day must be at least 1")
         self.daily_amount = daily_amount
-        self._clock = clock or date.today
+        self._clock = clock or _utc_today
         self._used: dict[str, tuple[str, int]] = {}
         self._held: dict[str, int] = {}
         self._lock = threading.Lock()

@@ -373,10 +373,16 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 
 def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
-    refuses to start rather than leaving the webhook open."""
+    refuses to start rather than leaving the webhook open, and so does a
+    deploy without the visitor cap, which the free day depends on."""
     secret = env.get("CIC_DEEPER_WEBHOOK_SECRET")
     if not secret:
         raise DeeperConfigError("CIC_DEEPER_ENABLED is on but CIC_DEEPER_WEBHOOK_SECRET is unset")
+    if env.get("CIC_API_ANON_CAP_ENABLED", "") not in ("1", "true", "yes"):
+        raise DeeperConfigError(
+            "CIC_DEEPER_ENABLED is on but CIC_API_ANON_CAP_ENABLED is off: the free day is kept per visitor, "
+            "and without the visitor cookie everyone behind one address would share it"
+        )
     ops = ops or load_ops()
     return DeeperRuntime(
         meter=Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling),
