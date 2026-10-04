@@ -208,3 +208,24 @@ def test_a_started_runtime_never_writes_the_free_allowance_key_to_the_meter_file
     for path in (tmp_path / "m.db", *tmp_path.glob("m.db-*")):
         raw = path.read_bytes()
         assert key.encode() not in raw and b"198.51.100.9" not in raw
+
+
+def test_a_real_runtime_rebuilt_on_the_same_file_and_key_does_not_refill_a_visitor(tmp_path):
+    from engine.api import deeper_routes
+    from engine.deeper.config import DeeperConfig
+
+    env = {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": "k" * 40}
+    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
+    first = deeper_routes.build_runtime(config, env)
+    try:
+        first.free.settle(first.free.reserve("ip:198.51.100.9", 110), True)
+        drawn = first.free.remaining("ip:198.51.100.9")
+    finally:
+        first.meter.close()
+        first.claims.close()
+    second = deeper_routes.build_runtime(config, env)
+    try:
+        assert second.free.remaining("ip:198.51.100.9") == drawn < second.token_rates.free_window
+    finally:
+        second.meter.close()
+        second.claims.close()

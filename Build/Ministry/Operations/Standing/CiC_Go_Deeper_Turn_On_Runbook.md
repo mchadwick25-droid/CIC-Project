@@ -151,7 +151,7 @@ Until every refunded payment is voided, the written rule is that **the module is
 3. Roll back step 4 and keep the module off.
 4. Delete the webhook endpoint in Stripe.
 5. Take a last backup of the meter file, and hold it for the retention period the privacy page states.
-6. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET`) and the Go Deeper settings from Render.
+6. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET` and `CIC_DEEPER_FREE_KEY`) and the Go Deeper settings from Render.
 7. Remove the Go Deeper pages and the door line from the site, and the privacy page's Go Deeper paragraph.
 8. Only then delete the module's code in a reviewed pull request. The proofs in CI named for the module go with it.
 
