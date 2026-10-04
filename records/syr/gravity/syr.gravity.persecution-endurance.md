@@ -47,6 +47,14 @@ manifestations:
 - 'Demonstration 21 ''Of Persecution'': pastoral teaching composed under the persecution itself'
 - 'the martyr memory: Simeon and his clergy, the named bishops, the years without a head'
 classification: supporting
+use_note:
+  means: "On the Persian side, faithfulness took the shape of endurance under Shapur II's persecution, with martyred bishops as exemplars, while Roman-side Edessa knew doctrinal rivalry rather than state persecution."
+  not_for:
+    - "a claim that Edessene or Roman-side Christians faced sustained state persecution"
+    - "a claim that endurance was this world's uniform ideal"
+    - "a claim that the persecution itself is the gravity rather than the force"
+  years: {from: 337, to: 350}
+  status: provisional
 ---
 Re-derived from Doc_04 C6 (Supporting: strongly evidenced,
 Persian-concentrated - HIGH Author Gravity flagged at generation;

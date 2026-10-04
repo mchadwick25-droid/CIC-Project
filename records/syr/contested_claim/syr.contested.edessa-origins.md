@@ -53,6 +53,14 @@ concedes: 'The legend is genuinely this world''s own: its self-understanding, to
   has it.'
 divergence_partners:
 - syr.source.eusebius-historia-ecclesiastica
+use_note:
+  means: "The claim that Edessa's church was founded in the first century by Addai after Abgar's correspondence with Jesus is contested, though a church by about 200 is firmly attested."
+  not_for:
+    - "a claim that the Abgar-Jesus correspondence or Addai's mission is historical fact"
+    - "a claim that the church's origin is simply unknown or merely invented"
+    - "a claim that the route of first Christianization is known"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 Carried from Doc_01 SS2 (Widely Accepted: the legend is a later
 apostolic-foundation claim, not history) plus the census entry's own

@@ -45,6 +45,13 @@ positions:
 - no practice can be documentarily traced from this world back to the apostles - and none is
 tensions:
 - the gap between lived claim and provable chain is the answer's honest center
+use_note:
+  means: "This world's voice says its apostolic claim rests on the late Addai legend, while practices such as first-day assembly and fasting are attested only from where the records begin."
+  not_for:
+    - "a documented chain of practice back to the apostles"
+    - "a claim that the Addai story is history rather than cherished legend"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 F4-E: the evidential practices cell, holding the legend-license
 (doctrine-of-addai source record) and the earliest-attestation

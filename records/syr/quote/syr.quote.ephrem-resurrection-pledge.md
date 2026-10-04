@@ -35,6 +35,13 @@ retrieval:
   retrieve_when:
   - "participant asks what they believed happened after death"
   - "participant asks what they hoped for and what they feared"
+use_note:
+  means: "Ephrem, in his homily On Our Lord, says Christ gave his resurrection as a pledge that he would bring mortals out of Sheol into the Kingdom that admits the invited with distinction."
+  not_for:
+    - "a claim that Sheol is a place of punishment or hell"
+    - "a detailed map of who is saved and who is lost"
+  years: {from: 340, to: 373}
+  status: provisional
 ---
 Verified verbatim (Homily on Our Lord).
 

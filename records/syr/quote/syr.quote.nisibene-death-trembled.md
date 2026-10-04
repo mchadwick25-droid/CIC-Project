@@ -33,5 +33,12 @@ retrieval:
   retrieve_when:
   - "participant asks what they held about death and hell being defeated"
   - "participant asks how they spoke about Satan and the grave"
+use_note:
+  means: "Ephrem, in Nisibene Hymn XXXV concerning our Lord, Death, and Satan, pictures Sin and Hell terrified, Death trembling, and the dead and sinners rebelling against their masters."
+  not_for:
+    - "a literal account of the emotions of Death or Satan"
+    - "a systematic doctrine of hell drawn from a dramatized hymn"
+  years: {from: 350, to: 373}
+  status: provisional
 ---
 Verified verbatim (Nisibene Hymn XXXV). The death-cycle's dramatized triumph: the underworld's own panic at Jesus.

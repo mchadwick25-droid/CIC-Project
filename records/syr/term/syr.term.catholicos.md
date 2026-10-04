@@ -44,6 +44,14 @@ senses:
 quick_meaning: '''Catholicos'' is the later title for the Persian church''s head. In our own
   years no one used it; the leadership was real but contested and untitled.'
 distortion_risk: high
+use_note:
+  means: "Catholicos is the later title for the head of the Persian church; in this world there were plural, contested bishops, and no settled titled head until after the window."
+  not_for:
+    - "a claim that this world's Persian bishops were called or understood as Catholicos"
+    - "a claim that Papa's primacy or the title was settled in his lifetime"
+    - "a claim that the term means the Roman Catholic Church"
+  years: {from: 315, to: 410}
+  status: provisional
 ---
 A Tier 2, flag-only corrective entry. No relations by design: not part
 of this world's own conceptual cluster. Serves F3-I correctively (the

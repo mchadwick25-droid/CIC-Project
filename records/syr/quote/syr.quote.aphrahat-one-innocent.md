@@ -30,5 +30,12 @@ retrieval:
   retrieve_when:
   - "participant asks whether they thought anyone could be good"
   - "participant asks what they held about human nature and being born flawed"
+use_note:
+  means: "Aphrahat states in Demonstration VII that of all who have been born in a body only Jesus Christ is innocent, the ground of his teaching that everyone else needs penitence."
+  not_for:
+    - "a statement of the later doctrine of inherited original guilt, which this world did not frame in those terms"
+    - "a claim that Aphrahat taught that no person could do any good"
+  years: {from: 337, to: 337}
+  status: provisional
 ---
 Verified verbatim (Dem VII.1). The ground of the physician-of-penitence welcome: no one else is unwounded.

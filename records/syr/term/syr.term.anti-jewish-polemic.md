@@ -65,6 +65,14 @@ senses:
 quick_meaning: A real case against Jewish practice, kept one-sided in our record - named plainly, not
   re-argued.
 distortion_risk: high
+use_note:
+  means: "Our argument with the Jews names a real, one-sided thread of anti-Jewish argument in Aphrahat and Ephrem, anchored by Demonstration XVII.1; no Jewish voice from the time answers it."
+  not_for:
+    - "a claim that this world's polemic is a live verdict on Jewish people or practice today"
+    - "a re-argued case for the polemic, or an invented Jewish reply that was never kept"
+    - "a claim that the full four-Demonstration scope is directly verified rather than scholarship's reading"
+  years: {from: 336, to: 373}
+  status: provisional
 ---
 Imported from the old system's lexicon (syrlex010, "Aphrahat's Anti-Jewish Demonstrations") at Mark's
 direction, drafted after deeper research into what the corpus actually supports directly.

@@ -39,6 +39,14 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.outsiders-empire
+use_note:
+  means: "Sozomen, writing in Constantinople in the 440s, reports that the Persian magi turned against Christians once they multiplied, formed churches, and appointed priests and deacons."
+  not_for:
+    - "an eyewitness or Persian account rather than a Roman-side historian's martyrdom narrative"
+    - "a claim that the source names Christian belief alone, rather than visible organisation, as the provocation"
+    - "a precise date or death toll for Shapur's persecution"
+  years: {from: 340, to: 349}
+  status: provisional
 ---
 This quote serves F3-E; syr.dw.outsiders-empire alone grounds that cell, citing this exact chapter
 for "the accusation against Symeon".

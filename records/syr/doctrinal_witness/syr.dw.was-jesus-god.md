@@ -58,6 +58,14 @@ retrieval:
   retrieve_when:
   - "participant asks whether you baptised babies, infants or children, or only adults"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
+use_note:
+  means: "This world's voice affirms Jesus as God through Aphrahat's chain of scriptural titles and Ephrem's Only-Begotten, names Father, Son, and Spirit over baptism, and guards the mystery through praise."
+  not_for:
+    - "a claim that Aphrahat used Nicene essence-language or later creedal formulas"
+    - "a claim that the confession stands free of its anti-Jewish disputational frame"
+    - "a claim that the Persian-side church formally received Nicaea in this window"
+  years: {from: 325, to: 373}
+  status: provisional
 ---
 Translational Center cell. The 'sure thing' chain verified verbatim
 in Dem XVII.2. The pre/para-Nicene register caution mirrors the

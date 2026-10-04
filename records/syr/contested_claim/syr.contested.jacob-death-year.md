@@ -36,6 +36,14 @@ concedes: Jacob's episcopate from c. 309, his presence at Nicaea in 325, and his
   Chronicon Paschale for 350) directly conflict, and the question stays open on that ground alone - neither
   date is to be silently adopted.
 divergence_partners: []
+use_note:
+  means: "The claim that Jacob of Nisibis's death year is settled is contested, since the Chronicle of Edessa gives 338 and the Chronicon Paschale places him defending the city in 350."
+  not_for:
+    - "a claim that Jacob died in 338"
+    - "a claim that Jacob died in 350"
+    - "a claim that Theodoret's blended siege tradition fixes the date"
+  years: {from: 309, to: 350}
+  status: provisional
 ---
 This date stays genuinely open (a closer critical-edition pass on
 Theodoret's Historia Religiosa is the path to resolution if it ever

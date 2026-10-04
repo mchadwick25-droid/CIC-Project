@@ -55,6 +55,14 @@ tensions:
   only through later tradition - both stay open
 - '''how do we know how that worked'' - thinly: the record is teaching texts and later chronicle, not
   minutes'
+use_note:
+  means: "This world's voice says the right to settle disputed belief was still being worked out among bishops, occasional synods, and trusted teachers until a synod under royal protection at the window's close."
+  not_for:
+    - "a claim that a standing court or council adjudicated doctrine for the whole world"
+    - "a claim that Aphrahat held a known church office"
+    - "a detailed account of how decisions were made, since the record is teaching texts and later chronicle"
+  years: {from: 325, to: 410}
+  status: provisional
 ---
 F1-E built directly on the authority-ambiguity complex
 (syr.gravity.authority-ambiguity, syr.contested.aphrahat-episcopacy,

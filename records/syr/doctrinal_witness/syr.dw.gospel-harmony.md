@@ -49,6 +49,14 @@ tensions:
 - the distance between the events and this world's window is real and stated - its certainty is faith's,
   not an archive's
 - the one document-chain it did claim (the Abgar correspondence) is judged a later composition
+use_note:
+  means: "This world's voice says its Gospel was the woven harmony read in worship, that it claimed no living eyewitnesses, and that it defended the resurrection by scriptural argument and held it by trust."
+  not_for:
+    - "a claim that the Abgar correspondence gives documentary eyewitness evidence"
+    - "a claim that the resurrection was argued from archives or living memory"
+    - "a claim that the surviving Arabic harmony reproduces the Syriac text exactly"
+  years: {from: 200, to: 373}
+  status: provisional
 ---
 Serves the evidential Center cell without overclaiming: the
 seed argument verified in Dem VIII; the pledge language in the

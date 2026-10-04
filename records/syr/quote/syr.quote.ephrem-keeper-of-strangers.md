@@ -55,6 +55,14 @@ relations:
   target: syr.figure.ephrem
 - type: associated-with
   target: syr.story.ephrem-famine-death
+use_note:
+  means: "The Syriac recension of Palladius reports Edessa's citizens hailing Ephrem during a famine and Ephrem offering to keep a house for receiving strangers if they trusted him with relief."
+  not_for:
+    - "Ephrem's own transcribed words rather than reported speech in a later narrative"
+    - "a claim that anyone in this world believed Ephrem was God, from this recension's wording"
+    - "one merged text with the Greek recension's version of the same exchange"
+  years: {from: 372, to: 373}
+  status: provisional
 ---
 Verified verbatim against the vendored file, Book I, ch. lviij.
 

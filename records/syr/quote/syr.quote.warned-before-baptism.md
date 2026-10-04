@@ -46,6 +46,14 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.born-again-endtimes
+use_note:
+  means: "Aphrahat, in Demonstration VII, has the church's preachers warn candidates before baptism to marry first if they wish to marry, and to turn back if afraid or attached to possessions."
+  not_for:
+    - "a doctrinal ruling on infant baptism, which the passage implies only by addressing adult candidates"
+    - "a description of how every baptism in this world was actually conducted"
+    - "a modern born-again conversion experience"
+  years: {from: 337, to: 337}
+  status: provisional
 ---
 This is the second of two quote records for F4-T. The passage is at
 Demonstration VII.20, in syr.source.aphrahat-demonstrations-hallock -

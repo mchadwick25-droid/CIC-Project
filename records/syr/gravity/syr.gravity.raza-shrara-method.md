@@ -57,6 +57,14 @@ manifestations:
 - the same raza-logic turned polemical in the Prose Refutations - rivals accused of severing symbol from
   truth
 classification: primary
+use_note:
+  means: "Doctrine here is done in symbol and type rather than syllogism, with the hymn and typological reading as native registers, anchored above all in Ephrem."
+  not_for:
+    - "a claim that Aphrahat's typology is co-equal theoretical attestation"
+    - "a claim that this world argued by Greek-style definition"
+    - "a claim that the hidden-power wording is this world's own stated doctrine"
+  years: {from: 337, to: 373}
+  status: provisional
 ---
 Re-derived from Doc_04 C1 (Primary; all six tests pass;
 Confidence/Gravity Cross-Check clean: Documented for Ephrem's own

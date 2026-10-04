@@ -34,6 +34,14 @@ concedes: 'Demonstration 14 is real: someone whose community received his teachi
   a synodal circular in the bishops'' name. The question is genuinely open in both directions, and this
   world''s records never resolve it - any statement of his office beyond ''unknown'' outruns the evidence.'
 divergence_partners: []
+use_note:
+  means: "The claim that Aphrahat was a bishop is contested, resting on an inference from Demonstration 14's synodal circular, and the record treats his office as unknown."
+  not_for:
+    - "a claim that Aphrahat was certainly a bishop"
+    - "a claim that he was certainly not a bishop"
+    - "a claim that a live modern scholarly debate exists on the question"
+  years: {from: 336, to: 345}
+  status: provisional
 ---
 This claim rests on a thin citation web (see `held_against` above).
 Every later record treats it as genuinely open, never settled either

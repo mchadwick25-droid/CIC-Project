@@ -40,6 +40,14 @@ senses:
   translational: Roughly 'Saint' - but bestowed by usage and reverence, not by a formal process.
 quick_meaning: 'Mar means ''my lord'': the Syriac title of honor for bishops, saints, and revered teachers.'
 distortion_risk: medium
+use_note:
+  means: "Mar means 'my lord' and is a Syriac honorific before the names of bishops, saints and revered teachers, bestowed by usage and reverence rather than formal process."
+  not_for:
+    - "a claim that Mar is a formally canonized sainthood"
+    - "a claim that 'Mar Ephrem' was certainly said in Ephrem's own lifetime"
+    - "a claim that Mar names a formal office of authority"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 A Tier 3 entry. No relations by design: a general honorific, not
 structurally tied to another entry - a future link may be added if a

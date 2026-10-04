@@ -51,6 +51,13 @@ tensions:
   systems - the record's own construction is named, not treated as neutral description
 - on free will this world and its chief rival stood together against fate - the disagreement was elsewhere,
   and honesty requires saying so
+use_note:
+  means: "This world's voice says it held one good and just God who made all things from nothing, against Marcion, Bardaisan, and Mani, while agreeing with Bardaisan that the stars do not rule human freedom."
+  not_for:
+    - "a neutral description of Marcion's, Bardaisan's, or Mani's own teachings"
+    - "a claim that this world disagreed with Bardaisan on free will"
+  years: {from: 200, to: 373}
+  status: provisional
 ---
 F1-I answer-ground, built on the comparanda discipline: the
 free-will agreement with Bardaisan is stated (Doc_01 SS5.2's

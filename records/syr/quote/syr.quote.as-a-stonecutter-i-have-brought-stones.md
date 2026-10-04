@@ -43,6 +43,14 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.doubt
+use_note:
+  means: "Aphrahat closes Demonstration I, written around 337 in Persian territory, by urging enquiry without wrangling and calling himself a stonecutter whose stones wiser builders must shape and lay."
+  not_for:
+    - "a claim that this world welcomed doubt in the modern inner sense"
+    - "a claim that all teaching was open to revision, since he also commands overthrowing strange doctrines"
+    - "evidence of a formal procedure for testing doctrine"
+  years: {from: 337, to: 337}
+  status: provisional
 ---
 syr.dw.doubt cites Demonstration I for faith as a building that rises; this quote gives that citation
 a quotable passage. F1-P is served by that witness alone.

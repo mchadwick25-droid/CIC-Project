@@ -50,6 +50,13 @@ tensions:
 relations:
 - type: associated-with
   target: syr.quote.symeon-and-usthazanes
+use_note:
+  means: "This world's voice says Edessa's Christians worshipped publicly in a church recorded by 201, and that Rome's Christian emperor made Persian Christians suspect, as the charge against Symeon shows."
+  not_for:
+    - "a claim that these Christians hid in catacombs"
+    - "a claim that Constantine's conversion benefited Christians on the Persian side"
+  years: {from: 201, to: 344}
+  status: provisional
 ---
 F3-E: the frontier inversion is this world's distinctive evidential
 answer; the Simeon accusation is verified in the vendored Sozomen

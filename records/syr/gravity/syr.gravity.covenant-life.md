@@ -51,6 +51,14 @@ manifestations:
 - choirs of the daughters of the covenant performing the madrashe (the performance is attested; Ephrem's
   personal leadership of it is not)
 classification: primary
+use_note:
+  means: "The community's ascetic core is the covenant: men and women vowed to lifelong celibacy and service inside the town congregation, also called ihidaye, as attested by Aphrahat's Demonstration 6."
+  not_for:
+    - "a claim that Ephrem personally organized the women's choirs"
+    - "a claim that covenanters were monks or nuns in a cloister"
+    - "a claim that the order was a targeted group in the persecution"
+  years: {from: 337, to: 373}
+  status: provisional
 ---
 Classification (Doc_04 C2): Primary, on the evidentiary basis set out
 above, which excludes the 6th-century Ephrem-choir claim. Cross-check:

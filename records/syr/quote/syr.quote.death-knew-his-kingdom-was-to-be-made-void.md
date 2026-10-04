@@ -41,6 +41,14 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.dw.born-again-endtimes
+use_note:
+  means: "Aphrahat likens Christ's death in Demonstration XXII to a poison that Death swallowed and cast up but that still dissolves him little by little, so that through Jesus Death is abolished."
+  not_for:
+    - "a description of a rapture or sudden removal of believers"
+    - "a claim that Death is only a natural process rather than a personified ruler"
+    - "a timetable for the end of the world"
+  years: {from: 344, to: 344}
+  status: provisional
 ---
 This quote serves F4-T; syr.dw.born-again-endtimes alone grounds that cell. Its loci include 'XXII
 (death's kingdom made void)' and 'VI (the second birth...)', which are demonstration numbers - as

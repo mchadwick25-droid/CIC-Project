@@ -31,6 +31,14 @@ nearest_material:
 - syr.term.qyama
 - syr.term.ihidaya
 - syr.force.transmission-ongoing
+use_note:
+  means: "The surviving writings are men's: women of the covenant sang the teaching in the churches, yet no text by any of them survives, so their words are attested only through men."
+  not_for:
+    - "a quotation or paraphrase presented as a woman's own words"
+    - "a claim that the record shows how women felt about their lives"
+    - "a claim that no women sang or served in the churches"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 The world's sharpest silence, stated in voice. Verified against
 Doc_02 SS7 (Harvey: no bnat qyama text survives; the choirs are

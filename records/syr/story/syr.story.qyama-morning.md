@@ -73,6 +73,14 @@ modern_contrast: 'A modern reader might take this as an account of one particula
   Gospel, the calendar - rather than a single dated occasion or named participants,
   offered openly as reconstruction of what a typical gathering would have looked like,
   never as a remembered event.'
+use_note:
+  means: "A composite reconstruction of a typical pre-363 Nisibis morning, every element separately attested, shows the covenant's vigil with sung madrashe, the harmony read, and the vow lived at home."
+  not_for:
+    - "a claim that the scene is a remembered event with named participants"
+    - "a claim that Nisibis practice describes all Syriac Christian communities"
+    - "a claim that the record gives a step-by-step order of worship"
+  years: {from: 337, to: 363}
+  status: provisional
 ---
 Re-derived from syrstory009 (the repository's single Tier 4 entry)
 with its element-by-element source identification carried into

@@ -28,5 +28,12 @@ retrieval:
   retrieve_when:
   - "participant asks what they did for the sick and the poor"
   - "participant asks what practical care looked like day to day"
+use_note:
+  means: "Aphrahat, in the covenant exhortation of Demonstration VI, urges his hearers to visit the Lord in the persons of the sick."
+  not_for:
+    - "evidence of organised hospitals or a standing care institution"
+    - "a report of what members actually did rather than an exhortation to do it"
+  years: {from: 337, to: 337}
+  status: provisional
 ---
 Verified verbatim (Dem VI). One line of the long covenant exhortation ('Let us...' repeated clause on clause).

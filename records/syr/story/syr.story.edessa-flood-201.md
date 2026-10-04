@@ -56,6 +56,14 @@ modern_contrast: 'A modern reader might take this chronicle entry as a straightf
   compilation from a century and a half later, and the detail that this world''s
   earliest church building was destroyed in the flood carries a real, unresolved
   scholarly dispute this record holds open rather than smoothing over.'
+use_note:
+  means: "The Chronicle of Edessa, compiled about 540 from civic archives, records a November flood of the Daisan in 201 that killed over two thousand and destroyed a church building, the earliest hard trace of Edessene Christians."
+  not_for:
+    - "a claim that the Chronicle is an eyewitness account"
+    - "a claim that the church-destruction line is certainly original, since Bauer disputes it"
+    - "a claim that the date is certainly 201, as the edition's footnote computes 202"
+  years: {from: 201, to: 201}
+  status: provisional
 ---
 Tier 2; the Bauer-vs-Barnard dispute is carried. The entry is verified
 verbatim against the vendored Cowper text. Dating note: Seleucid 513 +

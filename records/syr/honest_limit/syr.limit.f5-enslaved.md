@@ -29,6 +29,14 @@ why_sources_cannot_answer: No dedicated treatment, surviving voice, or even inci
 nearest_material:
 - syr.limit.f5-women-own-words
 - syr.force.transmission-ongoing
+use_note:
+  means: "The record holds no word from or description of enslaved persons in this world's Christian communities; only the surrounding empire's holding of slaves is known."
+  not_for:
+    - "a claim that describes enslaved people's lives in these churches"
+    - "a claim borrowed from another world's evidence about slavery"
+    - "a claim that Christians here did or did not hold slaves"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 Doc_02 SS7's fourth silence, carried as its own limit record so the
 F5 family's enslaved-persons question ends in honest data, not

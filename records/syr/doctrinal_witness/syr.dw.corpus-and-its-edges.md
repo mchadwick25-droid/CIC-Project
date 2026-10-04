@@ -52,6 +52,14 @@ positions:
 tensions:
 - one voice (the poet's) so dominates the record that it risks standing in for the whole world - a distortion
   the record itself cannot correct, only confess
+use_note:
+  means: "This world's voice says its core corpus is firmly dated, its oldest hard fact is the 201 flood entry, the Abgar story is legend, and laity, women, the enslaved, and opponents are largely silent."
+  not_for:
+    - "a claim that Ephrem's voice represents the whole world"
+    - "a claim that the Abgar correspondence is historical"
+    - "a claim that the women singers or the opponents left surviving words of their own"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 F2-E: the world's own record-honesty cell, grounded in the
 transmission forces and the edessa-origins contested claim. The

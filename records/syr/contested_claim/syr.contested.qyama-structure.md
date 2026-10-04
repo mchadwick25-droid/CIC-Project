@@ -43,6 +43,14 @@ concedes: 'The order itself is not in doubt: vowed, celibate, town-resident, lit
   settled internal structure - the honest picture is a real institution whose inner constitution we mostly
   cannot see.'
 divergence_partners: []
+use_note:
+  means: "The claim that the covenant order had a settled rule, enclosure and hierarchy within the window is contested, though the order's existence and character are not in doubt."
+  not_for:
+    - "a claim that the covenanters lived under a settled rule or enclosure"
+    - "a claim that the order's existence is doubtful"
+    - "a claim that fifth- to eighth-century material describes this window"
+  years: {from: 337, to: 410}
+  status: provisional
 ---
 Carried from Doc_01 SS4 (Widely Accepted existence /
 Contested-Inferential-Thin structure) and the syrlex002 CT contest.

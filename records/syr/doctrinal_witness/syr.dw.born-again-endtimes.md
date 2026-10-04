@@ -56,6 +56,14 @@ relations:
   target: syr.quote.death-knew-his-kingdom-was-to-be-made-void
 - type: associated-with
   target: syr.quote.warned-before-baptism
+use_note:
+  means: "This world's voice says its churches sang baptism as new birth and its teachers called it a second birth bringing the Spirit, while its hope for the end was resurrection and judgment, not rapture."
+  not_for:
+    - "a private conversion experience in the modern born-again sense"
+    - "a claim that the Epiphany baptismal hymns are certainly Ephrem's own"
+    - "a claim that this world held anything like a rapture or secret removal of believers"
+  years: {from: 337, to: 373}
+  status: provisional
 ---
 F4-T: the Epiphany-cycle attribution discipline (disputed
 authenticity - Beck) is enforced in the text itself ('their

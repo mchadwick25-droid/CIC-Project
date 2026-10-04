@@ -47,6 +47,14 @@ manifestations:
 - 'genre as contest: answering Bardaisanite song with orthodox song, remembered in the Harmonius tradition'
 - the triad's co-mention as a rhetorical unit - polemic, not individuated analysis
 classification: supporting
+use_note:
+  means: "This world defined its belief by answering Bardaisan, Marcion and Mani by name, a boundary built largely by Ephrem that flattens three distinct systems into one deception."
+  not_for:
+    - "a claim that Aphrahat engaged the triad by name"
+    - "a claim that the rivals' systems were identical"
+    - "a claim that the heresy boundary is neutral description rather than Ephrem's construction"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 Re-derived from Doc_04 C3 (Supporting: real, Documented for the fact
 of the campaign, but concentrated in one author/region - kept below

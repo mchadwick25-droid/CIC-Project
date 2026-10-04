@@ -35,6 +35,14 @@ retrieval:
   retrieve_when:
   - "participant asks how Christians in different countries related to one another"
   - "participant asks what held people together across such distances and customs"
+use_note:
+  means: "The Book of the Laws of Countries, Philip's dialogue with Bardaisan as speaker, describes Christians in every land called by Christ's one name and assembling on the first day of the week."
+  not_for:
+    - "the world's own founding voice rather than a mediated dialogue with Bardaisan as speaker"
+    - "evidence of reading-day fasts, which the quoted text breaks off before"
+    - "a claim that Christians in every country shared identical customs"
+  years: {from: 200, to: 222}
+  status: provisional
 ---
 Verified verbatim (Book of the Laws of Divers Countries, ANF 8).
 COMPARANDUM DISCIPLINE: the words stand in the dialogue Philip

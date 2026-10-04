@@ -32,6 +32,14 @@ concedes: 'The displacement itself is real and well-dated at the level that matt
   two-century normative run ends in the early fifth century, at or just past this world''s own boundary,
   and Rabbula''s episcopate is when the shift becomes visible. Only the personal causal claim is contested.'
 divergence_partners: []
+use_note:
+  means: "The claim that Bishop Rabbula (411-435) personally caused the shift from the harmony to the Peshitta is contested, though the displacement itself is real and just past the window's edge."
+  not_for:
+    - "a claim that Rabbula certainly originated the Peshitta"
+    - "a claim that the harmony displacement did not happen"
+    - "a claim that this transition occurred inside the world's own window"
+  years: {from: 200, to: 410}
+  status: provisional
 ---
 Rabbula's role is Contested, not settled. canon_cells is deliberately
 empty: this claim concerns what happens after this world's own horizon

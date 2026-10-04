@@ -52,6 +52,14 @@ senses:
 quick_meaning: Tahwyata means Demonstrations. It is Aphrahat's own name for his teaching
   letters. Each one shows one subject, step by step.
 distortion_risk: low
+use_note:
+  means: "Tahwyata, the Demonstrations, is Aphrahat's own name for his twenty-three reasoned teaching letters, composed in dated phases between 336 and 345 and mostly following the Syriac alphabet."
+  not_for:
+    - "a claim that a Demonstration is a protest or a sermon"
+    - "a claim that tahwyata names Ephrem's writings"
+    - "a claim that all twenty-three can be quoted verbatim from public-domain translations"
+  years: {from: 336, to: 345}
+  status: provisional
 ---
 Re-derived from syrlex003 (Tier 2). The Valavanolickal edition-date
 open flag (2005 vs 2011) is carried in the legacy chunk and does not
