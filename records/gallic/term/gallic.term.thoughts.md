@@ -112,12 +112,12 @@ quick_meaning: >-
   the devil, or ourselves, and we answer for which we admit.
 distortion_risk: medium
 use_note:
-  means: "Thoughts meant the raw material of the interior struggle, which cannot stop arriving from God, the devil or ourselves, the monk answering for which he admits."
+  means: "Thoughts meant the raw material of the interior struggle, a mill-wheel that cannot stop turning, fed from God, the devil or ourselves, the monk answering for which he admits."
   not_for:
-    - "intrusive thoughts as symptoms to be managed"
-    - "the mind as a private space where nothing is a fault"
+    - "intrusive thoughts as symptoms to be managed, or the mind as a private space where nothing is a fault"
     - "the telling of thoughts to the senior, which sits in gallic.term.disclosure-of-thoughts"
     - "the judging faculty, which sits in gallic.term.discretion"
+    - "the psalm system and fixed hours of prayer, which sit in gallic.term.unceasing-prayer"
   years: {from: 415, to: 426}
   status: reviewed
 ---

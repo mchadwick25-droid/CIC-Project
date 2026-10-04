@@ -110,8 +110,8 @@ use_note:
   means: "This witness says the Gallic monks met no persecution but faced derision at dress, hair and visions, and accusation by bishops and reporters to Africa."
   not_for:
     - "the Carthage crowd's derision as a Gallic town's reaction, when it is Salvian's report of Africa"
-    - "the objecting bishops as fairly heard, when only Sulpitius speaks for them"
     - "persecution or hiding in their own time, which the witness denies"
+    - "the luring of Martin from his monastery and the psalm at his election, which sit in gallic.story.election-at-tours"
     - "the election as plainly a capture, which is weighed in gallic.contested.election-as-capture"
   years: {from: 397, to: 450}
   status: reviewed

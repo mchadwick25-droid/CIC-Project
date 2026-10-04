@@ -66,6 +66,7 @@ use_note:
     - "a neutral report of Brictio's case, when it comes from men hostile to him"
     - "the reproof that provoked the outburst, which sits in gallic.quote.brictio-horses-and-slaves"
     - "a claim that Martin argued back, when the text gives him only gentle restraint"
+    - "the courtyard scene and Brictio's repentance, which sit in gallic.story.brictio-in-the-courtyard"
   years: {from: 404, to: 406}
   status: reviewed
 ---

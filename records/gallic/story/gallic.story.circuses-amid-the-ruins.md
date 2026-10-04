@@ -139,8 +139,8 @@ use_note:
   not_for:
     - "the general pattern of lay worship against the games, which sits in gallic.term.church-or-circus"
     - "the monastic houses' own theology of judgment, which sits in gallic.term.government-of-god"
-    - "a survey of the whole city, when it is one presbyter's eyewitness indictment"
     - "Trier as named by Salvian, when the identification is his translator's"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 439, to: 450}
   status: reviewed
 ---

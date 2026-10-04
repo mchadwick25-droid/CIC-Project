@@ -116,7 +116,7 @@ use_note:
     - "a slur for any dissenter, or the Inquisition's category"
     - "Martin's defence of the Priscillianists as religious toleration"
     - "the rule that detects heresy, which sits in gallic.term.the-rule"
-    - "the excommunication formula, which sits in gallic.term.anathema"
+    - "the curse on such a man and the one sick sheep that must not infect the flock, which sit in gallic.term.anathema"
   years: {from: 397, to: 434}
   status: reviewed
 ---

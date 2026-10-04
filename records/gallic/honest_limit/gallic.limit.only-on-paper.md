@@ -78,12 +78,12 @@ nearest_material:
 - gallic.demo.record-thinnest
 relations: []
 use_note:
-  means: "The record attests that everything it holds about this world's places and daily life comes from texts, and cannot supply any excavation, material find or account of the island's days."
+  means: "The record attests that all it holds of this world's places and daily life comes from a few books, with no excavation and nothing on the island's day."
   not_for:
     - "a claim that nothing has ever been dug up, when the build has not searched that literature"
-    - "what the island kept day by day, which the record does not hold"
-    - "Cassian's Egyptian customs as how Gallic houses lived, when he admits no one in our monasteries kept Egypt's perseverance even for a year, as in gallic.term.customs-of-the-monasteries"
-    - "the editorial place-names as the world's own words"
+    - "the island's founder, his arrival and his going to a see, which sit in gallic.story.honoratus-and-the-island"
+    - "what the brethren at Tours sang and at what hours, which sits in gallic.term.unceasing-prayer"
+    - "the unheard women of the houses, whose one trace, a choir of virgins, sits in gallic.story.death-of-martin-at-condate"
   years: {from: 397, to: 426}
   status: reviewed
 ---

@@ -122,11 +122,12 @@ modern_contrast: >-
   guard "the weakness of others" against the fervour of the few, the angel's twelve against the
   zealots' sixty.
 use_note:
-  means: "Cassian relays the Egyptian fathers' tale that an angel fixed the daily psalms at twelve by singing the twelfth with Alleluia and vanishing."
+  means: "Cassian relays the Egyptian fathers' founding tale that an angel fixed the evening and night psalms at twelve by singing the twelfth with Alleluia and vanishing."
   not_for:
-    - "Martin's angels, which sit in gallic.term.angels"
+    - "Martin's angels or the singing at Tours, which sit in gallic.term.angels and gallic.term.unceasing-prayer"
     - "Egypt's founding story presented as Gaul's own"
     - "the Divine Office as later codified"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 415, to: 426}
   status: reviewed
 ---

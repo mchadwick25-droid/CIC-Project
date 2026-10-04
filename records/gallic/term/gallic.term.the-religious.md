@@ -88,6 +88,7 @@ use_note:
     - "religious as an adjective of general piety"
     - "the monk seen from inside, which sits in gallic.term.monk-solitary"
     - "a grace teaching, for which Salvian's text is not licensed"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 439, to: 450}
   status: reviewed
 ---

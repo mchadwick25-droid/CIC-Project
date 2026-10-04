@@ -114,12 +114,12 @@ quick_meaning: >-
   what all held, from of old, by consent. Cassian even calls a monk's custom "Catholic."
 distortion_risk: high
 use_note:
-  means: "Catholic meant the faith believed everywhere, always, by all, as Vincent puts it, a rule of the many and the old against the few and the new, not a confession."
+  means: "Catholic meant what comprehends all universally, the faith believed everywhere, always, by all, a word Vincent defines and Cassian and Sulpitius share, never a confession."
   not_for:
-    - "Roman Catholic as a denomination or a communion under the bishop of Rome"
-    - "the rule itself, which sits in gallic.term.the-rule"
-    - "the Roman see, which sits in gallic.term.apostolic-see-pope"
-    - "a later confessional identity"
+    - "Roman Catholic as a denomination or later confessional identity, with the Roman see itself in gallic.term.apostolic-see-pope"
+    - "the three-part test of universality, antiquity and consent as such, which sits in gallic.term.the-rule"
+    - "Cassian's admission that Gallic houses fell short of Egypt's customs, which sits in gallic.term.customs-of-the-monasteries"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 435}
   status: reviewed
 ---

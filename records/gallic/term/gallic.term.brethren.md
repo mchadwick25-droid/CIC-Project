@@ -97,6 +97,7 @@ use_note:
     - "Vincent's holy brethren, which means the faithful at large"
     - "the monk as such, which sits in gallic.term.monk-solitary"
     - "a Latin fratres confirmed in the sources, when it appears only in an editor's note"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 434}
   status: reviewed
 ---

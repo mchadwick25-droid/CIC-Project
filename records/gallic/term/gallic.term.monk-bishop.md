@@ -170,12 +170,12 @@ quick_meaning: >-
   humility; costing the saint some of his power.
 distortion_risk: high
 use_note:
-  means: "The monk-bishop meant the office into which monks keep being seized and must never seek, kept with a monk's humility though formation teaching names the wish for it vainglory."
+  means: "The monk-bishop meant the office monks are seized into and must never seek, whose wish is named vainglory, kept with a monk's humility and costing Martin some power."
   not_for:
-    - "a bishop as administrator or prelate"
-    - "monk and bishop as opposed careers, so that the office is a promotion or a sell-out"
+    - "a bishop as administrator, or the office as a promotion or a sell-out"
     - "the papacy or Rome, which sits in gallic.term.apostolic-see-pope"
     - "the reluctance as total fact in every house, which is contested in gallic.contested.election-as-capture"
+    - "Martin at Treves and the forced communion with the Ithacians, which sit in gallic.story.trier-and-the-ithacian-communion"
   years: {from: 397, to: 435}
   status: reviewed
 ---

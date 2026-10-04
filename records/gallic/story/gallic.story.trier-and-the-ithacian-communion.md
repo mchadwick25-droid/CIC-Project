@@ -152,7 +152,7 @@ modern_contrast: >-
 use_note:
   means: "Gallus tells that Martin yielded once to communion with the Ithacian bishops to save men from the tribunes, then lost power, was told his compunction was just, and shunned synods."
   not_for:
-    - "Priscillianism as a movement, which belongs to another world"
+    - "a motive of grief for Martin's silence about it, when Gallus gives the character of the times, as in gallic.quote.gallus-on-the-tribunes-for-the-spains"
     - "the south's valuing of councils as guarantors, which sits in gallic.term.council-synod"
     - "Martin's rejection of synods as a general principle, when it follows one forced act"
     - "the earlier phase told in Sulpitius's own voice as one account with the Dialogues, when the two accounts remain distinct"

@@ -121,12 +121,12 @@ quick_meaning: >-
   "not a leader but a follower."
 distortion_risk: medium
 use_note:
-  means: "Disciple and master named the bond between a named man and those formed by watching him, which Vincent turned on doctrine: the Catholic is a disciple, not a leader."
+  means: "Disciple and master named the bond between a named man and those formed by watching him, as Martin's eighty, which Vincent turned on doctrine: the Catholic is a disciple."
   not_for:
-    - "a student and teacher of doctrine in the modern sense"
-    - "discipleship as a program or curriculum"
-    - "the mechanism of imitation, which sits in gallic.term.example-imitation"
+    - "a student and teacher of doctrine in the modern sense, or discipleship as a programme"
+    - "the mechanism of imitation, seen or read, which sits in gallic.term.example-imitation"
     - "the senior's judgment of thoughts, which sits in gallic.term.elder-senior-abbot"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 434}
   status: reviewed
 ---

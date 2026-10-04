@@ -82,6 +82,7 @@ use_note:
     - "monks in general, which sit in gallic.term.monk-solitary"
     - "the house as such, which sits in gallic.term.monastery-coenobium"
     - "a Tours word, which no one at Tours uses"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 426, to: 435}
   status: reviewed
 ---

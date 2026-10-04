@@ -165,12 +165,12 @@ manifestations:
 - "Cassian's refusal: 'no instruction in the perfect life' (Inst. Pref.); 'never reckoned those as good monks ... who professed themselves exorcists'; 'Humility therefore is the mistress of all virtues' (Conf. XV.7)"
 - "Eucherius admiring the Egyptian fathers' grace 'in crying signs' (De Laude Eremi §27) - the south not of one mind; Honoratus's serpents counted inter miracula ac merita"
 use_note:
-  means: "Miracle, exorcism and blessed objects hold the northern literature together while the south's teacher refuses that approach on principle, so power and humility pull against each other."
+  means: "Miracle, exorcism and blessed objects hold the northern literature together while Cassian refuses wonder-tales on principle, so the saint's power and the monk's humility pull against each other."
   not_for:
     - "historical proof that the miracles occurred"
-    - "Cassian as a witness to wonders, when he declines to weave a tale of miracles"
-    - "the grace of God in the grace argument, which sits in gallic.gravity.grace-and-effort"
-    - "the word's lexicon entry, which sits in gallic.term.virtus"
+    - "Cassian as a witness to wonders, when he declines them, as in gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles"
+    - "the grace of the grace argument or the word's lexicon entry, which sit in gallic.gravity.grace-and-effort and gallic.term.virtus"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 435}
   status: reviewed
 ---

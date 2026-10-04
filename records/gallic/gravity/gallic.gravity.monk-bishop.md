@@ -139,12 +139,12 @@ manifestations:
 - "Hilary of Arles on Honoratus: bound 'to the long-avoided office of the clergy'; 'he who had refused to go to the dignity - the dignity came to him' (row 27, Inferential/Thin wording)"
 - "Gennadius: 'a Life of the holy Martin, monk and bishop' (ch. XIX); Faustus 'first abbot of the monastery at Lerins, and then made bishop of Riez' (ch. LXXXVI)"
 use_note:
-  means: "Renunciation kept producing bishops, so this world's monks were repeatedly seized into the office they were taught to flee and kept a monk's virtues inside the see."
+  means: "Renunciation kept producing bishops, as Martin, many of Marmoutier's disciples and Honoratus passed from monk to bishop while keeping a monk's virtues inside the see."
   not_for:
     - "a bishop's career as promotion or sell-out"
     - "reluctance as proven for every house, when it is contested in gallic.contested.election-as-capture"
-    - "bishops in general, when it concerns bishops who were monks"
     - "the quarrel with bishops and synods at Tours, which sits in gallic.gravity.authority-ambivalence"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 435}
   status: reviewed
 ---

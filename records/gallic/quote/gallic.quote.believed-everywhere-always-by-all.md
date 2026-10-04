@@ -54,6 +54,7 @@ use_note:
     - "the rule for preferring a general council over a few, which sits in gallic.quote.council-over-rashness-and-ignorance"
     - "Cassian's rule on monastic custom, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
     - "a bare slogan, when Vincent breaks it into three working tests"
+    - "Scripture's sufficient canon and its need of the Church's reading, which sit in gallic.limit.no-one-who-saw-him"
   years: {from: 434, to: 434}
   status: reviewed
 ---

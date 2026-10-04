@@ -95,7 +95,7 @@ use_note:
   not_for:
     - "a penal substitution doctrine, when the sixth-hour sentence is near it but not the same"
     - "anything from Cassian's books against Nestorius, which are unread"
-    - "the bare formula, which sits in gallic.quote.one-substance-three-persons"
+    - "the saying that denying God wills all to be saved is grievous blasphemy, which sits in gallic.quote.grievous-blasphemy-not-all-men-to-be-saved"
     - "a private confession of Jesus as personal Lord, which the record lacks"
   years: {from: 397, to: 434}
   status: reviewed

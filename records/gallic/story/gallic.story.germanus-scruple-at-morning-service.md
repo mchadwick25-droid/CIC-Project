@@ -141,7 +141,7 @@ modern_contrast: >-
   and rain. The doctrine sat inside the formation life as a question about whether the practices
   accomplish anything, before anyone across the sea reported it as a party's position.
 use_note:
-  means: "Cassian records that Germanus's scruple over one sentence of Chaeremon's led the elder to shorten the office and answer that the initiative comes from God."
+  means: "Cassian records that Germanus, troubled at morning prayer by one sentence of Chaeremon's, drew from the elder the husbandman answer that the initiative to do good comes from God."
   not_for:
     - "Cassian's doctrine of grace at depth, which sits in gallic.term.grace"
     - "a Tours doctrine of grace, which the record does not hold"

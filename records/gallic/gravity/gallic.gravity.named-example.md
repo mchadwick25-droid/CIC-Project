@@ -141,10 +141,10 @@ manifestations:
 use_note:
   means: "Authority to teach rests on having seen and heard a named master, so formation is imitation of a named exemplar, shifting at Lerins from men seen to writings read."
   not_for:
-    - "Vincent's collated writings as men seen"
     - "an impersonal institution or rule as the carrier of formation"
-    - "the two eyewitness conferences removed from the vendored edition, which are absent"
     - "imitation as a mechanism in itself, which sits in gallic.term.example-imitation"
+    - "the silence of guests and of the countryside people, which this record does not hold"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 434}
   status: reviewed
 ---

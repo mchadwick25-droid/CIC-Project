@@ -162,12 +162,12 @@ manifestations:
 - "Faustus's prologue: a council gathered 'for the condemning of the error of predestination,' the treatise written at its commission (row 24, rough OCR, Inferential/Thin wording; post-window)"
 - "Dionysius Carthusianus's fifteenth-century paraphrase cutting Conf. XIII 'to make Cassian orthodox' (Gibson, editorial) - the gravity's fracture in transmission"
 use_note:
-  means: "Human effort and free choice are held real and to matter while grace goes before and crowns them, argued under Augustine's pressure in a relation Cassian says reason cannot grasp."
+  means: "Human effort and free choice are held real while grace goes before and crowns them, argued under Augustine's pressure as a relation Cassian says reason cannot fully grasp."
   not_for:
-    - "a settled semi-Pelagian position"
+    - "a settled semi-Pelagian position, when that label is contested in gallic.contested.massilian-label"
     - "Cassian's target as Augustine's doctrine of predestination, when his intent is contested in gallic.contested.beginning-of-good-will"
-    - "the Massilians as this world's name for itself, which is contested in gallic.contested.massilian-label"
     - "Faustus's synodal commission, which falls after the window"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 415, to: 434}
   status: reviewed
 ---

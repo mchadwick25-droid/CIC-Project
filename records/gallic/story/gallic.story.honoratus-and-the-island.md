@@ -132,7 +132,7 @@ modern_contrast: >-
 use_note:
   means: "Hilary of Arles preached that Honoratus went unafraid onto a serpent-shunned island carrying a psalm, the serpents gave way, and the priestly fillet fastened on its fugitive."
   not_for:
-    - "daily life at Lerins, which nothing in the record describes"
+    - "daily life at Lerins, whose absence sits in gallic.limit.only-on-paper"
     - "Honoratus's later episcopate at Arles as history, when the sermon is a disciple's eulogy that stops at the island"
     - "an exact reading of Hilary's Latin, when the wording is rough OCR rendered only as far as it can be read"
     - "Martin's election, which sits in gallic.story.election-at-tours"

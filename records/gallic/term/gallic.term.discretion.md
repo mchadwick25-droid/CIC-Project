@@ -127,12 +127,12 @@ quick_meaning: >-
   slackness, gained only by showing one's thoughts to the elders.
 distortion_risk: high
 use_note:
-  means: "Discretion meant, for Cassian, the virtue that regulates all others, the royal road between excess and slackness, gained only by humility and by showing thoughts to the elders."
+  means: "Discretion meant, for Cassian, the virtue Antony's council made mother and regulator of all others, the royal road between excess and slackness, where extremes meet."
   not_for:
-    - "tact, prudence or confidentiality"
-    - "discernment as a private intuition or decision technique"
-    - "the practice of telling thoughts to the senior, which sits in gallic.term.disclosure-of-thoughts"
+    - "tact, prudence or confidentiality, or a private intuition"
+    - "the practice of laying each thought bare to the senior, and the maxim that a hidden thought is the devil's, which sit in gallic.term.disclosure-of-thoughts"
     - "a Tours teaching, where the practice appears without the word"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 426}
   status: reviewed
 ---

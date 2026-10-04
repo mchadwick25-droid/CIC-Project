@@ -167,12 +167,12 @@ quick_meaning: >-
   requiring it. Held on both sides at once, by design.
 distortion_risk: high
 use_note:
-  means: "Grace meant, for Cassian's Marseilles, God's help without which no effort reaches its goal, going before the will and crowning it, held on purpose with a will that stays free."
+  means: "Grace meant, for Cassian's Marseilles, God's help going before, working with and crowning the will, held on purpose with a free will in a relation beyond reason's grasp."
   not_for:
-    - "a binary of grace alone against works, with the world placed on one side of it"
-    - "semi-Pelagian as a settled verdict, a label whose fit is contested in gallic.contested.massilian-label"
+    - "a binary of grace alone against works, or semi-Pelagian as a settled verdict, a label contested in gallic.contested.massilian-label"
     - "Martin's power to heal, which sits in gallic.term.grace-as-charism"
-    - "Augustine's own doctrine, for which his treatises are context only"
+    - "the full saying that denying God wills all to be saved is grievous blasphemy, which sits in gallic.quote.grievous-blasphemy-not-all-men-to-be-saved"
+    - "a teaching on guilt inherited from birth, which this record does not hold"
   years: {from: 415, to: 434}
   status: reviewed
 ---

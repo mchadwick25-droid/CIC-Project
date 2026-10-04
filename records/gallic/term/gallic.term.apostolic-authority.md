@@ -105,12 +105,12 @@ quick_meaning: >-
   Church.
 distortion_risk: medium
 use_note:
-  means: "Apostolic authority meant, at Tours, Martin's apostle-like power over death, demons and emperors, and at Marseilles the perfection of love and the first Church's common life."
+  means: "Apostolic authority meant, at Tours, Martin's apostle-like power shown in raising the dead and facing an emperor, and at Marseilles the perfection of love and the first Church's common life."
   not_for:
-    - "apostolic succession as a doctrine of validly ordained bishops"
-    - "Martin's apostolic authority as jurisdiction"
+    - "apostolic succession of validly ordained bishops, or Martin's apostolic authority as jurisdiction"
     - "Rome as such, which sits in gallic.term.apostolic-see-pope"
     - "the saint's power as such, which sits in gallic.term.virtus"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 435}
   status: reviewed
 ---

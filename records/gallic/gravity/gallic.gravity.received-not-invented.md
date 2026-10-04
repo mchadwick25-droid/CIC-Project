@@ -140,12 +140,12 @@ manifestations:
 - "Martin refusing a cult at an unattested tomb, 'lest a mere superstition should obtain a firmer footing' (Vita XI) - the Tours node's one episode"
 - "The instrument turned both ways in-window: Prosper's 'they defend their obstinacy by antiquity'; Celestine's 'let novelty cease to assail antiquity'; Vincent reading the letter for his own side (Comm. ch. 32 [85]; Heurtley's Appendices II-III, editorial)"
 use_note:
-  means: "Antiquity, the fathers and consent are the test of legitimacy against novelty in custom, doctrine and cult, applied by all three founding voices though they never cite one another."
+  means: "Antiquity, the fathers and consent are the test of legitimacy against novelty, stated by Cassian for custom, Vincent for doctrine and Martin for cult, though none cites another."
   not_for:
-    - "a conservatism that forbids all growth"
+    - "growth of doctrine without alteration, which sits in gallic.term.progress-vs-alteration"
     - "the test as consistently applied, when that is contested in gallic.contested.who-holds-antiquity"
-    - "Cassian's customs as a written Rule"
-    - "Martin's refusal of an unattested tomb as an application of Vincent's formulated test, which sits in gallic.term.the-rule"
+    - "the novice's year under the guest-elder and the admission that none kept Egypt's perseverance a year, which sit in gallic.term.junior-novice"
+    - "Scripture's sufficient canon and its need of the Church's reading, which sit in gallic.limit.no-one-who-saw-him"
   years: {from: 397, to: 434}
   status: reviewed
 ---

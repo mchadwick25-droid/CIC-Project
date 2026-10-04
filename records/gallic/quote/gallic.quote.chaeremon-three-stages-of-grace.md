@@ -88,6 +88,7 @@ use_note:
     - "a settled verdict that the teaching is semi-Pelagian, when that label is contested"
     - "the claim that grace looks for human effort, which sits in gallic.quote.chaeremon-grace-requires-our-effort"
     - "a complete theory of how grace and free will fit together, when Chaeremon calls that beyond human grasp"
+    - "a statement on infants or guilt inherited from birth, which this passage does not contain"
   years: {from: 426, to: 426}
   status: reviewed
 ---

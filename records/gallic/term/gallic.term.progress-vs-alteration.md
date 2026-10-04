@@ -104,12 +104,12 @@ quick_meaning: >-
   enlarged like a body growing, or given a clearer name; it may not become something else.
 distortion_risk: high
 use_note:
-  means: "Progress meant, for Vincent, enlargement like a growing body or a clearer name for the same faith, never alteration into something else."
+  means: "Progress meant, for Vincent, enlargement of the same faith like a growing body or a clearer name, never alteration into something else."
   not_for:
-    - "development of doctrine as Newman's theory, or Vincent as a charter for change"
-    - "Vincent as a proof-text against all change"
+    - "Newman's development of doctrine, or Vincent as either a charter for change or a proof-text against all change"
     - "what is kept, which sits in gallic.term.the-deposit"
     - "the test of the faith, which sits in gallic.term.the-rule"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 434, to: 434}
   status: reviewed
 ---

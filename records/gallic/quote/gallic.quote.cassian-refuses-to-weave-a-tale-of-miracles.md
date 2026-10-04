@@ -69,6 +69,7 @@ use_note:
     - "a denial that miracles happened, when Cassian says he saw some"
     - "Nesteros's teaching that humility outranks wonder-working, which sits in gallic.quote.humility-mistress-of-virtues-not-exorcism"
     - "an attack by name on Sulpitius or Martin"
+    - "Cassian's admission that no one in Gaul kept Egypt's perseverance even a year, which sits in gallic.gravity.egypt-as-measure"
   years: {from: 415, to: 426}
   status: reviewed
 ---

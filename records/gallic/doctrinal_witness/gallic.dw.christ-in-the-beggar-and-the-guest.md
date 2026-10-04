@@ -95,12 +95,12 @@ relations:
 - type: associated-with
   target: gallic.quote.martin-on-the-christ-with-wounds
 use_note:
-  means: "This witness says Jesus sought the unpitied, citing Martin's cloak, the guest received as Christ and grace calling the unwilling, while naming its thin personal testimony."
+  means: "This witness answers that Jesus sought the unpitied from Martin's cloak, an Egyptian elder breaking his fast for guests as Christ, and grace calling the unwilling, with thin personal testimony."
   not_for:
-    - "a personal conversion testimony from anyone but Martin, which the record lacks"
-    - "evidence that Gallic houses broke fasts for guests, which Cassian does not say"
-    - "a settled reading of Conference XIII on grace, which is contested"
-    - "who Christ was and what his death meant, which sit in gallic.dw.the-christ-who-bears-the-wounds"
+    - "Vincent on Scripture's canon, its sufficiency and its need of the Church's reading, which sit in gallic.limit.no-one-who-saw-him"
+    - "Chaeremon's two-sided answer on grace and Vincent's reading of the Apostolic See's letter, which sit in gallic.contested.beginning-of-good-will and gallic.contested.who-holds-antiquity"
+    - "the sixth-hour death, the bystanders' laughter and Martin at Trier, which sit in gallic.dw.the-christ-who-bears-the-wounds, gallic.story.the-cloak-at-amiens and gallic.story.trier-and-the-ithacian-communion"
+    - "a personal conversion testimony from anyone but Martin, or any claim about what guests later said, which the record lacks"
   years: {from: 397, to: 434}
   status: reviewed
 ---

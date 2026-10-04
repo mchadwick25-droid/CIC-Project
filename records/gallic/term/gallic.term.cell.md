@@ -114,11 +114,11 @@ quick_meaning: >-
   where the wandering heart is held still.
 distortion_risk: medium
 use_note:
-  means: "The cell meant the monk's own hut or cave, rarely left except for prayer, where saints and devils come and the wandering heart is held still."
+  means: "The cell meant the monk's own dwelling, at Tours a hut or cave rarely left except for prayer, at Marseilles a discipline holding the wandering heart still by labour."
   not_for:
     - "a prison cell, or a bare private bedroom with solitude as privacy"
     - "the house as a whole, which sits in gallic.term.monastery-coenobium"
-    - "the desert hermit's cell as such, which sits in gallic.term.anchorite-hermit"
+    - "the noonday hatred of the cell itself, which sits in gallic.term.accidie"
     - "Cassian's rule of never leaving the cell as proven Gallic practice, when whether any Gallic house kept it is not documented"
   years: {from: 397, to: 435}
   status: reviewed

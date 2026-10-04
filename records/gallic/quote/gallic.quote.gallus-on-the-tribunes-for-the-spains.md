@@ -106,10 +106,10 @@ relations:
 - type: associated-with
   target: gallic.story.trier-and-the-ithacian-communion
 use_note:
-  means: "Gallus recounts how Maximus shielded Ithacius after Priscillian's death and how Martin went to court to stop tribunes being sent into the Spains."
+  means: "Gallus opens the event Martin concealed owing to the times: Maximus shielding Ithacius after Priscillian's death, and Martin going to court to stop tribunes being sent into the Spains."
   not_for:
     - "a doctrinal ruling on heresy, when Martin's petition concerned lives"
-    - "the forced communion and the angel, which sit in gallic.quote.gallus-on-the-forced-communion-and-the-angel"
+    - "the communion Martin yielded to and the angel, which sit in gallic.quote.gallus-on-the-forced-communion-and-the-angel"
     - "an event corroborated outside Sulpitius's own writings"
   years: {from: 404, to: 406}
   status: reviewed

@@ -160,6 +160,7 @@ use_note:
     - "an eyewitness account, when Sulpitius disclaims being present"
     - "the later cult of Martin at Tours, which lies outside the window"
     - "the south's teaching on death or judgment, which sits in gallic.term.fear-hope-love"
+    - "the funeral-as-triumph passage verbatim, which sits in gallic.quote.martin-funeral-triumph-contrast"
   years: {from: 397, to: 397}
   status: reviewed
 ---

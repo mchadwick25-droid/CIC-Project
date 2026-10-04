@@ -59,7 +59,7 @@ modern_rendering: >-
   taking revenge for the wrong done to himself. And he often repeated this saying: ‘If Christ bore with
   Judas, why should I not bear with Brictio?’
 use_note:
-  means: "Gallus, in Sulpitius's Dialogues, reports that Martin refused to remove the accused presbyter Brictio, often saying that if Christ bore with Judas he should bear with Brictio."
+  means: "Gallus reports that Martin refused to remove Brictio from the presbyterate when he was accused of crimes, lest he seem to avenge himself, saying Christ bore with Judas."
   not_for:
     - "a verdict that the charges against Brictio were false, which the passage never gives"
     - "a claim about Brictio's later career or status, which nothing at this locus supports"

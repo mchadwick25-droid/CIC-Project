@@ -122,11 +122,11 @@ quick_meaning: >-
   conquer his wishes. A standard our own houses admit they did not keep.
 distortion_risk: high
 use_note:
-  means: "The junior meant the monk newly received as Egypt receives him, scorned at the door and taught to conquer his wishes, a standard Cassian says Gallic houses did not keep."
+  means: "The junior meant the newcomer as Egypt receives him, scorned at the door, then a year under the guest-Elder, a standard Cassian says Gallic houses did not keep."
   not_for:
-    - "a Benedictine novitiate with a defined year and vows"
-    - "novice as simply any beginner"
-    - "the scorning at the door as hazing or abuse"
+    - "a Benedictine novitiate with a defined year and vows, or the scorning at the door as hazing"
+    - "a documented reception at Marseilles, when Cassian says no one there kept Egypt's perseverance even a year"
+    - "a forced turning to the monastic life, such as the murderer Moses of Calamus, which sits in gallic.term.conversion"
     - "a Tours grade, where disciples appear but no probationary rank, which sits in gallic.term.disciple-master"
   years: {from: 397, to: 426}
   status: reviewed

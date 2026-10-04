@@ -133,11 +133,11 @@ quick_meaning: >-
   allows, and admitted to be kept badly.
 distortion_risk: high
 use_note:
-  means: "The customs of the monasteries meant what Cassian carried from Egypt to Gaul, received from the fathers and not written as a Rule, kept as far as the cold allowed."
+  means: "The customs of the monasteries meant the whole body of Egyptian practice Cassian carried to a Gallic bishop's new house, received from the fathers, not his own Rule."
   not_for:
-    - "a codified Rule such as Benedict's, with a canonical abbot and novitiate"
-    - "the Institutes as a theology textbook"
+    - "a codified Rule such as Benedict's, or the Institutes as a theology textbook"
     - "Vincent's rule of faith, which sits in gallic.term.the-rule"
+    - "the content of one custom, such as the psalm system in gallic.term.unceasing-prayer or the dress in gallic.term.the-monks-dress"
     - "documented Gallic practice, when Cassian admits no one in our monasteries kept Egypt's perseverance unbroken even for a year"
   years: {from: 397, to: 435}
   status: reviewed

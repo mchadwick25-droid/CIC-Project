@@ -153,9 +153,9 @@ use_note:
   means: "Egypt stands as the measure of real monastic life, received in the south as a rule from the fathers and matched at Tours by a saint said to outdo it."
   not_for:
     - "one Egypt shared by both houses, when that is contested in gallic.contested.egypt-two-measures"
-    - "Egypt's own view of Martin"
     - "the received customs as how Gaul actually lived, when Cassian admits no one in our monasteries kept Egypt's perseverance even for a year"
     - "the rival wonders at Tours as Cassian's view, when he refuses wonders, as in gallic.gravity.virtus"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 404, to: 450}
   status: reviewed
 ---

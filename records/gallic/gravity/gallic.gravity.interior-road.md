@@ -116,12 +116,12 @@ manifestations:
 - "The three lentil beans; Paesius and John; Paphnutius's humility - the south's exempla teaching a virtue rather than displaying a power"
 - "Martin's discernment of the false Christ (Vita XXIV) - the practice without the program, in Tours"
 use_note:
-  means: "Purity of heart as goal, discretion as regulator and the eight faults as combats make up the southern formation program, which pulls against office and against the saint's wonders."
+  means: "Purity of heart as goal, discretion as regulator and the eight faults as combats together form the southern formation program, which pulls against office and against the saint's wonders."
   not_for:
-    - "the program as documented Gallic practice, when it is Egypt's teaching received through Cassian"
-    - "Tours as sharing the vocabulary, when it has the practice without the words"
+    - "the program as documented Gallic practice or as Tours vocabulary, when it is Egypt's teaching received through Cassian"
+    - "the faults, discretion or purity of heart taken singly, which sit in gallic.term.eight-principal-faults, gallic.term.discretion and gallic.term.purity-of-heart"
     - "the south's teaching on chastity, since Conferences XII and XXII are absent from the vendored English"
-    - "the list of faults as psychology, when the faults themselves sit in gallic.term.eight-principal-faults"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 435}
   status: reviewed
 ---

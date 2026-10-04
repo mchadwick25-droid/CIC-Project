@@ -112,7 +112,7 @@ use_note:
   not_for:
     - "a Gallic treatise on the atonement, which no one in this world wrote"
     - "the Christ with wounds as independently witnessed, when one author reports Martin's word"
-    - "the resurrection as argued rather than confessed at the hours"
+    - "the books read at the hours, which sit in gallic.limit.no-one-who-saw-him, or a reading of Scripture by Martin, which the witness lacks"
     - "the question of Christ's divinity, which sits in gallic.dw.one-person-two-substances"
   years: {from: 397, to: 426}
   status: reviewed

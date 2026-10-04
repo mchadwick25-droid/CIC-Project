@@ -135,8 +135,8 @@ use_note:
   not_for:
     - "a disciple turning on a master, which sits in gallic.story.brictio-in-the-courtyard"
     - "exorcism as a practice, which sits in gallic.term.possessed-exorcism"
+    - "an angel answering Paphnutius, when his vindication comes through the accuser's possession and confession"
     - "a Gallic event, when it is Piamun's Egyptian tale carried by Cassian"
-    - "the exact words of the speakers, when Cassian's dialogue speeches are reconstructions"
   years: {from: 426, to: 435}
   status: reviewed
 ---

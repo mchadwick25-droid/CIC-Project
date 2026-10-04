@@ -132,6 +132,7 @@ use_note:
     - "the angel's speech and the lessened power as established fact, when they rest on Martin's tearful report through Gallus"
     - "the earlier petition at the palace over the tribunes, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
     - "a separate witness from gallic.quote.aloof-from-assemblies-of-bishops, whose sentence closes this passage"
+    - "heretics condemned in their absence, when the passage gives Maximus's claim of regular public trials"
   years: {from: 404, to: 406}
   status: reviewed
 ---

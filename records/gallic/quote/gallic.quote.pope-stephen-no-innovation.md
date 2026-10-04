@@ -48,6 +48,7 @@ use_note:
     - "a verified text of Stephen's letter, which survives only through Vincent's and Cyprian's citations"
     - "Pope Celestine's letter to Gaul, which sits in gallic.quote.vincent-celestines-letter-and-its-reading"
     - "Vincent's own keeper-not-author teaching, which sits in gallic.quote.not-an-author-but-a-keeper"
+    - "a rule widely repeated in this world, when Vincent's single citation is its only witness here"
   years: {from: 434, to: 434}
   status: reviewed
 ---

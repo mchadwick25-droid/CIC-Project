@@ -87,6 +87,7 @@ use_note:
     - "an attested event, when Cassian names no witness and points to ecclesiastical history"
     - "a custom already kept in Gaul, when Cassian writes it for Castor's new house"
     - "the two added lessons as angelic, when the fathers added them by their own appointment"
+    - "a remark about this world's scholarly attribution, which the passage does not make"
   years: {from: 415, to: 426}
   status: reviewed
 ---

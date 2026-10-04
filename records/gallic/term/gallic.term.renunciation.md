@@ -121,12 +121,12 @@ quick_meaning: >-
   easiest stage. And the Church still fetches renunciants for its sees.
 distortion_risk: high
 use_note:
-  means: "Renunciation meant the act that makes a monk, a death to the world of which giving up goods is only the first and easiest of three stages."
+  means: "Renunciation meant the act that makes a monk, a death to the world in three stages, of which giving up goods is only the first and easiest."
   not_for:
-    - "giving things up as the whole monastic act"
-    - "a heroic once-for-all rejection of society"
+    - "giving things up as the whole monastic act, or a heroic once-for-all rejection of society"
     - "the day of entry, which sits in gallic.term.conversion"
     - "the baptismal renunciation of the devil, which is Salvian's referent"
+    - "the monk as a man cut off from marriage, kin, property and the world, which sits in gallic.term.monk-solitary"
   years: {from: 397, to: 450}
   status: reviewed
 ---

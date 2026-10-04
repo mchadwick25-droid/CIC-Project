@@ -136,10 +136,10 @@ quick_meaning: >-
   to the part, the old to the new, and the consent of the ancients to any one teacher.
 distortion_risk: high
 use_note:
-  means: "The rule meant Vincent's test of the faith, what has been believed everywhere, always, by all, preferring the whole, the old and consent to the part, the new and few."
+  means: "The rule meant Vincent's test of doctrine, what has been believed everywhere, always, by all, preferring the whole, the old and consent, never a monastic Rule of life."
   not_for:
     - "the Vincentian canon as a slogan in later polemic over which communion holds the faith"
-    - "a monastic Rule, whether Cassian's customs or Benedict's"
+    - "Cassian's received customs and whether Gallic houses kept them, which sit in gallic.term.customs-of-the-monasteries, or Benedict's Rule"
     - "a formula consistently applied, when its use in the live grace dispute is contested in gallic.contested.who-holds-antiquity"
     - "novelty as a value in itself, which sits in gallic.term.novelty-antiquity"
   years: {from: 434, to: 434}

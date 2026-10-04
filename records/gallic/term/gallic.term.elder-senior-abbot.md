@@ -123,12 +123,12 @@ quick_meaning: >-
   Egyptian father's title; at Tours it is one master with no title at all.
 distortion_risk: high
 use_note:
-  means: "The elder meant the senior whose judgment stands in for the junior's own, to whom every thought is shown, and abbot was the title of Egypt's fathers."
+  means: "The elder meant the senior whose judgment stands in for the junior's own, abbot being the title of Egypt's fathers, while Tours had one untitled master, Martin."
   not_for:
-    - "a Benedictine abbot with jurisdiction and a crozier"
-    - "elder as a church officer or simply an old man"
-    - "the Fathers as the source of teaching, which sits in gallic.term.the-fathers-elders"
+    - "a Benedictine abbot with jurisdiction and a crozier, or a church officer"
+    - "the Fathers as the source of received teaching, which sits in gallic.term.the-fathers-elders"
     - "the bishop's office, which sits in gallic.term.monk-bishop"
+    - "the practice of laying each thought bare, which sits in gallic.term.disclosure-of-thoughts"
   years: {from: 397, to: 426}
   status: reviewed
 ---

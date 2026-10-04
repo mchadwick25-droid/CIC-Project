@@ -110,6 +110,7 @@ use_note:
     - "a confessor as a priest who hears confessions, a later sense; the monk's telling of thoughts sits in gallic.term.disclosure-of-thoughts"
     - "the three senses as one doctrine, when the voices do not cite one another"
     - "white martyrdom as a later category read backward"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 435}
   status: reviewed
 ---

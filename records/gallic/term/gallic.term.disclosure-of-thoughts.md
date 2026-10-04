@@ -106,11 +106,11 @@ quick_meaning: >-
   monastic life - and not the later sacrament.
 distortion_risk: high
 use_note:
-  means: "Disclosure of thoughts meant laying every rising thought bare to the senior before any deed, the first lesson of Cassian's monastic life and not the later sacrament."
+  means: "Disclosure of thoughts meant laying every rising thought bare to the senior before any deed, guarded by the maxim that a thought one is ashamed to tell is the devil's."
   not_for:
-    - "sacramental confession of sins to a priest with absolution"
-    - "therapy or optional spiritual accountability"
+    - "sacramental confession of sins to a priest with absolution, or therapy"
     - "public penance for a committed fault, which sits in gallic.term.penance-satisfaction"
+    - "the virtue that regulates all others on the royal road, which sits in gallic.term.discretion"
     - "a documented Gallic practice, when whether any Gallic house kept it is unrecorded"
   years: {from: 415, to: 426}
   status: reviewed

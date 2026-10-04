@@ -123,6 +123,7 @@ use_note:
     - "one shared apocalyptic doctrine, when the three modes differ"
     - "Salvian's present judgment as the monastic houses' teaching, when it is his own voice, as in gallic.term.government-of-god"
     - "an Antichrist teaching by Cassian, who has only the fear of hell in what was read"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 397, to: 450}
   status: reviewed
 ---

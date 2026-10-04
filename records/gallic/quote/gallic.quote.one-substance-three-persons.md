@@ -61,7 +61,7 @@ use_note:
   not_for:
     - "Christology as this world's main concern, when Vincent uses the formula as a proof-case for his rule"
     - "anything drawn from Cassian's books against Nestorius, which this build has not read"
-    - "the fuller answer on Christ's divinity and death, which sits in gallic.dw.one-person-two-substances"
+    - "the reasons behind the formula, the unchanging Word and the Quaternity, which sit in gallic.dw.one-person-two-substances"
   years: {from: 434, to: 434}
   status: reviewed
 ---

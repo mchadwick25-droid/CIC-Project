@@ -113,9 +113,9 @@ modern_contrast: >-
   idiom - Cassian's "a monk, then, as a soldier of Christ," the "young soldiers who had just taken the
   oath" at Martin's funeral - reads back to this donative, this Caesar, this prison.
 use_note:
-  means: "Sulpitius records Martin, at a donative before battle, telling Julian Caesar that he is now Christ's soldier and offering to stand unarmed, whereupon the enemy surrenders."
+  means: "Sulpitius records Martin, at a donative before battle, telling Julian Caesar he is now Christ's soldier and offering to stand unarmed, whereupon the enemy surrenders without bloodshed."
   not_for:
-    - "the earlier cloak scene, which sits in gallic.story.the-cloak-at-amiens"
+    - "the cloak scene and Martin's years as an unbaptized catechumen, which sit in gallic.story.the-cloak-at-amiens and gallic.term.catechumen"
     - "Cassian's dress-mysticism soldier, which sits in gallic.term.soldier-of-christ"
     - "the editors' identification of Julian and Worms as the text's own"
     - "a general Christian refusal of military service, when it is one saint's act"

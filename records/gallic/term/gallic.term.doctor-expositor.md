@@ -90,6 +90,7 @@ use_note:
     - "Doctor of the Church as a later honorific for a fixed list of saints"
     - "the Fathers as received authority in general, which sits in gallic.term.the-fathers-elders"
     - "the monastic master, which sits in gallic.term.disciple-master"
+    - "a remark about this record's own coverage, sources or scholarly attribution"
   years: {from: 434, to: 434}
   status: reviewed
 ---

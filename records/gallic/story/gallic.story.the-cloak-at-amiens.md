@@ -124,7 +124,7 @@ use_note:
     - "evidence that the vision really happened, which the record does not assess"
     - "the discharge scene, which sits in gallic.story.discharge-before-caesar"
     - "a proof that anyone saw the Lord in the flesh, which gallic.limit.no-one-who-saw-him says is not held"
-    - "the editors' identification of Amiens as the text's own"
+    - "the rustics the saint's power was shown for, which sit in gallic.term.heathen-rustics"
   years: {from: 397, to: 397}
   status: reviewed
 ---
