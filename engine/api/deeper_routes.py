@@ -442,6 +442,11 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         return {"door": {"stage": state.stage, "ratio": round(state.ratio, 3), "ceiling_usd": round(state.ceiling_usd, 2),
                          "free_voice": state.free_voice, "paid_voice": state.paid_voice}}
 
+    @app.get("/api/admin/deeper/owed")
+    def owed(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"owed": runtime.meter.owed()}
+
     @app.get("/api/admin/deeper/funds")
     def funds(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)

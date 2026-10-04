@@ -398,6 +398,21 @@ class Meter:
             report.append(entry)
         return report
 
+    def owed(self) -> list[dict]:
+        """What each payment still holds in unspent tokens, for refunds at a
+        switch-off. By Stripe payment id, which the meter already keeps; the
+        codes themselves stay hashed and nothing here names a person."""
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT payment_id, kind, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created)"
+                " FROM meter WHERE status != 'void' GROUP BY payment_id ORDER BY MIN(day_created), payment_id"
+            ).fetchall()
+        return [
+            {"payment_id": pid, "kind": kind, "codes": codes_n, "tokens_bought": total, "tokens_left": total - used, "day_bought": day}
+            for pid, kind, codes_n, total, used, day in rows
+            if total - used > 0
+        ]
+
     def add_funds(self, kind: str, cents: int, payment_id: str | None = None, note: str | None = None) -> str | None:
         """Records money that raises the door's ceiling: a gift or a go-deeper
         purchase from Stripe (keyed by its payment id, so a replayed event adds

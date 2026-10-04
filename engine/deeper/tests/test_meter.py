@@ -390,3 +390,25 @@ def test_funds_older_than_the_window_leave_the_sum_and_are_purged_later(tmp_path
 def test_the_funds_table_holds_no_code_hash_and_no_note_of_a_buyer(meter):
     columns = {row[1] for row in meter._conn.execute("PRAGMA table_info(funds)")}
     assert columns == {"entry", "day", "kind", "cents", "payment_id", "note", "reversed"}
+
+
+# ---- the balances owed at a switch-off -------------------------------------------------------
+
+def test_owed_lists_each_payment_with_unspent_tokens_and_nothing_else(meter):
+    (spent,) = meter.mint("single", 10, "pi_spent")
+    meter.settle(meter.reserve(spent, 10).reservation, True)
+    (part,) = meter.mint("single", 100, "pi_part")
+    meter.settle(meter.reserve(part, 30).reservation, True)
+    meter.mint("batch", 50, "pi_batch", count=2)
+    meter.mint("single", 25, "pi_refunded")
+    meter.void("pi_refunded")
+    owed = {row["payment_id"]: row for row in meter.owed()}
+    assert set(owed) == {"pi_part", "pi_batch"}
+    assert (owed["pi_part"]["tokens_bought"], owed["pi_part"]["tokens_left"]) == (100, 70)
+    assert (owed["pi_batch"]["codes"], owed["pi_batch"]["tokens_left"]) == (2, 100)
+
+
+def test_owed_carries_no_code_and_no_hash(meter):
+    (code,) = meter.mint("single", 40, "pi_x")
+    text = str(meter.owed()).lower()
+    assert code.lower() not in text and "hash" not in text

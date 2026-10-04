@@ -107,6 +107,7 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/door", headers=admin()).status_code == 404
+    assert http.get("/api/admin/deeper/owed", headers=admin()).status_code == 404
 
 
 def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, runtime):
@@ -115,7 +116,7 @@ def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, 
     assert {
         "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
-        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door",
+        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door", "/api/admin/deeper/owed",
     } <= paths
 
 
@@ -730,3 +731,16 @@ def test_a_restart_with_the_usage_log_down_still_finds_the_door_where_it_was_lef
     assert (state.stage, state.free_voice, state.table_free_rounds) == (4, False, 0)
     runtime.meter.close()
     runtime.claims.close()
+
+
+# ---- the balances owed ---------------------------------------------------------------------------
+
+def test_the_owed_route_needs_the_admin_credential(http):
+    assert http.get("/api/admin/deeper/owed").status_code == 404
+    assert http.get("/api/admin/deeper/owed", headers=admin("wrong")).status_code == 404
+
+
+def test_the_owed_route_lists_unspent_tokens_by_payment(http, runtime):
+    runtime.meter.mint("single", 1100, "pi_owed")
+    (row,) = http.get("/api/admin/deeper/owed", headers=admin()).json()["owed"]
+    assert (row["payment_id"], row["kind"], row["codes"], row["tokens_bought"], row["tokens_left"]) == ("pi_owed", "single", 1, 1100, 1100)

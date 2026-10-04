@@ -1386,3 +1386,12 @@ Still switched off behind the flag; with the module off nothing changes.
 - **A fault never reopens a closed door.** If admission itself fails, the engine is handed a grant that keeps to the door: a refusal when free voice is closed, otherwise a free grant no longer than the door's rounds allow. The operations file refuses a free-day share of 0 (a closed free path is a stage, not a share). A restart with the usage log down still finds the door where it was left.
 - **Wiring.** The runtime builds the door when it is given the usage log (the real app is); tests without it have no door. `GET /api/admin/deeper/door` shows Mark the stage, ratio, ceiling and whether free and paid voice are open.
 - **Words:** a closed door shows existing lines only (no-code for a closed free path, the paused line for a closed paid path). A line of its own for a closed door is Mark's to approve; candidates when he wants them. The public one-line door state on the home and Get Involved pages is a later slice with Mark's words.
+
+## 2026-10-04 — Go Deeper S11: the turn-on and rollback runbook, and the balances-owed report
+
+Still switched off behind the flag.
+
+- **The runbook** is `Build/Ministry/Operations/Standing/CiC_Go_Deeper_Turn_On_Runbook.md`: what must be true before the staging rehearsal, every setting and where it lives, the fourteen-step rehearsal Mark walks, the paid voice-quality run (sample first, settings passed on the command and printed, a stated cap, Mark's approval before anything runs), the four production steps (ship dark; engine on; app on; site on), a rollback from lightest to heaviest, the removal checklist, and what to watch in the first weeks. The build thread has run nothing paid.
+- **The balances-owed report:** `GET /api/admin/deeper/owed` (admin only) lists, by Stripe payment id, the unspent tokens on every payment that has any. It holds no code and no hash. What is refunded is the refund policy, which is Mark's.
+- **The website ships from `main`,** not `live`, so the site stays dark by its own settings (`enabled: false`, no link, no payment link), which step 4 changes.
+- **Open for Mark before step 2:** whether to add the week of observe mode; the per-pack Payment Links; the policy and words items listed in Part 1.
