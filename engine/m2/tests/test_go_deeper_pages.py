@@ -98,11 +98,21 @@ def _ops_figures() -> dict:
     return figures
 
 
+NUMBER_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten"}
+
+
 def test_every_figure_on_the_go_deeper_page_is_the_one_in_the_operations_file():
     html = (SITE / "go-deeper.html").read_text()
     found = dict(re.findall(r'data-ops="([a-z0-9-]+)">([\d,]+)<', html))
     expected = {key: f"{value:,}" for key, value in _ops_figures().items()}
     assert found == expected
+
+
+def test_every_count_of_free_rounds_on_the_page_is_the_operations_files():
+    html = (SITE / "go-deeper.html").read_text()
+    spoken = re.findall(r'data-ops="free-rounds">([a-z]+)<', html)
+    assert len(spoken) == 2
+    assert set(spoken) == {NUMBER_WORDS[load_ops().rates.free_rounds]}
 
 
 def test_the_pack_lines_say_how_many_three_round_conversations_each_pack_holds():
