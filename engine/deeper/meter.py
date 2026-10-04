@@ -60,6 +60,7 @@ MAX_NOTE_CHARS = 200
 MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
+PILOT_RETENTION_DAYS = 90
 DEFAULT_FREE_WINDOW_DAYS = 30
 
 _SCHEMA = """
@@ -740,7 +741,7 @@ class Meter:
                 "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
-                "DELETE FROM pilot_joined WHERE first_day <= ?", ((today - timedelta(days=RETENTION_DAYS)).isoformat(),)
+                "DELETE FROM pilot_joined WHERE first_day <= ?", ((today - timedelta(days=PILOT_RETENTION_DAYS)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM free_window WHERE first_day <= ?", ((today - timedelta(days=self._free_window_days)).isoformat(),)

@@ -37,7 +37,7 @@ from engine.deeper import meter as meter_module
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, MintLimit, PaymentVoided, PilotRefused, is_grant
 from engine.deeper.free import FreeAllowance
 from engine.deeper.tokens import TokenRates
-from engine.api.ratelimit import client_ip
+from engine.api.ratelimit import client_ip, network_of
 
 logger = logging.getLogger("cic.deeper")
 
@@ -463,6 +463,8 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 
     @app.options("/api/deeper/pilot-join")
     def pilot_preflight(request: Request, response: Response):
+        if runtime.ops is None or not runtime.ops.pilot_open:
+            raise HTTPException(status_code=404)
         _cors(request, response)
         response.headers["Access-Control-Allow-Methods"] = "POST"
         response.headers["Access-Control-Allow-Headers"] = "content-type"
@@ -487,7 +489,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         grant_id = "pilot_" + secrets.token_hex(12)
         try:
             code = runtime.meter.join_pilot(
-                client_ip(request), pack.tokens, grant_id, open_=ops.pilot_open, end_date=ops.pilot_end_date,
+                network_of(client_ip(request)), pack.tokens, grant_id, open_=ops.pilot_open, end_date=ops.pilot_end_date,
                 cap=ops.pilot_cap, per_address=ops.pilot_per_address,
             )
         except PilotRefused as refused:

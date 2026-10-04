@@ -6,7 +6,7 @@ import json
 import logging
 import re
 import time
-from datetime import date
+from datetime import date, timedelta
 
 import pytest
 from fastapi.testclient import TestClient
@@ -1190,3 +1190,32 @@ def test_the_status_reports_the_pilot_against_its_cap(http, runtime):
     join(http)
     pilot = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
     assert pilot == {"open": True, "cap": 10, "given": 1, "end_date": runtime.ops.pilot_end_date.isoformat(), "per_address": 2}
+
+
+def test_addresses_in_one_ipv6_block_share_a_count_and_ipv4_stays_exact(http, runtime):
+    open_pilot(runtime, pilot_per_address=2, pilot_cap=50)
+    block = "2001:db8:abcd:12"
+    assert [join(http, ip=f"{block}::{n}").status_code for n in (1, 2)] == [200, 200]
+    assert join(http, ip=f"{block}:ffff:1:2:3").json()["reason"] == "address_limit"
+    assert join(http, ip="2001:db8:abcd:13::1").status_code == 200
+    assert join(http, ip="203.0.113.50").status_code == 200 and join(http, ip="203.0.113.51").status_code == 200
+
+
+def test_the_pilot_route_is_a_404_to_a_preflight_too_while_closed(http, runtime):
+    assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 404
+    open_pilot(runtime)
+    assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 204
+
+
+def test_an_address_row_is_kept_for_ninety_days_and_then_deleted(runtime):
+    from engine.deeper.meter import PILOT_RETENTION_DAYS
+
+    meter = runtime.meter
+    meter.join_pilot("203.0.113.5", 1100, "pilot_a", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
+    assert PILOT_RETENTION_DAYS == 90
+    first = date(2026, 10, 5)
+    for days, kept in ((PILOT_RETENTION_DAYS - 1, 1), (PILOT_RETENTION_DAYS, 0)):
+        meter._clock = lambda d=days: first + timedelta(days=d)
+        meter.purge()
+        assert meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == kept
+    assert meter.pilot_total() == 1

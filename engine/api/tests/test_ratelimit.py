@@ -122,3 +122,11 @@ def test_admin_route_is_rate_limited_independent_of_a_configured_token(store, us
     codes = [http.get("/api/admin/pilot-summary", headers={"Authorization": "Bearer guess"}).status_code for _ in range(max_attempts + 1)]
     assert codes[:-1] == [404] * max_attempts
     assert codes[-1] == 429
+
+
+def test_network_of_counts_an_ipv6_block_as_one_and_leaves_the_rest_alone():
+    from engine.api.ratelimit import network_of
+
+    assert network_of("2001:db8:1:2::1") == network_of("2001:db8:1:2:ffff:eeee:dddd:cccc") == "2001:db8:1:2::/64"
+    assert network_of("2001:db8:1:3::1") != network_of("2001:db8:1:2::1")
+    assert network_of("203.0.113.9") == "203.0.113.9" and network_of("unknown") == "unknown"

@@ -39,6 +39,7 @@ Dockerfile's own comment on --forwarded-allow-ips='*'), the entry THAT
 proxy appended - the last one - is the only one this process didn't just
 receive verbatim from the request itself.
 """
+import ipaddress
 import threading
 import time
 from collections import deque
@@ -110,6 +111,19 @@ def client_ip(request: Request) -> str:
     return request.client.host if request.client else "unknown"
 
 
+def network_of(address: str) -> str:
+    """The key to count a visitor under when one person can hold many addresses:
+    an IPv6 address becomes its /64, the block a single home or phone connection
+    is given; an IPv4 address, or anything that does not parse, is unchanged."""
+    try:
+        ip = ipaddress.ip_address(address)
+    except ValueError:
+        return address
+    if isinstance(ip, ipaddress.IPv6Address):
+        return str(ipaddress.ip_network(f"{ip}/64", strict=False))
+    return address
+
+
 def install(app, bucket_for: Callable[[Request], tuple[str, int] | None] | None = None):
     """HTTP middleware: session creation, conversation traffic (including
     the two per-session GET reads, not just the two message POSTs - see
@@ -153,6 +167,8 @@ def install(app, bucket_for: Callable[[Request], tuple[str, int] | None] | None 
         else:
             return await call_next(request)
         key, scale = client_ip(request), 1
+        if limiter is deeper_limiter:
+            key = network_of(key)
         if bucket_for is not None and limiter in (create_limiter, converse_limiter):
             # A request carrying a usable code is counted under that code, so
             # a class sharing one network address is not counted as one person.
