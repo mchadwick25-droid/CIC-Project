@@ -37,7 +37,7 @@ license: verbatim
 modern_lens_note: >-
   'Illuminated' is the ordinary early word for baptized. 'The oblation' is the eucharist. A catechumen
   was someone under instruction who had not yet been baptized and so was not admitted to communion -
-  which is why a child eating the bread by mistake was a real problem needing a ruling.
+  which is why a child eating the bread by mistake was a real problem for the bishop to settle.
 retrieval:
   tier: 2
   retrieve_when:
