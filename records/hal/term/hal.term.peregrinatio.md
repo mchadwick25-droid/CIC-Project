@@ -41,5 +41,12 @@ senses:
 quick_meaning: Pilgrimage - devotional travel to the holy places, and for us, the choice
   to stay.
 distortion_risk: medium
+use_note:
+  means: "Devout travel to the holy places, which for this elite community ended in the choice to stay at Bethlehem."
+  not_for:
+    - "equating it with tourism or modern mass pilgrimage"
+    - "presenting the devotional scene detail in Paula's journey as documented"
+  years: {from: 385, to: 420}
+  status: reviewed
 ---
 Re-derived from cleared Doc_06 Part B entry 4.

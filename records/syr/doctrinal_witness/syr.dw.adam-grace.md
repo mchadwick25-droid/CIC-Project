@@ -47,6 +47,14 @@ positions:
 tensions:
 - '''original guilt'' and ''transubstantiation'' are later frames: the record answers beside them, not
   inside them - the difference is stated, never smoothed'
+use_note:
+  means: "Aphrahat teaches that death has ruled all since Adam as an inherited wound, that Christ nailed sin to the cross, and that works rise on faith."
+  not_for:
+    - "a statement of original guilt or transubstantiation, which are later frames"
+    - "a claim of faith without works, or of works without faith"
+    - "a detailed eucharistic theology, which the record deliberately does not claim"
+  years: {from: 337, to: 373}
+  status: reviewed
 ---
 F1-T translational cell: Adam material verified in Dem XXII.1-2;
 the nailing of sin in Dem VII.1 (Hallock); the house-for-the-King

@@ -32,6 +32,13 @@ retrieval:
   retrieve_when:
   - "participant asks how they kept the feasts and what they sang at them"
   - "participant asks what the birth of Jesus meant to them"
+use_note:
+  means: "Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethlehem as the fulfilment of the words of the prophets, kings, and priests."
+  not_for:
+    - "evidence of the date or calendar on which this world kept the feast"
+    - "a historical argument for the birth narrative rather than liturgical poetry"
+  years: {from: 340, to: 373}
+  status: reviewed
 ---
 Verified verbatim (Nativity Hymn I, Morris's translation as revised by Gwynn).
 

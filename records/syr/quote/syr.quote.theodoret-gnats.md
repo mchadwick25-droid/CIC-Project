@@ -29,6 +29,14 @@ retrieval:
   retrieve_when:
   - "participant asks whether the miracle stories can be believed"
   - "participant asks what outside historians wrote about their holy men"
+use_note:
+  means: "Theodoret, writing about a century later, tells that Jacob of Nisibis, asked to curse the besieging Persians, called down nothing worse than mosquitoes and gnats."
+  not_for:
+    - "a verified historical event rather than hagiographic legend"
+    - "a firm date for the siege, which may be 338, 346, or 350"
+    - "this world's own testimony rather than an outside historian's"
+  years: {from: 338, to: 350}
+  status: reviewed
 ---
 Verified verbatim (NPNF2-03, including the edition's own awkward 'than to that' - kept exactly as printed). Hagiographic-tier framing per syr.story.jacob-deliverance.
 

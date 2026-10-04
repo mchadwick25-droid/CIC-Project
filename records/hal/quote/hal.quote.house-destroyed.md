@@ -33,6 +33,13 @@ retrieval:
   retrieve_when:
   - "participant asks whether they were ever attacked, and by whom"
   - "participant asks what a doctrinal quarrel cost them in practice"
+use_note:
+  means: "Jerome, writing to Apronius after the 416 attack, says heretics destroyed the Bethlehem house's material wealth while its spiritual riches remained."
+  not_for:
+    - "a claim that 'the heretics' were non-Christians; they were Christian opponents in the Pelagian quarrel"
+    - "a detailed account of the attack or of who led it"
+  years: {from: 416, to: 417}
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf206 (Ep. 139, div
 v.CXXXIX; the file's editorial gloss identifying 'our house' as the

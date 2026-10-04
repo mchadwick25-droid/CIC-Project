@@ -45,6 +45,14 @@ retrieval:
   - "participant asks whether they had a list or a scheme of the passions"
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
+use_note:
+  means: "Cassian records Abbot Serapion of Scetis listing eight principal faults, from gluttony through dejection, acedia and vainglory to pride."
+  not_for:
+    - "the scheme as Cassian's or Serapion's invention, when it is Evagrian and Cassian leaves the source unnamed"
+    - "the list as the later seven deadly sins"
+    - "the faults as sins committed rather than thoughts that assail"
+  years: {from: 385, to: 429}
+  status: reviewed
 ---
 Verified verbatim against the vendored file at npnf211 line
 30132; one continuous sentence, unaltered, with the ANF's transliterated

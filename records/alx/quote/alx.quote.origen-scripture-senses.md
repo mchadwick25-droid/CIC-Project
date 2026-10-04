@@ -38,6 +38,14 @@ retrieval:
   retrieve_when:
   - "participant asks how they read scripture and what they looked for in it"
   - "participant asks whether they read a text literally or found other meanings beneath it"
+use_note:
+  means: "Origen, in Philocalia I.11, says Scripture, like a human being, consists of body, soul and spirit, given by God for salvation."
+  not_for:
+    - "the modern mind-body-spirit framing"
+    - "a dismissal of the plain sense, when the doctrine meets simple readers at their own level"
+    - "Origen's scheme generalized as every Alexandrian reader's method"
+  years: {from: 203, to: 254}
+  status: reviewed
 ---
 The multi-sense reading doctrine in the GREEK-derived transmission (the
 Philocalia), preferred over the Rufinus-mediated ANF text per the

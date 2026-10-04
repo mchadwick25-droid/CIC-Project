@@ -28,11 +28,12 @@ doorway_description: >-
   unbroken into the Scottish Kirk, the Huguenots, the Dutch Reformed, and
   English Puritanism.
 card_name: "The Reformed Cities"
+app: {order: 10, accent_color: "#8787A1", portrait: "/images/portraits/thumb/theophilus.webp"}
 representative: {name: Theophilus, role_label: Pastor}
 census_id: "the-reformed-cities-zurich-and-geneva"
 thinness_statement: "Richest in confessional and doctrinal content: Calvin's Institutes and Catechism, Zwingli's own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession - all directly vendored and verified. Thin to silent on ordinary lived practice and daily texture: no surviving account of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like - a genre asymmetry between richly vendored doctrinal content and almost entirely absent daily-practice content, not a gap filled with invention. No Tier 2, 3, or 4 story material survives or is built - this world's own confessional core actively refuses the devotional genre hagiography belongs to, and the absence is evidence the refusal worked, not a missing source. Three of this world's own most consequential documented events - the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555) - have no vendored primary narrative source comparable to this world's own three built stories. Geneva's own specific institutional detail (the Consistory's weekly case-by-case operation) remains Confidence E pending the Ecclesiastical Ordinances' own acquisition; Calvin's own vendored corpus runs roughly four times Zwingli's, a disclosed Author-Gravity concentration distinct from the genre asymmetry above."
 living_tradition_flag: true
 state: admitted
 package:
-  manifest_hash: "sha256:8f39e93daca39fffa55447c4ea344b13af40884d7aa2d6c6ddaccab3b91c1bb2"
-  location: "packages/rzg/2026-10-04T02-46-28Z"
+  manifest_hash: "sha256:2ce6f58f82619f0a4503467586276913433d4d2e31ddf7abc9503680e87a0220"
+  location: "packages/rzg/2026-10-04T03-43-48Z"

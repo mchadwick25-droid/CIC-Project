@@ -23,7 +23,8 @@ class TokenRates:
     table_round_two_later: int
     table_round_three_later: int
     later_rounds_from: int
-    free_daily: int
+    free_window: int
+    free_window_days: int
     free_rounds: int
 
 

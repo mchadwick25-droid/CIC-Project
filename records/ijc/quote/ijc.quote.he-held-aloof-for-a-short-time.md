@@ -40,6 +40,13 @@ retrieval:
 relations:
 - type: associated-with
   target: ijc.dw.room-for-hesitation
+use_note:
+  means: "Socrates reports that Eusebius of Caesarea hesitated before accepting Nicaea's creed, then signed and wrote home explaining homoousios so his motives would not be impugned."
+  not_for:
+    - "a claim that every bishop at Nicaea accepted the creed without hesitation"
+    - "a claim that Socrates is a neutral party to the controversy"
+  years: {from: 439, to: 451}
+  status: reviewed
 ---
 Serves F1-P alongside ijc.dw.room-for-hesitation, which cites this exact locus and cannot show
 it.

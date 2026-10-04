@@ -60,6 +60,15 @@ manifestations:
 - the purification-illumination-union progression in the school tradition (Stromateis)
 - Gregory's first-person account of being re-formed by teaching (Address, Arguments VI-IX)
 classification: primary
+use_note:
+  means: "Formation was the whole person's stepwise turning toward a share in divine life, Primary for the literate-attested ecology and distinct from theosis, its horizon."
+  not_for:
+    - "claiming it is Primary for the whole community"
+    - "including the intensified desert practices"
+    - "identifying the practice with theosis, which is its horizon"
+    - "presenting Origen's contemplative-ascent mechanism as ecology-wide"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.2 (6/6 PASS strong). Core conviction Widely
 Accepted; the contemplative-ascent MECHANISM is Origen-concentrated

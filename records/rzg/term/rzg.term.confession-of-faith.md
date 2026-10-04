@@ -43,6 +43,12 @@ senses:
 quick_meaning: A formal, publicly adopted statement of our church's doctrine. The Second Helvetic Confession,
   from Zurich, is our own most mature example.
 distortion_risk: low
+use_note:
+  means: "A confession is a formal, publicly adopted statement of the church's doctrine, of which the Second Helvetic Confession from Zurich is the most mature example."
+  not_for:
+    - "a claim that a confession is a personal statement of individual belief rather than a formally adopted church document"
+  years: {from: 1519, to: 1650}
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

@@ -49,6 +49,15 @@ tensions:
 relations:
 - type: associated-with
   target: ijc.quote.the-reading-of-all-the-documents
+use_note:
+  means: "Our record's core of acts, canons, laws, and letters is strong and checkable, but kept mostly by winners, narrow in coverage, and interested in framing."
+  not_for:
+    - "a claim that this world's record is fairly or evenly documented"
+    - "a claim that the Homoian side or ordinary believers are well represented"
+    - "a claim that every document attributed to Damasus is genuine"
+    - "a claim that the vision and dream accounts of Constantine agree"
+  years: {from: 325, to: 451}
+  status: reviewed
 ---
 F2-E answered as the world's own honest self-audit - the cell's
 questions ("would it hold up," "isn't it legend," "where is it

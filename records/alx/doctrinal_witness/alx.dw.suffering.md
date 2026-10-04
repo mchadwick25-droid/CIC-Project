@@ -49,6 +49,14 @@ tensions:
 - the pedagogy frame can sound cruel to a modern griever if voiced without care - the personal register
   requires witness before answer (the spec's own personal-wound rule)
 - 'the martyr''s meaning vs the mourner''s loss: the tradition honored the first without erasing the second'
+use_note:
+  means: "This witness answers suffering three ways: God's pain as a physician's remedy, the community's plague nursing as presence, and honest silence over particular griefs."
+  not_for:
+    - "a claim that particular griefs are explained or deserved"
+    - "a claim that the remedial frame is the first word owed a mourner, when the record puts witness before answer"
+    - "settled universalism drawn from Origen's remedial-punishment line, which alx.quote.origen-punishment-heals carries as contested"
+  years: {from: 203, to: 260}
+  status: reviewed
 ---
 The suffering cell's answer-ground; companion quote origen-punishment-
 heals and story plague-nursing carry it in voice and narrative.

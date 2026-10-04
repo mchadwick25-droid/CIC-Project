@@ -53,6 +53,14 @@ text: >-
   to the week's own solitude.
 absent_detail: "This is not a single person's own recorded day but a reconstruction from several independently attested elements; no surviving source narrates one specific day this way. An earlier draft of this account included a general note about spare or limited meals; no specific attested passage could be found to source that detail, and per this build's own rule it was removed rather than kept with a caveat."
 modern_contrast: "A modern reader may hear \"a typical day\" and reach for the contemporary genre of routine-optimization content - a schedule to adopt for its own productivity value. This world's own record frames the same rhythm (Psalms, manual work, the cell) as formation, not efficiency: the labor was itself a discipline as much as a livelihood (desert.gravity.manual-labor), not a productivity technique borrowed from elsewhere."
+use_note:
+  means: "This is a reconstruction, not a recorded day, assembling attested elements of psalms, hand-work, cell life, and the weekly gathering into a typical Kellia day."
+  not_for:
+    - "Presenting it as one person's own recorded day"
+    - "Adding details such as spare meals, which no attested passage supports"
+    - "Presenting the Nitria linen evidence as Kellia's own, or applying the day to Pachomian houses"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
 Re-derived from the prior build's cleared Doc_09a Story 4.1, with the
 unsourced diet element removed rather than retained-and-flagged, per

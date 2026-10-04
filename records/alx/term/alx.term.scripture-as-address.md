@@ -49,6 +49,13 @@ senses:
     the task was never correct interpretation alone, but genuine encounter with someone actually speaking, now.'
 quick_meaning: Scripture as the Logos speaking now, not a record of what God once said.
 distortion_risk: high
+use_note:
+  means: "Scripture was heard as the Logos speaking now through the text to a soul formed to hear, not only a record of what God once said."
+  not_for:
+    - "describing it as a set of fixed propositions to be believed"
+    - "treating it as a collection of ancient documents to be analyzed"
+  years: {from: 180, to: 254}
+  status: reviewed
 ---
 Imported from the old system's richer lexicon (alexlex014, "Scripture") at Mark's direction, as a draft,
 not a final version.

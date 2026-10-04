@@ -49,6 +49,15 @@ tensions:
   precise philosophical formulation is not this record''s own language'
 - the treatise's authorship was questioned by some modern writers on doctrinal grounds, though the
   edition's own introduction judges there is no sufficient foundation for their arguments
+use_note:
+  means: "We taught the newly baptized that consecration, by Christ's own word, changes the very nature of bread and cup into his Body and Blood."
+  not_for:
+    - "a claim that this world used the term transubstantiation or scholastic substance-and-accidents language"
+    - "a claim that the change was taught as a metaphor"
+    - "a claim that this teaching was a contested position in its own century"
+    - "a claim that De Mysteriis's authorship has never been questioned"
+  years: {from: 385, to: 390}
+  status: reviewed
 ---
 De Mysteriis, addressed to the newly baptized, teaches a
 real change of nature in the elements at length and by name, verified

@@ -50,6 +50,14 @@ absent_detail: 'Nearly everything: the attackers'' identity and number (the comm
   Innocent''s report of it, in his own letter to the bishop of Jerusalem. This telling
   adds nothing to what the surviving letters hold.'
 modern_contrast: 'A modern reader often hears an attack on a monastery by "heretics" as persecution by an outside religion. This world''s own record frames it differently: this was Christian-on-Christian violence arising from the Pelagian controversy, not an outside faith''s assault - and the community itself never named the attackers at all, a restraint the record preserves as part of the story rather than filling the gap with a faction label.'
+use_note:
+  means: "An attack on the Bethlehem monasteries in 416, documented in outline through a pope's letters, while the attackers went unnamed and the women's own report is lost."
+  not_for:
+    - "naming the attackers or giving casualty numbers"
+    - "framing it as an outside faith's persecution"
+    - "narrating scene-level detail the sources withhold"
+  years: {from: 416, to: 416}
+  status: reviewed
 ---
 Re-derived from cleared Doc_09a S4, re-sourced on this branch to the full
 five-letter cluster. The women's lost letter and the community's own

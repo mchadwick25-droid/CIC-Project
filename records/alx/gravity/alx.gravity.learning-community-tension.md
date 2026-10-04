@@ -38,6 +38,14 @@ manifestations:
   the calendar - no literacy required)'
 - the Festal Letters as the bishop's whole-community formation instrument
 classification: tensional
+use_note:
+  means: "The depth-formation the school gave the few and the breadth-formation owed the whole community are held together, the school side well attested and the community side thin."
+  not_for:
+    - "narrating the community pole's interior experience as if attested"
+    - "resolving the tension toward either pole"
+    - "treating the school's depth-formation as the whole community's"
+  years: {from: 180, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 SS3.6 T2. The community pole's interior is
 Inferential-Thin BY STRUCTURE (the stratum bias), so this record's

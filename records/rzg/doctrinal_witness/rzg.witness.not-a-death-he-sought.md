@@ -49,5 +49,13 @@ text: 'Wanting to die as a martyr and calling it faithfulness -- isn''t that a d
   a wish for it: what evil is there in this? They are able, it is true, to kill the body but not the soul.
   That is resolve in front of a real risk he did not run from -- not a longing for the risk. We do not
   make more of his death than that; we hold no cult of it anywhere in our own record.'
+use_note:
+  means: "Zwingli died at Kappel as a field chaplain facing a risk he did not flee, not seeking martyrdom."
+  not_for:
+    - "a claim that Zwingli sought or wished for martyrdom"
+    - "a claim that this world built a cult or hagiography of Zwingli's death"
+    - "a claim that his last words were independently witnessed direct speech"
+  years: {from: 1531, to: 1532}
+  status: reviewed
 ---
 Grounded in the already-cleared rzg.story.myconius-account-of-zwinglis-death and rzg.quote.zwinglis-last-words (Myconius, 'Original Life of Zwingli' SS12, lines 1550-1613 and approx. 1592-1593). Closes F6-E's own 'death wish' sub-question directly; 'clearest outside account of how you worshipped' is not claimed -- this world built no comparable outside-observer worship account, a genuine, checked difference from don's own epigraphic F6-E precedent.

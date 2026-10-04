@@ -24,7 +24,7 @@ from engine.api.tests.test_deeper_seam import (  # noqa: F401
 from engine.deeper import codes
 
 ENGINE = Path(__file__).resolve().parents[2]
-EDGE_FILES = {"app.py", "deeper_routes.py", "deeper_admission.py", "deeper_ops.py"}
+EDGE_FILES = {"app.py", "deeper_routes.py", "deeper_admission.py", "deeper_door.py", "deeper_ops.py"}
 MONEY_WORDS = re.compile(r"\b(stripe|payment|meter|x-cic)\b", re.I)
 ENGINE_CORE = [
     *(ENGINE / name for name in ("m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "provider", "canon")),

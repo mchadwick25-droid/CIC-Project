@@ -127,6 +127,53 @@ const scenarios = {
     return out;
   },
   limits: () => ({ poll: GD.POLL_MS, tries: GD.MAX_TRIES }),
+  privacy: () => {
+    const PG = require("../../../cic-website/assets/privacy-go-deeper.js");
+    const page = () => {
+      const els = { "go-deeper": { hidden: true }, "cookie-one-job": { hidden: false }, "cookie-two-jobs": { hidden: true } };
+      return { els, getElementById: (id) => els[id] || null };
+    };
+    const state = (doc) => ({ section: doc.els["go-deeper"].hidden, one: doc.els["cookie-one-job"].hidden, two: doc.els["cookie-two-jobs"].hidden });
+    const run = (config) => {
+      const doc = page();
+      const applied = PG.apply(doc, config);
+      return { applied, ...state(doc) };
+    };
+    const missing = { getElementById: () => null };
+    return {
+      off: run({ enabled: false }),
+      absent: run(undefined),
+      notStrictlyTrue: run({ enabled: "yes" }),
+      on: run({ enabled: true }),
+      pageWithoutTheParts: PG.apply(missing, { enabled: true }),
+    };
+  },
+  doorLine: async () => {
+    const DL = require("../../../cic-website/assets/door-line.js");
+    const run = async (step) => {
+      const target = { hidden: true, textContent: "" };
+      const seen = {};
+      await DL.load(target, {
+        apiBase: "https://api.test",
+        fetch: (url, init) => {
+          seen.url = url;
+          seen.init = init;
+          return step === "network" ? Promise.reject(new Error("offline")) : reply(step.status, step.body);
+        },
+      });
+      return { target: { hidden: target.hidden, text: target.textContent }, seen };
+    };
+    const shown = await run({ status: 200, body: { state: "limited", line: "Free conversations are limited this week." } });
+    return {
+      shown: shown.target,
+      url: shown.seen.url,
+      init: shown.seen.init,
+      open: (await run({ status: 200, body: { state: "open", line: null } })).target,
+      unreachable: (await run("network")).target,
+      refused: (await run({ status: 404, body: {} })).target,
+      malformed: (await run({ status: 200, body: { line: 7 } })).target,
+    };
+  },
 };
 
 Promise.resolve(scenarios[process.argv[2]]()).then((out) => console.log(JSON.stringify(out)));

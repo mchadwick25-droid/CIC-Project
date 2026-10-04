@@ -48,6 +48,12 @@ senses:
     window: an official could punish the refusal itself while writing to ask what exactly the
     offense was.'
 quick_meaning: The magistrate's word for the refusal to recant - the one thing he was sure deserved punishment.
+use_note:
+  means: "Stubbornness: what a magistrate found punishable in the Christians was their refusal to take it back when given the chance."
+  not_for:
+    - "proof that belief-content was the crime"
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 13, Tier 3).
 The nomen-ipsum-vs-conduct question stays open per the chunk and

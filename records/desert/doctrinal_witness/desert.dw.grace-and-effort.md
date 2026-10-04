@@ -49,6 +49,14 @@ relations:
   target: desert.limit.original-sin-eucharist-faith
 - type: associated-with
   target: desert.gravity.diakrisis
+use_note:
+  means: "This witness reports Cassian's Abbot Chaeremon holding grace and free will in harmony, giving grace the main share in salvation and effort a real share."
+  not_for:
+    - "the Egyptian elders' unmediated teaching rather than Cassian's Latin written in Gaul"
+    - "an answer to the faith-alone-versus-works debate"
+    - "accepted Western doctrine, when Prosper attacked it and later theology called it semi-Pelagian"
+  years: {from: 385, to: 429}
+  status: reviewed
 ---
 Opened from a volume this world already had on disk and had
 already opened for something else. desert.source.cassian-conferences was

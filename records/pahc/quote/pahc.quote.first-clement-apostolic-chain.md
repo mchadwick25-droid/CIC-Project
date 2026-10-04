@@ -41,6 +41,13 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.quote.they-appointed-the-first-fruits
+use_note:
+  means: "Rome's letter traces a chain of sending from God to Christ to the apostles, who appointed Spirit-tested converts as bishops and deacons."
+  not_for:
+    - "a claim that bishops and deacons were already fixed, ordained clerical offices with defined duties"
+    - "a claim that each church was led by a single bishop"
+  years: {from: 80, to: 140}
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 ii, ch. 42 (ii.ii.xlii). Direct textual ground for

@@ -59,6 +59,13 @@ text: >-
   The emperor held the army off, but it did not hold. Eutropius left the
   church, was taken, exiled, and executed. John preached a second time, about
   that too.
+use_note:
+  means: "Eutropius, who abolished sanctuary, took the altar, and Chrysostom sheltered him while preaching that his ruin was a warning he brought on himself."
+  not_for:
+    - "a claim that the bishop was defying the state's law rather than invoking a legal immunity"
+    - "a claim that Chrysostom's mercy was of the modern kind"
+  years: {from: 399, to: 399}
+  status: reviewed
 ---
 Verified directly against the vendored file every element
 above at a named line: the office and the consulship in the section's

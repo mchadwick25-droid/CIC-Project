@@ -61,6 +61,13 @@ senses:
     to losing citizenship in a public body whose recognition made claims real, without ceasing to be a
     sacramental fact.'
 quick_meaning: Standing with a church - to be received at its altar and counted as its own, or cut off from both.
+use_note:
+  means: "Communion is standing: to be in communion with a church is to stand at its altar and in its recognition; being cut off is public."
+  not_for:
+    - "a claim that communion meant only the private reception of the bread and cup"
+    - "a claim that communion meant a merely social or emotional fellowship"
+  years: {from: 312, to: 451}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex004_communio.md). Source discipline carried from
