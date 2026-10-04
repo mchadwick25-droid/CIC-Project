@@ -52,6 +52,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.we-look-to-the-east
+use_note:
+  means: "This witness says unwritten customs such as facing east and triple immersion were kept everywhere as apostolic, trusted for universality rather than documentation."
+  not_for:
+    - "a documentary chain back to the apostles, which the record says does not exist"
+    - "the challenge to show written warrant for the creed, which sits in cappadocian.dw.unwritten-carries-too"
+    - "these customs as uniform in every detail across all churches"
+  years: {from: 375, to: 375}
+  status: reviewed
 ---
 Closes F4-E, backed by a directly verified quote
 (cappadocian.quote.we-look-to-the-east) from the exact chapter this dw's

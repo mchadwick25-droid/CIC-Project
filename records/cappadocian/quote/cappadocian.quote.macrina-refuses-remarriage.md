@@ -75,6 +75,14 @@ modern_rendering: >-
   to her by her parents' arrangement was not dead. Because of the hope of the
   resurrection, she believed he was alive with God -- only away, not gone. So it would be
   wrong, she said, not to stay faithful to a husband who was merely absent.
+use_note:
+  means: "Gregory of Nyssa's Life of Macrina narrates, in indirect speech, her reasoning that her dead betrothed was only absent, so another marriage would be unfaithful."
+  not_for:
+    - "Macrina's own words, when the reasoning reaches us only through her brother's narration"
+    - "her authority as head of the Annisa community, which sits in cappadocian.dw.macrina-and-its-cost"
+    - "a rule this world imposed on all betrothed women"
+  years: {from: 379, to: 394}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 gregory-nyssa_life-of-macrina_clarke1916.txt, under its own section header

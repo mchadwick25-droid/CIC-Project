@@ -38,5 +38,13 @@ senses:
     explained.'
 quick_meaning: 'Mystery: the hidden reality made present -- in rite, in Scripture, and in God himself.'
 distortion_risk: low
+use_note:
+  means: "Mysterion meant a hidden reality made present in rite, in Scripture and in God himself, never fully explained."
+  not_for:
+    - "a puzzle to be solved"
+    - "a technical doctrine with a defining treatise, when none exists"
+    - "the unwritten customs of worship, which sit in cappadocian.term.paradosis"
+  years: {from: 325, to: 394}
+  status: reviewed
 ---
 Built from Doc_06 entry 34 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

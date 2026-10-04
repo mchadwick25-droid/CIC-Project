@@ -59,6 +59,14 @@ modern_rendering: >-
   in Father, Son, and Holy Spirit, and we are baptized in that same
   name. That is why we never separate the Spirit from union with the
   Father and the Son.
+use_note:
+  means: "Basil, writing to ascetics loyal to him after the break with Eustathius, denies teaching novelties and confesses the Spirit ranked with Father and Son."
+  not_for:
+    - "the treatise argument that the Spirit is ranked with the Father, which sits in cappadocian.quote.spirit-numbered-with-father-and-son"
+    - "the rupture with Eustathius as a merely personal falling-out"
+    - "Eustathius's own account of the break, which this one-sided letter does not supply"
+  years: {from: 375, to: 375}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter CCXXVI / traditional Ep.

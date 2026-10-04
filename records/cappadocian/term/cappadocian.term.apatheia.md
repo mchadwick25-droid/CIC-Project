@@ -52,5 +52,14 @@ senses:
     real grief expressed and defended, not hidden.'
 quick_meaning: Freedom from disordered passion. Not feeling nothing, but passion ordered so love can act.
 distortion_risk: medium
+use_note:
+  means: "Apatheia meant passions ordered so that love can act, not feeling nothing, with usage that varied among the three authors."
+  not_for:
+    - "apathy or emotional suppression"
+    - "one fixed definition shared by all three authors"
+    - "the Desert's or Alexandria's use of the same word as identical"
+    - "grief and consolation, which sit in cappadocian.term.penthos-paraklesis"
+  years: {from: 325, to: 394}
+  status: reviewed
 ---
 Built from Doc_06 entry 27 (Tier 2).

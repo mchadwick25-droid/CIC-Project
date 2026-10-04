@@ -55,6 +55,14 @@ modern_rendering: >-
   been sold to Satan. You are dragging the huckster's trade into sacred
   things, into the Church itself, where we are entrusted with the body
   and blood of Christ. This cannot be allowed to stand.
+use_note:
+  means: "Basil, writing early in his episcopate to his village bishops, condemns taking money for ordination as selling God's free gift."
+  not_for:
+    - "evidence of how the faith first reached the region, which rests on the legend in cappadocian.story.thaumaturgus-legend"
+    - "a claim that simony was widespread, when the letter answers one report"
+    - "a general sermon against greed rather than a metropolitan's ruling to his own subordinates"
+  years: {from: 370, to: 372}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n 'id="ix\.liv"\|id="ix\.lv"'`

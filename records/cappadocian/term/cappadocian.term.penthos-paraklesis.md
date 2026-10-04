@@ -50,5 +50,14 @@ senses:
     sense inside the logic of resurrection, not denied by it.'
 quick_meaning: Grief and consolation. Tears were allowed. Despair was refused.
 distortion_risk: medium
+use_note:
+  means: "Penthos and paraklesis meant grief and consolation, a culture in which tears were allowed, despair was refused and hope was argued."
+  not_for:
+    - "stoic unmoved writers"
+    - "grief management"
+    - "the deathbed dialogue as Macrina's own words, which sits in cappadocian.story.macrina-deathbed"
+    - "the resurrection hope itself, which sits in cappadocian.term.anastasis"
+  years: {from: 325, to: 394}
+  status: reviewed
 ---
 Built from Doc_06 entry 28 (Tier 2).
