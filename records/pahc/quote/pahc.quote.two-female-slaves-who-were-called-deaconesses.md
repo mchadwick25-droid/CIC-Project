@@ -65,7 +65,7 @@ use_note:
     - "a claim that ministrae was the community's own word rather than Pliny's"
     - "a neutral survey of Christian practice rather than findings from interrogation"
   years: {from: 111, to: 113}
-  status: provisional
+  status: reviewed
 ---
 This quote serves three cells at once - F3-E, F5-E and F6-P - each of which cites this same
 letter: pahc.witness.outsider-view for Pliny's own report, pahc.limit.material-remains for the

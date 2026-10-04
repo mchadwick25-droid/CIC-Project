@@ -83,7 +83,7 @@ use_note:
     - "one-bishop unity as a settled teaching he merely restates"
     - "an account of his arrival or execution in Rome"
   years: {from: 107, to: 117}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 001 (World-Builds/01-Post-
 Apostolic-House-Church/CiC_W1_Doc09_Story_Inventory.md and its own

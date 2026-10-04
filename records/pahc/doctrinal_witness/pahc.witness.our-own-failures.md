@@ -46,7 +46,7 @@ use_note:
     - "a verdict on whether Corinth or Rome was right"
     - "a claim about what happened to those who disagreed with Rome's correction"
   years: {from: 80, to: 140}
-  status: provisional
+  status: reviewed
 ---
 1 Clement's own occasion (the Corinthian deposition and Rome's letter)
 checked directly against cic/texts/anf01_apostolic-fathers-justin-

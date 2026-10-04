@@ -83,7 +83,7 @@ use_note:
   not_for:
     - "any one shape of the meal as the shape everywhere"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G07) - one of this world's two
 Primary gravities, both cross-strand confirmed and resting on

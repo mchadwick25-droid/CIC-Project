@@ -63,7 +63,7 @@ use_note:
     - "a predictor of the future"
     - "a figure already extinct by this period"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 8, Tier 2,
 maximal author-gravity: Didache-only). The tension-with episkopos

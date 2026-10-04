@@ -63,8 +63,8 @@ use_note:
   not_for:
     - "an already institutional church service with clergy and a dedicated building"
     - "the same order in Antioch or Asia Minor"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 153, to: 157}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 006. Quotations checked
 directly against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml,

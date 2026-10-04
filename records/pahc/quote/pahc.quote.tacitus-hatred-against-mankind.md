@@ -78,7 +78,7 @@ use_note:
     - "a claim that Christians were personally malicious rather than charged with withdrawal from civic religion"
     - "a claim about what Romans called the group, resting on this translation's spelling"
   years: {from: 110, to: 120}
-  status: provisional
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file.
 

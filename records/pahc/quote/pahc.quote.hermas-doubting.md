@@ -41,7 +41,7 @@ use_note:
     - "a claim that 'double-souled' names a clinical or dissociative condition"
     - "a claim about how every household in this world handled doubt"
   years: {from: 90, to: 150}
-  status: provisional
+  status: reviewed
 ---
 Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml, div1 ii, section iii (ii.iii.ix).

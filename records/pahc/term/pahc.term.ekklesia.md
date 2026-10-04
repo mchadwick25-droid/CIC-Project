@@ -70,7 +70,7 @@ use_note:
     - "a church building"
     - "a denomination or legal institution"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 3, Tier 1,
 no CT tag - the world's most securely attested self-designation). The

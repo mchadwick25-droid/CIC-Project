@@ -37,7 +37,7 @@ use_note:
     - "a single unified contemporaneous composition"
     - "the narrative as documentary fact"
   years: {from: 155, to: 156}
-  status: provisional
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) into participant-facing form for this specific text, and

@@ -66,7 +66,7 @@ use_note:
     - "a claim that this world's arguments resembled later Trinitarian or Christological debates"
     - "a claim that this world held no gatherings at all"
   years: {from: 80, to: 193}
-  status: provisional
+  status: reviewed
 ---
 Justin's "every race of men" claim checked directly against
 cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 viii, ch. 46

@@ -46,7 +46,7 @@ use_note:
     - "a historically accurate chronology of Moses and the Greek writers"
     - "a claim that this world read Genesis as a rival scientific account of nature"
   years: {from: 153, to: 157}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F2-T together with pahc.witness.scripture-and-testimony.
 

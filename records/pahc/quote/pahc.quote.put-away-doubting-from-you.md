@@ -44,7 +44,7 @@ use_note:
   not_for:
     - "a claim about intellectual doubt over whether God exists"
   years: {from: 90, to: 150}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F4-P together with pahc.witness.prayer-and-struggle, which cites
 Mandate 9 for "ask without doubting; a slow answer is not a refusal".

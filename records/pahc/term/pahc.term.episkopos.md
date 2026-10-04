@@ -81,7 +81,7 @@ use_note:
     - "bishop as a settled office with defined powers and territory"
     - "a rung on a hierarchy ladder"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 1, Tier 1,
 CT contest: Meaning and Historical scope - secured office vs. argued

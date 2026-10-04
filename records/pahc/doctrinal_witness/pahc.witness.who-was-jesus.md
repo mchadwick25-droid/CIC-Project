@@ -52,7 +52,7 @@ use_note:
     - "a claim that Ignatius's repeated 'truly' was a formula shared across the whole network"
     - "a claim that this world's members witnessed Jesus eating and drinking"
   years: {from: 80, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from source material verified directly against the vendored
 corpus. The "truly" chain follows Ignatius, Trallians 9, almost word

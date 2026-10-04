@@ -72,8 +72,8 @@ use_note:
   not_for:
     - "organized institutional charity like a modern relief agency"
     - "the imprisoned member's own experience"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 160, to: 197}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 013. The Tertullian passage
 checked directly against cic/texts/anf03_tertullian.xml, Apologeticus

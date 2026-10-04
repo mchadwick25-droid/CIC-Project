@@ -55,8 +55,8 @@ use_note:
   not_for:
     - "routine secretarial record-keeping"
     - "what the Philippians did with the letters"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 107, to: 140}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 003. Quote checked directly
 against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 iv,

@@ -45,7 +45,7 @@ use_note:
     - "a liberal pluralist gesture rather than a claim about the Word's reach"
     - "a claim that sincere goodness of any kind makes someone Christian"
   years: {from: 153, to: 157}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F1-I together with pahc.witness.god-and-argument, which cites this exact
 chapter for "the Logos present in every race of men".

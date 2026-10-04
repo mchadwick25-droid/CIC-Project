@@ -73,8 +73,8 @@ use_note:
   not_for:
     - "a defective or incomplete version of the real eucharist"
     - "an order known or adopted outside the Didache's own community"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 80, to: 150}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 010. All quotations checked
 directly against cic/texts/anf07_lactantius-apostolic-constitutions-

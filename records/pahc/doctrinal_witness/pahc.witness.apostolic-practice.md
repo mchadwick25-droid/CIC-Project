@@ -51,7 +51,7 @@ use_note:
     - "a claim that the twelve apostles wrote the Didache"
     - "a claim that the Didache's date and authorship are settled"
   years: {from: 80, to: 150}
-  status: provisional
+  status: reviewed
 ---
 1 Clement 42/44's chain and the Didache's own title checked directly
 against the vendored corpus (cic/texts/anf01_apostolic-fathers-justin-

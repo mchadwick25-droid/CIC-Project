@@ -42,9 +42,9 @@ use_note:
   means: "Women appear taught, greeted by name and remembered as household leaders, but never in a sentence of their own, only through men's writing."
   not_for:
     - "a sentence written or spoken by a woman in her own words"
-    - "how a woman would have told the story of the meal or the teaching"
+    - "a claim about how a woman would have told the story of the meal or the teaching"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 This is one of three honest_limit records that share a common basis -
 see pahc.limit.enslaved-voices' trailing note. It is celled

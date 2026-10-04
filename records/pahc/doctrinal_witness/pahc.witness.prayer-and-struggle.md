@@ -53,7 +53,7 @@ use_note:
     - "a teaching about forgiving someone absent, unrepentant, or unwilling to reconcile"
     - "a claim that every household practiced the Didache's confession and reconciliation"
   years: {from: 80, to: 150}
-  status: provisional
+  status: reviewed
 ---
 Hermas Mandate 9 checked directly against cic/texts/anf02_hermas-
 tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii, section

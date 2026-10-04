@@ -65,8 +65,8 @@ use_note:
     - "deaconess as a settled office title"
     - "evidence that the community was egalitarian in a modern sense"
     - "evidence that women held nothing"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 9, Tier 2,
 DR flag). The formation_confidence split per the chunk: Documented that

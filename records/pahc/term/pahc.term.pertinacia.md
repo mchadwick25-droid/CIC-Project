@@ -52,8 +52,8 @@ use_note:
   means: "Stubbornness: what a magistrate found punishable in the Christians was their refusal to take it back when given the chance."
   not_for:
     - "proof that belief-content was the crime"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 13, Tier 3).
 The nomen-ipsum-vs-conduct question stays open per the chunk and

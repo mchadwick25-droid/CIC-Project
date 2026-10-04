@@ -47,7 +47,7 @@ use_note:
     - "a claim that the reading followed a fixed lectionary"
     - "a claim that this practice was a rule observed in every church"
   years: {from: 153, to: 157}
-  status: provisional
+  status: reviewed
 ---
 pahc.witness.reading-scripture cites this exact locus. This quote fills F2-I with a licensed
 quote alongside that witness, per the Program Spec's own coverage rule ("a cell is covered

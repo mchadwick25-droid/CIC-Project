@@ -43,7 +43,7 @@ use_note:
     - "evidence of a developed sacramental theology of marriage"
     - "a claim that every household actually sought the bishop's approval before marrying"
   years: {from: 107, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v, To Polycarp ch. 5 (v.viii.v), shorter recension -

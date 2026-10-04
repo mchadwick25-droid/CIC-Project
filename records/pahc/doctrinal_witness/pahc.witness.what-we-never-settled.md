@@ -57,7 +57,7 @@ use_note:
     - "a claim that single-bishop leadership was settled within this world's window"
     - "a claim that surviving texts preserve the voices of the poor, enslaved, or untaught members"
   years: {from: 80, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Restates pahc.gravity.authority-consolidation's own SUPPORTING
 classification and pahc.core.house-church's own thinness field

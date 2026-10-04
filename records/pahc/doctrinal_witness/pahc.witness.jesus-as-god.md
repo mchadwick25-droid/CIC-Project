@@ -46,7 +46,7 @@ use_note:
     - "a claim that this world's primary voices used the word 'Trinity'"
     - "a claim that no related word for a triad existed anywhere in this period"
   years: {from: 107, to: 180}
-  status: provisional
+  status: reviewed
 ---
 The spoken text does not name the later word "Trinity" - a sentence
 like "None of the six of us... reaches for the word Trinity" would be

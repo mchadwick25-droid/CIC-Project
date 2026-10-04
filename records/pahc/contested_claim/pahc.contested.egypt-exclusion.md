@@ -29,7 +29,7 @@ use_note:
     - "documentary silence as proof that Egyptian Christianity did not exist"
     - "a view resting on more than one scholar's survey"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 7 (EGYPT EXCLUDED)
 into participant-facing form. No pahc.source record exists for Bagnall's

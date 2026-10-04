@@ -76,7 +76,7 @@ use_note:
     - "the fire and dove details as documented fact"
     - "an independent outside account of his death"
   years: {from: 155, to: 156}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 008. Every quotation checked
 directly against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml,

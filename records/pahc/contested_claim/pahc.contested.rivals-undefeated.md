@@ -44,7 +44,7 @@ use_note:
     - "any outcome of the rivals as already visible"
     - "evidence for these movements from anything but hostile or later witnesses"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 6 (RIVALS
 UNDEFEATED) and Doc_01 SS8.3's own disclosure obligation into

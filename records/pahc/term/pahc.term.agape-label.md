@@ -63,7 +63,7 @@ use_note:
     - "a settled two-meal system of agape versus eucharist"
     - "a purely modern label with no ancient anchor"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 This term is derived from the approved lexicon (Doc_03/Doc_06, term 10,
 Tier 2, CT contest: Historical scope), grounded in Smyrnaeans 8's

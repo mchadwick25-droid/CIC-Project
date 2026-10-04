@@ -59,8 +59,8 @@ use_note:
   means: "The emperor sent for Jesus' family and found two farmers with calloused hands, smallholders working their own ground."
   not_for:
     - "the first Christians as either a persecuted underground or an intellectual movement"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 81, to: 96}
+  status: reviewed
 ---
 Verified directly against the vendored file at anf08 line
 71558, every element at that locus: the informers, Evocatus, the sum of

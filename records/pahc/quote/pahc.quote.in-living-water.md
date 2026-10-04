@@ -47,7 +47,7 @@ use_note:
     - "a claim that the form of the rite was fixed regardless of circumstance"
     - "a claim that the Didache's date and place are settled"
   years: {from: 80, to: 150}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F4-T together with pahc.term.baptisma, which cites ch. 7 for "living
 water; the fallback ladder; threefold pouring".

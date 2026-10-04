@@ -68,7 +68,7 @@ use_note:
   not_for:
     - "a transitional junior rank on the way to higher office"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 5, Tier 2).
 The women's-service link is held at the ministrae term's own

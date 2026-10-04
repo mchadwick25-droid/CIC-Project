@@ -84,7 +84,7 @@ use_note:
   not_for:
     - "a systematic empire-wide hunt"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G03), reclassified Supporting at
 that document's own round-2 review, on the identical Cross-Check test

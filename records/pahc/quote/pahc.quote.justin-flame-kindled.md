@@ -43,7 +43,7 @@ use_note:
     - "a claim that Justin describes a modern revivalist or altar-call conversion"
     - "a claim that Justin's path to belief was typical of members without his education and leisure"
   years: {from: 150, to: 165}
-  status: provisional
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, section iv (viii.iv.viii). This world's own

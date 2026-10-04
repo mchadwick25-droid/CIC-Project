@@ -57,7 +57,7 @@ use_note:
     - "an eyewitness account by Pliny rather than his informants' testimony"
     - "a claim that the worship details came from the tortured ministrae"
   years: {from: 111, to: 113}
-  status: provisional
+  status: reviewed
 ---
 Pliny 10.96 checked directly against cic/texts/npnf201_eusebius-
 church-history-life-of-constantine.xml (McGiffert's editorial note to

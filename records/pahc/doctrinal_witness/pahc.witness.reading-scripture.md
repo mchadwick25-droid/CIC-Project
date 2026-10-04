@@ -49,7 +49,7 @@ use_note:
     - "a claim that apostolic writings were already fixed into a settled list"
     - "a claim that non-literate members had a separate mode of access to scripture"
   years: {from: 153, to: 157}
-  status: provisional
+  status: reviewed
 ---
 Justin's reading practice checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 viii (viii.ii.lxvii): "the

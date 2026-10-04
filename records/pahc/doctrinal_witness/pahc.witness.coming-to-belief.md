@@ -46,7 +46,7 @@ use_note:
     - "a claim that belief came as a sudden moment of certainty"
     - "a claim that Justin's path was typical for those without his education or leisure"
   years: {from: 150, to: 165}
-  status: provisional
+  status: reviewed
 ---
 Justin's account (Dialogue with Trypho 8) checked directly against
 cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 viii,

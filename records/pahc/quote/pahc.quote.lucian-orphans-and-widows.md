@@ -71,7 +71,7 @@ use_note:
     - "a claim that the Fowlers' Edwardian phrasing reflects Lucian's own tone"
     - "a witness independent of Lucian's passage on what Christians believed"
   years: {from: 160, to: 170}
-  status: provisional
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file.
 

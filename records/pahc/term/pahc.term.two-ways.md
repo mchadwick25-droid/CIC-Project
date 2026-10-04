@@ -61,7 +61,7 @@ use_note:
   not_for:
     - "a philosophical dualism of two cosmic powers"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 7, Tier 2,
 maximal author-gravity: Didache-only for the sequence; the Barnabas

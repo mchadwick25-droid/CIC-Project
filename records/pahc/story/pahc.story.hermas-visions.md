@@ -67,7 +67,7 @@ use_note:
     - "an early form of purgatory or indulgences"
     - "a developed doctrine of merit, penance-scale or afterlife geography"
   years: {from: 90, to: 150}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 007. "Because she was
 created first of all... for her sake was the world made" and the

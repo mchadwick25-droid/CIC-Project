@@ -55,8 +55,8 @@ use_note:
   means: "What Romans suspected the Christians might be, an illegal club or forbidden association, though that charge was never the whole of what they faced."
   not_for:
     - "the settled explanation of the persecutions"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 12, Tier 3 -
 the Framework's own minimal Tier 3 structure expanded to this record

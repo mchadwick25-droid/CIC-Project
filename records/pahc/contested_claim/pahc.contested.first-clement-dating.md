@@ -29,7 +29,7 @@ use_note:
     - "a settled date for 1 Clement"
     - "a date before 70 or as late as the 130s as the established view"
   years: {from: 96, to: 96}
-  status: provisional
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) into participant-facing form for this specific text.

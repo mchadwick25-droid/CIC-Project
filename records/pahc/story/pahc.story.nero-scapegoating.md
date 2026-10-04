@@ -68,7 +68,7 @@ use_note:
     - "a standing imperial policy"
     - "a named Christian caught up in the event"
   years: {from: 64, to: 64}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 005. Since Tacitus is not
 vendored in this world's own registry (pahc.source.tacitus-annals:

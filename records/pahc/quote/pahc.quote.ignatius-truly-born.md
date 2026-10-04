@@ -46,7 +46,7 @@ use_note:
     - "a claim that this emphatic 'truly' formula was shared across the whole network"
     - "a claim that the date and authorship of Ignatius's letters are settled"
   years: {from: 107, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v (Trallians, shorter/middle recension column, ch.

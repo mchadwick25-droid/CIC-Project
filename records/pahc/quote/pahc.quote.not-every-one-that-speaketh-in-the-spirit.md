@@ -45,7 +45,7 @@ use_note:
     - "a doctrinal test of what a prophet teaches"
     - "a claim that the Didache's date and place are settled"
   years: {from: 80, to: 150}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F1-E together with pahc.term.prophetes, which cites chs. 11-13.
 

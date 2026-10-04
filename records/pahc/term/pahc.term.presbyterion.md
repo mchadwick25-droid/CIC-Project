@@ -52,7 +52,7 @@ use_note:
   not_for:
     - "a denominational governing body or a building"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 6, Tier 2,
 PV tag: single-voice, no Strand B equivalent at all - Rome has no

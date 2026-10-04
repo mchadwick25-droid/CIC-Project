@@ -35,7 +35,7 @@ use_note:
     - "authenticity as undisputed"
     - "a redating to the 130s or 160s as settled"
   years: {from: 107, to: 117}
-  status: provisional
+  status: reviewed
 ---
 Records, in participant-facing form, the single most load-bearing
 dating dispute in this world's entire evidentiary base - already

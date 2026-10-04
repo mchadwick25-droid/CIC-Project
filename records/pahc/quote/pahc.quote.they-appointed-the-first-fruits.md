@@ -53,7 +53,7 @@ use_note:
     - "a claim that Clement quotes Isaiah as the Septuagint reads it"
     - "a claim that each church was led by a single bishop"
   years: {from: 80, to: 140}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F2-E, "how do you know" about this world's scriptures, together with
 pahc.witness.scholarly-standing.

@@ -48,7 +48,7 @@ use_note:
     - "a claim that every household in this world taught newcomers this way"
     - "a claim that the Didache's date and authorship are settled"
   years: {from: 80, to: 150}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F2-P together with pahc.witness.hard-texts.
 

@@ -50,7 +50,7 @@ use_note:
     - "a claim that any of this world's primary voices had personal contact with an eyewitness of Jesus"
     - "a claim that the direct chain to eyewitnesses stayed secure throughout this world's window"
   years: {from: 80, to: 157}
-  status: provisional
+  status: reviewed
 ---
 1 Clement 42's chain checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 ii; Justin, First Apology

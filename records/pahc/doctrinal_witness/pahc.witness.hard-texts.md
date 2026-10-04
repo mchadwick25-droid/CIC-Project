@@ -62,7 +62,7 @@ use_note:
     - "a fair statement of Marcion's own words rather than his opponents' account"
     - "a claim that every household taught newcomers through the Two Ways"
   years: {from: 80, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Marcion's own rejection checked against the approved rivals-undefeated
 contested_claim and, directly, against Irenaeus Adversus Haereses I.27

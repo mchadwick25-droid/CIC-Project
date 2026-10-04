@@ -73,7 +73,7 @@ use_note:
     - "a uniform rite with one fixed mode"
     - "later debates over mode and timing"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 11, Tier 2)
 including the validation-pass upgrade (Doc_05 SS4.2): Justin 61/65-66

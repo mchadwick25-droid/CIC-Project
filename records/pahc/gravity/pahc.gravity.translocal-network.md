@@ -82,7 +82,7 @@ use_note:
   not_for:
     - "a central structure governing the churches"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G02) - the strongest confidence
 footing of any gravity in this world, unchanged across every review

@@ -49,7 +49,7 @@ use_note:
     - "a claim that Hermas's rich-and-poor image describes lived practice rather than teaching"
     - "a claim that a bishop or presbyter performed a marriage rite"
   years: {from: 90, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Ignatius To Polycarp 5 checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 v (v.viii.v, shorter

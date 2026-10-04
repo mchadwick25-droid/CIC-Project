@@ -58,7 +58,7 @@ use_note:
     - "a claim that the writer is a known figure named Asterius Urbanus"
     - "a neutral account of what the New Prophecy itself taught"
   years: {from: 192, to: 193}
-  status: provisional
+  status: reviewed
 ---
 pahc.source.anti-montanist-fragments was registered to answer Doc_01
 SS8.3's Montanism disclosure obligation; this quote draws on it. Text

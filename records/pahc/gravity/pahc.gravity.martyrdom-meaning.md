@@ -83,8 +83,8 @@ use_note:
   not_for:
     - "a pattern shared by every community"
     - "a pattern backed by more than two inside witnesses"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G04). THE IGNATIUS VULNERABILITY:
 rests on Ignatius as Asia Minor's only evidentiary voice - the open

@@ -54,7 +54,7 @@ use_note:
     - "a claim that this world treated a closed Bible as its only authority"
     - "a position in the modern creation-versus-evolution debate"
   years: {from: 80, to: 157}
-  status: provisional
+  status: reviewed
 ---
 Justin's Moses-before-Plato argument checked against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 viii, chs. 59-60 (Justin

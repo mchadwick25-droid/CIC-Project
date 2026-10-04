@@ -79,8 +79,8 @@ use_note:
   not_for:
     - "two settled denominations of church government"
     - "a documented person who lived under both patterns"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 80, to: 180}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 012. All quotations checked
 directly against the vendored corpus: Magnesians 6 ("your presbyters

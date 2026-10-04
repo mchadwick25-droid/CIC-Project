@@ -70,8 +70,8 @@ use_note:
     - "a sinister confession"
     - "ministrae as a confirmed office of deaconess"
     - "any words of the two women themselves"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 111, to: 113}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 004. All quotations checked
 directly against cic/texts/npnf201_eusebius-church-history-life-of-

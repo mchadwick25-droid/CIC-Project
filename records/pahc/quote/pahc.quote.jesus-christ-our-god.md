@@ -45,7 +45,7 @@ use_note:
     - "a claim that this world held a worked-out doctrine of the Trinity"
     - "a claim that the exact wording of this clause is secure"
   years: {from: 107, to: 180}
-  status: provisional
+  status: reviewed
 ---
 This quote serves C-T together with pahc.witness.jesus-as-god, which says Ignatius
 "calls Jesus Christ our God again and again - in how he opens his letters and in how he closes

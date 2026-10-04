@@ -39,12 +39,12 @@ relations:
 - type: associated-with
   target: pahc.witness.what-we-never-settled
 use_note:
-  means: "These communities are best read as two regional strands, Antioch and Asia Minor moving toward one bishop and Rome keeping a plural college of presbyters."
+  means: "This build's provisional frame reads these communities as two regional strands, Antioch and Asia Minor moving toward one bishop and Rome keeping a plural college of presbyters."
   not_for:
     - "a network-wide regional consensus on either side"
     - "a clean sorting of the Didache's instruction into either strand"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 2 (STRAND
 DISCIPLINE: "the two-strand packaging itself is a provisional

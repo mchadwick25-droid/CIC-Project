@@ -61,7 +61,7 @@ use_note:
     - "a claim that Rome's authority over other churches was accepted in this period"
     - "a claim that churches everywhere kept the feast on the same day"
   years: {from: 189, to: 199}
-  status: provisional
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file at anf08 line
 72582. DISCLOSED, two elisions, both at clause or sentence boundaries:

@@ -72,8 +72,8 @@ use_note:
   not_for:
     - "a fixed confirmation-class curriculum set by a central authority"
     - "a record of one named person walking this path"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 80, to: 150}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 009. Both quotations checked
 directly against cic/texts/anf07_lactantius-apostolic-constitutions-

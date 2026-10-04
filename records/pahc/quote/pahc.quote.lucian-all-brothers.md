@@ -64,7 +64,7 @@ use_note:
     - "a neutral or accurate account of how Christian belief worked"
     - "a witness independent of Lucian's passage on orphans and widows at the prison"
   years: {from: 160, to: 170}
-  status: provisional
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file.
 

@@ -101,9 +101,9 @@ use_note:
   means: "The refusal of those who say the Lord's flesh was only appearance, pressed most sharply by Ignatius in communities with one overseer."
   not_for:
     - "a refusal held the same way in every household"
-    - "the rival movements known from inside this world's own sources"
-  years: {from: 70, to: 200}
-  status: provisional
+    - "a second inside voice securely confirming the anti-docetic argument"
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G05) - the least evidentially
 secured of this world's confirmed gravities, and for exactly that

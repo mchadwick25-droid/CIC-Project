@@ -45,7 +45,7 @@ use_note:
     - "a neutral account rather than advocacy for one side of the Corinthian dispute"
     - "a claim that a developed doctrine of apostolic succession existed"
   years: {from: 80, to: 140}
-  status: provisional
+  status: reviewed
 ---
 This quote serves C-E together with pahc.witness.how-we-know, which cites chs. 42 and 44
 for the apostolic chain of appointment.

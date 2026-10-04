@@ -45,7 +45,7 @@ use_note:
     - "a claim about how every member in every household handled doubt"
     - "a claim that Hermas mainly addresses doubt about whether to believe"
   years: {from: 90, to: 150}
-  status: provisional
+  status: reviewed
 ---
 Hermas Mandate 9 checked directly against cic/texts/anf02_hermas-
 tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii, section

@@ -70,7 +70,7 @@ use_note:
     - "priest in a later sacramental sense"
     - "a purely advisory lay elder"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 2, Tier 1,
 CT contest: Meaning - the Polycarp self-designation question). Built as

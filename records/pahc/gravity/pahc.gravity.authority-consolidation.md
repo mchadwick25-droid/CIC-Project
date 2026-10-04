@@ -102,7 +102,7 @@ use_note:
     - "one pattern of leadership being called wrong or settled"
     - "a secured monarchical office everywhere"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G01), reclassified Supporting at
 that document's own round-1 review after an initial Primary draft

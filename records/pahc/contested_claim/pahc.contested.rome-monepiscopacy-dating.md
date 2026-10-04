@@ -30,12 +30,12 @@ divergence_partners:
 - pahc.source.first-clement
 - pahc.source.shepherd-hermas
 use_note:
-  means: "Rome's communities held a plural college of presbyters for most or all of the window, shifting to a single bishop late, perhaps not before Victor I."
+  means: "On Peter Lampe's contested reading, Rome's communities held a plural college of presbyters for most or all of the window, shifting to a single bishop late, perhaps not before Victor I."
   not_for:
     - "a primary text documenting Rome from about 150 to 200"
     - "a settled date for Rome's first monarchical bishop"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Carries forward Doc_08 Force 3B-1's own confidence tag ("Well-established
 for the general pattern per Sullivan and Lampe; Contested on the precise

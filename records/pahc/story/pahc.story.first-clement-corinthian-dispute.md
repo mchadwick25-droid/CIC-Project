@@ -63,7 +63,7 @@ use_note:
     - "a bishop exercising jurisdiction over a neighboring diocese"
     - "Corinth's own side of the dispute"
   years: {from: 96, to: 96}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 002. The "blamelessly and
 with honour" phrase checked directly against 1 Clement 44 (cic/texts/

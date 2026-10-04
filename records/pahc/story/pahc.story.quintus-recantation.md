@@ -61,7 +61,7 @@ use_note:
     - "seeking danger out as the example to follow"
     - "Quintus's own account of his reasons"
   years: {from: 155, to: 156}
-  status: provisional
+  status: reviewed
 ---
 `atlas-v3.html`'s own `documentedStories` array for
 post-apostolic-house-church names

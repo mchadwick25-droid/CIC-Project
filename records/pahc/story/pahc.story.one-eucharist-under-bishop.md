@@ -66,8 +66,8 @@ use_note:
     - "a settled doctrine of sacramental validity"
     - "a rule every community already agreed to"
     - "a record of a member actually doing this"
-  years: {from: 70, to: 200}
-  status: provisional
+  years: {from: 107, to: 180}
+  status: reviewed
 ---
 Re-derived from the approved Doc_09 Story 011. Both quotations checked
 directly against cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml,

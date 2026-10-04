@@ -43,7 +43,7 @@ use_note:
   not_for:
     - "a pluralist claim that sincere goodness of any kind earns the name Christian"
   years: {from: 153, to: 157}
-  status: provisional
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, ch. 46 (viii.ii.xlvi). Direct textual ground

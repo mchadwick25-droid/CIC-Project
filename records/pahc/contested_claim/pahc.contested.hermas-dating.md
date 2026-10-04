@@ -29,7 +29,7 @@ use_note:
     - "a single settled mid-second-century date"
     - "firm stage boundaries within the text"
   years: {from: 90, to: 150}
-  status: provisional
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) into participant-facing form for this specific text.

@@ -60,7 +60,7 @@ use_note:
     - "a claim that the Two Ways teaching reached every community in this world"
     - "a claim that repentance after infidelity was available without limit"
   years: {from: 80, to: 157}
-  status: provisional
+  status: reviewed
 ---
 Justin First Apology 46 checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 viii (viii.ii.xlvi):

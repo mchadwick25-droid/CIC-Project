@@ -71,7 +71,7 @@ use_note:
     - "settled proof that Melito himself wrote these words"
     - "secure independent corroboration of Ignatius's argument that Christ's flesh was real"
   years: {from: 160, to: 177}
-  status: provisional
+  status: reviewed
 ---
 This fragment sits inside pahc.source.second-third-century-remains, a
 source record already compiled for this world for its Polycrates/

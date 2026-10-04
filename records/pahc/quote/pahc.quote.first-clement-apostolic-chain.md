@@ -47,7 +47,7 @@ use_note:
     - "a claim that bishops and deacons were already fixed, ordained clerical offices with defined duties"
     - "a claim that each church was led by a single bishop"
   years: {from: 80, to: 140}
-  status: provisional
+  status: reviewed
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 ii, ch. 42 (ii.ii.xlii). Direct textual ground for

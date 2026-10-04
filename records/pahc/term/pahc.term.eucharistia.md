@@ -75,7 +75,7 @@ use_note:
     - "a uniform ritual with fixed prayers"
     - "transubstantiation or later presence-theology"
   years: {from: 70, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 4, Tier 1 -
 resolved from the borderline by G07's Primary classification; CT
