@@ -76,6 +76,14 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["admin"].update(mint_max_tokens_per_day=True),
         lambda d: d["admin"].update(mint_max_tokens_per_request=99999),
         lambda d: d["admin"].update(extra=1),
+        lambda d: d.pop("pilot"),
+        lambda d: d["pilot"].pop("pilot_cap"),
+        lambda d: d["pilot"].update(pilot_open="yes"),
+        lambda d: d["pilot"].update(pilot_cap=0),
+        lambda d: d["pilot"].update(per_address=True),
+        lambda d: d["pilot"].update(pilot_end_date="soon"),
+        lambda d: d["pilot"].update(pack_usd=9),
+        lambda d: d["pilot"].update(extra=1),
     ],
 )
 def test_a_malformed_file_is_refused(tmp_path, change):

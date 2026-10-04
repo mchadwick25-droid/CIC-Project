@@ -110,6 +110,11 @@ CREATE TABLE IF NOT EXISTS free_window (
     first_day TEXT NOT NULL,
     spent INTEGER NOT NULL CHECK (spent >= 0)
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS pilot_joined (
+    key_hash TEXT PRIMARY KEY,
+    joins INTEGER NOT NULL CHECK (joins > 0),
+    first_day TEXT NOT NULL
+) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL
@@ -127,6 +132,14 @@ class AlreadyMinted(DeeperError):
 
 class PaymentVoided(DeeperError):
     """The payment was refunded or disputed before its codes were made."""
+
+
+class PilotRefused(DeeperError):
+    """The pilot gave no code. reason is one of: closed, ended, full, address_limit."""
+
+    def __init__(self, reason: str):
+        super().__init__(reason)
+        self.reason = reason
 
 
 class MintLimit(DeeperError):
@@ -230,6 +243,7 @@ class Meter:
         prepared: list[str] | None = None,
         source: str = "purchase",
         daily_token_limit: int | None = None,
+        within: Callable[[sqlite3.Connection, str], None] | None = None,
     ) -> list[str]:
         """Makes the codes for one payment and returns them in plain form, the
         only moment they exist outside a person's hands. Raises AlreadyMinted
@@ -243,7 +257,11 @@ class Meter:
         are grants, made with no payment: their payment id must carry the
         grant's prefix, they count in their own reconciliation column and never
         as a payment, and daily_token_limit caps the tokens such codes may hold for the day,
-        checked inside the same transaction so two requests cannot both pass."""
+        checked inside the same transaction so two requests cannot both pass.
+
+        within: called inside that transaction, before any code is made, with the
+        connection and today's day. It raises to refuse the mint, and what it
+        writes commits or rolls back with the codes."""
         if source not in SOURCES:
             raise ValueError(f"unknown source {source!r}")
         if source == "purchase" and is_grant(payment_id):
@@ -285,6 +303,8 @@ class Meter:
                     ).fetchone()[0]
                     if made_today + tokens * count > daily_token_limit:
                         raise MintLimit(source)
+                if within is not None:
+                    within(self._conn, today)
                 made: list[str] = []
                 while len(made) < count:
                     code = prepared[len(made)] if prepared is not None else codes.generate()
@@ -555,6 +575,45 @@ class Meter:
             for pid, n, total, used, day, voided in rows
         ]
 
+    def join_pilot(
+        self, address: str, tokens: int, grant_id: str, *, open_: bool, end_date: date, cap: int, per_address: int,
+    ) -> str:
+        """Gives one pilot code to an address, or raises PilotRefused. The checks,
+        the count and the code commit together, so two joins at once cannot both
+        take the last place. The address is kept only as a keyed hash, with how
+        many codes it has had and the day of its first; the total given is one
+        number that outlives those rows."""
+        key = self.free_key(f"pilot:{address}")
+
+        def gate(conn: sqlite3.Connection, today: str) -> None:
+            if not open_:
+                raise PilotRefused("closed")
+            if date.fromisoformat(today) > end_date:
+                raise PilotRefused("ended")
+            total_row = conn.execute("SELECT value FROM state WHERE key = 'pilot_total'").fetchone()
+            total = int(total_row[0]) if total_row else 0
+            if total >= cap:
+                raise PilotRefused("full")
+            row = conn.execute("SELECT joins FROM pilot_joined WHERE key_hash = ?", (key,)).fetchone()
+            if row and row[0] >= per_address:
+                raise PilotRefused("address_limit")
+            conn.execute(
+                "INSERT INTO pilot_joined (key_hash, joins, first_day) VALUES (?, 1, ?)"
+                " ON CONFLICT (key_hash) DO UPDATE SET joins = joins + 1",
+                (key, today),
+            )
+            conn.execute(
+                "INSERT INTO state (key, value) VALUES ('pilot_total', ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
+                (str(total + 1),),
+            )
+
+        (code,) = self.mint("single", tokens, grant_id, 1, source="pilot", within=gate)
+        return code
+
+    def pilot_total(self) -> int:
+        value = self.get_state("pilot_total")
+        return int(value) if value else 0
+
     def _add(self, measure: str, amount: int, day: str) -> None:
         self._conn.execute(
             "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
@@ -679,6 +738,9 @@ class Meter:
                         removed += 1
             removed += self._conn.execute(
                 "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM pilot_joined WHERE first_day <= ?", ((today - timedelta(days=RETENTION_DAYS)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM free_window WHERE first_day <= ?", ((today - timedelta(days=self._free_window_days)).isoformat(),)

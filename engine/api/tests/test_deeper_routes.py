@@ -1090,3 +1090,103 @@ def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
     http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin())
     assert http.get("/api/admin/deeper/grants", headers=admin()).json()["grants"][0]["codes_void"] == 2
     assert http.get("/api/admin/deeper/grants").status_code == 404
+
+
+# ---- pilot join (S12) ----------------------------------------------------------
+
+def open_pilot(runtime, **changes):
+    import dataclasses
+
+    runtime.ops = dataclasses.replace(load_ops(), pilot_open=True, **changes)
+    return runtime
+
+
+def join(http, ip="203.0.113.7"):
+    return http.post("/api/deeper/pilot-join", headers={"x-forwarded-for": ip})
+
+
+def test_the_shipped_pilot_is_closed_and_the_route_then_does_not_exist_to_a_visitor(http, minting):
+    assert load_ops().pilot_open is False
+    assert join(http).status_code == 404
+    assert minting.meter.reconciliation(1) == []
+
+
+def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
+    open_pilot(runtime)
+    made = join(http)
+    body = made.json()
+    assert made.status_code == 200 and body["joined"] is True and body["tokens"] == 1100
+    assert made.headers["cache-control"] == "no-store"
+    assert runtime.meter.status(body["code"]).tokens_total == 1100
+    assert runtime.meter.reserve(body["code"]).ok
+
+
+def test_a_pilot_code_is_a_gift_not_a_payment_or_a_sale(http, runtime):
+    open_pilot(runtime)
+    join(http)
+    day = runtime.meter.reconciliation(1)[0]
+    assert (day["pilot_codes_minted"], day["admin_codes_minted"], day["payments_seen"], day["gap"]) == (1, 0, 0, 0)
+    assert runtime.meter.measures(1)[0]["tokens_granted"] == 1100 and runtime.meter.measures(1)[0]["tokens_sold"] == 0
+    assert runtime.meter.net_funds(7)["gift"] == 700
+    assert runtime.meter.owed() == []
+    assert [g["grant_id"][:6] for g in runtime.meter.grants(1)] == ["pilot_"]
+
+
+def test_an_address_gets_its_few_and_then_is_told_so_while_another_still_joins(http, runtime):
+    open_pilot(runtime, pilot_per_address=2)
+    assert [join(http).status_code for _ in range(2)] == [200, 200]
+    refused = join(http)
+    assert refused.status_code == 409 and refused.json() == {"joined": False, "reason": "address_limit"}
+    assert join(http, ip="203.0.113.8").status_code == 200
+    assert runtime.meter.pilot_total() == 3
+
+
+def test_the_cap_stops_the_pilot_for_everyone_and_a_refusal_takes_nothing(http, runtime):
+    open_pilot(runtime, pilot_cap=2, pilot_per_address=5)
+    assert join(http).status_code == 200 and join(http, ip="198.51.100.1").status_code == 200
+    full = join(http, ip="198.51.100.2")
+    assert full.status_code == 409 and full.json()["reason"] == "full"
+    assert runtime.meter.pilot_total() == 2
+    assert runtime.meter.reconciliation(1)[0]["pilot_codes_minted"] == 2
+
+
+def test_the_pilot_ends_on_its_date(http, runtime):
+    open_pilot(runtime, pilot_end_date=date(2026, 10, 5))
+    assert join(http).status_code == 200
+    open_pilot(runtime, pilot_end_date=date(2026, 10, 4))
+    ended = join(http, ip="198.51.100.3")
+    assert ended.status_code == 409 and ended.json()["reason"] == "ended"
+
+
+def test_the_address_is_never_kept_in_plain_form(http, runtime):
+    open_pilot(runtime)
+    join(http, ip="203.0.113.99")
+    rows = runtime.meter._conn.execute("SELECT key_hash FROM pilot_joined").fetchall()
+    assert len(rows) == 1 and "203.0.113.99" not in rows[0][0] and len(rows[0][0]) == 32
+    dump = "\n".join(runtime.meter._conn.iterdump())
+    assert "203.0.113.99" not in dump
+
+
+def test_a_failed_mint_keeps_the_address_count_and_the_total_unspent(runtime):
+    open_pilot(runtime)
+    with pytest.raises(ValueError):
+        runtime.meter.join_pilot(
+            "203.0.113.5", 1100, "pi_wrong", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
+        )
+    assert runtime.meter.pilot_total() == 0
+    assert runtime.meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == 0
+
+
+def test_the_pilot_join_answers_the_site_and_no_other_origin(http, runtime):
+    open_pilot(runtime)
+    ok = http.post("/api/deeper/pilot-join", headers={"origin": "https://site.example", "x-forwarded-for": "198.51.100.9"})
+    assert ok.headers["access-control-allow-origin"] == "https://site.example"
+    other = http.post("/api/deeper/pilot-join", headers={"origin": "https://elsewhere.example", "x-forwarded-for": "198.51.100.10"})
+    assert "access-control-allow-origin" not in other.headers
+
+
+def test_the_status_reports_the_pilot_against_its_cap(http, runtime):
+    open_pilot(runtime, pilot_cap=10)
+    join(http)
+    pilot = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
+    assert pilot == {"open": True, "cap": 10, "given": 1, "end_date": runtime.ops.pilot_end_date.isoformat(), "per_address": 2}

@@ -21,6 +21,21 @@ Three places, one kind of control each. **Stripe** holds money: the pack links, 
 
 The mint page makes codes with no payment. The codes show once on the page; copy them before leaving it. If a response is lost, cancel the mint id it showed in the dashboard's cancel box (it takes a mint id or a payment id) and make them again. Each grant counts toward the door as a gift of the packs' price.
 
+## Offers and goodwill
+
+The module makes free codes; Stripe makes every percentage discount. Name each Stripe code for what it was for, so the list reads at a glance: `PILOT-`, `XMAS-`, `HOME-` for a cohort, `FIX-` for a complaint. Steps below use Stripe's feature names; check them against your account the first time, since Stripe's menus change.
+
+| Situation | Where | What the door counts |
+|---|---|---|
+| Free package for the pilot | the pilot join (on when `pilot_open` is true) | a gift of the pack's price |
+| One-off free grant | the dashboard mint page | a gift of the pack's price |
+| A percentage off for a season or a cohort | a Stripe promotion code on the chosen package | what was paid |
+| A discount on one package only | a Stripe coupon limited to that product, with promotion codes switched on only for that package's payment link | what was paid |
+| A complaint, already bought | a partial refund in Stripe | no change; the codes keep working |
+| A complaint, not yet bought | a one-redemption Stripe promotion code limited to that customer's email | what was paid |
+
+Never use the dashboard's cancel box for a goodwill refund: it cancels the codes. A full refund or a dispute cancels them by itself. The pilot join's cap, end date and per-address count are lines in the operations file; the dashboard shows how many have been given.
+
 ## Part 1 — Before the staging rehearsal
 
 All of these must be true. The build thread checks the first group; Mark confirms the second.
