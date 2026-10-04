@@ -49,8 +49,8 @@ use_note:
   means: "An elder at Geneva is a layperson, not an ordained pastor, who holds real power in the Consistory."
   not_for:
     - "a claim that the elder's role was honorary or ceremonial with no real institutional authority"
-  years: {from: 1519, to: 1650}
-  status: provisional
+  years: {from: 1541, to: 1650}
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

@@ -70,7 +70,7 @@ use_note:
   not_for:
     - "a claim that the formula was only careful compromise language by parties more interested in signing than in agreeing"
   years: {from: 1549, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex008_sign-and-the-thing-signified.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

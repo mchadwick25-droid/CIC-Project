@@ -59,6 +59,6 @@ use_note:
   not_for:
     - "a claim that Zurich and Geneva borrowed each other's method of applying Scripture"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_04_Gravity_Discovery.md SS3 (Approved to proceed, Revision 2), carrying that document's own classification and reasoning directly. `relations` mirrors Doc_08 Section 5's own 'Connected forces' list for this gravity exactly, per that document's own explicit caution against force-fitting a connection its own words do not support.

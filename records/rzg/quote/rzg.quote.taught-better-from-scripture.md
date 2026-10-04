@@ -35,6 +35,6 @@ use_note:
     - "a claim that Zwingli's offer was false modesty before a debate already decided"
     - "a claim that Scripture alone meant each believer deciding doctrine privately"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

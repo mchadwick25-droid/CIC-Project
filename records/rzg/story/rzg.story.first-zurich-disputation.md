@@ -63,6 +63,6 @@ use_note:
   not_for:
     - "a claim that the Disputation was a staged event decided before it began"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing.

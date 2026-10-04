@@ -53,6 +53,6 @@ use_note:
     - "a claim that either city conceded the discipline question to the other"
     - "a claim that the 1549 Consensus settled the Supper by superseding Zwingli's earlier reading"
   years: {from: 1523, to: 1555}
-  status: provisional
+  status: reviewed
 ---
 Grounded in rzg.gravity.council-led-authority-vs-consistorial-independence (T1) and rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus (T2), both already-classified Tensional gravities -- stated here for the first time in first-person witness voice rather than the gravity records' own etic classification. Closes F6-I directly ('What did your people never settle?' / 'hardest true thing').

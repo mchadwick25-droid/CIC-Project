@@ -38,6 +38,6 @@ use_note:
   not_for:
     - "a claim that these cities reflected on the difficulty of Scripture's violent content"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Celled to F2-P ('What did your people look for in these texts that a modern reader might miss?' / 'The violence in some of these texts frightens me. Did it trouble your people?'). Distinguished explicitly from F2-I's own close but distinct question (how this world read scripture, its own method) -- this cell's own personal-register question about scripture's own difficulty is genuinely unanswered anywhere in this world's own corpus. relations: [], matching this world's own S2x precedent for a blanket absence with no single reciprocity target.

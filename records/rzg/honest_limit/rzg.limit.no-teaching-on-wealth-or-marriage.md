@@ -37,6 +37,6 @@ use_note:
     - "a claim that these cities had a recorded teaching on marriage"
     - "a claim that these cities had a recorded teaching on wealth and poverty"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Celled to F5-T ('What did marriage mean to your people -- did you have weddings?' / 'How did you look at money and poverty -- would you call anyone among you rich?'). A genuine, checked absence across the entire corpus, not merely a cell this compile pass declined to fill. relations: [], matching this world's own S2x precedent.

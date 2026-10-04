@@ -52,6 +52,6 @@ use_note:
   not_for:
     - "a claim that Zurich and Geneva agreed on who governs church discipline"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 `relations` mirrors the forces analysis's list of connected forces for this gravity. `sources` is empty on purpose: the gravity tests the tension against each pole's own institutional history (Zurich's council-led governance; Geneva's 1541 Ordinances and the Perrinist crisis), not against a quoted passage in a vendored primary text. Citing `rzg.source.ecclesiastical-ordinances-1541` here would present an unvendored source as licensing this record's claim.

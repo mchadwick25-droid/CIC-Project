@@ -71,6 +71,6 @@ use_note:
     - "a claim that the 1549 agreement changed how either city tested doctrine"
     - "a claim that either city borrowed the other's method"
   years: {from: 1523, to: 1555}
-  status: provisional
+  status: reviewed
 ---
 Grounded in Doc_07_Integrated_Ecology_Analysis.md SS2I (Formation Logic): G3 is 'not one gravity among three Primaries but the mechanism generating the other two,' enacted differently by strand -- 'public Disputation before the city council at Zurich; fixed catechesis at Geneva' -- which Article 21's own logic treats as evidence strengthening G3's own centrality, and T1 as 'the institutional-level expression of G3's own strand-specific enactment difference, described from two angles rather than found as two separate facts' (Doc_04 SS6, G3<->T1, R). No existing rzg record states this unity-through-enactment claim in first-person voice: rzg.gravity.scripture-sole-authority-disputation-catechesis and rzg.gravity.council-led-authority-vs-consistorial-independence each state their own half separately, register etic. canon_cells=['F3-I'] ('Who held authority among you, and how did anyone come to have it?') is a strong direct fit: this record states exactly how authority operated in each city and why the two methods count as one authority rather than two. relations[] links to the two gravity records this witness draws its own two halves from -- reciprocal edges added directly to both files after this script runs.

@@ -35,6 +35,6 @@ use_note:
     - "a claim that this 1523 article is Zurich and Geneva's final, settled word on the Supper"
     - "a claim that the article settles whether or how Christ is present in the Supper"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

@@ -51,6 +51,6 @@ use_note:
     - "a claim that these refusals were enforced by argument alone"
     - "a claim about this world's teaching on divorce or remarriage"
   years: {from: 1523, to: 1529}
-  status: provisional
+  status: reviewed
 ---
 Grounded in the already-cleared rzg.witness.triple-refusal (cited as a source of established fact, not re-tagged or re-touched) and rzg.contested.anabaptist-schism-legitimacy's own claim field. Closes F6-T's own exclusivity sub-question directly; divorce and remarriage (the cell's other sub-question) is not claimed, since no record touches it.

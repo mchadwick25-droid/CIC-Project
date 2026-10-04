@@ -52,7 +52,7 @@ use_note:
   not_for:
     - "a claim that the Articles were a later, polished confession comparable to the Second Helvetic Confession"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

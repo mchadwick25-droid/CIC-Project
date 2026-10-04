@@ -34,6 +34,6 @@ use_note:
     - "a claim that the formula settles whether the Consensus was genuine synthesis or diplomatic compromise"
     - "a claim that the signers treated these words as empty diplomacy"
   years: {from: 1549, to: 1554}
-  status: provisional
+  status: reviewed
 ---
 Verified against the vendored file, matching the locus this world's own reviewed documents cite for this exact quotation. The quote ends with a trailing ellipsis after "the signs": the source's own sentence continues past that point ("...but acknowledge that all who in faith embrace the promises there offered receive Christ spiritually..."), marked rather than restored in full, since the record's load-bearing claim and its modern_lens_note/modern_rendering are built specifically on the distinguish/do-not-disjoin formula, and the dropped continuation is a separate point about sacramental efficacy that neither reverses nor is required by that formula.

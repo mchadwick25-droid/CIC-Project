@@ -40,6 +40,6 @@ use_note:
     - "a claim that ordinary believers actually felt settled assurance from this teaching"
     - "a claim that the two excerpted sentences run continuously in the confession"
   years: {from: 1566, to: 1566}
-  status: provisional
+  status: reviewed
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

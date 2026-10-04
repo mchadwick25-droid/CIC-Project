@@ -56,7 +56,7 @@ use_note:
   not_for:
     - "a claim that the memorial reading made the Supper an empty ceremony with no real content"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

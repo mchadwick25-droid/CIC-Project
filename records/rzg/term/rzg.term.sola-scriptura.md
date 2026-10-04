@@ -78,7 +78,7 @@ use_note:
   not_for:
     - "a claim that it meant each believer decides doctrine from personal study without any authoritative church structure"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex005_sola-scriptura.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

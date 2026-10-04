@@ -71,6 +71,6 @@ use_note:
     - "a claim that the 1549 Consensus corrected or replaced Zwingli's teaching"
     - "a claim that nothing changed between the 1523 and 1549 statements"
   years: {from: 1523, to: 1549}
-  status: provisional
+  status: reviewed
 ---
 Grounded in Doc_04_Gravity_Discovery.md SS3.5 and Doc_07 SS2D/SS2I (T2), quoting both poles verbatim at the same line ranges those documents independently re-verify. The Consensus's own 9th Head text is reused character-for-character from the already-cleared rzg.quote.signs-and-things-signified record (text field), not re-transcribed here, matching that record's own verbatim license exactly. T2 already has a classified gravity record (register etic) and a cleared contested_claim stating the same scholarly question from outside this world's own voice; no record states T2 in first-person doctrinal-witness voice with its own position/tension structure -- this is the first. canon_cells=['F1-T'] ('What was the bread and cup to you -- is that what we call transubstantiation?') is a strong direct fit: the fleet's own canon question asks exactly what this record answers, refusing both transubstantiation and a bare-memorial reading in the same breath. relations[] links to the T2 gravity and the sign/thing-signified term -- reciprocal edges added directly to both files after this script runs.

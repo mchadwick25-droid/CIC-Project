@@ -58,6 +58,6 @@ use_note:
     - "a claim that Myconius saw the battlefield fighting himself"
     - "a claim that the heart found whole in the ashes is an eyewitness report"
   years: {from: 1531, to: 1531}
-  status: provisional
+  status: reviewed
 ---
 Built from Story-Chunks/rzgstory003_myconius-account-of-zwinglis-death.md (Approved to proceed): Myconius's own account narrates Zwingli's death directly, in a vendored source. AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Tier Justification hedges.

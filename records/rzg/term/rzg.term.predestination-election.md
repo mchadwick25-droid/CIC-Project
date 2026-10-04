@@ -82,7 +82,7 @@ use_note:
     - "a claim that the doctrine meant some people are doomed regardless of what they do"
     - "a claim that the doctrine excused cruelty or indifference toward the unchosen"
   years: {from: 1527, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex001_predestination-election.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

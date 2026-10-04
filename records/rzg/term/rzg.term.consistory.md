@@ -71,7 +71,7 @@ use_note:
     - "a claim that the Consistory was a harsh surveillance body that summoned households and enforced conformity street by street"
     - "a claim that Zurich had an equivalent body to Geneva's Consistory"
   years: {from: 1541, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex012_consistory.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

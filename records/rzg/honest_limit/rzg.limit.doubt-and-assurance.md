@@ -47,6 +47,6 @@ use_note:
     - "a claim that ordinary believers at Zurich or Geneva experienced election as comfort"
     - "a claim that ordinary believers experienced it as anxiety"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Celled to F1-P ('Was there room among your people for doubt?') -- the fleet's own direct match. Distinguished explicitly from rzg.limit.ordinary-daily-practice (the practical/routine register) -- this record's own scope is specifically the INTERIOR, emotional register: whether the doctrine's own intended comfort was actually felt. Quotes rzg.quote.christ-the-mirror-of-election's own already-cleared modern_rendering text directly rather than re-translating it. relations[] links to the G1 gravity and the mirror-of-election quote -- reciprocal edges added directly to both files after this script runs.

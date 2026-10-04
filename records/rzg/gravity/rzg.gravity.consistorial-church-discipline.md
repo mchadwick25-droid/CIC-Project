@@ -50,11 +50,11 @@ manifestations:
 - the Perrinist crisis, resolved substantially in the Consistory's own favor by 1555
 classification: supporting
 use_note:
-  means: "At Geneva a body of pastors and lay elders, not the civil magistrate, holds the whole population's conduct answerable to its profession, an independence founded in 1541 and substantially won by 1555."
+  means: "At Geneva a body of pastors and lay elders, not the civil magistrate, holds the whole population's conduct answerable to its profession, an independence claimed from its 1541 founding and substantially won by 1555."
   not_for:
     - "a claim that Geneva's Consistory was a civil court answerable to the magistrate"
     - "a claim that Zurich shared this independent discipline"
   years: {from: 1541, to: 1555}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_04_Gravity_Discovery.md SS3 (Approved to proceed, Revision 2), carrying that document's own classification and reasoning directly. `relations` mirrors Doc_08 Section 5's own 'Connected forces' list for this gravity exactly, per that document's own explicit caution against force-fitting a connection its own words do not support.

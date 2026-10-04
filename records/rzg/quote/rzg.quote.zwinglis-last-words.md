@@ -33,6 +33,6 @@ use_note:
     - "a claim that Zwingli sought or longed for his own death"
     - "a claim that this world built a cult around Zwingli's death"
   years: {from: 1531, to: 1532}
-  status: provisional
+  status: reviewed
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

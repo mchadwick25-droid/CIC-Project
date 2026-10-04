@@ -54,6 +54,6 @@ use_note:
     - "a claim that the Anabaptists abandoned the scriptural-authority method rather than pressing it further"
     - "a claim that the baptism question was settled at no cost to either side"
   years: {from: 1525, to: 1527}
-  status: provisional
+  status: reviewed
 ---
 Grounded in rzg.contested.anabaptist-schism-legitimacy's own claim field and rzg.force.anabaptist-schism (the 1525 Manz-house baptisms, Grebel and Manz's own prior standing in Zwingli's circle). Closes F4-T's own direct baptism-mode sub-question; born-again narrative, tithing, and eschatology (the cell's other three sub-questions) are not claimed, since no record in this world's own corpus touches any of them.

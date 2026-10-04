@@ -46,6 +46,6 @@ use_note:
     - "a claim that this confession prescribed searching harder within oneself"
     - "a claim about this world's teaching on forgiving the unrepentant or unanswered prayer"
   years: {from: 1566, to: 1566}
-  status: provisional
+  status: reviewed
 ---
 Grounded in rzg.quote.christ-the-mirror-of-election's own already-verified text (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted here character-for-character, including its own ellipsis marks and bracketed [our], exactly as that record's own already-verified text field states it -- not spliced, paraphrased, or presented as continuous unbroken speech. Applied here to F4-P's own distinct personal-register question ('What did your way of life offer someone who struggled to quiet their own mind?') rather than restating C-P/C-T's own identity-register use of the same quotation -- genuinely different content, not double-counted. 'Forgiving the unrepentant' and 'unanswered prayer' (this cell's other two sub-questions) are not claimed.

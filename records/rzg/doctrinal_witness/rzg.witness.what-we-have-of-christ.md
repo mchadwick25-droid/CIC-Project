@@ -51,6 +51,6 @@ use_note:
     - "a claim that a text alone was enough for everyone who held it"
     - "a claim that Scripture alone meant private individual interpretation"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Grounded in rzg.term.sola-scriptura (Sixty-Seven Articles preface, lines 4487-4492) and rzg.quote.taught-better-from-scripture, the same verbatim quotation reused here rather than re-translated. Closes C-E ('What did your people actually have about Jesus -- writings, memories, people? How did it reach you? / Had anyone among you known someone who saw him? / How do you know the resurrection really happened?'): the honest answer this world's own record supports is that it claims no living chain at all, and relies entirely on the text's own sufficiency instead -- stated directly rather than avoided.

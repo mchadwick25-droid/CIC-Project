@@ -83,7 +83,7 @@ use_note:
     - "a claim that the dispute over the Supper was a minor technicality"
     - "a claim that the bread is merely symbolic, as modern habit assumes"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex007_the-lords-supper-spiritual-presence.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

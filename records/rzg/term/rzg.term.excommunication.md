@@ -50,8 +50,8 @@ use_note:
   means: "Excommunication is formal exclusion from the sacraments and the visible church answering unrepented sin, and it is the Consistory's most severe tool at Geneva."
   not_for:
     - "a claim that excommunication was a purely spiritual or symbolic gesture with no consequence for the person excluded"
-  years: {from: 1519, to: 1650}
-  status: provisional
+  years: {from: 1541, to: 1650}
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

@@ -52,7 +52,7 @@ use_note:
   not_for:
     - "a claim that providence means nothing anyone does matters because every outcome is fixed"
   years: {from: 1519, to: 1650}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

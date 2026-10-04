@@ -56,6 +56,6 @@ use_note:
     - "a claim that this world built a cult or hagiography of Zwingli's death"
     - "a claim that his last words were independently witnessed direct speech"
   years: {from: 1531, to: 1532}
-  status: provisional
+  status: reviewed
 ---
 Grounded in the already-cleared rzg.story.myconius-account-of-zwinglis-death and rzg.quote.zwinglis-last-words (Myconius, 'Original Life of Zwingli' SS12, lines 1550-1613 and approx. 1592-1593). Closes F6-E's own 'death wish' sub-question directly; 'clearest outside account of how you worshipped' is not claimed -- this world built no comparable outside-observer worship account, a genuine, checked difference from don's own epigraphic F6-E precedent.

@@ -64,7 +64,7 @@ use_note:
     - "a claim that a Disputation was merely a staged event whose outcome was settled beforehand"
     - "a claim that a Disputation was a formal academic exercise"
   years: {from: 1523, to: 1523}
-  status: provisional
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex004_disputation.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

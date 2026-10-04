@@ -55,6 +55,6 @@ use_note:
     - "a claim that election rests on anything foreseen or earned in the one chosen"
     - "a claim that election doctrine sent believers searching themselves for proof"
   years: {from: 1566, to: 1566}
-  status: provisional
+  status: reviewed
 ---
 Grounded in rzg.gravity.sovereignty-of-god-predestination-election's own description and rzg.quote.christ-the-mirror-of-election's own already-verified text (Second Helvetic Confession, ch. X, lines 667, 684-685), quoted here character-for-character, including its own ellipsis marks and bracketed [our], exactly as that record's own already-verified text field states it -- not spliced, paraphrased, or presented as continuous unbroken speech: the confession's own two sentences, 17 lines apart, are quoted exactly as the already-verified quote record discloses them, with the same ellipsis marking the gap, never blended into one continuous sentence. Closes C-I ('Who was Jesus, to you and your people?' / 'What is the good news?' / 'What did his death mean to you?' / resurrection), leading with the same honest disclosure don's own analogous C-I record uses: this world's core Christology is the shared, inherited orthodox one, not a distinctive claim this record should manufacture.
