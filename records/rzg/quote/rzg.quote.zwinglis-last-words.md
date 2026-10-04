@@ -26,5 +26,13 @@ license: verbatim
 modern_lens_note: This is reported speech, preserved by a close friend not present at the exact moment,
   not an independently witnessed direct quotation - we hold it the same way Myconius himself did.
 modern_rendering: What evil is there in this? It is true, they can kill the body, but not the soul.
+use_note:
+  means: "Myconius reports the fallen Zwingli saying his killers could kill the body but not the soul."
+  not_for:
+    - "a claim that these words were independently witnessed direct speech"
+    - "a claim that Zwingli sought or longed for his own death"
+    - "a claim that this world built a cult around Zwingli's death"
+  years: {from: 1531, to: 1532}
+  status: provisional
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

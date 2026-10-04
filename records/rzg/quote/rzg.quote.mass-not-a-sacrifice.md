@@ -28,5 +28,13 @@ modern_lens_note: A modern reader may hear a minor liturgical technicality. We h
 modern_rendering: Christ sacrificed himself once. That sacrifice is, to eternity, a certain and valid
   offering for the sins of all the faithful. From this it follows that the Mass is not a sacrifice.
   It is a remembrance of that sacrifice, and an assurance of the salvation Christ has given us.
+use_note:
+  means: "Zwingli holds Christ's one sacrifice valid forever, so the Mass is a remembrance and assurance of it, not a sacrifice."
+  not_for:
+    - "a claim that this was a minor liturgical technicality"
+    - "a claim that this 1523 article is Zurich and Geneva's final, settled word on the Supper"
+    - "a claim that the article settles whether or how Christ is present in the Supper"
+  years: {from: 1523, to: 1523}
+  status: provisional
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

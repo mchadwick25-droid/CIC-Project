@@ -45,5 +45,14 @@ text: 'Defend using power against Christians who disagreed with you. We will not
   apart from the whole city, was not a smaller version of what we had built -- it unmade the very unity
   our reform existed to strengthen. We do not deny they read Scripture. We deny they read it whole. And
   we will not tell you the suppression that followed was only ever argument, when it plainly was not.'
+use_note:
+  means: "We admit civil force against the Anabaptists and defend refusing them because a profession-only church unmade the one city-church."
+  not_for:
+    - "a claim that Zurich answered the Anabaptists with argument alone"
+    - "a claim that the Anabaptists did not read Scripture"
+    - "a claim that Scripture alone, without a further interpretive commitment, settles the church-city question"
+    - "a detailed narrative of how the civil suppression after 1525 was carried out"
+  years: {from: 1525, to: 1527}
+  status: provisional
 ---
 Grounded directly in rzg.contested.anabaptist-schism-legitimacy's own held_against/concedes fields (Doc_08 Force 2B-1, Doc_05 SS2), restated here in first-person defense rather than the contested_claim's own etic third-party framing -- genuinely different content in a different register, not a duplicate. Closes F3-P's own central 'defend that' question directly; 'temples and old gods' is not claimed, since the material-subtraction content already lives at rzg.witness.what-a-stranger-would-notice (F3-E) and is not restated here.

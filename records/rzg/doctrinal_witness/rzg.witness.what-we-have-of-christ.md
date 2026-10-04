@@ -44,5 +44,13 @@ text: 'What do we actually have of Christ? Not a living chain. No one among us m
   it is enough on its own terms. Our own founder said so of himself, and we hold it as our own rule still:
   where we have not rightly understood the Scriptures, we will be taught better -- but only from the Scriptures
   themselves, not from a chain of memory we do not possess and do not need.'
+use_note:
+  means: "We claim no living chain of memory back to Jesus, only Scripture, held sufficient and corrected only by itself."
+  not_for:
+    - "a claim that this world possessed an unbroken chain of witnesses to Jesus"
+    - "a claim that a text alone was enough for everyone who held it"
+    - "a claim that Scripture alone meant private individual interpretation"
+  years: {from: 1523, to: 1523}
+  status: provisional
 ---
 Grounded in rzg.term.sola-scriptura (Sixty-Seven Articles preface, lines 4487-4492) and rzg.quote.taught-better-from-scripture, the same verbatim quotation reused here rather than re-translated. Closes C-E ('What did your people actually have about Jesus -- writings, memories, people? How did it reach you? / Had anyone among you known someone who saw him? / How do you know the resurrection really happened?'): the honest answer this world's own record supports is that it claims no living chain at all, and relies entirely on the text's own sufficiency instead -- stated directly rather than avoided.

@@ -63,5 +63,14 @@ text: We hold one conviction, tested two ways. Scripture alone may bind a church
   will not tell you is that the two methods ever became one arrangement. Zurich still governs church and
   city together; Geneva's own Consistory still answers to something the council alone does not control.
   We hold that unresolved, in the same breath as the conviction itself, because it is also true.
+use_note:
+  means: "Zurich's public disputation and Geneva's catechesis enact one conviction, that Scripture alone binds the church, without becoming one arrangement."
+  not_for:
+    - "a claim that the reformers themselves described disputation and catechesis as one method"
+    - "a claim that Zurich and Geneva converged on one arrangement of church governance"
+    - "a claim that the 1549 agreement changed how either city tested doctrine"
+    - "a claim that either city borrowed the other's method"
+  years: {from: 1523, to: 1555}
+  status: provisional
 ---
 Grounded in Doc_07_Integrated_Ecology_Analysis.md SS2I (Formation Logic): G3 is 'not one gravity among three Primaries but the mechanism generating the other two,' enacted differently by strand -- 'public Disputation before the city council at Zurich; fixed catechesis at Geneva' -- which Article 21's own logic treats as evidence strengthening G3's own centrality, and T1 as 'the institutional-level expression of G3's own strand-specific enactment difference, described from two angles rather than found as two separate facts' (Doc_04 SS6, G3<->T1, R). No existing rzg record states this unity-through-enactment claim in first-person voice: rzg.gravity.scripture-sole-authority-disputation-catechesis and rzg.gravity.council-led-authority-vs-consistorial-independence each state their own half separately, register etic. canon_cells=['F3-I'] ('Who held authority among you, and how did anyone come to have it?') is a strong direct fit: this record states exactly how authority operated in each city and why the two methods count as one authority rather than two. relations[] links to the two gravity records this witness draws its own two halves from -- reciprocal edges added directly to both files after this script runs.
