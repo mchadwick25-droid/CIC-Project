@@ -76,6 +76,15 @@ tensions:
 relations:
 - type: associated-with
   target: witt.quote.article-ii-of-original-sin
+use_note:
+  means: "This witness holds that we taught inborn sin, Christ's true body and blood in and under bread and wine without transubstantiation, and justification by faith alone."
+  not_for:
+    - "a claim that we held the bread and cup to be a symbol or memorial only"
+    - "a claim that we offered a rival theory of how Christ is present"
+    - "a claim that faith alone meant good works did not matter"
+    - "the infant-baptism teaching, which sits in witt.dw.a-death-begun-that-a-child-receives"
+  years: {from: 1519, to: 1531}
+  status: provisional
 ---
 Closes F1-T at the Answer-the-Canon step (inserted between B-7a and B-8), answering all three of the
 cell's own canon questions (original sin, the bread and cup, faith alone) rather than only one, since this

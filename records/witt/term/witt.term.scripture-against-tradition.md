@@ -79,6 +79,14 @@ senses:
     the rule two ways -- one sharp, one additive -- and never as a Latin formula.
 quick_meaning: Scripture judges popes, councils, and fathers. Said sharply by one voice, gently by another.
 distortion_risk: high
+use_note:
+  means: "Scripture against tradition meant that Scripture judges popes, councils and Fathers, said sharply by Luther ('under the bench') and more gently by the Confession."
+  not_for:
+    - "'Scripture alone' as a slogan that the Fathers and councils are worthless, since no such Latin formula occurs in these texts"
+    - "Luther's sharp wording as the Confession's own gentler position"
+    - "the Word's broader power, which sits in witt.term.the-word"
+  years: {from: 1518, to: 1546}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 3.3 (Scripture against Fathers, Councils and pope, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: Luther-only, cross-register, for the sharp form; Melanchthon attests the milder, additive form. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

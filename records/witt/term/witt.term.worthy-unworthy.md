@@ -79,6 +79,13 @@ senses:
     by their own sin.'
 quick_meaning: Worthiness means believing the words 'given for you,' not being sinless.
 distortion_risk: high
+use_note:
+  means: "Worthy and unworthy meant believing the words 'given for you' at the table, the truly unworthy being those who feel no need of forgiveness, with examination but no compulsion."
+  not_for:
+    - "worthiness as moral fitness, or examination as a test of purity"
+    - "the household's weekly examination apart from the Sacrament, which sits in witt.term.household"
+  years: {from: 1529, to: 1531}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 5.11 (worthy / unworthy, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

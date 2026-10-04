@@ -93,6 +93,13 @@ senses:
     parts, kept by coming to the table together.'
 quick_meaning: An assembly, not a building. Known by the Word and the sacraments rightly held.
 distortion_risk: high
+use_note:
+  means: "Congregation meant an assembly of believers gathered around the Word and the sacraments, known by those marks rather than by a building or an office."
+  not_for:
+    - "'church' as a building, a denomination or an institution with officers"
+    - "Christendom's wider, inclusive extent, which sits in witt.term.christendom"
+  years: {from: 1519, to: 1530}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 5.8 (fellowship / congregation of saints, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the German glosses are the founder's own, in the text. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

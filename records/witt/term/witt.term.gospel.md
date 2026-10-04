@@ -69,6 +69,14 @@ senses:
     promise of forgiveness for Christ's sake.
 quick_meaning: 'The good news of Christ: forgiveness for his sake. Our own treasure, risen again.'
 distortion_risk: high
+use_note:
+  means: "The Gospel meant the good news of Christ, called the true treasure of the Church, which the world held had been buried and had risen again in its own day."
+  not_for:
+    - "'the Gospel' as the four biblical books or Christianity in general"
+    - "the Word broadly, which sits in witt.term.the-word"
+    - "Law and Gospel as a reading grammar, which sits in witt.term.law-and-gospel"
+  years: {from: 1517, to: 1545}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 3.2 (the Gospel, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

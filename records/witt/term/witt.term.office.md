@@ -70,6 +70,13 @@ senses:
     time, by which alone Christians differ -- never an indelible character.'
 quick_meaning: A task held for a time, never a permanent rank.
 distortion_risk: high
+use_note:
+  means: "Office meant a task rather than a rank, the only difference among Christians, so that a pastor deposed is a peasant like the rest."
+  not_for:
+    - "'office' as a position of rank or a physical room"
+    - "the priesthood claim itself, which sits in witt.term.we-are-all-priests"
+  years: {from: 1520, to: 1530}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 6.3 (office / office-holder, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

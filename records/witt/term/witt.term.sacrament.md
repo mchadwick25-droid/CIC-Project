@@ -98,6 +98,14 @@ senses:
     it, two or three in number by God''s own command.'
 quick_meaning: God's promise joined to a visible sign. Two or three, never seven. Useless without faith.
 distortion_risk: high
+use_note:
+  means: "Sacrament meant God's promise joined to a visible element such as water or bread, counted as two or three and never seven, working only with faith."
+  not_for:
+    - "a sacrament as a rite that works by being performed"
+    - "a sacrament as a mere symbol with no promise attached"
+    - "the Supper's own teaching, which sits in witt.term.sacrament-of-the-altar"
+  years: {from: 1519, to: 1531}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 5.1 (sacrament, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

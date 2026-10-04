@@ -101,6 +101,14 @@ senses:
     work-song, a burial comfort, and a weapon against the devil.'
 quick_meaning: Songs in our own language, teaching those who cannot read Latin.
 distortion_risk: high
+use_note:
+  means: "Hymn meant German song written to teach the unlearned, sung at work, at burial and in services, with old tunes carrying new words and Latin kept beside it."
+  not_for:
+    - "hymns as mere ornament or mood in a service"
+    - "the German hymn as a total break with Latin"
+    - "a specific hymn's full text, since the library holds only openings and fragments"
+  years: {from: 1523, to: 1545}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 4.9 (hymn / German singing, Tier 1 ↑ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices, plus the fullest non-founder attestation in the build. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

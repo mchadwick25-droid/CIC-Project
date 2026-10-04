@@ -151,5 +151,13 @@ manifestations:
   think the Spirit comes "without the external Word" (AC 246-255)'
 - '"Dear Luther, write the divine truth in our language, in German, that we simple laymen also may read
   it" (Karsthans, v3 10556-10558, an editor''s quotation of a fictional peasant)'
+use_note:
+  means: "The Word names Scripture's authority against pope, councils and doctrines of men, and the Word as the agent that 'must do' the work of reform."
+  not_for:
+    - "the Word as the Bible-as-book read alone"
+    - "'Scripture alone' as a slogan, no such Latin formula occurring in these texts"
+    - "the term-level definitions, which sit in witt.term.the-word and witt.term.scripture-against-tradition"
+  years: {from: 1520, to: 1530}
+  status: provisional
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G2 -> §3 G2 -> §7 row G2; PRIMARY). Interaction Matrix (Doc_04 §5, row/col G2): G1 (R), G3 (R), G4 (R), G5 (R), G6 (S), G7 (R), G8 (C), G9 (R), G10 (S), G11 (R), G12 (R), G13 (C) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: none -- every other candidate shows a demonstrated relationship. Forces-connection (Doc_08 §5): witt.force.papal-force-initiating (enabled-by), witt.force.imperial-frame (enabled-by), witt.force.papal-force-ongoing (associated-with), witt.force.internal-radical-force (associated-with), witt.force.imperial-force-ongoing (associated-with), witt.force.print-as-medium (associated-with), witt.force.transmission-within-the-worlds-life (associated-with), witt.force.internal-fracture-fenced (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

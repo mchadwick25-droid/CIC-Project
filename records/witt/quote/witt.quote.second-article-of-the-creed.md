@@ -80,6 +80,15 @@ relations:
   target: witt.dw.truly-god-and-truly-man
 - type: associated-with
   target: witt.dw.how-the-promise-reached-us
+use_note:
+  means: "The Small Catechism's Second Article (1529) has the household confess Christ truly God and truly man, who redeemed each believer with his blood and rose from death."
+  not_for:
+    - "a remembered personal saying of any individual, when this is recited household text"
+    - "'He is my Lord' as the modern phrase 'personal Lord and Savior'"
+    - "an argued or eyewitness case for the resurrection, when this is confession only"
+    - "an argued defense of the Trinity as a formula, which no record holds and witt.dw.truly-god-and-truly-man names as absent"
+  years: {from: 1529, to: 1529}
+  status: provisional
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/luther_small-catechism_smith1994.txt. `grep -n "The Second Article\|born of the

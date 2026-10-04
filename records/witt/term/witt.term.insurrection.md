@@ -72,6 +72,14 @@ senses:
     is not something we can voice.
 quick_meaning: 'Our 1522 stance: sympathy for real grievance, but a refusal of violence.'
 distortion_risk: high
+use_note:
+  means: "Insurrection meant the vocabulary of 1522, in which the angry common man was restrained by refusing violence and trusting God to guard his Word, bound to that year."
+  not_for:
+    - "the 1525 Peasants' War tract's language projected back onto 1522, that tract not being in the library"
+    - "a claim about the world's later history of resistance"
+    - "the civil ruler's power, which sits in witt.term.the-sword"
+  years: {from: 1520, to: 1522}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 7.4 (insurrection / 'the common man' (1522 only), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: Luther-only, cross-register, period-bound to 1521-22 -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

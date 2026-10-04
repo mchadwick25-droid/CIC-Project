@@ -60,6 +60,13 @@ senses:
     no longer being kept.
 quick_meaning: Exclusion from the table, for correction, by the Word alone, never by force.
 distortion_risk: high
+use_note:
+  means: "The ban meant exclusion from the visible fellowship only, never from God's mercy, used to correct by speaking the Word and without force."
+  not_for:
+    - "excommunication as damnation or a political weapon"
+    - "the civil ruler's power, which sits in witt.term.the-sword"
+  years: {from: 1520, to: 1530}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 5.9 (the ban / excommunication, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

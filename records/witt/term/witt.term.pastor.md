@@ -87,6 +87,13 @@ senses:
     office-holder, often poor, told daily to read a page and rebuked by name for not doing so.'
 quick_meaning: A called, married leader. We honor him. We also rebuke him, in print, when lazy.
 distortion_risk: high
+use_note:
+  means: "Pastor meant a called and usually married office-holder whom the catechism both addresses and rebukes, owed honour and a decent living by the congregation."
+  not_for:
+    - "the pastor as a settled professional clergyman"
+    - "calling as a general concept, which sits in witt.term.calling"
+  years: {from: 1518, to: 1546}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 6.5 (pastor / preacher, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

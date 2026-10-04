@@ -110,6 +110,14 @@ senses:
     Christ and Satan that must not be merged with the first.'
 quick_meaning: 'God''s two rules: the Word governs Christians, the sword restrains evil. Never confused.'
 distortion_risk: high
+use_note:
+  means: "The two governments meant God ruling the spiritual kingdom by the Word and the civil kingdom by the sword, both kept and neither confused with the other."
+  not_for:
+    - "the 'two kingdoms doctrine' as a settled technical term the world taught"
+    - "the Christ-against-Satan pairing as the same doctrine, which witt.contested.two-governments-historical-scope holds as contested"
+    - "a modern political-theology reading of 'two kingdoms'"
+  years: {from: 1522, to: 1530}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 7.1 (the two governments, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT][CT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

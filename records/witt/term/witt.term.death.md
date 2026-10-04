@@ -73,6 +73,13 @@ senses:
     mean the last battle, faced alone but on a promise, a sleep and a couch, a burial sung and honoured.'
 quick_meaning: A battle faced alone. Faith teaches us to call it a sweet sleep.
 distortion_risk: high
+use_note:
+  means: "Death meant the last battle each person fights alone, which faith teaches the believer to call a sweet sleep, so the dead were buried with comfort."
+  not_for:
+    - "death as an end faced by private inner resolve, or burial as private grief"
+    - "purgatory, which sits in witt.term.purgatory"
+  years: {from: 1519, to: 1545}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 9.4 (death, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none for death as the terror faith overcomes; Luther-only for the sleep/burial register. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

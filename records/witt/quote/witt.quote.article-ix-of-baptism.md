@@ -55,6 +55,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: witt.dw.a-death-begun-that-a-child-receives
+use_note:
+  means: "Augsburg Confession Article IX (1530) teaches that baptism is necessary to salvation, that children are to be baptized, and condemns the Anabaptists who reject this."
+  not_for:
+    - "a claim that baptism here is the candidate's own decision or profession"
+    - "the household catechism's daily-drowning teaching on baptism, which sits in witt.term.baptism, not in this article"
+    - "the inborn-sin doctrine behind the article, which sits in witt.quote.article-ii-of-original-sin"
+  years: {from: 1530, to: 1530}
+  status: provisional
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "Article IX: Of

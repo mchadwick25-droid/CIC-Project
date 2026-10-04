@@ -84,6 +84,14 @@ modern_contrast: A modern reader may be tempted either to dismiss this story out
   and a worry that Christian liberty had curdled into "unbridled" self-interest. The tradition remembers
   this as answered prayer, and this library records that as a fact about what the community believed happened,
   not as an independently verified meteorological finding.
+use_note:
+  means: "In a drought in 1532 Luther prayed aloud before the whole congregation against the rich's covetousness, and the Table Talk tradition says rain fell within half an hour."
+  not_for:
+    - "the rain's timing or the drought's severity as independently verified, there being one Table Talk witness"
+    - "an ordinary parish Sunday, since this was a documented public event"
+    - "Luther's exact words of prayer as certain"
+  years: {from: 1532, to: 1532}
+  status: provisional
 ---
 Grounded in a reading of TT lines 3154-3192 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim directly against cic/texts/luther_table-talk_bell1886.txt, lines 3150-3192 ("Of Luther's Prayer

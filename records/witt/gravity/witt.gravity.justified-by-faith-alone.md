@@ -157,6 +157,15 @@ manifestations:
 - '"our would-be wise, new spirits assert that faith alone saves, and that works and external things avail
   nothing... faith must have something which it believes... upon which it stands and rests" (LC 3916-3921)'
 - '"in this controversy the chief topic of Christian doctrine is treated" (Ap IV, 561-562)'
+use_note:
+  means: "Justified by faith alone names the primary teaching that sinners are freely justified for Christ's sake through faith, works and merit refused, traced from the 1517 disputation to 1531."
+  not_for:
+    - "the 1517 Theses as already teaching the full doctrine, since they hold only its first, limited form"
+    - "justification as a legal fiction"
+    - "the contest over 'accounted' and 'made', which sits in witt.contested.justification-accounted-and-made"
+    - "the certainty of conscience, which sits in witt.gravity.terrified-and-comforted-conscience"
+  years: {from: 1517, to: 1531}
+  status: provisional
 ---
 CONTESTED-CLAIM LINKAGE (closed at B-6): two records hold claims against this gravity --
 witt.contested.justification-accounted-and-made (the term's own [CT] meaning contest) and

@@ -68,6 +68,13 @@ senses:
     the commandments.'
 quick_meaning: Not a monk's higher life, but growth in faith within one's own ordinary work.
 distortion_risk: high
+use_note:
+  means: "Perfection meant growth in faith within one's own ordinary calling, refused as a monastic rank above other Christians."
+  not_for:
+    - "'perfection' as moral flawlessness or a spiritual elite's achievement"
+    - "vows specifically, which sit in witt.term.vows"
+  years: {from: 1522, to: 1531}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 8.5 (perfection, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC]. Author Gravity: weighted to Melanchthon. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

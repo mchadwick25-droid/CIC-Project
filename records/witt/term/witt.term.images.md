@@ -67,6 +67,13 @@ senses:
     kept or removed freely, removed only where worshipped, and never by compulsion.'
 quick_meaning: Neither commanded nor forbidden. Kept or removed freely, never by force.
 distortion_risk: high
+use_note:
+  means: "Images meant objects in worship neither commanded nor forbidden, free to keep or remove, removed only where people began to worship them and never by force."
+  not_for:
+    - "a claim that Wittenberg smashed images or forbade them outright"
+    - "saints and their invocation, which sit in witt.term.saints"
+  years: {from: 1522, to: 1545}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 8.8 (images, Tier 2 ↑ from Doc_03's estimate of 3). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

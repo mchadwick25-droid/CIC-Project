@@ -72,6 +72,14 @@ relations:
   target: witt.dw.a-narrow-word-plainly-spoken
 - type: associated-with
   target: witt.dw.a-death-begun-that-a-child-receives
+use_note:
+  means: "Augsburg Confession Article XVII (1530) teaches that Christ will raise all the dead, give the godly eternal life, condemn the ungodly to endless torment, and rejects two contrary views."
+  not_for:
+    - "a claim that the article names which people or traditions count as the ungodly"
+    - "a claim that the article addresses the modern rapture doctrine, when it rejects only an earthly rule of the godly before the resurrection"
+    - "the one-way and outsiders answer in the world's voice, which sits in witt.dw.a-narrow-word-plainly-spoken"
+  years: {from: 1530, to: 1530}
+  status: provisional
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "Article XVII\|tormented

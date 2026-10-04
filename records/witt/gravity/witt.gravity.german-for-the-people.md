@@ -134,5 +134,13 @@ manifestations:
   (Walter, Hy 766-768)'
 - '"the earliest of our hymns are more perverted the more they are printed... lest strange and unsuitable
   songs come to be sold under our name" (Hy 1065-1087)'
+use_note:
+  means: "German for the people names vernacular teaching and singing added for the unlearned while Latin is kept for the learned, attested across nine sources including three non-founder traces."
+  not_for:
+    - "German hymns as a total replacement for Latin, which the Confession and Apology both deny"
+    - "Walter's letter as unmediated eyewitness testimony, per witt.story.first-german-mass-sung"
+    - "the hymn's own definition in the world, which sits in witt.term.hymn"
+  years: {from: 1521, to: 1545}
+  status: provisional
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G11 -> §3 G11 -> §7 row G11; SUPPORTING). Interaction Matrix (Doc_04 §5, row/col G11): G1 (R(t)), G2 (R), G3 (R), G4 (R), G5 (R(t)), G6 (R(t)), G7 (R(t)), G8 (R(t)), G10 (R(t)), G12 (R(t)), G13 (S) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: G9. Forces-connection (Doc_08 §5): witt.force.print-as-medium (enabled-by), witt.force.laitys-need-for-assurance (enabled-by), witt.force.territorial-princely-force (associated-with), witt.force.imperial-force-ongoing (associated-with), witt.force.print-turned-inward (associated-with), witt.force.parishes-state-as-reported (associated-with), witt.force.transmission-within-the-worlds-life (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

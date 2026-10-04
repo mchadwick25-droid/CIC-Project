@@ -102,6 +102,14 @@ divergence_partners:
   vocabulary, not a period polemical charge, and the founder's own two pairings really do share overlapping
   English wording in a way the Massilians' self-description never approached "semi-Pelagian." Named as a
   parallel of kind, not of content.
+use_note:
+  means: "The claim that one coherent 'two kingdoms doctrine' joins the church-and-civil pairing with the Christ-against-Satan pairing across Luther's career is contested."
+  not_for:
+    - "the later-systematized 'two kingdoms doctrine' as a settled single teaching"
+    - "the church-and-civil distinction itself, which is attested and sits in witt.term.the-two-governments"
+    - "the Christ-against-Satan pairing of the Bondage of the Will as the same pairing as in Secular Authority"
+  years: {from: 1522, to: 1531}
+  status: provisional
 ---
 Unparked from Doc_06 SS2.2's own [CT] tagging of lexicon entry 7.1 (the two governments), contest type
 "Historical scope," carried forward provisional at witt.term.the-two-governments's own birth (B-4) with the

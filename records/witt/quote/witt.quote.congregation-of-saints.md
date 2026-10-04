@@ -62,6 +62,15 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: witt.dw.one-holy-church-forever
+use_note:
+  means: "Augsburg Confession Article VII (1530) defines the one holy Church as the congregation of saints where the Gospel is rightly taught and sacraments rightly administered, needing no uniform rites."
+  not_for:
+    - "'Catholic' or 'one holy Church' as a name for the church of Rome"
+    - "a claim that agreement on Gospel and sacraments meant indifference to doctrine"
+    - "the claim that our own teaching departs from neither Scripture nor the Church Catholic, which sits in witt.quote.nothing-that-varies"
+    - "the boundary with the Reformed cities and Marburg, which sits in witt.force.reformed-rival-by-absence"
+  years: {from: 1530, to: 1530}
+  status: provisional
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "Article VII\|congregation

@@ -60,6 +60,14 @@ tensions:
 - "the archaeology question is a complete gap in our own record, not merely a thin one; we do not have a nearest answer to reach for"
 - "everything we can say about daily life describes what was commanded, not what was done -- and our own record cannot close that gap from the inside"
 relations: []
+use_note:
+  means: "This witness holds that daily life among us is reconstructed from the catechisms' prescribed household program, not from any household's own account, and that no archaeology is held."
+  not_for:
+    - "a claim about what any excavated site or recovered object shows"
+    - "the prescribed household program as a description of what households actually did"
+    - "the composite catechism scene as a single witnessed evening, when it sits as a Tier 4 reconstruction in witt.story.household-catechism-lesson-typical-practice"
+  years: {from: 1529, to: 1546}
+  status: provisional
 ---
 Closes F5-E at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's two questions are
 answered at genuinely different strengths, named honestly rather than smoothed together: F5-E-01

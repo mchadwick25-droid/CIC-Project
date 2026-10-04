@@ -63,6 +63,14 @@ relations:
   target: witt.dw.born-in-sin-fed-at-the-table
 - type: associated-with
   target: witt.dw.a-death-begun-that-a-child-receives
+use_note:
+  means: "Augsburg Confession Article II (1530) teaches that since Adam's fall all are born with sin, lacking fear and trust of God, and condemns the Pelagians."
+  not_for:
+    - "a claim that an infant is personally guilty of a chosen act, when the article names an inherited condition"
+    - "the infant-baptism teaching and the Anabaptist condemnation, which sit in witt.quote.article-ix-of-baptism"
+    - "a claim that this article states how the condition is remedied beyond its one clause on baptism and the Holy Ghost"
+  years: {from: 1530, to: 1530}
+  status: provisional
 ---
 Verified verbatim at this step (Answer-the-Canon pass, inserted between B-7a and B-8) directly against
 the vendored cic/texts/melanchthon_augsburg-confession_anon-pg275.txt. `grep -n "Article II: Of Original

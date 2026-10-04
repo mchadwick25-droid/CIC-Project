@@ -82,6 +82,14 @@ modern_contrast: A modern reader given this story as "Speratus sang under Luther
   is Speratus's. What the tradition actually preserves is smaller and more honest about its own limits
   than that tidier version - a hymn's felt power on one unnamed listener's account, not a meeting between
   two named men.
+use_note:
+  means: "Bacon's introduction relates, without date, name or confirmation, that a Prussian wanderer sang Speratus's hymn under Luther's window and moved him deeply."
+  not_for:
+    - "verified fact about a specific dated encounter"
+    - "a claim that the singer was Speratus himself, since the text names only 'a wanderer from Prussia'"
+    - "the hymn's vernacular purpose, which sits in witt.term.hymn"
+  years: {from: 1524, to: 1546}
+  status: provisional
 ---
 Converted at B-4 from Doc_09 witt-S10 (witt_Doc_09_Story_Inventory.md SS2), with one disclosed
 refinement: Doc_09's own framing names Speratus as the wanderer under the window; this record's own

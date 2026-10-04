@@ -64,6 +64,15 @@ tensions:
 relations:
 - type: associated-with
   target: witt.quote.congregation-of-saints
+use_note:
+  means: "This witness holds that we called ourselves the one universal Church, not Rome's institution, held a real boundary with the Reformed cities, and cannot narrate Marburg from inside."
+  not_for:
+    - "'Catholic' in our mouths as a name for the church of Rome"
+    - "an account of what the Marburg argument felt like from our side"
+    - "a claim about any church existing today or after 1580"
+    - "the claim that our teaching departs from neither Scripture nor the ancient Church, which sits in witt.dw.nothing-against-scripture-or-the-church-catholic"
+  years: {from: 1529, to: 1530}
+  status: provisional
 ---
 Closes F3-T at the Answer-the-Canon step (inserted between B-7a and B-8). All three of the cell's own
 questions (was your church Catholic, a church today I could visit, did you have denominations) are

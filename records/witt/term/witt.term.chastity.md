@@ -65,6 +65,14 @@ senses:
     true chastity is marriage for nearly everyone, and the vow of the rest ''unchaste chastity.'''
 quick_meaning: True chastity, we say, is marriage for nearly everyone.
 distortion_risk: high
+use_note:
+  means: "Chastity meant, in the Wittenberg argument, marriage for nearly everyone, with the monastic vow of celibacy called unchaste for most and the single life a rare gift."
+  not_for:
+    - "chastity as celibacy, or the argument as lowering a standard"
+    - "vows in general, which sit in witt.term.vows"
+    - "marriage as the noblest estate, which sits in witt.term.marriage"
+  years: {from: 1523, to: 1531}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 8.2 (chastity, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][DR][RT]. Author Gravity: none for the argument; Luther-only, single-register for the coinage. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

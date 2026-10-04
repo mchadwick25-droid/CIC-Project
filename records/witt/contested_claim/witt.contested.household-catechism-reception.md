@@ -102,6 +102,15 @@ concedes: >-
   scholarly level, and left unresolved here on purpose (Doc_04 SS3 G4's own "build's highest-stakes"
   Confidence/Gravity Cross-Check divergence).
 divergence_partners: []
+use_note:
+  means: "The claim that the household catechism program failed in Saxon parishes is contested, and the visitation records it rests on are held only as a named absence."
+  not_for:
+    - "the program's failure as established, when the visitation protocols are not in the library"
+    - "the prescribed program itself, which is attested and sits in witt.gravity.household-catechism"
+    - "the prescription as proof of practice, per witt.story.household-catechism-lesson-typical-practice"
+    - "the modern studies by Strauss, Scribner, Kittelson and Karant-Nunn as read, since they are named and not read"
+  years: {from: 1529, to: 1531}
+  status: provisional
 ---
 Not unparked from a Doc_06 [CT] tag - this world carries only two, on justification and the two governments
 (Doc_06 SS2), and Doc_06 SS2.3 explicitly considered and declined to tag this exact reception debate [CT],

@@ -88,6 +88,14 @@ concedes: >-
   for calling it a live scholarly contest at all is builder judgment on the in-text tension, not a rowed
   secondary source.
 divergence_partners: []
+use_note:
+  means: "The claim that 'accounted righteous' controls the confessional doctrine of justification, with 'made righteous' a mere paraphrase, is contested, since the Apology states both as coordinate uses."
+  not_for:
+    - "either reading of 'accounted' and 'made' as the settled confessional position"
+    - "the two wordings as an unrelated pair of claims, when the text states them together in one paragraph"
+    - "the word's general meaning, which sits in witt.term.justification"
+  years: {from: 1530, to: 1531}
+  status: provisional
 ---
 Unparked from Doc_06 SS2.1's own [CT] tagging of lexicon entry 2.2 (justification), contest types "Meaning
 within its historical context" and "Relationship to present-day traditions," carried forward provisional

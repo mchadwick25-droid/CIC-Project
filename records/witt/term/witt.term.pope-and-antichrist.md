@@ -93,6 +93,14 @@ senses:
 quick_meaning: 'The same adversary, named two ways: ''Antichrist'' in preaching, ''the Church of Rome''
   in confession.'
 distortion_risk: high
+use_note:
+  means: "The pope meant a figure named at rising pitch, 'Antichrist' in polemic and only 'the Church of Rome' in the formal confession before the Emperor."
+  not_for:
+    - "'Antichrist' as a fixed doctrine about the papal office as such"
+    - "the confessional courtesy as a retreat from the sharper polemic"
+    - "the devil generally, which sits in witt.term.the-devil"
+  years: {from: 1518, to: 1546}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 6.7 (pope / papacy / 'Antichrist', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: none -- every register, both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

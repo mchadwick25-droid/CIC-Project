@@ -73,6 +73,13 @@ senses:
     -- flesh, world, devil -- expected at every age, in which faith and prayer are formed.
 quick_meaning: 'Three kinds we name: flesh, world, devil. Need itself teaches us to pray.'
 distortion_risk: high
+use_note:
+  means: "Temptation meant Bekoerunge of three kinds, of the flesh, the world and the devil, against which need itself teaches us to pray."
+  not_for:
+    - "temptation as the urge toward one specific sin"
+    - "the devil as an agent, which sits in witt.term.the-devil"
+  years: {from: 1518, to: 1546}
+  status: provisional
 ---
 Built from Doc_06 §5 entry 9.2 (temptation / trial, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

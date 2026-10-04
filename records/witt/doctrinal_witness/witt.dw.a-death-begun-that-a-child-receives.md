@@ -86,6 +86,15 @@ relations:
   target: witt.quote.article-ii-of-original-sin
 - type: associated-with
   target: witt.quote.christs-return-to-judgment
+use_note:
+  means: "This witness holds that we baptized infants against the Anabaptists, located new birth at the font and daily, taught Christ's return to judge, and cannot say how anyone tithed."
+  not_for:
+    - "a claim about how or whether any household tithed, which our records do not show"
+    - "the modern rapture doctrine as something we affirmed or explicitly rejected by name"
+    - "being born again as a single felt conversion moment"
+    - "the full judgment article with its endless-torment clause, which sits in witt.quote.christs-return-to-judgment"
+  years: {from: 1519, to: 1530}
+  status: provisional
 ---
 Closes F4-T at the Answer-the-Canon step (inserted between B-7a and B-8), answering three of the cell's
 four canon questions at real strength (infant baptism, born again, end of the world) and naming the

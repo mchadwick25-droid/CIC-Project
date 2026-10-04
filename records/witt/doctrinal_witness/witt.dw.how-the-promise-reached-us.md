@@ -72,6 +72,14 @@ tensions:
 relations:
 - type: associated-with
   target: witt.quote.second-article-of-the-creed
+use_note:
+  means: "This witness holds that Christ reached us through the preached and printed Word, that no eyewitness chain stands behind us, and that we confessed the resurrection rather than argued it."
+  not_for:
+    - "a claim that anyone among us knew a witness or held a chain of testimony back to Christ"
+    - "an argued historical case for the resurrection addressed to a doubter"
+    - "the teaching on who Christ is and what he did, which sits in witt.dw.truly-god-and-truly-man"
+  years: {from: 1520, to: 1545}
+  status: provisional
 ---
 Closes C-E at the Answer-the-Canon step (inserted between B-7a and B-8), on the same discipline
 gallic.limit.no-one-who-saw-him and cappadocian.dw.how-it-reached-us both used for this cell: say the
