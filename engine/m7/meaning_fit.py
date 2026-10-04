@@ -3,16 +3,16 @@ record means? Each load-bearing use (a sentence tagged with a citable record)
 is read against the record's text and its use note, and graded accepted,
 defensible or misread. The bar is scholarly acceptance on meaningful content.
 
-Grading is done offline by an Opus reviewer, never on the live turn. This
-module builds the reviewer's packet and scores the verdicts. Uses from every
-run being compared go into one packet under shuffled ids, so the reviewer
+Grading is done offline by an Opus grader, never on the live turn. This
+module builds the grader's packet and scores the verdicts. Uses from every
+run being compared go into one packet under shuffled ids, so the grader
 cannot tell which run a sentence came from; the key that maps ids back to runs
 stays beside the packet.
 
     python -m engine.m7.meaning_fit packet --world rzg --run before=<report> --run after=<report> --out <dir>
     python -m engine.m7.meaning_fit score --dir <dir>
 
-The reviewer writes <dir>/verdicts.json: {use_id: {"verdict": "accepted" |
+The grader writes <dir>/verdicts.json: {use_id: {"verdict": "accepted" |
 "defensible" | "misread", "reason": str}}.
 """
 import argparse

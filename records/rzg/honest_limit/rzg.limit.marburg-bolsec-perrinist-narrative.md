@@ -42,7 +42,7 @@ why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS6/SS7 item 3 states this
   suitable'') -- real and Native, but ''too thin to support a story chunk on its own... no narrative detail
   of the colloquy''s own proceedings.'' This is a live acquisition question, not a claim no such source
   could ever exist -- standard historiography attests participant correspondence and contemporary records
-  for at least Marburg and the Perrinist crisis that this world''s own Registry has not yet acquired.'
+  for at least Marburg and the Perrinist crisis that are outside this world''s own vendored corpus.'
 nearest_material:
 - rzg.force.marburg-colloquy
 - rzg.force.bolsec-controversy

@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: rzg.core.the-reformed-cities-zurich-and-geneva
   locus: 'this world''s own thinness field: Marie Dentiere''s own works remain among five Native sources
-    not yet acquired'
+    outside the vendored corpus'
   license: public-domain
 relations: []
 statement: 'One woman in our own record carried real authority, and paid for it. Marie Dentiere wrote
@@ -27,7 +27,7 @@ statement: 'One woman in our own record carried real authority, and paid for it.
 why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 states this world''s own gender finding directly:
   Marie Dentiere wrote and was prosecuted for it, a real, consequential act of authority independently
   attested, but ''her own argument is not reconstructed beyond the bare fact of her having written and
-  been prosecuted for it'' -- her own works are Source_Registry.md row 17, not yet acquired. Doc_07 SS7
+  been prosecuted for it'' -- her own works are Source_Registry.md row 17, outside the vendored corpus. Doc_07 SS7
   carries this forward as a standing, disclosed gap: a genuine Article 20 marginalized-voice case, not
   merely an acquisition gap like an unvendored confession or catechism, since the person and the consequence
   are attested even though her own words are not.'

@@ -1,4 +1,4 @@
-"""engine.m7.meaning_fit: the reviewer's packet is blind and complete, and
+"""engine.m7.meaning_fit: the grader's packet is blind and complete, and
 the score counts every use, never treating an ungraded one as accepted."""
 import json
 
