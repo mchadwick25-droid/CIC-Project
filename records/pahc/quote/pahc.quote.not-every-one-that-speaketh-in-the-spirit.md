@@ -39,6 +39,13 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.term.prophetes
+use_note:
+  means: "The Didache judges prophets by their conduct, not their claims: a prophet who orders a meal in the Spirit and eats it is false."
+  not_for:
+    - "a doctrinal test of what a prophet teaches"
+    - "a claim that the Didache's date and place are settled"
+  years: {from: 80, to: 150}
+  status: provisional
 ---
 This quote serves F1-E together with pahc.term.prophetes, which cites chs. 11-13.
 

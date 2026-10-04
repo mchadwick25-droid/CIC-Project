@@ -40,6 +40,14 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.term.baptisma
+use_note:
+  means: "The Didache prescribes trinitarian baptism in running water, with fallbacks down to pouring water three times on the head."
+  not_for:
+    - "a claim that the Didache says whether infants were baptised"
+    - "a claim that the form of the rite was fixed regardless of circumstance"
+    - "a claim that the Didache's date and place are settled"
+  years: {from: 80, to: 150}
+  status: provisional
 ---
 This quote serves F4-T together with pahc.term.baptisma, which cites ch. 7 for "living
 water; the fallback ladder; threefold pouring".

@@ -37,6 +37,13 @@ retrieval:
   retrieve_when:
   - "participant asks how a person came to believe in the first place"
   - "participant asks what changed someone's mind and who they met"
+use_note:
+  means: "Justin recalls that after an old man's words a flame was kindled in his soul, and he found this philosophy alone safe and profitable."
+  not_for:
+    - "a claim that Justin describes a modern revivalist or altar-call conversion"
+    - "a claim that Justin's path to belief was typical of members without his education and leisure"
+  years: {from: 150, to: 165}
+  status: provisional
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, section iv (viii.iv.viii). This world's own

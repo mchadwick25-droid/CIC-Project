@@ -48,6 +48,13 @@ text: >
   Plato himself had drawn on Moses' own account of creation. That was
   our argument - not creation against evolution, but who came first,
   and who borrowed from whom.
+use_note:
+  means: "Scripture was read alongside living apostolic testimony, and Genesis served Justin's argument that Moses preceded and taught Plato, not a science debate."
+  not_for:
+    - "a claim that this world treated a closed Bible as its only authority"
+    - "a position in the modern creation-versus-evolution debate"
+  years: {from: 80, to: 157}
+  status: provisional
 ---
 Justin's Moses-before-Plato argument checked against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 viii, chs. 59-60 (Justin

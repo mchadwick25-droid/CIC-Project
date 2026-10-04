@@ -39,6 +39,12 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.witness.prayer-and-struggle
+use_note:
+  means: "The Shepherd answers the fear that one's sins disqualify one from asking God: turn wholeheartedly to the Lord and ask without doubting."
+  not_for:
+    - "a claim about intellectual doubt over whether God exists"
+  years: {from: 90, to: 150}
+  status: provisional
 ---
 This quote serves F4-P together with pahc.witness.prayer-and-struggle, which cites
 Mandate 9 for "ask without doubting; a slow answer is not a refusal".

@@ -38,6 +38,14 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.witness.how-we-know
+use_note:
+  means: "Clement says the apostles, foreseeing strife over the office of oversight, appointed ministers and directed that approved men succeed them after death."
+  not_for:
+    - "a claim resting on a secure text, when the key clause is much controverted and possibly corrupt"
+    - "a neutral account rather than advocacy for one side of the Corinthian dispute"
+    - "a claim that a developed doctrine of apostolic succession existed"
+  years: {from: 80, to: 140}
+  status: provisional
 ---
 This quote serves C-E together with pahc.witness.how-we-know, which cites chs. 42 and 44
 for the apostolic chain of appointment.

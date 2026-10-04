@@ -608,3 +608,9 @@ Status: RULED — Facilitator-side only. Open until the engine redesign defines 
 The conversation system design, approved to proceed on 2026-10-02 (System Hub Decision Log, "Conversation system design: approved to proceed, Design C"), gives the mark the ruling of 2026-10-02 waited for. A build gate checks each record's voice-facing text against the world's window. A force written from after the window is classed analytic and kept out of what the Representative reads. `pahc.force.selective-canonization` is that case. OG-19 (2026-10-02) and OG-20 (2026-10-02) close under this rule when slice 5, the horizon gate, lands and pahc passes it. Nothing changes in the record before then.
 
 Status: OPEN until slice 5 lands.
+
+### OG-22. Record defects found while drafting use notes (slice 6), 2026-10-04.
+
+Not fixed; content for this world's build thread. (a) `pahc.quote.the-memoirs-of-the-apostles-are-read`: its modern_lens_note says Justin "does not call them" gospels, but First Apology 66 in the same vendored file (anf01, near line 16477) reads "the memoirs composed by them, which are called Gospels". (b) `pahc.witness.hard-texts` says Marcion's opponents' account comes "after our own time in one case", but the only opponent it cites is Irenaeus (c. 180, inside the window); a source is missing or the wording is stale. (c) Two pairs of quotes come from the same source sentence (`justin-reasonable-livers` with `those-who-lived-reasonably-are-christians`; `first-clement-apostolic-chain` with `they-appointed-the-first-fruits`); the bodies disclose it, and they are not independent witnesses. (d) `pahc.quote.appointed-to-be-read` (Athanasius, Festal Letter 39, 367) is voiced but speaks from after the window, the same case as OG-19; it carries no use note, since a note's years end inside the window, and stays under pahc's use-note waiver until this thread marks it analytic or reframes it.
+
+Status: OPEN.

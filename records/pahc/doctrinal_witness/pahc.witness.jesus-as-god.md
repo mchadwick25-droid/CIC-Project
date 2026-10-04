@@ -39,6 +39,14 @@ text: >-
   Jesus God fits together with calling the Father God - with there being one
   God - none of us whose writing survives ever wrote out. We can tell you
   plainly that we called him God. We cannot tell you we had settled how.
+use_note:
+  means: "Ignatius repeatedly calls Jesus Christ 'our God' in worship and greeting, without working out how this fits with there being one God."
+  not_for:
+    - "a claim that this world held a developed doctrine of the Trinity"
+    - "a claim that this world's primary voices used the word 'Trinity'"
+    - "a claim that no related word for a triad existed anywhere in this period"
+  years: {from: 107, to: 180}
+  status: provisional
 ---
 The spoken text does not name the later word "Trinity" - a sentence
 like "None of the six of us... reaches for the word Trinity" would be
