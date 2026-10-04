@@ -31,12 +31,14 @@ relations:
 - {type: associated-with, target: ijc.force.authority-contest}
 name: Doctrinal and Christological Precision-Seeking [SUPPORTING]
 classification: supporting
-description: 'The recurring drive to state the faith in words exact enough to bind: homoousios at Nicaea,
-  the Spirit''s full divinity at Constantinople, one person in two natures at Chalcedon - each council
-  driven to close what looser words left open. Real and recurring across every council of the window,
-  but not independently organizing: precision matters here institutionally because primacy is asserted
-  through doctrinal instruments and orthodoxy is enforced by law - this gravity is the vocabulary-level
-  instrument of those two, which is what a supporting gravity is, not a demotion.'
+description: >-
+  This is the drive to state the faith in words exact enough to bind. Nicaea chose homoousios.
+  Constantinople affirmed the full divinity of the Spirit. Chalcedon taught one person in two natures.
+  Each council worked to close what looser words had left open. The drive is real. It recurs in every
+  council of the window. But it does not organize the ecology on its own. Precision matters here
+  because of institutions. Primacy is asserted through doctrinal tools. Orthodoxy is enforced by law.
+  This gravity is the word-level tool of both. That is what a supporting gravity is. It is not a
+  demotion.
 manifestations:
 - Nicaea choosing the contested word over the scriptural-sounding looser one
 - the Definition of Chalcedon's four adverbs - without confusion, change, division, separation
