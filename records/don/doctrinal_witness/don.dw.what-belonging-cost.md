@@ -133,8 +133,8 @@ use_note:
     - "a claim that Donatist households were documented as split by the schism"
     - "a claim that the legal record shows personal or family costs"
     - "a claim resting on the commemorative sermon's family grief as a certified translation"
-  years: {from: 347, to: 412}
-  status: provisional
+  years: {from: 317, to: 412}
+  status: reviewed
 ---
 Closes F5-P. The cell's first variant is answered from unusually clean
 evidence for this world: imperial legislation is non-adversarial in the

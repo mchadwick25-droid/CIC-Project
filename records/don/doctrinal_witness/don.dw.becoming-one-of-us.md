@@ -170,7 +170,7 @@ use_note:
     - "a claim about the particulars of the forced-entry charges"
     - "a claim that a surviving rule explains why some condemned clergy were received back and others not"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-I. Two of the cell's five variants (how a person became one of
 us; how wrongdoing was handled and whether someone could return) are

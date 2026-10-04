@@ -105,7 +105,7 @@ use_note:
     - "a claim that the Abitinian martyr acts are cleanly Donatist"
     - "a claim that the Donatist founding narrative reaches us unframed by an opponent"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes C-E. Answers the cell's three questions in the order asked and
 declines the third rather than filling it: the "how do you know the

@@ -129,7 +129,7 @@ use_note:
     - "a claim that Silvanus's own answer survives"
     - "a claim that a Donatist account of what the money was for survives"
   years: {from: 320, to: 320}
-  status: provisional
+  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory005_gesta-apud-
 zenophilum.md (Doc_09 story index row donstory005, Tier 1). UNLIKE the

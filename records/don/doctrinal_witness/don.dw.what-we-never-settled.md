@@ -116,7 +116,7 @@ use_note:
     - "a claim that the Donatists described their own stance as a conviction held alongside an exception"
     - "a claim that these failures are typical rather than preserved because opponents found them useful"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-I, and this is the cell where this world is at its strongest -
 which is worth stating plainly, because the material that makes it strong

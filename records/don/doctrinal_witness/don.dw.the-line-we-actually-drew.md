@@ -96,7 +96,7 @@ use_note:
     - "a claim about Donatist views on whether Christianity is one way among many"
     - "a claim about Donatist teaching on divorce and remarriage"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-T. The cell's first two variants are answered by relocating the
 question: this communion's exclusivity is genuinely unusual in being

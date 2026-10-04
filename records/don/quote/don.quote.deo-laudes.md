@@ -67,7 +67,7 @@ use_note:
     - "a claim that the acclamation was a devotional preference or liturgical style rather than a party badge"
     - "a claim that the inscriptions carry a known date"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Verified directly in the vendored
 `cil8-supplementum-numidiae_cagnat-schmidt1894.txt`: the acclamation is

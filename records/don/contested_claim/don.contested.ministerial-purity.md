@@ -102,7 +102,7 @@ use_note:
     - "a claim that the doctrine was applied without exception, since Bagai received Maximianist clergy back without rebaptism"
     - "a claim that Augustine's counter-ecclesiology was only a debating move"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.1 (candidate G1, six of six PASS,
 classified Primary at SS4, with the core-doctrine/argumentative-texture divergence flagged rather

@@ -110,7 +110,7 @@ use_note:
     - "a claim that any Donatist council ruled on who Christ is"
     - "a claim that the surviving council documents are free of opponents' selection"
   years: {from: 313, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-E. Both of the cell's variants are answered, and the second one
 ("a council basically voted Jesus into being God") is answered by

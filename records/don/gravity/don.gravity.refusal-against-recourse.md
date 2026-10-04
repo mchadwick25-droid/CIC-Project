@@ -96,13 +96,13 @@ manifestations:
 - three dated acts at three distinct moments, held in the same conviction as the refusal itself and never
   thought to require closing
 use_note:
-  means: "On this record's own reading, the movement held that the state cannot judge the true church yet turned to imperial machinery at three dated moments, a tension left unresolved."
+  means: "On this record's reading, the movement denied the state could judge the true church yet turned to imperial machinery three times, an unresolved tension."
   not_for:
     - "a claim that the Donatists themselves described this as a tension"
     - "a claim that the pattern shows simple incoherence rather than refusal under pressure"
     - "a claim that the refusal held absolutely at every point"
-  years: {from: 311, to: 439}
-  status: provisional
+  years: {from: 313, to: 399}
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate T1, surfaced while testing G5's own Persistence at
 SS3.7, entered into generation at SS1 per Framework discipline, tested at SS3.6, classified

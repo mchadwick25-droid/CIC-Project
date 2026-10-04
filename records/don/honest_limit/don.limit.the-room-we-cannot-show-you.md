@@ -82,12 +82,12 @@ nearest_material:
 - don.source.numidian-basilica-archaeology
 - don.source.duval-loca-sanctorum-africae
 use_note:
-  means: "No report of a Numidian church building survives, and the only touchable evidence is a few Deo laudes stones showing presence but not fonts, altars or rooms."
+  means: "No excavation report of a Numidian church is in this record's sources; its touchable evidence is a few Deo laudes stones, showing presence, not rooms."
   not_for:
     - "a claim that the layout of a Donatist church building is known from excavation"
     - "a claim that the Deo laudes stones show a font, an altar or a doorway"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-E as a declared absence rather than a strained witness, on the
 same pattern as `cappadocian.limit.no-stones-to-show` and for a stronger

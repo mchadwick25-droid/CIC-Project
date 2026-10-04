@@ -123,7 +123,7 @@ use_note:
     - "a claim that the Donatists worked out a teaching about suffering"
     - "a claim about what the Donatists wished to tell the dissenter they cut off"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-P. Five of the cell's six variants are answered from documented
 material; the sixth (a woman carrying authority, and what it cost her) is

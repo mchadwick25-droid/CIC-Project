@@ -52,11 +52,11 @@ divergence_partners:
 - don.source.migne-pl11-collatio-carthaginiensis
 - don.source.gesta-collationis-carthaginiensis
 use_note:
-  means: "On the best-attested reading, 279 Donatist and 286 Catholic bishops were seated at the 411 Conference, though the figure rests on one editorial tally on a poor scan."
+  means: "The best-attested reading seats 279 Donatist and 286 Catholic bishops at the 411 Conference, but rests on one editorial tally from a poor scan."
   not_for:
     - "a claim that the earlier 284 Donatist figure is correct"
     - "a claim that the figure is cross-checked or independently corroborated"
   years: {from: 411, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_02_Source_Ecology.md SS1's own 'Bishop-count correction at the 411 Conference' paragraph and don_Decision_Log.md's own 'World-build bishop-count correction (284 -> 279)' entry (grepped by header, not read in full at 745 lines -- the relevant paragraphs were read in full). relations[] carries the one gravity edge (G4, don.gravity.parallel-institutional-hierarchy) named in this script's own docstring under RECIPROCITY -- G4's own manifestations[] field already states this corrected figure directly. This record does not touch Cyprian, Augustine, or the rebaptism question, and does not bear on Article 29 Limb 2 in any way -- see this script's own docstring, THE TWO RESERVED QUESTIONS, item 2.

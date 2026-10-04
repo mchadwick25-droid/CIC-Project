@@ -68,6 +68,6 @@ use_note:
     - "a claim that the office was uncontested"
     - "a claim that it was a purely honorary title, since the primate's rulings had real disciplinary force"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 016 (Tier 2, no promotion forwarded). No deployment chunk built this cycle. Development is genuinely modest: Doc_03's one-line entry plus Doc_05 SS4's succession list is the whole of the source material, and the record says so rather than filling the office out.

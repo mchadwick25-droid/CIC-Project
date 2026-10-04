@@ -58,6 +58,6 @@ use_note:
     - "a claim about the outcome or scale of the whole 411 conference"
     - "a claim resting on this Latin as a settled critical-edition text"
   years: {from: 411, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Named directly in the Permanent Prompt's own Approved Source paragraph ('Emeritus of Caesarea's own plea before the tribunal at Carthage, that the truth was hidden by a great device'). This is the one quote record this script independently re-locates in the raw vendored file rather than only citing Doc_02's own prior finding of it, per this step's own discipline of re-opening a primary text directly wherever this build's own confidence rating depends on it.

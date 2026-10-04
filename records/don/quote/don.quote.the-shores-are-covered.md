@@ -80,7 +80,7 @@ use_note:
     - "a claim that the voted wording of the decree is attested independently of Augustine"
     - "a claim that the condemned Maximianist bishops were never received back"
   years: {from: 394, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored
 `npnf104_augustine-anti-manichaean-anti-donatist.xml`, in the passage

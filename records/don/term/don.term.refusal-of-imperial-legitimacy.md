@@ -84,13 +84,13 @@ senses:
 quick_meaning: The emperor has no standing to say which church is true -- though three times we used his courts.
 distortion_risk: high
 use_note:
-  means: "Donatists held that the state cannot say which church is true, yet three times went to the same court when it served them, and called neither fact a lie."
+  means: "Donatists held that the state cannot say which church is true, yet three times turned to imperial authority when it served them."
   not_for:
     - "a claim that it was a modern principle of church-state separation held as constitutional doctrine"
     - "a claim that it was simple hypocrisy once the three pragmatic petitions are noticed"
     - "a claim that it was consistent political quietism or withdrawal from public life"
     - "a claim that it was an absolute rule broken by exceptions, rather than a dominant stance held under pressure"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 019 -- the roster's one tier change, promoted from Doc_03's preliminary Tier 2 to Tier 1 on Doc_04 SS7's and Doc_05 SS11's forwarding -- and `Lexicon-Chunks/donlex019_refusal-of-imperial-legitimacy.md`. T1 (principled refusal vs pragmatic recourse) is internal to this term and is held, not resolved, per Doc_04 SS3.6.

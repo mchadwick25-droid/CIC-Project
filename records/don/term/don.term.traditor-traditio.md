@@ -88,13 +88,13 @@ prior_sense: 'In ordinary Latin, tradere is simply to hand over or hand on, and 
   the same root the wider church uses for the faith delivered from the apostles. The persecution narrowed it to
   one act: handing the scriptures to the man who came to burn them.'
 use_note:
-  means: "A traditor was a cleric who handed the scriptures over to be burned under persecution, and on the Donatist view his hand could no longer ordain, baptize or bless."
+  means: "A traditor was a cleric who handed over the scriptures under persecution; on the Donatist view his hand could no longer ordain, baptize or bless."
   not_for:
     - "a claim that traditor means a traitor in the modern political sense"
     - "a claim that it was an old grudge over past cowardice that reasonable people would have let go"
     - "a claim that it was a procedural technicality about who signed what, rather than a claim about the sacrament"
     - "a claim that it means handing on the faith in the ordinary positive sense of tradere"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 001 (Tier 1, confirmed) and the deployment chunk `Lexicon-Chunks/donlex001_traditor-traditio.md`. Confidence split (core Documented / argumentative texture Augustine-mediated) carried from Doc_04 SS3.1 rather than flattened. Tags AS/DR/TC/RT per `Lexicon_Deployment_Index.xlsx`.

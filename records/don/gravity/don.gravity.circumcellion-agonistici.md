@@ -135,7 +135,7 @@ use_note:
     - "a claim that the group's character and scale are established by independent evidence"
     - "a claim that the name agonistici is independently attested rather than reported by Augustine"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate D-A, generated at SS1 with HIGH Author-Gravity risk
 flagged, tested at SS3.5, classified Supporting and scope-qualified at SS3.5's own Disposition and

@@ -86,12 +86,12 @@ nearest_material:
 - don.term.liber-regularum
 - don.core.donatism
 use_note:
-  means: "The Donatists shared one creed with their rivals and argued only whose hand may give the church's sacraments, so they wrote nothing on inherited guilt, the bread, or faith against works."
+  means: "Sharing their rivals' creed, Donatists argued only who may give the sacraments; nothing of theirs survives on inherited guilt, the bread, or faith against works."
   not_for:
     - "a claim that Donatists held a distinctive position on inherited guilt, the eucharistic bread, or faith against works"
     - "a claim that the Donatist creed differed from the rival church's"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-T as a declared absence rather than a strained witness. This is
 the cell the task's own guidance anticipates: a world whose

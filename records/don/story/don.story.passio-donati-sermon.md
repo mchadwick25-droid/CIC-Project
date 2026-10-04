@@ -105,13 +105,13 @@ modern_contrast: >-
   That is a different kind of evidence, and a real one - but it is not
   the kind a modern reader reaches for first.
 use_note:
-  means: "Every twelfth of March the community read aloud the sermon's account of soldiers seizing a basilica at Carthage in the name of unity and killing people at prayer inside it."
+  means: "Every twelfth of March the community heard the sermon's account of soldiers seizing a Carthage basilica in the name of unity and killing worshippers inside."
   not_for:
     - "a claim that the account comes from an inquest or a contemporary report"
     - "a claim that the preacher or the sermon's date is firmly established"
     - "a claim that any independent record of the deaths survives"
-  years: {from: 317, to: 320}
-  status: provisional
+  years: {from: 317, to: 340}
+  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory001_passio-
 donati-sermon.md (Doc_09 story index row donstory001, Tier 3), whose

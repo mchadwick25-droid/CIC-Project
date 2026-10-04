@@ -158,12 +158,12 @@ manifestations:
 - the 405 Edict of Unity and the sustained legal suppression that followed it
 - the 411 Conference of Carthage and the penal legislation issuing from its verdict
 use_note:
-  means: "A central Donatist pattern is the stance that the state cannot judge the true church, though the frame joining its episodes partly rests on this record's own synthesis."
+  means: "The stance that the state cannot judge the true church is a central Donatist pattern, though the frame joining its episodes is partly the record's synthesis."
   not_for:
     - "a claim that this refusal is itself a tension rather than a pattern limited from within by one"
     - "a claim that the unifying frame is free of the compilers' own synthesis"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G5, generated at SS1, tested at SS3.7 after the two
 Tensional gravities for the reason SS3.7 itself states, classified Primary at SS4) and the cleared

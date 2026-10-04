@@ -92,13 +92,13 @@ relations:
 - type: associated-with
   target: don.gravity.church-of-the-martyrs
 use_note:
-  means: "On the Donatist claim, they are the pure, persecuted, true church whose suffering shows sincerity; rivals concede the killings but deny their meaning, so the word martyr stays contested."
+  means: "Donatists claimed to be the pure, persecuted true church, their suffering proving sincerity; rivals conceded the killings but denied their meaning, so 'martyr' stays contested."
   not_for:
     - "a claim that the surviving texts establish verified events rather than a formation ideal"
     - "a claim that suffering under persecution alone distinguishes the Donatists from their rivals"
     - "a claim that the rivals denied the killings"
   years: {from: 317, to: 348}
-  status: provisional
+  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.3 (candidate G3, six of six PASS,
 classified Primary at SS4, and named there the least Author-Gravity-encumbered Primary in the whole

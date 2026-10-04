@@ -108,7 +108,7 @@ use_note:
     - "a claim that the pun on catholicus is attested beyond a modern editor's annotation"
     - "a claim that the Donatists treated rival bodies as parallel denominations"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-T. The "is there a church today" variant is answered
 negatively and carefully: `don.core.donatism`'s own horizon states that

@@ -106,12 +106,12 @@ manifestations:
 - the same texts stating the doctrine at its most absolute also stating the exception plainly, without treating
   the two as cancelling each other
 use_note:
-  means: "The stated rule that invalid clergy be rebaptised and reordained stands against the main Donatist party's reception of returning Maximianist clergy without repeating either, in a specific episode."
+  means: "The stated rule that invalid clergy be rebaptised and reordained stands against the Donatist mainstream's unrepeated reception of returning Maximianist clergy, in one dated episode."
   not_for:
     - "a claim that the tension is an abstract inconsistency rather than a specific dated episode"
     - "a claim that the tension was driven by an outside imperial force"
   years: {from: 393, to: 398}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate T2, surfaced while testing G1's own internal
 consistency at SS3.1, entered into generation at SS1 per Framework discipline, tested at SS3.6,

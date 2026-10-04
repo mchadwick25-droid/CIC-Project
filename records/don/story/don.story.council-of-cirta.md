@@ -95,13 +95,13 @@ modern_contrast: >-
   verified about who had done what under the persecution. The story does
   not settle which, and it should not be told as though it does.
 use_note:
-  means: "At Cirta in 305 bishops who later made traditor status an absolute disqualification faced the question about themselves and agreed to leave it to God rather than finish it."
+  means: "At Cirta around 305, bishops who later made traditor status an absolute bar faced that question about themselves and agreed to leave it to God."
   not_for:
     - "a claim that the ruling was plainly evasion, as Optatus reads it"
     - "a claim that these founding figures were either consistent or exposed"
     - "a claim that a Donatist account of the council survives"
-  years: {from: 305, to: 305}
-  status: provisional
+  years: {from: 305, to: 307}
+  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory007_council-of-
 cirta.md (Doc_09 story index row donstory007, Tier 1), whose narrative

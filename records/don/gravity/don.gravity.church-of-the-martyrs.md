@@ -139,11 +139,11 @@ manifestations:
 - the named martyred clergy - a bishop of Sicilibba wounded, the bishop of Advocata killed
 - new commemorative text production after each persecution episode, rather than a single founding memory
 use_note:
-  means: "The conviction of being the pure, persecuted, true church, proved by suffering, is a central Donatist pattern carried by Donatist-voiced texts and lived in yearly commemoration at the grave."
+  means: "The conviction of being the pure, persecuted true church, proved by suffering, is a central Donatist pattern carried by Donatist-voiced texts and yearly graveside commemoration."
   not_for:
     - "a claim that this pattern reaches us only through Augustine or other hostile sources"
   years: {from: 317, to: 348}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G3, generated at SS1, tested at SS3.3, classified
 Primary at SS4) and the cleared Doc_08 (SS5 and the Force Index's own G3 row). INTERACTION MATRIX

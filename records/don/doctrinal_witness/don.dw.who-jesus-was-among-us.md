@@ -100,13 +100,13 @@ tensions:
   so our own bishops' phrasing is carried as reported sense rather than as a quotable clause
 relations: []
 use_note:
-  means: "Donatists shared their rivals' faith about Christ and kept nearest the Christ who stood condemned before lawful authority."
+  means: "Donatists shared their rivals' faith about Christ; at the 411 conference their bishops invoked Christ standing condemned before the governor."
   not_for:
     - "a claim that a Donatist christological or soteriological treatise survives"
     - "a claim resting on the exact wording of Donatist bishops at the 411 conference"
     - "a claim that the Donatists held a distinct doctrine of Christ"
   years: {from: 347, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes C-I. The cell's five variants are answered in one voice, and the
 first move is the honest one this world's own `world_core` insists on:

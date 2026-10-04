@@ -92,7 +92,7 @@ use_note:
     - "a claim that the group's character, scale or conduct is known from non-hostile sources"
     - "a claim that the hostile portrait is established fact"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.5 (candidate D-A, classified Supporting
 and scope-qualified to the Numidian regional sub-ecology at SS3.5's own Disposition and at SS4) and

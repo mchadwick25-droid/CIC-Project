@@ -102,7 +102,7 @@ use_note:
     - "a claim that any ordinary Donatist left a statement of personal devotion"
     - "a claim that the Donatist examination of the minister is a preserved pastoral saying"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes C-P. The cell's three variants get three different treatments on
 purpose. "How did you come to believe" is answered from the strongest

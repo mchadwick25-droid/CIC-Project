@@ -119,7 +119,7 @@ use_note:
     - "a claim that the charges of Circumcellion violence are settled fact"
     - "a claim that the Donatists never used imperial machinery"
   years: {from: 313, to: 412}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-E, the cell where this world is strongest, because the cell's
 central variant ("did Constantine corrupt the church - did the empire

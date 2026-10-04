@@ -100,7 +100,7 @@ use_note:
     - "a claim about Donatist teaching on interior struggle or unanswered prayer"
     - "a claim that the Donatists had a rule for when a charge should stop being pressed"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-P. The cell's second variant ("how do I forgive someone who
 isn't sorry?") lands on this world's own nerve, and the answer is taken

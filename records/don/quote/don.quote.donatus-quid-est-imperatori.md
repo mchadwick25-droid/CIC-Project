@@ -70,6 +70,6 @@ use_note:
     - "a claim that these words survive in Donatus's own hand or in a Donatist text"
     - "a claim that the Council of Cirta shows Donatist rigor or resolve"
   years: {from: 346, to: 348}
-  status: provisional
+  status: reviewed
 ---
 Named directly in the Permanent Prompt's own Approved Source paragraph ('The retort Donatus himself is remembered to have given the emperor's own claim on the church'). Independently re-located this session at Optatus, Against the Donatists, Book III (line 1904) -- Optatus addresses the passage to Parmenian directly ('when they came to Donatus, your father...'), so the retort survives inside Optatus's own polemic against Donatus's own successor, not in Donatus's own hand. modern_rendering lightly modernizes Vassall-Phillips's own 1917 published translation, already close to plain modern English.

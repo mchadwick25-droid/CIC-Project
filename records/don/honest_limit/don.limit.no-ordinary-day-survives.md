@@ -117,7 +117,7 @@ use_note:
     - "a claim that ordinary daily life, household or village religion is recoverable from the communion's own words"
     - "a claim that the gap is a few marginal voices rather than most of the communion"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-I as a declared absence. This is the cell the world's own
 `thin_topics` most directly forecloses: seven questions about food,

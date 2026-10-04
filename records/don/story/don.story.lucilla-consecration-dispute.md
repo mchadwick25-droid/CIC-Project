@@ -92,11 +92,10 @@ modern_contrast: A modern reader tends to assume a church schism begins over abs
   an unauthorized relic-kiss, a mishandled treasury, and two men passed over for an office they wanted
   -- the doctrine came after, to explain a rupture that had already happened for entirely human reasons.
 use_note:
-  means: "As Optatus tells it, a rebuke of the wealthy Lucilla, a mishandled treasury and a rival consecration started the schism, though her spite as motive is his hostile framing."
+  means: "As Optatus tells it, a rebuke of Lucilla, a mishandled treasury and a rival consecration started the schism; her spite as motive is his hostile framing."
   not_for:
     - "a claim that Lucilla's personal spite as motive is independently established"
-    - "a claim that the schism began over abstract doctrine debated in a council hall"
   years: {from: 311, to: 312}
-  status: provisional
+  status: reviewed
 ---
 Mapped directly from Story-Chunks/donstory004_lucilla-consecration-dispute.md.

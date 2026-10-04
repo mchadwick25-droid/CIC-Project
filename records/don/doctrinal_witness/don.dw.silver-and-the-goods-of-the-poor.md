@@ -114,7 +114,7 @@ use_note:
     - "a claim about Donatist teaching on wealth beyond the court phrase 'the goods of the poor'"
     - "a claim about Donatist marriage or weddings"
   years: {from: 311, to: 412}
-  status: provisional
+  status: reviewed
 ---
 Closes F5-T. The money variant is answered from
 `don.story.gesta-apud-zenophilum` and `don.story.lucilla-affair`, both of

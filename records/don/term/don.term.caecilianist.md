@@ -67,7 +67,7 @@ use_note:
     - "a claim that Caecilianist is a neutral historical label for the mainstream African church"
     - "a claim that it was a personal insult rather than a refusal to concede a contested title"
     - "a claim that its own bearers used it of themselves"
-  years: {from: 311, to: 312}
-  status: provisional
+  years: {from: 311, to: 411}
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 006 (Tier 3, 'No change'). FLAGGED AS THIN: Doc_03 Cluster 2's one-line entry is the whole of this term's development anywhere in the construction record, and no vendored passage is cited for the naming practice itself. Compiled at that level deliberately rather than written up to the polish of the Tier-1 entries.

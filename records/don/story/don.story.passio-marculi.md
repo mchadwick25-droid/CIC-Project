@@ -108,12 +108,12 @@ modern_contrast: >-
   even in our own century's record; the ideal is not, and the ideal is
   what the text was for.
 use_note:
-  means: "Marculus is shown a cup, a crown and a palm four days before being thrown from a cliff, and the tradition says his body came down gently under a light."
+  means: "In the Passio, Marculus is shown a cup, crown and palm before being thrown from a cliff, and his body comes down gently under a light."
   not_for:
     - "a claim that the vision, the fall or the light is independently confirmed"
     - "a claim that the Passio names its author or a year"
   years: {from: 347, to: 348}
-  status: provisional
+  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory002_passio-
 marculi.md (Doc_09 story index row donstory002, Tier 3), whose narrative

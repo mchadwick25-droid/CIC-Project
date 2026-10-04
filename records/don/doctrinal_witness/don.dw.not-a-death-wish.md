@@ -107,7 +107,7 @@ use_note:
     - "a claim that the martyr texts record how Donatists actually behaved"
     - "a claim that a neutral outside account of Donatist worship exists"
   years: {from: 311, to: 412}
-  status: provisional
+  status: reviewed
 ---
 Closes F6-E. Both variants are answered. The first is answered by naming
 the outside accounts honestly - `don.source.optatus-against-the-donatists`

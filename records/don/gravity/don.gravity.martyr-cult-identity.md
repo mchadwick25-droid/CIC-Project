@@ -111,10 +111,10 @@ manifestations:
 - the annual reading, every twelfth of March, of the Passio Donati at the martyrs' own grave (don.story.passio-donati-sermon)
 classification: primary
 use_note:
-  means: "Donatist identity centred on the martyrs, carried by three Donatist-voiced texts and the Deo laudes inscriptions, and the community's claim to legitimacy and worship calendar draw on it."
+  means: "Donatist identity centred on the martyrs, carried by three Donatist-voiced texts and the Deo laudes stones; the claim to legitimacy and worship calendar draw on it."
   not_for:
     - "a claim that this pattern reaches us only through Augustine or other hostile sources"
   years: {from: 317, to: 348}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 SS3.3 (G3). relations[] carries the gravity<->gravity edges (G1, G4, G5) and gravity<->force edges (1A-1, 2A-2, 2B-3, 3B-2) named above.

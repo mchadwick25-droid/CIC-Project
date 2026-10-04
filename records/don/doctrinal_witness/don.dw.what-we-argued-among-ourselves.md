@@ -108,7 +108,7 @@ use_note:
     - "a claim that the Donatists defined conscientia as the heart"
     - "a claim that the Donatists produced a school of theology"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F1-I. The cell's five variants pull in different directions, so
 the record answers the two it can answer well (what we argued about;

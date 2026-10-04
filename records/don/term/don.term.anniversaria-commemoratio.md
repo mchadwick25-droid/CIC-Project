@@ -64,12 +64,12 @@ senses:
 quick_meaning: The yearly gathering at a martyr's grave, on the day, to hear the death read again.
 distortion_risk: low
 use_note:
-  means: "Each year on a martyr's death day the community gathered at the grave to hear the account of the death read or preached, and was formed again by it."
+  means: "Yearly, on a martyr's death day, the community gathered at the grave to hear the account read or preached, and was formed again by it."
   not_for:
     - "a claim that it was a later saint's feast day in an established liturgical calendar"
     - "a claim that it was a modern memorial service meant to comfort the bereaved"
     - "a claim that it was an ancient and settled custom, since Monceaux judges it a novelty at the time of the earliest text"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 014 (Tier 3, 'No change'). register is emic-unavailable because the naming phrase is Mabillon's editorial apparatus; Doc_03 SS6's open item on modern editorial mediation as a distinct risk class, which Doc_06 did not act on, is carried here.

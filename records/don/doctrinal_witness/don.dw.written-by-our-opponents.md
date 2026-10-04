@@ -119,7 +119,7 @@ use_note:
     - "a claim that this self-assessment stands outside the corpus it describes"
     - "a claim that the silence of ordinary members is a thin margin of the record"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-E, the meta-honesty cell, and it is the cell this world's own
 `world_core` is best equipped to answer - `thinness` and `cautions`

@@ -93,9 +93,8 @@ use_note:
   not_for:
     - "a claim that Donatists asserted an apostolic pedigree for their practice"
     - "a claim that Cyprian broke communion over rebaptism"
-    - "a claim tracing any Donatist practice back before the mid-third century"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-E, the cell with a single question. The answer refuses the
 question's own framing rather than meeting it, because meeting it would

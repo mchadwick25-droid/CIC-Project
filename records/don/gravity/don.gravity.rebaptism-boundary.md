@@ -125,12 +125,12 @@ manifestations:
 - the Maximianist clergy received back without repeated baptism - the exception that presupposes the norm
 - Gregory the Great's letters to Columbus (592) and Pantaleon (594), naming Donatist rebaptism in Numidia
 use_note:
-  means: "Baptism outside the true church counts as no baptism, so a convert is baptised first and truly, and rebaptism is a central Donatist pattern whose bare practice Augustine himself attests."
+  means: "On the Donatist view, baptism outside the true church is none, so converts receive their first true baptism; Augustine himself attests this central practice."
   not_for:
     - "a claim that the practice reflects only one author's view"
     - "a claim that Gregory's letters of 592 to 594 show its scale or character at that date"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G2, generated at SS1, tested at SS3.2, classified
 Primary at SS4) and the cleared Doc_08 (SS5 and the Force Index's own G2 row). INTERACTION MATRIX

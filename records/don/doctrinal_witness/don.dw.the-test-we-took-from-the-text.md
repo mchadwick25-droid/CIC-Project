@@ -94,7 +94,7 @@ use_note:
     - "a claim about the whole community's habit of reading beyond the one 411 exchange"
     - "a claim about what the Donatists thought of the violence in scripture"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-P. The cell's first variant is answered from
 `don.story.conference-of-carthage-411`'s own reconstruction of Emeritus's

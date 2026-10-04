@@ -141,12 +141,12 @@ manifestations:
 - the Maximianist reception-without-reordination precedent, which tests the doctrine's own internal consistency
 - 'the Tier-1 lexicon this doctrine generates: traditor/traditio, ministerial purity'
 use_note:
-  means: "A sacrament standing or falling on the giver's unbroken purity is a central Donatist pattern, attested in Petilian's words, though its detailed argument comes mostly through Augustine's refutation."
+  means: "A sacrament standing or falling on the giver's purity is a central Donatist pattern, attested in Petilian's words, its detailed argument mostly via Augustine's refutation."
   not_for:
     - "a claim that the doctrine's existence depends only on Optatus or Augustine"
     - "a claim that its detailed argument is known independently of Augustine's refutation"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G1, generated at SS1, tested at SS3.1, classified
 Primary at SS4) and the cleared Doc_08 (SS5's gravity-by-gravity connections and the Force Index's

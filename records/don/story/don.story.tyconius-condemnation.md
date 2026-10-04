@@ -102,13 +102,13 @@ modern_contrast: >-
   and never took back. The strangeness of the survival is the honest
   thing to sit with, not a happy ending to reach for.
 use_note:
-  means: "Tyconius argued from Scripture that the church is spread through the whole world, was told by his own bishop never to preach it again, and neither recanted nor left."
+  means: "Tyconius argued from Scripture that the church spans the whole world; his own bishop forbade him to preach it, and he neither recanted nor left."
   not_for:
     - "a claim that an act of any council condemning Tyconius survives"
     - "a claim that his survival through the Book of Rules is vindication inside the Donatist record"
     - "a claim that Parmenian's letter itself survives"
-  years: {from: 311, to: 439}
-  status: provisional
+  years: {from: 380, to: 400}
+  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
 condemnation.md (Doc_09 story index row donstory009, Tier 1), whose

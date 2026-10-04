@@ -110,7 +110,7 @@ use_note:
     - "a claim about Donatist rules of giving or tithing"
     - "a claim about Donatist teaching on the end of the world"
   years: {from: 311, to: 412}
-  status: provisional
+  status: reviewed
 ---
 Closes F4-T. The "born again" variant is answered from
 `don.term.rebaptism`, whose own framing supplies the answer's shape

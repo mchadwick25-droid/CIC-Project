@@ -104,13 +104,13 @@ modern_contrast: >-
   texts that state the doctrine at its most absolute. Naming a gap was
   not thought to require closing it.
 use_note:
-  means: "In 394 three hundred and ten Donatist bishops condemned the Maximianists in language of shipwrecked, unburied bodies, then took two condemned bishops back without rebaptizing or reordaining them."
+  means: "In 394 the Bagai council condemned the Maximianists as shipwrecked, unburied bodies; later two condemned bishops were taken back without rebaptism or reordination."
   not_for:
     - "a claim that the episode simply exposes the rigorists as no better than anyone else"
     - "a claim that the exception was hidden"
     - "a claim that the council's reasoning for the reception survives"
-  years: {from: 393, to: 394}
-  status: provisional
+  years: {from: 393, to: 398}
+  status: reviewed
 ---
 Compiled from World-Builds/Donatism/Story-Chunks/donstory008_bagai-
 reconciliation.md (Doc_09 story index row donstory008, Tier 1), whose

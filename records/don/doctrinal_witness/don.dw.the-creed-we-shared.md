@@ -96,7 +96,7 @@ use_note:
     - "a claim that a Donatist creed survives as a separate document"
     - "a claim that Donatists understood faith as a personal, private decision"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes C-T. The Trinity variant is answered flatly and positively because
 `don.core.donatism`'s own horizon states it outright ("This is not a

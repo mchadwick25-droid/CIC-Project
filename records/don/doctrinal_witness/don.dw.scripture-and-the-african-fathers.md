@@ -96,7 +96,7 @@ use_note:
     - "a claim that a Donatist statement on the authority of scripture survives"
     - "a claim about how the Donatists read Genesis or the making of the world"
   years: {from: 311, to: 411}
-  status: provisional
+  status: reviewed
 ---
 Closes F2-T. The first variant is answered from documented ground: the
 Cyprianic dependence is stated in `don.term.purity-ministerial` ("a direct

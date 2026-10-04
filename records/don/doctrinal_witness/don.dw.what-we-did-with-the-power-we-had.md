@@ -144,7 +144,7 @@ use_note:
     - "a claim about the baker's name, motive or fate"
     - "a claim about what the Donatists did to pagan temples"
   years: {from: 320, to: 403}
-  status: provisional
+  status: reviewed
 ---
 Closes F3-P. All three variants are engaged and the answers deliberately
 run in different directions: accountability is admitted with a document

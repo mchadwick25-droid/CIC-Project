@@ -70,12 +70,12 @@ senses:
 quick_meaning: A council of our own bishops, with power to judge and to restore.
 distortion_risk: low
 use_note:
-  means: "Donatist bishops governed by council and could judge their own dissidents, as when Cebarsussi elected a rival primate in 393 and Bagai condemned him the year after."
+  means: "Donatist bishops governed by council and judged their own dissidents: Cebarsussi elected a rival primate in 393, and Bagai condemned him in 394."
   not_for:
     - "a claim that these councils were ecumenical councils of the whole church, like Nicaea"
     - "a claim that they were advisory bodies without binding force"
     - "a claim that their records survive on their own terms rather than through an opponent's quotation"
   years: {from: 393, to: 394}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 017 (Tier 3, 'No change'). Development is modest by design; the Cebarsussi/Bagai material is drawn from Doc_04 SS3.6 and Doc_05 SS4.

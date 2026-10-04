@@ -83,6 +83,6 @@ use_note:
     - "a claim that it was a novelty invented in 311, since it sharpens Cyprian's third-century African position"
     - "a claim that a sinful minister invalidates everything, rather than a broken ordination line"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 004 (Tier 2 -- doctrinal ground shared with Traditor/Traditio, which carries the Tier-1 depth). No deployment chunk built this cycle (Doc_06 SS3). Confidence split carried from Doc_04 SS3.1.
