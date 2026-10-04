@@ -14,7 +14,7 @@ from engine.prose import is_guard_marker_line, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade, fre_score
-from .loader import voiced_records
+from .loader import home_for_record_type, voiced_records
 from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, fields_with_role
@@ -1460,6 +1460,34 @@ def gate_status_ready(records, fleet, registry) -> list[str]:
     ]
 
 
+def _home_of_path(path: str) -> str | None:
+    parts = Path(path).parts
+    if len(parts) >= 3 and parts[0] == "records":
+        return "world"
+    if len(parts) >= 5 and parts[:2] == ("Build", "worlds") and parts[3] == "surface":
+        return "surface"
+    if len(parts) >= 6 and parts[:2] == ("Build", "worlds") and parts[3:5] == ("build", "records"):
+        return "residue"
+    return None
+
+
+_HOME_DIRS = {"world": "records/<code>/", "surface": "Build/worlds/<code>/surface/", "residue": "Build/worlds/<code>/build/records/"}
+
+
+def gate_record_home(records, fleet, registry) -> list[str]:
+    """Each record lives in its kind's home: world material in records/<code>/,
+    world fronts and facilitator briefs in Build/worlds/<code>/surface/, and
+    search records in Build/worlds/<code>/build/records/."""
+    out = []
+    for rid, r in sorted(records.items()):
+        if "_path" not in r:
+            continue
+        actual, expected = _home_of_path(r["_path"]), home_for_record_type(r.get("record_type"))
+        if actual is not None and actual != expected:
+            out.append(f"{rid}: a {r.get('record_type')} record lives in {_HOME_DIRS[expected]}, not {r['_path']}")
+    return out
+
+
 # The voiced record types cell routing serves (compiled/coverage.json and the
 # evidence matcher read canon_cells). Figures feed cards, not cells, and
 # ambient records are parked (System Hub decision 8).
@@ -1530,6 +1558,7 @@ GATES = {
     "voice-craft-prompt-budget": gate_voice_craft_prompt_budget,
     "canon-coverage": gate_canon_coverage,
     "status-ready": gate_status_ready,
+    "record-home": gate_record_home,
     "cells-required": gate_cells_required,
     "horizon": gate_horizon,
     "no-build-attribution": gate_no_build_attribution,
