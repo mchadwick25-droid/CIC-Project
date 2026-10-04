@@ -114,3 +114,49 @@ def test_the_flag_on_refuses_to_start_on_a_bad_file(tmp_path, monkeypatch):
     config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
     with pytest.raises(OpsFileError):
         deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1"})
+
+
+def test_the_shipped_door_is_the_documented_default():
+    from engine.deeper.door import Stage
+
+    door = load_ops().door
+    assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (150.0, 0.8, 0.5, 1.35)
+    assert door.stages == (
+        Stage(at=0.66, table_free_rounds=1),
+        Stage(at=0.75, solo_free_rounds=2, free_day_share=0.5),
+        Stage(at=0.90, table_free_rounds=0),
+        Stage(at=0.95, free_voice=False),
+        Stage(at=1.00, paid_voice=False),
+    )
+
+
+@pytest.mark.parametrize(
+    "change",
+    [
+        lambda d: d.pop("door"),
+        lambda d: d["door"].pop("base_weekly_usd"),
+        lambda d: d["door"].update(extra=1),
+        lambda d: d["door"].update(base_weekly_usd=0),
+        lambda d: d["door"].update(base_weekly_usd="150"),
+        lambda d: d["door"].update(gift_share=1.5),
+        lambda d: d["door"].update(purchase_share=-0.1),
+        lambda d: d["door"].update(invoice_factor=0.9),
+        lambda d: d["door"].update(stages=[]),
+        lambda d: d["door"].update(stages=[{"table_free_rounds": 1}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "unknown": 1}]),
+        lambda d: d["door"].update(stages=[{"at": 0.7, "free_voice": False}, {"at": 0.6, "paid_voice": False}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_voice": False}, {"at": 0.5, "paid_voice": False}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_voice": True}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "paid_voice": False}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "table_free_rounds": 1}, {"at": 0.6, "table_free_rounds": 2}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 0.5}, {"at": 0.6, "free_day_share": 0.8}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": -1}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": True}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 2}]),
+    ],
+)
+def test_a_malformed_door_is_refused(tmp_path, change):
+    data = _good()
+    change(data)
+    with pytest.raises(OpsFileError):
+        load_ops(_write(tmp_path, data))
