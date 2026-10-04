@@ -8,8 +8,8 @@ const QUOTE = {
 };
 
 const SENTENCES: StreamedSentence[] = [
-  { index: 0, lead: '', text: 'We kept the bread.', text_start: 0, text_end: 18, elements: [], cards: [] },
-  { index: 1, lead: '\n\n', text: 'Our teacher said: "Look, the new song".', text_start: 20, text_end: 59, elements: [QUOTE], cards: [CARD] },
+  { index: 0, speaker: 'w', lead: '', text: 'We kept the bread.', text_start: 0, text_end: 18, elements: [], cards: [] },
+  { index: 1, speaker: 'w', lead: '\n\n', text: 'Our teacher said: "Look, the new song".', text_start: 20, text_end: 59, elements: [QUOTE], cards: [CARD] },
 ];
 
 describe('streamedReply', () => {

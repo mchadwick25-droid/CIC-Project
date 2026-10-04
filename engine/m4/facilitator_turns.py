@@ -411,6 +411,24 @@ def table_seat_correction_turn(representative_name: str) -> dict:
     return {"kind": TABLE_SEAT_CORRECTION.kind, "text": TABLE_SEAT_CORRECTION.text.format(representative_name=representative_name)}
 
 
+TABLE_SEAT_CUT = FacilitatorTurn(
+    kind="seat_correction",
+    text=(
+        "This is the Facilitator, stepping in for a moment - {representative_name} began speaking as if another "
+        "voice at the Table, so I have stopped that answer there. What came before that point stands. Ask again, "
+        "or bring another voice into it - the Table is still open."
+    ),
+)
+
+
+def table_seat_cut_turn(representative_name: str) -> dict:
+    """The streamed Table turn's guard line: the seat-identity guard caught a
+    sentence after earlier sentences of the same answer were already shown,
+    so the answer ends at its last shown sentence and this line follows it
+    (System Hub decision 38)."""
+    return {"kind": TABLE_SEAT_CUT.kind, "text": TABLE_SEAT_CUT.text.format(representative_name=representative_name)}
+
+
 VOICE_REJECTED = FacilitatorTurn(
     kind="grounding_correction",
     text=(

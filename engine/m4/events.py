@@ -85,7 +85,7 @@ ENUMS: dict[tuple[str, str], set[str]] = {
     ("safety_state", "track"): {"A", "B"},
     ("escalation_pressed", "class"): {"later_age", "other_tradition"},
     ("session_closed", "reason"): {"participant", "idle", "cap"},
-    ("seat_identity_violation", "attempt"): {"first", "regenerated"},
+    ("seat_identity_violation", "attempt"): {"first", "regenerated", "streamed", "shown"},
 }
 
 

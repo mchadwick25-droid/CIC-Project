@@ -117,8 +117,8 @@ class Settings:
     qc_db_path: str
 
     # Lets a client that asks for an event stream (Accept: text/event-stream)
-    # read an interview reply sentence by sentence while it is written
-    # (engine.api.app._stream_message). Off by default.
+    # read a reply, an interview's or a Table seat's, sentence by sentence while it is written
+    # (engine.api.app._stream_turn). Off by default.
     streaming_enabled: bool
 
     @classmethod
