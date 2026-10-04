@@ -70,13 +70,10 @@ use_note:
   years: {from: 64, to: 64}
   status: reviewed
 ---
-Re-derived from the approved Doc_09 Story 005. Since Tacitus is not
-vendored in this world's own registry (pahc.source.tacitus-annals:
-"NOT VENDORED... paraphrase-only until one is"), this record's own
-Story Text is deliberately written without quotation marks around any
-Tacitus-specific phrase, unlike stories drawing on vendored sources -
-consistent with that source row's own confidence discipline, not a
-stylistic choice. 1 Clement 5-6's own retrospective naming of the
+Re-derived from the approved Doc_09 Story 005. The Story Text tells
+Tacitus in paraphrase, without quotation marks; Annals 15.44 is vendored,
+and its own words are quoted in pahc.quote.tacitus-hatred-against-mankind.
+1 Clement 5-6's own retrospective naming of the
 apostles' deaths as already past is checked directly against
 cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 ii.
 relations: associated-with pahc.force.neronian-persecution, the force

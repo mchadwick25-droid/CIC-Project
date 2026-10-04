@@ -30,7 +30,7 @@ modern_rendering: >-
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-
-  "The memoirs of the apostles" is Justin's phrase for what later became the gospels - he does not call them that, and a reader who substitutes the later word has flattened the whole point. "The president" is the one presiding at that gathering, not an office-holder with a title. And "read... as long as time permits" is a claim about a meeting's shape, not about a lectionary.
+  "The memoirs of the apostles" is Justin's own name for these books. In the chapter just before he says they "are called Gospels", but his own word here is memoirs, and a reader who brings in the later, settled sense of "the Gospels" has flattened the point. "The president" is the one presiding at that gathering, not an office-holder with a title. And "read... as long as time permits" is a claim about a meeting's shape, not about a lectionary.
 retrieval:
   tier: 1
   retrieve_when:

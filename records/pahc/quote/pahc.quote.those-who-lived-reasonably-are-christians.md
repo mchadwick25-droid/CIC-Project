@@ -52,7 +52,7 @@ chapter for "the Logos present in every race of men".
 
 The ellipsis marks the excerpt starting inside Justin's sentence, whose first half says the Word is
 that of which the whole race of men were partakers. The list of names is kept because it is the
-part that startles: two Greek philosophers and four figures from Daniel, all called Christians
+part that startles: two Greek philosophers, Abraham, Daniel's three companions and Elijah, all called Christians
 before Christ.
 
 The quoted sentence ends at "many others," marked with a trailing ellipsis: the source's
