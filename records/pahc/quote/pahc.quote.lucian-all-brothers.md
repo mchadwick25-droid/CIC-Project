@@ -58,6 +58,13 @@ relations:
   target: pahc.gravity.martyrdom-meaning
 - type: associated-with
   target: pahc.quote.lucian-orphans-and-widows
+use_note:
+  means: "Lucian, mocking from outside, reports Christians believed themselves immortal, scorned death, became brothers on conversion, and held goods as common property."
+  not_for:
+    - "a neutral or accurate account of how Christian belief worked"
+    - "a witness independent of Lucian's passage on orphans and widows at the prison"
+  years: {from: 160, to: 170}
+  status: reviewed
 ---
 Text is verified verbatim against the vendored file.
 

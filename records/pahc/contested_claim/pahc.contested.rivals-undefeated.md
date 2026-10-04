@@ -38,6 +38,13 @@ relations:
   target: pahc.witness.hard-texts
 - type: associated-with
   target: pahc.witness.god-and-argument
+use_note:
+  means: "Marcion, Valentinian Christianity and Montanism were live, overlapping presences within 70 to 200, not movements arising safely after the record closes."
+  not_for:
+    - "any outcome of the rivals as already visible"
+    - "evidence for these movements from anything but hostile or later witnesses"
+  years: {from: 70, to: 200}
+  status: reviewed
 ---
 Carries forward pahc.core.house-church's own caution 6 (RIVALS
 UNDEFEATED) and Doc_01 SS8.3's own disclosure obligation into

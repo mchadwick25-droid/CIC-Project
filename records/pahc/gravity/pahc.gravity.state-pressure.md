@@ -79,6 +79,12 @@ manifestations:
 - "Nero scapegoating Christians for the Great Fire of Rome, per Tacitus"
 - "Ignatius's own guarded transport toward execution, deployed throughout his letters as argument"
 - "no institutional records, membership rolls, or council minutes survive from this world in this window"
+use_note:
+  means: "Real, local, lethal exposure under law nobody was fully sure of: a danger that could arrive in one town and not the next."
+  not_for:
+    - "a systematic empire-wide hunt"
+  years: {from: 70, to: 200}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (G03), reclassified Supporting at
 that document's own round-2 review, on the identical Cross-Check test
