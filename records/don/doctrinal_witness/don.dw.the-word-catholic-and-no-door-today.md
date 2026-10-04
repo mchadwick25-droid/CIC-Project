@@ -101,12 +101,12 @@ tensions:
   nothing survived
 relations: []
 use_note:
-  means: "Both African churches claimed the name catholic; imperial law gave it to the rival, and no traceable line of the Donatists survives today."
+  means: "Both African churches claimed catholic, the 411 judge conceded the name should follow the truth yet followed the rescript giving it to the rival, and no traceable line of the Donatists survives today."
   not_for:
     - "a claim that any present-day church descends from the Donatists"
     - "a claim that the absence of a documented descendant proves nothing survived"
     - "a claim that the pun on catholicus is attested beyond a modern editor's annotation"
-    - "a claim that the Donatists treated rival bodies as parallel denominations"
+    - "a claim about refusing the name as one act with refusing the rival's sacraments, which sits in don.witness.boundary-is-doctrine"
   years: {from: 311, to: 439}
   status: reviewed
 ---

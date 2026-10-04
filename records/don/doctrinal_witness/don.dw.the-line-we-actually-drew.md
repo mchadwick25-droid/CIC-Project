@@ -90,11 +90,12 @@ tensions:
   make that step; the distinction is stated here rather than assumed
 relations: []
 use_note:
-  means: "Donatist exclusivity was aimed at the rival Christian communion and its sacraments, not at people outside the faith."
+  means: "Donatist exclusivity ran through the middle of the church, at the rival communion's bishops, orders and font, not around it at outsiders, and claimed nothing about anyone's fate after death."
   not_for:
     - "a claim that the Donatists taught those baptized by the other party were damned"
     - "a claim about Donatist views on whether Christianity is one way among many"
     - "a claim about Donatist teaching on divorce and remarriage"
+    - "a claim about the washing as the rite of entry, which sits in don.dw.washed-for-the-first-time"
   years: {from: 311, to: 411}
   status: reviewed
 ---

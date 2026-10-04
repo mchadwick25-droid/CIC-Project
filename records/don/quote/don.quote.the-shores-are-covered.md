@@ -78,7 +78,7 @@ use_note:
   not_for:
     - "a claim that anyone actually drowned or was physically killed"
     - "a claim that the voted wording of the decree is attested independently of Augustine"
-    - "a claim that the condemned Maximianist bishops were never received back"
+    - "a claim that the condemned Maximianist bishops were never received back; their reception sits in don.term.reception-without-reordination"
   years: {from: 394, to: 394}
   status: reviewed
 ---

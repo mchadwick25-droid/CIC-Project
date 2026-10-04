@@ -66,11 +66,12 @@ text: '"What has the emperor to do with the church?" That is our own primate''s 
   is what our own history actually holds -- not a rule kept perfectly, but a rule stated honestly, exceptions
   and all.'
 use_note:
-  means: "Donatists denied the emperor standing to judge the true church yet turned to imperial power in 313, 361 and the 390s."
+  means: "In a Donatist voice, denying the emperor standing to judge the church is the settled stance, and the three recourses of 313, 361 and the 390s are owned openly in the same breath."
   not_for:
     - "a claim that the Donatists described their own stance as principled refusal with pragmatic exceptions"
     - "a claim that the Donatists never sought imperial rulings"
     - "a claim that Donatus's retort survives other than in Optatus's report"
+    - "a claim about the rejected Rome and Arles rulings or the daylight seizures of basilicas, which sit in don.dw.the-emperor-and-the-church"
   years: {from: 313, to: 411}
   status: reviewed
 ---

@@ -128,11 +128,12 @@ relations:
 - type: associated-with
   target: don.story.passio-donati-sermon
 use_note:
-  means: "Belonging cost confiscation, exile, graded fines and sometimes death, while councils, letters and fixed commemorations held Donatists together."
+  means: "Belonging cost confiscation, exile, fines graded by rank and sometimes death, the commemorative sermon kept family grief in Donatist voice, and councils, letters and fixed commemoration days held scattered Donatists together."
   not_for:
     - "a claim that Donatist households were documented as split by the schism"
     - "a claim that the legal record shows personal or family costs"
     - "a claim resting on the commemorative sermon's family grief as a certified translation"
+    - "a claim about Donatist money, wealth or the goods of the poor, which sit in don.dw.silver-and-the-goods-of-the-poor"
   years: {from: 317, to: 412}
   status: reviewed
 ---

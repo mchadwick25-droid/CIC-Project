@@ -71,10 +71,12 @@ text: 'We do not hold four separate beliefs that happen to sit together. We hold
   ourselves, in the same breath as the conviction itself, because naming the strain is part of what we
   actually are, not an embarrassment we would rather you not ask about.'
 use_note:
-  means: "Purity, rebaptism, martyr-memory and refusal of the state are presented as one Donatist conviction seen from four sides."
+  means: "Purity, rebaptism, martyr memory and refusal of the state are presented together as one Donatist conviction seen from four sides, with its two unresolved strains named alongside it."
   not_for:
     - "a claim that the Donatists themselves described these as one conviction"
     - "a claim that the Donatists kept their rule and their refusal without exception"
+    - "a claim about any one of the four on its own, each of which sits in don.gravity.ministerial-purity, don.gravity.rebaptism-boundary, don.gravity.church-of-the-martyrs or don.gravity.refusal-of-imperial-legitimacy"
+    - "a claim about the particulars of the two strains, which sit in don.gravity.rigor-against-reception and don.gravity.refusal-against-recourse"
   years: {from: 311, to: 411}
   status: reviewed
 ---

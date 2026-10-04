@@ -102,11 +102,12 @@ tensions:
   of how the word works in one clause, not a definition we ourselves set out
 relations: []
 use_note:
-  means: "The Donatists' documented internal quarrels were the Maximianist schism, closed at Bagai, and the silencing of Tyconius over the church's extent."
+  means: "The Donatists' documented internal quarrels were Maximian's rival election of 393, closed at Bagai by condemnation and later reception, and Tyconius's silenced case that the church spans the earth."
   not_for:
     - "a claim that a Donatist account of either internal quarrel survives"
     - "a claim that the Donatists defined conscientia as the heart"
     - "a claim that the Donatists produced a school of theology"
+    - "a claim that these quarrels left the purity rule unreconciled with practice, the contradiction set out in don.dw.what-we-never-settled"
   years: {from: 311, to: 411}
   status: reviewed
 ---

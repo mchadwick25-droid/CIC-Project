@@ -72,6 +72,7 @@ use_note:
     - "a claim that it is a boast of spiritual superiority rather than a claim about what happened"
     - "a claim that any persecuted church could take the title regardless of who did the persecuting"
     - "a claim that it was a fixed formal Latin title or quoted slogan"
+    - "a claim about the commemorations and texts that carry it as a pattern, which sit in don.gravity.church-of-the-martyrs"
   years: {from: 311, to: 439}
   status: reviewed
 ---

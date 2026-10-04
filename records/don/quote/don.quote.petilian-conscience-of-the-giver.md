@@ -57,6 +57,7 @@ use_note:
     - "a claim that validity turned on the minister's private, subjective sincerity"
     - "a claim that these words survive in a Donatist text rather than inside Augustine's refutation"
     - "a claim about Augustine's counter-argument"
+    - "a claim about the doctrine as a central pattern of this world, which sits in don.gravity.ministerial-purity"
   years: {from: 395, to: 401}
   status: reviewed
 ---

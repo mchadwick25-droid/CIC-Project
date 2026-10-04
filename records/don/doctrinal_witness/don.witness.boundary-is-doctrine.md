@@ -58,11 +58,12 @@ text: 'Call yourself Catholic if you like; we will not grant it to you. You are 
   we drew it against clergy who left us and then let some of them back in without asking them to cross
   it again. We say that too, because it is also true.'
 use_note:
-  means: "Donatists refused their rival the name Catholic and called it Caecilianist, treating that refusal as the same act as refusing its sacraments."
+  means: "Donatists refused their rival the name Catholic and called it Caecilianist, presenting the naming boundary and the refusal of its sacraments as one line seen from two sides."
   not_for:
     - "a claim that the naming contest ran only one way"
     - "a claim that the Donatist line held without exception, given the Maximianist clergy received back"
     - "a claim that the pun on catholicus is attested beyond a modern editor's annotation"
+    - "a claim about how imperial law and the 411 judge assigned the name catholic, which sits in don.dw.the-word-catholic-and-no-door-today"
   years: {from: 313, to: 411}
   status: reviewed
 ---

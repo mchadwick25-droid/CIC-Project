@@ -89,12 +89,12 @@ tensions:
   proof that nobody among us ever thought about it
 relations: []
 use_note:
-  means: "Donatists confessed the same Trinitarian faith as their Catholic rivals; the dispute was over who could rightly give the sacraments."
+  means: "Donatists confessed the same Trinitarian faith as their rivals, left nothing on atonement, and understood belonging to Christ as belonging to a church rather than as a private decision."
   not_for:
     - "a claim that the Donatists were heretics or held a different creed"
     - "a claim about Donatist teaching on substitutionary atonement, for or against"
     - "a claim that a Donatist creed survives as a separate document"
-    - "a claim that Donatists understood faith as a personal, private decision"
+    - "a claim about the Christ Donatists kept nearest, condemned before lawful authority, which sits in don.dw.who-jesus-was-among-us"
   years: {from: 311, to: 411}
   status: reviewed
 ---

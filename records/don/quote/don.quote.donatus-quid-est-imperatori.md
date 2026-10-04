@@ -66,7 +66,7 @@ use_note:
   means: "Donatus, as reported by his opponent Optatus, denied the emperor any business in the church when imperial almoners came to Carthage."
   not_for:
     - "a claim that Donatus affirmed a general modern principle of church-state separation"
-    - "a claim that the Donatists never sought imperial help or judgment"
+    - "a claim that the Donatists never sought imperial help or judgment; their three recourses sit in don.witness.refusal-and-recourse"
     - "a claim that these words survive in Donatus's own hand or in a Donatist text"
     - "a claim that the Council of Cirta shows Donatist rigor or resolve"
   years: {from: 346, to: 348}

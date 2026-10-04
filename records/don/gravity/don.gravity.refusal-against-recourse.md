@@ -96,8 +96,9 @@ manifestations:
 - three dated acts at three distinct moments, held in the same conviction as the refusal itself and never
   thought to require closing
 use_note:
-  means: "On this record's reading, the movement denied the state could judge the true church yet turned to imperial machinery three times, an unresolved tension."
+  means: "The movement denied the state could judge the true church yet turned to imperial machinery at three dated points, 313, 361 and the 390s, a tension this record reads from three documented acts."
   not_for:
+    - "a claim about the standing refusal on its own, such as the rejection of the Rome and Arles rulings, which sits in don.gravity.refusal-of-imperial-legitimacy"
     - "a claim that the Donatists themselves described this as a tension"
     - "a claim that the pattern shows simple incoherence rather than refusal under pressure"
     - "a claim that the refusal held absolutely at every point"

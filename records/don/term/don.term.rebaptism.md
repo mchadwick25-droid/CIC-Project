@@ -90,7 +90,7 @@ use_note:
     - "a claim that it was a modern adult rebaptism chosen for personal renewal"
     - "a claim that it was a ritual scruple about repeating a sacrament"
     - "a claim that it denied the first rite happened at all, rather than that it conferred anything"
-    - "a claim that it was a private opinion of a rigorist minority rather than the communion's enacted norm"
+    - "a claim that it was a private opinion of a rigorist minority; its standing as the communion's enacted norm sits in don.gravity.rebaptism-boundary"
   years: {from: 311, to: 439}
   status: reviewed
 ---

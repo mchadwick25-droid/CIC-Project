@@ -109,10 +109,11 @@ manifestations:
   "corrupted" into permitting Donatist rebaptism
 classification: primary
 use_note:
-  means: "Rebaptism, the rite of entry into the communion, marks who truly belongs and is a central Donatist pattern attested from the origin through 411."
+  means: "Rebaptism is the enacted rite of entry into the communion, marking who truly belongs, a central practice attested from the origin through 411 on which membership and the 419 canons depend."
   not_for:
+    - "a claim about the doctrine that a tainted hand confers nothing, the rite's doctrinal ground, which sits in don.gravity.ministerial-purity"
+    - "a claim that the Maximianist reception shows rebaptism was not the normal rule; that exception sits in don.gravity.purity-rigor-vs-institutional-reception"
     - "a claim that Gregory the Great's letters of the 590s show how widespread or what kind the practice was then"
-    - "a claim that the Maximianist reception shows rebaptism was not the normal rule"
   years: {from: 311, to: 439}
   status: reviewed
 ---

@@ -106,8 +106,10 @@ manifestations:
 - the same texts stating the doctrine at its most absolute also stating the exception plainly, without treating
   the two as cancelling each other
 use_note:
-  means: "The stated rule that invalid clergy be rebaptised and reordained stands against the Donatist mainstream's unrepeated reception of returning Maximianist clergy, in one dated episode."
+  means: "In one dated episode of 393 to 398, the stated rule that schismatic clergy be rebaptised and reordained stood against the mainstream's reception of returning Maximianist clergy without either, a tension internal to the movement."
   not_for:
+    - "a claim about the purity doctrine or the rebaptism rite as standing patterns, which sit in don.gravity.ministerial-purity and don.gravity.rebaptism-boundary"
+    - "a claim about the appeal to imperial anti-heretical law against the Maximianists, which sits in don.gravity.refusal-against-recourse"
     - "a claim that the tension is an abstract inconsistency rather than a specific dated episode"
     - "a claim that the tension was driven by an outside imperial force"
   years: {from: 393, to: 398}

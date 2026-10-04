@@ -141,8 +141,10 @@ manifestations:
 - the Maximianist reception-without-reordination precedent, which tests the doctrine's own internal consistency
 - 'the Tier-1 lexicon this doctrine generates: traditor/traditio, ministerial purity'
 use_note:
-  means: "A sacrament standing or falling on the giver's purity is a central Donatist pattern, attested in Petilian's words, its detailed argument mostly via Augustine's refutation."
+  means: "The doctrine that a sacrament stands or falls on the giver's unbroken purity, which the traditio charge against Felix of Aptungi made the schism's founding question, is a central pattern attested in Petilian's words but argued mostly via Augustine."
   not_for:
+    - "a claim about the enacted rite of washing those who came over, which is this doctrine put into practice and sits in don.gravity.rebaptism-boundary"
+    - "a claim about the Maximianist clergy received back without reordination, the test of this doctrine that sits in don.gravity.rigor-against-reception"
     - "a claim that the doctrine's existence depends only on Optatus or Augustine"
     - "a claim that its detailed argument is known independently of Augustine's refutation"
   years: {from: 311, to: 439}

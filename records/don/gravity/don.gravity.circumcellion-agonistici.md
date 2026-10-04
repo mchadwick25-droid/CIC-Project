@@ -129,11 +129,12 @@ manifestations:
   confirming character
 - the character-and-conduct portrait itself, which survives only in hostile polemic and is left contested
 use_note:
-  means: "Within Numidia only, the agonistici are a supporting pattern; their bare existence is independently attested, while their character and scale come largely through hostile sources."
+  means: "Within Numidia only, the agonistici are a supporting pattern whose bare existence imperial law attests, whose name comes only through Augustine, and whose character and scale come through hostile sources."
   not_for:
     - "a claim that the agonistici are a supporting pattern for the Donatist world as a whole"
     - "a claim that the group's character and scale are established by independent evidence"
     - "a claim that the name agonistici is independently attested rather than reported by Augustine"
+    - "a claim about the Maximianist reception itself, which sits in don.gravity.rigor-against-reception; only the group's reported part in the suppression belongs here"
   years: {from: 311, to: 439}
   status: reviewed
 ---

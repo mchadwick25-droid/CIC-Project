@@ -87,7 +87,7 @@ use_note:
   means: "Donatists held that the state cannot say which church is true, yet three times turned to imperial authority when it served them."
   not_for:
     - "a claim that it was a modern principle of church-state separation held as constitutional doctrine"
-    - "a claim that it was simple hypocrisy once the three pragmatic petitions are noticed"
+    - "a claim that the three petitions make it simple hypocrisy; their record sits in don.gravity.refusal-against-recourse"
     - "a claim that it was consistent political quietism or withdrawal from public life"
     - "a claim that it was an absolute rule broken by exceptions, rather than a dominant stance held under pressure"
   years: {from: 311, to: 439}

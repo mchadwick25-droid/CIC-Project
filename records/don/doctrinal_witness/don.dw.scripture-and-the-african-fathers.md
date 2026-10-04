@@ -91,10 +91,11 @@ tensions:
   here
 relations: []
 use_note:
-  means: "The Donatist case stood on the African precedent of Cyprian's council as well as on scripture, which alone never settled the dispute."
+  means: "The Donatist case stood on two legs, scripture and Cyprian's African council, and scripture alone never settled the dispute, as three days of rival quotation at Carthage in 411 showed."
   not_for:
     - "a claim that a Donatist statement on the authority of scripture survives"
     - "a claim about how the Donatists read Genesis or the making of the world"
+    - "a claim about the pedigree's reach or Cyprian's staying in communion, which sit in don.dw.older-than-the-schism"
   years: {from: 311, to: 411}
   status: reviewed
 ---

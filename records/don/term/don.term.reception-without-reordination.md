@@ -80,6 +80,7 @@ use_note:
     - "a claim that it proves the rebaptism doctrine was never seriously held"
     - "a claim that it was a formal doctrinal exception written into the rule rather than one bounded historical decision"
     - "a claim that it was modern ecumenical recognition of another church's orders"
+    - "a claim about the tension it sets against the stated rule as a pattern, which sits in don.gravity.rigor-against-reception"
   years: {from: 393, to: 398}
   status: reviewed
 ---

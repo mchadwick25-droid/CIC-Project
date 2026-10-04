@@ -100,11 +100,12 @@ tensions:
   so our own bishops' phrasing is carried as reported sense rather than as a quotable clause
 relations: []
 use_note:
-  means: "Donatists shared their rivals' faith about Christ; at the 411 conference their bishops invoked Christ standing condemned before the governor."
+  means: "The Christ Donatists kept nearest stood condemned before the governor and was right, as their bishops said standing at the 411 conference, with the world's hatred the church's mark and death no interruption."
   not_for:
     - "a claim that a Donatist christological or soteriological treatise survives"
     - "a claim resting on the exact wording of Donatist bishops at the 411 conference"
     - "a claim that the Donatists held a distinct doctrine of Christ"
+    - "a claim about the shared Trinitarian creed or atonement, which sit in don.dw.the-creed-we-shared"
   years: {from: 347, to: 411}
   status: reviewed
 ---

@@ -84,6 +84,7 @@ use_note:
     - "a claim that the Donatists were a loose protest movement without institutional structure"
     - "a claim that there was a single settled bishop of a city whom nobody contested"
     - "a claim that the rival claimant was understood by all sides to be irregular or provisional"
+    - "a claim about the rival hierarchy as a supporting pattern of this world, which sits in don.gravity.parallel-hierarchy"
   years: {from: 311, to: 439}
   status: reviewed
 ---

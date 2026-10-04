@@ -158,9 +158,10 @@ manifestations:
 - the 405 Edict of Unity and the sustained legal suppression that followed it
 - the 411 Conference of Carthage and the penal legislation issuing from its verdict
 use_note:
-  means: "The stance that the state cannot judge the true church is a central Donatist pattern, though the frame joining its episodes is partly the record's synthesis."
+  means: "The lived stance that the state cannot judge the true church, shown in rejecting the Rome and Arles rulings of 313 and 314 and holding out under law through 411, is a central pattern whose unifying frame is partly the record's synthesis."
   not_for:
-    - "a claim that this refusal is itself a tension rather than a pattern limited from within by one"
+    - "a claim that this refusal is itself a tension; the three turns to imperial power in 313, 361 and the 390s sit in don.gravity.refusal-against-recourse"
+    - "a claim about the martyr commemorations and Passio texts themselves, which sit in don.gravity.church-of-the-martyrs"
     - "a claim that the unifying frame is free of the compilers' own synthesis"
   years: {from: 311, to: 439}
   status: reviewed

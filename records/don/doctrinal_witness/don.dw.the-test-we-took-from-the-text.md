@@ -89,10 +89,11 @@ tensions:
   is supplied here
 relations: []
 use_note:
-  means: "Donatists read scripture for a visible mark of the true church, finding it in the church the world hates."
+  means: "Donatists read scripture for a mark visible from the street that would separate two creedally identical churches, finding it in the church the world hates, and turned plain phrases like Deo laudes into badges."
   not_for:
     - "a claim about the whole community's habit of reading beyond the one 411 exchange"
     - "a claim about what the Donatists thought of the violence in scripture"
+    - "a claim about scripture as a surrendered object or how most believers heard it, which sit in don.dw.how-we-read-and-heard"
   years: {from: 311, to: 411}
   status: reviewed
 ---

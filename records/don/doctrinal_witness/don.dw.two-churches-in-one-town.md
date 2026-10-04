@@ -112,12 +112,12 @@ relations:
 - type: associated-with
   target: don.quote.deo-laudes
 use_note:
-  means: "Donatists formed a complete rival hierarchy of bishops and councils under standing legal jeopardy, and in Numidia were the ordinary church."
+  means: "Donatists formed a whole rival church, 279 bishops against 286 in 411, made by people and bishops together, the ordinary church in Numidia, gathering under standing legal jeopardy."
   not_for:
     - "a claim about an ordinary Donatist service, as no liturgical text survives"
     - "a claim that a Donatist procedural rule for making bishops survives"
-    - "a claim that imperial law confirms the polemical character given to the Circumcellions"
     - "a claim that the Donatists spread across Africa by mission"
+    - "a claim about councils rejecting state-convened rulings or keeping procedure at 411, which sits in don.dw.who-decides-a-disputed-case"
   years: {from: 320, to: 412}
   status: reviewed
 ---

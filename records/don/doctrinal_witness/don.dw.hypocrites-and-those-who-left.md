@@ -116,12 +116,12 @@ tensions:
   makes an honest answer here easier than an honest answer about almost anything else
 relations: []
 use_note:
-  means: "Donatist bishops' own letters hushed a true charge, leavers were treated inconsistently, and suffering was narrated rather than explained."
+  means: "On hypocrisy, leaving, suffering and women, this witness offers bishops' letters hushing a true charge, two leavers treated differently, a bishop's letter narrating martyrdom without explaining it, and Lucilla's agency recorded by her accusers."
   not_for:
     - "a claim that any Donatist woman left a text or spoke in her own defence"
     - "a claim about what Lucilla's authority cost her"
     - "a claim that the Donatists worked out a teaching about suffering"
-    - "a claim about what the Donatists wished to tell the dissenter they cut off"
+    - "a claim about the 320 inquiry's wider findings or the troops and anti-heretical law used on the Maximianists, which sit in don.dw.what-we-did-with-the-power-we-had"
   years: {from: 311, to: 411}
   status: reviewed
 ---

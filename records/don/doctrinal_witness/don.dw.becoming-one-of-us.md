@@ -163,12 +163,12 @@ relations:
 - type: associated-with
   target: don.limit.bagai-violence-no-account
 use_note:
-  means: "Entry meant being washed on coming from the rival communion, counted as a first baptism, while discipline for wrongdoing followed no consistent rule."
+  means: "This telling covers entry by washing, with the forced-entry charges and the lay reluctance Augustine concedes, readmission after wrongdoing, which followed no consistent rule, and three stray fragments of prayer, chalice and fast."
   not_for:
     - "a claim about what undergoing the washing felt like to those who underwent it"
     - "a claim that a Donatist liturgy, order of service, or rule of fasting survives"
     - "a claim about the particulars of the forced-entry charges"
-    - "a claim that a surviving rule explains why some condemned clergy were received back and others not"
+    - "a claim about why the washing counted as a first and not a second baptism, or about infant baptism, which sit in don.dw.washed-for-the-first-time"
   years: {from: 311, to: 411}
   status: reviewed
 ---

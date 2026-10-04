@@ -98,12 +98,12 @@ tensions:
   as a dossier against us
 relations: []
 use_note:
-  means: "The Donatists traced themselves to the surrender of scripture under persecution and claimed descent through Cyprian's Carthage, not Rome."
+  means: "What Donatists had of Christ was the scriptures surrendered or refused under persecution, received through Cyprian's Carthage, with a chain of ordaining hands in place of eyewitnesses and yearly graveside reading in place of a resurrection argument."
   not_for:
     - "a claim about how the Donatists argued for the resurrection"
     - "a claim that the Donatists appealed to eyewitness memory of Jesus"
     - "a claim that the Abitinian martyr acts are cleanly Donatist"
-    - "a claim that the Donatist founding narrative reaches us unframed by an opponent"
+    - "a claim about Cyprian's council of 256 as the precedent for rebaptism, which sits in don.dw.older-than-the-schism"
   years: {from: 311, to: 411}
   status: reviewed
 ---

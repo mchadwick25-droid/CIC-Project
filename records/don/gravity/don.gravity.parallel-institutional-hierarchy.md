@@ -118,10 +118,11 @@ manifestations:
   through 439
 classification: supporting
 use_note:
-  means: "The Donatists built a complete rival church of bishops, basilicas and councils, a supporting pattern that is the structure within which the central patterns operate."
+  means: "The Donatists built a complete rival church of bishops, basilicas and councils, a supporting institutional container within which the central patterns operate and which forms people only through them."
   not_for:
     - "a claim that the hierarchy forms people as strongly as rebaptism or the martyr liturgy"
     - "a claim that the hierarchy is a central pattern rather than a supporting one"
+    - "a claim about the Maximianist reception decision itself, which this hierarchy's councils made but which sits in don.gravity.purity-rigor-vs-institutional-reception"
   years: {from: 311, to: 439}
   status: reviewed
 ---

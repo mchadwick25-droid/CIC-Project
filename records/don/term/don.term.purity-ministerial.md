@@ -81,7 +81,7 @@ use_note:
     - "a claim that it means personal moral purity in the modern devotional sense"
     - "a claim that it means ritual or bodily cleanness in the Levitical sense"
     - "a claim that it was a novelty invented in 311, since it sharpens Cyprian's third-century African position"
-    - "a claim that a sinful minister invalidates everything, rather than a broken ordination line"
+    - "a claim that a sinful minister invalidates everything, rather than a broken ordination line; the doctrine as a pattern sits in don.gravity.ministerial-purity"
   years: {from: 311, to: 439}
   status: reviewed
 ---

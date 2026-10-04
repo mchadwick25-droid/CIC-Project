@@ -100,7 +100,7 @@ use_note:
   not_for:
     - "a claim that 'Circumcellion' was an accepted self-description rather than the opponents' own label"
     - "a claim that the vivid hostile portrait is reliable because it is detailed"
-    - "a claim that this group shows what ordinary members of the communion were like outside rural Numidia"
+    - "a claim that this group shows what ordinary members were like outside rural Numidia; its Numidian scope is set in don.gravity.circumcellion-agonistici"
     - "a claim that the group was a modern revolutionary or class-war movement"
   years: {from: 311, to: 439}
   status: reviewed

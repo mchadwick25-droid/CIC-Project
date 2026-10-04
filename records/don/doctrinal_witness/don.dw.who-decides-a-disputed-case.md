@@ -104,11 +104,12 @@ tensions:
   what else we decided cannot be recovered
 relations: []
 use_note:
-  means: "Donatist councils of bishops decided disputes with real force, and Donatists rejected rulings convened and enforced by a state favouring their rival."
+  means: "Donatist councils of bishops governed with real force and insisted on order of procedure at 411, while Donatists rejected councils whose venue, rules and enforcement belonged to a state favouring their rival."
   not_for:
     - "a claim that Donatist conciliar acta survive on their own terms"
     - "a claim that any Donatist council ruled on who Christ is"
     - "a claim that the surviving council documents are free of opponents' selection"
+    - "a claim about persecution, petitions to the emperor or the three recourses, which sit in don.dw.the-emperor-and-the-church"
   years: {from: 313, to: 411}
   status: reviewed
 ---

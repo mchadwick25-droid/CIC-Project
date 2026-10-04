@@ -104,11 +104,12 @@ tensions:
 - everything we can say about money among us is drawn from inquiries into its misuse
 relations: []
 use_note:
-  means: "Donatists counted the washing of those coming from the rival communion as a first baptism, a public act imperial law targeted."
+  means: "Donatists counted the washing of those from the rival communion as a first baptism, not a second, and as a public crossing between churches that imperial edicts were written against."
   not_for:
     - "a claim that the Donatists baptized infants, or that they did not"
     - "a claim about Donatist rules of giving or tithing"
     - "a claim about Donatist teaching on the end of the world"
+    - "a claim about readmission after wrongdoing or the forced-entry charges, which sit in don.dw.becoming-one-of-us"
   years: {from: 311, to: 412}
   status: reviewed
 ---

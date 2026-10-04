@@ -100,12 +100,12 @@ tensions:
   wanted to become, which is not the same as a record of how people actually behaved
 relations: []
 use_note:
-  means: "Donatist martyr texts held up settled readiness and a formed life rather than an appetite for death."
+  means: "Donatist martyr texts praise settled readiness and a life already formed rather than an appetite for death, and the charge that Circumcellions sought death rests almost wholly on hostile portraits."
   not_for:
     - "a claim that the polemical portrait of the rural Circumcellions is established fact"
     - "a claim that any Donatist set down a rule defining the martyr ideal"
     - "a claim that the martyr texts record how Donatists actually behaved"
-    - "a claim that a neutral outside account of Donatist worship exists"
+    - "a claim about which Donatist texts escape hostile hands, which sits in don.dw.written-by-our-opponents"
   years: {from: 311, to: 412}
   status: reviewed
 ---

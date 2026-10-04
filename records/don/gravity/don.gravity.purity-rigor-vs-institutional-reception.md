@@ -100,8 +100,10 @@ manifestations:
   central argument against Donatist rebaptism logic
 classification: tensional
 use_note:
-  means: "The stated rule that invalid clergy be rebaptized and reordained stands against the Donatist mainstream's unrepeated reception of returning Maximianist clergy, in one dated episode."
+  means: "In one dated episode of 393 to 398, the stated rule that invalid clergy be rebaptized and reordained stood against the mainstream's reception of returning Maximianist clergy without either, a tension internal to the movement."
   not_for:
+    - "a claim about the purity doctrine or the rebaptism rite as standing patterns, which sit in don.gravity.ministerial-purity and don.gravity.rebaptism-boundary-marking"
+    - "a claim about the appeal to imperial anti-heretical law against the Maximianists, which sits in don.gravity.principled-refusal-vs-pragmatic-recourse"
     - "a claim that the tension is an abstract inconsistency rather than a specific dated episode"
     - "a claim that the tension was driven by an outside imperial force"
   years: {from: 393, to: 398}

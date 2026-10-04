@@ -71,6 +71,7 @@ use_note:
     - "a claim that catholic was an agreed and uncontested title in the fourth-century West"
     - "a claim that it refers to the later, settled Roman Catholic Church"
     - "a claim that the fight over the word was purely doctrinal rather than about legitimacy and law"
+    - "a claim about the 411 judge's ruling on the name, which sits in don.dw.the-word-catholic-and-no-door-today"
   years: {from: 311, to: 439}
   status: reviewed
 ---
