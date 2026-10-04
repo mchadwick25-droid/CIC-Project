@@ -45,33 +45,33 @@ relations:
 name: "Precision against reserve [TENSIONAL]"
 classification: tensional
 description: >-
-  How much of the confession may be said aloud, to whom, and when (the oikonomia question): Basil's
-  measured reserve - never, in his own authentic voice, plainly calling the Spirit "God" or applying
-  homoousios to him, arguing equal glorification instead - against the impatience of allies who demanded the
-  word, a documented argument WITHIN the winning side, distinct from the fight with opponents (Doc_04 §1,
-  §4). Generated at Revision 1, a split from candidate 1's evidence field, tested from scratch after
-  independent review found this candidate present at the original run's classification with no generation
-  or testing record at all (Doc_04 §11). AG/TRANSMISSION FLAG AT GENERATION (Doc_04 §1): the impatient
-  critics survive only in the circle's own telling, one-sidedly transmitted like every losing or opposing
-  party in this world; the motives of the reserve are Contested. SIX-TEST SUMMARY (Doc_04 §3.1): strong
-  (within its decade) on Repetition; MODERATE on Dependency, Formation (formed core as practice, congregation
-  as object), and Persistence (decade- and circle-bounded); strong on Explanatory and Interaction. The risk
-  ran both ways - that testing would dissolve this candidate into Gravity 1 as mere texture, or ratify it
-  because the classification had already asserted it. Neither happened: it reshapes Gravity 1 from inside
-  (its tempo question), is fed by Gravity 2's constituency (the impatient critics are ascetics), draws its
-  craft from Gravity 4 (audience-fitted speech as rhetoric's own discipline turned pastoral), and is
-  counseled by Gravity 3 (a hostile court made economy prudent as well as pastoral). CONFIDENCE/GRAVITY
-  CROSS-CHECK (Doc_04 §3.2): the tension's existence Documented at work level; the motives Contested and left
-  so; Tensional classification requires no Primary-threshold evidence, and no strength/confidence divergence
-  exists beyond the named motive-question, which is carried, not resolved. FORCES TEST (Doc_04 §3.3):
-  intensified as the pneumatological fight sharpened (2A-3 making every word count) and as the court's
-  hostility made economy prudent (2A-1); made personally costly at the friendship's strain (2B-3); transposed
-  rather than resolved at the settlement (3A-1) - 381's doxological-form article stands as either the
-  reserve's vindication or its monument, and the sources do not adjudicate. The tension ends unresolved
-  because the fight that occasioned it ends. CROSS-REGISTER (Doc_04 §5): practiced in see and circle; argued
-  in the brotherhoods (the impatient critics are ascetics); its protective object is the congregation (the
-  weak, not to be driven off by a word). Across the pneumatological fracture: it is the winning side's inner
-  argument about HOW to fight that fracture. Register-bounded in practice, congregation-directed in object.
+  The question is how much of the confession may be said aloud, to whom and when. This is the question of
+  oikonomia. Basil kept a careful reserve. In his own authentic voice he never plainly calls the Spirit
+  God, and he never applies homoousios to him. He argues for equal glorification instead. Allies grew
+  impatient and wanted the word. This was a documented argument inside the winning side. It differs from
+  the fight with opponents. The impatient critics survive only in the circle's own telling. Their side was
+  passed down by one party only, like all the losing or opposing parties in this world. The motives of the
+  reserve are Contested. It is strong on repetition within its decade. It is moderate on dependency. It is
+  moderate on formation, where the formed core practices it and the congregation is its object. It is
+  moderate on persistence, bounded by decade and circle. It is strong on explanation and interaction. The
+  risk ran both ways. Testing might have dissolved it into the Triune confession gravity as mere texture.
+  It might also have confirmed it only because the classification had already said so. Neither came to
+  pass. It reshapes the Triune confession gravity from inside, through its question of timing. The
+  constituency of the ascetic reordering feeds it, since the impatient critics are ascetics. It draws its
+  craft from the paideia gravity, where speech fitted to the audience is rhetoric's own discipline turned
+  pastoral. The contested church counsels it, since a hostile court made economy prudent as well as
+  pastoral. That the tension exists rates Documented at the level of the works. The motives rate Contested
+  and are left so. A tension needs no evidence at the Primary level. No gap between strength and
+  confidence exists beyond the question of motive. That question is carried and not resolved. The tension
+  grew as the fight over the Spirit sharpened and made every word count. It grew as the court's hostility
+  made economy prudent. It became personally costly when the friendship came under strain. The settlement
+  changed its form and did not resolve it. The article in the doxological form at 381 stands as either the
+  reserve's vindication or its monument, and the sources do not decide. The tension ends unresolved
+  because the fight that caused it ends. It is practiced in the see and the circle. It is argued in the
+  brotherhoods, since the impatient critics are ascetics. Its protective object is the congregation, the
+  weak who must not be driven off by a word. Across the fracture over the Spirit, it is the winning side's
+  inner argument about how to fight that fracture. It is bounded to its registers in practice, and aimed
+  at the congregation in object.
 manifestations:
 - On the Holy Spirit's whole architecture - equal honor argued to the edge of the contested title, the title withheld
 - the documented quarrel over Basil's reserve - the ascetic critics' attack and Nazianzen's defense of his friend

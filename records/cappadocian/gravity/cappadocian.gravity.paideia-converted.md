@@ -47,22 +47,22 @@ relations:
 name: "Paideia converted [SUPPORTING]"
 classification: supporting
 description: >-
-  The Greek formation ladder repossessed for Christ: Athens used, the classics as bee-flowers, rhetoric
-  in the pulpit; felt against two counter-pressures - Julian's edict from without ("the classics belong to
-  the gods"), anti-dialectical impatience from within ("fishermen's simplicity") - the latter split out and
-  separately tested as Tensional Gravity 11 (Doc_04 §1, §4). SIX-TEST SUMMARY (Doc_04 §3.1): strong on
-  Repetition, Explanatory, Interaction; moderate-strong on Dependency; strong where present on Formation;
-  MODERATE (elite-bounded) on Persistence - the honest boundary this record carries rather than smooths.
-  CONFIDENCE/GRAVITY CROSS-CHECK (Doc_04 §3.2): strong organizer of the documented world; but the documented
-  world is the lettered world - the Persistence moderation is an evidential-visibility problem the Framework
-  requires respecting. Classified Supporting despite its brilliance in the record; the discrepancy between
-  apparent organizing strength (in the surviving texts) and ecological breadth (in the lived world) is
-  stated, not resolved by upgrade. FORCES TEST (Doc_04 §3.3): forced into self-consciousness by Julian (the
-  edict makes the classics a battlefield) and by Eunomius (dialectic worshipped requires dialectic
-  disciplined) - its two great crises are both external provocations, confirming it as a real force while
-  explaining its elite boundary. CROSS-REGISTER (Doc_04 §5): see and circle strongly; brotherhood
-  ambivalently (the Rules subordinate secular learning); household variably; countryside barely.
-  Register-weighted (elite).
+  The Greek ladder of formation was claimed for Christ. Athens was used, the classics were treated as
+  flowers for the bees, and rhetoric entered the pulpit. Two pressures worked against it. Julian's edict
+  came from outside: the classics belong to the gods. Impatience with argument came from inside: the
+  simplicity of fishermen. The second was split out as its own tension, Athens against the fishermen. It
+  is strong on repetition, explanation and interaction. It is moderate to strong on dependency. It is
+  strong on formation where it is present. It is moderate on persistence, bounded by the elite. That is
+  the honest limit this record carries and does not smooth over. It is a strong organizer of the
+  documented world. But the documented world is the lettered world. The moderate score on persistence
+  comes from what the evidence lets us see. It is ranked Supporting, despite its brilliance in the record.
+  It looks strong in the surviving texts, but its reach in the lived world was narrower. That gap is
+  stated and not closed by an upgrade. Julian forced it into self-awareness, since his edict made the
+  classics a battlefield. Eunomius did the same, since worshipped dialectic needs disciplined dialectic.
+  Both of its great crises were provocations from outside. That confirms it as a real force and explains
+  its elite limit. The see and the circle feel it strongly. The brotherhood feels it in two minds, since
+  the Rules place secular learning below other things. The household feels it unevenly. The countryside
+  feels it barely. It is weighted toward the elite.
 manifestations:
 - Address to Young Men - a formation document arguing what to take from pagan letters and what to leave, the bee-and-flowers discipline
 - the invectives against Julian and the school-edict crisis

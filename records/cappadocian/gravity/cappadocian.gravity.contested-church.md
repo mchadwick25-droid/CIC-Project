@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented that the imperial contest happened and reached every register (exiles, depositions, the 372 provincial division, the invectives). The classification itself carries a standing open item (Doc_04 §9 item 1): whether this is best classified Primary-with-situational-annotation (the current finding) or Supporting, is explicitly flagged for external review - the Formation-test moderation (the ordinary Christian's formation instruments are conditioned by the contest, not constituted by it) is carried visibly rather than smoothed into a clean Primary."
+  divergence_note: "It is Documented that the contest with the emperors took place and reached every register. The record holds exiles, men put out of their sees, the split of the province in 372 and the invectives. How to class this gravity is still an open question. It is now Primary, with a note that it is a gravity of the situation. It may be Supporting. Its moderate score on formation is shown in the open and not smoothed into a clean Primary. The contest shapes the tools by which an ordinary Christian is formed. It does not make them."
 sources:
 - source_id: cappadocian.source.church-historians-socrates-sozomen-theodoret
   locus: "the reign-by-reign policy arc"
@@ -59,28 +59,24 @@ relations:
 name: "The contested church under the contested empire [PRIMARY - situational annotation]"
 classification: primary
 description: >-
-  Confirmed as a Primary gravity of the world's situation and self-understanding (annotation within
-  Primary, per the canonical three-class vocabulary): reign-by-reign reversal (Constantius, Julian, Valens,
-  Theodosius), exile and endurance, minority tenacity to sudden establishment - the condition every other
-  gravity operated inside (Doc_04 §4). SIX-TEST SUMMARY (Doc_04 §3.1): strong on Repetition, Dependency,
-  Explanatory, Persistence, Interaction; MODERATE on Formation - the decisive moderation (Doc_04 §3.1): the
-  imperial contest is everywhere and made exiles, forced the ecumenical diplomacy, conditioned every public
-  act, but the Formation test asks whether the ordinary Christian's becoming runs through it - and the
-  formation instruments the evidence shows (household teaching, baptism, psalmody, festival, brotherhood,
-  alms) are conditioned by the contest, not constituted by it. This mirrors, structurally, the Early Latin
-  build's finding about its own establishment gravity - noted as a convergent pattern across builds, not an
-  imported template; the scoring was done on this world's own evidence first. CONFIDENCE/GRAVITY CROSS-CHECK
-  (Doc_04 §3.2): organizing strength strong; evidence Documented. Eligible for Primary as the world's
-  situation-gravity, with the Formation-test moderation carried visibly - the alternative Supporting
-  classification is explicitly flagged for external review (Doc_04 §9 item 1), not resolved here. FORCES
-  TEST (Doc_04 §3.3): created outright by 1A-1, exercised reign by reign under 2A-1, dissolved by 3A-1 - the
-  only candidate with a complete force life-cycle inside the span, and that cycle is the evidence for the
-  situational annotation: a gravity that a force can end by fulfilling it is a gravity of the world's
-  situation. CROSS-REGISTER (Doc_04 §5): all registers feel it (exile reaches the see; conscription reaches
-  the contemplative; the festival crowd hears the invective). Cross-register. ADJUDICATION (Doc_04 §8):
-  the world's regional distance from Alexandria, Antioch, and Rome - letters unanswered, councils far away,
-  an emperor passing through - belongs to this gravity's own documentation (a texture of how the contest
-  reached the region) rather than to a separate, fourth Primary.
+  This gravity belongs to the world's situation and to how it saw itself. It moved reign by reign, through
+  Constantius, Julian, Valens and Theodosius. It brought exile and endurance. A minority held on. Then it
+  was suddenly established. This is the condition all the other gravities worked inside. It scores strong
+  on all the tests but one. It is only moderate on formation. That moderation decides how it is classed.
+  The contest with the emperors is found on all sides. It made exiles. It forced diplomacy across the
+  churches. It shaped each public act. But the formation test asks whether an ordinary Christian's growth
+  runs through it. The tools of formation that the evidence shows are household teaching, baptism, psalm
+  singing, festival, the brotherhood and alms. The contest conditions these. It does not constitute them.
+  Its pull is strong, and the evidence rates Documented. It can be Primary as the world's gravity of
+  situation, with the moderate score on formation carried in the open. The arrival of the imperial church
+  created it outright. Shifts in imperial policy exercised it reign by reign. The Theodosian settlement
+  dissolved it. No other candidate has a full life cycle of forces inside the span. That cycle is the
+  evidence for calling it situational. A gravity that a force can end by fulfilling it is a gravity of the
+  world's situation. All the registers feel it. Exile reaches the see. Conscription reaches the
+  contemplative. The festival crowd hears the invective. The region lay far from Alexandria, Antioch and
+  Rome. Letters went unanswered, councils met far away, and an emperor passed through. That distance
+  belongs to this gravity's own record. It shows how the contest reached the region. It is not a separate
+  fourth Primary.
 manifestations:
 - the imperial-legal stream - Constantius' Homoian councils, Julian's edict, Valens' depositions and exiles, Theodosius' reversal
 - the exile correspondence and the Constantinople mission

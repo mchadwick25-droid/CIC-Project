@@ -41,30 +41,28 @@ relations:
 name: "Renunciation against order [TENSIONAL]"
 classification: tensional
 description: >-
-  The radical ferment against the disciplined koinōnia: households dissolved, slaves encouraged to leave
-  masters, fasts kept against feasts, separatist assemblies - against the ordered brotherhood with rule,
-  obedience, and a guest-door (Doc_04 §1, §4). Generated at Revision 1, a split from candidate 2's evidence
-  field, the strongest of the three late-named tensions and the one whose missing test record was least
-  defensible, since its evidence is largely conciliar and legislative - the build's own preferred
-  against-the-grain material (Doc_04 §3.1). AG/TRANSMISSION FLAG AT GENERATION (Doc_04 §1): adversarial
-  transmission of one whole side - the radicals speak only through their censors' catalogues and their
-  reformer's legislation. SIX-TEST SUMMARY (Doc_04 §3.1): strong on Repetition; strong-moderate on
-  Dependency; strong where the line operates on Formation (obedience against self-willed askesis is the
-  ordered community's formative core, and the Gangra line also formed the ordinary parish); strong on
-  Explanatory (explains why the Asketikon exists at all, the guest-door design, the Eustathius relationship's
-  whole arc); strong-moderate on Persistence, with the honest asymmetry that one side is voiceless; strong on
-  Interaction. Verdict: survives as Tensional, comfortably - a persistent counter-force never fully retired
-  in-period, its live phase ending only with the institutionalization Doc_08 3B-3 maps. CONFIDENCE/GRAVITY
-  CROSS-CHECK (Doc_04 §3.2): the censures and legislation Documented; the radical side's inner life
-  Inferential/Thin - a divergence carried, not resolved, and itself constitutive of the classification (a
-  voiceless party cannot anchor more than a counter-force finding). FORCES TEST (Doc_04 §3.3): fractured
-  openly at Gangra (the censures are the fracture documented), then progressively domesticated as the ferment
-  is given a hearth (2B-1) - but never retired in-period; its live phase closes only with institutionalization
-  (3B-3), at and past the generation's end. The one tension the forces analysis shows being slowly WON rather
-  than merely held. CROSS-REGISTER (Doc_04 §5): runs household-to-brotherhood (households dissolved or
-  converted; communities ordered), reaches the congregation at the fast-and-feast line, and reaches the
-  village through Gangra's parish-defending canons. Across the radical-ascetic fracture: it IS that fracture,
-  tested. Cross-register, on the censures' own evidence.
+  The radical ferment stood against the strict koinōnia. Households were dissolved. Slaves were urged to
+  leave their masters. Fasts were kept against feasts, and breakaway assemblies formed. Against this stood
+  the ordered brotherhood, with its rule, its obedience and its guest-door. The evidence comes largely
+  from councils and laws. The radicals speak only through their censors' lists and their reformer's laws.
+  One whole side was handed down by its adversaries. It is strong on repetition. It is strong to moderate
+  on dependency. It is strong on formation where the line operates. Obedience set against self-willed
+  askesis is the formative core of the ordered community. The Gangra line shaped the ordinary parish too.
+  It is strong on explanation. It explains why the Asketikon exists at all. It explains why the guest-door
+  was designed. It explains the whole arc of the relationship with Eustathius. It is strong to moderate on
+  persistence, with the honest imbalance that one side is voiceless. It is strong on interaction. It
+  survives as a tension, and comfortably so. It is a lasting counter-force that was never fully retired in
+  the period. Its live phase ended only when the movement became an institution. The censures and the laws
+  rate Documented. The radical side's inner life is Inferential or Thin. That divergence is carried and
+  not resolved. It also shapes its ranking, since a voiceless party cannot anchor more than a finding of
+  counter-force. The tension broke open at Gangra, where the censures are the documented break. The
+  ferment was then given a hearth and slowly tamed. It was never retired in the period. Its live phase
+  closes only when the movement becomes an institution, at and past the end of the generation. It is the
+  one tension the analysis of forces shows being slowly won, and not merely held. It runs from household
+  to brotherhood. Households broke up or were converted, and communities took order. It reaches the congregation
+  at the line between fast and feast. It reaches the village through Gangra's canons in defense of the
+  parish. Across the radical and ascetic fracture, it is that fracture, tested. It crosses the registers,
+  on the censures' own word.
 manifestations:
 - the Gangra censures (c. 340s) - twenty canons against radical ascetic practice, the era's best against-the-grain record
 - the Asketikon's ordering answers - obedience against self-willed askesis, the slave-reception provisions

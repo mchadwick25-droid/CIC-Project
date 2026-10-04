@@ -57,27 +57,24 @@ relations:
 name: "The household as formation lineage [SUPPORTING - caveat carried]"
 classification: supporting
 description: >-
-  The Christian gentry family as the world's seminary: grandmother to mother to sister to brothers;
-  leadership emerging from converted households; the funeral orations' domestic saints (Doc_04 §1, §4) -
-  one family yielding three bishops, one didaskalos, and one monk. AG FLAG AT GENERATION (Doc_04 §1,
-  Revision 1's own correction against the original run's point-of-generation rule): the evidence base is
-  substantially one family's and one circle's self-memorialization - flagged before testing, not after.
-  SIX-TEST SUMMARY (Doc_04 §3.1): strong on Repetition, Formation (where visible), Interaction; MODERATE on
-  Dependency; MODERATE (visibility problem) on Persistence - the honest limit this record carries. CONFIDENCE
-  /GRAVITY CROSS-CHECK (Doc_04 §3.2, §3.1): the pattern (formation begins in the believing household, and
-  the region's leadership rose from such households) is Widely Accepted; its centrality as an organizing
-  gravity cannot be established beyond the writing families. The family texture is real, distinctive, and
-  partly a transmission artifact - the distinction Doc_01 §5 demanded is made rather than collapsed. FORCES
-  TEST (Doc_04 §3.3): held throughout the span but never directly tested by a hostile force - the forces
-  that touch it are generative (Doc_08 1B-2) and archival (2B-2: the transmission force amplifies its
-  visibility, the structural confirmation of this record's own caveat) - and it closes with the generation
-  itself (3B-1: the world's ending is a series of family funerals). A gravity whose force-history is
-  amplification-by-its-own-archive is exactly what the Supporting-with-caveat classification says it is.
-  CROSS-REGISTER (Doc_04 §5): visible in the writing families; assumed in canons and homilies; invisible
-  where no one wrote. Visibility-bounded. ADJUDICATION (Doc_04 §8): confirmed as real and distinctive but
-  bounded - classified Supporting, not Primary, because its evidential base is substantially the writing
-  family's self-memorialization; the honest version of this distinctive is "the world's record is a
-  household's memory," which is as much a transmission finding (Doc_08) as a gravity.
+  The Christian gentry family was the world's seminary. Formation passed from grandmother to mother to
+  sister to brothers. Leaders came out of converted households. The funeral orations hold up domestic
+  saints. One family gave three bishops, one teacher and one monk. The evidence is largely one family's
+  and one circle's memory of itself. That risk is flagged. This gravity is strong on repetition, on
+  formation where it can be seen, and on interaction. It is moderate on dependency. It is moderate on
+  persistence because it is hard to see in the record. That is the honest limit this record carries. The
+  pattern rates Widely Accepted. Formation begins in the believing household, and the region's leaders
+  rose from such households. Its place as a gravity that organizes the world cannot be shown beyond the
+  writing families. The family texture is real and distinctive. It is also partly an artifact of how the
+  record was passed down. The two are kept apart and not collapsed. No hostile force ever tested it
+  directly. The forces that touch it are of two kinds. The gentry household gives it birth, and the family
+  archive keeps its record. That transmission makes it easier to see. This confirms the caveat this record
+  carries. It closes with the generation itself, since the world's ending is a series of funerals in the
+  family. A gravity magnified by its own archive fits its place as Supporting with a caveat. It is seen in
+  the writing families. Canons and homilies assume it. It is unseen where no one wrote. It is real and
+  distinctive, but bounded. It ranks as Supporting, not Primary. Its evidence is largely the writing
+  family's memory of itself. The honest version is that the world's record is a household's memory. That
+  is as much a finding about transmission as a gravity.
 manifestations:
 - Vita Macrinae - the household's own conversion into a community
 - the funeral orations on family - Caesarius, Gorgonia, the elder Gregory

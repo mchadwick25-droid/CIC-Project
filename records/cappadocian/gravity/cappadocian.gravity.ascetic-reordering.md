@@ -67,23 +67,23 @@ relations:
 name: "The ascetic reordering of life toward koinōnia and the poor [PRIMARY]"
 classification: primary
 description: >-
-  Renunciation ordered into common life that faces the city: household become community, community with
-  a guest-door, wealth arraigned in famine, the poor as bearers of the image (Doc_04 §4). SIX-TEST SUMMARY
-  (Doc_04 §3.1): strong on all six tests, alongside Gravity 1 the world's only other candidate to score
-  strong across the board. ADJUDICATION (Doc_04 §8): confirmed, and stronger than proposed - it tests as
-  one of the two substantial Primaries, fused with the philanthropic institutions; the evidence would not
-  permit separating "monastic project" from "love of the poor" - they are one gravity in the sources
-  (Doc_04 §2 records this merge explicitly at generation). CONFIDENCE/GRAVITY CROSS-CHECK (Doc_04 §3.2):
-  organizing strength strong; underlying evidence Documented-Widely Accepted across genuinely independent
-  streams (ascetic-legislative, philanthropic-institutional, homiletic, formation-narrative) - no divergence
-  named. FORCES TEST (Doc_04 §3.3): absorbs the radical ferment (Gangra's disorder becomes the ordered
-  brotherhood), answers the famine (the poorhouse), and disciplines wealth (the homilies) - it takes every
-  social force the period throws and converts it into formation structure. It also survives the world's end
-  (the Rules outlive the region's moment) - the mark of substance rather than situation. CROSS-REGISTER
-  (Doc_04 §5): household (Annisa's conversion into community), brotherhood (its native ground), congregation
-  (the poverty homilies address the whole church; the poorhouse serves the city), see (episcopal patronage
-  and regulation). Across the radical-ascetic fracture: both sides share the ascetic conviction - the
-  fracture is over its ordering. Cross-register, fracture-defining.
+  Renunciation was ordered into a common life that faces the city. The household became a community. The
+  community kept a guest-door, wealth was put on trial in famine, and the poor were treated as bearers of
+  the image. This gravity scores strong on every test. Only the Triune confession gravity does the same.
+  These two are the only candidates in the world that score strong across the board. The review confirmed
+  it and found it stronger than proposed. It tests as one of the two large Primaries, fused with the
+  charitable houses. The evidence would not allow the monastic project to be split from love of the poor.
+  The sources hold them as one. Its pull is strong, and the evidence rates Documented to Widely Accepted
+  across truly separate streams: ascetic law, charity, preaching and formation story. No divergence is
+  named. It absorbs the radical ferment. The disorder at Gangra becomes the ordered brotherhood. It
+  answers the famine with the poorhouse. It checks wealth through the homilies. It takes each social force
+  of the age and turns it into a shape for formation. It also survives the world's end. The Rules outlive
+  the region's moment. That marks substance, not situation. It reaches all the registers. In the
+  household, Annisa's conversion becomes community. The brotherhood is its native ground. In the
+  congregation, the poverty homilies address the whole church and the poorhouse serves the city. In the
+  see, it shows as the bishop's patronage and rule. Both sides of the radical and ascetic fracture share
+  the ascetic conviction. The fracture is over its ordering. It crosses the registers and defines that
+  fracture.
 manifestations:
 - the ascetic-legislative corpus - the Asketikon and its embedded community questions
 - the Gangra canons - the disorder that ordering answered
