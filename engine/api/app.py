@@ -297,6 +297,7 @@ class VisitorUsageResponse(BaseModel):
     """See wiring.VisitorUsage's own docstring."""
     unique_visitors: int
     sessions_with_visitor_id: int
+    sessions_without_a_message: int
     median_session_seconds: float | None
     average_session_seconds: float | None
     median_visitor_total_seconds: float | None

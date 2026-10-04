@@ -49,6 +49,10 @@ class AuditSession:
     event_count: int = 0
     first_at: str | None = None
     last_at: str | None = None
+    # The last event that was conversation, not housekeeping: a message, a
+    # reply, a Facilitator turn or a committed turn. An idle close written
+    # by the daily sweep days later is not activity.
+    last_activity_at: str | None = None
     # The anon_cap visitor cookie's id (engine.api.anon_cap), lifted off
     # session_started.visitor_id same as world_keys above - None for
     # anon_cap-disabled deploys, non-HTTP callers, and every session_started
@@ -57,6 +61,9 @@ class AuditSession:
     # an aggregate rollup unlike participant_messages/gate_decisions above -
     # see wiring.get_usage_summary, the one place this is actually read.
     visitor_id: str | None = None
+
+
+ACTIVITY_EVENT_TYPES = frozenset({"participant_message", "facilitator_turn", "voice_turn", "turn_committed"})
 
 
 def read_session(store: Store, session_id: str) -> AuditSession | None:
@@ -81,6 +88,8 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
             session.first_at = ev.created_at
         session.event_count += 1
         session.last_at = ev.created_at
+        if ev.event_type in ACTIVITY_EVENT_TYPES:
+            session.last_activity_at = ev.created_at
         if session.closed and session.close_reason == "idle" and ev.event_type != "session_closed":
             # Mirrors engine.m4.projection._fold's identical reopen rule:
             # an idle close is reporting-only, and real
