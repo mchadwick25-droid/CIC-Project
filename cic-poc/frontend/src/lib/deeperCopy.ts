@@ -21,3 +21,17 @@ export const deeperCopy = {
   yourCode: (code: string) => `Your code is ${code}. Keep it safe. Enter it on another device to use your tokens there.`,
   balance: (n: number) => `${n.toLocaleString('en-US')} tokens left.`,
 };
+
+export const pilotCopy = {
+  joining: 'Getting your free pack.',
+  readyHeading: 'Your free pack is ready',
+  ready: (tokens: number, conversations: number) =>
+    `You have ${tokens.toLocaleString('en-US')} tokens, about ${conversations} conversations. They are saved in this browser, so there is nothing to copy.`,
+  start: 'Start a conversation',
+  already: 'You have joined the pilot. Your pack is in this browser.',
+  full: 'The pilot is full. Thank you for your interest.',
+  ended: 'The pilot has ended. Thank you.',
+  addressLimit: 'This connection has already taken the free packs the pilot allows. If that seems wrong, tell us through the',
+  feedbackForm: 'feedback form',
+  failed: "We couldn't get your pack. Try again from the pilot page.",
+};

@@ -1119,6 +1119,7 @@ def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
     made = join(http)
     body = made.json()
     assert made.status_code == 200 and body["joined"] is True and body["tokens"] == 1100
+    assert body["conversations"] == 10
     assert made.headers["cache-control"] == "no-store"
     assert runtime.meter.status(body["code"]).tokens_total == 1100
     assert runtime.meter.reserve(body["code"]).ok

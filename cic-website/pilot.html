@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join the pilot — Church in Conversation</title>
+<meta name="description" content="One free pack of tokens for taking part in the Church in Conversation pilot.">
+<meta property="og:title" content="Join the pilot — Church in Conversation">
+<meta property="og:description" content="One free pack of tokens for taking part in the Church in Conversation pilot.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://churchinconversation.com/pilot.html">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Three figures from different centuries of Christian history talk around a wooden table with a scroll and books.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.fine-print{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:#B8AEA1}
+.code-list{list-style:none;margin:1.2rem 0;padding:0;display:grid;gap:.8rem}
+.code-list li{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;min-width:0}
+.code-value{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.25rem;letter-spacing:.08em;overflow-wrap:anywhere}
+.state[hidden]{display:none}
+[data-pilot-end][hidden]{display:none}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="arriving-mark play" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
+          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
+        </svg>
+      </span>
+      <span class="wordmark">Church in Conversation</span>
+    </a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="index.html#who">Conversation with One</a>
+      <a class="feature-btn" href="table.html">Build a Table</a>
+    </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="pilot-offer" hidden style="padding-bottom:1rem;">
+    <p class="eyebrow">The pilot</p>
+    <h1>Join the pilot</h1>
+    <p>Go Deeper lets you keep talking after a free conversation ends. Join the pilot and we give you one free pack: <span data-ops="pilot-tokens">1,100</span> tokens, about <span data-ops="pilot-conversations">ten</span> conversations.</p>
+    <p>In return, we ask you to answer a short questionnaire after <span data-pilot-end="general" hidden>31 December 2026</span><span data-pilot-end="pastors" hidden>31 December 2026</span><span data-pilot-end="historians" hidden>31 December 2026</span>. You do not need to give your name or email.</p>
+    <p>Places are limited.</p>
+    <div class="hero-actions" style="margin:1.2rem 0 1rem;">
+      <a class="btn primary" id="pilot-button" href="#">Get my free pack</a>
+    </div>
+  </section>
+  <noscript><section class="page-section"><p class="fine-print">This page needs JavaScript.</p></section></noscript>
+</main>
+
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="pilot-feedback.html">Feedback</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/go-deeper-config.js"></script>
+<script src="assets/pilot.js"></script>
+<script>
+(function(){
+"use strict";
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
+</body>
+</html>

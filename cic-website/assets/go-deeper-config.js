@@ -8,6 +8,8 @@
   // request to a route that does not exist yet.
   root.GoDeeperConfig = {
     enabled: false,
+    // On when a pilot audience is open; off, the pilot page shows nothing.
+    pilot: false,
     app: isLocal ? "http://localhost:5173" : "https://cic-engine.onrender.com",
     api: isLocal ? "http://localhost:8000" : "https://cic-engine.onrender.com",
   };

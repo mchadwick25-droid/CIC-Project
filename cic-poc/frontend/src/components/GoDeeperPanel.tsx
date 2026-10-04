@@ -6,10 +6,12 @@
  */
 import { useEffect, useRef, useState } from 'react';
 import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, removeCode, useDeeper } from '../lib/deeper';
-import { deeperCopy } from '../lib/deeperCopy';
+import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
+import { dismissPilot, feedbackFormUrl, usePilot } from '../lib/pilot';
 
 export function GoDeeperPanel() {
   const { codes, remaining, low, claim, panelOpen } = useDeeper();
+  const pilot = usePilot();
   const held = codes.length > 0;
   const [entering, setEntering] = useState(false);
   const [text, setText] = useState('');
@@ -74,6 +76,29 @@ export function GoDeeperPanel() {
               {deeperCopy.close}
             </button>
           </div>
+          {pilot.status && (
+            <div className="go-deeper__section" role="group" aria-label={pilotCopy.readyHeading}>
+              {pilot.status === 'joining' && <p role="status">{pilotCopy.joining}</p>}
+              {pilot.status === 'ready' && (
+                <>
+                  <h3>{pilotCopy.readyHeading}</h3>
+                  {pilot.tokens !== null && pilot.conversations !== null && <p>{pilotCopy.ready(pilot.tokens, pilot.conversations)}</p>}
+                  <button type="button" onClick={() => { dismissPilot(); closePanel(); }}>
+                    {pilotCopy.start}
+                  </button>
+                </>
+              )}
+              {pilot.status === 'already' && <p>{pilotCopy.already}</p>}
+              {pilot.status === 'full' && <p>{pilotCopy.full}</p>}
+              {pilot.status === 'ended' && <p>{pilotCopy.ended}</p>}
+              {pilot.status === 'address_limit' && (
+                <p>
+                  {pilotCopy.addressLimit} <a href={feedbackFormUrl()}>{pilotCopy.feedbackForm}</a>.
+                </p>
+              )}
+              {pilot.status === 'failed' && <p role="alert">{pilotCopy.failed}</p>}
+            </div>
+          )}
           {claim ? (
             <div className="go-deeper__section" role="group" aria-label={deeperCopy.claimAsk}>
               <p>
