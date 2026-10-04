@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.chronicle-of-edessa
-  locus: the year-513 entry
+  locus: the year-513 entry (cic/texts/chronicle-of-edessa_cowper.txt, line 53; the 202 computation is the editor's note at line 368)
   license: public-domain
 retrieval:
   tier: 2
@@ -37,9 +37,10 @@ narrative_tier_justification: 'Tier 2 (collected/archival tradition): the Chroni
 tellable_as: the city chronicle's account of the great flood and the church it destroyed - our
   earliest hard trace
 text: >-
-  The Chronicle of Edessa records that in the year 513 of the Greeks - the
-  year 201 - in the month of November, the river Daisan rose against the city
-  in the night. King Abgar watched from the great tower by torchlight as the
+  The Chronicle of Edessa records a flood in the year 513 of the Greeks, in the
+  month of November. That is the year 201 by the usual count, though the
+  edition's note makes it 202. In the night, the river Daisan rose against
+  the city. King Abgar watched from the great tower by torchlight as the
   waters beat on the western wall. The wall gave way. The flood swept through
   and destroyed the king's palace, and more than two thousand people died in
   the water, many in their sleep. And among the losses, the chronicle sets
@@ -53,7 +54,7 @@ absent_detail: 'No Christian voice speaks in the account: no bishop or believer 
   scholarly dispute - the telling keeps ''the chronicle records'' audible.'
 modern_contrast: 'A modern reader might take this chronicle entry as a straightforward
   eyewitness civic record. This world''s own record is more careful: it is an archival
-  compilation from a century and a half later, and the detail that this world''s
+  compilation from about 340 years later, and the detail that this world''s
   earliest church building was destroyed in the flood carries a real, unresolved
   scholarly dispute this record holds open rather than smoothing over.'
 use_note:

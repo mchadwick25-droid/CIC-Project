@@ -4,7 +4,7 @@ world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
 status: ready
-register: emic
+register: etic
 canon_cells:
 - F5-I
 confidence:

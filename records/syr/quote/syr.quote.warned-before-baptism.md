@@ -13,11 +13,11 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription carries in-line markers ('~1~' for a footnote, '~' for a space) which are not reproduced; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. The passage stands in Demonstration VII (On Penitents), sec. 20, not VI (Of Monks): syr.dw.born-again-endtimes's own citation of Demonstration VI for 'the second birth; the Spirit received in baptism' names the wrong locus.
+    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription carries in-line markers: the '~1~' footnote marker is not reproduced, and the '~' space marker is kept as it stands in 'i.e.~in'. The translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand.
 sources:
 - source_id: syr.source.aphrahat-demonstrations-hallock
   locus: >-
-    Demonstration VII (On Penitents), sec. 20 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt)
+    Demonstration VII (On Penitents), sec. 20 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt, line 47)
   license: public-domain
 text: >-
   For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: "He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart. And he who loves possessions let him turn back from the army lest, perhaps, when the battle shall prevail against him he should remember his possessions and turn back to them, for there is disgrace to him who turns back from the conflict".
@@ -36,11 +36,11 @@ modern_rendering: >-
 speaker_or_author: Aphrahat, Demonstration VII.20
 license: verbatim
 modern_lens_note: >-
-  This settles the infant-baptism question by making it unaskable: nobody warned here is a baby. A herald stands up before the baptism and tells the candidates that anyone who wants marriage should marry FIRST, anyone frightened should withdraw now, and anyone attached to property should leave the line - and says it is no disgrace to turn back before enlisting, only after. Baptism is being described as enlistment, with the whole passage built on Gideon sending the fearful home. So 'were you born again' would land oddly: the decisive moment is a public choice with a cost stated in advance and an exit offered, which is nearer to taking vows than to a conversion experience.
+  The passage speaks only to adult candidates, so it does not answer whether infants were baptised. A herald stands up before the baptism and tells the candidates that anyone who wants marriage should marry FIRST, anyone frightened should withdraw now, and anyone attached to property should leave the line - and says it is no disgrace to turn back before enlisting, only after. Baptism is being described as enlistment, with the whole passage built on Gideon sending the fearful home. So 'were you born again' would land oddly: the decisive moment is a public choice with a cost stated in advance and an exit offered, which is nearer to taking vows than to a conversion experience.
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks whether babies were baptised or only adults who chose it"
+  - "participant asks what the covenant's candidates were told before they were baptised"
   - "participant asks what baptism actually required of a person here"
   - "participant asks whether they would call what happened to them being born again"
 relations:
@@ -56,9 +56,7 @@ use_note:
   status: reviewed
 ---
 This is the second of two quote records for F4-T. The passage is at
-Demonstration VII.20, in syr.source.aphrahat-demonstrations-hallock -
-not Demonstration VI (Of Monks), which carries the covenant teaching,
-not this.
+Demonstration VII.20, in syr.source.aphrahat-demonstrations-hallock.
 
 The record's quotation carries the preachers' warning through all three
 parallel clauses, closing with the source's own closing quotation mark;

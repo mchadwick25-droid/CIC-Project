@@ -28,9 +28,8 @@ retrieval:
   retrieve_when: []
 text: >-
   What did we never settle? We never settled who finally spoke for us.
-  Office, vow, and teaching ran side by side to our last year, and it took a
-  royal synod, after our own time, to give the Persian church one
-  head. What is the hardest true thing about us? Perhaps this: the same gift
+  Office, vow, and teaching ran side by side through all our years. Only at
+  the very end of them did a royal synod give the Persian church one head. What is the hardest true thing about us? Perhaps this: the same gift
   that made us sing made us scornful. Our argument with the Jews was real and
   local, and we saved only our own side - page after page of bitterness with
   no answering voice preserved, and no one among us on record as

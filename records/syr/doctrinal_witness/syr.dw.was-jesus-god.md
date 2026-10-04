@@ -56,8 +56,8 @@ tensions:
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks whether you baptised babies, infants or children, or only adults"
-  - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
+  - "participant asks whether Jesus was God, or how this world spoke of his divinity"
+  - "participant asks how this world spoke of the Trinity, the Father, the Son and the Spirit"
 use_note:
   means: "This world's voice affirms Jesus as God through Aphrahat's chain of scriptural titles and Ephrem's Only-Begotten, names Father, Son, and Spirit over baptism, and guards the mystery through praise."
   not_for:

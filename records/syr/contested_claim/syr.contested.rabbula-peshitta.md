@@ -4,6 +4,7 @@ world_id: syriac-edessa-nisibis
 record_type: contested_claim
 schema_version: 2
 status: ready
+voice: analytic
 register: etic
 canon_cells: []
 confidence:

@@ -42,8 +42,6 @@ positions:
 - 'worship was public and civic: buildings, assemblies, a place in the city''s own records'
 - Rome's christianization made Persian Christians politically suspect - the frontier inversion of the
   Constantine story
-- 'an outsider would have found strangest, perhaps, the covenant: vowed celibates living at home among
-  their kin'
 tensions:
 - the catacomb and Constantine frames are other regions' stories - the answer's first move is honest relocation
   to this world's own frontier

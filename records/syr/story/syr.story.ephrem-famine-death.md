@@ -15,10 +15,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.palladius-lausiac-history
-  locus: the Ephraim chapter (file line 471)
+  locus: the Ephraim chapter (cic/texts/palladius_lausiac-history_clarke1918.txt, line 471)
   license: public-domain
 - source_id: syr.source.sozomen-historia-ecclesiastica
-  locus: III.16 (the famine account)
+  locus: III.16 (the famine account; cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 32140-32162)
   license: public-domain
 retrieval:
   tier: 2
@@ -50,11 +50,12 @@ text: >-
   strangers' house. He took their money and had some three hundred beds set up
   in the public porches. There he nursed the starving and the sick, strangers
   and townsfolk alike, and buried those who died, until the year turned and
-  the famine broke. Then he went back to his cell, and within a month he died.
+  the famine broke. Then he went back to his cell and died soon after. Palladius says a month
+  later. Sozomen says after a few days.
 absent_detail: The operational particulars beyond the early notices (what exactly was distributed, how
   the work was organized day to day) are not attested and are not supplied. The count of three hundred
   beds and the dialogue with the rich are the early accounts' own telling - remembered tradition, not
-  verified reporting.
+  verified reporting. The two accounts also differ on how soon he died - a month later in Palladius, a few days in Sozomen.
 modern_contrast: 'A modern reader might picture this as the founding of a hospital in
   anything like the modern institutional sense. This world''s own record describes
   something narrower and more personal: one teacher''s emergency response to a single
@@ -62,7 +63,7 @@ modern_contrast: 'A modern reader might picture this as the founding of a hospit
   institution - not an ongoing medical charity, and not repeated after the crisis
   passed.'
 use_note:
-  means: "Palladius and Sozomen report that in the famine of Ephrem's last year he nursed the starving in Edessa's public porches, dying soon after it ended."
+  means: "Palladius and Sozomen report that in the famine of Ephrem's last year he nursed the starving in Edessa's public porches, dying soon after it ended, a month later by Palladius and after a few days by Sozomen."
   not_for:
     - "a claim that the account is eyewitness or Tier 1 evidence"
     - "a claim that the three hundred beds and the dialogue with the rich are verified reporting"

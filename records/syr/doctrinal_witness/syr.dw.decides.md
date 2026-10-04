@@ -21,12 +21,15 @@ sources:
   locus: I-XXI (the bishops' line remembered)
   license: public-domain
 - source_id: syr.source.socrates-historia-ecclesiastica
-  locus: VII.8 (the synod's door opened at the close)
+  locus: VII.8 (the king lets Maruthas build churches)
   license: public-domain
+- source_id: syr.source.gedsh
+  locus: the synod of 410 and its settled order
+  license: in-copyright-consultation
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks who appointed or ordained the bishops and the catholicos"
+  - "participant asks who appointed or ordained the bishops and the head of the Persian church"
 relations:
 - type: associated-with
   target: syr.quote.permitted-to-erect-churches

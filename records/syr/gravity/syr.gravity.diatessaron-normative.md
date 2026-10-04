@@ -64,4 +64,4 @@ stays Contested and is quarantined in syr.contested.diatessaron-name;
 it does not undercut the use-claim. Forces-connection: HELD through
 the window; supersession is the closing transition (ending force),
 not a mid-window response - carried with
-syr.force.peshitta-transition at the forces step.
+syr.force.transmission-ending at the forces step.
