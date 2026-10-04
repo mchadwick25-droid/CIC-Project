@@ -48,7 +48,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | Setting | Where | Value | Notes |
 |---|---|---|---|
 | `CIC_DEEPER_ENABLED` | engine (Render) | `1` | Off by default. Off means no route under `/api/deeper` or `/api/admin/deeper` exists and no file is opened. |
-| `CIC_API_ANON_CAP_ENABLED` | engine | on | **Required.** The engine refuses to start with the module on and this off. |
+| `CIC_API_ANON_CAP_ENABLED` | engine | `1` (`true` or `yes` also work; `on` does not and stops the start) | **Required.** The engine refuses to start with the module on and this off. |
 | `CIC_DEEPER_WEBHOOK_SECRET` | engine, secret | from Stripe | Never in the repo. |
 | `CIC_DEEPER_PRODUCTS` | engine | JSON keyed by Payment Link id | One entry per pack: kind, tokens, optional count and daily ceiling. A link not listed here mints nothing. |
 | `CIC_DEEPER_GIFT_LINKS` | engine | JSON list of Payment Link ids | Gifts count toward the door; a link cannot be both a product and a gift. |
@@ -60,7 +60,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `enabled` | `cic-website/assets/go-deeper-config.js` | `true` at step 4 | Until it is true the home and Get Involved pages make no door-line request. |
 | `PAYMENT_LINK` | `cic-website/go-deeper.html` | the Payment Link | The buy button stays off until one is set. The page carries one link today and the packs are three, so a link per pack is a change to make at step 4 once the S4 links exist. |
 
-The meter file is backed up daily when the backup job is given `--meter-db`. Confirm that is configured before step 2. The claim table lives in its own file and stays out of backups on purpose.
+The meter file is backed up by the engine's own daily job whenever the module is on (the app passes it as an extra database). Production relies on that. The CLI option `--meter-db` is for taking a backup by hand, for example before a rollback. Confirm the daily job lists a meter backup before step 2. The claim table lives in its own file and stays out of backups on purpose.
 
 The website's production deploy follows `main` directly, not `live`. Merging a site change to `main` ships it. The `enabled: false` setting and the unlinked pages are what keep it dark.
 
@@ -77,7 +77,7 @@ Staging is `cic-engine-staging`, which follows `main`. Use Stripe test mode.
 7. Pause codes (`POST /api/admin/deeper/pause` with `{"on": true}`). The next message with a code gets the paused line. Free conversations carry on. Unpause.
 8. Run each state on the Ledger page's list and read the words as a participant would: spent, too few, in use, group daily limit, code not accepted, paused.
 9. Send a message that reads as distress, one that is unclear, and one the safety check cannot read, at: the third free round, a spent code, a paused module, and each door stage. Each must get the Facilitator's answer and never the limit message.
-10. Drive the door: with a low base number in the operations file on staging, run traffic until each stage is reached. Read `GET /api/admin/deeper/door` at each. Confirm the free path narrows in the order the operations file lists, free voice closes, and at the last stage a code is refused with nothing spent.
+10. Drive the door: copy the operations file, set a low base number in the copy, and point `CIC_DEEPER_OPS_FILE` at the copy on staging (never edit the shipped file for a test). Run traffic until each stage is reached. Read `GET /api/admin/deeper/door` at each. Confirm the free path narrows in the order the operations file lists, free voice closes, and at the last stage a code is refused with nothing spent.
 11. Open the admin dashboard. The Go Deeper section shows the day's codes, tokens and refusals, and the "highest door stage" column moves with step 10.
 12. Take a backup and restore it to a scratch copy. The restored meter file has the same balances.
 13. Flip the module off (rollback step 4). Confirm the free path is unchanged and every deeper route returns 404.
@@ -87,34 +87,39 @@ Staging is `cic-engine-staging`, which follows `main`. Use Stripe test mode.
 
 One paid run before step 4, to see that the voice holds across the longest sitting a pack allows. This is a paid bulk run on a metered outside service, so it follows the standing rule: a small sample first, Mark approves the sample by ear or eye, and only then the rest.
 
-- **Sizing:** the longest sitting a pack allows is about sixty conversations on the $30 pack. Size the run to that, and state the count in the request.
-- **Settings are passed on the command, never inherited:** the voice model id, generation settings and the cap are named explicitly, and the run prints them with item counts. Confirm from that printout that what was paid for is what was meant.
+- **Sizing is Mark's to choose.** Two different things are called the longest a pack allows. Sixty is the number of three-round conversations the $30 pack buys. The longest single solo sitting it allows is about 262 rounds (50 tokens to open, 20 a round for rounds one to three, then 25 a round: 6,585 of the 6,600 tokens). The voice's behaviour late in a long sitting is what the run is meant to test, so the run needs the long sitting. A Table sitting uses more tokens a round and runs shorter. The request names which sittings are run and how many.
+- **Settings are passed on the command, never inherited:** the voice model id and generation settings are named explicitly, and the run prints them with item counts and character (token) counts. Confirm from that printout that what was paid for is what was meant.
 - **A stated cap** on spend is written into the request, and the run stops at it.
-- **Approval:** Mark approves the sample first, then the cost and the settings, before anything runs. The build thread does not start the run on its own.
+- **The order:** (1) the build thread states the sample's settings and cost; (2) the sample runs; (3) Mark approves the sample by ear or eye; (4) the build thread states the full run's cost and cap; (5) Mark approves; (6) the full run. The build thread does not start any step on its own.
+- **The run script gets its own review** by the Opus thread before the sample runs.
 - A check that files match each other proves nothing about what produced them. Verify the thing that was paid for.
 
 ## Part 5 — The four production steps
 
-Each step is a separate promotion or setting change, with a wait and a look between. Mark does the promotion; the build thread watches and reports.
+Each step is a separate promotion or setting change, with a wait and a look between. Mark does the promotion; the build thread watches and reports. **The steps are cumulative.** Step 3 and step 4 assume the engine is still on from step 2. The module cannot be turned off at the engine while a Payment Link is live and the app or site is on (Part 6 says why).
+
+There is no way to hand-mint a code. Only a Stripe completion event makes one. So the first live code is a real purchase.
 
 **Step 1 — Ship dark.** Promote the code with every flag off. Check: the engine behaves as before, no route under `/api/deeper` exists, the site pages are unchanged and make no request, the dashboard shows no Go Deeper section. Wait a day.
 
-**Step 2 — Engine on.** Set the Part 2 engine settings with live-mode Stripe values and turn `CIC_DEEPER_ENABLED` on. The app and site are still off, so no participant sees anything. Check: the webhook endpoint is reachable by Stripe, the door computes from the usage log (`GET /api/admin/deeper/door`), the dashboard section appears. The first real use is a hand-minted test code through the sponsor path, spent in a sitting from the app build in step 3.
+**Step 2 — Engine on.** Set the Part 2 engine settings with live-mode Stripe values and turn `CIC_DEEPER_ENABLED` on. The app and site are still off, so no participant sees anything. Check: the webhook endpoint is reachable by Stripe, the door computes from the usage log (`GET /api/admin/deeper/door`), the dashboard section appears. Then Mark makes one real purchase of the smallest pack through a live Payment Link that no page links to, and reads the code from the return page. The reconciliation count must show one payment seen, one code made, a gap of zero. Mark then refunds that purchase in full in Stripe and checks that the refund event voids the code (`refunds_applied` is one, `GET /api/admin/deeper/owed` no longer lists it). This is the first live proof of the whole loop.
 
-**Step 3 — App on.** Build the app with `VITE_DEEPER_ENABLED=on` and promote. The panel opens at a limit and on request, and accepts a code a person enters. There is still no buy button anywhere. Check the safety matrix again on production with the hand-minted code.
+**Step 3 — App on.** Build the app with `VITE_DEEPER_ENABLED=on` and promote. The panel opens at a limit and on request, and accepts a code a person enters. There is still no buy button anywhere. Mark makes a second real smallest-pack purchase through the unlinked Payment Link, enters its code in a sitting, and runs the safety matrix on production (Part 3, step 9) with it, then refunds it in full.
 
 **Step 4 — Site on.** Only after the Part 4 run is approved and clean, and Mark has signed Part 3. Set the Payment Link or links on `go-deeper.html`, set `enabled: true` in `go-deeper-config.js`, remove `noindex` from the two pages, and link the Go Deeper page. Merging to `main` ships the site. Watch the reconciliation gap and the dashboard daily for the first week.
 
 ## Part 6 — Rollback
 
-Do the first step that stops the harm, then stop. Each is reversible. The order is from the lightest to the heaviest.
+Do the first step that stops the harm, then stop. The order is from the lightest to the heaviest.
 
-1. **Pause codes** (`POST /api/admin/deeper/pause`, admin login). Takes effect on the next request. Codes stop being spent; the free path is untouched; a participant with a code sees the paused line. Use this first for any doubt about money or codes.
-2. **Close the site.** Set `enabled: false` in `go-deeper-config.js`, remove the Go Deeper link and clear `PAYMENT_LINK`, and merge to `main`. Deactivate the Payment Links in Stripe so nothing new is sold even from an old link or bookmark.
+**What pausing does and does not do.** Pausing codes stops codes being spent. It does not stop Stripe selling. A live Payment Link keeps taking money while codes are paused, and after the engine module is off (step 4) the webhook is a 404, so a buyer pays and never gets a code. Stripe retries a failed webhook for a while and then gives up. So the rule is: **stop selling before, or with, anything that removes the webhook.**
+
+1. **Stop selling, and pause codes.** For any doubt about money or codes, do both together: deactivate every Payment Link in Stripe (so nothing new is sold, even from an old link or bookmark), then pause codes (`POST /api/admin/deeper/pause`, admin login; effective on the next request). The free path is untouched; a participant with a code sees the paused line.
+2. **Close the site.** Set `enabled: false` in `go-deeper-config.js`, remove the Go Deeper link and clear `PAYMENT_LINK`, and merge to `main`. Payment Links must already be deactivated (step 1).
 3. **Turn the app off.** Rebuild with `VITE_DEEPER_ENABLED` unset and deploy. The panel and the code header go away.
-4. **Turn the engine module off.** Unset `CIC_DEEPER_ENABLED` and deploy. Every deeper route is gone, no file is opened, and every conversation gets the free grant. The meter and claim files stay on disk; do not delete them.
+4. **Turn the engine module off.** Only with every Payment Link deactivated and any sale from the last hours reconciled (the daily reconciliation gap is zero). Unset `CIC_DEEPER_ENABLED` and deploy. Every deeper route is gone, no file is opened, and every conversation gets the free grant. The meter and claim files stay on disk; do not delete them.
 
-After any rollback past step 1, work out who is owed (below) before closing the incident. Rolling back the code with `git revert` of the promotion PR is the permanent fix (`CiC_Incident_Rollback_Runbook.md`).
+After any rollback past step 1, work out who is owed (Part 7) before closing the incident. Reverting the promotion PR with `git revert` is the permanent fix (`CiC_Incident_Rollback_Runbook.md`).
 
 ## Part 7 — Balances owed at a switch-off
 
@@ -122,12 +127,19 @@ After any rollback past step 1, work out who is owed (below) before closing the 
 
 What is refunded, and whether a refund is whole or partial, is the refund policy, which is Mark's. This report gives the numbers; it does not decide them.
 
-Refunds made in Stripe reach the meter by the refund event and void the code; the reconciliation count shows them.
+**Two facts about refunds that the report does not hide:**
+
+- **A partial refund is not seen.** The webhook ignores a partial refund (it counts it as `partial_refunds_ignored`) and the code stays live. A refund made while the module is off sends the module no event at all.
+- **A balance stays live until it is voided.** A refunded payment whose code was never voided still shows in the owed report, can still be spent, and could be refunded a second time. If the module is switched back on, the code works again.
+
+So at a switch-off: export the owed report as a snapshot before the engine goes off, settle every balance in Stripe against that snapshot (not against the live list afterwards), and for every refunded payment (whole or partial) void its codes with `POST /api/admin/deeper/void` and `{"payment_id": "pi_..."}`. That route does exactly what a full-refund event does: voids the codes, takes the money out of the door's sum, and counts it in the reconciliation. It is safe to repeat. Void before the engine is turned off, because the route does not exist afterwards.
+
+Until every refunded payment is voided, the written rule is that **the module stays off** and is not turned back on.
 
 ## Part 8 — Removal checklist (if Go Deeper is retired)
 
 1. Roll back through step 4 above and keep the module off.
-2. Export the owed report and settle every balance per the refund policy.
+2. Export the owed report as a snapshot and settle every balance per the refund policy; void every refunded payment's codes (Part 7).
 3. Deactivate the Payment Links and delete the webhook endpoint in Stripe.
 4. Take a last backup of the meter file, and hold it for the retention period the privacy page states.
 5. Remove the secrets (`CIC_DEEPER_WEBHOOK_SECRET`) and the Go Deeper settings from Render.
@@ -147,3 +159,5 @@ Refunds made in Stripe reach the meter by the refund event and void the code; th
 - Crisis turns are not counted by the module, which never sees message content.
 - A refused message that the safety check then lets through to the Facilitator is counted as a refusal.
 - The go-deeper page carries one Payment Link; three packs need three.
+- There is no hand-mint or sponsor-code path: only a Stripe completion event makes a code. The first live codes are real smallest-pack purchases, refunded. A sponsor path is its own slice if Mark wants one.
+- A partial refund is not reflected in a balance automatically. Use the admin void route.

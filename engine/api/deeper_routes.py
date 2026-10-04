@@ -223,11 +223,20 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
         payment = payment_id_of(event)
         if payment is None:
             return "ignored_no_payment"
-        voided = runtime.meter.void(payment)
-        runtime.meter.void_funds(payment)
-        runtime.meter.tally("refunds_applied", voided)
+        apply_refund(runtime, payment)
         return "voided"
     return "ignored_type"
+
+
+def apply_refund(runtime: DeeperRuntime, payment: str) -> int:
+    """Takes a payment back: its codes are void, its money leaves the door's
+    sum, and the reconciliation counts it. The webhook calls this for a full
+    refund or a dispute; the admin route calls it for a refund Stripe's event
+    cannot report (a partial one, or any made while the module was off)."""
+    voided = runtime.meter.void(payment)
+    runtime.meter.void_funds(payment)
+    runtime.meter.tally("refunds_applied", voided)
+    return voided
 
 
 def _mint_for(runtime: DeeperRuntime, session: dict, product: Product) -> str:
@@ -304,6 +313,10 @@ class BalanceResponse(BaseModel):
 
 class PauseRequest(BaseModel):
     on: bool
+
+
+class VoidRequest(BaseModel):
+    payment_id: str = Field(..., min_length=1, max_length=200)
 
 
 class FundsRequest(BaseModel):
@@ -416,6 +429,11 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         authenticate_admin(request, authorization)
         runtime.meter.pause(req.on)
         return {"paused": runtime.meter.is_paused()}
+
+    @app.post("/api/admin/deeper/void")
+    def void_payment(req: VoidRequest, request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"payment_id": req.payment_id, "voided": apply_refund(runtime, req.payment_id)}
 
     @app.post("/api/admin/deeper/funds")
     def add_funds(req: FundsRequest, request: Request, authorization: str | None = Header(default=None)):
