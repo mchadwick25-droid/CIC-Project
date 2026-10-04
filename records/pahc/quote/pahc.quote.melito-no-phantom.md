@@ -65,6 +65,13 @@ retrieval:
   - "participant asks for settled proof that Melito himself said this - the attribution is contested"
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}
+use_note:
+  means: "A fragment attributed to Melito says Christ's soul and body were real, no phantom, his miracles and earlier hidden years showing deity and humanity."
+  not_for:
+    - "settled proof that Melito himself wrote these words"
+    - "secure independent corroboration of Ignatius's argument that Christ's flesh was real"
+  years: {from: 160, to: 177}
+  status: reviewed
 ---
 This fragment sits inside pahc.source.second-third-century-remains, a
 source record already compiled for this world for its Polycrates/

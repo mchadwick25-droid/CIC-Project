@@ -62,6 +62,12 @@ modern_contrast: >-
   disputed by the very people Julius wrote against; the letter needing to be written, and needing to
   invoke a 'custom,' is itself evidence the claim was not yet settled, not proof that it already
   was.
+use_note:
+  means: "Julius's letter of 341 is Rome's primacy claim in its earliest surviving voice, preserved by Athanasius and disputed by those it addressed."
+  not_for:
+    - "a claim that Rome already held a settled, universally recognized supreme authority in 341"
+  years: {from: 341, to: 341}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy Doc_09 story 5
 (Story-Chunks/ijcstory005); the custom sentence verified verbatim

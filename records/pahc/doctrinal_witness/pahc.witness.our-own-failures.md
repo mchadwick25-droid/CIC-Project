@@ -39,6 +39,14 @@ text: >
   side's account is what survived. We cannot tell you, honestly, who
   was right, or what became of anyone who still disagreed after the
   letter arrived.
+use_note:
+  means: "Rome's letter rebuking Corinth for deposing its presbyters is this world's clearest institutional conflict, preserved only in the intervening party's account."
+  not_for:
+    - "a balanced account of the Corinthian dispute"
+    - "a verdict on whether Corinth or Rome was right"
+    - "a claim about what happened to those who disagreed with Rome's correction"
+  years: {from: 80, to: 140}
+  status: reviewed
 ---
 1 Clement's own occasion (the Corinthian deposition and Rome's letter)
 checked directly against cic/texts/anf01_apostolic-fathers-justin-

@@ -38,6 +38,12 @@ retrieval:
 relations:
 - type: associated-with
   target: ijc.dw.record-under-question
+use_note:
+  means: "At Chalcedon's first session the imperial presiding officials rule that the shouting is unworthy of bishops and order all the documents read."
+  not_for:
+    - "a claim that the presiding officials ruled on the theology in dispute"
+  years: {from: 451, to: 451}
+  status: reviewed
 ---
 Opened for F2-E, served by ijc.dw.record-under-question alone, whose loci read 'the acts
 and canons' and 'the embedded documents versus the narrative frame' - bodies of text, which is why the

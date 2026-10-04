@@ -16,7 +16,7 @@ class Stage:
     at: float
     table_free_rounds: int | None = None
     solo_free_rounds: int | None = None
-    free_day_share: float | None = None
+    free_share: float | None = None
     free_voice: bool | None = None
     paid_voice: bool | None = None
 
@@ -39,7 +39,7 @@ class DoorState:
     ceiling_usd: float
     table_free_rounds: int | None = None
     solo_free_rounds: int | None = None
-    free_day_share: float = 1.0
+    free_share: float = 1.0
     free_voice: bool = True
     paid_voice: bool = True
 
@@ -70,7 +70,7 @@ def compute(settings: DoorSettings, list_price_spend_usd: float, funds_cents: di
             ceiling_usd=ceiling,
             table_free_rounds=state.table_free_rounds if stage.table_free_rounds is None else stage.table_free_rounds,
             solo_free_rounds=state.solo_free_rounds if stage.solo_free_rounds is None else stage.solo_free_rounds,
-            free_day_share=state.free_day_share if stage.free_day_share is None else stage.free_day_share,
+            free_share=state.free_share if stage.free_share is None else stage.free_share,
             free_voice=state.free_voice if stage.free_voice is None else stage.free_voice,
             paid_voice=state.paid_voice if stage.paid_voice is None else stage.paid_voice,
         )

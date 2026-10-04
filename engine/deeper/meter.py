@@ -6,11 +6,19 @@ than a day: the day a code was made and the week it was last used. It keeps
 the Stripe payment id, so a refund or dispute can void a code and a sponsor's
 batch can be voided in one step.
 
+One table holds a visitor-derived value by ruling: the free allowance keeps,
+for each visitor in a free window, a keyed hash of the visitor key, the day the
+window began and the amount drawn. The key for that hash comes from the
+server's environment and is never written to this file, so the file alone
+cannot be matched to a visitor and an address cannot be recovered from it.
+
 Admission reserves a turn's tokens before the voice speaks; settling spends them,
 releasing returns them. Reservations live in memory only, so a restart gives
 every in-flight reservation back and nobody pays for a turn that never
 finished. One process serves all traffic, so the lock below is the arbiter.
 """
+import hashlib
+import hmac
 import logging
 import secrets
 import sqlite3
@@ -28,7 +36,22 @@ KINDS = ("single", "batch", "group")
 LIVE, SPENT, VOID = "live", "spent", "void"
 
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
+SOURCES = ("purchase", "admin", "pilot")
+GRANT_PREFIXES = {"admin": "admin_", "pilot": "pilot_"}
+MINT_COUNT_FIELDS = {"admin": "admin_codes_minted", "pilot": "pilot_codes_minted"}
+REPORT_FIELDS = (*TALLY_FIELDS, *MINT_COUNT_FIELDS.values())
 RECONCILE_RETENTION_DAYS = 90
+MEASURE_RETENTION_DAYS = 90
+REFUSAL_REASONS = (
+    "no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use",
+    "free_rounds_done", "free_allowance_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
+)
+SUM_MEASURES = (
+    "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_granted", "tokens_spent",
+    *(f"refused_{reason}" for reason in REFUSAL_REASONS),
+    "observed_free_refused", "observed_paid_refused",
+)
+MAX_MEASURES = ("door_stage", "door_ratio_permille", "door_spend_cents")
 FUNDS_KINDS = ("gift", "purchase", "adjustment")
 FUNDS_RETENTION_DAYS = 90
 MAX_FUNDS_CENTS = 10_000_000
@@ -37,6 +60,7 @@ MAX_NOTE_CHARS = 200
 MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
+DEFAULT_FREE_WINDOW_DAYS = 30
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS meter (
@@ -62,7 +86,9 @@ CREATE TABLE IF NOT EXISTS reconcile (
     payments_voided_first INTEGER NOT NULL DEFAULT 0,
     codes_minted INTEGER NOT NULL DEFAULT 0,
     refunds_applied INTEGER NOT NULL DEFAULT 0,
-    partial_refunds_ignored INTEGER NOT NULL DEFAULT 0
+    partial_refunds_ignored INTEGER NOT NULL DEFAULT 0,
+    admin_codes_minted INTEGER NOT NULL DEFAULT 0,
+    pilot_codes_minted INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS funds (
     entry TEXT PRIMARY KEY,
@@ -72,6 +98,17 @@ CREATE TABLE IF NOT EXISTS funds (
     payment_id TEXT UNIQUE,
     note TEXT,
     reversed INTEGER NOT NULL DEFAULT 0
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS daily (
+    day TEXT NOT NULL,
+    measure TEXT NOT NULL,
+    total INTEGER NOT NULL,
+    PRIMARY KEY (day, measure)
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS free_window (
+    key_hash TEXT PRIMARY KEY,
+    first_day TEXT NOT NULL,
+    spent INTEGER NOT NULL CHECK (spent >= 0)
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
@@ -90,6 +127,15 @@ class AlreadyMinted(DeeperError):
 
 class PaymentVoided(DeeperError):
     """The payment was refunded or disputed before its codes were made."""
+
+
+class MintLimit(DeeperError):
+    """A grant would take the day's tokens in admin or pilot codes past its limit."""
+
+
+def is_grant(payment_id: str) -> bool:
+    """True for the id of a code made without a payment (an admin or pilot grant)."""
+    return payment_id.startswith(tuple(GRANT_PREFIXES.values()))
 
 
 @dataclass(frozen=True)
@@ -146,8 +192,12 @@ class Meter:
         *,
         clock: Callable[[], date] = _utc_today,
         group_daily_ceiling: int = DEFAULT_GROUP_DAILY_CEILING,
+        free_window_days: int = DEFAULT_FREE_WINDOW_DAYS,
+        free_key: bytes | None = None,
     ):
         self._clock = clock
+        self._free_secret = free_key if free_key is not None else secrets.token_bytes(32)
+        self._free_window_days = free_window_days
         self._group_daily_ceiling = group_daily_ceiling
         self._lock = threading.RLock()
         self._reserved: dict[str, int] = {}
@@ -156,6 +206,14 @@ class Meter:
         self._conn.execute("PRAGMA journal_mode=WAL")
         self._conn.execute("PRAGMA secure_delete=ON")
         self._conn.executescript(_SCHEMA)
+        self._migrate()
+
+    def _migrate(self) -> None:
+        """Adds the grant columns to a reconcile table made before they existed."""
+        have = {row[1] for row in self._conn.execute("PRAGMA table_info(reconcile)")}
+        for column in MINT_COUNT_FIELDS.values():
+            if column not in have:
+                self._conn.execute(f"ALTER TABLE reconcile ADD COLUMN {column} INTEGER NOT NULL DEFAULT 0")
 
     def close(self) -> None:
         with self._lock:
@@ -170,6 +228,8 @@ class Meter:
         *,
         daily_ceiling: int | None = None,
         prepared: list[str] | None = None,
+        source: str = "purchase",
+        daily_token_limit: int | None = None,
     ) -> list[str]:
         """Makes the codes for one payment and returns them in plain form, the
         only moment they exist outside a person's hands. Raises AlreadyMinted
@@ -177,7 +237,19 @@ class Meter:
 
         prepared: codes the caller generated and has already put somewhere
         safe, so a crash between the two steps loses nothing. The payment's
-        reconciliation counts commit in the same transaction as its codes."""
+        reconciliation counts commit in the same transaction as its codes.
+
+        source: "purchase" (the default) is a Stripe payment. "admin" and "pilot"
+        are grants, made with no payment: their payment id must carry the
+        grant's prefix, they count in their own reconciliation column and never
+        as a payment, and daily_token_limit caps the tokens such codes may hold for the day,
+        checked inside the same transaction so two requests cannot both pass."""
+        if source not in SOURCES:
+            raise ValueError(f"unknown source {source!r}")
+        if source == "purchase" and is_grant(payment_id):
+            raise ValueError("a purchase cannot use a grant's payment id")
+        if source != "purchase" and not payment_id.startswith(GRANT_PREFIXES[source]):
+            raise ValueError(f"a {source} grant's id must start with {GRANT_PREFIXES[source]!r}")
         if kind not in KINDS:
             raise ValueError(f"unknown kind {kind!r}")
         if not isinstance(tokens, int) or not 0 < tokens <= MAX_TOKENS_PER_CODE:
@@ -206,6 +278,13 @@ class Meter:
                 if self._conn.execute("SELECT 1 FROM meter WHERE payment_id = ? LIMIT 1", (payment_id,)).fetchone():
                     raise AlreadyMinted(payment_id)
                 today = self._clock().isoformat()
+                if source != "purchase" and daily_token_limit is not None:
+                    made_today = self._conn.execute(
+                        "SELECT COALESCE(SUM(tokens_total), 0) FROM meter WHERE day_created = ? AND payment_id LIKE ? ESCAPE '\\'",
+                        (today, GRANT_PREFIXES[source].replace("_", "\\_") + "%"),
+                    ).fetchone()[0]
+                    if made_today + tokens * count > daily_token_limit:
+                        raise MintLimit(source)
                 made: list[str] = []
                 while len(made) < count:
                     code = prepared[len(made)] if prepared is not None else codes.generate()
@@ -219,11 +298,20 @@ class Meter:
                     elif prepared is not None:
                         raise ValueError("a prepared code is already in the meter")
                 self._conn.execute("INSERT OR IGNORE INTO reconcile (day) VALUES (?)", (today,))
-                self._conn.execute(
-                    "UPDATE reconcile SET payments_seen = payments_seen + 1, payments_minted = payments_minted + 1,"
-                    " codes_minted = codes_minted + ? WHERE day = ?",
-                    (count, today),
-                )
+                if source == "purchase":
+                    self._conn.execute(
+                        "UPDATE reconcile SET payments_seen = payments_seen + 1, payments_minted = payments_minted + 1,"
+                        " codes_minted = codes_minted + ? WHERE day = ?",
+                        (count, today),
+                    )
+                else:
+                    column = MINT_COUNT_FIELDS[source]
+                    self._conn.execute(f"UPDATE reconcile SET {column} = {column} + ? WHERE day = ?", (count, today))
+                if source == "purchase":
+                    self._count(f"codes_{kind}", count, today)
+                    self._count("tokens_sold", tokens * count, today)
+                else:
+                    self._count("tokens_granted", tokens * count, today)
                 self._conn.execute("COMMIT")
             except BaseException:
                 self._conn.execute("ROLLBACK")
@@ -322,6 +410,7 @@ class Meter:
             self._day_used[reservation.code_hash] = (
                 (day, count + reservation.count) if day == today.isoformat() else (today.isoformat(), reservation.count)
             )
+            self._count("tokens_spent", reservation.count, today.isoformat())
             row = self._row(reservation.code_hash)
             return row[2] - row[3]
 
@@ -389,14 +478,128 @@ class Meter:
         gap is what is still owed: seen, minus minted, minus refunded first."""
         with self._lock:
             rows = self._conn.execute(
-                f"SELECT day, {', '.join(TALLY_FIELDS)} FROM reconcile ORDER BY day DESC LIMIT ?", (days,)
+                f"SELECT day, {', '.join(REPORT_FIELDS)} FROM reconcile ORDER BY day DESC LIMIT ?", (days,)
             ).fetchall()
         report = []
         for day, *counts in rows:
-            entry = {"day": day, **dict(zip(TALLY_FIELDS, counts))}
+            entry = {"day": day, **dict(zip(REPORT_FIELDS, counts))}
             entry["gap"] = entry["payments_seen"] - entry["payments_minted"] - entry["payments_voided_first"]
             report.append(entry)
         return report
+
+    def today(self) -> date:
+        return self._clock()
+
+    def free_key(self, visitor: str) -> str:
+        """The free allowance's row key for a visitor key: a keyed hash under a
+        secret that comes from the server's environment and is never written to
+        this file. Without a secret given, one is made for this process only, so
+        what was drawn is not remembered across a restart (tests and local use)."""
+        return hmac.new(self._free_secret, visitor.encode("utf-8"), hashlib.sha256).hexdigest()[:32]
+
+    def free_window_spent(self, key_hash: str) -> int:
+        """What this key has drawn in its current window; 0 once the window has ended."""
+        with self._lock:
+            row = self._conn.execute("SELECT first_day, spent FROM free_window WHERE key_hash = ?", (key_hash,)).fetchone()
+        if row is None or self._window_ended(row[0]):
+            return 0
+        return row[1]
+
+    def free_window_spend(self, key_hash: str, amount: int) -> None:
+        """Adds a settled draw. A key's first draw starts its window, and a
+        draw after the window has ended starts a new one."""
+        today = self._clock().isoformat()
+        with self._lock:
+            row = self._conn.execute("SELECT first_day, spent FROM free_window WHERE key_hash = ?", (key_hash,)).fetchone()
+            if row is None or self._window_ended(row[0]):
+                self._conn.execute(
+                    "INSERT INTO free_window (key_hash, first_day, spent) VALUES (?, ?, ?)"
+                    " ON CONFLICT (key_hash) DO UPDATE SET first_day = excluded.first_day, spent = excluded.spent",
+                    (key_hash, today, amount),
+                )
+            else:
+                self._conn.execute("UPDATE free_window SET spent = spent + ? WHERE key_hash = ?", (amount, key_hash))
+
+    def _window_ended(self, first_day: str) -> bool:
+        return self._clock() >= date.fromisoformat(first_day) + timedelta(days=self._free_window_days)
+
+    def owed(self) -> list[dict]:
+        """What each payment still holds in unspent tokens, for refunds at a
+        switch-off. By Stripe payment id, which the meter already keeps; the
+        codes themselves stay hashed and nothing here names a person."""
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT payment_id, kind, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created)"
+                " FROM meter WHERE status != 'void' AND payment_id NOT LIKE 'admin\\_%' ESCAPE '\\' AND payment_id NOT LIKE 'pilot\\_%' ESCAPE '\\'"
+                " GROUP BY payment_id ORDER BY MIN(day_created), payment_id"
+            ).fetchall()
+        return [
+            {"payment_id": pid, "kind": kind, "codes": codes_n, "tokens_bought": total, "tokens_left": total - used, "day_bought": day}
+            for pid, kind, codes_n, total, used, day in rows
+            if total - used > 0
+        ]
+
+    def grants(self, days: int = 2) -> list[dict]:
+        """The grants made on the last few days, by grant id, so one whose response was lost can be cancelled.
+        Ids, counts and token totals only; the codes stay hashed."""
+        since = (self._clock() - timedelta(days=days - 1)).isoformat()
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT payment_id, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created), SUM(status = 'void')"
+                " FROM meter WHERE day_created >= ? AND (payment_id LIKE 'admin\\_%' ESCAPE '\\' OR payment_id LIKE 'pilot\\_%' ESCAPE '\\')"
+                " GROUP BY payment_id ORDER BY MIN(day_created) DESC, payment_id",
+                (since,),
+            ).fetchall()
+        return [
+            {"grant_id": pid, "codes": n, "tokens": total, "tokens_used": used, "day": day, "codes_void": voided}
+            for pid, n, total, used, day, voided in rows
+        ]
+
+    def _add(self, measure: str, amount: int, day: str) -> None:
+        self._conn.execute(
+            "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
+            " ON CONFLICT (day, measure) DO UPDATE SET total = total + excluded.total",
+            (day, measure, amount),
+        )
+
+    def _count(self, measure: str, amount: int, day: str) -> None:
+        """A measure written beside real work: if it fails, the work stands."""
+        try:
+            self._add(measure, amount, day)
+        except Exception:  # noqa: BLE001 - a count must never undo or block a purchase or a spend
+            logger.exception("could not count %s", measure)
+
+    def measure(self, name: str, amount: int = 1) -> None:
+        """Adds to today's total for one measure. The totals are one number per
+        measure per day: no code, no visitor, no time of day."""
+        if name not in SUM_MEASURES:
+            raise ValueError(f"unknown measure {name!r}")
+        with self._lock:
+            self._add(name, amount, self._clock().isoformat())
+
+    def measure_peak(self, name: str, value: int) -> None:
+        """Keeps today's highest value for a measure that is a level, not a count."""
+        if name not in MAX_MEASURES:
+            raise ValueError(f"unknown measure {name!r}")
+        with self._lock:
+            self._conn.execute(
+                "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
+                " ON CONFLICT (day, measure) DO UPDATE SET total = MAX(total, excluded.total)",
+                (self._clock().isoformat(), name, value),
+            )
+
+    def measures(self, days: int = 14) -> list[dict]:
+        """Daily totals, newest day first; a measure with nothing that day reads 0."""
+        since = (self._clock() - timedelta(days=days - 1)).isoformat()
+        with self._lock:
+            rows = self._conn.execute("SELECT day, measure, total FROM daily WHERE day >= ?", (since,)).fetchall()
+        by_day: dict[str, dict[str, int]] = {}
+        for day, name, total in rows:
+            by_day.setdefault(day, {})[name] = total
+        return [
+            {"day": day, **{name: by_day[day].get(name, 0) for name in (*SUM_MEASURES, *MAX_MEASURES)}}
+            for day in sorted(by_day, reverse=True)
+        ]
 
     def add_funds(self, kind: str, cents: int, payment_id: str | None = None, note: str | None = None) -> str | None:
         """Records money that raises the door's ceiling: a gift or a go-deeper
@@ -476,6 +679,12 @@ class Meter:
                         removed += 1
             removed += self._conn.execute(
                 "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM free_window WHERE first_day <= ?", ((today - timedelta(days=self._free_window_days)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM daily WHERE day <= ?", ((today - timedelta(days=MEASURE_RETENTION_DAYS)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM funds WHERE day <= ?", ((today - timedelta(days=FUNDS_RETENTION_DAYS)).isoformat(),)

@@ -390,3 +390,108 @@ def test_funds_older_than_the_window_leave_the_sum_and_are_purged_later(tmp_path
 def test_the_funds_table_holds_no_code_hash_and_no_note_of_a_buyer(meter):
     columns = {row[1] for row in meter._conn.execute("PRAGMA table_info(funds)")}
     assert columns == {"entry", "day", "kind", "cents", "payment_id", "note", "reversed"}
+
+
+# ---- the standing measure: daily totals, no keys ------------------------------------------
+
+def test_a_mint_counts_its_codes_by_kind_and_the_tokens_sold(meter):
+    meter.mint("single", 1100, "pi_a")
+    meter.mint("batch", 500, "pi_b", count=3)
+    meter.mint("group", 2000, "pi_c")
+    (today,) = meter.measures(1)
+    assert (today["codes_single"], today["codes_batch"], today["codes_group"]) == (1, 3, 1)
+    assert today["tokens_sold"] == 1100 + 500 * 3 + 2000
+
+
+def test_only_a_settled_spend_counts_as_tokens_spent(meter):
+    (code,) = meter.mint("single", 100, "pi_a")
+    meter.settle(meter.reserve(code, 30).reservation, True)
+    meter.settle(meter.reserve(code, 20).reservation, False)
+    assert meter.measures(1)[0]["tokens_spent"] == 30
+
+
+def test_a_refused_mint_counts_nothing(meter):
+    meter.mint("single", 100, "pi_a")
+    with pytest.raises(AlreadyMinted):
+        meter.mint("single", 100, "pi_a")
+    assert meter.measures(1)[0]["codes_single"] == 1
+
+
+def test_refusals_and_the_door_peak_are_kept_by_day(meter, clock):
+    meter.measure("refused_no_code")
+    meter.measure("refused_no_code", 2)
+    meter.measure_peak("door_stage", 2)
+    meter.measure_peak("door_stage", 1)
+    clock.day = date(2026, 10, 6)
+    meter.measure("refused_spent")
+    today, yesterday = meter.measures(2)
+    assert (today["day"], today["refused_spent"], today["refused_no_code"]) == (clock.day.isoformat(), 1, 0)
+    assert (yesterday["refused_no_code"], yesterday["door_stage"]) == (3, 2)
+
+
+def test_an_unknown_measure_is_refused(meter):
+    with pytest.raises(ValueError):
+        meter.measure("visitors")
+    with pytest.raises(ValueError):
+        meter.measure_peak("refused_no_code", 1)
+
+
+def test_measures_with_nothing_to_show_are_an_empty_list(meter):
+    assert meter.measures(14) == []
+
+
+def test_purge_drops_measures_after_ninety_days(meter, clock):
+    meter.measure("refused_no_code")
+    clock.day = date(2027, 1, 20)
+    meter.measure("refused_spent")
+    meter.purge()
+    assert [row["day"] for row in meter.measures(400)] == [clock.day.isoformat()]
+
+
+def test_a_failing_measure_never_loosens_the_group_ceiling(meter, monkeypatch):
+    def down(*_a, **_k):
+        raise RuntimeError("daily table down")
+
+    monkeypatch.setattr(meter, "_add", down)
+    (code,) = meter.mint("group", 100, "pi_ceiling", daily_ceiling=3)
+    granted = 0
+    for _ in range(8):
+        admission = meter.reserve(code)
+        if admission.ok:
+            meter.settle(admission.reservation, True)
+            granted += 1
+    assert granted == 3
+    assert meter.status(code).remaining == 97
+
+
+def test_a_failing_measure_does_not_undo_a_purchase(meter, monkeypatch):
+    def down(*_a, **_k):
+        raise RuntimeError("daily table down")
+
+    monkeypatch.setattr(meter, "_add", down)
+    (code,) = meter.mint("single", 25, "pi_bought")
+    assert meter.status(code).remaining == 25
+    assert meter.payment_minted("pi_bought")
+    assert meter.reconciliation()[0]["codes_minted"] == 1
+
+
+# ---- the balances owed at a switch-off -------------------------------------------------------
+
+def test_owed_lists_each_payment_with_unspent_tokens_and_nothing_else(meter):
+    (spent,) = meter.mint("single", 10, "pi_spent")
+    meter.settle(meter.reserve(spent, 10).reservation, True)
+    (part,) = meter.mint("single", 100, "pi_part")
+    meter.settle(meter.reserve(part, 30).reservation, True)
+    meter.mint("batch", 50, "pi_batch", count=2)
+    meter.mint("single", 25, "pi_refunded")
+    meter.void("pi_refunded")
+    owed = {row["payment_id"]: row for row in meter.owed()}
+    assert set(owed) == {"pi_part", "pi_batch"}
+    assert (owed["pi_part"]["tokens_bought"], owed["pi_part"]["tokens_left"]) == (100, 70)
+    assert (owed["pi_batch"]["codes"], owed["pi_batch"]["tokens_left"]) == (2, 100)
+
+
+def test_owed_carries_no_code_and_no_hash(meter):
+    (code,) = meter.mint("single", 40, "pi_x")
+    text = str(meter.owed()).lower()
+    assert code.lower() not in text and "hash" not in text

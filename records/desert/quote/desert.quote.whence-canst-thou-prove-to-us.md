@@ -44,6 +44,15 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.limit.f2-scripture-detail
+use_note:
+  means: "In Budge's Syriac sayings collection, an unnamed elder proves three monastic grades from the parable of the sower, reading the yields as beginners, half-perfect and perfect."
+  not_for:
+    - "a saying of a named abba, when the elder is unnamed"
+    - "the parable's plain sense, or this world's only way of reading scripture"
+    - "engagement with difficult passages, which desert.limit.f2-scripture-detail says the record lacks"
+    - "a precise date, when the collection was compiled after 430"
+  years: {from: 320, to: 430}
+  status: reviewed
 ---
 This record fills canon cell F2-T, the last cell in the fleet without a voice. desert.limit.f2-scripture-detail's
 source entry now correctly reads that the Budge Paradise is vendored, rather than 'no vendored

@@ -153,6 +153,83 @@
 
     <div id="banners"></div>
 
+    <section id="deeper-section" class="hidden">
+      <h2>Go Deeper — daily totals</h2>
+      <div class="tiles">
+        <div class="tile">
+          <div class="label">Codes sold today</div>
+          <div class="value" id="t-deeper-codes">—</div>
+          <div class="caveat" id="t-deeper-codes-kinds"></div>
+        </div>
+        <div class="tile">
+          <div class="label">Tokens sold / spent today</div>
+          <div class="value" id="t-deeper-tokens">—</div>
+        </div>
+        <div class="tile">
+          <div class="label">Turns refused today</div>
+          <div class="value" id="t-deeper-refused">—</div>
+          <div class="caveat">Each refused turn still gets its safety check and the Facilitator's answer.</div>
+        </div>
+        <div class="tile">
+          <div class="label">Money not yet matched to codes</div>
+          <div class="value" id="t-deeper-gap">—</div>
+          <div class="caveat">Payments seen, minus codes made, minus refunds that came first. Today.</div>
+        </div>
+      </div>
+      <div class="tiles" style="margin-top: 12px;">
+        <div class="tile">
+          <div class="label">Admin mints today</div>
+          <div class="value" id="t-deeper-admin">—</div>
+          <div class="caveat" id="t-deeper-admin-detail"></div>
+        </div>
+        <div class="tile">
+          <div class="label">Pilot mints today</div>
+          <div class="value" id="t-deeper-pilot">—</div>
+          <div class="caveat" id="t-deeper-pilot-detail"></div>
+        </div>
+        <div class="tile">
+          <div class="label">Door right now</div>
+          <div class="value" id="t-deeper-door">—</div>
+          <div class="caveat" id="t-deeper-door-detail"></div>
+        </div>
+        <div class="tile">
+          <div class="label">Free grant right now</div>
+          <div class="value" id="t-deeper-free">—</div>
+          <div class="caveat" id="t-deeper-free-detail"></div>
+        </div>
+      </div>
+      <div style="margin-top: 12px;">
+        <span id="deeper-pause-state"></span>
+        <button id="deeper-pause-toggle" type="button">—</button>
+      </div>
+      <h3 style="margin-top: 16px;">Make codes (no payment)</h3>
+      <div>
+        <select id="mint-pack"></select>
+        <input id="mint-count" type="number" min="1" value="1" style="width: 5em;" />
+        <select id="mint-mode">
+          <option value="separate">that many separate codes</option>
+          <option value="one_code">one code holding the whole amount</option>
+        </select>
+        <button id="mint-submit" type="button">Make codes</button>
+      </div>
+      <div class="caveat" id="mint-limits"></div>
+      <div style="margin-top: 8px;">
+        <input id="void-id" type="text" placeholder="Mint id or payment id to cancel" style="width: 22em;" autocomplete="off" />
+        <button id="void-submit" type="button">Cancel its codes</button>
+      </div>
+      <div class="caveat" id="deeper-notice"></div>
+      <div class="caveat" id="grants-list"></div>
+      <div id="mint-result" class="hidden" style="margin-top: 8px;">
+        <div class="caveat" id="mint-result-note"></div>
+        <pre id="mint-codes"></pre>
+        <button id="mint-copy" type="button">Copy codes</button>
+        <button id="mint-hide" type="button">Hide codes</button>
+      </div>
+      <div class="caveat" id="deeper-observe-note" style="margin-top: 8px;"></div>
+      <div id="deeper-table-wrap" style="margin-top: 12px;"></div>
+      <div class="caveat" style="margin-top: 8px;">One number per measure per day. No code, visitor or time of day is kept. Crisis turns are not counted here: the Go Deeper module never sees what a message says.</div>
+    </section>
+
     <section>
       <h2>People and time — the headline numbers</h2>
       <div class="tiles">
@@ -376,6 +453,205 @@
     freshness.textContent = usage.asks_as_of_run
       ? "From the daily rollup run at " + usage.asks_as_of_run + " (generated " + (usage.asks_generated_at || "unknown") + ") — not live, updates once a day."
       : "No daily rollup has produced output yet.";
+    await loadDeeper();
+  }
+
+  const REFUSAL_LABELS = {
+    refused_no_code: "no code", refused_code_not_accepted: "code not accepted", refused_spent: "code spent",
+    refused_too_few: "too few tokens", refused_daily_ceiling: "group daily limit", refused_paused: "codes paused",
+    refused_in_use: "tokens in use", refused_free_rounds_done: "free rounds done", refused_free_allowance_spent: "free allowance spent",
+    refused_door_free_closed: "door closed to free", refused_door_paid_closed: "door closed to codes", refused_paid_round_cap: "paid conversation at its round cap",
+  };
+  function refusalTotal(row) {
+    return Object.keys(REFUSAL_LABELS).reduce((sum, key) => sum + (row[key] || 0), 0);
+  }
+  function refusalText(row) {
+    const parts = Object.keys(REFUSAL_LABELS).filter((key) => row[key]).map((key) => REFUSAL_LABELS[key] + " " + fmtNumber(row[key]));
+    return parts.length ? parts.join(" · ") : "—";
+  }
+  function renderDeeper(body) {
+    const section = document.getElementById("deeper-section");
+    section.classList.remove("hidden");
+    const rows = body.measures || [];
+    const gaps = {};
+    (body.reconciliation || []).forEach((r) => { gaps[r.day] = r.gap; });
+    const today = rows[0] || {};
+    const bought = (today.codes_single || 0) + (today.codes_batch || 0) + (today.codes_group || 0);
+    document.getElementById("t-deeper-codes").textContent = fmtNumber(bought);
+    document.getElementById("t-deeper-codes-kinds").textContent =
+      "single " + fmtNumber(today.codes_single || 0) + " · batch " + fmtNumber(today.codes_batch || 0) + " · group " + fmtNumber(today.codes_group || 0);
+    document.getElementById("t-deeper-tokens").textContent = fmtNumber(today.tokens_sold || 0) + " / " + fmtNumber(today.tokens_spent || 0);
+    document.getElementById("t-deeper-refused").textContent = fmtNumber(refusalTotal(today));
+    document.getElementById("t-deeper-gap").textContent = fmtNumber(gaps[today.day] || 0);
+    const todayRecon = (body.reconciliation || []).find((r) => r.day === today.day) || {};
+    renderGrantTiles({ ...today, admin_codes_minted: todayRecon.admin_codes_minted, pilot_codes_minted: todayRecon.pilot_codes_minted });
+    const wrap = document.getElementById("deeper-table-wrap");
+    wrap.innerHTML = "";
+    if (rows.length === 0) {
+      wrap.appendChild(el("div", { class: "empty", text: "Nothing recorded yet." }));
+      return;
+    }
+    const table = el("table", {});
+    table.appendChild(el("thead", {}, [el("tr", {}, [
+      el("th", { text: "Day" }), el("th", { class: "num", text: "Codes" }), el("th", { class: "num", text: "Tokens sold" }),
+      el("th", { class: "num", text: "Tokens spent" }), el("th", { class: "num", text: "Refused" }),
+      el("th", { text: "Why" }), el("th", { class: "num", text: "Door stage (peak)" }), el("th", { class: "num", text: "Of ceiling (peak)" }),
+      el("th", { class: "num", text: "Spend (peak)" }), el("th", { class: "num", text: "Would have refused: free" }),
+      el("th", { class: "num", text: "Would have refused: codes" }),
+    ])]));
+    const tbody = el("tbody", {});
+    rows.forEach((row) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: row.day }),
+        el("td", { class: "num", text: fmtNumber((row.codes_single || 0) + (row.codes_batch || 0) + (row.codes_group || 0)) }),
+        el("td", { class: "num", text: fmtNumber(row.tokens_sold || 0) }),
+        el("td", { class: "num", text: fmtNumber(row.tokens_spent || 0) }),
+        el("td", { class: "num", text: fmtNumber(refusalTotal(row)) }),
+        el("td", { text: refusalText(row) }),
+        el("td", { class: "num", text: fmtNumber(row.door_stage || 0) }),
+        el("td", { class: "num", text: Math.round((row.door_ratio_permille || 0) / 10) + "%" }),
+        el("td", { class: "num", text: fmtDollars((row.door_spend_cents || 0) / 100) }),
+        el("td", { class: "num", text: fmtNumber(row.observed_free_refused || 0) }),
+        el("td", { class: "num", text: fmtNumber(row.observed_paid_refused || 0) }),
+      ]));
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+  function renderGrantTiles(today) {
+    document.getElementById("t-deeper-admin").textContent = fmtNumber((today || {}).admin_codes_minted || 0);
+    document.getElementById("t-deeper-admin-detail").textContent = fmtNumber(((today || {}).tokens_granted) || 0) + " tokens granted today, admin and pilot";
+    document.getElementById("t-deeper-pilot").textContent = fmtNumber((today || {}).pilot_codes_minted || 0);
+  }
+  function deeperNotice(message, isError) {
+    const slot = document.getElementById("deeper-notice");
+    slot.textContent = message;
+    slot.classList.toggle("error", !!isError);
+  }
+  async function loadGrants() {
+    const slot = document.getElementById("grants-list");
+    try {
+      const resp = await fetch("/api/admin/deeper/grants", { credentials: "same-origin" });
+      if (!resp.ok) return;
+      const rows = (await resp.json()).grants;
+      slot.textContent = rows.length
+        ? "Grants, last two days: " + rows.map((g) => g.grant_id + " (" + g.day + ", " + g.codes + " codes, " + fmtNumber(g.tokens) + " tokens" + (g.codes_void ? ", " + g.codes_void + " cancelled" : "") + ")").join("; ")
+        : "No grants in the last two days.";
+    } catch (e) { slot.textContent = ""; }
+  }
+  let deeperStatus = null;
+  function renderStatus(status) {
+    deeperStatus = status;
+    document.getElementById("deeper-pause-state").textContent = status.paused ? "Codes are paused. " : "Codes are working. ";
+    document.getElementById("deeper-pause-toggle").textContent = status.paused ? "Unpause codes" : "Pause codes";
+    const door = status.door;
+    document.getElementById("t-deeper-door").textContent = door ? "Stage " + door.stage : "—";
+    document.getElementById("t-deeper-door-detail").textContent = door
+      ? (door.observe ? "Observe mode: it narrows nothing yet. " : "") + (door.free_voice ? "Free open" : "Free closed") + " · " + (door.paid_voice ? "codes open" : "codes closed")
+      : "";
+    const free = status.free_grant;
+    document.getElementById("t-deeper-free").textContent = fmtNumber(free.now_tokens) + " tokens";
+    document.getElementById("t-deeper-free-detail").textContent =
+      "Baseline " + fmtNumber(free.baseline_tokens) + " every " + free.window_days + " days, " + free.rounds_per_conversation + " rounds a conversation. Changed by pull request only.";
+    const select = document.getElementById("mint-pack");
+    if (!select.options.length) {
+      status.packs.forEach((pack) => select.appendChild(el("option", { value: String(pack.price_usd), text: "$" + pack.price_usd + " pack — " + fmtNumber(pack.tokens) + " tokens" })));
+    }
+    document.getElementById("mint-limits").textContent = status.mint_limits
+      ? "Limits: " + fmtNumber(status.mint_limits.tokens_per_request) + " tokens a request, " + fmtNumber(status.mint_limits.tokens_per_day) + " a day. Each grant counts toward the door as a gift of the packs' price."
+      : "";
+  }
+  async function loadStatus() {
+    try {
+      const resp = await fetch("/api/admin/deeper/status", { credentials: "same-origin" });
+      if (resp.ok) renderStatus(await resp.json());
+    } catch (e) { /* the live-day controls stay as they were */ }
+  }
+  async function toggleDeeperPause() {
+    if (!deeperStatus) return;
+    const resp = await fetch("/api/admin/deeper/pause", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ on: !deeperStatus.paused }),
+    });
+    if (!resp.ok) { deeperNotice("Could not change the pause (" + resp.status + ").", true); return; }
+    await loadStatus();
+  }
+  let shownCodes = "";
+  function hideCodes() {
+    shownCodes = "";
+    document.getElementById("mint-codes").textContent = "";
+    document.getElementById("mint-result").classList.add("hidden");
+  }
+  async function makeCodes() {
+    const pack = document.getElementById("mint-pack").value;
+    const count = parseInt(document.getElementById("mint-count").value, 10);
+    const mode = document.getElementById("mint-mode").value;
+    if (!pack || !(count >= 1)) { deeperNotice("Pick a pack and a count of 1 or more.", true); return; }
+    if (!window.confirm("Make " + count + " x $" + pack + " pack as " + (mode === "one_code" ? "one code" : count + " codes") + "? This is a grant with no payment.")) return;
+    const resp = await fetch("/api/admin/deeper/mint", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ pack_usd: parseInt(pack, 10), count: count, mode: mode }),
+    });
+    if (!resp.ok) {
+      let detail = "";
+      try { detail = (await resp.json()).detail || ""; } catch (e) {}
+      deeperNotice("No codes were made (" + resp.status + "). " + detail, true);
+      return;
+    }
+    const made = await resp.json();
+    shownCodes = made.codes.join("\n");
+    document.getElementById("mint-codes").textContent = shownCodes;
+    document.getElementById("mint-result-note").textContent =
+      "Shown once; they cannot be shown again. " + fmtNumber(made.tokens_each) + " tokens each. Mint id " + made.mint_id + " (paste it into the box below to cancel all of them).";
+    document.getElementById("mint-result").classList.remove("hidden");
+    deeperNotice("", false);
+    await loadDeeper();
+  }
+  async function voidPayment() {
+    const id = document.getElementById("void-id").value.trim();
+    if (!id) { deeperNotice("Paste a mint id or payment id first.", true); return; }
+    if (!window.confirm("Cancel every code made for " + id + "? This cannot be undone.")) return;
+    const resp = await fetch("/api/admin/deeper/void", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ payment_id: id }),
+    });
+    if (!resp.ok) { deeperNotice("Nothing was cancelled (" + resp.status + "). Check the id.", true); return; }
+    const out = await resp.json();
+    document.getElementById("void-id").value = "";
+    deeperNotice(fmtNumber(out.voided) + " codes cancelled.", false);
+    await loadDeeper();
+  }
+  document.getElementById("void-submit").addEventListener("click", voidPayment);
+  document.getElementById("deeper-pause-toggle").addEventListener("click", toggleDeeperPause);
+  document.getElementById("mint-submit").addEventListener("click", makeCodes);
+  document.getElementById("mint-hide").addEventListener("click", hideCodes);
+  document.addEventListener("visibilitychange", () => { if (document.hidden) hideCodes(); });
+  document.getElementById("mint-copy").addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(shownCodes); deeperNotice("Codes copied.", false); } catch (e) { deeperNotice("Could not copy; select the codes by hand.", true); }
+  });
+  function renderObserveNote(door) {
+    const note = document.getElementById("deeper-observe-note");
+    note.textContent = door && door.observe
+      ? "Observe mode: the door is worked out every minute but narrows nothing. The door columns show what it would have done each day, so the base number and thresholds can be set from them. They count turns the door would have refused outright; halving the free allowance at a stage is not counted, so read the peaks for how close the week came."
+      : "";
+  }
+  async function loadDeeper() {
+    // The route exists only when the Go Deeper module is on; without it the section stays hidden.
+    try {
+      const resp = await fetch("/api/admin/deeper/measures", { credentials: "same-origin" });
+      if (resp.ok) {
+        renderDeeper(await resp.json());
+        try {
+          const doorResp = await fetch("/api/admin/deeper/door", { credentials: "same-origin" });
+          if (doorResp.ok) renderObserveNote((await doorResp.json()).door);
+        } catch (e) { /* the note is optional */ }
+        await loadStatus();
+        await loadGrants();
+      }
+      else document.getElementById("deeper-section").classList.add("hidden");
+    } catch (e) {
+      document.getElementById("deeper-section").classList.add("hidden");
+    }
   }
 
   function validatePasswordPolicy(pw) {

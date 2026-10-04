@@ -359,6 +359,9 @@ class WorldSummary(BaseModel):
     horizon: str | None
     living_tradition_flag: bool
     starters: list[dict]
+    # The world's place in the app's list, portrait and accent colour
+    # (registry `app`).
+    app: dict | None = None
 
 
 class WorldListResponse(BaseModel):
@@ -919,7 +922,7 @@ def _build_real_app() -> FastAPI:
     deeper_config = DeeperConfig.from_env(str(data_dir))
     deeper_runtime = None
     if deeper_config.enabled:
-        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ))
+        deeper_runtime = deeper_routes.build_runtime(deeper_config, dict(os.environ), usage_store=usage_store)
         deeper_routes.install_access_log_filter()
         deeper_routes.start_retention_thread(deeper_runtime)
     db_backup.start_background_scheduler(

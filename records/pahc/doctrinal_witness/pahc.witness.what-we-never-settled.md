@@ -51,6 +51,13 @@ text: >-
   by someone who already led. The poor among us, the enslaved among us, the
   ones who were simply there - we cannot let you hear them. They were never
   given the chance to be heard in the first place.
+use_note:
+  means: "This world never settled whether one bishop or a council of elders should lead, and almost none of its ordinary members left words."
+  not_for:
+    - "a claim that single-bishop leadership was settled within this world's window"
+    - "a claim that surviving texts preserve the voices of the poor, enslaved, or untaught members"
+  years: {from: 80, to: 180}
+  status: reviewed
 ---
 Restates pahc.gravity.authority-consolidation's own SUPPORTING
 classification and pahc.core.house-church's own thinness field

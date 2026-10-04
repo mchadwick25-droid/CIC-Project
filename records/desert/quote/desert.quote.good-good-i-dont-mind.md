@@ -43,6 +43,15 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.marriage-ending
+use_note:
+  means: "Palladius, relaying Cronius and Hierax, tells how Paul the Simple found his wife with a lover, laughed, gave her up, and left to become a monk."
+  not_for:
+    - "Antony turning Paul away at the door, which this record stops before"
+    - "the laugh as settled proof of holiness"
+    - "a general rule on how this world treated divorce or betrayal"
+    - "Palladius's own eyewitness account, when he reports a tale told him"
+  years: {from: 419, to: 420}
+  status: reviewed
 ---
 This record fills canon cell F6-T. desert.dw.marriage-ending alone serves this cell, and has nothing
 quotable there.

@@ -42,6 +42,14 @@ retrieval:
 relations:
 - type: associated-with
   target: hal.dw.marriage-ending
+use_note:
+  means: "Jerome's memorial says Fabiola, after her second husband's death, did public penance in sackcloth in a Roman basilica before weeping bishop, presbyters and people."
+  not_for:
+    - "a general church rule on divorce and remarriage rather than one woman's story"
+    - "a claim that Fabiola was condemned or shut out; the passage records her restoration"
+    - "a neutral report rather than Jerome's advocacy for a woman he admired"
+  years: {from: 382, to: 400}
+  status: reviewed
 ---
 Opened for F6-T, served by hal.dw.marriage-ending alone, which cites this locus for
 "Fabiola's divorce, remarriage, penance, restoration" and had nothing quotable.

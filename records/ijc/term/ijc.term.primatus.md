@@ -69,13 +69,19 @@ senses:
     first authority; whether that is already "the papacy" in the later sense is exactly what traditions
     still dispute today, and this world''s record is the ground both sides argue from.'
 quick_meaning: Rome's claim to lead all the churches, because Peter led first from there.
+use_note:
+  means: "Primatus is Rome's claim to first standing among the churches: what was given to Peter passes to each bishop who sits in his seat."
+  not_for:
+    - "a claim that this is the developed medieval or modern papacy read back into the window"
+    - "a claim that this was mere seniority or honorary precedence with no binding force"
+  years: {from: 341, to: 451}
+  status: reviewed
 ---
 Rebuilt from the reviewed legacy lexicon (Doc_06 Tier 1;
 Lexicon-Chunks/ijclex001_primatus.md) into the Artifact-1 term shape.
 The chunk's Strand A first-person voice is deliberately NOT carried into
 these compiled fields - senses here describe the claim as the world's
-contested content, per the standing caution (Doc_06 Open Item 4) that
-strand-voiced lexicon entries must not pre-decide the Representative's
+contested content, because strand-voiced lexicon entries must not pre-decide the Representative's
 voice; the strand-voiced material remains available in the legacy chunk.
 Key-source discipline carried: the contested Damasine decretal block
 (legacy Registry row 15) is NOT cited here; the claim rests on Julius,

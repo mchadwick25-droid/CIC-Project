@@ -51,6 +51,14 @@ tensions:
 relations:
 - type: associated-with
   target: syr.quote.as-a-stonecutter-i-have-brought-stones
+use_note:
+  means: "This world's voice says faith was a building rising over a lifetime, that hard outside questions were answered openly, and that only prying scrutiny of the Godhead was warned against."
+  not_for:
+    - "a record of private inner crises of doubt, which the sources do not describe"
+    - "a claim that all questioning was discouraged"
+    - "a claim that open-ended uncertainty was valued as an end in itself"
+  years: {from: 337, to: 373}
+  status: reviewed
 ---
 F1-P: answers from the faith-as-building teaching (Dem I, verified)
 and the Pearl's anti-scrutiny strand, with the category-difference
