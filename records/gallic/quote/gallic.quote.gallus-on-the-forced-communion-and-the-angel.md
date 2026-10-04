@@ -29,7 +29,7 @@ retrieval:
   - "participant asks what happened after Martin's plea, whether he actually took communion with the Ithacians, or what the angel said to him"
   - "participant asks why Martin never attended a synod again, or what it cost him to compromise"
   - "participant asks whether Martin ever regretted a compromise, or how he responded to it"
-  - "participant asks why this world's monks might distrust synods and assemblies of bishops"
+  - "participant asks why Martin withdrew from synods of bishops"
   - "conversation reaches a bishop's power being weakened by a wrong he judges himself to have shared in"
   prefer_instead:
   - "participant is asking what Martin originally petitioned for at Treves, before the communion - retrieve gallic.quote.gallus-on-the-tribunes-for-the-spains"
@@ -136,6 +136,7 @@ use_note:
     - "the angel's speech and the lessened power as established fact, when they rest on Martin's tearful report through Gallus"
     - "the earlier petition at the palace over the tribunes, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
     - "heretics condemned in their absence, when the passage gives Maximus's claim of regular public trials"
+    - "a claim that Martin rejected bishops or the episcopate as such"
   years: {from: 404, to: 406}
   status: reviewed
 ---
@@ -145,14 +146,13 @@ returns one hit, line 5146; `grep -n "kept carefully aloof"` returns one hit, li
 `<div4 title="Chapter XII." ... id="ii.iv.iii.xii">` (line 5141) and `<div4 title="Chapter XIII." ...
 id="ii.iv.iii.xiii">` (line 5180). The quoted span runs continuously from "In the meantime, those bishops
 with whom Martin would not hold communion went in terror to the king" (line 5145) through "...kept
-carefully aloof from all assemblies of bishops." (line 5219) - the whole of Chapters XII and XIII, with no
-material omitted.
+carefully aloof from all assemblies of bishops." (line 5219) - the whole of Chapters XII and XIII. The
+"..." in the text marks the break between the two chapters; nothing is missing there.
 
 Normalization: hard-wrapped lines joined with single spaces. The source sets the angel's speech in curly
-single quotation marks ('Justly, O Martin...'); these are rendered here as straight double quotation
-marks to distinguish the angel's own words from the surrounding narration, consistent with how this
-record's sibling (gallic.quote.martin-on-the-christ-with-wounds) treats an embedded speech inside a
-narrator's frame. No word was added, dropped, substituted, or reordered.
+single quotation marks ('Justly, O Martin...'); the text keeps them as straight single quotation marks. The
+modern_rendering uses double quotation marks to set the angel's own words apart from the surrounding
+narration, as the sibling record gallic.quote.martin-on-the-christ-with-wounds does for an embedded speech. No word was added, dropped, substituted, or reordered.
 
 speaker_or_author names both the narrating voice (Gallus) and that the passage itself quotes a second
 speaker, the angel, whose words are given as Gallus reports them - not converted to indirect speech,

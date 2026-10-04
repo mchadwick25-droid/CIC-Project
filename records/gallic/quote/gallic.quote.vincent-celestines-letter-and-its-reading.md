@@ -26,8 +26,6 @@ retrieval:
   retrieve_when:
   - "participant asks what Pope Celestine actually wrote, in Vincent's own quotation of it"
   - "participant asks how Vincent read Celestine's letter for his own side of an argument"
-  prefer_instead:
-  - "participant wants the letter's own original addressees and direction, from the volume's own editorial note - retrieve gallic.quote.heurtley-celestines-letter-addressed-to-gaul"
 text: >-
   Holy Pope Celestine also expresses himself in like manner and to the
   same effect. For in the Epistle which he wrote to the priests of

@@ -59,10 +59,10 @@ Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cas
 "relied on his own judgment"` returns one hit, line 28108, inside `<div4 title="Chapter XXIV. Of the
 difficulty of uniformity in eating; and of the gluttony of brother Benjamin." ... id="iv.iv.iii.xxiv">`,
 itself within `<div3 title="Conference II. Second Conference of Abbot Moses." ... id="iv.iv.iii">`.
-The sentence runs lines 28106-28110: "And you doubtless remember what sort of an end there was to the
+The sentence begins at line 28106 and the quoted span stops at the first comma after "earthly vanities", line 28110; the sentence goes on past it. The span is "And you doubtless remember what sort of an end there was to the
 life of this man who obstinately and pertinaciously relied on his own judgment rather than on the
 traditions of the Elders, for he forsook the desert and returned back to the vain philosophy of this
-world and earthly vanities." "This man" is Brother Benjamin, named several lines earlier in the same
+world and earthly vanities,". "This man" is Brother Benjamin, named several lines earlier in the same
 chapter.
 
 Normalization: line breaks joined with single spaces. No word added, dropped, substituted, or

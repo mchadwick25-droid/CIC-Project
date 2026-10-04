@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: ready
 voice: analytic
-register: emic
+register: etic
 canon_cells: []
 confidence:
   citation_specificity: A

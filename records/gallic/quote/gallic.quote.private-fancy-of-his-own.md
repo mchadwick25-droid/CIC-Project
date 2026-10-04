@@ -12,11 +12,11 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Vincent's own rule in the Commonitory (ch. 28 [71-72]), the climax of his argument
+    Documented as Vincent's own rule in the Commonitory (ch. 28 [72]), the climax of his argument
     on testing novel doctrine against consentient authority.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 28 [71-72] (npnf211 div iii.xxix, file lines 14271-14278): Vincent's rule for a teacher whose view stands against the consentient testimony of all"
+  locus: "Commonitory ch. 28 [72] (npnf211 div iii.xxix, file lines 14271-14278): Vincent's rule for a teacher whose view stands against the consentient testimony of all"
   license: public-domain
 retrieval:
   tier: 2

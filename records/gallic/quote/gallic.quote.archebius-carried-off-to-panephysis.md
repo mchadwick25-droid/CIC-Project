@@ -67,6 +67,7 @@ use_note:
     - "Archebius's own words to the travellers, which sit in gallic.quote.archebius-see-the-old-men"
     - "a claim independently attested outside Cassian's own writings"
     - "a modesty formula, when Cassian presents the complaint as a real loss"
+    - "a claim that all monk-bishops felt their office as a loss"
   years: {from: 426, to: 426}
   status: reviewed
 ---

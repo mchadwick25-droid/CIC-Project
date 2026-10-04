@@ -16,8 +16,8 @@ confidence:
   divergence_note: >-
     Documented as Sulpitius's own words, in his own voice, in the Sacred History (not reported speech
     attributed to Martin, though it states Martin's position: "He maintained that..."). Widely Accepted
-    at the narrative level - a related, distinct telling of an earlier phase of the same affair covered
-    in gallic.quote.gallus-on-the-tribunes-for-the-spains, by the same author, not independent
+    at the narrative level - a related, distinct telling of a later phase of the same affair, the tribunes
+    episode covered in gallic.quote.gallus-on-the-tribunes-for-the-spains, by the same author, not independent
     corroboration of it.
 sources:
 - source_id: gallic.source.sulpitius-sacred-history

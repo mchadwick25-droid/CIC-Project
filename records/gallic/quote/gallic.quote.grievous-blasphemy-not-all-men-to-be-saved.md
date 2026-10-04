@@ -12,8 +12,8 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Chaeremon's own text (Conference XIII.7, read at its locus for this record) - the
-    world's own refusal, stated as a rhetorical question, of any reading that limits God's saving
+    Documented as Cassian's own text reporting Chaeremon (Conference XIII.7, read at its locus for this
+    record) - the world's own refusal, stated as a rhetorical question, of any reading that limits God's saving
     will to some rather than all.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
@@ -54,6 +54,7 @@ use_note:
     - "a named reply to Augustine, when the text names no opponent"
     - "a teaching that all are in fact saved, when it concerns God's will"
     - "the three stages of grace, which sit in gallic.quote.chaeremon-three-stages-of-grace"
+    - "a resolution of the contested grace teaching of Conference XIII"
   years: {from: 426, to: 426}
   status: reviewed
 ---
