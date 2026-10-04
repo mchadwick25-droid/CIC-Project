@@ -138,6 +138,14 @@ manifestations:
 - 279 Donatist against 286 Catholic bishops seated at the 411 Conference of Carthage
 - the property and basilica disputes that presuppose two complete rival institutional claimants
 - imperial legislation targeting an organised rival clergy and its property specifically
+use_note:
+  means: "Two complete rival churches, each with bishops, basilicas, councils and an ordination line, contested the same sees, a supporting institutional container that forms people only through the central patterns it holds."
+  not_for:
+    - "a claim that the hierarchy was a central formative pattern equal to purity, rebaptism and the martyr cult"
+    - "a claim that individual bishops' conduct and motives are known beyond hostile sources"
+    - "a claim about the Maximianist reception decision itself, which this hierarchy's councils made but which sits in don.gravity.rigor-against-reception"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate G4, generated at SS1, tested at SS3.4, classified
 Supporting at SS4) and the cleared Doc_08 (SS5 and the Force Index's own G4 row). INTERACTION MATRIX

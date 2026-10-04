@@ -1,0 +1,2966 @@
+{
+  "u0001": {
+    "reason": "The four-sided conviction record says nothing about Donatist silence on the fate of pagans or the unbaptized, which is what this sentence claims.",
+    "verdict": "misread"
+  },
+  "u0002": {
+    "reason": "Extends the record's general loss of ordinary life to marriage specifically, a fair but unstated extrapolation.",
+    "verdict": "defensible"
+  },
+  "u0003": {
+    "reason": "Repeats the record's own claim that Tyconius's rules were the communion's one original interpretive work.",
+    "verdict": "accepted"
+  },
+  "u0004": {
+    "reason": "Repeats the record's point that the hostility verses worked as a visible mark of the true church.",
+    "verdict": "accepted"
+  },
+  "u0005": {
+    "reason": "Cyprian's council as pre-schism African precedent is exactly the record's argument.",
+    "verdict": "accepted"
+  },
+  "u0006": {
+    "reason": "The record's 'once, bodily, on a day, and the town knew' supports a real public crossing rather than a metaphor.",
+    "verdict": "accepted"
+  },
+  "u0007": {
+    "reason": "Restates the record's claim that the lack of any ordinary-day account is a real loss, not reticence.",
+    "verdict": "accepted"
+  },
+  "u0008": {
+    "reason": "States the Deo laudes / Deo gratias contrast exactly as the term defines it.",
+    "verdict": "accepted"
+  },
+  "u0009": {
+    "reason": "Record says every one of the 320 letters ends 'let no one learn of it'.",
+    "verdict": "accepted"
+  },
+  "u0010": {
+    "reason": "Gives the term's sense: the washing of comers from the rival church was not counted a second baptism.",
+    "verdict": "accepted"
+  },
+  "u0011": {
+    "reason": "The font examining the giver, not the comer's record, is the record's stated point.",
+    "verdict": "accepted"
+  },
+  "u0012": {
+    "reason": "Record says the anniversary was not looking back but being formed again, which 'not merely commemoration' captures.",
+    "verdict": "accepted"
+  },
+  "u0013": {
+    "reason": "Correctly places Petilian's verse-against-verse reply at 411 as the record describes it.",
+    "verdict": "accepted"
+  },
+  "u0014": {
+    "reason": "Verbatim image of two churches reciting the same faith in every town.",
+    "verdict": "accepted"
+  },
+  "u0015": {
+    "reason": "Uses Deo laudes as the rival-distinguishing cry, matching the term.",
+    "verdict": "accepted"
+  },
+  "u0016": {
+    "reason": "Introduces the sermon's family-grief passage as Donatist-authored and read aloud, as the record says.",
+    "verdict": "accepted"
+  },
+  "u0017": {
+    "reason": "Uses the internal-quarrels record for the external dispute's scope, which it only touches indirectly.",
+    "verdict": "defensible"
+  },
+  "u0018": {
+    "reason": "Record explicitly distinguishes the sermon's family grief from the documentary silence.",
+    "verdict": "accepted"
+  },
+  "u0019": {
+    "reason": "Matches the record's admission that nothing survives on inner unrest or unanswered prayer.",
+    "verdict": "accepted"
+  },
+  "u0020": {
+    "reason": "Vague 'record stops' claim about post-439 history that the cited record does not address.",
+    "verdict": "defensible"
+  },
+  "u0021": {
+    "reason": "Record says imperial edicts name the practice and that it refused the state's settlement.",
+    "verdict": "accepted"
+  },
+  "u0022": {
+    "reason": "Describes the 320 Zenophilus inquiry (400 pieces of silver, traditor bishops), not the 314-15 Felix inquiry in which the notary confessed.",
+    "verdict": "misread"
+  },
+  "u0023": {
+    "reason": "Verbatim: councils of bishops decided disputes with real force.",
+    "verdict": "accepted"
+  },
+  "u0024": {
+    "reason": "States the record's hinge: whether the fallen bishop's hand could still give the sacrament.",
+    "verdict": "accepted"
+  },
+  "u0025": {
+    "reason": "Exile of clergy is one of the documented costs the record lists.",
+    "verdict": "accepted"
+  },
+  "u0026": {
+    "reason": "279 against 286 at the 411 conference is the record's own count.",
+    "verdict": "accepted"
+  },
+  "u0027": {
+    "reason": "Accurately reproduces the Augustinian concession the record quotes about laity disliking repeated washing.",
+    "verdict": "accepted"
+  },
+  "u0028": {
+    "reason": "Gives the record's 'we changed nothing, they did' reply.",
+    "verdict": "accepted"
+  },
+  "u0029": {
+    "reason": "Consistent with the record's point that opponents' records do not preserve inner struggle.",
+    "verdict": "accepted"
+  },
+  "u0030": {
+    "reason": "Deo laudes against Deo gratias, cut in stone, is in the record.",
+    "verdict": "accepted"
+  },
+  "u0031": {
+    "reason": "Accurately gives the Deo laudes stones: two pillars near Bagai and three others.",
+    "verdict": "accepted"
+  },
+  "u0032": {
+    "reason": "Concedes Cyprian's not breaking communion as the opponents' strongest point, as recorded.",
+    "verdict": "accepted"
+  },
+  "u0033": {
+    "reason": "Record denies the catacomb picture and says persecution came as soldiers in buildings.",
+    "verdict": "accepted"
+  },
+  "u0034": {
+    "reason": "Rightly declines to extend the pardon/trust split to troubled minds, which the record says no one wrote on.",
+    "verdict": "accepted"
+  },
+  "u0035": {
+    "reason": "Room-for-dissent says nothing about Macrobius's letter or how it ended; the claim is not in this record.",
+    "verdict": "misread"
+  },
+  "u0036": {
+    "reason": "Record gives Marculus's vision of cup, crown and palm before the cliff.",
+    "verdict": "accepted"
+  },
+  "u0037": {
+    "reason": "Accurately gives the Bagai condemnation and the later reinstatement of two condemned bishops.",
+    "verdict": "accepted"
+  },
+  "u0038": {
+    "reason": "Verbatim: daily life is mostly unknown.",
+    "verdict": "accepted"
+  },
+  "u0039": {
+    "reason": "Record says the two phrases separated everything in practice.",
+    "verdict": "accepted"
+  },
+  "u0040": {
+    "reason": "States the shared Trinitarian confession the record affirms.",
+    "verdict": "accepted"
+  },
+  "u0041": {
+    "reason": "Three centuries from Jesus with no eyewitness claim fits the record.",
+    "verdict": "accepted"
+  },
+  "u0042": {
+    "reason": "Record presents Cyprian's council as the African precedent predating the schism.",
+    "verdict": "accepted"
+  },
+  "u0043": {
+    "reason": "States the gravity's core finding of a complete rival church.",
+    "verdict": "accepted"
+  },
+  "u0044": {
+    "reason": "Reports Lucilla's role explicitly as the opponents' telling.",
+    "verdict": "accepted"
+  },
+  "u0045": {
+    "reason": "Record says the examination at the font was of the minister's record, not the comer's.",
+    "verdict": "accepted"
+  },
+  "u0046": {
+    "reason": "Introduces the record's 'question we never argued' framing, despite the garbled wording.",
+    "verdict": "accepted"
+  },
+  "u0047": {
+    "reason": "Martyrs as a source of legitimacy fits the gravity's claim that legitimacy draws on the martyr cult.",
+    "verdict": "accepted"
+  },
+  "u0048": {
+    "reason": "Self-assessment that most claims would survive scrutiny goes beyond the record, which only ranks the founding documents as most checkable.",
+    "verdict": "defensible"
+  },
+  "u0049": {
+    "reason": "Says the Bagai exception troubled them deeply, a claim about their inner stance that the record avoids: it says they seem to have held both without feeling they owed a reconciliation.",
+    "verdict": "misread"
+  },
+  "u0050": {
+    "reason": "Verbatim scenario of one bishop holding imperial favour.",
+    "verdict": "accepted"
+  },
+  "u0051": {
+    "reason": "Gravity record supports two rival primates and 279 bishops counted at 411.",
+    "verdict": "accepted"
+  },
+  "u0052": {
+    "reason": "Matches the record's claim that all their effort went into the sacramental-hand question.",
+    "verdict": "accepted"
+  },
+  "u0053": {
+    "reason": "Councils with binding disciplinary force fits the term's not_for against advisory bodies.",
+    "verdict": "accepted"
+  },
+  "u0054": {
+    "reason": "Record says the smaller ledger of household cost cannot be given.",
+    "verdict": "accepted"
+  },
+  "u0055": {
+    "reason": "Matches the record's claim that Donatist exclusion targeted other Christians.",
+    "verdict": "accepted"
+  },
+  "u0056": {
+    "reason": "Verbatim: all the evidence is paper, not rooms.",
+    "verdict": "accepted"
+  },
+  "u0057": {
+    "reason": "Record says the one describable day is the martyr anniversary.",
+    "verdict": "accepted"
+  },
+  "u0058": {
+    "reason": "Accurately gives the Bagai reception without rebaptism or reordination.",
+    "verdict": "accepted"
+  },
+  "u0059": {
+    "reason": "The unflattering founding documents being most checkable is the record's own point.",
+    "verdict": "accepted"
+  },
+  "u0060": {
+    "reason": "States the condemnation and lack of following exactly as the term note describes.",
+    "verdict": "accepted"
+  },
+  "u0061": {
+    "reason": "Repeats the record's contrast between reading for detachment and reading for an identifying mark.",
+    "verdict": "accepted"
+  },
+  "u0062": {
+    "reason": "Descent through Carthage and Cyprian in Latin is the record's claim.",
+    "verdict": "accepted"
+  },
+  "u0063": {
+    "reason": "Record says the line ran down the middle of Christianity, not around it.",
+    "verdict": "accepted"
+  },
+  "u0064": {
+    "reason": "Matches the story's point that harsh condemnation and exception share one record.",
+    "verdict": "accepted"
+  },
+  "u0065": {
+    "reason": "Identity rooted in the handover-or-refuse difference, as stated.",
+    "verdict": "accepted"
+  },
+  "u0066": {
+    "reason": "Bagai condemnation and reception without rebaptism or reordination match the term.",
+    "verdict": "accepted"
+  },
+  "u0067": {
+    "reason": "Same contrast as the record: the verses as inner detachment versus as a test of the church.",
+    "verdict": "accepted"
+  },
+  "u0068": {
+    "reason": "Deo laudes as an identifying mark cut in stone is in the record.",
+    "verdict": "accepted"
+  },
+  "u0069": {
+    "reason": "Record says they read for a test of the true church and found it in the hated party.",
+    "verdict": "accepted"
+  },
+  "u0070": {
+    "reason": "Introduces the record's 'stranger and more specific' narrowness.",
+    "verdict": "accepted"
+  },
+  "u0071": {
+    "reason": "Adds present-tense unease to the Cirta story, an emphasis but not a misreading.",
+    "verdict": "defensible"
+  },
+  "u0072": {
+    "reason": "Record concedes Cyprian never broke communion over rebaptism.",
+    "verdict": "accepted"
+  },
+  "u0073": {
+    "reason": "Restates the term's rationale that a tainted line conveys nothing.",
+    "verdict": "accepted"
+  },
+  "u0074": {
+    "reason": "Verbatim indictment of the founding generation's hushing of a true charge.",
+    "verdict": "accepted"
+  },
+  "u0075": {
+    "reason": "Record says the documentary trail simply stops.",
+    "verdict": "accepted"
+  },
+  "u0076": {
+    "reason": "Matches the record's point that the missing voices are not only a learned elite's.",
+    "verdict": "accepted"
+  },
+  "u0077": {
+    "reason": "Verbatim: imperial edicts naming rebaptism show how public it was.",
+    "verdict": "accepted"
+  },
+  "u0078": {
+    "reason": "Record says 'for the first time', not again.",
+    "verdict": "accepted"
+  },
+  "u0079": {
+    "reason": "Extends the term's see-for-see rival bishops to fonts and basilicas as the boundary line, borrowing a framing from elsewhere.",
+    "verdict": "defensible"
+  },
+  "u0080": {
+    "reason": "Public, datable entry that moved one between churches fits the record's account.",
+    "verdict": "accepted"
+  },
+  "u0081": {
+    "reason": "Record says every Donatist council was about the true church, none about who Christ is.",
+    "verdict": "accepted"
+  },
+  "u0082": {
+    "reason": "Matches the record's point that the graded imperial fine survives as a document.",
+    "verdict": "accepted"
+  },
+  "u0083": {
+    "reason": "Two pillars near Bagai plus three stones matches the record.",
+    "verdict": "accepted"
+  },
+  "u0084": {
+    "reason": "Record says they watched scripture fail to settle the dispute.",
+    "verdict": "accepted"
+  },
+  "u0085": {
+    "reason": "Matches the record's image of two churches reciting one faith.",
+    "verdict": "accepted"
+  },
+  "u0086": {
+    "reason": "Fair short paraphrase of Petilian's giver's-conscience principle.",
+    "verdict": "accepted"
+  },
+  "u0087": {
+    "reason": "The term's note backs real disciplinary force, but the record text does not mention councils deposing or restoring a primate.",
+    "verdict": "defensible"
+  },
+  "u0088": {
+    "reason": "Matches the term's rival primates at Carthage.",
+    "verdict": "accepted"
+  },
+  "u0089": {
+    "reason": "Verbatim: Cyprian ruled as they did without breaking communion.",
+    "verdict": "accepted"
+  },
+  "u0090": {
+    "reason": "The two-churches record says nothing about modern descendants; the claim comes from a different record.",
+    "verdict": "misread"
+  },
+  "u0091": {
+    "reason": "Accurately retells the 394 condemnation and the later reinstatement.",
+    "verdict": "accepted"
+  },
+  "u0092": {
+    "reason": "Enlists the sermon's mourning families as evidence that families split over the choice of church.",
+    "verdict": "misread"
+  },
+  "u0093": {
+    "reason": "Record says they would fight over the arithmetic of 'again'.",
+    "verdict": "accepted"
+  },
+  "u0094": {
+    "reason": "Matches the record's turn from no argument for the resurrection to what they practised.",
+    "verdict": "accepted"
+  },
+  "u0095": {
+    "reason": "Verbatim: exclusion aimed at the rival church, not outsiders.",
+    "verdict": "accepted"
+  },
+  "u0096": {
+    "reason": "Record says his death meant a faithful life's end is not an interruption.",
+    "verdict": "accepted"
+  },
+  "u0097": {
+    "reason": "Withholds the particulars of the forced-entry charges, as the not_for requires.",
+    "verdict": "accepted"
+  },
+  "u0098": {
+    "reason": "Verbatim: some refused to hand over and paid for it.",
+    "verdict": "accepted"
+  },
+  "u0099": {
+    "reason": "Record cites the transcript of bishops advising each other to bury a true charge.",
+    "verdict": "accepted"
+  },
+  "u0100": {
+    "reason": "Faithful retelling of Bagai's condemnation and reception.",
+    "verdict": "accepted"
+  },
+  "u0101": {
+    "reason": "Verbatim framing of the washing as the defining step of entry.",
+    "verdict": "accepted"
+  },
+  "u0102": {
+    "reason": "Record says they put everything into the one question with nothing left over.",
+    "verdict": "accepted"
+  },
+  "u0103": {
+    "reason": "Accurately says what came from the Donatists was counted the first real baptism.",
+    "verdict": "accepted"
+  },
+  "u0104": {
+    "reason": "Hearing the death account at the grave is in the record.",
+    "verdict": "accepted"
+  },
+  "u0105": {
+    "reason": "Record says two words could carry the identification test.",
+    "verdict": "accepted"
+  },
+  "u0106": {
+    "reason": "Matches the record's admission that no excavation is known.",
+    "verdict": "accepted"
+  },
+  "u0107": {
+    "reason": "Verbatim: what was examined was the minister's record, not the comer's.",
+    "verdict": "accepted"
+  },
+  "u0108": {
+    "reason": "Generalizes one set of hushing letters into a pattern of authority, though the record does say such hypocrisy is not rare.",
+    "verdict": "defensible"
+  },
+  "u0109": {
+    "reason": "Matches the record's rejection of the catacomb picture.",
+    "verdict": "accepted"
+  },
+  "u0110": {
+    "reason": "The death account read or preached is the term's definition.",
+    "verdict": "accepted"
+  },
+  "u0111": {
+    "reason": "Same Bagai reception, accurately stated as one decision.",
+    "verdict": "accepted"
+  },
+  "u0112": {
+    "reason": "Matches the record's claim that the hand, not the person coming, was examined.",
+    "verdict": "accepted"
+  },
+  "u0113": {
+    "reason": "Public, datable washing by a trusted hand fits the record.",
+    "verdict": "accepted"
+  },
+  "u0114": {
+    "reason": "Record separates the giver's conscience from questions like inherited guilt.",
+    "verdict": "accepted"
+  },
+  "u0115": {
+    "reason": "Matches the record's scriptures-as-surrendered-objects point.",
+    "verdict": "accepted"
+  },
+  "u0116": {
+    "reason": "Restates the record's note that the sermon mentions raped virgins in a single unelaborated clause.",
+    "verdict": "accepted"
+  },
+  "u0117": {
+    "reason": "Record says Cyprian ruled as they did but did not act as they did.",
+    "verdict": "accepted"
+  },
+  "u0118": {
+    "reason": "Accurately gives the refusal of the judge's chairs at 411.",
+    "verdict": "accepted"
+  },
+  "u0119": {
+    "reason": "Introduces the record's point that scripture alone never settled the dispute.",
+    "verdict": "accepted"
+  },
+  "u0120": {
+    "reason": "Second use of the record's originality line, here framing Tyconius as the exception, which the record supports.",
+    "verdict": "accepted"
+  },
+  "u0121": {
+    "reason": "Gives the record's sense of persecution as soldiers in buildings.",
+    "verdict": "accepted"
+  },
+  "u0122": {
+    "reason": "Simple gloss of Deo laudes as praise to God.",
+    "verdict": "accepted"
+  },
+  "u0123": {
+    "reason": "Record says no ordinary member wrote down a day or themselves.",
+    "verdict": "accepted"
+  },
+  "u0124": {
+    "reason": "Ends the record's procedural maxim from Petilian at 411.",
+    "verdict": "accepted"
+  },
+  "u0125": {
+    "reason": "The 'whose hand' formula is implied by the record's altar-not-Godhead line but not stated in it.",
+    "verdict": "defensible"
+  },
+  "u0126": {
+    "reason": "Reports the laity's reluctance with the record's own caveat that it comes from a hostile argument.",
+    "verdict": "accepted"
+  },
+  "u0127": {
+    "reason": "Reports Augustine's concession as the record does, keeping its hostile source in view.",
+    "verdict": "accepted"
+  },
+  "u0128": {
+    "reason": "Reads the inconsistent Bagai reception as a 'wider door', an emphasis the record does not draw.",
+    "verdict": "defensible"
+  },
+  "u0129": {
+    "reason": "Record calls the inscription unmediated; 'would survive everything' adds emphasis.",
+    "verdict": "defensible"
+  },
+  "u0130": {
+    "reason": "Gives the record's figure of ten pounds of silver for country members.",
+    "verdict": "accepted"
+  },
+  "u0131": {
+    "reason": "Verbatim: the true church is the hated one.",
+    "verdict": "accepted"
+  },
+  "u0132": {
+    "reason": "Silvanus's contested election is not in this record, which concerns hushed charges, leavers and suffering.",
+    "verdict": "misread"
+  },
+  "u0133": {
+    "reason": "Repeats the record's claim that the split was not about God, grace or the bread.",
+    "verdict": "accepted"
+  },
+  "u0134": {
+    "reason": "Verbatim: sometimes belonging cost everything.",
+    "verdict": "accepted"
+  },
+  "u0135": {
+    "reason": "Cirta council reserving the traditor question to God is narrated in the record.",
+    "verdict": "accepted"
+  },
+  "u0136": {
+    "reason": "Correctly identifies the Felix inquiry and the notary's forgery confession.",
+    "verdict": "accepted"
+  },
+  "u0137": {
+    "reason": "Verbatim image of the soldiers' door as the mark.",
+    "verdict": "accepted"
+  },
+  "u0138": {
+    "reason": "The record itself says the book went on to shape the rival church's reading.",
+    "verdict": "accepted"
+  },
+  "u0139": {
+    "reason": "Matches the record's reading that the hostile account presupposes Lucilla's real power.",
+    "verdict": "accepted"
+  },
+  "u0140": {
+    "reason": "Verbatim admission of inconsistency, illustrated by Bagai and Cirta in the record.",
+    "verdict": "accepted"
+  },
+  "u0141": {
+    "reason": "Record says they did not receive the faith from Rome nor need it.",
+    "verdict": "accepted"
+  },
+  "u0142": {
+    "reason": "Matches the term on Tyconius's seven rules.",
+    "verdict": "accepted"
+  },
+  "u0143": {
+    "reason": "Verbatim opening: what they had of Jesus was books.",
+    "verdict": "accepted"
+  },
+  "u0144": {
+    "reason": "The catechumen boy is not in this record, though it does draw on the same Carthage basilica account; merged material.",
+    "verdict": "defensible"
+  },
+  "u0145": {
+    "reason": "Affirms the identical creed, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0146": {
+    "reason": "States as unknown the treatment of wavering belief, matching the record's refusal.",
+    "verdict": "accepted"
+  },
+  "u0147": {
+    "reason": "Record describes the martyr texts' visions and graveside purpose.",
+    "verdict": "accepted"
+  },
+  "u0148": {
+    "reason": "Matches the record's entry step: washing on arrival from the rival communion.",
+    "verdict": "accepted"
+  },
+  "u0149": {
+    "reason": "Repeats the record's opening claim of conciliar authority.",
+    "verdict": "accepted"
+  },
+  "u0150": {
+    "reason": "Cyprian's council of eighty-seven bishops is given in the record.",
+    "verdict": "accepted"
+  },
+  "u0151": {
+    "reason": "Describes the yearly reading at the grave, as the term does.",
+    "verdict": "accepted"
+  },
+  "u0152": {
+    "reason": "Refusal of the chairs at 411 is in the record.",
+    "verdict": "accepted"
+  },
+  "u0153": {
+    "reason": "Record says no one is named in the sermon's account of the slain.",
+    "verdict": "accepted"
+  },
+  "u0154": {
+    "reason": "Lists an undocumented cost as unknown, as the record does, without claiming it happened.",
+    "verdict": "accepted"
+  },
+  "u0155": {
+    "reason": "Framing line emphasizing the shared creed, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0156": {
+    "reason": "Record says the missing voices are not marginal cousins.",
+    "verdict": "accepted"
+  },
+  "u0157": {
+    "reason": "Quotes the conscience-of-the-giver formula the term uses.",
+    "verdict": "accepted"
+  },
+  "u0158": {
+    "reason": "Verbatim restatement that the comer's record was not examined at the font.",
+    "verdict": "accepted"
+  },
+  "u0159": {
+    "reason": "Record says the loss is not the usual one.",
+    "verdict": "accepted"
+  },
+  "u0160": {
+    "reason": "Gives the record's claim that scripture shared by both sides could not settle the dispute.",
+    "verdict": "accepted"
+  },
+  "u0161": {
+    "reason": "Distinguishes the sermon's recorded grief from the unrecorded household ledger, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0162": {
+    "reason": "Summarizes the annually read basilica seizure as in the record.",
+    "verdict": "accepted"
+  },
+  "u0163": {
+    "reason": "Accurately gives Tyconius's system and his silencing, as the record describes them.",
+    "verdict": "accepted"
+  },
+  "u0164": {
+    "reason": "Verbatim: Tyconius condemned by his own side.",
+    "verdict": "accepted"
+  },
+  "u0165": {
+    "reason": "Describes the yearly reading at the grave as the term defines it.",
+    "verdict": "accepted"
+  },
+  "u0166": {
+    "reason": "Repeats the record's 'combatively, about one subject'.",
+    "verdict": "accepted"
+  },
+  "u0167": {
+    "reason": "Matches the record's one describable day: the annual reading at the martyr's grave.",
+    "verdict": "accepted"
+  },
+  "u0168": {
+    "reason": "Record says the other 364 days cannot be described.",
+    "verdict": "accepted"
+  },
+  "u0169": {
+    "reason": "Matches the record's admission that no one is named and the families are unknown.",
+    "verdict": "accepted"
+  },
+  "u0170": {
+    "reason": "Verbatim: no book on inherited guilt.",
+    "verdict": "accepted"
+  },
+  "u0171": {
+    "reason": "Record says the claim stops at Cyprian.",
+    "verdict": "accepted"
+  },
+  "u0172": {
+    "reason": "Honest about infant baptism, but the catechumen-boy detail comes from a sibling record, not this one.",
+    "verdict": "defensible"
+  },
+  "u0173": {
+    "reason": "Restates the record's pardon/trust distinction as its own reasoning, not a pastoral saying.",
+    "verdict": "accepted"
+  },
+  "u0174": {
+    "reason": "Uses the broken-line reading the term note insists on rather than personal sinfulness.",
+    "verdict": "accepted"
+  },
+  "u0175": {
+    "reason": "Stretches the record's no-ordinary-day silence into a claim about undocumented quiet pastoral failures, which fits its spirit but goes beyond its scope.",
+    "verdict": "defensible"
+  },
+  "u0176": {
+    "reason": "Quotes Adeodatus's 411 answer as the record gives it.",
+    "verdict": "accepted"
+  },
+  "u0177": {
+    "reason": "Macrobius's letter is not in the room-for-dissent record, which concerns Cirta, Tyconius and martyr visions.",
+    "verdict": "misread"
+  },
+  "u0178": {
+    "reason": "Matches the record's claim that the washing was unavoidably public.",
+    "verdict": "accepted"
+  },
+  "u0179": {
+    "reason": "Verbatim: formed again in the hearing.",
+    "verdict": "accepted"
+  },
+  "u0180": {
+    "reason": "Record says some clergy handed over the codices.",
+    "verdict": "accepted"
+  },
+  "u0181": {
+    "reason": "Matches the record's internal quarrels over office and reception.",
+    "verdict": "accepted"
+  },
+  "u0182": {
+    "reason": "310 at Bagai and 279 in 411 are both counts given in the record.",
+    "verdict": "accepted"
+  },
+  "u0183": {
+    "reason": "Record gives the notary's confession of forgery for the Donatist side.",
+    "verdict": "accepted"
+  },
+  "u0184": {
+    "reason": "Matches the record's description of the stones as unmediated and two words long.",
+    "verdict": "accepted"
+  },
+  "u0185": {
+    "reason": "Matches the record's denial that rebaptism rested on a proof-text rather than Cyprian's council.",
+    "verdict": "accepted"
+  },
+  "u0186": {
+    "reason": "Record says neither side could call the other heretics.",
+    "verdict": "accepted"
+  },
+  "u0187": {
+    "reason": "Matches the record's 'not a second, you had no first'.",
+    "verdict": "accepted"
+  },
+  "u0188": {
+    "reason": "Verbatim transition to the Deo laudes point.",
+    "verdict": "accepted"
+  },
+  "u0189": {
+    "reason": "Repeats the record's point about the practical divide between the acclamations.",
+    "verdict": "accepted"
+  },
+  "u0190": {
+    "reason": "Acknowledges coerced washings without particulars, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0191": {
+    "reason": "Verbatim: searching the text for an outward mark.",
+    "verdict": "accepted"
+  },
+  "u0192": {
+    "reason": "Record says in whole regions they were simply the church.",
+    "verdict": "accepted"
+  },
+  "u0193": {
+    "reason": "Accurately gives Augustine's wheat-and-tares argument on day three of 411.",
+    "verdict": "accepted"
+  },
+  "u0194": {
+    "reason": "Correctly cites the opponents' forced reply that Cyprian is not canonical authority.",
+    "verdict": "accepted"
+  },
+  "u0195": {
+    "reason": "Record gives the bishop of Constantina's refusal of the chairs, paraphrased, not claimed as exact wording.",
+    "verdict": "accepted"
+  },
+  "u0196": {
+    "reason": "Accurately gives the burial and anniversary practice the record describes.",
+    "verdict": "accepted"
+  },
+  "u0197": {
+    "reason": "Verbatim: no school or settled method beyond Tyconius.",
+    "verdict": "accepted"
+  },
+  "u0198": {
+    "reason": "Record says the conference notary took words down without an adversary choosing them.",
+    "verdict": "accepted"
+  },
+  "u0199": {
+    "reason": "Matches the limit's statement that there was no school beyond Tyconius.",
+    "verdict": "accepted"
+  },
+  "u0200": {
+    "reason": "Verbatim: the washing happened once, bodily, publicly.",
+    "verdict": "accepted"
+  },
+  "u0201": {
+    "reason": "Record says the silence is not a lack of inner life but a matter of who kept the record.",
+    "verdict": "accepted"
+  },
+  "u0202": {
+    "reason": "Moves the record's 'about the priest, not the bread' onto the recipient's prior condition, a plausible extension the record does not make.",
+    "verdict": "defensible"
+  },
+  "u0203": {
+    "reason": "The Carthage succession Donatus, Parmenian, Primian is the term's content.",
+    "verdict": "accepted"
+  },
+  "u0204": {
+    "reason": "Verbatim from the record on the public, once-only character of the washing.",
+    "verdict": "accepted"
+  },
+  "u0205": {
+    "reason": "Accurately gives the Bagai pillars and other stones, with no claim about dates.",
+    "verdict": "accepted"
+  },
+  "u0206": {
+    "reason": "Verbatim: pardon was never the hinge of the dispute.",
+    "verdict": "accepted"
+  },
+  "u0207": {
+    "reason": "Record says they read scripture for one thing: a visible test.",
+    "verdict": "accepted"
+  },
+  "u0208": {
+    "reason": "Close paraphrase of the term's meaning.",
+    "verdict": "accepted"
+  },
+  "u0209": {
+    "reason": "Two bishops per town reflects the term's see-for-see order.",
+    "verdict": "accepted"
+  },
+  "u0210": {
+    "reason": "Record says soldiers entered buildings in daylight to enforce one church.",
+    "verdict": "accepted"
+  },
+  "u0211": {
+    "reason": "Accurately gives Cirta's question on traditio.",
+    "verdict": "accepted"
+  },
+  "u0212": {
+    "reason": "An honest limit on infant baptism, but the cited record says nothing about infants or the catechumen boy.",
+    "verdict": "defensible"
+  },
+  "u0213": {
+    "reason": "Gravity record supports martyrs grounding legitimacy; calling them a second 'authority' alongside scripture is an added frame.",
+    "verdict": "defensible"
+  },
+  "u0214": {
+    "reason": "Repeats the record's two-churches-one-faith line.",
+    "verdict": "accepted"
+  },
+  "u0215": {
+    "reason": "Weight of the Cyprianic appeal measured by the reply it required, as in the record.",
+    "verdict": "accepted"
+  },
+  "u0216": {
+    "reason": "Record says there was no quiet way to do it.",
+    "verdict": "accepted"
+  },
+  "u0217": {
+    "reason": "Points, as the record does, to the martyr's anniversary as the one describable day.",
+    "verdict": "accepted"
+  },
+  "u0218": {
+    "reason": "Washing as the entry itself is the record's view.",
+    "verdict": "accepted"
+  },
+  "u0219": {
+    "reason": "Places the notary's confession in an official inquiry, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0220": {
+    "reason": "Matches the record's argument from how much effort went into rebutting the Cyprian appeal.",
+    "verdict": "accepted"
+  },
+  "u0221": {
+    "reason": "Fairly presents the Bagai stones as unmediated Donatist words, as the term says.",
+    "verdict": "accepted"
+  },
+  "u0222": {
+    "reason": "Record admits Bagai took condemned bishops back, so the doctrinal boundary was not held uniformly.",
+    "verdict": "accepted"
+  },
+  "u0223": {
+    "reason": "Same daylight-persecution point as the record.",
+    "verdict": "accepted"
+  },
+  "u0224": {
+    "reason": "Framing that the record splits into answerable and unanswerable parts, as it does.",
+    "verdict": "accepted"
+  },
+  "u0225": {
+    "reason": "Captures the record's point that the washing was a first, not a second, baptism.",
+    "verdict": "accepted"
+  },
+  "u0226": {
+    "reason": "Says no woman's office or text survives, consistent with the not_for.",
+    "verdict": "accepted"
+  },
+  "u0227": {
+    "reason": "Fits the record's meaning but rests on the exact 411 wording that its not_for warns against.",
+    "verdict": "defensible"
+  },
+  "u0228": {
+    "reason": "Faithful paraphrase of Petilian's quoted words.",
+    "verdict": "accepted"
+  },
+  "u0229": {
+    "reason": "Attributes the Lucilla-centred founding story to the enemies, as the not_for requires.",
+    "verdict": "accepted"
+  },
+  "u0230": {
+    "reason": "Verbatim: not a second baptism.",
+    "verdict": "accepted"
+  },
+  "u0231": {
+    "reason": "Restates the record's summary of the gospel in working form.",
+    "verdict": "accepted"
+  },
+  "u0232": {
+    "reason": "Admits household life cannot be recovered, which is what the record says and its not_for protects.",
+    "verdict": "accepted"
+  },
+  "u0233": {
+    "reason": "Introduces the sermon's account of the basilica killings as the record states.",
+    "verdict": "accepted"
+  },
+  "u0234": {
+    "reason": "Record says shared faith left only the question of who could say the words.",
+    "verdict": "accepted"
+  },
+  "u0235": {
+    "reason": "Frames a split household as unrecorded, in line with the not_for.",
+    "verdict": "accepted"
+  },
+  "u0236": {
+    "reason": "Correctly limits the notary's confession to the forged letter about Felix.",
+    "verdict": "accepted"
+  },
+  "u0237": {
+    "reason": "Record describes reading as turning a plain sentence into a badge.",
+    "verdict": "accepted"
+  },
+  "u0238": {
+    "reason": "Matches the record's claim that the world-hatred verses served as an identification mark.",
+    "verdict": "accepted"
+  },
+  "u0239": {
+    "reason": "Verbatim: household costs went unrecorded.",
+    "verdict": "accepted"
+  },
+  "u0240": {
+    "reason": "The household silence leaned on here is exactly the gap the record describes.",
+    "verdict": "accepted"
+  },
+  "u0241": {
+    "reason": "Quotes the record's altar-not-Godhead line.",
+    "verdict": "accepted"
+  },
+  "u0242": {
+    "reason": "Shared faith word for word is the record's central claim.",
+    "verdict": "accepted"
+  },
+  "u0243": {
+    "reason": "Record says four things escape hostile mediation.",
+    "verdict": "accepted"
+  },
+  "u0244": {
+    "reason": "Quotes the 'public court' letter from the 320 record.",
+    "verdict": "accepted"
+  },
+  "u0245": {
+    "reason": "Rejects the catacomb picture, per the record's not_for.",
+    "verdict": "accepted"
+  },
+  "u0246": {
+    "reason": "Macrobius's letter ending with the warning to readers is in the record.",
+    "verdict": "accepted"
+  },
+  "u0247": {
+    "reason": "Repeats the record's 'our shout better than the place' line.",
+    "verdict": "accepted"
+  },
+  "u0248": {
+    "reason": "Paraphrases the record's list of unrecorded meals, fields, workshops and deathbeds.",
+    "verdict": "accepted"
+  },
+  "u0249": {
+    "reason": "Full version of the basilica account, matching the record.",
+    "verdict": "accepted"
+  },
+  "u0250": {
+    "reason": "Repeats the record's 'answer of a kind'.",
+    "verdict": "accepted"
+  },
+  "u0251": {
+    "reason": "Correctly says both named and unnamed women reach us inside a book blaming them for the split.",
+    "verdict": "accepted"
+  },
+  "u0252": {
+    "reason": "Record calls the catacomb image the wrong picture.",
+    "verdict": "accepted"
+  },
+  "u0253": {
+    "reason": "Matches the record's statement that no dig has been reported.",
+    "verdict": "accepted"
+  },
+  "u0254": {
+    "reason": "Councils deposing, restoring and shutting down a rival primate is stated in the record.",
+    "verdict": "accepted"
+  },
+  "u0255": {
+    "reason": "Record narrates the judge offering chairs and the refusal.",
+    "verdict": "accepted"
+  },
+  "u0256": {
+    "reason": "Matches the record's view that the court transcripts are genuine and checkable.",
+    "verdict": "accepted"
+  },
+  "u0257": {
+    "reason": "Verbatim lead-in to the record's point that the loss is of most of the communion.",
+    "verdict": "accepted"
+  },
+  "u0258": {
+    "reason": "Verbatim opening of the record: the comer from the rival communion is put in the water.",
+    "verdict": "accepted"
+  },
+  "u0259": {
+    "reason": "Matches the record's washing as public entry.",
+    "verdict": "accepted"
+  },
+  "u0260": {
+    "reason": "Two primates in one see is exactly the term's point.",
+    "verdict": "accepted"
+  },
+  "u0261": {
+    "reason": "Record says the split was never about God, but it addresses guilt, bread and works, not Trinitarian procession.",
+    "verdict": "defensible"
+  },
+  "u0262": {
+    "reason": "Lists a split household as unknown, not as attested.",
+    "verdict": "accepted"
+  },
+  "u0263": {
+    "reason": "Verbatim inference that hostile blame records a woman's agency.",
+    "verdict": "accepted"
+  },
+  "u0264": {
+    "reason": "Record says the dispute never turned on the traditor's repentance.",
+    "verdict": "accepted"
+  },
+  "u0265": {
+    "reason": "Lists the surviving proceedings exactly as the record names them.",
+    "verdict": "accepted"
+  },
+  "u0266": {
+    "reason": "Identifies the washing as the step of entry, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0267": {
+    "reason": "Uses the Maximianist exception as the rebaptism gravity frames it, though 'door wider than our reputation' adds rhetoric.",
+    "verdict": "defensible"
+  },
+  "u0268": {
+    "reason": "Matches the limit: no words from those who wavered.",
+    "verdict": "accepted"
+  },
+  "u0269": {
+    "reason": "Verbatim: no excavation, site, plan or floor.",
+    "verdict": "accepted"
+  },
+  "u0270": {
+    "reason": "Purity-of-the-giver doctrine is the term's meaning, used to frame the hushed-charge contradiction.",
+    "verdict": "accepted"
+  },
+  "u0271": {
+    "reason": "Gives the Christ-before-the-governor rationale the story records.",
+    "verdict": "accepted"
+  },
+  "u0272": {
+    "reason": "Rebaptizing an orthodox believer because of whose hands touched him is the record's example.",
+    "verdict": "accepted"
+  },
+  "u0273": {
+    "reason": "Record gives the Bagai condemnation and later reception.",
+    "verdict": "accepted"
+  },
+  "u0274": {
+    "reason": "Matches the record's descent through Cyprian's Carthage rather than Rome.",
+    "verdict": "accepted"
+  },
+  "u0275": {
+    "reason": "Declines claims about fate after death, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0276": {
+    "reason": "Contrast with Deo gratias and the stone inscriptions are both in the record.",
+    "verdict": "accepted"
+  },
+  "u0277": {
+    "reason": "Matches the record's focus on the giver's cleanness.",
+    "verdict": "accepted"
+  },
+  "u0278": {
+    "reason": "Verbatim: no rule for when a charge stops being pressed was written.",
+    "verdict": "accepted"
+  },
+  "u0279": {
+    "reason": "Introduces the record's claim that Donatist speech reveals the Christ they kept nearest.",
+    "verdict": "accepted"
+  },
+  "u0280": {
+    "reason": "Restates the record's point that Deo laudes and Deo gratias did not differ in meaning.",
+    "verdict": "accepted"
+  },
+  "u0281": {
+    "reason": "Verbatim: 'that is not a movement' denying the record's misframing.",
+    "verdict": "accepted"
+  },
+  "u0282": {
+    "reason": "Record describes walking publicly to one font.",
+    "verdict": "accepted"
+  },
+  "u0283": {
+    "reason": "Matches the record's two legs: scripture and the Carthage council.",
+    "verdict": "accepted"
+  },
+  "u0284": {
+    "reason": "Reads Petilian as about the rite, not damnation, exactly as the record does.",
+    "verdict": "accepted"
+  },
+  "u0285": {
+    "reason": "Framing sentence that sets up the record's contrast between rule and practice without adding a claim.",
+    "verdict": "accepted"
+  },
+  "u0286": {
+    "reason": "Draws the record's own inference from Cirta and Bagai without claiming a rule.",
+    "verdict": "accepted"
+  },
+  "u0287": {
+    "reason": "Quotes Petilian's principle accurately.",
+    "verdict": "accepted"
+  },
+  "u0288": {
+    "reason": "Record says not one of them wrote a morning down.",
+    "verdict": "accepted"
+  },
+  "u0289": {
+    "reason": "Gives the record's central gloss on the verses: the hated church is the true one.",
+    "verdict": "accepted"
+  },
+  "u0290": {
+    "reason": "A parallel hierarchy see for see is the record's claim.",
+    "verdict": "accepted"
+  },
+  "u0291": {
+    "reason": "Declines the inner-life questions exactly as the record does.",
+    "verdict": "accepted"
+  },
+  "u0292": {
+    "reason": "Accurately quotes Adeodatus's 411 answer as the record gives it.",
+    "verdict": "accepted"
+  },
+  "u0293": {
+    "reason": "Verbatim: shared articles cannot separate the two churches.",
+    "verdict": "accepted"
+  },
+  "u0294": {
+    "reason": "Repeats the record's no-doctrinal-difference point faithfully.",
+    "verdict": "accepted"
+  },
+  "u0295": {
+    "reason": "The enforced edict of unity is among the costs the record lists.",
+    "verdict": "accepted"
+  },
+  "u0296": {
+    "reason": "Tyconius's book is one of the four unmediated texts listed.",
+    "verdict": "accepted"
+  },
+  "u0297": {
+    "reason": "Calling the seven rules a 'system' and tying the ban to what they led to slightly blurs that he was silenced over the church's extent.",
+    "verdict": "defensible"
+  },
+  "u0298": {
+    "reason": "Repeats the record's claim that the 256 ruling was the African consensus before the schism.",
+    "verdict": "accepted"
+  },
+  "u0299": {
+    "reason": "Seven rules and condemnation by his own side match the term.",
+    "verdict": "accepted"
+  },
+  "u0300": {
+    "reason": "Record reads the opponents' effort as proof the Cyprian appeal hurt.",
+    "verdict": "accepted"
+  },
+  "u0301": {
+    "reason": "Repeats the record's point that the fine schedule is a surviving state document.",
+    "verdict": "accepted"
+  },
+  "u0302": {
+    "reason": "Bishop against bishop in every see is the gravity's content.",
+    "verdict": "accepted"
+  },
+  "u0303": {
+    "reason": "Gives the record's own explanation for the silence: hostile record-keepers.",
+    "verdict": "accepted"
+  },
+  "u0304": {
+    "reason": "Matches the story without claiming the exception was hidden.",
+    "verdict": "accepted"
+  },
+  "u0305": {
+    "reason": "Verbatim: no Numidian church report among the sources.",
+    "verdict": "accepted"
+  },
+  "u0306": {
+    "reason": "Acknowledges coerced washings exactly as the record does, without the particulars it excludes.",
+    "verdict": "accepted"
+  },
+  "u0307": {
+    "reason": "Close paraphrase of the record's Trinitarian confession.",
+    "verdict": "accepted"
+  },
+  "u0308": {
+    "reason": "Repeats the 279-vs-286 roll at Carthage correctly.",
+    "verdict": "accepted"
+  },
+  "u0309": {
+    "reason": "Record says Cyprian's letters and councils were theirs first.",
+    "verdict": "accepted"
+  },
+  "u0310": {
+    "reason": "States the record's distinction between pardon and fitness to give sacraments.",
+    "verdict": "accepted"
+  },
+  "u0311": {
+    "reason": "Repeats the record's unrecorded-household limit.",
+    "verdict": "accepted"
+  },
+  "u0312": {
+    "reason": "Repeat of the record's limit at Cyprian, used fittingly.",
+    "verdict": "accepted"
+  },
+  "u0313": {
+    "reason": "The crowd-overridden point about Silvanus at Cirta is not in this record, which concerns the hushed charge, leavers and suffering.",
+    "verdict": "misread"
+  },
+  "u0314": {
+    "reason": "Accurate account of the council of 256 under Cyprian.",
+    "verdict": "accepted"
+  },
+  "u0315": {
+    "reason": "Record locates the examined record in the giver, as this short sentence says.",
+    "verdict": "accepted"
+  },
+  "u0316": {
+    "reason": "Gives the record's chain of hands in place of eyewitnesses.",
+    "verdict": "accepted"
+  },
+  "u0317": {
+    "reason": "Verbatim: the shout is known better than the room.",
+    "verdict": "accepted"
+  },
+  "u0318": {
+    "reason": "Draws a modern pastoral implication the record voices, but not_for warns it is not a Donatist saying.",
+    "verdict": "defensible"
+  },
+  "u0319": {
+    "reason": "Gives Deo laudes against Deo gratias, cut in stone, as the term says.",
+    "verdict": "accepted"
+  },
+  "u0320": {
+    "reason": "The edict demanding scriptures and vessels is stated in the record.",
+    "verdict": "accepted"
+  },
+  "u0321": {
+    "reason": "Record says neither woman's own words survive.",
+    "verdict": "accepted"
+  },
+  "u0322": {
+    "reason": "Accurately gives the confession under threatened torture and that he forged for the Donatist side.",
+    "verdict": "accepted"
+  },
+  "u0323": {
+    "reason": "Verbatim: not a fence around Christianity.",
+    "verdict": "accepted"
+  },
+  "u0324": {
+    "reason": "Record describes the edict demanding scriptures and vessels.",
+    "verdict": "accepted"
+  },
+  "u0325": {
+    "reason": "Adds a ranking of which subjects survive richest, which the record implies but never states.",
+    "verdict": "defensible"
+  },
+  "u0326": {
+    "reason": "Rule enforced outward, suspended once inward, with no explanation, as recorded.",
+    "verdict": "accepted"
+  },
+  "u0327": {
+    "reason": "Same badge line, consistent with the record's account of reading for identification.",
+    "verdict": "accepted"
+  },
+  "u0328": {
+    "reason": "Matches the record's claim that belief was a public bodily act, not a private one.",
+    "verdict": "accepted"
+  },
+  "u0329": {
+    "reason": "Accurately gives the Caesarea bishop's procedural ordering at 411.",
+    "verdict": "accepted"
+  },
+  "u0330": {
+    "reason": "Macrobius's closing warning is cited in the record.",
+    "verdict": "accepted"
+  },
+  "u0331": {
+    "reason": "Matches the limit's naming of Tyconius as their strongest writing.",
+    "verdict": "accepted"
+  },
+  "u0332": {
+    "reason": "Repeats the giver's-conscience paraphrase fairly.",
+    "verdict": "accepted"
+  },
+  "u0333": {
+    "reason": "Record's own summary of the Christ they carried, tried and condemned yet right.",
+    "verdict": "accepted"
+  },
+  "u0334": {
+    "reason": "Gives the record's claim that the Donatists held the old African position.",
+    "verdict": "accepted"
+  },
+  "u0335": {
+    "reason": "Echoes the record's claim that the missing voices are nearly all of the communion.",
+    "verdict": "accepted"
+  },
+  "u0336": {
+    "reason": "Transitional sentence taken from the record before its pardon-versus-trust gloss.",
+    "verdict": "accepted"
+  },
+  "u0337": {
+    "reason": "Repeats the record's note that Lucilla is the only woman named and a second goes unnamed.",
+    "verdict": "accepted"
+  },
+  "u0338": {
+    "reason": "Verbatim from the record's denial that the Donatists were a small learned circle.",
+    "verdict": "accepted"
+  },
+  "u0339": {
+    "reason": "Edicts targeting the practice as the obstacle to the state's peace is in the record.",
+    "verdict": "accepted"
+  },
+  "u0340": {
+    "reason": "Repeats the story's 'reserved to the Lord'.",
+    "verdict": "accepted"
+  },
+  "u0341": {
+    "reason": "279 bishops standing through the conference fits the story's chair refusal.",
+    "verdict": "accepted"
+  },
+  "u0342": {
+    "reason": "Record uses this phrase to stress the significance of the shared creed.",
+    "verdict": "accepted"
+  },
+  "u0343": {
+    "reason": "Matches the record's statement that nothing was written on the eucharistic bread.",
+    "verdict": "accepted"
+  },
+  "u0344": {
+    "reason": "Accurately restates the shared Trinitarian confession in the same Latin.",
+    "verdict": "accepted"
+  },
+  "u0345": {
+    "reason": "Record says the hand, not the comer's record, was examined.",
+    "verdict": "accepted"
+  },
+  "u0346": {
+    "reason": "The record frames the dispute as sacramental and not settled by scripture; 'no doctrinal dispute' overstates it, though it matches the shared-creed framing.",
+    "verdict": "defensible"
+  },
+  "u0347": {
+    "reason": "Verbatim summation of the 411 exchange as the Donatist reading.",
+    "verdict": "accepted"
+  },
+  "u0348": {
+    "reason": "Close rendering of the quote's opening clause.",
+    "verdict": "accepted"
+  },
+  "u0349": {
+    "reason": "Declines the original-sin question, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0350": {
+    "reason": "Repeats the outward-mark search accurately.",
+    "verdict": "accepted"
+  },
+  "u0351": {
+    "reason": "Record presents the washing as the step from which everything follows.",
+    "verdict": "accepted"
+  },
+  "u0352": {
+    "reason": "Inflates the record's silencing of Tyconius into 'we had almost no doctrine to settle', overlooking their firm sacramental doctrine.",
+    "verdict": "defensible"
+  },
+  "u0353": {
+    "reason": "Matches the term's opening denial of baptizing twice.",
+    "verdict": "accepted"
+  },
+  "u0354": {
+    "reason": "Record says forgiveness was never what was being refused.",
+    "verdict": "accepted"
+  },
+  "u0355": {
+    "reason": "Repeats the record's schismatic-not-heretic point.",
+    "verdict": "accepted"
+  },
+  "u0356": {
+    "reason": "Accurately states that pardon and the power to ordain were separate questions.",
+    "verdict": "accepted"
+  },
+  "u0357": {
+    "reason": "Faithful restatement of the anniversary reading at the martyr's grave.",
+    "verdict": "accepted"
+  },
+  "u0358": {
+    "reason": "Correctly says Macrobius's letter ends on a warning, not on consolation.",
+    "verdict": "accepted"
+  },
+  "u0359": {
+    "reason": "Quotes the 411 verse exchange as the record presents it.",
+    "verdict": "accepted"
+  },
+  "u0360": {
+    "reason": "Record says they are called schismatics, never heretics.",
+    "verdict": "accepted"
+  },
+  "u0361": {
+    "reason": "Repeats the term's two-primates-in-one-city point.",
+    "verdict": "accepted"
+  },
+  "u0362": {
+    "reason": "'Born again' framed as a first baptism matches the record's reckoning.",
+    "verdict": "accepted"
+  },
+  "u0363": {
+    "reason": "Past-tense rendering of Petilian's formula, faithful.",
+    "verdict": "accepted"
+  },
+  "u0364": {
+    "reason": "Matches the account that several bishops admitted it.",
+    "verdict": "accepted"
+  },
+  "u0365": {
+    "reason": "Declines to speak on quiet doubt, consistent with the record's silence.",
+    "verdict": "accepted"
+  },
+  "u0366": {
+    "reason": "Record says their one interpreter was silenced.",
+    "verdict": "accepted"
+  },
+  "u0367": {
+    "reason": "Correctly says Cyprian did not break communion, as the not_for requires.",
+    "verdict": "accepted"
+  },
+  "u0368": {
+    "reason": "Same faith about Christ, never argued, is the record's claim.",
+    "verdict": "accepted"
+  },
+  "u0369": {
+    "reason": "Rephrased intro to the record's account of Christ standing before the governor.",
+    "verdict": "accepted"
+  },
+  "u0370": {
+    "reason": "Gives the record's warning that rich detail may be the opponent's.",
+    "verdict": "accepted"
+  },
+  "u0371": {
+    "reason": "The silver-not-gold fine is the record's own detail.",
+    "verdict": "accepted"
+  },
+  "u0372": {
+    "reason": "Record itself says almost all of it can be checked and names the surviving proceedings.",
+    "verdict": "accepted"
+  },
+  "u0373": {
+    "reason": "Matches the record's claim that imperial edicts targeted the act.",
+    "verdict": "accepted"
+  },
+  "u0374": {
+    "reason": "Accurate account of Bagai's condemnation and unrepeated reception.",
+    "verdict": "accepted"
+  },
+  "u0375": {
+    "reason": "Matches the record's reckoning that the comer had not had a first baptism.",
+    "verdict": "accepted"
+  },
+  "u0376": {
+    "reason": "Matches the record's claim that Christ was not in dispute.",
+    "verdict": "accepted"
+  },
+  "u0377": {
+    "reason": "Shifts the limit from scriptural reflection to 'the divine nature', which is not what the record says.",
+    "verdict": "defensible"
+  },
+  "u0378": {
+    "reason": "Echoes the record's own sentence that they were not looking back at something finished.",
+    "verdict": "accepted"
+  },
+  "u0379": {
+    "reason": "A loose summary of the record's sorting of checkable and unreliable material, with no specific anchor in it.",
+    "verdict": "defensible"
+  },
+  "u0380": {
+    "reason": "Verbatim: the smaller ledger cannot be given.",
+    "verdict": "accepted"
+  },
+  "u0381": {
+    "reason": "Repeats the quoted formula accurately.",
+    "verdict": "accepted"
+  },
+  "u0382": {
+    "reason": "The record covers councils and the absence of a school; silence on the bread is borrowed from a sibling record.",
+    "verdict": "defensible"
+  },
+  "u0383": {
+    "reason": "Verbatim: two words could carry the whole test.",
+    "verdict": "accepted"
+  },
+  "u0384": {
+    "reason": "Verbatim from the record's description of the test.",
+    "verdict": "accepted"
+  },
+  "u0385": {
+    "reason": "Repeats the record's 'books a man could carry' line.",
+    "verdict": "accepted"
+  },
+  "u0386": {
+    "reason": "Verbatim: the split was about whose hand gives.",
+    "verdict": "accepted"
+  },
+  "u0387": {
+    "reason": "Record says their claim was descent from Carthage.",
+    "verdict": "accepted"
+  },
+  "u0388": {
+    "reason": "Accurately gives the 411 roll and the bishops standing.",
+    "verdict": "accepted"
+  },
+  "u0389": {
+    "reason": "Reworks 'not about the bread' into 'not about the comer', a shift but compatible.",
+    "verdict": "defensible"
+  },
+  "u0390": {
+    "reason": "Record states the number and families of the slain are unknown.",
+    "verdict": "accepted"
+  },
+  "u0391": {
+    "reason": "Matches the record's denial that the practice was a Donatist novelty.",
+    "verdict": "accepted"
+  },
+  "u0392": {
+    "reason": "Verbatim pivot to what the hostile telling concedes.",
+    "verdict": "accepted"
+  },
+  "u0393": {
+    "reason": "Extends the record's silence on divorce to mixed marriages across communions, a reasonable but added scope.",
+    "verdict": "defensible"
+  },
+  "u0394": {
+    "reason": "Gives the record's view that rebaptism blocked the state's peace.",
+    "verdict": "accepted"
+  },
+  "u0395": {
+    "reason": "Verbatim: no quiet way to perform the washing.",
+    "verdict": "accepted"
+  },
+  "u0396": {
+    "reason": "Joins two record sentences on majority status and missing voices faithfully.",
+    "verdict": "accepted"
+  },
+  "u0397": {
+    "reason": "Episcopal selection by people and bishops is not what this record is about; that material belongs to a different record.",
+    "verdict": "misread"
+  },
+  "u0398": {
+    "reason": "The Maximianist reception showing the line was not held everywhere is the tension's point.",
+    "verdict": "accepted"
+  },
+  "u0399": {
+    "reason": "Record says the comer's life was not the question asked at the font.",
+    "verdict": "accepted"
+  },
+  "u0400": {
+    "reason": "Matches the record's claim that the loss falls on most of the communion.",
+    "verdict": "accepted"
+  },
+  "u0401": {
+    "reason": "Correctly states that the rule and the reception of clergy coexist with no surviving explanation.",
+    "verdict": "accepted"
+  },
+  "u0402": {
+    "reason": "Record says no article of faith separates the two bishops.",
+    "verdict": "accepted"
+  },
+  "u0403": {
+    "reason": "Matches the record's soldiers in broad daylight enforcing unity.",
+    "verdict": "accepted"
+  },
+  "u0404": {
+    "reason": "Story names a bishop's ban, not a council; the 'council' attribution stretches it.",
+    "verdict": "defensible"
+  },
+  "u0405": {
+    "reason": "Record infers the weight of the Cyprian appeal from the opponents' reply.",
+    "verdict": "accepted"
+  },
+  "u0406": {
+    "reason": "Matches the record's rejection of any apostolic-chain claim.",
+    "verdict": "accepted"
+  },
+  "u0407": {
+    "reason": "Repeats the 411 verse exchange as given.",
+    "verdict": "accepted"
+  },
+  "u0408": {
+    "reason": "Again cites the hypocrites record for the Cirta election episode, which it does not contain.",
+    "verdict": "misread"
+  },
+  "u0409": {
+    "reason": "Gives the story's irony without calling it plain evasion.",
+    "verdict": "accepted"
+  },
+  "u0410": {
+    "reason": "Repeats the record's observation that no Donatist child speaks.",
+    "verdict": "accepted"
+  },
+  "u0411": {
+    "reason": "Record calls the silence the shape of what was lost.",
+    "verdict": "accepted"
+  },
+  "u0412": {
+    "reason": "Faithful to the story's outcome at Cirta.",
+    "verdict": "accepted"
+  },
+  "u0413": {
+    "reason": "Macrobius ending with readiness, not consolation, is in the record.",
+    "verdict": "accepted"
+  },
+  "u0414": {
+    "reason": "Repeats the record's shared-creed reasoning in a matching context.",
+    "verdict": "accepted"
+  },
+  "u0415": {
+    "reason": "Matches the record's claim that the comer's record was not examined.",
+    "verdict": "accepted"
+  },
+  "u0416": {
+    "reason": "Verbatim: councils ruled on altars, not on the Godhead.",
+    "verdict": "accepted"
+  },
+  "u0417": {
+    "reason": "Record says both call their building the church.",
+    "verdict": "accepted"
+  },
+  "u0418": {
+    "reason": "Leads into the record's own admission of its weak point.",
+    "verdict": "accepted"
+  },
+  "u0419": {
+    "reason": "Declines an apostolic-pedigree claim, exactly as the record does.",
+    "verdict": "accepted"
+  },
+  "u0420": {
+    "reason": "Same quotation, used for the minister-focused examination it means.",
+    "verdict": "accepted"
+  },
+  "u0421": {
+    "reason": "Repeats the record's line on what the councils decided.",
+    "verdict": "accepted"
+  },
+  "u0422": {
+    "reason": "No surviving word on what crossing felt like fits the limit.",
+    "verdict": "accepted"
+  },
+  "u0423": {
+    "reason": "Record quotes the letter about not being condemned before the gentiles.",
+    "verdict": "accepted"
+  },
+  "u0424": {
+    "reason": "Gives the record's conclusion that the fight was over who had the right to the words.",
+    "verdict": "accepted"
+  },
+  "u0425": {
+    "reason": "Fairly restates that no ordinary member left a written line, within the record's limit.",
+    "verdict": "accepted"
+  },
+  "u0426": {
+    "reason": "Record says it can show an African council of the mid-third century.",
+    "verdict": "accepted"
+  },
+  "u0427": {
+    "reason": "Accurate retelling of the Bagai episode.",
+    "verdict": "accepted"
+  },
+  "u0428": {
+    "reason": "Quotes the sermon's family grief as the record does, without overclaiming.",
+    "verdict": "accepted"
+  },
+  "u0429": {
+    "reason": "Record says scripture was read to identify what and where the church is.",
+    "verdict": "accepted"
+  },
+  "u0430": {
+    "reason": "The record's conscience-of-the-giver passage supports this, though the formula itself is drawn from elsewhere.",
+    "verdict": "defensible"
+  },
+  "u0431": {
+    "reason": "'For the first time' is the record's arithmetic of rebaptism.",
+    "verdict": "accepted"
+  },
+  "u0432": {
+    "reason": "Verbatim statement of the broken-line reasoning in the record.",
+    "verdict": "accepted"
+  },
+  "u0433": {
+    "reason": "Quotes the record's account of reading scripture for a practical test between two buildings.",
+    "verdict": "accepted"
+  },
+  "u0434": {
+    "reason": "Repeats the imperial-favour scenario.",
+    "verdict": "accepted"
+  },
+  "u0435": {
+    "reason": "Matches the Bagai story's condemnation and reception.",
+    "verdict": "accepted"
+  },
+  "u0436": {
+    "reason": "Repeats the record's refusal to invent beyond the evidence.",
+    "verdict": "accepted"
+  },
+  "u0437": {
+    "reason": "Verbatim inference from the length of the opponents' reply.",
+    "verdict": "accepted"
+  },
+  "u0438": {
+    "reason": "Repeats the record's 'tried by lawful authority and lost' image faithfully.",
+    "verdict": "accepted"
+  },
+  "u0439": {
+    "reason": "Matches the record's denial that belief was a private settling of the mind.",
+    "verdict": "accepted"
+  },
+  "u0440": {
+    "reason": "Turns the public-act account into a claim about managing belief the record does not make.",
+    "verdict": "defensible"
+  },
+  "u0441": {
+    "reason": "Names the existence of forced-washing charges, which the record admits, without repeating their particulars.",
+    "verdict": "accepted"
+  },
+  "u0442": {
+    "reason": "Faithfully introduces the self-authored sermon passage.",
+    "verdict": "accepted"
+  },
+  "u0443": {
+    "reason": "Verbatim: no book on faith against works.",
+    "verdict": "accepted"
+  },
+  "u0444": {
+    "reason": "Record says the bishops' letters were read into a court record.",
+    "verdict": "accepted"
+  },
+  "u0445": {
+    "reason": "Accurately gives the record's tally of women: one named, one unnamed.",
+    "verdict": "accepted"
+  },
+  "u0446": {
+    "reason": "Repeats the not-a-second-baptism line correctly.",
+    "verdict": "accepted"
+  },
+  "u0447": {
+    "reason": "Record describes three days of mutual quotation changing no one's mind.",
+    "verdict": "accepted"
+  },
+  "u0448": {
+    "reason": "Matches the record's claim that the two acclamations divided everything in practice.",
+    "verdict": "accepted"
+  },
+  "u0449": {
+    "reason": "The unnamed second woman paralleled to Lucilla is in the limit.",
+    "verdict": "accepted"
+  },
+  "u0450": {
+    "reason": "Gives the yearly gathering on the death day exactly as the record says.",
+    "verdict": "accepted"
+  },
+  "u0451": {
+    "reason": "Matches the record's entry-as-washing claim.",
+    "verdict": "accepted"
+  },
+  "u0452": {
+    "reason": "310 at Bagai condemning and later receiving two bishops matches the record.",
+    "verdict": "accepted"
+  },
+  "u0453": {
+    "reason": "Record gives 279 on the roll and three days of standing.",
+    "verdict": "accepted"
+  },
+  "u0454": {
+    "reason": "Cites the Tyconius record for a claim about Cyprianic authority beside scripture, which that record does not mean.",
+    "verdict": "misread"
+  },
+  "u0455": {
+    "reason": "Verbatim lead-in to the two small fragments.",
+    "verdict": "accepted"
+  },
+  "u0456": {
+    "reason": "Record lists the meal, field, workshop and deathbed as undescribed.",
+    "verdict": "accepted"
+  },
+  "u0457": {
+    "reason": "Matches the record's claim that the stones show presence, not rooms.",
+    "verdict": "accepted"
+  },
+  "u0458": {
+    "reason": "Says worship records are thin, a fair inference the record makes only indirectly.",
+    "verdict": "defensible"
+  },
+  "u0459": {
+    "reason": "The 'faith against works' line comes from a sibling record; this one supports only the absence of a teaching movement.",
+    "verdict": "defensible"
+  },
+  "u0460": {
+    "reason": "Matches the term's stone inscriptions.",
+    "verdict": "accepted"
+  },
+  "u0461": {
+    "reason": "Verbatim framing that the silence reflects loss, not modesty.",
+    "verdict": "accepted"
+  },
+  "u0462": {
+    "reason": "Treats the badge as identity marking, as the record does, but adds a christological gloss the record does not give.",
+    "verdict": "defensible"
+  },
+  "u0463": {
+    "reason": "Matches the record's 'real crossing, not a change of heart'.",
+    "verdict": "accepted"
+  },
+  "u0464": {
+    "reason": "Verbatim concession, drawn from hostile argument, that many laity disliked rebaptism.",
+    "verdict": "accepted"
+  },
+  "u0465": {
+    "reason": "Record gives three disagreeing answers on readmission, as stated.",
+    "verdict": "accepted"
+  },
+  "u0466": {
+    "reason": "Matches the record's point that the exception sits in the same conciliar record.",
+    "verdict": "accepted"
+  },
+  "u0467": {
+    "reason": "Costs partly quantified by the state matches the record.",
+    "verdict": "accepted"
+  },
+  "u0468": {
+    "reason": "Repeats the Cyprianic-inheritance line faithfully.",
+    "verdict": "accepted"
+  },
+  "u0469": {
+    "reason": "Close paraphrase of the record's hinge: forgiven, yet still unable to ordain.",
+    "verdict": "accepted"
+  },
+  "u0470": {
+    "reason": "Repeats the record's list of conciliar actions.",
+    "verdict": "accepted"
+  },
+  "u0471": {
+    "reason": "Record calls Deo laudes their voice with no enemy between, two words long.",
+    "verdict": "accepted"
+  },
+  "u0472": {
+    "reason": "Repeats the identification-mark gloss exactly as the record frames it.",
+    "verdict": "accepted"
+  },
+  "u0473": {
+    "reason": "Repeats the annual graveside reading that the record offers as its one known day.",
+    "verdict": "accepted"
+  },
+  "u0474": {
+    "reason": "Same mid-third-century limit, faithful to the record.",
+    "verdict": "accepted"
+  },
+  "u0475": {
+    "reason": "Repeats the record's shared-faith image.",
+    "verdict": "accepted"
+  },
+  "u0476": {
+    "reason": "Repeats the absence of any excavation report correctly.",
+    "verdict": "accepted"
+  },
+  "u0477": {
+    "reason": "Short form of the record's badge-not-hidden-sense line.",
+    "verdict": "accepted"
+  },
+  "u0478": {
+    "reason": "Accurately says the face-to-face household round cannot be shown, as the record states.",
+    "verdict": "accepted"
+  },
+  "u0479": {
+    "reason": "Generalizes the no-ordinary-day limit into a councils-versus-feelings contrast the record only implies.",
+    "verdict": "defensible"
+  },
+  "u0480": {
+    "reason": "Record says the stones cannot show a font, altar, doorway or room.",
+    "verdict": "accepted"
+  },
+  "u0481": {
+    "reason": "Matches the record's account of Cirta leaving the case to God.",
+    "verdict": "accepted"
+  },
+  "u0482": {
+    "reason": "Restates the washing as the first answer from which the rest follows.",
+    "verdict": "accepted"
+  },
+  "u0483": {
+    "reason": "Quotes Petilian's formula as the record does.",
+    "verdict": "accepted"
+  },
+  "u0484": {
+    "reason": "Matches the record's account of the prior rite.",
+    "verdict": "accepted"
+  },
+  "u0485": {
+    "reason": "Changed-nothing claim matches the record's continuity argument.",
+    "verdict": "accepted"
+  },
+  "u0486": {
+    "reason": "Reproduces the record's reading of Adeodatus's 411 remark about terror.",
+    "verdict": "accepted"
+  },
+  "u0487": {
+    "reason": "Repeats the record's claim that the practice was not their invention.",
+    "verdict": "accepted"
+  },
+  "u0488": {
+    "reason": "Confiscated buildings are listed in the record.",
+    "verdict": "accepted"
+  },
+  "u0489": {
+    "reason": "Deo laudes cut in stone near Bagai is the quote's context.",
+    "verdict": "accepted"
+  },
+  "u0490": {
+    "reason": "Repeats the record's 'not a second time'.",
+    "verdict": "accepted"
+  },
+  "u0491": {
+    "reason": "Repeats the whose-hand formula correctly.",
+    "verdict": "accepted"
+  },
+  "u0492": {
+    "reason": "Uses Petilian's faith-from-the-faithless line for the outward rule, within its meaning.",
+    "verdict": "accepted"
+  },
+  "u0493": {
+    "reason": "Names bishops and councils as the structure, as the gravity does.",
+    "verdict": "accepted"
+  },
+  "u0494": {
+    "reason": "Verbatim: the line ran through the middle of the church.",
+    "verdict": "accepted"
+  },
+  "u0495": {
+    "reason": "Summarizes the Cirta outcome as the record does.",
+    "verdict": "accepted"
+  },
+  "u0496": {
+    "reason": "Repeats the record's claim that Donatist councils actually governed.",
+    "verdict": "accepted"
+  },
+  "u0497": {
+    "reason": "Lists the martyr accounts' visions while framing them as genre, not reporting.",
+    "verdict": "accepted"
+  },
+  "u0498": {
+    "reason": "Record says a council of bishops was not an advisory board.",
+    "verdict": "accepted"
+  },
+  "u0499": {
+    "reason": "Quotes the family-grief passage the record itself contains, without treating it as a certified translation.",
+    "verdict": "accepted"
+  },
+  "u0500": {
+    "reason": "Framing that the asked-for theology was not produced matches the limit.",
+    "verdict": "accepted"
+  },
+  "u0501": {
+    "reason": "Record says they held the Trinity in the same Latin words.",
+    "verdict": "accepted"
+  },
+  "u0502": {
+    "reason": "Restates the record's one-day-in-365 contrast.",
+    "verdict": "accepted"
+  },
+  "u0503": {
+    "reason": "Verbatim limit: no pedigree back to the apostles.",
+    "verdict": "accepted"
+  },
+  "u0504": {
+    "reason": "Notary's confession is in the story, but 'under oath' (versus threatened torture) and the Christ framing go beyond it.",
+    "verdict": "defensible"
+  },
+  "u0505": {
+    "reason": "Restates the record's entry step.",
+    "verdict": "accepted"
+  },
+  "u0506": {
+    "reason": "Adds an inference about the recipient's record that the quote itself does not state.",
+    "verdict": "defensible"
+  },
+  "u0507": {
+    "reason": "Record quotes Petilian on faith from the faithless bringing guilt.",
+    "verdict": "accepted"
+  },
+  "u0508": {
+    "reason": "Accurately dates and describes the 320 Zenophilus hearing.",
+    "verdict": "accepted"
+  },
+  "u0509": {
+    "reason": "Bishops-and-councils structure is not what the primas term covers.",
+    "verdict": "defensible"
+  },
+  "u0510": {
+    "reason": "Record opens with 'what we had about Jesus was books'.",
+    "verdict": "accepted"
+  },
+  "u0511": {
+    "reason": "Offers the anniversary day as the record's single recoverable day.",
+    "verdict": "accepted"
+  },
+  "u0512": {
+    "reason": "Verbatim: family grief set down in their own voice.",
+    "verdict": "accepted"
+  },
+  "u0513": {
+    "reason": "Record says belonging sometimes cost everything, citing the martyrs drowned at sea.",
+    "verdict": "accepted"
+  },
+  "u0514": {
+    "reason": "Matches the record's statement that the eastern councils are absent from the Donatist record.",
+    "verdict": "accepted"
+  },
+  "u0515": {
+    "reason": "Verbatim: condemned, with almost no following.",
+    "verdict": "accepted"
+  },
+  "u0516": {
+    "reason": "Restates the record's claim that the comer's record was not examined.",
+    "verdict": "accepted"
+  },
+  "u0517": {
+    "reason": "Shifts the record's question of whether a fallen hand can still give onto examining the hand at the font, which it fits but which comes from a sibling record.",
+    "verdict": "defensible"
+  },
+  "u0518": {
+    "reason": "Public dated entry by a trusted hand summarizes the record's entry account fairly.",
+    "verdict": "accepted"
+  },
+  "u0519": {
+    "reason": "Record names Optatus and Augustine as the hands nearly everything passes through.",
+    "verdict": "accepted"
+  },
+  "u0520": {
+    "reason": "Matches the record's view that the martyr texts were written for graveside reading.",
+    "verdict": "accepted"
+  },
+  "u0521": {
+    "reason": "Verbatim: no doctrinal difference, only who could rightly say the words.",
+    "verdict": "accepted"
+  },
+  "u0522": {
+    "reason": "Record opens with Donatists confessing the same Christ as their opponents.",
+    "verdict": "accepted"
+  },
+  "u0523": {
+    "reason": "The record mentions fines on country members; the silver-versus-gold detail is borrowed from a sibling record.",
+    "verdict": "defensible"
+  },
+  "u0524": {
+    "reason": "Verbatim description of Tyconius's seven rules.",
+    "verdict": "accepted"
+  },
+  "u0525": {
+    "reason": "Record says the anniversary day can be described.",
+    "verdict": "accepted"
+  },
+  "u0526": {
+    "reason": "Matches the record's scene of two rival bishops who recite the same creed.",
+    "verdict": "accepted"
+  },
+  "u0527": {
+    "reason": "Repeats the sermon framing accurately.",
+    "verdict": "accepted"
+  },
+  "u0528": {
+    "reason": "Transition the record itself uses before its concession.",
+    "verdict": "accepted"
+  },
+  "u0529": {
+    "reason": "Correctly calls Optatus's seven books a polemical outside source.",
+    "verdict": "accepted"
+  },
+  "u0530": {
+    "reason": "Verbatim denial of a method of interpretation.",
+    "verdict": "accepted"
+  },
+  "u0531": {
+    "reason": "Record says no Donatist left a word on the inner-life questions.",
+    "verdict": "accepted"
+  },
+  "u0532": {
+    "reason": "Matches the limit's survivorship point.",
+    "verdict": "accepted"
+  },
+  "u0533": {
+    "reason": "Shared creed and no dispute over God or grace fits the record.",
+    "verdict": "accepted"
+  },
+  "u0534": {
+    "reason": "Record says the bishop did not close the letter with consolation.",
+    "verdict": "accepted"
+  },
+  "u0535": {
+    "reason": "Matches the record's claim that the argument stayed on what the hand can give.",
+    "verdict": "accepted"
+  },
+  "u0536": {
+    "reason": "Verbatim: the comer's past life was not the question asked.",
+    "verdict": "accepted"
+  },
+  "u0537": {
+    "reason": "Record says they argued from a chain of hands, not eyewitnesses.",
+    "verdict": "accepted"
+  },
+  "u0538": {
+    "reason": "Gives the record's one disputed question.",
+    "verdict": "accepted"
+  },
+  "u0539": {
+    "reason": "Fragment of the outward-mark line, used as intended.",
+    "verdict": "accepted"
+  },
+  "u0540": {
+    "reason": "Record mentions the 310 at Bagai only as condemning a party; 'ruled as a body' on what the church was stretches it.",
+    "verdict": "defensible"
+  },
+  "u0541": {
+    "reason": "Repeats the record's own cautious 'seem to have' reading.",
+    "verdict": "accepted"
+  },
+  "u0542": {
+    "reason": "Verbatim, but stating that the acta 'survive' brushes the not_for about survival on their own terms.",
+    "verdict": "defensible"
+  },
+  "u0543": {
+    "reason": "Record contrasts the bishop with imperial protection against the one without.",
+    "verdict": "accepted"
+  },
+  "u0544": {
+    "reason": "Matches the record's focus on the church across the street.",
+    "verdict": "accepted"
+  },
+  "u0545": {
+    "reason": "The martyr-text claim comes from other material; this record only says inner life went unrecorded.",
+    "verdict": "defensible"
+  },
+  "u0546": {
+    "reason": "Record says nothing had happened because the hand came from a broken line.",
+    "verdict": "accepted"
+  },
+  "u0547": {
+    "reason": "Quotes the 'let no one learn of it' endings the record gives.",
+    "verdict": "accepted"
+  },
+  "u0548": {
+    "reason": "Verbatim reading of Adeodatus's 'terror' remark as the record frames it.",
+    "verdict": "accepted"
+  },
+  "u0549": {
+    "reason": "Repeat of the record's list of undescribed daily scenes.",
+    "verdict": "accepted"
+  },
+  "u0550": {
+    "reason": "Matches the record's refusal of the hiding-underground image.",
+    "verdict": "accepted"
+  },
+  "u0551": {
+    "reason": "Verbatim: the Donatists were not a teaching movement.",
+    "verdict": "accepted"
+  },
+  "u0552": {
+    "reason": "Record opens by saying it cannot walk you through a day.",
+    "verdict": "accepted"
+  },
+  "u0553": {
+    "reason": "Notes that dated coercion charges exist without giving particulars, consistent with the not_for.",
+    "verdict": "accepted"
+  },
+  "u0554": {
+    "reason": "'Following did not exist' sharpens the term's 'almost no following'.",
+    "verdict": "defensible"
+  },
+  "u0555": {
+    "reason": "The record says the minister rather than the comer's record was examined, not that no profession of faith was required.",
+    "verdict": "misread"
+  },
+  "u0556": {
+    "reason": "Consistent with the record's account of a prior rite that was counted as nothing.",
+    "verdict": "accepted"
+  },
+  "u0557": {
+    "reason": "Invents a rule rebaptizing those baptized by a secretly traditor Donatist bishop, which the term never states.",
+    "verdict": "misread"
+  },
+  "u0558": {
+    "reason": "Record answers no to knowing an eyewitness.",
+    "verdict": "accepted"
+  },
+  "u0559": {
+    "reason": "Matches the term's claim that the earlier rite conferred nothing.",
+    "verdict": "accepted"
+  },
+  "u0560": {
+    "reason": "Repeats the record's point about imperial edicts naming the practice.",
+    "verdict": "accepted"
+  },
+  "u0561": {
+    "reason": "Same opening admission, used again in a fitting answer.",
+    "verdict": "accepted"
+  },
+  "u0562": {
+    "reason": "Draws the record's own conclusion that return was possible but inconsistent.",
+    "verdict": "accepted"
+  },
+  "u0563": {
+    "reason": "Cites the verse exchange for its theme, not resting on exact wording.",
+    "verdict": "accepted"
+  },
+  "u0564": {
+    "reason": "Same font-examination line, used again consistently with the record.",
+    "verdict": "accepted"
+  },
+  "u0565": {
+    "reason": "Accurately places the Bagai reception in Donatist conciliar documents.",
+    "verdict": "accepted"
+  },
+  "u0566": {
+    "reason": "Rhetorical claim of total focus that this record supports only through its no-school statement.",
+    "verdict": "defensible"
+  },
+  "u0567": {
+    "reason": "Uses Deo laudes as a public party badge set against Deo gratias.",
+    "verdict": "accepted"
+  },
+  "u0568": {
+    "reason": "Repeats the record's 'one interpreter, silenced'.",
+    "verdict": "accepted"
+  },
+  "u0569": {
+    "reason": "Restates the record's 'you have not had a first' reckoning.",
+    "verdict": "accepted"
+  },
+  "u0570": {
+    "reason": "Record says martyr accounts should not be taken as reporting, which the paragraph follows.",
+    "verdict": "accepted"
+  },
+  "u0571": {
+    "reason": "Matches the story, keeping the shipwreck language figurative.",
+    "verdict": "accepted"
+  },
+  "u0572": {
+    "reason": "Bagai's unconditional reception of two condemned bishops is stated in the record.",
+    "verdict": "accepted"
+  },
+  "u0573": {
+    "reason": "Same denial of eyewitness contact, as the record gives it.",
+    "verdict": "accepted"
+  },
+  "u0574": {
+    "reason": "Concedes the Cyprian counterpoint, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0575": {
+    "reason": "Verbatim summary of the two-accounts distinction.",
+    "verdict": "accepted"
+  },
+  "u0576": {
+    "reason": "Bagai condemnation and two bishops readmitted, as in the story.",
+    "verdict": "accepted"
+  },
+  "u0577": {
+    "reason": "Matches the term: condemned by his side, few followers.",
+    "verdict": "accepted"
+  },
+  "u0578": {
+    "reason": "Verbatim scenario of two bishops in one town.",
+    "verdict": "accepted"
+  },
+  "u0579": {
+    "reason": "Record opens with 'born again, yes' and the arithmetic dispute.",
+    "verdict": "accepted"
+  },
+  "u0580": {
+    "reason": "Quotes the record's no-school, one-book line.",
+    "verdict": "accepted"
+  },
+  "u0581": {
+    "reason": "Verbatim identification of Tyconius and his rules.",
+    "verdict": "accepted"
+  },
+  "u0582": {
+    "reason": "Afterlife of the book in the rival church is stated in the record text.",
+    "verdict": "accepted"
+  },
+  "u0583": {
+    "reason": "Faithful to the record's Tyconius passage.",
+    "verdict": "accepted"
+  },
+  "u0584": {
+    "reason": "Verbatim image of books carried to a magistrate or died for.",
+    "verdict": "accepted"
+  },
+  "u0585": {
+    "reason": "Record gives the post-Vandal continuation and Gregory's letters on Numidian rebaptism.",
+    "verdict": "accepted"
+  },
+  "u0586": {
+    "reason": "Faithful account of the bounded reception decision.",
+    "verdict": "accepted"
+  },
+  "u0587": {
+    "reason": "Restates the record's claim that the Cyprianic precedent made them the older party.",
+    "verdict": "accepted"
+  },
+  "u0588": {
+    "reason": "Another faithful description of the annual reading of the passion at the grave.",
+    "verdict": "accepted"
+  },
+  "u0589": {
+    "reason": "Gives the modern objection exactly as the record frames it.",
+    "verdict": "accepted"
+  },
+  "u0590": {
+    "reason": "Repeats the record's account of Cyprian's council correctly.",
+    "verdict": "accepted"
+  },
+  "u0591": {
+    "reason": "Record says both women reach us through a book blaming them.",
+    "verdict": "accepted"
+  },
+  "u0592": {
+    "reason": "Repeats the record's own generalization that plain phrases were turned into badges.",
+    "verdict": "accepted"
+  },
+  "u0593": {
+    "reason": "Applies the record's general silence to a specific pastoral-failure question it does not name.",
+    "verdict": "defensible"
+  },
+  "u0594": {
+    "reason": "Record disclaims any apostolic chain of custom.",
+    "verdict": "accepted"
+  },
+  "u0595": {
+    "reason": "Opens the record's two-bishops scenario faithfully.",
+    "verdict": "accepted"
+  },
+  "u0596": {
+    "reason": "Quotes Petilian and draws the record's own inference about the font.",
+    "verdict": "accepted"
+  },
+  "u0597": {
+    "reason": "Record says Tyconius's book survived but his following did not.",
+    "verdict": "accepted"
+  },
+  "u0598": {
+    "reason": "Declines to treat the martyr texts as reporting, in line with the not_for.",
+    "verdict": "accepted"
+  },
+  "u0599": {
+    "reason": "Broad claim about surviving defiance stretches the single sermon story it cites.",
+    "verdict": "defensible"
+  },
+  "u0600": {
+    "reason": "Record says the quarrel was about who may hand on what Christ gave.",
+    "verdict": "accepted"
+  },
+  "u0601": {
+    "reason": "Matches the record's point that the Donatists said of Christ what their opponents said, creed for creed.",
+    "verdict": "accepted"
+  },
+  "u0602": {
+    "reason": "Repeats the record's 'nearly all of us' claim about the missing voices.",
+    "verdict": "accepted"
+  },
+  "u0603": {
+    "reason": "Record says pardon and trust is the question they spent a century on, framed as the sacramental dispute.",
+    "verdict": "accepted"
+  },
+  "u0604": {
+    "reason": "Withholds the charge particulars, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0605": {
+    "reason": "Repeats the record's line that the comer's life was not examined.",
+    "verdict": "accepted"
+  },
+  "u0606": {
+    "reason": "Quotes the conscience-of-the-giver line the term records.",
+    "verdict": "accepted"
+  },
+  "u0607": {
+    "reason": "Rightly treats Tyconius as an exception, not the communion's method.",
+    "verdict": "accepted"
+  },
+  "u0608": {
+    "reason": "Verbatim: no school or system, one book by one silenced man.",
+    "verdict": "accepted"
+  },
+  "u0609": {
+    "reason": "Record says the sermon goes beyond the killing to the families among the dead.",
+    "verdict": "accepted"
+  },
+  "u0610": {
+    "reason": "Matches the record's claim of a public, dated, one-time act.",
+    "verdict": "accepted"
+  },
+  "u0611": {
+    "reason": "Verbatim: no surviving explanation of the two acts.",
+    "verdict": "accepted"
+  },
+  "u0612": {
+    "reason": "Repeats the record on clergy surrendering the codices.",
+    "verdict": "accepted"
+  },
+  "u0613": {
+    "reason": "Matches the story and correctly says no condition or reasoning was recorded.",
+    "verdict": "accepted"
+  },
+  "u0614": {
+    "reason": "Same verbatim no-school line, accurately used.",
+    "verdict": "accepted"
+  },
+  "u0615": {
+    "reason": "Record ends 'none of it is a room'.",
+    "verdict": "accepted"
+  },
+  "u0616": {
+    "reason": "Gives the record's soldiers-at-the-door test of which church is persecuted.",
+    "verdict": "accepted"
+  },
+  "u0617": {
+    "reason": "Repeats the record's schismatic-not-heretic observation.",
+    "verdict": "accepted"
+  },
+  "u0618": {
+    "reason": "Record says what it can hand over is small.",
+    "verdict": "accepted"
+  },
+  "u0619": {
+    "reason": "Matches the record's claim that the comer's life was not examined.",
+    "verdict": "accepted"
+  },
+  "u0620": {
+    "reason": "Seven books arguing Cyprian is not canonical restates the record faithfully.",
+    "verdict": "accepted"
+  },
+  "u0621": {
+    "reason": "Repeats the record's rejection of an eyewitness chain.",
+    "verdict": "accepted"
+  },
+  "u0622": {
+    "reason": "Quotes the Zenophilus letter the record cites.",
+    "verdict": "accepted"
+  },
+  "u0623": {
+    "reason": "Repeats the record's line on the unavoidably public washing.",
+    "verdict": "accepted"
+  },
+  "u0624": {
+    "reason": "Record says wavering believers' experience survives in no Donatist words.",
+    "verdict": "accepted"
+  },
+  "u0625": {
+    "reason": "Lists the evidence types the record names.",
+    "verdict": "accepted"
+  },
+  "u0626": {
+    "reason": "The preaching ban and permanent exclusion go beyond the term's bare 'condemned'.",
+    "verdict": "defensible"
+  },
+  "u0627": {
+    "reason": "Record frames the marriage silence as a hole not to be papered over.",
+    "verdict": "accepted"
+  },
+  "u0628": {
+    "reason": "Restates the record's absence of excavation reports.",
+    "verdict": "accepted"
+  },
+  "u0629": {
+    "reason": "Verbatim: rebaptism as plain refusal of the imposed settlement.",
+    "verdict": "accepted"
+  },
+  "u0630": {
+    "reason": "Record says no school or system, one book by a silenced man.",
+    "verdict": "accepted"
+  },
+  "u0631": {
+    "reason": "Repeats the record's chain-of-hands argument.",
+    "verdict": "accepted"
+  },
+  "u0632": {
+    "reason": "Repeats the soldiers'-door test.",
+    "verdict": "accepted"
+  },
+  "u0633": {
+    "reason": "Record says the books are literally their history.",
+    "verdict": "accepted"
+  },
+  "u0634": {
+    "reason": "Matches the record's statement that the other 364 days are lost.",
+    "verdict": "accepted"
+  },
+  "u0635": {
+    "reason": "Reading for one test rather than for everything matches the record's framing.",
+    "verdict": "accepted"
+  },
+  "u0636": {
+    "reason": "Kept visible and unresolved fits the story's not_for that the exception was not hidden and its reasoning lost.",
+    "verdict": "accepted"
+  },
+  "u0637": {
+    "reason": "Repeats the record's claim to the old African position.",
+    "verdict": "accepted"
+  },
+  "u0638": {
+    "reason": "Internal disputes being about standing, not speculative theology, matches the record.",
+    "verdict": "accepted"
+  },
+  "u0639": {
+    "reason": "Record says every hushing letter ends the same way.",
+    "verdict": "accepted"
+  },
+  "u0640": {
+    "reason": "This record ends in 412 and says nothing about later continuity or the lack of any descendant communion.",
+    "verdict": "misread"
+  },
+  "u0641": {
+    "reason": "Repeats the record's denial of hiding underground.",
+    "verdict": "accepted"
+  },
+  "u0642": {
+    "reason": "Fair on the founding dispute, but the record treats the conference transcript as notary-taken rather than opponent-preserved.",
+    "verdict": "defensible"
+  },
+  "u0643": {
+    "reason": "Narrows the record's one conviction with four sides down to the sacramental-hand question alone, which is one side of it, not a misreading.",
+    "verdict": "defensible"
+  },
+  "u0644": {
+    "reason": "Verbatim claim of checkability that the record itself makes.",
+    "verdict": "accepted"
+  },
+  "u0645": {
+    "reason": "Record says they came out of the difference over surrender and keep naming it.",
+    "verdict": "accepted"
+  },
+  "u0646": {
+    "reason": "Cites Petilian's conscience-of-the-giver line, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0647": {
+    "reason": "Verbatim: repentance was not the hinge.",
+    "verdict": "accepted"
+  },
+  "u0648": {
+    "reason": "Record says the reading follows from the two-bishop situation.",
+    "verdict": "accepted"
+  },
+  "u0649": {
+    "reason": "A transition the record itself uses before the Deo laudes point.",
+    "verdict": "accepted"
+  },
+  "u0650": {
+    "reason": "The comer's record not being at issue is the record's claim.",
+    "verdict": "accepted"
+  },
+  "u0651": {
+    "reason": "Term says nothing happened the first time, so no first baptism was had.",
+    "verdict": "accepted"
+  },
+  "u0652": {
+    "reason": "Gives the hushed true charge as the record does.",
+    "verdict": "accepted"
+  },
+  "u0653": {
+    "reason": "Accurate summary of the Macrobius letter's events.",
+    "verdict": "accepted"
+  },
+  "u0654": {
+    "reason": "Correctly frames Bagai as a departure from the rite otherwise insisted on.",
+    "verdict": "accepted"
+  },
+  "u0655": {
+    "reason": "Rightly says the confession concerned a forged letter, not anything about worship.",
+    "verdict": "accepted"
+  },
+  "u0656": {
+    "reason": "Holding the first washing void because of a broken line fits the record's 'nothing to hand over'.",
+    "verdict": "accepted"
+  },
+  "u0657": {
+    "reason": "Record says no traceable line runs to any present communion.",
+    "verdict": "accepted"
+  },
+  "u0658": {
+    "reason": "Gives the record's view that rebaptism refused the state settlement.",
+    "verdict": "accepted"
+  },
+  "u0659": {
+    "reason": "Verbatim: one whole church facing another, see for see.",
+    "verdict": "accepted"
+  },
+  "u0660": {
+    "reason": "Record says they were not a teaching movement.",
+    "verdict": "accepted"
+  },
+  "u0661": {
+    "reason": "Matches the record's no-teaching-movement admission.",
+    "verdict": "accepted"
+  },
+  "u0662": {
+    "reason": "Correctly says no Donatist argument for the resurrection survives.",
+    "verdict": "accepted"
+  },
+  "u0663": {
+    "reason": "Story gives 279 bishops and three days, standing after refusing chairs.",
+    "verdict": "accepted"
+  },
+  "u0664": {
+    "reason": "Same Petilian citation the record offers as its nearest material.",
+    "verdict": "accepted"
+  },
+  "u0665": {
+    "reason": "Verbatim: one question argued well.",
+    "verdict": "accepted"
+  },
+  "u0666": {
+    "reason": "Repeats the record's description of the public washing in a different answer, still faithful.",
+    "verdict": "accepted"
+  },
+  "u0667": {
+    "reason": "The 411 detail fits the story, but its mixed sat/refused-chairs wording and the added claim about washing go beyond it.",
+    "verdict": "defensible"
+  },
+  "u0668": {
+    "reason": "Theologizes the chair refusal into a summary of who Christ was, beyond the story's scope.",
+    "verdict": "defensible"
+  },
+  "u0669": {
+    "reason": "Record says three hundred years separated them from eyewitnesses.",
+    "verdict": "accepted"
+  },
+  "u0670": {
+    "reason": "Echoes the single-question framing, which this record implies but does not state.",
+    "verdict": "defensible"
+  },
+  "u0671": {
+    "reason": "Repeats the refusal-and-cost line accurately.",
+    "verdict": "accepted"
+  },
+  "u0672": {
+    "reason": "Calling the washing every member's threshold generalizes a record that speaks of comers from the rival communion.",
+    "verdict": "defensible"
+  },
+  "u0673": {
+    "reason": "Repeats the fine figure the record gives.",
+    "verdict": "accepted"
+  },
+  "u0674": {
+    "reason": "Verbatim acknowledgement that commemoration is not an argument.",
+    "verdict": "accepted"
+  },
+  "u0675": {
+    "reason": "Compresses 'not for comfort or doctrine' into a flat identify-not-interpret rule, generalizing past the 411 exchange.",
+    "verdict": "defensible"
+  },
+  "u0676": {
+    "reason": "The record supports a whole parallel church; the named provinces add detail it does not give.",
+    "verdict": "defensible"
+  },
+  "u0677": {
+    "reason": "Inherited guilt is not named in this record; it extrapolates from 'no system'.",
+    "verdict": "defensible"
+  },
+  "u0678": {
+    "reason": "Record says no enslaved member speaks.",
+    "verdict": "accepted"
+  },
+  "u0679": {
+    "reason": "Introduces the describable martyr-anniversary day just as the record does.",
+    "verdict": "accepted"
+  },
+  "u0680": {
+    "reason": "Faithful summary of the Macrobius story.",
+    "verdict": "accepted"
+  },
+  "u0681": {
+    "reason": "Record calls Cyprian's ruling the settled African mind before the schism.",
+    "verdict": "accepted"
+  },
+  "u0682": {
+    "reason": "Treats neighbourly estrangement as unrecorded, as the record does.",
+    "verdict": "accepted"
+  },
+  "u0683": {
+    "reason": "Verbatim denial that the distinction is bitterness.",
+    "verdict": "accepted"
+  },
+  "u0684": {
+    "reason": "Paraphrases the record's point that the person coming was not examined.",
+    "verdict": "accepted"
+  },
+  "u0685": {
+    "reason": "Extends the traditor rule to unknown traditors among their own bishops, a logical extension the term does not state.",
+    "verdict": "defensible"
+  },
+  "u0686": {
+    "reason": "Not asking the comer to account for themselves restates the record.",
+    "verdict": "accepted"
+  },
+  "u0687": {
+    "reason": "The inference about unbaptized young catechumens has no basis in this record, which says nothing about catechumens.",
+    "verdict": "misread"
+  },
+  "u0688": {
+    "reason": "Matches the record's opening claim that the state documented part of the cost.",
+    "verdict": "accepted"
+  },
+  "u0689": {
+    "reason": "The giver's conscience as what is examined fits the term.",
+    "verdict": "accepted"
+  },
+  "u0690": {
+    "reason": "Repeats the record's line that the comer's past was not the question, in a fitting context.",
+    "verdict": "accepted"
+  },
+  "u0691": {
+    "reason": "Accurately retells the Macrobius letter the record describes.",
+    "verdict": "accepted"
+  },
+  "u0692": {
+    "reason": "Treats Deo laudes as an identity marker rather than a slogan, matching the badge reading.",
+    "verdict": "accepted"
+  },
+  "u0693": {
+    "reason": "Second use of 'two words could carry all of this', faithful to the record.",
+    "verdict": "accepted"
+  },
+  "u0694": {
+    "reason": "Gives the record's broken-line rationale.",
+    "verdict": "accepted"
+  },
+  "u0695": {
+    "reason": "Restates the record's note that no enslaved member speaks.",
+    "verdict": "accepted"
+  },
+  "u0696": {
+    "reason": "Record summarizes the seven books' effort to deny Cyprian canonical authority.",
+    "verdict": "accepted"
+  },
+  "u0697": {
+    "reason": "Matches the term's book-outlived-following point.",
+    "verdict": "accepted"
+  },
+  "u0698": {
+    "reason": "The exception sitting in the conciliar record is stated.",
+    "verdict": "accepted"
+  },
+  "u0699": {
+    "reason": "Accurate retelling of the Bagai episode.",
+    "verdict": "accepted"
+  },
+  "u0700": {
+    "reason": "Sharpens the record's 'not a teaching movement' into 'not doctrinal', downplaying the communion's firm sacramental doctrine.",
+    "verdict": "defensible"
+  },
+  "u0701": {
+    "reason": "States the absolute rule that the record says was held.",
+    "verdict": "accepted"
+  },
+  "u0702": {
+    "reason": "Record says no book on whether a baby is born guilty was written.",
+    "verdict": "accepted"
+  },
+  "u0703": {
+    "reason": "Matches the record's observation that the Donatists were never charged with heresy.",
+    "verdict": "accepted"
+  },
+  "u0704": {
+    "reason": "Restates the record's claim that the rival moved off the African position for Rome's peace.",
+    "verdict": "accepted"
+  },
+  "u0705": {
+    "reason": "Record says it cannot show the apostles.",
+    "verdict": "accepted"
+  },
+  "u0706": {
+    "reason": "Matches the term: a hard rule, one departure, openly acknowledged.",
+    "verdict": "accepted"
+  },
+  "u0707": {
+    "reason": "Verbatim focus claim from the record.",
+    "verdict": "accepted"
+  },
+  "u0708": {
+    "reason": "Record calls conciliar decision a church governing itself.",
+    "verdict": "accepted"
+  },
+  "u0709": {
+    "reason": "Gives the record's procedural point about warrant before merits.",
+    "verdict": "accepted"
+  },
+  "u0710": {
+    "reason": "The hushing letters, one admitting truth, are stated in the record.",
+    "verdict": "accepted"
+  },
+  "u0711": {
+    "reason": "Repeats the record's independence from Rome.",
+    "verdict": "accepted"
+  },
+  "u0712": {
+    "reason": "Faithful to the record's public, dated crossing.",
+    "verdict": "accepted"
+  },
+  "u0713": {
+    "reason": "Accurately restates the 87-bishop council under Cyprian ruling outside sacraments void.",
+    "verdict": "accepted"
+  },
+  "u0714": {
+    "reason": "Record lists enemies' books, one transcript, four martyr texts and law.",
+    "verdict": "accepted"
+  },
+  "u0715": {
+    "reason": "Matches the record's statement that no rule for dropping a charge survives.",
+    "verdict": "accepted"
+  },
+  "u0716": {
+    "reason": "Repeats the no-excavation limit correctly.",
+    "verdict": "accepted"
+  },
+  "u0717": {
+    "reason": "Bishop counts are right, but 'sat facing' clashes with the story's refusal of chairs and recasts the argument.",
+    "verdict": "defensible"
+  },
+  "u0718": {
+    "reason": "Matches the record's refusal to invent a resurrection argument.",
+    "verdict": "accepted"
+  },
+  "u0719": {
+    "reason": "Narrower claim of descent from Carthage, not the apostles, is the record's point.",
+    "verdict": "accepted"
+  },
+  "u0720": {
+    "reason": "Same emphasis line from the record, in a matching context.",
+    "verdict": "accepted"
+  },
+  "u0721": {
+    "reason": "Gives the record's claim that in whole regions the Donatists were the majority church.",
+    "verdict": "accepted"
+  },
+  "u0722": {
+    "reason": "The muttering-at-the-president detail goes beyond this short story record, though from Optatus.",
+    "verdict": "defensible"
+  },
+  "u0723": {
+    "reason": "Lucilla made central yet voiceless is the record's point.",
+    "verdict": "accepted"
+  },
+  "u0724": {
+    "reason": "Uses the record's point that inner wavering went unrecorded because opponents kept the record.",
+    "verdict": "accepted"
+  },
+  "u0725": {
+    "reason": "Verbatim verses cited at 411, as recorded.",
+    "verdict": "accepted"
+  },
+  "u0726": {
+    "reason": "Record says mostly no one knows their daily life.",
+    "verdict": "accepted"
+  },
+  "u0727": {
+    "reason": "Repeats the record's hermeneutic admission.",
+    "verdict": "accepted"
+  },
+  "u0728": {
+    "reason": "Verbatim shared-creed statement.",
+    "verdict": "accepted"
+  },
+  "u0729": {
+    "reason": "Record gives the letter urging quiet settlement of a charge known to be true.",
+    "verdict": "accepted"
+  },
+  "u0730": {
+    "reason": "Matches the quote's figurative shipwreck language and the later reception.",
+    "verdict": "accepted"
+  },
+  "u0731": {
+    "reason": "Verbatim from the record: no one wrote a morning down.",
+    "verdict": "accepted"
+  },
+  "u0732": {
+    "reason": "Captures the term's focus on the minister's hand rather than the recipient.",
+    "verdict": "accepted"
+  },
+  "u0733": {
+    "reason": "Matches the record's claim that most heard scripture read aloud at anniversaries.",
+    "verdict": "accepted"
+  },
+  "u0734": {
+    "reason": "Leans on this entry record to introduce the hushed-charge letters it does not contain.",
+    "verdict": "defensible"
+  },
+  "u0735": {
+    "reason": "Record presents the hushed charge as a contradiction of the purity doctrine.",
+    "verdict": "accepted"
+  },
+  "u0736": {
+    "reason": "Introduces the record's three inconsistent answers on return.",
+    "verdict": "accepted"
+  },
+  "u0737": {
+    "reason": "Consistent with the record's claim to hold the older African position against innovation.",
+    "verdict": "accepted"
+  },
+  "u0738": {
+    "reason": "Admits the silence on interior struggle as the record does.",
+    "verdict": "accepted"
+  },
+  "u0739": {
+    "reason": "Matches the record's word-for-word shared creed.",
+    "verdict": "accepted"
+  },
+  "u0740": {
+    "reason": "Post-Vandal survival and papal letters on Numidian rebaptism lie outside the record and its 311-439 range.",
+    "verdict": "misread"
+  },
+  "u0741": {
+    "reason": "Record attributes the absence of interior struggle to hostile transmission.",
+    "verdict": "accepted"
+  }
+}

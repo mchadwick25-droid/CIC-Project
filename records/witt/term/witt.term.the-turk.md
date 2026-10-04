@@ -61,6 +61,14 @@ senses:
     one of the devil's instruments, met by a household petition.
 quick_meaning: An outside enemy we pray against, one of the devil's own instruments.
 distortion_risk: medium
+use_note:
+  means: "The Turk meant an outside enemy named alongside the pope and unbelief, one of the devil's instruments, against whom the household simply prays."
+  not_for:
+    - "'the Turk' as a political or ethnic enemy in the modern sense"
+    - "the devil generally, which sits in witt.term.the-devil"
+    - "a developed account of the Turk, since the world gives none"
+  years: {from: 1520, to: 1546}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.9 (the Turk, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

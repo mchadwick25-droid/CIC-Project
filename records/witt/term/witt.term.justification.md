@@ -97,6 +97,15 @@ senses:
     formula.'
 quick_meaning: God's act of naming us righteous, and of making us so, through faith, for Christ's sake.
 distortion_risk: high
+use_note:
+  means: "Justification meant God accounting a sinner righteous and also making him righteous, both through faith for Christ's sake alone, the center of the teaching."
+  not_for:
+    - "justification as a legal fiction, declared righteous but not changed"
+    - "which wording controls, 'accounted' or 'made' righteous, which witt.contested.justification-accounted-and-made holds as contested"
+    - "faith itself as trust, which sits in witt.term.faith"
+    - "a modern denomination's own reading of justification"
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.2 (justification / to justify, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT][CT]. Author Gravity: none by attestation; weighted to the Apology's technical development. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

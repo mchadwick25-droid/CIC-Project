@@ -60,6 +60,15 @@ modern_contrast: >-
   sake. This world's own record frames the same rhythm - prayer, work,
   obedience, an open door - as formation toward a stated goal, not
   efficiency or personal discipline pursued for itself.
+use_note:
+  means: "This reconstruction shows how prayer, work, obedience, common goods and hospitality fitted together in a brotherhood of the Iris valley, built from the Rules and letters."
+  not_for:
+    - "one person's recorded day or any named house, since none survives"
+    - "the Rules' legislation as proof of how every house actually lived"
+    - "the censured radicals' practice, which sits in cappadocian.contested.eustathian-radicals"
+    - "women's houses as described here, which sit in cappadocian.term.adelphotes"
+  years: {from: 360, to: 379}
+  status: reviewed
 ---
 Derived fresh from Doc_09 entry #17 (Tier 4 composite), checked against
 the legacy chunk cappadocianstory002_a-day-at-the-brotherhood.md for

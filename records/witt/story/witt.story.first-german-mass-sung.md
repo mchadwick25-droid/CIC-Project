@@ -84,6 +84,15 @@ modern_contrast: A modern reader might expect the story of a new form of worship
   of the working sessions behind it - the tone-by-tone decisions, the poor students singing for bread
   - filtered through three later hands before it reached this library. It is genuine testimony, but it
   is memory, not minutes.
+use_note:
+  means: "Johann Walter later remembered being kept at Wittenberg three weeks while Luther worked out German chant for the Gospel and Epistle, until the first German Mass was sung."
+  not_for:
+    - "Walter's words as an unmediated eyewitness account, since they pass through Praetorius, Rambach and Bacon"
+    - "an exact date for the first German Mass beyond Walter's own 'some forty years ago'"
+    - "a full order of service, none being vendored"
+    - "the wider vernacular teaching, which sits in witt.gravity.german-for-the-people"
+  years: {from: 1526, to: 1526}
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S07 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_hymns_bacon-allen.txt, lines 743-795

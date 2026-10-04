@@ -77,6 +77,14 @@ concedes: >-
   the field but cannot itself adjudicate, since neither side of that dispute is read here beyond the level of
   an existing, search-verified title.
 divergence_partners: []
+use_note:
+  means: "The claim that Luther or an agent nailed the Theses to the Castle Church door on 31 October 1517 is contested, resting on a later editor's telling."
+  not_for:
+    - "the door-posting as settled fact"
+    - "the dated letter to Albrecht, which is directly attested and sits in witt.story.letter-to-albrecht-and-theses-circulation"
+    - "Iserloh's argument as read or weighed here, since the library holds only its title"
+  years: {from: 1517, to: 1517}
+  status: reviewed
 ---
 Not unparked from a Doc_06 [CT] tag - Doc_06 tags only two terms (justification, the two governments; SS2)
 - but found by the check the process document's own B-6 row requires beyond those tags: whether Doc_04,

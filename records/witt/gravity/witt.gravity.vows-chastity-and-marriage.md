@@ -121,5 +121,13 @@ manifestations:
   cause than marriage" (AC 751-767)'
 - '"I must have patience with Kate my wife" (TT 3013-3014)'
 - '"Paul... calls that a doctrine of devils which forbids marriage" (AC 766-767)'
+use_note:
+  means: "Vows, chastity and marriage names the refusal of the monastic estate and the affirmation of the married household and married pastor, marriage being 'the most common and noblest estate.'"
+  not_for:
+    - "a claim that Wittenberg condemned all vows or all monks"
+    - "the term-level argument on vows, which sits in witt.term.vows"
+    - "women's own views on marriage, which the library does not hold"
+  years: {from: 1520, to: 1546}
+  status: reviewed
 ---
 Re-derived from the approved Doc_04 (§2.1 candidate G9 -> §3 G9 -> §7 row G9; SUPPORTING). Interaction Matrix (Doc_04 §5, row/col G9): G1 (R), G2 (R), G3 (R(t)), G4 (R), G5 (R), G6 (R), G7 (R), G8 (R), G12 (R(t)) -- all carried as associated-with here, R/S/C character preserved in this record's own description field above, per Gallic's own precedent (relation TYPE is not overloaded to carry the R/S/C code). DECLARED ABSENCES, not converted into a relation here: G10, G11, G13. Forces-connection (Doc_08 §5): witt.force.inheritance-refused (enabled-by), witt.force.papal-force-ongoing (associated-with), witt.force.territorial-princely-force (associated-with), witt.force.imperial-force-ongoing (associated-with), witt.force.transmission-at-the-windows-edge (associated-with) -- enabled-by used exactly where Doc_04's own notation uses the verb 'generated' for this force/gravity pair, associated-with for every other verb (held, intensified, shifted, reshaped, fenced, fractured, re-set, reversed, settled, pressed, corrupted), matching Gallic's own precedent exactly.

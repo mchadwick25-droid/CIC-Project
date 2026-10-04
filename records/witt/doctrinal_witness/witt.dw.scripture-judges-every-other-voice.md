@@ -60,6 +60,15 @@ tensions:
 - "the Genesis-as-science question is a complete gap in our own record, not a thin answer stretched to cover it; we name that directly rather than guess at what we might have said"
 - "'Scripture alone' as a fixed Latin slogan is not our own formula -- our own texts state the rule two ways, and we do not flatten that difference into one phrase"
 relations: []
+use_note:
+  means: "This witness holds that Scripture judged popes, councils, and fathers among us, stated sharply by our founder and more gently by our confession, while Genesis-as-science goes unanswered."
+  not_for:
+    - "any answer on reading Genesis as science or as a dating of the earth"
+    - "'Scripture alone' as a fixed slogan of ours, flattening the founder's sharp form and the confession's additive form into one"
+    - "a claim that every believer was left free to read the Bible alone without preaching and teaching"
+    - "how the Word reached us through preaching and print, which sits in witt.dw.how-the-promise-reached-us"
+  years: {from: 1520, to: 1545}
+  status: reviewed
 ---
 Closes F2-T at the Answer-the-Canon step (inserted between B-7a and B-8). The cell's own two questions are
 answered at genuinely different strengths: Scripture's sole authority is well attested, in two distinct

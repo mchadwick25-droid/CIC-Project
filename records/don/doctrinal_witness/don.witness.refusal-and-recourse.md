@@ -65,5 +65,14 @@ text: '"What has the emperor to do with the church?" That is our own primate''s 
   stance. The three times we set it aside are named in the same breath as the stance itself, because that
   is what our own history actually holds -- not a rule kept perfectly, but a rule stated honestly, exceptions
   and all.'
+use_note:
+  means: "In a Donatist voice, denying the emperor standing to judge the church is the settled stance, and the three recourses of 313, 361 and the 390s are owned openly in the same breath."
+  not_for:
+    - "a claim that the Donatists described their own stance as principled refusal with pragmatic exceptions"
+    - "a claim that the Donatists never sought imperial rulings"
+    - "a claim that Donatus's retort survives other than in Optatus's report"
+    - "a claim about the rejected Rome and Arles rulings or the daylight seizures of basilicas, which sit in don.dw.the-emperor-and-the-church"
+  years: {from: 313, to: 411}
+  status: reviewed
 ---
 Grounded in Doc_04_Gravity_Discovery.md SS3.6 (T1, Principled Refusal vs. Pragmatic Recourse to Imperial Power: three named, dated instances -- 313, 361, the 390s -- each independently Documented) and Doc_07 SS4/SS6 ('the doctrine's own qualifications are not random lapses; they track the forces exactly'; 'this world's own three qualified turns to imperial power... are not embarrassments quietly managed but facts this world's own record states plainly'). Donatus's own retort is quoted verbatim from the already-cleared don.quote.donatus-quid-est-imperatori record (text field, matching that record's own verbatim license exactly, not re-translated here). T1 already has a classified gravity record (don.gravity.principled-refusal-vs-pragmatic-recourse, register etic) and a cleared quote, but no record states T1 in first-person doctrinal-witness voice with its own position/tension structure -- this is the first. canon_cells=['F1-E'] ('When belief was disputed, who had the right to decide -- and how do we know how that worked?') is a strong direct fit: T1 is precisely a dispute over who has the right to decide ecclesial legitimacy. relations[] links to the T1 gravity and the Donatus quote -- reciprocal edges added directly to don.gravity.principled-refusal-vs-pragmatic-recourse.md and don.quote.donatus-quid-est-imperatori.md after this script runs.

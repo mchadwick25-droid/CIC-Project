@@ -45,5 +45,13 @@ senses:
     encouraged.'
 quick_meaning: 'Love of honor: ambition -- named among us as a disease specific to our own clergy.'
 distortion_risk: high
+use_note:
+  means: "Philotimia meant love of honor, named by Gregory of Nazianzus as a disease among the clergy amid synod politics."
+  not_for:
+    - "healthy ambition as an unqualified good"
+    - "one author's disgust as the view of the whole circle"
+    - "the Sasima episode, which sits in cappadocian.story.sasima-wound"
+  years: {from: 329, to: 390}
+  status: reviewed
 ---
 Built from Doc_06 entry 36 (Tier 3). One of the four Tier 3 entries Doc_06 added compact Related-Terms lines to this revision (Index E.3): hesychia, paideia-philosophia, parrhesia -- all reciprocated here.

@@ -73,6 +73,13 @@ senses:
     grace, which we refuse in its own Latin and give entirely to Christ.
 quick_meaning: What no human work can earn. Only Christ has merit.
 distortion_risk: high
+use_note:
+  means: "Merit meant the scholastic claim to deserve grace, which the world denied to every human work and reserved to Christ alone."
+  not_for:
+    - "'merit' as deserving in a general sense"
+    - "satisfaction, which sits in witt.term.satisfaction"
+  years: {from: 1517, to: 1545}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 2.4 (merit, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: none; the Latin is the adversaries' as our confession quotes it. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

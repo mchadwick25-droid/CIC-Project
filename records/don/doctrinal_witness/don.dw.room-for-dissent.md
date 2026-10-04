@@ -105,6 +105,15 @@ tensions:
 - the condemnation of our dissenter carries our opponent's own hedge - it is reported, not witnessed -
   and we keep the hedge rather than smoothing it
 relations: []
+use_note:
+  means: "On whether doubt had room, Optatus's telling has Cirta's bishops leave their own purity question to the Lord, Tyconius was cut off for dissenting from inside, and martyr visions were told as God felt."
+  not_for:
+    - "a claim about the doubt or wavering of ordinary Donatist members"
+    - "a claim about what the bishops at Cirta thought they were doing, beyond Optatus's hostile telling"
+    - "a claim that the condemnation of Tyconius is directly witnessed rather than reported"
+    - "a claim about Tyconius's argument or the Maximianist schism as internal quarrels, which sit in don.dw.what-we-argued-among-ourselves"
+  years: {from: 311, to: 411}
+  status: reviewed
 ---
 Closes F1-P. Three of the cell's four variants have real documented
 ground in this compilation, which is why this is a witness and not an

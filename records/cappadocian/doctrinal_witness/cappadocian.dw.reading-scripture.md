@@ -55,6 +55,14 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.reading-scripture-hexaemeron
+use_note:
+  means: "This witness says most believers met scripture as sung psalms, while teachers read closely for what creation discloses about God rather than allegorizing."
+  not_for:
+    - "a claim that this world's canon list matched a modern one, which the record cannot settle"
+    - "the Hexaemeron's close reading, which sits in cappadocian.quote.reading-scripture-hexaemeron, as how ordinary believers read"
+    - "widespread literacy among this world's people"
+  years: {from: 360, to: 379}
+  status: reviewed
 ---
 Closes F2-I. Psalmody's own claim (psalms as the illiterate's real
 theological education) is the flagship citation; the Hexaemeron's own

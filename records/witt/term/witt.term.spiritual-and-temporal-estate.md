@@ -86,6 +86,14 @@ senses:
     holy stations of equal standing.'
 quick_meaning: A division we call pure invention. Every station of life is equally holy.
 distortion_risk: high
+use_note:
+  means: "The spiritual and temporal estate meant the old division of Christians into clergy and everyone else, called a pure invention, every station being equally holy."
+  not_for:
+    - "'estate' as property, or 'spiritual' as inward or pious"
+    - "the priesthood claim itself, which sits in witt.term.we-are-all-priests"
+    - "the mocked claimed status of the 'spiritual', which sits in witt.term.spiritual-geysterey"
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.1 (spiritual estate / temporal estate, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [AS][DR][TC][RT]. Author Gravity: Luther-only, cross-register, for the pairing -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

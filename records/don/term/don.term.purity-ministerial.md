@@ -75,5 +75,14 @@ senses:
     communion existed to refuse.'
 quick_meaning: The conscience of the giver. A hand that is not clean has nothing to give.
 distortion_risk: high
+use_note:
+  means: "On the Donatist view a sacrament's reality depends on the conscience of the giver, so a hand that is not clean has nothing to give."
+  not_for:
+    - "a claim that it means personal moral purity in the modern devotional sense"
+    - "a claim that it means ritual or bodily cleanness in the Levitical sense"
+    - "a claim that it was a novelty invented in 311, since it sharpens Cyprian's third-century African position"
+    - "a claim that a sinful minister invalidates everything, rather than a broken ordination line; the doctrine as a pattern sits in don.gravity.ministerial-purity"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Built from Doc_06 SS1 entry 004 (Tier 2 -- doctrinal ground shared with Traditor/Traditio, which carries the Tier-1 depth). No deployment chunk built this cycle (Doc_06 SS3). Confidence split carried from Doc_04 SS3.1.
