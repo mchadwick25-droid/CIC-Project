@@ -1094,18 +1094,24 @@ def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
 
 # ---- pilot join (S12) ----------------------------------------------------------
 
+LINK_KEYS = {"pastors": "pastors-link-key-0123456789", "historians": "historians-link-key-012345"}
+
+
 def open_pilot(runtime, audience="general", **changes):
     import dataclasses
 
     ops = runtime.ops or load_ops()
     audiences = dict(ops.pilot_audiences)
+    end = changes.pop("pilot_end_date", ops.pilot_end_date)
     audiences[audience] = dataclasses.replace(audiences[audience], pilot_open=True, **changes)
-    runtime.ops = dataclasses.replace(ops, pilot_audiences=audiences)
+    runtime.ops = dataclasses.replace(ops, pilot_audiences=audiences, pilot_end_date=end)
+    runtime.pilot_links = {key: name for name, key in LINK_KEYS.items()}
     return runtime
 
 
-def join(http, ip="203.0.113.7", audience="general", **headers):
-    return http.post("/api/deeper/pilot-join", json={"audience": audience}, headers={"x-forwarded-for": ip, **headers})
+def join(http, ip="203.0.113.7", audience="general", link=None, **headers):
+    key = link if link is not None else LINK_KEYS.get(audience, audience)
+    return http.post("/api/deeper/pilot-join", json={"link": key}, headers={"x-forwarded-for": ip, **headers})
 
 
 def test_the_shipped_pilot_is_closed_and_the_route_then_does_not_exist_to_a_visitor(http, minting):
@@ -1191,10 +1197,12 @@ def test_the_pilot_join_answers_the_site_and_no_other_origin(http, runtime):
 def test_the_status_reports_the_pilot_against_its_cap(http, runtime):
     open_pilot(runtime, pilot_cap=10)
     join(http)
-    pilot = {row["audience"]: row for row in http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]}
+    status = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
+    assert status["end_date"] == runtime.ops.pilot_end_date.isoformat()
+    pilot = {row["audience"]: row for row in status["audiences"]}
     assert pilot["general"] == {
         "audience": "general", "open": True, "cap": 10, "given": 1,
-        "end_date": runtime.ops.pilot_audiences["general"].pilot_end_date.isoformat(), "per_address": 2,
+        "per_address": 2, "public": True, "link_set": False,
     }
     assert pilot["pastors"]["open"] is False and pilot["pastors"]["given"] == 0
 
@@ -1252,11 +1260,29 @@ def test_each_audience_has_its_own_switch_cap_and_count(http, runtime):
     assert join(http, ip="198.51.100.40", audience="pastors").json()["reason"] == "address_limit"
 
 
-def test_an_unnamed_audience_is_a_404_and_a_missing_one_is_refused(http, runtime):
-    open_pilot(runtime)
-    assert join(http, audience="clergy").status_code == 404
-    assert join(http, audience="General").status_code == 404
-    assert http.post("/api/deeper/pilot-join", headers={"x-forwarded-for": "198.51.100.41"}).status_code == 422
+def test_a_private_audience_is_joined_only_by_its_secret_key_never_its_name(http, runtime):
+    open_pilot(runtime, "pastors")
+    assert join(http, link="pastors").status_code == 404
+    assert join(http, link="Pastors").status_code == 404
+    assert join(http, link="wrong-key-0123456789abcdef").status_code == 404
+    assert join(http, link=LINK_KEYS["historians"]).status_code == 404
+    assert join(http, link=LINK_KEYS["pastors"]).status_code == 200
+    assert runtime.meter.pilot_total("pastors") == 1
+
+
+def test_a_public_audience_is_joined_by_its_name_and_a_private_key_is_not_a_public_name(http, runtime):
+    open_pilot(runtime, "general")
+    assert join(http, link="general").status_code == 200
+    assert join(http, link="clergy").status_code == 404
+
+
+def test_a_closed_unnamed_and_missing_link_all_answer_alike_with_a_404(http, runtime):
+    assert join(http, link="general").status_code == 404
+    open_pilot(runtime, "pastors")
+    assert join(http, link="general").status_code == 404
+    assert http.post("/api/deeper/pilot-join", headers={"x-forwarded-for": "198.51.100.41"}).status_code == 404
+    assert http.post("/api/deeper/pilot-join", json={}, headers={"x-forwarded-for": "198.51.100.41"}).status_code == 404
+    assert join(http, link="x" * 65).status_code == 422
     assert runtime.meter.pilot_total("general") == 0
 
 
@@ -1269,3 +1295,46 @@ def test_the_same_address_counts_separately_under_each_audience_without_storing_
     assert len(keys) == 2 and len(set(keys)) == 2
     dump = "\n".join(runtime.meter._conn.iterdump())
     assert "pastors:203" not in dump and "historians:203" not in dump
+    assert LINK_KEYS["pastors"] not in dump
+
+
+def test_one_address_across_every_audience_is_bounded_by_their_counts(http, runtime):
+    for name in ("general", "pastors", "historians"):
+        open_pilot(runtime, name, per_address=2, pilot_cap=50)
+    made = [join(http, ip="203.0.113.70", audience=name).status_code for name in ("general", "pastors", "historians") for _ in range(4)]
+    assert made.count(200) == 6
+    assert runtime.meter.net_funds(7)["gift"] == 6 * 700
+
+
+def test_the_pilot_preflight_is_a_404_while_no_audience_is_open_and_answers_once_one_is(http, runtime):
+    runtime.ops = load_ops()
+    assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 404
+    open_pilot(runtime, "pastors")
+    assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 204
+
+
+def test_pilot_link_keys_are_checked_at_start():
+    from engine.api.deeper_routes import parse_pilot_links
+
+    ops = load_ops()
+    good = json.dumps({"pastors-link-key-0123456789": "pastors", "historians-link-key-012345": "historians"})
+    assert parse_pilot_links(good, ops) == {"pastors-link-key-0123456789": "pastors", "historians-link-key-012345": "historians"}
+    assert parse_pilot_links(None, ops) == {} and parse_pilot_links("", ops) == {}
+    for bad in (
+        "not json", "[]", json.dumps({"short": "pastors"}), json.dumps({"general": "pastors"}),
+        json.dumps({"pastors-link-key-0123456789": "general"}), json.dumps({"pastors-link-key-0123456789": "nobody"}),
+        json.dumps({"pastors-link-key-0123456789": "pastors", "pastors-link-key-9876543210": "pastors"}),
+        json.dumps({"bad key with spaces 12345": "pastors"}),
+    ):
+        with pytest.raises(DeeperConfigError):
+            parse_pilot_links(bad, ops)
+
+
+def test_the_old_single_pilot_total_is_dropped_when_the_file_opens(tmp_path):
+    path = str(tmp_path / "old.db")
+    meter = Meter(path, clock=lambda: date(2026, 10, 5))
+    meter.set_state("pilot_total", "7")
+    meter.close()
+    meter = Meter(path, clock=lambda: date(2026, 10, 5))
+    assert meter.get_state("pilot_total") is None
+    meter.close()

@@ -24,8 +24,8 @@ MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
 DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
-PILOT_KEYS = ("pack_usd", "audiences")
-AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "pilot_end_date", "per_address")
+PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
+AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public")
 AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
 STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
@@ -39,8 +39,9 @@ class OpsFileError(Exception):
 class PilotAudience:
     pilot_open: bool
     pilot_cap: int
-    pilot_end_date: date
     per_address: int
+    # A public audience is joined by its name; any other only by a secret link key held in the server's environment.
+    public: bool
 
 
 @dataclass(frozen=True)
@@ -60,6 +61,7 @@ class DeeperOps:
     admin_mint_max_tokens_per_request: int
     admin_mint_max_tokens_per_day: int
     pilot_pack_usd: int
+    pilot_end_date: date
     pilot_audiences: dict[str, PilotAudience]
 
 
@@ -182,12 +184,11 @@ def _audiences(raw) -> dict[str, PilotAudience]:
             raise OpsFileError(f"pilot audience {name} must hold exactly {sorted(AUDIENCE_KEYS)}")
         if not isinstance(item["pilot_open"], bool):
             raise OpsFileError(f"pilot audience {name}: pilot_open must be true or false")
-        end = item["pilot_end_date"]
-        if isinstance(end, datetime) or not isinstance(end, date):
-            raise OpsFileError(f"pilot audience {name}: pilot_end_date must be a plain date")
+        if not isinstance(item["public"], bool):
+            raise OpsFileError(f"pilot audience {name}: public must be true or false")
         _whole(item["pilot_cap"], f"pilot audience {name} pilot_cap")
         _whole(item["per_address"], f"pilot audience {name} per_address")
-        audiences[name] = PilotAudience(item["pilot_open"], item["pilot_cap"], end, item["per_address"])
+        audiences[name] = PilotAudience(item["pilot_open"], item["pilot_cap"], item["per_address"], item["public"])
     return audiences
 
 
@@ -228,11 +229,14 @@ def load_ops(path: str | None = None) -> DeeperOps:
     _whole(pilot["pack_usd"], "pilot.pack_usd")
     if pilot["pack_usd"] not in [p.price_usd for p in packs]:
         raise OpsFileError("pilot.pack_usd must be one of the offer's packs")
+    end = pilot["pilot_end_date"]
+    if isinstance(end, datetime) or not isinstance(end, date):
+        raise OpsFileError("pilot.pilot_end_date must be a plain date")
     audiences = _audiences(pilot["audiences"])
     return DeeperOps(
         group_daily_ceiling=limits["group_daily_ceiling"],
         group_burst_multiplier=limits["group_burst_multiplier"], low_balance_at=limits["low_balance_at"], limit_text=words["limit"], notes=dict(notes), door_words=dict(door_words), rates=rates, packs=packs, door=door,
         door_observe=data["door"]["observe"], paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
-        pilot_pack_usd=pilot["pack_usd"], pilot_audiences=audiences,
+        pilot_pack_usd=pilot["pack_usd"], pilot_end_date=end, pilot_audiences=audiences,
     )

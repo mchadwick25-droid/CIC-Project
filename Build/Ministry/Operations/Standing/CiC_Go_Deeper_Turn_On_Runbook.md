@@ -36,7 +36,7 @@ The module makes free codes; Stripe makes every percentage discount. Name each S
 
 The pilot join counts people by the address the request arrives from, taking the last entry of `X-Forwarded-For`; that holds only while Render is the one proxy in front of the service, so check it again if a CDN or second proxy is ever put in front. An IPv6 address is counted by its /64 block. Two codes an address means a shared network (a school, a church's wifi, a mobile carrier's shared address) can run out for later joiners; if a cohort reports that, raise `per_address` by pull request or give them a grant from the mint page.
 
-Never use the dashboard's cancel box for a goodwill refund: it cancels the codes. A full refund or a dispute cancels them by itself. The pilot runs for named audiences (general, pastors, historians). Each has its own open switch, cap, end date and per-address count in the operations file, and its own link; the dashboard shows how many each has been given. To close the pilot to the public and keep it for pastors and historians, set `general` to `pilot_open: false`. Send the pastors and historians links yourself; the website never lists them.
+Never use the dashboard's cancel box for a goodwill refund: it cancels the codes. A full refund or a dispute cancels them by itself. The pilot runs for named audiences (general, pastors, historians). Each has its own open switch, cap and per-address count in the operations file, and all share one end date. `general` is public. `pastors` and `historians` are joined only by a secret link key you make and keep in the server's environment; the dashboard shows how many each has been given and whether a private audience has its key set. To close the pilot to the public and keep it for pastors and historians, set `general` to `pilot_open: false`. Send the pastors and historians links yourself; the website never lists them.
 
 ## Part 1 — Before the staging rehearsal
 
@@ -77,6 +77,7 @@ All of these must be true. The build thread checks the first group; Mark confirm
 | `CIC_DEEPER_WEBHOOK_SECRET` | engine, secret | from Stripe | Never in the repo. |
 | `CIC_DEEPER_PRODUCTS` | engine | JSON keyed by Payment Link id | One entry per pack: kind, tokens, optional count and daily ceiling. A link not listed here mints nothing. |
 | `CIC_DEEPER_FREE_KEY` | engine, secret | at least 32 random characters | **Required.** Keys the free allowance's rows. Never written to disk or the repo. The engine refuses to start without it. Rotating or losing it refills every visitor's free window, so keep it. |
+| `CIC_DEEPER_PILOT_LINKS` | engine | JSON object of secret link key to private audience, for example `{"<key>": "pastors"}`; make each key with `python3 -c "import secrets; print(secrets.token_urlsafe(18))"` | Optional. Without it no private pilot audience can be joined. A key is 16 to 64 letters, digits, hyphens or underscores. Replace a key to end a leaked link. |
 | `CIC_DEEPER_GIFT_LINKS` | engine | JSON list of Payment Link ids | Gifts count toward the door; a link cannot be both a product and a gift. |
 | `CIC_DEEPER_SITE_ORIGIN` | engine | the site's exact origin, no `www`, no wildcard | The claim route answers only this origin. |
 | `CIC_DEEPER_OPS_FILE` | engine | optional | Defaults to `engine/deeper/ops/go-deeper.yaml`. A bad file stops the start. |

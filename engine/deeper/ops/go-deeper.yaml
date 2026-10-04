@@ -41,22 +41,23 @@ admin:
   mint_max_tokens_per_day: 13200
 pilot:
   pack_usd: 7
+  pilot_end_date: 2026-12-31
   audiences:
     general:
       pilot_open: false
       pilot_cap: 50
-      pilot_end_date: 2026-12-31
       per_address: 2
+      public: true
     pastors:
       pilot_open: false
       pilot_cap: 25
-      pilot_end_date: 2026-12-31
       per_address: 2
+      public: false
     historians:
       pilot_open: false
       pilot_cap: 25
-      pilot_end_date: 2026-12-31
       per_address: 2
+      public: false
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:
