@@ -36,6 +36,10 @@ KINDS = ("single", "batch", "group")
 LIVE, SPENT, VOID = "live", "spent", "void"
 
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
+SOURCES = ("purchase", "admin", "pilot")
+GRANT_PREFIXES = {"admin": "admin_", "pilot": "pilot_"}
+MINT_COUNT_FIELDS = {"admin": "admin_codes_minted", "pilot": "pilot_codes_minted"}
+REPORT_FIELDS = (*TALLY_FIELDS, *MINT_COUNT_FIELDS.values())
 RECONCILE_RETENTION_DAYS = 90
 MEASURE_RETENTION_DAYS = 90
 REFUSAL_REASONS = (
@@ -43,7 +47,7 @@ REFUSAL_REASONS = (
     "free_rounds_done", "free_allowance_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
 )
 SUM_MEASURES = (
-    "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_spent",
+    "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_granted", "tokens_spent",
     *(f"refused_{reason}" for reason in REFUSAL_REASONS),
     "observed_free_refused", "observed_paid_refused",
 )
@@ -82,7 +86,9 @@ CREATE TABLE IF NOT EXISTS reconcile (
     payments_voided_first INTEGER NOT NULL DEFAULT 0,
     codes_minted INTEGER NOT NULL DEFAULT 0,
     refunds_applied INTEGER NOT NULL DEFAULT 0,
-    partial_refunds_ignored INTEGER NOT NULL DEFAULT 0
+    partial_refunds_ignored INTEGER NOT NULL DEFAULT 0,
+    admin_codes_minted INTEGER NOT NULL DEFAULT 0,
+    pilot_codes_minted INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS funds (
     entry TEXT PRIMARY KEY,
@@ -121,6 +127,15 @@ class AlreadyMinted(DeeperError):
 
 class PaymentVoided(DeeperError):
     """The payment was refunded or disputed before its codes were made."""
+
+
+class MintLimit(DeeperError):
+    """A grant would take the day's tokens in admin or pilot codes past its limit."""
+
+
+def is_grant(payment_id: str) -> bool:
+    """True for the id of a code made without a payment (an admin or pilot grant)."""
+    return payment_id.startswith(tuple(GRANT_PREFIXES.values()))
 
 
 @dataclass(frozen=True)
@@ -191,6 +206,14 @@ class Meter:
         self._conn.execute("PRAGMA journal_mode=WAL")
         self._conn.execute("PRAGMA secure_delete=ON")
         self._conn.executescript(_SCHEMA)
+        self._migrate()
+
+    def _migrate(self) -> None:
+        """Adds the grant columns to a reconcile table made before they existed."""
+        have = {row[1] for row in self._conn.execute("PRAGMA table_info(reconcile)")}
+        for column in MINT_COUNT_FIELDS.values():
+            if column not in have:
+                self._conn.execute(f"ALTER TABLE reconcile ADD COLUMN {column} INTEGER NOT NULL DEFAULT 0")
 
     def close(self) -> None:
         with self._lock:
@@ -205,6 +228,8 @@ class Meter:
         *,
         daily_ceiling: int | None = None,
         prepared: list[str] | None = None,
+        source: str = "purchase",
+        daily_token_limit: int | None = None,
     ) -> list[str]:
         """Makes the codes for one payment and returns them in plain form, the
         only moment they exist outside a person's hands. Raises AlreadyMinted
@@ -212,7 +237,19 @@ class Meter:
 
         prepared: codes the caller generated and has already put somewhere
         safe, so a crash between the two steps loses nothing. The payment's
-        reconciliation counts commit in the same transaction as its codes."""
+        reconciliation counts commit in the same transaction as its codes.
+
+        source: "purchase" (the default) is a Stripe payment. "admin" and "pilot"
+        are grants, made with no payment: their payment id must carry the
+        grant's prefix, they count in their own reconciliation column and never
+        as a payment, and daily_token_limit caps the tokens such codes may hold for the day,
+        checked inside the same transaction so two requests cannot both pass."""
+        if source not in SOURCES:
+            raise ValueError(f"unknown source {source!r}")
+        if source == "purchase" and is_grant(payment_id):
+            raise ValueError("a purchase cannot use a grant's payment id")
+        if source != "purchase" and not payment_id.startswith(GRANT_PREFIXES[source]):
+            raise ValueError(f"a {source} grant's id must start with {GRANT_PREFIXES[source]!r}")
         if kind not in KINDS:
             raise ValueError(f"unknown kind {kind!r}")
         if not isinstance(tokens, int) or not 0 < tokens <= MAX_TOKENS_PER_CODE:
@@ -241,6 +278,13 @@ class Meter:
                 if self._conn.execute("SELECT 1 FROM meter WHERE payment_id = ? LIMIT 1", (payment_id,)).fetchone():
                     raise AlreadyMinted(payment_id)
                 today = self._clock().isoformat()
+                if source != "purchase" and daily_token_limit is not None:
+                    made_today = self._conn.execute(
+                        "SELECT COALESCE(SUM(tokens_total), 0) FROM meter WHERE day_created = ? AND payment_id LIKE ? ESCAPE '\\'",
+                        (today, GRANT_PREFIXES[source].replace("_", "\\_") + "%"),
+                    ).fetchone()[0]
+                    if made_today + tokens * count > daily_token_limit:
+                        raise MintLimit(source)
                 made: list[str] = []
                 while len(made) < count:
                     code = prepared[len(made)] if prepared is not None else codes.generate()
@@ -254,13 +298,20 @@ class Meter:
                     elif prepared is not None:
                         raise ValueError("a prepared code is already in the meter")
                 self._conn.execute("INSERT OR IGNORE INTO reconcile (day) VALUES (?)", (today,))
-                self._conn.execute(
-                    "UPDATE reconcile SET payments_seen = payments_seen + 1, payments_minted = payments_minted + 1,"
-                    " codes_minted = codes_minted + ? WHERE day = ?",
-                    (count, today),
-                )
-                self._count(f"codes_{kind}", count, today)
-                self._count("tokens_sold", tokens * count, today)
+                if source == "purchase":
+                    self._conn.execute(
+                        "UPDATE reconcile SET payments_seen = payments_seen + 1, payments_minted = payments_minted + 1,"
+                        " codes_minted = codes_minted + ? WHERE day = ?",
+                        (count, today),
+                    )
+                else:
+                    column = MINT_COUNT_FIELDS[source]
+                    self._conn.execute(f"UPDATE reconcile SET {column} = {column} + ? WHERE day = ?", (count, today))
+                if source == "purchase":
+                    self._count(f"codes_{kind}", count, today)
+                    self._count("tokens_sold", tokens * count, today)
+                else:
+                    self._count("tokens_granted", tokens * count, today)
                 self._conn.execute("COMMIT")
             except BaseException:
                 self._conn.execute("ROLLBACK")
@@ -427,11 +478,11 @@ class Meter:
         gap is what is still owed: seen, minus minted, minus refunded first."""
         with self._lock:
             rows = self._conn.execute(
-                f"SELECT day, {', '.join(TALLY_FIELDS)} FROM reconcile ORDER BY day DESC LIMIT ?", (days,)
+                f"SELECT day, {', '.join(REPORT_FIELDS)} FROM reconcile ORDER BY day DESC LIMIT ?", (days,)
             ).fetchall()
         report = []
         for day, *counts in rows:
-            entry = {"day": day, **dict(zip(TALLY_FIELDS, counts))}
+            entry = {"day": day, **dict(zip(REPORT_FIELDS, counts))}
             entry["gap"] = entry["payments_seen"] - entry["payments_minted"] - entry["payments_voided_first"]
             report.append(entry)
         return report
@@ -479,7 +530,8 @@ class Meter:
         with self._lock:
             rows = self._conn.execute(
                 "SELECT payment_id, kind, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created)"
-                " FROM meter WHERE status != 'void' GROUP BY payment_id ORDER BY MIN(day_created), payment_id"
+                " FROM meter WHERE status != 'void' AND payment_id NOT LIKE 'admin\\_%' ESCAPE '\\' AND payment_id NOT LIKE 'pilot\\_%' ESCAPE '\\'"
+                " GROUP BY payment_id ORDER BY MIN(day_created), payment_id"
             ).fetchall()
         return [
             {"payment_id": pid, "kind": kind, "codes": codes_n, "tokens_bought": total, "tokens_left": total - used, "day_bought": day}
