@@ -79,6 +79,14 @@ modern_contrast: A modern reader might expect a work written "under danger" to b
   teaching for a teenager - proof, in this library's own account, that the movement's habit of forming
   the young through careful written instruction did not stop even when its own teacher's life was genuinely
   at risk.
+use_note:
+  means: "Before Worms, Luther kept a promise to a seventeen-year-old prince by working on his Magnificat exposition, sending three quires three days before leaving Wittenberg."
+  not_for:
+    - "the composition date as certain from a colophon, since it is the editor's reconstruction from dated letters"
+    - "the Magnificat's content as a woman's own voice, since it is Luther's exposition of Mary's song"
+    - "a claim that Luther finished the exposition after Worms, which the record does not say"
+  years: {from: 1520, to: 1521}
+  status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S06 (witt_Doc_09_Story_Inventory.md SS2). Composition-history detail
 verified verbatim by this authoring pass directly against cic/texts/luther_works-v3-selected_

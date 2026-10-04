@@ -69,6 +69,14 @@ senses:
     the second table names and whom our liberty must not harm.
 quick_meaning: The specific person the Commandments protect. Our freedom must never harm them.
 distortion_risk: high
+use_note:
+  means: "The neighbor meant the specific person the Commandments' second table protects in body, property and good name, and the measure of Christian liberty."
+  not_for:
+    - "'neighbor' as humanity in the abstract or the person next door"
+    - "good works broadly, which sit in witt.term.good-works"
+    - "Christian liberty as a whole, the 'must' and 'free' distinction, which sits in witt.term.must-and-free"
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 4.6 (neighbor, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none for the word; the 1522 measure-of-liberty sense is the founder's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

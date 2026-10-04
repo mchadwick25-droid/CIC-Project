@@ -73,6 +73,13 @@ senses:
     of Christians, wider than any pope's confirmation, named in preference to 'Church.'
 quick_meaning: The whole body of Christians, wider than Rome's own confirmation.
 distortion_risk: high
+use_note:
+  means: "Christendom meant the whole body of Christians, wider than Rome's confirmation and not reducible to one man, including believers outside Rome's own reach."
+  not_for:
+    - "'Christendom' as a political order or a civilization"
+    - "the local congregation, which sits in witt.term.congregation"
+  years: {from: 1520, to: 1531}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 6.6 (Christendom, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none, weighted to Luther. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 

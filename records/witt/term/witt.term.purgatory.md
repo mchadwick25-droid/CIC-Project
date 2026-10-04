@@ -60,6 +60,13 @@ senses:
     inside it in 1517 and had refused it by 1531.
 quick_meaning: A belief we reasoned with early on, then denied, then dropped from our own burials.
 distortion_risk: high
+use_note:
+  means: "Purgatory meant a doctrine still reasoned with in 1517, denied as unscriptural by 1531 and buried without by 1542."
+  not_for:
+    - "a claim that the word was never used, or that Luther denied it from his first day"
+    - "indulgences themselves, which sit in witt.term.indulgence"
+  years: {from: 1517, to: 1542}
+  status: reviewed
 ---
 Built from Doc_06 §5 entry 1.5 (purgatory, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices (Ap 5003-5011, 6363-6365; Doc_03 had proposed 'Luther-only, cross-register'). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
