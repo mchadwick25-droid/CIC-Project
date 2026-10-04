@@ -43,6 +43,6 @@ use_note:
     - "an account of particular Persian martyrdoms"
     - "a claim that Aphrahat promised faith would spare believers from persecution"
   years: {from: 344, to: 344}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (Dem XXI.22). The litany continues through David to Jesus; composed during the persecution itself.

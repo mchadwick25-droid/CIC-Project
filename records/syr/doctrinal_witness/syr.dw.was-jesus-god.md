@@ -65,7 +65,7 @@ use_note:
     - "a claim that the confession stands free of its anti-Jewish disputational frame"
     - "a claim that the Persian-side church formally received Nicaea in this window"
   years: {from: 325, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Translational Center cell. The 'sure thing' chain verified verbatim
 in Dem XVII.2. The pre/para-Nicene register caution mirrors the

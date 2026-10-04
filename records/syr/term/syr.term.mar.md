@@ -47,7 +47,7 @@ use_note:
     - "a claim that 'Mar Ephrem' was certainly said in Ephrem's own lifetime"
     - "a claim that Mar names a formal office of authority"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 A Tier 3 entry. No relations by design: a general honorific, not
 structurally tied to another entry - a future link may be added if a

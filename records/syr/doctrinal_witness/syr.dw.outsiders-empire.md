@@ -56,7 +56,7 @@ use_note:
     - "a claim that these Christians hid in catacombs"
     - "a claim that Constantine's conversion benefited Christians on the Persian side"
   years: {from: 201, to: 344}
-  status: provisional
+  status: reviewed
 ---
 F3-E: the frontier inversion is this world's distinctive evidential
 answer; the Simeon accusation is verified in the vendored Sozomen

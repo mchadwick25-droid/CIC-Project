@@ -38,6 +38,6 @@ use_note:
     - "a claim that the entry's authenticity is uncontested, since an interpolation dispute exists"
     - "evidence of what Christians did inside the building"
   years: {from: 201, to: 201}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (Cowper's translation). The oldest hard line of this world's existence; the interpolation dispute (Bauer vs Barnard) is carried in syr.story.edessa-flood-201.

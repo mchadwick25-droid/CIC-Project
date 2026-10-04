@@ -58,7 +58,7 @@ use_note:
     - "a claim that all questioning was discouraged"
     - "a claim that open-ended uncertainty was valued as an end in itself"
   years: {from: 337, to: 373}
-  status: provisional
+  status: reviewed
 ---
 F1-P: answers from the faith-as-building teaching (Dem I, verified)
 and the Pearl's anti-scrutiny strand, with the category-difference

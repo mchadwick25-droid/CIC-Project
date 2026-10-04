@@ -53,8 +53,8 @@ use_note:
     - "a claim that faith or prayer averts persecution"
     - "an account of what the twenty-year vacancy felt like, which the record does not supply"
     - "a reasoned theodicy explaining why God permits suffering"
-  years: {from: 338, to: 379}
-  status: provisional
+  years: {from: 338, to: 363}
+  status: reviewed
 ---
 F6-P: the litany verified verbatim (Dem XXI.22). The stated-absence
 discipline for the vacancy's interior (Doc_08 2A-1 Layer 2) is

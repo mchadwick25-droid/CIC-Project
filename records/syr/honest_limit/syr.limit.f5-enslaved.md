@@ -36,7 +36,7 @@ use_note:
     - "a claim borrowed from another world's evidence about slavery"
     - "a claim that Christians here did or did not hold slaves"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Doc_02 SS7's fourth silence, carried as its own limit record so the
 F5 family's enslaved-persons question ends in honest data, not

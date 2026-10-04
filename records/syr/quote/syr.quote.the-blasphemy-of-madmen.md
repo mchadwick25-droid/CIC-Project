@@ -47,7 +47,7 @@ use_note:
     - "evidence that opponents were met with courts or force"
     - "a claim that the refutations were charitable because the method sounds gentle"
   years: {from: 340, to: 373}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F3-P; syr.dw.failures alone grounds that cell, and its one vendored locus reads
 'the polemic's own harshness' - a body of text that needed direct reading rather than citation alone.

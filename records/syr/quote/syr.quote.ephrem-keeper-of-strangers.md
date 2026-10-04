@@ -62,7 +62,7 @@ use_note:
     - "a claim that anyone in this world believed Ephrem was God, from this recension's wording"
     - "one merged text with the Greek recension's version of the same exchange"
   years: {from: 372, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file, Book I, ch. lviij.
 

@@ -69,13 +69,13 @@ quick_meaning: 'The covenant: our vowed order of celibate men and women. They st
   and served the congregation, rather than leave for the desert.'
 distortion_risk: high
 use_note:
-  means: "The qyama, or covenant, was a lifelong order of celibate men and women who stayed in town and served the congregation; its existence is solid but its formal structure is thinly documented."
+  means: "The qyama, or covenant, was a lifelong order of celibate men and women serving the congregation in town; its existence is solid, its formal structure thinly documented."
   not_for:
     - "a claim that the covenanters were monks or nuns under a rule or in a cloister"
     - "a claim that Ephrem personally led the women's choirs"
     - "a claim that the order had a settled rule, enclosure or hierarchy in this window"
   years: {from: 337, to: 410}
-  status: provisional
+  status: reviewed
 ---
 A Tier 1, CT-tagged entry, grounding the C2 Primary gravity. The CT
 contest (historical scope: internal structure thin/contested) is

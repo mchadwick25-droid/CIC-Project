@@ -52,7 +52,7 @@ use_note:
     - "a text written inside this world's window, since Tatian wrote before 200"
     - "a picture of how ordinary Syriac Christians came to faith"
   years: {from: 160, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at anf02 line
 6972. DISCLOSED: the sentence beginning "Retiring by myself" is the

@@ -85,8 +85,8 @@ use_note:
     - "a claim that the visions happened or are corroborated"
     - "a claim that the Greek Palladius text carries them"
     - "a claim that Palladius and the Syriac recension portray Ephrem the same way"
-  years: {from: 340, to: 373}
-  status: provisional
+  years: {from: 306, to: 373}
+  status: reviewed
 ---
 Registered on this world's opening of
 cic/texts/palladius_paradise-v1-syriac_budge1907.txt.

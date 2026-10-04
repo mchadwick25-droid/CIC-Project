@@ -50,7 +50,7 @@ use_note:
     - "a claim that all teaching was open to revision, since he also commands overthrowing strange doctrines"
     - "evidence of a formal procedure for testing doctrine"
   years: {from: 337, to: 337}
-  status: provisional
+  status: reviewed
 ---
 syr.dw.doubt cites Demonstration I for faith as a building that rises; this quote gives that citation
 a quotable passage. F1-P is served by that witness alone.

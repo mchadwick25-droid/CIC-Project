@@ -50,12 +50,12 @@ relations:
 - type: associated-with
   target: syr.quote.on-a-certain-day-a-pearl
 use_note:
-  means: "This world's voice says Scripture was read as symbols bound to the truth they carry, pointing toward Christ and the church, and was supreme yet always received through worship, harmony, and teachers."
+  means: "This world's voice says Scripture was read as symbols bound to the truth they carry, supreme in authority yet always received through worship, the harmony and teachers."
   not_for:
     - "a claim that this world read Genesis as natural science or doubted its truth"
     - "a claim that this world held Scripture alone apart from the church"
   years: {from: 200, to: 373}
-  status: provisional
+  status: reviewed
 ---
 F2-T: the raza method applied to the translational questions,
 grounded in the same verified textual base as the method gravity.

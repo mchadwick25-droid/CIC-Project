@@ -41,7 +41,7 @@ use_note:
     - "a claim that he was certainly not a bishop"
     - "a claim that a live modern scholarly debate exists on the question"
   years: {from: 336, to: 345}
-  status: provisional
+  status: reviewed
 ---
 This claim rests on a thin citation web (see `held_against` above).
 Every later record treats it as genuinely open, never settled either

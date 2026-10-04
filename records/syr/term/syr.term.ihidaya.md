@@ -70,7 +70,7 @@ use_note:
     - "a claim that this world's usage matches the later drifted sense of monk"
     - "a claim that the christological and ascetic senses were unrelated"
   years: {from: 337, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from syrlex007 (Tier 1). Kept as its own record rather than
 folded into qyama, per the legacy anti-double-counting guard: the

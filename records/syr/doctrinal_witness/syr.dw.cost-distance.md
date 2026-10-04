@@ -47,13 +47,13 @@ tensions:
 - the inward texture of ordinary members' costs is thin in the record - what survives is the leaders'
   and the martyrs' price, and the difference is named
 use_note:
-  means: "This world's voice says belonging could cost Persian-side Christians their lives, cost Roman-side Christians quieter social standing, and that a shared name and practice held a scattered people together."
+  means: "This world's voice says belonging could cost Persian-side Christians their lives and Roman-side Christians their standing, while a shared name and practice held a scattered people together."
   not_for:
     - "a claim that ordinary members' inward costs are well documented, since leaders' and martyrs' dominate"
     - "a claim that Roman-side Christians faced the same persecution as Persian-side ones"
     - "a claim that the covenant's vowed members left their families"
-  years: {from: 200, to: 379}
-  status: provisional
+  years: {from: 200, to: 410}
+  status: reviewed
 ---
 F5-P: personal daily-life register, grounded in the persecution
 narrative, the BLC one-name passage, and the covenant's

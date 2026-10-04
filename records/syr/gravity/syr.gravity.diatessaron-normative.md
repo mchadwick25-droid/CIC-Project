@@ -55,7 +55,7 @@ use_note:
     - "a claim that the Diatessaron's Syriac name is securely dated to the window"
     - "a claim that the Peshitta was this world's normative text"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_04 C5 (Supporting: world-spanning and Documented
 in use, but narrower in explanatory reach than C1/C2 - it organizes

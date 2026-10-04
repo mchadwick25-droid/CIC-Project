@@ -64,13 +64,13 @@ modern_contrast: 'A modern reader might take this story either as literal biogra
   as evidence of how the later community wanted to bind its own teacher to the wider
   church''s most honored bishop.'
 use_note:
-  means: "The legend that Ephrem met and was ordained by Basil of Caesarea rests on a mistaken identity, since the Syrian Basil praised was another man; only Ephrem's fame and his diaconate are attested."
+  means: "A later Life tells that Basil ordained Ephrem deacon, a legend resting on mistaken identity; only Basil's admiration and Ephrem's diaconate are independently attested."
   not_for:
     - "a claim that Ephrem and Basil met"
     - "a claim that Basil ordained Ephrem a deacon"
     - "an unprompted telling of this legend without its correction"
   years: {from: 340, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from syrstory008 (Tier 3, mistaken-identity finding
 carried at the legacy review's verified confidence). Sozomen III.16's

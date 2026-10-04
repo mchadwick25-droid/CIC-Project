@@ -61,13 +61,13 @@ relations:
 - type: illustrates
   target: syr.gravity.raza-shrara-method
 use_note:
-  means: "Basil of Caesarea, in his second Hexaemeron homily, credits an unnamed Syrian with reading the Spirit borne over the waters of Genesis 1:2 as brooding like a bird over her eggs."
+  means: "Basil, in his second Hexaemeron homily, credits an unnamed Syrian with reading Genesis 1:2's Spirit over the waters as brooding like a bird over eggs."
   not_for:
     - "a claim that the unnamed Syrian was Ephrem or any other identified person"
     - "a claim that Basil judged Syriac superior to Greek in general rather than on this one verb"
     - "evidence that Basil himself read Syriac"
   years: {from: 370, to: 378}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at line 16729. DISCLOSED:
 the NPNF prints an endnote marker after "Syrian," carrying the

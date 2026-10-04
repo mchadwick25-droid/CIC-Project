@@ -43,7 +43,7 @@ use_note:
     - "a claim that the elements themselves (font, sealing, vow) are unattested"
     - "a claim that borrows a church order from another place or later period"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Celled to F4-I, where the walk-me-through canon question ("How did a
 person actually become one of you?") reaches this silence. Sourced on

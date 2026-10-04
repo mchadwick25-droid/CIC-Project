@@ -69,13 +69,13 @@ quick_meaning: A raza is a symbol that is bound to the truth it shows, and carri
   It is not a stand-in chosen at will.
 distortion_risk: high
 use_note:
-  means: "The raza is a symbol in Scripture or creation bound to the truth (shrara) it discloses, and Ephrem built his method on the pair; the hidden-power wording is a modern scholarly synthesis."
+  means: "A raza is a symbol in Scripture or creation bound to the truth (shrara) it discloses, the pair at the center of Ephrem's method of reading."
   not_for:
     - "a claim that raza means an arbitrary symbol, metaphor or puzzle"
     - "a claim that Aphrahat's plainer typology equals Ephrem's theory"
     - "a claim that the hidden-power articulation is this world's own stated doctrine"
   years: {from: 337, to: 373}
-  status: provisional
+  status: reviewed
 ---
 A Tier 1 entry (tags AS/TC/RT/DR/PV), grounding the C1 Primary gravity.
 The named-scholar attribution stays out of compiled prose; Brock's

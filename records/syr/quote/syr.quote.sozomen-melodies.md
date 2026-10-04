@@ -36,7 +36,7 @@ use_note:
     - "testimony from inside this world rather than a fifth-century Greek historian's notice"
     - "a claim that Ephrem invented Syriac hymnody"
   years: {from: 200, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim. The genre-contest witness: Bardaisanite song answered in kind; grounds syr.term.madrasha's evidential sense.
 

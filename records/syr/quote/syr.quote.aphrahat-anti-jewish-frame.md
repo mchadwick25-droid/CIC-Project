@@ -48,7 +48,7 @@ use_note:
     - "a verdict on Jewish people or Jewish practice today"
     - "a claim that this one verified line establishes the full extent of the polemic across his other Demonstrations"
   years: {from: 344, to: 344}
-  status: provisional
+  status: reviewed
 ---
 The corpus's own anti-Jewish polemical frame, recorded verbatim (Dem
 XVII.1) so its existence, its bitterness, and its one-sidedness

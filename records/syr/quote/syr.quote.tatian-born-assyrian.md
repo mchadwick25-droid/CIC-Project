@@ -40,11 +40,11 @@ relations:
 use_note:
   means: "Tatian closes his Address to the Greeks by calling himself a disciple of the barbarian philosophy, born in the land of the Assyrians and first instructed in Greek doctrines."
   not_for:
-    - "a claim that 'the land of the Assyrians' means the ancient empire rather than the Aramaic-speaking East"
+    - "a claim that Tatian wrote this Greek address in Syriac"
     - "a precise birthplace or city for Tatian"
     - "a claim that Tatian belonged to the church of Edessa or Nisibis"
   years: {from: 160, to: 180}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored file at anf02 line
 7460. DISCLOSED: the ANF editors' bracketed cross-reference "[Comp. cap.

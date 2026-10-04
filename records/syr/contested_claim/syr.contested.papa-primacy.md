@@ -44,13 +44,13 @@ concedes: 'A genuinely multi-see Persian episcopal structure existed - bishops, 
   and disrupted.'
 divergence_partners: []
 use_note:
-  means: "The claim that Persia had a settled parallel hierarchy under Papa bar Aggai by the early fourth century is contested, since his primacy was disputed and the structure was fragile and later-attested."
+  means: "The claim that Papa bar Aggai headed a settled parallel Persian hierarchy by the early fourth century is contested: his primacy was disputed and the structure fragile."
   not_for:
     - "a claim that Papa was an undisputed Catholicos"
     - "a claim that no real Persian episcopal structure existed"
     - "a claim that the Simeon bar Sabbae anchor date of 341 is secure"
   years: {from: 315, to: 344}
-  status: provisional
+  status: reviewed
 ---
 Grounds the F3-I answer's honesty and the tensional gravity's
 Persian-side pole, with both caveats carried: the Simeon bar Sabbae

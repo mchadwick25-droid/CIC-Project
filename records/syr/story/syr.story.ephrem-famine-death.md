@@ -62,13 +62,13 @@ modern_contrast: 'A modern reader might picture this as the founding of a hospit
   institution - not an ongoing medical charity, and not repeated after the crisis
   passed.'
 use_note:
-  means: "Early witnesses (Palladius, Sozomen) report that in the famine of Ephrem's last year he organized relief in public porches, nursing the starving, and died within a month of its end."
+  means: "Palladius and Sozomen report that in the famine of Ephrem's last year he nursed the starving in Edessa's public porches, dying soon after it ended."
   not_for:
     - "a claim that the account is eyewitness or Tier 1 evidence"
-    - "a claim that it reports miracles or a conventional idealized death"
-    - "a claim that it describes enslaved people or poor-relief practice in general"
+    - "a claim that the three hundred beds and the dialogue with the rich are verified reporting"
+    - "a claim that Ephrem founded a lasting hospital or charitable institution"
   years: {from: 372, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from syrstory001 (Tier 2 after the reviewed
 reclassification), re-anchored to the two VENDORED early witnesses

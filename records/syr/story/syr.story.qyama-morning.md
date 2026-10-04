@@ -80,7 +80,7 @@ use_note:
     - "a claim that Nisibis practice describes all Syriac Christian communities"
     - "a claim that the record gives a step-by-step order of worship"
   years: {from: 337, to: 363}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from syrstory009 (the repository's single Tier 4 entry)
 with its element-by-element source identification carried into

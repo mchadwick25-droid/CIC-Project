@@ -54,7 +54,7 @@ use_note:
     - "a claim that endurance was this world's uniform ideal"
     - "a claim that the persecution itself is the gravity rather than the force"
   years: {from: 337, to: 350}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_04 C6 (Supporting: strongly evidenced,
 Persian-concentrated - HIGH Author Gravity flagged at generation;

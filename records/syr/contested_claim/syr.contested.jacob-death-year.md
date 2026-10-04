@@ -42,8 +42,8 @@ use_note:
     - "a claim that Jacob died in 338"
     - "a claim that Jacob died in 350"
     - "a claim that Theodoret's blended siege tradition fixes the date"
-  years: {from: 309, to: 350}
-  status: provisional
+  years: {from: 338, to: 350}
+  status: reviewed
 ---
 This date stays genuinely open (a closer critical-edition pass on
 Theodoret's Historia Religiosa is the path to resolution if it ever

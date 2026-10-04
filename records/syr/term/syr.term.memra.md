@@ -51,8 +51,8 @@ use_note:
     - "a claim that memra here means the later verse homily of Narsai and Jacob of Serug"
     - "a claim that Aphrahat wrote memre"
     - "a claim that memra and madrasha were the same form"
-  years: {from: 200, to: 410}
-  status: provisional
+  years: {from: 306, to: 373}
+  status: reviewed
 ---
 Re-derived from syrlex005 (Tier 3, anachronism-guard entry). Kept
 deliberately minimal per the legacy Tier 3 discipline.

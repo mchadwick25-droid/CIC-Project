@@ -49,7 +49,7 @@ use_note:
     - "married people's own view of marriage, which does not survive here"
     - "a claim that most people in this world were celibate"
   years: {from: 337, to: 337}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F5-T: syr.limit.marriage cites Demonstration VI specifically, so the limit can be
 voiced by the passage it points at.

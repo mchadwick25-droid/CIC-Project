@@ -51,7 +51,7 @@ use_note:
     - "a claim that every detail of the sinful woman homily is in Luke's Gospel"
     - "a test that keeps the unworthy away"
   years: {from: 337, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Personal-register Center cell. The physician/penitence material
 verified verbatim in Hallock's Dem VII; the Sinful Woman homily is

@@ -65,7 +65,7 @@ use_note:
     - "a claim that Ephrem matched a specific rival's meter"
     - "a claim that madrasha means the later Islamic school"
   years: {from: 200, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from syrlex004 (Tier 1) and Doc_04 C1/C3. The
 Bardaisan-first genre point is carried at genre level only, per the

@@ -45,13 +45,13 @@ relations:
 - type: associated-with
   target: syr.dw.unsettled
 use_note:
-  means: "Aphrahat reports in Demonstration XXI that an unnamed Jewish sage taunted him that Christian prayer had not stopped the Persian persecution, and records his own judgment that the man was blaspheming."
+  means: "Aphrahat reports in Demonstration XXI that an unnamed Jewish sage taunted him that Christian prayer had not stopped the persecution, and judges the man a blasphemer."
   not_for:
     - "a claim that the Jewish questioner's words survive anywhere except in Aphrahat's hostile retelling"
     - "a claim that the questioner is a named or identifiable historical person"
     - "a picture of Jewish-Christian relations in this world as the Jewish side saw them"
   years: {from: 344, to: 344}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F6-I; syr.dw.unsettled alone grounds that cell, and its one vendored locus reads 'the
 corpus's own polemical strand' - a body of text that needed direct reading rather than citation alone.

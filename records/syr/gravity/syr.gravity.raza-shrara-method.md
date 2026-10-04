@@ -64,7 +64,7 @@ use_note:
     - "a claim that this world argued by Greek-style definition"
     - "a claim that the hidden-power wording is this world's own stated doctrine"
   years: {from: 337, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from Doc_04 C1 (Primary; all six tests pass;
 Confidence/Gravity Cross-Check clean: Documented for Ephrem's own

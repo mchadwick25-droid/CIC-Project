@@ -36,7 +36,7 @@ use_note:
     - "a firm date for the siege, which may be 338, 346, or 350"
     - "this world's own testimony rather than an outside historian's"
   years: {from: 338, to: 350}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (NPNF2-03, including the edition's own awkward 'than to that' - kept exactly as printed). Hagiographic-tier framing per syr.story.jacob-deliverance.
 

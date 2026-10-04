@@ -51,7 +51,7 @@ use_note:
     - "a documented chain of practice back to the apostles"
     - "a claim that the Addai story is history rather than cherished legend"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 F4-E: the evidential practices cell, holding the legend-license
 (doctrine-of-addai source record) and the earliest-attestation

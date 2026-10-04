@@ -32,12 +32,12 @@ retrieval:
   - "participant asks what they thought faith was built on"
   - "participant asks how a teacher explained the whole structure of belief to ordinary people"
 use_note:
-  means: "Aphrahat says in Demonstration I that Jesus Christ is the true Stone on which all faith is founded, and that resting on faith the whole structure rises until it is complete."
+  means: "Aphrahat says in Demonstration I that Jesus Christ is the true Stone founding all faith, and that on faith the whole structure rises until complete."
   not_for:
     - "a claim that faith alone suffices without the works the Demonstration builds on it"
     - "a statement about church buildings or about a church office as the foundation"
   years: {from: 337, to: 337}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored npnf213 text (Demonstration I.2). The faith-and-works house teaching's cornerstone line.
 

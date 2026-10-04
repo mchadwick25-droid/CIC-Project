@@ -41,13 +41,13 @@ relations:
 - type: associated-with
   target: syr.term.raza-shrara
 use_note:
-  means: "Ephrem, opening his first hymn on the Pearl, describes taking up a pearl and turning it on his palm until it showed mysteries of the Kingdom and the Son on every side."
+  means: "Ephrem opens his first Pearl hymn seeing mysteries of the Kingdom and the Son in a pearl, then turning it to find faces on every side."
   not_for:
     - "a doctrinal definition of the Son drawn from a poetic image"
-    - "a claim that Ephrem rejected books or study in favour of contemplation"
+    - "a claim that this excerpt states the hymn's conclusion about the Son, which follows the cut"
     - "a claim that Morris's 1847 English reproduces Ephrem's Syriac verse exactly"
   years: {from: 340, to: 373}
-  status: provisional
+  status: reviewed
 ---
 This quote serves F2-P; syr.term.raza-shrara grounds that cell, and its one vendored locus is 'The Pearl
 I-VII (the method performed)'.

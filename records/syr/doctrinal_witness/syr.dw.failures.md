@@ -57,8 +57,8 @@ use_note:
     - "a claim that any Christian in this world dissented from the anti-Jewish polemic"
     - "a claim that the Jewish side of the argument survives"
     - "a verdict on Jewish people or practice today"
-  years: {from: 300, to: 373}
-  status: provisional
+  years: {from: 315, to: 373}
+  status: reviewed
 ---
 F3-P: the hard-places honesty cell for church failure. The
 'entirely one-sided' finding is Doc_02 SS7's (via Koltun-Fromm),

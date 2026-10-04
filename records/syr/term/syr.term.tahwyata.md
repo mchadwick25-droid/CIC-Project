@@ -59,7 +59,7 @@ use_note:
     - "a claim that tahwyata names Ephrem's writings"
     - "a claim that all twenty-three can be quoted verbatim from public-domain translations"
   years: {from: 336, to: 345}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from syrlex003 (Tier 2). The Valavanolickal edition-date
 open flag (2005 vs 2011) is carried in the legacy chunk and does not

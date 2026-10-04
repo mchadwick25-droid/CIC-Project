@@ -43,7 +43,7 @@ use_note:
     - "a claim that the harmony's normative use depends on its name"
     - "a claim that Theodoret's account attests the Syriac name"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 canon_cells is deliberately empty: this is a naming-dating contest
 about this world's own vocabulary, not something lived by participants

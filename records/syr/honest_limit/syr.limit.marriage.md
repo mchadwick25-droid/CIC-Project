@@ -42,7 +42,7 @@ use_note:
     - "a claim that most people did not marry, or that marriage was disparaged"
     - "a claim treating the regional comparandum's marriage catalogue as Christian practice"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 F5-T's honest route: the cell's marriage/money questions get the
 ascetic-vantage limit stated as data. The money half of F5-T is

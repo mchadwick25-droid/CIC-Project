@@ -50,7 +50,7 @@ use_note:
     - "a claim that the order's existence is doubtful"
     - "a claim that fifth- to eighth-century material describes this window"
   years: {from: 337, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Carried from Doc_01 SS4 (Widely Accepted existence /
 Contested-Inferential-Thin structure) and the syrlex002 CT contest.

@@ -61,7 +61,7 @@ use_note:
     - "a claim that blends the Nicaea tradition with the siege miracle legend"
     - "a claim that Jacob's Nicaea attendance speaks for all Syriac Christianity"
   years: {from: 325, to: 325}
-  status: provisional
+  status: reviewed
 ---
 Re-derived from syrstory003 (Tier 2; kept deliberately distinct
 from the Tier 3 siege legend so a well-attested institutional fact

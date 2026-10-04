@@ -38,7 +38,7 @@ use_note:
     - "evidence of the date or calendar on which this world kept the feast"
     - "a historical argument for the birth narrative rather than liturgical poetry"
   years: {from: 340, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (Nativity Hymn I, Morris's translation as revised by Gwynn).
 

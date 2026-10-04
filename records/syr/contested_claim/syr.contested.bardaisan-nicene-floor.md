@@ -64,7 +64,7 @@ use_note:
     - "a claim that Bardaisan is simply a heretic or a docetist"
     - "a claim that his own voice survives unmediated"
   years: {from: 200, to: 373}
-  status: provisional
+  status: reviewed
 ---
 THE discharged Step 0 Section A task (Doc_01 SS5, three review rounds;
 determination SS5.6): excluded as a founding voice at Contested

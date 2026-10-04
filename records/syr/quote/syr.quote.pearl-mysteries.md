@@ -38,12 +38,12 @@ modern_lens_note: 'A modern reader is likely to read ''pearl'' as an ordinary po
   raza/shrara method (syr.term.raza-shrara) means something stronger: the pearl itself
   participates in and shows the hidden truth it carries, not a decorative comparison.'
 use_note:
-  means: "Ephrem opens his first Pearl hymn by saying he took up a pearl and saw in it mysteries of the Kingdom and types of the Majesty, drinking from it mysteries of the Son."
+  means: "Ephrem opens his first Pearl hymn by taking up a pearl and seeing in it mysteries of the Kingdom, types of the Majesty, and mysteries of the Son."
   not_for:
     - "an ordinary decorative simile rather than a symbol held to carry the truth it shows"
     - "a doctrinal definition drawn from a poetic image"
   years: {from: 340, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (The Pearl I.1), extended to the sentence's natural
 end - the raza method's own emblem: a whole world of mysteries read in

@@ -46,7 +46,7 @@ use_note:
     - "a claim that the named scribes and archivists were Christians"
     - "evidence that the church kept its own records in this way"
   years: {from: 201, to: 201}
-  status: provisional
+  status: reviewed
 ---
 This is the second of two quotes for F5-E: the cell asks both what would be dug up and how anyone
 knows, and one sentence could not honestly answer both. This is the same entry as

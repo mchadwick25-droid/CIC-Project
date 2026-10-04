@@ -44,7 +44,7 @@ use_note:
     - "a description of a fixed sacramental rite of confession in this world"
     - "proof that every fallen member was in fact restored"
   years: {from: 337, to: 337}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim against the vendored Hallock text (Dem VII.2).
 

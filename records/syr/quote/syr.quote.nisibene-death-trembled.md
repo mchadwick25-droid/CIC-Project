@@ -39,6 +39,6 @@ use_note:
     - "a literal account of the emotions of Death or Satan"
     - "a systematic doctrine of hell drawn from a dramatized hymn"
   years: {from: 350, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (Nisibene Hymn XXXV). The death-cycle's dramatized triumph: the underworld's own panic at Jesus.

@@ -34,6 +34,6 @@ use_note:
     - "evidence of organised hospitals or a standing care institution"
     - "a report of what members actually did rather than an exhortation to do it"
   years: {from: 337, to: 337}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (Dem VI). One line of the long covenant exhortation ('Let us...' repeated clause on clause).

@@ -60,7 +60,7 @@ use_note:
     - "a claim that the church's origin is simply unknown or merely invented"
     - "a claim that the route of first Christianization is known"
   years: {from: 200, to: 410}
-  status: provisional
+  status: reviewed
 ---
 Carried from Doc_01 SS2 (Widely Accepted: the legend is a later
 apostolic-foundation claim, not history) plus the census entry's own

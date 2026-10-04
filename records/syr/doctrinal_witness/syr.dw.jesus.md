@@ -53,7 +53,7 @@ use_note:
     - "a Greek conciliar formula recast from a sung and symbolic confession"
     - "a claim that Aphrahat's parallel confession stands free of its anti-Jewish disputational frame"
   years: {from: 337, to: 373}
-  status: provisional
+  status: reviewed
 ---
 The Center cell's answer-ground. The Sheol-to-Kingdom and
 brother-of-many language is verified verbatim against the vendored

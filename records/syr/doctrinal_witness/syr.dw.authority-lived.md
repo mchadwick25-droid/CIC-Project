@@ -55,7 +55,7 @@ use_note:
     - "a known office or rank for Aphrahat"
     - "an account of how members experienced plural authority, which is unattested"
   years: {from: 300, to: 410}
-  status: provisional
+  status: reviewed
 ---
 F3-I substantive companion to the term-level coverage: Dem X
 grounds the shepherd teaching; the Nisibene cycle the episcopal

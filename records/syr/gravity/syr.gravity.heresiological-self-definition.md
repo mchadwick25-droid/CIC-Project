@@ -53,8 +53,8 @@ use_note:
     - "a claim that Aphrahat engaged the triad by name"
     - "a claim that the rivals' systems were identical"
     - "a claim that the heresy boundary is neutral description rather than Ephrem's construction"
-  years: {from: 200, to: 410}
-  status: provisional
+  years: {from: 306, to: 373}
+  status: reviewed
 ---
 Re-derived from Doc_04 C3 (Supporting: real, Documented for the fact
 of the campaign, but concentrated in one author/region - kept below

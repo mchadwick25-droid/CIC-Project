@@ -35,12 +35,12 @@ relations:
 - type: associated-with
   target: syr.quote.ephrem-keeper-of-strangers
 use_note:
-  means: "Palladius's Lausiac History, written about 420, reports Ephrem telling Edessa's citizens during a famine to trust him because he would appoint himself hospitaller on their behalf."
+  means: "Palladius's Lausiac History reports Ephrem telling Edessa's citizens during a famine to trust him, since he would appoint himself hospitaller on their behalf."
   not_for:
     - "Ephrem's own transcribed words rather than speech reported by Palladius"
     - "a reference to the medieval Knights Hospitaller or to any standing office"
     - "the same wording as the Syriac recension of the exchange"
   years: {from: 372, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Verified verbatim (Clarke's translation). Reported speech within an early account - attributed to the account's rendering, not claimed as Ephrem's own transcribed words.

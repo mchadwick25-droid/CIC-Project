@@ -54,7 +54,7 @@ use_note:
     - "a claim that the 'one name' line is the community's own rather than from Bardaisan's dialogue"
     - "an answer to which modern church continues this one"
   years: {from: 200, to: 373}
-  status: provisional
+  status: reviewed
 ---
 F3-T: the one-name line is verified verbatim in the vendored BLC
 text; its provenance (the comparandum's own dialogue) is stated in

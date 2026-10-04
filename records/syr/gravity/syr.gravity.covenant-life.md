@@ -58,7 +58,7 @@ use_note:
     - "a claim that covenanters were monks or nuns in a cloister"
     - "a claim that the order was a targeted group in the persecution"
   years: {from: 337, to: 373}
-  status: provisional
+  status: reviewed
 ---
 Classification (Doc_04 C2): Primary, on the evidentiary basis set out
 above, which excludes the 6th-century Ephrem-choir claim. Cross-check:
