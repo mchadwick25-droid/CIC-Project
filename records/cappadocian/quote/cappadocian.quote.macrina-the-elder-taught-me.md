@@ -74,6 +74,15 @@ modern_rendering: >-
   came of age and could reason for myself, I travelled over much sea and land.
   Wherever I found people walking by the rule of godliness that had been
   handed down, those I took for my fathers.
+use_note:
+  means: "Basil's Letter CCIV to the Neocaesareans defends his orthodoxy by naming his grandmother Macrina, who taught him Gregory Thaumaturgus's words, then describes seeking out fathers himself."
+  not_for:
+    - "Macrina the Younger, Basil's sister, who is a different woman covered by cappadocian.figure.macrina"
+    - "a disinterested family memoir rather than a defence under accusation"
+    - "a chain of witnesses reaching back to Jesus, when it reaches only to Gregory Thaumaturgus"
+    - "evidence that every believer received the faith as a finished deposit, a position cappadocian.dw.how-it-reached-us holds in tension with this letter"
+  years: {from: 375, to: 375}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. The letter is headed "Letter CCIV." with

@@ -60,6 +60,15 @@ modern_contrast: >-
   about his friend's stature - real grief, almost certainly, but a
   specific, checkable crowd count is not what a funeral oration is built to
   supply.
+use_note:
+  means: "Basil died as bishop of Caesarea on a date contested between 377 and 379, and only Gregory of Nazianzus claims that Jews and pagans mourned him."
+  not_for:
+    - "a settled death date for Basil"
+    - "the cross-religious mourning as independently confirmed, when it is the encomiast's claim"
+    - "a crowd count, which a funeral oration is not built to supply"
+    - "Basil's life and work in full, which sits in cappadocian.figure.basil"
+  years: {from: 377, to: 379}
+  status: reviewed
 ---
 Derived from Doc_09 entry #9 (Tier 1). FLAGGED, NOT SILENTLY RECONCILED:
 Doc_09's own current text states this event as "Jan 379, or Sept 378...

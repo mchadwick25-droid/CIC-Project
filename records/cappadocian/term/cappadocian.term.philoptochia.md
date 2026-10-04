@@ -76,5 +76,14 @@ senses:
 quick_meaning: 'Love of the poor: almsgiving turned into an institution, the poor made our own
   test.'
 distortion_risk: medium
+use_note:
+  means: "Philoptochia meant love of the poor, preached as almsgiving with doctrine inside it, since the poor bear God's image."
+  not_for:
+    - "optional kindness reserved for the wealthy"
+    - "the famine homilies' sharpest lines as checked quotations"
+    - "the poorhouse complex, which sits in cappadocian.term.basileias"
+    - "the accusation of grasping, which sits in cappadocian.term.pleonexia"
+  years: {from: 368, to: 394}
+  status: reviewed
 ---
 Built from Doc_06 entry 7 (Tier 1).

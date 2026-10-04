@@ -61,6 +61,14 @@ modern_rendering: >-
   it is to protect those who might fall in with them. I will therefore write
   as briefly as I can. I will try to lay down some agreed principle for the
   discussion.
+use_note:
+  means: "Basil opens On the Holy Spirit by recounting how he was attacked for using two forms of the doxology, prompting Amphilochius to ask for a written answer."
+  not_for:
+    - "Basil's answer from unwritten custom, which sits in cappadocian.quote.what-is-the-written-source and cappadocian.quote.we-look-to-the-east"
+    - "a claim that one changed word alone, without the wider dispute over the Spirit, provoked the attack"
+    - "the objectors' own words, which survive only in Basil's report"
+  years: {from: 375, to: 375}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. Located via `grep -n 'div1'

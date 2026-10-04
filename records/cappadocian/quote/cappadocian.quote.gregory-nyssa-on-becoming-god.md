@@ -76,6 +76,14 @@ modern_rendering: >-
   divine -- rescued from death, and placed beyond the reach of our enemy's caprice. His
   return from death becomes, for our mortal race, the beginning of our own return to
   immortal life.
+use_note:
+  means: "Gregory of Nyssa's Catechetical Oration argues that God, present in all things, was born among humans so that human nature might become divine."
+  not_for:
+    - "pantheism, or a claim that the creature becomes God by nature"
+    - "the ransom and debt account of Christ's death, which sits in other chapters cited by cappadocian.dw.was-jesus-god"
+    - "Gregory's wording as the shared formula of all three Cappadocian teachers"
+  years: {from: 385, to: 385}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf205_gregory-nyssa-dogmatic-treatises.txt. Located via `grep -n -i

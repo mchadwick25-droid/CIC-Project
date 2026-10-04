@@ -55,6 +55,15 @@ modern_contrast: >-
   the resurrection about what fidelity itself means, remembered as the
   deliberate first act of a whole household's reordering, not a private
   sorrow.
+use_note:
+  means: "Macrina's betrothed died and she refused remarriage, reasoning from the resurrection, in her brother's memory of the resolve behind her household's ascetic turn."
+  not_for:
+    - "an eyewitness or chronicle-level account, since it is family memory set down a generation later"
+    - "Macrina's own words, which survive only inside her brother's frame"
+    - "the wording of her refusal, which sits in cappadocian.quote.macrina-refuses-remarriage"
+    - "the deathbed scene, which sits in cappadocian.story.macrina-deathbed"
+  years: {from: 327, to: 379}
+  status: reviewed
 ---
 Derived from Doc_09 entry #7 (Tier 3). Same mediation caveat as entry #6
 applies and is not repeated in full here: this is Gregory's account of his

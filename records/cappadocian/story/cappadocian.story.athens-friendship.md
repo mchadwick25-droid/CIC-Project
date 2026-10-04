@@ -62,6 +62,15 @@ modern_contrast: >-
   elsewhere, of Sasima's wound - and choosing to open a funeral oration
   with Athens, rather than the more recent and more painful chapters, was
   itself a choice about what kind of story to tell at a friend's grave.
+use_note:
+  means: "Gregory of Nazianzus remembered his student friendship with Basil as one soul in two bodies, a retrospect that evidences how he chose to portray it."
+  not_for:
+    - "Basil's own account of the friendship, since none survives"
+    - "the friendship as uncomplicated, when the wound told in cappadocian.story.sasima-wound followed it"
+    - "an independently corroborated report of what passed between the students at Athens"
+    - "the argument for taking only the honey from pagan letters, which sits in cappadocian.term.paideia-philosophia"
+  years: {from: 329, to: 390}
+  status: reviewed
 ---
 Derived from Doc_09 entry #5 (Tier 1). "As the survivor remembered it" is
 Doc_09's own usage-guidance phrase, carried here into the confidence block
