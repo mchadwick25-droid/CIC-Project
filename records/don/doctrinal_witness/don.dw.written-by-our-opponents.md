@@ -112,6 +112,15 @@ tensions:
 - the movement was for whole regions the numerically dominant church rather than an elite minority, so
   the silence of ordinary members is not a thin margin of the record but most of it
 relations: []
+use_note:
+  means: "Almost everything known of the Donatists passed through two opponents, only four short texts, the damaged 411 transcript and the Deo laudes stones escape them, and the unflattering founding transcripts are the most checkable."
+  not_for:
+    - "a claim that the martyr accounts should be weighed as reporting"
+    - "a claim that this self-assessment stands outside the corpus it describes"
+    - "a claim that the silence of ordinary members is a thin margin of the record"
+    - "a claim about whether the martyr ideal was a death wish, which sits in don.dw.not-a-death-wish"
+  years: {from: 311, to: 411}
+  status: reviewed
 ---
 Closes F2-E, the meta-honesty cell, and it is the cell this world's own
 `world_core` is best equipped to answer - `thinness` and `cautions`

@@ -46,5 +46,12 @@ nearest_material:
 - don.figure.lucilla
 - don.story.lucilla-consecration-dispute
 - don.witness.one-formation-aim
+use_note:
+  means: "Lucilla and an unnamed second woman stand at the centre of Donatist history, but neither's words survive; all that is known comes from men's pens."
+  not_for:
+    - "a claim that either woman's own account or motives survive"
+    - "a claim that Lucilla's character is established beyond what the hostile source supports"
+  years: {from: 311, to: 439}
+  status: reviewed
 ---
 Celled to F6-P ('You've told me what women's days were like -- but could a woman carry real authority among you, and what did it cost her?') -- the fleet's own direct match; both attested women in this world's own record DID carry the kind of consequential agency this canon question asks about (making or unmaking a bishop), which is exactly why the limit is narrower than 'women are thin here': presence and consequential agency are attested twice; a woman's own words, in either case, are attested nowhere -- the same narrowing discipline pahc.limit.womens-own-words applies to its own analogous finding. demo_tag: exclude set for the reason stated inline above (a real cell-sharing collision with don.demo.undiscovered-traditor, F6-P, per engine/m2/builders.py's own _demonstration_candidates()). relations[] links to don.figure.lucilla (the one bounded reconstruction this record's own limit is precise about) -- reciprocal edge added directly to don.figure.lucilla.md after this script runs.

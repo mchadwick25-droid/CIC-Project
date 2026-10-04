@@ -162,6 +162,15 @@ relations:
   target: don.quote.petilian-conscience-of-the-giver
 - type: associated-with
   target: don.limit.bagai-violence-no-account
+use_note:
+  means: "This telling covers entry by washing, with the forced-entry charges and the lay reluctance Augustine concedes, readmission after wrongdoing, which followed no consistent rule, and three stray fragments of prayer, chalice and fast."
+  not_for:
+    - "a claim about what undergoing the washing felt like to those who underwent it"
+    - "a claim that a Donatist liturgy, order of service, or rule of fasting survives"
+    - "a claim about the particulars of the forced-entry charges"
+    - "a claim about why the washing counted as a first and not a second baptism, or about infant baptism, which sit in don.dw.washed-for-the-first-time"
+  years: {from: 311, to: 411}
+  status: reviewed
 ---
 Closes F4-I. Two of the cell's five variants (how a person became one of
 us; how wrongdoing was handled and whether someone could return) are

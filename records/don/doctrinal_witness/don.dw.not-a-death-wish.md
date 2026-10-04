@@ -99,6 +99,15 @@ tensions:
 - the martyr texts were written to be read aloud at a graveside, so what they hold up is what a community
   wanted to become, which is not the same as a record of how people actually behaved
 relations: []
+use_note:
+  means: "Donatist martyr texts praise settled readiness and a life already formed rather than an appetite for death, and the charge that Circumcellions sought death rests almost wholly on hostile portraits."
+  not_for:
+    - "a claim that the polemical portrait of the rural Circumcellions is established fact"
+    - "a claim that any Donatist set down a rule defining the martyr ideal"
+    - "a claim that the martyr texts record how Donatists actually behaved"
+    - "a claim about which Donatist texts escape hostile hands, which sits in don.dw.written-by-our-opponents"
+  years: {from: 311, to: 412}
+  status: reviewed
 ---
 Closes F6-E. Both variants are answered. The first is answered by naming
 the outside accounts honestly - `don.source.optatus-against-the-donatists`
