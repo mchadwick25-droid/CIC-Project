@@ -29,7 +29,7 @@ LIVE, SPENT, VOID = "live", "spent", "void"
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
 RECONCILE_RETENTION_DAYS = 90
 
-MAX_TOKENS_PER_CODE = 100_000
+MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
 

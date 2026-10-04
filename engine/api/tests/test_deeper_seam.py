@@ -607,7 +607,7 @@ def test_a_handled_message_logs_no_session_id_and_no_turn_number(store, usage_st
 
 # ---- the table: a round costs by its number and its seats, paid once, at its opening -----
 
-from engine.api.tests.test_table_api import _create_table, _table_client, alx_world, desert_world, grounded_sentence  # noqa: E402,F401
+from engine.api.tests.test_table_api import _create_table, _table_client, alx_world, desert_world, grounded_sentence, pahc_world  # noqa: E402,F401
 
 
 def long_table_client(alx_world, desert_world, turns=40):
@@ -649,6 +649,30 @@ def test_a_table_round_past_the_free_rounds_costs_the_round_price_once(
         assert second.status_code == 200
     assert runtime.meter.status(code).remaining == after_open == total - round_price
     assert runtime.meter._reserved == {}
+
+
+@pytest.mark.parametrize("seats, opens, second", [(2, 160, 60), (3, 250, 100)])
+def test_a_table_draws_its_opening_and_first_round_then_its_second_by_seats(
+    store, usage_store, world_loader, registry, runtime, alx_world, desert_world, pahc_world, monkeypatch, seats, opens, second
+):
+    monkeypatch.setattr("engine.m4.round.TABLE_SESSION_ROUND_CAP", 0)
+    keys = ["alx", "desert", "pahc"][:seats]
+    sentences = [grounded_sentence(w)[0] for w in (alx_world, desert_world, pahc_world)][:seats]
+    client = _table_client(
+        selector_script=[{"next": keys[i % seats], "reason": "r"} for i in range(60)],
+        stream_scripts=[[sentences[i % seats]] for i in range(60)],
+    )
+    http = table_app(store, usage_store, world_loader, registry, runtime, client)
+    held = 1000
+    code = code_with(runtime, held)
+    created = http.post("/api/session", json={"world_keys": keys}, headers={"X-Cic-Code": code}).json()
+    auth = {"Authorization": f"Session {created['session_code']}", "X-Cic-Code": code}
+    first = http.post(f"/api/session/{created['session_id']}/message", json={"text": "what is prayer?"}, headers=auth)
+    assert first.status_code == 200 and first.headers["x-cic-remaining"] == str(held - opens)
+    while first.json()["round_open"]:
+        first = http.post(f"/api/session/{created['session_id']}/continue", headers=auth)
+    reply = http.post(f"/api/session/{created['session_id']}/message", json={"text": "and fasting?"}, headers=auth)
+    assert reply.status_code == 200 and reply.headers["x-cic-remaining"] == str(held - opens - second)
 
 
 def test_a_table_round_the_balance_cannot_cover_is_not_admitted(
@@ -869,3 +893,16 @@ def test_the_voice_requests_are_identical_for_a_table_round_past_the_free_rounds
     free = run(runtime, None, 5)
     paid = run(runtime, code_with(runtime, 2 * table_charge(runtime, 2)), 1)
     assert off and off == free == paid
+
+
+def test_a_reply_with_no_words_is_not_charged_and_a_reply_with_words_is():
+    from types import SimpleNamespace
+
+    from engine.api.app import _spoke
+
+    assert not _spoke(None)
+    assert not _spoke(SimpleNamespace(text=""))
+    assert not _spoke(SimpleNamespace(text="  \n"))
+    assert not _spoke({"text": ""})
+    assert _spoke({"text": "Words."})
+    assert _spoke(SimpleNamespace(text="We did not claim to have seen him ourselves."))

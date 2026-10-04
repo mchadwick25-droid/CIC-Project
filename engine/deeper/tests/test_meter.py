@@ -47,7 +47,7 @@ def test_mint_refuses_wrong_counts(meter, kind, count):
         meter.mint(kind, 10, "pi_x", count=count)
 
 
-@pytest.mark.parametrize("tokens", [0, -1, 100_001, 1.5])
+@pytest.mark.parametrize("tokens", [0, -1, 1_000_001, 1.5])
 def test_mint_refuses_wrong_tokens(meter, tokens):
     with pytest.raises(ValueError):
         meter.mint("single", tokens, "pi_x")

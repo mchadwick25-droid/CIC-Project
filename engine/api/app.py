@@ -83,6 +83,14 @@ def _sse(event: str, data: dict) -> str:
     return f"event: {event}\ndata: {json.dumps(jsonable_encoder(data), ensure_ascii=False)}\n\n"
 
 
+def _spoke(voice) -> bool:
+    """Whether a voice turn carries words. A reply with none leaves no pair in
+    the memory the next turn counts from, so it is not charged either: the round
+    number and the opening amount stay in step with what the person was given."""
+    text = voice.get("text") if isinstance(voice, dict) else getattr(voice, "text", None)
+    return voice is not None and bool((text or "").strip())
+
+
 def _stream_turn(handle, done_body, voiced, session_id: str, started: float, admission=None) -> StreamingResponse:
     """One turn answered as an event stream: a "sentence" event for each
     sentence as the voice finishes writing it, with the marks the finished
@@ -642,7 +650,7 @@ def create_app(
 
             return _stream_turn(
                 lambda on_sentence: wiring.handle_message(**call_kwargs, on_sentence=on_sentence),
-                lambda result: with_balance(MessageResponse(**asdict(result)).model_dump(), result), lambda result: result.voice is not None, session_id, started, admission,
+                lambda result: with_balance(MessageResponse(**asdict(result)).model_dump(), result), lambda result: _spoke(result.voice), session_id, started, admission,
             )
         voiced = False
         try:
@@ -652,7 +660,7 @@ def create_app(
                 logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
             result = wiring.handle_message(**call_kwargs)
-            voiced = result.voice is not None
+            voiced = _spoke(result.voice)
         except Exception as exc:
             failure = _message_failure(exc, session_id)
             if failure is None:
