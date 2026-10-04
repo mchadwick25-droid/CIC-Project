@@ -906,3 +906,13 @@ def test_a_reply_with_no_words_is_not_charged_and_a_reply_with_words_is():
     assert not _spoke({"text": ""})
     assert _spoke({"text": "Words."})
     assert _spoke(SimpleNamespace(text="We did not claim to have seen him ourselves."))
+
+
+@pytest.mark.parametrize("text", ["", "   ", "\n", "One sentence.", " Padded words. "])
+def test_a_reply_counts_as_spoken_exactly_when_it_adds_a_pair_to_the_memory_the_next_turn_counts_from(text):
+    from engine.api.app import _spoke
+    from engine.api.wiring import history_from_transcript
+
+    voice = {"speaker": "fix", "text": text, "citations": []}
+    history = history_from_transcript([{"speaker": "participant", "text": "question"}, voice])
+    assert _spoke(voice) == (len(history) // 2 == 1)

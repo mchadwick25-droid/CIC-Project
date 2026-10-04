@@ -30,7 +30,7 @@
 
 schema_version: 1
 fixture_world: fix
-clean_baseline: records/fix/**   # plus records/_fleet/** and records/worlds.yaml
+clean_baseline: records/fix/**   # plus the fleet records (engine/*/records/) and records/worlds/
 
 defects:
   - id: schema-unevaluated-property

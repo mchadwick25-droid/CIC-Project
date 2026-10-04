@@ -6262,9 +6262,14 @@ Decision 6 ordered a test of removing the reader call (R43, CO-1). The live turn
 
 43. The reader call stays; E2 is not run. The modern-term bridge reads its terms from the fleet dictionary's scan of the participant's message alone: what the reader names no longer renames or adds to them. The checks that only report (uncited claims, paragraph coverage, named claims, the fact check and the output-check families) move to M7 (`engine/m7/offline_checks.py`), which re-runs them over logged turns; the live turn computes them only when the R27 or sentence-level enforcement switch is on, because only then does the turn act on them. The live output check keeps the horizon family only, the runtime backstop of decision 40. The project lead chose this over running E2 to decide whether to remove the reader.
 
-
 ## 2026-10-03 - Go Deeper: the unit is tokens (decision 46, a named change order)
 
 The project lead ruled that a code holds tokens, one currency for conversations and rounds alike. Basis: the Token Proportions Study (https://claude.ai/artifact/NHompAUFtzwLVXEBYgbjJ8). The Funding-Strategy log carries the build entry.
 
 46. A code holds tokens. Solo: 50 to open a conversation, 20 a round for rounds 1 to 3, 25 a round from round 4. Table: 50 a seat to open (100 at two seats, 150 at three); a round costs 60 at two seats and 100 at three, and from round 4 it costs 75 and 125. The free allowance is 330 tokens a day, and a free conversation stops after 3 rounds; a code lifts that stop. Packs: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing is sold under $7. A conversation's opening amount is drawn with its first admitted round, on top of that round's own amount, so a three-round solo conversation draws 50 + 3 x 20 = 110: the $7 pack is 10 conversations and the free day is three. Nothing is drawn by opening a conversation and leaving without a message. This supersedes the 2026-10-03 ruling "a code holds exchanges" and decision 45 (a Table round costs 3 exchanges). The meter, the free path, the words and the door change in later slices, one each.
+
+## 2026-10-04 - Fleet records live with the engine modules that own them (decision 44)
+
+Decision 8 moved the non-world kinds out of the worlds; the design left the one cross-world contested claim and the two fleet sources to the project lead.
+
+44. The fleet's records leave records/_fleet/ for the engine module that owns each kind: the fleet voice record to engine/shape/records/, the canon questions to engine/canon/records/, and the modern-term record to engine/m5/records/ together with the contested claim (Theophilus's triad) and the two sources (Theophilus, To Autolycus; Tertullian, Against Praxeas) that its card cites. They keep their ids and stay under the full gate battery, the fleet readability waiver included. The project lead chose this over keeping the claim and sources in records/_fleet and over parking all three.

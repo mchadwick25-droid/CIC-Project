@@ -1475,10 +1475,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # fresh REWRITE example elsewhere.
     ("records/alx/gravity/alx.gravity.logos-unity.md", 49, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 251, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 272, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 259, "PROTECTED"),
-    ("fixtures/seeded_defects.yaml", 221, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 280, "PROTECTED"),
+    ("fixtures/seeded_defects.yaml", 242, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 26, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits

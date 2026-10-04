@@ -21,7 +21,7 @@ for what follows:
      (world.prompt_text, 60,254 characters) already contains
      alx.dw.church-failure's real text verbatim, confirmed by direct
      substring check ("Under persecution, many gave way" is IN it). The
-     fleet-wide citation contract (records/_fleet/fleet_voice/
+     fleet-wide citation contract (engine/shape/records/fleet_voice/
      _fleet.voice.fleet.md, sent ahead of every world's prompt by
      engine.shape.build_shape) explicitly sanctions
      citing "from a section heading's own 'cite as' id" - not only from

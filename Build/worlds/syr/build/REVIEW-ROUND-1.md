@@ -1,7 +1,7 @@
 # REVIEW-ROUND-1 — Adversarial Review of the syr Record Corpus (World #7, Syriac Christianity)
 
 Reviewer: independent adversarial review thread (no part in authoring). Date: 2026-08-21.
-Scope: all 150 records under `records/syr/`, checked against the vendored primary texts in `cic/texts/`, the approved legacy build documents in `Build/worlds/syr/`, and the fleet canon questions in `records/_fleet/canon_question/`.
+Scope: all 150 records under `records/syr/`, checked against the vendored primary texts in `cic/texts/`, the approved legacy build documents in `Build/worlds/syr/`, and the fleet canon questions in `engine/canon/records/canon_question/`.
 
 ## Verdict
 

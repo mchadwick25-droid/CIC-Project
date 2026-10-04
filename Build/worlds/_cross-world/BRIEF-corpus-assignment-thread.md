@@ -125,7 +125,7 @@ buckets that align to them; how best to integrate it into each world is
 worked out separately, once the parsing and organizing is done.
 
 So the assignment table does **not** live inside any world, and it does not
-live in `records/_fleet/` either — `compile_world()` loads the fleet records
+live in `engine/<module>/records/` either — `compile_world()` loads the fleet records
 on every build (`build_coverage_json`, `build_canon_map_json`, and the
 manifest itself), so anything put there moves all seven package hashes and is
 not separate in any meaningful sense.
@@ -542,7 +542,7 @@ is the whole mechanism; there is no separate list to keep.
 Seven entries currently sit in `unclassified` — Tacitus, Suetonius, Lucian,
 Ammianus, Auxentius, Paulinus of Milan. Most are the context material §11a
 covers, and several are in the Pearse appendix, so they should resolve as you
-go rather than needing a ruling.
+go.
 
 ---
 

@@ -618,8 +618,8 @@ def gate_readability(records, fleet, registry) -> list[str]:
 
 def gate_readability_fleet(fleet) -> list[str]:
     """gate_readability's fleet-scoped twin: grades the cross-world
-    records under records/_fleet/ (fleet_voice, modern_term, and any
-    fleet-level contested_claim) - never reached by gate_readability
+    fleet records (fleet_voice, modern_term, and any fleet-level
+    contested_claim) - never reached by gate_readability
     itself, for the reason that function's own docstring gives. NOT
     registered in GATES: every GATES entry runs once per world via
     gates.run_all(), which would hit the same multiply-counting problem.
