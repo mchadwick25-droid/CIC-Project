@@ -38,7 +38,7 @@ relations:
 name: Letter-writing as formation medium [SUPPORTING]
 description: >-
   The letter was how this community actually formed people. Spiritual direction came by letter.
-  So did arguments over scripture. Letters held the group split between Rome and
+  So did long arguments over scripture. Letters held a household split between Rome and
   Bethlehem together as one project for decades. The letter is the channel the main pressures
   of this world run through, not a force with content of its own. And letters fill the record
   partly because the sources that survive are letters.
