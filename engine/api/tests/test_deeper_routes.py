@@ -108,6 +108,8 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/door", headers=admin()).status_code == 404
+    assert http.get("/api/admin/deeper/owed", headers=admin()).status_code == 404
+    assert http.post("/api/admin/deeper/void", json={"payment_id": "pi_x"}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/measures", headers=admin()).status_code == 404
 
 
@@ -117,7 +119,7 @@ def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, 
     assert {
         "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance", "/api/deeper/door",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
-        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door", "/api/admin/deeper/measures",
+        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door", "/api/admin/deeper/measures", "/api/admin/deeper/owed", "/api/admin/deeper/void",
     } <= paths
 
 
@@ -841,6 +843,62 @@ def test_the_public_door_line_carries_words_only_and_may_be_kept_a_minute(http, 
     assert set(response.json()) == {"state", "line"}
     assert response.headers["cache-control"] == "public, max-age=60"
     assert not any(key in response.text for key in ("ratio", "ceiling", "stage"))
+
+
+# ---- the balances owed ---------------------------------------------------------------------------
+
+def test_the_owed_route_needs_the_admin_credential(http):
+    assert http.get("/api/admin/deeper/owed").status_code == 404
+    assert http.get("/api/admin/deeper/owed", headers=admin("wrong")).status_code == 404
+
+
+def test_the_owed_route_lists_unspent_tokens_by_payment(http, runtime):
+    runtime.meter.mint("single", 1100, "pi_owed")
+    (row,) = http.get("/api/admin/deeper/owed", headers=admin()).json()["owed"]
+    assert (row["payment_id"], row["kind"], row["codes"], row["tokens_bought"], row["tokens_left"]) == ("pi_owed", "single", 1, 1100, 1100)
+
+
+# ---- the admin void: a refund the webhook cannot see ---------------------------------------------------
+
+def test_the_void_route_needs_the_admin_credential(http):
+    assert http.post("/api/admin/deeper/void", json={"payment_id": "pi_x"}).status_code == 404
+    assert http.post("/api/admin/deeper/void", json={"payment_id": "pi_x"}, headers=admin("wrong")).status_code == 404
+
+
+def test_the_void_route_voids_the_codes_the_money_and_the_balance_owed(http, runtime):
+    (code,) = runtime.meter.mint("single", 1100, "pi_partial")
+    runtime.meter.add_funds("purchase", 700, "pi_partial")
+    body = http.post("/api/admin/deeper/void", json={"payment_id": "pi_partial"}, headers=admin()).json()
+    assert body == {"payment_id": "pi_partial", "voided": 1}
+    assert runtime.meter.status(code).status == "void"
+    assert runtime.meter.owed() == []
+    assert runtime.meter.net_funds(7).get("purchase", 0) == 0
+    assert runtime.meter.reconciliation()[0]["refunds_applied"] == 1
+
+
+def test_a_payment_with_no_codes_is_not_found_and_nothing_is_recorded(http, runtime):
+    body = http.post("/api/admin/deeper/void", json={"payment_id": "pi_mistyped"}, headers=admin())
+    assert body.status_code == 404
+    assert not runtime.meter.payment_voided("pi_mistyped")
+
+
+def test_a_repeated_void_changes_nothing_and_a_late_completion_mints_nothing(http, runtime):
+    runtime.meter.mint("single", 25, "pi_twice")
+    first = http.post("/api/admin/deeper/void", json={"payment_id": "pi_twice"}, headers=admin()).json()
+    again = http.post("/api/admin/deeper/void", json={"payment_id": "pi_twice"}, headers=admin()).json()
+    assert (first["voided"], again["voided"]) == (1, 0)
+    assert runtime.meter.owed() == []
+    assert post_event(http, completed(payment="pi_twice")).status_code == 200
+    assert runtime.meter.reconciliation()[0]["codes_minted"] == 1
+    assert runtime.meter.reconciliation()[0]["payments_voided_first"] == 1
+
+
+def test_the_webhook_refund_and_the_admin_void_do_the_same_thing(http, runtime):
+    from engine.api.deeper_routes import apply_refund
+
+    (code,) = runtime.meter.mint("single", 25, "pi_same")
+    assert apply_refund(runtime, "pi_same") == 1
+    assert runtime.meter.status(code).status == "void"
 
 
 def test_in_observe_mode_the_public_door_line_says_nothing_even_at_a_closed_door(http, runtime):
