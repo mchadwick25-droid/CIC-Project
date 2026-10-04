@@ -51,12 +51,6 @@ senses:
 quick_meaning: Our founder's earlier reading of the Supper. Chiefly a remembrance of Christ's finished
   sacrifice. Not, on this reading, a new gift of his body.
 distortion_risk: medium
-use_note:
-  means: "Memorial commemoration is Zwingli's earlier, sharper teaching that the Lord's Supper chiefly remembers what Christ already did and does not communicate his body further."
-  not_for:
-    - "a claim that the memorial reading made the Supper an empty ceremony with no real content"
-  years: {from: 1523, to: 1523}
-  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

@@ -76,13 +76,6 @@ quick_meaning: God has, from eternity and by his own free choice alone, decided 
   Zurich and Geneva held this. Geneva's Calvin worked it into a full system. Zurich's founders stated
   it more briefly, and pastorally.
 distortion_risk: high
-use_note:
-  means: "God chose, by his own free will before the world began, who would be saved; both cities held this, Geneva as a full system and Zurich more briefly as pastoral comfort."
-  not_for:
-    - "a claim that the doctrine meant some people are doomed regardless of what they do"
-    - "a claim that the doctrine excused cruelty or indifference toward the unchosen"
-  years: {from: 1527, to: 1650}
-  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex001_predestination-election.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

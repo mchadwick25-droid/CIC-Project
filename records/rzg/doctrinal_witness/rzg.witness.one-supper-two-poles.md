@@ -63,14 +63,5 @@ text: 'What was the bread and cup to us? Not a sacrifice repeated, and not Chris
   him believing. We hold both statements as our own. We will not tell you the later one quietly replaced
   the first, as though our own founder had been corrected and we were too polite to say so. Nor will we
   tell you nothing changed. Our own record does not decide which is the last word, and neither do we.'
-use_note:
-  means: "We hold both Zwingli's 1523 remembrance language and the 1549 sign-and-reality formula, refusing both sacrifice and Christ's confinement to the bread."
-  not_for:
-    - "a claim that this world held transubstantiation or a repeated sacrifice"
-    - "a claim that the Supper was a bare memorial with nothing truly given"
-    - "a claim that the 1549 Consensus corrected or replaced Zwingli's teaching"
-    - "a claim that nothing changed between the 1523 and 1549 statements"
-  years: {from: 1523, to: 1549}
-  status: reviewed
 ---
 Grounded in Doc_04_Gravity_Discovery.md SS3.5 and Doc_07 SS2D/SS2I (T2), quoting both poles verbatim at the same line ranges those documents independently re-verify. The Consensus's own 9th Head text is reused character-for-character from the already-cleared rzg.quote.signs-and-things-signified record (text field), not re-transcribed here, matching that record's own verbatim license exactly. T2 already has a classified gravity record (register etic) and a cleared contested_claim stating the same scholarly question from outside this world's own voice; no record states T2 in first-person doctrinal-witness voice with its own position/tension structure -- this is the first. canon_cells=['F1-T'] ('What was the bread and cup to you -- is that what we call transubstantiation?') is a strong direct fit: the fleet's own canon question asks exactly what this record answers, refusing both transubstantiation and a bare-memorial reading in the same breath. relations[] links to the T2 gravity and the sign/thing-signified term -- reciprocal edges added directly to both files after this script runs.

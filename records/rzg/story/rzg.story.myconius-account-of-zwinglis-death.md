@@ -52,12 +52,5 @@ modern_contrast: 'A modern reader may expect a founder''s death to be told as pu
   hedges Myconius himself preserves. We keep them because he did: the battlefield details are secondhand,
   reported to him, and the heart found whole in the ashes is presented in his own account as something
   strange he was told, not something he saw.'
-use_note:
-  means: "Zwingli rode out to battle on 11 October 1531 and was killed that afternoon, as his friend Myconius wrote down from memory."
-  not_for:
-    - "a claim that Myconius saw the battlefield fighting himself"
-    - "a claim that the heart found whole in the ashes is an eyewitness report"
-  years: {from: 1531, to: 1531}
-  status: reviewed
 ---
 Built from Story-Chunks/rzgstory003_myconius-account-of-zwinglis-death.md (Approved to proceed): Myconius's own account narrates Zwingli's death directly, in a vendored source. AUTHORED: text recasts the chunk's own Story Text into this world's own first-person register; tellable_as further compresses that into a single spoken-register sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own Tier Justification hedges.

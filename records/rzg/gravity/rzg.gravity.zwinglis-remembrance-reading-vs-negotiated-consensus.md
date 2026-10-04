@@ -56,11 +56,5 @@ manifestations:
   together
 - the Marburg Colloquy (1529), the doctrinal context that pressed, over twenty years, toward a joint answer
 classification: tensional
-use_note:
-  means: "Zwingli's 1523 remembrance reading of the Supper and the 1549 negotiated spiritual-presence consensus are held together without ever being fully reconciled."
-  not_for:
-    - "a claim that the two positions were fully reconciled into one"
-  years: {from: 1523, to: 1650}
-  status: reviewed
 ---
 Built from Doc_04_Gravity_Discovery.md SS3 (Approved to proceed, Revision 2), carrying that document's own classification and reasoning directly. `relations` mirrors Doc_08 Section 5's own 'Connected forces' list for this gravity exactly, per that document's own explicit caution against force-fitting a connection its own words do not support.
