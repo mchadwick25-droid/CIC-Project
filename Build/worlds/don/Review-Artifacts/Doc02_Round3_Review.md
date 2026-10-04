@@ -156,7 +156,7 @@ The Manifest says the opposite of half of that. Its §2, where the *Gesta* sits,
 
 **Manifest, decision block:**
 
-> "'G1' is this project's own shorthand for **the source-acquisition decision point in a world's build** — the moment a Source Acquisition Manifest like this one is put to the project lead for a real choice, distinct from the procedural self-dispositions the build thread makes on its own (**`cic-build-cycle`**; see also `records/desert/search_record/desert.search.apophthegmata-pd-english.md` for the same usage in another world's build)."
+> "'G1' is this project's own shorthand for **the source-acquisition decision point in a world's build** — the moment a Source Acquisition Manifest like this one is put to the project lead for a real choice, distinct from the procedural self-dispositions the build thread makes on its own (**`cic-build-cycle`**; see also `Build/worlds/desert/build/records/search_record/desert.search.apophthegmata-pd-english.md` for the same usage in another world's build)."
 
 **(a) The cited governing document does not contain the term.** I read `cic-build-cycle`'s SKILL.md in full and searched it. "G1" does not appear anywhere in it — not in the five stages, not in the escalation categories, not in the disposition vocabulary. The distinction the sentence draws (project-lead decisions vs. build-thread self-disposition) *is* in the skill; the label G1 is not, and the citation as placed reads as sourcing the definition.
 

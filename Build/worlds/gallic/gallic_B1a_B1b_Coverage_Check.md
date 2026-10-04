@@ -152,7 +152,7 @@ on directly, not acquired or rowed now.
 
 ---
 
-## B-1a — discovery sweep: full record at `records/gallic/search_record/gallic.search.unopened-volume-sweep.md`
+## B-1a — discovery sweep: full record at `Build/worlds/gallic/build/records/search_record/gallic.search.unopened-volume-sweep.md`
 
 **Scope, as this world's actual sourcing history requires:** the realistic
 discovery-sweep question is not "what does the wider literature contain"

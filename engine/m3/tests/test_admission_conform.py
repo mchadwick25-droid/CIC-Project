@@ -61,3 +61,50 @@ def test_the_content_hash_ignores_provenance_the_validation_report_and_the_recor
     moved = {**one, "validation/gates-report.json": b"{}", "records/x.json": b"{}"}
     assert compiled_content_hash(moved) == compiled_content_hash(one)
     assert compiled_content_hash({**one, "compiled/prompt.txt": b"changed"}) != compiled_content_hash(one)
+
+
+def _package(root, files: dict[str, bytes], world="w"):
+    import json as _json
+    from engine.m2.canonical import sha256_prefixed
+    root.mkdir(parents=True)
+    for rel, content in files.items():
+        (root / rel).parent.mkdir(parents=True, exist_ok=True)
+        (root / rel).write_bytes(content)
+    manifest = {"world_key": world, "files": {rel: sha256_prefixed(c) for rel, c in files.items()}}
+    (root / "manifest.json").write_text(_json.dumps(manifest))
+    return manifest
+
+
+def test_a_legacy_report_counts_through_its_package_binding(tmp_path):
+    import json as _json
+    from engine.m2.manifest import manifest_hash
+    from engine.m3 import admission_conform as ac
+    manifest = _package(tmp_path / "old", {"compiled/prompt.txt": b"the world"})
+    bindings = tmp_path / "bindings.json"
+    ac.bind([tmp_path / "old"], "abc123", path=bindings)
+    old = manifest_hash(manifest)
+    reports_dir = tmp_path / "reports"
+    reports_dir.mkdir()
+    (reports_dir / "live-admission-report-w.json").write_text(_json.dumps({
+        "run_settings": {"package_manifest_hash": {"w": old}, "shape_hash": SHAPE},
+        "worlds": {"w": {"battery_size": 28, "pass_count": 28, "per_probe": []}},
+    }))
+    original = ac.REPO_ROOT
+    ac.REPO_ROOT = tmp_path
+    try:
+        reports = ac.load_reports(reports_dir, bindings=ac.load_bindings(bindings))
+    finally:
+        ac.REPO_ROOT = original
+    registry = {"w": {"state": "admitted", "package": {"manifest_hash": "sha256:new", "location": "x"}}}
+    pinned = ac.load_bindings(bindings)[old]
+    assert check(registry, reports, [], shape=SHAPE, compiled_of=lambda e: pinned) == []
+    assert check(registry, reports, [], shape=SHAPE, compiled_of=lambda e: "sha256:other")
+
+
+def test_bind_refuses_a_package_whose_files_do_not_match_its_manifest(tmp_path):
+    import pytest
+    from engine.m3 import admission_conform as ac
+    _package(tmp_path / "old", {"compiled/prompt.txt": b"the world"})
+    (tmp_path / "old" / "compiled" / "prompt.txt").write_bytes(b"changed")
+    with pytest.raises(ValueError):
+        ac.bind([tmp_path / "old"], "abc123", path=tmp_path / "bindings.json")

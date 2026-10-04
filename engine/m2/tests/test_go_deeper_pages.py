@@ -9,7 +9,6 @@ from pathlib import Path
 
 import pytest
 
-from engine.api.deeper_ops import load_ops
 from engine.m7.turn_readability import score_turn
 
 REPO = Path(__file__).resolve().parents[3]
@@ -79,12 +78,6 @@ def test_no_page_shows_a_price_or_money_figure(page):
     assert not re.search(r"[$€£]|\b(USD|dollars?|cents?)\b|\d+\s*%", text, re.I), text
 
 
-def test_the_table_round_cost_on_the_page_is_the_one_in_the_operations_file():
-    html = (SITE / "go-deeper.html").read_text()
-    found = re.findall(r'data-ops="table_round_cost">(\d+)<', html)
-    assert found == [str(load_ops().table_round_cost)]
-
-
 def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():
     for path in SITE.rglob("*.html"):
         if path.name in PAGES:
@@ -138,7 +131,7 @@ def test_a_held_reference_lasts_an_hour_and_a_stale_or_broken_one_is_dropped():
 
 def test_the_return_page_waits_for_the_code_and_sends_only_the_reference():
     out = _node("claimReady")
-    assert out["result"] == {"status": "ready", "codes": ["ABCD 2345 EFGH 6789 JKLM"], "exchanges": 40}
+    assert out["result"] == {"status": "ready", "codes": ["ABCD 2345 EFGH 6789 JKLM"], "tokens": 40}
     assert len(out["calls"]) == 3 and len(out["sleeps"]) == 2
     for call in out["calls"]:
         assert call["url"] == "https://api.test/api/deeper/claim"

@@ -162,7 +162,7 @@ pass to act on, not acquired now.
 
 ---
 
-## B-1a — discovery sweep: full record at `records/cappadocian/search_record/cappadocian.search.unopened-volume-sweep.md`
+## B-1a — discovery sweep: full record at `Build/worlds/cappadocian/build/records/search_record/cappadocian.search.unopened-volume-sweep.md`
 
 **Scope, as this world's actual sourcing history requires:** no live web
 search was possible at any point in this build — every vendored text came

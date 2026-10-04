@@ -210,11 +210,11 @@ Registry row and a source record.
 
 ## B-1a — discovery sweep of the vendored library
 
-**Full search record:** `records/don/search_record/don.search.unrowed-vendored-sweep.md`.
+**Full search record:** `Build/worlds/don/build/records/search_record/don.search.unrowed-vendored-sweep.md`.
 This is also the first search_record this world has ever had — the Registry's
-own Discovery methodology note states plainly that no `records/don/search_record/`
+own Discovery methodology note states plainly that no `Build/worlds/don/build/records/search_record/`
 was kept during the build and that "a future pass that wants that discipline for
-this world would need to open `records/don/search_record/` going forward." This
+this world would need to open `Build/worlds/don/build/records/search_record/` going forward." This
 pass opens it.
 
 **Live web search: available and used.** Unlike Cappadocian, where no live

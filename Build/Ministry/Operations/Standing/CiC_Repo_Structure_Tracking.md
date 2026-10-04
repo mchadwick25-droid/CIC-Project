@@ -906,3 +906,11 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 **Context.** The Doc_01 batch for six worlds (library-thread branch, PR 605) was written before `hus` and `jes` had registry codes. Both worlds have since been built further on `main`: `hus` Doc_01 is approved to proceed after five independent review rounds and `jes` after three. The project lead ruled that `main`'s versions stand.
 
 **Action.** The batch's older Doc_01 drafts and their review files for the two worlds moved to `Archive/Superseded-World-Drafts-PR605/hus/` and `.../jes/`. Nothing was deleted. Root `README.md` line for `Archive/` now names the category. The batch's other four worlds (Anabaptist, Devotio Moderna, Lollardy, Tridentine) landed under `Build/World-Builds/<name>/`.
+
+---
+
+## 2026-10-04 — Freeze window for slice 9: non-world record kinds leave the worlds
+
+**Context.** Decision 8 of the conversation-system design moves the record kinds that are not world material out of the worlds. `records/` and `Build/worlds/` are hot trees, so the project lead declared a freeze window for the moves on 2026-10-04.
+
+**Action.** Fleet records: `records/_fleet/` → `engine/shape/records/` (fleet voice), `engine/canon/records/` (canon questions), `engine/m5/records/` (modern term, its contested claim and two sources), System Hub decision 44. World fronts and facilitator briefs: `records/<code>/{world_front,facilitator_brief}/` → `Build/worlds/<code>/surface/`. Search records: `records/<code>/search_record/` → `Build/worlds/<code>/build/records/search_record/`. lpc and ambient records are parked and untouched. `records/_fleet` is in `tools/retired_paths.txt`. Each old prefix is in the new `tools/moved_paths.txt`, so an older document's citation of an old path stands only while the file exists at its new home. The M1 gate `record-home` fails any of these kinds written to its old place. Root `README.md` lines for `records/` and `Build/worlds/` updated.
