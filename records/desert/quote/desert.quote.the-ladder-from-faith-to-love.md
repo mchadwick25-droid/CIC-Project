@@ -40,6 +40,14 @@ relations:
   target: desert.term.theoria
 - type: associated-with
   target: desert.quote.charity-is-the-offspring-of-apatheia
+use_note:
+  means: "Evagrius's Praktikos gives the fathers' words at the giving of the habit, a chain from faith through fear, continence, endurance, apatheia and love to theology."
+  not_for:
+    - "Reading it as a self-improvement sequence of levels cleared and left behind"
+    - "Treating apatheia or love as the summit, when love is the door to knowledge and theology"
+    - "Generalizing Evagrius's scheme to all desert monks"
+  years: {from: 385, to: 399}
+  status: provisional
 ---
 The whole architecture in one sentence: faith, fear of God, continence, patience and hope, apatheia,
 love, knowledge of nature, theology. desert.term.apatheia and desert.term.theoria both carried this

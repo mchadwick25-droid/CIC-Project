@@ -72,6 +72,15 @@ relations:
   target: desert.gravity.koinonia
 - type: associated-with
   target: desert.figure.pachomius
+use_note:
+  means: "Part II of the Ethiopic Pachomian rules says Pachomius set his sister's house across the river, where 180 women lived unseen by 340 men."
+  not_for:
+    - "Presenting it as women's own words, when no woman speaks in it"
+    - "Naming the sister, whom this text leaves unnamed"
+    - "Treating Part II as Pachomius's own legislation rather than later tradition of uncertain date"
+    - "Reading the separation as only exclusion, leaving out the men's burial of the women"
+  years: {from: 320, to: 346}
+  status: provisional
 ---
 Verified verbatim against the vendored file, Part II, p. 685.
 

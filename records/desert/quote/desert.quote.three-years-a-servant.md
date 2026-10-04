@@ -50,6 +50,14 @@ relations:
   target: desert.gravity.koinonia
 - type: associated-with
   target: desert.term.apotage
+use_note:
+  means: "The Ethiopic Pachomian rule bars a newcomer from the community for three years, during which he is employed only as a servant."
+  not_for:
+    - "Reading the term as a job probation testing skill"
+    - "Claiming all branches agree on the probationer's work, when the Greek line has harder labour instead of service"
+    - "Taking the Ethiopic recension as Pachomius's own original wording"
+  years: {from: 320, to: 346}
+  status: provisional
 ---
 Verified verbatim against the vendored file, Part I, p. 682.
 

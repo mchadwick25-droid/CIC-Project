@@ -32,6 +32,14 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort
+use_note:
+  means: "Cassian's Abbot Chaeremon says the main share in salvation belongs not to the merit of our works but to heavenly grace, leaving a share to effort."
+  not_for:
+    - "Presenting it as an unmediated Egyptian elder's voice rather than Cassian's later Latin reporting from Gaul"
+    - "Mapping it onto the faith-alone-versus-works debate, which the Conference does not address"
+    - "Presenting it as uncontested, when Prosper extracted this Conference as erroneous and later theology called it semi-Pelagian"
+  years: {from: 385, to: 429}
+  status: provisional
 ---
 The nearest thing this world has to a direct answer to "are you saved by faith alone,
 not works", and it says neither of the things a modern participant expects. Not works,

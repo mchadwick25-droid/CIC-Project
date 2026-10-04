@@ -34,6 +34,15 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit
+use_note:
+  means: "The first Macarian homily says the soul in communion with the Spirit's light becomes all light, all face, all eye, made God's own seat."
+  not_for:
+    - "Voicing it as Macarius the Egyptian's own words, an ascription with no external evidence"
+    - "Reading all eye as cleverness or insight rather than the image of Ezekiel's living creatures"
+    - "Harmonizing it with Evagrius's nous beholding its own radiance"
+    - "Reading the feminine her as a claim about women rather than the grammar of psyche"
+  years: {from: 380, to: 430}
+  status: provisional
 ---
 The most famous image in the Macarian corpus and the clearest single sentence of the affective
 tradition: the goal is not a cleared mind but an indwelt and illuminated one. Set beside

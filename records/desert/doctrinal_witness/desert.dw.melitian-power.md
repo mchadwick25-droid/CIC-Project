@@ -44,6 +44,14 @@ tensions:
 relations:
 - type: associated-with
   target: desert.quote.never-held-communion-with-the-schismatics
+use_note:
+  means: "This witness admits that monks of Antony's communion refused Melitian ascetics recognition, while surviving Melitian letters show ordinary monastic business."
+  not_for:
+    - "Asserting documented persecution of the Melitians"
+    - "Claiming Melitian practice matched the mainstream, which is an unverified assumption"
+    - "Justifying the refusal as the right side of the schism"
+  years: {from: 330, to: 360}
+  status: provisional
 ---
 Drawn directly from desert.force.melitian-rivalry, whose own body
 states the corpus's honest position: silence read as informative rather

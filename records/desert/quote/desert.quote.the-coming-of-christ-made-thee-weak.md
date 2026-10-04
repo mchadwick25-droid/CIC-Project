@@ -37,6 +37,13 @@ relations:
   target: desert.story.antony-tomb-combat
 - type: associated-with
   target: desert.gravity.spiritual-combat
+use_note:
+  means: "Athanasius's Life of Antony has Antony tell the devil that the coming of Christ has made him weak, cast him down and stripped him."
+  not_for:
+    - "Treating the exchange as a verbatim record of Antony rather than speech inside Athanasius's narrative"
+    - "Reading stripped as psychological relief rather than a claim about what demons can actually do"
+  years: {from: 305, to: 356}
+  status: provisional
 ---
 The Christological claim that actually organises this world's daily practice. The whole
 discipline of watching and answering thoughts (desert.term.logismoi,

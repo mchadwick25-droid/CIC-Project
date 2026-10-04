@@ -64,6 +64,14 @@ relations:
   target: desert.dw.god
 - type: associated-with
   target: desert.dw.grace-and-effort
+use_note:
+  means: "This witness reports the Macarian current of felt grace, a Spirit-indwelt soul, a deep heart and sin persisting beside grace, as distinct from Evagrius."
+  not_for:
+    - "Voicing it as one of us said or as Macarius the Egyptian's own teaching"
+    - "Harmonizing it with Evagrius into a single desert teaching"
+    - "Presenting it as uncontroversial, when propositions from these homilies were condemned as Messalian"
+  years: {from: 380, to: 430}
+  status: provisional
 ---
 This record closes a gap that was total rather than partial: before
 it, no record in this world mentioned the Holy Spirit at all, while

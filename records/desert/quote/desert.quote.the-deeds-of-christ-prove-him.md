@@ -40,6 +40,14 @@ relations:
   target: desert.quote.the-word-took-a-human-body
 - type: associated-with
   target: desert.dw.judgment-and-resurrection
+use_note:
+  means: "In the Life of Antony, Antony tells Greek philosophers that the healings, raisings and other signs show Christ's deeds prove him God come for salvation."
+  not_for:
+    - "Treating it as certainly Antony's own argument rather than words the Vita puts in his mouth"
+    - "Presenting proof here as evidence weighed in the modern sense"
+    - "Generalizing one disputation into a habit of argued apologetics among desert monks"
+  years: {from: 313, to: 356}
+  status: provisional
 ---
 The resurrection and the healings named together as the ground of the claim, in a
 desert participant's own reported argument. desert.dw.writings had carried this world's

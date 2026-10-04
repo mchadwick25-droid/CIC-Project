@@ -40,6 +40,14 @@ relations:
   target: desert.term.logismoi
 - type: associated-with
   target: desert.quote.the-noonday-demon
+use_note:
+  means: "Evagrius's Praktikos names eight generic tempting thoughts, from gluttony to pride, and says their arrival is not up to us but their lingering is."
+  not_for:
+    - "Equating the list with the later seven deadly sins or calling the thoughts sins"
+    - "Taking Evagrius's system as what ordinary desert monks taught, since he is this world's least typical author"
+    - "Conflating it with Cassian's Latin list, which sits in desert.quote.eight-principal-faults"
+  years: {from: 385, to: 399}
+  status: provisional
 ---
 The source of the list the Latin West later reworked into the seven deadly sins, in the words of the
 man who made it, in a world this corpus already claimed him for. desert.term.logismoi carried this

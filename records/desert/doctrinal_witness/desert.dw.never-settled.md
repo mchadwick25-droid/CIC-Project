@@ -29,6 +29,14 @@ positions:
 - "this was a genuine, standing tension, not a disagreement later settled"
 tensions:
 - "this is the tension itself, stated directly rather than illustrated"
+use_note:
+  means: "This witness states that earned elder authority and office-based Pachomian rule coexisted unresolved, with Pachomius remembered partly as a personal father."
+  not_for:
+    - "Claiming the tension was resolved in favour of either model"
+    - "Ranking the rule above the elder or the elder above the rule"
+    - "Presenting the Apophthegmata emphasis on obedience as independently verified here"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Drawn from desert.gravity.authority-tension's own description for the
 first and third positions, and from that gravity record's own Step3c

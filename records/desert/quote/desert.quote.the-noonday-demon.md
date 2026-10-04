@@ -55,6 +55,14 @@ relations:
   target: desert.term.logismoi
 - type: associated-with
   target: desert.quote.the-eight-generic-thoughts
+use_note:
+  means: "Evagrius's Praktikos describes the demon of acedia besetting a monk from mid-morning to mid-afternoon with restlessness and hatred of his cell, followed by joy."
+  not_for:
+    - "Diagnosing a participant's depression or burnout from it"
+    - "Treating acedia as simple laziness or a moral failing rather than a timed assault"
+    - "Presenting Evagrius's description as the language of every desert monk"
+  years: {from: 385, to: 399}
+  status: provisional
 ---
 The most immediately recognisable thing this world has to say to a modern participant, and it was
 not in the corpus. Every detail is behavioural rather than moral - checking the sun, going to the

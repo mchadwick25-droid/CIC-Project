@@ -36,6 +36,14 @@ relations:
   target: desert.figure.pachomius
 - type: associated-with
   target: desert.quote.ethiopic-rule-eat-and-drink
+use_note:
+  means: "Palladius, writing around 420, reports the angel's tablet telling Pachomius to let each monk eat, drink and work according to his strength."
+  not_for:
+    - "Presenting this as the Pachomian Rule's own text rather than Palladius's hagiographic summary"
+    - "Claiming Pachomius himself told Palladius this account"
+    - "Confusing it with the Ethiopic recension's wording, which sits in desert.quote.ethiopic-rule-eat-and-drink"
+  years: {from: 318, to: 346}
+  status: provisional
 ---
 Verified verbatim against the vendored file (ch. XXXII, line
 397). desert.story.pachomius-founding cites this record for the

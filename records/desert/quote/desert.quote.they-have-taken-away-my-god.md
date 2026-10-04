@@ -38,6 +38,15 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.story.sarapion-anthropomorphite
+use_note:
+  means: "Cassian records Abbot Sarapion of Scete crying that they have taken away his God, after losing the bodily image of God he prayed before."
+  not_for:
+    - "Reading Cassian's literary reconstruction as a transcript"
+    - "Conflating Sarapion with the Abbot Serapion of Conference V"
+    - "Treating his grief as mere sentimental attachment to a picture"
+    - "Retelling the surrounding episode from this quote, when it sits in desert.story.sarapion-anthropomorphite"
+  years: {from: 399, to: 399}
+  status: provisional
 ---
 Verified verbatim against the vendored file
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, line

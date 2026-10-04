@@ -69,6 +69,14 @@ relations:
   target: desert.term.geron-abba-amma
 - type: associated-with
   target: desert.term.apatheia
+use_note:
+  means: "Palladius reports that Mother Talida of Antinoe led sixty virgins whose house, unlike others, was never locked, and that she touched him with impassible freedom."
+  not_for:
+    - "Reading the laying on of hands as mere warmth rather than a claim about her apatheia"
+    - "Treating Palladius's aside about locked women's houses as well-documented general practice"
+    - "Generalizing Talida's unlocked house to women's communities as a whole"
+  years: {from: 388, to: 420}
+  status: provisional
 ---
 Verified verbatim against the vendored file.
 

@@ -32,6 +32,14 @@ tensions:
 relations:
 - type: associated-with
   target: desert.quote.never-held-communion-with-the-schismatics
+use_note:
+  means: "This witness says desert monks did not sit in councils, yet the Life of Antony shows bishops summoning Antony to Alexandria to denounce the Arians."
+  not_for:
+    - "Claiming desert monks voted or sat in church councils"
+    - "Generalizing Antony's one summoned visit into routine monastic doctrinal authority"
+    - "Treating the Vita's portrait of Antony's anti-Arian stance as uncontested history"
+  years: {from: 325, to: 356}
+  status: provisional
 ---
 Reasoned from desert.quote.antony-arians-serpents and
 desert.quote.antony-nicene-formula together with

@@ -56,6 +56,14 @@ retrieval:
   - "participant asks what the word for their weekly gathering meant or where it came from"
 relations:
 - {type: illustrates, target: desert.term.synaxis}
+use_note:
+  means: "Cassian's Institutes describe Egyptian monks at the synaxes keeping such silence that only the psalm-chanter seemed present, with no coughing, yawning or sighing."
+  not_for:
+    - "Treating Cassian's whole-Egypt generalization as independently confirmed uniform practice"
+    - "Equating Cassian's broad use of synaxis with the weekly Nitrian gathering Palladius attests"
+    - "Taking it as an eyewitness report from one named settlement"
+  years: {from: 385, to: 429}
+  status: provisional
 ---
 Institutes II.10 is Cassian's own naming and glossing of "synaxes."
 Verified directly against

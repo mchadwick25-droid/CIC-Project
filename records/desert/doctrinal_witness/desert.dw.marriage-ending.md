@@ -35,6 +35,14 @@ relations:
   target: desert.dw.someone-like-me
 - type: associated-with
   target: desert.dw.only-true-religion
+use_note:
+  means: "This witness retells Palladius on Paul the Simple, who left his unfaithful wife and was received by Antony despite being sixty years old."
+  not_for:
+    - "Generalizing one betrayed husband into a desert rule on divorce or remarriage"
+    - "Answering whether outsiders were condemned, which desert.limit.outsiders-condemned covers"
+    - "Treating Palladius's thirdhand account as Paul's own testimony"
+  years: {from: 305, to: 356}
+  status: provisional
 ---
 Palladius ch. XXII (Paul the Simple), verified directly against the
 vendored file. This chapter falsifies a claim that "marriage is simply

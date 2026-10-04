@@ -39,6 +39,14 @@ tensions:
 relations:
 - type: associated-with
   target: desert.quote.an-old-man-in-the-next-village
+use_note:
+  means: "This witness says desert practice claimed no apostolic line but grew from older village asceticism, as the Life of Antony shows Antony imitating an old hermit."
+  not_for:
+    - "Claiming an unbroken institutional line from the apostles"
+    - "Making Antony the inventor of monasticism from nothing"
+    - "Overstating the predecessor practice, which is thinly documented"
+  years: {from: 269, to: 285}
+  status: provisional
 ---
 Drawn directly from desert.force.village-ascetic-culture and
 desert.gravity.withdrawal's own generating-force framing. Answers the
