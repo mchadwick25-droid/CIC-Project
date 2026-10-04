@@ -1386,3 +1386,13 @@ Still switched off behind the flag; with the module off nothing changes.
 - **A fault never reopens a closed door.** If admission itself fails, the engine is handed a grant that keeps to the door: a refusal when free voice is closed, otherwise a free grant no longer than the door's rounds allow. The operations file refuses a free-day share of 0 (a closed free path is a stage, not a share). A restart with the usage log down still finds the door where it was left.
 - **Wiring.** The runtime builds the door when it is given the usage log (the real app is); tests without it have no door. `GET /api/admin/deeper/door` shows Mark the stage, ratio, ceiling and whether free and paid voice are open.
 - **Words:** a closed door shows existing lines only (no-code for a closed free path, the paused line for a closed paid path). A line of its own for a closed door is Mark's to approve; candidates when he wants them. The public one-line door state on the home and Get Involved pages is a later slice with Mark's words.
+
+## 2026-10-04 — Go Deeper S5d: the public line about the free conversations (words approved by Mark)
+
+Still switched off behind the flag. With the module off no route exists, so the pages show nothing and their one request gets a 404.
+
+- **Ruled by Mark, 2026-10-04: the line shows only when the door has narrowed.** Nothing shows while the door is wide open.
+- **His words, kept in the operations file** (`words.door`): "Free conversations are limited this week. Gifts keep them open — give at Get Involved." while the free path is narrowed; "Free conversations are paused until the week turns. A code still works." when free voice is closed. His second sentence is stored as its own line so it can be left off at the last stage, when codes are refused too and "a code still works" would be untrue. At that stage only the first sentence shows. If Mark wants a line of his own for that stage, it is a words change in the operations file.
+- **What the route sends:** `GET /api/deeper/door` returns the state name and the line, nothing else: no stage number, no ratio, no ceiling, no money. It may be kept for a minute.
+- **Where it shows:** a hidden line under the headline on the home page and on Get Involved, filled by `assets/door-line.js` only when the server sends one. Any failure leaves the page as it was.
+- **A test rule refined:** the page test that kept the site from linking to the Go Deeper pages now forbids links to those pages, not the shared address file the home and Get Involved pages also load.
