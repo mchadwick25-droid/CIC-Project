@@ -17,7 +17,7 @@ confidence:
 sources:
 - source_id: pahc.source.ignatius-letters
   locus: >-
-    Letter to the Ephesians, ch. VII, in the short recension (anf01_apostolic-fathers-justin-irenaeus.xml)
+    Letter to the Trallians, ch. VII, in the shorter version (anf01 v.iv.vii, line 6509)
   license: public-domain
 text: >-
   Be on your guard, therefore, against such persons. And this will be the case with you if you are not puffed up, and continue in intimate union with Jesus Christ our God, and the bishop, and the enactments of the apostles.
@@ -25,7 +25,7 @@ modern_rendering: >-
   So be on your guard against such people. This will be true for you if you are not puffed
   up with pride, and if you continue in close union with Jesus Christ our God, with the
   bishop, and with the apostles' teachings.
-speaker_or_author: Ignatius of Antioch, to the Ephesians
+speaker_or_author: Ignatius of Antioch, to the Trallians
 license: verbatim
 modern_lens_note: >-
   \"Our God\" is said in passing, inside a warning about factions, which is exactly what makes it evidence: this is not an argument that Jesus is God but a man writing as though nobody needed convincing. Note also what he strings together - Christ, the bishop, the apostles' enactments - as though they were one thing to stay attached to.

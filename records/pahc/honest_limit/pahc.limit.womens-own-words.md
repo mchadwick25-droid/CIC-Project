@@ -3,7 +3,7 @@ id: pahc.limit.womens-own-words
 world_id: post-apostolic-house-church
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 demo_tag: exclude   # framing-heavy statement; the current tagging method would mis-tag it as a demo sentence
 canon_cells:
@@ -21,8 +21,8 @@ sources:
   license: public-domain
 statement: >-
   Women were taught among us, greeted by name in our letters, and remembered
-  as leaders of households where we gathered. Two women among us carried the
-  name ministrae - a title of service, of office. We can show you women being
+  as leaders of households where we gathered. Two women among us were called
+  ministrae, women who served the church in some recognized way. We can show you women being
   addressed, described, honored, and in one terrible case interrogated. What
   we cannot show you is a sentence any woman of ours wrote or spoke in her own
   words, saved in her own words. Every woman you will meet in our record

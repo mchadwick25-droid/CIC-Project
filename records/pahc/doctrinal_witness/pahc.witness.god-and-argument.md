@@ -34,7 +34,7 @@ retrieval:
   - "participant asks about church councils"
 relations:
 - type: associated-with
-  target: pahc.quote.those-who-lived-reasonably-are-christians
+  target: pahc.quote.justin-reasonable-livers
 - type: associated-with
   target: pahc.contested.two-strand-packaging
 - type: associated-with

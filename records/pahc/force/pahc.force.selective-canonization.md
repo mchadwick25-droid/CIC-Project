@@ -4,6 +4,7 @@ world_id: post-apostolic-house-church
 record_type: force
 schema_version: 2
 status: ready
+voice: analytic
 register: etic
 canon_cells:
 - F2-E

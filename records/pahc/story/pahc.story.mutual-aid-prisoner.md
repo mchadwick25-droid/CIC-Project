@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Inferential-Thin
-  divergence_note: "Inferential-Thin always, per Tier 4. Lucian's own account is not vendored in this world's own registry (see pahc.source.lucian-peregrinus: 'PARAPHRASE-ONLY for quote purposes') - its content is told here in paraphrase, without quotation marks, for that reason. Tertullian's Apology 39 is vendored and verified-direct, and is quoted directly where used. The Lucian-Tertullian cross-text link is this project's own interpretive synthesis (inherited from Doc_02 SS6), not a claim either ancient author responds to the other."
+  divergence_note: "Inferential-Thin always, per Tier 4. Lucian's account is told here in paraphrase; his own words, from the vendored Peregrinus, are quoted in pahc.quote.lucian-orphans-and-widows and pahc.quote.lucian-all-brothers. Tertullian's Apology 39 is vendored and verified-direct, and is quoted directly where used. The Lucian-Tertullian cross-text link is this project's own interpretive synthesis (inherited from Doc_02 SS6), not a claim either ancient author responds to the other."
 sources:
 - source_id: pahc.source.lucian-peregrinus
   locus: "12-13"

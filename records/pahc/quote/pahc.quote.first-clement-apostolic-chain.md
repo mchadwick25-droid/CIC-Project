@@ -17,22 +17,17 @@ sources:
 - source_id: pahc.source.first-clement
   locus: "42"
   license: public-domain
-text: "The apostles have preached the Gospel to us from the Lord Jesus Christ; Jesus Christ [has done so] from God. Christ therefore was sent forth by God, and the apostles by Christ... And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe."
+text: "The apostles have preached the Gospel to us from the Lord Jesus Christ; Jesus Christ [has done so] from God. Christ therefore was sent forth by God, and the apostles by Christ. Both these appointments, then, were made in an orderly way, according to the will of God."
 modern_rendering: >-
   The apostles preached the Gospel to us from the Lord Jesus Christ. Jesus Christ did the
-  same from God. So Christ was sent by God, and the apostles were sent by Christ...
-  Preaching in this way through countries and cities, they appointed the first-fruits of
-  their labor as bishops and deacons of those who would afterward believe, having first
-  tested them by the Spirit.
+  same from God. So Christ was sent by God, and the apostles were sent by Christ. Both of
+  these appointments, then, were made in good order, by the will of God.
 speaker_or_author: "pahc.figure.church-of-rome"
 license: verbatim
-modern_lens_note: >
-  "Bishops and deacons" reads to a modern ear as already-fixed,
-  ordained clerical offices with defined duties. Here episkopoi and
-  diakonoi name roles still taking shape, not yet the settled offices
-  later centuries built from this same vocabulary. "First-fruits" is an
-  agricultural/sacrificial image (the earliest portion of a harvest,
-  set apart), not a literal description of produce.
+modern_lens_note: >-
+  "Appointments" here are the two sendings - Christ by God, the apostles by Christ - not church
+  offices. The bishops and deacons the apostles went on to appoint come a few lines later, and are
+  quoted in pahc.quote.they-appointed-the-first-fruits.
 retrieval:
   tier: 2
   retrieve_when:
@@ -42,9 +37,9 @@ relations:
 - type: associated-with
   target: pahc.quote.they-appointed-the-first-fruits
 use_note:
-  means: "Rome's letter traces a chain of sending from God to Christ to the apostles, who appointed Spirit-tested converts as bishops and deacons."
+  means: "Rome's letter traces an orderly chain of sending, by God's will, from God to Christ and from Christ to the apostles."
   not_for:
-    - "a claim that bishops and deacons were already fixed, ordained clerical offices with defined duties"
+    - "a claim that this passage names bishops or deacons; the apostles' appointing them is pahc.quote.they-appointed-the-first-fruits"
     - "a claim that each church was led by a single bishop"
   years: {from: 80, to: 140}
   status: reviewed

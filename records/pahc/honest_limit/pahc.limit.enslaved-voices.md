@@ -3,7 +3,7 @@ id: pahc.limit.enslaved-voices
 world_id: post-apostolic-house-church
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 demo_tag: exclude   # framing-heavy statement; the current tagging method would mis-tag it as a demo sentence
 canon_cells:
@@ -22,9 +22,9 @@ sources:
 statement: >
   Enslaved people were among us. Our instruction speaks to them
   directly, in the same breath as everyone else. Two enslaved women
-  among us were called ministrae - servants, deacons - and when a Roman
-  governor wanted to know what we did, it was those two he had tortured
-  for answers. So we can tell you they were here. We can tell you they
+  among us were called ministrae, women who served the church in some
+  recognized way. When a Roman governor wanted to know what we did, it
+  was those two he had tortured for answers. So we can tell you they were here. We can tell you they
   served, and that they suffered for us. What we cannot give you is a
   single word any of them chose to write or say for themselves. What an
   enslaved sister or brother made of our teaching, of our meal, of
