@@ -34,7 +34,7 @@ from engine.deeper.claims import ClaimStore, valid_reference
 from engine.deeper.config import DeeperConfig
 from engine.deeper import meter as meter_module
 from engine.deeper.meter import KINDS, AlreadyMinted, Meter, PaymentVoided
-from engine.deeper.free import DailyFreeAllowance
+from engine.deeper.free import FreeAllowance
 from engine.deeper.tokens import TokenRates
 
 logger = logging.getLogger("cic.deeper")
@@ -96,7 +96,7 @@ class DeeperRuntime:
     ops: DeeperOps | None = None
     facilitator_only_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
     paid_sessions: "BoundedSet" = field(default_factory=lambda: BoundedSet())
-    free: DailyFreeAllowance | None = None
+    free: FreeAllowance | None = None
     gift_links: frozenset = frozenset()
     door: "DoorMonitor | None" = None
     door_observe: bool = False
@@ -104,7 +104,7 @@ class DeeperRuntime:
 
     def __post_init__(self):
         if self.free is None:
-            self.free = DailyFreeAllowance(self.token_rates.free_daily)
+            self.free = FreeAllowance(self.meter, self.token_rates.free_window)
 
 
 def parse_gift_links(raw: str | None, products: dict[str, Product]) -> frozenset:
@@ -511,18 +511,18 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
 def build_runtime(config: DeeperConfig, env: dict, ops: DeeperOps | None = None, usage_store=None) -> DeeperRuntime:
     """The runtime for a deploy with the flag on. A missing webhook secret
     refuses to start rather than leaving the webhook open, and so does a
-    deploy without the visitor cap, which the free day depends on."""
+    deploy without the visitor cap, which the free allowance depends on."""
     secret = env.get("CIC_DEEPER_WEBHOOK_SECRET")
     if not secret:
         raise DeeperConfigError("CIC_DEEPER_ENABLED is on but CIC_DEEPER_WEBHOOK_SECRET is unset")
     if env.get("CIC_API_ANON_CAP_ENABLED", "") not in ("1", "true", "yes"):
         raise DeeperConfigError(
-            "CIC_DEEPER_ENABLED is on but CIC_API_ANON_CAP_ENABLED is off: the free day is kept per visitor, "
+            "CIC_DEEPER_ENABLED is on but CIC_API_ANON_CAP_ENABLED is off: the free allowance is kept per visitor, "
             "and without the visitor cookie everyone behind one address would share it"
         )
     ops = ops or load_ops()
     products = parse_products(env.get("CIC_DEEPER_PRODUCTS"))
-    meter = Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling)
+    meter = Meter(config.meter_db_path, group_daily_ceiling=ops.group_daily_ceiling, free_window_days=ops.rates.free_window_days)
     door = None
     if usage_store is not None:
         door = DoorMonitor(

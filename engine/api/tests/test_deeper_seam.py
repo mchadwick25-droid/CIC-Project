@@ -20,7 +20,7 @@ from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety
 from engine.deeper import codes, tokens
 from engine.deeper import door as door_module
 from engine.deeper.claims import ClaimStore
-from engine.deeper.free import DailyFreeAllowance
+from engine.deeper.free import FreeAllowance
 from engine.deeper.meter import Meter
 
 FREE_CAP = 2
@@ -82,7 +82,7 @@ SHIPPED_TABLE_ROUND_CAP = _round_module.TABLE_SESSION_ROUND_CAP
 
 @pytest.fixture
 def shipped_caps(monkeypatch):
-    """The engine's own free caps, as shipped, for the tests that prove the free day on top of them."""
+    """The engine's own free caps, as shipped, for the tests that prove the free window on top of them."""
     monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", SHIPPED_SESSION_TURN_CAP)
     monkeypatch.setattr("engine.m4.round.TABLE_SESSION_ROUND_CAP", SHIPPED_TABLE_ROUND_CAP)
 
@@ -151,9 +151,9 @@ def test_the_voice_request_is_identical_off_free_and_paid_at_a_turn_past_the_fre
     free = RecordingClient()
     run_sitting(build(store, usage_store, world_loader, registry, free, deeper=runtime), turns)
     requests["on_free"] = free.voice_requests[turns - 1]
-    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily - solo_charge(runtime, 1, turns)
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, turns)
 
-    runtime.free = DailyFreeAllowance(runtime.token_rates.free_daily)
+    runtime.free = FreeAllowance(runtime.meter, runtime.token_rates.free_window)
     monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", 1)
     paid = RecordingClient()
     spare = 5
@@ -357,9 +357,9 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http)
         runtime.facilitator_only_sessions.add(session_id)
-    elif name == "free_day_spent":
+    elif name == "free_allowance_spent":
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
-        runtime.free.settle(runtime.free.reserve("ip:testclient", runtime.token_rates.free_daily), True)
+        runtime.free.settle(runtime.free.reserve("ip:testclient", runtime.token_rates.free_window), True)
         session_id, auth = open_session(http)
     elif name == "door_free_closed":
         runtime.door = StubDoor(free_voice=False)
@@ -392,7 +392,7 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
 
 LIMITS = [
     "session_limit", "daily_limit", "free_cap", "zero_balance", "paused", "wrong_code", "module_error", "facilitator_only",
-    "free_day_spent", "free_rounds_done", "door_free_closed", "door_paid_closed", "paid_round_cap",
+    "free_allowance_spent", "free_rounds_done", "door_free_closed", "door_paid_closed", "paid_round_cap",
 ]
 SAFETY_LIMITS = [*LIMITS, "observe_closed"]
 SAFETY = [
@@ -942,7 +942,7 @@ def test_the_voice_requests_are_identical_for_a_table_round_past_the_free_rounds
 
     off = run(None, None, 5)
     free = run(runtime, None, 5)
-    runtime.free = DailyFreeAllowance(runtime.token_rates.free_daily)
+    runtime.free = FreeAllowance(runtime.meter, runtime.token_rates.free_window)
     paid = run(runtime, code_with(runtime, 2 * table_charge(runtime, 2)), 1)
     assert off and off == free == paid
 
@@ -970,7 +970,7 @@ def test_a_reply_counts_as_spoken_exactly_when_it_adds_a_pair_to_the_memory_the_
     assert _spoke(voice) == (len(history) // 2 == 1)
 
 
-# ---- the free day: three rounds a conversation, a day's worth of tokens -------------
+# ---- the free window: three rounds a conversation, a day's worth of tokens -------------
 
 def run_free_conversation(http, rounds, **headers):
     session_id, auth = open_session(http, **headers)
@@ -995,20 +995,20 @@ def test_with_the_module_off_a_conversation_still_runs_to_the_engines_own_cap(st
     assert all(r.json()["voice"] is not None for r in replies)
 
 
-def test_three_free_conversations_use_the_free_day_and_a_fourth_is_refused_until_a_code_carries_it(
+def test_five_free_conversations_use_the_free_window_and_a_sixth_is_refused_until_a_code_carries_it(
     store, usage_store, world_loader, registry, runtime, shipped_caps
 ):
     client = RecordingClient()
     http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
-    for _ in range(3):
+    for _ in range(5):
         run_free_conversation(http, 3)
     assert runtime.free.remaining("ip:testclient") == 0
     session_id, auth = open_session(http)
-    refused = say(http, session_id, auth, "a fourth conversation")
+    refused = say(http, session_id, auth, "a sixth conversation")
     assert refused.json()["voice"] is None and refused.json()["limit_note"]["key"] == "no_code"
     code = code_with(runtime, solo_charge(runtime, 1))
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
-    carried = say(http, session_id, auth, "a fourth conversation")
+    carried = say(http, session_id, auth, "a sixth conversation")
     assert carried.json()["voice"] is not None
     assert carried.headers["x-cic-remaining"] == "0"
 
@@ -1022,19 +1022,19 @@ def test_a_code_carries_a_conversation_past_its_third_free_round_at_the_later_pr
     _, _, replies = run_free_conversation(http, 5, **{"X-Cic-Code": code})
     assert all(r.json()["voice"] is not None for r in replies)
     assert runtime.meter.status(code).remaining == spare
-    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily - solo_charge(runtime, 1, 3)
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, 3)
 
 
 def test_a_failed_voice_call_gives_the_free_tokens_back(store, usage_store, world_loader, registry, runtime, shipped_caps):
     http = build(store, usage_store, world_loader, registry, RecordingClient(voice_fails=True), deeper=runtime)
     session_id, auth = open_session(http)
     say(http, session_id, auth, "hello")
-    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window
     assert runtime.free._held == {}
 
 
 @pytest.mark.parametrize("seats", [2, 3])
-def test_a_free_table_draws_the_free_day_by_its_seats_and_stops_after_three_rounds(
+def test_a_free_table_draws_the_free_window_by_its_seats_and_stops_after_three_rounds(
     store, usage_store, world_loader, registry, runtime, alx_world, desert_world, pahc_world, shipped_caps, seats
 ):
     keys = ["alx", "desert", "pahc"][:seats]
@@ -1050,7 +1050,7 @@ def test_a_free_table_draws_the_free_day_by_its_seats_and_stops_after_three_roun
     for text in ("one?", "two?", "three?", "four?"):
         reply = http.post(f"/api/session/{created['session_id']}/message", json={"text": text}, headers=auth)
         assert reply.status_code == 200
-        drawn.append(runtime.token_rates.free_daily - runtime.free.remaining("ip:testclient"))
+        drawn.append(runtime.token_rates.free_window - runtime.free.remaining("ip:testclient"))
         while reply.json()["round_open"]:
             reply = http.post(f"/api/session/{created['session_id']}/continue", headers=auth)
     assert reply.json()["routing_action"] == "session_cap_turn"
@@ -1059,7 +1059,7 @@ def test_a_free_table_draws_the_free_day_by_its_seats_and_stops_after_three_roun
     third = tokens.charge(runtime.token_rates, 3, seats)
     expected = [first, first + second, first + second + third]
     # a Table at three seats is 250 + 100 + 100, more than the day holds: its later rounds are refused
-    admitted = [d for d in expected if d <= runtime.token_rates.free_daily]
+    admitted = [d for d in expected if d <= runtime.token_rates.free_window]
     assert drawn[: len(admitted)] == admitted
 
 
@@ -1090,7 +1090,7 @@ def test_with_free_voice_closed_a_free_visitor_is_refused_with_no_voice_call_and
     code = code_with(runtime, solo_charge(runtime, 1, 2))
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     assert say(http, session_id, auth, "hello").json()["voice"] is not None
-    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window
 
 
 def test_with_paid_voice_closed_a_code_is_refused_as_paused_and_nothing_is_spent(
@@ -1112,7 +1112,7 @@ def test_the_door_limits_free_solo_rounds_but_never_raises_the_free_paths_own_ca
     http = door_app(store, usage_store, world_loader, registry, runtime, RecordingClient(), solo_free_rounds=2)
     _, _, replies = run_free_conversation(http, 3)
     assert [r.json()["voice"] is not None for r in replies] == [True, True, False]
-    runtime.free = DailyFreeAllowance(runtime.token_rates.free_daily)
+    runtime.free = FreeAllowance(runtime.meter, runtime.token_rates.free_window)
     runtime.door = StubDoor(solo_free_rounds=9)
     _, _, replies = run_free_conversation(http, 4)
     assert [r.json()["voice"] is not None for r in replies] == [True, True, True, False]
@@ -1126,12 +1126,13 @@ def test_a_code_carries_a_conversation_the_door_has_stopped_for_free(store, usag
     assert runtime.meter.status(code).remaining == 0
 
 
-def test_the_door_halves_the_free_day(store, usage_store, world_loader, registry, runtime, shipped_caps):
-    http = door_app(store, usage_store, world_loader, registry, runtime, RecordingClient(), free_day_share=0.5)
+def test_the_door_halves_the_free_window(store, usage_store, world_loader, registry, runtime, shipped_caps):
+    http = door_app(store, usage_store, world_loader, registry, runtime, RecordingClient(), free_share=0.5)
     run_free_conversation(http, 3)
-    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_daily - solo_charge(runtime, 1, 3)
+    run_free_conversation(http, 3)
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - 2 * solo_charge(runtime, 1, 3)
     session_id, auth = open_session(http)
-    assert say(http, session_id, auth, "a second conversation").json()["voice"] is None
+    assert say(http, session_id, auth, "a third conversation").json()["voice"] is None
 
 
 def test_the_door_closes_free_tables_and_leaves_free_solo_open(
@@ -1191,7 +1192,7 @@ def test_overlapping_free_and_paid_sittings_hit_each_stage_in_order_and_spend_st
     base = 1.0
     settings = dataclasses.replace(load_ops().door, base_usd=base, invoice_factor=1.0)
     runtime.door = DoorMonitor(settings, usage_store, lambda: {"gift": 0, "purchase": 0, "adjustment": 0}, refresh_seconds=0.0)
-    runtime.free = DailyFreeAllowance(10_000_000)
+    runtime.free = FreeAllowance(runtime.meter, 10_000_000)
     client = RecordingClient()
     http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
     counter = [0]
@@ -1279,8 +1280,8 @@ def test_a_fault_at_a_door_closed_to_free_voice_still_refuses_even_with_a_code(r
     assert grant.cap <= 1 and grant.limit_text is not None
 
 
-def test_a_fault_in_the_free_day_keeps_to_the_rounds_the_door_allows(runtime, monkeypatch):
-    runtime.door = StubDoor(solo_free_rounds=1, free_day_share=0.5)
+def test_a_fault_in_the_free_window_keeps_to_the_rounds_the_door_allows(runtime, monkeypatch):
+    runtime.door = StubDoor(solo_free_rounds=1, free_share=0.5)
 
     def down(*_a, **_k):
         raise ValueError("free day down")
@@ -1319,10 +1320,10 @@ def test_a_turn_with_no_code_past_the_free_rounds_counts_once(runtime):
     assert _refusals(runtime) == {"free_rounds_done": 1}
 
 
-def test_a_turn_the_free_day_cannot_cover_counts_as_the_free_day_spent(runtime):
-    runtime.free.settle(runtime.free.reserve("v", runtime.token_rates.free_daily), True)
+def test_a_turn_the_free_window_cannot_cover_counts_as_the_free_allowance_spent(runtime):
+    runtime.free.settle(runtime.free.reserve("v", runtime.token_rates.free_window), True)
     _turn(runtime, code=None, completed=0)
-    assert _refusals(runtime) == {"free_day_spent": 1}
+    assert _refusals(runtime) == {"free_allowance_spent": 1}
 
 
 def test_a_turn_at_a_closed_door_counts_as_the_door_not_the_visitor(runtime):
@@ -1521,3 +1522,31 @@ def test_a_fault_in_noting_what_the_door_would_have_done_never_changes_the_grant
     monkeypatch.setattr(Admission, "_observe", broken)
     grant = _turn(runtime, code=None, completed=0)
     assert grant.cap == 1 and grant.limit_text is None
+
+
+def test_what_a_visitor_has_drawn_survives_a_deploy_so_the_window_is_not_refilled(tmp_path, store, usage_store, world_loader, registry, shipped_caps):
+    path = str(tmp_path / "persist.db")
+    first = DeeperRuntime(
+        meter=Meter(path, clock=lambda: date(2026, 10, 5)), claims=ClaimStore(str(tmp_path / "c1.db")),
+        webhook_secret="whsec_x", products={}, miss_delay_seconds=0.0, ops=load_ops(),
+    )
+    try:
+        http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=first)
+        for _ in range(5):
+            run_free_conversation(http, 3)
+        assert first.free.remaining("ip:testclient") == 0
+    finally:
+        first.meter.close()
+        first.claims.close()
+    second = DeeperRuntime(
+        meter=Meter(path, clock=lambda: date(2026, 10, 5)), claims=ClaimStore(str(tmp_path / "c2.db")),
+        webhook_secret="whsec_x", products={}, miss_delay_seconds=0.0, ops=load_ops(),
+    )
+    try:
+        http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=second)
+        session_id, auth = open_session(http)
+        refused = say(http, session_id, auth, "after the deploy")
+        assert refused.json()["voice"] is None and refused.json()["limit_note"]["key"] == "no_code"
+    finally:
+        second.meter.close()
+        second.claims.close()

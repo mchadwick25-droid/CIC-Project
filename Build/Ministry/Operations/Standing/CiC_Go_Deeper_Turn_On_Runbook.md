@@ -30,7 +30,8 @@ All of these must be true. The build thread checks the first group; Mark confirm
 - Prices, packs and the sponsor pack (ruled: $7 = 1,100 tokens, $15 = 2,750, $30 = 6,600; nothing under $7; the sponsor pack shape is open).
 - The door's numbers: the base number and thresholds are set from the observe week (Part 5, step 2). The gift and purchase shares (0.8, 0.5), the invoice factor (1.35) and the five stages ship as stated defaults in `engine/deeper/ops/go-deeper.yaml`. Change them by pull request.
 - The converted numbers: group daily ceiling 6000 tokens, low-balance warning at 100 tokens.
-- Words: the free-day count line, "beside" or "under" the message box, the last-stage public line, "give at Get Involved" showing on Get Involved itself, and a line for the paid round-cap stop that says the participant's code still holds tokens.
+- The free allowance, ruled 2026-10-04: 550 tokens in a window of 30 days that starts at a visitor's first use and refills 30 days after it (rolling, not calendar), five solo conversations of three rounds. It is kept in the meter file (a salted hash of the visitor key, a day and a number), so a deploy does not refill it. The old daily 330 is withdrawn.
+- Words: the free-allowance count line, "beside" or "under" the message box, the last-stage public line, "give at Get Involved" showing on Get Involved itself, and a line for the paid round-cap stop that says the participant's code still holds tokens.
 - Expiry, refund and lost-code policy, after a professional answers the stored-value, gift-card, unclaimed-property, sales-tax and minors questions.
 - **The minors question, answered before the first group code is sold.**
 - Stripe: the written answer on stored value, the account set up, and each unverified Stripe fact checked before the slice that depends on it (below).
@@ -73,7 +74,7 @@ Staging is `cic-engine-staging`, which follows `main`. Use Stripe test mode.
 3. Run a test-mode purchase of each pack. Each must mint one code, shown on the return page, and the daily reconciliation count (`GET /api/admin/deeper/reconciliation`) must show the payment seen, the code made, and a gap of zero.
 4. Replay the same webhook. Nothing more is minted.
 5. Send a refund event for a purchase. Its code is void, and the reconciliation counts it.
-6. In the app, with no code, have a free conversation to its third round. The panel opens at the limit. Enter the code. The same sitting carries on, and the token count falls.
+6. In the app, with no code, have a free conversation to its third round, and note the free allowance falling by 110 tokens. Restart the staging engine and confirm the allowance did not refill. The panel opens at the limit. Enter the code. The same sitting carries on, and the token count falls.
 7. Pause codes (`POST /api/admin/deeper/pause` with `{"on": true}`). The next message with a code gets the paused line. Free conversations carry on. Unpause.
 8. Run each state on the Ledger page's list and read the words as a participant would: spent, too few, in use, group daily limit, code not accepted, paused.
 9. Send a message that reads as distress, one that is unclear, and one the safety check cannot read, at: the third free round, a spent code, a paused module, and each door stage. Each must get the Facilitator's answer and never the limit message.
@@ -163,7 +164,7 @@ Until every refunded payment is voided, the written rule is that **the module is
 ## Known gaps, stated
 
 - The paid round cap of 40 is provisional and unmeasured. Its stop has no participant line of its own yet.
-- Observe mode does not count the halving of the free day as a refusal.
+- Observe mode does not count the halving of the free allowance as a refusal.
 - Crisis turns are not counted by the module, which never sees message content.
 - A refused message that the safety check then lets through to the Facilitator is counted as a refusal.
 - The go-deeper page carries one Payment Link; three packs need three.

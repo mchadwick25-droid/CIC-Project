@@ -34,7 +34,7 @@ def test_the_token_rates_and_packs_are_the_ruled_ones():
         solo_open=50, solo_round=20, solo_round_later=25,
         table_open_per_seat=50, table_round_two=60, table_round_three=100,
         table_round_two_later=75, table_round_three_later=125,
-        later_rounds_from=4, free_daily=330, free_rounds=3,
+        later_rounds_from=4, free_window=550, free_window_days=30, free_rounds=3,
     )
     assert ops.packs == (Pack(7, 1100), Pack(15, 2750), Pack(30, 6600))
 
@@ -133,7 +133,7 @@ def test_the_shipped_door_is_the_documented_default():
     assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (150.0, 0.8, 0.5, 1.35)
     assert door.stages == (
         Stage(at=0.66, table_free_rounds=1),
-        Stage(at=0.75, solo_free_rounds=2, free_day_share=0.5),
+        Stage(at=0.75, solo_free_rounds=2, free_share=0.5),
         Stage(at=0.90, table_free_rounds=0),
         Stage(at=0.95, free_voice=False),
         Stage(at=1.00, paid_voice=False),
@@ -159,11 +159,11 @@ def test_the_shipped_door_is_the_documented_default():
         lambda d: d["door"].update(stages=[{"at": 0.5, "free_voice": True}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "paid_voice": False}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "table_free_rounds": 1}, {"at": 0.6, "table_free_rounds": 2}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 0.5}, {"at": 0.6, "free_day_share": 0.8}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 0.5}, {"at": 0.6, "free_share": 0.8}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": -1}]),
         lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": True}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 2}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_day_share": 0}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 2}]),
+        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 0}]),
     ],
 )
 def test_a_malformed_door_is_refused(tmp_path, change):

@@ -16,13 +16,13 @@ DOOR_WORD_KEYS = ("limited", "paused", "code_still_works")
 NOTE_KEYS = ("no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use")
 SOLO_KEYS = ("open", "round", "round_from_fourth")
 TABLE_KEYS = ("open_per_seat", "round_two_seats", "round_three_seats", "round_two_seats_from_fourth", "round_three_seats_from_fourth")
-FREE_KEYS = ("daily", "rounds_per_conversation")
+FREE_KEYS = ("window_tokens", "window_days", "rounds_per_conversation")
 LATER_ROUNDS_FROM = 4
 MINIMUM_PACK_USD = 7
 LIMIT_KEYS = ("group_daily_ceiling", "group_burst_multiplier", "low_balance_at")
 DOOR_KEYS = ("observe", "base_weekly_usd", "gift_share", "purchase_share", "invoice_factor", "stages")
 PAID_KEYS = ("round_cap", "provisional")
-STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_day_share", "free_voice", "paid_voice"}
+STAGE_KEYS = {"at", "table_free_rounds", "solo_free_rounds", "free_share", "free_voice", "paid_voice"}
 
 
 class OpsFileError(Exception):
@@ -75,7 +75,7 @@ def _tokens(section) -> tuple[TokenRates, tuple[Pack, ...]]:
         solo_open=solo["open"], solo_round=solo["round"], solo_round_later=solo["round_from_fourth"],
         table_open_per_seat=table["open_per_seat"], table_round_two=table["round_two_seats"], table_round_three=table["round_three_seats"],
         table_round_two_later=table["round_two_seats_from_fourth"], table_round_three_later=table["round_three_seats_from_fourth"],
-        later_rounds_from=LATER_ROUNDS_FROM, free_daily=free["daily"], free_rounds=free["rounds_per_conversation"],
+        later_rounds_from=LATER_ROUNDS_FROM, free_window=free["window_tokens"], free_window_days=free["window_days"], free_rounds=free["rounds_per_conversation"],
     )
     raw = section["packs"]
     if not isinstance(raw, list) or not raw:
@@ -115,7 +115,7 @@ def _door(section) -> DoorSettings:
         raise OpsFileError("door.stages must list at least one stage")
     stages = []
     previous_at = 0.0
-    narrowest = {"table_free_rounds": None, "solo_free_rounds": None, "free_day_share": None}
+    narrowest = {"table_free_rounds": None, "solo_free_rounds": None, "free_share": None}
     free_closed = False
     for item in raw:
         if not isinstance(item, dict) or "at" not in item or not set(item) <= STAGE_KEYS:
@@ -134,12 +134,12 @@ def _door(section) -> DoorSettings:
                     raise OpsFileError(f"door stages may only narrow: {key} cannot rise")
                 narrowest[key] = value
                 fields[key] = value
-        if "free_day_share" in item:
-            share = _number(item["free_day_share"], "door stage free_day_share", low=0, high=1, inclusive_low=False)
-            if narrowest["free_day_share"] is not None and share > narrowest["free_day_share"]:
-                raise OpsFileError("door stages may only narrow: free_day_share cannot rise")
-            narrowest["free_day_share"] = share
-            fields["free_day_share"] = share
+        if "free_share" in item:
+            share = _number(item["free_share"], "door stage free_share", low=0, high=1, inclusive_low=False)
+            if narrowest["free_share"] is not None and share > narrowest["free_share"]:
+                raise OpsFileError("door stages may only narrow: free_share cannot rise")
+            narrowest["free_share"] = share
+            fields["free_share"] = share
         for key in ("free_voice", "paid_voice"):
             if key in item:
                 if item[key] is not False:

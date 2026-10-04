@@ -4,7 +4,7 @@ from engine.deeper.door import OPEN, DoorSettings, Stage, ceiling_usd, compute
 
 STAGES = (
     Stage(at=0.66, table_free_rounds=1),
-    Stage(at=0.75, free_day_share=0.5, solo_free_rounds=2),
+    Stage(at=0.75, free_share=0.5, solo_free_rounds=2),
     Stage(at=0.90, table_free_rounds=0),
     Stage(at=0.95, free_voice=False),
     Stage(at=1.00, paid_voice=False),
@@ -30,7 +30,7 @@ def test_money_never_lowers_the_ceiling_below_the_base():
 def test_no_spend_leaves_the_door_open():
     state = stage_at(0.0)
     assert state.stage == 0 and state.free_voice and state.paid_voice
-    assert state.table_free_rounds is None and state.solo_free_rounds is None and state.free_day_share == 1.0
+    assert state.table_free_rounds is None and state.solo_free_rounds is None and state.free_share == 1.0
 
 
 @pytest.mark.parametrize(
@@ -48,7 +48,7 @@ def test_no_spend_leaves_the_door_open():
 )
 def test_each_stage_narrows_in_order_and_keeps_what_an_earlier_one_closed(ratio, stage, table, solo, share, free, paid):
     state = stage_at(ratio)
-    assert (state.stage, state.table_free_rounds, state.solo_free_rounds, state.free_day_share, state.free_voice, state.paid_voice) == (
+    assert (state.stage, state.table_free_rounds, state.solo_free_rounds, state.free_share, state.free_voice, state.paid_voice) == (
         stage, table, solo, share, free, paid,
     )
 
@@ -60,7 +60,7 @@ def test_a_higher_ratio_never_opens_what_a_lower_one_closed():
         assert not (later.free_voice and not earlier.free_voice)
         assert not (later.paid_voice and not earlier.paid_voice)
         assert (later.table_free_rounds if later.table_free_rounds is not None else 99) <= (earlier.table_free_rounds if earlier.table_free_rounds is not None else 99)
-        assert later.free_day_share <= earlier.free_day_share
+        assert later.free_share <= earlier.free_share
 
 
 def test_gifts_reopen_the_door():
