@@ -46,6 +46,12 @@ senses:
 quick_meaning: Our own name for our central project. We test every inherited practice against Scripture,
   in public. We let go of what will not stand.
 distortion_risk: high
+use_note:
+  means: "Reformation is the cities' own name for their central project of testing every inherited practice against Scripture and letting go of what will not stand."
+  not_for:
+    - "a claim that the Reformation was a single dramatic break cleanly finished at one moment"
+  years: {from: 1519, to: 1650}
+  status: reviewed
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

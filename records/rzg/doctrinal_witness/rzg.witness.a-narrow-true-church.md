@@ -44,5 +44,13 @@ text: 'Too narrow, one way among every way people have ever reached for God? We 
   the bread: refused. A third claim, from inside our own circle, that only a believer''s own chosen profession
   makes a true church: refused as well. Each time, the same test: does this reading hold against Scripture?
   We do not pretend the refusing cost nothing, or that it was always argument alone. It was not.'
+use_note:
+  means: "We held the Roman, Wittenberg, and Anabaptist positions we refused to be wrong by Scripture's test, not merely different."
+  not_for:
+    - "a claim about whether those outside this church were damned"
+    - "a claim that these refusals were enforced by argument alone"
+    - "a claim about this world's teaching on divorce or remarriage"
+  years: {from: 1523, to: 1529}
+  status: reviewed
 ---
 Grounded in the already-cleared rzg.witness.triple-refusal (cited as a source of established fact, not re-tagged or re-touched) and rzg.contested.anabaptist-schism-legitimacy's own claim field. Closes F6-T's own exclusivity sub-question directly; divorce and remarriage (the cell's other sub-question) is not claimed, since no record touches it.

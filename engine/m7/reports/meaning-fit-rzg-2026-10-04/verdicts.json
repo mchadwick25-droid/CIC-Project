@@ -1,0 +1,942 @@
+{
+ "u0001": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0002": {
+  "verdict": "accepted",
+  "reason": "Record says Christology was shared with the whole church and never their quarrel."
+ },
+ "u0003": {
+  "verdict": "accepted",
+  "reason": "Catechism as fixed doctrine taught to the whole population is what the record states."
+ },
+ "u0004": {
+  "verdict": "defensible",
+  "reason": "Transfers Calvin's 1559 exegesis to the 1541 Ordinances and overreads \"not imposed from above\"."
+ },
+ "u0005": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0006": {
+  "verdict": "defensible",
+  "reason": "Extends the correction-only-by-Scripture principle into broader claims the quote does not state."
+ },
+ "u0007": {
+  "verdict": "accepted",
+  "reason": "Honestly reports the record's silence on Scripture's violence and what modern readers miss."
+ },
+ "u0008": {
+  "verdict": "defensible",
+  "reason": "Leans on the distinction side of the formula and adds Spirit language the term does not carry."
+ },
+ "u0009": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity: Scripture sole authority, enacted via council Disputation at Zurich."
+ },
+ "u0010": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0011": {
+  "verdict": "defensible",
+  "reason": "Extends the daily-practice limit to conversion experience, consistent but beyond its explicit scope."
+ },
+ "u0012": {
+  "verdict": "accepted",
+  "reason": "Articles as Zwingli's founding statement at the 1523 Disputation."
+ },
+ "u0013": {
+  "verdict": "accepted",
+  "reason": "Correctly reports that the record cannot show what believers felt."
+ },
+ "u0014": {
+  "verdict": "defensible",
+  "reason": "Contrast with adult decision is the speaker's own addition to the election gravity."
+ },
+ "u0015": {
+  "verdict": "defensible",
+  "reason": "Mostly catechesis content; only the final clause touches the Consistory record."
+ },
+ "u0016": {
+  "verdict": "accepted",
+  "reason": "Matches the witness: absence of images and altar, table instead, Catholic pressure in the 1590s."
+ },
+ "u0017": {
+  "verdict": "accepted",
+  "reason": "Matches refusal of repeated sacrifice and corporeal presence, Christ given by the Spirit."
+ },
+ "u0018": {
+  "verdict": "accepted",
+  "reason": "Faithful to no living chain and Scripture held sufficient, corrected only by itself."
+ },
+ "u0019": {
+  "verdict": "accepted",
+  "reason": "Faithful to no living chain and Scripture held sufficient, corrected only by itself."
+ },
+ "u0020": {
+  "verdict": "defensible",
+  "reason": "Generalizes one 1523 event to every doctrinal dispute."
+ },
+ "u0021": {
+  "verdict": "accepted",
+  "reason": "Matches one conviction enacted two ways without borrowing or converging."
+ },
+ "u0022": {
+  "verdict": "accepted",
+  "reason": "Record admits civil force, not argument alone."
+ },
+ "u0023": {
+  "verdict": "accepted",
+  "reason": "Whole believing city including infants, not a gathered remnant."
+ },
+ "u0024": {
+  "verdict": "accepted",
+  "reason": "Faithful rendering of the Second Helvetic Confession's Christ-as-mirror sentence."
+ },
+ "u0025": {
+  "verdict": "accepted",
+  "reason": "Scripture alone over pope and tradition, tested by debate and teaching."
+ },
+ "u0026": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0027": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0028": {
+  "verdict": "accepted",
+  "reason": "Restates the record's refusal of endless introspection in its own terms."
+ },
+ "u0029": {
+  "verdict": "accepted",
+  "reason": "Zwingli: Christ's one sacrifice makes the Mass no sacrifice."
+ },
+ "u0030": {
+  "verdict": "defensible",
+  "reason": "Adds emphasis (living voice, civic order, non-convergence, feeling) beyond the term."
+ },
+ "u0031": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0032": {
+  "verdict": "defensible",
+  "reason": "Readmission on repentance is consistent but not stated in the term."
+ },
+ "u0033": {
+  "verdict": "misread",
+  "reason": "The Supper term says nothing about the eternal fate of those outside."
+ },
+ "u0034": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0035": {
+  "verdict": "accepted",
+  "reason": "Matches free election before the world, not foreseen or earned, held as settled ground not threat."
+ },
+ "u0036": {
+  "verdict": "accepted",
+  "reason": "Correctly reports that the record cannot show what believers felt."
+ },
+ "u0037": {
+  "verdict": "defensible",
+  "reason": "Record notes a real challenge; framing Anabaptist loss of the city is an elaboration."
+ },
+ "u0038": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0039": {
+  "verdict": "accepted",
+  "reason": "Matches free election before the world, not foreseen or earned, held as settled ground not threat."
+ },
+ "u0040": {
+  "verdict": "accepted",
+  "reason": "Faithful to doctrine of censure and readmission with no individual case available."
+ },
+ "u0041": {
+  "verdict": "accepted",
+  "reason": "Scripture alone over pope and tradition, tested by debate and teaching."
+ },
+ "u0042": {
+  "verdict": "accepted",
+  "reason": "Matches free election before the world, not foreseen or earned, held as settled ground not threat."
+ },
+ "u0043": {
+  "verdict": "accepted",
+  "reason": "Faithful to doctrine of censure and readmission with no individual case available."
+ },
+ "u0044": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0045": {
+  "verdict": "defensible",
+  "reason": "Record's shared-teaching claim concerns Christ, here transposed to original sin, which it does not address."
+ },
+ "u0046": {
+  "verdict": "defensible",
+  "reason": "Summoning detail edges toward the surveillance reading the term cautions against."
+ },
+ "u0047": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and lay elders holding conduct to account."
+ },
+ "u0048": {
+  "verdict": "accepted",
+  "reason": "Matches one conviction enacted two ways without borrowing or converging."
+ },
+ "u0049": {
+  "verdict": "accepted",
+  "reason": "Continuous active governance, not a distant first cause."
+ },
+ "u0050": {
+  "verdict": "accepted",
+  "reason": "Continuous active governance, not a distant first cause."
+ },
+ "u0051": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0052": {
+  "verdict": "accepted",
+  "reason": "Honestly reports no source describing the worship space."
+ },
+ "u0053": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0054": {
+  "verdict": "accepted",
+  "reason": "Election by God's free will before the world, not foreseen or earned."
+ },
+ "u0055": {
+  "verdict": "accepted",
+  "reason": "Scripture alone over pope and tradition, tested by debate and teaching."
+ },
+ "u0056": {
+  "verdict": "defensible",
+  "reason": "Adds a contrast with Rome's episcopal succession not in the record."
+ },
+ "u0057": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0058": {
+  "verdict": "accepted",
+  "reason": "Catechism as fixed doctrine taught to the whole population is what the record states."
+ },
+ "u0059": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0060": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity: Scripture sole authority, enacted via council Disputation at Zurich."
+ },
+ "u0061": {
+  "verdict": "defensible",
+  "reason": "Only the \"once, unrepeatable\" element leans on the record; the Christology is added."
+ },
+ "u0062": {
+  "verdict": "misread",
+  "reason": "The quote says nothing about what modern readers miss; the record set explicitly lacks that."
+ },
+ "u0063": {
+  "verdict": "defensible",
+  "reason": "Calvin's return and exclusion power added beyond the term."
+ },
+ "u0064": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0065": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0066": {
+  "verdict": "accepted",
+  "reason": "Faithful to no living chain and Scripture held sufficient, corrected only by itself."
+ },
+ "u0067": {
+  "verdict": "accepted",
+  "reason": "Correctly reports that the record cannot show what believers felt."
+ },
+ "u0068": {
+  "verdict": "defensible",
+  "reason": "Term records Zurich's version as pastoral comfort; \"ground of a settled life\" at both is a slight merge."
+ },
+ "u0069": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0070": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0071": {
+  "verdict": "accepted",
+  "reason": "Faithful rendering of the Second Helvetic Confession's Christ-as-mirror sentence."
+ },
+ "u0072": {
+  "verdict": "accepted",
+  "reason": "Honestly reports no source describing the worship space."
+ },
+ "u0073": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and lay elders holding conduct to account."
+ },
+ "u0074": {
+  "verdict": "accepted",
+  "reason": "Faithful to no living chain and Scripture held sufficient, corrected only by itself."
+ },
+ "u0075": {
+  "verdict": "accepted",
+  "reason": "Matches one conviction enacted two ways without borrowing or converging."
+ },
+ "u0076": {
+  "verdict": "defensible",
+  "reason": "Extends the daily-practice limit to conversion experience, consistent but beyond its explicit scope."
+ },
+ "u0077": {
+  "verdict": "accepted",
+  "reason": "Correctly reports that the record cannot show what believers felt."
+ },
+ "u0078": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0079": {
+  "verdict": "accepted",
+  "reason": "Matches free election before the world, not foreseen or earned, held as settled ground not threat."
+ },
+ "u0080": {
+  "verdict": "accepted",
+  "reason": "Faithful to doctrine of censure and readmission with no individual case available."
+ },
+ "u0081": {
+  "verdict": "defensible",
+  "reason": "Every-household reach exceeds the quote, which speaks only of censures and discipline."
+ },
+ "u0082": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0083": {
+  "verdict": "defensible",
+  "reason": "Adds emphasis (living voice, civic order, non-convergence, feeling) beyond the term."
+ },
+ "u0084": {
+  "verdict": "defensible",
+  "reason": "Readmission on repentance is consistent but not stated in the term."
+ },
+ "u0085": {
+  "verdict": "defensible",
+  "reason": "1541/1555 dating comes from other material; core non-adoption claim fits."
+ },
+ "u0086": {
+  "verdict": "accepted",
+  "reason": "Matches Calvin's 1549 journey with Farel producing the Consensus."
+ },
+ "u0087": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0088": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0089": {
+  "verdict": "defensible",
+  "reason": "Draws in Disputation, Zwingli quote or living-chain material not in the term."
+ },
+ "u0090": {
+  "verdict": "accepted",
+  "reason": "Faithful rendering of the Second Helvetic Confession's Christ-as-mirror sentence."
+ },
+ "u0091": {
+  "verdict": "defensible",
+  "reason": "Perspicuity of Scripture is a reasonable inference but not stated in the record."
+ },
+ "u0092": {
+  "verdict": "defensible",
+  "reason": "Generalizes Zwingli's personal pledge into a rule both cities held."
+ },
+ "u0093": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and lay elders holding conduct to account."
+ },
+ "u0094": {
+  "verdict": "accepted",
+  "reason": "Matches free election before the world, not foreseen or earned, held as settled ground not threat."
+ },
+ "u0095": {
+  "verdict": "defensible",
+  "reason": "Overgeneralizes the three refusals to every doctrine."
+ },
+ "u0096": {
+  "verdict": "accepted",
+  "reason": "Faithful rendering of the Second Helvetic Confession's Christ-as-mirror sentence."
+ },
+ "u0097": {
+  "verdict": "accepted",
+  "reason": "Exclusion from the Supper as the Consistory's most severe tool."
+ },
+ "u0098": {
+  "verdict": "defensible",
+  "reason": "Record notes the synthesis question unresolved, but \"does not quite close\" is the speaker's gloss."
+ },
+ "u0099": {
+  "verdict": "accepted",
+  "reason": "Matches the record's free election, not foreseen or earned, assured by looking to Christ."
+ },
+ "u0100": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0101": {
+  "verdict": "defensible",
+  "reason": "Leans on the distinction side of the formula and adds Spirit language the term does not carry."
+ },
+ "u0102": {
+  "verdict": "defensible",
+  "reason": "Promise and Christ-centered framing elaborates beyond the gravity's wording, though consistent."
+ },
+ "u0103": {
+  "verdict": "accepted",
+  "reason": "Matches the record's lack of a marriage teaching."
+ },
+ "u0104": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0105": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and lay elders holding conduct to account."
+ },
+ "u0106": {
+  "verdict": "accepted",
+  "reason": "Matches refusal of repeated sacrifice and corporeal presence, Christ given by the Spirit."
+ },
+ "u0107": {
+  "verdict": "accepted",
+  "reason": "Matches one conviction enacted two ways without borrowing or converging."
+ },
+ "u0108": {
+  "verdict": "misread",
+  "reason": "Empty sentence; the paragraph's Trinity claim is not in the narrow-true-church record."
+ },
+ "u0109": {
+  "verdict": "defensible",
+  "reason": "Exclusion and readmission go beyond the quote, though within \"exercise discipline\"."
+ },
+ "u0110": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0111": {
+  "verdict": "accepted",
+  "reason": "Matches both Supper statements held, refusing sacrifice and confinement, unresolved last word."
+ },
+ "u0112": {
+  "verdict": "misread",
+  "reason": "Record is about worship absences and Catholic pressure, not the Disputation before six hundred witnesses."
+ },
+ "u0113": {
+  "verdict": "defensible",
+  "reason": "\"Whole communities split\" goes beyond the record."
+ },
+ "u0114": {
+  "verdict": "accepted",
+  "reason": "Catechism as fixed doctrine taught to the whole population is what the record states."
+ },
+ "u0115": {
+  "verdict": "accepted",
+  "reason": "Testing inherited practice against Scripture and letting go of what fails."
+ },
+ "u0116": {
+  "verdict": "accepted",
+  "reason": "Faithful to no living chain and Scripture held sufficient, corrected only by itself."
+ },
+ "u0117": {
+  "verdict": "accepted",
+  "reason": "Catechism as fixed doctrine taught to the whole population is what the record states."
+ },
+ "u0118": {
+  "verdict": "accepted",
+  "reason": "Antistes answers to the council; church and city governed as one."
+ },
+ "u0119": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0120": {
+  "verdict": "accepted",
+  "reason": "Accurately reports Calvin's seniors chosen from the people joining bishops in discipline."
+ },
+ "u0121": {
+  "verdict": "defensible",
+  "reason": "Article-by-article building is loosely tied to the catechism term, which says nothing about systematic construction."
+ },
+ "u0122": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0123": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0124": {
+  "verdict": "defensible",
+  "reason": "Record implies but does not state that settled assurance is the doctrine's purpose."
+ },
+ "u0125": {
+  "verdict": "accepted",
+  "reason": "Matches the witness: absence of images and altar, table instead, Catholic pressure in the 1590s."
+ },
+ "u0126": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0127": {
+  "verdict": "accepted",
+  "reason": "Faithful to doctrine of censure and readmission with no individual case available."
+ },
+ "u0128": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0129": {
+  "verdict": "defensible",
+  "reason": "Supper refusals fit, but claims about modern Reformed churches lie outside the record."
+ },
+ "u0130": {
+  "verdict": "misread",
+  "reason": "The First Disputation story says nothing about abolishing mass and images, which came later."
+ },
+ "u0131": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0132": {
+  "verdict": "defensible",
+  "reason": "Pastoral framing not drawn from the record, though not contrary to it."
+ },
+ "u0133": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0134": {
+  "verdict": "misread",
+  "reason": "Record says only Christology was never a quarrel with Rome; it is made to cover original sin, which it does not address and which Trent did contest."
+ },
+ "u0135": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0136": {
+  "verdict": "accepted",
+  "reason": "Continuous active governance, not a distant first cause."
+ },
+ "u0137": {
+  "verdict": "defensible",
+  "reason": "Draws broader principles from the Disputation than the story states."
+ },
+ "u0138": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0139": {
+  "verdict": "defensible",
+  "reason": "Draws broader principles from the Disputation than the story states."
+ },
+ "u0140": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0141": {
+  "verdict": "defensible",
+  "reason": "Extends the correction-only-by-Scripture principle into broader claims the quote does not state."
+ },
+ "u0142": {
+  "verdict": "accepted",
+  "reason": "Honestly reports the record's silence on Scripture's violence and what modern readers miss."
+ },
+ "u0143": {
+  "verdict": "accepted",
+  "reason": "Matches the record's free election, not foreseen or earned, assured by looking to Christ."
+ },
+ "u0144": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0145": {
+  "verdict": "defensible",
+  "reason": "Meta-commentary on the contested claim; consistent with the record not settling it."
+ },
+ "u0146": {
+  "verdict": "accepted",
+  "reason": "Christ truly given by the Spirit, consistent with not separating reality from signs."
+ },
+ "u0147": {
+  "verdict": "defensible",
+  "reason": "Generalizes the Disputation into Scripture governing civic order."
+ },
+ "u0148": {
+  "verdict": "accepted",
+  "reason": "Matches both Supper statements held, refusing sacrifice and confinement, unresolved last word."
+ },
+ "u0149": {
+  "verdict": "defensible",
+  "reason": "Elaborates council-wide reform beyond what the record states."
+ },
+ "u0150": {
+  "verdict": "defensible",
+  "reason": "Record's shared-teaching claim concerns Christ, here transposed to original sin, which it does not address."
+ },
+ "u0151": {
+  "verdict": "defensible",
+  "reason": "Elaborates council-wide reform beyond what the record states."
+ },
+ "u0152": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0153": {
+  "verdict": "accepted",
+  "reason": "Antistes answers to the council; church and city governed as one."
+ },
+ "u0154": {
+  "verdict": "accepted",
+  "reason": "Exclusion from the Supper as the Consistory's most severe tool."
+ },
+ "u0155": {
+  "verdict": "defensible",
+  "reason": "Bare affirmation introducing an original-sin answer the record does not address."
+ },
+ "u0156": {
+  "verdict": "defensible",
+  "reason": "Adds years of instruction and answering for profession beyond the term's definition."
+ },
+ "u0157": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0158": {
+  "verdict": "misread",
+  "reason": "Asserts a stance on marriage (\"marked it honorable\") the record says it has no teaching for."
+ },
+ "u0159": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0160": {
+  "verdict": "accepted",
+  "reason": "Faithful rendering of the Second Helvetic Confession's Christ-as-mirror sentence."
+ },
+ "u0161": {
+  "verdict": "accepted",
+  "reason": "Zwingli: Christ's one sacrifice makes the Mass no sacrifice."
+ },
+ "u0162": {
+  "verdict": "defensible",
+  "reason": "Draws in Disputation, Zwingli quote or living-chain material not in the term."
+ },
+ "u0163": {
+  "verdict": "accepted",
+  "reason": "Election by God's free will before the world, not foreseen or earned."
+ },
+ "u0164": {
+  "verdict": "defensible",
+  "reason": "Every-household emphasis leans further than the record's general statement."
+ },
+ "u0165": {
+  "verdict": "accepted",
+  "reason": "Record says Christology was shared with the whole church and never their quarrel."
+ },
+ "u0166": {
+  "verdict": "accepted",
+  "reason": "Scripture alone over pope and tradition, tested by debate and teaching."
+ },
+ "u0167": {
+  "verdict": "accepted",
+  "reason": "Scripture alone over pope and tradition, tested by debate and teaching."
+ },
+ "u0168": {
+  "verdict": "defensible",
+  "reason": "Adds emphasis (living voice, civic order, non-convergence, feeling) beyond the term."
+ },
+ "u0169": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity: Scripture sole authority, enacted via council Disputation at Zurich."
+ },
+ "u0170": {
+  "verdict": "misread",
+  "reason": "Record says nothing of Bolsec; his case was decided by the Small Council, not the Consistory, so the claim is unsupported and inaccurate."
+ },
+ "u0171": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity: Scripture sole authority, enacted via council Disputation at Zurich."
+ },
+ "u0172": {
+  "verdict": "accepted",
+  "reason": "Matches free election before the world, not foreseen or earned, held as settled ground not threat."
+ },
+ "u0173": {
+  "verdict": "misread",
+  "reason": "Calvin's journey record does not support the claim about the text tested in multiple cities as ground of Supper doctrine."
+ },
+ "u0174": {
+  "verdict": "defensible",
+  "reason": "Draws broader principles from the Disputation than the story states."
+ },
+ "u0175": {
+  "verdict": "defensible",
+  "reason": "Promise and Christ-centered framing elaborates beyond the gravity's wording, though consistent."
+ },
+ "u0176": {
+  "verdict": "accepted",
+  "reason": "Restates the record's refusal of endless introspection in its own terms."
+ },
+ "u0177": {
+  "verdict": "defensible",
+  "reason": "Article-by-article building is loosely tied to the catechism term, which says nothing about systematic construction."
+ },
+ "u0178": {
+  "verdict": "defensible",
+  "reason": "Promise and Christ-centered framing elaborates beyond the gravity's wording, though consistent."
+ },
+ "u0179": {
+  "verdict": "defensible",
+  "reason": "Meta-commentary on the contested claim; consistent with the record not settling it."
+ },
+ "u0180": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0181": {
+  "verdict": "accepted",
+  "reason": "Matches the record's lack of a marriage teaching."
+ },
+ "u0182": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0183": {
+  "verdict": "accepted",
+  "reason": "Faithful to Zwingli's pledge to be corrected only from Scripture itself."
+ },
+ "u0184": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and lay elders holding conduct to account."
+ },
+ "u0185": {
+  "verdict": "accepted",
+  "reason": "Election by God's free will before the world, not foreseen or earned."
+ },
+ "u0186": {
+  "verdict": "accepted",
+  "reason": "Faithful to doctrine of censure and readmission with no individual case available."
+ },
+ "u0187": {
+  "verdict": "accepted",
+  "reason": "Election by God's free will before the world, not foreseen or earned."
+ },
+ "u0188": {
+  "verdict": "accepted",
+  "reason": "Matches refusal of repeated sacrifice and corporeal presence, Christ given by the Spirit."
+ },
+ "u0189": {
+  "verdict": "defensible",
+  "reason": "Loss of living is an added consequence of the binding ruling."
+ },
+ "u0190": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0191": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0192": {
+  "verdict": "accepted",
+  "reason": "Consistent with the record's communal enactment by disputation and catechesis."
+ },
+ "u0193": {
+  "verdict": "accepted",
+  "reason": "Catechism as fixed doctrine taught to the whole population is what the record states."
+ },
+ "u0194": {
+  "verdict": "defensible",
+  "reason": "Draws in Disputation, Zwingli quote or living-chain material not in the term."
+ },
+ "u0195": {
+  "verdict": "defensible",
+  "reason": "Applies the mirror to unknowable rosters of the elect, a reasonable extension."
+ },
+ "u0196": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0197": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0198": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and elders holding conduct answerable to profession, independence won by 1555."
+ },
+ "u0199": {
+  "verdict": "defensible",
+  "reason": "Transmission history is not in the record; only loosely tied to Scripture's sufficiency."
+ },
+ "u0200": {
+  "verdict": "accepted",
+  "reason": "Faithful to the confession turning the anxious mind from self-search to Christ as mirror of election."
+ },
+ "u0201": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0202": {
+  "verdict": "defensible",
+  "reason": "Stretches Zwingli's pledge into Trinity tested against nothing but the text, eliding creedal reception."
+ },
+ "u0203": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0204": {
+  "verdict": "accepted",
+  "reason": "Accurately reports Calvin's seniors chosen from the people joining bishops in discipline."
+ },
+ "u0205": {
+  "verdict": "accepted",
+  "reason": "Faithful to doctrine of censure and readmission with no individual case available."
+ },
+ "u0206": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity: Scripture sole authority, enacted via council Disputation at Zurich."
+ },
+ "u0207": {
+  "verdict": "accepted",
+  "reason": "Matches the record's free election, not foreseen or earned, assured by looking to Christ."
+ },
+ "u0208": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0209": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0210": {
+  "verdict": "accepted",
+  "reason": "Matches the witness: absence of images and altar, table instead, Catholic pressure in the 1590s."
+ },
+ "u0211": {
+  "verdict": "accepted",
+  "reason": "Faithful rendering of the Second Helvetic Confession's Christ-as-mirror sentence."
+ },
+ "u0212": {
+  "verdict": "accepted",
+  "reason": "Testing inherited practice against Scripture and letting go of what fails."
+ },
+ "u0213": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ },
+ "u0214": {
+  "verdict": "accepted",
+  "reason": "Consistory of pastors and lay elders holding conduct to account."
+ },
+ "u0215": {
+  "verdict": "defensible",
+  "reason": "Spirit-given language goes beyond the term, which only names the Consensus."
+ },
+ "u0216": {
+  "verdict": "misread",
+  "reason": "Record concerns authority over discipline, not how one becomes a church member."
+ },
+ "u0217": {
+  "verdict": "accepted",
+  "reason": "Matches the record's free election, not foreseen or earned, assured by looking to Christ."
+ },
+ "u0218": {
+  "verdict": "accepted",
+  "reason": "Matches free election before the world, not foreseen or earned, held as settled ground not threat."
+ },
+ "u0219": {
+  "verdict": "accepted",
+  "reason": "Matches the unresolved Zurich council versus Geneva Consistory divergence won by 1555."
+ },
+ "u0220": {
+  "verdict": "accepted",
+  "reason": "Matches the gravity: Scripture sole authority, enacted via council Disputation at Zurich."
+ },
+ "u0221": {
+  "verdict": "defensible",
+  "reason": "Infant baptism fits; catechesis and Consistory examination are added from elsewhere."
+ },
+ "u0222": {
+  "verdict": "defensible",
+  "reason": "Article-by-article building is loosely tied to the catechism term, which says nothing about systematic construction."
+ },
+ "u0223": {
+  "verdict": "defensible",
+  "reason": "Readmission on repentance is consistent but not stated in the term."
+ },
+ "u0224": {
+  "verdict": "accepted",
+  "reason": "Faithfully reports the record's silence on ordinary daily practice and lived experience."
+ },
+ "u0225": {
+  "verdict": "accepted",
+  "reason": "Testing inherited practice against Scripture and letting go of what fails."
+ },
+ "u0226": {
+  "verdict": "accepted",
+  "reason": "Honestly reports no source describing the worship space."
+ },
+ "u0227": {
+  "verdict": "misread",
+  "reason": "Term defines Scripture's authority; it says nothing about unbelief mattering absolutely."
+ },
+ "u0228": {
+  "verdict": "defensible",
+  "reason": "Record concerns assurance of election, not Christ's certainty about his sacrifice; an added flourish."
+ },
+ "u0229": {
+  "verdict": "defensible",
+  "reason": "Adds social consequence of exclusion beyond the record."
+ },
+ "u0230": {
+  "verdict": "defensible",
+  "reason": "Adds emphasis (living voice, civic order, non-convergence, feeling) beyond the term."
+ },
+ "u0231": {
+  "verdict": "accepted",
+  "reason": "Accurately reports Calvin's seniors chosen from the people joining bishops in discipline."
+ },
+ "u0232": {
+  "verdict": "accepted",
+  "reason": "Exclusion from the Supper as the Consistory's most severe tool."
+ },
+ "u0233": {
+  "verdict": "defensible",
+  "reason": "Ordinances 1541 detail is not in the Calvin quote, though consistent with it."
+ },
+ "u0234": {
+  "verdict": "misread",
+  "reason": "Claim that believers counted nothing as loss is unrelated to the Disputation story."
+ },
+ "u0235": {
+  "verdict": "accepted",
+  "reason": "Matches six hundred at the Town Hall, council ruling, priests bound to preach."
+ }
+}
