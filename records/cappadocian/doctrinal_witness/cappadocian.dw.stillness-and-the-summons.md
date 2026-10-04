@@ -59,6 +59,15 @@ tensions:
 relations:
 - type: associated-with
   target: cappadocian.quote.basil-on-his-retreat
+use_note:
+  means: "This witness says this world's teachers longed for stillness, rarely kept it, and taught passions ordered toward love rather than erased."
+  not_for:
+    - "Basil's riverside letter in cappadocian.quote.basil-on-his-retreat as a defence of fleeing church office, which is Gregory of Nazianzus's Oration 2"
+    - "a method for quieting a busy mind, which the record says it lacks"
+    - "apatheia as feeling nothing"
+    - "stillness as an ideal held by plateau congregations beyond the literate core"
+  years: {from: 358, to: 381}
+  status: reviewed
 ---
 Closes F4-P honestly, offering hesychia's own genuine, unresolved tension
 (a real desire for quiet that kept yielding to duty) rather than

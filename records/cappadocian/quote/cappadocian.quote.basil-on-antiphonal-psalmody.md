@@ -60,6 +60,14 @@ modern_rendering: >-
   praying at intervals as the day begins to dawn, all together, as with one voice and one
   heart, raise the psalm of confession to the Lord. Each one forms his own expressions of
   penitence.
+use_note:
+  means: "Basil, defending his church to the clergy of Neocaesarea, describes all-night vigils of confession and antiphonal psalm-singing that he says steady the heart."
+  not_for:
+    - "any view of violence in scripture, which this letter never touches and which cappadocian.dw.psalms-teach-the-singer says the record lacks"
+    - "a neutral report, when Basil is answering critics and defending his own church"
+    - "a claim that every church in the region kept the same night vigil in the same form"
+  years: {from: 375, to: 375}
+  status: reviewed
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "antiphonal"

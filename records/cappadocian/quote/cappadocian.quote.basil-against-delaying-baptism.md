@@ -69,6 +69,14 @@ modern_rendering: >-
   go without your viaticum. Do not lose your safeguard. Do not treat the eleventh hour as
   if it were the first. Even at the beginning of life, it is fitting that we already have
   the end in view.
+use_note:
+  means: "Basil's Homily on Holy Baptism, known here only through an excerpt quoted in the NPNF Prolegomena, urges young and old alike not to postpone baptism."
+  not_for:
+    - "the whole text of the homily as checked here, when only an editor's excerpt survives in the vendored volume"
+    - "a claim that this world baptized infants or did not, a question cappadocian.dw.baptism-and-new-birth says the record cannot settle"
+    - "deathbed baptism as a fringe habit rather than a practice common enough to need a sermon"
+  years: {from: 360, to: 379}
+  status: reviewed
 ---
 Found by following the build brief's own trail. `grep -n "Homily
 XIII"` on `cic/texts/npnf208_basil-letters-select-works.xml` returns one

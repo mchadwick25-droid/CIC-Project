@@ -39,5 +39,13 @@ senses:
     -- the gap here is textual access, not meaning.
 quick_meaning: 'Envy: named in our own moral preaching as a diabolical sin.'
 distortion_risk: low
+use_note:
+  means: "Phthonos meant envy, preached against as a diabolical vice of the heart that cannot bear another's good fortune."
+  not_for:
+    - "the verbatim sermon text, since it is unacquired"
+    - "anger, which sits in cappadocian.term.orge"
+    - "greed, which sits in cappadocian.term.pleonexia"
+  years: {from: 368, to: 379}
+  status: reviewed
 ---
 Built from Doc_06 entry 35 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.

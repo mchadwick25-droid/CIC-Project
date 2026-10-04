@@ -63,6 +63,15 @@ modern_contrast: >-
   his election, personal exhaustion, disgust with the contest itself - and
   does not adjudicate among them, because no other account exists to
   adjudicate against.
+use_note:
+  means: "Gregory of Nazianzus led a small Nicene congregation in Constantinople from 379, preached the Theological Orations, was made bishop and resigned, all in his own telling."
+  not_for:
+    - "his account of his opponents' motives as independently checked"
+    - "his reasons for resigning as settled"
+    - "a Homoian account of the episode, which does not survive"
+    - "his earlier trouble over Sasima, which sits in cappadocian.story.sasima-wound"
+  years: {from: 379, to: 381}
+  status: reviewed
 ---
 Derived from Doc_09 entry #10 (Tier 1). FLAGGED, NOT SILENTLY RECONCILED:
 Doc_09's own confidence column names this a "McGuckin-register caution,"

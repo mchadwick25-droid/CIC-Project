@@ -54,5 +54,14 @@ senses:
     an unfinished one, because completion would mean love had stopped reaching.'
 quick_meaning: 'The stretching-forward: growth into God that never ends, because God has no limit to reach.'
 distortion_risk: medium
+use_note:
+  means: "Epektasis meant the soul's never-ending stretching toward a limitless God, a teaching mainly of Gregory of Nyssa."
+  not_for:
+    - "the whole world's shared teaching"
+    - "generic spiritual-journey language"
+    - "the permanent gap behind it, which sits in cappadocian.term.diastema"
+    - "the Life of Moses as a source this build holds"
+  years: {from: 372, to: 394}
+  status: reviewed
 ---
 Built from Doc_06 entry 25 (Tier 2). Life of Moses is cited by Doc_06 as a Key Text here (and for akatalepsia) but has no source record anywhere in this project's manifest -- Doc_06's own footnote 4 flags this as a gap-list omission the build thread should fill; not fabricated a citation for it here.

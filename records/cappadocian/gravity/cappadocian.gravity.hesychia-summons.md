@@ -49,29 +49,36 @@ relations:
 name: "Hēsychia against the summons [TENSIONAL]"
 classification: tensional
 description: >-
-  The pull between stillness and office: the Pontus retreat against the metropolis; flight from
-  ordination; the philosopher conscripted (Doc_04 §1, §4) - the formed core's unresolved interior pull,
-  enacted in the world's most consequential careers. AG FLAG AT GENERATION (Doc_04 §1): articulated almost
-  wholly by the three authors about themselves - but it is also enacted in their documented careers, which
-  is evidence of a different kind than self-description. SIX-TEST SUMMARY (Doc_04 §3.1): strong on
-  Repetition, Explanatory, Interaction; strong for the formed core on Formation; MODERATE (author-bounded) on
-  Persistence and Dependency. The Interaction and Explanatory tests rescue it from being mere discourse: it
-  explains otherwise-odd public facts (why the world's greatest rhetor spent his prime in flight; why its
-  metropolitan kept writing longingly of a riverbank he never returned to), and it interacts with nearly
-  every other candidate - it is the ascetic candidate's interior cost, the paideia candidate's renunciation
-  problem, the patron-bishop candidate's shadow - with its social breadth honestly bounded (the plateau
-  farmer was not fleeing ordination). CONFIDENCE/GRAVITY CROSS-CHECK (Doc_04 §3.2, added at Revision 1):
-  organizing strength strong within the formed core; evidence Documented (enacted careers); the divergence
-  is breadth-versus-articulacy, not strength-versus-confidence, carried rather than resolved. Tensional
-  stands. FORCES TEST (Doc_04 §3.3): intensifies precisely when the external contest most needs conscripts -
-  the worse the church's public emergency, the harder the pull on the formed contemplative; the tension is a
-  force-response, not a temperament. CROSS-REGISTER (Doc_04 §5): the formed core (ascetics, clergy, the
-  circle); not the plateau's tension. Register-bounded (formed core).
+  This is the pull between stillness and office. The retreat in Pontus stands against the metropolis. Men
+  fled ordination. The philosopher was drafted. It is the formed core's unresolved inner pull, lived out
+  in the world's most important careers. The pull is voiced almost wholly by the three authors about
+  themselves. But it is also enacted in their documented careers, and that is evidence of a different kind
+  than self-description. It is strong on repetition, on explanation and on interaction. It is strong on
+  formation for the formed core. It is moderate on persistence and dependency, bounded by its authors. The
+  tests of interaction and explanation save it from being mere talk. It explains odd public facts. The
+  world's greatest orator spent his prime in flight. Its metropolitan kept writing with longing of a
+  riverbank he never returned to. It touches nearly all the other candidates. It is the ascetic gravity's
+  inner cost. It is the paideia gravity's problem of renunciation. It is the shadow of the patron-bishop
+  gravity. Its reach in society is honestly bounded, since the plateau farmer was not fleeing ordination.
+  Its pull is strong within the formed core, and the evidence rates Documented in the enacted careers. The
+  divergence is between breadth and articulacy, not between strength and confidence. It is carried, not
+  resolved. It remains a tension. The pull grows just when the outside contest most needs recruits. The
+  worse the church's public emergency, the harder the pull on the formed contemplative. The tension
+  answers to force. It is not a temperament. It belongs to the formed core of ascetics, clergy and the
+  circle. It is not the plateau's tension. It is bounded to the formed core.
 manifestations:
 - Basil's early letters describing the retreat ideal, set against the career he actually lived
 - Nazianzen's Oration 2, the flight narratives, De vita sua, the Sasima wound
 - Nyssen the unwilling administrator - Basil's own complaints of his brother's unfitness for office
 - Gregory of Nazianzus's resignation at Constantinople 381 - the tension's last documented act, walking away from the throne he had just been given
+use_note:
+  means: "The pull between stillness and office shows in the careers of the three teachers, who longed for retreat yet were summoned to public office."
+  not_for:
+    - "the plateau farmer's concern, since the tension belongs to the formed core"
+    - "a settled reading of the Sasima appointment, whose telling is Gregory's alone as set out in cappadocian.story.sasima-wound"
+    - "the teaching on stillness and the summons, which sits in cappadocian.dw.stillness-and-the-summons"
+  years: {from: 329, to: 390}
+  status: reviewed
 ---
 Re-derived from the cleared Doc_04 (candidate 7 -> final Gravity 8, per §4's concordance table). Interaction
 Matrix (§6, row/col 7): reshaping (S) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 6 (household),

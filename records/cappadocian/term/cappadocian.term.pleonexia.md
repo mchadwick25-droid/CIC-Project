@@ -57,5 +57,14 @@ senses:
 quick_meaning: 'Greed: grasping for more -- the vice our famine preaching named to the hoarders''
   own faces.'
 distortion_risk: medium
+use_note:
+  means: "Pleonexia meant grasping greed, the vice named to hoarders in famine through torn-down barns, withheld grain and interest."
+  not_for:
+    - "a flat platitude that greed is bad"
+    - "the homilies as checked texts, since they are unacquired"
+    - "the famine story itself, which is told in cappadocian.story.famine-open-barns"
+    - "the teaching on love of the poor, which sits in cappadocian.term.philoptochia"
+  years: {from: 368, to: 394}
+  status: reviewed
 ---
 Built from Doc_06 entry 24 (Tier 2). Note (finding worth recording): Doc_06's own Master Index (Index A) marks this term's key texts 'gap only... no registry row at all,' but the B-1 Source Registry that now exists in fact holds a row for exactly this content -- cappadocian.source.basil-moral-famine-homilies, whose own work field names 'the rich fool's barns... against usury' directly. Doc_06's gap annotation appears stale relative to the fuller B-1 registry, not a live gap; cited here accordingly, with the source's own now-corrected unverified caveat carried forward.
