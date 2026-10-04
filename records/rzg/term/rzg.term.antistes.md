@@ -42,6 +42,12 @@ senses:
 quick_meaning: Zurich's own senior pastoral title. Bullinger held it after Zwingli. It answers to the
   city council.
 distortion_risk: low
+use_note:
+  means: "Antistes is Zurich's own senior pastoral title, held by Bullinger after Zwingli, and it answers to the city council."
+  not_for:
+    - "a claim that the antistes was a bishop with authority independent of the city council"
+  years: {from: 1531, to: 1650}
+  status: provisional
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this

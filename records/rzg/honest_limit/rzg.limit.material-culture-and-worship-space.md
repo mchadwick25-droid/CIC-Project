@@ -36,5 +36,11 @@ why_sources_cannot_answer: 'Doc_07_Integrated_Ecology_Analysis.md SS2G states th
 nearest_material:
 - rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 - rzg.ambient.emptied-worship-space
+use_note:
+  means: "The record states what the cities refused in worship, such as images and sacrificial altars, but has no source describing the worship space, its furnishing or its appearance."
+  not_for:
+    - "a claim that the look, size or furnishing of a worship space is documented here"
+  years: {from: 1519, to: 1650}
+  status: provisional
 ---
 Celled to F5-E ('If archaeologists dug up the place you met, what would they find?') -- the closest fleet match for a physical/material question this world's own corpus cannot answer from a direct source. Confidence deliberately set lower (C / named-not-rechecked / illustrative / Inferential-Thin) than the other six honest_limit records in this script, matching Doc_07 SS2G's own explicit Inferential-Thin rating -- the same discipline don.limit.basilica-archaeology applies for its own analogous lower-confidence gap. nearest_material lists rzg.ambient.emptied-worship-space (this script's own inference-based ambient record, built from the same disclosed lower-confidence material) rather than a relations[] edge, since ambient records carry no formation claim this limit could reciprocally attach to.

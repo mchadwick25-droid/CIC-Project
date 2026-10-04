@@ -31,5 +31,12 @@ why_sources_cannot_answer: 'Checked directly against every term, story, quote, a
   field and Doc_07 SS5, restated here at this specific cell''s own level.'
 nearest_material:
 - rzg.core.the-reformed-cities-zurich-and-geneva
+use_note:
+  means: "The record contains no teaching on marriage or on wealth and poverty, only the biographical fact that Zwingli and Calvin were married men."
+  not_for:
+    - "a claim that these cities had a recorded teaching on marriage"
+    - "a claim that these cities had a recorded teaching on wealth and poverty"
+  years: {from: 1519, to: 1650}
+  status: provisional
 ---
 Celled to F5-T ('What did marriage mean to your people -- did you have weddings?' / 'How did you look at money and poverty -- would you call anyone among you rich?'). A genuine, checked absence across the entire corpus, not merely a cell this compile pass declined to fill. relations: [], matching this world's own S2x precedent.

@@ -65,6 +65,13 @@ quick_meaning: Geneva's own body of pastors and lay elders. It holds our whole p
   to account. We can state the general doctrine plainly. Our own day-to-day case history is not yet something
   our sources can supply.
 distortion_risk: high
+use_note:
+  means: "At Geneva the Consistory is a body of pastors and lay elders that holds the whole population's daily conduct to account, while Zurich's council governs church and city directly."
+  not_for:
+    - "a claim that the Consistory was a harsh surveillance body that summoned households and enforced conformity street by street"
+    - "a claim that Zurich had an equivalent body to Geneva's Consistory"
+  years: {from: 1541, to: 1650}
+  status: provisional
 ---
 Built from Lexicon-Chunks/rzglex012_consistory.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /

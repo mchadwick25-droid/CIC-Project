@@ -52,5 +52,12 @@ concedes: We do not deny they read Scripture - we deny they read it whole, and t
   own build does not narrate the civil suppression that followed the 1525 baptisms in detail, and this
   record does not supply that detail from outside this world's own vendored corpus.
 divergence_partners: []
+use_note:
+  means: "The Reformed side holds that the 1525 Swiss Brethren baptisms misread Scripture because a church of voluntary adult profession unmakes the unity of church and city."
+  not_for:
+    - "a claim that the Anabaptists did not read Scripture or were outside Zurich's founding circle"
+    - "a claim that the record settles whether the Anabaptists applied the Reformed method consistently"
+  years: {from: 1525, to: 1650}
+  status: provisional
 ---
 Built from this world's own already-reviewed construction documents (Doc_03 SS4/Doc_06 SS2 for the CT term; Doc_04 SS3.5 for T2's own open judgment call; Doc_08 Force 2B-1 and Doc_05 SS2 for the Anabaptist schism), per Doc_03/Doc_04's own explicit disclosure that these are this world's own genuinely open questions, not settled findings this record adjudicates. register: etic, matching don's own precedent - a contested_claim states what is contested from outside this world's own voice, distinct from term/story/gravity's own emic register.

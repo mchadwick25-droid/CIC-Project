@@ -41,5 +41,11 @@ nearest_material:
 - rzg.gravity.consistorial-church-discipline
 - rzg.term.consistory
 - rzg.term.excommunication
+use_note:
+  means: "The record gives the Consistory's doctrine of censure and readmission to repentance, but no named case, real hearing or recorded words, because the registers are not in the corpus."
+  not_for:
+    - "a claim that any individual Consistory hearing can be narrated from this record"
+  years: {from: 1519, to: 1650}
+  status: provisional
 ---
 Celled to F4-I ('When someone wronged the community, how was it handled -- and could they come back?') -- a direct match, and the fleet question a real consistory case would answer most fully. This record's own statement is careful to give the general, Documented doctrine (censure, readmission held open) while naming plainly that no specific case survives -- the same general-doctrine/specific-case-law split Doc_07 SS2E/SS7 and Doc_04 SS7 both name. relations[] links to the G4 gravity and the Consistory term -- reciprocal edges added directly to both files after this script runs.

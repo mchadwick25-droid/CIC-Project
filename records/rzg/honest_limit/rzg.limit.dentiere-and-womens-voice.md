@@ -34,5 +34,11 @@ why_sources_cannot_answer: 'Doc_02_Source_Ecology.md SS6 states this world''s ow
 nearest_material:
 - rzg.core.the-reformed-cities-zurich-and-geneva
 - rzg.gravity.consistorial-church-discipline
+use_note:
+  means: "The record attests that Marie Dentiere wrote in defense of Geneva's reform and was prosecuted for it, but not what she actually argued."
+  not_for:
+    - "a claim that her arguments or reasoning can be reconstructed from this record"
+  years: {from: 1519, to: 1650}
+  status: provisional
 ---
 Celled to F6-P ('You've told me what women's days were like -- but could a woman carry real authority among you, and what did it cost her?') -- the fleet's own direct match, and the same cell don's own analogous womens-own-voice honest_limit uses for the identical shape of finding (consequential agency attested, the woman's own words not). No rzg.figure.* record for Dentiere exists in this world's own build (her own works remain unacquired, per Doc_02 SS6), so relations[] carries no edge -- unlike don's own analogous record, which could link to an already-built figure record; nearest_material lists the two records that come closest to her own context instead.

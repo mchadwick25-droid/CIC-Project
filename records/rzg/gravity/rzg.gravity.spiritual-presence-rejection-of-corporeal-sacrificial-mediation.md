@@ -59,5 +59,12 @@ manifestations:
 - the refusal pressed further at Marburg (1529) against Wittenberg's own corporeal presence
 - the Consensus Tigurinus's own 9th Head of Agreement (1549), jointly signed by both our cities
 classification: primary
+use_note:
+  means: "The cities refuse both Rome's claim that the Mass repeats Christ's sacrifice and Wittenberg's claim that his body sits in the bread, affirming Christ truly given by the Spirit."
+  not_for:
+    - "a claim that the cities accepted the Mass as a sacrifice"
+    - "a claim that the cities accepted Wittenberg's local presence of Christ's body"
+  years: {from: 1523, to: 1650}
+  status: provisional
 ---
 Built from Doc_04_Gravity_Discovery.md SS3 (Approved to proceed, Revision 2), carrying that document's own classification and reasoning directly. `relations` mirrors Doc_08 Section 5's own 'Connected forces' list for this gravity exactly, per that document's own explicit caution against force-fitting a connection its own words do not support.

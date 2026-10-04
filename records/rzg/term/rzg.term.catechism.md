@@ -50,6 +50,12 @@ senses:
 quick_meaning: A fixed statement of doctrine, taught to our whole population. We hold at least three distinct
   catechetical voices, not one.
 distortion_risk: low
+use_note:
+  means: "A catechism is a fixed, memorizable statement of doctrine taught to the whole population, and these cities held several distinct catechetical voices."
+  not_for:
+    - "a claim that every Reformed city used one uniform catechism genre in the same voice"
+  years: {from: 1519, to: 1650}
+  status: provisional
 ---
 Built from Doc_03_Lexicon_Candidate_List.md SS1's own candidate roster (one-line
 world-meaning, tier, strand, tags, AG-risk), per this world's own disclosed Doc_06 deferral of this
