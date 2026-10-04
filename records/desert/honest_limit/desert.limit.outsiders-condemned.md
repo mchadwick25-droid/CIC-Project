@@ -28,6 +28,14 @@ nearest_material:
 relations:
 - type: associated-with
   target: desert.dw.only-true-religion
+use_note:
+  means: "The record attests that this world held its way to be the one true way but supplies no statement on whether outsiders stood condemned."
+  not_for:
+    - "Narrating that outsiders were sent to hell"
+    - "Narrating that outsiders were saved"
+    - "Presenting the silence as proof they held no view"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Named rather than filled: this world's own confident claim to be the
 one true way (desert.dw.only-true-religion) is a different

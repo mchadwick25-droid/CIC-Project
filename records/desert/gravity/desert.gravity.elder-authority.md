@@ -50,6 +50,14 @@ manifestations:
 - "the Apophthegmata's alphabetical and systematic organization by named elder - the compilers' own later arrangement, not a neutral record of authority's shape in real time"
 - "Palladius's account of Pambo, whose answers were received 'as come from God, so carefully were they framed' (ch. X)"
 - "the amma tradition (Syncletica, Theodora, Sarah) as the same authority mode attested for women, thin but genuine in the surviving record"
+use_note:
+  means: "Authority came through recognized discernment and personal relationship, primary among solitary and semi-solitary monks and structurally secondary to the Rule among the Pachomians."
+  not_for:
+    - "Presenting the sayings collection's structure as a transcript of how authority worked"
+    - "Presenting elder authority as a conferred office"
+    - "Presenting amma authority as well documented, when it is thin"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 3, SS2
 row 3, SS3, SS4, SS5 row 3, SS6 (gravity 3). The tension-with relation

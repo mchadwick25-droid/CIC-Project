@@ -39,6 +39,14 @@ senses:
   translational: "For a modern hearer this phrase is the desert's own best translation of itself - what apatheia meant without the philosophy: a heart free enough to aim at one thing."
 quick_meaning: "Purity of heart - Cassian's name for the one goal all the discipline serves."
 distortion_risk: low
+use_note:
+  means: "Puritas cordis was Cassian's Latin name for the immediate goal of ascetic life, chosen in place of the Greek apatheia for his Gallic readers."
+  not_for:
+    - "Presenting it as the desert's own Greek-Coptic speech, when it belongs to Cassian's later transmission to Gaul"
+    - "Hearing it as a vague devotional phrase"
+    - "Equating it with the final end, the kingdom of God, when it names the immediate aim"
+  years: {from: 420, to: 430}
+  status: provisional
 ---
 Re-derived from Doc_06 SS3.2 (Tier 3; tags SC TC PV). Both loci
 machine-verified this session against npnf211. Reception-history

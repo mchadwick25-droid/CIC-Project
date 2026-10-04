@@ -58,6 +58,14 @@ text: >-
   one knows where - except those two men alone.
 absent_detail: "The two attendants are never named, and no account survives in their own words of how they experienced carrying out this instruction, or of the years afterward when they alone knew where the desert's most famous monk was buried. Later traditions claim the site was 'discovered' in 561 and the body eventually moved to Alexandria and then France - traditions that fall outside this world's own c. 320-430 window and that the Vita's own instructions would seem to rule out."
 modern_contrast: "A modern reader is used to founders and famous figures being remembered through monuments, gravesites, or preserved remains open to visitors. This world's own record shows the opposite impulse taken to its extreme: a founder who used his last authority to make sure no monument, grave, or relic could ever be built, precisely because he thought that kind of memory got in the way of the very discipline he had spent his life teaching."
+use_note:
+  means: "Athanasius reports that, near death, Antony ordered two attendants to bury him secretly, refusing the custom of keeping a holy man's body in the house."
+  not_for:
+    - "Presenting incident-level details as verified history, since their reliability is contested"
+    - "Linking it to the later 561 discovery or to relic traditions in Alexandria and France"
+    - "Naming the attendants or narrating their experience, which no source gives"
+  years: {from: 355, to: 356}
+  status: provisional
 ---
 This record reconciles `cic-website/atlas-v3.html`'s desert-monasticism
 `documentedStories` entry "Antony Has Himself Buried Where No One Will

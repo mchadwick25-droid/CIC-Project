@@ -55,6 +55,14 @@ manifestations:
 - "Antony's demonic assaults at the tombs (Vita SS8-9) and in the fort (SS12-13)"
 - "the logismoi as the most common subject of the sayings tradition, recurring across named elders and settlements alike - though how far that cross-settlement pattern reflects the settlements themselves and how far it reflects the sayings' later compilers' own arrangement is not settled"
 - "the terse apophthegm form itself read as a combat technique - answer, don't dwell"
+use_note:
+  means: "The struggle against tempting thoughts was this world's ordinary, cross-strand subject matter, tested apart from Evagrius's systematization of it."
+  not_for:
+    - "Presenting Evagrius's eight-fold scheme as the general form of the combat"
+    - "Hearing the thoughts as clinical symptoms"
+    - "Presenting the tomb demons as a neutral incident report"
+  years: {from: 270, to: 430}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 2, SS2
 row 2, SS3, SS4, SS5 row 2, SS6 (gravity 2). Deliberately tested apart

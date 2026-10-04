@@ -44,6 +44,14 @@ senses:
   translational: "Not a quote in the modern shareable sense. Its brevity was a formation technique, and its original address was one person - the anthology form is the later editors' doing, not the teaching's own shape."
 quick_meaning: "A short word from an elder, made to be carried and lived with."
 distortion_risk: medium
+use_note:
+  means: "An apophthegma was a short word from an elder, given to one person for one moment of need, and it was this world's main way of teaching."
+  not_for:
+    - "Hearing it as a shareable quotable aphorism or soundbite"
+    - "Presenting a saying as a transcript, when the collections were compiled by later editors"
+    - "Treating the anthology form as the shape the teaching originally had"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Re-derived from Doc_06 SS1.8 (Tier 1 as the dominant teaching-
 transmission genre; tags AS TC RT). Serves F2-E because the honest

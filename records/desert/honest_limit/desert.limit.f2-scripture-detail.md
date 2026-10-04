@@ -24,6 +24,14 @@ nearest_material:
 relations:
 - type: associated-with
   target: desert.quote.whence-canst-thou-prove-to-us
+use_note:
+  means: "The record attests scripture used as counsel for one struggle at a time but does not supply how participants read hard passages, Genesis, or scripture's authority."
+  not_for:
+    - "Narrating how desert monks read violent or difficult passages or Genesis"
+    - "Presenting the silence as proof the questions never occurred to anyone"
+    - "Claiming whether they held scripture to be their only authority"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Named directly rather than filled: desert.gravity.scriptural-engagement's
 own description already states this world's reading mode was practical

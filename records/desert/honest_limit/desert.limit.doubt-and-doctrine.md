@@ -22,6 +22,14 @@ nearest_material:
 - desert.quote.the-word-took-a-human-body
 - desert.dw.god
 - desert.dw.jesus
+use_note:
+  means: "The record attests one stated reason for the incarnation but supplies no account of how Christ's death saves and no first-person confession of doubt."
+  not_for:
+    - "Narrating a theory of atonement as this world's own"
+    - "Presenting Athanasius, an outside bishop, as a desert participant's confession"
+    - "Inventing a desert voice's experience of doubt"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 This record's canon_cells claim is narrowed to the atonement-mechanics
 and personal-Lord sub-questions specifically, which remain genuinely

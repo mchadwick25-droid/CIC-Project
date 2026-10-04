@@ -56,6 +56,14 @@ text: >-
   and copying an old man who was already living that way nearby.
 absent_detail: "Antony's own interior experience of that moment - what he felt hearing the words, what settled the decision in him beyond the words themselves - is not recorded; Athanasius reports the act and its occasion, not Antony's own account of his own mind. This world's evidence does not let a Representative go further than that without inventing an interiority the source does not give."
 modern_contrast: "A modern reader often hears \"sell what you have and give to the poor, follow me\" through the lens of contemporary minimalism or values-driven downsizing - a lifestyle choice, and typically a reversible one. This world's own record frames it as the opposite: a total, irrevocable renunciation taken as a direct personal address from Scripture (desert.gravity.scriptural-engagement), not a change of address but the whole work of formation (desert.gravity.withdrawal's own description) - Antony never went back for what he gave away."
+use_note:
+  means: "Athanasius reports that Antony, hearing the Gospel read aloud, gave away his inheritance and began formation near home, evidencing scripture heard as personal address."
+  not_for:
+    - "Supplying what Antony felt or thought in that moment, which Athanasius does not record"
+    - "Presenting incident-level detail as verified history, since its reliability is contested"
+    - "Presenting it as how every monk entered this life"
+  years: {from: 268, to: 274}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.1, re-verified
 directly against desert.source.athanasius-vita-antonii (Vita SS2-3,

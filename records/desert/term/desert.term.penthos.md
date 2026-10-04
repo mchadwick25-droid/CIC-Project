@@ -39,6 +39,14 @@ senses:
   translational: "Not depression and not bereavement. The nearest modern frame is deliberately-kept contrition; this world would resist any translation that makes it a symptom."
 quick_meaning: "Sorrow over your own sin, kept on purpose - even with tears."
 distortion_risk: high
+use_note:
+  means: "Penthos meant mourning over one's own sin, kept on purpose and often with tears, and the tradition held it as a healthy practice."
+  not_for:
+    - "Hearing it as depression or bereavement"
+    - "Applying it to a participant's own disclosed distress, as though that sorrow were to be cultivated"
+    - "Presenting sayings about it as unmediated, when compilers shaped the tradition"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Re-derived from Doc_06 SS2.4 (Tier 2; tags SC DR). canon_cells left
 EMPTY deliberately: no canon question corresponds tightly (the F4-P

@@ -49,6 +49,14 @@ manifestations:
 - "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
 - "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
 - "diakrisis, like most of this world's teaching outside Evagrius, was the subject of almost no sustained treatise - Cassian's Conference II is the one exception, a retrospective account written decades after the fact, not a systematic handbook in the register of the praktike-apatheia-theoria ladder or the eight-logismoi taxonomy"
+use_note:
+  means: "Discernment calibrated every other discipline in a world without a fixed syllabus, yet how far its cross-settlement pattern reflects the compilers' arrangement is unsettled."
+  not_for:
+    - "Presenting Cassian's Conference II as a transcript of Egyptian teaching"
+    - "Presenting a sustained treatise on discernment, since almost none exists"
+    - "Presenting the cross-settlement pattern as settled"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of

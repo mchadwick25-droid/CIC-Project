@@ -46,6 +46,14 @@ senses:
   translational: "Not a job, and not proof the monks 'really' stayed worldly: the same weaving that fed a monk also tied the settlements into village markets - both things are true, and the tradition held them together without embarrassment."
 quick_meaning: "Hand-work - rope, baskets, linen - that fed the monks and trained them."
 distortion_risk: medium
+use_note:
+  means: "Cheironaxia meant hand-work such as rope, baskets, and linen, done both to earn a living and as a discipline against idleness."
+  not_for:
+    - "Hearing it as a menial day-job kept separate from the spiritual life"
+    - "Presenting it as proof the monks were really worldly, or as proof they were cut off from village markets"
+    - "Treating the Nepheros letters as describing practice at Nitria, Kellia, or Scetis"
+  years: {from: 270, to: 430}
+  status: provisional
 ---
 Re-derived from Doc_06 SS1.7 (Tier 1; anchors gravity 4; tags AS TC
 RT). verified-direct because the two load-bearing textual anchors are

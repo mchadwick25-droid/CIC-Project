@@ -68,6 +68,13 @@ manifestations:
 - "the eight-logismoi taxonomy as a named, systematic scheme, distinct from the general combat theme's looser attestation"
 - "the praktike-apatheia-theoria ladder, this world's only systematic account of contemplative ascent"
 - "Socrates's own naming and description of Evagrius's works, in Zenos's English, as the sole in-corpus English witness to their existence and shape"
+use_note:
+  means: "Evagrius's system of eight logismoi and a ladder from practice to contemplation shaped Kellia's learned circle but did not organize the wider movement."
+  not_for:
+    - "Presenting the eight-thought list or the ladder as the movement's shared teaching"
+    - "Applying it to the formation of solitary hermits or Pachomian monks"
+  years: {from: 385, to: 399}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 9, SS2
 row 9, SS3, SS4, SS5 row 9, SS6 (gravity 9). Its later transmission

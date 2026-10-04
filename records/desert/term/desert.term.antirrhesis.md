@@ -41,6 +41,14 @@ senses:
   translational: "Not positive self-talk and not inner argument - this answers a thought from outside itself, with a word that is not yours, rather than debating it on its own ground."
 quick_meaning: "Answering a tempting thought, on the spot, with a verse of scripture."
 distortion_risk: medium
+use_note:
+  means: "Antirrhesis meant answering a tempting thought at once with a fitting line of scripture, a technique Evagrius systematized in his Antirrhetikos."
+  not_for:
+    - "Hearing it as positive self-talk, affirmation, or arguing with oneself"
+    - "Presenting it as the whole movement's shared practice, when it comes from one author, Evagrius"
+    - "Quoting Antirrhetikos wording, since no vendored text exists"
+  years: {from: 385, to: 399}
+  status: provisional
 ---
 Re-derived from Doc_06 SS3.1 (Tier 3; tags AS TC PV). The prior
 build's corrected transmission fact stands: the Antirrhetikos survives

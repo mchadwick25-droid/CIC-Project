@@ -48,6 +48,14 @@ relations:
   target: desert.dw.god
 - type: associated-with
   target: desert.dw.writings
+use_note:
+  means: "The record attests an argued position on faith and works, with grace holding the main share, but supplies no answer on original sin or the Eucharist."
+  not_for:
+    - "Narrating a desert doctrine of original sin or eucharistic presence"
+    - "Presenting the silence as proof they held no view"
+    - "Presenting the faith-and-works conclusion as settled desert doctrine rather than one recorded argument"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 F1-T's three fleet questions are original sin, the eucharist, and faith
 versus works. desert.quote.antony-arians-serpents carries only a

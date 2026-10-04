@@ -68,6 +68,15 @@ text: >-
   the low thousands - likewise a rough estimate, not a precise count.
 absent_detail: "No account here claims the vision or the tablet as verified history rather than the tradition's own remembered founding story; Palladius's own text is a hagiographic summary at one remove from the Rule's own text, not the Rule itself, and the multiple, only partially overlapping recensions of the Lives carry a genuinely unresolved version-priority debate this document does not adjudicate."
 modern_contrast: "A modern reader may hear a founder receiving a revelation and scaling an organization and reach for the contemporary \"founder origin story\" genre - a visionary's master plan. This world's own record frames the angel and tablet as an answer to a real, specific problem this world faced (desert.force.formation-at-scale: how a formation demanding one extraordinary hermit's own intensity could work for many, not one man's ambition), and the vision itself carries Palladius's own hagiographic frame rather than neutral incident report, as this record's own tellable_as and text already mark."
+use_note:
+  means: "The tradition tells that Pachomius, sent by an angel with a brass tablet to gather young monks, founded a rule-governed community that grew to thousands."
+  not_for:
+    - "Presenting the vision or the tablet as verified history"
+    - "Treating Palladius's population figures as precise counts"
+    - "Presenting recension-specific Lives details, such as the brother John, as settled"
+    - "Merging it with the iron-tablet account in desert.story.angel-hands-the-tablet"
+  years: {from: 318, to: 346}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.3. The
 vision/tablet material is newly and directly verified against the

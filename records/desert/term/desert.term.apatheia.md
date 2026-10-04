@@ -59,6 +59,14 @@ senses:
   translational: "Never translate as apathy. 'Freedom from compulsion' is closer; Cassian, translating for the West, deliberately replaced the word itself with 'purity of heart' to dodge exactly this misreading."
 quick_meaning: "Freedom from the passions that drive you. Won slowly - and it is not apathy."
 distortion_risk: high
+use_note:
+  means: "Apatheia meant freedom from the passions that drive a person, the goal of the practical stage in Evagrius's scheme, and it never meant apathy."
+  not_for:
+    - "Translating it as apathy or not caring"
+    - "Presenting it as the whole movement's vocabulary, when it belongs to the learned circle at Kellia"
+    - "Presenting as settled that Antony himself had the philosophical literacy this vocabulary presupposes"
+  years: {from: 385, to: 399}
+  status: provisional
 ---
 Re-derived from Doc_06 SS2.2 (Tier 2; tags AS TC DR PV CT). The [CT]
 contest is carried exactly as that document's twice-corrected form has

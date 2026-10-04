@@ -35,6 +35,14 @@ nearest_material:
 relations:
 - type: associated-with
   target: desert.story.moses-leaking-jug
+use_note:
+  means: "The surviving record has stories of individual repentance and judgment refused but none of a community that harmed someone and then made it right."
+  not_for:
+    - "Narrating a story of the community making amends, which no account supplies"
+    - "Presenting the absence as proof it never happened, since the record cannot say"
+    - "Offering Moses's reception or the leaking jug as communal restitution"
+  years: {from: 320, to: 430}
+  status: provisional
 ---
 Drafted alongside the three pahc silences - see
 pahc.limit.enslaved-voices' trailing note for the shared basis. Celled

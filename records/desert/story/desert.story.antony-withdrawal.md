@@ -52,6 +52,14 @@ text: >-
   to be sought again.
 absent_detail: "The Vita does not supply Antony's own account of what changed for him at each remove, or what specifically made the fort, and later the crowds around it, no longer enough - only that he moved on. This world's evidence gives the pattern, not the felt reasoning behind each specific move."
 modern_contrast: "A modern reader may hear a lifelong pattern of moving further from people as social avoidance, or read the crowds that kept finding him as ironic proof the withdrawal 'failed.' This world's own record frames the two as compatible rather than contradictory: withdrawal was the whole work of formation (desert.gravity.withdrawal), and being sought out anyway was never the point being defeated - elder-mediated authority (desert.gravity.elder-authority) depended on exactly this kind of asymmetric access, a formed person others could reach even in retreat."
+use_note:
+  means: "Antony withdrew repeatedly, from an older ascetic near his village to an abandoned fort to the inner mountain, evidencing withdrawal as a lifelong deepening."
+  not_for:
+    - "Presenting the calendar years or the mountain's location as coming from the Vita, which gives neither"
+    - "Supplying Antony's reasons for each move, which the Vita does not give"
+    - "Presenting incident-level detail as settled"
+  years: {from: 270, to: 313}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.2. SS3-4 and
 SS12-13 verified directly against the vendored file this session

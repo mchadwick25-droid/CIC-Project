@@ -49,6 +49,14 @@ senses:
   translational: "'Communal rule' undersells it: this was an institutional invention answering a real problem - how total formation could scale past one extraordinary hermit - and it sat in unresolved tension with the elder-model for this world's whole span."
 quick_meaning: "Pachomius's linked houses: one written rule, one head."
 distortion_risk: medium
+use_note:
+  means: "Koinonia was Pachomius's own name for his federation of linked houses under one written rule, common property, and a single head."
+  not_for:
+    - "Hearing it as loose Christian fellowship or any monastery whatever"
+    - "Applying it to the solitary or semi-solitary life, which had no equivalent institution"
+    - "Presenting Rule or Lives details as verified when they rest on consult-only scholarship"
+  years: {from: 318, to: 346}
+  status: provisional
 ---
 Re-derived from Doc_06 SS1.9 (Tier 1 for Strand B specifically, per
 Doc_03 SS1.19 and gravity 6; tags SC TC RT PV). The strand-bound

@@ -55,6 +55,14 @@ text: >-
   Now that you have endured and were not overcome, I will always be your help.
 absent_detail: "The demons-as-beasts imagery is this world's own chosen register for representing interior struggle at its most extreme, not a claim about literal historical events - this record does not present it as neutral incident report, and neither should a telling of it."
 modern_contrast: "A modern reader may hear a man alone in a tomb, beaten until he cannot speak, refusing care and returning to the same place, and reach for a mental-health frame (a psychiatric crisis, self-harm) rather than this world's own frame. This world's own record holds it as the most extreme instance of spiritual combat against the interior enemy (desert.gravity.spiritual-combat), the same struggle that replaced martyrdom once dying for the faith was no longer possible (desert.force.martyrdom-unavailable) - not a crisis to be treated, but total combat willingly sought. This record does not present it as neutral incident report, and neither should a telling of it."
+use_note:
+  means: "The Vita portrays Antony shut in a tomb, beaten by demons in beast form, and relieved by a light, evidencing how this world pictured total combat."
+  not_for:
+    - "Presenting the beating or the beasts as a neutral historical incident"
+    - "Claiming to know what specifically happened in the tomb"
+    - "Generalizing it to the ordinary experience of desert monks"
+  years: {from: 270, to: 286}
+  status: provisional
 ---
 Re-derived from the prior build's cleared Doc_09a Story 3.1. SS8-9 and
 SS12-13 are verified directly against the vendored file (the same
