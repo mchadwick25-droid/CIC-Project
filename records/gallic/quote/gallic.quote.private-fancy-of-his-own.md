@@ -23,6 +23,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether Vincent exempted anyone - even a bishop or a martyr - from his rule of consent"
   - "participant asks how Vincent's method treats a single teacher's dissenting opinion"
+  - "participant wants Vincent's own most direct statement that office does not settle a doctrinal question"
   prefer_instead:
   - "participant asks about a specific dissenting teacher Vincent has in mind - this record carries only his general rule, not a named case"
 text: >-
@@ -55,10 +56,11 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.force.legitimacy-by-reception
 use_note:
   means: "Vincent, in chapter 28 of the Commonitory, rules that a lone teacher's view against all, whatever his rank, is a private fancy, lest the Church follow one man's error."
   not_for:
-    - "a separate witness from gallic.quote.private-fancy-be-he-a-bishop, which carries the opening of this same sentence"
     - "hostility to bishops as such, when the rule weighs every rank alike"
     - "Vincent's threefold test, which sits in gallic.quote.believed-everywhere-always-by-all"
   years: {from: 434, to: 434}

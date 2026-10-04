@@ -55,7 +55,7 @@ use_note:
   means: "Chaeremon, in Cassian's Conference XIII, rejects as profane the notion that everything rests on free will and that grace follows each man's desert."
   not_for:
     - "Cassian as a teacher of salvation by free will, which this passage expressly refuses"
-    - "the opposite refusal of a limited saving will, which sits in gallic.quote.without-grievous-blasphemy-all-men-to-be-saved"
+    - "the opposite refusal of a limited saving will, which sits in gallic.quote.grievous-blasphemy-not-all-men-to-be-saved"
     - "a resolution of the contested grace teaching of Conference XIII"
   years: {from: 426, to: 426}
   status: reviewed

@@ -96,7 +96,7 @@ relations:
 - type: associated-with
   target: gallic.quote.chaeremon-grace-requires-our-effort
 - type: associated-with
-  target: gallic.quote.without-grievous-blasphemy-all-men-to-be-saved
+  target: gallic.quote.grievous-blasphemy-not-all-men-to-be-saved
 - type: associated-with
   target: gallic.quote.chaeremon-three-stages-of-grace
 - type: associated-with
@@ -176,7 +176,7 @@ of Lérins) and, for Augustine's own report, cic/texts/npnf105_augustine-anti-pe
 (Augustine of Hippo, context only). This description paraphrases the primary sources in its own
 voice; their verbatim wording,
 locus, and speaker attribution are each carried in full in
-gallic.quote.without-grievous-blasphemy-all-men-to-be-saved,
+gallic.quote.grievous-blasphemy-not-all-men-to-be-saved,
 gallic.quote.not-i-but-the-grace-of-god-with-me,
 gallic.quote.chaeremon-grace-requires-our-effort, gallic.quote.chaeremon-three-stages-of-grace,
 and gallic.quote.massilians-clung-to-their-views.

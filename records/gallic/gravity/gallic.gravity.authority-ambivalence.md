@@ -93,9 +93,9 @@ relations:
 - type: associated-with
   target: gallic.quote.apostolic-authority-in-martin-alone
 - type: associated-with
-  target: gallic.quote.aloof-from-assemblies-of-bishops
+  target: gallic.quote.gallus-on-the-forced-communion-and-the-angel
 - type: associated-with
-  target: gallic.quote.secular-ruler-judge-in-ecclesiastical-cause
+  target: gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause
 - type: associated-with
   target: gallic.quote.devil-incites-desire-for-holy-office
 - type: associated-with
@@ -156,8 +156,8 @@ Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulp
 Vincent of Lérins, John Cassian) and, for the Massilian episode, the same edition's own prolegomena
 (Gibson). This description paraphrases the primary sources in its own voice; their verbatim wording,
 locus, and speaker attribution are each carried in full in gallic.quote.no-others-than-bishops,
-gallic.quote.apostolic-authority-in-martin-alone, gallic.quote.aloof-from-assemblies-of-bishops,
-gallic.quote.secular-ruler-judge-in-ecclesiastical-cause,
+gallic.quote.apostolic-authority-in-martin-alone, gallic.quote.gallus-on-the-forced-communion-and-the-angel,
+gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause,
 gallic.quote.devil-incites-desire-for-holy-office, gallic.quote.massilians-clung-to-their-views,
 gallic.quote.council-over-rashness-and-ignorance, and gallic.quote.private-fancy-of-his-own.
 Canon_cells left empty, matching fleet convention for gravity/force records.

@@ -17,8 +17,9 @@ confidence:
     Documented as Cassian's own text (Conference XIII.13, read at its locus for this record). Widely
     Accepted as Cassian's report of Chaeremon's teaching; its doctrinal content is Contested [CT] for
     its meaning relative to Augustine and for the fairness of the label "semi-Pelagian" - the same
-    caveat carried by this quote's companion records, gallic.quote.germanus-and-chaeremon-on-the-
-    husbandman and gallic.quote.chaeremon-three-stages-of-grace, and neither depended on nor resolved
+    caveat carried by this quote's companion records,
+    gallic.quote.germanus-and-chaeremon-on-the-husbandman and
+    gallic.quote.chaeremon-three-stages-of-grace, and neither depended on nor resolved
     here. This record carries the full sentence through its own contested synergist clause - the words
     below from "in such a way as sometimes even to require" onward - that make grace's co-operation ask
     something of the will in return; that clause is Conference XIII.13's own content, not joined here to

@@ -25,6 +25,8 @@ retrieval:
   retrieve_when:
   - "participant asks why the south called a limited reading of God's saving will blasphemy"
   - "participant wants the Conference's own words on God's will for all, not a summary"
+  - "participant asks whether this world believed God chose only some people for salvation"
+  - "participant asks how Chaeremon argued against a limited view of God's saving will"
   prefer_instead:
   - "participant wants the companion refusal of the opposite extreme (free will alone) - retrieve gallic.quote.profane-notion-attribute-everything-to-free-will"
 text: >-
@@ -44,13 +46,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.africa-and-rome-pressure
+- type: associated-with
+  target: gallic.gravity.grace-and-effort
 use_note:
   means: "Cassian reports Chaeremon arguing that it would be grievous blasphemy to think God wills only some, not all, to be saved."
   not_for:
     - "a named reply to Augustine, when the text names no opponent"
     - "a teaching that all are in fact saved, when it concerns God's will"
     - "the three stages of grace, which sit in gallic.quote.chaeremon-three-stages-of-grace"
-    - "a separate witness from gallic.quote.without-grievous-blasphemy-all-men-to-be-saved, which carries the same sentence"
   years: {from: 426, to: 426}
   status: reviewed
 ---

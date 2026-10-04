@@ -73,8 +73,8 @@ text: >-
   The tradition Cassian set down for Gaul tells of a cook and three lentils.
 
   In the coenobia of the East, the brethren serve the house by the week, taking turns at the same
-  duties across Mesopotamia, Palestine, Cappadocia, and the whole region (gallic.quote.weekly-service-
-  and-sacred-vessels). When a week ends, the departing server hands over the vessels and tools he used
+  duties across Mesopotamia, Palestine, Cappadocia, and the whole region
+  (gallic.quote.weekly-service-and-sacred-vessels). When a week ends, the departing server hands over the vessels and tools he used
   to the brother taking his place, who then guards them with real care and anxiety - the brothers
   believe that even the smallest vessel is sacred, and that an account for it is owed not only to the
   steward on duty but to the Lord himself. Cassian offers one example of how far that care goes.

@@ -26,7 +26,7 @@ retrieval:
   - "participant asks what Cassian names as the specific failure when reception logic is not followed"
   - "participant wants the negative case (invented rules) rather than the positive standard"
   prefer_instead:
-  - "participant wants Cassian's own positive statement of the standard instead - retrieve gallic.quote.allegiance-to-antiquity-not-a-few"
+  - "participant wants Cassian's own positive statement of the standard instead - retrieve gallic.quote.antiquity-and-the-fathers-unanimous-decision"
 text: >-
   And so we see that there is a variety of rules and regulations in use
   throughout other districts, because we often have the audacity to
@@ -55,7 +55,7 @@ use_note:
   means: "Cassian, in Institutes II, blames varied monastic rules on men who become abbots before being disciples and prefer their own inventions to the elders' teaching."
   not_for:
     - "a survey showing every Gallic house was disordered"
-    - "Cassian's appeal to the antiquity of the many, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
+    - "Cassian's appeal to the antiquity of the many, which sits in gallic.quote.antiquity-and-the-fathers-unanimous-decision"
     - "Vincent's rule on doctrine, which sits in gallic.quote.not-an-author-but-a-keeper"
   years: {from: 415, to: 426}
   status: reviewed

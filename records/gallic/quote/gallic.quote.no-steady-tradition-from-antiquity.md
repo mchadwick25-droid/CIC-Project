@@ -26,7 +26,7 @@ retrieval:
   - "participant asks whether Martin himself applied a reception standard to local cult and memory"
   - "participant wants an episode from Tours applying the same logic the south states systematically"
   prefer_instead:
-  - "participant wants the south's own systematic statement of the same standard - retrieve gallic.quote.allegiance-to-antiquity-not-a-few"
+  - "participant wants the south's own systematic statement of the same standard - retrieve gallic.quote.antiquity-and-the-fathers-unanimous-decision"
 text: >-
   He did so, he said, because he had great scruples on these points,
   inasmuch as no steady tradition respecting them had come down from

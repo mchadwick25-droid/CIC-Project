@@ -27,6 +27,7 @@ retrieval:
   retrieve_when:
   - "participant asks how Cassian describes meeting Bishop Archebius, or what an Egyptian monk-turned-bishop's story sounded like"
   - "participant uses 'reluctant bishop', 'carried off', or 'unworthy'"
+  - "participant asks how an Egyptian anchorite spoke of being made bishop"
   prefer_instead:
   - "participant wants Archebius's own words to the travelers - retrieve gallic.quote.archebius-see-the-old-men instead, or alongside"
   - "participant is asking about Gallic bishops as such - this is an Egyptian bishop's story, told by the man who founded Marseilles's houses"
@@ -58,13 +59,14 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius
+- type: associated-with
+  target: gallic.gravity.monk-bishop
 use_note:
   means: "Cassian recounts meeting Bishop Archebius, taken from the anchorites to be bishop of Panephysis, who kept his solitary strictness and called his election an expulsion."
   not_for:
     - "Archebius's own words to the travellers, which sit in gallic.quote.archebius-see-the-old-men"
     - "a claim independently attested outside Cassian's own writings"
     - "a modesty formula, when Cassian presents the complaint as a real loss"
-    - "a separate witness from gallic.quote.cassian-archebius-expelled-from-monastic-system, whose parenthesis sits inside this sentence"
   years: {from: 426, to: 426}
   status: reviewed
 ---

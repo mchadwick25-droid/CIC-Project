@@ -45,11 +45,11 @@ relations:
 - type: associated-with
   target: gallic.quote.customs-delivered-to-us-by-the-fathers
 - type: associated-with
-  target: gallic.quote.allegiance-to-antiquity-not-a-few
+  target: gallic.quote.antiquity-and-the-fathers-unanimous-decision
 - type: associated-with
   target: gallic.quote.readier-to-require-our-own-inventions
 - type: associated-with
-  target: gallic.quote.private-fancy-be-he-a-bishop
+  target: gallic.quote.private-fancy-of-his-own
 - type: associated-with
   target: gallic.quote.no-steady-tradition-from-antiquity
 name: "Legitimacy by reception - antiquity, the Fathers, and consent against novelty"
@@ -94,8 +94,8 @@ manifestations:
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Sulpitius
 Severus, Vincent of Lérins). This description paraphrases the primary sources in its own voice;
 their verbatim wording, locus, and speaker attribution are each carried in full in
-gallic.quote.customs-delivered-to-us-by-the-fathers, gallic.quote.allegiance-to-antiquity-not-a-few,
-gallic.quote.readier-to-require-our-own-inventions, gallic.quote.private-fancy-be-he-a-bishop, and
+gallic.quote.customs-delivered-to-us-by-the-fathers, gallic.quote.antiquity-and-the-fathers-unanimous-decision,
+gallic.quote.readier-to-require-our-own-inventions, gallic.quote.private-fancy-of-his-own, and
 gallic.quote.no-steady-tradition-from-antiquity.
 
 This force's own relations to this world's other gravities and forces are declared in full in its

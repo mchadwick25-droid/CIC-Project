@@ -52,7 +52,7 @@ use_note:
   means: "Vincent states in the Commonitory that true Catholic faith is what has been believed everywhere, always and by all, tested by universality, antiquity and consent."
   not_for:
     - "the rule for preferring a general council over a few, which sits in gallic.quote.council-over-rashness-and-ignorance"
-    - "Cassian's rule on monastic custom, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
+    - "Cassian's rule on monastic custom, which sits in gallic.quote.antiquity-and-the-fathers-unanimous-decision"
     - "a bare slogan, when Vincent breaks it into three working tests"
     - "Scripture's sufficient canon and its need of the Church's reading, which sit in gallic.limit.no-one-who-saw-him"
   years: {from: 434, to: 434}

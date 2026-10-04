@@ -61,7 +61,7 @@ use_note:
   not_for:
     - "Martin's direct words throughout, when only the reason is reported as his"
     - "the outcome of the test, which the quoted passage does not include"
-    - "Cassian's rule on antiquity and consent, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
+    - "Cassian's rule on antiquity and consent, which sits in gallic.quote.antiquity-and-the-fathers-unanimous-decision"
     - "a separate witness from gallic.quote.no-steady-tradition-from-antiquity, whose sentence opens this passage"
   years: {from: 397, to: 397}
   status: reviewed

@@ -17,7 +17,7 @@ confidence:
     Heurtley's speculation is editorial. Tagged [AS].
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: 'ch. 1 [1-3] ("I, Peregrinus ... the least of all the servants of God"; "with the fidelity of a narrator rather than the presumption of an author"; "a Commonitory (or Remembrancer) for myself ... provide against my forgetfulness"); chs. 28-29 [75-76] (the summary of the lost book)'
+  locus: 'ch. 1 [1-3] ("I, Peregrinus ... who am the least of all the servants of God"; "with the fidelity of a narrator rather than the presumption of an author"; "a Commonitory (or Remembrancer) for myself ... provide against my forgetfulness"); chs. 28-29 [75-76] (the summary of the lost book)'
   license: public-domain
 - source_id: gallic.source.gennadius-de-viris-illustribus
   locus: 'ch. LXV ("Vincentius, the Gaul, presbyter in the Monastery on the Island of Lerins"; "Peregrinus against heretics"; "the greater part of the second book of this work having been stolen")'
@@ -53,8 +53,8 @@ relations:
 - type: associated-with
   target: gallic.term.conference
 plain_meaning: >-
-  Vincent's book. By its own name it is an aid to memory, against his own forgetting. He signs it
-  "Peregrinus, the least of all the servants of God" - a teller, not an author.
+  Vincent's book. By its own name it is an aid to memory, against his own forgetting. He opens it
+  as "I, Peregrinus, who am the least of all the servants of God" - a teller, not an author.
 world_word: Commonitory / "Peregrinus"
 false_friend:
 - '"Commonitory" as the name of a doctrinal treatise'

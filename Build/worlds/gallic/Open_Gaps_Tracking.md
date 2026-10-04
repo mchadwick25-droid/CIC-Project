@@ -689,3 +689,31 @@ Not fixed; content for this world's build thread.
 Seven quote records carry no use note because they speak from after the window (360-450): `gallic.quote.gennadius-grace-invites-precedes-and-helps`, `gallic.quote.gennadius-martin-famous-for-signs` and `gallic.quote.gennadius-on-the-dialogues-subject` (Gennadius, c. 495); `gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative`, `gallic.quote.heurtley-celestines-letter-addressed-to-gaul` and `gallic.quote.heurtley-semipelagian-leaning-reading` (nineteenth-century editors); and `gallic.quote.massilians-clung-to-their-views` (the editor Gibson's prolegomena).
 
 **Status: OPEN.**
+
+### OG-25. The record defects in OG-24 (slice 6), worked by this world's build thread, 2026-10-04.
+
+Each item was checked against the vendored source, `cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml`. All fourteen defects were real. Fixes:
+
+- OG-24 item 1. `gallic.quote.benjamin-relied-on-his-own-judgment`: Conference II.24 (lines 28106-28110) has Abbot Moses speaking to Cassian and Germanus ("your fellow citizen Benjamin"). The speaker, divergence note, locus and lens note now say so.
+- OG-24 item 2. `gallic.quote.allegiance-to-antiquity-not-a-few` is merged into `gallic.quote.antiquity-and-the-fathers-unanimous-decision`. Its locus now reads lines 16668-16672, where the sentence stands, and it took over the other record's retrieve_when and guards.
+- OG-24 item 3. `gallic.quote.cassian-archebius-expelled-from-monastic-system` is merged into `gallic.quote.archebius-carried-off-to-panephysis` (lines 36807-36825). The kept record now also points to `gallic.gravity.monk-bishop`.
+- OG-24 item 4. `gallic.quote.aloof-from-assemblies-of-bishops` is merged into `gallic.quote.gallus-on-the-forced-communion-and-the-angel`, whose last sentence it is (lines 5217-5219). The kept record now also points to `gallic.gravity.authority-ambivalence`.
+- OG-24 items 5 and 6. The split id `gallic.quote.germanus-and-chaeremon-on-the-husbandman` is whole again in the divergence notes of both Chaeremon quotes.
+- OG-24 item 7. `gallic.quote.secular-ruler-judge-in-ecclesiastical-cause` is merged into `gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause` (Sacred History II.50). The kept record also points to `gallic.gravity.authority-ambivalence`.
+- OG-24 item 8. `gallic.quote.without-grievous-blasphemy-all-men-to-be-saved` is merged into `gallic.quote.grievous-blasphemy-not-all-men-to-be-saved` (Conference XIII.7).
+- OG-24 item 9. `gallic.quote.private-fancy-be-he-a-bishop` is merged into `gallic.quote.private-fancy-of-his-own`, which carries the whole sentence (lines 14271-14278).
+- For items 2, 3, 4, 7, 8 and 9, the dropped record is under `Archive/Superseded-Records/gallic/`. Every relation and every neighbour guard that named it now names the kept record. The kept record carries the union of the two records' retrieve_when, and the reciprocal relations.
+- OG-24 item 10. `gallic.term.commonitory-peregrinus` now quotes "I, Peregrinus, who am the least of all the servants of God" (Commonitory ch. 1, line 12060).
+- OG-24 item 11. `gallic.term.monk-solitary` no longer puts "regarded as a monk" in quotation marks. Vita ch. II (line 740) reads "regarded not so much as being a soldier as a monk".
+- OG-24 item 12. `gallic.term.virtus` now quotes "was present" (Vita ch. VII, line 996).
+- OG-24 item 13. `gallic.term.monk-bishop` now quotes "under a kind of guard" (Vita ch. IX, lines 1067-1068).
+- OG-24 item 14. `gallic.story.the-three-lentil-beans` names `gallic.quote.weekly-service-and-sacred-vessels` whole in its text.
+- The seven records that speak from after the window (360-450) carry `voice: analytic`: `gallic.quote.gennadius-grace-invites-precedes-and-helps`, `gallic.quote.gennadius-martin-famous-for-signs`, `gallic.quote.gennadius-on-the-dialogues-subject`, `gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative`, `gallic.quote.heurtley-celestines-letter-addressed-to-gaul`, `gallic.quote.heurtley-semipelagian-leaning-reading` and `gallic.quote.massilians-clung-to-their-views`.
+
+Waivers: cells-required 132 to 119, readability 101 to 100, and the use-note-present waiver is deleted because it no longer fires.
+
+Still open:
+- The same wording as items 12 and 13 still stands outside the records. "Power present" appears in `gallic_Doc05_Ecological_Reconstruction.md`, `gallic_Doc07_Integrated_Ecology_Analysis.md`, `gallic_Doc09_Story_Inventory.md`, `gallic_Doc10_Review_Round1.md`, `gallic_Representative_Construction_Notes_Renatus.md`, `Lexicon-Chunks/galliclex010_virtus.md` and `Story-Chunks/gallicstory003_raising-of-the-catechumen.md`. "Escorted under guard" appears in `Lexicon-Chunks/galliclex013_monk-bishop.md`. The approved Doc_ files were not edited, and each use needs a check before anyone changes it.
+- The text of `gallic.quote.gallus-on-the-forced-communion-and-the-angel` joins Dialogues III.12 and III.13 with a bare "..." where the chapter break falls. It is not a verbatim run of one passage.
+
+Every fix sits on branch `build/gallic-slice6`. Every record file is part of gallic's compiled package, so the branch lands with gallic's next package rebuild, repin and paid re-admission (decision 36). Status: OPEN until it lands.

@@ -104,7 +104,7 @@ relations:
 - type: associated-with
   target: gallic.quote.nobles-forced-down-afterwards-made-bishops
 - type: associated-with
-  target: gallic.quote.cassian-archebius-expelled-from-monastic-system
+  target: gallic.quote.archebius-carried-off-to-panephysis
 - type: associated-with
   target: gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative
 name: "The monk-bishop: renunciation that does not leave the Church"

@@ -28,6 +28,8 @@ retrieval:
   retrieve_when:
   - "participant asks what Martin thought of the state judging a church matter, in Sulpitius's own words rather than the Dialogues' narrated scene"
   - "participant uses \"church and state\" or asks whether excommunication should have been enough"
+  - "participant asks what Martin thought about secular rulers judging Church matters"
+  - "participant asks why Martin opposed a state-run trial of the Priscillianists"
   prefer_instead:
   - "participant wants the fuller narrated scene at Treves, with the tribunes and the forced communion - retrieve gallic.quote.gallus-on-the-tribunes-for-the-spains or gallic.quote.gallus-on-the-forced-communion-and-the-angel"
 text: >-
@@ -50,12 +52,15 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.trier-and-the-ithacian-communion
+- type: associated-with
+  target: gallic.gravity.authority-ambivalence
 use_note:
   means: "Sulpitius, in his own voice in the Sacred History, states Martin's position that expulsion sufficed for the heretics and that a secular judge in a church cause was unheard of."
   not_for:
-    - "a separate witness from gallic.quote.secular-ruler-judge-in-ecclesiastical-cause, which carries the same sentence"
     - "independent corroboration of the Dialogues' Treves account, when both come from the same author"
     - "a claim that Martin thought the condemned were not heretics"
+    - "Martin's own direct words, when Sulpitius gives them in indirect speech"
+    - "Martin's later petition at the palace, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
   years: {from: 397, to: 406}
   status: reviewed
 ---

@@ -28,6 +28,8 @@ retrieval:
   retrieve_when:
   - "participant asks what happened after Martin's plea, whether he actually took communion with the Ithacians, or what the angel said to him"
   - "participant asks why Martin never attended a synod again, or what it cost him to compromise"
+  - "participant asks whether Martin ever regretted a compromise, or how he responded to it"
+  - "participant asks why this world's monks might distrust synods and assemblies of bishops"
   - "conversation reaches a bishop's power being weakened by a wrong he judges himself to have shared in"
   prefer_instead:
   - "participant is asking what Martin originally petitioned for at Treves, before the communion - retrieve gallic.quote.gallus-on-the-tribunes-for-the-spains"
@@ -126,12 +128,13 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.trier-and-the-ithacian-communion
+- type: associated-with
+  target: gallic.gravity.authority-ambivalence
 use_note:
   means: "Gallus narrates how Martin, to stop the tribunes, took communion with the Ithacian bishops, was answered by an angel, and afterwards felt his healing power diminished."
   not_for:
     - "the angel's speech and the lessened power as established fact, when they rest on Martin's tearful report through Gallus"
     - "the earlier petition at the palace over the tribunes, which sits in gallic.quote.gallus-on-the-tribunes-for-the-spains"
-    - "a separate witness from gallic.quote.aloof-from-assemblies-of-bishops, whose sentence closes this passage"
     - "heretics condemned in their absence, when the passage gives Maximus's claim of regular public trials"
   years: {from: 404, to: 406}
   status: reviewed

@@ -16,7 +16,7 @@ confidence:
     applies to monastic custom directly.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes I.2 (npnf211 div iv.iii.i.ii, file lines 16667-16671): the rule for what allegiance is owed, on the question of the monk's dress"
+  locus: "Institutes I.2 (npnf211 div iv.iii.i.ii, file lines 16668-16672): the rule for what allegiance is owed, on the question of the monk's dress"
   license: public-domain
 retrieval:
   tier: 1
@@ -24,6 +24,7 @@ retrieval:
   - "participant asks why this world valued old custom over new practice"
   - "participant asks what made a monastic rule legitimate to Cassian"
   - "participant asks about the difference between a few men's preference and the fathers' own tradition"
+  - "participant asks how the south's own reception logic is stated in Cassian's own words"
   prefer_instead:
   - "participant asks about a specific item of dress or custom this rule is applied to - this record carries the general principle, stated on the occasion of the monk's robe"
 text: >-
@@ -48,18 +49,21 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
+- type: associated-with
+  target: gallic.force.legitimacy-by-reception
 use_note:
   means: "Cassian lays down in Institutes I.2, on the monk's dress, that allegiance belongs to customs passed on by antiquity and the fathers' unanimous decision, not by a few."
   not_for:
-    - "a separate witness from gallic.quote.allegiance-to-antiquity-not-a-few, which carries the identical sentence"
     - "a rule Cassian applies only to clothing"
     - "a conciliar or episcopal rule, when it is a monastic writer's criterion for custom"
+    - "the Egyptian rejection of sackcloth itself, which sits in gallic.quote.egyptian-sackcloth-utterly-disapproved"
+    - "Vincent's threefold rule of universality, antiquity and consent, which sits in gallic.quote.believed-everywhere-always-by-all"
   years: {from: 415, to: 426}
   status: reviewed
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "unhesitating allegiance"` returns one hit, line 16668, inside `<div4 title="Chapter II. Of the
-Monk's Robe." ... id="iv.iii.i.ii">`. The sentence runs lines 16667-16671: "For we ought to give
+Monk's Robe." ... id="iv.iii.i.ii">`. The sentence runs lines 16668-16672: "For we ought to give
 unhesitating allegiance and unquestioning obedience, not to those customs and rules which the will of
 a few have introduced, but to those which a long standing antiquity and numbers of the holy fathers
 have passed on by an unanimous decision to those that come after."

@@ -97,7 +97,8 @@ relations:
 plain_meaning: >-
   A monk, for us, is a man who has cut himself off from marriage, kin, property and the life of the
   world for a stricter life in Christ's service. The cut shows in his body and his dwelling. But at
-  Tours a soldier still in the ranks could be "regarded as a monk," and so could a bishop in his see.
+  Tours a soldier still in the ranks was regarded not so much as a soldier as a monk, and a bishop in his see
+  could still be one.
 world_word: monk / solitary (monachus)
 false_friend:
 - a cloistered professional religious under a written Rule and an abbot

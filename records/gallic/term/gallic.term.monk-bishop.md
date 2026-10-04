@@ -118,7 +118,7 @@ relations:
 - type: associated-with
   target: gallic.term.virgin-virginity
 plain_meaning: >-
-  The office our monks keep being taken into. A monk "carried off," "escorted under guard," "bound to
+  The office our monks keep being taken into. A monk "carried off," escorted "under a kind of guard," "bound to
   the long-avoided office," who then keeps "the objects and virtues of a monk" in a see. And at the
   same time our own formation teaching names the desire for that office as vainglory's suggestion
   and the devil's pretext.

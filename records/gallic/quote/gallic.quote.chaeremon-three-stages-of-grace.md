@@ -17,8 +17,9 @@ confidence:
     Documented as Cassian's own text (Conference XIII.18, read at its locus for this record). Widely
     Accepted as Cassian's report of Chaeremon's teaching; its doctrinal content is Contested [CT] for
     its meaning relative to Augustine and for the fairness of the label "semi-Pelagian" - the same
-    caveat carried by this quote's companion records, gallic.quote.germanus-and-chaeremon-on-the-
-    husbandman and gallic.quote.chaeremon-grace-requires-our-effort, and neither depended on nor
+    caveat carried by this quote's companion records,
+    gallic.quote.germanus-and-chaeremon-on-the-husbandman and
+    gallic.quote.chaeremon-grace-requires-our-effort, and neither depended on nor
     resolved here. This record carries the three-stage teaching on its own, independently verified;
     Conference XIII.13's separate teaching, roughly 400 lines earlier in the same Conference, stands on
     its own in gallic.quote.chaeremon-grace-requires-our-effort, and the source does not connect the two

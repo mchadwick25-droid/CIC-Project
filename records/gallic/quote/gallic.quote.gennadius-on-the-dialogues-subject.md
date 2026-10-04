@@ -4,6 +4,7 @@ world_id: gallic-monastic-ascetic-christianity
 record_type: quote
 schema_version: 2
 status: ready
+voice: analytic
 register: emic
 canon_cells: []
 confidence:

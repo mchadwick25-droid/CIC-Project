@@ -61,7 +61,7 @@ use_note:
   means: "Cassian reports that the Egyptian fathers rejected sackcloth robes as conspicuous, conducive to vanity and unsuited to a monk's necessary work."
   not_for:
     - "a rejection of penance, when the objection is to visible display"
-    - "the general rule on antiquity and consent, which sits in gallic.quote.allegiance-to-antiquity-not-a-few"
+    - "the general rule on antiquity and consent, which sits in gallic.quote.antiquity-and-the-fathers-unanimous-decision"
     - "an explicit criticism of Martin by name"
   years: {from: 415, to: 426}
   status: reviewed

@@ -103,8 +103,8 @@ relations:
 - type: tension-with
   target: gallic.term.humility
 plain_meaning: >-
-  At Tours, virtus is not first a moral quality but effective power. It is the "power present" Martin
-  feels before he raises the dead, and the "abundance of power" he had as a monk and had less of as a
+  At Tours, virtus is not first a moral quality but effective power. It is the power Martin perceives "was present" before he
+  raises the dead, and the "abundance of power" he had as a monk and had less of as a
   bishop. At Marseilles Cassian uses the same word for moral virtue, and declines on principle to
   "weave a tale of God's miracles and signs."
 world_word: virtus / power

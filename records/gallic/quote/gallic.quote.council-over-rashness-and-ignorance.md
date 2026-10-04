@@ -48,7 +48,7 @@ use_note:
   means: "Vincent rules in the Commonitory that, where error appears, the decrees of an ancient general council are to be preferred to the rashness and ignorance of a few."
   not_for:
     - "the threefold everywhere-always-by-all test, which sits in gallic.quote.believed-everywhere-always-by-all"
-    - "a view shared by the Tours tradition, whose withdrawal from synods sits in gallic.quote.aloof-from-assemblies-of-bishops"
+    - "a view shared by the Tours tradition, whose withdrawal from synods sits in gallic.quote.gallus-on-the-forced-communion-and-the-angel"
   years: {from: 434, to: 434}
   status: reviewed
 ---

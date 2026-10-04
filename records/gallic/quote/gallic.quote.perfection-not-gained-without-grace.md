@@ -52,7 +52,7 @@ use_note:
   not_for:
     - "a settled verdict on Cassian's orthodoxy in the grace controversy"
     - "the habit of crediting progress to grace, which sits in gallic.quote.not-i-but-the-grace-of-god-with-me"
-    - "Chaeremon's teaching that God wills all to be saved, which sits in gallic.quote.without-grievous-blasphemy-all-men-to-be-saved"
+    - "Chaeremon's teaching that God wills all to be saved, which sits in gallic.quote.grievous-blasphemy-not-all-men-to-be-saved"
   years: {from: 415, to: 426}
   status: reviewed
 ---
