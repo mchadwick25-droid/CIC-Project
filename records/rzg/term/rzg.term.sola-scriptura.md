@@ -73,6 +73,12 @@ quick_meaning: Scripture alone, not church tradition or a pope's decree, is the 
   doctrine and our civic order. Zurich enacted this through public debate; Geneva enacted it through sustained
   teaching. Both cities hold the same conviction.
 distortion_risk: medium
+use_note:
+  means: "Scripture alone, not church tradition or a pope's decree, settles what the cities believe and how they govern their churches; Zurich tested it in debate and Geneva built it through teaching."
+  not_for:
+    - "a claim that it meant each believer decides doctrine from personal study without any authoritative church structure"
+  years: {from: 1519, to: 1650}
+  status: reviewed
 ---
 Built from Lexicon-Chunks/rzglex005_sola-scriptura.md (Approved to proceed, Doc_06
 Revision 2), converting that chunk's own Quick Meaning / World Meaning / Ecological Function /
