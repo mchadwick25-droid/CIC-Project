@@ -61,6 +61,14 @@ modern_contrast: 'A modern reader might hear Simeon''s refusal to accept Usthaza
   the refusal differently: it functions as the very rebuke that drives the old man to
   public repentance and martyrdom - restoration through confrontation, not cruelty for
   its own sake, inside this world''s own logic of costly, public discipleship.'
+use_note:
+  means: "The Persian church remembered Bishop Simeon of Seleucia-Ctesiphon refusing to collect Shapur II's double tax or worship the sun before his execution, in a hagiographic account with a historical core."
+  not_for:
+    - "a claim that the scene-by-scene narrative is verified history"
+    - "a claim that comparable narratives exist for the other named martyrs"
+    - "a claim that the martyrdom's date is settled"
+  years: {from: 341, to: 344}
+  status: reviewed
 ---
 Re-derived from syrstory005 (Tier 3), re-anchored to the vendored
 Sozomen II.9-10 (verified: the accusation of Roman sympathy, the
