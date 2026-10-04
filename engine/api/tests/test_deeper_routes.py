@@ -1069,3 +1069,24 @@ def test_an_older_reconcile_table_gains_the_grant_columns(tmp_path):
     days = {d["day"]: d for d in meter.reconciliation(5)}
     assert days[str(date(2026, 10, 4))]["admin_codes_minted"] == 0 and days[str(date(2026, 10, 5))]["admin_codes_minted"] == 1
     meter.close()
+
+
+def test_a_voided_grant_still_counts_toward_the_days_limit(minting):
+    from engine.deeper.meter import MintLimit
+
+    meter = minting.meter
+    limit = minting.ops.admin_mint_max_tokens_per_day
+    meter.mint("single", limit, "admin_one", source="admin", daily_token_limit=limit)
+    meter.void("admin_one")
+    with pytest.raises(MintLimit):
+        meter.mint("single", 1, "admin_two", source="admin", daily_token_limit=limit)
+
+
+def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
+    made = mint(http, count=2).json()
+    (row,) = http.get("/api/admin/deeper/grants", headers=admin()).json()["grants"]
+    assert row["grant_id"] == made["mint_id"] and row["codes"] == 2 and row["tokens"] == 2200 and row["codes_void"] == 0
+    assert not any(c.replace(" ", "") in json.dumps(row) for c in made["codes"])
+    http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin())
+    assert http.get("/api/admin/deeper/grants", headers=admin()).json()["grants"][0]["codes_void"] == 2
+    assert http.get("/api/admin/deeper/grants").status_code == 404

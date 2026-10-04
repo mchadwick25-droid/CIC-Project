@@ -218,6 +218,7 @@
         <button id="void-submit" type="button">Cancel its codes</button>
       </div>
       <div class="caveat" id="deeper-notice"></div>
+      <div class="caveat" id="grants-list"></div>
       <div id="mint-result" class="hidden" style="margin-top: 8px;">
         <div class="caveat" id="mint-result-note"></div>
         <pre id="mint-codes"></pre>
@@ -527,6 +528,17 @@
     slot.textContent = message;
     slot.classList.toggle("error", !!isError);
   }
+  async function loadGrants() {
+    const slot = document.getElementById("grants-list");
+    try {
+      const resp = await fetch("/api/admin/deeper/grants", { credentials: "same-origin" });
+      if (!resp.ok) return;
+      const rows = (await resp.json()).grants;
+      slot.textContent = rows.length
+        ? "Grants, last two days: " + rows.map((g) => g.grant_id + " (" + g.day + ", " + g.codes + " codes, " + fmtNumber(g.tokens) + " tokens" + (g.codes_void ? ", " + g.codes_void + " cancelled" : "") + ")").join("; ")
+        : "No grants in the last two days.";
+    } catch (e) { slot.textContent = ""; }
+  }
   let deeperStatus = null;
   function renderStatus(status) {
     deeperStatus = status;
@@ -613,6 +625,7 @@
   document.getElementById("deeper-pause-toggle").addEventListener("click", toggleDeeperPause);
   document.getElementById("mint-submit").addEventListener("click", makeCodes);
   document.getElementById("mint-hide").addEventListener("click", hideCodes);
+  document.addEventListener("visibilitychange", () => { if (document.hidden) hideCodes(); });
   document.getElementById("mint-copy").addEventListener("click", async () => {
     try { await navigator.clipboard.writeText(shownCodes); deeperNotice("Codes copied.", false); } catch (e) { deeperNotice("Could not copy; select the codes by hand.", true); }
   });
@@ -633,6 +646,7 @@
           if (doorResp.ok) renderObserveNote((await doorResp.json()).door);
         } catch (e) { /* the note is optional */ }
         await loadStatus();
+        await loadGrants();
       }
       else document.getElementById("deeper-section").classList.add("hidden");
     } catch (e) {

@@ -493,9 +493,17 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             raise HTTPException(status_code=429, detail="today's grant limit is reached; it resets tomorrow")
         except ValueError as exc:
             raise HTTPException(status_code=422, detail=str(exc))
-        runtime.meter.add_funds("gift", req.pack_usd * req.count * 100, grant_id, "admin grant")
+        try:
+            runtime.meter.add_funds("gift", req.pack_usd * req.count * 100, grant_id, "admin grant")
+        except ValueError:
+            logger.error("admin grant made but its gift could not be counted toward the door")
         response.headers["Cache-Control"] = "no-store"
         return {"mint_id": grant_id, "tokens_each": tokens, "codes": [codes.display(c) for c in made]}
+
+    @app.get("/api/admin/deeper/grants")
+    def grants(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"grants": runtime.meter.grants(2)}
 
     @app.get("/api/admin/deeper/status")
     def status(request: Request, authorization: str | None = Header(default=None)):

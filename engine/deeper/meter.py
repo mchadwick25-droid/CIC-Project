@@ -539,6 +539,22 @@ class Meter:
             if total - used > 0
         ]
 
+    def grants(self, days: int = 2) -> list[dict]:
+        """The grants made on the last few days, by grant id, so one whose response was lost can be cancelled.
+        Ids, counts and token totals only; the codes stay hashed."""
+        since = (self._clock() - timedelta(days=days - 1)).isoformat()
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT payment_id, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created), SUM(status = 'void')"
+                " FROM meter WHERE day_created >= ? AND (payment_id LIKE 'admin\\_%' ESCAPE '\\' OR payment_id LIKE 'pilot\\_%' ESCAPE '\\')"
+                " GROUP BY payment_id ORDER BY MIN(day_created) DESC, payment_id",
+                (since,),
+            ).fetchall()
+        return [
+            {"grant_id": pid, "codes": n, "tokens": total, "tokens_used": used, "day": day, "codes_void": voided}
+            for pid, n, total, used, day, voided in rows
+        ]
+
     def _add(self, measure: str, amount: int, day: str) -> None:
         self._conn.execute(
             "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
